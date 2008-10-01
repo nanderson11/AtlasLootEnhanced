@@ -1,0 +1,25 @@
+﻿## Interface: 20400
+## Title: AtlasLoot_RepFactions
+## Title-deDE: AtlasLoot |cFF0099FF[Ruf-Fraktionen]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[声望阵营奖励]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 聲望/陣營
+## Notes: AtlasLoot loot tables from all reputation factions
+## Notes-deDE: Atlasloot Loot-Tabellen für sämtliche Ruf-Fraktionen
+## Notes-zhCN: AtlasLoot Enhanced 的声望阵营奖励物品信息
+## Notes-zhTW: AtlasLoot 各聲望陣營物品資料庫
+## Author: Daviesh
+## Version: 4.06.03
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+rep.lua
+rep.cn.lua
+rep.de.lua
+rep.es.lua
+rep.fr.lua
+rep.kr.lua
+rep.tw.lua

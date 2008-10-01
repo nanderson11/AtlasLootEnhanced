@@ -1,0 +1,25 @@
+﻿## Interface: 20400
+## Title: AtlasLoot_BCInstances
+## Title-deDE: AtlasLoot |cFF0099FF[BC-Instanzen]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[燃烧的远征]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 燃燒的遠征
+## Notes: AtlasLoot loot tables from Burning Crusade instances
+## Notes-deDE: AtlasLoot Loot-Tabellen für Burning Crusade Instanzen
+## Notes-zhCN: AtlasLoot Enhanced 的《燃烧的远征》的副本掉落信息
+## Notes-zhTW: AtlasLoot 燃燒的遠征副本掉落物品資料庫
+## Author: Daviesh
+## Version: 4.06.03
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+burningcrusade.en.lua
+burningcrusade.cn.lua
+burningcrusade.de.lua
+burningcrusade.es.lua
+burningcrusade.fr.lua
+burningcrusade.kr.lua
+burningcrusade.tw.lua

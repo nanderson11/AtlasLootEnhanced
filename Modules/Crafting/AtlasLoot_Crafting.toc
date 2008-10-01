@@ -1,0 +1,25 @@
+﻿## Interface: 20400
+## Title: AtlasLoot_Crafting
+## Title-deDE: AtlasLoot |cFF0099FF[BC-Instanzen]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[交易技能物品]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 商業技能物品
+## Notes: AtlasLoot loot tables of Crafting Items
+## Notes-deDE: AtlasLoot loot tables of Crafting Items
+## Notes-zhCN: AtlasLoot 交易技能制造出的物品表
+## Notes-zhTW: AtlasLoot 商業技能物品資料庫
+## Author: Daviesh
+## Version: 4.06.03
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+crafting.en.lua
+crafting.cn.lua
+crafting.de.lua
+crafting.es.lua
+crafting.fr.lua
+crafting.tw.lua
+crafting.kr.lua

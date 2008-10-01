@@ -1,0 +1,25 @@
+﻿## Interface: 20400
+## Title: AtlasLoot_OldInstances
+## Title-deDE: AtlasLoot |cFF0099FF[Alte Instanzen]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[经典旧世]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 艾澤拉斯世界
+## Notes: AtlasLoot loot tables from pre-Burning Crusade instances
+## Notes-deDE: AtlasLoot Loot-Tabellen für Instanzen vor Burning Crusade
+## Notes-zhCN: AtlasLoot Enhanced 的《燃烧的远征》发售之前的副本掉落信息
+## Notes-zhTW: AtlasLoot 艾澤拉斯副本掉落物品資料庫
+## Author: Daviesh
+## Version: 4.06.03
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+original.en.lua
+original.cn.lua
+original.de.lua
+original.es.lua
+original.fr.lua
+original.tw.lua
+original.kr.lua

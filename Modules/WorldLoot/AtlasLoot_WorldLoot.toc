@@ -1,0 +1,32 @@
+﻿## Interface: 20400
+## Title: AtlasLoot_WorldLoot
+## Title-deDE: AtlasLoot |cFF0099FF[Welt-Loot]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[户外首领]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 野外首領
+## Notes: AtlasLoot loot tables from outdoor raid bosses and world events
+## Notes-deDE: AtlasLoot Loot-Tabellen für Outdoorbosse und Welt-Events
+## Notes-zhCN: AtlasLoot Enhanced 的户外首领掉落物品信息
+## Notes-zhTW: AtlasLoot 野外首領與世界事件掉落物品資料庫
+## Author: Daviesh
+## Version: 4.06.03
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+WorldRaidBosses.en.lua
+WorldRaidBosses.cn.lua
+WorldRaidBosses.de.lua
+WorldRaidBosses.es.lua
+WorldRaidBosses.fr.lua
+WorldRaidBosses.kr.lua
+WorldRaidBosses.tw.lua
+WorldEvents.en.lua
+WorldEvents.cn.lua
+WorldEvents.de.lua
+WorldEvents.es.lua
+WorldEvents.fr.lua
+WorldEvents.kr.lua
+WorldEvents.tw.lua
