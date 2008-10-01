@@ -11,7 +11,7 @@ externals:
     Libs/FuBarPlugin-2.0: svn://svn.wowace.com/wow/fu-bar-plugin-2-0/mainline/trunk/FuBarPlugin-2.0
     Libs/LibBabble-Boss-3.0: svn://svn.wowace.com/wow/lib-babble-boss-3-0/mainline/trunk
     Libs/LibBabble-Class-3.0: svn://svn.wowace.com/wow/lib-babble-class-3-0/mainline/trunk
-    Libs/LibBabble-Faction-3.0: svn://svn.wowace.com/wow/lib-babble-faction-3-0/mainline/trunk
+    Libs/LibBabble-Faction-3.0: svn://svn.wowace.com/wow/libbabble-faction-3-0/mainline/trunk
     Libs/LibBabble-Inventory-3.0: svn://svn.wowace.com/wow/lib-babble-inventory-3-0/mainline/trunk
     Libs/LibBabble-Zone-3.0: svn://svn.wowace.com/wow/lib-babble-zone-3-0/mainline/trunk
     Libs/Tablet-2.0: svn://svn.wowace.com/wow/wowace-tablet-lib/mainline/trunk/Tablet-2.0
