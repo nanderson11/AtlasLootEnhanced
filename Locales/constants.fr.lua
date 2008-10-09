@@ -266,40 +266,51 @@ if AL then
     AL["Summon"] = "Invocation";
     AL["Random"] = "Aléatoire";
     AL["Weapons"] = "Armes";
-    --AL["Sold at"] = true; -- à traduire
+    AL["Sold at"] = "Vendu à";
     AL["Reward"] = "Récompense";
     AL["Achievement"] = "Haut fait"
-    --AL["Unattainable Tabards"] = true; -- à traduire
+    AL["Unattainable Tabards"] = "Tabards inaccessible";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Objets des cartes à jouer WoW TCG";
-    AL["Heroes of Azeroth"] = "Héros d'Azeroth"; -- 1ère série
-    AL["Through The Dark Portal"] = "A Travers la Porte des Ténèbres"; -- 2ème série
-    AL["Fires of Outland"] = "Les Feux de l'Outreterre"; -- 3ème série
-    AL["March of the Legion"] = "Marche de la Légion"; -- 4ème série
-    AL["Servants of the Betrayer"] = "Les Serviteurs du Traître"; -- 5ème série
-    AL["Hunt for Illidan"] = "La Traque d'Illidan"; -- 6ème série
-    AL["Drums of War"] = "Tambours de Guerre"; -- 7ème série
     AL["Loot Card Items"] = "Objets des cartes à jouer";
     AL["UDE Items"] = "Objets (points UDE)";
-    AL["Landro Longshot"] = "Landro Tirauloin"; -- 1ère série
-    AL["Thunderhead Hippogryph"] = "Hippogryffe Tête-Tonnerre"; -- 1ère série
-    AL["Saltwater Snapjaw"] = "Gueule d'acier des mers"; -- 1ère série
-    AL["King Mukla"] = "Roi Mukla"; -- 2ème série
-    AL["Rest and Relaxation"] = "Repos et relaxation"; -- 2ème série
-    AL["Fortune Telling"] = "La Bonne Aventure"; -- 2ème série
-    AL["Spectral Tiger"] = "Tigre Spectral"; -- 3ème série
-    AL["Gone Fishin'"] = "Parti Pêcher"; -- 3ème série
-    AL["Goblin Gumbo"] = "Gumbo Gobelin"; -- 3ème série
-    --AL["Kiting"] = true, -- 4ème série
-    AL["Robotic Homing Chicken"] = "Poulet Robot Guidé"; -- 4ème série
-    AL["Paper Airplane"] = "Machine volante en papier"; -- 4ème série
-    AL["X-51 Nether-Rocket"] = "Fusée-de-néant X-51"; -- 5ème série
-    AL["Personal Weather Machine"] = "Machine météorologique gobeline"; -- 5ème série
-    AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Biscuit pour familier à l'ancienne de papa Humme"; -- 5ème série
-    --AL["The Footsteps of Illidan"] = true, -- 6ème série -- à traduire
-    --AL["Disco Inferno!"] = true, -- 6ème série -- à traduire
-    AL["Ethereal Plunderer"] = "Pilleur éthérien"; -- 6ème série
+
+    -- serie 1
+    AL["Heroes of Azeroth"] = "Héros d'Azeroth";
+	AL["Landro Longshot"] = "Landro Tirauloin";
+	AL["Thunderhead Hippogryph"] = "Hippogryffe Tête-Tonnerre";
+	AL["Saltwater Snapjaw"] = "Gueule d'acier des mers";
+    -- serie 2
+    AL["Through The Dark Portal"] = "A Travers la Porte des Ténèbres";
+	AL["King Mukla"] = "Roi Mukla";
+	AL["Rest and Relaxation"] = "Repos et relaxation";
+	AL["Fortune Telling"] = "La Bonne Aventure";
+    -- serie 3
+    AL["Fires of Outland"] = "Les Feux de l'Outreterre";
+	AL["Spectral Tiger"] = "Tigre Spectral";
+	AL["Gone Fishin'"] = "Parti Pêcher";
+	AL["Goblin Gumbo"] = "Gumbo Gobelin";
+    -- serie 4
+    AL["March of the Legion"] = "Marche de la Légion";
+	--AL["Kiting"] = true; -- à traduire
+	AL["Robotic Homing Chicken"] = "Poulet Robot Guidé";
+	AL["Paper Airplane"] = "Machine volante en papier";
+    -- serie 5
+    AL["Servants of the Betrayer"] = "Les Serviteurs du Traître";
+	AL["X-51 Nether-Rocket"] = "Fusée-de-néant X-51";
+	AL["Personal Weather Machine"] = "Machine météorologique gobeline";
+	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Biscuit pour familier à l'ancienne de papa Humme";
+    -- serie 6
+    AL["Hunt for Illidan"] = "La Traque d'Illidan";
+	--AL["The Footsteps of Illidan"] = true; -- à traduire
+	--AL["Disco Inferno!"] = true; -- à traduire
+	AL["Ethereal Plunderer"] = "Pilleur éthérien";
+    -- serie 7
+    AL["Drums of War"] = "Tambours de Guerre";
+	--AL["The Red Bearon"] = true; -- à traduire
+	--AL["Owned!"] = true; -- à traduire
+	--AL["Slashdance"] = true; -- à traduire
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "Récompenses Diverses";
