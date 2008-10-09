@@ -13,7 +13,7 @@ The AL["text"] = true; shortcut can ONLY be used for English (the root translati
 --Create the library instance
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 
-local AL = AceLocale:NewLocale("AtlasLoot", "zhTW", true);
+local AL = AceLocale:NewLocale("AtlasLoot", "zhTW", false);
 
 --Register translations
 if AL then
