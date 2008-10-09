@@ -300,6 +300,9 @@ if AL then
     AL["The Footsteps of Illidan"] = true;
     AL["Disco Inferno!"] = true;
     AL["Ethereal Plunderer"] = true;
+    AL["The Red Bearon"] = true;
+    AL["Owned!"] = true;
+    AL["Slashdance"] = true;
 
     --Battleground Brackets
     AL["Misc. Rewards"] = true;

@@ -65,10 +65,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#"};
 		{ 18, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#"};
 		{ 19, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#"};
-		{ 20, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
-		{ 21, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
-		{ 22, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
-		{ 23, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
+		{ 21, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
+		{ 22, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
+		{ 23, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
+		{ 24, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
 	};
 	
 	AtlasLoot_Data["UtgardeKeepHEROIC"] = {
@@ -188,7 +188,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
 		{ 19, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
 		{ 20, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
-		{ 22, 0, "INV_Box_01", "=q6=#Commander Stoutbeard#", ""};
+		{ 22, 0, "INV_Box_01", "=q6=Commander Stoutbeard", ""};
 		{ 23, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#"};
 		{ 24, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
 		{ 25, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#"};
@@ -2474,9 +2474,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["CardGame1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud27#"};
-		{ 2, 38576, "", "=q4=Big Battle Bear", "=ds=#e12#"};
-		{ 3, 0, "", "=q3=Taunt Flag", "=ds=#m20#"};
-		{ 4, 38577, "", "=q1=Party Grenade", "=ds=#m20#"};
+		{ 2, 38576, "", "=q4=Big Battle Bear", "=ds=#ud28#"};
+		{ 3, 0, "", "=q3=Taunt Flag", "=ds=#ud29#"};
+		{ 4, 38577, "", "=q1=Party Grenade", "=ds=#ud30#"};
 		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud23#"};
 		{ 7, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#ud26#"};
 		{ 8, 38301, "", "=q3=D.I.S.C.O", "=ds=#ud25#"};

@@ -232,6 +232,9 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#ud25#", AL["Disco Inferno!"]);
     text = gsub(text, "#ud26#", AL["Ethereal Plunderer"]);
     text = gsub(text, "#ud27#", AL["Drums of War"]);
+    text = gsub(text, "#ud28#", AL["The Red Bearon"]);
+    text = gsub(text, "#ud29#", AL["Owned!"]);
+    text = gsub(text, "#ud30#", AL["Slashdance"]);
 
     -- ZG Tokens
     text = gsub(text, "#zgt1#", AL["Primal Hakkari Kossack"]);
