@@ -273,36 +273,44 @@ if AL then
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = true;
-    AL["Heroes of Azeroth"] = true;
-    AL["Through The Dark Portal"] = true;
-    AL["Fires of Outland"] = true;
-    AL["Servants of the Betrayer"] = true;
-    AL["Hunt for Illidan"] = true;
-    AL["Drums of War"] = true;
     AL["Loot Card Items"] = true;
     AL["UDE Items"] = true;
-    AL["Landro Longshot"] = true;
-    AL["Thunderhead Hippogryph"] = true;
-    AL["Saltwater Snapjaw"] = true;
-    AL["King Mukla"] = true;
-    AL["Rest and Relaxation"] = true;
-    AL["Fortune Telling"] = true;
-    AL["Goblin Gumbo"] = true;
-    AL["Gone Fishin'"] = true;
-    AL["Spectral Tiger"] = true;
+
+    -- serie 1
+    AL["Heroes of Azeroth"] = true;
+	AL["Landro Longshot"] = true;
+	AL["Thunderhead Hippogryph"] = true;
+	AL["Saltwater Snapjaw"] = true;
+    -- serie 2
+    AL["Through The Dark Portal"] = true;
+	AL["King Mukla"] = true;
+	AL["Rest and Relaxation"] = true;
+	AL["Fortune Telling"] = true;
+    -- serie 3
+    AL["Fires of Outland"] = true;
+	AL["Spectral Tiger"] = true;
+	AL["Gone Fishin'"] = true;
+	AL["Goblin Gumbo"] = true;
+    -- serie 4
     AL["March of the Legion"] = true;
-    AL["Kiting"] = true;
-    AL["Robotic Homing Chicken"] = true;
-    AL["Paper Airplane"] = true;
-    AL["Papa Hummel's Old-fashioned Pet Biscuit"] = true;
-    AL["Personal Weather Machine"] = true;
-    AL["X-51 Nether-Rocket"] = true;
-    AL["The Footsteps of Illidan"] = true;
-    AL["Disco Inferno!"] = true;
-    AL["Ethereal Plunderer"] = true;
-    AL["The Red Bearon"] = true;
-    AL["Owned!"] = true;
-    AL["Slashdance"] = true;
+	AL["Kiting"] = true;
+	AL["Robotic Homing Chicken"] = true;
+	AL["Paper Airplane"] = true;
+    -- serie 5
+    AL["Servants of the Betrayer"] = true;
+	AL["X-51 Nether-Rocket"] = true;
+	AL["Personal Weather Machine"] = true;
+	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = true;
+    -- serie 6
+    AL["Hunt for Illidan"] = true;
+	AL["The Footsteps of Illidan"] = true;
+	AL["Disco Inferno!"] = true;
+	AL["Ethereal Plunderer"] = true;
+    -- serie 7
+    AL["Drums of War"] = true;
+	AL["The Red Bearon"] = true;
+	AL["Owned!"] = true;
+	AL["Slashdance"] = true;
 
     --Battleground Brackets
     AL["Misc. Rewards"] = true;
