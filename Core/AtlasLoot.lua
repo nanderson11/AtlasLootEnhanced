@@ -118,8 +118,6 @@ AtlasLoot_MenuList = {
 	"ARENA3SET",
 	"ARENA4SET",
 	"DS3SET",
-	"70TOKENMENU",
-	"WORLDEPICS",
 	"ALCHEMYMENU",
 	"SMITHINGMENU",
 	"ENCHANTINGMENU",
@@ -559,10 +557,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootARENA4SetMenu();
 	elseif(dataID=="DS3SET") then
 		AtlasLootDS3SetMenu();
-	elseif(dataID=="70TOKENMENU") then
-		AtlasLoot70TokenMenu();
-	elseif(dataID=="WORLDEPICS") then
-		AtlasLootWorldEpicsMenu();
 	elseif(dataID=="ALCHEMYMENU") then
 		AtlasLoot_AlchemyMenu();
 	elseif(dataID=="SMITHINGMENU") then
