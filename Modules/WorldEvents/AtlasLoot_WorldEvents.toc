@@ -1,0 +1,18 @@
+﻿## Interface: 30000
+## Title: AtlasLoot_WorldEvents
+## Title-deDE: AtlasLoot |cFF0099FF[Welt-Loot]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[户外首领]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 野外首領
+## Notes: AtlasLoot loot tables from world events
+## Notes-zhCN: AtlasLoot Enhanced 的户外首领掉落信息
+## Author: Daviesh
+## Version: 5.00.00
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+worldevents.lua
+localization.lua

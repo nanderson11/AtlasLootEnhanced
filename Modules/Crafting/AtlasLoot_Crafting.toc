@@ -1,0 +1,17 @@
+﻿## Interface: 30000
+## Title: AtlasLoot_Crafting
+## Notes: AtlasLoot loot tables of Crafting Items
+## Notes-deDE: AtlasLoot loot tables of Crafting Items
+## Notes-zhCN: AtlasLoot 交易技能制造出的物品表
+## Notes-zhTW: AtlasLoot 商業技能物品資料庫
+## Author: Daviesh
+## Version: 5.00.00
+## X-eMail: oma_daviesh@hotmail.com
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+crafting.lua
+localization.lua
