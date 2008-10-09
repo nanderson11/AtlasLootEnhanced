@@ -1,3 +1,6 @@
+local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
+local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+
 -- Index
 --- Dungeons & Raids
 ---- Utgarde Keep
@@ -37,9 +40,6 @@
 ---- Mounts
 ---- Emblem of Valor Items
 ---- Emblem of Heroism Items
-
-local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
-local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -1256,7 +1256,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 44216, "", "=q3=Cloak of Holy Extermination", "=ds=#s4#"};
 		{ 18, 44240, "", "=q3=Special Issue Legplates", "=ds=#s11#, #a4#"};
 		{ 19, 44239, "", "=q3=Standard Issue Legguards", "=ds=#s11#, #a4#"};
-		{ 20, 44139, "", "=q3=Arcanum of Fleeing Shadow", "=ds=#s1# #e17#"};
+		{ 20, 44139, "", "=q3=Arcanum of the Fleeing Shadow", "=ds=#s1# #e17#"};
 		{ 22, 0, "INV_Jewelry_Talisman_08", "=q6=#r5#", ""};
 		{ 23, 44297, "", "=q4=Boots of the Neverending Path", "=ds=#s12#, #a2#"};
 		{ 24, 44295, "", "=q4=Polished Regimental Hauberk", "=ds=#s5#, #a3#"};
@@ -1272,16 +1272,19 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["FrenzyheartTribe"] = {
 		{ 1, 0, "INV_Misc_Rune_14", "=q6=#r2#", ""};
-		{ 2, 44064, "", "=q1=Nepeta Leaf", "=ds="};
-		{ 3, 44072, "", "=q1=Roasted Mystery Beast", "=ds=#e3#"};
-		{ 5, 0, "INV_Misc_Rune_14", "=q6=#r4#", ""};
-		{ 6, 44116, "", "=q3=Muddied Crimson Gloves", "=ds=#s9#, #a1#"};
-		{ 7, 44117, "", "=q3=Azure Strappy Pants", "=ds=#s11#, #a2#"};
-		{ 8, 44122, "", "=q3=Scavenged Feathery Leggings", "=ds=#s11#, #a3#"};
-		{ 9, 44120, "", "=q3=Giant-Sized Gauntlets", "=ds=#s9#, #a4#"};
-		{ 10, 44121, "", "=q3=Sparkly Shiny Gloves", "=ds=#s9#, #a4#"};
-		{ 11, 44123, "", "=q3=Discarded Titanium Legplates", "=ds=#s11#, #a4#"};
-		{ 12, 44118, "", "=q3=Stolen Vrykul Harpoon", "=ds=#w11#"};
+		{ 2, 41561, "", "=q2=Design: Reckless Huge Citrine", "=ds=#p12# 350"};
+		{ 3, 44064, "", "=q1=Nepeta Leaf", "=ds="};
+		{ 4, 44072, "", "=q1=Roasted Mystery Beast", "=ds=#e3#"};
+		{ 6, 0, "INV_Misc_Rune_14", "=q6=#r4#", ""};
+		{ 7, 44116, "", "=q3=Muddied Crimson Gloves", "=ds=#s9#, #a1#"};
+		{ 8, 44117, "", "=q3=Azure Strappy Pants", "=ds=#s11#, #a2#"};
+		{ 9, 44122, "", "=q3=Scavenged Feathery Leggings", "=ds=#s11#, #a3#"};
+		{ 10, 44120, "", "=q3=Giant-Sized Gauntlets", "=ds=#s9#, #a4#"};
+		{ 11, 44121, "", "=q3=Sparkly Shiny Gloves", "=ds=#s9#, #a4#"};
+		{ 12, 44123, "", "=q3=Discarded Titanium Legplates", "=ds=#s11#, #a4#"};
+		{ 13, 44118, "", "=q3=Stolen Vrykul Harpoon", "=ds=#w11#"};
+		{ 14, 41723, "", "=q3=Design: Jagged Forest Emerald", "=ds=#p12# 390"};
+		{ 15, 44717, "", "=q1=Disgusting Jar", "=ds="};
 		{ 16, 0, "INV_Misc_Rune_14", "=q6=#r5#", ""};
 		{ 17, 44073, "", "=q4=Frenzyheart Insignia of Fury", "=ds=#s14#"};
 		Back = "REPMENU_WOTLK";
@@ -1362,7 +1365,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 9, 44055, "", "=q3=Whale-Skin Vest", "=ds=#s5#, #a2#"};
 		{ 10, 44059, "", "=q3=Cuttlefish Scale Breastplate", "=ds=#s5#, #a3#"};
 		{ 11, 44060, "", "=q3=Cuttlefish Tooth Ringmail", "=ds=#s5#, #a3#"};
-		{ 12, 44057, "", "=q3=Ivory Reinforced Chestguard", "=ds=#s5#, #a4#"};
+		{ 12, 44057, "", "=q3=Ivory-Reinforced Chestguard", "=ds=#s5#, #a4#"};
 		{ 13, 44058, "", "=q3=Whalebone Carapace", "=ds=#s5#, #a4#"};
 		{ 14, 44511, "", "=q3=Pattern: Dragonscale Ammo Pouch", "=ds=#p7# (415)"};
 		{ 15, 41574, "", "=q2=Design: Defender's Shadow Crystal", "=ds=#p12# (350)"};
@@ -1392,10 +1395,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 44106, "", "=q3=Glitterscale Wrap", "=ds=#s10#, #a2#" };
 		{ 19, 44110, "", "=q3=Sharkjaw Cap", "=ds=#s1#, #a3#" };
 		{ 20, 44109, "", "=q3=Toothslice Helm", "=ds=#s1#, #a3#" };
-		{ 21, 44111, "", "=q3=Gold Star Spaulders", "=ds=#s3#, #a4#" };
-		{ 22, 44108, "", "=q3=Shinygem Rod", "=ds=#w12#" };
-		{ 23, 41724, "", "=q3=Design: Sundered Forest Emerald", "=ds=#p12# (390)"};
-		{ 24, 39883, "", "=q1=Cracked Egg", "=ds="};
+		{ 21, 44112, "", "=q3=Glimmershell Shoulder Protectors", "=ds=#s3#, #a4#" };
+		{ 22, 44111, "", "=q3=Gold Star Spaulders", "=ds=#s3#, #a4#" };
+		{ 23, 44108, "", "=q3=Shinygem Rod", "=ds=#w12#" };
+		{ 24, 41724, "", "=q3=Design: Sundered Forest Emerald", "=ds=#p12# (390)"};
+		{ 25, 39878, "", "=q1=Mysterious Egg", "=ds="};
 		{ 8, 0, "INV_Helmet_138", "=q6=#r5#", ""};
 		{ 9, 44074, "", "=q4=Oracle Talisman of Ablution", "=ds=#s14#"};
 		Back = "REPMENU_WOTLK";
@@ -2666,24 +2670,32 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 44077, "", "=q4=Reins of the Black War Mammoth", "=ec1=#m6#"};
 		{ 4, 44230, "", "=q4=Reins of the Wooly Mammoth ", "=ec1=#m7#"};
 		{ 5, 44231, "", "=q4=Reins of the Wooly Mammoth ", "=ec1=#m6#"};
-		{ 6, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m7#"};
-		{ 7, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m6#"};
-		{ 8, 44225, "", "=q4=Reins of the Armored Brown Bear", "=ec1=#m7#"};
-		{ 9, 44226, "", "=q4=Reins of the Armored Brown Bear", "=ec1=#m6#"};
-		{ 10, 44224, "", "=q4=Reins of the Black War Bear", "=ec1=#m6#"};
-		{ 11, 44235, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ec1=#m7#"};
-		{ 12, 44234, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ec1=#m6#"};
-		{ 14, 0, "", "=q6=Flying Mounts", ""};
-		{ 15, 43986, "", "=q4=Reins of the Black Drake", "=ds=10 man Obsidian Sanctuary hard mode"};
-		{ 16, 0, "", "=q4=Red Proto-Drake", "=ds=#m34# #m33#"};
-		{ 17, 0, "", "=q4=Black Proto-Drake", "=ds=#m34# #m33#"};
-		{ 18, 0, "", "=q4=Blue Proto-Drake", "=ds="};
-		{ 19, 0, "", "=q4=White Proto-Drake", "=ds="};
-		{ 20, 0, "", "=q4=Plagued Proto-Drake", "=ds="};
-		{ 21, 0, "", "=q4=Violet Proto-Drake", "=ds=#m34# #m33#"};
-		{ 22, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#m34# #m33#"};
-		{ 24, 44690, "", "=q4=Armored Blue Wind Rider", "=ds="};
-		{ 25, 44689, "", "=q4=Armored Snowy Gryphon", "=ds="};
+		{ 6, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m7# The Sons of Hodir"};
+		{ 7, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m6# The Sons of Hodir"};
+		{ 8, 43958, "", "=q4=Reins of the Ice Mammoth", "=ec1=#m7# The Sons of Hodir"};
+		{ 9, 44080, "", "=q4=Reins of the Ice Mammoth", "=ec1=#m6# The Sons of Hodir"};
+		{ 10, 44225, "", "=q4=Reins of the Armored Brown Bear", "=ec1=#m7#"};
+		{ 11, 44226, "", "=q4=Reins of the Armored Brown Bear", "=ec1=#m6#"};
+		{ 12, 44224, "", "=q4=Reins of the Black War Bear", "=ec1=#m6#"};
+		{ 13, 44235, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ec1=#m7#"};
+		{ 14, 44234, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ec1=#m6#"};
+		{ 16, 0, "", "=q6=Flying Mounts", ""};
+		{ 17, 43986, "", "=q4=Reins of the Black Drake", "=ds=10 man Obsidian Sanctuary hard mode"};
+
+		{ 18, 43953, "", "=q4=Reins of the Blue Drake", "=ds=Malygos"};
+		{ 19, 43951, "", "=q4=Reins of the Bronze Drake", "=ds= Infinite Corruptor in heroic Caverns of Time: Stratholme"};
+		{ 20, 43955, "", "=q4=Reins of the Red Drake", "=ds=The Wyrmrest Accord - Exalted"};
+		{ 21, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=25 man Obsidian Sanctuary hard mode"};
+
+		{ 22, 0, "", "=q4=Red Proto-Drake", "=ds=#m34# #m33#"};
+		{ 23, 0, "", "=q4=Black Proto-Drake", "=ds=#m34# #m33#"};
+		{ 24, 0, "", "=q4=Blue Proto-Drake", "=ds="};
+		{ 25, 0, "", "=q4=White Proto-Drake", "=ds="};
+		{ 26, 0, "", "=q4=Plagued Proto-Drake", "=ds="};
+		{ 27, 0, "", "=q4=Violet Proto-Drake", "=ds=#m34# #m33#"};
+		{ 28, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#m34# #m33#"};
+		{ 29, 44690, "", "=q4=Armored Blue Wind Rider", "=ds="};
+		{ 30, 44689, "", "=q4=Armored Snowy Gryphon", "=ds="};
 		Next = "Mounts32";
 		Back = "MOUNTMENU";
 	};
