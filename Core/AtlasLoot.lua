@@ -724,13 +724,20 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
         --Checks if a heroic version of the loot table is available.
         HeroicCheck=string.sub(dataID, string.len(dataID)-5, string.len(dataID));
         HeroicdataID=dataID.."HEROIC";
+        NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
         if dataSource[HeroicdataID] then
             AtlasLootItemsFrame_Heroic:Show();
             AtlasLootItemsFrame_Heroic:SetChecked(false);
+            AtlasLootItemsFrame_Heroic:Enable();
         else
             if HeroicCheck=="HEROIC" then
                 AtlasLootItemsFrame_Heroic:Show();
                 AtlasLootItemsFrame_Heroic:SetChecked(true);
+                if dataSource[NonHeroicdataID] then
+                    AtlasLootItemsFrame_Heroic:Enable();
+                else
+                    AtlasLootItemsFrame_Heroic:Disable();
+                end
             end
         end
         BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));

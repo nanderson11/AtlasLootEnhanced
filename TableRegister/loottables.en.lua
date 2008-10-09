@@ -59,7 +59,7 @@ AtlasLoot_TableNames = {};
     --The Nexus
 	AtlasLoot_TableNames["TheNexus"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TheNexusHEROIC"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TheNexusHEROIC2"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TheNexusKeristraszaHEROIC"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NexTelestra"] = { BabbleBoss["Grand Magus Telestra"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NexOrmorok"] = { BabbleBoss["Ormorok the Tree-Shaper"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NexAnomalus"] = { BabbleBoss["Anomalus"], "AtlasLootWotLK" };

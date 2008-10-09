@@ -193,10 +193,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
 		{ 25, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#"};
 		{ 26, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#"};
-		Next = "TheNexusHEROIC2";
+		Next = "TheNexusKeristraszaHEROIC";
 	};
 
-	AtlasLoot_Data["TheNexusHEROIC2"] = {
+	AtlasLoot_Data["TheNexusKeristraszaHEROIC"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Keristrasza"], ""};
 		{ 2, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#"};
 		{ 3, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#"};
