@@ -1,6 +1,8 @@
 local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
+local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+
 -- Index
 --- Dungeons & Raids
 ---- Keys
@@ -5538,14 +5540,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------
 
 	AtlasLoot_Data["Mounts21"] = {
-		{ 1, 0, "INV_Box_01", "=q6=Exodar #j30#", "=ec1=#m7#"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Exodar"].." #j30#", "=ec1=#m7#"};
 		{ 2, 29745, "", "=q4=Great Blue Elekk", "=ds=#e12#"};
 		{ 3, 29746, "", "=q4=Great Green Elekk", "=ds=#e12#"};
 		{ 4, 29747, "", "=q4=Great Purple Elekk", "=ds=#e12#"};
 		{ 5, 28481, "", "=q3=Brown Elekk", "=ds=#e12#"};
 		{ 6, 29744, "", "=q3=Gray Elekk", "=ds=#e12#"};
 		{ 7, 29743, "", "=q3=Purple Elekk", "=ds=#e12#"};
-		{ 16, 0, "INV_Box_01", "=q6=Silvermoon City #j30#", "=ec1=#m6#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Silvermoon City"].." #j30#", "=ec1=#m6#"};
 		{ 17, 29223, "", "=q4=Swift Green Hawkstrider", "=ds=#e12#"};
 		{ 18, 28936, "", "=q4=Swift Pink Hawkstrider", "=ds=#e12#"};
 		{ 19, 29224, "", "=q4=Swift Purple Hawkstrider", "=ds=#e12#"};
@@ -5558,7 +5560,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["Mounts22"] = {
-		{ 1, 0, "INV_Box_01", "=q6=Alliance #j36#", "=ec1=#m7#"};
+		{ 1, 0, "INV_Box_01", "=q6=#m7# #j36#", "=ec1=#m7#"};
 		{ 2, 25473, "", "=q4=Swift Blue Gryphon", "=ds=#e12#"};
 		{ 3, 25528, "", "=q4=Swift Green Gryphon", "=ds=#e12#"};
 		{ 4, 25529, "", "=q4=Swift Purple Gryphon", "=ds=#e12#"};
@@ -5566,7 +5568,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 25471, "", "=q3=Ebon Gryphon", "=ds=#e12#"};
 		{ 7, 25470, "", "=q3=Golden Gryphon", "=ds=#e12#"};
 		{ 8, 25472, "", "=q3=Snowy Gryphon", "=ds=#e12#"};
-		{ 16, 0, "INV_Box_01", "=q6=Horde #j36#", "=ec1=#m6#"};
+		{ 16, 0, "INV_Box_01", "=q6=#m6# #j36#", "=ec1=#m6#"};
 		{ 17, 25531, "", "=q4=Swift Green Wind Rider", "=ds=#e12#"};
 		{ 18, 25533, "", "=q4=Swift Purple Wind Rider", "=ds=#e12#"};
 		{ 19, 25477, "", "=q4=Swift Red Wind Rider", "=ds=#e12#"};
@@ -5580,7 +5582,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["Mounts23"] = {
-		{ 1, 0, "INV_Box_01", "=q6=Kurenai #j30#", "=ec1=#m7#"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Kurenai"].." #j30#", "=ec1=#m7#"};
 		{ 2, 29227, "", "=q4=Reins of the Cobalt War Talbuk", "=ds=#e12#"};
 		{ 3, 29229, "", "=q4=Reins of the Silver War Talbuk", "=ds=#e12#"};
 		{ 4, 29230, "", "=q4=Reins of the Tan War Talbuk", "=ds=#e12#"};
@@ -5589,7 +5591,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 7, 31832, "", "=q4=Reins of the Silver Riding Talbuk", "=ds=#e12#"};
 		{ 8, 31834, "", "=q4=Reins of the Tan Riding Talbuk", "=ds=#e12#"};
 		{ 9, 31836, "", "=q4=Reins of the White Riding Talbuk", "=ds=#e12#"};
-		{ 16, 0, "INV_Box_01", "=q6=The Mag'har #j30#", "=ec1=#m6#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Mag'har"].." #j30#", "=ec1=#m6#"};
 		{ 17, 29102, "", "=q4=Reins of the Cobalt War Talbuk", "=ds=#e12#"};
 		{ 18, 29104, "", "=q4=Reins of the Silver War Talbuk", "=ds=#e12#"};
 		{ 19, 29105, "", "=q4=Reins of the Tan War Talbuk", "=ds=#e12#"};
@@ -5604,14 +5606,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["Mounts24"] = {
-		{ 1, 0, "INV_Box_01", "=q6=Netherwing #j30#", ""};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Netherwing"].." #j30#", ""};
 		{ 2, 32858, "", "=q4=Reins of the Azure Netherwing Drake", "=ds=#e12#"};
 		{ 3, 32859, "", "=q4=Reins of the Cobalt Netherwing Drake", "=ds=#e12#"};
 		{ 4, 32857, "", "=q4=Reins of the Onyx Netherwing Drake", "=ds=#e12#"};
 		{ 5, 32860, "", "=q4=Reins of the Purple Netherwing Drake", "=ds=#e12#"};
 		{ 6, 32861, "", "=q4=Reins of the Veridian Netherwing Drake", "=ds=#e12#"};
 		{ 7, 32862, "", "=q4=Reins of the Violet Netherwing Drake", "=ds=#e12#"};
-		{ 9, 0, "INV_Box_01", "=q6=Sha'tari Skyguard #j30#", ""};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["Sha'tari Skyguard"].." #j30#", ""};
 		{ 10, 32319, "", "=q4=Blue Riding Nether Ray", "=ds=#e12#"};
 		{ 11, 32314, "", "=q4=Green Riding Nether Ray", "=ds=#e12#"};
 		{ 12, 32317, "", "=q4=Red Riding Nether Ray", "=ds=#e12#"};
