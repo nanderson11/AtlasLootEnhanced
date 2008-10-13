@@ -856,7 +856,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#pvprep709#", AL["Savage's Plate Battlegear"]);
 
     -- Arena Epic Sets
-    text = gsub(text, "#reqrating#", AL["Req. Rating:"]);
+    text = gsub(text, "#reqrating#", AL["Rating:"]);
     text = gsub(text, "#arenas1_1#", AL["Gladiator's Sanctuary"]);
     text = gsub(text, "#arenas1_2#", AL["Gladiator's Wildhide"]);
     text = gsub(text, "#arenas1_3#", AL["Gladiator's Refuge"]);

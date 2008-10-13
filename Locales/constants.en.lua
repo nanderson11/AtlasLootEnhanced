@@ -68,7 +68,8 @@ if AL then
     AL["QuickLook"] = true;
     AL["Add to QuickLooks:"] = true;
     AL["Assign this loot table\n to QuickLook"] = true;
-    AL["Req. Rating:"] = true;  --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
+    AL["Req. Rating:"] = true;
+    AL["Rating:"] = true;    --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Query Server"] = true;
     AL["Classic Instances"] = true;
     AL["BC Instances"] = true;
