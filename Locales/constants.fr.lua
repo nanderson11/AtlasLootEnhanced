@@ -50,6 +50,8 @@ if AL then
     AL["Normal Mode"] = "Mode Normal";
     AL["Show 10 Man Loot"] = "Afficher les loots Raid 10";
     AL["Show 25 Man Loot"] = "Afficher les loots Raid 25";
+    AL["10 Man Raid"] = "Raid 10";
+    AL["25 Man Raid"] = "Raid 25";
     --AL["Raid"] = true,
     --AL["Factions - Azeroth"] = true,
     AL["Factions - Outland"] = "Factions - Outreterre";
@@ -67,6 +69,7 @@ if AL then
     AL["Add to QuickLooks:"] = "Ajouter à QuickLook :";
     AL["Assign this loot table\n to QuickLook"] = "Assigner cette table de loot\n à QuickLook";
     AL["Req. Rating:"] = "Côte perso. :";
+    AL["Rating:"] = "Côte :";
     --AL["Query Server"] = true,
     AL["Classic Instances"] = "Instances classiques";
     AL["BC Instances"] = "Instances BC";
@@ -82,6 +85,10 @@ if AL then
     AL["Classic Mounts"] = "Montures Classiques";
     AL["The Burning Crusade Mounts"] = "Montures de The Burning Crusade";
     AL["Wrath of the Lich King Mounts"] = "Montures de Wrath of the Lich King";
+    AL["Select a Loot Table..."] = "Sélectionner une table de loot...";
+    AL["OR"] = "OU";
+    --AL["Lake Wintergrasp"] = true; -- à traduire
+    --AL["Wrath of the Lich King"] = true;
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Options d'Atlasloot";
@@ -245,7 +252,9 @@ if AL then
     AL["Tier 4"] = "Set T4";
     AL["Tier 5"] = "Set T5";
     AL["Tier 6"] = "Set T6";
-    --AL["Level 80 Naxxramas Sets"] = true; -- à traduire
+    AL["Tier 7 Sets"] = "Sets T7";
+    AL["Level 80 Naxxramas Sets"] = "Sets Naxxramas Level 80";
+    AL["Level 80 PvP Sets"] = "Sets JcJ Level 80";
     AL["Arena Reward"] = "Récompense d'Arène";
     AL["Conjured Item"] = "Objet Conjuré";
     AL["Used to summon boss"] = "Utilisé pour invoquer un boss";
@@ -748,6 +757,10 @@ if AL then
     AL["Gladiator's Battlegear"] = "Tenue de combat de gladiateur";
     --AL["Gladiator's Desecration"] = true; -- à traduire
 
+    --Level 80 PvP Weapons
+    --AL["Savage Gladiator\'s Weapons"] = true; -- à traduire
+    --AL["Deadly Gladiator\'s Weapons"] = true; -- à traduire
+
     --PvP Level 80 Placeholder!!
     --AL["Placeholder"] = true; -- à traduire
 
@@ -854,6 +867,7 @@ if AL then
 
     --Pets
     AL["Pets"] = "Animaux de compagnie";
+    --AL["Non-Combat Pets"] = true; -- à traduire
     AL["Aquatic"] = "Aquatiques";
     AL["Birds"] = "Oiseaux";
     AL["Invertebrates"] = "Invertébrés";
@@ -1023,6 +1037,11 @@ if AL then
     AL["Cache of the Legion"] = "Cache de la Légion";
     AL["Rajaxx's Captains"] = "Capitaines de Rajaxx";
     AL["Felsteed"] = "Palefroi corrompu";
+    --AL["Commander Stoutbeard"] = true; -- à traduire
+    --AL["Bloodstone Annihilator"] = true; -- à traduire
+    --AL["Rescue Mission"] = true; -- à traduire
+    --AL["Gjarngrin"] = true; -- à traduire
+    --AL["Kronus"] = true; -- à traduire
 
     --Zones
     --AL["World Drop"] = true,
