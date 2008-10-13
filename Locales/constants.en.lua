@@ -86,6 +86,7 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = true;
     AL["Select a Loot Table..."] = true;
     AL["OR"] = true;
+    AL["Wrath of the Lich King"] = true;
 
     --Text for Options Panel
     AL["Atlasloot Options"] = true;

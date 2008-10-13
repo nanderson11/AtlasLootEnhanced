@@ -4,14 +4,14 @@ local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 AtlasLoot_Data["SETMENU"] = {
-	    { 2, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], ""};
-        { 3, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-        { 4, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], ""};
-        { 5, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], ""};
-	    { 6, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
-	    { 7, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
+        { 2, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], "=q5="..AL["Burning Crusade"]};
+        { 3, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+        { 4, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+        { 5, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+        { 6, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
+        { 7, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
         { 8, "Aquatic", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
-	    { 9, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
+        { 9, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
         { 10, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
         { 13, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};
         { 17, "PRE60SET", "INV_Sword_43", "=ds="..AL["Pre 60 Sets"], ""};
@@ -26,21 +26,6 @@ AtlasLoot_Data["SETMENU"] = {
         { 27, "T7SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7 Sets"], "=q5="..AL["10/25 Man"]};
 	};
 
-AtlasLoot_Data["MOUNTMENU"] = {
-        { 2, "Mounts11", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Classic Mounts"], ""};
-        { 3, "Mounts31", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Wrath of the Lich King Mounts"], ""};
-        { 17, "Mounts21", "INV_Misc_QirajiCrystal_05", "=ds="..AL["The Burning Crusade Mounts"], ""};
-        Back = "SETMENU";
-	};
-    
-AtlasLoot_Data["WORLDEPICS"] = {
-        { 2, "WorldEpics4", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
-        { 3, "WorldEpics2", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
-        { 17, "WorldEpics3", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
-        { 18, "WorldEpics1", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
-        Back = "SETMENU";
-	};
-    
 AtlasLoot_Data["70TOKENMENU"] = {
         { 2, "HardModeCloth", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Cloth"], ""};
         { 3, "HardModeMail", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Mail"], ""};
@@ -54,7 +39,15 @@ AtlasLoot_Data["70TOKENMENU"] = {
         { 23, "HardModeAccessories", "Spell_Holy_ChampionsBond", "=ds="..AL["Accessories"], ""};
         Back = "SETMENU";
 	};
-    
+
+AtlasLoot_Data["WORLDEPICS"] = {
+        { 2, "WorldEpics4", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
+        { 3, "WorldEpics2", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
+        { 17, "WorldEpics3", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
+        { 18, "WorldEpics1", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
+        Back = "SETMENU";
+	};
+
 AtlasLoot_Data["EMBLEMOFHEROISMMENU"] = {
         { 2, "EmblemofHeroismCloth", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Cloth"], ""};
         { 3, "EmblemofHeroismMail", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Mail"], ""};
@@ -74,6 +67,13 @@ AtlasLoot_Data["EMBLEMOFVALORMENU"] = {
         { 17, "EmblemofValorLeather", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Leather"], ""};
         { 18, "EmblemofValorPlate", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Plate"], ""};
         { 21, "EmblemofValorAccessories", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Accessories"], ""};
+        Back = "SETMENU";
+	};
+
+AtlasLoot_Data["MOUNTMENU"] = {
+        { 2, "Mounts11", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Classic Mounts"], ""};
+        { 3, "Mounts31", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Wrath of the Lich King Mounts"], ""};
+        { 17, "Mounts21", "INV_Misc_QirajiCrystal_05", "=ds="..AL["The Burning Crusade Mounts"], ""};
         Back = "SETMENU";
 	};
     

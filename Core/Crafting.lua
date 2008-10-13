@@ -73,18 +73,12 @@ function AtlasLoot_SmithingMenu()
 	AtlasLootMenuItem_1_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
 	AtlasLootMenuItem_1.lootpage = "SmithingApprentice1";
 	AtlasLootMenuItem_1:Show();
-	--Expert
-	AtlasLootMenuItem_2_Name:SetText(select(2, GetSpellInfo(3464)));
+	--Artisan
+	AtlasLootMenuItem_2_Name:SetText(select(2, GetSpellInfo(11611)));
 	AtlasLootMenuItem_2_Extra:SetText("");
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
-	AtlasLootMenuItem_2.lootpage="SmithingExpert1";
+	AtlasLootMenuItem_2.lootpage="SmithingArtisan1";
 	AtlasLootMenuItem_2:Show();
-	--Master
-	AtlasLootMenuItem_3_Name:SetText(select(2, GetSpellInfo(28596)));
-	AtlasLootMenuItem_3_Extra:SetText("");
-	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
-	AtlasLootMenuItem_3.lootpage="SmithingMaster1";
-	AtlasLootMenuItem_3:Show();
 	--Armorsmith
 	AtlasLootMenuItem_5_Name:SetText(GetSpellInfo(9788));
 	AtlasLootMenuItem_5_Extra:SetText("");
@@ -103,17 +97,17 @@ function AtlasLoot_SmithingMenu()
 	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\INV_Sword_41");
 	AtlasLootMenuItem_7.lootpage="Swordsmith1";
 	AtlasLootMenuItem_7:Show();
-	--Journeyman
-	AtlasLootMenuItem_16_Name:SetText(select(2, GetSpellInfo(3101)));
+	--Expert
+	AtlasLootMenuItem_16_Name:SetText(select(2, GetSpellInfo(3464)));
 	AtlasLootMenuItem_16_Extra:SetText("");
 	AtlasLootMenuItem_16_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
-	AtlasLootMenuItem_16.lootpage = "SmithingJourneyman1";
+	AtlasLootMenuItem_16.lootpage="SmithingExpert1";
 	AtlasLootMenuItem_16:Show();
-	--Artisan
-	AtlasLootMenuItem_17_Name:SetText(select(2, GetSpellInfo(11611)));
+	--Master
+	AtlasLootMenuItem_17_Name:SetText(select(2, GetSpellInfo(28596)));
 	AtlasLootMenuItem_17_Extra:SetText("");
 	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
-	AtlasLootMenuItem_17.lootpage="SmithingArtisan1";
+	AtlasLootMenuItem_17.lootpage="SmithingMaster1";
 	AtlasLootMenuItem_17:Show();
 	--Weaponsmith
 	AtlasLootMenuItem_20_Name:SetText(GetSpellInfo(9787));
