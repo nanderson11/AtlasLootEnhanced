@@ -235,7 +235,7 @@ AL:RegisterTranslations("esES", function() return {
     ["King Mukla"] = "Rey Mukla",
     ["Rest and Relaxation"] = "Descanso y relajación",
     ["Fortune Telling"] = "La buena aventura", --Comprobar
-    ["Goblin Gumbo"] = "Goblin Gumbo", --FALTA
+    ["Goblin Gumbo"] = "Potaje goblin",
     ["Gone Fishin'"] = "Se fué pescando", --Comprobar
     ["Spectral Tiger"] = "Tigre espectral",
     ["March of the Legion"] = "Marca de la Legión",
@@ -834,14 +834,14 @@ AL:RegisterTranslations("esES", function() return {
     ["The Duke of Fathoms"] = "Duque de las Profundidades",
     ["The Duke of Zephyrs"] = "Duque de los Céfiros",
     ["The Duke of Shards"] = "Duque de las Esquirlas",
-    ["Aether-tech Assistant"] = "Techno-éther assistant", --FALTA
-    ["Aether-tech Adept"] = "Techno-éther adepte", --FALTA
-    ["Aether-tech Master"] = "Techno-éther apprenti", --FALTA
+    ["Aether-tech Assistant"] = "Ayudante técnico aether",
+    ["Aether-tech Adept"] = "Aether-tech Adept", --FALTA
+    ["Aether-tech Master"] = "Aether-tech Master", --FALTA
     ["Trelopades"] = "Trelopades", --FALTA
-    ["King Dorfbruiser"] = "Roi Cognenabot", --FALTA
-    ["Gorgolon the All-seeing"] = "Gorgolon l'Omnivoyant", --FALTA
-    ["Matron Li-sahar"] = "Matrone Li-sahar", --FALTA
-    ["Solus the Eternal"] = "Solus l'Éternel", --FALTA
+    ["King Dorfbruiser"] = "King Dorfbruiser", --FALTA
+    ["Gorgolon the All-seeing"] = "Gorgolon the All-seeing", --FALTA
+    ["Matron Li-sahar"] = "Matrona Li-sahar",
+    ["Solus the Eternal"] = "Solus el Eterno",
     --["Balzaphon"] = true,
     ["Lord Blackwood"] = "Lord Bosque Negro",
     --["Revanchion"] = true,
@@ -860,8 +860,8 @@ AL:RegisterTranslations("esES", function() return {
     --["Forgosh"] = true,
     --["Gul'bor"] = true,
     ["Malevus the Mad"] = "Malevus el Loco",
-    ["Porfus the Gem Gorger"] = "Porfus le Goinfre-gemmes", --FALTA Tormenta Abisal 54,46
-    ["Wrathbringer Laz-tarash"] = "Porte-courroux Laz-tarash", --FALTA Tormenta Abisal 54,40
+    ["Porfus the Gem Gorger"] = "Porfus el Engullidor de gemas",
+    ["Wrathbringer Laz-tarash"] = "Encolerizador Laz-tarash",
     ["Bash'ir Landing Stasis Chambers"] = "Cámaras de éxtasis del Alot Bash'ir",
     ["Templars"] = "Templarios",
     ["Dukes"] = "Duques",
@@ -890,7 +890,7 @@ AL:RegisterTranslations("esES", function() return {
     ["Kalldan Felmoon"] = "Kalldan Lunavil",
     ["Magregan Deepshadow"] = "Magregan Sombraprofunda",
 --    ["Lord Ahune"] = true,
---    ["Coren Direbrew"] = true, FALTA
+    ["Coren Direbrew"] = "Coren Cerveza Temible",
 --    ["Don Carlos"] = true,
 
     --Zones
