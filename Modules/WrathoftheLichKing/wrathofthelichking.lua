@@ -1484,331 +1484,331 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["PvP80DeathKnight"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
-		{ 2, 40817, "", "=q3=Savage Gladiator's Dreadplate Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 40857, "", "=q3=Savage Gladiator's Dreadplate Shoulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 40779, "", "=q3=Savage Gladiator's Dreadplate Chestpiece", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 40799, "", "=q3=Savage Gladiator's Dreadplate Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 40837, "", "=q3=Savage Gladiator's Dreadplate Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 40817, "", "=q3=Savage Gladiator's Dreadplate Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 40857, "", "=q3=Savage Gladiator's Dreadplate Shoulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 40779, "", "=q3=Savage Gladiator's Dreadplate Chestpiece", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 40799, "", "=q3=Savage Gladiator's Dreadplate Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 40837, "", "=q3=Savage Gladiator's Dreadplate Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
-		{ 9, 40820, "", "=q4=Hateful Gladiator's Dreadplate Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 40860, "", "=q4=Hateful Gladiator's Dreadplate Shoulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 40781, "", "=q4=Hateful Gladiator's Dreadplate Chestpiece", "=ds=", "45 #eofvalor#"};
-		{ 12, 40803, "", "=q4=Hateful Gladiator's Dreadplate Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 40841, "", "=q4=Hateful Gladiator's Dreadplate Legguards", "=ds=", "45 #eofvalor#"};
+		{ 9, 40820, "", "=q4=Hateful Gladiator's Dreadplate Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 40860, "", "=q4=Hateful Gladiator's Dreadplate Shoulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 40781, "", "=q4=Hateful Gladiator's Dreadplate Chestpiece", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 40803, "", "=q4=Hateful Gladiator's Dreadplate Gauntlets", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 40841, "", "=q4=Hateful Gladiator's Dreadplate Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
-		{ 17, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds="};
-		{ 18, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds="};
-		{ 19, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds="};
-		{ 20, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds="};
-		{ 21, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds="};
+		{ 17, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_1#", ""};
-		{ 2, 41324, "", "=q3=Savage Gladiator's Wyrmhide Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41278, "", "=q3=Savage Gladiator's Wyrmhide Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41313, "", "=q3=Savage Gladiator's Wyrmhide Robes", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41290, "", "=q3=Savage Gladiator's Wyrmhide Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41301, "", "=q3=Savage Gladiator's Wyrmhide Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41324, "", "=q3=Savage Gladiator's Wyrmhide Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41278, "", "=q3=Savage Gladiator's Wyrmhide Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41313, "", "=q3=Savage Gladiator's Wyrmhide Robes", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41290, "", "=q3=Savage Gladiator's Wyrmhide Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41301, "", "=q3=Savage Gladiator's Wyrmhide Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_1#", ""};
-		{ 9, 41325, "", "=q4=Hateful Gladiator's Wyrmhide Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41279, "", "=q4=Hateful Gladiator's Wyrmhide Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 41314, "", "=q4=Hateful Gladiator's Wyrmhide Robes", "=ds=", "45 #eofvalor#"};
-		{ 12, 41291, "", "=q4=Hateful Gladiator's Wyrmhide Gloves", "=ds=", "30 #eofvalor#"};
-		{ 13, 41302, "", "=q4=Hateful Gladiator's Wyrmhide Legguards", "=ds=", "45 #eofvalor#"};
+		{ 9, 41325, "", "=q4=Hateful Gladiator's Wyrmhide Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41279, "", "=q4=Hateful Gladiator's Wyrmhide Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41314, "", "=q4=Hateful Gladiator's Wyrmhide Robes", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41291, "", "=q4=Hateful Gladiator's Wyrmhide Gloves", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41302, "", "=q4=Hateful Gladiator's Wyrmhide Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_1#", ""};
-		{ 17, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds="};
-		{ 18, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds="};
-		{ 19, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds="};
-		{ 20, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds="};
-		{ 21, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds="};
+		{ 17, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenas1_2#", ""};
-		{ 2, 41675, "", "=q3=Savage Gladiator's Dragonhide Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41712, "", "=q3=Savage Gladiator's Dragonhide Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41658, "", "=q3=Savage Gladiator's Dragonhide Robes", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41770, "", "=q3=Savage Gladiator's Dragonhide Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41664, "", "=q3=Savage Gladiator's Dragonhide Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41675, "", "=q3=Savage Gladiator's Dragonhide Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41712, "", "=q3=Savage Gladiator's Dragonhide Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41658, "", "=q3=Savage Gladiator's Dragonhide Robes", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41770, "", "=q3=Savage Gladiator's Dragonhide Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41664, "", "=q3=Savage Gladiator's Dragonhide Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenas1_2#", ""};
-		{ 9, 41676, "", "=q4=Hateful Gladiator's Dragonhide Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41713, "", "=q4=Hateful Gladiator's Dragonhide Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 41659, "", "=q4=Hateful Gladiator's Dragonhide Robes", "=ds=", "45 #eofvalor#"};
-		{ 12, 41771, "", "=q4=Hateful Gladiator's Dragonhide Gloves", "=ds=", "30 #eofvalor#"};
-		{ 13, 41665, "", "=q4=Hateful Gladiator's Dragonhide Legguards", "=ds=", "45 #eofvalor#"};
+		{ 9, 41676, "", "=q4=Hateful Gladiator's Dragonhide Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41713, "", "=q4=Hateful Gladiator's Dragonhide Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41659, "", "=q4=Hateful Gladiator's Dragonhide Robes", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41771, "", "=q4=Hateful Gladiator's Dragonhide Gloves", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41665, "", "=q4=Hateful Gladiator's Dragonhide Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Ability_Druid_Maul", "=q6=#arenas1_2#", ""};
-		{ 17, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds="};
-		{ 18, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds="};
-		{ 19, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds="};
-		{ 20, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds="};
-		{ 21, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds="};
+		{ 17, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 	
 	AtlasLoot_Data["PvP80DruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
-		{ 2, 41269, "", "=q3=Savage Gladiator's Kodohide Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41271, "", "=q3=Savage Gladiator's Kodohide Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41272, "", "=q3=Savage Gladiator's Kodohide Robes", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41268, "", "=q3=Savage Gladiator's Kodohide Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41270, "", "=q3=Savage Gladiator's Kodohide Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41269, "", "=q3=Savage Gladiator's Kodohide Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41271, "", "=q3=Savage Gladiator's Kodohide Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41272, "", "=q3=Savage Gladiator's Kodohide Robes", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41268, "", "=q3=Savage Gladiator's Kodohide Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41270, "", "=q3=Savage Gladiator's Kodohide Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
-		{ 9, 41319, "", "=q4=Hateful Gladiator's Kodohide Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41273, "", "=q4=Hateful Gladiator's Kodohide Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 41308, "", "=q4=Hateful Gladiator's Kodohide Robes", "=ds=", "45 #eofvalor#"};
-		{ 12, 41284, "", "=q4=Hateful Gladiator's Kodohide Gloves", "=ds=", "30 #eofvalor#"};
-		{ 13, 41296, "", "=q4=Hateful Gladiator's Kodohide Legguards", "=ds=", "45 #eofvalor#"};
+		{ 9, 41319, "", "=q4=Hateful Gladiator's Kodohide Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41273, "", "=q4=Hateful Gladiator's Kodohide Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41308, "", "=q4=Hateful Gladiator's Kodohide Robes", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41284, "", "=q4=Hateful Gladiator's Kodohide Gloves", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41296, "", "=q4=Hateful Gladiator's Kodohide Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
-		{ 17, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds="};
-		{ 18, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds="};
-		{ 19, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds="};
-		{ 20, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds="};
-		{ 21, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds="};
+		{ 17, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
-		{ 2, 41154, "", "=q3=Savage Gladiator's Chain Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41214, "", "=q3=Savage Gladiator's Chain Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41084, "", "=q3=Savage Gladiator's Chain Armor", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41140, "", "=q3=Savage Gladiator's Chain Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41202, "", "=q3=Savage Gladiator's Chain Leggings", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41154, "", "=q3=Savage Gladiator's Chain Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41214, "", "=q3=Savage Gladiator's Chain Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41084, "", "=q3=Savage Gladiator's Chain Armor", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41140, "", "=q3=Savage Gladiator's Chain Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41202, "", "=q3=Savage Gladiator's Chain Leggings", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
-		{ 9, 41155, "", "=q4=Hateful Gladiator's Chain Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41215, "", "=q4=Hateful Gladiator's Chain Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 41085, "", "=q4=Hateful Gladiator's Chain Armor", "=ds=", "45 #eofvalor#"};
-		{ 12, 41141, "", "=q4=Hateful Gladiator's Chain Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 41203, "", "=q4=Hateful Gladiator's Chain Leggings", "=ds=", "45 #eofvalor#"};
+		{ 9, 41155, "", "=q4=Hateful Gladiator's Chain Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41215, "", "=q4=Hateful Gladiator's Chain Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41085, "", "=q4=Hateful Gladiator's Chain Armor", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41141, "", "=q4=Hateful Gladiator's Chain Gauntlets", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41203, "", "=q4=Hateful Gladiator's Chain Leggings", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
-		{ 17, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds="};
-		{ 18, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds="};
-		{ 19, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds="};
-		{ 20, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds="};
-		{ 21, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds="};
+		{ 17, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
-		{ 2, 41943, "", "=q3=Savage Gladiator's Silk Cowl", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41962, "", "=q3=Savage Gladiator's Silk Amice", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41949, "", "=q3=Savage Gladiator's Silk Raiment", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41968, "", "=q3=Savage Gladiator's Silk Handguards", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41956, "", "=q3=Savage Gladiator's Silk", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41943, "", "=q3=Savage Gladiator's Silk Cowl", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41962, "", "=q3=Savage Gladiator's Silk Amice", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41949, "", "=q3=Savage Gladiator's Silk Raiment", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41968, "", "=q3=Savage Gladiator's Silk Handguards", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41956, "", "=q3=Savage Gladiator's Silk", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
-		{ 9, 41944, "", "=q4=Hateful Gladiator's Silk Cowl", "=ds=", "45 #eofvalor#"};
-		{ 10, 41963, "", "=q4=Hateful Gladiator's Silk Amice", "=ds=", "30 #eofvalor#"};
-		{ 11, 41950, "", "=q4=Hateful Gladiator's Silk Raiment", "=ds=", "45 #eofvalor#"};
-		{ 12, 41969, "", "=q4=Hateful Gladiator's Silk Handguards", "=ds=", "30 #eofvalor#"};
-		{ 13, 41957, "", "=q4=Hateful Gladiator's Silk Trousers", "=ds=", "45 #eofvalor#"};
+		{ 9, 41944, "", "=q4=Hateful Gladiator's Silk Cowl", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41963, "", "=q4=Hateful Gladiator's Silk Amice", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41950, "", "=q4=Hateful Gladiator's Silk Raiment", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41969, "", "=q4=Hateful Gladiator's Silk Handguards", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41957, "", "=q4=Hateful Gladiator's Silk Trousers", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
-		{ 17, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds="};
-		{ 18, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds="};
-		{ 19, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds="};
-		{ 20, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds="};
-		{ 21, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds="};
+		{ 17, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_1#", ""};
-		{ 2, 40818, "", "=q3=Savage Gladiator's Scaled Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 40858, "", "=q3=Savage Gladiator's Scaled Shoulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 40780, "", "=q3=Savage Gladiator's Scaled Chestpiece", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 40798, "", "=q3=Savage Gladiator's Scaled Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 40838, "", "=q3=Savage Gladiator's Scaled Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 40818, "", "=q3=Savage Gladiator's Scaled Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 40858, "", "=q3=Savage Gladiator's Scaled Shoulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 40780, "", "=q3=Savage Gladiator's Scaled Chestpiece", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 40798, "", "=q3=Savage Gladiator's Scaled Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 40838, "", "=q3=Savage Gladiator's Scaled Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_1#", ""};
-		{ 9, 40821, "", "=q4=Hateful Gladiator's Scaled Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 40861, "", "=q4=Hateful Gladiator's Scaled Shoulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 40782, "", "=q4=Hateful Gladiator's Scaled Chestpiece", "=ds=", "45 #eofvalor#"};
-		{ 12, 40802, "", "=q4=Hateful Gladiator's Scaled Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 40842, "", "=q4=Hateful Gladiator's Scaled Legguards", "=ds=", "45 #eofvalor#"};
+		{ 9, 40821, "", "=q4=Hateful Gladiator's Scaled Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 40861, "", "=q4=Hateful Gladiator's Scaled Shoulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 40782, "", "=q4=Hateful Gladiator's Scaled Chestpiece", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 40802, "", "=q4=Hateful Gladiator's Scaled Gauntlets", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 40842, "", "=q4=Hateful Gladiator's Scaled Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_1#", ""};
-		{ 17, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds="};
-		{ 18, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds="};
-		{ 19, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds="};
-		{ 20, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds="};
-		{ 21, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds="};
+		{ 17, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
-		{ 2, 40930, "", "=q3=Savage Gladiator's Ornamented Headcover", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 40960, "", "=q3=Savage Gladiator's Ornamented Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 40898, "", "=q3=Savage Gladiator's Ornamented Chestguard", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 40918, "", "=q3=Savage Gladiator's Ornamented Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 40936, "", "=q3=Savage Gladiator's Ornamented Legplates", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 40930, "", "=q3=Savage Gladiator's Ornamented Headcover", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 40960, "", "=q3=Savage Gladiator's Ornamented Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 40898, "", "=q3=Savage Gladiator's Ornamented Chestguard", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 40918, "", "=q3=Savage Gladiator's Ornamented Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 40936, "", "=q3=Savage Gladiator's Ornamented Legplates", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
-		{ 9, 40931, "", "=q4=Hateful Gladiator's Ornamented Headcover", "=ds=", "45 #eofvalor#"};
-		{ 10, 40961, "", "=q4=Hateful Gladiator's Ornamented Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 40904, "", "=q4=Hateful Gladiator's Ornamented Gloves", "=ds=", "45 #eofvalor#"};
-		{ 12, 40925, "", "=q4=Hateful Gladiator's Ornamented Chestguard", "=ds=", "30 #eofvalor#"};
-		{ 13, 40937, "", "=q4=Hateful Gladiator's Ornamented Legplates", "=ds=", "45 #eofvalor#"};
+		{ 9, 40931, "", "=q4=Hateful Gladiator's Ornamented Headcover", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 40961, "", "=q4=Hateful Gladiator's Ornamented Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 40904, "", "=q4=Hateful Gladiator's Ornamented Gloves", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 40925, "", "=q4=Hateful Gladiator's Ornamented Chestguard", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 40937, "", "=q4=Hateful Gladiator's Ornamented Legplates", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
-		{ 17, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds="};
-		{ 18, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds="};
-		{ 19, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds="};
-		{ 20, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds="};
-		{ 21, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds="};
+		{ 17, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
-		{ 2, 41912, "", "=q3=Savage Gladiator's Satin Hood", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41930, "", "=q3=Savage Gladiator's Satin Mantle", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41918, "", "=q3=Savage Gladiator's Satin Robe", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41937, "", "=q3=Savage Gladiator's Satin Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41924, "", "=q3=Savage Gladiator's Satin Leggings", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41912, "", "=q3=Savage Gladiator's Satin Hood", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41930, "", "=q3=Savage Gladiator's Satin Mantle", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41918, "", "=q3=Savage Gladiator's Satin Robe", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41937, "", "=q3=Savage Gladiator's Satin Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41924, "", "=q3=Savage Gladiator's Satin Leggings", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
-		{ 9, 41913, "", "=q4=Hateful Gladiator's Satin Hood", "=ds=", "45 #eofvalor#"};
-		{ 10, 41931, "", "=q4=Hateful Gladiator's Satin Mantle", "=ds=", "30 #eofvalor#"};
-		{ 11, 41919, "", "=q4=Hateful Gladiator's Satin Robe", "=ds=", "45 #eofvalor#"};
-		{ 12, 41938, "", "=q4=Hateful Gladiator's Satin Gloves", "=ds=", "30 #eofvalor#"};
-		{ 13, 41925, "", "=q4=Hateful Gladiator's Satin Leggings", "=ds=", "45 #eofvalor#"};
+		{ 9, 41913, "", "=q4=Hateful Gladiator's Satin Hood", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41931, "", "=q4=Hateful Gladiator's Satin Mantle", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41919, "", "=q4=Hateful Gladiator's Satin Robe", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41938, "", "=q4=Hateful Gladiator's Satin Gloves", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41925, "", "=q4=Hateful Gladiator's Satin Leggings", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
-		{ 17, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds="};
-		{ 18, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds="};
-		{ 19, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds="};
-		{ 20, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds="};
-		{ 21, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds="};
+		{ 17, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80PriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
-		{ 2, 41848, "", "=q3=Savage Gladiator's Mooncloth Hood", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41850, "", "=q3=Savage Gladiator's Mooncloth Mantle", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41851, "", "=q3=Savage Gladiator's Mooncloth Robe", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41847, "", "=q3=Savage Gladiator's Mooncloth Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41849, "", "=q3=Savage Gladiator's Mooncloth Leggings", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41848, "", "=q3=Savage Gladiator's Mooncloth Hood", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41850, "", "=q3=Savage Gladiator's Mooncloth Mantle", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41851, "", "=q3=Savage Gladiator's Mooncloth Robe", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41847, "", "=q3=Savage Gladiator's Mooncloth Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41849, "", "=q3=Savage Gladiator's Mooncloth Leggings", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
-		{ 9, 41852, "", "=q4=Hateful Gladiator's Mooncloth Hood", "=ds=", "45 #eofvalor#"};
-		{ 10, 41867, "", "=q4=Hateful Gladiator's Mooncloth Mantle", "=ds=", "30 #eofvalor#"};
-		{ 11, 41857, "", "=q4=Hateful Gladiator's Mooncloth Robe", "=ds=", "45 #eofvalor#"};
-		{ 12, 41872, "", "=q4=Hateful Gladiator's Mooncloth Gloves", "=ds=", "30 #eofvalor#"};
-		{ 13, 41862, "", "=q4=Hateful Gladiator's Mooncloth Leggings", "=ds=", "45 #eofvalor#"};
+		{ 9, 41852, "", "=q4=Hateful Gladiator's Mooncloth Hood", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41867, "", "=q4=Hateful Gladiator's Mooncloth Mantle", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41857, "", "=q4=Hateful Gladiator's Mooncloth Robe", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41872, "", "=q4=Hateful Gladiator's Mooncloth Gloves", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41862, "", "=q4=Hateful Gladiator's Mooncloth Leggings", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
-		{ 17, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds="};
-		{ 18, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds="};
-		{ 19, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds="};
-		{ 20, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds="};
-		{ 21, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds="};
+		{ 17, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80Rogue"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
-		{ 2, 41644, "", "=q3=Savage Gladiator's Leather Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41646, "", "=q3=Savage Gladiator's Leather Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41647, "", "=q3=Savage Gladiator's Leather Tunic", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41643, "", "=q3=Savage Gladiator's Leather Gloves", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41645, "", "=q3=Savage Gladiator's Leather Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41644, "", "=q3=Savage Gladiator's Leather Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41646, "", "=q3=Savage Gladiator's Leather Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41647, "", "=q3=Savage Gladiator's Leather Tunic", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41643, "", "=q3=Savage Gladiator's Leather Gloves", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41645, "", "=q3=Savage Gladiator's Leather Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
-		{ 9, 41670, "", "=q4=Hateful Gladiator's Leather Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41681, "", "=q4=Hateful Gladiator's Leather Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 41648, "", "=q4=Hateful Gladiator's Leather Tunic", "=ds=", "45 #eofvalor#"};
-		{ 12, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=", "30 #eofvalor#"};
-		{ 13, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=", "45 #eofvalor#"};
+		{ 9, 41670, "", "=q4=Hateful Gladiator's Leather Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41681, "", "=q4=Hateful Gladiator's Leather Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41648, "", "=q4=Hateful Gladiator's Leather Tunic", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
-		{ 17, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds="};
-		{ 18, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds="};
-		{ 19, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds="};
-		{ 20, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds="};
-		{ 21, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds="};
+		{ 17, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_1#", ""};
-		{ 2, 41016, "", "=q3=Savage Gladiator's Mail Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41041, "", "=q3=Savage Gladiator's Mail Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 40987, "", "=q3=Savage Gladiator's Mail Armor", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41004, "", "=q3=Savage Gladiator's Mail Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41030, "", "=q3=Savage Gladiator's Mail Leggings", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41016, "", "=q3=Savage Gladiator's Mail Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41041, "", "=q3=Savage Gladiator's Mail Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 40987, "", "=q3=Savage Gladiator's Mail Armor", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41004, "", "=q3=Savage Gladiator's Mail Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41030, "", "=q3=Savage Gladiator's Mail Leggings", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_1#", ""};
-		{ 9, 41017, "", "=q4=Hateful Gladiator's Mail Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41042, "", "=q4=Hateful Gladiator's Mail Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 40989, "", "=q4=Hateful Gladiator's Mail Armor", "=ds=", "45 #eofvalor#"};
-		{ 12, 41005, "", "=q4=Hateful Gladiator's Mail Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 41031, "", "=q4=Hateful Gladiator's Mail Leggings", "=ds=", "45 #eofvalor#"};
+		{ 9, 41017, "", "=q4=Hateful Gladiator's Mail Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41042, "", "=q4=Hateful Gladiator's Mail Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 40989, "", "=q4=Hateful Gladiator's Mail Armor", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41005, "", "=q4=Hateful Gladiator's Mail Gauntlets", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41031, "", "=q4=Hateful Gladiator's Mail Leggings", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_1#", ""};
-		{ 17, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds="};
-		{ 18, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds="};
-		{ 19, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds="};
-		{ 20, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds="};
-		{ 21, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds="};
+		{ 17, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 	
 	AtlasLoot_Data["PvP80ShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
-		{ 2, 41148, "", "=q3=Savage Gladiator's Linked Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41208, "", "=q3=Savage Gladiator's Linked Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41078, "", "=q3=Savage Gladiator's Linked Armor", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 41134, "", "=q3=Savage Gladiator's Linked Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41160, "", "=q3=Savage Gladiator's Linked Leggings", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41148, "", "=q3=Savage Gladiator's Linked Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41208, "", "=q3=Savage Gladiator's Linked Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41078, "", "=q3=Savage Gladiator's Linked Armor", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 41134, "", "=q3=Savage Gladiator's Linked Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41160, "", "=q3=Savage Gladiator's Linked Leggings", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
-		{ 9, 41149, "", "=q4=Hateful Gladiator's Linked Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41209, "", "=q4=Hateful Gladiator's Linked Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 41079, "", "=q4=Hateful Gladiator's Linked Armor", "=ds=", "45 #eofvalor#"};
-		{ 12, 41135, "", "=q4=Hateful Gladiator's Linked Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 41162, "", "=q4=Hateful Gladiator's Linked Leggings", "=ds=", "45 #eofvalor#"};
+		{ 9, 41149, "", "=q4=Hateful Gladiator's Linked Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41209, "", "=q4=Hateful Gladiator's Linked Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 41079, "", "=q4=Hateful Gladiator's Linked Armor", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 41135, "", "=q4=Hateful Gladiator's Linked Gauntlets", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41162, "", "=q4=Hateful Gladiator's Linked Leggings", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
-		{ 17, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds="};
-		{ 18, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds="};
-		{ 19, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds="};
-		{ 20, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds="};
-		{ 21, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds="};
+		{ 17, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_1#", ""};
-		{ 2, 41010, "", "=q3=Savage Gladiator's Ringmail Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 41024, "", "=q3=Savage Gladiator's Ringmail Spaulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 40986, "", "=q3=Savage Gladiator's Ringmail Armor", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 40998, "", "=q3=Savage Gladiator's Ringmail Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 41023, "", "=q3=Savage Gladiator's Ringmail Leggings", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41010, "", "=q3=Savage Gladiator's Ringmail Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 41024, "", "=q3=Savage Gladiator's Ringmail Spaulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 40986, "", "=q3=Savage Gladiator's Ringmail Armor", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 40998, "", "=q3=Savage Gladiator's Ringmail Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 41023, "", "=q3=Savage Gladiator's Ringmail Leggings", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_1#", ""};
-		{ 9, 41011, "", "=q4=Hateful Gladiator's Ringmail Helm", "=ds=", "45 #eofvalor#"};
-		{ 10, 41036, "", "=q4=Hateful Gladiator's Ringmail Spaulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 40988, "", "=q4=Hateful Gladiator's Ringmail Armor", "=ds=", "45 #eofvalor#"};
-		{ 12, 40999, "", "=q4=Hateful Gladiator's Ringmail Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 41025, "", "=q4=Hateful Gladiator's Ringmail Leggings", "=ds=", "45 #eofvalor#"};
+		{ 9, 41011, "", "=q4=Hateful Gladiator's Ringmail Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 41036, "", "=q4=Hateful Gladiator's Ringmail Spaulders", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 40988, "", "=q4=Hateful Gladiator's Ringmail Armor", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 40999, "", "=q4=Hateful Gladiator's Ringmail Gauntlets", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 41025, "", "=q4=Hateful Gladiator's Ringmail Leggings", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_1#", ""};
-		{ 17, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds="};
-		{ 18, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds="};
-		{ 19, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds="};
-		{ 20, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds="};
-		{ 21, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds="};
+		{ 17, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 
 	AtlasLoot_Data["PvP80Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", ""};
-		{ 2, 41990, "", "=q3=Savage Gladiator's Felweave Cowl", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 42008, "", "=q3=Savage Gladiator's Felweave Amice", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 41996, "", "=q3=Savage Gladiator's Felweave Raiment", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 42014, "", "=q3=Savage Gladiator's Felweave Handguards", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 42002, "", "=q3=Savage Gladiator's Felweave Trousers", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 41990, "", "=q3=Savage Gladiator's Felweave Cowl", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 42008, "", "=q3=Savage Gladiator's Felweave Amice", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 41996, "", "=q3=Savage Gladiator's Felweave Raiment", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 42014, "", "=q3=Savage Gladiator's Felweave Handguards", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 42002, "", "=q3=Savage Gladiator's Felweave Trousers", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", ""};
-		{ 9, 41991, "", "=q4=Hateful Gladiator's Felweave Cowl", "=ds=", "45 #eofvalor#"};
-		{ 10, 42009, "", "=q4=Hateful Gladiator's Felweave Amice", "=ds=", "30 #eofvalor#"};
-		{ 11, 42001, "", "=q4=Hateful Gladiator's Felweave Raiment", "=ds=", "45 #eofvalor#"};
-		{ 12, 42015, "", "=q4=Hateful Gladiator's Felweave Handguards", "=ds=", "30 #eofvalor#"};
-		{ 13, 42003, "", "=q4=Hateful Gladiator's Felweave Trousers", "=ds=", "45 #eofvalor#"};
+		{ 9, 41991, "", "=q4=Hateful Gladiator's Felweave Cowl", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 10, 42009, "", "=q4=Hateful Gladiator's Felweave Amice", "=ds=", "9600 #faction# 550 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 11, 42001, "", "=q4=Hateful Gladiator's Felweave Raiment", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
+		{ 12, 42015, "", "=q4=Hateful Gladiator's Felweave Handguards", "=ds=", "7200 #faction# 400 #arena# "..AL["OR"].." 30 #eofvalor#"};
+		{ 13, 42003, "", "=q4=Hateful Gladiator's Felweave Trousers", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", ""};
-		{ 17, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds="};
-		{ 18, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds="};
-		{ 19, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds="};
-		{ 20, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds="};
-		{ 21, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds="};
+		{ 17, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=", "1350 #arena# #reqrating# 1850"};
+		{ 21, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=", "2250 #arena# #reqrating# 1910"};
 		Back = "PVP70RepSET";
 	};
 --These are datamined sets NOT available yet. LK Arena 6
@@ -1823,23 +1823,23 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["PvP80Warrior"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
-		{ 2, 40816, "", "=q3=Savage Gladiator's Plate Helm", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 3, 40856, "", "=q3=Savage Gladiator's Plate Shoulders", "=ds=", "4800 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 4, 40778, "", "=q3=Savage Gladiator's Plate Chestpiece", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
-		{ 5, 40797, "", "=q3=Savage Gladiator's Plate Gauntlets", "=ds=", "3600 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
-		{ 6, 40836, "", "=q3=Savage Gladiator's Plate Legguards", "=ds=", "6000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 2, 40816, "", "=q3=Savage Gladiator's Plate Helm", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 3, 40856, "", "=q3=Savage Gladiator's Plate Shoulders", "=ds=", "9600 #faction# 275 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 4, 40778, "", "=q3=Savage Gladiator's Plate Chestpiece", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
+		{ 5, 40797, "", "=q3=Savage Gladiator's Plate Gauntlets", "=ds=", "7200 #faction# 200 #arena# "..AL["OR"].." 30 #eofheroism#", ""};
+		{ 6, 40836, "", "=q3=Savage Gladiator's Plate Legguards", "=ds=", "12000 #faction# 350 #arena# "..AL["OR"].." 45 #eofheroism#", ""};
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
-		{ 9, 40819, "", "=q4=Hateful Gladiator's Plate Helm", "=ds=", "45 #eofvalor#"};
+		{ 9, 40819, "", "=q4=Hateful Gladiator's Plate Helm", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 10, 40859, "", "=q4=Hateful Gladiator's Plate Shoulders", "=ds=", "30 #eofvalor#"};
-		{ 11, 40783, "", "=q4=Hateful Gladiator's Plate Chestpiece", "=ds=", "45 #eofvalor#"};
+		{ 11, 40783, "", "=q4=Hateful Gladiator's Plate Chestpiece", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 12, 40801, "", "=q4=Hateful Gladiator's Plate Gauntlets", "=ds=", "30 #eofvalor#"};
-		{ 13, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=", "45 #eofvalor#"};
+		{ 13, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=", "12000 #faction# 700 #arena# "..AL["OR"].." 45 #eofvalor#"};
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
-		{ 17, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds="};
-		{ 18, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds="};
-		{ 19, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds="};
-		{ 20, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds="};
-		{ 21, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds="};
+		{ 17, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
+		{ 18, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "1800 #arena# #reqrating# 2150"};
+		{ 19, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
+		{ 20, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "1350 #arena#"};
+		{ 21, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=", "2250 #arena#"};
 		Back = "PVP70RepSET";
 	};
 
@@ -1848,107 +1848,107 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-----------------------------------
 		
 	AtlasLoot_Data["PvP80NonSet1"] = {
-		{ 1, 42020, "", "=q4=Hateful Gladiator's Pendant of Triumph", "=ds=", "19000 #faction#", ""};
-		{ 2, 42021, "", "=q4=Hateful Gladiator's Pendant of Victory", "=ds=", "19000 #faction#", ""};
-		{ 3, 42022, "", "=q4=Hateful Gladiator's Pendant of Dominance", "=ds=", "19000 #faction#", ""};
-		{ 4, 42023, "", "=q4=Hateful Gladiator's Pendant of Subjugation", "=ds=", "19000 #faction#", ""};
-		{ 5, 42024, "", "=q4=Hateful Gladiator's Pendant of Ascendancy", "=ds=", "19000 #faction#", ""};
-		{ 6, 42025, "", "=q4=Hateful Gladiator's Pendant of Deliverance", "=ds=", "19000 #faction#", ""};
-		{ 7, 42026, "", "=q4=Hateful Gladiator's Pendant of Salvation", "=ds=", "19000 #faction#", ""};
-		{ 9, 42110, "", "=q4=Hateful Gladiator's Band of Dominance", "=ds=", "19000 #faction#", ""};
-		{ 10, 42112, "", "=q4=Hateful Gladiator's Band of Triumph", "=ds=", "19000 #faction#", ""};
-		{ 16, 42055, "", "=q4=Hateful Gladiator's Cloak of Dominance", "=ds=", "19000 #faction#", ""};
-		{ 17, 42056, "", "=q4=Hateful Gladiator's Cloak of Subjugation", "=ds=", "19000 #faction#", ""};
-		{ 18, 42057, "", "=q4=Hateful Gladiator's Cloak of Ascendancy", "=ds=", "19000 #faction#", ""};
-		{ 19, 42058, "", "=q4=Hateful Gladiator's Cloak of Salvation", "=ds=", "19000 #faction#", ""};
-		{ 20, 42059, "", "=q4=Hateful Gladiator's Cloak of Deliverance", "=ds=", "19000 #faction#", ""};
-		{ 21, 42060, "", "=q4=Hateful Gladiator's Cloak of Triumph", "=ds=", "19000 #faction#", ""};
-		{ 22, 42061, "", "=q4=Hateful Gladiator's Cloak of Victory", "=ds=", "19000 #faction#", ""};
-		{ 24, 42122, "", "=q4=Medallion of the Horde", "=ds=", "24800 #faction#", ""};
-		{ 25, 42123, "", "=q4=Medallion of the Alliance", "=ds=", "24800 #faction#", ""};
+		{ 1, 42020, "", "=q4=Hateful Gladiator's Pendant of Triumph", "=ds=", "38000 #faction#", ""};
+		{ 2, 42021, "", "=q4=Hateful Gladiator's Pendant of Victory", "=ds=", "38000 #faction#", ""};
+		{ 3, 42022, "", "=q4=Hateful Gladiator's Pendant of Dominance", "=ds=", "38000 #faction#", ""};
+		{ 4, 42023, "", "=q4=Hateful Gladiator's Pendant of Subjugation", "=ds=", "38000 #faction#", ""};
+		{ 5, 42024, "", "=q4=Hateful Gladiator's Pendant of Ascendancy", "=ds=", "38000 #faction#", ""};
+		{ 6, 42025, "", "=q4=Hateful Gladiator's Pendant of Deliverance", "=ds=", "38000 #faction#", ""};
+		{ 7, 42026, "", "=q4=Hateful Gladiator's Pendant of Salvation", "=ds=", "38000 #faction#", ""};
+		{ 9, 42110, "", "=q4=Hateful Gladiator's Band of Dominance", "=ds=", "38000 #faction#", ""};
+		{ 10, 42112, "", "=q4=Hateful Gladiator's Band of Triumph", "=ds=", "38000 #faction#", ""};
+		{ 16, 42055, "", "=q4=Hateful Gladiator's Cloak of Dominance", "=ds=", "38000 #faction#", ""};
+		{ 17, 42056, "", "=q4=Hateful Gladiator's Cloak of Subjugation", "=ds=", "38000 #faction#", ""};
+		{ 18, 42057, "", "=q4=Hateful Gladiator's Cloak of Ascendancy", "=ds=", "38000 #faction#", ""};
+		{ 19, 42058, "", "=q4=Hateful Gladiator's Cloak of Salvation", "=ds=", "38000 #faction#", ""};
+		{ 20, 42059, "", "=q4=Hateful Gladiator's Cloak of Deliverance", "=ds=", "38000 #faction#", ""};
+		{ 21, 42060, "", "=q4=Hateful Gladiator's Cloak of Triumph", "=ds=", "38000 #faction#", ""};
+		{ 22, 42061, "", "=q4=Hateful Gladiator's Cloak of Victory", "=ds=", "38000 #faction#", ""};
+		{ 24, 42122, "", "=q4=Medallion of the Horde", "=ds=", "49600 #faction#", ""};
+		{ 25, 42123, "", "=q4=Medallion of the Alliance", "=ds=", "49600 #faction#", ""};
 		Next = "PvP80NonSet2";
 		Back = "PVP70NONSETEPICS";
 	};
 --Cloth
 	AtlasLoot_Data["PvP80NonSet2"] = {
-		{ 1, 41907, "", "=q4=Hateful Gladiator's Cuffs of Dominance", "=ds=", "15000 #faction#", ""};
-		{ 2, 41896, "", "=q4=Hateful Gladiator's Cord of Dominance", "=ds=", "24800 #faction#", ""};
-		{ 3, 41901, "", "=q4=Hateful Gladiator's Slippers of Dominance", "=ds=", "24800 #faction#", ""};
-		{ 5, 41878, "", "=q4=Hateful Gladiator's Cuffs of Salvation", "=ds=", "15000 #faction#", ""};
-		{ 6, 41877, "", "=q4=Hateful Gladiator's Cord of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 7, 41879, "", "=q4=Hateful Gladiator's Slippers of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 16, 41908, "", "=q4=Deadly Gladiator's Cuffs of Dominance", "=ds=", "0 #faction#", ""};
-		{ 17, 41897, "", "=q4=Deadly Gladiator's Cord of Dominance", "=ds=", "0 #faction#", ""};
-		{ 18, 41902, "", "=q4=Deadly Gladiator's Treads of Dominance", "=ds=", "0 #faction#", ""};
-		{ 20, 41892, "", "=q4=Deadly Gladiator's Cuffs of Salvation", "=ds=", "0 #faction#", ""};
-		{ 21, 41880, "", "=q4=Deadly Gladiator's Cord of Salvation", "=ds=", "0 #faction#", ""};
-		{ 22, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=", "0 #faction#", ""};
+		{ 1, 41907, "", "=q4=Hateful Gladiator's Cuffs of Dominance", "=ds=", "31600 #faction#", ""};
+		{ 2, 41896, "", "=q4=Hateful Gladiator's Cord of Dominance", "=ds=", "49600 #faction#", ""};
+		{ 3, 41901, "", "=q4=Hateful Gladiator's Slippers of Dominance", "=ds=", "49600 #faction#", ""};
+		{ 5, 41878, "", "=q4=Hateful Gladiator's Cuffs of Salvation", "=ds=", "31600 #faction#", ""};
+		{ 6, 41877, "", "=q4=Hateful Gladiator's Cord of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 7, 41879, "", "=q4=Hateful Gladiator's Slippers of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 16, 41908, "", "=q4=Deadly Gladiator's Cuffs of Dominance", "=ds=", "39400 #faction#", ""};
+		{ 17, 41897, "", "=q4=Deadly Gladiator's Cord of Dominance", "=ds=", "62000 #faction#", ""};
+		{ 18, 41902, "", "=q4=Deadly Gladiator's Treads of Dominance", "=ds=", "62000 #faction#", ""};
+		{ 20, 41892, "", "=q4=Deadly Gladiator's Cuffs of Salvation", "=ds=", "39400 #faction#", ""};
+		{ 21, 41880, "", "=q4=Deadly Gladiator's Cord of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 22, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=", "62000 #faction#", ""};
 		Next = "PvP80NonSet3";
 		Prev = "PvP80NonSet1";
 		Back = "PVP70NONSETEPICS";
 	};
 --Leather
 	AtlasLoot_Data["PvP80NonSet3"] = {
-		{ 1, 41638, "", "=q4=Hateful Gladiator's Armwraps of Dominance", "=ds=", "15000 #faction#", ""};
-		{ 2, 41628, "", "=q4=Hateful Gladiator's Belt of Dominance", "=ds=", "24800 #faction#", ""};
-		{ 3, 41633, "", "=q4=Hateful Gladiator's Boots of Dominance", "=ds=", "24800 #faction#", ""};
-		{ 5, 41332, "", "=q4=Hateful Gladiator's Armwraps of Salvation", "=ds=", "15000 #faction#", ""};
-		{ 6, 41330, "", "=q4=Hateful Gladiator's Belt of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 7, 41331, "", "=q4=Hateful Gladiator's Boots of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 9, 41830, "", "=q4=Hateful Gladiator's Armwraps of Triumph", "=ds=", "15000 #faction#", ""};
-		{ 10, 41827, "", "=q4=Hateful Gladiator's Belt of Triumph", "=ds=", "24800 #faction#", ""};
-		{ 11, 41828, "", "=q4=Hateful Gladiator's Boots of Triumph", "=ds=", "24800 #faction#", ""};
-		{ 16, 41639, "", "=q4=Deadly Gladiator's Armwraps of Dominance", "=ds=", "0 #faction#", ""};
-		{ 17, 41629, "", "=q4=Deadly Gladiator's Belt of Dominance", "=ds=", "0 #faction#", ""};
-		{ 18, 41634, "", "=q4=Deadly Gladiator's Boots of Dominance", "=ds=", "0 #faction#", ""};
-		{ 20, 41624, "", "=q4=Deadly Gladiator's Armwraps of Salvation", "=ds=", "0 #faction#", ""};
-		{ 21, 41616, "", "=q4=Deadly Gladiator's Belt of Salvation", "=ds=", "0 #faction#", ""};
-		{ 22, 41620, "", "=q4=Deadly Gladiator's Boots of Salvation", "=ds=", "0 #faction#", ""};
-		{ 24, 41839, "", "=q4=Deadly Gladiator's Armwraps of Triumph", "=ds=", "0 #faction#", ""};
-		{ 25, 41831, "", "=q4=Deadly Gladiator's Belt of Triumph", "=ds=", "0 #faction#", ""};
-		{ 26, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=", "0 #faction#", ""};
+		{ 1, 41638, "", "=q4=Hateful Gladiator's Armwraps of Dominance", "=ds=", "31600 #faction#", ""};
+		{ 2, 41628, "", "=q4=Hateful Gladiator's Belt of Dominance", "=ds=", "49600 #faction#", ""};
+		{ 3, 41633, "", "=q4=Hateful Gladiator's Boots of Dominance", "=ds=", "49600 #faction#", ""};
+		{ 5, 41332, "", "=q4=Hateful Gladiator's Armwraps of Salvation", "=ds=", "31600 #faction#", ""};
+		{ 6, 41330, "", "=q4=Hateful Gladiator's Belt of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 7, 41331, "", "=q4=Hateful Gladiator's Boots of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 9, 41830, "", "=q4=Hateful Gladiator's Armwraps of Triumph", "=ds=", "31600 #faction#", ""};
+		{ 10, 41827, "", "=q4=Hateful Gladiator's Belt of Triumph", "=ds=", "49600 #faction#", ""};
+		{ 11, 41828, "", "=q4=Hateful Gladiator's Boots of Triumph", "=ds=", "49600 #faction#", ""};
+		{ 16, 41639, "", "=q4=Deadly Gladiator's Armwraps of Dominance", "=ds=", "39400 #faction#", ""};
+		{ 17, 41629, "", "=q4=Deadly Gladiator's Belt of Dominance", "=ds=", "62000 #faction#", ""};
+		{ 18, 41634, "", "=q4=Deadly Gladiator's Boots of Dominance", "=ds=", "62000 #faction#", ""};
+		{ 20, 41624, "", "=q4=Deadly Gladiator's Armwraps of Salvation", "=ds=", "39400 #faction#", ""};
+		{ 21, 41616, "", "=q4=Deadly Gladiator's Belt of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 22, 41620, "", "=q4=Deadly Gladiator's Boots of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 24, 41839, "", "=q4=Deadly Gladiator's Armwraps of Triumph", "=ds=", "39400 #faction#", ""};
+		{ 25, 41831, "", "=q4=Deadly Gladiator's Belt of Triumph", "=ds=", "62000 #faction#", ""};
+		{ 26, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=", "62000 #faction#", ""};
 		Next = "PvP80NonSet4";
 		Prev = "PvP80NonSet2";
 		Back = "PVP70NONSETEPICS";
 	};
 --Mail
 	AtlasLoot_Data["PvP80NonSet4"] = {
-		{ 1, 41063, "", "=q4=Hateful Gladiator's Wristguards of Dominance", "=ds=", "15000 #faction#", ""};
-		{ 2, 41068, "", "=q4=Hateful Gladiator's Waistguard of Dominance", "=ds=", "24800 #faction#", ""};
-		{ 3, 41073, "", "=q4=Hateful Gladiator's Sabatons of Dominance", "=ds=", "24800 #faction#", ""};
-		{ 5, 41047, "", "=q4=Hateful Gladiator's Wristguards of Salvation", "=ds=", "15000 #faction#", ""};
-		{ 6, 41050, "", "=q4=Hateful Gladiator's Waistguard of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 7, 41049, "", "=q4=Hateful Gladiator's Sabatons of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 9, 41223, "", "=q4=Hateful Gladiator's Wristguards of Triumph", "=ds=", "15000 #faction#", ""};
-		{ 10, 41233, "", "=q4=Hateful Gladiator's Waistguard of Triumph", "=ds=", "24800 #faction#", ""};
-		{ 11, 41228, "", "=q4=Hateful Gladiator's Sabatons of Triumph", "=ds=", "24800 #faction#", ""};
-		{ 16, 41064, "", "=q4=Deadly Gladiator's Wristguards of Dominance", "=ds=", "0 #faction#", ""};
-		{ 17, 41069, "", "=q4=Deadly Gladiator's Waistguard of Dominance", "=ds=", "0 #faction#", ""};
-		{ 18, 41074, "", "=q4=Deadly Gladiator's Sabatons of Dominance", "=ds=", "0 #faction#", ""};
-		{ 20, 41059, "", "=q4=Deadly Gladiator's Wristguards of Salvation", "=ds=", "0 #faction#", ""};
-		{ 21, 41048, "", "=q4=Deadly Gladiator's Waistguard of Salvation", "=ds=", "0 #faction#", ""};
-		{ 22, 41054, "", "=q4=Deadly Gladiator's Sabatons of Salvation", "=ds=", "0 #faction#", ""};
-		{ 24, 41224, "", "=q4=Deadly Gladiator's Wristguards of Triumph", "=ds=", "0 #faction#", ""};
-		{ 25, 41234, "", "=q4=Deadly Gladiator's Waistguard of Triumph", "=ds=", "0 #faction#", ""};
-		{ 26, 41229, "", "=q4=Deadly Gladiator's Sabatons of Triumph", "=ds=", "0 #faction#", ""};
+		{ 1, 41063, "", "=q4=Hateful Gladiator's Wristguards of Dominance", "=ds=", "31600 #faction#", ""};
+		{ 2, 41068, "", "=q4=Hateful Gladiator's Waistguard of Dominance", "=ds=", "49600 #faction#", ""};
+		{ 3, 41073, "", "=q4=Hateful Gladiator's Sabatons of Dominance", "=ds=", "49600 #faction#", ""};
+		{ 5, 41047, "", "=q4=Hateful Gladiator's Wristguards of Salvation", "=ds=", "31600 #faction#", ""};
+		{ 6, 41050, "", "=q4=Hateful Gladiator's Waistguard of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 7, 41049, "", "=q4=Hateful Gladiator's Sabatons of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 9, 41223, "", "=q4=Hateful Gladiator's Wristguards of Triumph", "=ds=", "31600 #faction#", ""};
+		{ 10, 41233, "", "=q4=Hateful Gladiator's Waistguard of Triumph", "=ds=", "49600 #faction#", ""};
+		{ 11, 41228, "", "=q4=Hateful Gladiator's Sabatons of Triumph", "=ds=", "49600 #faction#", ""};
+		{ 16, 41064, "", "=q4=Deadly Gladiator's Wristguards of Dominance", "=ds=", "39400 #faction#", ""};
+		{ 17, 41069, "", "=q4=Deadly Gladiator's Waistguard of Dominance", "=ds=", "62000 #faction#", ""};
+		{ 18, 41074, "", "=q4=Deadly Gladiator's Sabatons of Dominance", "=ds=", "62000 #faction#", ""};
+		{ 20, 41059, "", "=q4=Deadly Gladiator's Wristguards of Salvation", "=ds=", "39400 #faction#", ""};
+		{ 21, 41048, "", "=q4=Deadly Gladiator's Waistguard of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 22, 41054, "", "=q4=Deadly Gladiator's Sabatons of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 24, 41224, "", "=q4=Deadly Gladiator's Wristguards of Triumph", "=ds=", "39400 #faction#", ""};
+		{ 25, 41234, "", "=q4=Deadly Gladiator's Waistguard of Triumph", "=ds=", "62000 #faction#", ""};
+		{ 26, 41229, "", "=q4=Deadly Gladiator's Sabatons of Triumph", "=ds=", "62000 #faction#", ""};
 		Next = "PvP80NonSet5";
 		Prev = "PvP80NonSet3";
 		Back = "PVP70NONSETEPICS";
 	};
 --Plate
 	AtlasLoot_Data["PvP80NonSet5"] = {
-		{ 1, 40972, "", "=q4=Hateful Gladiator's Bracers of Salvation", "=ds=", "15000 #faction#", ""};
-		{ 2, 40966, "", "=q4=Hateful Gladiator's Girdle of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 3, 40973, "", "=q4=Hateful Gladiator's Greaves of Salvation", "=ds=", "24800 #faction#", ""};
-		{ 5, 40887, "", "=q4=Hateful Gladiator's Bracers of Triumph", "=ds=", "15000 #faction#", ""};
-		{ 6, 40877, "", "=q4=Hateful Gladiator's Girdle of Triumph", "=ds=", "24800 #faction#", ""};
-		{ 7, 40878, "", "=q4=Hateful Gladiator's Greaves of Triumph", "=ds=", "24800 #faction#", ""};
-		{ 16, 40982, "", "=q4=Deadly Gladiator's Bracers of Salvation", "=ds=", "0 #faction#", ""};
-		{ 17, 40974, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=", "0 #faction#", ""};
-		{ 18, 40975, "", "=q4=Deadly Gladiator's Greaves of Salvation", "=ds=", "0 #faction#", ""};
-		{ 20, 40888, "", "=q4=Deadly Gladiator's Bracers of Triumph", "=ds=", "0 #faction#", ""};
-		{ 21, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=", "0 #faction#", ""};
-		{ 22, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=", "0 #faction#", ""};
+		{ 1, 40972, "", "=q4=Hateful Gladiator's Bracers of Salvation", "=ds=", "31600 #faction#", ""};
+		{ 2, 40966, "", "=q4=Hateful Gladiator's Girdle of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 3, 40973, "", "=q4=Hateful Gladiator's Greaves of Salvation", "=ds=", "49600 #faction#", ""};
+		{ 5, 40887, "", "=q4=Hateful Gladiator's Bracers of Triumph", "=ds=", "31600 #faction#", ""};
+		{ 6, 40877, "", "=q4=Hateful Gladiator's Girdle of Triumph", "=ds=", "49600 #faction#", ""};
+		{ 7, 40878, "", "=q4=Hateful Gladiator's Greaves of Triumph", "=ds=", "49600 #faction#", ""};
+		{ 16, 40982, "", "=q4=Deadly Gladiator's Bracers of Salvation", "=ds=", "39400 #faction#", ""};
+		{ 17, 40974, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 18, 40975, "", "=q4=Deadly Gladiator's Greaves of Salvation", "=ds=", "62000 #faction#", ""};
+		{ 20, 40888, "", "=q4=Deadly Gladiator's Bracers of Triumph", "=ds=", "39400 #faction#", ""};
+		{ 21, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=", "62000 #faction#", ""};
+		{ 22, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=", "62000 #faction#", ""};
 		Prev = "PvP80NonSet4";
 		Back = "PVP70NONSETEPICS";
 	};
@@ -2082,6 +2082,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40550, "", "=q4=Valorous Scourgeborne Battleplate", "=ds=The Four Horsemen"};
 		{ 12, 40552, "", "=q4=Valorous Scourgeborne Gauntlets", "=ds=#s9#"};
 		{ 13, 40556, "", "=q4=Valorous Scourgeborne Legplates", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDeathKnightTank"] = {
@@ -2097,6 +2098,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40559, "", "=q4=Valorous Scourgeborne Chestguard", "=ds=The Four Horsemen"};
 		{ 12, 40563, "", "=q4=Valorous Scourgeborne Handguards", "=ds=#s9#"};
 		{ 13, 40567, "", "=q4=Valorous Scourgeborne Legguards", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidFeral"] = {
@@ -2112,6 +2114,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40471, "", "=q4=Valorous Dreamwalker Raiments", "=ds=The Four Horsemen"};
 		{ 12, 40472, "", "=q4=Valorous Dreamwalker Handgrips", "=ds=#s9#"};
 		{ 13, 40493, "", "=q4=Valorous Dreamwalker Legguards", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidRestoration"] = {
@@ -2127,6 +2130,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40463, "", "=q4=Valorous Dreamwalker Robe", "=ds=The Four Horsemen"};
 		{ 12, 40460, "", "=q4=Valorous Dreamwalker Handguards", "=ds=#s9#"};
 		{ 13, 40462, "", "=q4=Valorous Dreamwalker Leggings", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidBalance"] = {
@@ -2142,6 +2146,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40469, "", "=q4=Valorous Dreamwalker Vestments", "=ds=The Four Horsemen"};
 		{ 12, 40466, "", "=q4=Valorous Dreamwalker Gloves", "=ds=#s9#"};
 		{ 13, 40468, "", "=q4=Valorous Dreamwalker Trousers", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxHunter"] = {
@@ -2157,6 +2162,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40503, "", "=q4=Valorous Crypstalker Tunic", "=ds=The Four Horsemen"};
 		{ 12, 40504, "", "=q4=Valorous Crypstalker Handguards", "=ds=#s9#"};
 		{ 13, 40506, "", "=q4=Valorous Crypstalker Legguards", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxMage"] = {
@@ -2172,6 +2178,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40418, "", "=q4=Valorous Frostfire Robe", "=ds=The Four Horsemen"};
 		{ 12, 40415, "", "=q4=Valorous Frostfire Gloves", "=ds=#s9#"};
 		{ 13, 40417, "", "=q4=Valorous Frostfire Leggings", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinHoly"] = {
@@ -2187,6 +2194,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40569, "", "=q4=Valorous Redemption Tunic", "=ds=The Four Horsemen"};
 		{ 12, 40570, "", "=q4=Valorous Redemption Gloves", "=ds=#s9#"};
 		{ 13, 40572, "", "=q4=Valorous Redemption Greaves", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinProtection"] = {
@@ -2202,6 +2210,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds=The Four Horsemen"};
 		{ 12, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds=#s9#"};
 		{ 13, 40577, "", "=q4=Valorous Redemption Legplates", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinRetribution"] = {
@@ -2217,6 +2226,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds=The Four Horsemen"};
 		{ 12, 40580, "", "=q4=Valorous Redemption Handguards", "=ds=#s9#"};
 		{ 13, 40583, "", "=q4=Valorous Redemption Legguards", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPriestShadow"] = {
@@ -2232,6 +2242,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40458, "", "=q4=Valorous Raiments of Faith", "=ds=The Four Horsemen"};
 		{ 12, 40454, "", "=q4=Valorous Handwraps of Faith", "=ds=#s9#"};
 		{ 13, 40457, "", "=q4=Valorous Pants of Faith", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 	
 	AtlasLoot_Data["NaxxPriestHoly"] = {
@@ -2247,6 +2258,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40449, "", "=q4=Valorous Robe of Faith", "=ds=The Four Horsemen"};
 		{ 12, 40445, "", "=q4=Valorous Gloves of Faith", "=ds=#s9#"};
 		{ 13, 40448, "", "=q4=Valorous Leggings of Faith", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxRogue"] = {
@@ -2262,6 +2274,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40495, "", "=q4=Valorous Bonescythe Breastplate", "=ds=The Four Horsemen"};
 		{ 12, 40496, "", "=q4=Valorous Bonescythe Gauntlets", "=ds=#s9#"};
 		{ 13, 40500, "", "=q4=Valorous Bonescythe Legplates", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanRestoration"] = {
@@ -2277,6 +2290,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40508, "", "=q4=Valorous Earthshatter Tunic", "=ds=The Four Horsemen"};
 		{ 12, 40509, "", "=q4=Valorous Earthshatter Handguards", "=ds=#s9#"};
 		{ 13, 40512, "", "=q4=Valorous Earthshatter Legguards", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanEnhancement"] = {
@@ -2292,6 +2306,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40523, "", "=q4=Valorous Earthshatter Chestguard", "=ds=The Four Horsemen"};
 		{ 12, 40520, "", "=q4=Valorous Earthshatter Grips", "=ds=#s9#"};
 		{ 13, 40522, "", "=q4=Valorous Earthshatter War-Kilt", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanElemental"] = {
@@ -2307,6 +2322,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40514, "", "=q4=Valorous Earthshatter Hauberk", "=ds=The Four Horsemen"};
 		{ 12, 40515, "", "=q4=Valorous Earthshatter Gloves", "=ds=#s9#"};
 		{ 13, 40517, "", "=q4=Valorous Earthshatter Kilt", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarlock"] = {
@@ -2322,6 +2338,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40423, "", "=q4=Valorous Plagueheart Robe", "=ds=The Four Horsemen"};
 		{ 12, 40420, "", "=q4=Valorous Plagueheart Gloves", "=ds=#s9#"};
 		{ 13, 40422, "", "=q4=Valorous Plagueheart Leggings", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorFury"] = {
@@ -2337,6 +2354,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40525, "", "=q4=Valorous Dreadnaught Battleplate", "=ds=The Four Horsemen"};
 		{ 12, 40527, "", "=q4=Valorous Dreadnaught Gauntlets", "=ds=#s9#"};
 		{ 13, 40529, "", "=q4=Valorous Dreadnaught Legplates", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorProtection"] = {
@@ -2352,6 +2370,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds=The Four Horsemen"};
 		{ 12, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds=#s9#"};
 		{ 13, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds=Thaddius"};
+        Back = "T7SET";
 	};
 
 		-----------------------------
@@ -2723,6 +2742,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40723, "", "=q4=Disguise of the Kumiho", "=ds=#s4#", "25 #eofvalor#", ""};
 		{ 3, 40722, "", "=q4=Platinum Mesh Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
 		{ 4, 40721, "", "=q4=Hammerhead Sharkskin Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorCloth"] = {
@@ -2730,6 +2750,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40740, "", "=q4=Wraps of the Astral Traveler", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
 		{ 3, 40751, "", "=q4=Slippers of the Holy Light", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 4, 40750, "", "=q4=Xintor's Expeditionary Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorLeather"] = {
@@ -2737,6 +2758,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40738, "", "=q4=Wristwraps of the Cutthroat", "=ds=#s8#, #a2#", "60 #eofvalor#", ""};
 		{ 3, 40748, "", "=q4=Boots of Captain Ellis", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 4, 40749, "", "=q4=Rainey's Chewed Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorMail"] = {
@@ -2744,6 +2766,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40737, "", "=q4=Pigmented Clan Bindings", "=ds=#s8#, #a3#", "60 #eofvalor#", ""};
 		{ 3, 40746, "", "=q4=Pack-Ice Striders", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 4, 40747, "", "=q4=Treads of Coastal Wandering", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorPlate"] = {
@@ -2753,6 +2776,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 40742, "", "=q4=Bladed Steelboots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 5, 40743, "", "=q4=Kyzoc's Ground Stompers", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 6, 40745, "", "=q4=Sabatons of Rapid Recovery", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorAccessories"] = {
@@ -2760,11 +2784,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 3, 40717, "", "=q4=Ring of Invincibility", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 4, 40718, "", "=q4=Signet of the Impregnable Fortress", "=ds=#s13#", "25 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorTokens"] = {
 		{ 1, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#", ""};
 		{ 2, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#", ""};
+        Back = "EMBLEMOFVALORMENU";
 	};
     
 		-------------------------
@@ -2775,6 +2801,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "60 #eofheroism#", "" };
 		{ 2, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "40 #eofheroism#", "" };
 		{ 3, 40696, "", "=q4=Plush Sash of Guzbah", "=ds=#s10#, #a1#", "40 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
     
 	AtlasLoot_Data["EmblemofHeroismLeather"] = {
@@ -2782,6 +2809,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "60 #eofheroism#", "" };
 		{ 3, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
 		{ 4, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
     
 	AtlasLoot_Data["EmblemofHeroismMail"] = {
@@ -2789,6 +2817,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 42951, "", "=q4=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "60 #eofheroism#", "" };
 		{ 3, 40693, "", "=q4=Beadwork Belt of Shamanic Vision", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
 		{ 4, 40692, "", "=q4=Vereesa's Silver Chain Belt", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
     
 	AtlasLoot_Data["EmblemofHeroismPlate"] = {
@@ -2796,6 +2825,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
 		{ 3, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
 		{ 4, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
     
 	AtlasLoot_Data["EmblemofHeroismWeapons"] = {
@@ -2811,6 +2841,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 40716, "", "=q4=Lillehoff's Winged Blades", "=ds=#w11#", "15 #eofheroism#", "" };
 		{ 11, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "35 #eofheroism#", "" };
 		{ 12, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "35 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
     
 	AtlasLoot_Data["EmblemofHeroismAccessories"] = {
@@ -2826,10 +2857,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "40 #eofheroism#", "" };
 		{ 11, 40699, "", "=q4=Handbook of Obscure Remedies", "=ds=#s15#", "25 #eofheroism#", "" };
 		{ 12, 40698, "", "=q4=Ward of the Violet Citadel", "=ds=#s15#", "25 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
     
 	AtlasLoot_Data["EmblemofHeroismTokens"] = {
 		{ 1, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "80 #eofheroism#", "" };
 		{ 2, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "60 #eofheroism#", "" };
 		{ 3, 43102, "", "=q3=Frozen Orb", "=ds=#e15#", "10 #eofheroism#", "" };
+        Back = "EMBLEMOFHEROISMMENU";
 	};
