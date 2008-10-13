@@ -5758,7 +5758,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 28, 18868, "", "=q4=High Warlord's Pulverizer", "=ds=#h2#, #w6#", "24480 #horde# 40 #av#", ""};
 		{ 29, 23465, "", "=q4=High Warlord's Destroyer", "=ds=#h2#, #w6#", "24480 #horde# 40 #av#", ""};
 		Next = "PVPWeapons2";
-		Back = "HONORMENU";
+		Back = "LEVEL60PVPREWARDS";
 	};
 
 	AtlasLoot_Data["PVPWeapons2"] = {
@@ -5781,7 +5781,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 23, 23468, "", "=q4=High Warlord's Tome of Destruction", "=ds=#s15#", "12240 #horde# 20 #ab#", ""};
 		{ 24, 23469, "", "=q4=High Warlord's Tome of Mending", "=ds=#s15#", "12240 #horde# 20 #ab#", ""};
 		Prev = "PVPWeapons1";
-		Back = "HONORMENU";
+		Back = "LEVEL60PVPREWARDS";
 	};
 
 		--------------------------------
@@ -5820,7 +5820,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 29, 18852, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
 		{ 30, 18834, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
 		Next = "PvP60Accessories2";
-		Back = "HONORMENU";
+		Back = "LEVEL60PVPREWARDS";
 	};
 
 	AtlasLoot_Data["PvP60Accessories2"] = {
@@ -5848,7 +5848,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 28, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #alliance#", ""};
 		Next = "PvP60Accessories3";
 		Prev = "PvP60Accessories1";
-		Back = "HONORMENU";
+		Back = "LEVEL60PVPREWARDS";
 	};
 
 	AtlasLoot_Data["PvP60Accessories3"] = {
@@ -5875,7 +5875,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 27, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #horde#", ""};
 		{ 28, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #horde#", ""};
 		Prev = "PvP60Accessories2";
-		Back = "HONORMENU";
+		Back = "LEVEL60PVPREWARDS";
 	};
 
 	----------------

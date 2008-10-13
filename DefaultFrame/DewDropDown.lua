@@ -313,25 +313,32 @@ AtlasLoot_DewDropDown = {
 				{ AL["PvP Rewards (Level 80)"], "PvPLvl80Rewards", "Submenu" },
 			},
 			[5] = { 
-				{ AL["PvP Non-Set Epics"], "PvPNonSetEpic", "Submenu" },
-			},
-			[6] = { 
 				{ BabbleZone["Alterac Valley"], "AVRewards", "Submenu" },
 			},
-			[7] = { 
+			[6] = { 
 				{ BabbleZone["Arathi Basin"], "ABRewards", "Submenu" },
 			},
-			[8] = { 
+			[7] = { 
 				{ AL["Arathi Basin Sets"], "ABSets", "Submenu" },
 			},
-			[9] = { 
+			[8] = { 
 				{ BabbleZone["Warsong Gulch"], "WSGRewards", "Submenu" },
 			},
-			[10] = { { AtlasLoot_TableNames["Hellfire"][1], "Hellfire", "Table" }, },
-			[11] = { { AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" }, },
-			[12] = { { AtlasLoot_TableNames["Nagrand1"][1], "Nagrand1", "Table" }, },
-			[13] = { { AtlasLoot_TableNames["Terokkar"][1], "Terokkar", "Table" }, },
-			[14] = { { AtlasLoot_TableNames["Zangarmarsh"][1], "Zangarmarsh", "Table" }, },
+			[9] = { 
+                { AtlasLoot_TableNames["Hellfire"][1], "Hellfire", "Table" }, 
+            },
+			[10] = { 
+                { AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" }, 
+            },
+			[11] = { 
+                { AtlasLoot_TableNames["Nagrand1"][1], "Nagrand1", "Table" }, 
+            },
+			[12] = { 
+                { AtlasLoot_TableNames["Terokkar"][1], "Terokkar", "Table" }, 
+            },
+			[13] = { 
+                { AtlasLoot_TableNames["Zangarmarsh"][1], "Zangarmarsh", "Table" }, 
+            },
 		},
 	},
 	[7] = {
@@ -1289,6 +1296,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PVP70RepLeather" },
 		{ "", "PVP70RepMail" },
 		{ "", "PVP70RepPlate" },
+        { AL["PvP Non-Set Epics"], "PvPNonSetEpic" },
 		{ AtlasLoot_TableNames["PvP70Accessories1"][1], "PvP70Accessories1" },
 	},
 	["PvPLvl80Rewards"] = {
@@ -1309,7 +1317,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PvP80Warlock" },
 		{ "", "PvP80Warrior" },
 		{ AtlasLoot_TableNames["PvP80NonSet1"][1], "PvP80NonSet1" },
-		{ AL["PvP Weapons (Level 80)"], "PvP80Weapons1" },
+		{ "", "PvP80Weapons1" },
 	},
 	["Pets"] = {
 		{ AtlasLoot_TableNames["Aquatic"][1], "Aquatic" },

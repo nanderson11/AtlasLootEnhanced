@@ -160,7 +160,7 @@ function AtlasLootPVPSetMenu()
         getglobal("AtlasLootMenuItem_"..i).isheader = false;
     end
     getglobal("AtlasLootItemsFrame_BACK"):Show();
-    getglobal("AtlasLootItemsFrame_BACK").lootpage = "HONORMENU";
+    getglobal("AtlasLootItemsFrame_BACK").lootpage = "LEVEL60PVPREWARDS";
     getglobal("AtlasLootItemsFrame_NEXT"):Hide();
     getglobal("AtlasLootItemsFrame_PREV"):Hide();
     --Druid
@@ -233,7 +233,7 @@ function AtlasLootPVP70RepSetMenu()
         getglobal("AtlasLootMenuItem_"..i).isheader = false;
     end
     getglobal("AtlasLootItemsFrame_BACK"):Show();
-    getglobal("AtlasLootItemsFrame_BACK").lootpage = "HONORMENU";
+    getglobal("AtlasLootItemsFrame_BACK").lootpage = "LEVEL70PVPREWARDS";
     getglobal("AtlasLootItemsFrame_NEXT"):Hide();
     getglobal("AtlasLootItemsFrame_PREV"):Hide();
     --Druid
@@ -306,57 +306,57 @@ function AtlasLootARENASetMenu()
         getglobal("AtlasLootMenuItem_"..i).isheader = false;
     end
     getglobal("AtlasLootItemsFrame_BACK"):Show();
-    getglobal("AtlasLootItemsFrame_BACK").lootpage = "ARENAMENU";
+    getglobal("AtlasLootItemsFrame_BACK").lootpage = "LEVEL70PVPREWARDS";
     getglobal("AtlasLootItemsFrame_NEXT"):Hide();
     getglobal("AtlasLootItemsFrame_PREV"):Hide();
     --Druid Balance
-    AtlasLootMenuItem_3_Name:SetText(BabbleClass["Druid"]);
-    AtlasLootMenuItem_3_Extra:SetText(ORANGE..AL["Balance"]);
-    AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\Spell_Nature_InsectSwarm");
-    AtlasLootMenuItem_3.lootpage="ArenaDruidBalance";
-    AtlasLootMenuItem_3:Show();
+    AtlasLootMenuItem_2_Name:SetText(BabbleClass["Druid"]);
+    AtlasLootMenuItem_2_Extra:SetText(ORANGE..AL["Balance"]);
+    AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\Spell_Nature_InsectSwarm");
+    AtlasLootMenuItem_2.lootpage="ArenaDruidBalance";
+    AtlasLootMenuItem_2:Show();
     --Druid Feral
-    AtlasLootMenuItem_4_Name:SetText(BabbleClass["Druid"]);
-    AtlasLootMenuItem_4_Extra:SetText(ORANGE..AL["Feral"]);
-    AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\Ability_Druid_Maul");
-    AtlasLootMenuItem_4.lootpage="ArenaDruidFeral";
-    AtlasLootMenuItem_4:Show();
+    AtlasLootMenuItem_3_Name:SetText(BabbleClass["Druid"]);
+    AtlasLootMenuItem_3_Extra:SetText(ORANGE..AL["Feral"]);
+    AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\Ability_Druid_Maul");
+    AtlasLootMenuItem_3.lootpage="ArenaDruidFeral";
+    AtlasLootMenuItem_3:Show();
     --Druid Restoration
-    AtlasLootMenuItem_5_Name:SetText(BabbleClass["Druid"]);
-    AtlasLootMenuItem_5_Extra:SetText(ORANGE..AL["Restoration"]);
-    AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\Spell_Nature_Regeneration");
-    AtlasLootMenuItem_5.lootpage="ArenaDruidRestoration";
-    AtlasLootMenuItem_5:Show();
+    AtlasLootMenuItem_4_Name:SetText(BabbleClass["Druid"]);
+    AtlasLootMenuItem_4_Extra:SetText(ORANGE..AL["Restoration"]);
+    AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\Spell_Nature_Regeneration");
+    AtlasLootMenuItem_4.lootpage="ArenaDruidRestoration";
+    AtlasLootMenuItem_4:Show();
     --Hunter
-    AtlasLootMenuItem_7_Name:SetText(BabbleClass["Hunter"]);
-    AtlasLootMenuItem_7_Extra:SetText("");
-    AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\Ability_Hunter_RunningShot");
-    AtlasLootMenuItem_7.lootpage="ArenaHunter";
-    AtlasLootMenuItem_7:Show();
+    AtlasLootMenuItem_6_Name:SetText(BabbleClass["Hunter"]);
+    AtlasLootMenuItem_6_Extra:SetText("");
+    AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\Ability_Hunter_RunningShot");
+    AtlasLootMenuItem_6.lootpage="ArenaHunter";
+    AtlasLootMenuItem_6:Show();
     --Mage
-    AtlasLootMenuItem_9_Name:SetText(BabbleClass["Mage"]);
-    AtlasLootMenuItem_9_Extra:SetText("");
-    AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\Spell_Frost_IceStorm");
-    AtlasLootMenuItem_9.lootpage="ArenaMage";
-    AtlasLootMenuItem_9:Show();
+    AtlasLootMenuItem_8_Name:SetText(BabbleClass["Mage"]);
+    AtlasLootMenuItem_8_Extra:SetText("");
+    AtlasLootMenuItem_8_Icon:SetTexture("Interface\\Icons\\Spell_Frost_IceStorm");
+    AtlasLootMenuItem_8.lootpage="ArenaMage";
+    AtlasLootMenuItem_8:Show();
     --Paladin Holy
-    AtlasLootMenuItem_11_Name:SetText(BabbleClass["Paladin"]);
-    AtlasLootMenuItem_11_Extra:SetText(ORANGE..AL["Holy"]);
-    AtlasLootMenuItem_11_Icon:SetTexture("Interface\\Icons\\Spell_Holy_HolyBolt");
-    AtlasLootMenuItem_11.lootpage="ArenaPaladinHoly";
-    AtlasLootMenuItem_11:Show();
+    AtlasLootMenuItem_10_Name:SetText(BabbleClass["Paladin"]);
+    AtlasLootMenuItem_10_Extra:SetText(ORANGE..AL["Holy"]);
+    AtlasLootMenuItem_10_Icon:SetTexture("Interface\\Icons\\Spell_Holy_HolyBolt");
+    AtlasLootMenuItem_10.lootpage="ArenaPaladinHoly";
+    AtlasLootMenuItem_10:Show();
     --Paladin Protection
-    AtlasLootMenuItem_12_Name:SetText(BabbleClass["Paladin"]);
-    AtlasLootMenuItem_12_Extra:SetText(ORANGE..AL["Protection"]);
-    AtlasLootMenuItem_12_Icon:SetTexture("Interface\\Icons\\Spell_Holy_SealOfMight");
-    AtlasLootMenuItem_12.lootpage="ArenaPaladinProtection";
-    AtlasLootMenuItem_12:Show();
+    AtlasLootMenuItem_11_Name:SetText(BabbleClass["Paladin"]);
+    AtlasLootMenuItem_11_Extra:SetText(ORANGE..AL["Protection"]);
+    AtlasLootMenuItem_11_Icon:SetTexture("Interface\\Icons\\Spell_Holy_SealOfMight");
+    AtlasLootMenuItem_11.lootpage="ArenaPaladinProtection";
+    AtlasLootMenuItem_11:Show();
     --Paladin Retribution
-    AtlasLootMenuItem_13_Name:SetText(BabbleClass["Paladin"]);
-    AtlasLootMenuItem_13_Extra:SetText(ORANGE..AL["Retribution"]);
-    AtlasLootMenuItem_13_Icon:SetTexture("Interface\\Icons\\Spell_Holy_AuraOfLight");
-    AtlasLootMenuItem_13.lootpage="ArenaPaladinRetribution";
-    AtlasLootMenuItem_13:Show();
+    AtlasLootMenuItem_12_Name:SetText(BabbleClass["Paladin"]);
+    AtlasLootMenuItem_12_Extra:SetText(ORANGE..AL["Retribution"]);
+    AtlasLootMenuItem_12_Icon:SetTexture("Interface\\Icons\\Spell_Holy_AuraOfLight");
+    AtlasLootMenuItem_12.lootpage="ArenaPaladinRetribution";
+    AtlasLootMenuItem_12:Show();
     --Priest Holy
     AtlasLootMenuItem_17_Name:SetText(BabbleClass["Priest"]);
     AtlasLootMenuItem_17_Extra:SetText(ORANGE..AL["Holy"]);

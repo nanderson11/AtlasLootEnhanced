@@ -1953,9 +1953,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "PVP70NONSETEPICS";
 	};
 	
-		---------------------------------
-		--- Placeholder - PvP Weapons ---
-		---------------------------------
+		--------------------------------
+		--- Savage Gladiator Weapons ---
+		--------------------------------
 
 	AtlasLoot_Data["PvP80Weapons1"] = {
 		{ 1, 42294, "", "=q3=Savage Gladiator's Decapitator", "=ds=#h2#, #w1#", "0 #faction#", ""};
@@ -1989,6 +1989,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 29, 42556, "", "=q3=Savage Gladiator's Shield Wall", "=ds=#w8#", "0 #faction#", ""};
 		{ 30, 42444, "", "=q3=Savage Gladiator's War Edge", "=ds=#w11#", "0 #faction#", ""};
 		Next = "PvP80Weapons2";
+        Back = "PVPMENU";
 	};
 	
 	AtlasLoot_Data["PvP80Weapons2"] = {
@@ -2002,6 +2003,60 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 42593, "", "=q3=Savage Gladiator's Totem of Indomitability", "=ds=#s16#", "0 #faction#", ""};
 		{ 9, 42594, "", "=q3=Savage Gladiator's Totem of Survival", "=ds=#s16#", "0 #faction#", ""};
 		Prev = "PvP80Weapons1";
+        Back = "PVPMENU";
+	};
+    
+		--------------------------------
+		--- Deadly Gladiator Weapons ---
+		--------------------------------
+
+	AtlasLoot_Data["DeadlyGladiatorWeapons1"] = {
+		{ 1, 42317, "", "=q4=Deadly Gladiator's Decapitator", "=ds=#h2#, #w1#", "0 #arena#", ""};
+		{ 2, 42322, "", "=q4=Deadly Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "0 #arena#", ""};
+		{ 3, 42332, "", "=q4=Deadly Gladiator's Greatsword", "=ds=#h2#, #w10#", "0 #arena#", ""};
+		{ 4, 42490, "", "=q4=Deadly Gladiator's Longbow", "=ds=#w2#", "0 #arena#", ""};
+		{ 5, 42346, "", "=q4=Deadly Gladiator's Spellblade", "=ds=#h3#, #w10#", "0 #arena#", ""};
+		{ 6, 42362, "", "=q4=Deadly Gladiator's Battle Staff", "=ds=#w9#", "0 #arena#", ""};
+		{ 7, 42502, "", "=q4=Deadly Gladiator's Touch of Defeat", "=ds=#w12#", "0 #arena#", ""};
+		{ 8, 42495, "", "=q4=Deadly Gladiator's Heavy Crossbow", "=ds=#w3#", "0 #arena#", ""};
+		{ 9, 42227, "", "=q4=Deadly Gladiator's Hacker", "=ds=#h4#, #w1#", "0 #arena#", ""};
+		{ 10, 42248, "", "=q4=Deadly Gladiator's Shiv", "=ds=#h4#, #w4#", "0 #arena#", ""};
+		{ 11, 42270, "", "=q4=Deadly Gladiator's Left Ripper", "=ds=#h4#, #w13#", "0 #arena#", ""};
+		{ 12, 42280, "", "=q4=Deadly Gladiator's Bonecracker", "=ds=#h4#, #w6#", "0 #arena#", ""};
+		{ 13, 42290, "", "=q4=Deadly Gladiator's Quickblade", "=ds=#h4#, #w10#", "0 #arena#", ""};
+		{ 14, 42485, "", "=q4=Deadly Gladiator's Rifle", "=ds=#w5#", "0 #arena#", ""};
+		{ 15, 42564, "", "=q4=Deadly Gladiator's Barrier", "=ds=#w8#", "0 #arena#", ""};
+		{ 16, 42570, "", "=q4=Deadly Gladiator's Redoubt", "=ds=#w8#", "0 #arena#", ""};
+		{ 17, 42352, "", "=q4=Deadly Gladiator's Gavel", "=ds=#h3#, #w6#", "0 #arena#", ""};
+		{ 18, 42327, "", "=q4=Deadly Gladiator's Pike", "=ds=#h2#, #w7#", "0 #arena#", ""};
+		{ 19, 42208, "", "=q4=Deadly Gladiator's Cleaver", "=ds=#h1#, #w1#", "0 #arena#", ""};
+		{ 20, 42242, "", "=q4=Deadly Gladiator's Shanker", "=ds=#h1#, #w4#", "0 #arena#", ""};
+		{ 21, 42275, "", "=q4=Deadly Gladiator's Pummeler", "=ds=#h1#, #w6#", "0 #arena#", ""};
+		{ 22, 42285, "", "=q4=Deadly Gladiator's Slicer", "=ds=#h1#, #w10#", "0 #arena#", ""};
+		{ 23, 42260, "", "=q4=Deadly Gladiator's Right Ripper", "=ds=#h3#, #w13#", "0 #arena#", ""};
+		{ 24, 42232, "", "=q4=Deadly Gladiator's Chopper", "=ds=#h4#, #w1#", "0 #arena#", ""};
+		{ 25, 42237, "", "=q4=Deadly Gladiator's Waraxe", "=ds=#h4#, #w4#", "0 #arena#", ""};
+		{ 26, 42265, "", "=q4=Deadly Gladiator's Left Render", "=ds=#h4#, #w13#", "0 #arena#", ""};
+		{ 27, 42519, "", "=q4=Deadly Gladiator's Piercing Touch", "=ds=#w12#", "0 #arena#", ""};
+		{ 28, 42513, "", "=q4=Deadly Gladiator's Baton of Light", "=ds=#w12#", "0 #arena#", ""};
+		{ 29, 42559, "", "=q4=Deadly Gladiator's Shield Wall", "=ds=#w8#", "0 #arena#", ""};
+		{ 30, 42450, "", "=q4=Deadly Gladiator's War Edge", "=ds=#w11#", "0 #arena#", ""};
+		Next = "DeadlyGladiatorWeapons2";
+        Back = "PVPMENU";
+	};
+	
+	AtlasLoot_Data["DeadlyGladiatorWeapons2"] = {
+		{ 1, 42620, "", "=q4=Deadly Gladiator's Sigil of Strife", "=ds=#s16#", "0 #arena#", ""};
+		{ 2, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "=ds=#s16#", "0 #arena#", ""};
+		{ 3, 42583, "", "=q4=Deadly Gladiator's Idol of Steadfastness", "=ds=#s16#", "0 #arena#", ""};
+		{ 4, 42578, "", "=q4=Deadly Gladiator's Idol of Tenacity", "=ds=#s16#", "0 #arena#", ""};
+		{ 5, 42614, "", "=q4=Deadly Gladiator's Libram of Justice", "=ds=#s16#", "0 #arena#", ""};
+		{ 6, 42852, "", "=q4=Deadly Gladiator's Libram of Fortitude", "=ds=#s16#", "0 #arena#", ""};
+		{ 7, 42597, "", "=q4=Deadly Gladiator's Totem of the Third Wind", "=ds=#s16#", "0 #arena#", ""};
+		{ 8, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", "=ds=#s16#", "0 #arena#", ""};
+		{ 9, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", "=ds=#s16#", "0 #arena#", ""};
+		Prev = "DeadlyGladiatorWeapons1";
+        Back = "PVPMENU";
 	};
 
 		-------------------------
@@ -2039,6 +2094,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 41743, "", "=q3=Design: Forlorn Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		{ 29, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		Next = "LakeWintergrasp2";
+        Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["LakeWintergrasp2"] = {
@@ -2059,6 +2115,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 15, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "325 #wintergrasp#"};
 		{ 16, 44115, "", "=q7=Wintergrasp Commendation", "=ds=", "30 #wintergrasp#"};
 		Prev = "LakeWintergrasp1";
+        Back = "PVPMENU";
 	};
 
 	--------------------------

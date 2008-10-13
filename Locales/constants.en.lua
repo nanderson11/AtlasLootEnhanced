@@ -86,6 +86,7 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = true;
     AL["Select a Loot Table..."] = true;
     AL["OR"] = true;
+    AL["Lake Wintergrasp"] = true;
     AL["Wrath of the Lich King"] = true;
 
     --Text for Options Panel
@@ -254,6 +255,7 @@ if AL then
     AL["10/25 Man"] = true;
     AL["Tier 7 Sets 10/25 Man"] = true;
     AL["Level 80 Naxxramas Sets"] = true;
+    AL["Level 80 PvP Sets"] = true;
     AL["Arena Reward"] = true;
     AL["Conjured Item"] = true;
     AL["Used to summon boss"] = true;
@@ -755,6 +757,10 @@ if AL then
     AL["Gladiator's Felshroud"] = true;
     AL["Gladiator's Battlegear"] = true;
     AL["Gladiator's Desecration"] = true;
+    
+    --Level 80 PvP Weapons
+    AL["Savage Gladiator\'s Weapons"] = true;
+    AL["Deadly Gladiator\'s Weapons"] = true;
     
 	--PvP Level 80 Placeholder!!
     AL["Placeholder"] = true;

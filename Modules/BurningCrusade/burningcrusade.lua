@@ -3822,7 +3822,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 28247, "", "=q3=Band of Dominance", "=ds=", "9547 #horde# 10 #av#", ""};
 		{ 29, 28246, "", "=q3=Band of Triumph", "=ds=", "9547 #horde# 10 #av#", ""};
 		Next = "PvP70Accessories2";
-		Back = "HONORMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 	AtlasLoot_Data["PvP70Accessories2"] = {
@@ -3842,7 +3842,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "2 #ab#", ""};
 		{ 23, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "2 #eos#", ""};
 		Prev = "PvP70Accessories1";
-		Back = "HONORMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 		------------------------------------
@@ -4509,7 +4509,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=", "9000 #faction# 20 #eos#", ""};
 		{ 27, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=", "9000 #faction# 20 #eos#", ""};
 		Next = "Arena2Weapons2";
-		Back = "ARENAMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 	AtlasLoot_Data["Arena2Weapons2"] = {
@@ -4523,7 +4523,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 33952, "", "=q4=Merciless Gladiator's Totem of Survival", "=ds=", "8000 #faction# 10 #eos#", ""};
 		{ 9, 33078, "", "=q4=Merciless Gladiator's Totem of the Third Wind", "=ds=", "8000 #faction# 10 #eos#", ""};
 		Prev = "Arena2Weapons1";
-		Back = "ARENAMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 		--------------------------------
@@ -4556,7 +4556,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 33716, "", "=q4=Vengeful Gladiator's Staff", "=ds=", "3000 #arena# #reqrating# 1800", ""};
 		{ 24, 33766, "", "=q4=Vengeful Gladiator's War Staff", "=ds=", "3000 #arena# #reqrating# 1800", ""};
 		Next = "Arena3Weapons2";
-		Back = "ARENAMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 	AtlasLoot_Data["Arena3Weapons2"] = {
@@ -4583,7 +4583,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 33953, "", "=q4=Vengeful Gladiator's Totem of Survival", "=ds=", "800 #arena#", ""};
 		{ 24, 33843, "", "=q4=Vengeful Gladiator's Totem of the Third Wind", "=ds=", "800 #arena#", ""};
 		Prev = "Arena3Weapons1";
-		Back = "ARENAMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 		--------------------------------
@@ -4619,7 +4619,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 35103, "", "=q4=Brutal Gladiator's Staff", "=ds=", "3750 #arena# #reqrating# 2050", ""};
 		{ 27, 35109, "", "=q4=Brutal Gladiator's War Staff", "=ds=", "3750 #arena# #reqrating# 2050", ""};
 		Next = "Arena4Weapons2";
-		Back = "ARENAMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 	AtlasLoot_Data["Arena4Weapons2"] = {
@@ -4646,7 +4646,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 35105, "", "=q4=Brutal Gladiator's Totem of Survival", "=ds=", "1000 #arena#", ""};
 		{ 24, 35106, "", "=q4=Brutal Gladiator's Totem of the Third Wind", "=ds=", "1000 #arena#", ""};
 		Prev = "Arena4Weapons1";
-		Back = "ARENAMENU";
+		Back = "LEVEL70PVPREWARDS";
 	};
 
 	--------------------------
