@@ -4,10 +4,10 @@ local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 AtlasLoot_Data["WORLDEVENTMENU"] = {
-		{ 2, "Brewfest1", "INV_Cask_04", "=ds="..AL["Brewfest"], "=q5="..AL["Various Locations"]};
-		{ 3, "Winterviel1", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
-		{ 4, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
-		{ 5, "LunarFestival1", "INV_Misc_ElvenCoins", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
+        { 2, "Brewfest1", "INV_Cask_04", "=ds="..AL["Brewfest"], "=q5="..AL["Various Locations"]};
+        { 3, "Winterviel1", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
+        { 4, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
+        { 5, "LunarFestival1", "INV_Misc_ElvenCoins", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
         { 6, "Noblegarden", "INV_Egg_03", "=ds="..AL["Noblegarden"], "=q5="..AL["Various Locations"]};
         { 8, "BashirLanding", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Skyguard Raid"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
         { 9, "GurubashiArena", "INV_Box_02", "=ds="..AL["Gurubashi Arena Booty Run"], "=q5="..BabbleZone["Stranglethorn Vale"]};
@@ -23,7 +23,7 @@ AtlasLoot_Data["WORLDEVENTMENU"] = {
         { 25, "FishingExtravaganza", "INV_Fishingpole_02", "=ds="..AL["Stranglethorn Fishing Extravaganza"], "=q5="..BabbleZone["Stranglethorn Vale"]};
         { 27, "ETHEREUMMENU", "INV_Misc_PunchCards_Prismatic", "=ds="..AL["Ethereum Prison"], ""};
 	};
-    
+
 AtlasLoot_Data["SKETTISMENU"] = {
         { 2, "DarkscreecherAkkarai", "INV_Misc_Rune_07", "=ds="..AL["Darkscreecher Akkarai"], ""};
         { 3, "GezzaraktheHuntress", "INV_Misc_Rune_07", "=ds="..AL["Gezzarak the Huntress"], ""};
@@ -32,7 +32,7 @@ AtlasLoot_Data["SKETTISMENU"] = {
         { 18, "VakkiztheWindrager", "INV_Misc_Rune_07", "=ds="..AL["Vakkiz the Windrager"], ""};
         Back = "WORLDEVENTMENU";
     };
-    
+
 AtlasLoot_Data["ETHEREUMMENU"] = {
         { 2, "ArmbreakerHuffaz", "INV_Jewelry_Ring_59", "=ds="..AL["Armbreaker Huffaz"], ""};
         { 3, "Forgosh", "INV_Boots_05", "=ds="..AL["Forgosh"], ""};
@@ -44,12 +44,10 @@ AtlasLoot_Data["ETHEREUMMENU"] = {
         { 20, "BashirStasisChambers", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Stasis Chambers"], ""};
         Back = "WORLDEVENTMENU";
     };
-    
+
 AtlasLoot_Data["ABYSSALMENU"] = {
         { 2, "Templars", "INV_Jewelry_Talisman_05", "=ds="..AL["Abyssal Council"].." - "..AL["Templars"], ""};
         { 3, "HighCouncil", "INV_Staff_13", "=ds="..AL["Abyssal Council"].." - "..AL["High Council"], ""};
         { 17, "Dukes", "INV_Jewelry_Ring_36", "=ds="..AL["Abyssal Council"].." - "..AL["Dukes"], ""};
         Back = "WORLDEVENTMENU";
-    };
-    
-    
+    };    

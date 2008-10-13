@@ -1501,7 +1501,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80DruidBalance"] = {
@@ -1523,7 +1523,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80DruidFeral"] = {
@@ -1545,7 +1545,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 	
 	AtlasLoot_Data["PvP80DruidRestoration"] = {
@@ -1567,7 +1567,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80Hunter"] = {
@@ -1589,7 +1589,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80Mage"] = {
@@ -1611,7 +1611,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80PaladinRetribution"] = {
@@ -1633,7 +1633,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80PaladinHoly"] = {
@@ -1655,7 +1655,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80PriestShadow"] = {
@@ -1677,7 +1677,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80PriestHoly"] = {
@@ -1699,7 +1699,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80Rogue"] = {
@@ -1721,7 +1721,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80ShamanElemental"] = {
@@ -1743,7 +1743,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 	
 	AtlasLoot_Data["PvP80ShamanEnhancement"] = {
@@ -1765,7 +1765,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80ShamanRestoration"] = {
@@ -1787,7 +1787,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 	AtlasLoot_Data["PvP80Warlock"] = {
@@ -1809,7 +1809,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=", "1350 #arena# #reqrating# 1850"};
 		{ 21, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=", "2250 #arena# #reqrating# 1910"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 --These are datamined sets NOT available yet. LK Arena 6
 	AtlasLoot_Data["PvP80Warlock2"] = {
@@ -1840,7 +1840,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
 		{ 20, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "1350 #arena#"};
 		{ 21, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=", "2250 #arena#"};
-		Back = "PVP70RepSET";
+		Back = "LEVEL80PVPSETS";
 	};
 
 		-----------------------------------
@@ -1867,7 +1867,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 42122, "", "=q4=Medallion of the Horde", "=ds=", "49600 #faction#", ""};
 		{ 25, 42123, "", "=q4=Medallion of the Alliance", "=ds=", "49600 #faction#", ""};
 		Next = "PvP80NonSet2";
-		Back = "PVP70NONSETEPICS";
+		Back = "LEVEL80PVPREWARDS";
 	};
 --Cloth
 	AtlasLoot_Data["PvP80NonSet2"] = {
@@ -1885,7 +1885,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=", "62000 #faction#", ""};
 		Next = "PvP80NonSet3";
 		Prev = "PvP80NonSet1";
-		Back = "PVP70NONSETEPICS";
+		Back = "LEVEL80PVPREWARDS";
 	};
 --Leather
 	AtlasLoot_Data["PvP80NonSet3"] = {
@@ -1909,7 +1909,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=", "62000 #faction#", ""};
 		Next = "PvP80NonSet4";
 		Prev = "PvP80NonSet2";
-		Back = "PVP70NONSETEPICS";
+		Back = "LEVEL80PVPREWARDS";
 	};
 --Mail
 	AtlasLoot_Data["PvP80NonSet4"] = {
@@ -1950,7 +1950,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=", "62000 #faction#", ""};
 		{ 22, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=", "62000 #faction#", ""};
 		Prev = "PvP80NonSet4";
-		Back = "PVP70NONSETEPICS";
+		Back = "LEVEL80PVPREWARDS";
 	};
 	
 		--------------------------------
@@ -1989,7 +1989,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 29, 42556, "", "=q3=Savage Gladiator's Shield Wall", "=ds=#w8#", "0 #faction#", ""};
 		{ 30, 42444, "", "=q3=Savage Gladiator's War Edge", "=ds=#w11#", "0 #faction#", ""};
 		Next = "PvP80Weapons2";
-        Back = "PVPMENU";
+		Back = "LEVEL80PVPREWARDS";
 	};
 	
 	AtlasLoot_Data["PvP80Weapons2"] = {
@@ -2003,7 +2003,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 42593, "", "=q3=Savage Gladiator's Totem of Indomitability", "=ds=#s16#", "0 #faction#", ""};
 		{ 9, 42594, "", "=q3=Savage Gladiator's Totem of Survival", "=ds=#s16#", "0 #faction#", ""};
 		Prev = "PvP80Weapons1";
-        Back = "PVPMENU";
+		Back = "LEVEL80PVPREWARDS";
 	};
     
 		--------------------------------
@@ -2042,7 +2042,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 29, 42559, "", "=q4=Deadly Gladiator's Shield Wall", "=ds=#w8#", "0 #arena#", ""};
 		{ 30, 42450, "", "=q4=Deadly Gladiator's War Edge", "=ds=#w11#", "0 #arena#", ""};
 		Next = "DeadlyGladiatorWeapons2";
-        Back = "PVPMENU";
+		Back = "LEVEL80PVPREWARDS";
 	};
 	
 	AtlasLoot_Data["DeadlyGladiatorWeapons2"] = {
@@ -2056,7 +2056,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", "=ds=#s16#", "0 #arena#", ""};
 		{ 9, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", "=ds=#s16#", "0 #arena#", ""};
 		Prev = "DeadlyGladiatorWeapons1";
-        Back = "PVPMENU";
+		Back = "LEVEL80PVPREWARDS";
 	};
 
 		-------------------------
@@ -2094,7 +2094,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 41743, "", "=q3=Design: Forlorn Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		{ 29, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		Next = "LakeWintergrasp2";
-        Back = "PVPMENU";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["LakeWintergrasp2"] = {
@@ -2106,7 +2106,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "200 #wintergrasp#"};
 		{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "200 #wintergrasp#"};
 		{ 8, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "250 #wintergrasp#"};
-		{ 9, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "0 #wintergrasp#"};
+		{ 9, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "250 #wintergrasp#"};
 		{ 10, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "200 #wintergrasp#"};
 		{ 11, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "200 #wintergrasp#"};
 		{ 12, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "325 #wintergrasp#"};
@@ -2115,7 +2115,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 15, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "325 #wintergrasp#"};
 		{ 16, 44115, "", "=q7=Wintergrasp Commendation", "=ds=", "30 #wintergrasp#"};
 		Prev = "LakeWintergrasp1";
-        Back = "PVPMENU";
+		Back = "PVPMENU";
 	};
 
 	--------------------------

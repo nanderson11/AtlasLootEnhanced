@@ -17,7 +17,7 @@ AtlasLoot_Data["CRAFTINGMENU"] = {
         { 20, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
         { 21, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
 	};
-    
+
 AtlasLoot_Data["CRAFTSET"] = {
         { 1, "", "INV_Chest_Plate05", "=q6="..GetSpellInfo(2018), "=q5="..BabbleInventory["Plate"] };
         { 2, "ImperialPlate", "INV_Belt_01", "=ds="..AL["Imperial Plate"], "" };
@@ -48,7 +48,7 @@ AtlasLoot_Data["CRAFTSET"] = {
         Back = "CRAFTINGMENU";
         Next = "CRAFTSET2";
     };
-    
+
 AtlasLoot_Data["CRAFTSET2"] = {
         { 1, "", "INV_Chest_Leather_04", "=q6="..GetSpellInfo(2108), "=q5="..BabbleInventory["Leather"] };
         { 2, "VolcanicArmor", "INV_Pants_06", "=ds="..AL["Volcanic Armor"], "=q5="..AL["Fire Resistance Gear"] };
@@ -76,7 +76,6 @@ AtlasLoot_Data["CRAFTSET2"] = {
         Back = "CRAFTINGMENU";
         Prev = "CRAFTSET";
     };
-    
+
 AtlasLoot_Data["EmptyTable"] = {
     };
-    
