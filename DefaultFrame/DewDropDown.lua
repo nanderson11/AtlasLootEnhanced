@@ -184,24 +184,27 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
             [8] = { 
-				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
+				{ BabbleBoss["Malygos"], "Malygos", "Table" },
 			},
             [9] = { 
-				{ BabbleZone["The Nexus"], "TheNexus", "Table" },
+				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
             [10] = { 
-				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
+				{ BabbleZone["The Nexus"], "TheNexus", "Table" },
 			},
             [11] = { 
-				{ BabbleBoss["Sartharion"], "Sartharion", "Table" },
+				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
             [12] = { 
+				{ BabbleBoss["Sartharion"], "Sartharion", "Table" },
+			},
+            [13] = { 
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Table" },
 			},
-			[13] = { 
+			[14] = { 
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[14] = { 
+			[15] = { 
 				{ BabbleZone["The Violet Hold"], "VioletHold", "Submenu" },
 			},
 		},

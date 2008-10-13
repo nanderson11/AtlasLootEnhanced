@@ -55,7 +55,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["UKKeleseth"] = { BabbleBoss["Prince Keleseth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UKSkarvald"] = { BabbleBoss["Skarvald the Constructor"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UKIngvar"] = { BabbleBoss["Ingvar the Plunderer"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["UKUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UKUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --The Nexus
 	AtlasLoot_TableNames["TheNexus"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TheNexusHEROIC"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
@@ -64,8 +64,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["NexOrmorok"] = { BabbleBoss["Ormorok the Tree-Shaper"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NexAnomalus"] = { BabbleBoss["Anomalus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NexKeristrasza"] = { BabbleBoss["Keristrasza"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["NexStoutbeard"] = { "Commander Stoutbeard", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["NexUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NexStoutbeard"] = { AL["Commander Stoutbeard"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NexUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Azjol-Nerub
 	AtlasLoot_TableNames["AzjolNerub"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AzjolNerubHEROIC"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" };
@@ -78,51 +78,51 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["AKNakox"] = { BabbleBoss["Elder Nadox"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AKJedoga"] = { BabbleBoss["Jedoga Shadowseeker"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AKVolazj"] = { BabbleBoss["Herald Volazj"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["AKUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AKUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Drak'Tharon Keep
 	AtlasLoot_TableNames["DTTrollgore"] = { BabbleBoss["Trollgore"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DTNovos"] = { BabbleBoss["Novos the Summoner"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DTKingDred"] = { BabbleBoss["King Dred"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DTTharonja"] = { BabbleBoss["The Prophet Tharon'ja"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["DTUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["DTUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --The Violet Hold
-	AtlasLoot_TableNames["VHUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VHUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Gundrak
 	AtlasLoot_TableNames["GundrakSladran"] = { BabbleBoss["Slad'ran"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GundrakMoorabi"] = { BabbleBoss["Moorabi"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["GundrakBloodstone"] = { "Bloodstone Annihilator", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakBloodstone"] = { AL["Bloodstone Annihilator"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GundrakGaldarah"] = { BabbleBoss["Gal'darah"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["GundrakUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Halls of Stone
 	AtlasLoot_TableNames["HoSMaiden"] = { BabbleBoss["Maiden of Grief"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoSKrystallus"] = { BabbleBoss["Krystallus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoSSjonnir"] = { BabbleBoss["Sjonnir the Ironshaper"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoSRescueMission"] = { "RescueMission", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoSUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoSRescueMission"] = { AL["Rescue Mission"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoSUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Halls of Lightning
-	AtlasLoot_TableNames["HoLGjarngrin"] = { "Gjarngrin", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoLGjarngrin"] = { AL["Gjarngrin"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoLIonar"] = { BabbleBoss["Ionar"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoLVolkhan"] = { BabbleBoss["Volkhan"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLKronus"] = { "Kronus", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoLKronus"] = { AL["Kronus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoLUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Caverns of Time: Stratholme
 	AtlasLoot_TableNames["CoTStratholmeMeathook"] = { BabbleBoss["Meathook"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeEpoch"] = { BabbleBoss["Chrono-Lord Epoch"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeMalGanis"] = { BabbleBoss["Mal'Ganis"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeSalramm"] = { BabbleBoss["Salramm the Fleshcrafter"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["CoTStratholmeUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CoTStratholmeUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Utgarde Pinnacle
 	AtlasLoot_TableNames["UPSkadi"] = { BabbleBoss["Skadi the Ruthless"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPYmiron"] = { BabbleBoss["King Ymiron"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPSorrowgrave"] = { BabbleBoss["Svala Sorrowgrave"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPPalehoof"] = { BabbleBoss["Gortok Palehoof"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["UPUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UPUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --The Oculus
 	AtlasLoot_TableNames["OcuDrakos"] = { BabbleBoss["Drakos the Interrogator"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuUrom"] = { BabbleBoss["Mage-Lord Urom"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuCloudstrider"] = { BabbleBoss["Varos Cloudstrider"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuEregos"] = { BabbleBoss["Ley-Guardian Eregos"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["OcuUnknown"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["OcuUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Naxxramas Level 80
 	AtlasLoot_TableNames["Naxx80Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
@@ -155,15 +155,15 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Naxx80KelThuzad"] = { BabbleBoss["Kel'Thuzad"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80KelThuzad25Man"] = { BabbleBoss["Kel'Thuzad"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Trash"] = { AL["Trash Mobs"].." ("..BabbleZone["Naxxramas"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Unknown"] = { "Unknown", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Unknown2"] = { "Unknown", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Unknown3"] = { "Unknown", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Naxx80Unknown"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Naxx80Unknown2"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Naxx80Unknown3"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Obsidian Sanctum
-	AtlasLoot_TableNames["Sartharion"] = { "Sartharion", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Sartharion25Man"] = { "Sartharion", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Sartharion"] = { BabbleBoss["Sartharion"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Sartharion25Man"] = { BabbleBoss["Sartharion"], "AtlasLootWotLK" };
     --The Eye of Eternity
-	AtlasLoot_TableNames["Malygos"] = { "Malygos", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Malygos25Man"] = { "Malygos", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Malygos"] = { BabbleBoss["Malygos"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Malygos25Man"] = { BabbleBoss["Malygos"], "AtlasLootWotLK" };
 
 --------------------
 --- BC Instances ---

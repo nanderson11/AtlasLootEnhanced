@@ -1028,6 +1028,11 @@ if AL then
     AL["Cache of the Legion"] = true;
     AL["Rajaxx's Captains"] = true;
     AL["Felsteed"] = true;
+    AL["Commander Stoutbeard"] = true;
+    AL["Bloodstone Annihilator"] = true;
+    AL["Rescue Mission"] = true;
+    AL["Gjarngrin"] = true;
+    AL["Kronus"] = true;
 
     --Zones
     AL["World Drop"] = true;
