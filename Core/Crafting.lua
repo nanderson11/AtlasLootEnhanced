@@ -68,7 +68,7 @@ function AtlasLoot_SmithingMenu()
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	--Apprentice
-	AtlasLootMenuItem_1_Name:SetText(select(2, GetSpellInfo(2259)));
+	AtlasLootMenuItem_1_Name:SetText(select(2, GetSpellInfo(2259)).."/"..select(2, GetSpellInfo(3101)));
 	AtlasLootMenuItem_1_Extra:SetText("");
 	AtlasLootMenuItem_1_Icon:SetTexture("Interface\\Icons\\Trade_BlackSmithing");
 	AtlasLootMenuItem_1.lootpage = "SmithingApprentice1";
