@@ -89,7 +89,7 @@ local AtlasLootDBDefaults = {
         ItemSpam = false,
         MinimapButton = true,
         HidePanel = false,
-        LastBoss = "AlchemyArtisan1",
+        LastBoss = "EmptyTable",
         HeroicMode = false,
         Bigraid = false,
         AtlasLootVersion = "1",
@@ -336,7 +336,7 @@ function AtlasLoot_Reset(data)
         AtlasFrame:Hide();
     end
     if data == "frames" then
-        AtlasLoot.db.profile.LastBoss = "AlchemyArtisan1";
+        AtlasLoot.db.profile.LastBoss = "EmptyTable";
 		AtlasLootDefaultFrame:ClearAllPoints();
 		AtlasLootDefaultFrame:SetPoint("CENTER", "UIParent", "CENTER", 0, 0);
         AtlasLootMinimapButtonFrame:ClearAllPoints();
@@ -345,16 +345,16 @@ function AtlasLoot_Reset(data)
         AtlasLoot.db.profile.LootBrowserScale = 1.0;
         AtlasLoot_UpdateLootBrowserScale();
     elseif data == "quicklooks" then
-        AtlasLoot.db.profile.LastBoss = "AlchemyArtisan1";
+        AtlasLoot.db.profile.LastBoss = "EmptyTable";
         AtlasLootCharDB["QuickLooks"] = {};
         AtlasLoot_RefreshQuickLookButtons();
     elseif data == "wishlist" then
-        AtlasLoot.db.profile.LastBoss = "AlchemyArtisan1";
+        AtlasLoot.db.profile.LastBoss = "EmptyTable";
         AtlasLootCharDB["WishList"] = {};
         AtlasLootCharDB["SearchResult"] = {};
         AtlasLootCharDB.LastSearchedText = "";
     elseif data == "all" then
-        AtlasLoot.db.profile.LastBoss = "AlchemyArtisan1";
+        AtlasLoot.db.profile.LastBoss = "EmptyTable";
 		AtlasLootDefaultFrame:ClearAllPoints();
 		AtlasLootDefaultFrame:SetPoint("CENTER", "UIParent", "CENTER", 0, 0);
         AtlasLootMinimapButtonFrame:ClearAllPoints();

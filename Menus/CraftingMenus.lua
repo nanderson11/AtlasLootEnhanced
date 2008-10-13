@@ -77,3 +77,6 @@ AtlasLoot_Data["CRAFTSET2"] = {
         Prev = "CRAFTSET";
     };
     
+AtlasLoot_Data["EmptyTable"] = {
+    };
+    

@@ -163,46 +163,46 @@ AtlasLoot_DewDropDown = {
 	[3] = {
 		[AL["WotLK Instances"]] = {
 			[1] = { 
-				{ "Utgarde Keep", "UtgardeKeep", "Table" },
+				{ BabbleZone["Ahn'kahet: The Old Kingdom"], "Ahnkahet", "Table" },
 			},
-			[2] = { 
-				{ "The Nexus", "TheNexus", "Table" },
+            [2] = { 
+				{ BabbleZone["Azjol-Nerub"], "AzjolNerub", "Table" },
 			},
-			[3] = { 
-				{ "Azjol-Nerub", "AzjolNerub", "Table" },
+            [3] = { 
+				{ BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], "CoTStratholme", "Submenu" },
 			},
-			[4] = { 
-				{ "Ahn'kahet: The Old Kingdom", "Ahnkahet", "Table" },
+            [4] = { 
+				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Submenu" },
 			},
-			[5] = { 
-				{ "Drak'Tharon Keep", "DrakTharonKeep", "Submenu" },
+            [5] = { 
+				{ BabbleZone["Gundrak"], "Gundrak", "Submenu" },
 			},
-			[6] = { 
-				{ "The Violet Hold", "VioletHold", "Submenu" },
+            [6] = { 
+				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Submenu" },
 			},
-			[7] = { 
-				{ "Gundrak", "Gundrak", "Submenu" },
+            [7] = { 
+				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
-			[8] = { 
-				{ "Halls of Stone", "HallsofStone", "Submenu" },
-			},
-			[9] = { 
-				{ "Halls of Lightning", "HallsofLightning", "Submenu" },
-			},
-			[10] = { 
-				{ "Caverns of Time: Stratholme", "CoTStratholme", "Submenu" },
-			},
-			[11] = { 
-				{ "Utgarde Pinnacle", "UtgardePinnacle", "Submenu" },
-			},
-			[12] = { 
-				{ "The Oculus", "TheOculus", "Submenu" },
-			},
-			[13] = { 
+            [8] = { 
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
+            [9] = { 
+				{ BabbleZone["The Nexus"], "TheNexus", "Table" },
+			},
+            [10] = { 
+				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
+			},
+            [11] = { 
+				{ BabbleBoss["Sartharion"], "Sartharion", "Table" },
+			},
+            [12] = { 
+				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Table" },
+			},
+			[13] = { 
+				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
+			},
 			[14] = { 
-				{ "Sartharion", "Sartharion", "Table" },
+				{ BabbleZone["The Violet Hold"], "VioletHold", "Submenu" },
 			},
 		},
 	},
@@ -231,61 +231,67 @@ AtlasLoot_DewDropDown = {
 	},
 	[5] = {
 		[AL["Sets/Collections"]] = {
-			[1] = { 
-				{ AL["Pre 60 Sets"], "Pre60Sets", "Submenu" },
-			},
-			[2] = { 
-				{ AL["Zul'Gurub Sets"], "ZGSets1", "Table" },
-			},
-			[3] = { 
-				{ AL["Ruins of Ahn'Qiraj Sets"], "AQ20Sets1", "Table" },
-			},
-			[4] = { 
-				{ AL["Temple of Ahn'Qiraj Sets"], "AQ40Sets1", "Table" },
-			},
-			[5] = { 
-				{ AL["Dungeon 1/2 Sets"], "DungeonSets12", "Submenu" },
-			},
-			[6] = { 
-				{ AL["Dungeon 3 Sets"], "DungeonSets3", "Submenu" },
-			},
-			[7] = { 
-				{ AL["Tier 1/2 Sets"], "T1T2Sets", "Submenu" },
-			},
-			[8] = { 
-				{ AL["Tier 3 Sets"], "T3Sets", "Submenu" },
-			},
-			[9] = { 
-				{ AL["Tier 4/5/6 Sets"], "T456Sets", "Submenu" },
-			},
-			[10] = { 
-				{ AL["Level 80 Naxxramas Sets"], "Naxx10Sets", "Submenu" },
-			},
-			[11] = {
-				{ AL["BoE World Epics"], "BoEWorldEpics", "Submenu" },
-			},
-			[12] = {
+			[1] = {
 				{ AL["Badge of Justice Rewards"], "BadgeofJusticeRewards", "Submenu" },
 			},
-			[13] = {
+            [2] = {
+				{ AL["BoE World Epics"], "BoEWorldEpics", "Submenu" },
+			},
+            [3] = { 
+				{ AL["Dungeon 1/2 Sets"], "DungeonSets12", "Submenu" },
+			},
+			[4] = { 
+				{ AL["Dungeon 3 Sets"], "DungeonSets3", "Submenu" },
+			},
+            [5] = {
 				{ AL["Emblem of Heroism Rewards"], "EmblemofHeroismRewards", "Submenu" },
 			},
-			[14] = {
+			[6] = {
 				{ AL["Emblem of Valor Rewards"], "EmblemofValorRewards", "Submenu" },
 			},
-			[15] = { { AL["Legendary Items"], "Legendaries", "Table" }, },
-			[16] = { { AL["Tabards"], "Tabards3", "Table" }, },
-			[17] = { 
-				{ AL["Pets"], "Pets", "Submenu" },
-			},
-			[18] = {
+			[7] = { 
+                { AL["Legendary Items"], "Legendaries", "Table" }, 
+            },
+            [8] = {
 				[AL["Mounts"]] = {
 					{ AL["Classic Mounts"], "MountsClassic", "Submenu" },
 					{ AL["The Burning Crusade Mounts"], "MountsBC", "Submenu" },
 					{ AL["Wrath of the Lich King Mounts"], "MountsLichKing", "Submenu" },
 				}, 
 			},
-			[19] = { { AL["Upper Deck Card Game Items"], "CardGame1", "Table" }, },
+            [9] = { 
+				{ AL["Non-Combat Pets"], "Pets", "Submenu" },
+			},
+            [10] = { 
+				{ AL["Pre 60 Sets"], "Pre60Sets", "Submenu" },
+			},
+			[11] = { 
+				{ AL["Ruins of Ahn'Qiraj Sets"], "AQ20Sets1", "Table" },
+			},
+            [12] = { 
+                { AL["Tabards"], "Tabards3", "Table" }, 
+            },
+			[13] = { 
+				{ AL["Temple of Ahn'Qiraj Sets"], "AQ40Sets1", "Table" },
+			},
+			[14] = { 
+				{ AL["Tier 1/2 Sets"], "T1T2Sets", "Submenu" },
+			},
+			[15] = { 
+				{ AL["Tier 3 Sets"], "T3Sets", "Submenu" },
+			},
+			[16] = { 
+				{ AL["Tier 4/5/6 Sets"], "T456Sets", "Submenu" },
+			},
+			[17] = { 
+				{ AL["Tier 7 Sets 10/25 Man"], "Naxx10Sets", "Submenu" },
+			},
+			[18] = { 
+                { AL["Upper Deck Card Game Items"], "CardGame1", "Table" }, 
+            },
+            [19] = { 
+				{ AL["Zul'Gurub Sets"], "ZGSets1", "Table" },
+			},
 
 		},
 	},

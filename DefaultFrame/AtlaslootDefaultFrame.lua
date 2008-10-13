@@ -255,6 +255,9 @@ function AtlasLoot_DewdropRegister()
                                 elseif v[1][3] == "Table" and v[1][1] == "" then
                                     AtlasLoot_Dewdrop:AddLine(
                                         'text', AtlasLoot_TableNames[v[1][2]][1],
+                                        'textR', 1,
+                                        'textG', 0.82,
+                                        'textB', 0,
                                         'func', AtlasLoot_DewDropClick,
                                         'arg1', v[1][2],
                                         'arg2', v[1][1],
@@ -264,6 +267,9 @@ function AtlasLoot_DewdropRegister()
                                 else
                                     AtlasLoot_Dewdrop:AddLine(
                                         'text', v[1][1],
+                                        'textR', 1,
+                                        'textG', 0.82,
+                                        'textB', 0,
                                         'func', AtlasLoot_DewDropClick,
                                         'arg1', v[1][2],
                                         'arg2', v[1][1],
@@ -321,6 +327,9 @@ function AtlasLoot_DewdropRegister()
                             elseif v[3] == "Table" and v[1] == "" then
                                 AtlasLoot_Dewdrop:AddLine(
                                     'text', AtlasLoot_TableNames[v[2]][1],
+                                    'textR', 1,
+                                    'textG', 0.82,
+                                    'textB', 0,
                                     'func', AtlasLoot_DewDropClick,
                                     'arg1', v[2],
                                     'arg2', v[1],
@@ -330,6 +339,9 @@ function AtlasLoot_DewdropRegister()
                             else
                                 AtlasLoot_Dewdrop:AddLine(
                                     'text', v[1],
+                                    'textR', 1,
+                                    'textG', 0.82,
+                                    'textB', 0,
                                     'func', AtlasLoot_DewDropClick,
                                     'arg1', v[2],
                                     'arg2', v[1],

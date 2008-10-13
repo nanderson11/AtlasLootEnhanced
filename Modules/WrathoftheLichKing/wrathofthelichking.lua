@@ -662,12 +662,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 9, 37107, "", "=q3=Leeka's Shield", "=ds=#w8#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37696, "", "=q4=Plague-Infected Bracers", "=ds=#s8#, #a2#"};
-		{ 17, 37693, "", "=q4=Legguards of Nature's Power", "=ds=#s11#, #a3#"};
-		{ 18, 37694, "", "=q4=Band of Guile", "=ds=#s13#"};
-		{ 19, 37693, "", "=q4=Greed", "=ds=#h3#, #w13#"};
-		{ 20, 43085, "", "=q4=Royal Crest of Lordaeron", "=ds=#w8#"};
-		{ 22, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
-		{ 23, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
+		{ 18, 37695, "", "=q4=Legguards of Nature's Power", "=ds=#s11#, #a3#"};
+		{ 19, 37694, "", "=q4=Band of Guile", "=ds=#s13#"};
+		{ 20, 37693, "", "=q4=Greed", "=ds=#h3#, #w13#"};
+		{ 21, 43085, "", "=q4=Royal Crest of Lordaeron", "=ds=#w8#"};
+		{ 23, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
+		{ 24, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
 		Prev = "CoTStratholmeSalramm";
 	};
 ---1-5 Trash drops, Rest unknown Heroic
@@ -2070,13 +2070,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------------------------
 
 	AtlasLoot_Data["NaxxDeathKnightDPS"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", ""};
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39619, "", "=q4=Heroes' Scourgeborne Helmet", "=ds=Kel'Thuzad"};
 		{ 3, 39621, "", "=q4=Heroes' Scourgeborne Shoulderplates", "=ds=Loatheb, Gluth"};
 		{ 4, 39617, "", "=q4=Heroes' Scourgeborne Battleplate", "=ds=The Four Horsemen"};
 		{ 5, 39618, "", "=q4=Heroes' Scourgeborne Gauntlets", "=ds=#s9#"};
 		{ 6, 39620, "", "=q4=Heroes' Scourgeborne Legplates", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", ""};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40554, "", "=q4=Valorous Scourgeborne Helmet", "=ds=Kel'Thuzad"};
 		{ 10, 40557, "", "=q4=Valorous Scourgeborne Shoulderplates", "=ds=Loatheb, Gluth"};
 		{ 11, 40550, "", "=q4=Valorous Scourgeborne Battleplate", "=ds=The Four Horsemen"};
@@ -2085,13 +2085,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxDeathKnightTank"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_2#", ""};
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39625, "", "=q4=Heroes' Scourgeborne Faceguard", "=ds=Kel'Thuzad"};
 		{ 3, 39627, "", "=q4=Heroes' Scourgeborne Pauldrons", "=ds=Loatheb, Gluth"};
 		{ 4, 39623, "", "=q4=Heroes' Scourgeborne Chestguard", "=ds=The Four Horsemen"};
 		{ 5, 39624, "", "=q4=Heroes' Scourgeborne Handguards", "=ds=#s9#"};
 		{ 6, 39626, "", "=q4=Heroes' Scourgeborne Legguards", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_2#", ""};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40565, "", "=q4=Valorous Scourgeborne Faceguard", "=ds=Kel'Thuzad"};
 		{ 10, 40568, "", "=q4=Valorous Scourgeborne Pauldrons", "=ds=Loatheb, Gluth"};
 		{ 11, 40559, "", "=q4=Valorous Scourgeborne Chestguard", "=ds=The Four Horsemen"};
@@ -2100,13 +2100,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxDruidFeral"] = {
-		{ 1, 0, "Ability_Druid_Maul", "=q6=#t7s1_2#", ""};
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t7s1_2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39553, "", "=q4=Heroes' Dreamwalker Headguard", "=ds=Kel'Thuzad"};
 		{ 3, 39556, "", "=q4=Heroes' Dreamwalker Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 4, 39554, "", "=q4=Heroes' Dreamwalker Raiments", "=ds=The Four Horsemen"};
 		{ 5, 39557, "", "=q4=Heroes' Dreamwalker Handgrips", "=ds=#s9#"};
 		{ 6, 39555, "", "=q4=Heroes' Dreamwalker Legguards", "=ds=Thaddius"};
-		{ 8, 0, "Ability_Druid_Maul", "=q6=#t7s1_2#", ""};
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#t7s1_2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40473, "", "=q4=Valorous Dreamwalker Headguard", "=ds=Kel'Thuzad"};
 		{ 10, 40494, "", "=q4=Valorous Dreamwalker Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 11, 40471, "", "=q4=Valorous Dreamwalker Raiments", "=ds=The Four Horsemen"};
@@ -2115,13 +2115,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxDruidRestoration"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t7s1_3#", ""};
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t7s1_3#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39531, "", "=q4=Heroes' Dreamwalker Headpiece", "=ds=Kel'Thuzad"};
 		{ 3, 39542, "", "=q4=Heroes' Dreamwalker Spaulders", "=ds=Loatheb, Gluth"};
 		{ 4, 39538, "", "=q4=Heroes' Dreamwalker Robe", "=ds=The Four Horsemen"};
 		{ 5, 39543, "", "=q4=Heroes' Dreamwalker Handguards", "=ds=#s9#"};
 		{ 6, 39539, "", "=q4=Heroes' Dreamwalker Leggings", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t7s1_3#", ""};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t7s1_3#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40461, "", "=q4=Valorous Dreamwalker Headpiece", "=ds=Kel'Thuzad"};
 		{ 10, 40465, "", "=q4=Valorous Dreamwalker Spaulders", "=ds=Loatheb, Gluth"};
 		{ 11, 40463, "", "=q4=Valorous Dreamwalker Robe", "=ds=The Four Horsemen"};
@@ -2130,13 +2130,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxDruidBalance"] = {
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t7s1_1#", ""};
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t7s1_1#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39545, "", "=q4=Heroes' Dreamwalker Cover", "=ds=Kel'Thuzad"};
 		{ 3, 39548, "", "=q4=Heroes' Dreamwalker Mantle", "=ds=Loatheb, Gluth"};
 		{ 4, 39547, "", "=q4=Heroes' Dreamwalker Vestments", "=ds=The Four Horsemen"};
 		{ 5, 39544, "", "=q4=Heroes' Dreamwalker Gloves", "=ds=#s9#"};
 		{ 6, 39546, "", "=q4=Heroes' Dreamwalker Cover", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t7s1_1#", ""};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t7s1_1#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40467, "", "=q4=Valorous Dreamwalker Cover", "=ds=Kel'Thuzad"};
 		{ 10, 40470, "", "=q4=Valorous Dreamwalker Mantle", "=ds=Loatheb, Gluth"};
 		{ 11, 40469, "", "=q4=Valorous Dreamwalker Vestments", "=ds=The Four Horsemen"};
@@ -2145,13 +2145,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxHunter"] = {
-		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t7s2#", ""};
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t7s2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39578, "", "=q4=Heroes' Crypstalker Headpiece", "=ds=Kel'Thuzad"};
 		{ 3, 39581, "", "=q4=Heroes' Crypstalker Spaulders", "=ds=Loatheb, Gluth"};
 		{ 4, 39579, "", "=q4=Heroes' Crypstalker Tunic", "=ds=The Four Horsemen"};
 		{ 5, 39582, "", "=q4=Heroes' Crypstalker Handguards", "=ds=#s9#"};
 		{ 6, 39580, "", "=q4=Heroes' Crypstalker Legguards", "=ds=Thaddius"};
-		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t7s2#", ""};
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t7s2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40505, "", "=q4=Valorous Crypstalker Headpiece", "=ds=Kel'Thuzad"};
 		{ 10, 40507, "", "=q4=Valorous Crypstalker Spaulders", "=ds=Loatheb, Gluth"};
 		{ 11, 40503, "", "=q4=Valorous Crypstalker Tunic", "=ds=The Four Horsemen"};
@@ -2160,13 +2160,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxMage"] = {
-		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t7s3#", ""};
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t7s3#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39491, "", "=q4=Heroes' Frostfire Circlet", "=ds=Kel'Thuzad"};
 		{ 3, 39494, "", "=q4=Heroes' Frostfire Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 4, 39492, "", "=q4=Heroes' Frostfire Robe", "=ds=The Four Horsemen"};
 		{ 5, 39495, "", "=q4=Heroes' Frostfire Gloves", "=ds=#s9#"};
 		{ 6, 39493, "", "=q4=Heroes' Frostfire Leggings", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t7s3#", ""};
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t7s3#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40416, "", "=q4=Valorous Frostfire Circlet", "=ds=Kel'Thuzad"};
 		{ 10, 40419, "", "=q4=Valorous Frostfire Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 11, 40418, "", "=q4=Valorous Frostfire Robe", "=ds=The Four Horsemen"};
@@ -2175,13 +2175,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxPaladinHoly"] = {
-		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t7s4_1#", ""};
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t7s4_1#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39628, "", "=q4=Heroes' Redemption Headpiece", "=ds=Kel'Thuzad"};
 		{ 3, 39631, "", "=q4=Heroes' Redemption Spaulders", "=ds=Loatheb, Gluth"};
 		{ 4, 39629, "", "=q4=Heroes' Redemption Tunic", "=ds=The Four Horsemen"};
 		{ 5, 39632, "", "=q4=Heroes' Redemption Gloves", "=ds=#s9#"};
 		{ 6, 39630, "", "=q4=Heroes' Redemption Greaves", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t7s4_1#", ""};
+		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t7s4_1#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40571, "", "=q4=Valorous Redemption Headpiece", "=ds=Kel'Thuzad"};
 		{ 10, 40573, "", "=q4=Valorous Redemption Spaulders", "=ds=Loatheb, Gluth"};
 		{ 11, 40569, "", "=q4=Valorous Redemption Tunic", "=ds=The Four Horsemen"};
@@ -2190,13 +2190,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxPaladinProtection"] = {
-		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t7s4_2#", ""};
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t7s4_2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39635, "", "=q4=Heroes' Redemption Helm", "=ds=Kel'Thuzad"};
 		{ 3, 39637, "", "=q4=Heroes' Redemption Shoulderplates", "=ds=Loatheb, Gluth"};
 		{ 4, 39633, "", "=q4=Heroes' Redemption Chestpiece", "=ds=The Four Horsemen"};
 		{ 5, 39634, "", "=q4=Heroes' Redemption Gauntlets", "=ds=#s9#"};
 		{ 6, 39636, "", "=q4=Heroes' Redemption Legplates", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#t7s4_2#", ""};
+		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#t7s4_2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40576, "", "=q4=Valorous Redemption Helm", "=ds=Kel'Thuzad"};
 		{ 10, 40578, "", "=q4=Valorous Redemption Shoulderplates", "=ds=Loatheb, Gluth"};
 		{ 11, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds=The Four Horsemen"};
@@ -2205,13 +2205,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxPaladinRetribution"] = {
-		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t7s4_3#", ""};
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t7s4_3#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39640, "", "=q4=Heroes' Redemption Faceguard", "=ds=Kel'Thuzad"};
 		{ 3, 39642, "", "=q4=Heroes' Redemption Shouldergards", "=ds=Loatheb, Gluth"};
 		{ 4, 39638, "", "=q4=Heroes' Redemption Breastplate", "=ds=The Four Horsemen"};
 		{ 5, 39639, "", "=q4=Heroes' Redemption Handguards", "=ds=#s9#"};
 		{ 6, 39641, "", "=q4=Heroes' Redemption Legguards", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t7s4_3#", ""};
+		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t7s4_3#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40581, "", "=q4=Valorous Redemption Faceguard", "=ds=Kel'Thuzad"};
 		{ 10, 40584, "", "=q4=Valorous Redemption Shouldergards", "=ds=Loatheb, Gluth"};
 		{ 11, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds=The Four Horsemen"};
@@ -2220,13 +2220,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxPriestShadow"] = {
-		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t7s5_2#", ""};
+		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t7s5_2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39521, "", "=q4=Heroes' Circlet of Faith", "=ds=Kel'Thuzad"};
 		{ 3, 39529, "", "=q4=Heroes' Mantle of Faith", "=ds=Loatheb, Gluth"};
 		{ 4, 39523, "", "=q4=Heroes' Raiments of Faith", "=ds=The Four Horsemen"};
 		{ 5, 39530, "", "=q4=Heroes' Handwraps of Faith", "=ds=#s9#"};
 		{ 6, 39528, "", "=q4=Heroes' Pants of Faith", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#t7s5_2#", ""};
+		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#t7s5_2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40456, "", "=q4=Valorous Circlet of Faith", "=ds=Kel'Thuzad"};
 		{ 10, 40459, "", "=q4=Valorous Mantle of Faith", "=ds=Loatheb, Gluth"};
 		{ 11, 40458, "", "=q4=Valorous Raiments of Faith", "=ds=The Four Horsemen"};
@@ -2235,13 +2235,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["NaxxPriestHoly"] = {
-		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", ""};
+		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39514, "", "=q4=Heroes' Crown of Faith", "=ds=Kel'Thuzad"};
 		{ 3, 39518, "", "=q4=Heroes' Shoulderpads of Faith", "=ds=Loatheb, Gluth"};
 		{ 4, 39515, "", "=q4=Heroes' Robe of Faith", "=ds=The Four Horsemen"};
 		{ 5, 39519, "", "=q4=Heroes' Gloves of Faith", "=ds=#s9#"};
 		{ 6, 39517, "", "=q4=Heroes' Leggings of Faith", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", ""};
+		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40447, "", "=q4=Valorous Crown of Faith", "=ds=Kel'Thuzad"};
 		{ 10, 40450, "", "=q4=Valorous Shoulderpads of Faith", "=ds=Loatheb, Gluth"};
 		{ 11, 40449, "", "=q4=Valorous Robe of Faith", "=ds=The Four Horsemen"};
@@ -2250,13 +2250,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxRogue"] = {
-		{ 1, 0, "Ability_BackStab", "=q6=#t7s6#", ""};
+		{ 1, 0, "Ability_BackStab", "=q6=#t7s6#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39561, "", "=q4=Heroes' Bonescythe Helmet", "=ds=Kel'Thuzad"};
 		{ 3, 39565, "", "=q4=Heroes' Bonescythe Pauldrons", "=ds=Loatheb, Gluth"};
 		{ 4, 39558, "", "=q4=Heroes' Bonescythe Breastplate", "=ds=The Four Horsemen"};
 		{ 5, 39560, "", "=q4=Heroes' Bonescythe Gauntlets", "=ds=#s9#"};
 		{ 6, 39564, "", "=q4=Heroes' Bonescythe Legplates", "=ds=Thaddius"};
-		{ 8, 0, "Ability_BackStab", "=q6=#t7s6#", ""};
+		{ 8, 0, "Ability_BackStab", "=q6=#t7s6#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40499, "", "=q4=Valorous Bonescythe Helmet", "=ds=Kel'Thuzad"};
 		{ 10, 40502, "", "=q4=Valorous Bonescythe Pauldrons", "=ds=Loatheb, Gluth"};
 		{ 11, 40495, "", "=q4=Valorous Bonescythe Breastplate", "=ds=The Four Horsemen"};
@@ -2265,13 +2265,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxShamanRestoration"] = {
-		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t7s7_3#", ""};
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t7s7_3#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39583, "", "=q4=Heroes' Earthshatter Headpiece", "=ds=Kel'Thuzad"};
 		{ 3, 39590, "", "=q4=Heroes' Earthshatter Spaulders", "=ds=Loatheb, Gluth"};
 		{ 4, 39588, "", "=q4=Heroes' Earthshatter Tunic", "=ds=The Four Horsemen"};
 		{ 5, 39591, "", "=q4=Heroes' Earthshatter Handguards", "=ds=#s9#"};
 		{ 6, 39589, "", "=q4=Heroes' Earthshatter Legguards", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t7s7_3#", ""};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t7s7_3#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40510, "", "=q4=Valorous Earthshatter Headpiece", "=ds=Kel'Thuzad"};
 		{ 10, 40513, "", "=q4=Valorous Earthshatter Spaulders", "=ds=Loatheb, Gluth"};
 		{ 11, 40508, "", "=q4=Valorous Earthshatter Tunic", "=ds=The Four Horsemen"};
@@ -2280,13 +2280,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxShamanEnhancement"] = {
-		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t7s7_2#", ""};
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t7s7_2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39602, "", "=q4=Heroes' Earthshatter Faceguard", "=ds=Kel'Thuzad"};
 		{ 3, 39604, "", "=q4=Heroes' Earthshatter Shoulderguards", "=ds=Loatheb, Gluth"};
 		{ 4, 39597, "", "=q4=Heroes' Earthshatter Chestguard", "=ds=The Four Horsemen"};
 		{ 5, 39601, "", "=q4=Heroes' Earthshatter Grips", "=ds=#s9#"};
 		{ 6, 39603, "", "=q4=Heroes' Earthshatter War-Kilt", "=ds=Thaddius"};
-		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#t7s7_2#", ""};
+		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#t7s7_2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40521, "", "=q4=Valorous Earthshatter Faceguard", "=ds=Kel'Thuzad"};
 		{ 10, 40524, "", "=q4=Valorous Earthshatter Shoulderguards", "=ds=Loatheb, Gluth"};
 		{ 11, 40523, "", "=q4=Valorous Earthshatter Chestguard", "=ds=The Four Horsemen"};
@@ -2295,13 +2295,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxShamanElemental"] = {
-		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t7s7_1#", ""};
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t7s7_1#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39594, "", "=q4=Heroes' Earthshatter Helm", "=ds=Kel'Thuzad"};
 		{ 3, 39596, "", "=q4=Heroes' Earthshatter Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 4, 39592, "", "=q4=Heroes' Earthshatter Hauberk", "=ds=The Four Horsemen"};
 		{ 5, 39593, "", "=q4=Heroes' Earthshatter Gloves", "=ds=#s9#"};
 		{ 6, 39595, "", "=q4=Heroes' Earthshatter Kilt", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t7s7_1#", ""};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t7s7_1#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40516, "", "=q4=Valorous Earthshatter Helm", "=ds=Kel'Thuzad"};
 		{ 10, 40518, "", "=q4=Valorous Earthshatter Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 11, 40514, "", "=q4=Valorous Earthshatter Hauberk", "=ds=The Four Horsemen"};
@@ -2310,13 +2310,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxWarlock"] = {
-		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t7s8#", ""};
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t7s8#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39496, "", "=q4=Heroes' Plagueheart Circlet", "=ds=Kel'Thuzad"};
 		{ 3, 39499, "", "=q4=Heroes' Plagueheart Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 4, 39497, "", "=q4=Heroes' Plagueheart Robe", "=ds=The Four Horsemen"};
 		{ 5, 39500, "", "=q4=Heroes' Plagueheart Gloves", "=ds=#s9#"};
 		{ 6, 39498, "", "=q4=Heroes' Plagueheart Leggings", "=ds=Thaddius"};
-		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t7s8#", ""};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t7s8#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40421, "", "=q4=Valorous Plagueheart Circlet", "=ds=Kel'Thuzad"};
 		{ 10, 40424, "", "=q4=Valorous Plagueheart Shoulderpads", "=ds=Loatheb, Gluth"};
 		{ 11, 40423, "", "=q4=Valorous Plagueheart Robe", "=ds=The Four Horsemen"};
@@ -2325,13 +2325,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxWarriorFury"] = {
-		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t7s9_1#", ""};
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t7s9_1#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39605, "", "=q4=Heroes' Dreadnaught Helmet", "=ds=Kel'Thuzad"};
 		{ 3, 39608, "", "=q4=Heroes' Dreadnaught Shoulderplates", "=ds=Loatheb, Gluth"};
 		{ 4, 39606, "", "=q4=Heroes' Dreadnaught Battleplate", "=ds=The Four Horsemen"};
 		{ 5, 39609, "", "=q4=Heroes' Dreadnaught Gauntlets", "=ds=#s9#"};
 		{ 6, 39607, "", "=q4=Heroes' Dreadnaught Legplates", "=ds=Thaddius"};
-		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t7s9_1#", ""};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t7s9_1#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40528, "", "=q4=Valorous Dreadnaught Helmet", "=ds=Kel'Thuzad"};
 		{ 10, 40530, "", "=q4=Valorous Dreadnaught Shoulderplates", "=ds=Loatheb, Gluth"};
 		{ 11, 40525, "", "=q4=Valorous Dreadnaught Battleplate", "=ds=The Four Horsemen"};
@@ -2340,13 +2340,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["NaxxWarriorProtection"] = {
-		{ 1, 0, "INV_Shield_05", "=q6=#t7s9_2#", ""};
+		{ 1, 0, "INV_Shield_05", "=q6=#t7s9_2#", "=q5="..AL["10 Man Raid"]};
 		{ 2, 39610, "", "=q4=Heroes' Dreadnaught Greathelm", "=ds=Kel'Thuzad"};
 		{ 3, 39613, "", "=q4=Heroes' Dreadnaught Pauldrons", "=ds=Loatheb, Gluth"};
 		{ 4, 39611, "", "=q4=Heroes' Dreadnaught Breastplate", "=ds=The Four Horsemen"};
 		{ 5, 39622, "", "=q4=Heroes' Dreadnaught Handguards", "=ds=#s9#"};
 		{ 6, 39612, "", "=q4=Heroes' Dreadnaught Legguards", "=ds=Thaddius"};
-		{ 8, 0, "INV_Shield_05", "=q6=#t7s9_2#", ""};
+		{ 8, 0, "INV_Shield_05", "=q6=#t7s9_2#", "=q5="..AL["25 Man Raid"]};
 		{ 9, 40546, "", "=q4=Valorous Dreadnaught Greathelm", "=ds=Kel'Thuzad"};
 		{ 10, 40548, "", "=q4=Valorous Dreadnaught Pauldrons", "=ds=Loatheb, Gluth"};
 		{ 11, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds=The Four Horsemen"};

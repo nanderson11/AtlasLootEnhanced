@@ -50,6 +50,8 @@ if AL then
     AL["Normal Mode"] = true;
     AL["Show 10 Man Loot"] = true;
     AL["Show 25 Man Loot"] = true;
+    AL["10 Man Raid"] = true;
+    AL["25 Man Raid"] = true;
     AL["Raid"] = true;
     AL["Factions - Azeroth"] = true;
     AL["Factions - Outland"] = true;
@@ -82,6 +84,7 @@ if AL then
     AL["Classic Mounts"] = true;
     AL["The Burning Crusade Mounts"] = true;
     AL["Wrath of the Lich King Mounts"] = true;
+    AL["Select a Loot Table..."] = true;
 
     --Text for Options Panel
     AL["Atlasloot Options"] = true;
@@ -245,6 +248,7 @@ if AL then
     AL["Tier 4"] = true;
     AL["Tier 5"] = true;
     AL["Tier 6"] = true;
+    AL["Tier 7 Sets 10/25 Man"] = true;
     AL["Level 80 Naxxramas Sets"] = true;
     AL["Arena Reward"] = true;
     AL["Conjured Item"] = true;
@@ -854,6 +858,7 @@ if AL then
 
     --Pets
     AL["Pets"] = true;
+    AL["Non-Combat Pets"] = true;
     AL["Aquatic"] = true;
     AL["Birds"] = true;
     AL["Invertebrates"] = true;
