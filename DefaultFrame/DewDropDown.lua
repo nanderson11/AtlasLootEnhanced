@@ -1363,7 +1363,6 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["BlackSmithing"] = {
 		{ AtlasLoot_TableNames["SmithingApprentice1"][1], "SmithingApprentice1" },
-		{ AtlasLoot_TableNames["SmithingJourneyman1"][1], "SmithingJourneyman1" },
 		{ AtlasLoot_TableNames["SmithingExpert1"][1], "SmithingExpert1" },
 		{ AtlasLoot_TableNames["SmithingArtisan1"][1], "SmithingArtisan1" },
 		{ AtlasLoot_TableNames["SmithingMaster1"][1], "SmithingMaster1" },
