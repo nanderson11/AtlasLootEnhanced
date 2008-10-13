@@ -253,8 +253,8 @@ if AL then
     AL["Tier 5"] = "Set T5";
     AL["Tier 6"] = "Set T6";
     AL["Tier 7 Sets"] = "Sets T7";
-    AL["Level 80 Naxxramas Sets"] = "Sets Naxxramas Level 80";
-    AL["Level 80 PvP Sets"] = "Sets JcJ Level 80";
+    AL["Level 80 Naxxramas Sets"] = "Sets Naxxramas Niveau 80";
+    AL["Level 80 PvP Sets"] = "Sets JcJ Niveau 80";
     AL["Arena Reward"] = "Récompense d'Arène";
     AL["Conjured Item"] = "Objet Conjuré";
     AL["Used to summon boss"] = "Utilisé pour invoquer un boss";
@@ -758,8 +758,8 @@ if AL then
     --AL["Gladiator's Desecration"] = true; -- à traduire
 
     --Level 80 PvP Weapons
-    --AL["Savage Gladiator\'s Weapons"] = true; -- à traduire
-    --AL["Deadly Gladiator\'s Weapons"] = true; -- à traduire
+    AL["Savage Gladiator\'s Weapons"] = "Armes Gladiateur sauvage";
+    AL["Deadly Gladiator\'s Weapons"] = "Armes Gladiateur fatal";
 
     --PvP Level 80 Placeholder!!
     --AL["Placeholder"] = true; -- à traduire
@@ -798,7 +798,7 @@ if AL then
     AL["Tier 4/5/6 Sets"] = "Sets T4/5/6";
     AL["PvP Sets (Level 60)"] = "Sets JcJ (Niveau 60)";
     AL["PvP Sets (Level 70)"] = "Sets JcJ (Niveau 70)";
-    --AL["PvP Reputation Sets (Level 70)"] = true; -- à traduire
+    L["PvP Reputation Sets (Level 70)"] = "Sets JcJ Réputation (Niveau 70)";
     AL["PvP Rewards (Level 60)"] = "Récompenses JcJ (Niveau 60)";
     AL["PvP Rewards (Level 70)"] = "Récompenses JcJ (Niveau 70)";
     AL["PvP Accessories (Level 60)"] = "Accessoires JcJ (Niveau 60)";
@@ -841,8 +841,8 @@ if AL then
     AL["Rare Set"] = "Set Supérieur";
     AL["Legendary Items"] = "Objets légendaires";
     AL["Badge of Justice Rewards"] = "Récompenses Insigne de justice";
-    --AL["Emblem of Valor Rewards"] = true; -- à traduire
-    --AL["Emblem of Heroism Rewards"] = true; -- à traduire
+    --AL["Emblem of Valor Rewards"] = "Récompenses"; -- à traduire
+    --AL["Emblem of Heroism Rewards"] = "Récompenses"; -- à traduire
     AL["Accesories and Weapons"] ="Accessoires et Armes";
     AL["Accessories"] = "Accessoires";
     AL["Armor and Weapons"] = "Armures et Armes";
