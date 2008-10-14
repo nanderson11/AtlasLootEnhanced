@@ -1096,7 +1096,13 @@ if AL then
     AL["Garrett Family Chest"] = "Coffre de la famille Garrett";
     AL["Reinforced Fel Iron Chest"] = "Coffre en gangrefer renforcé";
     AL["DM North Tribute Chest"] = "Coffre du Roi (HT Nord)";
-    
+    AL["The Saga of Terokk"] = "La Saga de Terokk";
+    AL["First Fragment Guardian"] = "Gardien du premier fragment";
+    AL["Second Fragment Guardian"] = "Gardien du second fragment";
+    AL["Third Fragment Guardian"] = "Gardien du troisième fragment";
+    AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
+    AL["Overcharged Manacell"] = "Cellule de mana surchargée";
+
     --World Events
     AL["Abyssal Council"] = "Conseil abyssal";
     AL["Bash'ir Landing Skyguard Raid"] = "Point d'ancrage de Bash'ir";
