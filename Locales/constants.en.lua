@@ -89,6 +89,16 @@ if AL then
     AL["OR"] = true;
     AL["Lake Wintergrasp"] = true;
     AL["Wrath of the Lich King"] = true;
+    AL["FuBar Options"] = true;
+    AL["Attach to Minimap"] = true;
+    AL["Hide FuBar Plugin"] = true;
+    AL["Position:"] = true;
+    AL["Left"] = true;
+    AL["Center"] = true;
+    AL["Right"] = true;
+    AL["Hide Text"] = true;
+    AL["Hide Icon"] = true;
+    AL["Minimap Button Options"] = true;
 
     --Text for Options Panel
     AL["Atlasloot Options"] = true;
@@ -112,6 +122,8 @@ if AL then
     AL["Notify on LoD Module Load"] = true;
     AL["Load Loot Modules at Startup"] = true;
     AL["Loot Browser Scale: "] = true;
+    AL["Button Position: "] = true;
+    AL["Button Radius: "] = true;
     AL["Done"] = true;
     AL["FuBar Toggle"] = true;
     AL["WishList"] = true;

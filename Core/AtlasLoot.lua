@@ -40,6 +40,7 @@ local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.12.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.12.1";
+ATLASLOOT_POSITION = AL["Position:"];
 
 --Standard indent to line text up with Atlas text
 ATLASLOOT_INDENT = "   ";
@@ -88,16 +89,21 @@ local AtlasLootDBDefaults = {
         ItemIDs = false,
         ItemSpam = false,
         MinimapButton = true,
+        FuBarAttached = true,
+        FuBarText = true,
+        FuBarIcon = true,
         HidePanel = false,
         LastBoss = "EmptyTable",
         HeroicMode = false,
         Bigraid = false,
         AtlasLootVersion = "1",
+        FuBarPosition = 1,
         AutoQuery = false,
         LoDNotify = false,
         LoadAllLoDStartup = false,
         PartialMatching = true,
         MinimapButtonAngle = 240,
+        MinimapButtonRadius = 75,
         LootBrowserScale = 1.0,
         SearchOn = {
             All = true,
@@ -327,6 +333,28 @@ function AtlasLoot_OnVariablesLoaded()
 	else
 		collectgarbage("collect");
 	end
+    panel = getglobal("AtlasLootOptionsFrame");
+    panel.name=AL["AtlasLoot"];
+    InterfaceOptions_AddCategory(panel);
+    if IsAddOnLoaded("FuBar") then
+        panel = getglobal("AtlasLootFuBarOptionsFrame");
+        panel.name=AL["FuBar Options"];
+        panel.parent=AL["AtlasLoot"];
+        InterfaceOptions_AddCategory(panel);
+        if AtlasLootFu:IsFuBarTextShown() ~= AtlasLoot.db.profile.FuBarText then
+            AtlasLootFu:ToggleFuBarTextShown();
+        end
+        
+        if AtlasLootFu:IsFuBarIconShown() ~= AtlasLoot.db.profile.FuBarIcon then
+            AtlasLootFu:ToggleFuBarIconShown();
+        end
+    else
+        panel = getglobal("AtlasLootMinimapOptionsFrame");
+        panel.name=AL["Minimap Button Options"];
+        panel.parent=AL["AtlasLoot"];
+        InterfaceOptions_AddCategory(panel);
+    end
+    
     AtlasLoot_UpdateLootBrowserScale();
 end
 

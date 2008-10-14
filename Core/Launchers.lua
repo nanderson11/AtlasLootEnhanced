@@ -84,7 +84,7 @@ function AtlasLoot_MinimapButtonSetPosition(v)
 end
 
 function AtlasLoot_MinimapButtonUpdatePosition()
-	local radius = 78;
+	local radius = AtlasLoot.db.profile.MinimapButtonRadius;
     AtlasLootMinimapButtonFrame:SetPoint(
 		"TOPLEFT",
 		"Minimap",
@@ -114,9 +114,9 @@ if IsAddOnLoaded("FuBar") then
     LibStub("AceAddon-3.0"):EmbedLibrary(AtlasLootFu, "LibFuBarPlugin-Mod-3.0", true);
 
     AtlasLootFu:SetFuBarOption("tooltipType", "GameTooltip");
-    AtlasLootFu:SetFuBarOption("configType", "Dewdrop-2.0");
+    --AtlasLootFu:SetFuBarOption("configType", "Dewdrop-2.0");
     AtlasLootFu:SetFuBarOption("iconPath", "Interface\\Icons\\INV_Box_01");
-    AtlasLootFu:SetFuBarOption("defaultMinimapPosition", 220);
+    --AtlasLootFu:SetFuBarOption("defaultMinimapPosition", 220);
     AtlasLootFu:SetFuBarOption("cannotDetachTooltip", true);
     AtlasLootFu:SetFuBarOption("hasNoColor", true);
 

@@ -908,29 +908,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-            <CheckButton name="$parentMinimap" inherits="OptionsCheckButtonTemplate">
-				<Anchors>
-					<Anchor point="TOP">
-						<Offset>
-							<AbsDimension x="5" y="-40"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnLoad>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-						getglobal(this:GetName().."Text"):SetText(AL["Show Basic Minimap Button"]);
-					</OnLoad>
-					<OnClick>
-						AtlasLootOptions_MinimapToggle();
-					</OnClick>
-				</Scripts>
-			</CheckButton>
             <CheckButton name="$parentHidePanel" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="5" y="-70"/>
+							<AbsDimension x="5" y="-40"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -962,7 +944,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="5" y="-100"/>
+							<AbsDimension x="5" y="-70"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -1012,24 +994,6 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-            <Button name="$parent_FuBarToggle" inherits="AtlasLootPanelButtonTemplate">
-                <Anchors>
-                    <Anchor point="TOP">
-                        <Offset>
-                            <AbsDimension x="90" y="-270"/>
-                        </Offset>
-                    </Anchor>
-                </Anchors>
-                <Scripts>
-					<OnClick>
-                        if AtlasLootFu then AtlasLootFu:ToggleFuBarMinimapAttached() end
-					</OnClick>
-                    <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["FuBar Toggle"]);
-			        </OnShow>
-				</Scripts>
-            </Button>
             <Slider name="$ParentLootBrowserScale" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="240" y="16"/>
@@ -1119,11 +1083,221 @@
 				</FontString>
             </Layer>
         </Layers>
-		<Scripts>
-			<OnLoad>
-                AtlasLoot_OptionsPanelOnLoad(self);
-			</OnLoad>
-		</Scripts>
+	</Frame>
+    
+    <Frame name="AtlasLootFuBarOptionsFrame" hidden="true">
+		<Size>
+			<AbsDimension x="425" y="405"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+		<Frames>
+            <CheckButton name="$parentMinimap" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Attach to Minimap"]);
+					</OnLoad>
+					<OnClick>
+                        if AtlasLootFu then
+                            AtlasLootOptions_FuBarToggle();
+                        end
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+            <CheckButton name="$parentHideFuBar" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-70"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Hide FuBar Plugin"]);
+					</OnLoad>
+					<OnClick>
+                        if AtlasLootFu then
+						    AtlasLootOptions_MinimapToggle();
+                        end
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+            <CheckButton name="$parentHideFuBarIcon" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-160"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Hide Icon"]);
+					</OnLoad>
+					<OnClick>
+                        if AtlasLootFu then
+                            AtlasLootFuBarOptionsFrame_ToggleIcon();
+                        end
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+            <CheckButton name="$parentHideText" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-190"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Hide Text"]);
+					</OnLoad>
+					<OnClick>
+						if AtlasLootFu then
+						    AtlasLootFuBarOptionsFrame_ToggleText();
+                        end
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+            <Button name="$ParentDropDownPosition" inherits="UIDropDownMenuTemplate">
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLASLOOT_POSITION">
+							<Anchors>
+								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+									<Offset>
+										<AbsDimension x="21" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-120"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						AtlasLootFuBarOptionsFrame_PositionOnShow();
+					</OnShow>
+				</Scripts>
+			</Button>
+        </Frames>
+        <Layers>
+            <Layer level="OVERLAY">
+				<FontString name="AtlasLoot_OptionsTitle" text="ATLASLOOT_VERSION" inherits="GameFontHighlightLarge" justifyH="CENTER">
+					<Size>
+						<AbsDimension x="400" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP" relativeTo="$parent" relativePoint="TOP"/>
+					</Anchors>
+				</FontString>
+            </Layer>
+        </Layers>
+	</Frame>
+    
+    <Frame name="AtlasLootMinimapOptionsFrame" hidden="true">
+		<Size>
+			<AbsDimension x="425" y="405"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+		<Frames>
+            <CheckButton name="$parentMinimap" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Show Basic Minimap Button"]);
+					</OnLoad>
+					<OnClick>
+                        AtlasLootOptions_MinimapToggle();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+            <Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="240" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOP">
+						<Offset>
+							<AbsDimension x="0" y="-100" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						AtlasLoot_SetupMinimapPosSlider(self, 0, 360, 1);
+					</OnLoad>
+					<OnValueChanged>
+						AtlasLoot_UpdateMinimapPosSlider(self);
+						AtlasLoot.db.profile.MinimapButtonAngle = this:GetValue();
+						AtlasLoot_MinimapButtonUpdatePosition();
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<Slider name="$ParentSliderButtonRad" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="240" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOP">
+						<Offset>
+							<AbsDimension x="0" y="-150" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						AtlasLoot_SetupMinimapRadSlider(self, 0, 200, 1);
+					</OnLoad>
+					<OnValueChanged>
+						AtlasLoot_UpdateMinimapRadSlider(self);
+						AtlasLoot.db.profile.MinimapButtonRadius = this:GetValue();
+						AtlasLoot_MinimapButtonUpdatePosition();
+					</OnValueChanged>
+				</Scripts>
+			</Slider>   
+        </Frames>
+        <Layers>
+            <Layer level="OVERLAY">
+				<FontString name="AtlasLoot_OptionsTitle" text="ATLASLOOT_VERSION" inherits="GameFontHighlightLarge" justifyH="CENTER">
+					<Size>
+						<AbsDimension x="400" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP" relativeTo="$parent" relativePoint="TOP"/>
+					</Anchors>
+				</FontString>
+            </Layer>
+        </Layers>
 	</Frame>
     
     <Frame name="AtlasLootPanel" parent="UIParent" hidden="true">
