@@ -17,12 +17,6 @@ local AL = AceLocale:NewLocale("AtlasLoot", "frFR", false);
 
 --Register translations
 if AL then
-	--WotLK NO NEED TO TRANSLATE! THESE ENTRYS WILL BE DELETED AS SOON AS THEY ARE ADDED TO BABBLE!
-	AL["Death Knight"] = "Chevalier de la mort";
-	--AL["WotLK Stuff Internal Placeholder"] = true;
-	AL["PvP Rewards (Level 80)"] = "Récompenses JcJ (Niveau 80)";
-	AL["PvP Weapons (Level 80)"] = "Armes JcJ (Niveau 80)";
-
     --Text strings for UI objects
     --AL["AtlasLoot"] = true,
     AL["No match found for"] = "Aucun résultat trouvé pour";
@@ -53,7 +47,7 @@ if AL then
     AL["10 Man Raid"] = "Raid 10";
     AL["25 Man Raid"] = "Raid 25";
     --AL["Raid"] = true,
-    AL["Factions - Original WoW"] = "WoW Originale";
+    AL["Factions - Original WoW"] = "Factions - WoW Originale";
     AL["Factions - Burning Crusade"] = "Factions - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Factions - Wrath of the Lich King"
     AL["Pre-Burning Crusade"] = "Avant Burning Crusade";
@@ -86,16 +80,16 @@ if AL then
     AL["OR"] = "OU";
     --AL["Lake Wintergrasp"] = true; -- à traduire
     --AL["Wrath of the Lich King"] = true;
-    --AL["FuBar Options"] = true; -- à traduire
-    --AL["Attach to Minimap"] = true;
-    --AL["Hide FuBar Plugin"] = true;
-    --AL["Position:"] = true;
-    --AL["Left"] = true;
-    --AL["Center"] = true;
-    --AL["Right"] = true;
-    --AL["Hide Text"] = true;
-    --AL["Hide Icon"] = true;
-    --AL["Minimap Button Options"] = true;
+    --AL["FuBar Options"] = true;
+    AL["Attach to Minimap"] = "Joindre à la minicarte";
+    AL["Hide FuBar Plugin"] = "Cacher le plugin FuBar";
+    AL["Position:"] = "Position :";
+    AL["Left"] = "Gauche";
+    AL["Center"] = "Centre";
+    AL["Right"] = "Droite";
+    AL["Hide Text"] = "Cacher le texte";
+    AL["Hide Icon"] = "Cacher l'icône";
+    AL["Minimap Button Options"] = "Options du boutton de la minicarte";
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Options d'Atlasloot";
@@ -119,8 +113,8 @@ if AL then
     AL["Notify on LoD Module Load"] = "M'informer quand un module est chargé";
     AL["Load Loot Modules at Startup"] = "Charger les modules de loot au démarrage";
     AL["Loot Browser Scale: "] = "Échelle du navigateur de loot : ";
-    --AL["Button Position: "] = true; -- à traduire
-    --AL["Button Radius: "] = true; -- à traduire
+    AL["Button Position: "] = "Position du boutton :";
+    AL["Button Radius: "] = "Rayon du boutton";
     AL["Done"] = "Fait";
     --AL["FuBar Toggle"] = true; -- à traduire
     --AL["WishList"] = true,
@@ -808,6 +802,7 @@ if AL then
     L["PvP Reputation Sets (Level 70)"] = "Sets Réputation JcJ (Niveau 70)";
     AL["PvP Rewards (Level 60)"] = "Récompenses JcJ (Niveau 60)";
     AL["PvP Rewards (Level 70)"] = "Récompenses JcJ (Niveau 70)";
+    AL["PvP Rewards (Level 80)"] = "Récompenses JcJ (Niveau 80)";
     AL["PvP Accessories (Level 60)"] = "Accessoires JcJ (Niveau 60)";
     AL["PvP Accessories - Alliance (Level 60)"] = "Accéssoires JcJ - Alliance (Niveau 60)";
     AL["PvP Accessories - Horde (Level 60)"] = "Accéssoires JcJ - Horde (Niveau 60)";
@@ -1049,6 +1044,7 @@ if AL then
     --AL["Rescue Mission"] = true; -- à traduire
     --AL["Gjarngrin"] = true; -- à traduire
     --AL["Kronus"] = true; -- à traduire
+    AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 
     --Zones
     --AL["World Drop"] = true,
@@ -1112,7 +1108,6 @@ if AL then
     AL["First Fragment Guardian"] = "Gardien du premier fragment";
     AL["Second Fragment Guardian"] = "Gardien du second fragment";
     AL["Third Fragment Guardian"] = "Gardien du troisième fragment";
-    AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
     AL["Overcharged Manacell"] = "Cellule de mana surchargée";
 
     --World Events
