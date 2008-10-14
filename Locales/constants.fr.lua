@@ -253,6 +253,8 @@ if AL then
     AL["Tier 5"] = "Set T5";
     AL["Tier 6"] = "Set T6";
     AL["Tier 7 Sets"] = "Sets T7";
+    AL["10/25 Man"] = "10/25 Joueurs";
+    AL["Tier 7 Sets 10/25 Man"] = "Sets Tier 7 10/25 Joueurs";
     AL["Level 80 Naxxramas Sets"] = "Sets Naxxramas Niveau 80";
     AL["Level 80 PvP Sets"] = "Sets JcJ Niveau 80";
     AL["Arena Reward"] = "Récompense d'Arène";
@@ -841,8 +843,8 @@ if AL then
     AL["Rare Set"] = "Set Supérieur";
     AL["Legendary Items"] = "Objets légendaires";
     AL["Badge of Justice Rewards"] = "Récompenses Insigne de justice";
-    --AL["Emblem of Valor Rewards"] = "Récompenses"; -- à traduire
-    --AL["Emblem of Heroism Rewards"] = "Récompenses"; -- à traduire
+    AL["Emblem of Valor Rewards"] = "Récompenses Emblème de vaillance";
+    AL["Emblem of Heroism Rewards"] = "Récompenses Emblème d'héroïsme";
     AL["Accesories and Weapons"] ="Accessoires et Armes";
     AL["Accessories"] = "Accessoires";
     AL["Armor and Weapons"] = "Armures et Armes";
@@ -855,15 +857,15 @@ if AL then
     AL["Token Hand-Ins"] = "Insignes de l'Aube / Croisade";
     AL["Heroic Mode Keys"] = "Clés Mode Héroïque";
     AL["Legendary Items for Kael'thas Fight"] = "Objets légendaires pour le combat contre Kael'thas";
-    AL["BoE World Epics"] = "LqE World Epics";
-    --AL["World Epics"] = true,
+    AL["BoE World Epics"] = "LqE World Epiques";
+    AL["World Epics"] = "World Epiques";
     AL["Level 30-39"] = "Niveau 30-39";
     AL["Level 40-49"] = "Niveau 40-49";
     AL["Level 50-60"] = "Niveau 50-60";
     AL["BT Patterns/Plans"] = "Patrons/Plans du Temple Noir";
     AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
     AL["SP Patterns/Plans"] = "Patrons/Plans du Plateau du Puits de soleil";
-    --AL["Additional Heroic Loot"] = true;
+    AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
 
     --Pets
     AL["Pets"] = "Animaux de compagnie";
