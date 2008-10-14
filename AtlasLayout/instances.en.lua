@@ -47,7 +47,7 @@ AtlasLootBossButtons = {
         "";
         "AuchSethekkDarkweaver";
         "";
-        "AuchSethekkTheSagaofTerokk";
+        "AuchTrash";
         "AuchSethekkRavenGod";
         "AuchSethekkTalonKing";
         "";
@@ -66,7 +66,7 @@ AtlasLootBossButtons = {
         "";
         "AuchShadowMurmur";
         "";
-        "AuchShadowFirstFragmentGuardian";
+        "AuchTrash";
         "";
         "AuchTrash";
         };
@@ -98,37 +98,10 @@ AtlasLootBossButtons = {
         "";
         "BTBloodboil";
         "BTEssencofSouls";
-        "BTEssencofSouls";
-        "BTEssencofSouls";
-        "BTEssencofSouls";
+        "";
+        "";
+        "";
         "BTGorefiend";
-        "";
-        "BTPatterns";
-        "BTTrash";
-        };
-
-    BlackTempleFull = {
-        "";
-        "Ashtongue1";
-        "BCKeys";
-        "";
-        "";
-        "BTNajentus";
-        "BTSupremus";
-        "";
-        "BTPatterns";
-        "BTTrash";
-        };
-
-    BlackTempleMiddle = {
-        "";
-        "Ashtongue1";
-        "BCKeys";
-        "";
-        "";
-        "";
-        "";
-        "BTAkama";
         "";
         "BTPatterns";
         "BTTrash";
@@ -184,7 +157,7 @@ AtlasLootBossButtons = {
         "CFRSteamThespia";
         "";
         "";
-        "CFRSteamSecondFragmentGuardian";
+        "CFRSteamTrash";
         "CFRSteamSteamrigger";
         "";
         "CFRSteamWarlord";
@@ -265,8 +238,8 @@ AtlasLootBossButtons = {
         "";
         "";
         "CoTTrash";
-        "CoTHillsbradThomasYance";
-        "CoTHillsbradAgedDalaranWizard";
+        "CoTTrash";
+        "CoTTrash";
         };
 
     GruulsLair = {
@@ -320,7 +293,7 @@ AtlasLootBossButtons = {
         "HCHallsPorung";
         "HCHallsOmrogg";
         "HCHallsKargath";
-        "HCHallsExecutioner";
+        "HCHallsTrash";
         "";
         "";
         "";
@@ -358,10 +331,10 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
+        "KaraNamed";
         "";
-        "KaraNamed";
-        "KaraNamed";
-        "KaraNamed";
+        "";
+        "";
         "";
         "";
         "KaraAttumen";
@@ -380,9 +353,6 @@ AtlasLootBossButtons = {
         "KaraMaiden";
         "";
         "";
-        "";
-        "KaraOperaEvent";
-        "";
         "KaraOperaEvent";
         "";
         "";
@@ -390,7 +360,10 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "KaraOperaEvent";
+        "";
+        "";
+        "";
+        "";
         "";
         "";
         "";
@@ -466,7 +439,7 @@ AtlasLootBossButtons = {
         "";
         "TKArcUnbound";
         "";
-        "TKArcThirdFragmentGuardian";
+        "TKTrash";
         "TKArcDalliah";
         "TKArcScryer";
         "";
@@ -924,42 +897,6 @@ AtlasLootBossButtons = {
         "T1T2SET";
         "MCTrashMobs";
         "MCRANDOMBOSSDROPPS";
-        };
-
-    Naxxramas = {
-        "";
-        "Argent1";
-        "";
-        "";
-        "";
-        "";
-        "NAXPatchwerk";
-        "NAXGrobbulus";
-        "NAXGluth";
-        "NAXThaddius";
-        "";
-        "NAXAnubRekhan";
-        "NAXGrandWidowFaerlina";
-        "NAXMaexxna";
-        "";
-        "NAXInstructorRazuvious";
-        "NAXGothikderHarvester";
-        "NAXTheFourHorsemen";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "NAXNothderPlaguebringer";
-        "NAXHeiganderUnclean";
-        "NAXLoatheb";
-        "";
-        "NAXSapphiron";
-        "NAXKelThuzard";
-        "";
-        "NAXTrash";
-        "T3SET";
         };
 
     OnyxiasLair = {

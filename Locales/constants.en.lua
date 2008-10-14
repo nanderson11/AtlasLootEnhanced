@@ -1115,6 +1115,12 @@ if AL then
     AL["Garrett Family Chest"] = true;
     AL["Reinforced Fel Iron Chest"] = true;
     AL["DM North Tribute Chest"] = true;
+    AL["The Saga of Terokk"] = true;
+    AL["First Fragment Guardian"] = true;
+    AL["Second Fragment Guardian"] = true;
+    AL["Shattered Hand Executioner"] = true;
+    AL["Third Fragment Guardian"] = true;
+    AL["Overcharged Manacell"] = true;
 
     --World Events
     AL["Abyssal Council"] = true;

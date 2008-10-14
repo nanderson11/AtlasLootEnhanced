@@ -298,10 +298,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "AuchSethekkTalonKing";
 	};
 
-	AtlasLoot_Data["AuchSethekkTheSagaofTerokk"] = {
-		{ 1, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#"};
-	};
-
 	AtlasLoot_Data["AuchSethekkRavenGod"] = {
 		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
 		{ 2, 32768, "", "=q4=Reins of the Raven Lord", "=ds=#e12#"};
@@ -426,22 +422,22 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Prev = "AuchShadowGrandmaster";
 	};
 
-	AtlasLoot_Data["AuchShadowFirstFragmentGuardian"] = {
-		{ 1, 24514, "", "=q1=First Key Fragment", "=ds=#m3#", "", "100%"};
-	};
-
 	AtlasLoot_Data["AuchTrash"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Mana-Tombs"]};
 		{ 2, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370), =q1=#n54#", "", "0.52%"};
 		{ 3, 22543, "", "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1=#n83#", "", "0.52%"};
-		{ 5, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Auchenai Crypts"]};
-		{ 6, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360), =q1=#n55#", "", "0.69%"};
-		{ 7, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1=#n82#", "", "0.60%"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Sethekk Halls"]};
-		{ 17, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1=#n84#", "", "0.46%"};
-		{ 18, 29669, "", "=q2=Pattern: Shadow Armor Kit", "=ds=#p7# (340) =q1=#n85#", "", "0.39%"};
+		{ 5, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Sethekk Halls"]};
+		{ 6, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1=#n84#", "", "0.46%"};
+		{ 7, 29669, "", "=q2=Pattern: Shadow Armor Kit", "=ds=#p7# (340) =q1=#n85#", "", "0.39%"};
+		{ 9, 0, "INV_Box_01", "=q6="..AL["The Saga of Terokk"], "=q5="..BabbleZone["Sethekk Halls"]};
+		{ 10, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Auchenai Crypts"]};
+		{ 17, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360), =q1=#n55#", "", "0.69%"};
+		{ 18, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1=#n82#", "", "0.60%"};
 		{ 20, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Shadow Labyrinth"]};
 		{ 21, 23607, "", "=q3=Plans: Felsteel Helm", "=ds=#p2# (365), =q1=#n56#", "", "0.61%"};
+		{ 23, 0, "INV_Box_01", "=q6="..AL["First Fragment Guardian"], "=q5="..BabbleZone["Shadow Labyrinth"]};
+		{ 24, 24514, "", "=q1=First Key Fragment", "=ds=#m3#", "", "100%"};
 	};
 
 	--------------------
@@ -464,6 +460,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 32236, "", "=q4=Rising Tide", "=ds=#h1#, #w1#"};
 		{ 20, 32248, "", "=q4=Halberd of Desolation", "=ds=#w7#"};
 		{ 22, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Next = "BTSupremus";
 	};
 
 	AtlasLoot_Data["BTSupremus"] = {
@@ -481,6 +478,28 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 32262, "", "=q4=Syphon of the Nathrezim", "=ds=#h1#, #w6#"};
 		{ 21, 32255, "", "=q4=Felstone Bulwark", "=ds=#w8#"};
 		{ 22, 32253, "", "=q4=Legionkiller", "=ds=#w3#"};
+		Prev = "BTNajentus";
+		Next = "BTAkama";
+	};
+	
+	AtlasLoot_Data["BTAkama"] = {
+		{ 1, 32273, "", "=q4=Amice of Brilliant Light", "=ds=#s3#, #a1#"};
+		{ 2, 32270, "", "=q4=Focused Mana Bindings", "=ds=#s8#, #a1#"};
+		{ 3, 32513, "", "=q4=Wristbands of Divine Influence", "=ds=#s8#, #a1#"};
+		{ 4, 32265, "", "=q4=Shadow-walker's Cord", "=ds=#s10#, #a2#"};
+		{ 5, 32271, "", "=q4=Kilt of Immortal Nature", "=ds=#s11#, #a2#"};
+		{ 6, 32264, "", "=q4=Shoulders of the Hidden Predator", "=ds=#s3#, #a3#"};
+		{ 7, 32275, "", "=q4=Spiritwalker Gauntlets", "=ds=#s9#, #a3#"};
+		{ 8, 32276, "", "=q4=Flashfire Girdle", "=ds=#s10#, #a3#"};
+		{ 9, 32279, "", "=q4=The Seeker's Wristguards", "=ds=#s8#, #a4#"};
+		{ 10, 32278, "", "=q4=Grips of Silent Justice", "=ds=#s9#, #a4#"};
+		{ 11, 32263, "", "=q4=Praetorian's Legguards", "=ds=#s11#, #a4#"};
+		{ 12, 32268, "", "=q4=Myrmidon's Treads", "=ds=#s12#, #a4#"};
+		{ 16, 32266, "", "=q4=Ring of Deceitful Intent", "=ds=#s13#"};
+		{ 17, 32361, "", "=q4=Blind-Seers Icon", "=ds=#s15#"};
+		{ 19, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "BTSupremus";
+		Next = "BTGorefiend";
 	};
 
 	AtlasLoot_Data["BTGorefiend"] = {
@@ -497,6 +516,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 32326, "", "=q4=Twisted Blades of Zarak", "=ds=#w11#"};
 		{ 19, 32325, "", "=q4=Rifle of the Stoic Guardian", "=ds=#w5#"};
 		{ 21, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "BTAkama";
+		Next = "BTBloodboil";
 	};
 
 	AtlasLoot_Data["BTBloodboil"] = {
@@ -514,24 +535,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 32344, "", "=q4=Staff of Immaculate Recovery", "=ds=#w9#"};
 		{ 20, 32343, "", "=q4=Wand of Prismatic Focus", "=ds=#w12#"};
 		{ 22, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
-	};
-
-	AtlasLoot_Data["BTAkama"] = {
-		{ 1, 32273, "", "=q4=Amice of Brilliant Light", "=ds=#s3#, #a1#"};
-		{ 2, 32270, "", "=q4=Focused Mana Bindings", "=ds=#s8#, #a1#"};
-		{ 3, 32513, "", "=q4=Wristbands of Divine Influence", "=ds=#s8#, #a1#"};
-		{ 4, 32265, "", "=q4=Shadow-walker's Cord", "=ds=#s10#, #a2#"};
-		{ 5, 32271, "", "=q4=Kilt of Immortal Nature", "=ds=#s11#, #a2#"};
-		{ 6, 32264, "", "=q4=Shoulders of the Hidden Predator", "=ds=#s3#, #a3#"};
-		{ 7, 32275, "", "=q4=Spiritwalker Gauntlets", "=ds=#s9#, #a3#"};
-		{ 8, 32276, "", "=q4=Flashfire Girdle", "=ds=#s10#, #a3#"};
-		{ 9, 32279, "", "=q4=The Seeker's Wristguards", "=ds=#s8#, #a4#"};
-		{ 10, 32278, "", "=q4=Grips of Silent Justice", "=ds=#s9#, #a4#"};
-		{ 11, 32263, "", "=q4=Praetorian's Legguards", "=ds=#s11#, #a4#"};
-		{ 12, 32268, "", "=q4=Myrmidon's Treads", "=ds=#s12#, #a4#"};
-		{ 16, 32266, "", "=q4=Ring of Deceitful Intent", "=ds=#s13#"};
-		{ 17, 32361, "", "=q4=Blind-Seers Icon", "=ds=#s15#"};
-		{ 19, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "BTGorefiend";
+		Next = "BTEssencofSouls";
 	};
 
 	AtlasLoot_Data["BTEssencofSouls"] = {
@@ -549,6 +554,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 32332, "", "=q4=Torch of the Damned", "=ds=#h2#, #w6#"};
 		{ 20, 32363, "", "=q4=Naaru-Blessed Life Rod", "=ds=#w12#"};
 		{ 22, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "BTBloodboil";
+		Next = "BTShahraz";
 	};
 
 	AtlasLoot_Data["BTShahraz"] = {
@@ -562,6 +569,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 31103, "", "=q4=Pauldrons of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 31102, "", "=q4=Pauldrons of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "BTEssencofSouls";
+		Next = "BTCouncil";
 	};
 
 	AtlasLoot_Data["BTCouncil"] = {
@@ -575,6 +584,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 31100, "", "=q4=Leggings of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 31099, "", "=q4=Leggings of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "BTShahraz";
+		Next = "BTIllidanStormrage";
 	};
 
 	AtlasLoot_Data["BTIllidanStormrage"] = {
@@ -596,6 +607,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 32374, "", "=q4=Zhar'doom, Greatstaff of the Devourer", "=ds=#w9#"};
 		{ 23, 32375, "", "=q4=Bulwark of Azzinoth", "=ds=#w8#"};
 		{ 24, 32336, "", "=q4=Black Bow of the Betrayer", "=ds=#w2#"};
+		Prev = "BTCouncil";
 	};
 
 	AtlasLoot_Data["BTTrash"] = {
@@ -825,6 +837,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 30872, "", "=q4=Chronicle of Dark Secrets", "=ds=#s15#"};
 		{ 19, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
 		{ 21, 32459, "", "=q1=Time-Phased Phylactery", "=ds=#m3#"};
+		Next = "MountHyjalAnetheron";
 	};
 
 	AtlasLoot_Data["MountHyjalAnetheron"] = {
@@ -841,6 +854,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30883, "", "=q4=Pillar of Ferocity", "=ds=#w9#"};
 		{ 19, 30882, "", "=q4=Bastion of Light", "=ds=#w8#"};
 		{ 21, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "MountHyjalWinterchill";
+		Next = "MountHyjalKazrogal";
 	};
 
 	AtlasLoot_Data["MountHyjalKazrogal"] = {
@@ -857,6 +872,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 30918, "", "=q4=Hammer of Atonement", "=ds=#h3#, #w6#"};
 		{ 17, 30889, "", "=q4=Kaz'rogal's Hardened Heart", "=ds=#w8#"};
 		{ 19, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "MountHyjalAnetheron";
+		Next = "MountHyjalAzgalor";
 	};
 
 	AtlasLoot_Data["MountHyjalAzgalor"] = {
@@ -870,6 +887,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 31094, "", "=q4=Gloves of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 31093, "", "=q4=Gloves of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "MountHyjalKazrogal";
+		Next = "MountHyjalArchimonde";
 	};
 
 	AtlasLoot_Data["MountHyjalArchimonde"] = {
@@ -889,6 +908,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 31095, "", "=q4=Helm of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 31096, "", "=q4=Helm of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "MountHyjalAzgalor";
 	};
 
 	AtlasLoot_Data["MountHyjalTrash"] = {
@@ -1013,10 +1033,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "CFRSteamSteamrigger";
 	};
 
-	AtlasLoot_Data["CFRSteamSecondFragmentGuardian"] = {
-		{ 1, 24487, "", "=q1=Second Key Fragment", "=ds=#m3#", "", "100%"};
-	};
-
 	AtlasLoot_Data["CFRSteamSteamrigger"] = {
 		{ 1, 27793, "", "=q3=Earth Mantle Handwraps", "=ds=#s9#, #a3#", "", "16.92%"};
 		{ 2, 27790, "", "=q3=Mask of Pennance", "=ds=#s1#, #a4#", "", "16.65%"};
@@ -1066,6 +1082,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 22533, "", "=q2=Formula: Enchant Bracer - Fortitude", "=ds=#p4# (350) =q1=#n87#", "", "0.40%"};
 		{ 5, 24367, "", "=q1=Orders from Lady Vashj", "=ds=#m2#"};
 		{ 6, 24368, "", "=q1=Coilfang Armaments", "=ds=#m3#", "", "12.68%"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Second Fragment Guardian"], "=q5="..BabbleZone["The Steamvault"]};
+		{ 17, 24487, "", "=q1=Second Key Fragment", "=ds=#m3#", "", "100%"};
 	};
 
 		----------------------------------------
@@ -1193,6 +1211,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 30049, "", "=q4=Fathomstone", "=ds=#s15#"};
 		{ 21, 30051, "", "=q4=Idol of the Crescent Goddess", "=ds=#s16#, #w14#"};
 		{ 23, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Next = "CFRSerpentLurker";
 	};
 
 	AtlasLoot_Data["CFRSerpentLurker"] = {
@@ -1210,6 +1229,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 30665, "", "=q4=Earring of Soulful Meditation", "=ds=#s14#, =q1=#m1# =ds=#c5#"};
 		{ 20, 30063, "", "=q4=Libram of Absolute Truth", "=ds=#s16#, #w16#"};
 		{ 21, 30058, "", "=q4=Mallet of the Tides", "=ds=#h1#, #w6#"};
+		Prev = "CFRSerpentHydross";
+		Next = "CFRSerpentLeotheras";
 	};
 
 	AtlasLoot_Data["CFRSerpentLeotheras"] = {
@@ -1223,6 +1244,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 30240, "", "=q4=Gloves of the Vanquished Defender", "=ds=#m22# #e15#"};
 		{ 18, 30241, "", "=q4=Gloves of the Vanquished Hero", "=ds=#m22# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "CFRSerpentLurker";
+		Next = "CFRSerpentKarathress";
 	};
 
 	AtlasLoot_Data["CFRSerpentKarathress"] = {
@@ -1236,6 +1259,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 30246, "", "=q4=Leggings of the Vanquished Defender", "=ds=#m22# #e15#"};
 		{ 18, 30247, "", "=q4=Leggings of the Vanquished Hero", "=ds=#m22# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "CFRSerpentLeotheras";
+		Next = "CFRSerpentMorogrim";
 	};
 
 	AtlasLoot_Data["CFRSerpentMorogrim"] = {
@@ -1253,6 +1278,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 30720, "", "=q4=Serpent-Coil Braid", "=ds=#s14#, =q1=#m1# =ds=#c3#"};
 		{ 20, 30082, "", "=q4=Talon of Azshara", "=ds=#h1#, #w10#"};
 		{ 21, 30080, "", "=q4=Luminescent Rod of the Naaru", "=ds=#w12#"};
+		Prev = "CFRSerpentKarathress";
+		Next = "CFRSerpentVashj";
 	};
 
 	AtlasLoot_Data["CFRSerpentVashj"] = {
@@ -1273,6 +1300,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30244, "", "=q4=Helm of the Vanquished Hero", "=ds=#m22# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
 		{ 22, 29906, "", "=q1=Vashj's Vial Remnant", "=ds=#m3#"};
+		Prev = "CFRSerpentMorogrim";
 	};
 
 	AtlasLoot_Data["CFRSerpentTrash"] = {
@@ -1539,6 +1567,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "0.19%"};
 		{ 21, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "3.39%"};
 		{ 23, 25462, "", "=q1=Tome of Dusk", "=ds=#m3#", "", "100%"};
+		Next = "HCHallsOmrogg";
 	};
 
 	AtlasLoot_Data["HCHallsPorung"] = {
@@ -1565,6 +1594,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30548, "", "=q4=Polished Chrysoprase", "=ds=#e7#", "", "0.16%"};
 		{ 19, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "0.19%"};
 		{ 20, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "3.39%"};
+		Prev = "HCHallsNethekurse";
+		Next = "HCHallsKargath";
 	};
 
 	AtlasLoot_Data["HCHallsKargath"] = {
@@ -1591,14 +1622,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 29254, "", "=q4=Boots of the Righteous Path", "=ds=#s12#, #a4#"};
 		{ 25, 29348, "", "=q4=The Bladefist", "=ds=#h3#, #w13#", "", "3.39%"};
 		{ 27, 33815, "", "=q1=Bladefist's Seal", "=ds=#m3#", "", "100%"};
-	};
-
-	AtlasLoot_Data["HCHallsExecutioner"] = {
-		{ 1, 31716, "", "=q1=Unused Axe of the Executioner", "=ds=#m3#", "", "100%"};
+		Prev = "HCHallsOmrogg";
 	};
 
 	AtlasLoot_Data["HCHallsTrash"] = {
 		{ 1, 22554, "", "=q2=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (350) =q1=#n88#", "", "1.65%"};
+		{ 3, 0, "INV_Box_01", "=q6="..AL["Shattered Hand Executioner"], ""};
+		{ 4, 31716, "", "=q1=Unused Axe of the Executioner", "=ds=#m3#", "", "100%"};
 	};
 
 		--------------------------------------------
@@ -1893,6 +1923,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 34604, "", "=q4=Jaded Crystal Dagger", "=ds=#h3#, #w4#"};
 		{ 21, 34603, "", "=q4=Distracting Blades", "=ds=#w11#"};
 		{ 23, 35275, "", "=q3=Orb of the Sin'dorei", "=ds=#m20#"};
+		Next = "SMTVexallus";
 	};
 
 	AtlasLoot_Data["SMTVexallus"] = {
@@ -1910,6 +1941,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 34606, "", "=q4=Edge of Oppression", "=ds=#h1#, #w4#"};
 		{ 21, 34608, "", "=q4=Rod of the Blazing Light", "=ds=#w9#"};
 		{ 23, 35275, "", "=q3=Orb of the Sin'dorei", "=ds=#m20#"};
+		Prev = "SMTFireheart";
+		Next = "SMTDelrissa";
 	};
 
 	AtlasLoot_Data["SMTDelrissa"] = {
@@ -1928,6 +1961,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 34470, "", "=q4=Timbal's Focusing Crystal", "=ds=#s14#"};
 		{ 21, 34471, "", "=q4=Vial of the Sunwell", "=ds=#s14#"};
 		{ 23, 35275, "", "=q3=Orb of the Sin'dorei", "=ds=#m20#"};
+		Prev = "SMTVexallus";
+		Next = "SMTKaelthas";
 	};
 
 	AtlasLoot_Data["SMTKaelthas"] = {
@@ -1945,6 +1980,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 34794, "", "=q3=Axe of Shattered Dreams", "=ds=#h2#, #w1#"};
 		{ 21, 34797, "", "=q3=Sun-infused Focus Staff", "=ds=#w9#"};
 		{ 22, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#"};
+		Prev = "SMTDelrissa";
 	};
 
 	AtlasLoot_Data["SMTKaelthasHEROIC"] = {
@@ -1960,6 +1996,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 34611, "", "=q4=Cudgel of Consecration", "=ds=#h3#, #w6#"};
 		{ 19, 35513, "", "=q4=Swift White Hawkstrider", "=ds=#e12#"};
 		{ 21, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#"};
+		Prev = "SMTDelrissa";
 	};
 
 	AtlasLoot_Data["SMTTrash"] = {
@@ -1985,6 +2022,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 34851, "", "=q4=Bracers of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 34852, "", "=q4=Bracers of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Next = "SPBrutallus";
 	};
 
 	AtlasLoot_Data["SPBrutallus"] = {
@@ -1999,6 +2037,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 34854, "", "=q4=Belt of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 34855, "", "=q4=Belt of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "SPKalecgos";
+		Next = "SPFelmyst";
 	};
 
 	AtlasLoot_Data["SPFelmyst"] = {
@@ -2014,6 +2054,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 34857, "", "=q4=Boots of the Forgotten Protector", "=ds=#m23# #e15#"};
 		{ 18, 34858, "", "=q4=Boots of the Forgotten Vanquisher", "=ds=#m23# #e15#"};
 		{ 20, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "SPBrutallus";
+		Next = "SPEredarTwins";
 	};
 
 	AtlasLoot_Data["SPEredarTwins"] = {
@@ -2045,6 +2087,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 34198, "", "=q4=Stanchion of Primal Instinct", "=ds=#w9#"};
 		{ 28, 34196, "", "=q4=Golden Bow of Quel'Thalas", "=ds=#w3#"};
 		{ 30, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "SPFelmyst";
+		Next = "SPMuru";
 	};
 
 	AtlasLoot_Data["SPMuru"] = {
@@ -2077,6 +2121,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 34214, "", "=q4=Muramasa", "=ds=#h1#, #w10#"};
 		{ 28, 34231, "", "=q4=Aegis of Angelic Fortune", "=ds=#w8#"};
 		{ 30, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		Prev = "SPEredarTwins";
+		Next = "SPKiljaeden";
 	};
 
 	AtlasLoot_Data["SPKiljaeden"] = {
@@ -2108,6 +2154,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 34331, "", "=q4=Hand of the Deceiver", "=ds=#h3#, #w13#"};
 		{ 29, 34336, "", "=q4=Sunflare", "=ds=#h3#, #w4#"};
 		{ 30, 34337, "", "=q4=Golden Staff of the Sin'dorei", "=ds=#w9#"};
+		Prev = "SPMuru";
 	};
 
 	AtlasLoot_Data["SPTrash"] = {
@@ -2182,10 +2229,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30582, "", "=q4=Deadly Fire Opal", "=ds=#e7#", "", "0.18%"};
 		{ 19, 30575, "", "=q4=Nimble Fire Opal", "=ds=#e7#", "", "0.18%"};
 		{ 20, 30581, "", "=q4=Durable Fire Opal", "=ds=#e7#", "", "0.18%"};
-	};
-
-	AtlasLoot_Data["TKArcThirdFragmentGuardian"] = {
-		{ 1, 24488, "", "=q1=Third Key Fragment", "=ds=#m3#", "", "100%"};
+		Next = "TKArcScryer";
 	};
 
 	AtlasLoot_Data["TKArcScryer"] = {
@@ -2199,6 +2243,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30582, "", "=q4=Deadly Fire Opal", "=ds=#e7#", "", "0.18%"};
 		{ 19, 30575, "", "=q4=Nimble Fire Opal", "=ds=#e7#", "", "0.18%"};
 		{ 20, 30581, "", "=q4=Durable Fire Opal", "=ds=#e7#", "", "0.18%"};
+		Prev = "TKArcUnbound";
+		Next = "TKArcDalliah";
 	};
 
 	AtlasLoot_Data["TKArcDalliah"] = {
@@ -2213,6 +2259,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30582, "", "=q4=Deadly Fire Opal", "=ds=#e7#", "", "0.18%"};
 		{ 19, 30575, "", "=q4=Nimble Fire Opal", "=ds=#e7#", "", "0.18%"};
 		{ 20, 30581, "", "=q4=Durable Fire Opal", "=ds=#e7#", "", "0.18%"};
+		Prev = "TKArcScryer";
+		Next = "TKArcHarbinger";
 	};
 
 	AtlasLoot_Data["TKArcHarbinger"] = {
@@ -2238,6 +2286,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 29252, "", "=q4=Bracers of Dignity", "=ds=#s8#, #a4#", "", "3.03%"};
 		{ 25, 29360, "", "=q4=Vileblade of the Betrayer", "=ds=#h1#, #w4#", "", "0.18%"};
 		{ 27, 33861, "", "=q1=The Scroll of Skyriss", "=ds=#m3#", "", "100%"};
+		Prev = "TKArcDalliah";
 	};
 
 	AtlasLoot_Data["TKTrash"] = {
@@ -2246,11 +2295,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["The Mechanar"]};
 		{ 5, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1=#n93#", "", "0.30%"};
 		{ 6, 21906, "", "=q2=Pattern: Arcanoweave Boots", "=ds=#p8# (360) =q1=#n93#", "", "0.57%"};
+		{ 8, 0, "INV_Box_01", "=q6="..AL["Overcharged Manacell"], "=q5="..BabbleZone["The Mechanar"]};
+		{ 9, 30824, "", "=q1=Overcharged Manacell", "=ds=#m3#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["The Arcatraz"]};
 		{ 17, 23606, "", "=q3=Plans: Felsteel Leggings", "=ds=#p2# (360), =q1=#n57#", "", "3.93%"};
 		{ 18, 22556, "", "=q2=Formula: Enchant 2H Weapon - Major Agility", "=ds=#p4# (360) =q1=#n89#", "", "1.68%"};
 		{ 19, 29672, "", "=q2=Pattern: Flame Armor Kit", "=ds=#p7# (340) =q1=#n91#", "", "1.84%"};
 		{ 20, 21905, "", "=q2=Pattern: Arcanoweave Bracers", "=ds=#p8# (350) =q1=#n90#", "", "1.21%"};
+		{ 22, 0, "INV_Box_01", "=q6="..AL["Third Fragment Guardian"], "=q5="..BabbleZone["The Arcatraz"]};
+		{ 23, 24488, "", "=q1=Third Key Fragment", "=ds=#m3#", "", "100%"};
 	};
 
 		----------------------------------
@@ -2389,10 +2442,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 30565, "", "=q4=Assassin's Fire Opal", "=ds=#e7#", "", "18.72%"};
 		{ 19, 30566, "", "=q4=Defender's Tanzanite", "=ds=#e7#", "", "8.87%"};
 		{ 20, 30564, "", "=q4=Shining Fire Opal", "=ds=#e7#", "", "3.45%"};
-	};
-
-	AtlasLoot_Data["TKMechOverchargedManacell"] = {
-		{ 1, 30824, "", "=q1=Overcharged Manacell", "=ds=#m3#"};
 	};
 
 	AtlasLoot_Data["TKMechSepethrea"] = {
@@ -4006,7 +4055,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 28130, "", "=q4=Gladiator's Dragonhide Tunic", "=ds=#s5#"};
 		{ 5, 28126, "", "=q4=Gladiator's Dragonhide Gloves", "=ds=#s9#"};
 		{ 6, 28128, "", "=q4=Gladiator's Dragonhide Legguards", "=ds=#s11#"};
-		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenas1_1#", ""};
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenas1_1#", "=q1=#m22# #e15#"};
 		{ 9, 31968, "", "=q4=Merciless Gladiator's Dragonhide Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 31971, "", "=q4=Merciless Gladiator's Dragonhide Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 31972, "", "=q4=Merciless Gladiator's Dragonhide Tunic", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4034,7 +4083,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 28140, "", "=q4=Gladiator's Wyrmhide Tunic", "=ds=#s5#"};
 		{ 5, 28136, "", "=q4=Gladiator's Wyrmhide Gloves", "=ds=#s9#"};
 		{ 6, 28138, "", "=q4=Gladiator's Wyrmhide Legguards", "=ds=#s11#"};
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_2#", ""};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_2#", "=q1=#m21# #e15#"};
 		{ 9, 32057, "", "=q4=Merciless Gladiator's Wyrmhide Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32059, "", "=q4=Merciless Gladiator's Wyrmhide Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32060, "", "=q4=Merciless Gladiator's Wyrmhide Tunic", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4062,7 +4111,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 31379, "", "=q4=Gladiator's Kodohide Tunic", "=ds=#s5#"};
 		{ 5, 31375, "", "=q4=Gladiator's Kodohide Gloves", "=ds=#s9#"};
 		{ 6, 31377, "", "=q4=Gladiator's Kodohide Legguards", "=ds=#s11#"};
-		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", "=q1=#m21# #e15#"};
 		{ 9, 31988, "", "=q4=Merciless Gladiator's Kodohide Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 31990, "", "=q4=Merciless Gladiator's Kodohide Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 31991, "", "=q4=Merciless Gladiator's Kodohide Tunic", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4090,7 +4139,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 28334, "", "=q4=Gladiator's Chain Armor", "=ds=#s5#"};
 		{ 5, 28335, "", "=q4=Gladiator's Chain Gauntlets", "=ds=#s9#"};
 		{ 6, 28332, "", "=q4=Gladiator's Chain Leggings", "=ds=#s11#"};
-		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", "=q1=#m21# #e15#"};
 		{ 9, 31962, "", "=q4=Merciless Gladiator's Chain Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 31964, "", "=q4=Merciless Gladiator's Chain Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 31960, "", "=q4=Merciless Gladiator's Chain Armor", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4118,7 +4167,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 25856, "", "=q4=Gladiator's Silk Raiment", "=ds=#s5#"};
 		{ 5, 25857, "", "=q4=Gladiator's Silk Handguards", "=ds=#s9#"};
 		{ 6, 25858, "", "=q4=Gladiator's Silk Trousers", "=ds=#s11#"};
-		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", "=q1=#m21# #e15#"};
 		{ 9, 32048, "", "=q4=Merciless Gladiator's Silk Cowl", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32047, "", "=q4=Merciless Gladiator's Silk Amice", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32050, "", "=q4=Merciless Gladiator's Silk Raiment", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4146,7 +4195,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 27702, "", "=q4=Gladiator's Lamellar Chestpiece", "=ds=#s5#"};
 		{ 5, 27703, "", "=q4=Gladiator's Lamellar Gauntlets", "=ds=#s9#"};
 		{ 6, 27705, "", "=q4=Gladiator's Lamellar Legguards", "=ds=#s11#"};
-		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#arenas4_1#", ""};
+		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#arenas4_1#", "=q1=#m21# #e15#"};
 		{ 9, 31997, "", "=q4=Merciless Gladiator's Lamellar Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 31996, "", "=q4=Merciless Gladiator's Lamellar Shoulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 31992, "", "=q4=Merciless Gladiator's Lamellar Chestpiece", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4174,7 +4223,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 27879, "", "=q4=Gladiator's Scaled Chestpiece", "=ds=#s5#"};
 		{ 5, 27880, "", "=q4=Gladiator's Scaled Gauntlets", "=ds=#s9#"};
 		{ 6, 27882, "", "=q4=Gladiator's Scaled Legguards", "=ds=#s11#"};
-		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
+		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q1=#m21# #e15#"};
 		{ 9, 32041, "", "=q4=Merciless Gladiator's Scaled Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32043, "", "=q4=Merciless Gladiator's Scaled Shoulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32039, "", "=q4=Merciless Gladiator's Scaled Chestpiece", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4202,7 +4251,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 31613, "", "=q4=Gladiator's Ornamented Chestguard", "=ds=#s5#"};
 		{ 5, 31614, "", "=q4=Gladiator's Ornamented Gloves", "=ds=#s9#"};
 		{ 6, 31618, "", "=q4=Gladiator's Ornamented Legplates", "=ds=#s11#"};
-		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
+		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q1=#m21# #e15#"};
 		{ 9, 32022, "", "=q4=Merciless Gladiator's Ornamented Headcover", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32024, "", "=q4=Merciless Gladiator's Ornamented Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32020, "", "=q4=Merciless Gladiator's Ornamented Chestguard", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4230,7 +4279,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 27711, "", "=q4=Gladiator's Satin Robe", "=ds=#s5#"};
 		{ 5, 27707, "", "=q4=Gladiator's Satin Gloves", "=ds=#s9#"};
 		{ 6, 27709, "", "=q4=Gladiator's Satin Leggings", "=ds=#s11#"};
-		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
+		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", "=q1=#m21# #e15#"};
 		{ 9, 32035, "", "=q4=Merciless Gladiator's Satin Hood", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32037, "", "=q4=Merciless Gladiator's Satin Mantle", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32038, "", "=q4=Merciless Gladiator's Satin Robe", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4258,7 +4307,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 31413, "", "=q4=Gladiator's Mooncloth Robe", "=ds=#s5#"};
 		{ 5, 31409, "", "=q4=Gladiator's Mooncloth Gloves", "=ds=#s9#"};
 		{ 6, 31411, "", "=q4=Gladiator's Mooncloth Leggings", "=ds=#s11#"};
-		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
+		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", "=q1=#m21# #e15#"};
 		{ 9, 32016, "", "=q4=Merciless Gladiator's Mooncloth Hood", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32018, "", "=q4=Merciless Gladiator's Mooncloth Mantle", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32019, "", "=q4=Merciless Gladiator's Mooncloth Robe", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4286,7 +4335,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 25831, "", "=q4=Gladiator's Leather Tunic", "=ds=#s5#"};
 		{ 5, 25834, "", "=q4=Gladiator's Leather Gloves", "=ds=#s9#"};
 		{ 6, 25833, "", "=q4=Gladiator's Leather Legguards", "=ds=#s11#"};
-		{ 8, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
+		{ 8, 0, "Ability_BackStab", "=q6=#arenas6#", "=q1=#m21# #e15#"};
 		{ 9, 31999, "", "=q4=Merciless Gladiator's Leather Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32001, "", "=q4=Merciless Gladiator's Leather Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32002, "", "=q4=Merciless Gladiator's Leather Tunic", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4314,7 +4363,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 24552, "", "=q4=Gladiator's Dreadweave Robe", "=ds=#s5#"};
 		{ 5, 24556, "", "=q4=Gladiator's Dreadweave Gloves", "=ds=#s9#"};
 		{ 6, 24555, "", "=q4=Gladiator's Dreadweave Leggings", "=ds=#s11#"};
-		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", ""};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", "=q1=#m21# #e15#"};
 		{ 9, 31974, "", "=q4=Merciless Gladiator's Dreadweave Hood", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 31976, "", "=q4=Merciless Gladiator's Dreadweave Mantle", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 31977, "", "=q4=Merciless Gladiator's Dreadweave Robe", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4342,7 +4391,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 30200, "", "=q4=Gladiator's Felweave Raiment", "=ds=#s5#"};
 		{ 5, 30188, "", "=q4=Gladiator's Felweave Handguards", "=ds=#s9#"};
 		{ 6, 30201, "", "=q4=Gladiator's Felweave Trousers", "=ds=#s11#"};
-		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_2#", ""};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_2#", "=q1=#m21# #e15#"};
 		{ 9, 31980, "", "=q4=Merciless Gladiator's Felweave Cowl", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 31979, "", "=q4=Merciless Gladiator's Felweave Amice", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 31982, "", "=q4=Merciless Gladiator's Felweave Raiment", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4371,7 +4420,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 25997, "", "=q4=Gladiator's Linked Armor", "=ds=#s5#"};
 		{ 5, 26000, "", "=q4=Gladiator's Linked Gauntlets", "=ds=#s9#"};
 		{ 6, 26001, "", "=q4=Gladiator's Linked Leggings", "=ds=#s11#"};
-		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
+		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", "=q1=#m21# #e15#"};
 		{ 9, 32006, "", "=q4=Merciless Gladiator's Linked Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32008, "", "=q4=Merciless Gladiator's Linked Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32004, "", "=q4=Merciless Gladiator's Linked Armor", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4399,7 +4448,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 27469, "", "=q4=Gladiator's Mail Armor", "=ds=#s5#"};
 		{ 5, 27470, "", "=q4=Gladiator's Mail Gauntlets", "=ds=#s9#"};
 		{ 6, 27472, "", "=q4=Gladiator's Mail Leggings", "=ds=#s11#"};
-		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q1=#m21# #e15#"};
 		{ 9, 32011, "", "=q4=Merciless Gladiator's Mail Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32013, "", "=q4=Merciless Gladiator's Mail Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32009, "", "=q4=Merciless Gladiator's Mail Armor", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4427,7 +4476,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 31396, "", "=q4=Gladiator's Ringmail Armor", "=ds=#s5#"};
 		{ 5, 31397, "", "=q4=Gladiator's Ringmail Gauntlets", "=ds=#s9#"};
 		{ 6, 31406, "", "=q4=Gladiator's Ringmail Leggings", "=ds=#s11#"};
-		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_3#", ""};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_3#", "=q1=#m21# #e15#"};
 		{ 9, 32031, "", "=q4=Merciless Gladiator's Ringmail Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 32033, "", "=q4=Merciless Gladiator's Ringmail Spaulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 32029, "", "=q4=Merciless Gladiator's Ringmail Armor", "=ds=", "14500 #faction# 30 #ab#", ""};
@@ -4455,7 +4504,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 24544, "", "=q4=Gladiator's Plate Chestpiece", "=ds=#s5#"};
 		{ 5, 24549, "", "=q4=Gladiator's Plate Gauntlets", "=ds=#s9#"};
 		{ 6, 24547, "", "=q4=Gladiator's Plate Legguards", "=ds=#s11#"};
-		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", "=q1=#m21# #e15#"};
 		{ 9, 30488, "", "=q4=Merciless Gladiator's Plate Helm", "=ds=", "14500 #faction# 30 #av#", ""};
 		{ 10, 30490, "", "=q4=Merciless Gladiator's Plate Shoulders", "=ds=", "11250 #faction# 20 #ab#", ""};
 		{ 11, 30486, "", "=q4=Merciless Gladiator's Plate Chestpiece", "=ds=", "14500 #faction# 30 #ab#", ""};

@@ -76,13 +76,13 @@ AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
 
 AtlasLoot_Data["LEVEL80PVPSETS"] = {
         { 2, "PvP80DeathKnight", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], ""};
-        { 5, "PvP80DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
-        { 6, "PvP80DruidFeral", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
-        { 7, "PvP80DruidRestoration", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
-        { 9, "PvP80Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        { 11, "PvP80Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 13, "PvP80PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
-        { 15, "PvP80PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
+        { 4, "PvP80DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
+        { 5, "PvP80DruidFeral", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
+        { 6, "PvP80DruidRestoration", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
+        { 8, "PvP80Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
+        { 10, "PvP80Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
+        { 12, "PvP80PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
+        { 13, "PvP80PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
         { 17, "PvP80PriestHoly", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Holy"]};
         { 18, "PvP80PriestShadow", "Spell_Shadow_AntiShadow", "=ds="..BabbleClass["Priest"], "=q5="..AL["Shadow"]};
         { 20, "PvP80Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};

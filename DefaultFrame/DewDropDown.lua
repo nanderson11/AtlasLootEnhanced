@@ -764,15 +764,14 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Blackheart the Inciter"], "AuchShadowBlackheart" },
 		{ BabbleBoss["Grandmaster Vorpil"], "AuchShadowGrandmaster" },
 		{ BabbleBoss["Murmur"], "AuchShadowMurmur" },
-		{ AtlasLoot_TableNames["AuchShadowFirstFragmentGuardian"][1], "AuchShadowFirstFragmentGuardian" },
 		{ AL["Trash Mobs"], "AuchTrash" },
 	},
 	["BlackTemple"] = {
 		{ BabbleBoss["High Warlord Naj'entus"], "BTNajentus" },
 		{ BabbleBoss["Supremus"], "BTSupremus" },
+		{ BabbleBoss["Shade of Akama"], "BTAkama" },
 		{ BabbleBoss["Teron Gorefiend"], "BTGorefiend" },
 		{ BabbleBoss["Gurtogg Bloodboil"], "BTBloodboil" },
-		{ BabbleBoss["Shade of Akama"], "BTAkama" },
 		{ BabbleBoss["Reliquary of Souls"], "BTEssencofSouls" },
 		{ BabbleBoss["Mother Shahraz"], "BTShahraz" },
 		{ BabbleBoss["Illidari Council"], "BTCouncil" },
@@ -784,6 +783,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Mennu the Betrayer"], "CFRSlaveMennu" },
 		{ BabbleBoss["Rokmar the Crackler"], "CFRSlaveRokmar" },
 		{ BabbleBoss["Quagmirran"], "CFRSlaveQuagmirran" },
+		{ AL["Lord Ahune"], "LordAhune" },
 	},
 	["CFRUnderbog"] = {
 		{ BabbleBoss["Hungarfen"], "CFRUnderHungarfen" },
@@ -793,7 +793,6 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["CFRSteamvault"] = {
 		{ BabbleBoss["Hydromancer Thespia"], "CFRSteamThespia" },
-		{ AtlasLoot_TableNames["CFRSteamSecondFragmentGuardian"][1], "CFRSteamSecondFragmentGuardian" },
 		{ BabbleBoss["Mekgineer Steamrigger"], "CFRSteamSteamrigger" },
 		{ BabbleBoss["Warlord Kalithresh"], "CFRSteamWarlord" },
 		{ AL["Trash Mobs"], "CFRSteamTrash" },
@@ -845,7 +844,6 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["TKArc"] = {
 		{ BabbleBoss["Zereketh the Unbound"], "TKArcUnbound" },
-		{ AtlasLoot_TableNames["TKArcThirdFragmentGuardian"][1], "TKArcThirdFragmentGuardian" },
 		{ BabbleBoss["Wrath-Scryer Soccothrates"], "TKArcScryer" },
 		{ BabbleBoss["Dalliah the Doomsayer"], "TKArcDalliah" },
 		{ BabbleBoss["Harbinger Skyriss"], "TKArcHarbinger" },
