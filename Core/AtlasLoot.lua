@@ -136,7 +136,7 @@ AtlasLoot_MenuList = {
 
 -- Popup Box for first time users
 StaticPopupDialogs["ATLASLOOT_SETUP"] = {
-  text = AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."].."\n\n"..AL["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."].."\n\n"..AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."].."\n",
+  text = AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."],
   button1 = AL["Setup"],
   OnAccept = function()
 	  AtlasLootOptions_Toggle();

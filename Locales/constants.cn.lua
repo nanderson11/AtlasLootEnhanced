@@ -9,7 +9,7 @@
 --Create the library instance
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 
-local AL = AceLocale:NewLocale("AtlasLoot", "zhCN");
+local AL = AceLocale:NewLocale("AtlasLoot", "zhCN", false);
 
 if AL then
 	--Text strings for UI objects

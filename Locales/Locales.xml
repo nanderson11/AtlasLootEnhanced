@@ -3,8 +3,8 @@
     <Script file="constants.fr.lua"/>
     <Script file="constants.de.lua"/>
     <Script file="constants.tw.lua"/>
-    <!--<Script file="constants.ru.lua"/>
+    <Script file="constants.es.lua"/>
     <Script file="constants.cn.lua"/>
-    <Script file="constants.kr.lua"/>
-    <Script file="constants.es.lua"/>-->
+    <!--<Script file="constants.ru.lua"/>
+    <Script file="constants.kr.lua"/>-->
 </Ui>

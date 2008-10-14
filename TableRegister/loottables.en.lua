@@ -655,7 +655,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["PVP70RepMail"] = { BabbleInventory["Mail"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["PVP70RepPlate"] = { BabbleInventory["Plate"], "AtlasLootBurningCrusade" };
   --Level 80 PvP Sets
-	AtlasLoot_TableNames["PvP80DeathKnight"] = { AL["Death Knight"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PvP80DeathKnight"] = { BabbleClass["Deathknight"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80DruidBalance"] = { BabbleClass["Druid"].." - "..AL["Balance"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80DruidFeral"] = { BabbleClass["Druid"].." - "..AL["Feral"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80DruidRestoration"] = { BabbleClass["Druid"].." - "..AL["Restoration"], "AtlasLootWotLK" };
@@ -823,8 +823,8 @@ AtlasLoot_TableNames = {};
     AtlasLoot_TableNames["EmblemofHeroismAccessories"] = { AL["Emblem of Heroism Rewards"].." - "..AL["Accessories"], "AtlasLootWotLK" };
     AtlasLoot_TableNames["EmblemofHeroismTokens"] = { AL["Emblem of Heroism Rewards"].." - "..AL["Tokens"], "AtlasLootWotLK" };
   --Naxxramas 10/25 Man Sets
-	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { AL["Death Knight"].." - "..AL["DPS"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { AL["Death Knight"].." - "..AL["Tanking"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { BabbleClass["Deathknight"].." - "..AL["DPS"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { BabbleClass["Deathknight"].." - "..AL["Tanking"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDruidBalance"] = { BabbleClass["Druid"].." - "..AL["Balance"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDruidFeral"] = { BabbleClass["Druid"].." - "..AL["Feral"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDruidRestoration"] = { BabbleClass["Druid"].." - "..AL["Restoration"], "AtlasLootWotLK" };

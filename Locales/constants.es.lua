@@ -13,7 +13,7 @@ back to the English translation.
 --Create the library instance
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 
-local AL = AceLocale:NewLocale("AtlasLoot", "esES");
+local AL = AceLocale:NewLocale("AtlasLoot", "esES", false);
 
 if AL then
 
