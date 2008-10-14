@@ -40,9 +40,6 @@ if AL then
 	AL["Show 10 Man Loot"] = "显示10人掉落";
 	AL["Show 25 Man Loot"] = "显示25人掉落";
 	AL["Raid"] = "团队";
-	AL["Factions - Azeroth"] = "阵营 - 艾泽拉斯";
-	AL["Factions - Outland"] = "阵营 - 外域";
-	AL["Factions - Shattrath City"] = "阵营 - 沙塔斯城";
 	AL["Pre-Burning Crusade"] = "《燃烧的远征》之前";
 	AL["Post-Burning Crusade"] = "《燃烧的远征》之后";
 	AL["Choose Table ..."] = "请选择……";
@@ -159,10 +156,6 @@ if AL then
 	
 	--First time user
 	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "欢迎使用 Atlasloot Enhanced，请花少许时间进行参数设置";
-	AL["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = "在4.02.01以上版本: 输入 '/atlasloot options'可以打开设置菜单，输入'/atlasloot reset'可以在登出游戏后重置AtlasLoot";
-	AL["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = "在4.03.00版本中添加了装备需求表！你可以按住Alt并点击任何物品的链接来添加它到装备需求表中。打开装备需求表，按住Alt并点击物品链接可以将它从表中删除。你可以点击Atlas界面内掉落浏览器上的相应按钮来打开装备需求表。";
-	AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = "4.05.00新功能：高级搜索功能。现在可以使用模糊搜索方式，如在搜索框中输入“药剂”即可搜索艘有物品名中带有“药剂”字样的物品。非常感谢 Kurax 的帮助。";
-	AL["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."] = "4.05.00新功能：所有专业技能信息现在都包含在 AtlasLoot_Crafting 模块中。";
 	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "欢迎使用 Atlasloot Enhanced。请花少许时间进来设置提示与物品连接的方式。\n\n  以后可以输入“/atlasloot”再次显示该设置窗口。";
 	AL["Setup"] = "设置";
 

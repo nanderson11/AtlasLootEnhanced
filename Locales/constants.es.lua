@@ -53,9 +53,6 @@ if AL then
     AL["10 Man Raid"] = "10 Pers. Banda";
     AL["25 Man Raid"] = "25 Pers. Banda";
     AL["Raid"] = "Banda";
-    AL["Factions - Azeroth"] = "Facciones - Azeroth";
-    AL["Factions - Outland"] = "Facciones - Terrallende";
-    AL["Factions - Shattrath City"] = "Facciones - Ciudad de Shattrath";
     AL["Factions - Original WoW"] = "Facciones - WoW Original";
     AL["Factions - Burning Crusade"] = "Facciones - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Facciones - Wrath of the Lich King";
@@ -196,10 +193,6 @@ if AL then
 	
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Bienvenido a AtlasLoot Enhanced. Por favor, tómate un momento para elegir tus preferencias.";
-    AL["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = "Nueva característica en 4.02.01 : Escribe '/atlasloot options' para ver el menú de opciones y '/atlasloot reset' para reiniciar AtlasLoot después de desconectarte.";
-    AL["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = "Nueva característica en 4.03.00 : Introduciendo la lista de deseos. Simplemente haz alt-click en cualquier objeto que quieras añadir a tu lista de deseos. Para borrar un objeto de la lista, abre la lista de deseos y haz alt-click en el objeto que quieras borrar. Es muy simple. Se han añadido botones para ver la lista de deseos en el interfaz del Atlas y en el buscador de botines.";
-    AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = "Nueva característica en 4.05.00: Disponible nuevo sistema búsqueda avanzado. Puedes escribir el nombre parcial de un objeto, por ejemplo escribiendo 'elixir' encontrarás todos los objetos que contengan la palabra 'elixir' en la base de datos.  Muchas gracias a Kurax por su ayuda.";
-    AL["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."] = "Nueva característica en 4.05.00: Todas las profesiones se han incluido en el módulo AtlasLoot_Crafting.";
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Bienvenido a Atlasloot Enhanced. Por favor tómate un momento para elegir tus preferencias en cada bocadillo y enlaces de la ventana de chat.\n\n Puedes volver a abrir esta ventana de opciones escribiendo '/atlasloot'.";
     AL["Setup"] = "Configuración";
 

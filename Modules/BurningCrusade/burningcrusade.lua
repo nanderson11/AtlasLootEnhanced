@@ -2718,7 +2718,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 33805, "", "=q4=Shadowhunter's Treads", "=ds=#s12#, #a3#"};
 		{ 9, 33481, "", "=q4=Pauldrons of Stone Resolve", "=ds=#s3#, #a4#"};
 		{ 11, 0, "INV_Box_01", "=q6=#x33#", ""};
-		{ 12, 33809, "", "=q4=Amani War Bear", "=ds=#e12#"};
 		{ 16, 0, "INV_Box_01", "=q6=#x31#", ""};
 		{ 17, 33495, "", "=q4=Rage", "=ds=#h3#, #w13#"};
 		{ 18, 33493, "", "=q4=Umbral Shiv", "=ds=#h1#, #w4#"};

@@ -17,12 +17,6 @@ local AL = AceLocale:NewLocale("AtlasLoot", "enUS", true);
 
 --Register translations
 if AL then
-	--WotLK NO NEED TO TRANSLATE! THESE ENTRYS WILL BE DELETED AS SOON AS THEY ARE ADDED TO BABBLE!
-	AL["Death Knight"] = true;
-	AL["WotLK Stuff Internal Placeholder"] = true;
-	AL["PvP Rewards (Level 80)"] = true;
-	AL["PvP Weapons (Level 80)"] = true;
-	
     --Text strings for UI objects
     AL["AtlasLoot"] = true;
     AL["No match found for"] = true;
@@ -53,9 +47,6 @@ if AL then
     AL["10 Man Raid"] = true;
     AL["25 Man Raid"] = true;
     AL["Raid"] = true;
-    AL["Factions - Azeroth"] = true;
-    AL["Factions - Outland"] = true;
-    AL["Factions - Shattrath City"] = true;
     AL["Factions - Original WoW"] = true;
     AL["Factions - Burning Crusade"] = true;
     AL["Factions - Wrath of the Lich King"] = true;
@@ -196,10 +187,6 @@ if AL then
 
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = true;
-    AL["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = true;
-    AL["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = true;
-    AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = true;
-    AL["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."] = true;
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = true;
     AL["Setup"] = true;
 
@@ -815,6 +802,7 @@ if AL then
     AL["PvP Reputation Sets (Level 70)"] = true;
     AL["PvP Rewards (Level 60)"] = true;
     AL["PvP Rewards (Level 70)"] = true;
+    AL["PvP Rewards (Level 80)"] = true;
     AL["PvP Accessories (Level 60)"] = true;
     AL["PvP Accessories - Alliance (Level 60)"] = true;
     AL["PvP Accessories - Horde (Level 60)"] = true;
@@ -1056,6 +1044,7 @@ if AL then
     AL["Rescue Mission"] = true;
     AL["Gjarngrin"] = true;
     AL["Kronus"] = true;
+    AL["Shattered Hand Executioner"] = true;
 
     --Zones
     AL["World Drop"] = true;
@@ -1118,7 +1107,6 @@ if AL then
     AL["The Saga of Terokk"] = true;
     AL["First Fragment Guardian"] = true;
     AL["Second Fragment Guardian"] = true;
-    AL["Shattered Hand Executioner"] = true;
     AL["Third Fragment Guardian"] = true;
     AL["Overcharged Manacell"] = true;
 

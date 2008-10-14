@@ -28,9 +28,6 @@ AL:RegisterTranslations("ruRU", function() return {
     ["Heroic Mode"] = "Режим \"Героик\"",
     ["Normal Mode"] = "Обычный режим",
     ["Raid"] = "Рейд",
-    ["Factions - Azeroth"] = "Фракции - Азерота",
-    ["Factions - Outland"] = "Фракции - Запределья",
-    ["Factions - Shattrath City"] = "Фракции - Шаттрата",
     ["Pre-Burning Crusade"] = "Перед-Burning Crusade",
     ["Post-Burning Crusade"] = "После-Burning Crusade",
     ["Choose Table ..."] = "Выбор таблицы",
@@ -124,12 +121,8 @@ AL:RegisterTranslations("ruRU", function() return {
 
     --First time user
     ["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences.",
-    ["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = "New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect.",
-    ["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = "New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser.",
-    ["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = "New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help.",
-    ["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."] = "New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module.",
     ["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'.",
-    ["Setup"] = "Setup",
+    --- ["Setup"] = "Setup",
 
     --Old Atlas Detected
     ["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for (",

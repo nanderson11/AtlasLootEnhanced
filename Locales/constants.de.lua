@@ -11,7 +11,7 @@ if AL then
     AL["Select Loot Table"] = "Wähle Loot Rubrik";
     AL["Select Sub-Table"] = "Wähle Unter-Rubrik";
     AL["Drop Rate: "] = "Droprate";
-    AL["DKP"] = "DKP";
+    --- AL["DKP"] = "DKP";
     AL["Priority:"] = "Priorität:";
     AL["Click boss name to view loot."] = "Klicke Boss um den Loot zu sehen.";
     AL["Various Locations"] = "Verschiedene Orte";
@@ -28,10 +28,14 @@ if AL then
     AL["Rewards"] = "Belohnungen";
     AL["Heroic Mode"] = "Heroisch";
     AL["Normal Mode"] = "Normal";
-    AL["Raid"] = "Raid";
-    AL["Factions - Azeroth"] = "Fraktionen - Azeroth";
-    AL["Factions - Outland"] = "Fraktionen - Scherbenwelt";
-    AL["Factions - Shattrath City"] = "Fraktionen - Shattrath";
+    AL["Show 10 Man Loot"] = "Zeige 10 Man Loot";
+    AL["Show 25 Man Loot"] = "Zeige 25 Man Loot";
+    --- AL["10 Man Raid"] = true;
+    --- AL["25 Man Raid"] = true;
+    --- AL["Raid"] = true;
+    AL["Factions - Original WoW"] = "Classic Fraktionen";
+    AL["Factions - Burning Crusade"] = "Burning Crusade Fraktionen";
+    AL["Factions - Wrath of the Lich King"] = "Wrath of the Lich King Fraktionen";
     AL["Pre-Burning Crusade"] = "Vor Burning Crusade";
     AL["Post-Burning Crusade"] = "Nach Burning Crusade";
     AL["Choose Table ..."] = "Wähle Tabelle ...";
@@ -43,6 +47,34 @@ if AL then
     ---AL["Assign this loot table\n to QuickLook"] = true,
     AL["Req. Rating:"] = "Wertung benötigt";
     ---AL["Query Server"] = true,
+    AL["Classic Instances"] = "Classic Instanzen";
+    AL["BC Instances"] = "BC Instanzen";
+    AL["WotLK Instances"] = "WotLK Instanzen";
+    --- AL["Burning Crusade"] = true;
+    AL["Entrance"] = "Eingang";
+    ---AL["Original Factions"] = true;
+    ---AL["BC Factions"] = true;
+    ---AL["WotLK Factions"] = true;
+    ---AL["Reset Frames"] = true;
+    ---AL["Reset Wishlist"] = true;
+    ---AL["Reset Quicklooks"] = true;
+    ---AL["Classic Mounts"] = true;
+  	---AL["The Burning Crusade Mounts"] = true;
+    ---AL["Wrath of the Lich King Mounts"] = true;
+    ---AL["Select a Loot Table..."] = true;
+    ---AL["OR"] = "true";
+    ---AL["Lake Wintergrasp"] = true;
+    ---AL["Wrath of the Lich King"] = true;
+    ---AL["FuBar Options"] = true;
+    ---AL["Attach to Minimap"] = true;
+    ---AL["Hide FuBar Plugin"] = true;
+    ---AL["Position:"] = true;
+    AL["Left"] = "Links";
+    AL["Center"] = "Mitte";
+    AL["Right"] = "Rechts";
+    AL["Hide Text"] = "Verstecke Text";
+    AL["Hide Icon"] = "Verstecke Icon";
+    --- AL["Minimap Button Options"] = true;
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "AtlasLoot Optionen";
@@ -130,27 +162,23 @@ if AL then
     AL["Factions"] = "Fraktionen";
     AL["World Events"] = "Welt-Events";
     AL["Load Modules"] = "Module laden";
-	--    AL["Crafting"] = true,
+	--- AL["Crafting"] = true,
 
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Willkommen zu Atlasloot Enhanced!  Bitte nimm dir einen Moment Zeit, um die Einstellungen festzulegen";
-    AL["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = "Neues Feature in 4.02.01: Gib 'atlasloot options' ein, um das Optionen Menü anzeigen zu lassen und 'atlasloot reset' um Atlasloot nach einem Disconnect zurückzusetzen.";
-    AL["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = "Neues Feature in 4.03.00: Wunschzettel! Mit Alt-Klick könnt ihr jedes beliebige Item zum Wunschzettel hinzufügen. Mit Alt-Klick könnt ihr ein Item wieder vom Wunschzettel löschen. Den Wunschzettel könnt ihr über das Atlasloot Interface oder den Loot Browser öffnen.";
-    ---AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = true,
-    ---AL["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."] = true,
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Willkommen zu Atlasloot Enhanced!  Bitte nimm dir einen Moment Zeit, um die Einstellungen für Tooltips und Chatlinks festzulegen.\nWenn du später etwas ändern willst, kannst du den Optionsbildschirm mit /atlasloot aufrufen.";
     AL["Setup"] = "Optionen";
 
     --Old Atlas Detected
     AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Atlasloot hat festgestellt, dass die Version von Atlas, die du benutzt, nicht der Version entspricht für die Atlasloot konzipiert ist(";
     AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = "). Dadurch können (schwere) Fehler auftreten! Bitte besuch so schnell wie möglich http://www.atlasmod.com und lad dir die neuste Atlas Version runter.";
-    AL["OK"] = "OK";
+    --- AL["OK"] = "OK";
     AL["Incompatible Atlas Detected"] = "Nicht kompatibles Atlas gefunden";
 
     --Unsafe item tooltip
     AL["Unsafe Item"] = "Unsicheres Item";
     AL["Item Unavailable"] = "Item nicht verfügbar";
---	AL["ItemID:"] = true,
+	---	AL["ItemID:"] = true,
     AL["This item is not available on your server or your battlegroup yet."] = "Dieses Item ist auf deinem Server bzw. deinem Realmpool nicht verfügbar";
     AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Diese Item ist unsicher.\nSobald du dieses Item ingame gesehen hast,\nbesteht nicht mehr die Gefahr eines Verbindungsabbruch\n(Es ist dann nicht mehr unsicher). Diese\nBestimmung wurde von Blizzard mit\nPatch 1.10 festgelegt.";
     AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Mit einem Rechtsklick wird der\nServer nach dem Item abgefragt, dabei\nkönnte die Verbindung unterbrochen werden.";
@@ -161,8 +189,8 @@ if AL then
     AL["Scope"] = "Zielfernrohr";
     AL["Darkmoon Faire Card"] = "Dunkelmond-Karte";
     AL["Book"] = "Buchband";
-	--    AL["Banner"] = true,
-	--    AL["Set"] = true,
+	--- AL["Banner"] = true,
+	--- AL["Set"] = true,
     AL["Token"] = "Gutschein";
     AL["Skinning Knife"] = "Kürschnermesser";
     AL["Herbalism Knife"] = "Kräuterkundemesser";
@@ -662,6 +690,7 @@ if AL then
     AL["Gladiator's Dreadgear"] = "Schreckensrüstung des Gladiators";
     AL["Gladiator's Felshroud"] = "Teufelsschleier des Gladiators";
     AL["Gladiator's Battlegear"] = "Schlachtrüstung des Gladiators";
+    AL["Gladiator's Desecration"] = "Entweihung des Gladiators";
 
     --Set Labels
     AL["Set: Embrace of the Viper"] = "Set: Umarmung der Viper (5 Teile)";
@@ -699,6 +728,7 @@ if AL then
     AL["PvP Reputation Sets (Level 70)"] = "PvP Ruf Sets (Level 70)";
     AL["PvP Rewards (Level 60)"] = "PvP-Belohnungen (Level 60)";
     AL["PvP Rewards (Level 70)"] = "PvP-Belohnungen (Level 70)";
+    AL["PvP Rewards (Level 80)"] = "PvP-Belohnungen (Level 80)";
     AL["PvP Accessories (Level 60)"] = "PvP-Zubehör (Level 60)";
 	--    AL["PvP Accessories - Alliance (Level 60)"] = true,
 	--    AL["PvP Accessories - Horde (Level 60)"] = true,
@@ -739,6 +769,8 @@ if AL then
     AL["Rare Set"] = "Seltenes Set";
     AL["Legendary Items"] = "Legendäre Items";
     AL["Badge of Justice Rewards"] = "Abzeichen der Gerechtigkeit";
+    AL["Emblem of Valor Rewards"] = "Emblem der Ehre";
+    AL["Emblem of Heroism Rewards"] = "Emblem des Heldentums";
     AL["Accesories and Weapons"] ="Zubehör und Waffen";
     AL["Accessories"] = "Zubehör";
     AL["Armor and Weapons"] = "Rüstung und Waffen";
@@ -760,6 +792,22 @@ if AL then
     AL["BT Patterns/Plans"] = "BT Muster/Pläne";
     AL["Hyjal Summit Designs"] = "Berg Hyjal Designs";
     AL["SP Patterns/Plans"] = "SP Muster/Pläne";
+    
+	--Specs
+	AL["Balance"] = "Gleichgewicht";
+	AL["Feral"] = "Wilder Kampf";
+	AL["Restoration"] = "Wiederherstellung";
+	AL["Holy"] = "Heilig";
+	AL["Protection"] = "Schutz";
+	AL["Retribution"] = "Vergeltung";
+	AL["Shadow"] = "Schatten";
+	AL["Elemental"] = "Elementar";
+	AL["Enhancement"] = "Verstärkung";
+	AL["Fury"] = "Furor";
+	AL["Demonology"] = "Dämonologie";
+	AL["Destruction"] = "Zerstörung";
+    --- AL["Tanking"] = true;
+    --- AL["DPS"] = true;
 
     --NPCs missing from BabbleBoss
 	--    AL["Trash Mobs"] = true,
@@ -889,9 +937,10 @@ if AL then
 	AL["Rethilgore"] = "Rotkralle";
     AL["Kalldan Felmoon"] = "Kalldan Teufelsmond";
 	AL["Magregan Deepshadow"] = "Magregan Grubenschatten";
-	--  AL["Lord Ahune"] = true,
+	AL["Lord Ahune"] = "Fürst Ahune";
 	AL["Coren Direbrew"] = "Coren Düsterbräu";
     --  AL["Don Carlos"] = true,
+    AL["Shattered Hand Executioner"] = "Henker der Zerschmetterten Hand";
 
     --Zones
     AL["World Drop"] = "Weltdrops";
@@ -947,6 +996,11 @@ if AL then
     AL["The Talon King's Coffer"] = "Der Kasten des Klauenkönigs";
     AL["Krom Stoutarm's Chest"] = "Krom Starkarms Truhe";
 	AL["Garrett Family Chest"] = "Familientruhe der Garretts";
+    AL["The Saga of Terokk"] = "Die Sage von Terokk";
+    AL["First Fragment Guardian"] = "Wächter des ersten Teils";
+    AL["Second Fragment Guardian"] = "Wächter des zweiten Teils";
+    AL["Third Fragment Guardian"] = "Wächter des dritten Teils";
+    AL["Overcharged Manacell"] = "Überladene Manazelle";
 
     --World Events
     AL["Abyssal Council"] = "Abyssischer Rat";

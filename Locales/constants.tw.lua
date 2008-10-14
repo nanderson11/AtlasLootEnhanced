@@ -51,9 +51,6 @@ if AL then
     AL["Show 10 Man Loot"] = "顯示 10 人團隊物品表";
     AL["Show 25 Man Loot"] = "顯示 25 人團隊物品表";
     AL["Raid"] = "團隊";
-    AL["Factions - Azeroth"] = "陣營 - 艾澤拉斯";
-    AL["Factions - Outland"] = "陣營 - 外域";
-    AL["Factions - Shattrath City"] = "陣營 - 薩塔斯城";
     AL["Pre-Burning Crusade"] = "燃燒遠征前";
     AL["Post-Burning Crusade"] = "燃燒遠征後";
     AL["Choose Table ..."] = "選擇表格 ...";
@@ -170,10 +167,6 @@ if AL then
 
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "歡迎使用 Atlasloot Enhanced。請花一些時間設定您的偏好選項。";
-    AL["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = "v4.02.01 新功能：輸入 '/atlasloot options' 呼叫出選項選單；輸入 '/atlasloot reset' 在離線後重設 Atlasloot。";
-    AL["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = "v4.03.00 新功能：新增裝備願望清單！只要在任何裝備上按 Alt 及滑鼠點選，便可將裝備加入願望清單中。如要將裝備從願望清單中移除，開啟願望清單然後在裝備上按 Alt 及滑鼠點選即可將之移除。";
-    AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = "v4.05.00 新功能: 進階搜尋功能支援。您可以輸入物品的部份名稱，例如輸入 '阿泰絲' 以列出所有含有此名稱的物品。特別感謝 Kurax 的支援.";
-    AL["New feature in 4.05.00: All professions are now included in the AtlasLoot_Crafting module."] = "v4.05.00 新功能: 所有的專業技能現已納入 AtlasLoot_Crafting 模組";
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "歡迎使用 AtlasLoot Enhanced. 請花一點時間來設定訊息提示和連結的喜好. 輸入 /atlasloot 可以再次設定喜好選項";
     AL["Setup"] = "設定";
 
