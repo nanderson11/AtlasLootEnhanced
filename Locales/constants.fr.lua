@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction FR par KKram & Trasher
+constants.fr.lua --- Traduction FR par KKram & Trasher [Tchoupz-Ner'zhul-EU] (dernière maj : 14/10/2008)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -17,22 +17,22 @@ local AL = AceLocale:NewLocale("AtlasLoot", "frFR", false);
 
 --Register translations
 if AL then
-
-
-
-
-
+	--WotLK NO NEED TO TRANSLATE! THESE ENTRYS WILL BE DELETED AS SOON AS THEY ARE ADDED TO BABBLE!
+	AL["Death Knight"] = "Chevalier de la mort";
+	--AL["WotLK Stuff Internal Placeholder"] = true;
+	AL["PvP Rewards (Level 80)"] = "Récompenses JcJ (Niveau 80)";
+	AL["PvP Weapons (Level 80)"] = "Armes JcJ (Niveau 80)";
 
     --Text strings for UI objects
     --AL["AtlasLoot"] = true,
     AL["No match found for"] = "Aucun résultat trouvé pour";
     AL["Search"] = "Chercher";
     AL["Clear"] = "Effacer";
-    AL["Select Loot Table"] = "Choisir une Liste";
+    AL["Select Loot Table"] = "Choisir une liste";
     AL["Select Sub-Table"] = "Choisir une Sous-Liste";
-    AL["Drop Rate: "] = "Chance de tomber: ";
+    AL["Drop Rate: "] = "Chance de tomber : ";
     --AL["DKP"] = true,
-    AL["Priority:"] = "Priorité:";
+    AL["Priority:"] = "Priorité :";
     AL["Click boss name to view loot."] = "Cliquez sur le nom du boss pour voir les objets.";
     AL["Various Locations"] = "Lieux divers";
     AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Ceci est uniquement un navigateur pour les objets. Pour voir les cartes, installez Atlas ou Alphamap.";
@@ -183,7 +183,7 @@ if AL then
     --AL["Crafting Daily Quests"] = true; -- à traduire
 
     --First time user
-    AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Bienvenue sur AtlasLoot Enhanced. Veuillez prendre un moment pour définir vos préférences.";
+    AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Bienvenue dans AtlasLoot Enhanced. Veuillez prendre un moment pour définir vos préférences.";
     AL["New feature in 4.02.01: Type '/atlasloot options' to bring up the options menu and '/atlasloot reset' to reset AtlasLoot after a disconnect."] = "Nouvelle fonctionnalité dans la version 4.02.01 : Tapez '/atlasloot options' pour faire apparaître le menu des options et '/atlasloot reset' pour réinitialiser AtlasLoot après une déconnexion.";
     AL["New feature in 4.03.00: Introducing the Wishlist!  Simply alt-click on any item to add it to the wishlist.  To delete an item from the wishlist, open up your wishlist and alt-click the item to remove it.  It's that simple.  Buttons to view the wishlist have been added to the Atlas interface and the loot browser."] = "Nouvelle fonctionnalité dans la version 4.03.00 : Introduction de la WishList. Alt-Clic pour ajouter un objet à la WishList. Pour supprimer un objet de la WishList, ouvrez votre WishList et faites Alt-Clic sur l'objet à effacer. Des boutons pour voir votre WishList ont été ajoutés sur l'interface d'Atlas et sur le navigateur d'AtlasLoot.";
     AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = "Nouvelle fonctionnalité dans la version 4.05.00 : La fonction de recherche avancée est maintenant disponible. Vous pouvez entrer le nom partiel d'un objet, par exemple entrer 'elixir', ça vous donnera tous les objets de la base de donnée avec le mot 'elixir' dans le nom. Enorme merci à Kurax pour cette aide :)";
@@ -200,7 +200,7 @@ if AL then
     --Unsafe item tooltip
     AL["Unsafe Item"] = "Objet invalide";
     AL["Item Unavailable"] = "Objet indisponible";
-    AL["ItemID:"] = "ObjetID:";
+    AL["ItemID:"] = "ObjetID :";
     AL["This item is not available on your server or your battlegroup yet."] = "Cet objet n'est pas encore disponible sur votre serveur ou sur votre champ de bataille";
     AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] =	"Cet objet n'est pas fiable.\nPour voir cet objet sans risque de déconnexion, vous devez l'avoir déjà vu une fois dans le jeu.\nCette restriction est imposée par Blizzard depuis la mise à jour 1.10.";
     AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Un Clic-Droit permet de tenter d'interroger le serveur.\nVous pouvez être déconnecté.";
@@ -226,9 +226,9 @@ if AL then
     AL["Weapons"] = "Armes";
 
     --Labels for loot descriptions
-    AL["Classes:"] = "Classes: ";
+    AL["Classes:"] = "Classes :";
     AL["This Item Begins a Quest"] = "Cet objet permet de lancer une quête";
-    AL["Quest Item"] = "Objet de Quête";
+    AL["Quest Item"] = "Objet de quête";
     AL["Quest Reward"] = "Récompense de quête";
     AL["Shared"] = "Partagé";
     --AL["Unique"] = true,
@@ -240,7 +240,7 @@ if AL then
     AL["16 Slot"] = "16 emplacements";
     AL["10 Slot"] = "10 emplacements";
     AL["(has random enchantment)"] = "(caractéristiques aléatoires)";
-    AL["Use to purchase rewards"] = "Pour obtenir les récompenses";
+    AL["Use to purchase rewards"] = "Utiliser pour acheter des récompenses";
     AL["Use to purchase rewards (Horde)"] = "Pour obtenir les récompenses (Horde)";
     AL["Use to purchase rewards (Alliance)"] = "Pour obtenir les récompenses (Alliance)";
     --AL["World Bosses"] = true,
@@ -800,7 +800,7 @@ if AL then
     AL["Tier 4/5/6 Sets"] = "Sets T4/5/6";
     AL["PvP Sets (Level 60)"] = "Sets JcJ (Niveau 60)";
     AL["PvP Sets (Level 70)"] = "Sets JcJ (Niveau 70)";
-    L["PvP Reputation Sets (Level 70)"] = "Sets JcJ Réputation (Niveau 70)";
+    L["PvP Reputation Sets (Level 70)"] = "Sets Réputation JcJ (Niveau 70)";
     AL["PvP Rewards (Level 60)"] = "Récompenses JcJ (Niveau 60)";
     AL["PvP Rewards (Level 70)"] = "Récompenses JcJ (Niveau 70)";
     AL["PvP Accessories (Level 60)"] = "Accessoires JcJ (Niveau 60)";
@@ -810,10 +810,10 @@ if AL then
     AL["PvP Rewards"] = "Récompenses JcJ";
     AL["PvP Armor Sets"] = "Sets Armures JcJ";
     AL["PvP Weapons"] = "Armes JcJ";
-    AL["PvP Weapons (Level 60)"] = "Armes (JcJ Niveau 60)";
-    AL["PvP Weapons (Level 70)"] = "Armes (JcJ Niveau 70)";
+    AL["PvP Weapons (Level 60)"] = "Armes JcJ (Niveau 60)";
+    AL["PvP Weapons (Level 70)"] = "Armes JcJ (Niveau 70)";
     AL["PvP Accessories"] = "Accessoires JcJ";
-    AL["PvP Non-Set Epics"] = "Epiques Hors Sets JcJ";
+    AL["PvP Non-Set Epics"] = "Hors Sets Epiques JcJ";
     AL["PvP Honor System"] = "Système d'honneur JcJ";
     AL["PvP Reputation Sets"] = "Sets Réputation JcJ";
     AL["Arena PvP Sets"] = "Sets Arène JcJ";
@@ -1057,7 +1057,7 @@ if AL then
     --AL["Scholo"] = true,
     --AL["Strat"] = true,
     AL["Serpentshrine"] = "SCC";
-    AL["Avatar"] = true;
+    --AL["Avatar"] = true;
 
     --Chests, etc
     AL["Dark Coffer"] = "Coffre Noir";
