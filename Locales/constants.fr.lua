@@ -47,6 +47,7 @@ if AL then
     AL["10 Man Raid"] = "Raid 10";
     AL["25 Man Raid"] = "Raid 25";
     --AL["Raid"] = true,
+    --AL["Factions - Azeroth"] = true;
     AL["Factions - Original WoW"] = "Factions - WoW Originale";
     AL["Factions - Burning Crusade"] = "Factions - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Factions - Wrath of the Lich King"
