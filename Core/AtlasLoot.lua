@@ -703,12 +703,18 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				end
                 if dataSource[dataID][i][5] then
                     itemButton.desc = dataSource[dataID][i][5];
+                else
+                    itemButton.desc = nil;
                 end
                 if dataSource[dataID][i][6] then
                     itemButton.price = dataSource[dataID][i][6];
+                else
+                    itemButton.price = nil;
                 end
                 if dataSource[dataID][i][7] then
 				    itemButton.droprate = dataSource[dataID][i][7];
+                else
+                    itemButton.droprate = nil;
                 end
                 if (dataID == "SearchResult" or dataID == "WishList") and dataSource[dataID][i][8] then
                     itemButton.sourcePage = dataSource[dataID][i][8];
