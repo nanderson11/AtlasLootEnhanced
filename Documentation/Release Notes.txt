@@ -5,11 +5,17 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.00.01
+Updated for Atlas 1.12.2
+
 v5.00.00
 Compatible with WotLK
 Switch from Ace2 to Ace3
 Data from WotLK
 Items in the wishlist now have a star next to them
+LibDataBroker implemented (and hence Titan Panel support)
+New Options menu
+Loot browser now resizable in the options menu
 
 v4.06.03
 Minor bug fixes

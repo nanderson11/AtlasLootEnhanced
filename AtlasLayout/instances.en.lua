@@ -409,6 +409,16 @@ AtlasLootBossButtons = {
 		"";
 		"";
         "SMTDelrissa";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
         "SMTKaelthas";
 		"";
 		"SMTTrash";
@@ -607,6 +617,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "CorenDirebrew";
+        "";
         "BRDFlamelash";
         "BRDPanzor";
         "";
