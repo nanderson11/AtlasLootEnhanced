@@ -851,8 +851,8 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["TKEye"] = {
 		{ BabbleBoss["Al'ar"], "TKEyeAlar" },
-		{ BabbleBoss["High Astromancer Solarian"], "TKEyeSolarian" },
 		{ BabbleBoss["Void Reaver"], "TKEyeVoidReaver" },
+		{ BabbleBoss["High Astromancer Solarian"], "TKEyeSolarian" },
 		{ BabbleBoss["Kael'thas Sunstrider"], "TKEyeKaelthas" },
 		{ AL["Legendary Items for Kael'thas Fight"], "TKEyeLegendaries" },
 		{ AL["Trash Mobs"], "TKEyeTrash" },
