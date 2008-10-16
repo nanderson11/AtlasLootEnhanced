@@ -1288,6 +1288,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["COOKINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["FIRSTAIDMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["WishList"] = { AL["WishList"], "AtlasLootCharDB" };
+    AtlasLoot_TableNames["SearchResult"] = { AL["WishList"], "AtlasLootCharDB" };
   --If all else fails!
     AtlasLoot_TableNames["EmptyTable"] = { AL["Select a Loot Table..."], "Menu" };
 	AtlasLoot_TableNames["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" };

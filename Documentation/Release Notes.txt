@@ -5,6 +5,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.00.02
+Fixed a bug with Tier4/5/6 Sets being scrambled up
+Fixed a bug with searching
+Fixed a bug for displaying drop rates
+
 v5.00.01
 Updated for Atlas 1.12.2
 
