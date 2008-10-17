@@ -84,6 +84,7 @@ if AL then
     --AL["FuBar Options"] = true;
     AL["Attach to Minimap"] = "Joindre à la minicarte";
     AL["Hide FuBar Plugin"] = "Cacher le plugin FuBar";
+    AL["Show FuBar Plugin"] = "Afficher le plugin FuBar";
     AL["Position:"] = "Position :";
     AL["Left"] = "Gauche";
     AL["Center"] = "Centre";
