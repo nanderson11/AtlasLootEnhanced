@@ -1284,7 +1284,55 @@
 						AtlasLoot_MinimapButtonUpdatePosition();
 					</OnValueChanged>
 				</Scripts>
-			</Slider>   
+			</Slider>
+            <Button name="$parent_FuBarShow" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="150" y="25"/>
+		        </Size>
+                <Anchors>
+                    <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP">
+                        <Offset>
+                            <AbsDimension x="-75" y="-200"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+					<OnClick>
+                        if AtlasLootFu then
+                            AtlasLootFu:Show();
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["Show FuBar Plugin"]);
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+			        </OnShow>
+				</Scripts>
+            </Button>
+            <Button name="$parent_FuBarHide" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="150" y="25"/>
+		        </Size>
+                <Anchors>
+                    <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP">
+                        <Offset>
+                            <AbsDimension x="75" y="-200"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+					<OnClick>
+                        if AtlasLootFu then
+                            AtlasLootFu:Hide();
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["Hide FuBar Plugin"]);
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+			        </OnShow>
+				</Scripts>
+            </Button>            
         </Frames>
         <Layers>
             <Layer level="OVERLAY">

@@ -13,6 +13,12 @@ externals:
     Libs/LibBabble-Inventory-3.0: svn://svn.wowace.com/wow/libbabble-inventory-3-0/mainline/trunk
     Libs/LibBabble-Zone-3.0: svn://svn.wowace.com/wow/libbabble-zone-3-0/mainline/trunk
     Libs/LibStub: svn://svn.wowace.com/wow/libstub/mainline/tags/1.0
+    Modules/AtlasLootFu/Libs/AceLibrary: svn://svn.wowace.com/wow/ace2/mainline/trunk/AceLibrary
+    Modules/AtlasLootFu/Libs/AceDB-2.0: svn://svn.wowace.com/wow/ace2/mainline/trunk/AceDB-2.0
+    Modules/AtlasLootFu/Libs/AceEvent-2.0: svn://svn.wowace.com/wow/ace2/mainline/trunk/AceEvent-2.0
+    Modules/AtlasLootFu/Libs/AceOO-2.0: svn://svn.wowace.com/wow/ace2/mainline/trunk/AceOO-2.0
+    Modules/AtlasLootFu/Libs/FuBarPlugin-2.0: svn://svn.wowace.com/wow/fubarplugin-2-0/mainline/trunk/FuBarPlugin-2.0
+    Modules/AtlasLootFu/Libs/Tablet-2.0: svn://svn.wowace.com/wow/tabletlib/mainline/trunk/Tablet-2.0
 
 move-folders:
     AtlasLoot/Modules/BurningCrusade: AtlasLoot_BurningCrusade
@@ -20,3 +26,4 @@ move-folders:
     AtlasLoot/Modules/OriginalWoW: AtlasLoot_OriginalWoW
     AtlasLoot/Modules/WorldEvents: AtlasLoot_WorldEvents
     AtlasLoot/Modules/WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
+    AtlasLoot/Modules/AtlasLootFu: AtlasLootFu

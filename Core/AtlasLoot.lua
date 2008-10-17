@@ -35,8 +35,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
-local VERSION_MINOR = "00";
-local VERSION_BOSSES = "02";
+local VERSION_MINOR = "01";
+local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.12.2";
 ATLASLOOT_PREVIEW_ATLAS = "1.12.3";
@@ -88,7 +88,7 @@ local AtlasLootDBDefaults = {
         Opaque = false,
         ItemIDs = false,
         ItemSpam = false,
-        MinimapButton = true,
+        MinimapButton = false,
         FuBarAttached = true,
         FuBarText = true,
         FuBarIcon = true,
@@ -336,7 +336,7 @@ function AtlasLoot_OnVariablesLoaded()
     panel = getglobal("AtlasLootOptionsFrame");
     panel.name=AL["AtlasLoot"];
     InterfaceOptions_AddCategory(panel);
-    if IsAddOnLoaded("FuBar") then
+    --[[if IsAddOnLoaded("FuBar") then
         panel = getglobal("AtlasLootFuBarOptionsFrame");
         panel.name=AL["FuBar Options"];
         panel.parent=AL["AtlasLoot"];
@@ -348,12 +348,18 @@ function AtlasLoot_OnVariablesLoaded()
         if AtlasLootFu:IsFuBarIconShown() ~= AtlasLoot.db.profile.FuBarIcon then
             AtlasLootFu:ToggleFuBarIconShown();
         end
-    else
+        
+        if AtlasLoot.db.profile.MinimapButton then
+            AtlasLootFu:Show();
+        else
+            AtlasLootFu:Hide();
+        end
+    else]]
         panel = getglobal("AtlasLootMinimapOptionsFrame");
         panel.name=AL["Minimap Button Options"];
         panel.parent=AL["AtlasLoot"];
         InterfaceOptions_AddCategory(panel);
-    end
+    --end
     
     AtlasLoot_UpdateLootBrowserScale();
 end

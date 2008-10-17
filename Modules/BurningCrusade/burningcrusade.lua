@@ -4866,20 +4866,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "T456SET";
 	};
 	
-	AtlasLoot_Data["T456DruidBalance"] = {
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_2#", "=ec1=#m21#"};
+	AtlasLoot_Data["T456DruidRestoration"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29089, "", "=q4=Shoulderguards of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29087, "", "=q4=Chestguard of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29090, "", "=q4=Handguards of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29088, "", "=q4=Legguards of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t5s1_2#", "=ec1=#m22#"};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t5s1_2#", "=ec1=#m22#"};
 		{ 9, 30219, "", "=q4=Nordrassil Headguard", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 10, 30221, "", "=q4=Nordrassil Life-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 11, 30216, "", "=q4=Nordrassil Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 12, 30217, "", "=q4=Nordrassil Gloves", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 13, 30220, "", "=q4=Nordrassil Life-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t6s1_2#", "=ec1=#m23#"};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t6s1_2#", "=ec1=#m23#"};
 		{ 17, 31037, "", "=q4=Thunderheart Helmet", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
 		{ 18, 31047, "", "=q4=Thunderheart Spaulders", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
 		{ 19, 31041, "", "=q4=Thunderheart Tunic", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
@@ -4891,20 +4891,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "T456SET";
 	};
 	
-	AtlasLoot_Data["T456DruidRestoration"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_3#", "=ec1=#m21#"};
+	AtlasLoot_Data["T456DruidBalance"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 29093, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29095, "", "=q4=Pauldrons of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29091, "", "=q4=Chestpiece of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29092, "", "=q4=Gloves of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29094, "", "=q4=Britches of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t5s1_3#", "=ec1=#m22#"};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t5s1_3#", "=ec1=#m22#"};
 		{ 9, 30233, "", "=q4=Nordrassil Headpiece", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 10, 30235, "", "=q4=Nordrassil Wrath-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 11, 30231, "", "=q4=Nordrassil Chestpiece", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 12, 30232, "", "=q4=Nordrassil Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 13, 30234, "", "=q4=Nordrassil Wrath-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t6s1_3#", "=ec1=#m23#"};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t6s1_3#", "=ec1=#m23#"};
 		{ 17, 31040, "", "=q4=Thunderheart Headguard", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
 		{ 18, 31049, "", "=q4=Thunderheart Shoulderpads", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
 		{ 19, 31043, "", "=q4=Thunderheart Vest", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
@@ -5216,20 +5216,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "T456SET";
 	};
 	
-	AtlasLoot_Data["T456WarriorFury"] = {
-		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_1#", "=ec1=#m21#"};
+	AtlasLoot_Data["T456WarriorProtection"] = {
+		{ 1, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
 		{ 2, 29011, "", "=q4=Warbringer Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29016, "", "=q4=Warbringer Shoulderguards", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29012, "", "=q4=Warbringer Chestguard", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29017, "", "=q4=Warbringer Handguards", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29015, "", "=q4=Warbringer Legguards", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_1#", "=ec1=#m22#"};
+		{ 8, 0, "INV_Shield_05", "=q6=#t5s9_1#", "=ec1=#m22#"};
 		{ 9, 30115, "", "=q4=Destroyer Greathelm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 10, 30117, "", "=q4=Destroyer Shoulderguards", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 11, 30113, "", "=q4=Destroyer Chestguard", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 12, 30114, "", "=q4=Destroyer Handguards", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 13, 30116, "", "=q4=Destroyer Legguards", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t6s9_1#", "=ec1=#m23#"};
+		{ 16, 0, "INV_Shield_05", "=q6=#t6s9_1#", "=ec1=#m23#"};
 		{ 17, 30974, "", "=q4=Onslaught Greathelm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
 		{ 18, 30980, "", "=q4=Onslaught Shoulderguards", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
 		{ 19, 30976, "", "=q4=Onslaught Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};
@@ -5241,20 +5241,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "T456SET";
 	};
 	
-	AtlasLoot_Data["T456WarriorProtection"] = {
-		{ 1, 0, "INV_Shield_05", "=q6=#t4s9_2#", "=ec1=#m21#"};
+	AtlasLoot_Data["T456WarriorFury"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
 		{ 2, 29021, "", "=q4=Warbringer Battle-Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 3, 29023, "", "=q4=Warbringer Shoulderplates", "=ds="..BabbleBoss["High King Maulgar"]};
 		{ 4, 29019, "", "=q4=Warbringer Breastplate", "=ds="..BabbleBoss["Magtheridon"]};
 		{ 5, 29020, "", "=q4=Warbringer Gauntlets", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 		{ 6, 29022, "", "=q4=Warbringer Greaves", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-		{ 8, 0, "INV_Shield_05", "=q6=#t5s9_2#", "=ec1=#m22#"};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t5s9_2#", "=ec1=#m22#"};
 		{ 9, 30120, "", "=q4=Destroyer Battle-Helm", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 10, 30122, "", "=q4=Destroyer Shoulderblades", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 		{ 11, 30118, "", "=q4=Destroyer Breastplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 		{ 12, 30119, "", "=q4=Destroyer Gauntlets", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 		{ 13, 30121, "", "=q4=Destroyer Greaves", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-		{ 16, 0, "INV_Shield_05", "=q6=#t6s9_2#", "=ec1=#m23#"};
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t6s9_2#", "=ec1=#m23#"};
 		{ 17, 30972, "", "=q4=Onslaught Battle-Helm", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
 		{ 18, 30979, "", "=q4=Onslaught Shoulderblades", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
 		{ 19, 30975, "", "=q4=Onslaught Breastplate", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};

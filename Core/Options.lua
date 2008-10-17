@@ -28,7 +28,7 @@ function AtlasLoot_OptionsPanelOnLoad(panel)
     InterfaceOptions_AddCategory(panel);
 end
 
-function AtlasLoot_FuBarOptionsPanelOnLoad(panel)
+--[[function AtlasLoot_FuBarOptionsPanelOnLoad(panel)
     panel.name=AL["FuBar Options"];
     panel.parent=AL["AtlasLoot"];
     InterfaceOptions_AddCategory(panel);
@@ -39,7 +39,7 @@ function AtlasLootFuBarOptions_Init()
     AtlasLootFuBarOptionsFrameHideFuBar:SetChecked(not AtlasLoot.db.profile.MinimapButton);
     AtlasLootFuBarOptionsFrameHideFuBarIcon:SetChecked(not AtlasLoot.db.profile.FuBarIcon);
     AtlasLootFuBarOptionsFrameHideText:SetChecked(not AtlasLoot.db.profile.FuBarText);
-end
+end]]
 
 function AtlasLootMinimapOptions_Init()
     AtlasLootMinimapOptionsFrameMinimap:SetChecked(AtlasLoot.db.profile.MinimapButton);
@@ -73,7 +73,7 @@ function AtlasLootOptions_OnLoad()
         AtlasLootOptionsFrameItemSyncTT:Disable();
         AtlasLootOptionsFrameItemSyncTTText:SetText(AL["|cff9d9d9dItemSync Tooltips|r"]);
     end
-    if IsAddOnLoaded("FuBar") then
+    --[[if IsAddOnLoaded("FuBar") then
         if (AtlasLoot.db.profile.MinimapButton == true) then
             AtlasLootOptions_MinimapToggle();
         end
@@ -83,13 +83,13 @@ function AtlasLootOptions_OnLoad()
         AtlasLootMinimapOptionsFrameMinimap:SetText(AL["|cff9d9d9dShow Basic Minimap Button|r"]);
         AtlasLootMinimapOptionsFrameMinimap:Show();
         AtlasLootFuBarOptions_Init();
-    else
+    else]]
         AtlasLootMinimapOptions_Init();
-    end
+    --end
     AtlasLootOptions_Init();
-    if IsAddOnLoaded("FuBar") then
+    --[[if IsAddOnLoaded("FuBar") then
         AtlasLootFuBarOptions_Init();
-    end
+    end]]
     temp=AtlasLoot.db.profile.SafeLinks;
 end
 
@@ -168,7 +168,7 @@ function AtlasLootOptions_ItemIDToggle()
 end
 
 function AtlasLootOptions_MinimapToggle()
-    if IsAddOnLoaded("FuBar") then
+    --[[if IsAddOnLoaded("FuBar") then
         if AtlasLoot.db.profile.MinimapButton == true then
             AtlasLoot.db.profile.MinimapButton = false;
             AtlasLootFu:Hide();
@@ -180,7 +180,7 @@ function AtlasLootOptions_MinimapToggle()
             AtlasLootFu:Show();
         end
         AtlasLootFuBarOptions_Init();
-    else
+    else]]
         if AtlasLoot.db.profile.MinimapButton == true then
             AtlasLoot.db.profile.MinimapButton = false;
             AtlasLootMinimapButtonFrame:SetPoint("CENTER", "UIParent", "CENTER");
@@ -191,10 +191,10 @@ function AtlasLootOptions_MinimapToggle()
             AtlasLootMinimapButtonFrame:Show();
         end
         AtlasLootOptions_Init();
-    end
+    --end
 end
 
-function AtlasLootOptions_FuBarToggle()
+--[[function AtlasLootOptions_FuBarToggle()
     if AtlasLoot.db.profile.MinimapButton == true then
         if AtlasLoot.db.profile.FuBarAttached then
             AtlasLoot.db.profile.FuBarAttached = false;
@@ -205,7 +205,7 @@ function AtlasLootOptions_FuBarToggle()
         end
         AtlasLootFuBarOptions_Init();
     end
-end
+end]]
         
 
 function AtlasLoot_SetupLootBrowserSlider(frame, mymin, mymax, step)
@@ -270,7 +270,7 @@ function AtlasLootFuBarOptionsFrame_PositionInitialise()
 end
 
 
-function AtlasLootFuBarOptionsFrame_PositionOnShow()
+--[[function AtlasLootFuBarOptionsFrame_PositionOnShow()
 	UIDropDownMenu_Initialize(AtlasLootFuBarOptionsFrameDropDownPosition, AtlasLootFuBarOptionsFrame_PositionInitialise);
 	UIDropDownMenu_SetSelectedID(AtlasLootFuBarOptionsFrameDropDownPosition, AtlasLoot.db.profile.FuBarPosition);
 	UIDropDownMenu_SetWidth(AtlasLootFuBarOptionsFrameDropDownPosition, 100);
@@ -310,5 +310,5 @@ function AtlasLootFuBarOptionsFrame_ToggleText()
         AtlasLootFu:ToggleFuBarTextShown();
     end
     AtlasLootFuBarOptions_Init();
-end
+end]]
 

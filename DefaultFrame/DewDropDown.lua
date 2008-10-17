@@ -1294,7 +1294,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PVP70RepLeather" },
 		{ "", "PVP70RepMail" },
 		{ "", "PVP70RepPlate" },
-        { AL["PvP Non-Set Epics"], "PvPNonSetEpic" },
+        { AL["PvP Non-Set Epics"], "PvP70NonSet1" },
 		{ AtlasLoot_TableNames["PvP70Accessories1"][1], "PvP70Accessories1" },
 	},
 	["PvPLvl80Rewards"] = {
