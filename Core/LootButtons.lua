@@ -223,7 +223,7 @@ function AtlasLootItem_OnClick(arg1)
             if AtlasLootItemsFrame.refresh[1] == "WishList" then
                 AtlasLoot_DeleteFromWishList(this.itemID);
             elseif AtlasLootItemsFrame.refresh[1] == "SearchResult" then
-            	AtlasLoot_AddToWishlist(AtlasLoot:GetOriginalDataFromSearchResult(this.itemID));
+            	AtlasLoot:GetOriginalDataFromSearchResult(this.itemID);
             else
                 AtlasLoot_AddToWishlist(this.itemID, this.itemTexture, getglobal("AtlasLootItem_"..this:GetID().."_Name"):GetText(), AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[1].."|"..AtlasLootItemsFrame.refresh[2]);
             end

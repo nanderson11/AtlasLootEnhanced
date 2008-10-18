@@ -683,7 +683,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 itemButton.extra = extra;
 				
                 --Highlight items in the wishlist
-                if dataSource[dataID][i][2] ~= "" and dataSource[dataID][i][2] ~= 0 then
+                if dataSource[dataID][i][2] ~= "" and dataSource[dataID][i][2] ~= 0 and dataID ~= "WishList" then
                     if AtlasLoot_WishListCheck(dataSource[dataID][i][2]) then
                         text = "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t "..text;
                     end
