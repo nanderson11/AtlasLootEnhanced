@@ -20,7 +20,7 @@ AtlasLootWBBossButtons = {
         };
 
     Azuregos = {
-        "AAzuregos";
+        "WorldBossesClassic";
         };
 
     DoomLordKazzak = {
@@ -32,7 +32,7 @@ AtlasLootWBBossButtons = {
         };
 
     HighlordKruul = {
-        "KKruul";
+        "WorldBossesClassic";
         };
 
     Skettis = {
