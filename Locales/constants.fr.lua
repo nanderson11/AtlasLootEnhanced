@@ -801,7 +801,7 @@ if AL then
     AL["Tier 4/5/6 Sets"] = "Sets T4/5/6";
     AL["PvP Sets (Level 60)"] = "Sets JcJ (Niveau 60)";
     AL["PvP Sets (Level 70)"] = "Sets JcJ (Niveau 70)";
-    L["PvP Reputation Sets (Level 70)"] = "Sets Réputation JcJ (Niveau 70)";
+    AL["PvP Reputation Sets (Level 70)"] = "Sets Réputation JcJ (Niveau 70)";
     AL["PvP Rewards (Level 60)"] = "Récompenses JcJ (Niveau 60)";
     AL["PvP Rewards (Level 70)"] = "Récompenses JcJ (Niveau 70)";
     AL["PvP Rewards (Level 80)"] = "Récompenses JcJ (Niveau 80)";
