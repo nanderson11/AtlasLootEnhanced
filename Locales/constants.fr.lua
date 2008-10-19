@@ -641,7 +641,7 @@ if AL then
     AL["Onslaught Armor"] = "Armure d'assaut";
     AL["Onslaught Battlegear"] = "Tenue de combat d'assaut";
 
-    --Naxxramas/Tier 7 Sets -- à traduire
+    --Tier 7 Sets -- à traduire
     --AL["Scourgeborne Battlegear"] = true;
     --AL["Scourgeborne Plate"] = true;
     --AL["Dreamwalker Garb"] = true;
