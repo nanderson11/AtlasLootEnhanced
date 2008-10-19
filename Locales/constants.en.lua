@@ -641,7 +641,7 @@ if AL then
     AL["Onslaught Armor"] = true;
     AL["Onslaught Battlegear"] = true;
 
-    --Naxxramas/Tier 7 Sets
+    --Tier 7 Sets
     AL["Scourgeborne Battlegear"] = true;
     AL["Scourgeborne Plate"] = true;
     AL["Dreamwalker Garb"] = true;

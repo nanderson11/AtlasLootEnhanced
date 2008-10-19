@@ -595,6 +595,27 @@ if AL then
     AL["Onslaught Armor"] = "Rüstung des Ansturms";
     AL["Onslaught Battlegear"] = "Schlachtrüstung des Ansturms";
 
+    --Tier 7 Sets
+    AL["Scourgeborne Battlegear"] = "Schlachtrüstung der Geißelerben";
+    AL["Scourgeborne Plate"] = "Plattenrüstung der Geißelerben";
+    AL["Dreamwalker Garb"] = "Gewandung des Traumwandlers";
+    AL["Dreamwalker Battlegear"] = "Schlachtrüstung des Traumwandlers";
+    AL["Dreamwalker Regalia"] = "Ornat des Traumwandlers";
+    AL["Cryptstalker Battlegear"] = "Schlachtrüstung des Gruftpirschers";
+    AL["Frostfire Garb"] = "Frostfeuergewand";
+    AL["Redemption Regalia"] = "Ornat der Erlösung";
+    AL["Redemption Battlegear"] = "Schlachtrüstung der Erlösung";
+    AL["Redemption Plate"] = "Plattenrüstung der Erlösung";
+    AL["Regalia of Faith"] = "Ornat des Glaubens";
+    AL["Garb of Faith"] = "Gewand des Glaubens";
+    AL["Bonescythe Battlegear"] = "Schlachtrüstung der Knochensense";
+    AL["Earthshatter Garb"] = "Erdspaltergewand";
+    AL["Earthshatter Battlegear"] = "Erdspalterschlachtrüstung";
+    AL["Earthshatter Regalia"] = "Erdspalterornat";
+    AL["Plagueheart Garb"] = "Gewand des verseuchten Herzens";
+    AL["Dreadnaught Battlegear"] = "Schreckenspanzerschlachtrüstung";
+    AL["Dreadnaught Plate"] = "Schreckenspanzerschlachtrüstung";
+
     --Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "Brennender Eifer des Highlanders";
     AL["The Highlander's Purpose"] = "Schicksalsmacht des Highlanders";
