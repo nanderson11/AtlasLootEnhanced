@@ -84,6 +84,7 @@ if AL then
     AL["FuBar Options"] = "Опции FuBarа";
     AL["Attach to Minimap"] = "Закрепить у мини-карты";
     AL["Hide FuBar Plugin"] = "Скрыть плагин FuBarа";
+    AL["Show FuBar Plugin"] = "Показ плагин FuBarа";
     AL["Position:"] = "Позицыя";
     AL["Left"] = "Слево";
     AL["Center"] = "По центру";
@@ -279,8 +280,8 @@ if AL then
     AL["Weapons"] = "Оружие";
     AL["Sold at"] = "Продаётся";
     AL["Reward"] = "Награда";
-    AL["Achievement"] = "Achievement";
-    AL["Unattainable Tabards"] = "Unattainable Tabards";
+    AL["Achievement"] = "Достижение";
+    AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck Card Game Items";
