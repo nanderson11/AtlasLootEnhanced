@@ -225,7 +225,7 @@ function AtlasLootItem_OnClick(arg1)
             elseif AtlasLootItemsFrame.refresh[1] == "SearchResult" then
             	AtlasLoot:GetOriginalDataFromSearchResult(this.itemID);
             else
-                AtlasLoot_AddToWishlist(this.itemID, this.itemTexture, getglobal("AtlasLootItem_"..this:GetID().."_Name"):GetText(), AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[1].."|"..AtlasLootItemsFrame.refresh[2]);
+                AtlasLoot_AddToWishlist(this.itemID, this.itemTexture, getglobal("AtlasLootItem_"..this:GetID().."_Name"):GetText(), AtlasLoot_BossName:GetText(), AtlasLootItemsFrame.refresh[1].."|"..AtlasLootItemsFrame.refresh[2]);
             end
         elseif((AtlasLootItemsFrame.refresh[1] == "SearchResult" or AtlasLootItemsFrame.refresh[1] == "WishList") and this.sourcePage) then
             local dataID, dataSource = strsplit("|", this.sourcePage);
