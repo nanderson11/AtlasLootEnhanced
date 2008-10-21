@@ -172,16 +172,16 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], "CoTStratholme", "Submenu" },
 			},
             [4] = { 
-				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Submenu" },
+				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Table" },
 			},
             [5] = { 
-				{ BabbleZone["Gundrak"], "Gundrak", "Submenu" },
+				{ BabbleZone["Gundrak"], "Gundrak", "Table" },
 			},
             [6] = { 
 				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Submenu" },
 			},
             [7] = { 
-				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
+				{ BabbleZone["Halls of Stone"], "HallsofStone", "Table" },
 			},
             [8] = { 
 				{ BabbleBoss["Malygos"], "Malygos", "Table" },
@@ -877,28 +877,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["SP Patterns/Plans"], "SPPatterns" },
 		{ AL["Trash Mobs"], "SPTrash" },
 	},
-	["TheNexus"] = {
-		{ "", "NexTelestra" },
-		{ "", "NexOrmorok" },
-		{ "", "NexAnomalus" },
-		{ "", "NexKeristrasza" },
-		{ "", "NexStoutbeard" },
-		{ "", "NexUnknown" },
-	},
-	["DrakTharonKeep"] = {
-		{ "", "DTTrollgore" },
-		{ "", "DTNovos" },
-		{ "", "DTKingDred" },
-		{ "", "DTTharonja" },
-		{ "", "DTUnknown" },
-	},
-	["HallsofStone"] = {
-		{ "", "HoSMaiden" },
-		{ "", "HoSKrystallus" },
-		{ "", "HoSSjonnir" },
-		{ "", "HoSRescueMission" },
-		{ "", "HoSUnknown" },
-	},
 	["HallsofLightning"] = {
 		{ "", "HoLGjarngrin" },
 		{ "", "HoLIonar" },
@@ -927,22 +905,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "OcuEregos" },
 		{ "", "OcuUnknown" },
 	},
-	["Ahnkahet"] = {
-		{ "", "AKTaldaram" },
-		{ "", "AKNakox" },
-		{ "", "AKJedoga" },
-		{ "", "AKVolazj" },
-		{ "", "AKUnknown" },
-	},
 	["VioletHold"] = {
 		{ "", "VHUnknown" },
-	},
-	["Gundrak"] = {
-		{ "", "GundrakSladran" },
-		{ "", "GundrakMoorabi" },
-		{ "", "GundrakBloodstone" },
-		{ "", "GundrakGaldarah" },
-		{ "", "GundrakUnknown" },
 	},
 	["Naxxramas80"] = {
 		{ "", "Naxx80Patchwerk" },

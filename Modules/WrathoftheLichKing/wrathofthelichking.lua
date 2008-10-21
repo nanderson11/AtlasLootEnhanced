@@ -72,16 +72,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["UtgardeKeepHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
-		{ 2, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
-		{ 3, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
-		{ 4, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
-		{ 5, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
-		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Skarvald the Constructor"], ""};
-		{ 8, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
-		{ 9, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
-		{ 10, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
-		{ 11, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
+		{ 4, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
+		{ 5, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
+		{ 6, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
+		{ 7, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Skarvald the Constructor"], ""};
+		{ 10, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
+		{ 11, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
+		{ 12, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
+		{ 13, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Ingvar the Plunderer"], ""};
 		{ 17, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
 		{ 18, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
@@ -92,61 +93,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
 		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
 		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e8#"};
-	};
-
---Most Heroic loot based on IDs
-	AtlasLoot_Data["UKKeleseth"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35572, "", "=q3=Reinforced Velvet Helm", "=ds=#s1#, #a1#"};
-		{ 3, 35571, "", "=q3=Dragon Stabler's Gauntlets", "=ds=#s9#, #a3#"};
-		{ 4, 35570, "", "=q3=Keleseth's Blade of Evocation", "=ds=#h3#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
-		{ 18, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
-		{ 19, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
-		{ 20, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
-		Next = "UKSkarvald";
-	};
-
-	AtlasLoot_Data["UKSkarvald"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35575, "", "=q3=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#"};
-		{ 3, 35574, "", "=q3=Chestplate of the Northern Lights", "=ds=#s5#, #a4#"};
-		{ 4, 35573, "", "=q3=Arm Blade of Augelmir", "=ds=#h3#, #w13#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
-		{ 18, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
-		{ 19, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
-		{ 20, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
-		Prev = "UKKeleseth";
-		Next = "UKIngvar";
-	};
-
-	AtlasLoot_Data["UKIngvar"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#"};
-		{ 3, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#"};
-		{ 4, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#"};
-		{ 6, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
-		{ 7, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
-		{ 8, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
-		{ 9, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
-		{ 18, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
-		{ 19, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#"};
-		{ 20, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#"};
-		{ 22, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#"};
-		{ 23, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#"};
-		{ 24, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
-		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
-		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e8#"};
-		Prev = "UKSkarvald";
-	};
---Trash drops
-	AtlasLoot_Data["UKUnknown"] = {
-		{ 1, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#"};
-		{ 2, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#"};
 	};
 
 		-----------------
@@ -173,16 +119,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["TheNexusHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Grand Magus Telestra"], ""};
-		{ 2, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
-		{ 3, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
-		{ 4, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"}; --assumed based in ID
-		{ 5, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
-		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Ormorok the Tree-Shaper"], ""};
-		{ 8, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
-		{ 9, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
-		{ 10, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a3#"};
-		{ 11, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Grand Magus Telestra"], ""};
+		{ 4, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
+		{ 5, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
+		{ 6, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"};
+		{ 7, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Ormorok the Tree-Shaper"], ""};
+		{ 10, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
+		{ 11, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
+		{ 12, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a3#"};
+		{ 13, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anomalus"], ""};
 		{ 17, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
 		{ 18, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
@@ -210,75 +157,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Prev = "TheNexusHEROIC";
 	};
 
-	AtlasLoot_Data["NexTelestra"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#"};
-		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#"};
-		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
-		{ 18, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
-		{ 19, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"}; --assumed based in ID
-		{ 20, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
-		Next = "NexAnomalus";
-	};
-
-	AtlasLoot_Data["NexAnomalus"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#"};
-		{ 3, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#"};
-		{ 4, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
-		{ 18, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
-		{ 19, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a3#"};
-		{ 20, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
-		Prev = "NexTelestra";
-		Next = "NexOrmorok";
-	};
-
-	AtlasLoot_Data["NexOrmorok"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
-		{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
-		{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
-		{ 18, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
-		{ 19, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
-		{ 20, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
-		Prev = "NexAnomalus";
-		Next = "NexKeristrasza";
-	};
-	
-	AtlasLoot_Data["NexKeristrasza"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#"};
-		{ 3, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s2#"};
-		{ 4, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#"};
-		{ 18, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#"};
-		{ 19, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#"};
-		{ 20, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#"};
-		{ 22, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#"};
-		{ 23, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#"};
-		{ 24, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#"};
-		{ 25, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#"};
-		{ 27, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
-		Prev = "NexOrmorok";
-	};
-	
-	AtlasLoot_Data["NexStoutbeard"] = {
-		{ 1, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#"};
-		{ 2, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
-		{ 3, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#"};
-		{ 4, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#"};
-	};
-
-	AtlasLoot_Data["NexUnknown"] = {
-	};
-
 		-------------------
 		--- Azjol-Nerub ---
 		-------------------
@@ -300,16 +178,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["AzjolNerubHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Krik'thir the Gatewatcher"], ""};
-		{ 2, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
-		{ 3, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
-		{ 4, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
-		{ 5, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
-		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Hadronox"], ""};
-		{ 8, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
-		{ 9, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
-		{ 10, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s12#, #a3#"};
-		{ 11, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Krik'thir the Gatewatcher"], ""};
+		{ 4, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
+		{ 5, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
+		{ 6, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
+		{ 7, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Hadronox"], ""};
+		{ 10, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
+		{ 11, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
+		{ 12, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s12#, #a3#"};
+		{ 13, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anub'arak"], ""};
 		{ 17, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
 		{ 18, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
@@ -321,61 +200,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
 		{ 26, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
 	};
---Most Heroic loot based on IDs
-	AtlasLoot_Data["ANKrikthir"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#"};
-		{ 3, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#"};
-		{ 4, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
-		{ 18, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
-		{ 19, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
-		{ 20, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
-		Next = "ANHadronox";
-	};
-
-	AtlasLoot_Data["ANHadronox"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#"};
-		{ 3, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#"};
-		{ 4, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
-		{ 18, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
-		{ 19, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s12#, #a3#"};
-		{ 20, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
-		Prev = "ANKrikthir";
-		Next = "ANAnubarak";
-	};
-
-	AtlasLoot_Data["ANAnubarak"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#"};
-		{ 3, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#"};
-		{ 4, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#"};
-		{ 6, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
-		{ 18, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
-		{ 19, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#"};
-		{ 20, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#"};
-		{ 21, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#"};
-		{ 22, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#"};
-		{ 23, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#"};
-		{ 24, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
-		{ 26, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
-		Prev = "ANHadronox";
-	};
-	
-	AtlasLoot_Data["ANUnknown"] = {
-		Prev = "ANHadronox";
-	};
 
 		----------------------------------
 		--- Ahn'kahet: The Old Kingdom ---
 		----------------------------------
-		
+	
 	AtlasLoot_Data["Ahnkahet"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
 		{ 2, 35611, "", "=q3=Gloves of the Blood Prince", "=ds=#s9#, #a1#"};
@@ -397,80 +226,83 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 35613, "", "=q3=Pyramid Embossed Belt", "=ds=#s10#, #a2#"};
 		{ 24, 35614, "", "=q3=Volazj's Sabatons", "=ds=#s12#, #a4#"};
 	};
+--Most Heroic loot based on IDs
+	AtlasLoot_Data["AhnkahetHEROIC"] = {
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
+		{ 4, 37613, "", "=q3=Flame Sphere Bindings", "=ds=#s8#, #a1#"};
+		{ 5, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
+		{ 6, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
+		{ 7, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
+		{ 10, 37594, "", "=q3=Elder Headpiece", "=ds=#s1#, #a1#"};
+		{ 11, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 12, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
+		{ 13, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jedoga Shadowseeker"], ""};
+		{ 18, 0, "INV_Box_01", "=q6=Amanitar", ""};
+		{ 19, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#"};
+		{ 20, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
+		{ 21, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
+		};
 
-	AtlasLoot_Data["AKTaldaram"] = {
-		{ 1, 35611, "", "=q3=Gloves of the Blood Prince", "=ds=#s9#, #a1#"};
-		{ 2, 35610, "", "=q3=Slasher's Amulet", "=ds=#s2#"};
-		{ 3, 35609, "", "=q3=Talisman of Scourge Command", "=ds=#s15#"};
-		Next = "AKNakox";
-	};
-
-	AtlasLoot_Data["AKNakox"] = {
-		{ 1, 35607, "", "=q3=Ahn'kahar Handwraps", "=ds=#s9#, #a1#"};
-		{ 2, 35608, "", "=q3=Crawler-Emblem Belt", "=ds=#s10#, #a4#"};
-		{ 3, 35606, "", "=q3=Blade of Nadox", "=ds=#h1#, #w4#"};
-		Prev = "AKTaldaram";
-		Next = "AKJedoga";
-	};
-
-	AtlasLoot_Data["AKJedoga"] = {
-		{ 1, 43278, "", "=q3=Cloak of the Darkcaster", "=ds=#s4#"};
-		{ 2, 43279, "", "=q3=Battlechest of the Twilight Cult", "=ds=#s12#, #a4#"};
-		{ 3, 43277, "", "=q3=Jedoga's Greatring", "=ds=#s13#"};
-		Prev = "AKTaldaram";
-		Next = "AKVolazj";
-	};
-	
-	AtlasLoot_Data["AKVolazj"] = {
-		{ 1, 35612, "", "=q3=Mantle of Echoing Bats", "=ds=#s3#, #a1#"};
-		{ 2, 35613, "", "=q3=Pyramid Embossed Belt", "=ds=#s10#, #a2#"};
-		{ 3, 35614, "", "=q3=Volazj's Sabatons", "=ds=#s12#, #a4#"};
-		Prev = "AKJedoga";
-	};
--- 1-2 trash drops
-	AtlasLoot_Data["AKUnknown"] = {
-		{ 1, 35616, "", "=q3=Spored Tendrils Spaulders", "=ds=#s3#, #a3#"};
-		{ 2, 35615, "", "=q3=Glowworm Cavern Bindings", "=ds=#s8#, #a3#"};
+	AtlasLoot_Data["AhnkahetVolazjHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Herald Volazj"], ""};
+		{ 2, 37622, "", "=q4=Skirt of the Old Kingdom", "=ds=#s11#, #a1#"};
+		{ 3, 37623, "", "=q4=Fiery Obelisk Handguards", "=ds=#s9#, #a3#"};
+		{ 4, 37620, "", "=q4=Bracers of the Herald", "=ds=#s8#, #a4#"};
+		{ 5, 37619, "", "=q4=Wand of Ahnkahet", "=ds=#w12#"};
+		{ 7, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#"};
+		{ 8, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#"};
+		{ 9, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#"};
 	};
 
 		------------------------
 		--- Drak'Tharon Keep ---
 		------------------------
 
-	AtlasLoot_Data["DTTrollgore"] = {
-		{ 1, 35620, "", "=q3=Berserker's Horns", "=ds=#s1#, #a2#"};
-		{ 2, 35619, "", "=q3=Infection Resistant Legguards", "=ds=#s11#, #a3#"};
-		{ 3, 35618, "", "=q3=Troll Butcherer", "=ds=#h2#, #w10#"};
-		Next = "DTNovos";
+	AtlasLoot_Data["DrakTharonKeep"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Trollgore"], ""};
+		{ 2, 35620, "", "=q3=Berserker's Horns", "=ds=#s1#, #a2#"};
+		{ 3, 35619, "", "=q3=Infection Resistant Legguards", "=ds=#s11#, #a3#"};
+		{ 4, 35618, "", "=q3=Troll Butcherer", "=ds=#h2#, #w10#"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Novos the Summoner"], ""};
+		{ 7, 35632, "", "=q3=Robes of Novos", "=ds=#s5#, #a1#"};
+		{ 8, 35631, "", "=q3=Crystal Pendant of Warding", "=ds=#s2#"};
+		{ 9, 35630, "", "=q3=Summoner's Stone Gavel", "=ds=#h1#, #w6#"};
+		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 12, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#"};
+		{ 13, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a3#"};
+		{ 14, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["King Dred"], ""};
+		{ 17, 35635, "", "=q3=Stable Master's Breeches", "=ds=#s11#, #a1#"};
+		{ 18, 35634, "", "=q3=Scabrous-Hide Helm", "=ds=#s1#, #a2#"};
+		{ 19, 35633, "", "=q3=Staff of the Great Reptile", "=ds=#w9#"};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["The Prophet Tharon'ja"], ""};
+		{ 22, 35638, "", "=q3=Helmet of Living Flesh", "=ds=#s1#, #a3#"};
+		{ 23, 35637, "", "=q3=Muradin's Lost Greaves", "=ds=#s11#, #a4#"};
+		{ 24, 35636, "", "=q3=Tharon'ja's Aegis", "=ds=#w8#"};
 	};
-
-	AtlasLoot_Data["DTNovos"] = {
-		{ 1, 35632, "", "=q3=Robes of Novos", "=ds=#s5#, #a1#"};
-		{ 2, 35631, "", "=q3=Crystal Pendant of Warding", "=ds=#s2#"};
-		{ 3, 35630, "", "=q3=Summoner's Stone Gavel", "=ds=#h1#, #w6#"};
-		Prev = "DTTrollgore";
-		Next = "DTKingDred";
-	};
-
-	AtlasLoot_Data["DTKingDred"] = {
-		{ 1, 35635, "", "=q3=Stable Master's Breeches", "=ds=#s11#, #a1#"};
-		{ 2, 35634, "", "=q3=Scabrous-Hide Helm", "=ds=#s1#, #a2#"};
-		{ 3, 35633, "", "=q3=Staff of the Great Reptile", "=ds=#w9#"};
-		Prev = "DTNovos";
-		Next = "DTTharonja";
-	};
-
-	AtlasLoot_Data["DTTharonja"] = {
-		{ 1, 35638, "", "=q3=Helmet of Living Flesh", "=ds=#s1#, #a3#"};
-		{ 2, 35637, "", "=q3=Muradin's Lost Greaves", "=ds=#s11#, #a4#"};
-		{ 3, 35636, "", "=q3=Tharon'ja's Aegis", "=ds=#w8#"};
-		Prev = "DTKingDred";
-	};
---Trash drops
-	AtlasLoot_Data["DTUnknown"] = {
-		{ 1, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#"};
-		{ 2, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a3#"};
-		{ 3, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#"};
+--Most Heroic loot based on IDs
+	AtlasLoot_Data["DrakTharonKeepHEROIC"] = {
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Trollgore"], ""};
+		{ 4, 37715, "", "=q3=Cowl of the Dire Troll", "=ds=#s1#, #a1#"};
+		{ 5, 37714, "", "=q3=Batrider's Cord", "=ds=#s10#, #a2#"};
+		{ 6, 37717, "", "=q3=Legs of Physical Regeneration", "=ds=#s11#, #a4#"};
+		{ 7, 37712, "", "=q3=Terrace Defence Boots", "=ds=#s12#, #a4#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Novos the Summoner"], ""};
+		{ 10, 37722, "", "=q3=Breastplate of Undeath", "=ds=#s5#, #a4#"};
+		{ 11, 37723, "", "=q3=Incisor Fragment", "=ds=#s15#"};
+		{ 12, 37718, "", "=q3=Temple Crystal Fragment", "=ds=#s15#"};
+		{ 13, 37721, "", "=q3=Cursed Lich Blade", "=ds=#h3#, #w10#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["King Dred"], ""};
+		{ 17, 37725, "", "=q3=Savage Wound Wrap", "=ds=#s8#, #a1#"};
+		{ 18, 37724, "", "=q3=Handler's Arm Strap", "=ds=#s8#, #a2#"};
+		{ 19, 37726, "", "=q3=King Dred's Helm", "=ds=#s1#, #a3#"};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["The Prophet Tharon'ja"], ""};
+		{ 22, 37788, "", "=q4=Limb Regeneration Bracers", "=ds=#s8#, #a3#"};
+		{ 23, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#"};
 	};
 
 		-----------------------
@@ -492,80 +324,79 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		---------------
 		--- Gundrak ---
 		---------------
+--Most Heroic loot based on IDs
+	AtlasLoot_Data["Gundrak"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
+		{ 2, 35584, "", "=q3=Embroidered Gown of Zul'drak", "=ds=#s5#, #a1#"};
+		{ 3, 35585, "", "=q3=Cannibal's Legguards", "=ds=#s11#, #a3#"};
+		{ 4, 35583, "", "=q3=Witch Doctor's Wildstaff", "=ds=#w9#"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
+		{ 7, 35588, "", "=q3=Forlorn Breastplate of War", "=ds=#s5#, #a4#"}; -- assumed drop
+		{ 8, 35589, "", "=q3=Arcane Focal Signet", "=ds=#s13#"};
+		{ 9, 35587, "", "=q3=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#"};
+		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 12, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
+		{ 13, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
+		{ 17, 35591, "", "=q3=Shoulderguards of the Ice Troll", "=ds=#s2#, #a2#"};
+		{ 18, 35592, "", "=q3=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#"};
+		{ 19, 35590, "", "=q3=Drakkari Hunting Bow", "=ds=#w2#"};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
+		{ 22, 43305, "", "=q3=Shroud of Akali", "=ds=#s4#"};
+		{ 23, 43309, "", "=q3=Amulet of the Stampede", "=ds=#s2#"};
+		{ 24, 43306, "", "=q3=Gal'darah's Signet", "=ds=#s13#"};
+	};
 
-	AtlasLoot_Data["GundrakSladran"] = {
-		{ 1, 35584, "", "=q3=Embroidered Gown of Zul'drak", "=ds=#s5#, #a1#"};
-		{ 2, 35585, "", "=q3=Cannibal's Legguards", "=ds=#s11#, #a3#"};
-		{ 3, 35583, "", "=q3=Witch Doctor's Wildstaff", "=ds=#w9#"};
-		Next = "GundrakMoorabi";
-	};
-	
-	AtlasLoot_Data["GundrakMoorabi"] = {
-		{ 1, 35588, "", "=q3=Forlorn Breastplate of War", "=ds=#s5#, #a4#"}; -- assumed drop
-		{ 2, 35589, "", "=q3=Arcane Focal Signet", "=ds=#s13#"};
-		{ 3, 35587, "", "=q3=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#"};
-		Prev = "GundrakSladran";
-		Next = "GundrakBloodstone";
-	};
---drops assumed based on IDs
-	AtlasLoot_Data["GundrakBloodstone"] = {
-		{ 1, 35591, "", "=q3=Shoulderguards of the Ice Troll", "=ds=#s2#, #a2#"};
-		{ 2, 35592, "", "=q3=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#"};
-		{ 3, 35590, "", "=q3=Drakkari Hunting Bow", "=ds=#w2#"};
-		Prev = "GundrakMoorabi";
-		Next = "GundrakGaldarah";
-	};
-
-	AtlasLoot_Data["GundrakGaldarah"] = {
-		{ 1, 43305, "", "=q3=Shroud of Akali", "=ds=#s4#"};
-		{ 2, 43309, "", "=q3=Amulet of the Stampede", "=ds=#s2#"};
-		{ 3, 43306, "", "=q3=Gal'darah's Signet", "=ds=#s13#"};
-		Prev = "GundrakBloodstone";
-	};
--- 1-2 trash drops
-	AtlasLoot_Data["GundrakUnknown"] = {
-		{ 1, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
-		{ 2, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
+	AtlasLoot_Data["GundrakHEROIC"] = {
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
+		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
+		{ 6, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#"};
+		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
+		{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
+		{ 11, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
+		{ 12, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s15#"};
 	};
 
 		----------------------
 		--- Halls of Stone ---
 		----------------------
 
-	AtlasLoot_Data["HoSMaiden"] = {
-		{ 1, 38614, "", "=q3=Embrace of Sorrow", "=ds=#s4#"};
-		{ 2, 38613, "", "=q3=Chain of Fiery Orbs", "=ds=#s2#"};
-		{ 3, 38611, "", "=q3=Ringlet of Repose", "=ds=#s13#"};
-		Next = "HoSKrystallus";
+	AtlasLoot_Data["HallsofStone"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Maiden of Grief"], ""};
+		{ 2, 38614, "", "=q3=Embrace of Sorrow", "=ds=#s4#"};
+		{ 3, 38613, "", "=q3=Chain of Fiery Orbs", "=ds=#s2#"};
+		{ 4, 38611, "", "=q3=Ringlet of Repose", "=ds=#s13#"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Krystallus"], ""};
+		{ 7, 35673, "", "=q3=Leggings of Burning Gleam", "=ds=#s11#, #a1#"};
+		{ 8, 35672, "", "=q3=Hollow Geode Helm", "=ds=#s1#, #a3#"};
+		{ 9, 35670, "", "=q3=Brann's Lost Mining Helmet", "=ds=#s1#, #a4#"};
+		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 12, 35682, "", "=q3=Rune Giant Bindings", "=ds=#s8#, #a1#"};
+		{ 13, 35683, "", "=q3=Palladium Ring", "=ds=#s13#"};
+		{ 14, 35681, "", "=q3=Unrelenting Blade", "=ds=#h1#, #w4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir the Ironshaper"], ""};
+		{ 17, 35679, "", "=q3=Static Cowl", "=ds=#s1#, #a1#"};
+		{ 18, 35678, "", "=q3=Ironshaper's Legplates", "=ds=#s11#, #a4#"};
+		{ 19, 35680, "", "=q3=Amulet of Wills", "=ds=#s2#"};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["The Tribunal of Ages"], ""};
+		{ 22, 35677, "", "=q3=Cosmos Vestments", "=ds=#s5#, #a2#"};
+		{ 23, 35676, "", "=q3=Constellation Leggings", "=ds=#s11#, #a2#"};
+		{ 24, 35675, "", "=q3=Linked Armor of the Sphere", "=ds=#s5#, #a3#"};
 	};
 
-	AtlasLoot_Data["HoSKrystallus"] = {
-		{ 1, 35673, "", "=q3=Leggings of Burning Gleam", "=ds=#s11#, #a1#"};
-		{ 2, 35672, "", "=q3=Hollow Geode Helm", "=ds=#s1#, #a3#"};
-		{ 3, 35670, "", "=q3=Brann's Lost Mining Helmet", "=ds=#s1#, #a4#"};
-		Prev = "HoSMaiden";
-		Next = "HoSSjonnir";
-	};
-
-	AtlasLoot_Data["HoSSjonnir"] = {
-		{ 1, 35679, "", "=q3=Static Cowl", "=ds=#s1#, #a1#"};
-		{ 2, 35678, "", "=q3=Ironshaper's Legplates", "=ds=#s11#, #a4#"};
-		{ 3, 35680, "", "=q3=Amulet of Wills", "=ds=#s2#"};
-		Prev = "HoSKrystallus";
-		Next = "HoSRescueMission";
-	};
-
-	AtlasLoot_Data["HoSRescueMission"] = {
-		{ 1, 35677, "", "=q3=Cosmos Vestments", "=ds=#s5#, #a2#"};
-		{ 2, 35676, "", "=q3=Constellation Leggings", "=ds=#s11#, #a2#"};
-		{ 3, 35675, "", "=q3=Linked Armor of the Sphere", "=ds=#s5#, #a3#"};
-		Prev = "HoSSjonnir";
-	};
---Trash drops
-	AtlasLoot_Data["HoSUnknown"] = {
-		{ 1, 35682, "", "=q3=Rune Giant Bindings", "=ds=#s8#, #a1#"};
-		{ 2, 35683, "", "=q3=Palladium Ring", "=ds=#s13#"};
-		{ 3, 35681, "", "=q3=Unrelenting Blade", "=ds=#h1#, #w4#"};
+	AtlasLoot_Data["HallsofStoneHEROIC"] = {
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Maiden of Grief"], ""};
+		{ 4, 38618, "", "=q3=Hammer of Grief", "=ds=#h2#, #w6#"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Krystallus"], ""};
+		{ 7, 37650, "", "=q3=Shardling Legguards", "=ds=#s11#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir the Ironshaper"], ""};
+		{ 17, 37669, "", "=q4=Leggings of the Stone Halls", "=ds=#s11#, #a3#"};
+		{ 18, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#"};
+		{ 19, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#"};
+		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["The Tribunal of Ages"], ""};
+		{ 22, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#"};
 	};
 
 		--------------------------
@@ -700,6 +531,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 37056, "", "=q3=Harpooner's Striders", "=ds=#s12#, #a4#"};
 		{ 5, 37053, "", "=q3=Amulet of Deflected Blows", "=ds=#s2#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
 		{ 17, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w8#"};
 		Next = "UPYmiron";
 	};
@@ -2128,305 +1960,305 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["NaxxDeathKnightDPS"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39619, "", "=q4=Heroes' Scourgeborne Helmet", "=ds=Kel'Thuzad"};
-		{ 3, 39621, "", "=q4=Heroes' Scourgeborne Shoulderplates", "=ds=Loatheb, Gluth"};
-		{ 4, 39617, "", "=q4=Heroes' Scourgeborne Battleplate", "=ds=The Four Horsemen"};
-		{ 5, 39618, "", "=q4=Heroes' Scourgeborne Gauntlets", "=ds=#s9#"};
-		{ 6, 39620, "", "=q4=Heroes' Scourgeborne Legplates", "=ds=Thaddius"};
+		{ 2, 39619, "", "=q4=Heroes' Scourgeborne Helmet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39621, "", "=q4=Heroes' Scourgeborne Shoulderplates", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39617, "", "=q4=Heroes' Scourgeborne Battleplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39618, "", "=q4=Heroes' Scourgeborne Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39620, "", "=q4=Heroes' Scourgeborne Legplates", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40554, "", "=q4=Valorous Scourgeborne Helmet", "=ds=Kel'Thuzad"};
-		{ 10, 40557, "", "=q4=Valorous Scourgeborne Shoulderplates", "=ds=Loatheb, Gluth"};
-		{ 11, 40550, "", "=q4=Valorous Scourgeborne Battleplate", "=ds=The Four Horsemen"};
-		{ 12, 40552, "", "=q4=Valorous Scourgeborne Gauntlets", "=ds=#s9#"};
-		{ 13, 40556, "", "=q4=Valorous Scourgeborne Legplates", "=ds=Thaddius"};
+		{ 9, 40554, "", "=q4=Valorous Scourgeborne Helmet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40557, "", "=q4=Valorous Scourgeborne Shoulderplates", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40550, "", "=q4=Valorous Scourgeborne Battleplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40552, "", "=q4=Valorous Scourgeborne Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40556, "", "=q4=Valorous Scourgeborne Legplates", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDeathKnightTank"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39625, "", "=q4=Heroes' Scourgeborne Faceguard", "=ds=Kel'Thuzad"};
-		{ 3, 39627, "", "=q4=Heroes' Scourgeborne Pauldrons", "=ds=Loatheb, Gluth"};
-		{ 4, 39623, "", "=q4=Heroes' Scourgeborne Chestguard", "=ds=The Four Horsemen"};
-		{ 5, 39624, "", "=q4=Heroes' Scourgeborne Handguards", "=ds=#s9#"};
-		{ 6, 39626, "", "=q4=Heroes' Scourgeborne Legguards", "=ds=Thaddius"};
+		{ 2, 39625, "", "=q4=Heroes' Scourgeborne Faceguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39627, "", "=q4=Heroes' Scourgeborne Pauldrons", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39623, "", "=q4=Heroes' Scourgeborne Chestguard", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39624, "", "=q4=Heroes' Scourgeborne Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39626, "", "=q4=Heroes' Scourgeborne Legguards", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40565, "", "=q4=Valorous Scourgeborne Faceguard", "=ds=Kel'Thuzad"};
-		{ 10, 40568, "", "=q4=Valorous Scourgeborne Pauldrons", "=ds=Loatheb, Gluth"};
-		{ 11, 40559, "", "=q4=Valorous Scourgeborne Chestguard", "=ds=The Four Horsemen"};
-		{ 12, 40563, "", "=q4=Valorous Scourgeborne Handguards", "=ds=#s9#"};
-		{ 13, 40567, "", "=q4=Valorous Scourgeborne Legguards", "=ds=Thaddius"};
+		{ 9, 40565, "", "=q4=Valorous Scourgeborne Faceguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40568, "", "=q4=Valorous Scourgeborne Pauldrons", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40559, "", "=q4=Valorous Scourgeborne Chestguard", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40563, "", "=q4=Valorous Scourgeborne Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40567, "", "=q4=Valorous Scourgeborne Legguards", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t7s1_2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39553, "", "=q4=Heroes' Dreamwalker Headguard", "=ds=Kel'Thuzad"};
-		{ 3, 39556, "", "=q4=Heroes' Dreamwalker Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 4, 39554, "", "=q4=Heroes' Dreamwalker Raiments", "=ds=The Four Horsemen"};
-		{ 5, 39557, "", "=q4=Heroes' Dreamwalker Handgrips", "=ds=#s9#"};
-		{ 6, 39555, "", "=q4=Heroes' Dreamwalker Legguards", "=ds=Thaddius"};
+		{ 2, 39553, "", "=q4=Heroes' Dreamwalker Headguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39556, "", "=q4=Heroes' Dreamwalker Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39554, "", "=q4=Heroes' Dreamwalker Raiments", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39557, "", "=q4=Heroes' Dreamwalker Handgrips", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39555, "", "=q4=Heroes' Dreamwalker Legguards", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#t7s1_2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40473, "", "=q4=Valorous Dreamwalker Headguard", "=ds=Kel'Thuzad"};
-		{ 10, 40494, "", "=q4=Valorous Dreamwalker Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 11, 40471, "", "=q4=Valorous Dreamwalker Raiments", "=ds=The Four Horsemen"};
-		{ 12, 40472, "", "=q4=Valorous Dreamwalker Handgrips", "=ds=#s9#"};
-		{ 13, 40493, "", "=q4=Valorous Dreamwalker Legguards", "=ds=Thaddius"};
+		{ 9, 40473, "", "=q4=Valorous Dreamwalker Headguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40494, "", "=q4=Valorous Dreamwalker Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40471, "", "=q4=Valorous Dreamwalker Raiments", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40472, "", "=q4=Valorous Dreamwalker Handgrips", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40493, "", "=q4=Valorous Dreamwalker Legguards", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t7s1_3#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39531, "", "=q4=Heroes' Dreamwalker Headpiece", "=ds=Kel'Thuzad"};
-		{ 3, 39542, "", "=q4=Heroes' Dreamwalker Spaulders", "=ds=Loatheb, Gluth"};
-		{ 4, 39538, "", "=q4=Heroes' Dreamwalker Robe", "=ds=The Four Horsemen"};
-		{ 5, 39543, "", "=q4=Heroes' Dreamwalker Handguards", "=ds=#s9#"};
-		{ 6, 39539, "", "=q4=Heroes' Dreamwalker Leggings", "=ds=Thaddius"};
+		{ 2, 39531, "", "=q4=Heroes' Dreamwalker Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39542, "", "=q4=Heroes' Dreamwalker Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39538, "", "=q4=Heroes' Dreamwalker Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39543, "", "=q4=Heroes' Dreamwalker Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39539, "", "=q4=Heroes' Dreamwalker Leggings", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t7s1_3#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40461, "", "=q4=Valorous Dreamwalker Headpiece", "=ds=Kel'Thuzad"};
-		{ 10, 40465, "", "=q4=Valorous Dreamwalker Spaulders", "=ds=Loatheb, Gluth"};
-		{ 11, 40463, "", "=q4=Valorous Dreamwalker Robe", "=ds=The Four Horsemen"};
-		{ 12, 40460, "", "=q4=Valorous Dreamwalker Handguards", "=ds=#s9#"};
-		{ 13, 40462, "", "=q4=Valorous Dreamwalker Leggings", "=ds=Thaddius"};
+		{ 9, 40461, "", "=q4=Valorous Dreamwalker Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40465, "", "=q4=Valorous Dreamwalker Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40463, "", "=q4=Valorous Dreamwalker Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40460, "", "=q4=Valorous Dreamwalker Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40462, "", "=q4=Valorous Dreamwalker Leggings", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t7s1_1#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39545, "", "=q4=Heroes' Dreamwalker Cover", "=ds=Kel'Thuzad"};
-		{ 3, 39548, "", "=q4=Heroes' Dreamwalker Mantle", "=ds=Loatheb, Gluth"};
-		{ 4, 39547, "", "=q4=Heroes' Dreamwalker Vestments", "=ds=The Four Horsemen"};
-		{ 5, 39544, "", "=q4=Heroes' Dreamwalker Gloves", "=ds=#s9#"};
-		{ 6, 39546, "", "=q4=Heroes' Dreamwalker Cover", "=ds=Thaddius"};
+		{ 2, 39545, "", "=q4=Heroes' Dreamwalker Cover", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39548, "", "=q4=Heroes' Dreamwalker Mantle", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39547, "", "=q4=Heroes' Dreamwalker Vestments", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39544, "", "=q4=Heroes' Dreamwalker Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39546, "", "=q4=Heroes' Dreamwalker Cover", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t7s1_1#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40467, "", "=q4=Valorous Dreamwalker Cover", "=ds=Kel'Thuzad"};
-		{ 10, 40470, "", "=q4=Valorous Dreamwalker Mantle", "=ds=Loatheb, Gluth"};
-		{ 11, 40469, "", "=q4=Valorous Dreamwalker Vestments", "=ds=The Four Horsemen"};
-		{ 12, 40466, "", "=q4=Valorous Dreamwalker Gloves", "=ds=#s9#"};
-		{ 13, 40468, "", "=q4=Valorous Dreamwalker Trousers", "=ds=Thaddius"};
+		{ 9, 40467, "", "=q4=Valorous Dreamwalker Cover", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40470, "", "=q4=Valorous Dreamwalker Mantle", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40469, "", "=q4=Valorous Dreamwalker Vestments", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40466, "", "=q4=Valorous Dreamwalker Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40468, "", "=q4=Valorous Dreamwalker Trousers", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxHunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t7s2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39578, "", "=q4=Heroes' Crypstalker Headpiece", "=ds=Kel'Thuzad"};
-		{ 3, 39581, "", "=q4=Heroes' Crypstalker Spaulders", "=ds=Loatheb, Gluth"};
-		{ 4, 39579, "", "=q4=Heroes' Crypstalker Tunic", "=ds=The Four Horsemen"};
-		{ 5, 39582, "", "=q4=Heroes' Crypstalker Handguards", "=ds=#s9#"};
-		{ 6, 39580, "", "=q4=Heroes' Crypstalker Legguards", "=ds=Thaddius"};
+		{ 2, 39578, "", "=q4=Heroes' Crypstalker Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39581, "", "=q4=Heroes' Crypstalker Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39579, "", "=q4=Heroes' Crypstalker Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39582, "", "=q4=Heroes' Crypstalker Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39580, "", "=q4=Heroes' Crypstalker Legguards", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t7s2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40505, "", "=q4=Valorous Crypstalker Headpiece", "=ds=Kel'Thuzad"};
-		{ 10, 40507, "", "=q4=Valorous Crypstalker Spaulders", "=ds=Loatheb, Gluth"};
-		{ 11, 40503, "", "=q4=Valorous Crypstalker Tunic", "=ds=The Four Horsemen"};
-		{ 12, 40504, "", "=q4=Valorous Crypstalker Handguards", "=ds=#s9#"};
-		{ 13, 40506, "", "=q4=Valorous Crypstalker Legguards", "=ds=Thaddius"};
+		{ 9, 40505, "", "=q4=Valorous Crypstalker Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40507, "", "=q4=Valorous Crypstalker Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40503, "", "=q4=Valorous Crypstalker Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40504, "", "=q4=Valorous Crypstalker Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40506, "", "=q4=Valorous Crypstalker Legguards", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxMage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t7s3#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39491, "", "=q4=Heroes' Frostfire Circlet", "=ds=Kel'Thuzad"};
-		{ 3, 39494, "", "=q4=Heroes' Frostfire Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 4, 39492, "", "=q4=Heroes' Frostfire Robe", "=ds=The Four Horsemen"};
-		{ 5, 39495, "", "=q4=Heroes' Frostfire Gloves", "=ds=#s9#"};
-		{ 6, 39493, "", "=q4=Heroes' Frostfire Leggings", "=ds=Thaddius"};
+		{ 2, 39491, "", "=q4=Heroes' Frostfire Circlet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39494, "", "=q4=Heroes' Frostfire Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39492, "", "=q4=Heroes' Frostfire Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39495, "", "=q4=Heroes' Frostfire Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39493, "", "=q4=Heroes' Frostfire Leggings", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t7s3#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40416, "", "=q4=Valorous Frostfire Circlet", "=ds=Kel'Thuzad"};
-		{ 10, 40419, "", "=q4=Valorous Frostfire Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 11, 40418, "", "=q4=Valorous Frostfire Robe", "=ds=The Four Horsemen"};
-		{ 12, 40415, "", "=q4=Valorous Frostfire Gloves", "=ds=#s9#"};
-		{ 13, 40417, "", "=q4=Valorous Frostfire Leggings", "=ds=Thaddius"};
+		{ 9, 40416, "", "=q4=Valorous Frostfire Circlet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40419, "", "=q4=Valorous Frostfire Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40418, "", "=q4=Valorous Frostfire Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40415, "", "=q4=Valorous Frostfire Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40417, "", "=q4=Valorous Frostfire Leggings", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t7s4_1#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39628, "", "=q4=Heroes' Redemption Headpiece", "=ds=Kel'Thuzad"};
-		{ 3, 39631, "", "=q4=Heroes' Redemption Spaulders", "=ds=Loatheb, Gluth"};
-		{ 4, 39629, "", "=q4=Heroes' Redemption Tunic", "=ds=The Four Horsemen"};
-		{ 5, 39632, "", "=q4=Heroes' Redemption Gloves", "=ds=#s9#"};
-		{ 6, 39630, "", "=q4=Heroes' Redemption Greaves", "=ds=Thaddius"};
+		{ 2, 39628, "", "=q4=Heroes' Redemption Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39631, "", "=q4=Heroes' Redemption Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39629, "", "=q4=Heroes' Redemption Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39632, "", "=q4=Heroes' Redemption Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39630, "", "=q4=Heroes' Redemption Greaves", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t7s4_1#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40571, "", "=q4=Valorous Redemption Headpiece", "=ds=Kel'Thuzad"};
-		{ 10, 40573, "", "=q4=Valorous Redemption Spaulders", "=ds=Loatheb, Gluth"};
-		{ 11, 40569, "", "=q4=Valorous Redemption Tunic", "=ds=The Four Horsemen"};
-		{ 12, 40570, "", "=q4=Valorous Redemption Gloves", "=ds=#s9#"};
-		{ 13, 40572, "", "=q4=Valorous Redemption Greaves", "=ds=Thaddius"};
+		{ 9, 40571, "", "=q4=Valorous Redemption Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40573, "", "=q4=Valorous Redemption Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40569, "", "=q4=Valorous Redemption Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40570, "", "=q4=Valorous Redemption Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40572, "", "=q4=Valorous Redemption Greaves", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinProtection"] = {
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t7s4_2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39635, "", "=q4=Heroes' Redemption Helm", "=ds=Kel'Thuzad"};
-		{ 3, 39637, "", "=q4=Heroes' Redemption Shoulderplates", "=ds=Loatheb, Gluth"};
-		{ 4, 39633, "", "=q4=Heroes' Redemption Chestpiece", "=ds=The Four Horsemen"};
-		{ 5, 39634, "", "=q4=Heroes' Redemption Gauntlets", "=ds=#s9#"};
-		{ 6, 39636, "", "=q4=Heroes' Redemption Legplates", "=ds=Thaddius"};
+		{ 2, 39635, "", "=q4=Heroes' Redemption Helm", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39637, "", "=q4=Heroes' Redemption Shoulderplates", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39633, "", "=q4=Heroes' Redemption Chestpiece", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39634, "", "=q4=Heroes' Redemption Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39636, "", "=q4=Heroes' Redemption Legplates", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#t7s4_2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40576, "", "=q4=Valorous Redemption Helm", "=ds=Kel'Thuzad"};
-		{ 10, 40578, "", "=q4=Valorous Redemption Shoulderplates", "=ds=Loatheb, Gluth"};
-		{ 11, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds=The Four Horsemen"};
-		{ 12, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds=#s9#"};
-		{ 13, 40577, "", "=q4=Valorous Redemption Legplates", "=ds=Thaddius"};
+		{ 9, 40576, "", "=q4=Valorous Redemption Helm", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40578, "", "=q4=Valorous Redemption Shoulderplates", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40577, "", "=q4=Valorous Redemption Legplates", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t7s4_3#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39640, "", "=q4=Heroes' Redemption Faceguard", "=ds=Kel'Thuzad"};
-		{ 3, 39642, "", "=q4=Heroes' Redemption Shouldergards", "=ds=Loatheb, Gluth"};
-		{ 4, 39638, "", "=q4=Heroes' Redemption Breastplate", "=ds=The Four Horsemen"};
-		{ 5, 39639, "", "=q4=Heroes' Redemption Handguards", "=ds=#s9#"};
-		{ 6, 39641, "", "=q4=Heroes' Redemption Legguards", "=ds=Thaddius"};
+		{ 2, 39640, "", "=q4=Heroes' Redemption Faceguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39642, "", "=q4=Heroes' Redemption Shouldergards", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39638, "", "=q4=Heroes' Redemption Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39639, "", "=q4=Heroes' Redemption Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39641, "", "=q4=Heroes' Redemption Legguards", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t7s4_3#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40581, "", "=q4=Valorous Redemption Faceguard", "=ds=Kel'Thuzad"};
-		{ 10, 40584, "", "=q4=Valorous Redemption Shouldergards", "=ds=Loatheb, Gluth"};
-		{ 11, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds=The Four Horsemen"};
-		{ 12, 40580, "", "=q4=Valorous Redemption Handguards", "=ds=#s9#"};
-		{ 13, 40583, "", "=q4=Valorous Redemption Legguards", "=ds=Thaddius"};
+		{ 9, 40581, "", "=q4=Valorous Redemption Faceguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40584, "", "=q4=Valorous Redemption Shouldergards", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40580, "", "=q4=Valorous Redemption Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40583, "", "=q4=Valorous Redemption Legguards", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t7s5_2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39521, "", "=q4=Heroes' Circlet of Faith", "=ds=Kel'Thuzad"};
-		{ 3, 39529, "", "=q4=Heroes' Mantle of Faith", "=ds=Loatheb, Gluth"};
-		{ 4, 39523, "", "=q4=Heroes' Raiments of Faith", "=ds=The Four Horsemen"};
-		{ 5, 39530, "", "=q4=Heroes' Handwraps of Faith", "=ds=#s9#"};
-		{ 6, 39528, "", "=q4=Heroes' Pants of Faith", "=ds=Thaddius"};
+		{ 2, 39521, "", "=q4=Heroes' Circlet of Faith", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39529, "", "=q4=Heroes' Mantle of Faith", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39523, "", "=q4=Heroes' Raiments of Faith", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39530, "", "=q4=Heroes' Handwraps of Faith", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39528, "", "=q4=Heroes' Pants of Faith", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#t7s5_2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40456, "", "=q4=Valorous Circlet of Faith", "=ds=Kel'Thuzad"};
-		{ 10, 40459, "", "=q4=Valorous Mantle of Faith", "=ds=Loatheb, Gluth"};
-		{ 11, 40458, "", "=q4=Valorous Raiments of Faith", "=ds=The Four Horsemen"};
-		{ 12, 40454, "", "=q4=Valorous Handwraps of Faith", "=ds=#s9#"};
-		{ 13, 40457, "", "=q4=Valorous Pants of Faith", "=ds=Thaddius"};
+		{ 9, 40456, "", "=q4=Valorous Circlet of Faith", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40459, "", "=q4=Valorous Mantle of Faith", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40458, "", "=q4=Valorous Raiments of Faith", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40454, "", "=q4=Valorous Handwraps of Faith", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40457, "", "=q4=Valorous Pants of Faith", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 	
 	AtlasLoot_Data["NaxxPriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39514, "", "=q4=Heroes' Crown of Faith", "=ds=Kel'Thuzad"};
-		{ 3, 39518, "", "=q4=Heroes' Shoulderpads of Faith", "=ds=Loatheb, Gluth"};
-		{ 4, 39515, "", "=q4=Heroes' Robe of Faith", "=ds=The Four Horsemen"};
-		{ 5, 39519, "", "=q4=Heroes' Gloves of Faith", "=ds=#s9#"};
-		{ 6, 39517, "", "=q4=Heroes' Leggings of Faith", "=ds=Thaddius"};
+		{ 2, 39514, "", "=q4=Heroes' Crown of Faith", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39518, "", "=q4=Heroes' Shoulderpads of Faith", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39515, "", "=q4=Heroes' Robe of Faith", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39519, "", "=q4=Heroes' Gloves of Faith", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39517, "", "=q4=Heroes' Leggings of Faith", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40447, "", "=q4=Valorous Crown of Faith", "=ds=Kel'Thuzad"};
-		{ 10, 40450, "", "=q4=Valorous Shoulderpads of Faith", "=ds=Loatheb, Gluth"};
-		{ 11, 40449, "", "=q4=Valorous Robe of Faith", "=ds=The Four Horsemen"};
-		{ 12, 40445, "", "=q4=Valorous Gloves of Faith", "=ds=#s9#"};
-		{ 13, 40448, "", "=q4=Valorous Leggings of Faith", "=ds=Thaddius"};
+		{ 9, 40447, "", "=q4=Valorous Crown of Faith", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40450, "", "=q4=Valorous Shoulderpads of Faith", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40449, "", "=q4=Valorous Robe of Faith", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40445, "", "=q4=Valorous Gloves of Faith", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40448, "", "=q4=Valorous Leggings of Faith", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxRogue"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#t7s6#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39561, "", "=q4=Heroes' Bonescythe Helmet", "=ds=Kel'Thuzad"};
-		{ 3, 39565, "", "=q4=Heroes' Bonescythe Pauldrons", "=ds=Loatheb, Gluth"};
-		{ 4, 39558, "", "=q4=Heroes' Bonescythe Breastplate", "=ds=The Four Horsemen"};
-		{ 5, 39560, "", "=q4=Heroes' Bonescythe Gauntlets", "=ds=#s9#"};
-		{ 6, 39564, "", "=q4=Heroes' Bonescythe Legplates", "=ds=Thaddius"};
+		{ 2, 39561, "", "=q4=Heroes' Bonescythe Helmet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39565, "", "=q4=Heroes' Bonescythe Pauldrons", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39558, "", "=q4=Heroes' Bonescythe Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39560, "", "=q4=Heroes' Bonescythe Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39564, "", "=q4=Heroes' Bonescythe Legplates", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Ability_BackStab", "=q6=#t7s6#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40499, "", "=q4=Valorous Bonescythe Helmet", "=ds=Kel'Thuzad"};
-		{ 10, 40502, "", "=q4=Valorous Bonescythe Pauldrons", "=ds=Loatheb, Gluth"};
-		{ 11, 40495, "", "=q4=Valorous Bonescythe Breastplate", "=ds=The Four Horsemen"};
-		{ 12, 40496, "", "=q4=Valorous Bonescythe Gauntlets", "=ds=#s9#"};
-		{ 13, 40500, "", "=q4=Valorous Bonescythe Legplates", "=ds=Thaddius"};
+		{ 9, 40499, "", "=q4=Valorous Bonescythe Helmet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40502, "", "=q4=Valorous Bonescythe Pauldrons", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40495, "", "=q4=Valorous Bonescythe Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40496, "", "=q4=Valorous Bonescythe Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40500, "", "=q4=Valorous Bonescythe Legplates", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t7s7_3#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39583, "", "=q4=Heroes' Earthshatter Headpiece", "=ds=Kel'Thuzad"};
-		{ 3, 39590, "", "=q4=Heroes' Earthshatter Spaulders", "=ds=Loatheb, Gluth"};
-		{ 4, 39588, "", "=q4=Heroes' Earthshatter Tunic", "=ds=The Four Horsemen"};
-		{ 5, 39591, "", "=q4=Heroes' Earthshatter Handguards", "=ds=#s9#"};
-		{ 6, 39589, "", "=q4=Heroes' Earthshatter Legguards", "=ds=Thaddius"};
+		{ 2, 39583, "", "=q4=Heroes' Earthshatter Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39590, "", "=q4=Heroes' Earthshatter Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39588, "", "=q4=Heroes' Earthshatter Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39591, "", "=q4=Heroes' Earthshatter Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39589, "", "=q4=Heroes' Earthshatter Legguards", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t7s7_3#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40510, "", "=q4=Valorous Earthshatter Headpiece", "=ds=Kel'Thuzad"};
-		{ 10, 40513, "", "=q4=Valorous Earthshatter Spaulders", "=ds=Loatheb, Gluth"};
-		{ 11, 40508, "", "=q4=Valorous Earthshatter Tunic", "=ds=The Four Horsemen"};
-		{ 12, 40509, "", "=q4=Valorous Earthshatter Handguards", "=ds=#s9#"};
-		{ 13, 40512, "", "=q4=Valorous Earthshatter Legguards", "=ds=Thaddius"};
+		{ 9, 40510, "", "=q4=Valorous Earthshatter Headpiece", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40513, "", "=q4=Valorous Earthshatter Spaulders", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40508, "", "=q4=Valorous Earthshatter Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40509, "", "=q4=Valorous Earthshatter Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40512, "", "=q4=Valorous Earthshatter Legguards", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t7s7_2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39602, "", "=q4=Heroes' Earthshatter Faceguard", "=ds=Kel'Thuzad"};
-		{ 3, 39604, "", "=q4=Heroes' Earthshatter Shoulderguards", "=ds=Loatheb, Gluth"};
-		{ 4, 39597, "", "=q4=Heroes' Earthshatter Chestguard", "=ds=The Four Horsemen"};
-		{ 5, 39601, "", "=q4=Heroes' Earthshatter Grips", "=ds=#s9#"};
-		{ 6, 39603, "", "=q4=Heroes' Earthshatter War-Kilt", "=ds=Thaddius"};
+		{ 2, 39602, "", "=q4=Heroes' Earthshatter Faceguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39604, "", "=q4=Heroes' Earthshatter Shoulderguards", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39597, "", "=q4=Heroes' Earthshatter Chestguard", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39601, "", "=q4=Heroes' Earthshatter Grips", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39603, "", "=q4=Heroes' Earthshatter War-Kilt", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#t7s7_2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40521, "", "=q4=Valorous Earthshatter Faceguard", "=ds=Kel'Thuzad"};
-		{ 10, 40524, "", "=q4=Valorous Earthshatter Shoulderguards", "=ds=Loatheb, Gluth"};
-		{ 11, 40523, "", "=q4=Valorous Earthshatter Chestguard", "=ds=The Four Horsemen"};
-		{ 12, 40520, "", "=q4=Valorous Earthshatter Grips", "=ds=#s9#"};
-		{ 13, 40522, "", "=q4=Valorous Earthshatter War-Kilt", "=ds=Thaddius"};
+		{ 9, 40521, "", "=q4=Valorous Earthshatter Faceguard", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40524, "", "=q4=Valorous Earthshatter Shoulderguards", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40523, "", "=q4=Valorous Earthshatter Chestguard", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40520, "", "=q4=Valorous Earthshatter Grips", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40522, "", "=q4=Valorous Earthshatter War-Kilt", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t7s7_1#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39594, "", "=q4=Heroes' Earthshatter Helm", "=ds=Kel'Thuzad"};
-		{ 3, 39596, "", "=q4=Heroes' Earthshatter Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 4, 39592, "", "=q4=Heroes' Earthshatter Hauberk", "=ds=The Four Horsemen"};
-		{ 5, 39593, "", "=q4=Heroes' Earthshatter Gloves", "=ds=#s9#"};
-		{ 6, 39595, "", "=q4=Heroes' Earthshatter Kilt", "=ds=Thaddius"};
+		{ 2, 39594, "", "=q4=Heroes' Earthshatter Helm", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39596, "", "=q4=Heroes' Earthshatter Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39592, "", "=q4=Heroes' Earthshatter Hauberk", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39593, "", "=q4=Heroes' Earthshatter Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39595, "", "=q4=Heroes' Earthshatter Kilt", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t7s7_1#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40516, "", "=q4=Valorous Earthshatter Helm", "=ds=Kel'Thuzad"};
-		{ 10, 40518, "", "=q4=Valorous Earthshatter Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 11, 40514, "", "=q4=Valorous Earthshatter Hauberk", "=ds=The Four Horsemen"};
-		{ 12, 40515, "", "=q4=Valorous Earthshatter Gloves", "=ds=#s9#"};
-		{ 13, 40517, "", "=q4=Valorous Earthshatter Kilt", "=ds=Thaddius"};
+		{ 9, 40516, "", "=q4=Valorous Earthshatter Helm", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40518, "", "=q4=Valorous Earthshatter Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40514, "", "=q4=Valorous Earthshatter Hauberk", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40515, "", "=q4=Valorous Earthshatter Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40517, "", "=q4=Valorous Earthshatter Kilt", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t7s8#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39496, "", "=q4=Heroes' Plagueheart Circlet", "=ds=Kel'Thuzad"};
-		{ 3, 39499, "", "=q4=Heroes' Plagueheart Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 4, 39497, "", "=q4=Heroes' Plagueheart Robe", "=ds=The Four Horsemen"};
-		{ 5, 39500, "", "=q4=Heroes' Plagueheart Gloves", "=ds=#s9#"};
-		{ 6, 39498, "", "=q4=Heroes' Plagueheart Leggings", "=ds=Thaddius"};
+		{ 2, 39496, "", "=q4=Heroes' Plagueheart Circlet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39499, "", "=q4=Heroes' Plagueheart Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39497, "", "=q4=Heroes' Plagueheart Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39500, "", "=q4=Heroes' Plagueheart Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39498, "", "=q4=Heroes' Plagueheart Leggings", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t7s8#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40421, "", "=q4=Valorous Plagueheart Circlet", "=ds=Kel'Thuzad"};
-		{ 10, 40424, "", "=q4=Valorous Plagueheart Shoulderpads", "=ds=Loatheb, Gluth"};
-		{ 11, 40423, "", "=q4=Valorous Plagueheart Robe", "=ds=The Four Horsemen"};
-		{ 12, 40420, "", "=q4=Valorous Plagueheart Gloves", "=ds=#s9#"};
-		{ 13, 40422, "", "=q4=Valorous Plagueheart Leggings", "=ds=Thaddius"};
+		{ 9, 40421, "", "=q4=Valorous Plagueheart Circlet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40424, "", "=q4=Valorous Plagueheart Shoulderpads", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40423, "", "=q4=Valorous Plagueheart Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40420, "", "=q4=Valorous Plagueheart Gloves", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40422, "", "=q4=Valorous Plagueheart Leggings", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t7s9_1#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39605, "", "=q4=Heroes' Dreadnaught Helmet", "=ds=Kel'Thuzad"};
-		{ 3, 39608, "", "=q4=Heroes' Dreadnaught Shoulderplates", "=ds=Loatheb, Gluth"};
-		{ 4, 39606, "", "=q4=Heroes' Dreadnaught Battleplate", "=ds=The Four Horsemen"};
-		{ 5, 39609, "", "=q4=Heroes' Dreadnaught Gauntlets", "=ds=#s9#"};
-		{ 6, 39607, "", "=q4=Heroes' Dreadnaught Legplates", "=ds=Thaddius"};
+		{ 2, 39605, "", "=q4=Heroes' Dreadnaught Helmet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39608, "", "=q4=Heroes' Dreadnaught Shoulderplates", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39606, "", "=q4=Heroes' Dreadnaught Battleplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39609, "", "=q4=Heroes' Dreadnaught Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39607, "", "=q4=Heroes' Dreadnaught Legplates", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t7s9_1#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40528, "", "=q4=Valorous Dreadnaught Helmet", "=ds=Kel'Thuzad"};
-		{ 10, 40530, "", "=q4=Valorous Dreadnaught Shoulderplates", "=ds=Loatheb, Gluth"};
-		{ 11, 40525, "", "=q4=Valorous Dreadnaught Battleplate", "=ds=The Four Horsemen"};
-		{ 12, 40527, "", "=q4=Valorous Dreadnaught Gauntlets", "=ds=#s9#"};
-		{ 13, 40529, "", "=q4=Valorous Dreadnaught Legplates", "=ds=Thaddius"};
+		{ 9, 40528, "", "=q4=Valorous Dreadnaught Helmet", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40530, "", "=q4=Valorous Dreadnaught Shoulderplates", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40525, "", "=q4=Valorous Dreadnaught Battleplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40527, "", "=q4=Valorous Dreadnaught Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40529, "", "=q4=Valorous Dreadnaught Legplates", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t7s9_2#", "=q5="..AL["10 Man Raid"]};
-		{ 2, 39610, "", "=q4=Heroes' Dreadnaught Greathelm", "=ds=Kel'Thuzad"};
-		{ 3, 39613, "", "=q4=Heroes' Dreadnaught Pauldrons", "=ds=Loatheb, Gluth"};
-		{ 4, 39611, "", "=q4=Heroes' Dreadnaught Breastplate", "=ds=The Four Horsemen"};
-		{ 5, 39622, "", "=q4=Heroes' Dreadnaught Handguards", "=ds=#s9#"};
-		{ 6, 39612, "", "=q4=Heroes' Dreadnaught Legguards", "=ds=Thaddius"};
+		{ 2, 39610, "", "=q4=Heroes' Dreadnaught Greathelm", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 3, 39613, "", "=q4=Heroes' Dreadnaught Pauldrons", "=ds="..BabbleBoss["Loatheb"]};
+		{ 4, 39611, "", "=q4=Heroes' Dreadnaught Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 5, 39622, "", "=q4=Heroes' Dreadnaught Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 6, 39612, "", "=q4=Heroes' Dreadnaught Legguards", "=ds="..BabbleBoss["Thaddius"]};
 		{ 8, 0, "INV_Shield_05", "=q6=#t7s9_2#", "=q5="..AL["25 Man Raid"]};
-		{ 9, 40546, "", "=q4=Valorous Dreadnaught Greathelm", "=ds=Kel'Thuzad"};
-		{ 10, 40548, "", "=q4=Valorous Dreadnaught Pauldrons", "=ds=Loatheb, Gluth"};
-		{ 11, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds=The Four Horsemen"};
-		{ 12, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds=#s9#"};
-		{ 13, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds=Thaddius"};
+		{ 9, 40546, "", "=q4=Valorous Dreadnaught Greathelm", "=ds="..BabbleBoss["Kel'Thuzad"]};
+		{ 10, 40548, "", "=q4=Valorous Dreadnaught Pauldrons", "=ds="..BabbleBoss["Loatheb"]};
+		{ 11, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
+		{ 12, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds="..BabbleBoss["Sartharion"]};
+		{ 13, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds="..BabbleBoss["Thaddius"]};
         Back = "T7SET";
 	};
 
