@@ -928,12 +928,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Naxx80Unknown" },
 	},
 	["WorldBosses"] = {
-		{ BabbleBoss["Azuregos"], "WorldBossesClassic" },
-		{ BabbleBoss["Doom Lord Kazzak"], "WorldBossesBC"},
-		{ BabbleBoss["Emeriss"], "DEmeriss" },
-		{ BabbleBoss["Lethon"], "DLethon"},
-		{ BabbleBoss["Taerar"], "DTaerar" },
-		{ BabbleBoss["Ysondre"], "DYsondre" },
+		{ "", "WorldBossesClassic" },
+		{ "", "WorldBossesBC"},
+		{ "", "DEmeriss" },
+		{ "", "DLethon"},
+		{ "", "DTaerar" },
+		{ "", "DYsondre" },
 	},
 	["AbyssalCouncil"] = {
 		{ AL["Abyssal Council"].." - "..AL["Templars"], "Templars" },
