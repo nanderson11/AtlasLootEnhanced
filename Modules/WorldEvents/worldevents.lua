@@ -254,7 +254,7 @@
 		{ 8, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "", ""};
 		{ 10, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=", "", "100%"};
 		{ 11, 33226, "", "=q1=Tricky Treat", ""};
-		{ 16, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#", "", "1%"};
+		{ 16, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#", "", ""};
 		{ 17, 33182, "", "=q4=Swift Flying Broom", "=ds=#e12#", "", ""};
 		{ 18, 33184, "", "=q4=Swift Magic Broom", "=ds=#e12#", "", ""};
 		{ 19, 33176, "", "=q3=Flying Broom", "=ds=#e12#", "", ""};
