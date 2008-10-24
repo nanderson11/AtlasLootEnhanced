@@ -41,11 +41,11 @@ function AtlasLootFuBarOptions_Init()
     AtlasLootFuBarOptionsFrameHideText:SetChecked(not AtlasLoot.db.profile.FuBarText);
 end]]
 
-function AtlasLootMinimapOptions_Init()
+--[[function AtlasLootMinimapOptions_Init()
     AtlasLootMinimapOptionsFrameMinimap:SetChecked(AtlasLoot.db.profile.MinimapButton);
     AtlasLootMinimapOptionsFrameSliderButtonPos:SetValue(AtlasLoot.db.profile.MinimapButtonAngle);
     AtlasLootMinimapOptionsFrameSliderButtonRad:SetValue(AtlasLoot.db.profile.MinimapButtonRadius);
-end
+end]]
 
 function AtlasLootOptions_Init()
     --Initialise all the check boxes on the options frame
@@ -83,9 +83,9 @@ function AtlasLootOptions_OnLoad()
         AtlasLootMinimapOptionsFrameMinimap:SetText(AL["|cff9d9d9dShow Basic Minimap Button|r"]);
         AtlasLootMinimapOptionsFrameMinimap:Show();
         AtlasLootFuBarOptions_Init();
-    else]]
+    else
         AtlasLootMinimapOptions_Init();
-    --end
+    end]]
     AtlasLootOptions_Init();
     --[[if IsAddOnLoaded("FuBar") then
         AtlasLootFuBarOptions_Init();
@@ -167,8 +167,8 @@ function AtlasLootOptions_ItemIDToggle()
     AtlasLootOptions_Init();
 end
 
-function AtlasLootOptions_MinimapToggle()
-    --[[if IsAddOnLoaded("FuBar") then
+--[[function AtlasLootOptions_MinimapToggle()
+    if IsAddOnLoaded("FuBar") then
         if AtlasLoot.db.profile.MinimapButton == true then
             AtlasLoot.db.profile.MinimapButton = false;
             AtlasLootFu:Hide();
@@ -180,7 +180,7 @@ function AtlasLootOptions_MinimapToggle()
             AtlasLootFu:Show();
         end
         AtlasLootFuBarOptions_Init();
-    else]]
+    else
         if AtlasLoot.db.profile.MinimapButton == true then
             AtlasLoot.db.profile.MinimapButton = false;
             AtlasLootMinimapButtonFrame:SetPoint("CENTER", "UIParent", "CENTER");
@@ -192,7 +192,7 @@ function AtlasLootOptions_MinimapToggle()
         end
         AtlasLootOptions_Init();
     --end
-end
+end]]
 
 --[[function AtlasLootOptions_FuBarToggle()
     if AtlasLoot.db.profile.MinimapButton == true then
@@ -216,7 +216,7 @@ function AtlasLoot_SetupLootBrowserSlider(frame, mymin, mymax, step)
 	frame:SetValueStep(step);
 end
 
-function AtlasLoot_SetupMinimapPosSlider(frame, mymin, mymax, step)
+--[[function AtlasLoot_SetupMinimapPosSlider(frame, mymin, mymax, step)
     getglobal(frame:GetName().."Text"):SetText(AL["Button Position: "].." ("..frame:GetValue()..")");
 	frame:SetMinMaxValues(mymin, mymax);
 	getglobal(frame:GetName().."Low"):SetText(mymin);
@@ -230,7 +230,7 @@ function AtlasLoot_SetupMinimapRadSlider(frame, mymin, mymax, step)
 	getglobal(frame:GetName().."Low"):SetText(mymin);
 	getglobal(frame:GetName().."High"):SetText(mymax);
 	frame:SetValueStep(step);
-end
+end]]
 
 --Borrowed from Atlas, thanks Dan!
 local function round(num, idp)
@@ -242,19 +242,19 @@ function AtlasLoot_UpdateLootBrowserSlider(frame)
     getglobal(frame:GetName().."Text"):SetText(AL["Loot Browser Scale: "].." ("..round(frame:GetValue(),2)..")");
 end
 
-function AtlasLoot_UpdateMinimapPosSlider(frame)
+--[[function AtlasLoot_UpdateMinimapPosSlider(frame)
     getglobal(frame:GetName().."Text"):SetText(AL["Button Position: "].." ("..round(frame:GetValue(),2)..")");
 end
 
 function AtlasLoot_UpdateMinimapRadSlider(frame)
     getglobal(frame:GetName().."Text"):SetText(AL["Button Radius: "].." ("..round(frame:GetValue(),2)..")");
-end
+end]]
 
 function AtlasLoot_UpdateLootBrowserScale()
 	AtlasLootDefaultFrame:SetScale(AtlasLoot.db.profile.LootBrowserScale);
 end
 
-function AtlasLootFuBarOptionsFrame_PositionInitialise()
+--[[function AtlasLootFuBarOptionsFrame_PositionInitialise()
 
 	Contents = {
         { text = AL["Left"]; func = AtlasLootFuBarOptionsFrame_PositionOnClick;},
@@ -267,7 +267,7 @@ function AtlasLootFuBarOptionsFrame_PositionInitialise()
         i = i + 1;
 	end
 	
-end
+end]]
 
 
 --[[function AtlasLootFuBarOptionsFrame_PositionOnShow()

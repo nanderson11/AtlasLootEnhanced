@@ -38,7 +38,7 @@ function AtlasLoot_OnBarButtonClick(button)
     end
 end
 
-function AtlasLoot_MinimapButtonInit()
+--[[function AtlasLoot_MinimapButtonInit()
     if AtlasLootMinimapButtonFrame then
 	    if IsAddOnLoaded("FuBar") then
             AtlasLootMinimapButtonFrame:SetPoint("CENTER", "UIParent", "CENTER");
@@ -97,7 +97,7 @@ function AtlasLoot_MinimapButtonUpdatePosition()
     else
         AtlasLootMinimapButtonFrame:Hide();
     end
-end
+end]]
 
 --[[if IsAddOnLoaded("FuBar") then
     if AtlasLootMinimapButtonFrame then

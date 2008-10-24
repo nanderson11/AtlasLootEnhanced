@@ -308,14 +308,14 @@ function AtlasLoot_OnVariablesLoaded()
 	end
 	--Set up the menu in the loot browser
 	AtlasLoot_DewdropRegister();
-	--Enable or disable AtlasLootFu based on seleced options
+	--[[Enable or disable AtlasLootFu based on selected options
 	if AtlasLoot.db.profile.MinimapButton == false then
         AtlasLoot.db.profile.MinimapButton = true;
         AtlasLootOptions_MinimapToggle();
 	else
         AtlasLoot.db.profile.MinimapButton = false;
         AtlasLootOptions_MinimapToggle();
-    end
+    end]]
 	--If EquipCompare is available, use it
 	if((EquipCompare_RegisterTooltip) and (AtlasLoot.db.profile.EquipCompare == true)) then
 		EquipCompare_RegisterTooltip(AtlasLootTooltip);
@@ -354,12 +354,12 @@ function AtlasLoot_OnVariablesLoaded()
         else
             AtlasLootFu:Hide();
         end
-    else]]
+    else
         panel = getglobal("AtlasLootMinimapOptionsFrame");
         panel.name=AL["Minimap Button Options"];
         panel.parent=AL["AtlasLoot"];
         InterfaceOptions_AddCategory(panel);
-    --end
+    end]]
     
     AtlasLoot_UpdateLootBrowserScale();
 end

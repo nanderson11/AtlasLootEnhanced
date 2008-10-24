@@ -830,7 +830,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="5" y="-160"/>
+							<AbsDimension x="5" y="-140"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -848,7 +848,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="5" y="-190"/>
+							<AbsDimension x="5" y="-170"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -866,7 +866,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="5" y="-240"/>
+							<AbsDimension x="5" y="-210"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -884,7 +884,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="5" y="-270"/>
+							<AbsDimension x="5" y="-240"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -962,7 +962,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="5" y="-160"/>
+							<AbsDimension x="5" y="-140"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -980,7 +980,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="5" y="-190"/>
+							<AbsDimension x="5" y="-170"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -1001,7 +1001,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-320" />
+							<AbsDimension x="0" y="-300" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -1017,10 +1017,13 @@
 				</Scripts>
 			</Slider>
             <Button name="$parent_ResetAtlasLoot" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="130" y="25"/>
+		        </Size>
                 <Anchors>
                     <Anchor point="TOP">
                         <Offset>
-                            <AbsDimension x="-130" y="-370"/>
+                            <AbsDimension x="-130" y="-350"/>
                         </Offset>
                     </Anchor>
                 </Anchors>
@@ -1035,10 +1038,13 @@
 				</Scripts>
             </Button>
             <Button name="$parent_ResetWishlist" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="130" y="25"/>
+		        </Size>
                 <Anchors>
                     <Anchor point="TOP">
                         <Offset>
-                            <AbsDimension x="0" y="-370"/>
+                            <AbsDimension x="0" y="-350"/>
                         </Offset>
                     </Anchor>
                 </Anchors>
@@ -1053,10 +1059,13 @@
 				</Scripts>
             </Button>
             <Button name="$parent_ResetQuicklooks" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="130" y="25"/>
+		        </Size>
                 <Anchors>
                     <Anchor point="TOP">
                         <Offset>
-                            <AbsDimension x="130" y="-370"/>
+                            <AbsDimension x="130" y="-350"/>
                         </Offset>
                     </Anchor>
                 </Anchors>
@@ -1067,6 +1076,54 @@
                     <OnShow>
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
                         this:SetText(AL["Reset Quicklooks"]);
+			        </OnShow>
+				</Scripts>
+            </Button>
+            <Button name="$parent_FuBarShow" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="150" y="25"/>
+		        </Size>
+                <Anchors>
+                    <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP">
+                        <Offset>
+                            <AbsDimension x="-85" y="-385"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+					<OnClick>
+                        if AtlasLootFu then
+                            AtlasLootFu:Show();
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["Show FuBar Plugin"]);
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+			        </OnShow>
+				</Scripts>
+            </Button>
+            <Button name="$parent_FuBarHide" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="150" y="25"/>
+		        </Size>
+                <Anchors>
+                    <Anchor point="TOP" relativeTo="$parent" relativePoint="TOP">
+                        <Offset>
+                            <AbsDimension x="85" y="-385"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+					<OnClick>
+                        if AtlasLootFu then
+                            AtlasLootFu:Hide();
+                        end
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["Hide FuBar Plugin"]);
+				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
 			        </OnShow>
 				</Scripts>
             </Button>
@@ -1085,7 +1142,7 @@
         </Layers>
 	</Frame>
     
-    <Frame name="AtlasLootFuBarOptionsFrame" hidden="true">
+    <!--<Frame name="AtlasLootFuBarOptionsFrame" hidden="true">
 		<Size>
 			<AbsDimension x="425" y="405"/>
 		</Size>
@@ -1346,7 +1403,7 @@
 				</FontString>
             </Layer>
         </Layers>
-	</Frame>
+	</Frame>-->
     
     <Frame name="AtlasLootPanel" parent="UIParent" hidden="true">
         <Size>
@@ -1845,7 +1902,7 @@
         </Frames>
     </Frame>
     
-    <Frame name="AtlasLootMinimapButtonFrame" parent="UIParent" enableMouse="true" hidden="true" frameStrata="LOW">
+    <!--<Frame name="AtlasLootMinimapButtonFrame" parent="UIParent" enableMouse="true" hidden="true" frameStrata="LOW">
 		<Size>
 			<AbsDimension x="32" y="32"/>
 		</Size>
@@ -1908,7 +1965,7 @@
 				AtlasLoot_MinimapButtonInit();
 			</OnEvent>
 		</Scripts>
-	</Frame>
+	</Frame>-->
 
 </Ui>
 
