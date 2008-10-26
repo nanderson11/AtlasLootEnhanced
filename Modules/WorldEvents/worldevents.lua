@@ -924,7 +924,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40110, "", "=q1=Haunted Memento", "=ds=#m20#"};
 		{ 18, 0, "INV_Box_01", "=q6="..AL["Prince Tenris Murkblood"], "=q5="..BabbleZone["Karazhan"]};
 		{ 19, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
-		{ 20, 22484, "", "=q4=Arcanite Ripper", "=ds=#h3#, #w1#"};
+		{ 20, 39769, "", "=q4=Arcanite Ripper", "=ds=#h3#, #w1#"};
 		{ 21, 38658, "", "=q3=Vampiric Batling", "=ds=#e13#"};
 		Next = "ScourgeInvasionEvent2";
 		Back = "WORLDEVENTMENU";
