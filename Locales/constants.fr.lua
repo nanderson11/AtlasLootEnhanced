@@ -476,8 +476,13 @@ if AL then
     AL["The Twin Stars"] = "Les Etoiles jumelles";
     AL["The Twin Blades of Azzinoth"] = "Les Lames Doubles d'Azzinoth";
 
-	--Scourge Invasion
-	AL["Scourge Invasion"] = "Invasion du Fléau";
+    --Scourge Invasion
+    AL["Scourge Invasion"] = "Invasion du Fléau";
+    --AL["Blessed Regalia of Undead Cleansing"] = "Tenue de parade bénie de purificateur de mort-vivant"; -- à traduire
+    --AL["Undead Slayer's Blessed Armor"] = true; -- à traduire
+    --AL["Blessed Garb of the Undead Slayer"] = true; -- à traduire
+    --AL["Blessed Battlegear of Undead Slaying"] = true; -- à traduire
+    --AL["Prince Tenris Murkblood"] = true; -- à traduire
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Atours d'haruspice";
