@@ -1,3 +1,6 @@
+local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
+local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+
 -- Index
 --- Seasonal Events
 ---- Brewfest
@@ -909,56 +912,45 @@
 		------------------------
 
 	AtlasLoot_Data["ScourgeInvasionEvent1"] = {
-		{ 1, 23123, "", "=q2=Blessed Wizard Oil", "=ds=#m20#"};
-		{ 2, 23122, "", "=q2=Consecrated Sharpening Stone", "=ds=#m20#"};
-		{ 3, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#"};
-		{ 5, 22484, "", "=q2=Necrotic Rune", "=ds=#m17#"};
-		{ 7, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s11#", "=ec1=#a1#"};
-		{ 8, 23085, "", "=q3=Robe of Undead Cleansing", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 9, 23091, "", "=q3=Bracers of Undead Cleansing", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 10, 23084, "", "=q3=Gloves of Undead Cleansing", "=ds=#s9#, =q2=#m4#", "", ""};
-		{ 12, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s12#", "=ec1=#a2#"};
-		{ 13, 23089, "", "=q3=Tunic of Undead Slaying", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 14, 23093, "", "=q3=Wristwraps of Undead Slaying", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 15, 23081, "", "=q3=Handwraps of Undead Slaying", "=ds=#s9#, =q2=#m4#", "", ""};
-		{ 16, 23194, "", "=q1=Lesser Mark of the Dawn", "=ds=#m20#"};
-		{ 17, 23195, "", "=q1=Mark of the Dawn", "=ds=#m20#"};
-		{ 18, 23196, "", "=q1=Greater Mark of the Dawn", "=ds=#m20#"};
-		{ 22, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s13#", "=ec1=#a3#"};
-		{ 23, 23088, "", "=q3=Chestguard of Undead Slaying", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 24, 23092, "", "=q3=Wristguards of Undead Slaying", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 25, 23082, "", "=q3=Handguards of Undead Slaying", "=ds=#s9#, =q2=#m4#", "", ""};
-		{ 27, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s14#", "=ec1=#a4#"};
-		{ 28, 23087, "", "=q3=Breastplate of Undead Slaying", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 29, 23090, "", "=q3=Bracers of Undead Slaying", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 30, 23078, "", "=q3=Gauntlets of Undead Slaying", "=ds=#s9#, =q2=#m4#", "", ""};
+		{ 1, 40601, "", "=q3=Argent Dawn Banner", "=ds=#s14#"};
+		{ 2, 40593, "", "=q3=Argent Tome", "=ds=#s14#"};
+		{ 3, 40492, "", "=q3=Argent War Horn", "=ds=#s14#"};
+		{ 5, 23123, "", "=q2=Blessed Wizard Oil", "=ds=#m20#"};
+		{ 6, 23122, "", "=q2=Consecrated Sharpening Stone", "=ds=#m20#"};
+		{ 8, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#"};
+		{ 9, 43531, "", "=q1=Argent Healing Potion", "=ds=#e2#"};
+		{ 10, 43530, "", "=q1=Argent Mana Potion", "=ds=#e2#"};
+		{ 12, 22484, "", "=q2=Necrotic Rune", "=ds=#m17#"};
+		{ 16, 40110, "", "=q1=Haunted Memento", "=ds=#m20#"};
+		{ 18, 0, "INV_Box_01", "=q6="..AL["Prince Tenris Murkblood"], "=q5="..BabbleZone["Karazhan"]};
+		{ 19, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+		{ 20, 22484, "", "=q4=Arcanite Ripper", "=ds=#h3#, #w1#"};
+		{ 21, 38658, "", "=q3=Vampiric Batling", "=ds=#e13#"};
 		Next = "ScourgeInvasionEvent2";
 		Back = "WORLDEVENTMENU";
 	};
 
 	AtlasLoot_Data["ScourgeInvasionEvent2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#n123#", "=q1=#z6#"};
-		{ 2, 23126, "", "=q3=Waistband of Balzaphon", "=ds=#s10#, #a1#", "", "27.38%"};
-		{ 3, 23125, "", "=q3=Chains of the Lich", "=ds=#s2#", "", "19.89%"};
-		{ 4, 23124, "", "=q3=Staff of Balzaphon", "=ds=#w9#", "", "24.74%"};
-		{ 6, 0, "INV_Box_01", "=q6=#n124#", "=q1=#z5#"};
-		{ 7, 23156, "", "=q3=Blackwood's Thigh", "=ds=#s15#", "", "22.60%"};
-		{ 8, 23132, "", "=q3=Lord Blackwood's Blade", "=ds=#h1#, #w10#", "", "23.80%"};
-		{ 9, 23139, "", "=q3=Lord Blackwood's Buckler", "=ds=#w8#", "", "26.91%"};
-		{ 11, 0, "INV_Box_01", "=q6=#n125#", "=q1=#z13#"};
-		{ 12, 23127, "", "=q3=Cloak of Revanchion", "=ds=#s4#", "", "23.56%"};
-		{ 13, 23129, "", "=q3=Bracers of Mending", "=ds=#s8#, #a1#", "", "22.67%"};
-		{ 14, 23128, "", "=q3=The Shadow's Grasp", "=ds=#s9#, #a1#", "", "30.67%"};
-		{ 16, 0, "INV_Box_01", "=q6=#n126#", "=q1=#z3# - #z28#"};
-		{ 17, 23170, "", "=q3=The Frozen Clutch", "=ds=#s9#, #a3#", "", "28.94%"};
-		{ 18, 23169, "", "=q3=Scorn's Icy Choker", "=ds=#s2#", "", "30.39%"};
-		{ 19, 23168, "", "=q3=Scorn's Focal Dagger", "=ds=#h3#, #w4#", "", "32.56%"};
-		{ 21, 0, "INV_Box_01", "=q6=#n127#", "=q1=#z26#"};
-		{ 22, 23173, "", "=q3=Abomination Skin Leggings", "=ds=#s11#, #a1#", "", "43.81%"};
-		{ 23, 23171, "", "=q3=The Axe of Severing", "=ds=#h2#, #w1#", "", "49.31%"};
-		{ 26, 0, "INV_Box_01", "=q6=#n128#", "=q1=#z27#"};
-		{ 27, 23178, "", "=q3=Mantle of Lady Falther'ess", "=ds=#s4#", "", "39.13%"};
-		{ 28, 23177, "", "=q3=Lady Falther'ess' Finger", "=ds=#w12#", "", "46.86%"};
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Blessed Regalia of Undead Cleansing"], "=q1=#a1#"};
+		{ 2, 43074, "", "=q4=Blessed Mantle of Undead Cleansing", "=ds=#s3#, #a1#"};
+		{ 3, 43072, "", "=q4=Blessed Robe of Undead Cleansing", "=ds=#s5#, #a1#"};
+		{ 4, 43073, "", "=q4=Blessed Gloves of Undead Cleansing", "=ds=#s9#, #a1#"};
+		{ 5, 43075, "", "=q4=Blessed Trousers of Undead Cleansing", "=ds=#s11#, #a1#"};
+		{ 7, 0, "INV_Box_01", "=q6="..AL["Undead Slayer's Blessed Armor"], "=q1=#a2#"};
+		{ 8, 43077, "", "=q3=Blessed Shoulderpads of Undead Slaying", "=ds=#s3#, #a1#"};
+		{ 9, 43076, "", "=q4=Blessed Tunic of Undead Slaying", "=ds=#s5#, #a1#"};
+		{ 10, 43078, "", "=q4=Blessed Grips of Undead Slaying", "=ds=#s9#, #a1#"};
+		{ 11, 43079, "", "=q4=Blessed Leggings of Undead Slaying", "=ds=#s11#, #a1#"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Blessed Garb of the Undead Slayer"], "=q1=#a3#"};
+		{ 17, 43081, "", "=q4=Blessed Pauldrons of Undead Slaying", "=ds=#s3#, #a1#"};
+		{ 18, 43080, "", "=q4=Blessed Hauberk of Undead Slaying", "=ds=#s5#, #a1#"};
+		{ 19, 43082, "", "=q4=Blessed Handguards of Undead Slaying", "=ds=#s9#, #a1#"};
+		{ 20, 43083, "", "=q4=Blessed Greaves of Undead Slaying", "=ds=#s11#, #a1#"};
+		{ 22, 0, "INV_Box_01", "=q6="..AL["Blessed Battlegear of Undead Slaying"], "=q1=#a4#"};
+		{ 23, 43068, "", "=q3=Blessed Spaulders of Undead Slaying", "=ds=#s3#, #a1#"};
+		{ 24, 43069, "", "=q4=Blessed Breastplate of Undead Slaying", "=ds=#s5#, #a1#"};
+		{ 25, 43070, "", "=q4=Blessed Gauntlets of Undead Slaying", "=ds=#s9#, #a1#"};
+		{ 26, 43071, "", "=q4=Blessed Legplates of Undead Slaying", "=ds=#s11#, #a1#"};
 		Prev = "ScourgeInvasionEvent1";
 		Back = "WORLDEVENTMENU";
 	};

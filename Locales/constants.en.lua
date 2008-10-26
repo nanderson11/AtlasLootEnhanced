@@ -459,11 +459,6 @@ if AL then
     AL["Bloodmail Regalia"] = true;
     AL["Deathbone Guardian"] = true;
     AL["The Postmaster"] = true;
-    AL["Scourge Invasion"] = true;
-    AL["Regalia of Undead Cleansing"] = true;
-    AL["Undead Slayer's Armor"] = true;
-    AL["Garb of the Undead Slayer"] = true;
-    AL["Battlegear of Undead Slaying"] = true;
     AL["Shard of the Gods"] = true;
     AL["Zul'Gurub Rings"] = true;
     AL["Major Mojo Infusion"] = true;
@@ -480,6 +475,14 @@ if AL then
     AL["Latro's Flurry"] = true;
     AL["The Twin Stars"] = true;
     AL["The Twin Blades of Azzinoth"] = true;
+    
+	--Scourge Invasion
+    AL["Scourge Invasion"] = true;
+    AL["Blessed Regalia of Undead Cleansing"] = true;
+    AL["Undead Slayer's Blessed Armor"] = true;
+    AL["Blessed Garb of the Undead Slayer"] = true;
+    AL["Blessed Battlegear of Undead Slaying"] = true;
+    AL["Prince Tenris Murkblood"] = true;
 
     --ZG Sets
     AL["Haruspex's Garb"] = true;

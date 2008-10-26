@@ -252,11 +252,6 @@ AL:RegisterTranslations("koKR", function() return {
     ["Bloodmail Regalia"] = "피고리 제복",
     ["Deathbone Guardian"] = "죽음의 뼈갑옷",
     ["The Postmaster"] = "우체국장",
-    ["Scourge Invasion"] = "스컬지 침공",
-    ["Regalia of Undead Cleansing"] = "언데드 정화의 의복",
-    ["Undead Slayer's Armor"] = "언데드 사냥꾼의 갑옷",
-    ["Garb of the Undead Slayer"] = "언데드 사냥꾼의 의복",
-    ["Battlegear of Undead Slaying"] = "언데드 퇴치의 전투장비",
     ["Shard of the Gods"] = "신의 파편",
     ["Zul'Gurub Rings"] = "줄구룹 반지",
     ["Major Mojo Infusion"] = "강력한 모조",
@@ -272,6 +267,9 @@ AL:RegisterTranslations("koKR", function() return {
     --BC Sets
     ["The Twin Stars"] = "쌍둥이 별",
     ["The Twin Blades of Azzinoth"] = "아지노스의 쌍날검",
+
+    --Scourge Invasion
+    ["Scourge Invasion"] = "스컬지 침공",
 
     --ZG Sets
     ["Haruspex's Garb"] = "제사장의 의복",

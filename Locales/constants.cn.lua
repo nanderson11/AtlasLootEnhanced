@@ -408,11 +408,6 @@ if AL then
 	AL["Bloodmail Regalia"] = "血链";
 	AL["Deathbone Guardian"] = "亡者之骨";
 	AL["The Postmaster"] = "邮差";
-	AL["Scourge Invasion"] = "天灾入侵";
-	AL["Regalia of Undead Cleansing"] = "亡灵净化者";
-	AL["Undead Slayer's Armor"] = "亡灵屠戮者的护甲";
-	AL["Garb of the Undead Slayer"] = "亡灵屠戮者的装备";
-	AL["Battlegear of Undead Slaying"] = "亡灵毁灭者";
 	AL["Shard of the Gods"] = "天神碎片";
 	AL["Zul'Gurub Rings"] = "祖尔格拉布戒指";
 	AL["Major Mojo Infusion"] = "极效魔精套装";
@@ -429,6 +424,9 @@ if AL then
 	AL["Latro's Flurry"] = "拉托恩的狂怒";
 	AL["The Twin Stars"] = "双子星";
 	AL["The Twin Blades of Azzinoth"] = "艾辛洛斯双刃";
+
+	--Scourge Invasion
+	AL["Scourge Invasion"] = "天灾入侵";
 
 	--ZG Sets
 	AL["Haruspex's Garb"] = "占卜师套装";

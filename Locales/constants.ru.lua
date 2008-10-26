@@ -448,11 +448,6 @@ if AL then
     AL["Bloodmail Regalia"] = "Регалии Кровавой кольчуги";
     AL["Deathbone Guardian"] = "Костяной Страж";
     AL["The Postmaster"] = "Вестник";
-    AL["Scourge Invasion"] = "Scourge Invasion";
-    AL["Regalia of Undead Cleansing"] = "Регалии Зачистки Нежити";
-    AL["Undead Slayer's Armor"] = "Доспехи истребителя нежити";
-    AL["Garb of the Undead Slayer"] = "Облачение Истребителя нежити";
-    AL["Battlegear of Undead Slaying"] = "Броня Погибели нежити";
     AL["Shard of the Gods"] = "Осколок Богов";
     AL["Zul'Gurub Rings"] = "Кольца Зул'Гуруба";
     AL["Major Mojo Infusion"] = "Великое вуду";
@@ -469,6 +464,9 @@ if AL then
     AL["Latro's Flurry"] = "Беспокойство Латро";
     AL["The Twin Stars"] = "Двойные Звезды";
     AL["The Twin Blades of Azzinoth"] = "Парные клинки Аззинота";
+
+	--Scourge Invasion
+	AL["Scourge Invasion"] = "Scourge Invasion";
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Наряд гаруспика";

@@ -576,10 +576,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#pre60s8#", AL["Bloodmail Regalia"]);
     text = gsub(text, "#pre60s9#", AL["Deathbone Guardian"]);
     text = gsub(text, "#pre60s10#", AL["The Postmaster"]);
-    text = gsub(text, "#pre60s11#", AL["Regalia of Undead Cleansing"]);
-    text = gsub(text, "#pre60s12#", AL["Undead Slayer's Armor"]);
-    text = gsub(text, "#pre60s13#", AL["Garb of the Undead Slayer"]);
-    text = gsub(text, "#pre60s14#", AL["Battlegear of Undead Slaying"]);
+
     text = gsub(text, "#pre60s15#", AL["Shard of the Gods"]);
     text = gsub(text, "#pre60s16#", AL["Major Mojo Infusion"]);
     text = gsub(text, "#pre60s17#", AL["Overlord's Resolution"]);

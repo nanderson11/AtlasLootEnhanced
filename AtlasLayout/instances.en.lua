@@ -1363,7 +1363,7 @@ AtlasLootBossButtons = {
         "";
         "ZGTrash1";
         "ZGShared";
-        "ZGSet1";
+        "ZGSets1";
         "ZGEnchants";
         };
 };

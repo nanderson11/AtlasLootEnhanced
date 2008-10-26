@@ -413,11 +413,6 @@ if AL then
     AL["Bloodmail Regalia"] = "Ornat des Blutpanzers";
     AL["Deathbone Guardian"] = "Wächter der Totengebeine";
     AL["The Postmaster"] = "Der Postmeister";
-    AL["Scourge Invasion"] = "Invasion der Geißel";
-    AL["Regalia of Undead Cleansing"] = "Ornat der Untotenbekämpfung";
-    AL["Undead Slayer's Armor"] = "Rüstung des Untotenschlächters";
-    AL["Garb of the Undead Slayer"] = "Gewand des Untotenschlächters";
-    AL["Battlegear of Undead Slaying"] = "Kampfrüstung des Untotenschlachtens";
     AL["Shard of the Gods"] = "Scherbe der Götter";
     AL["Zul'Gurub Rings"] = "Zul'Gurub Ringe";
     AL["Major Mojo Infusion"] = "Kraft des Mojo";
@@ -434,6 +429,14 @@ if AL then
 	AL["Latro's Flurry"] = "Latros Schlaghagel";
     AL["The Twin Stars"] = "Die Zwillingssterne";
     AL["The Twin Blades of Azzinoth"] = "Die Zwillingsklingen von Azzinoth";
+
+    --Scourge Invasion
+    AL["Scourge Invasion"] = "Invasion der Geißel";
+    AL["Blessed Regalia of Undead Cleansing"] = "Gesegneter Orant der Untotenbekämpfung";
+    AL["Undead Slayer's Blessed Armor"] = "Gesegnete Rüstung des Untotenschlachtens";
+    AL["Blessed Garb of the Undead Slayer"] = "Gesegnetes Gewand des Untotenschlächters";
+    AL["Blessed Battlegear of Undead Slaying"] = "Gesegnete Kampfrüstung des Untotenschlachtens";
+    AL["Prince Tenris Murkblood"] = "Prinz Tenris Mirkblut";
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Gewand des Haruspex";

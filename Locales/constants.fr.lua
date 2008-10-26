@@ -459,11 +459,6 @@ if AL then
     AL["Bloodmail Regalia"] = "Tenue de parade en mailles sanglantes";
     AL["Deathbone Guardian"] = "Gardien des ossements";
     AL["The Postmaster"] = "Le Maître de poste";
-    AL["Scourge Invasion"] = "Invasion du Fléau";
-    AL["Regalia of Undead Cleansing"] = "Tenue de parade de tueur de mort-vivant";
-    AL["Undead Slayer's Armor"] = "Armure de tueur de mort-vivant";
-    AL["Garb of the Undead Slayer"] = "Atours de tueur de mort-vivant";
-    AL["Battlegear of Undead Slaying"] = "Tenue de combat de tueur de mort-vivant";
     AL["Shard of the Gods"] = "Eclat des dieux";
     AL["Zul'Gurub Rings"] = "Anneaux Zul'Gurub";
     AL["Major Mojo Infusion"] = "Infusion de mojo majeure";
@@ -480,6 +475,9 @@ if AL then
     AL["Latro's Flurry"] = "Rafale de Latro";
     AL["The Twin Stars"] = "Les Etoiles jumelles";
     AL["The Twin Blades of Azzinoth"] = "Les Lames Doubles d'Azzinoth";
+
+	--Scourge Invasion
+	AL["Scourge Invasion"] = "Invasion du Fléau";
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Atours d'haruspice";
