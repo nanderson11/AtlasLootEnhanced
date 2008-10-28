@@ -39,7 +39,7 @@ if AL then
     AL["Level 70"] = "Niveau 70";
     AL["|cffff0000(unsafe)"] = "|cffff0000(invalide)";
     AL["Misc"] = "Divers";
-    --AL["Miscellaneous"] = true; -- à traduire
+    AL["Miscellaneous"] = "Divers";
     AL["Rewards"] = "Récompenses";
     AL["Heroic Mode"] = "Mode Héroïque";
     AL["Normal Mode"] = "Mode Normal";
@@ -80,7 +80,7 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = "Montures de Wrath of the Lich King";
     AL["Select a Loot Table..."] = "Sélectionner une table de loot...";
     AL["OR"] = "OU";
-    --AL["Lake Wintergrasp"] = true; -- à traduire
+    AL["Lake Wintergrasp"] = "Lac Joug-d'hiver";
     --AL["Wrath of the Lich King"] = true;
     L["FuBar Options"] = "Options de FuBar";
     AL["Attach to Minimap"] = "Joindre à la minicarte";
@@ -142,7 +142,7 @@ if AL then
     --Slash commands
     AL["reset"] = "Réinitialiser";
     --AL["options"] = true,
-    AL["Reset complete!"] = "Réinitialisation complète !";
+    AL["Reset complete!"] = "Réinitialisation effectuée !";
 
     --Error Messages and warnings
     AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
