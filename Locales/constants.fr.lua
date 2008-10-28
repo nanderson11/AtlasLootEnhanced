@@ -39,6 +39,7 @@ if AL then
     AL["Level 70"] = "Niveau 70";
     AL["|cffff0000(unsafe)"] = "|cffff0000(invalide)";
     AL["Misc"] = "Divers";
+    --AL["Miscellaneous"] = true; -- à traduire
     AL["Rewards"] = "Récompenses";
     AL["Heroic Mode"] = "Mode Héroïque";
     AL["Normal Mode"] = "Mode Normal";
@@ -81,7 +82,7 @@ if AL then
     AL["OR"] = "OU";
     --AL["Lake Wintergrasp"] = true; -- à traduire
     --AL["Wrath of the Lich King"] = true;
-    --AL["FuBar Options"] = true;
+    L["FuBar Options"] = "Options de FuBar";
     AL["Attach to Minimap"] = "Joindre à la minicarte";
     AL["Hide FuBar Plugin"] = "Cacher le plugin FuBar";
     AL["Show FuBar Plugin"] = "Afficher le plugin FuBar";
@@ -225,6 +226,13 @@ if AL then
     --Extra inventory stuff
     AL["Cloak"] = "Cape";
     AL["Weapons"] = "Armes";
+    
+    --Alchemy
+    AL["Battle Elixirs"] = "Elixirs de bataille";
+    AL["Guardian Elixirs"] = "Elixirs du Gardien";
+    --AL["Potions"] = true;
+    AL["Transmutes"] = "Transmutations";
+    AL["Flasks"] = "Flacons";
 
     --Labels for loot descriptions
     AL["Classes:"] = "Classes :";
@@ -873,8 +881,8 @@ if AL then
     AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
 
     --Pets
-    AL["Pets"] = "Animaux de compagnie";
-    --AL["Non-Combat Pets"] = true; -- à traduire
+    AL["Pets"] = "Familiers de combat";
+    AL["Non-Combat Pets"] = "Familiers";
     AL["Aquatic"] = "Aquatiques";
     AL["Birds"] = "Oiseaux";
     AL["Invertebrates"] = "Invertébrés";
