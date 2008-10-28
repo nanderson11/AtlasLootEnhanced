@@ -468,6 +468,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 5, 37099, "", "=q3=Sempiternal Staff", "=ds=#w9#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37687, "", "=q3=Gloves of Distorted Time", "=ds=#s9#, #a1#"};
+		{ 18, 37686, "", "=q3=Cracked Epoch Grasps", "=ds=#s9#, #a3#"};
+		{ 19, 37688, "", "=q3=Legplates of the Infinite Drakonid", "=ds=#s11#, #a4#"};
 		Prev = "CoTStratholmeMeathook";
 		Next = "CoTStratholmeSalramm";
 	};
@@ -477,6 +479,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 37095, "", "=q3=Waistband of the Thuzadin", "=ds=#s10#, #a3#"};
 		{ 3, 37088, "", "=q3=Spiked Metal Cilice", "=ds=#s10#, #a4#"};
 		{ 4, 37086, "", "=q3=Tome of Salramm", "=ds=#s15#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a1#"};
 		Prev = "CoTStratholmeEpoch";
 		Next = "CoTStratholmeMalGanis";
 	};
@@ -511,12 +515,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 7, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#"};
 		{ 8, 37680, "", "=q3=Belt of Unified Souls", "=ds=#s10#, #a1#"};
 		{ 9, 37681, "", "=q3=Gavel of the Fleshcrafter", "=ds=#h3#, #w6#"};
-		{ 10, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a1#"};
 		{ 11, 37683, "", "=q3=Necromancer's Amulet", "=ds=#s2#"};
 		{ 12, 37684, "", "=q3=Forgotten Shadow Hood", "=ds=#s1#, #a1#"};
 		{ 13, 37685, "", "=q3=Mobius Band", "=ds=#s13#"};
-		{ 14, 37686, "", "=q3=Cracked Epoch Grasps", "=ds=#s9#, #a3#"};
-		{ 15, 37688, "", "=q3=Legplates of the Infinite Drakonid", "=ds=#s11#, #a4#"};
 		{ 16, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#"};
 	};
 
@@ -531,8 +532,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 37056, "", "=q3=Harpooner's Striders", "=ds=#s12#, #a4#"};
 		{ 5, 37053, "", "=q3=Amulet of Deflected Blows", "=ds=#s2#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
-		{ 17, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w8#"};
+		{ 17, 37379, "", "=q3=Skadi's Iron Belt", "=ds=#s10#, #a4#"};
+		{ 18, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
+		{ 19, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w8#"};
 		Next = "UPYmiron";
 	};
 
@@ -549,8 +551,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37408, "", "=q4=Girdle of Bane", "=ds=#s10#, #a1#"};
 		{ 18, 37409, "", "=q4=Gilt-Edged Leather Gauntlets", "=ds=#s9#, #a2#"};
-		{ 19, 37407, "", "=q4=Sovereign's Belt", "=ds=#s10#, #a3#"};
-		{ 20, 37390, "", "=q3=Meteorite Whetstone", "=ds=#s14#"};
+		{ 19, 37401, "", "=q4=Red Sword of Courage", "=ds=#h1#, #w10#"};
+		{ 20, 37407, "", "=q4=Sovereign's Belt", "=ds=#s10#, #a3#"};
+		{ 21, 37395, "", "=q3=Ornamented Plate Regalia", "=ds=#s5#, #a4#"};
+		{ 22, 37390, "", "=q3=Meteorite Whetstone", "=ds=#s14#"};
 		Prev = "UPSkadi";
 		Next = "UPSorrowgrave";
 	};
@@ -586,9 +590,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 37070, "", "=q3=Tundra Wolf Boots", "=ds=#s12#, #a2#"};
 		{ 2, 37069, "", "=q3=Dragonflayer Seer's Bindings", "=ds=#s8#, #a3#"};
 		{ 3, 37068, "", "=q3=Berserker's Sabatons", "=ds=#s12#, #a4#"};
-		{ 5, 37401, "", "=q3=Red Sword of Courage", "=ds=#h3#, #w10#"};	
-		{ 6, 37395, "", "=q3=Ornamented Plate Regalia", "=ds=#s5#, #a4#"};
-		{ 7, 37379, "", "=q3=Skadi's Iron Belt", "=ds=#s10#, #a4#"};
 		{ 8, 37397, "", "=q3=Gold Amulet of Kings", "=ds=#s2#"};
 		{ 9, 37410, "", "=q3=Tracker's Balanced Knives", "=ds=#w11#"};
 	};
@@ -602,6 +603,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 36946, "", "=q3=Runic Cage Chestpiece", "=ds=#s5#, #a3#"};
 		{ 3, 36943, "", "=q3=Timeless Beads of Eternos", "=ds=#s2#"};
 		{ 4, 36944, "", "=q3=Lifeblade of Belgaristrasz", "=ds=#h1#, #w4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37255, "", "=q3=The Interrogator", "=ds=#h1#, #w10#"};
 		Next = "OcuUrom";
 	};
 
@@ -610,6 +613,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a2#"};
 		{ 3, 36953, "", "=q3=Spaulders of Skillful Maneuvers", "=ds=#s3#, #a3#"};
 		{ 4, 36952, "", "=q3=Girdle of Obscuring", "=ds=#s10#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37288, "", "=q3=Catalytic Bands", "=ds=#s8#, #a4#"};
 		Prev = "OcuDrakos";
 		Next = "OcuCloudstrider";
 	};
@@ -619,6 +624,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 36949, "", "=q3=Gloves of the Azure-Lord", "=ds=#s9#, #a1#"};
 		{ 3, 36948, "", "=q3=Horned Helm of Varos", "=ds=#s1#, #a2#"};
 		{ 4, 36950, "", "=q3=Wing Commander's Breastplate", "=ds=#s5#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37263, "", "=q3=Legplates of the Oculus Guardian", "=ds=#s11#, #a4#"};
 		Prev = "OcuUrom";
 		Next = "OcuEregos";
 	};
@@ -626,12 +633,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["OcuEregos"] = {
 		{ 1, 36973, "", "=q3=Vestments of the Scholar", "=ds=#s5#, #a1#"};
 		{ 2, 36971, "", "=q3=Headguard of Westrift", "=ds=#s1#, #a3#"};
-		{ 3, 36969, "", "=q3=Plate Helm of the Egg-Guardian", "=ds=#s1#, #a4#"};
+		{ 3, 36969, "", "=q3=Helm of the Ley-Guardian", "=ds=#s1#, #a4#"};
 		{ 4, 36974, "", "=q3=Eredormu's Ornamented Chestguard", "=ds=#s5#, #a4#"};
 		{ 5, 36961, "", "=q3=Dragonflight Great-Ring", "=ds=#s13#"};
 		{ 6, 36972, "", "=q3=Tome of Arcane Phenomena", "=ds=#s14#"};
 		{ 7, 36962, "", "=q3=Wyrmclaw Battleaxe", "=ds=#h2#, #w1#"};
 		{ 8, 36975, "", "=q3=Malygos's Favor", "=ds=#w9#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#"};
+		{ 18, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#"};
 		Prev = "OcuCloudstrider";
 	};
 --Trash drops
@@ -1676,7 +1686,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 		-----------------------------------
-		--- Placeholder - Epic Non-Sets ---
+		--- Level 80 Epic Non-Sets ---
 		-----------------------------------
 		
 	AtlasLoot_Data["PvP80NonSet1"] = {
@@ -2637,120 +2647,73 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-----------------------
 		--- Emblem of Valor ---
 		-----------------------
-        
-	
-    
-	AtlasLoot_Data["EmblemofValorCloth"] = {
-		{ 1, 40741, "", "=q4=Cuffs of the Shadow Ascendant", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
-		{ 2, 40740, "", "=q4=Wraps of the Astral Traveler", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
-		{ 3, 40751, "", "=q4=Slippers of the Holy Light", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-		{ 4, 40750, "", "=q4=Xintor's Expeditionary Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-        Next = "EmblemofValorLeather";
-        Back = "EMBLEMOFVALORMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofValorLeather"] = {
-		{ 1, 40739, "", "=q4=Bands of the Great Tree", "=ds=#s8#, #a2#", "60 #eofvalor#", ""};
-		{ 2, 40738, "", "=q4=Wristwraps of the Cutthroat", "=ds=#s8#, #a2#", "60 #eofvalor#", ""};
-		{ 3, 40748, "", "=q4=Boots of Captain Ellis", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-		{ 4, 40749, "", "=q4=Rainey's Chewed Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-        Next = "EmblemofValorMail";
-        Prev = "EmblemofValorCloth";
-        Back = "EMBLEMOFVALORMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofValorMail"] = {
-		{ 1, 40736, "", "=q4=Armguard of the Tower Archer", "=ds=#s8#, #a3#", "60 #eofvalor#", ""};
-		{ 2, 40737, "", "=q4=Pigmented Clan Bindings", "=ds=#s8#, #a3#", "60 #eofvalor#", ""};
-		{ 3, 40746, "", "=q4=Pack-Ice Striders", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-		{ 4, 40747, "", "=q4=Treads of Coastal Wandering", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-        Next = "EmblemofValorPlate";
-        Prev = "EmblemofValorLeather";
-        Back = "EMBLEMOFVALORMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofValorPlate"] = {
-		{ 1, 40734, "", "=q4=Bracers of Dalaran's Parapets", "=ds=#s8#, #a4#", "60 #eofvalor#", ""};
-		{ 2, 40733, "", "=q4=Wristbands of the Sentinel Huntress", "=ds=#s8#, #a4#", "60 #eofvalor#", ""};
-		{ 3, 40735, "", "=q4=Zartson's Jungle Vambraces", "=ds=#s8#, #a4#", "60 #eofvalor#", ""};
-		{ 4, 40742, "", "=q4=Bladed Steelboots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-		{ 5, 40743, "", "=q4=Kyzoc's Ground Stompers", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-		{ 6, 40745, "", "=q4=Sabatons of Rapid Recovery", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
-        Next = "EmblemofValorCloak";
-        Prev = "EmblemofValorMail";
-        Back = "EMBLEMOFVALORMENU";
-	};
-    
-    AtlasLoot_Data["EmblemofValorCloak"] = {
+		
+	AtlasLoot_Data["EmblemofValor"] = {
 		{ 1, 40724, "", "=q4=Cloak of Kea Feathers", "=ds=#s4#", "25 #eofvalor#", ""};
 		{ 2, 40723, "", "=q4=Disguise of the Kumiho", "=ds=#s4#", "25 #eofvalor#", ""};
 		{ 3, 40722, "", "=q4=Platinum Mesh Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
 		{ 4, 40721, "", "=q4=Hammerhead Sharkskin Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
-        Next = "EmblemofValorAccessories";
-        Prev = "EmblemofValorPlate";
-        Back = "EMBLEMOFVALORMENU";
+		{ 6, 40741, "", "=q4=Cuffs of the Shadow Ascendant", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
+		{ 7, 40740, "", "=q4=Wraps of the Astral Traveler", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
+		{ 8, 40751, "", "=q4=Slippers of the Holy Light", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 9, 40750, "", "=q4=Xintor's Expeditionary Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 11, 40739, "", "=q4=Bands of the Great Tree", "=ds=#s8#, #a2#", "60 #eofvalor#", ""};
+		{ 12, 40738, "", "=q4=Wristwraps of the Cutthroat", "=ds=#s8#, #a2#", "60 #eofvalor#", ""};
+		{ 13, 40748, "", "=q4=Boots of Captain Ellis", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 14, 40749, "", "=q4=Rainey's Chewed Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 16, 40736, "", "=q4=Armguard of the Tower Archer", "=ds=#s8#, #a3#", "60 #eofvalor#", ""};
+		{ 17, 40737, "", "=q4=Pigmented Clan Bindings", "=ds=#s8#, #a3#", "60 #eofvalor#", ""};
+		{ 18, 40746, "", "=q4=Pack-Ice Striders", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 19, 40747, "", "=q4=Treads of Coastal Wandering", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 21, 40734, "", "=q4=Bracers of Dalaran's Parapets", "=ds=#s8#, #a4#", "60 #eofvalor#", ""};
+		{ 22, 40733, "", "=q4=Wristbands of the Sentinel Huntress", "=ds=#s8#, #a4#", "60 #eofvalor#", ""};
+		{ 23, 40735, "", "=q4=Zartson's Jungle Vambraces", "=ds=#s8#, #a4#", "60 #eofvalor#", ""};
+		{ 24, 40742, "", "=q4=Bladed Steelboots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 25, 40743, "", "=q4=Kyzoc's Ground Stompers", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		{ 26, 40745, "", "=q4=Sabatons of Rapid Recovery", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+		Next = "EmblemofValor2";
+		Back = "SETMENU";
 	};
-    
-	AtlasLoot_Data["EmblemofValorAccessories"] = {
+	
+	AtlasLoot_Data["EmblemofValor2"] = {
 		{ 1, 40719, "", "=q4=Band of Channeled Magic", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 3, 40717, "", "=q4=Ring of Invincibility", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 4, 40718, "", "=q4=Signet of the Impregnable Fortress", "=ds=#s13#", "25 #eofvalor#", ""};
-        Next = "EmblemofValorTokens";
-        Prev = "EmblemofValorCloak";
-        Back = "EMBLEMOFVALORMENU";
+		{ 6, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#", ""};
+		{ 7, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#", ""};
+		Prev = "EmblemofValor";
+		Back = "SETMENU";
 	};
-    
-	AtlasLoot_Data["EmblemofValorTokens"] = {
-		{ 1, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#", ""};
-		{ 2, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#", ""};
-        Prev = "EmblemofValorAccessories";
-        Back = "EMBLEMOFVALORMENU";
-	};
-    
+
 		-------------------------
 		--- Emblem of Heroism ---
 		-------------------------
 
-	AtlasLoot_Data["EmblemofHeroismCloth"] = {
+	AtlasLoot_Data["EmblemofHeroism"] = {
 		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "60 #eofheroism#", "" };
 		{ 2, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "40 #eofheroism#", "" };
 		{ 3, 40696, "", "=q4=Plush Sash of Guzbah", "=ds=#s10#, #a1#", "40 #eofheroism#", "" };
-        Next = "EmblemofHeroismLeather";
-        Back = "EMBLEMOFHEROISMMENU";
+		{ 5, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "60 #eofheroism#", "" };
+		{ 6, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "60 #eofheroism#", "" };
+		{ 7, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
+		{ 8, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
+		{ 10, 42950, "", "=q4=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "60 #eofheroism#", "" };
+		{ 11, 42951, "", "=q4=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "60 #eofheroism#", "" };
+		{ 12, 40693, "", "=q4=Beadwork Belt of Shamanic Vision", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
+		{ 13, 40692, "", "=q4=Vereesa's Silver Chain Belt", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
+		{ 16, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "60 #eofheroism#", "" };
+		{ 17, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
+		{ 18, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
+		{ 19, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
+		{ 21, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "80 #eofheroism#", "" };
+		{ 22, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "60 #eofheroism#", "" };
+		{ 23, 43102, "", "=q3=Frozen Orb", "=ds=#e15#", "10 #eofheroism#", "" };
+		Next = "EmblemofHeroism2";
+		Back = "SETMENU";
 	};
-    
-	AtlasLoot_Data["EmblemofHeroismLeather"] = {
-		{ 1, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "60 #eofheroism#", "" };
-		{ 2, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "60 #eofheroism#", "" };
-		{ 3, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
-		{ 4, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
-        Next = "EmblemofHeroismMail";
-        Prev = "EmblemofHeroismCloth";
-        Back = "EMBLEMOFHEROISMMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofHeroismMail"] = {
-		{ 1, 42950, "", "=q4=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "60 #eofheroism#", "" };
-		{ 2, 42951, "", "=q4=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "60 #eofheroism#", "" };
-		{ 3, 40693, "", "=q4=Beadwork Belt of Shamanic Vision", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
-		{ 4, 40692, "", "=q4=Vereesa's Silver Chain Belt", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
-        Next = "EmblemofHeroismPlate";
-        Prev = "EmblemofHeroismLeather";
-        Back = "EMBLEMOFHEROISMMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofHeroismPlate"] = {
-		{ 1, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "60 #eofheroism#", "" };
-		{ 2, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
-		{ 3, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
-		{ 4, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
-        Next = "EmblemofHeroismWeapons";
-        Prev = "EmblemofHeroismMail";
-        Back = "EMBLEMOFHEROISMMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofHeroismWeapons"] = {
+
+	AtlasLoot_Data["EmblemofHeroism2"] = {
 		{ 1, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "75 #eofheroism#", "" };
 		{ 2, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "60 #eofheroism#", "" };
 		{ 3, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "60 #eofheroism#", "" };
@@ -2763,33 +2726,18 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 40716, "", "=q4=Lillehoff's Winged Blades", "=ds=#w11#", "15 #eofheroism#", "" };
 		{ 11, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "35 #eofheroism#", "" };
 		{ 12, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "35 #eofheroism#", "" };
-        Next = "EmblemofHeroismAccessories";
-        Prev = "EmblemofHeroismPlate";
-        Back = "EMBLEMOFHEROISMMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofHeroismAccessories"] = {
-		{ 1, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "75 #eofheroism#", "" };
-		{ 2, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "75 #eofheroism#", "" };
-		{ 3, 40679, "", "=q4=Chained Military Gorget", "=ds=#s2#", "25 #eofheroism#", "" };
-		{ 4, 40680, "", "=q4=Encircling Burnished Gold Chains", "=ds=#s2#", "25 #eofheroism#", "" };
-		{ 5, 40681, "", "=q4=Lattice Choker of Light", "=ds=#s2#", "25 #eofheroism#", "" };
-		{ 6, 40678, "", "=q4=Pendant of the Outcast Hero", "=ds=#s2#", "25 #eofheroism#", "" };
-		{ 7, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "40 #eofheroism#", "" };
-		{ 8, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "40 #eofheroism#", "" };
-		{ 9, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "40 #eofheroism#", "" };
-		{ 10, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "40 #eofheroism#", "" };
-		{ 11, 40699, "", "=q4=Handbook of Obscure Remedies", "=ds=#s15#", "25 #eofheroism#", "" };
-		{ 12, 40698, "", "=q4=Ward of the Violet Citadel", "=ds=#s15#", "25 #eofheroism#", "" };
-        Next = "EmblemofHeroismTokens";
-        Prev = "EmblemofHeroismWeapons";
-        Back = "EMBLEMOFHEROISMMENU";
-	};
-    
-	AtlasLoot_Data["EmblemofHeroismTokens"] = {
-		{ 1, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "80 #eofheroism#", "" };
-		{ 2, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "60 #eofheroism#", "" };
-		{ 3, 43102, "", "=q3=Frozen Orb", "=ds=#e15#", "10 #eofheroism#", "" };
-        Prev = "EmblemofHeroismAccessories";
-        Back = "EMBLEMOFHEROISMMENU";
+		{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "75 #eofheroism#", "" };
+		{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "75 #eofheroism#", "" };
+		{ 18, 40679, "", "=q4=Chained Military Gorget", "=ds=#s2#", "25 #eofheroism#", "" };
+		{ 19, 40680, "", "=q4=Encircling Burnished Gold Chains", "=ds=#s2#", "25 #eofheroism#", "" };
+		{ 20, 40681, "", "=q4=Lattice Choker of Light", "=ds=#s2#", "25 #eofheroism#", "" };
+		{ 21, 40678, "", "=q4=Pendant of the Outcast Hero", "=ds=#s2#", "25 #eofheroism#", "" };
+		{ 22, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "40 #eofheroism#", "" };
+		{ 23, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "40 #eofheroism#", "" };
+		{ 24, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "40 #eofheroism#", "" };
+		{ 25, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "40 #eofheroism#", "" };
+		{ 26, 40699, "", "=q4=Handbook of Obscure Remedies", "=ds=#s15#", "25 #eofheroism#", "" };
+		{ 27, 40698, "", "=q4=Ward of the Violet Citadel", "=ds=#s15#", "25 #eofheroism#", "" };
+		Prev = "EmblemofHeroism";
+		Back = "SETMENU";
 	};

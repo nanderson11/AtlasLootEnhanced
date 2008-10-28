@@ -5705,7 +5705,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 30609, "", "=q4=Swift Nether Drake", "=q2=#m25#"};
 		{ 18, 34092, "", "=q4=Merciless Nether Drake", "=q2=#m25#"};
 		{ 19, 37676, "", "=q4=Vengeful Nether Drake", "=q2=#m25#"};
-		{ 20, 0, "", "=q4=Brutal Nether Drake", "=ds=#m25#"};
+		{ 20, 43516, "", "=q4=Brutal Nether Drake", "=ds=#m25#"};
 		{ 21, 35906, "", "=q4=Reins of the Black War Elekk", "=ds=#e12# =ec1=#m7#"};
 		{ 22, 34129, "", "=q4=Swift Warstrider", "=ds=#e12# =ec1=#m6#"};
 		{ 23, 28915, "", "=q4=Reins of the Dark Riding Talbuk", "=ds=#e12#"};

@@ -247,10 +247,10 @@ AtlasLoot_DewDropDown = {
 				{ AL["Dungeon 3 Sets"], "DungeonSets3", "Submenu" },
 			},
             [5] = {
-				{ AL["Emblem of Heroism Rewards"], "EmblemofHeroismRewards", "Submenu" },
+				{ AL["Emblem of Heroism Rewards"], "EmblemofHeroism", "Table" },
 			},
 			[6] = {
-				{ AL["Emblem of Valor Rewards"], "EmblemofValorRewards", "Submenu" },
+				{ AL["Emblem of Valor Rewards"], "EmblemofValor", "Table" },
 			},
 			[7] = { 
                 { AL["Legendary Items"], "Legendaries", "Table" }, 
@@ -1089,24 +1089,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["HardModeAccessories"][1], "HardModeAccessories" },
 		{ AtlasLoot_TableNames["HardModeRelic"][1], "HardModeRelic" },
 		{ AtlasLoot_TableNames["HardModeWeapons"][1], "HardModeWeapons" },
-	},
-    ["EmblemofHeroismRewards"] = {
-        { AtlasLoot_TableNames["EmblemofHeroismCloth"][1], "EmblemofHeroismCloth" },
-		{ AtlasLoot_TableNames["EmblemofHeroismLeather"][1], "EmblemofHeroismLeather" },
-		{ AtlasLoot_TableNames["EmblemofHeroismMail"][1], "EmblemofHeroismMail" },
-		{ AtlasLoot_TableNames["EmblemofHeroismPlate"][1], "EmblemofHeroismPlate" },
-		{ AtlasLoot_TableNames["EmblemofHeroismWeapons"][1], "EmblemofHeroismWeapons" },
-		{ AtlasLoot_TableNames["EmblemofHeroismAccessories"][1], "EmblemofHeroismAccessories" },
-		{ AtlasLoot_TableNames["EmblemofHeroismTokens"][1], "EmblemofHeroismTokens" },
-	},
-    ["EmblemofValorRewards"] = {
-        { AtlasLoot_TableNames["EmblemofValorCloth"][1], "EmblemofValorCloth" },
-		{ AtlasLoot_TableNames["EmblemofValorLeather"][1], "EmblemofValorLeather" },
-		{ AtlasLoot_TableNames["EmblemofValorMail"][1], "EmblemofValorMail" },
-		{ AtlasLoot_TableNames["EmblemofValorPlate"][1], "EmblemofValorPlate" },
-		{ AtlasLoot_TableNames["EmblemofValorCloak"][1], "EmblemofValorCloak" },
-		{ AtlasLoot_TableNames["EmblemofValorAccessories"][1], "EmblemofValorAccessories" },
-		{ AtlasLoot_TableNames["EmblemofValorTokens"][1], "EmblemofValorTokens" },
 	},
 	["Pre60Sets"] = {
 		{ AL["Bloodmail Regalia"], "VWOWScholo" },

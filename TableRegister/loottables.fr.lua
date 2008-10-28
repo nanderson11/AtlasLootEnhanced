@@ -18,8 +18,6 @@ if (GetLocale() == "frFR") then
   --Keys
     AtlasLoot_TableNames["OldKeys"][1] = "Clés";
     AtlasLoot_TableNames["BCKeys"][1] = "Clés";
-  --Auch: Shadow Labyrinth
-    AtlasLoot_TableNames["AuchShadowFirstFragmentGuardian"][1] = "Gardien du premier fragment";
   --Blackrock Depths
     AtlasLoot_TableNames["BRDArena"][1] = "L'Arène";
     AtlasLoot_TableNames["BRDForgewright"][1] = "Monument de Franclorn Le Forgebusier";
@@ -31,8 +29,6 @@ if (GetLocale() == "frFR") then
     AtlasLoot_TableNames["BTPatterns"][1] = "Patrons/Plans du Temple Noir"; 
   --Blackwing Lair
     AtlasLoot_TableNames["BWLDraconicForDummies"][1] = "Draconic for Dummies Chapter VII";
-  --CFR: The Steamvault
-    AtlasLoot_TableNames["CFRSteamSecondFragmentGuardian"][1] = "Gardien du second fragment";
   --Dire Maul East
     AtlasLoot_TableNames["DMBooks"][1] = "Livres (DM)";
   --HC: Shattered Halls
@@ -60,12 +56,8 @@ if (GetLocale() == "frFR") then
     AtlasLoot_TableNames["AQ40Trash1"][1] = "Trash Mobs (AQ40)";
     AtlasLoot_TableNames["AQ40Trash2"][1] = "Trash Mobs (AQ40)";
     AtlasLoot_TableNames["AQOpening"][1] = "Evénement d'ouverture AQ";
-  --TK: The Arcatraz
-    AtlasLoot_TableNames["TKArcThirdFragmentGuardian"][1] = "Gardien du troisième fragment";
   --TK: The Eye
     AtlasLoot_TableNames["TKEyeLegendaries"][1] = "Objets légendaires pour le combat de Kael'thas";
-  --TK: The Mechanar
-    AtlasLoot_TableNames["TKMechOverchargedManacell"][1] = "Cellule de mana surchargée";
   --Uldaman
     AtlasLoot_TableNames["UldTabletofRyuneh"][1] = "Tablette de Ryun'eh";
     AtlasLoot_TableNames["UldTabletofWill"][1] = "Tablette de volonté";

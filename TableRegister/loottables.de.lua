@@ -7,10 +7,6 @@
   --Keys
     AtlasLoot_TableNames["OldKeys"][1] = "Schlüssel";
     AtlasLoot_TableNames["BCKeys"][1] = "Schlüssel";
-  --Auch: Sethekkhallen
-    AtlasLoot_TableNames["AuchSethekkTheSagaofTerokk"][1] = "Die Sage von Terokk";
-  --Auch: Schattenlabyrinth
-    AtlasLoot_TableNames["AuchShadowFirstFragmentGuardian"][1] = "Wächter des ersten Teils";
   --Der Schwarzfels
     AtlasLoot_TableNames["BRMScarshieldQuartermaster"][1] = "Scarshield Quartermaster";
   --Schwarzfelstiefen
@@ -52,12 +48,8 @@
     AtlasLoot_TableNames["STTrollMinibosses"][1] = "Troll Minibosse";
   --Tempel von Ahn'Qiraj
     AtlasLoot_TableNames["AQOpening"][1] = "AQ Tor Öffnung";
-  --FdS: Die Arkatraz
-    AtlasLoot_TableNames["TKArcThirdFragmentGuardian"][1] = "Wächter des dritten Teils";
   --FdS: Auge des Sturms
     AtlasLoot_TableNames["TKEyeLegendaries"][1] = "Legendäre Items für Kael'thas Kampf";
-  --FdS: Die Mechanar
-    AtlasLoot_TableNames["TKMechOverchargedManacell"][1] = "Überladene Manazelle";
   --Uldaman
     AtlasLoot_TableNames["UldTabletofRyuneh"][1] = "Schrifttafel von Ryun'eh";
     AtlasLoot_TableNames["UldKromStoutarmChest"][1] = "Krom Starkarms Truhe";

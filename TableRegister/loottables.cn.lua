@@ -14,10 +14,6 @@ if (GetLocale() == "zhCN") then
   --Keys
     AtlasLoot_TableNames["OldKeys"][1] = "钥匙";
     AtlasLoot_TableNames["BCKeys"][1] = "钥匙";
-  --Auch: Sethekk Halls
-    AtlasLoot_TableNames["AuchSethekkTheSagaofTerokk"][1] = "泰罗克的传说";
-  --Auch: Shadow Labyrinth
-    AtlasLoot_TableNames["AuchShadowFirstFragmentGuardian"][1] = "第一块碎片的守护者";
   --Blackrock Depths
 	AtlasLoot_TableNames["BRDArena"][1] = "竞技场";
 	AtlasLoot_TableNames["BRDForgewright"][1] = "弗兰克罗恩·铸铁的雕像";
@@ -29,8 +25,6 @@ if (GetLocale() == "zhCN") then
 	AtlasLoot_TableNames["BTPatterns"][1] = "掉落图纸 (黑暗神殿)";
   --Blackwing Lair
 	AtlasLoot_TableNames["BWLDraconicForDummies"][1] = "龙语傻瓜教程：第七卷";
-  --CFR: The Steamvault
-    AtlasLoot_TableNames["CFRSteamSecondFragmentGuardian"][1] = "第二块碎片的守护者";
   --Dire Maul East
 	AtlasLoot_TableNames["DMBooks"][1] = "厄运之槌书籍";
   --HC: Shattered Halls
@@ -60,12 +54,8 @@ if (GetLocale() == "zhCN") then
 	AtlasLoot_TableNames["AQ40Trash1"][1] = "普通怪物 (安其拉神殿)";
 	AtlasLoot_TableNames["AQ40Trash2"][1] = "普通怪物 (安其拉神殿)";
 	AtlasLoot_TableNames["AQOpening"][1] = "安琪拉之门任务奖励";
-  --TK: The Arcatraz
-    AtlasLoot_TableNames["TKArcThirdFragmentGuardian"][1] = "第三块碎片的守护者";
   --TK: The Eye
 	AtlasLoot_TableNames["TKEyeLegendaries"][1] = "凯尔萨斯一役使用到的传奇物品";
-  --TK: The Mechanar
-	AtlasLoot_TableNames["TKMechOverchargedManacell"][1] = "超载的魔法晶格";
   --Uldaman
     AtlasLoot_TableNames["UldTabletofRyuneh"][1] = "雷乌纳石板";
     AtlasLoot_TableNames["UldTabletofWill"][1] = "意志石板";

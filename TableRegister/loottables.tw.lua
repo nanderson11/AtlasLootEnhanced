@@ -11,8 +11,6 @@ if (GetLocale() == "zhTW") then
   --Keys
     AtlasLoot_TableNames["OldKeys"][1] = "鑰匙";
     AtlasLoot_TableNames["BCKeys"][1] = "鑰匙";
-  --Auch: Shadow Labyrinth
-    AtlasLoot_TableNames["AuchShadowFirstFragmentGuardian"][1] = "第一部守衛者";
   --Blackrock Depths
     AtlasLoot_TableNames["BRDArena"][1] = "競技場";
     AtlasLoot_TableNames["BRDForgewright"][1] = "弗蘭克羅恩·鑄鐵的雕像";
@@ -24,8 +22,6 @@ if (GetLocale() == "zhTW") then
     AtlasLoot_TableNames["BTPatterns"][1] = "黑暗神廟卷軸";
   --Blackwing Lair
     AtlasLoot_TableNames["BWLDraconicForDummies"][1] = "龍語傻瓜教程:第二卷";
-  --CFR: The Steamvault
-    AtlasLoot_TableNames["CFRSteamSecondFragmentGuardian"][1] = "第二部守衛者";
   --Dire Maul East
     AtlasLoot_TableNames["DMBooks"][1] = "厄運書籍";
   --HC: Shattered Halls
@@ -53,12 +49,8 @@ if (GetLocale() == "zhTW") then
     AtlasLoot_TableNames["AQ40Trash1"][1] = "小怪 (AQ40)";
     AtlasLoot_TableNames["AQ40Trash2"][1] = "小怪 (AQ40)";
     AtlasLoot_TableNames["AQOpening"][1] = "安其拉開門系列任務";
-  --TK: The Arcatraz
-    AtlasLoot_TableNames["TKArcThirdFragmentGuardian"][1] = "第三部守衛者";
   --TK: The Eye
     AtlasLoot_TableNames["TKEyeLegendaries"][1] = "凱爾薩斯·逐日者史詩物品";
-  --TK: The Mechanar
-    AtlasLoot_TableNames["TKMechOverchargedManacell"][1] = "滿溢的法力容器";
   --Uldaman
     AtlasLoot_TableNames["UldTabletofRyuneh"][1] = "雷烏納石板";
     AtlasLoot_TableNames["UldTabletofWill"][1] = "意志石板";

@@ -781,21 +781,11 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["HardModeArena"] = { AL["PvP Rewards"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["HardModeArena2"] = { AL["PvP Rewards"], "AtlasLootBurningCrusade" };
   --Emblem of Valor Rewards
-    AtlasLoot_TableNames["EmblemofValorCloth"] = { AL["Emblem of Valor Rewards"].." - "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofValorLeather"] = { AL["Emblem of Valor Rewards"].." - "..BabbleInventory["Leather"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofValorMail"] = { AL["Emblem of Valor Rewards"].." - "..BabbleInventory["Mail"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofValorPlate"] = { AL["Emblem of Valor Rewards"].." - "..BabbleInventory["Plate"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofValorCloak"] = { AL["Emblem of Valor Rewards"].." - "..BabbleInventory["Back"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofValorAccessories"] = { AL["Emblem of Valor Rewards"].." - "..AL["Accessories"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofValorTokens"] = { AL["Emblem of Valor Rewards"].." - "..AL["Tokens"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["EmblemofValor"] = { AL["Emblem of Valor Rewards"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["EmblemofValor2"] = { AL["Emblem of Valor Rewards"], "AtlasLootWotLK" };
   --Emblem of Heroism Rewards
-    AtlasLoot_TableNames["EmblemofHeroismCloth"] = { AL["Emblem of Heroism Rewards"].." - "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofHeroismLeather"] = { AL["Emblem of Heroism Rewards"].." - "..BabbleInventory["Leather"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofHeroismMail"] = { AL["Emblem of Heroism Rewards"].." - "..BabbleInventory["Mail"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofHeroismPlate"] = { AL["Emblem of Heroism Rewards"].." - "..BabbleInventory["Plate"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofHeroismWeapons"] = { AL["Emblem of Heroism Rewards"].." - "..AL["Weapons"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofHeroismAccessories"] = { AL["Emblem of Heroism Rewards"].." - "..AL["Accessories"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["EmblemofHeroismTokens"] = { AL["Emblem of Heroism Rewards"].." - "..AL["Tokens"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["EmblemofHeroism"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["EmblemofHeroism2"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
   --Naxxramas 10/25 Man Sets
 	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { BabbleClass["Deathknight"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { BabbleClass["Deathknight"].." - "..AL["Tanking"], "AtlasLootWotLK" };
