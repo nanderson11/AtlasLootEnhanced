@@ -8,6 +8,11 @@ local MASTER = select(2, GetSpellInfo(28596));
 -- Index
 --- Tradeskill List
 ---- Alchemy
+----- Battle Elixirs
+----- Guardian Elixirs
+----- Potions
+----- Transmutes
+----- Miscellaneous
 ---- Blacksmithing
 ---- Cooking
 ---- Enchanting
@@ -37,239 +42,233 @@ local MASTER = select(2, GetSpellInfo(28596));
 		--- Alchemy ---
 		---------------
 
-	AtlasLoot_Data["AlchemyApprentice1"] = {
-		{ 1, "s2329", "2454", "=q1=Elixir of Lion's Strength", "=ds=#sr# 1"};
-		{ 2, "s7183", "5997", "=q1=Elixir of Minor Defense", "=ds=#sr# 1"};
-		{ 3, "s2330", "118", "=q1=Minor Healing Potion", "=ds=#sr# 1"};
-		{ 4, "s3170", "3382", "=q1=Weak Troll's Blood Potion", "=ds=#sr# 15"};
-		{ 5, "s2331", "2455", "=q1=Minor Mana Potion", "=ds=#sr# 25"};
-		{ 6, "s2332", "2456", "=q1=Minor Rejuvenation Potion", "=ds=#sr# 40"};
-		Next = "AlchemyJourneyman1";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyJourneyman1"] = {
-		{ 1, "s4508", "4596", "=q1=Discolored Healing Potion", "=ds=#sr# 50"};
-		{ 2, "s3230", "2457", "=q1=Elixir of Minor Agility", "=ds=#sr# 50"};
-		{ 3, "s2334", "2458", "=q1=Elixir of Minor Fortitude", "=ds=#sr# 50"};
-		{ 4, "s2337", "858", "=q1=Lesser Healing Potion", "=ds=#sr# 55"};
-		{ 5, "s6617", "5631", "=q1=Rage Potion", "=ds=#sr# 60"};
-		{ 6, "s2335", "2459", "=q1=Swiftness Potion", "=ds=#sr# 60"};
-		{ 7, "s7836", "6370", "=q1=Blackmouth Oil", "=ds=#sr# 80"};
-		{ 8, "s8240", "6662", "=q1=Elixir of Giant Growth", "=ds=#sr# 90"};
-		{ 9, "s7179", "5996", "=q1=Elixir of Water Breathing", "=ds=#sr# 90"};
-		{ 10, "s3171", "3383", "=q1=Elixir of Wisdom", "=ds=#sr# 90"};
-		{ 11, "s7255", "6051", "=q1=Holy Protection Potion", "=ds=#sr# 100"};
-		{ 12, "s7841", "6372", "=q1=Swim Speed Potion", "=ds=#sr# 100"};
-		{ 13, "s3447", "929", "=q1=Healing Potion", "=ds=#sr# 110"};
-		{ 14, "s3172", "3384", "=q1=Minor Magic Resistance Potion", "=ds=#sr# 110"};
-		{ 15, "s3173", "3385", "=q1=Lesser Mana Potion", "=ds=#sr# 120"};
-		{ 16, "s3174", "3386", "=q1=Potion of Curing", "=ds=#sr# 120"};
-		Next = "AlchemyExpert1";
-		Prev = "AlchemyApprentice1";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyExpert1"] = {
-		{ 1, "s3176", "3388", "=q1=Strong Troll's Blood Potion", "=ds=#sr# 125"};
-		{ 2, "s7837", "6371", "=q1=Fire Oil", "=ds=#sr# 130"};
-		{ 3, "s3177", "3389", "=q1=Elixir of Defense", "=ds=#sr# 130"};
-		{ 4, "s7256", "6048", "=q1=Shadow Protection Potion", "=ds=#sr# 135"};
-		{ 5, "s7845", "6373", "=q1=Elixir of Firepower", "=ds=#sr# 140"};
-		{ 6, "s2333", "3390", "=q1=Elixir of Lesser Agility", "=ds=#sr# 140"};
-		{ 7, "s3188", "3391", "=q1=Elixir of Ogre's Strength", "=ds=#sr# 150"};
-		{ 8, "s6624", "5634", "=q1=Free Action Potion", "=ds=#sr# 150"};
-		{ 9, "s7181", "1710", "=q1=Greater Healing Potion", "=ds=#sr# 155"};
-		{ 10, "s3452", "3827", "=q1=Mana Potion", "=ds=#sr# 160"};
-		{ 11, "s3448", "3823", "=q1=Lesser Invisibility Potion", "=ds=#sr# 165"};
-		{ 12, "s3449", "3824", "=q1=Shadow Oil", "=ds=#sr# 165"};
-		{ 13, "s7257", "6049", "=q1=Fire Protection Potion", "=ds=#sr# 165"};
-		{ 14, "s3450", "3825", "=q1=Elixir of Fortitude", "=ds=#sr# 175"};
-		{ 15, "s6618", "5633", "=q1=Great Rage Potion", "=ds=#sr# 175"};
-		{ 16, "s3451", "3826", "=q1=Mighty Troll's Blood Potion", "=ds=#sr# 180"};
-		{ 17, "s11449", "8949", "=q1=Elixir of Agility", "=ds=#sr# 185"};
-		{ 18, "s7258", "6050", "=q1=Frost Protection Potion", "=ds=#sr# 190"};
-		{ 19, "s21923", "17708", "=q1=Elixir of Frost Power", "=ds=#sr# 190"};
-		{ 20, "s7259", "6052", "=q1=Nature Protection Potion", "=ds=#sr# 190"};
-		{ 21, "s3453", "3828", "=q1=Elixir of Detect Lesser Invisibility", "=ds=#sr# 195"};
-		{ 22, "s11450", "8951", "=q1=Elixir of Greater Defense", "=ds=#sr# 195"};
-		Next = "AlchemyArtisan1";
-		Prev = "AlchemyJourneyman1";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyArtisan1"] = {
-		{ 1, "s12609", "10592", "=q1=Catseye Elixir", "=ds=#sr# 200"};
-		{ 2, "s3454", "3829", "=q1=Frost Oil", "=ds=#sr# 200"};
-		{ 3, "s11459", "9149", "=q1=Philosopher's Stone", "=ds=#sr# 200"};
-		{ 4, "s11448", "6149", "=q1=Greater Mana Potion", "=ds=#sr# 205"};
-		{ 5, "s11451", "8956", "=q1=Oil of Immolation", "=ds=#sr# 205"};
-		{ 6, "s11456", "9061", "=q1=Goblin Rocket Fuel", "=ds=#sr# 210"};
-		{ 7, "s11453", "9036", "=q1=Magic Resistance Potion", "=ds=#sr# 210"};
-		{ 8, "s11452", "9030", "=q1=Restorative Potion", "=ds=#sr# 210"};
-		{ 9, "s22808", "18294", "=q1=Elixir of Greater Water Breathing", "=ds=#sr# 215"};
-		{ 10, "s4942", "4623", "=q1=Lesser Stoneshield Potion", "=ds=#sr# 215"};
-		{ 11, "s11457", "3928", "=q1=Superior Healing Potion", "=ds=#sr# 215"};
-		{ 12, "s11479", "3577", "=q2=Transmute: Iron to Gold", "=ds=#sr# 225"};
-		{ 13, "s11480", "6037", "=q2=Transmute: Mithril to Truesilver", "=ds=#sr# 225"};
-		{ 14, "s11458", "9144", "=q1=Wildvine Potion", "=ds=#sr# 225"};
-		{ 15, "s15833", "12190", "=q1=Dreamless Sleep Potion", "=ds=#sr# 230"};
-		{ 16, "s11460", "9154", "=q1=Elixir of Detect Undead", "=ds=#sr# 230"};
-		{ 17, "s11461", "9155", "=q1=Arcane Elixir", "=ds=#sr# 235"};
-		{ 18, "s11465", "9179", "=q1=Elixir of Greater Intellect", "=ds=#sr# 235"};
-		{ 19, "s11464", "9172", "=q1=Invisibility Potion", "=ds=#sr# 235"};
-		{ 20, "s11468", "9197", "=q1=Elixir of Dream Vision", "=ds=#sr# 240"};
-		{ 21, "s11467", "9187", "=q1=Elixir of Greater Agility", "=ds=#sr# 240"};
-		{ 22, "s11466", "9088", "=q1=Gift of Arthas", "=ds=#sr# 240"};
-		{ 23, "s11473", "9210", "=q1=Ghost Dye", "=ds=#sr# 245"};
-		{ 24, "s11472", "9206", "=q1=Elixir of Giants", "=ds=#sr# 245"};
-		{ 25, "s11477", "9224", "=q1=Elixir of Demonslaying", "=ds=#sr# 250"};
-		{ 26, "s11478", "9233", "=q1=Elixir of Detect Demon", "=ds=#sr# 250"};
-		{ 27, "s26277", "21546", "=q1=Elixir of Greater Firepower", "=ds=#sr# 250"};
-		{ 28, "s11476", "9264", "=q1=Elixir of Shadow Power", "=ds=#sr# 250"};
-		{ 29, "s17551", "13423", "=q1=Stonescale Oil", "=ds=#sr# 250"};
-		{ 30, "s3175", "3387", "=q1=Limited Invulnerability Potion", "=ds=#sr# 250"};
-		Next = "AlchemyArtisan2";
-		Prev = "AlchemyExpert1";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyArtisan2"] = {
-		{ 1, "s17552", "13442", "=q1=Mighty Rage Potion", "=ds=#sr# 255"};
-		{ 2, "s17553", "13443", "=q1=Superior Mana Potion", "=ds=#sr# 260"};
-		{ 3, "s17554", "13445", "=q1=Elixir of Superior Defense", "=ds=#sr# 265"};
-		{ 4, "s17555", "13447", "=q1=Elixir of the Sages", "=ds=#sr# 265"};
-		Next = "AlchemyMaster1";
-		Prev = "AlchemyArtisan1";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyMaster1"] = {
-		{ 1, "s17187", "12360", "=q2=Transmute: Arcanite Bar", "=ds=#sr# 275"};
-		{ 2, "s17559", "7078", "=q2=Transmute: Air to Fire", "=ds=#sr# 275"};
-		{ 3, "s17566", "12803", "=q2=Transmute: Earth to Life", "=ds=#sr# 275"};
-		{ 4, "s17561", "7080", "=q2=Transmute: Earth to Water", "=ds=#sr# 275"};
-		{ 5, "s17560", "7076", "=q2=Transmute: Fire to Earth", "=ds=#sr# 275"};
-		{ 6, "s17565", "7076", "=q2=Transmute: Life to Earth", "=ds=#sr# 275"};
-		{ 7, "s17563", "7080", "=q2=Transmute: Undeath to Water", "=ds=#sr# 275"};
-		{ 8, "s17562", "7082", "=q2=Transmute: Water to Air", "=ds=#sr# 275"};
-		{ 9, "s17564", "12808", "=q2=Transmute: Water to Undeath", "=ds=#sr# 275"};
-		{ 10, "s17557", "13453", "=q1=Elixir of Brute Force", "=ds=#sr# 275"};
-		{ 11, "s24366", "20002", "=q1=Greater Dreamless Sleep Potion", "=ds=#sr# 275"};
-		{ 12, "s24365", "20007", "=q1=Mageblood Potion", "=ds=#sr# 275"};
-		{ 13, "s17556", "13446", "=q1=Major Healing Potion", "=ds=#sr# 275"};
-		{ 14, "s17571", "13452", "=q1=Elixir of the Mongoose", "=ds=#sr# 280"};
-		{ 15, "s17570", "13455", "=q1=Greater Stoneshield Potion", "=ds=#sr# 280"};
-		{ 16, "s17573", "13454", "=q1=Greater Arcane Elixir", "=ds=#sr# 285"};
-		{ 17, "s24367", "20008", "=q1=Living Action Potion", "=ds=#sr# 285"};
-		{ 18, "s17572", "13462", "=q1=Purification Potion", "=ds=#sr# 285"};
-		{ 19, "s17577", "13461", "=q1=Greater Arcane Protection Potion", "=ds=#sr# 290"};
-		{ 20, "s17574", "13457", "=q1=Greater Fire Protection Potion", "=ds=#sr# 290"};
-		{ 21, "s17575", "13456", "=q1=Greater Frost Protection Potion", "=ds=#sr# 290"};
-		{ 22, "s17576", "13458", "=q1=Greater Nature Protection Potion", "=ds=#sr# 290"};
-		{ 23, "s17578", "13459", "=q1=Greater Shadow Protection Potion", "=ds=#sr# 290"};
-		{ 24, "s24368", "20004", "=q1=Major Troll's Blood Potion", "=ds=#sr# 290"};
-		{ 25, "s17580", "13444", "=q1=Major Mana Potion", "=ds=#sr# 295"};
-		{ 26, "s25146", "7068", "=q1=Transmute: Elemental Fire", "=ds=#sr# 300"};
-		{ 27, "s22732", "18253", "=q1=Major Rejuvenation Potion", "=ds=#sr# 300"};
-		{ 28, "s24266", "19931", "=q3=Gurubashi Mojo Madness", "=ds=#sr# 300"};
-		{ 29, "s17638", "13513", "=q1=Flask of Chromatic Resistance", "=ds=#sr# 300"};
-		{ 30, "s17636", "13511", "=q1=Flask of Distilled Wisdom", "=ds=#sr# 300"};
-		Next = "AlchemyMaster2";
-		Prev = "AlchemyArtisan2";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyMaster2"] = {
-		{ 1, "s17634", "13506", "=q1=Flask of Petrification", "=ds=#sr# 300"};
-		{ 2, "s17637", "13512", "=q1=Flask of Supreme Power", "=ds=#sr# 300"};
-		{ 3, "s17635", "13510", "=q1=Flask of the Titans", "=ds=#sr# 300"};
-		{ 4, "s33740", "28103", "=q1=Adept's Elixir", "=ds=#sr# 300"};
-		{ 5, "s33738", "28102", "=q1=Onslaught Elixir", "=ds=#sr# 300"};
-		{ 6, "s33732", "28100", "=q1=Volatile Healing Potion", "=ds=#sr# 300"};
-		{ 7, "s28543", "22823", "=q1=Elixir of Camouflage", "=ds=#sr# 305"};
-		{ 8, "s28544", "22824", "=q1=Elixir of Major Strength", "=ds=#sr# 305"};
-		{ 9, "s28545", "22825", "=q1=Elixir of Healing Power", "=ds=#sr# 310"};
-		{ 10, "s39636", "32062", "=q1=Elixir of Major Fortitude", "=ds=#sr# 310"};
-		{ 11, "s33733", "28101", "=q1=Unstable Mana Potion", "=ds=#sr# 310"};
-		{ 12, "s33741", "28104", "=q1=Elixir of Mastery", "=ds=#sr# 315"};
-		{ 13, "s28546", "22826", "=q1=Sneaking Potion", "=ds=#sr# 315"};
-		{ 14, "s39637", "32063", "=q1=Earthen Elixir", "=ds=#sr# 320"};
-		{ 15, "s39638", "32067", "=q1=Elixir of Draenic Wisdom", "=ds=#sr# 320"};
-		{ 16, "s28549", "22827", "=q1=Elixir of Major Frost Power", "=ds=#sr# 320"};
-		{ 17, "s28550", "22828", "=q1=Insane Strength Potion", "=ds=#sr# 320"};
-		{ 18, "s45061", "34440", "=q1=Mad Alchemist's Potion", "=ds=#sr# 325"};
-		{ 19, "s38070", "31080", "=q2=Mercurial Stone", "=ds=#sr# 300"};
-		{ 20, "s28552", "22830", "=q1=Elixir of the Searching Eye", "=ds=#sr# 325"};
+    AtlasLoot_Data["AlchemyBattleElixir1"] = {
+        { 1, "s2329", "2454", "=q1=Elixir of Lion's Strength", "=ds=#sr# 1"};
+        { 2, "s3230", "2457", "=q1=Elixir of Minor Agility", "=ds=#sr# 50"};
+        { 3, "s8240", "6662", "=q1=Elixir of Giant Growth", "=ds=#sr# 90"};
+        { 4, "s7845", "6373", "=q1=Elixir of Firepower", "=ds=#sr# 140"};
+		{ 5, "s2333", "3390", "=q1=Elixir of Lesser Agility", "=ds=#sr# 140"};
+		{ 6, "s3188", "3391", "=q1=Elixir of Ogre's Strength", "=ds=#sr# 150"};
+        { 7, "s11449", "8949", "=q1=Elixir of Agility", "=ds=#sr# 185"};
+        { 8, "s21923", "17708", "=q1=Elixir of Frost Power", "=ds=#sr# 190"};
+        { 9, "s11461", "9155", "=q1=Arcane Elixir", "=ds=#sr# 235"};
+        { 10, "s11467", "9187", "=q1=Elixir of Greater Agility", "=ds=#sr# 240"};
+        { 11, "s11472", "9206", "=q1=Elixir of Giants", "=ds=#sr# 245"};
+		{ 12, "s11477", "9224", "=q1=Elixir of Demonslaying", "=ds=#sr# 250"};
+        { 13, "s26277", "21546", "=q1=Elixir of Greater Firepower", "=ds=#sr# 250"};
+		{ 14, "s11476", "9264", "=q1=Elixir of Shadow Power", "=ds=#sr# 250"};
+        { 15, "s17557", "13453", "=q1=Elixir of Brute Force", "=ds=#sr# 275"};
+        { 16, "s17571", "13452", "=q1=Elixir of the Mongoose", "=ds=#sr# 280"};
+        { 17, "s17573", "13454", "=q1=Greater Arcane Elixir", "=ds=#sr# 285"};
+        { 18, "s33740", "28103", "=q1=Adept's Elixir", "=ds=#sr# 300"};
+		{ 19, "s33738", "28102", "=q1=Onslaught Elixir", "=ds=#sr# 300"};
+        { 20, "s28544", "22824", "=q1=Elixir of Major Strength", "=ds=#sr# 305"};
+		{ 21, "s28545", "22825", "=q1=Elixir of Healing Power", "=ds=#sr# 310"};
+        { 22, "s33741", "28104", "=q1=Elixir of Mastery", "=ds=#sr# 315"};
+        { 23, "s28549", "22827", "=q1=Elixir of Major Frost Power", "=ds=#sr# 320"};
+        { 24, "s28553", "22831", "=q1=Elixir of Major Agility", "=ds=#sr# 330"};
+		{ 25, "s38960", "31679", "=q1=Fel Strength Elixir", "=ds=#sr# 335"};
+        { 26, "s28556", "22833", "=q1=Elixir of Major Firepower", "=ds=#sr# 345"};
+        { 27, "s28558", "22835", "=q1=Elixir of Major Shadow Power", "=ds=#sr# 350"};
+        Next = "AlchemyGuardianElixir1";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyGuardianElixir1"] = {
+        { 1, "s7183", "5997", "=q1=Elixir of Minor Defense", "=ds=#sr# 1"};
+        { 2, "s3170", "3382", "=q1=Weak Troll's Blood Elixir", "=ds=#sr# 15"};
+        { 3, "s2334", "2458", "=q1=Elixir of Minor Fortitude", "=ds=#sr# 50"};
+        { 4, "s3171", "3383", "=q1=Elixir of Wisdom", "=ds=#sr# 90"};
+        { 5, "s3176", "3388", "=q1=Strong Troll's Blood Potion", "=ds=#sr# 125"};
+        { 6, "s3177", "3389", "=q1=Elixir of Defense", "=ds=#sr# 130"};
+        { 7, "s3450", "3825", "=q1=Elixir of Fortitude", "=ds=#sr# 175"};
+        { 8, "s3451", "3826", "=q1=Mighty Troll's Blood Elixir", "=ds=#sr# 180"};
+        { 9, "s11450", "8951", "=q1=Elixir of Greater Defense", "=ds=#sr# 195"};
+        { 10, "s11465", "9179", "=q1=Elixir of Greater Intellect", "=ds=#sr# 235"};
+        { 11, "s11466", "9088", "=q1=Gift of Arthas", "=ds=#sr# 240"};
+        { 12, "s17554", "13445", "=q1=Elixir of Superior Defense", "=ds=#sr# 265"};
+		{ 13, "s17555", "13447", "=q1=Elixir of the Sages", "=ds=#sr# 265"};
+        { 14, "s24365", "20007", "=q1=Mageblood Elixir", "=ds=#sr# 275"};
+        { 15, "s24368", "20004", "=q1=Major Troll's Blood Potion", "=ds=#sr# 290"};
+        { 16, "s39636", "32062", "=q1=Elixir of Major Fortitude", "=ds=#sr# 310"};
+        { 17, "s39637", "32063", "=q1=Earthen Elixir", "=ds=#sr# 320"};
+		{ 18, "s39638", "32067", "=q1=Elixir of Draenic Wisdom", "=ds=#sr# 320"};
+        { 19, "s39639", "32068", "=q1=Elixir of Ironskin", "=ds=#sr# 330"};
+        { 20, "s28557", "22834", "=q1=Elixir of Major Defense", "=ds=#sr# 345"};
+        { 21, "s28570", "22840", "=q1=Elixir of Major Mageblood", "=ds=#sr# 355"};
+        { 22, "s28578", "22848", "=q1=Elixir of Empowerment", "=ds=#sr# 365"};
+        Next = "AlchemyPotion1";
+        Prev = "AlchemyBattleElixir1";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyPotion1"] = {
+        { 1, "s2330", "118", "=q1=Minor Healing Potion", "=ds=#sr# 1"};
+		{ 2, "s2331", "2455", "=q1=Minor Mana Potion", "=ds=#sr# 25"};
+		{ 3, "s2332", "2456", "=q1=Minor Rejuvenation Potion", "=ds=#sr# 40"};
+        { 4, "s4508", "4596", "=q1=Discolored Healing Potion", "=ds=#sr# 50"};
+		{ 5, "s2337", "858", "=q1=Lesser Healing Potion", "=ds=#sr# 55"};
+		{ 6, "s6617", "5631", "=q1=Rage Potion", "=ds=#sr# 60"};
+		{ 7, "s2335", "2459", "=q1=Swiftness Potion", "=ds=#sr# 60"};
+		{ 8, "s7255", "6051", "=q1=Holy Protection Potion", "=ds=#sr# 100"};
+		{ 9, "s7841", "6372", "=q1=Swim Speed Potion", "=ds=#sr# 100"};
+		{ 10, "s3447", "929", "=q1=Healing Potion", "=ds=#sr# 110"};
+		{ 11, "s3172", "3384", "=q1=Minor Magic Resistance Potion", "=ds=#sr# 110"};
+		{ 12, "s3173", "3385", "=q1=Lesser Mana Potion", "=ds=#sr# 120"};
+		{ 13, "s3174", "3386", "=q1=Potion of Curing", "=ds=#sr# 120"};
+        { 14, "s7256", "6048", "=q1=Shadow Protection Potion", "=ds=#sr# 135"};
+		{ 15, "s6624", "5634", "=q1=Free Action Potion", "=ds=#sr# 150"};
+		{ 16, "s7181", "1710", "=q1=Greater Healing Potion", "=ds=#sr# 155"};
+		{ 17, "s3452", "3827", "=q1=Mana Potion", "=ds=#sr# 160"};
+		{ 18, "s3448", "3823", "=q1=Lesser Invisibility Potion", "=ds=#sr# 165"};
+		{ 19, "s7257", "6049", "=q1=Fire Protection Potion", "=ds=#sr# 165"};
+		{ 20, "s6618", "5633", "=q1=Great Rage Potion", "=ds=#sr# 175"};
+		{ 21, "s7258", "6050", "=q1=Frost Protection Potion", "=ds=#sr# 190"};
+		{ 22, "s7259", "6052", "=q1=Nature Protection Potion", "=ds=#sr# 190"};
+        { 23, "s11448", "6149", "=q1=Greater Mana Potion", "=ds=#sr# 205"};
+		{ 24, "s11453", "9036", "=q1=Magic Resistance Potion", "=ds=#sr# 210"};
+		{ 25, "s11452", "9030", "=q1=Restorative Potion", "=ds=#sr# 210"};
+		{ 26, "s4942", "4623", "=q1=Lesser Stoneshield Potion", "=ds=#sr# 215"};
+		{ 27, "s11457", "3928", "=q1=Superior Healing Potion", "=ds=#sr# 215"};
+		{ 28, "s11458", "9144", "=q1=Wildvine Potion", "=ds=#sr# 225"};
+		{ 29, "s15833", "12190", "=q1=Dreamless Sleep Potion", "=ds=#sr# 230"};
+		{ 30, "s11464", "9172", "=q1=Invisibility Potion", "=ds=#sr# 235"};
+        Next = "AlchemyPotion2";
+        Prev = "AlchemyGuardianElixir1";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyPotion2"] = {
+        { 1, "s3175", "3387", "=q1=Limited Invulnerability Potion", "=ds=#sr# 250"};
+        { 2, "s17552", "13442", "=q1=Mighty Rage Potion", "=ds=#sr# 255"};
+		{ 3, "s17553", "13443", "=q1=Superior Mana Potion", "=ds=#sr# 260"};
+        { 4, "s24366", "20002", "=q1=Greater Dreamless Sleep Potion", "=ds=#sr# 275"};
+		{ 5, "s17556", "13446", "=q1=Major Healing Potion", "=ds=#sr# 275"};
+		{ 6, "s17570", "13455", "=q1=Greater Stoneshield Potion", "=ds=#sr# 280"};
+		{ 7, "s24367", "20008", "=q1=Living Action Potion", "=ds=#sr# 285"};
+		{ 8, "s17572", "13462", "=q1=Purification Potion", "=ds=#sr# 285"};
+		{ 9, "s17577", "13461", "=q1=Greater Arcane Protection Potion", "=ds=#sr# 290"};
+		{ 10, "s17574", "13457", "=q1=Greater Fire Protection Potion", "=ds=#sr# 290"};
+		{ 11, "s17575", "13456", "=q1=Greater Frost Protection Potion", "=ds=#sr# 290"};
+		{ 12, "s17576", "13458", "=q1=Greater Nature Protection Potion", "=ds=#sr# 290"};
+		{ 13, "s17578", "13459", "=q1=Greater Shadow Protection Potion", "=ds=#sr# 290"};
+		{ 14, "s17580", "13444", "=q1=Major Mana Potion", "=ds=#sr# 295"};
+		{ 15, "s22732", "18253", "=q1=Major Rejuvenation Potion", "=ds=#sr# 300"};
+        { 16, "s33732", "28100", "=q1=Volatile Healing Potion", "=ds=#sr# 300"};
+		{ 17, "s33733", "28101", "=q1=Unstable Mana Potion", "=ds=#sr# 310"};
+		{ 18, "s28546", "22826", "=q1=Sneaking Potion", "=ds=#sr# 315"};
+		{ 19, "s28550", "22828", "=q1=Insane Strength Potion", "=ds=#sr# 320"};
+		{ 20, "s45061", "34440", "=q1=Mad Alchemist's Potion", "=ds=#sr# 325"};
 		{ 21, "s28551", "22829", "=q1=Super Healing Potion", "=ds=#sr# 325"};
-		{ 22, "s39639", "32068", "=q1=Elixir of Ironskin", "=ds=#sr# 330"};
-		{ 23, "s28553", "22831", "=q1=Elixir of Major Agility", "=ds=#sr# 330"};
-		{ 24, "s38960", "31679", "=q1=Fel Strength Elixir", "=ds=#sr# 335"};
-		{ 25, "s28554", "22871", "=q1=Shrouding Potion", "=ds=#sr# 335"};
-		{ 26, "s28555", "22832", "=q1=Super Mana Potion", "=ds=#sr# 340"};
-		{ 27, "s28557", "22834", "=q1=Elixir of Major Defense", "=ds=#sr# 345"};
-		{ 28, "s28556", "22833", "=q1=Elixir of Major Firepower", "=ds=#sr# 345"};
-		{ 29, "s38962", "31676", "=q1=Fel Regeneration Potion", "=ds=#sr# 345"};
-		{ 30, "s17632", "13503", "=q4=Alchemist's Stone", "=ds=#sr# 350"};
-		Next = "AlchemyMaster3";
-		Prev = "AlchemyMaster1";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyMaster3"] = {
-		{ 1, "s29688", "23571", "=q3=Transmute: Primal Might", "=ds=#sr# 350"};
-		{ 2, "s32765", "25867", "=q3=Transmute: Earthstorm Diamond", "=ds=#sr# 350"};
-		{ 3, "s32766", "25868", "=q3=Transmute: Skyfire Diamond", "=ds=#sr# 350"};
-		{ 4, "s28566", "21884", "=q2=Transmute: Primal Air to Fire", "=ds=#sr# 350"};
-		{ 5, "s28567", "21885", "=q2=Transmute: Primal Earth to Water", "=ds=#sr# 350"};
-		{ 6, "s28568", "22452", "=q2=Transmute: Primal Fire to Earth", "=ds=#sr# 350"};
-		{ 7, "s28569", "22451", "=q2=Transmute: Primal Water to Air", "=ds=#sr# 350"};
-		{ 8, "s28565", "22839", "=q1=Destruction Potion", "=ds=#sr# 350"};
-		{ 9, "s28558", "22835", "=q1=Elixir of Major Shadow Power", "=ds=#sr# 350"};
-		{ 10, "s28564", "22838", "=q1=Haste Potion", "=ds=#sr# 350"};
-		{ 11, "s28563", "22837", "=q1=Heroic Potion", "=ds=#sr# 350"};
-		{ 12, "s28562", "22836", "=q1=Major Dreamless Sleep Potion", "=ds=#sr# 350"};
-		{ 13, "s28570", "22840", "=q1=Elixir of Major Mageblood", "=ds=#sr# 355"};
-		{ 14, "s38961", "31677", "=q1=Fel Mana Potion", "=ds=#sr# 360"};
-		{ 15, "s28575", "22845", "=q1=Major Arcane Protection Potion", "=ds=#sr# 360"};
-		{ 16, "s28571", "22841", "=q1=Major Fire Protection Potion", "=ds=#sr# 360"};
-		{ 17, "s28572", "22842", "=q1=Major Frost Protection Potion", "=ds=#sr# 360"};
-		{ 18, "s28577", "22847", "=q1=Major Holy Protection Potion", "=ds=#sr# 360"};
-		{ 19, "s28573", "22844", "=q1=Major Nature Protection Potion", "=ds=#sr# 360"};
-		{ 20, "s28576", "22846", "=q1=Major Shadow Protection Potion", "=ds=#sr# 360"};
-		{ 21, "s41458", "32839", "=q1=Cauldron of Major Arcane Protection Potion", "=ds=#sr# 360"};
-		{ 22, "s41500", "32849", "=q1=Cauldron of Major Fire Protection Potion", "=ds=#sr# 360"};
-		{ 23, "s41501", "32850", "=q1=Cauldron of Major Frost Protection Potion", "=ds=#sr# 360"};
-		{ 24, "s41502", "32851", "=q1=Cauldron of Major Nature Protection Potion", "=ds=#sr# 360"};
-		{ 25, "s41503", "32852", "=q1=Cauldron of Major Shadow Protection Potion", "=ds=#sr# 360"};
-		{ 26, "s28578", "22848", "=q1=Elixir of Empowerment", "=ds=#sr# 365"};
-		{ 27, "s28579", "22849", "=q1=Ironshield Potion", "=ds=#sr# 365"};
-		{ 28, "s47050", "35751", "=q4=Assassin's Alchemist Stone", "=ds=#sr# 375"};
-		{ 29, "s47046", "35748", "=q4=Guardian's Alchemist Stone", "=ds=#sr# 375"};
-		{ 30, "s47049", "35750", "=q4=Redeemer's Alchemist Stone", "=ds=#sr# 375"};
-		Next = "AlchemyMaster4";
-		Prev = "AlchemyMaster2";
-		Back = "ALCHEMYMENU";
-	};
-
-	AtlasLoot_Data["AlchemyMaster4"] = {
-		{ 1, "s47048", "35749", "=q4=Sorcerer's Alchemist Stone", "=ds=#sr# 375"};
-		{ 2, "s28585", "21886", "=q2=Transmute: Primal Earth to Life", "=ds=#sr# 375"};
-		{ 3, "s28583", "22457", "=q2=Transmute: Primal Fire to Mana", "=ds=#sr# 375"};
-		{ 4, "s28584", "22452", "=q2=Transmute: Primal Life to Earth", "=ds=#sr# 375"};
-		{ 5, "s28582", "21884", "=q2=Transmute: Primal Mana to Fire", "=ds=#sr# 375"};
-		{ 6, "s28580", "21885", "=q2=Transmute: Primal Shadow to Water", "=ds=#sr# 375"};
-		{ 7, "s28581", "22456", "=q2=Transmute: Primal Water to Shadow", "=ds=#sr# 375"};
-		{ 8, "s28586", "22850", "=q1=Super Rejuvenation Potion", "=ds=#sr# 375"};
-		{ 9, "s42736", "33208", "=q1=Flask of Chromatic Wonder", "=ds=#sr# 375"};
-		{ 10, "s28590", "22861", "=q1=Flask of Blinding Light", "=ds=#sr# 375"};
-		{ 11, "s28587", "22851", "=q1=Flask of Fortification", "=ds=#sr# 375"};
-		{ 12, "s28588", "22853", "=q1=Flask of Mighty Restoration", "=ds=#sr# 375"};
-		{ 13, "s28591", "22866", "=q1=Flask of Pure Death", "=ds=#sr# 375"};
-		{ 14, "s28589", "22854", "=q1=Flask of Relentless Assault", "=ds=#sr# 375"};
-		Prev = "AlchemyMaster3";
-		Back = "ALCHEMYMENU";
-	};
+		{ 22, "s28554", "22871", "=q1=Shrouding Potion", "=ds=#sr# 335"};
+		{ 23, "s28555", "22832", "=q1=Super Mana Potion", "=ds=#sr# 340"};
+		{ 24, "s38962", "31676", "=q1=Fel Regeneration Potion", "=ds=#sr# 345"};
+        { 25, "s28565", "22839", "=q1=Destruction Potion", "=ds=#sr# 350"};
+		{ 26, "s28564", "22838", "=q1=Haste Potion", "=ds=#sr# 350"};
+		{ 27, "s28563", "22837", "=q1=Heroic Potion", "=ds=#sr# 350"};
+		{ 28, "s28562", "22836", "=q1=Major Dreamless Sleep Potion", "=ds=#sr# 350"};
+		{ 29, "s38961", "31677", "=q1=Fel Mana Potion", "=ds=#sr# 360"};
+		{ 30, "s28575", "22845", "=q1=Major Arcane Protection Potion", "=ds=#sr# 360"};
+        Next = "AlchemyPotion3";
+        Prev = "AlchemyPotion1";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyPotion3"] = {
+        { 1, "s28571", "22841", "=q1=Major Fire Protection Potion", "=ds=#sr# 360"};
+		{ 2, "s28572", "22842", "=q1=Major Frost Protection Potion", "=ds=#sr# 360"};
+		{ 3, "s28577", "22847", "=q1=Major Holy Protection Potion", "=ds=#sr# 360"};
+		{ 4, "s28573", "22844", "=q1=Major Nature Protection Potion", "=ds=#sr# 360"};
+		{ 5, "s28576", "22846", "=q1=Major Shadow Protection Potion", "=ds=#sr# 360"};
+		{ 6, "s28579", "22849", "=q1=Ironshield Potion", "=ds=#sr# 365"};
+        { 7, "s28586", "22850", "=q1=Super Rejuvenation Potion", "=ds=#sr# 375"};
+        Next = "AlchemyTransmute1";
+        Prev = "AlchemyPotion2";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyTransmute1"] = {
+        { 1, "s11479", "3577", "=q2=Transmute: Iron to Gold", "=ds=#sr# 225"};
+		{ 2, "s11480", "6037", "=q2=Transmute: Mithril to Truesilver", "=ds=#sr# 225"};
+        { 3, "s17187", "12360", "=q2=Transmute: Arcanite Bar", "=ds=#sr# 275"};
+		{ 4, "s17559", "7078", "=q2=Transmute: Air to Fire", "=ds=#sr# 275"};
+		{ 5, "s17566", "12803", "=q2=Transmute: Earth to Life", "=ds=#sr# 275"};
+		{ 6, "s17561", "7080", "=q2=Transmute: Earth to Water", "=ds=#sr# 275"};
+		{ 7, "s17560", "7076", "=q2=Transmute: Fire to Earth", "=ds=#sr# 275"};
+		{ 8, "s17565", "7076", "=q2=Transmute: Life to Earth", "=ds=#sr# 275"};
+		{ 9, "s17563", "7080", "=q2=Transmute: Undeath to Water", "=ds=#sr# 275"};
+		{ 10, "s17562", "7082", "=q2=Transmute: Water to Air", "=ds=#sr# 275"};
+		{ 11, "s17564", "12808", "=q2=Transmute: Water to Undeath", "=ds=#sr# 275"};
+        { 12, "s25146", "7068", "=q1=Transmute: Elemental Fire", "=ds=#sr# 300"};
+        { 13, "s29688", "23571", "=q3=Transmute: Primal Might", "=ds=#sr# 350"};
+		{ 14, "s32765", "25867", "=q3=Transmute: Earthstorm Diamond", "=ds=#sr# 350"};
+		{ 15, "s32766", "25868", "=q3=Transmute: Skyfire Diamond", "=ds=#sr# 350"};
+		{ 16, "s28566", "21884", "=q2=Transmute: Primal Air to Fire", "=ds=#sr# 350"};
+		{ 17, "s28567", "21885", "=q2=Transmute: Primal Earth to Water", "=ds=#sr# 350"};
+		{ 18, "s28568", "22452", "=q2=Transmute: Primal Fire to Earth", "=ds=#sr# 350"};
+		{ 19, "s28569", "22451", "=q2=Transmute: Primal Water to Air", "=ds=#sr# 350"};
+        { 20, "s28585", "21886", "=q2=Transmute: Primal Earth to Life", "=ds=#sr# 375"};
+		{ 21, "s28583", "22457", "=q2=Transmute: Primal Fire to Mana", "=ds=#sr# 375"};
+		{ 22, "s28584", "22452", "=q2=Transmute: Primal Life to Earth", "=ds=#sr# 375"};
+		{ 23, "s28582", "21884", "=q2=Transmute: Primal Mana to Fire", "=ds=#sr# 375"};
+		{ 24, "s28580", "21885", "=q2=Transmute: Primal Shadow to Water", "=ds=#sr# 375"};
+		{ 25, "s28581", "22456", "=q2=Transmute: Primal Water to Shadow", "=ds=#sr# 375"};
+        Next = "AlchemyFlask1";
+        Prev = "AlchemyPotion3";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyFlask1"] = {
+        { 1, "s17638", "13513", "=q1=Flask of Chromatic Resistance", "=ds=#sr# 300"};
+		{ 2, "s17636", "13511", "=q1=Flask of Distilled Wisdom", "=ds=#sr# 300"};
+        { 3, "s17634", "13506", "=q1=Flask of Petrification", "=ds=#sr# 300"};
+		{ 4, "s17637", "13512", "=q1=Flask of Supreme Power", "=ds=#sr# 300"};
+		{ 5, "s17635", "13510", "=q1=Flask of the Titans", "=ds=#sr# 300"};
+        { 6, "s42736", "33208", "=q1=Flask of Chromatic Wonder", "=ds=#sr# 375"};
+		{ 7, "s28590", "22861", "=q1=Flask of Blinding Light", "=ds=#sr# 375"};
+		{ 8, "s28587", "22851", "=q1=Flask of Fortification", "=ds=#sr# 375"};
+		{ 9, "s28588", "22853", "=q1=Flask of Mighty Restoration", "=ds=#sr# 375"};
+		{ 10, "s28591", "22866", "=q1=Flask of Pure Death", "=ds=#sr# 375"};
+		{ 11, "s28589", "22854", "=q1=Flask of Relentless Assault", "=ds=#sr# 375"};
+        Next = "AlchemyMisc1";
+        Prev = "AlchemyTransmute1";
+        Back = "ALCHEMYMENU";
+    };
+    
+    AtlasLoot_Data["AlchemyMisc1"] = {
+        { 1, "s7836", "6370", "=q1=Blackmouth Oil", "=ds=#sr# 80"};
+        { 2, "s7179", "5996", "=q1=Elixir of Water Breathing", "=ds=#sr# 90"};
+        { 3, "s7837", "6371", "=q1=Fire Oil", "=ds=#sr# 130"};
+        { 4, "s3449", "3824", "=q1=Shadow Oil", "=ds=#sr# 165"};
+        { 5, "s3453", "3828", "=q1=Elixir of Detect Lesser Invisibility", "=ds=#sr# 195"};
+        { 6, "s12609", "10592", "=q1=Catseye Elixir", "=ds=#sr# 200"};
+        { 7, "s3454", "3829", "=q1=Frost Oil", "=ds=#sr# 200"};
+        { 8, "s11459", "9149", "=q1=Philosopher's Stone", "=ds=#sr# 200"};
+        { 9, "s11451", "8956", "=q1=Oil of Immolation", "=ds=#sr# 205"};
+        { 10, "s11456", "9061", "=q1=Goblin Rocket Fuel", "=ds=#sr# 210"};
+        { 11, "s22808", "18294", "=q1=Elixir of Greater Water Breathing", "=ds=#sr# 215"};
+        { 12, "s11460", "9154", "=q1=Elixir of Detect Undead", "=ds=#sr# 230"};
+        { 13, "s11468", "9197", "=q1=Elixir of Dream Vision", "=ds=#sr# 240"};
+        { 14, "s11473", "9210", "=q1=Ghost Dye", "=ds=#sr# 245"};
+        { 15, "s11478", "9233", "=q1=Elixir of Detect Demon", "=ds=#sr# 250"};
+        { 16, "s17551", "13423", "=q1=Stonescale Oil", "=ds=#sr# 250"};
+        { 17, "s24266", "19931", "=q3=Gurubashi Mojo Madness", "=ds=#sr# 300"};
+        { 18, "s28543", "22823", "=q1=Elixir of Camouflage", "=ds=#sr# 305"};
+        { 19, "s38070", "31080", "=q2=Mercurial Stone", "=ds=#sr# 300"};
+		{ 20, "s28552", "22830", "=q1=Elixir of the Searching Eye", "=ds=#sr# 325"};
+        { 21, "s17632", "13503", "=q4=Alchemist's Stone", "=ds=#sr# 350"};
+        { 22, "s41458", "32839", "=q1=Cauldron of Major Arcane Protection Potion", "=ds=#sr# 360"};
+		{ 23, "s41500", "32849", "=q1=Cauldron of Major Fire Protection Potion", "=ds=#sr# 360"};
+		{ 24, "s41501", "32850", "=q1=Cauldron of Major Frost Protection Potion", "=ds=#sr# 360"};
+		{ 25, "s41502", "32851", "=q1=Cauldron of Major Nature Protection Potion", "=ds=#sr# 360"};
+		{ 26, "s41503", "32852", "=q1=Cauldron of Major Shadow Protection Potion", "=ds=#sr# 360"};
+        { 27, "s47050", "35751", "=q4=Assassin's Alchemist Stone", "=ds=#sr# 375"};
+		{ 28, "s47046", "35748", "=q4=Guardian's Alchemist Stone", "=ds=#sr# 375"};
+		{ 29, "s47049", "35750", "=q4=Redeemer's Alchemist Stone", "=ds=#sr# 375"};
+        { 30, "s47048", "35749", "=q4=Sorcerer's Alchemist Stone", "=ds=#sr# 375"};
+        Prev = "AlchemyFlask1";
+        Back = "ALCHEMYMENU";
+    };
 
 		---------------------
 		--- Blacksmithing ---

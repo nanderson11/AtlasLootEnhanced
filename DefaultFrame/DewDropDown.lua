@@ -1317,11 +1317,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["WSG60"][1], "WSG60" },
 	},
 	["Alchemy"] = {
-		{ AtlasLoot_TableNames["AlchemyApprentice1"][1], "AlchemyApprentice1" },
-		{ AtlasLoot_TableNames["AlchemyJourneyman1"][1], "AlchemyJourneyman1" },
-		{ AtlasLoot_TableNames["AlchemyExpert1"][1], "AlchemyExpert1" },
-		{ AtlasLoot_TableNames["AlchemyArtisan1"][1], "AlchemyArtisan1" },
-		{ AtlasLoot_TableNames["AlchemyMaster1"][1], "AlchemyMaster1" },
+		{ AL["Battle Elixirs"], "AlchemyBattleElixir1" },
+		{ AL["Guardian Elixirs"], "AlchemyGuardianElixir1" },
+		{ AL["Potions"], "AlchemyPotion1" },
+		{ AL["Transmutes"], "AlchemyTransmute1" },
+		{ AL["Flasks"], "AlchemyFlask1" },
+        { AL["Miscellaneous"], "AlchemyMisc1" },
 	},
 	["BlackSmithing"] = {
 		{ AtlasLoot_TableNames["SmithingApprentice1"][1], "SmithingApprentice1" },

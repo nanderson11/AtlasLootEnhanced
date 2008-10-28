@@ -2638,19 +2638,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- Emblem of Valor ---
 		-----------------------
         
-	AtlasLoot_Data["EmblemofValorCloak"] = {
-		{ 1, 40724, "", "=q4=Cloak of Kea Feathers", "=ds=#s4#", "25 #eofvalor#", ""};
-		{ 2, 40723, "", "=q4=Disguise of the Kumiho", "=ds=#s4#", "25 #eofvalor#", ""};
-		{ 3, 40722, "", "=q4=Platinum Mesh Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
-		{ 4, 40721, "", "=q4=Hammerhead Sharkskin Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
-        Back = "EMBLEMOFVALORMENU";
-	};
+	
     
 	AtlasLoot_Data["EmblemofValorCloth"] = {
 		{ 1, 40741, "", "=q4=Cuffs of the Shadow Ascendant", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
 		{ 2, 40740, "", "=q4=Wraps of the Astral Traveler", "=ds=#s8#, #a1#", "60 #eofvalor#", ""};
 		{ 3, 40751, "", "=q4=Slippers of the Holy Light", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 4, 40750, "", "=q4=Xintor's Expeditionary Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Next = "EmblemofValorLeather";
         Back = "EMBLEMOFVALORMENU";
 	};
     
@@ -2659,6 +2654,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40738, "", "=q4=Wristwraps of the Cutthroat", "=ds=#s8#, #a2#", "60 #eofvalor#", ""};
 		{ 3, 40748, "", "=q4=Boots of Captain Ellis", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 4, 40749, "", "=q4=Rainey's Chewed Boots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Next = "EmblemofValorMail";
+        Prev = "EmblemofValorCloth";
         Back = "EMBLEMOFVALORMENU";
 	};
     
@@ -2667,6 +2664,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40737, "", "=q4=Pigmented Clan Bindings", "=ds=#s8#, #a3#", "60 #eofvalor#", ""};
 		{ 3, 40746, "", "=q4=Pack-Ice Striders", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 4, 40747, "", "=q4=Treads of Coastal Wandering", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Next = "EmblemofValorPlate";
+        Prev = "EmblemofValorLeather";
         Back = "EMBLEMOFVALORMENU";
 	};
     
@@ -2677,6 +2676,18 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 40742, "", "=q4=Bladed Steelboots", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 5, 40743, "", "=q4=Kyzoc's Ground Stompers", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
 		{ 6, 40745, "", "=q4=Sabatons of Rapid Recovery", "=ds=#s12#, #a1#", "40 #eofvalor#", ""};
+        Next = "EmblemofValorCloak";
+        Prev = "EmblemofValorMail";
+        Back = "EMBLEMOFVALORMENU";
+	};
+    
+    AtlasLoot_Data["EmblemofValorCloak"] = {
+		{ 1, 40724, "", "=q4=Cloak of Kea Feathers", "=ds=#s4#", "25 #eofvalor#", ""};
+		{ 2, 40723, "", "=q4=Disguise of the Kumiho", "=ds=#s4#", "25 #eofvalor#", ""};
+		{ 3, 40722, "", "=q4=Platinum Mesh Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
+		{ 4, 40721, "", "=q4=Hammerhead Sharkskin Cloak", "=ds=#s4#", "25 #eofvalor#", ""};
+        Next = "EmblemofValorAccessories";
+        Prev = "EmblemofValorPlate";
         Back = "EMBLEMOFVALORMENU";
 	};
     
@@ -2685,12 +2696,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 3, 40717, "", "=q4=Ring of Invincibility", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 4, 40718, "", "=q4=Signet of the Impregnable Fortress", "=ds=#s13#", "25 #eofvalor#", ""};
+        Next = "EmblemofValorTokens";
+        Prev = "EmblemofValorCloak";
         Back = "EMBLEMOFVALORMENU";
 	};
     
 	AtlasLoot_Data["EmblemofValorTokens"] = {
 		{ 1, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#", ""};
 		{ 2, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#", ""};
+        Prev = "EmblemofValorAccessories";
         Back = "EMBLEMOFVALORMENU";
 	};
     
@@ -2702,6 +2716,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "60 #eofheroism#", "" };
 		{ 2, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "40 #eofheroism#", "" };
 		{ 3, 40696, "", "=q4=Plush Sash of Guzbah", "=ds=#s10#, #a1#", "40 #eofheroism#", "" };
+        Next = "EmblemofHeroismLeather";
         Back = "EMBLEMOFHEROISMMENU";
 	};
     
@@ -2710,6 +2725,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "60 #eofheroism#", "" };
 		{ 3, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
 		{ 4, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "40 #eofheroism#", "" };
+        Next = "EmblemofHeroismMail";
+        Prev = "EmblemofHeroismCloth";
         Back = "EMBLEMOFHEROISMMENU";
 	};
     
@@ -2718,6 +2735,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 42951, "", "=q4=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "60 #eofheroism#", "" };
 		{ 3, 40693, "", "=q4=Beadwork Belt of Shamanic Vision", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
 		{ 4, 40692, "", "=q4=Vereesa's Silver Chain Belt", "=ds=#s10#, #a3#", "40 #eofheroism#", "" };
+        Next = "EmblemofHeroismPlate";
+        Prev = "EmblemofHeroismLeather";
         Back = "EMBLEMOFHEROISMMENU";
 	};
     
@@ -2726,6 +2745,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
 		{ 3, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
 		{ 4, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#", "" };
+        Next = "EmblemofHeroismWeapons";
+        Prev = "EmblemofHeroismMail";
         Back = "EMBLEMOFHEROISMMENU";
 	};
     
@@ -2742,6 +2763,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 40716, "", "=q4=Lillehoff's Winged Blades", "=ds=#w11#", "15 #eofheroism#", "" };
 		{ 11, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "35 #eofheroism#", "" };
 		{ 12, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "35 #eofheroism#", "" };
+        Next = "EmblemofHeroismAccessories";
+        Prev = "EmblemofHeroismPlate";
         Back = "EMBLEMOFHEROISMMENU";
 	};
     
@@ -2758,6 +2781,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "40 #eofheroism#", "" };
 		{ 11, 40699, "", "=q4=Handbook of Obscure Remedies", "=ds=#s15#", "25 #eofheroism#", "" };
 		{ 12, 40698, "", "=q4=Ward of the Violet Citadel", "=ds=#s15#", "25 #eofheroism#", "" };
+        Next = "EmblemofHeroismTokens";
+        Prev = "EmblemofHeroismWeapons";
         Back = "EMBLEMOFHEROISMMENU";
 	};
     
@@ -2765,5 +2790,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "80 #eofheroism#", "" };
 		{ 2, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "60 #eofheroism#", "" };
 		{ 3, 43102, "", "=q3=Frozen Orb", "=ds=#e15#", "10 #eofheroism#", "" };
+        Prev = "EmblemofHeroismAccessories";
         Back = "EMBLEMOFHEROISMMENU";
 	};

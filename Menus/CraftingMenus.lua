@@ -76,6 +76,16 @@ AtlasLoot_Data["CRAFTSET2"] = {
         Back = "CRAFTINGMENU";
         Prev = "CRAFTSET";
     };
+    
+AtlasLoot_Data["ALCHEMYMENU"] = {
+        { 2, "AlchemyBattleElixir1", "INV_Potion_23", "=ds="..AL["Battle Elixirs"], "" };
+        { 3, "AlchemyPotion1", "INV_Potion_23", "=ds="..AL["Potions"], "" };
+        { 4, "AlchemyTransmute1", "INV_Potion_23", "=ds="..AL["Transmutes"], "" };
+        { 17, "AlchemyGuardianElixir1", "INV_Potion_23", "=ds="..AL["Guardian Elixirs"], "" };
+        { 18, "AlchemyFlask1", "INV_Potion_23", "=ds="..AL["Flasks"], "" };
+        { 19, "AlchemyMisc1", "INV_Potion_23", "=ds="..AL["Miscellaneous"], "" };
+        Back = "CRAFTINGMENU";
+    };
 
 AtlasLoot_Data["EmptyTable"] = {
     };

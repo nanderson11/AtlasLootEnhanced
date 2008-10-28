@@ -1028,15 +1028,14 @@ AtlasLoot_TableNames = {};
 --------------
 
   --Alchemy
-	AtlasLoot_TableNames["AlchemyApprentice1"] = { ALCHEMY..": "..APPRENTICE, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyJourneyman1"] = { ALCHEMY..": "..JOURNEYMAN, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyExpert1"] = { ALCHEMY..": "..EXPERT, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyArtisan1"] = { ALCHEMY..": "..ARTISAN, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyArtisan2"] = { ALCHEMY..": "..ARTISAN, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyMaster1"] = { ALCHEMY..": "..MASTER, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyMaster2"] = { ALCHEMY..": "..MASTER, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyMaster3"] = { ALCHEMY..": "..MASTER, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyMaster4"] = { ALCHEMY..": "..MASTER, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyBattleElixir1"] = { ALCHEMY..": "..AL["Battle Elixirs"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyGuardianElixir1"] = { ALCHEMY..": "..AL["Guardian Elixirs"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyPotion1"] = { ALCHEMY..": "..AL["Potions"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyPotion2"] = { ALCHEMY..": "..AL["Potions"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyPotion3"] = { ALCHEMY..": "..AL["Potions"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyTransmute1"] = { ALCHEMY..": "..AL["Transmutes"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyFlask1"] = { ALCHEMY..": "..AL["Flasks"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["AlchemyMisc1"] = { ALCHEMY..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
   --BlackSmithing
 	AtlasLoot_TableNames["SmithingApprentice1"] = { BLACKSMITHING..": "..APPRENTICE.."/"..JOURNEYMAN, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingExpert1"] = { BLACKSMITHING..": "..EXPERT, "AtlasLootCrafting" };
@@ -1251,7 +1250,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["WSGMENU"] = { BabbleZone["Warsong Gulch"], "Menu" };
 	AtlasLoot_TableNames["ETHEREUMMENU"] = { AL["Ethereum Prison"], "Menu" };
 	AtlasLoot_TableNames["ABYSSALMENU"] = { AL["Abyssal Council"], "Menu" };
-	AtlasLoot_TableNames["ALCHEMYMENU"] = { "dummy", "dummy" };
+	AtlasLoot_TableNames["ALCHEMYMENU"] = { ALCHEMY, "Menu" };
 	AtlasLoot_TableNames["SMITHINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["ENCHANTINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["ENGINEERINGMENU"] = { "dummy", "dummy" };

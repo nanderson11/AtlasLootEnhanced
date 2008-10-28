@@ -2,7 +2,7 @@
 ## Title: AtlasLoot
 ## Notes: Shows the possible loot from the bosses
 ## Author: Daviesh
-## Version: 5.01.02
+## Version: 5.01.03
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Credits: Asurn, Pernicus, Hegarol, Cellelach, many others
 ## X-Category: Map
@@ -38,13 +38,4 @@ Menus\Menus.xml
 Core\AtlasLoot.xml
 DefaultFrame\AtlaslootDefaultFrame.xml
 
-Modules\BurningCrusade\burningcrusade.lua
-Modules\BurningCrusade\localization.lua
-Modules\Crafting\crafting.lua
-Modules\Crafting\localization.lua
-Modules\OriginalWoW\originalwow.lua
-Modules\OriginalWoW\localization.lua
-Modules\WorldEvents\worldevents.lua
-Modules\WorldEvents\localization.lua
-Modules\WrathoftheLichKing\wrathofthelichking.lua
-Modules\WrathoftheLichKing\localization.lua
+modules.xml

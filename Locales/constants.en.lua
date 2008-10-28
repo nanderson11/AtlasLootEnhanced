@@ -39,6 +39,7 @@ if AL then
     AL["Level 70"] = true;
     AL["|cffff0000(unsafe)"] = true;
     AL["Misc"] = true;
+    AL["Miscellaneous"] = true;
     AL["Rewards"] = true;
     AL["Heroic Mode"] = true;
     AL["Normal Mode"] = true;
@@ -226,6 +227,13 @@ if AL then
     AL["Cloak"] = true;
     AL["Weapons"] = true;
 
+    --Alchemy
+    AL["Battle Elixirs"] = true;
+    AL["Guardian Elixirs"] = true;
+    AL["Potions"] = true;
+    AL["Transmutes"] = true;
+    AL["Flasks"] = true;
+    
     --Labels for loot descriptions
     AL["Classes:"] = true;
     AL["This Item Begins a Quest"] = true;
