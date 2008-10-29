@@ -772,9 +772,6 @@ if AL then
     AL["Savage Gladiator\'s Weapons"] = "Armes Gladiateur sauvage";
     AL["Deadly Gladiator\'s Weapons"] = "Armes Gladiateur fatal";
 
-    --PvP Level 80 Placeholder!!
-    --AL["Placeholder"] = true; -- à traduire
-
     --Set Labels
     AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
     AL["Set: Defias Leather"] = "Set: Cuir défias";
@@ -1059,7 +1056,8 @@ if AL then
     --Zones
     --AL["World Drop"] = true,
     AL["Sunwell Isle"] = "Plateau du Puits de soleil";
-	
+    AL["Lake Wintergrasp"] = "Lac Joug-d'hiver";
+
     --Shortcuts for Bossname files
     --AL["LBRS"] = true,
     --AL["UBRS"] = true,
