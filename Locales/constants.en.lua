@@ -1058,7 +1058,8 @@ if AL then
     --Zones
     AL["World Drop"] = true;
     AL["Sunwell Isle"] = true;
-	
+	AL["Lake Wintergrasp"] = true;
+    
     --Shortcuts for Bossname files
     AL["LBRS"] = true;
     AL["UBRS"] = true;
