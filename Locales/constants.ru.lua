@@ -46,6 +46,8 @@ if AL then
     AL["Show 25 Man Loot"] = "Добыча 25-чел";
     AL["10 Man Raid"] = "Рейд на 10-чел";
     AL["25 Man Raid"] = "Рейд на 25-чел";
+    AL["10 Man"] = "10-чел";
+    AL["25 Man"] = "25-чел";
     AL["Raid"] = "Рейд";
     AL["Factions - Azeroth"] = "Фракции - Азерота";
     AL["Factions - Original WoW"] = "Фракции - Оригинального WoW";
