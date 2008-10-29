@@ -8,7 +8,7 @@ AtlasLoot_Data["PVPMENU"] = {
         { 2, "ABMENU", "INV_Jewelry_Amulet_07", "=ds="..BabbleZone["Arathi Basin"], ""};
         { 4, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
         { 5, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
-        { 7, "LakeWintergrasp1", "INV_Misc_Platnumdisks", "=ds="..AL["Lake Wintergrasp"], ""};
+        { 7, "LakeWintergrasp1", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
         { 9, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
         { 10, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
         { 16, "WSGMENU", "INV_Misc_Rune_07", "=ds="..BabbleZone["Warsong Gulch"], ""};

@@ -45,8 +45,6 @@ if AL then
     AL["Normal Mode"] = true;
     AL["Show 10 Man Loot"] = true;
     AL["Show 25 Man Loot"] = true;
-    AL["10 Man Raid"] = true;
-    AL["25 Man Raid"] = true;
     AL["10 Man"] = true;
     AL["25 Man"] = true;
     AL["Raid"] = true;
@@ -82,7 +80,6 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = true;
     AL["Select a Loot Table..."] = true;
     AL["OR"] = true;
-    AL["Lake Wintergrasp"] = true;
     AL["Wrath of the Lich King"] = true;
     AL["FuBar Options"] = true;
     AL["Attach to Minimap"] = true;
@@ -776,9 +773,6 @@ if AL then
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = true;
     AL["Deadly Gladiator\'s Weapons"] = true;
-    
-	--PvP Level 80 Placeholder!!
-    AL["Placeholder"] = true;
 
     --Set Labels
     AL["Set: Embrace of the Viper"] = true;

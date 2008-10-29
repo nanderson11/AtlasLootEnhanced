@@ -45,8 +45,6 @@ if AL then
     AL["Normal Mode"] = "Mode Normal";
     AL["Show 10 Man Loot"] = "Afficher les loots Raid 10";
     AL["Show 25 Man Loot"] = "Afficher les loots Raid 25";
-    AL["10 Man Raid"] = "Raid 10";
-    AL["25 Man Raid"] = "Raid 25";
     --AL["Raid"] = true,
     --AL["Factions - Azeroth"] = true;
     AL["Factions - Original WoW"] = "Factions - WoW Originale";
@@ -80,9 +78,8 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = "Montures de Wrath of the Lich King";
     AL["Select a Loot Table..."] = "Sélectionner une table de loot...";
     AL["OR"] = "OU";
-    AL["Lake Wintergrasp"] = "Lac Joug-d'hiver";
     --AL["Wrath of the Lich King"] = true;
-    L["FuBar Options"] = "Options de FuBar";
+    AL["FuBar Options"] = "Options de FuBar";
     AL["Attach to Minimap"] = "Joindre à la minicarte";
     AL["Hide FuBar Plugin"] = "Cacher le plugin FuBar";
     AL["Show FuBar Plugin"] = "Afficher le plugin FuBar";

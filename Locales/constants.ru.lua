@@ -44,8 +44,6 @@ if AL then
     AL["Normal Mode"] = "Обычный режим";
     AL["Show 10 Man Loot"] = "Добыча 10-чел";
     AL["Show 25 Man Loot"] = "Добыча 25-чел";
-    AL["10 Man Raid"] = "Рейд на 10-чел";
-    AL["25 Man Raid"] = "Рейд на 25-чел";
     AL["10 Man"] = "10-чел";
     AL["25 Man"] = "25-чел";
     AL["Raid"] = "Рейд";
@@ -81,7 +79,6 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = "Транспорт ВоЛКа";
     AL["Select a Loot Table..."] = "Выберите таблицу добычи..";
     AL["OR"] = "или";
-    AL["Lake Wintergrasp"] = "Озеро Ледяных Оков";
     AL["Wrath of the Lich King"] = "Wrath of the Lich King";
     AL["FuBar Options"] = "Опции FuBarа";
     AL["Attach to Minimap"] = "Закрепить у мини-карты";

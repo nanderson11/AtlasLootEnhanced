@@ -50,8 +50,6 @@ if AL then
     AL["Normal Mode"] = "Modo normal";
     AL["Show 10 Man Loot"] = "Muestra 10 Pers. Botín";
     AL["Show 25 Man Loot"] = "Muestra 25 Pers. Botín";
-    AL["10 Man Raid"] = "10 Pers. Banda";
-    AL["25 Man Raid"] = "25 Pers. Banda";
     AL["Raid"] = "Banda";
     AL["Factions - Original WoW"] = "Facciones - WoW Original";
     AL["Factions - Burning Crusade"] = "Facciones - Burning Crusade";
@@ -84,7 +82,6 @@ if AL then
     AL["Wrath of the Lich King Mounts"] = "Monturas de Wrath of the Lich King";
     AL["Select a Loot Table..."] = "Elige una tabla de Botín";
     AL["OR"] = "O";
-    --AL["Lake Wintergrasp"] = true, --FALTA
     --AL["Wrath of the Lich King"] = true,
     AL["FuBar Options"] = "Opciones FuBar";
     AL["Attach to Minimap"] = "Sujetar al minimapa";
