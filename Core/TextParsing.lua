@@ -165,6 +165,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m32#", AL["Sold at"]);
     text = gsub(text, "#m33#", AL["Reward"]);
     text = gsub(text, "#m34#", AL["Achievement"]);
+    text = gsub(text, "#m35#", AL["Tier 6"]);
 
     -- Misc
     text = gsub(text, "#j1#", AL["Normal Mode"]);
@@ -203,6 +204,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j34#", AL["PvP Mounts"]);
     text = gsub(text, "#j35#", AL["Rare Mounts"]);
     text = gsub(text, "#j36#", AL["Flying Mounts"]);
+    text = gsub(text, "#j37#", AL["10 Man"]);
+    text = gsub(text, "#j38#", AL["25 Man"]);
 
     -- Upper Deck Card Game
     text = gsub(text, "#ud1#", AL["Heroes of Azeroth"]);

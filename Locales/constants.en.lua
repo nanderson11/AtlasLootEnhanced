@@ -47,6 +47,8 @@ if AL then
     AL["Show 25 Man Loot"] = true;
     AL["10 Man Raid"] = true;
     AL["25 Man Raid"] = true;
+    AL["10 Man"] = true;
+    AL["25 Man"] = true;
     AL["Raid"] = true;
     AL["Factions - Azeroth"] = true;
     AL["Factions - Original WoW"] = true;

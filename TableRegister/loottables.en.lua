@@ -99,19 +99,14 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["OcuUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Naxxramas Level 80
 	AtlasLoot_TableNames["Naxx80Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Grobbulus"] = { BabbleBoss["Grobbulus"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Grobbulus25Man"] = { BabbleBoss["Grobbulus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Gluth"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Gluth25Man"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Thaddius"] = { BabbleBoss["Thaddius"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Thaddius25Man"] = { BabbleBoss["Thaddius"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80AnubRekhan"] = { BabbleBoss["Anub'Rekhan"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80AnubRekhan25Man"] = { BabbleBoss["Anub'Rekhan"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Faerlina"] = { BabbleBoss["Grand Widow Faerlina"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Faerlina25Man"] = { BabbleBoss["Grand Widow Faerlina"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Maexxna"] = { BabbleBoss["Maexxna"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Maexxna25Man"] = { BabbleBoss["Maexxna"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Razuvious"] = { BabbleBoss["Instructor Razuvious"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Razuvious25Man"] = { BabbleBoss["Instructor Razuvious"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Gothik"] = { BabbleBoss["Gothik the Harvester"], "AtlasLootWotLK" };
@@ -905,6 +900,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["GurubashiArena"] = { AL["Gurubashi Arena Booty Run"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ScourgeInvasionEvent1"] = { AL["Scourge Invasion"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ScourgeInvasionEvent2"] = { AL["Scourge Invasion"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["ScourgeInvasionEvent3"] = { AL["Scourge Invasion"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Shartuul"] = { AL["Shartuul"], "AtlasLootWorldEvents" };
 
 ------------------------
