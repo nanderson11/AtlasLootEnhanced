@@ -806,7 +806,6 @@ AtlasLoot_TableNames = {};
 --- Misc Collections ---
 ------------------------
 
-	AtlasLoot_TableNames["BlizzardCollectables1"] = { "Blizzard Collectables", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CraftedWeapons1"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["CraftedWeapons2"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Legendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
@@ -1199,18 +1198,15 @@ AtlasLoot_TableNames = {};
 
   --Menus, the entry does nothing, but makes the generalised loot table code less complex
 	AtlasLoot_TableNames["ABMENU"] = { BabbleZone["Arathi Basin"], "Menu" };
-	AtlasLoot_TableNames["AQ40SET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["AQ20SET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["ZGSET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["PRE60SET"] = { "dummy", "dummy" };
+	AtlasLoot_TableNames["PRE60SET"] = { AL["Pre 60 Sets"], "Menu" };
 	AtlasLoot_TableNames["CRAFTSET"] = { AL["Crafted Sets"], "Menu" };
 	AtlasLoot_TableNames["CRAFTSET2"] = { AL["Crafted Sets"], "Menu" };
-	AtlasLoot_TableNames["T456SET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["T3SET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["T1T2SET"] = { "dummy", "dummy" };
+	AtlasLoot_TableNames["T456SET"] = { AL["Tier 4/5/6 Sets"], "Menu" };
+	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
+	AtlasLoot_TableNames["T1T2SET"] = { AL["Tier 1/2 Sets"], "Menu" };
     AtlasLoot_TableNames["T7SET"] = { AL["Tier 7 Sets 10/25 Man"], "Menu" };
-	AtlasLoot_TableNames["T0SET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["DS3SET"] = { "dummy", "dummy" };
+	AtlasLoot_TableNames["T0SET"] = { AL["Dungeon 1/2 Sets"], "Menu" };
+	AtlasLoot_TableNames["DS3SET"] = { AL["Dungeon 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["PVPSET"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["CRAFTINGMENU"] = { AL["Crafting"], "Menu" };

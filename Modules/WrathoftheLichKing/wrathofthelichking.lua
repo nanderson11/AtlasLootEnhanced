@@ -2286,22 +2286,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
         Back = "T7SET";
 	};
 
-		-----------------------------
-		--- Blizzard Collectables ---
-		-----------------------------
-
-	AtlasLoot_Data["BlizzardCollectables1"] = {
-		{ 1, 33079, "", "=q3=Murloc Costume", "=ds="};
-		{ 2, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#"};
-		{ 3, 20371, "", "=q3=Blue Murloc Egg", "=ds=#e13#"};
-		{ 4, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-		{ 5, 13583, "", "=q3=Panda Collar", "=ds=#e13#"};
-		{ 6, 13584, "", "=q3=Diablo Stone", "=ds=#e13#"};
-		{ 7, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
-		{ 8, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#"};
-		{ 9, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
-	};
-
 		-------------------
 		--- Legendaries ---
 		-------------------

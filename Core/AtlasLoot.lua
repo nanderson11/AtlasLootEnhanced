@@ -112,18 +112,12 @@ local AtlasLootDBDefaults = {
 }
 
 AtlasLoot_MenuList = {
-	"PRE60SET",
-	"T456SET",
-	"T3SET",
-	"T1T2SET",
-	"T0SET",
 	"PVPSET",
 	"PVP70RepSET",
 	"ARENASET",
 	"ARENA2SET",
 	"ARENA3SET",
 	"ARENA4SET",
-	"DS3SET",
 	"SMITHINGMENU",
 	"ENCHANTINGMENU",
 	"ENGINEERINGMENU",
@@ -566,17 +560,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 
 	--Escape out of this function if creating a menu, this function only handles loot tables.
 	--Inserting escapes in this way allows consistant calling of data whether it is a loot table or a menu.
-	if(dataID=="PRE60SET") then
-		AtlasLootPRE60SetMenu();
-	elseif(dataID=="T456SET") then
-		AtlasLootT456SetMenu();
-	elseif(dataID=="T3SET") then
-		AtlasLootT3SetMenu();
-	elseif(dataID=="T1T2SET") then
-		AtlasLootT1T2SetMenu();
-	elseif(dataID=="T0SET") then
-		AtlasLootT0SetMenu();
-	elseif(dataID=="PVPSET") then
+	if(dataID=="PVPSET") then
 		AtlasLootPVPSetMenu();
 	elseif(dataID=="PVP70RepSET") then
 		AtlasLootPVP70RepSetMenu();
@@ -588,8 +572,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootARENA3SetMenu();
 	elseif(dataID=="ARENA4SET") then
 		AtlasLootARENA4SetMenu();
-	elseif(dataID=="DS3SET") then
-		AtlasLootDS3SetMenu();
 	elseif(dataID=="SMITHINGMENU") then
 		AtlasLoot_SmithingMenu();
 	elseif(dataID=="ENCHANTINGMENU") then
