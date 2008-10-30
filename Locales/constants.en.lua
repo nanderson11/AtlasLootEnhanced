@@ -482,6 +482,12 @@ if AL then
     AL["The Twin Stars"] = true;
     AL["The Twin Blades of Azzinoth"] = true;
     
+    --Recipe origin strings
+    AL["Trainer"] = true;
+    AL["Discovery"] = true;
+    AL["World Drop"] = true;
+    AL["Vendor"] = true;
+    
 	--Scourge Invasion
     AL["Scourge Invasion"] = true;
     AL["Blessed Regalia of Undead Cleansing"] = true;
