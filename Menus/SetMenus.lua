@@ -10,7 +10,7 @@ AtlasLoot_Data["SETMENU"] = {
         { 5, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
         { 6, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
         { 7, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
-        { 8, "Aquatic", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
+        { 8, "Pets1", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
         { 9, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
         { 10, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
         { 13, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};

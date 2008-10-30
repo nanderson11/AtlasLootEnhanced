@@ -1265,13 +1265,11 @@ AtlasLoot_DewDropDown_SubTables = {
         { "", "DeadlyGladiatorWeapons1" },
 	},
 	["Pets"] = {
-		{ AtlasLoot_TableNames["Aquatic"][1], "Aquatic" },
-		{ AtlasLoot_TableNames["Birds"][1], "Birds" },
-		{ AtlasLoot_TableNames["Invertebrates"][1], "Invertebrates" },
-		{ AtlasLoot_TableNames["Mammals1"][1], "Mammals1" },
-		{ AtlasLoot_TableNames["Mechanical"][1], "Mechanical" },
-		{ AtlasLoot_TableNames["Mythical1"][1], "Mythical1" },
-		{ AtlasLoot_TableNames["Reptiles"][1], "Reptiles" },
+		{ AtlasLoot_TableNames["Pets1"][1], "Pets1" },
+		{ AtlasLoot_TableNames["Pets2"][1], "Pets2" },
+		{ AtlasLoot_TableNames["Pets3"][1], "Pets3" },
+		{ AtlasLoot_TableNames["Pets4"][1], "Pets4" },
+		{ AtlasLoot_TableNames["Pets5"][1], "Pets5" },
 	},
 	["MountsClassic"] = {
 		{ AtlasLoot_TableNames["Mounts11"][1], "Mounts11" },

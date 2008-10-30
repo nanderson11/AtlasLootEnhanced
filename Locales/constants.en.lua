@@ -285,7 +285,6 @@ if AL then
     AL["Summon"] = true;
     AL["Random"] = true;
     AL["Weapons"] = true;
-    AL["Sold at"] = true;
     AL["Reward"] = true;
     AL["Achievement"] = true;
     AL["Unattainable Tabards"] = true;
@@ -896,19 +895,19 @@ if AL then
     AL["Rare Mounts"] = true;
     AL["Flying Mounts"] = true;
 
-	--Specs
-	AL["Balance"] = true;
-	AL["Feral"] = true;
-	AL["Restoration"] = true;
-	AL["Holy"] = true;
-	AL["Protection"] = true;
-	AL["Retribution"] = true;
-	AL["Shadow"] = true;
-	AL["Elemental"] = true;
-	AL["Enhancement"] = true;
-	AL["Fury"] = true;
-	AL["Demonology"] = true;
-	AL["Destruction"] = true;
+    --Specs
+    AL["Balance"] = true;
+    AL["Feral"] = true;
+    AL["Restoration"] = true;
+    AL["Holy"] = true;
+    AL["Protection"] = true;
+    AL["Retribution"] = true;
+    AL["Shadow"] = true;
+    AL["Elemental"] = true;
+    AL["Enhancement"] = true;
+    AL["Fury"] = true;
+    AL["Demonology"] = true;
+    AL["Destruction"] = true;
     AL["Tanking"] = true;
     AL["DPS"] = true;
 
@@ -1058,8 +1057,8 @@ if AL then
     --Zones
     AL["World Drop"] = true;
     AL["Sunwell Isle"] = true;
-	AL["Lake Wintergrasp"] = true;
-    
+    AL["Lake Wintergrasp"] = true;
+
     --Shortcuts for Bossname files
     AL["LBRS"] = true;
     AL["UBRS"] = true;

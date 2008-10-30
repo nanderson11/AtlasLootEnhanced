@@ -162,7 +162,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m29#", AL["Tradable against sunmote + item above"]);
     text = gsub(text, "#m30#", AL["Tier 1"]);
     text = gsub(text, "#m31#", AL["Tier 2"]);
-    text = gsub(text, "#m32#", AL["Sold at"]);
+
     text = gsub(text, "#m33#", AL["Reward"]);
     text = gsub(text, "#m34#", AL["Achievement"]);
     text = gsub(text, "#m35#", AL["Tier 6"]);
@@ -206,6 +206,13 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j36#", AL["Flying Mounts"]);
     text = gsub(text, "#j37#", AL["10 Man"]);
     text = gsub(text, "#j38#", AL["25 Man"]);
+    text = gsub(text, "#j39#", AL["Aquatic"]);
+    text = gsub(text, "#j40#", AL["Birds"]);
+    text = gsub(text, "#j41#", AL["Invertebrates"]);
+    text = gsub(text, "#j42#", AL["Mechanical"]);
+    text = gsub(text, "#j43#", AL["Mammals"]);
+    text = gsub(text, "#j44#", AL["Mythical"]);
+    text = gsub(text, "#j45#", AL["Reptiles"]);
 
     -- Upper Deck Card Game
     text = gsub(text, "#ud1#", AL["Heroes of Azeroth"]);

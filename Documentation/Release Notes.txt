@@ -5,6 +5,61 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.?
+Dungeons and Raids:
+Added loot for 'Utgarde Keep'
+Added loot for 'The Nexus'
+Added loot for 'Azjol-Nerub'
+Added loot for 'Ahn'kahet: The Old Kingdom'
+Added loot for 'Drak'tharon Keep'
+Added loot for 'The Violet Hold'
+Added loot for 'Gundrak'
+Added loot for 'Halls of Stone'
+Added loot for 'CoT:Stratholme'
+Added loot for 'The Oculus'
+Added loot for 'Halls of Lightning'
+Added loot for 'Utgarde Pinnacle'
+Added loot for 'Naxxramas'
+Added loot for 'Obsidian Sanctum'
+Added loot for 'The Eye of Eternity'
+Revamp of almost every Classic instance
+Revamp of almost every BC instance
+PvP:
+Added PvP Level 80 Blue and Epic Sets (Savage/Hateful/Deadly Gladiator)
+Added PvP Level 80 Blue Weapons (Savage Gladiator/Deadly)
+Added PvP Non-Set Epics Level 80
+Factions:
+Added Argent Crusade faction
+Added Frenzyheart Tribe faction
+Added Kirin Tor faction
+Added Knights of the Ebon Blade faction
+Added The Kalu'ak faction
+Added The Oracles faction
+Added The Wyrmrest Accord faction
+Revamp of Faction section
+Sets:
+Added Tier 7 10/25-Man Sets
+Merged Tier 1/2 sets (sorted by class)
+Merged Tier 4/5/6 sets (sorted by class/spec)
+Merged Dungeon Set 3 (sorted by armor type)
+Merged PvP Reputation sets (sorted by armor type)
+Merged Arena sets (sorted by class/spec)
+Removed class breakdown for AQ20 sets
+Removed class breakdown for AQ40 sets
+Removed class breakdown for ZG sets
+Revamp of Tabard section
+Revamp of Pre-60 set section
+Revamp of Mounts sections
+Added Non Combat Pets section
+Interface:
+Added 'prev' and 'next' buttons to many sets pages
+Added 'prev' and 'next' buttons to many instance pages
+Changed loot browser instance menu from sort by continent to sort by expansion
+Events:
+Hallow's End update
+Crafting:
+Revamped Blacksmith section of the Crafting Module
+
 v5.01.03
 Fixed T7 Paladin sets
 Scourge Invasion updated
