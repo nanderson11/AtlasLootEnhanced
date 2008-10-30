@@ -34,8 +34,6 @@ if AL then
     AL["Factions - Original WoW"] = "Classic Fraktionen";
     AL["Factions - Burning Crusade"] = "Burning Crusade Fraktionen";
     AL["Factions - Wrath of the Lich King"] = "Wrath of the Lich King Fraktionen";
-    AL["Pre-Burning Crusade"] = "Vor Burning Crusade";
-    AL["Post-Burning Crusade"] = "Nach Burning Crusade";
     AL["Choose Table ..."] = "Wähle Tabelle ...";
     AL["Close Menu"] = "Schließe Menü";
     AL["Unknown"] = "Unknown";
@@ -744,8 +742,6 @@ if AL then
 	--    AL["Tier 1/2 Sets"] = true,
 	--    AL["Tier 3 Sets"] = true,
 	--	  AL["Tier 4/5/6 Sets"] = true;
-	--    AL["PvP Sets (Level 60)"] = true,
-	--    AL["PvP Sets (Level 70)"] = true,
     AL["PvP Reputation Sets (Level 70)"] = "PvP Ruf Sets (Level 70)";
     AL["PvP Rewards (Level 60)"] = "PvP-Belohnungen (Level 60)";
     AL["PvP Rewards (Level 70)"] = "PvP-Belohnungen (Level 70)";
@@ -764,19 +760,8 @@ if AL then
     AL["PvP Honor System"] = "PvP Ehren System";
 	--    AL["PvP Reputation Sets"] = true,
 	--    AL["Arena PvP Sets"] = true,
-	--    AL["Arena 2 PvP Sets"] = true,
-	--    AL["Arena 3 PvP Sets"] = true,
-	--    AL["Arena 4 PvP Sets"] = true,
     AL["Arena PvP Weapons"] = "Arena PvP Waffen";
-    AL["Arena 2 PvP Weapons"] = "Arena 2 PvP Waffen";
-    AL["Arena 3 PvP Weapons"] = "Arena 3 PvP Waffen";
-    AL["Arena 4 PvP Weapons"] = "Arena 4 PvP Waffen";
 	--    AL["Arena PvP System"] = true,
-	--    AL["Arena Season 1 Weapons"] = true,
-	--    AL["Arena Season 2 Weapons"] = true,
-	--    AL["Arena Season 3 Weapons"] = true,
-	--    AL["Arena Season 4 Weapons"] = true,
-    AL["Season 1"] = "1. Saison";
     AL["Season 2"] = "2. Saison";
     AL["Season 3"] = "3. Saison";
     AL["Season 4"] = "4. Saison";

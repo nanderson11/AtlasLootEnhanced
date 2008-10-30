@@ -40,8 +40,6 @@ if AL then
 	AL["Show 10 Man Loot"] = "显示10人掉落";
 	AL["Show 25 Man Loot"] = "显示25人掉落";
 	AL["Raid"] = "团队";
-	AL["Pre-Burning Crusade"] = "《燃烧的远征》之前";
-	AL["Post-Burning Crusade"] = "《燃烧的远征》之后";
 	AL["Choose Table ..."] = "请选择……";
 	AL["Close Menu"] = "关闭";
 	AL["Unknown"] = "未知";
@@ -717,8 +715,6 @@ if AL then
 	AL["Tier 1/2 Sets"] = "等级1/2套装";
 	AL["Tier 3 Sets"] = "等级3套装";
 	---["Tier 4/5/6 Sets"] = ?;
-	AL["PvP Sets (Level 60)"] = "PvP奖励套装 (等级 60)";
-	AL["PvP Sets (Level 70)"] = "PvP奖励套装 (等级 70)";
 	AL["PvP Reputation Sets (Level 70)"] = "PvP声望套装 (等级 70)";
 	AL["PvP Rewards (Level 60)"] = "PvP奖励 (等级 60)";
 	AL["PvP Rewards (Level 70)"] = "PvP奖励 (等级 70)";
@@ -736,19 +732,11 @@ if AL then
 	AL["PvP Honor System"] = "PvP荣誉系统";
 	AL["PvP Reputation Sets"] = "PvP声望套装";
 	AL["Arena PvP Sets"] = "竞技场奖励套装";
-	AL["Arena 2 PvP Sets"] = "竞技场第二赛季奖励套装";
-	AL["Arena 3 PvP Sets"] = "竞技场第三赛季奖励套装";
-	AL["Arena 4 PvP Sets"] = "竞技场第四赛季奖励套装";
 	AL["Arena PvP Weapons"] = "竞技场奖励武器";
-	AL["Arena 2 PvP Weapons"] = "竞技场第二赛季奖励武器";
-	AL["Arena 3 PvP Weapons"] = "竞技场第三赛季奖励武器";
-	AL["Arena 4 PvP Weapons"] = "竞技场第四赛季奖励武器";
 	AL["Arena PvP System"] = "竞技场系统";
-	AL["Arena Season 1 Weapons"] = "竞技场第一赛季奖励武器";
 	AL["Arena Season 2 Weapons"] = "竞技场第二赛季奖励武器";
 	AL["Arena Season 3 Weapons"] = "竞技场第三赛季奖励武器";
 	AL["Arena Season 4 Weapons"] = "竞技场第四赛季奖励武器";
-	AL["Season 1"] = "第一赛季";
 	AL["Season 2"] = "第二赛季";
 	AL["Season 3"] = "第三赛季";
 	AL["Season 4"] = "第四赛季";

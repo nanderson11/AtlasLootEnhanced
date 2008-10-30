@@ -54,8 +54,6 @@ if AL then
     AL["Factions - Original WoW"] = "Facciones - WoW Original";
     AL["Factions - Burning Crusade"] = "Facciones - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Facciones - Wrath of the Lich King";
-    --AL["Pre-Burning Crusade"] = true,
-    --AL["Post-Burning Crusade"] = true,
     AL["Choose Table ..."] = "Elige una tabla...";
     AL["Close Menu"] = "Cerrar menú";
     AL["Unknown"] = "Desconocido";
@@ -257,7 +255,6 @@ if AL then
     AL["Tier 7 Sets"] = "Sets T7";
     AL["10/25 Man"] = "10/25 Personas";
     AL["Tier 7 Sets 10/25 Man"] = "Tier 7 Sets 10/25 Pers";
-    AL["Level 80 Naxxramas Sets"] = "Nivel 80 Naxxramas Sets";
     AL["Level 80 PvP Sets"] = "Nivel 80 JcJ Sets";
     AL["Arena Reward"] = "Recompensas de Arenas";
     AL["Conjured Item"] = "Objetos conjurados";
@@ -764,9 +761,6 @@ if AL then
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Armas de Gladiador indómito";
     AL["Deadly Gladiator\'s Weapons"] = "Armas de Gladiador mortífero"; --Comprobar
-    
-	--PvP Level 80 Placeholder!!
-    --AL["Placeholder"] = true, --FALTA
 	
     --Set Labels
     AL["Set: Embrace of the Viper"] = "Conjunto: Abrazo de la víbora";
@@ -800,8 +794,6 @@ if AL then
     AL["Tier 1/2 Sets"] = "Conjuntos T1/2";
     AL["Tier 3 Sets"] = "Conjuntos T3";
 	AL["Tier 4/5/6 Sets"] = "Conjuntos T4/5/6";
-    AL["PvP Sets (Level 60)"] = "Conjuntos JcJ (Nivel 60)";
-    AL["PvP Sets (Level 70)"] = "Conjuntos JcJ (Nivel 70)";
     AL["PvP Reputation Sets (Level 70)"] = "Conjuntos JcJ por Reputación (Nivel 70)";
     AL["PvP Rewards (Level 60)"] = "Recompensas JcJ (Nivel 60)";
     AL["PvP Rewards (Level 70)"] = "Recompensas JcJ (Nivel 70)";
@@ -819,19 +811,11 @@ if AL then
     AL["PvP Honor System"] = "Sistema de Honor JcJ";
     AL["PvP Reputation Sets"] = "Conjuntos JcJ por reputación";
     AL["Arena PvP Sets"] = "Conjuntos de Arenas JcJ";
-    AL["Arena 2 PvP Sets"] = "Conjuntos de Arenas 2 JcJ";
-    AL["Arena 3 PvP Sets"] = "Conjuntos de Arenas 3 JcJ";
-    AL["Arena 4 PvP Sets"] = "Conjuntos de Arenas 4 JcJ";
     AL["Arena PvP Weapons"] = "Armas de Arenas JcJ";
-    AL["Arena 2 PvP Weapons"] = "Armas de Arenas 2 JcJ";
-    AL["Arena 3 PvP Weapons"] = "Armas de Arenas 3 JcJ";
-    AL["Arena 4 PvP Weapons"] = "Armas de Arenas 4 JcJ";
     AL["Arena PvP System"] = "Sistema de Arenas JcJ";
-    AL["Arena Season 1 Weapons"] = "Armas Arenas - Temporada 1";
     AL["Arena Season 2 Weapons"] = "Armas Arenas - Temporada 2";
     AL["Arena Season 3 Weapons"] = "Armas Arenas - Temporada 3";
     AL["Arena Season 4 Weapons"] = "Armas Arenas - Temporada 4";
-    AL["Season 1"] = "Temporada 1";
     AL["Season 2"] = "Temporada 2";
     AL["Season 3"] = "Temporada 3";
     AL["Season 4"] = "Temporada 4";

@@ -48,12 +48,9 @@ if AL then
     AL["10 Man"] = true;
     AL["25 Man"] = true;
     AL["Raid"] = true;
-    AL["Factions - Azeroth"] = true;
     AL["Factions - Original WoW"] = true;
     AL["Factions - Burning Crusade"] = true;
     AL["Factions - Wrath of the Lich King"] = true;
-    AL["Pre-Burning Crusade"] = true;
-    AL["Post-Burning Crusade"] = true;
     AL["Choose Table ..."] = true;
     AL["Close Menu"] = true;
     AL["Unknown"] = true;
@@ -263,7 +260,6 @@ if AL then
     AL["Tier 7 Sets"] = true;
     AL["10/25 Man"] = true;
     AL["Tier 7 Sets 10/25 Man"] = true;
-    AL["Level 80 Naxxramas Sets"] = true;
     AL["Level 80 PvP Sets"] = true;
     AL["Arena Reward"] = true;
     AL["Conjured Item"] = true;
@@ -294,37 +290,37 @@ if AL then
     AL["Loot Card Items"] = true;
     AL["UDE Items"] = true;
 
-    -- serie 1
+    -- First set
     AL["Heroes of Azeroth"] = true;
 	AL["Landro Longshot"] = true;
 	AL["Thunderhead Hippogryph"] = true;
 	AL["Saltwater Snapjaw"] = true;
-    -- serie 2
+    -- Second set
     AL["Through The Dark Portal"] = true;
 	AL["King Mukla"] = true;
 	AL["Rest and Relaxation"] = true;
 	AL["Fortune Telling"] = true;
-    -- serie 3
+    -- Third set
     AL["Fires of Outland"] = true;
 	AL["Spectral Tiger"] = true;
 	AL["Gone Fishin'"] = true;
 	AL["Goblin Gumbo"] = true;
-    -- serie 4
+    -- Fourth set
     AL["March of the Legion"] = true;
 	AL["Kiting"] = true;
 	AL["Robotic Homing Chicken"] = true;
 	AL["Paper Airplane"] = true;
-    -- serie 5
+    -- Fifth set
     AL["Servants of the Betrayer"] = true;
 	AL["X-51 Nether-Rocket"] = true;
 	AL["Personal Weather Machine"] = true;
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = true;
-    -- serie 6
+    -- Sixth set
     AL["Hunt for Illidan"] = true;
 	AL["The Footsteps of Illidan"] = true;
 	AL["Disco Inferno!"] = true;
 	AL["Ethereal Plunderer"] = true;
-    -- serie 7
+    -- Seventh set
     AL["Drums of War"] = true;
 	AL["The Red Bearon"] = true;
 	AL["Owned!"] = true;
@@ -811,8 +807,6 @@ if AL then
     AL["Tier 1/2 Sets"] = true;
     AL["Tier 3 Sets"] = true;
     AL["Tier 4/5/6 Sets"] = true;
-    AL["PvP Sets (Level 60)"] = true;
-    AL["PvP Sets (Level 70)"] = true;
     AL["PvP Reputation Sets (Level 70)"] = true;
     AL["PvP Rewards (Level 60)"] = true;
     AL["PvP Rewards (Level 70)"] = true;
@@ -831,19 +825,11 @@ if AL then
     AL["PvP Honor System"] = true;
     AL["PvP Reputation Sets"] = true;
     AL["Arena PvP Sets"] = true;
-    AL["Arena 2 PvP Sets"] = true;
-    AL["Arena 3 PvP Sets"] = true;
-    AL["Arena 4 PvP Sets"] = true;
     AL["Arena PvP Weapons"] = true;
-    AL["Arena 2 PvP Weapons"] = true;
-    AL["Arena 3 PvP Weapons"] = true;
-    AL["Arena 4 PvP Weapons"] = true;
     AL["Arena PvP System"] = true;
-    AL["Arena Season 1 Weapons"] = true;
     AL["Arena Season 2 Weapons"] = true;
     AL["Arena Season 3 Weapons"] = true;
     AL["Arena Season 4 Weapons"] = true;
-    AL["Season 1"] = true;
     AL["Season 2"] = true;
     AL["Season 3"] = true;
     AL["Season 4"] = true;
