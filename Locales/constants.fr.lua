@@ -45,6 +45,8 @@ if AL then
     AL["Normal Mode"] = "Mode Normal";
     AL["Show 10 Man Loot"] = "Afficher les loots Raid 10";
     AL["Show 25 Man Loot"] = "Afficher les loots Raid 25";
+    AL["10 Man"] = "10 Joueurs";
+    AL["25 Man"] = "25 Joueurs";
     --AL["Raid"] = true,
     AL["Factions - Original WoW"] = "Factions - WoW Originale";
     AL["Factions - Burning Crusade"] = "Factions - Burning Crusade";
@@ -279,7 +281,6 @@ if AL then
     AL["Summon"] = "Invocation";
     AL["Random"] = "Aléatoire";
     AL["Weapons"] = "Armes";
-    AL["Sold at"] = "Vendu à";
     AL["Reward"] = "Récompense";
     AL["Achievement"] = "Haut fait"
     AL["Unattainable Tabards"] = "Tabards inaccessible";
@@ -477,13 +478,19 @@ if AL then
     AL["The Twin Stars"] = "Les Etoiles jumelles";
     AL["The Twin Blades of Azzinoth"] = "Les Lames Doubles d'Azzinoth";
 
+    --Recipe origin strings
+    AL["Trainer"] = "Entraineur";
+    AL["Discovery"] = "Découverte";
+    --AL["World Drop"] = true;
+    AL["Vendor"] = "Vendeur";
+
     --Scourge Invasion
     AL["Scourge Invasion"] = "Invasion du Fléau";
-    --AL["Blessed Regalia of Undead Cleansing"] = "Tenue de parade bénie de purificateur de mort-vivant"; -- à traduire
-    --AL["Undead Slayer's Blessed Armor"] = true; -- à traduire
-    --AL["Blessed Garb of the Undead Slayer"] = true; -- à traduire
-    --AL["Blessed Battlegear of Undead Slaying"] = true; -- à traduire
-    --AL["Prince Tenris Murkblood"] = true; -- à traduire
+    AL["Blessed Regalia of Undead Cleansing"] = "Tenue de parade bénie de purificateur de mort-vivant";
+    AL["Undead Slayer's Blessed Armor"] = "Armure bénie de tueur de mort-vivant";
+    AL["Blessed Garb of the Undead Slayer"] = "Atours bénis de tueur de mort-vivant";
+    AL["Blessed Battlegear of Undead Slaying"] = "Tenue de combat bénie de tueur de mort-vivant";
+    AL["Prince Tenris Murkblood"] = "Prince Tenris Bourbassang";
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Atours d'haruspice";
