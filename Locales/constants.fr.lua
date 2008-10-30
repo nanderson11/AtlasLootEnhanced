@@ -490,7 +490,7 @@ if AL then
     AL["Undead Slayer's Blessed Armor"] = "Armure bénie de tueur de mort-vivant";
     AL["Blessed Garb of the Undead Slayer"] = "Atours bénis de tueur de mort-vivant";
     AL["Blessed Battlegear of Undead Slaying"] = "Tenue de combat bénie de tueur de mort-vivant";
-    AL["Prince Tenris Murkblood"] = "Prince Tenris Bourbassang";
+    AL["Prince Tenris Mirkblood"] = "Prince Tenris Bourbassang";
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Atours d'haruspice";

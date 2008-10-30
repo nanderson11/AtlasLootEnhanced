@@ -431,7 +431,7 @@ if AL then
     AL["Undead Slayer's Blessed Armor"] = "Gesegnete Rüstung des Untotenschlachtens";
     AL["Blessed Garb of the Undead Slayer"] = "Gesegnetes Gewand des Untotenschlächters";
     AL["Blessed Battlegear of Undead Slaying"] = "Gesegnete Kampfrüstung des Untotenschlachtens";
-    AL["Prince Tenris Murkblood"] = "Prinz Tenris Mirkblut";
+    AL["Prince Tenris Mirkblood"] = "Prinz Tenris Mirkblut";
 
     --ZG Sets
     AL["Haruspex's Garb"] = "Gewand des Haruspex";

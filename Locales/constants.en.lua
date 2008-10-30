@@ -490,7 +490,7 @@ if AL then
     AL["Undead Slayer's Blessed Armor"] = true;
     AL["Blessed Garb of the Undead Slayer"] = true;
     AL["Blessed Battlegear of Undead Slaying"] = true;
-    AL["Prince Tenris Murkblood"] = true;
+    AL["Prince Tenris Mirkblood"] = true;
 
     --ZG Sets
     AL["Haruspex's Garb"] = true;
