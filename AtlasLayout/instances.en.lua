@@ -6,6 +6,101 @@ AtlasLootBossButtons = {
   ---------------------
   -- WotLK Instances --
   ---------------------
+  	AhnKahet = {      
+		"Ahnkahet";
+        "Ahnkahet";
+        "Ahnkahet";
+        "Ahnkahet";
+        "";
+        };
+
+	AzjolNerub = {      
+		"";
+        "";
+        "AzjolNerub";
+        "AzjolNerub";
+        "AzjolNerub";
+        };
+
+    CoTOldStratholme = {      
+		"";
+        "CoTStratholmeMeathook";
+        "CoTStratholmeSalramm";
+        "CoTStratholmeEpoch";
+        "CoTStratholmeMalGanis";
+        };
+
+    DrakTharonKeep = {      
+		"";
+        "";
+        "";
+        "DrakTharonKeep";
+        "DrakTharonKeep";
+       	"DrakTharonKeep";
+        "DrakTharonKeep";
+        };
+
+    Gundrak = {      
+		"";
+        "Gundrak";
+        "Gundrak";
+        "Gundrak";
+        "Gundrak";
+        };
+
+   	TheNexus = {      
+		"";
+        "TheNexus";
+        "TheNexus";
+        "TheNexus";
+        "TheNexus";
+        };
+
+    TheOculus = {      
+		"OcuDrakos";
+        "OcuUrom";
+        "OcuEregos";
+        "OcuCloudstrider";
+        };
+
+    ObsidianSanctum = {      
+		"";
+        "Sartharion";
+        };
+
+    UlduarHallsofLightning = {
+    	"";
+    	"HoLGjarngrin";
+        "HoLVolkhan";
+        "HoLIonar";
+        "HoLKronus";
+        };
+        
+    UlduarHallsofStone = {
+    	"";
+    	"HallsofStone";
+        "HallsofStone";
+        "HoLIonar";
+        "HallsofStone";
+        "HallsofStone";
+        };
+
+	UtgardeKeep = {
+    	"";
+    	"";
+        "UtgardeKeep";
+        "";
+        "UtgardeKeep";
+        "UtgardeKeep";
+        };
+
+    UtgardePinnacle = {
+    	"";
+    	"UPYmiron";
+        "UPSorrowgrave";
+        "UPPalehoof";
+        "UPSkadi";
+        };
 
   ------------------
   -- BC Instances --
