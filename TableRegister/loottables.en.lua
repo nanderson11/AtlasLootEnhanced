@@ -905,14 +905,14 @@ AtlasLoot_TableNames = {};
 ------------------------
 
   -- Misc Factions
-	AtlasLoot_TableNames["MiscFactions"] = { AL["Factions - Azeroth"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["MiscFactions"] = { AL["Factions - Original WoW"], "AtlasLootOriginalWoW" };
   --Alterac Factions
 	AtlasLoot_TableNames["AlteracFactions"] = { BabbleZone["Alterac Valley"], "AtlasLootOriginalWoW" };
   --Argent Dawn
 	AtlasLoot_TableNames["Argent1"] = { BabbleFaction["Argent Dawn"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Argent2"] = { BabbleFaction["Argent Dawn"], "AtlasLootOriginalWoW" };
   --Bloodsail Buccaneers & Hydraxian Waterlords
-	AtlasLoot_TableNames["BloodsailHydraxian"] = { AL["Factions - Azeroth"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BloodsailHydraxian"] = { AL["Factions - Original WoW"], "AtlasLootOriginalWoW" };
   --Brood of Nozdormu
 	AtlasLoot_TableNames["AQBroodRings"] = { BabbleFaction["Brood of Nozdormu"], "AtlasLootOriginalWoW" };
   --Cenarion Circle
