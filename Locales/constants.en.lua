@@ -485,6 +485,8 @@ if AL then
     AL["Discovery"] = true;
     AL["World Drop"] = true;
     AL["Vendor"] = true;
+    AL["Quest"] = true;
+    AL["Crafted"] = true;
     
 	--Scourge Invasion
     AL["Scourge Invasion"] = true;
