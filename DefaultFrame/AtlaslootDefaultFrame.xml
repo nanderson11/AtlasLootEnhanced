@@ -152,7 +152,7 @@
 								<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT"/>
 								<Anchor point="BOTTOMRIGHT" relativeTo="$parent" relativePoint="BOTTOMRIGHT"/>
 							</Anchors>
-							<Color r="0" g="0" b="1" a="0.5"/>
+							<Color r="0" g="0" b="0.5" a="0.5"/>
 						</Texture>
 					</Layer>
 				</Layers>
