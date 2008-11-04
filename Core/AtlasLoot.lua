@@ -366,9 +366,11 @@ function AtlasLoot_Reset(data)
         AtlasLoot.db.profile.LastBoss = "EmptyTable";
 		AtlasLootDefaultFrame:ClearAllPoints();
 		AtlasLootDefaultFrame:SetPoint("CENTER", "UIParent", "CENTER", 0, 0);
-        --AtlasLootMinimapButtonFrame:ClearAllPoints();
-        --AtlasLoot.db.profile.MinimapButtonAngle = 240;
-        --AtlasLootMinimapButtonFrame:SetPoint("TOPLEFT","Minimap","TOPLEFT",54 - (78 * cos(AtlasLoot.db.profile.MinimapButtonAngle)),(78 * sin(AtlasLoot.db.profile.MinimapButtonAngle)) - 55);
+        if AtlasLootFu then
+            AtlasLootFu.db.profile.minimapPosition = 200;
+            AtlasLootFu:Hide();
+            AtlasLootFu:Show();
+        end
         AtlasLoot.db.profile.LootBrowserScale = 1.0;
         AtlasLoot_UpdateLootBrowserScale();
     elseif data == "quicklooks" then
@@ -384,9 +386,11 @@ function AtlasLoot_Reset(data)
         AtlasLoot.db.profile.LastBoss = "EmptyTable";
 		AtlasLootDefaultFrame:ClearAllPoints();
 		AtlasLootDefaultFrame:SetPoint("CENTER", "UIParent", "CENTER", 0, 0);
-        --AtlasLootMinimapButtonFrame:ClearAllPoints();
-        --AtlasLoot.db.profile.MinimapButtonAngle = 240;
-        --AtlasLootMinimapButtonFrame:SetPoint("TOPLEFT","Minimap","TOPLEFT",54 - (78 * cos(AtlasLoot.db.profile.MinimapButtonAngle)),(78 * sin(AtlasLoot.db.profile.MinimapButtonAngle)) - 55);
+        if AtlasLootFu then
+            AtlasLootFu.db.profile.minimapPosition = 200;
+            AtlasLootFu:Hide();
+            AtlasLootFu:Show();
+        end
         AtlasLoot.db.profile.LootBrowserScale = 1.0;
         AtlasLoot_UpdateLootBrowserScale();
         AtlasLootCharDB["QuickLooks"] = {};
