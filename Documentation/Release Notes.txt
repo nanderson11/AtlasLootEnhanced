@@ -62,7 +62,8 @@ Revamped Blacksmith section of the Crafting Module
 
 v5.01.04
 Alchemy revamp complete
-AtlasLootFu can now be reset with atlasloot rest functions
+AtlasLootFu can now be reset with atlasloot reset functions
+Many minor bugfixes
 
 v5.01.03
 Fixed T7 Paladin sets
