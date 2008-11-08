@@ -80,7 +80,7 @@ AtlasLootBossButtons = {
     	"";
     	"HallsofStone";
         "HallsofStone";
-        "HoLIonar";
+        "";
         "HallsofStone";
         "HallsofStone";
         };

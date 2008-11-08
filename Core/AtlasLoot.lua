@@ -38,8 +38,8 @@ local VERSION_MAJOR = "5";
 local VERSION_MINOR = "01";
 local VERSION_BOSSES = "04";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "1.12.3";
-ATLASLOOT_PREVIEW_ATLAS = "1.13.0";
+ATLASLOOT_CURRENT_ATLAS = "1.13.0";
+ATLASLOOT_PREVIEW_ATLAS = "1.13.1";
 ATLASLOOT_POSITION = AL["Position:"];
 
 --Standard indent to line text up with Atlas text
@@ -649,7 +649,9 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				elseif (not isItem) and (spellIcon) then
 					if tonumber(dataSource[dataID][i][3]) then
 						iconFrame:SetTexture(GetItemIcon(tonumber(dataSource[dataID][i][3])));
-					elseif type(dataSource[dataID][i][3]) == "string" then
+					elseif dataSource[dataID][i][3] == "" then
+						iconFrame:SetTexture(spellIcon);
+                    elseif type(dataSource[dataID][i][3]) == "string" then
 						iconFrame:SetTexture("Interface\\Icons\\"..dataSource[dataID][i][3]);
 					else
 						iconFrame:SetTexture(spellIcon);

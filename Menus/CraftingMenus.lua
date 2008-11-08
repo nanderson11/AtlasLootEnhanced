@@ -8,10 +8,11 @@ AtlasLoot_Data["CRAFTINGMENU"] = {
         { 3, "SMITHINGMENU", "Trade_BlackSmithing", "=ds="..GetSpellInfo(2018), ""};
         { 4, "ENCHANTINGMENU", "Trade_Engraving", "=ds="..GetSpellInfo(7411), ""};
         { 5, "ENGINEERINGMENU", "Trade_Engineering", "=ds="..GetSpellInfo(4036), ""};
-        { 6, "JEWELCRAFTINGMENU", "INV_Misc_Gem_01", "=ds="..GetSpellInfo(25229), ""};
-        { 7, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
-        { 8, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
-        { 9, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
+        { 6, "INSCRIPTIONMENU", "INV_Inscription_Tradeskill01", "=ds="..GetSpellInfo(45357), ""};
+        { 7, "JEWELCRAFTINGMENU", "INV_Misc_Gem_01", "=ds="..GetSpellInfo(25229), ""};
+        { 8, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
+        { 9, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
+        { 10, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
         { 17, "COOKINGMENU", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
         { 18, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
         { 20, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
@@ -84,6 +85,16 @@ AtlasLoot_Data["ALCHEMYMENU"] = {
         { 17, "AlchemyGuardianElixir1", "INV_Potion_23", "=ds="..AL["Guardian Elixirs"], "" };
         { 18, "AlchemyFlask1", "INV_Potion_23", "=ds="..AL["Flasks"], "" };
         { 19, "AlchemyMisc1", "INV_Potion_23", "=ds="..AL["Miscellaneous"], "" };
+        Back = "CRAFTINGMENU";
+    };
+    
+AtlasLoot_Data["INSCRIPTIONMENU"] = {
+        { 2, "Inscription_Scrolls1", "INV_Inscription_Tradeskill01", "=ds="..AL["Scrolls"], "" };
+        { 3, "Inscription_Misc1", "INV_Inscription_Tradeskill01", "=ds="..AL["Miscellaneous"], "" };
+        { 5, "Inscription_DeathKnightMajor1", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Major Glyph"] };
+        { 17, "Inscription_OffHand1", "INV_Inscription_Tradeskill01", "=ds="..AL["Off-Hand Items"], "" };
+        { 18, "Inscription_Reagents1", "INV_Inscription_Tradeskill01", "=ds="..AL["Reagents"], "" };
+        { 20, "Inscription_DeathKnightMinor1", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Minor Glyph"] };
         Back = "CRAFTINGMENU";
     };
 

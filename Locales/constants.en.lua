@@ -232,6 +232,13 @@ if AL then
     AL["Transmutes"] = true;
     AL["Flasks"] = true;
     
+    --Inscription
+    AL["Major Glyph"] = true;
+    AL["Minor Glyph"] = true;
+    AL["Scrolls"] = true;
+    AL["Off-Hand Items"] = true;
+    AL["Reagents"] = true;
+    
     --Labels for loot descriptions
     AL["Classes:"] = true;
     AL["This Item Begins a Quest"] = true;
@@ -1048,6 +1055,7 @@ if AL then
     AL["Rescue Mission"] = true;
     AL["Gjarngrin"] = true;
     AL["Kronus"] = true;
+    AL["Loken"] = true;
     AL["Shattered Hand Executioner"] = true;
 
     --Zones

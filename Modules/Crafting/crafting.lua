@@ -1453,7 +1453,225 @@ local MASTER = select(2, GetSpellInfo(28596));
 		-------------------
 		--- Inscription ---
 		-------------------
-
+    AtlasLoot_Data["Inscription_OffHand1"] = {
+        { 1, "s59498", "44210", "=q4=Faces of Doom", "=ds=" };
+        { 2, "s59497", "38322", "=q4=Iron-bound Tome", "=ds=" };
+        { 3, "s59496", "43667", "=q3=Book of Clever Tricks", "=ds=" };        
+        { 4, "s59495", "43666", "=q3=Hellfire Tome", "=ds=" };
+        { 5, "s59494", "43664", "=q3=Manual of Clouds", "=ds=" };
+        { 6, "s59493", "43663", "=q3=Stormbound Tome", "=ds=" };
+        { 7, "s59490", "43661", "=q3=Book of Stars", "=ds=" };
+        { 8, "s59489", "43660", "=q3=Fire Eater's Guide", "=ds=" };
+        { 9, "s59486", "43657", "=q3=Royal Guide of Escape Routes", "=ds=" };
+        { 10, "s59484", "43656", "=q3=Tome of Kings", "=ds=" };
+        { 11, "s59478", "43655", "=q3=Book of Survival", "=ds=" };
+        { 12, "s59475", "43654", "=q3=Tome of the Dawn", "=ds=" };
+        { 13, "s58565", "43515", "=q3=Mystic Tome", "=ds="..AL["Trainer"] };
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_Reagents1"] = {
+        { 1, "s57716", "43127", "=q2=Snowfall Ink", "=ds="..AL["Trainer"] };
+        { 2, "s57714", "43125", "=q2=Darkflame Ink", "=ds="..AL["Trainer"] };
+        { 3, "s57712", "43123", "=q2=Ink of the Sky", "=ds="..AL["Trainer"] };
+        { 4, "s57710", "43121", "=q2=Fiery Ink", "=ds="..AL["Trainer"] };
+        { 5, "s57708", "43119", "=q2=Royal Ink", "=ds="..AL["Trainer"] };
+        { 6, "s57706", "43117", "=q2=Dawnstar Ink", "=ds="..AL["Trainer"] };
+        { 7, "s57703", "43115", "=q2=Hunter's Ink", "=ds="..AL["Trainer"] };
+        { 8, "s57715", "43126", "=q1=Ink of the Sea", "=ds="..AL["Trainer"] };
+        { 9, "s57713", "43124", "=q1=Ethereal Ink", "=ds="..AL["Trainer"] };
+        { 10, "s57711", "43122", "=q1=Shimmering Ink", "=ds="..AL["Trainer"] };
+        { 11, "s57709", "43120", "=q1=Celestial Ink", "=ds="..AL["Trainer"] };
+        { 12, "s57707", "43118", "=q1=Jadefire Ink", "=ds="..AL["Trainer"] };
+        { 13, "s57704", "43116", "=q1=Lion's Ink", "=ds="..AL["Trainer"] };
+        { 14, "s53462", "39774", "=q1=Midnight Ink", "=ds="..AL["Trainer"] };
+        { 15, "s52843", "39469", "=q1=Moonglow Ink", "=ds="..AL["Trainer"] };
+        { 16, "s52738", "37101", "=q1=Ivory Ink", "=ds="..AL["Trainer"] };
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_Scrolls1"] = {
+        { 1, "s60337", "44315", "=q1=Scroll of Recall III", "=ds=" };
+        { 2, "s60336", "44314", "=q1=Scroll of Recall II", "=ds=" };
+        { 3, "s48248", "37118", "=q1=Scroll of Recall", "=ds=" };
+        { 5, "s58483", "3012", "=q1=Scroll of Agility VIII", "=ds=" };
+        { 6, "s58482", "3012", "=q1=Scroll of Agility VII", "=ds=" };
+        { 7, "s58481", "3012", "=q1=Scroll of Agility VI", "=ds=" };
+        { 8, "s58480", "3012", "=q1=Scroll of Agility V", "=ds=" };
+        { 9, "s58478", "3012", "=q1=Scroll of Agility IV", "=ds=" };
+        { 10, "s58476", "3012", "=q1=Scroll of Agility III", "=ds=" };
+        { 11, "s58473", "3012", "=q1=Scroll of Agility II", "=ds=" };
+        { 12, "s58472", "3012", "=q1=Scroll of Agility", "=ds=" };
+        { 14, "s50604", "955", "=q1=Scroll of Intellect VIII", "=ds=" };
+        { 15, "s50603", "955", "=q1=Scroll of Intellect VII", "=ds=" };
+        { 16, "s50602", "955", "=q1=Scroll of Intellect VI", "=ds=" };
+        { 17, "s50601", "955", "=q1=Scroll of Intellect V", "=ds=" };
+        { 18, "s50600", "955", "=q1=Scroll of Intellect IV", "=ds=" };
+        { 19, "s50599", "955", "=q1=Scroll of Intellect III", "=ds=" };
+        { 20, "s50598", "955", "=q1=Scroll of Intellect II", "=ds=" };
+        { 21, "s48114", "955", "=q1=Scroll of Intellect", "=ds=" };
+        { 23, "s50611", "955", "=q1=Scroll of Spirit VIII", "=ds=" };
+        { 24, "s50610", "955", "=q1=Scroll of Spirit VII", "=ds=" };
+        { 25, "s50609", "955", "=q1=Scroll of Spirit VI", "=ds=" };
+        { 26, "s50608", "955", "=q1=Scroll of Spirit V", "=ds=" };
+        { 27, "s50607", "955", "=q1=Scroll of Spirit IV", "=ds=" };
+        { 28, "s50606", "955", "=q1=Scroll of Spirit III", "=ds=" };
+        { 29, "s50605", "955", "=q1=Scroll of Spirit II", "=ds=" };
+        { 30, "s48116", "955", "=q1=Scroll of Spirit", "=ds=" };
+        Back = "INSCRIPTIONMENU";
+        Next = "Inscription_Scrolls2";
+    };
+    
+    AtlasLoot_Data["Inscription_Scrolls2"] = {
+        { 1, "s50620", "1180", "=q1=Scroll of Stamina VIII", "=ds=" };
+        { 2, "s50619", "1180", "=q1=Scroll of Stamina VII", "=ds=" };
+        { 3, "s50618", "1180", "=q1=Scroll of Stamina VI", "=ds=" };
+        { 4, "s50617", "1180", "=q1=Scroll of Stamina V", "=ds=" };
+        { 5, "s50616", "1180", "=q1=Scroll of Stamina IV", "=ds=" };
+        { 6, "s50614", "1180", "=q1=Scroll of Stamina III", "=ds=" };
+        { 7, "s50612", "1180", "=q1=Scroll of Stamina II", "=ds=" };
+        { 8, "s45382", "1180", "=q1=Scroll of Stamina", "=ds=" };
+        { 16, "s58491", "3012", "=q1=Scroll of Strength VIII", "=ds=" };
+        { 17, "s58490", "3012", "=q1=Scroll of Strength VII", "=ds=" };
+        { 18, "s58489", "3012", "=q1=Scroll of Strength VI", "=ds=" };
+        { 19, "s58488", "3012", "=q1=Scroll of Strength V", "=ds=" };
+        { 20, "s58487", "3012", "=q1=Scroll of Strength IV", "=ds=" };
+        { 21, "s58486", "3012", "=q1=Scroll of Strength III", "=ds=" };
+        { 22, "s58485", "3012", "=q1=Scroll of Strength II", "=ds=" };
+        { 23, "s58484", "3012", "=q1=Scroll of Strength", "=ds=" };
+        Back = "INSCRIPTIONMENU";
+        Prev = "Inscription_Scrolls1";
+    };
+    
+    AtlasLoot_Data["Inscription_Misc1"] = {
+        { 1, "s59504", "INV_Feather_05", "=ds=Darkmoon Card of the North", "=ds=" };
+        { 2, "s59503", "INV_Feather_05", "=ds=Greater Darkmoon Card", "=ds=" };
+        { 3, "s59502", "INV_Feather_05", "=ds=Darkmoon Card", "=ds=" };
+        { 4, "s59491", "INV_Feather_05", "=ds=Shadowy Tarot", "=ds=" };
+        { 5, "s59487", "INV_Feather_05", "=ds=Arcane Tarot", "=ds=" };
+        { 6, "s59480", "INV_Feather_05", "=ds=Strange Tarot", "=ds=" };
+        { 8, "s61117", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Axe", "=ds=" };
+        { 9, "s61118", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Crag", "=ds=" };
+        { 10, "s61119", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Pinnacle", "=ds=" };
+        { 11, "s61120", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Storm", "=ds=" };
+        { 13, "s52175", "INV_Misc_Book_11", "=ds=Decipher", "=ds="..AL["Trainer"] };
+        { 16, "s59500", "43145", "=q1=Armor Vellum III", "=ds=" };
+        { 17, "s59499", "37602", "=q1=Armor Vellum II", "=ds=" };
+        { 18, "s52739", "38682", "=q1=Armor Vellum", "=ds="..AL["Trainer"] };
+        { 20, "s59501", "43146", "=q1=Weapon Vellum III", "=ds=" };
+        { 21, "s59488", "39350", "=q1=Weapon Vellum II", "=ds=" };
+        { 22, "s52840", "39349", "=q1=Weapon Vellum", "=ds="..AL["Trainer"] };
+        { 24, "s59387", "43850", "=q1=Certificate of Ownership", "=ds=" };
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_DeathKnightMajor1"] = {
+        { 1, "s57207", "43533", "=q1=Glyph of Anti-Magic Shell", "=ds=" };
+        { 2, "s57208", "43534", "=q1=Glyph of Blood Boil", "=ds=" };
+        { 3, "s59339", "43826", "=q1=Glyph of Blood Strike", "=ds=" };
+        { 4, "s57210", "43536", "=q1=Glyph of Bone Shield", "=ds=" };
+        { 5, "s57211", "43537", "=q1=Glyph of Chains of Ice", "=ds=" };
+        { 6, "s57212", "43538", "=q1=Glyph of Dark Command", "=ds=" };
+        { 7, "s57214", "43542", "=q1=Glyph of Death and Decay", "=ds=" };
+        { 8, "s57213", "43541", "=q1=Glyph of Death Grip", "=ds=" };
+        { 9, "s59340", "43827", "=q1=Glyph of Death Strike", "=ds=" };
+        { 10, "s57216", "43543", "=q1=Glyph of Frost Strike", "=ds=" };
+        { 11, "s57218", "43545", "=q1=Glyph of Icebound Fortitude", "=ds=" };
+        { 12, "s57219", "43546", "=q1=Glyph of Icy Touch", "=ds=" };
+        { 13, "s57220", "43547", "=q1=Glyph of Obliterate", "=ds=" };
+        { 14, "s57221", "43548", "=q1=Glyph of Plague Strike", "=ds=" };
+        { 15, "s57228", "44432", "=q1=Glyph of Raise Dead", "=ds=" };
+        { 16, "s57223", "43550", "=q1=Glyph of Rune Strike", "=ds=" };
+        { 17, "s59338", "43825", "=q1=Glyph of Rune Tap", "=ds=" };
+        { 18, "s57224", "43551", "=q1=Glyph of Scourge Strike", "=ds=" };
+        { 19, "s57225", "43552", "=q1=Glyph of Strangulate", "=ds=" };
+        { 20, "s57222", "43549", "=q1=Glyph of the Ghoul", "=ds=" };
+        { 21, "s57226", "43553", "=q1=Glyph of Unbreakable Armor", "=ds=" };
+        { 22, "s57227", "43554", "=q1=Glyph of Vampiric Blood", "=ds=" };
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_DeathKnightMinor1"] = {
+        { 1, "s57209", "43535", "=q1=Glyph of Blood Tap", "=ds=" };
+        { 2, "s57229", "43671", "=q1=Glyph of Corpse Explosion", "=ds=" };
+        { 3, "s57215", "43539", "=q1=Glyph of Death's Embrace", "=ds=" };
+        { 4, "s57217", "43544", "=q1=Glyph of Horn of Winter", "=ds=" };
+        { 5, "s57230", "43672", "=q1=Glyph of Pestilence", "=ds=" };
+        { 6, "s57228", "43673", "=q1=Glyph of Raise Dead", "=ds=" };
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_DruidMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_DruidMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_HunterMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_HunterMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_MageMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_MageMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_PaladinMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_PaladinMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_PriestMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_PriestMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_RogueMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_RogueMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_ShamanMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_ShamanMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_WarlockMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_WarlockMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_WarriorMajor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
+    
+    AtlasLoot_Data["Inscription_WarriorMinor1"] = {
+        Back = "INSCRIPTIONMENU";
+    };
 		---------------------
 		--- Jewelcrafting ---
 		---------------------

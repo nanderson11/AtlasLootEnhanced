@@ -217,19 +217,20 @@ AtlasLoot_DewDropDown = {
 			[4] = { { (GetSpellInfo(7411)), "Enchanting", "Submenu" }, },
 			[5] = { { (GetSpellInfo(4036)), "Engineering", "Submenu" }, },
 			[6] = { { (GetSpellInfo(3273)), "FirstAid1", "Table" }, },
-			[7] = { { (GetSpellInfo(25229)), "Jewelcrafting", "Submenu" }, },
-			[8] = { { (GetSpellInfo(2108)), "Leatherworking", "Submenu" }, },
-			[9] = { { (GetSpellInfo(2575)), "Mining1", "Table" }, },
-			[10] = { { (GetSpellInfo(3908)), "Tailoring", "Submenu" }, },
-			[11] = { 
+			[7] = { { (GetSpellInfo(45357)), "Inscription", "Submenu" }, },
+            [8] = { { (GetSpellInfo(25229)), "Jewelcrafting", "Submenu" }, },
+			[9] = { { (GetSpellInfo(2108)), "Leatherworking", "Submenu" }, },
+			[10] = { { (GetSpellInfo(2575)), "Mining1", "Table" }, },
+			[11] = { { (GetSpellInfo(3908)), "Tailoring", "Submenu" }, },
+			[12] = { 
 				[AL["Crafted Sets"]] = {
 					{ (GetSpellInfo(2018)), "CraftSetBlacksmith", "Submenu" },
 					{ (GetSpellInfo(2108)), "CraftSetLeatherwork", "Submenu" },
 					{ (GetSpellInfo(3908)), "CraftSetTailor", "Submenu" },
 				}, 
 			},
-			[12] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
-			[13] = { { AL["Crafting Daily Quests"], "CraftingDaily", "Submenu" }, },
+			[13] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
+			[14] = { { AL["Crafting Daily Quests"], "CraftingDaily", "Submenu" }, },
 		},
 	},
 	[5] = {
@@ -1337,6 +1338,14 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["EngineeringMaster1"][1], "EngineeringMaster1" },
 		{ AtlasLoot_TableNames["Gnomish1"][1], "Gnomish1" },
 		{ AtlasLoot_TableNames["Goblin1"][1], "Goblin1" },
+	},
+    ["Inscription"] = {
+		{ AL["Miscellaneous"], "Inscription_Misc1" },
+		{ AL["Off-Hand Items"], "Inscription_OffHand1" },
+		{ AL["Reagents"], "Inscription_Reagents1" },
+		{ AL["Scrolls"], "Inscription_Scrolls1" },
+        { AL["Major Glyph"].." - "..BabbleClass["Deathknight"], "Inscription_DeathKnightMajor1" },
+		{ AL["Minor Glyph"].." - "..BabbleClass["Deathknight"], "Inscription_DeathKnightMinor1" },
 	},
 	["Jewelcrafting"] = {
 		{ AtlasLoot_TableNames["JewelApprentice1"][1], "JewelApprentice1" },

@@ -41,6 +41,7 @@ local SHADOWEAVE = GetSpellInfo(26801);
 local SPELLFIRE = GetSpellInfo(26797);
 local COOKING = GetSpellInfo(2550);
 local FIRSTAID = GetSpellInfo(3273);
+local INSCRIPTION = GetSpellInfo(45357);
 
 --Table of loot titles
 AtlasLoot_TableNames = {};
@@ -77,7 +78,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["HoLGjarngrin"] = { AL["Gjarngrin"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoLIonar"] = { BabbleBoss["Ionar"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoLVolkhan"] = { BabbleBoss["Volkhan"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLKronus"] = { AL["Kronus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoLKronus"] = { AL["Loken"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoLUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
     --Caverns of Time: Stratholme
 	AtlasLoot_TableNames["CoTStratholmeMeathook"] = { BabbleBoss["Meathook"], "AtlasLootWotLK" };
@@ -1059,6 +1060,32 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["EngineeringMaster4"] = { ENGINEERING..": "..MASTER, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Gnomish1"] = { GNOMISH, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Goblin1"] = { GOBLIN, "AtlasLootCrafting" };
+  --Inscription
+    AtlasLoot_TableNames["Inscription_OffHand1"] = { INSCRIPTION..": "..AL["Off-Hand Items"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_Reagents1"] = { INSCRIPTION..": "..AL["Reagents"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_Scrolls1"] = { INSCRIPTION..": "..AL["Scrolls"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_Scrolls2"] = { INSCRIPTION..": "..AL["Scrolls"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_Misc1"] = { INSCRIPTION..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_DeathKnightMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Deathknight"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_DeathKnightMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Deathknight"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_DruidMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Druid"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_DruidMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Druid"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_HunterMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Hunter"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_HunterMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Hunter"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_MageMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Mage"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_MageMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Mage"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_PaladinMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Paladin"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_PaladinMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Paladin"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_PriestMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Priest"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_PriestMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Priest"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_RogueMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Rogue"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_RogueMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Rogue"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_ShamanMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Shaman"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_ShamanMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Shaman"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_WarlockMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Warlock"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_WarlockMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Warlock"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_WarriorMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..BabbleClass["Warrior"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["Inscription_WarriorMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Warrior"], "AtlasLootCrafting" };
   --Jewelcrafing
 	AtlasLoot_TableNames["JewelApprentice1"] = { JEWELCRAFTING..": "..APPRENTICE, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelJourneyman1"] = { JEWELCRAFTING..": "..JOURNEYMAN, "AtlasLootCrafting" };
@@ -1234,6 +1261,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["SMITHINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["ENCHANTINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["ENGINEERINGMENU"] = { "dummy", "dummy" };
+    AtlasLoot_TableNames["INSCRIPTIONMENU"] = { INSCRIPTION, "Menu" };
 	AtlasLoot_TableNames["JEWELCRAFTINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["LEATHERWORKINGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["MININGMENU"] = { "dummy", "dummy" };
