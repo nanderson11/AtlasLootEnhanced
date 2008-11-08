@@ -812,10 +812,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["Naxx80Razuvious25Man"] = {
-		{ 3, 40324, "", "=q4=Bands of Mutual Respect", "=ds=#s8#, #a3#"};
-		{ 3, 40316, "", "=q4=Gauntlets of Guiding Touch", "=ds=#s9#, #a4#"};
+		{ 1, 40324, "", "=q4=Bands of Mutual Respect", "=ds=#s8#, #a3#"};
+		{ 2, 40316, "", "=q4=Gauntlets of Guiding Touch", "=ds=#s9#, #a4#"};
 		{ 3, 40320, "", "=q4=Faithful Steel Sabatons", "=ds=#s12#, #a4#"};
-		{ 3, 40069, "", "=q4=Heritage", "=ds=#s2#"};
+		{ 4, 40069, "", "=q4=Heritage", "=ds=#s2#"};
 	};
 
 	AtlasLoot_Data["Naxx80Gothik"] = {
@@ -873,10 +873,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40602, "", "=q4=Robes of Mutation", "=ds=#s5#, #a1#"};
 		{ 3, 40193, "", "=q4=Tunic of Masked Suffering", "=ds=#s5#, #a3#"};
 		{ 4, 40185, "", "=q4=Shoulderguards of Opportunity", "=ds=#s3#, #a4#"};
-		{ 5, 40187, "", "=q4=Poignant Sabatons", "=ds=#s12#, #a4#"};
-		{ 6, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#"}; --????
-		{ 7, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#"};
-		{ 8, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#"};
+		{ 5, 40188, "", "=q4=Gauntlets of the Disobediant", "=ds=#s9#, #a4#"};
+        { 6, 40187, "", "=q4=Poignant Sabatons", "=ds=#s12#, #a4#"};
+		{ 7, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#"}; --????
+		{ 8, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#"};
+		{ 9, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#"};
+        { 10, 40190, "", "=q4=Spinning Fate", "=ds=#w11#"};
 	};
 
 	AtlasLoot_Data["Naxx80Heigan"] = {
@@ -893,11 +895,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["Naxx80Heigan25Man"] = {
-		{ 1, 40234, "", "=q4=Heigan's Putrid Vestments", "=ds=#s5#, #a1#"};
-		{ 1, 40209, "", "=q4=Bindings of the Decrepit", "=ds=#s8#, #a3#"};
-		{ 1, 40237, "", "=q4=Eruption-Scared Boots", "=ds=#s12#, #a3#"};
-		{ 1, 40203, "", "=q4=Breastplate of Tormented Rage", "=ds=#s5#, #a4#"};
-		{ 1, 40255, "", "=q4=Dying Curse", "=ds=#s13#"};
+        { 1, 40250, "", "=q4=Aged Winter Cloak", "=ds=#s4#"};
+		{ 2, 40234, "", "=q4=Heigan's Putrid Vestments", "=ds=#s5#, #a1#"};
+        { 3, 40236, "", "=q4=Serene Echoes", "=ds=#s12#, #a1#"};
+		{ 4, 40209, "", "=q4=Bindings of the Decrepit", "=ds=#s8#, #a3#"};
+		{ 5, 40201, "", "=q4=Leggings of Colossal Strides", "=ds=#s11#, #a3#"};
+        { 6, 40237, "", "=q4=Eruption-Scared Boots", "=ds=#s12#, #a3#"};
+		{ 7, 40203, "", "=q4=Breastplate of Tormented Rage", "=ds=#s5#, #a4#"};
+		{ 8, 40255, "", "=q4=Dying Curse", "=ds=#s13#"};
+        { 9, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#" };
 	};
 
 	AtlasLoot_Data["Naxx80Loatheb"] = {
@@ -915,6 +921,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 40247, "", "=q4=Cowl of Innocent Delight", "=ds=#s1#, #a1#"};
 		{ 2, 40243, "", "=q4=Footwraps of Vile Deceit", "=ds=#s11#, #a2#"};
 		{ 3, 40244, "", "=q4=The Impossible Dream", "=ds=#h3#, #w6#"};
+        { 4, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#"};
 		{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", ""};
 		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", ""};
 		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", ""};
@@ -960,6 +967,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["Naxx80KelThuzad25Man"] = {
+        { 1, 40405, "", "=q4=Cape of the Unworthy Wizard", "=ds=#s4#" };
+        { 2, 40403, "", "=q4=Drape of the Deadly Foe", "=ds=#s4#" };
+        { 3, 40387, "", "=q4=Boundless Ambition", "=ds=#s2#" };
+        { 4, 40399, "", "=q4=Signet of Manifested Pain", "=ds=#s13#" };
+        { 6, 40395, "", "=q4=Torch of Holy Fire", "=ds=#h3#, #w6#" };
+        { 7, 40396, "", "=q4=The Turning Tide", "=ds=#h3#, #w10#" };
+        { 8, 40383, "", "=q4=Calamity's Grasp", "=ds=#h3#, #w13#" };
+        { 9, 40402, "", "=q4=Last Laugh", "=ds=#h1#, #w1#" };
+        { 10, 40386, "", "=q4=Sinister Revenge", "=ds=#h1#, #w4#" };
+        { 11, 40384, "", "=q4=Betrayer of Humanity", "=ds=#h2#, #w1#" };
+        { 12, 40388, "", "=q4=Journey's End", "=ds=#w9#" };
+        { 13, 40401, "", "=q4=Voice of Reason", "=ds=#w8#" };
+        { 14, 40400, "", "=q4=Wall of Terror", "=ds=#w8#" };
+        { 15, 40385, "", "=q4=Envoy of Mortality", "=ds=#w5#" };
 		{ 16, 40631, "", "=q4=Crown of the Lost Conqueror", ""};
 		{ 17, 40632, "", "=q4=Crown of the Lost Protector", ""};
 		{ 18, 40633, "", "=q4=Crown of the Lost Vanquisher", ""};
