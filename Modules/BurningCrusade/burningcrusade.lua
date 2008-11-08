@@ -5738,7 +5738,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 33976, "", "=q3=Brewfest Ram", "=ds=#e12#"};
 		{ 20, 37012, "", "=q4=The Horseman's Reins", "=q2=#n136#"};
 		{ 21, 37011, "", "=q3=Magic Broom", "=q2=#n136#"};
-		{ 22, 33189, "", "=q2=Rickety Magic Broom", "=q2=#n136#"};
 		{ 25, 0, "INV_Box_01", "=q6=#j32#", ""};
 		{ 26, 34061, "", "=q4=Turbo-Charged Flying Machine Control", "=ds=#p5#"};
 		{ 27, 34060, "", "=q3=Flying Machine Control", "=ds=#p5#"};

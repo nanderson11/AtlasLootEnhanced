@@ -1102,7 +1102,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Ironweave Battlesuit"], "VWOWSets2" },
 		{ AL["Necropile Raiment"], "VWOWScholo" },
 		{ AL["Primal Blessing"], "VWOWZulGurub" },
-		{ AL["Scourge Invasion"], "VWOWScourgeInvasion" },
 		{ AL["Shard of the Gods"], "VWOWSets3" },
 		{ AL["Spider's Kiss"], "VWOWSets3" },
 		{ AL["Spirit of Eskhandar"], "VWOWSets3" },

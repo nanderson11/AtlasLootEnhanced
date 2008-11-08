@@ -227,22 +227,22 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["Halloween2"] = {
 		{ 1, 0, "INV_Misc_Bag_11", "=q6=#x18#", ""};
-		{ 2, 0, "", "=q1=Flimsy Male Draenei Mask", "=ds=#s1#"};
+		{ 2, 34003, "", "=q1=Flimsy Male Draenei Mask", "=ds=#s1#"};
 		{ 3, 20561, "", "=q1=Flimsy Male Dwarf Mask", "=ds=#s1#"};
 		{ 4, 20391, "", "=q1=Flimsy Male Gnome Mask", "=ds=#s1#"};
 		{ 5, 20566, "", "=q1=Flimsy Male Human Mask", "=ds=#s1#"};
 		{ 6, 20564, "", "=q1=Flimsy Male Nightelf Mask", "=ds=#s1#"};
-		{ 7, 0, "", "=q1=Flimsy Male Blood Elf Mask", "=ds=#s1#"};
+		{ 7, 34002, "", "=q1=Flimsy Male Blood Elf Mask", "=ds=#s1#"};
 		{ 8, 20570, "", "=q1=Flimsy Male Orc Mask", "=ds=#s1#"};
 		{ 9, 20572, "", "=q1=Flimsy Male Tauren Mask", "=ds=#s1#"};
 		{ 10, 20568, "", "=q1=Flimsy Male Troll Mask", "=ds=#s1#"};
 		{ 11, 20573, "", "=q1=Flimsy Male Undead Mask", "=ds=#s1#"};
-		{ 17, 0, "", "=q1=Flimsy Female Draenei Mask", "=ds=#s1#"};
+		{ 17, 34001, "", "=q1=Flimsy Female Draenei Mask", "=ds=#s1#"};
 		{ 18, 20562, "", "=q1=Flimsy Female Dwarf Mask", "=ds=#s1#"};
 		{ 19, 20392, "", "=q1=Flimsy Female Gnome Mask", "=ds=#s1#"};
 		{ 20, 20565, "", "=q1=Flimsy Female Human Mask", "=ds=#s1#"};
 		{ 21, 20563, "", "=q1=Flimsy Female Nightelf Mask", "=ds=#s1#"};
-		{ 22, 0, "", "=q1=Flimsy Female Blood Elf Mask", "=ds=#s1#"};
+		{ 22, 34000, "", "=q1=Flimsy Female Blood Elf Mask", "=ds=#s1#"};
 		{ 23, 20569, "", "=q1=Flimsy Female Orc Mask", "=ds=#s1#"};
 		{ 24, 20571, "", "=q1=Flimsy Female Tauren Mask", "=ds=#s1#"};
 		{ 25, 20567, "", "=q1=Flimsy Female Troll Mask", "=ds=#s1#"};

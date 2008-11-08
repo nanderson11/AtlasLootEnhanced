@@ -4454,26 +4454,6 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		Back = "PRE60SET";
 	};
 
-	AtlasLoot_Data["VWOWScourgeInvasion"] = {
-		{ 1, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s11#", "=ec1=#a1#"};
-		{ 2, 23085, "", "=q3=Robe of Undead Cleansing", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 3, 23091, "", "=q3=Bracers of Undead Cleansing", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 4, 23084, "", "=q3=Gloves of Undead Cleansing", "=ds=#s9#, =q2=#m4#", "", ""};
-		{ 6, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s12#", "=ec1=#a2#"};
-		{ 7, 23089, "", "=q3=Tunic of Undead Slaying", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 8, 23093, "", "=q3=Wristwraps of Undead Slaying", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 9, 23081, "", "=q3=Handwraps of Undead Slaying", "=ds=#s9#, =q2=#m4#", "", ""};
-		{ 16, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s13#", "=ec1=#a3#"};
-		{ 17, 23088, "", "=q3=Chestguard of Undead Slaying", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 18, 23092, "", "=q3=Wristguards of Undead Slaying", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 19, 23082, "", "=q3=Handguards of Undead Slaying", "=ds=#s9#, =q2=#m4#", "", ""};
-		{ 21, 0, "INV_Jewelry_Talisman_13", "=q6=#pre60s14#", "=ec1=#a4#"};
-		{ 22, 23087, "", "=q3=Breastplate of Undead Slaying", "=ds=#s5#, =q2=#n25#", "", ""};
-		{ 23, 23090, "", "=q3=Bracers of Undead Slaying", "=ds=#s8#, =q2=#n26#, #n27#", "", ""};
-		{ 24, 23078, "", "=q3=Gauntlets of Undead Slaying", "=ds=#s9#, =q2=#m4#", "", ""};
-		Back = "PRE60SET";
-	};
-
 	AtlasLoot_Data["VWOWZulGurub"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#pre60s16#", "=q1=#z8#"};
 		{ 2, 19898, "", "=q3=Seal of Jin", "=ds=#s13#, =q2=#n28#", "", "8.81%"};
