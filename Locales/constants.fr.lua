@@ -232,6 +232,13 @@ if AL then
     AL["Transmutes"] = "Transmutations";
     AL["Flasks"] = "Flacons";
 
+    --Inscription
+    AL["Major Glyph"] = "Glyphe majeur";
+    AL["Minor Glyph"] = "Glyphe mineur";
+    AL["Scrolls"] = "Parchemins";
+    AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
+    AL["Reagents"] = "Réactifs";
+
     --Labels for loot descriptions
     AL["Classes:"] = "Classes :";
     AL["This Item Begins a Quest"] = "Cet objet permet de lancer une quête";
@@ -1048,6 +1055,7 @@ if AL then
     --AL["Rescue Mission"] = true; -- à traduire
     --AL["Gjarngrin"] = true; -- à traduire
     --AL["Kronus"] = true; -- à traduire
+    --AL["Loken"] = true; -- à traduire
     AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 
     --Zones
