@@ -1602,10 +1602,37 @@ local MASTER = select(2, GetSpellInfo(28596));
     };
     
     AtlasLoot_Data["Inscription_DruidMajor1"] = {
+        { 1, "s48121", "40924", "=q1=Glyph of Entangling Roots", "=ds=" };
+        { 2, "s56943", "40896", "=q1=Glyph of Frenzied Regeneration", "=ds=" };
+        { 3, "s56944", "40899", "=q1=Glyph of Growl", "=ds=" };
+        { 4, "s56945", "40914", "=q1=Glyph of Healing Touch", "=ds=" };
+        { 5, "s56946", "40920", "=q1=Glyph of Hurricane", "=ds=" };
+        { 6, "s56947", "40908", "=q1=Glyph of Innervate", "=ds=" };
+        { 7, "s56948", "40919", "=q1=Glyph of Insect Swarm", "=ds=" };
+        { 8, "s56949", "40915", "=q1=Glyph of Lifebloom", "=ds=" };
+        { 9, "s56950", "40900", "=q1=Glyph of Mangle", "=ds=" };
+        { 10, "s56961", "40897", "=q1=Glyph of Maul", "=ds=" };
+        { 11, "s56951", "40923", "=q1=Glyph of Moonfire", "=ds=" };
+        { 12, "s56952", "40903", "=q1=Glyph of Rake", "=ds=" };
+        { 13, "s56953", "40909", "=q1=Glyph of Rebirth", "=ds=" };
+        { 14, "s56954", "40912", "=q1=Glyph of Regrowth", "=ds=" };
+        { 15, "s56955", "40913", "=q1=Glyph of Rejuvenation", "=ds=" };
+        { 16, "s56956", "40902", "=q1=Glyph of Rip", "=ds=" };
+        { 17, "s56957", "40901", "=q1=Glyph of Shred", "=ds=" };
+        { 18, "s56958", "40921", "=q1=Glyph of Starfall", "=ds=" };
+        { 19, "s56959", "40916", "=q1=Glyph of Starfire", "=ds=" };
+        { 20, "s56960", "40906", "=q1=Glyph of Swiftmend", "=ds=" };
+        { 21, "s56963", "40922", "=q1=Glyph of Wrath", "=ds=" };
         Back = "INSCRIPTIONMENU";
     };
     
     AtlasLoot_Data["Inscription_DruidMinor1"] = {
+        { 1, "s58286", "43316", "=q1=Glyph of Aquatic Form", "=ds=" };
+        { 2, "s58287", "43334", "=q1=Glyph of Challenging Roar", "=ds=" };
+        { 3, "s59315", "43674", "=q1=Glyph of Dash", "=ds=" };
+        { 4, "s58296", "43335", "=q1=Glyph of the Wild", "=ds=" };
+        { 5, "s58289", "43332", "=q1=Glyph of Thorns", "=ds=" };
+        { 6, "s58288", "43331", "=q1=Glyph of Unburdened Rebirth", "=ds=" };
         Back = "INSCRIPTIONMENU";
     };
     
