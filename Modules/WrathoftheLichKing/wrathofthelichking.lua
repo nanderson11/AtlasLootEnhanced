@@ -49,7 +49,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------------
 		--- Utgarde Keep ---
 		--------------------
---Most Heroic loot based on IDs
+
 	AtlasLoot_Data["UtgardeKeep"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
 		{ 2, 35572, "", "=q3=Reinforced Velvet Helm", "=ds=#s1#, #a1#"};
@@ -73,27 +73,30 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["UtgardeKeepHEROIC"] = {
-		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
-		{ 4, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
-		{ 5, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
-		{ 6, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
-		{ 7, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Skarvald the Constructor"], ""};
-		{ 10, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
-		{ 11, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
-		{ 12, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
-		{ 13, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Ingvar the Plunderer"], ""};
-		{ 17, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
-		{ 18, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
-		{ 19, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#"};
-		{ 20, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#"};
-		{ 22, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#"};
-		{ 23, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#"};
-		{ 24, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
-		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
-		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e8#"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
+		{ 2, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
+		{ 3, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
+		{ 4, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
+		{ 5, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
+		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Skarvald the Constructor"], ""};
+		{ 8, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
+		{ 9, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
+		{ 10, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
+		{ 11, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
+		{ 13, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 14, 37197, "", "=q3=Tattered Castle Drape", "=ds=#s4#"};
+		{ 15, 37196, "", "=q3=Runecaster's Mantle", "=ds=#s3#, #a1#"};
+		{ 16, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 18, 0, "INV_Box_01", "=q6="..BabbleBoss["Ingvar the Plunderer"], ""};
+		{ 19, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
+		{ 20, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
+		{ 21, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#"};
+		{ 22, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#"};
+		{ 23, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#"};
+		{ 24, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#"};
+		{ 25, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
+		{ 26, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
+		{ 28, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#"};
 	};
 
 		-----------------
@@ -106,17 +109,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#"};
 		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#"};
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Ormorok the Tree-Shaper"], ""};
-		{ 7, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#"};
-		{ 8, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#"};
-		{ 9, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#"};
+		{ 7, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
+		{ 8, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
+		{ 9, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anomalus"], ""};
-		{ 17, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
-		{ 18, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
-		{ 19, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
+		{ 17, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#"};
+		{ 18, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#"};
+		{ 19, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#"};
 		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Keristrasza"], ""};
-		{ 22, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
-		{ 23, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
-		{ 24, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
+		{ 22, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#"};
+		{ 23, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s2#"};
+		{ 24, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
 	};
 	
 	AtlasLoot_Data["TheNexusHEROIC"] = {
@@ -127,15 +130,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"};
 		{ 7, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Ormorok the Tree-Shaper"], ""};
-		{ 10, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
-		{ 11, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
-		{ 12, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#"};
-		{ 13, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
+		{ 10, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
+		{ 11, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
+		{ 12, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
+		{ 13, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anomalus"], ""};
-		{ 17, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
-		{ 18, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
-		{ 19, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
-		{ 20, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
+		{ 17, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
+		{ 18, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
+		{ 19, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#"};
+		{ 20, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
 		{ 22, 0, "INV_Box_01", "=q6=Commander Stoutbeard", ""};
 		{ 23, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#"};
 		{ 24, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
@@ -179,27 +182,30 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["AzjolNerubHEROIC"] = {
-		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Krik'thir the Gatewatcher"], ""};
-		{ 4, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
-		{ 5, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
-		{ 6, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
-		{ 7, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Hadronox"], ""};
-		{ 10, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
-		{ 11, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
-		{ 12, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#"};
-		{ 13, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anub'arak"], ""};
-		{ 17, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
-		{ 18, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
-		{ 19, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#"};
-		{ 20, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#"};
-		{ 21, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#"};
-		{ 22, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#"};
-		{ 23, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#"};
-		{ 24, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
-		{ 26, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Krik'thir the Gatewatcher"], ""};
+		{ 2, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
+		{ 3, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
+		{ 4, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
+		{ 5, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
+		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Hadronox"], ""};
+		{ 8, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
+		{ 9, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
+		{ 10, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#"};
+		{ 11, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
+		{ 13, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 14, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
+		{ 15, 0, "", "=q3=Fungi-Coated Boots", "=ds=#s12#, #a3#"};
+		{ 16, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 18, 0, "INV_Box_01", "=q6="..BabbleBoss["Anub'arak"], ""};
+		{ 19, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
+		{ 20, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
+		{ 21, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#"};
+		{ 22, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#"};
+		{ 23, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#"};
+		{ 24, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#"};
+		{ 25, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#"};
+		{ 26, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
+		{ 28, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
 	};
 
 		----------------------------------
@@ -227,24 +233,29 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 35613, "", "=q3=Pyramid Embossed Belt", "=ds=#s10#, #a2#"};
 		{ 24, 35614, "", "=q3=Volazj's Sabatons", "=ds=#s12#, #a4#"};
 	};
---Most Heroic loot based on IDs
+
 	AtlasLoot_Data["AhnkahetHEROIC"] = {
 		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
 		{ 4, 37613, "", "=q3=Flame Sphere Bindings", "=ds=#s8#, #a1#"};
 		{ 5, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
 		{ 6, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
-		{ 7, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
+		{ 7, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#"};
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
 		{ 10, 37594, "", "=q3=Elder Headpiece", "=ds=#s1#, #a1#"};
 		{ 11, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
 		{ 12, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
 		{ 13, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jedoga Shadowseeker"], ""};
-		{ 18, 0, "INV_Box_01", "=q6=Amanitar", ""};
-		{ 19, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#"};
-		{ 20, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
-		{ 21, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
+		{ 17, 43283, "", "=q3=Subterranean Waterfall Shroud", "=ds=#s4#"};
+		{ 18, 43280, "", "=q3=Faceguard of the Hammer Clan", "=ds=#s1#, #a4#"};
+		{ 19, 43282, "", "=q3=Shadowseeker's Pendant", "=ds=#s2#"};
+		{ 20, 43281, "", "=q3=Edge of Oblivion", "=ds=#h2#, #w1#"};
+		{ 22, 0, "INV_Box_01", "=q6=Amanitar", ""};
+		{ 23, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#"};
+		{ 24, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
+		{ 25, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
+		{ 26, 43284, "", "=q3=Amanitar Skullbow", "=ds=#w2#"};
 		};
 
 	AtlasLoot_Data["AhnkahetVolazjHEROIC"] = {
@@ -256,6 +267,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 7, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#"};
 		{ 8, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#"};
 		{ 9, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#"};
+		{ 10, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
 	};
 
 		------------------------
@@ -284,7 +296,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 35637, "", "=q3=Muradin's Lost Greaves", "=ds=#s11#, #a4#"};
 		{ 24, 35636, "", "=q3=Tharon'ja's Aegis", "=ds=#w8#"};
 	};
---Most Heroic loot based on IDs
+
 	AtlasLoot_Data["DrakTharonKeepHEROIC"] = {
 		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Trollgore"], ""};
@@ -294,16 +306,22 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 7, 37712, "", "=q3=Terrace Defence Boots", "=ds=#s12#, #a4#"};
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Novos the Summoner"], ""};
 		{ 10, 37722, "", "=q3=Breastplate of Undeath", "=ds=#s5#, #a4#"};
-		{ 11, 37723, "", "=q3=Incisor Fragment", "=ds=#s14#"};
-		{ 12, 37718, "", "=q3=Temple Crystal Fragment", "=ds=#s15#"};
-		{ 13, 37721, "", "=q3=Cursed Lich Blade", "=ds=#h3#, #w10#"};
+		{ 11, 37718, "", "=q3=Temple Crystal Fragment", "=ds=#s15#"};
+		{ 12, 37721, "", "=q3=Cursed Lich Blade", "=ds=#h3#, #w10#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["King Dred"], ""};
 		{ 17, 37725, "", "=q3=Savage Wound Wrap", "=ds=#s8#, #a1#"};
 		{ 18, 37724, "", "=q3=Handler's Arm Strap", "=ds=#s8#, #a2#"};
 		{ 19, 37726, "", "=q3=King Dred's Helm", "=ds=#s1#, #a3#"};
-		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["The Prophet Tharon'ja"], ""};
-		{ 22, 37788, "", "=q4=Limb Regeneration Bracers", "=ds=#s8#, #a3#"};
-		{ 23, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#"};
+		{ 20, 37723, "", "=q3=Incisor Fragment", "=ds=#s14#"};
+		{ 22, 0, "INV_Box_01", "=q6="..BabbleBoss["The Prophet Tharon'ja"], ""};
+		{ 23, 37789, "", "=q4=Overlook Handguards", "=ds=#s9#, #a1#"};
+		{ 24, 37791, "", "=q4=Leggings of the Winged Serpent", "=ds=#s11#, #a2#"};
+		{ 25, 37788, "", "=q4=Limb Regeneration Bracers", "=ds=#s8#, #a3#"};
+		{ 26, 37784, "", "=q4=Keystone Great-Ring", "=ds=#s13#"};
+		{ 27, 37735, "", "=q3=Ziggurat Imprinted Chestguard", "=ds=#s5#, #a4#"};
+		{ 28, 37732, "", "=q3=Spectral Seal of the Prophet", "=ds=#s13#"};
+		{ 29, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#"};
+		{ 30, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#"};
 	};
 
 		-----------------------
@@ -325,19 +343,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		---------------
 		--- Gundrak ---
 		---------------
---Most Heroic loot based on IDs
+
 	AtlasLoot_Data["Gundrak"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
 		{ 2, 35584, "", "=q3=Embroidered Gown of Zul'drak", "=ds=#s5#, #a1#"};
 		{ 3, 35585, "", "=q3=Cannibal's Legguards", "=ds=#s11#, #a3#"};
 		{ 4, 35583, "", "=q3=Witch Doctor's Wildstaff", "=ds=#w9#"};
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
-		{ 7, 35588, "", "=q3=Forlorn Breastplate of War", "=ds=#s5#, #a4#"}; -- assumed drop
+		{ 7, 35588, "", "=q3=Forlorn Breastplate of War", "=ds=#s5#, #a4#"};
 		{ 8, 35589, "", "=q3=Arcane Focal Signet", "=ds=#s13#"};
 		{ 9, 35587, "", "=q3=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#"};
 		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 12, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
-		{ 13, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
+		{ 12, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
+		{ 13, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
+		{ 14, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
 		{ 17, 35591, "", "=q3=Shoulderguards of the Ice Troll", "=ds=#s3#, #a2#"};
 		{ 18, 35592, "", "=q3=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#"};
@@ -347,15 +366,18 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 43309, "", "=q3=Amulet of the Stampede", "=ds=#s2#"};
 		{ 24, 43306, "", "=q3=Gal'darah's Signet", "=ds=#s13#"};
 	};
-
+--Heroic still incomplete. Need to wait for live data to complete
 	AtlasLoot_Data["GundrakHEROIC"] = {
 		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
 		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
 		{ 6, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#"};
 		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
-		{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
 		{ 11, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
+		{ 11, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s12#, #a2#"};
+		{ 11, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
+		{ 11, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
 		{ 12, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
 	};
 
@@ -389,15 +411,35 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["HallsofStoneHEROIC"] = {
 		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Maiden of Grief"], ""};
-		{ 4, 38618, "", "=q3=Hammer of Grief", "=ds=#h2#, #w6#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Krystallus"], ""};
-		{ 7, 37650, "", "=q3=Shardling Legguards", "=ds=#s11#, #a4#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir the Ironshaper"], ""};
-		{ 17, 37669, "", "=q4=Leggings of the Stone Halls", "=ds=#s11#, #a3#"};
-		{ 18, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#"};
-		{ 19, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#"};
-		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["The Tribunal of Ages"], ""};
-		{ 22, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#"};
+		{ 4, 38616, "", "=q3=Maiden's Girdle", "=ds=#s10#, #a2#"};
+		{ 5, 38615, "", "=q3=Lightning-Charged Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 38617, "", "=q3=Woeful Band", "=ds=#s13#"};
+		{ 7, 38618, "", "=q3=Hammer of Grief", "=ds=#h2#, #w6#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Krystallus"], ""};
+		{ 10, 37652, "", "=q3=Spaulders of Krystallus", "=ds=#s3#, #a2#"};
+		{ 11, 37650, "", "=q3=Shardling Legguards", "=ds=#s11#, #a4#"};
+		{ 12, 37651, "", "=q3=The Prospector's Prize", "=ds=#s13#"};
+		{ 13, 37653, "", "=q3=Sword of Justice", "=ds=#h2#, #w10#"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 17, 37673, "", "=q3=Dark Runic Mantle", "=ds=#s3#, #a1#"};
+		{ 18, 37672, "", "=q3=Patina-Coated Breastplate", "=ds=#s5#, #a4#"};
+		{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["The Tribunal of Ages"], ""};
+		{ 21, 37655, "", "=q3=Mantle of the Tribunal", "=ds=#s3#, #a1#"};
+		{ 22, 37656, "", "=q3=Raging Construct Bands", "=ds=#s8#, #a3#"};
+		{ 23, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#"};
+	};
+	
+	AtlasLoot_Data["HoSSjonnirHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir the Ironshaper"], ""};
+		{ 2, 37669, "", "=q4=Leggings of the Stone Halls", "=ds=#s11#, #a3#"};
+		{ 3, 37668, "", "=q4=Bands of the Stoneforge", "=ds=#s8#, #a4#"};
+		{ 4, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#"};
+		{ 5, 37667, "", "=q4=The Fleshshaper", "=ds=#h1#, #w4#"};
+		{ 6, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a3#"};
+		{ 7, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#"};
+		{ 8, 37657, "", "=q3=Spark of Life", "=ds=#s14#"};
+		{ 9, 37660, "", "=q3=Forge Ember", "=ds=#s14#"};
+		{ 10, 43699, "", "=q1=The Curse of Flesh Disc", "=ds=#m3#"};
 	};
 
 		--------------------------

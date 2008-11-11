@@ -162,7 +162,6 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m29#", AL["Tradable against sunmote + item above"]);
     text = gsub(text, "#m30#", AL["Tier 1"]);
     text = gsub(text, "#m31#", AL["Tier 2"]);
-
     text = gsub(text, "#m33#", AL["Reward"]);
     text = gsub(text, "#m34#", AL["Achievement"]);
     text = gsub(text, "#m35#", AL["Tier 6"]);
