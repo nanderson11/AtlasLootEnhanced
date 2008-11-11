@@ -1347,6 +1347,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Minor Glyph"].." - "..BabbleClass["Deathknight"], "Inscription_DeathKnightMinor1" },
         { AL["Major Glyph"].." - "..BabbleClass["Druid"], "Inscription_DruidMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Druid"], "Inscription_DruidMinor1" },
+        { AL["Major Glyph"].." - "..BabbleClass["Hunter"], "Inscription_HunterMajor1" },
+		{ AL["Minor Glyph"].." - "..BabbleClass["Hunter"], "Inscription_HunterMinor1" },
+        { AL["Major Glyph"].." - "..BabbleClass["Mage"], "Inscription_MageMajor1" },
+		{ AL["Minor Glyph"].." - "..BabbleClass["Mage"], "Inscription_MageMinor1" },
 	},
 	["Jewelcrafting"] = {
 		{ AtlasLoot_TableNames["JewelApprentice1"][1], "JewelApprentice1" },

@@ -1637,18 +1637,73 @@ local MASTER = select(2, GetSpellInfo(28596));
     };
     
     AtlasLoot_Data["Inscription_HunterMajor1"] = {
+        { 1, "s56994", "42897", "=q1=Glyph of Aimed Shot", "=ds=" };
+        { 2, "s56995", "42898", "=q1=Glyph of Arcane Shot", "=ds=" };
+        { 3, "s56996", "42899", "=q1=Glyph of Aspect of the Beast", "=ds=" };
+        { 4, "s56997", "42900", "=q1=Glyph of Aspect of the Monkey", "=ds=" };
+        { 5, "s56998", "42901", "=q1=Glyph of Aspect of the Viper", "=ds=" };
+        { 6, "s56999", "42902", "=q1=Glyph of Beastial Wrath", "=ds=" };
+        { 7, "s57000", "42903", "=q1=Glyph of Deterrence", "=ds=" };
+        { 8, "s57001", "42904", "=q1=Glyph of Disengage", "=ds=" };
+        { 9, "s57002", "42905", "=q1=Glyph of Freezing Trap", "=ds=" };
+        { 10, "s57003", "42906", "=q1=Glyph of Frost Trap", "=ds=" };
+        { 11, "s57004", "42907", "=q1=Glyph of Hunter's Mark", "=ds=" };
+        { 12, "s57005", "42908", "=q1=Glyph of Immolation Trap", "=ds=" };
+        { 13, "s57006", "42909", "=q1=Glyph of Improved Aspect of the Hawk", "=ds=" };
+        { 14, "s57007", "42910", "=q1=Glyph of Multi-Shot", "=ds=" };
+        { 15, "s57008", "42911", "=q1=Glyph of Rapid Fire", "=ds=" };
+        { 16, "s57009", "42912", "=q1=Glyph of Serpent Sting", "=ds=" };
+        { 17, "s57010", "42913", "=q1=Glyph of Snake Trap", "=ds=" };
+        { 18, "s57011", "42914", "=q1=Glyph of Steady Shot", "=ds=" };
+        { 19, "s57012", "42915", "=q1=Glyph of Trueshot Aura", "=ds=" };
+        { 20, "s57013", "42916", "=q1=Glyph of Volley", "=ds=" };
+        { 21, "s57014", "42917", "=q1=Glyph of Wyvern Sting", "=ds=" };
         Back = "INSCRIPTIONMENU";
     };
     
     AtlasLoot_Data["Inscription_HunterMinor1"] = {
+        { 1, "s58302", "43351", "=q1=Glyph of Feign Death", "=ds=" };
+        { 2, "s58301", "43350", "=q1=Glyph of Mend Pet", "=ds=" };
+        { 3, "s58300", "43354", "=q1=Glyph of Possessed Strength", "=ds=" };
+        { 4, "s58299", "43338", "=q1=Glyph of Revive Pet", "=ds=" };
+        { 5, "s58298", "43356", "=q1=Glyph of Scare Beast", "=ds=" };
+        { 6, "s58297", "43355", "=q1=Glyph of the Pack", "=ds=" };
         Back = "INSCRIPTIONMENU";
     };
     
     AtlasLoot_Data["Inscription_MageMajor1"] = {
+        { 1, "s56968", "42734", "=q1=Glyph of Arcane Explosion", "=ds=" };
+        { 2, "s56971", "42735", "=q1=Glyph of Arcane Missiles", "=ds=" };
+        { 3, "s56972", "42736", "=q1=Glyph of Arcane Power", "=ds=" };
+        { 4, "s56973", "42737", "=q1=Glyph of Blink", "=ds=" };
+        { 5, "s56974", "42738", "=q1=Glyph of Evocation", "=ds=" };
+        { 6, "s57719", "42740", "=q1=Glyph of Fire Blast", "=ds=" };
+        { 7, "s56975", "42739", "=q1=Glyph of Fireball", "=ds=" };
+        { 8, "s56976", "42741", "=q1=Glyph of Frost Nova", "=ds=" };
+        { 9, "s56977", "42742", "=q1=Glyph of Frostbolt", "=ds=" };
+        { 10, "s61677", "44684", "=q1=Glyph of Frostfire", "=ds=" };
+        { 11, "s56978", "42743", "=q1=Glyph of Ice Armor", "=ds=" };
+        { 12, "s56979", "42744", "=q1=Glyph of Ice Block", "=ds=" };
+        { 13, "s56980", "42745", "=q1=Glyph of Ice Lance", "=ds=" };
+        { 14, "s56981", "42746", "=q1=Glyph of Icy Veins", "=ds=" };
+        { 15, "s56982", "42747", "=q1=Glyph of Improved Scorch", "=ds=" };
+        { 16, "s56983", "42748", "=q1=Glyph of Invisibility", "=ds=" };
+        { 17, "s56984", "42749", "=q1=Glyph of Mage Armor", "=ds=" };
+        { 18, "s56985", "42750", "=q1=Glyph of Mana Gem", "=ds=" };
+        { 19, "s56986", "42751", "=q1=Glyph of Molten Armor", "=ds=" };
+        { 20, "s56987", "42752", "=q1=Glyph of Polymorph", "=ds=" };
+        { 21, "s56988", "42753", "=q1=Glyph of Remove Curse", "=ds=" };
+        { 22, "s56989", "42754", "=q1=Glyph of Water Elemental", "=ds=" };
         Back = "INSCRIPTIONMENU";
     };
     
     AtlasLoot_Data["Inscription_MageMinor1"] = {
+        { 1, "s58303", "43339", "=q1=Glyph of Arcane Intellect", "=ds=" };
+        { 2, "s58305", "43357", "=q1=Glyph of Fire Ward", "=ds=" };
+        { 3, "s58306", "43359", "=q1=Glyph of Frost Armor", "=ds=" };
+        { 4, "s58307", "43360", "=q1=Glyph of Frost Ward", "=ds=" };
+        { 5, "s58308", "43364", "=q1=Glyph of Slow Fall", "=ds=" };
+        { 6, "s58310", "43361", "=q1=Glyph of the Penguin", "=ds=" };
         Back = "INSCRIPTIONMENU";
     };
     

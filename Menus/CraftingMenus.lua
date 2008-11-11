@@ -93,10 +93,14 @@ AtlasLoot_Data["INSCRIPTIONMENU"] = {
         { 3, "Inscription_Misc1", "INV_Inscription_Tradeskill01", "=ds="..AL["Miscellaneous"], "" };
         { 5, "Inscription_DeathKnightMajor1", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Major Glyph"] };
         { 6, "Inscription_DruidMajor1", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Major Glyph"] };
+        { 7, "Inscription_HunterMajor1", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Major Glyph"] };
+        { 8, "Inscription_MageMajor1", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Major Glyph"] };
         { 17, "Inscription_OffHand1", "INV_Inscription_Tradeskill01", "=ds="..AL["Off-Hand Items"], "" };
         { 18, "Inscription_Reagents1", "INV_Inscription_Tradeskill01", "=ds="..AL["Reagents"], "" };
         { 20, "Inscription_DeathKnightMinor1", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Minor Glyph"] };
         { 21, "Inscription_DruidMinor1", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Minor Glyph"] };
+        { 22, "Inscription_HunterMinor1", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Minor Glyph"] };
+        { 23, "Inscription_MageMinor1", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Minor Glyph"] };
         Back = "CRAFTINGMENU";
     };
 
