@@ -2416,8 +2416,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["CardGame1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud27#"};
 		{ 2, 38576, "", "=q4=Big Battle Bear", "=ds=#ud28#"};
-		{ 3, 0, "", "=q3=Taunt Flag", "=ds=#ud29#"};
-		{ 4, 38577, "", "=q1=Party Grenade", "=ds=#ud30#"};
+		{ 3, 38578, "", "=q3=The Flag of Ownership", "=ds=#ud29#"};
+		{ 4, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds=#ud30#"};
 		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud23#"};
 		{ 7, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#ud26#"};
 		{ 8, 38301, "", "=q3=D.I.S.C.O", "=ds=#ud25#"};
