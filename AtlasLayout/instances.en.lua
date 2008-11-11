@@ -6,32 +6,33 @@ AtlasLootBossButtons = {
   ---------------------
   -- WotLK Instances --
   ---------------------
-  	AhnKahet = {      
-		"Ahnkahet";
+
+    AhnKahet = {
+        "Ahnkahet";
         "Ahnkahet";
         "Ahnkahet";
         "Ahnkahet";
         "";
         };
 
-	AzjolNerub = {      
-		"";
+    AzjolNerub = {
+        "";
         "";
         "AzjolNerub";
         "AzjolNerub";
         "AzjolNerub";
         };
 
-    CoTOldStratholme = {      
-		"";
+    CoTOldStratholme = {
+        "";
         "CoTStratholmeMeathook";
         "CoTStratholmeSalramm";
         "CoTStratholmeEpoch";
         "CoTStratholmeMalGanis";
         };
 
-    DrakTharonKeep = {      
-		"";
+    DrakTharonKeep = {
+        "";
         "";
         "";
         "DrakTharonKeep";
@@ -40,31 +41,31 @@ AtlasLootBossButtons = {
         "DrakTharonKeep";
         };
 
-    Gundrak = {      
-		"";
+    Gundrak = {
+        "";
         "Gundrak";
         "Gundrak";
         "Gundrak";
         "Gundrak";
         };
 
-   	TheNexus = {      
-		"";
+   	TheNexus = {
+        "";
         "TheNexus";
         "TheNexus";
         "TheNexus";
         "TheNexus";
         };
 
-    TheOculus = {      
-		"OcuDrakos";
+    TheOculus = {
+        "OcuDrakos";
         "OcuUrom";
         "OcuEregos";
         "OcuCloudstrider";
         };
 
-    ObsidianSanctum = {      
-		"";
+    ObsidianSanctum = {
+        "";
         "Sartharion";
         };
 
@@ -75,7 +76,7 @@ AtlasLootBossButtons = {
         "HoLIonar";
         "HoLKronus";
         };
-        
+
     UlduarHallsofStone = {
     	"";
     	"HallsofStone";
@@ -105,7 +106,7 @@ AtlasLootBossButtons = {
   ------------------
   -- BC Instances --
   ------------------
-  
+
     AuchAuchenaiCrypts = {
         "LowerCity1";
         "BCKeys";
@@ -498,11 +499,11 @@ AtlasLootBossButtons = {
         "SunOffensive1";
         "";
         "SMTFireheart";
-		"";
-		"";
+        "";
+        "";
         "SMTVexallus";
-		"";
-		"";
+        "";
+        "";
         "SMTDelrissa";
         "";
         "";
@@ -515,15 +516,15 @@ AtlasLootBossButtons = {
         "";
         "";
         "SMTKaelthas";
-		"";
-		"SMTTrash";
+        "";
+        "SMTTrash";
         };
-   
+
     SunwellPlateau = {
         "";
         "SPKalecgos";
-	    "";
-	    "";
+        "";
+        "";
         "SPBrutallus";
         "SPFelmyst";
         "SPEredarTwins";
@@ -536,7 +537,7 @@ AtlasLootBossButtons = {
         "SPPatterns";
         "SPTrash";
         };
-    
+
     TempestKeepArcatraz = {
         "Shatar1";
         "BCKeys";
@@ -985,7 +986,7 @@ AtlasLootBossButtons = {
 
     MoltenCore = {
         "";
-        "WaterLords1";
+        "BloodsailHydraxian";
         "OldKeys";
         "OldKeys";
         "";
@@ -1433,8 +1434,8 @@ AtlasLootBossButtons = {
 
     ZulGurub = {
         "Zandalar1";
-        "";
-        "";
+        "OldKeys";
+        "OldKeys";
         "";
         "ZGJeklik";
         "ZGVenoxis";
