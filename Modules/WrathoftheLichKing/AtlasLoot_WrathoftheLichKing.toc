@@ -6,7 +6,7 @@
 ## Notes-zhCN: AtlasLoot Enhanced 的《巫妖王之怒》副本掉落信息
 ## Notes-zhTW: AtlasLoot 巫妖王之怒副本掉落物品資料庫
 ## Author: Daviesh
-## Version: 5.00.00
+## Version: 5.02.00
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Category: Map
 ## X-License: GPL v2

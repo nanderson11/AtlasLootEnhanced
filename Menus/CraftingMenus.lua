@@ -87,7 +87,21 @@ AtlasLoot_Data["ALCHEMYMENU"] = {
         { 19, "AlchemyMisc1", "INV_Potion_23", "=ds="..AL["Miscellaneous"], "" };
         Back = "CRAFTINGMENU";
     };
-    
+
+AtlasLoot_Data["SMITHINGMENU"] = {
+        { 2, "SmithingApprentice1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(2259)), "" };
+        { 3, "SmithingExpert1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(3464)), "" };
+        { 4, "SmithingMaster1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(28596)), "" };
+        { 6, "Armorsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9788), "" };
+        { 7, "Axesmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17041), "" };
+        { 8, "Swordsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17039), "" };
+        { 17, "SmithingJourneyman1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(3101)), "" };
+        { 18, "SmithingArtisan1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(11611)), "" };
+        { 21, "Weaponsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9787), "" };
+        { 22, "Hammersmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17040), "" };
+        Back = "CRAFTINGMENU";
+    };
+
 AtlasLoot_Data["INSCRIPTIONMENU"] = {
         { 2, "Inscription_Scrolls1", "INV_Inscription_Tradeskill01", "=ds="..AL["Scrolls"], "" };
         { 3, "Inscription_Misc1", "INV_Inscription_Tradeskill01", "=ds="..AL["Miscellaneous"], "" };
@@ -95,12 +109,24 @@ AtlasLoot_Data["INSCRIPTIONMENU"] = {
         { 6, "Inscription_DruidMajor1", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Major Glyph"] };
         { 7, "Inscription_HunterMajor1", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Major Glyph"] };
         { 8, "Inscription_MageMajor1", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Major Glyph"] };
+        { 9, "Inscription_PaladinMajor1", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Major Glyph"] };
+        { 10, "Inscription_PriestMajor1", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Major Glyph"] };
+        { 11, "Inscription_RogueMajor1", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], "=q5="..AL["Major Glyph"] };
+        { 12, "Inscription_ShamanMajor1", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], "=q5="..AL["Major Glyph"] };
+        { 13, "Inscription_WarlockMajor1", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], "=q5="..AL["Major Glyph"] };
+        { 14, "Inscription_WarriorMajor1", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Major Glyph"] };
         { 17, "Inscription_OffHand1", "INV_Inscription_Tradeskill01", "=ds="..AL["Off-Hand Items"], "" };
         { 18, "Inscription_Reagents1", "INV_Inscription_Tradeskill01", "=ds="..AL["Reagents"], "" };
         { 20, "Inscription_DeathKnightMinor1", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Minor Glyph"] };
         { 21, "Inscription_DruidMinor1", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Minor Glyph"] };
         { 22, "Inscription_HunterMinor1", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Minor Glyph"] };
         { 23, "Inscription_MageMinor1", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Minor Glyph"] };
+        { 24, "Inscription_PaladinMinor1", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Minor Glyph"] };
+        { 25, "Inscription_PriestMinor1", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Minor Glyph"] };
+        { 26, "Inscription_RogueMinor1", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], "=q5="..AL["Minor Glyph"] };
+        { 27, "Inscription_ShamanMinor1", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], "=q5="..AL["Minor Glyph"] };
+        { 28, "Inscription_WarlockMinor1", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], "=q5="..AL["Minor Glyph"] };
+        { 29, "Inscription_WarriorMinor1", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Minor Glyph"] };
         Back = "CRAFTINGMENU";
     };
 

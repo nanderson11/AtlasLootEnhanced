@@ -6,7 +6,7 @@
 ## Notes: AtlasLoot loot tables from world events
 ## Notes-zhCN: AtlasLoot Enhanced 的户外首领掉落信息
 ## Author: Daviesh
-## Version: 5.00.00
+## Version: 5.02.00
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Category: Map
 ## X-License: GPL v2

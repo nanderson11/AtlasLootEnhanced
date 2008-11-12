@@ -35,11 +35,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
-local VERSION_MINOR = "01";
-local VERSION_BOSSES = "04";
+local VERSION_MINOR = "02";
+local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.13.0";
-ATLASLOOT_PREVIEW_ATLAS = "1.13.1";
+ATLASLOOT_PREVIEW_ATLAS = "1.12.3";
 ATLASLOOT_POSITION = AL["Position:"];
 
 --Standard indent to line text up with Atlas text
@@ -118,7 +118,6 @@ AtlasLoot_MenuList = {
 	"ARENA2SET",
 	"ARENA3SET",
 	"ARENA4SET",
-	"SMITHINGMENU",
 	"ENCHANTINGMENU",
 	"ENGINEERINGMENU",
 	"JEWELCRAFTINGMENU",
@@ -576,8 +575,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootARENA3SetMenu();
 	elseif(dataID=="ARENA4SET") then
 		AtlasLootARENA4SetMenu();
-	elseif(dataID=="SMITHINGMENU") then
-		AtlasLoot_SmithingMenu();
 	elseif(dataID=="ENCHANTINGMENU") then
 		AtlasLoot_EnchantingMenu();
 	elseif(dataID=="ENGINEERINGMENU") then

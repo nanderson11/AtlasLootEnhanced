@@ -752,6 +752,9 @@
 			</Layer>
 		</Layers>
 		<Scripts>
+            <OnShow>
+                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+            </OnShow>
 			<OnLoad>
 				AtlasLoot_OnLoad();
                 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
