@@ -71,10 +71,10 @@ AtlasLootBossButtons = {
 
     UlduarHallsofLightning = {
     	"";
-    	"HoLGjarngrin";
-        "HoLVolkhan";
-        "HoLIonar";
-        "HoLKronus";
+    	"HallsofLightning";
+        "HallsofLightning";
+        "HallsofLightning";
+        "HoLLoken";
         };
 
     UlduarHallsofStone = {

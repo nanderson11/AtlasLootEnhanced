@@ -75,23 +75,21 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["HallsofStone"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HallsofStoneHEROIC"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
     --Halls of Lightning
-	AtlasLoot_TableNames["HoLGjarngrin"] = { AL["Gjarngrin"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLIonar"] = { BabbleBoss["Ionar"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLVolkhan"] = { BabbleBoss["Volkhan"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLKronus"] = { AL["Loken"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightning"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightningHEROIC"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoLLoken"] = { BabbleBoss["Loken"], "AtlasLootWotLK" };
     --Caverns of Time: Stratholme
 	AtlasLoot_TableNames["CoTStratholmeMeathook"] = { BabbleBoss["Meathook"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeEpoch"] = { BabbleBoss["Chrono-Lord Epoch"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeMalGanis"] = { BabbleBoss["Mal'Ganis"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeSalramm"] = { BabbleBoss["Salramm the Fleshcrafter"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["CoTStratholmeUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CoTStratholmeUnknown"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
     --Utgarde Pinnacle
 	AtlasLoot_TableNames["UPSkadi"] = { BabbleBoss["Skadi the Ruthless"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPYmiron"] = { BabbleBoss["King Ymiron"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPSorrowgrave"] = { BabbleBoss["Svala Sorrowgrave"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPPalehoof"] = { BabbleBoss["Gortok Palehoof"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["UPUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UPUnknown"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
     --The Oculus
 	AtlasLoot_TableNames["OcuDrakos"] = { BabbleBoss["Drakos the Interrogator"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuUrom"] = { BabbleBoss["Mage-Lord Urom"], "AtlasLootWotLK" };

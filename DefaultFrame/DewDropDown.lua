@@ -178,7 +178,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Gundrak"], "Gundrak", "Table" },
 			},
             [6] = { 
-				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Submenu" },
+				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Table" },
 			},
             [7] = { 
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Table" },
@@ -877,13 +877,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "SPKiljaeden" },
 		{ "", "SPPatterns" },
 		{ AL["Trash Mobs"], "SPTrash" },
-	},
-	["HallsofLightning"] = {
-		{ "", "HoLGjarngrin" },
-		{ "", "HoLIonar" },
-		{ "", "HoLVolkhan" },
-		{ "", "HoLKronus" },
-		{ "", "HoLUnknown" },
 	},
 	["CoTStratholme"] = {
 		{ "", "CoTStratholmeMeathook" },

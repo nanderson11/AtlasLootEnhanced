@@ -256,6 +256,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
 		{ 25, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
 		{ 26, 43284, "", "=q3=Amanitar Skullbow", "=ds=#w2#"};
+		Next = "AhnkahetVolazjHEROIC";
 		};
 
 	AtlasLoot_Data["AhnkahetVolazjHEROIC"] = {
@@ -268,6 +269,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#"};
 		{ 9, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#"};
 		{ 10, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
+		Prev = "AhnkahetHEROIC";
 	};
 
 		------------------------
@@ -374,11 +376,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#"};
 		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
-		{ 11, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
-		{ 11, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s12#, #a2#"};
-		{ 11, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
-		{ 11, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
-		{ 12, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
+		{ 17, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
+		{ 18, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s12#, #a2#"};
+		{ 19, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
+		{ 20, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
+		{ 21, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
 	};
 
 		----------------------
@@ -427,6 +429,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 37655, "", "=q3=Mantle of the Tribunal", "=ds=#s3#, #a1#"};
 		{ 22, 37656, "", "=q3=Raging Construct Bands", "=ds=#s8#, #a3#"};
 		{ 23, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#"};
+		Next = "HoSSjonnirHEROIC";
 	};
 	
 	AtlasLoot_Data["HoSSjonnirHEROIC"] = {
@@ -440,51 +443,82 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 37657, "", "=q3=Spark of Life", "=ds=#s14#"};
 		{ 9, 37660, "", "=q3=Forge Ember", "=ds=#s14#"};
 		{ 10, 43699, "", "=q1=The Curse of Flesh Disc", "=ds=#m3#"};
+		Prev = "HallsofStoneHEROIC";
 	};
 
 		--------------------------
 		--- Halls of Lightning ---
 		--------------------------
-
-	AtlasLoot_Data["HoLGjarngrin"] = {
-		{ 1, 36982, "", "=q3=Mantle of Electrical Charges", "=ds=#s3#, #a1#"};
-		{ 2, 36979, "", "=q3=Gjarngrin Family Signet", "=ds=#s13#"};
-		{ 3, 36981, "", "=q3=Hardened Vrykul Throwing Axe", "=ds=#w11#"};
-		{ 4, 36980, "", "=q3=Hewn Sparring Quarterstaff", "=ds=#w9#"};
-		Next = "HoLIonar";
+		
+	AtlasLoot_Data["HallsofLightning"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["General Bjarngrim"], ""};
+		{ 2, 36982, "", "=q3=Mantle of Electrical Charges", "=ds=#s3#, #a1#"};
+		{ 3, 36979, "", "=q3=Gjarngrin Family Signet", "=ds=#s13#"};
+		{ 4, 36981, "", "=q3=Hardened Vrykul Throwing Axe", "=ds=#w11#"};
+		{ 5, 36980, "", "=q3=Hewn Sparring Quarterstaff", "=ds=#w9#"};
+		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Ionar"], ""};
+		{ 8, 39536, "", "=q3=Thundercloud Grasps", "=ds=#s9#, #a1#"};
+		{ 9, 39657, "", "=q3=Tornado Cuffs", "=ds=#s8#, #a3#"};
+		{ 10, 39534, "", "=q3=Pauldrons of the Lightning Revenant", "=ds=#s3#, #a4#"};
+		{ 11, 39535, "", "=q3=Ionar's Girdle", "=ds=#s10#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Volkhan"], ""};
+		{ 17, 36983, "", "=q3=Cape of Seething Steam", "=ds=#s4#"};
+		{ 18, 36985, "", "=q3=Volkhan's Hood", "=ds=#s1#, #a1#"};
+		{ 19, 36986, "", "=q3=Kilt of Molten Golems", "=ds=#s11#, #a3#"};
+		{ 20, 36984, "", "=q3=Eternally Folded Blade", "=ds=#h1#, #w10#"};
+		{ 22, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 23, 36997, "", "=q3=Sash of the Hardened Watcher", "=ds=#s10#, #a1#"};
+		{ 24, 37000, "", "=q3=Storming Vortex Bracers", "=ds=#s8#, #a2#"};
+		{ 25, 36999, "", "=q3=Boots of the Terrestrial Guardian", "=ds=#s12#, #a3#"};
+		Next = "HoLLoken";
 	};
 
-	AtlasLoot_Data["HoLIonar"] = {
-		{ 1, 39536, "", "=q3=Thundercloud Grasps", "=ds=#s9#, #a1#"};
-		{ 2, 39657, "", "=q3=Tornado Cuffs", "=ds=#s8#, #a3#"};
-		{ 3, 39534, "", "=q3=Pauldrons of the Lightning Revenant", "=ds=#s3#, #a4#"};
-		{ 4, 39535, "", "=q3=Ionar's Girdle", "=ds=#s10#, #a4#"};
-		Prev = "HoLGjarngrin";
-		Next = "HoLVolkhan";
+	AtlasLoot_Data["HallsofLightningHEROIC"] = {
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["General Bjarngrim"], ""};
+		{ 4, 37825, "", "=q3=Traditionally Dyed Handguards", "=ds=#s9#, #a1#"};
+		{ 5, 37818, "", "=q3=Patroller's War-Kilt", "=ds=#s11#, #a3#"};
+		{ 6, 37814, "", "=q3=Iron Dwarf Smith Pauldrons", "=ds=#s3#, #a4#"};
+		{ 7, 37826, "", "=q3=The General's Steel Girdle", "=ds=#s10#, #a4#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Ionar"], ""};
+		{ 10, 37846, "", "=q3=Charged-Bolt Grips", "=ds=#s9#, #a2#"};
+		{ 11, 37845, "", "=q3=Cord of Swirling Winds", "=ds=#s10#, #a3#"};
+		{ 12, 37826, "", "=q3=The General's Steel Girdle", "=ds=#s10#, #a4#"};
+		{ 13, 37844, "", "=q3=Winged Talisman", "=ds=#s14#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Volkhan"], ""};
+		{ 17, 37840, "", "=q3=Shroud of Reverberation", "=ds=#s4#"};
+		{ 18, 37843, "", "=q3=Giant-Hair Woven Gloves", "=ds=#s9#, #a1#"};
+		{ 19, 37842, "", "=q3=Belt of Vivacity", "=ds=#s10#, #a2#"};
+		{ 20, 37841, "", "=q3=Slag Footguards", "=ds=#s12#, #a2#"};
+		{ 22, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 20, 37858, "", "=q3=Awakened Handguards", "=ds=#s9#, #a2#"};
+		{ 20, 37857, "", "=q3=Helm of the Lightning Halls", "=ds=#s1#, #a3#"};
+		{ 20, 37856, "", "=q3=Librarian's Paper Cutter", "=ds=#h1#, #w4#"};
+		Next = "HoLLoken";
 	};
 
-	AtlasLoot_Data["HoLVolkhan"] = {
-		{ 1, 36983, "", "=q3=Cape of Seething Steam", "=ds=#s4#"};
-		{ 2, 36985, "", "=q3=Volkhan's Hood", "=ds=#s1#, #a1#"};
-		{ 3, 36986, "", "=q3=Kilt of Molten Golems", "=ds=#s11#, #a3#"};
-		{ 4, 36984, "", "=q3=Eternally Folded Blade", "=ds=#h1#, #w10#"};
-		Prev = "HoLIonar";
-		Next = "HoLKronus";
-	};
-
-	AtlasLoot_Data["HoLKronus"] = {
-		{ 1, 36991, "", "=q3=Raiments of the Titans", "=ds=#s5#, #a1#"};
-		{ 2, 36996, "", "=q3=Hood of the Furtive Assassin", "=ds=#s1#, #a2#"};
-		{ 3, 36992, "", "=q3=Leather-Braced Chain Leggings", "=ds=#s11#, #a3#"};
-		{ 4, 36995, "", "=q3=Fists of Loken", "=ds=#s9#, #a4#"};
-		{ 5, 36988, "", "=q3=Chaotic Spiral Amulet", "=ds=#s2#"};
-		{ 6, 36993, "", "=q3=Seal of the Pantheon", "=ds=#s14#"};
-		{ 7, 36989, "", "=q3=Ancient Measuring Rod", "=ds=#w12#"};
-		{ 8, 36994, "", "=q3=Projectile Activator", "=ds=#w5#"};
-		Prev = "HoLVolkhan";
-	};
-
-	AtlasLoot_Data["HoLUnknown"] = {
+	AtlasLoot_Data["HoLLoken"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 36991, "", "=q3=Raiments of the Titans", "=ds=#s5#, #a1#"};
+		{ 3, 36996, "", "=q3=Hood of the Furtive Assassin", "=ds=#s1#, #a2#"};
+		{ 4, 36992, "", "=q3=Leather-Braced Chain Leggings", "=ds=#s11#, #a3#"};
+		{ 5, 36995, "", "=q3=Fists of Loken", "=ds=#s9#, #a4#"};
+		{ 6, 36988, "", "=q3=Chaotic Spiral Amulet", "=ds=#s2#"};
+		{ 7, 36993, "", "=q3=Seal of the Pantheon", "=ds=#s14#"};
+		{ 8, 36989, "", "=q3=Ancient Measuring Rod", "=ds=#w12#"};
+		{ 9, 36994, "", "=q3=Projectile Activator", "=ds=#w5#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+		{ 18, 37854, "", "=q4=Woven Bracae Leggings", "=ds=#s11#, #a1#"};
+		{ 19, 37853, "", "=q4=Advanced Tooled-Leather Bands", "=ds=#s8#, #a2#"};
+		{ 20, 37855, "", "=q4=Mail Girdle of the Audient Earth", "=ds=#s10#, #a3#"};
+		{ 21, 37852, "", "=q4=Colossal Skull-Clad Cleaver", "=ds=#h2#, #w1#"};
+		{ 23, 37851, "", "=q3=Ornate Woolen Stola", "=ds=#s5#, #a1#"};
+		{ 24, 37850, "", "=q3=Flowing Sash of Order", "=ds=#s10#, #a1#"};
+		{ 25, 37849, "", "=q3=Planetary Helm", "=ds=#s1#, #a4#"};
+		{ 26, 37848, "", "=q3=Lightning Giant Staff", "=ds=#w9#"};
+		{ 28, 43724, "", "=q1=Celestial Ruby Ring", "=ds=#m3#"};
+		Prev = "HallsofLightning";
 	};
 
 		-----------------------------------
@@ -498,8 +532,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 37079, "", "=q3=Enchanted Wire Stitching", "=ds=#s13#"};
 		{ 5, 37081, "", "=q3=Meathook's Slicer", "=ds=#h1#, #w10#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37675, "", "=q3=Legplates of Steel Implants", "=ds=#s11#, #a4#"};
+		{ 17, 37680, "", "=q3=Belt of Unified Souls", "=ds=#s10#, #a1#"};
 		{ 18, 37678, "", "=q3=Bile-Cured Gloves", "=ds=#s9#, #a2#"};
+		{ 19, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#"};
+		{ 20, 37675, "", "=q3=Legplates of Steel Implants", "=ds=#s11#, #a4#"};
 		Next = "CoTStratholmeEpoch";
 	};
 
@@ -513,6 +549,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37687, "", "=q3=Gloves of Distorted Time", "=ds=#s9#, #a1#"};
 		{ 18, 37686, "", "=q3=Cracked Epoch Grasps", "=ds=#s9#, #a3#"};
 		{ 19, 37688, "", "=q3=Legplates of the Infinite Drakonid", "=ds=#s11#, #a4#"};
+		{ 20, 37685, "", "=q3=Mobius Band", "=ds=#s13#"};
 		Prev = "CoTStratholmeMeathook";
 		Next = "CoTStratholmeSalramm";
 	};
@@ -524,7 +561,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 37088, "", "=q3=Spiked Metal Cilice", "=ds=#s10#, #a4#"};
 		{ 5, 37086, "", "=q3=Tome of Salramm", "=ds=#s15#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a4#"};
+		{ 17, 37684, "", "=q3=Forgotten Shadow Hood", "=ds=#s1#, #a1#"};
+		{ 18, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a4#"};
+		{ 19, 37683, "", "=q3=Necromancer's Amulet", "=ds=#s2#"};
+		{ 20, 37681, "", "=q3=Gavel of the Fleshcrafter", "=ds=#h3#, #w6#"};
 		Prev = "CoTStratholmeEpoch";
 		Next = "CoTStratholmeMalGanis";
 	};
@@ -545,24 +585,20 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37694, "", "=q4=Band of Guile", "=ds=#s13#"};
 		{ 20, 37693, "", "=q4=Greed", "=ds=#h3#, #w13#"};
 		{ 21, 43085, "", "=q4=Royal Crest of Lordaeron", "=ds=#w8#"};
-		{ 23, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
-		{ 24, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
+		{ 23, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#"};
+		{ 24, 37690, "", "=q3=Pauldrons of Destiny", "=ds=#s3#, #a4#"};
+		{ 25, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
+		{ 26, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
+		{ 28, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#"};
 		Prev = "CoTStratholmeSalramm";
 	};
----1-5 Trash drops, Rest unknown Heroic
+
 	AtlasLoot_Data["CoTStratholmeUnknown"] = {
 		{ 1, 37117, "", "=q3=King's Square Bracers", "=ds=#s8#, #a2#"};
 		{ 2, 37116, "", "=q3=Epaulets of Market Row", "=ds=#s3#, #a3#"};
 		{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#"};
 		{ 4, 37822, "", "=q3=Twisted Puzzle-Ring", "=ds=#s13#"};
-		{ 5, 37824, "", "=q3=Gwyneth's Runed Dragonwand", "=ds=#w12#"};
-		{ 7, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#"};
-		{ 8, 37680, "", "=q3=Belt of Unified Souls", "=ds=#s10#, #a1#"};
-		{ 9, 37681, "", "=q3=Gavel of the Fleshcrafter", "=ds=#h3#, #w6#"};
-		{ 11, 37683, "", "=q3=Necromancer's Amulet", "=ds=#s2#"};
-		{ 12, 37684, "", "=q3=Forgotten Shadow Hood", "=ds=#s1#, #a1#"};
-		{ 13, 37685, "", "=q3=Mobius Band", "=ds=#s13#"};
-		{ 16, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#"};
+		{ 5, 37824, "", "=q3=Gwyneth's Runed Dragonwand", "=ds=#w12#"};		
 	};
 
 		-----------------------
@@ -576,9 +612,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 37056, "", "=q3=Harpooner's Striders", "=ds=#s12#, #a4#"};
 		{ 5, 37053, "", "=q3=Amulet of Deflected Blows", "=ds=#s2#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37379, "", "=q3=Skadi's Iron Belt", "=ds=#s10#, #a4#"};
-		{ 18, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
-		{ 19, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w8#"};
+		{ 17, 37389, "", "=q3=Crenelation Leggings", "=ds=#s11#, #a2#"};
+		{ 18, 37379, "", "=q3=Skadi's Iron Belt", "=ds=#s10#, #a4#"};
+		{ 19, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
+		{ 20, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w8#"};
 		Next = "UPYmiron";
 	};
 
@@ -597,8 +634,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37409, "", "=q4=Gilt-Edged Leather Gauntlets", "=ds=#s9#, #a2#"};
 		{ 19, 37407, "", "=q4=Sovereign's Belt", "=ds=#s10#, #a3#"};
 		{ 20, 37401, "", "=q4=Red Sword of Courage", "=ds=#h1#, #w10#"};
-		{ 21, 37395, "", "=q3=Ornamented Plate Regalia", "=ds=#s5#, #a4#"};
-		{ 22, 37390, "", "=q3=Meteorite Whetstone", "=ds=#s14#"};
+		{ 23, 37398, "", "=q3=Mantle of Discarded Ways", "=ds=#s3#, #a3#"};
+		{ 24, 37395, "", "=q3=Ornamented Plate Regalia", "=ds=#s5#, #a4#"};
+		{ 25, 37397, "", "=q3=Gold Amulet of Kings", "=ds=#s2#"};
+		{ 26, 37390, "", "=q3=Meteorite Whetstone", "=ds=#s14#"};
+		{ 28, 43669, "", "=q1=Locket of the Deceased Queen", "=ds=#m3#"};
 		Prev = "UPSkadi";
 		Next = "UPSorrowgrave";
 	};
@@ -625,17 +665,22 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 37051, "", "=q3=Seal of Valgarde", "=ds=#s15#"};
 		{ 5, 37050, "", "=q3=Trophy Gatherer", "=ds=#w2#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37376, "", "=q3=Ferocious Pauldrons of the Rhino", "=ds=#s3#, #a4#"};
-		{ 18, 37371, "", "=q3=Ring of the Frenzied Wolvar", "=ds=#s14#"};
+		{ 17, 37374, "", "=q3=Ravenous Leggings of the Furbolg", "=ds=#s11#, #a2#"};
+		{ 18, 37373, "", "=q3=Massive Spaulders of the Jormungar", "=ds=#s3#, #a3#"};
+		{ 19, 37376, "", "=q3=Ferocious Pauldrons of the Rhino", "=ds=#s3#, #a4#"};
+		{ 20, 37371, "", "=q3=Ring of the Frenzied Wolvar", "=ds=#s14#"};
 		Prev = "UPSorrowgrave";
 	};
---- 1-3 Trash ; Rest heroic
+
 	AtlasLoot_Data["UPUnknown"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 1, 37070, "", "=q3=Tundra Wolf Boots", "=ds=#s12#, #a2#"};
 		{ 2, 37069, "", "=q3=Dragonflayer Seer's Bindings", "=ds=#s8#, #a3#"};
 		{ 3, 37068, "", "=q3=Berserker's Sabatons", "=ds=#s12#, #a4#"};
-		{ 8, 37397, "", "=q3=Gold Amulet of Kings", "=ds=#s2#"};
-		{ 9, 37410, "", "=q3=Tracker's Balanced Knives", "=ds=#w11#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37587, "", "=q3=Ymirjar Physician's Robe", "=ds=#s5#, #a3#"};
+		{ 18, 37590, "", "=q3=Bands of Fading Light", "=ds=#s8#, #a4#"};
+		{ 19, 37410, "", "=q3=Tracker's Balanced Knives", "=ds=#w11#"};
 	};
 
 		------------------
@@ -643,56 +688,82 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		------------------
 
 	AtlasLoot_Data["OcuDrakos"] = {
-		{ 1, 36945, "", "=q3=Verdisa's Cuffs of Dreaming", "=ds=#s8#, #a1#"};
-		{ 2, 36946, "", "=q3=Runic Cage Chestpiece", "=ds=#s5#, #a3#"};
-		{ 3, 36943, "", "=q3=Timeless Beads of Eternos", "=ds=#s2#"};
-		{ 4, 36944, "", "=q3=Lifeblade of Belgaristrasz", "=ds=#h1#, #w4#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 36945, "", "=q3=Verdisa's Cuffs of Dreaming", "=ds=#s8#, #a1#"};
+		{ 3, 36946, "", "=q3=Runic Cage Chestpiece", "=ds=#s5#, #a3#"};
+		{ 4, 36943, "", "=q3=Timeless Beads of Eternos", "=ds=#s2#"};
+		{ 5, 36944, "", "=q3=Lifeblade of Belgaristrasz", "=ds=#h1#, #w4#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37255, "", "=q3=The Interrogator", "=ds=#h1#, #w10#"};
+		{ 17, 37258, "", "=q3=Drakewing Raiments", "=ds=#s5#, #a1#"};
+		{ 18, 37256, "", "=q3=Scaled Armor of Drakos", "=ds=#s5#, #a3#"};
+		{ 19, 37257, "", "=q3=Band of Torture", "=ds=#s13#"};
+		{ 20, 37255, "", "=q3=The Interrogator", "=ds=#h1#, #w10#"};
 		Next = "OcuUrom";
 	};
 
 	AtlasLoot_Data["OcuUrom"] = {
-		{ 1, 36954, "", "=q3=The Conjurer's Slippers", "=ds=#s12#, #a1#"};
-		{ 2, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a2#"};
-		{ 3, 36953, "", "=q3=Spaulders of Skillful Maneuvers", "=ds=#s3#, #a3#"};
-		{ 4, 36952, "", "=q3=Girdle of Obscuring", "=ds=#s10#, #a4#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 36954, "", "=q3=The Conjurer's Slippers", "=ds=#s12#, #a1#"};
+		{ 3, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a2#"};
+		{ 4, 36953, "", "=q3=Spaulders of Skillful Maneuvers", "=ds=#s3#, #a3#"};
+		{ 5, 36952, "", "=q3=Girdle of Obscuring", "=ds=#s10#, #a4#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37289, "", "=q3=Sash of Phantasmal Images", "=ds=#s10#, #a1#"};
+		{ 17, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a3#"};
 		{ 17, 37288, "", "=q3=Catalytic Bands", "=ds=#s8#, #a4#"};
+		{ 17, 37264, "", "=q3=Pendulum of Telluric Currents", "=ds=#s14#"};
 		Prev = "OcuDrakos";
 		Next = "OcuCloudstrider";
 	};
 
 	AtlasLoot_Data["OcuCloudstrider"] = {
-		{ 1, 36947, "", "=q3=Centrifuge Core Cloak", "=ds=#s4#"};
-		{ 2, 36949, "", "=q3=Gloves of the Azure-Lord", "=ds=#s9#, #a1#"};
-		{ 3, 36948, "", "=q3=Horned Helm of Varos", "=ds=#s1#, #a2#"};
-		{ 4, 36950, "", "=q3=Wing Commander's Breastplate", "=ds=#s5#, #a4#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 36947, "", "=q3=Centrifuge Core Cloak", "=ds=#s4#"};
+		{ 3, 36949, "", "=q3=Gloves of the Azure-Lord", "=ds=#s9#, #a1#"};
+		{ 4, 36948, "", "=q3=Horned Helm of Varos", "=ds=#s1#, #a2#"};
+		{ 5, 36950, "", "=q3=Wing Commander's Breastplate", "=ds=#s5#, #a4#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37263, "", "=q3=Legplates of the Oculus Guardian", "=ds=#s11#, #a4#"};
+		{ 17, 37261, "", "=q3=Gloves of Radiant Light", "=ds=#s9#, #a2#"};
+		{ 18, 37262, "", "=q3=Azure Ringmail Leggings", "=ds=#s11#, #a3#"};
+		{ 19, 37263, "", "=q3=Legplates of the Oculus Guardian", "=ds=#s11#, #a4#"};
+		{ 20, 37260, "", "=q3=Cloudstrider's Waraxe", "=ds=#h1#, #w1#"};
 		Prev = "OcuUrom";
 		Next = "OcuEregos";
 	};
 	
 	AtlasLoot_Data["OcuEregos"] = {
-		{ 1, 36973, "", "=q3=Vestments of the Scholar", "=ds=#s5#, #a1#"};
-		{ 2, 36971, "", "=q3=Headguard of Westrift", "=ds=#s1#, #a3#"};
-		{ 3, 36969, "", "=q3=Helm of the Ley-Guardian", "=ds=#s1#, #a4#"};
-		{ 4, 36974, "", "=q3=Eredormu's Ornamented Chestguard", "=ds=#s5#, #a4#"};
-		{ 5, 36961, "", "=q3=Dragonflight Great-Ring", "=ds=#s13#"};
-		{ 6, 36972, "", "=q3=Tome of Arcane Phenomena", "=ds=#s14#"};
-		{ 7, 36962, "", "=q3=Wyrmclaw Battleaxe", "=ds=#h2#, #w1#"};
-		{ 8, 36975, "", "=q3=Malygos's Favor", "=ds=#w9#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 36973, "", "=q3=Vestments of the Scholar", "=ds=#s5#, #a1#"};
+		{ 3, 36971, "", "=q3=Headguard of Westrift", "=ds=#s1#, #a3#"};
+		{ 4, 36969, "", "=q3=Helm of the Ley-Guardian", "=ds=#s1#, #a4#"};
+		{ 5, 36974, "", "=q3=Eredormu's Ornamented Chestguard", "=ds=#s5#, #a4#"};
+		{ 6, 36961, "", "=q3=Dragonflight Great-Ring", "=ds=#s13#"};
+		{ 7, 36972, "", "=q3=Tome of Arcane Phenomena", "=ds=#s14#"};
+		{ 8, 36962, "", "=q3=Wyrmclaw Battleaxe", "=ds=#h2#, #w1#"};
+		{ 9, 36975, "", "=q3=Malygos's Favor", "=ds=#w9#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#"};
-		{ 18, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#"};
+		{ 17, 37361, "", "=q4=Cuffs of Winged Levitation", "=ds=#s8#, #a1#"};
+		{ 18, 37363, "", "=q4=Gauntlets of Dragon Wrath", "=ds=#s9#, #a4#"};
+		{ 19, 37362, "", "=q4=Leggings of Protective Auras", "=ds=#s11, #a4#"};
+		{ 20, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#"};
+		{ 22, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#"};
+		{ 23, 37294, "", "=q3=Crown of Unbridled Magic", "=ds=#s1#, #a1#"};
+		{ 24, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#"};
+		{ 25, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#"};
+		{ 27, 43668, "", "=q1=Ley Line Tuner", "=ds=#m3#"};
 		Prev = "OcuCloudstrider";
 	};
---Trash drops
+
 	AtlasLoot_Data["OcuUnknown"] = {
-		{ 1, 36978, "", "=q3=Ley-Whelphide Belt", "=ds=#s10#, #a2#"};
-		{ 2, 36977, "", "=q3=Bindings of the Construct", "=ds=#s8#, #a4#"};
-		{ 3, 36976, "", "=q3=Ring-Lord's Leggings", "=ds=#s11#, #a1#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 36978, "", "=q3=Ley-Whelphide Belt", "=ds=#s10#, #a2#"};
+		{ 3, 36977, "", "=q3=Bindings of the Construct", "=ds=#s8#, #a4#"};
+		{ 4, 36976, "", "=q3=Ring-Lord's Leggings", "=ds=#s11#, #a1#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37366, "", "=q3=Drake-Champion's Bracers", "=ds=#s8#, #a2#"};
+		{ 18, 37365, "", "=q3=Bands of the Sky Ring", "=ds=#s8#, #a3#"};
+		{ 19, 37290, "", "=q3=Dragon Prow Amulet", "=ds=#s2#"};
+		{ 20, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#"};
 	};
 
 		-----------------
