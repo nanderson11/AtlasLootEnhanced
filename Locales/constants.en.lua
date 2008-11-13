@@ -491,6 +491,7 @@ if AL then
     AL["Trainer"] = true;
     AL["Discovery"] = true;
     AL["World Drop"] = true;
+    AL["Drop"] = true;
     AL["Vendor"] = true;
     AL["Quest"] = true;
     AL["Crafted"] = true;
