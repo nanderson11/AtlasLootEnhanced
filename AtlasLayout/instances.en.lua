@@ -48,6 +48,41 @@ AtlasLootBossButtons = {
         "Gundrak";
         "Gundrak";
         };
+    
+    Naxxramas = {
+        "ArgentCrusade";
+        "";
+        "";
+        "";
+        "";
+        "Naxx80Patchwerk";
+        "Naxx80Grobbulus";
+        "Naxx80Gluth";
+        "Naxx80Thaddius";
+        "";
+        "Naxx80AnubRekhan";
+        "Naxx80Faerlina";
+        "Naxx80Maexxna";
+        "";
+        "Naxx80Razuvious";
+        "Naxx80Gothik";
+        "Naxx80FourHorsemen";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "Naxx80Noth";
+        "Naxx80Heigan";
+        "Naxx80Loatheb";
+        "";
+        "Naxx80Sapphiron";
+        "Naxx80KelThuzad";
+        "";
+        "Naxx80Trash";
+        "T7SET";
+        };
 
    	TheNexus = {
         "";

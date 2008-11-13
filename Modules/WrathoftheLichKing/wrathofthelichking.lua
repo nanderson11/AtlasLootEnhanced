@@ -867,16 +867,16 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["Naxx80Faerlina"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j37#", ""};
-		{ 1, 39216, "", "=q4=Sash of Mortal Desire", "=ds=#s10#, #a1#"};
-		{ 2, 39215, "", "=q4=Boots of the Follower", "=ds=#s12#, #a2#"};
-		{ 3, 39196, "", "=q4=Boots of the Worshiper", "=ds=#s12#, #a2#"};
-		{ 4, 39217, "", "=q4=Avenging Combat Leggings", "=ds=#s11#, #a3#"};
-		{ 5, 39194, "", "=q4=Rusted-Link Spiked Gauntlets", "=ds=#s9#, #a3#"};
-		{ 6, 39198, "", "=q4=Frostblight Pauldrons", "=ds=#s3#, #a4#"};
-		{ 7, 39195, "", "=q4=Bracers of Lost Sentiments", "=ds=#s8#, #a4#"};
-		{ 8, 39197, "", "=q4=Gauntlets of the Master", "=ds=#s9#, #a4#"};
-		{ 9, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#"};
-		{ 10, 39199, "", "=q4=Watchful Eye", "=ds=#s15#"};
+		{ 2, 39216, "", "=q4=Sash of Mortal Desire", "=ds=#s10#, #a1#"};
+		{ 3, 39215, "", "=q4=Boots of the Follower", "=ds=#s12#, #a2#"};
+		{ 4, 39196, "", "=q4=Boots of the Worshiper", "=ds=#s12#, #a2#"};
+		{ 5, 39217, "", "=q4=Avenging Combat Leggings", "=ds=#s11#, #a3#"};
+		{ 6, 39194, "", "=q4=Rusted-Link Spiked Gauntlets", "=ds=#s9#, #a3#"};
+		{ 7, 39198, "", "=q4=Frostblight Pauldrons", "=ds=#s3#, #a4#"};
+		{ 8, 39195, "", "=q4=Bracers of Lost Sentiments", "=ds=#s8#, #a4#"};
+		{ 9, 39197, "", "=q4=Gauntlets of the Master", "=ds=#s9#, #a4#"};
+		{ 10, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#"};
+		{ 11, 39199, "", "=q4=Watchful Eye", "=ds=#s15#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j38#", ""};
 		{ 17, 39732, "", "=q4=Faerlina's Madness", "=ds=#s1#, #a1#"};
 		{ 18, 39731, "", "=q4=Punctilious Bindings", "=ds=#s8#, #a1#"};
