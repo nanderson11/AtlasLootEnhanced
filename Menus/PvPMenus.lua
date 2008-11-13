@@ -68,7 +68,7 @@ AtlasLoot_Data["PVP70NONSETEPICS"] = {
 
 AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
         { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Level 80 PvP Sets"], "" };
-        { 4, "PvP80Weapons1", "INV_Sword_86", "=ds="..AL["Savage Gladiator\'s Weapons"], "" };
+        --{ 4, "PvP80Weapons1", "INV_Sword_86", "=ds="..AL["Savage Gladiator\'s Weapons"], "" };
         { 17, "PvP80NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
         { 19, "DeadlyGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Deadly Gladiator\'s Weapons"], "" };
         Back = "PVPMENU";
