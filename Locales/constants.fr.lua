@@ -491,6 +491,7 @@ if AL then
     AL["Trainer"] = "Entraineur";
     AL["Discovery"] = "Découverte";
     --AL["World Drop"] = true;
+    --AL["Drop"] = true;
     AL["Vendor"] = "Vendeur";
     AL["Quest"] = "Quête";
     AL["Crafted"] = "Créer";
