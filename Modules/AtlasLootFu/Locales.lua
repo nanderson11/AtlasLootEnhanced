@@ -13,3 +13,9 @@ if (GetLocale() == "frFR") then
     ATLASLOOTFU_SHIFTCLICK = "|cffff0000Shift-Clic|r Affiche les Options";
     ATLASLOOTFU_LEFTDRAG = "|cffccccccClic-Gauche + Maintenir|r Minimap-Button bewegen";
 end
+
+if (GetLocale() == "ruRU") then
+ATLASLOOTFU_LEFTCLICK = "|cff1eff00Левый-Клик|r обзор таблици добычи";
+ATLASLOOTFU_SHIFTCLICK = "|cffff0000Shift-Клик|r настройки";
+ATLASLOOTFU_LEFTDRAG = "|cffccccccЛевый-Клик + тащить|r перемещение кнопки";
+end
