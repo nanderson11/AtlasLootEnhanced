@@ -231,6 +231,17 @@ if AL then
     AL["Potions"] = "Зелья";
     AL["Transmutes"] = "Трансмутация";
     AL["Flasks"] = "Фляги";
+
+    --Enchanting
+    AL["Enchant Boots"] = "Зачаровывание обуви";
+    AL["Enchant Bracer"] = "Зачаровывание браслетов";
+    AL["Enchant Chest"] = "Зачаровывание нагрудника";
+    AL["Enchant Cloak"] = "Зачаровывание плаща";
+    AL["Enchant Gloves"] = "Зачаровывание перчаток";
+    AL["Enchant Ring"] = "Зачаровывание кольца";
+    AL["Enchant Shield"] = "Зачаровывание щита";
+    AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
+    AL["Enchant Weapon"] = "Зачаровывание оружия";
     
     --Inscription
     AL["Major Glyph"] = "Большой символ";
