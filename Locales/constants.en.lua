@@ -232,6 +232,17 @@ if AL then
     AL["Transmutes"] = true;
     AL["Flasks"] = true;
     
+    --Enchanting
+    AL["Enchant Boots"] = true;
+    AL["Enchant Bracer"] = true;
+    AL["Enchant Chest"] = true;
+    AL["Enchant Cloak"] = true;
+    AL["Enchant Gloves"] = true;
+    AL["Enchant Ring"] = true;
+    AL["Enchant Shield"] = true;
+    AL["Enchant 2H Weapon"] = true;
+    AL["Enchant Weapon"] = true;
+    
     --Inscription
     AL["Major Glyph"] = true;
     AL["Minor Glyph"] = true;

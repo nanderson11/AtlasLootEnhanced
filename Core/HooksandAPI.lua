@@ -155,7 +155,7 @@ function AtlasLoot_Refresh()
     local tLR = "";
     local tML = "";
     local tPL = "";
-    if ( base.Location[1] ) then
+    if ( base.Location ) then
         tLoc = ATLAS_STRING_LOCATION..": "..base.Location[1];
     end
     if ( base.LevelRange ) then

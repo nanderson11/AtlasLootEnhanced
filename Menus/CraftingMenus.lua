@@ -101,6 +101,20 @@ AtlasLoot_Data["SMITHINGMENU"] = {
         { 22, "Hammersmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17040), "" };
         Back = "CRAFTINGMENU";
     };
+    
+AtlasLoot_Data["ENCHANTINGMENU"] = {
+        { 2, "EnchantingBoots1", "Trade_Engraving", "=ds="..AL["Enchant Boots"], "" };
+        { 3, "EnchantingChest1", "Trade_Engraving", "=ds="..AL["Enchant Chest"], "" };
+        { 4, "EnchantingGloves1", "Trade_Engraving", "=ds="..AL["Enchant Gloves"], "" };
+        { 5, "EnchantingShield1", "Trade_Engraving", "=ds="..AL["Enchant Shield"], "" };
+        { 6, "EnchantingWeapon1", "Trade_Engraving", "=ds="..AL["Enchant Weapon"], "" };
+        { 17, "EnchantingBracer1", "Trade_Engraving", "=ds="..AL["Enchant Bracer"], "" };
+        { 18, "EnchantingCloak1", "Trade_Engraving", "=ds="..AL["Enchant Cloak"], "" };
+        { 19, "EnchantingRing1", "Trade_Engraving", "=ds="..AL["Enchant Ring"], "" };
+        { 20, "Enchanting2HWeapon1", "Trade_Engraving", "=ds="..AL["Enchant 2H Weapon"], "" };
+        { 21, "EnchantingMisc1", "Trade_Engraving", "=ds="..AL["Miscellaneous"], "" };
+        Back = "CRAFTINGMENU";
+    };
 
 AtlasLoot_Data["INSCRIPTIONMENU"] = {
         { 2, "Inscription_Scrolls1", "INV_Inscription_Tradeskill01", "=ds="..AL["Scrolls"], "" };
