@@ -232,6 +232,17 @@ if AL then
     AL["Transmutes"] = "Transmutations";
     AL["Flasks"] = "Flacons";
 
+    --Enchanting
+    AL["Enchant Boots"] = "Enchantement Bottes";
+    AL["Enchant Bracer"] = "Enchantement Bracelets";
+    AL["Enchant Chest"] = "Enchantement Torse";
+    AL["Enchant Cloak"] = "Enchantement Cape";
+    AL["Enchant Gloves"] = "Enchantement Gants";
+    AL["Enchant Ring"] = "Enchantement Anneau";
+    AL["Enchant Shield"] = "Enchantement Bouclier";
+    AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
+    AL["Enchant Weapon"] = "Enchantement Arme";
+
     --Inscription
     AL["Major Glyph"] = "Glyphe majeur";
     AL["Minor Glyph"] = "Glyphe mineur";
