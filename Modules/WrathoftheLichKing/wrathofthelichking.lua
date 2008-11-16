@@ -28,6 +28,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- The Oracles
 ---- The Sons of Hodir
 ---- The Wyrmrest Accord
+---- Horde Expedition
 --- PvP
 ---- Armor Sets
 ---- Epic Non-Sets
@@ -1455,6 +1456,44 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 29, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e12#" };
 		{ 30, 41722, "", "=q3=Design: Glimmering Monarch Topaz", "=ds=#p12# (390)"};
 		Back = "REPMENU_WOTLK";
+	};
+    
+    -------------------------
+    --- Alliance Vanguard ---
+    -------------------------
+        
+    AtlasLoot_Data["AllianceVanguard1"] = {
+        { 2, 0, "INV_Shield_36", "=q6=#r4#", ""};
+        { 3, 38459, "", "=q3=Orb of the Eastern Kingdoms", "=ds=#s15#" };
+        { 4, 38463, "", "=q3=Lordaeron's Resolve", "=ds=#w8#" };
+        { 5, 38453, "", "=q3=Shield of the Lion-hearted", "=ds=#w8#" };
+        { 6, 38465, "", "=q3=Vanguard Soldier's Dagger", "=ds=#w4#, #h1#" };
+        { 7, 38455, "", "=q3=Hammer of the Alliance Vanguard", "=ds=#w6#, #h1#" };
+        { 8, 38457, "", "=q3=Sawed-off Hand Cannon", "=ds=#w5#" };
+        { 9, 38464, "", "=q3=Gnomish Magician's Quill", "=ds=#w12#" };
+        { 17, 0, "INV_Shield_36", "=q6=#r5#", ""};
+        { 18, 44503, "", "=q4=Schematic: Mekgineer's Chopper", "=ds=#p5#" };
+        { 19, 44701, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
+        Back = "REPMENU_WOTLK";
+	};
+    
+		----------------------------
+		--- The Horde Expedition ---
+		----------------------------
+        
+    AtlasLoot_Data["HordeExpedition1"] = {
+        { 2, 0, "INV_Shield_50", "=q6=#r4#", ""};
+        { 3, 38458, "", "=q3=Darkspear Orb", "=ds=#s15#" };
+        { 4, 38452, "", "=q3=Bulwark of the Warchief", "=ds=#w8#" };
+        { 5, 38462, "", "=q3=Warsong Stormshield", "=ds=#w8#" };
+        { 6, 38461, "", "=q3=Warsong Shanker", "=ds=#w4#, #h1#" };
+        { 7, 38454, "", "=q3=Warsong Punisher", "=ds=#w6#, #h1#" };
+        { 8, 38456, "", "=q3=Sin'dorei Recurve Bow", "=ds=#w2#" };
+        { 9, 38460, "", "=q3=Charged Wand of the Cleft", "=ds=#w12#" };
+        { 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
+        { 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5#" };
+        { 19, 38452, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
+        Back = "REPMENU_WOTLK";
 	};
 
 	-----------

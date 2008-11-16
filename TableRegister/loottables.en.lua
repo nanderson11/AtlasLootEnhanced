@@ -994,11 +994,13 @@ AtlasLoot_TableNames = {};
 --- WotLK Factions ---
 ----------------------
 
-	AtlasLoot_TableNames["ArgentCrusade"] = { BabbleFaction["Argent Crusade"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AllianceVanguard1"] = { BabbleFaction["Alliance Vanguard"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["ArgentCrusade"] = { BabbleFaction["Argent Crusade"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["FrenzyheartTribe"] = { BabbleFaction["Frenzyheart Tribe"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["HordeExpedition1"] = { BabbleFaction["Horde Expedition"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["KirinTor"] = { BabbleFaction["Kirin Tor"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["KnightsoftheEbonBlade"] = { BabbleFaction["Knights of the Ebon Blade"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TheKaluak"] = { BabbleFaction["The Kalu'ak"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["TheKaluak"] = { BabbleFaction["The Kalu'ak"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TheOracles"] = { BabbleFaction["The Oracles"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TheSonsofHodir1"] = { BabbleFaction["The Sons of Hodir"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TheSonsofHodir2"] = { BabbleFaction["The Sons of Hodir"], "AtlasLootWotLK" };

@@ -55,13 +55,15 @@ AtlasLoot_Data["REPMENU_BURNINGCRUSADE"] = {
     };
 
 AtlasLoot_Data["REPMENU_WOTLK"] = {
-        { 2, "ArgentCrusade", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Crusade"], "" };
-        { 3, "TheKaluak", "INV_Fishingpole_03", "=ds="..BabbleFaction["The Kalu'ak"], "" };
-        { 4, "KnightsoftheEbonBlade", "INV_Weapon_Hand_01", "=ds="..BabbleFaction["Knights of the Ebon Blade"], "" };
-        { 5, "TheSonsofHodir1", "Spell_Holy_DivinePurpose", "=ds="..BabbleFaction["The Sons of Hodir"], "" };
-        { 17, "FrenzyheartTribe", "INV_Misc_Rune_14", "=ds="..BabbleFaction["Frenzyheart Tribe"], "" };
-        { 18, "KirinTor", "Spell_Fire_MasterOfElements", "=ds="..BabbleFaction["Kirin Tor"], "" };
-        { 19, "TheOracles", "INV_Helmet_138", "=ds="..BabbleFaction["The Oracles"], "" };
-        { 20, "TheWyrmrestAccord", "Ability_Druid_Eclipse", "=ds="..BabbleFaction["The Wyrmrest Accord"], "" };
+        { 2, "AllianceVanguard1", "INV_Shield_36", "=ds="..BabbleFaction["Alliance Vanguard"], "" };
+        { 3, "FrenzyheartTribe", "INV_Misc_Rune_14", "=ds="..BabbleFaction["Frenzyheart Tribe"], "" };
+        { 4, "TheKaluak", "INV_Fishingpole_03", "=ds="..BabbleFaction["The Kalu'ak"], "" };
+        { 5, "KnightsoftheEbonBlade", "INV_Weapon_Hand_01", "=ds="..BabbleFaction["Knights of the Ebon Blade"], "" };
+        { 6, "TheSonsofHodir1", "Spell_Holy_DivinePurpose", "=ds="..BabbleFaction["The Sons of Hodir"], "" };
+        { 17, "ArgentCrusade", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Crusade"], "" };
+        { 18, "HordeExpedition1", "INV_Shield_50", "=ds="..BabbleFaction["Horde Expedition"], "" };
+        { 19, "KirinTor", "Spell_Fire_MasterOfElements", "=ds="..BabbleFaction["Kirin Tor"], "" };
+        { 20, "TheOracles", "INV_Helmet_138", "=ds="..BabbleFaction["The Oracles"], "" };
+        { 21, "TheWyrmrestAccord", "Ability_Druid_Eclipse", "=ds="..BabbleFaction["The Wyrmrest Accord"], "" };
         Back = "REPMENU";
     };    

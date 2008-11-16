@@ -2504,7 +2504,122 @@ local MASTER = select(2, GetSpellInfo(28596));
 		----------------------
 		--- Leatherworking ---
 		----------------------
-
+--[[
+    AtlasLoot_Data["LeatherMailOld1"] = {
+        { 1, "s28224", "22665", "=q4=Icy Scale Bracers", "=ds=#sr# 300"};
+		{ 2, "s28222", "22664", "=q4=Icy Scale Breastplate", "=ds=#sr# 300"};
+		{ 3, "s28223", "22666", "=q4=Icy Scale Gauntlets", "=ds=#sr# 300"};
+        { 4, "s24703", "20380", "=q4=Dreamscale Breastplate", "=ds=#sr# 300"};
+        { 5, "s23708", "19157", "=q4=Chromatic Gauntlets", "=ds=#sr# 300"};
+        { 6, "s20855", "16984", "=q4=Black Dragonscale Boots", "=ds=#sr# 300"};
+        { 7, "s22923", "18508", "=q3=Swift Flight Bracers", "=ds=#sr# 300"};
+        { 8, "s24849", "20476", "=q3=Sandstalker Bracers", "=ds=#sr# 300"};
+		{ 9, "s24851", "20478", "=q3=Sandstalker Breastplate", "=ds=#sr# 300"};
+		{ 10, "s24850", "20477", "=q3=Sandstalker Gauntlets", "=ds=#sr# 300"};
+		{ 11, "s24846", "20481", "=q3=Spitfire Bracers", "=ds=#sr# 300"};
+		{ 12, "s24848", "20479", "=q3=Spitfire Breastplate", "=ds=#sr# 300"};
+		{ 13, "s24847", "20480", "=q3=Spitfire Gauntlets", "=ds=#sr# 300"};
+        { 14, "s19054", "15047", "=q3=Red Dragonscale Breastplate", "=ds=#sr# 300"};
+        { 15, "s24654", "20295", "=q3=Blue Dragonscale Leggings", "=ds=#sr# 300"};
+        { 16, "s19107", "15052", "=q3=Black Dragonscale Leggings", "=ds=#sr# 300"};
+		{ 17, "s19094", "15051", "=q3=Black Dragonscale Shoulders", "=ds=#sr# 300"};
+        { 18, "s19089", "15049", "=q3=Blue Dragonscale Shoulders", "=ds=#sr# 295"};
+        { 19, "s19085", "15050", "=q3=Black Dragonscale Breastplate", "=ds=#sr# 290"};
+        { 20, "s19077", "15048", "=q3=Blue Dragonscale Breastplate", "=ds=#sr# 285"};
+        { 21, "s24655", "20296", "=q3=Green Dragonscale Gauntlets", "=ds=#sr# 280"};
+        { 22, "s19060", "15046", "=q3=Green Dragonscale Leggings", "=ds=#sr# 270"};
+        { 23, "s36076", "29971", "=q3=Dragonstrike Leggings", "=ds=#sr# 260"};
+		{ 24, "s19050", "15045", "=q3=Green Dragonscale Breastplate", "=ds=#sr# 260"};
+        { 25, "s10650", "8367", "=q3=Dragonscale Breastplate", "=ds=#sr# 255"};
+        { 26, "s10619", "8347", "=q3=Dragonscale Gauntlets", "=ds=#sr# 225"};
+        { 27, "s19100", "15081", "=q2=Heavy Scorpid Shoulders", "=ds=#sr# 300"};
+        { 28, "s19075", "15079", "=q2=Heavy Scorpid Leggings", "=ds=#sr# 285"};
+        { 29, "s19070", "15082", "=q2=Heavy Scorpid Belt", "=ds=#sr# 280"};
+        { 30, "s19064", "15078", "=q2=Heavy Scorpid Gauntlets", "=ds=#sr# 275"};
+        Next = "LeatherMailOld2";
+        Back = "LEATHERWORKINGMENU";
+        };
+        
+    AtlasLoot_Data["LeatherMailOld2"] = {
+        { 1, "s19051", "15076", "=q2=Heavy Scorpid Vest", "=ds=#sr# 265"};
+        { 2, "s19048", "15077", "=q2=Heavy Scorpid Bracers", "=ds=#sr# 255"};
+        { 3, "s10570", "8208", "=q2=Tough Scorpid Helm", "=ds=#sr# 250"};
+        { 4, "s10568", "8206", "=q2=Tough Scorpid Leggings", "=ds=#sr# 245"};
+        { 5, "s10564", "8207", "=q2=Tough Scorpid Shoulders", "=ds=#sr# 240"};
+        { 6, "s10554", "8209", "=q2=Tough Scorpid Boots", "=ds=#sr# 235"};
+		{ 7, "s10556", "8185", "=q2=Turtle Scale Leggings", "=ds=#sr# 235"};
+        { 8, "s10552", "8191", "=q2=Turtle Scale Helm", "=ds=#sr# 230"};
+        { 9, "s10542", "8204", "=q2=Tough Scorpid Gloves", "=ds=#sr# 225"};
+        { 10, "s10533", "8205", "=q2=Tough Scorpid Bracers", "=ds=#sr# 220"};
+		{ 11, "s10525", "8203", "=q2=Tough Scorpid Breastplate", "=ds=#sr# 220"};
+        { 12, "s10518", "8198", "=q2=Turtle Scale Bracers", "=ds=#sr# 210"};
+		{ 13, "s10511", "8189", "=q2=Turtle Scale Breastplate", "=ds=#sr# 210"};
+        { 14, "s10509", "8187", "=q2=Turtle Scale Gloves", "=ds=#sr# 205"};
+        Prev = "LeatherMailOld1";
+        Back = "LEATHERWORKINGMENU";
+        };
+        
+    AtlasLoot_Data["LeatherMailBC1"] = {
+        { 1, "s40002", "32397", "=q4=Waistguard of Shackled Souls", "=ds=#sr# 375"};
+        { 2, "s41162", "32575", "=q4=Shoulders of Lightning Reflexes", "=ds=#sr# 375"};
+        { 3, "s35582", "29520", "=q4=Netherstrike Belt", "=ds=#sr# 375"};
+		{ 4, "s35584", "29521", "=q4=Netherstrike Bracers", "=ds=#sr# 375"};
+		{ 5, "s35580", "29519", "=q4=Netherstrike Breastplate", "=ds=#sr# 375"};
+        { 6, "s36353", "30044", "=q4=Monsoon Belt", "=ds=#sr# 375"};
+        { 7, "s40000", "32399", "=q4=Bracers of Shackled Souls", "=ds=#sr# 375"};
+		{ 8, "s35576", "29516", "=q4=Ebon Netherscale Belt", "=ds=#sr# 375"};
+		{ 9, "s35577", "29517", "=q4=Ebon Netherscale Bracers", "=ds=#sr# 375"};
+		{ 10, "s35575", "29515", "=q4=Ebon Netherscale Breastplate", "=ds=#sr# 375"};
+		{ 11, "s40001", "32400", "=q4=Greaves of Shackled Souls", "=ds=#sr# 375"};
+		{ 12, "s36359", "30043", "=q4=Hurricane Boots", "=ds=#sr# 375"};
+		{ 13, "s41163", "32577", "=q4=Living Earth Bindings", "=ds=#sr# 375"};
+		{ 14, "s41164", "32579", "=q4=Living Earth Shoulders", "=ds=#sr# 375"};
+        { 15, "s39997", "32398", "=q4=Boots of Shackled Souls", "=ds=#sr# 375"};
+		{ 16, "s36358", "30045", "=q4=Boots of the Crimson Hawk", "=ds=#sr# 375"};
+        { 17, "s36352", "30046", "=q4=Belt of the Black Eagle", "=ds=#sr# 375"};
+		{ 18, "s41161", "32574", "=q4=Bindings of Lightning Reflexes", "=ds=#sr# 375"};
+        { 19, "s46139", "34375", "=q4=Sun-Drenched Scale Chestguard", "=ds=#sr# 365"};
+		{ 20, "s46135", "34376", "=q4=Sun-Drenched Scale Gloves", "=ds=#sr# 365"};
+        { 21, "s46137", "34373", "=q4=Embrace of the Phoenix", "=ds=#sr# 365"};
+		{ 22, "s46133", "34374", "=q4=Fletcher's Gloves of the Phoenix", "=ds=#sr# 365"};
+        { 23, "s35568", "29509", "=q4=Windstrike Gloves", "=ds=#sr# 365"};
+        { 24, "s35574", "29514", "=q4=Thick Netherscale Breastplate", "=ds=#sr# 365"};
+        { 25, "s35564", "29508", "=q4=Living Dragonscale Helm", "=ds=#sr# 365"};
+		{ 26, "s35573", "29511", "=q4=Netherdrake Gloves", "=ds=#sr# 365"};
+		{ 27, "s35572", "29510", "=q4=Netherdrake Helm", "=ds=#sr# 365"};
+        { 28, "s35567", "29512", "=q4=Earthen Netherscale Boots", "=ds=#sr# 365"};
+        { 29, "s32499", "25697", "=q3=Felstalker Bracer", "=ds=#sr# 360"};
+		{ 30, "s32500", "25696", "=q3=Felstalker Breastplate", "=ds=#sr# 360"};
+        Next = "LeatherMailBC2";
+        Back = "LEATHERWORKINGMENU";
+    };
+    
+    AtlasLoot_Data["LeatherMailBC2"] = {
+        { 1, "s32487", "25681", "=q3=Stylin' Adventure Hat", "=ds=#sr# 350"};
+		{ 2, "s32488", "25683", "=q3=Stylin' Crimson Hat", "=ds=#sr# 350"};
+        { 3, "s32498", "25695", "=q3=Felstalker Belt", "=ds=#sr# 350"};
+		{ 4, "s35531", "29494", "=q3=Flamescale Belt", "=ds=#sr# 350"};
+		{ 5, "s35528", "29493", "=q3=Flamescale Boots", "=ds=#sr# 350"};
+		{ 6, "s35529", "29492", "=q3=Flamescale Leggings", "=ds=#sr# 350"};
+		{ 7, "s32503", "25693", "=q3=Netherfury Boots", "=ds=#sr# 350"};
+        { 8, "s35527", "29491", "=q3=Enchanted Felscale Boots", "=ds=#sr# 350"};
+		{ 9, "s35526", "29490", "=q3=Enchanted Felscale Gloves", "=ds=#sr# 350"};
+		{ 10, "s35525", "29489", "=q3=Enchanted Felscale Leggings", "=ds=#sr# 350"};
+        { 11, "s32501", "25694", "=q3=Netherfury Belt", "=ds=#sr# 340"};
+		{ 12, "s32502", "25692", "=q3=Netherfury Leggings", "=ds=#sr# 340"};
+        { 13, "s36079", "29975", "=q3=Golden Dragonstrike Breastplate", "=ds=#sr# 330"};
+        { 14, "s32465", "25657", "=q2=Felscale Breastplate", "=ds=#sr# 335"};
+		{ 15, "s32469", "25659", "=q2=Scaled Draenic Boots", "=ds=#sr# 335"};
+        { 16, "s32468", "25660", "=q2=Scaled Draenic Vest", "=ds=#sr# 325"};
+        { 17, "s32464", "25656", "=q2=Felscale Pants", "=ds=#sr# 320"};
+        { 18, "s32467", "25661", "=q2=Scaled Draenic Gloves", "=ds=#sr# 310"};
+        { 19, "s32463", "25655", "=q2=Felscale Boots", "=ds=#sr# 310"};
+        { 20, "s32466", "25662", "=q2=Scaled Draenic Pants", "=ds=#sr# 300"};
+        { 21, "s32462", "25654", "=q2=Felscale Gloves", "=ds=#sr# 300"};
+        Prev = "LeatherMailBC1";
+        Back = "LEATHERWORKINGMENU";
+    };
+]]    
 	AtlasLoot_Data["LeatherApprentice1"] = {
 		{ 1, "s2881", "2318", "=q1=Light Leather", "=ds=#sr# 1"};
 		{ 2, "s2152", "2304", "=q1=Light Armor Kit", "=ds=#sr# 1"};
