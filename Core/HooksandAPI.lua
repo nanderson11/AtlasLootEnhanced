@@ -161,6 +161,9 @@ function AtlasLoot_Refresh()
     if ( base.LevelRange ) then
         tLR = ATLAS_STRING_LEVELRANGE..": "..base.LevelRange;
     end
+    if ( base.MinLevel ) then
+		tML = ATLAS_STRING_MINLEVEL..": "..base.MinLevel;
+	end
     if ( base.PlayerLimit ) then
         tPL = ATLAS_STRING_PLAYERLIMIT..": "..base.PlayerLimit;
     end
