@@ -240,7 +240,7 @@ function AtlasLoot_OnVariablesLoaded()
 		AtlasLootItemsFrame:Hide();
 	end
 	--Check and migrate old WishList entry format to the newer one
-	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) then
+	if(((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) and AtlasLootCharDB and AtlasLootCharDB["WishList"] and #AtlasLootCharDB["WishList"]~=0) then
 		--Check if we really need to do a migration since it will load all modules
 		--We also create a helper table here which store IDs that need to search for
 		local idsToSearch = {};
@@ -1077,28 +1077,33 @@ function AtlasLoot_IsLootTableAvailable(dataID)
 		if AtlasLoot_Data[dataID] then
 			return true;
 		else
-			if not IsAddOnLoaded(moduleName) then
-				loaded, reason=LoadAddOn(moduleName);
-				if not loaded then
-					if (reason == "MISSING") or (reason == "DISABLED") then
-						DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..AtlasLoot_TableNames[dataID][1]..WHITE..AL[" is unavailable, the following load on demand module is required: "]..ORANGE..moduleName);
-						return false;
-					else
-						DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..WHITE..AL["Status of the following module could not be determined: "]..ORANGE..moduleName);
-						return false;
-					end
-				end
-			end
-			if AtlasLoot_Data[dataID] then
-				if AtlasLoot.db.profile.LoDNotify then
-					DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..moduleName..WHITE.." "..AL["sucessfully loaded."]);
-				end
-				collectgarbage("collect");
-				return true;
-			else
-				DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..ORANGE..AtlasLoot_TableNames[dataID][1]..WHITE..AL[" could not be accessed, the following module may be out of date: "]..ORANGE..moduleName);
-				return false;
-			end
+			if moduleName then
+                if not IsAddOnLoaded(moduleName) then
+                    loaded, reason=LoadAddOn(moduleName);
+                    if not loaded then
+                        if (reason == "MISSING") or (reason == "DISABLED") then
+                            DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..AtlasLoot_TableNames[dataID][1]..WHITE..AL[" is unavailable, the following load on demand module is required: "]..ORANGE..moduleName);
+                            return false;
+                        else
+                            DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..WHITE..AL["Status of the following module could not be determined: "]..ORANGE..moduleName);
+                            return false;
+                        end
+                    end
+                end
+                if AtlasLoot_Data[dataID] then
+                    if AtlasLoot.db.profile.LoDNotify then
+                        DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..moduleName..WHITE.." "..AL["sucessfully loaded."]);
+                    end
+                    collectgarbage("collect");
+                    return true;
+                else
+                    DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..ORANGE..AtlasLoot_TableNames[dataID][1]..WHITE..AL[" could not be accessed, the following module may be out of date: "]..ORANGE..moduleName);
+                    return false;
+                end
+            else
+                DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..ORANGE..AL["Loot module returned as nil!"]);
+                return false;
+            end
 		end
 	end
 end

@@ -161,6 +161,9 @@ if AL then
     --LoD Module required has loaded, but loot table is missing
     AL[" could not be accessed, the following module may be out of date: "] = true;
 
+    --LoD module not defined
+    AL["Loot module returned as nil!"] = true;
+    
     --LoD module loaded successfully
     AL["sucessfully loaded."] = true;
 
