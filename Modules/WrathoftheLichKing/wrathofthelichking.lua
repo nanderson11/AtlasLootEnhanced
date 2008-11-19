@@ -1492,7 +1492,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
         { 9, 38460, "", "=q3=Charged Wand of the Cleft", "=ds=#w12#" };
         { 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
         { 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5#" };
-        { 19, 38452, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
+        { 19, 44702, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
         Back = "REPMENU_WOTLK";
 	};
 
