@@ -8,6 +8,7 @@ local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
+local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --This is a multi-layer table defining the main loot listing.
@@ -1373,14 +1374,18 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["JewelMaster1"][1], "JewelMaster1" },
 	},
 	["Leatherworking"] = {
-		{ AtlasLoot_TableNames["LeatherApprentice1"][1], "LeatherApprentice1" },
-		{ AtlasLoot_TableNames["LeatherJourneyman1"][1], "LeatherJourneyman1" },
-		{ AtlasLoot_TableNames["LeatherExpert1"][1], "LeatherExpert1" },
-		{ AtlasLoot_TableNames["LeatherArtisan1"][1], "LeatherArtisan1" },
-		{ AtlasLoot_TableNames["LeatherMaster1"][1], "LeatherMaster1" },
+		{ AL["Leather Armor"].." - "..AL["Original WoW"], "LeatherLeatherArmorOld1" },
+        { AL["Leather Armor"].." - "..AL["Burning Crusade"], "LeatherLeatherArmorBC1" },
+        { AL["Mail Armor"].." - "..AL["Original WoW"], "LeatherMailArmorOld1" },
+        { AL["Mail Armor"].." - "..AL["Burning Crusade"], "LeatherMailArmorBC1" },
+		{ AL["Cloaks"], "LeatherCloaks1" },
+		{ AL["Item Enhancements"], "LeatherItemEnhancement1" },
+		{ AL["Quivers and Ammo Pouches"], "LeatherQuiversPouches1" },
+		{ AL["Drums, Bags and Misc."], "LeatherDrumsBagsMisc1" },
 		{ AtlasLoot_TableNames["Dragonscale1"][1], "Dragonscale1" },
 		{ AtlasLoot_TableNames["Elemental1"][1], "Elemental1" },
 		{ AtlasLoot_TableNames["Tribal1"][1], "Tribal1" },
+        { BabbleInventory["Leather"], "LeatherLeather1" },
 	},
 	["Tailoring"] = {
 		{ AtlasLoot_TableNames["TailoringApprentice1"][1], "TailoringApprentice1" },

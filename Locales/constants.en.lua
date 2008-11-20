@@ -64,6 +64,7 @@ if AL then
     AL["Classic Instances"] = true;
     AL["BC Instances"] = true;
     AL["WotLK Instances"] = true;
+    AL["Original WoW"] = true;
     AL["Burning Crusade"] = true;
     AL["Entrance"] = true;
     AL["Original Factions"] = true;
@@ -252,6 +253,14 @@ if AL then
     AL["Scrolls"] = true;
     AL["Off-Hand Items"] = true;
     AL["Reagents"] = true;
+    
+    --Leatherworking
+    AL["Leather Armor"] = true;
+    AL["Mail Armor"] = true;
+    AL["Cloaks"] = true;
+    AL["Item Enhancements"] = true;
+    AL["Quivers and Ammo Pouches"] = true;
+    AL["Drums, Bags and Misc."] = true;
     
     --Labels for loot descriptions
     AL["Classes:"] = true;

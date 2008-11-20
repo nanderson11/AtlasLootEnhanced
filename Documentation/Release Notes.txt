@@ -8,6 +8,7 @@ Patch Notes
 v5.02.01
 Added WotLK Alchemy recipes
 Re-arranged Enchanting
+Re-arranged Leatherworking
 Added the Horde Expedition and the Alliance Vanguard rep factions
 
 v5.02.00

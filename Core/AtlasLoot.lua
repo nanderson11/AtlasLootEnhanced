@@ -120,7 +120,6 @@ AtlasLoot_MenuList = {
 	"ARENA4SET",
 	"ENGINEERINGMENU",
 	"JEWELCRAFTINGMENU",
-	"LEATHERWORKINGMENU",
 	"TAILORINGMENU",
 	"COOKINGMENU",
 };
@@ -578,8 +577,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_EngineeringMenu();
 	elseif(dataID=="JEWELCRAFTINGMENU") then
 		AtlasLoot_JewelcrafingMenu();
-	elseif(dataID=="LEATHERWORKINGMENU") then
-		AtlasLoot_LeatherworkingMenu();
 	elseif(dataID=="TAILORINGMENU") then
 		AtlasLoot_TailoringMenu();
 	elseif(dataID=="COOKINGMENU") then
