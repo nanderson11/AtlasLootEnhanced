@@ -64,6 +64,7 @@ if AL then
     AL["Classic Instances"] = "Instances classiques";
     AL["BC Instances"] = "Instances BC";
     AL["WotLK Instances"] = "Instances WotLK";
+    AL["Original WoW"] = "WoW Originale";
     --AL["Burning Crusade"] = true;
     AL["Entrance"] = "Entrée";
     AL["Original Factions"] = "Factions Originale";
@@ -162,7 +163,7 @@ if AL then
     AL[" could not be accessed, the following module may be out of date: "] = " n'a pas pu être consulté, le module suivant peut être dépassé: ";
     
     --LoD module not defined
-    AL["Loot module returned as nil!"] = "Le module de loot a retourné nulle !";
+    AL["Loot module returned as nil!"] = "Le module de loot a retourné une erreur !";
 
     --LoD module loaded successfully
     AL["sucessfully loaded."] = "chargement réussi.";
@@ -252,6 +253,14 @@ if AL then
     AL["Scrolls"] = "Parchemins";
     AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
     AL["Reagents"] = "Réactifs";
+
+    --Leatherworking
+    AL["Leather Armor"] = "Armure en cuir";
+    AL["Mail Armor"] = "Armure en maille";
+    AL["Cloaks"] = "Capes";
+    AL["Item Enhancements"] = "Améliorations d'objet";
+    AL["Quivers and Ammo Pouches"] = "Carquois et Gibernes";
+    AL["Drums, Bags and Misc."] = "Tambours, sacs et divers.";
 
     --Labels for loot descriptions
     AL["Classes:"] = "Classes :";
