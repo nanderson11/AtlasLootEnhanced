@@ -20,15 +20,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Obsidian Sanctum
 ---- The Eye of Eternity
 --- Factions
+---- Alliance Vanguard
 ---- Argent Crusade
 ---- Frenzyheart Tribe
+---- Horde Expedition
 ---- Kirin Tor
 ---- Knights of the Ebon Blade
 ---- The Kalu'ak
 ---- The Oracles
 ---- The Sons of Hodir
+---- Winterfin Retreat
 ---- The Wyrmrest Accord
----- Horde Expedition
 --- PvP
 ---- Armor Sets
 ---- Epic Non-Sets
@@ -1221,6 +1223,25 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	--- Factions ---
 	----------------
 
+		-------------------------
+		--- Alliance Vanguard ---
+		-------------------------
+
+	AtlasLoot_Data["AllianceVanguard1"] = {
+		{ 2, 0, "INV_Shield_36", "=q6=#r4#", ""};
+		{ 3, 38459, "", "=q3=Orb of the Eastern Kingdoms", "=ds=#s15#" };
+		{ 4, 38465, "", "=q3=Vanguard Soldier's Dagger", "=ds=#h1#, #w4#" };
+		{ 5, 38455, "", "=q3=Hammer of the Alliance Vanguard", "=ds=#h1#, #w6#" };
+		{ 6, 38463, "", "=q3=Lordaeron's Resolve", "=ds=#w8#" };
+		{ 7, 38453, "", "=q3=Shield of the Lion-hearted", "=ds=#w8#" };
+		{ 8, 38457, "", "=q3=Sawed-off Hand Cannon", "=ds=#w5#" };
+		{ 9, 38464, "", "=q3=Gnomish Magician's Quill", "=ds=#w12#" };
+		{ 17, 0, "INV_Shield_36", "=q6=#r5#", ""};
+		{ 18, 44503, "", "=q4=Schematic: Mekgineer's Chopper", "=ds=#p5# (450)" };
+		{ 19, 44701, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
+		Back = "REPMENU_WOTLK";
+	};
+
 		----------------------
 		--- Argent Crusade ---
 		----------------------
@@ -1271,6 +1292,25 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 15, 44717, "", "=q1=Disgusting Jar", "=ds="};
 		{ 16, 0, "INV_Misc_Rune_14", "=q6=#r5#", ""};
 		{ 17, 44073, "", "=q4=Frenzyheart Insignia of Fury", "=ds=#s14#"};
+		Back = "REPMENU_WOTLK";
+	};
+
+		----------------------------
+		--- The Horde Expedition ---
+		----------------------------
+
+	AtlasLoot_Data["HordeExpedition1"] = {
+		{ 2, 0, "INV_Shield_50", "=q6=#r4#", ""};
+		{ 3, 38458, "", "=q3=Darkspear Orb", "=ds=#s15#" };
+		{ 4, 38461, "", "=q3=Warsong Shanker", "=ds=#h1#, #w4#" };
+		{ 5, 38454, "", "=q3=Warsong Punisher", "=ds=#h1#, #w6#" };
+		{ 6, 38452, "", "=q3=Bulwark of the Warchief", "=ds=#w8#" };
+		{ 7, 38462, "", "=q3=Warsong Stormshield", "=ds=#w8#" };
+		{ 8, 38456, "", "=q3=Sin'dorei Recurve Bow", "=ds=#w2#" };
+		{ 9, 38460, "", "=q3=Charged Wand of the Cleft", "=ds=#w12#" };
+		{ 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
+		{ 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5# (450)" };
+		{ 19, 44702, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
 		Back = "REPMENU_WOTLK";
 	};
 
@@ -1398,7 +1438,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 44190, "", "=q3=Spaulders of Frozen Knives", "=ds=#s3#, #a2#" };
 		{ 3, 44189, "", "=q3=Giant Ring Belt", "=ds=#s10#, #a3#" };
 		{ 4, 44510, "", "=q3=Pattern: Mammoth Mining Bag", "=ds=#p7# (415)"};
-		{ 5, 44137, "", "=q3=Arcanum of the Frosty Soul", "=ds=#e17#"};
+		{ 5, 44137, "", "=q3=Arcanum of the Frosty Soul", "=ds=#s1# #e17#"};
 		{ 6, 44131, "", "=q3=Lesser Inscription of the Axe", "=ds=#s3# #e17#"};
 		{ 7, 44130, "", "=q3=Lesser Inscription of the Crag", "=ds=#s3# #e17#"};
 		{ 8, 44132, "", "=q3=Lesser Inscription of the Pinnacle", "=ds=#s3# #e17#"};
@@ -1425,6 +1465,26 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 41720, "", "=q3=Design: Smooth Autumn's Glow", "=ds=#p12# (390)"};
 		{ 9, 42184, "", "=q1=Pattern: Glacial Bag", "=ds=#p7# (445)"};
 		Prev = "TheSonsofHodir1";
+		Back = "REPMENU_WOTLK";
+	};
+
+		-------------------------
+		--- Winterfin Retreat ---
+		-------------------------
+
+	AtlasLoot_Data["WinterfinRetreat"] = {
+		{ 2, 36784, "", "=q3=Siren's Tear", "=ds=#e7#", "60 #winterfinclam#"};
+		{ 3, 37462, "", "=q2=Sea King's Crown", "=ds=#s1#, #a1#", "50 #winterfinclam#"};
+		{ 4, 37463, "", "=q2=Winterfin Patch of Honor", "=ds=#s1#, #a2#", "50 #winterfinclam#"};
+		{ 5, 37461, "", "=q2=Tidebreaker Trident", "=ds=#w7#", "100 #winterfinclam#"};
+		{ 6, 36783, "", "=q2=Northsea Pearl", "=ds=#e7#", "30 #winterfinclam#"};
+		{ 7, 37464, "", "=q1=Winterfin Horn of Distress", "=ds=#e22#", "20 #winterfinclam#"};
+		{ 8, 37449, "", "=q1=Breath of Murloc", "=ds=#e2#", "5 #winterfinclam#"};
+		{ 9, 38351, "", "=q1=Murliver Oil", "=ds=#e2#", "5 #winterfinclam#"};
+		{ 10, 38350, "", "=q1=Winterfin \"Depth Charge\"", "=ds=#e4#", "1 #winterfinclam#"};
+		{ 11, 17058, "", "=q1=Fish Oil", "=ds=#e8#", "1 #winterfinclam#"};
+		{ 12, 17057, "", "=q1=Shiny Fish Scales", "=ds=#e8#", "1 #winterfinclam#"};
+		{ 14, 34597, "", "=q1=Winterfin Clam", "=ds=#m17#"};
 		Back = "REPMENU_WOTLK";
 	};
 
@@ -1456,44 +1516,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 29, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e12#" };
 		{ 30, 41722, "", "=q3=Design: Glimmering Monarch Topaz", "=ds=#p12# (390)"};
 		Back = "REPMENU_WOTLK";
-	};
-    
-    -------------------------
-    --- Alliance Vanguard ---
-    -------------------------
-        
-    AtlasLoot_Data["AllianceVanguard1"] = {
-        { 2, 0, "INV_Shield_36", "=q6=#r4#", ""};
-        { 3, 38459, "", "=q3=Orb of the Eastern Kingdoms", "=ds=#s15#" };
-        { 4, 38463, "", "=q3=Lordaeron's Resolve", "=ds=#w8#" };
-        { 5, 38453, "", "=q3=Shield of the Lion-hearted", "=ds=#w8#" };
-        { 6, 38465, "", "=q3=Vanguard Soldier's Dagger", "=ds=#w4#, #h1#" };
-        { 7, 38455, "", "=q3=Hammer of the Alliance Vanguard", "=ds=#w6#, #h1#" };
-        { 8, 38457, "", "=q3=Sawed-off Hand Cannon", "=ds=#w5#" };
-        { 9, 38464, "", "=q3=Gnomish Magician's Quill", "=ds=#w12#" };
-        { 17, 0, "INV_Shield_36", "=q6=#r5#", ""};
-        { 18, 44503, "", "=q4=Schematic: Mekgineer's Chopper", "=ds=#p5#" };
-        { 19, 44701, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
-        Back = "REPMENU_WOTLK";
-	};
-    
-		----------------------------
-		--- The Horde Expedition ---
-		----------------------------
-        
-    AtlasLoot_Data["HordeExpedition1"] = {
-        { 2, 0, "INV_Shield_50", "=q6=#r4#", ""};
-        { 3, 38458, "", "=q3=Darkspear Orb", "=ds=#s15#" };
-        { 4, 38452, "", "=q3=Bulwark of the Warchief", "=ds=#w8#" };
-        { 5, 38462, "", "=q3=Warsong Stormshield", "=ds=#w8#" };
-        { 6, 38461, "", "=q3=Warsong Shanker", "=ds=#w4#, #h1#" };
-        { 7, 38454, "", "=q3=Warsong Punisher", "=ds=#w6#, #h1#" };
-        { 8, 38456, "", "=q3=Sin'dorei Recurve Bow", "=ds=#w2#" };
-        { 9, 38460, "", "=q3=Charged Wand of the Cleft", "=ds=#w12#" };
-        { 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
-        { 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5#" };
-        { 19, 44702, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#" };
-        Back = "REPMENU_WOTLK";
 	};
 
 	-----------

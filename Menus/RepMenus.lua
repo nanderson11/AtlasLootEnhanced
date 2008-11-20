@@ -60,10 +60,11 @@ AtlasLoot_Data["REPMENU_WOTLK"] = {
         { 4, "TheKaluak", "INV_Fishingpole_03", "=ds="..BabbleFaction["The Kalu'ak"], "" };
         { 5, "KnightsoftheEbonBlade", "INV_Weapon_Hand_01", "=ds="..BabbleFaction["Knights of the Ebon Blade"], "" };
         { 6, "TheSonsofHodir1", "Spell_Holy_DivinePurpose", "=ds="..BabbleFaction["The Sons of Hodir"], "" };
+        { 7, "TheWyrmrestAccord", "Ability_Druid_Eclipse", "=ds="..BabbleFaction["The Wyrmrest Accord"], "" };
         { 17, "ArgentCrusade", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Crusade"], "" };
         { 18, "HordeExpedition1", "INV_Shield_50", "=ds="..BabbleFaction["Horde Expedition"], "" };
         { 19, "KirinTor", "Spell_Fire_MasterOfElements", "=ds="..BabbleFaction["Kirin Tor"], "" };
         { 20, "TheOracles", "INV_Helmet_138", "=ds="..BabbleFaction["The Oracles"], "" };
-        { 21, "TheWyrmrestAccord", "Ability_Druid_Eclipse", "=ds="..BabbleFaction["The Wyrmrest Accord"], "" };
+        { 21, "WinterfinRetreat", "INV_Misc_Shell_04", "=ds="..BabbleFaction["Winterfin Retreat"], "" };
         Back = "REPMENU";
     };    

@@ -930,6 +930,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#glowcap#", "|TInterface\\Icons\\INV_Mushroom_02:0|t");
     text = gsub(text, "#ogrilashard#", "|TInterface\\Icons\\INV_Misc_Apexis_Shard:0|t");
     text = gsub(text, "#ogrilacrystal#", "|TInterface\\Icons\\INV_Misc_Apexis_Crystal:0|t");
+    text = gsub(text, "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t");
     text = gsub(text, "#horde#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
     text = gsub(text, "#alliance#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
 
