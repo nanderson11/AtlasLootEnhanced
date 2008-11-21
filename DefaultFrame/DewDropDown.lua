@@ -206,7 +206,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
 			[15] = { 
-				{ BabbleZone["The Violet Hold"], "VioletHold", "Submenu" },
+				{ BabbleZone["The Violet Hold"], "VioletHold", "Table" },
 			},
 		},
 	},
@@ -899,9 +899,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "OcuCloudstrider" },
 		{ "", "OcuEregos" },
 		{ "", "OcuUnknown" },
-	},
-	["VioletHold"] = {
-		{ "", "VHUnknown" },
 	},
 	["Naxxramas80"] = {
 		{ "", "Naxx80Patchwerk" },

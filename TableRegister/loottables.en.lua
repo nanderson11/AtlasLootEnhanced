@@ -68,7 +68,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["DrakTharonKeep"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DrakTharonKeepHEROIC"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
     --The Violet Hold
-	AtlasLoot_TableNames["VHUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHold"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VHCyanigosa"] = { BabbleBoss["Cyanigosa"], "AtlasLootWotLK" };
     --Gundrak
 	AtlasLoot_TableNames["Gundrak"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GundrakHEROIC"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" };

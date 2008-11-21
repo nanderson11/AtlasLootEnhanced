@@ -137,6 +137,17 @@ AtlasLootBossButtons = {
         "UPPalehoof";
         "UPSkadi";
         };
+        
+    VioletHold = {
+    	"";
+    	"VioletHold";
+        "VioletHold";
+        "VioletHold";
+        "VioletHold";
+        "VioletHold";
+        "VioletHold";
+        "VHCyanigosa";
+        };
 
   ------------------
   -- BC Instances --

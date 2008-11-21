@@ -332,17 +332,40 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-----------------------
 		--- The Violet Hold ---
 		-----------------------
--- 1-2 trash drops ; Rest unknown
-	AtlasLoot_Data["VHUnknown"] = {
-		{ 1, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
-		{ 2, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
-		{ 4, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
-		{ 5, 35646, "", "=q3=Lava Burn Gloves", "=ds=#s9#, #a1#"};
+
+	AtlasLoot_Data["VioletHold"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Erekem"], ""};
+		{ 2, 43363, "", "=q3=Screeching Cape", "=ds=#s4#"};
+		{ 3, 43375, "", "=q3=Trousers of the Arakkoa", "=ds=#s11#, #a1#"};
+		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Ichoron"], ""};
 		{ 6, 35647, "", "=q3=Handguards of Rapid Pursuit", "=ds=#s9#, #a2#"};
-		{ 7, 35644, "", "=q3=Xevozz's Belt", "=ds=#s10#, #a3#"};
-		{ 8, 35643, "", "=q3=Spaulders of Ichoron", "=ds=#s3#, #a4#"};
-		{ 9, 35645, "", "=q3=Prison Warden's Shotgun", "=ds=#w5#"};
-		{ 10, 35642, "", "=q3=Riot Shield", "=ds=#w8#"};
+		{ 7, 35643, "", "=q3=Spaulders of Ichoron", "=ds=#s3#, #a4#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Lavanthor"], ""};
+		{ 10, 35646, "", "=q3=Lava Burn Gloves", "=ds=#s9#, #a1#"};
+		{ 11, 35645, "", "=q3=Prison Warden's Shotgun", "=ds=#w5#"};
+		{ 13, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 14, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
+		{ 15, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Moragg"], ""};
+		{ 17, 43387, "", "=q3=Shoulderplates of the Beholder", "=ds=#s3#, #a4#"};
+		{ 18, 43382, "", "=q3=Band of Eyes", "=ds=#s13#"};
+		{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Xevozz"], ""};
+		{ 21, 35644, "", "=q3=Xevozz's Belt", "=ds=#s10#, #a3#"};
+		{ 22, 35642, "", "=q3=Riot Shield", "=ds=#w8#"};
+		{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Zuramat the Obliterator"], ""};
+		{ 25, 43353, "", "=q3=Void Sentry Legplates", "=ds=#s11#, #a4#"};
+		{ 26, 43358, "", "=q3=Pendant of Shadow Beams", "=ds=#s2#"};
+		{ 28, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 29, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
+		Next = "VHCyanigosa";
+	};
+
+	AtlasLoot_Data["VHCyanigosa"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35650, "", "=q3=Boots of the Portal Guardian", "=ds=#s12#, #a3#"};
+		{ 3, 35651, "", "=q3=Plate Claws of the Dragon", "=ds=#s9#, #a4#"};
+		{ 4, 35649, "", "=q3=Jailer's Baton", "=ds=#w9#"};
+		Prev = "VioletHold";
 	};
 
 		---------------
