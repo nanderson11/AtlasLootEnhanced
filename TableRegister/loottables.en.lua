@@ -63,6 +63,7 @@ AtlasLoot_TableNames = {};
     --Ahn'kahet: The Old Kingdom
 	AtlasLoot_TableNames["Ahnkahet"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AhnkahetHEROIC"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetVolazjHEROIC"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" };
     --Drak'Tharon Keep
 	AtlasLoot_TableNames["DrakTharonKeep"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DrakTharonKeepHEROIC"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };

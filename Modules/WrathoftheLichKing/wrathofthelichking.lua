@@ -216,14 +216,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		----------------------------------
 	
 	AtlasLoot_Data["Ahnkahet"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
-		{ 2, 35611, "", "=q3=Gloves of the Blood Prince", "=ds=#s9#, #a1#"};
-		{ 3, 35610, "", "=q3=Slasher's Amulet", "=ds=#s2#"};
-		{ 4, 35609, "", "=q3=Talisman of Scourge Command", "=ds=#s15#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
-		{ 7, 35607, "", "=q3=Ahn'kahar Handwraps", "=ds=#s9#, #a2#"};
-		{ 8, 35608, "", "=q3=Crawler-Emblem Belt", "=ds=#s10#, #a4#"};
-		{ 9, 35606, "", "=q3=Blade of Nadox", "=ds=#h1#, #w4#"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
+		{ 2, 35607, "", "=q3=Ahn'kahar Handwraps", "=ds=#s9#, #a2#"};
+		{ 3, 35608, "", "=q3=Crawler-Emblem Belt", "=ds=#s10#, #a4#"};
+		{ 4, 35606, "", "=q3=Blade of Nadox", "=ds=#h1#, #w4#"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
+		{ 7, 35611, "", "=q3=Gloves of the Blood Prince", "=ds=#s9#, #a1#"};
+		{ 8, 35610, "", "=q3=Slasher's Amulet", "=ds=#s2#"};
+		{ 9, 35609, "", "=q3=Talisman of Scourge Command", "=ds=#s15#"};
 		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
 		{ 12, 35616, "", "=q3=Spored Tendrils Spaulders", "=ds=#s3#, #a3#"};
 		{ 13, 35615, "", "=q3=Glowworm Cavern Bindings", "=ds=#s8#, #a3#"};
@@ -239,16 +239,16 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["AhnkahetHEROIC"] = {
 		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
-		{ 4, 37613, "", "=q3=Flame Sphere Bindings", "=ds=#s8#, #a1#"};
-		{ 5, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
-		{ 6, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
-		{ 7, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
-		{ 10, 37594, "", "=q3=Elder Headpiece", "=ds=#s1#, #a1#"};
-		{ 11, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
-		{ 12, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
-		{ 13, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
+		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
+		{ 4, 37594, "", "=q3=Elder Headpiece", "=ds=#s1#, #a1#"};
+		{ 5, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 6, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
+		{ 7, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
+		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
+		{ 10, 37613, "", "=q3=Flame Sphere Bindings", "=ds=#s8#, #a1#"};
+		{ 11, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
+		{ 12, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
+		{ 13, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jedoga Shadowseeker"], ""};
 		{ 17, 43283, "", "=q3=Subterranean Waterfall Shroud", "=ds=#s4#"};
 		{ 18, 43280, "", "=q3=Faceguard of the Hammer Clan", "=ds=#s1#, #a4#"};
