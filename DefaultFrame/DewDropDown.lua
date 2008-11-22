@@ -1373,8 +1373,10 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Leatherworking"] = {
 		{ AL["Leather Armor"].." - "..AL["Original WoW"], "LeatherLeatherArmorOld1" },
         { AL["Leather Armor"].." - "..AL["Burning Crusade"], "LeatherLeatherArmorBC1" },
+        { AL["Leather Armor"].." - "..AL["Wrath of the Lich King"], "LeatherLeatherArmorWrath1" },
         { AL["Mail Armor"].." - "..AL["Original WoW"], "LeatherMailArmorOld1" },
         { AL["Mail Armor"].." - "..AL["Burning Crusade"], "LeatherMailArmorBC1" },
+        { AL["Mail Armor"].." - "..AL["Wrath of the Lich King"], "LeatherMailArmorWrath1" },
 		{ AL["Cloaks"], "LeatherCloaks1" },
 		{ AL["Item Enhancements"], "LeatherItemEnhancement1" },
 		{ AL["Quivers and Ammo Pouches"], "LeatherQuiversPouches1" },

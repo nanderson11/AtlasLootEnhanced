@@ -6,10 +6,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 v5.02.01
-Added WotLK Alchemy recipes
+Added WotLK Alchemy and Leatherworking recipes
 Re-arranged Enchanting
-Re-arranged Leatherworking
+Updated Inscription
 Added the Horde Expedition and the Alliance Vanguard rep factions
+Minor updates for Atlas 1.13
 
 v5.02.00
 Dungeons and Raids:
