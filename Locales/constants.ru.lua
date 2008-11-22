@@ -64,6 +64,7 @@ if AL then
     AL["Classic Instances"] = "Классик инстансы";
     AL["BC Instances"] = "БК инстансы";
     AL["WotLK Instances"] = "WotLK инстансы";
+    AL["Original WoW"] = "Оригинальный WoW";
     AL["Burning Crusade"] = "Burning Crusade";
     AL["Entrance"] = "вход";
     AL["Original Factions"] = "Оригинальные Фракции";
@@ -249,6 +250,14 @@ if AL then
     AL["Scrolls"] = "Свитки";
     AL["Off-Hand Items"] = "Предметы в левую руку";
     AL["Reagents"] = "Реагенты";
+
+    --Leatherworking
+    AL["Leather Armor"] = "Кожанная броня";
+    AL["Mail Armor"] = "Кольчужная броня";
+    AL["Cloaks"] = "Плащи";
+    AL["Item Enhancements"] = "Улучшения";
+    AL["Quivers and Ammo Pouches"] = "Колчаны и Подсумки";
+    AL["Drums, Bags and Misc."] = "барабаны, Сумки и Разное";
     
     --Labels for loot descriptions
     AL["Classes:"] = "Классы:";
@@ -795,7 +804,7 @@ if AL then
 
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";
-    AL["Deadly Gladiator\'s Weapons"] = "Оружие Deadly Gladiator\'s Weapons";
+    AL["Deadly Gladiator\'s Weapons"] = "Оружие Deadly Gladiator";
 
     --Set Labels
     AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
@@ -1061,7 +1070,7 @@ if AL then
     AL["Cache of the Legion"] = "Тайник Легиона";
     AL["Rajaxx's Captains"] = "Капитаны Раджакса";
     AL["Felsteed"] = "Скакун Скверны";
-    AL["Commander Stoutbeard"] = "Commander Stoutbeard";
+    AL["Commander Stoutbeard"] = "Командир Пивобород";
     AL["Bloodstone Annihilator"] = "Bloodstone Annihilator";
     AL["Rescue Mission"] = "Rescue Mission";
     AL["Gjarngrin"] = "Gjarngrin";
