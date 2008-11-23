@@ -770,7 +770,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37361, "", "=q4=Cuffs of Winged Levitation", "=ds=#s8#, #a1#"};
 		{ 18, 37363, "", "=q4=Gauntlets of Dragon Wrath", "=ds=#s9#, #a4#"};
-		{ 19, 37362, "", "=q4=Leggings of Protective Auras", "=ds=#s11, #a4#"};
+		{ 19, 37362, "", "=q4=Leggings of Protective Auras", "=ds=#s11#, #a4#"};
 		{ 20, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#"};
 		{ 22, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#"};
 		{ 23, 37294, "", "=q3=Crown of Unbridled Magic", "=ds=#s1#, #a1#"};
