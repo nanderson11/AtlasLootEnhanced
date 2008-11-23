@@ -76,6 +76,7 @@ AtlasLoot_TableNames = {};
     --Halls of Stone
 	AtlasLoot_TableNames["HallsofStone"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HallsofStoneHEROIC"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoSSjonnirHEROIC"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
     --Halls of Lightning
 	AtlasLoot_TableNames["HallsofLightning"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HallsofLightningHEROIC"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
