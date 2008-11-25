@@ -257,7 +257,7 @@ if AL then
     AL["Cloaks"] = "Плащи";
     AL["Item Enhancements"] = "Улучшения";
     AL["Quivers and Ammo Pouches"] = "Колчаны и Подсумки";
-    AL["Drums, Bags and Misc."] = "барабаны, Сумки и Разное";
+    AL["Drums, Bags and Misc."] = "Барабаны, Сумки и Другое";
     
     --Labels for loot descriptions
     AL["Classes:"] = "Классы:";
@@ -887,7 +887,7 @@ if AL then
     AL["Tabards"] = "Накидки";
     AL["Token Hand-Ins"] = "Знаки";
     AL["Heroic Mode Keys"] = "Ключи героик режима";
-    AL["Legendary Items for Kael'thas Fight"] = "Легиндарные предметы для боя с Кель'тасом";
+    AL["Legendary Items for Kael'thas Fight"] = "Легендарные предметы для боя с Кель'тасом";
     AL["BoE World Epics"] = "Мировые эпики ПпП";
     AL["World Epics"] = "Мировие эпики";
     AL["Level 30-39"] = "Уровни 30-39";
