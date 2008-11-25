@@ -426,7 +426,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 35682, "", "=q3=Rune Giant Bindings", "=ds=#s8#, #a1#"};
 		{ 13, 35683, "", "=q3=Palladium Ring", "=ds=#s13#"};
 		{ 14, 35681, "", "=q3=Unrelenting Blade", "=ds=#h1#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir the Ironshaper"], ""};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir The Ironshaper"], ""};
 		{ 17, 35679, "", "=q3=Static Cowl", "=ds=#s1#, #a1#"};
 		{ 18, 35678, "", "=q3=Ironshaper's Legplates", "=ds=#s11#, #a4#"};
 		{ 19, 35680, "", "=q3=Amulet of Wills", "=ds=#s2#"};
@@ -459,7 +459,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 	
 	AtlasLoot_Data["HoSSjonnirHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir the Ironshaper"], ""};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Sjonnir The Ironshaper"], ""};
 		{ 2, 37669, "", "=q4=Leggings of the Stone Halls", "=ds=#s11#, #a3#"};
 		{ 3, 37668, "", "=q4=Bands of the Stoneforge", "=ds=#s8#, #a4#"};
 		{ 4, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#"};
