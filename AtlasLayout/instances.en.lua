@@ -13,10 +13,11 @@ AtlasLootBossButtons = {
         "Ahnkahet";
         "Ahnkahet";
         "Ahnkahet";
-        "";
+        "AhnkahetHEROIC";
         };
 
     AzjolNerub = {
+        "";
         "";
         "";
         "AzjolNerub";
@@ -35,7 +36,6 @@ AtlasLootBossButtons = {
     DrakTharonKeep = {
         "";
         "";
-        "";
         "DrakTharonKeep";
         "DrakTharonKeep";
        	"DrakTharonKeep";
@@ -48,6 +48,7 @@ AtlasLootBossButtons = {
         "Gundrak";
         "Gundrak";
         "Gundrak";
+        "GundrakHEROIC";
         };
     
     Naxxramas = {
@@ -91,6 +92,7 @@ AtlasLootBossButtons = {
         "TheNexus";
         "TheNexus";
         "TheNexus";
+        "TheNexusHEROIC";
         };
 
     TheOculus = {
