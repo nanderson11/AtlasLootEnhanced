@@ -8,6 +8,7 @@ AtlasLootBossButtons = {
   ---------------------
 
     AhnKahet = {
+    	"";
         "Ahnkahet";
         "Ahnkahet";
         "Ahnkahet";
@@ -125,8 +126,8 @@ AtlasLootBossButtons = {
     	"";
     	"";
         "UtgardeKeep";
-        "";
         "UtgardeKeep";
+        "";
         "UtgardeKeep";
         };
 
