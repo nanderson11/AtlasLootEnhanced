@@ -688,25 +688,25 @@ if AL then
     AL["Onslaught Battlegear"] = "Tenue de combat d'assaut";
 
     --Tier 7 Sets -- à traduire
-    --AL["Scourgeborne Battlegear"] = true;
-    --AL["Scourgeborne Plate"] = true;
-    --AL["Dreamwalker Garb"] = true;
-    --AL["Dreamwalker Battlegear"] = true;
-    --AL["Dreamwalker Regalia"] = true;
-    --AL["Cryptstalker Battlegear"] = true;
-    --AL["Frostfire Garb"] = true;
-    --AL["Redemption Regalia"] = true;
-    --AL["Redemption Battlegear"] = true;
-    --AL["Redemption Plate"] = true;
-    --AL["Regalia of Faith"] = true;
-    --AL["Garb of Faith"] = true;
-    --AL["Bonescythe Battlegear"] = true;
-    --AL["Earthshatter Garb"] = true;
-    --AL["Earthshatter Battlegear"] = true;
-    --AL["Earthshatter Regalia"] = true;
-    --AL["Plagueheart Garb"] = true;
-    --AL["Dreadnaught Battlegear"] = true;
-    --AL["Dreadnaught Plate"] = true;
+    AL["Scourgeborne Battlegear"] = "Tenue de combat de fléauvenant";
+    AL["Scourgeborne Plate"] = "Armure de fléauvenant en plaques";
+    AL["Dreamwalker Garb"] = "Atours de marcherêve";
+    AL["Dreamwalker Battlegear"] = "Tenue de combat de marcherêve";
+    AL["Dreamwalker Regalia"] = "Tenue de parade de marcherêve";
+    AL["Cryptstalker Battlegear"] = "Tenue de combat de traqueur des cryptes";
+    AL["Frostfire Garb"] = "Atours de givrefeu";
+    AL["Redemption Regalia"] = "Tenue de parade de rédemption";
+    AL["Redemption Battlegear"] = "Tenue de combat de rédemption";
+    AL["Redemption Plate"] = "Armure de rédemption en plaques";
+    AL["Regalia of Faith"] = "Tenue de parade de foi";
+    AL["Garb of Faith"] = "Atours de foi";
+    AL["Bonescythe Battlegear"] = "Tenue de combat de la faucheuse d'os";
+    AL["Earthshatter Garb"] = "Atours de brise-terre";
+    AL["Earthshatter Battlegear"] = "Tenue de combat de brise-terre";
+    AL["Earthshatter Regalia"] = "Tenue de parade de brise-terre";
+    AL["Plagueheart Garb"] = "Atours de pestecoeur";
+    AL["Dreadnaught Battlegear"] = "Tenue de combat de cuirassier";
+    AL["Dreadnaught Plate"] = "Armure de cuirassier en plaques";
 
     --Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "Intention des Hautes-terres";
@@ -804,7 +804,7 @@ if AL then
     AL["Gladiator's Dreadgear"] = "Tenue horrifique de champion de l'arène";
     AL["Gladiator's Felshroud"] = "Suaire gangrené de gladiateur";
     AL["Gladiator's Battlegear"] = "Tenue de combat de gladiateur";
-    --AL["Gladiator's Desecration"] = true; -- à traduire
+    AL["Gladiator's Desecration"] = "Violation de gladiateur";
 
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Armes Gladiateur sauvage";
@@ -1074,12 +1074,12 @@ if AL then
     AL["Cache of the Legion"] = "Cache de la Légion";
     AL["Rajaxx's Captains"] = "Capitaines de Rajaxx";
     AL["Felsteed"] = "Palefroi corrompu";
-    --AL["Commander Stoutbeard"] = true; -- à traduire
+    AL["Commander Stoutbeard"] = "Commandant Rudebarbe";
     --AL["Bloodstone Annihilator"] = true; -- à traduire
     --AL["Rescue Mission"] = true; -- à traduire
     --AL["Gjarngrin"] = true; -- à traduire
     --AL["Kronus"] = true; -- à traduire
-    --AL["Loken"] = true; -- à traduire
+    --AL["Loken"] = true;
     AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 
     --Zones
