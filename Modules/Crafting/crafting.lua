@@ -4135,12 +4135,12 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 17, 41710, "", "=q3=Design: Relentless Earthsiege Diamond", "=ds=#p12# (420)"};
 		{ 18, 41707, "", "=q3=Design: Revitalizing Skyflare Diamond", "=ds=#p12# (420)"};
 		{ 19, 41711, "", "=q3=Design: Trenchant Earthsiege Diamond", "=ds=#p12# (420)"};
-		{ 21, 42652, "", "=q3=Design: Titanium Earthguard Chain", "=ds=#p12# (420)"};
-		{ 22, 42649, "", "=q3=Design: Titanium Earthguard Ring", "=ds=#p12# (420)"};
-		{ 23, 42648, "", "=q3=Design: Titanium Impact Band", "=ds=#p12# (420)"};
-		{ 24, 42651, "", "=q3=Design: Titanium Impact Choker", "=ds=#p12# (420)"};
-		{ 25, 42653, "", "=q3=Design: Titanium Spellshock Necklace", "=ds=#p12# (420)"};
-		{ 26, 42650, "", "=q3=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
+		{ 21, 42652, "", "=q4=Design: Titanium Earthguard Chain", "=ds=#p12# (420)"};
+		{ 22, 42649, "", "=q4=Design: Titanium Earthguard Ring", "=ds=#p12# (420)"};
+		{ 23, 42648, "", "=q4=Design: Titanium Impact Band", "=ds=#p12# (420)"};
+		{ 24, 42651, "", "=q4=Design: Titanium Impact Choker", "=ds=#p12# (420)"};
+		{ 25, 42653, "", "=q4=Design: Titanium Spellshock Necklace", "=ds=#p12# (420)"};
+		{ 26, 42650, "", "=q4=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
 		Prev = "JewelcraftingDaily";
 	};
 	
