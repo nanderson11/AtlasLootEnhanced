@@ -27,6 +27,7 @@ AtlasLootBossButtons = {
 
     CoTOldStratholme = {
         "";
+        "";
         "CoTStratholmeMeathook";
         "CoTStratholmeSalramm";
         "CoTStratholmeEpoch";
