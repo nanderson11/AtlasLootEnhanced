@@ -9,6 +9,7 @@ v5.02.02
 Minor bugfixes
 Violet Hold Heroic loot included
 Gundrak Heroic loot included
+Sartharion Update
 Naxx Update
 
 v5.02.01

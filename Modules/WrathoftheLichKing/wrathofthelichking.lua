@@ -1268,22 +1268,45 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		------------------------
 
 	AtlasLoot_Data["Sartharion"] = {
-		{ 1, 40428, "", "=q4=Titan's Outlook", "=ds=#s1#, #a4#"};
-		{ 2, 40427, "", "=q4=Circle of Arcane Streams", "=ds=#s2#"};
-		{ 3, 40426, "", "=q4=Signet of the Accord", "=ds=#s13#"};
-		{ 4, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#"};
-		{ 5, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#"};
-		{ 6, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
+        { 1, 43988, "", "=q4=Glae-Proof Cloak", "=ds=#s4#" };
+        { 2, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#" };
+        { 3, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#" };
+		{ 4, 40428, "", "=q4=Titan's Outlook", "=ds=#s1#, #a4#"};
+        { 5, 43989, "", "=q4=Rememberance Gridle", "=ds=#s10#, #a4#" };
+		{ 6, 40427, "", "=q4=Circle of Arcane Streams", "=ds=#s2#"};
+        { 7, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#" };
+		{ 8, 40426, "", "=q4=Signet of the Accord", "=ds=#s13#"};
+		{ 9, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#"};
+        { 10, 40430, "", "=q4=Majestic Dragon Figurine", "=ds=#s14#" };
+		{ 11, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#"};
+		{ 12, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
+        { 13, 43347, "", "=q4=Satchel of Spoils", "" };
+        { 14, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e12#" };
+        { 16, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#" };
+        { 17, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#" };
+        { 18, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#" };
 	};
 
 	AtlasLoot_Data["Sartharion25Man"] = {
-		{ 1, 40437, "", "=q4=Concealment Shoulderpads", "=ds=#s3#, #a2#"};
-		{ 2, 40409, "", "=q4=Boots of the Escaped Captive", "=ds=#s12#, #a2#"};
-		{ 3, 40451, "", "=q4=Hyaline Helm of the Sniper", "=ds=#s1#, #a3#"};
-		{ 4, 40438, "", "=q4=Council Chamber Epaulets", "=ds=#s3#, #a3#"};
-		{ 5, 40453, "", "=q4=Chestplate of the Great Aspects", "=ds=#s5#, #a4#"};
-		{ 6, 40446, "", "=q4=Dragon Brood Legguards", "=ds=#s11#, #a4#"};
-		{ 7, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#"}; --Patchwerk25Man??
+        { 1, 44005, "", "=q4=Pennant Cloak", "=ds=#s4#" };
+		{ 2, 40437, "", "=q4=Concealment Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 3, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#"};
+        { 4, 40409, "", "=q4=Boots of the Escaped Captive", "=ds=#s12#, #a2#"};
+		{ 5, 40451, "", "=q4=Hyaline Helm of the Sniper", "=ds=#s1#, #a3#"};
+		{ 6, 40438, "", "=q4=Council Chamber Epaulets", "=ds=#s3#, #a3#"};
+		{ 7, 44003, "", "=q4=Upstanding Spaulders", "=ds=#s3#, #a3#"};
+        { 8, 40453, "", "=q4=Chestplate of the Great Aspects", "=ds=#s5#, #a4#"};
+		{ 9, 44000, "", "=q4=Dragonstorm Breastplate", "=ds=#s5#, #a4#"};
+        { 10, 40446, "", "=q4=Dragon Brood Legguards", "=ds=#s11#, #a4#"};
+        { 11, 40431, "", "=q4=Fury of the Five Flights", "=ds=#s14#" };
+		{ 12, 40432, "", "=q4=Illustration of the Dragon Soul", "=ds=#s14#" };
+        { 13, 40455, "", "=q4=Staff of Restraint", "=ds=#w9#" };
+        { 14, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
+        { 15, 43346, "", "=q4=Large Satchel of Spoils", "" };
+        { 16, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e12#" };
+        { 18, 40628, "", "=q4=Gauntlets of the Lost Conqueror", "=ds=#e15#" };
+        { 19, 40629, "", "=q4=Gauntlets of the Lost Protector", "=ds=#e15#" };
+        { 20, 40630, "", "=q4=Gauntlets of the Lost Vanquisher", "=ds=#e15#" };
 	};
 	
 		---------------------------
