@@ -176,7 +176,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Table" },
 			},
             [5] = { 
-				{ BabbleZone["Gundrak"], "Gundrak", "Table" },
+				{ BabbleZone["Gundrak"], "Gundrak1", "Table" },
 			},
             [6] = { 
 				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Table" },
@@ -206,7 +206,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
 			[15] = { 
-				{ BabbleZone["The Violet Hold"], "VioletHold", "Table" },
+				{ BabbleZone["The Violet Hold"], "VioletHold1", "Table" },
 			},
 		},
 	},

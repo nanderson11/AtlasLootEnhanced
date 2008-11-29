@@ -752,15 +752,15 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
         end
         BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));
         BigraiddataID=dataID.."25Man";
-        if dataSource[BigraiddataID] then
+        if BigraidCheck=="25Man" then
+            AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"]);
+            AtlasLoot10Man25ManSwitch.lootpage = string.sub(dataID, 1, string.len(dataID)-5);
             AtlasLoot10Man25ManSwitch:Show();
-            AtlasLoot10Man25ManSwitch:SetText(AL["Show 25 Man Loot"]);
-            AtlasLoot10Man25ManSwitch.lootpage = BigraiddataID;
         else
-            if BigraidCheck=="25Man" then
+            if dataSource[BigraiddataID] then
+                AtlasLoot10Man25ManSwitch:SetText(AL["Show 25 Man Loot"]);
+                AtlasLoot10Man25ManSwitch.lootpage = BigraiddataID;
                 AtlasLoot10Man25ManSwitch:Show();
-                AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"]);
-                AtlasLoot10Man25ManSwitch.lootpage = string.sub(dataID, 1, string.len(dataID)-5);
             end
         end
         

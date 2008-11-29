@@ -45,11 +45,11 @@ AtlasLootBossButtons = {
 
     Gundrak = {
         "";
-        "Gundrak";
-        "Gundrak";
-        "Gundrak";
-        "Gundrak";
-        "GundrakHEROIC";
+        "Gundrak1";
+        "Gundrak1";
+        "Gundrak2";
+        "Gundrak2";
+        "GundrakEck";
         };
     
     Naxxramas = {
@@ -144,12 +144,12 @@ AtlasLootBossButtons = {
         
     VioletHold = {
     	"";
-    	"VioletHold";
-        "VioletHold";
-        "VioletHold";
-        "VioletHold";
-        "VioletHold";
-        "VioletHold";
+    	"VioletHold1";
+        "VioletHold1";
+        "VioletHold1";
+        "VioletHold2";
+        "VioletHold2";
+        "VioletHold2";
         "VHCyanigosa";
         };
 

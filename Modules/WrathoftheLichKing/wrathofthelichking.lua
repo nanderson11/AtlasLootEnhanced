@@ -333,31 +333,59 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- The Violet Hold ---
 		-----------------------
 
-	AtlasLoot_Data["VioletHold"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Erekem"], ""};
-		{ 2, 43363, "", "=q3=Screeching Cape", "=ds=#s4#"};
-		{ 3, 43375, "", "=q3=Trousers of the Arakkoa", "=ds=#s11#, #a1#"};
-		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Ichoron"], ""};
-		{ 6, 35647, "", "=q3=Handguards of Rapid Pursuit", "=ds=#s9#, #a2#"};
-		{ 7, 35643, "", "=q3=Spaulders of Ichoron", "=ds=#s3#, #a4#"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Lavanthor"], ""};
-		{ 10, 35646, "", "=q3=Lava Burn Gloves", "=ds=#s9#, #a1#"};
-		{ 11, 35645, "", "=q3=Prison Warden's Shotgun", "=ds=#w5#"};
-		{ 13, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 14, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
-		{ 15, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Moragg"], ""};
-		{ 17, 43387, "", "=q3=Shoulderplates of the Beholder", "=ds=#s3#, #a4#"};
-		{ 18, 43382, "", "=q3=Band of Eyes", "=ds=#s13#"};
-		{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Xevozz"], ""};
-		{ 21, 35644, "", "=q3=Xevozz's Belt", "=ds=#s10#, #a3#"};
-		{ 22, 35642, "", "=q3=Riot Shield", "=ds=#w8#"};
-		{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Zuramat the Obliterator"], ""};
-		{ 25, 43353, "", "=q3=Void Sentry Legplates", "=ds=#s11#, #a4#"};
-		{ 26, 43358, "", "=q3=Pendant of Shadow Beams", "=ds=#s2#"};
-		{ 28, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 29, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
+	AtlasLoot_Data["VioletHold1"] = {
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Erekem"], ""};
+		{ 3, 43363, "", "=q3=Screeching Cape", "=ds=#s4#"};
+		{ 4, 43375, "", "=q3=Trousers of the Arakkoa", "=ds=#s11#, #a1#"};
+        { 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Zuramat the Obliterator"], ""};
+		{ 7, 43353, "", "=q3=Void Sentry Legplates", "=ds=#s11#, #a4#"};
+		{ 8, 43358, "", "=q3=Pendant of Shadow Beams", "=ds=#s2#"};
+        { 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Xevozz"], ""};
+		{ 11, 35644, "", "=q3=Xevozz's Belt", "=ds=#s10#, #a3#"};
+		{ 12, 35642, "", "=q3=Riot Shield", "=ds=#w8#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Erekem"], ""};
+        { 18, 43406, "", "=q3=Cloak of the Gushing Wound", "=ds=#s4#" };
+        { 19, 43405, "", "=q3=Sabatons of Erekem", "=ds=#s12#, #a4#" };
+        { 20, 43407, "", "=q3=Stormstrike Mace", "=ds=#w6#, #h1#" };
+        { 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Zuramat the Obliterator"], ""};
+        { 23, 43403, "", "=q3=Shroud of Darkness", "=ds=#s1#, #a2#" };
+        { 24, 43402, "", "=q3=The Obliterator Greaves", "=ds=#s12#, #a4#" };
+        { 25, 43404, "", "=q3=Zuramat's Necklace", "=ds=#s2#" };
+		{ 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Xevozz"], ""};
+        { 28, 37867, "", "=q3=Footwraps of Teleportation", "=ds=#s12#, #a1#" };
+        { 29, 37868, "", "=q3=Girdle of the Ethereal", "=ds=#s10#, #a3#" };
+        { 30, 37861, "", "=q3=Necklace of Arcane Spheres", "=ds=#s2#" };
+        Next = "VioletHold2";
+	};
+    
+    AtlasLoot_Data["VioletHold2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Ichoron"], ""};
+		{ 3, 35647, "", "=q3=Handguards of Rapid Pursuit", "=ds=#s9#, #a2#"};
+		{ 4, 35643, "", "=q3=Spaulders of Ichoron", "=ds=#s3#, #a4#"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Lavanthor"], ""};
+		{ 7, 35646, "", "=q3=Lava Burn Gloves", "=ds=#s9#, #a1#"};
+		{ 8, 35645, "", "=q3=Prison Warden's Shotgun", "=ds=#w5#"};
+        { 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Moragg"], ""};
+		{ 11, 43387, "", "=q3=Shoulderplates of the Beholder", "=ds=#s3#, #a4#"};
+		{ 12, 43382, "", "=q3=Band of Eyes", "=ds=#s13#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Ichoron"], ""};
+        { 18, 43401, "", "=q3=Water-Drenched Robe", "=ds=#s5#, #a1#" };
+        { 19, 37862, "", "=q3=Gauntlets of the Water Revenant", "=ds=#s9#, #a4#" };
+        { 20, 37869, "", "=q3=Globule Signet", "=ds=#s13#" };
+        { 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Lavanthor"], ""};
+        { 23, 37870, "", "=q3=Twin-Headed Boots", "=ds=#s12#, #a3#" };
+        { 24, 37872, "", "=q3=Lavanthor's Talisman", "=ds=#s14#" };
+        { 25, 37871, "", "=q3=The Key", "=ds=#w1#, #h1#" };
+        { 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Moragg"], ""};
+        { 28, 43410, "", "=q3=Moragg's Chestguard", "=ds=#s5#, #a3#" };
+        { 29, 43408, "", "=q3=Solitare of Reflecting Beams", "=ds=#s13#" };
+        { 30, 43409, "", "=q3=Saliva Corroded Pike", "=ds=#w7#" };
 		Next = "VHCyanigosa";
+        Prev = "VioletHold1";
 	};
 
 	AtlasLoot_Data["VHCyanigosa"] = {
@@ -365,48 +393,91 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 35650, "", "=q3=Boots of the Portal Guardian", "=ds=#s12#, #a3#"};
 		{ 3, 35651, "", "=q3=Plate Claws of the Dragon", "=ds=#s9#, #a4#"};
 		{ 4, 35649, "", "=q3=Jailer's Baton", "=ds=#w9#"};
-		Prev = "VioletHold";
+        { 7, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 8, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
+		{ 9, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
+        { 10, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 37884, "", "=q4=Azure Cloth Bindings", "=ds=#s8#, #a1#" };
+        { 18, 37886, "", "=q4=Handgrips of the Savage Emissary", "=ds=#s9#, #a3#" };
+        { 19, 43500, "", "=q4=Bolstered Legplates", "=ds=#s11#, #a4#" };
+        { 20, 37883, "", "=q4=Staff of Trickery", "=ds=#w9#" };
+        { 21, 37876, "", "=q3=Cyanigosa's Leggings", "=ds=#s11#, #a1#" };
+        { 22, 37875, "", "=q3=Spaulders of the Violet Hold", "=ds=#s3#, #a3#" };
+        { 23, 37874, "", "=q3=Gauntlets of Capture", "=ds=#s9#, #a4#" };
+		{ 24, 37873, "", "=q3=Mark of the War Prisoner", "=ds=#s14#" };
+        { 25, 41791, "", "=q3=Design: Thick Autumn's Glow", "=ds=#p12#" };
+        { 27, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+        Prev = "VioletHold2";
 	};
 
 		---------------
 		--- Gundrak ---
 		---------------
 
-	AtlasLoot_Data["Gundrak"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
-		{ 2, 35584, "", "=q3=Embroidered Gown of Zul'drak", "=ds=#s5#, #a1#"};
-		{ 3, 35585, "", "=q3=Cannibal's Legguards", "=ds=#s11#, #a3#"};
-		{ 4, 35583, "", "=q3=Witch Doctor's Wildstaff", "=ds=#w9#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
-		{ 7, 35588, "", "=q3=Forlorn Breastplate of War", "=ds=#s5#, #a4#"};
-		{ 8, 35589, "", "=q3=Arcane Focal Signet", "=ds=#s13#"};
-		{ 9, 35587, "", "=q3=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#"};
-		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 12, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
-		{ 13, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
-		{ 14, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
-		{ 17, 35591, "", "=q3=Shoulderguards of the Ice Troll", "=ds=#s3#, #a2#"};
-		{ 18, 35592, "", "=q3=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#"};
-		{ 19, 35590, "", "=q3=Drakkari Hunting Bow", "=ds=#w2#"};
-		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
-		{ 22, 43305, "", "=q3=Shroud of Akali", "=ds=#s4#"};
-		{ 23, 43309, "", "=q3=Amulet of the Stampede", "=ds=#s2#"};
-		{ 24, 43306, "", "=q3=Gal'darah's Signet", "=ds=#s13#"};
+	AtlasLoot_Data["Gundrak1"] = {
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
+		{ 3, 35584, "", "=q3=Embroidered Gown of Zul'drak", "=ds=#s5#, #a1#"};
+		{ 4, 35585, "", "=q3=Cannibal's Legguards", "=ds=#s11#, #a3#"};
+		{ 5, 35583, "", "=q3=Witch Doctor's Wildstaff", "=ds=#w9#"};
+		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
+		{ 8, 35591, "", "=q3=Shoulderguards of the Ice Troll", "=ds=#s3#, #a2#"};
+		{ 9, 35592, "", "=q3=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#"};
+		{ 10, 35590, "", "=q3=Drakkari Hunting Bow", "=ds=#w2#"};
+		{ 12, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 13, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
+		{ 14, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
+		{ 15, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
+        { 18, 37629, "", "=q3=Slithering Slippers", "=ds=#s12#, #a1#" };
+        { 19, 37628, "", "=q3=Slad'ran's Coiled Cord", "=ds=#s10#, #a3#" };
+        { 20, 37627, "", "=q3=Snake Den Spaulders", "=ds=#s3#, #a4#" };
+        { 21, 37626, "", "=q3=Wand of Sseratus", "=ds=#w12#" };
+        { 23, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
+        { 24, 37637, "", "=q3=Living Mojo Belt", "=ds=#s10#, #a1#" };
+        { 25, 37636, "", "=q3=Helm of Cheated Fate", "=ds=#s1#, #a2#" };
+        { 26, 37634, "", "=q3=Bracers of the Divine Elemental", "=ds=#s8#, #a2#" };
+        { 27, 37635, "", "=q3=Pauldrons of the Colossus", "=ds=#s3#, #a4#" };
+        { 29, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+        Next = "Gundrak2";
 	};
---Heroic still incomplete. Need to wait for live data to complete
-	AtlasLoot_Data["GundrakHEROIC"] = {
-		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Slad'ran"], ""};
-		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
-		{ 6, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#"};
-		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Drakkari Colossus"], ""};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
-		{ 17, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
-		{ 18, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s12#, #a2#"};
-		{ 19, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
-		{ 20, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
-		{ 21, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
+    
+    AtlasLoot_Data["Gundrak2"] = {
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
+		{ 3, 35588, "", "=q3=Forlorn Breastplate of War", "=ds=#s5#, #a4#"};
+		{ 4, 35589, "", "=q3=Arcane Focal Signet", "=ds=#s13#"};
+        { 5, 35587, "", "=q3=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#"};
+        { 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
+		{ 8, 43305, "", "=q3=Shroud of Akali", "=ds=#s4#"};
+		{ 9, 43309, "", "=q3=Amulet of the Stampede", "=ds=#s2#"};
+		{ 10, 43306, "", "=q3=Gal'darah's Signet", "=ds=#s13#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
+        { 18, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#" };
+        { 19, 37663, "", "=q3=Ground Tremor Helm", "=ds=#s1#, #a4#" };
+        { 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#" };
+        { 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
+        { 23, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
+		{ 24, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s12#, #a2#"};
+		{ 25, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
+		{ 26, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
+		{ 27, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
+        { 29, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+        Next = "GundrakEck";
+        Prev = "Gundrak1";
+	};
+
+	AtlasLoot_Data["GundrakEck"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 2, 43313, "", "=q3=Leggings of the Ruins Dweller", "=ds=#s11#, #a1#" };
+        { 3, 43312, "", "=q3=Gorloc Muddy Footwraps", "=ds=#s12#, #a2#" };
+        { 4, 43311, "", "=q3=Helmet of the Shrine", "=ds=#s1#, #a3#" };
+        { 5, 43310, "", "=q3=Engraved Chestplate of Eck", "=ds=#s5#, #a4#" };
+        { 7, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
+        Prev = "Gundrak2";
 	};
 
 		----------------------
@@ -980,7 +1051,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["Naxx80FourHorsemen"] = {
 		{ 1, 39396, "", "=q4=Gown of Blaumeux", "=ds=#s5#, #a1#"};
 		{ 2, 39397, "", "=q4=Pauldrons of Havoc", "=ds=#s3#, #a3#"};
-		{ 3, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#"};
+		{ 3, 39395, "", "=q4=Thane's Tainted Greathelm", "=ds=#s1#, #a4#" };
+        { 4, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#"};
+        { 5, 39393, "", "=q4=Claymore of Ancient Power", "=ds=#h2#, #w10#"};
 		{ 16, 40610, "", "=q4=Chestguard of the Lost Conqueror", ""};
 		{ 17, 40611, "", "=q4=Chestguard of the Lost Protector", ""};
 		{ 18, 40612, "", "=q4=Chestguard of the Lost Vanquisher", ""};
@@ -1136,58 +1209,57 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --10 Man
 	AtlasLoot_Data["Naxx80Unknown"] = {
-		{ 2, 39192, "", "=q4=Gloves of Dark Gestures", "=ds=#s9#, #a1#"};--wowhead says two bosses. wait for more data
-		{ 9, 40752, "", "=q4=Emblem of Heroism", "=ds="};
-		{ 11, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#"};
-		{ 16, 39278, "", "=q4=Bands of Anxiety", "=ds=#s8#, #a3#"};
-		{ 19, 39405, "", "=q4=Helmet of the Inner Sanctum", "=ds=#s1#, #a3#"};
+		{ 1, 39192, "", "=q4=Gloves of Dark Gestures", "=ds=#s9#, #a1#"};--wowhead says two bosses. wait for more data
+		{ 2, 40752, "", "=q4=Emblem of Heroism", "=ds="};
+		{ 3, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#"};
+		{ 4, 39278, "", "=q4=Bands of Anxiety", "=ds=#s8#, #a3#"};
+		{ 5, 39405, "", "=q4=Helmet of the Inner Sanctum", "=ds=#s1#, #a3#"};
 		Next = "Naxx80Unknown2";
 	};
 
 --25 Man	
 	AtlasLoot_Data["Naxx80Unknown2"] = {
 		{ 1, 40351, "", "=q4=Mantle of the Fatigued Sage", "=ds=#s3#, #a1#"};
-		{ 1, 40381, "", "=q4=Sympathy", "=ds=#s5#, #a1#"};
-		{ 1, 40062, "", "=q4=Digested Silken Robes", "=ds=#s5#, #a1#"};
-		{ 1, 40325, "", "=q4=Bindings of the Expansive Mind", "=ds=#s8#, #a1#"};
-		{ 1, 39731, "", "=q4=Punctilious Bindings", "=ds=#s8#, #a1#"};
-		{ 1, 39733, "", "=q4=Gloves of Token Respect", "=ds=#s9#, #a1#"};
-		{ 1, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#"};
-		{ 1, 40197, "", "=q4=Gloves of the Fallen Wizard", "=ds=#s9#, #a1#"};
-		{ 1, 40271, "", "=q4=Sash of Solitude", "=ds=#s10#, #a1#"};
-		{ 1, 39720, "", "=q4=Leggings of Atrophy", "=ds=#s11#, #a1#"};
-		{ 1, 40326, "", "=q4=Boots of Forlorn Wishes", "=ds=#s12#, #a1#"};
-		{ 1, 40236, "", "=q4=Serene Echoes", "=ds=#s12#, #a1#"};
-		{ 1, 40246, "", "=q4=Boots of Impetuous Ideals", "=ds=#s12#, #a1#"};
-		{ 1, 40329, "", "=q4=Hood of the Exodus", "=ds=#s1#, #a2#"};
-		{ 1, 40304, "", "=q4=Headpiece of Fungal Bloom", "=ds=#s1#, #a2#"};
-		{ 1, 39768, "", "=q4=Cowl of the Perished", "=ds=#s1#, #a2#"};
-		{ 1, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#"};
-		{ 1, 40063, "", "=q4=Mantle of Shattered Kinship", "=ds=#s3#, #a2#"};
-		{ 1, 40277, "", "=q4=Tunic of Indulgence", "=ds=#s5#, #a2#"};
-		{ 1, 30319, "", "=q4=Chestpiece of Suspicion", "=ds=#s5#, #a2#"};
-		{ 1, 39756, "", "=q4=Tunic of Prejudice", "=ds=#s5#, #a2#"};
-		{ 1, 40249, "", "=q4=Vest of Vitality", "=ds=#s5#, #a2#"};
-		{ 1, 39722, "", "=q4=Swarm Bindings", "=ds=#s8#, #a2#"};
-		{ 1, 40186, "", "=q4=Thrusting Bands", "=ds=#s8#, #a2#"};
-		{ 1, 40238, "", "=q4=Gloves of the Dancing Bear", "=ds=#s9#, #a2#"};
-		{ 1, 40205, "", "=q4=Stalk-Skin Belt", "=ds=#s10#, #a2#"};
-		{ 1, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#"};
-		{ 1, 40341, "", "=q4=Shackled Cinch", "=ds=#s10#, #a2#"};
-		{ 1, 40200, "", "=q4=Belt of Potent Chanting", "=ds=#s10#, #a2#"};
-		{ 1, 40285, "", "=q4=Desecrated Past", "=ds=#s11#, #a2#"};
-		{ 1, 40379, "", "=q4=Legguards of the Boneyard", "=ds=#s11#, #a2#"};
-		{ 1, 40409, "", "=q4=Boots of the Escaped  Captive", "=ds=#s11#, #a2#"};
-		{ 1, 0, "", "=q4=", "=ds=#s11#, #a2#"};
-		{ 2, 39393, "", "=q4=Claymore of Ancient Power", "=ds=#h2#, #w10#"};
-		{ 3, 39758, "", "=q4=The Jawbone", "=ds=#h2#, #w6#"};
+		{ 2, 40381, "", "=q4=Sympathy", "=ds=#s5#, #a1#"};
+		{ 3, 40062, "", "=q4=Digested Silken Robes", "=ds=#s5#, #a1#"};
+		{ 4, 40325, "", "=q4=Bindings of the Expansive Mind", "=ds=#s8#, #a1#"};
+		{ 5, 39731, "", "=q4=Punctilious Bindings", "=ds=#s8#, #a1#"};
+		{ 6, 39733, "", "=q4=Gloves of Token Respect", "=ds=#s9#, #a1#"};
+		{ 7, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#"};
+		{ 8, 40197, "", "=q4=Gloves of the Fallen Wizard", "=ds=#s9#, #a1#"};
+		{ 9, 40271, "", "=q4=Sash of Solitude", "=ds=#s10#, #a1#"};
+		{ 10, 39720, "", "=q4=Leggings of Atrophy", "=ds=#s11#, #a1#"};
+		{ 11, 40326, "", "=q4=Boots of Forlorn Wishes", "=ds=#s12#, #a1#"};
+		{ 12, 40236, "", "=q4=Serene Echoes", "=ds=#s12#, #a1#"};
+		{ 13, 40246, "", "=q4=Boots of Impetuous Ideals", "=ds=#s12#, #a1#"};
+		{ 14, 40329, "", "=q4=Hood of the Exodus", "=ds=#s1#, #a2#"};
+		{ 15, 40304, "", "=q4=Headpiece of Fungal Bloom", "=ds=#s1#, #a2#"};
+		{ 16, 39768, "", "=q4=Cowl of the Perished", "=ds=#s1#, #a2#"};
+		{ 17, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#"};
+		{ 18, 40063, "", "=q4=Mantle of Shattered Kinship", "=ds=#s3#, #a2#"};
+		{ 19, 40277, "", "=q4=Tunic of Indulgence", "=ds=#s5#, #a2#"};
+		{ 20, 30319, "", "=q4=Chestpiece of Suspicion", "=ds=#s5#, #a2#"};
+		{ 21, 39756, "", "=q4=Tunic of Prejudice", "=ds=#s5#, #a2#"};
+		{ 22, 40249, "", "=q4=Vest of Vitality", "=ds=#s5#, #a2#"};
+		{ 23, 39722, "", "=q4=Swarm Bindings", "=ds=#s8#, #a2#"};
+		{ 24, 40186, "", "=q4=Thrusting Bands", "=ds=#s8#, #a2#"};
+		{ 25, 40238, "", "=q4=Gloves of the Dancing Bear", "=ds=#s9#, #a2#"};
+		{ 26, 40205, "", "=q4=Stalk-Skin Belt", "=ds=#s10#, #a2#"};
+		{ 27, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#"};
+		{ 28, 40341, "", "=q4=Shackled Cinch", "=ds=#s10#, #a2#"};
+		{ 29, 40200, "", "=q4=Belt of Potent Chanting", "=ds=#s10#, #a2#"};
+		{ 30, 40285, "", "=q4=Desecrated Past", "=ds=#s11#, #a2#"};
 		Prev = "Naxx80Unknown";
 		Next = "Naxx80Unknown3";
 	};
 --Buyable Items/Set Tokens
 	AtlasLoot_Data["Naxx80Unknown3"] = {
-		{ 1, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#"};
-		{ 2, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#"};
+        { 1, 40379, "", "=q4=Legguards of the Boneyard", "=ds=#s11#, #a2#"};
+		{ 2, 40409, "", "=q4=Boots of the Escaped  Captive", "=ds=#s11#, #a2#"};
+		{ 3, 0, "", "=q4=", "=ds=#s11#, #a2#"};
+		{ 4, 39758, "", "=q4=The Jawbone", "=ds=#h2#, #w6#"};
+		{ 5, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#"};
+		{ 6, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#"};
 		Prev = "Naxx80Unknown2";
 	};
 	
