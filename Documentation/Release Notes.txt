@@ -7,7 +7,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v5.02.02
 Minor bugfixes
-Violet Hold Heroic loot included
+Violet Hold Normal/Heroic loot included
 Gundrak Heroic loot included
 Sartharion Update
 Naxx Update
