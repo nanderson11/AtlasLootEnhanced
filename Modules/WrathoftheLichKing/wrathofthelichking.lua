@@ -457,7 +457,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
         { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
         { 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Moorabi"], ""};
         { 18, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#" };
-        { 19, 37663, "", "=q3=Ground Tremor Helm", "=ds=#s1#, #a4#" };
+        { 19, 37633, "", "=q3=Ground Tremor Helm", "=ds=#s1#, #a4#" };
         { 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#" };
         { 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
         { 23, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
