@@ -30,7 +30,7 @@ if AL then
     AL["Click boss name to view loot."] = "Cliquez sur le nom du boss pour afficher les objets.";
     AL["Various Locations"] = "Lieux divers";
     AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Ceci est uniquement un navigateur pour les objets. Pour afficher les cartes, installez Atlas ou Alphamap.";
-    AL["Toggle AL Panel"] = "Panneau AtlasLoot";
+    AL["Toggle AL Panel"] = "Active ou non le panneau d'AtlasLoot";
     AL[" is safe."] = " est valide.";
     AL["Server queried for "] = "Interrogation du serveur pour ";
     AL[".  Right click on any other item to refresh the loot page."] = ".  Clic-Droit sur un autre objet permet de rafraîchir la page.";
@@ -52,7 +52,7 @@ if AL then
     AL["Factions - Burning Crusade"] = "Factions - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Factions - Wrath of the Lich King"
     AL["Choose Table ..."] = "Choisissez une liste...";
-    AL["Close Menu"] = "Fermer la liste";
+    AL["Close Menu"] = "Fermer le menu";
     AL["Unknown"] = "Inconnu";
     AL["Skill Required:"] = "Compétence requise :";
     --AL["QuickLook"] = true,
@@ -116,7 +116,7 @@ if AL then
     AL["Button Position: "] = "Position du boutton :";
     AL["Button Radius: "] = "Rayon du boutton";
     AL["Done"] = "Fait";
-    --AL["FuBar Toggle"] = true; -- à traduire
+    AL["FuBar Toggle"] = "Active ou non FuBar";
     --AL["WishList"] = true,
     AL["Search Result: %s"] = "Résultat(s) de la recherche : %s";
     AL["Last Result"] = "Dernier(s) résultat(s)";
@@ -188,7 +188,7 @@ if AL then
     --AL["World Events"] = true,
     AL["Load Modules"] = "Load modules";
     AL["Crafting"] = "Artisanat";
-    --AL["Crafting Daily Quests"] = true; -- à traduire
+    AL["Crafting Daily Quests"] = "Artisanat des quêtes journalières";
 
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Bienvenue dans AtlasLoot Enhanced. Veuillez prendre un moment pour définir vos préférences.";
@@ -361,7 +361,7 @@ if AL then
     --Battleground Brackets
     AL["Misc. Rewards"] = "Récompenses Diverses";
     AL["Superior Rewards"] = "Récompenses Supérieurs";
-    AL["Epic Rewards"] = "Récompenses Epiques";
+    AL["Epic Rewards"] = "Récompenses Épiques";
     AL["Level 10-19 Rewards"] = "Récompenses Niveau 10-19";
     AL["Level 20-29 Rewards"] = "Récompenses Niveau 20-29";
     AL["Level 30-39 Rewards"] = "Récompenses Niveau 30-39";
@@ -508,12 +508,12 @@ if AL then
     --The Burning Crusade Sets
     AL["Latro's Flurry"] = "Rafale de Latro";
     AL["The Twin Stars"] = "Les Etoiles jumelles";
-    AL["The Twin Blades of Azzinoth"] = "Les Lames Doubles d'Azzinoth";
+    AL["The Twin Blades of Azzinoth"] = "Les Lames jumelles d'Azzinoth";
 
     --Recipe origin strings
     AL["Trainer"] = "Entraineur";
     AL["Discovery"] = "Découverte";
-    --AL["World Drop"] = true;
+    AL["World Drop"] = "Drop mondial";
     --AL["Drop"] = true;
     AL["Vendor"] = "Vendeur";
     AL["Quest"] = "Quête";
@@ -687,7 +687,7 @@ if AL then
     AL["Onslaught Armor"] = "Armure d'assaut";
     AL["Onslaught Battlegear"] = "Tenue de combat d'assaut";
 
-    --Tier 7 Sets -- à traduire
+    --Tier 7 Sets
     AL["Scourgeborne Battlegear"] = "Tenue de combat de fléauvenant";
     AL["Scourgeborne Plate"] = "Armure de fléauvenant en plaques";
     AL["Dreamwalker Garb"] = "Atours de marcherêve";
@@ -856,7 +856,7 @@ if AL then
     AL["PvP Weapons (Level 60)"] = "Armes JcJ (Niveau 60)";
     AL["PvP Weapons (Level 70)"] = "Armes JcJ (Niveau 70)";
     AL["PvP Accessories"] = "Accessoires JcJ";
-    AL["PvP Non-Set Epics"] = "Hors Sets Epiques JcJ";
+    AL["PvP Non-Set Epics"] = "Hors Sets Épiques JcJ";
     AL["PvP Honor System"] = "Système d'honneur JcJ";
     AL["PvP Reputation Sets"] = "Sets Réputation JcJ";
     AL["Arena PvP Sets"] = "Sets Arène JcJ";
@@ -873,7 +873,7 @@ if AL then
     AL["Tribute Run"] = "Tribut du Roi";
     AL["Dire Maul Books"] = "Livres de Hache Tripes";
     AL["Random Boss Loot"] = "Objets aléatoires des boss";
-    AL["Class Set Pieces"] = "Pièces du set de Classe";
+    AL["Class Set Pieces"] = "Pièces du set de classe";
     AL["Epic Set"] = "Set Épique";
     AL["Rare Set"] = "Set Supérieur";
     AL["Legendary Items"] = "Objets légendaires";
@@ -892,8 +892,8 @@ if AL then
     AL["Token Hand-Ins"] = "Insignes de l'Aube / Croisade";
     AL["Heroic Mode Keys"] = "Clés Mode Héroïque";
     AL["Legendary Items for Kael'thas Fight"] = "Objets légendaires pour le combat contre Kael'thas";
-    AL["BoE World Epics"] = "LqE World Epiques";
-    AL["World Epics"] = "World Epiques";
+    AL["BoE World Epics"] = "LqE Épiques mondial";
+    AL["World Epics"] = "Épiques mondial";
     AL["Level 30-39"] = "Niveau 30-39";
     AL["Level 40-49"] = "Niveau 40-49";
     AL["Level 50-60"] = "Niveau 50-60";
