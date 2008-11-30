@@ -16,93 +16,93 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 AtlasLoot_DewDropDown = {
 	[1] = {
 		[AL["Classic Instances"]] = {
-			[1] = { 
+			[1] = {
 				{ BabbleZone["Blackfathom Deeps"], "BlackfathomDeeps1", "Table" },
 			},
-			[2] = { 
+			[2] = {
 				{ BabbleZone["Blackrock Depths"], "BlackrockDepths", "Submenu" },
 			},
-			[3] = { 
+			[3] = {
 				{ BabbleZone["Lower Blackrock Spire"], "LowerBlackrock", "Submenu" },
 			},
-			[4] = { 
+			[4] = {
 				{ BabbleZone["Upper Blackrock Spire"], "UpperBlackrock", "Submenu" },
 			},
-			[5] = { 
+			[5] = {
 				{ BabbleZone["Blackwing Lair"], "BlackwingLair", "Submenu" },
 			},
-			[6] = { 
+			[6] = {
 				{ BabbleZone["The Deadmines"], "TheDeadmines1", "Table" },
 			},
-			[7] = { 
+			[7] = {
 				[BabbleZone["Dire Maul"]] = {
 					{ BabbleZone["Dire Maul (East)"], "DireMaulEast", "Submenu" },
 					{ BabbleZone["Dire Maul (West)"], "DireMaulWest", "Submenu" },
 					{ BabbleZone["Dire Maul (North)"], "DireMaulNorth", "Submenu" },
-				}, 
+				},
 			},
-			[8] = { 
+			[8] = {
 				{ BabbleZone["Gnomeregan"], "Gnomeregan1", "Table" },
 			},
-			[9] = { 
+			[9] = {
 				{ BabbleZone["Maraudon"], "Maraudon1", "Table" },
 			},
-			[10] = { 
+			[10] = {
 				{ BabbleZone["Molten Core"], "MoltenCore", "Submenu" },
 			},
-			[11] = { 
+			[11] = {
 				{ BabbleZone["Onyxia's Lair"], "Onyxia", "Table" },
 			},
-			[12] = { 
+			[12] = {
 				{ BabbleZone["Ragefire Chasm"], "RagefireChasm", "Table" },
 			},
-			[13] = { 
+			[13] = {
 				{ BabbleZone["Razorfen Downs"], "RazorfenDowns1", "Table" },
 			},
-			[14] = { 
+			[14] = {
 				{ BabbleZone["Razorfen Kraul"], "RazorfenKraul1", "Table" },
 			},
-			[15] = { 
+			[15] = {
 				{ BabbleZone["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
 			},
-			[16] = { 
+			[16] = {
 				{ BabbleZone["Scarlet Monastery"], "Scarlet Monastery", "Submenu" },
 			},
-			[17] = { 
+			[17] = {
 				{ BabbleZone["Scholomance"], "Scholomance", "Submenu" },
 			},
-			[18] = { 
+			[18] = {
 				{ BabbleZone["Shadowfang Keep"], "ShadowfangKeep1", "Table" },
 			},
-			[19] = { 
+			[19] = {
 				{ BabbleZone["The Stockade"], "TheStockade", "Table" },
 			},
-			[20] = { 
+			[20] = {
 				{ BabbleZone["Stratholme"], "Stratholme", "Submenu" },
 			},
-			[21] = { 
+			[21] = {
 				{ BabbleZone["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
 			},
-			[22] = { 
+			[22] = {
 				{ BabbleZone["The Temple of Atal'Hakkar"], "SunkenTemple", "Submenu" },
 			},
-			[23] = { 
+			[23] = {
 				{ BabbleZone["Uldaman"], "Uldaman", "Submenu" },
 			},
-			[24] = { 
+			[24] = {
 				{ BabbleZone["Wailing Caverns"], "WailingCaverns1", "Table" },
 			},
-			[25] = { 
+			[25] = {
 				{ BabbleZone["Zul'Farrak"], "ZulFarrak", "Submenu" },
 			},
-			[26] = { 
+			[26] = {
 				{ BabbleZone["Zul'Gurub"], "ZulGurub", "Submenu" },
 			},
 		},
 	},
 	[2] = {
 		[AL["BC Instances"]] = {
-			[1] = { 
+			[1] = {
 				[BabbleZone["Auchindoun"]] = {
 					{ BabbleZone["Mana-Tombs"], "AuchManaTombs", "Submenu" },
 					{ BabbleZone["Auchenai Crypts"], "AuchCrypts", "Submenu" },
@@ -110,7 +110,7 @@ AtlasLoot_DewDropDown = {
 					{ BabbleZone["Shadow Labyrinth"], "AuchShadowLab", "Submenu" },
 				}, 
 			},
-			[2] = { 
+			[2] = {
 				{ BabbleZone["Black Temple"], "BlackTemple", "Submenu" },
 			},
 			[3] = {
@@ -118,20 +118,20 @@ AtlasLoot_DewDropDown = {
 					{ BabbleZone["Old Hillsbrad Foothills"], "CoTOldHillsbrad", "Submenu" },
 					{ BabbleZone["The Black Morass"], "CoTBlackMorass", "Submenu" },
 					{ BabbleZone["Hyjal Summit"], "CoTHyjal", "Submenu" },
-				}, 
+				},
 			},
-			[4] = { 
+			[4] = {
 				[BabbleZone["Coilfang Reservoir"]] = {
 					{ BabbleZone["The Slave Pens"], "CFRSlavePens", "Submenu" },
 					{ BabbleZone["The Underbog"], "CFRUnderbog", "Submenu" },
 					{ BabbleZone["The Steamvault"], "CFRSteamvault", "Submenu" },
 					{ BabbleZone["Serpentshrine Cavern"], "CFRSerpentshrine", "Submenu" },
-				}, 
+				},
 			},
-			[5] = { 
+			[5] = {
 				{ BabbleZone["Gruul's Lair"], "Gruul", "Submenu" },
 			},
-			[6] = { 
+			[6] = {
 				[BabbleZone["Hellfire Citadel"]] = {
 					{ BabbleZone["Hellfire Ramparts"], "HCRamparts", "Submenu" },
 					{ BabbleZone["The Blood Furnace"], "HCFurnace", "Submenu" },
@@ -139,73 +139,73 @@ AtlasLoot_DewDropDown = {
 					{ BabbleZone["Magtheridon's Lair"], "HCMagtheridon", "Table" },
 				}, 
 			},
-			[7] = { 
+			[7] = {
 				{ BabbleZone["Karazhan"], "Karazhan", "Submenu" },
 			},
-			[8] = { 
+			[8] = {
 				{ BabbleZone["Magisters' Terrace"], "MagistersTerrace", "Submenu" },
 			},
-			[9] = { 
+			[9] = {
 				{ BabbleZone["Sunwell Plateau"], "SunwellPlateau", "Submenu" },
 			},
-			[10] = { 
+			[10] = {
 				[BabbleZone["Tempest Keep"]] = {
 					{ BabbleZone["The Mechanar"], "TKMech", "Submenu" },
 					{ BabbleZone["The Botanica"], "TKBot", "Submenu" },
 					{ BabbleZone["The Arcatraz"], "TKArc", "Submenu" },
 					{ BabbleZone["The Eye"], "TKEye", "Submenu" },
-				}, 
+				},
 			},
-			[11] = { 
+			[11] = {
 				{ BabbleZone["Zul'Aman"], "ZulAman", "Submenu" },
 			},
 		},
 	},
 	[3] = {
 		[AL["WotLK Instances"]] = {
-			[1] = { 
+			[1] = {
 				{ BabbleZone["Ahn'kahet: The Old Kingdom"], "Ahnkahet", "Table" },
 			},
-            [2] = { 
+			[2] = {
 				{ BabbleZone["Azjol-Nerub"], "AzjolNerub", "Table" },
 			},
-            [3] = { 
+			[3] = {
 				{ BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], "CoTStratholme", "Submenu" },
 			},
-            [4] = { 
+			[4] = {
 				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Table" },
 			},
-            [5] = { 
+			[5] = {
 				{ BabbleZone["Gundrak"], "Gundrak1", "Table" },
 			},
-            [6] = { 
+			[6] = {
 				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Table" },
 			},
-            [7] = { 
+			[7] = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Table" },
 			},
-            [8] = { 
+			[8] = {
 				{ BabbleBoss["Malygos"], "Malygos", "Table" },
 			},
-            [9] = { 
+			[9] = {
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
-            [10] = { 
+			[10] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Table" },
 			},
-            [11] = { 
+			[11] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
-            [12] = { 
+			[12] = {
 				{ BabbleBoss["Sartharion"], "Sartharion", "Table" },
 			},
-            [13] = { 
+			[13] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Table" },
 			},
-			[14] = { 
+			[14] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[15] = { 
+			[15] = {
 				{ BabbleZone["The Violet Hold"], "VioletHold1", "Table" },
 			},
 		},
@@ -219,16 +219,16 @@ AtlasLoot_DewDropDown = {
 			[5] = { { (GetSpellInfo(4036)), "Engineering", "Submenu" }, },
 			[6] = { { (GetSpellInfo(3273)), "FirstAid1", "Table" }, },
 			[7] = { { (GetSpellInfo(45357)), "Inscription", "Submenu" }, },
-            [8] = { { (GetSpellInfo(25229)), "Jewelcrafting", "Submenu" }, },
+			[8] = { { (GetSpellInfo(25229)), "Jewelcrafting", "Submenu" }, },
 			[9] = { { (GetSpellInfo(2108)), "Leatherworking", "Submenu" }, },
 			[10] = { { (GetSpellInfo(2575)), "Mining1", "Table" }, },
 			[11] = { { (GetSpellInfo(3908)), "Tailoring", "Submenu" }, },
-			[12] = { 
+			[12] = {
 				[AL["Crafted Sets"]] = {
 					{ (GetSpellInfo(2018)), "CraftSetBlacksmith", "Submenu" },
 					{ (GetSpellInfo(2108)), "CraftSetLeatherwork", "Submenu" },
 					{ (GetSpellInfo(3908)), "CraftSetTailor", "Submenu" },
-				}, 
+				},
 			},
 			[13] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
 			[14] = { { AL["Crafting Daily Quests"], "CraftingDaily", "Submenu" }, },
@@ -239,62 +239,62 @@ AtlasLoot_DewDropDown = {
 			[1] = {
 				{ AL["Badge of Justice Rewards"], "BadgeofJusticeRewards", "Submenu" },
 			},
-            [2] = {
+			[2] = {
 				{ AL["BoE World Epics"], "BoEWorldEpics", "Submenu" },
 			},
-            [3] = { 
+			[3] = {
 				{ AL["Dungeon 1/2 Sets"], "DungeonSets12", "Submenu" },
 			},
-			[4] = { 
+			[4] = {
 				{ AL["Dungeon 3 Sets"], "DungeonSets3", "Submenu" },
 			},
-            [5] = {
+			[5] = {
 				{ AL["Emblem of Heroism Rewards"], "EmblemofHeroism", "Table" },
 			},
 			[6] = {
 				{ AL["Emblem of Valor Rewards"], "EmblemofValor", "Table" },
 			},
-			[7] = { 
-                { AL["Legendary Items"], "Legendaries", "Table" }, 
-            },
-            [8] = {
+			[7] = {
+				{ AL["Legendary Items"], "Legendaries", "Table" }, 
+			},
+			[8] = {
 				[AL["Mounts"]] = {
 					{ AL["Classic Mounts"], "MountsClassic", "Submenu" },
 					{ AL["The Burning Crusade Mounts"], "MountsBC", "Submenu" },
 					{ AL["Wrath of the Lich King Mounts"], "MountsLichKing", "Submenu" },
-				}, 
+				},
 			},
-            [9] = { 
+			[9] = {
 				{ AL["Non-Combat Pets"], "Pets", "Submenu" },
 			},
-            [10] = { 
+			[10] = {
 				{ AL["Pre 60 Sets"], "Pre60Sets", "Submenu" },
 			},
-			[11] = { 
+			[11] = {
 				{ AL["Ruins of Ahn'Qiraj Sets"], "AQ20Sets1", "Table" },
 			},
-            [12] = { 
-                { AL["Tabards"], "Tabards3", "Table" }, 
-            },
-			[13] = { 
+			[12] = {
+				{ AL["Tabards"], "Tabards3", "Table" }, 
+			},
+			[13] = {
 				{ AL["Temple of Ahn'Qiraj Sets"], "AQ40Sets1", "Table" },
 			},
-			[14] = { 
+			[14] = {
 				{ AL["Tier 1/2 Sets"], "T1T2Sets", "Submenu" },
 			},
-			[15] = { 
+			[15] = {
 				{ AL["Tier 3 Sets"], "T3Sets", "Submenu" },
 			},
-			[16] = { 
+			[16] = {
 				{ AL["Tier 4/5/6 Sets"], "T456Sets", "Submenu" },
 			},
-			[17] = { 
+			[17] = {
 				{ AL["Tier 7 Sets 10/25 Man"], "Naxx10Sets", "Submenu" },
 			},
-			[18] = { 
-                { AL["Upper Deck Card Game Items"], "CardGame1", "Table" }, 
-            },
-            [19] = { 
+			[18] = {
+				{ AL["Upper Deck Card Game Items"], "CardGame1", "Table" }, 
+			},
+			[19] = {
 				{ AL["Zul'Gurub Sets"], "ZGSets1", "Table" },
 			},
 
@@ -302,117 +302,117 @@ AtlasLoot_DewDropDown = {
 	},
 	[6] = {
 		[AL["PvP Rewards"]] = {
-			[1] = { 
+			[1] = {
 				{ AL["Arena PvP Sets"], "ArenaPvPRewards", "Submenu" },
 			},
-			[2] = { 
+			[2] = {
 				{ AL["PvP Rewards (Level 60)"], "PvPLvl60Rewards", "Submenu" },
 			},
-			[3] = { 
+			[3] = {
 				{ AL["PvP Rewards (Level 70)"], "PvPLvl70Rewards", "Submenu" },
 			},
-            [4] = { 
+			[4] = {
 				{ AL["PvP Rewards (Level 80)"], "PvPLvl80Rewards", "Submenu" },
 			},
-			[5] = { 
+			[5] = {
 				{ BabbleZone["Alterac Valley"], "AVRewards", "Submenu" },
 			},
-			[6] = { 
+			[6] = {
 				{ BabbleZone["Arathi Basin"], "ABRewards", "Submenu" },
 			},
-			[7] = { 
+			[7] = {
 				{ AL["Arathi Basin Sets"], "ABSets", "Submenu" },
 			},
-			[8] = { 
+			[8] = {
 				{ BabbleZone["Warsong Gulch"], "WSGRewards", "Submenu" },
 			},
-			[9] = { 
-                { AtlasLoot_TableNames["Hellfire"][1], "Hellfire", "Table" }, 
-            },
-			[10] = { 
-                { AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" }, 
-            },
-			[11] = { 
-                { AtlasLoot_TableNames["Nagrand1"][1], "Nagrand1", "Table" }, 
-            },
-			[12] = { 
-                { AtlasLoot_TableNames["Terokkar"][1], "Terokkar", "Table" }, 
-            },
-			[13] = { 
-                { AtlasLoot_TableNames["Zangarmarsh"][1], "Zangarmarsh", "Table" }, 
-            },
+			[9] = {
+				{ AtlasLoot_TableNames["Hellfire"][1], "Hellfire", "Table" },
+			},
+			[10] = {
+				{ AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" },
+			},
+			[11] = {
+				{ AtlasLoot_TableNames["Nagrand1"][1], "Nagrand1", "Table" },
+			},
+			[12] = {
+				{ AtlasLoot_TableNames["Terokkar"][1], "Terokkar", "Table" },
+			},
+			[13] = {
+				{ AtlasLoot_TableNames["Zangarmarsh"][1], "Zangarmarsh", "Table" },
+			},
 		},
 	},
 	[7] = {
 		{ AL["World Bosses"], "WorldBosses", "Submenu" },
 	},
-    [8] = { 
-        [AL["Reputation Factions"]] = {
-            [1] = {
-                { AL["Original Factions"], "WoWFactions", "Submenu" },
-                },
-            [2] = {
-                    { AL["BC Factions"], "BCFactions", "Submenu" },
-                },
-            [3] = {
-                    { AL["WotLK Factions"], "WotLKFactions", "Submenu" },
-				}, 
+	[8] = {
+		[AL["Reputation Factions"]] = {
+			[1] = {
+				{ AL["Original Factions"], "WoWFactions", "Submenu" },
 			},
-        },
+			[2] = {
+				{ AL["BC Factions"], "BCFactions", "Submenu" },
+			},
+			[3] = {
+				{ AL["WotLK Factions"], "WotLKFactions", "Submenu" },
+			}, 
+		},
+	},
 	[9] = {
 		[AL["World Events"]] = {
-			[1] = { 
+			[1] = {
 				{ AL["Abyssal Council"], "AbyssalCouncil", "Submenu" },
 			},
-			[2] = { 
+			[2] = {
 				{ AL["Bash'ir Landing Skyguard Raid"], "BashirLanding", "Table" },
 			},
-			[3] = { 
+			[3] = {
 				{ AL["Brewfest"], "Brewfest1", "Table" },
 			},
-			[4] = { 
+			[4] = {
 				{ AL["Children's Week"], "ChildrensWeek", "Table" },
 			},
-			[5] = { 
+			[5] = {
 				{ AL["Elemental Invasion"], "ElementalInvasion", "Table" },
 			},
-			[6] = { 
+			[6] = {
 				{ AL["Ethereum Prison"], "EthereumPrison", "Submenu" },
 			},
-			[7] = { 
+			[7] = {
 				{ AL["Feast of Winter Veil"], "Winterviel1", "Table" },
 			},
-			[8] = { 
+			[8] = {
 				{ AL["Gurubashi Arena Booty Run"], "GurubashiArena", "Table" },
 			},
-			[9] = { 
+			[9] = {
 				{ AL["Hallow's End"], "Halloween1", "Table" },
 			},
-			[10] = { 
+			[10] = {
 				{ AL["Harvest Festival"], "HarvestFestival", "Table" },
 			},
-			[11] = { 
+			[11] = {
 				{ AL["Love is in the Air"], "Valentineday", "Table" },
 			},
-			[12] = { 
+			[12] = {
 				{ AL["Lunar Festival"], "LunarFestival1", "Table" },
 			},
-			[13] = { 
+			[13] = {
 				{ AL["Midsummer Fire Festival"], "MidsummerFestival", "Table" },
 			},
-			[14] = { 
+			[14] = {
 				{ AL["Noblegarden"], "Noblegarden", "Table" },
 			},
-			[15] = { 
+			[15] = {
 				{ AL["Scourge Invasion"], "ScourgeInvasionEvent1", "Table" },
 			},
-			[16] = { 
+			[16] = {
 				{ AL["Shartuul"], "Shartuul", "Table" },
 			},
-			[17] = { 
+			[17] = {
 				{ AL["Skettis"], "Skettis", "Submenu" },
 			},
-			[18] = { 
+			[18] = {
 				{ AL["Stranglethorn Fishing Extravaganza"], "FishingExtravaganza", "Table" },
 			},
 		},
@@ -687,7 +687,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Lord Hel'nurath"], "DMWHelnurath" },
 		{ BabbleBoss["Prince Tortheldrin"], "DMWPrinceTortheldrin" },
 		{ AL["Trash Mobs"], "DMWTrash" },
-		{ AL["Dire Maul Books"], "DMBooks" }, 
+		{ AL["Dire Maul Books"], "DMBooks" },
 	},
 	["DireMaulNorth"] = {
 		{ BabbleBoss["Guard Mol'dar"], "DMNGuardMoldar" },
@@ -753,7 +753,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "AuchCryptsShirrak" },
 		{ "", "AuchCryptsExarch" },
 		{ "", "AuchCryptsAvatar" },
-		{ AL["Trash Mobs"], "AuchTrash" }, 
+		{ AL["Trash Mobs"], "AuchTrash" },
 	},
 	["AuchSethekk"] = {
 		{ "", "AuchSethekkDarkweaver" },
@@ -965,17 +965,17 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleFaction["Wintersaber Trainers"], "MiscFactions" },
 		{ "", "Zandalar1" },
 	},
-    ["BCFactions"] = {
-        { "", "Aldor1" },
-        { "", "Ashtongue1" },
-        { "", "CExpedition1" },
-        { "", "Consortium1" },
-        { "", "HonorHold1" },
+	["BCFactions"] = {
+		{ "", "Aldor1" },
+		{ "", "Ashtongue1" },
+		{ "", "CExpedition1" },
+		{ "", "Consortium1" },
+		{ "", "HonorHold1" },
 		{ "", "KeepersofTime1" },
 		{ "", "Kurenai1" },
 		{ "", "LowerCity1" },
-        { "", "Maghar1" },
-        { "", "Netherwing1" },
+		{ "", "Maghar1" },
+		{ "", "Netherwing1" },
 		{ "", "Ogrila1" },
 		{ "", "ScaleSands1" },
 		{ "", "Scryer1" },
@@ -983,17 +983,17 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Skyguard1" },
 		{ "", "SunOffensive1" },
 		{ "", "Sporeggar1" },
-        { "", "Thrallmar1" },
-        { "", "Tranquillien1" },
+		{ "", "Thrallmar1" },
+		{ "", "Tranquillien1" },
 		{ "", "VioletEye1" },
-    },
+	},
 	["WotLKFactions"] = {
-        { "", "AllianceVanguard1" },
+		{ "", "AllianceVanguard1" },
 		{ "", "ArgentCrusade" },
-        { "", "FrenzyheartTribe" },
+		{ "", "FrenzyheartTribe" },
 		{ "", "HordeExpedition1" },
 		{ "", "TheKaluak" },
-        { "", "KirinTor" },
+		{ "", "KirinTor" },
 		{ "", "KnightsoftheEbonBlade" },
 		{ "", "TheOracles" },
 		{ "", "TheSonsofHodir1" },
@@ -1073,7 +1073,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "DS3Plate" },
 	},
 	["BadgeofJusticeRewards"] = {
-        { AtlasLoot_TableNames["HardModeArena"][1], "HardModeArena" },
+		{ AtlasLoot_TableNames["HardModeArena"][1], "HardModeArena" },
 		{ AtlasLoot_TableNames["HardModeCloth"][1], "HardModeCloth" },
 		{ AtlasLoot_TableNames["HardModeLeather"][1], "HardModeLeather" },
 		{ AtlasLoot_TableNames["HardModeMail"][1], "HardModeMail" },
@@ -1233,7 +1233,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PVP70RepLeather" },
 		{ "", "PVP70RepMail" },
 		{ "", "PVP70RepPlate" },
-        { AL["PvP Non-Set Epics"], "PvP70NonSet1" },
+		{ AL["PvP Non-Set Epics"], "PvP70NonSet1" },
 		{ AtlasLoot_TableNames["PvP70Accessories1"][1], "PvP70Accessories1" },
 	},
 	["PvPLvl80Rewards"] = {
@@ -1255,7 +1255,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PvP80Warrior" },
 		{ AtlasLoot_TableNames["PvP80NonSet1"][1], "PvP80NonSet1" },
 		--{ "", "PvP80Weapons1" },
-        { "", "DeadlyGladiatorWeapons1" },
+		{ "", "DeadlyGladiatorWeapons1" },
 	},
 	["Pets"] = {
 		{ AtlasLoot_TableNames["Pets1"][1], "Pets1" },
@@ -1295,12 +1295,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Potions"], "AlchemyPotion1" },
 		{ AL["Transmutes"], "AlchemyTransmute1" },
 		{ AL["Flasks"], "AlchemyFlask1" },
-        { AL["Miscellaneous"], "AlchemyMisc1" },
+		{ AL["Miscellaneous"], "AlchemyMisc1" },
 	},
 	["BlackSmithing"] = {
 		{ AtlasLoot_TableNames["SmithingApprentice1"][1], "SmithingApprentice1" },
 		{ AtlasLoot_TableNames["SmithingJourneyman1"][1], "SmithingJourneyman1" },
-        { AtlasLoot_TableNames["SmithingExpert1"][1], "SmithingExpert1" },
+		{ AtlasLoot_TableNames["SmithingExpert1"][1], "SmithingExpert1" },
 		{ AtlasLoot_TableNames["SmithingArtisan1"][1], "SmithingArtisan1" },
 		{ AtlasLoot_TableNames["SmithingMaster1"][1], "SmithingMaster1" },
 		{ AtlasLoot_TableNames["Armorsmith1"][1], "Armorsmith1" },
@@ -1322,7 +1322,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "EnchantingChest1" },
 		{ "", "EnchantingCloak1" },
 		{ "", "EnchantingGloves1" },
-        { "", "EnchantingRing1" },
+		{ "", "EnchantingRing1" },
 		{ "", "EnchantingShield1" },
 		{ "", "Enchanting2HWeapon1" },
 		{ "", "EnchantingWeapon1" },
@@ -1337,30 +1337,30 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["Gnomish1"][1], "Gnomish1" },
 		{ AtlasLoot_TableNames["Goblin1"][1], "Goblin1" },
 	},
-    ["Inscription"] = {
+	["Inscription"] = {
 		{ AL["Miscellaneous"], "Inscription_Misc1" },
 		{ AL["Off-Hand Items"], "Inscription_OffHand1" },
 		{ AL["Reagents"], "Inscription_Reagents1" },
 		{ AL["Scrolls"], "Inscription_Scrolls1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Deathknight"], "Inscription_DeathKnightMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Deathknight"], "Inscription_DeathKnightMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Deathknight"], "Inscription_DeathKnightMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Druid"], "Inscription_DruidMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Druid"], "Inscription_DruidMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Druid"], "Inscription_DruidMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Hunter"], "Inscription_HunterMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Hunter"], "Inscription_HunterMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Hunter"], "Inscription_HunterMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Mage"], "Inscription_MageMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Mage"], "Inscription_MageMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Mage"], "Inscription_MageMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Paladin"], "Inscription_PaladinMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Paladin"], "Inscription_PaladinMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Paladin"], "Inscription_PaladinMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Priest"], "Inscription_PriestMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Priest"], "Inscription_PriestMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Priest"], "Inscription_PriestMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Rogue"], "Inscription_RogueMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Rogue"], "Inscription_RogueMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Rogue"], "Inscription_RogueMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Shaman"], "Inscription_ShamanMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Shaman"], "Inscription_ShamanMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Shaman"], "Inscription_ShamanMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Warlock"], "Inscription_WarlockMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Warlock"], "Inscription_WarlockMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Warlock"], "Inscription_WarlockMinor1" },
-        { AL["Major Glyph"].." - "..BabbleClass["Warrior"], "Inscription_WarriorMajor1" },
+		{ AL["Major Glyph"].." - "..BabbleClass["Warrior"], "Inscription_WarriorMajor1" },
 		{ AL["Minor Glyph"].." - "..BabbleClass["Warrior"], "Inscription_WarriorMinor1" },
 	},
 	["Jewelcrafting"] = {
@@ -1372,11 +1372,11 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["Leatherworking"] = {
 		{ AL["Leather Armor"].." - "..AL["Original WoW"], "LeatherLeatherArmorOld1" },
-        { AL["Leather Armor"].." - "..AL["Burning Crusade"], "LeatherLeatherArmorBC1" },
-        { AL["Leather Armor"].." - "..AL["Wrath of the Lich King"], "LeatherLeatherArmorWrath1" },
-        { AL["Mail Armor"].." - "..AL["Original WoW"], "LeatherMailArmorOld1" },
-        { AL["Mail Armor"].." - "..AL["Burning Crusade"], "LeatherMailArmorBC1" },
-        { AL["Mail Armor"].." - "..AL["Wrath of the Lich King"], "LeatherMailArmorWrath1" },
+		{ AL["Leather Armor"].." - "..AL["Burning Crusade"], "LeatherLeatherArmorBC1" },
+		{ AL["Leather Armor"].." - "..AL["Wrath of the Lich King"], "LeatherLeatherArmorWrath1" },
+		{ AL["Mail Armor"].." - "..AL["Original WoW"], "LeatherMailArmorOld1" },
+		{ AL["Mail Armor"].." - "..AL["Burning Crusade"], "LeatherMailArmorBC1" },
+		{ AL["Mail Armor"].." - "..AL["Wrath of the Lich King"], "LeatherMailArmorWrath1" },
 		{ AL["Cloaks"], "LeatherCloaks1" },
 		{ AL["Item Enhancements"], "LeatherItemEnhancement1" },
 		{ AL["Quivers and Ammo Pouches"], "LeatherQuiversPouches1" },
@@ -1384,7 +1384,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["Dragonscale1"][1], "Dragonscale1" },
 		{ AtlasLoot_TableNames["Elemental1"][1], "Elemental1" },
 		{ AtlasLoot_TableNames["Tribal1"][1], "Tribal1" },
-        { BabbleInventory["Leather"], "LeatherLeather1" },
+		{ BabbleInventory["Leather"], "LeatherLeather1" },
 	},
 	["Tailoring"] = {
 		{ AtlasLoot_TableNames["TailoringApprentice1"][1], "TailoringApprentice1" },
@@ -1396,8 +1396,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["Shadoweave1"][1], "Shadoweave1" },
 		{ AtlasLoot_TableNames["Spellfire1"][1], "Spellfire1" },
 	},
-    ["CraftingDaily"] = {
-        { "", "JewelcraftingDaily" },
-        { "", "CookingDaily" },
-    },
+	["CraftingDaily"] = {
+		{ "", "JewelcraftingDaily" },
+		{ "", "CookingDaily" },
+	},
 };
