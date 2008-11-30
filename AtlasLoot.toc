@@ -2,7 +2,7 @@
 ## Title: AtlasLoot
 ## Notes: Shows the possible loot from the bosses
 ## Author: Daviesh
-## Version: 5.02.01
+## Version: 5.02.02
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Credits: Asurn, Pernicus, Hegarol, Cellelach, many others
 ## X-Category: Map
