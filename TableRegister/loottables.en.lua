@@ -645,14 +645,16 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["PvP80Warlock"] = { BabbleClass["Warlock"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80Warrior"] = { BabbleClass["Warrior"], "AtlasLootWotLK" };
   --Vanilla WoW Sets
-	AtlasLoot_TableNames["VWOWSets1"] = { AL["Pre 60 Sets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["VWOWSets2"] = { AL["Pre 60 Sets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["VWOWSets3"] = { AL["Pre 60 Sets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["VWOWScholo"] = { BabbleZone["Scholomance"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["VWOWScourgeInvasion"] = { AL["Scourge Invasion"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["VWOWZulGurub"] = { BabbleZone["Zul'Gurub"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["VWOWSets1"] = { AL["Classic Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["VWOWSets2"] = { AL["Classic Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["VWOWSets3"] = { AL["Classic Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["VWOWScholo"] = { AL["Scholomance Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["VWOWScourgeInvasion"] = { AL["Scourge Invasion Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["VWOWZulGurub"] = { AL["Zul'Gurub Sets"], "AtlasLootOriginalWoW" };
   --The Burning Crusade Sets
-	AtlasLoot_TableNames["TBCSets"] = { AL["Burning Crusade"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["TBCSets"] = { AL["Burning Crusade Sets"], "AtlasLootBurningCrusade" };
+  --Wrath Of The Lich King Sets
+	AtlasLoot_TableNames["WOTLKSets"] = { AL["Wrath Of The Lich King Sets"], "AtlasLootWotLK" };
   --Crafted Sets - Blacksmithing
 	AtlasLoot_TableNames["ImperialPlate"] = { AL["Imperial Plate"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TheDarksoul"] = { AL["The Darksoul"], "AtlasLootCrafting" };
@@ -1260,13 +1262,16 @@ AtlasLoot_TableNames = {};
 
   --Menus, the entry does nothing, but makes the generalised loot table code less complex
 	AtlasLoot_TableNames["ABMENU"] = { BabbleZone["Arathi Basin"], "Menu" };
-	AtlasLoot_TableNames["PRE60SET"] = { AL["Pre 60 Sets"], "Menu" };
+	AtlasLoot_TableNames["SETSMISCMENU"] = { AL["Misc Sets"], "Menu" };
+	AtlasLoot_TableNames["SETSCLASSIC"] = { AL["Classic Sets"], "Menu" };
+	AtlasLoot_TableNames["SETSBURNINGCURSADE"] = { AL["Burning Crusade Sets"], "Menu" };
+	AtlasLoot_TableNames["SETSWRATH"] = { AL["Wrath Of The Lich King Sets"], "Menu" };
 	AtlasLoot_TableNames["CRAFTSET"] = { AL["Crafted Sets"], "Menu" };
 	AtlasLoot_TableNames["CRAFTSET2"] = { AL["Crafted Sets"], "Menu" };
 	AtlasLoot_TableNames["T456SET"] = { AL["Tier 4/5/6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T1T2SET"] = { AL["Tier 1/2 Sets"], "Menu" };
-    AtlasLoot_TableNames["T7SET"] = { AL["Tier 7 Sets 10/25 Man"], "Menu" };
+	AtlasLoot_TableNames["T7SET"] = { AL["Tier 7 Sets 10/25 Man"], "Menu" };
 	AtlasLoot_TableNames["T0SET"] = { AL["Dungeon 1/2 Sets"], "Menu" };
 	AtlasLoot_TableNames["DS3SET"] = { AL["Dungeon 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["PVPSET"] = { "dummy", "dummy" };

@@ -828,7 +828,11 @@ if AL then
     AL["AQ20 Class Sets"] = "Sets de Classe AQ20";
     AL["AQ Enchants"] = "Enchantements AQ";
     AL["AQ Opening Quest Chain"] = "Quêtes d'ouverture d'AQ";
-    AL["Pre 60 Sets"] = "Sets Pré 60";
+	--    AL["Misc Sets"] = true;
+	--    AL["Classic Sets"] = true;
+	--    AL["Burning Crusade Sets"] = true;
+	--    AL["Wrath Of The Lich King Sets"] = true;
+	--    AL["Scholomance Sets"] = true;
     AL["Crafted Sets"] = "Sets d'artisanat";
     AL["Crafted Epic Weapons"] = "Armes d'artisanat épiques";
     AL["Zul'Gurub Sets"] = "Sets Zul'Gurub";

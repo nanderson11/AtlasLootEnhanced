@@ -268,7 +268,10 @@ AtlasLoot_DewDropDown = {
 				{ AL["Non-Combat Pets"], "Pets", "Submenu" },
 			},
 			[10] = {
-				{ AL["Pre 60 Sets"], "Pre60Sets", "Submenu" },
+				[AL["Misc Sets"]] = {
+					{ AL["Classic Sets"], "SETSCLASSIC", "Table" },
+					{ AL["Burning Crusade Sets"], "SETSBURNINGCURSADE", "Table" },
+				},
 			},
 			[11] = {
 				{ AL["Ruins of Ahn'Qiraj Sets"], "AQ20Sets1", "Table" },

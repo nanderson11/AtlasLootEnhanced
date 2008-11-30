@@ -718,7 +718,11 @@ if AL then
     AL["AQ20 Class Sets"] = "AQ20 職業套裝";
     AL["AQ Enchants"] = "AQ 公式";
     AL["AQ Opening Quest Chain"] = "安其拉開門系列任務";
-    AL["Pre 60 Sets"] = "60 級以下套裝";
+	--    AL["Misc Sets"] = true;
+	--    AL["Classic Sets"] = true;
+	--    AL["Burning Crusade Sets"] = true;
+	--    AL["Wrath Of The Lich King Sets"] = true;
+	--    AL["Scholomance Sets"] = true;
     AL["Crafted Sets"] = "精緻套裝";
     AL["Crafted Epic Weapons"] = "鍛造史詩武器";
     AL["Zul'Gurub Sets"] = "祖爾格拉布套裝";

@@ -528,7 +528,11 @@ AL:RegisterTranslations("koKR", function() return {
     ["AQ20 Class Sets"] = "안퀴라즈 폐허 직업 세트",
     ["AQ Enchants"] = "안퀴라즈 마법부여",
     ["AQ Opening Quest Chain"] = "안퀴라즈 열기 연퀘",
-    ["Pre 60 Sets"] = "60렙 이하 세트",
+	--    AL["Misc Sets"] = true;
+	--    AL["Classic Sets"] = true;
+	--    AL["Burning Crusade Sets"] = true;
+	--    AL["Wrath Of The Lich King Sets"] = true;
+	--    AL["Scholomance Sets"] = true;
     ["Crafted Sets"] = "제작 세트",
     ["Crafted Epic Weapons"] = "제작된 영웅 무기",
     ["Zul'Gurub Sets"] = "줄구룹 세트",

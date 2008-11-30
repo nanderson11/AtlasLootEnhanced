@@ -4388,7 +4388,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 27, 11730, "", "=q3=Savage Gladiator Grips", "=ds=#s9#, =q2=#brd2#", "", "14.12%"};
 		{ 28, 11728, "", "=q3=Savage Gladiator Leggings", "=ds=#s11#, =q2=#brd6#", "", "14.95%"};
 		{ 29, 11731, "", "=q3=Savage Gladiator Greaves", "=ds=#s12#, =q2=#brd1#", "", "15.14%"};
-		Back = "PRE60SET";
+		Back = "SETSCLASSIC";
 	};
 
 	AtlasLoot_Data["VWOWSets2"] = {
@@ -4407,7 +4407,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 19, 13389, "", "=q3=The Postmaster's Trousers", "=ds=#s11#", "", ""};
 		{ 20, 13391, "", "=q3=The Postmaster's Treads", "=ds=#s12#", "", ""};
 		{ 21, 13392, "", "=q3=The Postmaster's Seal", "=ds=#s13#", "", ""};
-		Back = "PRE60SET";
+		Back = "SETSCLASSIC";
 	};
 
 	AtlasLoot_Data["VWOWSets3"] = {
@@ -4425,7 +4425,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 20, 0, "INV_Box_01", "=q6=#pre60s23#", "=q1=#z9#"};
 		{ 21, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#, =q2=#n40#", "", "6.62%"};
 		{ 22, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#, =q2=#n40#", "", "7.44%"};
-		Back = "PRE60SET";
+		Back = "SETSCLASSIC";
 	};
 	AtlasLoot_Data["VWOWScholo"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#pre60s6#", "=ec1=#a1#. =q1=#z5#"};
@@ -4452,7 +4452,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 26, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#", "", "0.67%"};
 		{ 27, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#", "", "1.12%"};
 		{ 28, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#", "", "0.57%"};
-		Back = "PRE60SET";
+		Back = "SETSCLASSIC";
 	};
 
 	AtlasLoot_Data["VWOWZulGurub"] = {
@@ -4474,7 +4474,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 24, 0, "INV_Box_01", "=q6=#pre60s21#", "=q1=#z8#"};
 		{ 25, 19865, "", "=q4=Warblade of the Hakkari", "=ds=#h3#, #w10#, =q2=#n34#", "", "5.18%"};
 		{ 26, 19866, "", "=q4=Warblade of the Hakkari", "=ds=#h4#, #w10#, =q2=#n33#", "", "4.55%"};
-		Back = "PRE60SET";
+		Back = "SETSCLASSIC";
 	};
 
 		---------------

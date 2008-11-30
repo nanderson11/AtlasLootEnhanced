@@ -33,9 +33,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- The Wyrmrest Accord
 --- PvP
 ---- Armor Sets
----- Epic Non-Sets
----- Placeholder - PvP Weapons
+---- Level 80 Epic Non-Sets
+---- Savage Gladiator Weapons
+---- Deadly Gladiator Weapons
+---- Lake Wintergrasp
 --- Sets & Collections
+---- Naxxramas 10/25 Man Sets (T7)
+---- Wrath Of The Lich King Sets
 ---- Blizzard Collectables
 ---- Legendaries
 ---- Tabards
@@ -2005,9 +2009,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "LEVEL80PVPSETS";
 	};
 
-		-----------------------------------
+		------------------------------
 		--- Level 80 Epic Non-Sets ---
-		-----------------------------------
+		------------------------------
 		
 	AtlasLoot_Data["PvP80NonSet1"] = {
 		{ 1, 42020, "", "=q4=Hateful Gladiator's Pendant of Triumph", "=ds=", "38000 #faction#", ""};
@@ -2291,9 +2295,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	--- Sets & Collections ---
 	--------------------------
 
-		--------------------------------
-		--- Naxxramas 10/25 Man Sets ---
-		--------------------------------
+		-------------------------------------
+		--- Naxxramas 10/25 Man Sets (T7) ---
+		-------------------------------------
 
 	AtlasLoot_Data["NaxxDeathKnightDPS"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t7s10_1#", "=q5="..AL["10 Man"]};
@@ -2308,7 +2312,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40550, "", "=q4=Valorous Scourgeborne Battleplate", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40552, "", "=q4=Valorous Scourgeborne Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40556, "", "=q4=Valorous Scourgeborne Legplates", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDeathKnightTank"] = {
@@ -2324,7 +2328,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40559, "", "=q4=Valorous Scourgeborne Chestguard", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40563, "", "=q4=Valorous Scourgeborne Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40567, "", "=q4=Valorous Scourgeborne Legguards", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidFeral"] = {
@@ -2340,7 +2344,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40471, "", "=q4=Valorous Dreamwalker Raiments", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40472, "", "=q4=Valorous Dreamwalker Handgrips", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40493, "", "=q4=Valorous Dreamwalker Legguards", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidRestoration"] = {
@@ -2356,7 +2360,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40463, "", "=q4=Valorous Dreamwalker Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40460, "", "=q4=Valorous Dreamwalker Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40462, "", "=q4=Valorous Dreamwalker Leggings", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidBalance"] = {
@@ -2372,7 +2376,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40469, "", "=q4=Valorous Dreamwalker Vestments", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40466, "", "=q4=Valorous Dreamwalker Gloves", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40468, "", "=q4=Valorous Dreamwalker Trousers", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxHunter"] = {
@@ -2388,7 +2392,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40503, "", "=q4=Valorous Crypstalker Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40504, "", "=q4=Valorous Crypstalker Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40506, "", "=q4=Valorous Crypstalker Legguards", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxMage"] = {
@@ -2404,7 +2408,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40418, "", "=q4=Valorous Frostfire Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40415, "", "=q4=Valorous Frostfire Gloves", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40417, "", "=q4=Valorous Frostfire Leggings", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinHoly"] = {
@@ -2420,7 +2424,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40569, "", "=q4=Valorous Redemption Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40570, "", "=q4=Valorous Redemption Gloves", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40572, "", "=q4=Valorous Redemption Greaves", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinRetribution"] = {
@@ -2436,7 +2440,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40577, "", "=q4=Valorous Redemption Legplates", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinProtection"] = {
@@ -2452,7 +2456,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40580, "", "=q4=Valorous Redemption Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40583, "", "=q4=Valorous Redemption Legguards", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxPriestShadow"] = {
@@ -2468,9 +2472,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40458, "", "=q4=Valorous Raiments of Faith", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40454, "", "=q4=Valorous Handwraps of Faith", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40457, "", "=q4=Valorous Pants of Faith", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
-	
+
 	AtlasLoot_Data["NaxxPriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t7s5_1#", "=q5="..AL["10 Man"]};
 		{ 2, 39514, "", "=q4=Heroes' Crown of Faith", "=ds="..BabbleBoss["Kel'Thuzad"]};
@@ -2484,7 +2488,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40449, "", "=q4=Valorous Robe of Faith", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40445, "", "=q4=Valorous Gloves of Faith", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40448, "", "=q4=Valorous Leggings of Faith", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxRogue"] = {
@@ -2500,7 +2504,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40495, "", "=q4=Valorous Bonescythe Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40496, "", "=q4=Valorous Bonescythe Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40500, "", "=q4=Valorous Bonescythe Legplates", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanRestoration"] = {
@@ -2516,7 +2520,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40508, "", "=q4=Valorous Earthshatter Tunic", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40509, "", "=q4=Valorous Earthshatter Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40512, "", "=q4=Valorous Earthshatter Legguards", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanEnhancement"] = {
@@ -2532,7 +2536,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40523, "", "=q4=Valorous Earthshatter Chestguard", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40520, "", "=q4=Valorous Earthshatter Grips", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40522, "", "=q4=Valorous Earthshatter War-Kilt", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanElemental"] = {
@@ -2548,7 +2552,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40514, "", "=q4=Valorous Earthshatter Hauberk", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40515, "", "=q4=Valorous Earthshatter Gloves", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40517, "", "=q4=Valorous Earthshatter Kilt", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarlock"] = {
@@ -2564,7 +2568,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40423, "", "=q4=Valorous Plagueheart Robe", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40420, "", "=q4=Valorous Plagueheart Gloves", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40422, "", "=q4=Valorous Plagueheart Leggings", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorFury"] = {
@@ -2580,7 +2584,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40525, "", "=q4=Valorous Dreadnaught Battleplate", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40527, "", "=q4=Valorous Dreadnaught Gauntlets", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40529, "", "=q4=Valorous Dreadnaught Legplates", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorProtection"] = {
@@ -2596,7 +2600,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds="..BabbleBoss["The Four Horsemen"]};
 		{ 12, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds="..BabbleBoss["Sartharion"]};
 		{ 13, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds="..BabbleBoss["Thaddius"]};
-        Back = "T7SET";
+		Back = "T7SET";
+	};
+		-----------------------------------
+		--- Wrath Of The Lich King Sets ---
+		-----------------------------------
+
+	AtlasLoot_Data["WOTLKSets"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#wotlk1#", "=q1=#z17#"};
+		{ 2, 37758, "", "=q3=Raine's Choker of Combustion", "=ds=#s2#"};
+		{ 3, 37821, "", "=q3=Raine's Signet of Blasting", "=ds=#s13#"};
+		Back = "SETSBURNINGCURSADE";
 	};
 
 		-------------------
@@ -2625,7 +2639,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
 		Back = "SETMENU";
 	};
-	
+
 		---------------
 		--- Tabards ---
 		---------------
@@ -2951,7 +2965,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-----------------------
 		--- Emblem of Valor ---
 		-----------------------
-		
+
 	AtlasLoot_Data["EmblemofValor"] = {
 		{ 1, 40724, "", "=q4=Cloak of Kea Feathers", "=ds=#s4#", "25 #eofvalor#", ""};
 		{ 2, 40723, "", "=q4=Disguise of the Kumiho", "=ds=#s4#", "25 #eofvalor#", ""};
@@ -2978,7 +2992,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "EmblemofValor2";
 		Back = "SETMENU";
 	};
-	
+
 	AtlasLoot_Data["EmblemofValor2"] = {
 		{ 1, 40719, "", "=q4=Band of Channeled Magic", "=ds=#s13#", "25 #eofvalor#", ""};
 		{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "25 #eofvalor#", ""};

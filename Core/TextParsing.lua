@@ -515,6 +515,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#z31#", BabbleZone["Shattrath City"]);
     text = gsub(text, "#z32#", AL["Sunwell Isle"]);
     text = gsub(text, "#z33#", BabbleZone["The Black Morass"]);
+    text = gsub(text, "#z34#", BabbleZone["Hyjal Summit"]);
 
     -- Factions
     text = gsub(text, "#f1#", BabbleFaction["Lower City"]);
@@ -585,7 +586,6 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#pre60s8#", AL["Bloodmail Regalia"]);
     text = gsub(text, "#pre60s9#", AL["Deathbone Guardian"]);
     text = gsub(text, "#pre60s10#", AL["The Postmaster"]);
-
     text = gsub(text, "#pre60s15#", AL["Shard of the Gods"]);
     text = gsub(text, "#pre60s16#", AL["Major Mojo Infusion"]);
     text = gsub(text, "#pre60s17#", AL["Overlord's Resolution"]);
@@ -601,6 +601,10 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#bcs1#", AL["The Twin Stars"]);
     text = gsub(text, "#bcs2#", AL["The Twin Blades of Azzinoth"]);
     text = gsub(text, "#bcs3#", AL["Latro's Flurry"]);
+    text = gsub(text, "#bcs4#", AL["The Fists of Fury"]);
+
+    -- Wrath Of The Lich King Sets
+   text = gsub(text, "#wotlk1#", AL["Raine's Revenge"]);
 
     -- ZG Sets
     text = gsub(text, "#zgs1#", AL["Haruspex's Garb"]);
@@ -656,7 +660,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t05s7#", AL["The Five Thunders"]);
     text = gsub(text, "#t05s8#", AL["Deathmist Raiment"]);
     text = gsub(text, "#t05s9#", AL["Battlegear of Heroism"]);
-    
+
     -- Dungeon 3 Sets
     text = gsub(text, "#ds3s1#", AL["Hallowed Raiment"]);
     text = gsub(text, "#ds3s2#", AL["Incanter's Regalia"]);
@@ -884,7 +888,7 @@ function AtlasLoot_FixText(text)
 
     --Crafting
     text = gsub(text, "#sr#", AL["Skill Required:"]);
-    
+
     -- Misc PvP Set Text
     text = gsub(text, "#pvps1#", AL["Epic Set"]);
     text = gsub(text, "#pvps2#", AL["Rare Set"]);

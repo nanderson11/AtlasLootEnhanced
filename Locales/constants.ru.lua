@@ -824,7 +824,11 @@ if AL then
     AL["AQ20 Class Sets"] = "Классовые Комплекты АК20";
     AL["AQ Enchants"] = "Зачарования из АК";
     AL["AQ Opening Quest Chain"] = "Цепь заданий открытия АК";
-    AL["Pre 60 Sets"] = "Комплекты до 60 уровня";
+	--    AL["Misc Sets"] = true;
+	--    AL["Classic Sets"] = true;
+	--    AL["Burning Crusade Sets"] = true;
+	--    AL["Wrath Of The Lich King Sets"] = true;
+	--    AL["Scholomance Sets"] = true;
     AL["Crafted Sets"] = "Изготов-ные Комплекты";
     AL["Crafted Epic Weapons"] = "Изготов-ные Эпические Оружия";
     AL["Zul'Gurub Sets"] = "Комплекты Зул'Гуруба";

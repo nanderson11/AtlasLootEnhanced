@@ -5279,10 +5279,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 5, 0, "INV_Box_01", "=q6=#bcs1#", "=q1=#z17#"};
 		{ 6, 31338, "", "=q4=Charlotte's Ivy", "=ds=#s2#", "", "0.01%"};
 		{ 7, 31339, "", "=q4=Lola's Eve", "=ds=#s13#", "", "0.01%"};
-		{ 16, 0, "INV_Box_01", "=q6=#bcs2#", "=q2=#n137#, =q1=#z18#"};
-		{ 17, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
-		{ 18, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
-		Back = "PRE60SET";
+		{ 16, 0, "INV_Box_01", "=q6=#bcs4#", "=q2=#n11#, =q1=#z34#"};
+		{ 17, 32946, "", "=q4=Claw of Molten Fury", "=ds=#h3#, #w13#"};
+		{ 18, 32945, "", "=q4=Fist of Molten Fury", "=ds=#h4#, #w13#"};
+		{ 20, 0, "INV_Box_01", "=q6=#bcs2#", "=q2=#n137#, =q1=#z18#"};
+		{ 21, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
+		{ 22, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
+		Back = "SETSBURNINGCURSADE";
 	};
 
 		-----------------------------------------
