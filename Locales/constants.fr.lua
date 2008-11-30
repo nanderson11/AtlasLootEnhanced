@@ -508,7 +508,11 @@ if AL then
     --The Burning Crusade Sets
     AL["Latro's Flurry"] = "Rafale de Latro";
     AL["The Twin Stars"] = "Les Etoiles jumelles";
+    AL["The Fists of Fury"] = "La fureur de vaincre";
     AL["The Twin Blades of Azzinoth"] = "Les Lames jumelles d'Azzinoth";
+    
+    --Wrath of the Lich King Sets
+    AL["Raine's Revenge"] = "Vengeance de Raine";
 
     --Recipe origin strings
     AL["Trainer"] = "Entraineur";
@@ -521,6 +525,7 @@ if AL then
 
     --Scourge Invasion
     AL["Scourge Invasion"] = "Invasion du Fléau";
+    AL["Scourge Invasion Sets"] = "Sets Invasion du Fléau";
     AL["Blessed Regalia of Undead Cleansing"] = "Tenue de parade bénie de purificateur de mort-vivant";
     AL["Undead Slayer's Blessed Armor"] = "Armure bénie de tueur de mort-vivant";
     AL["Blessed Garb of the Undead Slayer"] = "Atours bénis de tueur de mort-vivant";
@@ -828,11 +833,11 @@ if AL then
     AL["AQ20 Class Sets"] = "Sets de Classe AQ20";
     AL["AQ Enchants"] = "Enchantements AQ";
     AL["AQ Opening Quest Chain"] = "Quêtes d'ouverture d'AQ";
-	--    AL["Misc Sets"] = true;
-	--    AL["Classic Sets"] = true;
-	--    AL["Burning Crusade Sets"] = true;
-	--    AL["Wrath Of The Lich King Sets"] = true;
-	--    AL["Scholomance Sets"] = true;
+    AL["Misc Sets"] = "Sets divers";
+    AL["Classic Sets"] = "Sets classique";
+    AL["Burning Crusade Sets"] = "Sets Burning Crusade";
+    AL["Wrath Of The Lich King Sets"] = "Sets Wrath of the Lich King";
+    AL["Scholomance Sets"] = "Sets Scholomance";
     AL["Crafted Sets"] = "Sets d'artisanat";
     AL["Crafted Epic Weapons"] = "Armes d'artisanat épiques";
     AL["Zul'Gurub Sets"] = "Sets Zul'Gurub";
