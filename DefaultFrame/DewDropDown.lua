@@ -920,7 +920,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Naxx80Sapphiron" },
 		{ "", "Naxx80KelThuzad" },
 		{ "", "Naxx80Trash" },
-		{ "", "Naxx80Unknown" },
 	},
 	["WorldBosses"] = {
 		{ "", "WorldBossesClassic" },
