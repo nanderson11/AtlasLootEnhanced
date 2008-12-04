@@ -910,6 +910,7 @@ if AL then
     AL["Hyjal Summit Designs"] =true;
     AL["SP Patterns/Plans"] = true;
     AL["Additional Heroic Loot"] = true;
+    AL["Sigil"] = true;
 
     --Pets
     AL["Pets"] = true;

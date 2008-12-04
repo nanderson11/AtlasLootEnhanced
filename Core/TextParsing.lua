@@ -104,6 +104,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#w18#", BabbleInventory["Bullet"]);
     text = gsub(text, "#w19#", BabbleInventory["Quiver"]);
     text = gsub(text, "#w20#", BabbleInventory["Ammo Pouch"]);
+    text = gsub(text, "#w21#", AL["Sigil"]);
 
     -- Misc Inventory related words
     text = gsub(text, "#e1#", BabbleInventory["Bag"]);

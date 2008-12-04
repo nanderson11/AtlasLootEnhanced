@@ -1000,6 +1000,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "TheOracles" },
 		{ "", "TheSonsofHodir1" },
 		{ "", "TheWyrmrestAccord" },
+        { "", "WinterfinRetreat" },
 	},
 	["BoEWorldEpics"] = {
 		{ AtlasLoot_TableNames["WorldEpics4"][1], "WorldEpics4" },
