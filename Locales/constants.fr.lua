@@ -910,6 +910,7 @@ if AL then
 	AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
 	AL["SP Patterns/Plans"] = "Patrons/Plans du Plateau du Puits de soleil";
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
+	--AL["Sigil"] = true; -- à traduire
 
 	--Pets
 	AL["Pets"] = "Familiers de combat";
