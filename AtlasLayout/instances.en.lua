@@ -51,7 +51,7 @@ AtlasLootBossButtons = {
         "Gundrak2";
         "GundrakEck";
         };
-    
+
     Naxxramas = {
         "ArgentCrusade";
         "";
@@ -136,12 +136,12 @@ AtlasLootBossButtons = {
 
     UtgardePinnacle = {
     	"";
-    	"UPYmiron";
         "UPSorrowgrave";
         "UPPalehoof";
         "UPSkadi";
+    	"UPYmiron";
         };
-        
+
     VioletHold = {
     	"";
     	"VioletHold1";
