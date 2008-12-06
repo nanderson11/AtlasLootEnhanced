@@ -22,7 +22,7 @@ if AL then
     AL["No match found for"] = "Ничего не найдено для";
     AL["Search"] = "Поиск";
     AL["Clear"] = "Очистить";
-    AL["Select Loot Table"] = "Таблица лута";
+    AL["Select Loot Table"] = "Таблица добычи";
     AL["Select Sub-Table"] = "Выбор Под-Таблицы";
     AL["Drop Rate: "] = "Шанс выпада";
     AL["DKP"] = "ДКП";
@@ -70,10 +70,10 @@ if AL then
     AL["Original Factions"] = "Оригинальные Фракции";
     AL["BC Factions"] = "бк Фракции";
     AL["WotLK Factions"] = "WotLK Фракции";
-    AL["Reset Frames"] = "Сборс фреймов";
+    AL["Reset Frames"] = "Сброс фреймов";
     AL["Reset Wishlist"] = "Сброс пожеланий";
     AL["Reset Quicklooks"] = "Сборс БО";
-    AL["Classic Mounts"] = "Класический транспорт";
+    AL["Classic Mounts"] = "Классический транспорт";
     AL["The Burning Crusade Mounts"] = "Транспорт БКа";
     AL["Wrath of the Lich King Mounts"] = "Транспорт ВоЛКа";
     AL["Select a Loot Table..."] = "Выберите таблицу добычи..";
@@ -824,11 +824,11 @@ if AL then
     AL["AQ20 Class Sets"] = "Классовые Комплекты АК20";
     AL["AQ Enchants"] = "Зачарования из АК";
     AL["AQ Opening Quest Chain"] = "Цепь заданий открытия АК";
-	--    AL["Misc Sets"] = true;
-	--    AL["Classic Sets"] = true;
-	--    AL["Burning Crusade Sets"] = true;
-	--    AL["Wrath Of The Lich King Sets"] = true;
-	--    AL["Scholomance Sets"] = true;
+    AL["Misc Sets"] = "Различные комплекты";
+    AL["Classic Sets"] = "Классические комплекты";
+    AL["Burning Crusade Sets"] = "БК комплекты";
+    AL["Wrath Of The Lich King Sets"] = "ВоЛк комплекты";
+    AL["Scholomance Sets"] = "Комплекты Некроситета";
     AL["Crafted Sets"] = "Изготов-ные Комплекты";
     AL["Crafted Epic Weapons"] = "Изготов-ные Эпические Оружия";
     AL["Zul'Gurub Sets"] = "Комплекты Зул'Гуруба";
@@ -901,6 +901,7 @@ if AL then
     AL["Hyjal Summit Designs"] = "Эскизы - Вершина Хиджала";
     AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
+    AL["Sigil"] = "Печать";
 
     --Pets
     AL["Pets"] = "Питомци";
@@ -1079,7 +1080,7 @@ if AL then
     AL["Rescue Mission"] = "Rescue Mission";
     AL["Gjarngrin"] = "Gjarngrin";
     AL["Kronus"] = "Kronus";
-    AL["Loken"] = "Loken";
+    AL["Loken"] = "Локен";
     AL["Shattered Hand Executioner"] = "Палач из клана Извученной Длани";
 
     --Zones
