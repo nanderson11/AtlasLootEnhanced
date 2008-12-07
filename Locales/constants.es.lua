@@ -63,6 +63,7 @@ if AL then
     AL["Classic Instances"] = "Mazmorras clásicas";
     AL["BC Instances"] = "Mazmorras BC";
 	AL["WotLK Instances"] = "Mazmorras WotLK";
+    AL["Original WoW"] = "WoW Original";	
 	--AL["Burning Crusade"] = true,
     AL["Entrance"] = "Entrada";
     AL["Original Factions"] = "Facciones originales";
@@ -160,6 +161,9 @@ if AL then
     --LoD Module required has loaded, but loot table is missing
     AL[" could not be accessed, the following module may be out of date: "] = " no se ha podido acceder, el siguiente módulo no debe estar actualizado: ";
 
+    --LoD module not defined
+    AL["Loot module returned as nil!"] = "¡El módulo de botín ha retornado null!";
+
     --LoD module loaded successfully
     AL["sucessfully loaded."] = "cargado satisfactoriamente.";
 
@@ -230,6 +234,17 @@ if AL then
     AL["Potions"] = "Pociones";
     AL["Transmutes"] = "Transmutaciones";
     AL["Flasks"] = "Frascos";
+
+    --Enchanting
+    AL["Enchant Boots"] = "Encantamiento Botas";
+    AL["Enchant Bracer"] = "Encantamiento Brazalete";
+    AL["Enchant Chest"] = "Encantamiento Pecho";
+    AL["Enchant Cloak"] = "Encantamiento Capa";
+    AL["Enchant Gloves"] = "Encantamiento Guantes";
+    AL["Enchant Ring"] = "Encantamiento Anillo";
+    AL["Enchant Shield"] = "Encantamiento Escudo";
+    AL["Enchant 2H Weapon"] = "Encantamiento Arma 2 Manos";
+    AL["Enchant Weapon"] = "Encantamiento Arma";
     
     --Inscription
     AL["Major Glyph"] = "Glifos Sublimes";
@@ -237,6 +252,14 @@ if AL then
     AL["Scrolls"] = "Pergaminos";
     AL["Off-Hand Items"] = "Objetos de mano-izda";
     AL["Reagents"] = "Consumibles";
+
+    --Leatherworking
+    AL["Leather Armor"] = "Armaduras de cuero";
+    AL["Mail Armor"] = "Armaduras de malla";
+    AL["Cloaks"] = "Capas";
+    AL["Item Enhancements"] = "Objetos de Mejora";
+    AL["Quivers and Ammo Pouches"] = "Carcajs y bolsas de munición";
+    AL["Drums, Bags and Misc."] = "Tambores, Bolsas y Misc.";
 	
     --Labels for loot descriptions
     AL["Classes:"] = "Clases";
@@ -485,22 +508,29 @@ if AL then
     --The Burning Crusade Sets
     AL["Latro's Flurry"] = "Latro's Flurry"; --FALTA
     AL["The Twin Stars"] = "Las estrellas gemelas";
+    AL["The Fists of Fury"] = "Los puños de furia";
     AL["The Twin Blades of Azzinoth"] = "Las hojas gemelas de Azzinoth";
+
+    --Wrath of the Lich King Sets
+    AL["Raine's Revenge"] = "Venganza de Raine";
     
     --Recipe origin strings
     AL["Trainer"] = "Instructor";
     AL["Discovery"] = "Descubierto";
     AL["World Drop"] = "Botín del Mundo";
-    AL["Vendor"] = "Vendedor";
+    AL["Drop"] = "Botín"; 
+	AL["Vendor"] = "Vendedor";
     AL["Quest"] = "Misión";
     AL["Crafted"] = "Fabricado";
     
 	--Scourge Invasion
     AL["Scourge Invasion"] = "Invasión de la Plaga"; --Comprobar
+    AL["Scourge Invasion Sets"] = "Conjuntos Invasión de la Plaga";
     AL["Regalia of Undead Cleansing"] = "Atavío de eliminación de no-muertos";
     AL["Undead Slayer's Armor"] = "Armadura de mata no-muertos";
     AL["Garb of the Undead Slayer"] = "Atuendo de mata no-muertos";
     AL["Battlegear of Undead Slaying"] = "Equipo de batalla de matanza de no-muertos";
+    AL["Prince Tenris Mirkblood"] = "Príncipe Tenris Sangre Penumbra";
 	
     --ZG Sets
     AL["Haruspex's Garb"] = "Atuendo de Haruspex";
@@ -880,7 +910,8 @@ if AL then
     AL["Hyjal Summit Designs"] = "Diseños de la Cumbre de Hyjal";
     AL["SP Patterns/Plans"] = "Recinto de Esclavos Recetas/Planos";
     AL["Additional Heroic Loot"] = "Botin heróico adicional";
-
+    AL["Sigil"] = "Sigilo";
+	
     --Pets
     AL["Pets"] = "Mascotas";
     AL["Non-Combat Pets"] = "Mascotas No-Combate";
@@ -936,8 +967,8 @@ if AL then
     --AL["Olaf"] = true,
     AL["Eric 'The Swift'"] = "Eric 'El Veloz'";
     AL["Shadow of Doom"] = "Sombras del Apocalipsis";
-    AL["Bone Witch"] = "Sorcière des ossements"; --FALTA
-    AL["Lumbering Horror"] = "Horreur chancelante"; --FALTA
+    AL["Bone Witch"] = "Bruja Osaria";
+    AL["Lumbering Horror"] = "Horror pesado";
     AL["Avatar of the Martyred"] = "Avatar de los Martirizados";
     --AL["Yor"] = true,
     AL["Nexus Stalker"] = "Acechador nexo";
