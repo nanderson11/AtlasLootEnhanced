@@ -144,6 +144,21 @@ AtlasLoot_Data["INSCRIPTIONMENU"] = {
         Back = "CRAFTINGMENU";
     };
     
+AtlasLoot_Data["JEWELCRAFTINGMENU"] = {
+        { 2, "JewelRed1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "" };
+        { 3, "JewelBlue1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Blue"].." "..BabbleInventory["Gem"], "" };
+        { 4, "JewelYellow1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Yellow"].." "..BabbleInventory["Gem"], "" };
+        { 5, "JewelMeta1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "" };
+        { 7, "JewelNeck1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Neck"], "" };
+        { 8, "JewelTrinket1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Trinket"], "" };
+        { 17, "JewelGreen1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Green"].." "..BabbleInventory["Gem"], "" };
+        { 18, "JewelOrange1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "" };
+        { 19, "JewelPurple1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "" };
+        { 22, "JewelRing1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Ring"], "" };
+        { 23, "JewelMisc1", "INV_Misc_Gem_01", "=ds="..AL["Miscellaneous"], "" };
+        Back = "CRAFTINGMENU";
+    };
+    
 AtlasLoot_Data["LEATHERWORKINGMENU"] = {
         { 2, "LeatherLeatherArmorOld1", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Original WoW"] };
         { 3, "LeatherLeatherArmorBC1", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Burning Crusade"] };

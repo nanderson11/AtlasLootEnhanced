@@ -67,55 +67,6 @@ function AtlasLoot_EngineeringMenu()
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 
-function AtlasLoot_JewelcrafingMenu()
-	for i = 1, 30, 1 do
-		getglobal("AtlasLootItem_"..i):Hide();
-	end
-	for i = 1, 30, 1 do
-		getglobal("AtlasLootMenuItem_"..i):Hide();
-		getglobal("AtlasLootMenuItem_"..i).isheader = false;
-	end
-	getglobal("AtlasLootItemsFrame_BACK"):Show();
-	getglobal("AtlasLootItemsFrame_BACK").lootpage = "CRAFTINGMENU";
-	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
-	getglobal("AtlasLootItemsFrame_PREV"):Hide();
-	--Apprentice
-	AtlasLootMenuItem_1_Name:SetText(select(2, GetSpellInfo(2259)));
-	AtlasLootMenuItem_1_Extra:SetText("");
-	AtlasLootMenuItem_1_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_01");
-	AtlasLootMenuItem_1.lootpage = "JewelApprentice1";
-	AtlasLootMenuItem_1:Show();
-	--Expert
-	AtlasLootMenuItem_2_Name:SetText(select(2, GetSpellInfo(3464)));
-	AtlasLootMenuItem_2_Extra:SetText("");
-	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_01");
-	AtlasLootMenuItem_2.lootpage="JewelExpert1";
-	AtlasLootMenuItem_2:Show();
-	--Master
-	AtlasLootMenuItem_3_Name:SetText(select(2, GetSpellInfo(28596)));
-	AtlasLootMenuItem_3_Extra:SetText("");
-	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_01");
-	AtlasLootMenuItem_3.lootpage="JewelMaster1";
-	AtlasLootMenuItem_3:Show();
-	--Journeyman
-	AtlasLootMenuItem_16_Name:SetText(select(2, GetSpellInfo(3101)));
-	AtlasLootMenuItem_16_Extra:SetText("");
-	AtlasLootMenuItem_16_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_01");
-	AtlasLootMenuItem_16.lootpage = "JewelJourneyman1";
-	AtlasLootMenuItem_16:Show();
-	--Artisan
-	AtlasLootMenuItem_17_Name:SetText(select(2, GetSpellInfo(11611)));
-	AtlasLootMenuItem_17_Extra:SetText("");
-	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_01");
-	AtlasLootMenuItem_17.lootpage="JewelArtisan1";
-	AtlasLootMenuItem_17:Show();
-	for i = 1, 30, 1 do
-		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
-	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..GetSpellInfo(25229));
-	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
-end
-
 function AtlasLoot_TailoringMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();
