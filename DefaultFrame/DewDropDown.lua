@@ -1374,6 +1374,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "JewelOrange1" },
         { BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "JewelPurple1" },
 		{ BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "JewelMeta1" },
+        { BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "JewelPrismatic1" },
 		{ BabbleInventory["Neck"], "JewelNeck1" },
 		{ BabbleInventory["Ring"], "JewelRing1" },
 		{ BabbleInventory["Trinket"], "JewelTrinket1" },

@@ -154,6 +154,7 @@ AtlasLoot_Data["JEWELCRAFTINGMENU"] = {
         { 17, "JewelGreen1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Green"].." "..BabbleInventory["Gem"], "" };
         { 18, "JewelOrange1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "" };
         { 19, "JewelPurple1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "" };
+        { 20, "JewelPrismatic1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "" };
         { 22, "JewelRing1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Ring"], "" };
         { 23, "JewelMisc1", "INV_Misc_Gem_01", "=ds="..AL["Miscellaneous"], "" };
         Back = "CRAFTINGMENU";
