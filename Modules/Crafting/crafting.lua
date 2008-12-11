@@ -4437,7 +4437,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["JewelcraftingDaily2"] = {
 		{ 1, 41702, "", "=q3=Design: Puissant Twilight Opal", "=ds=#p12# (390)"};
-		{ 2, 41576, "", "=q3=Design: Quick Autumn's Glow", "=ds=#p12# (390)"};
+		{ 2, 41579, "", "=q3=Design: Quick Autumn's Glow", "=ds=#p12# (390)"};
 		{ 3, 41690, "", "=q3=Design: Reckless Monarch Topaz", "=ds=#p12# (390)"};
 		{ 4, 41703, "", "=q3=Design: Regal Twilight Opal", "=ds=#p12# (390)"};
 		{ 5, 41580, "", "=q3=Design: Rigid Autumn's Glow", "=ds=#p12# (390)"};
