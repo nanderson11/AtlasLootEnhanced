@@ -1126,6 +1126,7 @@ AtlasLoot_TableNames = {};
     AtlasLoot_TableNames["Inscription_WarriorMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..BabbleClass["Warrior"], "AtlasLootCrafting" };
   --Jewelcrafting
     AtlasLoot_TableNames["JewelRed1"] = { JEWELCRAFTING..": "..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["JewelRed2"] = { JEWELCRAFTING..": "..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["JewelBlue1"] = { JEWELCRAFTING..": "..BabbleInventory["Blue"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelYellow1"] = { JEWELCRAFTING..": "..BabbleInventory["Yellow"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelYellow2"] = { JEWELCRAFTING..": "..BabbleInventory["Yellow"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
@@ -1136,11 +1137,13 @@ AtlasLoot_TableNames = {};
     AtlasLoot_TableNames["JewelPurple1"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelPurple2"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["JewelMeta1"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelPrismatic1"] = { JEWELCRAFTING..": "..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelMeta2"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["JewelPrismatic1"] = { JEWELCRAFTING..": "..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["JewelTrinket1"] = { JEWELCRAFTING..": "..BabbleInventory["Trinket"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelRing1"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelRing2"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelNeck1"] = { JEWELCRAFTING..": "..BabbleInventory["Neck"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelRing3"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["JewelNeck1"] = { JEWELCRAFTING..": "..BabbleInventory["Neck"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelNeck2"] = { JEWELCRAFTING..": "..BabbleInventory["Neck"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelMisc1"] = { JEWELCRAFTING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
   --Leatherworking
