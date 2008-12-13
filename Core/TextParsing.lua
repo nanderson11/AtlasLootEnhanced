@@ -213,6 +213,10 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j43#", AL["Mammals"]);
     text = gsub(text, "#j44#", AL["Mythical"]);
     text = gsub(text, "#j45#", AL["Reptiles"]);
+    text = gsub(text, "#j46#", AL["Hard Mode"]);
+    text = gsub(text, "#j47#", AL["Heroic"]);
+    text = gsub(text, "#j48#", AL["Buyable Mounts"]);
+    text = gsub(text, "#j49#", AL["Faction Mounts"]);
 
     -- Upper Deck Card Game
     text = gsub(text, "#ud1#", AL["Heroes of Azeroth"]);
@@ -337,6 +341,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#x35#", AL["Winter Veil Gift"]);
     text = gsub(text, "#x36#", AL["Smokywood Pastures Extra-Special Gift"]);
     text = gsub(text, "#x37#", AL["The Talon King's Coffer"]);
+    text = gsub(text, "#x38#", AL["Mysterious Egg"]);
+    text = gsub(text, "#x39#", AL["Hyldnir Spoils"]);
 
     -- NPC Names
     text = gsub(text, "#n1#", BabbleBoss["Lord Cobrahn"]);
@@ -481,6 +487,11 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#n138#", BabbleBoss["Vexallus"]);
     text = gsub(text, "#n139#", BabbleBoss["Aeonus"]);
     text = gsub(text, "#n150#", AL["Coren Direbrew"]);
+    text = gsub(text, "#n151#", BabbleBoss["Skadi the Ruthless"]);
+    text = gsub(text, "#n152#", BabbleBoss["Infinite Corruptor"]);
+    text = gsub(text, "#n153#", BabbleBoss["Sartharion"]);
+    text = gsub(text, "#n154#", BabbleBoss["Malygos"]);
+    text = gsub(text, "#n155#", AL["Time-Lost Proto Drake"]);
 
     -- Zone Names
     text = gsub(text, "#z1#", BabbleZone["The Deadmines"]);
@@ -517,6 +528,11 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#z32#", AL["Sunwell Isle"]);
     text = gsub(text, "#z33#", BabbleZone["The Black Morass"]);
     text = gsub(text, "#z34#", BabbleZone["Hyjal Summit"]);
+    text = gsub(text, "#z35#", BabbleZone["Utgarde Pinnacle"]);
+    text = gsub(text, "#z36#", BabbleZone["Old Stratholme"]);
+    text = gsub(text, "#z37#", BabbleZone["The Storm Peaks"]);
+    text = gsub(text, "#z38#", BabbleZone["The Obsidian Sanctum"]);
+    text = gsub(text, "#z39#", BabbleZone["The Eye of Eternity"]);
 
     -- Factions
     text = gsub(text, "#f1#", BabbleFaction["Lower City"]);
@@ -525,6 +541,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#f4#", BabbleFaction["Honor Hold"]);
     text = gsub(text, "#f5#", BabbleFaction["Keepers of Time"]);
     text = gsub(text, "#f6#", BabbleFaction["Cenarion Expedition"]);
+    text = gsub(text, "#f7#", BabbleFaction["The Sons of Hodir"]);
+    text = gsub(text, "#f8#", BabbleFaction["The Wyrmrest Accord"]);
 
     -- Blacksmithing Crafted Sets
     text = gsub(text, "#craftbp1#", AL["Imperial Plate"]);

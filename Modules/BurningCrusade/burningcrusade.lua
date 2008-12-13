@@ -5710,7 +5710,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 30609, "", "=q4=Swift Nether Drake", "=q2=#m25#"};
 		{ 21, 34092, "", "=q4=Merciless Nether Drake", "=q2=#m25#"};
 		{ 22, 37676, "", "=q4=Vengeful Nether Drake", "=q2=#m25#"};
-		{ 23, 43516, "", "=q4=Brutal Nether Drake", "=ds=#m25#"};
+		{ 23, 43516, "", "=q4=Brutal Nether Drake", "=q2=#m25#"};
 		{ 24, 35906, "", "=q4=Reins of the Black War Elekk", "=ds=#e12# =ec1=#m7#"};
 		{ 25, 34129, "", "=q4=Swift Warstrider", "=ds=#e12# =ec1=#m6#"};
 		{ 26, 28915, "", "=q4=Reins of the Dark Riding Talbuk", "=ds=#e12#"};
@@ -5722,7 +5722,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["Mounts25"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j35#", ""};
-		{ 2, 33809, "", "=q4=Amani War Bear", "=q2=#n130#, =q1=#z29#"};
+		{ 2, 33809, "", "=q4=Amani War Bear", "=q2=#x33#, =q1=#z29#"};
 		{ 3, 32458, "", "=q4=Ashes of Al'ar", "=q2=#n59#, =q1=#z19#"};
 		{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2=#n53#, =q1=#z12#", "", "0.25%"};
 		{ 5, 32768, "", "=q4=Reins of the Raven Lord", "=q2=#n58#, =q1=#z16#"};
@@ -5742,8 +5742,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37012, "", "=q4=The Horseman's Reins", "=q2=#n136#"};
 		{ 21, 37011, "", "=q3=Magic Broom", "=q2=#n136#"};
 		{ 25, 0, "INV_Box_01", "=q6=#j32#", ""};
-		{ 26, 34061, "", "=q4=Turbo-Charged Flying Machine Control", "=ds=#p5#"};
-		{ 27, 34060, "", "=q3=Flying Machine Control", "=ds=#p5#"};
+		{ 26, 34061, "", "=q4=Turbo-Charged Flying Machine Control", "=q2=#p5#"};
+		{ 27, 34060, "", "=q3=Flying Machine Control", "=q2=#p5#"};
 		Prev = "Mounts24";
 		Back = "MOUNTMENU";
 	};

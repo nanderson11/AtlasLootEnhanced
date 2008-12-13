@@ -73,9 +73,6 @@ if AL then
     AL["Reset Frames"] = true;
     AL["Reset Wishlist"] = true;
     AL["Reset Quicklooks"] = true;
-    AL["Classic Mounts"] = true;
-    AL["The Burning Crusade Mounts"] = true;
-    AL["Wrath of the Lich King Mounts"] = true;
     AL["Select a Loot Table..."] = true;
     AL["OR"] = true;
     AL["Wrath of the Lich King"] = true;
@@ -310,6 +307,7 @@ if AL then
     AL["Tradable against sunmote + item above"] = true;
     AL["Rare"] = true;
     AL["Heroic"] = true;
+    AL["Hard Mode"] = true;
     AL["Summon"] = true;
     AL["Random"] = true;
     AL["Weapons"] = true;
@@ -910,7 +908,7 @@ if AL then
     AL["Hyjal Summit Designs"] =true;
     AL["SP Patterns/Plans"] = true;
     AL["Additional Heroic Loot"] = true;
-    AL["Sigil"] = true;
+    AL["Sigil"] = true; --Can be added to BabbleInv
 
     --Pets
     AL["Pets"] = true;
@@ -925,12 +923,17 @@ if AL then
 
     --Mounts
     AL["Mounts"] = true;
+    AL["Classic Mounts"] = true;
+    AL["The Burning Crusade Mounts"] = true;
+    AL["Wrath of the Lich King Mounts"] = true;
     AL["Card Game Mounts"] = true;
     AL["Crafted Mounts"] = true;
     AL["Event Mounts"] = true;
     AL["PvP Mounts"] = true;
     AL["Rare Mounts"] = true;
     AL["Flying Mounts"] = true;
+    AL["Buyable Mounts"] = true;
+    AL["Faction Mounts"] = true;
 
     --Specs
     AL["Balance"] = true;
@@ -1084,13 +1087,14 @@ if AL then
     AL["Cache of the Legion"] = true;
     AL["Rajaxx's Captains"] = true;
     AL["Felsteed"] = true;
-    AL["Commander Stoutbeard"] = true;
-    AL["Bloodstone Annihilator"] = true;
-    AL["Rescue Mission"] = true;
-    AL["Gjarngrin"] = true;
-    AL["Kronus"] = true;
-    AL["Loken"] = true;
     AL["Shattered Hand Executioner"] = true;
+    AL["Commander Stoutbeard"] = true;  --Is in BabbleBoss
+    AL["Bloodstone Annihilator"] = true;  --Who is this npc?
+    AL["Rescue Mission"] = true;
+    AL["Gjarngrin"] = true; --Who is this npc?
+    AL["Kronus"] = true; --Who is this npc?
+    AL["Loken"] = true; --Is in BabbleBoss
+    AL["Time-Lost Proto Drake"] = true;
 
     --Zones
     AL["World Drop"] = true;
@@ -1156,6 +1160,8 @@ if AL then
     AL["Second Fragment Guardian"] = true;
     AL["Third Fragment Guardian"] = true;
     AL["Overcharged Manacell"] = true;
+    AL["Mysterious Egg"] = true;
+    AL["Hyldnir Spoils"] = true;
 
     --World Events
     AL["Abyssal Council"] = true;
