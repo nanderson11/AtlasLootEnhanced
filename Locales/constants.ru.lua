@@ -73,9 +73,6 @@ if AL then
     AL["Reset Frames"] = "Сброс фреймов";
     AL["Reset Wishlist"] = "Сброс пожеланий";
     AL["Reset Quicklooks"] = "Сборс БО";
-    AL["Classic Mounts"] = "Классический транспорт";
-    AL["The Burning Crusade Mounts"] = "Транспорт БКа";
-    AL["Wrath of the Lich King Mounts"] = "Транспорт ВоЛКа";
     AL["Select a Loot Table..."] = "Выберите таблицу добычи..";
     AL["OR"] = "или";
     AL["Wrath of the Lich King"] = "Wrath of the Lich King";
@@ -185,7 +182,7 @@ if AL then
     AL["World Events"] = "Мировые события";
     AL["Load Modules"] = "Загр. модулей";
     AL["Crafting"] = "Ремесло";
-    AL["Crafting Daily Quests"] = "Crafting Daily Quests";
+    AL["Crafting Daily Quests"] = "Ежедневные задания - ремесло";
 
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Добро пожаловать в Расширенный Atlasloot.  Пожалуйста уделите чуточку времени для установки ваших предпочтений.";
@@ -307,6 +304,7 @@ if AL then
     AL["Tradable against sunmote + item above"] = "Tradable against sunmote + item above";
     AL["Rare"] = "Редкий";
     AL["Heroic"] = "Героик";
+    AL["Hard Mode"] = "Сложный режим";
     AL["Summon"] = "Призыв";
     AL["Random"] = "Случайный";
     AL["Weapons"] = "Оружие";
@@ -901,7 +899,7 @@ if AL then
     AL["Hyjal Summit Designs"] = "Эскизы - Вершина Хиджала";
     AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
-    AL["Sigil"] = "Печать";
+    AL["Sigil"] = true;
 
     --Pets
     AL["Pets"] = "Питомци";
@@ -915,13 +913,18 @@ if AL then
     AL["Reptiles"] = "Пресмыкающееся";
 
     --Mounts
-    AL["Mounts"] = "Ездовые животные";
+    AL["Mounts"] = "Транспорт";
+    AL["Classic Mounts"] = "Классический транспорт";
+    AL["The Burning Crusade Mounts"] = "Транспорт БКа";
+    AL["Wrath of the Lich King Mounts"] = "Транспорт ВоЛКа";
     AL["Card Game Mounts"] = "Транспорт с игральных карт";
     AL["Crafted Mounts"] = "Созданный транспорт";
     AL["Event Mounts"] = "Транспорт событий";
     AL["PvP Mounts"] = "PvP транспорт";
     AL["Rare Mounts"] = "Редкий транспорт";
     AL["Flying Mounts"] = "Летающий транспорт";
+    AL["Buyable Mounts"] = "Покупаемыей транспорт";
+    AL["Faction Mounts"] = "Транспорт фракций";
 
     --Specs
     AL["Balance"] = "Баланс";
@@ -1075,13 +1078,14 @@ if AL then
     AL["Cache of the Legion"] = "Тайник Легиона";
     AL["Rajaxx's Captains"] = "Капитаны Раджакса";
     AL["Felsteed"] = "Скакун Скверны";
-    AL["Commander Stoutbeard"] = "Командир Пивобород";
-    AL["Bloodstone Annihilator"] = "Bloodstone Annihilator";
-    AL["Rescue Mission"] = "Rescue Mission";
-    AL["Gjarngrin"] = "Gjarngrin";
-    AL["Kronus"] = "Kronus";
-    AL["Loken"] = "Локен";
     AL["Shattered Hand Executioner"] = "Палач из клана Извученной Длани";
+    AL["Commander Stoutbeard"] = "Командир Пивобород";
+    AL["Bloodstone Annihilator"] = true;
+    AL["Rescue Mission"] = true;
+    AL["Gjarngrin"] = true;
+    AL["Kronus"] = true;
+    AL["Loken"] = true;
+    AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 
     --Zones
     AL["World Drop"] = "Мировой выпад";
@@ -1089,10 +1093,10 @@ if AL then
     AL["Lake Wintergrasp"] = "Озеро Ледяных Оков";
 
     --Shortcuts for Bossname files
-    AL["LBRS"] = "LBRS";
-    AL["UBRS"] = "UBRS";
-    AL["CoT1"] = "CoT1";
-    AL["CoT2"] = "CoT2";
+    AL["LBRS"] = "ВЧЧГ";
+    AL["UBRS"] = "НЧЧГ";
+    AL["CoT1"] = "ПВ1";
+    AL["CoT2"] = "ПВ2";
     AL["Scholo"] = "Некрос";
     AL["Strat"] = "Страт";
     AL["Serpentshrine"] = "Святилища Змея";
@@ -1116,7 +1120,7 @@ if AL then
     AL["Fathom Core"] = "Глубинный сердечник";
     AL["Conspicuous Urn"] = "Подозрительная урна";
     AL["Gift of Adoration"] = "Дар обожания";
-    AL["Box of Chocolates"] = "Box of Chocolates";
+    AL["Box of Chocolates"] = "Коробка шоколада";
     AL["Treat Bag"] = "Сумка с лакомствами";
     AL["Gaily Wrapped Present"] = "Подарок в яркой упаковке";
     AL["Festive Gift"] = "Праздничный дар";
@@ -1132,11 +1136,11 @@ if AL then
     AL["Large Rocket Recipes"] = " Чертеж большой ракеты";
     AL["Cluster Rocket Recipes"] = "Чертежи батареи фейерверков";
     AL["Large Cluster Rocket Recipes"] = "Чертежи больших батарей фейерверков";
-    AL["Timed Reward Chest"] = "Timed Reward Chest";
-    AL["Timed Reward Chest 1"] = "Timed Reward Chest 1";
-    AL["Timed Reward Chest 2"] = "Timed Reward Chest 2";
-    AL["Timed Reward Chest 3"] = "Timed Reward Chest 3";
-    AL["Timed Reward Chest 4"] = "Timed Reward Chest 4";
+    AL["Timed Reward Chest"] = "Сундук, награда за время";
+    AL["Timed Reward Chest 1"] = "1-й сундук, награда за время";
+    AL["Timed Reward Chest 2"] = "2-й сундук, награда за время";
+    AL["Timed Reward Chest 3"] = "3-й сундук, награда за время";
+    AL["Timed Reward Chest 4"] = "4-й сундук, награда за время";
     AL["The Talon King's Coffer"] = "Сундук Короля Когтей";
     AL["Krom Stoutarm's Chest"] = "Сундук Крома Крепкорука";
     AL["Garrett Family Chest"] = "Сундук семейства Гарретт";
@@ -1147,13 +1151,15 @@ if AL then
     AL["Second Fragment Guardian"] = "Страж второго фрагмента";
     AL["Third Fragment Guardian"] = "Страж третьего фрагмента";
     AL["Overcharged Manacell"] = "Избыточно заряженный аккумулятор маны";
+    AL["Mysterious Egg"] = "Таинственное яйцо";
+    AL["Hyldnir Spoils"] = "Хильдские трофеи";
 
     --World Events
     AL["Abyssal Council"] = "Совет Бездны";
     AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражи Небес на Лагерь Баш'ира";
     AL["Brewfest"] = "Фестиваль";
     AL["Children's Week"] = "Детская неделя";
-    AL["Elemental Invasion"] = "Elemental Invasion";
+    AL["Elemental Invasion"] = "Вторжение стихий";
     AL["Ethereum Prison"] = "Пленник Эфириума";
     AL["Feast of Winter Veil"] = " Пир Зимнего покров";
     AL["Gurubashi Arena Booty Run"] = "Арена Гурубаши";
@@ -1162,7 +1168,7 @@ if AL then
     AL["Love is in the Air"] = "Любовь витает в воздухе";
     AL["Lunar Festival"] = "Праздник луны";
     AL["Midsummer Fire Festival"] = "Фестиваль огненного Середина лета";
-    AL["Noblegarden"] = "Noblegarden";
+    AL["Noblegarden"] = "Фестиваль урожая";
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбная феерия Тернистой долины";
     
