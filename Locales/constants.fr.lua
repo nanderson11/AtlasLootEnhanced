@@ -73,9 +73,6 @@ if AL then
 	AL["Reset Frames"] = "Réinitialiser les frames";
 	AL["Reset Wishlist"] = "Réinitialiser la Wishlist";
 	AL["Reset Quicklooks"] = "Réinitialiser Quicklooks";
-	AL["Classic Mounts"] = "Montures Classiques";
-	AL["The Burning Crusade Mounts"] = "Montures de The Burning Crusade";
-	AL["Wrath of the Lich King Mounts"] = "Montures de Wrath of the Lich King";
 	AL["Select a Loot Table..."] = "Sélectionner une table de loot...";
 	AL["OR"] = "OU";
 	--AL["Wrath of the Lich King"] = true;
@@ -310,6 +307,7 @@ if AL then
 	AL["Tradable against sunmote + item above"] = "Echangeable contre une Granule de soleil + l'objet du dessus";
 	AL["Rare"] = "Rare";
 	AL["Heroic"] = "Héroïque";
+	--AL["Hard Mode"] = true; -- à traduire
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Weapons"] = "Armes";
@@ -925,12 +923,17 @@ if AL then
     
 	--Mounts
 	AL["Mounts"] = "Montures";
+	AL["Classic Mounts"] = "Montures Classiques";
+	AL["The Burning Crusade Mounts"] = "Montures de The Burning Crusade";
+	AL["Wrath of the Lich King Mounts"] = "Montures de Wrath of the Lich King";
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";
 	AL["Event Mounts"] = "Montures d'événements";
 	AL["PvP Mounts"] = "Montures JcJ";
 	AL["Rare Mounts"] = "Montures rares";
 	AL["Flying Mounts"] = "Montures volantes";
+	AL["Buyable Mounts"] = "Monture achetable";
+	AL["Faction Mounts"] = "Montures de faction";
 
 	--Specs
 	AL["Balance"] = "Equilibre";
@@ -1084,13 +1087,14 @@ if AL then
 	AL["Cache of the Legion"] = "Cache de la Légion";
 	AL["Rajaxx's Captains"] = "Capitaines de Rajaxx";
 	AL["Felsteed"] = "Palefroi corrompu";
+	AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 	AL["Commander Stoutbeard"] = "Commandant Rudebarbe";
 	--AL["Bloodstone Annihilator"] = true; -- à traduire
 	--AL["Rescue Mission"] = true; -- à traduire
 	--AL["Gjarngrin"] = true; -- à traduire
 	--AL["Kronus"] = true; -- à traduire
-	--AL["Loken"] = true;
-	AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
+	--AL["Loken"] = true; -- à traduire
+	AL["Time-Lost Proto Drake"] = "Proto-drake perdu dans le temps";
 
 	--Zones
 	--AL["World Drop"] = true,
@@ -1156,6 +1160,8 @@ if AL then
 	AL["Second Fragment Guardian"] = "Gardien du second fragment";
 	AL["Third Fragment Guardian"] = "Gardien du troisième fragment";
 	AL["Overcharged Manacell"] = "Cellule de mana surchargée";
+	AL["Mysterious Egg"] = "Oeuf mystérieux";
+	AL["Hyldnir Spoils"] = "Butin hyldnir";
 
 	--World Events
 	AL["Abyssal Council"] = "Conseil abyssal";
