@@ -314,6 +314,7 @@ if AL then
 	AL["Reward"] = "Récompense";
 	AL["Achievement"] = "Haut fait"
 	AL["Unattainable Tabards"] = "Tabards inaccessible";
+	AL["Heirloom"] = "Antiquité";
 
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = "Objets des cartes à jouer WoW TCG";
