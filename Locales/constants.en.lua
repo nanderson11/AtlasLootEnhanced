@@ -314,6 +314,7 @@ if AL then
     AL["Reward"] = true;
     AL["Achievement"] = true;
     AL["Unattainable Tabards"] = true;
+    AL["Heirloom"] = true;
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = true;

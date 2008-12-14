@@ -69,7 +69,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Dungeon 3 Sets (D3)
 ---- Tier 4/Tier 5/Tier 6
 ---- The Burning Crusade Sets
----- Level 70 Badge of Justice Rewards
+---- Badge of Justice Rewards
 ---- Mounts
 ---- BoE World Epics
 --- World Bosses
@@ -5288,9 +5288,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "SETSBURNINGCURSADE";
 	};
 
-		-----------------------------------------
-		--- Level 70 Badge of Justice Rewards ---
-		-----------------------------------------
+		--------------------------------
+		--- Badge of Justice Rewards ---
+		--------------------------------
 
 	AtlasLoot_Data["HardModeCloth"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#z31#", ""};
