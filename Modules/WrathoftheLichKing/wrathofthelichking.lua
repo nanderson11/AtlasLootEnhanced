@@ -465,7 +465,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#" };
 		{ 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Gal'darah"], ""};
 		{ 23, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#"};
-		{ 24, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s12#, #a2#"};
+		{ 24, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#"};
 		{ 25, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
 		{ 26, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
 		{ 27, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
