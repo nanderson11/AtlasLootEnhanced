@@ -36,10 +36,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "02";
-local VERSION_BOSSES = "03";
+local VERSION_BOSSES = "04";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.13.0";
-ATLASLOOT_PREVIEW_ATLAS = "1.12.3";
+ATLASLOOT_PREVIEW_ATLAS = "1.13.1";
 ATLASLOOT_POSITION = AL["Position:"];
 
 --Standard indent to line text up with Atlas text
