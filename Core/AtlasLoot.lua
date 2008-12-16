@@ -325,6 +325,7 @@ function AtlasLoot_OnVariablesLoaded()
     panel = getglobal("AtlasLootOptionsFrame");
     panel.name=AL["AtlasLoot"];
     InterfaceOptions_AddCategory(panel);
+    LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
     --[[if IsAddOnLoaded("FuBar") then
         panel = getglobal("AtlasLootFuBarOptionsFrame");
         panel.name=AL["FuBar Options"];
