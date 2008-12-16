@@ -1532,17 +1532,33 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 40489, "", "=q4=Greatstaff of the Nexus", "=ds=#w9#"};
 		{ 9, 40497, "", "=q4=Black Ice", "=ds=#w7#"};
 		{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#"};
+        { 11, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e12#" };
+        { 13, 44650, "", "=q1=Heart of Magic", "=ds=#m3#" };
 	};
 
 	AtlasLoot_Data["Malygos25Man"] = {
-		{ 1, 40555, "", "=q4=Mantle of Dissemination", "=ds=#s3#, #a1#"};
-		{ 2, 40560, "", "=q4=Leggings of the Wanton Spellcaster", "=ds=#s11#, #a1#"};
-		{ 3, 40594, "", "=q4=Spaulders of Catatonia", "=ds=#s3#, #a2#"};
-		{ 4, 40541, "", "=q4=Frosted Adroit Handguards", "=ds=#s9#, #a2#"};
-		{ 5, 40588, "", "=q4=Tunic of the Artifact Guardian", "=ds=#s5#, #a3#"};
-		{ 6, 40564, "", "=q4=Winter Spectacle Gloves", "=ds=#s9#, #a3#"};
-		{ 7, 40549, "", "=q4=Boots of the Renewed Flight", "=ds=#s12#, #a3#"};
-		{ 8, 40590, "", "=q4=Elevated Lair Pauldrons", "=ds=#s3#, #a4#"};
+        { 1, 40562, "", "=q4=Hood of Rationality", "=ds=#s1#, #a1#" };
+		{ 2, 40555, "", "=q4=Mantle of Dissemination", "=ds=#s3#, #a1#"};
+        { 3, 40194, "", "=q4=Blanketing Robes of Snow", "=ds=#s5#, #a1#" };
+        { 4, 40561, "", "=q4=Leash of Heedless Magic", "=ds=#s10#, #a1#" };
+		{ 5, 40560, "", "=q4=Leggings of the Wanton Spellcaster", "=ds=#s11#, #a1#"};
+        { 6, 40558, "", "=q4=Arcanic Tramplers", "=ds=#s12#, #a1#" };
+		{ 7, 40594, "", "=q4=Spaulders of Catatonia", "=ds=#s3#, #a2#"};
+        { 8, 40539, "", "=q4=Chestguard of the Recluse", "=ds=#s5#, #a2#" };
+		{ 9, 40541, "", "=q4=Frosted Adroit Handguards", "=ds=#s9#, #a2#"};
+        { 10, 40566, "", "=q4=Unravelling Strands of Sanity", "=ds=#s10#, #a2#" };
+        { 11, 40543, "", "=q4=Blue Aspect Helm", "=ds=#s1#, #a3#" };
+		{ 12, 40588, "", "=q4=Tunic of the Artifact Guardian", "=ds=#s5#, #a3#"};
+		{ 13, 40564, "", "=q4=Winter Spectacle Gloves", "=ds=#s9#, #a3#"};
+		{ 14, 40549, "", "=q4=Boots of the Renewed Flight", "=ds=#s12#, #a3#"};
+		{ 15, 40590, "", "=q4=Elevated Lair Pauldrons", "=ds=#s3#, #a4#"};
+        { 16, 40589, "", "=q4=Legplates of Sovereignty", "=ds=#s11#, #a4#" };
+        { 17, 40592, "", "=q4=Boots of Healing Energies", "=ds=#s12#, #a4#" };
+        { 18, 40591, "", "=q4=Melancholy Sabatons", "=ds=#s12#, #a4#" };
+        { 19, 40532, "", "=q4=Living Ice Crystals", "=ds=#s14#" };
+        { 20, 40531, "", "=q4=Mark of Norgannon", "=ds=#s14#" };
+        { 21, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#" };
+        { 23, 44650, "", "=q1=Heart of Magic", "=ds=#m3#" };
 	};
 
 	----------------
