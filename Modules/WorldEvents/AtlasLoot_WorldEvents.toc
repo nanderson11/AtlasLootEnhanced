@@ -2,9 +2,10 @@
 ## Title: AtlasLoot_WorldEvents
 ## Title-deDE: AtlasLoot |cFF0099FF[Welt-Loot]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[户外首领]|r
-## Title-zhTW: |r|cFF0099FF[地圖]|rAL 野外首領
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 世界事件
 ## Notes: AtlasLoot loot tables from world events
 ## Notes-zhCN: AtlasLoot Enhanced 的户外首领掉落信息
+## Notes-zhTW: AtlasLoot 世界事件物品掉落資料庫
 ## Author: Daviesh
 ## Version: 5.02.00
 ## X-eMail: oma_daviesh@hotmail.com

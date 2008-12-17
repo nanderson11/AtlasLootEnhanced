@@ -1,5 +1,6 @@
 ﻿## Interface: 30000
 ## Title: AtlasLoot_Crafting
+## Title-zhTW: |r|cFF0099FF[地圖]|rAL 商業技能
 ## Notes: AtlasLoot loot tables of Crafting Items
 ## Notes-deDE: AtlasLoot loot tables of Crafting Items
 ## Notes-zhCN: AtlasLoot 交易技能制造出的物品表
