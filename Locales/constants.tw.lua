@@ -73,9 +73,6 @@ if AL then
     AL["Reset Frames"] = "重設框架";
     AL["Reset Wishlist"] = "重設願望清單";
     AL["Reset Quicklooks"] = "重設快速瀏覽";
-    AL["Classic Mounts"] = "傳統坐騎";
-    AL["The Burning Crusade Mounts"] = "燃燒的遠征坐騎";
-    AL["Wrath of the Lich King Mounts"] = "巫妖王之怒坐騎";
     AL["Select a Loot Table..."] = "選擇一個物品表";
     AL["OR"] = "或";
     AL["Wrath of the Lich King"] = "巫妖王之怒";
@@ -310,17 +307,19 @@ if AL then
     AL["Tradable against sunmote + item above"] = "以太陽微粒兌換的裝備";
 	AL["Rare"] = "稀有";
 	AL["Heroic"] = "英雄模式";
+    AL["Hard Mode"] = "困難模式";
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
     AL["Weapons"] = "武器";
     AL["Reward"] = "獎勵";
     AL["Achievement"] = "成就";
     AL["Unattainable Tabards"] = "難以取得的徽章/外袍";
+    AL["Heirloom"] = "傳家寶";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck 卡片遊戲物品";
     AL["Loot Card Items"] = "可換取的物品";
-    AL["UDE Items"] = "UDE 物品";
+    AL["UDE Items"] = "兌換商品";
 
     -- First set
     AL["Heroes of Azeroth"] = "艾澤拉斯英雄";
@@ -508,7 +507,7 @@ if AL then
     --The Burning Crusade Sets
     AL["Latro's Flurry"] = "拉托的狂怒";
     AL["The Twin Stars"] = "雙子星套裝";
-    AL["The Fists of Fury"] = true;
+    AL["The Fists of Fury"] = "狂暴支配套裝";
     AL["The Twin Blades of Azzinoth"] = "埃辛諾斯的雙刃";
 
     --Wrath of the Lich King Sets
@@ -910,7 +909,7 @@ if AL then
     AL["Hyjal Summit Designs"] ="海加爾山設計圖";
     AL["SP Patterns/Plans"] = "特殊圖樣/卷軸";
     AL["Additional Heroic Loot"] = "更多的英雄物品";
-    AL["Sigil"] = true;
+    AL["Sigil"] = "符記";
 
     --Pets
     AL["Pets"] = "寵物";
@@ -925,12 +924,17 @@ if AL then
 
     --Mounts
     AL["Mounts"] = "坐騎";
+    AL["Classic Mounts"] = "傳統坐騎";
+    AL["The Burning Crusade Mounts"] = "燃燒的遠征坐騎";
+    AL["Wrath of the Lich King Mounts"] = "巫妖王之怒坐騎";
     AL["Card Game Mounts"] = "套卡獎勵坐騎";
     AL["Crafted Mounts"] = "精製坐騎";
     AL["Event Mounts"] = "事件獎勵坐騎";
     AL["PvP Mounts"] = "PvP 坐騎";
     AL["Rare Mounts"] = "稀有坐騎";
     AL["Flying Mounts"] = "飛行坐騎";
+    AL["Buyable Mounts"] = "可購買的坐騎";
+    AL["Faction Mounts"] = "陣營聲望坐騎";
 
 	--Specs
 	AL["Balance"] = "平衡";
@@ -1084,13 +1088,14 @@ if AL then
     AL["Cache of the Legion"] = "軍團貯藏箱";
     AL["Rajaxx's Captains"] = "拉賈克斯將軍的軍官群";
     AL["Felsteed"] = "惡魔戰馬";
+    AL["Shattered Hand Executioner"] = "破碎之手劊子手";
     AL["Commander Stoutbeard"] = "指揮官厚鬚";
     AL["Bloodstone Annihilator"] = "血石殲滅者";
     AL["Rescue Mission"] = "營救任務";
     --AL["Gjarngrin"] = true;
     AL["Kronus"] = "克羅努斯";
     AL["Loken"] = "洛肯";
-    AL["Shattered Hand Executioner"] = "破碎之手劊子手";
+    AL["Time-Lost Proto Drake"] = "時光流逝元龍";
 
     --Zones
     AL["World Drop"] = "世界掉落";
@@ -1156,6 +1161,8 @@ if AL then
     AL["Second Fragment Guardian"] = "第二碎片守衛者";
     AL["Third Fragment Guardian"] = "第三碎片守衛者";
     AL["Overcharged Manacell"] = "滿溢的法力容器";
+    AL["Mysterious Egg"] = "詭秘的蛋";
+    AL["Hyldnir Spoils"] = "海迪尼爾戰利品";
 
     --World Events
     AL["Abyssal Council"] = "深淵議會";
