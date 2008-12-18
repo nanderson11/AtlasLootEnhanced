@@ -311,6 +311,7 @@ if AL then
     AL["Reward"] = "Награда";
     AL["Achievement"] = "Достижение";
     AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
+    AL["Heirloom"] = "Фамильные";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck Card Game Items";
