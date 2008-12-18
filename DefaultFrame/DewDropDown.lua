@@ -1303,8 +1303,10 @@ AtlasLoot_DewDropDown_SubTables = {
 	["BlackSmithing"] = {
 		{ BabbleInventory["Armor"].." - "..AL["Original WoW"], "SmithingArmorOld1" },
 		{ BabbleInventory["Armor"].." - "..AL["Burning Crusade"], "SmithingArmorBC1" },
+        { BabbleInventory["Armor"].." - "..AL["Wrath of the Lich King"], "SmithingArmorWrath1" },
 		{ BabbleInventory["Weapon"].." - "..AL["Original WoW"], "SmithingWeaponOld1" },
 		{ BabbleInventory["Weapon"].." - "..AL["Burning Crusade"], "SmithingWeaponBC1" },
+        { BabbleInventory["Weapon"].." - "..AL["Wrath of the Lich King"], "SmithingWeaponWrath1" },
 		{ AL["Item Enhancements"], "SmithingEnhancement1" },
         { AL["Miscellaneous"], "SmithingMisc1" },
 		{ AtlasLoot_TableNames["Armorsmith1"][1], "Armorsmith1" },
