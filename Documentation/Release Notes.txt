@@ -8,6 +8,8 @@ Patch Notes
 V5.02.05
 Malygos update
 Update to Emblem of Heroism items
+Added support for LibAboutPanel
+Re-arranged Blacksmithing
 
 v5.02.04
 Wrath of the Lich King Jewelcrafting

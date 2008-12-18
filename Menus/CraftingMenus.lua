@@ -89,16 +89,19 @@ AtlasLoot_Data["ALCHEMYMENU"] = {
     };
 
 AtlasLoot_Data["SMITHINGMENU"] = {
-        { 2, "SmithingApprentice1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(2259)), "" };
-        { 3, "SmithingExpert1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(3464)), "" };
-        { 4, "SmithingMaster1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(28596)), "" };
-        { 6, "Armorsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9788), "" };
-        { 7, "Axesmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17041), "" };
-        { 8, "Swordsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17039), "" };
-        { 17, "SmithingJourneyman1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(3101)), "" };
-        { 18, "SmithingArtisan1", "Trade_BlackSmithing", "=ds="..select(2, GetSpellInfo(11611)), "" };
-        { 21, "Weaponsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9787), "" };
-        { 22, "Hammersmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17040), "" };
+        { 2, "SmithingArmorOld1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Original WoW"] };
+        { 3, "SmithingArmorBC1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Burning Crusade"] };
+        --{ 4, "SmithingArmorWrath1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Wrath of the Lich King"] };
+        { 5, "SmithingEnhancement1", "Trade_BlackSmithing", "=ds="..AL["Item Enhancements"], "" };
+        { 7, "Armorsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9788), "" };
+        { 8, "Axesmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17041), "" };
+        { 9, "Swordsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17039), "" };
+        { 17, "SmithingWeaponOld1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Original WoW"] };
+        { 18, "SmithingWeaponBC1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Burning Crusade"] };
+        --{ 19, "SmithingWeaponWrath1", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Wrath of the Lich King"] };
+        { 20, "SmithingMisc1", "Trade_BlackSmithing", "=ds="..AL["Miscellaneous"], "" };
+        { 22, "Weaponsmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(9787), "" };
+        { 23, "Hammersmith1", "Trade_BlackSmithing", "=ds="..GetSpellInfo(17040), "" };
         Back = "CRAFTINGMENU";
     };
     
