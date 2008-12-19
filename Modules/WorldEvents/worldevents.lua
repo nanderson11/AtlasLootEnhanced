@@ -142,7 +142,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 21212, "", "=q1=Fresh Holly", "=ds=#m20#"};
 		{ 7, 21519, "", "=q1=Mistletoe", "=ds=#m20#"};
 		{ 9, 0, "INV_Holiday_Christmas_Present_01", "=q6=#n129#", ""};
-		{ 10, 34262, "", "=q2=Pattern: Winter Boots", "=ds=#p8# (285)"};
+		{ 10, 34262, "", "=q2=Pattern: Winter Boots", "=ds=#p7# (285)"};
 		{ 11, 34319, "", "=q2=Pattern: Red Winter Clothes", "=ds=#p8# (250)"};
 		{ 12, 34261, "", "=q2=Pattern: Green Winter Clothes", "=ds=#p8# (250)"};
 		{ 13, 34413, "", "=q1=Recipe: Hot Apple Cider", "#p3# (325)"};
