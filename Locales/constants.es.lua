@@ -72,10 +72,7 @@ if AL then
     AL["Reset Frames"] = "Restaurar marcos";
     AL["Reset Wishlist"] = "Res. ListaDeseada";
     AL["Reset Quicklooks"] = "Res. BotínRápido";
-    AL["Classic Mounts"] = "Monturas clásicas";
-    AL["The Burning Crusade Mounts"] = "Monturas de Burning Crusade";
-    AL["Wrath of the Lich King Mounts"] = "Monturas de Wrath of the Lich King";
-    AL["Select a Loot Table..."] = "Elige una tabla de Botín";
+    AL["Select a Loot Table..."] = "Elige una tabla de Botín...";
     AL["OR"] = "O";
     --AL["Wrath of the Lich King"] = true,
     AL["FuBar Options"] = "Opciones FuBar";
@@ -309,13 +306,14 @@ if AL then
     AL["Tradable against sunmote + item above"] = "Comerciables";
 	AL["Rare"] = "Raro";
 	AL["Heroic"] = "Heróico";
+    AL["Hard Mode"] = "Modo difícil";		
 	AL["Summon"] = "Invocar";
 	AL["Random"] = "Aleatorio";
     AL["Weapons"] = "Armas";
-    AL["Sold at"] = "Vendido a";
     AL["Reward"] = "Recompensa";
     AL["Achievement"] = "Logro";
     AL["Unattainable Tabards"] = "Tabardos inasequibles";
+    AL["Heirloom"] = "Reliquia";	
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Juegos de cartas de The Burning Crusade";
@@ -925,13 +923,18 @@ if AL then
 
     --Mounts
     AL["Mounts"] = "Monturas";
+    AL["Classic Mounts"] = "Monturas clásicas";
+    AL["The Burning Crusade Mounts"] = "Monturas de Burning Crusade";
+    AL["Wrath of the Lich King Mounts"] = "Monturas de Wrath of the Lich King";
     AL["Card Game Mounts"] = "Monturas Barajas";
     AL["Crafted Mounts"] = "Monturas fabricadas";
     AL["Event Mounts"] = "Monturas de eventos";
     AL["PvP Mounts"] = "JcJ Monturas";
     AL["Rare Mounts"] = "Monturas raras";
     AL["Flying Mounts"] = "Monturas voladoras";
-
+    AL["Buyable Mounts"] = "Monturas Comprables";
+    AL["Faction Mounts"] = "Monturas de Facción";
+	
 	--Specs
 	AL["Balance"] = "Equilibrio";
 	AL["Feral"] = "Combate Feral";
@@ -1084,13 +1087,14 @@ if AL then
     AL["Cache of the Legion"] = "Alijo de la Legión";
 	AL["Rajaxx's Captains"] = "Capitanes de Rajaxx";
     AL["Felsteed"] = "Corcel vil";
-    AL["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
+    AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	 
+	AL["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
     AL["Bloodstone Annihilator"] = "Bloodstone Annihilator"; --FALTA
     AL["Rescue Mission"] = "Misión de rescate"; --Comprobar
     AL["Gjarngrin"] = "Gjarngrin"; --FALTA
     AL["Kronus"] = "Kronus"; --FALTA
     AL["Loken"] = "Loken"; --FALTA
-    AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	
+    AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";
 	
     --Zones
     AL["World Drop"] = "Hallazgos del Mundo";
@@ -1156,6 +1160,8 @@ if AL then
     AL["Second Fragment Guardian"] = "Guardián del segundo trozo";
     AL["Third Fragment Guardian"] = "Guardián del tercer trozo";
     AL["Overcharged Manacell"] = "Célula de maná sobrecargada";
+    AL["Mysterious Egg"] = "Huevo misterioso";
+    AL["Hyldnir Spoils"] = "Botín Hyldnir";
 	
     --World Events
     AL["Abyssal Council"] = "Consejo abisal";
