@@ -1477,45 +1477,62 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		------------------------
 
 	AtlasLoot_Data["Sartharion"] = {
-		{ 1, 43988, "", "=q4=Glae-Proof Cloak", "=ds=#s4#" };
-		{ 2, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#" };
-		{ 3, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#" };
-		{ 4, 40428, "", "=q4=Titan's Outlook", "=ds=#s1#, #a4#"};
-		{ 5, 43989, "", "=q4=Rememberance Gridle", "=ds=#s10#, #a4#" };
-		{ 6, 40427, "", "=q4=Circle of Arcane Streams", "=ds=#s2#"};
-		{ 7, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#" };
-		{ 8, 40426, "", "=q4=Signet of the Accord", "=ds=#s13#"};
-		{ 9, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#"};
-		{ 10, 40430, "", "=q4=Majestic Dragon Figurine", "=ds=#s14#" };
-		{ 11, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#"};
-		{ 12, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
-		{ 13, 43347, "", "=q4=Satchel of Spoils", "" };
-		{ 14, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e12#" };
-		{ 16, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#" };
-		{ 17, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#" };
-		{ 18, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#" };
+		{ 1, 40428, "", "=q4=Titan's Outlook", "=ds=#s1#, #a4#"};
+		{ 2, 40427, "", "=q4=Circle of Arcane Streams", "=ds=#s2#"};
+		{ 3, 40426, "", "=q4=Signet of the Accord", "=ds=#s13#"};
+		{ 4, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#"};
+		{ 5, 40430, "", "=q4=Majestic Dragon Figurine", "=ds=#s14#" };
+		{ 6, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#"};
+		{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
+		{ 8, 43347, "", "=q4=Satchel of Spoils", "" };
+		{ 10, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#" };
+		{ 11, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#" };
+		{ 12, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#" };
+        { 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["One Drake Left"] };
+        { 17, 43988, "", "=q4=Gale-Proof Cloak", "=ds=#s4#" };
+		{ 18, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#" };
+		{ 19, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#" };
+        { 20, 43989, "", "=q4=Rememberance Gridle", "=ds=#s10#, #a4#" };
+        { 21, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#" };
+        { 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Two Drakes Left"] };
+        { 24, 43995, "", "=q4=Enamored Cowl", "=ds=#s1#, #a1#" };
+        { 25, 43996, "", "=q4=Sabatons of Firmament", "=ds=#s12#, #a3#" };
+        { 26, 43994, "", "=q4=Belabored Legplates", "=ds=#s11#, #a4#" };
+        { 27, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#" };
+        { 29, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"] };
+        { 30, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e12#" };
 	};
 
 	AtlasLoot_Data["Sartharion25Man"] = {
-		{ 1, 44005, "", "=q4=Pennant Cloak", "=ds=#s4#" };
-		{ 2, 40437, "", "=q4=Concealment Shoulderpads", "=ds=#s3#, #a2#"};
-		{ 3, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#"};
-		{ 4, 40409, "", "=q4=Boots of the Escaped Captive", "=ds=#s12#, #a2#"};
-		{ 5, 40451, "", "=q4=Hyaline Helm of the Sniper", "=ds=#s1#, #a3#"};
-		{ 6, 40438, "", "=q4=Council Chamber Epaulets", "=ds=#s3#, #a3#"};
-		{ 7, 44003, "", "=q4=Upstanding Spaulders", "=ds=#s3#, #a3#"};
-		{ 8, 40453, "", "=q4=Chestplate of the Great Aspects", "=ds=#s5#, #a4#"};
-		{ 9, 44000, "", "=q4=Dragonstorm Breastplate", "=ds=#s5#, #a4#"};
-		{ 10, 40446, "", "=q4=Dragon Brood Legguards", "=ds=#s11#, #a4#"};
-		{ 11, 40431, "", "=q4=Fury of the Five Flights", "=ds=#s14#" };
-		{ 12, 40432, "", "=q4=Illustration of the Dragon Soul", "=ds=#s14#" };
-		{ 13, 40455, "", "=q4=Staff of Restraint", "=ds=#w9#" };
-		{ 14, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
-		{ 15, 43346, "", "=q4=Large Satchel of Spoils", "" };
-		{ 16, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e12#" };
-		{ 18, 40628, "", "=q4=Gauntlets of the Lost Conqueror", "=ds=#e15#" };
-		{ 19, 40629, "", "=q4=Gauntlets of the Lost Protector", "=ds=#e15#" };
-		{ 20, 40630, "", "=q4=Gauntlets of the Lost Vanquisher", "=ds=#e15#" };
+		{ 1, 40437, "", "=q4=Concealment Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 2, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#"};
+		{ 3, 40451, "", "=q4=Hyaline Helm of the Sniper", "=ds=#s1#, #a3#"};
+		{ 4, 40438, "", "=q4=Council Chamber Epaulets", "=ds=#s3#, #a3#"};
+		{ 5, 40453, "", "=q4=Chestplate of the Great Aspects", "=ds=#s5#, #a4#"};
+		{ 6, 40446, "", "=q4=Dragon Brood Legguards", "=ds=#s11#, #a4#"};
+        { 7, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#" };
+		{ 8, 40431, "", "=q4=Fury of the Five Flights", "=ds=#s14#" };
+		{ 9, 40432, "", "=q4=Illustration of the Dragon Soul", "=ds=#s14#" };
+		{ 10, 40455, "", "=q4=Staff of Restraint", "=ds=#w9#" };
+		{ 11, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
+		{ 12, 43346, "", "=q4=Large Satchel of Spoils", "" };
+		{ 13, 40628, "", "=q4=Gauntlets of the Lost Conqueror", "=ds=#e15#" };
+		{ 14, 40629, "", "=q4=Gauntlets of the Lost Protector", "=ds=#e15#" };
+		{ 15, 40630, "", "=q4=Gauntlets of the Lost Vanquisher", "=ds=#e15#" };
+        { 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["One Drake Left"] };
+        { 17, 44002, "", "=q4=The Sanctum's Flowing Vestments", "=ds=#s5#, #a1#" };
+        { 18, 44003, "", "=q4=Upstanding Spaulders", "=ds=#s3#, #a3#"};
+        { 19, 43998, "", "=q4=Chestguard of Flagrant Prowess", "=ds=#s5#, #a3#" };
+        { 20, 44004, "", "=q4=Bountiful Gauntlets", "=ds=#s9#, #a3#"};
+        { 21, 44000, "", "=q4=Dragonstorm Breastplate", "=ds=#s5#, #a4#"};
+        { 22, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Two Drakes Left"] };
+        { 23, 44005, "", "=q4=Pennant Cloak", "=ds=#s4#" };
+        { 24, 44008, "", "=q4=Unsullied Cuffs", "=ds=#s8#, #a1#" };
+        { 25, 44007, "", "=q4=Headpiece of Reconciliation", "=ds=#s1#, #a2#" };
+        { 26, 44011, "", "=q4=Leggings of the Honored", "=ds=#s11#, #a2#" };
+        { 27, 44006, "", "=q4=Obsidian Greathelm", "=ds=#s1#, #a4#" };
+        { 28, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"] };
+        { 29, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e12#" };
 	};
 
 		---------------------------
@@ -1534,7 +1551,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 9, 40497, "", "=q4=Black Ice", "=ds=#w7#"};
 		{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#"};
         { 11, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e12#" };
-        { 13, 44650, "", "=q1=Heart of Magic", "=ds=#m3#" };
+        { 13, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m3#" };
+        { 14, 44650, "", "=q1=Heart of Magic", "=ds=#m3#" };
 	};
 
 	AtlasLoot_Data["Malygos25Man"] = {
@@ -1559,7 +1577,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
         { 19, 40532, "", "=q4=Living Ice Crystals", "=ds=#s14#" };
         { 20, 40531, "", "=q4=Mark of Norgannon", "=ds=#s14#" };
         { 21, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#" };
-        { 23, 44650, "", "=q1=Heart of Magic", "=ds=#m3#" };
+        { 23, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m3#" };
+        { 24, 44650, "", "=q1=Heart of Magic", "=ds=#m3#" };
 	};
 
 	----------------

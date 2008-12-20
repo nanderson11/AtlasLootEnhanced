@@ -87,6 +87,10 @@ if AL then
     AL["Hide Text"] = true;
     AL["Hide Icon"] = true;
     AL["Minimap Button Options"] = true;
+    AL["Bonus Loot"] = true;
+    AL["Three Drakes Left"] = true;
+    AL["Two Drakes Left"] = true;
+    AL["One Drake Left"] = true;
 
     --Text for Options Panel
     AL["Atlasloot Options"] = true;
