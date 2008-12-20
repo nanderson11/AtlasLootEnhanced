@@ -87,6 +87,10 @@ if AL then
 	AL["Hide Text"] = "Cacher le texte";
 	AL["Hide Icon"] = "Cacher l'icône";
 	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
+	AL["Bonus Loot"] = "Bonus de loot";
+	--AL["Three Drakes Left"] = true; -- à traduire
+	--AL["Two Drakes Left"] = true; -- à traduire
+	--AL["One Drake Left"] = true; -- à traduire
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'Atlasloot";
