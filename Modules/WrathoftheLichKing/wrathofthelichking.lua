@@ -2431,7 +2431,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 42322, "", "=q4=Deadly Gladiator's Bonegrinder", "=ds=", "4500 #arena# #reqrating# 2030"};
 		{ 3, 42332, "", "=q4=Deadly Gladiator's Greatsword", "=ds=", "4500 #arena# #reqrating# 2030"};
 		{ 4, 42346, "", "=q4=Deadly Gladiator's Spellblade", "=ds=", "3150 #arena# #reqrating# 2030"};
-		{ 5, 42454, "", "=q4=Deadly Gladiator's Mutilator", "=ds=", "1350 #arena# #reqrating# 2030"};
+		{ 5, 42255, "", "=q4=Deadly Gladiator's Mutilator", "=ds=", "1350 #arena# #reqrating# 2030"};
 		{ 6, 42227, "", "=q4=Deadly Gladiator's Hacker", "=ds=", "1350 #arena# #reqrating# 2030"};
 		{ 7, 42248, "", "=q4=Deadly Gladiator's Shiv", "=ds=", "1350 #arena# #reqrating# 2030"};
 		{ 8, 42270, "", "=q4=Deadly Gladiator's Left Ripper", "=ds=", "1350 #arena# #reqrating# 2030"};
