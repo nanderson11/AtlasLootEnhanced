@@ -3204,7 +3204,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 44224, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m6#"};
 		{ 26, "s59976", "Ability_Mount_Drake_Proto", "=q4=Reins of the Black Proto-Drake", "=ds=#e12#"};
 		{ 27, "s60021", "Ability_Mount_Drake_Proto", "=q4=Reins of the Plagued Proto-Drake", "=ds=#e12#"};
-		{ 28, "s59961", "Ability_Mount_Drake_Proto", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
+		{ 28, "44160", "", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
 		{ 29, "s60024", "Ability_Mount_Drake_Proto", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
 		{ 30, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
 		Prev = "Mounts31";
