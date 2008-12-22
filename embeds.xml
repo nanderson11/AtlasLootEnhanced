@@ -10,6 +10,8 @@
 <Include file="Libs\LibBabble-Inventory-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Zone-3.0\lib.xml"/>
 
+<Include file="Libs\LibAboutPanel\lib.xml"/>
+
 <Include file="Libs\AceAddon-3.0\AceAddon-3.0.xml"/>
 <Include file="Libs\AceDB-3.0\AceDB-3.0.xml"/>
 <Include file="Libs\AceLocale-3.0\AceLocale-3.0.xml"/>
