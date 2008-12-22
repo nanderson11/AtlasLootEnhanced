@@ -87,6 +87,10 @@ if AL then
     AL["Hide Text"] = "Скрыть текст";
     AL["Hide Icon"] = "Скрыть иконку";
     AL["Minimap Button Options"] = "Опции кнопки у мини-карты";
+    AL["Bonus Loot"] = "Дополнительная добыча";
+    AL["Three Drakes Left"] = "Третий дракон";
+    AL["Two Drakes Left"] = "Второй дракон";
+    AL["One Drake Left"] = "Превый дракон";
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Опции Atlasloot";
