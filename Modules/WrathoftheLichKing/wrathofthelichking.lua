@@ -1834,7 +1834,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 44136, "", "=q4=Greater Inscription of the Pinnacle", "=ds=#s3# #e17#"};
 		{ 7, 44135, "", "=q4=Greater Inscription of the Storm ", "=ds=#s3# #e17#"};
 		{ 8, 41720, "", "=q3=Design: Smooth Autumn's Glow", "=ds=#p12# (390)"};
-		{ 9, 42184, "", "=q1=Pattern: Glacial Bag", "=ds=#p7# (445)"};
+		{ 9, 42184, "", "=q1=Pattern: Glacial Bag", "=ds=#p8# (445)"};
 		Prev = "TheSonsofHodir1";
 		Back = "REPMENU_WOTLK";
 	};
