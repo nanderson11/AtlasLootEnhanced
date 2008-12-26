@@ -1000,7 +1000,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "TheOracles" },
 		{ "", "TheSonsofHodir1" },
 		{ "", "TheWyrmrestAccord" },
-        { "", "WinterfinRetreat" },
+		{ "", "WinterfinRetreat" },
 	},
 	["BoEWorldEpics"] = {
 		{ AtlasLoot_TableNames["WorldEpics4"][1], "WorldEpics4" },
@@ -1259,6 +1259,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["PvP80NonSet1"][1], "PvP80NonSet1" },
 		--{ "", "PvP80Weapons1" },
 		{ "", "DeadlyGladiatorWeapons1" },
+		{ "", "PvP80Jewelcrafting" },
 	},
 	["Pets"] = {
 		{ AtlasLoot_TableNames["Pets1"][1], "Pets1" },

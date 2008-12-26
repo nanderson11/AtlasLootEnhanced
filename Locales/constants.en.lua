@@ -862,6 +862,7 @@ if AL then
     AL["PvP Accessories - Alliance (Level 60)"] = true;
     AL["PvP Accessories - Horde (Level 60)"] = true;
     AL["PvP Accessories (Level 70)"] = true;
+    AL["PvP Jewelcrafting Designs"] = true;
     AL["PvP Rewards"] = true;
     AL["PvP Armor Sets"] = true;
     AL["PvP Weapons"] = true;

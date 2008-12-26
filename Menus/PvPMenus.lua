@@ -68,10 +68,20 @@ AtlasLoot_Data["PVP70NONSETEPICS"] = {
 
 AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
         { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Level 80 PvP Sets"], "" };
+        { 3, "DeadlyGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Deadly Gladiator\'s Weapons"], "" };
         --{ 4, "PvP80Weapons1", "INV_Sword_86", "=ds="..AL["Savage Gladiator\'s Weapons"], "" };
-        { 17, "PvP80NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
-        { 19, "DeadlyGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Deadly Gladiator\'s Weapons"], "" };
+        { 17, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
+        { 18, "PvP80Jewelcrafting", "INV_Scroll_06", "=ds="..AL["PvP Jewelcrafting Designs"], ""};
         Back = "PVPMENU";
+    };
+
+AtlasLoot_Data["PVP80NONSETEPICS"] = {
+        { 2, "PvP80NonSet3", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
+        { 3, "PvP80NonSet5", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
+        { 4, "PvP80NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], ""};
+        { 17, "PvP80NonSet4", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
+        { 18, "PvP80NonSet6", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
+        Back = "LEVEL80PVPREWARDS";
     };
 
 AtlasLoot_Data["LEVEL80PVPSETS"] = {
