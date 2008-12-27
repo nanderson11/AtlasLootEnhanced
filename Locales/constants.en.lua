@@ -1168,6 +1168,8 @@ if AL then
     AL["Overcharged Manacell"] = true;
     AL["Mysterious Egg"] = true;
     AL["Hyldnir Spoils"] = true;
+    AL["Ripe Disgusting Jar"] = true;
+    AL["Cracked Egg"] = true;
 
     --World Events
     AL["Abyssal Council"] = true;

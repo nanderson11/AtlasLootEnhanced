@@ -9,7 +9,9 @@ v5.x
 Added Deadly Gladiator's Necklaces, Cloaks, and Rings
 Added Battlemaster Trinkets (Level 80)
 Added PvP Jewelcrafting Designs
+Added Frenzyheart Tribe and The Oracles Disgusting Jar and Mysterious Egg rewards
 Corrected Honor/Ratings for PvP items
+Minor updates/fixes/translations
 
 v5.02.06
 Fixed a bug in LibAboutPanel implementation
