@@ -1168,6 +1168,8 @@ if AL then
 	AL["Overcharged Manacell"] = "Cellule de mana surchargée";
 	AL["Mysterious Egg"] = "Oeuf mystérieux";
 	AL["Hyldnir Spoils"] = "Butin hyldnir";
+	AL["Ripe Disgusting Jar"] = "Jarre dégoûtante mûre";
+	AL["Cracked Egg"] = "Oeuf brisé";
 
 	--World Events
 	AL["Abyssal Council"] = "Conseil abyssal";
