@@ -394,6 +394,7 @@ if AL then
 	AL["Twin Spire Ruins"] = "Ruines des flèches jumelles";
 	AL["Spirit Towers"] = "Tour des esprits";
 	--AL["Halaa"] = true,
+	AL["Venture Bay"] = "Baie de la KapitalRisk";
 
 	--Karazhan Opera Event Headings
 	AL["Shared Drops"] = "Objets en commun";
