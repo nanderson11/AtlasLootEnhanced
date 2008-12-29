@@ -1095,7 +1095,6 @@ if AL then
     --Zones
     AL["World Drop"] = "Мировой выпад";
     AL["Sunwell Isle"] = "Остров Солнечного Колодца";
-    AL["Lake Wintergrasp"] = "Озеро Ледяных Оков";
 
     --Shortcuts for Bossname files
     AL["LBRS"] = "ВЧЧГ";

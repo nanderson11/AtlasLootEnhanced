@@ -1100,7 +1100,6 @@ if AL then
     --Zones
     AL["World Drop"] = "世界掉落";
     AL["Sunwell Isle"] = "太陽之井 - 奎爾達納斯之島";
-    AL["Lake Wintergrasp"] = "冬握湖";
 
 	--Shortcuts for Bossname files
     AL["LBRS"] = "黑下";

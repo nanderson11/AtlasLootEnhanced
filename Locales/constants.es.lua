@@ -1099,7 +1099,6 @@ if AL then
     --Zones
     AL["World Drop"] = "Hallazgos del Mundo";
     AL["Sunwell Isle"] = "Isla de Kel'Danas";
-    AL["Lake Wintergrasp"] = "Lago Conquista del Invierno";
 	
 	--Shortcuts for Bossname files
     AL["LBRS"] = "CRNI";

@@ -37,7 +37,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Savage Gladiator Weapons
 ---- Deadly Gladiator Weapons
 ---- PvP Jewelcrafting Designs
----- Lake Wintergrasp
+---- World PvP - Wintergrasp
+---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
 ---- Naxxramas 10/25 Man Sets (T7)
 ---- Wrath Of The Lich King Sets
@@ -2540,9 +2541,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "LEVEL80PVPREWARDS";
 	};
 
-		-------------------------
-		--- Lake Wintergrasp  ---
-		-------------------------
+		--------------------------------
+		--- World PvP - Wintergrasp  ---
+		--------------------------------
 
 	AtlasLoot_Data["LakeWintergrasp1"] = {
 		{ 1, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12#", "300 #wintergrasp#"};
@@ -2596,6 +2597,31 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 15, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "325 #wintergrasp#"};
 		{ 16, 44115, "", "=q7=Wintergrasp Commendation", "=ds=", "30 #wintergrasp#"};
 		Prev = "LakeWintergrasp1";
+		Back = "PVPMENU";
+	};
+
+		-----------------------------------------------
+		--- World PvP - Grizzly Hills: Venture Bay  ---
+		-----------------------------------------------
+
+	AtlasLoot_Data["VentureBay1"] = {
+		{ 1, 38354, "", "=q3=Oil-Stained Tarp", "=ds=#s4#", "50 #venturecoin#"};
+		{ 2, 38355, "", "=q3=Thick Goblin Back Protector ", "=ds=#s4#", "50 #venturecoin#"};
+		{ 3, 38353, "", "=q3=Venture Bay Buccaneer's Cape", "=ds=#s4#", "50 #venturecoin#"};
+		{ 4, 38358, "", "=q3=Arcane Revitalizer", "=ds=#s14#", "70 #venturecoin#"};
+		{ 5, 38359, "", "=q3=Goblin Repetition Reducer", "=ds=#s14#", "70 #venturecoin#"};
+		{ 6, 38357, "", "=q3=Sharpened Throwing Gizmo", "=ds=#w11#", "30 #venturecoin#"};
+		{ 7, 38356, "", "=q3=Venture Battle Wand", "=ds=#w12#", "30 #venturecoin#"};
+		{ 8, 38360, "", "=q3=Idol of Arcane Terror", "=ds=#w14#", "30 #venturecoin#"};
+		{ 9, 38365, "", "=q3=Idol of Perspicacious Attacks", "=ds=#w14#", "30 #venturecoin#"};
+		{ 10, 38366, "", "=q3=Idol of Pure Thoughts", "=ds=#w14#", "30 #venturecoin#"};
+		{ 11, 38364, "", "=q3=Venture Co. Libram of Mostly Holy Deeds", "=ds=#w16#", "30 #venturecoin#"};
+		{ 12, 38363, "", "=q3=Venture Co. Libram of Protection", "=ds=#w16#", "30 #venturecoin#"};
+		{ 13, 38362, "", "=q3=Venture Co. Libram of Retribution", "=ds=#w16#", "30 #venturecoin#"};
+		{ 15, 37836, "", "=q1=Venture Coin", "=ds=#m17#"};
+		{ 16, 38368, "", "=q3=Totem of the Bay", "=ds=#w15#", "30 #venturecoin#"};
+		{ 17, 38367, "", "=q3=Venture Co. Flame Slicer", "=ds=#w15#", "30 #venturecoin#"};
+		{ 18, 38361, "", "=q3=Venture Co. Lightning Rod", "=ds=#w15#", "30 #venturecoin#"};
 		Back = "PVPMENU";
 	};
 

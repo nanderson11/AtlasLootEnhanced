@@ -394,6 +394,7 @@ if AL then
     AL["Twin Spire Ruins"] = true;
     AL["Spirit Towers"] = true;
     AL["Halaa"] = true;
+    AL["Venture Bay"] = true;
 
     --Karazhan Opera Event Headings
     AL["Shared Drops"] = true;
@@ -1105,7 +1106,6 @@ if AL then
     --Zones
     AL["World Drop"] = true;
     AL["Sunwell Isle"] = true;
-    AL["Lake Wintergrasp"] = true;
 
     --Shortcuts for Bossname files
     AL["LBRS"] = true;

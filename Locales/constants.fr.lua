@@ -1105,7 +1105,6 @@ if AL then
 	--Zones
 	--AL["World Drop"] = true,
 	AL["Sunwell Isle"] = "Plateau du Puits de soleil";
-	AL["Lake Wintergrasp"] = "Lac Joug-d'hiver";
 
 	--Shortcuts for Bossname files
 	--AL["LBRS"] = true,

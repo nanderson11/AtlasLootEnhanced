@@ -333,16 +333,19 @@ AtlasLoot_DewDropDown = {
 				{ AtlasLoot_TableNames["Hellfire"][1], "Hellfire", "Table" },
 			},
 			[10] = {
-				{ AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" },
-			},
-			[11] = {
 				{ AtlasLoot_TableNames["Nagrand1"][1], "Nagrand1", "Table" },
 			},
-			[12] = {
+			[11] = {
 				{ AtlasLoot_TableNames["Terokkar"][1], "Terokkar", "Table" },
 			},
-			[13] = {
+			[12] = {
 				{ AtlasLoot_TableNames["Zangarmarsh"][1], "Zangarmarsh", "Table" },
+			},
+			[13] = {
+				{ AtlasLoot_TableNames["VentureBay1"][1], "VentureBay1", "Table" },
+			},
+			[14] = {
+				{ AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" },
 			},
 		},
 	},
