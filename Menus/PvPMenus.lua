@@ -1,3 +1,4 @@
+local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
 local BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
@@ -9,14 +10,15 @@ AtlasLoot_Data["PVPMENU"] = {
         { 4, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
         { 5, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
         { 7, "LakeWintergrasp1", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
-        { 9, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
-        { 10, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
+        { 8, "Archavon", "INV_Chest_Chain_15", "=ds="..BabbleBoss["Archavon the Stone Watcher"], ""};
+        { 10, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
+        { 11, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
         { 16, "WSGMENU", "INV_Misc_Rune_07", "=ds="..BabbleZone["Warsong Gulch"], ""};
         { 17, "ABSets1", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
         { 19, "Terokkar", "INV_Jewelry_FrostwolfTrinket_04", "=ds="..BabbleZone["Terokkar Forest"], "=q5="..AL["Spirit Towers"]};
         { 20, "Nagrand1", "INV_Misc_Rune_09", "=ds="..BabbleZone["Nagrand"], "=q5="..AL["Halaa"]};
         { 22, "VentureBay1", "INV_Misc_Coin_16", "=ds="..BabbleZone["Grizzly Hills"], "=q5="..AL["Venture Bay"]};
-        { 24, "LEVEL70PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 70)"], ""};
+        { 25, "LEVEL70PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 70)"], ""};
     };
 
 AtlasLoot_Data["ABMENU"] = {
@@ -103,6 +105,16 @@ AtlasLoot_Data["LEVEL80PVPSETS"] = {
         { 26, "PvP80Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
         { 28, "PvP80Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
         Back = "LEVEL80PVPREWARDS";
+    };
+    
+AtlasLoot_Data["Archavon"] = {
+        { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Hateful Gladiator Sets"], "" };
+        { 17, "T7SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7 Sets"], "=q5="..AL["10 Man"]};
+    };
+    
+AtlasLoot_Data["Archavon25Man"] = {
+        { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Deadly Gladiator Sets"], "" };
+        { 17, "T7SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7 Sets"], "=q5="..AL["25 Man"]};
     };
    
     

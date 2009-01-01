@@ -5,7 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v5.x
+v5.02.07
+Added Vault of Archavon (Under WotLK instances in loot browser, PvP Rewards in Atlas)
+Updated Gluth loot tables
 Added Deadly Gladiator's Necklaces, Cloaks, and Rings
 Added Battlemaster Trinkets (Level 80)
 Added PvP Jewelcrafting Designs

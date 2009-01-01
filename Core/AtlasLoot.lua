@@ -819,6 +819,7 @@ normal loot tables
 function AtlasLoot_GenerateAtlasMenu(dataID, pFrame)
     local extra;
     local text;
+    local dataSource = AtlasLoot_Data;
     --Hide UI objects so that only needed ones are shown
 	for i = 1, 30, 1 do
         getglobal("AtlasLootItem_"..i.."_Unsafe"):Hide();
@@ -885,6 +886,20 @@ function AtlasLoot_GenerateAtlasMenu(dataID, pFrame)
     
     AtlasLootItemsFrame_Heroic:Hide();
     AtlasLoot10Man25ManSwitch:Hide();
+    
+    BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));
+    BigraiddataID=dataID.."25Man";
+    if BigraidCheck=="25Man" then
+        AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"]);
+        AtlasLoot10Man25ManSwitch.lootpage = string.sub(dataID, 1, string.len(dataID)-5);
+        AtlasLoot10Man25ManSwitch:Show();
+    else
+        if dataSource[BigraiddataID] then
+            AtlasLoot10Man25ManSwitch:SetText(AL["Show 25 Man Loot"]);
+            AtlasLoot10Man25ManSwitch.lootpage = BigraiddataID;
+            AtlasLoot10Man25ManSwitch:Show();
+        end
+    end
     
     --Hide navigation buttons by default, only show what we need
     getglobal("AtlasLootItemsFrame_BACK"):Hide();

@@ -106,8 +106,10 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Grobbulus"] = { BabbleBoss["Grobbulus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Grobbulus25Man"] = { BabbleBoss["Grobbulus"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Gluth"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Naxx80Gluth25Man"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Naxx80Gluth1"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["Naxx80Gluth2"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Naxx80Gluth125Man"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["Naxx80Gluth225Man"] = { BabbleBoss["Gluth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Thaddius"] = { BabbleBoss["Thaddius"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Thaddius25Man"] = { BabbleBoss["Thaddius"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80AnubRekhan"] = { BabbleBoss["Anub'Rekhan"], "AtlasLootWotLK" };
@@ -143,6 +145,9 @@ AtlasLoot_TableNames = {};
   -- The Eye of Eternity
 	AtlasLoot_TableNames["Malygos"] = { BabbleBoss["Malygos"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Malygos25Man"] = { BabbleBoss["Malygos"], "AtlasLootWotLK" };
+    --Vault of Archavon
+    AtlasLoot_TableNames["Archavon"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
+    AtlasLoot_TableNames["Archavon25Man"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
 
 --------------------
 --- BC Instances ---

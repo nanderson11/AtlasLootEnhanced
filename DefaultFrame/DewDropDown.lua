@@ -205,7 +205,10 @@ AtlasLoot_DewDropDown = {
 			[14] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[15] = {
+            [15] = {
+				{ BabbleZone["Vault of Archavon"], "Archavon", "Table" },
+			},
+			[16] = {
 				{ BabbleZone["The Violet Hold"], "VioletHold1", "Table" },
 			},
 		},
@@ -909,7 +912,7 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Naxxramas80"] = {
 		{ "", "Naxx80Patchwerk" },
 		{ "", "Naxx80Grobbulus" },
-		{ "", "Naxx80Gluth" },
+		{ "", "Naxx80Gluth1" },
 		{ "", "Naxx80Thaddius" },
 		{ "", "Naxx80AnubRekhan" },
 		{ "", "Naxx80Faerlina" },

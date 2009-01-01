@@ -60,7 +60,7 @@ AtlasLootBossButtons = {
         "";
         "Naxx80Patchwerk";
         "Naxx80Grobbulus";
-        "Naxx80Gluth";
+        "Naxx80Gluth1";
         "Naxx80Thaddius";
         "";
         "Naxx80AnubRekhan";

@@ -294,6 +294,8 @@ if AL then
     AL["10/25 Man"] = true;
     AL["Tier 7 Sets 10/25 Man"] = true;
     AL["Level 80 PvP Sets"] = true;
+    AL["Hateful Gladiator Sets"] = true;
+    AL["Deadly Gladiator Sets"] = true;
     AL["Arena Reward"] = true;
     AL["Conjured Item"] = true;
     AL["Used to summon boss"] = true;
