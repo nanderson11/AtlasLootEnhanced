@@ -705,7 +705,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 		-----------------------
-		--- Utgard Pinnacle ---
+		--- Utgarde Pinnacle ---
 		-----------------------
 
 	AtlasLoot_Data["UPSkadi"] = {
@@ -718,7 +718,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37389, "", "=q3=Crenelation Leggings", "=ds=#s11#, #a2#"};
 		{ 18, 37379, "", "=q3=Skadi's Iron Belt", "=ds=#s10#, #a4#"};
 		{ 19, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
-		{ 20, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w8#"};
+		{ 20, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w9#"};
         { 22, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=ds=#e12#", ""};
 		Next = "UPYmiron";
 	};
@@ -772,7 +772,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37374, "", "=q3=Ravenous Leggings of the Furbolg", "=ds=#s11#, #a2#"};
 		{ 18, 37373, "", "=q3=Massive Spaulders of the Jormungar", "=ds=#s3#, #a3#"};
 		{ 19, 37376, "", "=q3=Ferocious Pauldrons of the Rhino", "=ds=#s3#, #a4#"};
-		{ 20, 37371, "", "=q3=Ring of the Frenzied Wolvar", "=ds=#s14#"};
+		{ 20, 37371, "", "=q3=Ring of the Frenzied Wolvar", "=ds=#s13#"};
 		Prev = "UPSorrowgrave";
 	};
 
@@ -782,7 +782,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 37069, "", "=q3=Dragonflayer Seer's Bindings", "=ds=#s8#, #a3#"};
 		{ 3, 37068, "", "=q3=Berserker's Sabatons", "=ds=#s12#, #a4#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37587, "", "=q3=Ymirjar Physician's Robe", "=ds=#s5#, #a3#"};
+		{ 17, 37587, "", "=q3=Ymirjar Physician's Robe", "=ds=#s5#, #a2#"};
 		{ 18, 37590, "", "=q3=Bands of Fading Light", "=ds=#s8#, #a4#"};
 		{ 19, 37410, "", "=q3=Tracker's Balanced Knives", "=ds=#w11#"};
 	};
