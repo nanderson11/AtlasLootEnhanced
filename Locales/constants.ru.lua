@@ -291,6 +291,8 @@ if AL then
     AL["10/25 Man"] = "10/25 Чел";
     AL["Tier 7 Sets 10/25 Man"] = "Тир 7 10/25 Чел";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
+    AL["Hateful Gladiator Sets"] = "Комплекты злобного гладиатора";
+    AL["Deadly Gladiator Sets"] = "Комплекты смертоносного гладиатора";
     AL["Arena Reward"] = "Награды с Арены";
     AL["Conjured Item"] = " Сотворенный предмет";
     AL["Used to summon boss"] = "Испол-ся для призыва босса";
