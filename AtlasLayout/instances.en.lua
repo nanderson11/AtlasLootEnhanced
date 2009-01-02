@@ -32,6 +32,8 @@ AtlasLootBossButtons = {
         "CoTStratholmeSalramm";
         "CoTStratholmeEpoch";
         "CoTStratholmeMalGanis";
+        "";
+        "CoTStratholmeTrash";
         };
 
     DrakTharonKeep = {
@@ -48,8 +50,8 @@ AtlasLootBossButtons = {
         "Gundrak1";
         "Gundrak1";
         "Gundrak2";
+        "GundrakGaldarah";
         "Gundrak2";
-        "GundrakEck";
         };
 
     Naxxramas = {
@@ -87,7 +89,7 @@ AtlasLootBossButtons = {
         "T7SET";
         };
 
-   	TheNexus = {
+    TheNexus = {
         "";
         "TheNexus";
         "TheNexus";
@@ -101,6 +103,8 @@ AtlasLootBossButtons = {
         "OcuUrom";
         "OcuEregos";
         "OcuCloudstrider";
+    	"";
+    	"OcuTrash";
         };
 
     ObsidianSanctum = {
@@ -125,7 +129,7 @@ AtlasLootBossButtons = {
         "HallsofStone";
         };
 
-	UtgardeKeep = {
+    UtgardeKeep = {
     	"";
     	"";
         "UtgardeKeep";
@@ -140,6 +144,8 @@ AtlasLootBossButtons = {
         "UPPalehoof";
         "UPSkadi";
     	"UPYmiron";
+        "";
+        "UPTrash";
         };
 
     VioletHold = {

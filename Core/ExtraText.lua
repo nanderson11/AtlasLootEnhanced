@@ -100,6 +100,10 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
+    CoTOldStratholme = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     TheDeadmines = {
         "";
         GREY..INDENT..AL["Set: Defias Leather"];
@@ -179,6 +183,10 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["Legendary Items for Kael'thas Fight"];
         GREY..INDENT..AL["Trash Mobs"];
     };
+    TheOculus = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     TheRuinsofAhnQiraj = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
@@ -243,6 +251,10 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["AQ Opening Quest Chain"];
     };
     Uldaman = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    UtgardePinnacle = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };

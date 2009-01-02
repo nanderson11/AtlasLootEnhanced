@@ -74,7 +74,7 @@ AtlasLoot_TableNames = {};
   -- Gundrak
 	AtlasLoot_TableNames["Gundrak1"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Gundrak2"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["GundrakEck"] = { BabbleBoss["Eck the Ferocious"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakGaldarah"] = { BabbleBoss["Gal'darah"], "AtlasLootWotLK" };
   -- Halls of Stone
 	AtlasLoot_TableNames["HallsofStone"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HallsofStoneHEROIC"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
@@ -88,19 +88,19 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["CoTStratholmeEpoch"] = { BabbleBoss["Chrono-Lord Epoch"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeMalGanis"] = { BabbleBoss["Mal'Ganis"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeSalramm"] = { BabbleBoss["Salramm the Fleshcrafter"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["CoTStratholmeUnknown"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CoTStratholmeTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Utgarde Pinnacle
 	AtlasLoot_TableNames["UPSkadi"] = { BabbleBoss["Skadi the Ruthless"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPYmiron"] = { BabbleBoss["King Ymiron"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPSorrowgrave"] = { BabbleBoss["Svala Sorrowgrave"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UPPalehoof"] = { BabbleBoss["Gortok Palehoof"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["UPUnknown"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UPTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- The Oculus
 	AtlasLoot_TableNames["OcuDrakos"] = { BabbleBoss["Drakos the Interrogator"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuUrom"] = { BabbleBoss["Mage-Lord Urom"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuCloudstrider"] = { BabbleBoss["Varos Cloudstrider"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuEregos"] = { BabbleBoss["Ley-Guardian Eregos"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["OcuUnknown"] = { AL["Unknown"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["OcuTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Naxxramas Level 80
 	AtlasLoot_TableNames["Naxx80Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
