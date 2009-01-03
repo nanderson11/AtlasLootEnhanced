@@ -88,9 +88,9 @@ if AL then
 	AL["Hide Icon"] = "Cacher l'icône";
 	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
 	AL["Bonus Loot"] = "Bonus de loot";
-	--AL["Three Drakes Left"] = true; -- à traduire
-	--AL["Two Drakes Left"] = true; -- à traduire
-	--AL["One Drake Left"] = true; -- à traduire
+	AL["Three Drakes Left"] = "Sartharion + 3 Drakes";
+	AL["Two Drakes Left"] = "Sartharion + 2 Drakes";
+	AL["One Drake Left"] = "Sartharion + 1 Drake";
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'Atlasloot";
@@ -313,7 +313,7 @@ if AL then
 	AL["Tradable against sunmote + item above"] = "Echangeable contre une Granule de soleil + l'objet du dessus";
 	AL["Rare"] = "Rare";
 	AL["Heroic"] = "Héroïque";
-	--AL["Hard Mode"] = true; -- à traduire
+	AL["Hard Mode"] = "Mode difficile";
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Weapons"] = "Armes";
