@@ -51,12 +51,16 @@ AtlasLoot_TableNames = {};
 -----------------------
 
   -- Utgarde Keep
-	AtlasLoot_TableNames["UtgardeKeep"] = { BabbleZone["Utgarde Keep"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["UtgardeKeepHEROIC"] = { BabbleZone["Utgarde Keep"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UtgardeKeepKeleseth"] = { BabbleBoss["Prince Keleseth"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UtgardeKeepSkarvald"] = { BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UtgardeKeepIngvar"] = { BabbleBoss["Ingvar the Plunderer"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UtgardeKeepTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- The Nexus
-	AtlasLoot_TableNames["TheNexus"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TheNexusHEROIC"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TheNexusKeristraszaHEROIC"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TheNexusTelestra"] = { BabbleBoss["Grand Magus Telestra"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TheNexusAnomalus"] = { BabbleBoss["Anomalus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TheNexusOrmorok"] = { BabbleBoss["Ormorok the Tree-Shaper"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TheNexusKolurgStoutbeardHEROIC"] = { BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TheNexusKeristrasza"] = { BabbleBoss["Keristrasza"], "AtlasLootWotLK" };
   -- Azjol-Nerub
 	AtlasLoot_TableNames["AzjolNerub"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AzjolNerubHEROIC"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" };

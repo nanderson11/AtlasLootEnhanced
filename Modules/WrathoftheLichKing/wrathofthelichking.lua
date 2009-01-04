@@ -59,117 +59,125 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- Utgarde Keep ---
 		--------------------
 
-	AtlasLoot_Data["UtgardeKeep"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
+	AtlasLoot_Data["UtgardeKeepKeleseth"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35572, "", "=q3=Reinforced Velvet Helm", "=ds=#s1#, #a1#"};
 		{ 3, 35571, "", "=q3=Dragon Stabler's Gauntlets", "=ds=#s9#, #a3#"};
 		{ 4, 35570, "", "=q3=Keleseth's Blade of Evocation", "=ds=#h3#, #w4#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Skarvald the Constructor"], ""};
-		{ 7, 35575, "", "=q3=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#"};
-		{ 8, 35574, "", "=q3=Chestplate of the Northern Lights", "=ds=#s5#, #a4#"};
-		{ 9, 35573, "", "=q3=Arm Blade of Augelmir", "=ds=#h3#, #w13#"};
-		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 12, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#"};
-		{ 13, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Ingvar the Plunderer"], ""};
-		{ 17, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#"};
-		{ 18, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#"};
-		{ 19, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#"};
-		{ 21, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
-		{ 22, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
-		{ 23, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
-		{ 24, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
+		{ 18, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
+		{ 19, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
+		{ 20, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
 	};
 
-	AtlasLoot_Data["UtgardeKeepHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Keleseth"], ""};
-		{ 2, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
-		{ 3, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
-		{ 4, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
-		{ 5, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
-		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Skarvald the Constructor"], ""};
-		{ 8, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
-		{ 9, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
-		{ 10, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
-		{ 11, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
-		{ 13, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 14, 37197, "", "=q3=Tattered Castle Drape", "=ds=#s4#"};
-		{ 15, 37196, "", "=q3=Runecaster's Mantle", "=ds=#s3#, #a1#"};
-		{ 16, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 0, "INV_Box_01", "=q6="..BabbleBoss["Ingvar the Plunderer"], ""};
-		{ 19, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
-		{ 20, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
-		{ 21, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#"};
-		{ 22, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#"};
-		{ 23, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#"};
-		{ 24, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#"};
-		{ 25, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
-		{ 26, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
-		{ 27, 41793, "", "=q3=Design: Fierce Monarch Topaz", "=ds=#p12# (390)"};
-		{ 29, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#"};
+	AtlasLoot_Data["UtgardeKeepSkarvald"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35575, "", "=q3=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#"};
+		{ 3, 35574, "", "=q3=Chestplate of the Northern Lights", "=ds=#s5#, #a4#"};
+		{ 4, 35573, "", "=q3=Arm Blade of Augelmir", "=ds=#h3#, #w13#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
+		{ 18, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
+		{ 19, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
+		{ 20, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
+	};
+
+	AtlasLoot_Data["UtgardeKeepIngvar"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#"};
+		{ 3, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#"};
+		{ 4, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#"};
+		{ 6, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
+		{ 7, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
+		{ 8, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
+		{ 9, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
+		{ 18, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
+		{ 19, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#"};
+		{ 20, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#"};
+		{ 21, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#"};
+		{ 22, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#"};
+		{ 23, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
+		{ 24, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
+		{ 25, 41793, "", "=q3=Design: Fierce Monarch Topaz", "=ds=#p12# (390)"};
+		{ 27, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#"};
+	};
+
+	AtlasLoot_Data["UtgardeKeepTrash"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#"};
+		{ 3, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37197, "", "=q3=Tattered Castle Drape", "=ds=#s4#"};
+		{ 17, 37196, "", "=q3=Runecaster's Mantle", "=ds=#s3#, #a1#"};
+		{ 18, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 	};
 
 		-----------------
 		--- The Nexus ---
 		-----------------
 
-	AtlasLoot_Data["TheNexus"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Grand Magus Telestra"], ""};
+	AtlasLoot_Data["TheNexusTelestra"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#"};
 		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#"};
 		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Ormorok the Tree-Shaper"], ""};
-		{ 7, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
-		{ 8, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
-		{ 9, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anomalus"], ""};
-		{ 17, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#"};
-		{ 18, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#"};
-		{ 19, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#"};
-		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Keristrasza"], ""};
-		{ 22, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#"};
-		{ 23, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s2#"};
-		{ 24, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
+		{ 18, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
+		{ 19, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"};
+		{ 20, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
 	};
 
-	AtlasLoot_Data["TheNexusHEROIC"] = {
-		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Grand Magus Telestra"], ""};
-		{ 4, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
-		{ 5, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
-		{ 6, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"};
-		{ 7, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Ormorok the Tree-Shaper"], ""};
-		{ 10, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
-		{ 11, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
-		{ 12, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
-		{ 13, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anomalus"], ""};
+	AtlasLoot_Data["TheNexusAnomalus"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#"};
+		{ 3, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#"};
+		{ 4, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
 		{ 18, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
 		{ 19, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#"};
 		{ 20, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
-		{ 22, 0, "INV_Box_01", "=q6=Commander Stoutbeard", ""};
-		{ 23, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#"};
-		{ 24, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
-		{ 25, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#"};
-		{ 26, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#"};
-		Next = "TheNexusKeristraszaHEROIC";
 	};
 
-	AtlasLoot_Data["TheNexusKeristraszaHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Keristrasza"], ""};
-		{ 2, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#"};
-		{ 3, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#"};
-		{ 4, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#"};
-		{ 5, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#"};
-		{ 6, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#"};
-		{ 7, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#"};
-		{ 8, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#"};
-		{ 9, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#"};
-		{ 10, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)"};
-		{ 12, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
-		Prev = "TheNexusHEROIC";
+	AtlasLoot_Data["TheNexusOrmorok"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
+		{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
+		{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
+		{ 18, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
+		{ 19, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
+		{ 20, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
+	};
+
+	AtlasLoot_Data["TheNexusKolurgStoutbeardHEROIC"] = {
+		{ 1, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#"};
+		{ 2, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
+		{ 3, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#"};
+		{ 4, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#"};
+	};
+
+	AtlasLoot_Data["TheNexusKeristrasza"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#"};
+		{ 3, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s2#"};
+		{ 4, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#"};
+		{ 18, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#"};
+		{ 19, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#"};
+		{ 20, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#"};
+		{ 21, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#"};
+		{ 22, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#"};
+		{ 23, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#"};
+		{ 24, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#"};
+		{ 25, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)"};
+		{ 27, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
 	};
 
 		-------------------

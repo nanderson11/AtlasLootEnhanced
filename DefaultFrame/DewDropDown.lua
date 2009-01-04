@@ -191,7 +191,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
 			[10] = {
-				{ BabbleZone["The Nexus"], "TheNexus", "Table" },
+				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
 			[11] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
@@ -200,7 +200,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleBoss["Sartharion"], "Sartharion", "Table" },
 			},
 			[13] = {
-				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Table" },
+				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
 			[14] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
@@ -895,6 +895,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "CoTStratholmeMalGanis" },
 		{ "", "CoTStratholmeTrash" },
 	},
+	["UtgardeKeep"] = {
+		{ "", "UtgardeKeepKeleseth" },
+		{ "", "UtgardeKeepSkarvald" },
+		{ "", "UtgardeKeepIngvar" },
+		{ "", "UPPalehoof" },
+		{ "", "UtgardeKeepTrash" },
+	},
 	["UtgardePinnacle"] = {
 		{ "", "UPSkadi" },
 		{ "", "UPYmiron" },
@@ -926,6 +933,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Naxx80Sapphiron" },
 		{ "", "Naxx80KelThuzad" },
 		{ "", "Naxx80Trash" },
+	},
+	["TheNexus"] = {
+		{ "", "TheNexusTelestra" },
+		{ "", "TheNexusAnomalus"},
+		{ "", "TheNexusOrmorok" },
+		{ "", "TheNexusKolurgStoutbeardHEROIC"},
+		{ "", "TheNexusKeristrasza" },
 	},
 	["WorldBosses"] = {
 		{ "", "WorldBossesClassic" },

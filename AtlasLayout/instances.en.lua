@@ -91,11 +91,11 @@ AtlasLootBossButtons = {
 
     TheNexus = {
         "";
-        "TheNexus";
-        "TheNexus";
-        "TheNexus";
-        "TheNexus";
-        "TheNexusHEROIC";
+        "TheNexusAnomalus";
+        "TheNexusOrmorok";
+        "TheNexusTelestra";
+        "TheNexusKeristrasza";
+        "TheNexusKolurgStoutbeardHEROIC";
         };
 
     TheOculus = {
@@ -132,10 +132,12 @@ AtlasLootBossButtons = {
     UtgardeKeep = {
     	"";
     	"";
-        "UtgardeKeep";
-        "UtgardeKeep";
+    	"UtgardeKeepKeleseth";
+        "UtgardeKeepSkarvald";
+        "UtgardeKeepSkarvald";
+        "UtgardeKeepIngvar";
         "";
-        "UtgardeKeep";
+        "UtgardeKeepTrash";
         };
 
     UtgardePinnacle = {

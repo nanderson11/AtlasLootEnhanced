@@ -254,6 +254,10 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
+    UtgardeKeep = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     UtgardePinnacle = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
