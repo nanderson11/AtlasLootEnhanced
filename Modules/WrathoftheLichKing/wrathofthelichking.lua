@@ -1205,7 +1205,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#"};
 		{ 21, 40256, "", "=q4=Grim Toll", "=ds=#s14#"};
 		{ 22, 39766, "", "=q4=Matriarch's Spawn", "=ds=#s15#"};
-		{ 23, 39763, "", "=q4=Wraith Strike", "=ds=#w14#, #h3#"};
+		{ 23, 39763, "", "=q4=Wraith Strike", "=ds=#w13#, #h3#"};
 		{ 24, 39758, "", "=q4=The Jawbone", "=ds=#w6#, #h2#"};
     };
 
