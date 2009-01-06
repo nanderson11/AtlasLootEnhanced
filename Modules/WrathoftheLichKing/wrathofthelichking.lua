@@ -557,7 +557,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 37668, "", "=q4=Bands of the Stoneforge", "=ds=#s8#, #a4#"};
 		{ 4, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#"};
 		{ 5, 37667, "", "=q4=The Fleshshaper", "=ds=#h1#, #w4#"};
-		{ 6, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a3#"};
+		{ 6, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a2#"};
 		{ 7, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#"};
 		{ 8, 37657, "", "=q3=Spark of Life", "=ds=#s14#"};
 		{ 9, 37660, "", "=q3=Forge Ember", "=ds=#s14#"};
