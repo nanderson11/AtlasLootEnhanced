@@ -11,6 +11,14 @@ local ORANGE = "|cffFF8400";
 local INDENT = "   ";
 
 AtlasLoot_ExtraText = {
+    AhnKahet = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    AzjolNerub = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     AuchAuchenaiCrypts = {
         "";
         GREY..INDENT..AL["Trash Mobs"];

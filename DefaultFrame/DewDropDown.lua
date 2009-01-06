@@ -164,10 +164,10 @@ AtlasLoot_DewDropDown = {
 	[3] = {
 		[AL["WotLK Instances"]] = {
 			[1] = {
-				{ BabbleZone["Ahn'kahet: The Old Kingdom"], "Ahnkahet", "Table" },
+				{ BabbleZone["Ahn'kahet: The Old Kingdom"], "Ahnkahet", "Submenu" },
 			},
 			[2] = {
-				{ BabbleZone["Azjol-Nerub"], "AzjolNerub", "Table" },
+				{ BabbleZone["Azjol-Nerub"], "AzjolNerub", "Submenu" },
 			},
 			[3] = {
 				{ BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], "CoTStratholme", "Submenu" },
@@ -887,6 +887,20 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "SPKiljaeden" },
 		{ "", "SPPatterns" },
 		{ AL["Trash Mobs"], "SPTrash" },
+	},
+	["Ahnkahet"] = {
+		{ "", "AhnkahetNadox" },
+		{ "", "AhnkahetTaldaram" },
+		{ "", "AhnkahetAmanitarHEROIC" },
+		{ "", "AhnkahetJedoga" },
+		{ "", "AhnkahetVolazj" },
+		{ "", "AhnkahetTrash" },
+	},
+	["AzjolNerub"] = {
+		{ "", "AzjolNerubKrikthir" },
+		{ "", "AzjolNerubHadronox" },
+		{ "", "AzjolNerubAnubarak" },
+		{ "", "AzjolNerubTrash" },
 	},
 	["CoTStratholme"] = {
 		{ "", "CoTStratholmeMeathook" },

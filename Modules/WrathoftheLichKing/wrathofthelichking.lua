@@ -184,114 +184,123 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- Azjol-Nerub ---
 		-------------------
 
-	AtlasLoot_Data["AzjolNerub"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Krik'thir the Gatewatcher"], ""};
+	AtlasLoot_Data["AzjolNerubKrikthir"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#"};
 		{ 3, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#"};
 		{ 4, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Hadronox"], ""};
-		{ 7, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#"};
-		{ 8, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#"};
-		{ 9, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Anub'arak"], ""};
-		{ 17, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#"};
-		{ 18, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#"};
-		{ 19, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#"};
-		{ 21, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
+		{ 18, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
+		{ 19, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
+		{ 20, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
 	};
 
-	AtlasLoot_Data["AzjolNerubHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Krik'thir the Gatewatcher"], ""};
-		{ 2, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
-		{ 3, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
-		{ 4, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
-		{ 5, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
-		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Hadronox"], ""};
-		{ 8, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
-		{ 9, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
-		{ 10, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#"};
-		{ 11, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
-		{ 13, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 14, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
-		{ 15, 0, "", "=q3=Fungi-Coated Boots", "=ds=#s12#, #a3#"};
-		{ 16, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 0, "INV_Box_01", "=q6="..BabbleBoss["Anub'arak"], ""};
-		{ 19, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
-		{ 20, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
-		{ 21, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#"};
-		{ 22, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#"};
-		{ 23, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#"};
-		{ 24, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#"};
-		{ 25, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#"};
-		{ 26, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
-		{ 27, 41796, "", "=q3=Design: Infused Twilight Opal", "=ds=#p12# (390)"};
-		{ 29, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
+	AtlasLoot_Data["AzjolNerubHadronox"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#"};
+		{ 3, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#"};
+		{ 4, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
+		{ 18, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
+		{ 19, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#"};
+		{ 20, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
+	};
+
+	AtlasLoot_Data["AzjolNerubAnubarak"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#"};
+		{ 3, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#"};
+		{ 4, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#"};
+		{ 5, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
+		{ 18, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
+		{ 19, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#"};
+		{ 20, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#"};
+		{ 21, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#"};
+		{ 22, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#"};
+		{ 23, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#"};
+		{ 24, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
+		{ 25, 41796, "", "=q3=Design: Infused Twilight Opal", "=ds=#p12# (390)"};
+		{ 26, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
+	};
+
+	AtlasLoot_Data["AzjolNerubTrash"] = {
+		{ 1, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
+		{ 2, 0, "", "=q3=Fungi-Coated Boots", "=ds=#s12#, #a3#"};
+		{ 3, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 	};
 
 		----------------------------------
 		--- Ahn'kahet: The Old Kingdom ---
 		----------------------------------
 
-	AtlasLoot_Data["Ahnkahet"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
+	AtlasLoot_Data["AhnkahetNadox"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35607, "", "=q3=Ahn'kahar Handwraps", "=ds=#s9#, #a2#"};
 		{ 3, 35608, "", "=q3=Crawler-Emblem Belt", "=ds=#s10#, #a4#"};
 		{ 4, 35606, "", "=q3=Blade of Nadox", "=ds=#h1#, #w4#"};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
-		{ 7, 35611, "", "=q3=Gloves of the Blood Prince", "=ds=#s9#, #a1#"};
-		{ 8, 35610, "", "=q3=Slasher's Amulet", "=ds=#s2#"};
-		{ 9, 35609, "", "=q3=Talisman of Scourge Command", "=ds=#s15#"};
-		{ 11, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 12, 35616, "", "=q3=Spored Tendrils Spaulders", "=ds=#s3#, #a3#"};
-		{ 13, 35615, "", "=q3=Glowworm Cavern Bindings", "=ds=#s8#, #a3#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jedoga Shadowseeker"], ""};
-		{ 17, 43278, "", "=q3=Cloak of the Darkcaster", "=ds=#s4#"};
-		{ 18, 43279, "", "=q3=Battlechest of the Twilight Cult", "=ds=#s5#, #a4#"};
-		{ 19, 43277, "", "=q3=Jedoga's Greatring", "=ds=#s13#"};
-		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Herald Volazj"], ""};
-		{ 22, 35612, "", "=q3=Mantle of Echoing Bats", "=ds=#s3#, #a1#"};
-		{ 23, 35613, "", "=q3=Pyramid Embossed Belt", "=ds=#s10#, #a2#"};
-		{ 24, 35614, "", "=q3=Volazj's Sabatons", "=ds=#s12#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37594, "", "=q3=Elder Headpiece", "=ds=#s1#, #a1#"};
+		{ 18, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 19, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
+		{ 20, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
 	};
 
-	AtlasLoot_Data["AhnkahetHEROIC"] = {
-		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Elder Nadox"], ""};
-		{ 4, 37594, "", "=q3=Elder Headpiece", "=ds=#s1#, #a1#"};
-		{ 5, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
-		{ 6, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
-		{ 7, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Taldaram"], ""};
-		{ 10, 37613, "", "=q3=Flame Sphere Bindings", "=ds=#s8#, #a1#"};
-		{ 11, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
-		{ 12, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
-		{ 13, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jedoga Shadowseeker"], ""};
+	AtlasLoot_Data["AhnkahetTaldaram"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35611, "", "=q3=Gloves of the Blood Prince", "=ds=#s9#, #a1#"};
+		{ 3, 35610, "", "=q3=Slasher's Amulet", "=ds=#s2#"};
+		{ 4, 35609, "", "=q3=Talisman of Scourge Command", "=ds=#s15#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37613, "", "=q3=Flame Sphere Bindings", "=ds=#s8#, #a1#"};
+		{ 18, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
+		{ 19, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
+		{ 20, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#"};
+	};
+
+	AtlasLoot_Data["AhnkahetAmanitarHEROIC"] = {
+		{ 1, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#"};
+		{ 2, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
+		{ 3, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
+		{ 4, 43284, "", "=q3=Amanitar Skullbow", "=ds=#w3#"};
+	};
+
+	AtlasLoot_Data["AhnkahetJedoga"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 43278, "", "=q3=Cloak of the Darkcaster", "=ds=#s4#"};
+		{ 3, 43279, "", "=q3=Battlechest of the Twilight Cult", "=ds=#s5#, #a4#"};
+		{ 4, 43277, "", "=q3=Jedoga's Greatring", "=ds=#s13#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 43283, "", "=q3=Subterranean Waterfall Shroud", "=ds=#s4#"};
 		{ 18, 43280, "", "=q3=Faceguard of the Hammer Clan", "=ds=#s1#, #a4#"};
 		{ 19, 43282, "", "=q3=Shadowseeker's Pendant", "=ds=#s2#"};
 		{ 20, 43281, "", "=q3=Edge of Oblivion", "=ds=#h2#, #w1#"};
-		{ 22, 0, "INV_Box_01", "=q6=Amanitar", ""};
-		{ 23, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#"};
-		{ 24, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
-		{ 25, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
-		{ 26, 43284, "", "=q3=Amanitar Skullbow", "=ds=#w3#"};
-		Next = "AhnkahetVolazjHEROIC";
-		};
+	};
 
-	AtlasLoot_Data["AhnkahetVolazjHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Herald Volazj"], ""};
-		{ 2, 37622, "", "=q4=Skirt of the Old Kingdom", "=ds=#s11#, #a1#"};
-		{ 3, 37623, "", "=q4=Fiery Obelisk Handguards", "=ds=#s9#, #a3#"};
-		{ 4, 37620, "", "=q4=Bracers of the Herald", "=ds=#s8#, #a4#"};
-		{ 5, 37619, "", "=q4=Wand of Ahnkahet", "=ds=#w12#"};
-		{ 7, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#"};
-		{ 8, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#"};
-		{ 9, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#"};
-		{ 10, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
-		{ 11, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)"};
-		{ 13, 43821, "", "=q1=Faceless One's Withered Brain", "=ds=#m3#"};
-		Prev = "AhnkahetHEROIC";
+	AtlasLoot_Data["AhnkahetVolazj"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35612, "", "=q3=Mantle of Echoing Bats", "=ds=#s3#, #a1#"};
+		{ 3, 35613, "", "=q3=Pyramid Embossed Belt", "=ds=#s10#, #a2#"};
+		{ 4, 35614, "", "=q3=Volazj's Sabatons", "=ds=#s12#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37622, "", "=q4=Skirt of the Old Kingdom", "=ds=#s11#, #a1#"};
+		{ 18, 37623, "", "=q4=Fiery Obelisk Handguards", "=ds=#s9#, #a3#"};
+		{ 19, 37620, "", "=q4=Bracers of the Herald", "=ds=#s8#, #a4#"};
+		{ 20, 37619, "", "=q4=Wand of Ahnkahet", "=ds=#w12#"};
+		{ 21, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#"};
+		{ 22, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#"};
+		{ 23, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#"};
+		{ 24, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
+		{ 25, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)"};
+		{ 26, 43821, "", "=q1=Faceless One's Withered Brain", "=ds=#m3#"};
+	};
+
+	AtlasLoot_Data["AhnkahetTrash"] = {
+		{ 1, 35616, "", "=q3=Spored Tendrils Spaulders", "=ds=#s3#, #a3#"};
+		{ 2, 35615, "", "=q3=Glowworm Cavern Bindings", "=ds=#s8#, #a3#"};
 	};
 
 		------------------------

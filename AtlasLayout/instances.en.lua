@@ -9,20 +9,24 @@ AtlasLootBossButtons = {
 
     AhnKahet = {
     	"";
-        "Ahnkahet";
-        "Ahnkahet";
-        "Ahnkahet";
-        "Ahnkahet";
-        "AhnkahetHEROIC";
+        "AhnkahetNadox";
+        "AhnkahetTaldaram";
+        "AhnkahetJedoga";
+        "AhnkahetVolazj";
+        "AhnkahetAmanitarHEROIC";
+        "";
+        "AhnkahetTrash";
         };
 
     AzjolNerub = {
         "";
         "";
         "";
-        "AzjolNerub";
-        "AzjolNerub";
-        "AzjolNerub";
+        "AzjolNerubKrikthir";
+        "AzjolNerubHadronox";
+        "AzjolNerubAnubarak";
+        "";
+        "AzjolNerubTrash";
         };
 
     CoTOldStratholme = {

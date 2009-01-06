@@ -62,12 +62,17 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["TheNexusKolurgStoutbeardHEROIC"] = { BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TheNexusKeristrasza"] = { BabbleBoss["Keristrasza"], "AtlasLootWotLK" };
   -- Azjol-Nerub
-	AtlasLoot_TableNames["AzjolNerub"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["AzjolNerubHEROIC"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AzjolNerubKrikthir"] = { BabbleBoss["Krik'thir the Gatewatcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AzjolNerubHadronox"] = { BabbleBoss["Hadronox"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AzjolNerubAnubarak"] = { BabbleBoss["Anub'arak"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AzjolNerubTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Ahn'kahet: The Old Kingdom
-	AtlasLoot_TableNames["Ahnkahet"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["AhnkahetHEROIC"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["AhnkahetVolazjHEROIC"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetNadox"] = { BabbleBoss["Elder Nadox"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetTaldaram"] = { BabbleBoss["Prince Taldaram"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetAmanitarHEROIC"] = { BabbleBoss["Amanitar"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetJedoga"] = { BabbleBoss["Jedoga Shadowseeker"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetVolazj"] = { BabbleBoss["Herald Volazj"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AhnkahetTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Drak'Tharon Keep
 	AtlasLoot_TableNames["DrakTharonKeep"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DrakTharonKeepHEROIC"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
