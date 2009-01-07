@@ -24,7 +24,6 @@ if AL then
 	AL["Priority:"] = "优先: ";
 	AL["Click boss name to view loot."] = "点击首领名以浏览掉落";
 	AL["Various Locations"] = "多个位置";
-	AL["This is a loot browser only.  To view maps as well; install either Atlas or Alphamap."] = "该窗口只是一个掉落浏览器。若想同时查看地图，请安装 Atlas 或 Alphamap 插件。";
 	AL["Toggle AL Panel"] = "AtlasLoot 面板";
 	AL[" is safe."] = "的连接是安全的。";
 	AL["Server queried for "] = "已向服务器申请查询";
@@ -238,7 +237,6 @@ if AL then
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
 	AL["Weapons"] = "武器";
-	AL["Sold at"] = "出售于";
 	AL["Reward"] = "奖励";
 	
 	--Card Game Decks and descriptions
@@ -701,7 +699,6 @@ if AL then
 	AL["AQ20 Class Sets"] = "安其拉废墟职业套装";
 	AL["AQ Enchants"] = "安其拉掉落的附魔公式";
 	AL["AQ Opening Quest Chain"] = "安其拉之门任务奖励";
-	AL["Pre 60 Sets"] = "60级之前的套装";
 	AL["Crafted Sets"] = "制造出的套装";
 	AL["Crafted Epic Weapons"] = "制造出的史诗武器";
 	AL["Zul'Gurub Sets"] = "祖尔格拉布职业套装";

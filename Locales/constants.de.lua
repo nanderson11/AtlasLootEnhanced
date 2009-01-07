@@ -74,7 +74,6 @@ if AL then
     --Text for Options Panel
     AL["Atlasloot Options"] = "AtlasLoot Optionen";
     AL["Safe Chat Links |cff1eff00(recommended)|r"] = "Sichere Chatlinks |cff1eff00(empfohlen)|r";
-    AL["Enable all Chat Links |cffff0000(use at own risk)|r"] = "Aktiviere alle Chatlinks |cffff0000(auf eigene Gefahr)|r";
     AL["Default Tooltips"] = "Standard Tooltips";
     AL["Lootlink Tooltips"] = "Lootlink Tooltips";
     AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dLootlink Tooltips|r";
@@ -88,10 +87,6 @@ if AL then
     AL["Hide AtlasLoot Panel"] = "Blende die AtlasLoot-Leiste aus";
     AL["Show Minimap Button"] = "Blende Button an der Minimap ein";
     AL["Set Minimap Button Position"] = "Setze die Position des Buttons an der Minimap";
-    AL["Suppress text spam when querying items"] = "Unterdrücke Meldung bei Itemabfragen";
-    AL["Notify me when a LoD Module is loaded"] = "Benachrichtige mich beim Laden von Modulen";
-    AL["Load all loot modules at startup"] = "Lade alle Module direkt beim Start";
-    AL["AutoQuery items on loot tables |cffff0000(disconnection risk)|r"] = "Automatisches Abfragen von Items |cffff0000(auf eigene Gefahr)|r";
     AL["Done"] = "OK";
     AL["WishList"] = "Wunschzettel";
     AL["Search Result: %s"] = "Suchtext";

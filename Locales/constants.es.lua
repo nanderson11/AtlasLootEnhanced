@@ -524,10 +524,6 @@ if AL then
 	--Scourge Invasion
     AL["Scourge Invasion"] = "Invasión de la Plaga"; --Comprobar
     AL["Scourge Invasion Sets"] = "Conjuntos Invasión de la Plaga";
-    AL["Regalia of Undead Cleansing"] = "Atavío de eliminación de no-muertos";
-    AL["Undead Slayer's Armor"] = "Armadura de mata no-muertos";
-    AL["Garb of the Undead Slayer"] = "Atuendo de mata no-muertos";
-    AL["Battlegear of Undead Slaying"] = "Equipo de batalla de matanza de no-muertos";
     AL["Prince Tenris Mirkblood"] = "Príncipe Tenris Sangre Penumbra";
 	
     --ZG Sets

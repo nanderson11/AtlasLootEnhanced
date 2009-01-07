@@ -355,7 +355,6 @@ if AL then
     AL["Disco Inferno!"] = "Disco Inferno!";
     AL["Ethereal Plunderer"] = "Эфириал-расхититель";
     -- Seventh set
-    AL["Drums of Wars"] = "Барабаны Войны";
     AL["The Red Bearon"] = "The Red Bearon";
     AL["Owned!"] = "Owned!";
     AL["Slashdance"] = "Slashdance";
