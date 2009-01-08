@@ -7,6 +7,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v5.x
 Revamped the following dungeons: Ahn'kahet, Azjol-Nerub, The Nexus, Utgarde Keep
+Re-arranged Tailoring to allow for WotLK recipes to be added
 
 v5.02.07
 Added Vault of Archavon (Under WotLK instances in loot browser, PvP Rewards in Atlas)

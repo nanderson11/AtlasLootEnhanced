@@ -180,6 +180,18 @@ AtlasLoot_Data["LEATHERWORKINGMENU"] = {
         { 25, "Elemental1", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10658), "" };
         Back = "CRAFTINGMENU";
     };
+    
+AtlasLoot_Data["TAILORINGMENU"] = {
+        { 2, "TailoringArmorOld1", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Original WoW"] };
+        { 3, "TailoringArmorBC1", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
+        { 6, "Mooncloth1", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
+        { 7, "Shadoweave1", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
+        { 17, "TailoringBags1", "Trade_Tailoring", "=ds="..AL["Bags"], "" };
+        { 18, "TailoringMisc1", "Trade_Tailoring", "=ds="..AL["Miscellaneous"], "" };
+        { 19, "TailoringShirts1", "Trade_Tailoring", "=ds="..AL["Shirts"], "" };
+        { 21, "Spellfire1", "Trade_Tailoring", "=ds="..GetSpellInfo(26797), "" };
+        Back = "CRAFTINGMENU";
+    };
 
 AtlasLoot_Data["EmptyTable"] = {
     };

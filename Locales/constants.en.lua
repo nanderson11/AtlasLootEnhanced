@@ -262,6 +262,11 @@ if AL then
     AL["Item Enhancements"] = true;
     AL["Quivers and Ammo Pouches"] = true;
     AL["Drums, Bags and Misc."] = true;
+    
+    --Tailoring
+    AL["Cloth Armor"] = true;
+    AL["Shirts"] = true;
+    AL["Bags"] = true;
 
     --Labels for loot descriptions
     AL["Classes:"] = true;

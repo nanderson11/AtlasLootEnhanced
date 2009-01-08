@@ -4,7 +4,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAL 小地圖按鍵
 ## Notes-zhTW: AtlasLoot 小地圖按鍵
 ## Author: Daviesh
-## Version: 1.2
+## Version: @project-version@
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Category: Map
 ## X-License: GPL v2

@@ -7,7 +7,7 @@
 ## Notes-zhCN: AtlasLoot Enhanced 的户外首领掉落信息
 ## Notes-zhTW: AtlasLoot 世界事件物品掉落資料庫
 ## Author: Daviesh
-## Version: 5.02.00
+## Version: @project-version@
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Category: Map
 ## X-License: GPL v2

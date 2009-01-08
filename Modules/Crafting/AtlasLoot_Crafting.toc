@@ -6,7 +6,7 @@
 ## Notes-zhCN: AtlasLoot 交易技能制造出的物品表
 ## Notes-zhTW: AtlasLoot 商業技能物品資料庫
 ## Author: Daviesh
-## Version: 5.02.00
+## Version: @project-version@
 ## X-eMail: oma_daviesh@hotmail.com
 ## X-Category: Map
 ## X-License: GPL v2
