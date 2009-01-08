@@ -263,6 +263,11 @@ if AL then
 	AL["Quivers and Ammo Pouches"] = "Carquois et Gibernes";
 	AL["Drums, Bags and Misc."] = "Tambours, sacs et divers.";
 
+	--Tailoring
+	AL["Cloth Armor"] = "Armure en tissu";
+	AL["Shirts"] = "Chemises";
+	AL["Bags"] = "Sacs";
+
 	--Labels for loot descriptions
 	AL["Classes:"] = "Classes :";
 	AL["This Item Begins a Quest"] = "Cet objet permet de lancer une quête";
