@@ -173,16 +173,16 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], "CoTStratholme", "Submenu" },
 			},
 			[4] = {
-				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Table" },
+				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Submenu" },
 			},
 			[5] = {
-				{ BabbleZone["Gundrak"], "Gundrak1", "Table" },
+				{ BabbleZone["Gundrak"], "Gundrak", "Submenu" },
 			},
 			[6] = {
 				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Table" },
 			},
 			[7] = {
-				{ BabbleZone["Halls of Stone"], "HallsofStone", "Table" },
+				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
 			[8] = {
 				{ BabbleBoss["Malygos"], "Malygos", "Table" },
@@ -908,6 +908,28 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "CoTStratholmeSalramm" },
 		{ "", "CoTStratholmeMalGanis" },
 		{ "", "CoTStratholmeTrash" },
+	},
+	["DrakTharonKeep"] = {
+		{ "", "DrakTharonKeepTrollgore" },
+		{ "", "DrakTharonKeepNovos" },
+		{ "", "DrakTharonKeepKingDred" },
+		{ "", "DrakTharonKeepTharonja" },
+		{ "", "DrakTharonKeepTrash" },
+	},
+	["Gundrak"] = {
+		{ "", "GundrakSladran" },
+		{ "", "GundrakColossus" },
+		{ "", "GundrakMoorabi" },
+		{ "", "GundrakEckHEROIC" },
+		{ "", "GundrakGaldarah" },
+		{ "", "GundrakTrash" },
+	},
+	["HallsofStone"] = {
+		{ "", "HallsofStoneMaiden" },
+		{ "", "HallsofStoneKrystallus" },
+		{ "", "HallsofStoneTribunal" },
+		{ "", "HallsofStoneSjonnir" },
+		{ "", "HallsofStoneTrash" },
 	},
 	["UtgardeKeep"] = {
 		{ "", "UtgardeKeepKeleseth" },

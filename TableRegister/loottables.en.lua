@@ -74,20 +74,28 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["AhnkahetVolazj"] = { BabbleBoss["Herald Volazj"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["AhnkahetTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Drak'Tharon Keep
-	AtlasLoot_TableNames["DrakTharonKeep"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["DrakTharonKeepHEROIC"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["DrakTharonKeepTrollgore"] = { BabbleBoss["Trollgore"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["DrakTharonKeepNovos"] = { BabbleBoss["Novos the Summoner"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["DrakTharonKeepKingDred"] = { BabbleBoss["King Dred"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["DrakTharonKeepTharonja"] = { BabbleBoss["The Prophet Tharon'ja"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["DrakTharonKeepTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- The Violet Hold
 	AtlasLoot_TableNames["VioletHold1"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VioletHold2"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VHCyanigosa"] = { BabbleBoss["Cyanigosa"], "AtlasLootWotLK" };
   -- Gundrak
-	AtlasLoot_TableNames["Gundrak1"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Gundrak2"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakSladran"] = { BabbleBoss["Slad'ran"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakColossus"] = { BabbleBoss["Drakkari Colossus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakMoorabi"] = { BabbleBoss["Moorabi"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakEckHEROIC"] = { BabbleBoss["Eck the Ferocious"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GundrakGaldarah"] = { BabbleBoss["Gal'darah"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["GundrakTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Halls of Stone
-	AtlasLoot_TableNames["HallsofStone"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HallsofStoneHEROIC"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoSSjonnirHEROIC"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofStoneMaiden"] = { BabbleBoss["Maiden of Grief"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofStoneKrystallus"] = { BabbleBoss["Krystallus"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofStoneTribunal"] = { BabbleBoss["The Tribunal of Ages"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofStoneSjonnir"] = { BabbleBoss["Sjonnir The Ironshaper"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofStoneTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Halls of Lightning
 	AtlasLoot_TableNames["HallsofLightning"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HallsofLightningHEROIC"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };

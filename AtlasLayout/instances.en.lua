@@ -43,19 +43,23 @@ AtlasLootBossButtons = {
     DrakTharonKeep = {
         "";
         "";
-        "DrakTharonKeep";
-        "DrakTharonKeep";
-       	"DrakTharonKeep";
-        "DrakTharonKeep";
+        "DrakTharonKeepTrollgore";
+        "DrakTharonKeepNovos";
+       	"DrakTharonKeepKingDred";
+        "DrakTharonKeepTharonja";
+        "";
+        "DrakTharonKeepTrash";
         };
 
     Gundrak = {
         "";
-        "Gundrak1";
-        "Gundrak1";
-        "Gundrak2";
+        "GundrakSladran";
+        "GundrakColossus";
+        "GundrakMoorabi";
         "GundrakGaldarah";
-        "Gundrak2";
+        "GundrakEckHEROIC";
+        "";
+        "GundrakTrash";
         };
 
     Naxxramas = {
@@ -126,11 +130,13 @@ AtlasLootBossButtons = {
 
     UlduarHallsofStone = {
     	"";
-    	"HallsofStone";
-        "HallsofStone";
+    	"HallsofStoneMaiden";
+        "HallsofStoneKrystallus";
         "";
-        "HallsofStone";
-        "HallsofStone";
+        "HallsofStoneTribunal";
+        "HallsofStoneSjonnir";
+    	"";
+    	"HallsofStoneTrash";
         };
 
     UtgardeKeep = {

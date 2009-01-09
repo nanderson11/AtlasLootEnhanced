@@ -131,7 +131,15 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["Trash Mobs"];
         GREY..INDENT..AL["Dire Maul Books"];
     };
+    DrakTharonKeep = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     Gnomeregan = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    Gundrak = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
@@ -259,6 +267,10 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["AQ Opening Quest Chain"];
     };
     Uldaman = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    UlduarHallsofStone = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
