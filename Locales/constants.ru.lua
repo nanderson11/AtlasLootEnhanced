@@ -163,6 +163,9 @@ if AL then
     --LoD Module required has loaded, but loot table is missing
     AL[" could not be accessed, the following module may be out of date: "] = " не может получить доступ, следующий модуль может быть устаревшим: ";
 
+    --LoD module not defined
+    AL["Loot module returned as nil!"] = "Модуль трофеев возвращены к нолевому значеню";
+
     --LoD module loaded successfully
     AL["sucessfully loaded."] = "успешно загружен.";
 
@@ -520,12 +523,14 @@ if AL then
     AL["Trainer"] = "Тренер";
     AL["Discovery"] = "Находка";
     AL["World Drop"] = "Мировой выпад";
+    AL["Drop"] = "Выпадает";
     AL["Vendor"] = "Продавец";
     AL["Quest"] = "Задание";
     AL["Crafted"] = "Создано";
     
 	--Scourge Invasion
     AL["Scourge Invasion"] = "Вторжения Плети";
+    AL["Scourge Invasion Sets"] = "Комплект Вторжения Плети";
     AL["Blessed Regalia of Undead Cleansing"] = "Благословенные регалии искоренения нежити";
     AL["Undead Slayer's Blessed Armor"] = "Благословенная броня истребителя нежити";
     AL["Blessed Garb of the Undead Slayer"] = "Благословенное облачение истребителя нежити";
@@ -859,6 +864,7 @@ if AL then
     AL["PvP Accessories - Alliance (Level 60)"] = "PvP Аксессуары - Альянс (Уровень 60)";
     AL["PvP Accessories - Horde (Level 60)"] = "PvP Аксессуары - Орда (Уровень 60)";
     AL["PvP Accessories (Level 70)"] = "PvP Аксессуары (Уровень 70)";
+    AL["PvP Jewelcrafting Designs"] = "PvP ювелирные эскизы";
     AL["PvP Rewards"] = "Награды за PvP";
     AL["PvP Armor Sets"] = "PvP Комплекты Доспехов";
     AL["PvP Weapons"] = "PvP Оружие";
@@ -910,7 +916,7 @@ if AL then
     AL["Hyjal Summit Designs"] = "Эскизы - Вершина Хиджала";
     AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
-    AL["Sigil"] = true;
+    AL["Sigil"] = "Печать";
 
     --Pets
     AL["Pets"] = "Питомци";
@@ -1091,11 +1097,11 @@ if AL then
     AL["Felsteed"] = "Скакун Скверны";
     AL["Shattered Hand Executioner"] = "Палач из клана Извученной Длани";
     AL["Commander Stoutbeard"] = "Командир Пивобород";
-    AL["Bloodstone Annihilator"] = true;
-    AL["Rescue Mission"] = true;
-    AL["Gjarngrin"] = true;
-    AL["Kronus"] = true;
-    AL["Loken"] = true;
+    AL["Bloodstone Annihilator"] = true; --Who is this npc?
+    AL["Rescue Mission"] = true; --Who is this npc?
+    AL["Gjarngrin"] = true; --Who is this npc?
+    AL["Kronus"] = true; --Who is this npc?
+    AL["Loken"] = "Локен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 
     --Zones
@@ -1163,6 +1169,8 @@ if AL then
     AL["Overcharged Manacell"] = "Избыточно заряженный аккумулятор маны";
     AL["Mysterious Egg"] = "Таинственное яйцо";
     AL["Hyldnir Spoils"] = "Хильдские трофеи";
+    AL["Ripe Disgusting Jar"] = "Совершенно омерзительный кувшин";
+    AL["Cracked Egg"] = "Треснутое яйцо";
 
     --World Events
     AL["Abyssal Council"] = "Совет Бездны";
