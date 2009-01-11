@@ -259,6 +259,11 @@ if AL then
     AL["Item Enhancements"] = "Улучшения";
     AL["Quivers and Ammo Pouches"] = "Колчаны и Подсумки";
     AL["Drums, Bags and Misc."] = "Барабаны, Сумки и Другое";
+
+    --Tailoring
+    AL["Cloth Armor"] = "Тканевая броня";
+    AL["Shirts"] = "Рубашки";
+    AL["Bags"] = "Сумки";
     
     --Labels for loot descriptions
     AL["Classes:"] = "Классы:";
