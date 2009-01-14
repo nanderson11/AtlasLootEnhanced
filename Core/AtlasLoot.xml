@@ -765,6 +765,48 @@
 		</Scripts>
 	</Frame>
     
+    <Frame name="AtlasLootHelpFrame" hidden="true">
+        <Size>
+			<AbsDimension x="700" y="405"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+        <Layers>
+            <Layer level="OVERLAY">
+				<FontString name="$parent_Title" inherits="GameFontHighlightLarge" justifyH="CENTER">
+					<Size>
+						<AbsDimension x="400" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP" relativeTo="$parent" relativePoint="TOP"/>
+					</Anchors>
+				</FontString>
+                <FontString name="$parent_HelpText" inherits="GameFontNormal" justifyH="LEFT">
+					<Size>
+						<AbsDimension x="630" y="350"/>
+					</Size>
+                    <Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
+                            <Offset>
+                                <AbsDimension x="15" y="-40"/>
+                            </Offset>
+                        </Anchor>
+					</Anchors>
+				</FontString>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnLoad>
+				local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+				getglobal("AtlasLootHelpFrame_Title"):SetText(AL["AtlasLoot Help"]);
+			</OnLoad>
+            <OnShow>
+                AtlasLoot_DisplayHelp();
+            </OnShow>
+        </Scripts>
+    </Frame>
+    
     <Frame name="AtlasLootOptionsFrame" hidden="true">
 		<Size>
 			<AbsDimension x="425" y="405"/>

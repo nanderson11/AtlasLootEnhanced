@@ -205,7 +205,10 @@ function AtlasLoot_CategorizeWishList(wlTable)
 				if strsub(dataID, strlen(dataID) - 5) == "HEROIC" then
 					subheadings[dataID] = AtlasLoot_GetWishListSubheading(strsub(dataID, 1, strlen(dataID) - 6));
 					if subheadings[dataID] then subheadings[dataID] = subheadings[dataID].." ("..AL["Heroic"]..")" end
-				else
+				elseif strsub(dataID, strlen(dataID) - 4) == "25Man" then
+					subheadings[dataID] = AtlasLoot_GetWishListSubheading(strsub(dataID, 1, strlen(dataID) - 5));
+					if subheadings[dataID] then subheadings[dataID] = subheadings[dataID].." ("..AL["25 Man"]..")" end
+                else
 					subheadings[dataID] = AtlasLoot_GetWishListSubheading(dataID);
 					-- If search failed, replace ID like "Aldor2" to "Aldor1" and try again
 					if not subheadings[dataID] and string.find(dataID, "^%a+%d?$") then

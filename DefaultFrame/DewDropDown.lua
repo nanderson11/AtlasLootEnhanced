@@ -1459,6 +1459,7 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Tailoring"] = {
 		{ AL["Cloth Armor"].." - "..AL["Original WoW"], "TailoringArmorOld1" },
 		{ AL["Cloth Armor"].." - "..AL["Burning Crusade"], "TailoringArmorBC1" },
+        { AL["Cloth Armor"].." - "..AL["Wrath of the Lich King"], "TailoringArmorWotLK1" },
 		{ AL["Bags"], "TailoringBags1" },
 		{ AL["Miscellaneous"], "TailoringMisc1" },
 		{ AL["Shirts"], "TailoringShirts1" },

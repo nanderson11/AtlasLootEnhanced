@@ -184,6 +184,7 @@ AtlasLoot_Data["LEATHERWORKINGMENU"] = {
 AtlasLoot_Data["TAILORINGMENU"] = {
         { 2, "TailoringArmorOld1", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Original WoW"] };
         { 3, "TailoringArmorBC1", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
+        { 4, "TailoringArmorWotLK1", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
         { 6, "Mooncloth1", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
         { 7, "Shadoweave1", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
         { 17, "TailoringBags1", "Trade_Tailoring", "=ds="..AL["Bags"], "" };
