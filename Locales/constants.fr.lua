@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction FR par KKram & Trasher [Tchoupz-Ner'zhul-EU] (dernière maj : 30/11/2008)
+constants.fr.lua --- Traduction FR par KKram & Trasher [Tchoupz (horde) - Ner'zhul-EU] (dernière maj : 17/01/2009)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
