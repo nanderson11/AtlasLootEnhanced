@@ -767,7 +767,7 @@
     
     <Frame name="AtlasLootHelpFrame" hidden="true">
         <Size>
-			<AbsDimension x="700" y="405"/>
+			<AbsDimension x="700" y="450"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
@@ -784,12 +784,12 @@
 				</FontString>
                 <FontString name="$parent_HelpText" inherits="GameFontNormal" justifyH="LEFT">
 					<Size>
-						<AbsDimension x="630" y="350"/>
+						<AbsDimension x="630" y="390"/>
 					</Size>
                     <Anchors>
 						<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
                             <Offset>
-                                <AbsDimension x="15" y="-40"/>
+                                <AbsDimension x="15" y="-25"/>
                             </Offset>
                         </Anchor>
 					</Anchors>

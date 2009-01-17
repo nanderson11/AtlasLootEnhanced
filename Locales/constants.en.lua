@@ -1212,6 +1212,10 @@ if AL then
     AL["Alt+Left Click any item to add it to the wishlist."] = true;
     AL["How to delete an item from the wishlist:"] = true;
     AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = true;
+    AL["What else does the wishlist do?"] = true;
     AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = true;
+    AL["HELP!! I have broken the mod somehow!"] = true;
+    AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = true;
+    
 
 end
