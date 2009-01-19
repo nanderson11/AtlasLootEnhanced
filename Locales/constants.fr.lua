@@ -261,7 +261,7 @@ if AL then
 	AL["Cloaks"] = "Capes";
 	AL["Item Enhancements"] = "Améliorations d'objet";
 	AL["Quivers and Ammo Pouches"] = "Carquois et Gibernes";
-	AL["Drums, Bags and Misc."] = "Tambours, sacs et divers.";
+	AL["Drums, Bags and Misc."] = "Tambours, sacs et divers objets";
 
 	--Tailoring
 	AL["Cloth Armor"] = "Armure en tissu";
