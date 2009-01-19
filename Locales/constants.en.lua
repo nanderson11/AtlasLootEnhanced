@@ -262,7 +262,7 @@ if AL then
 	AL["Item Enhancements"] = true;
 	AL["Quivers and Ammo Pouches"] = true;
 	AL["Drums, Bags and Misc."] = true;
-    
+
 	--Tailoring
 	AL["Cloth Armor"] = true;
 	AL["Shirts"] = true;
@@ -1195,7 +1195,7 @@ if AL then
 	AL["Noblegarden"] = true;
 	AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = true;
-    
+
 	--Help Frame
 	AL["Help"] = true;
 	AL["AtlasLoot Help"] = true;
