@@ -935,7 +935,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "UtgardeKeepKeleseth" },
 		{ "", "UtgardeKeepSkarvald" },
 		{ "", "UtgardeKeepIngvar" },
-		{ "", "UPPalehoof" },
 		{ "", "UtgardeKeepTrash" },
 	},
 	["UtgardePinnacle"] = {
