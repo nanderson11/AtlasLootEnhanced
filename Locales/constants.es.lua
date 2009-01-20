@@ -86,6 +86,10 @@ if AL then
     AL["Hide Text"] = "Esconder Texto";
     AL["Hide Icon"] = "Esconder Icono";
     AL["Minimap Button Options"] = "Opciones botón minimapa";
+	AL["Bonus Loot"] = "Bonus Botín";
+	AL["Three Drakes Left"] = "Quedan tres dracos";
+	AL["Two Drakes Left"] = "Quedan dos dracos";
+	AL["One Drake Left"] = "Queda un draco";
 	
     --Text for Options Panel
     AL["Atlasloot Options"] = "Opciones Atlasloot";
@@ -257,6 +261,11 @@ if AL then
     AL["Item Enhancements"] = "Objetos de Mejora";
     AL["Quivers and Ammo Pouches"] = "Carcajs y bolsas de munición";
     AL["Drums, Bags and Misc."] = "Tambores, Bolsas y Misc.";
+
+	--Tailoring
+	AL["Cloth Armor"] = "Armadura de tela";
+	AL["Shirts"] = "Camisas";
+	AL["Bags"] = "Bolsas";
 	
     --Labels for loot descriptions
     AL["Classes:"] = "Clases";
@@ -280,15 +289,17 @@ if AL then
     AL["Reputation Factions"] = "Reputación con facciones";
     AL["Sets/Collections"] = "Conjuntos/Colecciones";
     AL["Card Game Item"] = "Juego de cartas";
-    AL["Tier 1"] = "Set T1";
-    AL["Tier 2"] = "Set T2";
-    AL["Tier 4"] = "Set T4";
-    AL["Tier 5"] = "Set T5";
-    AL["Tier 6"] = "Set T6";
-    AL["Tier 7 Sets"] = "Sets T7";
+    AL["Tier 1"] = "Conjunto T1";
+    AL["Tier 2"] = "Conjunto T2";
+    AL["Tier 4"] = "Conjunto T4";
+    AL["Tier 5"] = "Conjunto T5";
+    AL["Tier 6"] = "Conjunto T6";
+    AL["Tier 7 Sets"] = "Conjuntos T7";
     AL["10/25 Man"] = "10/25 Personas";
-    AL["Tier 7 Sets 10/25 Man"] = "Tier 7 Sets 10/25 Pers";
-    AL["Level 80 PvP Sets"] = "Nivel 80 JcJ Sets";
+    AL["Tier 7 Sets 10/25 Man"] = "Conjuntos T7 10/25 Pers";
+    AL["Level 80 PvP Sets"] = "Conjuntos Nivel 80 JcJ";
+	AL["Hateful Gladiator Sets"] = "Conjunto Gladiador de odio";
+	AL["Deadly Gladiator Sets"] = "Conjunto Gladiador Mortal";
     AL["Arena Reward"] = "Recompensas de Arenas";
     AL["Conjured Item"] = "Objetos conjurados";
     AL["Used to summon boss"] = "Usado para invocar a un jefe";
@@ -389,7 +400,8 @@ if AL then
     AL["Twin Spire Ruins"] = "Ruinas de las Agujas Gemelas";
     AL["Spirit Towers"] = "Torres de los espíritus";
     --AL["Halaa"] = true,
-
+	AL["Venture Bay"] = "Bahía Aventura"; --Check
+	
     --Karazhan Opera Event Headings
     AL["Shared Drops"] = "Objetos compartidos";
     AL["Romulo & Julianne"] = "Romeo y Julieta";
@@ -524,6 +536,10 @@ if AL then
 	--Scourge Invasion
     AL["Scourge Invasion"] = "Invasión de la Plaga"; --Comprobar
     AL["Scourge Invasion Sets"] = "Conjuntos Invasión de la Plaga";
+	AL["Blessed Regalia of Undead Cleansing"] = "Atavío bendecido de limpieza de no-muertos";
+	AL["Undead Slayer's Blessed Armor"] = "Armadura bendecida de Asesino de no-muertos";
+	AL["Blessed Garb of the Undead Slayer"] = "Atuendo bendecido del Asesino de no-muertos";
+	AL["Blessed Battlegear of Undead Slaying"] = "Equipo de batalla de matanza de no-muertos";
     AL["Prince Tenris Mirkblood"] = "Príncipe Tenris Sangre Penumbra";
 	
     --ZG Sets
@@ -827,11 +843,11 @@ if AL then
     AL["AQ20 Class Sets"] = "Conjuntos por Clase de AQ20";
     AL["AQ Enchants"] = "Encantamientos AQ";
     AL["AQ Opening Quest Chain"] = "Apertura de la misión de la cadena AQ";
-	--    AL["Misc Sets"] = true;
-	--    AL["Classic Sets"] = true;
-	--    AL["Burning Crusade Sets"] = true;
-	--    AL["Wrath Of The Lich King Sets"] = true;
-	--    AL["Scholomance Sets"] = true;
+	AL["Misc Sets"] = "Conjuntos varios";
+	AL["Classic Sets"] = "Conjuntos WoW Clásico";
+	AL["Burning Crusade Sets"] = "Conjuntos Burning Crusade";
+	AL["Wrath Of The Lich King Sets"] = "Conjuntos Wrath Of The Lich King";
+	AL["Scholomance Sets"] = "Conjuntos Scholomance";
     AL["Crafted Sets"] = "Conjuntos fabricados";
     AL["Crafted Epic Weapons"] = "Armas épicas fabricadas";
     AL["Zul'Gurub Sets"] = "Conjuntos de Zul'Gurub";
@@ -853,6 +869,7 @@ if AL then
     AL["PvP Accessories - Alliance (Level 60)"] = "Accesorios - Alianza (Nivel 60)";
     AL["PvP Accessories - Horde (Level 60)"] = "Accesorios - Horda (Nivel 60)";
     AL["PvP Accessories (Level 70)"] = "Accesorios JcJ (Nivel 70)";
+	AL["PvP Jewelcrafting Designs"] = "Diseños Joyería JcJ";
     AL["PvP Rewards"] = "Recompen. JcJ";
     AL["PvP Armor Sets"] = "Conjuntos de armaduras JcJ";
     AL["PvP Weapons"] = "Armas JcJ";
@@ -1157,6 +1174,8 @@ if AL then
     AL["Overcharged Manacell"] = "Célula de maná sobrecargada";
     AL["Mysterious Egg"] = "Huevo misterioso";
     AL["Hyldnir Spoils"] = "Botín Hyldnir";
+	AL["Ripe Disgusting Jar"] = "Tarro desagradable maduro";
+	AL["Cracked Egg"] = "Huevo roto";
 	
     --World Events
     AL["Abyssal Council"] = "Consejo abisal";
