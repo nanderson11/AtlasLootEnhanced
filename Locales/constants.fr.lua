@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction FR par KKram & Trasher [Tchoupz (horde) - Ner'zhul-EU] (dernière maj : 17/01/2009)
+constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 21/01/2009)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -1212,8 +1212,8 @@ if AL then
 	AL["Alt+Left Click any item to add it to the wishlist."] = "Faites la combinaison Alt+Clic-Gauche sur l'objet en question pour l'ajouter à votre liste.";
 	AL["How to delete an item from the wishlist:"] = "Comment supprimer un objet de ma liste :";
 	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "Une fois sur l'écran de votre liste, faites simplement la combinaison Alt+Clic-Gauche sur l'objet à supprimer.";
-	--AL["What else does the wishlist do?"] = true;
+	AL["What else does the wishlist do?"] = "Qu'est-ce que la liste peut faire de plus ?";
 	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from. Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "Si vous faites un clic gauche sur un objet de la liste, vous serez directement conduit sur la page du butin qui correspond. De plus, tout objet se trouvant dans votre liste sera marqué par une étoile jaune sur les pages du butin.";
-	--AL["HELP!! I have broken the mod somehow!"] = true;
-	--AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = true;
+	AL["HELP!! I have broken the mod somehow!"] = "AU SECOURS ! Le mod ne fonctionne plus !";
+	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "Utilisez les boutons réinitialiser présents sur le menu des options, ou tapez '/al reset' dans la saisie de votre fenêtre de discussion.";
 end
