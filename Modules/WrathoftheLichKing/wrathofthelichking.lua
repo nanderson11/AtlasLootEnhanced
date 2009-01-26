@@ -2459,7 +2459,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 42033, "", "=q4=Deadly Gladiator's Pendant of Salvation", "=ds=", "47400 #faction# #reqrating# 1600"};
 		{ 13, 42031, "", "=q4=Deadly Gladiator's Pendant of Subjugation", "=ds=", "47400 #faction# #reqrating# 1600"};
 		{ 14, 42027, "", "=q4=Deadly Gladiator's Pendant of Triumph", "=ds=", "47400 #faction# #reqrating# 1600"};
-		{ 15, 42021, "", "=q4=Deadly Gladiator's Pendant of Victory", "=ds=", "47400 #faction# #reqrating# 1600"};
+		{ 15, 42028, "", "=q4=Deadly Gladiator's Pendant of Victory", "=ds=", "47400 #faction# #reqrating# 1600"};
 		{ 16, 42114, "", "=q4=Deadly Gladiator's Band of Ascendancy", "=ds=", "47400 #faction# #reqrating# 1690"};
 		{ 17, 42115, "", "=q4=Deadly Gladiator's Band of Victory", "=ds=", "47400 #faction# #reqrating# 1690"};
 		{ 19, 42129, "", "=q4=Battlemaster's Accuracy", "=ds=", "62000 #faction# #reqrating# 1800"};
