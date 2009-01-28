@@ -164,7 +164,7 @@ if AL then
     AL[" could not be accessed, the following module may be out of date: "] = " не может получить доступ, следующий модуль может быть устаревшим: ";
 
     --LoD module not defined
-    AL["Loot module returned as nil!"] = "Модуль трофеев возвращены к нолевому значеню";
+    AL["Loot module returned as nil!"] = "Модуль трофеев возвращен к нолевому значеню!";
 
     --LoD module loaded successfully
     AL["sucessfully loaded."] = "успешно загружен.";
