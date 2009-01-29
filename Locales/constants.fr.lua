@@ -289,7 +289,7 @@ if AL then
 	--AL["World Bosses"] = true,
 	AL["Reputation Factions"] = "Factions de réputation";
 	--AL["Sets/Collections"] = true,
-	AL["Card Game Item"] = "Objet de Jeu de Carte";
+	AL["Card Game Item"] = "Objet du jeu de carte";
 	AL["Tier 1"] = "Set T1";
 	AL["Tier 2"] = "Set T2";
 	AL["Tier 4"] = "Set T4";
