@@ -171,8 +171,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["TheNexusKeristrasza"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#"};
-		{ 3, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s2#"};
-		{ 4, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
+		{ 3, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
+        { 4, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s13#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 18, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#"};
@@ -528,8 +528,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#"};
 		{ 20, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
 		{ 21, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
-		{ 22, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
-		{ 24, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#"};
+        { 22, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#"};
+        { 23, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#"};
+		{ 24, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
+		{ 25, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#"};
 	};
 
 	AtlasLoot_Data["GundrakTrash"] = {
