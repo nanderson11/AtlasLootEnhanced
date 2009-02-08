@@ -2,7 +2,7 @@
 constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 21/01/2009)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
-back to the English translation.g
+back to the English translation.
 
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
