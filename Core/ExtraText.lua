@@ -270,6 +270,10 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
+    UlduarHallsofLightning = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     UlduarHallsofStone = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
@@ -279,6 +283,10 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["Trash Mobs"];
     };
     UtgardePinnacle = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    VioletHold = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };

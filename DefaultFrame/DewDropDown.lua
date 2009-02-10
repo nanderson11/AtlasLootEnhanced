@@ -179,7 +179,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Gundrak"], "Gundrak", "Submenu" },
 			},
 			[6] = {
-				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Table" },
+				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Submenu" },
 			},
 			[7] = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
@@ -209,7 +209,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Vault of Archavon"], "Archavon", "Table" },
 			},
 			[16] = {
-				{ BabbleZone["The Violet Hold"], "VioletHold1", "Table" },
+				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
 	},
@@ -906,6 +906,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "CoTStratholmeMeathook" },
 		{ "", "CoTStratholmeEpoch" },
 		{ "", "CoTStratholmeSalramm" },
+		{ "", "CoTStratholmeInfiniteCorruptorHEROIC" },
 		{ "", "CoTStratholmeMalGanis" },
 		{ "", "CoTStratholmeTrash" },
 	},
@@ -923,6 +924,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "GundrakEckHEROIC" },
 		{ "", "GundrakGaldarah" },
 		{ "", "GundrakTrash" },
+	},
+	["HallsofLightning"] = {
+		{ "", "HallsofLightningBjarngrim" },
+		{ "", "HallsofLightningVolkhan" },
+		{ "", "HallsofLightningIonar" },
+		{ "", "HallsofLightningLoken" },
+		{ "", "HallsofLightningTrash" },
 	},
 	["HallsofStone"] = {
 		{ "", "HallsofStoneMaiden" },
@@ -943,6 +951,16 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "UPSorrowgrave" },
 		{ "", "UPPalehoof" },
 		{ "", "UPTrash" },
+	},
+	["TheVioletHold"] = {
+		{ "", "VioletHoldErekem" },
+		{ "", "VioletHoldZuramat" },
+		{ "", "VioletHoldXevozz" },
+		{ "", "VioletHoldIchoron" },
+		{ "", "VioletHoldMoragg" },
+		{ "", "VioletHoldLavanthor" },
+		{ "", "VioletHoldCyanigosa" },
+		{ "", "VioletHoldTrash" },
 	},
 	["TheOculus"] = {
 		{ "", "OcuDrakos" },

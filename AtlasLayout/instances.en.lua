@@ -122,10 +122,12 @@ AtlasLootBossButtons = {
 
     UlduarHallsofLightning = {
     	"";
-    	"HallsofLightning";
-        "HallsofLightning";
-        "HallsofLightning";
-        "HoLLoken";
+    	"HallsofLightningBjarngrim";
+        "HallsofLightningVolkhan";
+        "HallsofLightningIonar";
+        "HallsofLightningLoken";
+    	"";
+    	"HallsofLightningTrash";
         };
 
     UlduarHallsofStone = {
@@ -162,13 +164,15 @@ AtlasLootBossButtons = {
 
     VioletHold = {
     	"";
-    	"VioletHold1";
-        "VioletHold1";
-        "VioletHold1";
-        "VioletHold2";
-        "VioletHold2";
-        "VioletHold2";
-        "VHCyanigosa";
+    	"VioletHoldErekem";
+        "VioletHoldZuramat";
+        "VioletHoldXevozz";
+        "VioletHoldIchoron";
+        "VioletHoldMoragg";
+        "VioletHoldLavanthor";
+        "VioletHoldCyanigosa";
+        "";
+        "VioletHoldTrash";
         };
 
   ------------------

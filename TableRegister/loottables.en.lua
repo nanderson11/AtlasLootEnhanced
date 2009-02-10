@@ -80,9 +80,14 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["DrakTharonKeepTharonja"] = { BabbleBoss["The Prophet Tharon'ja"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["DrakTharonKeepTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- The Violet Hold
-	AtlasLoot_TableNames["VioletHold1"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["VioletHold2"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["VHCyanigosa"] = { BabbleBoss["Cyanigosa"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldErekem"] = { BabbleBoss["Erekem"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldZuramat"] = { BabbleBoss["Zuramat the Obliterator"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldXevozz"] = { BabbleBoss["Xevozz"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldIchoron"] = { BabbleBoss["Ichoron"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldMoragg"] = { BabbleBoss["Moragg"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldLavanthor"] = { BabbleBoss["Lavanthor"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldCyanigosa"] = { BabbleBoss["Cyanigosa"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VioletHoldTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Gundrak
 	AtlasLoot_TableNames["GundrakSladran"] = { BabbleBoss["Slad'ran"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["GundrakColossus"] = { BabbleBoss["Drakkari Colossus"], "AtlasLootWotLK" };
@@ -97,14 +102,17 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["HallsofStoneSjonnir"] = { BabbleBoss["Sjonnir The Ironshaper"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HallsofStoneTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Halls of Lightning
-	AtlasLoot_TableNames["HallsofLightning"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HallsofLightningHEROIC"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["HoLLoken"] = { BabbleBoss["Loken"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightningBjarngrim"] = { BabbleBoss["General Bjarngrim"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightningVolkhan"] = { BabbleBoss["Volkhan"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightningIonar"] = { BabbleBoss["Ionar"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightningLoken"] = { BabbleBoss["Loken"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HallsofLightningTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Caverns of Time: Old Stratholme
 	AtlasLoot_TableNames["CoTStratholmeMeathook"] = { BabbleBoss["Meathook"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["CoTStratholmeEpoch"] = { BabbleBoss["Chrono-Lord Epoch"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["CoTStratholmeMalGanis"] = { BabbleBoss["Mal'Ganis"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeSalramm"] = { BabbleBoss["Salramm the Fleshcrafter"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CoTStratholmeEpoch"] = { BabbleBoss["Chrono-Lord Epoch"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CoTStratholmeInfiniteCorruptorHEROIC"] = { BabbleBoss["Infinite Corruptor"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CoTStratholmeMalGanis"] = { BabbleBoss["Mal'Ganis"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CoTStratholmeTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
   -- Utgarde Pinnacle
 	AtlasLoot_TableNames["UPSkadi"] = { BabbleBoss["Skadi the Ruthless"], "AtlasLootWotLK" };
