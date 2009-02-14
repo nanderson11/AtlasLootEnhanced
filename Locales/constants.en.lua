@@ -968,6 +968,13 @@ if AL then
 	AL["Destruction"] = true;
 	AL["Tanking"] = true;
 	AL["DPS"] = true;
+    
+    --Naxx Zones
+    AL["Construct Quarter"] = true;
+    AL["Arachnid Quarter"] = true;
+    AL["Military Quarter"] = true;
+    AL["Plague Quarter"] = true;
+    AL["Frostwyrm Lair"] = true;
 
 	--NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = true;
