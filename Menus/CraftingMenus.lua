@@ -118,6 +118,19 @@ AtlasLoot_Data["ENCHANTINGMENU"] = {
         { 21, "EnchantingMisc1", "Trade_Engraving", "=ds="..AL["Miscellaneous"], "" };
         Back = "CRAFTINGMENU";
     };
+    
+AtlasLoot_Data["ENGINEERINGMENU"] = {
+        { 2, "EngineeringAmmo1", "Trade_Engineering", "=ds="..AL["Ammunition"], "" };
+        { 3, "EngineeringExplosives1", "Trade_Engineering", "=ds="..AL["Explosives"], "" };
+        { 4, "EngineeringMisc1", "Trade_Engineering", "=ds="..AL["Miscellaneous"], "" };
+        { 5, "EngineeringWeapon1", "Trade_Engineering", "=ds="..BabbleInventory["Weapon"], "" };
+        { 7, "Gnomish1", "Trade_Engineering", "=ds="..GetSpellInfo(20220), "" };
+        { 17, "EngineeringArmor1", "Trade_Engineering", "=ds="..BabbleInventory["Armor"], "" };
+        { 18, "EngineeringItemEnhancements1", "Trade_Engineering", "=ds="..AL["Item Enhancements"], "" };
+        { 19, "EngineeringReagents1", "Trade_Engineering", "=ds="..AL["Reagents"], "" };
+        { 22, "Goblin1", "Trade_Engineering", "=ds="..GetSpellInfo(20221), "" };
+        Back = "CRAFTINGMENU";
+    };
 
 AtlasLoot_Data["INSCRIPTIONMENU"] = {
         { 2, "Inscription_Scrolls1", "INV_Inscription_Tradeskill01", "=ds="..AL["Scrolls"], "" };

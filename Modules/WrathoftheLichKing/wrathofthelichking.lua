@@ -996,11 +996,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 15, 40075, "", "=q4=Ruthlessness", "=ds=#s13#"};
 		{ 16, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#"};
 		{ 17, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#"};
-		{ 18, 40267, "", "=q4=Totem of Hex", "=ds=#s16#, #w15#"};
-		{ 19, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#, #w16#"};
-		{ 20, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#" };
-		{ 21, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#"};
-		{ 22, 40265, "", "=q4=Arrowsong", "=ds=#w2#"};
+        { 18, 40273, "", "=q4=Surplus Limb", "=ds=#s15#"};
+		{ 19, 40267, "", "=q4=Totem of Hex", "=ds=#s16#, #w15#"};
+		{ 20, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#, #w16#"};
+		{ 21, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#" };
+		{ 22, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#"};
+		{ 23, 40265, "", "=q4=Arrowsong", "=ds=#w2#"};
     };
 
 	AtlasLoot_Data["Naxx80Grobbulus"] = {
@@ -1039,10 +1040,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 40255, "", "=q4=Dying Curse", "=ds=#s14#"};
 		{ 21, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#"};
 		{ 22, 40256, "", "=q4=Grim Toll", "=ds=#s14#"};
-		{ 23, 40273, "", "=q4=Surplus Limb", "=ds=#s15#"};
-		{ 24, 40281, "", "=q4=Twilight Mist", "=ds=#w4#, #h1#"};
-		{ 25, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#"};
-		{ 26, 40284, "", "=q4=Plague Igniter", "=ds=#w12#"};
+		{ 23, 40281, "", "=q4=Twilight Mist", "=ds=#w4#, #h1#"};
+		{ 24, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#"};
+		{ 25, 40284, "", "=q4=Plague Igniter", "=ds=#w12#"};
 	};
 
 	AtlasLoot_Data["Naxx80Gluth1"] = {
@@ -1485,7 +1485,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 40247, "", "=q4=Cowl of Innocent Delight", "=ds=#s1#, #a1#"};
 		{ 2, 40246, "", "=q4=Boots of Impetuous Ideals", "=ds=#s12#, #a1#"};
 		{ 3, 40249, "", "=q4=Vest of Vitality", "=ds=#s5#, #a2#"};
-		{ 4, 40243, "", "=q4=Footwraps of Vile Deceit", "=ds=#s11#, #a2#"};
+		{ 4, 40243, "", "=q4=Footwraps of Vile Deceit", "=ds=#s12#, #a2#"};
 		{ 5, 40242, "", "=q4=Grotesque Handgrips", "=ds=#s9#, #a3#"};
 		{ 6, 40241, "", "=q4=Girdle of Unity", "=ds=#s10#, #a4#"};
 		{ 7, 40240, "", "=q4=Greaves of Turbulence", "=ds=#s11#, #a4#"};

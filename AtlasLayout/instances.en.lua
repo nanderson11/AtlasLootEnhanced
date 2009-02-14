@@ -1353,13 +1353,6 @@ AtlasLootBossButtons = {
         "OldKeys";
         "";
         "";
-        "STTrollMinibosses";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
         "";
         "STAtalalarion";
         "STDreamscythe";
@@ -1373,6 +1366,13 @@ AtlasLootBossButtons = {
         "";
         "STSpawnOfHakkar";
         "LunarFestival1";
+        "";
+        "STTrollMinibosses";
+        "";
+        "";
+        "";
+        "";
+        "";
         "";
         "";
         "STTrash";

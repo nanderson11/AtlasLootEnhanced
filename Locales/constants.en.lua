@@ -247,6 +247,10 @@ if AL then
 	AL["Enchant Shield"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
+    
+    --Engineering
+    AL["Ammunition"] = true;
+    AL["Explosives"] = true;
 
 	--Inscription
 	AL["Major Glyph"] = true;

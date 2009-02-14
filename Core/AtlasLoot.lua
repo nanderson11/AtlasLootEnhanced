@@ -118,7 +118,6 @@ AtlasLoot_MenuList = {
 	"ARENA2SET",
 	"ARENA3SET",
 	"ARENA4SET",
-	"ENGINEERINGMENU",
 	"COOKINGMENU",
 };
 
@@ -296,14 +295,6 @@ function AtlasLoot_OnVariablesLoaded()
 	end
 	--Set up the menu in the loot browser
 	AtlasLoot_DewdropRegister();
-	--[[Enable or disable AtlasLootFu based on selected options
-	if AtlasLoot.db.profile.MinimapButton == false then
-        AtlasLoot.db.profile.MinimapButton = true;
-        AtlasLootOptions_MinimapToggle();
-	else
-        AtlasLoot.db.profile.MinimapButton = false;
-        AtlasLootOptions_MinimapToggle();
-    end]]
 	--If EquipCompare is available, use it
 	if((EquipCompare_RegisterTooltip) and (AtlasLoot.db.profile.EquipCompare == true)) then
 		EquipCompare_RegisterTooltip(AtlasLootTooltip);
@@ -551,8 +542,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootARENA3SetMenu();
 	elseif(dataID=="ARENA4SET") then
 		AtlasLootARENA4SetMenu();
-	elseif(dataID=="ENGINEERINGMENU") then
-		AtlasLoot_EngineeringMenu();
 	elseif(dataID=="COOKINGMENU") then
 		AtlasLoot_CookingMenu();
 	elseif (dataID == "SearchResult") or (dataID == "WishList") or (AtlasLoot_IsLootTableAvailable(dataID)) then
