@@ -1125,6 +1125,7 @@ AtlasLoot_TableNames = {};
     AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["EngineeringArmor2"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["EngineeringArmor3"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
+    AtlasLoot_TableNames["EngineeringArmor4"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["EngineeringExplosives1"] = { ENGINEERING..": "..AL["Explosives"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["EngineeringExplosives2"] = { ENGINEERING..": "..AL["Explosives"], "AtlasLootCrafting" };
     AtlasLoot_TableNames["EngineeringItemEnhancements1"] = { ENGINEERING..": "..AL["Item Enhancements"], "AtlasLootCrafting" };
