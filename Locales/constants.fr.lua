@@ -248,6 +248,10 @@ if AL then
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
 
+	--Engineering
+	AL["Ammunition"] = "Munitions";
+	AL["Explosives"] = "Explosifs";
+
 	--Inscription
 	AL["Major Glyph"] = "Glyphe majeur";
 	AL["Minor Glyph"] = "Glyphe mineur";
@@ -964,6 +968,13 @@ if AL then
 	--AL["Destruction"] = true;
 	--AL["Tanking"] = true;
 	--AL["DPS"] = true;
+
+	--Naxx Zones
+	AL["Construct Quarter"] = "Le quartier des Assemblages";
+	AL["Arachnid Quarter"] = "Le quartier des Arachnides";
+	AL["Military Quarter"] = "Le quartier Militaire";
+	AL["Plague Quarter"] = "Le quartier de la Peste";
+	AL["Frostwyrm Lair"] = "Repaire de la Wyrm des glaces";
 
 	--NPCs missing from BabbleBoss
 	--AL["Trash Mobs"] = true,
