@@ -238,8 +238,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["AzjolNerubTrash"] = {
-		{ 1, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
-		{ 2, 0, "", "=q3=Fungi-Coated Boots", "=ds=#s12#, #a3#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
 	};
 
 		----------------------------------
@@ -313,8 +313,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["AhnkahetTrash"] = {
-		{ 1, 35616, "", "=q3=Spored Tendrils Spaulders", "=ds=#s3#, #a3#"};
-		{ 2, 35615, "", "=q3=Glowworm Cavern Bindings", "=ds=#s8#, #a3#"};
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35616, "", "=q3=Spored Tendrils Spaulders", "=ds=#s3#, #a3#"};
+		{ 3, 35615, "", "=q3=Glowworm Cavern Bindings", "=ds=#s8#, #a3#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
+		{ 18, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
 	};
 
 		------------------------
@@ -775,11 +779,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37694, "", "=q4=Band of Guile", "=ds=#s13#"};
 		{ 21, 37693, "", "=q4=Greed", "=ds=#h3#, #w13#"};
 		{ 22, 43085, "", "=q4=Royal Crest of Lordaeron", "=ds=#w8#"};
-		{ 24, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#"};
-		{ 25, 37690, "", "=q3=Pauldrons of Destiny", "=ds=#s3#, #a4#"};
-		{ 26, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
-		{ 27, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
-		{ 29, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#"};
+		{ 23, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#"};
+		{ 24, 37690, "", "=q3=Pauldrons of Destiny", "=ds=#s3#, #a4#"};
+		{ 25, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
+		{ 26, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
+		{ 28, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#"};
 	};
 
 	AtlasLoot_Data["CoTStratholmeTrash"] = {
@@ -1606,23 +1610,23 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#"};
 		{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#"};
 		{ 8, 43347, "", "=q4=Satchel of Spoils", "" };
-		{ 10, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#"};
-		{ 11, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#"};
-		{ 12, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["One Drake Left"]};
-		{ 17, 43988, "", "=q4=Gale-Proof Cloak", "=ds=#s4#"};
-		{ 18, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#"};
-		{ 19, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#"};
-		{ 20, 43989, "", "=q4=Remembrance Girdle", "=ds=#s10#, #a4#"};
-		{ 21, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#"};
-		{ 22, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Two Drakes Left"]};
-		{ 23, 43995, "", "=q4=Enamored Cowl", "=ds=#s1#, #a1#"};
-		{ 24, 43998, "", "=q4=Chestguard of Flagrant Prowess", "=ds=#s5#, #a3#"};
-		{ 25, 43996, "", "=q4=Sabatons of Firmament", "=ds=#s12#, #a3#"};
-		{ 26, 43994, "", "=q4=Belabored Legplates", "=ds=#s11#, #a4#"};
-		{ 27, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#"};
-		{ 29, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"]};
-		{ 30, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e12#"};
+		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["One Drake Left"]};
+		{ 11, 43988, "", "=q4=Gale-Proof Cloak", "=ds=#s4#"};
+		{ 12, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#"};
+		{ 13, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#"};
+		{ 14, 43989, "", "=q4=Remembrance Girdle", "=ds=#s10#, #a4#"};
+		{ 15, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#"};
+		{ 16, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#"};
+		{ 17, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#"};
+		{ 18, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#"};
+		{ 20, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Two Drakes Left"]};
+		{ 21, 43995, "", "=q4=Enamored Cowl", "=ds=#s1#, #a1#"};
+		{ 22, 43998, "", "=q4=Chestguard of Flagrant Prowess", "=ds=#s5#, #a3#"};
+		{ 23, 43996, "", "=q4=Sabatons of Firmament", "=ds=#s12#, #a3#"};
+		{ 24, 43994, "", "=q4=Belabored Legplates", "=ds=#s11#, #a4#"};
+		{ 25, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#"};
+		{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"]};
+		{ 28, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e12#"};
 	};
 
 	AtlasLoot_Data["Sartharion25Man"] = {
