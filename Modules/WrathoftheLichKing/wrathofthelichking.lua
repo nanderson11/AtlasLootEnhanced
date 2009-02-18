@@ -1578,7 +1578,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 39467, "", "=q4=Minion Bracers", "=ds=#s8#, #a4#"};
 		{ 2, 39472, "", "=q4=Chain of Latent Energies", "=ds=#s2#"};
 		{ 3, 39470, "", "=q4=Medallion of the Disgraced", "=ds=#s2#"};
-		{ 4, 39427, "", "=q4=Omen of Ruin", "=ds=#h1#, #w10#"};
+		{ 4, 39427, "", "=q4=Omen of Ruin", "=ds=#h1#, #w4#"};
 		{ 5, 39468, "", "=q4=The Stray", "=ds=#h4#, #w13#"};
 		{ 6, 39473, "", "=q4=Contortion", "=ds=#w12#"};
     };
@@ -1588,67 +1588,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40409, "", "=q4=Boots of the Escaped Captive", "=ds=#s12#, #a2#"};
 		{ 3, 40414, "", "=q4=Shoulderguards of the Undaunted", "=ds=#s3#, #a4#"};
 		{ 4, 40412, "", "=q4=Ousted Bead Necklace", "=ds=#s2#"};
-		{ 5, 40408, "", "=q4=Haunting Call", "=ds=#h1#, #w4#"};
-		{ 6, 40407, "", "=q4=Silent Crusader", "=ds=#h1#, #w6#"};
+		{ 5, 40408, "", "=q4=Haunting Call", "=ds=#h3#, #w4#"};
+		{ 6, 40407, "", "=q4=Silent Crusader", "=ds=#h1#, #w10#"};
 		{ 7, 40406, "", "=q4=Inevitable Defeat", "=ds=#h2#, #w6#"};
 	};
-
---[[10 Man
-	AtlasLoot_Data["Naxx80Unknown"] = {
-		{ 1, 39192, "", "=q4=Gloves of Dark Gestures", "=ds=#s9#, #a1#"};--wowhead says two bosses. wait for more data
-		{ 2, 40752, "", "=q4=Emblem of Heroism", "=ds="};
-		
-		{ 4, 39278, "", "=q4=Bands of Anxiety", "=ds=#s8#, #a3#"};
-		{ 5, 39405, "", "=q4=Helmet of the Inner Sanctum", "=ds=#s1#, #a3#"};
-		Next = "Naxx80Unknown2";
-	};
-
---25 Man	
-	AtlasLoot_Data["Naxx80Unknown2"] = {
-		{ 1, 40351, "", "=q4=Mantle of the Fatigued Sage", "=ds=#s3#, #a1#"};
-		{ 2, 40381, "", "=q4=Sympathy", "=ds=#s5#, #a1#"};
-		{ 3, 40062, "", "=q4=Digested Silken Robes", "=ds=#s5#, #a1#"};
-		{ 4, 40325, "", "=q4=Bindings of the Expansive Mind", "=ds=#s8#, #a1#"};
-		{ 5, 39731, "", "=q4=Punctilious Bindings", "=ds=#s8#, #a1#"};
-		{ 6, 39733, "", "=q4=Gloves of Token Respect", "=ds=#s9#, #a1#"};
-		{ 7, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#"};
-		{ 8, 40197, "", "=q4=Gloves of the Fallen Wizard", "=ds=#s9#, #a1#"};
-		{ 9, 40271, "", "=q4=Sash of Solitude", "=ds=#s10#, #a1#"};
-		{ 10, 39720, "", "=q4=Leggings of Atrophy", "=ds=#s11#, #a1#"};
-		{ 11, 40326, "", "=q4=Boots of Forlorn Wishes", "=ds=#s12#, #a1#"};
-		{ 12, 40236, "", "=q4=Serene Echoes", "=ds=#s12#, #a1#"};
-		{ 13, 40246, "", "=q4=Boots of Impetuous Ideals", "=ds=#s12#, #a1#"};
-		{ 14, 40329, "", "=q4=Hood of the Exodus", "=ds=#s1#, #a2#"};
-		{ 15, 40304, "", "=q4=Headpiece of Fungal Bloom", "=ds=#s1#, #a2#"};
-		{ 16, 39768, "", "=q4=Cowl of the Perished", "=ds=#s1#, #a2#"};
-		{ 17, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#"};
-		{ 18, 40063, "", "=q4=Mantle of Shattered Kinship", "=ds=#s3#, #a2#"};
-		{ 19, 40277, "", "=q4=Tunic of Indulgence", "=ds=#s5#, #a2#"};
-		{ 20, 30319, "", "=q4=Chestpiece of Suspicion", "=ds=#s5#, #a2#"};
-		{ 21, 39756, "", "=q4=Tunic of Prejudice", "=ds=#s5#, #a2#"};
-		{ 22, 40249, "", "=q4=Vest of Vitality", "=ds=#s5#, #a2#"};
-		{ 23, 39722, "", "=q4=Swarm Bindings", "=ds=#s8#, #a2#"};
-		{ 24, 40186, "", "=q4=Thrusting Bands", "=ds=#s8#, #a2#"};
-		{ 25, 40238, "", "=q4=Gloves of the Dancing Bear", "=ds=#s9#, #a2#"};
-		{ 26, 40205, "", "=q4=Stalk-Skin Belt", "=ds=#s10#, #a2#"};
-		{ 27, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#"};
-		{ 28, 40341, "", "=q4=Shackled Cinch", "=ds=#s10#, #a2#"};
-		{ 29, 40200, "", "=q4=Belt of Potent Chanting", "=ds=#s10#, #a2#"};
-		{ 30, 40285, "", "=q4=Desecrated Past", "=ds=#s11#, #a2#"};
-		Prev = "Naxx80Unknown";
-		Next = "Naxx80Unknown3";
-	};
-
---Buyable Items/Set Tokens
-	AtlasLoot_Data["Naxx80Unknown3"] = {
-		{ 1, 40379, "", "=q4=Legguards of the Boneyard", "=ds=#s11#, #a2#"};
-		{ 2, 40409, "", "=q4=Boots of the Escaped  Captive", "=ds=#s11#, #a2#"};
-		{ 3, 0, "", "=q4=", "=ds=#s11#, #a2#"};
-		{ 4, 39758, "", "=q4=The Jawbone", "=ds=#h2#, #w6#"};
-		{ 5, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#"};
-		{ 6, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#"};
-		Prev = "Naxx80Unknown2";
-	};]]
 
 		------------------------
 		--- Obsidian Sanctum ---
