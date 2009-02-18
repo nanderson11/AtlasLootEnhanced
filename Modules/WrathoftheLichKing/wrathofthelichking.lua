@@ -523,6 +523,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37630, "", "=q3=Shroud of Moorabi", "=ds=#s4#"};
 		{ 19, 37633, "", "=q3=Ground Tremor Helm", "=ds=#s1#, #a4#"};
 		{ 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#"};
+		{ 21, 37631, "", "=q3=Fist of the Deity", "=ds=#h3#, #w13#"};
 	};
 
 	AtlasLoot_Data["GundrakEckHEROIC"] = {

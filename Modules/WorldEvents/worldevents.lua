@@ -288,16 +288,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------------------
 
 	AtlasLoot_Data["Valentineday"] = {
-		{ 1, 22206, "", "=q2=Bouquet of Red Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
-		{ 3, 0, "INV_ValentinesBoxOfChocolates02", "=q6=#x16#", ""};
-		{ 4, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#"};
-		{ 5, 22279, "", "=q1=Lovely Black Dress", "=ds=#s5#"};
-		{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#"};
-		{ 7, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#"};
-		{ 8, 22261, "", "=q1=Love Fool", "=ds=#e22#"};
-		{ 9, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#"};
-		{ 10, 21813, "", "=q1=Bag of Candies", "=ds=#m20#"};
-		{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#"};
+		{ 1, 44731, "", "=q2=Bouquet of Ebon Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
+		{ 2, 22206, "", "=q2=Bouquet of Red Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
+		{ 4, 0, "INV_ValentinesBoxOfChocolates02", "=q6=#x16#", ""};
+		{ 5, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#"};
+		{ 6, 22279, "", "=q1=Lovely Black Dress", "=ds=#s5#"};
+		{ 7, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#"};
+		{ 8, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#"};
+		{ 9, 22261, "", "=q1=Love Fool", "=ds=#e22#"};
+		{ 10, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#"};
+		{ 11, 21813, "", "=q1=Bag of Candies", "=ds=#m20#"};
+		{ 12, 34258, "", "=q1=Love Rocket", "=ds=#e23#"};
 		{ 16, 0, "INV_Box_02", "=q6=#x17#", ""};
 		{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
 		{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
