@@ -238,9 +238,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["AzjolNerubTrash"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
-	};
+        { 1, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
+        { 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
+        { 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
+    }; 
 
 		----------------------------------
 		--- Ahn'kahet: The Old Kingdom ---
@@ -383,10 +385,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["DrakTharonKeepTrash"] = {
-		{ 1, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a2#"};
-		{ 2, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#"};
-		{ 3, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#"};
-	};
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 2, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a2#"};
+        { 3, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#"};
+        { 4, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 37799, "", "=q3=Reanimator's Cloak", "=ds=#s4#"};
+        { 18, 37800, "", "=q3=Aviary Guardsman's Hauberk", "=ds=#s5#, #a3#"};
+        { 19, 37801, "", "=q3=Waistguard of the Risen Knight", "=ds=#s10#, #a4#"};
+    };
 
 		-----------------------
 		--- The Violet Hold ---
@@ -478,10 +485,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["VioletHoldTrash"] = {
-		{ 1, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
-		{ 2, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
-		{ 3, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
-	};
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 2, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
+        { 3, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
+        { 4, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 37890, "", "=q3=Chain Gang Legguards", "=ds=#s11#, #a2#"};
+        { 18, 37891, "", "=q3=Cast Iron Shackles", "=ds=#s8#, #a4#"};
+        { 19, 37889, "", "=q3=Prison Manifest", "=ds=#s15#"};
+    }; 
 
 		---------------
 		--- Gundrak ---
@@ -552,10 +564,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["GundrakTrash"] = {
-		{ 1, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
-		{ 2, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
-		{ 3, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
-	};
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 2, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
+        { 3, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
+        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+        { 17, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
+        { 18, 37648, "", "=q3=Belt of Tasseled Lanterns", "=ds=#s10#, #a3#"};
+        { 19, 37646, "", "=q3=Burning Skull Pendant", "=ds=#s2#"};
+    }; 
 
 		----------------------
 		--- Halls of Stone ---
@@ -626,6 +642,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37673, "", "=q3=Dark Runic Mantle", "=ds=#s3#, #a1#"};
 		{ 18, 37672, "", "=q3=Patina-Coated Breastplate", "=ds=#s5#, #a4#"};
+        { 19, 37671, "", "=q3=Refined Ore Gloves", "=ds=#s9#, #a4#"}; 
 	};
 
 		--------------------------
@@ -790,9 +807,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["CoTStratholmeTrash"] = {
 		{ 1, 37117, "", "=q3=King's Square Bracers", "=ds=#s8#, #a2#"};
 		{ 2, 37116, "", "=q3=Epaulets of Market Row", "=ds=#s3#, #a3#"};
-		{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#"};
-		{ 4, 37822, "", "=q3=Twisted Puzzle-Ring", "=ds=#s13#"};
-		{ 5, 37824, "", "=q3=Gwyneth's Runed Dragonwand", "=ds=#w12#"};		
+		{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#"};		
 	};
 
 		------------------------
@@ -1678,7 +1693,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#"};
 		{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e12#"};
 		{ 13, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m3#"};
-		{ 14, 44650, "", "=q1=Heart of Magic", "=ds=#m3#"};
+		{ 16, 44650, "", "=q1=Heart of Magic", "=ds=#m3#"};
+        { 17, 44658, "", "=q4=Chain of the Ancient Wyrm", "=ds=#m4#"};
+        { 18, 44660, "", "=q4=Drakescale Collar", "=ds=#m4#"};
+        { 19, 44659, "", "=q4=Pendant of the Dragonsworn", "=ds=#m4#"};
+        { 20, 44657, "", "=q4=Torque of the Red Dragonflight", "=ds=#m4#"};
 	};
 
 	AtlasLoot_Data["Malygos25Man"] = {
@@ -1704,7 +1723,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 40531, "", "=q4=Mark of Norgannon", "=ds=#s14#"};
 		{ 21, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#"};
 		{ 23, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m3#"};
-		{ 24, 44650, "", "=q1=Heart of Magic", "=ds=#m3#"};
+		{ 25, 44650, "", "=q1=Heart of Magic", "=ds=#m3#"};
+        { 26, 44664, "", "=q4=Favor of the Dragon Queen", "=ds=#m4#"};
+        { 27, 44662, "", "=q4=Life-Binder's Locket", "=ds=#m4#"};
+        { 28, 44665, "", "=q4=Nexus War Champion Beads", "=ds=#m4#"};
+        { 29, 44661, "", "=q4=Wyrmrest Necklace of Power", "=ds=#m4#"};
 	};
 
 	----------------
@@ -3467,7 +3490,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#"};
 		{ 18, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#"};
 		{ 19, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#"};
-		{ 21, 0, "INV_Box_01", "=q6=Misc", ""};
+		{ 21, 0, "INV_Box_01", "=q6="..AL["Misc"], ""}; 
 		{ 22, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e12# =ec1=#m7#", "200 #eofheroism#"};
 		{ 23, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e12# =ec1=#m6#", "200 #eofheroism#"};
 		{ 24, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "80 #eofheroism#"};
