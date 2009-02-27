@@ -2,6 +2,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 -- Index
+--- Permanent Events???
+---- Argentum Tournament
 --- Seasonal Events
 ---- Brewfest
 ---- Children's Week
@@ -25,6 +27,59 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Skettis
 --- One Time Events
 ---- Scourge Invasion
+
+	------------------------
+	--- Permanent Events ---
+	------------------------
+
+		---------------------------
+		--- Argentum Tournament ---
+		---------------------------
+		
+	AtlasLoot_Data["ArgentTournament1"] = {
+		{ 1, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
+		{ 2, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
+		{ 3, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
+		{ 4, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
+		{ 5, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
+		{ 7, 0, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
+		{ 8, 0, "", "=q1=Undercity Tabard", "=ds=#s7#"};
+		{ 9, 0, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
+		{ 10, 0, "", "=q1=Sen'Jin Tabard", "=ds=#s7#"};
+		{ 11, 0, "", "=q1=Silvermoon Tabard", "=ds=#s7#"};
+		{ 16, 45021, "", "=q1=Darnassus Banner", "=ds="};
+		{ 17, 45020, "", "=q1=Exodar Banner", "=ds="};
+		{ 18, 45019, "", "=q1=Gnomeregan Banner", "=ds="};
+		{ 19, 45018, "", "=q1=Ironforge Banner", "=ds="};
+		{ 20, 45011, "", "=q1=Stormwind Banner", "=ds="};
+		{ 22, 0, "", "=q1=Orgrimmar Banner", "=ds="};
+		{ 23, 0, "", "=q1=Undercity Banner", "=ds="};
+		{ 24, 0, "", "=q1=Thunder Bluff Banner", "=ds="};
+		{ 25, 0, "", "=q1=Sen'Jin Banner", "=ds="};
+		{ 26, 0, "", "=q1=Silvermoon Banner", "=ds="};
+		Next = "ArgentTournament2";
+		Back = "WORLDEVENTMENU";
+	};
+	
+	AtlasLoot_Data["ArgentTournament2"] = {
+		{ 1, 44970, "", "=q1=Dun Morogh Cub", "=ds=#e13#"};
+		{ 2, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#"};
+		{ 3, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#"};
+		{ 4, 45002, "", "=q3=Mechanopeep", "=ds=#e13#"};
+		{ 5, 44965, "", "=q3=Teldrassil Sproutling", "=ds=#e13#"};
+		{ 16, 45590, "", "=q4=Great Azuremyst Elekk", "=ds=#e12#"};
+		{ 17, 45591, "", "=q4=Swift Darnassus Mistsaber", "=ds=#e12#"};
+		{ 18, 45586, "", "=q4=Swift Ironforge Ram", "=ds=#e12#"};
+		{ 19, 45125, "", "=q4=Swift Stormwind Steed", "=ds=#e12#"};
+		{ 20, 45589, "", "=q4=Turbostrider", "=ds=#e12#"};
+		{ 22, 0, "", "=q4=Great Mulgore Kodo", "=ds=#e12#"};
+		{ 23, 0, "", "=q4=Stabled Silvermoon Hawkstrider", "=ds=#e12#"};
+		{ 24, 0, "", "=q4=Swift Darkspear Raptor", "=ds=#e12#"};
+		{ 25, 0, "", "=q4=Swift Forsaken Warhorse", "=ds=#e12#"};
+		{ 26, 0, "", "=q4=Swift Orgrimmar Wolf", "=ds=#e12#"};
+		Prev = "ArgentTournament1";
+		Back = "WORLDEVENTMENU";
+	};
 
 	-----------------------
 	--- Seasonal Events ---

@@ -19,6 +19,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Naxxramas
 ---- Obsidian Sanctum
 ---- The Eye of Eternity
+---- Ulduar
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -1729,6 +1730,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
         { 28, 44665, "", "=q4=Nexus War Champion Beads", "=ds=#m4#"};
         { 29, 44661, "", "=q4=Wyrmrest Necklace of Power", "=ds=#m4#"};
 	};
+
+		--------------
+		--- Ulduar ---
+		--------------
 
 	----------------
 	--- Factions ---
@@ -3598,8 +3603,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "25 #eofvalor#"};
 		{ 3, 40717, "", "=q4=Ring of Invincibility", "=ds=#s13#", "25 #eofvalor#"};
 		{ 4, 40718, "", "=q4=Signet of the Impregnable Fortress", "=ds=#s13#", "25 #eofvalor#"};
-		{ 6, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#"};
-		{ 7, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#"};
+		{ 6, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "60 #eofvalor#"};
+		{ 7, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#"};
+		{ 8, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "60 #eofvalor#"};
+		{ 10, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#e15#", "75 #eofvalor#"};
+		{ 11, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#"};
+		{ 12, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#", "75 #eofvalor#"};
 		Prev = "EmblemofValor";
 		Back = "SETMENU";
 	};

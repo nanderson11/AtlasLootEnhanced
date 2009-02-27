@@ -424,6 +424,9 @@ AtlasLoot_DewDropDown = {
 			[18] = {
 				{ AL["Stranglethorn Fishing Extravaganza"], "FishingExtravaganza", "Table" },
 			},
+			[19] = {
+				{ "Argent Tournament", "ArgentTournament1", "Table" },
+			},
 		},
 	},
 };
