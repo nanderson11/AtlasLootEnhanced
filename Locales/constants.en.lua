@@ -299,6 +299,7 @@ if AL then
 	AL["Tier 4"] = true;
 	AL["Tier 5"] = true;
 	AL["Tier 6"] = true;
+	AL["Tier 7"] = true;
 	AL["Tier 7 Sets"] = true;
 	AL["10/25 Man"] = true;
 	AL["Tier 7 Sets 10/25 Man"] = true;
