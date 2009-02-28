@@ -247,10 +247,10 @@ if AL then
 	AL["Enchant Shield"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
-    
-    --Engineering
-    AL["Ammunition"] = true;
-    AL["Explosives"] = true;
+
+	--Engineering
+	AL["Ammunition"] = true;
+	AL["Explosives"] = true;
 
 	--Inscription
 	AL["Major Glyph"] = true;
@@ -969,13 +969,13 @@ if AL then
 	AL["Destruction"] = true;
 	AL["Tanking"] = true;
 	AL["DPS"] = true;
-    
-    --Naxx Zones
-    AL["Construct Quarter"] = true;
-    AL["Arachnid Quarter"] = true;
-    AL["Military Quarter"] = true;
-    AL["Plague Quarter"] = true;
-    AL["Frostwyrm Lair"] = true;
+
+	--Naxx Zones
+	AL["Construct Quarter"] = true;
+	AL["Arachnid Quarter"] = true;
+	AL["Military Quarter"] = true;
+	AL["Plague Quarter"] = true;
+	AL["Frostwyrm Lair"] = true;
 
 	--NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = true;
