@@ -127,12 +127,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#"};
 		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#"};
 		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#"};
+		{ 6, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 18, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
 		{ 19, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
 		{ 20, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"};
 		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
+		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 	};
 
 	AtlasLoot_Data["TheNexusAnomalus"] = {
@@ -288,12 +290,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 43278, "", "=q3=Cloak of the Darkcaster", "=ds=#s4#"};
 		{ 3, 43279, "", "=q3=Battlechest of the Twilight Cult", "=ds=#s5#, #a4#"};
 		{ 4, 43277, "", "=q3=Jedoga's Greatring", "=ds=#s13#"};
+		{ 6, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 18, 43283, "", "=q3=Subterranean Waterfall Shroud", "=ds=#s4#"};
 		{ 19, 43280, "", "=q3=Faceguard of the Hammer Clan", "=ds=#s1#, #a4#"};
 		{ 20, 43282, "", "=q3=Shadowseeker's Pendant", "=ds=#s2#"};
 		{ 21, 43281, "", "=q3=Edge of Oblivion", "=ds=#h2#, #w1#"};
+		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 	};
 
 	AtlasLoot_Data["AhnkahetVolazj"] = {
@@ -936,12 +940,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a2#"};
 		{ 4, 36953, "", "=q3=Spaulders of Skillful Maneuvers", "=ds=#s3#, #a3#"};
 		{ 5, 36952, "", "=q3=Girdle of Obscuring", "=ds=#s10#, #a4#"};
+		{ 7, 21525, "", "=q2=Green Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 18, 37289, "", "=q3=Sash of Phantasmal Images", "=ds=#s10#, #a1#"};
 		{ 19, 37288, "", "=q3=Catalytic Bands", "=ds=#s8#, #a4#"};
 		{ 20, 37195, "", "=q3=Band of Enchanted Growth", "=ds=#s13#"};
 		{ 21, 37264, "", "=q3=Pendulum of Telluric Currents", "=ds=#s14#"};
+		{ 23, 21525, "", "=q2=Green Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		Prev = "OcuCloudstrider";
 		Next = "OcuEregos";
 	};

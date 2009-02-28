@@ -542,7 +542,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
 		{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
 		Next = "Darkmoon2";
-		Back = "REPMENU_AZEROTHPREBC";
+		Back = "REPMENU_ORIGINALWOW";
 	};
 
 	AtlasLoot_Data["Darkmoon2"] = {
@@ -563,7 +563,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 31914, "", "=q4=Lunacy Deck", "=ds=#m2#"};
 		{ 26, 31859, "", "=q4=Darkmoon Card: Madness", "=q1=#m4#: =ds=#s14#"};
 		Prev = "Darkmoon1";
-		Back = "REPMENU_AZEROTHPREBC";
+		Back = "REPMENU_ORIGINALWOW";
 	};
 
 		--------------------------
