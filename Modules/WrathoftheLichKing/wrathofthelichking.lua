@@ -390,15 +390,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["DrakTharonKeepTrash"] = {
-        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-        { 2, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a2#"};
-        { 3, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#"};
-        { 4, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#"};
-        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-        { 17, 37799, "", "=q3=Reanimator's Cloak", "=ds=#s4#"};
-        { 18, 37800, "", "=q3=Aviary Guardsman's Hauberk", "=ds=#s5#, #a3#"};
-        { 19, 37801, "", "=q3=Waistguard of the Risen Knight", "=ds=#s10#, #a4#"};
-    };
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a2#"};
+		{ 3, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#"};
+		{ 4, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37799, "", "=q3=Reanimator's Cloak", "=ds=#s4#"};
+		{ 18, 37800, "", "=q3=Aviary Guardsman's Hauberk", "=ds=#s5#, #a3#"};
+		{ 19, 37801, "", "=q3=Waistguard of the Risen Knight", "=ds=#s10#, #a4#"};
+	};
 
 		-----------------------
 		--- The Violet Hold ---
@@ -490,15 +490,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["VioletHoldTrash"] = {
-        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-        { 2, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
-        { 3, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
-        { 4, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
-        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-        { 17, 37890, "", "=q3=Chain Gang Legguards", "=ds=#s11#, #a2#"};
-        { 18, 37891, "", "=q3=Cast Iron Shackles", "=ds=#s8#, #a4#"};
-        { 19, 37889, "", "=q3=Prison Manifest", "=ds=#s15#"};
-    }; 
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#"};
+		{ 3, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#"};
+		{ 4, 35652, "", "=q3=Incessant Torch", "=ds=#w12#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37890, "", "=q3=Chain Gang Legguards", "=ds=#s11#, #a2#"};
+		{ 18, 37891, "", "=q3=Cast Iron Shackles", "=ds=#s8#, #a4#"};
+		{ 19, 37889, "", "=q3=Prison Manifest", "=ds=#s15#"};
+	};
 
 		---------------
 		--- Gundrak ---
@@ -569,14 +569,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["GundrakTrash"] = {
-        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-        { 2, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
-        { 3, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
-        { 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-        { 17, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
-        { 18, 37648, "", "=q3=Belt of Tasseled Lanterns", "=ds=#s10#, #a3#"};
-        { 19, 37646, "", "=q3=Burning Skull Pendant", "=ds=#s2#"};
-    }; 
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 35594, "", "=q3=Snowmelt Silken Cinch", "=ds=#s10#, #a1#"};
+		{ 3, 35593, "", "=q3=Steel Bear Trap Bracers", "=ds=#s8#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
+		{ 18, 37648, "", "=q3=Belt of Tasseled Lanterns", "=ds=#s10#, #a3#"};
+		{ 19, 37646, "", "=q3=Burning Skull Pendant", "=ds=#s2#"};
+	}; 
 
 		----------------------
 		--- Halls of Stone ---
@@ -647,7 +647,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37673, "", "=q3=Dark Runic Mantle", "=ds=#s3#, #a1#"};
 		{ 18, 37672, "", "=q3=Patina-Coated Breastplate", "=ds=#s5#, #a4#"};
-        { 19, 37671, "", "=q3=Refined Ore Gloves", "=ds=#s9#, #a4#"}; 
+		{ 19, 37671, "", "=q3=Refined Ore Gloves", "=ds=#s9#, #a4#"}; 
 	};
 
 		--------------------------
@@ -1001,11 +1001,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 5, 39267, "", "=q4=Abomination Shoulderblades", "=ds=#s3#, #a4#"};
 		{ 6, 39262, "", "=q4=Gauntlets of Combined Strength", "=ds=#s9#, #a4#"};
 		{ 7, 39261, "", "=q4=Tainted Girdle of Mending", "=ds=#s10#, #a4#"};
-		{ 8, 39270, "", "=q4=Hatestrike", "=ds=#h1#, #w10#"};
-		{ 9, 39271, "", "=q4=Blade of Dormant Memories", "=ds=#h3#, #w4#"};
+		{ 8, 39271, "", "=q4=Blade of Dormant Memories", "=ds=#h3#, #w4#"};
+		{ 9, 39270, "", "=q4=Hatestrike", "=ds=#h1#, #w10#"};
 	};
 
-    AtlasLoot_Data["Naxx80Patchwerk25Man"] = {
+	AtlasLoot_Data["Naxx80Patchwerk25Man"] = {
 		{ 1, 40271, "", "=q4=Sash of Solitude", "=ds=#s10#, #a1#"};
 		{ 2, 40269, "", "=q4=Boots of Persuasion", "=ds=#s12#, #a1#"};
 		{ 3, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#"};
@@ -1023,13 +1023,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 15, 40075, "", "=q4=Ruthlessness", "=ds=#s13#"};
 		{ 16, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#"};
 		{ 17, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#"};
-        { 18, 40273, "", "=q4=Surplus Limb", "=ds=#s15#"};
+		{ 18, 40273, "", "=q4=Surplus Limb", "=ds=#s15#"};
 		{ 19, 40267, "", "=q4=Totem of Hex", "=ds=#s16#, #w15#"};
 		{ 20, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#, #w16#"};
-		{ 21, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#" };
-		{ 22, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#"};
+		{ 21, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#"};
+		{ 22, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#"};
 		{ 23, 40265, "", "=q4=Arrowsong", "=ds=#w2#"};
-    };
+	};
 
 	AtlasLoot_Data["Naxx80Grobbulus"] = {
 		{ 1, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#"};
@@ -1045,7 +1045,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["Naxx80Grobbulus25Man"] = {
-		{ 1, 40250, "", "-q4-Aged Winter Cloak", "=ds=#s4#"};
+		{ 1, 40250, "", "=q4=Aged Winter Cloak", "=ds=#s4#"};
 		{ 2, 40254, "", "=q4=Cloak of Averted Crisis", "=ds=#s4#"};
 		{ 3, 40252, "", "=q4=Cloak of the Shadowed Sun", "=ds=#s4#"};
 		{ 4, 40253, "", "=q4=Shawl of the Old Maid", "=ds=#s4#"};
@@ -1092,9 +1092,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 39232, "", "=q4=Pendant of Lost Vocations", "=ds=#s2#"};
 		{ 18, 39193, "", "=q4=Band of Neglected Pleas", "=ds=#s13#"};
 		{ 19, 39388, "", "=q4=Spirit-World Glass", "=ds=#s14#"};
-		{ 20, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#"};
-		{ 21, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#"};
-		{ 22, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#"};
+		{ 20, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#"};
+		{ 21, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#"};
+		{ 22, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#"};
 		{ 23, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#"};
 		Next = "Naxx80Gluth2";
 	};
@@ -1142,7 +1142,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 40297, "", "=q4=Sabatons of Endurance", "=ds=#s12#, #a4#"};
 		{ 28, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#"};
 		{ 29, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#"};
-		{ 30, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#"};
 		Next = "Naxx80Gluth225Man";
 	};
 
@@ -1150,11 +1149,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 40281, "", "=q4=Twilight Mist", "=ds=#w4#, #h1#"};
 		{ 2, 39714, "", "=q4=Webbed Death", "=ds=#w4#, #h1#"};
 		{ 3, 39730, "", "=q4=Widow's Fury", "=ds=#w10#, #h1#"};
-		{ 4, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#"};
-		{ 5, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#"};
-		{ 6, 40343, "", "=q4=Armageddon", "=ds=#w10#, #h2#"};
-		{ 7, 40265, "", "=q4=Arrowsong", "=ds=#w2#"};
-		{ 8, 40346, "", "=q4=Final Voyage", "=ds=#w3#"};
+		{ 4, 40343, "", "=q4=Armageddon", "=ds=#h2#, #w10#"};
+		{ 5, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#"};
+		{ 6, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#"};
+		{ 7, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#"};
+		{ 8, 40265, "", "=q4=Arrowsong", "=ds=#w2#"};
+		{ 9, 40346, "", "=q4=Final Voyage", "=ds=#w3#"};
 		{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#"};
@@ -1207,7 +1207,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 39140, "", "=q4=Knife of Incision", "=ds=#h1#, #w4#"};
 	};
 
-    AtlasLoot_Data["Naxx80AnubRekhan25Man"] = {
+	AtlasLoot_Data["Naxx80AnubRekhan25Man"] = {
 		{ 1, 39719, "", "=q4=Mantle of the Locusts", "=ds=#s3#, #a1#"};
 		{ 2, 39721, "", "=q4=Sash of the Parlor", "=ds=#s10#, #a1#"};
 		{ 3, 39720, "", "=q4=Leggings of Atrophy", "=ds=#s11#, #a1#"};
@@ -1230,7 +1230,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#"};
 		{ 21, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#"};
 		{ 22, 39712, "", "=q4=Gemmed Wand of the Nerubians", "=ds=#w12#"};
-    };
+	};
 
 	AtlasLoot_Data["Naxx80Faerlina"] = {
 		{ 1, 39216, "", "=q4=Sash of Mortal Desire", "=ds=#s10#, #a1#"};
@@ -1245,7 +1245,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 39199, "", "=q4=Watchful Eye", "=ds=#s15#"};
 	};
 
-    AtlasLoot_Data["Naxx80Faerlina25Man"] = {
+	AtlasLoot_Data["Naxx80Faerlina25Man"] = {
 		{ 1, 39732, "", "=q4=Faerlina's Madness", "=ds=#s1#, #a1#"};
 		{ 2, 39731, "", "=q4=Punctilious Bindings", "=ds=#s8#, #a1#"};
 		{ 3, 39733, "", "=q4=Gloves of Token Respect", "=ds=#s9#, #a1#"};
@@ -1270,7 +1270,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 39757, "", "=q4=Idol of Worship", "=ds=#s16#, #w14#"};
 		{ 23, 39728, "", "=q4=Totem of Misery", "=ds=#s16#, #w15#"};
 		{ 24, 39730, "", "=q4=Widow's Fury", "=ds=#w10#, #h1#"};
-    };
+	};
 
 	AtlasLoot_Data["Naxx80Maexxna"] = {
 		{ 1, 39225, "", "=q4=Cloak of Armed Strife", "=ds=#s4#"};
@@ -1285,7 +1285,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 39233, "", "=q4=Aegis of Damnation", "=ds=#w8#"};
 	};
 
-    AtlasLoot_Data["Naxx80Maexxna25Man"] = {
+	AtlasLoot_Data["Naxx80Maexxna25Man"] = {
 		{ 1, 40250, "", "-q4-Aged Winter Cloak", "=ds=#s4#" };
 		{ 2, 40254, "", "=q4=Cloak of Averted Crisis", "=ds=#s4#"};
 		{ 3, 40252, "", "=q4=Cloak of the Shadowed Sun", "=ds=#s4#"};
@@ -1310,7 +1310,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 39766, "", "=q4=Matriarch's Spawn", "=ds=#s15#"};
 		{ 23, 39763, "", "=q4=Wraith Strike", "=ds=#w13#, #h3#"};
 		{ 24, 39758, "", "=q4=The Jawbone", "=ds=#w6#, #h2#"};
-    };
+	};
 
 	AtlasLoot_Data["Naxx80Razuvious"] = {
 		{ 1, 39297, "", "=q4=Cloak of Darkening", "=ds=#s4#"};
@@ -1608,7 +1608,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 39427, "", "=q4=Omen of Ruin", "=ds=#h1#, #w4#"};
 		{ 5, 39468, "", "=q4=The Stray", "=ds=#h4#, #w13#"};
 		{ 6, 39473, "", "=q4=Contortion", "=ds=#w12#"};
-    };
+	};
 
 	AtlasLoot_Data["Naxx80Trash25Man"] = {
 		{ 1, 40410, "", "=q4=Shadow of the Ghoul", "=ds=#s4#"};
@@ -1701,10 +1701,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e12#"};
 		{ 13, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m3#"};
 		{ 16, 44650, "", "=q1=Heart of Magic", "=ds=#m3#"};
-        { 17, 44658, "", "=q4=Chain of the Ancient Wyrm", "=ds=#m4#"};
-        { 18, 44660, "", "=q4=Drakescale Collar", "=ds=#m4#"};
-        { 19, 44659, "", "=q4=Pendant of the Dragonsworn", "=ds=#m4#"};
-        { 20, 44657, "", "=q4=Torque of the Red Dragonflight", "=ds=#m4#"};
+		{ 17, 44658, "", "=q4=Chain of the Ancient Wyrm", "=q1=#m4#: =ds=#s2#"};
+		{ 18, 44660, "", "=q4=Drakescale Collar", "=q1=#m4#: =ds=#s2#"};
+		{ 19, 44659, "", "=q4=Pendant of the Dragonsworn", "=q1=#m4#: =ds=#s2#"};
+		{ 20, 44657, "", "=q4=Torque of the Red Dragonflight", "=q1=#m4#: =ds=#s2#"};
 	};
 
 	AtlasLoot_Data["Malygos25Man"] = {
@@ -1731,10 +1731,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e12#"};
 		{ 23, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m3#"};
 		{ 25, 44650, "", "=q1=Heart of Magic", "=ds=#m3#"};
-        { 26, 44664, "", "=q4=Favor of the Dragon Queen", "=ds=#m4#"};
-        { 27, 44662, "", "=q4=Life-Binder's Locket", "=ds=#m4#"};
-        { 28, 44665, "", "=q4=Nexus War Champion Beads", "=ds=#m4#"};
-        { 29, 44661, "", "=q4=Wyrmrest Necklace of Power", "=ds=#m4#"};
+		{ 26, 44664, "", "=q4=Favor of the Dragon Queen", "=q1=#m4#: =ds=#s2#"};
+		{ 27, 44662, "", "=q4=Life-Binder's Locket", "=q1=#m4#: =ds=#s2#"};
+		{ 28, 44665, "", "=q4=Nexus War Champion Beads", "=q1=#m4#: =ds=#s2#"};
+		{ 29, 44661, "", "=q4=Wyrmrest Necklace of Power", "=q1=#m4#: =ds=#s2#"};
 	};
 
 		--------------
@@ -2801,38 +2801,38 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------------------------
 
 	AtlasLoot_Data["LakeWintergrasp1"] = {
-        { 1, 44910, "", "=q4=Titan-forged Hood of Dominance", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
-        { 2, 44909, "", "=q4=Titan-forged Hood of Salvation", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
-        { 3, 44899, "", "=q4=Titan-forged Slippers of Dominance", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
-        { 4, 44900, "", "=q4=Titan-forged Slippers of Salvation", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
-        { 5, 44907, "", "=q4=Titan-forged Leather Helm of Dominance", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
-        { 6, 44906, "", "=q4=Titan-forged Leather Helm of Salvation", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
-        { 7, 44908, "", "=q4=Titan-forged Leather Helm of Triumph", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
-        { 8, 44891, "", "=q4=Titan-forged Boots of Dominance", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
-        { 9, 44892, "", "=q4=Titan-forged Boots of Salvation", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
-        { 10, 44893, "", "=q4=Titan-forged Boots of Triumph", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
-        { 11, 44914, "", "=q4=Anvil of Titans", "=ds=#s14#", "25 #wintergraspmark#" };
-        { 12, 44912, "", "=q4=Flow of Knowledge", "=ds=#s14#", "25 #wintergraspmark#" };
-        { 14, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12#", "300 #wintergrasp#"};
+		{ 1, 44910, "", "=q4=Titan-forged Hood of Dominance", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
+		{ 2, 44909, "", "=q4=Titan-forged Hood of Salvation", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
+		{ 3, 44899, "", "=q4=Titan-forged Slippers of Dominance", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
+		{ 4, 44900, "", "=q4=Titan-forged Slippers of Salvation", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
+		{ 5, 44907, "", "=q4=Titan-forged Leather Helm of Dominance", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
+		{ 6, 44906, "", "=q4=Titan-forged Leather Helm of Salvation", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
+		{ 7, 44908, "", "=q4=Titan-forged Leather Helm of Triumph", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
+		{ 8, 44891, "", "=q4=Titan-forged Boots of Dominance", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
+		{ 9, 44892, "", "=q4=Titan-forged Boots of Salvation", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
+		{ 10, 44893, "", "=q4=Titan-forged Boots of Triumph", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
+		{ 11, 44914, "", "=q4=Anvil of Titans", "=ds=#s14#", "25 #wintergraspmark#" };
+		{ 12, 44912, "", "=q4=Flow of Knowledge", "=ds=#s14#", "25 #wintergraspmark#" };
+		{ 14, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12#", "300 #wintergrasp#"};
 		{ 15, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12#", "300 #wintergrasp#"};
-        { 16, 44903, "", "=q4=Titan-forged Chain Helm of Triumph", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
-        { 17, 44904, "", "=q4=Titan-forged Mail Helm of Dominance", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
-        { 18, 44905, "", "=q4=Titan-forged Ringmail Helm of Salvation", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
-        { 19, 44896, "", "=q4=Titan-forged Sabatons of Dominance", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
-        { 20, 44897, "", "=q4=Titan-forged Sabatons of Salvation", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
-        { 21, 44898, "", "=q4=Titan-forged Sabatons of Triumph", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
-        { 22, 44901, "", "=q4=Titan-forged Plate Headcover of Salvation", "=ds=#s1#, #a4#", "40 #wintergraspmark#" };
-        { 23, 44902, "", "=q4=Titan-forged Plate Helm of Triumph", "=ds=#s12#, #a4#", "40 #wintergraspmark#" };
-        { 24, 44894, "", "=q4=Titan-forged Greaves of Salvation", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
-        { 25, 44895, "", "=q4=Titan-forged Greaves of Triumph", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
-        { 27, 44075, "", "=q3=Arcanum of Dominance", "=ds=#s1# #e17#", "40 #wintergrasp#"};
+		{ 16, 44903, "", "=q4=Titan-forged Chain Helm of Triumph", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
+		{ 17, 44904, "", "=q4=Titan-forged Mail Helm of Dominance", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
+		{ 18, 44905, "", "=q4=Titan-forged Ringmail Helm of Salvation", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
+		{ 19, 44896, "", "=q4=Titan-forged Sabatons of Dominance", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
+		{ 20, 44897, "", "=q4=Titan-forged Sabatons of Salvation", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
+		{ 21, 44898, "", "=q4=Titan-forged Sabatons of Triumph", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
+		{ 22, 44901, "", "=q4=Titan-forged Plate Headcover of Salvation", "=ds=#s1#, #a4#", "40 #wintergraspmark#" };
+		{ 23, 44902, "", "=q4=Titan-forged Plate Helm of Triumph", "=ds=#s12#, #a4#", "40 #wintergraspmark#" };
+		{ 24, 44894, "", "=q4=Titan-forged Greaves of Salvation", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
+		{ 25, 44895, "", "=q4=Titan-forged Greaves of Triumph", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
+		{ 27, 44075, "", "=q3=Arcanum of Dominance", "=ds=#s1# #e17#", "40 #wintergrasp#"};
 		{ 28, 44069, "", "=q3=Arcanum of Triumph", "=ds=#s1# #e17#", "40 #wintergrasp#"};
 		{ 29, 44068, "", "=q3=Inscription of Dominance", "=ds=#s3# #e17#", "30 #wintergrasp#"};
 		{ 30, 44067, "", "=q3=Inscription of Triumph", "=ds=#s3# #e17#", "30 #wintergrasp#"};
-        Next = "LakeWintergrasp2";
-    };
-    
-    AtlasLoot_Data["LakeWintergrasp2"] = {
+		Next = "LakeWintergrasp2";
+	};
+
+	AtlasLoot_Data["LakeWintergrasp2"] = {
 		{ 1, 44066, "", "=q4=Kharmaa's Grace", "=ds=#e7#", "20 #wintergrasp#"};
 		{ 2, 44081, "", "=q3=Enigmatic Starflare Diamond", "=ds=#e7#", "15 #wintergrasp#"};
 		{ 3, 44084, "", "=q3=Forlorn Starflare Diamond", "=ds=#e7#", "15 #wintergrasp#"};
@@ -2857,7 +2857,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 41743, "", "=q3=Design: Forlorn Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		{ 29, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		Next = "LakeWintergrasp3";
-        Prev = "LakeWintergrasp1";
+		Prev = "LakeWintergrasp1";
 		Back = "PVPMENU";
 	};
 
