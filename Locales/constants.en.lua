@@ -378,6 +378,11 @@ if AL then
 	AL["The Red Bearon"] = true;
 	AL["Owned!"] = true;
 	AL["Slashdance"] = true;
+	-- Eighth set
+	AL["Blood of Gladiators"] = true;
+	AL["Sandbox Tiger"] = true;
+	AL["Center of Attention"] = true;
+	AL["Foam Sword Rack"] = true;
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = true;
