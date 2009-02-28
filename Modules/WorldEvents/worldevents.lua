@@ -542,28 +542,66 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
 		{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
 		Next = "Darkmoon2";
-		Back = "REPMENU_ORIGINALWOW";
+		Back = "DARKMOONMENU";
 	};
 
 	AtlasLoot_Data["Darkmoon2"] = {
+		{ 1, 37163, "", "=q2=Rogues Deck", "=ds=#m2#"};
+		{ 2, 38318, "", "=q2=Darkmoon Robe", "=q1=#m4#: =ds=#s5#, #a1# =q2=#m16#"};
+		{ 3, 39509, "", "=q2=Darkmoon Vest", "=q1=#m4#: =ds=#s5#, #a2# =q2=#m16#"};
+		{ 4, 39507, "", "=q2=Darkmoon Chain Shirt", "=q1=#m4#: =ds=#s5#, #a3# =q2=#m16#"};
+		{ 6, 37164, "", "=q3=Swords Deck", "=ds=#m2#"};
+		{ 7, 39894, "", "=q3=Darkcloth Shoulders", "=q1=#m4#: =ds=#s3#, #a1# =q2=#m16#"};
+		{ 8, 39895, "", "=q3=Cloaked Shoulderpads", "=q1=#m4#: =ds=#s3#, #a2# =q2=#m16#"};
+		{ 9, 39897, "", "=q3=Azure Shoulderguards", "=q1=#m4#: =ds=#s3#, #a3# =q2=#m16#"};
+		{ 16, 44148, "", "=q3=Mages Deck", "=ds=#m2#"};
+		{ 17, 44215, "", "=q3=Darkmoon Necklace", "=q1=#m4#: =ds=#s2#"};
+		{ 18, 44213, "", "=q3=Darkmoon Pendant", "=q1=#m4#: =ds=#s2#"};
+		{ 21, 44158, "", "=q3=Demons Deck", "=ds=#m2#"};
+		{ 22, 44217, "", "=q3=Darkmoon Dirk", "=q1=#m4#: =ds=#h1#, #w4#"};
+		{ 23, 44218, "", "=q3=Darkmoon Executioner", "=q1=#m4#: =ds=#h2#, #w1#"};
+		{ 24, 44219, "", "=q3=Darkmoon Magestaff", "=q1=#m4#: =ds=#w9#"};
+		Prev = "Darkmoon1";
+		Next = "Darkmoon3";
+		Back = "DARKMOONMENU";
+	};
+
+	AtlasLoot_Data["Darkmoon3"] = {
 		{ 1, 19228, "", "=q4=Beasts Deck", "=ds=#m2#"};
 		{ 2, 19288, "", "=q4=Darkmoon Card: Blue Dragon", "=q1=#m4#: =ds=#s14#"};
 		{ 4, 19267, "", "=q4=Elementals Deck", "=ds=#m2#"};
 		{ 5, 19289, "", "=q4=Darkmoon Card: Maelstrom", "=q1=#m4#: =ds=#s14#"};
-		{ 7, 19257, "", "=q4=Warlords Deck", "=ds=#m2#"};
-		{ 8, 19287, "", "=q4=Darkmoon Card: Heroism", "=q1=#m4#: =ds=#s14#"};
-		{ 10, 19277, "", "=q4=Portals Deck", "=ds=#m2#"};
-		{ 11, 19290, "", "=q4=Darkmoon Card: Twisting Nether", "=q1=#m4#: =ds=#s14#"};
-		{ 16, 31907, "", "=q4=Furies Deck", "=ds=#m2#"};
-		{ 17, 31858, "", "=q4=Darkmoon Card: Vengeance", "=q1=#m4#: =ds=#s14#"};
-		{ 19, 31891, "", "=q4=Storms Deck", "=ds=#m2#"};
-		{ 20, 31857, "", "=q4=Darkmoon Card: Wrath", "=q1=#m4#: =ds=#s14#"};
-		{ 22, 31890, "", "=q4=Blessings Deck", "=ds=#m2#"};
-		{ 23, 31856, "", "=q4=Darkmoon Card: Crusade", "=q1=#m4#: =ds=#s14#"};
-		{ 25, 31914, "", "=q4=Lunacy Deck", "=ds=#m2#"};
-		{ 26, 31859, "", "=q4=Darkmoon Card: Madness", "=q1=#m4#: =ds=#s14#"};
-		Prev = "Darkmoon1";
-		Back = "REPMENU_ORIGINALWOW";
+		{ 7, 19277, "", "=q4=Portals Deck", "=ds=#m2#"};
+		{ 8, 19290, "", "=q4=Darkmoon Card: Twisting Nether", "=q1=#m4#: =ds=#s14#"};
+		{ 10, 19257, "", "=q4=Warlords Deck", "=ds=#m2#"};
+		{ 11, 19287, "", "=q4=Darkmoon Card: Heroism", "=q1=#m4#: =ds=#s14#"};
+		{ 16, 31890, "", "=q4=Blessings Deck", "=ds=#m2#"};
+		{ 17, 31856, "", "=q4=Darkmoon Card: Crusade", "=q1=#m4#: =ds=#s14#"};
+		{ 19, 31907, "", "=q4=Furies Deck", "=ds=#m2#"};
+		{ 20, 31858, "", "=q4=Darkmoon Card: Vengeance", "=q1=#m4#: =ds=#s14#"};
+		{ 22, 31914, "", "=q4=Lunacy Deck", "=ds=#m2#"};
+		{ 23, 31859, "", "=q4=Darkmoon Card: Madness", "=q1=#m4#: =ds=#s14#"};
+		{ 25, 31891, "", "=q4=Storms Deck", "=ds=#m2#"};
+		{ 26, 31857, "", "=q4=Darkmoon Card: Wrath", "=q1=#m4#: =ds=#s14#"};
+		Prev = "Darkmoon2";
+		Next = "Darkmoon4";
+		Back = "DARKMOONMENU";
+	};
+
+	AtlasLoot_Data["Darkmoon4"] = {
+		{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
+		{ 2, 42989, "", "=q4=Darkmoon Card: Berserker!", "=q1=#m4#: =ds=#s14#"};
+		{ 4, 44259, "", "=q4=Prisms Deck", "=ds=#m2#"};
+		{ 5, 19287, "", "=q4=Darkmoon Card: Illusion", "=q1=#m4#: =ds=#s14#"};
+		{ 7, 44294, "", "=q4=Undeath Deck", "=ds=#m2#"};
+		{ 8, 42990, "", "=q4=Darkmoon Card: Death", "=q1=#m4#: =ds=#s14#"};
+		{ 16, 44326, "", "=q4=Nobles Deck", "=ds=#m2#"};
+		{ 17, 44253, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+		{ 18, 42987, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+		{ 19, 44254, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+		{ 20, 44255, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+		Prev = "Darkmoon3";
+		Back = "DARKMOONMENU";
 	};
 
 		--------------------------

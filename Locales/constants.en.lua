@@ -332,6 +332,12 @@ if AL then
 	AL["Unattainable Tabards"] = true;
 	AL["Heirloom"] = true;
 
+	--Darkmoon Faire
+	AL["Darkmoon Faire Rewards"] = true;
+	AL["Low Level Decks"] = true;
+	AL["Original and BC Trinkets"] = true;
+	AL["WotLK Trinkets"] = true;
+
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = true;
 	AL["Loot Card Items"] = true;

@@ -374,58 +374,61 @@ AtlasLoot_DewDropDown = {
 				{ AL["Abyssal Council"], "AbyssalCouncil", "Submenu" },
 			},
 			[2] = {
-				{ AL["Bash'ir Landing Skyguard Raid"], "BashirLanding", "Table" },
+				{ "Argent Tournament", "ArgentTournament1", "Table" },
 			},
 			[3] = {
-				{ AL["Brewfest"], "Brewfest1", "Table" },
+				{ AL["Bash'ir Landing Skyguard Raid"], "BashirLanding", "Table" },
 			},
 			[4] = {
-				{ AL["Children's Week"], "ChildrensWeek", "Table" },
+				{ AL["Brewfest"], "Brewfest1", "Table" },
 			},
 			[5] = {
-				{ AL["Elemental Invasion"], "ElementalInvasion", "Table" },
+				{ AL["Children's Week"], "ChildrensWeek", "Table" },
 			},
 			[6] = {
-				{ AL["Ethereum Prison"], "EthereumPrison", "Submenu" },
+				{ BabbleFaction["Darkmoon Faire"], "DARKMOONMENU", "Table" },
 			},
 			[7] = {
-				{ AL["Feast of Winter Veil"], "Winterviel1", "Table" },
+				{ AL["Elemental Invasion"], "ElementalInvasion", "Table" },
 			},
 			[8] = {
-				{ AL["Gurubashi Arena Booty Run"], "GurubashiArena", "Table" },
+				{ AL["Ethereum Prison"], "EthereumPrison", "Submenu" },
 			},
 			[9] = {
-				{ AL["Hallow's End"], "Halloween1", "Table" },
+				{ AL["Feast of Winter Veil"], "Winterviel1", "Table" },
 			},
 			[10] = {
-				{ AL["Harvest Festival"], "HarvestFestival", "Table" },
+				{ AL["Gurubashi Arena Booty Run"], "GurubashiArena", "Table" },
 			},
 			[11] = {
-				{ AL["Love is in the Air"], "Valentineday", "Table" },
+				{ AL["Hallow's End"], "Halloween1", "Table" },
 			},
 			[12] = {
-				{ AL["Lunar Festival"], "LunarFestival1", "Table" },
+				{ AL["Harvest Festival"], "HarvestFestival", "Table" },
 			},
 			[13] = {
-				{ AL["Midsummer Fire Festival"], "MidsummerFestival", "Table" },
+				{ AL["Love is in the Air"], "Valentineday", "Table" },
 			},
 			[14] = {
-				{ AL["Noblegarden"], "Noblegarden", "Table" },
+				{ AL["Lunar Festival"], "LunarFestival1", "Table" },
 			},
 			[15] = {
-				{ AL["Scourge Invasion"], "ScourgeInvasionEvent1", "Table" },
+				{ AL["Midsummer Fire Festival"], "MidsummerFestival", "Table" },
 			},
 			[16] = {
-				{ AL["Shartuul"], "Shartuul", "Table" },
+				{ AL["Noblegarden"], "Noblegarden", "Table" },
 			},
 			[17] = {
-				{ AL["Skettis"], "Skettis", "Submenu" },
+				{ AL["Scourge Invasion"], "ScourgeInvasionEvent1", "Table" },
 			},
 			[18] = {
-				{ AL["Stranglethorn Fishing Extravaganza"], "FishingExtravaganza", "Table" },
+				{ AL["Shartuul"], "Shartuul", "Table" },
 			},
 			[19] = {
-				{ "Argent Tournament", "ArgentTournament1", "Table" },
+				{ AL["Skettis"], "Skettis", "Submenu" },
+			},
+			[20] = {
+				{ AL["Stranglethorn Fishing Extravaganza"], "FishingExtravaganza", "Table" },
 			},
 		},
 	},

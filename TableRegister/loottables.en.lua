@@ -901,6 +901,11 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Templars"] = { "Abyssal Council - Templars", "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Dukes"] = { "Abyssal Council - Dukes", "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["HighCouncil"] = { "Abyssal Council - High Council", "AtlasLootWorldEvents" };
+  -- The Darkmoon Faire
+	AtlasLoot_TableNames["Darkmoon1"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["Darkmoon2"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["Darkmoon3"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["Darkmoon4"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
   -- Ethereum Prison
 	AtlasLoot_TableNames["ArmbreakerHuffaz"] = { AL["Armbreaker Huffaz"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["FelTinkererZortan"] = { AL["Fel Tinkerer Zortan"], "AtlasLootWorldEvents" };
@@ -965,9 +970,6 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Cenarion2"] = { BabbleFaction["Cenarion Circle"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Cenarion3"] = { BabbleFaction["Cenarion Circle"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Cenarion4"] = { BabbleFaction["Cenarion Circle"], "AtlasLootOriginalWoW" };
-  -- The Darkmoon Faire
-	AtlasLoot_TableNames["Darkmoon1"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["Darkmoon2"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
   -- Thorium Brotherhood
 	AtlasLoot_TableNames["Thorium1"] = { BabbleFaction["Thorium Brotherhood"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Thorium2"] = { BabbleFaction["Thorium Brotherhood"], "AtlasLootOriginalWoW" };
@@ -1350,6 +1352,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };
+	AtlasLoot_TableNames["DARKMOONMENU"] = { BabbleFaction["Darkmoon Faire"], "Menu" };
 	AtlasLoot_TableNames["SKETTISMENU"] = { AL["Skettis"], "Menu" };
 	AtlasLoot_TableNames["70TOKENMENU"] = { AL["Badge of Justice Rewards"], "Menu" };
 	AtlasLoot_TableNames["LEVEL60PVPREWARDS"] = { AL["PvP Rewards (Level 60)"], "Menu" };
