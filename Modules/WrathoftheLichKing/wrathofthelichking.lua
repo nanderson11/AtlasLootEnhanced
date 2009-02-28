@@ -241,11 +241,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["AzjolNerubTrash"] = {
-        { 1, 0, "INV_Box_01", "=q6=#j3#", ""};
-        { 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
-        { 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
-        { 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
-    }; 
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
+		{ 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
+		{ 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
+	}; 
 
 		----------------------------------
 		--- Ahn'kahet: The Old Kingdom ---
