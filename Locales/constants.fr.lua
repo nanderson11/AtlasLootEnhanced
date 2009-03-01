@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 21/01/2009)
+constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 01/03/2009)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -332,6 +332,12 @@ if AL then
 	AL["Unattainable Tabards"] = "Tabards inaccessible";
 	AL["Heirloom"] = "Antiquité";
 
+	--Darkmoon Faire
+	AL["Darkmoon Faire Rewards"] = "Récompenses Foire de Sombrelune";
+	AL["Low Level Decks"] = "Cartes bas level";
+	AL["Original and BC Trinkets"] = "Bijoux de WoW Original & BC";
+	AL["WotLK Trinkets"] = "Bijoux de WotLK";
+
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = "Objets des cartes à jouer WoW TCG";
 	AL["Loot Card Items"] = "Objets des cartes à jouer";
@@ -372,6 +378,11 @@ if AL then
 	--AL["The Red Bearon"] = true; -- à traduire
 	--AL["Owned!"] = true; -- à traduire
 	--AL["Slashdance"] = true; -- à traduire
+	-- Eighth set -- à traduire
+	--AL["Blood of Gladiators"] = true;
+	--AL["Sandbox Tiger"] = true;
+	--AL["Center of Attention"] = true;
+	--AL["Foam Sword Rack"] = true;
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "Récompenses Diverses";
@@ -1119,7 +1130,7 @@ if AL then
 	--AL["Rescue Mission"] = true; -- à traduire
 	--AL["Gjarngrin"] = true; -- à traduire
 	--AL["Kronus"] = true; -- à traduire
-	--AL["Loken"] = true; -- à traduire
+	--AL["Loken"] = true;
 	AL["Time-Lost Proto Drake"] = "Proto-drake perdu dans le temps";
 
 	--Zones
