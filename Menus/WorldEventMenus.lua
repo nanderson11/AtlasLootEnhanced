@@ -16,6 +16,7 @@ AtlasLoot_Data["WORLDEVENTMENU"] = {
         { 12, "Shartuul", "INV_Misc_Rune_04", "=ds="..AL["Shartuul"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
         { 14, "ABYSSALMENU", "INV_Staff_13", "=ds="..AL["Abyssal Council"], "=q5="..BabbleZone["Silithus"]};
         { 15, "SKETTISMENU", "Spell_Nature_NaturesWrath", "=ds="..AL["Skettis"], "=q5="..BabbleZone["Terokkar Forest"]};
+        { 17, "ArgentTournament1", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], ""};
         { 19, "ChildrensWeek", "Ability_Hunter_BeastCall", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
         { 20, "Halloween1", "INV_Misc_Bag_28_Halloween", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
         { 21, "Valentineday", "INV_ValentinesBoxOfChocolates02", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};

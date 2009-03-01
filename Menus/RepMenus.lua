@@ -11,22 +11,21 @@ AtlasLoot_Data["REPMENU"] = {
 	};
     
 AtlasLoot_Data["REPMENU_ORIGINALWOW"] = {
-        { 2, "Argent1", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Dawn"], ""}; 
-        { 3, "AQBroodRings", "INV_Jewelry_Ring_40", "=ds="..BabbleFaction["Brood of Nozdormu"], ""};
-        { 4, "Darkmoon1", "INV_Misc_Ticket_Tarot_Maelstrom_01", "=ds="..BabbleFaction["Darkmoon Faire"], ""};
-        { 5, "AlteracFactions", "INV_Jewelry_FrostwolfTrinket_01", "=ds="..BabbleFaction["Frostwolf Clan"], "=q5="..BabbleFaction["Horde"]};
-        { 6, "BloodsailHydraxian", "Spell_Frost_SummonWaterElemental_2", "=ds="..BabbleFaction["Hydraxian Waterlords"], ""};
-        { 7, "MiscFactions", "INV_Misc_Head_Centaur_01", "=ds="..BabbleFaction["Magram Clan Centaur"], ""};
-        { 8, "Thorium1", "INV_Ingot_Mithril", "=ds="..BabbleFaction["Thorium Brotherhood"], ""};
-        { 9, "MiscFactions", "Ability_Mount_PinkTiger", "=ds="..BabbleFaction["Wintersaber Trainers"], "=q5="..BabbleFaction["Alliance"]};
+        { 2, "Argent1", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Dawn"], "=q5="..BabbleZone["Eastern Plaguelands"]}; 
+        { 3, "AQBroodRings", "INV_Jewelry_Ring_40", "=ds="..BabbleFaction["Brood of Nozdormu"], "=q5="..BabbleZone["Temple of Ahn'Qiraj"]};
+        { 4, "MiscFactions", "INV_Jewelry_Amulet_07", "=ds="..BabbleFaction["The Defilers"], "=q5="..BabbleFaction["Horde"]}; 
+        { 5, "MiscFactions", "INV_Misc_Head_Centaur_01", "=ds="..BabbleFaction["Gelkis Clan Centaur"], "=q5="..BabbleZone["Desolace"]};
+        { 6, "MiscFactions", "INV_Jewelry_Amulet_07", "=ds="..BabbleFaction["The League of Arathor"], "=q5="..BabbleFaction["Alliance"]};
+        { 7, "AlteracFactions", "INV_Jewelry_StormPikeTrinket_01", "=ds="..BabbleFaction["Stormpike Guard"], "=q5="..BabbleFaction["Alliance"]};
+        { 8, "Timbermaw", "INV_Misc_Horn_01", "=ds="..BabbleFaction["Timbermaw Hold"], ""};
+        { 9, "Zandalar1", "INV_Misc_Coin_08", "=ds="..BabbleFaction["Zandalar Tribe"], "=q5="..BabbleZone["Zul'Gurub"]};
         { 17, "BloodsailHydraxian", "INV_Helmet_66", "=ds="..BabbleFaction["Bloodsail Buccaneers"], ""};
-        { 18, "Cenarion1", "INV_Chest_Plate07", "=ds="..BabbleFaction["Cenarion Circle"], ""};
-        { 19, "MiscFactions", "INV_Jewelry_Amulet_07", "=ds="..BabbleFaction["The Defilers"], "=q5="..BabbleFaction["Horde"]}; 
-        { 20, "MiscFactions", "INV_Misc_Head_Centaur_01", "=ds="..BabbleFaction["Gelkis Clan Centaur"], ""};
-        { 21, "MiscFactions", "INV_Jewelry_Amulet_07", "=ds="..BabbleFaction["The League of Arathor"], "=q5="..BabbleFaction["Alliance"]};
-        { 22, "AlteracFactions", "INV_Jewelry_StormPikeTrinket_01", "=ds="..BabbleFaction["Stormpike Guard"], "=q5="..BabbleFaction["Alliance"]};
-        { 23, "Timbermaw", "INV_Misc_Horn_01", "=ds="..BabbleFaction["Timbermaw Hold"], ""};
-        { 24, "Zandalar1", "INV_Misc_Coin_08", "=ds="..BabbleFaction["Zandalar Tribe"], ""};
+        { 18, "Cenarion1", "INV_Chest_Plate07", "=ds="..BabbleFaction["Cenarion Circle"], "=q5="..BabbleZone["Silithus"]};
+        { 19, "AlteracFactions", "INV_Jewelry_FrostwolfTrinket_01", "=ds="..BabbleFaction["Frostwolf Clan"], "=q5="..BabbleFaction["Horde"]};
+        { 20, "BloodsailHydraxian", "Spell_Frost_SummonWaterElemental_2", "=ds="..BabbleFaction["Hydraxian Waterlords"], "=q5="..BabbleZone["Molten Core"]};
+        { 21, "MiscFactions", "INV_Misc_Head_Centaur_01", "=ds="..BabbleFaction["Magram Clan Centaur"], "=q5="..BabbleZone["Desolace"]};
+        { 22, "Thorium1", "INV_Ingot_Mithril", "=ds="..BabbleFaction["Thorium Brotherhood"], "=q5="..BabbleZone["Searing Gorge"]};
+        { 23, "MiscFactions", "Ability_Mount_PinkTiger", "=ds="..BabbleFaction["Wintersaber Trainers"], "=q5="..BabbleFaction["Alliance"]};
         Back = "REPMENU";
     };
 

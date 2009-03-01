@@ -1218,6 +1218,7 @@ if AL then
 	AL["Noblegarden"] = true;
 	AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = true;
+	AL["Argent Tournament"] = true;
 
 	--Help Frame
 	AL["Help"] = true;
