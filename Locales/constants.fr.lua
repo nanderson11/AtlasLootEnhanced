@@ -343,46 +343,46 @@ if AL then
 	AL["Loot Card Items"] = "Objets des cartes à jouer";
 	AL["UDE Items"] = "Objets (points UDE)";
 
-	-- serie 1
+	-- First set
 	AL["Heroes of Azeroth"] = "Héros d'Azeroth";
 	AL["Landro Longshot"] = "Landro Tirauloin";
 	AL["Thunderhead Hippogryph"] = "Hippogryffe Tête-Tonnerre";
 	AL["Saltwater Snapjaw"] = "Gueule d'acier des mers";
-	-- serie 2
+	-- Second set
 	AL["Through The Dark Portal"] = "A Travers la Porte des Ténèbres";
 	AL["King Mukla"] = "Roi Mukla";
 	AL["Rest and Relaxation"] = "Repos et relaxation";
 	AL["Fortune Telling"] = "La Bonne Aventure";
-	-- serie 3
+	-- Third set
 	AL["Fires of Outland"] = "Les Feux de l'Outreterre";
 	AL["Spectral Tiger"] = "Tigre Spectral";
 	AL["Gone Fishin'"] = "Parti Pêcher";
 	AL["Goblin Gumbo"] = "Gumbo Gobelin";
-	-- serie 4
+	-- Fourth set
 	AL["March of the Legion"] = "Marche de la Légion";
 	--AL["Kiting"] = true; -- à traduire
 	AL["Robotic Homing Chicken"] = "Poulet Robot Guidé";
 	AL["Paper Airplane"] = "Machine volante en papier";
-	-- serie 5
+	-- Fifth set
 	AL["Servants of the Betrayer"] = "Les Serviteurs du Traître";
 	AL["X-51 Nether-Rocket"] = "Fusée-de-néant X-51";
 	AL["Personal Weather Machine"] = "Machine météorologique gobeline";
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Biscuit pour familier à l'ancienne de papa Humme";
-	-- serie 6
+	-- Sixth set
 	AL["Hunt for Illidan"] = "La Traque d'Illidan";
 	--AL["The Footsteps of Illidan"] = true; -- à traduire
 	--AL["Disco Inferno!"] = true; -- à traduire
 	AL["Ethereal Plunderer"] = "Pilleur éthérien";
-	-- serie 7
+	-- Seventh set
 	AL["Drums of War"] = "Tambours de Guerre";
 	--AL["The Red Bearon"] = true; -- à traduire
 	--AL["Owned!"] = true; -- à traduire
 	--AL["Slashdance"] = true; -- à traduire
-	-- Eighth set -- à traduire
-	--AL["Blood of Gladiators"] = true;
-	--AL["Sandbox Tiger"] = true;
-	--AL["Center of Attention"] = true;
-	--AL["Foam Sword Rack"] = true;
+	-- Eighth set
+	AL["Blood of Gladiators"] = "Le Sang des Gladiateurs";
+	AL["Sandbox Tiger"] = "Tigre de bac à sable";
+	AL["Center of Attention"] = "Chemise violette épique";
+	AL["Foam Sword Rack"] = "Râtelier d'épées en mousse";
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "Récompenses Diverses";
