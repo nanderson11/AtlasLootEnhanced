@@ -161,18 +161,20 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Naxx80KelThuzad25Man"] = { BabbleBoss["Kel'Thuzad"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Trash"] = { AL["Trash Mobs"].." ("..BabbleZone["Naxxramas"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Trash25Man"] = { AL["Trash Mobs"].." ("..BabbleZone["Naxxramas"]..")", "AtlasLootWotLK" };
-	--AtlasLoot_TableNames["Naxx80Unknown"] = { AL["Unknown"], "AtlasLootWotLK" };
-	--AtlasLoot_TableNames["Naxx80Unknown2"] = { AL["Unknown"], "AtlasLootWotLK" };
-	--AtlasLoot_TableNames["Naxx80Unknown3"] = { AL["Unknown"], "AtlasLootWotLK" };
   -- Obsidian Sanctum
 	AtlasLoot_TableNames["Sartharion"] = { BabbleBoss["Sartharion"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Sartharion25Man"] = { BabbleBoss["Sartharion"], "AtlasLootWotLK" };
   -- The Eye of Eternity
 	AtlasLoot_TableNames["Malygos"] = { BabbleBoss["Malygos"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Malygos25Man"] = { BabbleBoss["Malygos"], "AtlasLootWotLK" };
-    --Vault of Archavon
+  --Vault of Archavon
     AtlasLoot_TableNames["Archavon"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
     AtlasLoot_TableNames["Archavon25Man"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
+  --Ulduar, PLACEHOLDER! DONT TRANSLATE. BABBLEBOSS WILL BE IMPLEMENTED SOON
+  	AtlasLoot_TableNames["UlduarKologarn25Man"] = { "Kologarn", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarVezax25Man"] = { "Vezax", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarIronCouncil"] = { "Iron Council", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarIronCouncil25Man"] = { "Iron Council", "AtlasLootWotLK" };
 
 --------------------
 --- BC Instances ---

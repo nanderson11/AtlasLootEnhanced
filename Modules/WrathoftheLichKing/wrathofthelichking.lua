@@ -1741,6 +1741,69 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- Ulduar ---
 		--------------
 
+	AtlasLoot_Data["UlduarKologarn25Man"] = {
+		{ 1, 45272, "", "=q4=Robes of the Umbral Brute", "=ds=#s5#, #a1#"};
+		{ 2, 45275, "", "=q4=Bracers of Unleashed Magic", "=ds=#s8#, #a1#"};
+		{ 3, 45273, "", "=q4=Handwraps of Plentiful Recovery", "=ds=#s9#, #a1#"};
+		{ 4, 45274, "", "=q4=Leggings of the Stoneweaver", "=ds=#s11#, #a2#"};
+		{ 5, 45265, "", "=q4=Shoulderpads of the Monolith", "=ds=#s3#, #a3#"};
+		{ 6, 45264, "", "=q4=Decimator's Armguards", "=ds=#s8#, #a4#"};
+		{ 7, 45268, "", "=q4=Gloves of the Pythonic Guardian", "=ds=#s9#, #a4#"};
+		{ 8, 45267, "", "=q4=Saronite Plated Legguards", "=ds=#s11#, #a4#"};
+		{ 9, 45262, "", "=q4=Necklace of Unerring Mettle", "=ds=#s2#"};
+		{ 10, 45263, "", "=q4=Wrathstone", "=ds=#s14#"};
+		{ 11, 45271, "", "=q4=Ironmender", "=ds=#s15#"};
+		{ 12, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#s16#, #w14#"};
+		{ 13, 45261, "", "=q4=Giant's Bane", "=ds=#w5#"};
+		{ 14, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#"};
+	};
+
+--16-17:Hard Mode
+	AtlasLoot_Data["UlduarVezax25Man"] = {
+		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds="};
+		{ 3, 45514, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#"};
+		{ 4, 45512, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#"};
+		{ 5, 45513, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#"};
+		{ 6, 45502, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#"};
+		{ 7, 45505, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#"};
+		{ 8, 45501, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#"};
+		{ 9, 45503, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#"};
+		{ 10, 45515, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#"};
+		{ 11, 45507, "", "=q4=The General's Heart", "=ds=#s14#"};
+		{ 12, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#, #w14#"};
+		{ 13, 0, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#"};
+		{ 14, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#"};
+		{ 16, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
+		{ 17, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+	};
+
+--16-17:Hard Mode
+	AtlasLoot_Data["UlduarIronCouncil"] = {	
+		{ 1, 45240, "", "=q4=Raiments of the Iron Council", "=ds=#s5#, #a1#"};
+		{ 2, 45284, "", "=q4=Kinetic Ripper", "=ds=#h4#, #w13#"};
+		{ 3, 45458, "", "=q4=Stormedge", "=ds=#h2#, #w1#"};
+		{ 4, 45282, "", "=q4=Ironsoul", "=ds=#h2#, #w6#"};
+		{ 16, 45330, "", "=q5=Greaves of Iron Intensity", "=ds=#s12#, #a4#"};
+		{ 17, 45449, "", "=q5=The Masticator", "=ds=#h3#, #w13#"};	
+	};
+
+	AtlasLoot_Data["UlduarIronCouncil25Man"] = {
+		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds="};
+		{ 3, 45224, "", "=q4=Drape of the Lithe", "=ds=#s4#"};
+		{ 4, 45238, "", "=q4=Overload Legwraps", "=ds=#s11#, #a1#"};
+		{ 5, 45237, "", "=q4=Vestments of the Sprouting Seed", "=ds=#s5#, #a2#"};
+		{ 6, 45232, "", "=q4=Runed Ironhide Boots", "=ds=#s12#, #a2#"};
+		{ 7, 45227, "", "=q4=Iron-studded Mantle", "=ds=#s3#, #a3#"};
+		{ 8, 45239, "", "=q4=Runeshaper's Gloves", "=ds=#s9#, #a3#"};
+		{ 9, 45225, "", "=q4=Steelbreaker's Embrace", "=ds=#s5#, #a4#"};
+		{ 10, 45193, "", "=q4=Insurmountable Fervor", "=ds=#s2#"};
+		{ 11, 45236, "", "=q4=Unblinking Eye", "=ds=#s2#"};
+		{ 12, 45235, "", "=q4=Radiant Seal", "=ds=#s13#"};
+		{ 13, 45233, "", "=q4=Rune Edge", "=ds=#h2#, #w10#"};
+		{ 14, 45234, "", "=q4=Rapture", "=ds=#w9#"};
+		{ 16, 45241, "", "=q4=Belt of Colossal Rage", "=ds=#s10#, #a4#"};
+	};
+
 	----------------
 	--- Factions ---
 	----------------

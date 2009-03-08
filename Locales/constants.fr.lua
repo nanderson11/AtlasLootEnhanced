@@ -212,10 +212,8 @@ if AL then
 
 	--Misc Inventory related words
 	AL["Enchant"] = "Enchantement";
-	AL["Trade Goods"] = "Artisanat";
 	AL["Scope"] = "Lunette de visée";
 	AL["Darkmoon Faire Card"] = "Carte de la foire de Sombrelune";
-	AL["Book"] = "Livre";
 	AL["Banner"] = "Etendard";
 	--AL["Set"] = true,
 	AL["Token"] = "Insigne";

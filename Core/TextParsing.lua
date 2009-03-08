@@ -20,6 +20,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#c7#", BabbleClass["Shaman"]);
     text = gsub(text, "#c8#", BabbleClass["Warlock"]);
     text = gsub(text, "#c9#", BabbleClass["Warrior"]);
+    text = gsub(text, "#c10#", BabbleClass["Deathknight"]);
 
     -- Professions
     text = gsub(text, "#p1#", (GetSpellInfo(2259)));	-- Alchemy
@@ -112,11 +113,11 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#e3#", BabbleInventory["Food"]);
     text = gsub(text, "#e4#", BabbleInventory["Drink"]);
     text = gsub(text, "#e5#", BabbleInventory["Bandage"]);
-    text = gsub(text, "#e6#", AL["Trade Goods"]);
+    text = gsub(text, "#e6#", BabbleInventory["Trade Goods"]);
     text = gsub(text, "#e7#", BabbleInventory["Gem"]);
     text = gsub(text, "#e8#", BabbleInventory["Reagent"]);
     text = gsub(text, "#e9#", BabbleInventory["Key"]);
-    text = gsub(text, "#e10#", AL["Book"]);
+    text = gsub(text, "#e10#", BabbleInventory["Book"]);
     text = gsub(text, "#e11#", AL["Scope"]);
     text = gsub(text, "#e12#", BabbleInventory["Mount"]);
     text = gsub(text, "#e13#", BabbleInventory["Pet"]);

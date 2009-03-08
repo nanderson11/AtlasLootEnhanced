@@ -212,10 +212,8 @@ if AL then
 
     --Misc Inventory related words
     AL["Enchant"] = "Зачарование";
-    AL["Trade Goods"] = "Товары для ремесел";
     AL["Scope"] = "Прицелы";
     AL["Darkmoon Faire Card"] = "Карты Ярмарки Темной Луны";
-    AL["Book"] = "Книги";
     AL["Banner"] = "Знамя";
     AL["Set"] = "Комплекты";
     AL["Token"] = "Знак";

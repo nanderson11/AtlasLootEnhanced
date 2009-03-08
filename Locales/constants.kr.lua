@@ -89,10 +89,8 @@ AL:RegisterTranslations("koKR", function() return {
 
     --Misc Inventory related words
     ["Enchant"] = "마법부여",
-    ["Trade Goods"] = "물품",
     ["Scope"] = "장치",
     ["Darkmoon Faire Card"] = "다크문 축제 카드",
-    ["Book"] = "책",
     ["Banner"] = "깃발",
     ["Set"] = "세트",
     ["Token"] = "휘장",

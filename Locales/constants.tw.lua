@@ -208,10 +208,8 @@ if AL then
 
     --Misc Inventory related words
     AL["Enchant"] = "公式";
-    AL["Trade Goods"] = "商品";
     AL["Scope"] = "瞄準鏡";
     AL["Darkmoon Faire Card"] = "暗月卡";
-    AL["Book"] = "書籍";
     AL["Banner"] = "軍旗";
     AL["Set"] = "套裝";
     AL["Token"] = "勳章";

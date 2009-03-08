@@ -212,10 +212,8 @@ if AL then
 
 	--Misc Inventory related words
 	AL["Enchant"] = true;
-	AL["Trade Goods"] = true;
 	AL["Scope"] = true;
 	AL["Darkmoon Faire Card"] = true;
-	AL["Book"] = true;
 	AL["Banner"] = true;
 	AL["Set"] = true;
 	AL["Token"] = true;
