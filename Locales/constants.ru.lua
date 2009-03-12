@@ -66,9 +66,9 @@ if AL then
     AL["WotLK Instances"] = "WotLK инстансы";
     AL["Original WoW"] = "Оригинальный WoW";
     AL["Burning Crusade"] = "Burning Crusade";
-    AL["Entrance"] = "вход";
+    AL["Entrance"] = "Вход";
     AL["Original Factions"] = "Оригинальные Фракции";
-    AL["BC Factions"] = "бк Фракции";
+    AL["BC Factions"] = "БК Фракции";
     AL["WotLK Factions"] = "WotLK Фракции";
     AL["Reset Frames"] = "Сброс фреймов";
     AL["Reset Wishlist"] = "Сброс пожеланий";
@@ -245,6 +245,10 @@ if AL then
     AL["Enchant Shield"] = "Зачаровывание щита";
     AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
     AL["Enchant Weapon"] = "Зачаровывание оружия";
+	
+	--Engineering
+	AL["Ammunition"] = "Боеприпасы";
+	AL["Explosives"] = "Взрывчатые вещества";
     
     --Inscription
     AL["Major Glyph"] = "Большой символ";
@@ -268,7 +272,7 @@ if AL then
     
     --Labels for loot descriptions
     AL["Classes:"] = "Классы:";
-    AL["This Item Begins a Quest"] = "Этот предмет начинает квест";
+    AL["This Item Begins a Quest"] = "Этот предмет начинает задание";
     AL["Quest Item"] = "Предмет для задания";
     AL["Quest Reward"] = "награда за задание";
     AL["Shared"] = "Разделенные";
@@ -293,6 +297,7 @@ if AL then
     AL["Tier 4"] = "Тир 4";
     AL["Tier 5"] = "Тир 5";
     AL["Tier 6"] = "Тир 6";
+	AL["Tier 7"] = "Тир 7";
     AL["Tier 7 Sets"] = "Комплекты: Тир 7";
     AL["10/25 Man"] = "10/25 Чел";
     AL["Tier 7 Sets 10/25 Man"] = "Тир 7 10/25 Чел";
@@ -324,6 +329,12 @@ if AL then
     AL["Achievement"] = "Достижение";
     AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
     AL["Heirloom"] = "Фамильные";
+	
+	--Darkmoon Faire
+	AL["Darkmoon Faire Rewards"] = "Награды Ярмарки Новолуния";
+	AL["Low Level Decks"] = "Низко уровневые колоды";
+	AL["Original and BC Trinkets"] = "Аксессуары - БК и Оригинала";
+	AL["WotLK Trinkets"] = "Аксессуары - WotLK";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck Card Game Items";
@@ -364,6 +375,11 @@ if AL then
     AL["The Red Bearon"] = "The Red Bearon";
     AL["Owned!"] = "Owned!";
     AL["Slashdance"] = "Slashdance";
+	-- Eighth set
+	AL["Blood of Gladiators"] = true;
+	AL["Sandbox Tiger"] = true;
+	AL["Center of Attention"] = true;
+	AL["Foam Sword Rack"] = true;
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "Разные награды";
@@ -398,6 +414,7 @@ if AL then
     AL["Twin Spire Ruins"] = "Руины Двух Башен";
     AL["Spirit Towers"] = "Башни Духов";
     AL["Halaa"] = "Халаа";
+	AL["Venture Bay"] = "Бухта торговцев";
 
     --Karazhan Opera Event Headings
     AL["Shared Drops"] = "Разделенная добыча";
@@ -515,7 +532,11 @@ if AL then
     --The Burning Crusade Sets
     AL["Latro's Flurry"] = "Беспокойство Латро";
     AL["The Twin Stars"] = "Двойные Звезды";
+	AL["The Fists of Fury"] = "Кулаки Ярости";
     AL["The Twin Blades of Azzinoth"] = "Парные клинки Аззинота";
+	
+	--Wrath of the Lich King Sets
+	AL["Raine's Revenge"] = "Отмщение Рейн";
 
     --Recipe origin strings
     AL["Trainer"] = "Тренер";
@@ -816,7 +837,7 @@ if AL then
 
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";
-    AL["Deadly Gladiator\'s Weapons"] = "Оружие Deadly Gladiator";
+    AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";
 
     --Set Labels
     AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
@@ -956,9 +977,16 @@ if AL then
     AL["Destruction"] = "Разрушение";
     AL["Tanking"] = "Танкования";
     AL["DPS"] = "ДПС";
+	
+	--Naxx Zones
+	AL["Construct Quarter"] = "Квартал Мерзости";
+	AL["Arachnid Quarter"] = "Паучий квартал";
+	AL["Military Quarter"] = "Военный квартал";
+	AL["Plague Quarter"] = "Чумной квартал";
+	AL["Frostwyrm Lair"] = "Логово ледяного змея";
 
     --NPCs missing from BabbleBoss
-    AL["Trash Mobs"] = "Мобы";
+    AL["Trash Mobs"] = "Существа";
     AL["Dungeon Set 2 Summonable"] = "Комплект подземелий 2 вызываемый";
     AL["Highlord Kruul"] = "Highlord Kruul";
     AL["Theldren"] = "Телдрена";
@@ -1187,6 +1215,10 @@ if AL then
     AL["Noblegarden"] = "Фестиваль урожая";
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбная феерия Тернистой долины";
-    
-
+	AL["Argent Tournament"] = "Серебряный турнир";
+	
+	AL["Help"] = "Справка";
+	AL["AtlasLoot Help"] = "Справка AtlasLoot";
+	AL["For further help, see our website and forums: "] = "Для получения дополнительной справки, см. наш сайт и форумы: ";
+	AL["How to open the standalone Loot Browser:"] = "	Как открыть отдельный обозреватель добычи:";
 end
