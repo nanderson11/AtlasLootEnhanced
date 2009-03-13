@@ -319,7 +319,7 @@ function AtlasLoot_OnVariablesLoaded()
     panel.name=AL["Help"];
     panel.parent=AL["AtlasLoot"];
     InterfaceOptions_AddCategory(panel);
-    if LibStub("LibAboutPanel") then
+    if LibStub:GetLibrary("LibAboutPanel", true) then
         LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
     end    
     AtlasLoot_UpdateLootBrowserScale();
