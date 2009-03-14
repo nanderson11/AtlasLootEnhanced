@@ -565,7 +565,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "NAXTrash" },
 	},]]
 	["Scarlet Monastery"] = {
-		{ "", "SMHerod" },
+		{ BabbleZone["Armory"], "SMHerod" },
 		{ "", "SMCathedral" },
 		{ "", "SMGraveyard" },
 		{ "", "SMLibrary" },
