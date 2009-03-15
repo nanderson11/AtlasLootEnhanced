@@ -562,10 +562,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#"};
 		{ 20, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
 		{ 21, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
-		{ 22, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#"};
-		{ 23, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#"};
-		{ 24, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
-		{ 26, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#"};
+        { 22, 37641, "", "=q3=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#" };
+		{ 23, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#"};
+		{ 24, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#"};
+		{ 25, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
+		{ 27, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#"};
 	};
 
 	AtlasLoot_Data["GundrakTrash"] = {
