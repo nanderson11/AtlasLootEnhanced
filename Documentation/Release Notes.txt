@@ -9,6 +9,7 @@ v5.x
 Holding down the shift key while mousing over items will now always show an available comparison tooltip
 Added new event: The Argent Tournament
 Added new WotLK Darkmoon Faire items and revamped its menu
+Added drop rates for Utgarde Keep and The Nexus 
 Trash mob updates from pucelle
 Added Key to the Focusing Iris (Normal/Heroic) Rewards
 Minor updates/fixes/translations

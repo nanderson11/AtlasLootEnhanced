@@ -1035,7 +1035,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleFaction["Bloodsail Buccaneers"], "BloodsailHydraxian" },
 		{ "", "AQBroodRings" },
 		{ "", "Cenarion1" },
-		{ "", "Darkmoon1" },
 		{ BabbleFaction["Frostwolf Clan"], "AlteracFactions" },
 		{ BabbleFaction["Gelkis Clan Centaur"], "MiscFactions" },
 		{ BabbleFaction["Hydraxian Waterlords"], "BloodsailHydraxian" },

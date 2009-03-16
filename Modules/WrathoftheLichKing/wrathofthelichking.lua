@@ -62,60 +62,60 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["UtgardeKeepKeleseth"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35572, "", "=q3=Reinforced Velvet Helm", "=ds=#s1#, #a1#"};
-		{ 3, 35571, "", "=q3=Dragon Stabler's Gauntlets", "=ds=#s9#, #a3#"};
-		{ 4, 35570, "", "=q3=Keleseth's Blade of Evocation", "=ds=#h3#, #w4#"};
+		{ 2, 35572, "", "=q3=Reinforced Velvet Helm", "=ds=#s1#, #a1#", "", "28%"};
+		{ 3, 35571, "", "=q3=Dragon Stabler's Gauntlets", "=ds=#s9#, #a3#", "", "31%"};
+		{ 4, 35570, "", "=q3=Keleseth's Blade of Evocation", "=ds=#h3#, #w4#", "", "28%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#"};
-		{ 19, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#"};
-		{ 20, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#"};
-		{ 21, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37180, "", "=q3=Battlemap Hide Helm", "=ds=#s1#, #a2#", "", "21%"};
+		{ 19, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#", "", "22%"};
+		{ 20, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#", "", "21%"};
+		{ 21, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#", "", "21%"};
 	};
 
 	AtlasLoot_Data["UtgardeKeepSkarvald"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35575, "", "=q3=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#"};
-		{ 3, 35574, "", "=q3=Chestplate of the Northern Lights", "=ds=#s5#, #a4#"};
-		{ 4, 35573, "", "=q3=Arm Blade of Augelmir", "=ds=#h3#, #w13#"};
+		{ 2, 35575, "", "=q3=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#", "", "31%"};
+		{ 3, 35574, "", "=q3=Chestplate of the Northern Lights", "=ds=#s5#, #a4#", "", "28%"};
+		{ 4, 35573, "", "=q3=Arm Blade of Augelmir", "=ds=#h3#, #w13#", "", "30%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#"};
-		{ 19, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#"};
-		{ 20, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#"};
-		{ 21, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#", "", "21%"};
+		{ 19, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#", "", "21%"};
+		{ 20, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#", "", "21%"};
+		{ 21, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#", "", "21%"};
 	};
 
 	AtlasLoot_Data["UtgardeKeepIngvar"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#"};
-		{ 3, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#"};
-		{ 4, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#"};
+		{ 2, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#", "", "28%"};
+		{ 3, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#", "", "26%"};
+		{ 4, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#", "", "27%"};
 		{ 6, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
 		{ 7, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
 		{ 8, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
 		{ 9, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#"};
-		{ 19, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#"};
-		{ 20, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#"};
-		{ 21, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#"};
-		{ 22, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#"};
-		{ 23, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#"};
-		{ 24, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#"};
-		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#"};
-		{ 26, 41793, "", "=q3=Design: Fierce Monarch Topaz", "=ds=#p12# (390)"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#", "", "20%"};
+		{ 19, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#", "", "18%"};
+		{ 20, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#", "", "18%"};
+		{ 21, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#", "", "19%"};
+		{ 22, 37189, "", "=q3=Breeches of the Caller", "=ds=#s11#, #a1#", "", "19%"};
+		{ 23, 37188, "", "=q3=Plunderer's Helmet", "=ds=#s1#, #a3#", "", "20%"};
+		{ 24, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#", "", "20%"};
+		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#", "", "20%"};
+		{ 26, 41793, "", "=q3=Design: Fierce Monarch Topaz", "=ds=#p12# (390)", "", "8%"};
 		{ 28, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#"};
 	};
 
 	AtlasLoot_Data["UtgardeKeepTrash"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#"};
-		{ 3, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#"};
+		{ 2, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#", "", "1%"};
+		{ 3, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#", "", "2%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 37197, "", "=q3=Tattered Castle Drape", "=ds=#s4#"};
-		{ 18, 37196, "", "=q3=Runecaster's Mantle", "=ds=#s3#, #a1#"};
+		{ 17, 37197, "", "=q3=Tattered Castle Drape", "=ds=#s4#", "", "1%"};
+		{ 18, 37196, "", "=q3=Runecaster's Mantle", "=ds=#s3#, #a1#", "", "1%"};
 	};
 
 		-----------------
@@ -124,69 +124,69 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["TheNexusTelestra"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#"};
-		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#"};
-		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#"};
+		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#", "", "29%" };
+		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#", "", "29%" };
+		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#", "", "28%" };
 		{ 6, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#"};
-		{ 19, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#"};
-		{ 20, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#"};
-		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#", "", "21%"};
+		{ 19, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#", "", "21%" };
+		{ 20, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#", "", "21%" };
+		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 	};
 
 	AtlasLoot_Data["TheNexusAnomalus"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#"};
-		{ 3, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#"};
-		{ 4, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#"};
+		{ 2, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#", "", "31%"};
+		{ 3, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#", "", "29%" };
+		{ 4, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#", "", "29%" };
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#"};
-		{ 19, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#"};
-		{ 20, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#"};
-		{ 21, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#", "", "21%"};
+		{ 19, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#", "", "22%"};
+		{ 20, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#", "", "22%"};
+		{ 21, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#", "", "21%"};
 	};
 
 	AtlasLoot_Data["TheNexusOrmorok"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#"};
-		{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#"};
-		{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#"};
+		{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#", "", "30%"};
+		{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#", "", "32%"};
+		{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#", "", "33%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#"};
-		{ 19, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#"};
-		{ 20, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#"};
-		{ 21, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#", "", "21%"};
+		{ 19, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#", "", "22%"};
+		{ 20, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#", "", "22%"};
+		{ 21, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#", "", "22%"};
 	};
 
 	AtlasLoot_Data["TheNexusKolurgStoutbeardHEROIC"] = {
-		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 2, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#"};
-		{ 3, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#"};
-		{ 4, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#"};
-		{ 5, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#"};
+		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 2, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#", "", "20%"};
+		{ 3, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#", "", "20%"};
+		{ 4, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#", "", "19%"};
+		{ 5, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#", "", "20%"};
 	};
 
 	AtlasLoot_Data["TheNexusKeristrasza"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#"};
-		{ 3, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#"};
-		{ 4, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s13#"};
+		{ 2, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#", "", "29%"};
+		{ 3, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#", "", "30%"};
+		{ 4, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s13#", "", "30%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#"};
-		{ 19, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#"};
-		{ 20, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#"};
-		{ 21, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#"};
-		{ 22, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#"};
-		{ 23, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#"};
-		{ 24, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#"};
-		{ 25, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#"};
-		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#", "", "19%"};
+		{ 19, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#", "", "20%"};
+		{ 20, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#", "", "19%"};
+		{ 21, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#", "", "18%"};
+		{ 22, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#", "", "20%"};
+		{ 23, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#", "", "20%"};
+		{ 24, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#", "", "20%"};
+		{ 25, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "20%"};
+		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
 		{ 28, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
 	};
 
