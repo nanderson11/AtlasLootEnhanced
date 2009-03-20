@@ -738,6 +738,27 @@ if AL then
 	AL["Dreadnaught Battlegear"] = "Tenue de combat de cuirassier";
 	AL["Dreadnaught Plate"] = "Armure de cuirassier en plaques";
 
+	--Tier 8 Sets -- à traduire
+	--AL["Scourgeborne Battlegear"] = true;
+	--AL["Scourgeborne Plate"] = true;
+	--AL["Dreamwalker Garb"] = true;
+	--AL["Dreamwalker Battlegear"] = true;
+	--AL["Dreamwalker Regalia"] = true;
+	--AL["Scourgestalker Battlegear"] = true;
+	--AL["Kirin'dor Garb"] = true;
+	--AL["Redemption Regalia"] = true;
+	--AL["Redemption Battlegear"] = true;
+	--AL["Redemption Plate"] = true;
+	--AL["Sanctification Regalia"] = true;
+	--AL["Sanctification Garb"] = true;
+	--AL["Terrorblade Battlegear"] = true;
+	--AL["Earthshatter Garb"] = true;
+	--AL["Earthshatter Battlegear"] = true;
+	--AL["Earthshatter Regalia"] = true;
+	--AL["Deathbringer Garb"] = true;
+	--AL["Siegebreaker Battlegear"] = true;
+	--AL["Siegebreaker Plate"] = true;
+
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "Intention des Hautes-terres";
 	AL["The Highlander's Purpose"] = "Dessein des Hautes-terres";
