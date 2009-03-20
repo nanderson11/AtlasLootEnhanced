@@ -184,20 +184,20 @@ AtlasLoot_DewDropDown = {
 			[7] = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
-			[8] = {
-				{ BabbleBoss["Malygos"], "Malygos", "Table" },
+            [8] = {
+				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
 			[9] = {
-				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
+				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
 			[10] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
-			[11] = {
-				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
+            [11] = {
+				{ BabbleBoss["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
 			[12] = {
-				{ BabbleBoss["Sartharion"], "Sartharion", "Table" },
+				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
 			[13] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
