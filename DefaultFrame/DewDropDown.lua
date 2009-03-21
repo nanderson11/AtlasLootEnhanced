@@ -194,7 +194,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
             [11] = {
-				{ BabbleBoss["The Obsidian Sanctum"], "Sartharion", "Table" },
+				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
 			[12] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
