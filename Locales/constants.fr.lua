@@ -298,6 +298,7 @@ if AL then
 	AL["Tier 5"] = "Set T5";
 	AL["Tier 6"] = "Set T6";
 	AL["Tier 7"] = "Set T7";
+	AL["Tier 7"] = "Set T8";
 	AL["Tier 7 Sets"] = "Sets T7";
 	AL["10/25 Man"] = "10/25 Joueurs";
 	AL["Tier 7 Sets 10/25 Man"] = "Sets Tier 7 10/25 Joueurs";
