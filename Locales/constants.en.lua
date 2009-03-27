@@ -298,6 +298,7 @@ if AL then
 	AL["Tier 5"] = true;
 	AL["Tier 6"] = true;
 	AL["Tier 7"] = true;
+	AL["Tier 8"] = true;
 	AL["Tier 7 Sets"] = true;
 	AL["10/25 Man"] = true;
 	AL["Tier 7 Sets 10/25 Man"] = true;
@@ -739,11 +740,11 @@ if AL then
 	AL["Dreadnaught Plate"] = true;
 
 	--Tier 8 Sets
-	AL["Scourgeborne Battlegear"] = true;
-	AL["Scourgeborne Plate"] = true;
-	AL["Dreamwalker Garb"] = true;
-	AL["Dreamwalker Battlegear"] = true;
-	AL["Dreamwalker Regalia"] = true;
+	AL["Darkruned Battlegear"] = true;
+	AL["Darkruned Plate"] = true;
+	AL["Nightsong Garb"] = true;
+	AL["Nightsong Battlegear"] = true;
+	AL["Nightsong Regalia"] = true;
 	AL["Scourgestalker Battlegear"] = true;
 	AL["Kirin'dor Garb"] = true;
 	AL["Redemption Regalia"] = true;
