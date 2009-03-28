@@ -287,10 +287,9 @@ if AL then
 	AL["Tier 4"] = "T4";
 	AL["Tier 5"] = "T5";
 	AL["Tier 6"] = "T6";
-  AL["Tier 7"] = "T7";
-	AL["Tier 7 Sets"] = "T7套装";
+  	AL["Tier 7"] = "T7";
+  	AL["Tier 8"] = "T8";
 	AL["10/25 Man"] = "10/25人";
-	AL["Tier 7 Sets 10/25 Man"] = "T7套装 10/25人";
 	AL["Level 80 PvP Sets"] = "80级PvP套装";
 	AL["Hateful Gladiator Sets"] = "憎恨角斗士套装";
 	AL["Deadly Gladiator Sets"] = "致命角斗士套装";
@@ -311,7 +310,7 @@ if AL then
 	AL["Tradable against sunmote + item above"] = "用太阳之尘和上个物品兑换得到";
 	AL["Rare"] = "稀有";
 	AL["Heroic"] = "英雄模式";
-  AL["Hard Mode"] = "困难模式";
+  	AL["Hard Mode"] = "困难模式";
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
 	AL["Weapons"] = "武器";
@@ -869,7 +868,7 @@ if AL then
 	AL["PvP Reputation Sets (Level 70)"] = "PvP声望套装 (等级 70)";
 	AL["PvP Rewards (Level 60)"] = "PvP奖励 (等级 60)";
 	AL["PvP Rewards (Level 70)"] = "PvP奖励 (等级 70)";
-  AL["PvP Rewards (Level 80)"] = "PvP奖励 (等级 80)";
+  	AL["PvP Rewards (Level 80)"] = "PvP奖励 (等级 80)";
 	AL["PvP Accessories (Level 60)"] = "PvP奖励杂物 (等级 60)";
 	AL["PvP Accessories - Alliance (Level 60)"] = "PvP奖励杂物 - 联盟 (等级 60)";
 	AL["PvP Accessories - Horde (Level 60)"] = "PvP奖励杂物 - 部落 (等级 60)";

@@ -299,9 +299,8 @@ if AL then
 	AL["Tier 6"] = true;
 	AL["Tier 7"] = true;
 	AL["Tier 8"] = true;
-	AL["Tier 7 Sets"] = true;
 	AL["10/25 Man"] = true;
-	AL["Tier 7 Sets 10/25 Man"] = true;
+	AL["Tier 7/8 Sets"] = true;
 	AL["Level 80 PvP Sets"] = true;
 	AL["Hateful Gladiator Sets"] = true;
 	AL["Deadly Gladiator Sets"] = true;
@@ -747,19 +746,18 @@ if AL then
 	AL["Nightsong Regalia"] = true;
 	AL["Scourgestalker Battlegear"] = true;
 	AL["Kirin'dor Garb"] = true;
-	AL["Redemption Regalia"] = true;
-	AL["Redemption Battlegear"] = true;
-	AL["Redemption Plate"] = true;
+	AL["Aegis Regalia"] = true;
+	AL["Aegis Battlegear"] = true;
+	AL["Aegis Plate"] = true;
 	AL["Sanctification Regalia"] = true;
 	AL["Sanctification Garb"] = true;
 	AL["Terrorblade Battlegear"] = true;
-	AL["Earthshatter Garb"] = true;
-	AL["Earthshatter Battlegear"] = true;
-	AL["Earthshatter Regalia"] = true;
+	AL["Worldbreaker Garb"] = true;
+	AL["Worldbreaker Battlegear"] = true;
+	AL["Worldbreaker Regalia"] = true;
 	AL["Deathbringer Garb"] = true;
 	AL["Siegebreaker Battlegear"] = true;
 	AL["Siegebreaker Plate"] = true;
-
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = true;

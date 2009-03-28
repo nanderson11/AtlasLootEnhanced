@@ -284,9 +284,7 @@ if AL then
     AL["Tier 4"] = "T4";
     AL["Tier 5"] = "T5";
     AL["Tier 6"] = "T6";
-    AL["Tier 7 Sets"] = "T7 套裝";
     AL["10/25 Man"] = "10/25 人";
-    AL["Tier 7 Sets 10/25 Man"] = "T7 套裝 10/25 人";
     AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
     AL["Arena Reward"] = "競技場獎勵";
     AL["Conjured Item"] = "特殊物品";

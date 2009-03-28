@@ -298,9 +298,8 @@ if AL then
     AL["Tier 5"] = "Тир 5";
     AL["Tier 6"] = "Тир 6";
 	AL["Tier 7"] = "Тир 7";
-    AL["Tier 7 Sets"] = "Комплекты: Тир 7";
+	AL["Tier 8"] = "Тир 8";
     AL["10/25 Man"] = "10/25 Чел";
-    AL["Tier 7 Sets 10/25 Man"] = "Тир 7 10/25 Чел";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
     AL["Hateful Gladiator Sets"] = "Комплекты злобного гладиатора";
     AL["Deadly Gladiator Sets"] = "Комплекты смертоносного гладиатора";

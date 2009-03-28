@@ -292,9 +292,9 @@ if AL then
     AL["Tier 4"] = "Conjunto T4";
     AL["Tier 5"] = "Conjunto T5";
     AL["Tier 6"] = "Conjunto T6";
-    AL["Tier 7 Sets"] = "Conjuntos T7";
+    AL["Tier 7"] = "Conjunto T7";
+    AL["Tier 8"] = "Conjunto T8";
     AL["10/25 Man"] = "10/25 Personas";
-    AL["Tier 7 Sets 10/25 Man"] = "Conjuntos T7 10/25 Pers";
     AL["Level 80 PvP Sets"] = "Conjuntos Nivel 80 JcJ";
 	AL["Hateful Gladiator Sets"] = "Conjunto Gladiador de odio";
 	AL["Deadly Gladiator Sets"] = "Conjunto Gladiador Mortal";

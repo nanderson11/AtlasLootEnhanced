@@ -171,6 +171,7 @@ AtlasLoot_TableNames = {};
     AtlasLoot_TableNames["Archavon"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
     AtlasLoot_TableNames["Archavon25Man"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
   --Ulduar, PLACEHOLDER! DONT TRANSLATE. BABBLEBOSS WILL BE IMPLEMENTED SOON
+  	AtlasLoot_TableNames["UlduarLeviathan"] = { "Leviathan", "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarKologarn25Man"] = { "Kologarn", "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarVezax25Man"] = { "Vezax", "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarIronCouncil"] = { "Iron Council", "AtlasLootWotLK" };
@@ -1338,7 +1339,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["T456SET"] = { AL["Tier 4/5/6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T1T2SET"] = { AL["Tier 1/2 Sets"], "Menu" };
-	AtlasLoot_TableNames["T7SET"] = { AL["Tier 7 Sets 10/25 Man"], "Menu" };
+	AtlasLoot_TableNames["T7SET"] = { AL["Tier 7/8 Sets"], "Menu" };
 	AtlasLoot_TableNames["T0SET"] = { AL["Dungeon 1/2 Sets"], "Menu" };
 	AtlasLoot_TableNames["DS3SET"] = { AL["Dungeon 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["PVPSET"] = { "dummy", "dummy" };

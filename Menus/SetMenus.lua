@@ -23,7 +23,7 @@ AtlasLoot_Data["SETMENU"] = {
         { 24, "T1T2SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2 Sets"], ""};
         { 25, "T3SET", "INV_Pants_Cloth_05", "=ds="..AL["Tier 3 Sets"], ""};
         { 26, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Sets"], ""};
-        { 27, "T7SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7 Sets"], "=q5="..AL["10/25 Man"]};
+        { 27, "T7SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Sets"], "=q5="..AL["10/25 Man"]};
 	};
 
 AtlasLoot_Data["70TOKENMENU"] = {
@@ -144,16 +144,39 @@ AtlasLoot_Data["DS3SET"] = {
         Back = "SETMENU";
 	};
 
+--BACKUP
+--AtlasLoot_Data["T1T2SET"] = {
+--        { 3, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], ""};
+--        { 4, "T1T2Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
+--        { 5, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], ""};
+--        { 6, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], ""};
+--        { 7, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
+--        { 18, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
+--        { 19, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], ""};
+--        { 20, "T1T2Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
+--        { 21, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
+--        Back = "SETMENU";
+--	};
+
 AtlasLoot_Data["T1T2SET"] = {
-        { 3, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], ""};
+        { 1, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], ""};
+        { 2, "T3Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Tier 3"]};
         { 4, "T1T2Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 5, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], ""};
-        { 6, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], ""};
-        { 7, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
-        { 18, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        { 19, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], ""};
-        { 20, "T1T2Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
-        { 21, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
+        { 5, "T3Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Tier 3"]};
+        { 7, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], ""};
+        { 8, "T3Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Tier 3"]};
+        { 10, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], ""};
+        { 11, "T3Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], "=q5="..AL["Tier 3"]};
+        { 13, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
+        { 14, "T3Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Tier 3"]};
+        { 17, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
+        { 18, "T3Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Tier 3"]};
+        { 20, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], ""};
+        { 21, "T3Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Tier 3"]};
+        { 23, "T1T2Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
+        { 24, "T3Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], "=q5="..AL["Tier 3"]};
+        { 26, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
+        { 27, "T3Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], "=q5="..AL["Tier 3"]};
         Back = "SETMENU";
 	};
 

@@ -295,7 +295,7 @@ AtlasLoot_DewDropDown = {
 				{ AL["Tier 4/5/6 Sets"], "T456Sets", "Submenu" },
 			},
 			[17] = {
-				{ AL["Tier 7 Sets 10/25 Man"], "Naxx10Sets", "Submenu" },
+				{ AL["Tier 7/8 Sets"], "Naxx10Sets", "Submenu" },
 			},
 			[18] = {
 				{ AL["Upper Deck Card Game Items"], "CardGame1", "Table" }, 
