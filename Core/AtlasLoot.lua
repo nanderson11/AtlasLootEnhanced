@@ -25,6 +25,7 @@ AtlasLoot_GetLODModule(dataSource)
 AtlasLoot_LoadAllModules()
 AtlasLoot_ShowQuickLooks(button)
 AtlasLoot_RefreshQuickLookButtons()
+AtlasLoot_AddTooltip(frameb, tooltiptext)
 ]]
 
 AtlasLoot = LibStub("AceAddon-3.0"):NewAddon("AtlasLoot");
@@ -189,6 +190,7 @@ function AtlasLoot_OnVariablesLoaded()
 	tinsert(UISpecialFrames, "AtlasLootDefaultFrame");
 	--Set up options frame
 	AtlasLootOptions_OnLoad();
+    AtlasLoot_CreateOptionsInfoTooltips();
 	--Legacy code for those using the ultimately failed attempt at making Atlas load on demand
 	if AtlasButton_LoadAtlas then
 		AtlasButton_LoadAtlas();
@@ -523,6 +525,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		getglobal("AtlasLootMenuItem_"..i):Hide();
         getglobal("AtlasLootItem_"..i):Hide();
         getglobal("AtlasLootItem_"..i).itemID = 0;
+        getglobal("AtlasLootItem_"..i).spellitemID = 0;
 	end
     
     if AtlasLoot_TableNames[dataID][2] == "Menu" then
@@ -636,6 +639,11 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 
 				--For convenience, we store information about the objects in the objects so that it can be easily accessed later
 				itemButton.itemID = dataSource[dataID][i][2];
+                if tonumber(dataSource[dataID][i][3]) then
+                    itemButton.spellitemID = dataSource[dataID][i][3];
+                else
+                    itemButton.spellitemID = 0;
+                end
                 itemButton.iteminfo = {};
 				if isItem then
 					itemButton.iteminfo.idcore = dataSource[dataID][i][2];
@@ -1237,5 +1245,20 @@ function AtlasLoot_QueryLootPage()
         end
         i=i+1;
     end
+end
+
+--[[
+AtlasLoot_AddTooltip(frameb, tooltiptext)
+Adds explanatory tooltips to UI objects.
+]]
+function AtlasLoot_AddTooltip(frameb, tooltiptext)
+   if not tooltiptext or not frameb then return end
+   local frame = getglobal(frameb)
+   frame:SetScript("OnEnter", function()
+      GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
+      GameTooltip:SetText(tooltiptext)
+      GameTooltip:Show()
+   end)
+   frame:SetScript("OnLeave", function() GameTooltip:Hide() end)
 end
 

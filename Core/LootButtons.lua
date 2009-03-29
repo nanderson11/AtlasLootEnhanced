@@ -150,7 +150,10 @@ function AtlasLootItem_OnEnter()
             AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
             AtlasLootTooltip:ClearLines();
             AtlasLootTooltip:SetHyperlink("enchant:"..spellID);
-            AtlasLootTooltip:Show();            
+            AtlasLootTooltip:Show();
+            if(this.spellitemID and ((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled))) or IsShiftKeyDown())) then
+                AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
+            end    
         end
     end
 end
@@ -261,9 +264,16 @@ end
 -- Enables item comparing. I've ripped this method directly from GameTooltip.lua and modified to work with AtlasLootTooltip /siena
 -------
 function AtlasLootItem_ShowCompareItem()
-   local item,link= AtlasLootTooltip:GetItem();
-    if ( not link ) then
-      return;
+   local item,link = nil,nil
+   if this.spellitemID and this.spellitemID ~= "" then
+      item = AtlasLootTooltip:GetSpell()
+      _,link = GetItemInfo(this.spellitemID)
+   else
+      item,link = AtlasLootTooltip:GetItem();
+   end
+
+   if ( not link ) then
+      return
    end
    
    local item1 = nil;

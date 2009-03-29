@@ -19,6 +19,7 @@ AtlasLootOptions_LoDStartup()
 AtlasLoot_SetupLootBrowserSlider(frame, mymin, mymax, step)
 AtlasLoot_UpdateLootBrowserSlider(frame)
 AtlasLoot_DisplayHelp();
+AtlasLoot_CreateOptionsInfoTooltips()
 ]]
 
 local GREY = "|cff999999";
@@ -285,61 +286,27 @@ function AtlasLoot_DisplayHelp()
             );
 end
 
---[[function AtlasLootFuBarOptionsFrame_PositionInitialise()
-
-	Contents = {
-        { text = AL["Left"]; func = AtlasLootFuBarOptionsFrame_PositionOnClick;},
-        { text = AL["Center"]; func = AtlasLootFuBarOptionsFrame_PositionOnClick;},
-        { text = AL["Right"]; func = AtlasLootFuBarOptionsFrame_PositionOnClick;},
-    }; 
-    local i = 1;
-	while i <= 3 do
-		UIDropDownMenu_AddButton(Contents[i]);
-        i = i + 1;
-	end
-	
-end]]
-
-
---[[function AtlasLootFuBarOptionsFrame_PositionOnShow()
-	UIDropDownMenu_Initialize(AtlasLootFuBarOptionsFrameDropDownPosition, AtlasLootFuBarOptionsFrame_PositionInitialise);
-	UIDropDownMenu_SetSelectedID(AtlasLootFuBarOptionsFrameDropDownPosition, AtlasLoot.db.profile.FuBarPosition);
-	UIDropDownMenu_SetWidth(AtlasLootFuBarOptionsFrameDropDownPosition, 100);
+--[[
+AtlasLoot_CreateOptionsInfoTooltips()
+Adds explanatory tooltips to Atlasloot options
+]]
+function AtlasLoot_CreateOptionsInfoTooltips()
+   local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameDefaultTT", nil) -- AL["Default Tooltips"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameLootlinkTT", nil) -- AL["Lootlink Tooltips"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameItemSyncTT", nil) -- AL["ItemSync Tooltips"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameOpaque", nil) -- AL["Make Loot Table Opaque"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameItemID", nil) -- AL["Show itemIDs at all times"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameSafeLinks", nil) -- AL["Safe Chat Links |cff1eff00(recommended)|r"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameEquipCompare", nil) -- AL["Show Comparison Tooltips"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameHidePanel", nil) -- AL["Hide AtlasLoot Panel"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameLoDStartup", nil) -- AL["Load Loot Modules at Startup"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameItemSpam", nil) -- AL["Suppress Item Query Text"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameLoDSpam", nil) -- AL["Notify on LoD Module Load"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameLootBrowserScale", nil) -- Scale SLIDER
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrame_ResetAtlasLoot", nil) -- AL["Reset Frames"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrame_ResetWishlist", nil) -- AL["Reset Wishlist"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrame_ResetQuicklooks", nil) -- AL["Reset Quicklooks"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrame_FuBarShow", nil) -- AL["Show FuBar Plugin"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrame_FuBarHide", nil) -- AL["Hide FuBar Plugin"]
 end
-
-
-function AtlasLootFuBarOptionsFrame_PositionOnClick()
-	local thisID = this:GetID();
-	UIDropDownMenu_SetSelectedID(AtlasLootFuBarOptionsFrameDropDownPosition, thisID);
-	AtlasLoot.db.profile.FuBarPosition = thisID;
-	if thisID == 1 then
-        AtlasLootFu:GetPanel():SetPluginSide(AtlasLootFu, "LEFT");
-    elseif thisID == 2 then
-        AtlasLootFu:GetPanel():SetPluginSide(AtlasLootFu, "CENTER");
-    elseif thisID == 3 then
-        AtlasLootFu:GetPanel():SetPluginSide(AtlasLootFu, "RIGHT");
-    end
-end
-
-function AtlasLootFuBarOptionsFrame_ToggleIcon()
-    if AtlasLoot.db.profile.FuBarIcon then
-        AtlasLoot.db.profile.FuBarIcon = false;
-        AtlasLootFu:ToggleFuBarIconShown();
-    else
-        AtlasLoot.db.profile.FuBarIcon = true;
-        AtlasLootFu:ToggleFuBarIconShown();
-    end
-    AtlasLootFuBarOptions_Init();
-end
-
-function AtlasLootFuBarOptionsFrame_ToggleText()
-    if AtlasLoot.db.profile.FuBarText then
-        AtlasLoot.db.profile.FuBarText = false;
-        AtlasLootFu:ToggleFuBarTextShown();
-    else
-        AtlasLoot.db.profile.FuBarText = true;
-        AtlasLootFu:ToggleFuBarTextShown();
-    end
-    AtlasLootFuBarOptions_Init();
-end]]
-

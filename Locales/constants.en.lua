@@ -294,12 +294,15 @@ if AL then
 	AL["Card Game Item"] = true;
 	AL["Tier 1"] = true;
 	AL["Tier 2"] = true;
+    AL["Tier 3"] = true;
 	AL["Tier 4"] = true;
 	AL["Tier 5"] = true;
 	AL["Tier 6"] = true;
 	AL["Tier 7"] = true;
 	AL["Tier 8"] = true;
 	AL["10/25 Man"] = true;
+    AL["Tier 7 Sets"] = true;
+    AL["Tier 8 Sets"] = true;
 	AL["Tier 7/8 Sets"] = true;
 	AL["Level 80 PvP Sets"] = true;
 	AL["Hateful Gladiator Sets"] = true;

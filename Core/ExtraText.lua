@@ -172,7 +172,7 @@ AtlasLoot_ExtraText = {
     Naxxramas = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-        GREY..INDENT..AL["Tier 7 Sets"];
+        GREY..INDENT..AL["Tier 7/8 Sets"];
     };
     RazorfenDowns = {
         "";
