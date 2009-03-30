@@ -171,7 +171,10 @@ AtlasLoot_TableNames = {};
     AtlasLoot_TableNames["Archavon"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
     AtlasLoot_TableNames["Archavon25Man"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
   --Ulduar, PLACEHOLDER! DONT TRANSLATE. BABBLEBOSS WILL BE IMPLEMENTED SOON
-  	AtlasLoot_TableNames["UlduarLeviathan"] = { "Leviathan", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarLeviathan"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarLeviathan25Man"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarIgnis"] = { BabbleBoss["Ignis the Furnace Master"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarIgnis25Man"] = { BabbleBoss["Ignis the Furnace Master"], "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarKologarn25Man"] = { "Kologarn", "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarVezax25Man"] = { "Vezax", "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarIronCouncil"] = { "Iron Council", "AtlasLootWotLK" };

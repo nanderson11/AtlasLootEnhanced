@@ -43,6 +43,7 @@ if AL then
 	AL["Rewards"] = true;
 	AL["Heroic Mode"] = true;
 	AL["Normal Mode"] = true;
+	AL["Hard Mode"] = true;
 	AL["Show 10 Man Loot"] = true;
 	AL["Show 25 Man Loot"] = true;
 	AL["10 Man"] = true;

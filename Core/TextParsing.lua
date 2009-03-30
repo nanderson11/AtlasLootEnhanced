@@ -221,6 +221,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j50#", AL["Weapons"]);
     text = gsub(text, "#j51#", AL["Accessories"]);
     text = gsub(text, "#j52#", AL["Heirloom"]);
+    text = gsub(text, "#j53#", AL["Hard Mode"]);
 
     -- Upper Deck Card Game
     text = gsub(text, "#ud1#", AL["Heroes of Azeroth"]);

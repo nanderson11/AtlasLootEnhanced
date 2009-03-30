@@ -71,6 +71,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37178, "", "=q3=Strategist's Belt", "=ds=#s10#, #a4#", "", "22%"};
 		{ 20, 37179, "", "=q3=Infantry Assault Blade", "=ds=#h1#, #w10#", "", "21%"};
 		{ 21, 37177, "", "=q3=Wand of the San'layn", "=ds=#w12#", "", "21%"};
+		Next = "UtgardeKeepSkarvald";
 	};
 
 	AtlasLoot_Data["UtgardeKeepSkarvald"] = {
@@ -84,6 +85,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#", "", "21%"};
 		{ 20, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#", "", "21%"};
 		{ 21, 37181, "", "=q3=Dagger of Betrayal", "=ds=#h1#, #w4#", "", "21%"};
+		Prev = "UtgardeKeepKeleseth";
+		Next = "UtgardeKeepIngvar";
 	};
 
 	AtlasLoot_Data["UtgardeKeepIngvar"] = {
@@ -107,15 +110,18 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#", "", "20%"};
 		{ 26, 41793, "", "=q3=Design: Fierce Monarch Topaz", "=ds=#p12# (390)", "", "8%"};
 		{ 28, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#"};
+		Prev = "UtgardeKeepSkarvald";
+		Next = "UtgardeKeepTrash";
 	};
 
-	AtlasLoot_Data["UtgardeKeepTrash"] = {
+	AtlasLoot_Data["UtgardeKeepIngvar"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#", "", "1%"};
 		{ 3, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#", "", "2%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37197, "", "=q3=Tattered Castle Drape", "=ds=#s4#", "", "1%"};
 		{ 18, 37196, "", "=q3=Runecaster's Mantle", "=ds=#s3#, #a1#", "", "1%"};
+		Prev = "UtgardeKeepSkarvald";
 	};
 
 		-----------------
@@ -135,6 +141,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#", "", "21%" };
 		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
+		Next = "TheNexusAnomalus";
 	};
 
 	AtlasLoot_Data["TheNexusAnomalus"] = {
@@ -148,6 +155,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#", "", "22%"};
 		{ 20, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#", "", "22%"};
 		{ 21, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#", "", "21%"};
+		Prev = "TheNexusTelestra";
+		Next = "TheNexusOrmorok";
 	};
 
 	AtlasLoot_Data["TheNexusOrmorok"] = {
@@ -161,6 +170,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#", "", "22%"};
 		{ 20, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#", "", "22%"};
 		{ 21, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#", "", "22%"};
+		Prev = "TheNexusAnomalus";
+		Next = "TheNexusKeristrasza";
 	};
 
 	AtlasLoot_Data["TheNexusKolurgStoutbeardHEROIC"] = {
@@ -188,6 +199,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "20%"};
 		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
 		{ 28, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
+		Prev = "TheNexusOrmorok";
 	};
 
 		-------------------
@@ -1741,7 +1753,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------
 		--- Ulduar ---
 		--------------
---ab 17:Hard Mode
+
 	AtlasLoot_Data["UlduarLeviathan"] = {
 		{ 1, 45289, "", "=q4=Lifespark Visage", "=ds=#s1#, #a1#"};
 		{ 2, 45291, "", "=q4=Combustion Bracers", "=ds=#s8#, #a1#"};
@@ -1753,11 +1765,57 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45287, "", "=q4=Firesoul", "=ds=#h3#, #w10#"};
 		{ 9, 45284, "", "=q4=Kinetic Ripper", "=ds=#h4#, #w13#"};
 		{ 10, 45282, "", "=q4=Ironsoul", "=ds=#h2#, #w6#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 45293, "", "=q4=Handguards of Potent Cures", "=ds=#s9#, #a2#"};
 		{ 18, 45300, "", "=q4=Mantle of Fiery Vengeance", "=ds=#s3#, #a3#"};
 		{ 19, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#"};
 		{ 20, 45297, "", "=q4=Shimmering Seal", "=ds=#s13#"};
 		{ 21, 45296, "", "=q4=Twirling Blades", "=ds=#w11#"};
+	};
+
+	AtlasLoot_Data["UlduarLeviathan25Man"] = {
+		{ 1, 45117, "", "=q4=Constructor's Handwraps", "=ds=#s9#, #a1#"};
+		{ 2, 45119, "", "=q4=Embrace of the Leviathan", "=ds=#s10#, #a1#"};
+		{ 3, 45108, "", "=q4=Mechanist's Bindings", "=ds=#s8#, #a2#"};
+		{ 4, 45118, "", "=q4=Steamworker's Goggles", "=ds=#s1#, #a3#"};
+		{ 5, 45109, "", "=q4=Gloves of the Fiery Behemoth", "=ds=#s9#, #a3#"};
+		{ 6, 45107, "", "=q4=Iron Riveted War Helm", "=ds=#s1#, #a4#"};
+		{ 7, 45111, "", "=q4=Mimiron's Inferno Couplings", "=ds=#s8#, #a4#"};
+		{ 8, 45116, "", "=q4=Freya's Choker of Warding", "=ds=#s2#"};
+		{ 9, 45113, "", "=q4=Glowing Ring of Reclamation", "=ds=#s13#"};
+		{ 10, 45106, "", "=q4=Strength of the Automaton", "=ds=#s13#"};
+		{ 11, 45112, "", "=q4=The Leviathan's Coil", "=ds=#s13#"};
+		{ 12, 45115, "", "=q4=Overcharged Fuel Rod", "=ds=#s15#"};
+		{ 13, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#, #w15#"};
+		{ 14, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#"};
+		{ 15, 45086, "", "=q4=Rising Sun", "=ds=#w11#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 17, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#"};
+		{ 18, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
+		{ 19, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
+		{ 20, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
+		{ 21, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#"};
+	};
+
+	AtlasLoot_Data["UlduarIgnis"] = {
+		{ 1, 0, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#"};
+		{ 2, 45316, "", "=q4=Armbraces of the Vibrant Flame", "=ds=#s8#, #a3#"};
+		{ 3, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#"};
+		{ 4, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#"};
+	};
+
+	AtlasLoot_Data["UlduarIgnis25Man"] = {
+		{ 1, 45162, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#"};
+		{ 1, 45185, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#"};
+		{ 1, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#"};
+		{ 1, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#"};
+		{ 1, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#"};
+		{ 1, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#"};
+		{ 1, 45158, "", "=q4=Heart of Iron", "=ds=#s14#"};
+		{ 1, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#"};
+		{ 1, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#"};
+		{ 1, 45171, "", "=q4=Intensity", "=ds=#w9#"};
+		{ 1, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#"};
 	};
 
 	AtlasLoot_Data["UlduarKologarn25Man"] = {
