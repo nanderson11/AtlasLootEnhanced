@@ -43,6 +43,7 @@ if AL then
 	AL["Rewards"] = "Récompenses";
 	AL["Heroic Mode"] = "Mode Héroïque";
 	AL["Normal Mode"] = "Mode Normal";
+	--AL["Hard Mode"] = true; -- à traduire
 	AL["Show 10 Man Loot"] = "Afficher les loots Raid 10";
 	AL["Show 25 Man Loot"] = "Afficher les loots Raid 25";
 	AL["10 Man"] = "10 Joueurs";
