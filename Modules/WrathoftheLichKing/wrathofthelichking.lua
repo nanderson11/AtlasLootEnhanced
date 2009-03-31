@@ -1806,16 +1806,47 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["UlduarIgnis25Man"] = {
 		{ 1, 45162, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#"};
-		{ 1, 45185, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#"};
-		{ 1, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#"};
-		{ 1, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#"};
-		{ 1, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#"};
-		{ 1, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#"};
-		{ 1, 45158, "", "=q4=Heart of Iron", "=ds=#s14#"};
-		{ 1, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#"};
-		{ 1, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#"};
-		{ 1, 45171, "", "=q4=Intensity", "=ds=#w9#"};
-		{ 1, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#"};
+		{ 2, 45185, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#"};
+		{ 3, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#"};
+		{ 4, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#"};
+		{ 5, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#"};
+		{ 6, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#"};
+		{ 7, 45158, "", "=q4=Heart of Iron", "=ds=#s14#"};
+		{ 8, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#"};
+		{ 9, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#"};
+		{ 10, 45171, "", "=q4=Intensity", "=ds=#w9#"};
+		{ 11, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#"};
+	};
+
+	AtlasLoot_Data["UlduarRazorscale"] = {
+		{ 1, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#"};
+		{ 2, 0, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#"};
+		{ 3, 45301, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#"};
+		{ 4, 45307, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#"};
+		{ 5, 45299, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#"};
+		{ 6, 0, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#"};
+		{ 7, 45304, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#"};
+		{ 8, 0, "", "=q4=Band of Draconic Guile", "=ds=#s13#"};
+		{ 9, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#"};
+		{ 10, 0, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#"};
+	};
+
+	AtlasLoot_Data["UlduarRazorscale25Man"] = {
+		{ 1, 45138, "", "=q4=Drape of the Drakerider", "=ds=#s4#"};
+		{ 2, 45150, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#"};
+		{ 3, 45146, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#"};
+		{ 4, 45149, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#"};
+		{ 5, 45141, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#"};
+		{ 6, 45151, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#"};
+		{ 7, 45143, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#"};
+		{ 8, 45140, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#"};
+		{ 9, 45162, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#"};
+		{ 10, 45166, "", "=q4=Charred Saronite Greaves", "=ds=#s12#, #a4#"};
+		{ 11, 45148, "", "=q4=Living Flame", "=ds=#s14#"};
+		{ 12, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#"};
+		{ 13, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#"};
+		{ 14, 45147, "", "=q4=Guiding Star", "=ds=#h2#, #w6#"};
+		{ 15, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#"};
 	};
 
 	AtlasLoot_Data["UlduarKologarn25Man"] = {
@@ -2068,9 +2099,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 44052, "", "=q3=Totemic Purification Rod", "=ds=#h3#, #w6#"};
 		{ 19, 44053, "", "=q3=Whale-Stick Harpoon", "=ds=#w7#"};
 		{ 20, 44509, "", "=q3=Pattern: Trapper's Traveling Pack", "=ds=#p7# (415)"};
-		{ 22, 0, "INV_Fishingpole_03", "=q6=#r5#", ""};
-		{ 23, 44050, "", "=q4=Mastercraft Kalu'ak Fishing Pole", "=ds=#e20#"};
-		{ 24, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#"};
+		{ 21, 45774, "", "=q1=Pattern: Emerald Bag", "=ds=#p8# (435)"};
+		{ 23, 0, "INV_Fishingpole_03", "=q6=#r5#", ""};
+		{ 24, 44050, "", "=q4=Mastercraft Kalu'ak Fishing Pole", "=ds=#e20#"};
+		{ 25, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#"};
 		Back = "REPMENU_WOTLK";
 	};
 
@@ -2311,7 +2343,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 0, "", "=q4=Furious Gladiator's Kodohide Spaulders", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Kodohide Robes", "=ds="};
 		{ 27, 0, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds="};
+		{ 28, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds="};
 		Back = "LEVEL80PVPSETS";
 	};
 
@@ -2396,7 +2428,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 0, "", "=q4=Furious Gladiator's Scaled Shoulders", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Scaled Chestpiece", "=ds="};
 		{ 27, 0, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds="};
+		{ 28, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds="};
 		Back = "LEVEL80PVPSETS";
 	};
 
