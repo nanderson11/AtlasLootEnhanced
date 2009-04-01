@@ -1246,12 +1246,12 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Shadoweave1"] = { SHADOWEAVE, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Spellfire1"] = { SPELLFIRE, "AtlasLootCrafting" };
   -- Cooking
-	AtlasLoot_TableNames["CookingApprentice1"] = { COOKING..": "..APPRENTICE, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingJourneyman1"] = { COOKING..": "..JOURNEYMAN, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingJourneyman2"] = { COOKING..": "..JOURNEYMAN, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingExpert1"] = { COOKING..": "..EXPERT, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingArtisan1"] = { COOKING..": "..ARTISAN, "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingMaster1"] = { COOKING..": "..MASTER, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Cooking1"] = { COOKING, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Cooking2"] = { COOKING, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Cooking3"] = { COOKING, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Cooking4"] = { COOKING, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Cooking5"] = { COOKING, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Cooking6"] = { COOKING, "AtlasLootCrafting" };
   -- First Aid
 	AtlasLoot_TableNames["FirstAid1"] = { FIRSTAID, "AtlasLootCrafting" };
   -- Daily
@@ -1381,10 +1381,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["INSCRIPTIONMENU"] = { INSCRIPTION, "Menu" };
 	AtlasLoot_TableNames["JEWELCRAFTINGMENU"] = { JEWELCRAFTING, "Menu" };
 	AtlasLoot_TableNames["LEATHERWORKINGMENU"] = { LEATHERWORKING, "Menu" };
-	AtlasLoot_TableNames["MININGMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["TAILORINGMENU"] = { TAILORING, "Menu" };
-	AtlasLoot_TableNames["COOKINGMENU"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["FIRSTAIDMENU"] = { "dummy", "dummy" };
 	AtlasLoot_TableNames["WishList"] = { AL["WishList"], "AtlasLootCharDB" };
 	AtlasLoot_TableNames["SearchResult"] = { AL["WishList"], "AtlasLootCharDB" };
   -- If all else fails!

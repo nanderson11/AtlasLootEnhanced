@@ -119,7 +119,6 @@ AtlasLoot_MenuList = {
 	"ARENA2SET",
 	"ARENA3SET",
 	"ARENA4SET",
-	"COOKINGMENU",
 };
 
 -- Popup Box for first time users
@@ -547,8 +546,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootARENA3SetMenu();
 	elseif(dataID=="ARENA4SET") then
 		AtlasLootARENA4SetMenu();
-	elseif(dataID=="COOKINGMENU") then
-		AtlasLoot_CookingMenu();
 	elseif (dataID == "SearchResult") or (dataID == "WishList") or (AtlasLoot_IsLootTableAvailable(dataID)) then
 		--Iterate through each item object and set its properties
 		for i = 1, 30, 1 do

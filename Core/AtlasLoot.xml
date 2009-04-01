@@ -3,7 +3,6 @@
     <Script file="ExtraText.lua"/>
     <Script file="TextParsing.lua"/>
     <Script file="Sets.lua"/>
-    <Script file="Crafting.lua"/>
     <Script file="Options.lua"/>
     <Script file="LootButtons.lua"/>
     <Script file="HooksandAPI.lua"/>

@@ -13,7 +13,7 @@ AtlasLoot_Data["CRAFTINGMENU"] = {
         { 8, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
         { 9, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
         { 10, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
-        { 17, "COOKINGMENU", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
+        { 17, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
         { 18, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
         { 20, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
         { 21, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};

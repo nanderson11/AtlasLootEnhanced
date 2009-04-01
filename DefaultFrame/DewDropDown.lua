@@ -217,7 +217,7 @@ AtlasLoot_DewDropDown = {
 		[AL["Crafting"]] = {
 			[1] = { { (GetSpellInfo(2259)), "Alchemy", "Submenu" }, },
 			[2] = { { (GetSpellInfo(2018)), "BlackSmithing", "Submenu" }, },
-			[3] = { { (GetSpellInfo(2550)), "Cooking", "Submenu" }, },
+			[3] = { { (GetSpellInfo(2550)), "Cooking1", "Table" }, },
 			[4] = { { (GetSpellInfo(7411)), "Enchanting", "Submenu" }, },
 			[5] = { { (GetSpellInfo(4036)), "Engineering", "Submenu" }, },
 			[6] = { { (GetSpellInfo(3273)), "FirstAid1", "Table" }, },
@@ -1393,13 +1393,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["Axesmith1"][1], "Axesmith1" },
 		{ AtlasLoot_TableNames["Hammersmith1"][1], "Hammersmith1" },
 		{ AtlasLoot_TableNames["Swordsmith1"][1], "Swordsmith1" },
-	},
-	["Cooking"] = {
-		{ AtlasLoot_TableNames["CookingApprentice1"][1], "CookingApprentice1" },
-		{ AtlasLoot_TableNames["CookingJourneyman1"][1], "CookingJourneyman1" },
-		{ AtlasLoot_TableNames["CookingExpert1"][1], "CookingExpert1" },
-		{ AtlasLoot_TableNames["CookingArtisan1"][1], "CookingArtisan1" },
-		{ AtlasLoot_TableNames["CookingMaster1"][1], "CookingMaster1" },
 	},
 	["Enchanting"] = {
 		{ "", "EnchantingBoots1" },

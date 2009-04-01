@@ -8,6 +8,27 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local DEFAULT = "|cffFFd200";
 local ParseTooltip_Enabled = false;
+local AtlasLootScanTooltip = CreateFrame("GAMETOOLTIP","AtlasLootScanTooltip",nil,"GameTooltipTemplate");
+AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE");
+
+
+function AtlasLoot_GetEnchantLink(enchantID)
+   if not enchantID then return end
+   local EnchantLink = nil
+   AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
+   AtlasLootScanTooltip:ClearLines();
+   AtlasLootScanTooltip:SetHyperlink("enchant:"..enchantID);
+   AtlasLootScanTooltip:Show()
+   local tooltipline = getglobal("AtlasLootScanTooltipTextLeft1")
+   local text = tooltipline:GetText()
+   if text and string.find(text, ":") then
+      EnchantLink = "|cffffd000|Henchant:"..enchantID.."|h["..text.."]|h|r"
+   else
+      EnchantLink = GetSpellLink(enchantID)
+   end
+   AtlasLootScanTooltip:Hide()
+   return EnchantLink
+end
 
 --------------------------------------------------------------------------------
 -- Item OnEnter
@@ -239,7 +260,7 @@ function AtlasLootItem_OnClick(arg1)
     else
         if IsShiftKeyDown() then
             spellID = string.sub(this.itemID, 2);
-            ChatEdit_InsertLink(GetSpellLink(spellID));
+            ChatEdit_InsertLink(AtlasLoot_GetEnchantLink(spellID));
         elseif(IsAltKeyDown() and (this.itemID ~= 0)) then
             if AtlasLootItemsFrame.refresh[1] == "WishList" then
                 AtlasLoot_DeleteFromWishList(this.itemID);
