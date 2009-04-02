@@ -170,7 +170,7 @@ function AtlasLootItem_OnEnter()
             spellID = string.sub(this.itemID, 2);
             AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
             AtlasLootTooltip:ClearLines();
-            AtlasLootTooltip:SetHyperlink("enchant:"..spellID);
+            AtlasLootTooltip:SetHyperlink(AtlasLoot_GetEnchantLink(spellID));
             AtlasLootTooltip:Show();
             if(this.spellitemID and ((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled))) or IsShiftKeyDown())) then
                 AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
