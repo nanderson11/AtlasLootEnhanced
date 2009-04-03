@@ -575,7 +575,12 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 					end
 				else
 					spellName, _, spellIcon, _, _, _, _, _, _ = GetSpellInfo(string.sub(dataSource[dataID][i][2], 2));
-					text = AtlasLoot_FixText(string.sub(dataSource[dataID][i][4], 1, 4)..spellName);
+					if spellName then
+                        text = AtlasLoot_FixText(string.sub(dataSource[dataID][i][4], 1, 4)..spellName);
+                    else
+                        text = dataSource[dataID][i][4];
+                        text = AtlasLoot_FixText(text);
+                    end
 				end
 
 				--Store data about the state of the items frame to allow minor tweaks or a recall of the current loot page

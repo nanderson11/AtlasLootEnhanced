@@ -199,16 +199,19 @@ AtlasLoot_DewDropDown = {
 			[12] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
-			[13] = {
-				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
+            [13] = {
+				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
 			[14] = {
+				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
+			},
+			[15] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-            [15] = {
+            [16] = {
 				{ BabbleZone["Vault of Archavon"], "Archavon", "Table" },
 			},
-			[16] = {
+			[17] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
@@ -945,6 +948,14 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "HallsofStoneSjonnir" },
 		{ "", "HallsofStoneTrash" },
 	},
+    ["Ulduar"] = {
+        { "", "UlduarLeviathan" },
+        { "", "UlduarIgnis" },
+        { "", "UlduarRazorscale" },
+        { "", "UlduarIronCouncil" },
+        { "", "UlduarKologarn25Man" },
+        { "", "UlduarVezax25Man" },
+    },
 	["UtgardeKeep"] = {
 		{ "", "UtgardeKeepKeleseth" },
 		{ "", "UtgardeKeepSkarvald" },

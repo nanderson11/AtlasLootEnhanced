@@ -177,10 +177,10 @@ AtlasLoot_TableNames = {};
   	AtlasLoot_TableNames["UlduarIgnis25Man"] = { BabbleBoss["Ignis the Furnace Master"], "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarRazorscale"] = { BabbleBoss["Razorscale"], "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarRazorscale25Man"] = { BabbleBoss["Razorscale"], "AtlasLootWotLK" };
-  	AtlasLoot_TableNames["UlduarKologarn25Man"] = { "Kologarn", "AtlasLootWotLK" };
-  	AtlasLoot_TableNames["UlduarVezax25Man"] = { "Vezax", "AtlasLootWotLK" };
-  	AtlasLoot_TableNames["UlduarIronCouncil"] = { "Iron Council", "AtlasLootWotLK" };
-  	AtlasLoot_TableNames["UlduarIronCouncil25Man"] = { "Iron Council", "AtlasLootWotLK" };
+    AtlasLoot_TableNames["UlduarIronCouncil"] = { BabbleBoss["The Iron Council"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarIronCouncil25Man"] = { BabbleBoss["The Iron Council"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarKologarn25Man"] = { BabbleBoss["Kologarn"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarVezax25Man"] = { BabbleBoss["General Vezax"], "AtlasLootWotLK" };
 
 --------------------
 --- BC Instances ---

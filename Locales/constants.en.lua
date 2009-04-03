@@ -257,6 +257,7 @@ if AL then
 	AL["Scrolls"] = true;
 	AL["Off-Hand Items"] = true;
 	AL["Reagents"] = true;
+    AL["Book of Glyph Mastery"] = true;
 
 	--Leatherworking
 	AL["Leather Armor"] = true;
