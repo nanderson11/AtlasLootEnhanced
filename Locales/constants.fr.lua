@@ -257,7 +257,8 @@ if AL then
 	AL["Scrolls"] = "Parchemins";
 	AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
 	AL["Reagents"] = "Réactifs";
-
+	--AL["Book of Glyph Mastery"] = true; -- à traduire
+    
 	--Leatherworking
 	AL["Leather Armor"] = "Armure en cuir";
 	AL["Mail Armor"] = "Armure en maille";
