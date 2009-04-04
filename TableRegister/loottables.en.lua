@@ -179,6 +179,8 @@ AtlasLoot_TableNames = {};
   	AtlasLoot_TableNames["UlduarRazorscale25Man"] = { BabbleBoss["Razorscale"], "AtlasLootWotLK" };
     AtlasLoot_TableNames["UlduarIronCouncil"] = { BabbleBoss["The Iron Council"], "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarIronCouncil25Man"] = { BabbleBoss["The Iron Council"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["UlduarDeconstructor"] = { BabbleBoss["XT-002 Deconstructor"], "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["UlduarDeconstructor25Man"] = { BabbleBoss["XT-002 Deconstructor"], "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarKologarn25Man"] = { BabbleBoss["Kologarn"], "AtlasLootWotLK" };
   	AtlasLoot_TableNames["UlduarVezax25Man"] = { BabbleBoss["General Vezax"], "AtlasLootWotLK" };
 

@@ -1848,6 +1848,40 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 14, 45147, "", "=q4=Guiding Star", "=ds=#h2#, #w6#"};
 		{ 15, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#"};
 	};
+	
+	AtlasLoot_Data["UlduarDeconstructor"] = {
+		{ 1, 45694, "", "=q4=Conductive Cord", "=ds=#s10#, #a1#"};
+		{ 2, 45677, "", "=q4=Treacherous Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 3, 45686, "", "=q4=Vest of the Glowing Crescent", "=ds=#s5#, #a2#"};
+		{ 4, 45687, "", "=q4=Helm of Veiled Energies", "=ds=#s1#, #a3#"};
+		{ 5, 45679, "", "=q4=Gloves of Taut Grip", "=ds=#s9#, #a3#"};
+		{ 6, 45676, "", "=q4=Chestplate of Vicious Potency", "=ds=#s5#, #a4#"};
+		{ 7, 45680, "", "=q4=Armbands of the Construct", "=ds=#s8#, #a4#"};
+		{ 8, 45685, "", "=q4=Plasma Foil", "=ds=#h3#, #w4#"};
+		{ 9, 45675, "", "=q4=Power Enhancing Loop", "=ds=#s13#"};
+		{ 10, 45682, "", "=q4=Pulsing Spellshield", "=ds=#w8#"};
+	};
+
+	AtlasLoot_Data["UlduarDeconstructor25Man"] = {
+		{ 1, 45253, "", "=q4=Mantle of Wavering Calm", "=ds=#s3#, #a1#"};
+		{ 2, 45258, "", "=q4=Sandals of Rash Temperament", "=ds=#s12#, #a1#"};
+		{ 3, 45260, "", "=q4=Boots of Hasty Revival", "=ds=#s12#, #a2#"};
+		{ 4, 45259, "", "=q4=Quartz-studded Harness", "=ds=#s5#, #a3#"};
+		{ 5, 45249, "", "=q4=Brass-lined Boots", "=ds=#s12#, #a3#"};
+		{ 6, 45251, "", "=q4=Shoulderplates of the Deconstructor", "=ds=#s3#, #a4#"};
+		{ 7, 45252, "", "=q4=Horologist's Wristguards", "=ds=#s8#, #a4#"};
+		{ 8, 45248, "", "=q4=Clockwork Legplates", "=ds=#s11#, #a4#"};
+		{ 9, 45250, "", "=q4=Crazed Construct Ring", "=ds=#s13#"};
+		{ 10, 45247, "", "=q4=Signet of the Earthshaker", "=ds=#s13#"};
+		{ 11, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#, #w15#"};
+		{ 12, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#s16#, #w21#"};
+		{ 13, 45246, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#"};
+		{ 14, 45256, "", "=q4=Twisted Visage", "=ds=#w9#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 17, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#"};
+		{ 18, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#"};
+		{ 19, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#"};
+	};
     
     --16-17:Hard Mode
 	AtlasLoot_Data["UlduarIronCouncil"] = {	
