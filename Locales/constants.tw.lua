@@ -43,6 +43,7 @@ if AL then
     AL["Rewards"] = "獎勵";
     AL["Heroic Mode"] = "英雄模式";
     AL["Normal Mode"] = "一般模式";
+	AL["Hard Mode"] = "困難模式";
     AL["Show 10 Man Loot"] = "顯示 10 人團隊物品表";
     AL["Show 25 Man Loot"] = "顯示 25 人團隊物品表";
     AL["10 Man"] = "10 人";
@@ -87,6 +88,10 @@ if AL then
     AL["Hide Text"] = "隱藏文字";
     AL["Hide Icon"] = "隱藏圖示";
     AL["Minimap Button Options"] = "小地圖按鍵選項";
+    AL["Bonus Loot"] = "額外獎勵";
+    AL["Three Drakes Left"] = "剩餘三隻飛龍";
+    AL["Two Drakes Left"] = "剩餘二隻飛龍";
+    AL["One Drake Left"] = "剩餘一隻飛龍";
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Atlasloot 選項";
@@ -242,12 +247,17 @@ if AL then
     AL["Enchant 2H Weapon"] = "附魔雙手武器";
     AL["Enchant Weapon"] = "附魔武器";
 
+	--Engineering
+	AL["Ammunition"] = "彈藥";
+	AL["Explosives"] = "火藥";
+
     --Inscription
     AL["Major Glyph"] = "極效雕紋";
     AL["Minor Glyph"] = "初階雕紋";
     AL["Scrolls"] = "卷軸";
     AL["Off-Hand Items"] = "副手物品";
     AL["Reagents"] = "材料";
+    AL["Book of Glyph Mastery"] = "雕紋專精書籍";
 
     --Leatherworking
     AL["Leather Armor"] = "皮甲護甲";
@@ -256,6 +266,11 @@ if AL then
     AL["Item Enhancements"] = "物品附魔";
     AL["Quivers and Ammo Pouches"] = "箭袋/彈藥袋";
     AL["Drums, Bags and Misc."] = "戰鼓、背包與其他物品";
+
+	--Tailoring
+	AL["Cloth Armor"] = "護甲";
+	AL["Shirts"] = "襯衣";
+	AL["Bags"] = "容器";
 
     --Labels for loot descriptions
     AL["Classes:"] = "職業: ";
@@ -281,11 +296,19 @@ if AL then
     AL["Card Game Item"] = "卡片遊戲物品";
     AL["Tier 1"] = "T1";
     AL["Tier 2"] = "T2";
+    AL["Tier 3"] = "T3";
     AL["Tier 4"] = "T4";
     AL["Tier 5"] = "T5";
     AL["Tier 6"] = "T6";
+	AL["Tier 7"] = "T7";
+	AL["Tier 8"] = "T8";
     AL["10/25 Man"] = "10/25 人";
+    AL["Tier 7 Sets"] = "T7 套裝";
+    AL["Tier 8 Sets"] = "T8 套裝";
+	AL["Tier 7/8 Sets"] = "T7/T8 套裝";
     AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
+	AL["Hateful Gladiator Sets"] = "憎恨鬥士套裝";
+	AL["Deadly Gladiator Sets"] = "致命鬥士套裝";
     AL["Arena Reward"] = "競技場獎勵";
     AL["Conjured Item"] = "特殊物品";
     AL["Used to summon boss"] = "使用以召喚首領";
@@ -311,6 +334,12 @@ if AL then
     AL["Achievement"] = "成就";
     AL["Unattainable Tabards"] = "難以取得的徽章/外袍";
     AL["Heirloom"] = "傳家寶";
+
+	--Darkmoon Faire
+	AL["Darkmoon Faire Rewards"] = "暗月馬戲團獎勵";
+	AL["Low Level Decks"] = "低階套排";
+	AL["Original and BC Trinkets"] = "舊世界與 BC 飾品";
+	AL["WotLK Trinkets"] = "巫妖王之怒飾品";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck 卡片遊戲物品";
@@ -352,6 +381,11 @@ if AL then
 	--AL["The Red Bearon"] = true;
 	--AL["Owned!"] = true;
 	--AL["Slashdance"] = true;
+	-- Eighth set
+	--AL["Blood of Gladiators"] = true;
+	--AL["Sandbox Tiger"] = true;
+	--AL["Center of Attention"] = true;
+	--AL["Foam Sword Rack"] = true;
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "雜項獎勵";
@@ -386,6 +420,7 @@ if AL then
     AL["Twin Spire Ruins"] = "雙塔廢墟";
     AL["Spirit Towers"] = "精神哨塔";
     AL["Halaa"] = "哈剌";
+	AL["Venture Bay"] = "風險海灣";
 
     --Karazhan Opera Event Headings
     AL["Shared Drops"] = "隨機掉落";
@@ -708,6 +743,27 @@ if AL then
     AL["Dreadnaught Battlegear"] = "無畏戰甲";
     AL["Dreadnaught Plate"] = "無畏鎧甲";
 
+	--Tier 8 Sets
+	--AL["Darkruned Battlegear"] = true;
+	--AL["Darkruned Plate"] = true;
+	--AL["Nightsong Garb"] = true;
+	--AL["Nightsong Battlegear"] = true;
+	--AL["Nightsong Regalia"] = true;
+	--AL["Scourgestalker Battlegear"] = true;
+	--AL["Kirin'dor Garb"] = true;
+	--AL["Aegis Regalia"] = true;
+	--AL["Aegis Battlegear"] = true;
+	--AL["Aegis Plate"] = true;
+	--AL["Sanctification Regalia"] = true;
+	--AL["Sanctification Garb"] = true;
+	--AL["Terrorblade Battlegear"] = true;
+	--AL["Worldbreaker Garb"] = true;
+	--AL["Worldbreaker Battlegear"] = true;
+	--AL["Worldbreaker Regalia"] = true;
+	--AL["Deathbringer Garb"] = true;
+	--AL["Siegebreaker Battlegear"] = true;
+	--AL["Siegebreaker Plate"] = true;
+
     --Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "高地人的專注";
     AL["The Highlander's Purpose"] = "高地人的毅力";
@@ -854,6 +910,7 @@ if AL then
     AL["PvP Accessories - Alliance (Level 60)"] = "PvP 聯盟配件 (60 級)";
     AL["PvP Accessories - Horde (Level 60)"] = "PvP 部落配件 (60 級)";
     AL["PvP Accessories (Level 70)"] = "PvP 配件 (70 級)";
+	AL["PvP Jewelcrafting Designs"] = "PvP 珠寶加工設計圖";
     AL["PvP Rewards"] = "PvP 榮譽獎勵";
     AL["PvP Armor Sets"] = "PvP 套裝";
     AL["PvP Weapons"] = "PvP 武器";
@@ -905,7 +962,7 @@ if AL then
     AL["Hyjal Summit Designs"] ="海加爾山設計圖";
     AL["SP Patterns/Plans"] = "特殊圖樣/卷軸";
     AL["Additional Heroic Loot"] = "更多的英雄物品";
-    AL["Sigil"] = "符記";
+    AL["Sigil"] = "符記"; --Can be added to BabbleInv
 
     --Pets
     AL["Pets"] = "寵物";
@@ -947,6 +1004,13 @@ if AL then
 	AL["Destruction"] = "毀滅";
     AL["Tanking"] = "防禦型";
     AL["DPS"] = "傷害型";
+
+	--Naxx Zones
+	AL["Construct Quarter"] = "傀儡區";
+	AL["Arachnid Quarter"] = "蜘蛛區";
+	AL["Military Quarter"] = "軍事區";
+	AL["Plague Quarter"] = "瘟疫區";
+	AL["Frostwyrm Lair"] = "冰霜巨龍巢穴";
 
     --NPCs missing from BabbleBoss
     AL["Trash Mobs"] = "小怪";
@@ -1088,7 +1152,7 @@ if AL then
     AL["Commander Stoutbeard"] = "指揮官厚鬚";
     AL["Bloodstone Annihilator"] = "血石殲滅者";
     AL["Rescue Mission"] = "營救任務";
-    --AL["Gjarngrin"] = true;
+    AL["Bjarngrim"] = "畢亞格林";
     AL["Kronus"] = "克羅努斯";
     AL["Loken"] = "洛肯";
     AL["Time-Lost Proto Drake"] = "時光流逝元龍";
@@ -1158,6 +1222,8 @@ if AL then
     AL["Overcharged Manacell"] = "滿溢的法力容器";
     AL["Mysterious Egg"] = "詭秘的蛋";
     AL["Hyldnir Spoils"] = "海迪尼爾戰利品";
+	AL["Ripe Disgusting Jar"] = "熟成的噁心罐子";
+	AL["Cracked Egg"] = "破損的蛋";
 
     --World Events
     AL["Abyssal Council"] = "深淵議會";
@@ -1176,6 +1242,26 @@ if AL then
     AL["Noblegarden"] = "彩蛋節";
     AL["Skettis"] = "司凱堤斯";
     AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
+	AL["Argent Tournament"] = "銀色全球爭霸戰";
 
-
+	--Help Frame
+	AL["Help"] = "說明";
+	AL["AtlasLoot Help"] = "AtlasLoot 說明";
+	AL["For further help, see our website and forums: "] = "進階說明請參閱網站及論壇: ";
+	AL["How to open the standalone Loot Browser:"] = "如何開啟獨立的物品掉落檢視器: ";
+	AL["If you have AtlasLootFu enabled, click the minimap button, or alternatively a button generated by a mod like Titan or FuBar.  Finally, you can type '/al' in the chat window."] = "如果你有開啟 AtlasLootFu 插件，在小地圖旁按鈕點擊，或是點擊由 Titan 或是 FuBar 產生的按鈕。或是你也可以在聊天視窗輸入 '/al' 來開啟物品掉落檢視器。";
+	AL["How to view an 'unsafe' item:"] = "如何檢視不安全物品: ";
+	AL["Unsafe items have a red border around the icon and are marked because you have not seen the item since the last patch or server restart. Right-click the item, then move your mouse back over the item or click the 'Query Server' button at the bottom of the loot page."] = "不安全的物品其圖示周圍有紅色外筐，用以標示從上次的重大更新或是伺服器重新啟動後你尚未檢視過的物品。在物品圖示右鍵點擊，然後將滑鼠移開再重新移回圖示上方，或是按下 '從伺服器查詢' 按鈕。";
+	AL["How to view an item in the Dressing Room:"] = "如何在試衣間檢視物品: ";
+	AL["Simply Ctrl+Left Click on the item.  Sometimes the dressing room window is hidden behind the Atlas or AtlasLoot windows, so if nothing seems to happen move your Atlas or AtlasLoot windows and see if anything is hidden."] = "在物品上按下 Ctrl + 滑鼠右鍵即可。有時試衣間的視窗隱藏在 Atlas 或是 AtlasLoot 視窗之下，因此若是未看到試衣間視窗，嘗試移動 Atlas 或是 AtlasLoot 視窗。";
+	AL["How to link an item to someone else:"] = "如何傳送物品連結給其他人: ";
+	AL["Shift+Left Click the item like you would for any other in-game item"] = "在物品上按 Shift + 滑鼠左鍵。";
+	AL["How to add an item to the wishlist:"] = "如何新增物品到願望清單: ";
+	AL["Alt+Left Click any item to add it to the wishlist."] = "在物品上按 Alt + 滑鼠左鍵。";
+	AL["How to delete an item from the wishlist:"] = "如何將物品從願望清單刪除: ";
+	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "在願望清單視窗中，於欲刪除物品上按 Alt + 滑鼠左鍵。";
+	AL["What else does the wishlist do?"] = "願望清單還可以做什麼？";
+	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "如果你在願望清單裡對任何物品按滑鼠左鍵，視窗將跳至該物品的掉落頁面，以便你查閱對應的掉落首領等。此外，一個已經被你加至願望清單的物品，在對應的首領掉落頁面也會以黃色星星標示。";
+	AL["HELP!! I have broken the mod somehow!"] = "求助，我有個壞掉的模組無法正常運作！";
+	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "請嘗試用重設按鈕，或是輸入 '/al reset' 來重設所有設定。";
 end
