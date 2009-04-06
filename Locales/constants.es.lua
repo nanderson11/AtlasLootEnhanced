@@ -1102,7 +1102,7 @@ if AL then
 	AL["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
     AL["Bloodstone Annihilator"] = "Bloodstone Annihilator"; --FALTA
     AL["Rescue Mission"] = "Misión de rescate"; --Comprobar
-    AL["Gjarngrin"] = "Gjarngrin"; --FALTA
+    AL["Bjarngrim"] = "Bjarngrim"; --FALTA
     AL["Kronus"] = "Kronus"; --FALTA
     AL["Loken"] = "Loken"; --FALTA
     AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";

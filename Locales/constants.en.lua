@@ -1152,7 +1152,7 @@ if AL then
 	AL["Commander Stoutbeard"] = true;  --Is in BabbleBoss
 	AL["Bloodstone Annihilator"] = true;  --Who is this npc?
 	AL["Rescue Mission"] = true;
-	AL["Gjarngrin"] = true; --Who is this npc?
+	AL["Bjarngrim"] = true; 
 	AL["Kronus"] = true; --Who is this npc?
 	AL["Loken"] = true; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
@@ -1169,7 +1169,7 @@ if AL then
 	AL["Scholo"] = true;
 	AL["Strat"] = true;
 	AL["Serpentshrine"] = true;
-	AL["Avatar"] = true;
+	AL["Avatar"] = true;  -- Avatar of the Martyred
 
 	--Chests, etc
 	AL["Dark Coffer"] = true;

@@ -670,7 +670,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["HallsofLightningBjarngrim"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 36982, "", "=q3=Mantle of Electrical Charges", "=ds=#s3#, #a1#"};
-		{ 3, 36979, "", "=q3=Gjarngrin Family Signet", "=ds=#s13#"};
+		{ 3, 36979, "", "=q3=Bjarngrim Family Signet", "=ds=#s13#"};
 		{ 4, 36980, "", "=q3=Hewn Sparring Quarterstaff", "=ds=#w9#"};
 		{ 5, 36981, "", "=q3=Hardened Vrykul Throwing Axe", "=ds=#w11#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};

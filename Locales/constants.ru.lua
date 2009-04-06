@@ -1119,15 +1119,15 @@ if AL then
     AL["Aged Dalaran Wizard"] = "Даларанский старый волшебник";
     AL["Cache of the Legion"] = "Тайник Легиона";
     AL["Rajaxx's Captains"] = "Капитаны Раджакса";
-    AL["Felsteed"] = "Скакун Скверны";
-    AL["Shattered Hand Executioner"] = "Палач из клана Извученной Длани";
-    AL["Commander Stoutbeard"] = "Командир Пивобород";
+    AL["Felsteed"] = "Скак?н Скве?н?";
+    AL["Shattered Hand Executioner"] = "?ала? из клана ?зв??енной ?лани";
+    AL["Commander Stoutbeard"] = "?оманди? ?ивобо?од";
     AL["Bloodstone Annihilator"] = true; --Who is this npc?
     AL["Rescue Mission"] = true; --Who is this npc?
-    AL["Gjarngrin"] = true; --Who is this npc?
+    AL["Bjarngrim"] = true; --Who is this npc?
     AL["Kronus"] = true; --Who is this npc?
-    AL["Loken"] = "Локен";
-    AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
+    AL["Loken"] = "?окен";
+    AL["Time-Lost Proto Drake"] = "?а?е??нн?й во в?емени п?о?од?акон";
 
     --Zones
     AL["World Drop"] = "Мировой выпад";

@@ -1148,10 +1148,10 @@ if AL then
 	AL["Felsteed"] = "Palefroi corrompu";
 	AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 	AL["Commander Stoutbeard"] = "Commandant Rudebarbe";
-	--AL["Bloodstone Annihilator"] = true; -- à traduire
-	--AL["Rescue Mission"] = true; -- à traduire
-	--AL["Gjarngrin"] = true; -- à traduire
-	--AL["Kronus"] = true; -- à traduire
+	--AL["Bloodstone Annihilator"] = true; -- ? traduire
+	--AL["Rescue Mission"] = true; -- ? traduire
+	--AL["Bjarngrim"] = true; -- ? traduire
+	--AL["Kronus"] = true; -- ? traduire
 	--AL["Loken"] = true;
 	AL["Time-Lost Proto Drake"] = "Proto-drake perdu dans le temps";
 
