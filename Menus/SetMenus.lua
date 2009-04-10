@@ -63,10 +63,11 @@ AtlasLoot_Data["EMBLEMOFVALORMENU"] = {
 	};
 
 AtlasLoot_Data["WORLDEPICS"] = {
-        { 2, "WorldEpics4", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
-        { 3, "WorldEpics2", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
-        { 17, "WorldEpics3", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
-        { 18, "WorldEpics1", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
+        { 2, "WorldEpicsWrath1", "INV_Sword_109", "=ds="..AL["Level 80"], ""};
+        { 3, "WorldEpics3", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
+        { 4, "WorldEpics1", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
+        { 17, "WorldEpics4", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
+        { 18, "WorldEpics2", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
         Back = "SETMENU";
 	};
 

@@ -37,6 +37,7 @@ if AL then
 	AL["Back"] = true;
 	AL["Level 60"] = true;
 	AL["Level 70"] = true;
+	AL["Level 80"] = true;
 	AL["|cffff0000(unsafe)"] = true;
 	AL["Misc"] = true;
 	AL["Miscellaneous"] = true;

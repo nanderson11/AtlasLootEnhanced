@@ -5767,6 +5767,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 31334, "", "=q4=Staff of Natural Fury", "=ds=#w9#", "", ""};
 		{ 23, 34622, "", "=q4=Spinesever", "=ds=#w11#", "", ""};
 		{ 24, 31323, "", "=q4=Don Santos' Famous Hunting Rifle", "=ds=#w5#", "", ""};
+		Next = "WorldEpicsWrath1";
 		Prev = "WorldEpics3";
 		Back = "WORLDEPICS";
 	};

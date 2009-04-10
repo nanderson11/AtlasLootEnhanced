@@ -881,6 +881,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["WorldEpics2"] = { AL["BoE World Epics"].." - "..AL["Level 40-49"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics3"] = { AL["BoE World Epics"].." - "..AL["Level 50-60"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics4"] = { AL["BoE World Epics"].." - "..AL["Level 70"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["WorldEpicsWrath1"] = { AL["BoE World Epics"].." - "..AL["Level 80"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Pets1"] = { AL["Pets"].." - "..AL["Aquatic"].." / "..AL["Birds"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Pets2"] = { AL["Pets"].." - "..AL["Invertebrates"].." / "..AL["Mechanical"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Pets3"] = { AL["Pets"].." - "..AL["Mammals"], "AtlasLootWotLK" };

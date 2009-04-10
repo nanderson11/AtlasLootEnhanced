@@ -6,15 +6,16 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 v5.04.00
-Added cooking to 450 skill
+Added New Event: The Argent Tournament
+Added Tier 8 (Ulduar) Sets
+Added Cooking to 450 skill
+Added new WotLK Darkmoon Faire items and revamped its menu
+Added WotLK new World BoE Items
+Added drop rates for Utgarde Keep and The Nexus 
+Trash Mob updates from Pucelle
+Added Key to the Focusing Iris (Normal/Heroic) Rewards
 The dressingroom and comparison tooltips should now work for crafted items
 Holding down the shift key while mousing over items will now always show an available comparison tooltip
-Added Tier 8 (Ulduar) Sets
-Added new event: The Argent Tournament
-Added new WotLK Darkmoon Faire items and revamped its menu
-Added drop rates for Utgarde Keep and The Nexus 
-Trash mob updates from pucelle
-Added Key to the Focusing Iris (Normal/Heroic) Rewards
 Minor updates/fixes/translations
 
 v5.03.03

@@ -184,7 +184,7 @@ AtlasLoot_DewDropDown = {
 			[7] = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
-            [8] = {
+			[8] = {
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
 			[9] = {
@@ -193,13 +193,13 @@ AtlasLoot_DewDropDown = {
 			[10] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
-            [11] = {
+			[11] = {
 				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
 			[12] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
-            [13] = {
+			[13] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
 			[14] = {
@@ -208,7 +208,7 @@ AtlasLoot_DewDropDown = {
 			[15] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-            [16] = {
+			[16] = {
 				{ BabbleZone["Vault of Archavon"], "Archavon", "Table" },
 			},
 			[17] = {
@@ -948,14 +948,14 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "HallsofStoneSjonnir" },
 		{ "", "HallsofStoneTrash" },
 	},
-    ["Ulduar"] = {
-        { "", "UlduarLeviathan" },
-        { "", "UlduarIgnis" },
-        { "", "UlduarRazorscale" },
-        { "", "UlduarIronCouncil" },
-        { "", "UlduarKologarn25Man" },
-        { "", "UlduarVezax25Man" },
-    },
+	["Ulduar"] = {
+		{ "", "UlduarLeviathan" },
+		{ "", "UlduarIgnis" },
+		{ "", "UlduarRazorscale" },
+		{ "", "UlduarIronCouncil" },
+		{ "", "UlduarKologarn25Man" },
+		{ "", "UlduarVezax25Man" },
+	},
 	["UtgardeKeep"] = {
 		{ "", "UtgardeKeepKeleseth" },
 		{ "", "UtgardeKeepSkarvald" },
@@ -1092,6 +1092,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "WinterfinRetreat" },
 	},
 	["BoEWorldEpics"] = {
+		{ AtlasLoot_TableNames["WorldEpicsWrath1"][1], "WorldEpicsWrath1" },
 		{ AtlasLoot_TableNames["WorldEpics4"][1], "WorldEpics4" },
 		{ AtlasLoot_TableNames["WorldEpics3"][1], "WorldEpics3" },
 		{ AtlasLoot_TableNames["WorldEpics2"][1], "WorldEpics2" },
@@ -1393,12 +1394,12 @@ AtlasLoot_DewDropDown_SubTables = {
 	["BlackSmithing"] = {
 		{ BabbleInventory["Armor"].." - "..AL["Original WoW"], "SmithingArmorOld1" },
 		{ BabbleInventory["Armor"].." - "..AL["Burning Crusade"], "SmithingArmorBC1" },
-        { BabbleInventory["Armor"].." - "..AL["Wrath of the Lich King"], "SmithingArmorWrath1" },
+		{ BabbleInventory["Armor"].." - "..AL["Wrath of the Lich King"], "SmithingArmorWrath1" },
 		{ BabbleInventory["Weapon"].." - "..AL["Original WoW"], "SmithingWeaponOld1" },
 		{ BabbleInventory["Weapon"].." - "..AL["Burning Crusade"], "SmithingWeaponBC1" },
-        { BabbleInventory["Weapon"].." - "..AL["Wrath of the Lich King"], "SmithingWeaponWrath1" },
+		{ BabbleInventory["Weapon"].." - "..AL["Wrath of the Lich King"], "SmithingWeaponWrath1" },
 		{ AL["Item Enhancements"], "SmithingEnhancement1" },
-        { AL["Miscellaneous"], "SmithingMisc1" },
+		{ AL["Miscellaneous"], "SmithingMisc1" },
 		{ AtlasLoot_TableNames["Armorsmith1"][1], "Armorsmith1" },
 		{ AtlasLoot_TableNames["Weaponsmith1"][1], "Weaponsmith1" },
 		{ AtlasLoot_TableNames["Axesmith1"][1], "Axesmith1" },
@@ -1423,8 +1424,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Explosives"], "EngineeringExplosives1" },
 		{ AL["Item Enhancements"], "EngineeringItemEnhancements1" },
 		{ AL["Miscellaneous"], "EngineeringMisc1" },
-        { AL["Reagents"], "EngineeringReagents1" },
-        { BabbleInventory["Weapon"], "EngineeringWeapon1" },
+		{ AL["Reagents"], "EngineeringReagents1" },
+		{ BabbleInventory["Weapon"], "EngineeringWeapon1" },
 		{ AtlasLoot_TableNames["Gnomish1"][1], "Gnomish1" },
 		{ AtlasLoot_TableNames["Goblin1"][1], "Goblin1" },
 	},
@@ -1460,13 +1461,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleInventory["Yellow"].." "..BabbleInventory["Gem"], "JewelYellow1" },
 		{ BabbleInventory["Green"].." "..BabbleInventory["Gem"], "JewelGreen1" },
 		{ BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "JewelOrange1" },
-        { BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "JewelPurple1" },
+		{ BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "JewelPurple1" },
 		{ BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "JewelMeta1" },
-        { BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "JewelPrismatic1" },
+		{ BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "JewelPrismatic1" },
 		{ BabbleInventory["Neck"], "JewelNeck1" },
 		{ BabbleInventory["Ring"], "JewelRing1" },
 		{ BabbleInventory["Trinket"], "JewelTrinket1" },
-        { AL["Miscellaneous"], "JewelMisc1" },
+		{ AL["Miscellaneous"], "JewelMisc1" },
 	},
 	["Leatherworking"] = {
 		{ AL["Leather Armor"].." - "..AL["Original WoW"], "LeatherLeatherArmorOld1" },
@@ -1487,7 +1488,7 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Tailoring"] = {
 		{ AL["Cloth Armor"].." - "..AL["Original WoW"], "TailoringArmorOld1" },
 		{ AL["Cloth Armor"].." - "..AL["Burning Crusade"], "TailoringArmorBC1" },
-        { AL["Cloth Armor"].." - "..AL["Wrath of the Lich King"], "TailoringArmorWotLK1" },
+		{ AL["Cloth Armor"].." - "..AL["Wrath of the Lich King"], "TailoringArmorWotLK1" },
 		{ AL["Bags"], "TailoringBags1" },
 		{ AL["Miscellaneous"], "TailoringMisc1" },
 		{ AL["Shirts"], "TailoringShirts1" },

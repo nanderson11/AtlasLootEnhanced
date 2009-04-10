@@ -49,6 +49,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Trading Card Game
 ---- Pets
 ---- Mounts
+---- BoE World Epics
 ---- Emblem of Heroism Items
 ---- Emblem of Valor Items
 
@@ -4026,6 +4027,24 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 30, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
 		Prev = "Mounts31";
 		Back = "MOUNTMENU";
+	};
+
+		-----------------------
+		--- BoE World Epics ---
+		-----------------------
+
+	AtlasLoot_Data["WorldEpicsWrath1"] = {
+		{ 1, 44310, "", "=q4=Namlak's Supernumerary Sticker", "=ds=#h1#, #w4#"};
+		{ 2, 43613, "", "=q4=The Dusk Blade", "=ds=#h1#, #w4#"};
+		{ 3, 44311, "", "=q4=Avool's Sword of Jin", "=ds=#h1#, #w10#"};
+		{ 4, 43611, "", "=q4=Krol Cleaver", "=ds=#h1#, #w10#"};
+		{ 5, 44313, "", "=q4=Zom's Crackling Bulwark", "=ds=#w8#"};
+		{ 6, 43612, "", "=q4=Spineslicer", "=ds=#w11#"};
+		{ 16, 44309, "", "=q4=Sash of Jordan", "=ds=#s10#, #a1#"};
+		{ 17, 44312, "", "=q4=Wapach's Spaulders of Solidarity", "=ds=#s3#, #a4#"};
+		{ 18, 44308, "", "=q4=Signet of Edward the Odd", "=ds=#s13#"};
+		Prev = "WorldEpics4";
+		Back = "WORLDEPICS";
 	};
 
 		-------------------------------
