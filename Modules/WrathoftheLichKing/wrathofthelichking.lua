@@ -115,7 +115,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "UtgardeKeepTrash";
 	};
 
-	AtlasLoot_Data["UtgardeKeepIngvar"] = {
+	AtlasLoot_Data["UtgardeKeepTrash"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35580, "", "=q3=Skein Woven Mantle", "=ds=#s3#, #a1#", "", "1%"};
 		{ 3, 35579, "", "=q3=Vrykul Shackles", "=ds=#s8#, #a2#", "", "2%"};
