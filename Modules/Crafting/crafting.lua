@@ -954,7 +954,6 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 11, "s55186", "41189", "=q3=Chestplate of Conquest", "=ds=#sr# 415"};
 		{ 12, "s55187", "41190", "=q3=Legplates of Conquest", "=ds=#sr# 415"};
 		Next = "Weaponsmith1";
-		Prev = "SmithingMaster8";
 		Back = "SMITHINGMENU";
 	};
 
@@ -4326,7 +4325,6 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 2, "s26761", "21874", "=q4=Primal Mooncloth Shoulders", "=ds=#sr# 365"};
 		{ 3, "s26762", "21875", "=q4=Primal Mooncloth Robe", "=ds=#sr# 375"};
 		Next = "Shadoweave1";
-		Prev = "TailoringMaster6";
 		Back = "TAILORINGMENU";
 	};
 
