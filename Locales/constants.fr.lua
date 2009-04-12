@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 01/03/2009)
+constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 12/04/2009)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -37,6 +37,7 @@ if AL then
 	AL["Back"] = "Retour";
 	AL["Level 60"] = "Niveau 60";
 	AL["Level 70"] = "Niveau 70";
+	AL["Level 70"] = "Niveau 80";
 	AL["|cffff0000(unsafe)"] = "|cffff0000(invalide)";
 	AL["Misc"] = "Divers";
 	AL["Miscellaneous"] = "Divers";
