@@ -1414,6 +1414,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "EnchantingGloves1" },
 		{ "", "EnchantingRing1" },
 		{ "", "EnchantingShield1" },
+        { "", "EnchantingStaff1" },
 		{ "", "Enchanting2HWeapon1" },
 		{ "", "EnchantingWeapon1" },
 		{ "", "EnchantingMisc1" },
