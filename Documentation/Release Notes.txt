@@ -8,7 +8,7 @@ Patch Notes
 v5.04.00
 Added New Event: The Argent Tournament
 Added Tier 8 (Ulduar) Sets
-Added Cooking to 450 skill
+Added Cooking to 450 skill, all professions updated for Patch 3.1
 Added new WotLK Darkmoon Faire items and revamped its menu
 Added WotLK new World BoE Items
 Added drop rates for Utgarde Keep and The Nexus 

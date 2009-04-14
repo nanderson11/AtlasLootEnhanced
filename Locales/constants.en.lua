@@ -901,6 +901,7 @@ if AL then
 	AL["Dungeon Set 3"] = true;
 	AL["Dungeon 3 Sets"] = true;
 	AL["Tier 1/2 Sets"] = true;
+    AL["Tier 1/2/3 Sets"] = true;
 	AL["Tier 3 Sets"] = true;
 	AL["Tier 4/5/6 Sets"] = true;
 	AL["PvP Reputation Sets (Level 70)"] = true;
