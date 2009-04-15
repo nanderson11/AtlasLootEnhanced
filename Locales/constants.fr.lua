@@ -899,6 +899,7 @@ if AL then
 	AL["Dungeon Set 3"]  = "Sets Donjon 3";
 	AL["Dungeon 3 Sets"] = "Sets Donjon 3";
 	AL["Tier 1/2 Sets"] = "Sets T1/2";
+	AL["Tier 1/2/3 Sets"] = "Sets T1/2/3";
 	AL["Tier 3 Sets"] = "Sets T3";
 	AL["Tier 4/5/6 Sets"] = "Sets T4/5/6";
 	AL["PvP Reputation Sets (Level 70)"] = "Sets Réputation JcJ (Niveau 70)";
