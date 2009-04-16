@@ -910,7 +910,7 @@ if AL then
 	AL["PvP Accessories - Alliance (Level 60)"] = "Accéssoires JcJ - Alliance (Niveau 60)";
 	AL["PvP Accessories - Horde (Level 60)"] = "Accéssoires JcJ - Horde (Niveau 60)";
 	AL["PvP Accessories (Level 70)"] = "Accessoires JcJ (Niveau 70)";
-	AL["PvP Jewelcrafting Designs"] = "Dessins de joaillerie JcJ";
+	AL["PvP Jewelcrafting Designs and Gems"] = "Dessins de joaillerie JcJ";
 	AL["PvP Rewards"] = "Récompenses JcJ";
 	AL["PvP Armor Sets"] = "Sets Armures JcJ";
 	AL["PvP Weapons"] = "Armes JcJ";

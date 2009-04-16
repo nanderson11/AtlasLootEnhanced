@@ -74,7 +74,7 @@ AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
         { 3, "DeadlyGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Deadly Gladiator\'s Weapons"], "" };
         --{ 4, "PvP80Weapons1", "INV_Sword_86", "=ds="..AL["Savage Gladiator\'s Weapons"], "" };
         { 17, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
-        { 18, "PvP80Jewelcrafting", "INV_Scroll_06", "=ds="..AL["PvP Jewelcrafting Designs"], ""};
+        { 18, "PvP80Jewelcrafting", "INV_Scroll_06", "=ds="..AL["PvP Jewelcrafting Designs and Gems"], ""};
         Back = "PVPMENU";
     };
 

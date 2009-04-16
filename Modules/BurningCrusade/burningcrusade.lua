@@ -3879,8 +3879,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 30351, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
 		{ 11, 30348, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
 		{ 12, 30350, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 13, 28247, "", "=q3=Band of Dominance", "=ds=", "11934 #alliance# 10 #av#"};
-		{ 14, 28246, "", "=q3=Band of Triumph", "=ds=", "11934 #alliance# 10 #av#"};
+		{ 13, 28247, "", "=q3=Band of Dominance", "=ds=", "9547 #alliance# 10 #av#"};
+		{ 14, 28246, "", "=q3=Band of Triumph", "=ds=", "9547 #alliance# 10 #av#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 17, 37865, "", "=q4=Medallion of the Horde", "=ds=", "40000 #horde#"};
 		{ 18, 24551, "", "=q4=Talisman of the Horde", "=ds=", "22950 #horde# 10 #eos#"};
@@ -3893,8 +3893,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 30345, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
 		{ 26, 30343, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
 		{ 27, 30344, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 28, 28247, "", "=q3=Band of Dominance", "=ds=", "11934 #horde# 10 #av#"};
-		{ 29, 28246, "", "=q3=Band of Triumph", "=ds=", "11934 #horde# 10 #av#"};
+		{ 28, 28247, "", "=q3=Band of Dominance", "=ds=", "9547 #horde# 10 #av#"};
+		{ 29, 28246, "", "=q3=Band of Triumph", "=ds=", "9547 #horde# 10 #av#"};
 		Next = "PvP70Accessories2";
 		Back = "LEVEL70PVPREWARDS";
 	};
@@ -3926,37 +3926,45 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["PvP70NonSet1"] = {
 		{ 1, 28378, "", "=q4=Sergeant's Heavy Cape", "=ds=", "7548 #faction# 20 #ab#"};
 		{ 2, 28377, "", "=q4=Sergeant's Heavy Cloak", "=ds=", "7548 #faction# 20 #ab#"};
-		{ 4, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "15300 #faction# 10 #eos#"};
-		{ 5, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "15300 #faction# 10 #eos#"};
-		{ 6, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "15300 #faction# 10 #eos#"};
-		{ 7, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=", "15300 #faction# 10 #eos#"};
-		{ 8, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=", "15300 #faction# 10 #eos#"};
-		{ 9, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=", "15300 #faction# 10 #eos#"};
-		{ 10, 33920, "", "=q4=Vindicator's Pendant of Conquest", "=ds=", "11934 #faction# 10 #eos#"};
-		{ 11, 33921, "", "=q4=Vindicator's Pendant of Dominance", "=ds=", "11934 #faction# 10 #eos#"};
-		{ 12, 35317, "", "=q4=Vindicator's Pendant of Reprieve", "=ds=", "11934 #faction# 10 #eos#"};
-		{ 13, 33922, "", "=q4=Vindicator's Pendant of Salvation", "=ds=", "11934 #faction# 10 #eos#"};
-		{ 14, 35319, "", "=q4=Vindicator's Pendant of Subjugation", "=ds=", "11934 #faction# 10 #eos#"};
-		{ 15, 33923, "", "=q4=Vindicator's Pendant of Triumph", "=ds=", "11934 #faction# 10 #eos#"};
-		{ 16, 34579, "", "=q4=Battlemaster's Audacity", "=ds=", "30000 #faction# 40 #av#"};
-		{ 17, 35326, "", "=q4=Battlemaster's Alacrity", "=ds=", "30000 #faction# 40 #av#"};
-		{ 18, 34576, "", "=q4=Battlemaster's Cruelty", "=ds=", "30000 #faction# 40 #av#"};
-		{ 19, 34577, "", "=q4=Battlemaster's Depravity", "=ds=", "30000 #faction# 40 #av#"};
-		{ 20, 34578, "", "=q4=Battlemaster's Determination", "=ds=", "30000 #faction# 40 #av#"};
-		{ 21, 34580, "", "=q4=Battlemaster's Perseverance", "=ds=", "30000 #faction# 40 #av#"};
-		{ 23, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "15300 #faction# 10 #av#"};
-		{ 24, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "15300 #faction# 10 #av#"};
-		{ 25, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "15300 #faction# 10 #av#"};
-		{ 26, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "15300 #faction# 10 #av#"};
-		{ 27, 33853, "", "=q4=Vindicator's Band of Dominance", "=ds=", "11934 #faction# 10 #av#"};
-		{ 28, 33918, "", "=q4=Vindicator's Band of Salvation", "=ds=", "11934 #faction# 10 #av#"};
-		{ 29, 33919, "", "=q4=Vindicator's Band of Triumph", "=ds=", "11934 #faction# 10 #av#"};
-		{ 30, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "11934 #faction# 10 #av#"};
+		{ 4, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=", "20000 #faction# 20 #ab#"};
+		{ 5, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "20000 #faction# 20 #ab#"};
+		{ 6, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "20000 #faction# 20 #ab#"};
+		{ 7, 44429, "", "=q4=Volanthius Shroud", "=ds=", "20000 #faction# 20 #ab#"};
+		{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "15300 #faction# 10 #eos#"};
+		{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "15300 #faction# 10 #eos#"};
+		{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "15300 #faction# 10 #eos#"};
+		{ 19, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=", "15300 #faction# 10 #eos#"};
+		{ 20, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=", "15300 #faction# 10 #eos#"};
+		{ 21, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=", "15300 #faction# 10 #eos#"};
+		{ 23, 33920, "", "=q4=Vindicator's Pendant of Conquest", "=ds=", "11934 #faction# 10 #eos#"};
+		{ 24, 33921, "", "=q4=Vindicator's Pendant of Dominance", "=ds=", "11934 #faction# 10 #eos#"};
+		{ 25, 35317, "", "=q4=Vindicator's Pendant of Reprieve", "=ds=", "11934 #faction# 10 #eos#"};
+		{ 26, 33922, "", "=q4=Vindicator's Pendant of Salvation", "=ds=", "11934 #faction# 10 #eos#"};
+		{ 27, 35319, "", "=q4=Vindicator's Pendant of Subjugation", "=ds=", "11934 #faction# 10 #eos#"};
+		{ 28, 33923, "", "=q4=Vindicator's Pendant of Triumph", "=ds=", "11934 #faction# 10 #eos#"};
 		Next = "PvP70NonSet2";
 		Back = "PVP70NONSETEPICS";
 	};
 
 	AtlasLoot_Data["PvP70NonSet2"] = {
+		{ 1, 41588, "", "=q4=Battlemaster's Aggression", "=ds=", "35000 #faction# 40 #av#"};
+		{ 2, 41587, "", "=q4=Battlemaster's Celerity", "=ds=", "35000 #faction# 40 #av#"};
+		{ 3, 41590, "", "=q4=Battlemaster's Courage", "=ds=", "35000 #faction# 40 #av#"};
+		{ 4, 41589, "", "=q4=Battlemaster's Resolve", "=ds=", "35000 #faction# 40 #av#"};
+		{ 16, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "15300 #faction# 10 #av#"};
+		{ 17, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "15300 #faction# 10 #av#"};
+		{ 18, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "15300 #faction# 10 #av#"};
+		{ 19, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "15300 #faction# 10 #av#"};
+		{ 21, 33853, "", "=q4=Vindicator's Band of Dominance", "=ds=", "11934 #faction# 10 #av#"};
+		{ 22, 33918, "", "=q4=Vindicator's Band of Salvation", "=ds=", "11934 #faction# 10 #av#"};
+		{ 23, 33919, "", "=q4=Vindicator's Band of Triumph", "=ds=", "11934 #faction# 10 #av#"};
+		{ 34, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "11934 #faction# 10 #av#"};
+		Next = "PvP70NonSet3";
+		Prev = "PvP70NonSet1";
+		Back = "PVP70NONSETEPICS";
+	};
+
+	AtlasLoot_Data["PvP70NonSet3"] = {
 		{ 1, 35168, "", "=q4=Guardian's Dreadweave Cuffs", "=ds=", "11794 #faction# 20 #wsg#"};
 		{ 2, 35153, "", "=q4=Guardian's Dreadweave Belt", "=ds=", "17850 #faction# 40 #ab#"};
 		{ 3, 35138, "", "=q4=Guardian's Dreadweave Stalkers", "=ds=", "17850 #faction# 40 #eos#"};
@@ -3975,12 +3983,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 33913, "", "=q4=Vindicator's Silk Cuffs", "=ds=", "9199 #faction# 20 #wsg#"};
 		{ 25, 33912, "", "=q4=Vindicator's Silk Belt", "=ds=", "13923 #faction# 40 #ab#"};
 		{ 26, 33914, "", "=q4=Vindicator's Silk Footguards", "=ds=", "13923 #faction# 40 #eos#"};
-		Next = "PvP70NonSet3";
-		Prev = "PvP70NonSet1";
+		Next = "PvP70NonSet4";
+		Prev = "PvP70NonSet2";
 		Back = "PVP70NONSETEPICS";
 	};
 
-	AtlasLoot_Data["PvP70NonSet3"] = {
+	AtlasLoot_Data["PvP70NonSet4"] = {
 		{ 1, 35167, "", "=q4=Guardian's Dragonhide Bracers", "=ds=", "11794 #faction# 20 #wsg#"};
 		{ 2, 35152, "", "=q4=Guardian's Dragonhide Belt", "=ds=", "17850 #faction# 40 #ab#"};
 		{ 3, 35137, "", "=q4=Guardian's Dragonhide Boots", "=ds=", "17850 #faction# 40 #eos#"};
@@ -4005,12 +4013,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 33917, "", "=q4=Vindicator's Wyrmhide Bracers", "=ds=", "9199 #faction# 20 #wsg#"};
 		{ 29, 33915, "", "=q4=Vindicator's Wyrmhide Belt", "=ds=", "13923 #faction# 40 #ab#"};
 		{ 30, 33916, "", "=q4=Vindicator's Wyrmhide Boots", "=ds=", "13923 #faction# 40 #eos#"};
-		Next = "PvP70NonSet4";
-		Prev = "PvP70NonSet2";
+		Next = "PvP70NonSet5";
+		Prev = "PvP70NonSet3";
 		Back = "PVP70NONSETEPICS";
 	};
 
-	AtlasLoot_Data["PvP70NonSet4"] = {
+	AtlasLoot_Data["PvP70NonSet5"] = {
 		{ 1, 35166, "", "=q4=Guardian's Chain Bracers", "=ds=", "11794 #faction# 20 #wsg#"};
 		{ 2, 35151, "", "=q4=Guardian's Chain Girdle", "=ds=", "17850 #faction# 40 #ab#"};
 		{ 3, 35136, "", "=q4=Guardian's Chain Sabatons", "=ds=", "17850 #faction# 40 #eos#"};
@@ -4035,12 +4043,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 33906, "", "=q4=Vindicator's Ringmail Bracers", "=ds=", "9199 #faction# 20 #wsg#"};
 		{ 29, 33907, "", "=q4=Vindicator's Ringmail Girdle", "=ds=", "13923 #faction# 40 #ab#"};
 		{ 30, 33908, "", "=q4=Vindicator's Ringmail Sabatons", "=ds=", "13923 #faction# 40 #eos#"};
-		Next = "PvP70NonSet5";
-		Prev = "PvP70NonSet3";
+		Next = "PvP70NonSet6";
+		Prev = "PvP70NonSet4";
 		Back = "PVP70NONSETEPICS";
 	};
 
-	AtlasLoot_Data["PvP70NonSet5"] = {
+	AtlasLoot_Data["PvP70NonSet6"] = {
 		{ 1, 35170, "", "=q4=Guardian's Lamellar Bracers", "=ds=", "11794 #faction# 20 #wsg#"};
 		{ 2, 35155, "", "=q4=Guardian's Lamellar Belt", "=ds=", "17850 #faction# 40 #ab#"};
 		{ 3, 35140, "", "=q4=Guardian's Lamellar Greaves", "=ds=", "17850 #faction# 40 #eos#"};
@@ -4065,7 +4073,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 28, 33910, "", "=q4=Vindicator's Scaled Bracers", "=ds=", "9199 #faction# 20 #wsg#"};
 		{ 29, 33909, "", "=q4=Vindicator's Scaled Belt", "=ds=", "13923 #faction# 40 #ab#"};
 		{ 30, 33911, "", "=q4=Vindicator's Scaled Greaves", "=ds=", "13923 #faction# 40 #eos#"};
-		Prev = "PvP70NonSet4";
+		Prev = "PvP70NonSet5";
 		Back = "PVP70NONSETEPICS";
 	};
 

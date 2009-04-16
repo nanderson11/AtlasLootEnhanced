@@ -910,7 +910,7 @@ if AL then
     AL["PvP Accessories - Alliance (Level 60)"] = "PvP 聯盟配件 (60 級)";
     AL["PvP Accessories - Horde (Level 60)"] = "PvP 部落配件 (60 級)";
     AL["PvP Accessories (Level 70)"] = "PvP 配件 (70 級)";
-	AL["PvP Jewelcrafting Designs"] = "PvP 珠寶加工設計圖";
+	AL["PvP Jewelcrafting Designs and Gems"] = "PvP 珠寶加工設計圖";
     AL["PvP Rewards"] = "PvP 榮譽獎勵";
     AL["PvP Armor Sets"] = "PvP 套裝";
     AL["PvP Weapons"] = "PvP 武器";

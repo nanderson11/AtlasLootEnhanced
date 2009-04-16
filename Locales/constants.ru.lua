@@ -882,7 +882,7 @@ if AL then
     AL["PvP Accessories - Alliance (Level 60)"] = "PvP Аксессуары - Альянс (Уровень 60)";
     AL["PvP Accessories - Horde (Level 60)"] = "PvP Аксессуары - Орда (Уровень 60)";
     AL["PvP Accessories (Level 70)"] = "PvP Аксессуары (Уровень 70)";
-    AL["PvP Jewelcrafting Designs"] = "PvP ювелирные эскизы";
+    AL["PvP Jewelcrafting Designs and Gems"] = "PvP ювелирные эскизы";
     AL["PvP Rewards"] = "Награды за PvP";
     AL["PvP Armor Sets"] = "PvP Комплекты Доспехов";
     AL["PvP Weapons"] = "PvP Оружие";

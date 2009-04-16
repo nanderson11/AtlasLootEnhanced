@@ -37,7 +37,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Level 80 Epic Non-Sets
 ---- Savage Gladiator Weapons
 ---- Deadly Gladiator Weapons
----- PvP Jewelcrafting Designs
+---- PvP Jewelcrafting Designs and Gems
 ---- World PvP - Wintergrasp
 ---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
@@ -3097,9 +3097,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "LEVEL80PVPREWARDS";
 	};
 
-		---------------------------------
-		--- PvP Jewelcrafting Designs ---
-		---------------------------------
+		------------------------------------------
+		--- PvP Jewelcrafting Designs and Gems ---
+		------------------------------------------
 
 	AtlasLoot_Data["PvP80Jewelcrafting"] = {
 		{ 1, 41563, "", "=q2=Design: Durable Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
@@ -3114,6 +3114,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 41560, "", "=q2=Design: Stormy Chalcedony", "=ds=#p12# (350)", "1250 #faction#"};
 		{ 11, 41570, "", "=q2=Design: Tense Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
 		{ 12, 41571, "", "=q2=Design: Turbid Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 16, 36921, "", "=q2=Autumn's Glow", "=ds=#e7#", "10000 #faction#"};
+		{ 17, 36933, "", "=q2=Forest Emerald", "=ds=#e7#", "10000 #faction#"};
+		{ 18, 36930, "", "=q2=Monarch Topaz", "=ds=#e7#", "10000 #faction#"};
+		{ 19, 36918, "", "=q3=Scarlet Ruby", "=ds=#e7#", "10000 #faction#"};
+		{ 20, 36924, "", "=q2=Sky Sapphire", "=ds=#e7#", "10000 #faction#"};
+		{ 21, 36927, "", "=q3=Twilight Opal", "=ds=#e7#", "10000 #faction#"};
 		Back = "LEVEL80PVPREWARDS";
 	};
 
