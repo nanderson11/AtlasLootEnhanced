@@ -656,6 +656,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 38615, "", "=q3=Lightning-Charged Gloves", "=ds=#s9#, #a3#"};
 		{ 20, 38617, "", "=q3=Woeful Band", "=ds=#s13#"};
 		{ 21, 38618, "", "=q3=Hammer of Grief", "=ds=#h2#, #w6#"};
+		Next = "HallsofStoneKrystallus";
 	};
 
 	AtlasLoot_Data["HallsofStoneKrystallus"] = {
@@ -669,6 +670,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37650, "", "=q3=Shardling Legguards", "=ds=#s11#, #a4#"};
 		{ 20, 37651, "", "=q3=The Prospector's Prize", "=ds=#s13#"};
 		{ 21, 37653, "", "=q3=Sword of Justice", "=ds=#h2#, #w10#"};
+		Prev = "HallsofStoneMaiden";
+		Next = "HallsofStoneTribunal";
 	};
 
 	AtlasLoot_Data["HallsofStoneTribunal"] = {
@@ -681,6 +684,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37655, "", "=q3=Mantle of the Tribunal", "=ds=#s3#, #a1#"};
 		{ 19, 37656, "", "=q3=Raging Construct Bands", "=ds=#s8#, #a3#"};
 		{ 20, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#"};
+		Prev = "HallsofStoneKrystallus";
+		Next = "HallsofStoneSjonnir";
 	};
 
 	AtlasLoot_Data["HallsofStoneSjonnir"] = {
@@ -700,6 +705,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 37660, "", "=q3=Forge Ember", "=ds=#s14#"};
 		{ 27, 41792, "", "=q3=Design: Deft Monarch Topaz", "=ds=#p12# (390)"};
 		{ 29, 43699, "", "=q1=The Curse of Flesh Disc", "=ds=#m3#"};
+		Prev = "HallsofStoneTribunal";
+		Next = "HallsofStoneTrash";
 	};
 
 	AtlasLoot_Data["HallsofStoneTrash"] = {
@@ -710,7 +717,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37673, "", "=q3=Dark Runic Mantle", "=ds=#s3#, #a1#"};
 		{ 18, 37672, "", "=q3=Patina-Coated Breastplate", "=ds=#s5#, #a4#"};
-		{ 19, 37671, "", "=q3=Refined Ore Gloves", "=ds=#s9#, #a4#"}; 
+		{ 19, 37671, "", "=q3=Refined Ore Gloves", "=ds=#s9#, #a4#"};
+		Prev = "HallsofStoneSjonnir";
 	};
 
 		--------------------------
@@ -729,6 +737,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37818, "", "=q3=Patroller's War-Kilt", "=ds=#s11#, #a3#"};
 		{ 20, 37814, "", "=q3=Iron Dwarf Smith Pauldrons", "=ds=#s3#, #a4#"};
 		{ 21, 37826, "", "=q3=The General's Steel Girdle", "=ds=#s10#, #a4#"};
+		Next = "GundrakTrash";
 	};
 
 	AtlasLoot_Data["HallsofLightningVolkhan"] = {
@@ -743,6 +752,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37843, "", "=q3=Giant-Hair Woven Gloves", "=ds=#s9#, #a1#"};
 		{ 20, 37842, "", "=q3=Belt of Vivacity", "=ds=#s10#, #a2#"};
 		{ 21, 37841, "", "=q3=Slag Footguards", "=ds=#s12#, #a2#"};
+		Prev = "HallsofLightningBjarngrim";
+		Next = "HallsofLightningVolkhan";
 	};
 
 	AtlasLoot_Data["HallsofLightningIonar"] = {
@@ -757,6 +768,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37845, "", "=q3=Cord of Swirling Winds", "=ds=#s10#, #a3#"};
 		{ 20, 37826, "", "=q3=The General's Steel Girdle", "=ds=#s10#, #a4#"};
 		{ 21, 37844, "", "=q3=Winged Talisman", "=ds=#s14#"};
+		Prev = "HallsofLightningVolkhan";
+		Next = "HallsofLightningLoken";
 	};
 
 	AtlasLoot_Data["HallsofLightningLoken"] = {
@@ -784,6 +797,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 41799, "", "=q3=Design: Eternal Earthsiege Diamond", "=ds=#p12# (420)"};
 		{ 29, 43724, "", "=q1=Celestial Ruby Ring", "=ds=#m3#"};
 		{ 30, 43151, "", "=q1=Loken's Tongue", "=ds=#m3#"};
+		Prev = "HallsofLightningIonar";
+		Next = "HallsofLightningTrash";
 	};
 
 	AtlasLoot_Data["HallsofLightningTrash"] = {
@@ -795,6 +810,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37858, "", "=q3=Awakened Handguards", "=ds=#s9#, #a2#"};
 		{ 18, 37857, "", "=q3=Helm of the Lightning Halls", "=ds=#s1#, #a3#"};
 		{ 19, 37856, "", "=q3=Librarian's Paper Cutter", "=ds=#h1#, #w4#"};
+		Prev = "HallsofLightningLoken";
 	};
 
 		---------------------------------------
@@ -813,6 +829,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37678, "", "=q3=Bile-Cured Gloves", "=ds=#s9#, #a2#"};
 		{ 20, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#"};
 		{ 21, 37675, "", "=q3=Legplates of Steel Implants", "=ds=#s11#, #a4#"};
+		Next = "CoTStratholmeSalramm";
 	};
 
 	AtlasLoot_Data["CoTStratholmeSalramm"] = {
@@ -827,6 +844,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a4#"};
 		{ 20, 37683, "", "=q3=Necromancer's Amulet", "=ds=#s2#"};
 		{ 21, 37681, "", "=q3=Gavel of the Fleshcrafter", "=ds=#h3#, #w6#"};
+		Prev = "CoTStratholmeMeathook";
+		Next = "CoTStratholmeEpoch";
 	};
 
 	AtlasLoot_Data["CoTStratholmeEpoch"] = {
@@ -841,11 +860,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37686, "", "=q3=Cracked Epoch Grasps", "=ds=#s9#, #a3#"};
 		{ 20, 37688, "", "=q3=Legplates of the Infinite Drakonid", "=ds=#s11#, #a4#"};
 		{ 21, 37685, "", "=q3=Mobius Band", "=ds=#s13#"};
+		Prev = "CoTStratholmeSalramm";
+		Next = "CoTStratholmeInfiniteCorruptorHEROIC";
 	};
 
 	AtlasLoot_Data["CoTStratholmeInfiniteCorruptorHEROIC"] = {
 		{ 1, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 2, 43951, "", "=q4=Reins of the Bronze Drake", "=ds=#e12#", "", "100%"};
+		Prev = "CoTStratholmeEpoch";
+		Next = "CoTStratholmeMalGanis";
 	};
 
 	AtlasLoot_Data["CoTStratholmeMalGanis"] = {
@@ -870,12 +893,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#"};
 		{ 26, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#"};
 		{ 28, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#"};
+		Prev = "CoTStratholmeInfiniteCorruptorHEROIC";
+		Next = "CoTStratholmeTrash";
 	};
 
 	AtlasLoot_Data["CoTStratholmeTrash"] = {
 		{ 1, 37117, "", "=q3=King's Square Bracers", "=ds=#s8#, #a2#"};
 		{ 2, 37116, "", "=q3=Epaulets of Market Row", "=ds=#s3#, #a3#"};
-		{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#"};		
+		{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#"};
+		Prev = "CoTStratholmeMalGanis";		
 	};
 
 		------------------------
@@ -894,6 +920,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37369, "", "=q3=Sorrowgrave's Breeches", "=ds=#s11#, #a1#"};
 		{ 20, 37368, "", "=q3=Silent Spectator Shoulderpads", "=ds=#s3#, #a2#"};
 		{ 21, 37367, "", "=q3=Echoing Stompers", "=ds=#s12#, #a4#"};
+		Next = "UPPalehoof";
 	};
 
 	AtlasLoot_Data["UPPalehoof"] = {
@@ -908,6 +935,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37373, "", "=q3=Massive Spaulders of the Jormungar", "=ds=#s3#, #a3#"};
 		{ 20, 37376, "", "=q3=Ferocious Pauldrons of the Rhino", "=ds=#s3#, #a4#"};
 		{ 21, 37371, "", "=q3=Ring of the Frenzied Wolvar", "=ds=#s13#"};
+		Prev = "UPSorrowgrave";
+		Next = "UPSkadi";
 	};
 
 	AtlasLoot_Data["UPSkadi"] = {
@@ -923,6 +952,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37379, "", "=q3=Skadi's Iron Belt", "=ds=#s10#, #a4#"};
 		{ 21, 37377, "", "=q3=Netherbreath Spellblade", "=ds=#h3#, #w4#"};
 		{ 22, 37384, "", "=q3=Staff of Wayward Principles", "=ds=#w9#"};
+		Prev = "UPPalehoof";
+		Next = "UPYmiron";
 	};
 
 	AtlasLoot_Data["UPYmiron"] = {
@@ -949,6 +980,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 41797, "", "=q3=Design: Austere Earthsiege Diamond", "=ds=#p12# (420)"};
 		{ 29, 43669, "", "=q1=Locket of the Deceased Queen", "=ds=#m3#"};
 		Prev = "UPSkadi";
+		Next = "UPTrash";
 	};
 
 	AtlasLoot_Data["UPTrash"] = {
@@ -960,6 +992,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37587, "", "=q3=Ymirjar Physician's Robe", "=ds=#s5#, #a2#"};
 		{ 18, 37590, "", "=q3=Bands of Fading Light", "=ds=#s8#, #a4#"};
 		{ 19, 37410, "", "=q3=Tracker's Balanced Knives", "=ds=#w11#"};
+		Prev = "UPYmiron";
 	};
 
 		------------------
@@ -4352,51 +4385,54 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Prev = "EmblemofValor";
 		Back = "SETMENU";
 	};
-    
-    AtlasLoot_Data["EmblemofConquest1"] = {
-        { 1, 45840, "", "=q4=Touch of the Occult", "=ds=#s9#, #a1#", "28 #eofconquest#" };
-        { 2, 45839, "", "=q4=Grips of the Secret Grove", "=ds=#s9#, #a2#", "28 #eofconquest#" };
-        { 3, 45838, "", "=q4=Gloves of the Blind Stalker", "=ds=#s9#, #a2#", "28 #eofconquest#" };
-        { 4, 45836, "", "=q4=Gloves of Unerring Aim", "=ds=#s9#, #a3#", "28 #eofconquest#" };
-        { 5, 45837, "", "=q4=Gloves of Augury", "=ds=#s9#, #a3#", "28 #eofconquest#" };
-        { 6, 45835, "", "=q4=Gauntlets of Serene Blessing", "=ds=#s9#, #a4#", "28 #eofconquest#" };
-        { 7, 45833, "", "=q4=Bladebreaker Gauntlets", "=ds=#s9#, #a4#", "28 #eofconquest#" };
-        { 8, 45834, "", "=q4=Gauntlets of the Royal Watch", "=ds=#s9#, #a4#", "28 #eofconquest#" };
-        { 10, 45822, "", "=q4=Evoker's Charm", "=ds=#s2#", "19 #eofconquest#" };
-        { 11, 45823, "", "=q4=Frozen Tear of Elune", "=ds=#s2#", "19 #eofconquest#" };
-        { 12, 45820, "", "=q4=Broach of the Wailing Night", "=ds=#s2#", "19 #eofconquest#" };
-        { 13, 45819, "", "=q4=Spiked Battleguard Choker", "=ds=#s2#", "19 #eofconquest#" };
-        { 14, 45821, "", "=q4=Shard of the Crystal Forest", "=ds=#s2#", "19 #eofconquest#" };
-        { 16, 45831, "", "=q4=Sash of Potent Incantations", "=ds=#s10#, #a1#", "28 #eofconquest#" };
-        { 17, 45830, "", "=q4=Belt of the Living Thicket", "=ds=#s10#, #a2#", "28 #eofconquest#" };
-        { 18, 45829, "", "=q4=Belt of the Twilight Assassin", "=ds=#s10#, #a2#", "28 #eofconquest#" };
-        { 19, 45827, "", "=q4=Belt of the Ardent Marksman", "=ds=#s10#, #a3#", "28 #eofconquest#" };
-        { 20, 45828, "", "=q4=Windchill Binding", "=ds=#s10#, #a3#", "28 #eofconquest#" };
-        { 21, 45826, "", "=q4=Girdle of Unyielding Trust", "=ds=#s10#, #a4#", "28 #eofconquest#" };
-        { 22, 45824, "", "=q4=Belt of the Singing Blade", "=ds=#s10#, #a4#", "28 #eofconquest#" };
-        { 23, 45825, "", "=q4=Shieldwarder Girdle", "=ds=#s10#, #a4#", "28 #eofconquest#" };
-        Next = "EmblemofConquest2";
-		Back = "SETMENU";
-    };
-    
-    AtlasLoot_Data["EmblemofConquest2"] = {
-        { 1, 45848, "", "=q4=Legwraps of the Master Conjurer", "=ds=#s11#, #a1#", "39 #eofconquest#" };
-        { 2, 45847, "", "=q4=Wildstrider Legguards", "=ds=#s11#, #a2#", "39 #eofconquest#" };
-        { 3, 45846, "", "=q4=Leggings of Wavering Shadow", "=ds=#s11#, #a2#", "39 #eofconquest#" };
-        { 4, 45844, "", "=q4=Leggings of the Tireless Sentry", "=ds=#s11#, #a3#", "39 #eofconquest#" };
-        { 5, 45845, "", "=q4=Leggings of the Weary Mystic", "=ds=#s11#, #a3#", "39 #eofconquest#" };
-        { 6, 45843, "", "=q4=Legguards of the Peaceful Covenant", "=ds=#s11#, #a4#", "39 #eofconquest#" };
-        { 7, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
-        { 8, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
-        { 10, 40753, "", "=q4=Emblem of Valor", "=ds=", "1 #eofconquest#" };
-        { 11, 45087, "", "=q3=Runed Orb", "=ds=", "18 #eofconquest#" };
-        { 16, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
-        { 17, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "58 #eofconquest#" };
-        { 18, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
-        { 20, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
-        { 21, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "58 #eofconquest#" };
-        { 22, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
-        Prev = "EmblemofConquest1";
-		Back = "SETMENU";
-    };
 
+		--------------------------------
+		--- Emblem of Conquest Items ---
+		--------------------------------
+
+	AtlasLoot_Data["EmblemofConquest1"] = {
+		{ 1, 45840, "", "=q4=Touch of the Occult", "=ds=#s9#, #a1#", "28 #eofconquest#" };
+		{ 2, 45839, "", "=q4=Grips of the Secret Grove", "=ds=#s9#, #a2#", "28 #eofconquest#" };
+		{ 3, 45838, "", "=q4=Gloves of the Blind Stalker", "=ds=#s9#, #a2#", "28 #eofconquest#" };
+		{ 4, 45836, "", "=q4=Gloves of Unerring Aim", "=ds=#s9#, #a3#", "28 #eofconquest#" };
+		{ 5, 45837, "", "=q4=Gloves of Augury", "=ds=#s9#, #a3#", "28 #eofconquest#" };
+		{ 6, 45835, "", "=q4=Gauntlets of Serene Blessing", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+		{ 7, 45833, "", "=q4=Bladebreaker Gauntlets", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+		{ 8, 45834, "", "=q4=Gauntlets of the Royal Watch", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+		{ 10, 45822, "", "=q4=Evoker's Charm", "=ds=#s2#", "19 #eofconquest#" };
+		{ 11, 45823, "", "=q4=Frozen Tear of Elune", "=ds=#s2#", "19 #eofconquest#" };
+		{ 12, 45820, "", "=q4=Broach of the Wailing Night", "=ds=#s2#", "19 #eofconquest#" };
+		{ 13, 45819, "", "=q4=Spiked Battleguard Choker", "=ds=#s2#", "19 #eofconquest#" };
+		{ 14, 45821, "", "=q4=Shard of the Crystal Forest", "=ds=#s2#", "19 #eofconquest#" };
+		{ 16, 45831, "", "=q4=Sash of Potent Incantations", "=ds=#s10#, #a1#", "28 #eofconquest#" };
+		{ 17, 45830, "", "=q4=Belt of the Living Thicket", "=ds=#s10#, #a2#", "28 #eofconquest#" };
+		{ 18, 45829, "", "=q4=Belt of the Twilight Assassin", "=ds=#s10#, #a2#", "28 #eofconquest#" };
+		{ 19, 45827, "", "=q4=Belt of the Ardent Marksman", "=ds=#s10#, #a3#", "28 #eofconquest#" };
+		{ 20, 45828, "", "=q4=Windchill Binding", "=ds=#s10#, #a3#", "28 #eofconquest#" };
+		{ 21, 45826, "", "=q4=Girdle of Unyielding Trust", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+		{ 22, 45824, "", "=q4=Belt of the Singing Blade", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+		{ 23, 45825, "", "=q4=Shieldwarder Girdle", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+		Next = "EmblemofConquest2";
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["EmblemofConquest2"] = {
+		{ 1, 45848, "", "=q4=Legwraps of the Master Conjurer", "=ds=#s11#, #a1#", "39 #eofconquest#" };
+		{ 2, 45847, "", "=q4=Wildstrider Legguards", "=ds=#s11#, #a2#", "39 #eofconquest#" };
+		{ 3, 45846, "", "=q4=Leggings of Wavering Shadow", "=ds=#s11#, #a2#", "39 #eofconquest#" };
+		{ 4, 45844, "", "=q4=Leggings of the Tireless Sentry", "=ds=#s11#, #a3#", "39 #eofconquest#" };
+		{ 5, 45845, "", "=q4=Leggings of the Weary Mystic", "=ds=#s11#, #a3#", "39 #eofconquest#" };
+		{ 6, 45843, "", "=q4=Legguards of the Peaceful Covenant", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 7, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 8, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 10, 40753, "", "=q4=Emblem of Valor", "=ds=", "1 #eofconquest#" };
+		{ 11, 45087, "", "=q3=Runed Orb", "=ds=", "18 #eofconquest#" };
+		{ 16, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
+		{ 17, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "58 #eofconquest#" };
+		{ 18, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+		{ 20, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
+		{ 21, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "58 #eofconquest#" };
+		{ 22, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+		Prev = "EmblemofConquest1";
+		Back = "SETMENU";
+	};
