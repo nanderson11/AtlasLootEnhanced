@@ -219,6 +219,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
 		{ 20, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
 		{ 21, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
+		Next = "AzjolNerubHadronox";
 	};
 
 	AtlasLoot_Data["AzjolNerubHadronox"] = {
@@ -232,6 +233,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
 		{ 20, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#"};
 		{ 21, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
+		Prev = "AzjolNerubKrikthir";
+		Next = "AzjolNerubAnubarak";
 	};
 
 	AtlasLoot_Data["AzjolNerubAnubarak"] = {
@@ -252,6 +255,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
 		{ 26, 41796, "", "=q3=Design: Infused Twilight Opal", "=ds=#p12# (390)"};
 		{ 28, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
+		Prev = "AzjolNerubHadronox";
+		Next = "AzjolNerubTrash";
 	};
 
 	AtlasLoot_Data["AzjolNerubTrash"] = {
@@ -259,7 +264,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
 		{ 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
 		{ 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
-	}; 
+		Prev = "AzjolNerubAnubarak";
+	};
 
 		----------------------------------
 		--- Ahn'kahet: The Old Kingdom ---
@@ -276,6 +282,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37593, "", "=q3=Sprinting Shoulderpads", "=ds=#s3#, #a2#"};
 		{ 20, 37592, "", "=q3=Brood Plague Helmet", "=ds=#s1#, #a3#"};
 		{ 21, 37591, "", "=q3=Nerubian Shield Ring", "=ds=#s13#"};
+		Next = "AhnkahetTaldaram";
 	};
 
 	AtlasLoot_Data["AhnkahetTaldaram"] = {
@@ -289,6 +296,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37614, "", "=q3=Gauntlets of the Plundering Geist", "=ds=#s9#, #a3#"};
 		{ 20, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#"};
 		{ 21, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#"};
+		Prev = "AhnkahetNadox";
+		Next = "AhnkahetAmanitarHEROIC";
 	};
 
 	AtlasLoot_Data["AhnkahetAmanitarHEROIC"] = {
@@ -297,6 +306,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#"};
 		{ 4, 43285, "", "=q3=Amulet of the Spell Flinger", "=ds=#s2#"};
 		{ 5, 43284, "", "=q3=Amanitar Skullbow", "=ds=#w3#"};
+		Prev = "AhnkahetTaldaram";
+		Next = "AhnkahetJedoga";
 	};
 
 	AtlasLoot_Data["AhnkahetJedoga"] = {
@@ -312,6 +323,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 43282, "", "=q3=Shadowseeker's Pendant", "=ds=#s2#"};
 		{ 21, 43281, "", "=q3=Edge of Oblivion", "=ds=#h2#, #w1#"};
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
+		Prev = "AhnkahetAmanitarHEROIC";
+		Next = "AhnkahetVolazj";
 	};
 
 	AtlasLoot_Data["AhnkahetVolazj"] = {
@@ -331,6 +344,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#"};
 		{ 26, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)"};
 		{ 28, 43821, "", "=q1=Faceless One's Withered Brain", "=ds=#m3#"};
+		Prev = "AhnkahetJedoga";
+		Next = "AhnkahetTrash";
 	};
 
 	AtlasLoot_Data["AhnkahetTrash"] = {
@@ -340,6 +355,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
 		{ 18, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
+		Prev = "AhnkahetVolazj";
 	};
 
 		------------------------
@@ -357,6 +373,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37714, "", "=q3=Batrider's Cord", "=ds=#s10#, #a2#"};
 		{ 20, 37717, "", "=q3=Legs of Physical Regeneration", "=ds=#s11#, #a4#"};
 		{ 21, 37712, "", "=q3=Terrace Defence Boots", "=ds=#s12#, #a4#"};
+		Next = "DrakTharonKeepNovos";
 	};
 
 	AtlasLoot_Data["DrakTharonKeepNovos"] = {
@@ -369,6 +386,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37722, "", "=q3=Breastplate of Undeath", "=ds=#s5#, #a4#"};
 		{ 19, 37718, "", "=q3=Temple Crystal Fragment", "=ds=#s15#"};
 		{ 20, 37721, "", "=q3=Cursed Lich Blade", "=ds=#h3#, #w10#"};
+		Prev = "DrakTharonKeepTrollgore";
+		Next = "DrakTharonKeepKingDred";
 	};
 
 	AtlasLoot_Data["DrakTharonKeepKingDred"] = {
@@ -382,6 +401,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37724, "", "=q3=Handler's Arm Strap", "=ds=#s8#, #a2#"};
 		{ 20, 37726, "", "=q3=King Dred's Helm", "=ds=#s1#, #a3#"};
 		{ 21, 37723, "", "=q3=Incisor Fragment", "=ds=#s14#"};
+		Prev = "DrakTharonKeepNovos";
+		Next = "DrakTharonKeepTharonja";
 	};
 
 	AtlasLoot_Data["DrakTharonKeepTharonja"] = {
@@ -401,6 +422,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#"};
 		{ 26, 41795, "", "=q3=Design: Timeless Forest Emerald", "=ds=#p12# (390)"};
 		{ 28, 43670, "", "=q1=Prophet's Enchanted Tiki", "=ds=#m3#"};
+		Prev = "DrakTharonKeepKingDred";
+		Next = "DrakTharonKeepTrash";
 	};
 
 	AtlasLoot_Data["DrakTharonKeepTrash"] = {
@@ -412,6 +435,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37799, "", "=q3=Reanimator's Cloak", "=ds=#s4#"};
 		{ 18, 37800, "", "=q3=Aviary Guardsman's Hauberk", "=ds=#s5#, #a3#"};
 		{ 19, 37801, "", "=q3=Waistguard of the Risen Knight", "=ds=#s10#, #a4#"};
+		Prev = "DrakTharonKeepTharonja";
 	};
 
 		-----------------------
@@ -427,6 +451,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 43406, "", "=q3=Cloak of the Gushing Wound", "=ds=#s4#" };
 		{ 19, 43405, "", "=q3=Sabatons of Erekem", "=ds=#s12#, #a4#" };
 		{ 20, 43407, "", "=q3=Stormstrike Mace", "=ds=#h1#, #w6#" };
+		Next = "VioletHoldZuramat";
 	};
 
 	AtlasLoot_Data["VioletHoldZuramat"] = {
@@ -438,6 +463,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 43403, "", "=q3=Shroud of Darkness", "=ds=#s1#, #a2#" };
 		{ 19, 43402, "", "=q3=The Obliterator Greaves", "=ds=#s12#, #a4#" };
 		{ 20, 43404, "", "=q3=Zuramat's Necklace", "=ds=#s2#" };
+		Prev = "VioletHoldErekem";
+		Next = "VioletHoldXevozz";
 	};
 
 	AtlasLoot_Data["VioletHoldXevozz"] = {
@@ -449,6 +476,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37867, "", "=q3=Footwraps of Teleportation", "=ds=#s12#, #a1#" };
 		{ 19, 37868, "", "=q3=Girdle of the Ethereal", "=ds=#s10#, #a3#" };
 		{ 20, 37861, "", "=q3=Necklace of Arcane Spheres", "=ds=#s2#" };
+		Prev = "VioletHoldZuramat";
+		Next = "VioletHoldIchoron";
 	};
 
 	AtlasLoot_Data["VioletHoldIchoron"] = {
@@ -460,6 +489,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 43401, "", "=q3=Water-Drenched Robe", "=ds=#s5#, #a1#" };
 		{ 19, 37862, "", "=q3=Gauntlets of the Water Revenant", "=ds=#s9#, #a4#"};
 		{ 20, 37869, "", "=q3=Globule Signet", "=ds=#s13#" };
+		Prev = "VioletHoldXevozz";
+		Next = "VioletHoldMoragg";
 	};
 
 	AtlasLoot_Data["VioletHoldMoragg"] = {
@@ -471,6 +502,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 43410, "", "=q3=Moragg's Chestguard", "=ds=#s5#, #a3#"};
 		{ 19, 43408, "", "=q3=Solitare of Reflecting Beams", "=ds=#s13#"};
 		{ 20, 43409, "", "=q3=Saliva Corroded Pike", "=ds=#w7#"}
+		Prev = "VioletHoldIchoron";
+		Next = "VioletHoldLavanthor";
 	};
 
 	AtlasLoot_Data["VioletHoldLavanthor"] = {
@@ -482,6 +515,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37870, "", "=q3=Twin-Headed Boots", "=ds=#s12#, #a3#"};
 		{ 19, 37872, "", "=q3=Lavanthor's Talisman", "=ds=#s14#"};
 		{ 20, 37871, "", "=q3=The Key", "=ds=#h1#, #w1#" };
+		Prev = "VioletHoldMoragg";
+		Next = "VioletHoldCyanigosa";
 	};
 
 	AtlasLoot_Data["VioletHoldCyanigosa"] = {
@@ -501,6 +536,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 37873, "", "=q3=Mark of the War Prisoner", "=ds=#s14#"};
 		{ 27, 41791, "", "=q3=Design: Thick Autumn's Glow", "=ds=#p12# (390)"};
 		{ 29, 43823, "", "=q1=Head of Cyanigosa", "=ds=#m3#"};
+		Prev = "VioletHoldLavanthor";
+		Next = "VioletHoldTrash";
 	};
 
 	AtlasLoot_Data["VioletHoldTrash"] = {
@@ -512,6 +549,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37890, "", "=q3=Chain Gang Legguards", "=ds=#s11#, #a2#"};
 		{ 18, 37891, "", "=q3=Cast Iron Shackles", "=ds=#s8#, #a4#"};
 		{ 19, 37889, "", "=q3=Prison Manifest", "=ds=#s15#"};
+		Prev = "VioletHoldCyanigosa";
 	};
 
 		---------------
@@ -529,6 +567,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37628, "", "=q3=Slad'ran's Coiled Cord", "=ds=#s10#, #a3#"};
 		{ 20, 37627, "", "=q3=Snake Den Spaulders", "=ds=#s3#, #a4#"};
 		{ 21, 37626, "", "=q3=Wand of Sseratus", "=ds=#w12#"};
+		Next = "GundrakColossus";
 	};
 
 	AtlasLoot_Data["GundrakColossus"] = {
@@ -542,6 +581,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37636, "", "=q3=Helm of Cheated Fate", "=ds=#s1#, #a2#" };
 		{ 20, 37634, "", "=q3=Bracers of the Divine Elemental", "=ds=#s8#, #a2#"};
 		{ 21, 37635, "", "=q3=Pauldrons of the Colossus", "=ds=#s3#, #a4#"};
+		Prev = "GundrakSladran";
+		Next = "GundrakMoorabi";
 	};
 
 	AtlasLoot_Data["GundrakMoorabi"] = {
@@ -555,6 +596,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37633, "", "=q3=Ground Tremor Helm", "=ds=#s1#, #a4#"};
 		{ 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#"};
 		{ 21, 37631, "", "=q3=Fist of the Deity", "=ds=#h3#, #w13#"};
+		Prev = "GundrakColossus";
+		Next = "GundrakEckHEROIC";
 	};
 
 	AtlasLoot_Data["GundrakEckHEROIC"] = {
@@ -563,6 +606,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 43312, "", "=q3=Gorloc Muddy Footwraps", "=ds=#s12#, #a2#"};
 		{ 4, 43311, "", "=q3=Helmet of the Shrine", "=ds=#s1#, #a3#"};
 		{ 5, 43310, "", "=q3=Engraved Chestplate of Eck", "=ds=#s5#, #a4#"};
+		Prev = "GundrakMoorabi";
+		Next = "GundrakGaldarah";
 	};
 
 	AtlasLoot_Data["GundrakGaldarah"] = {
@@ -576,11 +621,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#"};
 		{ 20, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#"};
 		{ 21, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#"};
-        { 22, 37641, "", "=q3=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#" };
+		{ 22, 37641, "", "=q3=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#" };
 		{ 23, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#"};
 		{ 24, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#"};
 		{ 25, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#"};
 		{ 27, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#"};
+		Prev = "GundrakEckHEROIC";
+		Next = "GundrakTrash";
 	};
 
 	AtlasLoot_Data["GundrakTrash"] = {
@@ -591,6 +638,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 37647, "", "=q3=Cloak of Bloodied Waters", "=ds=#s4#"};
 		{ 18, 37648, "", "=q3=Belt of Tasseled Lanterns", "=ds=#s10#, #a3#"};
 		{ 19, 37646, "", "=q3=Burning Skull Pendant", "=ds=#s2#"};
+		Prev = "GundrakGaldarah";
 	}; 
 
 		----------------------
@@ -990,6 +1038,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#"};
 		{ 28, 43668, "", "=q1=Ley Line Tuner", "=ds=#m3#"};
 		Prev = "OcuUrom";
+		Next = "OcuTrash";
 	};
 
 	AtlasLoot_Data["OcuTrash"] = {
@@ -1002,6 +1051,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37365, "", "=q3=Bands of the Sky Ring", "=ds=#s8#, #a3#"};
 		{ 19, 37290, "", "=q3=Dragon Prow Amulet", "=ds=#s2#"};
 		{ 20, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#"};
+		Prev = "OcuEregos";
 	};
 
 		-----------------
