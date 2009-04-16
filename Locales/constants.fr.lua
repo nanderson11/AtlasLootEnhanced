@@ -44,7 +44,7 @@ if AL then
 	AL["Rewards"] = "Récompenses";
 	AL["Heroic Mode"] = "Mode Héroïque";
 	AL["Normal Mode"] = "Mode Normal";
-	--AL["Hard Mode"] = true; -- à traduire
+	AL["Hard Mode"] = "Mode Difficile";
 	AL["Show 10 Man Loot"] = "Afficher les loots Raid 10";
 	AL["Show 25 Man Loot"] = "Afficher les loots Raid 25";
 	AL["10 Man"] = "10 Joueurs";
@@ -743,22 +743,22 @@ if AL then
 	AL["Dreadnaught Plate"] = "Armure de cuirassier en plaques";
 
 	--Tier 8 Sets -- à traduire
-	--AL["Scourgeborne Battlegear"] = true;
-	--AL["Scourgeborne Plate"] = true;
-	--AL["Dreamwalker Garb"] = true;
-	--AL["Dreamwalker Battlegear"] = true;
-	--AL["Dreamwalker Regalia"] = true;
+	--AL["Darkruned Battlegear"] = true;
+	--AL["Darkruned Plate"] = true;
+	--AL["Nightsong Garb"] = true;
+	--AL["Nightsong Battlegear"] = true;
+	--AL["Nightsong Regalia"] = true;
 	--AL["Scourgestalker Battlegear"] = true;
 	--AL["Kirin'dor Garb"] = true;
-	--AL["Redemption Regalia"] = true;
-	--AL["Redemption Battlegear"] = true;
-	--AL["Redemption Plate"] = true;
+	--AL["Aegis Regalia"] = true;
+	--AL["Aegis Battlegear"] = true;
+	--AL["Aegis Plate"] = true;
 	--AL["Sanctification Regalia"] = true;
 	--AL["Sanctification Garb"] = true;
 	--AL["Terrorblade Battlegear"] = true;
-	--AL["Earthshatter Garb"] = true;
-	--AL["Earthshatter Battlegear"] = true;
-	--AL["Earthshatter Regalia"] = true;
+	--AL["Worldbreaker Garb"] = true;
+	--AL["Worldbreaker Battlegear"] = true;
+	--AL["Worldbreaker Regalia"] = true;
 	--AL["Deathbringer Garb"] = true;
 	--AL["Siegebreaker Battlegear"] = true;
 	--AL["Siegebreaker Plate"] = true;
@@ -963,7 +963,7 @@ if AL then
 	AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
 	AL["SP Patterns/Plans"] = "Patrons/Plans du Plateau du Puits de soleil";
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
-	--AL["Sigil"] = true; -- à traduire
+	AL["Sigil"] = "Cachet";
 
 	--Pets
 	AL["Pets"] = "Familiers de combat";
@@ -1243,7 +1243,7 @@ if AL then
 	AL["Noblegarden"] = "Le jardin des nobles";
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
-	--AL["Argent Tournament"] = true; -- à traduire
+	AL["Argent Tournament"] = "Tournoi d'Argent";
 
 	--Help Frame
 	AL["Help"] = "Aide";
