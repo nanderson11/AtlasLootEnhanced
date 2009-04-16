@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 12/04/2009)
+constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 16/04/2009)
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -258,7 +258,7 @@ if AL then
 	AL["Scrolls"] = "Parchemins";
 	AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
 	AL["Reagents"] = "Réactifs";
-	--AL["Book of Glyph Mastery"] = true; -- à traduire
+	AL["Book of Glyph Mastery"] = "Livre de la maîtrise des glyphes";
     
 	--Leatherworking
 	AL["Leather Armor"] = "Armure en cuir";
@@ -910,7 +910,7 @@ if AL then
 	AL["PvP Accessories - Alliance (Level 60)"] = "Accéssoires JcJ - Alliance (Niveau 60)";
 	AL["PvP Accessories - Horde (Level 60)"] = "Accéssoires JcJ - Horde (Niveau 60)";
 	AL["PvP Accessories (Level 70)"] = "Accessoires JcJ (Niveau 70)";
-	AL["PvP Jewelcrafting Designs and Gems"] = "Dessins de joaillerie JcJ";
+	AL["PvP Jewelcrafting Designs and Gems"] = "Dessins et Gemmes de joaillerie JcJ";
 	AL["PvP Rewards"] = "Récompenses JcJ";
 	AL["PvP Armor Sets"] = "Sets Armures JcJ";
 	AL["PvP Weapons"] = "Armes JcJ";
@@ -941,6 +941,7 @@ if AL then
 	AL["Badge of Justice Rewards"] = "Récompenses Insigne de justice";
 	AL["Emblem of Valor Rewards"] = "Récompenses Emblème de vaillance";
 	AL["Emblem of Heroism Rewards"] = "Récompenses Emblème d'héroïsme";
+	AL["Emblem of Conquest Rewards"] = "Récompenses Emblème de conquête";
 	AL["Accesories and Weapons"] ="Accessoires et Armes";
 	AL["Accessories"] = "Accessoires";
 	AL["Armor and Weapons"] = "Armures et Armes";
