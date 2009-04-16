@@ -501,7 +501,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
 		{ 18, 43410, "", "=q3=Moragg's Chestguard", "=ds=#s5#, #a3#"};
 		{ 19, 43408, "", "=q3=Solitare of Reflecting Beams", "=ds=#s13#"};
-		{ 20, 43409, "", "=q3=Saliva Corroded Pike", "=ds=#w7#"}
+		{ 20, 43409, "", "=q3=Saliva Corroded Pike", "=ds=#w7#"};
 		Prev = "VioletHoldIchoron";
 		Next = "VioletHoldLavanthor";
 	};
