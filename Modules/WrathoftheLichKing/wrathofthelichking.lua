@@ -52,6 +52,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- BoE World Epics
 ---- Emblem of Heroism Items
 ---- Emblem of Valor Items
+---- Emblem of Conquest Items
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -2407,11 +2408,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 40803, "", "=q4=Hateful Gladiator's Dreadplate Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 40841, "", "=q4=Hateful Gladiator's Dreadplate Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
-		{ 17, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Dreadplate Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Dreadplate Shoulders", "=ds="};
@@ -2435,11 +2436,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41291, "", "=q4=Hateful Gladiator's Wyrmhide Gloves", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41302, "", "=q4=Hateful Gladiator's Wyrmhide Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_1#", ""};
-		{ 17, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas1_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Wyrmhide Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Wyrmhide Spaulders", "=ds="};
@@ -2463,11 +2464,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41771, "", "=q4=Hateful Gladiator's Dragonhide Gloves", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41665, "", "=q4=Hateful Gladiator's Dragonhide Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Ability_Druid_Maul", "=q6=#arenas1_2#", ""};
-		{ 17, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas1_2#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Dragonhide Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Dragonhide Spaulders", "=ds="};
@@ -2491,11 +2492,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41284, "", "=q4=Hateful Gladiator's Kodohide Gloves", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41296, "", "=q4=Hateful Gladiator's Kodohide Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
-		{ 17, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas1_3#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Kodohide Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Kodohide Spaulders", "=ds="};
@@ -2519,11 +2520,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41141, "", "=q4=Hateful Gladiator's Chain Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41203, "", "=q4=Hateful Gladiator's Chain Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
-		{ 17, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas2#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Chain Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Chain Spaulders", "=ds="};
@@ -2547,11 +2548,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41969, "", "=q4=Hateful Gladiator's Silk Handguards", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41957, "", "=q4=Hateful Gladiator's Silk Trousers", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
-		{ 17, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas3#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Silk Cowl", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Silk Amice", "=ds="};
@@ -2576,11 +2577,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 40802, "", "=q4=Hateful Gladiator's Scaled Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 40842, "", "=q4=Hateful Gladiator's Scaled Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_1#", ""};
-		{ 17, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas4_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Scaled Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Scaled Shoulders", "=ds="};
@@ -2604,11 +2605,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 40925, "", "=q4=Hateful Gladiator's Ornamented Chestguard", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 40937, "", "=q4=Hateful Gladiator's Ornamented Legplates", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
-		{ 17, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas4_2#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Ornamented Headcover", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Ornamented Spaulders", "=ds="};
@@ -2632,11 +2633,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41938, "", "=q4=Hateful Gladiator's Satin Gloves", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41925, "", "=q4=Hateful Gladiator's Satin Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
-		{ 17, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas5_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Satin Hood", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Satin Mantle", "=ds="};
@@ -2660,11 +2661,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41872, "", "=q4=Hateful Gladiator's Mooncloth Gloves", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41862, "", "=q4=Hateful Gladiator's Mooncloth Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
-		{ 17, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas5_2#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Mooncloth Hood", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Mooncloth Mantle", "=ds="};
@@ -2688,11 +2689,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
-		{ 17, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas6#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Leather Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Leather Spaulders", "=ds="};
@@ -2716,11 +2717,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41005, "", "=q4=Hateful Gladiator's Mail Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41031, "", "=q4=Hateful Gladiator's Mail Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_1#", ""};
-		{ 17, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas7_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Mail Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Mail Spaulders", "=ds="};
@@ -2744,11 +2745,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 41135, "", "=q4=Hateful Gladiator's Linked Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41162, "", "=q4=Hateful Gladiator's Linked Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
-		{ 17, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas7_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Linked Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Linked Spaulders", "=ds="};
@@ -2772,11 +2773,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 40999, "", "=q4=Hateful Gladiator's Ringmail Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 41025, "", "=q4=Hateful Gladiator's Ringmail Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_1#", ""};
-		{ 17, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas7_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Ringmail Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Ringmail Spaulders", "=ds="};
@@ -2800,11 +2801,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 42015, "", "=q4=Hateful Gladiator's Felweave Handguards", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 42003, "", "=q4=Hateful Gladiator's Felweave Trousers", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", ""};
-		{ 17, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=", "1350 #arena# #reqrating# 1850"};
-		{ 21, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=", "2250 #arena# #reqrating# 1910"};
+		{ 17, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas8_1#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Felweave Cowl", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Felweave Amice", "=ds="};
@@ -2812,16 +2813,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 0, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds="};
 		{ 28, 0, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds="};
 		Back = "LEVEL80PVPSETS";
-	};
-
---These are datamined sets NOT available yet. LK Arena 6
-	AtlasLoot_Data["PvP80Warlock2"] = {
-		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", ""};
-		{ 9, 41995, "", "=q4=Gladiator's Felweave Cowl", "=ds="};
-		{ 10, 42013, "", "=q4=Gladiator's Felweave Amice", "=ds="};
-		{ 11, 42000, "", "=q4=Gladiator's Felweave Raiment", "=ds="};
-		{ 12, 42019, "", "=q4=Gladiator's Felweave Handguards", "=ds="};
-		{ 13, 42007, "", "=q4=Gladiator's Felweave Trousers", "=ds="};
 	};
 
 	AtlasLoot_Data["PvP80Warrior"] = {
@@ -2838,11 +2829,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 40801, "", "=q4=Hateful Gladiator's Plate Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1615 ".."/".." 30 #eofvalor#"};
 		{ 13, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1645 ".."/".." 45 #eofvalor#"};
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
-		{ 17, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "2250 #arena# #reqrating# 2090"};
-		{ 18, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "1800 #arena# #reqrating# 2150"};
-		{ 19, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970"};
-		{ 20, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "1350 #arena#"};
-		{ 21, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=", "2250 #arena#"};
+		{ 17, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "2250 #arena# #reqrating# 2090 / 58 #eofconquest#"};
+		{ 18, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "1800 #arena# #reqrating# 2150 / 46 #eofconquest#"};
+		{ 19, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "2250 #arena# #reqrating# 1970 / 58 #eofconquest#"};
+		{ 20, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "1350 #arena# #reqrating# 1850 / 46 #eofconquest#"};
+		{ 21, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=", "2250 #arena# #reqrating# 1910 / 58 #eofconquest#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas9#", ""};
 		{ 24, 0, "", "=q4=Furious Gladiator's Plate Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Plate Shoulders", "=ds="};
@@ -3273,7 +3264,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46111, "", "=q4=Conqueror's Darkruned Battleplate", "=ds="};
 		{ 27, 46113, "", "=q4=Conqueror's Darkruned Gauntlets", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46116, "", "=q4=Conqueror's Darkruned Legplates", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxDeathKnightTank"] = {
@@ -3301,7 +3292,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46118, "", "=q4=Conqueror's Darkruned Chestguard", "=ds="};
 		{ 27, 46119, "", "=q4=Conqueror's Darkruned Handguards", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46121, "", "=q4=Conqueror's Darkruned Legguards", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidFeral"] = {
@@ -3329,7 +3320,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46159, "", "=q4=Conqueror's Nightsong Raiments", "=ds="};
 		{ 27, 46158, "", "=q4=Conqueror's Nightsong Handgrips", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46160, "", "=q4=Conqueror's Nightsong Legguards", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidRestoration"] = {
@@ -3357,7 +3348,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46186, "", "=q4=Conqueror's Nightsong Robe", "=ds="};
 		{ 27, 46183, "", "=q4=Conqueror's Nightsong Handguards", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46185, "", "=q4=Conqueror's Nightsong Leggings", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxDruidBalance"] = {
@@ -3385,7 +3376,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46194, "", "=q4=Conqueror's Nightsong Vestments", "=ds="};
 		{ 27, 46189, "", "=q4=Conqueror's Nightsong Gloves", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46192, "", "=q4=Conqueror's Nightsong Trousers", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxHunter"] = {
@@ -3413,7 +3404,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46141, "", "=q4=Conqueror's Deathbringer Tunic", "=ds="};
 		{ 27, 46142, "", "=q4=Conqueror's Deathbringer Handguards", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46144, "", "=q4=Conqueror's Deathbringer Legguards", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxMage"] = {
@@ -3441,7 +3432,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46130, "", "=q4=Conqueror's Kirin'dor Tunic", "=ds="};
 		{ 27, 46132, "", "=q4=Conqueror's Kirin'dor Gauntlets", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46133, "", "=q4=Conqueror's Kirin'dor Leggings", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinHoly"] = {
@@ -3469,7 +3460,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46178, "", "=q4=Conqueror's Aegis Tunic", "=ds="};
 		{ 27, 46179, "", "=q4=Conqueror's Aegis Gloves", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46181, "", "=q4=Conqueror's Aegis Greaves", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinRetribution"] = {
@@ -3497,7 +3488,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46154, "", "=q4=Conqueror's Aegis Battleplate", "=ds="};
 		{ 27, 46155, "", "=q4=Conqueror's Aegis Gauntlets", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46153, "", "=q4=Conqueror's Aegis Legplates", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxPaladinProtection"] = {
@@ -3525,7 +3516,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46173, "", "=q4=Conqueror's Aegis Breastplate", "=ds="};
 		{ 27, 46174, "", "=q4=Conqueror's Aegis Handguards", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46176, "", "=q4=Conqueror's Aegis Legguards", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxPriestShadow"] = {
@@ -3553,7 +3544,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46168, "", "=q4=Conqueror's Raiments of Sanctification", "=ds="};
 		{ 27, 46163, "", "=q4=Conqueror's Handwraps of Sanctification", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46170, "", "=q4=Conqueror's Pants of Sanctification", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxPriestHoly"] = {
@@ -3581,7 +3572,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46193, "", "=q4=Conqueror's Robe of Sanctification", "=ds="};
 		{ 27, 46188, "", "=q4=Conqueror's Gloves of Sanctification", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46195, "", "=q4=Conqueror's Leggings of Sanctification", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxRogue"] = {
@@ -3609,7 +3600,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46123, "", "=q4=Conqueror's Terrorblade Breastplate", "=ds="};
 		{ 27, 46124, "", "=q4=Conqueror's Terrorblade Gauntlets", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46126, "", "=q4=Conqueror's Terrorblade Legplates", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanRestoration"] = {
@@ -3637,7 +3628,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46198, "", "=q4=Conqueror's Worldbreaker Tunic", "=ds="};
 		{ 27, 46199, "", "=q4=Conqueror's Worldbreaker Handguards", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46202, "", "=q4=Conqueror's Worldbreaker Legguards", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanEnhancement"] = {
@@ -3665,7 +3656,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46205, "", "=q4=Conqueror's Worldbreaker Chestguard", "=ds="};
 		{ 27, 46200, "", "=q4=Conqueror's Worldbreaker Grips", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46208, "", "=q4=Conqueror's Worldbreaker War-Kilt", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxShamanElemental"] = {
@@ -3693,7 +3684,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46206, "", "=q4=Conqueror's Worldbreaker Hauberk", "=ds="};
 		{ 27, 46207, "", "=q4=Conqueror's Worldbreaker Gloves", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46210, "", "=q4=Conqueror's Worldbreaker Kilt", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxWarlock"] = {
@@ -3721,7 +3712,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46137, "", "=q4=Conqueror's Deathbringer Robe", "=ds="};
 		{ 27, 46135, "", "=q4=Conqueror's Deathbringer Gloves", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46139, "", "=q4=Conqueror's Deathbringer Leggings", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorFury"] = {
@@ -3749,7 +3740,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46146, "", "=q4=Conqueror's Siegebreaker Battleplate", "=ds="};
 		{ 27, 46148, "", "=q4=Conqueror's Siegebreaker Gauntlets", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46150, "", "=q4=Conqueror's Siegebreaker Legplates", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 	AtlasLoot_Data["NaxxWarriorProtection"] = {
@@ -3777,7 +3768,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 26, 46164, "", "=q4=Conqueror's Siegebreaker Breastplate", "=ds="};
 		{ 27, 46162, "", "=q4=Conqueror's Siegebreaker Handguards", "=ds="..BabbleBoss["Mimiron"]};
 		{ 28, 46169, "", "=q4=Conqueror's Siegebreaker Legguards", "=ds="};
-		Back = "T7SET";
+		Back = "T7T8SET";
 	};
 
 		-----------------------------------
@@ -4305,4 +4296,51 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Prev = "EmblemofValor";
 		Back = "SETMENU";
 	};
+    
+    AtlasLoot_Data["EmblemofConquest1"] = {
+        { 1, 45840, "", "=q4=Touch of the Occult", "=ds=#s9#, #a1#", "28 #eofconquest#" };
+        { 2, 45839, "", "=q4=Grips of the Secret Grove", "=ds=#s9#, #a2#", "28 #eofconquest#" };
+        { 3, 45838, "", "=q4=Gloves of the Blind Stalker", "=ds=#s9#, #a2#", "28 #eofconquest#" };
+        { 4, 45836, "", "=q4=Gloves of Unerring Aim", "=ds=#s9#, #a3#", "28 #eofconquest#" };
+        { 5, 45837, "", "=q4=Gloves of Augury", "=ds=#s9#, #a3#", "28 #eofconquest#" };
+        { 6, 45835, "", "=q4=Gauntlets of Serene Blessing", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+        { 7, 45833, "", "=q4=Bladebreaker Gauntlets", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+        { 8, 45834, "", "=q4=Gauntlets of the Royal Watch", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+        { 10, 45822, "", "=q4=Evoker's Charm", "=ds=#s2#", "19 #eofconquest#" };
+        { 11, 45823, "", "=q4=Frozen Tear of Elune", "=ds=#s2#", "19 #eofconquest#" };
+        { 12, 45820, "", "=q4=Broach of the Wailing Night", "=ds=#s2#", "19 #eofconquest#" };
+        { 13, 45819, "", "=q4=Spiked Battleguard Choker", "=ds=#s2#", "19 #eofconquest#" };
+        { 14, 45821, "", "=q4=Shard of the Crystal Forest", "=ds=#s2#", "19 #eofconquest#" };
+        { 16, 45831, "", "=q4=Sash of Potent Incantations", "=ds=#s10#, #a1#", "28 #eofconquest#" };
+        { 17, 45830, "", "=q4=Belt of the Living Thicket", "=ds=#s10#, #a2#", "28 #eofconquest#" };
+        { 18, 45829, "", "=q4=Belt of the Twilight Assassin", "=ds=#s10#, #a2#", "28 #eofconquest#" };
+        { 19, 45827, "", "=q4=Belt of the Ardent Marksman", "=ds=#s10#, #a3#", "28 #eofconquest#" };
+        { 20, 45828, "", "=q4=Windchill Binding", "=ds=#s10#, #a3#", "28 #eofconquest#" };
+        { 21, 45826, "", "=q4=Girdle of Unyielding Trust", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+        { 22, 45824, "", "=q4=Belt of the Singing Blade", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+        { 23, 45825, "", "=q4=Shieldwarder Girdle", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+        Next = "EmblemofConquest2";
+		Back = "SETMENU";
+    };
+    
+    AtlasLoot_Data["EmblemofConquest2"] = {
+        { 1, 45848, "", "=q4=Legwraps of the Master Conjurer", "=ds=#s11#, #a1#", "39 #eofconquest#" };
+        { 2, 45847, "", "=q4=Wildstrider Legguards", "=ds=#s11#, #a2#", "39 #eofconquest#" };
+        { 3, 45846, "", "=q4=Leggings of Wavering Shadow", "=ds=#s11#, #a2#", "39 #eofconquest#" };
+        { 4, 45844, "", "=q4=Leggings of the Tireless Sentry", "=ds=#s11#, #a3#", "39 #eofconquest#" };
+        { 5, 45845, "", "=q4=Leggings of the Weary Mystic", "=ds=#s11#, #a3#", "39 #eofconquest#" };
+        { 6, 45843, "", "=q4=Legguards of the Peaceful Covenant", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+        { 7, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+        { 8, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+        { 10, 40753, "", "=q4=Emblem of Valor", "=ds=", "1 #eofconquest#" };
+        { 11, 45087, "", "=q3=Runed Orb", "=ds=", "18 #eofconquest#" };
+        { 16, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
+        { 17, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "58 #eofconquest#" };
+        { 18, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+        { 20, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
+        { 21, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "58 #eofconquest#" };
+        { 22, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+        Prev = "EmblemofConquest1";
+		Back = "SETMENU";
+    };
 

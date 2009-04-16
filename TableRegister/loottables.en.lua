@@ -846,6 +846,9 @@ AtlasLoot_TableNames = {};
   -- Emblem of Valor Rewards
 	AtlasLoot_TableNames["EmblemofValor"] = { AL["Emblem of Valor Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofValor2"] = { AL["Emblem of Valor Rewards"], "AtlasLootWotLK" };
+  -- Emblem of Conquest Rewards
+	AtlasLoot_TableNames["EmblemofConquest1"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofConquest2"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
   -- Naxxramas 10/25 Man Sets
 	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { BabbleClass["Deathknight"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { BabbleClass["Deathknight"].." - "..AL["Tanking"], "AtlasLootWotLK" };
@@ -1361,8 +1364,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["CRAFTSET2"] = { AL["Crafted Sets"], "Menu" };
 	AtlasLoot_TableNames["T456SET"] = { AL["Tier 4/5/6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
-	AtlasLoot_TableNames["T1T2SET"] = { AL["Tier 1/2 Sets"], "Menu" };
-	AtlasLoot_TableNames["T7SET"] = { AL["Tier 7/8 Sets"], "Menu" };
+	AtlasLoot_TableNames["T1T2T3SET"] = { AL["Tier 1/2/3 Sets"], "Menu" };
+	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };
 	AtlasLoot_TableNames["T0SET"] = { AL["Dungeon 1/2 Sets"], "Menu" };
 	AtlasLoot_TableNames["DS3SET"] = { AL["Dungeon 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["PVPSET"] = { "dummy", "dummy" };

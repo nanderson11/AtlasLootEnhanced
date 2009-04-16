@@ -974,6 +974,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#heroic#", "|TInterface\\Icons\\Spell_Holy_ChampionsBond:0|t");
     text = gsub(text, "#eofvalor#", "|TInterface\\Icons\\Spell_Holy_ProclaimChampion_02:0|t");
     text = gsub(text, "#eofheroism#", "|TInterface\\Icons\\Spell_Holy_ProclaimChampion:0|t");
+    text = gsub(text, "#eofconquest#", "|TInterface\\Icons\\Spell_Holy_ChampionsGrace:0|t");
     text = gsub(text, "#darkmoon#", "|TInterface\\Icons\\INV_Misc_Ticket_Darkmoon_01:0|t");
     text = gsub(text, "#brewfest#", "|TInterface\\Icons\\INV_Misc_Coin_01:0|t");
     text = gsub(text, "#ccombat#", "|TInterface\\Icons\\INV_Jewelry_Talisman_06:0|t");

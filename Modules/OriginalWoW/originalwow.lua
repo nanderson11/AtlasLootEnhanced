@@ -4100,7 +4100,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16903, "", "=q4=Stormrage Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
 		{ 23, 16901, "", "=q4=Stormrage Legguards", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
 		{ 24, 16898, "", "=q4=Stormrage Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Hunter"] = {
@@ -4122,7 +4122,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16936, "", "=q4=Dragonstalker's Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.17%"};
 		{ 23, 16938, "", "=q4=Dragonstalker's Legguards", "=ds="..BabbleBoss["Ragnaros"], "", "16.02%"};
 		{ 24, 16941, "", "=q4=Dragonstalker's Greaves", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.78%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Mage"] = {
@@ -4144,7 +4144,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16818, "", "=q4=Netherwind Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "19.94%"};
 		{ 23, 16915, "", "=q4=Netherwind Pants", "=ds="..BabbleBoss["Ragnaros"], "", "17.37%"};
 		{ 24, 16912, "", "=q4=Netherwind Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.17%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Paladin"] = {
@@ -4166,7 +4166,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16952, "", "=q4=Judgement Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
 		{ 23, 16954, "", "=q4=Judgement Legplates", "=ds="..BabbleBoss["Ragnaros"], "", "10.81%"};
 		{ 24, 16957, "", "=q4=Judgement Sabatons", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Priest"] = {
@@ -4188,7 +4188,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16925, "", "=q4=Belt of Transcendence", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
 		{ 23, 16922, "", "=q4=Leggings of Transcendence", "=ds="..BabbleBoss["Ragnaros"], "", "17.30%"};
 		{ 24, 16919, "", "=q4=Boots of Transcendence", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Rogue"] = {
@@ -4210,7 +4210,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16910, "", "=q4=Bloodfang Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "19.69%"};
 		{ 23, 16909, "", "=q4=Bloodfang Pants", "=ds="..BabbleBoss["Ragnaros"], "", "17.18%"};
 		{ 24, 16906, "", "=q4=Bloodfang Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.66%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Shaman"] = {
@@ -4232,7 +4232,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16944, "", "=q4=Belt of Ten Storms", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
 		{ 23, 16946, "", "=q4=Legplates of Ten Storms", "=ds="..BabbleBoss["Ragnaros"], "", "5.97%"};
 		{ 24, 16949, "", "=q4=Greaves of Ten Storms", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Warlock"] = {
@@ -4254,7 +4254,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16933, "", "=q4=Nemesis Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.42%"};
 		{ 23, 16930, "", "=q4=Nemesis Leggings", "=ds="..BabbleBoss["Ragnaros"], "", "16.87%"};
 		{ 24, 16927, "", "=q4=Nemesis Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.32%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T1T2Warrior"] = {
@@ -4276,7 +4276,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 16960, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
 		{ 23, 16962, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
 		{ 24, 16965, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
-		Back = "T1T2SET";
+		Back = "T1T2T3SET";
 	};
 
 		------------------------
@@ -4294,7 +4294,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22489, "", "=q4=Dreamwalker Legguards", "=ds="};
 		{ 9, 22492, "", "=q4=Dreamwalker Boots", "=ds="};
 		{ 10, 23064, "", "=q4=Ring of the Dreamwalker", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Hunter"] = {
@@ -4308,7 +4308,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22437, "", "=q4=Cryptstalker Legguards", "=ds="};
 		{ 9, 22440, "", "=q4=Cryptstalker Boots", "=ds="};
 		{ 10, 23067, "", "=q4=Ring of the Cryptstalker", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Mage"] = {
@@ -4322,7 +4322,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22497, "", "=q4=Frostfire Leggings", "=ds="};
 		{ 9, 22500, "", "=q4=Frostfire Sandals", "=ds="};
 		{ 10, 23062, "", "=q4=Frostfire Ring", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Paladin"] = {
@@ -4336,7 +4336,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22427, "", "=q4=Redemption Legguards", "=ds="};
 		{ 9, 22430, "", "=q4=Redemption Boots", "=ds="};
 		{ 10, 23066, "", "=q4=Ring of Redemption", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Priest"] = {
@@ -4350,7 +4350,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22513, "", "=q4=Leggings of Faith", "=ds="};
 		{ 9, 22516, "", "=q4=Sandals of Faith", "=ds="};
 		{ 10, 23061, "", "=q4=Ring of Faith", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Rogue"] = {
@@ -4364,7 +4364,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22477, "", "=q4=Bonescythe Legplates", "=ds="};
 		{ 9, 22480, "", "=q4=Bonescythe Sabatons", "=ds="};
 		{ 10, 23060, "", "=q4=Bonescythe Ring", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Shaman"] = {
@@ -4378,7 +4378,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22465, "", "=q4=Earthshatter Legguards", "=ds="};
 		{ 9, 22468, "", "=q4=Earthshatter Boots", "=ds="};
 		{ 10, 23065, "", "=q4=Ring of the Earthshatterer", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Warlock"] = {
@@ -4392,7 +4392,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22505, "", "=q4=Plagueheart Leggings", "=ds="};
 		{ 9, 22508, "", "=q4=Plagueheart Sandals", "=ds="};
 		{ 10, 23063, "", "=q4=Plagueheart Ring", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 	AtlasLoot_Data["T3Warrior"] = {
@@ -4406,7 +4406,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 8, 22417, "", "=q4=Dreadnaught Legplates", "=ds="};
 		{ 9, 22420, "", "=q4=Dreadnaught Sabatons", "=ds="};
 		{ 10, 23059, "", "=q4=Ring of the Dreadnaught", "=ds="};
-		Back = "T3SET";
+		Back = "T1T2T3SET";
 	};
 
 		------------------------

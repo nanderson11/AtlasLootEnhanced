@@ -943,6 +943,7 @@ if AL then
 	AL["Badge of Justice Rewards"] = true;
 	AL["Emblem of Valor Rewards"] = true;
 	AL["Emblem of Heroism Rewards"] = true;
+    AL["Emblem of Conquest Rewards"] = true;
 	AL["Accesories and Weapons"] = true;
 	AL["Accessories"] = true;
 	AL["Armor and Weapons"] = true;

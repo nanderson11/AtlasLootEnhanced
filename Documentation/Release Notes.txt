@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.04.01
+Emblem of Conquest loot included
+
 v5.04.00a
 Fixed loot module toc numbers
 

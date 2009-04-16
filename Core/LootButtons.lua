@@ -42,7 +42,7 @@ function AtlasLootItem_OnEnter()
             getglobal("AtlasLootTooltipTextRight"..i):SetText("");
         end
     end
-    if (this.itemID ~= 0) then
+    if this.itemID and (this.itemID ~= 0) then
         if string.sub(this.itemID, 1, 1) == "s" then
             isItem = false;
         else

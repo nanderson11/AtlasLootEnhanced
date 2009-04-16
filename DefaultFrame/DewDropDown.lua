@@ -254,56 +254,59 @@ AtlasLoot_DewDropDown = {
 			[4] = {
 				{ AL["Dungeon 3 Sets"], "DungeonSets3", "Submenu" },
 			},
-			[5] = {
-				{ AL["Emblem of Heroism Rewards"], "EmblemofHeroism", "Table" },
+            [5] = {
+				{ AL["Emblem of Conquest Rewards"], "EmblemofConquest1", "Table" },
 			},
 			[6] = {
-				{ AL["Emblem of Valor Rewards"], "EmblemofValor", "Table" },
+				{ AL["Emblem of Heroism Rewards"], "EmblemofHeroism", "Table" },
 			},
 			[7] = {
-				{ AL["Legendary Items"], "Legendaries", "Table" }, 
+				{ AL["Emblem of Valor Rewards"], "EmblemofValor", "Table" },
 			},
 			[8] = {
+				{ AL["Legendary Items"], "Legendaries", "Table" }, 
+			},
+			[9] = {
 				[AL["Mounts"]] = {
 					{ AL["Classic Mounts"], "MountsClassic", "Submenu" },
 					{ AL["The Burning Crusade Mounts"], "MountsBC", "Submenu" },
 					{ AL["Wrath of the Lich King Mounts"], "MountsLichKing", "Submenu" },
 				},
 			},
-			[9] = {
+			[10] = {
 				{ AL["Non-Combat Pets"], "Pets", "Submenu" },
 			},
-			[10] = {
+			[11] = {
 				[AL["Misc Sets"]] = {
 					{ AL["Classic Sets"], "SETSCLASSIC", "Table" },
 					{ AL["Burning Crusade Sets"], "SETSBURNINGCURSADE", "Table" },
 				},
 			},
-			[11] = {
+			[12] = {
 				{ AL["Ruins of Ahn'Qiraj Sets"], "AQ20Sets1", "Table" },
 			},
-			[12] = {
+			[13] = {
 				{ AL["Tabards"], "Tabards3", "Table" }, 
 			},
-			[13] = {
+			[14] = {
 				{ AL["Temple of Ahn'Qiraj Sets"], "AQ40Sets1", "Table" },
 			},
-			[14] = {
+			[15] = {
 				{ AL["Tier 1/2 Sets"], "T1T2Sets", "Submenu" },
 			},
-			[15] = {
+			[16] = {
 				{ AL["Tier 3 Sets"], "T3Sets", "Submenu" },
 			},
-			[16] = {
+			[17] = {
 				{ AL["Tier 4/5/6 Sets"], "T456Sets", "Submenu" },
 			},
-			[17] = {
+			[18] = {
 				{ AL["Tier 7/8 Sets"], "Naxx10Sets", "Submenu" },
 			},
-			[18] = {
+			[19] = {
 				{ AL["Upper Deck Card Game Items"], "CardGame1", "Table" }, 
 			},
-			[19] = {
+			[20] = {
 				{ AL["Zul'Gurub Sets"], "ZGSets1", "Table" },
 			},
 

@@ -5,14 +5,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 AtlasLoot_Data["SETMENU"] = {
         { 2, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], "=q5="..AL["Burning Crusade"]};
-        { 3, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-        { 4, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-        { 5, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-        { 6, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
-        { 7, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
-        { 8, "Pets1", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
-        { 9, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
-        { 10, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
+        { 3, "EmblemofConquest1", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+        { 4, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+        { 5, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+        { 6, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+        { 7, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
+        { 8, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
+        { 9, "Pets1", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
+        { 10, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
+        { 11, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
         { 13, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};
         { 17, "SETSMISCMENU", "INV_Sword_43", "=ds="..AL["Misc Sets"], ""};
         { 18, "ZGSets1", "INV_Jewelry_Necklace_19", "=ds="..AL["Zul'Gurub Sets"], ""};
@@ -20,10 +21,9 @@ AtlasLoot_Data["SETMENU"] = {
         { 20, "AQ40Sets1", "INV_Sword_59", "=ds="..AL["Temple of Ahn'Qiraj Sets"], ""};
         { 22, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon 1/2 Sets"], ""};
         { 23, "DS3SET", "INV_Helmet_15", "=ds="..AL["Dungeon 3 Sets"], ""};
-        { 24, "T1T2SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Sets"], ""};
-        --{ 25, "T3SET", "INV_Pants_Cloth_05", "=ds="..AL["Tier 3 Sets"], ""};
+        { 24, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Sets"], ""};
         { 25, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Sets"], ""};
-        { 26, "T7SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Sets"], "=q5="..AL["10/25 Man"]};
+        { 26, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Sets"], "=q5="..AL["10/25 Man"]};
 	};
 
 AtlasLoot_Data["70TOKENMENU"] = {
@@ -145,64 +145,37 @@ AtlasLoot_Data["DS3SET"] = {
         Back = "SETMENU";
 	};
 
---BACKUP
---AtlasLoot_Data["T1T2SET"] = {
---        { 3, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], ""};
---        { 4, "T1T2Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
---        { 5, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], ""};
---        { 6, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], ""};
---        { 7, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
---        { 18, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
---        { 19, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], ""};
---        { 20, "T1T2Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
---        { 21, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
---        Back = "SETMENU";
---	};
-
-AtlasLoot_Data["T1T2SET"] = {
-        { 1, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], ""};
-        { 2, "T3Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Tier 3"]};
-        { 4, "T1T2Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 5, "T3Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Tier 3"]};
-        { 7, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], ""};
-        { 8, "T3Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Tier 3"]};
-        { 10, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], ""};
-        { 11, "T3Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], "=q5="..AL["Tier 3"]};
-        { 13, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
-        { 14, "T3Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Tier 3"]};
-        { 16, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        { 17, "T3Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Tier 3"]};
-        { 19, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], ""};
-        { 20, "T3Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Tier 3"]};
-        { 22, "T1T2Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
-        { 23, "T3Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], "=q5="..AL["Tier 3"]};
-        { 25, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
-        { 26, "T3Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], "=q5="..AL["Tier 3"]};
-        Back = "SETMENU";
-	};
-
-AtlasLoot_Data["T3SET"] = {
-        { 3, "T3Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], ""};
-        { 4, "T3Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 5, "T3Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], ""};
-        { 6, "T3Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], ""};
-        { 7, "T3Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
-        { 18, "T3Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        { 19, "T3Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], ""};
-        { 20, "T3Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
-        { 21, "T3Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
+AtlasLoot_Data["T1T2T3SET"] = {
+        { 1, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 2, "T3Druid", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Tier 3 Sets"]};
+        { 4, "T1T2Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 5, "T3Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], "=q5="..AL["Tier 3 Sets"]};
+        { 7, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 8, "T3Priest", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Tier 3 Sets"]};
+        { 10, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 11, "T3Shaman", "Spell_FireResistanceTotem_01", "=ds="..BabbleClass["Shaman"], "=q5="..AL["Tier 3 Sets"]};
+        { 13, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 14, "T3Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Tier 3 Sets"]};
+        { 16, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 17, "T3Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], "=q5="..AL["Tier 3 Sets"]};
+        { 19, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 20, "T3Paladin", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Tier 3 Sets"]};
+        { 22, "T1T2Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 23, "T3Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], "=q5="..AL["Tier 3 Sets"]};
+        { 25, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], "=q5="..AL["Tier 1/2 Sets"]};
+        { 26, "T3Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], "=q5="..AL["Tier 3 Sets"]};
         Back = "SETMENU";
 	};
 
 AtlasLoot_Data["T456SET"] = {
-        { 3, "T456DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
-        { 4, "T456DruidFeral", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
-        { 5, "T456DruidRestoration", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
-        { 7, "T456Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        { 9, "T456Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 11, "T456PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
-        { 12, "T456PaladinProtection", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Protection"]};
-        { 13, "T456PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
+        { 2, "T456DruidBalance", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
+        { 3, "T456DruidFeral", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
+        { 4, "T456DruidRestoration", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
+        { 6, "T456Hunter", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
+        { 8, "T456Mage", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
+        { 10, "T456PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
+        { 11, "T456PaladinProtection", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Protection"]};
+        { 12, "T456PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
         { 17, "T456PriestHoly", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Holy"]};
         { 18, "T456PriestShadow", "Spell_Shadow_AntiShadow", "=ds="..BabbleClass["Priest"], "=q5="..AL["Shadow"]};
         { 20, "T456Rogue", "Ability_BackStab", "=ds="..BabbleClass["Rogue"], ""};
@@ -215,7 +188,7 @@ AtlasLoot_Data["T456SET"] = {
         Back = "SETMENU";
 	};
     
-AtlasLoot_Data["T7SET"] = {
+AtlasLoot_Data["T7T8SET"] = {
         { 2, "NaxxDeathKnightDPS", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["DPS"]};
         { 3, "NaxxDeathKnightTank", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Tanking"]};
         { 5, "NaxxDruidBalance", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
