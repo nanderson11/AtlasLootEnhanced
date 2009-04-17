@@ -77,30 +77,25 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["OldKeys"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#e9#", ""};
-		{ 2, 16309, "", "=q3=Drakefire Amulet", "=ds=#e9#, #s2#"};
-		{ 3, 12344, "", "=q3=Seal of Ascension", "=ds=#e9#, #s13#"};
-		{ 4, 17191, "", "=q3=Scepter of Celebras", "=ds=#e9#"};
-		{ 5, 7146, "", "=q2=The Scarlet Key", "=ds=#e9#"};
-		{ 6, 12382, "", "=q2=Key to the City", "=ds=#e9#"};
-		{ 7, 6893, "", "=q1=Workshop Key", "=ds=#e9#"};
-		{ 8, 11000, "", "=q1=Shadowforge Key", "=ds=#e9#"};
-		{ 9, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#"};
-		{ 10, 18249, "", "=q1=Crescent Key", "=ds=#e9#"};
-		{ 11, 13704, "", "=q1=Skeleton Key", "=ds=#e9#"};
-		{ 13, 0, "INV_Box_01", "=q6=#j7#", ""};
-		{ 14, 22057, "", "=q1=Brazier of Invocation", "=ds=#m27#"};
-		{ 15, 21986, "", "=q1=Banner of Provocation", "=ds=#m27#"};
+		{ 2, 17191, "", "=q3=Scepter of Celebras", "=ds=#e9#"};
+		{ 3, 7146, "", "=q2=The Scarlet Key", "=ds=#e9#"};
+		{ 4, 12382, "", "=q2=Key to the City", "=ds=#e9#"};
+		{ 5, 6893, "", "=q1=Workshop Key", "=ds=#e9#"};
+		{ 6, 11000, "", "=q1=Shadowforge Key", "=ds=#e9#"};
+		{ 7, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#"};
+		{ 8, 18249, "", "=q1=Crescent Key", "=ds=#e9#"};
+		{ 9, 13704, "", "=q1=Skeleton Key", "=ds=#e9#"};
+		{ 11, 0, "INV_Box_01", "=q6=#j7#", ""};
+		{ 12, 22057, "", "=q1=Brazier of Invocation", "=ds=#m27#"};
+		{ 13, 21986, "", "=q1=Banner of Provocation", "=ds=#m27#"};
 		{ 16, 0, "INV_Box_01", "=q6=#m20#", ""};
 		{ 17, 19931, "", "=q3=Gurubashi Mojo Madness", "=ds=#m27#"};
-		{ 18, 9240, "", "=q2=Mallet of Zul'Farrak", "=ds=#m27#"};
-		{ 19, 17333, "", "=q1=Aqual Quintessence", "=ds=#m27#"};
-		{ 20, 22754, "", "=q1=Eternal Quintessence", "=ds=#m27#"};
-		{ 21, 13523, "", "=q1=Blood of Innocents", "=ds=#m27#"};
-		{ 22, 18746, "", "=q1=Divination Scryer", "=ds=#m27#"};
-		{ 23, 18663, "", "=q1=J'eevee's Jar", "=ds=#m27#"};
-		{ 24, 19974, "", "=q1=Mudskunk Lure", "=ds=#m27#"};
-		{ 25, 7733, "", "=q1=Staff of Prehistoria", "=ds=#m27#"};
-		{ 26, 10818, "", "=q1=Yeh'kinya's Scroll", "=ds=#m27#"};
+		{ 18, 13523, "", "=q1=Blood of Innocents", "=ds=#m27#"};
+		{ 19, 18746, "", "=q1=Divination Scryer", "=ds=#m27#"};
+		{ 20, 18663, "", "=q1=J'eevee's Jar", "=ds=#m27#"};
+		{ 21, 19974, "", "=q1=Mudskunk Lure", "=ds=#m27#"};
+		{ 22, 7733, "", "=q1=Staff of Prehistoria", "=ds=#m27#"};
+		{ 23, 10818, "", "=q1=Yeh'kinya's Scroll", "=ds=#m27#"};
 	};
 
 		-----------------------------------------

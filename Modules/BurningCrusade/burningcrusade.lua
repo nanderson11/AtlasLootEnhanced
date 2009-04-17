@@ -95,13 +95,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 30635, "", "=q1=Key of Time", "=ds=#e9#"};
 		{ 12, 30634, "", "=q1=Warpforged Key", "=ds=#e9#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j2#", ""};
-		{ 17, 32649, "", "=q4=Medallion of Karabor", "=ds=#e9#, #s2#"};
-		{ 18, 31704, "", "=q1=The Tempest Key", "=ds=#e9#"};
-		{ 19, 24490, "", "=q1=The Master's Key", "=ds=#e9#"};
-		{ 21, 0, "INV_Box_01", "=q6=#m20#", ""};
-		{ 22, 32092, "", "=q3=The Eye of Haramad", "=ds=#m27#"};
-		{ 23, 24140, "", "=q1=Blackened Urn", "=ds=#m27#"};
-		{ 24, 32449, "", "=q1=Essence-Infused Moonstone", "=ds=#m27#"};
+		{ 17, 24490, "", "=q1=The Master's Key", "=ds=#e9#"};
+		{ 19, 0, "INV_Box_01", "=q6=#m20#", ""};
+		{ 20, 32092, "", "=q3=The Eye of Haramad", "=ds=#m27#"};
+		{ 21, 32449, "", "=q1=Essence-Infused Moonstone", "=ds=#m27#"};
 	};
 
 		-----------------------------------

@@ -8,12 +8,14 @@ AtlasLootBossButtons = {
   ---------------------
 
     AhnKahet = {
-    	"";
+        "";
+        "";
         "AhnkahetNadox";
         "AhnkahetTaldaram";
+        "AhnkahetAmanitarHEROIC";
         "AhnkahetJedoga";
         "AhnkahetVolazj";
-        "AhnkahetAmanitarHEROIC";
+        "";
         "";
         "AhnkahetTrash";
         };
@@ -23,6 +25,9 @@ AtlasLootBossButtons = {
         "";
         "";
         "AzjolNerubKrikthir";
+        "";
+        "";
+        "";
         "AzjolNerubHadronox";
         "AzjolNerubAnubarak";
         "";
@@ -43,15 +48,19 @@ AtlasLootBossButtons = {
     DrakTharonKeep = {
         "";
         "";
+        "";
         "DrakTharonKeepTrollgore";
+        "";
         "DrakTharonKeepNovos";
        	"DrakTharonKeepKingDred";
         "DrakTharonKeepTharonja";
+        "";
         "";
         "DrakTharonKeepTrash";
         };
 
     Gundrak = {
+        "";
         "";
         "GundrakSladran";
         "GundrakColossus";
@@ -63,8 +72,6 @@ AtlasLootBossButtons = {
         };
 
     Naxxramas = {
-        "ArgentCrusade";
-        "";
         "";
         "";
         "";
@@ -99,52 +106,60 @@ AtlasLootBossButtons = {
 
     TheNexus = {
         "";
-        "TheNexusAnomalus";
         "TheNexusOrmorok";
+        "TheNexusAnomalus";
         "TheNexusTelestra";
         "TheNexusKeristrasza";
         "TheNexusKolurgStoutbeardHEROIC";
         };
 
     TheOculus = {
+        "";
+        "";
         "OcuDrakos";
-        "OcuUrom";
-        "OcuEregos";
         "OcuCloudstrider";
-    	"";
-    	"OcuTrash";
+        "OcuUrom";
+        "";
+        "OcuEregos";
+        "";
+        "";
+        "OcuTrash";
         };
 
     ObsidianSanctum = {
+        "";
+        "";
+        "";
+        "";
         "";
         "Sartharion";
         };
 
     UlduarHallsofLightning = {
-    	"";
-    	"HallsofLightningBjarngrim";
+        "";
+        "HallsofLightningBjarngrim";
         "HallsofLightningVolkhan";
         "HallsofLightningIonar";
         "HallsofLightningLoken";
-    	"";
-    	"HallsofLightningTrash";
+        "";
+        "HallsofLightningTrash";
         };
 
     UlduarHallsofStone = {
-    	"";
-    	"HallsofStoneMaiden";
+        "";
+        "HallsofStoneMaiden";
         "HallsofStoneKrystallus";
         "";
         "HallsofStoneTribunal";
         "HallsofStoneSjonnir";
-    	"";
-    	"HallsofStoneTrash";
+        "";
+        "HallsofStoneTrash";
         };
 
     UtgardeKeep = {
-    	"";
-    	"";
-    	"UtgardeKeepKeleseth";
+        "";
+        "";
+        "UtgardeKeepKeleseth";
         "UtgardeKeepSkarvald";
         "UtgardeKeepSkarvald";
         "UtgardeKeepIngvar";
@@ -153,18 +168,19 @@ AtlasLootBossButtons = {
         };
 
     UtgardePinnacle = {
-    	"";
+        "";
+        "";
         "UPSorrowgrave";
         "UPPalehoof";
         "UPSkadi";
-    	"UPYmiron";
+        "UPYmiron";
         "";
         "UPTrash";
         };
 
     VioletHold = {
-    	"";
-    	"VioletHoldErekem";
+        "";
+        "VioletHoldErekem";
         "VioletHoldZuramat";
         "VioletHoldXevozz";
         "VioletHoldIchoron";
@@ -443,8 +459,6 @@ AtlasLootBossButtons = {
         };
 
     HCMagtheridonsLair = {
-        "Thrallmar1";
-        "HonorHold1";
         "";
         "HCMagtheridon";
         };
@@ -487,7 +501,6 @@ AtlasLootBossButtons = {
 
     KarazhanStart = {
         "VioletEye1";
-        "BCKeys";
         "BCKeys";
         "";
         "";
@@ -644,6 +657,7 @@ AtlasLootBossButtons = {
     TempestKeepMechanar = {
         "Shatar1";
         "BCKeys";
+        "";
         "";
         "TKMechCacheoftheLegion";
         "TKMechCacheoftheLegion";
@@ -824,7 +838,6 @@ AtlasLootBossButtons = {
         };
 
     BlackrockSpireUpper = {
-        "OldKeys";
         "OldKeys";
         "";
         "";
@@ -1059,8 +1072,6 @@ AtlasLootBossButtons = {
     MoltenCore = {
         "";
         "BloodsailHydraxian";
-        "OldKeys";
-        "OldKeys";
         "";
         "MCLucifron";
         "MCMagmadar";
@@ -1080,7 +1091,6 @@ AtlasLootBossButtons = {
 
     OnyxiasLair = {
         "";
-        "OldKeys";
         "";
         "";
         "";
@@ -1478,7 +1488,6 @@ AtlasLootBossButtons = {
         };
 
     ZulFarrak = {
-        "OldKeys";
         "";
         "ZFAntusul";
         "ZFThekatheMartyr";
