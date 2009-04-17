@@ -170,6 +170,8 @@ AtlasLoot_TableNames = {};
   -- Vault of Archavon
 	AtlasLoot_TableNames["Archavon"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
 	AtlasLoot_TableNames["Archavon25Man"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
+    AtlasLoot_TableNames["Emalon"] = { AL["Emalon the Storm Watcher"], "Menu" };
+	AtlasLoot_TableNames["Emalon25Man"] = { AL["Emalon the Storm Watcher"], "Menu" };
   -- Ulduar
 	AtlasLoot_TableNames["UlduarLeviathan"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarLeviathan25Man"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };

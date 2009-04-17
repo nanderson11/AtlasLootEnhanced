@@ -58,6 +58,11 @@ AtlasLootBossButtons = {
         "";
         "DrakTharonKeepTrash";
         };
+        
+    TheEyeOfEternity = {
+        "";
+        "Malygos";
+        };
 
     Gundrak = {
         "";
@@ -177,6 +182,11 @@ AtlasLootBossButtons = {
         "";
         "UPTrash";
         };
+        
+    VaultOfArchavon = {
+        "";
+        "Archavon";
+    };
 
     VioletHold = {
         "";

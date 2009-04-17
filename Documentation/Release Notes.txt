@@ -7,6 +7,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v5.04.01
 Emblem of Conquest loot included
+Fixed comparison tooltip bug
+Fixed Vault of Archavon bug
 
 v5.04.00a
 Fixed loot module toc numbers

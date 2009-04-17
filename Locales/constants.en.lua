@@ -310,6 +310,7 @@ if AL then
 	AL["Level 80 PvP Sets"] = true;
 	AL["Hateful Gladiator Sets"] = true;
 	AL["Deadly Gladiator Sets"] = true;
+    AL["Furious Gladiator Sets"] = true;
 	AL["Arena Reward"] = true;
 	AL["Conjured Item"] = true;
 	AL["Used to summon boss"] = true;
@@ -1159,6 +1160,7 @@ if AL then
 	AL["Kronus"] = true; --Who is this npc?
 	AL["Loken"] = true; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
+    AL["Emalon the Storm Watcher"] = true;
 
 	--Zones
 	AL["World Drop"] = true;
