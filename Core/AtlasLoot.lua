@@ -231,6 +231,9 @@ function AtlasLoot_OnVariablesLoaded()
 		if( ATLAS_VERSION ~= ATLASLOOT_CURRENT_ATLAS and ATLAS_VERSION ~= ATLASLOOT_PREVIEW_ATLAS ) then
 			StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
 		end
+        if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS then
+            AtlasLootBossButtons = AtlasLootNewBossButtons;
+        end
 		Hooked_Atlas_Refresh();
 	else
 		--If we are not using Atlas, keep the items frame out of the way
