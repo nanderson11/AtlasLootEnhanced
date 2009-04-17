@@ -1242,13 +1242,19 @@ Querys all valid items on the current loot page.
 ]]
 function AtlasLoot_QueryLootPage()
     i=1;
+    local querytime = 0;
+    local now = 0;
     while i<31 do
-        button = getglobal("AtlasLootItem_"..i);
-        queryitem = button.itemID;
-        if (queryitem) and (queryitem ~= nil) and (queryitem ~= "") and (queryitem ~= 0) and (string.sub(queryitem, 1, 1) ~= "s") then
-            GameTooltip:SetHyperlink("item:"..queryitem..":0:0:0:0:0:0:0");
+        now = GetTime();
+        if now - querytime > 0.03 then
+            querytime = GetTime();        
+            button = getglobal("AtlasLootItem_"..i);
+            queryitem = button.itemID;
+            if (queryitem) and (queryitem ~= nil) and (queryitem ~= "") and (queryitem ~= 0) and (string.sub(queryitem, 1, 1) ~= "s") then
+                GameTooltip:SetHyperlink("item:"..queryitem..":0:0:0:0:0:0:0");
+            end
+            i=i+1;
         end
-        i=i+1;
     end
 end
 
