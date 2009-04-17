@@ -186,6 +186,7 @@ AtlasLootBossButtons = {
     VaultOfArchavon = {
         "";
         "Archavon";
+        "Emalon";
     };
 
     VioletHold = {
