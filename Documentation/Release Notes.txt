@@ -9,6 +9,7 @@ v5.04.01
 Emblem of Conquest loot included
 Fixed comparison tooltip bug
 Fixed Vault of Archavon bug
+Compatible with the new Atlas version 1.14
 The Query Server button is now throttled (small delay between item queries)
 
 v5.04.00a

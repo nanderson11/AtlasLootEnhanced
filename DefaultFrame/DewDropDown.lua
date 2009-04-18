@@ -890,10 +890,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "AhnkahetVolazj" },
 		{ "", "AhnkahetTrash" },
 	},
-    ["Archavon"] = {
-        { "", "Archavon" },
+	["Archavon"] = {
+		{ "", "VoAArchavon1" },
 		{ "", "Emalon" },
-    },
+	},
 	["AzjolNerub"] = {
 		{ "", "AzjolNerubKrikthir" },
 		{ "", "AzjolNerubHadronox" },
@@ -1368,6 +1368,7 @@ AtlasLoot_DewDropDown_SubTables = {
 	["MountsLichKing"] = {
 		{ AtlasLoot_TableNames["Mounts31"][1], "Mounts31" },
 		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts32" },
+		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts33" },
 	},
 	["WSGRewards"] = {
 		{ AL["Misc. Rewards"], "WSGMisc" },

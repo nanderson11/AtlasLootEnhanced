@@ -50,6 +50,8 @@ AtlasLoot_TableNames = {};
 --- WotLK Instances ---
 -----------------------
 
+  -- Keys
+	AtlasLoot_TableNames["WrathKeys"] = { "Keys", "AtlasLootWotLK" };
   -- Utgarde Keep
 	AtlasLoot_TableNames["UtgardeKeepKeleseth"] = { BabbleBoss["Prince Keleseth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UtgardeKeepSkarvald"] = { BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"], "AtlasLootWotLK" };
@@ -126,6 +128,17 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["OcuCloudstrider"] = { BabbleBoss["Varos Cloudstrider"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuEregos"] = { BabbleBoss["Ley-Guardian Eregos"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["OcuTrash"] = { AL["Trash Mobs"], "AtlasLootWotLK" };
+  -- Vault of Archavon
+	AtlasLoot_TableNames["VoAArchavon1"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon2"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon3"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon4"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon5"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon125Man"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon225Man"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon325Man"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon425Man"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VoAArchavon525Man"] = { BabbleBoss["Archavon the Stone Watcher"], "AtlasLootWotLK" };
   -- Naxxramas Level 80
 	AtlasLoot_TableNames["Naxx80Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
@@ -170,7 +183,7 @@ AtlasLoot_TableNames = {};
   -- Vault of Archavon
 	AtlasLoot_TableNames["Archavon"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
 	AtlasLoot_TableNames["Archavon25Man"] = { BabbleBoss["Archavon the Stone Watcher"], "Menu" };
-    AtlasLoot_TableNames["Emalon"] = { AL["Emalon the Storm Watcher"], "Menu" };
+	AtlasLoot_TableNames["Emalon"] = { AL["Emalon the Storm Watcher"], "Menu" };
 	AtlasLoot_TableNames["Emalon25Man"] = { AL["Emalon the Storm Watcher"], "Menu" };
   -- Ulduar
 	AtlasLoot_TableNames["UlduarLeviathan"] = { BabbleBoss["Flame Leviathan"], "AtlasLootWotLK" };
@@ -889,6 +902,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Mounts25"] = { AL["Mounts"].." - The Burning Crusade", "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Mounts31"] = { AL["Mounts"].." - Wrath of the Lich King", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Mounts32"] = { AL["Mounts"].." - Wrath of the Lich King", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Mounts33"] = { AL["Mounts"].." - Wrath of the Lich King", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Tabards1"] = { AL["Tabards"].." - Classic WoW", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Tabards2"] = { AL["Tabards"].." - The Burning Crusade", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Tabards3"] = { AL["Tabards"].." - Wrath of the Lich King", "AtlasLootWotLK" };

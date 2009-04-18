@@ -552,6 +552,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#f6#", BabbleFaction["Cenarion Expedition"]);
     text = gsub(text, "#f7#", BabbleFaction["The Sons of Hodir"]);
     text = gsub(text, "#f8#", BabbleFaction["The Wyrmrest Accord"]);
+    text = gsub(text, "#f9#", AL["Argent Tournament"]);
 
     -- Blacksmithing Crafted Sets
     text = gsub(text, "#craftbp1#", AL["Imperial Plate"]);

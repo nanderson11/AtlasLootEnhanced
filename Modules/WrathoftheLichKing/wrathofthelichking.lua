@@ -4,6 +4,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 -- Index
 --- Dungeons & Raids
+---- Keys
 ---- Utgarde Keep
 ---- The Nexus
 ---- Azjol-Nerub
@@ -16,6 +17,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- Caverns of Time: Old Stratholme
 ---- Utgarde Pinnacle
 ---- The Oculus
+---- Vault of Archavon
 ---- Naxxramas
 ---- Obsidian Sanctum
 ---- The Eye of Eternity
@@ -57,6 +59,18 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	------------------------
 	--- Dungeons & Raids ---
 	------------------------
+
+		------------
+		--- Keys ---
+		------------
+
+	AtlasLoot_Data["WrathKeys"] = {
+		{ 1, 44582, "", "=q4=Key to the Focusing Iris", "=ds=#e9#"};
+		{ 2, 44581, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#e9#"};
+		{ 3, 45796, "", "=q1=Celestial Planetarium Key", "=ds=#e9#"};
+		{ 4, 45798, "", "=q1=Heroic Celestial Planetarium Key", "=ds=#e9#"};
+		{ 5, 42482, "", "=q1=The Violet Hold Key", "=ds=#e9#"};
+	};
 
 		--------------------
 		--- Utgarde Keep ---
@@ -1085,6 +1099,271 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37290, "", "=q3=Dragon Prow Amulet", "=ds=#s2#"};
 		{ 20, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#"};
 		Prev = "OcuEregos";
+	};
+		-------------------------
+		--- Vault of Archavon ---
+		-------------------------
+
+	AtlasLoot_Data["VoAArchavon1"] = {
+		{ 1, 39492, "", "=q4=Heroes' Frostfire Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 2, 39495, "", "=q4=Heroes' Frostfire Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 3, 39493, "", "=q4=Heroes' Frostfire Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 5, 39515, "", "=q4=Heroes' Robe of Faith", "=ds=#s5#, #a1#", "", ""};
+		{ 6, 39519, "", "=q4=Heroes' Gloves of Faith", "=ds=#s9#, #a1#", "", ""};
+		{ 7, 39517, "", "=q4=Heroes' Leggings of Faith", "=ds=#s11#, #a1#", "", ""};
+		{ 9, 39523, "", "=q4=Heroes' Raiments of Faith", "=ds=#s5#, #a1#", "", ""};
+		{ 10, 39530, "", "=q4=Heroes' Handwraps of Faith", "=ds=#s9#, #a1#", "", ""};
+		{ 11, 39528, "", "=q4=Heroes' Pants of Faith", "=ds=#s11#, #a1#", "", ""};
+		{ 13, 39497, "", "=q4=Heroes' Plagueheart Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 14, 39500, "", "=q4=Heroes' Plagueheart Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 15, 39498, "", "=q4=Heroes' Plagueheart Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 16, 41950, "", "=q4=Hateful Gladiator's Silk Raiment", "=ds=#s5#, #a1#", "", ""};
+		{ 17, 41969, "", "=q4=Hateful Gladiator's Silk Handguards", "=ds=#s9#, #a1#", "", ""};
+		{ 18, 41957, "", "=q4=Hateful Gladiator's Silk Trousers", "=ds=#s11#, #a1#", "", ""};
+		{ 20, 41857, "", "=q4=Hateful Gladiator's Mooncloth Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 21, 41872, "", "=q4=Hateful Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 22, 41862, "", "=q4=Hateful Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 24, 41919, "", "=q4=Hateful Gladiator's Satin Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 25, 41938, "", "=q4=Hateful Gladiator's Satin Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 26, 41925, "", "=q4=Hateful Gladiator's Satin Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 28, 42001, "", "=q4=Hateful Gladiator's Felweave Raiment", "=ds=#s5#, #a1#", "", ""};
+		{ 29, 42015, "", "=q4=Hateful Gladiator's Felweave Handguards", "=ds=#s9#, #a1#", "", ""};
+		{ 30, 42003, "", "=q4=Hateful Gladiator's Felweave Trousers", "=ds=#s11#, #a1#", "", ""};
+		Next = "VoAArchavon2";
+	};
+
+	AtlasLoot_Data["VoAArchavon2"] = {
+		{ 1, 39547, "", "=q4=Heroes' Dreamwalker Vestments", "=ds=#s5#, #a2#", "", ""};
+		{ 2, 39544, "", "=q4=Heroes' Dreamwalker Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 3, 39546, "", "=q4=Heroes' Dreamwalker Trousers", "=ds=#s11#, #a2#", "", ""};
+		{ 5, 39554, "", "=q4=Heroes' Dreamwalker Raiments", "=ds=#s5#, #a2#", "", ""};
+		{ 6, 39557, "", "=q4=Heroes' Dreamwalker Handgrips", "=ds=#s9#, #a2#", "", ""};
+		{ 7, 39555, "", "=q4=Heroes' Dreamwalker Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 9, 39538, "", "=q4=Heroes' Dreamwalker Robe", "=ds=#s5#, #a2#", "", ""};
+		{ 10, 39543, "", "=q4=Heroes' Dreamwalker Handguards", "=ds=#s9#, #a2#", "", ""};
+		{ 11, 39539, "", "=q4=Heroes' Dreamwalker Leggings", "=ds=#s11#, #a2#", "", ""};
+		{ 13, 39558, "", "=q4=Heroes' Bonescythe Breastplate", "=ds=#s5#, #a2#", "", ""};
+		{ 14, 39560, "", "=q4=Heroes' Bonescythe Gauntlets", "=ds=#s9#, #a2#", "", ""};
+		{ 15, 39564, "", "=q4=Heroes' Bonescythe Legplates", "=ds=#s11#, #a2#", "", ""};
+		{ 16, 41314, "", "=q4=Hateful Gladiator's Wyrmhide Robes", "=ds=#s5#, #a2#", "", ""};
+		{ 17, 41291, "", "=q4=Hateful Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 18, 41302, "", "=q4=Hateful Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 20, 41659, "", "=q4=Hateful Gladiator's Dragonhide Robes", "=ds=#s5#, #a2#", "", ""};
+		{ 21, 41771, "", "=q4=Hateful Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 22, 41665, "", "=q4=Hateful Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 24, 41308, "", "=q4=Hateful Gladiator's Kodohide Robes", "=ds=#s5#, #a2#", "", ""};
+		{ 25, 41284, "", "=q4=Hateful Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 26, 41296, "", "=q4=Hateful Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 28, 41648, "", "=q4=Hateful Gladiator's Leather Tunic", "=ds=#s5#, #a2#", "", ""};
+		{ 29, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 30, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=#s11#, #a2#", "", ""};
+		Prev = "VoAArchavon1";
+		Next = "VoAArchavon3";
+	};
+
+	AtlasLoot_Data["VoAArchavon3"] = {
+		{ 1, 39579, "", "=q4=Heroes' Crypstalker Tunic", "=ds=#s5#, #a3#", "", ""};
+		{ 2, 39582, "", "=q4=Heroes' Crypstalker Handguards", "=ds=#s9#, #a3#", "", ""};
+		{ 3, 39580, "", "=q4=Heroes' Crypstalker Legguards", "=ds=#s11#, #a3#", "", ""};
+		{ 5, 39592, "", "=q4=Heroes' Earthshatter Hauberk", "=ds=#s5#, #a3#", "", ""};
+		{ 6, 39593, "", "=q4=Heroes' Earthshatter Gloves", "=ds=#s9#, #a3#", "", ""};
+		{ 7, 39595, "", "=q4=Heroes' Earthshatter Kilt", "=ds=#s11#, #a3#", "", ""};
+		{ 9, 39597, "", "=q4=Heroes' Earthshatter Chestguard", "=ds=#s5#, #a3#", "", ""};
+		{ 10, 39601, "", "=q4=Heroes' Earthshatter Grips", "=ds=#s9#, #a3#", "", ""};
+		{ 11, 39603, "", "=q4=Heroes' Earthshatter War-Kilt", "=ds=#s11#, #a3#", "", ""};
+		{ 13, 39588, "", "=q4=Heroes' Earthshatter Tunic", "=ds=#s5#, #a3#", "", ""};
+		{ 14, 39591, "", "=q4=Heroes' Earthshatter Handguards", "=ds=#s9#, #a3#", "", ""};
+		{ 15, 39589, "", "=q4=Heroes' Earthshatter Legguards", "=ds=#s11#, #a3#", "", ""};
+		{ 16, 41085, "", "=q4=Hateful Gladiator's Chain Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 17, 41141, "", "=q4=Hateful Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 18, 41203, "", "=q4=Hateful Gladiator's Chain Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 20, 40989, "", "=q4=Hateful Gladiator's Mail Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 21, 41005, "", "=q4=Hateful Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 22, 41031, "", "=q4=Hateful Gladiator's Mail Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 24, 41079, "", "=q4=Hateful Gladiator's Linked Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 25, 41135, "", "=q4=Hateful Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 26, 41162, "", "=q4=Hateful Gladiator's Linked Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 28, 40988, "", "=q4=Hateful Gladiator's Ringmail Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 29, 40999, "", "=q4=Hateful Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 30, 41025, "", "=q4=Hateful Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#", "", ""};
+		Prev = "VoAArchavon2";
+		Next = "VoAArchavon4";
+	};
+
+	AtlasLoot_Data["VoAArchavon4"] = {
+		{ 1, 39617, "", "=q4=Heroes' Scourgeborne Battleplate", "=ds=#s5#, #a4#", "", ""};
+		{ 2, 39618, "", "=q4=Heroes' Scourgeborne Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 3, 39620, "", "=q4=Heroes' Scourgeborne Legplates", "=ds=#s11#, #a4#", "", ""};
+ 		{ 5, 39623, "", "=q4=Heroes' Scourgeborne Chestguard", "=ds=#s5#, #a4#", "", ""};
+		{ 6, 39624, "", "=q4=Heroes' Scourgeborne Handguards", "=ds=#s9#, #a4#", "", ""};
+		{ 7, 39626, "", "=q4=Heroes' Scourgeborne Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 9, 39629, "", "=q4=Heroes' Redemption Tunic", "=ds=#s5#, #a4#", "", ""};
+		{ 10, 39632, "", "=q4=Heroes' Redemption Gloves", "=ds=#s9#, #a4#", "", ""};
+		{ 11, 39630, "", "=q4=Heroes' Redemption Greaves", "=ds=#s11#, #a4#", "", ""};
+		{ 13, 39633, "", "=q4=Heroes' Redemption Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 14, 39634, "", "=q4=Heroes' Redemption Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 15, 39636, "", "=q4=Heroes' Redemption Legplates", "=ds=#s11#, #a4#", "", ""};
+		{ 16, 40781, "", "=q4=Hateful Gladiator's Dreadplate Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 17, 40803, "", "=q4=Hateful Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 18, 40841, "", "=q4=Hateful Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 24, 40925, "", "=q4=Hateful Gladiator's Ornamented Chestguard", "=ds=#s5#, #a4#", "", ""};
+		{ 25, 40904, "", "=q4=Hateful Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#", "", ""};
+		{ 26, 40937, "", "=q4=Hateful Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#", "", ""}; 
+		{ 28, 40782, "", "=q4=Hateful Gladiator's Scaled Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 29, 40802, "", "=q4=Hateful Gladiator's Scaled Gauntlets", "=ds=#s11#, #a4#", "", ""};
+		{ 30, 40842, "", "=q4=Hateful Gladiator's Scaled Legguards", "=ds=#s11#, #a4#", "", ""};
+		Prev = "VoAArchavon3";
+		Next = "VoAArchavon5";
+	};
+
+	AtlasLoot_Data["VoAArchavon5"] = {
+		{ 1, 39638, "", "=q4=Heroes' Redemption Breastplate", "=ds=#s5#, #a4#", "", ""};
+		{ 2, 39639, "", "=q4=Heroes' Redemption Handguards", "=ds=#s9#, #a4#", "", ""};
+		{ 3, 39641, "", "=q4=Heroes' Redemption Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 5, 39606, "", "=q4=Heroes' Dreadnaught Battleplate", "=ds=#s5#, #a4#", "", ""};
+		{ 6, 39609, "", "=q4=Heroes' Dreadnaught Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 7, 39607, "", "=q4=Heroes' Dreadnaught Legplates", "=ds=#s11#, #a4#", "", ""};
+		{ 9, 39611, "", "=q4=Heroes' Dreadnaught Breastplate", "=ds=#s5#, #a4#", "", ""};
+		{ 10, 39622, "", "=q4=Heroes' Dreadnaught Handguards", "=ds=#s9#, #a4#", "", ""};
+		{ 11, 39612, "", "=q4=Heroes' Dreadnaught Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 16, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 17, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
+		{ 18, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
+		{ 20, 40783, "", "=q4=Hateful Gladiator's Plate Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 21, 40801, "", "=q4=Hateful Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 22, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=#s11#, #a4#", "", ""};
+		Prev = "VoAArchavon4";
+	};
+
+	AtlasLoot_Data["VoAArchavon125Man"] = {
+		{ 1, 40418, "", "=q4=Valorous Frostfire Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 2, 40415, "", "=q4=Valorous Frostfire Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 3, 40417, "", "=q4=Valorous Frostfire Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 5, 40449, "", "=q4=Valorous Robe of Faith", "=ds=#s5#, #a1#", "", ""};
+		{ 6, 40445, "", "=q4=Valorous Gloves of Faith", "=ds=#s9#, #a1#", "", ""};
+		{ 7, 40448, "", "=q4=Valorous Leggings of Faith", "=ds=#s11#, #a1#", "", ""};
+		{ 9, 40458, "", "=q4=Valorous Raiments of Faith", "=ds=#s5#, #a1#", "", ""};
+		{ 10, 40454, "", "=q4=Valorous Handwraps of Faith", "=ds=#s9#, #a1#", "", ""};
+		{ 11, 40457, "", "=q4=Valorous Pants of Faith", "=ds=#s11#, #a1#", "", ""};
+		{ 13, 40423, "", "=q4=Valorous Plagueheart Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 14, 40420, "", "=q4=Valorous Plagueheart Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 15, 40422, "", "=q4=Valorous Plagueheart Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 16, 41951, "", "=q4=Deadly Gladiator's Silk Raiment", "=ds=#s5#, #a1#", "", ""};
+		{ 17, 41970, "", "=q4=Deadly Gladiator's Silk Handguards", "=ds=#s9#, #a1#", "", ""};
+		{ 18, 41958, "", "=q4=Deadly Gladiator's Silk Trousers", "=ds=#s11#, #a1#", "", ""};
+		{ 20, 41858, "", "=q4=Deadly Gladiator's Mooncloth Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 21, 41873, "", "=q4=Deadly Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 22, 41863, "", "=q4=Deadly Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 24, 41920, "", "=q4=Deadly Gladiator's Satin Robe", "=ds=#s5#, #a1#", "", ""};
+		{ 25, 41939, "", "=q4=Deadly Gladiator's Satin Gloves", "=ds=#s9#, #a1#", "", ""};
+		{ 26, 41926, "", "=q4=Deadly Gladiator's Satin Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 28, 41997, "", "=q4=Deadly Gladiator's Felweave Raiment", "=ds=#s5#, #a1#", "", ""};
+		{ 29, 42016, "", "=q4=Deadly Gladiator's Felweave Handguards", "=ds=#s9#, #a1#", "", ""};
+		{ 30, 42004, "", "=q4=Deadly Gladiator's Felweave Trousers", "=ds=#s11#, #a1#", "", ""};
+		Next = "VoAArchavon225Man";
+	};
+
+	AtlasLoot_Data["VoAArchavon225Man"] = {
+		{ 1, 40469, "", "=q4=Valorous Dreamwalker Vestments", "=ds=#s5#, #a2#", "", ""};
+		{ 2, 40466, "", "=q4=Valorous Dreamwalker Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 3, 40468, "", "=q4=Valorous Dreamwalker Trousers", "=ds=#s11#, #a2#", "", ""};
+		{ 5, 40471, "", "=q4=Valorous Dreamwalker Raiments", "=ds=#s5#, #a2#", "", ""};
+		{ 6, 40472, "", "=q4=Valorous Dreamwalker Handgrips", "=ds=#s9#, #a2#", "", ""};
+		{ 7, 40493, "", "=q4=Valorous Dreamwalker Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 9, 40463, "", "=q4=Valorous Dreamwalker Robe", "=ds=#s5#, #a2#", "", ""};
+		{ 10, 40460, "", "=q4=Valorous Dreamwalker Handguards", "=ds=#s9#, #a2#", "", ""};
+		{ 11, 40462, "", "=q4=Valorous Dreamwalker Leggings", "=ds=#s11#, #a2#", "", ""};
+		{ 13, 40495, "", "=q4=Valorous Bonescythe Breastplate", "=ds=#s5#, #a2#", "", ""};
+		{ 14, 40496, "", "=q4=Valorous Bonescythe Gauntlets", "=ds=#s9#, #a2#", "", ""};
+		{ 15, 40500, "", "=q4=Valorous Bonescythe Legplates", "=ds=#s11#, #a2#", "", ""};
+		{ 16, 41315, "", "=q4=Deadly Gladiator's Wyrmhide Robes", "=ds=#s5#, #a2#", "", ""};
+		{ 17, 41292, "", "=q4=Deadly Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 18, 41303, "", "=q4=Deadly Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 20, 41660, "", "=q4=Deadly Gladiator's Dragonhide Robes", "=ds=#s5#, #a2#", "", ""};
+		{ 21, 41772, "", "=q4=Deadly Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 22, 41666, "", "=q4=Deadly Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 24, 41309, "", "=q4=Deadly Gladiator's Kodohide Robes", "=ds=#s5#, #a2#", "", ""};
+		{ 25, 41286, "", "=q4=Deadly Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 26, 41297, "", "=q4=Deadly Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#", "", ""};
+		{ 28, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=#s5#, #a2#", "", ""};
+		{ 29, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=#s9#, #a2#", "", ""};
+		{ 30, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=#s11#, #a2#", "", ""};
+		Prev = "VoAArchavon125Man";
+		Next = "VoAArchavon325Man";
+	};
+
+	AtlasLoot_Data["VoAArchavon325Man"] = {
+		{ 1, 40503, "", "=q4=Valorous Crypstalker Tunic", "=ds=#s5#, #a3#", "", ""};
+		{ 2, 40504, "", "=q4=Valorous Crypstalker Handguards", "=ds=#s9#, #a3#", "", ""};
+		{ 3, 40506, "", "=q4=Valorous Crypstalker Legguards", "=ds=#s11#, #a3#", "", ""};
+		{ 5, 40514, "", "=q4=Valorous Earthshatter Hauberk", "=ds=#s5#, #a3#", "", ""};
+		{ 6, 40515, "", "=q4=Valorous Earthshatter Gloves", "=ds=#s9#, #a3#", "", ""};
+		{ 7, 40517, "", "=q4=Valorous Earthshatter Kilt", "=ds=#s11#, #a3#", "", ""};
+		{ 9, 40523, "", "=q4=Valorous Earthshatter Chestguard", "=ds=#s5#, #a3#", "", ""};
+		{ 10, 40520, "", "=q4=Valorous Earthshatter Grips", "=ds=#s9#, #a3#", "", ""};
+		{ 11, 40522, "", "=q4=Valorous Earthshatter War-Kilt", "=ds=#s11#, #a3#", "", ""};
+		{ 13, 40508, "", "=q4=Valorous Earthshatter Tunic", "=ds=#s5#, #a3#", "", ""};
+		{ 14, 40509, "", "=q4=Valorous Earthshatter Handguards", "=ds=#s9#, #a3#", "", ""};
+		{ 15, 40512, "", "=q4=Valorous Earthshatter Legguards", "=ds=#s11#, #a3#", "", ""};
+		{ 16, 41086, "", "=q4=Deadly Gladiator's Chain Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 17, 41142, "", "=q4=Deadly Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 18, 41204, "", "=q4=Deadly Gladiator's Chain Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 20, 40991, "", "=q4=Deadly Gladiator's Mail Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 21, 41006, "", "=q4=Deadly Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 22, 41032, "", "=q4=Deadly Gladiator's Mail Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 24, 41080, "", "=q4=Deadly Gladiator's Linked Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 25, 41136, "", "=q4=Deadly Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 26, 41198, "", "=q4=Deadly Gladiator's Linked Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 28, 40990, "", "=q4=Deadly Gladiator's Ringmail Armor", "=ds=#s5#, #a3#", "", ""};
+		{ 29, 41000, "", "=q4=Deadly Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 30, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#", "", ""};
+		Prev = "VoAArchavon2";
+		Next = "VoAArchavon4";
+	};
+
+	AtlasLoot_Data["VoAArchavon425Man"] = {
+		{ 1, 40550, "", "=q4=Valorous Scourgeborne Battleplate", "=ds=#s5#, #a4#", "", ""};
+		{ 2, 40552, "", "=q4=Valorous Scourgeborne Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 3, 40556, "", "=q4=Valorous Scourgeborne Legplates", "=ds=#s11#, #a4#", "", ""};
+		{ 5, 40559, "", "=q4=Valorous Scourgeborne Chestguard", "=ds=#s5#, #a4#", "", ""};
+		{ 6, 40563, "", "=q4=Valorous Scourgeborne Handguards", "=ds=#s9#, #a4#", "", ""};
+		{ 7, 40567, "", "=q4=Valorous Scourgeborne Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 9, 40569, "", "=q4=Valorous Redemption Tunic", "=ds=#s5#, #a4#", "", ""};
+		{ 10, 40570, "", "=q4=Valorous Redemption Gloves", "=ds=#s9#, #a4#", "", ""};
+		{ 11, 40572, "", "=q4=Valorous Redemption Greaves", "=ds=#s11#, #a4#", "", ""};
+		{ 13, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 14, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 15, 40577, "", "=q4=Valorous Redemption Legplates", "=ds=#s11#, #a4#", "", ""};
+		{ 16, 40784, "", "=q4=Deadly Gladiator's Dreadplate Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 17, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 18, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 24, 40785, "", "=q4=Deadly Gladiator's Scaled Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 25, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 26, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 28, 40905, "", "=q4=Deadly Gladiator's Ornamented Chestguard", "=ds=#s5#, #a4#", "", ""};
+		{ 29, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#", "", ""};
+		{ 30, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#", "", ""};
+		Prev = "VoAArchavon325Man";
+		Next = "VoAArchavon525Man";
+	};
+
+	AtlasLoot_Data["VoAArchavon525Man"] = {
+		{ 1, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds=#s5#, #a4#", "", ""};
+		{ 2, 40580, "", "=q4=Valorous Redemption Handguards", "=ds=#s9#, #a4#", "", ""};
+		{ 3, 40583, "", "=q4=Valorous Redemption Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 5, 40525, "", "=q4=Valorous Dreadnaught Battleplate", "=ds=#s5#, #a4#", "", ""};
+		{ 6, 40527, "", "=q4=Valorous Dreadnaught Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 7, 40529, "", "=q4=Valorous Dreadnaught Legplates", "=ds=#s11#, #a4#", "", ""};
+		{ 9, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds=#s5#, #a4#", "", ""};
+		{ 10, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds=#s9#, #a4#", "", ""};
+		{ 11, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds=#s11#, #a4#", "", ""};
+		{ 16, 40753, "", "=q4=Emblem of Valor", "=ds=#e15#", "", "100%"};
+		{ 17, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
+		{ 18, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
+		{ 20, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=#s5#, #a4#", "", ""};
+		{ 21, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#", "", ""};
+		{ 22, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=#s11#, #a4#", "", ""};
+		Prev = "VoAArchavon425Man";
 	};
 
 		-----------------
@@ -3911,23 +4190,23 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#, =q1=#m24#"};
 		{ 7, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#, =q1=#m24#"};
 		{ 8, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#, =q1=#m24#"};
-		{ 9, 43348, "", "=q4=Tabard of the Explorer", "=ds=#m34# #m33#"};
-		{ 10, 40643, "", "=q4=Tabard of the Achiever", "=ds=#m34# #m33#"};
+		{ 9, 40643, "", "=q4=Tabard of the Achiever", "=ds=#m34# #m33#"};
+		{ 10, 43348, "", "=q4=Tabard of the Explorer", "=ds=#m34# #m33#"};
 		{ 11, 43300, "", "=q4=Loremaster's Colors", "=ds=#m34# #m33#"};
 		{ 16, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
 		{ 17, 43157, "", "=q1=Tabard of the Kirin Tor", "=ds=#s7#"};
 		{ 18, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
 		{ 19, 43156, "", "=q1=Tabard of the Wyrmrest Accord", "=ds=#s7#"};
-		{ 21, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
-		{ 22, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
-		{ 23, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
-		{ 24, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
-		{ 25, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
-		{ 26, 0, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
-		{ 27, 0, "", "=q1=Undercity Tabard", "=ds=#s7#"};
-		{ 28, 0, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
-		{ 29, 0, "", "=q1=Sen'Jin Tabard", "=ds=#s7#"};
-		{ 30, 0, "", "=q1=Silvermoon Tabard", "=ds=#s7#"};
+		{ 21, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 22, 45580, "", "=q1=Exodar Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 23, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 24, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 25, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 26, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7# =ec1=#m6#"};
+		{ 27, 45582, "", "=q1=Sen'Jin Tabard", "=ds=#s7# =ec1=#m6#"};
+		{ 28, 45585, "", "=q1=Silvermoon Tabard", "=ds=#s7# =ec1=#m6#"};
+		{ 29, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7# =ec1=#m6#"};
+		{ 30, 45583, "", "=q1=Undercity Tabard", "=ds=#s7# =ec1=#m6#"};
 		Next = "Tabards2";
 		Back = "SETMENU";
 	};
@@ -4190,6 +4469,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 0, "INV_Box_01", "=q6=#j34#", ""};
 		{ 12, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12# =ec1=#m7#"};
 		{ 13, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12# =ec1=#m6#"};
+		{ 14, 0, "", "=q4=Deadly Gladiator's Frostwyrm", "=q2=#m25#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j35#", ""};
 		{ 17, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2=#n151#, =q1=#j47# #z35#", ""};
 		{ 18, 43951, "", "=q4=Reins of the Bronze Drake", "=q2=#n152#, =q1=#j47# #z36#", ""};
@@ -4199,7 +4479,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 43954, "", "=q4=Reins of the Twilight Drake", "=q2=#n153#, =q1=#j38# #z38# #j46#", ""};
 		{ 23, 43953, "", "=q4=Reins of the Blue Drake", "=q2=#n154#, =q1=#j37# #z39#", ""};
 		{ 24, 43952, "", "=q4=Reins of the Azure Drake", "=q2=#n154#, =q1=#j38# #z39#", ""};
-		{ 25, 43962, "", "=q4=Reins of the White Polar Bear", "=q2=#m4#: #x39#", ""};
+		{ 25, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
+		{ 26, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
+		{ 27, 43962, "", "=q4=Reins of the White Polar Bear", "=q2=#m4#: #x39#", ""};
+		{ 28, 46109, "", "=q3=Sea Turtle", "=q2=", ""};
 		Next = "Mounts32";
 		Back = "MOUNTMENU";
 	};
@@ -4208,27 +4491,46 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 0, "INV_Box_01", "=q6=#j32#", ""};
 		{ 2, 44413, "", "=q4=Mekgineer's Chopper", "=q2=#p5# =ec1=#m7#"};
 		{ 3, 41508, "", "=q4=Mechano-hog", "=q2=#p5# =ec1=#m6#"};
-		{ 4, 39303, "", "=q4=Swift Flying Carpet", "=q2=#p8#"};
-		{ 5, 44558, "", "=q4=Magnificent Flying Carpet", "=q2=#p8#"};
-		{ 6, 44557, "", "=q4=Swift Ebonweave Carpet", "=q2=#p8#"};
-		{ 7, 44555, "", "=q4=Swift Mooncloth Carpet", "=q2=#p8#"};
-		{ 8, 44556, "", "=q4=Swift Spellfire Carpet", "=q2=#p8#"};
-		{ 9, 44554, "", "=q3=Flying Carpet", "=q2=#p8#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j49#", ""};
-		{ 17, 43958, "", "=q4=Reins of the Ice Mammoth", "=ec1=#m7# =q2=#f7#"};
-		{ 18, 44080, "", "=q4=Reins of the Ice Mammoth", "=ec1=#m6# =q2=#f7#"};
-		{ 19, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m7# =q2=#f7#"};
-		{ 20, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m6# =q2=#f7#"};
-		{ 21, 43955, "", "=q4=Reins of the Red Drake", "=q2=#f8#"};
-		{ 23, 0, "INV_Box_01", "=q6=#m34# #m33#", ""};
-		{ 24, 44223, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m7#"};
-		{ 25, 44224, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m6#"};
-		{ 26, "s59976", "Ability_Mount_Drake_Proto", "=q4=Reins of the Black Proto-Drake", "=ds=#e12#"};
-		{ 27, "44175", "", "=q4=Reins of the Plagued Proto-Drake", "=ds=#e12#"};
-		{ 28, "44160", "", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
-		{ 29, "s60024", "Ability_Mount_Drake_Proto", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
-		{ 30, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
+		{ 4, 44558, "", "=q4=Magnificent Flying Carpet", "=q2=#p8#"};
+		{ 5, 44554, "", "=q3=Flying Carpet", "=q2=#p8#"};
+		{ 7, 0, "INV_Box_01", "=q6=#j49#", ""};
+		{ 8, 43958, "", "=q4=Reins of the Ice Mammoth", "=ec1=#m7# =q2=#f7#"};
+		{ 9, 44080, "", "=q4=Reins of the Ice Mammoth", "=ec1=#m6# =q2=#f7#"};
+		{ 10, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m7# =q2=#f7#"};
+		{ 11, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ec1=#m6# =q2=#f7#"};
+		{ 12, 43955, "", "=q4=Reins of the Red Drake", "=q2=#f8#"};
+		{ 16, 0, "INV_Box_01", "=q6=#m34# #m33#", ""};
+		{ 17, 44223, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m7#"};
+		{ 18, 44224, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m6#"};
+		{ 19, 44843, "", "=q4=Blue Dragonhawk Mount", "=ds=#e12# =ec1=#m7#"};
+		{ 20, 0, "", "=q4=Red Dragonhawk Mount", "=ds=#e12# =ec1=#m6#"};
+		{ 21, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
+		{ 22, 44164, "", "=q4=Reins of the Black Proto-Drake", "=ds=#e12#"};
+		{ 23, 0, "", "=q4=Reins of the Ironbound Proto-Drake", "=ds=#e12#"};
+		{ 24, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "=ds=#e12#"};
+		{ 25, 44160, "", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
+		{ 26, 0, "", "=q4=Reins of the Rusted Proto-Drake", "=ds=#e12#"};
+		{ 27, "s60024", "Ability_Mount_Drake_Proto", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
 		Prev = "Mounts31";
+		Next = "Mounts33";
+		Back = "MOUNTMENU";
+	};
+
+	AtlasLoot_Data["Mounts33"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#f9# #j30#", "=ec1=#m7#"};
+		{ 2, 45590, "", "=q4=Great Azuremyst Elekk", "=ds=#e12#"};
+		{ 3, 45591, "", "=q4=Swift Darnassian Mistsaber", "=ds=#e12#"};
+		{ 4, 45125, "", "=q4=Swift Elwynn Steed", "=ds=#e12#"};
+		{ 5, 45586, "", "=q4=Swift Ironforge Ram", "=ds=#e12#"};
+		{ 6, 45589, "", "=q4=Turbostrider", "=ds=#e12#"};
+		{ 8, 45725, "", "=q4=Argent Hippogryph", "=ds=#e12#"};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#f9# #j30#", "=ec1=#m6#"};
+		{ 17, 45592, "", "=q4=Great Mulgore Kodo", "=ds=#e12#"};
+		{ 18, 45593, "", "=q4=Swift Darkspear Raptor", "=ds=#e12#"};
+		{ 19, 45597, "", "=q4=Swift Forsaken Warhorse", "=ds=#e12#"};
+		{ 20, 45595, "", "=q4=Swift Orgrimmar Wolf", "=ds=#e12#"};
+		{ 21, 45596, "", "=q4=Swift Silvermoon Hawkstrider", "=ds=#e12#"};
+		Prev = "Mounts32";
 		Back = "MOUNTMENU";
 	};
 

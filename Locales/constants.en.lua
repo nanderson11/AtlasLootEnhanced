@@ -1128,7 +1128,7 @@ if AL then
 	AL["Drohn's Distillery"] = true;
 	AL["T'chali's Voodoo Brewery"] = true;
 	AL["Scarshield Quartermaster"] = true;
-	AL["Overmaster Pyron"] = true;
+	AL["Overmaster Pyron"] = true; --Is in BabbleBoss
 	AL["Father Flame"] = true;
 	AL["Thomas Yance"] = true;
 	AL["Knot Thimblejack"] = true;
@@ -1156,11 +1156,11 @@ if AL then
 	AL["Commander Stoutbeard"] = true;  --Is in BabbleBoss
 	AL["Bloodstone Annihilator"] = true;  --Who is this npc?
 	AL["Rescue Mission"] = true;
-	AL["Bjarngrim"] = true; 
+	AL["Bjarngrim"] = true; --Is in BabbleBoss
 	AL["Kronus"] = true; --Who is this npc?
 	AL["Loken"] = true; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
-    AL["Emalon the Storm Watcher"] = true;
+	AL["Emalon the Storm Watcher"] = true; --Is in BabbleBoss
 
 	--Zones
 	AL["World Drop"] = true;

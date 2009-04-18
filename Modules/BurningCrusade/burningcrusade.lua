@@ -5622,14 +5622,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--------------
 
 	AtlasLoot_Data["Mounts21"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Exodar"].." #j30#", "=ec1=#m7#"};
+		{ 1, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"].." #j30#", "=ec1=#m7#"};
 		{ 2, 29745, "", "=q4=Great Blue Elekk", "=ds=#e12#"};
 		{ 3, 29746, "", "=q4=Great Green Elekk", "=ds=#e12#"};
 		{ 4, 29747, "", "=q4=Great Purple Elekk", "=ds=#e12#"};
 		{ 5, 28481, "", "=q3=Brown Elekk", "=ds=#e12#"};
 		{ 6, 29744, "", "=q3=Gray Elekk", "=ds=#e12#"};
 		{ 7, 29743, "", "=q3=Purple Elekk", "=ds=#e12#"};
-		{ 16, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["Silvermoon City"].." #j30#", "=ec1=#m6#"};
+		{ 16, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"].." #j30#", "=ec1=#m6#"};
 		{ 17, 29223, "", "=q4=Swift Green Hawkstrider", "=ds=#e12#"};
 		{ 18, 28936, "", "=q4=Swift Pink Hawkstrider", "=ds=#e12#"};
 		{ 19, 29224, "", "=q4=Swift Purple Hawkstrider", "=ds=#e12#"};

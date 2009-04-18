@@ -58,9 +58,9 @@ AtlasLootNewBossButtons = {
         "";
         "DrakTharonKeepTrash";
         };
-        
+
     TheEyeOfEternity = {
-        "";
+        "WrathKeys";
         "Malygos";
         };
 
@@ -182,12 +182,12 @@ AtlasLootNewBossButtons = {
         "";
         "UPTrash";
         };
-        
+
     VaultOfArchavon = {
         "";
-        "Archavon";
+        "VoAArchavon1";
         "Emalon";
-    };
+        };
 
     VioletHold = {
         "";
