@@ -14,7 +14,7 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 
 --Establish number of boss lines in the Atlas frame for scrolling
-local ATLAS_LOOT_BOSS_LINES	= 25;
+local ATLAS_LOOT_BOSS_LINES	= 24;
 
 --[[
 AtlasLoot_Atlas_OnShow:

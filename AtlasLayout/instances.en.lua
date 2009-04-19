@@ -113,7 +113,7 @@ AtlasLootNewBossButtons = {
         "Naxx80KelThuzad";
         "";
         "Naxx80Trash";
-        "T7SET";
+        "T7T8SET";
         };
 
     TheNexus = {
@@ -978,7 +978,7 @@ AtlasLootNewBossButtons = {
         "BWLNefarian";
         "";
         "BWLTrashMobs";
-        "T1T2SET";
+        "T1T2T3SET";
         };
 
     DireMaulEast = {
@@ -1143,7 +1143,7 @@ AtlasLootNewBossButtons = {
         "MCMajordomo";
         "MCRagnaros";
         "";
-        "T1T2SET";
+        "T1T2T3SET";
         "MCTrashMobs";
         "MCRANDOMBOSSDROPPS";
         };
@@ -1697,7 +1697,7 @@ AtlasLootBossButtons = {
         "Naxx80KelThuzad";
         "";
         "Naxx80Trash";
-        "T7SET";
+        "T7T8SET";
         };
 
     TheNexus = {
@@ -2509,7 +2509,7 @@ AtlasLootBossButtons = {
         "BWLNefarian";
         "";
         "BWLTrashMobs";
-        "T1T2SET";
+        "T1T2T3SET";
         };
 
     DireMaulEast = {
@@ -2676,7 +2676,7 @@ AtlasLootBossButtons = {
         "MCMajordomo";
         "MCRagnaros";
         "";
-        "T1T2SET";
+        "T1T2T3SET";
         "MCTrashMobs";
         "MCRANDOMBOSSDROPPS";
         };
