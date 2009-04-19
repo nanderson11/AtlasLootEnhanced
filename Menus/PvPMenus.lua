@@ -107,18 +107,6 @@ AtlasLoot_Data["LEVEL80PVPSETS"] = {
         Back = "LEVEL80PVPREWARDS";
     };
     
-AtlasLoot_Data["Archavon"] = {
-        { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Hateful Gladiator Sets"], "" };
-        { 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7 Sets"], "=q5="..AL["10 Man"]};
-    };
-    
-AtlasLoot_Data["Archavon25Man"] = {
-        { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Deadly Gladiator Sets"], "" };
-        { 4, 44077, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12#" };
-        { 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7 Sets"], "=q5="..AL["25 Man"]};
-        { 19, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12#" };
-    };
-    
 AtlasLoot_Data["Emalon"] = {
         { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Furious Gladiator Sets"], "" };
         { 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 8 Sets"], "=q5="..AL["10 Man"]};
