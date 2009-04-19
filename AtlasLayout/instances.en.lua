@@ -37,10 +37,17 @@ AtlasLootNewBossButtons = {
     CoTOldStratholme = {
         "";
         "";
+        "";
+        "";
         "CoTStratholmeMeathook";
         "CoTStratholmeSalramm";
+        "";
+        "";
         "CoTStratholmeEpoch";
+        "CoTStratholmeInfiniteCorruptorHEROIC";
+        "";
         "CoTStratholmeMalGanis";
+        "";
         "";
         "CoTStratholmeTrash";
         };
@@ -114,8 +121,10 @@ AtlasLootNewBossButtons = {
         "TheNexusOrmorok";
         "TheNexusAnomalus";
         "TheNexusTelestra";
-        "TheNexusKeristrasza";
+        "";
         "TheNexusKolurgStoutbeardHEROIC";
+        "TheNexusKolurgStoutbeardHEROIC";
+        "TheNexusKeristrasza";
         };
 
     TheOculus = {
@@ -138,6 +147,48 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "Sartharion";
+        };
+
+    UlduarA = {
+        "";
+        "";
+        "";
+        "UlduarLeviathan";
+        "UlduarIgnis";
+        "UlduarRazorscale";
+        "UlduarDeconstructor";
+        };
+
+    UlduarB = {
+        "";
+        "";
+        "UlduarIronCouncil";
+        "";
+        "";
+        "";
+        "UlduarKologarn";
+        "";
+        };
+
+    UlduarC = {
+        "";
+        "";
+        "";
+        "UlduarAuriaya";
+        "UlduarFreya";
+        "UlduarThorim";
+        "UlduarHodir";
+        };
+
+    UlduarD = {
+        "";
+        "UlduarMimiron";
+        };
+
+    UlduarE = {
+        "";
+        "UlduarVezax";
+        "";
         };
 
     UlduarHallsofLightning = {
@@ -190,6 +241,7 @@ AtlasLootNewBossButtons = {
         };
 
     VioletHold = {
+        "WrathKeys";
         "";
         "VioletHoldErekem";
         "VioletHoldZuramat";
@@ -268,7 +320,6 @@ AtlasLootNewBossButtons = {
 
     BlackTempleStart = {
         "Ashtongue1";
-        "BCKeys";
         "";
         "";
         "";
@@ -288,7 +339,6 @@ AtlasLootNewBossButtons = {
 
     BlackTempleBasement = {
         "Ashtongue1";
-        "BCKeys";
         "";
         "";
         "BTBloodboil";
@@ -304,7 +354,6 @@ AtlasLootNewBossButtons = {
 
     BlackTempleTop = {
         "Ashtongue1";
-        "BCKeys";
         "";
         "BTShahraz";
         "BTCouncil";
@@ -683,7 +732,6 @@ AtlasLootNewBossButtons = {
 
     TempestKeepTheEye = {
         "Shatar1";
-        "BCKeys";
         "";
         "TKEyeAlar";
         "TKEyeVoidReaver";
