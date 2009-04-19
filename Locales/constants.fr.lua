@@ -341,6 +341,9 @@ if AL then
 	AL["Original and BC Trinkets"] = "Bijoux de WoW Original & BC";
 	AL["WotLK Trinkets"] = "Bijoux de WotLK";
 
+	--Argent Tournament
+	AL["Argent Tournament"] = "Tournoi d'Argent";
+
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = "Objets des cartes à jouer WoW TCG";
 	AL["Loot Card Items"] = "Objets des cartes à jouer";
@@ -1126,7 +1129,7 @@ if AL then
 	AL["Drohn's Distillery"] = "Apprenti de la distillerie Drohn";
 	AL["T'chali's Voodoo Brewery"] = "Apprenti de la brasserie vaudou de T'chali";
 	AL["Scarshield Quartermaster"] = "Intendant du Bouclier balafré";
-	AL["Overmaster Pyron"] = "Grand seigneur Pyron";
+	AL["Overmaster Pyron"] = "Grand seigneur Pyron"; --Is in BabbleBoss
 	AL["Father Flame"] = "Père des flammes";
 	--AL["Thomas Yance"] = true,
 	AL["Knot Thimblejack"] = "Noué Dédodevie";
@@ -1154,11 +1157,11 @@ if AL then
 	AL["Commander Stoutbeard"] = "Commandant Rudebarbe";
 	--AL["Bloodstone Annihilator"] = true; -- à traduire
 	--AL["Rescue Mission"] = true; -- à traduire
-	--AL["Bjarngrim"] = true;
+	--AL["Bjarngrim"] = true; --Is in BabbleBoss
 	--AL["Kronus"] = true;
 	--AL["Loken"] = true;
 	AL["Time-Lost Proto Drake"] = "Rênes de proto-drake perdu dans le temps";
-	AL["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
+	AL["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage"; --Is in BabbleBoss
 
 	--Zones
 	--AL["World Drop"] = true,
