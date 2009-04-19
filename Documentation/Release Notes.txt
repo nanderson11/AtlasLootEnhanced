@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.04.03
+Completed the Argent Tournament rewards
+
 v5.04.02
 Fixed a bug with Atlas 1.13 and Atlas 1.14 layouts getting confused
 New Tabards added

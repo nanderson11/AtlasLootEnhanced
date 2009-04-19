@@ -342,6 +342,9 @@ if AL then
 	AL["Low Level Decks"] = true;
 	AL["Original and BC Trinkets"] = true;
 	AL["WotLK Trinkets"] = true;
+    
+    --Argent Tournament
+    AL["Argent Tournament"] = true;
 
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = true;

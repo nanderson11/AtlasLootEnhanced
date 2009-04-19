@@ -937,8 +937,10 @@ AtlasLoot_TableNames = {};
 --- Events ---
 --------------
   -- PH 3.1
-	AtlasLoot_TableNames["ArgentTournament1"] = { "Argent Tournament", "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament2"] = { "Argent Tournament", "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["ArgentTournament1"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["ArgentTournament2"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
+    AtlasLoot_TableNames["ArgentTournament3"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
+    AtlasLoot_TableNames["ArgentTournament4"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
   -- Abyssal Council
 	AtlasLoot_TableNames["Templars"] = { "Abyssal Council - Templars", "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Dukes"] = { "Abyssal Council - Dukes", "AtlasLootWorldEvents" };
