@@ -9,7 +9,7 @@ AtlasLoot_Data["PVPMENU"] = {
         { 2, "ABMENU", "INV_Jewelry_Amulet_07", "=ds="..BabbleZone["Arathi Basin"], ""};
         { 4, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
         { 5, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
-        { 7, "LakeWintergrasp1", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
+        { 7, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
         { 8, "Archavon", "INV_Chest_Chain_15", "=ds="..BabbleBoss["Archavon the Stone Watcher"], ""};
         { 10, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
         { 11, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
@@ -106,17 +106,24 @@ AtlasLoot_Data["LEVEL80PVPSETS"] = {
         { 28, "PvP80Warrior", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], ""};
         Back = "LEVEL80PVPREWARDS";
     };
-    
+
+AtlasLoot_Data["WINTERGRASPMENU"] = {
+        { 2, "LakeWintergrasp1", "inv_misc_rune_11", "=ds="..AL["Accessories"], ""};
+        { 3, "LakeWintergrasp3", "inv_helmet_134", "=ds="..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], ""};
+        { 4, "LakeWintergrasp5", "inv_sword_19", "=ds="..AL["Heirloom"], ""};
+        { 17, "LakeWintergrasp2", "inv_helmet_136", "=ds="..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], ""};
+        { 18, "LakeWintergrasp4", "inv_jewelcrafting_icediamond_02", "=ds=", ""};
+        Back = "PVPMENU";
+    };
+
 AtlasLoot_Data["Emalon"] = {
         { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Furious Gladiator Sets"], "" };
         { 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 8 Sets"], "=q5="..AL["10 Man"]};
     };
-    
+
 AtlasLoot_Data["Emalon25Man"] = {
         { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Furious Gladiator Sets"], "" };
         { 4, 44077, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12#" };
         { 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 8 Sets"], "=q5="..AL["25 Man"]};
         { 19, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12#" };
     };
-   
-    

@@ -160,6 +160,7 @@ AtlasLootNewBossButtons = {
         };
 
     UlduarB = {
+        "WrathKeys";
         "";
         "";
         "UlduarIronCouncil";

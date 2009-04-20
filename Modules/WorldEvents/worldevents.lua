@@ -662,7 +662,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
 		{ 2, 42989, "", "=q4=Darkmoon Card: Berserker!", "=q1=#m4#: =ds=#s14#"};
 		{ 4, 44259, "", "=q4=Prisms Deck", "=ds=#m2#"};
-		{ 5, 19287, "", "=q4=Darkmoon Card: Illusion", "=q1=#m4#: =ds=#s14#"};
+		{ 5, 42988, "", "=q4=Darkmoon Card: Illusion", "=q1=#m4#: =ds=#s14#"};
 		{ 7, 44294, "", "=q4=Undeath Deck", "=ds=#m2#"};
 		{ 8, 42990, "", "=q4=Darkmoon Card: Death", "=q1=#m4#: =ds=#s14#"};
 		{ 16, 44326, "", "=q4=Nobles Deck", "=ds=#m2#"};

@@ -354,7 +354,7 @@ AtlasLoot_DewDropDown = {
 				{ AtlasLoot_TableNames["VentureBay1"][1], "VentureBay1", "Table" },
 			},
 			[14] = {
-				{ AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1", "Table" },
+				{ BabbleZone["Wintergrasp"], "WintergraspRewards", "Submenu" },
 			},
 		},
 	},
@@ -1278,6 +1278,30 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Arena3Weapons1" },
 		{ "", "Arena4Weapons1" },
 	},
+	["Pets"] = {
+		{ AtlasLoot_TableNames["Pets1"][1], "Pets1" },
+		{ AtlasLoot_TableNames["Pets2"][1], "Pets2" },
+		{ AtlasLoot_TableNames["Pets3"][1], "Pets3" },
+		{ AtlasLoot_TableNames["Pets4"][1], "Pets4" },
+		{ AtlasLoot_TableNames["Pets5"][1], "Pets5" },
+	},
+	["MountsClassic"] = {
+		{ AtlasLoot_TableNames["Mounts11"][1], "Mounts11" },
+		{ AtlasLoot_TableNames["Mounts12"][1], "Mounts12" },
+		{ AtlasLoot_TableNames["Mounts13"][1], "Mounts13" },
+	},
+	["MountsBC"] = {
+		{ AtlasLoot_TableNames["Mounts21"][1], "Mounts21" },
+		{ AtlasLoot_TableNames["Mounts22"][1], "Mounts22" },
+		{ AtlasLoot_TableNames["Mounts23"][1], "Mounts23" },
+		{ AtlasLoot_TableNames["Mounts24"][1], "Mounts24" },
+		{ AtlasLoot_TableNames["Mounts25"][1], "Mounts25" },
+	},
+	["MountsLichKing"] = {
+		{ AtlasLoot_TableNames["Mounts31"][1], "Mounts31" },
+		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts32" },
+		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts33" },
+	},
 	["AVRewards"] = {
 		{ AL["Misc. Rewards"], "AVMisc" },
 		{ AL["Superior Rewards"], "AVBlue" },
@@ -1346,30 +1370,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "DeadlyGladiatorWeapons1" },
 		{ "", "PvP80Jewelcrafting" },
 	},
-	["Pets"] = {
-		{ AtlasLoot_TableNames["Pets1"][1], "Pets1" },
-		{ AtlasLoot_TableNames["Pets2"][1], "Pets2" },
-		{ AtlasLoot_TableNames["Pets3"][1], "Pets3" },
-		{ AtlasLoot_TableNames["Pets4"][1], "Pets4" },
-		{ AtlasLoot_TableNames["Pets5"][1], "Pets5" },
-	},
-	["MountsClassic"] = {
-		{ AtlasLoot_TableNames["Mounts11"][1], "Mounts11" },
-		{ AtlasLoot_TableNames["Mounts12"][1], "Mounts12" },
-		{ AtlasLoot_TableNames["Mounts13"][1], "Mounts13" },
-	},
-	["MountsBC"] = {
-		{ AtlasLoot_TableNames["Mounts21"][1], "Mounts21" },
-		{ AtlasLoot_TableNames["Mounts22"][1], "Mounts22" },
-		{ AtlasLoot_TableNames["Mounts23"][1], "Mounts23" },
-		{ AtlasLoot_TableNames["Mounts24"][1], "Mounts24" },
-		{ AtlasLoot_TableNames["Mounts25"][1], "Mounts25" },
-	},
-	["MountsLichKing"] = {
-		{ AtlasLoot_TableNames["Mounts31"][1], "Mounts31" },
-		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts32" },
-		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts33" },
-	},
 	["WSGRewards"] = {
 		{ AL["Misc. Rewards"], "WSGMisc" },
 		{ AtlasLoot_TableNames["WSG1019"][1], "WSG1019" },
@@ -1378,6 +1378,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["WSG4049"][1], "WSG4049" },
 		{ AtlasLoot_TableNames["WSG5059"][1], "WSG5059" },
 		{ AtlasLoot_TableNames["WSG60"][1], "WSG60" },
+	},
+	["WintergraspRewards"] = {
+		{ AtlasLoot_TableNames["LakeWintergrasp1"][1], "LakeWintergrasp1" },
+		{ AtlasLoot_TableNames["LakeWintergrasp2"][1], "LakeWintergrasp2" },
+		{ AtlasLoot_TableNames["LakeWintergrasp3"][1], "LakeWintergrasp3" },
+		{ AtlasLoot_TableNames["LakeWintergrasp4"][1], "LakeWintergrasp4" },
+		{ AtlasLoot_TableNames["LakeWintergrasp5"][1], "LakeWintergrasp5" },
 	},
 	["Alchemy"] = {
 		{ AL["Battle Elixirs"], "AlchemyBattleElixir1" },
