@@ -37,12 +37,14 @@ if AL then
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
     AL["Level 70"] = "Уровень 70";
+	AL["Level 80"] = "Уровень 80";
     AL["|cffff0000(unsafe)"] = "|cffff0000(опасный)";
     AL["Misc"] = "Разное";
     AL["Miscellaneous"] = "Разнообразное";
     AL["Rewards"] = "Награды";
     AL["Heroic Mode"] = "Режим \"Героик\"";
     AL["Normal Mode"] = "Обычный режим";
+	AL["Hard Mode"] = "Сложный режим";
     AL["Show 10 Man Loot"] = "Добыча 10-чел";
     AL["Show 25 Man Loot"] = "Добыча 25-чел";
     AL["10 Man"] = "10-чел";
@@ -58,7 +60,7 @@ if AL then
     AL["QuickLook"] = "БыстрыйОсмотр";
     AL["Add to QuickLooks:"] = "Добавить в БыстрыйОсмотр:";
     AL["Assign this loot table\n to QuickLook"] = "Назначать эту таблицу добычи\n в БыстрыйОсмотр";
-    AL["Req. Rating:"] = "Требуется Рейтинг";  --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
+    AL["Req. Rating:"] = "Требуется рейтинг";  --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Rating:"] = "Рейтинг";    --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Query Server"] = "Запрос с серв.";
     AL["Classic Instances"] = "Классик инстансы";
@@ -176,7 +178,7 @@ if AL then
     AL["All Available Modules Loaded"] = "Все доступные модули загружены";
 
     --Minimap Button
-    AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр Таблицы Трофеев";
+    AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
     AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Shift-Клик|r Просмотр опций";
     AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffccccccЛКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
@@ -256,6 +258,7 @@ if AL then
     AL["Scrolls"] = "Свитки";
     AL["Off-Hand Items"] = "Предметы в левую руку";
     AL["Reagents"] = "Реагенты";
+	AL["Book of Glyph Mastery"] = "Книга познания символов";
 
     --Leatherworking
     AL["Leather Armor"] = "Кожанная броня";
@@ -294,15 +297,20 @@ if AL then
     AL["Card Game Item"] = "Предмет игровых карт";
     AL["Tier 1"] = "Тир 1";
     AL["Tier 2"] = "Тир 2";
+    AL["Tier 3"] = "Тир 2";
     AL["Tier 4"] = "Тир 4";
     AL["Tier 5"] = "Тир 5";
     AL["Tier 6"] = "Тир 6";
 	AL["Tier 7"] = "Тир 7";
 	AL["Tier 8"] = "Тир 8";
     AL["10/25 Man"] = "10/25 Чел";
+    AL["Tier 7 Sets"] = "Комплекты: Тир 7";
+    AL["Tier 8 Sets"] = "Комплекты: Тир 7";
+	AL["Tier 7/8 Sets"] = "Комплекты: Тир 7/8";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
     AL["Hateful Gladiator Sets"] = "Комплекты злобного гладиатора";
     AL["Deadly Gladiator Sets"] = "Комплекты смертоносного гладиатора";
+    AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
     AL["Arena Reward"] = "Награды с Арены";
     AL["Conjured Item"] = " Сотворенный предмет";
     AL["Used to summon boss"] = "Испол-ся для призыва босса";
@@ -317,7 +325,7 @@ if AL then
     AL["First Prize"] = "Первый приз";
     AL["Rare Fish Rewards"] = "Редкая рыба - Награды";
     AL["Rare Fish"] = "Редкая Рыба";
-    AL["Tradable against sunmote + item above"] = "Tradable against sunmote + item above";
+    AL["Tradable against sunmote + item above"] = "В обмен на Частицу солнца + предметы выше";
     AL["Rare"] = "Редкий";
     AL["Heroic"] = "Героик";
     AL["Hard Mode"] = "Сложный режим";
@@ -334,7 +342,10 @@ if AL then
 	AL["Low Level Decks"] = "Низко уровневые колоды";
 	AL["Original and BC Trinkets"] = "Аксессуары - БК и Оригинала";
 	AL["WotLK Trinkets"] = "Аксессуары - WotLK";
-
+    
+    --Argent Tournament
+    AL["Argent Tournament"] = "Серебряный Турнир";
+	
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck Card Game Items";
     AL["Loot Card Items"] = "Loot Card Items";
@@ -347,7 +358,7 @@ if AL then
     AL["Saltwater Snapjaw"] = "Морской щелкоклюв";
     -- Second set
     AL["Through The Dark Portal"] = "Через Темный портал";
-    AL["King Mukla"] = "King Mukla";
+    AL["King Mukla"] = "Король Мукла";
     AL["Rest and Relaxation"] = "Отдых и покой";
     AL["Fortune Telling"] = "Fortune Telling";
     -- Third set
@@ -735,6 +746,27 @@ if AL then
     AL["Plagueheart Garb"] = "Облачение Проклятого Сердца";
     AL["Dreadnaught Battlegear"] = "Броня неустрашимости";
     AL["Dreadnaught Plate"] = "Латы неустрашимости";
+	
+	--Tier 8 Sets
+	AL["Darkruned Battlegear"] = "Темнорунная броня";
+	AL["Darkruned Plate"] = "Темнорунные латы";
+	AL["Nightsong Garb"] = "Наряд ночной песни";
+	AL["Nightsong Battlegear"] = "Броня ночной песни";
+	AL["Nightsong Regalia"] = "Регалии ночной песни";
+	AL["Scourgestalker Battlegear"] = "Броня преследующего Плеть";
+	AL["Kirin'dor Garb"] = "Киринторский наряд";
+	AL["Aegis Regalia"] = "Регалии покровительства";
+	AL["Aegis Battlegear"] = "Броня покровительства";
+	AL["Aegis Plate"] = "Латы покровительства";
+	AL["Sanctification Regalia"] = "Регалии посвящения";
+	AL["Sanctification Garb"] = "Наряд посвящения";
+	AL["Terrorblade Battlegear"] = "Клинковая броня";
+	AL["Worldbreaker Garb"] = "Раскалывающий мир наряд";
+	AL["Worldbreaker Battlegear"] = "Раскалывающая мир броня";
+	AL["Worldbreaker Regalia"] = "Раскалывающие мир регалии";
+	AL["Deathbringer Garb"] = "Наряд несущего смерть";
+	AL["Siegebreaker Battlegear"] = "Осадная броня";
+	AL["Siegebreaker Plate"] = "Осадные латы";
 
     --Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "Упорство горца";
@@ -871,7 +903,8 @@ if AL then
     AL["Dungeon Set 2"] = "Комплекты подземелий 2";
     AL["Dungeon Set 3"] = "Комплекты подземелий 3";
     AL["Dungeon 3 Sets"] = "Комплекты подземелий 3";
-    AL["Tier 1/2 Sets"] = "Комплект 1/2 Тира";
+    AL["Tier 1/2 Sets"] = "Комплекты: Тир 1/2";
+    AL["Tier 1/2/3 Sets"] = "Комплекты: Тир 1/2/3";
     AL["Tier 3 Sets"] = "Комплект 3 Тира";
     AL["Tier 4/5/6 Sets"] = "Комплект 4/5/6 Тира";
     AL["PvP Reputation Sets (Level 70)"] = "Комплекты PvP за репутацию (Уровень 70)";
@@ -901,7 +934,7 @@ if AL then
     AL["Season 2"] = "Сезон 2";
     AL["Season 3"] = "Сезон 3";
     AL["Season 4"] = "Сезон 4";
-    AL["Arathi Basin Sets"] = "Ноборы Низины Арати";
+    AL["Arathi Basin Sets"] = "Комплекты Низины Арати";
     AL["Class Books"] = "Классовые Книги";
     AL["Tribute Run"] = "Заход почести";
     AL["Dire Maul Books"] = "Книги Забытого Города";
@@ -913,14 +946,15 @@ if AL then
     AL["Badge of Justice Rewards"] = "Награды за Знаки справедливости";
     AL["Emblem of Valor Rewards"] = "Награды за эмблемы доблести";
     AL["Emblem of Heroism Rewards"] = "Награды за эмблемы героизма";
+    AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
     AL["Accesories and Weapons"] = "Аксессуары и Оружия";
     AL["Accessories"] = "Аксессуары";
     AL["Armor and Weapons"] = "Броня и Оружия";
-    AL["Fire Resistance Gear"] = "Приборы сопротивлению огню";
-    AL["Arcane Resistance Gear"] = "Приборы сопротивление тайной магии";
-    AL["Nature Resistance Gear"] = "Приборы сопротивление природе";
-    AL["Frost Resistance Gear"] = "Приборы сопротивление льду";
-    AL["Shadow Resistance Gear"] = "Приборы сопротивление тьме";
+    AL["Fire Resistance Gear"] = "Наборы сопротивлению огню";
+    AL["Arcane Resistance Gear"] = "Наборы сопротивление тайной магии";
+    AL["Nature Resistance Gear"] = "Наборы сопротивление природе";
+    AL["Frost Resistance Gear"] = "Наборы сопротивление льду";
+    AL["Shadow Resistance Gear"] = "НАборы сопротивление тьме";
     AL["Tabards"] = "Накидки";
     AL["Token Hand-Ins"] = "Знаки";
     AL["Heroic Mode Keys"] = "Ключи героик режима";
@@ -1127,7 +1161,7 @@ if AL then
     AL["Bjarngrim"] = true; --Who is this npc?
     AL["Kronus"] = true; --Who is this npc?
     AL["Loken"] = "?окен";
-    AL["Time-Lost Proto Drake"] = "?а?е??нн?й во в?емени п?о?од?акон";
+    AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 
     --Zones
     AL["World Drop"] = "Мировой выпад";
