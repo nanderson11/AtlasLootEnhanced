@@ -1336,6 +1336,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["LakeWintergrasp1"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["LakeWintergrasp2"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["LakeWintergrasp3"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["LakeWintergrasp4"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VentureBay1"] = { BabbleZone["Grizzly Hills"]..": "..AL["Venture Bay"], "AtlasLootWotLK" };
   -- Misc Other PvP
 	AtlasLoot_TableNames["PvP60Accessories1"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
