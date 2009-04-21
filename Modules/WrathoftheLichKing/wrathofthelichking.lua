@@ -2162,7 +2162,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarIgnis"] = {
-		{ 1, 0, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#"};
+		{ 1, 45312, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#"};
 		{ 2, 45316, "", "=q4=Armbraces of the Vibrant Flame", "=ds=#s8#, #a3#"};
 		{ 3, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#"};
 		{ 4, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#"};
@@ -2184,15 +2184,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["UlduarRazorscale"] = {
 		{ 1, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#"};
-		{ 2, 0, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#"};
+		{ 2, 45302, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#"};
 		{ 3, 45301, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#"};
 		{ 4, 45307, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#"};
 		{ 5, 45299, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#"};
-		{ 6, 0, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#"};
+		{ 6, 45305, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#"};
 		{ 7, 45304, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#"};
-		{ 8, 0, "", "=q4=Band of Draconic Guile", "=ds=#s13#"};
+		{ 8, 45303, "", "=q4=Band of Draconic Guile", "=ds=#s13#"};
 		{ 9, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#"};
-		{ 10, 0, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#"};
+		{ 10, 45298, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#"};
 	};
 
 	AtlasLoot_Data["UlduarRazorscale25Man"] = {
@@ -2209,7 +2209,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 45148, "", "=q4=Living Flame", "=ds=#s14#"};
 		{ 12, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #w21#"};
 		{ 13, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#"};
-		{ 14, 45147, "", "=q4=Guiding Star", "=ds=#h2#, #w6#"};
+		{ 14, 45147, "", "=q4=Guiding Star", "=ds=#h3#, #w6#"};
 		{ 15, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#"};
 	};
 	
@@ -2321,7 +2321,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 45711, "", "=q4=Ironaya's Discarded Mantle", "=ds=#s3#, #a3#"};
 		{ 5, 45712, "", "=q4=Chestplate of Titanic Fury", "=ds=#s5#, #a4#"};
 		{ 6, 45708, "", "=q4=Archaedas' Lost Legplates", "=ds=#s11#, #a4#"};
-		{ 7, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s15#"};
+		{ 7, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#"};
 		{ 8, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#"};
 		{ 9, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#"};
 	};
@@ -2335,7 +2335,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 45440, "", "=q4=Amice of the Stoic Watch", "=ds=#s3#, #a3#"};
 		{ 1, 45320, "", "=q4=Shoulderplates of the Eternal", "=ds=#s3#, #a4#"};
 		{ 1, 45334, "", "=q4=Unbreakable Chestguard", "=ds=#s5#, #a4#"};
-		{ 1, 0, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#"};
+		{ 1, 45434, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#"};
 		{ 1, 45480, "", "=q4=Nymph Heart Charm", "=ds=#s2#"};
 		{ 1, 45326, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#"};
 		{ 1, 45438, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#"};
@@ -2779,8 +2779,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 0, "", "=q4=Furious Gladiator's Dreadplate Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Dreadplate Shoulders", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Dreadplate Chestpiece", "=ds="};
-		{ 27, 0, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds="};
+		{ 27, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds="};
+		{ 28, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds="};
 		Back = "LEVEL80PVPSETS";
 	};
 
@@ -2807,8 +2807,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 0, "", "=q4=Furious Gladiator's Wyrmhide Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Wyrmhide Spaulders", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Wyrmhide Robes", "=ds="};
-		{ 27, 0, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds="};
+		{ 27, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds="};
+		{ 28, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds="};
 		Back = "LEVEL80PVPSETS";
 	};
 
@@ -2835,8 +2835,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 0, "", "=q4=Furious Gladiator's Dragonhide Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Dragonhide Spaulders", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Dragonhide Robes", "=ds="};
-		{ 27, 0, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds="};
+		{ 27, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds="};
+		{ 28, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds="};
 		Back = "LEVEL80PVPSETS";
 	};
 
@@ -2891,8 +2891,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 0, "", "=q4=Furious Gladiator's Chain Helm", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Chain Spaulders", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Chain Armor", "=ds="};
-		{ 27, 0, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Chain Leggings", "=ds="};
+		{ 27, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds="};
+		{ 28, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds="};
 		Back = "LEVEL80PVPSETS";
 	};
 
@@ -2919,8 +2919,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 0, "", "=q4=Furious Gladiator's Silk Cowl", "=ds="};
 		{ 25, 0, "", "=q4=Furious Gladiator's Silk Amice", "=ds="};
 		{ 26, 0, "", "=q4=Furious Gladiator's Silk Raiment", "=ds="};
-		{ 27, 0, "", "=q4=Furious Gladiator's Silk Handguards", "=ds="};
-		{ 28, 0, "", "=q4=Furious Gladiator's Silk Trousers", "=ds="};
+		{ 27, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds="};
+		{ 28, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds="};
 
 		Back = "LEVEL80PVPSETS";
 	};
