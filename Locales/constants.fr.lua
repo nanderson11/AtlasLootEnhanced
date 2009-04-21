@@ -308,7 +308,7 @@ if AL then
 	AL["Level 80 PvP Sets"] = "Sets JcJ Niveau 80";
 	AL["Hateful Gladiator Sets"] = "Sets Gladiateur haineux";
 	AL["Deadly Gladiator Sets"] = "Sets Gladiateur fatal";
-	--AL["Furious Gladiator Sets"] = "Sets Gladiateur "; -- à traduire
+	AL["Furious Gladiator Sets"] = "Sets Gladiateur furieux";
 	AL["Arena Reward"] = "Récompense d'Arène";
 	AL["Conjured Item"] = "Objet Conjuré";
 	AL["Used to summon boss"] = "Utilisé pour invoquer un boss";
