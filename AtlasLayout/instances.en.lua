@@ -153,6 +153,9 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
+        "";
+        "";
+        "";
         "UlduarLeviathan";
         "UlduarIgnis";
         "UlduarRazorscale";
