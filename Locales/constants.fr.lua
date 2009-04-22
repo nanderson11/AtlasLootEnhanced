@@ -366,7 +366,7 @@ if AL then
 	AL["Goblin Gumbo"] = "Gumbo Gobelin";
 	-- Fourth set
 	AL["March of the Legion"] = "Marche de la Légion";
-	--AL["Kiting"] = true; -- à traduire
+	--AL["Kiting"] = true;
 	AL["Robotic Homing Chicken"] = "Poulet Robot Guidé";
 	AL["Paper Airplane"] = "Machine volante en papier";
 	-- Fifth set
@@ -746,26 +746,26 @@ if AL then
 	AL["Dreadnaught Battlegear"] = "Tenue de combat de cuirassier";
 	AL["Dreadnaught Plate"] = "Armure de cuirassier en plaques";
 
-	--Tier 8 Sets -- à traduire
-	--AL["Darkruned Battlegear"] = true;
-	--AL["Darkruned Plate"] = true;
-	--AL["Nightsong Garb"] = true;
-	--AL["Nightsong Battlegear"] = true;
-	--AL["Nightsong Regalia"] = true;
-	--AL["Scourgestalker Battlegear"] = true;
-	--AL["Kirin'dor Garb"] = true;
-	--AL["Aegis Regalia"] = true;
-	--AL["Aegis Battlegear"] = true;
-	--AL["Aegis Plate"] = true;
-	--AL["Sanctification Regalia"] = true;
-	--AL["Sanctification Garb"] = true;
-	--AL["Terrorblade Battlegear"] = true;
-	--AL["Worldbreaker Garb"] = true;
-	--AL["Worldbreaker Battlegear"] = true;
-	--AL["Worldbreaker Regalia"] = true;
-	--AL["Deathbringer Garb"] = true;
-	--AL["Siegebreaker Battlegear"] = true;
-	--AL["Siegebreaker Plate"] = true;
+	--Tier 8 Sets
+	AL["Darkruned Battlegear"] = "Tenue de combat sombreunique";
+	AL["Darkruned Plate"] = "Armure sombreunique en plaques";
+	AL["Nightsong Garb"] = "Atours chantenuit";
+	AL["Nightsong Battlegear"] = "Tenue de combat chantenuit";
+	AL["Nightsong Regalia"] = "Tenue de parade chantenuit";
+	AL["Scourgestalker Battlegear"] = "Tenue de combat de traqueur du Fléau";
+	AL["Kirin'dor Garb"] = "Atours du Kirin Tor";
+	AL["Aegis Regalia"] = "Tenue de parade de l'égide";
+	AL["Aegis Battlegear"] = "Tenue de combat de l'égide";
+	AL["Aegis Plate"] = "Armure de l'égide en plaques";
+	AL["Sanctification Regalia"] = "Tenue de parade de sanctification";
+	AL["Sanctification Garb"] = "Atours de sanctification";
+	AL["Terrorblade Battlegear"] = "Tenue de combat terrolame";
+	AL["Worldbreaker Garb"] = "Atours brise-monde";
+	AL["Worldbreaker Battlegear"] = "Tenue de combat brise-monde";
+	AL["Worldbreaker Regalia"] = "Tenue de parade brise-monde";
+	AL["Deathbringer Garb"] = "Atours porte-mort";
+	AL["Siegebreaker Battlegear"] = "Tenue de combat brise-siège";
+	AL["Siegebreaker Plate"] = "Armure brise-siège en plaques";
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "Intention des Hautes-terres";
