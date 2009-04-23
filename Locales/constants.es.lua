@@ -748,7 +748,7 @@ if AL then
 	
 	--Tier 8 Sets
 	AL["Darkruned Battlegear"] = "Batalla de Runaoscura"; --Check
-	AL["Darkruned Plate"] = "Placas de Runaoscura""; --Check
+	AL["Darkruned Plate"] = "Placas de Runaoscura"; --Check
 	AL["Nightsong Garb"] = "Arrullanoche"; --Check
 	AL["Nightsong Battlegear"] = "Arrullanoche"; --Check
 	AL["Nightsong Regalia"] = "Arrullanoche"; --Check
