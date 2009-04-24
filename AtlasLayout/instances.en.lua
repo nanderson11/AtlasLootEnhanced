@@ -157,8 +157,8 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "UlduarLeviathan";
-        "UlduarIgnis";
         "UlduarRazorscale";
+        "UlduarIgnis";
         "UlduarDeconstructor";
         };
 
@@ -179,9 +179,9 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "UlduarAuriaya";
-        "UlduarFreya";
-        "UlduarThorim";
         "UlduarHodir";
+        "UlduarThorim";
+        "UlduarFreya";
         };
 
     UlduarD = {
