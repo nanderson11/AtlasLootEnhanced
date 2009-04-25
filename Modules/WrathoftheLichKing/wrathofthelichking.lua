@@ -19,6 +19,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 ---- The Oculus
 ---- Vault of Archavon
 ---- Naxxramas
+----- Construct Quarter
+----- Arachnid Quarter
+----- Military Quarter
+----- Plague Quarter
+----- Frostwyrm Lair
 ---- Obsidian Sanctum
 ---- The Eye of Eternity
 ---- Ulduar
@@ -145,19 +150,17 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- The Nexus ---
 		-----------------
 
-	AtlasLoot_Data["TheNexusTelestra"] = {
+	AtlasLoot_Data["TheNexusOrmorok"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#", "", "29%" };
-		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#", "", "29%" };
-		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#", "", "28%" };
-		{ 6, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
+		{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#", "", "30%"};
+		{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#", "", "32%"};
+		{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#", "", "33%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
-		{ 18, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#", "", "21%"};
-		{ 19, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#", "", "21%" };
-		{ 20, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#", "", "21%" };
-		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
-		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
+		{ 18, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#", "", "21%"};
+		{ 19, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#", "", "22%"};
+		{ 20, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#", "", "22%"};
+		{ 21, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#", "", "22%"};
 		Next = "TheNexusAnomalus";
 	};
 
@@ -172,23 +175,25 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#", "", "22%"};
 		{ 20, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#", "", "22%"};
 		{ 21, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#", "", "21%"};
-		Prev = "TheNexusTelestra";
-		Next = "TheNexusOrmorok";
+		Prev = "TheNexusOrmorok";
+		Next = "TheNexusTelestra";
 	};
 
-	AtlasLoot_Data["TheNexusOrmorok"] = {
+	AtlasLoot_Data["TheNexusTelestra"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#", "", "30%"};
-		{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#", "", "32%"};
-		{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#", "", "33%"};
+		{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#", "", "29%" };
+		{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#", "", "29%" };
+		{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#", "", "28%" };
+		{ 6, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
-		{ 18, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#", "", "21%"};
-		{ 19, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#", "", "22%"};
-		{ 20, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#", "", "22%"};
-		{ 21, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#", "", "22%"};
+		{ 18, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#", "", "21%"};
+		{ 19, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#", "", "21%" };
+		{ 20, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#", "", "21%" };
+		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
+		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		Prev = "TheNexusAnomalus";
-		Next = "TheNexusKeristrasza";
+		Next = "TheNexusKolurgStoutbeardHEROIC";
 	};
 
 	AtlasLoot_Data["TheNexusKolurgStoutbeardHEROIC"] = {
@@ -197,6 +202,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#", "", "20%"};
 		{ 4, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#", "", "19%"};
 		{ 5, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#", "", "20%"};
+		Prev = "TheNexusTelestra";
+		Next = "TheNexusKeristrasza";
 	};
 
 	AtlasLoot_Data["TheNexusKeristrasza"] = {
@@ -216,7 +223,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "20%"};
 		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
 		{ 28, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
-		Prev = "TheNexusOrmorok";
+		Prev = "TheNexusKolurgStoutbeardHEROIC";
 	};
 
 		-------------------
@@ -698,7 +705,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 37655, "", "=q3=Mantle of the Tribunal", "=ds=#s3#, #a1#"};
 		{ 19, 37656, "", "=q3=Raging Construct Bands", "=ds=#s8#, #a3#"};
 		{ 20, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#"};
-        { 21, 37653, "", "=q3=Sword of Justice", "=ds=#h2#, #w10#"};
+		{ 21, 37653, "", "=q3=Sword of Justice", "=ds=#h2#, #w10#"};
 		Prev = "HallsofStoneKrystallus";
 		Next = "HallsofStoneSjonnir";
 	};
@@ -1101,6 +1108,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#"};
 		Prev = "OcuEregos";
 	};
+
 		-------------------------
 		--- Vault of Archavon ---
 		-------------------------
@@ -1371,6 +1379,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- Naxxramas ---
 		-----------------
 
+		-------------------------
+		--- Construct Quarter ---
+		-------------------------
+
 	AtlasLoot_Data["Naxx80Patchwerk"] = {
 		{ 1, 39272, "", "=q4=Drape of Surgery", "=ds=#s4#"};
 		{ 2, 39273, "", "=q4=Sullen Cloth Boots", "=ds=#s12#, #a1#"};
@@ -1381,6 +1393,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 7, 39261, "", "=q4=Tainted Girdle of Mending", "=ds=#s10#, #a4#"};
 		{ 8, 39271, "", "=q4=Blade of Dormant Memories", "=ds=#h3#, #w4#"};
 		{ 9, 39270, "", "=q4=Hatestrike", "=ds=#h1#, #w10#"};
+		Next = "Naxx80Grobbulus";
 	};
 
 	AtlasLoot_Data["Naxx80Patchwerk25Man"] = {
@@ -1407,6 +1420,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#"};
 		{ 22, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#"};
 		{ 23, 40265, "", "=q4=Arrowsong", "=ds=#w2#"};
+		Next = "Naxx80Grobbulus25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Grobbulus"] = {
@@ -1420,6 +1434,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39277, "", "=q4=Sealing Ring of Grobbulus", "=ds=#s13#"};
 		{ 9, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#"};
 		{ 10, 39276, "", "=q4=The Skull of Ruin", "=ds=#w8#"};
+		Prev = "Naxx80Patchwerk";
+		Next = "Naxx80Gluth1";
 	};
 
 	AtlasLoot_Data["Naxx80Grobbulus25Man"] = {
@@ -1448,6 +1464,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 40281, "", "=q4=Twilight Mist", "=ds=#h1#, #w4#"};
 		{ 24, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#"};
 		{ 25, 40284, "", "=q4=Plague Igniter", "=ds=#w12#"};
+		Prev = "Naxx80Patchwerk25Man";
+		Next = "Naxx80Gluth125Man";
 	};
 
 	AtlasLoot_Data["Naxx80Gluth1"] = {
@@ -1474,6 +1492,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#"};
 		{ 22, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#"};
 		{ 23, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#"};
+		Prev = "Naxx80Grobbulus";
 		Next = "Naxx80Gluth2";
 	};
 
@@ -1488,6 +1507,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#e15#"};
 		{ 9, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#e15#"};
 		Prev = "Naxx80Gluth1";
+		Next = "Naxx80Thaddius";
 	};
 
 	AtlasLoot_Data["Naxx80Gluth125Man"] = {
@@ -1520,6 +1540,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 40297, "", "=q4=Sabatons of Endurance", "=ds=#s12#, #a4#"};
 		{ 28, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#"};
 		{ 29, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#"};
+		Prev = "Naxx80Grobbulus25Man";
 		Next = "Naxx80Gluth225Man";
 	};
 
@@ -1543,6 +1564,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 23, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#"};
 		{ 24, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#"};
 		Prev = "Naxx80Gluth125Man";
+		Next = "Naxx80Thaddius25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Thaddius"] = {
@@ -1554,6 +1576,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40619, "", "=q4=Leggings of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Gluth2";
 	};
 
 	AtlasLoot_Data["Naxx80Thaddius25Man"] = {
@@ -1570,7 +1593,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Gluth225Man";
 	};
+
+		------------------------
+		--- Arachnid Quarter ---
+		------------------------
 
 	AtlasLoot_Data["Naxx80AnubRekhan"] = {
 		{ 1, 39192, "", "=q4=Gloves of Dark Gestures", "=ds=#s9#, #a1#"};
@@ -1583,6 +1611,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39193, "", "=q4=Band of Neglected Pleas", "=ds=#s13#"};
 		{ 9, 39141, "", "=q4=Deflection Band", "=ds=#s13#"};
 		{ 10, 39140, "", "=q4=Knife of Incision", "=ds=#h1#, #w4#"};
+		Next = "Naxx80Faerlina";
 	};
 
 	AtlasLoot_Data["Naxx80AnubRekhan25Man"] = {
@@ -1608,6 +1637,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#"};
 		{ 21, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#"};
 		{ 22, 39712, "", "=q4=Gemmed Wand of the Nerubians", "=ds=#w12#"};
+		Next = "Naxx80Faerlina25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Faerlina"] = {
@@ -1621,6 +1651,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39197, "", "=q4=Gauntlets of the Master", "=ds=#s9#, #a4#"};
 		{ 9, 39199, "", "=q4=Watchful Eye", "=ds=#s15#"};
 		{ 10, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#"};
+		Prev = "Naxx80AnubRekhan";
+		Next = "Naxx80Maexxna";
 	};
 
 	AtlasLoot_Data["Naxx80Faerlina25Man"] = {
@@ -1648,6 +1680,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 39757, "", "=q4=Idol of Worship", "=ds=#s16#, #w14#"};
 		{ 23, 39728, "", "=q4=Totem of Misery", "=ds=#s16#, #w15#"};
 		{ 24, 39730, "", "=q4=Widow's Fury", "=ds=#h1#, #w10#"};
+		Prev = "Naxx80AnubRekhan25Man";
+		Next = "Naxx80Maexxna25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Maexxna"] = {
@@ -1661,6 +1695,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39226, "", "=q4=Maexxna's Femur", "=ds=#h1#, #w6#"};
 		{ 9, 39221, "", "=q4=Wraith Spear", "=ds=#w7#"};	
 		{ 10, 39233, "", "=q4=Aegis of Damnation", "=ds=#w8#"};
+		Prev = "Naxx80Faerlina";
 	};
 
 	AtlasLoot_Data["Naxx80Maexxna25Man"] = {
@@ -1688,7 +1723,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 39766, "", "=q4=Matriarch's Spawn", "=ds=#s15#"};
 		{ 23, 39763, "", "=q4=Wraith Strike", "=ds=#h3#, #w13#"};
 		{ 24, 39758, "", "=q4=The Jawbone", "=ds=#h2#, #w6#"};
+		Prev = "Naxx80Faerlina25Man";
 	};
+
+		------------------------
+		--- Military Quarter ---
+		------------------------
 
 	AtlasLoot_Data["Naxx80Razuvious"] = {
 		{ 1, 39297, "", "=q4=Cloak of Darkening", "=ds=#s4#"};
@@ -1701,6 +1741,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39298, "", "=q4=Waistguard of the Tutor", "=ds=#s10#, #a4#"};
 		{ 9, 39311, "", "=q4=Scepter of Murmuring Spirits", "=ds=#s15#"};
 		{ 10, 39296, "", "=q4=Accursed Bow of the Elite", "=ds=#w2#"};
+		Next = "Naxx80Gothik";
 	};
 
 	AtlasLoot_Data["Naxx80Razuvious25Man"] = {
@@ -1727,6 +1768,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#"};
 		{ 22, 40321, "", "=q4=Idol of the Shooting Star", "=ds=#s16#, #w14#"};
 		{ 23, 40322, "", "=q4=Totem of Dueling", "=ds=#s16#, #w15#"};
+		Next = "Naxx80Gothik25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Gothik"] = {
@@ -1740,6 +1782,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39389, "", "=q4=Signet of the Malevolent", "=ds=#s2#"};
 		{ 9, 39388, "", "=q4=Spirit-World Glass", "=ds=#s14#"};
 		{ 10, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#"};
+		Prev = "Naxx80Razuvious";
+		Next = "Naxx80FourHorsemen";
 	};
 
 	AtlasLoot_Data["Naxx80Gothik25Man"] = {
@@ -1767,6 +1811,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 40337, "", "=q4=Libram of Resurgence", "=ds=#s16#, #w16#"};
 		{ 23, 40336, "", "=q4=Life and Death", "=ds=#h3#, #w10#"};
 		{ 24, 40335, "", "=q4=Touch of Horror", "=ds=#w12#"};
+		Prev = "Naxx80Razuvious25Man";
+		Next = "Naxx80FourHorsemen25Man";
 	};
 
 	AtlasLoot_Data["Naxx80FourHorsemen"] = {
@@ -1778,6 +1824,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Gothik";
 	};
 
 	AtlasLoot_Data["Naxx80FourHorsemen25Man"] = {
@@ -1793,7 +1840,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40625, "", "=q4=Breastplate of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40626, "", "=q4=Breastplate of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40627, "", "=q4=Breastplate of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Gothik25Man";
 	};
+
+		----------------------
+		--- Plague Quarter ---
+		----------------------
 
 	AtlasLoot_Data["Naxx80Noth"] = {
 		{ 1, 39241, "", "=q4=Dark Shroud of the Scourge", "=ds=#s4#"};
@@ -1806,6 +1858,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39235, "", "=q4=Bone-Framed Bracers", "=ds=#s8#, #a4#"};
 		{ 9, 39234, "", "=q4=Plague-Impervious Boots", "=ds=#s12#, #a4#"};
 		{ 10, 39244, "", "=q4=Ring of the Fated", "=ds=#s13#"};
+		Next = "Naxx80Heigan";
 	};
 
 	AtlasLoot_Data["Naxx80Noth25Man"] = {
@@ -1833,6 +1886,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#"};
 		{ 23, 40189, "", "=q4=Angry Dread", "=ds=#h1#, #w6#"};
 		{ 24, 40190, "", "=q4=Spinning Fate", "=ds=#w11#"};
+		Next = "Naxx80Heigan25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Heigan"] = {
@@ -1846,6 +1900,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 39250, "", "=q4=Ring of Holy Cleansing", "=ds=#s13#"};
 		{ 9, 39245, "", "=q4=Demise", "=ds=#h2#, #w6#"};
 		{ 10, 39255, "", "=q4=Staff of the Plague Beast", "=ds=#w9#"};
+		Prev = "Naxx80Noth";
+		Next = "Naxx80Loatheb";
 	};
 
 	AtlasLoot_Data["Naxx80Heigan25Man"] = {
@@ -1873,6 +1929,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 22, 40207, "", "=q4=Sigil of Awareness", "=ds=#s16#, #w21#"};
 		{ 23, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#"};
 		{ 24, 40233, "", "=q4=The Undeath Carrier", "=ds=#w9#"};
+		Prev = "Naxx80Noth25Man";
+		Next = "Naxx80Loatheb25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Loatheb"] = {
@@ -1884,6 +1942,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Heigan";
 	};
 
 	AtlasLoot_Data["Naxx80Loatheb25Man"] = {
@@ -1900,7 +1959,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Heigan25Man";
 	};
+
+		----------------------
+		--- Frostwyrm Lair ---
+		----------------------
 
 	AtlasLoot_Data["Naxx80Sapphiron"] = {
 		{ 1, 39415, "", "=q4=Shroud of the Citadel", "=ds=#s4#"};
@@ -1915,6 +1979,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 39407, "", "=q4=Circle of Life", "=ds=#s13#"};
 		{ 11, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m2#"};
 		{ 12, 44582, "", "=q4=Key to the Focusing Iris", "=q1=#m4#: =ds=#e9#"};
+		Next = "Naxx80KelThuzad";
 	};
 
 	AtlasLoot_Data["Naxx80Sapphiron25Man"] = {
@@ -1940,6 +2005,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 40368, "", "=q4=Murder", "=ds=#h1#, #w4#"};
 		{ 22, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m2#"};
 		{ 23, 44581, "", "=q4=Heroic Key to the Focusing Iris", "=q1=#m4#: =ds=#e9#"};
+		Next = "Naxx80KelThuzad25Man";
 	};
 
 	AtlasLoot_Data["Naxx80KelThuzad"] = {
@@ -1956,6 +2022,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40616, "", "=q4=Helm of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40617, "", "=q4=Helm of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40618, "", "=q4=Helm of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Sapphiron";
+		Next = "Naxx80Trash";
 	};
 
 	AtlasLoot_Data["Naxx80KelThuzad25Man"] = {
@@ -1977,6 +2045,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 40631, "", "=q4=Crown of the Lost Conqueror", "=ds=#e15#"};
 		{ 17, 40632, "", "=q4=Crown of the Lost Protector", "=ds=#e15#"};
 		{ 18, 40633, "", "=q4=Crown of the Lost Vanquisher", "=ds=#e15#"};
+		Prev = "Naxx80Sapphiron25Man";
+		Next = "Naxx80Trash25Man";
 	};
 
 	AtlasLoot_Data["Naxx80Trash"] = {
@@ -1986,6 +2056,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 39427, "", "=q4=Omen of Ruin", "=ds=#h1#, #w4#"};
 		{ 5, 39468, "", "=q4=The Stray", "=ds=#h4#, #w13#"};
 		{ 6, 39473, "", "=q4=Contortion", "=ds=#w12#"};
+		Prev = "Naxx80KelThuzad";
 	};
 
 	AtlasLoot_Data["Naxx80Trash25Man"] = {
@@ -1996,6 +2067,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 5, 40408, "", "=q4=Haunting Call", "=ds=#h3#, #w4#"};
 		{ 6, 40407, "", "=q4=Silent Crusader", "=ds=#h1#, #w10#"};
 		{ 7, 40406, "", "=q4=Inevitable Defeat", "=ds=#h2#, #w6#"};
+		Prev = "Naxx80KelThuzad25Man";
 	};
 
 		------------------------

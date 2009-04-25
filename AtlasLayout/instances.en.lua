@@ -98,12 +98,12 @@ AtlasLootNewBossButtons = {
         "";
         "Naxx80Razuvious";
         "Naxx80Gothik";
+        "";
+        "";
+        "";
+        "";
+        "";
         "Naxx80FourHorsemen";
-        "";
-        "";
-        "";
-        "";
-        "";
         "";
         "Naxx80Noth";
         "Naxx80Heigan";
