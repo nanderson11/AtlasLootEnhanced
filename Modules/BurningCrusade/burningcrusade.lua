@@ -3955,7 +3955,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 21, 33853, "", "=q4=Vindicator's Band of Dominance", "=ds=", "11934 #faction# 10 #av#"};
 		{ 22, 33918, "", "=q4=Vindicator's Band of Salvation", "=ds=", "11934 #faction# 10 #av#"};
 		{ 23, 33919, "", "=q4=Vindicator's Band of Triumph", "=ds=", "11934 #faction# 10 #av#"};
-		{ 34, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "11934 #faction# 10 #av#"};
+		{ 24, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "11934 #faction# 10 #av#"};
 		Next = "PvP70NonSet3";
 		Prev = "PvP70NonSet1";
 		Back = "PVP70NONSETEPICS";
