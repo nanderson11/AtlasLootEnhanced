@@ -37,8 +37,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 --- PvP
 ---- Armor Sets
 ---- Level 80 Epic Non-Sets
----- Savage Gladiator Weapons
----- Deadly Gladiator Weapons
+---- Savage Gladiator Weapons [unused]
+---- Deadly Gladiator Weapons [unused]
+---- Furious Gladiator Weapons
 ---- PvP Jewelcrafting Designs and Gems
 ---- World PvP - Wintergrasp
 ---- World PvP - Grizzly Hills: Venture Bay
@@ -3459,6 +3460,101 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "LEVEL80PVPREWARDS";
 	};
 
+		---------------------------------
+		--- Furious Gladiator Weapons ---
+		---------------------------------
+
+	AtlasLoot_Data["FuriousGladiatorWeapons1"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Low Level", ""};
+		{ 2, 42261, "", "=q4=Furious Gladiator's Right Ripper", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 3, 42266, "", "=q4=Furious Gladiator's Left Render", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 4, 42271, "", "=q4=Furious Gladiator's Left Ripper", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 5, 42347, "", "=q4=Furious Gladiator's Spellblade", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 6, 42243, "", "=q4=Furious Gladiator's Shanker", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 7, 42256, "", "=q4=Furious Gladiator's Mutilator", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 8, 42249, "", "=q4=Furious Gladiator's Shiv", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 9, 42286, "", "=q4=Furious Gladiator's Slicer", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 10, 42291, "", "=q4=Furious Gladiator's Quickblade", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 11, 42333, "", "=q4=Furious Gladiator's Greatsword", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 12, 42209, "", "=q4=Furious Gladiator's Cleaver", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 13, 42233, "", "=q4=Furious Gladiator's Dicer", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 14, 42228, "", "=q4=Furious Gladiator's Splitter", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 15, 42323, "", "=q4=Furious Gladiator's Bonegrinder", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 16, 0, "INV_Box_01", "=q6=High Level", ""};
+		{ 17, 45969, "", "=q4=Furious Gladiator's Grasp", "=ds=", "3000 #arena# #reqrating# 2200"};
+		{ 18, 45968, "", "=q4=Furious Gladiator's Left Claw", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 19, 45963, "", "=q4=Furious Gladiator's Left Razor", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 20, 45970, "", "=q4=Furious Gladiator's Mageblade", "=ds=", "3585 #arena# #reqrating# 2200"};
+		{ 21, 45958, "", "=q4=Furious Gladiator's Spike", "=ds=", "3000 #arena# #reqrating# 2200"};
+		{ 22, 45962, "", "=q4=Furious Gladiator's Dirk", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 23, 45967, "", "=q4=Furious Gladiator's Eviscerator", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 24, 45960, "", "=q4=Furious Gladiator's Longblade", "=ds=", "3000 #arena# #reqrating# 2200"};
+		{ 25, 45965, "", "=q4=Furious Gladiator's Swiftblade", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 26, 45950, "", "=q4=Furious Gladiator's Claymore", "=ds=", "4250 #arena# #reqrating# 2200"};
+		{ 27, 45957, "", "=q4=Furious Gladiator's Handaxe", "=ds=", "3000 #arena# #reqrating# 2200"};
+		{ 28, 45961, "", "=q4=Furious Gladiator's Dicer", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 29, 45966, "", "=q4=Furious Gladiator's Splitter", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 30, 45948, "", "=q4=Furious Gladiator's Sunderer", "=ds=", "4250 #arena# #reqrating# 2200"};
+		Next = "FuriousGladiatorWeapons2";
+		Back = "LEVEL80PVPREWARDS";
+	};
+
+	AtlasLoot_Data["FuriousGladiatorWeapons2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Low Level", ""};
+		{ 2, 42353, "", "=q4=Furious Gladiator's Gavel", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 3, 42276, "", "=q4=Furious Gladiator's Pummeler", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 4, 42281, "", "=q4=Furious Gladiator's Bonecracker", "=ds=", "1100 #arena# #reqrating# 1850"};
+		{ 5, 42323, "", "=q4=Furious Gladiator's Bonegrinder", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 6, 42328, "", "=q4=Furious Gladiator's Pike", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 7, 42364, "", "=q4=Furious Gladiator's Battle Staff", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 8, 42385, "", "=q4=Furious Gladiator's Energy Staff", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 9, 44422, "", "=q4=Furious Gladiator's Focus Staff", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 10, 44421, "", "=q4=Furious Gladiator's War Staff", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 11, 42491, "", "=q4=Furious Gladiator's Longbow", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 12, 42496, "", "=q4=Furious Gladiator's Heavy Crossbow", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 13, 42486, "", "=q4=Furious Gladiator's Rifle", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 16, 0, "INV_Box_01", "=q6=High Level", ""};
+		{ 17, 45971, "", "=q4=Furious Gladiator's Salvation", "=ds=", "3585 #arena# #reqrating# 2200"};
+		{ 18, 45959, "", "=q4=Furious Gladiator's Truncheon", "=ds=", "3000 #arena# #reqrating# 2200"};
+		{ 19, 45964, "", "=q4=Furious Gladiator's Punisher", "=ds=", "1245 #arena# #reqrating# 2200"};
+		{ 20, 45949, "", "=q4=Furious Gladiator's Crusher", "=ds=", "4250 #arena# #reqrating# 2200"};
+		{ 21, 45951, "", "=q4=Furious Gladiator's Halberd", "=ds=", "4250 #arena# #reqrating# 2200"};
+		{ 22, 45954, "", "=q4=Furious Gladiator's Acute Staff", "=ds=", "4250 #arena# #reqrating# 2200"};
+		{ 23, 45953, "", "=q4=Furious Gladiator's Combat Staff", "4250 #arena# #reqrating# 2200"};
+		{ 24, 45956, "", "=q4=Furious Gladiator's Light Staff", "4250 #arena# #reqrating# 2200"};
+		{ 25, 45955, "", "=q4=Furious Gladiator's Skirmish Staff", "4250 #arena# #reqrating# 2200"};
+		{ 26, 45938, "", "=q4=Furious Gladiator's Recurve", "4250 #arena# #reqrating# 2200"};
+		{ 27, 45939, "", "=q4=Furious Gladiator's Repeater", "4250 #arena# #reqrating# 2200"};
+		{ 28, 45937, "", "=q4=Furious Gladiator's Shotgun", "4250 #arena# #reqrating# 2200"};
+		Prev = "FuriousGladiatorWeapons1";
+		Next = "FuriousGladiatorWeapons3";
+		Back = "LEVEL80PVPREWARDS";
+	};
+
+	AtlasLoot_Data["FuriousGladiatorWeapons3"] = {
+		{ 1, 42565, "", "=q4=Furious Gladiator's Barrier", "1950 #arena# #reqrating# 1850"};
+		{ 2, 42571, "", "=q4=Furious Gladiator's Redoubt", "1950 #arena# #reqrating# 1850"};
+		{ 3, 42560, "", "=q4=Furious Gladiator's Shield Wall", "1950 #arena# #reqrating# 1850"};
+		{ 4, 42451, "", "=q4=Furious Gladiator's War Edge", "1150 #arena# #reqrating# 1950"};
+		{ 5, 42514, "", "=q4=Furious Gladiator's Baton of Light", "1150 #arena# #reqrating# 1950"};
+		{ 6, 42520, "", "=q4=Furious Gladiator's Piercing Touch", "1150 #arena# #reqrating# 1950"};
+		{ 7, 42503, "", "=q4=Furious Gladiator's Touch of Defeat", "1150 #arena# #reqrating# 1950"};
+		{ 8, 42526, "", "=q4=Furious Gladiator's Endgame", "1100 #arena# #reqrating# 1850"};
+		{ 9, 42538, "", "=q4=Furious Gladiator's Grimoire", "1100 #arena# #reqrating# 1850"};
+		{ 10, 42532, "", "=q4=Furious Gladiator's Reprieve", "1100 #arena# #reqrating# 1850"};
+		{ 11, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "1150 #arena# #reqrating# 1950"};
+		{ 12, 42584, "", "=q4=Furious Gladiator's Idol of Steadfastness", "1150 #arena# #reqrating# 1950"};
+		{ 13, 42579, "", "=q4=Furious Gladiator's Idol of Tenacity", "1150 #arena# #reqrating# 1950"};
+		{ 14, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "1150 #arena# #reqrating# 1950"};
+		{ 15, 42615, "", "=q4=Furious Gladiator's Libram of Justice", "1150 #arena# #reqrating# 1950"};
+		{ 16, 42621, "", "=q4=Furious Gladiator's Sigil of Strife", "1150 #arena# #reqrating# 1950"};
+		{ 17, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "1150 #arena# #reqrating# 1950"};
+		{ 18, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "1150 #arena# #reqrating# 1950"};
+		{ 19, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "1150 #arena# #reqrating# 1950"};
+		Prev = "FuriousGladiatorWeapons2";
+		Back = "LEVEL80PVPREWARDS";
+	};
+
 		------------------------------------------
 		--- PvP Jewelcrafting Designs and Gems ---
 		------------------------------------------
@@ -4510,7 +4606,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 11, 0, "INV_Box_01", "=q6=#j34#", ""};
 		{ 12, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12# =ec1=#m7#"};
 		{ 13, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e12# =ec1=#m6#"};
-		{ 14, 0, "", "=q4=Deadly Gladiator's Frostwyrm", "=q2=#m25#"};
+		{ 14, 46171, "", "=q4=Deadly Gladiator's Frostwyrm", "=q2=#m25#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j35#", ""};
 		{ 17, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2=#n151#, =q1=#j47# #z35#", ""};
 		{ 18, 43951, "", "=q4=Reins of the Bronze Drake", "=q2=#n152#, =q1=#j47# #z36#", ""};

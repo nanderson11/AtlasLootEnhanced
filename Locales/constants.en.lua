@@ -868,8 +868,9 @@ if AL then
 	AL["Gladiator's Desecration"] = true;
 
 	--Level 80 PvP Weapons
-	AL["Savage Gladiator\'s Weapons"] = true;
-	AL["Deadly Gladiator\'s Weapons"] = true;
+	AL["Savage Gladiator\'s Weapons"] = true; --unused
+	AL["Deadly Gladiator\'s Weapons"] = true; --unused
+	AL["Furious Gladiator\'s Weapons"] = true;
 
 	--Set Labels
 	AL["Set: Embrace of the Viper"] = true;

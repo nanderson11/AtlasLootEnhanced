@@ -1367,7 +1367,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PvP80Warrior" },
 		{ AtlasLoot_TableNames["PvP80NonSet1"][1], "PvP80NonSet1" },
 		--{ "", "PvP80Weapons1" },
-		{ "", "DeadlyGladiatorWeapons1" },
+		--{ "", "DeadlyGladiatorWeapons1" },
+		{ "", "FuriousGladiatorWeapons1" },
 		{ "", "PvP80Jewelcrafting" },
 	},
 	["WSGRewards"] = {
