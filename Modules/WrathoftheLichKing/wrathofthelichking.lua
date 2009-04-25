@@ -751,7 +751,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 37818, "", "=q3=Patroller's War-Kilt", "=ds=#s11#, #a3#"};
 		{ 20, 37814, "", "=q3=Iron Dwarf Smith Pauldrons", "=ds=#s3#, #a4#"};
 		{ 21, 37826, "", "=q3=The General's Steel Girdle", "=ds=#s10#, #a4#"};
-		Next = "GundrakTrash";
+		Next = "HallsofLightningVolkhan";
 	};
 
 	AtlasLoot_Data["HallsofLightningVolkhan"] = {
