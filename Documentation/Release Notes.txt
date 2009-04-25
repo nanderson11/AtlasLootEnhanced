@@ -8,7 +8,8 @@ Patch Notes
 v5.04.03
 Completed the Argent Tournament rewards
 Completed Lake Wintergrasp rewards
-Added Season 5's Arena Weapons
+Added Season 6's Arena Weapons
+Minor updates/fixes/translations
 
 v5.04.02
 Fixed a bug with Atlas 1.13 and Atlas 1.14 layouts getting confused
