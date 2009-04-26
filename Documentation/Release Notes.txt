@@ -12,6 +12,7 @@ Completed Lake Wintergrasp rewards
 Added gear for Arena Season 6
 Updated PvP Prices
 Ulduar updates
+Noblegarden included
 Minor updates/fixes/translations
 
 v5.04.02
