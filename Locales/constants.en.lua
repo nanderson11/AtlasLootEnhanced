@@ -90,9 +90,9 @@ if AL then
 	AL["Hide Icon"] = true;
 	AL["Minimap Button Options"] = true;
 	AL["Bonus Loot"] = true;
-	AL["Three Drakes Left"] = true;
-	AL["Two Drakes Left"] = true;
 	AL["One Drake Left"] = true;
+	AL["Two Drakes Left"] = true;
+	AL["Three Drakes Left"] = true;
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = true;
@@ -258,7 +258,7 @@ if AL then
 	AL["Scrolls"] = true;
 	AL["Off-Hand Items"] = true;
 	AL["Reagents"] = true;
-    AL["Book of Glyph Mastery"] = true;
+	AL["Book of Glyph Mastery"] = true;
 
 	--Leatherworking
 	AL["Leather Armor"] = true;
@@ -297,20 +297,20 @@ if AL then
 	AL["Card Game Item"] = true;
 	AL["Tier 1"] = true;
 	AL["Tier 2"] = true;
-    AL["Tier 3"] = true;
+	AL["Tier 3"] = true;
 	AL["Tier 4"] = true;
 	AL["Tier 5"] = true;
 	AL["Tier 6"] = true;
 	AL["Tier 7"] = true;
 	AL["Tier 8"] = true;
 	AL["10/25 Man"] = true;
-    AL["Tier 7 Sets"] = true;
-    AL["Tier 8 Sets"] = true;
+	AL["Tier 7 Sets"] = true;
+	AL["Tier 8 Sets"] = true;
 	AL["Tier 7/8 Sets"] = true;
 	AL["Level 80 PvP Sets"] = true;
 	AL["Hateful Gladiator Sets"] = true;
 	AL["Deadly Gladiator Sets"] = true;
-    AL["Furious Gladiator Sets"] = true;
+	AL["Furious Gladiator Sets"] = true;
 	AL["Arena Reward"] = true;
 	AL["Conjured Item"] = true;
 	AL["Used to summon boss"] = true;
@@ -343,8 +343,8 @@ if AL then
 	AL["Original and BC Trinkets"] = true;
 	AL["WotLK Trinkets"] = true;
     
-    --Argent Tournament
-    AL["Argent Tournament"] = true;
+	--Argent Tournament
+	AL["Argent Tournament"] = true;
 
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = true;
@@ -906,7 +906,7 @@ if AL then
 	AL["Dungeon Set 3"] = true;
 	AL["Dungeon 3 Sets"] = true;
 	AL["Tier 1/2 Sets"] = true;
-    AL["Tier 1/2/3 Sets"] = true;
+	AL["Tier 1/2/3 Sets"] = true;
 	AL["Tier 3 Sets"] = true;
 	AL["Tier 4/5/6 Sets"] = true;
 	AL["PvP Reputation Sets (Level 70)"] = true;
@@ -949,7 +949,7 @@ if AL then
 	AL["Badge of Justice Rewards"] = true;
 	AL["Emblem of Valor Rewards"] = true;
 	AL["Emblem of Heroism Rewards"] = true;
-    AL["Emblem of Conquest Rewards"] = true;
+	AL["Emblem of Conquest Rewards"] = true;
 	AL["Accesories and Weapons"] = true;
 	AL["Accessories"] = true;
 	AL["Armor and Weapons"] = true;
