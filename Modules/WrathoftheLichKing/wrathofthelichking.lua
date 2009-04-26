@@ -3381,7 +3381,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 41640, "", "=q4=Furious Gladiator's Armwraps of Dominance", "=ds=", "39400 #faction# #reqrating# 1400"};
 		{ 17, 41630, "", "=q4=Furious Gladiator's Belt of Dominance", "=ds=", "62000 #faction# #reqrating# 1450"};
 		{ 18, 41635, "", "=q4=Furious Gladiator's Boots of Dominance", "=ds=", "62000 #faction# #reqrating# 1500"};
-		{ 20, 0, "", "=q4=", "=ds=", "39400 #faction# #reqrating# 1400"};
+		{ 20, 41625, "", "=q4=Furious Gladiator's Armwraps of Salvation", "=ds=", "39400 #faction# #reqrating# 1400"};
 		{ 21, 41617, "", "=q4=Furious Gladiator's Belt of Salvation", "=ds=", "62000 #faction# #reqrating# 1450"};
 		{ 22, 41621, "", "=q4=Furious Gladiator's Boots of Salvation", "=ds=", "62000 #faction# #reqrating# 1500"};
 		{ 24, 41840, "", "=q4=Furious Gladiator's Armwraps of Triumph", "=ds=", "39400 #faction# #reqrating# 1400"};
