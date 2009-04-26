@@ -545,12 +545,18 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["Noblegarden"] = {
 		{ 1, 0, "INV_Egg_03", "=q6=#x23#", ""};
-		{ 2, 19028, "", "=q1=Elegant Dress", "=ds=#s5#"};
-		{ 3, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#"};
-		{ 4, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#"};
-		{ 5, 7807, "", "=q1=Candy Bar", "=ds=#e3#"};
-		{ 6, 7808, "", "=q1=Chocolate Square", "=ds=#e3#"};
-		{ 7, 7806, "", "=q1=Lollipop", "=ds=#e3#"};
+		{ 2, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#"};
+		{ 4, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#"};
+		{ 5, 44803, "", "=q1=Spring Circlet", "=ds=#s1#"};
+		{ 6, 19028, "", "=q1=Elegant Dress", "=ds=#s5#"};
+		{ 7, 44800, "", "=q1=Spring Robes", "=ds=#s5#"};
+		{ 8, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#"};
+		{ 9, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#"};
+		{ 10, 45073, "", "=q1=Spring Flowers", "=ds=#h1#"};
+		{ 11, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
+		{ 12, 44792, "", "=q1=Blossoming Branch", "=ds="};
+		{ 13, 44818, "", "=q1=Noblegarden Egg", "=ds="};
+		{ 15, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
 		Back = "WORLDEVENTMENU";
 	};
 
