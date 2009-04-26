@@ -112,7 +112,7 @@ AtlasLoot_Data["WINTERGRASPMENU"] = {
         { 3, "LakeWintergrasp3", "inv_helmet_134", "=ds="..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], ""};
         { 4, "LakeWintergrasp5", "inv_sword_19", "=ds="..AL["Heirloom"], ""};
         { 17, "LakeWintergrasp2", "inv_helmet_136", "=ds="..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], ""};
-        { 18, "LakeWintergrasp4", "inv_jewelcrafting_icediamond_02", "=ds=", ""};
+        { 18, "LakeWintergrasp4", "inv_jewelcrafting_icediamond_02", "=ds="..AL["PVP Gems/Enchants/Jewelcrafting Designs"], ""};
         Back = "PVPMENU";
     };
 
