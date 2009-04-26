@@ -1,5 +1,5 @@
 ﻿--[[
-constants.fr.lua --- Traduction frFR par KKram & Trasher. Merci à Pettigrow pour ses quelques traductions. (dernière maj : 16/04/2009)
+constants.fr.lua --- Traduction frFR par Trasher. Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -90,9 +90,9 @@ if AL then
 	AL["Hide Icon"] = "Cacher l'icône";
 	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
 	AL["Bonus Loot"] = "Bonus de loot";
-	AL["Three Drakes Left"] = "Sartharion + 3 Drakes";
-	AL["Two Drakes Left"] = "Sartharion + 2 Drakes";
 	AL["One Drake Left"] = "Sartharion + 1 Drake";
+	AL["Two Drakes Left"] = "Sartharion + 2 Drakes";
+	AL["Three Drakes Left"] = "Sartharion + 3 Drakes";
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'Atlasloot";
