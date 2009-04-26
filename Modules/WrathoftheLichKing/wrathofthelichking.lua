@@ -2388,34 +2388,37 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarAuriaya"] = {
-		{ 1, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#"};
-		{ 2, 45864, "", "=q4=Cover of the Keepers", "=ds=#s1#, #a2#"};
-		{ 3, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s8#, #a2#"};
-		{ 4, 45711, "", "=q4=Ironaya's Discarded Mantle", "=ds=#s3#, #a3#"};
-		{ 5, 45712, "", "=q4=Chestplate of Titanic Fury", "=ds=#s5#, #a4#"};
-		{ 6, 45708, "", "=q4=Archaedas' Lost Legplates", "=ds=#s11#, #a4#"};
-		{ 7, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#"};
-		{ 8, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#"};
-		{ 9, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#"};
+        { 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "" };
+		{ 2, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#"};
+		{ 3, 45864, "", "=q4=Cover of the Keepers", "=ds=#s1#, #a2#"};
+		{ 4, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s8#, #a2#"};
+		{ 5, 45711, "", "=q4=Ironaya's Discarded Mantle", "=ds=#s3#, #a3#"};
+		{ 6, 45712, "", "=q4=Chestplate of Titanic Fury", "=ds=#s5#, #a4#"};
+		{ 7, 45708, "", "=q4=Archaedas' Lost Legplates", "=ds=#s11#, #a4#"};
+		{ 8, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#"};
+		{ 9, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#"};
+		{ 10, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#"};
 	};
 
 	AtlasLoot_Data["UlduarAuriaya25Man"] = {
+        { 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=", "" };
 		{ 1, 45319, "", "=q4=Cloak of the Makers", "=ds=#s4#"};
-		{ 1, 45435, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#"};
-		{ 1, 45441, "", "=q4=Sandals of the Ancient Keeper", "=ds=#s12#, #a1#"};
-		{ 1, 45439, "", "=q4=Unwavering Stare", "=ds=#s1#, #a2#"};
-		{ 1, 45325, "", "=q4=Gloves of the Stonereaper", "=ds=#s9#, #a2#"};
-		{ 1, 45440, "", "=q4=Amice of the Stoic Watch", "=ds=#s3#, #a3#"};
-		{ 1, 45320, "", "=q4=Shoulderplates of the Eternal", "=ds=#s3#, #a4#"};
-		{ 1, 45334, "", "=q4=Unbreakable Chestguard", "=ds=#s5#, #a4#"};
-		{ 1, 45434, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#"};
-		{ 1, 45480, "", "=q4=Nymph Heart Charm", "=ds=#s2#"};
-		{ 1, 45326, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#"};
-		{ 1, 45438, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#"};
-		{ 1, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#, #w16#"};
-		{ 1, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#"};
-		{ 1, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#"};
-		{ 1, 45327, "", "=q4=Siren's Cry", "=ds=#w2#"};
+		{ 2, 45435, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#"};
+		{ 3, 45441, "", "=q4=Sandals of the Ancient Keeper", "=ds=#s12#, #a1#"};
+		{ 4, 45439, "", "=q4=Unwavering Stare", "=ds=#s1#, #a2#"};
+		{ 5, 45325, "", "=q4=Gloves of the Stonereaper", "=ds=#s9#, #a2#"};
+		{ 6, 45440, "", "=q4=Amice of the Stoic Watch", "=ds=#s3#, #a3#"};
+		{ 7, 45320, "", "=q4=Shoulderplates of the Eternal", "=ds=#s3#, #a4#"};
+		{ 8, 45334, "", "=q4=Unbreakable Chestguard", "=ds=#s5#, #a4#"};
+		{ 9, 45434, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#"};
+		{ 10, 45480, "", "=q4=Nymph Heart Charm", "=ds=#s2#"};
+		{ 11, 45326, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#"};
+		{ 12, 45438, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#"};
+		{ 13, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#, #w16#"};
+		{ 14, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#"};
+		{ 15, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#"};
+		{ 16, 45327, "", "=q4=Siren's Cry", "=ds=#w2#"};
+        { 17, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# #sr# 450", "" };
 	};
 
 	AtlasLoot_Data["UlduarHodir"] = {
