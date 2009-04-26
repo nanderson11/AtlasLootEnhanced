@@ -3289,8 +3289,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 5, 42070, "", "=q4=Furious Gladiator's Cloak of Subjugation", "=ds=", "47400 #faction# #reqrating# 2000"};
 		{ 6, 42074, "", "=q4=Furious Gladiator's Cloak of Triumph", "=ds=", "47400 #faction# #reqrating# 2000"};
 		{ 7, 42075, "", "=q4=Furious Gladiator's Cloak of Victory", "=ds=", "47400 #faction# #reqrating# 2000"};
-        { 10, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=", "47400 #faction# #reqrating# 1650"};
-		{ 11, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=", "47400 #faction# #reqrating# 1650"};
+        { 9, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=", "47400 #faction# #reqrating# 1650"};
+		{ 10, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=", "47400 #faction# #reqrating# 1650"};
+        { 12, 42124, "", "=q4=Medallion of the Alliance", "=ds=", "62000 #faction# #reqrating# 1800"};
+		{ 13, 42123, "", "=q4=Medallion of the Alliance", "=ds=", "30400 #faction#"};
+        { 14, 42126, "", "=q4=Medallion of the Horde", "=ds=", "62000 #faction# #reqrating# 1800"};
+		{ 15, 42122, "", "=q4=Medallion of the Horde", "=ds=", "30400 #faction#"};
 		{ 16, 42037, "", "=q4=Furious Gladiator's Pendant of Ascendancy", "=ds=", "47400 #faction# #reqrating# 1550"};
 		{ 17, 42039, "", "=q4=Furious Gladiator's Pendant of Deliverance", "=ds=", "47400 #faction# #reqrating# 1550"};
 		{ 18, 42036, "", "=q4=Furious Gladiator's Pendant of Dominance", "=ds=", "47400 #faction# #reqrating# 1550"};
@@ -3299,8 +3303,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
         { 21, 46373, "", "=q4=Furious Gladiator's Pendant of Sundering", "=ds=", "47400 #faction# #reqrating# 1550"};
 		{ 22, 42034, "", "=q4=Furious Gladiator's Pendant of Triumph", "=ds=", "47400 #faction# #reqrating# 1550"};
 		{ 23, 42035, "", "=q4=Furious Gladiator's Pendant of Victory", "=ds=", "47400 #faction# #reqrating# 1550"};
-        { 25, 42124, "", "=q4=Medallion of the Alliance", "=ds=", "62000 #faction# #reqrating# 1800"};
-		{ 26, 42126, "", "=q4=Medallion of the Horde", "=ds=", "62000 #faction# #reqrating# 1800"};
+        { 25, 42129, "", "=q4=Battlemaster's Accuracy", "=ds=", "49600 #faction#"};
+		{ 26, 42130, "", "=q4=Battlemaster's Avidity", "=ds=", "49600 #faction#"};
+		{ 27, 42131, "", "=q4=Battlemaster's Bravery", "=ds=", "49600 #faction#"};
+		{ 28, 42132, "", "=q4=Battlemaster's Conviction", "=ds=", "49600 #faction#"};
+		{ 29, 42128, "", "=q4=Battlemaster's Hostility", "=ds=", "49600 #faction#"};
 		Next = "PvP80NonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
@@ -3324,13 +3331,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 42115, "", "=q4=Deadly Gladiator's Band of Victory", "=ds=", "38000 #faction#"};
 		{ 18, 42110, "", "=q4=Hateful Gladiator's Band of Dominance", "=ds=", "30400 #faction#"};
 		{ 19, 42112, "", "=q4=Hateful Gladiator's Band of Triumph", "=ds=", "30400 #faction#"};
-		{ 21, 42129, "", "=q4=Battlemaster's Accuracy", "=ds=", "49600 #faction#"};
-		{ 22, 42130, "", "=q4=Battlemaster's Avidity", "=ds=", "49600 #faction#"};
-		{ 23, 42131, "", "=q4=Battlemaster's Bravery", "=ds=", "49600 #faction#"};
-		{ 24, 42132, "", "=q4=Battlemaster's Conviction", "=ds=", "49600 #faction#"};
-		{ 25, 42128, "", "=q4=Battlemaster's Hostility", "=ds=", "49600 #faction#"};
-		{ 27, 42123, "", "=q4=Medallion of the Alliance", "=ds=", "30400 #faction#"};
-		{ 28, 42122, "", "=q4=Medallion of the Horde", "=ds=", "30400 #faction#"};
+        { 21, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 22, 42583, "", "=q4=Deadly Gladiator's Idol of Steadfastness", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 23, 42578, "", "=q4=Deadly Gladiator's Idol of Tenacity", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 24, 42852, "", "=q4=Deadly Gladiator's Libram of Fortitude", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 25, 42614, "", "=q4=Deadly Gladiator's Libram of Justice", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 26, 42620, "", "=q4=Deadly Gladiator's Sigil of Strife", "=ds=", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 27, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 28, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", "6400 #faction# 350 #arena# #reqrating# 1250"};
+		{ 29, 42597, "", "=q4=Deadly Gladiator's Totem of the Third Wind", "6400 #faction# 350 #arena# #reqrating# 1250"};
 		Next = "PvP80NonSet3";
 		Prev = "PvP80NonSet1";
 		Back = "PVP80NONSETEPICS";
@@ -3423,6 +3432,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Back = "PVP80NONSETEPICS";
 	};
 
+    --[[
 		--------------------------------
 		--- Savage Gladiator Weapons ---
 		--------------------------------
@@ -3535,7 +3545,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Prev = "DeadlyGladiatorWeapons1";
 		Back = "LEVEL80PVPREWARDS";
 	};
-
+]]
 		---------------------------------
 		--- Furious Gladiator Weapons ---
 		---------------------------------
