@@ -274,6 +274,26 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
+	UlduarA = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+	};
+	UlduarB = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+	};
+	UlduarC = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+	};
+	UlduarD = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+	};
+	UlduarE = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+	};
     UlduarHallsofStone = {
         "";
         GREY..INDENT..AL["Trash Mobs"];

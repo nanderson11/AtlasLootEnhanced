@@ -2228,14 +2228,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#, #w15#"};
 		{ 17, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#"};
 		{ 18, 45086, "", "=q4=Rising Sun", "=ds=#w11#"};
-		{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
-		{ 21, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#"};
-		{ 22, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
-		{ 23, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
-		{ 24, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
-		{ 25, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#"};
-		{ 26, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 27, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
+		{ 20, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
+		{ 21, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
+		{ 23, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 24, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#"};
+		{ 25, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
+		{ 26, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
+		{ 27, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
+		{ 28, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#"};
 	};
 	
 	AtlasLoot_Data["UlduarIgnis"] = {
@@ -2634,9 +2634,37 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 24, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};	
 		{ 25, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)"};	
 		{ 26, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
-		{ 28, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 28, 0, "INV_Box_01", "=q6=#j53#"};
 		{ 29, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
 		{ 30, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+	};
+
+	AtlasLoot_Data["UlduarTrash"] = {
+		{ 1, 46341, "", "=q4=Drape of the Spellweaver", "=ds=#s4#"};
+		{ 2, 46347, "", "=q4=Cloak of the Dormant Blaze", "=ds=#s4#"};
+		{ 3, 46344, "", "=q4=Iceshear Mantle", "=ds=#s3#, #a1#"};
+		{ 4, 46346, "", "=q4=Boots of Unsettled Prey", "=ds=#s12#, #a3#"};
+		{ 5, 46345, "", "=q4=Bracers of Righteous Reformation", "=ds=#s8#, #a4#"};
+		{ 6, 46340, "", "=q4=Adamant Handguards", "=ds=#s9#, #a4#"};
+		{ 7, 46343, "", "=q4=Fervor of the Protectorate", "=ds=#s2#"};
+		{ 8, 46339, "", "=q4=Mimiron's Repeater", "=ds=#w5#"};
+		{ 9, 46351, "", "=q4=Bloodcrush Cudgel", "=ds=#h1# #w6#"};
+		{ 10, 44310, "", "=q4=Namlak's Supernumerary Sticker", "=ds=#h1# #w4#"};
+		{ 11, 46350, "", "=q4=Pillar of Fortitude", "=ds=#w9#"};	
+		{ 12, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#"};
+	};
+	
+	AtlasLoot_Data["UlduarTrash25Man"] = {
+		{ 1, 45541, "", "=q4=Shroud of Alteration", "=ds=#s4#"};
+		{ 2, 45547, "", "=q4=Relic Hunter's Cord", "=ds=#s10#, #a2#"};
+		{ 3, 45548, "", "=q4=Belt of the Sleeper", "=ds=#s10#, #a2#"};
+		{ 4, 45543, "", "=q4=Shoulders of Misfortune", "=ds=#s3#, #a3#"};
+		{ 5, 45544, "", "=q4=Leggings of the Tortured Earth", "=ds=#s11#, #a3#"};
+		{ 6, 45542, "", "=q4=Greaves of the Stonewarder", "=ds=#s12#, #a4#"};	
+		{ 7, 45540, "", "=q4=Bladebearer's Signet", "=ds=#s13#"};		
+		{ 8, 45539, "", "=q4=Pendant of Focused Energies", "=ds=#s2#"};	
+		{ 9, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#, #w14#"};
+		{ 10, 45605, "", "=q4=Daschal's Bite", "=ds=#h1# #w4#"};
 	};
 
 	----------------

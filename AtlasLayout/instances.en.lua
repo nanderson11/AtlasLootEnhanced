@@ -160,6 +160,12 @@ AtlasLootNewBossButtons = {
         "UlduarRazorscale";
         "UlduarIgnis";
         "UlduarDeconstructor";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"UlduarTrash";
         };
 
     UlduarB = {
@@ -172,6 +178,9 @@ AtlasLootNewBossButtons = {
         "";
         "UlduarKologarn";
         "";
+		"";
+		"";
+		"UlduarTrash";
         };
 
     UlduarC = {
@@ -182,17 +191,27 @@ AtlasLootNewBossButtons = {
         "UlduarHodir";
         "UlduarThorim";
         "UlduarFreya";
+		"";
+		"";
+		"";
+		"UlduarTrash";
         };
 
     UlduarD = {
         "";
         "UlduarMimiron";
+		"";
+		"";
+		"UlduarTrash";
         };
 
     UlduarE = {
         "";
         "UlduarVezax";
         "";
+		"";
+		"";
+		"UlduarTrash";
         };
 
     UlduarHallsofLightning = {
