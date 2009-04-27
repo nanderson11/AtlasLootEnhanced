@@ -967,6 +967,7 @@ if AL then
     AL["BT Patterns/Plans"] = "ЧХ - Выкройки/Чертежы";
     AL["Hyjal Summit Designs"] = "Эскизы - Вершина Хиджала";
     AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
+	AL["Ulduar Formula/Patterns/Plans"] = "Ульдуар - Формулы/Выкройки/Чертежы";
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
     AL["Sigil"] = "Печать";
 
