@@ -2208,6 +2208,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#"};
 		{ 20, 45297, "", "=q4=Shimmering Seal", "=ds=#s13#"};
 		{ 21, 45296, "", "=q4=Twirling Blades", "=ds=#w11#"};
+		Next = "UlduarRazorscale";
 	};
 
 	AtlasLoot_Data["UlduarLeviathan25Man"] = {
@@ -2228,53 +2229,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#, #w15#"};
 		{ 17, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#"};
 		{ 18, 45086, "", "=q4=Rising Sun", "=ds=#w11#"};
-		{ 20, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 21, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 23, 0, "INV_Box_01", "=q6=#j53#", ""};
-		{ 24, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#"};
-		{ 25, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
-		{ 26, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
-		{ 27, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
-		{ 28, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#"};
+		{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 21, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#"};
+		{ 22, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
+		{ 23, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
+		{ 24, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
+		{ 25, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#"};
+		Next = "UlduarRazorscale25Man";
 	};
 	
-	AtlasLoot_Data["UlduarIgnis"] = {
-		{ 1, 45317, "", "=q4=Shawl of the Caretaker", "=ds=#s4#"};
-		{ 2, 45318, "", "=q4=Drape of Fuming Anger", "=ds=#s4#"};
-		{ 3, 45312, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#"};
-		{ 4, 45316, "", "=q4=Armbraces of the Vibrant Flame", "=ds=#s8#, #a3#"};
-		{ 5, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#"};
-		{ 6, 45310, "", "=q4=Gauntlets of the Iron Furnace", "=ds=#s9#, #a4#"};
-		{ 7, 45313, "", "=q4=Furnace Stone", "=ds=#s14#"};
-		{ 8, 45314, "", "=q4=Igniter Rod", "=ds=#s15#"};
-		{ 9, 45311, "", "=q4=Relentless Edge", "=ds=#w7#"};
-		{ 10, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#"};
-	};
-	
-	AtlasLoot_Data["UlduarIgnis25Man"] = {
-		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#"};
-		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-		{ 4, 45186, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#"};
-		{ 5, 45162, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#"};
-		{ 6, 45185, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#"};
-		{ 7, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#"};
-		{ 8, 45187, "", "=q4=Wristguards of the Firetender", "=ds=#s8#, #a3#"};
-		{ 9, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#"};
-		{ 10, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#"};
-		{ 11, 45166, "", "=q4=Charred Saronite Greaves", "=ds=#s12#, #a4#"};
-		{ 12, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#"};
-		{ 13, 45157, "", "=q4=Cindershard Ring", "=ds=#s13#"};
-		{ 14, 45158, "", "=q4=Heart of Iron", "=ds=#s14#"};
-		{ 15, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#"};
-		{ 16, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#"};
-		{ 17, 45171, "", "=q4=Intensity", "=ds=#w9#"};
-		{ 18, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#"};
-		{ 20, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 21, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 22, 45097, "", "=q4=Pattern: Lightning Grounded Boots","=ds=#p7# (450)"};
-		{ 23, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
-	};
-
 	AtlasLoot_Data["UlduarRazorscale"] = {
 		{ 1, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#"};
 		{ 2, 45302, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#"};
@@ -2286,6 +2249,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45303, "", "=q4=Band of Draconic Guile", "=ds=#s13#"};
 		{ 9, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#"};
 		{ 10, 45298, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#"};
+		Prev = "UlduarLeviathan";
+		Next = "UlduarIgnis";
 	};
 
 	AtlasLoot_Data["UlduarRazorscale25Man"] = {
@@ -2308,6 +2273,45 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 18, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#"};
 		{ 19, 45147, "", "=q4=Guiding Star", "=ds=#h3#, #w6#"};
 		{ 20, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#"};
+		Prev = "UlduarLeviathan25Man";
+		Next = "UlduarIgnis25Man";
+	};
+	
+	AtlasLoot_Data["UlduarIgnis"] = {
+		{ 1, 45317, "", "=q4=Shawl of the Caretaker", "=ds=#s4#"};
+		{ 2, 45318, "", "=q4=Drape of Fuming Anger", "=ds=#s4#"};
+		{ 3, 45312, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#"};
+		{ 4, 45316, "", "=q4=Armbraces of the Vibrant Flame", "=ds=#s8#, #a3#"};
+		{ 5, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#"};
+		{ 6, 45310, "", "=q4=Gauntlets of the Iron Furnace", "=ds=#s9#, #a4#"};
+		{ 7, 45313, "", "=q4=Furnace Stone", "=ds=#s14#"};
+		{ 8, 45314, "", "=q4=Igniter Rod", "=ds=#s15#"};
+		{ 9, 45311, "", "=q4=Relentless Edge", "=ds=#w7#"};
+		{ 10, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#"};
+		Prev = "UlduarRazorscale";
+		Next = "UlduarDeconstructor";
+	};
+	
+	AtlasLoot_Data["UlduarIgnis25Man"] = {
+		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#"};
+		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		{ 4, 45186, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#"};
+		{ 5, 45162, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#"};
+		{ 6, 45185, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#"};
+		{ 7, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#"};
+		{ 8, 45187, "", "=q4=Wristguards of the Firetender", "=ds=#s8#, #a3#"};
+		{ 9, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#"};
+		{ 10, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#"};
+		{ 11, 45166, "", "=q4=Charred Saronite Greaves", "=ds=#s12#, #a4#"};
+		{ 12, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#"};
+		{ 13, 45157, "", "=q4=Cindershard Ring", "=ds=#s13#"};
+		{ 14, 45158, "", "=q4=Heart of Iron", "=ds=#s14#"};
+		{ 15, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#"};
+		{ 16, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#"};
+		{ 17, 45171, "", "=q4=Intensity", "=ds=#w9#"};
+		{ 18, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#"};
+		Prev = "UlduarRazorscale25Man";
+		Next = "UlduarDeconstructor25Man";
 	};
 	
 	AtlasLoot_Data["UlduarDeconstructor"] = {
@@ -2321,6 +2325,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45685, "", "=q4=Plasma Foil", "=ds=#h3#, #w4#"};
 		{ 9, 45675, "", "=q4=Power Enhancing Loop", "=ds=#s13#"};
 		{ 10, 45682, "", "=q4=Pulsing Spellshield", "=ds=#w8#"};
+		Prev = "UlduarIgnis";
+		Next = "UlduarIronCouncil";
 	};
 
 	AtlasLoot_Data["UlduarDeconstructor25Man"] = {
@@ -2341,13 +2347,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45246, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#"};
 		{ 17, 45256, "", "=q4=Twisted Visage", "=ds=#w9#"};
 		{ 18, 45257, "", "=q4=Quartz Crystal Wand", "=ds=#w12#", "" };
-		{ 20, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 21, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 22, 45094, "", "=q4=Pattern: Belt of Dragons","=ds=#p7# (450)"};
-		{ 24, 0, "INV_Box_01", "=q6=#j53#", ""};
-		{ 25, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#"};
-		{ 26, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#"};
-		{ 27, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#"};
+		{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 21, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#"};
+		{ 22, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#"};
+		{ 23, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#"};
+		Prev = "UlduarIgnis25Man";
+		Next = "UlduarIronCouncil25Man";
 	};
 
 	AtlasLoot_Data["UlduarIronCouncil"] = {
@@ -2369,6 +2374,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 45447, "", "=q4=Watchful Eye", "=ds=#s13#"};
 		{ 20, 45448, "", "=q4=Perilous Bite", "=ds=#h1#, #w4#"};
 		{ 21, 45449, "", "=q4=The Masticator", "=ds=#h3#, #w13#"};
+		Prev = "UlduarDeconstructor";
+		Next = "UlduarKologarn";
 	};
 
 	AtlasLoot_Data["UlduarIronCouncil25Man"] = {
@@ -2389,11 +2396,12 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45235, "", "=q4=Radiant Seal", "=ds=#s13#"};
 		{ 17, 45233, "", "=q4=Rune Edge", "=ds=#h2#, #w10#"};
 		{ 18, 45234, "", "=q4=Rapture", "=ds=#w9#"};
-		{ 20, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 22, 45506, "", "=q4=Archivum Data Disc", "=ds=#m2#"};
-		{ 24, 0, "INV_Box_01", "=q6=#j53#", ""};
-		{ 25, 45242, "", "=q4=Drape of Mortal Downfall", "=ds=#s4#"};
-		{ 26, 45241, "", "=q4=Belt of Colossal Rage", "=ds=#s10#, #a4#"};
+		{ 20, 45506, "", "=q4=Archivum Data Disc", "=ds=#m2#"};
+		{ 22, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 23, 45242, "", "=q4=Drape of Mortal Downfall", "=ds=#s4#"};
+		{ 24, 45241, "", "=q4=Belt of Colossal Rage", "=ds=#s10#, #a4#"};
+		Prev = "UlduarDeconstructor25Man";
+		Next = "UlduarKologarn25Man";
 	};
 
 	AtlasLoot_Data["UlduarKologarn"] = {
@@ -2407,6 +2415,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45703, "", "=q4=Spark of Hope", "=ds=#s14#"};
 		{ 9, 45700, "", "=q4=Stoneguard", "=ds=#h1# #w10#"};	
 		{ 10, 45695, "", "=q4=Spire of Withering Dreams", "=ds=#w9#"};
+		Prev = "UlduarIronCouncil";
+		Next = "UlduarAuriaya";
 	};
 
 	AtlasLoot_Data["UlduarKologarn25Man"] = {
@@ -2427,14 +2437,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#s16#, #w14#"};
 		{ 17, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#"};
 		{ 18, 45261, "", "=q4=Giant's Bane", "=ds=#w5#"};
-		{ 20, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 21, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)"};
-		{ 22, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
-		{ 23, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)"};
-		{ 24, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)"};
-		{ 25, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)"};
-		{ 26, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)"};
-		{ 27, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
+		Prev = "UlduarIronCouncil25Man";
+		Next = "UlduarAuriaya25Man";
 	};
 
 	AtlasLoot_Data["UlduarAuriaya"] = {
@@ -2448,6 +2452,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#"};
 		{ 9, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#"};
 		{ 10, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#"};
+		Prev = "UlduarKologarn";
+		Next = "UlduarHodir";
 	};
 
 	AtlasLoot_Data["UlduarAuriaya25Man"] = {
@@ -2469,7 +2475,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#"};
 		{ 18, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#"};
 		{ 19, 45327, "", "=q4=Siren's Cry", "=ds=#w2#"};
-        { 21, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
+		Prev = "UlduarKologarn25Man";
+		Next = "UlduarHodir25Man";
 	};
 
 	AtlasLoot_Data["UlduarHodir"] = {
@@ -2487,6 +2494,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 19, 45886, "", "=q4=Icecore Staff", "=ds=#w9#"};
 		{ 20, 45887, "", "=q4=Ice Layered Barrier", "=ds=#w8#"};
 		{ 21, 45877, "", "=q4=The Boreal Guard", "=ds=#w8#"};
+		Prev = "UlduarAuriaya";
+		Next = "UlduarThorim";
 	};
 
 	AtlasLoot_Data["UlduarHodir25Man"] = {
@@ -2500,17 +2509,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=#e15#"};
 		{ 11, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=#e15#"};
 		{ 12, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=#e15#"};
-		{ 14, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 15, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 16, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};
-		{ 17, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
-		{ 18, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};	
-		{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
-		{ 21, 45461, "", "=q4=Drape of Icy Intent", "=ds=#s4#"};
-		{ 22, 45462, "", "=q4=Gloves of the Frozen Glade", "=ds=#s9#, #a2#"};
-		{ 23, 45460, "", "=q4=Bindings of Winter Gale", "=ds=#s8#, #a3#"};
-		{ 24, 45459, "", "=q4=Frigid Strength of Hodir", "=ds=#s2#"};
-		{ 25, 45457, "", "=q4=Staff of Endless Winter", "=ds=#w9#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 17, 45461, "", "=q4=Drape of Icy Intent", "=ds=#s4#"};
+		{ 18, 45462, "", "=q4=Gloves of the Frozen Glade", "=ds=#s9#, #a2#"};
+		{ 19, 45460, "", "=q4=Bindings of Winter Gale", "=ds=#s8#, #a3#"};
+		{ 20, 45459, "", "=q4=Frigid Strength of Hodir", "=ds=#s2#"};
+		{ 21, 45457, "", "=q4=Staff of Endless Winter", "=ds=#w9#"};
+		Prev = "UlduarAuriaya25Man";
+		Next = "UlduarThorim25Man";
 	};
 
 	AtlasLoot_Data["UlduarThorim"] = {
@@ -2527,6 +2533,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45659, "", "=q4=Spaulders of the Wayward Conqueror", "=ds=#e15#"};
 		{ 17, 45660, "", "=q4=Spaulders of the Wayward Protector", "=ds=#e15#"};
 		{ 18, 45661, "", "=q4=Spaulders of the Wayward Vanquisher", "=ds=#e15#"};
+		Prev = "UlduarHodir";
+		Next = "UlduarFreya";
 	};
 
 	AtlasLoot_Data["UlduarThorim25Man"] = {
@@ -2537,11 +2545,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 45469, "", "=q4=Sif's Promise", "=ds=#s13#"};	
 		{ 7, 45466, "", "=q4=Scale of Fates", "=ds=#s14#"};
 		{ 8, 45463, "", "=q4=Vulmir, the Northern Tempest", "=ds=#h1# #w6#"};	
-		{ 10, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 11, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)"};
 		{ 16, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=#e15#"};
 		{ 17, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=#e15#"};
 		{ 18, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=#e15#"};
+		Prev = "UlduarHodir25Man";
+		Next = "UlduarFreya25Man";
 	};
 
 	AtlasLoot_Data["UlduarFreya"] = {
@@ -2555,6 +2563,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45645, "", "=q4=Gloves of the Wayward Protector", "=ds=#e15#"};
 		{ 17, 45646, "", "=q4=Gloves of the Wayward Vanquisher", "=ds=#e15#"};
 		{ 18, 45644, "", "=q4=Gloves of the Wayward Conqueror", "=ds=#e15#"};
+		Prev = "UlduarThorim";
+		Next = "UlduarMimiron";
 	};
 
 	AtlasLoot_Data["UlduarFreya25Man"] = {
@@ -2566,13 +2576,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 7, 45480, "", "=q4=Nymph Heart Charm", "=ds=#s2#"};
 		{ 8, 45479, "", "=q4=The Lifebinder", "=ds=#w9#"};
 		{ 10, 46110, "", "=q3=Alchemist's Cache", "=ds="};
-		{ 12, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 13, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};
-		{ 14, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)"};
-		{ 15, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
 		{ 16, 45653, "", "=q4=Legplates of the Wayward Conqueror", "=ds=#e15#"};
 		{ 17, 45655, "", "=q4=Legplates of the Wayward Vanquisher", "=ds=#e15#"};
 		{ 18, 45654, "", "=q4=Legplates of the Wayward Protector", "=ds=#e15#"};
+		Prev = "UlduarThorim25Man";
+		Next = "UlduarMimiron25Man";
 	};
 
 	AtlasLoot_Data["UlduarMimiron"] = {
@@ -2584,6 +2592,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45647, "", "=q4=Helm of the Wayward Conqueror", "=ds=#e15#"};
 		{ 17, 45649, "", "=q4=Helm of the Wayward Vanquisher", "=ds=#e15#"};
 		{ 18, 45648, "", "=q4=Helm of the Wayward Protector", "=ds=#e15#"};
+		Prev = "UlduarFreya";
+		Next = "UlduarVezax";
 	};
 	
 	AtlasLoot_Data["UlduarMimiron25Man"] = {
@@ -2594,18 +2604,15 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 6, 45491, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#"};
 		{ 7, 45490, "", "=q4=Pandora's Plea", "=ds=#s14#"};
 		{ 8, 45489, "", "=q4=Insanity's Grip", "=ds=#w13#"};	
-		{ 10, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 11, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 12, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)"};
-		{ 13, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)"};
-		{ 14, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)"};
-		{ 15, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};	
 		{ 16, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#"};
 		{ 17, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#"};
 		{ 18, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#"};
+		Prev = "UlduarFreya25Man";
+		Next = "UlduarVezax25Man";
 	};
 
 	AtlasLoot_Data["UlduarVezax"] = {
+		Prev = "UlduarMimiron";
 	};
 
 
@@ -2628,15 +2635,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#"};
 		{ 18, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#"};
 		{ 19, 45511, "", "=q4=Scepter of Lost Souls", "=ds=#w12#"};
-		{ 21, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 22, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 23, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)"};
-		{ 24, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};	
-		{ 25, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)"};	
-		{ 26, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
-		{ 28, 0, "INV_Box_01", "=q6=#j53#"};
-		{ 29, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
-		{ 30, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+		{ 21, 0, "INV_Box_01", "=q6=#j53#"};
+		{ 22, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
+		{ 23, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+		Prev = "UlduarMimiron25Man";
 	};
 
 	AtlasLoot_Data["UlduarTrash"] = {
@@ -2665,6 +2667,27 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45539, "", "=q4=Pendant of Focused Energies", "=ds=#s2#"};	
 		{ 9, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#, #w14#"};
 		{ 10, 45605, "", "=q4=Daschal's Bite", "=ds=#h1# #w4#"};
+	};
+	
+	AtlasLoot_Data["UlduarPatterns"] = {
+		{ 1, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
+		{ 2, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
+		{ 3, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)"};
+		{ 4, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
+		{ 5, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)"};
+		{ 6, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
+		{ 7, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)"};
+		{ 8, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)"};
+		{ 9, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)"};
+		{ 10, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)"};
+		{ 11, 45101, "", "=q4=Pattern: Boots of Wintry Endurance", "=ds=#p7# (450)"};
+		{ 12, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)"};
+		{ 13, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)"};
+		{ 14, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)"};
+		{ 15, 45089, "", "=q4=Plans: Battlelord's Plate Boots", "=ds=#p2# (450)"};
+		{ 16, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)"};
+		{ 17, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)"};
+		{ 18, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
 	};
 
 	----------------

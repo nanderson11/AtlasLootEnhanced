@@ -277,22 +277,32 @@ AtlasLoot_ExtraText = {
 	UlduarA = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
+		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+		GREY..INDENT..AL["Tier 7/8 Sets"];
 	};
 	UlduarB = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
+		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+		GREY..INDENT..AL["Tier 7/8 Sets"];
 	};
 	UlduarC = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
+		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+		GREY..INDENT..AL["Tier 7/8 Sets"];
 	};
 	UlduarD = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
+		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+		GREY..INDENT..AL["Tier 7/8 Sets"];
 	};
 	UlduarE = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
+		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+		GREY..INDENT..AL["Tier 7/8 Sets"];
 	};
     UlduarHallsofStone = {
         "";

@@ -970,6 +970,7 @@ if AL then
 	AL["BT Patterns/Plans"] = true;
 	AL["Hyjal Summit Designs"] =true;
 	AL["SP Patterns/Plans"] = true;
+	AL["Ulduar Formula/Patterns/Plans"] = true;
 	AL["Additional Heroic Loot"] = true;
 	AL["Sigil"] = true; --Can be added to BabbleInv
 

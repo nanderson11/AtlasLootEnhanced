@@ -793,6 +793,7 @@ if AL then
 	--    AL["Level 40-49"] = true,
 	--    AL["Level 50-60"] = true,
     AL["BT Patterns/Plans"] = "BT Muster/Pläne";
+	AL["Ulduar Formula/Patterns/Plans"] = "Ulduar Formeln/Muster/Pläne";
     AL["Hyjal Summit Designs"] = "Berg Hyjal Designs";
     AL["SP Patterns/Plans"] = "SP Muster/Pläne";
     

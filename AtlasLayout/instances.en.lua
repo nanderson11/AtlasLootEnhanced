@@ -166,6 +166,8 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"UlduarTrash";
+		"UlduarPatterns";
+		"T7T8SET";
         };
 
     UlduarB = {
@@ -181,6 +183,8 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"UlduarTrash";
+		"UlduarPatterns";
+		"T7T8SET";
         };
 
     UlduarC = {
@@ -195,6 +199,8 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"UlduarTrash";
+		"UlduarPatterns";
+		"T7T8SET";
         };
 
     UlduarD = {
@@ -203,6 +209,8 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"UlduarTrash";
+		"UlduarPatterns";
+		"T7T8SET";
         };
 
     UlduarE = {
@@ -212,6 +220,8 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"UlduarTrash";
+		"UlduarPatterns";
+		"T7T8SET";
         };
 
     UlduarHallsofLightning = {

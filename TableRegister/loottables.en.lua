@@ -210,6 +210,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["UlduarMimiron25Man"] = { BabbleBoss["Mimiron"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarVezax"] = { BabbleBoss["General Vezax"], "AtlasLootWotLK" };
  	AtlasLoot_TableNames["UlduarVezax25Man"] = { BabbleBoss["General Vezax"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["UlduarPatterns"] = { AL["Ulduar Formula/Patterns/Plans"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarTrash25Man"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
 
