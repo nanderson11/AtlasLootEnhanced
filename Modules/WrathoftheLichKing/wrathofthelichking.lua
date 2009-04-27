@@ -775,7 +775,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 20, 37842, "", "=q3=Belt of Vivacity", "=ds=#s10#, #a2#"};
 		{ 21, 37841, "", "=q3=Slag Footguards", "=ds=#s12#, #a2#"};
 		Prev = "HallsofLightningBjarngrim";
-		Next = "HallsofLightningVolkhan";
+		Next = "HallsofLightningIonar";
 	};
 
 	AtlasLoot_Data["HallsofLightningIonar"] = {
@@ -2360,7 +2360,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 2, 45423, "", "=q4=Runetouch Handwraps", "=ds=#s8#, #a1#"};
 		{ 3, 45324, "", "=q4=Leggings of Swift Reflexes", "=ds=#s11#, #a2#"};
 		{ 4, 45378, "", "=q4=Boots of the Petrified Forest", "=ds=#s12#, #a2#"};
-        { 5, 45329, "", "=q4=Circlet of True Sight", "=ds=#s1#, #a3#"};
+		{ 5, 45329, "", "=q4=Circlet of True Sight", "=ds=#s1#, #a3#"};
 		{ 6, 45333, "", "=q4=Belt of the Iron Servant", "=ds=#s10#, #a3#"};
 		{ 7, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#"};
 		{ 8, 45418, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#"};
@@ -2442,7 +2442,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarAuriaya"] = {
-        { 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "" };
+		{ 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "" };
 		{ 2, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#"};
 		{ 3, 45864, "", "=q4=Cover of the Keepers", "=ds=#s1#, #a2#"};
 		{ 4, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s8#, #a2#"};
