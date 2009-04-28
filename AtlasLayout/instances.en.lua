@@ -216,7 +216,7 @@ AtlasLootNewBossButtons = {
     UlduarE = {
         "";
         "UlduarVezax";
-        "";
+        "UlduarYoggSaron";
 		"";
 		"";
 		"UlduarTrash";

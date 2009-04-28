@@ -950,6 +950,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "UlduarFreya" },
 		{ "", "UlduarMimiron" },
 		{ "", "UlduarVezax" },
+		{ "", "UlduarYoggSaron" },
 		{ "", "UlduarTrash" },
 		{ "", "UlduarPatterns" },
 	},

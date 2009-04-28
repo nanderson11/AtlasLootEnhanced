@@ -2613,32 +2613,68 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["UlduarVezax"] = {
 		Prev = "UlduarMimiron";
+		Next = "UlduarYoggSaron";
 	};
 
 
 	AtlasLoot_Data["UlduarVezax25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#"};
 		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-		{ 4, 45038, "", "=q5=Fragment of Val'anyr", "=ds="};
-		{ 5, 45514, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#"};
-		{ 6, 45508, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#"};
-		{ 7, 45512, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#"};
-		{ 8, 45504, "", "=q4=Darkcore Leggings", "=ds=#s11#, #a3#"};
-		{ 9, 45513, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#"};
-		{ 10, 45502, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#"};
-		{ 11, 45505, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#"};
-		{ 12, 45501, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#"};
-		{ 13, 45503, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#"};
-		{ 14, 45515, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#"};
-		{ 15, 45507, "", "=q4=The General's Heart", "=ds=#s14#"};
-		{ 16, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#, #w14#"};
-		{ 17, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#"};
-		{ 18, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#"};
-		{ 19, 45511, "", "=q4=Scepter of Lost Souls", "=ds=#w12#"};
-		{ 21, 0, "INV_Box_01", "=q6=#j53#"};
-		{ 22, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
-		{ 23, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+		{ 4, 45514, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#"};
+		{ 5, 45508, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#"};
+		{ 6, 45512, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#"};
+		{ 7, 45504, "", "=q4=Darkcore Leggings", "=ds=#s11#, #a3#"};
+		{ 8, 45513, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#"};
+		{ 9, 45502, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#"};
+		{ 10, 45505, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#"};
+		{ 11, 45501, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#"};
+		{ 12, 45503, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#"};
+		{ 13, 45515, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#"};
+		{ 14, 45507, "", "=q4=The General's Heart", "=ds=#s14#"};
+		{ 15, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#, #w14#"};
+		{ 16, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#"};
+		{ 17, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#"};
+		{ 18, 45511, "", "=q4=Scepter of Lost Souls", "=ds=#w12#"};
+		{ 20, 0, "INV_Box_01", "=q6=#j53#"};
+		{ 21, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
+		{ 22, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
 		Prev = "UlduarMimiron25Man";
+		Next = "UlduarYoggSaron25Man";
+	};
+
+	AtlasLoot_Data["UlduarYoggSaron"] = {
+		{ 1, 45529, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#"};
+		{ 2, 45532, "", "=q4=Cowl of Dark Whispers", "=ds=#s1#, #a1#"};
+		{ 3, 45523, "", "=q4=Garona's Guise", "=ds=#s1#, #a2#"};
+		{ 4, 45531, "", "=q4=Chestguard of the Fallen God", "=ds=#s5#, #a3#"};
+		{ 5, 45524, "", "=q4=Chestguard of Insidious Intent", "=ds=#s5#, #a3#"};
+		{ 6, 45525, "", "=q4=Godbane Signet", "=ds=#s13#"};
+		{ 7, 45530, "", "=q4=Sanity's Bond", "=ds=#s13#"};
+		{ 8, 45522, "", "=q4=Blood of the Old God", "=ds=#s14#"};
+		{ 9, 45527, "", "=q4=Soulscribe", "=ds=#w4#"};
+		{ 10, 45521, "", "=q4=Earthshaper", "=ds=#h2#, #w6#"};
+		{ 16, 45656, "", "=q4=Mantle of the Wayward Conqueror", "=ds=#e15#"};
+		{ 17, 45657, "", "=q4=Mantle of the Wayward Protector", "=ds=#e15#"};
+		{ 18, 45658, "", "=q4=Mantle of the Wayward Vanquisher", "=ds=#e15#"};
+		Prev = "UlduarVezax";
+	};
+
+	AtlasLoot_Data["UlduarYoggSaron25Man"] = {
+		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#"};
+		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
+		{ 4, 46030, "", "=q4=Treads of the Dragon Council", "=ds=#s12#, #a1#"};
+		{ 5, 46019, "", "=q4=Leggings of the Insatiable", "=ds=#s11#, #a3#"};
+		{ 6, 46028, "", "=q4=Faceguard of the Eyeless Horror", "=ds=#s1#, #a4#"};
+		{ 7, 46018, "", "=q4=Deliverance", "=ds=#w3#"};
+		{ 8, 46021, "", "=q4=Royal Seal of King Llane", "=ds=#s14#"};
+		{ 9, 46024, "", "=q4=Kingsbane", "=ds=#w4#"};
+		{ 10, 46031, "", "=q4=Touch of Madness", "=ds=#w1#"};
+		{ 11, 46016, "", "=q4=Abaddon", "=ds=#h2#, #w10#"};
+		{ 11, 46022, "", "=q4=Pendant of a Thousand Maws", "=ds=#s2#"};
+		{ 16, 45659, "", "=q4=Spaulders of the Wayward Conqueror", "=ds=#e15#"};
+		{ 17, 45660, "", "=q4=Spaulders of the Wayward Protector", "=ds=#e15#"};
+		{ 18, 45661, "", "=q4=Spaulders of the Wayward Vanquisher", "=ds=#e15#"};
+		Prev = "UlduarVezax25Man";
 	};
 
 	AtlasLoot_Data["UlduarTrash"] = {
