@@ -968,6 +968,7 @@ if AL then
 	AL["BT Patterns/Plans"] = "Patrons/Plans du Temple Noir";
 	AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
 	AL["SP Patterns/Plans"] = "Patrons/Plans du Plateau du Puits de soleil";
+	AL["Ulduar Formula/Patterns/Plans"] = "Formules/Patrons/Plans de Ulduar";
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
 	AL["Sigil"] = "Cachet";
 
