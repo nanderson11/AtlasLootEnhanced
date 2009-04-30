@@ -6,6 +6,7 @@ AtlasLoot_DefaultFrame_OnShow()
 AtlasLootDefaultFrame_OnHide()
 AtlasLoot_DewdropSubMenuRegister(loottable)
 AtlasLoot_DewdropRegister()
+AtlasLoot_SetNewStyle()
 ]]
 
 --Include all needed libraries
@@ -374,4 +375,60 @@ function AtlasLoot_DewdropRegister()
 		end,
 		'dontHook', true
 	)
+end
+
+--[[
+AtlasLoot_SetNewStyle:
+Create the new Default Frame style
+]]
+function AtlasLoot_SetNewStyle()
+	AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-StatsBackground"});
+	AtlasLootDefaultFrame_LootBackground:SetBackdropColor(1,1,1,0.5)
+	AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground", 
+		  edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
+		  edgeSize = 16, 
+		  insets = { left = 4, right = 4, top = 4, bottom = 4 }});
+	AtlasLootDefaultFrame:SetBackdropColor(1,1,1,0.5)
+	AtlasLootDefaultFrame:SetBackdropBorderColor(1,0.675,0.125,1)
+	AtlasLootDefaultFrameHeader:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Alert-Background.blp")
+	AtlasLootDefaultFrameHeader:SetTexCoord(0,0.605,0,0.703)
+	AtlasLootDefaultFrameHeader:SetWidth(299)
+	AtlasLootDefaultFrameHeader:SetHeight(60)
+	AtlasLootDefaultFrameHeader:SetPoint("TOP",AtlasLootDefaultFrame,"TOP",-3,22)
+
+	AtlasLootDefaultFrame_Options:SetNormalTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+	AtlasLootDefaultFrame_Options:SetHeight(24)
+	AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+	AtlasLootDefaultFrame_Options:SetHeight(24)
+	local buttons = {
+		"AtlasLootDefaultFrame_Options",
+		"AtlasLootDefaultFrame_LoadModules",
+		"AtlasLootDefaultFrame_Menu",
+		"AtlasLootDefaultFrame_SubMenu",
+		"AtlasLootDefaultFrame_Preset1",
+		"AtlasLootDefaultFrame_Preset2",
+		"AtlasLootDefaultFrame_Preset3",
+		"AtlasLootDefaultFrame_Preset4",
+		"AtlasLootDefaultFrameSearchButton",
+		"AtlasLootDefaultFrameSearchClearButton",
+		"AtlasLootDefaultFrameLastResultButton",
+		"AtlasLootDefaultFrameWishListButton"
+	}
+	local function SetButtons(path)
+	   getglobal(path):SetNormalTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+	   getglobal(path):SetHeight(24)
+	   getglobal(path):SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+	   getglobal(path):SetHeight(24)
+	   local tex = getglobal(path):GetNormalTexture();
+	   tex:SetTexCoord(0, 0.6640625, 0, 0.8);
+	   tex:SetHeight(32)
+	   
+	   local tex2 = getglobal(path):GetPushedTexture();
+	   tex2:SetTexCoord(0, 0.6640625, 0, 0.8);
+	   tex2:SetHeight(32)
+	end
+
+	for k,v in pairs(buttons) do
+	   SetButtons(v)
+	end
 end

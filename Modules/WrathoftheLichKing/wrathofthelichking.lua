@@ -2325,6 +2325,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45685, "", "=q4=Plasma Foil", "=ds=#h3#, #w4#"};
 		{ 9, 45675, "", "=q4=Power Enhancing Loop", "=ds=#s13#"};
 		{ 10, 45682, "", "=q4=Pulsing Spellshield", "=ds=#w8#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 17, 45868, "", "=q4=Aesir's Edge", "=ds=#h2#, #w10#"};
 		Prev = "UlduarIgnis";
 		Next = "UlduarIronCouncil";
 	};
