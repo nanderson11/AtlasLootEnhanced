@@ -2447,7 +2447,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "" };
 		{ 2, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#"};
 		{ 3, 45864, "", "=q4=Cover of the Keepers", "=ds=#s1#, #a2#"};
-		{ 4, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s8#, #a2#"};
+		{ 4, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s10#, #a2#"};
 		{ 5, 45711, "", "=q4=Ironaya's Discarded Mantle", "=ds=#s3#, #a3#"};
 		{ 6, 45712, "", "=q4=Chestplate of Titanic Fury", "=ds=#s5#, #a4#"};
 		{ 7, 45708, "", "=q4=Archaedas' Lost Legplates", "=ds=#s11#, #a4#"};
