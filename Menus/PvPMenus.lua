@@ -61,11 +61,9 @@ AtlasLoot_Data["LEVEL70PVPREWARDS"] = {
     };
 
 AtlasLoot_Data["PVP70NONSETEPICS"] = {
-        { 2, "PvP70NonSet2", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
-        { 3, "PvP70NonSet4", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
-        { 4, "PvP70NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], ""};
-        { 17, "PvP70NonSet3", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
-        { 18, "PvP70NonSet5", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
+        { 2, "PvP70NonSet2", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], ""};
+        { 3, "PvP70NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], ""};
+        { 17, "PvP70NonSet4", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], ""};
         Back = "LEVEL70PVPREWARDS";
     };
 

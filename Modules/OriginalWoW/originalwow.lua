@@ -2210,6 +2210,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 11, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3# =q1=#m1# =ds=#c2#", "", "24.53%"};
 		{ 12, 18713, "", "=q4=Rhok'delar, Longbow of the Ancient Keepers", "=q1=#m4#: =ds=#w2#, =q1=#m1# =ds=#c2#"};
 		{ 14, 15410, "", "=q3=Scale of Onyxia", "=ds=#e8#"};
+		{ 15, 21108, "", "=q1=Draconic for Dummies", "=ds=#m3#", "", "100%"};
 		{ 16, 17078, "", "=q4=Sapphiron Drape", "=ds=#s4#", "", "15.28%"};
 		{ 17, 18205, "", "=q4=Eskhandar's Collar", "=ds=#s2#", "", "14.88%"};
 		{ 18, 18813, "", "=q4=Ring of Binding", "=ds=#s13#", "", "16.28%"};

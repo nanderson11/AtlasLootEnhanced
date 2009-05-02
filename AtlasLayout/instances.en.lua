@@ -1177,8 +1177,8 @@ AtlasLootNewBossButtons = {
         "MCRagnaros";
         "";
         "T1T2T3SET";
-        "MCTrashMobs";
         "MCRANDOMBOSSDROPPS";
+        "MCTrashMobs";
         };
 
     OnyxiasLair = {
