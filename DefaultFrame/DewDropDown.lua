@@ -944,6 +944,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "UlduarDeconstructor" },
 		{ "", "UlduarIronCouncil" },
 		{ "", "UlduarKologarn" },
+		--{ "", "UlduarAlgalon" },
 		{ "", "UlduarAuriaya" },
 		{ "", "UlduarHodir" },
 		{ "", "UlduarThorim" },

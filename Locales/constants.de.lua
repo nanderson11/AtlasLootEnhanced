@@ -1005,6 +1005,10 @@ if AL then
     AL["Second Fragment Guardian"] = "Wächter des zweiten Teils";
     AL["Third Fragment Guardian"] = "Wächter des dritten Teils";
     AL["Overcharged Manacell"] = "Überladene Manazelle";
+	AL["Mysterious Egg"] = "Mysteriöses Ei";
+	AL["Hyldnir Spoils"] = "Hyldnirbeute";
+	AL["Ripe Disgusting Jar"] = "Reife eklige Flasche";
+	AL["Cracked Egg"] = "Zerbrochene Eierschale";
 
     --World Events
     AL["Abyssal Council"] = "Abyssischer Rat";

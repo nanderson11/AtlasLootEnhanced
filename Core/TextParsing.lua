@@ -46,7 +46,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#p21#", (GetSpellInfo(26797)));	-- Spellfire Tailoring
     text = gsub(text, "#p22#", (GetSpellInfo(17040)));	-- Master Hammersmith
     text = gsub(text, "#p23#", (GetSpellInfo(2575)));	-- Mining
-
+	text = gsub(text, "#p24#", (GetSpellInfo(63275)));	-- Fishing
+	
     -- Reputation
     text = gsub(text, "#r1#", BabbleFaction["Neutral"]);
     text = gsub(text, "#r2#", BabbleFaction["Friendly"]);

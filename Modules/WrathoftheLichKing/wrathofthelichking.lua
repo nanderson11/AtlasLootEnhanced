@@ -2443,6 +2443,26 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "UlduarAuriaya25Man";
 	};
 
+	AtlasLoot_Data["UlduarAlgalon"] = {
+		{ 16, 46052, "", "=q1=", "=ds=#m3#"};
+		{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
+		{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
+		{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
+		Prev = "UlduarIronCouncil";
+		Next = "UlduarAuriaya";
+	};
+	
+	AtlasLoot_Data["UlduarAlgalon25Man"] = {
+		{ 16, 46053, "", "=q1=", "=ds=#m3#"};
+		{ 17, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
+		{ 18, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
+		{ 19, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 20, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
+		Prev = "UlduarIronCouncil25Man";
+		Next = "UlduarAuriaya25Man";	
+	};	
+
 	AtlasLoot_Data["UlduarAuriaya"] = {
 		{ 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "" };
 		{ 2, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#"};
@@ -2701,7 +2721,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 9, 46351, "", "=q4=Bloodcrush Cudgel", "=ds=#h1# #w6#"};
 		{ 10, 44310, "", "=q4=Namlak's Supernumerary Sticker", "=ds=#h1# #w4#"};
 		{ 11, 46350, "", "=q4=Pillar of Fortitude", "=ds=#w9#"};	
-		{ 12, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#"};
+		{ 12, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#"};	
 	};
 	
 	AtlasLoot_Data["UlduarTrash25Man"] = {
@@ -4938,7 +4958,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
 		{ 26, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		{ 27, 43962, "", "=q4=Reins of the White Polar Bear", "=q2=#m4#: #x39#", ""};
-		{ 28, 46109, "", "=q3=Sea Turtle", "=q2=", ""};
+		{ 28, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
 		Next = "Mounts32";
 		Back = "MOUNTMENU";
 	};
@@ -4959,7 +4979,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 17, 44223, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m7#"};
 		{ 18, 44224, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m6#"};
 		{ 19, 44843, "", "=q4=Blue Dragonhawk Mount", "=ds=#e12# =ec1=#m7#"};
-		{ 20, 0, "", "=q4=Red Dragonhawk Mount", "=ds=#e12# =ec1=#m6#"};
+		{ 20, 44842, "", "=q4=Red Dragonhawk Mount", "=ds=#e12# =ec1=#m6#"};
 		{ 21, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
 		{ 22, 44164, "", "=q4=Reins of the Black Proto-Drake", "=ds=#e12#"};
 		{ 23, 0, "", "=q4=Reins of the Ironbound Proto-Drake", "=ds=#e12#"};
