@@ -286,9 +286,9 @@ local MASTER = select(2, GetSpellInfo(28596));
     
     AtlasLoot_Data["AlchemyFlask1"] = {
         { 1, "s53903", "40084", "=q1=Flask of Endless Rage", "=ds="..AL["Trainer"]};
-        { 2, "s54213", "40404", "=q1=Flask of Pure Mojo", "=ds="..AL["Trainer"]};
-        { 3, "s53902", "40083", "=q1=Flask of Stoneblood", "=ds="..AL["Trainer"]};
-        { 4, "s53901", "40082", "=q1=Flask of the Frost Wyrm", "=ds="..AL["Trainer"]};
+        { 2, "s54213", "46378", "=q1=Flask of Pure Mojo", "=ds="..AL["Trainer"]};
+        { 3, "s53902", "46377", "=q1=Flask of Stoneblood", "=ds="..AL["Trainer"]};
+        { 4, "s53901", "46376", "=q1=Flask of the Frost Wyrm", "=ds="..AL["Trainer"]};	
         { 5, "s62213", "44939", "=q1=Lesser Flask of Resistance", "=ds="..AL["Trainer"]};
         { 6, "s53899", "40079", "=q1=Lesser Flask of Toughness", "=ds="..AL["Trainer"]};
         { 7, "s42736", "33208", "=q1=Flask of Chromatic Wonder", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["The Violet Eye"]};
