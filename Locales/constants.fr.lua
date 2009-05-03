@@ -333,7 +333,7 @@ if AL then
 	AL["Reward"] = "Récompense";
 	AL["Achievement"] = "Haut fait"
 	AL["Unattainable Tabards"] = "Tabards inaccessible";
-	AL["Heirloom"] = "Antiquité";
+	AL["Heirloom"] = "Héritage";
 
 	--Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Récompenses Foire de Sombrelune";
