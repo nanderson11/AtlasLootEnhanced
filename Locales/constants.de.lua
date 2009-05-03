@@ -244,6 +244,7 @@ if AL then
     AL["Servants of the Betrayer"] = "Diener des Verräters";
     AL["Hunt for Illidan"] = "Die Jagd nach Illidan";
     AL["Drums of War"] = "Trommeln des Krieges";
+	AL["Blood of Gladiators"] = "Blut der Gladiatoren";
     AL["Loot Card Items"] = "Beutekarten Gegenstände";
     AL["UDE Items"] = "UDE Gegenstände";
     AL["Landro Longshot"] = "Landro Fernblick";
