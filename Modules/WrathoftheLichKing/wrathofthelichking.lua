@@ -2585,6 +2585,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 16, 45644, "", "=q4=Gloves of the Wayward Conqueror", "=ds=#e15#"};		
 		{ 17, 45645, "", "=q4=Gloves of the Wayward Protector", "=ds=#e15#"};
 		{ 18, 45646, "", "=q4=Gloves of the Wayward Vanquisher", "=ds=#e15#"};
+		{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
+		{ 21, 45294, "", "=q4=Petrified Ivy Sprig", "=ds=#w12#"};
 		Prev = "UlduarThorim";
 		Next = "UlduarMimiron";
 	};
