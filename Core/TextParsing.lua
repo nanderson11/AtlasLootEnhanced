@@ -208,13 +208,6 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j36#", AL["Flying Mounts"]);
     text = gsub(text, "#j37#", AL["10 Man"]);
     text = gsub(text, "#j38#", AL["25 Man"]);
-    text = gsub(text, "#j39#", AL["Aquatic"]);
-    text = gsub(text, "#j40#", AL["Birds"]);
-    text = gsub(text, "#j41#", AL["Invertebrates"]);
-    text = gsub(text, "#j42#", AL["Mechanical"]);
-    text = gsub(text, "#j43#", AL["Mammals"]);
-    text = gsub(text, "#j44#", AL["Mythical"]);
-    text = gsub(text, "#j45#", AL["Reptiles"]);
     text = gsub(text, "#j46#", AL["Hard Mode"]);
     text = gsub(text, "#j47#", AL["Heroic"]);
     text = gsub(text, "#j48#", AL["Buyable Mounts"]);

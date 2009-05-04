@@ -329,11 +329,13 @@ if AL then
 	AL["Rare"] = true;
 	AL["Heroic"] = true;
 	AL["Hard Mode"] = true;
+	AL["Dungeon/Raid"] = true;
 	AL["Summon"] = true;
 	AL["Random"] = true;
 	AL["Weapons"] = true;
 	AL["Reward"] = true;
 	AL["Achievement"] = true;
+	AL["Faction"] = true;
 	AL["Unattainable Tabards"] = true;
 	AL["Heirloom"] = true;
 
@@ -977,13 +979,8 @@ if AL then
 	--Pets
 	AL["Pets"] = true;
 	AL["Non-Combat Pets"] = true;
-	AL["Aquatic"] = true;
-	AL["Birds"] = true;
-	AL["Invertebrates"] = true;
-	AL["Mammals"] = true;
-	AL["Mechanical"] = true;
-	AL["Mythical"] = true;
-	AL["Reptiles"] = true;
+	AL["Promotional"] = true;
+	AL["Merchant Sold"] = true;
 
 	--Mounts
 	AL["Mounts"] = true;

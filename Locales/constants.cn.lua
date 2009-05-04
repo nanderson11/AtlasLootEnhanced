@@ -930,13 +930,6 @@ if AL then
 	--Pets
 	AL["Pets"] = "宠物";
 	AL["Non-Combat Pets"] = "非战斗宠物";
-	AL["Aquatic"] = "水生类";
-	AL["Birds"] = "鸟类";
-	AL["Invertebrates"] = "无脊椎类";
-	AL["Mammals"] = "哺乳类";
-	AL["Mechanical"] = "机械类";
-	AL["Mythical"] = "神秘类";
-	AL["Reptiles"] = "爬虫类";
 
 	--Mounts
 	AL["Mounts"] = "坐骑";

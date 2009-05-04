@@ -920,11 +920,12 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["WorldEpics3"] = { AL["BoE World Epics"].." - "..AL["Level 50-60"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics4"] = { AL["BoE World Epics"].." - "..AL["Level 70"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["WorldEpicsWrath1"] = { AL["BoE World Epics"].." - "..AL["Level 80"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Pets1"] = { AL["Pets"].." - "..AL["Aquatic"].." / "..AL["Birds"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Pets2"] = { AL["Pets"].." - "..AL["Invertebrates"].." / "..AL["Mechanical"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Pets3"] = { AL["Pets"].." - "..AL["Mammals"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Pets4"] = { AL["Pets"].." - "..AL["Mythical"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Pets5"] = { AL["Pets"].." - "..AL["Reptiles"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsMerchant1"] = { AL["Pets"].." - "..AL["Merchant Sold"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsMerchant2"] = { AL["Pets"].." - "..AL["Merchant Sold"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsQuestCrafted1"] = { AL["Pets"].." - "..AL["Quest"].." / "..AL["Crafted"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsRare1"] = { AL["Pets"].." - "..AL["Rare"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsEvent1"] = { AL["Pets"].." - "..AL["World Events"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsPromotional1"] = { AL["Pets"].." - "..AL["Promotional"], "AtlasLootWotLK" };
 
 --------------------
 --- World Bosses ---
@@ -1405,6 +1406,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };
+	AtlasLoot_TableNames["PETMENU"] = { AL["Non-Combat Pets"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["ABMENU"] = { BabbleZone["Arathi Basin"], "Menu" };
 	AtlasLoot_TableNames["WSGMENU"] = { BabbleZone["Warsong Gulch"], "Menu" };

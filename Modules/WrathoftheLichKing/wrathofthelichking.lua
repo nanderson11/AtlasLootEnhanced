@@ -2366,7 +2366,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 8, 45418, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#"};
 		{ 9, 45332, "", "=q4=Stormtip", "=ds=#h3#, #w4#"};
 		{ 10, 45331, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#"};
-		{ 11, 45458, "", "=q4=Stormedge", "=ds=#h2#, #w1#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 17, 45330, "", "=q4=Greaves of Iron Intensity", "=ds=#s12#, #a4#"};
 		{ 18, 45456, "", "=q4=Loop of the Agile", "=ds=#s13#"};
@@ -2650,7 +2649,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "UlduarYoggSaron";
 	};
 
-
 	AtlasLoot_Data["UlduarVezax25Man"] = {
 		{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#"};
 		{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
@@ -2677,7 +2675,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarYoggSaron"] = {
-        { 1, 46030, "", "=q4=Treads of the Dragon Council", "=ds=#s12#, #a1#"};
+		{ 1, 46030, "", "=q4=Treads of the Dragon Council", "=ds=#s12#, #a1#"};
 		{ 2, 46019, "", "=q4=Leggings of the Insatiable", "=ds=#s11#, #a3#"};
 		{ 3, 46028, "", "=q4=Faceguard of the Eyeless Horror", "=ds=#s1#, #a4#"};
 		{ 4, 46018, "", "=q4=Deliverance", "=ds=#w3#"};
@@ -4807,131 +4805,151 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		--- Pets ---
 		------------
 
-	AtlasLoot_Data["Pets1"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j39#", ""};
-		{ 2, 20371, "", "=q3=Blue Murloc Egg", "=ds="};
-		{ 3, 30360, "", "=q3=Lurky's Egg", "=ds="};
-		{ 4, 33993, "", "=q3=Mojo", "=ds="};
-		{ 5, 43517, "", "=q3=Penguin Egg", "=ds="};
-		{ 6, 22114, "", "=q3=Pink Murloc Egg", "=ds="};
-		{ 7, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="};
-		{ 8, 27445, "", "=q1=Magical Crawdad Box", "=ds="};
-		{ 9, 11026, "", "=q1=Tree Frog Box", "=ds="};
-		{ 10, 11027, "", "=q1=Wood Frog Box", "=ds="};
-		{ 11, 21168, "", "=q1=Baby Shark", "=ds="};
-		{ 16, 0, "INV_Box_01", "=q6=#j40#", ""};
-		{ 17, 32616, "", "=q3=Egbert's Egg", "=ds="};
-		{ 18, 12185, "", "=q2=Bloodsail Admiral's Hat", "=ds="};
-		{ 19, 11023, "", "=q1=Ancona Chicken", "=ds="};
-		{ 20, 11110, "", "=q1=Chicken Egg", "=ds="};
-		{ 21, 8500, "", "=q1=Great Horned Owl", "=ds="};
-		{ 22, 8501, "", "=q1=Hawk Owl", "=ds="};
-		{ 23, 31760, "", "=q1=Miniwing", "=ds="};
-		{ 24, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="};
-		{ 25, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="};
-		{ 26, 8494, "", "=q1=Parrot Cage (Hyacinth Macaw)", "=ds="};
-		{ 27, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="};
-		Next = "Pets2";
+	AtlasLoot_Data["PetsMerchant1"] = {
+		{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="};
+		{ 2, 44970, "", "=q3=Dun Morogh Cub", "=ds="};
+		{ 3, 44973, "", "=q3=Durotar Scorpion", "=ds="};
+		{ 4, 44974, "", "=q3=Elwynn Lamb", "=ds="};
+		{ 5, 44982, "", "=q3=Enchanted Broom", "=ds="};
+		{ 6, 45002, "", "=q3=Mechanopeep", "=ds="};
+		{ 7, 44980, "", "=q3=Mulgore Hatchling", "=ds="};
+		{ 8, 45606, "", "=q3=Sen'jin Fetish", "=ds="};
+		{ 9, 44965, "", "=q3=Teldrassil Sproutling", "=ds="};
+		{ 10, 44971, "", "=q3=Tirisfal Batling", "=ds="};
+		{ 11, 11023, "", "=q1=Ancona Chicken", "=ds="};
+		{ 12, 10360, "", "=q1=Black Kingsnake", "=ds="};
+		{ 13, 10361, "", "=q1=Brown Snake", "=ds="};
+		{ 14, 29901, "", "=q1=Blue Moth Egg", "=ds="};
+		{ 15, 29364, "", "=q1=Brown Rabbit Crate", "=ds="};
+		{ 16, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="};
+		{ 17, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="};
+		{ 18, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="};
+		{ 19, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="};
+		{ 20, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="};
+		{ 21, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="};
+		{ 22, 10393, "", "=q1=Cockroach", "=ds="};
+		{ 23, 10392, "", "=q1=Crimson Snake", "=ds="};
+		{ 24, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="};
+		{ 25, 8500, "", "=q1=Great Horned Owl", "=ds="};
+		{ 26, 8501, "", "=q1=Hawk Owl", "=ds="};
+		{ 27, 29363, "", "=q1=Mana Wyrmling", "=ds="};
+		{ 28, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="};
+		{ 29, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="};
+		{ 30, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="};
+		Next = "PetsMerchant2";
+		Back = "PETMENU";
 	};
 
-	AtlasLoot_Data["Pets2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j41#", ""};
-		{ 2, 38628, "", "=q3=Nether Ray Fry", "=ds="};
-		{ 3, 34478, "", "=q3=Tiny Sporebat", "=ds="};
-		{ 4, 29901, "", "=q1=Blue Moth Egg", "=ds="};
-		{ 5, 29960, "", "=q1=Captured Firefly", "=ds="};
-		{ 6, 10393, "", "=q1=Cockroach", "=ds="};
-		{ 7, 20769, "", "=q1=Disgusting Oozeling", "=ds="};
-		{ 8, 29902, "", "=q1=Red Moth Egg", "=ds="};
-		{ 9, 12529, "", "=q1=Smolderweb Carrier", "=ds="};
-		{ 10, 29904, "", "=q1=White Moth Egg", "=ds="};
-		{ 11, 29903, "", "=q1=Yellow Moth Egg", "=ds="};
-		{ 16, 0, "INV_Box_01", "=q6=#j42#", ""};
-		{ 17, 34493, "", "=q4=Dragon Kite", "=ds="};
-		{ 18, 34425, "", "=q3=Clockwork Rocket Bot", "=ds="};
-		{ 19, 34492, "", "=q3=Rocket Chicken", "=ds="};
-		{ 20, 15996, "", "=q1=Lifelike Mechanical Toad", "=ds="};
-		{ 21, 11826, "", "=q1=Lil' Smoky", "=ds="};
-		{ 22, 10398, "", "=q1=Mechanical Chicken", "=ds="};
-		{ 23, 4401, "", "=q1=Mechanical Squirrel Box", "=ds="};
-		{ 24, 11825, "", "=q1=Pet Bombling", "=ds="};
-		{ 25, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds="};
-		Prev = "Pets1";
-		Next = "Pets3";
+	AtlasLoot_Data["PetsMerchant2"] = {
+		{ 1, 10394, "", "=q1=Prairie Dog Whistle", "=ds="};
+		{ 2, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="};
+		{ 3, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="};
+		{ 4, 29902, "", "=q1=Red Moth Egg", "=ds="};
+		{ 5, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="};
+		{ 6, 11026, "", "=q1=Tree Frog Box", "=ds="};
+		{ 7, 29904, "", "=q1=White Moth Egg", "=ds="};
+		{ 8, 11027, "", "=q1=Wood Frog Box", "=ds="};
+		{ 9, 29903, "", "=q1=Yellow Moth Egg", "=ds="};
+		Prev = "PetsMerchant1";
+		Next = "PetsQuestCrafted1";
+		Back = "PETMENU";
 	};
 
-	AtlasLoot_Data["Pets3"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j43#", ""};
-		{ 2, 32588, "", "=q3=Banana Charm", "=ds="};
-		{ 3, 38506, "", "=q3=Don Carlos' Famous Hat", "=ds="};
+	AtlasLoot_Data["PetsQuestCrafted1"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Quest"], ""};
+		{ 2, 45022, "", "=q3=Argent Gruntling", "=ec1=#m6#"};
+		{ 3, 44998, "", "=q3=Argent Squire", "=ec1=#m7#"};
+		{ 4, 35350, "", "=q3=Chuck's Bucket", "=ds="};
+		{ 5, 33818, "", "=q3=Muckbreath's Bucket", "=ds="};
+		{ 6, 35349, "", "=q3=Snarly's Bucket", "=ds="};
+		{ 7, 44983, "", "=q3=Strand Crawler", "=ds="};
+		{ 8, 33816, "", "=q3=Toothy's Bucket", "=ds="};
+		{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="};
+		{ 10, 11110, "", "=q1=Chicken Egg", "=ds="};
+		{ 11, 31760, "", "=q1=Miniwing", "=ds="};
+		{ 12, 12529, "", "=q1=Smolderweb Carrier", "=ds="};
+		{ 13, 11474, "", "=q1=Sprite Darter Egg", "=ds="};
+		{ 14, 12264, "", "=q1=Worg Carrier", "=ds="};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Crafted"], ""};
+		{ 17, 15996, "", "=q1=Lifelike Mechanical Toad", "=ds="};
+		{ 18, 11826, "", "=q1=Lil' Smoky", "=ds="};
+		{ 19, 10398, "", "=q1=Mechanical Chicken", "=ds="};
+		{ 20, 4401, "", "=q1=Mechanical Squirrel Box", "=ds="};
+		{ 21, 11825, "", "=q1=Pet Bombling", "=ds="};
+		{ 22, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds="};
+		Prev = "PetsMerchant2";
+		Next = "PetsRare1";
+		Back = "PETMENU";
+	};
+
+	AtlasLoot_Data["PetsRare1"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
+		{ 2, 33993, "", "=q3=Mojo", "=ds="};
+		{ 3, 35504, "", "=q3=Phoenix Hatchling", "=ds="};
+		{ 5, 0, "INV_Box_01", "=q6=#z17#", ""};
+		{ 6, 34535, "", "=q1=Azure Whelpling", "=ds="};
+		{ 7, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="};
+		{ 8, 10822, "", "=q1=Dark Whelpling", "=ds="};
+		{ 9, 20769, "", "=q1=Disgusting Oozeling", "=ds="};
+		{ 10, 29960, "", "=q1=Captured Firefly", "=ds="};
+		{ 11, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="};
+		{ 12, 27445, "", "=q1=Magical Crawdad Box", "=ds="};
+		{ 13, 8494, "", "=q1=Parrot Cage (Hyacinth Macaw)", "=ds="};
+		{ 14, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="};
+		{ 15, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="};
+		{ 16, 0, "INV_Box_01", "=q6=#m34#", ""};
+		{ 17, 44841, "", "=q3=Little Fawn's Salt Lick", "=ds="};
+		{ 18, 40653, "", "=q3=Reeking Pet Carrier", "=ds="};
+		{ 19, 44819, "", "=q1=Baby Blizzard Bear", "=ds="};
+		{ 21, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
+		{ 22, 38628, "", "=q3=Nether Ray Fry", "=ds="};
+		{ 23, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="};
+		{ 24, 34478, "", "=q3=Tiny Sporebat", "=ds="};
+		Prev = "PetsQuestCrafted1";
+		Next = "PetsEvent1";
+		Back = "PETMENU";
+	};
+
+	AtlasLoot_Data["PetsEvent1"] = {
+		{ 1, 23083, "", "=q3=Captured Flame", "=ds="};
+		{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "=ds="};
+		{ 3, 32616, "", "=q3=Egbert's Egg", "=ds="};
 		{ 4, 32622, "", "=q3=Elekk Training Collar", "=ds="};
-		{ 5, 32498, "", "=q3=Fortune Coin", "=ds="};
-		{ 6, 13583, "", "=q3=Panda Collar", "=ds="};
-		{ 7, 40653, "", "=q3=Reeking Pet Carrier", "=ds="};
-		{ 8, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="};
-		{ 9, 29364, "", "=q1=Brown Rabbit Crate", "=ds="};
-		{ 10, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="};
-		{ 11, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="};
-		{ 12, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="};
-		{ 13, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="};
-		{ 14, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="};
-		{ 15, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="};
-		{ 16, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="};
-		{ 17, 21301, "", "=q1=Green Helper Box", "=ds="};
-		{ 18, 21308, "", "=q1=Jingling Bell", "=ds="};
-		{ 19, 23007, "", "=q1=Piglet's Collar", "=ds="};
-		{ 20, 10394, "", "=q1=Prairie Dog Whistle", "=ds="};
-		{ 21, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="};
-		{ 22, 23015, "", "=q1=Rat Cage", "=ds="};
-		{ 23, 21305, "", "=q1=Red Helper Box", "=ds="};
-		{ 24, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="};
-		{ 25, 12264, "", "=q1=Worg Carrier", "=ds="};
-		Prev = "Pets2";
-		Next = "Pets4";
+		{ 5, 34955, "", "=q3=Scorched Stone", "=ds="};
+		{ 6, 33154, "", "=q3=Sinister Squashling", "=ds="};
+		{ 7, 32617, "", "=q3=Sleepy Willy", "=ds="};
+		{ 8, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="};
+		{ 9, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="};
+		{ 10, 21301, "", "=q1=Green Helper Box", "=ds="};
+		{ 11, 21308, "", "=q1=Jingling Bell", "=ds="};
+		{ 12, 23007, "", "=q1=Piglet's Collar", "=ds="};
+		{ 13, 23015, "", "=q1=Rat Cage", "=ds="};
+		{ 14, 21305, "", "=q1=Red Helper Box", "=ds="};
+		{ 15, 21309, "", "=q1=Snowman Kit", "=ds="};
+		{ 16, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="};
+		{ 17, 23002, "", "=q1=Turtle Box", "=ds="};
+		Prev = "PetsRare1";
+		Next = "PetsPromotional1";
+		Back = "PETMENU";
 	};
 
-	AtlasLoot_Data["Pets4"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j44#", ""};
+	AtlasLoot_Data["PetsPromotional1"] = {
+		{ 1, 34493, "", "=q4=Dragon Kite", "=ds="};
 		{ 2, 23713, "", "=q4=Hippogryph Hatchling", "=ds="};
-		{ 3, 23083, "", "=q3=Captured Flame", "=ds="};
-		{ 4, 0, "", "=q3=Competitor's Souvenir", "=ds="}; ---Missing ItemID
+		{ 3, 32588, "", "=q3=Banana Charm", "=ds="};
+		{ 4, 20371, "", "=q3=Blue Murloc Egg", "=ds="};
 		{ 5, 13584, "", "=q3=Diablo Stone", "=ds="};
 		{ 6, 37297, "", "=q3=Gold Medallion", "=ds="};
-		{ 7, 25535, "", "=q3=Netherwhelp's Collar", "=ds="};
-		{ 8, 35504, "", "=q3=Phoenix Hatchling", "=ds="};
-		{ 9, 34955, "", "=q3=Scorched Stone", "=ds="};
-		{ 10, 33154, "", "=q3=Sinister Squashling", "=ds="};
-		{ 11, 32617, "", "=q3=Sleepy Willy", "=ds="};
+		{ 7, 30360, "", "=q3=Lurky's Egg", "=ds="};
+		{ 8, 25535, "", "=q3=Netherwhelp's Collar", "=ds="};
+		{ 9, 13583, "", "=q3=Panda Collar", "=ds="};
+		{ 10, 22114, "", "=q3=Pink Murloc Egg", "=ds="};
+		{ 11, 34492, "", "=q3=Rocket Chicken", "=ds="};
 		{ 12, 38050, "", "=q3=Soul-Trader Beacon", "=ds="};
 		{ 13, 39656, "", "=q3=Tyrael's Hilt", "=ds="};
 		{ 14, 13582, "", "=q3=Zergling Leash", "=ds="};
-		{ 15, 39286, "", "=q3=Frosty's Collar", "=ds="};
-		{ 16, 34535, "", "=q1=Azure Whelpling", "=ds="};
-		{ 17, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="};
-		{ 18, 10822, "", "=q1=Dark Whelpling", "=ds="};
-		{ 19, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="};
-		{ 20, 29363, "", "=q1=Mana Wyrmling", "=ds="};
-		{ 21, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="};
-		{ 22, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="};
-		{ 23, 21309, "", "=q1=Snowman Kit", "=ds="};
-		{ 24, 11474, "", "=q1=Sprite Darter Egg", "=ds="};
-		{ 25, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="};
-		{ 26, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="};
-		Prev = "Pets3";
-		Next = "Pets5";
-	};
-
-	AtlasLoot_Data["Pets5"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j45#", ""};
-		{ 2, 35350, "", "=q3=Chuck's Bucket", "=ds="};
-		{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=ds="};
-		{ 4, 35349, "", "=q3=Snarly's Bucket", "=ds="};
-		{ 5, 33816, "", "=q3=Toothy's Bucket", "=ds="};
-		{ 6, 10360, "", "=q1=Black Kingsnake", "=ds="};
-		{ 7, 10361, "", "=q1=Brown Snake", "=ds="};
-		{ 8, 10392, "", "=q1=Crimson Snake", "=ds="};
-		{ 9, 23002, "", "=q1=Turtle Box", "=ds="};
-		Prev = "Pets4";
+		Prev = "PetsEvent1";
+		Back = "PETMENU";
 	};
 
     		--------------

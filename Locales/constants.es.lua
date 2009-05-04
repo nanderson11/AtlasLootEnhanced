@@ -971,13 +971,6 @@ if AL then
 	--Pets
 	AL["Pets"] = "Mascotas";
 	AL["Non-Combat Pets"] = "Mascotas No-Combate";
-	AL["Aquatic"] = "Acuáticas";
-	AL["Birds"] = "Pájaros";
-	AL["Invertebrates"] = "Invertebrados";
-	AL["Mammals"] = "Mamíferos";
-	AL["Mechanical"] = "Mecánicos";
-	AL["Mythical"] = "Místicos";
-	AL["Reptiles"] = "Reptiles";
 
 	--Mounts
 	AL["Mounts"] = "Monturas";

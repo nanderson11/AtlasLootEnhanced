@@ -1128,7 +1128,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "ScourgeInvasionEvent3";
 		Back = "WORLDEVENTMENU";
 	};
-		
+
 	AtlasLoot_Data["ScourgeInvasionEvent3"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#n123#", "=q1=#z6#"};
 		{ 2, 23126, "", "=q3=Waistband of Balzaphon", "=ds=#s10#, #a1#", "", "27.38%"};

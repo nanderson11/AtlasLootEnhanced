@@ -967,13 +967,6 @@ if AL then
     --Pets
     AL["Pets"] = "寵物";
     AL["Non-Combat Pets"] = "非戰鬥寵物";
-    AL["Aquatic"] = "水棲";
-    AL["Birds"] = "鳥類";
-    AL["Invertebrates"] = "無脊椎動物";
-    AL["Mammals"] = "哺乳動物";
-    AL["Mechanical"] = "機械";
-    AL["Mythical"] = "神話的";
-    AL["Reptiles"] = "爬蟲動物";
 
     --Mounts
     AL["Mounts"] = "坐騎";

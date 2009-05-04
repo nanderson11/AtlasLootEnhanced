@@ -11,7 +11,7 @@ AtlasLoot_Data["SETMENU"] = {
         { 6, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
         { 7, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
         { 8, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
-        { 9, "Pets1", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
+        { 9, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
         { 10, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
         { 11, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
         { 13, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};
@@ -75,6 +75,15 @@ AtlasLoot_Data["MOUNTMENU"] = {
         { 2, "Mounts11", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Classic Mounts"], ""};
         { 3, "Mounts31", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Wrath of the Lich King Mounts"], ""};
         { 17, "Mounts21", "INV_Misc_QirajiCrystal_05", "=ds="..AL["The Burning Crusade Mounts"], ""};
+        Back = "SETMENU";
+	};
+
+AtlasLoot_Data["PETMENU"] = {
+        { 2, "PetsMerchant1", "spell_nature_polymorph", "=ds="..AL["Merchant Sold"], ""};
+        { 3, "PetsRare1", "spell_shaman_hex", "=ds="..AL["Rare"], ""};
+        { 4, "PetsPromotional1", "inv_netherwhelp", "=ds="..AL["Promotional"], ""};
+        { 17, "PetsQuestCrafted1", "inv_drink_19", "=ds="..AL["Quest"].." / "..AL["Crafted"], ""};
+        { 18, "PetsEvent1", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
         Back = "SETMENU";
 	};
 

@@ -1283,11 +1283,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "Arena4Weapons1" },
 	},
 	["Pets"] = {
-		{ AtlasLoot_TableNames["Pets1"][1], "Pets1" },
-		{ AtlasLoot_TableNames["Pets2"][1], "Pets2" },
-		{ AtlasLoot_TableNames["Pets3"][1], "Pets3" },
-		{ AtlasLoot_TableNames["Pets4"][1], "Pets4" },
-		{ AtlasLoot_TableNames["Pets5"][1], "Pets5" },
+		{ AtlasLoot_TableNames["PetsMerchant1"][1], "PetsMerchant1" },
+		{ AtlasLoot_TableNames["PetsMerchant1"][1], "PetsMerchant2" },
+		{ AtlasLoot_TableNames["PetsQuestCrafted1"][1], "PetsQuestCrafted1" },
+		{ AtlasLoot_TableNames["PetsRare1"][1], "PetsRare1" },
+		{ AtlasLoot_TableNames["PetsEvent1"][1], "PetsEvent1" },
+		{ AtlasLoot_TableNames["PetsPromotional1"][1], "PetsEvent1" },
 	},
 	["MountsClassic"] = {
 		{ AtlasLoot_TableNames["Mounts11"][1], "Mounts11" },
