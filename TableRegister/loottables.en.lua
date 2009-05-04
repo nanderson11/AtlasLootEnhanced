@@ -924,6 +924,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["PetsMerchant2"] = { AL["Pets"].." - "..AL["Merchant Sold"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PetsQuestCrafted1"] = { AL["Pets"].." - "..AL["Quest"].." / "..AL["Crafted"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PetsRare1"] = { AL["Pets"].." - "..AL["Rare"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PetsRare2"] = { AL["Pets"].." - "..AL["Rare"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PetsEvent1"] = { AL["Pets"].." - "..AL["World Events"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PetsPromotional1"] = { AL["Pets"].." - "..AL["Promotional"], "AtlasLootWotLK" };
 

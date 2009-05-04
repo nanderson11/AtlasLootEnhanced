@@ -1287,6 +1287,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["PetsMerchant1"][1], "PetsMerchant2" },
 		{ AtlasLoot_TableNames["PetsQuestCrafted1"][1], "PetsQuestCrafted1" },
 		{ AtlasLoot_TableNames["PetsRare1"][1], "PetsRare1" },
+		{ AtlasLoot_TableNames["PetsRare2"][1], "PetsRare1" },
 		{ AtlasLoot_TableNames["PetsEvent1"][1], "PetsEvent1" },
 		{ AtlasLoot_TableNames["PetsPromotional1"][1], "PetsEvent1" },
 	},
