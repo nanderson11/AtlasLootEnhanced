@@ -327,11 +327,13 @@ if AL then
 	AL["Rare"] = "Rare";
 	AL["Heroic"] = "Héroïque";
 	AL["Hard Mode"] = "Mode difficile";
+	AL["Dungeon/Raid"] = "Donjon/Raid";
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Weapons"] = "Armes";
 	AL["Reward"] = "Récompense";
 	AL["Achievement"] = "Haut fait"
+	--AL["Faction"] = true;
 	AL["Unattainable Tabards"] = "Tabards inaccessible";
 	AL["Heirloom"] = "Héritage";
 
@@ -975,7 +977,9 @@ if AL then
 	--Pets
 	AL["Pets"] = "Familiers de combat";
 	AL["Non-Combat Pets"] = "Familiers";
-    
+	AL["Promotional"] = "Promotionnel";
+	AL["Merchant Sold"] = "Vendeur";
+
 	--Mounts
 	AL["Mounts"] = "Montures";
 	AL["Classic Mounts"] = "Montures Classiques";
