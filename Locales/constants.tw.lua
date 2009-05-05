@@ -37,6 +37,7 @@ if AL then
     AL["Back"] = "返回";
     AL["Level 60"] = "60 級";
     AL["Level 70"] = "70 級";
+	AL["Level 80"] = "80 級";
     AL["|cffff0000(unsafe)"] = "|cffff0000(不安全)";
     AL["Misc"] = "雜項";
     AL["Miscellaneous"] = "雜項";
@@ -89,9 +90,9 @@ if AL then
     AL["Hide Icon"] = "隱藏圖示";
     AL["Minimap Button Options"] = "小地圖按鍵選項";
     AL["Bonus Loot"] = "額外獎勵";
-    AL["Three Drakes Left"] = "剩餘三隻飛龍";
-    AL["Two Drakes Left"] = "剩餘二隻飛龍";
     AL["One Drake Left"] = "剩餘一隻飛龍";
+    AL["Two Drakes Left"] = "剩餘二隻飛龍";
+    AL["Three Drakes Left"] = "剩餘三隻飛龍";
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Atlasloot 選項";
@@ -309,6 +310,7 @@ if AL then
     AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
 	AL["Hateful Gladiator Sets"] = "憎恨鬥士套裝";
 	AL["Deadly Gladiator Sets"] = "致命鬥士套裝";
+	AL["Furious Gladiator Sets"] = "狂烈鬥士套裝";
     AL["Arena Reward"] = "競技場獎勵";
     AL["Conjured Item"] = "特殊物品";
     AL["Used to summon boss"] = "使用以召喚首領";
@@ -327,11 +329,13 @@ if AL then
 	AL["Rare"] = "稀有";
 	AL["Heroic"] = "英雄模式";
     AL["Hard Mode"] = "困難模式";
+	AL["Dungeon/Raid"] = "副本/團隊";
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
     AL["Weapons"] = "武器";
     AL["Reward"] = "獎勵";
     AL["Achievement"] = "成就";
+	AL["Faction"] = "陣營";
     AL["Unattainable Tabards"] = "難以取得的徽章/外袍";
     AL["Heirloom"] = "傳家寶";
 
@@ -340,6 +344,9 @@ if AL then
 	AL["Low Level Decks"] = "低階套排";
 	AL["Original and BC Trinkets"] = "舊世界與 BC 飾品";
 	AL["WotLK Trinkets"] = "巫妖王之怒飾品";
+
+	--Argent Tournament
+	AL["Argent Tournament"] = "銀白聯賽";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck 卡片遊戲物品";
@@ -744,25 +751,25 @@ if AL then
     AL["Dreadnaught Plate"] = "無畏鎧甲";
 
 	--Tier 8 Sets
-	--AL["Darkruned Battlegear"] = true;
-	--AL["Darkruned Plate"] = true;
-	--AL["Nightsong Garb"] = true;
-	--AL["Nightsong Battlegear"] = true;
-	--AL["Nightsong Regalia"] = true;
-	--AL["Scourgestalker Battlegear"] = true;
-	--AL["Kirin'dor Garb"] = true;
-	--AL["Aegis Regalia"] = true;
-	--AL["Aegis Battlegear"] = true;
-	--AL["Aegis Plate"] = true;
-	--AL["Sanctification Regalia"] = true;
-	--AL["Sanctification Garb"] = true;
-	--AL["Terrorblade Battlegear"] = true;
-	--AL["Worldbreaker Garb"] = true;
-	--AL["Worldbreaker Battlegear"] = true;
-	--AL["Worldbreaker Regalia"] = true;
-	--AL["Deathbringer Garb"] = true;
-	--AL["Siegebreaker Battlegear"] = true;
-	--AL["Siegebreaker Plate"] = true;
+	AL["Darkruned Battlegear"] = "黑暗符文戰裝";
+	AL["Darkruned Plate"] = "黑暗符文鎧甲";
+	AL["Nightsong Garb"] = "夜歌裝束";
+	AL["Nightsong Battlegear"] = "夜歌戰裝";
+	AL["Nightsong Regalia"] = "夜歌戰衣";
+	AL["Scourgestalker Battlegear"] = "天譴巡者戰裝";
+	AL["Kirin'dor Garb"] = "祈倫托裝束";
+	AL["Aegis Regalia"] = "神禦戰衣";
+	AL["Aegis Battlegear"] = "神禦戰裝";
+	AL["Aegis Plate"] = "神禦鎧甲";
+	AL["Sanctification Regalia"] = "崇聖戰衣";
+	AL["Sanctification Garb"] = "崇聖裝束";
+	AL["Terrorblade Battlegear"] = "懼刃戰裝";
+	AL["Worldbreaker Garb"] = "碎界者裝束";
+	AL["Worldbreaker Battlegear"] = "碎界者戰裝";
+	AL["Worldbreaker Regalia"] = "碎界者戰衣";
+	AL["Deathbringer Garb"] = "死亡使者裝束";
+	AL["Siegebreaker Battlegear"] = "破陣戰裝";
+	AL["Siegebreaker Plate"] = "破陣鎧甲";
 
     --Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "高地人的專注";
@@ -865,6 +872,7 @@ if AL then
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "蠻荒鬥士武器";
     AL["Deadly Gladiator\'s Weapons"] = "致命鬥士武器";
+	AL["Furious Gladiator\'s Weapons"] = "狂烈鬥士武器";
 
     --Set Labels
     AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
@@ -900,6 +908,7 @@ if AL then
     AL["Dungeon Set 3"] = "副本套裝 3";
     AL["Dungeon 3 Sets"] = "副本套裝 3";
     AL["Tier 1/2 Sets"] = "T1/2 套裝";
+    AL["Tier 1/2/3 Sets"] = "T1/2/3 套裝";
     AL["Tier 3 Sets"] = "T3 套裝";
 	AL["Tier 4/5/6 Sets"] = "T4/5/6 套裝";
     AL["PvP Reputation Sets (Level 70)"] = "PvP 聲望套裝 (70 級)";
@@ -911,6 +920,7 @@ if AL then
     AL["PvP Accessories - Horde (Level 60)"] = "PvP 部落配件 (60 級)";
     AL["PvP Accessories (Level 70)"] = "PvP 配件 (70 級)";
 	AL["PvP Jewelcrafting Designs and Gems"] = "PvP 珠寶加工設計圖";
+	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
     AL["PvP Rewards"] = "PvP 榮譽獎勵";
     AL["PvP Armor Sets"] = "PvP 套裝";
     AL["PvP Weapons"] = "PvP 武器";
@@ -941,6 +951,7 @@ if AL then
     AL["Badge of Justice Rewards"] = "正義徽章獎勵";
     AL["Emblem of Valor Rewards"] = "勇氣紋章獎勵";
     AL["Emblem of Heroism Rewards"] = "英雄紋章獎勵";
+	AL["Emblem of Conquest Rewards"] = "征服紋章獎勵";
     AL["Accesories and Weapons"] = "配件與武器";
     AL["Accessories"] = "配件";
     AL["Armor and Weapons"] = "裝備與武器";
@@ -961,12 +972,15 @@ if AL then
     AL["BT Patterns/Plans"] = "黑暗神廟卷軸";
     AL["Hyjal Summit Designs"] ="海加爾山設計圖";
     AL["SP Patterns/Plans"] = "特殊圖樣/卷軸";
+	AL["Ulduar Formula/Patterns/Plans"] = "奧杜亞公式/圖樣/設計圖";
     AL["Additional Heroic Loot"] = "更多的英雄物品";
     AL["Sigil"] = "符記"; --Can be added to BabbleInv
 
     --Pets
     AL["Pets"] = "寵物";
     AL["Non-Combat Pets"] = "非戰鬥寵物";
+	AL["Promotional"] = "可升級的";
+	AL["Merchant Sold"] = "商人販售";
 
     --Mounts
     AL["Mounts"] = "坐騎";
@@ -1149,6 +1163,7 @@ if AL then
     AL["Kronus"] = "克羅努斯";
     AL["Loken"] = "洛肯";
     AL["Time-Lost Proto Drake"] = "時光流逝元龍";
+	AL["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆"; --Is in BabbleBoss
 
     --Zones
     AL["World Drop"] = "世界掉落";
