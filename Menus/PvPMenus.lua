@@ -10,7 +10,7 @@ AtlasLoot_Data["PVPMENU"] = {
         { 4, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
         { 5, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
         { 7, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
-        { 8, "Archavon", "INV_Chest_Chain_15", "=ds="..BabbleBoss["Archavon the Stone Watcher"], ""};
+        { 8, "VoAArchavon1", "INV_Chest_Chain_15", "=ds="..BabbleBoss["Archavon the Stone Watcher"], ""};
         { 10, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
         { 11, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
         { 16, "WSGMENU", "INV_Misc_Rune_07", "=ds="..BabbleZone["Warsong Gulch"], ""};
