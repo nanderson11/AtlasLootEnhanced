@@ -362,7 +362,7 @@
 			</Button>
             <Button name="AtlasLoot10Man25ManSwitch" inherits="OptionsButtonTemplate">
 				<Size>
-					<AbsDimension x="140" y="23"/>
+					<AbsDimension x="160" y="23"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
