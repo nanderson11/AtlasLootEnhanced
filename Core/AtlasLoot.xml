@@ -633,12 +633,12 @@
             </Button>
             <Button name="AtlasLootServerQueryButton" inherits="OptionsButtonTemplate">
 				<Size>
-					<AbsDimension x="100" y="23"/>
+					<AbsDimension x="120" y="23"/>
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM">
 						<Offset>
-							<AbsDimension x="100" y="6"/>
+							<AbsDimension x="120" y="6"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
