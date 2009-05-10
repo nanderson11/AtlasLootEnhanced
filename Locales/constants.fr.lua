@@ -391,6 +391,8 @@ if AL then
 	AL["Sandbox Tiger"] = "Tigre de bac à sable";
 	AL["Center of Attention"] = "Chemise violette épique";
 	AL["Foam Sword Rack"] = "Râtelier d'épées en mousse";
+	-- Ninth set
+	--AL["Fields of Honor"] = true; -- à traduire
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "Récompenses Diverses";
