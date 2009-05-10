@@ -393,6 +393,8 @@ if AL then
 	AL["Sandbox Tiger"] = true;
 	AL["Center of Attention"] = true;
 	AL["Foam Sword Rack"] = true;
+	-- Ninth set
+	AL["Fields of Honor"] = true;
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = true;
