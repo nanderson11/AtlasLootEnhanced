@@ -62,7 +62,7 @@ if AL then
 	AL["Assign this loot table\n to QuickLook"] = "Assigner cette table de loot\n à QuickLook";
 	AL["Req. Rating:"] = "Côte perso. :";
 	AL["Rating:"] = "Côte :";
-	--AL["Query Server"] = true,
+	AL["Query Server"] = "Interroger le serveur";
 	AL["Classic Instances"] = "Instances classiques";
 	AL["BC Instances"] = "Instances BC";
 	AL["WotLK Instances"] = "Instances WotLK";
