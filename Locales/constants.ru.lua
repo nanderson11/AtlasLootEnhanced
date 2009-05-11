@@ -24,7 +24,7 @@ if AL then
     AL["Clear"] = "Очистить";
     AL["Select Loot Table"] = "Таблица добычи";
     AL["Select Sub-Table"] = "Выбор Под-Таблицы";
-    AL["Drop Rate: "] = "Шанс выпада";
+    AL["Drop Rate: "] = "Шанс выпада: ";
     AL["DKP"] = "ДКП";
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.";
@@ -329,11 +329,13 @@ if AL then
     AL["Rare"] = "Редкий";
     AL["Heroic"] = "Героик";
     AL["Hard Mode"] = "Сложный режим";
+	AL["Dungeon/Raid"] = "Подземелье/рейд";
     AL["Summon"] = "Призыв";
     AL["Random"] = "Случайный";
     AL["Weapons"] = "Оружие";
     AL["Reward"] = "Награда";
     AL["Achievement"] = "Достижение";
+	AL["Faction"] = "Фракция";
     AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
     AL["Heirloom"] = "Фамильные";
 	
@@ -390,6 +392,8 @@ if AL then
 	AL["Sandbox Tiger"] = true;
 	AL["Center of Attention"] = true;
 	AL["Foam Sword Rack"] = true;
+	-- Ninth set
+	AL["Fields of Honor"] = true;
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "Разные награды";
@@ -869,6 +873,7 @@ if AL then
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";
     AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";
+	AL["Furious Gladiator\'s Weapons"] = "Оружие гневного гладиатора";
 
     --Set Labels
     AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
@@ -908,15 +913,16 @@ if AL then
     AL["Tier 3 Sets"] = "Комплект 3 Тира";
     AL["Tier 4/5/6 Sets"] = "Комплект 4/5/6 Тира";
     AL["PvP Reputation Sets (Level 70)"] = "Комплекты PvP за репутацию (Уровень 70)";
-    AL["PvP Rewards (Level 60)"] = "Награды за PvP (Уровень 60)";
-    AL["PvP Rewards (Level 70)"] = "Награды за PvP (Уровень 70)";
-    AL["PvP Rewards (Level 80)"] = "Награды за PvP (Уровень 80)";
+    AL["PvP Rewards (Level 60)"] = "PvP награды (Уровень 60)";
+    AL["PvP Rewards (Level 70)"] = "PvP награды (Уровень 70)";
+    AL["PvP Rewards (Level 80)"] = "PvP награды (Уровень 80)";
     AL["PvP Accessories (Level 60)"] = "PvP Аксессуары (Уровень 60)";
     AL["PvP Accessories - Alliance (Level 60)"] = "PvP Аксессуары - Альянс (Уровень 60)";
     AL["PvP Accessories - Horde (Level 60)"] = "PvP Аксессуары - Орда (Уровень 60)";
     AL["PvP Accessories (Level 70)"] = "PvP Аксессуары (Уровень 70)";
     AL["PvP Jewelcrafting Designs and Gems"] = "PvP ювелирные эскизы";
-    AL["PvP Rewards"] = "Награды за PvP";
+	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
+    AL["PvP Rewards"] = "PvP награды";
     AL["PvP Armor Sets"] = "PvP Комплекты Доспехов";
     AL["PvP Weapons"] = "PvP Оружие";
     AL["PvP Weapons (Level 60)"] = "PvP Оружие (Уровень 60)";
@@ -974,6 +980,8 @@ if AL then
     --Pets
     AL["Pets"] = "Питомци";
     AL["Non-Combat Pets"] = "Не-Боевые питомци";
+	AL["Promotional"] = "Содействующие";
+	AL["Merchant Sold"] = "Продаються торговцами";
 
     --Mounts
     AL["Mounts"] = "Транспорт";
@@ -1156,6 +1164,7 @@ if AL then
     AL["Kronus"] = true; --Who is this npc?
     AL["Loken"] = "?окен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
+	AL["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури"; --Is in BabbleBoss
 
     --Zones
     AL["World Drop"] = "Мировой выпад";
