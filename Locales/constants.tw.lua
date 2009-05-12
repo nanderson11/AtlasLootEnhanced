@@ -45,8 +45,8 @@ if AL then
     AL["Heroic Mode"] = "英雄模式";
     AL["Normal Mode"] = "一般模式";
 	AL["Hard Mode"] = "困難模式";
-    AL["Show 10 Man Loot"] = "顯示 10 人團隊物品表";
-    AL["Show 25 Man Loot"] = "顯示 25 人團隊物品表";
+    AL["Show 10 Man Loot"] = "10 人團隊物品表";
+    AL["Show 25 Man Loot"] = "25 人團隊物品表";
     AL["10 Man"] = "10 人";
     AL["25 Man"] = "25 人";
     AL["Raid"] = "團隊";
@@ -393,6 +393,8 @@ if AL then
 	--AL["Sandbox Tiger"] = true;
 	--AL["Center of Attention"] = true;
 	--AL["Foam Sword Rack"] = true;
+	-- Ninth set
+	--AL["Fields of Honor"] = true;
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "雜項獎勵";
