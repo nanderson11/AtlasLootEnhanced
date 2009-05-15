@@ -27,6 +27,7 @@ if AL then
 	AL["Back"] = "返回";
 	AL["Level 60"] = "等级 60";
 	AL["Level 70"] = "等级 70";
+	AL["Level 80"] = "等级 80";
 	AL["|cffff0000(unsafe)"] = "|cffff0000(不安全)";
 	AL["Misc"] = "其他";
   AL["Miscellaneous"] = "其他";
@@ -78,9 +79,9 @@ if AL then
 	AL["Hide Icon"] = "隐藏图标";
 	AL["Minimap Button Options"] = "小地图按钮选项";
 	AL["Bonus Loot"] = "奖励掉落";
-	AL["Three Drakes Left"] = "剩余三条幼龙";
-	AL["Two Drakes Left"] = "剩余两条幼龙";
 	AL["One Drake Left"] = "剩余一条幼龙";
+	AL["Two Drakes Left"] = "剩余两条幼龙";
+	AL["Three Drakes Left"] = "剩余三条幼龙";
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = "Atlasloot 设置";
@@ -324,6 +325,13 @@ if AL then
 	AL["Low Level Decks"] = "低级卡片";
 	AL["Original and BC Trinkets"] = "旧大陆和燃烧远征饰品";
 	AL["WotLK Trinkets"] = "巫妖王之怒饰品";
+	
+	--Argent Tournament
+--	AL["Argent Tournament"] = true;
+
+	-- Daily Quest
+--	AL["Jewelcrafting Daily"] = true;
+--	AL["Cooking Daily"] = true;
 	
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = "集换式卡牌游戏奖品";

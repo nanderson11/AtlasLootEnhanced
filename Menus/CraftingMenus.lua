@@ -1,4 +1,4 @@
-local BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
+BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
@@ -17,6 +17,8 @@ AtlasLoot_Data["CRAFTINGMENU"] = {
         { 18, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
         { 20, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
         { 21, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
+		{ 23, "JewelcraftingDaily", "INV_Misc_Gem_01", AL["Jewelcrafting Daily"], ""};
+		{ 24, "CookingDaily", "INV_Misc_Food_15", AL["Cooking Daily"], ""};
 	};
 
 AtlasLoot_Data["CRAFTSET"] = {

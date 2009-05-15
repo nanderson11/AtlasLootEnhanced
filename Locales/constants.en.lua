@@ -348,6 +348,10 @@ if AL then
 	--Argent Tournament
 	AL["Argent Tournament"] = true;
 
+	-- Daily Quest
+	AL["Jewelcrafting Daily"] = true;
+	AL["Cooking Daily"] = true;
+	
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = true;
 	AL["Loot Card Items"] = true;

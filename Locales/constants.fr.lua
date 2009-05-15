@@ -346,6 +346,10 @@ if AL then
 	--Argent Tournament
 	AL["Argent Tournament"] = "Tournoi d'Argent";
 
+	-- Daily Quest
+--	AL["Jewelcrafting Daily"] = true;
+--	AL["Cooking Daily"] = true;
+
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = "Objets des cartes à jouer WoW TCG";
 	AL["Loot Card Items"] = "Objets des cartes à jouer";

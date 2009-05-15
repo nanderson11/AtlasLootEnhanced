@@ -4912,6 +4912,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, 41581, "", "=q3=Design: Lustrous Sky Sapphire", "=ds=#p12# (390)"};
 		{ 30, 41686, "", "=q3=Design: Potent Monarch Topaz", "=ds=#p12# (390)"};
 		Next = "JewelcraftingDaily2";
+		Back = "CRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["JewelcraftingDaily2"] = {
@@ -4941,6 +4942,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 25, 42653, "", "=q4=Design: Titanium Spellshock Necklace", "=ds=#p12# (420)"};
 		{ 26, 42650, "", "=q4=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
 		Prev = "JewelcraftingDaily";
+		Back = "CRAFTINGMENU";
 	};
 
 		--------------
@@ -4969,4 +4971,5 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 19, 43037, "", "=q2=Recipe: Tracker Snacks", "=ds=#p3# (400)"};
 		{ 20, 43021, "", "=q2=Recipe: Very Burnt Worg", "=ds=#p3# (400)"};
 		{ 22, 43007, "", "=q1=Northern Spices", "=ds=#e8#"};
+		Back = "CRAFTINGMENU";
 	};

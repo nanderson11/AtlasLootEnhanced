@@ -236,6 +236,19 @@ if AL then
 	AL["Random"] = "Random";
     AL["Weapons"] = "Waffen";
 
+	--Darkmoon Faire
+--	AL["Darkmoon Faire Rewards"] = true;
+--	AL["Low Level Decks"] = true;
+--	AL["Original and BC Trinkets"] = true;
+--	AL["WotLK Trinkets"] = true;
+    
+	--Argent Tournament
+--	AL["Argent Tournament"] = true;
+
+	-- Daily Quest
+--	AL["Jewelcrafting Daily"] = true;
+--	AL["Cooking Daily"] = true;
+
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck Kartenspiel Items";
     AL["Heroes of Azeroth"] = "Helden von Azeroth";

@@ -348,6 +348,10 @@ if AL then
 	--Argent Tournament
 	AL["Argent Tournament"] = "銀白聯賽";
 
+	-- Daily Quest
+	AL["Jewelcrafting Daily"] = "珠寶加工每日任務";
+	AL["Cooking Daily"] = "烹飪每日任務";
+
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck 卡片遊戲物品";
     AL["Loot Card Items"] = "可換取的物品";

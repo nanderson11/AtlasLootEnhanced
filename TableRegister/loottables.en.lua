@@ -1303,9 +1303,9 @@ AtlasLoot_TableNames = {};
   -- First Aid
 	AtlasLoot_TableNames["FirstAid1"] = { FIRSTAID, "AtlasLootCrafting" };
   -- Daily
-	AtlasLoot_TableNames["JewelcraftingDaily"] = { "Jewelcrafting Daily", "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily2"] = { "Jewelcrafting Daily", "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingDaily"] = { "Cooking Daily", "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelcraftingDaily"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelcraftingDaily2"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["CookingDaily"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
 
 -----------
 --- PvP ---
