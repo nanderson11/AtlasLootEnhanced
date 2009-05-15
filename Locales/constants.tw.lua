@@ -6,7 +6,7 @@ back to the English translation.
 
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
--- $Id:
+-- $Id$
 
 --Table holding all loot tables is initialised here as it loads early
 --AtlasLoot_Data = {};
@@ -191,8 +191,8 @@ if AL then
     AL["Factions"] = "陣營";
     AL["World Events"] = "世界事件";
     AL["Load Modules"] = "載入模組";
-    AL["Crafting"] = "商業技能武器";
-    AL["Crafting Daily Quests"] = "商業技能每日任務";
+    AL["Crafting"] = "交易技能物品";
+    AL["Crafting Daily Quests"] = "交易技能每日任務";
 
     --First time user
     AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "歡迎使用 Atlasloot Enhanced。請花一些時間設定您的偏好選項。";
@@ -557,6 +557,8 @@ if AL then
 
     --Wrath of the Lich King Sets
     AL["Raine's Revenge"] = "萊尼的復仇";
+	AL["Low Level"] = "較低等級";
+	AL["High Level"] = "較高等級";
 
     --Recipe origin strings
     AL["Trainer"] = "訓練師";
@@ -796,72 +798,72 @@ if AL then
     AL["The Defiler's Resolution"] = "污染者的決心";
 
     --PvP Level 60 Rare Sets - Alliance
-    AL["Lieutenant Commander's Refuge"] = "中尉指揮官的庇護";
-    AL["Lieutenant Commander's Pursuance"] = "中尉指揮官的追求";
-    AL["Lieutenant Commander's Arcanum"] = "中尉指揮官的奧秘";
-    AL["Lieutenant Commander's Redoubt"] = "中尉指揮官的防禦";
-    AL["Lieutenant Commander's Investiture"] = "中尉指揮官的服裝";
-    AL["Lieutenant Commander's Guard"] = "中尉指揮官的防護";
-    AL["Lieutenant Commander's Stormcaller"] = "中尉指揮官的風暴召喚者";
-    AL["Lieutenant Commander's Dreadgear"] = "中尉指揮官的裝備";
-    AL["Lieutenant Commander's Battlearmor"] = "中尉指揮官的戰甲";
+    AL["Lieutenant Commander's Refuge"] = "少校的庇護";
+    AL["Lieutenant Commander's Pursuance"] = "少校的追求";
+    AL["Lieutenant Commander's Arcanum"] = "少校的奧秘";
+    AL["Lieutenant Commander's Redoubt"] = "少校的防禦";
+    AL["Lieutenant Commander's Investiture"] = "少校的服裝";
+    AL["Lieutenant Commander's Guard"] = "少校的防護";
+    AL["Lieutenant Commander's Stormcaller"] = "少校的震地者";
+    AL["Lieutenant Commander's Dreadgear"] = "少校的裝備";
+    AL["Lieutenant Commander's Battlearmor"] = "少校的護甲";
 
     --PvP Level 60 Rare Sets - Horde
-    AL["Champion's Refuge"] = "勇士的聖裝";
+    AL["Champion's Refuge"] = "勇士的庇護";
     AL["Champion's Pursuance"] = "勇士的追求";
     AL["Champion's Arcanum"] = "勇士的奧秘";
     AL["Champion's Redoubt"] = "勇士的壁壘";
     AL["Champion's Investiture"] = "勇士的服裝";
-    AL["Champion's Guard"] = "勇士的外衣";
+    AL["Champion's Guard"] = "勇士的套裝";
     AL["Champion's Stormcaller"] = "勇士的召喚";
-    AL["Champion's Dreadgear"] = "勇士的護甲";
-    AL["Champion's Battlearmor"] = "勇士的戰甲";
+    AL["Champion's Dreadgear"] = "勇士的裝備";
+    AL["Champion's Battlearmor"] = "勇士的護甲";
 
     --PvP Level 60 Epic Sets - Alliance
     AL["Field Marshal's Sanctuary"] = "戰場元帥的聖裝";
     AL["Field Marshal's Pursuit"] = "戰場元帥的獵裝";
-    AL["Field Marshal's Regalia"] = "戰場元帥的法衣";
-    AL["Field Marshal's Aegis"] = "戰場元帥的庇護";
+    AL["Field Marshal's Regalia"] = "戰場元帥的戰衣";
+    AL["Field Marshal's Aegis"] = "戰場元帥的聖禦";
     AL["Field Marshal's Raiment"] = "戰場元帥的神服";
     AL["Field Marshal's Vestments"] = "戰場元帥的制服";
-    AL["Field Marshal's Earthshaker"] = "戰場元帥的地者";
+    AL["Field Marshal's Earthshaker"] = "戰場元帥的震地者";
     AL["Field Marshal's Threads"] = "戰場元帥的魔裝";
-    AL["Field Marshal's Battlegear"] = "戰場元帥的戰甲";
+    AL["Field Marshal's Battlegear"] = "戰場元帥的戰裝";
 
     --PvP Level 60 Epic Sets - Horde
     AL["Warlord's Sanctuary"] = "督軍的聖裝";
     AL["Warlord's Pursuit"] = "督軍的獵裝";
-    AL["Warlord's Regalia"] = "督軍的法衣套裝";
-    AL["Warlord's Aegis"] = "督軍的庇護";
-    AL["Warlord's Raiment"] = "督軍的祭祀袍套裝";
+    AL["Warlord's Regalia"] = "督軍的戰衣";
+    AL["Warlord's Aegis"] = "督軍的聖禦";
+    AL["Warlord's Raiment"] = "督軍的神服";
     AL["Warlord's Vestments"] = "督軍的制服";
-    AL["Warlord's Earthshaker"] = "督軍的震地者套裝";
+    AL["Warlord's Earthshaker"] = "督軍的震撼";
     AL["Warlord's Threads"] = "督軍的魔裝";
     AL["Warlord's Battlegear"] = "督軍的戰甲";
 
     --Outland Faction Reputation PvP Sets
-    AL["Dragonhide Battlegear"] = "龍皮軍裝";
-    AL["Wyrmhide Battlegear"] = "龍革軍裝";
-    AL["Kodohide Battlegear"] = "科多獸皮軍裝";
-    AL["Stalker's Chain Battlegear"] = "捕獵者鍊甲套裝";
-    AL["Evoker's Silk Battlegear"] = "塑能師絲質軍裝";
-    AL["Crusader's Scaled Battledgear"] = "十字軍綴鱗軍裝";
-    AL["Crusader's Ornamented Battledgear"] = "十字軍裝飾軍裝";
-    AL["Satin Battlegear"] = "緞織軍裝";
-    AL["Mooncloth Battlegear"] = "月布軍裝";
-    AL["Opportunist's Battlegear"] = "投機者皮甲軍裝";
-    AL["Seer's Linked Battlegear"] = "先知鎖鍊軍裝";
-    AL["Seer's Mail Battlegear"] = "先知鎖甲軍裝";
-    AL["Seer's Ringmail Battlegear"] = "先知環甲軍裝";
-    AL["Dreadweave Battlegear"] = "懼紋軍裝";
-    AL["Savage's Plate Battlegear"] = "野蠻鎧甲軍裝";
+    AL["Dragonhide Battlegear"] = "龍皮戰裝";
+    AL["Wyrmhide Battlegear"] = "龍革戰裝";
+    AL["Kodohide Battlegear"] = "科多獸皮戰裝";
+    AL["Stalker's Chain Battlegear"] = "潛獵者鍊甲戰裝";
+    AL["Evoker's Silk Battlegear"] = "塑能師絲質戰裝";
+    AL["Crusader's Scaled Battledgear"] = "十字軍綴鱗戰裝";
+    AL["Crusader's Ornamented Battledgear"] = "十字軍裝飾戰裝";
+    AL["Satin Battlegear"] = "緞質戰裝";
+    AL["Mooncloth Battlegear"] = "月布戰裝";
+    AL["Opportunist's Battlegear"] = "投機者戰裝";
+    AL["Seer's Linked Battlegear"] = "先知鎖鍊戰裝";
+    AL["Seer's Mail Battlegear"] = "先知鎖甲戰裝";
+    AL["Seer's Ringmail Battlegear"] = "先知環甲戰裝";
+    AL["Dreadweave Battlegear"] = "懼紋戰裝";
+    AL["Savage's Plate Battlegear"] = "野蠻鎧甲戰裝";
 
     --Arena Epic Sets
     AL["Gladiator's Sanctuary"] = "鬥士的聖裝";
     AL["Gladiator's Wildhide"] = "鬥士的狂野革甲套裝";
     AL["Gladiator's Refuge"] = "鬥士的庇護套裝";
     AL["Gladiator's Pursuit"] = "鬥士的獵裝";
-    AL["Gladiator's Regalia"] = "鬥士的戰衣套裝";
+    AL["Gladiator's Regalia"] = "鬥士的戰衣";
     AL["Gladiator's Aegis"] = "鬥士的聖禦戰甲";
     AL["Gladiator's Vindication"] = "鬥士的辯護套裝";
     AL["Gladiator's Redemption"] = "鬥士的救贖套裝";
@@ -871,9 +873,9 @@ if AL then
     AL["Gladiator's Earthshaker"] = "鬥士的震地者套裝";
     AL["Gladiator's Thunderfist"] = "鬥士的雷霆之拳套裝";
     AL["Gladiator's Wartide"] = "鬥士的戰鬥之潮套裝";
-    AL["Gladiator's Dreadgear"] = "角鬥士裝備";
-    AL["Gladiator's Felshroud"] = "鬥士的魔化外衣套裝";
-    AL["Gladiator's Battlegear"] = "角鬥士戰甲";
+    AL["Gladiator's Dreadgear"] = "鬥士的戰慄套裝";
+    AL["Gladiator's Felshroud"] = "鬥士的魔化罩衣套裝";
+    AL["Gladiator's Battlegear"] = "鬥士的戰裝";
     AL["Gladiator's Desecration"] = "鬥士的褻瀆套裝";
     
     --Level 80 PvP Weapons
@@ -904,8 +906,8 @@ if AL then
 	AL["Burning Crusade Sets"] = "燃燒的遠征套裝";
 	AL["Wrath Of The Lich King Sets"] = "巫妖王之怒套裝";
 	AL["Scholomance Sets"] = "通靈學院套裝";
-    AL["Crafted Sets"] = "商業技能精製套裝";
-    AL["Crafted Epic Weapons"] = "商業技能精製史詩武器";
+    AL["Crafted Sets"] = "交易技能套裝";
+    AL["Crafted Epic Weapons"] = "交易技能史詩武器";
     AL["Zul'Gurub Sets"] = "祖爾格拉布套裝";
     AL["ZG Class Sets"] = "ZG 職業套裝";
     AL["ZG Enchants"] = "ZG 公式";

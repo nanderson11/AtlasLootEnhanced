@@ -550,7 +550,10 @@ if AL then
 
 	--Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Venganza de Raine";
-    
+--  AL["Low Level"] = true;
+--	AL["High Level"] = true;
+
+
 	--Recipe origin strings
 	AL["Trainer"] = "Instructor";
 	AL["Discovery"] = "Descubierto";

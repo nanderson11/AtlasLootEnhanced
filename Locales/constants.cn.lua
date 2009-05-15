@@ -535,6 +535,8 @@ if AL then
 
 	--Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "蕾妮的复仇";
+--	AL["Low Level"] = true;
+--	AL["High Level"] = true;
 
 	--Recipe origin strings
 	AL["Trainer"] = "训练师";
