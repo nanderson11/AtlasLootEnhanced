@@ -380,7 +380,7 @@ AtlasLoot_DewDropDown = {
 				{ AL["Abyssal Council"], "AbyssalCouncil", "Submenu" },
 			},
 			[2] = {
-				{ "Argent Tournament", "ArgentTournament1", "Table" },
+				{ AL["Argent Tournament"], "ArgentTournament1", "Table" },
 			},
 			[3] = {
 				{ AL["Bash'ir Landing Skyguard Raid"], "BashirLanding", "Table" },

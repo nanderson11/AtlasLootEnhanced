@@ -327,7 +327,7 @@ if AL then
 	AL["WotLK Trinkets"] = "巫妖王之怒饰品";
 	
 	--Argent Tournament
---	AL["Argent Tournament"] = true;
+	AL["Argent Tournament"] = "银色锦标赛";
 
 	-- Daily Quest
 --	AL["Jewelcrafting Daily"] = true;
@@ -1197,7 +1197,7 @@ if AL then
 	AL["Noblegarden"] = "彩蛋节";
 	AL["Skettis"] = "斯克提斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荆棘谷钓鱼大赛";
-	AL["Argent Tournament"] = "银色锦标赛";
+--	AL["Argent Tournament"] = "银色锦标赛"; -- duplicated
 
 	--Help Frame
 	AL["Help"] = "帮助";

@@ -1254,7 +1254,7 @@ if AL then
 	AL["Noblegarden"] = "Le jardin des nobles";
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
-	AL["Argent Tournament"] = "Tournoi d'Argent";
+--	AL["Argent Tournament"] = "Tournoi d'Argent"; --duplicated
 
 	--Help Frame
 	AL["Help"] = "Aide";

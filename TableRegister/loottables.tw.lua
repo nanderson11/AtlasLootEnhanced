@@ -173,10 +173,6 @@ if (GetLocale() == "zhTW") then
 --------------
 --- Trades ---
 --------------
-  -- Daily
-	AtlasLoot_TableNames["JewelcraftingDaily"][1] = "珠寶加工每日任務";
-	AtlasLoot_TableNames["JewelcraftingDaily2"][1] = "珠寶加工每日任務";
-	AtlasLoot_TableNames["CookingDaily"][1] = "烹飪每日任務";
 
 -----------
 --- PvP ---

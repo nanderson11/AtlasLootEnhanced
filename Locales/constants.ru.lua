@@ -1255,7 +1255,7 @@ if AL then
     AL["Noblegarden"] = "Фестиваль урожая";
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбная феерия Тернистой долины";
-	AL["Argent Tournament"] = "Серебряный турнир";
+--	AL["Argent Tournament"] = "Серебряный турнир"; -- duplicated
 	
 	AL["Help"] = "Справка";
 	AL["AtlasLoot Help"] = "Справка AtlasLoot";

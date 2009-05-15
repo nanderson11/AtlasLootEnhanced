@@ -1,11 +1,12 @@
 ﻿--[[
-constants.en.lua
+constants.tw.lua
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
 
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
+-- $Id:
 
 --Table holding all loot tables is initialised here as it loads early
 --AtlasLoot_Data = {};
@@ -1256,7 +1257,7 @@ if AL then
     AL["Noblegarden"] = "彩蛋節";
     AL["Skettis"] = "司凱堤斯";
     AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
-	AL["Argent Tournament"] = "銀色全球爭霸戰";
+--	AL["Argent Tournament"] = "銀白聯賽";  -- duplicated
 
 	--Help Frame
 	AL["Help"] = "說明";
