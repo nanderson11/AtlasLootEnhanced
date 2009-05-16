@@ -533,8 +533,8 @@ if AL then
     AL["The Gladiator"] = "角鬥士套裝";
     AL["Ironweave Battlesuit"] = "鐵織戰裝";
     AL["Necropile Raiment"] = "骨堆套裝";
-    AL["Cadaverous Garb"] = "蒼白套裝";
-    AL["Bloodmail Regalia"] = "血鏈套裝";
+    AL["Cadaverous Garb"] = "蒼白裝束";
+    AL["Bloodmail Regalia"] = "血鏈戰衣";
     AL["Deathbone Guardian"] = "亡骨守護者";
     AL["The Postmaster"] = "郵差套裝";
     AL["Shard of the Gods"] = "天神裂片";
@@ -550,7 +550,7 @@ if AL then
     AL["Spider's Kiss"] = "蜘蛛之吻";
 
     --The Burning Crusade Sets
-    AL["Latro's Flurry"] = "拉托的狂怒";
+    AL["Latro's Flurry"] = "拉托的亂舞";
     AL["The Twin Stars"] = "雙子星套裝";
     AL["The Fists of Fury"] = "狂暴支配套裝";
     AL["The Twin Blades of Azzinoth"] = "埃辛諾斯的雙刃";
@@ -575,46 +575,46 @@ if AL then
     AL["Blessed Regalia of Undead Cleansing"] = "淨亡祝福戰衣";
     AL["Undead Slayer's Blessed Armor"] = "弒亡祝福護甲";
     AL["Blessed Garb of the Undead Slayer"] = "弒亡祝福裝束";
-    AL["Blessed Battlegear of Undead Slaying"] = "弒亡祝福戰甲";
+    AL["Blessed Battlegear of Undead Slaying"] = "弒亡祝福戰裝";
     AL["Prince Tenris Mirkblood"] = "坦瑞斯·暗血王子";
 
     --ZG Sets
-    AL["Haruspex's Garb"] = "占卜師套裝";
+    AL["Haruspex's Garb"] = "占卜師裝束";
     AL["Predator's Armor"] = "捕獵者套裝";
     AL["Illusionist's Attire"] = "幻術師套裝";
     AL["Freethinker's Armor"] = "思考者護甲";
     AL["Confessor's Raiment"] = "懺悔者衣飾";
     AL["Madcap's Outfit"] = "狂妄者套裝";
-    AL["Augur's Regalia"] = "占兆者套裝";
+    AL["Augur's Regalia"] = "占兆者戰衣";
     AL["Demoniac's Threads"] = "惡魔師套裝";
-    AL["Vindicator's Battlegear"] = "辯護者重甲";
+    AL["Vindicator's Battlegear"] = "辯護者戰裝";
 
     --AQ20 Sets
     AL["Symbols of Unending Life"] = "不滅生命徽記";
     AL["Trappings of the Unseen Path"] = "隱秘通途套裝";
     AL["Trappings of Vaulted Secrets"] = "魔法的秘密";
-    AL["Battlegear of Eternal Justice"] = "永恆的公正";
+    AL["Battlegear of Eternal Justice"] = "永恆公正戰裝";
     AL["Finery of Infinite Wisdom"] = "無盡的智慧";
     AL["Emblems of Veiled Shadows"] = "朦朧之影";
     AL["Gift of the Gathering Storm"] = "聚集的風暴";
     AL["Implements of Unspoken Names"] = "禁斷的邪語";
-    AL["Battlegear of Unyielding Strength"] = "不屈力量裝備";
+    AL["Battlegear of Unyielding Strength"] = "不屈力量戰裝";
 
     --AQ40 Sets
     AL["Genesis Raiment"] = "起源套裝";
-    AL["Striker's Garb"] = "打擊者護甲";
+    AL["Striker's Garb"] = "打擊者裝束";
     AL["Enigma Vestments"] = "神秘套裝";
     AL["Avenger's Battlegear"] = "復仇者戰甲";
     AL["Garments of the Oracle"] = "神諭者套裝";
-    AL["Deathdealer's Embrace"] = "死亡執行者的擁抱";
-    AL["Stormcaller's Garb"] = "風暴召喚者";
+    AL["Deathdealer's Embrace"] = "亡賈的擁抱";
+    AL["Stormcaller's Garb"] = "風暴召喚者裝束";
     AL["Doomcaller's Attire"] = "厄運召喚者";
-    AL["Conqueror's Battlegear"] = "征服者戰甲";
+    AL["Conqueror's Battlegear"] = "征服者戰裝";
 
     --Dungeon 1 Sets
     AL["Wildheart Raiment"] = "野性之心套裝";
-    AL["Beaststalker Armor"] = "馭獸者護甲";
-    AL["Magister's Regalia"] = "博學者套裝";
+    AL["Beaststalker Armor"] = "獸巡者護甲";
+    AL["Magister's Regalia"] = "博學者戰衣";
     AL["Lightforge Armor"] = "光鑄護甲";
     AL["Vestments of the Devout"] = "虔誠套裝";
     AL["Shadowcraft Armor"] = "迅影護甲";
@@ -625,8 +625,8 @@ if AL then
     --Dungeon 2 Sets
     AL["Feralheart Raiment"] = "野獸之心套裝";
     AL["Beastmaster Armor"] = "獸王護甲";
-    AL["Sorcerer's Regalia"] = "巫士套裝";
-    AL["Soulforge Armor"] = "靈鑄護甲";
+    AL["Sorcerer's Regalia"] = "巫士戰衣";
+    AL["Soulforge Armor"] = "魂鑄護甲";
     AL["Vestments of the Virtuous"] = "善潔套裝";
     AL["Darkmantle Armor"] = "闇影護甲";
     AL["The Five Thunders"] = "五雷套裝";
@@ -635,40 +635,40 @@ if AL then
 
     --Dungeon 3 Sets
     AL["Hallowed Raiment"] = "神聖儀祭套裝";
-    AL["Incanter's Regalia"] = "魔法使的外衣套裝";
-    AL["Mana-Etched Regalia"] = "法力蝕刻戰衣套裝";
+    AL["Incanter's Regalia"] = "魔法使戰衣";
+    AL["Mana-Etched Regalia"] = "法力蝕刻戰衣";
     AL["Oblivion Raiment"] = "失落戰衣套裝";
     AL["Assassination Armor"] = "暗殺套裝";
     AL["Moonglade Raiment"] = "月光林地套裝";
     AL["Wastewalker Armor"] = "荒行套裝";
     AL["Beast Lord Armor"] = "野獸之王護甲";
-    AL["Desolation Battlegear"] = "哀傷之鏈套裝";
+    AL["Desolation Battlegear"] = "哀傷之鏈戰裝";
     AL["Tidefury Raiment"] = "惡潮套裝";
     AL["Bold Armor"] = "勇猛護甲套裝";
-    AL["Doomplate Battlegear"] = "末日戰甲套裝";
+    AL["Doomplate Battlegear"] = "末日戰裝";
     AL["Righteous Armor"] = "公正套裝";
 
     --Tier 1 Sets
     AL["Cenarion Raiment"] = "塞納里奧套裝";
-    AL["Giantstalker Armor"] = "巨獸之王護甲";
-    AL["Arcanist Regalia"] = "秘法師套裝";
+    AL["Giantstalker Armor"] = "巨人巡者護甲";
+    AL["Arcanist Regalia"] = "秘法師戰衣";
     AL["Lawbringer Armor"] = "秩序之源護甲";
     AL["Vestments of Prophecy"] = "預言套裝";
     AL["Nightslayer Armor"] = "黑夜殺手護甲";
     AL["The Earthfury"] = "大地之怒套裝";
     AL["Felheart Raiment"] = "惡魔之心套裝";
-    AL["Battlegear of Might"] = "力量戰甲";
+    AL["Battlegear of Might"] = "力量戰裝";
 
     --Tier 2 Sets
     AL["Stormrage Raiment"] = "怒風套裝";
-    AL["Dragonstalker Armor"] = "馭龍者護甲";
-    AL["Netherwind Regalia"] = "靈風套裝";
+    AL["Dragonstalker Armor"] = "龍巡者護甲";
+    AL["Netherwind Regalia"] = "靈風戰衣";
     AL["Judgement Armor"] = "審判護甲";
     AL["Vestments of Transcendence"] = "卓越套裝";
     AL["Bloodfang Armor"] = "血牙護甲";
     AL["The Ten Storms"] = "無盡風暴套裝";
     AL["Nemesis Raiment"] = "復仇套裝";
-    AL["Battlegear of Wrath"] = "憤怒戰甲";
+    AL["Battlegear of Wrath"] = "憤怒戰裝";
 
     --Tier 3 Sets
     AL["Dreamwalker Raiment"] = "夢行者套裝";
@@ -677,15 +677,15 @@ if AL then
     AL["Redemption Armor"] = "救贖護甲";
     AL["Vestments of Faith"] = "信仰套裝";
     AL["Bonescythe Armor"] = "骨鐮套裝";
-    AL["The Earthshatterer"] = "粉碎大地護甲";
+    AL["The Earthshatterer"] = "碎地者護甲";
     AL["Plagueheart Raiment"] = "瘟疫之心套裝";
-    AL["Dreadnaught's Battlegear"] = "無畏套裝";
+    AL["Dreadnaught's Battlegear"] = "無畏戰裝";
 
     --Tier 4 Sets
     AL["Malorne Harness"] = "瑪洛尼戰馭套裝";
     AL["Malorne Raiment"] = "瑪洛尼儀祭套裝";
-    AL["Malorne Regalia"] = "瑪洛尼戰衣套裝";
-    AL["Demon Stalker Armor"] = "惡魔獵者套裝";
+    AL["Malorne Regalia"] = "瑪洛尼戰衣";
+    AL["Demon Stalker Armor"] = "惡魔巡者套裝";
     AL["Aldor Regalia"] = "奧多爾戰衣套裝";
     AL["Justicar Armor"] = "審判者防禦套裝";
     AL["Justicar Battlegear"] = "審判者戰甲套裝";
@@ -695,16 +695,16 @@ if AL then
     AL["Netherblade Set"] = "虛空之刃套裝";
     AL["Cyclone Harness"] = "颶風戰馭套裝";
     AL["Cyclone Raiment"] = "颶風儀祭套裝";
-    AL["Cyclone Regalia"] = "颶風戰衣套裝";
+    AL["Cyclone Regalia"] = "颶風戰衣";
     AL["Voidheart Raiment"] = "虛無之心套裝";
     AL["Warbringer Armor"] = "戰爭使者防禦套裝";
-    AL["Warbringer Battlegear"] = "戰爭使者戰甲套裝";
+    AL["Warbringer Battlegear"] = "戰爭使者戰裝";
 
     --Tier 5 Sets
     AL["Nordrassil Harness"] = "諾達希爾戰馭套裝";
     AL["Nordrassil Raiment"] = "諾達希爾儀祭套裝";
-    AL["Nordrassil Regalia"] = "諾達希爾戰衣套裝";
-    AL["Rift Stalker Armor"] = "裂隙行者護甲套裝";
+    AL["Nordrassil Regalia"] = "諾達希爾戰衣";
+    AL["Rift Stalker Armor"] = "裂隙巡者護甲套裝";
     AL["Tirisfal Regalia"] = "提里斯法戰衣套裝";
     AL["Crystalforge Armor"] = "晶鑄防禦套裝";
     AL["Crystalforge Battlegear"] = "晶鑄戰甲套裝";
@@ -714,16 +714,16 @@ if AL then
     AL["Deathmantle Set"] = "死神傳承套裝";
     AL["Cataclysm Harness"] = "裂地戰馭套裝";
     AL["Cataclysm Raiment"] = "裂地儀祭套裝";
-    AL["Cataclysm Regalia"] = "裂地戰衣套裝";
+    AL["Cataclysm Regalia"] = "裂地戰衣";
     AL["Corruptor Raiment"] = "墮落者戰衣套裝";
     AL["Destroyer Armor"] = "毀滅者防禦套裝";
-    AL["Destroyer Battlegear"] = "毀滅者戰甲套裝";
+    AL["Destroyer Battlegear"] = "毀滅者戰裝";
 
     --Tier 6 Sets
     AL["Thunderheart Harness"] = "雷霆之心戰馭套裝";
     AL["Thunderheart Raiment"] = "雷霆之心儀祭套裝";
-    AL["Thunderheart Regalia"] = "雷霆之心戰衣套裝";
-    AL["Gronnstalker's Armor"] = "古羅行者套裝";
+    AL["Thunderheart Regalia"] = "雷霆之心戰衣";
+    AL["Gronnstalker's Armor"] = "古羅巡者套裝";
     AL["Tempest Regalia"] = "風暴戰衣";
     AL["Lightbringer Armor"] = "光明使者防禦套裝";
     AL["Lightbringer Battlegear"] = "光明使者戰甲套裝";
@@ -733,30 +733,30 @@ if AL then
     AL["Slayer's Armor"] = "殺戮者護甲套裝";
     AL["Skyshatter Harness"] = "碎天者戰馭套裝";
     AL["Skyshatter Raiment"] = "碎天者儀祭套裝";
-    AL["Skyshatter Regalia"] = "碎天者戰衣套裝";
+    AL["Skyshatter Regalia"] = "碎天者戰衣";
     AL["Malefic Raiment"] = "邪惡戰衣套裝";
     AL["Onslaught Armor"] = "猛擊防禦套裝";
-    AL["Onslaught Battlegear"] = "猛擊戰甲套裝";
+    AL["Onslaught Battlegear"] = "猛擊戰裝";
 
     --Tier 7 Sets
-    AL["Scourgeborne Battlegear"] = "天譴宿命戰甲";
+    AL["Scourgeborne Battlegear"] = "天譴宿命戰裝";
     AL["Scourgeborne Plate"] = "天譴宿命鎧甲";
     AL["Dreamwalker Garb"] = "夢行者裝束";
-    AL["Dreamwalker Battlegear"] = "夢行者戰甲";
+    AL["Dreamwalker Battlegear"] = "夢行者戰裝";
     AL["Dreamwalker Regalia"] = "夢行者戰衣";
-    AL["Cryptstalker Battlegear"] = "地穴行者戰甲";
+    AL["Cryptstalker Battlegear"] = "地穴巡者戰甲";
     AL["Frostfire Garb"] = "霜火裝束";
     AL["Redemption Regalia"] = "救贖戰衣";
-    AL["Redemption Battlegear"] = "救贖戰甲";
+    AL["Redemption Battlegear"] = "救贖戰裝";
     AL["Redemption Plate"] = "救贖鎧甲";
     AL["Regalia of Faith"] = "信仰戰衣";
     AL["Garb of Faith"] = "信仰裝束";
-    AL["Bonescythe Battlegear"] = "骨鐮戰甲";
+    AL["Bonescythe Battlegear"] = "骨鐮戰裝";
     AL["Earthshatter Garb"] = "碎地者裝束";
-    AL["Earthshatter Battlegear"] = "碎地者戰甲";
+    AL["Earthshatter Battlegear"] = "碎地者戰裝";
     AL["Earthshatter Regalia"] = "碎地者戰衣";
     AL["Plagueheart Garb"] = "瘟疫之心裝束";
-    AL["Dreadnaught Battlegear"] = "無畏戰甲";
+    AL["Dreadnaught Battlegear"] = "無畏戰裝";
     AL["Dreadnaught Plate"] = "無畏鎧甲";
 
 	--Tier 8 Sets
@@ -859,24 +859,24 @@ if AL then
     AL["Savage's Plate Battlegear"] = "野蠻鎧甲戰裝";
 
     --Arena Epic Sets
-    AL["Gladiator's Sanctuary"] = "鬥士的聖裝";
-    AL["Gladiator's Wildhide"] = "鬥士的狂野革甲套裝";
-    AL["Gladiator's Refuge"] = "鬥士的庇護套裝";
-    AL["Gladiator's Pursuit"] = "鬥士的獵裝";
-    AL["Gladiator's Regalia"] = "鬥士的戰衣";
-    AL["Gladiator's Aegis"] = "鬥士的聖禦戰甲";
-    AL["Gladiator's Vindication"] = "鬥士的辯護套裝";
-    AL["Gladiator's Redemption"] = "鬥士的救贖套裝";
-    AL["Gladiator's Raiment"] = "鬥士的儀祭服套裝";
-    AL["Gladiator's Investiture"] = "鬥士的傳承套裝";
-    AL["Gladiator's Vestments"] = "鬥士的戰鬥皮甲";
-    AL["Gladiator's Earthshaker"] = "鬥士的震地者套裝";
-    AL["Gladiator's Thunderfist"] = "鬥士的雷霆之拳套裝";
-    AL["Gladiator's Wartide"] = "鬥士的戰鬥之潮套裝";
-    AL["Gladiator's Dreadgear"] = "鬥士的戰慄套裝";
-    AL["Gladiator's Felshroud"] = "鬥士的魔化罩衣套裝";
-    AL["Gladiator's Battlegear"] = "鬥士的戰裝";
-    AL["Gladiator's Desecration"] = "鬥士的褻瀆套裝";
+    AL["Gladiator's Sanctuary"] = "鬥士的聖裝";           -- arenas1_1
+    AL["Gladiator's Wildhide"] = "鬥士的狂野革甲套裝";    -- arenas1_2
+    AL["Gladiator's Refuge"] = "鬥士的庇護套裝";          -- arenas1_3
+    AL["Gladiator's Pursuit"] = "鬥士的獵裝";             -- arenas2
+    AL["Gladiator's Regalia"] = "鬥士的戰衣";             -- arenas3
+    AL["Gladiator's Aegis"] = "鬥士的聖禦";               -- arenas4_1
+    AL["Gladiator's Vindication"] = "鬥士的辯護套裝";     -- arenas4_2
+    AL["Gladiator's Redemption"] = "鬥士的救贖套裝";      -- arenas4_3
+    AL["Gladiator's Raiment"] = "鬥士的儀祭服套裝";       -- arenas5_1
+    AL["Gladiator's Investiture"] = "鬥士的傳承套裝";     -- arenas5_2
+    AL["Gladiator's Vestments"] = "鬥士的戰鬥皮甲";       -- arenas6
+    AL["Gladiator's Earthshaker"] = "鬥士的震地者套裝";   -- arenas7_1
+    AL["Gladiator's Thunderfist"] = "鬥士的雷霆之拳套裝"; -- arenas7_2
+    AL["Gladiator's Wartide"] = "鬥士的戰鬥之潮套裝";     -- arenas7_3
+    AL["Gladiator's Dreadgear"] = "鬥士的戰慄套裝";       -- arenas8_1
+    AL["Gladiator's Felshroud"] = "鬥士的魔化罩衣套裝";   -- arenas8_2
+    AL["Gladiator's Battlegear"] = "鬥士的戰裝";          -- arenas9
+    AL["Gladiator's Desecration"] = "鬥士的褻瀆套裝";     -- arenas10
     
     --Level 80 PvP Weapons
     AL["Savage Gladiator\'s Weapons"] = "蠻荒鬥士武器";
