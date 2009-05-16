@@ -347,8 +347,8 @@ if AL then
 	AL["Argent Tournament"] = "Tournoi d'Argent";
 
 	-- Daily Quest
---	AL["Jewelcrafting Daily"] = true;
---	AL["Cooking Daily"] = true;
+	AL["Jewelcrafting Daily"] = "Rec. de Joaillerie (Journalière)";
+	AL["Cooking Daily"] = "Rec. de Cuisine (Jounalière)";
 
 	--Card Game Decks and descriptions
 	AL["Upper Deck Card Game Items"] = "Objets des cartes à jouer WoW TCG";
@@ -554,8 +554,8 @@ if AL then
     
 	--Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Vengeance de Raine";
---	AL["Low Level"] = true;
---	AL["High Level"] = true;
+	AL["Low Level"] = "Haut niveau";
+	AL["High Level"] = "Bas niveau";
 
 	--Recipe origin strings
 	AL["Trainer"] = "Entraineur";
@@ -1256,7 +1256,7 @@ if AL then
 	AL["Noblegarden"] = "Le jardin des nobles";
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
---	AL["Argent Tournament"] = "Tournoi d'Argent"; --duplicated
+	--AL["Argent Tournament"] = "Tournoi d'Argent"; --duplicated
 
 	--Help Frame
 	AL["Help"] = "Aide";
