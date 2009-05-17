@@ -781,6 +781,7 @@
 						<Anchor point="TOP" relativeTo="$parent" relativePoint="TOP"/>
 					</Anchors>
 				</FontString>
+				<!--
                 <FontString name="$parent_HelpText" inherits="GameFontNormal" justifyH="LEFT">
 					<Size>
 						<AbsDimension x="380" y="410"/>
@@ -793,6 +794,7 @@
                         </Anchor>
 					</Anchors>
 				</FontString>
+				-->
             </Layer>
         </Layers>
         <Scripts>
