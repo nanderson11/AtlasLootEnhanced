@@ -2842,8 +2842,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 25, 44296, "", "=q4=Helm of Purified Thoughts", "=ds=#s1#, #a4#"};
 		{ 26, 44283, "", "=q4=Signet of Hopeful Light", "=ds=#s13#"};
 		{ 27, 42187, "", "=q1=Pattern: Brilliant Spellthread", "=ds=#p8# (430)"};
-	};
 		Back = "REPMENU_WOTLK";
+	};
 
 		-------------------------
 		--- Frenzyheart Tribe ---
