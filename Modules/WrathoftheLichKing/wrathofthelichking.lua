@@ -2445,7 +2445,10 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarAlgalon"] = {
-		{ 16, 46052, "", "=q1=", "=ds=#m3#"};
+		{ 1, 0, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#"};
+		{ 2, 0, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
+		{ 3, 0, "", "=q4=Dark Matter", "=ds=#s13#"};
+		{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m3#"};
 		{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
 		{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
 		{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
@@ -2457,7 +2460,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	AtlasLoot_Data["UlduarAlgalon25Man"] = {
 		{ 1, 45594, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#"};
 		{ 2, 45620, "", "=q4=Starshard Edge", "=ds=#w4#"};
-		{ 16, 46053, "", "=q1=", "=ds=#m3#"};
+		{ 16, 46053, "", "=q4=", "=ds=#m3#"};
 		{ 17, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
 		{ 18, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
 		{ 19, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
