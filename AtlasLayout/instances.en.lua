@@ -160,14 +160,14 @@ AtlasLootNewBossButtons = {
         "UlduarRazorscale";
         "UlduarIgnis";
         "UlduarDeconstructor";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarB = {
@@ -179,12 +179,12 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "UlduarKologarn";
-        ""; --UlduarAlgalon
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "UlduarAlgalon";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarC = {
@@ -195,33 +195,33 @@ AtlasLootNewBossButtons = {
         "UlduarHodir";
         "UlduarThorim";
         "UlduarFreya";
-		"";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarD = {
         "";
         "UlduarMimiron";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarE = {
         "";
         "UlduarVezax";
         "UlduarYoggSaron";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarHallsofLightning = {
