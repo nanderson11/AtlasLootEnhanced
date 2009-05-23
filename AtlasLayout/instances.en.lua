@@ -77,8 +77,8 @@ AtlasLootNewBossButtons = {
         "GundrakSladran";
         "GundrakColossus";
         "GundrakMoorabi";
-        "GundrakGaldarah";
         "GundrakEckHEROIC";
+        "GundrakGaldarah";
         "";
         "GundrakTrash";
         };
