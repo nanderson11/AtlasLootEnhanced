@@ -2446,9 +2446,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarAlgalon"] = {
-		{ 1, 0, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#"};
-		{ 2, 0, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
-		{ 3, 0, "", "=q4=Dark Matter", "=ds=#s13#"};
+		{ 1, 0, "", "=q4=Drape of the Messenger", "=ds=#s4#"};
+		{ 2, 0, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#"};
+		{ 3, 0, "", "=q4=Starlight Treads", "=ds=feet, #a1#"};
+		{ 4, 0, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#"};
+		{ 5, 0, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#"};
+		{ 6, 0, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
+		{ 7, 0, "", "=q4=Dark Matter", "=ds=#s13#"};
 		{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m3#"};
 		{ 17, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
 		{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
