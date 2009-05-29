@@ -6,7 +6,7 @@ AtlasLoot_DefaultFrame_OnShow()
 AtlasLootDefaultFrame_OnHide()
 AtlasLoot_DewdropSubMenuRegister(loottable)
 AtlasLoot_DewdropRegister()
-AtlasLoot_SetNewStyle()
+AtlasLoot_SetNewStyle(style)
 ]]
 
 --Include all needed libraries
@@ -380,26 +380,11 @@ end
 --[[
 AtlasLoot_SetNewStyle:
 Create the new Default Frame style
+	style = "new"
+	style = "old"
 ]]
-function AtlasLoot_SetNewStyle()
-	AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-StatsBackground"});
-	AtlasLootDefaultFrame_LootBackground:SetBackdropColor(1,1,1,0.5)
-	AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground", 
-		  edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
-		  edgeSize = 16, 
-		  insets = { left = 4, right = 4, top = 4, bottom = 4 }});
-	AtlasLootDefaultFrame:SetBackdropColor(1,1,1,0.5)
-	AtlasLootDefaultFrame:SetBackdropBorderColor(1,0.675,0.125,1)
-	AtlasLootDefaultFrameHeader:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Alert-Background.blp")
-	AtlasLootDefaultFrameHeader:SetTexCoord(0,0.605,0,0.703)
-	AtlasLootDefaultFrameHeader:SetWidth(299)
-	AtlasLootDefaultFrameHeader:SetHeight(60)
-	AtlasLootDefaultFrameHeader:SetPoint("TOP",AtlasLootDefaultFrame,"TOP",-3,22)
+function AtlasLoot_SetNewStyle(style)
 
-	AtlasLootDefaultFrame_Options:SetNormalTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
-	AtlasLootDefaultFrame_Options:SetHeight(24)
-	AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
-	AtlasLootDefaultFrame_Options:SetHeight(24)
 	local buttons = {
 		"AtlasLootDefaultFrame_Options",
 		"AtlasLootDefaultFrame_LoadModules",
@@ -414,21 +399,85 @@ function AtlasLoot_SetNewStyle()
 		"AtlasLootDefaultFrameLastResultButton",
 		"AtlasLootDefaultFrameWishListButton"
 	}
-	local function SetButtons(path)
-	   getglobal(path):SetNormalTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
-	   getglobal(path):SetHeight(24)
-	   getglobal(path):SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
-	   getglobal(path):SetHeight(24)
-	   local tex = getglobal(path):GetNormalTexture();
-	   tex:SetTexCoord(0, 0.6640625, 0, 0.8);
-	   tex:SetHeight(32)
-	   
-	   local tex2 = getglobal(path):GetPushedTexture();
-	   tex2:SetTexCoord(0, 0.6640625, 0, 0.8);
-	   tex2:SetHeight(32)
-	end
+	
+	if style == "new" then
+		AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-StatsBackground"});
+		AtlasLootDefaultFrame_LootBackground:SetBackdropColor(1,1,1,0.5)
+		AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground", 
+			  edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
+			  edgeSize = 16, 
+			  insets = { left = 4, right = 4, top = 4, bottom = 4 }});
+		AtlasLootDefaultFrame:SetBackdropColor(1,1,1,0.5)
+		AtlasLootDefaultFrame:SetBackdropBorderColor(1,0.675,0.125,1)
+		AtlasLootDefaultFrameHeader:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Alert-Background.blp")
+		AtlasLootDefaultFrameHeader:SetTexCoord(0,0.605,0,0.703)
+		AtlasLootDefaultFrameHeader:SetWidth(299)
+		AtlasLootDefaultFrameHeader:SetHeight(60)
+		AtlasLootDefaultFrameHeader:SetPoint("TOP",AtlasLootDefaultFrame,"TOP",-3,22)
 
-	for k,v in pairs(buttons) do
-	   SetButtons(v)
+		AtlasLootDefaultFrame_Options:SetNormalTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+		AtlasLootDefaultFrame_Options:SetHeight(24)
+		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+		AtlasLootDefaultFrame_Options:SetHeight(24)
+
+		local function SetButtons(path)
+		   getglobal(path):SetNormalTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+		   getglobal(path):SetHeight(24)
+		   getglobal(path):SetPushedTexture("Interface/AchievementFrame/UI-Achievement-Category-Background")
+		   getglobal(path):SetHeight(24)
+		   local tex = getglobal(path):GetNormalTexture();
+		   tex:SetTexCoord(0, 0.6640625, 0, 0.8);
+		   tex:SetHeight(32)
+		   
+		   local tex2 = getglobal(path):GetPushedTexture();
+		   tex2:SetTexCoord(0, 0.6640625, 0, 0.8);
+		   tex2:SetHeight(32)
+		end
+
+		for k,v in pairs(buttons) do
+		   SetButtons(v)
+		end
+	elseif style == "old" then
+	
+		AtlasLootDefaultFrame_LootBackground:SetBackdrop({bgFile = ""});
+		AtlasLootDefaultFrame_LootBackground:SetBackdropColor(0,0,0.5,0.5)	
+		
+		AtlasLootDefaultFrame:SetBackdrop({bgFile = "Interface/DialogFrame/UI-DialogBox-Background", 
+			  edgeFile = "Interface/DialogFrame/UI-DialogBox-Border", 
+			  edgeSize = 32, 
+			  insets = { left = 11, right = 12, top = 12, bottom = 11 }});
+		AtlasLootDefaultFrame:SetBackdropColor(1,1,1,1)
+		AtlasLootDefaultFrame:SetBackdropBorderColor(1,1,1,1)
+		
+		
+		AtlasLootDefaultFrameHeader:SetTexture("Interface/DialogFrame/UI-DialogBox-Header")
+		AtlasLootDefaultFrameHeader:SetTexCoord(0,1,0,1)
+		AtlasLootDefaultFrameHeader:SetWidth(425)
+		AtlasLootDefaultFrameHeader:SetHeight(64)
+		AtlasLootDefaultFrameHeader:SetPoint("TOP",AtlasLootDefaultFrame,"TOP",0,12)
+
+		AtlasLootDefaultFrame_Options:SetNormalTexture("Interface/Buttons/UI-Panel-Button-Up")
+		AtlasLootDefaultFrame_Options:SetHeight(20)
+		AtlasLootDefaultFrame_Options:SetPushedTexture("Interface/Buttons/UI-Panel-Button-Down")
+		AtlasLootDefaultFrame_Options:SetHeight(20)
+
+		local function SetButtons(path)
+		   getglobal(path):SetNormalTexture("Interface/Buttons/UI-Panel-Button-Up")
+		   getglobal(path):SetHeight(20)
+		   getglobal(path):SetPushedTexture("Interface/Buttons/UI-Panel-Button-Down")
+		   getglobal(path):SetHeight(20)
+		   local tex = getglobal(path):GetNormalTexture();
+		   tex:SetTexCoord(0, 0.625, 0, 0.6875);
+		   tex:SetHeight(20)
+		   
+		   local tex2 = getglobal(path):GetPushedTexture();
+		   tex2:SetTexCoord(0, 0.625, 0, 0.6875);
+		   tex2:SetHeight(20)
+		end
+
+		for k,v in pairs(buttons) do
+		   SetButtons(v)
+		end
+		
 	end
 end
