@@ -1166,7 +1166,6 @@ if AL then
     AL["Felsteed"] = "惡魔戰馬";
     AL["Shattered Hand Executioner"] = "破碎之手劊子手";
     AL["Commander Stoutbeard"] = "指揮官厚鬚";
-    AL["Rescue Mission"] = "營救任務";
     AL["Bjarngrim"] = "畢亞格林";
     AL["Loken"] = "洛肯";
     AL["Time-Lost Proto Drake"] = "時光流逝元龍";

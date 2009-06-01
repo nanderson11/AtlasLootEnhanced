@@ -1164,7 +1164,6 @@ if AL then
     AL["Felsteed"] = "Скак?н Скве?н?";
     AL["Shattered Hand Executioner"] = "?ала? из клана ?зв??енной ?лани";
     AL["Commander Stoutbeard"] = "?оманди? ?ивобо?од";
-    AL["Rescue Mission"] = true; --Who is this npc?
     AL["Bjarngrim"] = true; --Who is this npc?
     AL["Loken"] = "?окен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";

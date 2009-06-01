@@ -1153,7 +1153,6 @@ if AL then
 	AL["Felsteed"] = "Corcel vil";
 	AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	 
 	AL["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
-	AL["Rescue Mission"] = "Misión de rescate"; --Comprobar
 	AL["Bjarngrim"] = "Bjarngrim"; --FALTA
 	AL["Loken"] = "Loken"; --FALTA
 	AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";

@@ -1165,7 +1165,6 @@ if AL then
 	AL["Felsteed"] = true;
 	AL["Shattered Hand Executioner"] = true;
 	AL["Commander Stoutbeard"] = true;  --Is in BabbleBoss
-	AL["Rescue Mission"] = true;
 	AL["Bjarngrim"] = true; --Is in BabbleBoss
 	AL["Loken"] = true; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
