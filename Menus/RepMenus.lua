@@ -56,16 +56,16 @@ AtlasLoot_Data["REPMENU_BURNINGCRUSADE"] = {
     };
 
 AtlasLoot_Data["REPMENU_WOTLK"] = {
-        { 2, "AllianceVanguard1", "INV_Shield_36", "=ds="..BabbleFaction["Alliance Vanguard"], "" };
-        { 3, "WinterfinRetreat", "INV_Misc_Shell_04", "=ds="..BabbleFaction["Winterfin Retreat"], "" };
+        { 2, "AllianceVanguard1", "INV_Shield_36", "=ds="..BabbleFaction["Alliance Vanguard"], "=q5="..BabbleFaction["Alliance"] };
+        { 3, "WinterfinRetreat", "INV_Misc_Shell_04", "=ds="..BabbleFaction["Winterfin Retreat"], "=q5="..BabbleZone["Borean Tundra"] };
         { 4, "TheWyrmrestAccord", "Ability_Druid_Eclipse", "=ds="..BabbleFaction["The Wyrmrest Accord"], "" };
         { 5, "KnightsoftheEbonBlade", "INV_Weapon_Hand_01", "=ds="..BabbleFaction["Knights of the Ebon Blade"], "" };
-        { 6, "TheOracles", "INV_Helmet_138", "=ds="..BabbleFaction["The Oracles"], "" };
-        { 7, "TheSonsofHodir1", "Spell_Holy_DivinePurpose", "=ds="..BabbleFaction["The Sons of Hodir"], "" };
-        { 17, "HordeExpedition1", "INV_Shield_50", "=ds="..BabbleFaction["Horde Expedition"], "" };
+        { 6, "TheOracles", "INV_Helmet_138", "=ds="..BabbleFaction["The Oracles"], "=q5="..BabbleZone["Sholazar Basin"] };
+        { 7, "TheSonsofHodir1", "Spell_Holy_DivinePurpose", "=ds="..BabbleFaction["The Sons of Hodir"], "=q5="..BabbleZone["The Storm Peaks"] };
+        { 17, "HordeExpedition1", "INV_Shield_50", "=ds="..BabbleFaction["Horde Expedition"], "=q5="..BabbleFaction["Horde"] };
         { 18, "TheKaluak", "INV_Fishingpole_03", "=ds="..BabbleFaction["The Kalu'ak"], "" };
         { 19, "KirinTor", "Spell_Fire_MasterOfElements", "=ds="..BabbleFaction["Kirin Tor"], "" };
         { 20, "ArgentCrusade", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Crusade"], "" };
-        { 21, "FrenzyheartTribe", "INV_Misc_Rune_14", "=ds="..BabbleFaction["Frenzyheart Tribe"], "" };
+        { 21, "FrenzyheartTribe", "INV_Misc_Rune_14", "=ds="..BabbleFaction["Frenzyheart Tribe"], "=q5="..BabbleZone["Sholazar Basin"] };
         Back = "REPMENU";
     };    
