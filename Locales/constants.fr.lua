@@ -1163,10 +1163,8 @@ if AL then
 	AL["Felsteed"] = "Palefroi corrompu";
 	AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 	AL["Commander Stoutbeard"] = "Commandant Rudebarbe";
-	--AL["Bloodstone Annihilator"] = true; -- à traduire
 	--AL["Rescue Mission"] = true; -- à traduire
 	--AL["Bjarngrim"] = true; --Is in BabbleBoss
-	--AL["Kronus"] = true;
 	--AL["Loken"] = true;
 	AL["Time-Lost Proto Drake"] = "Rênes de proto-drake perdu dans le temps";
 	AL["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage"; --Is in BabbleBoss

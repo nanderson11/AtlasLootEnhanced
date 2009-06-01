@@ -1153,10 +1153,8 @@ if AL then
 	AL["Felsteed"] = "Corcel vil";
 	AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	 
 	AL["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
-	AL["Bloodstone Annihilator"] = "Bloodstone Annihilator"; --FALTA
 	AL["Rescue Mission"] = "Misión de rescate"; --Comprobar
 	AL["Bjarngrim"] = "Bjarngrim"; --FALTA
-	AL["Kronus"] = "Kronus"; --FALTA
 	AL["Loken"] = "Loken"; --FALTA
 	AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";
 	AL["Emalon the Storm Watcher"] = "Emalon el Vigía de la Tormenta"; --Is in BabbleBoss

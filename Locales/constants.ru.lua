@@ -1164,10 +1164,8 @@ if AL then
     AL["Felsteed"] = "Скак?н Скве?н?";
     AL["Shattered Hand Executioner"] = "?ала? из клана ?зв??енной ?лани";
     AL["Commander Stoutbeard"] = "?оманди? ?ивобо?од";
-    AL["Bloodstone Annihilator"] = true; --Who is this npc?
     AL["Rescue Mission"] = true; --Who is this npc?
     AL["Bjarngrim"] = true; --Who is this npc?
-    AL["Kronus"] = true; --Who is this npc?
     AL["Loken"] = "?окен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 	AL["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури"; --Is in BabbleBoss

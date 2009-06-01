@@ -1166,10 +1166,8 @@ if AL then
     AL["Felsteed"] = "惡魔戰馬";
     AL["Shattered Hand Executioner"] = "破碎之手劊子手";
     AL["Commander Stoutbeard"] = "指揮官厚鬚";
-    AL["Bloodstone Annihilator"] = "血石殲滅者";
     AL["Rescue Mission"] = "營救任務";
     AL["Bjarngrim"] = "畢亞格林";
-    AL["Kronus"] = "克羅努斯";
     AL["Loken"] = "洛肯";
     AL["Time-Lost Proto Drake"] = "時光流逝元龍";
 	AL["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆"; --Is in BabbleBoss
