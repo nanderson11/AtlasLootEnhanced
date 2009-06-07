@@ -129,6 +129,12 @@ if AL then
 	AL["Partial matching"] = true;
 	AL["If checked, AtlasLoot search item names for a partial match."] = true;
 	AL["You don't have any module selected to search on!"] = true;
+    AL["Treat Crafted Items:"] = true;
+    AL["As Crafting Spells"] = true;
+    AL["As Items"] = true;
+    AL["Loot Browser Style:"] = true;
+    AL["New Style"] = true;
+    AL["Classic Style"] = true;
 	--The next 4 lines are the tooltip for the Server Query Button
 	--The translation doesn't have to be literal, just re-write the
 	--sentences as you would naturally and break them up into 4 roughly
