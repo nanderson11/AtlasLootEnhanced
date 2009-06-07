@@ -38,25 +38,6 @@ function AtlasLoot_OptionsPanelOnLoad(panel)
     InterfaceOptions_AddCategory(panel);
 end
 
---[[function AtlasLoot_FuBarOptionsPanelOnLoad(panel)
-    panel.name=AL["FuBar Options"];
-    panel.parent=AL["AtlasLoot"];
-    InterfaceOptions_AddCategory(panel);
-end
-
-function AtlasLootFuBarOptions_Init()
-    AtlasLootFuBarOptionsFrameMinimap:SetChecked(AtlasLoot.db.profile.FuBarAttached);
-    AtlasLootFuBarOptionsFrameHideFuBar:SetChecked(not AtlasLoot.db.profile.MinimapButton);
-    AtlasLootFuBarOptionsFrameHideFuBarIcon:SetChecked(not AtlasLoot.db.profile.FuBarIcon);
-    AtlasLootFuBarOptionsFrameHideText:SetChecked(not AtlasLoot.db.profile.FuBarText);
-end]]
-
---[[function AtlasLootMinimapOptions_Init()
-    AtlasLootMinimapOptionsFrameMinimap:SetChecked(AtlasLoot.db.profile.MinimapButton);
-    AtlasLootMinimapOptionsFrameSliderButtonPos:SetValue(AtlasLoot.db.profile.MinimapButtonAngle);
-    AtlasLootMinimapOptionsFrameSliderButtonRad:SetValue(AtlasLoot.db.profile.MinimapButtonRadius);
-end]]
-
 function AtlasLootOptions_Init()
     --Initialise all the check boxes on the options frame
     AtlasLootOptionsFrameSafeLinks:SetChecked(AtlasLoot.db.profile.SafeLinks);
@@ -67,7 +48,6 @@ function AtlasLootOptions_Init()
     AtlasLootOptionsFrameOpaque:SetChecked(AtlasLoot.db.profile.Opaque);
     AtlasLootOptionsFrameItemID:SetChecked(AtlasLoot.db.profile.ItemIDs);
     AtlasLootOptionsFrameItemSpam:SetChecked(AtlasLoot.db.profile.ItemSpam);
-    AtlasLootOptionsFrameLoDSpam:SetChecked(AtlasLoot.db.profile.LoDNotify);
     AtlasLootOptionsFrameLoDStartup:SetChecked(AtlasLoot.db.profile.LoadAllLoDStartup);
     AtlasLootOptionsFrameHidePanel:SetChecked(AtlasLoot.db.profile.HidePanel);
     AtlasLootOptionsFrameLootBrowserScale:SetValue(AtlasLoot.db.profile.LootBrowserScale);
@@ -83,23 +63,7 @@ function AtlasLootOptions_OnLoad()
         AtlasLootOptionsFrameItemSyncTT:Disable();
         AtlasLootOptionsFrameItemSyncTTText:SetText(AL["|cff9d9d9dItemSync Tooltips|r"]);
     end
-    --[[if IsAddOnLoaded("FuBar") then
-        if (AtlasLoot.db.profile.MinimapButton == true) then
-            AtlasLootOptions_MinimapToggle();
-        end
-        AtlasLootMinimapOptionsFrameMinimap:Disable();
-        AtlasLootMinimapOptionsFrameMinimap:SetText("");
-        AtlasLootMinimapOptionsFrameMinimap:Hide();
-        AtlasLootMinimapOptionsFrameMinimap:SetText(AL["|cff9d9d9dShow Basic Minimap Button|r"]);
-        AtlasLootMinimapOptionsFrameMinimap:Show();
-        AtlasLootFuBarOptions_Init();
-    else
-        AtlasLootMinimapOptions_Init();
-    end]]
     AtlasLootOptions_Init();
-    --[[if IsAddOnLoaded("FuBar") then
-        AtlasLootFuBarOptions_Init();
-    end]]
     temp=AtlasLoot.db.profile.SafeLinks;
 end
 
@@ -154,15 +118,6 @@ function AtlasLootOptions_ItemSpam()
     AtlasLootOptions_Init();
 end
 
-function AtlasLootOptions_LoDSpam()
-    if (AtlasLoot.db.profile.LoDNotify) then
-        AtlasLoot.db.profile.LoDNotify = false;
-    else
-        AtlasLoot.db.profile.LoDNotify = true;
-    end
-    AtlasLootOptions_Init();
-end
-
 function AtlasLootOptions_LoDStartup()
     if (AtlasLoot.db.profile.LoadAllLoDStartup) then
         AtlasLoot.db.profile.LoadAllLoDStartup = false;
@@ -177,47 +132,6 @@ function AtlasLootOptions_ItemIDToggle()
     AtlasLootOptions_Init();
 end
 
---[[function AtlasLootOptions_MinimapToggle()
-    if IsAddOnLoaded("FuBar") then
-        if AtlasLoot.db.profile.MinimapButton == true then
-            AtlasLoot.db.profile.MinimapButton = false;
-            AtlasLootFu:Hide();
-        else
-            AtlasLoot.db.profile.MinimapButton = true;
-            if AtlasLootFu:IsFuBarMinimapAttached() and (AtlasLoot.db.profile.FuBarAttached == false) then
-                AtlasLootFu:ToggleFuBarMinimapAttached();
-            end
-            AtlasLootFu:Show();
-        end
-        AtlasLootFuBarOptions_Init();
-    else
-        if AtlasLoot.db.profile.MinimapButton == true then
-            AtlasLoot.db.profile.MinimapButton = false;
-            AtlasLootMinimapButtonFrame:SetPoint("CENTER", "UIParent", "CENTER");
-            AtlasLootMinimapButtonFrame:Hide();
-        else
-            AtlasLoot.db.profile.MinimapButton = true;
-            AtlasLootMinimapButtonFrame:SetPoint("TOPLEFT","Minimap","TOPLEFT",54 - (78 * cos(AtlasLoot.db.profile.MinimapButtonAngle)),(78 * sin(AtlasLoot.db.profile.MinimapButtonAngle)) - 55);
-            AtlasLootMinimapButtonFrame:Show();
-        end
-        AtlasLootOptions_Init();
-    --end
-end]]
-
---[[function AtlasLootOptions_FuBarToggle()
-    if AtlasLoot.db.profile.MinimapButton == true then
-        if AtlasLoot.db.profile.FuBarAttached then
-            AtlasLoot.db.profile.FuBarAttached = false;
-            AtlasLootFu:ToggleFuBarMinimapAttached();
-        else
-            AtlasLoot.db.profile.FuBarAttached = true;
-            AtlasLootFu:ToggleFuBarMinimapAttached();
-        end
-        AtlasLootFuBarOptions_Init();
-    end
-end]]
-        
-
 function AtlasLoot_SetupLootBrowserSlider(frame, mymin, mymax, step)
     getglobal(frame:GetName().."Text"):SetText(AL["Loot Browser Scale: "].." ("..frame:GetValue()..")");
 	frame:SetMinMaxValues(mymin, mymax);
@@ -225,22 +139,6 @@ function AtlasLoot_SetupLootBrowserSlider(frame, mymin, mymax, step)
 	getglobal(frame:GetName().."High"):SetText(mymax);
 	frame:SetValueStep(step);
 end
-
---[[function AtlasLoot_SetupMinimapPosSlider(frame, mymin, mymax, step)
-    getglobal(frame:GetName().."Text"):SetText(AL["Button Position: "].." ("..frame:GetValue()..")");
-	frame:SetMinMaxValues(mymin, mymax);
-	getglobal(frame:GetName().."Low"):SetText(mymin);
-	getglobal(frame:GetName().."High"):SetText(mymax);
-	frame:SetValueStep(step);
-end
-
-function AtlasLoot_SetupMinimapRadSlider(frame, mymin, mymax, step)
-    getglobal(frame:GetName().."Text"):SetText(AL["Button Radius: "].." ("..frame:GetValue()..")");
-	frame:SetMinMaxValues(mymin, mymax);
-	getglobal(frame:GetName().."Low"):SetText(mymin);
-	getglobal(frame:GetName().."High"):SetText(mymax);
-	frame:SetValueStep(step);
-end]]
 
 --Borrowed from Atlas, thanks Dan!
 local function round(num, idp)
@@ -251,14 +149,6 @@ end
 function AtlasLoot_UpdateLootBrowserSlider(frame)
     getglobal(frame:GetName().."Text"):SetText(AL["Loot Browser Scale: "].." ("..round(frame:GetValue(),2)..")");
 end
-
---[[function AtlasLoot_UpdateMinimapPosSlider(frame)
-    getglobal(frame:GetName().."Text"):SetText(AL["Button Position: "].." ("..round(frame:GetValue(),2)..")");
-end
-
-function AtlasLoot_UpdateMinimapRadSlider(frame)
-    getglobal(frame:GetName().."Text"):SetText(AL["Button Radius: "].." ("..round(frame:GetValue(),2)..")");
-end]]
 
 function AtlasLoot_UpdateLootBrowserScale()
 	AtlasLootDefaultFrame:SetScale(AtlasLoot.db.profile.LootBrowserScale);
@@ -325,7 +215,6 @@ function AtlasLoot_CreateOptionsInfoTooltips()
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameSafeLinks", nil) -- AL["Safe Chat Links |cff1eff00(recommended)|r"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameEquipCompare", nil) -- AL["Show Comparison Tooltips"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameHidePanel", nil) -- AL["Hide AtlasLoot Panel"]
-      AtlasLoot_AddTooltip("AtlasLootOptionsFrameLoDStartup", nil) -- AL["Load Loot Modules at Startup"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameItemSpam", nil) -- AL["Suppress Item Query Text"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameLoDSpam", nil) -- AL["Notify on LoD Module Load"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameLootBrowserScale", nil) -- Scale SLIDER
@@ -334,4 +223,64 @@ function AtlasLoot_CreateOptionsInfoTooltips()
       AtlasLoot_AddTooltip("AtlasLootOptionsFrame_ResetQuicklooks", nil) -- AL["Reset Quicklooks"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrame_FuBarShow", nil) -- AL["Show FuBar Plugin"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrame_FuBarHide", nil) -- AL["Hide FuBar Plugin"]
+      AtlasLoot_AddTooltip("AtlasLoot_SelectLootBrowserStyle", nil) 
+end
+
+function AtlasLoot_OptionsOnShow()
+    AtlasLoot_SelectLootBrowserStyle_Label:SetText(AL["Loot Browser Style:"]);
+    UIDropDownMenu_Initialize(AtlasLoot_SelectLootBrowserStyle, AtlasLoot_SelectLootBrowserStyle_Initialize);
+	UIDropDownMenu_SetSelectedID(AtlasLoot_SelectLootBrowserStyle, AtlasLoot.db.profile.LootBrowserStyle);
+	UIDropDownMenu_SetWidth(AtlasLoot_SelectLootBrowserStyle, 150);
+    AtlasLoot_CraftingLink_Label:SetText(AL["Treat Crafted Items:"]);
+    UIDropDownMenu_Initialize(AtlasLoot_CraftingLink, AtlasLoot_CraftingLink_Initialize);
+	UIDropDownMenu_SetSelectedID(AtlasLoot_CraftingLink, AtlasLoot.db.profile.CraftingLink);
+	UIDropDownMenu_SetWidth(AtlasLoot_CraftingLink, 150);
+end
+
+function AtlasLoot_SelectLootBrowserStyle_Initialize()
+	local info;
+	info = {
+        text = AL["New Style"];
+        func = AtlasLoot_SelectLootBrowserStyle_OnClick;
+    };
+	UIDropDownMenu_AddButton(info);
+    info = {
+        text = AL["Classic Style"];
+        func = AtlasLoot_SelectLootBrowserStyle_OnClick;
+    };
+	UIDropDownMenu_AddButton(info);
+end
+
+function AtlasLoot_SelectLootBrowserStyle_OnClick()
+    local thisID = this:GetID();
+	UIDropDownMenu_SetSelectedID(AtlasLoot_SelectLootBrowserStyle, thisID);
+    AtlasLoot.db.profile.LootBrowserStyle = thisID;
+    if( AtlasLoot.db.profile.LootBrowserStyle == 1 ) then
+        AtlasLoot_SetNewStyle("new");
+    else
+        AtlasLoot_SetNewStyle("old");
+    end
+    AtlasLoot_OptionsOnShow();
+end
+
+function AtlasLoot_CraftingLink_Initialize()
+	local info;
+	info = {
+        text = AL["As Crafting Spells"];
+        func = AtlasLoot_CraftingLink_OnClick;
+    };
+	UIDropDownMenu_AddButton(info);
+    info = {
+        text = AL["As Items"];
+        func = AtlasLoot_CraftingLink_OnClick;
+    };
+	UIDropDownMenu_AddButton(info);
+end
+
+function AtlasLoot_CraftingLink_OnClick()
+    local thisID = this:GetID();
+	UIDropDownMenu_SetSelectedID(AtlasLoot_CraftingLink, thisID);
+    AtlasLoot.db.profile.CraftingLink = thisID;
+    AtlasLoot_ShowItemsFrame(AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]);
+    AtlasLoot_OptionsOnShow();
 end

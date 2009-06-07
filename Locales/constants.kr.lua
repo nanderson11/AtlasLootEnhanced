@@ -43,8 +43,7 @@ AL:RegisterTranslations("koKR", function() return {
 
     --Text for Options Panel
     ["Atlasloot Options"] = "Atlasloot 설정",
-    ["Safe Chat Links |cff1eff00(recommended)|r"] = "안전한 채팅 링크 |cff1eff00(추천)|r",
-    ["Enable all Chat Links |cffff0000(use at own risk)|r"] = "모든 채팅 링크 활성 |cffff0000(비추)|r",
+    ["Safe Chat Links"] = "안전한 채팅 링크",
     ["Default Tooltips"] = "기본 툴팁",
     ["Lootlink Tooltips"] = "Lootlink 툴팁",
     ["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dLootlink 툴팁|r",

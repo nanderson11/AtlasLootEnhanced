@@ -96,8 +96,7 @@ if AL then
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Опции Atlasloot";
-    AL["Safe Chat Links |cff1eff00(recommended)|r"] = "Безопасные ссылки |cff1eff00(рекомендуется)|r";
-    AL["All Chat Links |cffff0000(use at own risk)|r"] = "Включить все ссылки чата |cffff0000(исп. на свой риск)|r";
+    AL["Safe Chat Links"] = "Безопасные ссылки";
     AL["Default Tooltips"] = "Стандартные подсказки";
     AL["Lootlink Tooltips"] = "Всплывающие подсказки СсылокТрофеев";
     AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dПодсказки СсылокТрофеев|r";

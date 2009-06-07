@@ -42,6 +42,7 @@ ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSIO
 ATLASLOOT_CURRENT_ATLAS = "1.14.1";
 ATLASLOOT_PREVIEW_ATLAS = "1.14.2";
 ATLASLOOT_POSITION = AL["Position:"];
+ATLASLOOT_DEBUGMESSAGES = false;
 
 --Standard indent to line text up with Atlas text
 ATLASLOOT_INDENT = "   ";
@@ -100,9 +101,10 @@ local AtlasLootDBDefaults = {
         AtlasLootVersion = "1",
         FuBarPosition = 1,
         AutoQuery = false,
-        LoDNotify = false,
         LoadAllLoDStartup = false,
         PartialMatching = true,
+        LootBrowserStyle = 1,
+        CraftingLink = 1,
         MinimapButtonAngle = 240,
         MinimapButtonRadius = 75,
         LootBrowserScale = 1.0,
@@ -202,6 +204,18 @@ function AtlasLoot_OnVariablesLoaded()
 	--Instead of hooking, replace the scrollbar driver function
     Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update;
 	AtlasScrollBar_Update = AtlasLoot_AtlasScrollBar_Update;
+    if( not AtlasLoot.db.profile.LootBrowserStyle ) then
+        AtlasLoot.db.profile.LootBrowserStyle = 1;
+    end    
+    --Set visual style for the loot browser
+    if( not AtlasLoot.db.profile.CraftingLink ) then
+        AtlasLoot.db.profile.CraftingLink = 1;
+    end
+    if( AtlasLoot.db.profile.LootBrowserStyle == 1 ) then
+        AtlasLoot_SetNewStyle("new");
+    else
+        AtlasLoot_SetNewStyle("old");
+    end
 	--Disable options that don't have the supporting mods
 	if( not LootLink_SetTooltip and (AtlasLoot.db.profile.LootlinkTT == true)) then
 		AtlasLoot.db.profile.LootlinkTT = false;
@@ -643,11 +657,16 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				extraFrame:Show();
 
 				--For convenience, we store information about the objects in the objects so that it can be easily accessed later
-				itemButton.itemID = dataSource[dataID][i][2];
-                if tonumber(dataSource[dataID][i][3]) then
+				if((string.sub(dataSource[dataID][i][2], 1, 1) == "s") and (AtlasLoot.db.profile.CraftingLink ~= 1) and (tonumber(dataSource[dataID][i][3]))) then
+                    itemButton.itemID = dataSource[dataID][i][3];
                     itemButton.spellitemID = dataSource[dataID][i][3];
                 else
-                    itemButton.spellitemID = 0;
+                    itemButton.itemID = dataSource[dataID][i][2];
+                    if tonumber(dataSource[dataID][i][3]) then
+                        itemButton.spellitemID = dataSource[dataID][i][3];
+                    else
+                        itemButton.spellitemID = 0;
+                    end
                 end
                 itemButton.iteminfo = {};
 				if isItem then
@@ -1081,7 +1100,7 @@ function AtlasLoot_IsLootTableAvailable(dataID)
                     end
                 end
                 if AtlasLoot_Data[dataID] then
-                    if AtlasLoot.db.profile.LoDNotify then
+                    if ATLASLOOT_DEBUGMESSAGES then
                         DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..moduleName..WHITE.." "..AL["sucessfully loaded."]);
                     end
                     collectgarbage("collect");
@@ -1150,7 +1169,7 @@ function AtlasLoot_LoadAllModules()
 		flag=1;
 	end
 	if flag == 1 then
-		if AtlasLoot.db.profile.LoDNotify then
+		if ATLASLOOT_DEBUGMESSAGES then
 			DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..WHITE..AL["All Available Modules Loaded"]);
 		end
 		collectgarbage("collect");

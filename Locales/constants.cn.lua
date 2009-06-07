@@ -85,8 +85,7 @@ if AL then
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = "Atlasloot 设置";
-	AL["Safe Chat Links |cff1eff00(recommended)|r"] = "使用安全物品连接 |cff1eff00(推荐)|r";
-	AL["All Chat Links |cffff0000(use at own risk)|r"] = "使用所有连接 |cffff0000(有掉线风险)|r";
+	AL["Safe Chat Links"] = "使用安全物品连接";
 	AL["Default Tooltips"] = "默认提示样式";
 	AL["Lootlink Tooltips"] = "Lootlink 提示样式";
 	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dLootlink 提示样式";

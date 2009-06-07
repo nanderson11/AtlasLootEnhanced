@@ -73,7 +73,7 @@ if AL then
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "AtlasLoot Optionen";
-    AL["Safe Chat Links |cff1eff00(recommended)|r"] = "Sichere Chatlinks |cff1eff00(empfohlen)|r";
+    AL["Safe Chat Links"] = "Sichere Chatlinks";
     AL["Default Tooltips"] = "Standard Tooltips";
     AL["Lootlink Tooltips"] = "Lootlink Tooltips";
     AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dLootlink Tooltips|r";
