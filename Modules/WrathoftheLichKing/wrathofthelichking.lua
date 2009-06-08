@@ -232,50 +232,50 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["AzjolNerubKrikthir"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#"};
-		{ 3, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#"};
-		{ 4, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#"};
+		{ 2, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#", "", "30%"};
+		{ 3, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#", "", "32%"};
+		{ 4, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#", "", "30%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#"};
-		{ 19, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#"};
-		{ 20, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#"};
-		{ 21, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#", "", "21%"};
+		{ 19, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#", "", "21%"};
+		{ 20, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#", "", "22%"};
+		{ 21, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#", "", "22%"};
 		Next = "AzjolNerubHadronox";
 	};
 
 	AtlasLoot_Data["AzjolNerubHadronox"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#"};
-		{ 3, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#"};
-		{ 4, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#"};
+		{ 2, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#", "", "30%"};
+		{ 3, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#", "", "30%"};
+		{ 4, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#", "", "29%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#"};
-		{ 19, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#"};
-		{ 20, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#"};
-		{ 21, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#", "", "21%"};
+		{ 19, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#", "", "21%"};
+		{ 20, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#", "", "20%"};
+		{ 21, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#", "", "20%"};
 		Prev = "AzjolNerubKrikthir";
 		Next = "AzjolNerubAnubarak";
 	};
 
 	AtlasLoot_Data["AzjolNerubAnubarak"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#"};
-		{ 3, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#"};
-		{ 4, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#"};
+		{ 2, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#", "", "29%"};
+		{ 3, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#", "", "29%"};
+		{ 4, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#", "", "28%"};
 		{ 6, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#"};
-		{ 18, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#"};
-		{ 19, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#"};
-		{ 20, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#"};
-		{ 21, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#"};
-		{ 22, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#"};
-		{ 23, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#"};
-		{ 24, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#"};
-		{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#"};
-		{ 26, 41796, "", "=q3=Design: Infused Twilight Opal", "=ds=#p12# (390)"};
+		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 18, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#", "", "19%"};
+		{ 19, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#", "", "19%"};
+		{ 20, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#", "", "19%"};
+		{ 21, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#", "", "19%"};
+		{ 22, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#", "", "20%"};
+		{ 23, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#", "", "20%"};
+		{ 24, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "19%"};
+		{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "21%"};
+		{ 26, 41796, "", "=q3=Design: Infused Twilight Opal", "=ds=#p12# (390)", "", "12%"};
 		{ 28, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
 		Prev = "AzjolNerubHadronox";
 		Next = "AzjolNerubTrash";
@@ -283,9 +283,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 	AtlasLoot_Data["AzjolNerubTrash"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#"};
-		{ 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#"};
-		{ 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#"};
+		{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#", "", "1%"};
+		{ 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#", "", "1%"};
+		{ 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#", "", "1%"};
 		Prev = "AzjolNerubAnubarak";
 	};
 

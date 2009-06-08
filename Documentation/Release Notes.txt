@@ -8,6 +8,7 @@ Patch Notes
 v5.05.01
 More Ulduar items added
 New Argent Tournament items added
+Drop rates added for Azjol-Nerub
 Added an option to switch between new and old visual styles for the loot browser
 Added the option to treat crafted items as crafting spells or as items
 Minor updates/fixes/translations
