@@ -90,9 +90,9 @@ if AL then
     AL["Hide Icon"] = "Скрыть иконку";
     AL["Minimap Button Options"] = "Опции кнопки у мини-карты";
     AL["Bonus Loot"] = "Дополнительная добыча";
-    AL["Three Drakes Left"] = "Третий дракон";
-    AL["Two Drakes Left"] = "Второй дракон";
     AL["One Drake Left"] = "Превый дракон";
+    AL["Two Drakes Left"] = "Второй дракон";
+	AL["Three Drakes Left"] = "Третий дракон";
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Опции Atlasloot";
@@ -129,6 +129,12 @@ if AL then
     AL["Partial matching"] = "Частичное совпадение";
     AL["If checked, AtlasLoot search item names for a partial match."] = "Если включено, AtlasLoot будет искать названия предметов с частичным совпадением.";
     AL["You don't have any module selected to search on!"] = "Вы не выбрали ни одиного модуля для поиска!";
+    AL["Treat Crafted Items:"] = "Обзор изготов. предметов:";
+    AL["As Crafting Spells"] = "Как используемое заклинание";
+    AL["As Items"] = "Как предмет";
+    AL["Loot Browser Style:"] = "Стиль просмотра добычи:";
+    AL["New Style"] = "Новый стиль";
+    AL["Classic Style"] = "Класический стиль";
     --The next 4 lines are the tooltip for the Server Query Button
     --The translation doesn't have to be literal, just re-write the
     --sentences as you would naturally and break them up into 4 roughly
@@ -348,8 +354,8 @@ if AL then
     AL["Argent Tournament"] = "Серебряный Турнир";
 	
 	-- Daily Quest
---	AL["Jewelcrafting Daily"] = true;
---	AL["Cooking Daily"] = true;
+	AL["Jewelcrafting Daily"] = "Ювелирное дело (Ежедневный)";
+	AL["Cooking Daily"] = "Кулинария (Ежедневный)";
 
     --Card Game Decks and descriptions
     AL["Upper Deck Card Game Items"] = "Upper Deck Card Game Items";
@@ -383,20 +389,21 @@ if AL then
     AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Papa Hummel's Old-fashioned Pet Biscuit";
     -- Sixth set
     AL["Hunt for Illidan"] = "Hunt for Illidan";
-    AL["The Footsteps of Illidan"] = "The Footsteps of Illidan";
+    AL["The Footsteps of Illidan"] = "Шаги Иллидана";
     AL["Disco Inferno!"] = "Disco Inferno!";
     AL["Ethereal Plunderer"] = "Эфириал-расхититель";
     -- Seventh set
+	AL["Drums of War"] = "Drums of War";
     AL["The Red Bearon"] = "The Red Bearon";
     AL["Owned!"] = "Owned!";
     AL["Slashdance"] = "Slashdance";
 	-- Eighth set
-	AL["Blood of Gladiators"] = true;
-	AL["Sandbox Tiger"] = true;
-	AL["Center of Attention"] = true;
-	AL["Foam Sword Rack"] = true;
+	AL["Blood of Gladiators"] = "Blood of Gladiators";
+	AL["Sandbox Tiger"] = "Тигр-качалка";
+	AL["Center of Attention"] = "Center of Attention";
+	AL["Foam Sword Rack"] = "Foam Sword Rack";
 	-- Ninth set
-	AL["Fields of Honor"] = true;
+	AL["Fields of Honor"] = "Fields of Honor";
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "Разные награды";
@@ -554,14 +561,14 @@ if AL then
 	
 	--Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Отмщение Рейн";
---	AL["Low Level"] = true;
---	AL["High Level"] = true;
+	AL["Low Level"] = "Назкий уровень";
+	AL["High Level"] = "Высокий уровень";
 
     --Recipe origin strings
     AL["Trainer"] = "Тренер";
     AL["Discovery"] = "Находка";
     AL["World Drop"] = "Мировой выпад";
-    AL["Drop"] = "Выпадает";
+    AL["Drop"] = "Падает";
     AL["Vendor"] = "Продавец";
     AL["Quest"] = "Задание";
     AL["Crafted"] = "Создано";
@@ -876,8 +883,8 @@ if AL then
     AL["Gladiator's Desecration"] = "Кощунство гладиатора";
 
     --Level 80 PvP Weapons
-    AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";
-    AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";
+    AL["Savage Gladiator\'s Weapons"] = "Оружие свирепого гладиатора";  --unused
+    AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";  --unused
 	AL["Furious Gladiator\'s Weapons"] = "Оружие гневного гладиатора";
 
     --Set Labels
@@ -1160,11 +1167,11 @@ if AL then
     AL["Aged Dalaran Wizard"] = "Даларанский старый волшебник";
     AL["Cache of the Legion"] = "Тайник Легиона";
     AL["Rajaxx's Captains"] = "Капитаны Раджакса";
-    AL["Felsteed"] = "Скак?н Скве?н?";
-    AL["Shattered Hand Executioner"] = "?ала? из клана ?зв??енной ?лани";
-    AL["Commander Stoutbeard"] = "?оманди? ?ивобо?од";
-    AL["Bjarngrim"] = true; --Who is this npc?
-    AL["Loken"] = "?окен";
+    AL["Felsteed"] = "Скакун Скверны";
+    AL["Shattered Hand Executioner"] = "Палач из клана Изувеченной Длани";
+    AL["Commander Stoutbeard"] = "Командир Пивобород";
+    AL["Bjarngrim"] = "Бьярнгрин";
+    AL["Loken"] = "Локен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 	AL["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури"; --Is in BabbleBoss
 
@@ -1209,7 +1216,7 @@ if AL then
     AL["Carefully Wrapped Present"] = "Тщательно упакованный подарок";
     AL["Winter Veil Gift"] = "Подарок на Зимний покров";
     AL["Smokywood Pastures Extra-Special Gift"] = "Эксклюзивный дар Пастбищ Дымного Леса";
-    AL["Brightly Colored Egg"] = "Brightly Colored Egg";
+    AL["Brightly Colored Egg"] = "Раскрашенное яйцо";
     AL["Lunar Festival Fireworks Pack"] = "Пачка фейерверков для Праздника луны";
     AL["Lucky Red Envelope"] = "Красный конверт Счастья";
     AL["Small Rocket Recipes"] = "Чертеж малой ракеты";
@@ -1258,5 +1265,5 @@ if AL then
 	AL["Help"] = "Справка";
 	AL["AtlasLoot Help"] = "Справка AtlasLoot";
 	AL["For further help, see our website and forums: "] = "Для получения дополнительной справки, см. наш сайт и форумы: ";
-	AL["How to open the standalone Loot Browser:"] = "	Как открыть отдельный обозреватель добычи:";
+	AL["How to open the standalone Loot Browser:"] = "Как открыть отдельный обозреватель добычи:";
 end
