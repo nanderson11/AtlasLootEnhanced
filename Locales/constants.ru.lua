@@ -1260,7 +1260,7 @@ if AL then
     AL["Noblegarden"] = "Сад чудес";
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
-    AL["Argent Tournament"] = "Серебряный турнир";
+--    AL["Argent Tournament"] = "Серебряный турнир";
 
 	AL["Help"] = "Справка";
 	AL["AtlasLoot Help"] = "Справка AtlasLoot";
