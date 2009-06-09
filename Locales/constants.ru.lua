@@ -1245,23 +1245,23 @@ if AL then
 
     --World Events
     AL["Abyssal Council"] = "Совет Бездны";
-    AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражи Небес на Лагерь Баш'ира";
-    AL["Brewfest"] = "Фестиваль";
+    AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражей Небес на Лагерь Баш'ира";
+    AL["Brewfest"] = "Хмельной фестиваль";
     AL["Children's Week"] = "Детская неделя";
     AL["Elemental Invasion"] = "Вторжение стихий";
-    AL["Ethereum Prison"] = "Пленник Эфириума";
-    AL["Feast of Winter Veil"] = " Пир Зимнего покров";
+    AL["Ethereum Prison"] = "Тюрьма Эфириумов";
+    AL["Feast of Winter Veil"] = "Зимний Покров";
     AL["Gurubashi Arena Booty Run"] = "Арена Гурубаши";
-    AL["Hallow's End"] = "Тыквовина";
-    AL["Harvest Festival"] = "Фестиваль Жнецов";
-    AL["Love is in the Air"] = "Любовь витает в воздухе";
-    AL["Lunar Festival"] = "Праздник луны";
-    AL["Midsummer Fire Festival"] = "Фестиваль огненного Середина лета";
-    AL["Noblegarden"] = "Фестиваль урожая";
+    AL["Hallow's End"] = "Тыквовин";
+    AL["Harvest Festival"] = "Неделя урожая";
+    AL["Love is in the Air"] = "Любовная лихорадка";
+    AL["Lunar Festival"] = "Лунный фестиваль";
+    AL["Midsummer Fire Festival"] = "Огненный солнцеворот";
+    AL["Noblegarden"] = "Сад чудес";
     AL["Skettis"] = "Скеттис";
-    AL["Stranglethorn Fishing Extravaganza"] = "Рыбная феерия Тернистой долины";
---	AL["Argent Tournament"] = "Серебряный турнир"; -- duplicated
-	
+    AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
+    AL["Argent Tournament"] = "Серебряный турнир";
+
 	AL["Help"] = "Справка";
 	AL["AtlasLoot Help"] = "Справка AtlasLoot";
 	AL["For further help, see our website and forums: "] = "Для получения дополнительной справки, см. наш сайт и форумы: ";
