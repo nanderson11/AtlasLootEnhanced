@@ -952,9 +952,9 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["ArgentTournament4"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ArgentTournament5"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
   -- Abyssal Council
-	AtlasLoot_TableNames["Templars"] = { "Abyssal Council - Templars", "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["Dukes"] = { "Abyssal Council - Dukes", "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["HighCouncil"] = { "Abyssal Council - High Council", "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["Templars"] = { AL["Abyssal Council"].." - "..AL["Templars"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["Dukes"] = { AL["Abyssal Council"].." - "..AL["Dukes"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["HighCouncil"] = { AL["Abyssal Council"].." - "..AL["High Council"], "AtlasLootWorldEvents" };
   -- The Darkmoon Faire
 	AtlasLoot_TableNames["Darkmoon1"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Darkmoon2"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
