@@ -1815,7 +1815,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "UlduarKologarn";
-        ""; --UlduarAlgalon
+        "UlduarAlgalon";
 		"";
 		"";
 		"UlduarTrash";
