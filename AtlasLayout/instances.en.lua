@@ -2,6 +2,7 @@
 -- AtlasLootNewBossButtons
 -- This layout is loaded for BETA Atlas versions
 --------------------------------------------------------------------------------
+
 AtlasLootNewBossButtons = {
 
   ---------------------
@@ -1642,6 +1643,7 @@ AtlasLootNewBossButtons = {
 -- AtlasLootBossButtons
 -- This layout is loaded for BETA Atlas versions
 ------------------------------------------------
+
 AtlasLootBossButtons = {
 
   ---------------------
@@ -1718,8 +1720,8 @@ AtlasLootBossButtons = {
         "GundrakSladran";
         "GundrakColossus";
         "GundrakMoorabi";
-        "GundrakGaldarah";
         "GundrakEckHEROIC";
+        "GundrakGaldarah";
         "";
         "GundrakTrash";
         };
@@ -1801,14 +1803,14 @@ AtlasLootBossButtons = {
         "UlduarRazorscale";
         "UlduarIgnis";
         "UlduarDeconstructor";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarB = {
@@ -1821,11 +1823,11 @@ AtlasLootBossButtons = {
         "";
         "UlduarKologarn";
         "UlduarAlgalon";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarC = {
@@ -1836,33 +1838,33 @@ AtlasLootBossButtons = {
         "UlduarHodir";
         "UlduarThorim";
         "UlduarFreya";
-		"";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarD = {
         "";
         "UlduarMimiron";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarE = {
         "";
         "UlduarVezax";
         "UlduarYoggSaron";
-		"";
-		"";
-		"UlduarTrash";
-		"UlduarPatterns";
-		"T7T8SET";
+        "";
+        "";
+        "UlduarTrash";
+        "UlduarPatterns";
+        "T7T8SET";
         };
 
     UlduarHallsofLightning = {

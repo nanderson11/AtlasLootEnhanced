@@ -35,6 +35,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-------------------------
 		--- Argent Tournament ---
 		-------------------------
+
 	AtlasLoot_Data["ArgentTournament1"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 2, 45714, "", "=q2=Darnassus Commendation Badge", "=ds=", "1 #champwrit#"};
@@ -81,7 +82,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Next = "ArgentTournament3";
 		Back = "WORLDEVENTMENU";
 	};
-	
+
 	AtlasLoot_Data["ArgentTournament3"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 2, 45156, "", "=q3=Sash of Shattering Hearts", "=ds=#s10#, #a1#", "10 #champseal#" };
@@ -189,8 +190,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		Prev = "ArgentTournament5";
 		Back = "WORLDEVENTMENU";
 	};
-
-
 
 
 	-----------------------
