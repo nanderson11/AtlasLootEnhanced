@@ -1,5 +1,6 @@
 --------------------------------------------------------------------------------
--- AtlasBossButtons (default english)
+-- AtlasLootNewBossButtons
+-- This layout is loaded for BETA Atlas versions
 --------------------------------------------------------------------------------
 AtlasLootNewBossButtons = {
 
@@ -1637,6 +1638,10 @@ AtlasLootNewBossButtons = {
         };
 };
 
+------------------------------------------------
+-- AtlasLootBossButtons
+-- This layout is loaded for BETA Atlas versions
+------------------------------------------------
 AtlasLootBossButtons = {
 
   ---------------------
