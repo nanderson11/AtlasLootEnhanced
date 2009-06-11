@@ -2480,7 +2480,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["UlduarAlgalon25Man"] = {
-		{ 1, 0, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#"};
+		{ 1, 45665, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#"};
 		{ 2, 45611, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#"};
 		{ 3, 45610, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#"};
 		{ 4, 45594, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#"};
