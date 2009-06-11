@@ -35,31 +35,54 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-------------------------
 		--- Argent Tournament ---
 		-------------------------
-
 	AtlasLoot_Data["ArgentTournament1"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 45078, "", "=q4=Dagger of Lunar Purity", "=ds=#h3# #w4#", "25 #champseal#" };
-		{ 3, 45129, "", "=q4=Gnomeregan Bonechopper", "=ds=#h3# #w10#", "25 #champseal#" };
-		{ 4, 45076, "", "=q4=Teldrassil Protector", "=ds=#h1# #w1#", "25 #champseal#" };
-		{ 5, 45077, "", "=q4=Dagger of the Rising Moon", "=ds=#h1# #w4#", "25 #champseal#" };
-		{ 6, 45075, "", "=q4=Ironforge Smasher", "=ds=#h1# #w6#", "25 #champseal#" };
-		{ 7, 45128, "", "=q4=Silvery Sylvan Stave", "=ds=#w9#", "25 #champseal#" };
-		{ 8, 45074, "", "=q4=Claymore of the Prophet", "=ds=#h2# #w10#", "25 #champseal#" };
-		{ 9, 45130, "", "=q4=Blunderbuss of Khaz Modan", "=ds=#w5#", "25 #champseal#" };
+		{ 2, 45714, "", "=q2=Darnassus Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 3, 45715, "", "=q2=Exodar Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 4, 45716, "", "=q2=Gnomeregan Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 5, 45717, "", "=q2=Ironforge Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 6, 45718, "", "=q2=Stormwind Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 15, 46114, "", "=q2=Champion's Writ", "=ds=#m17#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 45214, "", "=q4=Scalpel of the Royal Apothecary", "=ds=#h3# #w4#", "25 #champseal#" };
-		{ 18, 45208, "", "=q4=Blade of the Keening Banshee", "=ds=#h3# #w10#", "25 #champseal#" };
-		{ 19, 45204, "", "=q4=Axe of the Sen'jin Protector", "=ds=#h1# #w1#", "25 #champseal#" };
-		{ 20, 45222, "", "=q4=Spinal Destroyer", "=ds=#h1# #w4#", "25 #champseal#" };
-		{ 21, 45203, "", "=q4=Grimhorn Crusher", "=ds=#h1# #w6#", "25 #champseal#" };
-		{ 22, 45212, "", "=q4=Staff of Feral Furies", "=ds=#w9#", "25 #champseal#" };
-		{ 23, 45205, "", "=q4=Greatsword of the Sin'dorei", "=ds=#h2# #w10#", "25 #champseal#" };
-		{ 24, 45210, "", "=q4=Sen'jin Beakblade Longrifle", "=ds=#w5#", "25 #champseal#" };
+		{ 17, 45719, "", "=q2=Orgrimmar Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 18, 45723, "", "=q2=Undercity Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 19, 45722, "", "=q2=Thunder Bluff Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 20, 45720, "", "=q2=Sen'jin Commendation Badge", "=ds=", "1 #champwrit#"};
+		{ 21, 45721, "", "=q2=Silvermoon Commendation Badge", "=ds=", "1 #champwrit#"};
 		Next = "ArgentTournament2";
 		Back = "WORLDEVENTMENU";
 	};
 
 	AtlasLoot_Data["ArgentTournament2"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+		{ 2, 45021, "", "=q1=Darnassus Banner", "=ds=", "15 #champseal#"};
+		{ 3, 45020, "", "=q1=Exodar Banner", "=ds=", "15 #champseal#"};
+		{ 4, 45019, "", "=q1=Gnomeregan Banner", "=ds=", "15 #champseal#"};
+		{ 5, 45018, "", "=q1=Ironforge Banner", "=ds=", "15 #champseal#"};
+		{ 6, 45011, "", "=q1=Stormwind Banner", "=ds=", "15 #champseal#"};
+		{ 7, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 8, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 9, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 10, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 11, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+		{ 17, 45014, "", "=q1=Orgrimmar Banner", "=ds=", "15 #champseal#"};
+		{ 18, 45016, "", "=q1=Undercity Banner", "=ds=", "15 #champseal#"};
+		{ 19, 45013, "", "=q1=Thunder Bluff Banner", "=ds=", "15 #champseal#"};
+		{ 20, 45015, "", "=q1=Sen'jin Banner", "=ds=", "15 #champseal#"};
+		{ 21, 45017, "", "=q1=Silvermoon City Banner", "=ds=", "15 #champseal#"};
+		{ 22, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 23, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 24, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 25, 45582, "", "=q1=Sen'jin Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 26, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "50 #champseal#"};
+		Prev = "ArgentTournament1";
+		Next = "ArgentTournament3";
+		Back = "WORLDEVENTMENU";
+	};
+	
+	AtlasLoot_Data["ArgentTournament3"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 2, 45156, "", "=q3=Sash of Shattering Hearts", "=ds=#s10#, #a1#", "10 #champseal#" };
 		{ 3, 45181, "", "=q3=Wrap of the Everliving Tree", "=ds=#s10#, #a2#", "10 #champseal#" };
@@ -74,6 +97,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 12, 45154, "", "=q3=Necklace of Valiant Blood", "=ds=#s2#", "10 #champseal#" };
 		{ 13, 45152, "", "=q3=Pendant of Azure Dreams", "=ds=#s2#", "10 #champseal#" };
 		{ 14, 45131, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
+		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 17, 45209, "", "=q3=Sash of Trumpted Pride", "=ds=#s10#, #a1#", "10 #champseal#" };
 		{ 18, 45211, "", "=q3=Waistguard of Equine Fury", "=ds=#s10#, #a2#", "10 #champseal#" };
@@ -88,35 +112,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 27, 45213, "", "=q3=Pendant of Emerald Crusader", "=ds=#s2#", "10 #champseal#" };
 		{ 28, 45223, "", "=q3=Razor's Edge Pendant", "=ds=#s2#", "10 #champseal#" };
 		{ 29, 45219, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
-		Prev = "ArgentTournament1";
-		Next = "ArgentTournament3";
-		Back = "WORLDEVENTMENU";
-	};
-
-	AtlasLoot_Data["ArgentTournament3"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e12#", "100 #champseal#"};
-		{ 3, 45590, "", "=q4=Exodar Elekk", "=ds=#e12#", "100 #champseal#"};
-		{ 4, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e12#", "100 #champseal#"};
-		{ 5, 45586, "", "=q4=Ironforge Ram", "=ds=#e12#", "100 #champseal#"};
-		{ 6, 45125, "", "=q4=Stormwind Steed", "=ds=#e12#", "100 #champseal#"};
-		{ 8, 46745, "", "=q4=Great Red Elekk", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 9, 46752, "", "=q4=Swift Gray Steed", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 10, 46744, "", "=q4=Swift Moonsaber", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 11, 46748, "", "=q4=Swift Violet Ram", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 12, 46747, "", "=q4=Turbostrider", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 15, 45725, "", "=q4=Argent Hippogryph", "=ds=#e12#", "150 #champseal#"};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e12#", "100 #champseal#"};
-		{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e12#", "100 #champseal#"};
-		{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e12#", "100 #champseal#"};
-		{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e12#", "100 #champseal#"};
-		{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e12#", "100 #champseal#"};
-		{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e12#", "500 #gold# 5 #champseal#"};
-		{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e12#", "500 #gold# 5 #champseal#"};
 		Prev = "ArgentTournament2";
 		Next = "ArgentTournament4";
 		Back = "WORLDEVENTMENU";
@@ -129,6 +124,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 4, 44970, "", "=q3=Dun Morogh Cub", "=ds=#e13#", "40 #champseal#"};
 		{ 5, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#", "40 #champseal#"};
 		{ 6, 45002, "", "=q3=Mechanopeep", "=ds=#e13#", "40 #champseal#"};
+		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 17, 44980, "", "=q3=Mulgore Hatchling", "=ds=#e13#", "40 #champseal#"};
 		{ 18, 45606, "", "=q3=Sen'jin Fetish", "=ds=#e13#", "40 #champseal#"};
@@ -141,39 +137,61 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 	};
 
 	AtlasLoot_Data["ArgentTournament5"] = {
-		{ 1, 45714, "", "=q2=Darnassus Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 2, 45715, "", "=q2=Exodar Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 3, 45716, "", "=q2=Gnomeregan Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 4, 45717, "", "=q2=Ironforge Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 5, 45718, "", "=q2=Stormwind Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 6, 45021, "", "=q1=Darnassus Banner", "=ds=", "15 #champseal#"};
-		{ 7, 45020, "", "=q1=Exodar Banner", "=ds=", "15 #champseal#"};
-		{ 8, 45019, "", "=q1=Gnomeregan Banner", "=ds=", "15 #champseal#"};
-		{ 9, 45018, "", "=q1=Ironforge Banner", "=ds=", "15 #champseal#"};
-		{ 10, 45011, "", "=q1=Stormwind Banner", "=ds=", "15 #champseal#"};
-		{ 11, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 12, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 13, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 14, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 15, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 16, 45719, "", "=q2=Orgrimmar Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 17, 45723, "", "=q2=Undercity Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 18, 45722, "", "=q2=Thunder Bluff Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 19, 45720, "", "=q2=Sen'jin Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 20, 45721, "", "=q2=Silvermoon Commendation Badge", "=ds=", "1 #champwrit#"};
-		{ 21, 45014, "", "=q1=Orgrimmar Banner", "=ds=", "15 #champseal#"};
-		{ 22, 45016, "", "=q1=Undercity Banner", "=ds=", "15 #champseal#"};
-		{ 23, 45013, "", "=q1=Thunder Bluff Banner", "=ds=", "15 #champseal#"};
-		{ 24, 45015, "", "=q1=Sen'jin Banner", "=ds=", "15 #champseal#"};
-		{ 25, 45017, "", "=q1=Silvermoon City Banner", "=ds=", "15 #champseal#"};
-		{ 26, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 27, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 28, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 29, 45582, "", "=q1=Sen'jin Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 30, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+		{ 2, 45078, "", "=q4=Dagger of Lunar Purity", "=ds=#h3# #w4#", "25 #champseal#" };
+		{ 3, 45129, "", "=q4=Gnomeregan Bonechopper", "=ds=#h3# #w10#", "25 #champseal#" };
+		{ 4, 45076, "", "=q4=Teldrassil Protector", "=ds=#h1# #w1#", "25 #champseal#" };
+		{ 5, 45077, "", "=q4=Dagger of the Rising Moon", "=ds=#h1# #w4#", "25 #champseal#" };
+		{ 6, 45075, "", "=q4=Ironforge Smasher", "=ds=#h1# #w6#", "25 #champseal#" };
+		{ 7, 45128, "", "=q4=Silvery Sylvan Stave", "=ds=#w9#", "25 #champseal#" };
+		{ 8, 45074, "", "=q4=Claymore of the Prophet", "=ds=#h2# #w10#", "25 #champseal#" };
+		{ 9, 45130, "", "=q4=Blunderbuss of Khaz Modan", "=ds=#w5#", "25 #champseal#" };
+		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+		{ 17, 45214, "", "=q4=Scalpel of the Royal Apothecary", "=ds=#h3# #w4#", "25 #champseal#" };
+		{ 18, 45208, "", "=q4=Blade of the Keening Banshee", "=ds=#h3# #w10#", "25 #champseal#" };
+		{ 19, 45204, "", "=q4=Axe of the Sen'jin Protector", "=ds=#h1# #w1#", "25 #champseal#" };
+		{ 20, 45222, "", "=q4=Spinal Destroyer", "=ds=#h1# #w4#", "25 #champseal#" };
+		{ 21, 45203, "", "=q4=Grimhorn Crusher", "=ds=#h1# #w6#", "25 #champseal#" };
+		{ 22, 45212, "", "=q4=Staff of Feral Furies", "=ds=#w9#", "25 #champseal#" };
+		{ 23, 45205, "", "=q4=Greatsword of the Sin'dorei", "=ds=#h2# #w10#", "25 #champseal#" };
+		{ 24, 45210, "", "=q4=Sen'jin Beakblade Longrifle", "=ds=#w5#", "25 #champseal#" };
 		Prev = "ArgentTournament4";
+		Next = "ArgentTournament6";
 		Back = "WORLDEVENTMENU";
 	};
+
+	AtlasLoot_Data["ArgentTournament6"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+		{ 2, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e12#", "100 #champseal#"};
+		{ 3, 45590, "", "=q4=Exodar Elekk", "=ds=#e12#", "100 #champseal#"};
+		{ 4, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e12#", "100 #champseal#"};
+		{ 5, 45586, "", "=q4=Ironforge Ram", "=ds=#e12#", "100 #champseal#"};
+		{ 6, 45125, "", "=q4=Stormwind Steed", "=ds=#e12#", "100 #champseal#"};
+		{ 8, 46745, "", "=q4=Great Red Elekk", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 9, 46752, "", "=q4=Swift Gray Steed", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 10, 46744, "", "=q4=Swift Moonsaber", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 11, 46748, "", "=q4=Swift Violet Ram", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 12, 46747, "", "=q4=Turbostrider", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 14, 45725, "", "=q4=Argent Hippogryph", "=ds=#e12#", "150 #champseal#"};
+		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+		{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e12#", "100 #champseal#"};
+		{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e12#", "100 #champseal#"};
+		{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e12#", "100 #champseal#"};
+		{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e12#", "100 #champseal#"};
+		{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e12#", "100 #champseal#"};
+		{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e12#", "500 #gold# 5 #champseal#"};
+		Prev = "ArgentTournament5";
+		Back = "WORLDEVENTMENU";
+	};
+
+
+
 
 	-----------------------
 	--- Seasonal Events ---

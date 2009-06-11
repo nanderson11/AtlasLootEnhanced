@@ -951,6 +951,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["ArgentTournament3"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ArgentTournament4"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ArgentTournament5"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["ArgentTournament6"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
   -- Abyssal Council
 	AtlasLoot_TableNames["Templars"] = { AL["Abyssal Council"].." - "..AL["Templars"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Dukes"] = { AL["Abyssal Council"].." - "..AL["Dukes"], "AtlasLootWorldEvents" };
