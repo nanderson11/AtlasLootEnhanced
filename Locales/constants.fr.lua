@@ -132,7 +132,7 @@ if AL then
 	--AL["Treat Crafted Items:"] = true; -- à traduire
 	--AL["As Crafting Spells"] = true; -- à traduire
 	--AL["As Items"] = true;
-	AL["Loot Browser Style:"] = "Style du navigateur de loot";
+	AL["Loot Browser Style:"] = "Style du navigateur de loot :";
 	AL["New Style"] = "Nouveau style";
 	AL["Classic Style"] = "Style classique";
 	--The next 4 lines are the tooltip for the Server Query Button
