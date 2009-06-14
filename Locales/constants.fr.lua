@@ -23,7 +23,7 @@ if AL then
 	AL["Search"] = "Chercher";
 	AL["Clear"] = "Effacer";
 	AL["Select Loot Table"] = "Choisir une liste";
-	AL["Select Sub-Table"] = "Choisir une Sous-Liste";
+	AL["Select Sub-Table"] = "Choisir une sous-liste";
 	AL["Drop Rate: "] = "Chance de tomber : ";
 	--AL["DKP"] = true,
 	AL["Priority:"] = "Priorité :";
@@ -129,10 +129,10 @@ if AL then
 	AL["Partial matching"] = "Correspondance partielle";
 	AL["If checked, AtlasLoot search item names for a partial match."] = "Si coché, AtlasLoot recherche le nom d'un objet avec une correspondance partielle.";
 	AL["You don't have any module selected to search on!"] = "Vous n'avez pas sélectionné de module pour la recherche !";
-	--AL["Treat Crafted Items:"] = true; --- à traduire
-	--AL["As Crafting Spells"] = true;
+	--AL["Treat Crafted Items:"] = true; -- à traduire
+	--AL["As Crafting Spells"] = true; -- à traduire
 	--AL["As Items"] = true;
-	--AL["Loot Browser Style:"] = true;
+	AL["Loot Browser Style:"] = "Style du navigateur de loot";
 	AL["New Style"] = "Nouveau style";
 	AL["Classic Style"] = "Style classique";
 	--The next 4 lines are the tooltip for the Server Query Button
