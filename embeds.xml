@@ -17,8 +17,8 @@
 <Include file="Libs\AceDB-3.0\AceDB-3.0.xml"/>
 <Include file="Libs\AceLocale-3.0\AceLocale-3.0.xml"/>
 
-<Script file="Libs\AceLibrary\AceLibrary.lua"/>
-<Script file="Libs\Dewdrop-2.0\Dewdrop-2.0.lua"/>
+<Script file="Libs\DewdropLib\AceLibrary\AceLibrary.lua"/>
+<Script file="Libs\DewdropLib\Dewdrop-2.0\Dewdrop-2.0.lua"/>
 <!--@end-no-lib-strip@-->
 
 <Script file="Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
