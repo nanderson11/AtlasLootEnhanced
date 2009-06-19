@@ -249,7 +249,7 @@ function AtlasLootItem_OnClick(arg1)
             elseif AtlasLootItemsFrame.refresh[1] == "SearchResult" then
             	AtlasLoot:GetOriginalDataFromSearchResult(this.itemID);
             else
-                AtlasLoot_AddToWishlist(this.itemID, this.itemTexture, getglobal("AtlasLootItem_"..this:GetID().."_Name"):GetText(), AtlasLoot_BossName:GetText(), AtlasLootItemsFrame.refresh[1].."|"..AtlasLootItemsFrame.refresh[2]);
+                AtlasLoot_AddToWishlist(this.itemID, this.itemTexture, getglobal("AtlasLootItem_"..this:GetID().."_Name"):GetText(), AtlasLoot_BossName:GetText(), AtlasLootItemsFrame.refreshOri[1].."|"..AtlasLootItemsFrame.refreshOri[2]);
             end
         elseif((AtlasLootItemsFrame.refresh[1] == "SearchResult" or AtlasLootItemsFrame.refresh[1] == "WishList") and this.sourcePage) then
             local dataID, dataSource = strsplit("|", this.sourcePage);
@@ -267,7 +267,7 @@ function AtlasLootItem_OnClick(arg1)
             else
                 spellName, _, _, _, _, _, _, _, _ = GetSpellInfo(string.sub(this.itemID, 2));
                 --spellIcon = GetItemIcon(this.dressingroomID);
-                AtlasLoot_AddToWishlist(this.itemID, this.dressingroomID, "=ds="..spellName, "=ds="..AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[1].."|"..AtlasLootItemsFrame.refresh[2]);
+                AtlasLoot_AddToWishlist(this.itemID, this.dressingroomID, "=ds="..spellName, "=ds="..AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refreshOri[1].."|"..AtlasLootItemsFrame.refreshOri[2]);
             end
         elseif(IsControlKeyDown()) then
             DressUpItemLink("item:"..this.dressingroomID..":0:0:0:0:0:0:0");

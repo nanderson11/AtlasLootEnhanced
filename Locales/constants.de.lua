@@ -117,7 +117,7 @@ if AL then
     AL["WishList Full!"] = "Wunschzettel voll!";
     AL[" added to the WishList."] = " zum Wunschzettel hinzugefügt";
     AL[" already in the WishList!"] = " bereits auf dem Wunschzettel!";
-    AL[" deleted from the WishList."] = "vom Wunschzettel gelöscht";
+    AL[" deleted from the WishList."] = " vom Wunschzettel gelöscht";
 
     --Incomplete Table Registry error message
     AL[" not listed in loot table registry, please report this message to the AtlasLoot forums at http://www.atlasloot.net"] = " nicht im Loot-Tabellen Register gelistet, bitte melde diese Nachricht im AtlasLoot Forum unter http://www.atlasloot.net";
@@ -1041,5 +1041,8 @@ if AL then
     AL["Noblegarden"] = "Nobelgarten";
 	--    AL["Skettis"] = true,
     AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
+	
+	-- Filter
+	AL["Load Class Filter"] = "Lade Klassen Filter";
 
 end

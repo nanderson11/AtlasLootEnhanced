@@ -1282,4 +1282,8 @@ if AL then
 	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = true;
 	AL["HELP!! I have broken the mod somehow!"] = true;
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = true;
+	
+	-- Filter
+	AL["Filter"] = true;
+	AL["Load Class Filter"] = true;
 end

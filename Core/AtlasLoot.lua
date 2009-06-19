@@ -43,6 +43,7 @@ ATLASLOOT_CURRENT_ATLAS = "1.14.1";
 ATLASLOOT_PREVIEW_ATLAS = "1.14.2";
 ATLASLOOT_POSITION = AL["Position:"];
 ATLASLOOT_DEBUGMESSAGES = false;
+ATLASLOOT_FILTER_ENABLE = false;
 
 --Standard indent to line text up with Atlas text
 ATLASLOOT_INDENT = "   ";
@@ -341,6 +342,7 @@ function AtlasLoot_OnVariablesLoaded()
         LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
     end    
     AtlasLoot_UpdateLootBrowserScale();
+	AtlasLoote_CreateFilterOptions();
 end
 
 function AtlasLoot_Reset(data)
@@ -470,13 +472,16 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		HideUIPanel(AtlasQuestInsideFrame);
 	end
     
-    	--Hide the toggle to switch between heroic and normal loot tables, we will only show it if required
+    --Hide the toggle to switch between heroic and normal loot tables, we will only show it if required
 	AtlasLootItemsFrame_Heroic:Hide();
     AtlasLoot10Man25ManSwitch:Hide();
     
     --Ditch the Quicklook selector
     AtlasLoot_QuickLooks:Hide();
     AtlasLootQuickLooksButton:Hide();
+	
+	-- Hide the Filter Check-Box
+	AtlasLootFilterCheck:Hide();
     
 	dataSource_backup = dataSource;
 	if dataID == "SearchResult" or dataID == "WishList" then
@@ -602,6 +607,9 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 
 				--Store data about the state of the items frame to allow minor tweaks or a recall of the current loot page
 				AtlasLootItemsFrame.refresh = {dataID, dataSource_backup, boss, pFrame};
+				if dataID ~= "FilterList" then
+					AtlasLootItemsFrame.refreshOri = {dataID, dataSource_backup, boss, pFrame}
+				end
                 
 				--Insert the item description
                 if dataSource[dataID][i][6] and dataSource[dataID][i][6] ~= "" then
@@ -706,7 +714,10 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		end
 
         AtlasLootItemsFrame.refresh = {dataID, dataSource_backup, boss, pFrame};
-
+		if dataID ~= "FilterList" then
+			AtlasLootItemsFrame.refreshOri = {dataID, dataSource_backup, boss, pFrame}
+		end
+		
         --If the item is not in cache, querying the server may cause a disconnect
         --Show a red box around the item to indicate this to the user
         --((dataSource[dataID][i][2] ~= 0) and (not GetItemInfo(dataSource[dataID][i][2]))
@@ -726,12 +737,18 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
         --This is a valid QuickLook, so show the UI objects
         AtlasLoot_QuickLooks:Show();
         AtlasLootQuickLooksButton:Show();
+		
+		-- Show the Filter Check-Box
+		if dataID ~= "WishList" and dataID ~= "SearchResult" and dataSource_backup ~= "AtlasLootCrafting" then
+			AtlasLootFilterCheck:Show();
+		end
         
         --Decide whether to show the Heroic mode toggle
         --Checks if a heroic version of the loot table is available.
-        HeroicCheck=string.sub(dataID, string.len(dataID)-5, string.len(dataID));
-        HeroicdataID=dataID.."HEROIC";
-        NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
+		local xdataID = AtlasLootItemsFrame.refreshOri[1]
+        HeroicCheck=string.sub(xdataID, string.len(xdataID)-5, string.len(xdataID));
+        HeroicdataID=xdataID.."HEROIC";
+        NonHeroicdataID=string.sub(xdataID, 1, string.len(xdataID)-6);
         if dataSource[HeroicdataID] then
             AtlasLootItemsFrame_Heroic:Show();
             AtlasLootItemsFrame_Heroic:SetChecked(false);
@@ -744,14 +761,14 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                     AtlasLootItemsFrame_Heroic:Enable();
                 else
                     AtlasLootItemsFrame_Heroic:Disable();
-                end
+                end 
             end
         end
-        BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));
-        BigraiddataID=dataID.."25Man";
+        BigraidCheck=string.sub(xdataID, string.len(xdataID)-4, string.len(xdataID));
+        BigraiddataID=xdataID.."25Man";
         if BigraidCheck=="25Man" then
             AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"]);
-            AtlasLoot10Man25ManSwitch.lootpage = string.sub(dataID, 1, string.len(dataID)-5);
+            AtlasLoot10Man25ManSwitch.lootpage = string.sub(xdataID, 1, string.len(xdataID)-5);
             AtlasLoot10Man25ManSwitch:Show();
         else
             if dataSource[BigraiddataID] then
@@ -806,6 +823,9 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 
 	--Anchor the item frame where it is supposed to be
 	AtlasLoot_SetItemInfoFrame(pFrame);
+	if ATLASLOOT_FILTER_ENABLE == true and dataID ~= "FilterList" then
+		AtlasLoot_HideNoUsableItems()
+	end
 end
 
 --[[
@@ -882,6 +902,7 @@ function AtlasLoot_GenerateAtlasMenu(dataID, pFrame)
     --This is not a valid QuickLook, so hide the UI objects
     AtlasLoot_QuickLooks:Hide();
     AtlasLootQuickLooksButton:Hide();
+	AtlasLootFilterCheck:Hide();
     
     AtlasLootItemsFrame_Heroic:Hide();
     AtlasLoot10Man25ManSwitch:Hide();
@@ -1192,7 +1213,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 1",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 1",
 				"func", function()
-                    AtlasLootCharDB["QuickLooks"][1]={AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]};
+                    AtlasLootCharDB["QuickLooks"][1]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1202,7 +1223,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 2",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 2",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][2]={AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]};
+					AtlasLootCharDB["QuickLooks"][2]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1212,7 +1233,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 3",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 3",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][3]={AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]};
+					AtlasLootCharDB["QuickLooks"][3]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end
@@ -1222,7 +1243,7 @@ function AtlasLoot_ShowQuickLooks(button)
 				"tooltipTitle", AL["QuickLook"].." 4",
 				"tooltipText", AL["Assign this loot table\n to QuickLook"].." 4",
 				"func", function()
-					AtlasLootCharDB["QuickLooks"][4]={AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]};
+					AtlasLootCharDB["QuickLooks"][4]={AtlasLootItemsFrame.refreshOri[1], AtlasLootItemsFrame.refreshOri[2], AtlasLootItemsFrame.refreshOri[3], AtlasLootItemsFrame.refreshOri[4]};
                     AtlasLoot_RefreshQuickLookButtons();
                     dewdrop:Close(1);
 				end

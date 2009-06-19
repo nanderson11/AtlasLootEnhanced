@@ -1,5 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
 
+	<Script file="Filter.lua"/>
     <Script file="ExtraText.lua"/>
     <Script file="TextParsing.lua"/>
     <Script file="Sets.lua"/>
@@ -697,6 +698,27 @@
 					</OnClick>
 				</Scripts>
 			</Button>
+			<CheckButton name="AtlasLootFilterCheck" inherits="OptionsCheckButtonTemplate" hidden="true">
+				<Anchors>
+					<Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM">
+						<Offset>
+							<AbsDimension x="85" y="27"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+                    <OnShow>
+		                this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+	                </OnShow>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText(AL["Filter"]);
+					</OnLoad>
+					<OnClick>
+						AtlasLoot_FilterEnableButton();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
             <Button name="$parent_PREV" inherits="AtlasLootPrevButtonTemplate">
                 <Anchors>
                     <Anchor point="BOTTOMLEFT" relativeTo="$parent" relativePoint="BOTTOMLEFT">
