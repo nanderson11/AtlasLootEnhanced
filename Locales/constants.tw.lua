@@ -342,7 +342,7 @@ if AL then
     AL["Reward"] = "獎勵";
     AL["Achievement"] = "成就";
 	AL["Faction"] = "陣營";
-    AL["Unattainable Tabards"] = "難以取得的徽章/外袍";
+    AL["Unattainable Tabards"] = "難以取得的外袍";
     AL["Heirloom"] = "家傳物品";
 
 	--Darkmoon Faire
@@ -974,7 +974,7 @@ if AL then
     AL["Nature Resistance Gear"] = "自然抗性裝備";
     AL["Frost Resistance Gear"] = "冰霜抗性裝備";
     AL["Shadow Resistance Gear"] = "暗影抗性裝備";
-    AL["Tabards"] = "大衣/軍服";
+    AL["Tabards"] = "外袍";
     AL["Token Hand-Ins"] = "可兌換的獎勵";
     AL["Heroic Mode Keys"] = "英雄模式鑰匙";
     AL["Legendary Items for Kael'thas Fight"] = "凱爾薩斯·逐日者史詩物品";
@@ -1257,7 +1257,7 @@ if AL then
     AL["Harvest Festival"] = "收穫節";
     AL["Love is in the Air"] = "愛就在你我身邊";
     AL["Lunar Festival"] = "農曆新年慶典";
-    AL["Midsummer Fire Festival"] = "仲夏火燄節慶";
+    AL["Midsummer Fire Festival"] = "仲夏火焰節慶";
     AL["Noblegarden"] = "彩蛋節";
     AL["Skettis"] = "司凱堤斯";
     AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
@@ -1285,5 +1285,5 @@ if AL then
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "請嘗試用重設按鈕，或是輸入 '/al reset' 來重設所有設定。";
 	-- Filter
 	AL["Filter"] = "過濾";
-	AL["Load Class Filter"] = "啟用職業專屬物品過濾";
+	AL["Load Class Filter"] = "套用職業專屬過濾";
 end
