@@ -988,6 +988,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t");
     text = gsub(text, "#horde#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
     text = gsub(text, "#alliance#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
+	text = gsub(text, "#fireflower#", "|TInterface\\Icons\\INV_SummerFest_FireFlower:0|t");
 
     englishFaction, _ = UnitFactionGroup("player")
     if englishFaction == "Horde" then

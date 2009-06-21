@@ -542,20 +542,21 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		-------------------------------
 
 	AtlasLoot_Data["MidsummerFestival"] = {
-		{ 1, 34686, "", "=q3=Brazier of Dancing Flames", "=ds="};
-		{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#"};
+		{ 1, 34686, "", "=q3=Brazier of Dancing Flames", "=ds=", "350 #fireflower#"};
+		{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#", "350 #fireflower#"};
 		{ 4, 23379, "", "=q2=Cinder Bracers", "=ds=#e22#"};
-		{ 6, 23247, "", "=q1=Burning Blossom", "=ds="};
-		{ 7, 23246, "", "=q1=Fiery Festival Brew", "=ds="};
-		{ 8, 23435, "", "=q1=Elderberry Pie", "=ds="};
-		{ 9, 23327, "", "=q1=Fire-toasted Bun", "=ds="};
-		{ 10, 23326, "", "=q1=Midsummer Sausage", "=ds="};
-		{ 11, 23211, "", "=q1=Toasted Smorc", "=ds="};
-		{ 12, 34684, "", "=q1=Handful of Summer Petals", "=ds="};
+		{ 6, 23246, "", "=q1=Fiery Festival Brew", "=ds=", "2 #fireflower#"};
+		{ 7, 23435, "", "=q1=Elderberry Pie", "=ds=", "5 #fireflower#"};
+		{ 8, 23327, "", "=q1=Fire-toasted Bun", "=ds=", "5 #fireflower#"};
+		{ 9, 23326, "", "=q1=Midsummer Sausage", "=ds=", "5 #fireflower#"};
+		{ 10, 23211, "", "=q1=Toasted Smorc", "=ds=", "5 #fireflower#"};
+		{ 11, 34684, "", "=q1=Handful of Summer Petals", "=ds=", "2 #fireflower#"};
+		{ 12, 23215, "", "=q1=Bag of Smorc Ingredients", "=ds=", "5 #fireflower#"};
+		{ 15, 23247, "", "=q2=Burning Blossom", "=ds=#m17#"};
 		{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#"};
-		{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, #a1#"};
-		{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#"};
-		{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#"};
+		{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, #a1#", "100 #fireflower#"};
+		{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#", "100 #fireflower#"};
+		{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#", "200 #fireflower#"};
 		Next = "LordAhune";
 		Back = "WORLDEVENTMENU";
 	};
