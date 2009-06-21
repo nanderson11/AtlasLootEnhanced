@@ -1283,4 +1283,7 @@ if AL then
 	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "如果你在願望清單裡對任何物品按滑鼠左鍵，視窗將跳至該物品的掉落頁面，以便你查閱對應的掉落首領等。此外，一個已經被你加至願望清單的物品，在對應的首領掉落頁面也會以黃色星星標示。";
 	AL["HELP!! I have broken the mod somehow!"] = "求助，我有個壞掉的模組無法正常運作！";
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "請嘗試用重設按鈕，或是輸入 '/al reset' 來重設所有設定。";
+	-- Filter
+	AL["Filter"] = "過濾";
+	AL["Load Class Filter"] = "啟用職業專屬物品過濾";
 end
