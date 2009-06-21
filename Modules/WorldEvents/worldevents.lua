@@ -552,6 +552,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 10, 23211, "", "=q1=Toasted Smorc", "=ds=", "5 #fireflower#"};
 		{ 11, 34684, "", "=q1=Handful of Summer Petals", "=ds=", "2 #fireflower#"};
 		{ 12, 23215, "", "=q1=Bag of Smorc Ingredients", "=ds=", "5 #fireflower#"};
+		{ 13, 34599, "", "=q1=Juggling Torch", "=ds=", "5 #fireflower#"};
 		{ 15, 23247, "", "=q2=Burning Blossom", "=ds=#m17#"};
 		{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#"};
 		{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, #a1#", "100 #fireflower#"};
