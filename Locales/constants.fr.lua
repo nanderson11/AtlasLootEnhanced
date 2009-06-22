@@ -119,7 +119,6 @@ if AL then
 	AL["Button Radius: "] = "Rayon du boutton";
 	AL["Done"] = "Fait";
 	AL["FuBar Toggle"] = "Active ou non FuBar";
-	--AL["WishList"] = true,
 	AL["Search Result: %s"] = "Résultat(s) de la recherche : %s";
 	AL["Last Result"] = "Dernier(s) résultat(s)";
 	AL["Search on"] = "Recherche activé";
@@ -1284,4 +1283,23 @@ if AL then
 	-- Filter
 	AL["Filter"] = "Filtre";
 	AL["Load Class Filter"] = "Charger le filtre de classe";
+	AL["Armor:"] = "Armure :";
+	AL["Meele weapons:"] = "Armes de mêlée :";
+	AL["Ranged weapons:"] = "Armes à distance :";
+	AL["Relics:"] = "Reliques :";
+	AL["Other:"] = "Autre :";
+	
+	-- Wishlist
+	AL["Close"] = "Fermer";
+	--AL["WishList"] = true; -- à traduire
+	--AL["Own Wishlists"] = true;
+	--AL["Other Wishlists"] = true;
+	--AL["Mark items in Loottabel?"] = true;
+	--AL["Mark items from own wishlist"] = true;
+	--AL["Mark items from all wishlists"] = true;
+	--AL["Add Wishlist"] = true;
+	--AL["Show More Icons"] = true;
+	--AL["Wishlist name:"] = true;
+	AL["Delet"] = "Supprimer";
+	AL["Edit"] = "Modifier";
 end
