@@ -88,7 +88,6 @@ if AL then
     AL["Show Minimap Button"] = "Blende Button an der Minimap ein";
     AL["Set Minimap Button Position"] = "Setze die Position des Buttons an der Minimap";
     AL["Done"] = "OK";
-    AL["WishList"] = "Wunschzettel";
     AL["Search Result: %s"] = "Suchtext";
     AL["Last Result"] = "Letzte Suche";
     AL["Search on"] = "Suchen in";
@@ -1044,5 +1043,14 @@ if AL then
 	
 	-- Filter
 	AL["Load Class Filter"] = "Lade Klassen Filter";
-
+	AL["Armor:"] = "Rüstung:";
+	AL["Meele weapons:"] = "Nahkampfwaffen:";
+	AL["Ranged weapons:"] = "Distanzwaffen:";
+	AL["Relics:"] = "Relikte:";
+	AL["Other:"] = "Sonstiges:";
+	
+	-- Wishlist
+	AL["Close"] = "Schließen";
+    AL["WishList"] = "Wunschzettel";
+	
 end

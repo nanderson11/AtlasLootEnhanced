@@ -119,7 +119,6 @@ if AL then
 	AL["Button Radius: "] = true;
 	AL["Done"] = true;
 	AL["FuBar Toggle"] = true;
-	AL["WishList"] = true;
 	AL["Search Result: %s"] = true;
 	AL["Last Result"] = true;
 	AL["Search on"] = true;
@@ -1286,4 +1285,23 @@ if AL then
 	-- Filter
 	AL["Filter"] = true;
 	AL["Load Class Filter"] = true;
+	AL["Armor:"] = true;
+	AL["Meele weapons:"] = true;
+	AL["Ranged weapons:"] = true;
+	AL["Relics:"] = true;
+	AL["Other:"] = true;
+	
+	-- Wishlist
+	AL["Close"] = true;
+	AL["WishList"] = true;
+	AL["Own Wishlists"] = true;
+	AL["Other Wishlists"] = true;
+	AL["Mark items in Loottabel?"] = true;
+	AL["Mark items from own wishlist"] = true;
+	AL["Mark items from all wishlists"] = true;
+	AL["Add Wishlist"] = true;
+	AL["Show More Icons"] = true;
+	AL["Wishlist name:"] = true;
+	AL["Delet"] = true;
+	AL["Edit"] = true;
 end
