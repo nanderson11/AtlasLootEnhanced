@@ -59,8 +59,6 @@ if AL then
     AL["Skill Required:"] = "Необходим навык:";
     AL["QuickLook"] = "БыстрыйОсмотр";
     AL["Add to QuickLooks:"] = "Добавить в БыстрыйОсмотр:";
-    AL["Assign this loot table\n to QuickLook"] = "Назначать эту таблицу добычи\n в БыстрыйОсмотр";
-    AL["Req. Rating:"] = "Требуется рейтинг";  --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Rating:"] = "Рейтинг";    --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Query Server"] = "Запрос с серв.";
     AL["Classic Instances"] = "Классик инстансы";
@@ -309,12 +307,9 @@ if AL then
 	AL["Tier 7"] = "Тир 7";
 	AL["Tier 8"] = "Тир 8";
     AL["10/25 Man"] = "10/25 Чел";
-    AL["Tier 7 Sets"] = "Комплекты: Тир 7";
     AL["Tier 8 Sets"] = "Комплекты: Тир 7";
 	AL["Tier 7/8 Sets"] = "Комплекты: Тир 7/8";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
-    AL["Hateful Gladiator Sets"] = "Комплекты злобного гладиатора";
-    AL["Deadly Gladiator Sets"] = "Комплекты смертоносного гладиатора";
     AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
     AL["Arena Reward"] = "Награды с Арены";
     AL["Conjured Item"] = " Сотворенный предмет";
@@ -338,7 +333,6 @@ if AL then
     AL["Summon"] = "Призыв";
     AL["Random"] = "Случайный";
     AL["Weapons"] = "Оружие";
-    AL["Reward"] = "Награда";
     AL["Achievement"] = "Достижение";
 	AL["Faction"] = "Фракция";
     AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
@@ -941,11 +935,9 @@ if AL then
     AL["PvP Weapons (Level 70)"] = "PvP Оружие (Уровень 70)";
     AL["PvP Accessories"] = "PvP Аксессуары";
     AL["PvP Non-Set Epics"] = "PvP Эпики не из комплектов";
-    AL["PvP Honor System"] = "PvP Системы Чести";
     AL["PvP Reputation Sets"] = "PvP Комплекты";
     AL["Arena PvP Sets"] = "Арена PvP Комплекты";
     AL["Arena PvP Weapons"] = "Арена PvP Оружие";
-    AL["Arena PvP System"] = "Арена PvP Система";
     AL["Arena Season 2 Weapons"] = "Арена: Сезон 2 - Оружие";
     AL["Arena Season 3 Weapons"] = "Арена: Сезон 3 - Оружие";
     AL["Arena Season 4 Weapons"] = "Арена: Сезон 4 - Оружие";
@@ -957,7 +949,6 @@ if AL then
     AL["Tribute Run"] = "Заход почести";
     AL["Dire Maul Books"] = "Книги Забытого Города";
     AL["Random Boss Loot"] = "Трофеи случайных боссов";
-    AL["Class Set Pieces"] = "Куски классовых Комплектов";
     AL["Epic Set"] = "Эпические Комплекты";
     AL["Rare Set"] = "Редкие Комплекты";
     AL["Legendary Items"] = "Легендарные предметы";
@@ -965,20 +956,15 @@ if AL then
     AL["Emblem of Valor Rewards"] = "Награды за эмблемы доблести";
     AL["Emblem of Heroism Rewards"] = "Награды за эмблемы героизма";
     AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
-    AL["Accesories and Weapons"] = "Аксессуары и Оружия";
     AL["Accessories"] = "Аксессуары";
-    AL["Armor and Weapons"] = "Броня и Оружия";
     AL["Fire Resistance Gear"] = "Наборы сопротивлению огню";
     AL["Arcane Resistance Gear"] = "Наборы сопротивление тайной магии";
     AL["Nature Resistance Gear"] = "Наборы сопротивление природе";
     AL["Frost Resistance Gear"] = "Наборы сопротивление льду";
     AL["Shadow Resistance Gear"] = "НАборы сопротивление тьме";
     AL["Tabards"] = "Накидки";
-    AL["Token Hand-Ins"] = "Знаки";
-    AL["Heroic Mode Keys"] = "Ключи героик режима";
     AL["Legendary Items for Kael'thas Fight"] = "Легендарные предметы для боя с Кель'тасом";
     AL["BoE World Epics"] = "Мировые эпики ПпП";
-    AL["World Epics"] = "Мировие эпики";
     AL["Level 30-39"] = "Уровни 30-39";
     AL["Level 40-49"] = "Уровни 40-49";
     AL["Level 50-60"] = "Уровни 50-60";
@@ -997,17 +983,11 @@ if AL then
 
     --Mounts
     AL["Mounts"] = "Транспорт";
-    AL["Classic Mounts"] = "Классический транспорт";
-    AL["The Burning Crusade Mounts"] = "Транспорт БКа";
-    AL["Wrath of the Lich King Mounts"] = "Транспорт ВоЛКа";
     AL["Card Game Mounts"] = "Транспорт с игральных карт";
     AL["Crafted Mounts"] = "Созданный транспорт";
     AL["Event Mounts"] = "Транспорт событий";
     AL["PvP Mounts"] = "PvP транспорт";
     AL["Rare Mounts"] = "Редкий транспорт";
-    AL["Flying Mounts"] = "Летающий транспорт";
-    AL["Buyable Mounts"] = "Покупаемыей транспорт";
-    AL["Faction Mounts"] = "Транспорт фракций";
 
     --Specs
     AL["Balance"] = "Баланс";

@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.05.x
+Revamped the Mount page
+Minor updates/fixes/translations
+
 v5.05.01
 More Ulduar items added
 New Argent Tournament items added

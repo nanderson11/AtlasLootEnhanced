@@ -267,11 +267,7 @@ AtlasLoot_DewDropDown = {
 				{ AL["Legendary Items"], "Legendaries", "Table" }, 
 			},
 			[9] = {
-				[AL["Mounts"]] = {
-					{ AL["Classic Mounts"], "MountsClassic", "Submenu" },
-					{ AL["The Burning Crusade Mounts"], "MountsBC", "Submenu" },
-					{ AL["Wrath of the Lich King Mounts"], "MountsLichKing", "Submenu" },
-				},
+				{ AL["Mounts"], "Mounts", "Submenu" },
 			},
 			[10] = {
 				{ AL["Non-Combat Pets"], "Pets", "Submenu" },
@@ -1291,22 +1287,20 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["PetsEvent1"][1], "PetsEvent1" },
 		{ AtlasLoot_TableNames["PetsPromotional1"][1], "PetsEvent1" },
 	},
-	["MountsClassic"] = {
-		{ AtlasLoot_TableNames["Mounts11"][1], "Mounts11" },
-		{ AtlasLoot_TableNames["Mounts12"][1], "Mounts12" },
-		{ AtlasLoot_TableNames["Mounts13"][1], "Mounts13" },
-	},
-	["MountsBC"] = {
-		{ AtlasLoot_TableNames["Mounts21"][1], "Mounts21" },
-		{ AtlasLoot_TableNames["Mounts22"][1], "Mounts22" },
-		{ AtlasLoot_TableNames["Mounts23"][1], "Mounts23" },
-		{ AtlasLoot_TableNames["Mounts24"][1], "Mounts24" },
-		{ AtlasLoot_TableNames["Mounts25"][1], "Mounts25" },
-	},
-	["MountsLichKing"] = {
-		{ AtlasLoot_TableNames["Mounts31"][1], "Mounts31" },
-		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts32" },
-		{ AtlasLoot_TableNames["Mounts32"][1], "Mounts33" },
+	["Mounts"] = {
+		{ AtlasLoot_TableNames["MountsAlliance1"][1], "MountsAlliance1" },
+		{ AtlasLoot_TableNames["MountsAlliance2"][1], "MountsAlliance2" },
+		{ AtlasLoot_TableNames["MountsAlliance3"][1], "MountsAlliance3" },
+		{ AtlasLoot_TableNames["MountsHorde1"][1], "MountsHorde1" },
+		{ AtlasLoot_TableNames["MountsHorde2"][1], "MountsHorde2" },
+		{ AtlasLoot_TableNames["MountsHorde3"][1], "MountsHorde3" },
+		{ AtlasLoot_TableNames["MountsFaction1"][1], "MountsFaction1" },
+		{ AtlasLoot_TableNames["MountsPvP1"][1], "MountsPvP1" },
+		{ AtlasLoot_TableNames["MountsRare1"][1], "MountsRare1" },
+		{ AtlasLoot_TableNames["MountsRare2"][1], "MountsRare2" },
+		{ AtlasLoot_TableNames["MountsCraftQuestPromotion1"][1], "MountsCraftQuestPromotion1" },
+		{ AtlasLoot_TableNames["MountsEvent1"][1], "MountsEvent1" },
+		{ AtlasLoot_TableNames["MountsEvent2"][1], "MountsEvent2" },
 	},
 	["AVRewards"] = {
 		{ AL["Misc. Rewards"], "AVMisc" },

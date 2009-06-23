@@ -48,8 +48,6 @@ if AL then
 	AL["Skill Required:"] = "需要技能：";
 	AL["QuickLook"] = "快捷浏览";
 	AL["Add to QuickLooks:"] = "添加到快捷浏览";
-	AL["Assign this loot table\n to QuickLook"] = "将该掉落表添加到快捷浏览中";
-	AL["Req. Rating:"] = "需要等级";
   AL["Rating:"] = "等级";
 	AL["Query Server"] = "查询物品";
 	AL["Classic Instances"] = "旧大陆副本";
@@ -291,8 +289,6 @@ if AL then
   	AL["Tier 8"] = "T8";
 	AL["10/25 Man"] = "10/25人";
 	AL["Level 80 PvP Sets"] = "80级PvP套装";
-	AL["Hateful Gladiator Sets"] = "憎恨角斗士套装";
-	AL["Deadly Gladiator Sets"] = "致命角斗士套装";
 	AL["Arena Reward"] = "竞技场奖励";
 	AL["Conjured Item"] = "魔法制造的物品";
 	AL["Used to summon boss"] = "用以召唤首领";
@@ -314,7 +310,6 @@ if AL then
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
 	AL["Weapons"] = "武器";
-	AL["Reward"] = "奖励";
 	AL["Achievement"] = "成就";
 	AL["Unattainable Tabards"] = "无法获得的战袍";
 	AL["Heirloom"] = "传家宝";
@@ -890,11 +885,9 @@ if AL then
 	AL["PvP Weapons (Level 70)"] = "PvP奖励武器 (等级 60)";
 	AL["PvP Accessories"] = "PvP奖励杂物";
 	AL["PvP Non-Set Epics"] = "PvP奖励非套装史诗级部件";
-	AL["PvP Honor System"] = "PvP荣誉系统";
 	AL["PvP Reputation Sets"] = "PvP声望套装";
 	AL["Arena PvP Sets"] = "竞技场奖励套装";
 	AL["Arena PvP Weapons"] = "竞技场奖励武器";
-	AL["Arena PvP System"] = "竞技场系统";
 	AL["Arena Season 2 Weapons"] = "竞技场第二赛季奖励武器";
 	AL["Arena Season 3 Weapons"] = "竞技场第三赛季奖励武器";
 	AL["Arena Season 4 Weapons"] = "竞技场第四赛季奖励武器";
@@ -906,27 +899,21 @@ if AL then
 	AL["Tribute Run"] = "贡品";
 	AL["Dire Maul Books"] = "厄运之槌书籍";
 	AL["Random Boss Loot"] = "首领随机掉落物品";
-	AL["Class Set Pieces"] = "职业套装部件";
 	AL["Epic Set"] = "史诗级套装";
 	AL["Rare Set"] = "精良级套装";
 	AL["Legendary Items"] = "传奇物品";
 	AL["Badge of Justice Rewards"] = "公正徽章兑换奖励";
 	AL["Emblem of Valor Rewards"] = "勇气纹章奖励";
 	AL["Emblem of Heroism Rewards"] = "英雄纹章奖励";
-	AL["Accesories and Weapons"] = "杂物与武器";
 	AL["Accessories"] = "杂物";
-	AL["Armor and Weapons"] = "护甲与武器";
 	AL["Fire Resistance Gear"] = "火焰抗性装备";
 	AL["Arcane Resistance Gear"] = "奥术抗性装备";
 	AL["Nature Resistance Gear"] = "自然抗性装备";
 	AL["Frost Resistance Gear"] = "冰霜抗性装备";
 	AL["Shadow Resistance Gear"] = "暗影抗性装备";
 	AL["Tabards"] = "战袍";
-	AL["Token Hand-Ins"] = "需要兑换的奖励";
-	AL["Heroic Mode Keys"] = "英雄模式钥匙";
 	AL["Legendary Items for Kael'thas Fight"] = "凯尔萨斯一役使用到的传奇物品";
 	AL["BoE World Epics"] = "世界掉落的史诗装备";
-	AL["World Epics"] = "世界掉落的史诗装备";
 	AL["Level 30-39"] = "等级 30-39";
 	AL["Level 40-49"] = "等级 40-49";
 	AL["Level 50-60"] = "等级 50-60";
@@ -942,17 +929,11 @@ if AL then
 
 	--Mounts
 	AL["Mounts"] = "坐骑";
-	AL["Classic Mounts"] = "旧大陆坐骑";
-	AL["The Burning Crusade Mounts"] = "燃烧的远征坐骑";
-	AL["Wrath of the Lich King Mounts"] = "巫妖王之怒坐骑";
 	AL["Card Game Mounts"] = "卡片游戏坐骑";
 	AL["Crafted Mounts"] = "制造的坐骑";
 	AL["Event Mounts"] = "世界事件坐骑";
 	AL["PvP Mounts"] = "PvP坐骑";
 	AL["Rare Mounts"] = "稀有坐骑";
-	AL["Flying Mounts"] = "飞行坐骑";
-	AL["Buyable Mounts"] = "可购买的坐骑";
-	AL["Faction Mounts"] = "阵营坐骑";
 
 	--Specs
 	AL["Balance"] = "平衡";

@@ -60,8 +60,6 @@ if AL then
     AL["Skill Required:"] = "需要技能等級: ";
     AL["QuickLook"] = "快速瀏覽";
     AL["Add to QuickLooks:"] = "新增至快速瀏覽";
-    AL["Assign this loot table\n to QuickLook"] = "將此掉落表新增至快速瀏覽";
-    AL["Req. Rating:"] = "需要等級:";
     AL["Rating:"] = "等級:";    --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Query Server"] = "向伺服器查詢";
     AL["Classic Instances"] = "舊世界副本";
@@ -310,12 +308,9 @@ if AL then
 	AL["Tier 7"] = "T7";
 	AL["Tier 8"] = "T8";
     AL["10/25 Man"] = "10/25 人";
-    AL["Tier 7 Sets"] = "T7 套裝";
     AL["Tier 8 Sets"] = "T8 套裝";
 	AL["Tier 7/8 Sets"] = "T7/T8 套裝";
     AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
-	AL["Hateful Gladiator Sets"] = "憎恨鬥士套裝";
-	AL["Deadly Gladiator Sets"] = "致命鬥士套裝";
 	AL["Furious Gladiator Sets"] = "狂烈鬥士套裝";
     AL["Arena Reward"] = "競技場獎勵";
     AL["Conjured Item"] = "特殊物品";
@@ -339,7 +334,6 @@ if AL then
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
     AL["Weapons"] = "武器";
-    AL["Reward"] = "獎勵";
     AL["Achievement"] = "成就";
 	AL["Faction"] = "陣營";
     AL["Unattainable Tabards"] = "難以取得的外袍";
@@ -942,11 +936,9 @@ if AL then
     AL["PvP Weapons (Level 70)"] = "PvP 武器 (70 級)";
     AL["PvP Accessories"] = "PvP 配件";
     AL["PvP Non-Set Epics"] = "PvP 非套裝史詩物品";
-    AL["PvP Honor System"] = "PvP 榮譽系統";
     AL["PvP Reputation Sets"] = "PvP 聲望套裝";
     AL["Arena PvP Sets"] = "競技場 PvP 套裝";
     AL["Arena PvP Weapons"] = "競技場 PvP 武器";
-    AL["Arena PvP System"] = "競技場 PvP 系統";
     AL["Arena Season 2 Weapons"] = "競技場第二季武器";
     AL["Arena Season 3 Weapons"] = "競技場第三季武器";
     AL["Arena Season 4 Weapons"] = "競技場第四季武器";
@@ -958,7 +950,6 @@ if AL then
     AL["Tribute Run"] = "貢品";
     AL["Dire Maul Books"] = "厄運書籍";
     AL["Random Boss Loot"] = "首領隨機掉落";
-    AL["Class Set Pieces"] = "聲望獎勵裝備";
     AL["Epic Set"] = "PvP 史詩套裝";
     AL["Rare Set"] = "PvP 稀有套裝";
     AL["Legendary Items"] = "傳說物品";
@@ -966,20 +957,15 @@ if AL then
     AL["Emblem of Valor Rewards"] = "勇氣紋章獎勵";
     AL["Emblem of Heroism Rewards"] = "英雄紋章獎勵";
 	AL["Emblem of Conquest Rewards"] = "征服紋章獎勵";
-    AL["Accesories and Weapons"] = "配件與武器";
     AL["Accessories"] = "配件";
-    AL["Armor and Weapons"] = "裝備與武器";
     AL["Fire Resistance Gear"] = "火抗裝備";
     AL["Arcane Resistance Gear"] = "秘法抗性裝備";
     AL["Nature Resistance Gear"] = "自然抗性裝備";
     AL["Frost Resistance Gear"] = "冰霜抗性裝備";
     AL["Shadow Resistance Gear"] = "暗影抗性裝備";
     AL["Tabards"] = "外袍";
-    AL["Token Hand-Ins"] = "可兌換的獎勵";
-    AL["Heroic Mode Keys"] = "英雄模式鑰匙";
     AL["Legendary Items for Kael'thas Fight"] = "凱爾薩斯·逐日者史詩物品";
     AL["BoE World Epics"] = "裝綁世界掉落紫裝";
-    AL["World Epics"] = "世界掉落紫裝";
     AL["Level 30-39"] = "等級 30-39";
     AL["Level 40-49"] = "等級 40-49";
     AL["Level 50-60"] = "等級 50-60";
@@ -998,17 +984,11 @@ if AL then
 
     --Mounts
     AL["Mounts"] = "坐騎";
-    AL["Classic Mounts"] = "傳統坐騎";
-    AL["The Burning Crusade Mounts"] = "燃燒的遠征坐騎";
-    AL["Wrath of the Lich King Mounts"] = "巫妖王之怒坐騎";
     AL["Card Game Mounts"] = "套卡獎勵坐騎";
     AL["Crafted Mounts"] = "精製坐騎";
     AL["Event Mounts"] = "事件獎勵坐騎";
     AL["PvP Mounts"] = "PvP 坐騎";
     AL["Rare Mounts"] = "稀有坐騎";
-    AL["Flying Mounts"] = "飛行坐騎";
-    AL["Buyable Mounts"] = "可購買的坐騎";
-    AL["Faction Mounts"] = "陣營聲望坐騎";
 
 	--Specs
 	AL["Balance"] = "平衡";

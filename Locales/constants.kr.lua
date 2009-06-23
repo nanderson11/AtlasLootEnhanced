@@ -564,20 +564,15 @@ AL:RegisterTranslations("koKR", function() return {
     ["Tribute Run"] = "공물함",
     ["Dire Maul Books"] = "혈장 책",
     ["Random Boss Loot"] = "렌덤 보스 루팅",
-    ["Class Set Pieces"] = "직업별 세트",
     ["Epic Set"] = "영웅 세트",
     ["Rare Set"] = "희귀 세트",
     ["Legendary Items"] = "전설급 아이템",
-    ["Accesories and Weapons"] = "장신구류 및 무기",
     ["Accessories"] = "장신구류",  --Hard mode tokens
-    ["Armor and Weapons"] = "방어구 및 무기",  --Hard mode tokens
     ["Fire Resistance Gear"] = "화염 저항 장비",
     ["Arcane Resistance Gear"] = "비전 저항 장비",
     ["Nature Resistance Gear"] = "자연 저항 장비",
     ["Rare Mounts"] = "희귀 탈 것",
     ["Tabards"] = "겉옷",
-    ["Token Hand-Ins"] = "휘장",
-    ["Heroic Mode Keys"] = "영웅 모드 열쇠",
 
     --NPCs missing from BabbleBoss
     ["Trash Mobs"] = "일반 몹",

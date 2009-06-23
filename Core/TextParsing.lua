@@ -165,19 +165,15 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m29#", AL["Tradable against sunmote + item above"]);
     text = gsub(text, "#m30#", AL["Tier 1"]);
     text = gsub(text, "#m31#", AL["Tier 2"]);
-    text = gsub(text, "#m33#", AL["Reward"]);
     text = gsub(text, "#m34#", AL["Achievement"]);
-    text = gsub(text, "#m35#", AL["Tier 6"]);
 
     -- Misc
     text = gsub(text, "#j1#", AL["Normal Mode"]);
     text = gsub(text, "#j2#", AL["Raid"]);
     text = gsub(text, "#j3#", AL["Heroic Mode"]);
-    text = gsub(text, "#j4#", AL["Heroic Mode Keys"]);
     text = gsub(text, "#j5#", AL["Dungeon Set 2 Summonable"]);
     text = gsub(text, "#j6#", AL["Dungeon Set 1"]);
     text = gsub(text, "#j7#", AL["Dungeon Set 2"]);
-    text = gsub(text, "#j8#", AL["Token Hand-Ins"]);
     text = gsub(text, "#j9#", AL["Level 60"]);
     text = gsub(text, "#j10#", AL["Level 70"]);
     text = gsub(text, "#j11#", AL["Fire Resistance Gear"]);
@@ -205,13 +201,10 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j33#", AL["Event Mounts"]);
     text = gsub(text, "#j34#", AL["PvP Mounts"]);
     text = gsub(text, "#j35#", AL["Rare Mounts"]);
-    text = gsub(text, "#j36#", AL["Flying Mounts"]);
     text = gsub(text, "#j37#", AL["10 Man"]);
     text = gsub(text, "#j38#", AL["25 Man"]);
     text = gsub(text, "#j46#", AL["Hard Mode"]);
     text = gsub(text, "#j47#", AL["Heroic"]);
-    text = gsub(text, "#j48#", AL["Buyable Mounts"]);
-    text = gsub(text, "#j49#", AL["Faction Mounts"]);
     text = gsub(text, "#j50#", AL["Weapons"]);
     text = gsub(text, "#j51#", AL["Accessories"]);
     text = gsub(text, "#j52#", AL["Heirloom"]);

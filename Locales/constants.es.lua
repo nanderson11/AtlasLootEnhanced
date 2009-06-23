@@ -58,8 +58,6 @@ if AL then
 	AL["Skill Required:"] = "Habilidad necesaria";
 	AL["QuickLook"] = "VistaRápida";
 	AL["Add to QuickLooks:"] = "Añade a VistaRápida";
-	AL["Assign this loot table\n to QuickLook"] = "Añade esta tabla\n a la VistaRápida";
-	AL["Req. Rating:"] = "Req. Índice";  --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
 	AL["Rating:"] = "Indice:";	--Shorthand for 'Required Rating' for the personal/team ratings in Arena S4 
 	AL["Query Server"] = "Pregun. Servidor";
 	AL["Classic Instances"] = "Mazmorras clásicas";
@@ -301,12 +299,9 @@ if AL then
 	AL["Tier 7"] = "Conjunto T7";
 	AL["Tier 8"] = "Conjunto T8";
 	AL["10/25 Man"] = "10/25 Personas";
-	AL["Tier 7 Sets"] = "Conjuntos T7";
 	AL["Tier 8 Sets"] = "Conjuntos T8";
 	AL["Tier 7/8 Sets"] = "Conjuntos T7/8";
 	AL["Level 80 PvP Sets"] = "Conjuntos Nivel 80 JcJ";
-	AL["Hateful Gladiator Sets"] = "Conjunto Gladiador de odio";
-	AL["Deadly Gladiator Sets"] = "Conjunto Gladiador Mortal";
 	AL["Furious Gladiator Sets"] = "Conjunto Gladiador Furioso";
 	AL["Arena Reward"] = "Recompensas de Arenas";
 	AL["Conjured Item"] = "Objetos conjurados";
@@ -329,7 +324,6 @@ if AL then
 	AL["Summon"] = "Invocar";
 	AL["Random"] = "Aleatorio";
 	AL["Weapons"] = "Armas";
-	AL["Reward"] = "Recompensa";
 	AL["Achievement"] = "Logro";
 	AL["Unattainable Tabards"] = "Tabardos inasequibles";
 	AL["Heirloom"] = "Reliquia";	
@@ -927,11 +921,9 @@ if AL then
 	AL["PvP Weapons (Level 70)"] = "Armas JcJ (Nivel 70)";
 	AL["PvP Accessories"] = "Accesorios JcJ";
 	AL["PvP Non-Set Epics"] = "Épicos JcJ No-Conjuntos";
-	AL["PvP Honor System"] = "Sistema de Honor JcJ";
 	AL["PvP Reputation Sets"] = "Conjuntos JcJ por reputación";
 	AL["Arena PvP Sets"] = "Conjuntos de Arenas JcJ";
 	AL["Arena PvP Weapons"] = "Armas de Arenas JcJ";
-	AL["Arena PvP System"] = "Sistema de Arenas JcJ";
 	AL["Arena Season 2 Weapons"] = "Armas Arenas - Temporada 2";
 	AL["Arena Season 3 Weapons"] = "Armas Arenas - Temporada 3";
 	AL["Arena Season 4 Weapons"] = "Armas Arenas - Temporada 4";
@@ -943,7 +935,6 @@ if AL then
 	AL["Tribute Run"] = "Homenaje de carrera";
 	AL["Dire Maul Books"] = "Libros de La Masacre";
 	AL["Random Boss Loot"] = "Botín de jefes aleatorios";
-	AL["Class Set Pieces"] = "Piezas de conjuntos por clase";
 	AL["Epic Set"] = "Conjunto épico";
 	AL["Rare Set"] = "Conjunto raro";
 	AL["Legendary Items"] = "Objetos legendários";
@@ -951,20 +942,15 @@ if AL then
 	AL["Emblem of Valor Rewards"] = "Recompensas con Emblemas del valor";
 	AL["Emblem of Heroism Rewards"] = "Recompensas con Emblemas de heroismo";
 	AL["Emblem of Conquest Rewards"] = "Recompensas con Emblemas de conquista";
-	AL["Accesories and Weapons"] ="Accesorios y Armas";
 	AL["Accessories"] = "Accesorios";
-	AL["Armor and Weapons"] = "Armaduras y Armas";
 	AL["Fire Resistance Gear"] = "Equipamientos con resistencia al fuego";
 	AL["Arcane Resistance Gear"] = "Equipamientos con resistencia a lo arcano";
 	AL["Nature Resistance Gear"] = "Equipamientos con resistencia a la naturaleza";
 	AL["Frost Resistance Gear"] = "Equipamientos con resistencia al hielo";
 	AL["Shadow Resistance Gear"] = "Equipamientos con resistencia a las sombras";
 	AL["Tabards"] = "Tabardos";
-	AL["Token Hand-Ins"] = "Insignes de l'Aube / Croisade"; --FALTA
-	AL["Heroic Mode Keys"] = "Llaves de modo heróico";
 	AL["Legendary Items for Kael'thas Fight"] = "Objetos legendários de la pelea contra Kael'thas";
 	AL["BoE World Epics"] = "Épicos del mundo BoE";
-	AL["World Epics"] = "Épicos del mundo";
 	AL["Level 30-39"] = "Niveles 30-39";
 	AL["Level 40-49"] = "Niveles 40-49";
 	AL["Level 50-60"] = "Niveles 50-60";
@@ -980,17 +966,11 @@ if AL then
 
 	--Mounts
 	AL["Mounts"] = "Monturas";
-	AL["Classic Mounts"] = "Monturas clásicas";
-	AL["The Burning Crusade Mounts"] = "Monturas de Burning Crusade";
-	AL["Wrath of the Lich King Mounts"] = "Monturas de Wrath of the Lich King";
 	AL["Card Game Mounts"] = "Monturas Barajas";
 	AL["Crafted Mounts"] = "Monturas fabricadas";
 	AL["Event Mounts"] = "Monturas de eventos";
 	AL["PvP Mounts"] = "JcJ Monturas";
 	AL["Rare Mounts"] = "Monturas raras";
-	AL["Flying Mounts"] = "Monturas voladoras";
-	AL["Buyable Mounts"] = "Monturas Comprables";
-	AL["Faction Mounts"] = "Monturas de Facción";
 	
 	--Specs
 	AL["Balance"] = "Equilibrio";

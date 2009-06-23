@@ -59,8 +59,6 @@ if AL then
 	AL["Skill Required:"] = "Compétence requise :";
 	--AL["QuickLook"] = true,
 	AL["Add to QuickLooks:"] = "Ajouter à QuickLook :";
-	AL["Assign this loot table\n to QuickLook"] = "Assigner cette table de loot\n à QuickLook";
-	AL["Req. Rating:"] = "Côte perso. :";
 	AL["Rating:"] = "Côte :";
 	AL["Query Server"] = "Interroger le serveur";
 	AL["Classic Instances"] = "Instances classiques";
@@ -306,12 +304,9 @@ if AL then
 	AL["Tier 6"] = "Set T6";
 	AL["Tier 7"] = "Set T7";
 	AL["Tier 8"] = "Set T8";
-	AL["Tier 7 Sets"] = "Sets T7";
 	AL["10/25 Man"] = "10/25 Joueurs";
 	AL["Tier 7 Sets 10/25 Man"] = "Sets Tier 7 10/25 Joueurs";
 	AL["Level 80 PvP Sets"] = "Sets JcJ Niveau 80";
-	AL["Hateful Gladiator Sets"] = "Sets Gladiateur haineux";
-	AL["Deadly Gladiator Sets"] = "Sets Gladiateur fatal";
 	AL["Furious Gladiator Sets"] = "Sets Gladiateur furieux";
 	AL["Arena Reward"] = "Récompense d'Arène";
 	AL["Conjured Item"] = "Objet Conjuré";
@@ -335,7 +330,6 @@ if AL then
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Weapons"] = "Armes";
-	AL["Reward"] = "Récompense";
 	AL["Achievement"] = "Haut fait"
 	--AL["Faction"] = true;
 	AL["Unattainable Tabards"] = "Tabards inaccessible";
@@ -938,11 +932,9 @@ if AL then
 	AL["PvP Weapons (Level 70)"] = "Armes JcJ (Niveau 70)";
 	AL["PvP Accessories"] = "Accessoires JcJ";
 	AL["PvP Non-Set Epics"] = "Hors Sets Épiques JcJ";
-	AL["PvP Honor System"] = "Système d'honneur JcJ";
 	AL["PvP Reputation Sets"] = "Sets Réputation JcJ";
 	AL["Arena PvP Sets"] = "Sets Arène JcJ";
 	AL["Arena PvP Weapons"] = "Armes Arène JcJ";
-	AL["Arena PvP System"] = "Système d'arène JcJ";
 	AL["Arena Season 2 Weapons"] = "Armes Arène - Saison 2";
 	AL["Arena Season 3 Weapons"] = "Armes Arène - Saison 3";
 	AL["Arena Season 4 Weapons"] = "Armes Arène - Saison 4";
@@ -954,7 +946,6 @@ if AL then
 	AL["Tribute Run"] = "Tribut du Roi";
 	AL["Dire Maul Books"] = "Livres de Hache Tripes";
 	AL["Random Boss Loot"] = "Objets aléatoires des boss";
-	AL["Class Set Pieces"] = "Pièces du set de classe";
 	AL["Epic Set"] = "Set Épique";
 	AL["Rare Set"] = "Set Supérieur";
 	AL["Legendary Items"] = "Objets légendaires";
@@ -962,20 +953,15 @@ if AL then
 	AL["Emblem of Valor Rewards"] = "Récompenses Emblème de vaillance";
 	AL["Emblem of Heroism Rewards"] = "Récompenses Emblème d'héroïsme";
 	AL["Emblem of Conquest Rewards"] = "Récompenses Emblème de conquête";
-	AL["Accesories and Weapons"] ="Accessoires et Armes";
 	AL["Accessories"] = "Accessoires";
-	AL["Armor and Weapons"] = "Armures et Armes";
 	AL["Fire Resistance Gear"] = "Equipements de Résistance au Feu";
 	AL["Arcane Resistance Gear"] = "Equipements de Résistance aux Arcanes";
 	AL["Nature Resistance Gear"] = "Equipements de Résistance à la Nature";
 	AL["Frost Resistance Gear"] = "Equipements de Résistance au Froid";
 	AL["Shadow Resistance Gear"] = "Equipements de Résistance à l'Ombre";
 	AL["Tabards"] = "Tabards";
-	AL["Token Hand-Ins"] = "Insignes de l'Aube / Croisade";
-	AL["Heroic Mode Keys"] = "Clés Mode Héroïque";
 	AL["Legendary Items for Kael'thas Fight"] = "Objets légendaires pour le combat contre Kael'thas";
 	AL["BoE World Epics"] = "LqE Épiques mondial";
-	AL["World Epics"] = "Épiques mondial";
 	AL["Level 30-39"] = "Niveau 30-39";
 	AL["Level 40-49"] = "Niveau 40-49";
 	AL["Level 50-60"] = "Niveau 50-60";
@@ -994,17 +980,11 @@ if AL then
 
 	--Mounts
 	AL["Mounts"] = "Montures";
-	AL["Classic Mounts"] = "Montures Classiques";
-	AL["The Burning Crusade Mounts"] = "Montures de The Burning Crusade";
-	AL["Wrath of the Lich King Mounts"] = "Montures de Wrath of the Lich King";
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";
 	AL["Event Mounts"] = "Montures d'événements";
 	AL["PvP Mounts"] = "Montures JcJ";
 	AL["Rare Mounts"] = "Montures rares";
-	AL["Flying Mounts"] = "Montures volantes";
-	AL["Buyable Mounts"] = "Monture achetable";
-	AL["Faction Mounts"] = "Montures de faction";
 
 	--Specs
 	AL["Balance"] = "Equilibre";
