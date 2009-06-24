@@ -445,12 +445,12 @@ if AL then
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";
 	AL["Event Mounts"] = "Montures d'événements";
-	--AL["Neutral Faction Mounts"] = "Montures ;
+	AL["Neutral Faction Mounts"] = "Montures de factions neutres";
 	AL["PvP Mounts"] = "Montures JcJ";
-	--AL["Alliance PvP Mounts"] = true;
-	--AL["Horde PvP Mounts"] = true;
-	--AL["Halaa PvP Mounts"] = true;
-	--AL["Promotional Mounts"] = true;
+	AL["Alliance PvP Mounts"] = "Montures JcJ de l'Alliance";
+	AL["Horde PvP Mounts"] = "Montures JcJ de la Horde";
+	AL["Halaa PvP Mounts"] = "Montures JcJ de Halaa";
+	AL["Promotional Mounts"] = "Montures promotionnelle";
 	AL["Rare Mounts"] = "Montures rares";
 
 	--Darkmoon Faire
