@@ -342,7 +342,7 @@ function AtlasLoot_OnVariablesLoaded()
         LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
     end    
     AtlasLoot_UpdateLootBrowserScale();
-	AtlasLoote_CreateFilterOptions();
+	AtlasLoot_CreateFilterOptions();
 end
 
 function AtlasLoot_Reset(data)
