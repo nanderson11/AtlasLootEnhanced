@@ -438,7 +438,7 @@ if AL then
 	AL["Dungeon/Raid"] = true;
 
 	--Mounts
-	AL["Achievement Rewards"] = true;
+	AL["Achievement Reward"] = true;
 	AL["Alliance Flying Mounts"] = true;
 	AL["Alliance Mounts"] = true;
 	AL["Horde Flying Mounts"] = true;
