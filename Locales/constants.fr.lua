@@ -97,7 +97,7 @@ if AL then
 	AL["You don't have any module selected to search on!"] = "Vous n'avez pas sélectionné de module pour la recherche !";
 	--AL["Treat Crafted Items:"] = true; -- à traduire
 	--AL["As Crafting Spells"] = true; -- à traduire
-	--AL["As Items"] = true;
+	--AL["As Items"] = true; -- à traduire
 	AL["Loot Browser Style:"] = "Style du navigateur de loot :";
 	AL["New Style"] = "Nouveau style";
 	AL["Classic Style"] = "Style classique";
@@ -437,15 +437,15 @@ if AL then
 	AL["Dungeon/Raid"] = "Donjon/Raid";
 
 	--Mounts
-	--AL["Achievement Reward"] = true; -- à traduire
-	--AL["Alliance Flying Mounts"] = true;
-	--AL["Alliance Mounts"] = true;
-	--AL["Horde Flying Mounts"] = true;
-	--AL["Horde Mounts"] = true;
+	AL["Achievement Reward"] = "Récompense de Haut fait";
+	AL["Alliance Flying Mounts"] = "Montures volante l'Alliance";
+	AL["Alliance Mounts"] = "Montures de l'Alliance";
+	AL["Horde Flying Mounts"] = "Montures volante de la Horde";
+	AL["Horde Mounts"] = "Montures de la Horde";
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";
 	AL["Event Mounts"] = "Montures d'événements";
-	--AL["Neutral Faction Mounts"] = true;
+	--AL["Neutral Faction Mounts"] = "Montures ;
 	AL["PvP Mounts"] = "Montures JcJ";
 	--AL["Alliance PvP Mounts"] = true;
 	--AL["Horde PvP Mounts"] = true;

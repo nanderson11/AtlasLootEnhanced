@@ -132,45 +132,45 @@ if AL then
 	AL["World Bosses"] = true;
 	AL["Close Menu"] = true;
 
-	---Crafting Menu
+	--Crafting Menu
 	AL["Crafting Daily Quests"] = true;
-	 AL["Jewelcrafting Daily"] = true;
-	 AL["Cooking Daily"] = true;
+	AL["Jewelcrafting Daily"] = true;
+	AL["Cooking Daily"] = true;
 	AL["Crafted Sets"] = true;
 	AL["Crafted Epic Weapons"] = true;
 
-	---Sets/Collections Menu
-	 AL["Badge of Justice Rewards"] = true;
-	 AL["Emblem of Valor Rewards"] = true;
-	 AL["Emblem of Heroism Rewards"] = true;
-	 AL["Emblem of Conquest Rewards"] = true;
-	 AL["BoE World Epics"] = true;
-	 AL["Dungeon 1/2 Sets"] = true;
-	 AL["Dungeon 3 Sets"] = true;
-	 AL["Legendary Items"] = true;
-	 AL["Mounts"] = true;
-	 AL["Non-Combat Pets"] = true;
-	 AL["Misc Sets"] = true;
-	  AL["Classic Sets"] = true;
-	  AL["Burning Crusade Sets"] = true;
-	  AL["Wrath Of The Lich King Sets"] = true;
-	 AL["Ruins of Ahn'Qiraj Sets"] = true;
-	 AL["Temple of Ahn'Qiraj Sets"] = true;
-	 AL["Tabards"] = true;
-	 AL["Tier 1/2 Sets"] = true;
-	 AL["Tier 1/2/3 Sets"] = true;
-	 AL["Tier 3 Sets"] = true;
-	 AL["Tier 4/5/6 Sets"] = true;
-	 AL["Tier 7/8 Sets"] = true;
-	 AL["Upper Deck Card Game Items"] = true;
-	 AL["Zul'Gurub Sets"] = true;
+	--Sets/Collections Menu
+	AL["Badge of Justice Rewards"] = true;
+	AL["Emblem of Valor Rewards"] = true;
+	AL["Emblem of Heroism Rewards"] = true;
+	AL["Emblem of Conquest Rewards"] = true;
+	AL["BoE World Epics"] = true;
+	AL["Dungeon 1/2 Sets"] = true;
+	AL["Dungeon 3 Sets"] = true;
+	AL["Legendary Items"] = true;
+	AL["Mounts"] = true;
+	AL["Non-Combat Pets"] = true;
+	AL["Misc Sets"] = true;
+	AL["Classic Sets"] = true;
+	AL["Burning Crusade Sets"] = true;
+	AL["Wrath Of The Lich King Sets"] = true;
+	AL["Ruins of Ahn'Qiraj Sets"] = true;
+	AL["Temple of Ahn'Qiraj Sets"] = true;
+	AL["Tabards"] = true;
+	AL["Tier 1/2 Sets"] = true;
+	AL["Tier 1/2/3 Sets"] = true;
+	AL["Tier 3 Sets"] = true;
+	AL["Tier 4/5/6 Sets"] = true;
+	AL["Tier 7/8 Sets"] = true;
+	AL["Upper Deck Card Game Items"] = true;
+	AL["Zul'Gurub Sets"] = true;
 
-	---Factions Menu
-	 AL["Original Factions"] = true;
-	 AL["BC Factions"] = true;
-	 AL["WotLK Factions"] = true;
+	--Factions Menu
+	AL["Original Factions"] = true;
+	AL["BC Factions"] = true;
+	AL["WotLK Factions"] = true;
 
-	---PvP Menu
+	--PvP Menu
 	AL["Arena PvP Sets"] = true;
 	AL["PvP Rewards (Level 60)"] = true;
 	AL["PvP Rewards (Level 70)"] = true;
@@ -186,7 +186,7 @@ if AL then
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
 	AL["Level 80 PvP Sets"] = true;
 
-	---World Events
+	--World Events
 	AL["Abyssal Council"] = true;
 	AL["Bash'ir Landing Skyguard Raid"] = true;
 	AL["Brewfest"] = true;
@@ -252,7 +252,7 @@ if AL then
 	--Extra inventory stuff
 	AL["Cloak"] = true;
 	AL["Weapons"] = true;
-	AL["Sigil"] = true; --Can be added to BabbleInv
+	AL["Sigil"] = true; -- Can be added to BabbleInv
 
 	--Alchemy
 	AL["Battle Elixirs"] = true;
@@ -320,7 +320,7 @@ if AL then
 	AL["Tradable against sunmote + item above"] = true;
 	AL["Card Game Item"] = true;
 	AL["Skill Required:"] = true;
-	AL["Rating:"] = true;	--Shorthand for 'Required Rating' for the personal/team ratings
+	AL["Rating:"] = true; -- Shorthand for 'Required Rating' for the personal/team ratings
 
 	--Minor Labels for loot table descriptions
 	AL["Original WoW"] = true;
@@ -1157,11 +1157,11 @@ if AL then
 	AL["Rajaxx's Captains"] = true;
 	AL["Felsteed"] = true;
 	AL["Shattered Hand Executioner"] = true;
-	AL["Commander Stoutbeard"] = true;  --Is in BabbleBoss
-	AL["Bjarngrim"] = true; --Is in BabbleBoss
-	AL["Loken"] = true; --Is in BabbleBoss
+	AL["Commander Stoutbeard"] = true; -- Is in BabbleBoss
+	AL["Bjarngrim"] = true; -- Is in BabbleBoss
+	AL["Loken"] = true; -- Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
-	AL["Emalon the Storm Watcher"] = true; --Is in BabbleBoss
+	AL["Emalon the Storm Watcher"] = true; -- Is in BabbleBoss
 
 	--Zones
 	AL["World Drop"] = true;
@@ -1175,7 +1175,7 @@ if AL then
 	AL["Scholo"] = true;
 	AL["Strat"] = true;
 	AL["Serpentshrine"] = true;
-	AL["Avatar"] = true;  -- Avatar of the Martyred
+	AL["Avatar"] = true; -- Avatar of the Martyred
 
 	--Chests, etc
 	AL["Dark Coffer"] = true;
@@ -1316,6 +1316,4 @@ if AL then
 	AL["This item is not available on your server or your battlegroup yet."] = true;
 	AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = true;
 	AL["You can right-click to attempt to query the server.  You may be disconnected."] = true;
-
-
 end
