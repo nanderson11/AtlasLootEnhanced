@@ -220,19 +220,38 @@ if AL then
 	AL["Relics:"] = "Reliques :";
 	AL["Other:"] = "Autre :";
 
-	-- Wishlist
+	-- Wishlist -- à traduire
 	AL["Close"] = "Fermer";
-	--AL["WishList"] = true; -- à traduire
+	--AL["WishList"] = true;
 	--AL["Own Wishlists"] = true;
 	--AL["Other Wishlists"] = true;
-	--AL["Mark items in Loottabel?"] = true;
+	--AL["Shared Wishlists"] = true;
+	--AL["Mark items in Loottabel"] = true;
 	--AL["Mark items from own wishlist"] = true;
 	--AL["Mark items from all wishlists"] = true;
+	--AL["Allow Wishlist share"] = true;
+	--AL["Auto reject in combat"] = true;
 	--AL["Add Wishlist"] = true;
-	AL["Show More Icons"] = "Afficher plus d'icônes";
+	--AL["Edit Wishlist"] = true;
+	AL["Show More Icons"] = "Afficher plus d'icône";
 	--AL["Wishlist name:"] = true;
 	AL["Delet"] = "Supprimer";
 	AL["Edit"] = "Modifier";
+	AL["Share"] = "Partager";
+	--AL["Show all Wishlists"] = true;
+	--AL["Show own Wishlists"] = true;
+	--AL["Show shared Wishlists"] = true;
+	--AL["You must waite "] = true;
+	--AL[" seconds before you can send a new Wishlist too "] = true;
+	--AL["Send wishlist (%s) too"] = true;
+	AL["Send"] = "Envoyer";
+	AL["Cancel"] = "Annuler";
+	AL["Delet"] = "Supprimer";
+	--AL["Delet Wishlist %s?"] = true;
+	--AL["%s sends you a Wishlist. Accept?"] = true;
+	--AL[" try too send you a wishlist. Rejected because you are in combat."] = true;
+	--AL[" rejects your wishlist."] = true;
+	--AL["You can't send wishlists too your self."] = true;
 
 	--Misc Inventory related words
 	AL["Enchant"] = "Enchantement";
