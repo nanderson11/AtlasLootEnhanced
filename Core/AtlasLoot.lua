@@ -343,6 +343,8 @@ function AtlasLoot_OnVariablesLoaded()
     end    
     AtlasLoot_UpdateLootBrowserScale();
 	AtlasLoot_CreateFilterOptions();
+	AtlasLoot_CreateWishlistOptions();
+
 end
 
 function AtlasLoot_Reset(data)
@@ -654,9 +656,10 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 itemButton.extra = extra;
 				
                 --Highlight items in the wishlist
-                if dataSource[dataID][i][2] ~= "" and dataSource[dataID][i][2] ~= 0 and dataID ~= "WishList" then
-                    if AtlasLoot_WishListCheck(dataSource[dataID][i][2]) then
-                        text = "|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t "..text;
+                if dataSource[dataID][i][2] ~= "" and dataSource[dataID][i][2] ~= 0 and dataID ~= "WishList" and AtlasLootWishList["Options"][UnitName("player")]["Mark"] == true then
+					local xitemexistwish, itemwishicons = AtlasLoot_WishListCheck(dataSource[dataID][i][2], true)
+                    if xitemexistwish then
+                        text = itemwishicons.." "..text;
                     end
                 end
                 --Set the name and description of the item
