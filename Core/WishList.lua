@@ -1211,6 +1211,18 @@ function AtlasLoot_CreateWishlistOptions()
 		WishListOwnSc:EnableMouse(true)
 		WishListOwnSc:SetVerticalScroll(0)
 		WishListOwnSc:SetHorizontalScroll(0)
+		WishListOwnSc:SetScript("OnShow", function()
+			local xframewidht = InterfaceOptionsFramePanelContainer:GetWidth()
+			WishListOwnSc:SetWidth(xframewidht-45)  
+			WishlistOwnIn:SetWidth(xframewidht-45)  
+			
+			
+			WishListMarkAll:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 15, -55)
+			WishListShare:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+15, -15)
+			WishListShareInCombat:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+25, -35)
+			
+			AtlasLoot_RefreshWishlists()
+		end)		
 		
 	local ShowAllWishlists = CreateFrame("BUTTON", nil, WishListOwnSc, "UIPanelButtonTemplate")
 		ShowAllWishlists:SetHeight(20)
