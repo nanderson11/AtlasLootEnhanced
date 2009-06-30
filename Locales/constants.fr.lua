@@ -222,13 +222,13 @@ if AL then
 
 	-- Wishlist -- à traduire
 	AL["Close"] = "Fermer";
-	--AL["WishList"] = true;
+	--AL["Wishlist"] = true;
 	--AL["Own Wishlists"] = true;
 	--AL["Other Wishlists"] = true;
 	--AL["Shared Wishlists"] = true;
 	--AL["Mark items in Loottabel"] = true;
-	--AL["Mark items from own wishlist"] = true;
-	--AL["Mark items from all wishlists"] = true;
+	--AL["Mark items from own Wishlist"] = true;
+	--AL["Mark items from all Wishlists"] = true;
 	--AL["Allow Wishlist share"] = true;
 	--AL["Auto reject in combat"] = true;
 	--AL["Add Wishlist"] = true;
@@ -243,15 +243,15 @@ if AL then
 	--AL["Show shared Wishlists"] = true;
 	--AL["You must waite "] = true;
 	--AL[" seconds before you can send a new Wishlist too "] = true;
-	--AL["Send wishlist (%s) too"] = true;
+	--AL["Send Wishlist (%s) too"] = true;
 	AL["Send"] = "Envoyer";
 	AL["Cancel"] = "Annuler";
 	AL["Delet"] = "Supprimer";
 	--AL["Delet Wishlist %s?"] = true;
 	--AL["%s sends you a Wishlist. Accept?"] = true;
-	--AL[" try too send you a wishlist. Rejected because you are in combat."] = true;
-	--AL[" rejects your wishlist."] = true;
-	--AL["You can't send wishlists too your self."] = true;
+	--AL[" try too send you a Wishlist. Rejected because you are in combat."] = true;
+	--AL[" rejects your Wishlist."] = true;
+	--AL["You can't send Wishlists too your self."] = true;
 
 	--Misc Inventory related words
 	AL["Enchant"] = "Enchantement";

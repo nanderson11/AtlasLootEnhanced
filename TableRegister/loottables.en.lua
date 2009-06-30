@@ -1440,8 +1440,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["JEWELCRAFTINGMENU"] = { JEWELCRAFTING, "Menu" };
 	AtlasLoot_TableNames["LEATHERWORKINGMENU"] = { LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["TAILORINGMENU"] = { TAILORING, "Menu" };
-	AtlasLoot_TableNames["WishList"] = { AL["WishList"], "AtlasLootCharDB" };
-	AtlasLoot_TableNames["SearchResult"] = { AL["WishList"], "AtlasLootCharDB" };
+	AtlasLoot_TableNames["WishList"] = { AL["Wishlist"], "AtlasLootCharDB" };
+	AtlasLoot_TableNames["SearchResult"] = { AL["Wishlist"], "AtlasLootCharDB" };
   -- If all else fails!
 	AtlasLoot_TableNames["EmptyTable"] = { AL["Select a Loot Table..."], "Menu" };
 	AtlasLoot_TableNames["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" };

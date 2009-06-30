@@ -1400,7 +1400,7 @@
 					</OnClick>
                     <OnShow>
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["WishList"]);
+                        this:SetText(AL["Wishlist"]);
 				        this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
 			        </OnShow>
 				</Scripts>

@@ -1038,8 +1038,8 @@ if AL then
 	
 	-- Wishlist
 	AL["Close"] = "Schließen";
-    AL["WishList"] = "Wunschzettel";
-	AL["Delet"] = "Löschen";
+    AL["Wishlist"] = "Wunschzettel";
+	AL["Delete"] = "Löschen";
 	AL["Edit"] = "Bearbeiten";
 	AL["Show all Wishlists"] = "Zeige alle Wunschzettel";
 	AL["Show own Wishlists"] = "Zeige eigene Wunschzettel";
