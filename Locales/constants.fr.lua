@@ -226,19 +226,20 @@ if AL then
 	--AL["Own Wishlists"] = true;
 	--AL["Other Wishlists"] = true;
 	--AL["Shared Wishlists"] = true;
-	--AL["Mark items in Loottabel"] = true;
+	--AL["Mark items in loot tables"] = true;
 	--AL["Mark items from own Wishlist"] = true;
 	--AL["Mark items from all Wishlists"] = true;
 	--AL["Allow Wishlist share"] = true;
 	--AL["Auto reject in combat"] = true;
-	--AL["Add Wishlist"] = true;
-	--AL["Edit Wishlist"] = true;
+	AL["Always use default Wishlist"] = "Toujours utiliser cette wishlist par défaut.";
+	AL["Add Wishlist"] = "Ajouter une wishlist";
+	AL["Edit Wishlist"] = "Modifier une wishlist"
 	AL["Show More Icons"] = "Afficher plus d'icône";
 	--AL["Wishlist name:"] = true;
-	AL["Delet"] = "Supprimer";
+	AL["Delete"] = "Supprimer";
 	AL["Edit"] = "Modifier";
 	AL["Share"] = "Partager";
-	--AL["Show all Wishlists"] = true;
+	AL["Show all Wishlists"] = "Afficher toutes les wishlist";
 	--AL["Show own Wishlists"] = true;
 	--AL["Show shared Wishlists"] = true;
 	--AL["You must waite "] = true;
@@ -252,6 +253,8 @@ if AL then
 	--AL[" try too send you a Wishlist. Rejected because you are in combat."] = true;
 	--AL[" rejects your Wishlist."] = true;
 	--AL["You can't send Wishlists too your self."] = true;
+	AL["Please set a default Wishlist."] = "Veuillez définir une wishlist par défaut."
+	--AL["Set too default Wishlist"] = true;
 
 	--Misc Inventory related words
 	AL["Enchant"] = "Enchantement";
