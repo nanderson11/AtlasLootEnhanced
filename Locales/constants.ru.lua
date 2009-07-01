@@ -17,11 +17,9 @@ local AL = AceLocale:NewLocale("AtlasLoot", "ruRU", false);
 
 --Register translations
 if AL then
+
     --Text strings for UI objects
     AL["AtlasLoot"] = "AtlasLoot";
-    AL["No match found for"] = "Ничего не найдено для";
-    AL["Search"] = "Поиск";
-    AL["Clear"] = "Очистить";
     AL["Select Loot Table"] = "Таблица добычи";
     AL["Select Sub-Table"] = "Выбор Под-Таблицы";
     AL["Drop Rate: "] = "Шанс выпада: ";
@@ -29,11 +27,8 @@ if AL then
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.";
     AL["Various Locations"] = "Разное местонахождение";
-    AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Это только обозреватель добычи. Для обзора карт, установите Атлас или Alphamap.";
+    AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Это только обозреватель добычи. Для обзора карт, установите Atlas или Alphamap.";
     AL["Toggle AL Panel"] = "Перек-тель AL Панели";
-    AL[" is safe."] = " безопасный.";
-    AL["Server queried for "] = "Запрос с севрера для ";
-    AL[".  Right click on any other item to refresh the loot page."] = ".  Правый клик по любому другому предмету для обновления страници добычи.";
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
     AL["Level 70"] = "Уровень 70";
@@ -42,40 +37,20 @@ if AL then
     AL["Misc"] = "Разное";
     AL["Miscellaneous"] = "Разнообразное";
     AL["Rewards"] = "Награды";
-    AL["Heroic Mode"] = "Режим \"Героик\"";
-    AL["Normal Mode"] = "Обычный режим";
-	AL["Hard Mode"] = "Сложный режим";
     AL["Show 10 Man Loot"] = "Добыча 10-чел";
     AL["Show 25 Man Loot"] = "Добыча 25-чел";
-    AL["10 Man"] = "10-чел";
-    AL["25 Man"] = "25-чел";
-    AL["Raid"] = "Рейд";
     AL["Factions - Original WoW"] = "Фракции - Оригинального WoW";
     AL["Factions - Burning Crusade"] = "Фракции - Burning Crusade";
     AL["Factions - Wrath of the Lich King"] = "Фракции - Wrath of the Lich King";
     AL["Choose Table ..."] = "Выбор таблицы";
-    AL["Close Menu"] = "Закрыть меню";
     AL["Unknown"] = "Неизвестно";
-    AL["Skill Required:"] = "Необходим навык:";
-    AL["QuickLook"] = "БыстрыйОсмотр";
     AL["Add to QuickLooks:"] = "Добавить в БыстрыйОсмотр:";
-    AL["Rating:"] = "Рейтинг";    --Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
     AL["Query Server"] = "Запрос с серв.";
-    AL["Classic Instances"] = "Классик инстансы";
-    AL["BC Instances"] = "БК инстансы";
-    AL["WotLK Instances"] = "WotLK инстансы";
-    AL["Original WoW"] = "Оригинальный WoW";
-    AL["Burning Crusade"] = "Burning Crusade";
-    AL["Entrance"] = "Вход";
-    AL["Original Factions"] = "Оригинальные Фракции";
-    AL["BC Factions"] = "БК Фракции";
-    AL["WotLK Factions"] = "WotLK Фракции";
     AL["Reset Frames"] = "Сброс фреймов";
-    AL["Reset Wishlist"] = "Сброс пожеланий";
+    AL["Reset Wishlist"] = "Сброс списка нужного";
     AL["Reset Quicklooks"] = "Сборс БО";
     AL["Select a Loot Table..."] = "Выберите таблицу добычи..";
     AL["OR"] = "или";
-    AL["Wrath of the Lich King"] = "Wrath of the Lich King";
     AL["FuBar Options"] = "Опции FuBarа";
     AL["Attach to Minimap"] = "Закрепить у мини-карты";
     AL["Hide FuBar Plugin"] = "Скрыть плагин FuBarа";
@@ -87,10 +62,6 @@ if AL then
     AL["Hide Text"] = "Скрыть текст";
     AL["Hide Icon"] = "Скрыть иконку";
     AL["Minimap Button Options"] = "Опции кнопки у мини-карты";
-    AL["Bonus Loot"] = "Дополнительная добыча";
-    AL["One Drake Left"] = "Превый дракон";
-    AL["Two Drakes Left"] = "Второй дракон";
-	AL["Three Drakes Left"] = "Третий дракон";
 
     --Text for Options Panel
     AL["Atlasloot Options"] = "Опции Atlasloot";
@@ -117,9 +88,7 @@ if AL then
     AL["Button Radius: "] = "Радиус кнопки: ";
     AL["Done"] = "Готово";
     AL["FuBar Toggle"] = "Перекл. FuBarа";
-    AL["WishList"] = "Пожелания";
     AL["Search Result: %s"] = "Результат Поиска: %s";
-    AL["Last Result"] = "Послед.запрос";
     AL["Search on"] = "Искать в";
     AL["All modules"] = "Все модули";
     AL["If checked, AtlasLoot will load and search across all the modules."] = "Если включено, AtlasLoot будет загружать все модули и искать по ним.";
@@ -133,53 +102,109 @@ if AL then
     AL["Loot Browser Style:"] = "Стиль просмотра добычи:";
     AL["New Style"] = "Новый стиль";
     AL["Classic Style"] = "Класический стиль";
-    --The next 4 lines are the tooltip for the Server Query Button
-    --The translation doesn't have to be literal, just re-write the
-    --sentences as you would naturally and break them up into 4 roughly
-    --equal lines.
-    AL["Queries the server for all items"] = "Запрос с сервера всех предметов";
-    AL["on this page. The items will be"] = "на данной странице. Предметы";
-    AL["refreshed when you next mouse"] = "будут обновлены при след";
-    AL["over them."] = "наводе мыши.";
-    AL["The Minimap Button is generated by the FuBar Plugin."] = "Кнопка у мини-карты будет сгенерирована плагином FuBarа.";
-    AL["This is automatic, you do not need FuBar installed."] = "Это произайдет автоматически, вам не требуется устанавливать FuBar";
 
     --Slash commands
     AL["reset"] = "reset";
     AL["options"] = "options";
     AL["Reset complete!"] = "Сброс выполнен!";
 
-    --Error Messages and warnings
-    AL["AtlasLoot Error!"] = "Ошибка AtlasLoot!";
-    AL["WishList Full!"] = "Список пожеланий полон!";
-    AL[" added to the WishList."] = " добавлено в пожелания.";
-    AL[" already in the WishList!"] = " уже в пожеланиях!";
-    AL[" deleted from the WishList."] = " удалено из пожеланий.";
+	--AtlasLoot Panel
+	AL["Collections"] = "Наборы";
+    AL["Crafting"] = "Ремесло";
+    AL["Factions"] = "Фракции";
+    AL["Load Modules"] = "Загр. модулей";
+    AL["Options"] = "Опции";
+	AL["PvP Rewards"] = "PvP награды";
+    AL["QuickLook"] = "БыстрыйОсмотр";
+	AL["World Events"] = "Мировые события";
+	
+	--AtlasLoot Panel - Search
+    AL["Clear"] = "Очистить";
+	AL["Last Result"] = "Посл. результат";
+    AL["Search"] = "Поиск";
 
-    --Incomplete Table Registry error message
-    AL[" not listed in loot table registry, please report this message to the AtlasLoot forums at http://www.atlasloot.net"] = " не включен в таблицу списка добычи, пожалуйста сообщите об этом сообщении на форум http://www.atlasloot.net";
+	--AtlasLoot Browser Menus
+	AL["Classic Instances"] = "Классик подземелья";
+    AL["BC Instances"] = "Подземелья BC";
+	AL["Sets/Collections"] = "Комплекты/Наборы";
+    AL["Reputation Factions"] = "Репутация у фракций";
+	AL["WotLK Instances"] = "Подземелья WotLK";
+	AL["World Bosses"] = "Мировые боссы";
+    AL["Close Menu"] = "Закрыть меню";
 
-    --LoD Module disabled or missing
-    AL[" is unavailable, the following load on demand module is required: "] = " недоступен, требуется следующий модуль загрузки по требованию: ";
+	--Crafting Menu
+    AL["Crafting Daily Quests"] = "Ежедневные задания - ремесло";
+	AL["Jewelcrafting Daily"] = "Ювелирное дело (Ежедневный)";
+	AL["Cooking Daily"] = "Кулинария (Ежедневный)";
+	AL["Crafted Sets"] = "Изготавливаемые комплекты";
+	AL["Crafted Epic Weapons"] = "Изготавливаемое превосх. оружие";
 
-    --LoD Module load sequence could not be completed
-    AL["Status of the following module could not be determined: "] = "Статус следующих модулей не определен: ";
+   	--Sets/Collections Menu
+    AL["Badge of Justice Rewards"] = "Награды за Знаки справедливости";
+    AL["Emblem of Valor Rewards"] = "Награды за эмблемы доблести";
+    AL["Emblem of Heroism Rewards"] = "Награды за эмблемы героизма";
+    AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
+    AL["BoE World Epics"] = "Мировые превосходные ПпП";
+	AL["Dungeon 1/2 Sets"] = "Комплекты: Подземелья 1/2";
+	AL["Dungeon 3 Sets"] = "Комплекты: Подземелья 3";
+    AL["Legendary Items"] = "Легендарные предметы";
+	AL["Mounts"] = "Ездовые животные";
+    AL["Non-Combat Pets"] = "Не-Боевые питомци";
+    AL["Misc Sets"] = "Различные комплекты";
+    AL["Classic Sets"] = "Классические комплекты";
+    AL["Burning Crusade Sets"] = "Комплекты BC";
+	AL["Wrath Of The Lich King Sets"] = "Комплекты WOTLK";
+    AL["Ruins of Ahn'Qiraj Sets"] = "Комплекты из Руин Ан'Киража";
+    AL["Temple of Ahn'Qiraj Sets"] = "Комплекты из Храма Ан'Киража";
+    AL["Tabards"] = "Накидки";
+    AL["Tier 1/2 Sets"] = "Комплекты: Тир 1/2";
+    AL["Tier 1/2/3 Sets"] = "Комплекты: Тир 1/2/3";
+    AL["Tier 3 Sets"] = "Комплект Тира 3";
+    AL["Tier 4/5/6 Sets"] = "Комплекты: Тир 4/5/6";
+	AL["Tier 7/8 Sets"] = "Комплекты: Тир 7/8";
+	AL["Upper Deck Card Game Items"] = "Предметы настольных игровых карт"
+    AL["Zul'Gurub Sets"] = "Комплекты Зул'Гуруба";
 
-    --LoD Module required has loaded, but loot table is missing
-    AL[" could not be accessed, the following module may be out of date: "] = " не может получить доступ, следующий модуль может быть устаревшим: ";
+	--Factions Menu
+	AL["Original Factions"] = "Фракции в класиике";
+	AL["BC Factions"] = "Фракции в BC";
+	AL["WotLK Factions"] = "Фракции в WotLK";
 
-    --LoD module not defined
-    AL["Loot module returned as nil!"] = "Модуль трофеев возвращен к нолевому значеню!";
+	--PvP Menu
+    AL["Arena PvP Sets"] = "PvP комплекты с арены";
+    AL["PvP Rewards (Level 60)"] = "PvP награды (Уровень 60)";
+    AL["PvP Rewards (Level 70)"] = "PvP награды (Уровень 70)";
+    AL["PvP Rewards (Level 80)"] = "PvP награды (Уровень 80)";
+    AL["Arathi Basin Sets"] = "Комплекты Низины Арати";
+    AL["PvP Accessories"] = "PvP Аксессуары";
+    AL["PvP Armor Sets"] = "PvP Комплекты Доспехов";
+    AL["PvP Weapons"] = "PvP Оружие";
+    AL["PvP Non-Set Epics"] = "PvP Превосходные не из комплектов";
+    AL["PvP Reputation Sets"] = "PvP комплекты за репутацию";
+    AL["Arena PvP Weapons"] = "PvP Оружие с арены";
+    AL["PvP Jewelcrafting Designs and Gems"] = "PvP ювелирные эскизы";
+	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
+    AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
 
-    --LoD module loaded successfully
-    AL["sucessfully loaded."] = "успешно загружен.";
-
-    --Need a big dataset for searching
-    AL["Loading available tables for searching"] = "Загружаются доступные для поиска таблицы";
-
-    --All Available modules loaded
-    AL["All Available Modules Loaded"] = "Все доступные модули загружены";
-
+	--World Events
+    AL["Abyssal Council"] = "Совет Бездны";
+    AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражей Небес на Лагерь Баш'ира";
+    AL["Brewfest"] = "Хмельной фестиваль";
+    AL["Children's Week"] = "Детская неделя";
+    AL["Elemental Invasion"] = "Вторжение стихий";
+    AL["Ethereum Prison"] = "Тюрьма Эфириумов";
+    AL["Feast of Winter Veil"] = "Зимний Покров";
+    AL["Gurubashi Arena Booty Run"] = "Арена Гурубаши";
+    AL["Hallow's End"] = "Тыквовин";
+    AL["Harvest Festival"] = "Неделя урожая";
+    AL["Love is in the Air"] = "Любовная лихорадка";
+    AL["Lunar Festival"] = "Лунный фестиваль";
+    AL["Midsummer Fire Festival"] = "Огненный солнцеворот";
+    AL["Noblegarden"] = "Сад чудес";
+    AL["Skettis"] = "Скеттис";
+    AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
+	AL["Argent Tournament"] = "Серебряный турнир";
+	
     --Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
@@ -187,33 +212,50 @@ if AL then
     AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffccccccЛКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
     AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccПКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
 
-    --AtlasLoot Panel
-    AL["Options"] = "Опции";
-    AL["Collections"] = "Коллекции";
-    AL["Factions"] = "Фракции";
-    AL["World Events"] = "Мировые события";
-    AL["Load Modules"] = "Загр. модулей";
-    AL["Crafting"] = "Ремесло";
-    AL["Crafting Daily Quests"] = "Ежедневные задания - ремесло";
-
-    --First time user
-    AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Добро пожаловать в Расширенный Atlasloot.  Пожалуйста уделите чуточку времени для установки ваших предпочтений.";
-    AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = true;
-    AL["Setup"] = "Установки";
-
-    --Old Atlas Detected
-    AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Обнаружено что Ваша версия Атласа не соответствует версии, под которую зделан Atlasloot (";
-    AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = ").  В зависимости от изменений может быть случайная ошибка но лучше всего посетите http://www.atlasmod.com и убедитесь что у вас стоит последняя версия донного аддона.";
-    AL["OK"] = "OK";
-    AL["Incompatible Atlas Detected"] = "Обноружен несовместимый Атлас";
-
-    --Unsafe item tooltip
-    AL["Unsafe Item"] = "Опасный Предмет";
-    AL["Item Unavailable"] = "Предмет Недоступен";
-    AL["ItemID:"] = "ID предмета:";
-    AL["This item is not available on your server or your battlegroup yet."] = "Этот предмет пока что недоступен на вашем сервере или боевой группе.";
-    AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Этот предмет небезопасен. Для того, чтобы посмотреть его без риска отсоединения от сервера, сначала Вы должны его увидеть в игре. Это ограничение было введено компанией Blizzard начиная с патча 1.10.";
-    AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Вы можете щелкнуть правой кнопкой, чтобы попытаться запросить информацию о предмете.  Имеется риск отсоединения от сервера.";
+	-- Filter
+	AL["Filter"] = "Фильтр";
+	AL["Load Class Filter"] = "Загруз. класс. фильтр";
+	AL["Armor:"] = "Доспехи";
+	AL["Meele weapons:"] = "Оружие ближнего боя";
+	AL["Ranged weapons:"] = "Оружие дальнего боя:";
+	AL["Relics:"] = "Реликвии:";
+	AL["Other:"] = "Другое:";
+	
+	-- Wishlist
+	AL["Close"] = "Закрыть";
+	AL["Wishlist"] = "Список нужного";
+	AL["Own Wishlists"] = "Ваши списки";
+	AL["Other Wishlists"] = "Другие списки нужного";
+	AL["Shared Wishlists"] = "Общие списки";
+	AL["Mark items in loot tables"] = "Отметь предметы в таблице добычи";
+	AL["Mark items from own Wishlist"] = "Отметь предметы из вашего списка";
+	AL["Mark items from all Wishlists"] = "Отметь предметы из всех списков";
+	AL["Allow Wishlist share"] = "Позволяет делиться списками";
+	AL["Auto reject in combat"] = "Авто отклонения в бою";
+	AL["Always use default Wishlist"] = "Всегда использовать список нужного по умолчанию";
+	AL["Add Wishlist"] = "Добавить список нужного";
+	AL["Edit Wishlist"] = "Привить список нужного";
+	AL["Show More Icons"] = "Больше иконок";
+	AL["Wishlist name:"] = "Название списка:";
+	AL["Delete"] = "Удалить";
+	AL["Edit"] = "Правка";
+	AL["Share"] = "Делиться";
+	AL["Show all Wishlists"] = "Показ всех списков";
+	AL["Show own Wishlists"] = "Показать ваши списки";
+	AL["Show shared Wishlists"] = "Показ делимых списков";
+	AL["You must waite "] = "Вы должны обождать";
+	AL[" seconds before you can send a new Wishlist too "] = " секунд до возможности выслать новый список ";
+	AL["Send Wishlist (%s) too"] = "Выслать список (%s) too";
+	AL["Send"] = "Выслать";
+	AL["Cancel"] = "Отмена";
+	AL["Delet"] = "Удалить";
+	AL["Delet Wishlist %s?"] = "Удалить список нужного %s?";
+	AL["%s sends you a Wishlist. Accept?"] = "%s шлет вам список. Принять?";
+	AL[" try too send you a Wishlist. Rejected because you are in combat."] = " пытается выслать вам список. Попытка отклонена, так как вы в бою.";
+	AL[" rejects your Wishlist."] = " отклонил ваш список.";
+	AL["You can't send Wishlists too your self."] = "Вы не можете выслать список самому сибе.";
+	AL["Please set a default Wishlist."] = "Установите список по умолчанию.";
+	AL["Set too default Wishlist"] = "Установка списка по умолчанию";
 
     --Misc Inventory related words
     AL["Enchant"] = "Зачарование";
@@ -232,6 +274,7 @@ if AL then
     --Extra inventory stuff
     AL["Cloak"] = "Плащ";
     AL["Weapons"] = "Оружие";
+	AL["Sigil"] = "Печать"; -- Can be added to BabbleInv
 
     --Alchemy
     AL["Battle Elixirs"] = "Боевые Эликсиры";
@@ -294,10 +337,24 @@ if AL then
     AL["Use to purchase rewards"] = "Испол-ся для покупки наград";
     AL["Use to purchase rewards (Horde)"] = "Испол-ся для покупки наград (Орда)";
     AL["Use to purchase rewards (Alliance)"] = "Испол-ся для покупки наград (Альянс)";
-    AL["World Bosses"] = "Мировые боссы";
-    AL["Reputation Factions"] = "Репутация у фракций";
-    AL["Sets/Collections"] = "Комплекты/Коллекции";
-    AL["Card Game Item"] = "Предмет игровых карт";
+	AL["Conjured Item"] = "Сотворенный предмет";
+	AL["Used to summon boss"] = "Испол-ся для призыва босса";
+	AL["Tradable against sunmote + item above"] = "В обмен на Частицу солнца + предметы выше";
+	AL["Card Game Item"] = "Предмет игровых карт";
+	AL["Skill Required:"] = "Необходим навык:";
+	AL["Rating:"] = "Рейтинг"; -- Shorthand for 'Required Rating' for the personal/team ratings
+
+	--Minor Labels for loot table descriptions
+	AL["Original WoW"] = "Классический";
+    AL["Burning Crusade"] = "Burning Crusade";
+	AL["Wrath of the Lich King"] = "Wrath of the Lich King";
+	AL["Entrance"] = "Вход";
+    AL["Season 2"] = "Сезон 2";
+    AL["Season 3"] = "Сезон 3";
+    AL["Season 4"] = "Сезон 4";
+	AL["Dungeon Set 1"] = "Комплект подземелий 1";
+	AL["Dungeon Set 2"] = "Комплект подземелий 2";
+	AL["Dungeon Set 3"] = "Комплект подземелий 3";
     AL["Tier 1"] = "Тир 1";
     AL["Tier 2"] = "Тир 2";
     AL["Tier 3"] = "Тир 2";
@@ -306,54 +363,127 @@ if AL then
     AL["Tier 6"] = "Тир 6";
 	AL["Tier 7"] = "Тир 7";
 	AL["Tier 8"] = "Тир 8";
+	AL["10 Man"] = "10-чел";
+    AL["25 Man"] = "25-чел";
     AL["10/25 Man"] = "10/25 Чел";
-    AL["Tier 8 Sets"] = "Комплекты: Тир 7";
-	AL["Tier 7/8 Sets"] = "Комплекты: Тир 7/8";
-    AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
-    AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
-    AL["Arena Reward"] = "Награды с Арены";
-    AL["Conjured Item"] = " Сотворенный предмет";
-    AL["Used to summon boss"] = "Испол-ся для призыва босса";
-    AL["Phase 1"] = "Фаза 1";
-    AL["Phase 2"] = "Фаза 2";
-    AL["Phase 3"] = "Фаза 3";
+    AL["Epic Set"] = "Превосходные комплекты";
+    AL["Rare Set"] = "Редкие комплекты";
     AL["Fire"] = "Огонь";
     AL["Water"] = "Вода";
     AL["Wind"] = "Ветер";
     AL["Earth"] = "Земля";
     AL["Master Angler"] = "Лучший удильщик";
+    AL["Fire Resistance Gear"] = "Наборы сопротивлению огню";
+    AL["Arcane Resistance Gear"] = "Наборы сопротивление тайной магии";
+    AL["Nature Resistance Gear"] = "Наборы сопротивление природе";
+    AL["Frost Resistance Gear"] = "Наборы сопротивление льду";
+    AL["Shadow Resistance Gear"] = "Наборы сопротивление тьме";
+	
+	--Labels for loot table sections
+    AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
+    AL["Heroic Mode"] = "Героический режим";
+    AL["Normal Mode"] = "Обычный режим";
+    AL["Raid"] = "Рейд";
+	AL["Hard Mode"] = "Сложный режим";
+	AL["Bonus Loot"] = "Дополнительная добыча";
+    AL["One Drake Left"] = "Превый дракон";
+    AL["Two Drakes Left"] = "Второй дракон";
+	AL["Three Drakes Left"] = "Третий дракон";
+	AL["Arena Reward"] = "Награды с Арены";
+    AL["Phase 1"] = "Фаза 1";
+    AL["Phase 2"] = "Фаза 2";
+    AL["Phase 3"] = "Фаза 3";
     AL["First Prize"] = "Первый приз";
     AL["Rare Fish Rewards"] = "Редкая рыба - Награды";
     AL["Rare Fish"] = "Редкая Рыба";
-    AL["Tradable against sunmote + item above"] = "В обмен на Частицу солнца + предметы выше";
-    AL["Rare"] = "Редкий";
+    AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
+	AL["Heirloom"] = "Фамильные";
+	AL["Weapons"] = "Орежия";
+	AL["Accessories"] = "Аксессуары";
+	
+	--Loot Table Names
+    AL["Scholomance Sets"] = "Комплекты Некроситета";
+    AL["PvP Accessories (Level 60)"] = "PvP аксессуары (Уровень 60)";
+    AL["PvP Accessories - Alliance (Level 60)"] = "PvP аксессуары - Альянс (Уровень 60)";
+    AL["PvP Accessories - Horde (Level 60)"] = "PvP аксессуары - Орда (Уровень 60)";
+	AL["PvP Weapons (Level 60)"] = "PvP оружия (Уровень 60)";
+    AL["PvP Accessories (Level 70)"] = "PvP аксессуары (Уровень 70)";
+	AL["PvP Weapons (Level 70)"] = "PvP оружия (Уровень 60)";
+    AL["PvP Reputation Sets (Level 70)"] = "Комплекты PvP за репутацию (Уровень 70)";
+    AL["Arena Season 2 Weapons"] = "Арена: Сезон 2 - Оружие";
+    AL["Arena Season 3 Weapons"] = "Арена: Сезон 3 - Оружие";
+    AL["Arena Season 4 Weapons"] = "Арена: Сезон 4 - Оружие";
+    AL["Level 30-39"] = "Уровни 30-39";
+    AL["Level 40-49"] = "Уровни 40-49";
+    AL["Level 50-60"] = "Уровни 50-60";
     AL["Heroic"] = "Героик";
-    AL["Hard Mode"] = "Сложный режим";
-	AL["Dungeon/Raid"] = "Подземелье/рейд";
     AL["Summon"] = "Призыв";
     AL["Random"] = "Случайный";
-    AL["Weapons"] = "Оружие";
-    AL["Achievement"] = "Достижение";
+	AL["Tier 8 Sets"] = "Комплекты 8 тира";
+    AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
+	
+	--Extra Text in Boss lists
+    AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
+    AL["Set: Defias Leather"] = "Комплект: Кожаные доспехи Братства Справедливости";
+    AL["Set: The Gladiator"] = "Комплект: Гладиатор";
+    AL["Set: Chain of the Scarlet Crusade"] = "Комплект: Цепь Алого ордена";
+    AL["Set: The Postmaster"] = "Комплект: Вестник";
+    AL["Set: Necropile Raiment"] = "Комплект: Одеяния Праха";
+    AL["Set: Cadaverous Garb"] = "Комплект: Трупный наряд";
+    AL["Set: Bloodmail Regalia"] = "Комплект: Регалии Кровавой кольчуги";
+    AL["Set: Deathbone Guardian"] = "Комплект: Костяной Страж";
+    AL["Set: Dal'Rend's Arms"] = "Комплект: Руки Дал'Ренда";
+    AL["Set: Spider's Kiss"] = "Комплект: Поцелуй паука";
+    AL["AQ20 Class Sets"] = "Классовые комплекты АК20";
+    AL["AQ Enchants"] = "Наложения чар из АК";
+    AL["AQ40 Class Sets"] = "Классовые комплекты АК40";
+    AL["AQ Opening Quest Chain"] = "Цепь заданий открытия АК";
+    AL["ZG Class Sets"] = "Классовые комплекты ЗГ";
+    AL["ZG Enchants"] = "Наложения чар из ЗГ";
+    AL["Class Books"] = "Классовые Книги";
+    AL["Tribute Run"] = "Заход почести";
+    AL["Dire Maul Books"] = "Книги Забытого Города";
+    AL["Random Boss Loot"] = "Трофеи случайных боссов";
+    AL["BT Patterns/Plans"] = "ЧХ - Выкройки/Чертежы";
+    AL["Hyjal Summit Designs"] = "Эскизы - Вершина Хиджала";
+    AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
+	AL["Ulduar Formula/Patterns/Plans"] = "Ульдуар - Формулы/Выкройки/Чертежы";
+    AL["Legendary Items for Kael'thas Fight"] = "Легендарные предметы для боя с Кель'тасом";
+
+	--Pets
+	AL["Pets"] = "Питомци";
+	AL["Promotional"] = "Содействующие";
+	AL["Merchant Sold"] = "Продаються торговцами";
+	AL["Rare"] = "Редкий";
+	AL["Achievement"] = "Достижение";
 	AL["Faction"] = "Фракция";
-    AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
-    AL["Heirloom"] = "Фамильные";
+	AL["Dungeon/Raid"] = "Подземелье/Рейд";
+
+	--Mounts
+	AL["Achievement Reward"] = "Награда за достижение";
+	AL["Alliance Flying Mounts"] = "Летающий транспорт Альянса";
+	AL["Alliance Mounts"] = "Транспорт Альянса";
+	AL["Horde Flying Mounts"] = "Летающий транспорт Орды";
+	AL["Horde Mounts"] = "Транспорт Орды";
+    AL["Card Game Mounts"] = "Транспорт с игральных карт";
+    AL["Crafted Mounts"] = "Созданный транспорт";
+    AL["Event Mounts"] = "Транспорт с событий";
+	AL["Neutral Faction Mounts"] = "Транспорт у равнодушных фракций";
+    AL["PvP Mounts"] = "PvP транспорт";
+	AL["Alliance PvP Mounts"] = "PvP транспорт Альянса";
+	AL["Horde PvP Mounts"] = "PvP транспорт Орды";
+	AL["Halaa PvP Mounts"] = "PvP транспорт Халаа";
+	AL["Promotional Mounts"] = "Поощрительный транспорт";
+    AL["Rare Mounts"] = "Редкий транспорт";
 	
 	--Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Награды Ярмарки Новолуния";
 	AL["Low Level Decks"] = "Низко уровневые колоды";
-	AL["Original and BC Trinkets"] = "Аксессуары - БК и Оригинала";
+	AL["Original and BC Trinkets"] = "Аксессуары - BC и Классика";
 	AL["WotLK Trinkets"] = "Аксессуары - WotLK";
     
-    --Argent Tournament
-    AL["Argent Tournament"] = "Серебряный Турнир";
-	
-	-- Daily Quest
-	AL["Jewelcrafting Daily"] = "Ювелирное дело (Ежедневный)";
-	AL["Cooking Daily"] = "Кулинария (Ежедневный)";
-
     --Card Game Decks and descriptions
-    AL["Upper Deck Card Game Items"] = "Upper Deck Card Game Items";
-    AL["Loot Card Items"] = "Loot Card Items";
+    AL["Loot Card Items"] = "Предметы с карт";
     AL["UDE Items"] = "Предметы UDE";
 
     -- First set
@@ -361,43 +491,51 @@ if AL then
     AL["Landro Longshot"] = "Ландро Дальнострел";
     AL["Thunderhead Hippogryph"] = "Гиппогриф Громовой вершины";
     AL["Saltwater Snapjaw"] = "Морской щелкоклюв";
+	
     -- Second set
     AL["Through The Dark Portal"] = "Через Темный портал";
     AL["King Mukla"] = "Король Мукла";
     AL["Rest and Relaxation"] = "Отдых и покой";
     AL["Fortune Telling"] = "Fortune Telling";
+	
     -- Third set
-    AL["Fires of Outland"] = "Fires of Outland";
+    AL["Fires of Outland"] = "Огни Запределья";
     AL["Spectral Tiger"] = "Призрачный Тигр";
     AL["Gone Fishin'"] = "Gone Fishin'";
     AL["Goblin Gumbo"] = "Гоблинское хлебово";
+	
     -- Fourth set
     AL["March of the Legion"] = "Граница легиона";
     AL["Kiting"] = "Kiting";
     AL["Robotic Homing Chicken"] = "Robotic Homing Chicken";
     AL["Paper Airplane"] = "Бумажный аэроплан";
+	
     -- Fifth set
-    AL["Servants of the Betrayer"] = "Слуги Отступников";
+    AL["Servants of the Betrayer"] = "Слуги Предателя";
     AL["X-51 Nether-Rocket"] = "Ракета Пустоты X-51";
     AL["Personal Weather Machine"] = "Личная погодная машина";
     AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Papa Hummel's Old-fashioned Pet Biscuit";
-    -- Sixth set
-    AL["Hunt for Illidan"] = "Hunt for Illidan";
-    AL["The Footsteps of Illidan"] = "Шаги Иллидана";
-    AL["Disco Inferno!"] = "Disco Inferno!";
-    AL["Ethereal Plunderer"] = "Эфириал-расхититель";
-    -- Seventh set
-	AL["Drums of War"] = "Drums of War";
+   
+   -- Sixth set
+    AL["Hunt for Illidan"] = "Охота на Иллидана";
+    AL["The Footsteps of Illidan"] = "Путь Иллидана";
+    AL["Disco Inferno!"] = "Диско-шар";
+    AL["Ethereal Plunderer"] = "Эфириал-призыватель";
+   
+   -- Seventh set
+	AL["Drums of War"] = "Барабаны войны";
     AL["The Red Bearon"] = "The Red Bearon";
     AL["Owned!"] = "Owned!";
     AL["Slashdance"] = "Slashdance";
+
 	-- Eighth set
-	AL["Blood of Gladiators"] = "Blood of Gladiators";
+	AL["Blood of Gladiators"] = "Кровь гладиаторов";
 	AL["Sandbox Tiger"] = "Тигр-качалка";
 	AL["Center of Attention"] = "Center of Attention";
-	AL["Foam Sword Rack"] = "Foam Sword Rack";
+	AL["Foam Sword Rack"] = "Подставка для мечя из пенополимера";
+	
 	-- Ninth set
-	AL["Fields of Honor"] = "Fields of Honor";
+	AL["Fields of Honor"] = "Поля чести";
 
     --Battleground Brackets
     AL["Misc. Rewards"] = "Разные награды";
@@ -524,7 +662,7 @@ if AL then
     AL["Netherscale Armor"] = "Доспехи из чешуи дракона Пустоты";
     AL["Netherstrike Armor"] = "Доспехи удара Пустоты";
 
-    --Vanilla WoW Sets
+    --Classic WoW Sets
     AL["Defias Leather"] = "Кожаные доспехи Братства Справедливости";
     AL["Embrace of the Viper"] = "Объятия гадюки";
     AL["Chain of the Scarlet Crusade"] = "Цепь Алого ордена";
@@ -881,114 +1019,6 @@ if AL then
     AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";  --unused
 	AL["Furious Gladiator\'s Weapons"] = "Оружие гневного гладиатора";
 
-    --Set Labels
-    AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
-    AL["Set: Defias Leather"] = "Комплект: Кожаные доспехи Братства Справедливости";
-    AL["Set: The Gladiator"] = "Комплект: Гладиатор";
-    AL["Set: Chain of the Scarlet Crusade"] = "Комплект: Цепь Алого ордена";
-    AL["Set: The Postmaster"] = "Комплект: Вестник";
-    AL["Set: Necropile Raiment"] = "Комплект: Одеяния Праха";
-    AL["Set: Cadaverous Garb"] = "Комплект: Трупный наряд";
-    AL["Set: Bloodmail Regalia"] = "Комплект: Регалии Кровавой кольчуги";
-    AL["Set: Deathbone Guardian"] = "Комплект: Костяной Страж";
-    AL["Set: Dal'Rend's Arms"] = "Комплект: Руки Дал'Ренда";
-    AL["Set: Spider's Kiss"] = "Комплект: Поцелуй паука";
-    AL["Temple of Ahn'Qiraj Sets"] = "Комплекты из Храма Ан'Киража";
-    AL["AQ40 Class Sets"] = "Классовые Комплекты АК40";
-    AL["Ruins of Ahn'Qiraj Sets"] = "Комплект из Руин Ан'Киража";
-    AL["AQ20 Class Sets"] = "Классовые Комплекты АК20";
-    AL["AQ Enchants"] = "Зачарования из АК";
-    AL["AQ Opening Quest Chain"] = "Цепь заданий открытия АК";
-    AL["Misc Sets"] = "Различные комплекты";
-    AL["Classic Sets"] = "Классические комплекты";
-    AL["Burning Crusade Sets"] = "БК комплекты";
-    AL["Wrath Of The Lich King Sets"] = "ВоЛк комплекты";
-    AL["Scholomance Sets"] = "Комплекты Некроситета";
-    AL["Crafted Sets"] = "Изготов-ные Комплекты";
-    AL["Crafted Epic Weapons"] = "Изготов-ные Эпические Оружия";
-    AL["Zul'Gurub Sets"] = "Комплекты Зул'Гуруба";
-    AL["ZG Class Sets"] = "Классовые Комплекты ЗГ";
-    AL["ZG Enchants"] = "Зачарования из ЗГ";
-    AL["Dungeon 1/2 Sets"] = "Комплекты подземелий 1/2";
-    AL["Dungeon Set 1"] = "Комплекты подземелий 1";
-    AL["Dungeon Set 2"] = "Комплекты подземелий 2";
-    AL["Dungeon Set 3"] = "Комплекты подземелий 3";
-    AL["Dungeon 3 Sets"] = "Комплекты подземелий 3";
-    AL["Tier 1/2 Sets"] = "Комплекты: Тир 1/2";
-    AL["Tier 1/2/3 Sets"] = "Комплекты: Тир 1/2/3";
-    AL["Tier 3 Sets"] = "Комплект 3 Тира";
-    AL["Tier 4/5/6 Sets"] = "Комплект 4/5/6 Тира";
-    AL["PvP Reputation Sets (Level 70)"] = "Комплекты PvP за репутацию (Уровень 70)";
-    AL["PvP Rewards (Level 60)"] = "PvP награды (Уровень 60)";
-    AL["PvP Rewards (Level 70)"] = "PvP награды (Уровень 70)";
-    AL["PvP Rewards (Level 80)"] = "PvP награды (Уровень 80)";
-    AL["PvP Accessories (Level 60)"] = "PvP Аксессуары (Уровень 60)";
-    AL["PvP Accessories - Alliance (Level 60)"] = "PvP Аксессуары - Альянс (Уровень 60)";
-    AL["PvP Accessories - Horde (Level 60)"] = "PvP Аксессуары - Орда (Уровень 60)";
-    AL["PvP Accessories (Level 70)"] = "PvP Аксессуары (Уровень 70)";
-    AL["PvP Jewelcrafting Designs and Gems"] = "PvP ювелирные эскизы";
-	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
-    AL["PvP Rewards"] = "PvP награды";
-    AL["PvP Armor Sets"] = "PvP Комплекты Доспехов";
-    AL["PvP Weapons"] = "PvP Оружие";
-    AL["PvP Weapons (Level 60)"] = "PvP Оружие (Уровень 60)";
-    AL["PvP Weapons (Level 70)"] = "PvP Оружие (Уровень 70)";
-    AL["PvP Accessories"] = "PvP Аксессуары";
-    AL["PvP Non-Set Epics"] = "PvP Эпики не из комплектов";
-    AL["PvP Reputation Sets"] = "PvP Комплекты";
-    AL["Arena PvP Sets"] = "Арена PvP Комплекты";
-    AL["Arena PvP Weapons"] = "Арена PvP Оружие";
-    AL["Arena Season 2 Weapons"] = "Арена: Сезон 2 - Оружие";
-    AL["Arena Season 3 Weapons"] = "Арена: Сезон 3 - Оружие";
-    AL["Arena Season 4 Weapons"] = "Арена: Сезон 4 - Оружие";
-    AL["Season 2"] = "Сезон 2";
-    AL["Season 3"] = "Сезон 3";
-    AL["Season 4"] = "Сезон 4";
-    AL["Arathi Basin Sets"] = "Комплекты Низины Арати";
-    AL["Class Books"] = "Классовые Книги";
-    AL["Tribute Run"] = "Заход почести";
-    AL["Dire Maul Books"] = "Книги Забытого Города";
-    AL["Random Boss Loot"] = "Трофеи случайных боссов";
-    AL["Epic Set"] = "Эпические Комплекты";
-    AL["Rare Set"] = "Редкие Комплекты";
-    AL["Legendary Items"] = "Легендарные предметы";
-    AL["Badge of Justice Rewards"] = "Награды за Знаки справедливости";
-    AL["Emblem of Valor Rewards"] = "Награды за эмблемы доблести";
-    AL["Emblem of Heroism Rewards"] = "Награды за эмблемы героизма";
-    AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
-    AL["Accessories"] = "Аксессуары";
-    AL["Fire Resistance Gear"] = "Наборы сопротивлению огню";
-    AL["Arcane Resistance Gear"] = "Наборы сопротивление тайной магии";
-    AL["Nature Resistance Gear"] = "Наборы сопротивление природе";
-    AL["Frost Resistance Gear"] = "Наборы сопротивление льду";
-    AL["Shadow Resistance Gear"] = "НАборы сопротивление тьме";
-    AL["Tabards"] = "Накидки";
-    AL["Legendary Items for Kael'thas Fight"] = "Легендарные предметы для боя с Кель'тасом";
-    AL["BoE World Epics"] = "Мировые эпики ПпП";
-    AL["Level 30-39"] = "Уровни 30-39";
-    AL["Level 40-49"] = "Уровни 40-49";
-    AL["Level 50-60"] = "Уровни 50-60";
-    AL["BT Patterns/Plans"] = "ЧХ - Выкройки/Чертежы";
-    AL["Hyjal Summit Designs"] = "Эскизы - Вершина Хиджала";
-    AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
-	AL["Ulduar Formula/Patterns/Plans"] = "Ульдуар - Формулы/Выкройки/Чертежы";
-    AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
-    AL["Sigil"] = "Печать";
-
-    --Pets
-    AL["Pets"] = "Питомци";
-    AL["Non-Combat Pets"] = "Не-Боевые питомци";
-	AL["Promotional"] = "Содействующие";
-	AL["Merchant Sold"] = "Продаються торговцами";
-
-    --Mounts
-    AL["Mounts"] = "Транспорт";
-    AL["Card Game Mounts"] = "Транспорт с игральных карт";
-    AL["Crafted Mounts"] = "Созданный транспорт";
-    AL["Event Mounts"] = "Транспорт событий";
-    AL["PvP Mounts"] = "PvP транспорт";
-    AL["Rare Mounts"] = "Редкий транспорт";
-
     --Specs
     AL["Balance"] = "Баланс";
     AL["Feral"] = "Сила зверя";
@@ -1223,27 +1253,90 @@ if AL then
     AL["Ripe Disgusting Jar"] = "Совершенно омерзительный кувшин";
     AL["Cracked Egg"] = "Треснутое яйцо";
 
-    --World Events
-    AL["Abyssal Council"] = "Совет Бездны";
-    AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражей Небес на Лагерь Баш'ира";
-    AL["Brewfest"] = "Хмельной фестиваль";
-    AL["Children's Week"] = "Детская неделя";
-    AL["Elemental Invasion"] = "Вторжение стихий";
-    AL["Ethereum Prison"] = "Тюрьма Эфириумов";
-    AL["Feast of Winter Veil"] = "Зимний Покров";
-    AL["Gurubashi Arena Booty Run"] = "Арена Гурубаши";
-    AL["Hallow's End"] = "Тыквовин";
-    AL["Harvest Festival"] = "Неделя урожая";
-    AL["Love is in the Air"] = "Любовная лихорадка";
-    AL["Lunar Festival"] = "Лунный фестиваль";
-    AL["Midsummer Fire Festival"] = "Огненный солнцеворот";
-    AL["Noblegarden"] = "Сад чудес";
-    AL["Skettis"] = "Скеттис";
-    AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
---    AL["Argent Tournament"] = "Серебряный турнир";
-
+	--The next 4 lines are the tooltip for the Server Query Button
+	--The translation doesn't have to be literal, just re-write the
+	--sentences as you would naturally and break them up into 4 roughly
+	--equal lines.
+    AL["Queries the server for all items"] = "Запрос с сервера всех предметов";
+    AL["on this page. The items will be"] = "на данной странице. Предметы";
+    AL["refreshed when you next mouse"] = "будут обновлены при след";
+    AL["over them."] = "наводе мыши.";
+    AL["The Minimap Button is generated by the FuBar Plugin."] = "Кнопка у мини-карты будет сгенерирована плагином FuBarа.";
+    AL["This is automatic, you do not need FuBar installed."] = "Это произайдет автоматически, вам не требуется устанавливать FuBar";
+	
+    --Help Frame
 	AL["Help"] = "Справка";
 	AL["AtlasLoot Help"] = "Справка AtlasLoot";
 	AL["For further help, see our website and forums: "] = "Для получения дополнительной справки, см. наш сайт и форумы: ";
 	AL["How to open the standalone Loot Browser:"] = "Как открыть отдельный обозреватель добычи:";
+	--AL["If you have AtlasLootFu enabled, click the minimap button, or alternatively a button generated by a mod like Titan or FuBar.  Finally, you can type '/al' in the chat window."] = true;
+	--AL["How to view an 'unsafe' item:"] = true;
+	--AL["Unsafe items have a red border around the icon and are marked because you have not seen the item since the last patch or server restart. Right-click the item, then move your mouse back over the item or click the 'Query Server' button at the bottom of the loot page."] = true;
+	--AL["How to view an item in the Dressing Room:"] = true;
+	--AL["Simply Ctrl+Left Click on the item.  Sometimes the dressing room window is hidden behind the Atlas or AtlasLoot windows, so if nothing seems to happen move your Atlas or AtlasLoot windows and see if anything is hidden."] = true;
+	AL["How to link an item to someone else:"] = "Как передать ссылку на предмет кому-нибуть:";
+	--AL["Shift+Left Click the item like you would for any other in-game item"] = "Shift+Left Click the item like you would for any other in-game item";
+	AL["How to add an item to the wishlist:"] = "Как добавить предмет в список нужного:";
+	AL["Alt+Left Click any item to add it to the wishlist."] = "Alt+Левый клик по любому предмету добовляет его в список нужного.";
+	AL["How to delete an item from the wishlist:"] = "Как удалить предмет из списка нужного:";
+	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "Находять в окне списка, для удаления предмета, просто нажмите Alt+Левый клик по нему.";
+	--AL["What else does the wishlist do?"] = true;
+	--AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = true;
+	--AL["HELP!! I have broken the mod somehow!"] = true;
+	--AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = true;
+	
+	--Error Messages and warnings
+    AL["AtlasLoot Error!"] = "Ошибка AtlasLoot!";
+    AL["WishList Full!"] = "Список нужного полон!";
+    AL[" added to the WishList."] = " добавлено в список нужного.";
+    AL[" already in the WishList!"] = " уже в списке нужного!";
+    AL[" deleted from the WishList."] = " удалено из списка.";
+	AL["No match found for"] = "Ничего не найдено для";
+	AL[" is safe."] = " безопасный.";
+	AL["Server queried for "] = "Запрос с севрера для ";
+    AL[".  Right click on any other item to refresh the loot page."] = ".  Правый клик по любому другому предмету для обновления страници добычи.";
+
+	--Incomplete Table Registry error message
+    AL[" not listed in loot table registry, please report this message to the AtlasLoot forums at http://www.atlasloot.net"] = " не включен в таблицу списка добычи, пожалуйста сообщите об этом сообщении на форум http://www.atlasloot.net";
+
+    --LoD Module disabled or missing
+    AL[" is unavailable, the following load on demand module is required: "] = " недоступен, требуется следующий модуль загрузки по требованию: ";
+
+    --LoD Module load sequence could not be completed
+    AL["Status of the following module could not be determined: "] = "Статус следующих модулей не определен: ";
+
+    --LoD Module required has loaded, but loot table is missing
+    AL[" could not be accessed, the following module may be out of date: "] = " не может получить доступ, следующий модуль может быть устаревшим: ";
+
+    --LoD module not defined
+    AL["Loot module returned as nil!"] = "Модуль трофеев возвращен к нолевому значеню!";
+
+    --LoD module loaded successfully
+    AL["sucessfully loaded."] = "успешно загружен.";
+
+    --Need a big dataset for searching
+    AL["Loading available tables for searching"] = "Загружаются доступные для поиска таблицы";
+
+    --All Available modules loaded
+    AL["All Available Modules Loaded"] = "Все доступные модули загружены";
+	
+    --First time user
+    AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Добро пожаловать в Atlasloot Enhanced.  Пожалуйста уделите чуточку времени для установки ваших предпочтений.";
+    AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Добро пожаловать в Atlasloot Enhanced.  Пожалуйста уделите чуточку времени для установки ваших предпочтений? подсказок, ссылок в окно чата.\n\n  Это окно настроек может быть вызванно в любоя время вводом в чат команды: '/atlasloot'.";
+    AL["Setup"] = "Установки";
+
+    --Old Atlas Detected
+    AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Обнаружено что Ваша версия Атласа не соответствует версии, под которую зделан Atlasloot (";
+    AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = ").  В зависимости от изменений может быть случайная ошибка но лучше всего посетите http://www.atlasmod.com и убедитесь что у вас стоит последняя версия донного аддона.";
+    AL["OK"] = "OK";
+    AL["Incompatible Atlas Detected"] = "Обноружен несовместимый Атлас";
+
+    --Unsafe item tooltip
+    AL["Unsafe Item"] = "Опасный Предмет";
+    AL["Item Unavailable"] = "Предмет Недоступен";
+    AL["ItemID:"] = "ID предмета:";
+    AL["This item is not available on your server or your battlegroup yet."] = "Этот предмет пока что недоступен на вашем сервере или боевой группе.";
+    AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Этот предмет небезопасен. Для того, чтобы посмотреть его без риска отсоединения от сервера, сначала Вы должны его увидеть в игре. Это ограничение было введено компанией Blizzard начиная с патча 1.10.";
+    AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Вы можете щелкнуть правой кнопкой, чтобы попытаться запросить информацию о предмете.  Имеется риск отсоединения от сервера.";
+	
 end
