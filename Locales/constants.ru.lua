@@ -249,13 +249,13 @@ if AL then
 	AL["Send"] = "Выслать";
 	AL["Cancel"] = "Отмена";
 	AL["Delet"] = "Удалить";
-	AL["Delet Wishlist %s?"] = "Удалить список нужного %s?";
+	AL["Delete Wishlist %s?"] = "Удалить список нужного %s?";
 	AL["%s sends you a Wishlist. Accept?"] = "%s шлет вам список. Принять?";
 	AL[" try too send you a Wishlist. Rejected because you are in combat."] = " пытается выслать вам список. Попытка отклонена, так как вы в бою.";
 	AL[" rejects your Wishlist."] = " отклонил ваш список.";
 	AL["You can't send Wishlists too your self."] = "Вы не можете выслать список самому сибе.";
 	AL["Please set a default Wishlist."] = "Установите список по умолчанию.";
-	AL["Set too default Wishlist"] = "Установка списка по умолчанию";
+	AL["Set as default Wishlist"] = "Установка списка по умолчанию";
 
     --Misc Inventory related words
     AL["Enchant"] = "Зачарование";

@@ -249,13 +249,13 @@ if AL then
 	AL["Send"] = true;
 	AL["Cancel"] = true;
 	AL["Delet"] = true;
-	AL["Delet Wishlist %s?"] = true;
+	AL["Delete Wishlist %s?"] = true;
 	AL["%s sends you a Wishlist. Accept?"] = true;
 	AL[" try too send you a Wishlist. Rejected because you are in combat."] = true;
 	AL[" rejects your Wishlist."] = true;
 	AL["You can't send Wishlists too your self."] = true;
 	AL["Please set a default Wishlist."] = true;
-	AL["Set too default Wishlist"] = true;
+	AL["Set as default Wishlist"] = true;
 
 	--Misc Inventory related words
 	AL["Enchant"] = true;

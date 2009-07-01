@@ -207,6 +207,7 @@ end
 local ypos = -40
 local xpos = 0
 local linecount = 1
+local lastframewidht,lastframeheight = 0,0
 
 local function CreateCheckButton(parrent, text, num)
 	local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
@@ -287,10 +288,15 @@ function AtlasLoot_CreateFilterOptions()
 		panel3:EnableMouse(true)
 		panel3:SetVerticalScroll(0)
 		panel3:SetHorizontalScroll(0)
-		panel3:SetScript("OnShow", function()
+		panel3:SetScript("OnUpdate", function()
 			local xframewidht = InterfaceOptionsFramePanelContainer:GetWidth()
-			panel3:SetWidth(xframewidht-45)  
-			scc:SetWidth(xframewidht-45)  
+			local xframeheight = InterfaceOptionsFramePanelContainer:GetHeight()
+			if xframewidht ~= lastframewidht or xframeheight ~= lastframeheight then
+				panel3:SetWidth(xframewidht-45)  
+				scc:SetWidth(xframewidht-45)  
+				panel3:SetHeight(xframeheight-20) 
+				scc:SetHeight(xframeheight-20) 
+			end
 		end)
 		
 	local ClassFilterLoadButton = CreateFrame("BUTTON", nil, scc, "UIPanelButtonTemplate")
