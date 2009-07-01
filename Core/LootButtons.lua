@@ -267,7 +267,7 @@ function AtlasLootItem_OnClick(arg1)
             else
                 spellName, _, _, _, _, _, _, _, _ = GetSpellInfo(string.sub(this.itemID, 2));
                 --spellIcon = GetItemIcon(this.dressingroomID);
-                AtlasLoot_AddToWishlist(this.itemID, this.dressingroomID, "=ds="..spellName, "=ds="..AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refreshOri[1].."|"..AtlasLootItemsFrame.refreshOri[2]);
+                AtlasLoot_ShowWishListDropDown(this.itemID, this.dressingroomID, "=ds="..spellName, "=ds="..AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refreshOri[1].."|"..AtlasLootItemsFrame.refreshOri[2],this);
             end
         elseif(IsControlKeyDown()) then
             DressUpItemLink("item:"..this.dressingroomID..":0:0:0:0:0:0:0");
