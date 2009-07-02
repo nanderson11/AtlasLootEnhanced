@@ -243,9 +243,9 @@ if AL then
 	AL["Show all Wishlists"] = true;
 	AL["Show own Wishlists"] = true;
 	AL["Show shared Wishlists"] = true;
-	AL["You must waite "] = true;
+	AL["You must wait "] = true;
 	AL[" seconds before you can send a new Wishlist too "] = true;
-	AL["Send Wishlist (%s) too"] = true;
+	AL["Send Wishlist (%s) to"] = true;
 	AL["Send"] = true;
 	AL["Cancel"] = true;
 	AL["Delet"] = true;

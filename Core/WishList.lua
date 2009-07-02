@@ -646,39 +646,6 @@ local yoffset = -5
 
 --[[
 StaticPopupDialogs["ATLASLOOT_GET_WISHLIST"]
-This is shown, if you want too share a wishlist
-]]
-StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
-	text = AL["Send Wishlist (%s) too"],
-	button1 = AL["Send"],
-	button2 = AL["Cancel"],
-	OnShow = function()
-		this:SetFrameStrata("TOOLTIP");
-	end,
-	OnAccept = function()
-		local name = getglobal(this:GetParent():GetName().."EditBox"):GetText()
-		if name == playerName then
-			DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You can't send Wishlists too your self."]);
-			curtabname = ""
-			curplayername = ""
-		else
-			AtlasLoot_SendWishList(AtlasLootWishList["Own"][curplayername][curtabname],name)
-			curtabname = ""
-			curplayername = ""
-		end
-	end,
-	OnCancel = function ()
-		curtabname = ""
-		curplayername = ""
-	end,
-	hasEditBox = 1,
-	timeout = 0,
-	whileDead = 1,
-	hideOnEscape = 1
-};
-
---[[
-StaticPopupDialogs["ATLASLOOT_GET_WISHLIST"]
 This is shown, if you want too delet a wishlist
 ]]
 StaticPopupDialogs["ATLASLOOT_DELETE_WISHLIST"] = {
@@ -1411,9 +1378,9 @@ Check Spamfilter table
 ]]
 local function SpamProtect(name)
 	if not name then return true end
-	if SpamFilter[name] then
-		if GetTime() - SpamFilter[name] > SpamFilterTime then
-			SpamFilter[name] = nil
+	if SpamFilter[string.lower(name)] then
+		if GetTime() - SpamFilter[string.lower(name)] > SpamFilterTime then
+			SpamFilter[string.lower(name)] = nil
 			return true
 		else
 			return false
@@ -1437,7 +1404,7 @@ Send wishlist request
 Seralize and send wishlist
 ]]
 function AtlasLoot_SendWishList(wltab,sendname)
-	if sendname == playerName then return end
+	if string.lower(sendname) == string.lower(playerName) then return end
 	if not xwltab[sendname] then
 		xwltab[sendname] = wltab
 		ALModule:SendCommMessage(ShareWishlistPref, "WishlistRequest", "WHISPER", sendname)
@@ -1453,7 +1420,7 @@ Get the Wishlist, Deserialize it and save it in the savedvariables table
 ]]
 function AtlasLoot_GetWishList(wlstrg,sendername)
 	if not wlstrg or not sendername then return end
-	if sendername == playerName then return end
+	if string.lower(sendername) == string.lower(playerName) then return end
 	local success, wltab = ALModule:Deserialize(wlstrg)
 	if success then
 		if wltab["info"] then
@@ -1481,10 +1448,10 @@ Incomming messages from AceComm
 function ALModule:OnCommReceived(prefix, message, distribution, sender)
 	if prefix ~= ShareWishlistPref then return end
 	if message == "SpamProtect" then
-		local _,_,timeleft = string.find( 10-(GetTime() - SpamFilter[sender]), "(%d+)%.")
-		DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You must waite "]..WHITE..timeleft..RED..AL[" seconds before you can send a new Wishlist too "]..WHITE..sender..RED..".");
+		--local _,_,timeleft = string.find( 10-(GetTime() - SpamFilter[string.lower(sender)]), "(%d+)%.")
+		--DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You must wait "]..WHITE..timeleft..RED..AL[" seconds before you can send a new Wishlist too "]..WHITE..sender..RED..".");
 	elseif message == "FinishSend" then
-		SpamFilter[sender] = GetTime()
+		SpamFilter[string.lower(sender)] = GetTime()
 	elseif message == "AcceptWishlist" then
 		AtlasLoot_SendWishList(xwltab[sender],sender)
 		xwltab[sender] = nil
@@ -1515,13 +1482,53 @@ function ALModule:OnCommReceived(prefix, message, distribution, sender)
 		DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..WHITE..sender..RED..AL[" rejects your Wishlist."]);
 		xwltab[sender] = nil
 	else
-		if SpamProtect(sender) then
-			SpamFilter[sender] = GetTime()
+		--if SpamProtect(sender) then
+			SpamFilter[string.lower(sender)] = GetTime()
 			AtlasLoot_GetWishList(message,sender)
 			ALModule:SendCommMessage(ShareWishlistPref, "FinishSend", "WHISPER", sender)
-		else
-			ALModule:SendCommMessage(ShareWishlistPref, "SpamProtect", "WHISPER", sender)
-		end
+		--else
+		--	ALModule:SendCommMessage(ShareWishlistPref, "SpamProtect", "WHISPER", sender)
+		--end
 	end
 end
+
+--[[
+StaticPopupDialogs["ATLASLOOT_GET_WISHLIST"]
+This is shown, if you want too share a wishlist
+]]
+StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
+	text = AL["Send Wishlist (%s) to"],
+	button1 = AL["Send"],
+	button2 = AL["Cancel"],
+	OnShow = function()
+		this:SetFrameStrata("TOOLTIP");
+	end,
+	OnAccept = function()
+		local name = getglobal(this:GetParent():GetName().."EditBox"):GetText()
+		if string.lower(name) == string.lower(playerName) then
+			DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You can't send Wishlists too your self."]);
+			curtabname = ""
+			curplayername = ""
+		elseif name == "" then
+		
+		else
+			if SpamProtect(string.lower(name)) then
+				AtlasLoot_SendWishList(AtlasLootWishList["Own"][curplayername][curtabname],name)
+				curtabname = ""
+				curplayername = ""
+			else
+				local _,_,timeleft = string.find( 10-(GetTime() - SpamFilter[string.lower(name)]), "(%d+)%.")
+				DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You must wait "]..WHITE..timeleft..RED..AL[" seconds before you can send a new Wishlist too "]..WHITE..name..RED..".");
+			end
+		end
+	end,
+	OnCancel = function ()
+		curtabname = ""
+		curplayername = ""
+	end,
+	hasEditBox = 1,
+	timeout = 0,
+	whileDead = 1,
+	hideOnEscape = 1
+};
 
