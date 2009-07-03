@@ -76,17 +76,16 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["OldKeys"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#e9#", ""};
-		{ 2, 17191, "", "=q3=Scepter of Celebras", "=ds=#e9#"};
-		{ 3, 7146, "", "=q2=The Scarlet Key", "=ds=#e9#"};
-		{ 4, 12382, "", "=q2=Key to the City", "=ds=#e9#"};
-		{ 5, 6893, "", "=q1=Workshop Key", "=ds=#e9#"};
-		{ 6, 11000, "", "=q1=Shadowforge Key", "=ds=#e9#"};
-		{ 7, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#"};
-		{ 8, 18249, "", "=q1=Crescent Key", "=ds=#e9#"};
-		{ 9, 13704, "", "=q1=Skeleton Key", "=ds=#e9#"};
-		{ 11, 0, "INV_Box_01", "=q6=#j7#", ""};
-		{ 12, 22057, "", "=q1=Brazier of Invocation", "=ds=#m27#"};
-		{ 13, 21986, "", "=q1=Banner of Provocation", "=ds=#m27#"};
+		{ 2, 7146, "", "=q2=The Scarlet Key", "=ds=#e9#"};
+		{ 3, 12382, "", "=q2=Key to the City", "=ds=#e9#"};
+		{ 4, 6893, "", "=q1=Workshop Key", "=ds=#e9#"};
+		{ 5, 11000, "", "=q1=Shadowforge Key", "=ds=#e9#"};
+		{ 6, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#"};
+		{ 7, 18249, "", "=q1=Crescent Key", "=ds=#e9#"};
+		{ 8, 13704, "", "=q1=Skeleton Key", "=ds=#e9#"};
+		{ 10, 0, "INV_Box_01", "=q6=#j7#", ""};
+		{ 11, 22057, "", "=q1=Brazier of Invocation", "=ds=#m27#"};
+		{ 12, 21986, "", "=q1=Banner of Provocation", "=ds=#m27#"};
 		{ 16, 0, "INV_Box_01", "=q6=#m20#", ""};
 		{ 17, 19931, "", "=q3=Gurubashi Mojo Madness", "=ds=#m27#"};
 		{ 18, 13523, "", "=q1=Blood of Innocents", "=ds=#m27#"};
@@ -656,8 +655,8 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 3, 22397, "", "=q3=Idol of Ferocity", "=ds=#s16#, #w14#", "", "19.58%"};
 		{ 4, 11631, "", "=q3=Stoneshell Guard", "=ds=#w8#", "", "22.06%"};
 		{ 5, 11630, "", "=q3=Rockshard Pellets", "=ds=#w18#", "", "16.82%"};
-		{ 7, 11813, "", "=q2=Formula: Smoking Heart of the Mountain", "=ds=#p4# (265)", "", "14.79%"};
-		{ 8, 11811, "", "=q3=Smoking Heart of the Mountain", "=ds=#s14#"};
+		{ 15, 11813, "", "=q2=Formula: Smoking Heart of the Mountain", "=ds=#p4# (265)", "", "14.79%"};
+		{ 16, 11811, "", "=q3=Smoking Heart of the Mountain", "=ds=#s14#"};
 	};
 
 	AtlasLoot_Data["BRDHighInterrogatorGerstahn"] = {

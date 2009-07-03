@@ -121,7 +121,7 @@ AtlasLoot_Data["Emalon"] = {
 
 AtlasLoot_Data["Emalon25Man"] = {
         { 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Furious Gladiator Sets"], "" };
-        { 4, 44077, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12#" };
+        { 4, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
         { 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 8 Sets"], "=q5="..AL["25 Man"]};
-        { 19, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12#" };
+        { 19, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
     };

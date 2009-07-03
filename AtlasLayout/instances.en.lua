@@ -1133,7 +1133,7 @@ AtlasLootNewBossButtons = {
         };
         
     Maraudon = {
-        "OldKeys";
+        "";
         "";
         "";
         "";
