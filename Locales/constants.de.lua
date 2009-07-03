@@ -10,7 +10,7 @@ if AL then
     AL["Clear"] = "Löschen";
     AL["Select Loot Table"] = "Wähle Loot Rubrik";
     AL["Select Sub-Table"] = "Wähle Unter-Rubrik";
-    AL["Drop Rate: "] = "Droprate";
+    AL["Drop Rate: "] = "Droprate: ";
     --- AL["DKP"] = "DKP";
     AL["Priority:"] = "Priorität:";
     AL["Click boss name to view loot."] = "Klicke Boss um den Loot zu sehen.";
