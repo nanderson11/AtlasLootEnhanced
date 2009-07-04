@@ -5,7 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v5.05.x
+v5.06.00
+Added an ability in the options menu to filter loot pages by item type
+*Beta Feature* Each character now has access to multiple wishlists and they can be shared between players
 Revamped the Mount page
 Minor updates/fixes/translations
 
