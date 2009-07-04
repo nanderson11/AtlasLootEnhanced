@@ -1165,7 +1165,7 @@ function AtlasLoot_CreateWishlistOptions()
 		end)
 		
 	local WishListMarkOwn = CreateFrame("CheckButton", "AtlasLootOptionsWishListMarkOwn", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
-		WishListMarkOwn:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 15, -35)
+		WishListMarkOwn:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 5, -35)
 		WishListMarkOwn:SetWidth(25)
 		WishListMarkOwn:SetHeight(25)
 		WishListMarkOwn:SetScript("OnShow", function()
@@ -1187,7 +1187,7 @@ function AtlasLoot_CreateWishlistOptions()
 		end)
 		
 	local WishListMarkAll = CreateFrame("CheckButton", "AtlasLootOptionsWishListMarkAll", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
-		WishListMarkAll:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 15, -55)
+		WishListMarkAll:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 5, -55)
 		WishListMarkAll:SetWidth(25)
 		WishListMarkAll:SetHeight(25)
 		WishListMarkAll:SetScript("OnShow", function()
@@ -1209,11 +1209,11 @@ function AtlasLoot_CreateWishlistOptions()
 		end)
 		
 	local WishListShare = CreateFrame("CheckButton", "AtlasLootOptionsWishListShare", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
-		WishListShare:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+15, -15)
+		WishListShare:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+13, -15)
 		WishListShare:SetWidth(25)
 		WishListShare:SetHeight(25)
 		WishListShare:SetScript("OnShow", function()
-			getglobal(this:GetName().."Text"):SetText(AL["Allow Wishlist share"]);
+			getglobal(this:GetName().."Text"):SetText(AL["Enable Wishlist Sharing"]);
 			if AtlasLootWishList["Options"][playerName]["AllowShareWishlist"] then
 				this:SetChecked(1);
 			else
@@ -1231,7 +1231,7 @@ function AtlasLoot_CreateWishlistOptions()
 		end)
 		
 	local WishListShareInCombat = CreateFrame("CheckButton", "AtlasLootOptionsWishListShareInCombat", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
-		WishListShareInCombat:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+25, -35)
+		WishListShareInCombat:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+13, -35)
 		WishListShareInCombat:SetWidth(25)
 		WishListShareInCombat:SetHeight(25)
 		WishListShareInCombat:SetScript("OnShow", function()
@@ -1251,7 +1251,7 @@ function AtlasLoot_CreateWishlistOptions()
 		end)
 		
 	local WishListAutoAdd = CreateFrame("CheckButton", "AtlasLootOptionsWishListAutoAdd", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
-		WishListAutoAdd:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+15, -55)
+		WishListAutoAdd:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+13, -55)
 		WishListAutoAdd:SetWidth(25)
 		WishListAutoAdd:SetHeight(25)
 		WishListAutoAdd:SetScript("OnShow", function()
@@ -1461,7 +1461,7 @@ function ALModule:OnCommReceived(prefix, message, distribution, sender)
 			if AtlasLootWishList["Options"][playerName]["AllowShareWishlistInCombat"] == true then
 				if UnitAffectingCombat("player") then
 					ALModule:SendCommMessage(ShareWishlistPref, "CancelWishlist", "WHISPER", sender)
-					DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..WHITE..sender..RED..AL[" try too send you a Wishlist. Rejected because you are in combat."]);
+					DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..WHITE..sender..RED..AL[" tried to send you a Wishlist. Rejected because you are in combat."]);
 				else
 					local dialog = StaticPopup_Show("ATLASLOOT_GET_WISHLIST", sender); 
 					if ( dialog ) then 
@@ -1506,7 +1506,7 @@ StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
 	OnAccept = function()
 		local name = getglobal(this:GetParent():GetName().."EditBox"):GetText()
 		if string.lower(name) == string.lower(playerName) then
-			DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You can't send Wishlists too your self."]);
+			DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You can't send Wishlists to yourself."]);
 			curtabname = ""
 			curplayername = ""
 		elseif name == "" then
@@ -1518,7 +1518,7 @@ StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
 				curplayername = ""
 			else
 				local _,_,timeleft = string.find( 10-(GetTime() - SpamFilter[string.lower(name)]), "(%d+)%.")
-				DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You must wait "]..WHITE..timeleft..RED..AL[" seconds before you can send a new Wishlist too "]..WHITE..name..RED..".");
+				DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["You must wait "]..WHITE..timeleft..RED..AL[" seconds before you can send a new Wishlist to "]..WHITE..name..RED..".");
 			end
 		end
 	end,

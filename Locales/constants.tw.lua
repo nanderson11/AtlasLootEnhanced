@@ -1264,6 +1264,8 @@ if AL then
 	AL["HELP!! I have broken the mod somehow!"] = "求助，我有個壞掉的模組無法正常運作！";
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "請嘗試用重設按鈕，或是輸入 '/al reset' 來重設所有設定。";
 	-- Filter
+    --AL["Apply"] = true;
 	AL["Filter"] = "過濾";
+    --AL["Select All Loot"] = true;
 	AL["Load Class Filter"] = "套用職業專屬過濾";
 end

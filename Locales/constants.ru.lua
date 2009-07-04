@@ -213,7 +213,9 @@ if AL then
     AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccПКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
 
 	-- Filter
+    --AL["Apply"] = true;
 	AL["Filter"] = "Фильтр";
+    --AL["Select All Loot"] = true;
 	AL["Load Class Filter"] = "Загруз. класс. фильтр";
 	AL["Armor:"] = "Доспехи";
 	AL["Meele weapons:"] = "Оружие ближнего боя";
@@ -230,7 +232,7 @@ if AL then
 	AL["Mark items in loot tables"] = "Отметь предметы в таблице добычи";
 	AL["Mark items from own Wishlist"] = "Отметь предметы из вашего списка";
 	AL["Mark items from all Wishlists"] = "Отметь предметы из всех списков";
-	AL["Allow Wishlist share"] = "Позволяет делиться списками";
+	AL["Enable Wishlist Sharing"] = "Позволяет делиться списками";
 	AL["Auto reject in combat"] = "Авто отклонения в бою";
 	AL["Always use default Wishlist"] = "Всегда использовать список нужного по умолчанию";
 	AL["Add Wishlist"] = "Добавить список нужного";
@@ -244,14 +246,14 @@ if AL then
 	AL["Show own Wishlists"] = "Показать ваши списки";
 	AL["Show shared Wishlists"] = "Показ делимых списков";
 	AL["You must wait "] = "Вы должны обождать";
-	AL[" seconds before you can send a new Wishlist too "] = " секунд до возможности выслать новый список ";
+	AL[" seconds before you can send a new Wishlist to "] = " секунд до возможности выслать новый список ";
 	AL["Send Wishlist (%s) to"] = "Выслать список (%s) too";
 	AL["Send"] = "Выслать";
 	AL["Cancel"] = "Отмена";
 	AL["Delet"] = "Удалить";
 	AL["Delete Wishlist %s?"] = "Удалить список нужного %s?";
 	AL["%s sends you a Wishlist. Accept?"] = "%s шлет вам список. Принять?";
-	AL[" try too send you a Wishlist. Rejected because you are in combat."] = " пытается выслать вам список. Попытка отклонена, так как вы в бою.";
+	AL[" tried to send you a Wishlist. Rejected because you are in combat."] = " пытается выслать вам список. Попытка отклонена, так как вы в бою.";
 	AL[" rejects your Wishlist."] = " отклонил ваш список.";
 	AL["You can't send Wishlists too your self."] = "Вы не можете выслать список самому сибе.";
 	AL["Please set a default Wishlist."] = "Установите список по умолчанию.";

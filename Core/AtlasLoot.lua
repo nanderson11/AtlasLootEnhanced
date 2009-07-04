@@ -334,6 +334,9 @@ function AtlasLoot_OnVariablesLoaded()
     panel = getglobal("AtlasLootOptionsFrame");
     panel.name=AL["AtlasLoot"];
     InterfaceOptions_AddCategory(panel);
+    --Filter and wishlist options menus creates as part of the next 2 commands
+    AtlasLoot_CreateFilterOptions();
+	AtlasLoot_CreateWishlistOptions();
     panel = getglobal("AtlasLootHelpFrame");
     panel.name=AL["Help"];
     panel.parent=AL["AtlasLoot"];
@@ -342,8 +345,6 @@ function AtlasLoot_OnVariablesLoaded()
         LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
     end    
     AtlasLoot_UpdateLootBrowserScale();
-	AtlasLoot_CreateFilterOptions();
-	AtlasLoot_CreateWishlistOptions();
 
 end
 

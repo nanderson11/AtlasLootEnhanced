@@ -1029,9 +1029,11 @@ if AL then
     AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
 	
 	-- Filter
-	AL["Load Class Filter"] = "Lade Klassen Filter";
+	--AL["Apply"] = true;
+	--AL["Filter"] = true;
+    --AL["Select All Loot"] = true;
 	AL["Armor:"] = "Rüstung:";
-	AL["Meele weapons:"] = "Nahkampfwaffen:";
+	AL["Melee weapons:"] = "Nahkampfwaffen:";
 	AL["Ranged weapons:"] = "Distanzwaffen:";
 	AL["Relics:"] = "Relikte:";
 	AL["Other:"] = "Sonstiges:";

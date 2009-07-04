@@ -437,7 +437,7 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>
-						AtlasLoot_ShowWishList();
+						AtlasLoot_ShowWishListDropDown("","","","","",this,true)
 					</OnClick>
 					<OnShow>
 						local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");

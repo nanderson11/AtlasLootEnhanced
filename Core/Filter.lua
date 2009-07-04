@@ -21,7 +21,7 @@ AtlasLootFilterDB = {};
 
 local FilterTableNames = {
 	["Armor"] = AL["Armor:"],
-	["WeaponsMeele"] = AL["Meele weapons:"],
+	["WeaponsMeele"] = AL["Melee weapons:"],
 	["WeaponsRanged"] = AL["Ranged weapons:"],
 	["Relics"] = AL["Relics:"],
 	["Other"] = AL["Other:"],
@@ -299,14 +299,32 @@ function AtlasLoot_CreateFilterOptions()
 			end
 		end)
 		
+    local FilterDisableButton = CreateFrame("BUTTON", nil, scc, "UIPanelButtonTemplate")
+        FilterDisableButton:SetHeight(20)
+		FilterDisableButton:SetWidth(150)  
+		FilterDisableButton:SetPoint("TOPLEFT", scc, "TOPLEFT",0,-5)
+		FilterDisableButton:SetText(AL["Select All Loot"])
+		FilterDisableButton:SetWidth(FilterDisableButton:GetTextWidth()+20)
+        FilterDisableButton:SetScript("OnClick", function()
+            for k,v in pairs(FilterTable) do
+				if type(v) == "table" then
+					for i,j in pairs(FilterTable[k]) do
+						AtlasLootFilterDB[k][j] = true
+					end
+				end
+			end					
+			scc:Hide()
+			scc:Show()
+		end)
+    
+    local locClass,playerClass = UnitClass("player");
 	local ClassFilterLoadButton = CreateFrame("BUTTON", nil, scc, "UIPanelButtonTemplate")
 		ClassFilterLoadButton:SetHeight(20)
 		ClassFilterLoadButton:SetWidth(150)  
-		ClassFilterLoadButton:SetPoint("TOPLEFT", scc, "TOPLEFT",0,-5)
-		ClassFilterLoadButton:SetText(AL["Load Class Filter"])
+		ClassFilterLoadButton:SetPoint("TOPRIGHT", scc, "TOPRIGHT",0,-5)
+		ClassFilterLoadButton:SetText(AL["Apply"].." "..locClass.." "..AL["Filter"])
 		ClassFilterLoadButton:SetWidth(ClassFilterLoadButton:GetTextWidth()+20)
 		ClassFilterLoadButton:SetScript("OnClick", function()
-			local _,playerClass = UnitClass("player")
 			for k,v in pairs(FilterTable) do
 				if type(v) == "table" then
 					for i,j in pairs(FilterTable[k]) do
@@ -321,6 +339,8 @@ function AtlasLoot_CreateFilterOptions()
 			scc:Hide()
 			scc:Show()
 		end)
+        
+    
 	
 	CreateCat(scc, "Armor")
 	CreateCat(scc, "WeaponsMeele")

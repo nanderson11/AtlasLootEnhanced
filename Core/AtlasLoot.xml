@@ -1394,8 +1394,8 @@
                 </Anchors>
                 <Scripts>
 					<OnClick>
-                        AtlasLoot_QuickLooks:Hide();
-                        AtlasLootQuickLooksButton:Hide();
+                        <!--AtlasLoot_QuickLooks:Hide();
+                        AtlasLootQuickLooksButton:Hide();-->
 						AtlasLoot_ShowWishListDropDown("","","","","",this,true)
 					</OnClick>
                     <OnShow>
