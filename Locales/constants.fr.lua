@@ -275,7 +275,7 @@ if AL then
 	--Extra inventory stuff
 	AL["Cloak"] = "Cape";
 	AL["Weapons"] = "Armes";
-	--AL["Sigil"] = true; -- Can be added to BabbleInv
+	AL["Sigil"] = "Cachet"; -- Can be added to BabbleInv
 
 	--Alchemy
 	AL["Battle Elixirs"] = "Elixirs de bataille";
