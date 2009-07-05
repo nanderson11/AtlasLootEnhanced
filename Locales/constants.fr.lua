@@ -212,9 +212,9 @@ if AL then
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccClic-Droit + Maintenir|r Déplace le bouton sur la mini-carte";
 
 	-- Filter
-    --AL["Apply"] = true;
+	AL["Apply"] = "Appliquer";
 	AL["Filter"] = "Filtre";
-    --AL["Select All Loot"] = true;
+	AL["Select All Loot"] = "Sélectionner tous les loots";
 	AL["Load Class Filter"] = "Charger le filtre de classe";
 	AL["Armor:"] = "Armure :";
 	AL["Meele weapons:"] = "Armes de mêlée :";
@@ -227,12 +227,12 @@ if AL then
 	--AL["Wishlist"] = true;
 	--AL["Own Wishlists"] = true;
 	--AL["Other Wishlists"] = true;
-	--AL["Shared Wishlists"] = true;
+	AL["Shared Wishlists"] = "Partager les Wishlists";
 	--AL["Mark items in loot tables"] = true;
 	--AL["Mark items from own Wishlist"] = true;
 	--AL["Mark items from all Wishlists"] = true;
-	--AL["Enable Wishlist Sharing"] = true;
-	--AL["Auto reject in combat"] = true;
+	AL["Enable Wishlist Sharing"] = "Activer le partage de la Wishlist";
+	AL["Auto reject in combat"] = "Refuser automatiquement en combat";
 	AL["Always use default Wishlist"] = "Toujours utiliser cette wishlist par défaut.";
 	AL["Add Wishlist"] = "Ajouter une wishlist";
 	AL["Edit Wishlist"] = "Modifier une wishlist"
@@ -254,9 +254,9 @@ if AL then
 	--AL["%s sends you a Wishlist. Accept?"] = true;
 	--AL[" tried to send you a Wishlist. Rejected because you are in combat."] = true;
 	--AL[" rejects your Wishlist."] = true;
-	--AL["You can't send Wishlists too your self."] = true;
+	--AL["You can't send Wishlists to yourself"] = true;
 	AL["Please set a default Wishlist."] = "Veuillez définir une wishlist par défaut."
-	--AL["Set as default Wishlist"] = true;
+	AL["Set as default Wishlist"] = "Définir en tant que Wishlist par défaut";
 
 	--Misc Inventory related words
 	AL["Enchant"] = "Enchantement";
