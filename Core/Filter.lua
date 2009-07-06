@@ -268,8 +268,8 @@ end
 function AtlasLoot_CreateFilterOptions()
 	if OptionsLoadet then return end
 	local FilterOptionsFrame = CreateFrame("FRAME", nil)
-		FilterOptionsFrame.name = "Filter"
-		FilterOptionsFrame.parent = "AtlasLoot"
+		FilterOptionsFrame.name = AL["Filter"];
+		FilterOptionsFrame.parent = AL["AtlasLoot"];
 		
 	local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
 	local panel3 = CreateFrame("ScrollFrame", "AtlasLootFilterOptionsScrollFrame", FilterOptionsFrame, "UIPanelScrollFrameTemplate")

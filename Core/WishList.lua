@@ -1136,7 +1136,7 @@ function AtlasLoot_CreateWishlistOptions()
 
 	local WishlistOptionsFrame = CreateFrame("FRAME", nil)
 		WishlistOptionsFrame.name = AL["Wishlist"]
-		WishlistOptionsFrame.parent = "AtlasLoot"
+		WishlistOptionsFrame.parent = AL["AtlasLoot"]
 		
 	local WishListMark = CreateFrame("CheckButton", "AtlasLootOptionsWishListMark", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListMark:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 5, -15)

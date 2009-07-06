@@ -284,6 +284,7 @@
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
                         this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
                         this:SetText(AL["Toggle AL Panel"]);
+                        this:SetWidth(this:GetTextWidth()+20);
                         getglobal("AtlasLootInfo_Text2"):SetText(AL["Click boss name to view loot."]);
                     </OnShow>
                     <OnClick>
@@ -1094,27 +1095,6 @@
 					</OnValueChanged>
 				</Scripts>
 			</Slider>
-            <Button name="$parent_ResetAtlasLoot" inherits="AtlasLootPanelButtonTemplate">
-                <Size>
-			        <AbsDimension x="130" y="25"/>
-		        </Size>
-                <Anchors>
-                    <Anchor point="TOP">
-                        <Offset>
-                            <AbsDimension x="-130" y="-325"/>
-                        </Offset>
-                    </Anchor>
-                </Anchors>
-                <Scripts>
-					<OnClick>
-                        AtlasLoot_Reset("frames");
-					</OnClick>
-                    <OnShow>
-                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-                        this:SetText(AL["Reset Frames"]);
-			        </OnShow>
-				</Scripts>
-            </Button>
             <Button name="$parent_ResetWishlist" inherits="AtlasLootPanelButtonTemplate">
                 <Size>
 			        <AbsDimension x="130" y="25"/>
@@ -1133,6 +1113,29 @@
                     <OnShow>
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
                         this:SetText(AL["Reset Wishlist"]);
+                        this:SetWidth(AtlasLootOptionsFrame_ResetWishlist:GetTextWidth()+20);
+			        </OnShow>
+				</Scripts>
+            </Button>
+            <Button name="$parent_ResetAtlasLoot" inherits="AtlasLootPanelButtonTemplate">
+                <Size>
+			        <AbsDimension x="130" y="25"/>
+		        </Size>
+                <Anchors>
+                    <Anchor point="RIGHT" relativeTo="AtlasLootOptionsFrame_ResetWishlist" relativePoint="LEFT">
+                        <Offset>
+                            <AbsDimension x="-10" y="0"/>
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+					<OnClick>
+                        AtlasLoot_Reset("frames");
+					</OnClick>
+                    <OnShow>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        this:SetText(AL["Reset Frames"]);
+                        this:SetWidth(AtlasLootOptionsFrame_ResetAtlasLoot:GetTextWidth()+20);
 			        </OnShow>
 				</Scripts>
             </Button>
@@ -1141,9 +1144,9 @@
 			        <AbsDimension x="130" y="25"/>
 		        </Size>
                 <Anchors>
-                    <Anchor point="TOP">
+                    <Anchor point="LEFT" relativeTo="AtlasLootOptionsFrame_ResetWishlist" relativePoint="RIGHT">
                         <Offset>
-                            <AbsDimension x="130" y="-325"/>
+                            <AbsDimension x="10" y="0"/>
                         </Offset>
                     </Anchor>
                 </Anchors>
@@ -1154,6 +1157,7 @@
                     <OnShow>
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
                         this:SetText(AL["Reset Quicklooks"]);
+                        this:SetWidth(AtlasLootOptionsFrame_ResetQuicklooks:GetTextWidth()+20);
 			        </OnShow>
 				</Scripts>
             </Button>
