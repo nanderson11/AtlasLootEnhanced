@@ -1032,7 +1032,7 @@ function AtlasLoot_NavButton_OnClick()
 		elseif strsub(this.lootpage, 1, 12) == "WishListPage" then
 			AtlasLoot_ShowItemsFrame("WishList", this.lootpage, AL["Wishlist"], AtlasLootItemsFrame.refresh[4]);
 		else
-			AtlasLoot_ShowItemsFrame(this.lootpage, "", "", AtlasLootItemsFrame.refresh[4]);
+			AtlasLoot_ShowItemsFrame(this.lootpage, AtlasLootItemsFrame.refresh[2], "", AtlasLootItemsFrame.refresh[4]);
 		end
     else
 		--Fallback for if the requested loot page is a menu and does not have a .refresh instance
@@ -1056,7 +1056,7 @@ function AtlasLoot_HeroicModeToggle()
 		Lootpage=Heroic;
 		AtlasLoot.db.profile.HeroicMode = true;
 	end
-	AtlasLoot_ShowItemsFrame(Lootpage, "", "", AtlasLootItemsFrame.refresh[4]);
+	AtlasLoot_ShowItemsFrame(Lootpage, AtlasLootItemsFrame.refresh[2], "", AtlasLootItemsFrame.refresh[4]);
 end
 
 --[[
@@ -1071,11 +1071,11 @@ function AtlasLoot_10Man25ManToggle()
         AtlasLoot.db.profile.Bigraid = true
     end
     if AtlasLootItemsFrame.refresh then
-	    AtlasLoot_ShowItemsFrame(Lootpage, "", "", AtlasLootItemsFrame.refresh[4]);
+	    AtlasLoot_ShowItemsFrame(Lootpage, AtlasLootItemsFrame.refresh[2], "", AtlasLootItemsFrame.refresh[4]);
     elseif AtlasLootDefaultFrame:IsVisible() then
-        AtlasLoot_ShowItemsFrame(Lootpage, "", "", { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" });
+        AtlasLoot_ShowItemsFrame(Lootpage, AtlasLootItemsFrame.refresh[2], "", { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" });
     else
-        AtlasLoot_ShowItemsFrame(Lootpage, "", "", nil);
+        AtlasLoot_ShowItemsFrame(Lootpage, AtlasLootItemsFrame.refresh[2], "", nil);
     end
 end
 
