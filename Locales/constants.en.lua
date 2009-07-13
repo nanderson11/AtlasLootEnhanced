@@ -213,9 +213,9 @@ if AL then
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = true;
 	
 	-- Filter
-    AL["Apply"] = true;
+	AL["Apply"] = true;
 	AL["Filter"] = true;
-    AL["Select All Loot"] = true;
+	AL["Select All Loot"] = true;
 	AL["Load Class Filter"] = true;
 	AL["Armor:"] = true;
 	AL["Melee weapons:"] = true;
