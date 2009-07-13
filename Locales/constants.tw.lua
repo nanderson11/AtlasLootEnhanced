@@ -247,7 +247,7 @@ if AL then
 	AL["Show own Wishlists"] = "顯示自己的願望清單";
 	AL["Show shared Wishlists"] = "顯示分享的願望清單";
 	AL["You must wait "] = "你必須等候 ";
-	AL[" seconds before you can send a new Wishlist to "] = " 秒後才可以將願望清單傳送給;
+	AL[" seconds before you can send a new Wishlist to "] = " 秒後才可以將願望清單傳送給";
 	AL["Send Wishlist (%s) to"] = "傳送 '%s' 願望清單給";
 	AL["Send"] = "傳送";
 	AL["Cancel"] = "取消";
