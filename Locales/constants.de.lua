@@ -1029,7 +1029,6 @@ if AL then
     AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
 	
 	-- Filter
-	--AL["Apply"] = true;
 	--AL["Filter"] = true;
     --AL["Select All Loot"] = true;
 	AL["Armor:"] = "Rüstung:";

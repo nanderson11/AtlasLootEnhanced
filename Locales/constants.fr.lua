@@ -212,10 +212,9 @@ if AL then
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccClic-Droit + Maintenir|r Déplace le bouton sur la mini-carte";
 
 	-- Filter
-	AL["Apply"] = "Appliquer";
+	AL["Apply Filter:"]= "Appliquer Filtre:";
 	AL["Filter"] = "Filtre";
 	AL["Select All Loot"] = "Sélectionner tous les loots";
-	AL["Load Class Filter"] = "Charger le filtre de classe";
 	AL["Armor:"] = "Armure :";
 	AL["Meele weapons:"] = "Armes de mêlée :";
 	AL["Ranged weapons:"] = "Armes à distance :";

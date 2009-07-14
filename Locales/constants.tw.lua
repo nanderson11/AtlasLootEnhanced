@@ -214,10 +214,8 @@ if AL then
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffcccccc右鍵並拖曳以移動圖示位置";
 	
 	-- Filter
-	AL["Apply"] = "套用";
 	AL["Filter"] = "過濾";
 	AL["Select All Loot"] = "選擇所有掉落物品";
-	AL["Load Class Filter"] = "套用職業專屬過濾";
 	AL["Armor:"] = "護甲種類:";
 	AL["Melee weapons:"] = "進戰武器:";
 	AL["Ranged weapons:"] = "遠程武器:";

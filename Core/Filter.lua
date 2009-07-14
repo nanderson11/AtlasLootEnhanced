@@ -322,7 +322,7 @@ function AtlasLoot_CreateFilterOptions()
 		ClassFilterLoadButton:SetHeight(20)
 		ClassFilterLoadButton:SetWidth(150)  
 		ClassFilterLoadButton:SetPoint("TOPRIGHT", scc, "TOPRIGHT",0,-5)
-		ClassFilterLoadButton:SetText(AL["Apply"].." "..locClass.." "..AL["Filter"])
+		ClassFilterLoadButton:SetText(AL["Apply Filter:"].." "..locClass)
 		ClassFilterLoadButton:SetWidth(ClassFilterLoadButton:GetTextWidth()+20)
 		ClassFilterLoadButton:SetScript("OnClick", function()
 			for k,v in pairs(FilterTable) do

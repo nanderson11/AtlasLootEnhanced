@@ -213,10 +213,9 @@ if AL then
     AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccПКМ + Перетаскивание|r Перемещение кнопки у мини-карты";
 
 	-- Filter
-    AL["Apply"] = "Применить";
+    --AL["Apply Filter:"] = true;
 	AL["Filter"] = "Фильтр";
     AL["Select All Loot"] = "Выбрать всю добычу";
-	AL["Load Class Filter"] = "Загруз. класс. фильтр";
 	AL["Armor:"] = "Доспехи";
 	AL["Melee weapons:"] = "Оружие ближнего боя";
 	AL["Ranged weapons:"] = "Оружие дальнего боя:";
