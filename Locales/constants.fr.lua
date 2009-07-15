@@ -212,9 +212,9 @@ if AL then
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccClic-Droit + Maintenir|r Déplace le bouton sur la mini-carte";
 
 	-- Filter
-	AL["Apply Filter:"]= "Appliquer Filtre:";
 	AL["Filter"] = "Filtre";
 	AL["Select All Loot"] = "Sélectionner tous les loots";
+	AL["Apply Filter:"]= "Appliquer le filtre :";
 	AL["Armor:"] = "Armure :";
 	AL["Meele weapons:"] = "Armes de mêlée :";
 	AL["Ranged weapons:"] = "Armes à distance :";
@@ -363,6 +363,7 @@ if AL then
 	--AL["Tier 6"] = true;
 	--AL["Tier 7"] = true;
 	--AL["Tier 8"] = true;
+	--AL["Tier 9"] = true;
 	AL["10 Man"] = "10 Joueurs";
 	AL["25 Man"] = "25 Joueurs";
 	AL["10/25 Man"] = "10 / 25 Joueurs";
@@ -915,6 +916,8 @@ if AL then
 	AL["Deathbringer Garb"] = "Atours porte-mort";
 	AL["Siegebreaker Battlegear"] = "Tenue de combat brise-siège";
 	AL["Siegebreaker Plate"] = "Armure brise-siège en plaques";
+
+	--Tier 9 Sets
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "Intention des Hautes-terres";
