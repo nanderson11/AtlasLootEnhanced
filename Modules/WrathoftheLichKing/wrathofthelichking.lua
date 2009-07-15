@@ -2358,7 +2358,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 45257, "", "=q4=Quartz Crystal Wand", "=ds=#w12#", "", "20%"};
 		{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
 		{ 21, 45446, "", "=q4=Grasps of Reason", "=ds=#s8#, #a1#", "", "0.16%"};
-		{ 22, 45444, "", "=q4=Gloves of the Steady Hand", "=ds=#s9#, #a2#", "", "0.29%"};
+		{ 22, 45444, "", "=q4=Gloves of the Steady Hand", "=ds=#s9#, #a3#", "", "0.29%"};
 		{ 23, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#", "", "0.16%"};
 		{ 24, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#", "", "0.15%"};
 		{ 25, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#", "", "0.28%"};
@@ -4723,7 +4723,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T7T8SET";
 	};
 
-		------------------------
+--Commenting out for the pre-3.2 version update, otherwise these pages are searchable
+--[[        
+        ------------------------
 		--- Tier 9 Sets (T9) ---
 		------------------------
 		
@@ -4814,6 +4816,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
 		Back = "";
 	};
+]]
 
 		-----------------------------------
 		--- Wrath Of The Lich King Sets ---
