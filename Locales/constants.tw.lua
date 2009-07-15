@@ -43,7 +43,7 @@ if AL then
 	AL["Factions - Original WoW"] = "陣營 - 舊世界";
 	AL["Factions - Burning Crusade"] = "陣營 - 燃燒的遠征";
 	AL["Factions - Wrath of the Lich King"] = "陣營 - 巫妖王之怒";
-	AL["Choose Table ..."] = "選擇表格 ...";
+	AL["Choose Table ..."] = "選擇表格...";
 	AL["Unknown"] = "未知";
 	AL["Add to QuickLooks:"] = "新增至快速瀏覽";
 	AL["Query Server"] = "向伺服器查詢";
@@ -216,6 +216,7 @@ if AL then
 	-- Filter
 	AL["Filter"] = "過濾";
 	AL["Select All Loot"] = "選擇所有掉落物品";
+	AL["Apply Filter:"] = "套用過濾條件";
 	AL["Armor:"] = "護甲種類:";
 	AL["Melee weapons:"] = "進戰武器:";
 	AL["Ranged weapons:"] = "遠程武器:";
@@ -364,6 +365,7 @@ if AL then
 	AL["Tier 6"] = "T6";
 	AL["Tier 7"] = "T7";
 	AL["Tier 8"] = "T8";
+	AL["Tier 9"] = "T9";
 	AL["10 Man"] = "10 人";
 	AL["25 Man"] = "25 人";
 	AL["10/25 Man"] = "10/25 人";
@@ -453,7 +455,7 @@ if AL then
 
 	--Pets
 	AL["Pets"] = "寵物";
-	AL["Promotional"] = "可升級的";
+	AL["Promotional"] = "促銷";
 	AL["Merchant Sold"] = "商人販售";
 	AL["Rare"] = "稀有";
 	AL["Achievement"] = "成就";
@@ -474,7 +476,7 @@ if AL then
 	AL["Alliance PvP Mounts"] = "聯盟 PvP 坐騎";
 	AL["Horde PvP Mounts"] = "部落 PvP 坐騎";
 	AL["Halaa PvP Mounts"] = "哈剌 PvP 坐騎";
-	AL["Promotional Mounts"] = true;
+	AL["Promotional Mounts"] = "特定商業促銷坐騎";
 	AL["Rare Mounts"] = "稀有坐騎";
 
 	--Darkmoon Faire
