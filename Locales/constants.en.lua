@@ -364,6 +364,7 @@ if AL then
 	AL["Tier 6"] = true;
 	AL["Tier 7"] = true;
 	AL["Tier 8"] = true;
+	AL["Tier 9"] = true;
 	AL["10 Man"] = true;
 	AL["25 Man"] = true;
 	AL["10/25 Man"] = true;
@@ -916,6 +917,12 @@ if AL then
 	AL["Deathbringer Garb"] = true;
 	AL["Siegebreaker Battlegear"] = true;
 	AL["Siegebreaker Plate"] = true;
+
+	--Tier 9 Sets
+	AL["Thassarian's Battlegear"] = true;
+	AL["Koltira's Battlegear"] = true;
+	AL["Thassarian's Plate"] = true;
+	AL["Koltira's Plate"] = true;
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = true;

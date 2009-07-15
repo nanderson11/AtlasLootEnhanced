@@ -51,6 +51,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
 ---- Naxx Sets (T7)/Ulduar Sets (T8)
+---- Tier 9 (T9)
 ---- Wrath Of The Lich King Sets
 ---- Blizzard Collectables
 ---- Legendaries
@@ -3620,7 +3621,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 12, 40801, "", "=q4=Hateful Gladiator's Plate Gauntlets", "=ds=", "31600 #faction# / 7200 #faction# 200 #arena# / 30 #eofvalor#"};
 		{ 13, 40840, "", "=q4=Hateful Gladiator's Plate Legguards", "=ds=", "49600 #faction# / 12000 #faction# 350 #arena# / 45 #eofvalor#"};
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
-		{ 17, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1350 / 58 #eofconquest#"};
+		{ 17, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1450 / 58 #eofconquest#"};
 		{ 18, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "9600 #faction# 550 #arena# #reqrating# 1500 / 46 #eofconquest#"};
 		{ 19, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=", "12000 #faction# 700 #arena# #reqrating# 1400 / 58 #eofconquest#"};
 		{ 20, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=", "7200 #faction# 400 #arena# #reqrating# 1300 / 46 #eofconquest#"};
@@ -4722,6 +4723,98 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T7T8SET";
 	};
 
+		------------------------
+		--- Tier 9 Sets (T9) ---
+		------------------------
+		
+	AtlasLoot_Data["T9DeathKnightDPS_A"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds="};
+		{ 3, 48478, "", "=q4=Thassarian's Shoulderplates of Conquest", "=ds="};
+		{ 4, 48474, "", "=q4=Thassarian's Battleplate of Conquest", "=ds="};
+		{ 5, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds="};
+		{ 6, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds="};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
+		{ 9, 48483, "", "=q4=Thassarian's Helmet of Triumph", "=ds="};
+		{ 10, 48485, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
+		{ 11, 48481, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
+		{ 12, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds="};
+		{ 13, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds="};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48488, "", "=q4=Thassarian's Helmet of Triumph", "=ds="};
+		{ 18, 48486, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
+		{ 19, 48490, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
+		{ 20, 48489, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds="};
+		{ 21, 48487, "", "=q4=Thassarian's Legplates of Triumph", "=ds="};
+		Back = "";
+	};
+
+	AtlasLoot_Data["T9DeathKnightDPS_H"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48503, "", "=q4=Koltira's Helmet of Conquest", "=ds="};
+		{ 3, 48505, "", "=q4=Koltira's Shoulderplates of Conquest", "=ds="};
+		{ 4, 48501, "", "=q4=Koltira's Battleplate of Conquest", "=ds="};
+		{ 5, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds="};
+		{ 6, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds="};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
+		{ 9, 48498, "", "=q4=Koltira's Helmet of Triumph", "=ds="};
+		{ 10, 48496, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds="};
+		{ 11, 48500, "", "=q4=Koltira's Battleplate of Triumph", "=ds="};
+		{ 12, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds="};
+		{ 13, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds="};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48493, "", "=q4=Koltira's Helmet of Triumph", "=ds="};
+		{ 18, 48495, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds="};
+		{ 19, 48491, "", "=q4=Koltira's Battleplate of Triumph", "=ds="};
+		{ 20, 48492, "", "=q4=Koltira's Gauntlets of Triumph", "=ds="};
+		{ 21, 48494, "", "=q4=Koltira's Legplates of Triumph", "=ds="};
+		Back = "";
+	};
+
+	AtlasLoot_Data["T9DeathKnightTank_A"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48529, "", "=q4=Thassarian's Faceguard of Conquest", "=ds="};
+		{ 3, 48535, "", "=q4=Thassarian's Pauldrons of Conquest", "=ds="};
+		{ 4, 48531, "", "=q4=Thassarian's Chestguard of Conquest", "=ds="};
+		{ 5, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds="};
+		{ 6, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds="};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
+		{ 9, 48540, "", "=q4=Thassarian's Faceguard of Triumph", "=ds="};
+		{ 10, 48542, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds="};
+		{ 11, 48538, "", "=q4=Thassarian's Chestguard of Triumph", "=ds="};
+		{ 12, 48539, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
+		{ 13, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48545, "", "=q4=Thassarian's Faceguard of Triumph", "=ds="};
+		{ 18, 48543, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
+		{ 19, 48547, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
+		{ 20, 48546, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
+		{ 21, 48544, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
+		Back = "";
+	};
+
+	AtlasLoot_Data["T9DeathKnightTank_H"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48560, "", "=q4=Koltira's Faceguard of Conquest", "=ds="};
+		{ 3, 48562, "", "=q4=Koltira's Pauldrons of Conquest", "=ds="};
+		{ 4, 48558, "", "=q4=Koltira's Chestguard of Conquest", "=ds="};
+		{ 5, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds="};
+		{ 6, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds="};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
+		{ 9, 48555, "", "=q4=Koltira's Faceguard of Triumph", "=ds="};
+		{ 10, 48553, "", "=q4=Koltira's Pauldrons of Triumph", "=ds="};
+		{ 11, 48557, "", "=q4=Koltira's Chestguard of Triumph", "=ds="};
+		{ 12, 48556, "", "=q4=Koltira's Handguards of Triumph", "=ds="};
+		{ 13, 48554, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48550, "", "=q4=Koltira's Faceguard of Triumph", "=ds="};
+		{ 18, 48552, "", "=q4=Koltira's Pauldrons of Triumph", "=ds="};
+		{ 19, 48548, "", "=q4=Koltira's Chestguard of Triumph", "=ds="};
+		{ 20, 48549, "", "=q4=Koltira's Handguards of Triumph", "=ds="};
+		{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
+		Back = "";
+	};
+
 		-----------------------------------
 		--- Wrath Of The Lich King Sets ---
 		-----------------------------------
@@ -4853,9 +4946,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["CardGame1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud35#"};
-		{ 2, 0, "", "=q4=Magic Rooster Egg", "=ds="};
-		{ 3, 0, "", "=q3=Ogre Pinata", "=ds="};
-		{ 4, 0, "", "=q1=Path of Cenarius", "=ds="};
+		{ 2, 46778, "", "=q4=Magic Rooster Egg", "=ds="};
+		{ 3, 46780, "", "=q3=Ogre Pinata", "=ds="};
+		{ 4, 46779, "", "=q1=Path of Cenarius", "=ds="};
 		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud31#"};
 		{ 7, 45037, "", "=q4=Epic Purple Shirt", "=ds=#ud32#"};
 		{ 8, 45063, "", "=q3=Foam Sword Rack", "=ds=#ud33#"};

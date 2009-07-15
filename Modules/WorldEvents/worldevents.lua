@@ -288,10 +288,13 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 		{ 3, 23015, "", "=q1=Rat Cage", "=ds=#e13#"};
 		{ 4, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
 		{ 5, 23022, "", "=q1=Curmudgeon's Payoff", "=ds="};
-		{ 16, 0, "INV_Box_01", "=q6=#z25#", ""};
-		{ 17, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
-		{ 18, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
-		{ 19, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
+		{ 7, 0, "INV_Box_01", "=q6=#z25#", ""};
+		{ 8, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
+		{ 9, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
+		{ 10, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
+		{ 16, 0, "INV_Box_01", "=q6=#z40#", ""};
+		{ 17, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
+		{ 18, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
 		Back = "WORLDEVENTMENU";
 	};
 

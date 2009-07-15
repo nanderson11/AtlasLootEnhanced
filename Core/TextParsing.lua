@@ -530,6 +530,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#z37#", BabbleZone["The Storm Peaks"]);
     text = gsub(text, "#z38#", BabbleZone["The Obsidian Sanctum"]);
     text = gsub(text, "#z39#", BabbleZone["The Eye of Eternity"]);
+    text = gsub(text, "#z40#", BabbleZone["Northrend"]);
 
     -- Factions
     text = gsub(text, "#f1#", BabbleFaction["Lower City"]);
@@ -783,7 +784,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t6s9_1#", AL["Onslaught Armor"]);
     text = gsub(text, "#t6s9_2#", AL["Onslaught Battlegear"]);
 
-    -- Tier7 Set
+    -- Tier 7 Sets
     text = gsub(text, "#t7s1_1#", AL["Dreamwalker Garb"]);
     text = gsub(text, "#t7s1_2#", AL["Dreamwalker Battlegear"]);
     text = gsub(text, "#t7s1_3#", AL["Dreamwalker Regalia"]);
@@ -804,7 +805,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t7s10_1#", AL["Scourgeborne Battlegear"]);
     text = gsub(text, "#t7s10_2#", AL["Scourgeborne Plate"]);
     
-    -- Tier8 Set
+    -- Tier 8 Sets
     text = gsub(text, "#t8s1_1#", AL["Nightsong Garb"]);
     text = gsub(text, "#t8s1_2#", AL["Nightsong Battlegear"]);
     text = gsub(text, "#t8s1_3#", AL["Nightsong Regalia"]);
@@ -824,6 +825,12 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t8s9_2#", AL["Siegebreaker Plate"]);
     text = gsub(text, "#t8s10_1#", AL["Darkruned Battlegear"]);
     text = gsub(text, "#t8s10_2#", AL["Darkruned Plate"]);
+
+    -- Tier 9 Sets
+    text = gsub(text, "#t8s10_1a#", AL["Thassarian's Plate"]);
+    text = gsub(text, "#t8s10_1h#", AL["Koltira's Plate"]);
+    text = gsub(text, "#t8s10_2a#", AL["Thassarian's Battlegear"]);
+    text = gsub(text, "#t8s10_2h#", AL["Koltira's Battlegear"]);
 
     -- Arathi Basin Sets - Alliance
     text = gsub(text, "#absa1#", AL["The Highlander's Intent"]);
