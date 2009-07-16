@@ -109,6 +109,7 @@ function AtlasLoot_HideNoUsableItems()
 		local info = getglobal("AtlasLootItem_"..i.."_Extra"):GetText()
 		if getglobal("AtlasLootItem_"..i):IsShown() then
 			local xgo = true
+			local countOld = count
 			itemCount = itemCount + 1
 			countAll = countAll + count
 			count = 0
@@ -137,7 +138,7 @@ function AtlasLoot_HideNoUsableItems()
 			end
 			
 			if xgo == true then
-				if i==16 and count > 0 then
+				if i==16 and countOld > 0 then
 					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
 					countAll = 16
 				elseif i==16 and xitemExtraText and strfind(xitemExtraText, AL["Token"]) then
@@ -150,19 +151,19 @@ function AtlasLoot_HideNoUsableItems()
 					AtlasLoot_Data["FilterList"][countAll] = { countAll, xitemID, xitemTexture, xitemNameText, xitemExtraText}					
 				end
 				
-				if tablebase[itemCount][6] and i==16 then
+				if tablebase[itemCount][6] and countAll==16 then
 					AtlasLoot_Data["FilterList"][16][6] = tablebase[itemCount][6]
-				elseif tablebase[itemCount][6] and i~=16 then
+				elseif tablebase[itemCount][6] and countAll~=16 then
 					AtlasLoot_Data["FilterList"][countAll][6] = tablebase[itemCount][6]
 				end
-				if tablebase[itemCount][7] and i==16 then
+				if tablebase[itemCount][7] and countAll==16 then
 					AtlasLoot_Data["FilterList"][16][7] = tablebase[itemCount][7]
-				elseif tablebase[itemCount][7] and i~=16 then
+				elseif tablebase[itemCount][7] and countAll~=16 then
 					AtlasLoot_Data["FilterList"][countAll][7] = tablebase[itemCount][7]
 				end
-				if tablebase[itemCount][8] and i==16 then
+				if tablebase[itemCount][8] and countAll==16 then
 					AtlasLoot_Data["FilterList"][16][8] = tablebase[itemCount][8]
-				elseif tablebase[itemCount][8] and i~=16 then
+				elseif tablebase[itemCount][8] and countAll~=16 then
 					AtlasLoot_Data["FilterList"][countAll][8] = tablebase[itemCount][8]
 				end
 
