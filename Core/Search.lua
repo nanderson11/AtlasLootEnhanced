@@ -168,7 +168,7 @@ end
 function AtlasLoot:GetOriginalDataFromSearchResult(itemID)
 	for i, v in ipairs(AtlasLootCharDB["SearchResult"]) do
 		if v[2] == itemID then 
-            AtlasLoot_AddToWishlist(v[2], v[3], v[4], v[5], v[8]);        
+            AtlasLoot_ShowWishListDropDown(v[2], v[3], v[4], v[5], v[8], this);        
         end
 	end
 end
