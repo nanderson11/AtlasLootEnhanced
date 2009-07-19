@@ -249,7 +249,6 @@ if AL then
 	AL["Send Wishlist (%s) to"] = "Выслать список (%s) too";
 	AL["Send"] = "Выслать";
 	AL["Cancel"] = "Отмена";
-	AL["Delet"] = "Удалить";
 	AL["Delete Wishlist %s?"] = "Удалить список нужного %s?";
 	AL["%s sends you a Wishlist. Accept?"] = "%s шлет вам список. Принять?";
 	AL[" tried to send you a Wishlist. Rejected because you are in combat."] = " пытается выслать вам список. Попытка отклонена, так как вы в бою.";

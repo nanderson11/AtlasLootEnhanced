@@ -250,7 +250,6 @@ if AL then
 	AL["Send Wishlist (%s) to"] = "傳送 '%s' 願望清單給";
 	AL["Send"] = "傳送";
 	AL["Cancel"] = "取消";
-	AL["Delet"] = "刪除";
 	AL["Delete Wishlist %s?"] = "是否刪除 '%s' 願望清單?";
 	AL["%s sends you a Wishlist. Accept?"] = "%s傳送了一個願望清單給你，是否接受?";
 	AL[" tried to send you a Wishlist. Rejected because you are in combat."] = "嘗試傳送一個願望清單給你，因你正在戰鬥中而系統自動拒絕了。";

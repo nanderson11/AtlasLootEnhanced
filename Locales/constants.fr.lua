@@ -248,7 +248,6 @@ if AL then
 	AL["Send Wishlist (%s) to"] = "Envoyer la Wishlist (%s) à";
 	AL["Send"] = "Envoyer";
 	AL["Cancel"] = "Annuler";
-	AL["Delet"] = "Supprimer";
 	AL["Delete Wishlist %s?"] = "Supprimer la Wishlist %s ?";
 	--AL["%s sends you a Wishlist. Accept?"] = true;
 	--AL[" tried to send you a Wishlist. Rejected because you are in combat."] = true;
