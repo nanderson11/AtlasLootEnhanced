@@ -8,6 +8,7 @@ Patch Notes
 v5.06.02
 Fixed sorting bug with the loot filter
 Fixed adding items to wishlist from search results
+Minor updates/fixes/translations
 
 v5.06.01
 Attempt to get around addon packager issues
@@ -18,7 +19,7 @@ Loot Filter Documentation: http://www.daviesh.net/atlasloot_enhanced/wiki/index.
 New Feature: *Beta* Each character now has access to multiple wishlists and they can be shared between players
 WishList Documentation: http://www.daviesh.net/atlasloot_enhanced/wiki/index.php?n=AtlasLoot.WishLists
 Revamped the Mount page
-Drop rates added for: Tempest Keep - The Eye, Serpentshrine Cavern, Zul'Aman Caverns of Time - Battle for Mount Hyjal, Black Temple, Magisters' Terrace, Sunwell Plateau, Ahn'kahet: The Old Kingdom, Drak'Tharon Keep, The Violet Hold, Gundrak, Halls of Stone, Halls of Lightning, Caverns of Time: Old Stratholme, Utgarde Pinnacle, The Oculus, Naxxramas, Obsidian Sanctum, The Eye of Eternity, Ulduar
+Drop rates added for: Tempest Keep - The Eye, Serpentshrine Cavern, Zul'Aman, Caverns of Time - Battle for Mount Hyjal, Black Temple, Magisters' Terrace, Sunwell Plateau, Ahn'kahet: The Old Kingdom, Drak'Tharon Keep, The Violet Hold, Gundrak, Halls of Stone, Halls of Lightning, Caverns of Time: Old Stratholme, Utgarde Pinnacle, The Oculus, Naxxramas, Obsidian Sanctum, The Eye of Eternity, Ulduar
 Minor updates/fixes/translations
 
 v5.05.01

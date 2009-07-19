@@ -352,12 +352,3 @@ function AtlasLoot_CreateFilterOptions()
 	InterfaceOptions_AddCategory(FilterOptionsFrame)
 	OptionsLoadet = true
 end
-
-
-
-
-
-
-
-
-

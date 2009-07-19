@@ -1531,4 +1531,3 @@ StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
 	whileDead = 1,
 	hideOnEscape = 1
 };
-
