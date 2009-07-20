@@ -2502,7 +2502,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
 		{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
 		{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
-
 		Prev = "UlduarIronCouncil25Man";
 		Next = "UlduarAuriaya25Man";
 	};
