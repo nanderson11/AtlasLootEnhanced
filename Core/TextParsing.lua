@@ -827,10 +827,12 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t8s10_2#", AL["Darkruned Plate"]);
 
     -- Tier 9 Sets
-    text = gsub(text, "#t8s10_1a#", AL["Thassarian's Plate"]);
-    text = gsub(text, "#t8s10_1h#", AL["Koltira's Plate"]);
-    text = gsub(text, "#t8s10_2a#", AL["Thassarian's Battlegear"]);
-    text = gsub(text, "#t8s10_2h#", AL["Koltira's Battlegear"]);
+    text = gsub(text, "#t9s2_a#", AL["Windrunner's Battlegear"]);
+    text = gsub(text, "#t9s2_h#", AL["Windrunner's Pursuit"]);
+    text = gsub(text, "#t9s10_1a#", AL["Thassarian's Plate"]);
+    text = gsub(text, "#t9s10_1h#", AL["Koltira's Plate"]);
+    text = gsub(text, "#t9s10_2a#", AL["Thassarian's Battlegear"]);
+    text = gsub(text, "#t9s10_2h#", AL["Koltira's Battlegear"]);
 
     -- Arathi Basin Sets - Alliance
     text = gsub(text, "#absa1#", AL["The Highlander's Intent"]);
@@ -971,7 +973,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#eofvalor#", "|TInterface\\Icons\\Spell_Holy_ProclaimChampion_02:0|t");
     text = gsub(text, "#eofheroism#", "|TInterface\\Icons\\Spell_Holy_ProclaimChampion:0|t");
     text = gsub(text, "#eofconquest#", "|TInterface\\Icons\\Spell_Holy_ChampionsGrace:0|t");
-    text = gsub(text, "#eoftriumph#", "|TInterface\\Icons\\Spell_Holy_EmpowerChampion:0|t");
+    text = gsub(text, "#eoftriumph#", "|TInterface\\Icons\\spell_holy_summonchampion:0|t");
+    text = gsub(text, "#trophyofthecrusade#", "|TInterface\\Icons\\INV_Misc_Trophy_Argent:0|t");
     text = gsub(text, "#darkmoon#", "|TInterface\\Icons\\INV_Misc_Ticket_Darkmoon_01:0|t");
     text = gsub(text, "#noblegarden#", "|TInterface\\Icons\\Achievement_Noblegarden_Chocolate_Egg:0|t");
     text = gsub(text, "#brewfest#", "|TInterface\\Icons\\INV_Misc_Coin_01:0|t");

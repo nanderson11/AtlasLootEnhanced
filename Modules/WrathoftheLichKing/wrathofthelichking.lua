@@ -63,6 +63,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Emblem of Heroism Items
 ---- Emblem of Valor Items
 ---- Emblem of Conquest Items
+---- Emblem of Triumph Items
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -4726,100 +4727,142 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T7T8SET";
 	};
 
---Commenting out for the pre-3.2 version update, otherwise these pages are searchable
---[[        
+      
         ------------------------
 		--- Tier 9 Sets (T9) ---
 		------------------------
 		
 	AtlasLoot_Data["T9DeathKnightDPS_A"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
-		{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds="};
-		{ 3, 48478, "", "=q4=Thassarian's Shoulderplates of Conquest", "=ds="};
-		{ 4, 48474, "", "=q4=Thassarian's Battleplate of Conquest", "=ds="};
-		{ 5, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds="};
-		{ 6, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds="};
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
-		{ 9, 48483, "", "=q4=Thassarian's Helmet of Triumph", "=ds="};
-		{ 10, 48485, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
-		{ 11, 48481, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
-		{ 12, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds="};
-		{ 13, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds="};
-		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
-		{ 17, 48488, "", "=q4=Thassarian's Helmet of Triumph", "=ds="};
-		{ 18, 48486, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
-		{ 19, 48490, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
-		{ 20, 48489, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds="};
-		{ 21, 48487, "", "=q4=Thassarian's Legplates of Triumph", "=ds="};
-		Back = "";
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48478, "", "=q4=Thassarian's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48474, "", "=q4=Thassarian's Battleplate of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48483, "", "=q4=Thassarian's Helmet of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48485, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48481, "", "=q4=Thassarian's Battleplate of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
+		{ 24, 48488, "", "=q4=Thassarian's Helmet of Triumph", "=ds="};
+		{ 25, 48486, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
+		{ 26, 48490, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
+		{ 27, 48489, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds="};
+		{ 28, 48487, "", "=q4=Thassarian's Legplates of Triumph", "=ds="};
+		Back = "T9SETALLIANCE";
 	};
 
 	AtlasLoot_Data["T9DeathKnightDPS_H"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
-		{ 2, 48503, "", "=q4=Koltira's Helmet of Conquest", "=ds="};
-		{ 3, 48505, "", "=q4=Koltira's Shoulderplates of Conquest", "=ds="};
-		{ 4, 48501, "", "=q4=Koltira's Battleplate of Conquest", "=ds="};
-		{ 5, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds="};
-		{ 6, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds="};
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
-		{ 9, 48498, "", "=q4=Koltira's Helmet of Triumph", "=ds="};
-		{ 10, 48496, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds="};
-		{ 11, 48500, "", "=q4=Koltira's Battleplate of Triumph", "=ds="};
-		{ 12, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds="};
-		{ 13, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds="};
-		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
-		{ 17, 48493, "", "=q4=Koltira's Helmet of Triumph", "=ds="};
-		{ 18, 48495, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds="};
-		{ 19, 48491, "", "=q4=Koltira's Battleplate of Triumph", "=ds="};
-		{ 20, 48492, "", "=q4=Koltira's Gauntlets of Triumph", "=ds="};
-		{ 21, 48494, "", "=q4=Koltira's Legplates of Triumph", "=ds="};
-		Back = "";
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48503, "", "=q4=Koltira's Helmet of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48505, "", "=q4=Koltira's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48501, "", "=q4=Koltira's Battleplate of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48498, "", "=q4=Koltira's Helmet of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48496, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48500, "", "=q4=Koltira's Battleplate of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48493, "", "=q4=Koltira's Helmet of Triumph", "=ds="};
+		{ 25, 48495, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds="};
+		{ 26, 48491, "", "=q4=Koltira's Battleplate of Triumph", "=ds="};
+		{ 27, 48492, "", "=q4=Koltira's Gauntlets of Triumph", "=ds="};
+		{ 28, 48494, "", "=q4=Koltira's Legplates of Triumph", "=ds="};
+		Back = "T9SETHORDE";
 	};
 
 	AtlasLoot_Data["T9DeathKnightTank_A"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
-		{ 2, 48529, "", "=q4=Thassarian's Faceguard of Conquest", "=ds="};
-		{ 3, 48535, "", "=q4=Thassarian's Pauldrons of Conquest", "=ds="};
-		{ 4, 48531, "", "=q4=Thassarian's Chestguard of Conquest", "=ds="};
-		{ 5, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds="};
-		{ 6, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds="};
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
-		{ 9, 48540, "", "=q4=Thassarian's Faceguard of Triumph", "=ds="};
-		{ 10, 48542, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds="};
-		{ 11, 48538, "", "=q4=Thassarian's Chestguard of Triumph", "=ds="};
-		{ 12, 48539, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
-		{ 13, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
-		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
-		{ 17, 48545, "", "=q4=Thassarian's Faceguard of Triumph", "=ds="};
-		{ 18, 48543, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
-		{ 19, 48547, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
-		{ 20, 48546, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
-		{ 21, 48544, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
-		Back = "";
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48529, "", "=q4=Thassarian's Faceguard of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48535, "", "=q4=Thassarian's Pauldrons of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48531, "", "=q4=Thassarian's Chestguard of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48540, "", "=q4=Thassarian's Faceguard of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48542, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48538, "", "=q4=Thassarian's Chestguard of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48539, "", "=q4=Thassarian's Handguards of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
+		{ 24, 48545, "", "=q4=Thassarian's Faceguard of Triumph", "=ds="};
+		{ 25, 48543, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
+		{ 26, 48547, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
+		{ 27, 48546, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
+		{ 28, 48544, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
+		Back = "T9SETALLIANCE";
 	};
 
 	AtlasLoot_Data["T9DeathKnightTank_H"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
-		{ 2, 48560, "", "=q4=Koltira's Faceguard of Conquest", "=ds="};
-		{ 3, 48562, "", "=q4=Koltira's Pauldrons of Conquest", "=ds="};
-		{ 4, 48558, "", "=q4=Koltira's Chestguard of Conquest", "=ds="};
-		{ 5, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds="};
-		{ 6, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds="};
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
-		{ 9, 48555, "", "=q4=Koltira's Faceguard of Triumph", "=ds="};
-		{ 10, 48553, "", "=q4=Koltira's Pauldrons of Triumph", "=ds="};
-		{ 11, 48557, "", "=q4=Koltira's Chestguard of Triumph", "=ds="};
-		{ 12, 48556, "", "=q4=Koltira's Handguards of Triumph", "=ds="};
-		{ 13, 48554, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
-		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
-		{ 17, 48550, "", "=q4=Koltira's Faceguard of Triumph", "=ds="};
-		{ 18, 48552, "", "=q4=Koltira's Pauldrons of Triumph", "=ds="};
-		{ 19, 48548, "", "=q4=Koltira's Chestguard of Triumph", "=ds="};
-		{ 20, 48549, "", "=q4=Koltira's Handguards of Triumph", "=ds="};
-		{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
-		Back = "";
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48560, "", "=q4=Koltira's Faceguard of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48562, "", "=q4=Koltira's Pauldrons of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48558, "", "=q4=Koltira's Chestguard of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48555, "", "=q4=Koltira's Faceguard of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48553, "", "=q4=Koltira's Pauldrons of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48557, "", "=q4=Koltira's Chestguard of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48556, "", "=q4=Koltira's Handguards of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48554, "", "=q4=Koltira's Legguards of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48550, "", "=q4=Koltira's Faceguard of Triumph", "=ds="};
+		{ 25, 48552, "", "=q4=Koltira's Pauldrons of Triumph", "=ds="};
+		{ 26, 48548, "", "=q4=Koltira's Chestguard of Triumph", "=ds="};
+		{ 27, 48549, "", "=q4=Koltira's Handguards of Triumph", "=ds="};
+		{ 28, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
+		Back = "T9SETHORDE";
 	};
-]]
+    
+    AtlasLoot_Data["T9Hunter_A"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48250, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
+		{ 3, 48253, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
+		{ 4, 48251, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
+		{ 5, 48254, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
+		{ 6, 48252, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48257, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48259, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48255, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+        { 23, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48262, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
+		{ 25, 48260, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
+		{ 26, 48264, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
+		{ 27, 48263, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
+		{ 28, 48261, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
+		Back = "T9SETALLIANCE";
+	};
+    
+    AtlasLoot_Data["T9Hunter_H"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48277, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
+		{ 3, 48279, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
+		{ 4, 39575, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
+		{ 5, 48276, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
+		{ 6, 48278, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48272, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48270, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48274, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48273, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48271, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+        { 23, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48267, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
+		{ 25, 48269, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
+		{ 26, 48265, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
+		{ 27, 48266, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
+		{ 28, 48268, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
+		Back = "T9SETHORDE";
+	};
 
 		-----------------------------------
 		--- Wrath Of The Lich King Sets ---
@@ -5729,3 +5772,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "EmblemofConquest1";
 		Back = "SETMENU";
 	};
+    
+		--------------------------------
+		--- Emblem of Triumph Items ---
+		--------------------------------
+    
+    AtlasLoot_Data["EmblemofTriumph1"] = {
+        Back = "SETMENU";
+    };

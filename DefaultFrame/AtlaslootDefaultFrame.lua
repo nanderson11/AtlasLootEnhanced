@@ -203,6 +203,18 @@ function AtlasLoot_DewdropRegister()
                                     'arg3', v[1][3],
                                     'notCheckable', true
                                 )
+                            elseif v[1][3] == "Table" and v[1][1] ~= "" then
+                                AtlasLoot_Dewdrop:AddLine(
+                                    'text', v[1][1],
+                                    'textR', 1,
+                                    'textG', 0.82,
+                                    'textB', 0,
+                                    'func', AtlasLoot_DewDropClick,
+                                    'arg1', v[1][2],
+                                    'arg2', v[1][1],
+                                    'arg3', v[1][3],
+                                    'notCheckable', true
+                                )
                             end
                         else
                             local lock=0;
