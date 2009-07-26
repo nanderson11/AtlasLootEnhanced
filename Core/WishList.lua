@@ -589,7 +589,21 @@ function AtlasLoot_WishListCheck(itemID, all)
 						end
 					end
 				end
-			end		
+			end
+            for k,v in pairs(AtlasLootWishList["Shared"]) do
+				for i,j in pairs(AtlasLootWishList["Shared"][k]) do
+					for b,c in pairs(AtlasLootWishList["Shared"][k][i]) do
+						if AtlasLootWishList["Shared"][k][i][b][2] == itemID then
+							if AtlasLootWishList["Shared"][k][i]["info"][3] ~= "" then
+								rettex = rettex.."|T"..AtlasLootWishList["Shared"][k][i]["info"][3]..":0|t"
+							else
+								rettex = rettex.."|TInterface\\Icons\\INV_Misc_QuestionMark:0|t"
+							end
+							break
+						end
+					end
+				end
+			end            
 		end
 		if rettex == "" then 
 			return false
@@ -657,6 +671,29 @@ StaticPopupDialogs["ATLASLOOT_DELETE_WISHLIST"] = {
 	end,
 	OnAccept = function()
 		AtlasLootWishList["Own"][curplayername][curtabname] = nil;
+		curtabname = ""
+		curplayername = ""
+		AtlasLoot_RefreshWishlists()
+	end,
+	OnCancel = function ()
+		curtabname = ""
+		curplayername = ""
+		deletwishlistname = ""
+	end,
+	timeout = 0,
+	whileDead = 1,
+	hideOnEscape = 1
+};
+
+StaticPopupDialogs["ATLASLOOT_DELETE_SHARED_WISHLIST"] = {
+	text = AL["Delete Wishlist %s?"],
+	button1 = AL["Delete"],
+	button2 = AL["Cancel"],
+	OnShow = function()
+		this:SetFrameStrata("TOOLTIP");
+	end,
+	OnAccept = function()
+		AtlasLootWishList["Shared"][curplayername][curtabname] = nil;
 		curtabname = ""
 		curplayername = ""
 		AtlasLoot_RefreshWishlists()
@@ -749,7 +786,7 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			curtabname = tabname
 			curplayername = tab2
 			if shared then
-				StaticPopup_Show ("ATLASLOOT_DELETE_WISHLIST",AtlasLootWishList["Shared"][tab2][tabname]["info"][1]);
+				StaticPopup_Show ("ATLASLOOT_DELETE_SHARED_WISHLIST",AtlasLootWishList["Shared"][tab2][tabname]["info"][1]);
 			else
 				StaticPopup_Show ("ATLASLOOT_DELETE_WISHLIST",AtlasLootWishList["Own"][tab2][tabname]["info"][1]);
 			end
@@ -969,6 +1006,19 @@ function AtlasLoot_RefreshWishlists()
 				AddWishListOptions(AtlasLootWishlistOwnOptionsScrollInhalt,AtlasLootWishList["Shared"][i][k]["info"][1],AtlasLootWishList["Shared"][i][k]["info"][3], framewidht-45, k, i, true)
 			end
 		end
+    elseif showallwishlists == true and showsharedwishlists == true then
+		ClearLines()
+		local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
+		for i,j in pairs(AtlasLootWishList["Own"]) do
+			for k,v in pairs(AtlasLootWishList["Own"][i]) do
+				AddWishListOptions(AtlasLootWishlistOwnOptionsScrollInhalt,AtlasLootWishList["Own"][i][k]["info"][1],AtlasLootWishList["Own"][i][k]["info"][3], framewidht-45, k, i)
+			end
+		end
+        for i,j in pairs(AtlasLootWishList["Shared"]) do
+			for k,v in pairs(AtlasLootWishList["Shared"][i]) do
+				AddWishListOptions(AtlasLootWishlistOwnOptionsScrollInhalt,AtlasLootWishList["Shared"][i][k]["info"][1],AtlasLootWishList["Shared"][i][k]["info"][3], framewidht-45, k, i, true)
+			end
+		end
 	elseif showallwishlists == true then
 		ClearLines()
 		local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
@@ -1083,13 +1133,17 @@ function AtlasLoot_CreateWishlistOptions()
 			end
 			
 			curaddname = Edit1:GetText()
-			if curaddicon == "" then curaddicon = "Interface\\Icons\\INV_Misc_QuestionMark" end
-			if curaddicon ~= "" and curtabname ~= "" then
-				if not AtlasLootWishList["Own"][curplayername][curtabname] then 
-					AtlasLootWishList["Own"][curplayername][curtabname] = {} 
-					AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon}
-				else
-					AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon}
+            --DEFAULT_CHAT_FRAME:AddMessage(curplayername..":"..curtabname..":"..curaddicon);
+			if curaddicon == "" then 
+                curaddicon = "Interface\\Icons\\INV_Misc_QuestionMark"
+			elseif curaddicon ~= "" and curtabname ~= "" then
+				if AtlasLootWishList["Shared"][curplayername] then
+                    if AtlasLootWishList["Shared"][curplayername][curtabname] then AtlasLootWishList["Shared"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon} end
+                elseif not AtlasLootWishList["Own"][curplayername][curtabname] then
+                    AtlasLootWishList["Own"][curplayername][curtabname] = {} 
+                    AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon}
+                else
+                    AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon}
 				end
 				WishListAddFrame:Hide()
 				curaddname = ""
@@ -1310,7 +1364,7 @@ function AtlasLoot_CreateWishlistOptions()
 		ShowAllWishlists:SetWidth(ShowAllWishlists:GetTextWidth()+20)
 		ShowAllWishlists:SetScript("OnClick", function()
 			showallwishlists = true
-			showsharedwishlists = false
+			showsharedwishlists = true
 			AtlasLoot_RefreshWishlists()
 		end)
 

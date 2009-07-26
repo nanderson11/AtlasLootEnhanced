@@ -5,6 +5,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.06.03
+Fixed deleting shared wishlists
+Fixed editing shared wishlists
+Items from shared wishlists are now correctly marked
+
 v5.06.02
 Fixed sorting bug with the loot filter
 Fixed adding items to wishlist from search results
