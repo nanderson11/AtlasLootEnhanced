@@ -143,6 +143,7 @@ if AL then
 	AL["Emblem of Valor Rewards"] = "Récompenses Emblème de vaillance";
 	AL["Emblem of Heroism Rewards"] = "Récompenses Emblème d'héroïsme";
 	AL["Emblem of Conquest Rewards"] = "Récompenses Emblème de conquête";
+	AL["Emblem of Triumph Rewards"] = "Récompenses Emblème de triomphe";
 	AL["BoE World Epics"] = "LqE Épiques mondial";
 	AL["Dungeon 1/2 Sets"] = "Sets Donjon 1/2";
 	AL["Dungeon 3 Sets"] = "Sets Donjon 3";
@@ -420,6 +421,7 @@ if AL then
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Tier 8 Sets"] = "Sets T8";
+	AL["Tier 9 Sets"] = "Sets T9";
 	AL["Furious Gladiator Sets"] = "Sets Gladiateur furieux";
 
 	--Extra Text in Boss lists
@@ -917,6 +919,12 @@ if AL then
 	AL["Siegebreaker Plate"] = "Armure brise-siège en plaques";
 
 	--Tier 9 Sets
+	AL["Windrunner's Battlegear"] = "Parure de Coursevent";
+	AL["Windrunner's Pursuit"] = "Tenue de combat de Coursevent";
+	AL["Thassarian's Battlegear"] = "Tenue de combat de Thassarian";
+	AL["Koltira's Battlegear"] = "Tenue de combat de Koltira";
+	AL["Thassarian's Plate"] = "Armure de Thassarian en plaques";
+	AL["Koltira's Plate"] = "Armure de Koltira en plaques";
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "Intention des Hautes-terres";
