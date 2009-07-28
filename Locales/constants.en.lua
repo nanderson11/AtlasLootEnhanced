@@ -144,7 +144,7 @@ if AL then
 	AL["Emblem of Valor Rewards"] = true;
 	AL["Emblem of Heroism Rewards"] = true;
 	AL["Emblem of Conquest Rewards"] = true;
-    AL["Emblem of Triumph Rewards"] = true;
+	AL["Emblem of Triumph Rewards"] = true;
 	AL["BoE World Epics"] = true;
 	AL["Dungeon 1/2 Sets"] = true;
 	AL["Dungeon 3 Sets"] = true;
@@ -422,7 +422,7 @@ if AL then
 	AL["Summon"] = true;
 	AL["Random"] = true;
 	AL["Tier 8 Sets"] = true;
-    AL["Tier 9 Sets"] = true;
+	AL["Tier 9 Sets"] = true;
 	AL["Furious Gladiator Sets"] = true;
 
 	--Extra Text in Boss lists
@@ -920,8 +920,8 @@ if AL then
 	AL["Siegebreaker Plate"] = true;
 
 	--Tier 9 Sets
-    AL["Windrunner's Battlegear"] = true;
-    AL["Windrunner's Pursuit"] = true;
+	AL["Windrunner's Battlegear"] = true;
+	AL["Windrunner's Pursuit"] = true;
 	AL["Thassarian's Battlegear"] = true;
 	AL["Koltira's Battlegear"] = true;
 	AL["Thassarian's Plate"] = true;

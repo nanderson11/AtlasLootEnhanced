@@ -106,36 +106,36 @@ function AtlasLoot_WishListAddDropClick(typ, arg2, arg3, arg4)
 				DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..AtlasLoot_FixText(itemName)..RED..AL[" already in the WishList!"]..WHITE.." ("..AtlasLootWishList["Own"][playerName][arg2]["info"][1]..")");
 				return;
 			end
-			
+
 			table.insert(AtlasLootWishList["Own"][playerName][arg2], { 0, itemID, itemTexture, itemName, lootPage, "", "", sourcePage });
-			
+
 			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot"]..": "..AtlasLoot_FixText(itemName)..GREY..AL[" added to the WishList."]..WHITE.." ("..AtlasLootWishList["Own"][playerName][arg2]["info"][1]..")");
 			AtlasLoot_WishList = AtlasLoot_CategorizeWishList(AtlasLootWishList["Own"][playerName][arg2]);
-			
+
 			AtlasLoot_WishListDrop:Close(1)
 		elseif typ == "addOther" then
 			if AtlasLoot_WishListCheck(itemID) then
 				DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..AtlasLoot_FixText(itemName)..RED..AL[" already in the WishList!"]..WHITE.." ("..AtlasLootWishList["Own"][arg2][arg3]["info"][1].." - "..arg2..")");
 				return;
 			end
-			
+
 			table.insert(AtlasLootWishList["Own"][arg2][arg3], { 0, itemID, itemTexture, itemName, lootPage, "", "", sourcePage });
-			
+
 			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot"]..": "..AtlasLoot_FixText(itemName)..GREY..AL[" added to the WishList."]..WHITE.." ("..AtlasLootWishList["Own"][arg2][arg3]["info"][1].." - "..arg2..")");
 			AtlasLoot_WishList = AtlasLoot_CategorizeWishList(AtlasLootWishList["Own"][arg2][arg3]);
-			
+
 			AtlasLoot_WishListDrop:Close(1)
 		elseif typ == "addShared" then
 			if AtlasLoot_WishListCheck(itemID) then
 				DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..AtlasLoot_FixText(itemName)..RED..AL[" already in the WishList!"]..WHITE.." ("..AtlasLootWishList["Shared"][arg2][arg3]["info"][1].." - "..arg2..")");
 				return;
 			end
-			
+
 			table.insert(AtlasLootWishList["Shared"][arg2][arg3], { 0, itemID, itemTexture, itemName, lootPage, "", "", sourcePage });
-			
+
 			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot"]..": "..AtlasLoot_FixText(itemName)..GREY..AL[" added to the WishList."]..WHITE.." ("..AtlasLootWishList["Shared"][arg2][arg3]["info"][1].." - "..arg2..")");
 			AtlasLoot_WishList = AtlasLoot_CategorizeWishList(AtlasLootWishList["Shared"][arg2][arg3]);
-			
+
 			AtlasLoot_WishListDrop:Close(1)
 		end
 	end
@@ -219,7 +219,7 @@ function AtlasLoot_ShowWishListDropDown(xitemID, xitemTexture, xitemName, xlootP
 											);
 										end
 									end
-								end							
+								end
 							elseif value == "SharedWishlists" then
 								for k,v in pairs(AtlasLootWishList["Shared"]) do
 									if k ~= playerName then
@@ -236,7 +236,7 @@ function AtlasLoot_ShowWishListDropDown(xitemID, xitemTexture, xitemName, xlootP
 											);
 										end
 									end
-								end							
+								end
 							end
 						elseif level == 3 then
 								for k,v in pairs(AtlasLootWishList["Own"]) do
@@ -343,7 +343,7 @@ function AtlasLoot_DeleteFromWishList(itemID)
 				break;
 			end
 		end
-		AtlasLoot_WishList = AtlasLoot_CategorizeWishList(AtlasLootWishList["Shared"][lastWishListarg2][lastWishListarg3])	
+		AtlasLoot_WishList = AtlasLoot_CategorizeWishList(AtlasLootWishList["Shared"][lastWishListarg2][lastWishListarg3])
 	end
 	AtlasLootItemsFrame:Hide();
 	AtlasLoot_ShowWishList()
@@ -603,7 +603,7 @@ function AtlasLoot_WishListCheck(itemID, all)
 						end
 					end
 				end
-			end            
+			end
 		end
 		if rettex == "" then 
 			return false
@@ -752,13 +752,13 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 		frame:SetHeight(30)
 		frame:SetWidth(xxx)
 		frame:SetPoint("TOPLEFT", parrent, "TOPLEFT", 5, yoffset)
-		
+
 	local Textur = frame:CreateTexture(nil,"OVERLAY")
 		Textur:SetPoint("TOPLEFT", frame, "TOPLEFT", 0 , -2.5)
 		Textur:SetTexture(icon)
 		Textur:SetHeight(25)
 		Textur:SetWidth(25)	
-		
+
 	local Text = frame:CreateFontString(nil,"OVERLAY","GameFontNormal")
 		Text:SetPoint("TOPLEFT", frame, "TOPLEFT", 30, 0)
 		if tab2 ~= playerName then
@@ -767,13 +767,13 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			Text:SetText(name);
 		end
 		Text:SetHeight(30)
-		
+
 	local delIcon = frame:CreateTexture(nil,"OVERLAY")
 		delIcon:SetHeight(20)
 		delIcon:SetWidth(20)
 		delIcon:SetPoint("TOPLEFT", frame, "TOPLEFT", xxx-delIcon:GetWidth()-10, -5)
-		delIcon:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\delete")	
-		
+		delIcon:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\delete")
+
 	local ButtonDel = CreateFrame("BUTTON", nil, frame, "UIPanelButtonTemplate")
 		ButtonDel:SetHeight(delIcon:GetHeight())
 		ButtonDel:SetWidth(delIcon:GetWidth())  
@@ -801,13 +801,13 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			GameTooltip:Show()
 		end)
 		ButtonDel:SetScript("OnLeave", function() GameTooltip:Hide() end)
-		
+
 	local ediIcon = frame:CreateTexture(nil,"OVERLAY")
 		ediIcon:SetHeight(20)
 		ediIcon:SetWidth(20)
 		ediIcon:SetPoint("TOPLEFT", frame, "TOPLEFT", xxx-delIcon:GetWidth()-ediIcon:GetWidth()-15, -5)
-		ediIcon:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\edit")	
-		
+		ediIcon:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\edit")
+
 	local ButtonEdi = CreateFrame("BUTTON", nil, frame, "UIPanelButtonTemplate")
 		ButtonEdi:SetHeight(ediIcon:GetHeight())
 		ButtonEdi:SetWidth(ediIcon:GetWidth())  
@@ -835,13 +835,13 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			GameTooltip:Show()
 		end)
 		ButtonEdi:SetScript("OnLeave", function() GameTooltip:Hide() end)
-		
+
 	local shareIcon = frame:CreateTexture(nil,"OVERLAY")
 		shareIcon:SetHeight(20)
 		shareIcon:SetWidth(20)
 		shareIcon:SetPoint("TOPLEFT", frame, "TOPLEFT", xxx-delIcon:GetWidth()-ediIcon:GetWidth()-shareIcon:GetWidth()-20, -5)
 		shareIcon:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\share")	
-		
+
 	local ButtonShare = CreateFrame("BUTTON", nil, frame, "UIPanelButtonTemplate")
 		ButtonShare:SetHeight(shareIcon:GetHeight())
 		ButtonShare:SetWidth(shareIcon:GetWidth())  
@@ -865,7 +865,7 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			GameTooltip:Show()
 		end)
 		ButtonShare:SetScript("OnLeave", function() GameTooltip:Hide() end)
-		
+
 	if not shared then
 		local CheckBox = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate")
 			CheckBox:SetPoint("LEFT", frame, "TOPLEFT", xxx-ButtonShare:GetWidth()-ButtonDel:GetWidth()-ButtonEdi:GetWidth()-45, -15)
@@ -900,7 +900,7 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			end)
 			CheckBox:SetScript("OnLeave", function() GameTooltip:Hide() end)
 	end
-	
+
 	yoffset = yoffset-30
 	numlines = numlines + 1
 	lines[numlines] = frame
@@ -913,7 +913,7 @@ Add a Icon too the AddFrame.
 local function AddTexture(par, num)
 	local numIcons = GetNumMacroIcons();
 	local iconTexture = GetMacroIconInfo(num);
-		
+
 	local Button = CreateFrame("BUTTON", nil, par, "UIPanelButtonTemplate")
 		Button:SetHeight(20)
 		Button:SetWidth(20)  
@@ -928,13 +928,13 @@ local function AddTexture(par, num)
 				curaddicon = iconTexture
 			end
 		end)
-		
+
 	local Textur = Button:CreateTexture("textur","OVERLAY")
 		Textur:SetPoint("TOPLEFT", Button, "TOPLEFT")
 		Textur:SetTexture(iconTexture)
 		Textur:SetHeight(20)
 		Textur:SetWidth(20)
-		
+
 	if xpos == 280 then
 		xpos = 0
 		ypos = ypos - 20
@@ -1055,7 +1055,7 @@ function AtlasLoot_CreateWishlistOptions()
 		AtlasLootWishList["Own"][playerName]["OldWishlist"]["info"] = {"OldWishlist",false,"Interface\\Icons\\INV_Misc_QuestionMark"}
 		AtlasLootCharDB["WishList"] = nil
 	end
-	
+
 	-- Add wishlistframe --
 	local WishListAddFrame = CreateFrame("FRAME","AtlasLootWishList_AddFrame",UIParent)
 		WishListAddFrame:Hide()
@@ -1075,18 +1075,18 @@ function AtlasLoot_CreateWishlistOptions()
 			this:StartMoving()
 		end)
 		WishListAddFrame:SetScript("OnMouseUp", WishListAddFrame.StopMovingOrSizing)
-		
+
 	local Textur = WishListAddFrame:CreateTexture("AtlasLootPrevTexture","OVERLAY")
 		Textur:SetPoint("TOPRIGHT", WishListAddFrame, "TOPRIGHT", -40, -10)
 		Textur:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
 		Textur:SetHeight(40)
-		Textur:SetWidth(40)	
-		
+		Textur:SetWidth(40)
+
 	local Text = WishListAddFrame:CreateFontString("AtlasLootAddWishListName","OVERLAY","GameFontNormal")
 		Text:SetPoint("TOPLEFT", WishListAddFrame, "TOPLEFT", 10, -5)
 		Text:SetText(AL["Wishlist name:"]);
 		Text:SetHeight(20)
-		
+
 	local Edit1 = CreateFrame("EditBox", "AtlasLootWishListNewName", WishListAddFrame, "InputBoxTemplate")
 		Edit1:SetPoint("LEFT", WishListAddFrame, "TOPLEFT", 15, -37)
 		Edit1:SetWidth(250)
@@ -1101,10 +1101,10 @@ function AtlasLoot_CreateWishlistOptions()
 		Edit1:SetScript("OnShow", function()
 			this:SetText(curaddname);
 		end)
-		
+
 	local CloseButton = CreateFrame("BUTTON",nil, WishListAddFrame, "UIPanelCloseButton")
 		CloseButton:SetPoint("TOPRIGHT", WishListAddFrame, "TOPRIGHT", -5, -5)	
-		
+
 	local WishListIconListSc = CreateFrame("ScrollFrame", "AtlasLootWishlistAddFrameIconList", WishListAddFrame, "UIPanelScrollFrameTemplate")
 	local WishlistIconListIn = CreateFrame("Frame", "AtlasLootWishlistAddFrameIconListInhalt", WishListIconListSc)
 		WishListIconListSc:SetScrollChild(WishlistIconListIn)
@@ -1121,7 +1121,7 @@ function AtlasLoot_CreateWishlistOptions()
 		WishListIconListSc:EnableMouse(true)
 		WishListIconListSc:SetVerticalScroll(0)
 		WishListIconListSc:SetHorizontalScroll(0)
-		
+
 	local AddWishlistFr = CreateFrame("BUTTON", "AtlasLottAddEditWishList", WishListIconListSc, "UIPanelButtonTemplate")
 		AddWishlistFr:SetHeight(20)
 		AddWishlistFr:SetWidth(150)  
@@ -1131,7 +1131,7 @@ function AtlasLoot_CreateWishlistOptions()
 			if AddWishlistFr:GetText() == AL["Add Wishlist"] then
 				curtabname = GenerateTabNum("own")
 			end
-			
+
 			curaddname = Edit1:GetText()
             --DEFAULT_CHAT_FRAME:AddMessage(curplayername..":"..curtabname..":"..curaddicon);
 			if curaddicon == "" then 
@@ -1153,7 +1153,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLoot_RefreshWishlists()
 			end
 		end)
-		
+
 	local AddWishlistIcons = CreateFrame("BUTTON", nil, WishListIconListSc, "UIPanelButtonTemplate")
 		AddWishlistIcons:SetHeight(20)
 		AddWishlistIcons:SetWidth(150)  
@@ -1164,7 +1164,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AddTexture(WishlistIconListIn, i)
 			end
 		end)
-		
+
 		WishListAddFrame:SetScript("OnShow", function()
 			if firstload then
 				for i=1,210 do
@@ -1178,7 +1178,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLootPrevTexture:SetTexture(curaddicon)
 			end
 		end)
-	
+
 	-- Add wishlistframe --
 	
 	local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
@@ -1191,7 +1191,7 @@ function AtlasLoot_CreateWishlistOptions()
 	local WishlistOptionsFrame = CreateFrame("FRAME", nil)
 		WishlistOptionsFrame.name = AL["Wishlist"]
 		WishlistOptionsFrame.parent = AL["AtlasLoot"]
-		
+
 	local WishListMark = CreateFrame("CheckButton", "AtlasLootOptionsWishListMark", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListMark:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 5, -15)
 		WishListMark:SetWidth(25)
@@ -1217,7 +1217,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLootOptionsWishListMarkAll:Enable();
 			end
 		end)
-		
+
 	local WishListMarkOwn = CreateFrame("CheckButton", "AtlasLootOptionsWishListMarkOwn", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListMarkOwn:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 5, -35)
 		WishListMarkOwn:SetWidth(25)
@@ -1239,7 +1239,7 @@ function AtlasLoot_CreateWishlistOptions()
 			WishlistOptionsFrame:Hide()
 			WishlistOptionsFrame:Show()
 		end)
-		
+
 	local WishListMarkAll = CreateFrame("CheckButton", "AtlasLootOptionsWishListMarkAll", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListMarkAll:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 5, -55)
 		WishListMarkAll:SetWidth(25)
@@ -1261,7 +1261,7 @@ function AtlasLoot_CreateWishlistOptions()
 			WishlistOptionsFrame:Hide()
 			WishlistOptionsFrame:Show()
 		end)
-		
+
 	local WishListShare = CreateFrame("CheckButton", "AtlasLootOptionsWishListShare", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListShare:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+13, -15)
 		WishListShare:SetWidth(25)
@@ -1283,7 +1283,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLootOptionsWishListShareInCombat:Enable();
 			end
 		end)
-		
+
 	local WishListShareInCombat = CreateFrame("CheckButton", "AtlasLootOptionsWishListShareInCombat", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListShareInCombat:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+13, -35)
 		WishListShareInCombat:SetWidth(25)
@@ -1303,7 +1303,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLootWishList["Options"][playerName]["AllowShareWishlistInCombat"] = true;
 			end
 		end)
-		
+
 	local WishListAutoAdd = CreateFrame("CheckButton", "AtlasLootOptionsWishListAutoAdd", WishlistOptionsFrame, "OptionsCheckButtonTemplate")
 		WishListAutoAdd:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", framewidht/2+13, -55)
 		WishListAutoAdd:SetWidth(25)
@@ -1323,7 +1323,7 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLootWishList["Options"][playerName]["UseDefaultWishlist"] = true;
 			end
 		end)
-		
+
 	local WishListOwnSc = CreateFrame("ScrollFrame", "AtlasLootWishlistOwnOptionsScrollFrame", WishlistOptionsFrame, "UIPanelScrollFrameTemplate")
 	local WishlistOwnIn = CreateFrame("Frame", "AtlasLootWishlistOwnOptionsScrollInhalt", WishListOwnSc)
 		WishListOwnSc:SetScrollChild(WishlistOwnIn)
@@ -1342,10 +1342,10 @@ function AtlasLoot_CreateWishlistOptions()
 		WishListOwnSc:SetHorizontalScroll(0)
 		WishListOwnSc:SetScript("OnUpdate", function()
 			local xframewidht = InterfaceOptionsFramePanelContainer:GetWidth()
-			
+
 			if lastframewidht ~= xframewidht then
-				WishListOwnSc:SetWidth(xframewidht-45)  
-				WishlistOwnIn:SetWidth(xframewidht-45)  
+				WishListOwnSc:SetWidth(xframewidht-45)
+				WishlistOwnIn:SetWidth(xframewidht-45)
 
 				AtlasLootOptionsWishListMarkAll:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", 15, -55)
 				AtlasLootOptionsWishListShare:SetPoint("LEFT", WishlistOptionsFrame, "TOPLEFT", xframewidht/2+15, -15)
@@ -1354,8 +1354,8 @@ function AtlasLoot_CreateWishlistOptions()
 				AtlasLoot_RefreshWishlists()
 				lastframewidht = xframewidht
 			end
-		end)		
-		
+		end)
+
 	local ShowAllWishlists = CreateFrame("BUTTON", nil, WishListOwnSc, "UIPanelButtonTemplate")
 		ShowAllWishlists:SetHeight(20)
 		ShowAllWishlists:SetWidth(180)  
@@ -1390,8 +1390,8 @@ function AtlasLoot_CreateWishlistOptions()
 			showallwishlists = false
 			showsharedwishlists = true
 			AtlasLoot_RefreshWishlists()
-		end)		
-		
+		end)
+
 	local AddWishlist = CreateFrame("BUTTON", nil, WishListOwnSc, "UIPanelButtonTemplate")
 		AddWishlist:SetHeight(20)
 		AddWishlist:SetWidth(150)  
@@ -1405,7 +1405,7 @@ function AtlasLoot_CreateWishlistOptions()
 			WishListAddFrame:Show()
 			AddWishlistFr:SetText(AL["Add Wishlist"])
 		end)	
-	
+
 	AtlasLoot_RefreshWishlists()
 
 			
@@ -1510,7 +1510,7 @@ function ALModule:OnCommReceived(prefix, message, distribution, sender)
 		AtlasLoot_SendWishList(xwltab[sender],sender)
 		xwltab[sender] = nil
 	elseif message == "WishlistRequest" then
-	
+
 		if AtlasLootWishList["Options"][playerName]["AllowShareWishlist"] == true then
 			if AtlasLootWishList["Options"][playerName]["AllowShareWishlistInCombat"] == true then
 				if UnitAffectingCombat("player") then
@@ -1564,7 +1564,7 @@ StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
 			curtabname = ""
 			curplayername = ""
 		elseif name == "" then
-		
+
 		else
 			if SpamProtect(string.lower(name)) then
 				AtlasLoot_SendWishList(AtlasLootWishList["Own"][curplayername][curtabname],name)

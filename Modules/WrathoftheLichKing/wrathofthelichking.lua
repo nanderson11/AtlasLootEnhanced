@@ -51,7 +51,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
 ---- Naxx Sets (T7)/Ulduar Sets (T8)
----- Tier 9 (T9)
+---- Tier 9 Sets (T9)
 ---- Wrath Of The Lich King Sets
 ---- Blizzard Collectables
 ---- Legendaries
@@ -4727,11 +4727,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T7T8SET";
 	};
 
-      
-        ------------------------
+		------------------------
 		--- Tier 9 Sets (T9) ---
 		------------------------
-		
+
 	AtlasLoot_Data["T9DeathKnightDPS_A"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
@@ -4819,8 +4818,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
 		Back = "T9SETHORDE";
 	};
-    
-    AtlasLoot_Data["T9Hunter_A"] = {
+
+	AtlasLoot_Data["T9Hunter_A"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48250, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48253, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
@@ -4833,7 +4832,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 48255, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 20, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 21, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-        { 23, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 23, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 		{ 24, 48262, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 		{ 25, 48260, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
 		{ 26, 48264, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
@@ -4841,8 +4840,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 48261, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9Hunter_H"] = {
+
+	AtlasLoot_Data["T9Hunter_H"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48277, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48279, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
@@ -4855,7 +4854,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 48274, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 20, 48273, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 21, 48271, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-        { 23, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
+		{ 23, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 		{ 24, 48267, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 		{ 25, 48269, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
 		{ 26, 48265, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
@@ -5772,11 +5771,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "EmblemofConquest1";
 		Back = "SETMENU";
 	};
-    
-		--------------------------------
+
+		-------------------------------
 		--- Emblem of Triumph Items ---
-		--------------------------------
-    
-    AtlasLoot_Data["EmblemofTriumph1"] = {
-        Back = "SETMENU";
-    };
+		-------------------------------
+
+	AtlasLoot_Data["EmblemofTriumph1"] = {
+		Back = "SETMENU";
+	};
