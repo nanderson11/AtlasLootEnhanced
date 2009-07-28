@@ -871,7 +871,7 @@ AtlasLoot_TableNames = {};
   -- Emblem of Conquest Rewards
 	AtlasLoot_TableNames["EmblemofConquest1"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofConquest2"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
-    -- Emblem of Triumph Rewards
+  -- Emblem of Triumph Rewards
 	AtlasLoot_TableNames["EmblemofTriumph1"] = { AL["Emblem of Triumph Rewards"], "AtlasLootWotLK" };
   -- Naxxramas 10/25 Man Sets
 	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { BabbleClass["Deathknight"].." - "..AL["DPS"], "AtlasLootWotLK" };
@@ -893,7 +893,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["NaxxWarlock"] = { BabbleClass["Warlock"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxWarriorFury"] = { BabbleClass["Warrior"].." - "..AL["Fury"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxWarriorProtection"] = { BabbleClass["Warrior"].." - "..AL["Protection"], "AtlasLootWotLK" };
-    -- Tier 9 Sets (Alliance)
+  -- Tier 9 Sets (Alliance)
 	AtlasLoot_TableNames["T9DeathKnightDPS_A"] = { BabbleClass["Deathknight"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9DeathKnightTank_A"] = { BabbleClass["Deathknight"].." - "..AL["Tanking"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9DruidBalance_A"] = { BabbleClass["Druid"].." - "..AL["Balance"], "AtlasLootWotLK" };
@@ -913,7 +913,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["T9Warlock_A"] = { BabbleClass["Warlock"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9WarriorFury_A"] = { BabbleClass["Warrior"].." - "..AL["Fury"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9WarriorProtection_A"] = { BabbleClass["Warrior"].." - "..AL["Protection"], "AtlasLootWotLK" };
-    -- Tier 9 Sets (Horde)
+  -- Tier 9 Sets (Horde)
 	AtlasLoot_TableNames["T9DeathKnightDPS_H"] = { BabbleClass["Deathknight"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9DeathKnightTank_H"] = { BabbleClass["Deathknight"].." - "..AL["Tanking"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9DruidBalance_H"] = { BabbleClass["Druid"].." - "..AL["Balance"], "AtlasLootWotLK" };
@@ -1447,8 +1447,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T456SET"] = { AL["Tier 4/5/6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };
-    AtlasLoot_TableNames["T9SETALLIANCE"] = { AL["Tier 9 Sets"].." : "..BabbleFaction["Alliance"], "Menu" };
-    AtlasLoot_TableNames["T9SETHORDE"] = { AL["Tier 9 Sets"].." : "..BabbleFaction["Horde"], "Menu" };
+	AtlasLoot_TableNames["T9SETALLIANCE"] = { AL["Tier 9 Sets"].." : "..BabbleFaction["Alliance"], "Menu" };
+	AtlasLoot_TableNames["T9SETHORDE"] = { AL["Tier 9 Sets"].." : "..BabbleFaction["Horde"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_ORIGINALWOW"] = { AL["Factions - Original WoW"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_BURNINGCRUSADE"] = { AL["Factions - Burning Crusade"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_WOTLK"] = { AL["Factions - Wrath of the Lich King"], "Menu" };
