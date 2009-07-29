@@ -287,7 +287,7 @@ function AtlasLoot_ShowWishListDropDown(xitemID, xitemTexture, xitemName, xlootP
 	else
 		for k,v in pairs(AtlasLootWishList["Own"][playerName]) do
 			if AtlasLootWishList["Own"][playerName][k]["info"] then
-				if AtlasLootWishList["Own"][playerName][k]["info"][2] == true then
+				if AtlasLootWishList["Own"][playerName][k]["info"][2][playerName] == true then
 					AtlasLoot_WishListAddDropClick("addOwn", k, "", show)
 					return
 				end
@@ -298,7 +298,7 @@ function AtlasLoot_ShowWishListDropDown(xitemID, xitemTexture, xitemName, xlootP
 			if AtlasLootWishList["Own"][k] then
 				for i,j in pairs(AtlasLootWishList["Own"][k]) do
 					if AtlasLootWishList["Own"][k][i]["info"] then
-						if AtlasLootWishList["Own"][k][i]["info"][2] == true then
+						if AtlasLootWishList["Own"][k][i]["info"][2][playerName] == true then
 							AtlasLoot_WishListAddDropClick("addOther", k, i, show)
 							return
 						end
@@ -872,7 +872,7 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			CheckBox:SetWidth(25)
 			CheckBox:SetHeight(25)
 			CheckBox:SetScript("OnUpdate", function()
-				if AtlasLootWishList["Own"][tab2][tabname]["info"][2] == true then
+				if AtlasLootWishList["Own"][tab2][tabname]["info"][2][playerName] == true then
 					this:SetChecked(1);
 				else
 					this:SetChecked(nil);
@@ -884,9 +884,9 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 						for i,j in pairs(AtlasLootWishList["Own"][k]) do
 							if AtlasLootWishList["Own"][k][i]["info"] then
 								if k == tab2 and i == tabname then
-									AtlasLootWishList["Own"][k][i]["info"][2] = true;
+									AtlasLootWishList["Own"][k][i]["info"][2][playerName] = true;
 								else
-									AtlasLootWishList["Own"][k][i]["info"][2] = false;
+									AtlasLootWishList["Own"][k][i]["info"][2][playerName] = false;
 								end
 							end
 						end
@@ -1138,12 +1138,12 @@ function AtlasLoot_CreateWishlistOptions()
                 curaddicon = "Interface\\Icons\\INV_Misc_QuestionMark"
 			elseif curaddicon ~= "" and curtabname ~= "" then
 				if AtlasLootWishList["Shared"][curplayername] then
-                    if AtlasLootWishList["Shared"][curplayername][curtabname] then AtlasLootWishList["Shared"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon} end
+                    if AtlasLootWishList["Shared"][curplayername][curtabname] then AtlasLootWishList["Shared"][curplayername][curtabname]["info"] = {curaddname,{[playerName] = false},curaddicon} end
                 elseif not AtlasLootWishList["Own"][curplayername][curtabname] then
                     AtlasLootWishList["Own"][curplayername][curtabname] = {} 
-                    AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon}
+                    AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,{[playerName] = false},curaddicon}
                 else
-                    AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,false,curaddicon}
+                    AtlasLootWishList["Own"][curplayername][curtabname]["info"] = {curaddname,{[playerName] = false},curaddicon}
 				end
 				WishListAddFrame:Hide()
 				curaddname = ""
