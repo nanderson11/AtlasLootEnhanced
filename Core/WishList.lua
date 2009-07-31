@@ -872,7 +872,10 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			CheckBox:SetWidth(25)
 			CheckBox:SetHeight(25)
 			CheckBox:SetScript("OnUpdate", function()
-				if AtlasLootWishList["Own"][tab2][tabname]["info"][2][playerName] == true then
+                if type(AtlasLootWishList["Own"][tab2][tabname]["info"][2] ~= "table") then
+                    AtlasLootWishList["Own"][tab2][tabname]["info"][2] = {};
+                end
+				if AtlasLootWishList["Own"][tab2][tabname]["info"][2][playerName] then
 					this:SetChecked(1);
 				else
 					this:SetChecked(nil);
@@ -883,6 +886,9 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 					if AtlasLootWishList["Own"][k] then
 						for i,j in pairs(AtlasLootWishList["Own"][k]) do
 							if AtlasLootWishList["Own"][k][i]["info"] then
+                                if type(AtlasLootWishList["Own"][k][i]["info"][2] ~= "table") then
+                                    AtlasLootWishList["Own"][k][i]["info"][2] = {};
+                                end
 								if k == tab2 and i == tabname then
 									AtlasLootWishList["Own"][k][i]["info"][2][playerName] = true;
 								else
