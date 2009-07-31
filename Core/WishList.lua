@@ -872,10 +872,7 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 			CheckBox:SetWidth(25)
 			CheckBox:SetHeight(25)
 			CheckBox:SetScript("OnUpdate", function()
-                if type(AtlasLootWishList["Own"][tab2][tabname]["info"][2] ~= "table") then
-                    AtlasLootWishList["Own"][tab2][tabname]["info"][2] = {};
-                end
-				if AtlasLootWishList["Own"][tab2][tabname]["info"][2][playerName] then
+				if AtlasLootWishList["Own"][tab2][tabname]["info"][2][playerName] == true then
 					this:SetChecked(1);
 				else
 					this:SetChecked(nil);
@@ -1060,6 +1057,13 @@ function AtlasLoot_CreateWishlistOptions()
 		end
 		AtlasLootWishList["Own"][playerName]["OldWishlist"]["info"] = {"OldWishlist",false,"Interface\\Icons\\INV_Misc_QuestionMark"}
 		AtlasLootCharDB["WishList"] = nil
+	end
+	for k,v in pairs(AtlasLootWishList["Own"]) do
+		for i,j in pairs(AtlasLootWishList["Own"][k]) do
+			if type(AtlasLootWishList["Own"][k][i]["info"][2]) ~= "table" then
+				AtlasLootWishList["Own"][k][i]["info"][2] = {[playerName] = false};
+			end
+		end
 	end
 
 	-- Add wishlistframe --
