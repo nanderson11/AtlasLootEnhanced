@@ -753,7 +753,7 @@ if AL then
 	AL["Nightsong Battlegear"] = "Arrullanoche"; --Check
 	AL["Nightsong Regalia"] = "Arrullanoche"; --Check
 	AL["Scourgestalker Battlegear"] = "Acechador de la Plaga"; --Check
-	--AL["Kirin'dor Garb"] = "Kirin'dor Garb"; --FALTA
+	--AL["Kirin Tor Garb"] = "Kirin Tor Garb"; --FALTA
 	AL["Aegis Regalia"] = "Égida"; --Check
 	AL["Aegis Battlegear"] = "Batalla de Égida"; --Check
 	AL["Aegis Plate"] = "Placas de Égida"; --Check

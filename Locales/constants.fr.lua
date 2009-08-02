@@ -904,7 +904,7 @@ if AL then
 	AL["Nightsong Battlegear"] = "Tenue de combat chantenuit";
 	AL["Nightsong Regalia"] = "Tenue de parade chantenuit";
 	AL["Scourgestalker Battlegear"] = "Tenue de combat de traqueur du Fléau";
-	AL["Kirin'dor Garb"] = "Atours du Kirin Tor";
+	AL["Kirin Tor Garb"] = "Atours du Kirin Tor";
 	AL["Aegis Regalia"] = "Tenue de parade de l'égide";
 	AL["Aegis Battlegear"] = "Tenue de combat de l'égide";
 	AL["Aegis Plate"] = "Armure de l'égide en plaques";

@@ -810,7 +810,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t8s1_2#", AL["Nightsong Battlegear"]);
     text = gsub(text, "#t8s1_3#", AL["Nightsong Regalia"]);
     text = gsub(text, "#t8s2#", AL["Scourgestalker Battlegear"]);
-    text = gsub(text, "#t8s3#", AL["Kirin'dor Garb"]);
+    text = gsub(text, "#t8s3#", AL["Kirin Tor Garb"]);
     text = gsub(text, "#t8s4_1#", AL["Aegis Regalia"]);
     text = gsub(text, "#t8s4_2#", AL["Aegis Battlegear"]);
     text = gsub(text, "#t8s4_3#", AL["Aegis Plate"]);
@@ -827,8 +827,16 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t8s10_2#", AL["Darkruned Plate"]);
 
     -- Tier 9 Sets
+    text = gsub(text, "#t9s1_1a#", AL["Malfurion's Garb"]);
+    text = gsub(text, "#t9s1_1h#", AL["Runetotem's Garb"]);
+    text = gsub(text, "#t9s1_2a#", AL["Malfurion's Battlegear"]);
+    text = gsub(text, "#t9s1_2h#", AL["Runetotem's Battlegear"]);
+    text = gsub(text, "#t9s1_3a#", AL["Malfurion's Regalia"]);
+    text = gsub(text, "#t9s1_3h#", AL["Runetotem's Regalia"]);
     text = gsub(text, "#t9s2_a#", AL["Windrunner's Battlegear"]);
     text = gsub(text, "#t9s2_h#", AL["Windrunner's Pursuit"]);
+    text = gsub(text, "#t9s3_a#", AL["Khadgar's Regalia"]);
+    text = gsub(text, "#t9s3_h#", AL["Sunstrider's Regalia"]);
     text = gsub(text, "#t9s10_1a#", AL["Thassarian's Plate"]);
     text = gsub(text, "#t9s10_1h#", AL["Koltira's Plate"]);
     text = gsub(text, "#t9s10_2a#", AL["Thassarian's Battlegear"]);

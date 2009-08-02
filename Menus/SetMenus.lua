@@ -254,12 +254,12 @@ AtlasLoot_Data["T7T8SET"] = {
 AtlasLoot_Data["T9SETALLIANCE"] = {
         { 2, "T9DeathKnightDPS_A", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["DPS"]};
         { 3, "T9DeathKnightTank_A", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Tanking"]};
-        --{ 5, "T9DruidBalance_A", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
-        --{ 6, "T9DruidFeral_A", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
-        --{ 7, "T9DruidRestoration_A", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
+        { 5, "T9DruidBalance_A", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
+        { 6, "T9DruidFeral_A", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
+        { 7, "T9DruidRestoration_A", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
         { 9, "T9Hunter_A", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        --[[{ 11, "T9Mage_A", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 13, "T9PaladinHoly_A", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
+        { 11, "T9Mage_A", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
+        --[[{ 13, "T9PaladinHoly_A", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
         { 14, "T9PaladinProtection_A", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Protection"]};
         { 15, "T9PaladinRetribution_A", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
         { 17, "T9PriestHoly_A", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Holy"]};
@@ -278,12 +278,12 @@ AtlasLoot_Data["T9SETALLIANCE"] = {
 AtlasLoot_Data["T9SETHORDE"] = {
         { 2, "T9DeathKnightDPS_H", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["DPS"]};
         { 3, "T9DeathKnightTank_H", "Spell_Deathknight_DeathStrike", "=ds="..BabbleClass["Deathknight"], "=q5="..AL["Tanking"]};
-        --{ 5, "T9DruidBalance_H", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
-        --{ 6, "T9DruidFeral_H", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
-        --{ 7, "T9DruidRestoration_H", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
+        { 5, "T9DruidBalance_H", "Spell_Nature_InsectSwarm", "=ds="..BabbleClass["Druid"], "=q5="..AL["Balance"]};
+        { 6, "T9DruidFeral_H", "Ability_Druid_Maul", "=ds="..BabbleClass["Druid"], "=q5="..AL["Feral"]};
+        { 7, "T9DruidRestoration_H", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
         { 9, "T9Hunter_H", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
-        --[[{ 11, "T9Mage_H", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        { 13, "T9PaladinHoly_H", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
+        { 11, "T9Mage_H", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
+        --[[{ 13, "T9PaladinHoly_H", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
         { 14, "T9PaladinProtection_H", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Protection"]};
         { 15, "T9PaladinRetribution_H", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
         { 17, "T9PriestHoly_H", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Holy"]};

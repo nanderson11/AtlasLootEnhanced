@@ -4818,6 +4818,138 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
 		Back = "T9SETHORDE";
 	};
+    
+    AtlasLoot_Data["T9DruidBalance_A"] = {
+        { 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48102, "", "=q4=Stormrage's Headpiece of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48131, "", "=q4=Stormrage's Spaulders of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48129, "", "=q4=Stormrage's Robe of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48132, "", "=q4=Stormrage's Handguards of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48130, "", "=q4=Stormrage's Leggings of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48134, "", "=q4=Stormrage's Headpiece of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48137, "", "=q4=Stormrage's Spaulders of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48136, "", "=q4=Stormrage's Robe of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48133, "", "=q4=Stormrage's Handguards of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48135, "", "=q4=Stormrage's Leggings of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 24, 48141, "", "=q4=Stormrage's Headpiece of Triumph", "=ds="};
+		{ 25, 48138, "", "=q4=Stormrage's Spaulders of Triumph", "=ds="};
+		{ 26, 48139, "", "=q4=Stormrage's Robe of Triumph", "=ds="};
+		{ 27, 48142, "", "=q4=Stormrage's Handguards of Triumph", "=ds="};
+		{ 28, 48140, "", "=q4=Stormrage's Leggings of Triumph", "=ds="};
+		Back = "T9SETALLIANCE";
+    };
+    
+    AtlasLoot_Data["T9DruidBalance_H"] = {
+        { 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48156, "", "=q4=Runetotem's Robe of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48153, "", "=q4=Runetotem's Handguards of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48155, "", "=q4=Runetotem's Leggings of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48151, "", "=q4=Runetotem's Headpiece of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48148, "", "=q4=Runetotem's Spaulders of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48149, "", "=q4=Runetotem's Robe of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48152, "", "=q4=Runetotem's Handguards of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48150, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48144, "", "=q4=Runetotem's Headpiece of Triumph", "=ds="};
+		{ 25, 48147, "", "=q4=Runetotem's Spaulders of Triumph", "=ds="};
+		{ 26, 48146, "", "=q4=Runetotem's Robe of Triumph", "=ds="};
+		{ 27, 48143, "", "=q4=Runetotem's Handguards of Triumph", "=ds="};
+		{ 28, 48145, "", "=q4=Runetotem's Leggings of Triumph", "=ds="};
+		Back = "T9SETHORDE";
+    };
+    
+    AtlasLoot_Data["T9DruidFeral_A"] = {
+        { 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48214, "", "=q4=Stormrage's Headguard of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48217, "", "=q4=Stormrage's Shoulderpads of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48216, "", "=q4=Stormrage's Raiments of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48213, "", "=q4=Stormrage's Handgrips of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48215, "", "=q4=Stormrage's Legguards of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48211, "", "=q4=Stormrage's Headguard of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48208, "", "=q4=Stormrage's Shoulderpads of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48209, "", "=q4=Stormrage's Raiments of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48212, "", "=q4=Stormrage's Handgrips of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48210, "", "=q4=Stormrage's Legguards of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
+		{ 24, 48204, "", "=q4=Stormrage's Headguard of Triumph", "=ds="};
+		{ 25, 48207, "", "=q4=Stormrage's Shoulderpads of Triumph", "=ds="};
+		{ 26, 48206, "", "=q4=Stormrage's Raiments of Triumph", "=ds="};
+		{ 27, 48203, "", "=q4=Stormrage's Handgrips of Triumph", "=ds="};
+		{ 28, 48205, "", "=q4=Stormrage's Legguards of Triumph", "=ds="};
+		Back = "T9SETALLIANCE";
+    };
+    
+    AtlasLoot_Data["T9DruidFeral_H"] = {
+        { 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48188, "", "=q4=Runetotem's Headguard of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48191, "", "=q4=Runetotem's Shoulderpads of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48189, "", "=q4=Runetotem's Raiments of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48192, "", "=q4=Runetotem's Handgrips of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48190, "", "=q4=Runetotem's Legguards of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48194, "", "=q4=Runetotem's Headguard of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48197, "", "=q4=Runetotem's Shoulderpads of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48196, "", "=q4=Runetotem's Raiments of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48193, "", "=q4=Runetotem's Handgrips of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48195, "", "=q4=Runetotem's Legguards of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Ability_Druid_Maul", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48201, "", "=q4=Runetotem's Headguard of Triumph", "=ds="};
+		{ 25, 48198, "", "=q4=Runetotem's Shoulderpads of Triumph", "=ds="};
+		{ 26, 48199, "", "=q4=Runetotem's Raiments of Triumph", "=ds="};
+		{ 27, 48202, "", "=q4=Runetotem's Handgrips of Triumph", "=ds="};
+		{ 28, 48200, "", "=q4=Runetotem's Legguards of Triumph", "=ds="};
+		Back = "T9SETHORDE";
+    };
+    
+    AtlasLoot_Data["T9DruidRestoration_A"] = {
+        { 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48158, "", "=q4=Stormrage's Cover of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48161, "", "=q4=Stormrage's Mantle of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48159, "", "=q4=Stormrage's Vestments of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48162, "", "=q4=Stormrage's Gloves of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48160, "", "=q4=Stormrage's Trousers of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48164, "", "=q4=Stormrage's Cover of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48167, "", "=q4=Stormrage's Mantle of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48166, "", "=q4=Stormrage's Vestments of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48163, "", "=q4=Stormrage's Gloves of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48165, "", "=q4=Stormrage's Trousers of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 24, 48171, "", "=q4=Stormrage's Cover of Triumph", "=ds="};
+		{ 25, 48168, "", "=q4=Stormrage's Mantle of Triumph", "=ds="};
+		{ 26, 48169, "", "=q4=Stormrage's Vestments of Triumph", "=ds="};
+		{ 27, 48172, "", "=q4=Stormrage's Gloves of Triumph", "=ds="};
+		{ 28, 48170, "", "=q4=Stormrage's Trousers of Triumph", "=ds="};
+		Back = "T9SETALLIANCE";
+    };
+    
+    AtlasLoot_Data["T9DruidRestoration_H"] = {
+        { 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
+		{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
+		{ 4, 48186, "", "=q4=Runetotem's Vestments of Conquest", "=ds=#s5#, #a4#", "50 #eoftriumph#"};
+		{ 5, 48183, "", "=q4=Runetotem's Gloves of Conquest", "=ds=#s9#, #a4#", "30 #eoftriumph#"};
+		{ 6, 48185, "", "=q4=Runetotem's Trousers of Conquest", "=ds=#s11#, #a4#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 17, 48181, "", "=q4=Runetotem's Cover of Triumph", "=ds=#s1#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 48178, "", "=q4=Runetotem's Mantle of Triumph", "=ds=#s3#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 48179, "", "=q4=Runetotem's Vestments of Triumph", "=ds=#s5#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 48182, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a4#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 48180, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 24, 48174, "", "=q4=Runetotem's Cover of Triumph", "=ds="};
+		{ 25, 48177, "", "=q4=Runetotem's Mantle of Triumph", "=ds="};
+		{ 26, 48176, "", "=q4=Runetotem's Vestments of Triumph", "=ds="};
+		{ 27, 48173, "", "=q4=Runetotem's Gloves of Triumph", "=ds="};
+		{ 28, 48175, "", "=q4=Runetotem's Trousers of Triumph", "=ds="};
+		Back = "T9SETHORDE";
+    };
 
 	AtlasLoot_Data["T9Hunter_A"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
@@ -4845,7 +4977,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48277, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48279, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
-		{ 4, 39575, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
+		{ 4, 48275, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
 		{ 5, 48276, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
 		{ 6, 48278, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
@@ -4860,6 +4992,50 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 26, 48265, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
 		{ 27, 48266, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 28, 48268, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
+		Back = "T9SETHORDE";
+	};
+    
+    AtlasLoot_Data["T9Mage_A"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
+		{ 2, 47748, "", "=q4=Khadgar's Hood of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
+		{ 3, 47751, "", "=q4=Khadgar's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
+		{ 4, 47749, "", "=q4=Khadgar's Robe of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
+		{ 5, 47752, "", "=q4=Khadgar's Gauntlets of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
+		{ 6, 47750, "", "=q4=Khadgar's Leggings of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
+		{ 17, 47754, "", "=q4=Khadgar's Hood of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 47757, "", "=q4=Khadgar's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 47756, "", "=q4=Khadgar's Robe of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 47753, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 47755, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
+		{ 24, 47761, "", "=q4=Khadgar's Hood of Triumph", "=ds=#s1#, #a3#"};
+		{ 25, 47758, "", "=q4=Khadgar's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
+		{ 26, 47759, "", "=q4=Khadgar's Robe of Triumph", "=ds=#s5#, #a3#"};
+		{ 27, 47762, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a3#"};
+		{ 28, 47760, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a3#"};
+		Back = "T9SETALLIANCE";
+	};
+
+	AtlasLoot_Data["T9Mage_H"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
+		{ 2, 47774, "", "=q4=Sunstrider's Hood of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
+		{ 3, 47777, "", "=q4=Sunstrider's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
+		{ 4, 47776, "", "=q4=Sunstrider's Robe of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
+		{ 5, 47773, "", "=q4=Sunstrider's Gauntlets of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
+		{ 6, 47775, "", "=q4=Sunstrider's Leggings of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
+		{ 17, 47771, "", "=q4=Sunstrider's Hood of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 18, 47768, "", "=q4=Sunstrider's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 19, 47769, "", "=q4=Sunstrider's Robe of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 20, 47772, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 21, 47770, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 23, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
+		{ 24, 47764, "", "=q4=Sunstrider's Hood of Triumph", "=ds=#s1#, #a3#"};
+		{ 25, 47767, "", "=q4=Sunstrider's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
+		{ 26, 47766, "", "=q4=Sunstrider's Robe of Triumph", "=ds=#s5#, #a3#"};
+		{ 27, 47763, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a3#"};
+		{ 28, 47765, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a3#"};
 		Back = "T9SETHORDE";
 	};
 

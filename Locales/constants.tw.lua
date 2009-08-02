@@ -904,7 +904,7 @@ if AL then
 	AL["Nightsong Battlegear"] = "夜歌戰裝";
 	AL["Nightsong Regalia"] = "夜歌戰衣";
 	AL["Scourgestalker Battlegear"] = "天譴巡者戰裝";
-	AL["Kirin'dor Garb"] = "祈倫托裝束";
+	AL["Kirin Tor Garb"] = "祈倫托裝束";
 	AL["Aegis Regalia"] = "神禦戰衣";
 	AL["Aegis Battlegear"] = "神禦戰裝";
 	AL["Aegis Plate"] = "神禦鎧甲";

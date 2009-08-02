@@ -905,7 +905,7 @@ if AL then
 	AL["Nightsong Battlegear"] = true;
 	AL["Nightsong Regalia"] = true;
 	AL["Scourgestalker Battlegear"] = true;
-	AL["Kirin'dor Garb"] = true;
+	AL["Kirin Tor Garb"] = true;
 	AL["Aegis Regalia"] = true;
 	AL["Aegis Battlegear"] = true;
 	AL["Aegis Plate"] = true;
@@ -920,8 +920,16 @@ if AL then
 	AL["Siegebreaker Plate"] = true;
 
 	--Tier 9 Sets
+    AL["Malfurion's Garb"] = true;
+    AL["Malfurion's Battlegear"] = true;
+    AL["Malfurion's Regalia"] = true;
+    AL["Runetotem's Garb"] = true;
+    AL["Runetotem's Battlegear"] = true;
+    AL["Runetotem's Regalia"] = true;
 	AL["Windrunner's Battlegear"] = true;
 	AL["Windrunner's Pursuit"] = true;
+    AL["Khadgar's Regalia"] = true;
+    AL["Sunstrider's Regalia"] = true;
 	AL["Thassarian's Battlegear"] = true;
 	AL["Koltira's Battlegear"] = true;
 	AL["Thassarian's Plate"] = true;

@@ -902,7 +902,7 @@ if AL then
 	AL["Nightsong Battlegear"] = "Броня ночной песни";
 	AL["Nightsong Regalia"] = "Регалии ночной песни";
 	AL["Scourgestalker Battlegear"] = "Броня преследующего Плеть";
-	AL["Kirin'dor Garb"] = "Киринторский наряд";
+	AL["Kirin Tor Garb"] = "Киринторский наряд";
 	AL["Aegis Regalia"] = "Регалии покровительства";
 	AL["Aegis Battlegear"] = "Броня покровительства";
 	AL["Aegis Plate"] = "Латы покровительства";
