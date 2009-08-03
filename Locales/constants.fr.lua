@@ -919,16 +919,16 @@ if AL then
 	AL["Siegebreaker Plate"] = "Armure brise-siège en plaques";
 
 	--Tier 9 Sets
-	--AL["Malfurion's Garb"] = true;
-	--AL["Malfurion's Battlegear"] = true;
-	--AL["Malfurion's Regalia"] = true;
-	--AL["Runetotem's Garb"] = true;
-	--AL["Runetotem's Battlegear"] = true;
-	--AL["Runetotem's Regalia"] = true;
+	AL["Malfurion's Garb"] = "Grande tenue de Malfurion";
+	AL["Malfurion's Battlegear"] = "Tenue de parade du totem runique";
+	AL["Malfurion's Regalia"] = "Tenue de parade de Malfurion";
+	AL["Runetotem's Garb"] = "Grande tenue du totem runique";
+	AL["Runetotem's Battlegear"] = "Tenue de combat du totem runique";
+	AL["Runetotem's Regalia"] = "Tenue de parade du totem runique";
 	AL["Windrunner's Battlegear"] = "Parure de Coursevent";
 	AL["Windrunner's Pursuit"] = "Tenue de combat de Coursevent";
-	--AL["Khadgar's Regalia"] = true;
-	--AL["Sunstrider's Regalia"] = true;
+	AL["Khadgar's Regalia"] = "Tenue de parade de Haut-soleil";
+	AL["Sunstrider's Regalia"] = "Tenue de parade de Khadgar";
 	AL["Thassarian's Battlegear"] = "Tenue de combat de Thassarian";
 	AL["Koltira's Battlegear"] = "Tenue de combat de Koltira";
 	AL["Thassarian's Plate"] = "Armure de Thassarian en plaques";
