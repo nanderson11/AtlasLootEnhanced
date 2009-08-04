@@ -5170,9 +5170,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["CardGame1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud35#"};
-		{ 2, 46778, "", "=q4=Magic Rooster Egg", "=ds="};
-		{ 3, 46780, "", "=q3=Ogre Pinata", "=ds="};
-		{ 4, 46779, "", "=q1=Path of Cenarius", "=ds="};
+		{ 2, 46778, "", "=q4=Magic Rooster Egg", "=ds=#ud38#"};
+		{ 3, 46780, "", "=q3=Ogre Pinata", "=ds=#ud37#"};
+		{ 4, 46779, "", "=q1=Path of Cenarius", "=ds=#ud36#"};
 		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud31#"};
 		{ 7, 45037, "", "=q4=Epic Purple Shirt", "=ds=#ud32#"};
 		{ 8, 45063, "", "=q3=Foam Sword Rack", "=ds=#ud33#"};

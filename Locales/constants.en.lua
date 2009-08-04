@@ -539,6 +539,9 @@ if AL then
 
 	-- Ninth set
 	AL["Fields of Honor"] = true;
+	AL["Path of Cenarius"] = true;
+	AL["Pinata"] = true;
+	AL["El Pollo Grande"] = true;
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = true;
