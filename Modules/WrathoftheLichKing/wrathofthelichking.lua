@@ -4825,7 +4825,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETHORDE";
 	};
     
-    AtlasLoot_Data["T9DruidBalance_A"] = {
+    AtlasLoot_Data["T9DruidRestoration_A"] = {
         { 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48102, "", "=q4=Stormrage's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48131, "", "=q4=Stormrage's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
@@ -4847,7 +4847,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETALLIANCE";
     };
     
-    AtlasLoot_Data["T9DruidBalance_H"] = {
+    AtlasLoot_Data["T9DruidRestoration_H"] = {
         { 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
@@ -4913,7 +4913,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETHORDE";
     };
     
-    AtlasLoot_Data["T9DruidRestoration_A"] = {
+    AtlasLoot_Data["T9DruidBalance_A"] = {
         { 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48158, "", "=q4=Stormrage's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48161, "", "=q4=Stormrage's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
@@ -4935,7 +4935,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETALLIANCE";
     };
     
-    AtlasLoot_Data["T9DruidRestoration_H"] = {
+    AtlasLoot_Data["T9DruidBalance_H"] = {
         { 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
