@@ -46,8 +46,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#p21#", (GetSpellInfo(26797)));	-- Spellfire Tailoring
     text = gsub(text, "#p22#", (GetSpellInfo(17040)));	-- Master Hammersmith
     text = gsub(text, "#p23#", (GetSpellInfo(2575)));	-- Mining
-	text = gsub(text, "#p24#", (GetSpellInfo(63275)));	-- Fishing
-	
+    text = gsub(text, "#p24#", (GetSpellInfo(63275)));	-- Fishing
+
     -- Reputation
     text = gsub(text, "#r1#", BabbleFaction["Neutral"]);
     text = gsub(text, "#r2#", BabbleFaction["Friendly"]);
@@ -807,7 +807,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t7s9_2#", AL["Dreadnaught Plate"]);
     text = gsub(text, "#t7s10_1#", AL["Scourgeborne Battlegear"]);
     text = gsub(text, "#t7s10_2#", AL["Scourgeborne Plate"]);
-    
+
     -- Tier 8 Sets
     text = gsub(text, "#t8s1_1#", AL["Nightsong Garb"]);
     text = gsub(text, "#t8s1_2#", AL["Nightsong Battlegear"]);
@@ -968,7 +968,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#arenas9#", AL["Gladiator's Battlegear"]);
     text = gsub(text, "#arenas10#", AL["Gladiator's Desecration"]);
 
-    --Crafting
+    -- Crafting
     text = gsub(text, "#sr#", AL["Skill Required:"]);
 
     -- Misc PvP Set Text

@@ -107,7 +107,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 35574, "", "=q3=Chestplate of the Northern Lights", "=ds=#s5#, #a4#", "", "28%"};
 		{ 4, 35573, "", "=q3=Arm Blade of Augelmir", "=ds=#h3#, #w13#", "", "30%"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 40752, "", "=q4=Emblem of Heroism", "=ds=#e15#", "", "100%"};
+		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 18, 37183, "", "=q3=Bindings of the Tunneler", "=ds=#s8#, #a2#", "", "21%"};
 		{ 19, 37184, "", "=q3=Dalronn's Jerkin", "=ds=#s5#, #a3#", "", "21%"};
 		{ 20, 37182, "", "=q3=Helmet of the Constructor", "=ds=#s1#, #a4#", "", "21%"};
@@ -298,7 +298,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--- Ahn'kahet: The Old Kingdom ---
 		----------------------------------
 
-	AtlasLoot_Data["AhnkahetNadox"] = {		
+	AtlasLoot_Data["AhnkahetNadox"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 35607, "", "=q3=Ahn'kahar Handwraps", "=ds=#s9#, #a2#", "", "30%"};
 		{ 3, 35608, "", "=q3=Crawler-Emblem Belt", "=ds=#s10#, #a4#", "", "29%"};
@@ -4824,9 +4824,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
 		Back = "T9SETHORDE";
 	};
-    
-    AtlasLoot_Data["T9DruidRestoration_A"] = {
-        { 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+
+	AtlasLoot_Data["T9DruidRestoration_A"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48102, "", "=q4=Stormrage's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48131, "", "=q4=Stormrage's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48129, "", "=q4=Stormrage's Robe of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
@@ -4845,10 +4845,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48142, "", "=q4=Stormrage's Handguards of Triumph", "=ds="};
 		{ 21, 48140, "", "=q4=Stormrage's Leggings of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
-    };
-    
-    AtlasLoot_Data["T9DruidRestoration_H"] = {
-        { 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+	};
+
+	AtlasLoot_Data["T9DruidRestoration_H"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48156, "", "=q4=Runetotem's Robe of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
@@ -4867,10 +4867,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48143, "", "=q4=Runetotem's Handguards of Triumph", "=ds="};
 		{ 21, 48145, "", "=q4=Runetotem's Leggings of Triumph", "=ds="};
 		Back = "T9SETHORDE";
-    };
-    
-    AtlasLoot_Data["T9DruidFeral_A"] = {
-        { 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
+	};
+
+	AtlasLoot_Data["T9DruidFeral_A"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48214, "", "=q4=Stormrage's Headguard of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48217, "", "=q4=Stormrage's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48216, "", "=q4=Stormrage's Raiments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
@@ -4889,10 +4889,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48203, "", "=q4=Stormrage's Handgrips of Triumph", "=ds="};
 		{ 21, 48205, "", "=q4=Stormrage's Legguards of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
-    };
-    
-    AtlasLoot_Data["T9DruidFeral_H"] = {
-        { 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
+	};
+
+	AtlasLoot_Data["T9DruidFeral_H"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48188, "", "=q4=Runetotem's Headguard of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48191, "", "=q4=Runetotem's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48189, "", "=q4=Runetotem's Raiments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
@@ -4911,10 +4911,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48202, "", "=q4=Runetotem's Handgrips of Triumph", "=ds="};
 		{ 21, 48200, "", "=q4=Runetotem's Legguards of Triumph", "=ds="};
 		Back = "T9SETHORDE";
-    };
-    
-    AtlasLoot_Data["T9DruidBalance_A"] = {
-        { 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+	};
+
+	AtlasLoot_Data["T9DruidBalance_A"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48158, "", "=q4=Stormrage's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48161, "", "=q4=Stormrage's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48159, "", "=q4=Stormrage's Vestments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
@@ -4933,10 +4933,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48172, "", "=q4=Stormrage's Gloves of Triumph", "=ds="};
 		{ 21, 48170, "", "=q4=Stormrage's Trousers of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
-    };
-    
-    AtlasLoot_Data["T9DruidBalance_H"] = {
-        { 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+	};
+
+	AtlasLoot_Data["T9DruidBalance_H"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48186, "", "=q4=Runetotem's Vestments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
@@ -4955,7 +4955,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48173, "", "=q4=Runetotem's Gloves of Triumph", "=ds="};
 		{ 21, 48175, "", "=q4=Runetotem's Trousers of Triumph", "=ds="};
 		Back = "T9SETHORDE";
-    };
+	};
 
 	AtlasLoot_Data["T9Hunter_A"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
@@ -5000,8 +5000,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48268, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
 		Back = "T9SETHORDE";
 	};
-    
-    AtlasLoot_Data["T9Mage_A"] = {
+
+	AtlasLoot_Data["T9Mage_A"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
 		{ 2, 47748, "", "=q4=Khadgar's Hood of Conquest", "=ds=#s1#, #a1#", "50 #eoftriumph#"};
 		{ 3, 47751, "", "=q4=Khadgar's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "30 #eoftriumph#"};
@@ -5044,8 +5044,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 47765, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#"};
 		Back = "T9SETHORDE";
 	};
-    
-    AtlasLoot_Data["T9PaladinHoly_A"] = {
+
+	AtlasLoot_Data["T9PaladinHoly_A"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48564, "", "=q4=Turalyon's Headpiece of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
 		{ 3, 48572, "", "=q4=Turalyon's Spaulders of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
@@ -5066,8 +5066,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48581, "", "=q4=Turalyon's Greaves of Triumph", "=ds=#s11#, #a4#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9PaladinHoly_H"] = {
+
+	AtlasLoot_Data["T9PaladinHoly_H"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48597, "", "=q4=Liadrin's Headpiece of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
 		{ 3, 48595, "", "=q4=Liadrin's Spaulders of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
@@ -5110,8 +5110,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48613, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9PaladinRetribution_H"] = {
+
+	AtlasLoot_Data["T9PaladinRetribution_H"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48629, "", "=q4=Liadrin's Helm of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
 		{ 3, 48627, "", "=q4=Liadrin's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
@@ -5154,8 +5154,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48645, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9PaladinProtection_H"] = {
+
+	AtlasLoot_Data["T9PaladinProtection_H"] = {
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t9s4_3h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48654, "", "=q4=Liadrin's Faceguard of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
 		{ 3, 48656, "", "=q4=Liadrin's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
@@ -5198,8 +5198,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48084, "", "=q4=Velen's Pants of Triumph", "=ds=#s11#, #a1#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9PriestShadow_H"] = {
+
+	AtlasLoot_Data["T9PriestShadow_H"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t9s5_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48098, "", "=q4=Zabra's Circlet of Conquest", "=ds=#s1#, #a1#", "50 #eoftriumph#"};
 		{ 3, 48101, "", "=q4=Zabra's Mantle of Conquest", "=ds=#s3#, #a1#", "30 #eoftriumph#"};
@@ -5242,8 +5242,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48033, "", "=q4=Velen's Leggings of Triumph", "=ds=#s11#, #a1#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9PriestHoly_H"] = {
+
+	AtlasLoot_Data["T9PriestHoly_H"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t9s5_2h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48068, "", "=q4=Zabra's Cowl of Conquest", "=ds=#s1#, #a1#", "50 #eoftriumph#"};
 		{ 3, 48071, "", "=q4=Zabra's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "30 #eoftriumph#"};
@@ -5286,8 +5286,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48229, "", "=q4=VanCleef's Legplates of Triumph", "=ds=#s11#, #a2#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9Rogue_H"] = {
+
+	AtlasLoot_Data["T9Rogue_H"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#t9s6_h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48245, "", "=q4=Garona's Helmet of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48247, "", "=q4=Garona's Pauldrons of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
@@ -5328,10 +5328,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 48325, "", "=q4=Nobundo's Hauberk of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48324, "", "=q4=Nobundo's Gloves of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48322, "", "=q4=Nobundo's Kilt of Triumph", "=ds=#s11#, #a3#"};
-        Back = "T9SETALLIANCE";
+		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9ShamanRestoration_H"] = {
+
+	AtlasLoot_Data["T9ShamanRestoration_H"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48338, "", "=q4=Thrall's Helm of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48340, "", "=q4=Thrall's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
@@ -5350,7 +5350,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 48326, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48327, "", "=q4=Thrall's Gloves of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48329, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#"};
-        Back = "T9SETHORDE";
+		Back = "T9SETHORDE";
 	};
 
 	AtlasLoot_Data["T9ShamanEnhancement_A"] = {
@@ -5374,8 +5374,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48352, "", "=q4=Nobundo's War-Kilt of Triumph", "=ds=#s11#, #a3#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9ShamanEnhancement_H"] = {
+
+	AtlasLoot_Data["T9ShamanEnhancement_H"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t9s7_2h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48368, "", "=q4=Thrall's Faceguard of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48370, "", "=q4=Thrall's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
@@ -5418,8 +5418,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48291, "", "=q4=Nobundo's Legguards of Triumph", "=ds=#s11#, #a3#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9ShamanElemental_H"] = {
+
+	AtlasLoot_Data["T9ShamanElemental_H"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48297, "", "=q4=Thrall's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48299, "", "=q4=Thrall's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
@@ -5462,8 +5462,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 47790, "", "=q4=Kel'Thuzad's Leggings of Triumph", "=ds=#s11#, #a1#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9Warlock_H"] = {
+
+	AtlasLoot_Data["T9Warlock_H"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t9s8_h#", "=q5="..AL["Tier 9"]};
 		{ 2, 47801, "", "=q4=Gul'dan's Hood of Conquest", "=ds=#s1#, #a1#", "50 #eoftriumph#"};
 		{ 3, 47798, "", "=q4=Gul'dan's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "30 #eoftriumph#"};
@@ -5506,8 +5506,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48382, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9WarriorFury_H"] = {
+
+	AtlasLoot_Data["T9WarriorFury_H"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48388, "", "=q4=Hellscream's Helmet of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
 		{ 3, 48390, "", "=q4=Hellscream's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
@@ -5550,8 +5550,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 48447, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#"};
 		Back = "T9SETALLIANCE";
 	};
-    
-    AtlasLoot_Data["T9WarriorProtection_H"] = {
+
+	AtlasLoot_Data["T9WarriorProtection_H"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48458, "", "=q4=Hellscream's Greathelm of Conquest", "=ds=#s1#, #a4#", "50 #eoftriumph#"};
 		{ 3, 48460, "", "=q4=Hellscream's Pauldrons of Conquest", "=ds=#s3#, #a4#", "30 #eoftriumph#"};
