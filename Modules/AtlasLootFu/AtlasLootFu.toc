@@ -1,4 +1,4 @@
-﻿## Interface: 30100
+﻿## Interface: 30200
 ## Title: AtlasLootFu
 ## Notes: Minimap button for AtlasLoot
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAL 小地圖按鍵

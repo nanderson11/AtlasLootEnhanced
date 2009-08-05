@@ -5,10 +5,13 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v5.06.03
+v5.07.00
+Tier 9 Set items included
+TOC update for Patch 3.2
 Fixed deleting shared wishlists
 Fixed editing shared wishlists
 Items from shared wishlists are now correctly marked
+The Loot Browser now uses Atlas menus where possible to reduce code maintenance
 
 v5.06.02
 Fixed sorting bug with the loot filter

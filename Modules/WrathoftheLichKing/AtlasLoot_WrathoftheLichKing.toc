@@ -1,4 +1,4 @@
-﻿## Interface: 30100
+﻿## Interface: 30200
 ## Title: AtlasLoot_WrathoftheLichKing
 ## Title-zhCN: AtlasLoot |cFF0099FF[巫妖王之怒]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAL 巫妖王之怒

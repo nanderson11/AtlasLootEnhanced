@@ -259,7 +259,7 @@ AtlasLoot_Data["T9SETALLIANCE"] = {
         { 7, "T9DruidRestoration_A", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
         { 9, "T9Hunter_A", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
         { 11, "T9Mage_A", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        --[[{ 13, "T9PaladinHoly_A", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
+        { 13, "T9PaladinHoly_A", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
         { 14, "T9PaladinProtection_A", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Protection"]};
         { 15, "T9PaladinRetribution_A", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
         { 17, "T9PriestHoly_A", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Holy"]};
@@ -271,7 +271,6 @@ AtlasLoot_Data["T9SETALLIANCE"] = {
         { 26, "T9Warlock_A", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
         { 28, "T9WarriorFury_A", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Fury"]};
         { 29, "T9WarriorProtection_A", "INV_Shield_05", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Protection"]};
-        ]]
         Back = "SETMENU";
 	};
     
@@ -283,7 +282,7 @@ AtlasLoot_Data["T9SETHORDE"] = {
         { 7, "T9DruidRestoration_H", "Spell_Nature_Regeneration", "=ds="..BabbleClass["Druid"], "=q5="..AL["Restoration"]};
         { 9, "T9Hunter_H", "Ability_Hunter_RunningShot", "=ds="..BabbleClass["Hunter"], ""};
         { 11, "T9Mage_H", "Spell_Frost_IceStorm", "=ds="..BabbleClass["Mage"], ""};
-        --[[{ 13, "T9PaladinHoly_H", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
+        { 13, "T9PaladinHoly_H", "Spell_Holy_HolyBolt", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Holy"]};
         { 14, "T9PaladinProtection_H", "Spell_Holy_SealOfMight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Protection"]};
         { 15, "T9PaladinRetribution_H", "Spell_Holy_AuraOfLight", "=ds="..BabbleClass["Paladin"], "=q5="..AL["Retribution"]};
         { 17, "T9PriestHoly_H", "Spell_Holy_PowerWordShield", "=ds="..BabbleClass["Priest"], "=q5="..AL["Holy"]};
@@ -295,6 +294,5 @@ AtlasLoot_Data["T9SETHORDE"] = {
         { 26, "T9Warlock_H", "Spell_Shadow_CurseOfTounges", "=ds="..BabbleClass["Warlock"], ""};
         { 28, "T9WarriorFury_H", "Ability_Warrior_BattleShout", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Fury"]};
         { 29, "T9WarriorProtection_H", "INV_Shield_05", "=ds="..BabbleClass["Warrior"], "=q5="..AL["Protection"]};
-        ]]
         Back = "SETMENU";
 	};
