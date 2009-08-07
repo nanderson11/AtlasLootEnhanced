@@ -200,18 +200,21 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
 			[13] = {
-				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
+				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
 			[14] = {
-				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
+				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
 			[15] = {
-				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
+				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
 			[16] = {
-				{ BabbleZone["Vault of Archavon"], "Archavon", "Submenu" },
+				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
 			[17] = {
+				{ BabbleZone["Vault of Archavon"], "Archavon", "Submenu" },
+			},
+			[18] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
@@ -780,6 +783,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "OcuCloudstrider" },
 		{ "", "OcuEregos" },
 		{ "", "OcuTrash" },
+	},
+	["TrialoftheChampion"] = {
+		{ "", "TrialoftheChampionChampions" },
+		{ "", "TrialoftheChampionConfessorPaletress" },
+		{ "", "TrialoftheChampionEadricthePure" },
+		{ "", "TrialoftheChampionBlackKnight" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },

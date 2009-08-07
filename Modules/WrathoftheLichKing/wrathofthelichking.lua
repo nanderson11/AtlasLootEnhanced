@@ -2790,7 +2790,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 46096, "", "=q4=Signet of Soft Lament", "=ds=#s13#"};
 		{ 20, 46097, "", "=q4=Caress of Insanity", "=ds=#h1#, #w6#"};
 		{ 21, 46067, "", "=q4=Hammer of Crushing Whispers", "=ds=#h2#, #w6#"};
-		Prev = "UlduarMimiron";
 		Prev = "UlduarVezax";
 	};
 
@@ -2873,6 +2872,124 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		-----------------------------
 		--- Trial of the Champion ---
 		-----------------------------
+
+	AtlasLoot_Data["TrialoftheChampionChampions"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 47173, "", "=q4=Bindings of the Wicked", "=ds=#s8#, #a1#"};
+		{ 3, 47170, "", "=q4=Belt of Fierce Competition", "=ds=#s10#, #a2#"};
+		{ 4, 47174, "", "=q4=Binding of the Tranquil Glade", "=ds=#s10#, #a2#"};
+		{ 5, 47175, "", "=q4=Scale Boots of the Outlander", "=ds=#s12#, #a3#"};
+		{ 6, 47172, "", "=q4=Helm of the Bested Gallant", "=ds=#s1#, #a4#"};
+		{ 7, 47171, "", "=q4=Legguards of Abandoned Fealty", "=ds=#s11#, #a4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 19, 47249, "", "=q4=Leggings of the Snowy Bramble", "=ds=#s11#, #a2#"};
+		{ 20, 47248, "", "=q4=Treads of Dismal Fortune", "=ds=#s12#, #a2#"};
+		{ 21, 47250, "", "=q4=Pauldrons of the Deafening Gale", "=ds=#s3#, #a3#"};
+		{ 22, 47244, "", "=q4=Chestguard of the Ravenous Fiend", "=ds=#s5#, #a3#"};
+		{ 23, 47243, "", "=q4=Mark of the Relentless", "=ds=#s13#"};
+		{ 24, 47493, "", "=q4=Edge of Ruin", "=ds=#h2#, #w1#"};
+		Next = "TrialoftheChampionConfessorPaletress";
+	};
+
+	AtlasLoot_Data["TrialoftheChampionConfessorPaletress"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 47181, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#"};
+		{ 3, 47218, "", "=q4=The Confessor's Binding", "=ds=#s10#, #a1#"};
+		{ 4, 47185, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#"};
+		{ 5, 47217, "", "=q4=Gaze of the Somber Keeper", "=ds=#s1#, #a2#"};
+		{ 6, 47177, "", "=q4=Gloves of the Argent Fanatic", "=ds=#s9#, #a2#"};
+		{ 7, 47178, "", "=q4=Carapace of Grim Visions", "=ds=#s5#, #a3#"};
+		{ 8, 47211, "", "=q4=Wristguards of Ceaseless Regret", "=ds=#s8#, #a3#"};
+		{ 9, 47176, "", "=q4=Breastplate of the Imperial Joust", "=ds=#s5#, #a4#"};
+		{ 10, 47212, "", "=q4=Mercy's Hold", "=ds=#s9#, #a4#"};
+		{ 11, 47219, "", "=q4=Brilliant Hailstone Amulet", "=ds=#s2#"};
+		{ 12, 47213, "", "=q4=Abyssal Rune", "=ds=#s14#"};
+		{ 13, 47214, "", "=q4=Banner of Victory", "=ds=#s14#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 19, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#"};
+		{ 20, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#"};
+		{ 21, 47245, "", "=q4=Pauldrons of Concealed Loathing", "=ds=#s3#, #a3#"};
+		{ 22, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#"};
+		{ 23, 47514, "", "=q4=Regal Aurous Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 24, 47510, "", "=q4=Trueheart Girdle", "=ds=#s10#, #a4#"};
+		{ 25, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#"};
+		{ 26, 47511, "", "=q4=Plated Greaves of Providence", "=ds=#s12#, #a4#"};
+		{ 27, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
+		{ 28, 47512, "", "=q4=Sinner's Confession", "=ds=#s13#"};
+		{ 29, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
+		{ 30, 47522, "", "=q4=Marrowstrike", "=ds=#w7#"};
+		Prev = "TrialoftheChampionChampions";
+		Next = "TrialoftheChampionEadricthePure";
+	};
+
+	AtlasLoot_Data["TrialoftheChampionEadricthePure"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 47181, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#"};
+		{ 3, 47185, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#"};
+		{ 4, 47210, "", "=q4=Mantle of Gnarled Overgrowth", "=ds=#s3#, #a2#"};
+		{ 5, 47177, "", "=q4=Gloves of the Argent Fanatic", "=ds=#s9#, #a2#"};
+		{ 6, 47202, "", "=q4=Leggings of Brazen Trespass", "=ds=#s11#, #a2#"};
+		{ 7, 47178, "", "=q4=Carapace of Grim Visions", "=ds=#s5#, #a3#"};
+		{ 8, 47176, "", "=q4=Breastplate of the Imperial Joust", "=ds=#s5#, #a4#"};
+		{ 9, 47197, "", "=q4=Gauntlets of the Stouthearted Crusader", "=ds=#s9#, #a4#"};
+		{ 10, 47201, "", "=q4=Boots of Heartfelt Repentance", "=ds=#s12#, #a4#"};
+		{ 11, 47199, "", "=q4=Greaves of the Grand Paladin", "=ds=#s12#, #a4#"};
+		{ 12, 47200, "", "=q4=Signet of Purity", "=ds=#s13#"};
+		{ 13, 47213, "", "=q4=Abyssal Rune", "=ds=#s14#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 19, 47501, "", "=q4=Kurisu's Indecision", "=ds=#s4#"};
+		{ 20, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#"};
+		{ 21, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#"};
+		{ 22, 47504, "", "=q4=Barkhide Treads", "=ds=#s12#, #a2#"};
+		{ 23, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#"};
+		{ 24, 47502, "", "=q4=Majestic Silversmith Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 25, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#"};
+		{ 26, 47503, "", "=q4=Legplates of the Argent Armistice", "=ds=#s11#, #a4#"};
+		{ 27, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
+		{ 28, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
+		{ 29, 47509, "", "=q4=Mariel's Sorrow", "=ds=#h3#, #w6#"};
+		{ 30, 47508, "", "=q4=Aledar's Battlestar", "=ds=#h1#, #w6#"};
+		Prev = "TrialoftheChampionConfessorPaletress";
+		Next = "TrialoftheChampionBlackKnight";
+	};
+
+	AtlasLoot_Data["TrialoftheChampionBlackKnight"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 47232, "", "=q4=Drape of the Undefeated", "=ds=#s4#"};
+		{ 3, 47226, "", "=q4=Mantle of Inconsolable Fear", "=ds=#s3#, #a1#"};
+		{ 4, 47230, "", "=q4=Handwraps of Surrendered Hope", "=ds=#s9#, #a1#"};
+		{ 5, 47221, "", "=q4=Shoulderpads of the Infamous Knave", "=ds=#s3#, #a2#"};
+		{ 6, 47231, "", "=q4=Belt of Merciless Cruelty", "=ds=#s10#, #a3#"};
+		{ 7, 47228, "", "=q4=Leggings of the Bloodless Knight", "=ds=#s11#, #a3#"};
+		{ 8, 47220, "", "=q4=Helm of the Violent Fray", "=ds=#s1#, #a4#"};
+		{ 9, 47229, "", "=q4=Girdle of Arrogant Downfall", "=ds=#s10#, #a4#"};
+		{ 10, 47227, "", "=q4=Girdle of the Pallid Knight", "=ds=#s10#, #a4#"};
+		{ 11, 47222, "", "=q4=Uruka's Band of Zeal", "=ds=#s13#"};
+		{ 12, 47215, "", "=q4=Tears of the Vanquished", "=ds=#s14#"};
+		{ 13, 47216, "", "=q4=The Black Heart", "=ds=#s14#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 19, 47564, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#"};
+		{ 20, 47527, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#"};
+		{ 21, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#"};
+		{ 22, 47529, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#"};
+		{ 23, 47561, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#"};
+		{ 24, 47563, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#"};
+		{ 25, 47565, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#"};
+		{ 26, 47567, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#"};
+		{ 27, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#"};
+		{ 28, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#"};
+		{ 29, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#"};
+		{ 30, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
+		Prev = "TrialoftheChampionEadricthePure";
+	};
 
 	----------------
 	--- Factions ---

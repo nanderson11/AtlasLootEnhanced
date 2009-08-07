@@ -217,7 +217,11 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["UlduarPatterns"] = { AL["Ulduar Formula/Patterns/Plans"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["UlduarTrash25Man"] = { AL["Trash Mobs"].." ("..BabbleZone["Ulduar"]..")", "AtlasLootWotLK" };
-
+  -- Trial of the Champion
+	AtlasLoot_TableNames["TrialoftheChampionChampions"] = { AL["Faction Champions"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheChampionConfessorPaletress"] = { BabbleBoss["Argent Confessor Paletress"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheChampionEadricthePure"] = { BabbleBoss["Eadric the Pure"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheChampionBlackKnight"] = { BabbleBoss["The Black Knight"], "AtlasLootWotLK" };
 --------------------
 --- BC Instances ---
 --------------------
