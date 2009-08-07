@@ -4969,7 +4969,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 10, 48259, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48255, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 14, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 13, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 		{ 17, 48262, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 		{ 18, 48260, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
