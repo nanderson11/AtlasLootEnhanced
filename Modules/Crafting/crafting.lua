@@ -253,7 +253,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["AlchemyFlask1"] = {
-        { 1, "s67025", "47499", "=q3=Flask of the North", "=ds="};
+		{ 1, "s67025", "47499", "=q3=Flask of the North", "=ds="};
 		{ 2, "s53903", "40084", "=q1=Flask of Endless Rage", "=ds="..AL["Trainer"]};
 		{ 3, "s54213", "46378", "=q1=Flask of Pure Mojo", "=ds="..AL["Trainer"]};
 		{ 4, "s53902", "46377", "=q1=Flask of Stoneblood", "=ds="..AL["Trainer"]};
@@ -277,12 +277,12 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["AlchemyTransmute1"] = {
-        { 1, "s66658", "36931", "=q4=Transmute: Ametrine", "=ds="};
-        { 2, "s66659", "36919", "=q4=Transmute: Cardinal Ruby", "=ds="};
-        { 3, "s66662", "36928", "=q4=Transmute: Dreadstone", "=ds="};
-        { 4, "s66664", "36934", "=q4=Transmute: Eye of Zul", "=ds="};
-        { 5, "s66660", "36922", "=q4=Transmute: King's Amber", "=ds="};
-        { 6, "s66663", "36925", "=q4=Transmute: Majestic Zircon", "=ds="};
+		{ 1, "s66658", "36931", "=q4=Transmute: Ametrine", "=ds="};
+		{ 2, "s66659", "36919", "=q4=Transmute: Cardinal Ruby", "=ds="};
+		{ 3, "s66662", "36928", "=q4=Transmute: Dreadstone", "=ds="};
+		{ 4, "s66664", "36934", "=q4=Transmute: Eye of Zul", "=ds="};
+		{ 5, "s66660", "36922", "=q4=Transmute: King's Amber", "=ds="};
+		{ 6, "s66663", "36925", "=q4=Transmute: Majestic Zircon", "=ds="};
 		{ 7, "s54020", "40248", "=q3=Transmute: Eternal Might", "=ds="};
 		{ 8, "s57427", "41334", "=q3=Transmute: Earthsiege Diamond", "=ds="..AL["Trainer"]};
 		{ 9, "s57425", "41266", "=q3=Transmute: Skyflare Diamond", "=ds="..AL["Trainer"]};
@@ -313,7 +313,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["AlchemyTransmute2"] = {
-        { 1, "s28581", "22456", "=q2=Transmute: Primal Water to Shadow", "=ds="..AL["Discovery"]};
+		{ 1, "s28581", "22456", "=q2=Transmute: Primal Water to Shadow", "=ds="..AL["Discovery"]};
 		{ 2, "s28566", "21884", "=q2=Transmute: Primal Air to Fire", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["The Sha'tar"]};
 		{ 3, "s28567", "21885", "=q2=Transmute: Primal Earth to Water", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["Sporeggar"]};
 		{ 4, "s28568", "22452", "=q2=Transmute: Primal Fire to Earth", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["The Mag'har"].."/"..BabbleFaction["Kurenai"]};
@@ -642,18 +642,18 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["SmithingArmorWrath1"] = {
-        { 1, "s67130", "47592", "=q4=Breastplate of the White Knight", "=ds="};
-        { 2, "s67091", "47591", "=q4=Breastplate of the White Knight", "=ds="};
-        { 3, "s67131", "47571", "=q4=Saronite Swordbreakers", "=ds="};
-        { 4, "s67092", "47570", "=q4=Saronite Swordbreakers", "=ds="};
-        { 5, "s67096", "47574", "=q4=Sunforged Bracers", "=ds="};
-        { 6, "s67135", "47575", "=q4=Sunforged Bracers", "=ds="};
-        { 7, "s67095", "47593", "=q4=Sunforged Breastplate", "=ds="};
-        { 8, "s67134", "47594", "=q4=Sunforged Breastplate", "=ds="};
-        { 9, "s67093", "47589", "=q4=Titanium Razorplate", "=ds="};
-        { 10, "s67132", "47590", "=q4=Titanium Razorplate", "=ds="};
-        { 11, "s67094", "47572", "=q4=Titanium Spikeguards", "=ds="};
-        { 12, "s67133", "47573", "=q4=Titanium Spikeguards", "=ds="};
+		{ 1, "s67130", "47592", "=q4=Breastplate of the White Knight", "=ds="};
+		{ 2, "s67091", "47591", "=q4=Breastplate of the White Knight", "=ds="};
+		{ 3, "s67131", "47571", "=q4=Saronite Swordbreakers", "=ds="};
+		{ 4, "s67092", "47570", "=q4=Saronite Swordbreakers", "=ds="};
+		{ 5, "s67096", "47574", "=q4=Sunforged Bracers", "=ds="};
+		{ 6, "s67135", "47575", "=q4=Sunforged Bracers", "=ds="};
+		{ 7, "s67095", "47593", "=q4=Sunforged Breastplate", "=ds="};
+		{ 8, "s67134", "47594", "=q4=Sunforged Breastplate", "=ds="};
+		{ 9, "s67093", "47589", "=q4=Titanium Razorplate", "=ds="};
+		{ 10, "s67132", "47590", "=q4=Titanium Razorplate", "=ds="};
+		{ 11, "s67094", "47572", "=q4=Titanium Spikeguards", "=ds="};
+		{ 12, "s67133", "47573", "=q4=Titanium Spikeguards", "=ds="};
 		{ 13, "s63188", "45559", "=q4=Battlelord's Plate Boots", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 14, "s63187", "45550", "=q4=Belt of the Titans", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 15, "s63191", "45551", "=q4=Indestructible Plate Girdle", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
@@ -677,7 +677,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["SmithingArmorWrath2"] = {
-        { 1, "s56555", "42725", "=q3=Ornate Saronite Hauberk", "=ds="..AL["Trainer"] };
+		{ 1, "s56555", "42725", "=q3=Ornate Saronite Hauberk", "=ds="..AL["Trainer"] };
 		{ 2, "s56554", "42726", "=q3=Ornate Saronite Legplates", "=ds="..AL["Trainer"] };
 		{ 3, "s56556", "42728", "=q3=Ornate Saronite Skullshield", "=ds="..AL["Trainer"] };
 		{ 4, "s55304", "41346", "=q3=Righteous Greaves", "=ds="..AL["Trainer"] };
@@ -713,7 +713,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["SmithingArmorWrath3"] = {
-        { 1, "s54556", "40675", "=q3=Tempered Saronite Shoulders", "=ds="..AL["Trainer"] };
+		{ 1, "s54556", "40675", "=q3=Tempered Saronite Shoulders", "=ds="..AL["Trainer"] };
 		{ 2, "s59438", "43864", "=q3=Brilliant Saronite Bracers", "=ds="..AL["Trainer"] };
 		{ 3, "s55056", "41127", "=q3=Brilliant Saronite Gauntlets", "=ds="..AL["Trainer"] };
 		{ 4, "s54552", "40671", "=q3=Tempered Saronite Boots", "=ds="..AL["Trainer"] };
@@ -744,15 +744,15 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s55834", "41974", "=q2=Cobalt Bracers", "=ds="..AL["Trainer"] };
 		{ 30, "s52572", "39083", "=q2=Cobalt Shoulders", "=ds="..AL["Trainer"] };
 		Prev = "SmithingArmorWrath2";
-        Next = "SmithingArmorWrath4";
+		Next = "SmithingArmorWrath4";
 		Back = "SMITHINGMENU";
 	};
-    
-    AtlasLoot_Data["SmithingArmorWrath3"] = {
-        { 1, "s54550", "40668", "=q2=Cobalt Triangle Shield", "=ds="..AL["Trainer"] };
+
+	AtlasLoot_Data["SmithingArmorWrath3"] = {
+		{ 1, "s54550", "40668", "=q2=Cobalt Triangle Shield", "=ds="..AL["Trainer"] };
 		{ 2, "s52568", "39087", "=q2=Cobalt Belt", "=ds="..AL["Trainer"] };
 		{ 3, "s52569", "39088", "=q2=Cobalt Boots", "=ds="..AL["Trainer"] };
-        Prev = "SmithingArmorWrath3";
+		Prev = "SmithingArmorWrath3";
 		Back = "SMITHINGMENU";
 	};
 
@@ -790,7 +790,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "SmithingWeaponOld2";
 		Back = "SMITHINGMENU";
 	};
-	
+
 	AtlasLoot_Data["SmithingWeaponOld2"] = {
 		{ 1, "s10003", "7954", "=q3=The Shatterer", "=ds=#sr# 235"};
 		{ 2, "s34982", "29203", "=q2=Enchanted Thorium Blades", "=ds=#sr# 300"};
@@ -1070,124 +1070,124 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Cooking1"] = {
 		{ 1, "s818", "Spell_Fire_Fire", "=ds=Basic Campfire", "=ds="};
-        { 2, "s66037", "44838", "=q1=Slow-Roasted Turkey", "=ds="};
-        { 3, "s66034", "44839", "=q1=Candied Sweet Potato", "=ds="};
-        { 4, "s66035", "44840", "=q1=Cranberry Chutney", "=ds="};
-        { 5, "s66036", "44836", "=q1=Pumpkin Pie", "=ds="};
-        { 6, "s66038", "44837", "=q1=Spice Bread Stuffing", "=ds="};
-        { 7, "s65454", "46691", "=q1=Bread of the Dead", "=ds="};
-		{ 8, "s57423", "43015", "=q1=Fish Feast", "=ds="..AL["Vendor"]..""};
-		{ 9, "s58527", "43478", "=q1=Gigantic Feast", "=ds="..AL["Vendor"]..""};
-		{ 10, "s58528", "43480", "=q1=Small Feast", "=ds="..AL["Vendor"]..""};
-		{ 11, "s57441", "42999", "=q1=Blackened Dragonfin", "=ds="..AL["Vendor"]..""};
-		{ 12, "s57438", "42997", "=q1=Blackened Worg Steak", "=ds="..AL["Vendor"]..""};
-		{ 13, "s64358", "45932", "=q1=Black Jelly", "=ds="};
-		{ 14, "s57435", "43004", "=q1=Critter Bites", "=ds="..AL["Vendor"]..""};
-		{ 15, "s57439", "42998", "=q1=Cuttlesteak", "=ds="..AL["Vendor"]..""};
-		{ 16, "s57442", "43000", "=q1=Dragonfin Filet", "=ds="..AL["Vendor"]..""};
-		{ 17, "s45568", "34767", "=q1=Firecracker Salmon", "=ds="..AL["Vendor"]..""};
-		{ 18, "s57436", "42995", "=q1=Hearty Rhino", "=ds="..AL["Vendor"]..""};
-		{ 19, "s45570", "34769", "=q1=Imperial Manta Steak", "=ds="..AL["Vendor"]..""};
-		{ 20, "s45555", "34754", "=q1=Mega Mammoth Meal", "=ds="..AL["Vendor"]..""};
-		{ 21, "s45559", "34758", "=q1=Mighty Rhino Dogs", "=ds="..AL["Vendor"]..""};
-		{ 22, "s45567", "34766", "=q1=Poached Northern Sculpin", "=ds="..AL["Vendor"]..""};
-		{ 23, "s57434", "42994", "=q1=Rhinolicious Wyrmsteak", "=ds="..AL["Vendor"]..""};
-		{ 24, "s57437", "42996", "=q1=Snapper Extreme", "=ds="..AL["Vendor"]..""};
-		{ 25, "s57440", "43005", "=q1=Spiced Mammoth Treats", "=ds="..AL["Vendor"]..""};
-		{ 26, "s45557", "34756", "=q1=Spiced Wyrm Burger", "=ds="..AL["Vendor"]..""};
-		{ 27, "s45571", "34768", "=q1=Spicy Blue Nettlefish", "=ds="..AL["Vendor"]..""};
-		{ 28, "s57433", "42993", "=q1=Spicy Fried Herring", "=ds="..AL["Vendor"]..""};
-		{ 29, "s45556", "34755", "=q1=Tender Shoveltusk Steak", "=ds="..AL["Vendor"]..""};
-		{ 30, "s57443", "43001", "=q1=Tracker Snacks", "=ds="..AL["Vendor"]..""};
+		{ 2, "s66037", "44838", "=q1=Slow-Roasted Turkey", "=ds="};
+		{ 3, "s66034", "44839", "=q1=Candied Sweet Potato", "=ds="};
+		{ 4, "s66035", "44840", "=q1=Cranberry Chutney", "=ds="};
+		{ 5, "s66036", "44836", "=q1=Pumpkin Pie", "=ds="};
+		{ 6, "s66038", "44837", "=q1=Spice Bread Stuffing", "=ds="};
+		{ 7, "s65454", "46691", "=q1=Bread of the Dead", "=ds="};
+		{ 8, "s57423", "43015", "=q1=Fish Feast", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 9, "s58527", "43478", "=q1=Gigantic Feast", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 10, "s58528", "43480", "=q1=Small Feast", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 11, "s57441", "42999", "=q1=Blackened Dragonfin", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 12, "s57438", "42997", "=q1=Blackened Worg Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 13, "s64358", "45932", "=q1=Black Jelly", "=ds="..AL["Trainer"]};
+		{ 14, "s57435", "43004", "=q1=Critter Bites", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 15, "s57439", "42998", "=q1=Cuttlesteak", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 16, "s57442", "43000", "=q1=Dragonfin Filet", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 17, "s45568", "34767", "=q1=Firecracker Salmon", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 18, "s57436", "42995", "=q1=Hearty Rhino", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 19, "s45570", "34769", "=q1=Imperial Manta Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 20, "s45555", "34754", "=q1=Mega Mammoth Meal", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 21, "s45559", "34758", "=q1=Mighty Rhino Dogs", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 22, "s45567", "34766", "=q1=Poached Northern Sculpin", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 23, "s57434", "42994", "=q1=Rhinolicious Wyrmsteak", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 24, "s57437", "42996", "=q1=Snapper Extreme", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 25, "s57440", "43005", "=q1=Spiced Mammoth Treats", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 26, "s45557", "34756", "=q1=Spiced Wyrm Burger", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 27, "s45571", "34768", "=q1=Spicy Blue Nettlefish", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 28, "s57433", "42993", "=q1=Spicy Fried Herring", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 29, "s45556", "34755", "=q1=Tender Shoveltusk Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 30, "s57443", "43001", "=q1=Tracker Snacks", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		Next = "Cooking2";
 	};
 
 	AtlasLoot_Data["Cooking2"] = {
-        { 1, "s45558", "34757", "=q1=Very Burnt Worg", "=ds="..AL["Vendor"]..""};
-		{ 2, "s62350", "44953", "=q1=Worg Tartare", "=ds="..AL["Vendor"]..""};
-		{ 3, "s45554", "34753", "=q1=Great Feast", "=ds="..AL["Trainer"]..""};
+		{ 1, "s45558", "34757", "=q1=Very Burnt Worg", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 2, "s62350", "44953", "=q1=Worg Tartare", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 3, "s45554", "34753", "=q1=Great Feast", "=ds="..AL["Trainer"]};
 		{ 4, "s53056", "39520", "=q1=Kungaloosh", "=ds="..AL["Quest"]..""};
 		{ 5, "s58523", "43491", "=q1=Bad Clams", "=ds="..AL["Drop"]..""};
-		{ 6, "s45569", "42942", "=q1=Baked Manta Ray", "=ds="..AL["Trainer"]..""};
-		{ 7, "s58065", "43268", "=q1=Dalaran Clam Chowder", "=ds="..AL["Trainer"]..""};
-		{ 8, "s42302", "33052", "=q1=Fisherman's Feast", "=ds="..AL["Trainer"]..""};
-		{ 9, "s45561", "34760", "=q1=Grilled Bonescale", "=ds="..AL["Trainer"]..""};
-		{ 10, "s45563", "34762", "=q1=Grilled Sculpin", "=ds="..AL["Trainer"]..""};
+		{ 6, "s45569", "42942", "=q1=Baked Manta Ray", "=ds="..AL["Trainer"]};
+		{ 7, "s58065", "43268", "=q1=Dalaran Clam Chowder", "=ds="..AL["Trainer"]};
+		{ 8, "s42302", "33052", "=q1=Fisherman's Feast", "=ds="..AL["Trainer"]};
+		{ 9, "s45561", "34760", "=q1=Grilled Bonescale", "=ds="..AL["Trainer"]};
+		{ 10, "s45563", "34762", "=q1=Grilled Sculpin", "=ds="..AL["Trainer"]};
 		{ 11, "s58525", "43492", "=q1=Haunted Herring", "=ds="..AL["Drop"]..""};
-		{ 12, "s42305", "33053", "=q1=Hot Buttered Trout", "=ds="..AL["Trainer"]..""};
+		{ 12, "s42305", "33053", "=q1=Hot Buttered Trout", "=ds="..AL["Trainer"]};
 		{ 13, "s58521", "43488", "=q1=Last Week's Mammoth", "=ds="..AL["Drop"]..""};
-		{ 14, "s45549", "34748", "=q1=Mammoth Meal", "=ds="..AL["Trainer"]..""};
+		{ 14, "s45549", "34748", "=q1=Mammoth Meal", "=ds="..AL["Trainer"]};
 		{ 15, "s57421", "34747", "=q1=Northern Stew", "=ds="..AL["Quest"]..""};
-		{ 16, "s45566", "34765", "=q1=Pickled Fangtooth", "=ds="..AL["Trainer"]..""};
-		{ 17, "s45565", "34764", "=q1=Poached Nettlefish", "=ds="..AL["Trainer"]..""};
-		{ 18, "s45553", "34752", "=q1=Rhino Dogs", "=ds="..AL["Trainer"]..""};
-		{ 19, "s45552", "34751", "=q1=Roasted Worg", "=ds="..AL["Trainer"]..""};
-		{ 20, "s45562", "34761", "=q1=Sauteed Goby", "=ds="..AL["Trainer"]..""};
-		{ 21, "s45550", "34749", "=q1=Shoveltusk Steak", "=ds="..AL["Trainer"]..""};
-		{ 22, "s45560", "34759", "=q1=Smoked Rockfin", "=ds="..AL["Trainer"]..""};
-		{ 23, "s45564", "34763", "=q1=Smoked Salmon", "=ds="..AL["Trainer"]..""};
-		{ 24, "s33296", "27667", "=q1=Spicy Crawdad", "=ds="..AL["Vendor"]..""};
+		{ 16, "s45566", "34765", "=q1=Pickled Fangtooth", "=ds="..AL["Trainer"]};
+		{ 17, "s45565", "34764", "=q1=Poached Nettlefish", "=ds="..AL["Trainer"]};
+		{ 18, "s45553", "34752", "=q1=Rhino Dogs", "=ds="..AL["Trainer"]};
+		{ 19, "s45552", "34751", "=q1=Roasted Worg", "=ds="..AL["Trainer"]};
+		{ 20, "s45562", "34761", "=q1=Sauteed Goby", "=ds="..AL["Trainer"]};
+		{ 21, "s45550", "34749", "=q1=Shoveltusk Steak", "=ds="..AL["Trainer"]};
+		{ 22, "s45560", "34759", "=q1=Smoked Rockfin", "=ds="..AL["Trainer"]};
+		{ 23, "s45564", "34763", "=q1=Smoked Salmon", "=ds="..AL["Trainer"]};
+		{ 24, "s33296", "27667", "=q1=Spicy Crawdad", "=ds="..AL["Vendor"]..", "..BabbleZone["Terokkar Forest"]};
 		{ 25, "s58512", "43490", "=q1=Tasty Cupcake", "=ds="..AL["Drop"]..""};
-		{ 26, "s45551", "34750", "=q1=Wyrm Delight", "=ds="..AL["Trainer"]..""};
-		{ 27, "s38868", "31673", "=q1=Crunchy Serpent", "=ds="};
-		{ 28, "s38867", "31672", "=q1=Mok'Nathal Shortribs", "=ds="};
-		{ 29, "s33295", "27666", "=q1=Golden Fish Sticks", "=ds="..AL["Vendor"]..""};
+		{ 26, "s45551", "34750", "=q1=Wyrm Delight", "=ds="..AL["Trainer"]};
+		{ 27, "s38868", "31673", "=q1=Crunchy Serpent", "=ds="..AL["Vendor"]..", "..BabbleZone["Blade's Edge Mountains"]};
+		{ 28, "s38867", "31672", "=q1=Mok'Nathal Shortribs", "=ds="..AL["Vendor"]..", "..BabbleZone["Blade's Edge Mountains"]};
+		{ 29, "s33295", "27666", "=q1=Golden Fish Sticks", "=ds="..AL["Vendor"]..", "..BabbleZone["Terokkar Forest"]};
 		{ 30, "s45022", "34411", "=q1=Hot Apple Cider", "=ds="..AL["Vendor"]..""};
 		Prev = "Cooking1";
 		Next = "Cooking3";
 	};
 
 	AtlasLoot_Data["Cooking3"] = {
-        { 1, "s33287", "27658", "=q1=Roasted Clefthoof", "=ds="..AL["Vendor"]..""};
+		{ 1, "s33287", "27658", "=q1=Roasted Clefthoof", "=ds="..AL["Vendor"]..", "..BabbleZone["Nagrand"]};
 		{ 2, "s43707", "33825", "=q1=Skullfish Soup", "=ds="..AL["Drop"]..""};
 		{ 3, "s43765", "33872", "=q1=Spicy Hot Talbuk", "=ds="..AL["Drop"]..""};
-		{ 4, "s33289", "27660", "=q1=Talbuk Steak", "=ds="..AL["Vendor"]..""};
-		{ 5, "s33288", "27659", "=q1=Warp Burger", "=ds="..AL["Vendor"]..""};
-		{ 6, "s33293", "27664", "=q1=Grilled Mudfish", "=ds="..AL["Vendor"]..""};
-		{ 7, "s33294", "27665", "=q1=Poached Bluefish", "=ds="..AL["Vendor"]..""};
-		{ 8, "s42296", "33048", "=q1=Stewed Trout", "=ds="..AL["Trainer"]..""};
-		{ 9, "s33286", "27657", "=q1=Blackened Basilisk", "=ds="..AL["Vendor"]..""};
-		{ 10, "s33292", "27663", "=q1=Blackened Sporefish", "=ds="..AL["Vendor"]..""};
-		{ 11, "s33285", "27656", "=q1=Sporeling Snack", "=ds="..AL["Vendor"]..""};
-		{ 12, "s33290", "27661", "=q1=Blackened Trout", "=ds="..AL["Vendor"]..""};
-		{ 13, "s43761", "33867", "=q1=Broiled Bloodfin", "=ds="};
+		{ 4, "s33289", "27660", "=q1=Talbuk Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Nagrand"]};
+		{ 5, "s33288", "27659", "=q1=Warp Burger", "=ds="..AL["Vendor"]..", "..BabbleZone["Terokkar Forest"]};
+		{ 6, "s33293", "27664", "=q1=Grilled Mudfish", "=ds="..AL["Vendor"]..", "..BabbleZone["Nagrand"]};
+		{ 7, "s33294", "27665", "=q1=Poached Bluefish", "=ds="..AL["Vendor"]..", "..BabbleZone["Nagrand"]};
+		{ 8, "s42296", "33048", "=q1=Stewed Trout", "=ds="..AL["Trainer"]};
+		{ 9, "s33286", "27657", "=q1=Blackened Basilisk", "=ds="..AL["Vendor"]..", "..BabbleZone["Terokkar Forest"]};
+		{ 10, "s33292", "27663", "=q1=Blackened Sporefish", "=ds="..AL["Vendor"]..", "..BabbleZone["Zangarmarsh"]};
+		{ 11, "s33285", "27656", "=q1=Sporeling Snack", "=ds="..AL["Vendor"]..", "..BabbleZone["Zangarmarsh"]};
+		{ 12, "s33290", "27661", "=q1=Blackened Trout", "=ds="..AL["Vendor"]..", "..BabbleZone["Zangarmarsh"]};
+		{ 13, "s43761", "33867", "=q1=Broiled Bloodfin", "=ds="..AL["Drop"]..""};
 		{ 14, "s33279", "27651", "=q1=Buzzard Bites", "=ds="..AL["Quest"]..""};
-		{ 15, "s36210", "30155", "=q1=Clam Bar", "=ds="..AL["Vendor"]..""};
+		{ 15, "s36210", "30155", "=q1=Clam Bar", "=ds="..AL["Vendor"]..", "..BabbleZone["Zangarmarsh"]};
 		{ 16, "s25659", "21023", "=q1=Dirge's Kickin' Chimaerok Chops", "=ds="..AL["Quest"]..""};
-		{ 17, "s33291", "27662", "=q1=Feltail Delight", "=ds="..AL["Vendor"]..""};
+		{ 17, "s33291", "27662", "=q1=Feltail Delight", "=ds="..AL["Vendor"]..", "..BabbleZone["Zangarmarsh"]};
 		{ 18, "s43772", "33874", "=q1=Kibler's Bits", "=ds="..AL["Drop"]..""};
-		{ 19, "s33284", "27655", "=q1=Ravager Dog", "=ds="..AL["Vendor"]..""};
+		{ 19, "s33284", "27655", "=q1=Ravager Dog", "=ds="..AL["Vendor"]..", "..BabbleZone["Hellfire Peninsula"]};
 		{ 20, "s43758", "33866", "=q1=Stormchops", "=ds="..AL["Drop"]..""};
 		{ 21, "s24801", "20452", "=q1=Smoked Desert Dumplings", "=ds="..AL["Quest"]..""};
-		{ 22, "s18247", "13935", "=q1=Baked Salmon", "=ds="..AL["Vendor"]..""};
-		{ 23, "s18245", "13933", "=q1=Lobster Stew", "=ds="..AL["Vendor"]..""};
-		{ 24, "s18246", "13934", "=q1=Mightfish Steak", "=ds="..AL["Vendor"]..""};
+		{ 22, "s18247", "13935", "=q1=Baked Salmon", "=ds="..AL["Vendor"]..", "..BabbleZone["Feralas"]};
+		{ 23, "s18245", "13933", "=q1=Lobster Stew", "=ds="..AL["Vendor"]..", "..BabbleZone["Feralas"]};
+		{ 24, "s18246", "13934", "=q1=Mightfish Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Feralas"]};
 		{ 25, "s22761", "18254", "=q1=Runn Tum Tuber Surprise", "=ds="..AL["Drop"]..""};
-		{ 26, "s46684", "35563", "=q1=Charred Bear Kabobs", "=ds="..AL["Vendor"]..""};
-		{ 27, "s46688", "35565", "=q1=Juicy Bear Burger", "=ds="..AL["Vendor"]..""};
-		{ 28, "s18243", "13931", "=q1=Nightfin Soup", "=ds="..AL["Vendor"]..""};
-		{ 29, "s18244", "13932", "=q1=Poached Sunscale Salmon", "=ds="..AL["Vendor"]..""};
-		{ 30, "s18240", "13928", "=q1=Grilled Squid", "=ds="..AL["Vendor"]..""};
+		{ 26, "s46684", "35563", "=q1=Charred Bear Kabobs", "=ds="..AL["Vendor"]..", "..BabbleZone["Felwood"]};
+		{ 27, "s46688", "35565", "=q1=Juicy Bear Burger", "=ds="..AL["Vendor"]..", "..BabbleZone["Felwood"]};
+		{ 28, "s18243", "13931", "=q1=Nightfin Soup", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
+		{ 29, "s18244", "13932", "=q1=Poached Sunscale Salmon", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
+		{ 30, "s18240", "13928", "=q1=Grilled Squid", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
 		Prev = "Cooking2";
 		Next = "Cooking4";
 	};
 
 	AtlasLoot_Data["Cooking4"] = {
-        { 1, "s18242", "13929", "=q1=Hot Smoked Bass", "=ds="..AL["Vendor"]..""};
+		{ 1, "s18242", "13929", "=q1=Hot Smoked Bass", "=ds="..AL["Vendor"]..", "..BabbleZone["Stranglethorn Vale"]};
 		{ 2, "s64054", "INV_Misc_Shell_03", "=q1=Clamlette Magnifique", "=ds="..AL["Quest"]..""};
-		{ 3, "s18239", "13927", "=q1=Cooked Glossy Mightfish", "=ds="..AL["Vendor"]..""};
-		{ 4, "s18241", "13930", "=q1=Filet of Redgill", "=ds="..AL["Vendor"]..""};
+		{ 3, "s18239", "13927", "=q1=Cooked Glossy Mightfish", "=ds="..AL["Vendor"]..", "..BabbleZone["Stranglethorn Vale"]};
+		{ 4, "s18241", "13930", "=q1=Filet of Redgill", "=ds="..AL["Vendor"]..", "..BabbleZone["Stranglethorn Vale"]};
 		{ 5, "s15933", "12218", "=q1=Monster Omelet", "=ds="..AL["Vendor"]..""};
 		{ 6, "s15915", "12216", "=q1=Spiced Chili Crab", "=ds="..AL["Vendor"]..""};
-		{ 7, "s18238", "6887", "=q1=Spotted Yellowtail", "=ds="..AL["Vendor"]..""};
+		{ 7, "s18238", "6887", "=q1=Spotted Yellowtail", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
 		{ 8, "s22480", "18045", "=q1=Tender Wolf Steak", "=ds="..AL["Vendor"]..""};
-		{ 9, "s20626", "16766", "=q1=Undermine Clam Chowder", "=ds="..AL["Vendor"]..""};
+		{ 9, "s20626", "16766", "=q1=Undermine Clam Chowder", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
 		{ 10, "s15906", "12217", "=q1=Dragonbreath Chili", "=ds="..AL["Vendor"]..""};
-		{ 11, "s15910", "12215", "=q1=Heavy Kodo Stew", "=ds="..AL["Vendor"]..""};
-		{ 12, "s21175", "17222", "=q1=Spider Sausage", "=ds="..AL["Trainer"]..""};
+		{ 11, "s15910", "12215", "=q1=Heavy Kodo Stew", "=ds="..AL["Vendor"]..", "..BabbleZone["Desolace"]};
+		{ 12, "s21175", "17222", "=q1=Spider Sausage", "=ds="..AL["Trainer"]};
 		{ 13, "s4094", "4457", "=q1=Barbecued Buzzard Wing", "=ds="};
 		{ 14, "s15863", "12213", "=q1=Carrion Surprise", "=ds="..AL["Vendor"]..""};
-		{ 15, "s7213", "6038", "=q1=Giant Clam Scorcho", "=ds="..AL["Vendor"]..""};
+		{ 15, "s7213", "6038", "=q1=Giant Clam Scorcho", "=ds="..AL["Vendor"]..", "..BabbleZone["Stranglethorn Vale"]};
 		{ 16, "s13028", "10841", "=q1=Goldthorn Tea", "=ds="};
 		{ 17, "s15856", "13851", "=q1=Hot Wolf Ribs", "=ds="..AL["Vendor"]..""};
 		{ 18, "s15861", "12212", "=q1=Jungle Stew", "=ds="..AL["Vendor"]..""};
@@ -1197,18 +1197,18 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 22, "s7828", "4594", "=q1=Rockscale Cod", "=ds="..AL["Vendor"]..""};
 		{ 23, "s25954", "21217", "=q1=Sagefish Delight", "=ds="..AL["Vendor"]..""};
 		{ 24, "s3400", "3729", "=q1=Soothing Turtle Bisque", "=ds="..AL["Quest"]..""};
-		{ 25, "s24418", "20074", "=q1=Heavy Crocolisk Stew", "=ds="..AL["Vendor"]..""};
+		{ 25, "s24418", "20074", "=q1=Heavy Crocolisk Stew", "=ds="..AL["Vendor"]..", "..BabbleZone["Dustwallow Marsh"]};
 		{ 26, "s3399", "3728", "=q1=Tasty Lion Steak", "=ds="..AL["Quest"]..""};
 		{ 27, "s3376", "3665", "=q1=Curiously Tasty Omelet", "=ds="};
-		{ 28, "s6500", "5527", "=q1=Goblin Deviled Clams", "=ds="..AL["Trainer"]..""};
+		{ 28, "s6500", "5527", "=q1=Goblin Deviled Clams", "=ds="..AL["Trainer"]};
 		{ 29, "s3398", "3727", "=q1=Hot Lion Chops", "=ds="};
-		{ 30, "s15853", "12209", "=q1=Lean Wolf Steak", "=ds="..AL["Vendor"]..""};
+		{ 30, "s15853", "12209", "=q1=Lean Wolf Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Desolace"]};
 		Prev = "Cooking3";
 		Next = "Cooking5";
 	};
 
 	AtlasLoot_Data["Cooking5"] = {
-        { 1, "s3373", "3664", "=q1=Crocolisk Gumbo", "=ds="};
+		{ 1, "s3373", "3664", "=q1=Crocolisk Gumbo", "=ds="};
 		{ 2, "s3397", "3726", "=q1=Big Bear Steak", "=ds="};
 		{ 3, "s3377", "3666", "=q1=Gooey Spider Cake", "=ds="};
 		{ 4, "s6419", "5480", "=q1=Lean Venison", "=ds="..AL["Vendor"]..""};
@@ -1224,17 +1224,17 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 14, "s2545", "2682", "=q1=Cooked Crab Claw", "=ds="};
 		{ 15, "s8238", "6657", "=q1=Savory Deviate Delight", "=ds="..AL["Drop"]..""};
 		{ 16, "s3370", "3662", "=q1=Crocolisk Steak", "=ds="};
-		{ 17, "s2546", "2687", "=q1=Dry Pork Ribs", "=ds="..AL["Trainer"]..""};
+		{ 17, "s2546", "2687", "=q1=Dry Pork Ribs", "=ds="..AL["Trainer"]};
 		{ 18, "s25704", "21072", "=q1=Smoked Sagefish", "=ds="..AL["Vendor"]..""};
-		{ 19, "s2544", "2683", "=q1=Crab Cake", "=ds="..AL["Trainer"]..""};
+		{ 19, "s2544", "2683", "=q1=Crab Cake", "=ds="..AL["Trainer"]};
 		{ 20, "s62050", "44837", "=q1=Cornbread Stuffing", "=ds="};
 		{ 21, "s2543", "733", "=q1=Westfall Stew", "=ds="};
 		{ 22, "s3371", "3220", "=q1=Blood Sausage", "=ds="};
 		{ 23, "s28267", "22645", "=q1=Crunchy Spider Surprise", "=ds="};
 		{ 24, "s9513", "7676", "=q1=Thistle Tea", "=ds="};
 		{ 25, "s33278", "27636", "=q1=Bat Bites", "=ds="..AL["Vendor"]..""};
-		{ 26, "s6499", "5525", "=q1=Boiled Clams", "=ds="..AL["Trainer"]..""};
-		{ 27, "s2541", "2684", "=q1=Coyote Steak", "=ds="..AL["Trainer"]..""};
+		{ 26, "s6499", "5525", "=q1=Boiled Clams", "=ds="..AL["Trainer"]};
+		{ 27, "s2541", "2684", "=q1=Coyote Steak", "=ds="..AL["Trainer"]};
 		{ 28, "s6415", "5476", "=q1=Fillet of Frenzy", "=ds="..AL["Vendor"]..""};
 		{ 29, "s2542", "724", "=q1=Goretusk Liver Pie", "=ds="};
 		{ 30, "s7754", "6316", "=q1=Loch Frenzy Delight", "=ds="..AL["Vendor"]..""};
@@ -1243,7 +1243,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["Cooking6"] = {
-        { 1, "s7753", "4592", "=q1=Longjaw Mud Snapper", "=ds="..AL["Vendor"]..""};
+		{ 1, "s7753", "4592", "=q1=Longjaw Mud Snapper", "=ds="..AL["Vendor"]..""};
 		{ 2, "s7827", "5095", "=q1=Rainbow Fin Albacore", "=ds="..AL["Vendor"]..""};
 		{ 3, "s62045", "34112", "=q1=Roasted Turkey", "=ds="};
 		{ 4, "s6416", "5477", "=q1=Strider Stew", "=ds="};
@@ -1256,7 +1256,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 11, "s6413", "5473", "=q1=Scorpid Surprise", "=ds="..AL["Vendor"]..""};
 		{ 12, "s2795", "2888", "=q1=Beer Basted Boar Ribs", "=ds="};
 		{ 13, "s6412", "5472", "=q1=Kaldorei Spider Kabob", "=ds="..AL["Quest"]..""};
-		{ 14, "s2539", "2680", "=q1=Spiced Wolf Meat", "=ds="..AL["Trainer"]..""};
+		{ 14, "s2539", "2680", "=q1=Spiced Wolf Meat", "=ds="..AL["Trainer"]};
 		{ 15, "s7751", "6290", "=q1=Brilliant Smallfish", "=ds="..AL["Vendor"]..""};
 		{ 16, "s2538", "2679", "=q1=Charred Wolf Meat", "=ds="};
 		{ 17, "s15935", "12224", "=q1=Crispy Bat Wing", "=ds="..AL["Vendor"]..""};
@@ -1267,7 +1267,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 22, "s2540", "2681", "=q1=Roasted Boar Meat", "=ds="};
 		{ 23, "s33277", "24105", "=q1=Roasted Moongraze Tenderloin", "=ds="..AL["Quest"]..""};
 		{ 24, "s7752", "787", "=q1=Slitherskin Mackerel", "=ds="..AL["Vendor"]..""};
-		{ 25, "s37836", "30816", "=q1=Spice Bread", "=ds="..AL["Trainer"]..""};
+		{ 25, "s37836", "30816", "=q1=Spice Bread", "=ds="..AL["Trainer"]};
 		Prev = "Cooking5";
 	};
 
@@ -1362,7 +1362,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EnchantingChest1"] = {
-        { 1, "s27958", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Exceptional Mana", "=ds="..AL["Trainer"]..""};
+		{ 1, "s27958", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Exceptional Mana", "=ds="..AL["Trainer"]..""};
 		{ 2, "s44588", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Exceptional Resilience", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 3, "s60692", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Powerful Stats", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 4, "s47900", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Super Health", "=ds="..AL["Trainer"]};
@@ -1396,10 +1396,10 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "EnchantingChest2";
 		Back = "ENCHANTINGMENU";
 	};
-    
-    AtlasLoot_Data["EnchantingChest2"] = {
-        { 1, "s7420", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Minor Health", "=ds=#sr# 15"};
-        Prev = "EnchantingChest1";
+
+	AtlasLoot_Data["EnchantingChest2"] = {
+		{ 1, "s7420", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Minor Health", "=ds=#sr# 15"};
+		Prev = "EnchantingChest1";
 		Next = "EnchantingCloak1";
 		Back = "ENCHANTINGMENU";
 	};
@@ -1450,14 +1450,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 7, "s13421", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Lesser Protection", "=ds=#sr# 115"};
 		{ 8, "s7771", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Minor Protection", "=ds=#sr# 70"};
 		{ 9, "s7454", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Minor Resistance", "=ds=#sr# 45"};
-        { 10, "s7426", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Minor Absorption", "=ds=#sr# 40"};
+		{ 10, "s7426", "Spell_Holy_GreaterHeal", "=ds=Enchant Chest - Minor Absorption", "=ds=#sr# 40"};
 		Prev = "EnchantingCloak1";
 		Next = "EnchantingGloves1";
 		Back = "ENCHANTINGMENU";
 	};
 
 	AtlasLoot_Data["EnchantingGloves1"] = {
-        { 1, "s44612", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Greater Blasting", "=ds="};
+		{ 1, "s44612", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Greater Blasting", "=ds="};
 		{ 2, "s44625", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Armsman", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		{ 3, "s60668", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Crusher", "=ds="..AL["Trainer"] };
 		{ 4, "s44529", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Major Agility", "=ds="..AL["Trainer"]..""};
@@ -1493,7 +1493,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EnchantingGloves2"] = {
-        { 1, "s13620", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Fishing", "=ds=#sr# 145"};
+		{ 1, "s13620", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Fishing", "=ds=#sr# 145"};
 		{ 2, "s13617", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Herbalism", "=ds=#sr# 145"};
 		{ 3, "s13612", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Mining", "=ds=#sr# 145"};
 		Prev = "EnchantingGloves1";
@@ -1561,7 +1561,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EnchantingWeapon1"] = {
-        { 1, "s62257", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Titanguard", "=ds="};
+		{ 1, "s62257", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Titanguard", "=ds="};
 		{ 2, "s64441", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Blade Ward", "=ds=#sr# 450"};
 		{ 3, "s64579", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Blood Draining", "=ds=#sr# 450"};
 		{ 4, "s59619", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Accuracy", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
@@ -1597,7 +1597,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EnchantingWeapon2"] = {
-        { 1, "s20032", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lifestealing", "=ds=#sr# 300"};
+		{ 1, "s20032", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lifestealing", "=ds=#sr# 300"};
 		{ 2, "s23804", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mighty Intellect", "=ds=#sr# 300"};
 		{ 3, "s23803", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mighty Spirit", "=ds=#sr# 300"};
 		{ 4, "s22749", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Spell Power", "=ds=#sr# 300"};
@@ -1875,12 +1875,12 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EngineeringMisc1"] = {
-        { 1, "s68067", "49040", "=q4=Jeeves", "=ds=#sr# 450"};
+		{ 1, "s68067", "49040", "=q4=Jeeves", "=ds=#sr# 450"};
 		{ 2, "s60866", "41508", "=q4=Mechano-hog", "=ds=#sr# 450" };
 		{ 3, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450" };
 		{ 4, "s44157", "34061", "=q4=Turbo-Charged Flying Machine", "=ds=#sr# 375"};
 		{ 5, "s56472", "40768", "=q3=MOLL-E", "=ds=#sr# 425" };
-        { 6, "s67920", "48933", "=q3=Wormhole Generator: Northrend", "=ds=#sr# 415"};
+		{ 6, "s67920", "48933", "=q3=Wormhole Generator: Northrend", "=ds=#sr# 415"};
 		{ 7, "s30349", "23775", "=q3=Titanium Toolbox", "=ds=#sr# 405" };
 		{ 8, "s44155", "34060", "=q3=Flying Machine", "=ds=#sr# 350"};
 		{ 9, "s63750", "45631", "=q3=High-powered Flashlight", "=ds="};
@@ -1893,7 +1893,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 16, "s56477", "42546", "=q1=Mana Injector Kit", "=ds=#sr# 415" };
 		{ 17, "s55252", "40769", "=q1=Scrapbot Construction Kit", "=ds=#sr# 415" };
 		{ 18, "s56476", "37567", "=q1=Healing Injector Kit", "=ds=#sr# 410" };
-        { 19, "s67326", "47828", "=q1=Goblin Beam Welder", "=ds=#sr# 400"};
+		{ 19, "s67326", "47828", "=q1=Goblin Beam Welder", "=ds=#sr# 400"};
 		{ 20, "s56461", "40893", "=q1=Bladed Pickaxe", "=ds=#sr# 375" };
 		{ 21, "s56459", "40892", "=q1=Hammer Pick", "=ds=#sr# 375" };
 		{ 22, "s44391", "34113", "=q1=Field Repair Bot 110G", "=ds=#sr# 360"};
@@ -1910,7 +1910,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EngineeringMisc2"] = {
-        { 1, "s30573", "23832", "=q1=Gnomish Tonk Controller", "=ds=#sr# 295"};
+		{ 1, "s30573", "23832", "=q1=Gnomish Tonk Controller", "=ds=#sr# 295"};
 		{ 2, "s30561", "23831", "=q1=Goblin Tonk Controller", "=ds=#sr# 295"};
 		{ 3, "s26443", "21570", "=q1=Firework Cluster Launcher", "=ds=#sr# 275"};
 		{ 4, "s19814", "16023", "=q1=Masterwork Target Dummy", "=ds=#sr# 275"};
@@ -1946,7 +1946,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["EngineeringMisc3"] = {
-        { 1, "s9273", "7148", "=q1=Goblin Jumper Cables", "=ds=#sr# 165"};
+		{ 1, "s9273", "7148", "=q1=Goblin Jumper Cables", "=ds=#sr# 165"};
 		{ 2, "s3959", "4388", "=q1=Discombobulator Ray", "=ds=#sr# 160"};
 		{ 3, "s3957", "4386", "=q1=Ice Deflector", "=ds=#sr# 155"};
 		{ 4, "s3955", "4384", "=q1=Explosive Sheep", "=ds=#sr# 150"};
@@ -2273,7 +2273,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	AtlasLoot_Data["Inscription_DruidMajor1"] = {
 		{ 1, "s64256", "45623", "=q1=Glyph of Barkskin", "=ds="..AL["Book of Glyph Mastery"]};
 		{ 2, "s64268", "45601", "=q1=Glyph of Berserk", "=ds="..AL["Book of Glyph Mastery"]};
-        { 3, "s67600", "48720", "=q1=Glyph of Claw", "=ds="..AL["Trainer"]};
+		{ 3, "s67600", "48720", "=q1=Glyph of Claw", "=ds="..AL["Trainer"]};
 		{ 4, "s48121", "40924", "=q1=Glyph of Entangling Roots", "=ds="..AL["Trainer"] };
 		{ 5, "s62162", "44928", "=q1=Glyph of Focus", "=ds="..GetSpellInfo(61177)};
 		{ 6, "s56943", "40896", "=q1=Glyph of Frenzied Regeneration", "=ds="..AL["Trainer"] };
@@ -2646,7 +2646,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 1, "s58342", "43395", "=q1=Glyph of Battle", "=ds="..GetSpellInfo(61288) };
 		{ 2, "s58343", "43396", "=q1=Glyph of Bloodrage", "=ds="..GetSpellInfo(61288) };
 		{ 3, "s58344", "43397", "=q1=Glyph of Charge", "=ds="..GetSpellInfo(61288) };
-        { 4, "s68166", "49084", "=q1=Glyph of Command", "=ds="..GetSpellInfo(61288)};
+		{ 4, "s68166", "49084", "=q1=Glyph of Command", "=ds="..GetSpellInfo(61288)};
 		{ 5, "s58347", "43400", "=q1=Glyph of Enduring Victory", "=ds="..GetSpellInfo(61288) };
 		{ 6, "s58345", "43398", "=q1=Glyph of Mocking Blow", "=ds="..GetSpellInfo(61288) };
 		{ 7, "s58346", "43399", "=q1=Glyph of Thunder Clap", "=ds="..GetSpellInfo(61288) };
@@ -2658,14 +2658,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 		---------------------
 
 	AtlasLoot_Data["JewelRed1"] ={
-        { 1, "s66447", "40111", "=q4=Bold Cardinal Ruby", "=ds="};
-        { 2, "s66449", "40114", "=q4=Bright Cardinal Ruby", "=ds="};
-        { 3, "s66448", "40112", "=q4=Delicate Cardinal Ruby", "=ds="};
-        { 4, "s66453", "40116", "=q4=Flashing Cardinal Ruby", "=ds="};
-        { 5, "s66451", "40117", "=q4=Fractured Cardinal Ruby", "=ds="};
-        { 6, "s66450", "40118", "=q4=Precise Cardinal Ruby", "=ds="};
-        { 7, "s66446", "40113", "=q4=Runed Cardinal Ruby", "=ds="};
-        { 8, "s66452", "40115", "=q4=Subtle Cardinal Ruby", "=ds="};
+		{ 1, "s66447", "40111", "=q4=Bold Cardinal Ruby", "=ds="};
+		{ 2, "s66449", "40114", "=q4=Bright Cardinal Ruby", "=ds="};
+		{ 3, "s66448", "40112", "=q4=Delicate Cardinal Ruby", "=ds="};
+		{ 4, "s66453", "40116", "=q4=Flashing Cardinal Ruby", "=ds="};
+		{ 5, "s66451", "40117", "=q4=Fractured Cardinal Ruby", "=ds="};
+		{ 6, "s66450", "40118", "=q4=Precise Cardinal Ruby", "=ds="};
+		{ 7, "s66446", "40113", "=q4=Runed Cardinal Ruby", "=ds="};
+		{ 8, "s66452", "40115", "=q4=Subtle Cardinal Ruby", "=ds="};
 		{ 9, "s39705", "32193", "=q4=Bold Crimson Spinel", "=ds=#sr# 375"};
 		{ 10, "s39712", "32197", "=q4=Bright Crimson Spinel", "=ds=#sr# 375"};
 		{ 11, "s39706", "32194", "=q4=Delicate Crimson Spinel", "=ds=#sr# 375"};
@@ -2693,7 +2693,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelRed2"] ={
-        { 1, "s31090", "24032", "=q3=Subtle Living Ruby", "=ds=#sr# 350"};
+		{ 1, "s31090", "24032", "=q3=Subtle Living Ruby", "=ds=#sr# 350"};
 		{ 2, "s31087", "24029", "=q3=Teardrop Living Ruby", "=ds=#sr# 350"};
 		{ 3, "s53843", "39907", "=q2=Subtle Bloodstone", "=ds="..AL["Trainer"] };
 		{ 4, "s53831", "39900", "=q2=Bold Bloodstone", "=ds="..AL["Trainer"] };
@@ -2713,10 +2713,10 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelBlue1"] = {
-        { 1, "s66500", "40121", "=q4=Lustrous Majestic Zircon", "=ds="};
-        { 2, "s66497", "40119", "=q4=Solid Majestic Zircon", "=ds="};
-        { 3, "s66498", "40120", "=q4=Sparkling Majestic Zircon", "=ds="};
-        { 4, "s66499", "40122", "=q4=Stormy Majestic Zircon", "=ds="};
+		{ 1, "s66500", "40121", "=q4=Lustrous Majestic Zircon", "=ds="};
+		{ 2, "s66497", "40119", "=q4=Solid Majestic Zircon", "=ds="};
+		{ 3, "s66498", "40120", "=q4=Sparkling Majestic Zircon", "=ds="};
+		{ 4, "s66499", "40122", "=q4=Stormy Majestic Zircon", "=ds="};
 		{ 5, "s39717", "32202", "=q4=Lustrous Empyrean Sapphire", "=ds=#sr# 375"};
 		{ 6, "s39715", "32200", "=q4=Solid Empyrean Sapphire", "=ds=#sr# 375"};
 		{ 7, "s39716", "32201", "=q4=Sparkling Empyrean Sapphire", "=ds=#sr# 375"};
@@ -2742,12 +2742,12 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelYellow1"] = {
-        { 1, "s66503", "40123", "=q4=Brilliant King's Amber", "=ds="};
-        { 2, "s66505", "40127", "=q4=Mystic King's Amber", "=ds="};
-        { 3, "s66506", "40128", "=q4=Quick King's Amber", "=ds="};
-        { 4, "s66501", "40125", "=q4=Rigid King's Amber", "=ds="};
-        { 5, "s66502", "40124", "=q4=Smooth King's Amber", "=ds="};
-        { 6, "s66504", "40126", "=q4=Thick King's Amber", "=ds="};
+		{ 1, "s66503", "40123", "=q4=Brilliant King's Amber", "=ds="};
+		{ 2, "s66505", "40127", "=q4=Mystic King's Amber", "=ds="};
+		{ 3, "s66506", "40128", "=q4=Quick King's Amber", "=ds="};
+		{ 4, "s66501", "40125", "=q4=Rigid King's Amber", "=ds="};
+		{ 5, "s66502", "40124", "=q4=Smooth King's Amber", "=ds="};
+		{ 6, "s66504", "40126", "=q4=Thick King's Amber", "=ds="};
 		{ 7, "s39719", "32204", "=q4=Brilliant Lionseye", "=ds=#sr# 375"};
 		{ 8, "s39722", "32207", "=q4=Gleaming Lionseye", "=ds=#sr# 375"};
 		{ 9, "s39725", "32210", "=q4=Great Lionseye", "=ds=#sr# 375"};
@@ -2777,7 +2777,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelYellow2"] = {
-        { 1, "s31100", "24052", "=q3=Thick Dawnstone", "=ds=#sr# 350"};
+		{ 1, "s31100", "24052", "=q3=Thick Dawnstone", "=ds=#sr# 350"};
 		{ 2, "s53852", "39912", "=q2=Brilliant Sun Crystal", "=ds="..AL["Trainer"] };
 		{ 3, "s53857", "39917", "=q2=Mystic Sun Crystal", "=ds=1250 #faction#" };
 		{ 4, "s53856", "39918", "=q2=Quick Sun Crystal", "=ds="..AL["Trainer"] };
@@ -2795,25 +2795,25 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelGreen1"] = {
-        { 1, "s66430", "40175", "=q4=Dazzling Eye of Zul", "=ds="};
-        { 2, "s66338", "40167", "=q4=Enduring Eye of Zul", "=ds="};
-        { 3, "s66442", "40179", "=q4=Energized Eye of Zul", "=ds="};
-        { 4, "s66434", "40169", "=q4=Forceful Eye of Zul", "=ds="};
-        { 5, "s66440", "40174", "=q4=Intricate Eye of Zul", "=ds="};
-        { 6, "s66431", "40165", "=q4=Jagged Eye of Zul", "=ds="};
-        { 7, "s66439", "40177", "=q4=Lambent Eye of Zul", "=ds="};
-        { 8, "s66435", "40171", "=q4=Misty Eye of Zul", "=ds="};
-        { 9, "s66444", "40178", "=q4=Opaque Eye of Zul", "=ds="};
-        { 10, "s66441", "40180", "=q4=Radiant Eye of Zul", "=ds="};
-        { 11, "s66433", "40170", "=q4=Seer's Eye of Zul", "=ds="};
-        { 12, "s66443", "40182", "=q4=Shattered Eye of Zul", "=ds="};
-        { 13, "s66437", "40172", "=q4=Shining Eye of Zul", "=ds="};
-        { 14, "s66428", "40168", "=q4=Steady Eye of Zul", "=ds="};
-        { 15, "s66436", "40176", "=q4=Sundered Eye of Zul", "=ds="};
-        { 16, "s66438", "40181", "=q4=Tense Eye of Zul", "=ds="};
-        { 17, "s66432", "40164", "=q4=Timeless Eye of Zul", "=ds="};
-        { 18, "s66445", "40173", "=q4=Turbid Eye of Zul", "=ds="};
-        { 19, "s66429", "40166", "=q4=Vivid Eye of Zul", "=ds="};
+		{ 1, "s66430", "40175", "=q4=Dazzling Eye of Zul", "=ds="};
+		{ 2, "s66338", "40167", "=q4=Enduring Eye of Zul", "=ds="};
+		{ 3, "s66442", "40179", "=q4=Energized Eye of Zul", "=ds="};
+		{ 4, "s66434", "40169", "=q4=Forceful Eye of Zul", "=ds="};
+		{ 5, "s66440", "40174", "=q4=Intricate Eye of Zul", "=ds="};
+		{ 6, "s66431", "40165", "=q4=Jagged Eye of Zul", "=ds="};
+		{ 7, "s66439", "40177", "=q4=Lambent Eye of Zul", "=ds="};
+		{ 8, "s66435", "40171", "=q4=Misty Eye of Zul", "=ds="};
+		{ 9, "s66444", "40178", "=q4=Opaque Eye of Zul", "=ds="};
+		{ 10, "s66441", "40180", "=q4=Radiant Eye of Zul", "=ds="};
+		{ 11, "s66433", "40170", "=q4=Seer's Eye of Zul", "=ds="};
+		{ 12, "s66443", "40182", "=q4=Shattered Eye of Zul", "=ds="};
+		{ 13, "s66437", "40172", "=q4=Shining Eye of Zul", "=ds="};
+		{ 14, "s66428", "40168", "=q4=Steady Eye of Zul", "=ds="};
+		{ 15, "s66436", "40176", "=q4=Sundered Eye of Zul", "=ds="};
+		{ 16, "s66438", "40181", "=q4=Tense Eye of Zul", "=ds="};
+		{ 17, "s66432", "40164", "=q4=Timeless Eye of Zul", "=ds="};
+		{ 18, "s66445", "40173", "=q4=Turbid Eye of Zul", "=ds="};
+		{ 19, "s66429", "40166", "=q4=Vivid Eye of Zul", "=ds="};
 		{ 20, "s39741", "32225", "=q4=Dazzling Seaspray Emerald", "=ds=#sr# 375"};
 		{ 21, "s39739", "32223", "=q4=Enduring Seaspray Emerald", "=ds=#sr# 375"};
 		{ 22, "s47053", "35759", "=q4=Forceful Seaspray Emerald", "=ds=#sr# 375"};
@@ -2830,7 +2830,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelGreen2"] = {
-        { 1, "s53996", "40086", "=q3=Jagged Forest Emerald", "=ds="..BabbleFaction["Frenzyheart Tribe"]..": "..BabbleFaction["Revered"] };
+		{ 1, "s53996", "40086", "=q3=Jagged Forest Emerald", "=ds="..BabbleFaction["Frenzyheart Tribe"]..": "..BabbleFaction["Revered"] };
 		{ 2, "s54009", "40100", "=q3=Lambent Forest Emerald", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		{ 3, "s54003", "40095", "=q3=Misty Forest Emerald", "=ds="..AL["Drop"]..""};
 		{ 4, "s54010", "40103", "=q3=Opaque Forest Emerald", "=ds="..BabbleZone["Wintergrasp"].." 12 #wintergrasp#" };
@@ -2861,12 +2861,12 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s53929", "39988", "=q2=Opaque Dark Jade", "=ds=1250 #faction#" };
 		{ 30, "s53931", "39990", "=q2=Radiant Dark Jade", "=ds="..AL["Trainer"] };
 		Prev = "JewelGreen1";
-        Next = "JewelGreen3";
+		Next = "JewelGreen3";
 		Back = "JEWELCRAFTINGMENU";
 	};
-    
-    AtlasLoot_Data["JewelGreen3"] = {
-        { 1, "s53921", "39979", "=q2=Seer's Dark Jade", "=ds="..BabbleFaction["The Kalu'ak"]..": "..BabbleFaction["Friendly"] };
+
+	AtlasLoot_Data["JewelGreen3"] = {
+		{ 1, "s53921", "39979", "=q2=Seer's Dark Jade", "=ds="..BabbleFaction["The Kalu'ak"]..": "..BabbleFaction["Friendly"] };
 		{ 2, "s53933", "39992", "=q2=Shattered Dark Jade", "=ds=1250 #faction#" };
 		{ 3, "s53923", "39981", "=q2=Shining Dark Jade", "=ds="..AL["Trainer"] };
 		{ 4, "s53919", "39977", "=q2=Steady Dark Jade", "=ds=1250 #faction#" };
@@ -2879,33 +2879,33 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 11, "s28918", "23105", "=q2=Enduring Deep Peridot", "=ds=#sr# 315"};
 		{ 12, "s28917", "23104", "=q2=Jagged Deep Peridot", "=ds=#sr# 305"};
 		{ 13, "s28916", "23103", "=q2=Radiant Deep Peridot", "=ds=#sr# 300"};
-        Prev = "JewelGreen2";
+		Prev = "JewelGreen2";
 		Back = "JEWELCRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["JewelOrange1"] = {
-        { 1, "s66576", "40162", "=q4=Accurate Ametrine", "=ds="};
-        { 2, "s66579", "40144", "=q4=Champion's Ametrine", "=ds="};
-        { 3, "s66568", "40147", "=q4=Deadly Ametrine", "=ds="};
-        { 4, "s66584", "40150", "=q4=Deft Ametrine", "=ds="};
-        { 5, "s66571", "40154", "=q4=Durable Ametrine", "=ds="};
-        { 6, "s66580", "40158", "=q4=Empowered Ametrine", "=ds="};
-        { 7, "s66572", "40143", "=q4=Etched Ametrine", "=ds="};
-        { 8, "s66583", "40146", "=q4=Fierce Ametrine", "=ds="};
-        { 9, "s66578", "40161", "=q4=Glimmering Ametrine", "=ds="};
-        { 10, "s66575", "40148", "=q4=Glinting Ametrine", "=ds="};
-        { 11, "s66567", "40142", "=q4=Inscribed Ametrine", "=ds="};
-        { 12, "s66585", "40149", "=q4=Lucent Ametrine", "=ds="};
-        { 13, "s66566", "40151", "=q4=Luminous Ametrine", "=ds="};
-        { 14, "s66569", "40152", "=q4=Potent Ametrine", "=ds="};
-        { 15, "s66573", "40157", "=q4=Pristine Ametrine", "=ds="};
-        { 16, "s66574", "40155", "=q4=Reckless Ametrine", "=ds="};
-        { 17, "s66586", "40163", "=q4=Resolute Ametrine", "=ds="};
-        { 18, "s66582", "40145", "=q4=Resplendent Ametrine", "=ds="};
-        { 19, "s66581", "40160", "=q4=Stalwart Ametrine", "=ds="};
-        { 20, "s66587", "40159", "=q4=Stark Ametrine", "=ds="};
-        { 21, "s66570", "40153", "=q4=Veiled Ametrine", "=ds="};
-        { 22, "s66577", "40156", "=q4=Wicked Ametrine", "=ds="};
+		{ 1, "s66576", "40162", "=q4=Accurate Ametrine", "=ds="};
+		{ 2, "s66579", "40144", "=q4=Champion's Ametrine", "=ds="};
+		{ 3, "s66568", "40147", "=q4=Deadly Ametrine", "=ds="};
+		{ 4, "s66584", "40150", "=q4=Deft Ametrine", "=ds="};
+		{ 5, "s66571", "40154", "=q4=Durable Ametrine", "=ds="};
+		{ 6, "s66580", "40158", "=q4=Empowered Ametrine", "=ds="};
+		{ 7, "s66572", "40143", "=q4=Etched Ametrine", "=ds="};
+		{ 8, "s66583", "40146", "=q4=Fierce Ametrine", "=ds="};
+		{ 9, "s66578", "40161", "=q4=Glimmering Ametrine", "=ds="};
+		{ 10, "s66575", "40148", "=q4=Glinting Ametrine", "=ds="};
+		{ 11, "s66567", "40142", "=q4=Inscribed Ametrine", "=ds="};
+		{ 12, "s66585", "40149", "=q4=Lucent Ametrine", "=ds="};
+		{ 13, "s66566", "40151", "=q4=Luminous Ametrine", "=ds="};
+		{ 14, "s66569", "40152", "=q4=Potent Ametrine", "=ds="};
+		{ 15, "s66573", "40157", "=q4=Pristine Ametrine", "=ds="};
+		{ 16, "s66574", "40155", "=q4=Reckless Ametrine", "=ds="};
+		{ 17, "s66586", "40163", "=q4=Resolute Ametrine", "=ds="};
+		{ 18, "s66582", "40145", "=q4=Resplendent Ametrine", "=ds="};
+		{ 19, "s66581", "40160", "=q4=Stalwart Ametrine", "=ds="};
+		{ 20, "s66587", "40159", "=q4=Stark Ametrine", "=ds="};
+		{ 21, "s66570", "40153", "=q4=Veiled Ametrine", "=ds="};
+		{ 22, "s66577", "40156", "=q4=Wicked Ametrine", "=ds="};
 		{ 23, "s39736", "32220", "=q4=Glinting Pyrestone", "=ds=#sr# 375"};
 		{ 24, "s39733", "32217", "=q4=Inscribed Pyrestone", "=ds=#sr# 375"};
 		{ 25, "s39735", "32219", "=q4=Luminous Pyrestone", "=ds=#sr# 375"};
@@ -2919,7 +2919,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelOrange2"] = {
-        { 1, "s53977", "40039", "=q3=Champion's Monarch Topaz", "=ds="..AL["Drop"]..""};
+		{ 1, "s53977", "40039", "=q3=Champion's Monarch Topaz", "=ds="..AL["Drop"]..""};
 		{ 2, "s53979", "40043", "=q3=Deadly Monarch Topaz", "=ds="..BabbleBoss["Keristrasza"].." ("..AL["Heroic"]..")" };
 		{ 3, "s53982", "40046", "=q3=Deft Monarch Topaz", "=ds="..BabbleBoss["Sjonnir The Ironshaper"].." ("..AL["Heroic"]..")" };
 		{ 4, "s53986", "40050", "=q3=Durable Monarch Topaz", "=ds="..BabbleZone["Wintergrasp"].." 12 #wintergrasp#" };
@@ -2955,7 +2955,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelOrange3"] = {
-        { 1, "s53874", "39949", "=q2=Champion's Huge Citrine", "=ds="..AL["Trainer"] };
+		{ 1, "s53874", "39949", "=q2=Champion's Huge Citrine", "=ds="..AL["Trainer"] };
 		{ 2, "s53877", "39952", "=q2=Deadly Huge Citrine", "=ds="..BabbleFaction["Knights of the Ebon Blade"]..": "..BabbleFaction["Friendly"] };
 		{ 3, "s53880", "39955", "=q2=Deft Huge Citrine", "=ds="..AL["Trainer"] };
 		{ 4, "s53884", "39958", "=q2=Durable Huge Citrine", "=ds=1250 #faction#" };
@@ -2986,19 +2986,19 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelPurple1"] = {
-        { 1, "s66553", "40136", "=q4=Balanced Dreadstone", "=ds="};
-        { 2, "s66560", "40139", "=q4=Defender's Dreadstone", "=ds="};
-        { 3, "s66555", "40132", "=q4=Glowing Dreadstone", "=ds="};
-        { 4, "s66561", "40141", "=q4=Guardian's Dreadstone", "=ds="};
-        { 5, "s66564", "40137", "=q4=Infused Dreadstone", "=ds="};
-        { 6, "s66562", "40135", "=q4=Mysterious Dreadstone", "=ds="};
-        { 7, "s66563", "40140", "=q4=Puissant Dreadstone", "=ds="};
-        { 8, "s66556", "40133", "=q4=Purified Dreadstone", "=ds="};
-        { 9, "s66559", "40138", "=q4=Regal Dreadstone", "=ds="};
-        { 10, "s66558", "40134", "=q4=Royal Dreadstone", "=ds="};
-        { 11, "s66557", "40130", "=q4=Shifting Dreadstone", "=ds="};
-        { 12, "s66554", "40129", "=q4=Sovereign Dreadstone", "=ds="};
-        { 13, "s66565", "40131", "=q4=Tenuous Dreadstone", "=ds="};
+		{ 1, "s66553", "40136", "=q4=Balanced Dreadstone", "=ds="};
+		{ 2, "s66560", "40139", "=q4=Defender's Dreadstone", "=ds="};
+		{ 3, "s66555", "40132", "=q4=Glowing Dreadstone", "=ds="};
+		{ 4, "s66561", "40141", "=q4=Guardian's Dreadstone", "=ds="};
+		{ 5, "s66564", "40137", "=q4=Infused Dreadstone", "=ds="};
+		{ 6, "s66562", "40135", "=q4=Mysterious Dreadstone", "=ds="};
+		{ 7, "s66563", "40140", "=q4=Puissant Dreadstone", "=ds="};
+		{ 8, "s66556", "40133", "=q4=Purified Dreadstone", "=ds="};
+		{ 9, "s66559", "40138", "=q4=Regal Dreadstone", "=ds="};
+		{ 10, "s66558", "40134", "=q4=Royal Dreadstone", "=ds="};
+		{ 11, "s66557", "40130", "=q4=Shifting Dreadstone", "=ds="};
+		{ 12, "s66554", "40129", "=q4=Sovereign Dreadstone", "=ds="};
+		{ 13, "s66565", "40131", "=q4=Tenuous Dreadstone", "=ds="};
 		{ 14, "s39729", "32213", "=q4=Balanced Shadowsong Amethyst", "=ds=#sr# 375"};
 		{ 15, "s39731", "32215", "=q4=Glowing Shadowsong Amethyst", "=ds=#sr# 375"};
 		{ 16, "s39730", "32214", "=q4=Infused Shadowsong Amethyst", "=ds=#sr# 375"};
@@ -3021,7 +3021,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["JewelPurple2"] = {
-        { 1, "s53963", "40023", "=q3=Shifting Twilight Opal", "=ds="..AL["Drop"]};
+		{ 1, "s53963", "40023", "=q3=Shifting Twilight Opal", "=ds="..AL["Drop"]};
 		{ 2, "s53962", "40022", "=q3=Sovereign Twilight Opal", "=ds="..AL["Drop"]};
 		{ 3, "s53964", "40024", "=q3=Tenuous Twilight Opal", "=ds="..AL["Drop"]..""};
 		{ 4, "s39463", "31863", "=q3=Balanced Nightseye", "=ds=#sr# 350"};
@@ -3052,13 +3052,13 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s28933", "23110", "=q2=Shifting Shadow Draenite", "=ds=#sr# 315"};
 		{ 30, "s28927", "23109", "=q2=Royal Shadow Draenite", "=ds=#sr# 305"};
 		Prev = "JewelPurple1";
-        Next = "JewelPurple3";
+		Next = "JewelPurple3";
 		Back = "JEWELCRAFTINGMENU";
 	};
-    
-    AtlasLoot_Data["JewelPurple3"] = {
-        { 1, "s28925", "23108", "=q2=Glowing Shadow Draenite", "=ds=#sr# 300"};
-        Prev = "JewelPurple2";
+
+	AtlasLoot_Data["JewelPurple3"] = {
+		{ 1, "s28925", "23108", "=q2=Glowing Shadow Draenite", "=ds=#sr# 300"};
+		Prev = "JewelPurple2";
 		Back = "JEWELCRAFTINGMENU";
 	};
 
@@ -3585,14 +3585,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["LeatherLeatherArmorWrath1"] = {
-        { 1, "s67142", "47600", "=q4=Knightbane Carapace", "=ds="};
-        { 2, "s67086", "47599", "=q4=Knightbane Carapace", "=ds="};
-        { 3, "s67084", "47602", "=q4=Lunar Eclipse Chestguard", "=ds="};
-        { 4, "s67140", "47601", "=q4=Lunar Eclipse Chestguard", "=ds="};
-        { 5, "s67087", "47581", "=q4=Bracers of Swift Death", "=ds="};
-        { 6, "s67139", "47582", "=q4=Bracers of Swift Death", "=ds="};
-        { 7, "s67085", "47583", "=q4=Moonshadow Armguards", "=ds="};
-        { 8, "s67141", "47584", "=q4=Moonshadow Armguards", "=ds="};
+		{ 1, "s67142", "47600", "=q4=Knightbane Carapace", "=ds="};
+		{ 2, "s67086", "47599", "=q4=Knightbane Carapace", "=ds="};
+		{ 3, "s67084", "47602", "=q4=Lunar Eclipse Chestguard", "=ds="};
+		{ 4, "s67140", "47601", "=q4=Lunar Eclipse Chestguard", "=ds="};
+		{ 5, "s67087", "47581", "=q4=Bracers of Swift Death", "=ds="};
+		{ 6, "s67139", "47582", "=q4=Bracers of Swift Death", "=ds="};
+		{ 7, "s67085", "47583", "=q4=Moonshadow Armguards", "=ds="};
+		{ 8, "s67141", "47584", "=q4=Moonshadow Armguards", "=ds="};
 		{ 9, "s63200", "45556", "=q4=Belt of Arctic Life", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 10, "s63201", "45565", "=q4=Boots of Wintry Endurance", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 11, "s63198", "45555", "=q4=Death-warmed Belt", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
@@ -3620,7 +3620,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["LeatherLeatherArmorWrath2"] = {
-        { 1, "s60716", "43262", "=q3=Overcast Spaulders", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 1, "s60716", "43262", "=q3=Overcast Spaulders", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 2, "s60718", "43263", "=q3=Overcast Chestguard", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 3, "s60720", "43264", "=q3=Overcast Bracers", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 4, "s60721", "43265", "=q3=Overcast Handwraps", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
@@ -3651,16 +3651,16 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s50938", "38408", "=q2=Iceborne Chestguard", "=ds="..AL["Trainer"]};
 		{ 30, "s60607", "38434", "=q2=Iceborne Wristguards", "=ds="..AL["Trainer"]};
 		Prev = "LeatherLeatherArmorWrath1";
-        Next = "LeatherLeatherArmorWrath3";
+		Next = "LeatherLeatherArmorWrath3";
 		Back = "LEATHERWORKINGMENU";
 	};
-    
-    AtlasLoot_Data["LeatherLeatherArmorWrath3"] = {
-        { 1, "s50941", "38409", "=q2=Iceborne Gloves", "=ds="..AL["Trainer"]};
+
+	AtlasLoot_Data["LeatherLeatherArmorWrath3"] = {
+		{ 1, "s50941", "38409", "=q2=Iceborne Gloves", "=ds="..AL["Trainer"]};
 		{ 2, "s50943", "38406", "=q2=Iceborne Belt", "=ds="..AL["Trainer"]};
 		{ 3, "s50939", "38410", "=q2=Iceborne Leggings", "=ds="..AL["Trainer"]};
 		{ 4, "s50942", "38407", "=q2=Iceborne Boots", "=ds="..AL["Trainer"]};
-        Prev = "LeatherLeatherArmorWrath2";
+		Prev = "LeatherLeatherArmorWrath2";
 		Back = "LEATHERWORKINGMENU";
 	};
 
@@ -3781,14 +3781,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["LeatherMailArmorWrath1"] = {
-        { 1, "s67138", "47596", "=q4=Crusader's Dragonscale Breastplate", "=ds="};
-        { 2, "s67082", "47595", "=q4=Crusader's Dragonscale Breastplate", "=ds="};
-        { 3, "s67080", "47597", "=q4=Ensorcelled Nerubian Breastplate", "=ds="};
-        { 4, "s67136", "47598", "=q4=Ensorcelled Nerubian Breastplate", "=ds="};
-        { 5, "s67137", "47580", "=q4=Black Chitin Bracers", "=ds="};
-        { 6, "s67081", "47579", "=q4=Black Chitin Bracers", "=ds="};
-        { 7, "s67083", "47576", "=q4=Crusader's Dragonscale Bracers", "=ds="};
-        { 8, "s67143", "47577", "=q4=Crusader's Dragonscale Bracers", "=ds="};
+		{ 1, "s67138", "47596", "=q4=Crusader's Dragonscale Breastplate", "=ds="};
+		{ 2, "s67082", "47595", "=q4=Crusader's Dragonscale Breastplate", "=ds="};
+		{ 3, "s67080", "47597", "=q4=Ensorcelled Nerubian Breastplate", "=ds="};
+		{ 4, "s67136", "47598", "=q4=Ensorcelled Nerubian Breastplate", "=ds="};
+		{ 5, "s67137", "47580", "=q4=Black Chitin Bracers", "=ds="};
+		{ 6, "s67081", "47579", "=q4=Black Chitin Bracers", "=ds="};
+		{ 7, "s67083", "47576", "=q4=Crusader's Dragonscale Bracers", "=ds="};
+		{ 8, "s67143", "47577", "=q4=Crusader's Dragonscale Bracers", "=ds="};
 		{ 9, "s63194", "45553", "=q4=Belt of Dragons", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 10, "s63196", "45554", "=q4=Blue Belt of Chaos", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 11, "s63195", "45562", "=q4=Boots of Living Scale", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
@@ -3816,7 +3816,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["LeatherMailArmorWrath2"] = {
-        { 1, "s60748", "43452", "=q3=Stormhide Wristguards", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+		{ 1, "s60748", "43452", "=q3=Stormhide Wristguards", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 2, "s60749", "43454", "=q3=Stormhide Grips", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 3, "s60750", "43450", "=q3=Stormhide Belt", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 4, "s60751", "43456", "=q3=Stormhide Legguards", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
@@ -3847,14 +3847,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s50959", "38421", "=q2=Nerubian Gloves", "=ds="..AL["Trainer"]};
 		{ 30, "s50961", "38418", "=q2=Nerubian Belt", "=ds="..AL["Trainer"]};
 		Prev = "LeatherMailArmorWrath1";
-        Next = "LeatherMailArmorWrath3";
+		Next = "LeatherMailArmorWrath3";
 		Back = "LEATHERWORKINGMENU";
 	};
-    
-    AtlasLoot_Data["LeatherMailArmorWrath3"] = {
-        { 1, "s50957", "38422", "=q2=Nerubian Legguards", "=ds="..AL["Trainer"]};
+
+	AtlasLoot_Data["LeatherMailArmorWrath3"] = {
+		{ 1, "s50957", "38422", "=q2=Nerubian Legguards", "=ds="..AL["Trainer"]};
 		{ 2, "s50960", "38419", "=q2=Nerubian Boots", "=ds="..AL["Trainer"]};
-        Prev = "LeatherMailArmorWrath2";
+		Prev = "LeatherMailArmorWrath2";
 		Back = "LEATHERWORKINGMENU";
 	};
 
@@ -4365,14 +4365,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["TailoringArmorWotLK1"] = {
-        { 1, "s67066", "47603", "=q4=Merlin's Robe", "=ds="};
-        { 2, "s67146", "47604", "=q4=Merlin's Robe", "=ds="};
-        { 3, "s67064", "47605", "=q4=Royal Moonshroud Robe", "=ds="};
-        { 4, "s67144", "47606", "=q4=Royal Moonshroud Robe", "=ds="};
-        { 5, "s67145", "47586", "=q4=Bejeweled Wizard's Bracers", "=ds="};
-        { 6, "s67079", "47585", "=q4=Bejeweled Wizard's Bracers", "=ds="};
-        { 7, "s67065", "47587", "=q4=Royal Moonshroud Bracers", "=ds="};
-        { 8, "s67147", "47588", "=q4=Royal Moonshroud Bracers", "=ds="};
+		{ 1, "s67066", "47603", "=q4=Merlin's Robe", "=ds="};
+		{ 2, "s67146", "47604", "=q4=Merlin's Robe", "=ds="};
+		{ 3, "s67064", "47605", "=q4=Royal Moonshroud Robe", "=ds="};
+		{ 4, "s67144", "47606", "=q4=Royal Moonshroud Robe", "=ds="};
+		{ 5, "s67145", "47586", "=q4=Bejeweled Wizard's Bracers", "=ds="};
+		{ 6, "s67079", "47585", "=q4=Bejeweled Wizard's Bracers", "=ds="};
+		{ 7, "s67065", "47587", "=q4=Royal Moonshroud Bracers", "=ds="};
+		{ 8, "s67147", "47588", "=q4=Royal Moonshroud Bracers", "=ds="};
 		{ 9, "s63205", "45558", "=q4=Cord of the White Dawn", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 10, "s63203", "45557", "=q4=Sash of Ancient Power", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
 		{ 11, "s63206", "45567", "=q4=Savior's Slippers", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
@@ -4400,7 +4400,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["TailoringArmorWotLK2"] = {
-        { 1, "s59588", "43975", "=q3=Frostsavage Leggings", "=ds="..AL["Trainer"] };
+		{ 1, "s59588", "43975", "=q3=Frostsavage Leggings", "=ds="..AL["Trainer"] };
 		{ 2, "s59587", "43972", "=q3=Frostsavage Robe", "=ds="..AL["Trainer"] };
 		{ 3, "s59584", "43973", "=q3=Frostsavage Shoulders", "=ds="..AL["Trainer"] };
 		{ 4, "s56022", "42095", "=q3=Light Blessed Mittens", "=ds="..AL["Trainer"] };
@@ -4431,15 +4431,15 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s55908", "41522", "=q2=Frostwoven Belt", "=ds="..AL["Trainer"] };
 		{ 30, "s55904", "44211", "=q2=Frostwoven Gloves", "=ds="..AL["Trainer"] };
 		Prev = "TailoringArmorWotLK1";
-        Next = "TailoringArmorWotLK3";
+		Next = "TailoringArmorWotLK3";
 		Back = "TAILORINGMENU";
 	};
-    
-    AtlasLoot_Data["TailoringArmorWotLK3"] = {
-        { 1, "s55903", "41515", "=q2=Frostwoven Robe", "=ds="..AL["Trainer"] };
+
+	AtlasLoot_Data["TailoringArmorWotLK3"] = {
+		{ 1, "s55903", "41515", "=q2=Frostwoven Robe", "=ds="..AL["Trainer"] };
 		{ 2, "s55902", "41513", "=q2=Frostwoven Shoulders", "=ds="..AL["Trainer"] };
 		{ 3, "s56031", "41512", "=q2=Frostwoven Wriststraps", "=ds="..AL["Trainer"] };
-        Prev = "TailoringArmorWotLK2";
+		Prev = "TailoringArmorWotLK2";
 		Back = "TAILORINGMENU";
 	};
 
