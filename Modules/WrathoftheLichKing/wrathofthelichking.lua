@@ -5426,20 +5426,20 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETHORDE";
 	};
 
-	AtlasLoot_Data["T9ShamanRestoration_A"] = {
-		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
+	AtlasLoot_Data["T9ShamanElemental_A"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48313, "", "=q4=Nobundo's Helm of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48315, "", "=q4=Nobundo's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
 		{ 4, 48310, "", "=q4=Nobundo's Hauberk of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
 		{ 5, 48312, "", "=q4=Nobundo's Gloves of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
 		{ 6, 48314, "", "=q4=Nobundo's Kilt of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
 		{ 9, 48318, "", "=q4=Nobundo's Helm of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 10, 48320, "", "=q4=Nobundo's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48316, "", "=q4=Nobundo's Hauberk of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48317, "", "=q4=Nobundo's Gloves of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 13, 48319, "", "=q4=Nobundo's Kilt of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
 		{ 17, 48323, "", "=q4=Nobundo's Helm of Triumph", "=ds=#s1#, #a3#"};
 		{ 18, 48321, "", "=q4=Nobundo's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
 		{ 19, 48325, "", "=q4=Nobundo's Hauberk of Triumph", "=ds=#s5#, #a3#"};
@@ -5448,20 +5448,20 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETALLIANCE";
 	};
 
-	AtlasLoot_Data["T9ShamanRestoration_H"] = {
-		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
+	AtlasLoot_Data["T9ShamanElemental_H"] = {
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48338, "", "=q4=Thrall's Helm of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48340, "", "=q4=Thrall's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
 		{ 4, 48336, "", "=q4=Thrall's Hauberk of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
 		{ 5, 48337, "", "=q4=Thrall's Gloves of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
 		{ 6, 48339, "", "=q4=Thrall's Kilt of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
 		{ 9, 48333, "", "=q4=Thrall's Helm of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 10, 48331, "", "=q4=Thrall's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48335, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48334, "", "=q4=Thrall's Gloves of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 13, 48332, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
 		{ 17, 48328, "", "=q4=Thrall's Helm of Triumph", "=ds=#s1#, #a3#"};
 		{ 18, 48330, "", "=q4=Thrall's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
 		{ 19, 48326, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#"};
@@ -5514,20 +5514,20 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETHORDE";
 	};
 
-	AtlasLoot_Data["T9ShamanElemental_A"] = {
-		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
+	AtlasLoot_Data["T9ShamanRestoration_A"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
 		{ 2, 48280, "", "=q4=Nobundo's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48283, "", "=q4=Nobundo's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
 		{ 4, 48281, "", "=q4=Nobundo's Tunic of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
 		{ 5, 48284, "", "=q4=Nobundo's Handguards of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
 		{ 6, 48282, "", "=q4=Nobundo's Legguards of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
 		{ 9, 48287, "", "=q4=Nobundo's Headpiece of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 10, 48289, "", "=q4=Nobundo's Spaulders of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48285, "", "=q4=Nobundo's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48286, "", "=q4=Nobundo's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 13, 48288, "", "=q4=Nobundo's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
 		{ 17, 48292, "", "=q4=Nobundo's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 		{ 18, 48290, "", "=q4=Nobundo's Spaulders of Triumph", "=ds=#s3#, #a3#"};
 		{ 19, 48294, "", "=q4=Nobundo's Tunic of Triumph", "=ds=#s5#, #a3#"};
@@ -5536,20 +5536,20 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T9SETALLIANCE";
 	};
 
-	AtlasLoot_Data["T9ShamanElemental_H"] = {
-		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
+	AtlasLoot_Data["T9ShamanRestoration_H"] = {
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48297, "", "=q4=Thrall's Headpiece of Conquest", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
 		{ 3, 48299, "", "=q4=Thrall's Spaulders of Conquest", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
 		{ 4, 48295, "", "=q4=Thrall's Tunic of Conquest", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
 		{ 5, 48296, "", "=q4=Thrall's Handguards of Conquest", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
 		{ 6, 48298, "", "=q4=Thrall's Legguards of Conquest", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
 		{ 9, 48302, "", "=q4=Thrall's Headpiece of Triumph", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 10, 48304, "", "=q4=Thrall's Spaulders of Triumph", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48300, "", "=q4=Thrall's Tunic of Triumph", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48301, "", "=q4=Thrall's Handguards of Triumph", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 13, 48303, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
 		{ 17, 48307, "", "=q4=Thrall's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 		{ 18, 48309, "", "=q4=Thrall's Spaulders of Triumph", "=ds=#s3#, #a3#"};
 		{ 19, 48305, "", "=q4=Thrall's Tunic of Triumph", "=ds=#s5#, #a3#"};
