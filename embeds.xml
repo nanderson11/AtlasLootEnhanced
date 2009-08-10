@@ -6,7 +6,6 @@
 <Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
 
 <Include file="Libs\LibBabble-Boss-3.0\lib.xml"/>
-<Include file="Libs\LibBabble-Class-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Faction-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Inventory-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Zone-3.0\lib.xml"/>

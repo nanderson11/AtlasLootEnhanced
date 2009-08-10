@@ -1,4 +1,3 @@
-local BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
 local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
 local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
@@ -11,16 +10,16 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 function AtlasLoot_FixText(text)
 
     -- Classes
-    text = gsub(text, "#c1#", BabbleClass["Druid"]);
-    text = gsub(text, "#c2#", BabbleClass["Hunter"]);
-    text = gsub(text, "#c3#", BabbleClass["Mage"]);
-    text = gsub(text, "#c4#", BabbleClass["Paladin"]);
-    text = gsub(text, "#c5#", BabbleClass["Priest"]);
-    text = gsub(text, "#c6#", BabbleClass["Rogue"]);
-    text = gsub(text, "#c7#", BabbleClass["Shaman"]);
-    text = gsub(text, "#c8#", BabbleClass["Warlock"]);
-    text = gsub(text, "#c9#", BabbleClass["Warrior"]);
-    text = gsub(text, "#c10#", BabbleClass["Deathknight"]);
+    text = gsub(text, "#c1#", LOCALIZED_CLASS_NAMES_MALE["DRUID"]);
+    text = gsub(text, "#c2#", LOCALIZED_CLASS_NAMES_MALE["HUNTER"]);
+    text = gsub(text, "#c3#", LOCALIZED_CLASS_NAMES_MALE["MAGE"]);
+    text = gsub(text, "#c4#", LOCALIZED_CLASS_NAMES_MALE["PALADIN"]);
+    text = gsub(text, "#c5#", LOCALIZED_CLASS_NAMES_MALE["PRIEST"]);
+    text = gsub(text, "#c6#", LOCALIZED_CLASS_NAMES_MALE["ROGUE"]);
+    text = gsub(text, "#c7#", LOCALIZED_CLASS_NAMES_MALE["SHAMAN"]);
+    text = gsub(text, "#c8#", LOCALIZED_CLASS_NAMES_MALE["WARLOCK"]);
+    text = gsub(text, "#c9#", LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]);
+    text = gsub(text, "#c10#", LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]);
 
     -- Professions
     text = gsub(text, "#p1#", (GetSpellInfo(2259)));	-- Alchemy

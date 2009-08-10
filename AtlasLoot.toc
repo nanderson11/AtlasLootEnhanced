@@ -26,7 +26,7 @@
 ## Notes-ruRU: Отображает весю возможную добычу с боссов
 ## SavedVariables: AtlasLootOptions, AtlasLootDB, AtlasLootWishList
 ## SavedVariablesPerCharacter: AtlasLootCharDB, AtlasLootFilterDB
-## OptionalDeps: Alphamap, LootLink, ItemSync, DewdropLib, FuBarPlugin-3.0, FuBar, Ace3, LibBabble-Boss-3.0, LibBabble-Class-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
+## OptionalDeps: Alphamap, LootLink, ItemSync, DewdropLib, FuBarPlugin-3.0, FuBar, Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
 
 embeds.xml
 

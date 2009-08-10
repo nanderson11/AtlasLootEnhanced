@@ -7,7 +7,6 @@ Defines the table listings for the dropdown lists.
 local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
-local BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
 local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
