@@ -795,6 +795,20 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "TrialoftheChampionEadricthePure" },
 		{ "", "TrialoftheChampionBlackKnight" },
 	},
+    ["TrialoftheCrusader_A"] = {
+		{ "", "TrialoftheCrusaderNorthrendBeasts_A" },
+		{ "", "TrialoftheCrusaderLordJaraxxus_A" },
+		{ "", "TrialoftheCrusaderFactionChampions_A" },
+		{ "", "TrialoftheCrusaderTwinValkyrs_A" },
+		{ "", "TrialoftheCrusaderAnubarak_A" },
+	},
+	["TrialoftheCrusader_H"] = {
+		{ "", "TrialoftheCrusaderNorthrendBeasts_H" },
+		{ "", "TrialoftheCrusaderLordJaraxxus_H" },
+		{ "", "TrialoftheCrusaderFactionChampions_H" },
+		{ "", "TrialoftheCrusaderTwinValkyrs_H" },
+		{ "", "TrialoftheCrusaderAnubarak_H" },
+	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
 		{ AtlasLoot_TableNames["Naxx80Grobbulus"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Grobbulus" },
