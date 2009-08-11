@@ -748,7 +748,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Back = "SMITHINGMENU";
 	};
 
-	AtlasLoot_Data["SmithingArmorWrath3"] = {
+	AtlasLoot_Data["SmithingArmorWrath4"] = {
 		{ 1, "s54550", "40668", "=q2=Cobalt Triangle Shield", "=ds="..AL["Trainer"] };
 		{ 2, "s52568", "39087", "=q2=Cobalt Belt", "=ds="..AL["Trainer"] };
 		{ 3, "s52569", "39088", "=q2=Cobalt Boots", "=ds="..AL["Trainer"] };
