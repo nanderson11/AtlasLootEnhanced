@@ -201,19 +201,25 @@ AtlasLoot_DewDropDown = {
 			[13] = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
-			[14] = {
-				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
+            [14] = {
+				[BabbleZone["Trial of the Crusader"]] = {
+					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
+					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
+				},
 			},
 			[15] = {
-				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
+				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
 			[16] = {
-				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
+				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
 			[17] = {
-				{ BabbleZone["Vault of Archavon"], "Archavon", "Submenu" },
+				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
 			[18] = {
+				{ BabbleZone["Vault of Archavon"], "Archavon", "Submenu" },
+			},
+			[19] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
