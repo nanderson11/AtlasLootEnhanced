@@ -202,10 +202,11 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
             [14] = {
-				[BabbleZone["Trial of the Crusader"]] = {
-					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
-					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
-				},
+                { BabbleZone["Trial of the Crusader"], "TrialoftheCrusader_A", "Submenu" },
+				--[BabbleZone["Trial of the Crusader"]] = {
+				--	{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
+				--	{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
+				--},
 			},
 			[15] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
