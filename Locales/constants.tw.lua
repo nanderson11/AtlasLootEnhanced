@@ -145,6 +145,7 @@ if AL then
 	AL["Emblem of Valor Rewards"] = "勇氣紋章獎勵";
 	AL["Emblem of Heroism Rewards"] = "英雄紋章獎勵";
 	AL["Emblem of Conquest Rewards"] = "征服紋章獎勵";
+	AL["Emblem of Triumph Rewards"] = "凱旋紋章獎勵";
 	AL["BoE World Epics"] = "裝綁世界掉落紫裝";
 	AL["Dungeon 1/2 Sets"] = "副本套裝 1/2";
 	AL["Dungeon 3 Sets"] = "副本套裝 3";
@@ -538,6 +539,9 @@ if AL then
 
 	-- Ninth set
 	--AL["Fields of Honor"] = true;
+	--AL["Path of Cenarius"] = true;
+	--AL["Pinata"] = true;
+	--AL["El Pollo Grande"] = true;
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "雜項獎勵";
@@ -917,6 +921,46 @@ if AL then
 	AL["Deathbringer Garb"] = "死亡使者裝束";
 	AL["Siegebreaker Battlegear"] = "破陣戰裝";
 	AL["Siegebreaker Plate"] = "破陣鎧甲";
+
+	-- Tier 9 Sets
+	AL["Malfurion's Garb"] = "瑪法里恩的裝束";
+	AL["Malfurion's Battlegear"] = "瑪法里恩的戰裝";
+	AL["Malfurion's Regalia"] = "瑪法里恩的戰衣";
+	AL["Runetotem's Garb"] = "符文圖騰的裝束";
+	AL["Runetotem's Battlegear"] = "符文圖騰的戰裝";
+	AL["Runetotem's Regalia"] = "符文圖騰的戰衣";
+	AL["Windrunner's Battlegear"] = "風行者的戰裝";
+	AL["Windrunner's Pursuit"] = "風行者的獵裝";
+	AL["Khadgar's Regalia"] = "卡德加的戰衣";
+	AL["Sunstrider's Regalia"] = "逐日者的戰衣";
+	AL["Turalyon's Garb"] = "圖拉揚的裝束";
+	AL["Turalyon's Battlegear"] = "圖拉揚的戰裝";
+	AL["Turalyon's Plate"] = "圖拉揚的鎧甲";
+	AL["Liadrin's Garb"] = "莉雅德倫的裝束";
+	AL["Liadrin's Battlegear"] = "莉雅德倫的戰裝";
+	AL["Liadrin's Plate"] = "莉雅德倫的鎧甲";
+	AL["Velen's Regalia"] = "費倫的戰衣";
+	AL["Velen's Raiment"] = "費倫的衣飾";
+	AL["Zabra's Regalia"] = "薩布拉的戰衣";
+	AL["Zabra's Raiment"] = "薩布拉的衣飾";
+	AL["VanCleef's Battlegear"] = "范克里夫的戰裝";
+	AL["Garona's Battlegear"] = "迦羅娜的戰裝";
+	AL["Nobundo's Garb"] = "諾柏多的裝束";
+	AL["Nobundo's Battlegear"] = "諾柏多的戰裝";
+	AL["Nobundo's Regalia"] = "諾柏多的戰衣";
+	AL["Thrall's Garb"] = "索爾的裝束";
+	AL["Thrall's Battlegear"] = "索爾的戰裝";
+	AL["Thrall's Regalia"] = "索爾的戰衣";
+	AL["Kel'Thuzad's Regalia"] = "科爾蘇加德的戰衣";
+	AL["Gul'dan's Regalia"] = "古爾丹的戰衣";
+	AL["Wrynn's Battlegear"] = "烏瑞恩的戰裝";
+	AL["Wrynn's Plate"] = "烏瑞恩的鎧甲";
+	AL["Hellscream's Battlegear"] = "地獄吼的戰裝";
+	AL["Hellscream's Plate"] = "地獄吼的鎧甲";
+	AL["Thassarian's Battlegear"] = "薩沙理安的戰裝";
+	AL["Koltira's Battlegear"] = "寇爾提拉的戰裝";
+	AL["Thassarian's Plate"] = "薩沙理安的鎧甲";
+	AL["Koltira's Plate"] = "寇爾提拉的鎧甲";
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "高地人的專注";
