@@ -223,26 +223,32 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["TrialoftheChampionBlackKnight"] = { BabbleBoss["The Black Knight"], "AtlasLootWotLK" };
     
     -- Trial of the Crusader
-	AtlasLoot_TableNames["TrialoftheCrusaderNorthrendBeasts_A"] = { BabbleBoss["The Beasts of Northrend"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderNorthrendBeasts_A"] = { BabbleBoss["The Beasts of Northrend"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderNorthrendBeasts_H"] = { BabbleBoss["The Beasts of Northrend"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderNorthrendBeasts_A25Man"] = { BabbleBoss["The Beasts of Northrend"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderNorthrendBeasts_A25Man"] = { BabbleBoss["The Beasts of Northrend"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderNorthrendBeasts_H25Man"] = { BabbleBoss["The Beasts of Northrend"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderLordJaraxxus_A"] = { BabbleBoss["Lord Jaraxxus"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderLordJaraxxus_A"] = { BabbleBoss["Lord Jaraxxus"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderLordJaraxxus_H"] = { BabbleBoss["Lord Jaraxxus"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderLordJaraxxus_A25Man"] = { BabbleBoss["Lord Jaraxxus"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderLordJaraxxus_A25Man"] = { BabbleBoss["Lord Jaraxxus"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderLordJaraxxus_H25Man"] = { BabbleBoss["Lord Jaraxxus"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderFactionChampions_A"] = { AL["Faction Champions"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderFactionChampions_A"] = { AL["Faction Champions"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderFactionChampions_H"] = { AL["Faction Champions"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderFactionChampions_A25Man"] = { AL["Faction Champions"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderFactionChampions_A25Man"] = { AL["Faction Champions"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderFactionChampions_H25Man"] = { AL["Faction Champions"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderTwinValkyrs_A"] = { BabbleBoss["The Twin Val'kyr"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderTwinValkyrs_A"] = { BabbleBoss["The Twin Val'kyr"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderTwinValkyrs_H"] = { BabbleBoss["The Twin Val'kyr"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderTwinValkyrs_A25Man"] = { BabbleBoss["The Twin Val'kyr"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderTwinValkyrs_A25Man"] = { BabbleBoss["The Twin Val'kyr"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderTwinValkyrs_H25Man"] = { BabbleBoss["The Twin Val'kyr"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_A"] = { BabbleBoss["Anub'arak"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_H"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
-	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_A25Man"] = { BabbleBoss["Anub'arak"]--[[.." ("..BabbleFaction["Alliance"]..")"]], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_A"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_AHEROIC"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
+    AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_H"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_HHEROIC"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
+    AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_A25Man"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderAnubarak_H25Man"] = { BabbleBoss["Anub'arak"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
+    AtlasLoot_TableNames["TrialoftheCrusaderTribute_A"] = { AL["Tribute Run"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderTribute_H"] = { AL["Tribute Run"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderTribute_A25Man"] = { AL["Tribute Run"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["TrialoftheCrusaderTribute_H25Man"] = { AL["Tribute Run"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
 --------------------
 --- BC Instances ---
 --------------------

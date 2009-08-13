@@ -202,11 +202,11 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
             [14] = {
-                { BabbleZone["Trial of the Crusader"], "TrialoftheCrusader_A", "Submenu" },
-				--[BabbleZone["Trial of the Crusader"]] = {
-				--	{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
-				--	{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
-				--},
+                --{ BabbleZone["Trial of the Crusader"], "TrialoftheCrusader_A", "Submenu" },
+				[BabbleZone["Trial of the Crusader"]] = {
+					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
+					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
+				},
 			},
 			[15] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
@@ -797,18 +797,20 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "TrialoftheChampionBlackKnight" },
 	},
     ["TrialoftheCrusader_A"] = {
-		{ "", "TrialoftheCrusaderNorthrendBeasts_A" },
-		{ "", "TrialoftheCrusaderLordJaraxxus_A" },
-		{ "", "TrialoftheCrusaderFactionChampions_A" },
-		{ "", "TrialoftheCrusaderTwinValkyrs_A" },
-		{ "", "TrialoftheCrusaderAnubarak_A" },
+		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_A" },
+		{ BabbleBoss["Lord Jaraxxus"], "TrialoftheCrusaderLordJaraxxus_A" },
+		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_A" },
+		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_A" },
+		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_A" },
+        { AL["Tribute Run"], "TrialoftheCrusaderTribute_A" },
 	},
 	["TrialoftheCrusader_H"] = {
-		{ "", "TrialoftheCrusaderNorthrendBeasts_H" },
-		{ "", "TrialoftheCrusaderLordJaraxxus_H" },
-		{ "", "TrialoftheCrusaderFactionChampions_H" },
-		{ "", "TrialoftheCrusaderTwinValkyrs_H" },
-		{ "", "TrialoftheCrusaderAnubarak_H" },
+		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_H" },
+		{ BabbleBoss["Lord Jaraxxus"], "TrialoftheCrusaderLordJaraxxus_H" },
+		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_H" },
+		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_H" },
+		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_H" },
+        { AL["Tribute Run"], "TrialoftheCrusaderTribute_H" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
