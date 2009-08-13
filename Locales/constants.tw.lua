@@ -46,6 +46,7 @@ if AL then
 	AL["Choose Table ..."] = "選擇表格...";
 	AL["Unknown"] = "未知";
 	AL["Add to QuickLooks:"] = "新增至快速瀏覽";
+	AL["Assign this loot table\n to QuickLook"] = "分配此物品表\n 至快速瀏覽";
 	AL["Query Server"] = "向伺服器查詢";
 	AL["Reset Frames"] = "重設框架";
 	AL["Reset Wishlist"] = "重設願望清單";
@@ -105,8 +106,8 @@ if AL then
 	AL["Classic Style"] = "傳統樣式";
 
 	--Slash commands
-	--AL["reset"] = "reset";
-	--AL["options"] = "options";
+	AL["reset"] = "重設";
+	AL["options"] = "選項";
 	AL["Reset complete!"] = "重設完成";
 
 	--AtlasLoot Panel
@@ -423,6 +424,7 @@ if AL then
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
 	AL["Tier 8 Sets"] = "T8 套裝";
+	AL["Tier 9 Sets"] = "T9 套裝";
 	AL["Furious Gladiator Sets"] = "狂烈鬥士套裝";
 
 	--Extra Text in Boss lists
@@ -1060,12 +1062,12 @@ if AL then
 	AL["Gladiator's Battlegear"] = "鬥士的戰裝";		  -- arenas9
 	AL["Gladiator's Desecration"] = "鬥士的褻瀆套裝";	 -- arenas10
 	
-	--Level 80 PvP Weapons
+	-- Level 80 PvP Weapons
 	AL["Savage Gladiator\'s Weapons"] = "蠻荒鬥士武器";
 	AL["Deadly Gladiator\'s Weapons"] = "致命鬥士武器";
 	AL["Furious Gladiator\'s Weapons"] = "狂烈鬥士武器";
 
-	--Specs
+	-- Specs
 	AL["Balance"] = "平衡";
 	AL["Feral"] = "野性";
 	AL["Restoration"] = "恢復";
@@ -1230,6 +1232,7 @@ if AL then
 	AL["Loken"] = "洛肯";
 	AL["Time-Lost Proto Drake"] = "時光流逝元龍";
 	AL["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆"; --Is in BabbleBoss
+	AL["Faction Champions"] = "陣營勇士"; -- if you have a better name, use it.
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
