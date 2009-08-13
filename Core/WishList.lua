@@ -1055,7 +1055,7 @@ function AtlasLoot_CreateWishlistOptions()
 		for k,v in pairs(AtlasLootCharDB["WishList"]) do
 			AtlasLootWishList["Own"][playerName]["OldWishlist"][k] = v
 		end
-		AtlasLootWishList["Own"][playerName]["OldWishlist"]["info"] = {"OldWishlist",false,"Interface\\Icons\\INV_Misc_QuestionMark"}
+		AtlasLootWishList["Own"][playerName]["OldWishlist"]["info"] = {"OldWishlist",{[playerName] = false},"Interface\\Icons\\INV_Misc_QuestionMark"}
 		AtlasLootCharDB["WishList"] = nil
 	end
 	for k,v in pairs(AtlasLootWishList["Own"]) do
