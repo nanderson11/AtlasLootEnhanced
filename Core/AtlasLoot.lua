@@ -775,12 +775,12 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		
 		if BigraidCheck == "25Man" or HeroicCheck == "25ManHEROIC" then
 			HeroicCheck=string.sub(xdataID, string.len(xdataID)-10, string.len(xdataID));
-			HeroicdataID=dataID.."HEROIC";
+			HeroicdataID=xdataID.."HEROIC";
 			NonHeroicdataID=string.sub(xdataID, 1, string.len(xdataID)-11);
 			heroname = "25ManHEROIC"
 		else
 			HeroicCheck=string.sub(xdataID, string.len(xdataID)-5, string.len(xdataID));
-			HeroicdataID=dataID.."HEROIC";
+			HeroicdataID=xdataID.."HEROIC";
 			NonHeroicdataID=string.sub(xdataID, 1, string.len(xdataID)-6);
 			heroname = "HEROIC"
 		end

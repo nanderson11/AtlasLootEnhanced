@@ -184,6 +184,11 @@ function AtlasLoot_ShowWishListDropDown(xitemID, xitemTexture, xitemName, xlootP
 								"notCheckable", true
 							);
 							AtlasLoot_WishListDrop:AddLine(
+								"text", AL["Options"],
+								"func", function() InterfaceOptionsFrame_OpenToCategory(AL["AtlasLoot"]); AtlasLoot_WishListDrop:Close(1) end,
+								"notCheckable", true
+							);
+							AtlasLoot_WishListDrop:AddLine(
 								"text", AL["Close"],
 								"func", function() AtlasLoot_WishListDrop:Close(1) end,
 								"notCheckable", true
