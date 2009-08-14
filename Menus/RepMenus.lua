@@ -1,7 +1,7 @@
-local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
-local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
-local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
+local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
+local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["REPMENU"] = {
 		{ 2, "REPMENU_ORIGINALWOW", "INV_Helmet_66", "=ds="..AL["Factions - Original WoW"], ""};

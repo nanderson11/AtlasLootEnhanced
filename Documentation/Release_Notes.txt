@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.07.05
+Added New Mounts, Pets and Tabards
+Added 25 Man Trial of the Crusader loot
+
 v5.07.04
 10 Man Trial of the Crusader is complete (Horde and Alliance)
 More minor bug fixes

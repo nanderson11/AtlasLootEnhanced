@@ -1,7 +1,7 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
-local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
+local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local APPRENTICE = select(2, GetSpellInfo(2259));
 local JOURNEYMAN = select(2, GetSpellInfo(3101));
 local EXPERT = select(2, GetSpellInfo(3464));
@@ -900,7 +900,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Prev = "SmithingWeaponBC1";
 		Back = "SMITHINGMENU";
 	};
-	
+
 	AtlasLoot_Data["SmithingWeaponWrath1"] = {
 		{ 1, "s63182", "45085", "=q4=Titansteel Spellblade", "=ds="..AL["Trainer"] };
 		{ 2, "s55370", "41383", "=q4=Titansteel Bonecrusher", "=ds="..AL["Trainer"] };
@@ -3112,7 +3112,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 2, "s56530", "42701", "=q2=Enchanted Pearl", "=ds="..AL["Trainer"] };
 		Back = "JEWELCRAFTINGMENU";
 	};
-	
+
 	AtlasLoot_Data["JewelDragonsEye1"] = {
 		{ 1, "s56049", "42142", "=q4=Bold Dragon's Eye", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		{ 2, "s56054", "42142", "=q4=Bright Dragon's Eye", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
