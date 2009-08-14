@@ -403,6 +403,10 @@ if AL then
 	AL["Heirloom"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
+    AL["A Tribute to Skill"] = true;
+	AL["A Tribute to Mad Skill"] = true;
+	AL["A Tribute to Insanity"] = true;
+	AL["A Tribute to Immortality"] = true;
 
 	-- Loot Table Names
 	AL["Scholomance Sets"] = true;
