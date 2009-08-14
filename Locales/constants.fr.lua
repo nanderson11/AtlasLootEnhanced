@@ -402,6 +402,10 @@ if AL then
 	AL["Heirloom"] = "Héritage";
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
+	--AL["A Tribute to Skill"] = true; -- à traduire
+	--AL["A Tribute to Mad Skill"] = true;
+	--AL["A Tribute to Insanity"] = true;
+	--AL["A Tribute to Immortality"] = true;
 
 	-- Loot Table Names
 	AL["Scholomance Sets"] = "Sets Scholomance";
