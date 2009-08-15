@@ -403,6 +403,7 @@ if AL then
 	AL["Heirloom"] = "Héritage";
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
+	AL["Alone in the Darkness"] = "Dans la nuit noire";
 	--AL["A Tribute to Skill"] = true; -- à traduire
 	--AL["A Tribute to Mad Skill"] = true;
 	--AL["A Tribute to Insanity"] = true;
