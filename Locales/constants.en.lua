@@ -139,7 +139,7 @@ if AL then
 	AL["Cooking Daily"] = true;
 	AL["Crafted Sets"] = true;
 	AL["Crafted Epic Weapons"] = true;
-    AL["Dragon's Eye"] = true;
+	AL["Dragon's Eye"] = true;
 
 	-- Sets/Collections Menu
 	AL["Badge of Justice Rewards"] = true;
@@ -457,7 +457,7 @@ if AL then
 	AL["Hyjal Summit Designs"] =true;
 	AL["SP Patterns/Plans"] = true;
 	AL["Ulduar Formula/Patterns/Plans"] = true;
-    AL["Trial of the Crusader Patterns/Plans"] = true;
+	AL["Trial of the Crusader Patterns/Plans"] = true;
 	AL["Legendary Items for Kael'thas Fight"] = true;
 
 	-- Pets

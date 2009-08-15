@@ -201,7 +201,7 @@ AtlasLoot_DewDropDown = {
 			[13] = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
-            [14] = {
+			[14] = {
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
@@ -795,14 +795,14 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "TrialoftheChampionEadricthePure" },
 		{ "", "TrialoftheChampionBlackKnight" },
 	},
-    ["TrialoftheCrusader_A"] = {
+	["TrialoftheCrusader_A"] = {
 		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_A" },
 		{ BabbleBoss["Lord Jaraxxus"], "TrialoftheCrusaderLordJaraxxus_A" },
 		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_A" },
 		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_A" },
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_A" },
-        { AL["Tribute Run"], "TrialoftheCrusaderTribute_A" },
-        { AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
+		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_A" },
+		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
 	},
 	["TrialoftheCrusader_H"] = {
 		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_H" },
@@ -810,8 +810,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_H" },
 		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_H" },
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_H" },
-        { AL["Tribute Run"], "TrialoftheCrusaderTribute_H" },
-        { AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
+		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_H" },
+		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
