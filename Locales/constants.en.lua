@@ -404,6 +404,7 @@ if AL then
 	AL["Heirloom"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
+	AL["Alone in the Darkness"] = true;
 	AL["A Tribute to Skill"] = true;
 	AL["A Tribute to Mad Skill"] = true;
 	AL["A Tribute to Insanity"] = true;
