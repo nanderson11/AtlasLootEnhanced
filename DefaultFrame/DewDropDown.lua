@@ -202,7 +202,6 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
             [14] = {
-                --{ BabbleZone["Trial of the Crusader"], "TrialoftheCrusader_A", "Submenu" },
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
@@ -803,6 +802,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_A" },
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_A" },
         { AL["Tribute Run"], "TrialoftheCrusaderTribute_A" },
+        { AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
 	},
 	["TrialoftheCrusader_H"] = {
 		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_H" },
@@ -811,6 +811,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_H" },
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_H" },
         { AL["Tribute Run"], "TrialoftheCrusaderTribute_H" },
+        { AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
