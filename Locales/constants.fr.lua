@@ -138,6 +138,7 @@ if AL then
 	AL["Cooking Daily"] = "Rec. de Cuisine (Jounalière)";
 	AL["Crafted Sets"] = "Sets d'artisanat";
 	AL["Crafted Epic Weapons"] = "Armes d'artisanat épiques";
+	AL["Dragon's Eye"] = "Oeil de dragon";
 
 	-- Sets/Collections Menu
 	AL["Badge of Justice Rewards"] = "Récompenses Insigne de justice";
@@ -454,7 +455,8 @@ if AL then
 	AL["BT Patterns/Plans"] = "Patrons/Plans du Temple Noir";
 	AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
 	AL["SP Patterns/Plans"] = "Patrons/Plans du Plateau du Puits de soleil";
-	AL["Ulduar Formula/Patterns/Plans"] = "Formules/Patrons/Plans de Ulduar";
+	AL["Ulduar Formula/Patterns/Plans"] = "Formules/Patrons/Plans d'Ulduar";
+	AL["Trial of the Crusader Patterns/Plans"] = "Patrons/Plans de L'épreuve du croisé";
 	AL["Legendary Items for Kael'thas Fight"] = "Objets légendaires pour le combat contre Kael'thas";
 
 	-- Pets
