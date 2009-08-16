@@ -12,12 +12,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
 		{ 9, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
 		{ 10, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
-		{ 17, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
-		{ 18, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
-		{ 20, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
-		{ 21, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
-		{ 23, "JewelcraftingDaily", "INV_Misc_Gem_01", AL["Jewelcrafting Daily"], ""};
-		{ 24, "CookingDaily", "INV_Misc_Food_15", AL["Cooking Daily"], ""};
+		{ 12, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
+		{ 13, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
+		{ 17, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
+		{ 18, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
+		{ 20, "JewelcraftingDaily", "INV_Misc_Gem_01", AL["Jewelcrafting Daily"], ""};
+		{ 21, "CookingDaily", "INV_Misc_Food_15", AL["Cooking Daily"], ""};
 	};
 
 	AtlasLoot_Data["CRAFTSET"] = {
@@ -171,7 +171,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, "JewelPurple1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "" };
 		{ 7, "JewelMeta1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "" };
 		{ 8, "JewelPrismatic1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "" };
-		{ 9, "JewelDragonsEye1", "INV_Misc_Gem_01", "=ds="..AL["Dragon's Eye"], "" };
+		{ 9, "JewelDragonsEye1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Dragon's Eye"], "" };
 		{ 16, "JewelNeck1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Neck"], "" };
 		{ 17, "JewelTrinket1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Trinket"], "" };
 		{ 18, "JewelRing1", "INV_Misc_Gem_01", "=ds="..BabbleInventory["Ring"], "" };
