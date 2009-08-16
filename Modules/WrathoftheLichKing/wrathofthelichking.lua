@@ -63,6 +63,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Pets
 ---- Mounts
 ---- BoE World Epics
+---- Heirloom Items
 ---- Emblem of Heroism Items
 ---- Emblem of Valor Items
 ---- Emblem of Conquest Items
@@ -2872,6 +2873,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)"};
 		{ 18, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
 		{ 19, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};
+		{ 30, 45087, "", "=q3=Runed Orb", "=ds=#e8#"};
 	};
 
 		-----------------------------
@@ -6687,9 +6689,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 5, 43300, "", "=q4=Loremaster's Colors", "=ds=#m32#"};
 		{ 6, 49052, "", "=q3=Tabard of Conquest", "=ds=#m32# =ec1=#m7#"};
 		{ 7, 49054, "", "=q3=Tabard of Conquest", "=ds=#m32# =ec1=#m6#"};
-		{ 9, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#m32#"};
-		{ 10, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#m32# =ec1=#m7#"};
-		{ 11, 46818, "", "=q1=Sunreaver Tabard", "=ds=#m32# =ec1=#m6#"};
+		{ 9, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
+		{ 10, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 11, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7# =ec1=#m6#"};
 		{ 16, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
 		{ 17, 43157, "", "=q1=Tabard of the Kirin Tor", "=ds=#s7#"};
 		{ 18, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
@@ -7238,7 +7240,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 32458, "", "=q4=Ashes of Al'ar", "=q2=#n59#, =q1=#z19#"};
 		{ 4, 13335, "", "=q4=Deathcharger's Reins", "=q2=#n52#, =q1=#z6#", "", "0.10%"};
 		{ 5, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2=#n53#, =q1=#z12#", "", "0.25%"};
-		{ 6, 45693, "", "=q4=Mimiron's Head", "=ds=", "", ""};
+		{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..AL["Alone in the Darkness"]..", =q1="..BabbleZone["Ulduar"], "", ""};
 		{ 7, 43986, "", "=q4=Reins of the Black Drake", "=q2=#n153#, =q1=#j37# #z38# #j46#", ""};
 		{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "=q2=#n153#, =q1=#j38# #z38# #j46#", ""};
 		{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2=#n154#, =q1=#j37# #z39#", ""};
@@ -7371,31 +7373,53 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		-------------------------------
 		
 	AtlasLoot_Data["Heirloom"] = {
-		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism#"};
-		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
-		{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
-		{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "40 #eofheroism#"};
-		{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "40 #eofheroism#"};
-		{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "40 #eofheroism#"};
-		{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "40 #eofheroism#"};
-		{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "40 #eofheroism#"};
-		{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "40 #eofheroism#"};
-		{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "40 #eofheroism#"};
-		{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "40 #eofheroism#"};
-		{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "40 #eofheroism#"};
-		{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "50 #eofheroism#"};
-		{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "50 #eofheroism#"};
-		{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "40 #eofheroism#"};
-		{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "40 #eofheroism#"};
-		{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "65 #eofheroism#"};
-		{ 22, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "40 #eofheroism#"};
-		{ 23, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "65 #eofheroism#"};
-		{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "50 #eofheroism#"};
-		{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "65 #eofheroism#"};
-		{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "65 #eofheroism#"};
+		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism# / 60 #champseal#"};
+		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism# / 60 #champseal#"};
+		{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "40 #eofheroism# / 60 #champseal#"};
+		{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "40 #eofheroism# / 60 #champseal#"};
+		{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "40 #eofheroism# / 60 #champseal#"};
+		{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "40 #eofheroism# / 60 #champseal#"};
+		{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "40 #eofheroism# / 60 #champseal#"};
+		{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "40 #eofheroism# / 60 #champseal#"};
+		{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "40 #eofheroism# / 60 #champseal#"};
+		{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "40 #eofheroism# / 60 #champseal#"};
+		{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "40 #eofheroism# / 60 #champseal#"};
+		{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "40 #eofheroism# / 60 #champseal#"};
+		{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "50 #eofheroism#  / 75 #champseal#"};
+		{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "50 #eofheroism#  / 75 #champseal#"};
+		{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "40 #eofheroism#  / 60 #champseal#"};
+		{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "40 #eofheroism#  / 60 #champseal#"};
+		{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "65 #eofheroism#  / 95 #champseal#"};
+		{ 22, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "40 #eofheroism#  / 75 #champseal#"};
+		{ 23, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "65 #eofheroism#  / 95 #champseal#"};
+		{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "50 #eofheroism#  / 75 #champseal#"};
+		{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "65 #eofheroism#  / 95 #champseal#"};
+		{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "65 #eofheroism#  / 95 #champseal#"};
+		Next = "Heirloom2";
 		Back = "SETMENU";
 	};
-
+	
+	AtlasLoot_Data["Heirloom2"] = {
+		{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "200 #wintergrasp#"};
+		{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "200 #wintergrasp#"};
+		{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "200 #wintergrasp#"};
+		{ 4, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "200 #wintergrasp#"};
+		{ 5, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "200 #wintergrasp#"};
+		{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "200 #wintergrasp#"};
+		{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "200 #wintergrasp#"};
+		{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "250 #wintergrasp#"};
+		{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "250 #wintergrasp#"};
+		{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "200 #wintergrasp#"};
+		{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "200 #wintergrasp#"};
+		{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "325 #wintergrasp#"};
+		{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "250 #wintergrasp#"};
+		{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "325 #wintergrasp#"};
+		{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "325 #wintergrasp#"};
+		{ 30, 44115, "", "=q7=Wintergrasp Commendation", "=ds=", "30 #wintergrasp#"};
+		Prev = "Heirloom";
+		Back = "SETMENU";
+	};
+	
 		-------------------------------
 		--- Emblem of Heroism Items ---
 		-------------------------------
@@ -7531,22 +7555,23 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "25 #eofvalor#"};
 		{ 3, 40717, "", "=q4=Ring of Invincibility", "=ds=#s13#", "25 #eofvalor#"};
 		{ 4, 40718, "", "=q4=Signet of the Impregnable Fortress", "=ds=#s13#", "25 #eofvalor#"};
-		{ 6, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "60 #eofvalor#"};
-		{ 7, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#"};
-		{ 8, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "60 #eofvalor#"};
-		{ 10, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#e15#", "75 #eofvalor#"};
-		{ 11, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#"};
-		{ 12, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#", "75 #eofvalor#"};
-		{ 16, 40342, "", "=q4=Idol of Awakening", "=ds=#s16#, #w14#", "25 #eofvalor#" };
-		{ 17, 40321, "", "=q4=Idol of the Shooting Star", "=ds=#s16#, #w14#", "25 #eofvalor#" };
-		{ 18, 39757, "", "=q4=Idol of Worship", "=ds=#s16#, #w14#", "25 #eofvalor#" };
-		{ 19, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#", "25 #eofvalor#" };
-		{ 20, 40337, "", "=q4=Libram of Resurgence", "=ds=#s16#, #w16#", "25 #eofvalor#" };
-		{ 21, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#, #w16#", "25 #eofvalor#" };
-		{ 22, 40207, "", "=q4=Sigil of Awareness", "=ds=#s16#, #w21#", "25 #eofvalor#" };
-		{ 23, 40322, "", "=q4=Totem of Dueling", "=ds=#s16#, #w15#", "25 #eofvalor#" };
-		{ 24, 40267, "", "=q4=Totem of Hex", "=ds=#s16#, #w15#", "25 #eofvalor#" };
-		{ 25, 39728, "", "=q4=Totem of Misery", "=ds=#s16#, #w15#", "25 #eofvalor#" };
+		{ 6, 40342, "", "=q4=Idol of Awakening", "=ds=#s16#, #w14#", "25 #eofvalor#" };
+		{ 7, 40321, "", "=q4=Idol of the Shooting Star", "=ds=#s16#, #w14#", "25 #eofvalor#" };
+		{ 8, 39757, "", "=q4=Idol of Worship", "=ds=#s16#, #w14#", "25 #eofvalor#" };
+		{ 9, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#, #w16#", "25 #eofvalor#" };
+		{ 10, 40337, "", "=q4=Libram of Resurgence", "=ds=#s16#, #w16#", "25 #eofvalor#" };
+		{ 11, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#, #w16#", "25 #eofvalor#" };
+		{ 12, 40207, "", "=q4=Sigil of Awareness", "=ds=#s16#, #w21#", "25 #eofvalor#" };
+		{ 13, 40322, "", "=q4=Totem of Dueling", "=ds=#s16#, #w15#", "25 #eofvalor#" };
+		{ 14, 40267, "", "=q4=Totem of Hex", "=ds=#s16#, #w15#", "25 #eofvalor#" };
+		{ 15, 39728, "", "=q4=Totem of Misery", "=ds=#s16#, #w15#", "25 #eofvalor#" };
+		{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "60 #eofvalor#"};
+		{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "60 #eofvalor#"};
+		{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "60 #eofvalor#"};
+		{ 20, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#e15#", "75 #eofvalor#"};
+		{ 21, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "75 #eofvalor#"};
+		{ 22, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#", "75 #eofvalor#"};
+		{ 24, 40752, "", "=q4=Emblem of Heroism", "=ds=", "1 #eofvalor#" };
 		Prev = "EmblemofValor";
 		Back = "SETMENU";
 	};
@@ -7618,7 +7643,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "EmblemofConquest2";
 		Back = "SETMENU";
 	};
-
+	
 		-------------------------------
 		--- Emblem of Triumph Items ---
 		-------------------------------
