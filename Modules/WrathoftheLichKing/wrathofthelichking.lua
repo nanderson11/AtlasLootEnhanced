@@ -7365,106 +7365,136 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "WorldEpics4";
 		Back = "WORLDEPICS";
 	};
+	
+		-------------------------------
+		--- Heirloom Items ---
+		-------------------------------
+		
+	AtlasLoot_Data["Heirloom"] = {
+		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism#"};
+		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
+		{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
+		{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "40 #eofheroism#"};
+		{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "40 #eofheroism#"};
+		{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "40 #eofheroism#"};
+		{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "40 #eofheroism#"};
+		{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "40 #eofheroism#"};
+		{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "40 #eofheroism#"};
+		{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "40 #eofheroism#"};
+		{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "40 #eofheroism#"};
+		{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "40 #eofheroism#"};
+		{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "50 #eofheroism#"};
+		{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "50 #eofheroism#"};
+		{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "40 #eofheroism#"};
+		{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "40 #eofheroism#"};
+		{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "65 #eofheroism#"};
+		{ 22, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "40 #eofheroism#"};
+		{ 23, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "65 #eofheroism#"};
+		{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "50 #eofheroism#"};
+		{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "65 #eofheroism#"};
+		{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "65 #eofheroism#"};
+		Back = "SETMENU";
+	};
 
 		-------------------------------
 		--- Emblem of Heroism Items ---
 		-------------------------------
 
 	AtlasLoot_Data["EmblemofHeroism"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#a1#", ""};
-		{ 2, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "40 #eofheroism#"};
-		{ 3, 40696, "", "=q4=Plush Sash of Guzbah", "=ds=#s10#, #a1#", "40 #eofheroism#"};
-		{ 5, 0, "INV_Box_01", "=q6=#a2#", ""};
-		{ 6, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "40 #eofheroism#"};
-		{ 7, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "40 #eofheroism#"};
-		{ 9, 0, "INV_Box_01", "=q6=#a3#", ""};
-		{ 10, 40693, "", "=q4=Beadwork Belt of Shamanic Vision", "=ds=#s10#, #a3#", "40 #eofheroism#"};
-		{ 11, 40692, "", "=q4=Vereesa's Silver Chain Belt", "=ds=#s10#, #a3#", "40 #eofheroism#"};
-		{ 16, 0, "INV_Box_01", "=q6=#a4#", ""};
-		{ 17, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#"};
-		{ 18, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#"};
-		{ 19, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#"};
-		{ 21, 0, "INV_Box_01", "=q6="..AL["Misc"], ""}; 
-		{ 22, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e12# =ec1=#m7#", "200 #eofheroism#"};
-		{ 23, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e12# =ec1=#m6#", "200 #eofheroism#"};
-		{ 24, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "80 #eofheroism#"};
-		{ 25, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "80 #eofheroism#"};
-		{ 26, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "80 #eofheroism#"};
-		{ 27, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "60 #eofheroism#"};
-		{ 28, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "60 #eofheroism#"};
-		{ 29, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "60 #eofheroism#"};
-		{ 30, 43102, "", "=q3=Frozen Orb", "=ds=#e15#", "10 #eofheroism#"};
+		{ 1, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "40 #eofheroism#"};
+		{ 2, 40696, "", "=q4=Plush Sash of Guzbah", "=ds=#s10#, #a1#", "40 #eofheroism#"};
+		{ 3, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "40 #eofheroism#"};
+		{ 4, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "40 #eofheroism#"};
+		{ 5, 40693, "", "=q4=Beadwork Belt of Shamanic Vision", "=ds=#s10#, #a3#", "40 #eofheroism#"};
+		{ 6, 40692, "", "=q4=Vereesa's Silver Chain Belt", "=ds=#s10#, #a3#", "40 #eofheroism#"};
+		{ 7, 40691, "", "=q4=Magroth's Meditative Cincture", "=ds=#s10#, #a4#", "40 #eofheroism#"};
+		{ 8, 40688, "", "=q4=Verdungo's Barbarian Cord", "=ds=#s10#, #a4#", "40 #eofheroism#"};
+		{ 9, 40689, "", "=q4=Waistguard of Living Iron", "=ds=#s10#, #a4#", "40 #eofheroism#"};
+		{ 16, 40704, "", "=q4=Pride", "=ds=#w13#, #h4#", "50 #eofheroism#"};
+		{ 17, 40702, "", "=q4=Rolfsen's Ripper", "=ds=#w4#, #h4#", "50 #eofheroism#"};
+		{ 18, 40703, "", "=q4=Grasscutter", "=ds=#w10#, #h4#", "50 #eofheroism#"};
+		{ 19, 40716, "", "=q4=Lillehoff's Winged Blades", "=ds=#w11#", "15 #eofheroism#"};
+		{ 20, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "35 #eofheroism#"};
+		{ 21, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "35 #eofheroism#"};
+		{ 22, 40699, "", "=q4=Handbook of Obscure Remedies", "=ds=#s15#", "25 #eofheroism#"};
+		{ 23, 40698, "", "=q4=Ward of the Violet Citadel", "=ds=#s15#", "25 #eofheroism#"};
 		Next = "EmblemofHeroism2";
 		Back = "SETMENU";
 	};
 
 	AtlasLoot_Data["EmblemofHeroism2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j50#", ""};
-		{ 2, 40704, "", "=q4=Pride", "=ds=#w13#, #h4#", "50 #eofheroism#"};
-		{ 3, 40702, "", "=q4=Rolfsen's Ripper", "=ds=#w4#, #h4#", "50 #eofheroism#"};
-		{ 4, 40703, "", "=q4=Grasscutter", "=ds=#w10#, #h4#", "50 #eofheroism#"};
-		{ 5, 40716, "", "=q4=Lillehoff's Winged Blades", "=ds=#w11#", "15 #eofheroism#"};
-		{ 6, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "35 #eofheroism#"};
-		{ 7, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "35 #eofheroism#"};
-		{ 8, 40699, "", "=q4=Handbook of Obscure Remedies", "=ds=#s15#", "25 #eofheroism#"};
-		{ 9, 40698, "", "=q4=Ward of the Violet Citadel", "=ds=#s15#", "25 #eofheroism#"};
-		{ 11, 0, "INV_Box_01", "=q6=#e7#", ""};
-		{ 12, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "20 #eofheroism#" };
-		{ 13, 36922, "", "=q4=King's Amber", "=ds=#e7#", "20 #eofheroism#" };
-		{ 14, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "20 #eofheroism#" };
-		{ 16, 0, "INV_Box_01", "=q6=#j51#", ""};
-		{ 17, 40679, "", "=q4=Chained Military Gorget", "=ds=#s2#", "25 #eofheroism#"};
-		{ 18, 40680, "", "=q4=Encircling Burnished Gold Chains", "=ds=#s2#", "25 #eofheroism#"};
-		{ 19, 40681, "", "=q4=Lattice Choker of Light", "=ds=#s2#", "25 #eofheroism#"};
-		{ 20, 40678, "", "=q4=Pendant of the Outcast Hero", "=ds=#s2#", "25 #eofheroism#"};
-		{ 21, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "40 #eofheroism#"};
-		{ 22, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "40 #eofheroism#"};
-		{ 23, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "40 #eofheroism#"};
-		{ 24, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "40 #eofheroism#"};
-		{ 26, 0, "INV_Box_01", "=q6=#e7#", ""};
-		{ 27, 36931, "", "=q4=Ametrine", "=ds=#e7#", "10 #eofheroism#" };
-		{ 28, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "10 #eofheroism#" };
-		{ 29, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "10 #eofheroism#" };
+		{ 1, 40711, "", "=q4=Idol of Lush Moss", "=ds=#w14#", "15 #eofheroism#"};
+		{ 2, 40712, "", "=q4=Idol of Steadfast Renewal", "=ds=#w14#", "15 #eofheroism#"};
+		{ 3, 40713, "", "=q4=Idol of the Ravenous Beast", "=ds=#w14#", "15 #eofheroism#"};
+		{ 4, 40707, "", "=q4=Libram of Obstruction", "=ds=#w16#", "15 #eofheroism#"};
+		{ 5, 40706, "", "=q4=Libram of Reciprocation", "=ds=#w16#", "15 #eofheroism#"};
+		{ 6, 40705, "", "=q4=Libram of Renewal", "=ds=#w16#", "15 #eofheroism#"};
+		{ 7, 40715, "", "=q4=Sigil of Haunted Dreams", "=ds=#w21#", "15 #eofheroism#"};
+		{ 8, 40714, "", "=q4=Sigil of the Unfaltering Knight", "=ds=#w21#", "15 #eofheroism#"};
+		{ 9, 40709, "", "=q4=Totem of Forest Growth", "=ds=#w15#", "15 #eofheroism#"};
+		{ 10, 40710, "", "=q4=Totem of Splintering", "=ds=#w15#", "15 #eofheroism#"};
+		{ 11, 40708, "", "=q4=Totem of the Elemental Plane", "=ds=#w15#", "15 #eofheroism#"};
+		{ 16, 40679, "", "=q4=Chained Military Gorget", "=ds=#s2#", "25 #eofheroism#"};
+		{ 17, 40680, "", "=q4=Encircling Burnished Gold Chains", "=ds=#s2#", "25 #eofheroism#"};
+		{ 18, 40681, "", "=q4=Lattice Choker of Light", "=ds=#s2#", "25 #eofheroism#"};
+		{ 19, 40678, "", "=q4=Pendant of the Outcast Hero", "=ds=#s2#", "25 #eofheroism#"};
+		{ 20, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "40 #eofheroism#"};
+		{ 21, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "40 #eofheroism#"};
+		{ 22, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "40 #eofheroism#"};
+		{ 23, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "40 #eofheroism#"};
 		Prev = "EmblemofHeroism";
 		Next = "EmblemofHeroism3";
 		Back = "SETMENU";
 	};
 
 	AtlasLoot_Data["EmblemofHeroism3"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#w14#", ""};
-		{ 2, 40711, "", "=q4=Idol of Lush Moss", "=ds=#w14#", "15 #eofheroism#"};
-		{ 3, 40712, "", "=q4=Idol of Steadfast Renewal", "=ds=#w14#", "15 #eofheroism#"};
-		{ 4, 40713, "", "=q4=Idol of the Ravenous Beast", "=ds=#w14#", "15 #eofheroism#"};
-		{ 5, 0, "INV_Box_01", "=q6=#w16#", ""};
-		{ 6, 40707, "", "=q4=Libram of Obstruction", "=ds=#w16#", "15 #eofheroism#"};
-		{ 7, 40706, "", "=q4=Libram of Reciprocation", "=ds=#w16#", "15 #eofheroism#"};
-		{ 8, 40705, "", "=q4=Libram of Renewal", "=ds=#w16#", "15 #eofheroism#"};
-		{ 9, 0, "INV_Box_01", "=q6=#w21#", ""};
-		{ 10, 40715, "", "=q4=Sigil of Haunted Dreams", "=ds=#w21#", "15 #eofheroism#"};
-		{ 11, 40714, "", "=q4=Sigil of the Unfaltering Knight", "=ds=#w21#", "15 #eofheroism#"};
-		{ 12, 0, "INV_Box_01", "=q6=#w15#", ""};
-		{ 13, 40709, "", "=q4=Totem of Forest Growth", "=ds=#w15#", "15 #eofheroism#"};
-		{ 14, 40710, "", "=q4=Totem of Splintering", "=ds=#w15#", "15 #eofheroism#"};
-		{ 15, 40708, "", "=q4=Totem of the Elemental Plane", "=ds=#w15#", "15 #eofheroism#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j52#", ""};
-		{ 17, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism#"};
-		{ 18, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
-		{ 19, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
-		{ 20, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "40 #eofheroism#"};
-		{ 21, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "40 #eofheroism#"};
-		{ 22, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "40 #eofheroism#"};
-		{ 23, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "50 #eofheroism#"};
-		{ 24, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "50 #eofheroism#"};
-		{ 25, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "40 #eofheroism#"};
-		{ 26, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "40 #eofheroism#"};
-		{ 27, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "65 #eofheroism#"};
-		{ 28, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "50 #eofheroism#"};
-		{ 29, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "65 #eofheroism#"};
-		{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "65 #eofheroism#"};
+		{ 1, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "80 #eofheroism#"};
+		{ 2, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "80 #eofheroism#"};
+		{ 3, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "80 #eofheroism#"};
+		{ 5, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "60 #eofheroism#"};
+		{ 6, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "60 #eofheroism#"};
+		{ 7, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "60 #eofheroism#"};
+		{ 9, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e12# =ec1=#m7#", "200 #eofheroism#"};
+		{ 10, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e12# =ec1=#m6#", "200 #eofheroism#"};
+		{ 16, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "20 #eofheroism#" };
+		{ 17, 36922, "", "=q4=King's Amber", "=ds=#e7#", "20 #eofheroism#" };
+		{ 18, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "20 #eofheroism#" };
+		{ 19, 36931, "", "=q4=Ametrine", "=ds=#e7#", "10 #eofheroism#" };
+		{ 20, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "10 #eofheroism#" };
+		{ 21, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "10 #eofheroism#" };
+		{ 23, 43102, "", "=q3=Frozen Orb", "=ds=#e15#", "10 #eofheroism#"};
 		Prev = "EmblemofHeroism2";
+		Next = "EmblemofHeroism4";
 		Back = "SETMENU";
 	};
-
+	
+	AtlasLoot_Data["EmblemofHeroism4"] = {
+		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism#"};
+		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
+		{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
+		{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "40 #eofheroism#"};
+		{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "40 #eofheroism#"};
+		{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "40 #eofheroism#"};
+		{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "40 #eofheroism#"};
+		{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "40 #eofheroism#"};
+		{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "40 #eofheroism#"};
+		{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "40 #eofheroism#"};
+		{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "40 #eofheroism#"};
+		{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "40 #eofheroism#"};
+		{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "50 #eofheroism#"};
+		{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "50 #eofheroism#"};
+		{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "40 #eofheroism#"};
+		{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "40 #eofheroism#"};
+		{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "65 #eofheroism#"};
+		{ 22, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "40 #eofheroism#"};
+		{ 23, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "65 #eofheroism#"};
+		{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "50 #eofheroism#"};
+		{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "65 #eofheroism#"};
+		{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "65 #eofheroism#"};
+		Prev = "EmblemofHeroism3";
+		Back = "SETMENU";
+	};
+	
 		-----------------------------
 		--- Emblem of Valor Items ---
 		-----------------------------
@@ -7560,15 +7590,32 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 45843, "", "=q4=Legguards of the Peaceful Covenant", "=ds=#s11#, #a4#", "39 #eofconquest#" };
 		{ 7, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
 		{ 8, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
-		{ 10, 40753, "", "=q4=Emblem of Valor", "=ds=", "1 #eofconquest#" };
-		{ 11, 45087, "", "=q3=Runed Orb", "=ds=", "18 #eofconquest#" };
-		{ 16, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
-		{ 17, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "58 #eofconquest#" };
-		{ 18, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
-		{ 20, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
-		{ 21, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "58 #eofconquest#" };
-		{ 22, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+		{ 16, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#, #w14#", "19 #eofconquest#" };
+		{ 17, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#s16#, #w14#", "19 #eofconquest#" };
+		{ 18, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#, #w14#", "19 #eofconquest#" };
+		{ 19, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "19 #eofconquest#" };
+		{ 20, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#, #w16#", "19 #eofconquest#" };
+		{ 21, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#", "19 #eofconquest#" };
+		{ 22, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #21#", "19 #eofconquest#" };
+		{ 23, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#s21#, #w16#", "19 #eofconquest#" };
+		{ 24, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#, #w15#", "19 #eofconquest#" };
+		{ 25, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#, #w15#", "19 #eofconquest#" };
+		{ 26, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#, #w15#", "19 #eofconquest#" };
 		Prev = "EmblemofConquest1";
+		Next = "EmblemofConquest3";
+		Back = "SETMENU";
+	};
+	
+	AtlasLoot_Data["EmblemofConquest3"] = {
+		{ 1, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
+		{ 2, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "58 #eofconquest#" };
+		{ 3, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+		{ 5, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
+		{ 6, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "58 #eofconquest#" };
+		{ 7, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "58 #eofconquest#" };
+		{ 9, 40753, "", "=q4=Emblem of Valor", "=ds=", "1 #eofconquest#" };
+		{ 10, 45087, "", "=q3=Runed Orb", "=ds=", "18 #eofconquest#" };
+		Prev = "EmblemofConquest2";
 		Back = "SETMENU";
 	};
 
