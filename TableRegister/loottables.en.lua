@@ -905,16 +905,20 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["HardModeWeapons"] = { AL["Weapons"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["HardModeArena"] = { AL["PvP Rewards"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["HardModeArena2"] = { AL["PvP Rewards"], "AtlasLootBurningCrusade" };
+  -- Heirloom Items
+	AtlasLoot_TableNames["Heirloom"] = { AL["Heirloom"], "AtlasLootWotLK" };
   -- Emblem of Heroism Rewards
 	AtlasLoot_TableNames["EmblemofHeroism"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofHeroism2"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofHeroism3"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofHeroism4"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
   -- Emblem of Valor Rewards
 	AtlasLoot_TableNames["EmblemofValor"] = { AL["Emblem of Valor Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofValor2"] = { AL["Emblem of Valor Rewards"], "AtlasLootWotLK" };
   -- Emblem of Conquest Rewards
 	AtlasLoot_TableNames["EmblemofConquest1"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofConquest2"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["EmblemofConquest3"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
   -- Emblem of Triumph Rewards
 	AtlasLoot_TableNames["EmblemofTriumph1"] = { AL["Emblem of Triumph Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofTriumph2"] = { AL["Emblem of Triumph Rewards"], "AtlasLootWotLK" };
