@@ -907,6 +907,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["HardModeArena2"] = { AL["PvP Rewards"], "AtlasLootBurningCrusade" };
   -- Heirloom Items
 	AtlasLoot_TableNames["Heirloom"] = { AL["Heirloom"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Heirloom2"] = { AL["Heirloom"], "AtlasLootWotLK" };
   -- Emblem of Heroism Rewards
 	AtlasLoot_TableNames["EmblemofHeroism"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofHeroism2"] = { AL["Emblem of Heroism Rewards"], "AtlasLootWotLK" };
@@ -990,6 +991,7 @@ AtlasLoot_TableNames = {};
 
 	AtlasLoot_TableNames["CraftedWeapons1"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["CraftedWeapons2"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["CraftedWeapons3"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Legendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["MountsAlliance1"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["MountsAlliance2"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
@@ -1046,6 +1048,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["ArgentTournament4"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ArgentTournament5"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ArgentTournament6"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["ArgentTournament7"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["ArgentTournament8"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
   -- Abyssal Council
 	AtlasLoot_TableNames["Templars"] = { AL["Abyssal Council"].." - "..AL["Templars"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Dukes"] = { AL["Abyssal Council"].." - "..AL["Dukes"], "AtlasLootWorldEvents" };
@@ -1336,7 +1340,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["JewelPurple3"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelMeta1"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelMeta2"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelDragonsEye1"] = { JEWELCRAFTING..": "..AL["Dragon's Eye"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelDragonsEye1"] = { JEWELCRAFTING..": "..BabbleInventory["Dragon's Eye"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelPrismatic1"] = { JEWELCRAFTING..": "..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelTrinket1"] = { JEWELCRAFTING..": "..BabbleInventory["Trinket"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelRing1"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
@@ -1409,6 +1413,10 @@ AtlasLoot_TableNames = {};
   -- Daily
 	AtlasLoot_TableNames["JewelcraftingDaily"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily2"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelcraftingDaily3"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelcraftingDaily4"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelcraftingDaily5"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["JewelcraftingDaily6"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["CookingDaily"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
 
 -----------
