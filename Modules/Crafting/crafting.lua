@@ -3109,7 +3109,11 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["JewelPrismatic1"] = {
 		{ 1, "s68253", "49110", "=q4=Nightmare Tear", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
-		{ 2, "s56530", "42701", "=q2=Enchanted Pearl", "=ds="..AL["Trainer"] };
+		{ 2, "s28028", "22459", "=q4=Void Sphere", "=ds="..GetSpellInfo(7411) };
+		{ 3, "s56531", "42702", "=q3=Enchanted Tear", "=ds="..AL["Trainer"] };
+		{ 4, "s28027", "22460", "=q3=Prismatic Sphere", "=ds="..GetSpellInfo(7411) };
+		{ 5, "s56530", "42701", "=q2=Enchanted Pearl", "=ds="..AL["Trainer"] };
+		{ 6, "s62941", "42701", "=q2=Prismatic Black Diamond", "=ds="..AL["Trainer"] };
 		Back = "JEWELCRAFTINGMENU";
 	};
 
@@ -3132,6 +3136,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 16, "s56088", "42142", "=q4=Stormy Dragon's Eye", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		{ 17, "s56055", "42142", "=q4=Subtle Dragon's Eye", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
 		{ 18, "s56089", "42142", "=q4=Thick Dragon's Eye", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"] };
+		{ 20, 42225, "", "=q3=Dragon's Eye", "=ds=#e8#"};
 		Back = "JEWELCRAFTINGMENU";
 	};
 
@@ -3318,20 +3323,18 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 9, "s26878", "20969", "=q3=Ruby Crown of Restoration", "=ds=#sr# 225"};
 		{ 10, "s25321", "20832", "=q3=Moonsoul Crown", "=ds=#sr# 120"};
 		{ 11, "s56208", "42421", "=q2=Shadow Jade Focusing Lens", "=ds="..AL["Trainer"] };
-		{ 12, "s56530", "42701", "=q2=Enchanted Pearl", "=ds="..AL["Trainer"] };
-		{ 13, "s56206", "42420", "=q2=Shadow Crystal Focusing Lens", "=ds="..AL["Trainer"] };
-		{ 14, "s56205", "41367", "=q2=Dark Jade Focusing Lens", "=ds="..AL["Trainer"] };
-		{ 15, "s62941", "45054", "=q2=Prismatic Black Diamond", "=ds="};
-		{ 16, "s25612", "20954", "=q2=Heavy Iron Knuckles", "=ds=#sr# 125"};
-		{ 17, "s26880", "21752", "=q1=Thorium Setting", "=ds=#sr# 225"};
-		{ 18, "s32809", "25883", "=q1=Dense Stone Statue", "=ds=#sr# 225"};
-		{ 19, "s32808", "25882", "=q1=Solid Stone Statue", "=ds=#sr# 175"};
-		{ 20, "s25615", "20963", "=q1=Mithril Filigree", "=ds=#sr# 150"};
-		{ 21, "s32807", "25881", "=q1=Heavy Stone Statue", "=ds=#sr# 110"};
-		{ 22, "s25278", "20817", "=q1=Bronze Setting", "=ds=#sr# 50"};
-		{ 23, "s32801", "25880", "=q1=Coarse Stone Statue", "=ds=#sr# 50"};
-		{ 24, "s25255", "20816", "=q1=Delicate Copper Wire", "=ds=#sr# 1"};
-		{ 25, "s32259", "25498", "=q1=Rough Stone Statue", "=ds=#sr# 1"};
+		{ 12, "s56206", "42420", "=q2=Shadow Crystal Focusing Lens", "=ds="..AL["Trainer"] };
+		{ 13, "s56205", "41367", "=q2=Dark Jade Focusing Lens", "=ds="..AL["Trainer"] };
+		{ 14, "s25612", "20954", "=q2=Heavy Iron Knuckles", "=ds=#sr# 125"};
+		{ 15, "s26880", "21752", "=q1=Thorium Setting", "=ds=#sr# 225"};
+		{ 16, "s32809", "25883", "=q1=Dense Stone Statue", "=ds=#sr# 225"};
+		{ 17, "s32808", "25882", "=q1=Solid Stone Statue", "=ds=#sr# 175"};
+		{ 18, "s25615", "20963", "=q1=Mithril Filigree", "=ds=#sr# 150"};
+		{ 19, "s32807", "25881", "=q1=Heavy Stone Statue", "=ds=#sr# 110"};
+		{ 20, "s25278", "20817", "=q1=Bronze Setting", "=ds=#sr# 50"};
+		{ 21, "s32801", "25880", "=q1=Coarse Stone Statue", "=ds=#sr# 50"};
+		{ 22, "s25255", "20816", "=q1=Delicate Copper Wire", "=ds=#sr# 1"};
+		{ 23, "s32259", "25498", "=q1=Rough Stone Statue", "=ds=#sr# 1"};
 		Back = "JEWELCRAFTINGMENU";
 	};
 
@@ -4994,6 +4997,52 @@ local MASTER = select(2, GetSpellInfo(28596));
 		----------------------------
 
 	AtlasLoot_Data["CraftedWeapons1"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j54#"};
+		{ 2, 42435, "", "=q4=Titansteel Shanker", "=ds=#h1#, #w4#"};
+		{ 3, 45085, "", "=q4=Titansteel Spellblade", "=ds=#h3#, #w4#"};
+		{ 4, 41257, "", "=q4=Titansteel Destroyer", "=ds=#h2#, #w6#"};
+		{ 5, 41383, "", "=q4=Titansteel Bonecrusher", "=ds=#h3#, #w6#"};
+		{ 6, 41384, "", "=q4=Titansteel Guardian", "=ds=#h3#, #w6#"};
+		{ 8, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j54#"};
+		{ 9, 44504, "", "=q4=Nesingwary 4000", "=ds=#w5#"};
+		{ 10, 41168, "", "=q4=Armor Plated Combat Shotgun", "=ds=#w5#"};
+		{ 16, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j10#"};
+		{ 17, 23554, "", "=q4=Eternium Runed Blade", "=ds=#h3#, #w4#"};
+		{ 18, 23555, "", "=q4=Dirge", "=ds=#h1#, #w4#"};
+		{ 19, 23540, "", "=q4=Felsteel Longblade", "=ds=#h1#, #w10#"};
+		{ 20, 23541, "", "=q4=Khorium Champion", "=ds=#h2#, #w10#"};
+		{ 21, 23542, "", "=q4=Fel Edged Battleaxe", "=ds=#h1#, #w1#"};
+		{ 22, 23543, "", "=q4=Felsteel Reaper", "=ds=#h2#, #w1#"};
+		{ 23, 23556, "", "=q4=Hand of Eternity", "=ds=#h3#, #w6#"};
+		{ 24, 23544, "", "=q4=Runic Hammer", "=ds=#h1#, #w6#"};
+		{ 25, 23546, "", "=q4=Fel Hardened Maul", "=ds=#h2#, #w6#"};
+		{ 26, 32854, "", "=q4=Hammer of Righteous Might", "=ds=#h2#, #w6#"};
+		{ 28, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j10#"};
+		{ 29, 32756, "", "=q4=Gyro-balanced Khorium Destroyer", "=ds=#w5#"};
+		Next = "CraftedWeapons2";
+		Back = "CRAFTINGMENU";
+	};
+
+	AtlasLoot_Data["CraftedWeapons2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j9#"};
+		{ 2, 19166, "", "=q4=Black Amnesty", "=ds=#h1#, #w4#"};
+		{ 3, 22383, "", "=q4=Sageblade", "=ds=#h3#, #w10#"};
+		{ 4, 19168, "", "=q4=Blackguard", "=ds=#h1#, #w10#"};
+		{ 5, 19169, "", "=q4=Nightfall", "=ds=#h2#, #w1#"};
+		{ 6, 22384, "", "=q4=Persuader", "=ds=#h3#, #w6#"};
+		{ 7, 19170, "", "=q4=Ebon Hand", "=ds=#h1#, #w6#"};
+		{ 8, 17193, "", "=q4=Sulfuron Hammer", "=ds=#h2#, #w6#"};
+		{ 9, 19167, "", "=q4=Blackfury", "=ds=#w7#"};
+		{ 10, 22198, "", "=q4=Jagged Obsidian Shield", "=ds=#w8#"};
+		{ 12, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j9#"};
+		{ 13, 18282, "", "=q4=Core Marksman Rifle", "=ds=#w5#"};
+		{ 14, 18168, "", "=q4=Force Reactive Disk", "=ds=#w8#"};
+		Prev = "CraftedWeapons1";
+		Next = "CraftedWeapons3";
+		Back = "CRAFTINGMENU";
+	};
+	
+	AtlasLoot_Data["CraftedWeapons3"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#p15#", ""};
 		{ 2, 28425, "", "=q4=Fireguard", "=ds=#h1#, #w10#"};
 		{ 3, 28426, "", "=q4=Blazeguard", "=ds=#h1#, #w10#"};
@@ -5015,41 +5064,10 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 20, 28440, "", "=q4=Thunder", "=ds=#h2#, #w6#"};
 		{ 21, 28441, "", "=q4=Deep Thunder", "=ds=#h2#, #w6#"};
 		{ 22, 28442, "", "=q4=Stormherald", "=ds=#h2#, #w6#"};
-		Next = "CraftedWeapons2";
+		Prev = "CraftedWeapons2";
 		Back = "CRAFTINGMENU";
 	};
-
-	AtlasLoot_Data["CraftedWeapons2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j10#"};
-		{ 2, 23554, "", "=q4=Eternium Runed Blade", "=ds=#h3#, #w4#"};
-		{ 3, 23555, "", "=q4=Dirge", "=ds=#h1#, #w4#"};
-		{ 4, 23540, "", "=q4=Felsteel Longblade", "=ds=#h1#, #w10#"};
-		{ 5, 23541, "", "=q4=Khorium Champion", "=ds=#h2#, #w10#"};
-		{ 6, 23542, "", "=q4=Fel Edged Battleaxe", "=ds=#h1#, #w1#"};
-		{ 7, 23543, "", "=q4=Felsteel Reaper", "=ds=#h2#, #w1#"};
-		{ 8, 23556, "", "=q4=Hand of Eternity", "=ds=#h3#, #w6#"};
-		{ 9, 23544, "", "=q4=Runic Hammer", "=ds=#h1#, #w6#"};
-		{ 10, 23546, "", "=q4=Fel Hardened Maul", "=ds=#h2#, #w6#"};
-		{ 11, 32854, "", "=q4=Hammer of Righteous Might", "=ds=#h2#, #w6#"};
-		{ 13, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j10#"};
-		{ 14, 32756, "", "=q4=Gyro-balanced Khorium Destroyer", "=ds=#w5#"};
-		{ 16, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j9#"};
-		{ 17, 19166, "", "=q4=Black Amnesty", "=ds=#h1#, #w4#"};
-		{ 18, 22383, "", "=q4=Sageblade", "=ds=#h3#, #w10#"};
-		{ 19, 19168, "", "=q4=Blackguard", "=ds=#h1#, #w10#"};
-		{ 20, 19169, "", "=q4=Nightfall", "=ds=#h2#, #w1#"};
-		{ 21, 22384, "", "=q4=Persuader", "=ds=#h3#, #w6#"};
-		{ 22, 19170, "", "=q4=Ebon Hand", "=ds=#h1#, #w6#"};
-		{ 23, 17193, "", "=q4=Sulfuron Hammer", "=ds=#h2#, #w6#"};
-		{ 24, 19167, "", "=q4=Blackfury", "=ds=#w7#"};
-		{ 25, 22198, "", "=q4=Jagged Obsidian Shield", "=ds=#w8#"};
-		{ 27, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j9#"};
-		{ 28, 18282, "", "=q4=Core Marksman Rifle", "=ds=#w5#"};
-		{ 29, 18168, "", "=q4=Force Reactive Disk", "=ds=#w8#"};
-		Prev = "CraftedWeapons1";
-		Back = "CRAFTINGMENU";
-	};
-
+	
 	--------------------------------
 	--- Daily Profession Rewards ---
 	--------------------------------
@@ -5059,6 +5077,138 @@ local MASTER = select(2, GetSpellInfo(28596));
 		---------------------
 
 	AtlasLoot_Data["JewelcraftingDaily"] = {
+		{ 1, 46917, "", "=q3=Design: Bold Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 2, 46919, "", "=q3=Design: Bright Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 3, 46918, "", "=q3=Design: Delicate Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 4, 46923, "", "=q3=Design: Flashing Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 5, 46921, "", "=q3=Design: Fractured Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 6, 46920, "", "=q3=Design: Precise Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 7, 46916, "", "=q3=Design: Runed Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 8, 46922, "", "=q3=Design: Subtle Cardinal Ruby", "=ds=#p12# (450)"};
+		{ 9, 41576, "", "=q3=Design: Bold Scarlet Ruby", "=ds=#p12# (390)"};
+		{ 10, 41577, "", "=q3=Design: Delicate Scarlet Ruby", "=ds=#p12# (390)"};
+		{ 11, 41578, "", "=q3=Design: Flashing Scarlet Ruby", "=ds=#p12# (390)"};
+		{ 16, 46930, "", "=q3=Design: Brilliant King's Amber", "=ds=#p12# (450)"};
+		{ 17, 46932, "", "=q3=Design: Mystic King's Amber", "=ds=#p12# (450)"};
+		{ 18, 46933, "", "=q3=Design: Quick King's Amber", "=ds=#p12# (450)"};
+		{ 19, 46928, "", "=q3=Design: Rigid King's Amber", "=ds=#p12# (450)"};
+		{ 20, 46929, "", "=q3=Design: Smooth King's Amber", "=ds=#p12# (450)"};
+		{ 21, 46931, "", "=q3=Design: Thick King's Amber", "=ds=#p12# (450)"};
+		{ 22, 41579, "", "=q3=Design: Quick Autumn's Glow", "=ds=#p12# (390)"};
+		{ 23, 41580, "", "=q3=Design: Rigid Autumn's Glow", "=ds=#p12# (390)"};
+		Next = "JewelcraftingDaily2";
+		Back = "CRAFTINGMENU";
+	};
+	
+	AtlasLoot_Data["JewelcraftingDaily2"] = {
+		{ 1, 47010, "", "=q3=Design: Accurate Ametrine", "=ds=#p12# (450)"};
+		{ 2, 47015, "", "=q3=Design: Champion's Ametrine", "=ds=#p12# (450)"};
+		{ 3, 46949, "", "=q3=Design: Deadly Ametrine", "=ds=#p12# (450)"};
+		{ 4, 47020, "", "=q3=Design: Deft Ametrine", "=ds=#p12# (450)"};
+		{ 5, 46952, "", "=q3=Design: Durable Ametrine", "=ds=#p12# (450)"};
+		{ 6, 47016, "", "=q3=Design: Empowered Ametrine", "=ds=#p12# (450)"};
+		{ 7, 46953, "", "=q3=Design: Etched Ametrine", "=ds=#p12# (450)"};
+		{ 8, 47019, "", "=q3=Design: Fierce Ametrine", "=ds=#p12# (450)"};
+		{ 9, 47012, "", "=q3=Design: Glimmering Ametrine", "=ds=#p12# (450)"};
+		{ 10, 47008, "", "=q3=Design: Glinting Ametrine", "=ds=#p12# (450)"};
+		{ 11, 46948, "", "=q3=Design: Inscribed Ametrine", "=ds=#p12# (450)"};
+		{ 12, 47021, "", "=q3=Design: Lucent Ametrine", "=ds=#p12# (450)"};
+		{ 13, 46947, "", "=q3=Design: Luminous Ametrine", "=ds=#p12# (450)"};
+		{ 14, 46950, "", "=q3=Design: Potent Ametrine", "=ds=#p12# (450)"};
+		{ 15, 46956, "", "=q3=Design: Pristine Ametrine", "=ds=#p12# (450)"};
+		{ 16, 47007, "", "=q3=Design: Reckless Ametrine", "=ds=#p12# (450)"};
+		{ 17, 47022, "", "=q3=Design: Resolute Ametrine", "=ds=#p12# (450)"};
+		{ 18, 47018, "", "=q3=Design: Resplendent Ametrine", "=ds=#p12# (450)"};
+		{ 19, 47017, "", "=q3=Design: Stalwart Ametrine", "=ds=#p12# (450)"};
+		{ 20, 47023, "", "=q3=Design: Stark Ametrine", "=ds=#p12# (450)"};
+		{ 21, 46951, "", "=q3=Design: Veiled Ametrine", "=ds=#p12# (450)"};
+		{ 22, 47011, "", "=q3=Design: Wicked Ametrine", "=ds=#p12# (450)"};
+		{ 23, 41582, "", "=q3=Design: Glinting Monarch Topaz", "=ds=#p12# (390)"};
+		{ 24, 41689, "", "=q3=Design: Luminous Monarch Topaz", "=ds=#p12# (390)"};
+		{ 25, 41686, "", "=q3=Design: Potent Monarch Topaz", "=ds=#p12# (390)"};
+		{ 26, 41690, "", "=q3=Design: Reckless Monarch Topaz", "=ds=#p12# (390)"};
+		{ 27, 41687, "", "=q3=Design: Stark Monarch Topaz", "=ds=#p12# (390)"};
+		{ 28, 41688, "", "=q3=Design: Veiled Monarch Topaz", "=ds=#p12# (390)"};
+		Prev = "JewelcraftingDaily";
+		Next = "JewelcraftingDaily3";
+		Back = "CRAFTINGMENU";
+	};
+
+	AtlasLoot_Data["JewelcraftingDaily3"] = {
+		{ 1, 46900, "", "=q3=Design: Dazzling Eye of Zul", "=ds=#p12# (450)"};
+		{ 2, 46897, "", "=q3=Design: Enduring Eye of Zul", "=ds=#p12# (450)"};
+		{ 3, 46912, "", "=q3=Design: Energized Eye of Zul", "=ds=#p12# (450)"};
+		{ 4, 46904, "", "=q3=Design: Forceful Eye of Zul", "=ds=#p12# (450)"};
+		{ 5, 46910, "", "=q3=Design: Intricate Eye of Zul", "=ds=#p12# (450)"};
+		{ 6, 46901, "", "=q3=Design: Jagged Eye of Zul", "=ds=#p12# (450)"};
+		{ 7, 46909, "", "=q3=Design: Lambent Eye of Zul", "=ds=#p12# (450)"};
+		{ 8, 46905, "", "=q3=Design: Misty Eye of Zul", "=ds=#p12# (450)"};
+		{ 9, 46914, "", "=q3=Design: Opaque Eye of Zul", "=ds=#p12# (450)"};
+		{ 10, 46911, "", "=q3=Design: Radiant Eye of Zul", "=ds=#p12# (450)"};
+		{ 11, 46903, "", "=q3=Design: Seer's Eye of Zul", "=ds=#p12# (450)"};
+		{ 12, 46913, "", "=q3=Design: Shattered Eye of Zul", "=ds=#p12# (450)"};
+		{ 13, 46907, "", "=q3=Design: Shining Eye of Zul", "=ds=#p12# (450)"};
+		{ 14, 46898, "", "=q3=Design: Steady Eye of Zul", "=ds=#p12# (450)"};
+		{ 15, 46906, "", "=q3=Design: Sundered Eye of Zul", "=ds=#p12# (450)"};
+		{ 16, 46908, "", "=q3=Design: Tense Eye of Zul", "=ds=#p12# (450)"};
+		{ 17, 46902, "", "=q3=Design: Timeless Eye of Zul", "=ds=#p12# (450)"};
+		{ 18, 46915, "", "=q3=Design: Turbid Eye of Zul", "=ds=#p12# (450)"};
+		{ 19, 46899, "", "=q3=Design: Vivid Eye of Zul", "=ds=#p12# (450)"};
+		{ 20, 41697, "", "=q3=Design: Enduring Forest Emerald", "=ds=#p12# (390)"};
+		{ 21, 41692, "", "=q3=Design: Energized Forest Emerald", "=ds=#p12# (390)"};
+		{ 22, 41693, "", "=q3=Design: Forceful Forest Emerald", "=ds=#p12# (390)"};
+		{ 23, 41694, "", "=q3=Design: Intricate Forest Emerald", "=ds=#p12# (390)"};
+		{ 24, 41696, "", "=q3=Design: Lambent Forest Emerald", "=ds=#p12# (390)"};
+		{ 25, 41699, "", "=q3=Design: Seer's Forest Emerald", "=ds=#p12# (390)"};
+		{ 26, 41698, "", "=q3=Design: Vivid Forest Emerald", "=ds=#p12# (390)"};
+		Prev = "JewelcraftingDaily2";
+		Next = "JewelcraftingDaily4";
+		Back = "CRAFTINGMENU";
+	};
+	
+	AtlasLoot_Data["JewelcraftingDaily4"] = {
+		{ 1, 46934, "", "=q3=Design: Balanced Dreadstone", "=ds=#p12# (450)"};
+		{ 2, 46941, "", "=q3=Design: Defender's Dreadstone", "=ds=#p12# (450)"};
+		{ 3, 46936, "", "=q3=Design: Glowing Dreadstone", "=ds=#p12# (450)"};
+		{ 4, 46942, "", "=q3=Design: Guardian's Dreadstone", "=ds=#p12# (450)"};
+		{ 5, 46945, "", "=q3=Design: Infused Dreadstone", "=ds=#p12# (450)"};
+		{ 6, 46943, "", "=q3=Design: Mysterious Dreadstone", "=ds=#p12# (450)"};
+		{ 7, 46944, "", "=q3=Design: Puissant Dreadstone", "=ds=#p12# (450)"};
+		{ 8, 46937, "", "=q3=Design: Purified Dreadstone", "=ds=#p12# (450)"};
+		{ 9, 46940, "", "=q3=Design: Regal Dreadstone", "=ds=#p12# (450)"};
+		{ 10, 46939, "", "=q3=Design: Royal Dreadstone", "=ds=#p12# (450)"};
+		{ 11, 46938, "", "=q3=Design: Shifting Dreadstone", "=ds=#p12# (450)"};
+		{ 12, 46935, "", "=q3=Design: Sovereign Dreadstone", "=ds=#p12# (450)"};
+		{ 13, 46946, "", "=q3=Design: Tenuous Dreadstone", "=ds=#p12# (450)"};
+		{ 14, 41702, "", "=q3=Design: Puissant Twilight Opal", "=ds=#p12# (390)"};
+		{ 15, 41703, "", "=q3=Design: Regal Twilight Opal", "=ds=#p12# (390)"};
+		{ 16, 41701, "", "=q3=Design: Royal Twilight Opal", "=ds=#p12# (390)"};
+		Prev = "JewelcraftingDaily3";
+		Next = "JewelcraftingDaily5";
+		Back = "CRAFTINGMENU";
+	};
+	
+	AtlasLoot_Data["JewelcraftingDaily5"] = {
+		{ 1, 46927, "", "=q3=Design: Lustrous Majestic Zircon", "=ds=#p12# (450)"};
+		{ 2, 46924, "", "=q3=Design: Solid Majestic Zircon", "=ds=#p12# (450)"};
+		{ 3, 46925, "", "=q3=Design: Sparkling Majestic Zircon", "=ds=#p12# (450)"};
+		{ 4, 46926, "", "=q3=Design: Stormy Majestic Zircon", "=ds=#p12# (450)"};
+		{ 5, 41581, "", "=q3=Design: Lustrous Sky Sapphire", "=ds=#p12# (390)"};
+		{ 6, 42138, "", "=q3=Design: Solid Sky Sapphire", "=ds=#p12# (390)"};
+		{ 16, 41704, "", "=q3=Design: Chaotic Skyflare Diamond", "=ds=#p12# (420)"};
+		{ 17, 41705, "", "=q3=Design: Effulgent Skyflare Diamond", "=ds=#p12# (420)"};
+		{ 18, 41706, "", "=q3=Design: Ember Skyflare Diamond", "=ds=#p12# (420)"};
+		{ 19, 41708, "", "=q3=Design: Insightful Earthsiege Diamond", "=ds=#p12# (420)"};
+		{ 20, 41709, "", "=q3=Design: Invigorating Earthsiege Diamond", "=ds=#p12# (420)"};
+		{ 21, 41710, "", "=q3=Design: Relentless Earthsiege Diamond", "=ds=#p12# (420)"};
+		{ 22, 41707, "", "=q3=Design: Revitalizing Skyflare Diamond", "=ds=#p12# (420)"};
+		{ 23, 41711, "", "=q3=Design: Trenchant Earthsiege Diamond", "=ds=#p12# (420)"};
+		Prev = "JewelcraftingDaily4";
+		Next = "JewelcraftingDaily6";
+		Back = "CRAFTINGMENU";
+	};
+	
+	AtlasLoot_Data["JewelcraftingDaily6"] = {
 		{ 1, 42298, "", "=q3=Design: Bold Dragon's Eye", "=ds=#p12# (370)"};
 		{ 2, 42299, "", "=q3=Design: Bright Dragon's Eye", "=ds=#p12# (370)"};
 		{ 3, 42300, "", "=q3=Design: Brilliant Dragon's Eye", "=ds=#p12# (370)"};
@@ -5077,49 +5227,13 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 16, 42313, "", "=q3=Design: Stormy Dragon's Eye", "=ds=#p12# (370)"};
 		{ 17, 42314, "", "=q3=Design: Subtle Dragon's Eye", "=ds=#p12# (370)"};
 		{ 18, 42315, "", "=q3=Design: Thick Dragon's Eye", "=ds=#p12# (370)"};
-		{ 19, 41576, "", "=q3=Design: Bold Scarlet Ruby", "=ds=#p12# (390)"};
-		{ 20, 41577, "", "=q3=Design: Delicate Scarlet Ruby", "=ds=#p12# (390)"};
-		{ 21, 41697, "", "=q3=Design: Enduring Forest Emerald", "=ds=#p12# (390)"};
-		{ 22, 41692, "", "=q3=Design: Energized Forest Emerald", "=ds=#p12# (390)"};
-		{ 23, 41578, "", "=q3=Design: Flashing Scarlet Ruby", "=ds=#p12# (390)"};
-		{ 24, 41693, "", "=q3=Design: Forceful Forest Emerald", "=ds=#p12# (390)"};
-		{ 25, 41582, "", "=q3=Design: Glinting Monarch Topaz", "=ds=#p12# (390)"};
-		{ 26, 41694, "", "=q3=Design: Intricate Forest Emerald", "=ds=#p12# (390)"};
-		{ 27, 41696, "", "=q3=Design: Lambent Forest Emerald", "=ds=#p12# (390)"};
-		{ 28, 41689, "", "=q3=Design: Luminous Monarch Topaz", "=ds=#p12# (390)"};
-		{ 29, 41581, "", "=q3=Design: Lustrous Sky Sapphire", "=ds=#p12# (390)"};
-		{ 30, 41686, "", "=q3=Design: Potent Monarch Topaz", "=ds=#p12# (390)"};
-		Next = "JewelcraftingDaily2";
-		Back = "CRAFTINGMENU";
-	};
-
-	AtlasLoot_Data["JewelcraftingDaily2"] = {
-		{ 1, 41702, "", "=q3=Design: Puissant Twilight Opal", "=ds=#p12# (390)"};
-		{ 2, 41579, "", "=q3=Design: Quick Autumn's Glow", "=ds=#p12# (390)"};
-		{ 3, 41690, "", "=q3=Design: Reckless Monarch Topaz", "=ds=#p12# (390)"};
-		{ 4, 41703, "", "=q3=Design: Regal Twilight Opal", "=ds=#p12# (390)"};
-		{ 5, 41580, "", "=q3=Design: Rigid Autumn's Glow", "=ds=#p12# (390)"};
-		{ 6, 41701, "", "=q3=Design: Royal Twilight Opal", "=ds=#p12# (390)"};
-		{ 7, 41699, "", "=q3=Design: Seer's Forest Emerald", "=ds=#p12# (390)"};
-		{ 8, 42138, "", "=q3=Design: Solid Sky Sapphire", "=ds=#p12# (390)"};
-		{ 9, 41687, "", "=q3=Design: Stark Monarch Topaz", "=ds=#p12# (390)"};
-		{ 10, 41688, "", "=q3=Design: Veiled Monarch Topaz", "=ds=#p12# (390)"};
-		{ 11, 41698, "", "=q3=Design: Vivid Forest Emerald", "=ds=#p12# (390)"};
-		{ 12, 41704, "", "=q3=Design: Chaotic Skyflare Diamond", "=ds=#p12# (420)"};
-		{ 13, 41705, "", "=q3=Design: Effulgent Skyflare Diamond", "=ds=#p12# (420)"};
-		{ 14, 41706, "", "=q3=Design: Ember Skyflare Diamond", "=ds=#p12# (420)"};
-		{ 15, 41708, "", "=q3=Design: Insightful Earthsiege Diamond", "=ds=#p12# (420)"};
-		{ 16, 41709, "", "=q3=Design: Invigorating Earthsiege Diamond", "=ds=#p12# (420)"};
-		{ 17, 41710, "", "=q3=Design: Relentless Earthsiege Diamond", "=ds=#p12# (420)"};
-		{ 18, 41707, "", "=q3=Design: Revitalizing Skyflare Diamond", "=ds=#p12# (420)"};
-		{ 19, 41711, "", "=q3=Design: Trenchant Earthsiege Diamond", "=ds=#p12# (420)"};
-		{ 21, 42652, "", "=q4=Design: Titanium Earthguard Chain", "=ds=#p12# (420)"};
-		{ 22, 42649, "", "=q4=Design: Titanium Earthguard Ring", "=ds=#p12# (420)"};
-		{ 23, 42648, "", "=q4=Design: Titanium Impact Band", "=ds=#p12# (420)"};
-		{ 24, 42651, "", "=q4=Design: Titanium Impact Choker", "=ds=#p12# (420)"};
-		{ 25, 42653, "", "=q4=Design: Titanium Spellshock Necklace", "=ds=#p12# (420)"};
-		{ 26, 42650, "", "=q4=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
-		Prev = "JewelcraftingDaily";
+		{ 20, 42652, "", "=q4=Design: Titanium Earthguard Chain", "=ds=#p12# (420)"};
+		{ 21, 42649, "", "=q4=Design: Titanium Earthguard Ring", "=ds=#p12# (420)"};
+		{ 22, 42648, "", "=q4=Design: Titanium Impact Band", "=ds=#p12# (420)"};
+		{ 23, 42651, "", "=q4=Design: Titanium Impact Choker", "=ds=#p12# (420)"};
+		{ 24, 42653, "", "=q4=Design: Titanium Spellshock Necklace", "=ds=#p12# (420)"};
+		{ 25, 42650, "", "=q4=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
+		Prev = "JewelcraftingDaily5";
 		Back = "CRAFTINGMENU";
 	};
 
