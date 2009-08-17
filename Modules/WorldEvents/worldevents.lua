@@ -1,5 +1,6 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
+local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 
 -- Index
 --- Permanent Events
@@ -80,8 +81,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 25, 45582, "", "=q1=Sen'jin Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 26, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 27, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#", "50 #champseal#"};
-		{ 29, 38544, "", "=q1=Argent Crusade Banner", "=ds=", "15 #champseal#"};
-		{ 30, 46874, "", "=q2=Argent Crusader's Tabard", "=ds=", "50 #champseal#"};
 		Prev = "ArgentTournament1";
 		Next = "ArgentTournament3";
 		Back = "WORLDEVENTMENU";
@@ -131,7 +130,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 7, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#", "40 #champseal#"};
 		{ 8, 45002, "", "=q3=Mechanopeep", "=ds=#e13#", "40 #champseal#"};
 		{ 9, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
-		{ 14, 47541, "", "=q3=Argent Pony Bridle", "=ds="};
 		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 17, 45022, "", "=q3=Argent Gruntling", "=ds=#m4#"};
@@ -141,6 +139,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 22, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#", "40 #champseal#"};
 		{ 23, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "40 #champseal#"};
 		{ 24, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
+        { 26, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+        { 27, 38544, "", "=q1=Argent Crusade Banner", "=ds=", "15 #champseal#"};
+		{ 28, 46874, "", "=q2=Argent Crusader's Tabard", "=ds=", "50 #champseal#"};
+        { 29, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
 		Prev = "ArgentTournament3";
 		Next = "ArgentTournament5";
 		Back = "WORLDEVENTMENU";
@@ -204,9 +206,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 2, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e12#", "100 #champseal#"};
 		{ 3, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e12#", "150 #champseal#"};
-		{ 11, 47179, "", "=q4=Argent Charger", "=ds=#e12#", "100 #champseal#"};
-		{ 12, 47180, "", "=q4=Argent Warhorse", "=ds=#e12#", "100 #champseal#"};
-		{ 13, 45725, "", "=q4=Argent Hippogryph", "=ds=#e12#", "150 #champseal#"};
+		{ 5, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+        { 6, 47179, "", "=q4=Argent Charger", "=ds=#e12#", "100 #champseal#"};
+		{ 7, 47180, "", "=q4=Argent Warhorse", "=ds=#e12#", "100 #champseal#"};
+		{ 8, 45725, "", "=q4=Argent Hippogryph", "=ds=#e12#", "150 #champseal#"};
 		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 17, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e12#", "100 #champseal#"};

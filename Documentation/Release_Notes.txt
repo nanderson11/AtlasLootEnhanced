@@ -8,6 +8,12 @@ Patch Notes
 v5.07.05
 Added New Mounts, Pets and Tabards
 Added 25 Man Trial of the Crusader loot
+Updated Argent Tournament
+Updated Emblem items
+Updated Jewelcrafting and added new epic gem recipes to Jewelcrafting daily
+Added crafted weapons (lvl80 ones have been missing)
+Added Yogg-Saron+0 loot
+Added PvP Heirlooms to set menu
 
 v5.07.04
 10 Man Trial of the Crusader is complete (Horde and Alliance)
