@@ -4986,93 +4986,93 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["FuriousGladiatorWeapons1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
-		{ 2, 42261, "", "=q4=Furious Gladiator's Right Ripper", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 3, 42266, "", "=q4=Furious Gladiator's Left Render", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 4, 42271, "", "=q4=Furious Gladiator's Left Ripper", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 5, 42347, "", "=q4=Furious Gladiator's Spellblade", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 6, 42243, "", "=q4=Furious Gladiator's Shanker", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 7, 42256, "", "=q4=Furious Gladiator's Mutilator", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 8, 42249, "", "=q4=Furious Gladiator's Shiv", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 9, 42286, "", "=q4=Furious Gladiator's Slicer", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 10, 42291, "", "=q4=Furious Gladiator's Quickblade", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 11, 42333, "", "=q4=Furious Gladiator's Greatsword", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 12, 42209, "", "=q4=Furious Gladiator's Cleaver", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 13, 42233, "", "=q4=Furious Gladiator's Dicer", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 14, 42228, "", "=q4=Furious Gladiator's Splitter", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 15, 42318, "", "=q4=Furious Gladiator's Decapitator", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 2, 42261, "", "=q4=Furious Gladiator's Right Ripper", "=ds=#h3#, #w13#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 3, 42266, "", "=q4=Furious Gladiator's Left Render", "=ds=#h4#, #w13#", "1100 #arena# #reqrating# 1850"};
+		{ 4, 42271, "", "=q4=Furious Gladiator's Left Ripper", "=ds=#h4#, #w13#", "1100 #arena# #reqrating# 1850"};
+		{ 5, 42347, "", "=q4=Furious Gladiator's Spellblade", "=ds=#h3#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 6, 42243, "", "=q4=Furious Gladiator's Shanker", "=ds=#h1#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 7, 42256, "", "=q4=Furious Gladiator's Mutilator", "=ds=#h4#, #w4#", "1100 #arena# #reqrating# 1850"};
+		{ 8, 42249, "", "=q4=Furious Gladiator's Shiv", "=ds=#h4#, #w4#", "1100 #arena# #reqrating# 1850"};
+		{ 9, 42286, "", "=q4=Furious Gladiator's Slicer", "=ds=#h1#, #w10#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 10, 42291, "", "=q4=Furious Gladiator's Quickblade", "=ds=#h4#, #w10#", "1100 #arena# #reqrating# 1850"};
+		{ 11, 42333, "", "=q4=Furious Gladiator's Greatsword", "=ds=#h2#, #w10#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 12, 42209, "", "=q4=Furious Gladiator's Cleaver", "=ds=#h1#, #w1#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 13, 42233, "", "=q4=Furious Gladiator's Chopper", "=ds=#h4#, #w1#", "1100 #arena# #reqrating# 1850"};
+		{ 14, 42228, "", "=q4=Furious Gladiator's Hacker", "=ds=#h4#, #w1#", "1100 #arena# #reqrating# 1850"};
+		{ 15, 42318, "", "=q4=Furious Gladiator's Decapitator", "=ds=#h2#, #w1#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
-		{ 17, 45969, "", "=q4=Furious Gladiator's Grasp", "=ds=", "3000 #arena# #reqrating# 2200"};
-		{ 18, 45968, "", "=q4=Furious Gladiator's Left Claw", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 19, 45963, "", "=q4=Furious Gladiator's Left Razor", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 20, 45970, "", "=q4=Furious Gladiator's Mageblade", "=ds=", "3585 #arena# #reqrating# 2200"};
-		{ 21, 45958, "", "=q4=Furious Gladiator's Spike", "=ds=", "3000 #arena# #reqrating# 2200"};
-		{ 22, 45962, "", "=q4=Furious Gladiator's Dirk", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 23, 45967, "", "=q4=Furious Gladiator's Eviscerator", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 24, 45960, "", "=q4=Furious Gladiator's Longblade", "=ds=", "3000 #arena# #reqrating# 2200"};
-		{ 25, 45965, "", "=q4=Furious Gladiator's Swiftblade", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 26, 45950, "", "=q4=Furious Gladiator's Claymore", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 27, 45957, "", "=q4=Furious Gladiator's Handaxe", "=ds=", "3000 #arena# #reqrating# 2200"};
-		{ 28, 45961, "", "=q4=Furious Gladiator's Dicer", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 29, 45966, "", "=q4=Furious Gladiator's Splitter", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 30, 45948, "", "=q4=Furious Gladiator's Sunderer", "=ds=", "4250 #arena# #reqrating# 2200"};
+		{ 17, 45969, "", "=q4=Furious Gladiator's Grasp", "=ds=#h3#, #w13#", "3000 #arena# #reqrating# 2200"};
+		{ 18, 45968, "", "=q4=Furious Gladiator's Left Claw", "=ds=#h4#, #w13#", "1245 #arena# #reqrating# 2200"};
+		{ 19, 45963, "", "=q4=Furious Gladiator's Left Razor", "=ds=#h4#, #w13#", "1245 #arena# #reqrating# 2200"};
+		{ 20, 45970, "", "=q4=Furious Gladiator's Mageblade", "=ds=#h3#, #w4#", "3585 #arena# #reqrating# 2200"};
+		{ 21, 45958, "", "=q4=Furious Gladiator's Spike", "=ds=#h1#, #w4#", "3000 #arena# #reqrating# 2200"};
+		{ 22, 45962, "", "=q4=Furious Gladiator's Dirk", "=ds=#h4#, #w4#", "1245 #arena# #reqrating# 2200"};
+		{ 23, 45967, "", "=q4=Furious Gladiator's Eviscerator", "=ds=#h4#, #w4#", "1245 #arena# #reqrating# 2200"};
+		{ 24, 45960, "", "=q4=Furious Gladiator's Longblade", "=ds=#h1#, #w10#", "3000 #arena# #reqrating# 2200"};
+		{ 25, 45965, "", "=q4=Furious Gladiator's Swiftblade", "=ds=#h4#, #w10#", "1245 #arena# #reqrating# 2200"};
+		{ 26, 45950, "", "=q4=Furious Gladiator's Claymore", "=ds=#h2#, #w10#", "4250 #arena# #reqrating# 2200"};
+		{ 27, 45957, "", "=q4=Furious Gladiator's Handaxe", "=ds=#h1#, #w1#", "3000 #arena# #reqrating# 2200"};
+		{ 28, 45961, "", "=q4=Furious Gladiator's Dicer", "=ds=#h4#, #w1#", "1245 #arena# #reqrating# 2200"};
+		{ 29, 45966, "", "=q4=Furious Gladiator's Splitter", "=ds=#h4#, #w1#", "1245 #arena# #reqrating# 2200"};
+		{ 30, 45948, "", "=q4=Furious Gladiator's Sunderer", "=ds=#h2#, #w1#", "4250 #arena# #reqrating# 2200"};
 		Next = "FuriousGladiatorWeapons2";
 		Back = "LEVEL80PVPREWARDS";
 	};
 
 	AtlasLoot_Data["FuriousGladiatorWeapons2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
-		{ 2, 42353, "", "=q4=Furious Gladiator's Gavel", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 3, 42276, "", "=q4=Furious Gladiator's Pummeler", "=ds=", "35000 #faction# 1200 #arena# #reqrating# 1850"};
-		{ 4, 42281, "", "=q4=Furious Gladiator's Bonecracker", "=ds=", "1100 #arena# #reqrating# 1850"};
-		{ 5, 42323, "", "=q4=Furious Gladiator's Bonegrinder", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 6, 42328, "", "=q4=Furious Gladiator's Pike", "=ds=", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 7, 42364, "", "=q4=Furious Gladiator's Battle Staff", "=ds=", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 8, 42385, "", "=q4=Furious Gladiator's Energy Staff", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 9, 44422, "", "=q4=Furious Gladiator's Focus Staff", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 10, 42391, "", "=q4=Furious Gladiator's Staff", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 11, 44421, "", "=q4=Furious Gladiator's War Staff", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 12, 42491, "", "=q4=Furious Gladiator's Longbow", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 13, 42496, "", "=q4=Furious Gladiator's Heavy Crossbow", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
-		{ 14, 42486, "", "=q4=Furious Gladiator's Rifle", "=ds=", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 2, 42353, "", "=q4=Furious Gladiator's Gavel", "=ds=#h3#, #w6#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 3, 42276, "", "=q4=Furious Gladiator's Pummeler", "=ds=#h1#, #w6#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 4, 42281, "", "=q4=Furious Gladiator's Bonecracker", "=ds=#h4#, #w6#", "1100 #arena# #reqrating# 1850"};
+		{ 5, 42323, "", "=q4=Furious Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 6, 42328, "", "=q4=Furious Gladiator's Pike", "=ds=#w7#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 7, 42364, "", "=q4=Furious Gladiator's Battle Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 8, 42385, "", "=q4=Furious Gladiator's Energy Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 9, 44422, "", "=q4=Furious Gladiator's Focus Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 10, 42391, "", "=q4=Furious Gladiator's Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 11, 44421, "", "=q4=Furious Gladiator's War Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 12, 42491, "", "=q4=Furious Gladiator's Longbow", "=ds=#w2#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 13, 42496, "", "=q4=Furious Gladiator's Heavy Crossbow", "=ds=#w3#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 14, 42486, "", "=q4=Furious Gladiator's Rifle", "=ds=#w5#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
-		{ 17, 45971, "", "=q4=Furious Gladiator's Salvation", "=ds=", "3585 #arena# #reqrating# 2200"};
-		{ 18, 45959, "", "=q4=Furious Gladiator's Truncheon", "=ds=", "3000 #arena# #reqrating# 2200"};
-		{ 19, 45964, "", "=q4=Furious Gladiator's Punisher", "=ds=", "1245 #arena# #reqrating# 2200"};
-		{ 20, 45949, "", "=q4=Furious Gladiator's Crusher", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 21, 45951, "", "=q4=Furious Gladiator's Halberd", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 22, 45954, "", "=q4=Furious Gladiator's Acute Staff", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 23, 45953, "", "=q4=Furious Gladiator's Combat Staff", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 24, 45952, "", "=q4=Furious Gladiator's Greatstaff", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 25, 45956, "", "=q4=Furious Gladiator's Light Staff", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 26, 45955, "", "=q4=Furious Gladiator's Skirmish Staff", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 27, 45938, "", "=q4=Furious Gladiator's Recurve", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 28, 45939, "", "=q4=Furious Gladiator's Repeater", "=ds=", "4250 #arena# #reqrating# 2200"};
-		{ 29, 45937, "", "=q4=Furious Gladiator's Shotgun", "=ds=", "4250 #arena# #reqrating# 2200"};
+		{ 17, 45971, "", "=q4=Furious Gladiator's Salvation", "=ds=#h3#, #w6#", "3585 #arena# #reqrating# 2200"};
+		{ 18, 45959, "", "=q4=Furious Gladiator's Truncheon", "=ds=#h1#, #w6#", "3000 #arena# #reqrating# 2200"};
+		{ 19, 45964, "", "=q4=Furious Gladiator's Punisher", "=ds=#h4#, #w6#", "1245 #arena# #reqrating# 2200"};
+		{ 20, 45949, "", "=q4=Furious Gladiator's Crusher", "=ds=#h2#, #w6#", "4250 #arena# #reqrating# 2200"};
+		{ 21, 45951, "", "=q4=Furious Gladiator's Halberd", "=ds=#w7#", "4250 #arena# #reqrating# 2200"};
+		{ 22, 45954, "", "=q4=Furious Gladiator's Acute Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 23, 45953, "", "=q4=Furious Gladiator's Combat Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 24, 45952, "", "=q4=Furious Gladiator's Greatstaff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 25, 45956, "", "=q4=Furious Gladiator's Light Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 26, 45955, "", "=q4=Furious Gladiator's Skirmish Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 27, 45938, "", "=q4=Furious Gladiator's Recurve", "=ds=#w2#", "4250 #arena# #reqrating# 2200"};
+		{ 28, 45939, "", "=q4=Furious Gladiator's Repeater", "=ds=#w3#", "4250 #arena# #reqrating# 2200"};
+		{ 29, 45937, "", "=q4=Furious Gladiator's Shotgun", "=ds=#w5#", "4250 #arena# #reqrating# 2200"};
 		Prev = "FuriousGladiatorWeapons1";
 		Next = "FuriousGladiatorWeapons3";
 		Back = "LEVEL80PVPREWARDS";
 	};
 
 	AtlasLoot_Data["FuriousGladiatorWeapons3"] = {
-		{ 1, 42565, "", "=q4=Furious Gladiator's Barrier", "1950 #arena# #reqrating# 1850"};
-		{ 2, 42571, "", "=q4=Furious Gladiator's Redoubt", "1950 #arena# #reqrating# 1850"};
-		{ 3, 42560, "", "=q4=Furious Gladiator's Shield Wall", "1950 #arena# #reqrating# 1850"};
-		{ 4, 42451, "", "=q4=Furious Gladiator's War Edge", "1150 #arena# #reqrating# 1950"};
-		{ 5, 42514, "", "=q4=Furious Gladiator's Baton of Light", "1150 #arena# #reqrating# 1950"};
-		{ 6, 42520, "", "=q4=Furious Gladiator's Piercing Touch", "1150 #arena# #reqrating# 1950"};
-		{ 7, 42503, "", "=q4=Furious Gladiator's Touch of Defeat", "1150 #arena# #reqrating# 1950"};
-		{ 8, 42526, "", "=q4=Furious Gladiator's Endgame", "1100 #arena# #reqrating# 1850"};
-		{ 9, 42538, "", "=q4=Furious Gladiator's Grimoire", "1100 #arena# #reqrating# 1850"};
-		{ 10, 42532, "", "=q4=Furious Gladiator's Reprieve", "1100 #arena# #reqrating# 1850"};
-		{ 11, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "1150 #arena# #reqrating# 1950"};
-		{ 12, 42584, "", "=q4=Furious Gladiator's Idol of Steadfastness", "1150 #arena# #reqrating# 1950"};
-		{ 13, 42579, "", "=q4=Furious Gladiator's Idol of Tenacity", "1150 #arena# #reqrating# 1950"};
-		{ 14, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "1150 #arena# #reqrating# 1950"};
-		{ 15, 42615, "", "=q4=Furious Gladiator's Libram of Justice", "1150 #arena# #reqrating# 1950"};
-		{ 16, 42621, "", "=q4=Furious Gladiator's Sigil of Strife", "1150 #arena# #reqrating# 1950"};
-		{ 17, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "1150 #arena# #reqrating# 1950"};
-		{ 18, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "1150 #arena# #reqrating# 1950"};
-		{ 19, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "1150 #arena# #reqrating# 1950"};
+		{ 1, 42565, "", "=q4=Furious Gladiator's Barrier", "=ds=#w8#", "1950 #arena# #reqrating# 1850"};
+		{ 2, 42571, "", "=q4=Furious Gladiator's Redoubt", "=ds=#w8#", "1950 #arena# #reqrating# 1850"};
+		{ 3, 42560, "", "=q4=Furious Gladiator's Shield Wall", "=ds=#w8#", "1950 #arena# #reqrating# 1850"};
+		{ 4, 42451, "", "=q4=Furious Gladiator's War Edge", "=ds=#w11#", "1150 #arena# #reqrating# 1950"};
+		{ 5, 42514, "", "=q4=Furious Gladiator's Baton of Light", "=ds=#w12#", "1150 #arena# #reqrating# 1950"};
+		{ 6, 42520, "", "=q4=Furious Gladiator's Piercing Touch", "=ds=#w12#", "1150 #arena# #reqrating# 1950"};
+		{ 7, 42503, "", "=q4=Furious Gladiator's Touch of Defeat", "=ds=#w12#", "1150 #arena# #reqrating# 1950"};
+		{ 8, 42526, "", "=q4=Furious Gladiator's Endgame", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 9, 42538, "", "=q4=Furious Gladiator's Grimoire", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 10, 42532, "", "=q4=Furious Gladiator's Reprieve", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 11, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "=ds=#w14#", "1150 #arena# #reqrating# 1950"};
+		{ 12, 42584, "", "=q4=Furious Gladiator's Idol of Steadfastness", "=ds=#w14#", "1150 #arena# #reqrating# 1950"};
+		{ 13, 42579, "", "=q4=Furious Gladiator's Idol of Tenacity", "=ds=#w14#", "1150 #arena# #reqrating# 1950"};
+		{ 14, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "=ds=#w16#", "1150 #arena# #reqrating# 1950"};
+		{ 15, 42615, "", "=q4=Furious Gladiator's Libram of Justice", "=ds=#w16#", "1150 #arena# #reqrating# 1950"};
+		{ 16, 42621, "", "=q4=Furious Gladiator's Sigil of Strife", "=ds=#w21#", "1150 #arena# #reqrating# 1950"};
+		{ 17, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "=ds=#w15#", "1150 #arena# #reqrating# 1950"};
+		{ 18, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "=ds=#w15#", "1150 #arena# #reqrating# 1950"};
+		{ 19, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "=ds=#w15#", "1150 #arena# #reqrating# 1950"};
 		Prev = "FuriousGladiatorWeapons2";
 		Back = "LEVEL80PVPREWARDS";
 	};
@@ -6837,53 +6837,53 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		------------
 
 	AtlasLoot_Data["PetsMerchant1"] = {
-		{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="};
-		{ 2, 44970, "", "=q3=Dun Morogh Cub", "=ds="};
-		{ 3, 44973, "", "=q3=Durotar Scorpion", "=ds="};
-		{ 4, 44974, "", "=q3=Elwynn Lamb", "=ds="};
-		{ 5, 44982, "", "=q3=Enchanted Broom", "=ds="};
-		{ 6, 39973, "", "=q3=Ghostly Skull", "=ds="};
-		{ 7, 45002, "", "=q3=Mechanopeep", "=ds="};
-		{ 8, 44980, "", "=q3=Mulgore Hatchling", "=ds="};
-		{ 9, 45606, "", "=q3=Sen'jin Fetish", "=ds="};
-		{ 10, 44965, "", "=q3=Teldrassil Sproutling", "=ds="};
-		{ 11, 44971, "", "=q3=Tirisfal Batling", "=ds="};
-		{ 12, 11023, "", "=q1=Ancona Chicken", "=ds="};
-		{ 13, 10360, "", "=q1=Black Kingsnake", "=ds="};
-		{ 14, 10361, "", "=q1=Brown Snake", "=ds="};
-		{ 15, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="};
-		{ 16, 29901, "", "=q1=Blue Moth Egg", "=ds="};
-		{ 17, 29364, "", "=q1=Brown Rabbit Crate", "=ds="};
-		{ 18, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="};
-		{ 19, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="};
-		{ 20, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="};
-		{ 21, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="};
-		{ 22, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="};
-		{ 23, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="};
-		{ 24, 10393, "", "=q1=Cockroach", "=ds="};
-		{ 25, 10392, "", "=q1=Crimson Snake", "=ds="};
-		{ 26, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="};
-		{ 27, 8500, "", "=q1=Great Horned Owl", "=ds="};
-		{ 28, 8501, "", "=q1=Hawk Owl", "=ds="};
-		{ 29, 29363, "", "=q1=Mana Wyrmling", "=ds="};
-		{ 30, 48120, "", "=q1=Obsidian Hatchling", "=ds="};
+		{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#"};
+		{ 2, 44970, "", "=q3=Dun Morogh Cub", "=ds=#e13#"};
+		{ 3, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#"};
+		{ 4, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#"};
+		{ 5, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#"};
+		{ 6, 39973, "", "=q3=Ghostly Skull", "=ds=#e13#"};
+		{ 7, 45002, "", "=q3=Mechanopeep", "=ds=#e13#"};
+		{ 8, 44980, "", "=q3=Mulgore Hatchling", "=ds=#e13#"};
+		{ 9, 45606, "", "=q3=Sen'jin Fetish", "=ds=#e13#"};
+		{ 10, 44965, "", "=q3=Teldrassil Sproutling", "=ds=#e13#"};
+		{ 11, 44971, "", "=q3=Tirisfal Batling", "=ds=#e13#"};
+		{ 12, 11023, "", "=q1=Ancona Chicken", "=ds=#e13#"};
+		{ 13, 10360, "", "=q1=Black Kingsnake", "=ds=#e13#"};
+		{ 14, 10361, "", "=q1=Brown Snake", "=ds=#e13#"};
+		{ 15, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 16, 29901, "", "=q1=Blue Moth Egg", "=ds=#e13#"};
+		{ 17, 29364, "", "=q1=Brown Rabbit Crate", "=ds=#e13#"};
+		{ 18, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds=#e13#"};
+		{ 19, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds=#e13#"};
+		{ 20, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds=#e13#"};
+		{ 21, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds=#e13#"};
+		{ 22, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds=#e13#"};
+		{ 23, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds=#e13#"};
+		{ 24, 10393, "", "=q1=Cockroach", "=ds=#e13#"};
+		{ 25, 10392, "", "=q1=Crimson Snake", "=ds=#e13#"};
+		{ 26, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 27, 8500, "", "=q1=Great Horned Owl", "=ds=#e13#"};
+		{ 28, 8501, "", "=q1=Hawk Owl", "=ds=#e13#"};
+		{ 29, 29363, "", "=q1=Mana Wyrmling", "=ds=#e13#"};
+		{ 30, 48120, "", "=q1=Obsidian Hatchling", "=ds=#e13#"};
 		Next = "PetsMerchant2";
 		Back = "PETMENU";
 	};
 
 	AtlasLoot_Data["PetsMerchant2"] = {
-		{ 1, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="};
-		{ 2, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="};
-		{ 3, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="};
-		{ 4, 10394, "", "=q1=Prairie Dog Whistle", "=ds="};
-		{ 5, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="};
-		{ 6, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="};
-		{ 7, 29902, "", "=q1=Red Moth Egg", "=ds="};
-		{ 8, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="};
-		{ 9, 11026, "", "=q1=Tree Frog Box", "=ds="};
-		{ 10, 29904, "", "=q1=White Moth Egg", "=ds="};
-		{ 11, 11027, "", "=q1=Wood Frog Box", "=ds="};
-		{ 12, 29903, "", "=q1=Yellow Moth Egg", "=ds="};
+		{ 1, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds=#e13#"};
+		{ 2, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds=#e13#"};
+		{ 3, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds=#e13#"};
+		{ 4, 10394, "", "=q1=Prairie Dog Whistle", "=ds=#e13#"};
+		{ 5, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds=#e13#"};
+		{ 6, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 7, 29902, "", "=q1=Red Moth Egg", "=ds=#e13#"};
+		{ 8, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 9, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
+		{ 10, 29904, "", "=q1=White Moth Egg", "=ds=#e13#"};
+		{ 11, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
+		{ 12, 29903, "", "=q1=Yellow Moth Egg", "=ds=#e13#"};
 		Prev = "PetsMerchant1";
 		Next = "PetsQuestCrafted1";
 		Back = "PETMENU";
@@ -6891,26 +6891,26 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["PetsQuestCrafted1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Quest"], ""};
-		{ 2, 45022, "", "=q3=Argent Gruntling", "=ec1=#m6#"};
-		{ 3, 44998, "", "=q3=Argent Squire", "=ec1=#m7#"};
-		{ 4, 35350, "", "=q3=Chuck's Bucket", "=ds="};
-		{ 5, 33818, "", "=q3=Muckbreath's Bucket", "=ds="};
-		{ 6, 35349, "", "=q3=Snarly's Bucket", "=ds="};
-		{ 7, 44983, "", "=q3=Strand Crawler", "=ds="};
-		{ 8, 33816, "", "=q3=Toothy's Bucket", "=ds="};
-		{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="};
-		{ 10, 11110, "", "=q1=Chicken Egg", "=ds="};
-		{ 11, 10398, "", "=q1=Mechanical Chicken", "=ds="};
-		{ 12, 31760, "", "=q1=Miniwing", "=ds="};
-		{ 13, 12529, "", "=q1=Smolderweb Carrier", "=ds="};
-		{ 14, 11474, "", "=q1=Sprite Darter Egg", "=ds="};
-		{ 15, 12264, "", "=q1=Worg Carrier", "=ds="};
+		{ 2, 45022, "", "=q3=Argent Gruntling", "=ds=#e13# =ec1=#m6#"};
+		{ 3, 44998, "", "=q3=Argent Squire", "=ds=#e13# =ec1=#m7#"};
+		{ 4, 35350, "", "=q3=Chuck's Bucket", "=ds=#e13#"};
+		{ 5, 33818, "", "=q3=Muckbreath's Bucket", "=ds=#e13#"};
+		{ 6, 35349, "", "=q3=Snarly's Bucket", "=ds=#e13#"};
+		{ 7, 44983, "", "=q3=Strand Crawler", "=ds=#e13#"};
+		{ 8, 33816, "", "=q3=Toothy's Bucket", "=ds=#e13#"};
+		{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#"};
+		{ 10, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
+		{ 11, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
+		{ 12, 31760, "", "=q1=Miniwing", "=ds=#e13#"};
+		{ 13, 12529, "", "=q1=Smolderweb Carrier", "=ds=#e13#"};
+		{ 14, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#"};
+		{ 15, 12264, "", "=q1=Worg Carrier", "=ds=#e13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Crafted"], ""};
-		{ 17, 15996, "", "=q1=Lifelike Mechanical Toad", "=ds="};
-		{ 18, 11826, "", "=q1=Lil' Smoky", "=ds="};
-		{ 19, 4401, "", "=q1=Mechanical Squirrel Box", "=ds="};
-		{ 20, 11825, "", "=q1=Pet Bombling", "=ds="};
-		{ 21, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds="};
+		{ 17, 15996, "", "=q1=Lifelike Mechanical Toad", "=ds=#e13#"};
+		{ 18, 11826, "", "=q1=Lil' Smoky", "=ds=#e13#"};
+		{ 19, 4401, "", "=q1=Mechanical Squirrel Box", "=ds=#e13#"};
+		{ 20, 11825, "", "=q1=Pet Bombling", "=ds=#e13#"};
+		{ 21, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds=#e13#"};
 		Prev = "PetsMerchant2";
 		Next = "PetsRare1";
 		Back = "PETMENU";
@@ -6918,97 +6918,97 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["PetsRare1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-		{ 2, 33993, "", "=q3=Mojo", "=ds="};
-		{ 3, 35504, "", "=q3=Phoenix Hatchling", "=ds="};
-		{ 4, 38658, "", "=q3=Vampiric Batling", "=ds="};
+		{ 2, 33993, "", "=q3=Mojo", "=ds=#e13#"};
+		{ 3, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#"};
+		{ 4, 38658, "", "=q3=Vampiric Batling", "=ds=#e13#"};
 		{ 6, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
-		{ 7, 38628, "", "=q3=Nether Ray Fry", "=ds="};
-		{ 8, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="};
-		{ 9, 46820, "", "=q3=Shimmering Wyrmling", "=ds="};
-		{ 10, 46821, "", "=q3=Shimmering Wyrmling", "=ds="};
-		{ 11, 34478, "", "=q3=Tiny Sporebat", "=ds="};
-		{ 12, 39898, "", "=q1=Cobra Hatchling", "=ds="};
-		{ 13, 44721, "", "=q1=Proto-Drake Whelp", "=ds="};
-		{ 14, 39896, "", "=q1=Tickbird Hatchling", "=ds="};
-		{ 15, 39899, "", "=q1=White Tickbird Hatchling", "=ds="};
+		{ 7, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#"};
+		{ 8, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#"};
+		{ 9, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
+		{ 10, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
+		{ 11, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#"};
+		{ 12, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#"};
+		{ 13, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#"};
+		{ 14, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#"};
+		{ 15, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Achievement"], ""};
-		{ 17, 44738, "", "=q3=Kirin Tor Familiar", "=ds="};
-		{ 18, 44841, "", "=q3=Little Fawn's Salt Lick", "=ds="};
-		{ 19, 40653, "", "=q3=Reeking Pet Carrier", "=ds="};
-		{ 20, 44819, "", "=q1=Baby Blizzard Bear", "=ds="};
+		{ 17, 44738, "", "=q3=Kirin Tor Familiar", "=ds=#e13#"};
+		{ 18, 44841, "", "=q3=Little Fawn's Salt Lick", "=ds=#e13#"};
+		{ 19, 40653, "", "=q3=Reeking Pet Carrier", "=ds=#e13#"};
+		{ 20, 44819, "", "=q1=Baby Blizzard Bear", "=ds=#e13#"};
 		{ 22, 0, "INV_Box_01", "=q6=#z17#", ""};
-		{ 23, 43698, "", "=q3=Giant Sewer Rat", "=ds="};
-		{ 24, 34535, "", "=q1=Azure Whelpling", "=ds="};
-		{ 25, 29960, "", "=q1=Captured Firefly", "=ds="};
-		{ 26, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="};
-		{ 27, 10822, "", "=q1=Dark Whelpling", "=ds="};
-		{ 28, 48112, "", "=q1=Darting Hatchling", "=ds="};
-		{ 29, 48114, "", "=q1=Deviate Hatchling", "=ds="};
-		{ 30, 20769, "", "=q1=Disgusting Oozeling", "=ds="};
+		{ 23, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#"};
+		{ 24, 34535, "", "=q1=Azure Whelpling", "=ds=#e13#"};
+		{ 25, 29960, "", "=q1=Captured Firefly", "=ds=#e13#"};
+		{ 26, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds=#e13#"};
+		{ 27, 10822, "", "=q1=Dark Whelpling", "=ds=#e13#"};
+		{ 28, 48112, "", "=q1=Darting Hatchling", "=ds=#e13#"};
+		{ 29, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#"};
+		{ 30, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#"};
 		Prev = "PetsQuestCrafted1";
 		Next = "PetsRare2";
 		Back = "PETMENU";
 	};
 
 	AtlasLoot_Data["PetsRare2"] = {
-		{ 1, 48116, "", "=q1=Gundrak Hatchling", "=ds="};
-		{ 2, 48118, "", "=q1=Leaping Hatchling", "=ds="};
-		{ 3, 27445, "", "=q1=Magical Crawdad Box", "=ds="};
-		{ 4, 8494, "", "=q1=Parrot Cage (Hyacinth Macaw)", "=ds="};
-		{ 5, 48122, "", "=q1=Ravasaur Hatchling", "=ds="};
-		{ 6, 48124, "", "=q1=Razormaw Hatchling", "=ds="};
-		{ 7, 48126, "", "=q1=Razzashi Hatchling", "=ds="};
-		{ 8, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="};
-		{ 9, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="};
+		{ 1, 48116, "", "=q1=Gundrak Hatchling", "=ds=#e13#"};
+		{ 2, 48118, "", "=q1=Leaping Hatchling", "=ds=#e13#"};
+		{ 3, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#"};
+		{ 4, 8494, "", "=q1=Parrot Cage (Hyacinth Macaw)", "=ds=#e13#"};
+		{ 5, 48122, "", "=q1=Ravasaur Hatchling", "=ds=#e13#"};
+		{ 6, 48124, "", "=q1=Razormaw Hatchling", "=ds=#e13#"};
+		{ 7, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#"};
+		{ 8, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds=#e13#"};
+		{ 9, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds=#e13#"};
 		Prev = "PetsRare1";
 		Next = "PetsEvent1";
 		Back = "PETMENU";
 	};
 
 	AtlasLoot_Data["PetsEvent1"] = {
-		{ 1, 23083, "", "=q3=Captured Flame", "=ds="};
-		{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "=ds="};
-		{ 3, 46545, "", "=q3=Curious Oracle Hatchling", "=ds="};
-		{ 4, 46544, "", "=q3=Curious Wolvar Pup", "=ds="};
-		{ 5, 32616, "", "=q3=Egbert's Egg", "=ds="};
-		{ 6, 32622, "", "=q3=Elekk Training Collar", "=ds="};
-		{ 7, 34955, "", "=q3=Scorched Stone", "=ds="};
-		{ 8, 33154, "", "=q3=Sinister Squashling", "=ds="};
-		{ 9, 32617, "", "=q3=Sleepy Willy", "=ds="};
-		{ 10, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="};
-		{ 11, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="};
-		{ 12, 21301, "", "=q1=Green Helper Box", "=ds="};
-		{ 13, 21308, "", "=q1=Jingling Bell", "=ds="};
-		{ 14, 23007, "", "=q1=Piglet's Collar", "=ds="};
-		{ 15, 23015, "", "=q1=Rat Cage", "=ds="};
-		{ 16, 21305, "", "=q1=Red Helper Box", "=ds="};
-		{ 17, 21309, "", "=q1=Snowman Kit", "=ds="};
-		{ 18, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="};
-		{ 19, 23002, "", "=q1=Turtle Box", "=ds="};
+		{ 1, 23083, "", "=q3=Captured Flame", "=ds=#e13#"};
+		{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "=ds=#e13#"};
+		{ 3, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
+		{ 4, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
+		{ 5, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
+		{ 6, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
+		{ 7, 34955, "", "=q3=Scorched Stone", "=ds=#e13#"};
+		{ 8, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
+		{ 9, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
+		{ 10, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#"};
+		{ 11, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#"};
+		{ 12, 21301, "", "=q1=Green Helper Box", "=ds=#e13#"};
+		{ 13, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
+		{ 14, 23007, "", "=q1=Piglet's Collar", "=ds=#e13#"};
+		{ 15, 23015, "", "=q1=Rat Cage", "=ds=#e13#"};
+		{ 16, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
+		{ 17, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
+		{ 18, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#"};
+		{ 19, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
 		Prev = "PetsRare1";
 		Next = "PetsPromotional1";
 		Back = "PETMENU";
 	};
 
 	AtlasLoot_Data["PetsPromotional1"] = {
-		{ 1, 34493, "", "=q4=Dragon Kite", "=ds="};
-		{ 2, 23713, "", "=q4=Hippogryph Hatchling", "=ds="};
-		{ 3, 32588, "", "=q3=Banana Charm", "=ds="};
-		{ 4, 46767, "", "=q3=Battle-Bot Ignition Key", "=ds="};
-		{ 5, 20371, "", "=q3=Blue Murloc Egg", "=ds="};
-		{ 6, 13584, "", "=q3=Diablo Stone", "=ds="};
-		{ 7, 39286, "", "=q3=Frosty's Collar", "=ds="};
-		{ 8, 37297, "", "=q3=Gold Medallion", "=ds="};
-		{ 9, 46802, "", "=q3=Grunty's Heavy Murloc Egg", "=ds="};
-		{ 10, 30360, "", "=q3=Lurky's Egg", "=ds="};
-		{ 11, 45180, "", "=q3=Murkimus' Little Spear", "=ds="};
-		{ 12, 25535, "", "=q3=Netherwhelp's Collar", "=ds="};
-		{ 13, 13583, "", "=q3=Panda Collar", "=ds="};
-		{ 14, 22114, "", "=q3=Pink Murloc Egg", "=ds="};
-		{ 15, 34492, "", "=q3=Rocket Chicken", "=ds="};
-		{ 16, 38050, "", "=q3=Soul-Trader Beacon", "=ds="};
-		{ 17, 39656, "", "=q3=Tyrael's Hilt", "=ds="};
-		{ 18, 13582, "", "=q3=Zergling Leash", "=ds="};
+		{ 1, 34493, "", "=q4=Dragon Kite", "=ds=#e13#"};
+		{ 2, 23713, "", "=q4=Hippogryph Hatchling", "=ds=#e13#"};
+		{ 3, 32588, "", "=q3=Banana Charm", "=ds=#e13#"};
+		{ 4, 46767, "", "=q3=Battle-Bot Ignition Key", "=ds=#e13#"};
+		{ 5, 20371, "", "=q3=Blue Murloc Egg", "=ds=#e13#"};
+		{ 6, 13584, "", "=q3=Diablo Stone", "=ds=#e13#"};
+		{ 7, 39286, "", "=q3=Frosty's Collar", "=ds=#e13#"};
+		{ 8, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
+		{ 9, 46802, "", "=q3=Grunty's Heavy Murloc Egg", "=ds=#e13#"};
+		{ 10, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#"};
+		{ 11, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
+		{ 12, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#"};
+		{ 13, 13583, "", "=q3=Panda Collar", "=ds=#e13#"};
+		{ 14, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
+		{ 15, 34492, "", "=q3=Rocket Chicken", "=ds=#e13#"};
+		{ 16, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#e13#"};
+		{ 17, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
+		{ 18, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
 		Prev = "PetsEvent1";
 		Back = "PETMENU";
 	};
@@ -7367,11 +7367,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "WorldEpics4";
 		Back = "WORLDEPICS";
 	};
-	
-		-------------------------------
+
+		----------------------
 		--- Heirloom Items ---
-		-------------------------------
-		
+		----------------------
+
 	AtlasLoot_Data["Heirloom"] = {
 		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism# / 60 #champseal#"};
 		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism# / 60 #champseal#"};
@@ -7398,7 +7398,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "Heirloom2";
 		Back = "SETMENU";
 	};
-	
+
 	AtlasLoot_Data["Heirloom2"] = {
 		{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "200 #wintergrasp#"};
 		{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "200 #wintergrasp#"};
@@ -7419,7 +7419,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "Heirloom";
 		Back = "SETMENU";
 	};
-	
+
 		-------------------------------
 		--- Emblem of Heroism Items ---
 		-------------------------------
@@ -7491,7 +7491,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "EmblemofHeroism4";
 		Back = "SETMENU";
 	};
-	
+
 	AtlasLoot_Data["EmblemofHeroism4"] = {
 		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "40 #eofheroism#"};
 		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "40 #eofheroism#"};
@@ -7518,7 +7518,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "EmblemofHeroism3";
 		Back = "SETMENU";
 	};
-	
+
 		-----------------------------
 		--- Emblem of Valor Items ---
 		-----------------------------
@@ -7630,7 +7630,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "EmblemofConquest3";
 		Back = "SETMENU";
 	};
-	
+
 	AtlasLoot_Data["EmblemofConquest3"] = {
 		{ 1, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "58 #eofconquest#" };
 		{ 2, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "58 #eofconquest#" };
@@ -7643,7 +7643,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "EmblemofConquest2";
 		Back = "SETMENU";
 	};
-	
+
 		-------------------------------
 		--- Emblem of Triumph Items ---
 		-------------------------------

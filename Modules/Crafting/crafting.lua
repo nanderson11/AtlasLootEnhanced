@@ -5041,7 +5041,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "CraftedWeapons3";
 		Back = "CRAFTINGMENU";
 	};
-	
+
 	AtlasLoot_Data["CraftedWeapons3"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#p15#", ""};
 		{ 2, 28425, "", "=q4=Fireguard", "=ds=#h1#, #w10#"};
@@ -5067,7 +5067,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Prev = "CraftedWeapons2";
 		Back = "CRAFTINGMENU";
 	};
-	
+
 	--------------------------------
 	--- Daily Profession Rewards ---
 	--------------------------------
@@ -5099,7 +5099,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "JewelcraftingDaily2";
 		Back = "CRAFTINGMENU";
 	};
-	
+
 	AtlasLoot_Data["JewelcraftingDaily2"] = {
 		{ 1, 47010, "", "=q3=Design: Accurate Ametrine", "=ds=#p12# (450)"};
 		{ 2, 47015, "", "=q3=Design: Champion's Ametrine", "=ds=#p12# (450)"};
@@ -5165,7 +5165,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "JewelcraftingDaily4";
 		Back = "CRAFTINGMENU";
 	};
-	
+
 	AtlasLoot_Data["JewelcraftingDaily4"] = {
 		{ 1, 46934, "", "=q3=Design: Balanced Dreadstone", "=ds=#p12# (450)"};
 		{ 2, 46941, "", "=q3=Design: Defender's Dreadstone", "=ds=#p12# (450)"};
@@ -5187,7 +5187,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "JewelcraftingDaily5";
 		Back = "CRAFTINGMENU";
 	};
-	
+
 	AtlasLoot_Data["JewelcraftingDaily5"] = {
 		{ 1, 46927, "", "=q3=Design: Lustrous Majestic Zircon", "=ds=#p12# (450)"};
 		{ 2, 46924, "", "=q3=Design: Solid Majestic Zircon", "=ds=#p12# (450)"};
@@ -5207,7 +5207,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Next = "JewelcraftingDaily6";
 		Back = "CRAFTINGMENU";
 	};
-	
+
 	AtlasLoot_Data["JewelcraftingDaily6"] = {
 		{ 1, 42298, "", "=q3=Design: Bold Dragon's Eye", "=ds=#p12# (370)"};
 		{ 2, 42299, "", "=q3=Design: Bright Dragon's Eye", "=ds=#p12# (370)"};
@@ -5237,9 +5237,9 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Back = "CRAFTINGMENU";
 	};
 
-		--------------
+		---------------
 		--- Cooking ---
-		--------------
+		---------------
 
 	AtlasLoot_Data["CookingDaily"] = {
 		{ 1, 43035, "", "=q2=Recipe: Blackened Dragonfin", "=ds=#p3# (400)"};

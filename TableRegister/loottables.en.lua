@@ -1538,6 +1538,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["WORLDEPICS"] = { AL["BoE World Epics"], "Menu" };
 	AtlasLoot_TableNames["WORLDEVENTMENU"] = { AL["World Events"], "Menu" };
 	AtlasLoot_TableNames["ABYSSALMENU"] = { AL["Abyssal Council"], "Menu" };
+	AtlasLoot_TableNames["ARGENTMENU"] = { AL["Argent Tournament"], "Menu" };
 	AtlasLoot_TableNames["DARKMOONMENU"] = { BabbleFaction["Darkmoon Faire"], "Menu" };
 	AtlasLoot_TableNames["ETHEREUMMENU"] = { AL["Ethereum Prison"], "Menu" };
 	AtlasLoot_TableNames["SKETTISMENU"] = { AL["Skettis"], "Menu" };

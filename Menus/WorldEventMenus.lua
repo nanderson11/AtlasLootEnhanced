@@ -15,7 +15,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 12, "Shartuul", "INV_Misc_Rune_04", "=ds="..AL["Shartuul"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
 		{ 14, "ABYSSALMENU", "INV_Staff_13", "=ds="..AL["Abyssal Council"], "=q5="..BabbleZone["Silithus"]};
 		{ 15, "SKETTISMENU", "Spell_Nature_NaturesWrath", "=ds="..AL["Skettis"], "=q5="..BabbleZone["Terokkar Forest"]};
-		{ 17, "ArgentTournament1", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], "=q5="..BabbleZone["Icecrown"]};
+		{ 17, "ARGENTMENU", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], "=q5="..BabbleZone["Icecrown"]};
 		{ 19, "ChildrensWeek", "Ability_Hunter_BeastCall", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
 		{ 20, "Halloween1", "INV_Misc_Bag_28_Halloween", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
 		{ 21, "Valentineday", "INV_ValentinesBoxOfChocolates02", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};
@@ -24,6 +24,17 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 26, "ScourgeInvasionEvent1", "INV_Jewelry_Talisman_13", "=ds="..AL["Scourge Invasion"], "=q5="..AL["Various Locations"]};
 		{ 27, "FishingExtravaganza", "INV_Fishingpole_02", "=ds="..AL["Stranglethorn Fishing Extravaganza"], "=q5="..BabbleZone["Stranglethorn Vale"]};
 		{ 29, "ETHEREUMMENU", "INV_Misc_PunchCards_Prismatic", "=ds="..AL["Ethereum Prison"], ""};
+	};
+
+	AtlasLoot_Data["ARGENTMENU"] = {
+		{ 2, "ArgentTournament1", "inv_scroll_11", "=ds="..BabbleInventory["Miscellaneous"], ""};
+		{ 3, "ArgentTournament3", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"], ""};
+		{ 4, "ArgentTournament5", "achievement_reputation_argentchampion", "=ds="..AL["Non-Combat Pets"], ""};
+		{ 5, "ArgentTournament8", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
+		{ 17, "ArgentTournament2", "inv_misc_tournaments_tabard_human", "=ds="..AL["Tabards"].." / "..AL["Banner"], ""};
+		{ 18, "ArgentTournament4", "inv_mace_29", "=ds="..AL["Weapons"], ""};
+		{ 19, "ArgentTournament6", "ability_mount_charger", "=ds="..AL["Mounts"], ""};
+		Back = "WORLDEVENTMENU";
 	};
 
 	AtlasLoot_Data["DARKMOONMENU"] = {

@@ -139,7 +139,7 @@ if AL then
 	AL["Cooking Daily"] = true;
 	AL["Crafted Sets"] = true;
 	AL["Crafted Epic Weapons"] = true;
-    AL["Dragon's Eye"] = true;
+	AL["Dragon's Eye"] = true;
 
 	-- Sets/Collections Menu
 	AL["Badge of Justice Rewards"] = true;
@@ -276,7 +276,6 @@ if AL then
 
 	-- Extra inventory stuff
 	AL["Cloak"] = true;
-	AL["Weapons"] = true;
 	AL["Sigil"] = true; -- Can be added to BabbleInv
 
 	-- Alchemy

@@ -1,6 +1,6 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
+local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 -- Index
 --- Permanent Events
@@ -52,16 +52,16 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 20, 45720, "", "=q2=Sen'jin Commendation Badge", "=ds=", "1 #champwrit#"};
 		{ 21, 45721, "", "=q2=Silvermoon Commendation Badge", "=ds=", "1 #champwrit#"};
 		Next = "ArgentTournament2";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
 
 	AtlasLoot_Data["ArgentTournament2"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 45021, "", "=q1=Darnassus Banner", "=ds=", "15 #champseal#"};
-		{ 3, 45020, "", "=q1=Exodar Banner", "=ds=", "15 #champseal#"};
-		{ 4, 45019, "", "=q1=Gnomeregan Banner", "=ds=", "15 #champseal#"};
-		{ 5, 45018, "", "=q1=Ironforge Banner", "=ds=", "15 #champseal#"};
-		{ 6, 45011, "", "=q1=Stormwind Banner", "=ds=", "15 #champseal#"};
+		{ 2, 45021, "", "=q1=Darnassus Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 3, 45020, "", "=q1=Exodar Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 4, 45019, "", "=q1=Gnomeregan Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 5, 45018, "", "=q1=Ironforge Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 6, 45011, "", "=q1=Stormwind Banner", "=ds=#e14#", "15 #champseal#"};
 		{ 7, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 8, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 9, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "50 #champseal#"};
@@ -70,11 +70,11 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 12, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 45014, "", "=q1=Orgrimmar Banner", "=ds=", "15 #champseal#"};
-		{ 18, 45016, "", "=q1=Undercity Banner", "=ds=", "15 #champseal#"};
-		{ 19, 45013, "", "=q1=Thunder Bluff Banner", "=ds=", "15 #champseal#"};
-		{ 20, 45015, "", "=q1=Sen'jin Banner", "=ds=", "15 #champseal#"};
-		{ 21, 45017, "", "=q1=Silvermoon City Banner", "=ds=", "15 #champseal#"};
+		{ 17, 45014, "", "=q1=Orgrimmar Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 18, 45016, "", "=q1=Undercity Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 19, 45013, "", "=q1=Thunder Bluff Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 20, 45015, "", "=q1=Sen'jin Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 21, 45017, "", "=q1=Silvermoon City Banner", "=ds=#e14#", "15 #champseal#"};
 		{ 22, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 23, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 24, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "50 #champseal#"};
@@ -83,7 +83,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 27, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#", "50 #champseal#"};
 		Prev = "ArgentTournament1";
 		Next = "ArgentTournament3";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
 
 	AtlasLoot_Data["ArgentTournament3"] = {
@@ -118,10 +118,35 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 29, 45219, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
 		Prev = "ArgentTournament2";
 		Next = "ArgentTournament4";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
 
 	AtlasLoot_Data["ArgentTournament4"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+		{ 2, 45078, "", "=q4=Dagger of Lunar Purity", "=ds=#h3#, #w4#", "25 #champseal#" };
+		{ 3, 45077, "", "=q4=Dagger of the Rising Moon", "=ds=#h1#, #w4#", "25 #champseal#" };
+		{ 4, 45129, "", "=q4=Gnomeregan Bonechopper", "=ds=#h3#, #w10#", "25 #champseal#" };
+		{ 5, 45074, "", "=q4=Claymore of the Prophet", "=ds=#h2#, #w10#", "25 #champseal#" };
+		{ 6, 45076, "", "=q4=Teldrassil Protector", "=ds=#h1#, #w1#", "25 #champseal#" };
+		{ 7, 45075, "", "=q4=Ironforge Smasher", "=ds=#h1#, #w6#", "25 #champseal#" };
+		{ 8, 45128, "", "=q4=Silvery Sylvan Stave", "=ds=#w9#", "25 #champseal#" };
+		{ 9, 45130, "", "=q4=Blunderbuss of Khaz Modan", "=ds=#w5#", "25 #champseal#" };
+		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+		{ 17, 45214, "", "=q4=Scalpel of the Royal Apothecary", "=ds=#h3#, #w4#", "25 #champseal#" };
+		{ 18, 45222, "", "=q4=Spinal Destroyer", "=ds=#h1#, #w4#", "25 #champseal#" };
+		{ 19, 45208, "", "=q4=Blade of the Keening Banshee", "=ds=#h3#, #w10#", "25 #champseal#" };
+		{ 20, 45205, "", "=q4=Greatsword of the Sin'dorei", "=ds=#h2#, #w10#", "25 #champseal#" };
+		{ 21, 45204, "", "=q4=Axe of the Sen'jin Protector", "=ds=#h1#, #w1#", "25 #champseal#" };
+		{ 22, 45203, "", "=q4=Grimhorn Crusher", "=ds=#h1#, #w6#", "25 #champseal#" };
+		{ 23, 45212, "", "=q4=Staff of Feral Furies", "=ds=#w9#", "25 #champseal#" };
+		{ 24, 45210, "", "=q4=Sen'jin Beakblade Longrifle", "=ds=#w5#", "25 #champseal#" };
+		Prev = "ArgentTournament3";
+		Next = "ArgentTournament5";
+		Back = "ARGENTMENU";
+	};
+
+	AtlasLoot_Data["ArgentTournament5"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 2, 44998, "", "=q3=Argent Squire", "=ds=#m4#"};
 		{ 4, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#", "40 #champseal#"};
@@ -139,38 +164,13 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 22, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#", "40 #champseal#"};
 		{ 23, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "40 #champseal#"};
 		{ 24, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
-        { 26, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-        { 27, 38544, "", "=q1=Argent Crusade Banner", "=ds=", "15 #champseal#"};
-		{ 28, 46874, "", "=q2=Argent Crusader's Tabard", "=ds=", "50 #champseal#"};
-        { 29, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
-		Prev = "ArgentTournament3";
-		Next = "ArgentTournament5";
-		Back = "WORLDEVENTMENU";
-	};
-
-	AtlasLoot_Data["ArgentTournament5"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 45078, "", "=q4=Dagger of Lunar Purity", "=ds=#h3# #w4#", "25 #champseal#" };
-		{ 3, 45129, "", "=q4=Gnomeregan Bonechopper", "=ds=#h3# #w10#", "25 #champseal#" };
-		{ 4, 45076, "", "=q4=Teldrassil Protector", "=ds=#h1# #w1#", "25 #champseal#" };
-		{ 5, 45077, "", "=q4=Dagger of the Rising Moon", "=ds=#h1# #w4#", "25 #champseal#" };
-		{ 6, 45075, "", "=q4=Ironforge Smasher", "=ds=#h1# #w6#", "25 #champseal#" };
-		{ 7, 45128, "", "=q4=Silvery Sylvan Stave", "=ds=#w9#", "25 #champseal#" };
-		{ 8, 45074, "", "=q4=Claymore of the Prophet", "=ds=#h2# #w10#", "25 #champseal#" };
-		{ 9, 45130, "", "=q4=Blunderbuss of Khaz Modan", "=ds=#w5#", "25 #champseal#" };
-		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 45214, "", "=q4=Scalpel of the Royal Apothecary", "=ds=#h3# #w4#", "25 #champseal#" };
-		{ 18, 45208, "", "=q4=Blade of the Keening Banshee", "=ds=#h3# #w10#", "25 #champseal#" };
-		{ 19, 45204, "", "=q4=Axe of the Sen'jin Protector", "=ds=#h1# #w1#", "25 #champseal#" };
-		{ 20, 45222, "", "=q4=Spinal Destroyer", "=ds=#h1# #w4#", "25 #champseal#" };
-		{ 21, 45203, "", "=q4=Grimhorn Crusher", "=ds=#h1# #w6#", "25 #champseal#" };
-		{ 22, 45212, "", "=q4=Staff of Feral Furies", "=ds=#w9#", "25 #champseal#" };
-		{ 23, 45205, "", "=q4=Greatsword of the Sin'dorei", "=ds=#h2# #w10#", "25 #champseal#" };
-		{ 24, 45210, "", "=q4=Sen'jin Beakblade Longrifle", "=ds=#w5#", "25 #champseal#" };
+		{ 26, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+		{ 27, 38544, "", "=q1=Argent Crusade Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 28, 46874, "", "=q2=Argent Crusader's Tabard", "=ds=#s7#", "50 #champseal#"};
+		{ 29, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
 		Prev = "ArgentTournament4";
 		Next = "ArgentTournament6";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
 
 	AtlasLoot_Data["ArgentTournament6"] = {
@@ -199,26 +199,26 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e12#", "500 #gold# 5 #champseal#"};
 		Prev = "ArgentTournament5";
 		Next = "ArgentTournament7";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
-	
+
 	AtlasLoot_Data["ArgentTournament7"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+		{ 1, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=ec1=#m7#"};
 		{ 2, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e12#", "100 #champseal#"};
 		{ 3, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e12#", "150 #champseal#"};
 		{ 5, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-        { 6, 47179, "", "=q4=Argent Charger", "=ds=#e12#", "100 #champseal#"};
+		{ 6, 47179, "", "=q4=Argent Charger", "=ds=#e12#", "100 #champseal#"};
 		{ 7, 47180, "", "=q4=Argent Warhorse", "=ds=#e12#", "100 #champseal#"};
 		{ 8, 45725, "", "=q4=Argent Hippogryph", "=ds=#e12#", "150 #champseal#"};
 		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+		{ 16, 0, "inv_misc_tabardpvp_02", "=q6="..BabbleFaction["The Sunreavers"], "=ec1=#m6#"};
 		{ 17, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e12#", "100 #champseal#"};
 		{ 18, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e12#", "150 #champseal#"};
 		Prev = "ArgentTournament6";
 		Next = "ArgentTournament8";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
-	
+
 	AtlasLoot_Data["ArgentTournament8"] = {
 		{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#",  "60 #champseal#"};
 		{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "60 #champseal#"};
@@ -235,18 +235,18 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 		{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "75 #champseal#"};
 		{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "75 #champseal#"};
-		{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "60 #champseal#"};
-		{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "60 #champseal#"};
-		{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "95 #champseal#"};
-		{ 22, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "75 #champseal#"};
-		{ 23, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "95 #champseal#"};
-		{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "75 #champseal#"};
+		{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "60 #champseal#"};
+		{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "60 #champseal#"};
+		{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "95 #champseal#"};
+		{ 22, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "75 #champseal#"};
+		{ 23, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "75 #champseal#"};
+		{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "95 #champseal#"};
 		{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "95 #champseal#"};
 		{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "95 #champseal#"};
 		Prev = "ArgentTournament7";
-		Back = "WORLDEVENTMENU";
+		Back = "ARGENTMENU";
 	};
-	
+
 	-----------------------
 	--- Seasonal Events ---
 	-----------------------
