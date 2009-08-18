@@ -1238,7 +1238,7 @@ if AL then
     AL["Loken"] = "Локен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 	AL["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури"; --Is in BabbleBoss
-	--AL["Faction Champions"] = true; -- if you have a better name, use it.
+	AL["Faction Champions"] = "Чемпионы фракций"; -- if you have a better name, use it.
 
     -- Zones
     AL["World Drop"] = "Мировой выпад";
