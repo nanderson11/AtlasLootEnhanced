@@ -801,7 +801,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_A" },
 		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_A" },
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_A" },
-		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_A" },
+		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_AHEROIC" },
 		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
 	},
 	["TrialoftheCrusader_H"] = {
@@ -810,7 +810,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_H" },
 		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_H" },
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_H" },
-		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_H" },
+		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_HHEROIC" },
 		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
 	},
 	["Naxxramas80"] = {

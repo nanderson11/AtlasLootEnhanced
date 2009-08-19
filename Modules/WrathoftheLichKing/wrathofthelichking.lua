@@ -30,7 +30,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Ulduar
 ---- Trial of the Champion
 ---- Trial of the Crusader
----- Trial of the Grand Crusader - ?
+---- Trial of the Grand Crusader
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -3003,64 +3003,34 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		-----------------------------
 
 	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47617, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
-		{ 3, 47613, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
-		{ 4, 47608, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
-		{ 5, 47616, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#"};
-		{ 6, 47610, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#"};
-		{ 7, 47611, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#"};
-		{ 8, 47609, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#"};
-		{ 9, 47615, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
-		{ 10, 47614, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
-		{ 11, 47607, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
-		{ 12, 47578, "", "=q4=Carnivorous Band", "=ds=#s13#"};
-		{ 13, 47612, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 47921, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
-		{ 18, 47923, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
-		{ 19, 47919, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
-		{ 20, 47926, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#"};
-		{ 21, 47916, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#"};
-		{ 22, 47918, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#"};
-		{ 23, 47917, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#"};
-		{ 24, 47924, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
-		{ 25, 47925, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
-		{ 26, 47915, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
-		{ 27, 47920, "", "=q4=Gormok's Band", "=ds=#s13#"};
-		{ 28, 47922, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
-		{ 30, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47617, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
+		{ 2, 47613, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
+		{ 3, 47608, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
+		{ 4, 47616, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#"};
+		{ 5, 47610, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#"};
+		{ 6, 47611, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#"};
+		{ 7, 47609, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#"};
+		{ 8, 47615, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
+		{ 9, 47614, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
+		{ 10, 47607, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
+		{ 11, 47578, "", "=q4=Carnivorous Band", "=ds=#s13#"};
+		{ 12, 47612, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47855, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
-		{ 3, 47857, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
-		{ 4, 47853, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
-		{ 5, 47860, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#"};
-		{ 6, 47850, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#"};
-		{ 7, 47852, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#"};
-		{ 8, 47851, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#"};
-		{ 9, 47859, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
-		{ 10, 47858, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
-		{ 11, 47849, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
-		{ 12, 47854, "", "=q4=Gormok's Band", "=ds=#s13#"};
-		{ 13, 47856, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 47994, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
-		{ 18, 47996, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
-		{ 19, 47992, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
-		{ 20, 47999, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#"};
-		{ 21, 47989, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#"};
-		{ 22, 47991, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#"};
-		{ 23, 47990, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#"};
-		{ 24, 47998, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
-		{ 25, 47997, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
-		{ 26, 47988, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
-		{ 27, 47993, "", "=q4=Carnivorous Band", "=ds=#s13#"};
-		{ 28, 47995, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
-		{ 30, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47855, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
+		{ 2, 47857, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
+		{ 3, 47853, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
+		{ 4, 47860, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#"};
+		{ 5, 47850, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#"};
+		{ 6, 47852, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#"};
+		{ 7, 47851, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#"};
+		{ 8, 47859, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
+		{ 9, 47858, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
+		{ 10, 47849, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
+		{ 11, 47854, "", "=q4=Gormok's Band", "=ds=#s13#"};
+		{ 12, 47856, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_H";
 	};
 
@@ -3105,69 +3075,37 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47663, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
-		{ 3, 47620, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
-		{ 4, 47669, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
-		{ 5, 47621, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#"};
-		{ 6, 49235, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#"};
-		{ 7, 47683, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#"};
-		{ 8, 47680, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#"};
-		{ 9, 47711, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#"};
-		{ 10, 47619, "", "=q4=Amulet of Binding Elements", "=ds=#s2#"};
-		{ 11, 47679, "", "=q4=Endurance of the Infernal", "=ds=#s2#"};
-		{ 12, 47618, "", "=q4=Firestorm Ring", "=ds=#s13#"};
-		{ 13, 47703, "", "=q4=Planestalker Signet", "=ds=#s13#"};
-		{ 14, 47676, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 47927, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
-		{ 18, 47931, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
-		{ 19, 47929, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
-		{ 20, 47932, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#"};
-		{ 21, 49238, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#"};
-		{ 22, 47933, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#"};
-		{ 23, 47935, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#"};
-		{ 24, 47937, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#"};
-		{ 25, 47930, "", "=q4=Amulet of Binding Elements", "=ds=#s2#"};
-		{ 26, 47939, "", "=q4=Endurance of the Infernal", "=ds=#s2#"};
-		{ 27, 47928, "", "=q4=Firestorm Ring", "=ds=#s13#"};
-		{ 28, 47934, "", "=q4=Planestalker Signet", "=ds=#s13#"};
-		{ 29, 47938, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
-		{ 30, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47663, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
+		{ 2, 47620, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
+		{ 3, 47669, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
+		{ 4, 47621, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#"};
+		{ 5, 49235, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#"};
+		{ 6, 47683, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#"};
+		{ 7, 47680, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#"};
+		{ 8, 47711, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#"};
+		{ 9, 47619, "", "=q4=Amulet of Binding Elements", "=ds=#s2#"};
+		{ 10, 47679, "", "=q4=Endurance of the Infernal", "=ds=#s2#"};
+		{ 11, 47618, "", "=q4=Firestorm Ring", "=ds=#s13#"};
+		{ 12, 47703, "", "=q4=Planestalker Signet", "=ds=#s13#"};
+		{ 13, 47676, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderNorthrendBeasts_A";
 		Next = "TrialoftheCrusaderFactionChampions_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47861, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
-		{ 3, 47865, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
-		{ 4, 47863, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
-		{ 5, 47866, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#"};
-		{ 6, 49236, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#"};
-		{ 7, 47867, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#"};
-		{ 8, 47869, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#"};
-		{ 9, 47870, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#"};
-		{ 10, 47872, "", "=q4=Fortitude of the Infernal", "=ds=#s2#"};
-		{ 11, 47864, "", "=q4=Pendant of Binding Elements", "=ds=#s2#"};
-		{ 12, 47862, "", "=q4=Firestorm Band", "=ds=#s13#"};
-		{ 13, 47868, "", "=q4=Planestalker Band", "=ds=#s13#"};
-		{ 14, 47871, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 48000, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
-		{ 18, 48004, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
-		{ 19, 48002, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
-		{ 20, 48005, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#"};
-		{ 21, 49237, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#"};
-		{ 22, 48006, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#"};
-		{ 23, 48008, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#"};
-		{ 24, 48009, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#"};
-		{ 25, 48011, "", "=q4=Fortitude of the Infernal", "=ds=#s2#"};
-		{ 26, 48003, "", "=q4=Pendant of Binding Elements", "=ds=#s2#"};
-		{ 27, 48001, "", "=q4=Firestorm Band", "=ds=#s13#"};
-		{ 28, 48007, "", "=q4=Planestalker Band", "=ds=#s13#"};
-		{ 29, 48010, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
-		{ 30, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47861, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
+		{ 2, 47865, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
+		{ 3, 47863, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
+		{ 4, 47866, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#"};
+		{ 5, 49236, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#"};
+		{ 6, 47867, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#"};
+		{ 7, 47869, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#"};
+		{ 8, 47870, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#"};
+		{ 9, 47872, "", "=q4=Fortitude of the Infernal", "=ds=#s2#"};
+		{ 10, 47864, "", "=q4=Pendant of Binding Elements", "=ds=#s2#"};
+		{ 11, 47862, "", "=q4=Firestorm Band", "=ds=#s13#"};
+		{ 12, 47868, "", "=q4=Planestalker Band", "=ds=#s13#"};
+		{ 13, 47871, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderNorthrendBeasts_H";
 		Next = "TrialoftheCrusaderFactionChampions_H";
 	};
@@ -3215,57 +3153,31 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47721, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
-		{ 3, 47719, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
-		{ 4, 47718, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
-		{ 5, 47717, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
-		{ 6, 47720, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
-		{ 7, 47724, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		{ 9, 47728, "", "=q4=Binding Light", "=ds=#s14#"};
-		{ 10, 47727, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
-		{ 11, 47726, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
-		{ 12, 47725, "", "=q4=Victor's Call", "=ds=#s14#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 47940, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
-		{ 18, 47945, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
-		{ 19, 47942, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
-		{ 20, 47943, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
-		{ 21, 47944, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
-		{ 22, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		{ 24, 47947, "", "=q4=Binding Light", "=ds=#s14#"};
-		{ 25, 47949, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
-		{ 26, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
-		{ 27, 47948, "", "=q4=Victor's Call", "=ds=#s14#"};
-		{ 29, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47721, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
+		{ 2, 47719, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
+		{ 3, 47718, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
+		{ 4, 47717, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
+		{ 5, 47720, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
+		{ 6, 47728, "", "=q4=Binding Light", "=ds=#s14#"};
+		{ 7, 47727, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
+		{ 8, 47726, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
+		{ 9, 47725, "", "=q4=Victor's Call", "=ds=#s14#"};
+		{ 10, 47724, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_A";
 		Next = "TrialoftheCrusaderTwinValkyrs_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47873, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
-		{ 3, 47878, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
-		{ 4, 47875, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
-		{ 5, 47876, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
-		{ 6, 47877, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
-		{ 7, 47874, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
-		{ 9, 47880, "", "=q4=Binding Stone", "=ds=#s14#"};
-		{ 10, 47882, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
-		{ 11, 47879, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
-		{ 12, 47881, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 48012, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
-		{ 18, 48017, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
-		{ 19, 48014, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
-		{ 20, 48015, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
-		{ 21, 48016, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
-		{ 22, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
-		{ 24, 48019, "", "=q4=Binding Stone", "=ds=#s14#"};
-		{ 25, 48021, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
-		{ 26, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
-		{ 27, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
-		{ 29, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47873, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
+		{ 2, 47878, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
+		{ 3, 47875, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
+		{ 4, 47876, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
+		{ 5, 47877, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 6, 47880, "", "=q4=Binding Stone", "=ds=#s14#"};
+		{ 7, 47882, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
+		{ 8, 47879, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
+		{ 9, 47881, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
+		{ 10, 47874, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_H";
 		Next = "TrialoftheCrusaderTwinValkyrs_H";
 	};
@@ -3313,70 +3225,38 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47745, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
-		{ 3, 49231, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
-		{ 4, 47746, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
-		{ 5, 47739, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#"};
-		{ 6, 47744, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#"};
-		{ 7, 47738, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#"};
-		{ 8, 47747, "", "=q4=Darkbane Pendant", "=ds=#s2#"};
-		{ 9, 47700, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#"};
-		{ 10, 47742, "", "=q4=Chalice of Benedictus", "=ds=#s15#"};
-		{ 11, 47736, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#"};
-		{ 12, 47737, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
-		{ 13, 47743, "", "=q4=Enlightenment", "=ds=#w9#"};
-		{ 14, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#"};
-		{ 15, 47740, "", "=q4=The Diplomat", "=ds=#w5#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 47956, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
-		{ 18, 49234, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
-		{ 19, 47959, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
-		{ 20, 47954, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#"};
-		{ 21, 47961, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#"};
-		{ 22, 47952, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#"};
-		{ 23, 47957, "", "=q4=Darkbane Pendant", "=ds=#s2#"};
-		{ 24, 47955, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#"};
-		{ 25, 47958, "", "=q4=Chalice of Benedictus", "=ds=#s15#"};
-		{ 26, 47953, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#"};
-		{ 27, 47951, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
-		{ 28, 47960, "", "=q4=Enlightenment", "=ds=#w9#"};
-		{ 29, 47950, "", "=q4=The Diplomat", "=ds=#w5#"};
-		{ 30, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47745, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
+		{ 2, 49231, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
+		{ 3, 47746, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
+		{ 4, 47739, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#"};
+		{ 5, 47744, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#"};
+		{ 6, 47738, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#"};
+		{ 7, 47747, "", "=q4=Darkbane Pendant", "=ds=#s2#"};
+		{ 8, 47700, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#"};
+		{ 9, 47742, "", "=q4=Chalice of Benedictus", "=ds=#s15#"};
+		{ 10, 47736, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#"};
+		{ 11, 47737, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
+		{ 12, 47743, "", "=q4=Enlightenment", "=ds=#w9#"};
+		{ 13, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#"};
+		{ 14, 47740, "", "=q4=The Diplomat", "=ds=#w5#"};
 		Prev = "TrialoftheCrusaderFactionChampions_A";
 		Next = "TrialoftheCrusaderAnubarak_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47889, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
-		{ 3, 49232, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
-		{ 4, 47891, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
-		{ 5, 47887, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#"};
-		{ 6, 47893, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#"};
-		{ 7, 47885, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#"};
-		{ 8, 47890, "", "=q4=Darkbane Amulet", "=ds=#s2#"};
-		{ 9, 47888, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#"};
-		{ 10, 47913, "", "=q4=Lightbane Focus", "=ds=#s15#"};
-		{ 11, 47886, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#"};
-		{ 12, 47884, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
-		{ 13, 47892, "", "=q4=Illumination", "=ds=#w9#"};
-		{ 14, 47883, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 48028, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
-		{ 18, 49233, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
-		{ 19, 48034, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
-		{ 20, 48026, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#"};
-		{ 21, 48038, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#"};
-		{ 22, 48024, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#"};
-		{ 23, 48030, "", "=q4=Darkbane Amulet", "=ds=#s2#"};
-		{ 24, 48027, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#"};
-		{ 25, 48032, "", "=q4=Lightbane Focus", "=ds=#s15#"};
-		{ 26, 48025, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#"};
-		{ 27, 48023, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
-		{ 28, 48036, "", "=q4=Illumination", "=ds=#w9#"};
-		{ 29, 48022, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
-		{ 30, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		{ 1, 47889, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
+		{ 2, 49232, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
+		{ 3, 47891, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
+		{ 4, 47887, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#"};
+		{ 5, 47893, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 47885, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#"};
+		{ 7, 47890, "", "=q4=Darkbane Amulet", "=ds=#s2#"};
+		{ 8, 47888, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#"};
+		{ 9, 47913, "", "=q4=Lightbane Focus", "=ds=#s15#"};
+		{ 10, 47886, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#"};
+		{ 11, 47884, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
+		{ 12, 47892, "", "=q4=Illumination", "=ds=#w9#"};
+		{ 13, 47883, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
 		Prev = "TrialoftheCrusaderFactionChampions_H";
 		Next = "TrialoftheCrusaderAnubarak_H";
 	};
@@ -3424,99 +3304,49 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47838, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
-		{ 3, 47837, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
-		{ 4, 47832, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
-		{ 5, 47813, "", "=q4=Helmet of the Crypt Lord", "=ds=#s1#, #a3#" };
-		{ 6, 47829, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#" };
-		{ 7, 47811, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#" };
-		{ 8, 47836, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#" };
-		{ 9, 47830, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#" };
-		{ 10, 47810, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#" };
-		{ 11, 47814, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#" };
-		{ 12, 47808, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#" };
-		{ 13, 47809, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#" };
-		{ 14, 47816, "", "=q4=The Grinder", "=ds=#h1#, #w6#" };
-		{ 15, 47834, "", "=q4=Fordragon Blades", "=ds=#w7#" };
-		{ 16, 47815, "", "=q4=Cold Convergence", "=ds=#w9#" };
-		{ 17, 47835, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
-		{ 18, 47812, "", "=q4=Vigilant Ward", "=ds=#w8#" };
-		{ 19, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
+		{ 1, 47838, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
+		{ 2, 47837, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
+		{ 3, 47832, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
+		{ 4, 47813, "", "=q4=Helmet of the Crypt Lord", "=ds=#s1#, #a3#" };
+		{ 5, 47829, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#" };
+		{ 6, 47811, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#" };
+		{ 7, 47836, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#" };
+		{ 8, 47830, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#" };
+		{ 9, 47810, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#" };
+		{ 10, 47814, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#" };
+		{ 11, 47808, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#" };
+		{ 12, 47809, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#" };
+		{ 13, 47816, "", "=q4=The Grinder", "=ds=#h1#, #w6#" };
+		{ 14, 47834, "", "=q4=Fordragon Blades", "=ds=#w7#" };
+		{ 15, 47815, "", "=q4=Cold Convergence", "=ds=#w9#" };
+		{ 16, 47835, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
+		{ 17, 47812, "", "=q4=Vigilant Ward", "=ds=#w8#" };
+		{ 18, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
 		Prev = "TrialoftheCrusaderTwinValkyrs_A";
-		Next = "TrialoftheCrusaderTribute_A";
+		Next = "TrialoftheCrusaderPatterns_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47906, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
-		{ 3, 47909, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
-		{ 4, 47904, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
-		{ 5, 47897, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#" };
-		{ 6, 47901, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#" };
-		{ 7, 47896, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#" };
-		{ 8, 47902, "", "=q4=Legplates of Redeemed Blood", "=ds=#s11#, #a4#" };
-		{ 9, 47908, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#" };
-		{ 10, 47899, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#" };
-		{ 11, 47903, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#" };
-		{ 12, 47898, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#" };
-		{ 13, 47894, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#" };
-		{ 14, 47905, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#" };
-		{ 15, 47911, "", "=q4=Anguish", "=ds=#w7#" };
-		{ 16, 47900, "", "=q4=Perdition", "=ds=#w9#" };
-		{ 17, 47910, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
-		{ 18, 47895, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
-		{ 19, 47907, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
+		{ 1, 47906, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
+		{ 2, 47909, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
+		{ 3, 47904, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
+		{ 4, 47897, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#" };
+		{ 5, 47901, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#" };
+		{ 6, 47896, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#" };
+		{ 7, 47902, "", "=q4=Legplates of Redeemed Blood", "=ds=#s11#, #a4#" };
+		{ 8, 47908, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#" };
+		{ 9, 47899, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#" };
+		{ 10, 47903, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#" };
+		{ 11, 47898, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#" };
+		{ 12, 47894, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#" };
+		{ 13, 47905, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#" };
+		{ 14, 47911, "", "=q4=Anguish", "=ds=#w7#" };
+		{ 15, 47900, "", "=q4=Perdition", "=ds=#w9#" };
+		{ 16, 47910, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
+		{ 17, 47895, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
+		{ 18, 47907, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
 		Prev = "TrialoftheCrusaderTwinValkyrs_H";
-		Next = "TrialoftheCrusaderTribute_H";
-	};
-
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_AHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 2, 47974, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
-		{ 3, 47977, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
-		{ 4, 47972, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
-		{ 5, 47965, "", "=q4=Headpiece of the Crypt Lord", "=ds=#s1#, #a3#" };
-		{ 6, 47969, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#" };
-		{ 7, 47964, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#" };
-		{ 8, 47976, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#" };
-		{ 9, 47970, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#" };
-		{ 10, 47967, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#" };
-		{ 11, 47971, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#" };
-		{ 12, 47966, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#" };
-		{ 13, 47962, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#" };
-		{ 14, 47973, "", "=q4=The Grinder", "=ds=#h1#, #w6#" };
-		{ 15, 47979, "", "=q4=Fordragon Blades", "=ds=#w7#" };
-		{ 16, 47968, "", "=q4=Cold Convergence", "=ds=#w9#" };
-		{ 17, 47978, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
-		{ 18, 47963, "", "=q4=Vigilant Ward", "=ds=#w8#" };
-		{ 19, 47975, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
-		Prev = "TrialoftheCrusaderTwinValkyrs_A";
-		Next = "TrialoftheCrusaderTribute_A";
-	};
-
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_HHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 2, 48051, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
-		{ 3, 48054, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
-		{ 4, 48049, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
-		{ 5, 48042, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#" };
-		{ 6, 48046, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#" };
-		{ 7, 48041, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#" };
-		{ 8, 48047, "", "=q4=Legplates of the Redeemed Blood Knight", "=ds=#s11#, #a4#" };
-		{ 9, 48053, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#" };
-		{ 10, 48044, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#" };
-		{ 11, 48048, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#" };
-		{ 12, 48043, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#" };
-		{ 13, 48039, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#" };
-		{ 14, 48050, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#" };
-		{ 15, 48056, "", "=q4=Anguish", "=ds=#w7#" };
-		{ 16, 48045, "", "=q4=Perdition", "=ds=#w9#" };
-		{ 17, 48055, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
-		{ 18, 48040, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
-		{ 19, 48052, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
-		Prev = "TrialoftheCrusaderTwinValkyrs_H";
-		Next = "TrialoftheCrusaderTribute_H";
+		Next = "TrialoftheCrusaderPatterns_H";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A25Man"] = {
@@ -3542,7 +3372,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 47233, "", "=q4=Archon Glaive", "=ds=#w7#"};
 		{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_A25Man";
-		Next = "TrialoftheCrusaderTribute_A25Man";
+		Next = "TrialoftheCrusaderPatterns_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H25Man"] = {
@@ -3568,86 +3398,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 47329, "", "=q4=Hellion Glaive", "=ds=#w7#"};
 		{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_H25Man";
-		Next = "TrialoftheCrusaderTribute_H25Man";
-	};
-
-	AtlasLoot_Data["TrialoftheCrusaderTribute_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Mad Skill"]};
-		{ 2, 48712, "", "=q4=The Spinebreaker", "=ds=#h3#, #w13#"};
-		{ 3, 48708, "", "=q4=Spellstorm Blade", "=ds=#h3#, #w10#"};
-		{ 4, 48713, "", "=q4=Lothar's Edge", "=ds=#h2#, #w1#"};
-		{ 5, 48709, "", "=q4=Heartcrusher", "=ds=#h3#, #w6#"};
-		{ 6, 48714, "", "=q4=Honor of the Fallen", "=ds=#h1#, #w6#"};
-		{ 7, 48710, "", "=q4=Paragon's Breadth", "=ds=#w9#"};
-		{ 8, 48711, "", "=q4=Rhok'shalla, the Shadow's Bane", "=ds=#w2#"};
-		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
-		{ 11, 48673, "", "=q4=Cloak of the Silver Covenant", "=ds=#s4#" };
-		{ 12, 48675, "", "=q4=Cloak of the Unmoving Guardian", "=ds=#s4#" };
-		{ 13, 48674, "", "=q4=Cloak of the Victorious Combatant", "=ds=#s4#" };
-		{ 14, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#" };
-		{ 15, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#" };
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
-		Prev = "TrialoftheCrusaderAnubarak_A";
-		Next = "TrialoftheCrusaderPatterns_A";
-	};
-
-	AtlasLoot_Data["TrialoftheCrusaderTribute_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Mad Skill"]};
-		{ 2, 48703, "", "=q4=The Facebreaker", "=ds=#h3#, #w13#" };
-		{ 3, 48701, "", "=q4=Spellharvest", "=ds=#h3#, #w10#" };
-		{ 4, 48695, "", "=q4=Mor'kosh, the Bloodreaver", "=ds=#h2#, #w1#" };
-		{ 5, 48693, "", "=q4=Heartsmasher", "=ds=#h3#, #w6#" };
-		{ 6, 48699, "", "=q4=Blood and Glory", "=ds=#h1#, #w6#" };
-		{ 7, 48705, "", "=q4=Attrition", "=ds=#w9#" };
-		{ 8, 48697, "", "=q4=Frenzystrike Longbow", "=ds=#w2#"};
-		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
-		{ 11, 48668, "", "=q4=Cloak of Serrated Blades", "=ds=#s4#" };
-		{ 12, 48669, "", "=q4=Cloak of the Triumphant Combatant", "=ds=#s4#" };
-		{ 13, 48670, "", "=q4=Cloak of the Unflinching Guardian", "=ds=#s4#" };
-		{ 14, 48666, "", "=q4=Drape of the Sunreavers", "=ds=#s4#" };
-		{ 15, 48667, "", "=q4=Shawl of the Devout Crusader", "=ds=#s4#" };
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
-		Prev = "TrialoftheCrusaderAnubarak_H";
-		Next = "TrialoftheCrusaderPatterns_H";
-	};
-
-	AtlasLoot_Data["TrialoftheCrusaderTribute_A25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Skill"]};
-		{ 2, 47517, "", "=q4=Blade of the Unbroken Covenant", "=ds=#h3#, #w10#"};
-		{ 3, 47506, "", "=q4=Silverwing Defender", "=ds=#h1#, #w10#"};
-		{ 4, 47515, "", "=q4=Decimation", "=ds=#h2#, #w10#"};
-		{ 5, 47526, "", "=q4=Remorseless", "=ds=#h1#, #w6#"};
-		{ 6, 47519, "", "=q4=Catastrophe", "=ds=#h2#, #w6#"};
-		{ 7, 47524, "", "=q4=Clemency", "=ds=#w9#"};
-		{ 8, 47521, "", "=q4=BRK-1000", "=ds=#w5#"};
-		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
-		{ 11, 47553, "", "=q4=Bolvar's Devotion", "=ds=#s4#"};
-		{ 12, 47552, "", "=q4=Jaina's Radiance", "=ds=#s4#"};
-		{ 13, 47549, "", "=q4=Magni's Resolution", "=ds=#s4#"};
-		{ 14, 47545, "", "=q4=Vereesa's Dexterity", "=ds=#s4#"};
-		{ 15, 47547, "", "=q4=Varian's Furor", "=ds=#s4#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
-		Prev = "TrialoftheCrusaderAnubarak_A25Man";
-		Next = "TrialoftheCrusaderPatterns_A";
-	};
-
-	AtlasLoot_Data["TrialoftheCrusaderTribute_H25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Skill"]};
-		{ 2, 47518, "", "=q4=Mortalis", "=ds=#h3#, #w10#"};
-		{ 3, 47513, "", "=q4=Ogrim's Deflector", "=ds=#h1#, #w10#"};
-		{ 4, 47516, "", "=q4=Fleshrender", "=ds=#h2#, #w10#"};
-		{ 5, 47528, "", "=q4=Cudgel of the Damned", "=ds=#h1#, #w6#"};
-		{ 6, 47520, "", "=q4=Grievance", "=ds=#h2#, #w6#"};
-		{ 7, 47525, "", "=q4=Sufferance", "=ds=#w9#"};
-		{ 8, 47523, "", "=q4=Fezzik's Autocannon", "=ds=#w5#"};
-		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
-		{ 11, 47551, "", "=q4=Aethas' Intensity", "=ds=#s4#"};
-		{ 12, 47550, "", "=q4=Cairne's Endurance", "=ds=#s4#"};
-		{ 13, 47548, "", "=q4=Garrosh's Rage", "=ds=#s4#"};
-		{ 14, 47554, "", "=q4=Lady Liadrin's Conviction", "=ds=#s4#"};
-		{ 15, 47546, "", "=q4=Sylvanas' Cunning", "=ds=#s4#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
-		Prev = "TrialoftheCrusaderAnubarak_H25Man";
 		Next = "TrialoftheCrusaderPatterns_H";
 	};
 
@@ -3671,7 +3421,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
 		{ 18, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
 		{ 30, 47556, "", "=q4=Crusader Orb", "=ds=#e8#"};
-		Prev = "TrialoftheCrusaderTribute_A";
+		Prev = "TrialoftheCrusaderTribute_AHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_H"] = {
@@ -3694,12 +3444,46 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
 		{ 18, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
 		{ 30, 47556, "", "=q4=Crusader Orb", "=ds=#e8#"};
-		Prev = "TrialoftheCrusaderTribute_H";
+		Prev = "TrialoftheCrusaderTribute_HHEROIC";
 	};
 
 		-----------------------------------
 		--- Trial of the Grand Crusader ---
 		-----------------------------------
+
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_AHEROIC"] = {
+		{ 1, 47921, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
+		{ 2, 47923, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
+		{ 3, 47919, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
+		{ 4, 47926, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#"};
+		{ 5, 47916, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#"};
+		{ 6, 47918, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#"};
+		{ 7, 47917, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#"};
+		{ 8, 47924, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
+		{ 9, 47925, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
+		{ 10, 47915, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
+		{ 11, 47920, "", "=q4=Gormok's Band", "=ds=#s13#"};
+		{ 12, 47922, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
+		{ 14, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Next = "TrialoftheCrusaderLordJaraxxus_AHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_HHEROIC"] = {
+		{ 1, 47994, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
+		{ 2, 47996, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
+		{ 3, 47992, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
+		{ 4, 47999, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#"};
+		{ 5, 47989, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#"};
+		{ 6, 47991, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#"};
+		{ 7, 47990, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#"};
+		{ 8, 47998, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
+		{ 9, 47997, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
+		{ 10, 47988, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
+		{ 11, 47993, "", "=q4=Carnivorous Band", "=ds=#s13#"};
+		{ 12, 47995, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
+		{ 14, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Next = "TrialoftheCrusaderLordJaraxxus_HHEROIC";
+	};
 
 	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_A25ManHEROIC"] = {
 		{ 1, 46971, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#"};
@@ -3743,6 +3527,44 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 47557, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
 		{ 18, 47558, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_H25ManHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_AHEROIC"] = {
+		{ 1, 47927, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
+		{ 2, 47931, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
+		{ 3, 47929, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
+		{ 4, 47932, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#"};
+		{ 5, 49238, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#"};
+		{ 6, 47933, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#"};
+		{ 7, 47935, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#"};
+		{ 8, 47937, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#"};
+		{ 9, 47930, "", "=q4=Amulet of Binding Elements", "=ds=#s2#"};
+		{ 10, 47939, "", "=q4=Endurance of the Infernal", "=ds=#s2#"};
+		{ 11, 47928, "", "=q4=Firestorm Ring", "=ds=#s13#"};
+		{ 12, 47934, "", "=q4=Planestalker Signet", "=ds=#s13#"};
+		{ 13, 47938, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
+		{ 15, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Prev = "TrialoftheCrusaderNorthrendBeasts_AHEROIC";
+		Next = "TrialoftheCrusaderFactionChampions_AHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_HHEROIC"] = {
+		{ 1, 48000, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
+		{ 2, 48004, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
+		{ 3, 48002, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
+		{ 4, 48005, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#"};
+		{ 5, 49237, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#"};
+		{ 6, 48006, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#"};
+		{ 7, 48008, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#"};
+		{ 8, 48009, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#"};
+		{ 9, 48011, "", "=q4=Fortitude of the Infernal", "=ds=#s2#"};
+		{ 10, 48003, "", "=q4=Pendant of Binding Elements", "=ds=#s2#"};
+		{ 11, 48001, "", "=q4=Firestorm Band", "=ds=#s13#"};
+		{ 12, 48007, "", "=q4=Planestalker Band", "=ds=#s13#"};
+		{ 13, 48010, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
+		{ 15, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Prev = "TrialoftheCrusaderNorthrendBeasts_HHEROIC";
+		Next = "TrialoftheCrusaderFactionChampions_HHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_A25ManHEROIC"] = {
@@ -3791,6 +3613,38 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "TrialoftheCrusaderFactionChampions_H25ManHEROIC";
 	};
 
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_AHEROIC"] = {
+		{ 1, 47940, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
+		{ 2, 47945, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
+		{ 3, 47942, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
+		{ 4, 47943, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
+		{ 5, 47944, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
+		{ 6, 47947, "", "=q4=Binding Light", "=ds=#s14#"};
+		{ 7, 47949, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
+		{ 8, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
+		{ 9, 47948, "", "=q4=Victor's Call", "=ds=#s14#"};
+		{ 10, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
+		{ 12, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Prev = "TrialoftheCrusaderLordJaraxxus_AHEROIC";
+		Next = "TrialoftheCrusaderTwinValkyrs_AHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_HHEROIC"] = {
+		{ 1, 48012, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
+		{ 2, 48017, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
+		{ 3, 48014, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
+		{ 4, 48015, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
+		{ 5, 48016, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 6, 48019, "", "=q4=Binding Stone", "=ds=#s14#"};
+		{ 7, 48021, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
+		{ 8, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
+		{ 9, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
+		{ 10, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
+		{ 12, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Prev = "TrialoftheCrusaderLordJaraxxus_HHEROIC";
+		Next = "TrialoftheCrusaderTwinValkyrs_HHEROIC";
+	};
+
 	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_A25ManHEROIC"] = {
 		{ 1, 47095, "", "=q4=Cloak of Displacement", "=ds=#s4#"};
 		{ 2, 47084, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#"};
@@ -3835,6 +3689,44 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 47558, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_H25ManHEROIC";
 		Next = "TrialoftheCrusaderTwinValkyrs_H25ManHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_AHEROIC"] = {
+		{ 1, 47956, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
+		{ 2, 49234, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
+		{ 3, 47959, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
+		{ 4, 47954, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#"};
+		{ 5, 47961, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#"};
+		{ 6, 47952, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#"};
+		{ 7, 47957, "", "=q4=Darkbane Pendant", "=ds=#s2#"};
+		{ 8, 47955, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#"};
+		{ 9, 47958, "", "=q4=Chalice of Benedictus", "=ds=#s15#"};
+		{ 10, 47953, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#"};
+		{ 11, 47951, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
+		{ 12, 47960, "", "=q4=Enlightenment", "=ds=#w9#"};
+		{ 13, 47950, "", "=q4=The Diplomat", "=ds=#w5#"};
+		{ 15, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Prev = "TrialoftheCrusaderFactionChampions_AHEROIC";
+		Next = "TrialoftheCrusaderAnubarak_AHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_HHEROIC"] = {
+		{ 1, 48028, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
+		{ 2, 49233, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
+		{ 3, 48034, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
+		{ 4, 48026, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#"};
+		{ 5, 48038, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 48024, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#"};
+		{ 7, 48030, "", "=q4=Darkbane Amulet", "=ds=#s2#"};
+		{ 8, 48027, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#"};
+		{ 9, 48032, "", "=q4=Lightbane Focus", "=ds=#s15#"};
+		{ 10, 48025, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#"};
+		{ 11, 48023, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
+		{ 12, 48036, "", "=q4=Illumination", "=ds=#w9#"};
+		{ 13, 48022, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
+		{ 15, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
+		Prev = "TrialoftheCrusaderFactionChampions_HHEROIC";
+		Next = "TrialoftheCrusaderAnubarak_HHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_A25ManHEROIC"] = {
@@ -3883,6 +3775,52 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "TrialoftheCrusaderAnubarak_H25ManHEROIC";
 	};
 
+	AtlasLoot_Data["TrialoftheCrusaderAnubarak_AHEROIC"] = {
+		{ 1, 47974, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
+		{ 2, 47977, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
+		{ 3, 47972, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
+		{ 4, 47965, "", "=q4=Headpiece of the Crypt Lord", "=ds=#s1#, #a3#" };
+		{ 5, 47969, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#" };
+		{ 6, 47964, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#" };
+		{ 7, 47976, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#" };
+		{ 8, 47970, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#" };
+		{ 9, 47967, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#" };
+		{ 10, 47971, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#" };
+		{ 11, 47966, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#" };
+		{ 12, 47962, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#" };
+		{ 13, 47973, "", "=q4=The Grinder", "=ds=#h1#, #w6#" };
+		{ 14, 47979, "", "=q4=Fordragon Blades", "=ds=#w7#" };
+		{ 15, 47968, "", "=q4=Cold Convergence", "=ds=#w9#" };
+		{ 16, 47978, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
+		{ 17, 47963, "", "=q4=Vigilant Ward", "=ds=#w8#" };
+		{ 18, 47975, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
+		Prev = "TrialoftheCrusaderTwinValkyrs_AHEROIC";
+		Next = "TrialoftheCrusaderTribute_AHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderAnubarak_HHEROIC"] = {
+		{ 1, 48051, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
+		{ 2, 48054, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
+		{ 3, 48049, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
+		{ 4, 48042, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#" };
+		{ 5, 48046, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#" };
+		{ 6, 48041, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#" };
+		{ 7, 48047, "", "=q4=Legplates of the Redeemed Blood Knight", "=ds=#s11#, #a4#" };
+		{ 8, 48053, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#" };
+		{ 9, 48044, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#" };
+		{ 10, 48048, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#" };
+		{ 11, 48043, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#" };
+		{ 12, 48039, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#" };
+		{ 13, 48050, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#" };
+		{ 14, 48056, "", "=q4=Anguish", "=ds=#w7#" };
+		{ 15, 48045, "", "=q4=Perdition", "=ds=#w9#" };
+		{ 16, 48055, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
+		{ 17, 48040, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
+		{ 18, 48052, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
+		Prev = "TrialoftheCrusaderTwinValkyrs_HHEROIC";
+		Next = "TrialoftheCrusaderTribute_HHEROIC";
+	};
+
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A25ManHEROIC"] = {
 		{ 1, 47238, "", "=q4=Maiden's Favor", "=ds=#s4#"};
 		{ 2, 47192, "", "=q4=Strength of the Nerub", "=ds=#s4#"};
@@ -3908,7 +3846,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 47557, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
 		{ 24, 47558, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_A25ManHEROIC";
-		Next = "TrialoftheCrusaderTribute_A25Man";
+		Next = "TrialoftheCrusaderTribute_A25ManHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H25ManHEROIC"] = {
@@ -3936,7 +3874,87 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 47557, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
 		{ 24, 47558, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_H25ManHEROIC";
-		Next = "TrialoftheCrusaderTribute_H25Man";
+		Next = "TrialoftheCrusaderTribute_H25ManHEROIC";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderTribute_AHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Mad Skill"]};
+		{ 2, 48712, "", "=q4=The Spinebreaker", "=ds=#h3#, #w13#"};
+		{ 3, 48708, "", "=q4=Spellstorm Blade", "=ds=#h3#, #w10#"};
+		{ 4, 48713, "", "=q4=Lothar's Edge", "=ds=#h2#, #w1#"};
+		{ 5, 48709, "", "=q4=Heartcrusher", "=ds=#h3#, #w6#"};
+		{ 6, 48714, "", "=q4=Honor of the Fallen", "=ds=#h1#, #w6#"};
+		{ 7, 48710, "", "=q4=Paragon's Breadth", "=ds=#w9#"};
+		{ 8, 48711, "", "=q4=Rhok'shalla, the Shadow's Bane", "=ds=#w2#"};
+		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
+		{ 11, 48673, "", "=q4=Cloak of the Silver Covenant", "=ds=#s4#" };
+		{ 12, 48675, "", "=q4=Cloak of the Unmoving Guardian", "=ds=#s4#" };
+		{ 13, 48674, "", "=q4=Cloak of the Victorious Combatant", "=ds=#s4#" };
+		{ 14, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#" };
+		{ 15, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#" };
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
+		Prev = "TrialoftheCrusaderAnubarak_AHEROIC";
+		Next = "TrialoftheCrusaderPatterns_A";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderTribute_HHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Mad Skill"]};
+		{ 2, 48703, "", "=q4=The Facebreaker", "=ds=#h3#, #w13#" };
+		{ 3, 48701, "", "=q4=Spellharvest", "=ds=#h3#, #w10#" };
+		{ 4, 48695, "", "=q4=Mor'kosh, the Bloodreaver", "=ds=#h2#, #w1#" };
+		{ 5, 48693, "", "=q4=Heartsmasher", "=ds=#h3#, #w6#" };
+		{ 6, 48699, "", "=q4=Blood and Glory", "=ds=#h1#, #w6#" };
+		{ 7, 48705, "", "=q4=Attrition", "=ds=#w9#" };
+		{ 8, 48697, "", "=q4=Frenzystrike Longbow", "=ds=#w2#"};
+		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
+		{ 11, 48668, "", "=q4=Cloak of Serrated Blades", "=ds=#s4#" };
+		{ 12, 48669, "", "=q4=Cloak of the Triumphant Combatant", "=ds=#s4#" };
+		{ 13, 48670, "", "=q4=Cloak of the Unflinching Guardian", "=ds=#s4#" };
+		{ 14, 48666, "", "=q4=Drape of the Sunreavers", "=ds=#s4#" };
+		{ 15, 48667, "", "=q4=Shawl of the Devout Crusader", "=ds=#s4#" };
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
+		Prev = "TrialoftheCrusaderAnubarak_HHEROIC";
+		Next = "TrialoftheCrusaderPatterns_H";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderTribute_A25ManHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Skill"]};
+		{ 2, 47517, "", "=q4=Blade of the Unbroken Covenant", "=ds=#h3#, #w10#"};
+		{ 3, 47506, "", "=q4=Silverwing Defender", "=ds=#h1#, #w10#"};
+		{ 4, 47515, "", "=q4=Decimation", "=ds=#h2#, #w10#"};
+		{ 5, 47526, "", "=q4=Remorseless", "=ds=#h1#, #w6#"};
+		{ 6, 47519, "", "=q4=Catastrophe", "=ds=#h2#, #w6#"};
+		{ 7, 47524, "", "=q4=Clemency", "=ds=#w9#"};
+		{ 8, 47521, "", "=q4=BRK-1000", "=ds=#w5#"};
+		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
+		{ 11, 47553, "", "=q4=Bolvar's Devotion", "=ds=#s4#"};
+		{ 12, 47552, "", "=q4=Jaina's Radiance", "=ds=#s4#"};
+		{ 13, 47549, "", "=q4=Magni's Resolution", "=ds=#s4#"};
+		{ 14, 47545, "", "=q4=Vereesa's Dexterity", "=ds=#s4#"};
+		{ 15, 47547, "", "=q4=Varian's Furor", "=ds=#s4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
+		Prev = "TrialoftheCrusaderAnubarak_A25ManHEROIC";
+		Next = "TrialoftheCrusaderPatterns_A";
+	};
+
+	AtlasLoot_Data["TrialoftheCrusaderTribute_H25ManHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Skill"]};
+		{ 2, 47518, "", "=q4=Mortalis", "=ds=#h3#, #w10#"};
+		{ 3, 47513, "", "=q4=Ogrim's Deflector", "=ds=#h1#, #w10#"};
+		{ 4, 47516, "", "=q4=Fleshrender", "=ds=#h2#, #w10#"};
+		{ 5, 47528, "", "=q4=Cudgel of the Damned", "=ds=#h1#, #w6#"};
+		{ 6, 47520, "", "=q4=Grievance", "=ds=#h2#, #w6#"};
+		{ 7, 47525, "", "=q4=Sufferance", "=ds=#w9#"};
+		{ 8, 47523, "", "=q4=Fezzik's Autocannon", "=ds=#w5#"};
+		{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Insanity"]};
+		{ 11, 47551, "", "=q4=Aethas' Intensity", "=ds=#s4#"};
+		{ 12, 47550, "", "=q4=Cairne's Endurance", "=ds=#s4#"};
+		{ 13, 47548, "", "=q4=Garrosh's Rage", "=ds=#s4#"};
+		{ 14, 47554, "", "=q4=Lady Liadrin's Conviction", "=ds=#s4#"};
+		{ 15, 47546, "", "=q4=Sylvanas' Cunning", "=ds=#s4#"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Immortality"]};
+		Prev = "TrialoftheCrusaderAnubarak_H25ManHEROIC";
+		Next = "TrialoftheCrusaderPatterns_H";
 	};
 
 	----------------
