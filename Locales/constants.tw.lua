@@ -140,6 +140,7 @@ if AL then
 	AL["Cooking Daily"] = "烹飪每日任務";
 	AL["Crafted Sets"] = "交易技能套裝";
 	AL["Crafted Epic Weapons"] = "交易技能史詩武器";
+	AL["Dragon's Eye"] = "龍之眼";
 
 	--Sets/Collections Menu
 	AL["Badge of Justice Rewards"] = "正義徽章獎勵";
@@ -276,7 +277,6 @@ if AL then
 
 	--Extra inventory stuff
 	AL["Cloak"] = "披風";
-	AL["Weapons"] = "武器";
 	AL["Sigil"] = "符記"; --Can be added to BabbleInv
 
 	--Alchemy
@@ -404,6 +404,7 @@ if AL then
 	AL["Heirloom"] = "家傳物品";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
+	AL["Alone in the Darkness"] = "闇境孤軍";
     	AL["A Tribute to Skill"] = "獻給技藝精湛";
 	AL["A Tribute to Mad Skill"] = "獻給瘋狂的技藝";
 	AL["A Tribute to Insanity"] = "獻給瘋子";
@@ -457,6 +458,7 @@ if AL then
 	AL["Hyjal Summit Designs"] ="海加爾山設計圖";
 	AL["SP Patterns/Plans"] = "特殊圖樣/卷軸";
 	AL["Ulduar Formula/Patterns/Plans"] = "奧杜亞公式/圖樣/設計圖";
+	AL["Trial of the Crusader Patterns/Plans"] = "十字軍試煉圖樣/設計圖";
 	AL["Legendary Items for Kael'thas Fight"] = "凱爾薩斯·逐日者史詩物品";
 
 	--Pets
