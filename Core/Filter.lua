@@ -146,7 +146,10 @@ function AtlasLoot_HideNoUsableItems()
 					countAll = 16
 				elseif countAll < 16 and xitemNameText and strfind(xitemNameText, AL["Hard Mode"]) then
 					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
-					countAll = 16					
+					countAll = 16
+				elseif i==16 and xitemTexture == "INV_Box_01" then
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
+					countAll = 16
 				else
 					AtlasLoot_Data["FilterList"][countAll] = { countAll, xitemID, xitemTexture, xitemNameText, xitemExtraText}					
 				end

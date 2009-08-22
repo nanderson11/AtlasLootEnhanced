@@ -460,7 +460,7 @@ Iterating through dropdown data tables to search backward for zone name with spe
 ]]
 function AtlasLoot_GetWishListSubheading(dataID)
 	if not AtlasLoot_DewDropDown or not AtlasLoot_DewDropDown_SubTables then return end
-	local zoneID;
+	local zoneID, ret
 	for subKey, subTable in pairs(AtlasLoot_DewDropDown_SubTables) do
 		for _, t in ipairs(subTable) do
 			if t[2] == dataID then
@@ -470,7 +470,14 @@ function AtlasLoot_GetWishListSubheading(dataID)
 		end
 		if zoneID then break end
 	end
-	return RecursiveSearchZoneName(AtlasLoot_DewDropDown, zoneID or dataID);
+	if zoneID then
+		return RecursiveSearchZoneName(AtlasLoot_DewDropDown, zoneID or dataID);
+	else
+		if AtlasLoot_TableNames[dataID] then
+			zoneID = AtlasLoot_TableNames[dataID][1]
+		end
+		return zoneID
+	end
 end
 
 --[[
@@ -488,9 +495,22 @@ function AtlasLoot_CategorizeWishList(wlTable)
 			-- Build subheading table
 			if not subheadings[dataID] then
 				-- Heroic handling
-				if strsub(dataID, strlen(dataID) - 5) == "HEROIC" then
-					subheadings[dataID] = AtlasLoot_GetWishListSubheading(strsub(dataID, 1, strlen(dataID) - 6));
+				local HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
+				local NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
+				if BigraidCheck == "25Man" or HeroicCheck == "25ManHEROIC" then
+					HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
+					NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-11);
+				else
+					HeroicCheck=string.sub(dataID, string.len(dataID)-5, string.len(dataID));
+					NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
+				end
+
+				if HeroicCheck == "HEROIC" then
+					subheadings[dataID] = AtlasLoot_GetWishListSubheading(NonHeroicdataID);
 					if subheadings[dataID] then subheadings[dataID] = subheadings[dataID].." ("..AL["Heroic"]..")" end
+				elseif HeroicCheck == "25ManHEROIC" then
+					subheadings[dataID] = AtlasLoot_GetWishListSubheading(NonHeroicdataID);
+					if subheadings[dataID] then subheadings[dataID] = subheadings[dataID].." ("..AL["25 Man"].."-"..AL["Heroic"]..")" end
 				elseif strsub(dataID, strlen(dataID) - 4) == "25Man" then
 					subheadings[dataID] = AtlasLoot_GetWishListSubheading(strsub(dataID, 1, strlen(dataID) - 5));
 					if subheadings[dataID] then subheadings[dataID] = subheadings[dataID].." ("..AL["25 Man"]..")" end
