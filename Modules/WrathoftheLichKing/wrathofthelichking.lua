@@ -7639,7 +7639,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 45510, "", "=q4=Libram of Discord", "=ds=#s16#, #w16#", "19 #eofconquest#" };
 		{ 20, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#, #w16#", "19 #eofconquest#" };
 		{ 21, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#, #w16#", "19 #eofconquest#" };
-		{ 22, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#, #21#", "19 #eofconquest#" };
+		{ 22, 45144, "", "=q4=Sigil of Deflection", "=ds=#s21#, #w16#", "19 #eofconquest#" };
 		{ 23, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#s21#, #w16#", "19 #eofconquest#" };
 		{ 24, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#, #w15#", "19 #eofconquest#" };
 		{ 25, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#, #w15#", "19 #eofconquest#" };

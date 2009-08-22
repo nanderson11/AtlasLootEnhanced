@@ -116,7 +116,7 @@ function AtlasLoot_HideNoUsableItems()
 			local xitemID = getglobal("AtlasLootItem_"..i).itemID
 			local xspellitemID = getglobal("AtlasLootItem_"..i).spellitemID
 			local xitemTexture = tablebase[itemCount][3]
-			local xitemExtraText = getglobal("AtlasLootItem_"..i.."_Extra"):GetText()
+			local xitemExtraText = AtlasLoot_FixText(tablebase[itemCount][5])
 			local xitemNameText = getglobal("AtlasLootItem_"..i.."_Name"):GetText()
 			
 			if xitemExtraText and xitemExtraText ~= "" then
