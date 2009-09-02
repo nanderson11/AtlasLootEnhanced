@@ -49,6 +49,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Savage Gladiator Weapons [unused]
 ---- Deadly Gladiator Weapons [unused]
 ---- Furious Gladiator Weapons
+---- Relentless Gladiator Weapons
 ---- PvP Jewelcrafting Designs and Gems
 ---- World PvP - Wintergrasp
 ---- World PvP - Grizzly Hills: Venture Bay
@@ -5093,6 +5094,103 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "FuriousGladiatorWeapons2";
 		Back = "LEVEL80PVPREWARDS";
 	};
+    
+        ---------------------------------
+		--- Relentless Gladiator Weapons ---
+		---------------------------------
+
+	AtlasLoot_Data["RelentlessGladiatorWeapons1"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
+		{ 2, 42262, "", "=q4=Relentless Gladiator's Right Ripper", "=ds=#h3#, #w13#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 3, 42267, "", "=q4=Relentless Gladiator's Left Render", "=ds=#h4#, #w13#", "1100 #arena# #reqrating# 1850"};
+		{ 4, 42272, "", "=q4=Relentless Gladiator's Left Ripper", "=ds=#h4#, #w13#", "1100 #arena# #reqrating# 1850"};
+		{ 5, 42348, "", "=q4=Relentless Gladiator's Spellblade", "=ds=#h3#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 6, 42244, "", "=q4=Relentless Gladiator's Shanker", "=ds=#h1#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 7, 42257, "", "=q4=Relentless Gladiator's Mutilator", "=ds=#h4#, #w4#", "1100 #arena# #reqrating# 1850"};
+		{ 8, 42250, "", "=q4=Relentless Gladiator's Shiv", "=ds=#h4#, #w4#", "1100 #arena# #reqrating# 1850"};
+		{ 9, 42287, "", "=q4=Relentless Gladiator's Slicer", "=ds=#h1#, #w10#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 10, 42292, "", "=q4=Relentless Gladiator's Quickblade", "=ds=#h4#, #w10#", "1100 #arena# #reqrating# 1850"};
+		{ 11, 42334, "", "=q4=Relentless Gladiator's Greatsword", "=ds=#h2#, #w10#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 12, 42210, "", "=q4=Relentless Gladiator's Cleaver", "=ds=#h1#, #w1#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 13, 42234, "", "=q4=Relentless Gladiator's Chopper", "=ds=#h4#, #w1#", "1100 #arena# #reqrating# 1850"};
+		{ 14, 42229, "", "=q4=Relentless Gladiator's Hacker", "=ds=#h4#, #w1#", "1100 #arena# #reqrating# 1850"};
+		{ 15, 42319, "", "=q4=Relentless Gladiator's Decapitator", "=ds=#h2#, #w1#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
+		{ 17, 48515, "", "=q4=Relentless Gladiator's Grasp", "=ds=#h3#, #w13#", "3000 #arena# #reqrating# 2200"};
+		{ 18, 48444, "", "=q4=Relentless Gladiator's Left Claw", "=ds=#h4#, #w13#", "1245 #arena# #reqrating# 2200"};
+		{ 19, 48432, "", "=q4=Relentless Gladiator's Left Razor", "=ds=#h4#, #w13#", "1245 #arena# #reqrating# 2200"};
+		{ 20, 48408, "", "=q4=Relentless Gladiator's Mageblade", "=ds=#h3#, #w4#", "3585 #arena# #reqrating# 2200"};
+		{ 21, 48509, "", "=q4=Relentless Gladiator's Spike", "=ds=#h1#, #w4#", "3000 #arena# #reqrating# 2200"};
+		{ 22, 48428, "", "=q4=Relentless Gladiator's Dirk", "=ds=#h4#, #w4#", "1245 #arena# #reqrating# 2200"};
+		{ 23, 48442, "", "=q4=Relentless Gladiator's Eviscerator", "=ds=#h4#, #w4#", "1245 #arena# #reqrating# 2200"};
+		{ 24, 48513, "", "=q4=Relentless Gladiator's Longblade", "=ds=#h1#, #w10#", "3000 #arena# #reqrating# 2200"};
+		{ 25, 48438, "", "=q4=Relentless Gladiator's Swiftblade", "=ds=#h4#, #w10#", "1245 #arena# #reqrating# 2200"};
+		{ 26, 48406, "", "=q4=Relentless Gladiator's Claymore", "=ds=#h2#, #w10#", "4250 #arena# #reqrating# 2200"};
+		{ 27, 48507, "", "=q4=Relentless Gladiator's Handaxe", "=ds=#h1#, #w1#", "3000 #arena# #reqrating# 2200"};
+		{ 28, 48426, "", "=q4=Relentless Gladiator's Dicer", "=ds=#h4#, #w1#", "1245 #arena# #reqrating# 2200"};
+		{ 29, 48440, "", "=q4=Relentless Gladiator's Splitter", "=ds=#h4#, #w1#", "1245 #arena# #reqrating# 2200"};
+		{ 30, 48402, "", "=q4=Relentless Gladiator's Sunderer", "=ds=#h2#, #w1#", "4250 #arena# #reqrating# 2200"};
+		Next = "RelentlessGladiatorWeapons2";
+		Back = "LEVEL80PVPREWARDS";
+	};
+
+	AtlasLoot_Data["RelentlessGladiatorWeapons2"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
+		{ 2, 42354, "", "=q4=Relentless Gladiator's Gavel", "=ds=#h3#, #w6#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 3, 42277, "", "=q4=Relentless Gladiator's Pummeler", "=ds=#h1#, #w6#", "35000 #faction# 1200 #arena# #reqrating# 1850"};
+		{ 4, 42282, "", "=q4=Relentless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "1100 #arena# #reqrating# 1850"};
+		{ 5, 42324, "", "=q4=Relentless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 6, 42329, "", "=q4=Relentless Gladiator's Pike", "=ds=#w7#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 7, 42366, "", "=q4=Relentless Gladiator's Battle Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 8, 42386, "", "=q4=Relentless Gladiator's Energy Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 9, 44424, "", "=q4=Relentless Gladiator's Focus Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 10, 42392, "", "=q4=Relentless Gladiator's Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 11, 44423, "", "=q4=Relentless Gladiator's War Staff", "=ds=#w9#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 12, 42492, "", "=q4=Relentless Gladiator's Longbow", "=ds=#w2#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 13, 42498, "", "=q4=Relentless Gladiator's Heavy Crossbow", "=ds=#w3#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 14, 42487, "", "=q4=Relentless Gladiator's Rifle", "=ds=#w5#", "50000 #faction# 1400 #arena# #reqrating# 1850"};
+		{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
+		{ 17, 48519, "", "=q4=Relentless Gladiator's Salvation", "=ds=#h3#, #w6#", "3585 #arena# #reqrating# 2200"};
+		{ 18, 48511, "", "=q4=Relentless Gladiator's Truncheon", "=ds=#h1#, #w6#", "3000 #arena# #reqrating# 2200"};
+		{ 19, 48435, "", "=q4=Relentless Gladiator's Punisher", "=ds=#h4#, #w6#", "1245 #arena# #reqrating# 2200"};
+		{ 20, 48404, "", "=q4=Relentless Gladiator's Crusher", "=ds=#h2#, #w6#", "4250 #arena# #reqrating# 2200"};
+		{ 21, 48517, "", "=q4=Relentless Gladiator's Halberd", "=ds=#w7#", "4250 #arena# #reqrating# 2200"};
+		{ 22, 48412, "", "=q4=Relentless Gladiator's Acute Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 23, 48414, "", "=q4=Relentless Gladiator's Combat Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 24, 48523, "", "=q4=Relentless Gladiator's Greatstaff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 25, 48521, "", "=q4=Relentless Gladiator's Light Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 26, 48410, "", "=q4=Relentless Gladiator's Skirmish Staff", "=ds=#w9#", "4250 #arena# #reqrating# 2200"};
+		{ 27, 48420, "", "=q4=Relentless Gladiator's Recurve", "=ds=#w2#", "4250 #arena# #reqrating# 2200"};
+		{ 28, 48422, "", "=q4=Relentless Gladiator's Repeater", "=ds=#w3#", "4250 #arena# #reqrating# 2200"};
+		{ 29, 48424, "", "=q4=Relentless Gladiator's Shotgun", "=ds=#w5#", "4250 #arena# #reqrating# 2200"};
+		Prev = "RelentlessGladiatorWeapons1";
+		Next = "RelentlessGladiatorWeapons3";
+		Back = "LEVEL80PVPREWARDS";
+	};
+
+	AtlasLoot_Data["RelentlessGladiatorWeapons3"] = {
+		{ 1, 42566, "", "=q4=Relentless Gladiator's Barrier", "=ds=#w8#", "1950 #arena# #reqrating# 1850"};
+		{ 2, 42572, "", "=q4=Relentless Gladiator's Redoubt", "=ds=#w8#", "1950 #arena# #reqrating# 1850"};
+		{ 3, 42561, "", "=q4=Relentless Gladiator's Shield Wall", "=ds=#w8#", "1950 #arena# #reqrating# 1850"};
+		{ 4, 42483, "", "=q4=Relentless Gladiator's War Edge", "=ds=#w11#", "1150 #arena# #reqrating# 1950"};
+		{ 5, 42515, "", "=q4=Relentless Gladiator's Baton of Light", "=ds=#w12#", "1150 #arena# #reqrating# 1950"};
+		{ 6, 42521, "", "=q4=Relentless Gladiator's Piercing Touch", "=ds=#w12#", "1150 #arena# #reqrating# 1950"};
+		{ 7, 42504, "", "=q4=Relentless Gladiator's Touch of Defeat", "=ds=#w12#", "1150 #arena# #reqrating# 1950"};
+		{ 8, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 9, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 10, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 11, 42591, "", "=q4=Relentless Gladiator's Idol of Resolve", "=ds=#w14#", "1150 #arena# #reqrating# 1950"};
+		{ 12, 42585, "", "=q4=Relentless Gladiator's Idol of Steadfastness", "=ds=#w14#", "1150 #arena# #reqrating# 1950"};
+		{ 13, 42580, "", "=q4=Relentless Gladiator's Idol of Tenacity", "=ds=#w14#", "1150 #arena# #reqrating# 1950"};
+		{ 14, 42854, "", "=q4=Relentless Gladiator's Libram of Fortitude", "=ds=#w16#", "1150 #arena# #reqrating# 1950"};
+		{ 15, 42616, "", "=q4=Relentless Gladiator's Libram of Justice", "=ds=#w16#", "1150 #arena# #reqrating# 1950"};
+		{ 16, 42622, "", "=q4=Relentless Gladiator's Sigil of Strife", "=ds=#w21#", "1150 #arena# #reqrating# 1950"};
+		{ 17, 42609, "", "=q4=Relentless Gladiator's Totem of Indomitability", "=ds=#w15#", "1150 #arena# #reqrating# 1950"};
+		{ 18, 42604, "", "=q4=Relentless Gladiator's Totem of Survival", "=ds=#w15#", "1150 #arena# #reqrating# 1950"};
+		{ 19, 42599, "", "=q4=Relentless Gladiator's Totem of the Third Wind", "=ds=#w15#", "1150 #arena# #reqrating# 1950"};
+		Prev = "RelentlessGladiatorWeapons2";
+		Back = "LEVEL80PVPREWARDS";
+	};
 
 		------------------------------------------
 		--- PvP Jewelcrafting Designs and Gems ---
@@ -5111,12 +5209,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 10, 41560, "", "=q2=Design: Stormy Chalcedony", "=ds=#p12# (350)", "1250 #faction#"};
 		{ 11, 41570, "", "=q2=Design: Tense Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
 		{ 12, 41571, "", "=q2=Design: Turbid Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 16, 36921, "", "=q3=Autumn's Glow", "=ds=#e7#", "10000 #faction#"};
-		{ 17, 36933, "", "=q3=Forest Emerald", "=ds=#e7#", "10000 #faction#"};
-		{ 18, 36930, "", "=q3=Monarch Topaz", "=ds=#e7#", "10000 #faction#"};
-		{ 19, 36918, "", "=q3=Scarlet Ruby", "=ds=#e7#", "10000 #faction#"};
-		{ 20, 36924, "", "=q3=Sky Sapphire", "=ds=#e7#", "10000 #faction#"};
-		{ 21, 36927, "", "=q3=Twilight Opal", "=ds=#e7#", "10000 #faction#"};
+		{ 16, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "10000 #faction#" };
+		{ 17, 36922, "", "=q4=King's Amber", "=ds=#e7#", "10000 #faction#" };
+		{ 18, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "10000 #faction#" };
+		{ 19, 36931, "", "=q4=Ametrine", "=ds=#e7#", "10000 #faction#" };
+		{ 20, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "10000 #faction#" };
+		{ 21, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "10000 #faction#" };
 		Back = "LEVEL80PVPREWARDS";
 	};
 

@@ -69,7 +69,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
 		{ 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Level 80 PvP Sets"], "" };
 		{ 3, "FuriousGladiatorWeapons1", "inv_weapon_halberd_29", "=ds="..AL["Furious Gladiator\'s Weapons"], "" };
-		--{ 4, "PvP80Weapons1", "INV_Sword_86", "=ds="..AL["Savage Gladiator\'s Weapons"], "" };
+		{ 4, "RelentlessGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Relentless Gladiator\'s Weapons"], "" };
 		{ 17, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
 		{ 18, "PvP80Jewelcrafting", "INV_Scroll_06", "=ds="..AL["PvP Jewelcrafting Designs and Gems"], ""};
 		Back = "PVPMENU";

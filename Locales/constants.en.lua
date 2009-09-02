@@ -430,6 +430,7 @@ if AL then
 	AL["Tier 8 Sets"] = true;
 	AL["Tier 9 Sets"] = true;
 	AL["Furious Gladiator Sets"] = true;
+    AL["Relentless Gladiator Sets"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;
@@ -1071,6 +1072,7 @@ if AL then
 	AL["Savage Gladiator\'s Weapons"] = true; --unused
 	AL["Deadly Gladiator\'s Weapons"] = true; --unused
 	AL["Furious Gladiator\'s Weapons"] = true;
+    AL["Relentless Gladiator\'s Weapons"] = true;
 
 	-- Specs
 	AL["Balance"] = true;
