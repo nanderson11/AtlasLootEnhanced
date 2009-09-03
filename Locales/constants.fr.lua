@@ -187,6 +187,9 @@ if AL then
 	AL["PvP Jewelcrafting Designs and Gems"] = "Dessins et Gemmes de Joaillerie JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes/Enchantements/Dessins de Joaillerie JcJ";
 	AL["Level 80 PvP Sets"] = "Sets JcJ Niveau 80";
+	AL["Old Level 80 PvP Sets"] = "Anciens Sets JcJ Niveau 80";
+	AL["Arena Season 7 Sets"] = "Sets Arène Saison 7";
+	AL["PvP Class Items"] = "Objets JcJ de classe";
 
 	-- World Events
 	AL["Abyssal Council"] = "Conseil abyssal";
@@ -428,7 +431,8 @@ if AL then
 	AL["Random"] = "Aléatoire";
 	AL["Tier 8 Sets"] = "Sets T8";
 	AL["Tier 9 Sets"] = "Sets T9";
-	AL["Furious Gladiator Sets"] = "Sets Gladiateur furieux";
+	AL["Furious Gladiator Sets"] = "Sets de Gladiateur furieux";
+	AL["Relentless Gladiator Sets"] = "Sets de Gladiateur implacable";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
@@ -1070,6 +1074,7 @@ if AL then
 	AL["Savage Gladiator\'s Weapons"] = "Armes du Gladiateur sauvage"; --unused
 	AL["Deadly Gladiator\'s Weapons"] = "Armes du Gladiateur fatal"; --unused
 	AL["Furious Gladiator\'s Weapons"] = "Armes du Gladiateur furieux";
+	AL["Relentless Gladiator\'s Weapons"] = "Armes du Gladiateur implacable";
 
 	-- Specs
 	AL["Balance"] = "Equilibre";
