@@ -189,6 +189,9 @@ if AL then
 	AL["PvP Jewelcrafting Designs and Gems"] = "PvP 珠寶加工設計圖";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
 	AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
+    AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";
+    AL["Arena Season 7 Sets"] = "競技場第七季 PvP 套裝";
+    AL["PvP Class Items"] = "PvP 職業物品";
 
 	--World Events
 	AL["Abyssal Council"] = "深淵議會";
@@ -431,6 +434,7 @@ if AL then
 	AL["Tier 8 Sets"] = "T8 套裝";
 	AL["Tier 9 Sets"] = "T9 套裝";
 	AL["Furious Gladiator Sets"] = "狂烈鬥士套裝";
+    AL["Relentless Gladiator Sets"] = "無情鬥士套裝";
 
 	--Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
@@ -1072,6 +1076,7 @@ if AL then
 	AL["Savage Gladiator\'s Weapons"] = "蠻荒鬥士武器";
 	AL["Deadly Gladiator\'s Weapons"] = "致命鬥士武器";
 	AL["Furious Gladiator\'s Weapons"] = "狂烈鬥士武器";
+    AL["Relentless Gladiator\'s Weapons"] = "無情鬥士武器";
 
 	-- Specs
 	AL["Balance"] = "平衡";
@@ -1208,7 +1213,7 @@ if AL then
 	AL["Drohn's Distillery"] = "德羅恩的釀酒廠";
 	AL["T'chali's Voodoo Brewery"] = "提洽里的巫毒釀酒廠";
 	AL["Scarshield Quartermaster"] = "裂盾軍需官";
-	AL["Overmaster Pyron"] = "征服者派隆";
+	AL["Overmaster Pyron"] = "征服者派隆"; --Is in BabbleBoss
 	AL["Father Flame"] = "烈焰之父";
 	AL["Thomas Yance"] = "湯瑪斯·陽斯";
 	AL["Knot Thimblejack"] = "諾特·希姆加克";
@@ -1233,9 +1238,9 @@ if AL then
 	AL["Rajaxx's Captains"] = "拉賈克斯將軍的軍官群";
 	AL["Felsteed"] = "惡魔戰馬";
 	AL["Shattered Hand Executioner"] = "破碎之手劊子手";
-	AL["Commander Stoutbeard"] = "指揮官厚鬚";
-	AL["Bjarngrim"] = "畢亞格林";
-	AL["Loken"] = "洛肯";
+	AL["Commander Stoutbeard"] = "指揮官厚鬚"; --Is in BabbleBoss
+	AL["Bjarngrim"] = "畢亞格林"; --Is in BabbleBoss
+	AL["Loken"] = "洛肯"; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = "時光流逝元龍";
 	AL["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆"; --Is in BabbleBoss
 	AL["Faction Champions"] = "陣營勇士"; -- if you have a better name, use it.
