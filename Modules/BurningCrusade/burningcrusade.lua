@@ -972,7 +972,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "CFRSlaveMennu";
 		Next = "CFRSlaveQuagmirran";
 	};
-	
+
 	AtlasLoot_Data["CFRSlaveQuagmirran"] = {
 		{ 1, 27796, "", "=q3=Mana-Etched Spaulders", "=ds=#s3#, #a1# (D3)", "", "5.24%"};
 		{ 2, 27713, "", "=q3=Pauldrons of Desolation", "=ds=#s3#, #a3# (D3)", "", "10.70%"};
@@ -3117,7 +3117,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["SunOffensive2"] = {
-        { 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r4#", ""};
 		{ 2, 35769, "", "=q4=Design: Forceful Seaspray Emerald", "=ds=#p12# (375)"};
 		{ 3, 35768, "", "=q4=Design: Quick Lionseye", "=ds=#p12# (375)"};
 		{ 4, 35767, "", "=q4=Design: Reckless Pyrestone", "=ds=#p12# (375)"};
@@ -3149,7 +3149,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["SunOffensive3"] = {
-        { 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
+		{ 1, 0, "INV_Misc_Statue_04", "=q6=#r5#", ""};
 		{ 2, 34678, "", "=q4=Shattered Sun Pendant of Acumen", "=ds=#s2#"};
 		{ 3, 34679, "", "=q4=Shattered Sun Pendant of Might", "=ds=#s2#"};
 		{ 4, 34680, "", "=q4=Shattered Sun Pendant of Resolve", "=ds=#s2#"};
@@ -3986,7 +3986,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "PVP70NONSETEPICS";
 	};
 
-
 	AtlasLoot_Data["PvP70NonSet4"] = {
 		{ 1, 35166, "", "=q4=Guardian's Chain Bracers", "=ds=", "11794 #faction# 20 #wsg#"};
 		{ 2, 35151, "", "=q4=Guardian's Chain Girdle", "=ds=", "17850 #faction# 40 #ab#"};
@@ -4019,7 +4018,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--------------------------
 		--- Arena - Armor Sets ---
 		--------------------------
-		
+
 	AtlasLoot_Data["ArenaDruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenas1_1#", "=q1=#m21# #e15#"};
 		{ 2, 28127, "", "=q4=Gladiator's Dragonhide Helm", "=ds=#s1#"};
@@ -4047,7 +4046,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35000, "", "=q4=Brutal Gladiator's Dragonhide Legguards", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaDruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_2#", "=q1=#m21# #e15#"};
 		{ 2, 28137, "", "=q4=Gladiator's Wyrmhide Helm", "=ds=#s1#"};
@@ -4131,7 +4130,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 34993, "", "=q4=Brutal Gladiator's Chain Leggings", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaMage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", "=q1=#m21# #e15#"};
 		{ 2, 25855, "", "=q4=Gladiator's Silk Cowl", "=ds=#s1#"};
@@ -4159,7 +4158,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35100, "", "=q4=Brutal Gladiator's Silk Trousers", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaPaladinProtection"] = {
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#arenas4_1#", "=q1=#m21# #e15#"};
 		{ 2, 27704, "", "=q4=Gladiator's Lamellar Helm", "=ds=#s1#"};
@@ -4187,7 +4186,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35030, "", "=q4=Brutal Gladiator's Lamellar Legguards", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaPaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q1=#m21# #e15#"};
 		{ 2, 27881, "", "=q4=Gladiator's Scaled Helm", "=ds=#s1#"};
@@ -4215,7 +4214,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35091, "", "=q4=Brutal Gladiator's Scaled Legguards", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaPaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q1=#m21# #e15#"};
 		{ 2, 31616, "", "=q4=Gladiator's Ornamented Headcover", "=ds=#s1#"};
@@ -4243,7 +4242,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35062, "", "=q4=Brutal Gladiator's Ornamented Legplates", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaPriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", "=q1=#m21# #e15#"};
 		{ 2, 27708, "", "=q4=Gladiator's Satin Hood", "=ds=#s1#"};
@@ -4271,7 +4270,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35085, "", "=q4=Brutal Gladiator's Satin Leggings", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaPriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", "=q1=#m21# #e15#"};
 		{ 2, 31410, "", "=q4=Gladiator's Mooncloth Hood", "=ds=#s1#"};
@@ -4327,7 +4326,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35034, "", "=q4=Brutal Gladiator's Leather Legguards", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaWarlockDemonology"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_1#", "=q1=#m21# #e15#"};
 		{ 2, 24553, "", "=q4=Gladiator's Dreadweave Hood", "=ds=#s1#"};
@@ -4355,7 +4354,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35005, "", "=q4=Brutal Gladiator's Dreadweave Leggings", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaWarlockDestruction"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_2#", "=q1=#m21# #e15#"};
 		{ 2, 30187, "", "=q4=Gladiator's Felweave Cowl", "=ds=#s1#"};
@@ -4384,7 +4383,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "ARENASET";
 	};
 
-
 	AtlasLoot_Data["ArenaShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", "=q1=#m21# #e15#"};
 		{ 2, 25998, "", "=q4=Gladiator's Linked Helm", "=ds=#s1#"};
@@ -4412,7 +4410,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 35045, "", "=q4=Brutal Gladiator's Linked Leggings", "=ds=", "1875 #arena# #reqrating# 1550", ""};
 		Back = "ARENASET";
 	};
-	
+
 	AtlasLoot_Data["ArenaShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q1=#m21# #e15#"};
 		{ 2, 27471, "", "=q4=Gladiator's Mail Helm", "=ds=#s1#"};
@@ -4777,11 +4775,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "DS3Mail";
 		Back = "DS3SET";
 	};
-	
+
 		----------------------------
 		--- Tier 4/Tier 5/Tier 6 ---
 		----------------------------
-		
+
 	AtlasLoot_Data["T456DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t4s1_1#", "=ec1=#m21#"};
 		{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4806,7 +4804,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34573, "", "=q4=Thunderheart Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456DruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t4s1_2#", "=ec1=#m21#"};
 		{ 2, 29086, "", "=q4=Crown of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4831,7 +4829,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34571, "", "=q4=Thunderheart Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t4s1_3#", "=ec1=#m21#"};
 		{ 2, 29093, "", "=q4=Antlers of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4856,7 +4854,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34572, "", "=q4=Thunderheart Footwraps", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-		
+
 	AtlasLoot_Data["T456Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t4s2#", "=ec1=#m21#"};
 		{ 2, 29081, "", "=q4=Demon Stalker Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4881,7 +4879,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34570, "", "=q4=Gronnstalker's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t4s3#", "=ec1=#m21#"};
 		{ 2, 29076, "", "=q4=Collar of the Aldor", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4931,7 +4929,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34560, "", "=q4=Lightbringer Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t4s4_2#", "=ec1=#m21#"};
 		{ 2, 29073, "", "=q4=Justicar Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4956,7 +4954,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34561, "", "=q4=Lightbringer Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t4s4_3#", "=ec1=#m21#"};
 		{ 2, 29061, "", "=q4=Justicar Diadem", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -4981,7 +4979,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34559, "", "=q4=Lightbringer Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456PriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t4s5_1#", "=ec1=#m21#"};
 		{ 2, 29049, "", "=q4=Light-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5006,7 +5004,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34562, "", "=q4=Boots of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t4s5_2#", "=ec1=#m21#"};
 		{ 2, 29058, "", "=q4=Soul-Collar of the Incarnate", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5031,7 +5029,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34563, "", "=q4=Treads of Absolution", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456Rogue"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#t4s6#", "=ec1=#m21#"};
 		{ 2, 29044, "", "=q4=Netherblade Facemask", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5056,7 +5054,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34575, "", "=q4=Slayer's Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456ShamanEnhancement"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t4s7_1#", "=ec1=#m21#"};
 		{ 2, 29040, "", "=q4=Cyclone Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5081,7 +5079,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34567, "", "=q4=Skyshatter Greaves", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456ShamanRestoration"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t4s7_2#", "=ec1=#m21#"};
 		{ 2, 29028, "", "=q4=Cyclone Headdress", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5106,7 +5104,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34565, "", "=q4=Skyshatter Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456ShamanElemental"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t4s7_3#", "=ec1=#m21#"};
 		{ 2, 29035, "", "=q4=Cyclone Faceguard", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5131,7 +5129,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34566, "", "=q4=Skyshatter Treads", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t4s8#", "=ec1=#m21#"};
 		{ 2, 28963, "", "=q4=Voidheart Crown", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5156,7 +5154,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34564, "", "=q4=Boots of the Malefic", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t4s9_1#", "=ec1=#m21#"};
 		{ 2, 29011, "", "=q4=Warbringer Greathelm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
@@ -5181,7 +5179,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 34568, "", "=q4=Onslaught Boots", "=ds="..BabbleBoss["Felmyst"].." ("..BabbleZone["Sunwell Plateau"]..")"};
 		Back = "T456SET";
 	};
-	
+
 	AtlasLoot_Data["T456WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t4s9_2#", "=ec1=#m21#"};
 		{ 2, 29021, "", "=q4=Warbringer Battle-Helm", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};

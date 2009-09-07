@@ -71,7 +71,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, "PvP80ClassItems1", "Spell_Frost_SummonWaterElemental", "=ds="..AL["PvP Class Items"], "" };
 		{ 4, "RelentlessGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Relentless Gladiator\'s Weapons"], "" };
 		{ 17, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Old Level 80 PvP Sets"], "" };
-        { 18, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
+		{ 18, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
 		{ 19, "PvP80Jewelcrafting", "INV_Scroll_06", "=ds="..AL["PvP Jewelcrafting Designs and Gems"], ""};
 		Back = "PVPMENU";
 	};
@@ -104,8 +104,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, "PvP80Warrior", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
 		Back = "LEVEL80PVPREWARDS";
 	};
-    
-    AtlasLoot_Data["LEVEL80PVPSETS2"] = {
+
+	AtlasLoot_Data["LEVEL80PVPSETS2"] = {
 		{ 2, "PvP80DeathKnight2", "Spell_Deathknight_DeathStrike", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
 		{ 4, "PvP80DruidBalance2", "Spell_Nature_InsectSwarm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 5, "PvP80DruidFeral2", "Ability_Druid_Maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};

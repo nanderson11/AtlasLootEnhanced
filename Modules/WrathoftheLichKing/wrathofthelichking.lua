@@ -4270,7 +4270,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 48674, "", "=q4=Cloak of the Victorious Combatant", "=ds=#s4#" };
 		{ 20, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#" };
 		{ 21, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#" };
-		{ 23, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};		
+		{ 23, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderAnubarak_AHEROIC";
 		Next = "TrialoftheCrusaderPatterns_A";
 	};
@@ -4702,8 +4702,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80DeathKnight2"] = {
+
+	AtlasLoot_Data["PvP80DeathKnight2"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
 		{ 2, 40830, "", "=q4=Relentless Gladiator's Dreadplate Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 40871, "", "=q4=Relentless Gladiator's Dreadplate Shoulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4740,8 +4740,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80DruidBalance2"] = {
+
+	AtlasLoot_Data["PvP80DruidBalance2"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_2#", ""};
 		{ 2, 41328, "", "=q4=Relentless Gladiator's Wyrmhide Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41282, "", "=q4=Relentless Gladiator's Wyrmhide Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4778,8 +4778,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80DruidFeral2"] = {
+
+	AtlasLoot_Data["PvP80DruidFeral2"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#arenas1_1#", ""};
 		{ 2, 41679, "", "=q4=Relentless Gladiator's Dragonhide Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41716, "", "=q4=Relentless Gladiator's Dragonhide Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4816,8 +4816,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80DruidRestoration2"] = {
+
+	AtlasLoot_Data["PvP80DruidRestoration2"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
 		{ 2, 41322, "", "=q4=Relentless Gladiator's Kodohide Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41276, "", "=q4=Relentless Gladiator's Kodohide Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4854,8 +4854,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80Hunter2"] = {
+
+	AtlasLoot_Data["PvP80Hunter2"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
 		{ 2, 41158, "", "=q4=Relentless Gladiator's Chain Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41218, "", "=q4=Relentless Gladiator's Chain Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4892,8 +4892,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80Mage2"] = {
+
+	AtlasLoot_Data["PvP80Mage2"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
 		{ 2, 41947, "", "=q4=Relentless Gladiator's Silk Cowl", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41966, "", "=q4=Relentless Gladiator's Silk Amice", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4930,8 +4930,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80PaladinRetribution2"] = {
+
+	AtlasLoot_Data["PvP80PaladinRetribution2"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
 		{ 2, 40831, "", "=q4=Relentless Gladiator's Scaled Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 40872, "", "=q4=Relentless Gladiator's Scaled Shoulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -4968,8 +4968,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80PaladinHoly2"] = {
+
+	AtlasLoot_Data["PvP80PaladinHoly2"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
 		{ 2, 40934, "", "=q4=Relentless Gladiator's Ornamented Headcover", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 40964, "", "=q4=Relentless Gladiator's Ornamented Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5006,8 +5006,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80PriestShadow2"] = {
+
+	AtlasLoot_Data["PvP80PriestShadow2"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
 		{ 2, 41916, "", "=q4=Relentless Gladiator's Satin Hood", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41935, "", "=q4=Relentless Gladiator's Satin Mantle", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5044,15 +5044,15 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80PriestHoly2"] = {
+
+	AtlasLoot_Data["PvP80PriestHoly2"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
 		{ 2, 41855, "", "=q4=Relentless Gladiator's Mooncloth Hood", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41870, "", "=q4=Relentless Gladiator's Mooncloth Mantle", "=ds=", "1750 #arena# #reqrating# 2000"};
 		{ 4, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
-        Back = "LEVEL80PVPSETS2";
+		Back = "LEVEL80PVPSETS2";
 	};
 
 	AtlasLoot_Data["PvP80Rogue"] = {
@@ -5082,8 +5082,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80Rogue2"] = {
+
+	AtlasLoot_Data["PvP80Rogue2"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
 		{ 2, 41673, "", "=q4=Relentless Gladiator's Leather Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41684, "", "=q4=Relentless Gladiator's Leather Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5120,8 +5120,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80ShamanElemental2"] = {
+
+	AtlasLoot_Data["PvP80ShamanElemental2"] = {
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
 		{ 2, 41020, "", "=q4=Relentless Gladiator's Mail Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41045, "", "=q4=Relentless Gladiator's Mail Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5158,8 +5158,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80ShamanEnhancement2"] = {
+
+	AtlasLoot_Data["PvP80ShamanEnhancement2"] = {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
 		{ 2, 41152, "", "=q4=Relentless Gladiator's Linked Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41212, "", "=q4=Relentless Gladiator's Linked Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5196,8 +5196,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80ShamanRestoration2"] = {
+
+	AtlasLoot_Data["PvP80ShamanRestoration2"] = {
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_3#", ""};
 		{ 2, 41014, "", "=q4=Relentless Gladiator's Ringmail Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 41039, "", "=q4=Relentless Gladiator's Ringmail Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5234,8 +5234,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80Warlock2"] = {
+
+	AtlasLoot_Data["PvP80Warlock2"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_2#", ""};
 		{ 2, 41994, "", "=q4=Relentless Gladiator's Felweave Cowl", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 42012, "", "=q4=Relentless Gladiator's Felweave Amice", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5272,8 +5272,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=", "12000 #faction# 700 #arena# #reqrating# 900 / 75 #eoftriumph#"};
 		Back = "LEVEL80PVPSETS";
 	};
-    
-    AtlasLoot_Data["PvP80Warrior2"] = {
+
+	AtlasLoot_Data["PvP80Warrior2"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
 		{ 2, 40829, "", "=q4=Relentless Gladiator's Plate Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
 		{ 3, 40870, "", "=q4=Relentless Gladiator's Plate Shoulders", "=ds=", "1750 #arena# #reqrating# 2000"};
@@ -5315,8 +5315,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "PvP80NonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
-    
-    AtlasLoot_Data["PvP80NonSet2"] = {
+
+	AtlasLoot_Data["PvP80NonSet2"] = {
 		{ 1, 42071, "", "=q4=Furious Gladiator's Cloak of Ascendancy", "=ds=", "38000 #faction#"};
 		{ 2, 42073, "", "=q4=Furious Gladiator's Cloak of Deliverance", "=ds=", "38000 #faction#"};
 		{ 3, 42069, "", "=q4=Furious Gladiator's Cloak of Dominance", "=ds=", "38000 #faction#"};
@@ -5371,13 +5371,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "PvP80NonSet1";
 		Back = "PVP80NONSETEPICS";
 	};
-    
-        { 25, 42129, "", "=q4=Battlemaster's Accuracy", "=ds=", "49600 #faction#"};
+
+		{ 25, 42129, "", "=q4=Battlemaster's Accuracy", "=ds=", "49600 #faction#"};
 		{ 26, 42130, "", "=q4=Battlemaster's Avidity", "=ds=", "49600 #faction#"};
 		{ 27, 42131, "", "=q4=Battlemaster's Bravery", "=ds=", "49600 #faction#"};
 		{ 28, 42132, "", "=q4=Battlemaster's Conviction", "=ds=", "49600 #faction#"};
 		{ 29, 42128, "", "=q4=Battlemaster's Hostility", "=ds=", "49600 #faction#"};
-    
     ]]
 
 --Cloth
@@ -5388,7 +5387,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 5, 41894, "", "=q4=Relentless Gladiator's Cuffs of Salvation", "=ds=", "39400 #faction# #reqrating# 1200"};
 		{ 6, 41882, "", "=q4=Relentless Gladiator's Cord of Salvation", "=ds=", "62000 #faction# #reqrating# 1250"};
 		{ 7, 41886, "", "=q4=Relentless Gladiator's Treads of Salvation", "=ds=", "62000 #faction# #reqrating# 1300"};
-        { 9, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=", "39400 #faction# #reqrating# 1200"};
+		{ 9, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=", "39400 #faction# #reqrating# 1200"};
 		{ 10, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=", "62000 #faction# #reqrating# 1250"};
 		{ 11, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=", "62000 #faction# #reqrating# 1300"};
 		{ 16, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance", "=ds=", "31600 #faction#"};
@@ -5469,8 +5468,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "PvP80NonSet5";
 		Back = "PVP80NONSETEPICS";
 	};
-
     --[[
+
 		--------------------------------
 		--- Savage Gladiator Weapons ---
 		--------------------------------
@@ -5575,7 +5574,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "LEVEL80PVPREWARDS";
 	};
 
-
 		---------------------------------
 		--- Furious Gladiator Weapons ---
 		---------------------------------
@@ -5673,7 +5671,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "LEVEL80PVPREWARDS";
 	};
     ]]
-        ------------------------------------
+
+		------------------------------------
 		--- Relentless Gladiator Weapons ---
 		------------------------------------
 
@@ -5683,7 +5682,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 42267, "", "=q4=Relentless Gladiator's Left Render", "=ds=#h4#, #w13#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
 		{ 4, 42272, "", "=q4=Relentless Gladiator's Left Ripper", "=ds=#h4#, #w13#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
 		{ 5, 49189, "", "=q4=Relentless Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1800"};
-        { 6, 42348, "", "=q4=Relentless Gladiator's Spellblade", "=ds=#h3#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1800"};
+		{ 6, 42348, "", "=q4=Relentless Gladiator's Spellblade", "=ds=#h3#, #w4#", "35000 #faction# 1200 #arena# #reqrating# 1800"};
 		{ 7, 42244, "", "=q4=Relentless Gladiator's Shanker", "=ds=#h1#, #w4#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
 		{ 8, 42257, "", "=q4=Relentless Gladiator's Mutilator", "=ds=#h4#, #w4#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
 		{ 9, 42250, "", "=q4=Relentless Gladiator's Shiv", "=ds=#h4#, #w4#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
@@ -5713,7 +5712,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["RelentlessGladiatorWeapons2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
-        { 2, 42319, "", "=q4=Relentless Gladiator's Decapitator", "=ds=#h2#, #w1#", "50000 #faction# 1400 #arena# #reqrating# 1800"};
+		{ 2, 42319, "", "=q4=Relentless Gladiator's Decapitator", "=ds=#h2#, #w1#", "50000 #faction# 1400 #arena# #reqrating# 1800"};
 		{ 3, 42354, "", "=q4=Relentless Gladiator's Gavel", "=ds=#h3#, #w6#", "35000 #faction# 1200 #arena# #reqrating# 1800"};
 		{ 4, 42277, "", "=q4=Relentless Gladiator's Pummeler", "=ds=#h1#, #w6#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
 		{ 5, 42282, "", "=q4=Relentless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "15000 #faction# 1100 #arena# #reqrating# 1800"};
@@ -5728,7 +5727,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 14, 42498, "", "=q4=Relentless Gladiator's Heavy Crossbow", "=ds=#w3#", "50000 #faction# 1400 #arena# #reqrating# 1800"};
 		{ 15, 42487, "", "=q4=Relentless Gladiator's Rifle", "=ds=#w5#", "50000 #faction# 1400 #arena# #reqrating# 1800"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
-        { 17, 48402, "", "=q4=Relentless Gladiator's Sunderer", "=ds=#h2#, #w1#", "4250 #arena# #reqrating# 2200"};
+		{ 17, 48402, "", "=q4=Relentless Gladiator's Sunderer", "=ds=#h2#, #w1#", "4250 #arena# #reqrating# 2200"};
 		{ 18, 48519, "", "=q4=Relentless Gladiator's Salvation", "=ds=#h3#, #w6#", "3585 #arena# #reqrating# 2200"};
 		{ 19, 48511, "", "=q4=Relentless Gladiator's Truncheon", "=ds=#h1#, #w6#", "3000 #arena# #reqrating# 2200"};
 		{ 20, 48435, "", "=q4=Relentless Gladiator's Punisher", "=ds=#h4#, #w6#", "1245 #arena# #reqrating# 2200"};
@@ -5756,20 +5755,20 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 42521, "", "=q4=Relentless Gladiator's Piercing Touch", "=ds=#w12#", "1150 #arena# #reqrating# 1800"};
 		{ 7, 42504, "", "=q4=Relentless Gladiator's Touch of Defeat", "=ds=#w12#", "1150 #arena# #reqrating# 1800"};
 		{ 8, 49185, "", "=q4=Relentless Gladiator's Wand of Alacrity", "=ds=#w12#", "1150 #arena# #reqrating# 1800"};
-        { 9, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
-        { 10, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
+		{ 9, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
+		{ 10, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		{ 11, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		{ 12, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
 		Prev = "RelentlessGladiatorWeapons2";
 		Back = "LEVEL80PVPREWARDS";
 	};
-    
-        -----------------------
+
+		-----------------------
 		--- PvP Class Items ---
 		-----------------------
-        
-    AtlasLoot_Data["PvP80ClassItems1"] = {
-        { 2, 42591, "", "=q4=Relentless Gladiator's Idol of Resolve", "=ds=#w14#", "1150 #arena# #reqrating# 1800"};
+
+	AtlasLoot_Data["PvP80ClassItems1"] = {
+		{ 2, 42591, "", "=q4=Relentless Gladiator's Idol of Resolve", "=ds=#w14#", "1150 #arena# #reqrating# 1800"};
 		{ 3, 42585, "", "=q4=Relentless Gladiator's Idol of Steadfastness", "=ds=#w14#", "1150 #arena# #reqrating# 1800"};
 		{ 4, 42580, "", "=q4=Relentless Gladiator's Idol of Tenacity", "=ds=#w14#", "1150 #arena# #reqrating# 1800"};
 		{ 5, 42854, "", "=q4=Relentless Gladiator's Libram of Fortitude", "=ds=#w16#", "1150 #arena# #reqrating# 1800"};
@@ -5778,7 +5777,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 42609, "", "=q4=Relentless Gladiator's Totem of Indomitability", "=ds=#w15#", "1150 #arena# #reqrating# 1800"};
 		{ 9, 42604, "", "=q4=Relentless Gladiator's Totem of Survival", "=ds=#w15#", "1150 #arena# #reqrating# 1800"};
 		{ 10, 42599, "", "=q4=Relentless Gladiator's Totem of the Third Wind", "=ds=#w15#", "1150 #arena# #reqrating# 1800"};
-        { 17, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "6400 #faction# 350 #arena# #reqrating# 700"};
+		{ 17, 42589, "", "=q4=Furious Gladiator's Idol of Resolve", "6400 #faction# 350 #arena# #reqrating# 700"};
 		{ 18, 42584, "", "=q4=Furious Gladiator's Idol of Steadfastness", "6400 #faction# 350 #arena# #reqrating# 700"};
 		{ 19, 42579, "", "=q4=Furious Gladiator's Idol of Tenacity", "6400 #faction# 350 #arena# #reqrating# 700"};
 		{ 20, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "6400 #faction# 350 #arena# #reqrating# 700"};
@@ -5787,12 +5786,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "6400 #faction# 350 #arena# #reqrating# 700"};
 		{ 24, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "6400 #faction# 350 #arena# #reqrating# 700"};
 		{ 25, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "6400 #faction# 350 #arena# #reqrating# 700"};
-        Next = "PvP80ClassItems2";
-        Back = "LEVEL80PVPREWARDS";
+		Next = "PvP80ClassItems2";
+		Back = "LEVEL80PVPREWARDS";
 	};
-    
-    AtlasLoot_Data["PvP80ClassItems2"] = {
-        { 2, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "15300 #faction#"};
+
+	AtlasLoot_Data["PvP80ClassItems2"] = {
+		{ 2, 42588, "", "=q4=Deadly Gladiator's Idol of Resolve", "15300 #faction#"};
 		{ 3, 42583, "", "=q4=Deadly Gladiator's Idol of Steadfastness", "15300 #faction#"};
 		{ 4, 42578, "", "=q4=Deadly Gladiator's Idol of Tenacity", "15300 #faction#"};
 		{ 5, 42852, "", "=q4=Deadly Gladiator's Libram of Fortitude", "15300 #faction#"};
@@ -5801,8 +5800,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 42607, "", "=q4=Deadly Gladiator's Totem of Indomitability", "15300 #faction#"};
 		{ 9, 42602, "", "=q4=Deadly Gladiator's Totem of Survival", "15300 #faction#"};
 		{ 10, 42597, "", "=q4=Deadly Gladiator's Totem of the Third Wind", "15300 #faction#"};
-        Prev = "PvP80ClassItems1";
-        Back = "LEVEL80PVPREWARDS";
+		Prev = "PvP80ClassItems1";
+		Back = "LEVEL80PVPREWARDS";
 	};
 
 		------------------------------------------
