@@ -403,9 +403,9 @@ if AL then
 	AL["Weapons"] = "Armas";
 	AL["Accessories"] = "Accesorios";
 	AL["Alone in the Darkness"] = "Solo en la oscuridad";
-	AL["A Tribute to Skill"] = "Un tributo a la habilidad";
-	AL["A Tribute to Mad Skill"] = "Un tributo a la habilidad loca";
-	AL["A Tribute to Insanity"] = "Un tributo a la locura";
+	AL["A Tribute to Skill (25)"] = "Un tributo a la habilidad";
+	AL["A Tribute to Mad Skill (45)"] = "Un tributo a la habilidad loca";
+	AL["A Tribute to Insanity (50)"] = "Un tributo a la locura";
 	AL["A Tribute to Immortality"] = "Un tributo a la inmortalidad";
 
 	-- Loot Table Names

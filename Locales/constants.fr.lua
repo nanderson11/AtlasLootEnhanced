@@ -406,9 +406,9 @@ if AL then
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
 	AL["Alone in the Darkness"] = "Dans la nuit noire";
-	--AL["A Tribute to Skill"] = true; -- à traduire
-	--AL["A Tribute to Mad Skill"] = true;
-	--AL["A Tribute to Insanity"] = true;
+	--AL["A Tribute to Skill (25)"] = true; -- à traduire
+	--AL["A Tribute to Mad Skill (45)"] = true;
+	--AL["A Tribute to Insanity (50)"] = true;
 	--AL["A Tribute to Immortality"] = true;
 
 	-- Loot Table Names

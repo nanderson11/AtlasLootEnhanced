@@ -407,9 +407,9 @@ if AL then
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
 	AL["Alone in the Darkness"] = true;
-	AL["A Tribute to Skill"] = true;
-	AL["A Tribute to Mad Skill"] = true;
-	AL["A Tribute to Insanity"] = true;
+	AL["A Tribute to Skill (25)"] = true;
+	AL["A Tribute to Mad Skill (45)"] = true;
+	AL["A Tribute to Insanity (50)"] = true;
 	AL["A Tribute to Immortality"] = true;
 
 	-- Loot Table Names
@@ -433,7 +433,7 @@ if AL then
 	AL["Tier 8 Sets"] = true;
 	AL["Tier 9 Sets"] = true;
 	AL["Furious Gladiator Sets"] = true;
-    AL["Relentless Gladiator Sets"] = true;
+	AL["Relentless Gladiator Sets"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;

@@ -1,5 +1,6 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
+local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
@@ -3793,8 +3794,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 12, 47330, "", "=q4=Gauntlets of Bitter Reprisal", "=ds=#s9#, #a4#"};
 		{ 13, 47323, "", "=q4=Girdle of the Forgotten Martyr", "=ds=#s10#, #a4#"};
 		{ 14, 47312, "", "=q4=Greaves of the Saronite Citadel", "=ds=#s12#, #a4#"};
-		{ 15, 47327, "", "=q4=Lurid Manifestation", "=ds=#s13#"};
-		{ 16, 47315, "", "=q4=Band of the Traitor King", "=ds=#s13#"};
+		{ 15, 47315, "", "=q4=Band of the Traitor King", "=ds=#s13#"};
+		{ 16, 47327, "", "=q4=Lurid Manifestation", "=ds=#s13#"};
 		{ 17, 47316, "", "=q4=Reign of the Dead", "=ds=#s14#"};
 		{ 18, 47314, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#"};
 		{ 19, 47322, "", "=q4=Suffering's End", "=ds=#h3#, #w6#"};
@@ -4241,8 +4242,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 12, 47492, "", "=q4=Gauntlets of Bitter Reprisal", "=ds=#s9#, #a4#"};
 		{ 13, 47484, "", "=q4=Girdle of the Forgotten Martyr", "=ds=#s10#, #a4#"};
 		{ 14, 47473, "", "=q4=Greaves of the Saronite Citadel", "=ds=#s12#, #a4#"};
-		{ 15, 47489, "", "=q4=Lurid Manifestation", "=ds=#s13#"};
-		{ 16, 47476, "", "=q4=Band of the Traitor King", "=ds=#s13#"};
+		{ 15, 47476, "", "=q4=Band of the Traitor King", "=ds=#s13#"};
+		{ 16, 47489, "", "=q4=Lurid Manifestation", "=ds=#s13#"};
 		{ 17, 47477, "", "=q4=Reign of the Dead", "=ds=#s14#"};
 		{ 18, 47475, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#"};
 		{ 19, 47483, "", "=q4=Suffering's End", "=ds=#h3#, #w6#"};

@@ -408,9 +408,9 @@ if AL then
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Alone in the Darkness"] = "闇境孤軍";
-    	AL["A Tribute to Skill"] = "獻給技藝精湛";
-	AL["A Tribute to Mad Skill"] = "獻給瘋狂的技藝";
-	AL["A Tribute to Insanity"] = "獻給瘋子";
+    	AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
+	AL["A Tribute to Mad Skill (45)"] = "獻給瘋狂的技藝";
+	AL["A Tribute to Insanity (50)"] = "獻給瘋子";
 	AL["A Tribute to Immortality"] = "獻給不朽";
 
 	--Loot Table Names

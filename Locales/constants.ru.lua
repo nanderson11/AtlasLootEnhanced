@@ -404,9 +404,9 @@ if AL then
 	AL["Weapons"] = "Орежия";
 	AL["Accessories"] = "Аксессуары";
 	AL["Alone in the Darkness"] = "Один во мраке";
-	AL["A Tribute to Skill"] = "Дань умению";
-	AL["A Tribute to Mad Skill"] = "Дань искусству";
-	AL["A Tribute to Insanity"] = "Дань безумству";
+	AL["A Tribute to Skill (25)"] = "Дань умению";
+	AL["A Tribute to Mad Skill (45)"] = "Дань искусству";
+	AL["A Tribute to Insanity (50)"] = "Дань безумству";
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
 	
 	-- Loot Table Names
