@@ -7415,16 +7415,17 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		---------------
 
 	AtlasLoot_Data["Tabards3"] = {
-		{ 1, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds=#m32#"};
-		{ 2, 43349, "", "=q4=Tabard of Brute Force", "=ds=#m32#"};
-		{ 3, 40643, "", "=q4=Tabard of the Achiever", "=ds=#m32#"};
-		{ 4, 43348, "", "=q4=Tabard of the Explorer", "=ds=#m32#"};
-		{ 5, 43300, "", "=q4=Loremaster's Colors", "=ds=#m32#"};
-		{ 6, 49052, "", "=q3=Tabard of Conquest", "=ds=#m32# =ec1=#m7#"};
-		{ 7, 49054, "", "=q3=Tabard of Conquest", "=ds=#m32# =ec1=#m6#"};
-		{ 9, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
-		{ 10, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7# =ec1=#m7#"};
-		{ 11, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7# =ec1=#m6#"};
+		{ 1, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds=#m32#"};
+		{ 2, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds=#m32#"};
+		{ 3, 43349, "", "=q4=Tabard of Brute Force", "=ds=#m32#"};
+		{ 4, 40643, "", "=q4=Tabard of the Achiever", "=ds=#m32#"};
+		{ 5, 43348, "", "=q4=Tabard of the Explorer", "=ds=#m32#"};
+		{ 6, 43300, "", "=q4=Loremaster's Colors", "=ds=#m32#"};
+		{ 7, 49052, "", "=q3=Tabard of Conquest", "=ds=#m32# =ec1=#m7#"};
+		{ 8, 49054, "", "=q3=Tabard of Conquest", "=ds=#m32# =ec1=#m6#"};
+		{ 10, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
+		{ 11, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7# =ec1=#m7#"};
+		{ 12, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7# =ec1=#m6#"};
 		{ 16, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
 		{ 17, 43157, "", "=q1=Tabard of the Kirin Tor", "=ds=#s7#"};
 		{ 18, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
