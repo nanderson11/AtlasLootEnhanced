@@ -943,7 +943,6 @@ AtlasLoot_TableNames = {};
   -- Emblem of Conquest Rewards
 	AtlasLoot_TableNames["EmblemofConquest1"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofConquest2"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["EmblemofConquest3"] = { AL["Emblem of Conquest Rewards"], "AtlasLootWotLK" };
   -- Emblem of Triumph Rewards
 	AtlasLoot_TableNames["EmblemofTriumph1"] = { AL["Emblem of Triumph Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofTriumph2"] = { AL["Emblem of Triumph Rewards"], "AtlasLootWotLK" };
@@ -1565,6 +1564,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["70TOKENMENU"] = { AL["Badge of Justice Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFHEROISMMENU"] = { AL["Emblem of Heroism Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFVALORMENU"] = { AL["Emblem of Valor Rewards"], "Menu" };
+	AtlasLoot_TableNames["EMBLEMOFTRIUMPHMENU"] = { AL["Emblem of Valor Rewards"], "Menu" };
 	AtlasLoot_TableNames["WORLDEPICS"] = { AL["BoE World Epics"], "Menu" };
 	AtlasLoot_TableNames["WORLDEVENTMENU"] = { AL["World Events"], "Menu" };
 	AtlasLoot_TableNames["ABYSSALMENU"] = { AL["Abyssal Council"], "Menu" };

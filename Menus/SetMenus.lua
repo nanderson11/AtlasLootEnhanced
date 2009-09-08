@@ -4,10 +4,10 @@ local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["SETMENU"] = {
-		{ 2, "EmblemofTriumph1", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 2, "EMBLEMOFTRIUMPHMENU", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 3, "EmblemofConquest1", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 4, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 5, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 4, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 5, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 6, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], "=q5="..AL["Burning Crusade"]};
 		{ 7, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 		{ 8, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
@@ -45,24 +45,23 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["EMBLEMOFHEROISMMENU"] = {
-		{ 2, "EmblemofHeroismCloth", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Cloth"], ""};
-		{ 3, "EmblemofHeroismMail", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Mail"], ""};
-		{ 5, "EmblemofHeroismWeapons", "Spell_Holy_ProclaimChampion", "=ds="..AL["Weapons"], ""};
-		{ 6, "EmblemofHeroismTokens", "Spell_Holy_ProclaimChampion", "=ds="..AL["Tokens"], ""};
-		{ 17, "EmblemofHeroismLeather", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Leather"], ""};
-		{ 18, "EmblemofHeroismPlate", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Plate"], ""};
-		{ 20, "EmblemofHeroismAccessories", "Spell_Holy_ProclaimChampion", "=ds="..AL["Accessories"], ""};
+		{ 2, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], ""};
+		{ 3, "EmblemofHeroism3", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Miscellaneous"], ""};
+		{ 17, "EmblemofHeroism2", "Spell_Holy_ProclaimChampion", "=ds="..AL["Accessories"], ""};
+		{ 18, "EmblemofHeroism4", "Spell_Holy_ProclaimChampion", "=ds="..AL["Heirloom"], ""};
 		Back = "SETMENU";
 	};
 
 	AtlasLoot_Data["EMBLEMOFVALORMENU"] = {
-		{ 2, "EmblemofValorCloth", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Cloth"], ""};
-		{ 3, "EmblemofValorMail", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Mail"], ""};
-		{ 4, "EmblemofValorCloak", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Back"], ""};
-		{ 6, "EmblemofValorTokens", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Tokens"], ""};
-		{ 17, "EmblemofValorLeather", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Leather"], ""};
-		{ 18, "EmblemofValorPlate", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Plate"], ""};
-		{ 21, "EmblemofValorAccessories", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Accessories"], ""};
+		{ 2, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Armor"], ""};
+		{ 17, "EmblemofValor2", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Accessories"], ""};
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["EMBLEMOFTRIUMPHMENU"] = {
+		{ 2, "EmblemofTriumph1", "spell_holy_summonchampion", "=ds="..BabbleInventory["Cloth"].." & "..BabbleInventory["Leather"], ""};
+		{ 3, "EmblemofTriumph3", "spell_holy_summonchampion", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
+		{ 17, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..BabbleInventory["Mail"].." & "..BabbleInventory["Plate"], ""};
 		Back = "SETMENU";
 	};
 

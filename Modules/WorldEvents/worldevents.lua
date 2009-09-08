@@ -165,7 +165,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "40 #champseal#"};
 		{ 24, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
 		{ 26, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-		{ 27, 38544, "", "=q1=Argent Crusade Banner", "=ds=#e14#", "15 #champseal#"};
+		{ 27, 46843, "", "=q1=Argent Crusade Banner", "=ds=#e14#", "15 #champseal#"};
 		{ 28, 46874, "", "=q2=Argent Crusader's Tabard", "=ds=#s7#", "50 #champseal#"};
 		{ 29, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
 		Prev = "ArgentTournament4";
