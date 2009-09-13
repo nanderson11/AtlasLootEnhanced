@@ -3727,7 +3727,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 47812, "", "=q4=Vigilant Ward", "=ds=#w8#" };
 		{ 18, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
 		Prev = "TrialoftheCrusaderTwinValkyrs_A";
-		Next = "TrialoftheCrusaderPatterns_A";
+		Next = "TrialoftheCrusaderTribute_AHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H"] = {
@@ -3750,7 +3750,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 47895, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
 		{ 18, 47907, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
 		Prev = "TrialoftheCrusaderTwinValkyrs_H";
-		Next = "TrialoftheCrusaderPatterns_H";
+		Next = "TrialoftheCrusaderTribute_HHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A25Man"] = {
@@ -3776,7 +3776,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 47233, "", "=q4=Archon Glaive", "=ds=#w7#"};
 		{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_A25Man";
-		Next = "TrialoftheCrusaderPatterns_A";
+		Next = "TrialoftheCrusaderTribute_AHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H25Man"] = {
@@ -3802,7 +3802,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 47329, "", "=q4=Hellion Glaive", "=ds=#w7#"};
 		{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_H25Man";
-		Next = "TrialoftheCrusaderPatterns_H";
+		Next = "TrialoftheCrusaderTribute_HHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_A"] = {
