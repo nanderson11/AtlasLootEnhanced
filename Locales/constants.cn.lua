@@ -877,7 +877,7 @@ if AL then
 	AL["PvP Accessories - Alliance (Level 60)"] = "PvP奖励杂物 - 联盟 (等级 60)";
 	AL["PvP Accessories - Horde (Level 60)"] = "PvP奖励杂物 - 部落 (等级 60)";
 	AL["PvP Accessories (Level 70)"] = "PvP奖励杂物 (等级 70)";
-	AL["PvP Jewelcrafting Designs and Gems"] = "PvP珠宝设计图";
+	AL["PvP Misc"] = "PvP珠宝设计图";
 	AL["PvP Rewards"] = "PvP奖励";
 	AL["PvP Armor Sets"] = "PvP奖励套装";
 	AL["PvP Weapons"] = "PvP奖励武器";

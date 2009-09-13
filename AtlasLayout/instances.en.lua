@@ -273,6 +273,7 @@ AtlasLootNewBossButtons = {
         "";
         "VoAArchavon1";
         "Emalon";
+        "";
         };
 
     VioletHold = {

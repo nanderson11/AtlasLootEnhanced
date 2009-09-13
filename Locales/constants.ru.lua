@@ -185,7 +185,7 @@ if AL then
     AL["PvP Non-Set Epics"] = "PvP Превосходные не из комплектов";
     AL["PvP Reputation Sets"] = "PvP комплекты за репутацию";
     AL["Arena PvP Weapons"] = "PvP Оружие с арены";
-    AL["PvP Jewelcrafting Designs and Gems"] = "PvP ювелирные эскизы";
+    AL["PvP Misc"] = "PvP ювелирные эскизы";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
 

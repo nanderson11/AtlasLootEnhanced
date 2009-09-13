@@ -72,7 +72,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 4, "RelentlessGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Relentless Gladiator\'s Weapons"], "" };
 		{ 17, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Old Level 80 PvP Sets"], "" };
 		{ 18, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
-		{ 19, "PvP80Jewelcrafting", "INV_Scroll_06", "=ds="..AL["PvP Jewelcrafting Designs and Gems"], ""};
+		{ 19, "PvP80Misc", "INV_Scroll_06", "=ds="..AL["PvP Misc"], ""};
 		Back = "PVPMENU";
 	};
 

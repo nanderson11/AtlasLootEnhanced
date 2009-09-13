@@ -186,7 +186,7 @@ if AL then
 	AL["PvP Non-Set Epics"] = "PvP 非套裝史詩物品";
 	AL["PvP Reputation Sets"] = "PvP 聲望套裝";
 	AL["Arena PvP Weapons"] = "競技場 PvP 武器";
-	AL["PvP Jewelcrafting Designs and Gems"] = "PvP 珠寶加工設計圖";
+	AL["PvP Misc"] = "PvP 珠寶加工設計圖";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
 	AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
     AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";

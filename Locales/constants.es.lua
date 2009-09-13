@@ -183,7 +183,7 @@ if AL then
 	AL["PvP Non-Set Epics"] = "Épicos JcJ No-Conjuntos";
 	AL["PvP Reputation Sets"] = "Conjuntos JcJ por reputación"
 	AL["Arena PvP Weapons"] = "Armas de Arenas JcJ";
-	AL["PvP Jewelcrafting Designs and Gems"] = "Diseños Joyería JcJ";
+	AL["PvP Misc"] = "Diseños Joyería JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Diseños Gemas/Encantamientos/Joyería JcJ";
 	AL["Level 80 PvP Sets"] = "Conjuntos Nivel 80 JcJ";
 

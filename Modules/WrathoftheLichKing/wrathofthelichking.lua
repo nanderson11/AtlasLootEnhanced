@@ -52,7 +52,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Furious Gladiator Weapons [unused]
 ---- Relentless Gladiator Weapons
 ---- PvP Class Items
----- PvP Jewelcrafting Designs and Gems
+---- PvP Miscellaneous
 ---- World PvP - Wintergrasp
 ---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
@@ -3418,7 +3418,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 47615, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
 		{ 9, 47614, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
 		{ 10, 47607, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
-		{ 11, 47854, "", "=q4=Gormok's Band", "=ds=#s13#"};
+		{ 11, 47578, "", "=q4=Carnivorous Band", "=ds=#s13#"};
 		{ 12, 47612, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_A";
 	};
@@ -3434,7 +3434,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 47859, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
 		{ 9, 47858, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
 		{ 10, 47849, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
-		{ 11, 47578, "", "=q4=Carnivorous Band", "=ds=#s13#"};
+		{ 11, 47854, "", "=q4=Gormok's Band", "=ds=#s13#"};
 		{ 12, 47856, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_H";
 	};
@@ -5810,29 +5810,32 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "LEVEL80PVPREWARDS";
 	};
 
-		------------------------------------------
-		--- PvP Jewelcrafting Designs and Gems ---
-		------------------------------------------
+		-------------------------
+		--- PvP Miscellaneous ---
+		-------------------------
 
-	AtlasLoot_Data["PvP80Jewelcrafting"] = {
-		{ 1, 41563, "", "=q2=Design: Durable Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 2, 41564, "", "=q2=Design: Empowered Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 3, 41565, "", "=q2=Design: Lucent Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 4, 41575, "", "=q2=Design: Mysterious Shadow Crystal", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 5, 41559, "", "=q2=Design: Mystic Sun Crystal", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 6, 41573, "", "=q2=Design: Opaque Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 7, 41566, "", "=q2=Design: Resplendent Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 8, 41569, "", "=q2=Design: Shattered Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 9, 41572, "", "=q2=Design: Steady Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 10, 41560, "", "=q2=Design: Stormy Chalcedony", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 11, 41570, "", "=q2=Design: Tense Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 12, 41571, "", "=q2=Design: Turbid Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		{ 16, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "10000 #faction#" };
-		{ 17, 36922, "", "=q4=King's Amber", "=ds=#e7#", "10000 #faction#" };
-		{ 18, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "10000 #faction#" };
-		{ 19, 36931, "", "=q4=Ametrine", "=ds=#e7#", "10000 #faction#" };
-		{ 20, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "10000 #faction#" };
-		{ 21, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "10000 #faction#" };
+	AtlasLoot_Data["PvP80Misc"] = {
+		{ 1, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds=#s7#", "500 #arena# #reqrating# 2350" };
+		{ 2, 44957, "", "=q4=Greater Inscription of the Gladiator", "=ds=#s3# #e17#", "10000 #faction#" };
+		{ 3, 45706, "", "=q4=Commendation of Bravery", "=ds=", "100 #arena#" };
+		{ 5, 36931, "", "=q4=Ametrine", "=ds=#e7#", "10000 #faction#" };
+		{ 6, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "10000 #faction#" };
+		{ 7, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "10000 #faction#" };
+		{ 8, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "10000 #faction#" };
+		{ 9, 36922, "", "=q4=King's Amber", "=ds=#e7#", "10000 #faction#" };
+		{ 10, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "10000 #faction#" };
+		{ 16, 41563, "", "=q2=Design: Durable Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 17, 41564, "", "=q2=Design: Empowered Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 18, 41565, "", "=q2=Design: Lucent Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 19, 41575, "", "=q2=Design: Mysterious Shadow Crystal", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 20, 41559, "", "=q2=Design: Mystic Sun Crystal", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 21, 41573, "", "=q2=Design: Opaque Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 22, 41566, "", "=q2=Design: Resplendent Huge Citrine", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 23, 41569, "", "=q2=Design: Shattered Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 24, 41572, "", "=q2=Design: Steady Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 25, 41560, "", "=q2=Design: Stormy Chalcedony", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 26, 41570, "", "=q2=Design: Tense Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
+		{ 27, 41571, "", "=q2=Design: Turbid Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
 		Back = "LEVEL80PVPREWARDS";
 	};
 

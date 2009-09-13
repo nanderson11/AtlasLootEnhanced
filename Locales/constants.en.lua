@@ -185,7 +185,7 @@ if AL then
 	AL["PvP Non-Set Epics"] = true;
 	AL["PvP Reputation Sets"] = true;
 	AL["Arena PvP Weapons"] = true;
-	AL["PvP Jewelcrafting Designs and Gems"] = true;
+	AL["PvP Misc"] = true;
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
 	AL["Level 80 PvP Sets"] = true;
 	AL["Old Level 80 PvP Sets"] = true;
