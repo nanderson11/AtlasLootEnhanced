@@ -135,8 +135,9 @@ if AL then
 
 	-- Crafting Menu
 	AL["Crafting Daily Quests"] = true;
-	AL["Jewelcrafting Daily"] = true;
 	AL["Cooking Daily"] = true;
+	AL["Fishing Daily"] = true;
+	AL["Jewelcrafting Daily"] = true;
 	AL["Crafted Sets"] = true;
 	AL["Crafted Epic Weapons"] = true;
 	AL["Dragon's Eye"] = true;
@@ -276,6 +277,7 @@ if AL then
 	AL["Fish"] = true;
 	AL["Combat Pet"] = true;
 	AL["Fireworks"] = true;
+	AL["Fishing Lure"] = true;
 
 	-- Extra inventory stuff
 	AL["Cloak"] = true;

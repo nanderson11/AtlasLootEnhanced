@@ -5,29 +5,34 @@ is in the search function, as when iterating through the loot tables there is no
 inherant title to the loot table, given the origins of the mod as an Atlas plugin.
 ]]
 
---Invoke libraries
-local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
-local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
-local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
-local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
+-- Invoke libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
+local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
+local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
+local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 -- Using alchemy skill to get localized rank
-local ALCHEMY, APPRENTICE = GetSpellInfo(2259);
 local JOURNEYMAN = select(2, GetSpellInfo(3101));
 local EXPERT = select(2, GetSpellInfo(3464));
 local ARTISAN = select(2, GetSpellInfo(11611));
 local MASTER = select(2, GetSpellInfo(28596));
+
+local ALCHEMY, APPRENTICE = GetSpellInfo(2259);
 local BLACKSMITHING = GetSpellInfo(2018);
 local ARMORSMITH = GetSpellInfo(9788);
 local WEAPONSMITH = GetSpellInfo(9787);
 local AXESMITH = GetSpellInfo(17041);
 local HAMMERSMITH = GetSpellInfo(17040);
 local SWORDSMITH = GetSpellInfo(17039);
+local COOKING = GetSpellInfo(2550);
 local ENCHANTING = GetSpellInfo(7411);
 local ENGINEERING = GetSpellInfo(4036);
 local GNOMISH = GetSpellInfo(20220);
 local GOBLIN = GetSpellInfo(20221);
+local FIRSTAID = GetSpellInfo(3273);
+local FISHING = GetSpellInfo(63275);
+local INSCRIPTION = GetSpellInfo(45357);
 local JEWELCRAFTING = GetSpellInfo(25229);
 local LEATHERWORKING = GetSpellInfo(2108);
 local DRAGONSCALE = GetSpellInfo(10656);
@@ -38,11 +43,8 @@ local TAILORING = GetSpellInfo(3908);
 local MOONCLOTH = GetSpellInfo(26798);
 local SHADOWEAVE = GetSpellInfo(26801);
 local SPELLFIRE = GetSpellInfo(26797);
-local COOKING = GetSpellInfo(2550);
-local FIRSTAID = GetSpellInfo(3273);
-local INSCRIPTION = GetSpellInfo(45357);
 
---Table of loot titles
+-- Table of loot titles
 AtlasLoot_TableNames = {};
 
 -----------------------
@@ -1434,13 +1436,16 @@ AtlasLoot_TableNames = {};
   -- First Aid
 	AtlasLoot_TableNames["FirstAid1"] = { FIRSTAID, "AtlasLootCrafting" };
   -- Daily
+	AtlasLoot_TableNames["CookingDaily1"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["CookingDaily2"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["FishingDaily1"] = { AL["Fishing Daily"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["FishingDaily2"] = { AL["Fishing Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily2"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily3"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily4"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily5"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["JewelcraftingDaily6"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingDaily"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
 
 -----------
 --- PvP ---
@@ -1581,6 +1586,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["JEWELCRAFTINGMENU"] = { JEWELCRAFTING, "Menu" };
 	AtlasLoot_TableNames["LEATHERWORKINGMENU"] = { LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["TAILORINGMENU"] = { TAILORING, "Menu" };
+	AtlasLoot_TableNames["COOKINGDAILYMENU"] = { COOKING, "Menu" };
+	AtlasLoot_TableNames["FISHINGDAILYMENU"] = { FISHING, "Menu" };
 	AtlasLoot_TableNames["WishList"] = { AL["Wishlist"], "AtlasLootCharDB" };
 	AtlasLoot_TableNames["SearchResult"] = { AL["Wishlist"], "AtlasLootCharDB" };
   -- If all else fails!

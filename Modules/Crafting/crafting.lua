@@ -56,6 +56,8 @@ local MASTER = select(2, GetSpellInfo(28596));
 --- Other
 ---- Crafted Epic Weapons
 --- Daily Profession Rewards
+---- Cooking
+---- Fishing
 ---- Jewelcrafting
 
 	-----------------------
@@ -5071,6 +5073,107 @@ local MASTER = select(2, GetSpellInfo(28596));
 	--- Daily Profession Rewards ---
 	--------------------------------
 
+		---------------
+		--- Cooking ---
+		---------------
+
+	AtlasLoot_Data["CookingDaily1"] = {
+		{ 1, 33925, "", "=q3=Recipe: Delicious Chocolate Cake", "=ds=#p3# (1)", "", ""};
+		{ 2, 33871, "", "=q3=Recipe: Stormchops", "=ds=#p3# (300)", "", ""};
+		{ 3, 33869, "", "=q3=Recipe: Broiled Bloodfin", "=ds=#p3# (300)", "", ""};
+		{ 4, 33875, "", "=q2=Recipe: Kibler's Bits", "=ds=#p3# (300)", "", ""};
+		{ 5, 33870, "", "=q2=Recipe: Skullfish Soup", "=ds=#p3# (325)", "", ""};
+		{ 6, 33873, "", "=q2=Recipe: Spicy Hot Talbuk", "=ds=#p3# (300)", "", ""};
+		Next = "CookingDaily2";
+		Back = "COOKINGDAILYMENU";
+	};
+
+	AtlasLoot_Data["CookingDaily2"] = {
+		{ 1, 43035, "", "=q2=Recipe: Blackened Dragonfin", "=ds=#p3# (400)"};
+		{ 2, 43032, "", "=q2=Recipe: Blackened Worg Steak", "=ds=#p3# (400)"};
+		{ 3, 43029, "", "=q2=Recipe: Critter Bites", "=ds=#p3# (400)"};
+		{ 4, 43033, "", "=q2=Recipe: Cuttlesteak", "=ds=#p3# (400)"};
+		{ 5, 43036, "", "=q2=Recipe: Dragonfin Filet", "=ds=#p3# (400)"};
+		{ 6, 43024, "", "=q2=Recipe: Firecracker Salmon", "=ds=#p3# (400)"};
+		{ 7, 43030, "", "=q2=Recipe: Hearty Rhino", "=ds=#p3# (400)"};
+		{ 8, 43026, "", "=q2=Recipe: Imperial Manta Steak", "=ds=#p3# (400)"};
+		{ 9, 43018, "", "=q2=Recipe: Mega Mammoth Meal", "=ds=#p3# (400)"};
+		{ 10, 43022, "", "=q2=Recipe: Mighty Rhino Dogs", "=ds=#p3# (400)"};
+		{ 11, 43023, "", "=q2=Recipe: Poached Northern Sculpin", "=ds=#p3# (400)"};
+		{ 12, 43028, "", "=q2=Recipe: Rhinolicious Wyrmsteak", "=ds=#p3# (400)"};
+		{ 13, 43031, "", "=q2=Recipe: Snapper Extreme", "=ds=#p3# (400)"};
+		{ 14, 43034, "", "=q2=Recipe: Spiced Mammoth Treats", "=ds=#p3# (400)"};
+		{ 15, 43020, "", "=q2=Recipe: Spiced Wyrm Burger", "=ds=#p3# (400)"};
+		{ 16, 43025, "", "=q2=Recipe: Spicy Blue Nettlefish", "=ds=#p3# (400)"};
+		{ 17, 43027, "", "=q2=Recipe: Spicy Fried Herring", "=ds=#p3# (400)"};
+		{ 18, 43019, "", "=q2=Recipe: Tender Shoveltusk Steak", "=ds=#p3# (400)"};
+		{ 19, 43037, "", "=q2=Recipe: Tracker Snacks", "=ds=#p3# (400)"};
+		{ 20, 43021, "", "=q2=Recipe: Very Burnt Worg", "=ds=#p3# (400)"};
+		{ 22, 46349, "", "=q3=Chef's Hat", "=ds=#s1#"};
+		{ 23, 43007, "", "=q1=Northern Spices", "=ds=#e8#"};
+		{ 25, 0, "inv_misc_bag_11", "=q6=Small Spice Bag", ""};
+		{ 26, 33925, "", "=q3=Recipe: Delicious Chocolate Cake", "=ds=#p3# (1)", "", ""};
+		{ 27, 33871, "", "=q3=Recipe: Stormchops", "=ds=#p3# (300)", "", ""};
+		{ 28, 44228, "", "=q1=Baby Spice", "=ds=", "", ""};
+		{ 29, 44114, "", "=q1=Old Spices", "=ds=", "", ""};
+		Prev = "CookingDaily1";
+		Back = "COOKINGDAILYMENU";
+	};
+
+		---------------
+		--- Fishing ---
+		---------------
+
+	AtlasLoot_Data["FishingDaily1"] = {
+		{ 1, 34837, "", "=q4=The 2 Ring", "=ds=#s13#", "", ""};
+		{ 2, 33820, "", "=q3=Weather-Beaten Fishing Hat", "=ds=#s1#, #a1#", "", ""};
+		{ 3, 35350, "", "=q3=Chuck's Bucket", "=ds=#e13#", "", ""};
+		{ 4, 33818, "", "=q3=Muckbreath's Bucket", "=ds=#e13#", "", ""};
+		{ 5, 35349, "", "=q2=Snarly's Bucket", "=ds=#e13#", "", ""};
+		{ 6, 33816, "", "=q3=Toothy's Bucket", "=ds=#e13#", "", ""};
+		{ 7, 34831, "", "=q3=Eye of the Sea", "=ds=#e7#", "", ""};
+		{ 8, 34834, "", "=q2=Recipe: Captain Rumsey's Lager", "=ds=#p3# (100)", "", ""};
+		{ 9, 34836, "", "=q2=Spun Truesilver Fishing Line", "=ds=#p24# #e17#", "", ""};
+		{ 16, 34827, "", "=q1=Noble's Monocle", "=ds=#s1#", "", ""};
+		{ 17, 34828, "", "=q1=Antique Silver Cufflinks", "=ds=#s8#", "", ""};
+		{ 18, 34826, "", "=q1=Gold Wedding Band", "=ds=#s13#", "", ""};
+		{ 19, 34829, "", "=q1=Ornate Drinking Stein", "=ds=#s15#", "", ""};
+		{ 20, 34859, "", "=q1=Razor Sharp Fillet Knife", "=ds=#h1#, #w4#", "", ""};
+		{ 21, 34109, "", "=q1=Weather-Beaten Journal", "=ds=#e10#", "", ""};
+		{ 22, 8827, "", "=q1=Elixir of Water Walking", "=ds=#e2#", "", ""};
+		{ 23, 34861, "", "=q1=Sharpened Fish Hook", "=ds=#e24#", "", ""};
+		Next = "FishingDaily2";
+		Back = "FISHINGDAILYMENU";
+	};
+
+	AtlasLoot_Data["FishingDaily2"] = {
+		{ 1, 45862, "", "=q4=Bold Stormjewel", "=ds=#e7#", "", ""};
+		{ 2, 45882, "", "=q4=Brilliant Stormjewel", "=ds=#e7#", "", ""};
+		{ 3, 45879, "", "=q4=Delicate Stormjewel", "=ds=#e7#", "", ""};
+		{ 4, 45987, "", "=q4=Rigid Stormjewel", "=ds=#e7#", "", ""};
+		{ 5, 45883, "", "=q4=Runed Stormjewel", "=ds=#e7#", "", ""};
+		{ 6, 45880, "", "=q4=Solid Stormjewel", "=ds=#e7#", "", ""};
+		{ 7, 45881, "", "=q4=Sparkling Stormjewel", "=ds=#e7#", "", ""};
+		{ 8, 33820, "", "=q3=Weather-Beaten Fishing Hat", "=ds=#s1#, #a1#", "", ""};
+		{ 9, 45991, "", "=q3=Bone Fishing Pole", "=ds=#e20#", "", ""};
+		{ 10, 45992, "", "=q3=Jeweled Fishing Pole", "=ds=#e20#", "", ""};
+		{ 11, 44983, "", "=q3=Strand Crawler", "=ds=#e13#", "", ""};
+		{ 12, 36784, "", "=q3=Siren's Tear", "=ds=#e7#", "", ""};
+		{ 13, 45986, "", "=q3=Titanium Lockbox", "=ds=", "", ""};
+		{ 14, 34834, "", "=q2=Recipe: Captain Rumsey's Lager", "=ds=#p3# (100)", "", ""};
+		{ 15, 19971, "", "=q2=High Test Eternium Fishing Line", "=ds=#p24# #e17#", "", ""};
+		{ 16, 45998, "", "=q1=Battered Jungle Hat", "=ds=#s1#", "", ""};
+		{ 17, 45861, "", "=q1=Diamond-tipped Cane", "=ds=#h2#", "", ""};
+		{ 18, 46006, "", "=q1=Glow Worm", "=ds=#e24#", "", ""};
+		{ 19, 45984, "", "=q1=Unusual Compass", "=ds=", "", ""};
+		{ 20, 40195, "", "=q1=Pygmy Oil", "=ds=#e2#", "", ""};
+		{ 21, 8827, "", "=q1=Elixir of Water Walking", "=ds=#e2#", "", ""};
+		{ 22, 46004, "", "=q1=Sealed Vial of Poison", "=ds=#m2#", "", ""};
+		{ 23, 48679, "", "=q1=Waterlogged Recipe", "=ds=#m2# #p3# (350)", "", ""};
+		Prev = "FishingDaily1";
+		Back = "FISHINGDAILYMENU";
+	};
+
 		---------------------
 		--- Jewelcrafting ---
 		---------------------
@@ -5236,31 +5339,3 @@ local MASTER = select(2, GetSpellInfo(28596));
 		Back = "CRAFTINGMENU";
 	};
 
-		---------------
-		--- Cooking ---
-		---------------
-
-	AtlasLoot_Data["CookingDaily"] = {
-		{ 1, 43035, "", "=q2=Recipe: Blackened Dragonfin", "=ds=#p3# (400)"};
-		{ 2, 43032, "", "=q2=Recipe: Blackened Worg Steak", "=ds=#p3# (400)"};
-		{ 3, 43029, "", "=q2=Recipe: Critter Bites", "=ds=#p3# (400)"};
-		{ 4, 43033, "", "=q2=Recipe: Cuttlesteak", "=ds=#p3# (400)"};
-		{ 5, 43036, "", "=q2=Recipe: Dragonfin Filet", "=ds=#p3# (400)"};
-		{ 6, 43024, "", "=q2=Recipe: Firecracker Salmon", "=ds=#p3# (400)"};
-		{ 7, 43030, "", "=q2=Recipe: Hearty Rhino", "=ds=#p3# (400)"};
-		{ 8, 43026, "", "=q2=Recipe: Imperial Manta Steak", "=ds=#p3# (400)"};
-		{ 9, 43018, "", "=q2=Recipe: Mega Mammoth Meal", "=ds=#p3# (400)"};
-		{ 10, 43022, "", "=q2=Recipe: Mighty Rhino Dogs", "=ds=#p3# (400)"};
-		{ 11, 43023, "", "=q2=Recipe: Poached Northern Sculpin", "=ds=#p3# (400)"};
-		{ 12, 43028, "", "=q2=Recipe: Rhinolicious Wyrmsteak", "=ds=#p3# (400)"};
-		{ 13, 43031, "", "=q2=Recipe: Snapper Extreme", "=ds=#p3# (400)"};
-		{ 14, 43034, "", "=q2=Recipe: Spiced Mammoth Treats", "=ds=#p3# (400)"};
-		{ 15, 43020, "", "=q2=Recipe: Spiced Wyrm Burger", "=ds=#p3# (400)"};
-		{ 16, 43025, "", "=q2=Recipe: Spicy Blue Nettlefish", "=ds=#p3# (400)"};
-		{ 17, 43027, "", "=q2=Recipe: Spicy Fried Herring", "=ds=#p3# (400)"};
-		{ 18, 43019, "", "=q2=Recipe: Tender Shoveltusk Steak", "=ds=#p3# (400)"};
-		{ 19, 43037, "", "=q2=Recipe: Tracker Snacks", "=ds=#p3# (400)"};
-		{ 20, 43021, "", "=q2=Recipe: Very Burnt Worg", "=ds=#p3# (400)"};
-		{ 22, 43007, "", "=q1=Northern Spices", "=ds=#e8#"};
-		Back = "CRAFTINGMENU";
-	};

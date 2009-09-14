@@ -16,8 +16,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
 		{ 17, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
 		{ 18, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
-		{ 20, "JewelcraftingDaily", "INV_Misc_Gem_01", AL["Jewelcrafting Daily"], ""};
-		{ 21, "CookingDaily", "INV_Misc_Food_15", AL["Cooking Daily"], ""};
+		{ 20, "COOKINGDAILYMENU", "INV_Misc_Food_15", AL["Cooking Daily"], ""};
+		{ 21, "FISHINGDAILYMENU", "inv_fishingpole_03", AL["Fishing Daily"], ""};
+		{ 22, "JewelcraftingDaily", "INV_Misc_Gem_01", AL["Jewelcrafting Daily"], ""};
 	};
 
 	AtlasLoot_Data["CRAFTSET"] = {
@@ -210,5 +211,15 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "CRAFTINGMENU";
 	};
 
-	AtlasLoot_Data["EmptyTable"] = {
+	AtlasLoot_Data["COOKINGDAILYMENU"] = {
+		{ 2, "CookingDaily1", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
+		{ 17, "CookingDaily2", "achievement_profession_chefhat", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
+		Back = "CRAFTINGMENU";
 	};
+
+	AtlasLoot_Data["FISHINGDAILYMENU"] = {
+		{ 2, "FishingDaily1", "inv_drink_19", "=ds="..BabbleZone["Terokkar Forest"], "=q5="..AL["Burning Crusade"] };
+		{ 17, "FishingDaily2", "inv_fishingpole_05", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
+		Back = "CRAFTINGMENU";
+	};
+

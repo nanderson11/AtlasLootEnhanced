@@ -131,6 +131,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#e21#", AL["Fish"]);
     text = gsub(text, "#e22#", AL["Combat Pet"]);
     text = gsub(text, "#e23#", AL["Fireworks"]);
+    text = gsub(text, "#e24#", AL["Fishing Lure"]);
 
     -- Labels for Loot Descriptions
     text = gsub(text, "#m1#", AL["Classes:"]);
