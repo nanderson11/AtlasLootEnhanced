@@ -142,6 +142,42 @@ AtlasLootNewBossButtons = {
         "OcuTrash";
         };
 
+    TrialOfTheChampion = {
+        "";
+        "TrialoftheChampionChampions";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheChampionEadricthePure";
+        "TrialoftheChampionConfessorPaletress";
+        "TrialoftheChampionBlackKnight";
+        };
+        
+    TrialOfTheCrusader = {
+        "";
+        "";
+        "TrialoftheCrusaderNorthrendBeasts_A";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderLordJaraxxus_A";
+        "TrialoftheCrusaderFactionChampions_A";
+        "TrialoftheCrusaderTwinValkyrs_A";
+        "";
+        "";
+        "TrialoftheCrusaderAnubarak_A";
+        };
+        
     ObsidianSanctum = {
         "";
         "";
@@ -177,6 +213,8 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "UlduarIronCouncil";
+        "";
+        "";
         "";
         "";
         "";
@@ -248,6 +286,7 @@ AtlasLootNewBossButtons = {
         };
 
     UtgardeKeep = {
+        "";
         "";
         "";
         "UtgardeKeepKeleseth";
@@ -1137,7 +1176,6 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
-        "";
         "Maraudon2";
         "Maraudon1";
         "Maraudon1";
@@ -1639,6 +1677,41 @@ AtlasLootNewBossButtons = {
         "ZGEnchants";
         };
 };
+
+local englishFaction, _ = UnitFactionGroup("player")
+if englishFaction == "Horde" then
+    AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
+        "";
+        "";
+        "TrialoftheCrusaderNorthrendBeasts_H";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderLordJaraxxus_H";
+        "TrialoftheCrusaderFactionChampions_H";
+        "TrialoftheCrusaderTwinValkyrs_H";
+        "";
+        "";
+        "TrialoftheCrusaderAnubarak_H";
+        };
+else
+    AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
+        "";
+        "";
+        "TrialoftheCrusaderNorthrendBeasts_A";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderLordJaraxxus_A";
+        "TrialoftheCrusaderFactionChampions_A";
+        "TrialoftheCrusaderTwinValkyrs_A";
+        "";
+        "";
+        "TrialoftheCrusaderAnubarak_A";
+        };
+end
 
 --------------------------------------------------
 -- AtlasLootBossButtons
