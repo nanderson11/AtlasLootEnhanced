@@ -161,9 +161,10 @@ AtlasLootNewBossButtons = {
         "TrialoftheChampionConfessorPaletress";
         "TrialoftheChampionBlackKnight";
         };
-        
-    --Faction differences for Trial of the Crusader dealt with
-    --at the bottom of this table
+
+    -- Faction differences for Trial of the Crusader dealt with
+    -- at the bottom of this table
+
     TrialOfTheCrusader = {
         "";
         "";
@@ -179,7 +180,7 @@ AtlasLootNewBossButtons = {
         "";
         "TrialoftheCrusaderAnubarak_A";
         };
-        
+
     ObsidianSanctum = {
         "";
         "";

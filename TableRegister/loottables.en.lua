@@ -1485,9 +1485,9 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["LakeWintergrasp1"] = { BabbleZone["Wintergrasp"].." - "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["LakeWintergrasp2"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["LakeWintergrasp3"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Leather"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["LakeWintergrasp4"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Mail"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["LakeWintergrasp4"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Mail"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["LakeWintergrasp5"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Plate"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["LakeWintergrasp6"] = { BabbleZone["Wintergrasp"].." - "..AL["PVP Gems/Enchants/Jewelcrafting Designs"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["LakeWintergrasp6"] = { BabbleZone["Wintergrasp"].." - "..AL["PVP Gems/Enchants/Jewelcrafting Designs"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["LakeWintergrasp7"] = { BabbleZone["Wintergrasp"].." - "..AL["Heirloom"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VentureBay1"] = { BabbleZone["Grizzly Hills"]..": "..AL["Venture Bay"], "AtlasLootWotLK" };
   -- Misc Other PvP
