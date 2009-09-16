@@ -162,6 +162,8 @@ AtlasLootNewBossButtons = {
         "TrialoftheChampionBlackKnight";
         };
         
+    --Faction differences for Trial of the Crusader dealt with
+    --at the bottom of this table
     TrialOfTheCrusader = {
         "";
         "";
