@@ -126,11 +126,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["WINTERGRASPMENU"] = {
-		{ 2, "LakeWintergrasp1", "inv_misc_rune_11", "=ds="..AL["Accessories"], ""};
-		{ 3, "LakeWintergrasp3", "inv_helmet_134", "=ds="..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], ""};
-		{ 4, "LakeWintergrasp5", "inv_sword_19", "=ds="..AL["Heirloom"], ""};
-		{ 17, "LakeWintergrasp2", "inv_helmet_136", "=ds="..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], ""};
-		{ 18, "LakeWintergrasp4", "inv_jewelcrafting_icediamond_02", "=ds="..AL["PVP Gems/Enchants/Jewelcrafting Designs"], ""};
+		{ 2, "LakeWintergrasp2", "inv_helmet_136", "=ds="..BabbleInventory["Cloth"], ""};
+        { 3, "LakeWintergrasp3", "INV_Helmet_141", "=ds="..BabbleInventory["Leather"], ""};
+        { 4, "LakeWintergrasp4", "INV_Helmet_138", "=ds="..BabbleInventory["Mail"], ""};
+        { 5, "LakeWintergrasp5", "inv_helmet_134", "=ds="..BabbleInventory["Plate"], ""};
+		{ 17, "LakeWintergrasp1", "inv_misc_rune_11", "=ds="..AL["Accessories"], ""};
+        { 18, "LakeWintergrasp7", "inv_sword_19", "=ds="..AL["Heirloom"], ""};
+		{ 19, "LakeWintergrasp6", "inv_jewelcrafting_icediamond_02", "=ds="..AL["PVP Gems/Enchants/Jewelcrafting Designs"], ""};
 		Back = "PVPMENU";
 	};
 

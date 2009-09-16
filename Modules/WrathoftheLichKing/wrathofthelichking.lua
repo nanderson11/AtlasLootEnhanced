@@ -5856,63 +5856,96 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 46086, "", "=q4=Platinum Disks of Battle", "=ds=#s14#", "25 #wintergraspmark#" };
 		{ 19, 46088, "", "=q4=Platinum Disks of Swiftness", "=ds=#s14#", "25 #wintergraspmark#" };
 		{ 20, 46087, "", "=q4=Platinum Disks of Sorcery", "=ds=#s14#", "25 #wintergraspmark#" };
+        { 22, 48999, "", "=q4=Titan-forged Band of Ascendancy", "=ds=#s13#", "15 #wintergraspmark#" };
+		{ 23, 49000, "", "=q4=Titan-forged Band of Victory", "=ds=#s13#", "15 #wintergraspmark#" };
 		Next = "LakeWintergrasp2";
 		Back = "WINTERGRASPMENU";
 	};
 
 	AtlasLoot_Data["LakeWintergrasp2"] = {
-		{ 1, 44910, "", "=q4=Titan-forged Hood of Dominance", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
-		{ 2, 46065, "", "=q4=Titan-forged Raiment of Dominance", "=ds=#s5#, #a1#", "40 #wintergraspmark#" };
-		{ 3, 46079, "", "=q4=Titan-forged Cord of Dominance", "=ds=#s10#, #a1#", "15 #wintergraspmark#" };
-		{ 4, 44899, "", "=q4=Titan-forged Slippers of Dominance", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
-		{ 6, 44909, "", "=q4=Titan-forged Hood of Salvation", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
-		{ 7, 46066, "", "=q4=Titan-forged Raiment of Salvation", "=ds=#s5#, #a1#", "40 #wintergraspmark#" };
-		{ 8, 46080, "", "=q4=Titan-forged Cord of Salvation", "=ds=#s10#, #a1#", "15 #wintergraspmark#" };
-		{ 9, 44900, "", "=q4=Titan-forged Slippers of Salvation", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
-		{ 16, 44907, "", "=q4=Titan-forged Leather Helm of Dominance", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
-		{ 17, 46064, "", "=q4=Titan-forged Leather Chestguard of Dominance", "=ds=#s5#, #a2#", "40 #wintergraspmark#" };
-		{ 18, 46076, "", "=q4=Titan-forged Belt of Dominance", "=ds=#s10#, #a2#", "15 #wintergraspmark#" };
-		{ 19, 44891, "", "=q4=Titan-forged Boots of Dominance", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
-		{ 21, 44906, "", "=q4=Titan-forged Leather Helm of Salvation", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
-		{ 22, 46063, "", "=q4=Titan-forged Leather Chestguard of Salvation", "=ds=#s5#, #a2#", "40 #wintergraspmark#" };
-		{ 23, 46077, "", "=q4=Titan-forged Belt of Salvation", "=ds=#s10#, #a2#", "15 #wintergraspmark#" };
-		{ 24, 44892, "", "=q4=Titan-forged Boots of Salvation", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
-		{ 26, 44908, "", "=q4=Titan-forged Leather Helm of Triumph", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
-		{ 27, 46062, "", "=q4=Titan-forged Leather Tunic of Triumph", "=ds=#s5#, #a2#", "40 #wintergraspmark#" };
-		{ 28, 46078, "", "=q4=Titan-forged Belt of Triumph", "=ds=#s10#, #a2#", "15 #wintergraspmark#" };
-		{ 29, 44893, "", "=q4=Titan-forged Boots of Triumph", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
+		{ 2, 44910, "", "=q4=Titan-forged Hood of Dominance", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
+		{ 3, 46065, "", "=q4=Titan-forged Raiment of Dominance", "=ds=#s5#, #a1#", "40 #wintergraspmark#" };
+		{ 5, 46079, "", "=q4=Titan-forged Cord of Dominance", "=ds=#s10#, #a1#", "15 #wintergraspmark#" };
+		{ 6, 48997, "", "=q4=Titan-forged Trousers of Domination", "=ds=#s11#, #a1#", "40 #wintergraspmark#" };
+        { 7, 44899, "", "=q4=Titan-forged Slippers of Dominance", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
+		{ 17, 44909, "", "=q4=Titan-forged Hood of Salvation", "=ds=#s1#, #a1#", "40 #wintergraspmark#" };
+		{ 18, 46066, "", "=q4=Titan-forged Raiment of Salvation", "=ds=#s5#, #a1#", "40 #wintergraspmark#" };
+		{ 19, 48979, "", "=q4=Titan-forged Cuffs of Salvation", "=ds=#s8#, #a1#", "15 #wintergraspmark#" };
+        { 20, 46080, "", "=q4=Titan-forged Cord of Salvation", "=ds=#s10#, #a1#", "15 #wintergraspmark#" };
+        { 21, 48991, "", "=q4=Titan-forged Leggings of Salvation", "=ds=#s11#, #a1#", "40 #wintergraspmark#" };
+		{ 22, 44900, "", "=q4=Titan-forged Slippers of Salvation", "=ds=#s12#, #a1#", "15 #wintergraspmark#" };
 		Prev = "LakeWintergrasp1";
 		Next = "LakeWintergrasp3";
 		Back = "WINTERGRASPMENU";
 	};
-
-	AtlasLoot_Data["LakeWintergrasp3"] = {
-		{ 1, 44904, "", "=q4=Titan-forged Mail Helm of Dominance", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
-		{ 2, 46061, "", "=q4=Titan-forged Mail Armor of Domination", "=ds=#s5#, #a3#", "40 #wintergraspmark#" };
-		{ 3, 46073, "", "=q4=Titan-forged Waistguard of Dominance", "=ds=#s10#, #a3#", "15 #wintergraspmark#" };
-		{ 4, 44896, "", "=q4=Titan-forged Sabatons of Dominance", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
-		{ 6, 44905, "", "=q4=Titan-forged Ringmail Helm of Salvation", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
-		{ 7, 46060, "", "=q4=Titan-forged Ringmail of Salvation", "=ds=#s5#, #a3#", "40 #wintergraspmark#" };
-		{ 8, 46074, "", "=q4=Titan-forged Waistguard of Salvation", "=ds=#s10#, #a3#", "15 #wintergraspmark#" };
-		{ 9, 44897, "", "=q4=Titan-forged Sabatons of Salvation", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
-		{ 11, 44903, "", "=q4=Titan-forged Chain Helm of Triumph", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
-		{ 12, 46059, "", "=q4=Titan-forged Chain Armor of Triumph", "=ds=#s5#, #a3#", "40 #wintergraspmark#" };
-		{ 13, 46075, "", "=q4=Titan-forged Waistguard of Triumph", "=ds=#s10#, #a3#", "15 #wintergraspmark#" };
-		{ 14, 44898, "", "=q4=Titan-forged Sabatons of Triumph", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
-		{ 16, 44901, "", "=q4=Titan-forged Plate Headcover of Salvation", "=ds=#s1#, #a4#", "40 #wintergraspmark#" };
-		{ 17, 46057, "", "=q4=Titan-forged Chestguard of Salvation", "=ds=#s5#, #a4#", "40 #wintergraspmark#" };
-		{ 18, 46071, "", "=q4=Titan-forged Girdle of Salvation", "=ds=#s10#, #a4#", "15 #wintergraspmark#" };
-		{ 19, 44894, "", "=q4=Titan-forged Greaves of Salvation", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
-		{ 21, 44902, "", "=q4=Titan-forged Plate Helm of Triumph", "=ds=#s12#, #a4#", "40 #wintergraspmark#" };
-		{ 22, 46058, "", "=q4=Titan-forged Breastplate of Triumph", "=ds=#s5#, #a4#", "40 #wintergraspmark#" };
-		{ 23, 46072, "", "=q4=Titan-forged Girdle of Triumph", "=ds=#s10#, #a4#", "15 #wintergraspmark#" };
-		{ 24, 44895, "", "=q4=Titan-forged Greaves of Triumph", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
+    
+    AtlasLoot_Data["LakeWintergrasp3"] = {
+		{ 2, 44907, "", "=q4=Titan-forged Leather Helm of Dominance", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
+		{ 3, 46064, "", "=q4=Titan-forged Leather Chestguard of Dominance", "=ds=#s5#, #a2#", "40 #wintergraspmark#" };
+		{ 4, 48974, "", "=q4=Titan-forged Armwraps of Dominance", "=ds=#s8#, #a2#", "15 #wintergraspmark#" };
+        { 5, 46076, "", "=q4=Titan-forged Belt of Dominance", "=ds=#s10#, #a2#", "15 #wintergraspmark#" };
+		{ 6, 48998, "", "=q4=Titan-forged Leather Legguards of Dominance", "=ds=#s11#, #a2#", "40 #wintergraspmark#" };
+        { 7, 44891, "", "=q4=Titan-forged Boots of Dominance", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
+		{ 9, 44906, "", "=q4=Titan-forged Leather Helm of Salvation", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
+		{ 10, 46063, "", "=q4=Titan-forged Leather Chestguard of Salvation", "=ds=#s5#, #a2#", "40 #wintergraspmark#" };
+		{ 11, 48975, "", "=q4=Titan-forged Armwraps of Salvation", "=ds=#s8#, #a2#", "15 #wintergraspmark#" };
+        { 12, 46077, "", "=q4=Titan-forged Belt of Salvation", "=ds=#s10#, #a2#", "15 #wintergraspmark#" };
+		{ 13, 48987, "", "=q4=Titan-forged Leather Legguards of Salvation", "=ds=#s11#, #a2#", "40 #wintergraspmark#" };
+        { 14, 44892, "", "=q4=Titan-forged Boots of Salvation", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
+		{ 17, 44908, "", "=q4=Titan-forged Leather Helm of Triumph", "=ds=#s1#, #a2#", "40 #wintergraspmark#" };
+		{ 18, 46062, "", "=q4=Titan-forged Leather Tunic of Triumph", "=ds=#s5#, #a2#", "40 #wintergraspmark#" };
+		{ 19, 48976, "", "=q4=Titan-forged Armwraps of Triumph", "=ds=#s8#, #a2#", "15 #wintergraspmark#" };
+        { 20, 46078, "", "=q4=Titan-forged Belt of Triumph", "=ds=#s10#, #a2#", "15 #wintergraspmark#" };
+        { 21, 48988, "", "=q4=Titan-forged Leather Legguards of Triumph", "=ds=#s11#, #a2#", "40 #wintergraspmark#" };
+		{ 22, 44893, "", "=q4=Titan-forged Boots of Triumph", "=ds=#s12#, #a2#", "15 #wintergraspmark#" };
 		Prev = "LakeWintergrasp2";
 		Next = "LakeWintergrasp4";
 		Back = "WINTERGRASPMENU";
 	};
 
 	AtlasLoot_Data["LakeWintergrasp4"] = {
+		{ 2, 44904, "", "=q4=Titan-forged Mail Helm of Dominance", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
+		{ 3, 46061, "", "=q4=Titan-forged Mail Armor of Domination", "=ds=#s5#, #a3#", "40 #wintergraspmark#" };
+		{ 4, 48980, "", "=q4=Titan-forged Wristguards of Dominance", "=ds=#s8#, #a3#", "15 #wintergraspmark#" };
+        { 5, 46073, "", "=q4=Titan-forged Waistguard of Dominance", "=ds=#s10#, #a3#", "15 #wintergraspmark#" };
+		{ 6, 48990, "", "=q4=Titan-forged Mail Leggings of Dominance", "=ds=#s11#, #a3#", "40 #wintergraspmark#" };
+        { 7, 44896, "", "=q4=Titan-forged Sabatons of Dominance", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
+		{ 9, 44905, "", "=q4=Titan-forged Ringmail Helm of Salvation", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
+		{ 10, 46060, "", "=q4=Titan-forged Ringmail of Salvation", "=ds=#s5#, #a3#", "40 #wintergraspmark#" };
+		{ 11, 48981, "", "=q4=Titan-forged Wristguards of Salvation", "=ds=#s8#, #a3#", "15 #wintergraspmark#" };
+        { 12, 46074, "", "=q4=Titan-forged Waistguard of Salvation", "=ds=#s10#, #a3#", "15 #wintergraspmark#" };
+		{ 13, 48994, "", "=q4=Titan-forged Mail Leggings of Salvation", "=ds=#s11#, #a3#", "40 #wintergraspmark#" };
+        { 14, 44897, "", "=q4=Titan-forged Sabatons of Salvation", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
+		{ 17, 44903, "", "=q4=Titan-forged Chain Helm of Triumph", "=ds=#s1#, #a3#", "40 #wintergraspmark#" };
+		{ 18, 46059, "", "=q4=Titan-forged Chain Armor of Triumph", "=ds=#s5#, #a3#", "40 #wintergraspmark#" };
+		{ 19, 48982, "", "=q4=Titan-forged Wristguards of Triumph", "=ds=#s8#, #a3#", "15 #wintergraspmark#" };
+        { 20, 46075, "", "=q4=Titan-forged Waistguard of Triumph", "=ds=#s10#, #a3#", "15 #wintergraspmark#" };
+		{ 21, 48983, "", "=q4=Titan-forged Mail Leggings of Triumph", "=ds=#s11#, #a3#", "40 #wintergraspmark#" };
+        { 22, 44898, "", "=q4=Titan-forged Sabatons of Triumph", "=ds=#s12#, #a3#", "15 #wintergraspmark#" };
+		Prev = "LakeWintergrasp3";
+		Next = "LakeWintergrasp5";
+		Back = "WINTERGRASPMENU";
+	};
+    
+    AtlasLoot_Data["LakeWintergrasp5"] = {
+		{ 2, 44901, "", "=q4=Titan-forged Plate Headcover of Salvation", "=ds=#s1#, #a4#", "40 #wintergraspmark#" };
+		{ 3, 46057, "", "=q4=Titan-forged Chestguard of Salvation", "=ds=#s5#, #a4#", "40 #wintergraspmark#" };
+		{ 4, 48977, "", "=q4=Titan-forged Bracers of Salvation", "=ds=#s8#, #a4#", "15 #wintergraspmark#" };
+        { 5, 46071, "", "=q4=Titan-forged Girdle of Salvation", "=ds=#s10#, #a4#", "15 #wintergraspmark#" };
+		{ 6, 48992, "", "=q4=Titan-forged Plate Legplates of Salvation", "=ds=#s11#, #a4#", "40 #wintergraspmark#" };
+        { 7, 44894, "", "=q4=Titan-forged Greaves of Salvation", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
+		{ 17, 44902, "", "=q4=Titan-forged Plate Helm of Triumph", "=ds=#s12#, #a4#", "40 #wintergraspmark#" };
+		{ 18, 46058, "", "=q4=Titan-forged Breastplate of Triumph", "=ds=#s5#, #a4#", "40 #wintergraspmark#" };
+		{ 19, 48978, "", "=q4=Titan-forged Bracers of Triumph", "=ds=#s8#, #a4#", "15 #wintergraspmark#" };
+        { 20, 46072, "", "=q4=Titan-forged Girdle of Triumph", "=ds=#s10#, #a4#", "15 #wintergraspmark#" };
+		{ 21, 48993, "", "=q4=Titan-forged Plate Legguards of Triumph", "=ds=#s11#, #a4#", "40 #wintergraspmark#" };
+        { 22, 44895, "", "=q4=Titan-forged Greaves of Triumph", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
+		Prev = "LakeWintergrasp4";
+		Next = "LakeWintergrasp6";
+		Back = "WINTERGRASPMENU";
+	};
+
+	AtlasLoot_Data["LakeWintergrasp6"] = {
 		{ 1, 44066, "", "=q4=Kharmaa's Grace", "=ds=#e7#", "20 #wintergrasp#"};
 		{ 2, 44081, "", "=q3=Enigmatic Starflare Diamond", "=ds=#e7#", "15 #wintergrasp#"};
 		{ 3, 44084, "", "=q3=Forlorn Starflare Diamond", "=ds=#e7#", "15 #wintergrasp#"};
@@ -5940,12 +5973,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 27, 41742, "", "=q3=Design: Enigmatic Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		{ 28, 41743, "", "=q3=Design: Forlorn Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
 		{ 29, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "24 #wintergrasp#"};
-		Prev = "LakeWintergrasp3";
-		Next = "LakeWintergrasp5";
+		Prev = "LakeWintergrasp5";
+		Next = "LakeWintergrasp7";
 		Back = "WINTERGRASPMENU";
 	};
 
-	AtlasLoot_Data["LakeWintergrasp5"] = {
+	AtlasLoot_Data["LakeWintergrasp7"] = {
 		{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "200 #wintergrasp#"};
 		{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "200 #wintergrasp#"};
 		{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "200 #wintergrasp#"};
@@ -5962,7 +5995,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 14, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "325 #wintergrasp#"};
 		{ 15, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "325 #wintergrasp#"};
 		{ 16, 44115, "", "=q7=Wintergrasp Commendation", "=ds=", "30 #wintergrasp#"};
-		Prev = "LakeWintergrasp4";
+		Prev = "LakeWintergrasp6";
 		Back = "WINTERGRASPMENU";
 	};
 

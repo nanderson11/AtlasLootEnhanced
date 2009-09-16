@@ -9,6 +9,7 @@ Patch Notes
 v5.07.07
 Added Cooking Daily rewards
 Added Fishing Daily rewards
+Added Patch 3.2 Wintergrasp items
 Minor updates/fixes/translations
 
 v5.07.06
