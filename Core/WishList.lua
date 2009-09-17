@@ -20,6 +20,7 @@ AtlasLoot_RefreshWishlists()
 AtlasLoot_CreateWishlistOptions()
 ]]
 
+local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 local ALModule = AtlasLoot:NewModule("WishList", "AceSerializer-3.0", "AceComm-3.0")
@@ -444,7 +445,11 @@ A recursive function iterate AtlasLoot_DewDropDown table for the zone name
 ]]
 local function RecursiveSearchZoneName(dataTable, zoneID)
 	if(dataTable[2] == zoneID) then
-		return dataTable[1];
+		if dataTable[1] == BabbleFaction["Alliance"] or dataTable[1] == BabbleFaction["Horde"] then
+			return dataTable[4];
+		else
+			return dataTable[1];
+		end
 	end
 	for _, v in pairs(dataTable) do
 		if type(v) == "table" then
