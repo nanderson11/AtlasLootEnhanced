@@ -5130,7 +5130,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 2, 33820, "", "=q3=Weather-Beaten Fishing Hat", "=ds=#s1#, #a1#", "", ""};
 		{ 3, 35350, "", "=q3=Chuck's Bucket", "=ds=#e13#", "", ""};
 		{ 4, 33818, "", "=q3=Muckbreath's Bucket", "=ds=#e13#", "", ""};
-		{ 5, 35349, "", "=q2=Snarly's Bucket", "=ds=#e13#", "", ""};
+		{ 5, 35349, "", "=q3=Snarly's Bucket", "=ds=#e13#", "", ""};
 		{ 6, 33816, "", "=q3=Toothy's Bucket", "=ds=#e13#", "", ""};
 		{ 7, 34831, "", "=q3=Eye of the Sea", "=ds=#e7#", "", ""};
 		{ 8, 34834, "", "=q2=Recipe: Captain Rumsey's Lager", "=ds=#p3# (100)", "", ""};
