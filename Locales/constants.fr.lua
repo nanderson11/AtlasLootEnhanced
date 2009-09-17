@@ -134,8 +134,9 @@ if AL then
 
 	-- Crafting Menu
 	AL["Crafting Daily Quests"] = "Artisanat des quêtes journalières";
+	AL["Cooking Daily"] = "Rec. de cuisine (Jounalière)";
+	AL["Fishing Daily"] = "Rec. de pêche (Journalère)";
 	AL["Jewelcrafting Daily"] = "Rec. de Joaillerie (Journalière)";
-	AL["Cooking Daily"] = "Rec. de Cuisine (Jounalière)";
 	AL["Crafted Sets"] = "Sets d'artisanat";
 	AL["Crafted Epic Weapons"] = "Armes d'artisanat épiques";
 	AL["Dragon's Eye"] = "Oeil de dragon";
@@ -184,7 +185,7 @@ if AL then
 	AL["PvP Non-Set Epics"] = "Hors Sets Épiques JcJ";
 	AL["PvP Reputation Sets"] = "Sets Réputation JcJ";
 	AL["Arena PvP Weapons"] = "Armes Arène JcJ";
-	AL["PvP Misc"] = "Dessins et Gemmes de Joaillerie JcJ";
+	AL["PvP Misc"] = "Objets divers JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes/Enchantements/Dessins de Joaillerie JcJ";
 	AL["Level 80 PvP Sets"] = "Sets JcJ Niveau 80";
 	AL["Old Level 80 PvP Sets"] = "Anciens Sets JcJ Niveau 80";
@@ -275,6 +276,7 @@ if AL then
 	AL["Fish"] = "Poisson";
 	AL["Combat Pet"] = "Animal de compagnie de combat";
 	AL["Fireworks"] = "Feux d'artifice";
+	AL["Fishing Lure"] = "Appât de pêche";
 
 	--Extra inventory stuff
 	AL["Cloak"] = "Cape";
