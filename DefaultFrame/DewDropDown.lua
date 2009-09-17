@@ -203,8 +203,8 @@ AtlasLoot_DewDropDown = {
 			},
 			[14] = {
 				[BabbleZone["Trial of the Crusader"]] = {
-					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu" },
-					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu" },
+					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
+					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
 				},
 			},
 			[15] = {
@@ -217,7 +217,10 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
 			[18] = {
-				{ BabbleZone["Vault of Archavon"], "Archavon", "Submenu" },
+				[BabbleZone["Vault of Archavon"]] = {
+					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
+					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
+				},
 			},
 			[19] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
@@ -694,10 +697,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "AhnkahetVolazj" },
 		{ "", "AhnkahetTrash" },
 	},
-	["Archavon"] = {
-		{ "", "VoAArchavon1" },
-		{ "", "Emalon" },
-	},
 	["AzjolNerub"] = {
 		{ "", "AzjolNerubKrikthir" },
 		{ "", "AzjolNerubHadronox" },
@@ -812,6 +811,16 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_H" },
 		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_HHEROIC" },
 		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
+	},
+	["VaultofArchavon_A"] = {
+		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon" },
+		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon" },
+		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon_A" },
+	},
+	["VaultofArchavon_H"] = {
+		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon" },
+		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon" },
+		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon_H" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
