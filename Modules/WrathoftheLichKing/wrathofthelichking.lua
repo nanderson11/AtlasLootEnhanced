@@ -8415,7 +8415,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 13584, "", "=q3=Diablo Stone", "=ds=#e13#"};
 		{ 7, 39286, "", "=q3=Frosty's Collar", "=ds=#e13#"};
 		{ 8, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
-		{ 9, 46802, "", "=q3=Grunty's Heavy Murloc Egg", "=ds=#e13#"};
+		{ 9, 46802, "", "=q3=Heavy Murloc Egg", "=ds=#e13#"};
 		{ 10, 30360, "", "=q3=Lurky's Egg", "=ds=#e13#"};
 		{ 11, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
 		{ 12, 25535, "", "=q3=Netherwhelp's Collar", "=ds=#e13#"};
