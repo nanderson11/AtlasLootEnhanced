@@ -9,15 +9,14 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 4, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
 		{ 5, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
 		{ 7, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
-		{ 8, "VoAArchavon1", "INV_Chest_Chain_15", "=ds="..BabbleBoss["Archavon the Stone Watcher"], ""};
-		{ 10, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
-		{ 11, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
+		{ 9, "LEVEL60PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 60)"], ""};
+		{ 10, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
 		{ 16, "WSGMENU", "INV_Misc_Rune_07", "=ds="..BabbleZone["Warsong Gulch"], ""};
 		{ 17, "ABSets1", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
 		{ 19, "Terokkar", "INV_Jewelry_FrostwolfTrinket_04", "=ds="..BabbleZone["Terokkar Forest"], "=q5="..AL["Spirit Towers"]};
 		{ 20, "Nagrand1", "INV_Misc_Rune_09", "=ds="..BabbleZone["Nagrand"], "=q5="..AL["Halaa"]};
 		{ 22, "VentureBay1", "INV_Misc_Coin_16", "=ds="..BabbleZone["Grizzly Hills"], "=q5="..AL["Venture Bay"]};
-		{ 25, "LEVEL70PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 70)"], ""};
+		{ 24, "LEVEL70PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 70)"], ""};
 	};
 
 	AtlasLoot_Data["ABMENU"] = {
@@ -134,16 +133,4 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, "LakeWintergrasp7", "inv_sword_19", "=ds="..AL["Heirloom"], ""};
 		{ 19, "LakeWintergrasp6", "inv_jewelcrafting_icediamond_02", "=ds="..AL["PVP Gems/Enchants/Jewelcrafting Designs"], ""};
 		Back = "PVPMENU";
-	};
-
-	AtlasLoot_Data["Emalon"] = {
-		{ 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Furious Gladiator Sets"], "" };
-		{ 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 8 Sets"], "=q5="..AL["10 Man"]};
-	};
-
-	AtlasLoot_Data["Emalon25Man"] = {
-		{ 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Furious Gladiator Sets"], "" };
-		{ 4, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
-		{ 17, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 8 Sets"], "=q5="..AL["25 Man"]};
-		{ 19, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 	};
