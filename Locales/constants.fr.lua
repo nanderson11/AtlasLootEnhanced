@@ -340,9 +340,9 @@ if AL then
 	AL["16 Slot"] = "16 emplacements";
 	AL["10 Slot"] = "10 emplacements";
 	AL["(has random enchantment)"] = "(caractéristiques aléatoires)";
-	AL["Currency"] = "Utiliser pour acheter des récompenses";
-	AL["Currency (Horde)"] = "Pour obtenir les récompenses (Horde)";
-	AL["Currency (Alliance)"] = "Pour obtenir les récompenses (Alliance)";
+	AL["Currency"] = "Monnaie";
+	AL["Currency (Horde)"] = "Monnaie (Horde)";
+	AL["Currency (Alliance)"] = "Monnaie (Alliance)";
 	AL["Conjured Item"] = "Objet Conjuré";
 	AL["Used to summon boss"] = "Utilisé pour invoquer un boss";
 	AL["Tradable against sunmote + item above"] = "Echangeable contre une Granule de soleil + l'objet du dessus";
