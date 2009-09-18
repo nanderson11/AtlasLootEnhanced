@@ -4606,28 +4606,30 @@ local MASTER = select(2, GetSpellInfo(28596));
 		--- Blacksmithing Mail Sets ---
 		-------------------------------
 
-	AtlasLoot_Data["BloodsoulEmbrace"] = {
+	AtlasLoot_Data["BlacksmithingMailBloodsoulEmbrace"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbm1#", ""};
 		{ 2, 19691, "", "=q3=Bloodsoul Shoulders", "=ds=#s3#, #a3#"};
 		{ 3, 19690, "", "=q3=Bloodsoul Breastplate", "=ds=#s5#, #a3#"};
 		{ 4, 19692, "", "=q3=Bloodsoul Gauntlets", "=ds=#s9#, #a3#"};
-		Back = "CRAFTSET";
+		Next = "BlacksmithingMailFelIronChain";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["FelIronChain"] = {
+	AtlasLoot_Data["BlacksmithingMailFelIronChain"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbm2#", ""};
 		{ 2, 23493, "", "=q2=Fel Iron Chain Coif", "=ds=#s1#, #a3#"};
 		{ 3, 23490, "", "=q2=Fel Iron Chain Tunic", "=ds=#s5#, #a3#"};
 		{ 4, 23494, "", "=q2=Fel Iron Chain Bracers", "=ds=#s8#, #a3#"};
 		{ 5, 23491, "", "=q2=Fel Iron Chain Gloves", "=ds=#s9#, #a3#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingMailBloodsoulEmbrace";
+		Back = "CRAFTSET1";
 	};
 
 		--------------------------------
 		--- Blacksmithing Plate Sets ---
 		--------------------------------
 
-	AtlasLoot_Data["ImperialPlate"] = {
+	AtlasLoot_Data["BlacksmithingPlateImperialPlate"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp1#", ""};
 		{ 2, 12427, "", "=q2=Imperial Plate Helm", "=ds=#s1#, #a4#"};
 		{ 3, 12428, "", "=q2=Imperial Plate Shoulders", "=ds=#s3#, #a4#"};
@@ -4636,159 +4638,303 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 6, 12424, "", "=q2=Imperial Plate Belt", "=ds=#s10#, #a4#"};
 		{ 7, 12429, "", "=q2=Imperial Plate Leggings", "=ds=#s11#, #a4#"};
 		{ 8, 12426, "", "=q2=Imperial Plate Boots", "=ds=#s12#, #a4#"};
-		Back = "CRAFTSET";
+		Next = "BlacksmithingPlateTheDarksoul";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["TheDarksoul"] = {
+	AtlasLoot_Data["BlacksmithingPlateTheDarksoul"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp2#", ""};
 		{ 2, 19695, "", "=q3=Darksoul Shoulders", "=ds=#s3#, #a4#"};
 		{ 3, 19693, "", "=q3=Darksoul Breastplate", "=ds=#s5#, #a4#"};
 		{ 4, 19694, "", "=q3=Darksoul Leggings", "=ds=#s11#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateImperialPlate";
+		Next = "BlacksmithingPlateFelIronPlate";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["FelIronPlate"] = {
+	AtlasLoot_Data["BlacksmithingPlateFelIronPlate"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp3#", ""};
 		{ 2, 23489, "", "=q2=Fel Iron Breastplate", "=ds=#s5#, #a4#"};
 		{ 3, 23482, "", "=q2=Fel Iron Plate Gloves", "=ds=#s9#, #a4#"};
 		{ 4, 23484, "", "=q2=Fel Iron Plate Belt", "=ds=#s10#, #a4#"};
 		{ 5, 23488, "", "=q2=Fel Iron Plate Pants", "=ds=#s11#, #a4#"};
 		{ 6, 23487, "", "=q2=Fel Iron Plate Boots", "=ds=#s12#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateTheDarksoul";
+		Next = "BlacksmithingPlateAdamantiteB";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["AdamantiteB"] = {
+	AtlasLoot_Data["BlacksmithingPlateAdamantiteB"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp4#", ""};
 		{ 2, 23507, "", "=q3=Adamantite Breastplate", "=ds=#s5#, #a4#"};
 		{ 3, 23506, "", "=q3=Adamantite Plate Bracers", "=ds=#s8#, #a4#"};
 		{ 4, 23508, "", "=q3=Adamantite Plate Gloves", "=ds=#s9#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateFelIronPlate";
+		Next = "BlacksmithingPlateFlameG";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["FlameG"] = {
+	AtlasLoot_Data["BlacksmithingPlateFlameG"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp5#", "=q1=#j11#"};
 		{ 2, 23516, "", "=q3=Flamebane Helm", "=ds=#s1#, #a4#"};
 		{ 3, 23513, "", "=q3=Flamebane Breastplate", "=ds=#s5#, #a4#"};
 		{ 4, 23515, "", "=q3=Flamebane Bracers", "=ds=#s8#, #a4#"};
 		{ 5, 23514, "", "=q3=Flamebane Gloves", "=ds=#s9#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateAdamantiteB";
+		Next = "BlacksmithingPlateEnchantedAdaman";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["EnchantedAdaman"] = {
+	AtlasLoot_Data["BlacksmithingPlateEnchantedAdaman"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp6#", "=q1=#j12#"};
 		{ 2, 23509, "", "=q3=Enchanted Adamantite Breastplate", "=ds=#s5#, #a4#"};
 		{ 3, 23510, "", "=q3=Enchanted Adamantite Belt", "=ds=#s10#, #a4#"};
 		{ 4, 23512, "", "=q3=Enchanted Adamantite Leggings", "=ds=#s11#, #a4#"};
 		{ 5, 23511, "", "=q3=Enchanted Adamantite Boots", "=ds=#s12#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateFlameG";
+		Next = "BlacksmithingPlateKhoriumWard";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["KhoriumWard"] = {
+	AtlasLoot_Data["BlacksmithingPlateKhoriumWard"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp7#", ""};
 		{ 2, 23524, "", "=q3=Khorium Belt", "=ds=#s10#, #a4#"};
 		{ 3, 23523, "", "=q3=Khorium Pants", "=ds=#s11#, #a4#"};
 		{ 4, 23525, "", "=q3=Khorium Boots", "=ds=#s12#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateEnchantedAdaman";
+		Next = "BlacksmithingPlateFaithFelsteel";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["FaithFelsteel"] = {
+	AtlasLoot_Data["BlacksmithingPlateFaithFelsteel"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp8#", ""};
 		{ 2, 23519, "", "=q3=Felsteel Helm", "=ds=#s1#, #a4#"};
 		{ 3, 23517, "", "=q3=Felsteel Gloves", "=ds=#s9#, #a4#"};
 		{ 4, 23518, "", "=q3=Felsteel Leggings", "=ds=#s11#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateKhoriumWard";
+		Next = "BlacksmithingPlateBurningRage";
+		Back = "CRAFTSET1";
 	};
 
-	AtlasLoot_Data["BurningRage"] = {
+	AtlasLoot_Data["BlacksmithingPlateBurningRage"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp9#", ""};
 		{ 2, 23521, "", "=q3=Ragesteel Helm", "=ds=#s1#, #a4#"};
 		{ 3, 33173, "", "=q3=Ragesteel Shoulders", "=ds=#s3#, #a4#"};
 		{ 4, 23522, "", "=q3=Ragesteel Breastplate", "=ds=#s5#, #a4#"};
 		{ 5, 23520, "", "=q3=Ragesteel Gloves", "=ds=#s9#, #a4#"};
-		Back = "CRAFTSET";
+		Prev = "BlacksmithingPlateFaithFelsteel";
+		Next = "BlacksmithingPlateOrnateSaroniteBattlegear";
+		Back = "CRAFTSET1";
+	};
+
+	AtlasLoot_Data["BlacksmithingPlateOrnateSaroniteBattlegear"] = {
+		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp10#", ""};
+		{ 2, 42728, "", "=q3=Ornate Saronite Skullshield", "=ds=#s1#, #a4#"};
+		{ 3, 42727, "", "=q3=Ornate Saronite Pauldrons", "=ds=#s3#, #a4#"};
+		{ 4, 42725, "", "=q3=Ornate Saronite Hauberk", "=ds=#s5#, #a4#"};
+		{ 5, 42723, "", "=q3=Ornate Saronite Bracers", "=ds=#s8#, #a4#"};
+		{ 6, 42724, "", "=q3=Ornate Saronite Gauntlets", "=ds=#s9#, #a4#"};
+		{ 7, 42729, "", "=q3=Ornate Saronite Waistguard", "=ds=#s10#, #a4#"};
+		{ 8, 42726, "", "=q3=Ornate Saronite Legplates", "=ds=#s11#, #a4#"};
+		{ 9, 42730, "", "=q3=Ornate Saronite Walkers", "=ds=#s12#, #a4#"};
+		Prev = "BlacksmithingPlateBurningRage";
+		Next = "BlacksmithingPlateSavageSaroniteBattlegear";
+		Back = "CRAFTSET1";
+	};
+
+	AtlasLoot_Data["BlacksmithingPlateSavageSaroniteBattlegear"] = {
+		{ 1, 0, "INV_Hammer_20", "=q6=#craftbp11#", ""};
+		{ 2, 41350, "", "=q3=Savage Saronite Skullshield", "=ds=#s1#, #a4#"};
+		{ 3, 41351, "", "=q3=Savage Saronite Pauldrons", "=ds=#s3#, #a4#"};
+		{ 4, 41353, "", "=q3=Savage Saronite Hauberk", "=ds=#s5#, #a4#"};
+		{ 5, 41354, "", "=q3=Savage Saronite Bracers", "=ds=#s8#, #a4#"};
+		{ 6, 41349, "", "=q3=Savage Saronite Gauntlets", "=ds=#s9#, #a4#"};
+		{ 7, 41352, "", "=q3=Savage Saronite Waistguard", "=ds=#s10#, #a4#"};
+		{ 8, 41347, "", "=q3=Savage Saronite Legplates", "=ds=#s11#, #a4#"};
+		{ 9, 41348, "", "=q3=Savage Saronite Walkers", "=ds=#s12#, #a4#"};
+		Prev = "BlacksmithingPlateOrnateSaroniteBattlegear";
+		Back = "CRAFTSET1";
 	};
 
 		-----------------------------------
 		--- Leatherworking Leather Sets ---
 		-----------------------------------
 
-	AtlasLoot_Data["VolcanicArmor"] = {
+	AtlasLoot_Data["LeatherworkingLeatherVolcanicArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl1#", "=q1=#j11#"};
 		{ 2, 15055, "", "=q2=Volcanic Shoulders", "=ds=#s3#, #a2#"};
 		{ 3, 15053, "", "=q2=Volcanic Breastplate", "=ds=#s5#, #a2#"};
 		{ 4, 15054, "", "=q2=Volcanic Leggings", "=ds=#s11#, #a2#"};
+		Next = "LeatherworkingLeatherIronfeatherArmor";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["IronfeatherArmor"] = {
+	AtlasLoot_Data["LeatherworkingLeatherIronfeatherArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl2#", ""};
 		{ 2, 15067, "", "=q3=Ironfeather Shoulders", "=ds=#s3#, #a2#"};
 		{ 3, 15066, "", "=q3=Ironfeather Breastplate", "=ds=#s5#, #a2#"};
+		Prev = "LeatherworkingLeatherVolcanicArmor";
+		Next = "LeatherworkingLeatherStormshroudArmor";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["StormshroudArmor"] = {
+	AtlasLoot_Data["LeatherworkingLeatherStormshroudArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl3#", ""};
 		{ 2, 15058, "", "=q3=Stormshroud Shoulders", "=ds=#s3#, #a2#"};
 		{ 3, 15056, "", "=q3=Stormshroud Armor", "=ds=#s5#, #a2#"};
 		{ 4, 21278, "", "=q3=Stormshroud Gloves", "=ds=#s9#, #a2#"};
 		{ 5, 15057, "", "=q3=Stormshroud Pants", "=ds=#s11#, #a2#"};
+		Prev = "LeatherworkingLeatherIronfeatherArmor";
+		Next = "LeatherworkingLeatherDevilsaurArmor";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["DevilsaurArmor"] = {
+	AtlasLoot_Data["LeatherworkingLeatherDevilsaurArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl4#", ""};
 		{ 2, 15063, "", "=q3=Devilsaur Gauntlets", "=ds=#s9#, #a2#"};
 		{ 3, 15062, "", "=q3=Devilsaur Leggings", "=ds=#s11#, #a2#"};
+		Prev = "LeatherworkingLeatherStormshroudArmor";
+		Next = "LeatherworkingLeatherBloodTigerH";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["BloodTigerH"] = {
+	AtlasLoot_Data["LeatherworkingLeatherBloodTigerH"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl5#", ""};
 		{ 2, 19689, "", "=q3=Blood Tiger Shoulders", "=ds=#s3#, #a2#"};
 		{ 3, 19688, "", "=q3=Blood Tiger Breastplate", "=ds=#s5#, #a2#"};
+		Prev = "LeatherworkingLeatherDevilsaurArmor";
+		Next = "LeatherworkingLeatherPrimalBatskin";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["PrimalBatskin"] = {
+	AtlasLoot_Data["LeatherworkingLeatherPrimalBatskin"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl6#", ""};
 		{ 2, 19685, "", "=q3=Primal Batskin Jerkin", "=ds=#s5#, #a2#"};
 		{ 3, 19687, "", "=q3=Primal Batskin Bracers", "=ds=#s8#, #a2#"};
 		{ 4, 19686, "", "=q3=Primal Batskin Gloves", "=ds=#s9#, #a2#"};
+		Prev = "LeatherworkingLeatherBloodTigerH";
+		Next = "LeatherworkingLeatherWildDraenishA";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["WildDraenishA"] = {
+	AtlasLoot_Data["LeatherworkingLeatherWildDraenishA"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl7#", ""};
 		{ 2, 25676, "", "=q2=Wild Draenish Vest", "=ds=#s5#, #a2#"};
 		{ 3, 25674, "", "=q2=Wild Draenish Gloves", "=ds=#s9#, #a2#"};
 		{ 4, 25675, "", "=q2=Wild Draenish Leggings", "=ds=#s11#, #a2#"};
 		{ 5, 25673, "", "=q2=Wild Draenish Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherPrimalBatskin";
+		Next = "LeatherworkingLeatherThickDraenicA";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["ThickDraenicA"] = {
+	AtlasLoot_Data["LeatherworkingLeatherThickDraenicA"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl8#", ""};
 		{ 2, 25671, "", "=q2=Thick Draenic Vest", "=ds=#s5#, #a2#"};
 		{ 3, 25669, "", "=q2=Thick Draenic Gloves", "=ds=#s9#, #a2#"};
 		{ 4, 25670, "", "=q2=Thick Draenic Pants", "=ds=#s11#, #a2#"};
 		{ 5, 25668, "", "=q2=Thick Draenic Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherWildDraenishA";
+		Next = "LeatherworkingLeatherFelSkin";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["FelSkin"] = {
+	AtlasLoot_Data["LeatherworkingLeatherFelSkin"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl9#", ""};
 		{ 2, 25685, "", "=q3=Fel Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 3, 25687, "", "=q3=Fel Leather Leggings", "=ds=#s11#, #a2#"};
 		{ 4, 25686, "", "=q3=Fel Leather Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherThickDraenicA";
+		Next = "LeatherworkingLeatherSClefthoof";
 		Back = "CRAFTSET2";
 	};
 
-	AtlasLoot_Data["SClefthoof"] = {
+	AtlasLoot_Data["LeatherworkingLeatherSClefthoof"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwl10#", ""};
 		{ 2, 25689, "", "=q3=Heavy Clefthoof Vest", "=ds=#s5#, #a2#"};
 		{ 3, 25690, "", "=q3=Heavy Clefthoof Leggings", "=ds=#s11#, #a2#"};
 		{ 4, 25691, "", "=q3=Heavy Clefthoof Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherFelSkin";
+		Next = "LeatherworkingLeatherPrimalIntent";
+		Back = "CRAFTSET2";
+	};
+
+	AtlasLoot_Data["LeatherworkingLeatherPrimalIntent"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwe1#", "=q1=#p11#"};
+		{ 2, 29525, "", "=q4=Primalstrike Vest", "=ds=#s5#, #a2#"};
+		{ 3, 29527, "", "=q4=Primalstrike Bracers", "=ds=#s8#, #a2#"};
+		{ 4, 29526, "", "=q4=Primalstrike Belt", "=ds=#s10#, #a2#"};
+		Prev = "LeatherworkingLeatherSClefthoof";
+		Next = "LeatherworkingLeatherWindhawkArmor";
+		Back = "CRAFTSET2";
+	};
+
+	AtlasLoot_Data["LeatherworkingLeatherWindhawkArmor"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwt1#", "=q1=#p10#"};
+		{ 2, 29522, "", "=q4=Windhawk Hauberk", "=ds=#s5#, #a2#"};
+		{ 3, 29523, "", "=q4=Windhawk Bracers", "=ds=#s8#, #a2#"};
+		{ 4, 29524, "", "=q4=Windhawk Belt", "=ds=#s10#, #a2#"};
+		Prev = "LeatherworkingLeatherPrimalIntent";
+		Next = "LeatherworkingLeatherBoreanEmbrace";
+		Back = "CRAFTSET2";
+	};
+
+	AtlasLoot_Data["LeatherworkingLeatherBoreanEmbrace"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwl11#", ""};
+		{ 2, 38437, "", "=q2=Arctic Helm", "=ds=#s1#, #a2#"};
+		{ 3, 38402, "", "=q2=Arctic Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 4, 38400, "", "=q2=Arctic Chestpiece", "=ds=#s5#, #a2#"};
+		{ 5, 38433, "", "=q2=Arctic Wristguards", "=ds=#s8#, #a2#"};
+		{ 6, 38403, "", "=q2=Arctic Gloves", "=ds=#s9#, #a2#"};
+		{ 7, 38405, "", "=q2=Arctic Belt", "=ds=#s10#, #a2#"};
+		{ 8, 38401, "", "=q2=Arctic Leggings", "=ds=#s11#, #a2#"};
+		{ 9, 38404, "", "=q2=Arctic Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherWindhawkArmor";
+		Next = "LeatherworkingLeatherIceborneEmbrace";
+		Back = "CRAFTSET2";
+	};
+
+	AtlasLoot_Data["LeatherworkingLeatherIceborneEmbrace"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwl12#", ""};
+		{ 2, 38438, "", "=q2=Iceborne Helm", "=ds=#s1#, #a2#"};
+		{ 3, 38411, "", "=q2=Iceborne Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 4, 38408, "", "=q2=Iceborne Chestguard", "=ds=#s5#, #a2#"};
+		{ 5, 38434, "", "=q2=Iceborne Wristguards", "=ds=#s8#, #a2#"};
+		{ 6, 38409, "", "=q2=Iceborne Gloves", "=ds=#s9#, #a2#"};
+		{ 7, 38406, "", "=q2=Iceborne Belt", "=ds=#s10#, #a2#"};
+		{ 8, 38410, "", "=q2=Iceborne Leggings", "=ds=#s11#, #a2#"};
+		{ 9, 38407, "", "=q2=Iceborne Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherBoreanEmbrace";
+		Next = "LeatherworkingLeatherEvisceratorBattlegear";
+		Back = "CRAFTSET2";
+	};
+
+	AtlasLoot_Data["LeatherworkingLeatherEvisceratorBattlegear"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwl13#", ""};
+		{ 2, 43260, "", "=q3=Eviscerator's Facemask", "=ds=#s1#, #a2#"};
+		{ 3, 43433, "", "=q3=Eviscerator's Shoulderpads", "=ds=#s3#, #a2#"};
+		{ 4, 43434, "", "=q3=Eviscerator's Chestguard", "=ds=#s5#, #a2#"};
+		{ 5, 43435, "", "=q3=Eviscerator's Bindings", "=ds=#s8#, #a2#"};
+		{ 6, 43436, "", "=q3=Eviscerator's Gauntlets", "=ds=#s9#, #a2#"};
+		{ 7, 43437, "", "=q3=Eviscerator's Waistguard", "=ds=#s10#, #a2#"};
+		{ 8, 43438, "", "=q3=Eviscerator's Legguards", "=ds=#s11#, #a2#"};
+		{ 9, 43439, "", "=q3=Eviscerator's Treads", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherIceborneEmbrace";
+		Next = "LeatherworkingLeatherOvercasterBattlegear";
+		Back = "CRAFTSET2";
+	};
+
+	AtlasLoot_Data["LeatherworkingLeatherOvercasterBattlegear"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwl14#", ""};
+		{ 2, 43261, "", "=q3=Overcast Headguard", "=ds=#s1#, #a2#"};
+		{ 3, 43262, "", "=q3=Overcast Spaulders", "=ds=#s3#, #a2#"};
+		{ 4, 43263, "", "=q3=Overcast Chestguard", "=ds=#s5#, #a2#"};
+		{ 5, 43264, "", "=q3=Overcast Bracers", "=ds=#s8#, #a2#"};
+		{ 6, 43265, "", "=q3=Overcast Handwraps", "=ds=#s9#, #a2#"};
+		{ 7, 43266, "", "=q3=Overcast Belt", "=ds=#s10#, #a2#"};
+		{ 8, 43271, "", "=q3=Overcast Leggings", "=ds=#s11#, #a2#"};
+		{ 9, 43273, "", "=q3=Overcast Boots", "=ds=#s12#, #a2#"};
+		Prev = "LeatherworkingLeatherEvisceratorBattlegear";
 		Back = "CRAFTSET2";
 	};
 
@@ -4796,110 +4942,171 @@ local MASTER = select(2, GetSpellInfo(28596));
 		--- Leatherworking Mail Sets ---
 		--------------------------------
 
-	AtlasLoot_Data["GreenDragonM"] = {
+	AtlasLoot_Data["LeatherworkingMailGreenDragonM"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm1#", "=q1=#j13#"};
 		{ 2, 15045, "", "=q3=Green Dragonscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 3, 20296, "", "=q3=Green Dragonscale Gauntlets", "=ds=#s9#, #a3#"};
 		{ 4, 15046, "", "=q3=Green Dragonscale Leggings", "=ds=#s11#, #a3#"};
-		Back = "CRAFTSET2";
+		Next = "LeatherworkingMailBlueDragonM";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["BlueDragonM"] = {
+	AtlasLoot_Data["LeatherworkingMailBlueDragonM"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm2#", "=q1=#j12#"};
 		{ 2, 15049, "", "=q3=Blue Dragonscale Shoulders", "=ds=#s3#, #a3#"};
 		{ 3, 15048, "", "=q3=Blue Dragonscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 4, 20295, "", "=q3=Blue Dragonscale Leggings", "=ds=#s11#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailGreenDragonM";
+		Next = "LeatherworkingMailBlackDragonM";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["BlackDragonM"] = {
+	AtlasLoot_Data["LeatherworkingMailBlackDragonM"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm3#", "=q1=#j11#"};
 		{ 2, 15051, "", "=q3=Black Dragonscale Shoulders", "=ds=#s3#, #a3#"};
 		{ 3, 15050, "", "=q3=Black Dragonscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 4, 15052, "", "=q3=Black Dragonscale Leggings", "=ds=#s11#, #a3#"};
 		{ 5, 16984, "", "=q4=Black Dragonscale Boots", "=ds=#s12#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailBlueDragonM";
+		Next = "LeatherworkingMailScaledDraenicA";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["ScaledDraenicA"] = {
+	AtlasLoot_Data["LeatherworkingMailScaledDraenicA"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm4#", ""};
 		{ 2, 25660, "", "=q2=Scaled Draenic Vest", "=ds=#s5#, #a3#"};
 		{ 3, 25661, "", "=q2=Scaled Draenic Gloves", "=ds=#s9#, #a3#"};
 		{ 4, 25662, "", "=q2=Scaled Draenic Pants", "=ds=#s11#, #a3#"};
 		{ 5, 25659, "", "=q2=Scaled Draenic Boots", "=ds=#s12#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailBlackDragonM";
+		Next = "LeatherworkingMailFelscaleArmor";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["FelscaleArmor"] = {
+	AtlasLoot_Data["LeatherworkingMailFelscaleArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm5#", ""};
 		{ 2, 25657, "", "=q2=Felscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 3, 25654, "", "=q2=Felscale Gloves", "=ds=#s9#, #a3#"};
 		{ 4, 25656, "", "=q2=Felscale Pants", "=ds=#s11#, #a3#"};
 		{ 5, 25655, "", "=q2=Felscale Boots", "=ds=#s12#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailScaledDraenicA";
+		Next = "LeatherworkingMailFelstalkerArmor";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["FelstalkerArmor"] = {
+	AtlasLoot_Data["LeatherworkingMailFelstalkerArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm6#", ""};
 		{ 2, 25696, "", "=q3=Felstalker Breastplate", "=ds=#s5#, #a3#"};
 		{ 3, 25697, "", "=q3=Felstalker Bracers", "=ds=#s8#, #a3#"};
 		{ 4, 25695, "", "=q3=Felstalker Belt", "=ds=#s10#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailFelscaleArmor";
+		Next = "LeatherworkingMailNetherFury";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["NetherFury"] = {
+	AtlasLoot_Data["LeatherworkingMailNetherFury"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwm7#", ""};
 		{ 2, 25694, "", "=q3=Netherfury Belt", "=ds=#s10#, #a3#"};
 		{ 3, 25692, "", "=q3=Netherfury Leggings", "=ds=#s11#, #a3#"};
 		{ 4, 25693, "", "=q3=Netherfury Boots", "=ds=#s12#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailFelstalkerArmor";
+		Next = "LeatherworkingMailNetherscaleArmor";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["PrimalIntent"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#craftlwe1#", "=q1=#p11#"};
-		{ 2, 29525, "", "=q4=Primalstrike Vest", "=ds=#s5#, #a2#"};
-		{ 3, 29527, "", "=q4=Primalstrike Bracers", "=ds=#s8#, #a2#"};
-		{ 4, 29526, "", "=q4=Primalstrike Belt", "=ds=#s10#, #a2#"};
-		Back = "CRAFTSET2";
-	};
-
-	AtlasLoot_Data["WindhawkArmor"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#craftlwt1#", "=q1=#p10#"};
-		{ 2, 29522, "", "=q4=Windhawk Hauberk", "=ds=#s5#, #a2#"};
-		{ 3, 29523, "", "=q4=Windhawk Bracers", "=ds=#s8#, #a2#"};
-		{ 4, 29524, "", "=q4=Windhawk Belt", "=ds=#s10#, #a2#"};
-		Back = "CRAFTSET2";
-	};
-
-	AtlasLoot_Data["NetherscaleArmor"] = {
+	AtlasLoot_Data["LeatherworkingMailNetherscaleArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwd1#", "=q1=#p9#"};
 		{ 2, 29515, "", "=q4=Ebon Netherscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 3, 29517, "", "=q4=Ebon Netherscale Bracers", "=ds=#s8#, #a3#"};
 		{ 4, 29516, "", "=q4=Ebon Netherscale Belt", "=ds=#s10#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailNetherFury";
+		Next = "LeatherworkingMailNetherstrikeArmor";
+		Back = "CRAFTSET3";
 	};
 
-	AtlasLoot_Data["NetherstrikeArmor"] = {
+	AtlasLoot_Data["LeatherworkingMailNetherstrikeArmor"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#craftlwd2#", "=q1=#p9#"};
 		{ 2, 29519, "", "=q4=Netherstrike Breastplate", "=ds=#s5#, #a3#"};
 		{ 3, 29521, "", "=q4=Netherstrike Bracers", "=ds=#s8#, #a3#"};
 		{ 4, 29520, "", "=q4=Netherstrike Belt", "=ds=#s10#, #a3#"};
-		Back = "CRAFTSET2";
+		Prev = "LeatherworkingMailNetherscaleArmor";
+		Next = "LeatherworkingMailFrostscaleBinding";
+		Back = "CRAFTSET3";
+	};
+
+	AtlasLoot_Data["LeatherworkingMailFrostscaleBinding"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwm8#", ""};
+		{ 2, 38440, "", "=q2=Frostscale Helm", "=ds=#s1#, #a3#"};
+		{ 3, 38424, "", "=q2=Frostscale Shoulders", "=ds=#s3#, #a3#"};
+		{ 4, 38414, "", "=q2=Frostscale Chestguard", "=ds=#s5#, #a3#"};
+		{ 5, 38436, "", "=q2=Frostscale Bracers", "=ds=#s8#, #a3#"};
+		{ 6, 38415, "", "=q2=Frostscale Gloves", "=ds=#s9#, #a3#"};
+		{ 7, 38412, "", "=q2=Frostscale Belt", "=ds=#s10#, #a3#"};
+		{ 8, 38416, "", "=q2=Frostscale Leggings", "=ds=#s11#, #a3#"};
+		{ 9, 38413, "", "=q2=Frostscale Boots", "=ds=#s12#, #a3#"};
+		Prev = "LeatherworkingMailNetherstrikeArmor";
+		Next = "LeatherworkingMailNerubianHive";
+		Back = "CRAFTSET3";
+	};
+
+	AtlasLoot_Data["LeatherworkingMailNerubianHive"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwm9#", ""};
+		{ 2, 38439, "", "=q2=Nerubian Helm", "=ds=#s1#, #a3#"};
+		{ 3, 38417, "", "=q2=Nerubian Shoulders", "=ds=#s3#, #a3#"};
+		{ 4, 38420, "", "=q2=Nerubian Chestguard", "=ds=#s5#, #a3#"};
+		{ 5, 38435, "", "=q2=Nerubian Bracers", "=ds=#s8#, #a3#"};
+		{ 6, 38421, "", "=q2=Nerubian Gloves", "=ds=#s9#, #a3#"};
+		{ 7, 38418, "", "=q2=Nerubian Belt", "=ds=#s10#, #a3#"};
+		{ 8, 38422, "", "=q2=Nerubian Legguards", "=ds=#s11#, #a3#"};
+		{ 9, 38419, "", "=q2=Nerubian Boots", "=ds=#s12#, #a3#"};
+		Prev = "LeatherworkingMailFrostscaleBinding";
+		Next = "LeatherworkingMailStormhideBattlegear";
+		Back = "CRAFTSET3";
+	};
+
+	AtlasLoot_Data["LeatherworkingMailStormhideBattlegear"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwm10#", ""};
+		{ 2, 43455, "", "=q3=Stormhide Crown", "=ds=#s1#, #a3#"};
+		{ 3, 43457, "", "=q3=Stormhide Shoulders", "=ds=#s3#, #a3#"};
+		{ 4, 43453, "", "=q3=Stormhide Hauberk", "=ds=#s5#, #a3#"};
+		{ 5, 43452, "", "=q3=Stormhide Wristguards", "=ds=#s8#, #a3#"};
+		{ 6, 43454, "", "=q3=Stormhide Grips", "=ds=#s9#, #a3#"};
+		{ 7, 43450, "", "=q3=Stormhide Belt", "=ds=#s10#, #a3#"};
+		{ 8, 43456, "", "=q3=Stormhide Legguards", "=ds=#s11#, #a3#"};
+		{ 9, 43451, "", "=q3=Stormhide Stompers", "=ds=#s12#, #a3#"};
+		Prev = "LeatherworkingMailNerubianHive";
+		Next = "LeatherworkingMailSwiftarrowBattlefear";
+		Back = "CRAFTSET3";
+	};
+
+	AtlasLoot_Data["LeatherworkingMailSwiftarrowBattlefear"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#craftlwm11#", ""};
+		{ 2, 43447, "", "=q3=Swiftarrow Helm", "=ds=#s1#, #a3#"};
+		{ 3, 43449, "", "=q3=Swiftarrow Shoulderguards", "=ds=#s3#, #a3#"};
+		{ 4, 43445, "", "=q3=Swiftarrow Hauberk", "=ds=#s5#, #a3#"};
+		{ 5, 43444, "", "=q3=Swiftarrow Bracers", "=ds=#s8#, #a3#"};
+		{ 6, 43446, "", "=q3=Swiftarrow Gauntlets", "=ds=#s9#, #a3#"};
+		{ 7, 43442, "", "=q3=Swiftarrow Belt", "=ds=#s10#, #a3#"};
+		{ 8, 43448, "", "=q3=Swiftarrow Leggings", "=ds=#s11#, #a3#"};
+		{ 9, 43443, "", "=q3=Swiftarrow Boots", "=ds=#s12#, #a3#"};
+		Prev = "LeatherworkingMailStormhideBattlegear";
+		Back = "CRAFTSET3";
 	};
 
 		----------------------
 		--- Tailoring Sets ---
 		----------------------
 
-	AtlasLoot_Data["BloodvineG"] = {
+	AtlasLoot_Data["TailoringBloodvineG"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt1#", ""};
 		{ 2, 19682, "", "=q3=Bloodvine Vest", "=ds=#s5#, #a1#"};
 		{ 3, 19683, "", "=q3=Bloodvine Leggings", "=ds=#s11#, #a1#"};
 		{ 4, 19684, "", "=q3=Bloodvine Boots", "=ds=#s12#, #a1#"};
-		Back = "CRAFTSET";
+		Next = "TailoringNeatherVest";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["NeatherVest"] = {
+	AtlasLoot_Data["TailoringNeatherVest"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt2#", ""};
 		{ 2, 21855, "", "=q2=Netherweave Tunic", "=ds=#s5#, #a1#"};
 		{ 3, 21854, "", "=q2=Netherweave Robe", "=ds=#s5#, #a1#"};
@@ -4908,84 +5115,150 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 6, 21850, "", "=q2=Netherweave Belt", "=ds=#s10#, #a1#"};
 		{ 7, 21852, "", "=q2=Netherweave Pants", "=ds=#s11#, #a1#"};
 		{ 8, 21853, "", "=q2=Netherweave Boots", "=ds=#s12#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringBloodvineG";
+		Next = "TailoringImbuedNeather";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["ImbuedNeather"] = {
+	AtlasLoot_Data["TailoringImbuedNeather"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt3#", ""};
 		{ 2, 21862, "", "=q3=Imbued Netherweave Tunic", "=ds=#s5#, #a1#"};
 		{ 3, 21861, "", "=q3=Imbued Netherweave Robe", "=ds=#s5#, #a1#"};
 		{ 4, 21859, "", "=q3=Imbued Netherweave Pants", "=ds=#s11#, #a1#"};
 		{ 5, 21860, "", "=q3=Imbued Netherweave Boots", "=ds=#s12#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringNeatherVest";
+		Next = "TailoringArcanoVest";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["ArcanoVest"] = {
+	AtlasLoot_Data["TailoringArcanoVest"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt4#", "=q1=#j12#"};
 		{ 2, 21868, "", "=q3=Arcanoweave Robe", "=ds=#s5#, #a1#"};
 		{ 3, 21866, "", "=q3=Arcanoweave Bracers", "=ds=#s8#, #a1#"};
 		{ 4, 21867, "", "=q3=Arcanoweave Boots", "=ds=#s12#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringImbuedNeather";
+		Next = "TailoringTheUnyielding";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["TheUnyielding"] = {
+	AtlasLoot_Data["TailoringTheUnyielding"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt5#", ""};
 		{ 2, 24249, "", "=q3=Unyielding Bracers", "=ds=#s8#, #a1#"};
 		{ 3, 24255, "", "=q4=Unyielding Girdle", "=ds=#s10#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringArcanoVest";
+		Next = "TailoringWhitemendWis";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["WhitemendWis"] = {
+	AtlasLoot_Data["TailoringWhitemendWis"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt6#", ""};
 		{ 2, 24264, "", "=q4=Whitemend Hood", "=ds=#s1#, #a1#"};
 		{ 3, 24261, "", "=q4=Whitemend Pants", "=ds=#s11#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringTheUnyielding";
+		Next = "TailoringSpellstrikeInfu";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["SpellstrikeInfu"] = {
+	AtlasLoot_Data["TailoringSpellstrikeInfu"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt7#", ""};
 		{ 2, 24266, "", "=q4=Spellstrike Hood", "=ds=#s1#, #a1#"};
 		{ 3, 24262, "", "=q4=Spellstrike Pants", "=ds=#s11#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringWhitemendWis";
+		Next = "TailoringBattlecastG";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["BattlecastG"] = {
+	AtlasLoot_Data["TailoringBattlecastG"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt8#", ""};
 		{ 2, 24267, "", "=q4=Battlecast Hood", "=ds=#s1#, #a1#"};
 		{ 3, 24263, "", "=q4=Battlecast Pants", "=ds=#s11#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringSpellstrikeInfu";
+		Next = "TailoringSoulclothEm";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["SoulclothEm"] = {
+	AtlasLoot_Data["TailoringSoulclothEm"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt9#", "=q1=#j12#"};
 		{ 2, 21864, "", "=q4=Soulcloth Shoulders", "=ds=#s3#, #a1#"};
 		{ 3, 21865, "", "=q4=Soulcloth Vest", "=ds=#s5#, #a1#"};
 		{ 4, 21863, "", "=q4=Soulcloth Gloves", "=ds=#s9#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringBattlecastG";
+		Next = "TailoringPrimalMoon";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["PrimalMoon"] = {
+	AtlasLoot_Data["TailoringPrimalMoon"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#crafttm1#", "=q1=#p19#"};
 		{ 2, 21874, "", "=q4=Primal Mooncloth Shoulders", "=ds=#s3#, #a1#"};
 		{ 3, 21875, "", "=q4=Primal Mooncloth Robe", "=ds=#s5#, #a1#"};
 		{ 4, 21873, "", "=q4=Primal Mooncloth Belt", "=ds=#s10#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringSoulclothEm";
+		Next = "TailoringShadowEmbrace";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["ShadowEmbrace"] = {
+	AtlasLoot_Data["TailoringShadowEmbrace"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#crafttsh1#", "=q1=#p20#"};
 		{ 2, 21869, "", "=q4=Frozen Shadoweave Shoulders", "=ds=#s3#, #a1#"};
 		{ 3, 21871, "", "=q4=Frozen Shadoweave Vest", "=ds=#s5#, #a1#"};
 		{ 4, 21870, "", "=q4=Frozen Shadoweave Boots", "=ds=#s12#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringPrimalMoon";
+		Next = "TailoringSpellfireWrath";
+		Back = "CRAFTSET4";
 	};
 
-	AtlasLoot_Data["SpellfireWrath"] = {
+	AtlasLoot_Data["TailoringSpellfireWrath"] = {
 		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#crafttsf1#", "=q1=#p21#"};
 		{ 2, 21848, "", "=q4=Spellfire Robe", "=ds=#s5#, #a1#"};
 		{ 3, 21847, "", "=q4=Spellfire Gloves", "=ds=#s9#, #a1#"};
 		{ 4, 21846, "", "=q4=Spellfire Belt", "=ds=#s10#, #a1#"};
-		Back = "CRAFTSET";
+		Prev = "TailoringShadowEmbrace";
+		Next = "TailoringFrostwovenPower";
+		Back = "CRAFTSET4";
+	};
+
+	AtlasLoot_Data["TailoringFrostwovenPower"] = {
+		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt10#", ""};
+		{ 2, 41521, "", "=q2=Frostwoven Cowl", "=ds=#s1#, #a1#"};
+		{ 3, 41513, "", "=q2=Frostwoven Shoulders", "=ds=#s3#, #a1#"};
+		{ 4, 41515, "", "=q2=Frostwoven Robe", "=ds=#s5#, #a1#"};
+		{ 5, 41512, "", "=q2=Frostwoven Wristwraps", "=ds=#s8#, #a1#"};
+		{ 6, 44211, "", "=q2=Frostwoven Gloves", "=ds=#s9#, #a1#"};
+		{ 7, 41522, "", "=q2=Frostwoven Belt", "=ds=#s10#, #a1#"};
+		{ 8, 41519, "", "=q2=Frostwoven Leggings", "=ds=#s11#, #a1#"};
+		{ 9, 41520, "", "=q2=Frostwoven Boots", "=ds=#s12#, #a1#"};
+		Prev = "TailoringSpellfireWrath";
+		Next = "TailoringDuskweaver";
+		Back = "CRAFTSET4";
+	};
+
+	AtlasLoot_Data["TailoringDuskweaver"] = {
+		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt11#", ""};
+		{ 2, 41546, "", "=q2=Duskweave Cowl", "=ds=#s1#, #a1#"};
+		{ 3, 41550, "", "=q2=Duskweave Shoulders", "=ds=#s3#, #a1#"};
+		{ 4, 41549, "", "=q2=Duskweave Robe", "=ds=#s5#, #a1#"};
+		{ 5, 41551, "", "=q2=Duskweave Wristwraps", "=ds=#s8#, #a1#"};
+		{ 6, 41545, "", "=q2=Duskweave Gloves", "=ds=#s9#, #a1#"};
+		{ 7, 41543, "", "=q2=Duskweave Belt", "=ds=#s10#, #a1#"};
+		{ 8, 41548, "", "=q2=Duskweave Leggings", "=ds=#s11#, #a1#"};
+		{ 9, 41544, "", "=q2=Duskweave Boots", "=ds=#s12#, #a1#"};
+		Prev = "TailoringFrostwovenPower";
+		Next = "TailoringFrostsavageBattlegear";
+		Back = "CRAFTSET4";
+	};
+
+	AtlasLoot_Data["TailoringFrostsavageBattlegear"] = {
+		{ 1, 0, "INV_Fabric_Linen_02", "=q6=#craftt12#", ""};
+		{ 2, 43971, "", "=q3=Frostsavage Cowl", "=ds=#s1#, #a1#"};
+		{ 3, 43973, "", "=q3=Frostsavage Shoulders", "=ds=#s3#, #a1#"};
+		{ 4, 43972, "", "=q3=Frostsavage Robe", "=ds=#s5#, #a1#"};
+		{ 5, 43974, "", "=q3=Frostsavage Bracers", "=ds=#s8#, #a1#"};
+		{ 6, 41516, "", "=q3=Frostsavage Gloves", "=ds=#s9#, #a1#"};
+		{ 7, 43969, "", "=q3=Frostsavage Belt", "=ds=#s10#, #a1#"};
+		{ 8, 43975, "", "=q3=Frostsavage Leggings", "=ds=#s11#, #a1#"};
+		{ 9, 43970, "", "=q3=Frostsavage Boots", "=ds=#s12#, #a1#"};
+		Prev = "TailoringDuskweaver";
+		Back = "CRAFTSET4";
 	};
 
 	-------------

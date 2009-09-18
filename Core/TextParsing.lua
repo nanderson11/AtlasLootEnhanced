@@ -547,7 +547,11 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#f8#", BabbleFaction["The Wyrmrest Accord"]);
     text = gsub(text, "#f9#", AL["Argent Tournament"]);
 
-    -- Blacksmithing Crafted Sets
+    -- Blacksmithing Crafted Mail Sets
+    text = gsub(text, "#craftbm1#", AL["Bloodsoul Embrace"]);
+    text = gsub(text, "#craftbm2#", AL["Fel Iron Chain"]);
+
+    -- Blacksmithing Crafted Plate Sets
     text = gsub(text, "#craftbp1#", AL["Imperial Plate"]);
     text = gsub(text, "#craftbp2#", AL["The Darksoul"]);
     text = gsub(text, "#craftbp3#", AL["Fel Iron Plate"]);
@@ -557,8 +561,41 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#craftbp7#", AL["Khorium Ward"]);
     text = gsub(text, "#craftbp8#", AL["Faith in Felsteel"]);
     text = gsub(text, "#craftbp9#", AL["Burning Rage"]);
-    text = gsub(text, "#craftbm1#", AL["Bloodsoul Embrace"]);
-    text = gsub(text, "#craftbm2#", AL["Fel Iron Chain"]);
+    text = gsub(text, "#craftbp10#", AL["Ornate Saronite Battlegear"]);
+    text = gsub(text, "#craftbp11#", AL["Savage Saronite Battlegear"]);
+
+    -- Leatherworking Crafted Leather Sets
+    text = gsub(text, "#craftlwl1#", AL["Volcanic Armor"]);
+    text = gsub(text, "#craftlwl2#", AL["Ironfeather Armor"]);
+    text = gsub(text, "#craftlwl3#", AL["Stormshroud Armor"]);
+    text = gsub(text, "#craftlwl4#", AL["Devilsaur Armor"]);
+    text = gsub(text, "#craftlwl5#", AL["Blood Tiger Harness"]);
+    text = gsub(text, "#craftlwl6#", AL["Primal Batskin"]);
+    text = gsub(text, "#craftlwl7#", AL["Wild Draenish Armor"]);
+    text = gsub(text, "#craftlwl8#", AL["Thick Draenic Armor"]);
+    text = gsub(text, "#craftlwl9#", AL["Fel Skin"]);
+    text = gsub(text, "#craftlwl10#", AL["Strength of the Clefthoof"]);
+    text = gsub(text, "#craftlwe1#", AL["Primal Intent"]);
+    text = gsub(text, "#craftlwt1#", AL["Windhawk Armor"]);
+    text = gsub(text, "#craftlwl11#", AL["Borean Embrace"]);
+    text = gsub(text, "#craftlwl12#", AL["Iceborne Embrace"]);
+    text = gsub(text, "#craftlwl13#", AL["Eviscerator's Battlegear"]);
+    text = gsub(text, "#craftlwl14#", AL["Overcaster Battlegear"]);
+
+    -- Leatherworking Crafted Mail Sets
+    text = gsub(text, "#craftlwm1#", AL["Green Dragon Mail"]);
+    text = gsub(text, "#craftlwm2#", AL["Blue Dragon Mail"]);
+    text = gsub(text, "#craftlwm3#", AL["Black Dragon Mail"]);
+    text = gsub(text, "#craftlwm4#", AL["Scaled Draenic Armor"]);
+    text = gsub(text, "#craftlwm5#", AL["Felscale Armor"]);
+    text = gsub(text, "#craftlwm6#", AL["Felstalker Armor"]);
+    text = gsub(text, "#craftlwm7#", AL["Fury of the Nether"]);
+    text = gsub(text, "#craftlwd1#", AL["Netherscale Armor"]);
+    text = gsub(text, "#craftlwd2#", AL["Netherstrike Armor"]);
+    text = gsub(text, "#craftlwm8#", AL["Frostscale Binding"]);
+    text = gsub(text, "#craftlwm9#", AL["Nerubian Hive"]);
+    text = gsub(text, "#craftlwm10#", AL["Stormhide Battlegear"]);
+    text = gsub(text, "#craftlwm11#", AL["Swiftarrow Battlefear"]);
 
     -- Tailoring Crafted Sets
     text = gsub(text, "#craftt1#", AL["Bloodvine Garb"]);
@@ -573,29 +610,9 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#crafttm1#", AL["Primal Mooncloth"]);
     text = gsub(text, "#crafttsh1#", AL["Shadow's Embrace"]);
     text = gsub(text, "#crafttsf1#", AL["Wrath of Spellfire"]);
-
-    -- Leatherworking Crafted Sets
-    text = gsub(text, "#craftlwl1#", AL["Volcanic Armor"]);
-    text = gsub(text, "#craftlwl2#", AL["Ironfeather Armor"]);
-    text = gsub(text, "#craftlwl3#", AL["Stormshroud Armor"]);
-    text = gsub(text, "#craftlwl4#", AL["Devilsaur Armor"]);
-    text = gsub(text, "#craftlwl5#", AL["Blood Tiger Harness"]);
-    text = gsub(text, "#craftlwl6#", AL["Primal Batskin"]);
-    text = gsub(text, "#craftlwl7#", AL["Wild Draenish Armor"]);
-    text = gsub(text, "#craftlwl8#", AL["Thick Draenic Armor"]);
-    text = gsub(text, "#craftlwl9#", AL["Fel Skin"]);
-    text = gsub(text, "#craftlwl10#", AL["Strength of the Clefthoof"]);
-    text = gsub(text, "#craftlwm1#", AL["Green Dragon Mail"]);
-    text = gsub(text, "#craftlwm2#", AL["Blue Dragon Mail"]);
-    text = gsub(text, "#craftlwm3#", AL["Black Dragon Mail"]);
-    text = gsub(text, "#craftlwm4#", AL["Scaled Draenic Armor"]);
-    text = gsub(text, "#craftlwm5#", AL["Felscale Armor"]);
-    text = gsub(text, "#craftlwm6#", AL["Felstalker Armor"]);
-    text = gsub(text, "#craftlwm7#", AL["Fury of the Nether"]);
-    text = gsub(text, "#craftlwe1#", AL["Primal Intent"]);
-    text = gsub(text, "#craftlwt1#", AL["Windhawk Armor"]);
-    text = gsub(text, "#craftlwd1#", AL["Netherscale Armor"]);
-    text = gsub(text, "#craftlwd2#", AL["Netherstrike Armor"]);
+    text = gsub(text, "#craftt10#", AL["Frostwoven Power"]);
+    text = gsub(text, "#craftt11#", AL["Duskweaver"]);
+    text = gsub(text, "#craftt12#", AL["Frostsavage Battlegear"]);
 
     -- Vanilla WoW Sets
     text = gsub(text, "#pre60s1#", AL["Defias Leather"]);

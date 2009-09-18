@@ -631,7 +631,11 @@ if AL then
 	AL["Husk of the Old God"] = true;
 	AL["Carapace of the Old God"] = true;
 
-	-- Blacksmithing Crafted Sets
+	-- Blacksmithing Mail Crafted Sets
+	AL["Bloodsoul Embrace"] = true;
+	AL["Fel Iron Chain"] = true;
+
+	-- Blacksmithing Plate Crafted Sets
 	AL["Imperial Plate"] = true;
 	AL["The Darksoul"] = true;
 	AL["Fel Iron Plate"] = true;
@@ -641,8 +645,41 @@ if AL then
 	AL["Khorium Ward"] = true;
 	AL["Faith in Felsteel"] = true;
 	AL["Burning Rage"] = true;
-	AL["Bloodsoul Embrace"] = true;
-	AL["Fel Iron Chain"] = true;
+	AL["Ornate Saronite Battlegear"] = true;
+	AL["Savage Saronite Battlegear"] = true;
+
+	-- Leatherworking Crafted Leather Sets
+	AL["Volcanic Armor"] = true;
+	AL["Ironfeather Armor"] = true;
+	AL["Stormshroud Armor"] = true;
+	AL["Devilsaur Armor"] = true;
+	AL["Blood Tiger Harness"] = true;
+	AL["Primal Batskin"] = true;
+	AL["Wild Draenish Armor"] = true;
+	AL["Thick Draenic Armor"] = true;
+	AL["Fel Skin"] = true;
+	AL["Strength of the Clefthoof"] = true;
+	AL["Primal Intent"] = true;
+	AL["Windhawk Armor"] = true;
+	AL["Borean Embrace"] = true;
+	AL["Iceborne Embrace"] = true;
+	AL["Eviscerator's Battlegear"] = true;
+	AL["Overcaster Battlegear"] = true;
+
+	-- Leatherworking Crafted Mail Sets
+	AL["Green Dragon Mail"] = true;
+	AL["Blue Dragon Mail"] = true;
+	AL["Black Dragon Mail"] = true;
+	AL["Scaled Draenic Armor"] = true;
+	AL["Felscale Armor"] = true;
+	AL["Felstalker Armor"] = true;
+	AL["Fury of the Nether"] = true;
+	AL["Netherscale Armor"] = true;
+	AL["Netherstrike Armor"] = true;
+	AL["Frostscale Binding"] = true;
+	AL["Nerubian Hive"] = true;
+	AL["Stormhide Battlegear"] = true;
+	AL["Swiftarrow Battlefear"] = true;
 
 	-- Tailoring Crafted Sets
 	AL["Bloodvine Garb"] = true;
@@ -657,29 +694,9 @@ if AL then
 	AL["Primal Mooncloth"] = true;
 	AL["Shadow's Embrace"] = true;
 	AL["Wrath of Spellfire"] = true;
-
-	-- Leatherworking Crafted Sets
-	AL["Volcanic Armor"] = true;
-	AL["Ironfeather Armor"] = true;
-	AL["Stormshroud Armor"] = true;
-	AL["Devilsaur Armor"] = true;
-	AL["Blood Tiger Harness"] = true;
-	AL["Primal Batskin"] = true;
-	AL["Wild Draenish Armor"] = true;
-	AL["Thick Draenic Armor"] = true;
-	AL["Fel Skin"] = true;
-	AL["Strength of the Clefthoof"] = true;
-	AL["Green Dragon Mail"] = true;
-	AL["Blue Dragon Mail"] = true;
-	AL["Black Dragon Mail"] = true;
-	AL["Scaled Draenic Armor"] = true;
-	AL["Felscale Armor"] = true;
-	AL["Felstalker Armor"] = true;
-	AL["Fury of the Nether"] = true;
-	AL["Primal Intent"] = true;
-	AL["Windhawk Armor"] = true;
-	AL["Netherscale Armor"] = true;
-	AL["Netherstrike Armor"] = true;
+	AL["Frostwoven Power"] = true;
+	AL["Duskweaver"] = true;
+	AL["Frostsavage Battlegear"] = true;
 
 	-- Classic WoW Sets
 	AL["Defias Leather"] = true;
@@ -1077,7 +1094,7 @@ if AL then
 	AL["Savage Gladiator\'s Weapons"] = true; --unused
 	AL["Deadly Gladiator\'s Weapons"] = true; --unused
 	AL["Furious Gladiator\'s Weapons"] = true;
-    AL["Relentless Gladiator\'s Weapons"] = true;
+	AL["Relentless Gladiator\'s Weapons"] = true;
 
 	-- Specs
 	AL["Balance"] = true;
