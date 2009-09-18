@@ -152,7 +152,7 @@ if AL then
 	AL["Dungeon 3 Sets"] = "Комплекты: Подземелья 3";
     AL["Legendary Items"] = "Легендарные предметы";
 	AL["Mounts"] = "Ездовые животные";
-    AL["Non-Combat Pets"] = "Не-Боевые питомци";
+    AL["Vanity Pets"] = "Не-Боевые питомци";
     AL["Misc Sets"] = "Различные комплекты";
     AL["Classic Sets"] = "Классические комплекты";
     AL["Burning Crusade Sets"] = "Комплекты BC";
@@ -336,9 +336,9 @@ if AL then
     AL["16 Slot"] = "16 ячеек";
     AL["10 Slot"] = "10 ячеек";
     AL["(has random enchantment)"] = "(случайные статы)";
-    AL["Use to purchase rewards"] = "Испол-ся для покупки наград";
-    AL["Use to purchase rewards (Horde)"] = "Испол-ся для покупки наград (Орда)";
-    AL["Use to purchase rewards (Alliance)"] = "Испол-ся для покупки наград (Альянс)";
+    AL["Currency"] = "Испол-ся для покупки наград";
+    AL["Currency (Horde)"] = "Испол-ся для покупки наград (Орда)";
+    AL["Currency (Alliance)"] = "Испол-ся для покупки наград (Альянс)";
 	AL["Conjured Item"] = "Сотворенный предмет";
 	AL["Used to summon boss"] = "Испол-ся для призыва босса";
 	AL["Tradable against sunmote + item above"] = "В обмен на Частицу солнца + предметы выше";

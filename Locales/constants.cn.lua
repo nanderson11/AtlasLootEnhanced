@@ -273,9 +273,9 @@ if AL then
 	AL["16 Slot"] = "16格";
 	AL["10 Slot"] = "10格";
 	AL["(has random enchantment)"] = "(随机附魔)";
-	AL["Use to purchase rewards"] = "用以购买奖励";
-	AL["Use to purchase rewards (Horde)"] = "用以购买奖励 (部落)";
-	AL["Use to purchase rewards (Alliance)"] = "用以购买奖励 (联盟)";
+	AL["Currency"] = "用以购买奖励";
+	AL["Currency (Horde)"] = "用以购买奖励 (部落)";
+	AL["Currency (Alliance)"] = "用以购买奖励 (联盟)";
 	AL["World Bosses"] = "世界首领";
 	AL["Reputation Factions"] = "声望阵营";
 	AL["Sets/Collections"] = "套装/收藏";
@@ -925,7 +925,7 @@ if AL then
 
 	--Pets
 	AL["Pets"] = "宠物";
-	AL["Non-Combat Pets"] = "非战斗宠物";
+	AL["Vanity Pets"] = "非战斗宠物";
 
 	--Mounts
 	AL["Mounts"] = "坐骑";

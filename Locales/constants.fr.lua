@@ -152,7 +152,7 @@ if AL then
 	AL["Dungeon 3 Sets"] = "Sets Donjon 3";
 	AL["Legendary Items"] = "Objets légendaires";
 	AL["Mounts"] = "Montures";
-	AL["Non-Combat Pets"] = "Familiers";
+	AL["Vanity Pets"] = "Familiers";
 	AL["Misc Sets"] = "Sets divers";
 	AL["Classic Sets"] = "Sets classique";
 	AL["Burning Crusade Sets"] = "Sets Burning Crusade";
@@ -340,9 +340,9 @@ if AL then
 	AL["16 Slot"] = "16 emplacements";
 	AL["10 Slot"] = "10 emplacements";
 	AL["(has random enchantment)"] = "(caractéristiques aléatoires)";
-	AL["Use to purchase rewards"] = "Utiliser pour acheter des récompenses";
-	AL["Use to purchase rewards (Horde)"] = "Pour obtenir les récompenses (Horde)";
-	AL["Use to purchase rewards (Alliance)"] = "Pour obtenir les récompenses (Alliance)";
+	AL["Currency"] = "Utiliser pour acheter des récompenses";
+	AL["Currency (Horde)"] = "Pour obtenir les récompenses (Horde)";
+	AL["Currency (Alliance)"] = "Pour obtenir les récompenses (Alliance)";
 	AL["Conjured Item"] = "Objet Conjuré";
 	AL["Used to summon boss"] = "Utilisé pour invoquer un boss";
 	AL["Tradable against sunmote + item above"] = "Echangeable contre une Granule de soleil + l'objet du dessus";

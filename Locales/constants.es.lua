@@ -150,7 +150,7 @@ if AL then
 	AL["Dungeon 3 Sets"] = "Conjuntos de Mazmorra 3";
 	AL["Legendary Items"] = "Objetos legendários";
 	AL["Mounts"] = "Monturas";
-	AL["Non-Combat Pets"] = "Mascotas No-Combate";
+	AL["Vanity Pets"] = "Mascotas No-Combate";
 	AL["Misc Sets"] = "Conjuntos varios";
 	AL["Classic Sets"] = "Conjuntos WoW Clásico";
 	AL["Burning Crusade Sets"] = "Conjuntos Burning Crusade";
@@ -335,9 +335,9 @@ if AL then
 	AL["16 Slot"] = "16 huecos";
 	AL["10 Slot"] = "10 huecos";
 	AL["(has random enchantment)"] = "(añade un encantamiento aleatorio)";
-	AL["Use to purchase rewards"] = "Utiliza recompensas para comprarlo";
-	AL["Use to purchase rewards (Horde)"] = "Utiliza recompensas para comprarlo (Horda)";
-	AL["Use to purchase rewards (Alliance)"] = "Utiliza recompensas para comprarlo (Alianza)";
+	AL["Currency"] = "Utiliza recompensas para comprarlo";
+	AL["Currency (Horde)"] = "Utiliza recompensas para comprarlo (Horda)";
+	AL["Currency (Alliance)"] = "Utiliza recompensas para comprarlo (Alianza)";
 	AL["Conjured Item"] = "Objetos conjurados";
 	AL["Used to summon boss"] = "Utilizados para invocar jefe";
 	AL["Tradable against sunmote + item above"] = "Intercambiable";

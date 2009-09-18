@@ -12,7 +12,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 7, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 		{ 8, "Legendaries", "INV_Staff_Medivh", "=ds="..AL["Legendary Items"], ""};
 		{ 9, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
-		{ 10, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Non-Combat Pets"], ""};
+		{ 10, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
 		{ 11, "Tabards3", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
 		{ 12, "CardGame1", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Upper Deck Card Game Items"], ""};
 		{ 14, "PVPMENU", "INV_Axe_02", "=ds="..AL["PvP Rewards"], ""};

@@ -199,9 +199,9 @@ if AL then
     AL["16 Slot"] = "16 Platz";
     AL["10 Slot"] = "10 Platz";
     AL["(has random enchantment)"] = "(zufällige Verzauberung)";
-    AL["Use to purchase rewards"] = "Zum Kaufen von Belohnungen";
-    AL["Use to purchase rewards (Horde)"] = "Zum Kaufen von Belohnungen (Horde)";
-    AL["Use to purchase rewards (Alliance)"] = "Zum Kaufen von Belohnungen (Allianz)";
+    AL["Currency"] = "Zum Kaufen von Belohnungen";
+    AL["Currency (Horde)"] = "Zum Kaufen von Belohnungen (Horde)";
+    AL["Currency (Alliance)"] = "Zum Kaufen von Belohnungen (Allianz)";
     AL["World Bosses"] = "Weltbosse";
     AL["Reputation Factions"] = "Ruf-Fraktionen";
     AL["Sets/Collections"] = "Sets/Sammlungen";

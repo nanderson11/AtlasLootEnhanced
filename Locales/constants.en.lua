@@ -153,7 +153,7 @@ if AL then
 	AL["Dungeon 3 Sets"] = true;
 	AL["Legendary Items"] = true;
 	AL["Mounts"] = true;
-	AL["Non-Combat Pets"] = true;
+	AL["Vanity Pets"] = true;
 	AL["Misc Sets"] = true;
 	AL["Classic Sets"] = true;
 	AL["Burning Crusade Sets"] = true;
@@ -341,9 +341,9 @@ if AL then
 	AL["16 Slot"] = true;
 	AL["10 Slot"] = true;
 	AL["(has random enchantment)"] = true;
-	AL["Use to purchase rewards"] = true;
-	AL["Use to purchase rewards (Horde)"] = true;
-	AL["Use to purchase rewards (Alliance)"] = true;
+	AL["Currency"] = true;
+	AL["Currency (Alliance)"] = true;
+	AL["Currency (Horde)"] = true;
 	AL["Conjured Item"] = true;
 	AL["Used to summon boss"] = true;
 	AL["Tradable against sunmote + item above"] = true;

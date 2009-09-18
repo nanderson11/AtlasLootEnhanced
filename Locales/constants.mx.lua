@@ -283,9 +283,9 @@ if AL then
 	AL["16 Slot"] = "16 huecos";
 	AL["10 Slot"] = "10 huecos";
 	AL["(has random enchantment)"] = "(añade un encantamiento aleatorio)";
-	AL["Use to purchase rewards"] = "Utiliza recompensas para comprarlo";
-	AL["Use to purchase rewards (Horde)"] = "Utiliza recompensas para comprarlo (Horda)";
-	AL["Use to purchase rewards (Alliance)"] = "Utiliza recompensas para comprarlo (Alianza)";
+	AL["Currency"] = "Utiliza recompensas para comprarlo";
+	AL["Currency (Horde)"] = "Utiliza recompensas para comprarlo (Horda)";
+	AL["Currency (Alliance)"] = "Utiliza recompensas para comprarlo (Alianza)";
 	AL["World Bosses"] = "Jefes del Mundo";
 	AL["Reputation Factions"] = "Reputación con facciones";
 	AL["Sets/Collections"] = "Conjuntos/Colecciones";
@@ -962,7 +962,7 @@ if AL then
 	
 	--Pets
 	AL["Pets"] = "Mascotas";
-	AL["Non-Combat Pets"] = "Mascotas No-Combate";
+	AL["Vanity Pets"] = "Mascotas No-Combate";
 
 	--Mounts
 	AL["Mounts"] = "Monturas";

@@ -150,9 +150,9 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m14#", AL["18 Slot"]);
     text = gsub(text, "#m15#", AL["20 Slot"]);
     text = gsub(text, "#m16#", AL["(has random enchantment)"]);
-    text = gsub(text, "#m17#", AL["Use to purchase rewards"]);
-    text = gsub(text, "#m18#", AL["Use to purchase rewards (Alliance)"]);
-    text = gsub(text, "#m19#", AL["Use to purchase rewards (Horde)"]);
+    text = gsub(text, "#m17#", AL["Currency"]);
+    text = gsub(text, "#m18#", AL["Currency (Alliance)"]);
+    text = gsub(text, "#m19#", AL["Currency (Horde)"]);
     text = gsub(text, "#m20#", AL["Misc"]);
     text = gsub(text, "#m21#", AL["Tier 4"]);
     text = gsub(text, "#m22#", AL["Tier 5"]);
