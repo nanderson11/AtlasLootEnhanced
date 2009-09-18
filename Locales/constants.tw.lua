@@ -1242,7 +1242,6 @@ if AL then
 	AL["Bjarngrim"] = "畢亞格林"; --Is in BabbleBoss
 	AL["Loken"] = "洛肯"; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = "時光流逝元龍";
-	AL["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆"; --Is in BabbleBoss
 	AL["Faction Champions"] = "陣營勇士"; -- if you have a better name, use it.
 
 	--Zones

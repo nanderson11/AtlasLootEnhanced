@@ -1243,7 +1243,6 @@ if AL then
 	AL["Bjarngrim"] = true; -- Is in BabbleBoss
 	AL["Loken"] = true; -- Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
-	AL["Emalon the Storm Watcher"] = true; -- Is in BabbleBoss
 	AL["Faction Champions"] = true; -- if you have a better name, use it.
 
 	-- Zones

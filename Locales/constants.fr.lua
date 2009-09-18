@@ -1242,7 +1242,6 @@ if AL then
 	--AL["Bjarngrim"] = true; --Is in BabbleBoss
 	--AL["Loken"] = true;
 	AL["Time-Lost Proto Drake"] = "Rênes de proto-drake perdu dans le temps";
-	AL["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage"; --Is in BabbleBoss
 
 	-- Zones
 	--AL["World Drop"] = true,

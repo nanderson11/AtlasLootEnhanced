@@ -813,14 +813,14 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
 	},
 	["VaultofArchavon_A"] = {
-		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon" },
-		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon" },
-		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon_A" },
+		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
+		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
+		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_A" },
 	},
 	["VaultofArchavon_H"] = {
-		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon" },
-		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon" },
-		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon_H" },
+		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
+		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
+		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_H" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },

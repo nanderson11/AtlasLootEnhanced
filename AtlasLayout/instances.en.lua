@@ -313,9 +313,9 @@ AtlasLootNewBossButtons = {
 
     VaultOfArchavon = {
         "";
-        "VoAArchavon1";
-        "Emalon";
-        "";
+        "VaultofArchavonArchavon1";
+        "VaultofArchavonEmalon1";
+        "VaultofArchavonKoralon1_A";
         };
 
     VioletHold = {

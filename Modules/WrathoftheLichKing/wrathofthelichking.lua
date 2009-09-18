@@ -1126,7 +1126,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--- Vault of Archavon ---
 		-------------------------
 
-	AtlasLoot_Data["VaultofArchavonArchavon"] = {
+	AtlasLoot_Data["VaultofArchavonArchavon1"] = {
 		{ 1, 39492, "", "=q4=Heroes' Frostfire Robe", "=ds=#s5#, #a1#", "", ""};
 		{ 2, 39495, "", "=q4=Heroes' Frostfire Gloves", "=ds=#s9#, #a1#", "", ""};
 		{ 3, 39493, "", "=q4=Heroes' Frostfire Leggings", "=ds=#s11#, #a1#", "", ""};
@@ -1179,7 +1179,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41648, "", "=q4=Hateful Gladiator's Leather Tunic", "=ds=#s5#, #a2#", "", ""};
 		{ 29, 41765, "", "=q4=Hateful Gladiator's Leather Gloves", "=ds=#s9#, #a2#", "", ""};
 		{ 30, 41653, "", "=q4=Hateful Gladiator's Leather Legguards", "=ds=#s11#, #a2#", "", ""};
-		Prev = "VaultofArchavonArchavon";
+		Prev = "VaultofArchavonArchavon1";
 		Next = "VaultofArchavonArchavon3";
 	};
 
@@ -1257,7 +1257,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonArchavon4";
 	};
 
-	AtlasLoot_Data["VaultofArchavonArchavon25Man"] = {
+	AtlasLoot_Data["VaultofArchavonArchavon125Man"] = {
 		{ 1, 40418, "", "=q4=Valorous Frostfire Robe", "=ds=#s5#, #a1#", "", ""};
 		{ 2, 40415, "", "=q4=Valorous Frostfire Gloves", "=ds=#s9#, #a1#", "", ""};
 		{ 3, 40417, "", "=q4=Valorous Frostfire Leggings", "=ds=#s11#, #a1#", "", ""};
@@ -1310,7 +1310,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 41649, "", "=q4=Deadly Gladiator's Leather Tunic", "=ds=#s5#, #a2#", "", ""};
 		{ 29, 41766, "", "=q4=Deadly Gladiator's Leather Gloves", "=ds=#s9#, #a2#", "", ""};
 		{ 30, 41654, "", "=q4=Deadly Gladiator's Leather Legguards", "=ds=#s11#, #a2#", "", ""};
-		Prev = "VaultofArchavonArchavon25Man";
+		Prev = "VaultofArchavonArchavon125Man";
 		Next = "VaultofArchavonArchavon325Man";
 	};
 
@@ -1379,7 +1379,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds=#s5#, #a4#", "", ""};
 		{ 10, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds=#s9#, #a4#", "", ""};
 		{ 11, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds=#s11#, #a4#", "", ""};
-		{ 16, 40753, "", "=q4=Emblem of Valor", "=ds=#e15#", "", "100%"};
+		{ 16, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 17, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
 		{ 18, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		{ 20, 40786, "", "=q4=Deadly Gladiator's Plate Chestpiece", "=ds=#s5#, #a4#", "", ""};
@@ -1387,55 +1387,55 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 22, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=#s11#, #a4#", "", ""};
 		Prev = "VaultofArchavonArchavon425Man";
 	};
-	
-	AtlasLoot_Data["VaultofArchavonEmalon"] = {
+
+	AtlasLoot_Data["VaultofArchavonEmalon1"] = {
 		
 		Next = "VaultofArchavonEmalon2";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon2"] = {
 		
-		Prev = "VaultofArchavonEmalon";
+		Prev = "VaultofArchavonEmalon1";
 		Next = "VaultofArchavonEmalon3";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon3"] = {
 		
 		Prev = "VaultofArchavonEmalon2";
 		Next = "VaultofArchavonEmalon4";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon4"] = {
 		
 		Prev = "VaultofArchavonEmalon3";
 		Next = "VaultofArchavonEmalon5";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon5"] = {
 		
 		Prev = "VaultofArchavonEmalon4";
 		Next = "VaultofArchavonEmalon6";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon6"] = {
 		
 		Prev = "VaultofArchavonEmalon5";
 		Next = "VaultofArchavonEmalon7";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon7"] = {
 		
 		Prev = "VaultofArchavonEmalon6";
 		Next = "VaultofArchavonEmalon8";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon8"] = {
 		
 		Prev = "VaultofArchavonEmalon7";
 	};
-	
-	AtlasLoot_Data["VaultofArchavonEmalon25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+
+	AtlasLoot_Data["VaultofArchavonEmalon125Man"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 46132, "", "=q4=Conqueror's Kirin'dor Gauntlets", "=ds=#s9#, #a1#"};
 		{ 3, 46133, "", "=q4=Conqueror's Kirin'dor Leggings", "=ds=#s11#, #a1#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
@@ -1444,24 +1444,24 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 10, 46163, "", "=q4=Conqueror's Handwraps of Sanctification", "=ds=#s9#, #a1#"};
 		{ 11, 46170, "", "=q4=Conqueror's Pants of Sanctification", "=ds=#s11#, #a1#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 14, 46135, "", "=q4=Conqueror's Deathbringer Gloves", "=ds=#s9#, #a1#"};
 		{ 15, 46139, "", "=q4=Conqueror's Deathbringer Leggings", "=ds=#s11#, #a1#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 17, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
 		{ 18, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 		{ 21, 41874, "", "=q4=Furious Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
 		{ 22, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 25, 41940, "", "=q4=Furious Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
 		{ 26, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42017, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
 		Next = "VaultofArchavonEmalon225Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon225Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 46189, "", "=q4=Conqueror's Nightsong Gloves", "=ds=#s9#, #a2#"};
@@ -1472,27 +1472,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 10, 46183, "", "=q4=Conqueror's Nightsong Handguards", "=ds=#s9#, #a2#"};
 		{ 11, 46185, "", "=q4=Conqueror's Nightsong Leggings", "=ds=#s11#, #a2#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 14, 46124, "", "=q4=Conqueror's Terrorblade Gauntlets", "=ds=#s9#, #a2#"};
 		{ 15, 46126, "", "=q4=Conqueror's Terrorblade Legplates", "=ds=#s11#, #a2#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 17, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
 		{ 18, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
 		{ 21, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
 		{ 22, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 25, 41287, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
 		{ 26, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41767, "", "=q4=Furious Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonEmalon25Man";
+		Prev = "VaultofArchavonEmalon125Man";
 		Next = "VaultofArchavonEmalon325Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon325Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 46142, "", "=q4=Conqueror's Deathbringer Handguards", "=ds=#s9#, #a3#"};
 		{ 3, 46144, "", "=q4=Conqueror's Deathbringer Legguards", "=ds=#s11#, #a3#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
@@ -1504,22 +1504,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 14, 46199, "", "=q4=Conqueror's Worldbreaker Handguards", "=ds=#s9#, #a3#"};
 		{ 15, 46202, "", "=q4=Conqueror's Worldbreaker Legguards", "=ds=#s11#, #a3#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 17, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
 		{ 18, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
 		{ 21, 41007, "", "=q4=Furious Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 22, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
 		{ 25, 41137, "", "=q4=Furious Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
 		{ 26, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41001, "", "=q4=Furious Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 		Prev = "VaultofArchavonEmalon225Man";
 		Next = "VaultofArchavonEmalon425Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon425Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 46113, "", "=q4=Conqueror's Darkruned Gauntlets", "=ds=#s9#, #a4#"};
@@ -1533,36 +1533,36 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 14, 46155, "", "=q4=Conqueror's Aegis Gauntlets", "=ds=#s9#, #a4#"};
 		{ 15, 46153, "", "=q4=Conqueror's Aegis Legplates", "=ds=#s11#, #a4#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 17, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 18, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
 		{ 25, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
 		{ 26, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonEmalon325Man";
 		Next = "VaultofArchavonEmalon525Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon525Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 46174, "", "=q4=Conqueror's Aegis Handguards", "=ds=#s9#, #a4#"};
 		{ 3, 46176, "", "=q4=Conqueror's Aegis Legguards", "=ds=#s11#, #a4#"};
-		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 6, 46148, "", "=q4=Conqueror's Siegebreaker Gauntlets", "=ds=#s9#, #a4#"};
 		{ 7, 46150, "", "=q4=Conqueror's Siegebreaker Legplates", "=ds=#s11#, #a4#"};
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
 		{ 10, 46164, "", "=q4=Conqueror's Siegebreaker Handguards", "=ds=#s9#, #a4#"};
 		{ 11, 46169, "", "=q4=Conqueror's Siegebreaker Legguards", "=ds=#s11#, #a4#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonEmalon425Man";
 		Next = "VaultofArchavonEmalon625Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon625Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance",  "=ds=#s8#, #a1#"};
@@ -1584,7 +1584,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonEmalon525Man";
 		Next = "VaultofArchavonEmalon725Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon725Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41065, "", "=q4=Furious Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
@@ -1606,7 +1606,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonEmalon625Man";
 		Next = "VaultofArchavonEmalon825Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonEmalon825Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42071, "", "=q4=Furious Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
@@ -1633,9 +1633,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 		Prev = "VaultofArchavonEmalon725Man";
 	};
-	
-	AtlasLoot_Data["VaultofArchavonKoralon_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+
+	AtlasLoot_Data["VaultofArchavonKoralon1_A"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 47752, "", "=q4=Khadgar's Gauntlets of Conquest", "=ds=#s9#, #a1#"};
 		{ 3, 47750, "", "=q4=Khadgar's Leggings of Conquest", "=ds=#s11#, #a1#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
@@ -1644,24 +1644,24 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 10, 48072, "", "=q4=Velen's Handwraps of Conquest", "=ds=#s9#, #a1#"};
 		{ 11, 48074, "", "=q4=Velen's Pants of Conquest", "=ds=#s11#, #a1#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 14, 47783, "", "=q4=Kel'Thuzad's Gloves of Conquest", "=ds=#s9#, #a1#"};
 		{ 15, 47785, "", "=q4=Kel'Thuzad's Leggings of Conquest", "=ds=#s11#, #a1#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 17, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
 		{ 18, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 		{ 21, 41874, "", "=q4=Furious Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
 		{ 22, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 25, 41940, "", "=q4=Furious Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
 		{ 26, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42017, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
 		Next = "VaultofArchavonKoralon2_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon2_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 48162, "", "=q4=Stormrage's Gloves of Conquest", "=ds=#s9#, #a2#"};
@@ -1672,27 +1672,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 10, 48132, "", "=q4=Stormrage's Handguards of Conquest", "=ds=#s9#, #a2#"};
 		{ 11, 48130, "", "=q4=Stormrage's Leggings of Conquest", "=ds=#s11#, #a2#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 14, 48222, "", "=q4=VanCleef's Gauntlets of Conquest", "=ds=#s9#, #a2#"};
 		{ 15, 48220, "", "=q4=VanCleef's Legplates of Conquest", "=ds=#s11#, #a2#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 17, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
 		{ 18, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
 		{ 21, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
 		{ 22, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 25, 41287, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
 		{ 26, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41767, "", "=q4=Furious Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonKoralon_A";
+		Prev = "VaultofArchavonKoralon1_A";
 		Next = "VaultofArchavonKoralon3_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon3_A"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 48254, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#"};
 		{ 3, 48252, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
@@ -1704,22 +1704,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 14, 48284, "", "=q4=Nobundo's Handguards of Conquest", "=ds=#s9#, #a3#"};
 		{ 15, 48282, "", "=q4=Nobundo's Legguards of Conquest", "=ds=#s11#, #a3#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 17, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
 		{ 18, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
 		{ 21, 41007, "", "=q4=Furious Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 22, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
 		{ 25, 41137, "", "=q4=Furious Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
 		{ 26, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41001, "", "=q4=Furious Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 		Prev = "VaultofArchavonKoralon2_A";
 		Next = "VaultofArchavonKoralon4_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon4_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
@@ -1733,36 +1733,36 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 14, 48603, "", "=q4=Turalyon's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
 		{ 15, 48605, "", "=q4=Turalyon's Legplates of Conquest", "=ds=#s11#, #a4#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 17, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 18, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
 		{ 25, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
 		{ 26, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon3_A";
 		Next = "VaultofArchavonKoralon5_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon5_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 48633, "", "=q4=Turalyon's Handguards of Conquest", "=ds=#s9#, #a4#"};
 		{ 3, 48635, "", "=q4=Turalyon's Legguards of Conquest","=ds=#s11#, #a4#"};
-		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 6, 48375, "", "=q4=Wrynn's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
 		{ 7, 48373, "", "=q4=Wrynn's Legplates of Conquest", "=ds=#s11#, #a4#"};
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
 		{ 10, 48449, "", "=q4=Wrynn's Handguards of Conquest", "=ds=#s9#, #a4#"};
 		{ 11, 48445, "", "=q4=Wrynn's Legguards of Conquest", "=ds=#s11#, #a4#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon4_A";
 		Next = "VaultofArchavonKoralon6_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon6_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance",  "=ds=#s8#, #a1#"};
@@ -1784,7 +1784,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon5_A";
 		Next = "VaultofArchavonKoralon7_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon7_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41065, "", "=q4=Furious Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
@@ -1806,7 +1806,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon6_A";
 		Next = "VaultofArchavonKoralon8_A";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon8_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42071, "", "=q4=Furious Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
@@ -1833,9 +1833,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 		Prev = "VaultofArchavonKoralon7_A";
 	};
-	
-	AtlasLoot_Data["VaultofArchavonKoralon_A25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+
+	AtlasLoot_Data["VaultofArchavonKoralon1_A25Man"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 47753, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
 		{ 3, 47755, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a1#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
@@ -1844,24 +1844,24 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 10, 48077, "", "=q4=Velen's Handwraps of Triumph", "=ds=#s9#, #a1#"};
 		{ 11, 48079, "", "=q4=Velen's Pants of Triumph", "=ds=#s11#, #a1#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 14, 47782, "", "=q4=Kel'Thuzad's Gloves of Triumph", "=ds=#s9#, #a1#"};
 		{ 15, 47780, "", "=q4=Kel'Thuzad's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 17, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
 		{ 18, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 		{ 21, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
 		{ 22, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 25, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
 		{ 26, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
 		Next = "VaultofArchavonKoralon2_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon2_A25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 48163, "", "=q4=Stormrage's Gloves of Triumph", "=ds=#s9#, #a2#"};
@@ -1872,27 +1872,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 10, 48133, "", "=q4=Stormrage's Handguards of Triumph", "=ds=#s9#, #a2#"};
 		{ 11, 48135, "", "=q4=Stormrage's Leggings of Triumph", "=ds=#s11#, #a2#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 14, 48224, "", "=q4=VanCleef's Gauntlets of Triumph", "=ds=#s9#, #a2#"};
 		{ 15, 48226, "", "=q4=VanCleef's Legplates of Triumph", "=ds=#s11#, #a2#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 17, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
 		{ 18, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
 		{ 21, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
 		{ 22, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 25, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
 		{ 26, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonKoralon_A25Man";
+		Prev = "VaultofArchavonKoralon1_A25Man";
 		Next = "VaultofArchavonKoralon3_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon3_A25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 3, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
@@ -1904,22 +1904,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 14, 48286, "", "=q4=Nobundo's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 15, 48288, "", "=q4=Nobundo's Legguards of Triumph", "=ds=#s11#, #a3#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 17, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
 		{ 18, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
 		{ 21, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 22, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
 		{ 25, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
 		{ 26, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 		Prev = "VaultofArchavonKoralon2_A25Man";
 		Next = "VaultofArchavonKoralon4_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon4_A25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
@@ -1933,45 +1933,45 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 14, 48608, "", "=q4=Turalyon's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 15, 48610, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 17, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 18, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
 		{ 25, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
 		{ 26, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon3_A25Man";
 		Next = "VaultofArchavonKoralon5_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon5_A25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 48640, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 3, 48638, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 6, 48377, "", "=q4=Wrynn's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 7, 48379, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#"};
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
 		{ 10, 48452, "", "=q4=Wrynn's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 11, 48446, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon4_A25Man";
 		Next = "VaultofArchavonKoralon6_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon6_A25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#, #a1#"};
-		{ 3, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s19#, #a1#"};
+		{ 3, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s10#, #a1#"};
 		{ 4, 41904, "", "=q4=Relentless Gladiator's Treads of Dominance", "=ds=#s12#, #a1#"};
 		{ 6, 41894, "", "=q4=Relentless Gladiator's Cuffs of Salvation", "=ds=#s8#, #a1#"};
 		{ 7, 41882, "", "=q4=Relentless Gladiator's Cord of Salvation", "=ds=#s10#, #a1#"};
 		{ 8, 41886, "", "=q4=Relentless Gladiator's Treads of Salvation", "=ds=#s12#, #a1#"};
-        { 10, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#, #a1#"};
+		{ 10, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#, #a1#"};
 		{ 11, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=#s10#, #a1#"};
 		{ 12, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=#s12#, #a1#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
@@ -1987,7 +1987,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon5_A25Man";
 		Next = "VaultofArchavonKoralon7_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon7_A25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
@@ -2009,7 +2009,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon6_A25Man";
 		Next = "VaultofArchavonKoralon8_A25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon8_A25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
@@ -2036,9 +2036,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 		Prev = "VaultofArchavonKoralon7_A25Man";
 	};
-	
-	AtlasLoot_Data["VaultofArchavonKoralon_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+
+	AtlasLoot_Data["VaultofArchavonKoralon1_H"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 47773, "", "=q4=Sunstrider's Gauntlets of Conquest", "=ds=#s9#, #a1#"};
 		{ 3, 47775, "", "=q4=Sunstrider's Leggings of Conquest", "=ds=#s11#, #a1#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
@@ -2047,24 +2047,24 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 10, 48097, "", "=q4=Zabra's Handwraps of Conquest", "=ds=#s9#, #a1#"};
 		{ 11, 48099, "", "=q4=Zabra's Pants of Conquest", "=ds=#s11#, #a1#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 14, 47802, "", "=q4=Gul'dan's Gloves of Conquest", "=ds=#s9#, #a1#"};
 		{ 15, 47800, "", "=q4=Gul'dan's Leggings of Conquest", "=ds=#s11#, #a1#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 17, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
 		{ 18, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 		{ 21, 41874, "", "=q4=Furious Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
 		{ 22, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 25, 41940, "", "=q4=Furious Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
 		{ 26, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42017, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
 		Next = "VaultofArchavonKoralon2_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon2_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 48183, "", "=q4=Runetotem's Gloves of Conquest", "=ds=#s9#, #a2#"};
@@ -2075,27 +2075,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 10, 48153, "", "=q4=Runetotem's Handguards of Conquest", "=ds=#s9#, #a2#"};
 		{ 11, 48155, "", "=q4=Runetotem's Leggings of Conquest", "=ds=#s11#, #a2#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 14, 48244, "", "=q4=Garona's Gauntlets of Conquest", "=ds=#s9#, #a2#"};
 		{ 15, 48246, "", "=q4=Garona's Legplates of Conquest", "=ds=#s11#, #a2#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 17, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
 		{ 18, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
 		{ 21, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
 		{ 22, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 25, 41287, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
 		{ 26, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41767, "", "=q4=Furious Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonKoralon_H";
+		Prev = "VaultofArchavonKoralon1_H";
 		Next = "VaultofArchavonKoralon3_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon3_H"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 48276, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#"};
 		{ 3, 48278, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
@@ -2107,22 +2107,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 14, 48296, "", "=q4=Thrall's Handguards of Conquest", "=ds=#s9#, #a3#"};
 		{ 15, 48298, "", "=q4=Thrall's Legguards of Conquest", "=ds=#s11#, #a3#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 17, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
 		{ 18, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
 		{ 21, 41007, "", "=q4=Furious Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 22, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
 		{ 25, 41137, "", "=q4=Furious Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
 		{ 26, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41001, "", "=q4=Furious Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 		Prev = "VaultofArchavonKoralon2_H";
 		Next = "VaultofArchavonKoralon4_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon4_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
@@ -2136,36 +2136,36 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 14, 48630, "", "=q4=Liadrin's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
 		{ 15, 48628, "", "=q4=Liadrin's Legplates of Conquest", "=ds=#s11#, #a4#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 17, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 18, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
 		{ 25, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
 		{ 26, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon3_H";
 		Next = "VaultofArchavonKoralon5_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon5_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 48653, "", "=q4=Liadrin's Handguards of Conquest", "=ds=#s9#, #a4#"};
 		{ 3, 48655, "", "=q4=Liadrin's Legguards of Conquest", "=ds=#s11#, #a4#"};
-		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 6, 48387, "", "=q4=Hellscream's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
 		{ 7, 48389, "", "=q4=Hellscream's Legplates of Conquest", "=ds=#s11#, #a4#"};
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
 		{ 10, 48457, "", "=q4=Hellscream's Handguards of Conquest", "=ds=#s9#, #a4#"};
 		{ 11, 48459, "", "=q4=Hellscream's Legguards of Conquest", "=ds=#s11#, #a4#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon4_H";
 		Next = "VaultofArchavonKoralon6_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon6_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41909, "", "=q4=Furious Gladiator's Cuffs of Dominance",  "=ds=#s8#, #a1#"};
@@ -2187,7 +2187,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon5_H";
 		Next = "VaultofArchavonKoralon7_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon7_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41065, "", "=q4=Furious Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
@@ -2209,7 +2209,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon6_H";
 		Next = "VaultofArchavonKoralon8_H";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon8_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42071, "", "=q4=Furious Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
@@ -2236,9 +2236,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 		Prev = "VaultofArchavonKoralon7_H";
 	};
-	
-	AtlasLoot_Data["VaultofArchavonKoralon_H25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+
+	AtlasLoot_Data["VaultofArchavonKoralon1_H25Man"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 47772, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
 		{ 3, 47770, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
@@ -2247,24 +2247,24 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 10, 48096, "", "=q4=Zabra's Handwraps of Triumph", "=ds=#s9#, #a1#"};
 		{ 11, 48094, "", "=q4=Zabra's Pants of Triumph", "=ds=#s11#, #a1#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 14, 47803, "", "=q4=Gul'dan's Gloves of Triumph", "=ds=#s9#, #a1#"};
 		{ 15, 47805, "", "=q4=Gul'dan's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 17, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
 		{ 18, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 		{ 21, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
 		{ 22, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
 		{ 25, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
 		{ 26, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
 		Next = "VaultofArchavonKoralon2_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon2_H25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 48182, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a2#"};
@@ -2275,27 +2275,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 10, 48152, "", "=q4=Runetotem's Handguards of Triumph", "=ds=#s9#, #a2#"};
 		{ 11, 48150, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a2#"};
-		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 14, 48241, "", "=q4=Garona's Gauntlets of Triumph", "=ds=#s9#, #a2#"};
 		{ 15, 48239, "", "=q4=Garona's Legplates of Triumph", "=ds=#s11#, #a2#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 17, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
 		{ 18, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
 		{ 21, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
 		{ 22, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
 		{ 25, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
 		{ 26, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonKoralon_H25Man";
+		Prev = "VaultofArchavonKoralon1_H25Man";
 		Next = "VaultofArchavonKoralon3_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon3_H25Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 48273, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 3, 48271, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
 		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
@@ -2307,22 +2307,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 14, 48301, "", "=q4=Thrall's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 15, 48303, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 17, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
 		{ 18, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
 		{ 21, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 22, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
 		{ 25, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
 		{ 26, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 		Prev = "VaultofArchavonKoralon2_H25Man";
 		Next = "VaultofArchavonKoralon4_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon4_H25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
@@ -2336,36 +2336,36 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 14, 48625, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 15, 48623, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#"};
-		--{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+		{ 16, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 17, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 18, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-		--{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+		{ 24, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
 		{ 25, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
 		{ 26, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-		--{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon3_H25Man";
 		Next = "VaultofArchavonKoralon5_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon5_H25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 48658, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 3, 48660, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 5, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 6, 48392, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 7, 48394, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#"};
 		{ 9, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
 		{ 10, 48462, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 11, 48464, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		--{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Fury"]};
+		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 		Prev = "VaultofArchavonKoralon4_H25Man";
 		Next = "VaultofArchavonKoralon6_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon6_H25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#, #a1#"};
@@ -2374,7 +2374,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 41894, "", "=q4=Relentless Gladiator's Cuffs of Salvation", "=ds=#s8#, #a1#"};
 		{ 7, 41882, "", "=q4=Relentless Gladiator's Cord of Salvation", "=ds=#s10#, #a1#"};
 		{ 8, 41886, "", "=q4=Relentless Gladiator's Treads of Salvation", "=ds=#s12#, #a1#"};
-        { 10, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#, #a1#"};
+		{ 10, 49181, "", "=q4=Relentless Gladiator's Cuffs of Alacrity", "=ds=#s8#, #a1#"};
 		{ 11, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=#s10#, #a1#"};
 		{ 12, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=#s12#, #a1#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
@@ -2390,7 +2390,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon5_H25Man";
 		Next = "VaultofArchavonKoralon7_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon7_H25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
@@ -2412,7 +2412,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "VaultofArchavonKoralon6_H25Man";
 		Next = "VaultofArchavonKoralon8_H25Man";
 	};
-	
+
 	AtlasLoot_Data["VaultofArchavonKoralon8_H25Man"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
@@ -2439,7 +2439,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 		Prev = "VaultofArchavonKoralon7_H25Man";
 	};
-	
+
 		-----------------
 		--- Naxxramas ---
 		-----------------
@@ -4516,7 +4516,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 47924, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
 		{ 9, 47925, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
 		{ 10, 47915, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
-		{ 11, 47993, "", "=q4=Carnivorous Band", "=ds=#s13#"};
+		{ 11, 47920, "", "=q4=Gormok's Band", "=ds=#s13#"};
 		{ 12, 47922, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_AHEROIC";
 	};
@@ -4532,7 +4532,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 47998, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
 		{ 9, 47997, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
 		{ 10, 47988, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
-		{ 11, 47920, "", "=q4=Gormok's Band", "=ds=#s13#"};
+		{ 11, 47993, "", "=q4=Carnivorous Band", "=ds=#s13#"};
 		{ 12, 47995, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
 		Next = "TrialoftheCrusaderLordJaraxxus_HHEROIC";
 	};

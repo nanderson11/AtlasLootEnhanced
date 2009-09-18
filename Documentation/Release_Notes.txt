@@ -10,6 +10,7 @@ v5.07.07
 Added Cooking Daily rewards
 Added Fishing Daily rewards
 Added Patch 3.2 Wintergrasp items
+Added Emalon the Storm Watcher and Koralon the Flame Watcher loot to Vault of Archavon.
 Compatible with the new Atlas version 1.15
 Minor updates/fixes/translations
 

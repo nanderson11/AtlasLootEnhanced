@@ -1236,7 +1236,6 @@ if AL then
 	AL["Bjarngrim"] = "Bjarngrim"; --FALTA
 	AL["Loken"] = "Loken"; --FALTA
 	AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";
-	AL["Emalon the Storm Watcher"] = "Emalon el Vigía de la Tormenta"; --Is in BabbleBoss
 	AL["Faction Champions"] = "Facciones Campeones"; -- if you have a better name, use it.
 	
 	--Zones
