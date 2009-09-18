@@ -29,7 +29,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	AtlasLoot_Data["ARGENTMENU"] = {
 		{ 2, "ArgentTournament1", "inv_scroll_11", "=ds="..BabbleInventory["Miscellaneous"], ""};
 		{ 3, "ArgentTournament3", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"], ""};
-		{ 4, "ArgentTournament5", "achievement_reputation_argentchampion", "=ds="..AL["Non-Combat Pets"], ""};
+		{ 4, "ArgentTournament5", "achievement_reputation_argentchampion", "=ds="..AL["Vanity Pets"], ""};
 		{ 5, "ArgentTournament8", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
 		{ 17, "ArgentTournament2", "inv_misc_tournaments_tabard_human", "=ds="..AL["Tabards"].." / "..AL["Banner"], ""};
 		{ 18, "ArgentTournament4", "inv_mace_29", "=ds="..AL["Weapons"], ""};
