@@ -630,7 +630,11 @@ if AL then
 	AL["Husk of the Old God"] = "Peau du Grand ver des sables";
 	AL["Carapace of the Old God"] = "Carapace du Dieu très ancien";
 
-	-- Blacksmithing Crafted Sets
+	-- Blacksmithing Mail Crafted Sets
+	AL["Bloodsoul Embrace"] = "Etreinte d'âmesang";
+	AL["Fel Iron Chain"] = "Anneaux de gangrefer";
+
+	-- Blacksmithing Plate Crafted Sets
 	AL["Imperial Plate"] = "Armure impériale en plaques";
 	AL["The Darksoul"] = "La Ténébrâme";
 	AL["Fel Iron Plate"] = "Plaque de gangrefer";
@@ -640,8 +644,41 @@ if AL then
 	AL["Khorium Ward"] = "Gardien de khorium";
 	AL["Faith in Felsteel"] = "Foi dans le gangracier";
 	AL["Burning Rage"] = "Rage ardente";
-	AL["Bloodsoul Embrace"] = "Etreinte d'âmesang";
-	AL["Fel Iron Chain"] = "Anneaux de gangrefer";
+	AL["Ornate Saronite Battlegear"] = true;
+	AL["Savage Saronite Battlegear"] = true;
+
+	-- Leatherworking Crafted Leather Sets
+	AL["Volcanic Armor"] = "Armure volcanique";
+	AL["Ironfeather Armor"] = "Armure de plumacier";
+	AL["Stormshroud Armor"] = "Armure tempétueuse";
+	AL["Devilsaur Armor"] = "Armure de diablosaure";
+	AL["Blood Tiger Harness"] = "Harnais du tigre-sang";
+	AL["Primal Batskin"] = "Peau de chauve-souris primodiale";
+	AL["Wild Draenish Armor"] = "Armure draenique sauvage";
+	AL["Thick Draenic Armor"] = "Armure draenique épaisse";
+	AL["Fel Skin"] = "Gangrepeau";
+	AL["Strength of the Clefthoof"] = "Force du sabot-fourchu";
+	AL["Primal Intent"] = "Intention primordiale";
+	AL["Windhawk Armor"] = "Armure Faucont-du-vent";
+	AL["Borean Embrace"] = "Etreinte boréenne";
+	AL["Iceborne Embrace"] = "Etreinte cryostène";
+	AL["Eviscerator's Battlegear"] = "Tenue de combat d'éviscérateur";
+	AL["Overcaster Battlegear"] = "Tenue de combat d'acromancien";
+
+	-- Leatherworking Crafted Mail Sets
+	AL["Green Dragon Mail"] = "Mailles de dragon vert";
+	AL["Blue Dragon Mail"] = "Mailles de dragon bleu";
+	AL["Black Dragon Mail"] = "Mailles de dragon noir";
+	AL["Scaled Draenic Armor"] = "Armure draenique en écailles";
+	AL["Felscale Armor"] = "Armure en gangrécaille";
+	AL["Felstalker Armor"] = "Armure de traqueur gangrené";
+	AL["Fury of the Nether"] = "Furie du Néant";
+	AL["Netherscale Armor"] = "Armure en écailles du Néant";
+	AL["Netherstrike Armor"] = "Armure Coup-de-Néant";
+	AL["Frostscale Binding"] = "Liens d'écailles de givre";
+	AL["Nerubian Hive"] = "Ruche nérubienne";
+	AL["Stormhide Battlegear"] = "Tenue de combat de l'orageux";
+	AL["Swiftarrow Battlefear"] = "Tenue de combat viveflèche";
 
 	-- Tailoring Crafted Sets
 	AL["Bloodvine Garb"] = "Atours de vignesang";
@@ -656,29 +693,9 @@ if AL then
 	AL["Primal Mooncloth"] = "Etoffe lunaire primordiale";
 	AL["Shadow's Embrace"] = "Etreinte de l'ombre";
 	AL["Wrath of Spellfire"] = "Habit du feu-sorcier";
-
-	-- Leatherworking Crafted Sets
-	AL["Volcanic Armor"] = "Armure volcanique";
-	AL["Ironfeather Armor"] = "Armure de plumacier";
-	AL["Stormshroud Armor"] = "Armure tempétueuse";
-	AL["Devilsaur Armor"] = "Armure de diablosaure";
-	AL["Blood Tiger Harness"] = "Harnais du tigre-sang";
-	AL["Primal Batskin"] = "Peau de chauve-souris primodiale";
-	AL["Wild Draenish Armor"] = "Armure draenique sauvage";
-	AL["Thick Draenic Armor"] = "Armure draenique épaisse";
-	AL["Fel Skin"] = "Gangrepeau";
-	AL["Strength of the Clefthoof"] = "Force du sabot-fourchu";
-	AL["Green Dragon Mail"] = "Mailles de dragon vert";
-	AL["Blue Dragon Mail"] = "Mailles de dragon bleu";
-	AL["Black Dragon Mail"] = "Mailles de dragon noir";
-	AL["Scaled Draenic Armor"] = "Armure draenique en écailles";
-	AL["Felscale Armor"] = "Armure en gangrécaille";
-	AL["Felstalker Armor"] = "Armure de traqueur gangrené";
-	AL["Fury of the Nether"] = "Furie du Néant";
-	AL["Primal Intent"] = "Intention primordiale";
-	AL["Windhawk Armor"] = "Armure Faucont-du-vent";
-	AL["Netherscale Armor"] = "Armure en écailles du Néant";
-	AL["Netherstrike Armor"] = "Armure Coup-de-Néant";
+	AL["Frostwoven Power"] = "Puissance tissée de givre";
+	AL["Duskweaver"] = "Tissebrune";
+	AL["Frostsavage Battlegear"] = "Tenue de combat du givre sauvage";
 
 	-- Classic WoW Sets
 	AL["Defias Leather"] = "Cuir défias";
