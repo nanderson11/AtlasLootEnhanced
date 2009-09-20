@@ -12,6 +12,8 @@ Added Fishing Daily rewards
 Added Patch 3.2 Wintergrasp items
 Added Emalon the Storm Watcher and Koralon the Flame Watcher loot to Vault of Archavon
 Added Wrath of the Lich King Crafted Sets (Blacksmithing, Leatherworking and Tailoring)
+Updated Brewfest 2009 items
+Added Vanity Pet Accessories
 Compatible with the new Atlas version 1.15
 Minor updates/fixes/translations
 

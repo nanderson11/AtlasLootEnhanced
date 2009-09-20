@@ -62,8 +62,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Blizzard Collectables
 ---- Legendaries
 ---- Tabards
----- Trading Card Game
----- Pets
+---- Upper Deck Card Game Items
+---- Vanity Pets
 ---- Mounts
 ---- BoE World Epics
 ---- Heirloom Items
@@ -141,7 +141,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 37186, "", "=q3=Unsmashable Heavy Band", "=ds=#s13#", "", "20%"};
 		{ 25, 37190, "", "=q3=Enraged Feral Staff", "=ds=#w9#", "", "20%"};
 		{ 26, 41793, "", "=q3=Design: Fierce Monarch Topaz", "=ds=#p12# (390)", "", "8%"};
-		{ 28, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43662, "", "=q1=Axe of the Plunderer", "=ds=#m3#", "", "100%"};
 		Prev = "UtgardeKeepSkarvald";
 		Next = "UtgardeKeepTrash";
 	};
@@ -232,7 +233,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#", "", "20%"};
 		{ 25, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "20%"};
 		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
-		{ 28, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#", "", "100%"};
 		Prev = "TheNexusKolurgStoutbeardHEROIC";
 	};
 
@@ -286,7 +288,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "19%"};
 		{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "21%"};
 		{ 26, 41796, "", "=q3=Design: Infused Twilight Opal", "=ds=#p12# (390)", "", "12%"};
-		{ 28, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#", "", "100%"};
 		Prev = "AzjolNerubHadronox";
 		Next = "AzjolNerubTrash";
 	};
@@ -375,7 +378,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#", "", "19%"};
 		{ 25, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#", "", "19%"};
 		{ 26, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)", "", "17%"};
-		{ 28, 43821, "", "=q1=Faceless One's Withered Brain", "=ds=#m3#"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43821, "", "=q1=Faceless One's Withered Brain", "=ds=#m3#", "", "100%"};
 		Prev = "AhnkahetJedoga";
 		Next = "AhnkahetTrash";
 	};
@@ -453,7 +457,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#", "", "21%"};
 		{ 25, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#", "", "21%"};
 		{ 26, 41795, "", "=q3=Design: Timeless Forest Emerald", "=ds=#p12# (390)", "", "14%"};
-		{ 28, 43670, "", "=q1=Prophet's Enchanted Tiki", "=ds=#m3#"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43670, "", "=q1=Prophet's Enchanted Tiki", "=ds=#m3#", "", "100%"};
 		Prev = "DrakTharonKeepKingDred";
 		Next = "DrakTharonKeepTrash";
 	};
@@ -562,12 +567,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 37886, "", "=q4=Handgrips of the Savage Emissary", "=ds=#s9#, #a3#", "", "21%"};
 		{ 20, 43500, "", "=q4=Bolstered Legplates", "=ds=#s11#, #a4#", "", "20%"};
 		{ 21, 37883, "", "=q4=Staff of Trickery", "=ds=#w9#", "", "21%"};
-		{ 23, 37876, "", "=q3=Cyanigosa's Leggings", "=ds=#s11#, #a1#", "", "22%"};
-		{ 24, 37875, "", "=q3=Spaulders of the Violet Hold", "=ds=#s3#, #a3#", "", "21%"};
-		{ 25, 37874, "", "=q3=Gauntlets of Capture", "=ds=#s9#, #a4#", "", "21%"};
-		{ 26, 37873, "", "=q3=Mark of the War Prisoner", "=ds=#s14#", "", "20%"};
-		{ 27, 41791, "", "=q3=Design: Thick Autumn's Glow", "=ds=#p12# (390)", "", "9%"};
-		{ 29, 43823, "", "=q1=Head of Cyanigosa", "=ds=#m3#"};
+		{ 22, 37876, "", "=q3=Cyanigosa's Leggings", "=ds=#s11#, #a1#", "", "22%"};
+		{ 23, 37875, "", "=q3=Spaulders of the Violet Hold", "=ds=#s3#, #a3#", "", "21%"};
+		{ 24, 37874, "", "=q3=Gauntlets of Capture", "=ds=#s9#, #a4#", "", "21%"};
+		{ 25, 37873, "", "=q3=Mark of the War Prisoner", "=ds=#s14#", "", "20%"};
+		{ 26, 41791, "", "=q3=Design: Thick Autumn's Glow", "=ds=#p12# (390)", "", "9%"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43823, "", "=q1=Head of Cyanigosa", "=ds=#m3#", "", "100%"};
 		Prev = "VioletHoldLavanthor";
 		Next = "VioletHoldTrash";
 	};
@@ -660,7 +666,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#", "", "20%"};
 		{ 24, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#", "", "20%"};
 		{ 25, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#", "", "20%"};
-		{ 27, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#"};
+		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 28, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#", "", "100%"};
 		Prev = "GundrakEckHEROIC";
 		Next = "GundrakTrash";
 	};
@@ -734,12 +741,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 37668, "", "=q4=Bands of the Stoneforge", "=ds=#s8#, #a4#", "", "18%"};
 		{ 20, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#", "", "18%"};
 		{ 21, 37667, "", "=q4=The Fleshshaper", "=ds=#h1#, #w4#", "", "18%"};
-		{ 23, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a2#", "", "19%"};
-		{ 24, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#", "", "19%"};
-		{ 25, 37657, "", "=q3=Spark of Life", "=ds=#s14#", "", "19%"};
-		{ 26, 37660, "", "=q3=Forge Ember", "=ds=#s14#", "", "18%"};
-		{ 27, 41792, "", "=q3=Design: Deft Monarch Topaz", "=ds=#p12# (390)", "", "15%"};
-		{ 29, 43699, "", "=q1=The Curse of Flesh Disc", "=ds=#m3#"};
+		{ 22, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a2#", "", "19%"};
+		{ 23, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#", "", "19%"};
+		{ 24, 37657, "", "=q3=Spark of Life", "=ds=#s14#", "", "19%"};
+		{ 25, 37660, "", "=q3=Forge Ember", "=ds=#s14#", "", "18%"};
+		{ 26, 41792, "", "=q3=Design: Deft Monarch Topaz", "=ds=#p12# (390)", "", "15%"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43699, "", "=q1=The Curse of Flesh Disc", "=ds=#m3#", "", "100%"};
 		Prev = "HallsofStoneTribunal";
 		Next = "HallsofStoneTrash";
 	};
@@ -825,13 +833,14 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 37853, "", "=q4=Advanced Tooled-Leather Bands", "=ds=#s8#, #a2#", "", "18%"};
 		{ 20, 37855, "", "=q4=Mail Girdle of the Audient Earth", "=ds=#s10#, #a3#", "", "19%"};
 		{ 21, 37852, "", "=q4=Colossal Skull-Clad Cleaver", "=ds=#h2#, #w1#", "", "18%"};
-		{ 23, 37851, "", "=q3=Ornate Woolen Stola", "=ds=#s5#, #a1#", "", "19%"};
-		{ 24, 37850, "", "=q3=Flowing Sash of Order", "=ds=#s10#, #a1#", "", "19%"};
-		{ 25, 37849, "", "=q3=Planetary Helm", "=ds=#s1#, #a4#", "", "19%"};
-		{ 26, 37848, "", "=q3=Lightning Giant Staff", "=ds=#w9#", "", "18%"};
-		{ 27, 41799, "", "=q3=Design: Eternal Earthsiege Diamond", "=ds=#p12# (420)", "", "11%"};
-		{ 29, 43724, "", "=q1=Celestial Ruby Ring", "=ds=#m3#", "", "31%"};
-		{ 30, 43151, "", "=q1=Loken's Tongue", "=ds=#m3#"};
+		{ 22, 37851, "", "=q3=Ornate Woolen Stola", "=ds=#s5#, #a1#", "", "19%"};
+		{ 23, 37850, "", "=q3=Flowing Sash of Order", "=ds=#s10#, #a1#", "", "19%"};
+		{ 24, 37849, "", "=q3=Planetary Helm", "=ds=#s1#, #a4#", "", "19%"};
+		{ 25, 37848, "", "=q3=Lightning Giant Staff", "=ds=#w9#", "", "18%"};
+		{ 26, 41799, "", "=q3=Design: Eternal Earthsiege Diamond", "=ds=#p12# (420)", "", "11%"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43724, "", "=q1=Celestial Ruby Ring", "=ds=#m3#", "", "100%"};
+		{ 30, 43151, "", "=q1=Loken's Tongue", "=ds=#m3#", "", "100%"};
 		Prev = "HallsofLightningIonar";
 		Next = "HallsofLightningTrash";
 	};
@@ -927,7 +936,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 37690, "", "=q3=Pauldrons of Destiny", "=ds=#s3#, #a4#", "", "14%"};
 		{ 25, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#", "", "14%"};
 		{ 26, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#", "", "14%"};
-		{ 28, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#", "", "100%"};
 		Prev = "CoTStratholmeInfiniteCorruptorHEROIC";
 		Next = "CoTStratholmeTrash";
 	};
@@ -1008,12 +1018,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 37409, "", "=q4=Gilt-Edged Leather Gauntlets", "=ds=#s9#, #a2#", "", "19%"};
 		{ 20, 37407, "", "=q4=Sovereign's Belt", "=ds=#s10#, #a3#", "", "20%"};
 		{ 21, 37401, "", "=q4=Red Sword of Courage", "=ds=#h1#, #w10#", "", "18%"};
-		{ 23, 37398, "", "=q3=Mantle of Discarded Ways", "=ds=#s3#, #a3#", "", "20%"};
-		{ 24, 37395, "", "=q3=Ornamented Plate Regalia", "=ds=#s5#, #a4#", "", "20%"};
-		{ 25, 37397, "", "=q3=Gold Amulet of Kings", "=ds=#s2#", "", "20%"};
-		{ 26, 37390, "", "=q3=Meteorite Whetstone", "=ds=#s14#", "", "20%"};
-		{ 27, 41797, "", "=q3=Design: Austere Earthsiege Diamond", "=ds=#p12# (420)", "", "10%"};
-		{ 29, 43669, "", "=q1=Locket of the Deceased Queen", "=ds=#m3#", "", "25%"};
+		{ 22, 37398, "", "=q3=Mantle of Discarded Ways", "=ds=#s3#, #a3#", "", "20%"};
+		{ 23, 37395, "", "=q3=Ornamented Plate Regalia", "=ds=#s5#, #a4#", "", "20%"};
+		{ 24, 37397, "", "=q3=Gold Amulet of Kings", "=ds=#s2#", "", "20%"};
+		{ 25, 37390, "", "=q3=Meteorite Whetstone", "=ds=#s14#", "", "20%"};
+		{ 26, 41797, "", "=q3=Design: Austere Earthsiege Diamond", "=ds=#p12# (420)", "", "10%"};
+		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 29, 43669, "", "=q1=Locket of the Deceased Queen", "=ds=#m3#", "", "100%"};
 		Prev = "UPSkadi";
 		Next = "UPTrash";
 	};
@@ -1100,11 +1111,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 37363, "", "=q4=Gauntlets of Dragon Wrath", "=ds=#s9#, #a4#", "", "13%"};
 		{ 20, 37362, "", "=q4=Leggings of Protective Auras", "=ds=#s11#, #a4#", "", "13%"};
 		{ 21, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#", "", "14%"};
-		{ 23, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#", "", "14%"};
-		{ 24, 37294, "", "=q3=Crown of Unbridled Magic", "=ds=#s1#, #a1#", "", "14%"};
-		{ 25, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#", "", "15%"};
-		{ 26, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#", "", "15%"};
-		{ 28, 43668, "", "=q1=Ley Line Tuner", "=ds=#m3#"};
+		{ 22, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#", "", "14%"};
+		{ 23, 37294, "", "=q3=Crown of Unbridled Magic", "=ds=#s1#, #a1#", "", "14%"};
+		{ 24, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#", "", "15%"};
+		{ 25, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#", "", "15%"};
+		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 28, 43668, "", "=q1=Ley Line Tuner", "=ds=#m3#", "", "100%"};
 		Prev = "OcuUrom";
 		Next = "OcuTrash";
 	};
@@ -3945,13 +3957,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 7, 47171, "", "=q4=Legguards of Abandoned Fealty", "=ds=#s11#, #a4#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
-		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
-		{ 19, 47249, "", "=q4=Leggings of the Snowy Bramble", "=ds=#s11#, #a2#"};
-		{ 20, 47248, "", "=q4=Treads of Dismal Fortune", "=ds=#s12#, #a2#"};
-		{ 21, 47250, "", "=q4=Pauldrons of the Deafening Gale", "=ds=#s3#, #a3#"};
-		{ 22, 47244, "", "=q4=Chestguard of the Ravenous Fiend", "=ds=#s5#, #a3#"};
-		{ 23, 47243, "", "=q4=Mark of the Relentless", "=ds=#s13#"};
-		{ 24, 47493, "", "=q4=Edge of Ruin", "=ds=#h2#, #w1#"};
+		{ 18, 47249, "", "=q4=Leggings of the Snowy Bramble", "=ds=#s11#, #a2#"};
+		{ 19, 47248, "", "=q4=Treads of Dismal Fortune", "=ds=#s12#, #a2#"};
+		{ 20, 47250, "", "=q4=Pauldrons of the Deafening Gale", "=ds=#s3#, #a3#"};
+		{ 21, 47244, "", "=q4=Chestguard of the Ravenous Fiend", "=ds=#s5#, #a3#"};
+		{ 22, 47243, "", "=q4=Mark of the Relentless", "=ds=#s13#"};
+		{ 23, 47493, "", "=q4=Edge of Ruin", "=ds=#h2#, #w1#"};
+		{ 24, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
 		Next = "TrialoftheChampionConfessorPaletress";
 	};
 
@@ -3971,19 +3983,19 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 47214, "", "=q4=Banner of Victory", "=ds=#s14#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
-		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
-		{ 19, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#"};
-		{ 20, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#"};
-		{ 21, 47245, "", "=q4=Pauldrons of Concealed Loathing", "=ds=#s3#, #a3#"};
-		{ 22, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#"};
-		{ 23, 47514, "", "=q4=Regal Aurous Shoulderplates", "=ds=#s3#, #a4#"};
-		{ 24, 47510, "", "=q4=Trueheart Girdle", "=ds=#s10#, #a4#"};
-		{ 25, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#"};
-		{ 26, 47511, "", "=q4=Plated Greaves of Providence", "=ds=#s12#, #a4#"};
-		{ 27, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
-		{ 28, 47512, "", "=q4=Sinner's Confession", "=ds=#s13#"};
-		{ 29, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
-		{ 30, 47522, "", "=q4=Marrowstrike", "=ds=#w7#"};
+		{ 18, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#"};
+		{ 19, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#"};
+		{ 20, 47245, "", "=q4=Pauldrons of Concealed Loathing", "=ds=#s3#, #a3#"};
+		{ 21, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#"};
+		{ 22, 47514, "", "=q4=Regal Aurous Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 23, 47510, "", "=q4=Trueheart Girdle", "=ds=#s10#, #a4#"};
+		{ 24, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#"};
+		{ 25, 47511, "", "=q4=Plated Greaves of Providence", "=ds=#s12#, #a4#"};
+		{ 26, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
+		{ 27, 47512, "", "=q4=Sinner's Confession", "=ds=#s13#"};
+		{ 28, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
+		{ 39, 47522, "", "=q4=Marrowstrike", "=ds=#w7#"};
+		{ 20, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
 		Prev = "TrialoftheChampionChampions";
 		Next = "TrialoftheChampionEadricthePure";
 	};
@@ -4004,19 +4016,19 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 47213, "", "=q4=Abyssal Rune", "=ds=#s14#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
-		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
-		{ 19, 47501, "", "=q4=Kurisu's Indecision", "=ds=#s4#"};
-		{ 20, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#"};
-		{ 21, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#"};
-		{ 22, 47504, "", "=q4=Barkhide Treads", "=ds=#s12#, #a2#"};
-		{ 23, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#"};
-		{ 24, 47502, "", "=q4=Majestic Silversmith Shoulderplates", "=ds=#s3#, #a4#"};
-		{ 25, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#"};
-		{ 26, 47503, "", "=q4=Legplates of the Argent Armistice", "=ds=#s11#, #a4#"};
-		{ 27, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
-		{ 28, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
-		{ 29, 47509, "", "=q4=Mariel's Sorrow", "=ds=#h3#, #w6#"};
-		{ 30, 47508, "", "=q4=Aledar's Battlestar", "=ds=#h1#, #w6#"};
+		{ 18, 47501, "", "=q4=Kurisu's Indecision", "=ds=#s4#"};
+		{ 19, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#"};
+		{ 20, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#"};
+		{ 21, 47504, "", "=q4=Barkhide Treads", "=ds=#s12#, #a2#"};
+		{ 22, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#"};
+		{ 23, 47502, "", "=q4=Majestic Silversmith Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 24, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#"};
+		{ 25, 47503, "", "=q4=Legplates of the Argent Armistice", "=ds=#s11#, #a4#"};
+		{ 26, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
+		{ 27, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
+		{ 28, 47509, "", "=q4=Mariel's Sorrow", "=ds=#h3#, #w6#"};
+		{ 29, 47508, "", "=q4=Aledar's Battlestar", "=ds=#h1#, #w6#"};
+		{ 30, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
 		Prev = "TrialoftheChampionConfessorPaletress";
 		Next = "TrialoftheChampionBlackKnight";
 	};
@@ -4035,21 +4047,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 11, 47222, "", "=q4=Uruka's Band of Zeal", "=ds=#s13#"};
 		{ 12, 47215, "", "=q4=Tears of the Vanquished", "=ds=#s14#"};
 		{ 13, 47216, "", "=q4=The Black Heart", "=ds=#s14#"};
-		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 17, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
-		{ 18, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
-		{ 19, 47564, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#"};
-		{ 20, 47527, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#"};
-		{ 21, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#"};
-		{ 22, 47529, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#"};
-		{ 23, 47561, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#"};
-		{ 24, 47563, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#"};
-		{ 25, 47565, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#"};
-		{ 26, 47567, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#"};
-		{ 27, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#"};
-		{ 28, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#"};
-		{ 29, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#"};
-		{ 30, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
+		Prev = "TrialoftheChampionEadricthePure";
+	};
+
+	AtlasLoot_Data["TrialoftheChampionBlackKnightHEROIC"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 2, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 3, 47564, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#"};
+		{ 4, 47527, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#"};
+		{ 5, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#"};
+		{ 6, 47529, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#"};
+		{ 7, 47561, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#"};
+		{ 8, 47563, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#"};
+		{ 9, 47565, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#"};
+		{ 10, 47567, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#"};
+		{ 11, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#"};
+		{ 12, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#"};
+		{ 13, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#"};
+		{ 14, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
+		{ 15, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 16, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 17, 48418, "", "=q1=Fragment of the Black Knight's Soul", "=ds=#m3#", "", "100%"};
 		Prev = "TrialoftheChampionEadricthePure";
 	};
 
@@ -8185,9 +8203,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "SETMENU";
 	};
 
-		-------------------------
-		--- Trading Card Game ---
-		-------------------------
+		----------------------------------
+		--- Upper Deck Card Game Items ---
+		----------------------------------
 
 	AtlasLoot_Data["CardGame1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud35#"};
@@ -8248,9 +8266,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "SETMENU";
 	};
 
-		------------
-		--- Pets ---
-		------------
+		-------------------
+		--- Vanity Pets ---
+		-------------------
 
 	AtlasLoot_Data["PetsMerchant1"] = {
 		{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#"};
@@ -8426,6 +8444,18 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
 		{ 18, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
 		Prev = "PetsEvent1";
+		Next = "PetsAccessories1";
+		Back = "PETMENU";
+	};
+
+	AtlasLoot_Data["PetsAccessories1"] = {
+		{ 1, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="};
+		{ 2, 37431, "", "=q2=Fetch Ball", "=ds="};
+		{ 3, 43626, "", "=q2=Happy Pet Snack", "=ds="};
+		{ 4, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
+		{ 5, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
+		{ 6, 37460, "", "=q1=Rope Pet Leash", "=ds="};
+		Prev = "PetsPromotional1";
 		Back = "PETMENU";
 	};
 

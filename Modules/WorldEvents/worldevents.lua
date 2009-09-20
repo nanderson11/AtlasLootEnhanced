@@ -320,12 +320,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["CorenDirebrew"] = {
-		{ 1, 49118, "", "=q4=Bubbling Balebrew Charm", "=ds=#s14#"};
-		{ 2, 49116, "", "=q4=Bitter Brightbrew Charm", "=ds=#s14#"};
-		{ 3, 49080, "", "=q4=Brawler's Souvenir", "=ds=#s14#"};
-		{ 4, 49076, "", "=q4=Mithril Pocketwatch", "=ds=#s14#"};
+		{ 1, 49078, "", "=q4=Ancient Pickled Egg", "=ds=#s14#"};
+		{ 2, 49118, "", "=q4=Bubbling Balebrew Charm", "=ds=#s14#"};
+		{ 3, 49116, "", "=q4=Bitter Brightbrew Charm", "=ds=#s14#"};
+		{ 4, 49080, "", "=q4=Brawler's Souvenir", "=ds=#s14#"};
 		{ 5, 49074, "", "=q4=Coren's Chromium Coaster", "=ds=#s14#"};
-		{ 6, 49078, "", "=q4=Ancient Pickled Egg", "=ds=#s14#"};
+		{ 6, 49076, "", "=q4=Mithril Pocketwatch", "=ds=#s14#"};
 		{ 7, 49120, "", "=q4=Direbrew's Shanker 2.0", "=ds=#h1#, #w4#"};
 		{ 16, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e12#"};
 		{ 17, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e12#"};
