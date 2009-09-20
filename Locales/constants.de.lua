@@ -3,6 +3,8 @@
 local AL = AceLocale:NewLocale("AtlasLoot", "deDE", false);
 
 if AL then
+
+	
     --Text strings for UI objects
     AL["AtlasLoot"] = "AtlasLoot";
     AL["No match found for"] = "Kein Eintrag gefunden für";
@@ -16,7 +18,7 @@ if AL then
     AL["Click boss name to view loot."] = "Klicke Boss um den Loot zu sehen.";
     AL["Various Locations"] = "Verschiedene Orte";
     AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Atlasloot zeigt nur Loot an. Falls du Karten möchtest, installiere bitte 'Atlas' oder 'Alphamap'.";
-    AL["Toggle AL Panel"] = "AL-Leiste ein/aus";
+    AL["Toggle AL Panel"] = "AtlasLoot-Leiste ein/aus";
     AL[" is safe."] = " ist sicher.";
     AL["Server queried for "] = "Fragt den Server nach ";
     AL[".  Right click on any other item to refresh the loot page."] = ".  Rechtsklicke auf ein beliebiges anderes Item um den Loot auf der Seite zu aktualisieren.";
@@ -1045,5 +1047,265 @@ if AL then
 	AL["Edit"] = "Bearbeiten";
 	AL["Show all Wishlists"] = "Zeige alle Wunschzettel";
 	AL["Show own Wishlists"] = "Zeige eigene Wunschzettel";
+
+	-- Text strings for UI objects
+	AL["AtlasLoot"] = "AtlasLoot";
+	AL["Select Loot Table"] = "Beuteverzeichnis";
+	AL["Select Sub-Table"] = "Unterverzeichnis";
+	AL["Drop Rate: "] = "Wahrscheinlichkeit: ";
+	AL["DKP"] = "DKP";
+	AL["Priority:"] = "Priorität:";
+	AL["Click boss name to view loot."] = "Klicke den Boss an, um dessen Beute anzuschauen.";
+	AL["Various Locations"] = "Verschiedene Orte";
+	AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "AtlasLoot zeigt nur Beute an. Falls du Karten möchtest, verwende bitte 'Atlas' oder 'Alphamap'.";
+	AL["Toggle AL Panel"] = "AtlasLoot-Leiste ein/aus";
+	AL["Back"] = "Zurück";
+	AL["Level 60"] = "Level 60";
+	AL["Level 70"] = "Level 70";
+	AL["Level 80"] = "Level 80";
+	AL["|cffff0000(unsafe)"] = "|cffff0000(unsicher)";
+	AL["Misc"] = "Sonstiges";
+	AL["Miscellaneous"] = "Sonstiges";
+	AL["Rewards"] = "Belohnungen";
+	AL["Show 10 Man Loot"] = "Beute (10 Spieler)";
+	AL["Show 25 Man Loot"] = "Beute (25 Spieler)";
+	AL["Factions - Original WoW"] = "Fraktionen - Klassisches WoW";
+	AL["Factions - Burning Crusade"] = "Fraktionen - Burning Crusade";
+	AL["Factions - Wrath of the Lich King"] = "Fraktionen - Wrath of the Lich King";
+	AL["Choose Table ..."] = "Wähle Verzeichnis ...";
+	AL["Unknown"] = "Unbekannt";
+	AL["Add to QuickLooks:"] = "Lesezeichen hinzufügen";
+	AL["Assign this loot table\n to QuickLook"] = "Dieses Beuteverzeichnis dem\n Lesezeichen hinzufügen";
+	AL["Query Server"] = "Serverabfrage";
+	AL["Reset Frames"] = "Frame zurücksetzen";
+	AL["Reset Wishlist"] = "Wunschzettel zurücksetzen";
+	AL["Reset Quicklooks"] = "Lesezeichen zurücksetzen";
+	AL["Select a Loot Table..."] = "Wähle ein Beuteverzeichnis ...";
+	AL["OR"] = "OR";
+	AL["FuBar Options"] = "FuBar-Optionen";
+	AL["Attach to Minimap"] = "An der Minimap anbringen";
+	AL["Hide FuBar Plugin"] = "FuBar Plugin verstecken";
+	AL["Show FuBar Plugin"] = "FuBar Plugin anzeigen";
+	AL["Position:"] = "Position:";
+	AL["Left"] = "Links";
+	AL["Center"] = "Mitte";
+	AL["Right"] = "Rechts";
+	AL["Hide Text"] = "Text verstecken";
+	AL["Hide Icon"] = "Icon verstecken";
+	AL["Minimap Button Options"] = "Minimap-Button Optionen";
+
+	-- Text for Options Panel
+	AL["Atlasloot Options"] = "AtlasLoot Optionen";
+	AL["Safe Chat Links"] = "Sichere Chatlinks";
+	AL["Default Tooltips"] = "Standard-Tooltips";
+	AL["Lootlink Tooltips"] = "Lootlink-Tooltips";
+	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dLootlink Tooltips|r";
+	AL["ItemSync Tooltips"] = "ItemSync-Tooltips verwenden";
+	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dItemSync Tooltips|r";
+	AL["Use EquipCompare"] = "EquipCompare verwenden";
+	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dBenutze EquipCompare|r";
+	AL["Show Comparison Tooltips"] = "Zeige eigenes Item zum Vergleich";
+	AL["Make Loot Table Opaque"] = "Undurchsichtiger Hintergrund";
+	AL["Show itemIDs at all times"] = "IDs der Gegenstände immer anzeigen";
+	AL["Hide AtlasLoot Panel"] = "Blende die AtlasLoot-Leiste aus";
+	AL["Show Basic Minimap Button"] = "Minimap-Button anzeigen";
+	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dMinimap-Button anzeigen|r";
+	AL["Set Minimap Button Position"] = "Setze die Position des Buttons an der Minimap";
+	AL["Suppress Item Query Text"] = "Meldung der Serverabfrage verstecken";
+	AL["Notify on LoD Module Load"] = "Meldung beim automatischen Laden der Module";
+	AL["Load Loot Modules at Startup"] = "Module beim Start laden";
+	AL["Loot Browser Scale: "] = "AtlasLoot Skalierung";
+	AL["Button Position: "] = "Position des Buttons";
+	AL["Button Radius: "] = "Radius des Buttons";
+	AL["Done"] = "OK";
+	AL["FuBar Toggle"] = "FuBar ein/aus";
+	AL["Search Result: %s"] = "Suchergebnis: %s";
+	AL["Search on"] = "Suchen in";
+	AL["All modules"] = "Alle Module";
+	AL["If checked, AtlasLoot will load and search across all the modules."] = "Falls aktiviert, sucht Atlasloot in allen Modulen";
+	AL["Search options"] = "Suchoptionen";
+	AL["Partial matching"] = "Teilweise Übereinstimmung";
+	AL["If checked, AtlasLoot search item names for a partial match."] = "Falls aktiviert, sucht AtlasLoot nach einer teilweisen Übereinstimmung mit den Namen der Gegenstände";
+	AL["You don't have any module selected to search on!"] = "Du hast kein Modul zur Suche ausgewählt";
+	AL["Treat Crafted Items:"] = "Herstellbare Gegenstände behandeln";
+	AL["As Crafting Spells"] = "als Zauber";
+	AL["As Items"] = "als Gegenstände";
+	AL["Loot Browser Style:"] = "AtlasLoot Design:";
+	AL["New Style"] = "Modernes Design";
+	AL["Classic Style"] = "Klassisches Design";
 	
+	-- Slash commands
+	--AL["reset"] = true;
+	--AL["options"] = true;
+	AL["Reset complete!"] = "AtlasLoot wurde erfolgreich zurückgesetzt!";
+	
+	-- AtlasLoot Panel
+	AL["Collections"] = "Sammlungen";
+	AL["Crafting"] = "Herstellbares";
+	AL["Factions"] = "Fraktionen";
+	AL["Load Modules"] = "Module laden";
+	AL["Options"] = "Optionen";
+	AL["PvP Rewards"] = "PvP Belohnungen";
+	AL["QuickLook"] = "Lesezeichen";
+	AL["World Events"] = "Weltevents";
+	
+	-- AtlasLoot Panel - Search
+	AL["Clear"] = "Löschen";
+	AL["Last Result"] = "Letzte Suche";
+	AL["Search"] = "Suchen";
+	
+	-- AtlasLoot Browser Menus
+	AL["Classic Instances"] = "Instanzen (Klassisch)";
+	AL["BC Instances"] = "Instanzen (BC)";
+	AL["Sets/Collections"] = "Sammlungen";
+	AL["Reputation Factions"] = "Fraktionen";
+	AL["WotLK Instances"] = "Instanzen (WotLK)";
+	AL["World Bosses"] = "Weltbosse";
+	AL["Close Menu"] = "Menü schließen";
+	
+	-- Crafting Menu
+	AL["Crafting Daily Quests"] = "Tägliche Quests zur Herstellung";
+	AL["Cooking Daily"] = "Tägliche Kochquest";
+	AL["Fishing Daily"] = "Tägliche Angelquest";
+	AL["Jewelcrafting Daily"] = "Tägliche Juwelenschleifenquest";
+	AL["Crafted Sets"] = "Herstellbare Sets";
+	AL["Crafted Epic Weapons"] = "Herstellbare epische Waffen";
+	AL["Dragon's Eye"] = "Drachenauge";
+	
+	-- Sets/Collections Menu
+	AL["Badge of Justice Rewards"] = "Abzeichen der Gerechtigkeit";
+	AL["Emblem of Valor Rewards"] = "Emblem der Ehre";
+	AL["Emblem of Heroism Rewards"] = "Emblem des Heldentums";
+	AL["Emblem of Conquest Rewards"] = "Emblem der Eroberung";
+	AL["Emblem of Triumph Rewards"] = "Emblem des Triumphs";
+	AL["BoE World Epics"] = "Epische Beute (Welt)";
+	AL["Dungeon 1/2 Sets"] = "Sets (Dungeon 1/2)";
+	AL["Dungeon 3 Sets"] = "Sets (Dungeon 3)";
+	AL["Legendary Items"] = "Legendäre Gegenstände";
+	AL["Mounts"] = "Reittiere";
+	AL["Vanity Pets"] = "Haustiere";
+	AL["Misc Sets"] = "Sets (Sonstige)";
+	AL["Classic Sets"] = "Sets (Klassische)";
+	AL["Burning Crusade Sets"] = "Sets (Burning Crusade)";
+	AL["Wrath Of The Lich King Sets"] = "Sets (Wrath of the Lich King)";
+	AL["Ruins of Ahn'Qiraj Sets"] = "Sets (Ruinen von Ahn'Quiraj)";
+	AL["Temple of Ahn'Qiraj Sets"] = "Sets (Tempel von Ahn'Quiraj)";
+	AL["Tabards"] = "Wappenröcke";
+	AL["Tier 1/2 Sets"] = "Sets (Tier 1/2)";
+	AL["Tier 1/2/3 Sets"] = "Sets (Tier 1/2/3)";
+	AL["Tier 3 Sets"] = "Sets (Tier 3)";
+	AL["Tier 4/5/6 Sets"] = "Sets (Tier 4/5/6)";
+	AL["Tier 7/8 Sets"] = "Sets (Tier 7/8)";
+	AL["Upper Deck Card Game Items"] = "Kartenspiel Gegenstände";
+	AL["Zul'Gurub Sets"] = "Sets (Zul'Gurub)";
+
+	-- Factions Menu
+	AL["Original Factions"] = "Fraktionen (Klassisch)";
+	AL["BC Factions"] = "Fraktionen (BC)";
+	AL["WotLK Factions"] = "Fraktionen (WotLK";
+
+	-- PvP Menu
+	AL["Arena PvP Sets"] = "PvP-Sets (Arena)";
+	AL["PvP Rewards (Level 60)"] = "PvP-Belohnungen (Level 60)";
+	AL["PvP Rewards (Level 70)"] = "PvP-Belohnungen (Level 70)";
+	AL["PvP Rewards (Level 80)"] = "PvP-Belohnungen (Level 80)";
+	AL["Arathi Basin Sets"] = "Arathibecken (Sets)";
+	AL["PvP Accessories"] = "PvP-Zubehör";
+	AL["PvP Armor Sets"] = "PvP-Rüstungssets";
+	AL["PvP Weapons"] = "PvP-Waffen";
+	AL["PvP Non-Set Epics"] = "PvP Nicht-Set Epics";
+	AL["PvP Reputation Sets"] = "PvP-Rufbelohnungen";
+	AL["Arena PvP Weapons"] = "PvP-Waffen (Arena)";
+	AL["PvP Misc"] = "PvP (Sonstiges)";
+	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Edelsteine/Verzauberungen/Rezepte";
+	AL["Level 80 PvP Sets"] = "PvP-Sets (Level 80)";
+	AL["Old Level 80 PvP Sets"] = "Alte PvP-Sets (Level 80)";
+	AL["Arena Season 7 Sets"] = "PvP-Sets (7. Arenasaison)";
+	AL["PvP Class Items"] = "PvP-Gegenstände (Klassenspezifisch)";
+
+	-- World Events
+	AL["Abyssal Council"] = "Abyssischer Rat";
+    AL["Bash'ir Landing Skyguard Raid"] = "Landeplatz von Bash'ir Himmelswache Raid";
+	AL["Brewfest"] = "Braufest";
+	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
+    AL["Children's Week"] = "Kinderwoche";
+    AL["Elemental Invasion"] = "Invasion der Elementare";
+    AL["Ethereum Prison"] = "Gefängnis des Astraleums";
+    AL["Feast of Winter Veil"] = "Winterhauchfest";
+    AL["Gurubashi Arena Booty Run"] = "Gurubashiarena";
+    AL["Hallow's End"] = "Schlotternächte";
+    AL["Harvest Festival"] = "Erntedankfest";
+    AL["Love is in the Air"] = "Herzklopfen";
+    AL["Lunar Festival"] = "Mondfest";
+    AL["Midsummer Fire Festival"] = "Sonnenwendfest";
+    AL["Noblegarden"] = "Nobelgarten";
+	--    AL["Skettis"] = true,
+    AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
+	AL["Argent Tournament"] = "Argentumturnier";
+
+	-- Months
+	AL["January"] = "Januar";
+	AL["February"] = "Februar";
+	AL["March"] = "März";
+	--AL["April"] = true;
+	AL["May"] = "Mai";
+	AL["June"] = "Juni";
+	AL["July"] = "Juli";
+	--AL["August"] = true;
+	--AL["September"] = "true;
+	AL["October"] = "Oktober";
+	--AL["November"] = true;
+	AL["December"] = "Dezember";
+	
+	-- Minimap Button
+	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";
+	AL["|cffff0000Right-Click|r View Options"] = "|cff1eff00Rechtsklick|r Optionen anzeigen";
+	AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Shiftklick|r Optionen anzeigen";
+	AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffccccccLinksklick + Ziehen|r Minimap Button bewegen";
+	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccRechtsklick + Ziehen|r Minimap Button bewegen";
+
+	-- Filter
+	--AL["Filter"] = true;
+	AL["Select All Loot"] = "Komplette Beute auswählen";
+	AL["Apply Filter:"] = "Filter anwenden:";
+	AL["Armor:"] = "Rüstung:";
+	AL["Melee weapons:"] = "Nahkampfwaffen:";
+	AL["Ranged weapons:"] = "Fernkampfwaffen:";
+	AL["Relics:"] = "Relikte:";
+	AL["Other:"] = "Anderes:";
+
+	-- Wishlist
+	AL["Close"] = "Schließen";
+	AL["Wishlist"] = "Wunschzettel";
+	AL["Own Wishlists"] = "Eigene Wunschzettel";
+	AL["Other Wishlists"] = "Andere Wunschzettel";
+	AL["Shared Wishlists"] = "Geteilte Wunschzettel";
+	AL["Mark items in loot tables"] = "Gegenstände im Beuteverzeichnis hervorheben";
+	AL["Mark items from own Wishlist"] = "Gegenstände vom eigenen Wunschzettel hervorheben";
+	AL["Mark items from all Wishlists"] = "Gegenstände von allen Wunschzetteln hervorheben";
+	AL["Enable Wishlist Sharing"] = "Teilen von Wunschzetteln aktivieren";
+	AL["Auto reject in combat"] = "Automatisches Ablehnen im Kampf";
+	AL["Always use default Wishlist"] = "Immer Standard-Wunschzettel verwenden";
+	AL["Add Wishlist"] = "Wunschzettel hinzufügen";
+	AL["Edit Wishlist"] = "Wunschzettel bearbeiten";
+	AL["Show More Icons"] = "Weitere Icons anzeigen";
+	AL["Wishlist name:"] = "Name des Wunschzettels:";
+	AL["Delete"] = "Löschen";
+	AL["Edit"] = "Bearbeiten";
+	AL["Share"] = "Teilen";
+	AL["Show all Wishlists"] = "Alle Wunschzettel zeigen";
+	AL["Show own Wishlists"] = "Eigene Wunschzettel zeigen";
+	AL["Show shared Wishlists"] = "Geteilte Wunschzettel zeigen";
+	AL["You must wait "] = "Du musst warten ";
+	AL[" seconds before you can send a new Wishlist to "] = true;
+	AL["Send Wishlist (%s) to"] = true;
+	AL["Send"] = true;
+	AL["Cancel"] = true;
+	AL["Delete Wishlist %s?"] = true;
+	AL["%s sends you a Wishlist. Accept?"] = true;
+	AL[" tried to send you a Wishlist. Rejected because you are in combat."] = true;
+	AL[" rejects your Wishlist."] = true;
+	AL["You can't send Wishlists to yourself"] = true;
+	AL["Please set a default Wishlist."] = true;
+	AL["Set as default Wishlist"] = true;
 end
