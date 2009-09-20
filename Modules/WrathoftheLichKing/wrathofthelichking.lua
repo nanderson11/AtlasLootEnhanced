@@ -8721,7 +8721,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "=ds=#e12#"};
 		{ 10, 44160, "", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
 		{ 11, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "=ds=#e12#"};
-		{ 12, "s60024", "Ability_Mount_Drake_Proto", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
+		{ 12, "44177", "", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
 		{ 17, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2=#n155#, =q1=#z37#", ""};
 		{ 18, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
