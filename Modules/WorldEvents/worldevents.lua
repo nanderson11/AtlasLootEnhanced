@@ -1,4 +1,4 @@
-local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+﻿local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
@@ -257,38 +257,49 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		----------------
 
 	AtlasLoot_Data["Brewfest1"] = {
-		{ 1, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#"};
-		{ 2, 37816, "", "=q2=Preserved Brewfest Hops", "=ds="};
-		{ 3, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#"};
-		{ 4, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#"};
-		{ 5, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#"};
-		{ 6, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#"};
-		{ 7, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#"};
-		{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#"};
-		{ 9, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#"};
-		{ 10, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#"};
-		{ 11, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#"};
-		{ 12, 46707, "", "=q3=Pint-Sized Pink Elekk", "=ds=#e13#"};
-		{ 13, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#"};
-		{ 15, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#"};
-		{ 16, 37750, "", "=q1=Fresh Brewfest Hops", "=ds="};
-		{ 17, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ds="};
-		{ 18, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ds="};
-		{ 20, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
-		{ 22, 34063, "", "=q1=Dried Sausage", "=ds=#e3#"};
-		{ 23, 34064, "", "=q1=Succulent Sausage", "=ds=#e3#"};
-		{ 24, 33023, "", "=q1=Savory Sausage", "=ds=#e3#"};
-		{ 25, 33024, "", "=q1=Pickled Sausage", "=ds=#e3#"};
-		{ 26, 33025, "", "=q1=Spicy Smoked Sausage", "=ds=#e3#"};
-		{ 27, 33026, "", "=q1=The Golden Link", "=ds=#e3#"};
-		{ 28, 38428, "", "=q1=Rock-Salted Pretzel", "=ds=#e3#"};
-		{ 29, 33043, "", "=q1=The Essential Brewfest Pretzel", "=ds=#e3#"};
-		{ 30, 33929, "", "=q1=Brewfest Brew", "=ds=#e4#"};
+		{ 1, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#, 100 #brewfest#"};
+		{ 2, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
+		{ 3, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
+		{ 4, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
+		{ 5, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
+		{ 6, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#, 200 #brewfest#"};
+		{ 7, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#, 200 #brewfest#"};
+		{ 8, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#, 100 #brewfest#"};
+		{ 9, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#, 100 #brewfest#"};
+		{ 11, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#, 100 #brewfest#"};
+		{ 12, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#, 200 #brewfest#"};
+		{ 15, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
+		{ 16, 46707, "", "=q3=Pint-Sized Pink Elekk", "=ds=#e13#, 100 #brewfest#"};
+		{ 17, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#, 40 #silver#"};
+		{ 19, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#, 20 #brewfest#"};
+		{ 20, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#, 5 #brewfest#"};
+		{ 21, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#, 5 #brewfest#"};
+		{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#, 2 #brewfest#"};
 		Next = "Brewfest2";
 		Back = "WORLDEVENTMENU";
 	};
 
 	AtlasLoot_Data["Brewfest2"] = {
+		{ 1, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009 =q1=Old #m4#: =ds=#h1#"};
+		{ 2, 33016, "", "=q3=Blue Brewfest Stein", "=ec1=2008 =q1=Old #m4#: =ds=#h1#"};
+		{ 3, 32912, "", "=q3=Yellow Brewfest Stein", "=ec1=2007 =q1=Old #m4#: =ds=#h3#"};
+		{ 4, 34140, "", "=q3=Dark Iron Tankard", "=q1=Old #m4#: =ds=#s15#"};
+		{ 6, 33976, "", "=q3=Brewfest Ram", "=q1=Old #m4#: =ds=#e12#"};
+		{ 16, 34063, "", "=q1=Dried Sausage", "=ds=#e3#"};
+		{ 17, 34064, "", "=q1=Succulent Sausage", "=ds=#e3#"};
+		{ 18, 33023, "", "=q1=Savory Sausage", "=ds=#e3#"};
+		{ 19, 33024, "", "=q1=Pickled Sausage", "=ds=#e3#"};
+		{ 20, 33025, "", "=q1=Spicy Smoked Sausage", "=ds=#e3#"};
+		{ 21, 33026, "", "=q1=The Golden Link", "=ds=#e3#"};
+		{ 22, 38428, "", "=q1=Rock-Salted Pretzel", "=ds=#e3#"};
+		{ 23, 33043, "", "=q1=The Essential Brewfest Pretzel", "=ds=#e3#"};
+		{ 24, 33929, "", "=q1=Brewfest Brew", "=ds=#e4#"};
+		Prev = "Brewfest1";
+		Next = "Brewfest3";
+		Back = "WORLDEVENTMENU";
+	};
+
+	AtlasLoot_Data["Brewfest3"] = {
 		{ 1, 0, "INV_Cask_04", "=q6=#n131#", ""};
 		{ 2, 33030, "", "=q1=Barleybrew Clear", "=ds=#e4#"};
 		{ 3, 33028, "", "=q1=Barleybrew Light", "=ds=#e4#"};
@@ -309,13 +320,26 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 22, 34020, "", "=q1=Jungle River Water", "=ds=#e4#"};
 		{ 23, 34021, "", "=q1=Brewdoo Magic", "=ds=#e4#"};
 		{ 24, 34022, "", "=q1=Stout Shrunken Head", "=ds=#e4#"};
-		{ 26, 37892, "", "=q3=Green Brewfest Stein", "=q1=Old #m4#: =ds=#h1#"};
-		{ 27, 33016, "", "=q3=Blue Brewfest Stein", "=q1=Old #m4#: =ds=#h1#"};
-		{ 28, 33976, "", "=q3=Brewfest Ram", "=q1=Old #m4#: =ds=#e12#"};
-		{ 29, 34140, "", "=q3=Dark Iron Tankard", "=q1=Old #m4#: =ds=#s15#"};
-		{ 30, 32912, "", "=q3=Yellow Brewfest Stein", "=q1=Old #m4#: =ds=#h3#"};
+		Prev = "Brewfest2";
+		Next = "BrewoftheMonthClub";
+		Back = "WORLDEVENTMENU";
+	};
+	
+	AtlasLoot_Data["BrewoftheMonthClub"] = {
+		{ 1, 37488, "", "=q1=Wild Winter Pilsner", "=ds=#month1#"};
+		{ 2, 37489, "", "=q1=Izzard's Ever Flavor", "=ds=#month2#"};
+		{ 3, 37490, "", "=q1=Aromatic Honey Brew", "=ds=#month3#"};
+		{ 4, 37491, "", "=q1=Metok's Bubble Bock", "=ds=#month4#"};
+		{ 5, 37492, "", "=q1=Springtime Stout", "=ds=#month5#"};
+		{ 6, 37493, "", "=q1=Blackrock Lager", "=ds=#month6#"};
+		{ 16, 37494, "", "=q1=Stranglethorn Brew", "=ds=#month7#"};
+		{ 17, 37495, "", "=q1=Draenic Pale Ale", "=ds=#month8#"};
+		{ 18, 37496, "", "=q1=Binary Brew", "=ds=#month9#"};
+		{ 19, 37497, "", "=q1=Autumnal Acorn Ale", "=ds=#month10#"};
+		{ 20, 37498, "", "=q1=Bartlett's Bitter Brew", "=ds=#month11#"};
+		{ 21, 37499, "", "=q1=Lord of Frost's Private Label", "=ds=#month12#"};
+		Prev = "Brewfest3";
 		Next = "CorenDirebrew";
-		Prev = "Brewfest1";
 		Back = "WORLDEVENTMENU";
 	};
 
@@ -331,7 +355,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e12#"};
 		{ 19, 37863, "", "=q3=Direbrew's Remote", "=ds="};
 		{ 21, 38281, "", "=q1=Direbrew's Dire Brew", "=ds=#m2#"};
-		Prev = "Brewfest2";
+		Prev = "BrewoftheMonthClub";
 		Back = "WORLDEVENTMENU";
 	};
 
