@@ -26,7 +26,7 @@ if AL then
 	AL["Priority:"] = "Priorité :";
 	AL["Click boss name to view loot."] = "Cliquez sur le nom du boss pour afficher les objets.";
 	AL["Various Locations"] = "Lieux divers";
-	AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Ceci est uniquement un navigateur pour les objets. Pour afficher les cartes, installez Atlas ou Alphamap.";
+	AL["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = "Ceci est un navigateur de loot. Pour afficher les cartes, veuillez installer Atlas ou Alphamap.";
 	AL["Toggle AL Panel"] = "Afficher le panneau AtlasLoot";
 	AL["Back"] = "Retour";
 	AL["Level 60"] = "Niveau 60";
