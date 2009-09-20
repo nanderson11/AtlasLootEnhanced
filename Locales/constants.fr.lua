@@ -196,6 +196,7 @@ if AL then
 	AL["Abyssal Council"] = "Conseil abyssal";
 	AL["Bash'ir Landing Skyguard Raid"] = "Point d'ancrage de Bash'ir";
 	AL["Brewfest"] = "La fête des Brasseurs";
+	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
 	AL["Children's Week"] = "La Semaine des enfants";
 	AL["Elemental Invasion"] = "Invasions élémentaires";
 	AL["Ethereum Prison"] = "Prison de l'Ethereum";
@@ -210,6 +211,20 @@ if AL then
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
 	AL["Argent Tournament"] = "Tournoi d'Argent";
+
+	-- Months
+	AL["January"] = "Janvier";
+	AL["February"] = "Février";
+	AL["March"] = "Mars";
+	AL["April"] = "Avril";
+	AL["May"] = "Mai";
+	AL["June"] = "Juin";
+	AL["July"] = "Juillet";
+	AL["August"] = "Août";
+	AL["September"] = "Septembre";
+	AL["October"] = "Octobre";
+	AL["November"] = "Novembre";
+	AL["December"] = "Décembre";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcours des Listes d'Objets";
