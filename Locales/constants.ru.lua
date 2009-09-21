@@ -135,8 +135,9 @@ if AL then
 
 	-- Crafting Menu
     AL["Crafting Daily Quests"] = "Ежедневные задания - ремесло";
-	AL["Jewelcrafting Daily"] = "Ювелирное дело (Ежедневный)";
 	AL["Cooking Daily"] = "Кулинария (Ежедневный)";
+	AL["Fishing Daily"] = "Рыбная ловля (Ежедневный)";
+	AL["Jewelcrafting Daily"] = "Ювелирное дело (Ежедневный)";
 	AL["Crafted Sets"] = "Изготавливаемые комплекты";
 	AL["Crafted Epic Weapons"] = "Изготавливаемое превосх. оружие";
 	AL["Dragon's Eye"] = "Око Дракона";
@@ -188,11 +189,15 @@ if AL then
     AL["PvP Misc"] = "PvP ювелирные эскизы";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
+	AL["Old Level 80 PvP Sets"] = "Старые 80 ур. PvP комплекты";
+	AL["Arena Season 7 Sets"] = "Арена комплекты 7 сезона";
+	AL["PvP Class Items"] = "PvP предметы";
 
 	-- World Events
     AL["Abyssal Council"] = "Совет Бездны";
     AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражей Небес на Лагерь Баш'ира";
     AL["Brewfest"] = "Хмельной фестиваль";
+	AL["Brew of the Month Club"] = "Клуб \"Пиво месяца\"";
     AL["Children's Week"] = "Детская неделя";
     AL["Elemental Invasion"] = "Вторжение стихий";
     AL["Ethereum Prison"] = "Тюрьма Эфириумов";
@@ -207,6 +212,20 @@ if AL then
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
 	AL["Argent Tournament"] = "Серебряный турнир";
+	
+	-- Months
+	AL["January"] = "Январь";
+	AL["February"] = "Февраль";
+	AL["March"] = "Март";
+	AL["April"] = "Апрель";
+	AL["May"] = "Май";
+	AL["June"] = "Июнь";
+	AL["July"] = "Июль";
+	AL["August"] = "Август";
+	AL["September"] = "Сентябрь";
+	AL["October"] = "Октябрь";
+	AL["November"] = "Ноябрь";
+	AL["December"] = "Декабрь";
 	
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
@@ -273,6 +292,7 @@ if AL then
     AL["Fish"] = "Рыба";
     AL["Combat Pet"] = "Боевой питомец";
     AL["Fireworks"] = "Феерверк";
+	AL["Fishing Lure"] = "Рыбацкая приманка";
 
     -- Extra inventory stuff
     AL["Cloak"] = "Плащ";
@@ -625,8 +645,12 @@ if AL then
     AL["Skin of the Great Sandworm"] = "Шкура гигантского песчаного червя";
     AL["Husk of the Old God"] = "Броня Древнего Бога";
     AL["Carapace of the Old God"] = "Панцирь Древнего Бога";
+	
+	-- Blacksmithing Mail Crafted Sets
+    AL["Bloodsoul Embrace"] = "Объятия Кровавого Духа";
+    AL["Fel Iron Chain"] = "Кольчуга из оскверненного железа";
 
-    -- Blacksmithing Crafted Sets
+    -- Blacksmithing Plate Crafted Sets
     AL["Imperial Plate"] = "Имперские латы";
     AL["The Darksoul"] = "Темная душа";
     AL["Fel Iron Plate"] = "Латы из оскверненного железа";
@@ -636,9 +660,42 @@ if AL then
     AL["Khorium Ward"] = "Кориевая Опека";
     AL["Faith in Felsteel"] = "Верность оскверненной стали";
     AL["Burning Rage"] = "Пламенная ярость";
-    AL["Bloodsoul Embrace"] = "Объятия Кровавого Духа";
-    AL["Fel Iron Chain"] = "Кольчуга из оскверненного железа";
+	AL["Ornate Saronite Battlegear"] = "Изысканная саронитовая броня";
+	AL["Savage Saronite Battlegear"] = "Саронитовая броня";
 
+	-- Leatherworking Crafted Leather Sets
+    AL["Volcanic Armor"] = "Вулканические доспехи";
+    AL["Ironfeather Armor"] = "Железноперые доспехи";
+    AL["Stormshroud Armor"] = "Доспехи Грозового покрова";
+    AL["Devilsaur Armor"] = "Доспехи из кожи девизавра";
+    AL["Blood Tiger Harness"] = "Доспехи Кровавого тигра";
+    AL["Primal Batskin"] = "Простая шкура нетопыря";
+    AL["Wild Draenish Armor"] = "Доспехи дренейского дикаря";
+    AL["Thick Draenic Armor"] = "Утолщенные дренейские доспехи";
+    AL["Fel Skin"] = "Кожа Скверны";
+    AL["Strength of the Clefthoof"] = "Сила копытня";
+    AL["Primal Intent"] = "Изначальная цель";
+    AL["Windhawk Armor"] = "Доспехи Ветроястреба";
+	AL["Borean Embrace"] = "Борейское облачение";
+	AL["Iceborne Embrace"] = "Облачение жителя льдов";
+	AL["Eviscerator's Battlegear"] = "Броня потрошителя";
+	AL["Overcaster Battlegear"] = "Броня усердного заклинателя";
+
+	-- Leatherworking Crafted Mail Sets
+    AL["Green Dragon Mail"] = "Кольчуга Зеленого дракона";
+    AL["Blue Dragon Mail"] = "Кольчуга Синего дракона";
+    AL["Black Dragon Mail"] = "Кольчуга Черного дракона";
+    AL["Scaled Draenic Armor"] = "Сила копытня";
+    AL["Felscale Armor"] = "Доспехи Чешуи Скверны";
+    AL["Felstalker Armor"] = "Доспехи Темного следопыта";
+    AL["Fury of the Nether"] = "Ярость Пустоты";
+    AL["Netherscale Armor"] = "Доспехи из чешуи дракона Пустоты";
+    AL["Netherstrike Armor"] = "Доспехи удара Пустоты";
+	AL["Frostscale Binding"] = "Морозная чешуя";
+	AL["Nerubian Hive"] = "Нерубская шкура";
+	AL["Stormhide Battlegear"] = "Броня штормового укрытия";
+	AL["Swiftarrow Battlefear"] = "Броня быстрой стрелы";
+	
     -- Tailoring Crafted Sets
     AL["Bloodvine Garb"] = "Одеяния Боевого заклятья";
     AL["Netherweave Vestments"] = "Одеяния из ткани Пустоты";
@@ -652,29 +709,9 @@ if AL then
     AL["Primal Mooncloth"] = "Изначальная луноткань";
     AL["Shadow's Embrace"] = "Объятия Тени";
     AL["Wrath of Spellfire"] = "Гнев Чародейского огня";
-
-    -- Leatherworking Crafted Sets
-    AL["Volcanic Armor"] = "Вулканические доспехи";
-    AL["Ironfeather Armor"] = "Железноперые доспехи";
-    AL["Stormshroud Armor"] = "Доспехи Грозового покрова";
-    AL["Devilsaur Armor"] = "Доспехи из кожи девизавра";
-    AL["Blood Tiger Harness"] = "Доспехи Кровавого тигра";
-    AL["Primal Batskin"] = "Простая шкура нетопыря";
-    AL["Wild Draenish Armor"] = "Доспехи дренейского дикаря";
-    AL["Thick Draenic Armor"] = "Утолщенные дренейские доспехи";
-    AL["Fel Skin"] = "Кожа Скверны";
-    AL["Strength of the Clefthoof"] = "Сила копытня";
-    AL["Green Dragon Mail"] = "Кольчуга Зеленого дракона";
-    AL["Blue Dragon Mail"] = "Кольчуга Синего дракона";
-    AL["Black Dragon Mail"] = "Кольчуга Черного дракона";
-    AL["Scaled Draenic Armor"] = "Сила копытня";
-    AL["Felscale Armor"] = "Доспехи Чешуи Скверны";
-    AL["Felstalker Armor"] = "Доспехи Темного следопыта";
-    AL["Fury of the Nether"] = "Ярость Пустоты";
-    AL["Primal Intent"] = "Изначальная цель";
-    AL["Windhawk Armor"] = "Доспехи Ветроястреба";
-    AL["Netherscale Armor"] = "Доспехи из чешуи дракона Пустоты";
-    AL["Netherstrike Armor"] = "Доспехи удара Пустоты";
+	AL["Frostwoven Power"] = "Ледотканая мощь";
+	AL["Duskweaver"] = "Сумеречный ткач";
+	AL["Frostsavage Battlegear"] = "Броня ледяной ярости";
 
     -- Classic WoW Sets
     AL["Defias Leather"] = "Кожаные доспехи Братства Справедливости";
