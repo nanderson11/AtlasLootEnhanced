@@ -1102,6 +1102,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 29, "s45556", "34755", "=q1=Tender Shoveltusk Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		{ 30, "s57443", "43001", "=q1=Tracker Snacks", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
 		Next = "Cooking2";
+		Back = "CRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["Cooking2"] = {
@@ -1137,6 +1138,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 30, "s45022", "34411", "=q1=Hot Apple Cider", "=ds="..AL["Vendor"]..""};
 		Prev = "Cooking1";
 		Next = "Cooking3";
+		Back = "CRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["Cooking3"] = {
@@ -1172,6 +1174,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 30, "s18240", "13928", "=q1=Grilled Squid", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
 		Prev = "Cooking2";
 		Next = "Cooking4";
+		Back = "CRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["Cooking4"] = {
@@ -1207,6 +1210,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 30, "s15853", "12209", "=q1=Lean Wolf Steak", "=ds="..AL["Vendor"]..", "..BabbleZone["Desolace"]};
 		Prev = "Cooking3";
 		Next = "Cooking5";
+		Back = "CRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["Cooking5"] = {
@@ -1242,6 +1246,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 30, "s7754", "6316", "=q1=Loch Frenzy Delight", "=ds="..AL["Vendor"]..""};
 		Prev = "Cooking4";
 		Next = "Cooking6";
+		Back = "CRAFTINGMENU";
 	};
 
 	AtlasLoot_Data["Cooking6"] = {
@@ -1271,6 +1276,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 24, "s7752", "787", "=q1=Slitherskin Mackerel", "=ds="..AL["Vendor"]..""};
 		{ 25, "s37836", "30816", "=q1=Spice Bread", "=ds="..AL["Trainer"]};
 		Prev = "Cooking5";
+		Back = "CRAFTINGMENU";
 	};
 
 		------------------
@@ -5384,7 +5390,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 20, 43021, "", "=q2=Recipe: Very Burnt Worg", "=ds=#p3# (400)"};
 		{ 22, 46349, "", "=q3=Chef's Hat", "=ds=#s1#"};
 		{ 23, 43007, "", "=q1=Northern Spices", "=ds=#e8#"};
-		{ 25, 0, "inv_misc_bag_11", "=q6=Small Spice Bag", ""};
+		{ 25, 0, "inv_misc_bag_11", "=q6="..AL["Small Spice Bag"], ""};
 		{ 26, 33925, "", "=q3=Recipe: Delicious Chocolate Cake", "=ds=#p3# (1)", "", ""};
 		{ 27, 33871, "", "=q3=Recipe: Stormchops", "=ds=#p3# (300)", "", ""};
 		{ 28, 44228, "", "=q1=Baby Spice", "=ds=", "", ""};
