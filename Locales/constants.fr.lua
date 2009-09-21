@@ -344,7 +344,9 @@ if AL then
 	AL["Classes:"] = "Classes :";
 	AL["This Item Begins a Quest"] = "Cet objet permet de lancer une quête.";
 	AL["Quest Item"] = "Objet de quête";
+	AL["Old Quest Item"] = "Ancien objet de quête";
 	AL["Quest Reward"] = "Récompense de quête";
+	AL["Old Quest Reward"] = "Ancienne récompense de quête";
 	AL["Shared"] = "Partagé";
 	--AL["Unique"] = true,
 	AL["Right Half"] = "Moitié droite";
@@ -1342,6 +1344,7 @@ if AL then
 	AL["Hyldnir Spoils"] = "Butin hyldnir";
 	AL["Ripe Disgusting Jar"] = "Jarre dégoûtante mûre";
 	AL["Cracked Egg"] = "Oeuf brisé";
+	AL["Small Spice Bag"] = "Petit sac d'épices";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
