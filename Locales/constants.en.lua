@@ -345,7 +345,9 @@ if AL then
 	AL["Classes:"] = true;
 	AL["This Item Begins a Quest"] = true;
 	AL["Quest Item"] = true;
+	AL["Old Quest Item"] = true;
 	AL["Quest Reward"] = true;
+	AL["Old Quest Reward"] = true;
 	AL["Shared"] = true;
 	AL["Unique"] = true;
 	AL["Right Half"] = true;
@@ -1344,6 +1346,7 @@ if AL then
 	AL["Hyldnir Spoils"] = true;
 	AL["Ripe Disgusting Jar"] = true;
 	AL["Cracked Egg"] = true;
+	AL["Small Spice Bag"] = true;
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the

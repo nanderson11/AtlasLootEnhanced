@@ -190,7 +190,9 @@ if AL then
     AL["Classes:"] = "Klassen:";
     AL["This Item Begins a Quest"] = "Dieser Gegenstand startet eine Quest";
     AL["Quest Item"] = "Questgegenstand";
+	AL["Old Quest Item"] = "Alter Questgegenstand";
     AL["Quest Reward"] = "Questbelohnung";
+    AL["Old Quest Reward"] = "Alte Questbelohnung";
     AL["Shared"] = "geteilter Loot";
     AL["Unique"] = "Einzigartig";
     AL["Right Half"] = "Rechte Hälfte";
@@ -1012,6 +1014,7 @@ if AL then
 	AL["Hyldnir Spoils"] = "Hyldnirbeute";
 	AL["Ripe Disgusting Jar"] = "Reife eklige Flasche";
 	AL["Cracked Egg"] = "Zerbrochene Eierschale";
+	AL["Small Spice Bag"] = "Kleines Gewürzsäckchen";
 
     --World Events
     AL["Abyssal Council"] = "Abyssischer Rat";
@@ -1030,7 +1033,7 @@ if AL then
     AL["Noblegarden"] = "Nobelgarten";
 	--    AL["Skettis"] = true,
     AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
-	
+
 	-- Filter
 	--AL["Filter"] = true;
     --AL["Select All Loot"] = true;
@@ -1039,7 +1042,7 @@ if AL then
 	AL["Ranged weapons:"] = "Distanzwaffen:";
 	AL["Relics:"] = "Relikte:";
 	AL["Other:"] = "Sonstiges:";
-	
+
 	-- Wishlist
 	AL["Close"] = "Schließen";
     AL["Wishlist"] = "Wunschzettel";
@@ -1133,12 +1136,12 @@ if AL then
 	AL["Loot Browser Style:"] = "AtlasLoot Design:";
 	AL["New Style"] = "Modernes Design";
 	AL["Classic Style"] = "Klassisches Design";
-	
+
 	-- Slash commands
 	--AL["reset"] = true;
 	--AL["options"] = true;
 	AL["Reset complete!"] = "AtlasLoot wurde erfolgreich zurückgesetzt!";
-	
+
 	-- AtlasLoot Panel
 	AL["Collections"] = "Sammlungen";
 	AL["Crafting"] = "Herstellbares";
@@ -1148,12 +1151,12 @@ if AL then
 	AL["PvP Rewards"] = "PvP Belohnungen";
 	AL["QuickLook"] = "Lesezeichen";
 	AL["World Events"] = "Weltevents";
-	
+
 	-- AtlasLoot Panel - Search
 	AL["Clear"] = "Löschen";
 	AL["Last Result"] = "Letzte Suche";
 	AL["Search"] = "Suchen";
-	
+
 	-- AtlasLoot Browser Menus
 	AL["Classic Instances"] = "Instanzen (Klassisch)";
 	AL["BC Instances"] = "Instanzen (BC)";
@@ -1162,7 +1165,7 @@ if AL then
 	AL["WotLK Instances"] = "Instanzen (WotLK)";
 	AL["World Bosses"] = "Weltbosse";
 	AL["Close Menu"] = "Menü schließen";
-	
+
 	-- Crafting Menu
 	AL["Crafting Daily Quests"] = "Tägliche Quests zur Herstellung";
 	AL["Cooking Daily"] = "Tägliche Kochquest";
@@ -1171,7 +1174,7 @@ if AL then
 	AL["Crafted Sets"] = "Herstellbare Sets";
 	AL["Crafted Epic Weapons"] = "Herstellbare epische Waffen";
 	AL["Dragon's Eye"] = "Drachenauge";
-	
+
 	-- Sets/Collections Menu
 	AL["Badge of Justice Rewards"] = "Abzeichen der Gerechtigkeit";
 	AL["Emblem of Valor Rewards"] = "Emblem der Ehre";
@@ -1256,7 +1259,7 @@ if AL then
 	AL["October"] = "Oktober";
 	--AL["November"] = true;
 	AL["December"] = "Dezember";
-	
+
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";
 	AL["|cffff0000Right-Click|r View Options"] = "|cff1eff00Rechtsklick|r Optionen anzeigen";
