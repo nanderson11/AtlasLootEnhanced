@@ -1308,78 +1308,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 2, 39611, "", "=q4=Heroes' Dreadnaught Breastplate", "=ds=#s5#, #a4#"};
 		{ 3, 39622, "", "=q4=Heroes' Dreadnaught Handguards", "=ds=#s9#, #a4#"};
 		{ 4, 39612, "", "=q4=Heroes' Dreadnaught Legguards", "=ds=#s11#, #a4#"};
+		{ 6, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 7, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
+		{ 8, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		Prev = "VaultofArchavonArchavon6";
-		Next = "VaultofArchavonArchavon8";
-	};
-
-	AtlasLoot_Data["VaultofArchavonArchavon8"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
-		{ 2, 41907, "", "=q4=Hateful Gladiator's Cuffs of Dominance", "=ds=#s8#, #a1#"};
-		{ 3, 41896, "", "=q4=Hateful Gladiator's Cord of Dominance", "=ds=#s10#, #a1#"};
-		{ 4, 41901, "", "=q4=Hateful Gladiator's Slippers of Dominance", "=ds=#s12#, #a1#"};
-		{ 6, 41878, "", "=q4=Hateful Gladiator's Cuffs of Salvation", "=ds=#s8#, #a1#"};
-		{ 7, 41877, "", "=q4=Hateful Gladiator's Cord of Salvation", "=ds=#s10#, #a1#"};
-		{ 8, 41879, "", "=q4=Hateful Gladiator's Slippers of Salvation", "=ds=#s12#, #a1#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
-		{ 17, 41638, "", "=q4=Hateful Gladiator's Armwraps of Dominance", "=ds=#s8#, #a2#"};
-		{ 18, 41628, "", "=q4=Hateful Gladiator's Belt of Dominance", "=ds=#s10#, #a2#"};
-		{ 19, 41633, "", "=q4=Hateful Gladiator's Boots of Dominance", "=ds=#s12#, #a2#"};
-		{ 21, 41332, "", "=q4=Hateful Gladiator's Armwraps of Salvation", "=ds=#s8#, #a2#"};
-		{ 22, 41330, "", "=q4=Hateful Gladiator's Belt of Salvation", "=ds=#s10#, #a2#"};
-		{ 23, 41331, "", "=q4=Hateful Gladiator's Boots of Salvation", "=ds=#s12#, #a2#"};
-		{ 25, 41830, "", "=q4=Hateful Gladiator's Armwraps of Triumph", "=ds=#s8#, #a2#"};
-		{ 26, 41827, "", "=q4=Hateful Gladiator's Belt of Triumph", "=ds=#s10#, #a2#"};
-		{ 27, 41828, "", "=q4=Hateful Gladiator's Boots of Triumph", "=ds=#s12#, #a2#"};
-		Prev = "VaultofArchavonArchavon7";
-		Next = "VaultofArchavonArchavon9";
-	};
-
-	AtlasLoot_Data["VaultofArchavonArchavon9"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
-		{ 2, 41063, "", "=q4=Hateful Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
-		{ 3, 41068, "", "=q4=Hateful Gladiator's Waistguard of Dominance", "=ds=#s10#, #a3#"};
-		{ 4, 41073, "", "=q4=Hateful Gladiator's Sabatons of Dominance", "=ds=#s12#, #a3#"};
-		{ 6, 41047, "", "=q4=Hateful Gladiator's Wristguards of Salvation", "=ds=#s8#, #a3#"};
-		{ 7, 41050, "", "=q4=Hateful Gladiator's Waistguard of Salvation", "=ds=#s10#, #a3#"};
-		{ 8, 41049, "", "=q4=Hateful Gladiator's Sabatons of Salvation", "=ds=#s12#, #a3#"};
-		{ 10, 41223, "", "=q4=Hateful Gladiator's Wristguards of Triumph", "=ds=#s8#, #a3#"};
-		{ 11, 41233, "", "=q4=Hateful Gladiator's Waistguard of Triumph", "=ds=#s10#, #a3#"};
-		{ 12, 41228, "", "=q4=Hateful Gladiator's Sabatons of Triumph", "=ds=#s12#, #a3#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
-		{ 17, 40972, "", "=q4=Hateful Gladiator's Bracers of Salvation", "=ds=#s8#, #a4#"};
-		{ 18, 40966, "", "=q4=Hateful Gladiator's Girdle of Salvation", "=ds=#s10#, #a4#"};
-		{ 19, 40973, "", "=q4=Hateful Gladiator's Greaves of Salvation", "=ds=#s12#, #a4#"};
-		{ 21, 40887, "", "=q4=Hateful Gladiator's Bracers of Triumph", "=ds=#s8#, #a4#"};
-		{ 22, 40877, "", "=q4=Hateful Gladiator's Girdle of Triumph", "=ds=#s10#, #a4#"};
-		{ 23, 40878, "", "=q4=Hateful Gladiator's Greaves of Triumph", "=ds=#s12#, #a4#"};
-		Prev = "VaultofArchavonArchavon8";
-		Next = "VaultofArchavonArchavon10";
-	};
-
-	AtlasLoot_Data["VaultofArchavonArchavon10"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
-		{ 2, 42055, "", "=q4=Hateful Gladiator's Cloak of Dominance", "=ds=#s4#"};
-		{ 3, 42056, "", "=q4=Hateful Gladiator's Cloak of Subjugation", "=ds=#s4#"};
-		{ 4, 42057, "", "=q4=Hateful Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
-		{ 5, 42058, "", "=q4=Hateful Gladiator's Cloak of Salvation", "=ds=#s4#"};
-		{ 6, 42059, "", "=q4=Hateful Gladiator's Cloak of Deliverance", "=ds=#s4#"};
-		{ 7, 42060, "", "=q4=Hateful Gladiator's Cloak of Triumph", "=ds=#s4#"};
-		{ 8, 42061, "", "=q4=Hateful Gladiator's Cloak of Victory", "=ds=#s4#"};
-		{ 11, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
-		{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
-		{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
-		{ 17, 42020, "", "=q4=Hateful Gladiator's Pendant of Triumph", "=ds=#s2#"};
-		{ 18, 42021, "", "=q4=Hateful Gladiator's Pendant of Victory", "=ds=#s2#"};
-		{ 19, 42022, "", "=q4=Hateful Gladiator's Pendant of Dominance", "=ds=#s2#"};
-		{ 20, 42023, "", "=q4=Hateful Gladiator's Pendant of Subjugation", "=ds=#s2#"};
-		{ 21, 42024, "", "=q4=Hateful Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
-		{ 22, 42025, "", "=q4=Hateful Gladiator's Pendant of Deliverance", "=ds=#s2#"};
-		{ 23, 42026, "", "=q4=Hateful Gladiator's Pendant of Salvation", "=ds=#s2#"};
-		{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-		{ 27, 42110, "", "=q4=Hateful Gladiator's Band of Dominance", "=ds=#s12#"};
-		{ 28, 42112, "", "=q4=Hateful Gladiator's Band of Triumph", "=ds=#s12#"};
-		Prev = "VaultofArchavonArchavon9";
 	};
 
 	AtlasLoot_Data["VaultofArchavonArchavon125Man"] = {
@@ -1552,78 +1484,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 2, 40544, "", "=q4=Valorous Dreadnaught Breastplate", "=ds=#s5#, #a4#"};
 		{ 3, 40545, "", "=q4=Valorous Dreadnaught Handguards", "=ds=#s9#, #a4#"};
 		{ 4, 40547, "", "=q4=Valorous Dreadnaught Legguards", "=ds=#s11#, #a4#"};
+		{ 6, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
+		{ 7, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
+		{ 8, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
 		Prev = "VaultofArchavonArchavon625Man";
-		Next = "VaultofArchavonArchavon825Man";
-	};
-
-	AtlasLoot_Data["VaultofArchavonArchavon825Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
-		{ 2, 41908, "", "=q4=Deadly Gladiator's Cuffs of Dominance", "=ds=#s8#, #a1#"};
-		{ 3, 41897, "", "=q4=Deadly Gladiator's Cord of Dominance", "=ds=#s10#, #a1#"};
-		{ 4, 41902, "", "=q4=Deadly Gladiator's Treads of Dominance", "=ds=#s12#, #a1#"};
-		{ 6, 41892, "", "=q4=Deadly Gladiator's Cuffs of Salvation", "=ds=#s8#, #a1#"};
-		{ 7, 41880, "", "=q4=Deadly Gladiator's Cord of Salvation", "=ds=#s10#, #a1#"};
-		{ 8, 41884, "", "=q4=Deadly Gladiator's Treads of Salvation", "=ds=#s12#, #a1#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
-		{ 17, 41639, "", "=q4=Deadly Gladiator's Armwraps of Dominance", "=ds=#s8#, #a2#"};
-		{ 18, 41629, "", "=q4=Deadly Gladiator's Belt of Dominance", "=ds=#s10#, #a2#"};
-		{ 19, 41634, "", "=q4=Deadly Gladiator's Boots of Dominance", "=ds=#s12#, #a2#"};
-		{ 21, 41624, "", "=q4=Deadly Gladiator's Armwraps of Salvation", "=ds=#s8#, #a2#"};
-		{ 22, 41616, "", "=q4=Deadly Gladiator's Belt of Salvation", "=ds=#s10#, #a2#"};
-		{ 23, 41620, "", "=q4=Deadly Gladiator's Boots of Salvation", "=ds=#s12#, #a2#"};
-		{ 25, 41839, "", "=q4=Deadly Gladiator's Armwraps of Triumph", "=ds=#s8#, #a2#"};
-		{ 26, 41831, "", "=q4=Deadly Gladiator's Belt of Triumph", "=ds=#s10#, #a2#"};
-		{ 27, 41835, "", "=q4=Deadly Gladiator's Boots of Triumph", "=ds=#s12#, #a2#"};
-		Prev = "VaultofArchavonArchavon725Man";
-		Next = "VaultofArchavonArchavon925Man";
-	};
-
-	AtlasLoot_Data["VaultofArchavonArchavon925Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
-		{ 2, 41064, "", "=q4=Deadly Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
-		{ 3, 41069, "", "=q4=Deadly Gladiator's Waistguard of Dominance", "=ds=#s10#, #a3#"};
-		{ 4, 41074, "", "=q4=Deadly Gladiator's Sabatons of Dominance", "=ds=#s12#, #a3#"};
-		{ 6, 41059, "", "=q4=Deadly Gladiator's Wristguards of Salvation", "=ds=#s8#, #a3#"};
-		{ 7, 41048, "", "=q4=Deadly Gladiator's Waistguard of Salvation", "=ds=#s10#, #a3#"};
-		{ 8, 41054, "", "=q4=Deadly Gladiator's Sabatons of Salvation", "=ds=#s12#, #a3#"};
-		{ 10, 41224, "", "=q4=Deadly Gladiator's Wristguards of Triumph", "=ds=#s8#, #a3#"};
-		{ 11, 41234, "", "=q4=Deadly Gladiator's Waistguard of Triumph", "=ds=#s10#, #a3#"};
-		{ 12, 41229, "", "=q4=Deadly Gladiator's Sabatons of Triumph", "=ds=#s12#, #a3#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
-		{ 17, 40982, "", "=q4=Deadly Gladiator's Bracers of Salvation", "=ds=#s8#, #a4#"};
-		{ 18, 40974, "", "=q4=Deadly Gladiator's Girdle of Salvation", "=ds=#s10#, #a4#"};
-		{ 19, 40975, "", "=q4=Deadly Gladiator's Greaves of Salvation", "=ds=#s12#, #a4#"};
-		{ 21, 40888, "", "=q4=Deadly Gladiator's Bracers of Triumph", "=ds=#s8#, #a4#"};
-		{ 22, 40879, "", "=q4=Deadly Gladiator's Girdle of Triumph", "=ds=#s10#, #a4#"};
-		{ 23, 40880, "", "=q4=Deadly Gladiator's Greaves of Triumph", "=ds=#s12#, #a4#"};
-		Prev = "VaultofArchavonArchavon825Man";
-		Next = "VaultofArchavonArchavon1025Man";
-	};
-
-	AtlasLoot_Data["VaultofArchavonArchavon1025Man"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
-		{ 2, 42064, "", "=q4=Deadly Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
-		{ 3, 42066, "", "=q4=Deadly Gladiator's Cloak of Deliverance", "=ds=#s4#"};
-		{ 4, 42062, "", "=q4=Deadly Gladiator's Cloak of Dominance", "=ds=#s4#"};
-		{ 5, 42065, "", "=q4=Deadly Gladiator's Cloak of Salvation", "=ds=#s4#"};
-		{ 6, 42063, "", "=q4=Deadly Gladiator's Cloak of Subjugation", "=ds=#s4#"};
-		{ 7, 42067, "", "=q4=Deadly Gladiator's Cloak of Triumph", "=ds=#s4#"};
-		{ 8, 42068, "", "=q4=Deadly Gladiator's Cloak of Victory", "=ds=#s4#"};
-		{ 11, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
-		{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
-		{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
-		{ 17, 42030, "", "=q4=Deadly Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
-		{ 18, 42032, "", "=q4=Deadly Gladiator's Pendant of Deliverance", "=ds=#s2#"};
-		{ 19, 42029, "", "=q4=Deadly Gladiator's Pendant of Dominance", "=ds=#s2#"};
-		{ 20, 42033, "", "=q4=Deadly Gladiator's Pendant of Salvation", "=ds=#s2#"};
-		{ 21, 42031, "", "=q4=Deadly Gladiator's Pendant of Subjugation", "=ds=#s2#"};
-		{ 22, 42027, "", "=q4=Deadly Gladiator's Pendant of Triumph", "=ds=#s2#"};
-		{ 23, 42028, "", "=q4=Deadly Gladiator's Pendant of Victory", "=ds=#s2#"};
-		{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-		{ 27, 42114, "", "=q4=Deadly Gladiator's Band of Ascendancy", "=ds=#s13#"};
-		{ 28, 42115, "", "=q4=Deadly Gladiator's Band of Victory", "=ds=#s13#"};
-		Prev = "VaultofArchavonArchavon925Man";
 	};
 
 	AtlasLoot_Data["VaultofArchavonEmalon1"] = {
