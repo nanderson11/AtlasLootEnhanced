@@ -166,7 +166,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m30#", AL["Tier 1"]);
     text = gsub(text, "#m31#", AL["Tier 2"]);
     text = gsub(text, "#m32#", AL["Achievement Reward"]);
-	text = gsub(text, "#m33#", AL["Old Quest Item"]);
+    text = gsub(text, "#m33#", AL["Old Quest Item"]);
     text = gsub(text, "#m34#", AL["Old Quest Reward"]);
 
     -- Misc
@@ -1007,20 +1007,20 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "=ec1=", "|cffFF8400");
     text = gsub(text, "=ds=", "|cffFFd200");
 
-	-- Months
-	text = gsub(text, "#month1#", AL["January"]);
-	text = gsub(text, "#month2#", AL["February"]);
-	text = gsub(text, "#month3#", AL["March"]);
-	text = gsub(text, "#month4#", AL["April"]);
-	text = gsub(text, "#month5#", AL["May"]);
-	text = gsub(text, "#month6#", AL["June"]);
-	text = gsub(text, "#month7#", AL["July"]);
-	text = gsub(text, "#month8#", AL["August"]);
-	text = gsub(text, "#month9#", AL["September"]);
-	text = gsub(text, "#month10#", AL["October"]);
-	text = gsub(text, "#month11#", AL["November"]);
-	text = gsub(text, "#month12#", AL["December"]);
-	
+    -- Months
+    text = gsub(text, "#month1#", AL["January"]);
+    text = gsub(text, "#month2#", AL["February"]);
+    text = gsub(text, "#month3#", AL["March"]);
+    text = gsub(text, "#month4#", AL["April"]);
+    text = gsub(text, "#month5#", AL["May"]);
+    text = gsub(text, "#month6#", AL["June"]);
+    text = gsub(text, "#month7#", AL["July"]);
+    text = gsub(text, "#month8#", AL["August"]);
+    text = gsub(text, "#month9#", AL["September"]);
+    text = gsub(text, "#month10#", AL["October"]);
+    text = gsub(text, "#month11#", AL["November"]);
+    text = gsub(text, "#month12#", AL["December"]);
+
     -- Currency Icons
     text = gsub(text, "#gold#", "|TInterface\\AddOns\\AtlasLoot\\Images\\gold:0|t");
     text = gsub(text, "#silver#", "|TInterface\\AddOns\\AtlasLoot\\Images\\silver:0|t");

@@ -197,7 +197,6 @@ if AL then
 	AL["Abyssal Council"] = true;
 	AL["Bash'ir Landing Skyguard Raid"] = true;
 	AL["Brewfest"] = true;
-	AL["Brew of the Month Club"] = true;
 	AL["Children's Week"] = true;
 	AL["Elemental Invasion"] = true;
 	AL["Ethereum Prison"] = true;
@@ -212,20 +211,6 @@ if AL then
 	AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = true;
 	AL["Argent Tournament"] = true;
-	
-	-- Months
-	AL["January"] = true;
-	AL["February"] = true;
-	AL["March"] = true;
-	AL["April"] = true;
-	AL["May"] = true;
-	AL["June"] = true;
-	AL["July"] = true;
-	AL["August"] = true;
-	AL["September"] = true;
-	AL["October"] = true;
-	AL["November"] = true;
-	AL["December"] = true;
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = true;
@@ -453,6 +438,7 @@ if AL then
 	AL["Tier 9 Sets"] = true;
 	AL["Furious Gladiator Sets"] = true;
 	AL["Relentless Gladiator Sets"] = true;
+	AL["Brew of the Month Club"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;
@@ -1112,6 +1098,20 @@ if AL then
 	AL["Deadly Gladiator\'s Weapons"] = true; --unused
 	AL["Furious Gladiator\'s Weapons"] = true;
 	AL["Relentless Gladiator\'s Weapons"] = true;
+
+	-- Months
+	AL["January"] = true;
+	AL["February"] = true;
+	AL["March"] = true;
+	AL["April"] = true;
+	AL["May"] = true;
+	AL["June"] = true;
+	AL["July"] = true;
+	AL["August"] = true;
+	AL["September"] = true;
+	AL["October"] = true;
+	AL["November"] = true;
+	AL["December"] = true;
 
 	-- Specs
 	AL["Balance"] = true;

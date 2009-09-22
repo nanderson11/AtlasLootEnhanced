@@ -8693,12 +8693,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["PetsAccessories1"] = {
-		{ 1, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="};
-		{ 2, 37431, "", "=q2=Fetch Ball", "=ds="};
-		{ 3, 43626, "", "=q2=Happy Pet Snack", "=ds="};
-		{ 4, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
-		{ 5, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
-		{ 6, 37460, "", "=q1=Rope Pet Leash", "=ds="};
+		{ 1, 47541, "", "=q3=Argent Pony Bridle", "=ds="};
+		{ 2, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="};
+		{ 3, 37431, "", "=q2=Fetch Ball", "=ds="};
+		{ 4, 43626, "", "=q2=Happy Pet Snack", "=ds="};
+		{ 5, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
+		{ 6, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
+		{ 7, 37460, "", "=q1=Rope Pet Leash", "=ds="};
 		Prev = "PetsPromotional1";
 		Back = "PETMENU";
 	};
