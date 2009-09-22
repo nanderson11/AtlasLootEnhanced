@@ -5457,7 +5457,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		--- Jewelcrafting ---
 		---------------------
 
-	AtlasLoot_Data["JewelcraftingDaily"] = {
+	AtlasLoot_Data["JewelcraftingDaily1"] = {
 		{ 1, 46917, "", "=q3=Design: Bold Cardinal Ruby", "=ds=#p12# (450)"};
 		{ 2, 46919, "", "=q3=Design: Bright Cardinal Ruby", "=ds=#p12# (450)"};
 		{ 3, 46918, "", "=q3=Design: Delicate Cardinal Ruby", "=ds=#p12# (450)"};
@@ -5478,7 +5478,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 22, 41579, "", "=q3=Design: Quick Autumn's Glow", "=ds=#p12# (390)"};
 		{ 23, 41580, "", "=q3=Design: Rigid Autumn's Glow", "=ds=#p12# (390)"};
 		Next = "JewelcraftingDaily2";
-		Back = "CRAFTINGMENU";
+		Back = "JEWELCRAFTINGDAILYMENU";
 	};
 
 	AtlasLoot_Data["JewelcraftingDaily2"] = {
@@ -5510,9 +5510,9 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 26, 41690, "", "=q3=Design: Reckless Monarch Topaz", "=ds=#p12# (390)"};
 		{ 27, 41687, "", "=q3=Design: Stark Monarch Topaz", "=ds=#p12# (390)"};
 		{ 28, 41688, "", "=q3=Design: Veiled Monarch Topaz", "=ds=#p12# (390)"};
-		Prev = "JewelcraftingDaily";
+		Prev = "JewelcraftingDaily1";
 		Next = "JewelcraftingDaily3";
-		Back = "CRAFTINGMENU";
+		Back = "JEWELCRAFTINGDAILYMENU";
 	};
 
 	AtlasLoot_Data["JewelcraftingDaily3"] = {
@@ -5544,7 +5544,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 26, 41698, "", "=q3=Design: Vivid Forest Emerald", "=ds=#p12# (390)"};
 		Prev = "JewelcraftingDaily2";
 		Next = "JewelcraftingDaily4";
-		Back = "CRAFTINGMENU";
+		Back = "JEWELCRAFTINGDAILYMENU";
 	};
 
 	AtlasLoot_Data["JewelcraftingDaily4"] = {
@@ -5566,7 +5566,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 16, 41701, "", "=q3=Design: Royal Twilight Opal", "=ds=#p12# (390)"};
 		Prev = "JewelcraftingDaily3";
 		Next = "JewelcraftingDaily5";
-		Back = "CRAFTINGMENU";
+		Back = "JEWELCRAFTINGDAILYMENU";
 	};
 
 	AtlasLoot_Data["JewelcraftingDaily5"] = {
@@ -5586,7 +5586,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 23, 41711, "", "=q3=Design: Trenchant Earthsiege Diamond", "=ds=#p12# (420)"};
 		Prev = "JewelcraftingDaily4";
 		Next = "JewelcraftingDaily6";
-		Back = "CRAFTINGMENU";
+		Back = "JEWELCRAFTINGDAILYMENU";
 	};
 
 	AtlasLoot_Data["JewelcraftingDaily6"] = {
@@ -5615,6 +5615,6 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 24, 42653, "", "=q4=Design: Titanium Spellshock Necklace", "=ds=#p12# (420)"};
 		{ 25, 42650, "", "=q4=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
 		Prev = "JewelcraftingDaily5";
-		Back = "CRAFTINGMENU";
+		Back = "JEWELCRAFTINGDAILYMENU";
 	};
 
