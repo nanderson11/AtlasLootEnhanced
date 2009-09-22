@@ -805,7 +805,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 2, 11735, "", "=q3=Ragefury Eyepatch", "=ds=#s1#, #a2#", "", "8.11%"};
 		{ 3, 18043, "", "=q3=Coal Miner Boots", "=ds=#s12#, #a2#", "", "23.87%"};
 		{ 4, 22275, "", "=q3=Firemoss Boots", "=ds=#s12#, #a2#", "", "23.87%"};
-		{ 5, 18044, "", "=q3=Hurley's Tankard", "=ds=#h3#, #w6#", "", "31.02%"};
+		{ 5, 18044, "", "=q3=Hurley's Tankard", "=ds=#h1#, #w6#", "", "31.02%"};
 		{ 6, 11312, "", "=q1=Lost Thunderbrew Recipe", "=ds=#m3#"};
 		{ 8, 0, "INV_Box_01", "=q6=#n49#", ""};
 		{ 9, 22212, "", "=q3=Golem Fitted Pauldrons", "=ds=#s3#, #a3#", "", "26.04%"};
@@ -959,7 +959,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["LBRSSpirestoneLord"] = {
 		{ 1, 13284, "", "=q3=Swiftdart Battleboots", "=ds=#s12#, #a3#", "", "48.68%"};
-		{ 2, 13285, "", "=q3=The Nicker", "=ds=#h2#, #w1#", "", "34.87%"};
+		{ 2, 13285, "", "=q3=The Blackrock Slicer", "=ds=#h2#, #w1#", "", "34.87%"};
 	};
 
 	AtlasLoot_Data["LBRSLordMagus"] = {
