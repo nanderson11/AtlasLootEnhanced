@@ -351,6 +351,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 5, 49074, "", "=q4=Coren's Chromium Coaster", "=ds=#s14#"};
 		{ 6, 49076, "", "=q4=Mithril Pocketwatch", "=ds=#s14#"};
 		{ 7, 49120, "", "=q4=Direbrew's Shanker 2.0", "=ds=#h1#, #w4#"};
+        { 8, 48663, "", "=q4=Tankard O' Terror", "=ds=#h1#, #w6#"};
 		{ 16, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e12#"};
 		{ 17, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e12#"};
 		{ 19, 37863, "", "=q3=Direbrew's Remote", "=ds="};
