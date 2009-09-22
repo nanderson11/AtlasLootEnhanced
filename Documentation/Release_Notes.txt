@@ -15,7 +15,7 @@ Added Wrath of the Lich King Crafted Sets (Blacksmithing, Leatherworking and Tai
 Updated Brewfest 2009 items
 Added Vanity Pet Accessories
 Reins of the Violet Proto-Drake now available in Mount page
-Compatible with the new Atlas version 1.15
+Compatible with the Atlas version 1.15 alpha build
 Minor updates/fixes/translations
 
 v5.07.06

@@ -1698,6 +1698,12 @@ if englishFaction == "Horde" then
         "";
         "TrialoftheCrusaderAnubarak_H";
         };
+    AtlasLootNewBossButtons["VaultOfArchavon"] = {
+        "";
+        "VaultofArchavonArchavon1";
+        "VaultofArchavonEmalon1";
+        "VaultofArchavonKoralon1_H";
+        };
 else
     AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
         "";
@@ -1713,6 +1719,12 @@ else
         "";
         "";
         "TrialoftheCrusaderAnubarak_A";
+        };
+    AtlasLootNewBossButtons["VaultOfArchavon"] = {
+        "";
+        "VaultofArchavonArchavon1";
+        "VaultofArchavonEmalon1";
+        "VaultofArchavonKoralon1_A";
         };
 end
 
@@ -1989,8 +2001,8 @@ AtlasLootBossButtons = {
 
     VaultOfArchavon = {
         "";
-        "VoAArchavon1";
-        "Emalon";
+        "VaultofArchavonArchavon1";
+        "VaultofArchavonEmalon1";
         };
 
     VioletHold = {
