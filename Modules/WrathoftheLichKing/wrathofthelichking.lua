@@ -4212,7 +4212,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["TrialoftheChampionConfessorPaletress"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+        { 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 		{ 2, 47181, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#"};
 		{ 3, 47218, "", "=q4=The Confessor's Binding", "=ds=#s10#, #a1#"};
 		{ 4, 47185, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#"};
@@ -4238,9 +4238,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 26, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#"};
 		{ 27, 47512, "", "=q4=Sinner's Confession", "=ds=#s13#"};
 		{ 28, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#"};
-		{ 39, 47522, "", "=q4=Marrowstrike", "=ds=#w7#"};
-		{ 20, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
-		Prev = "TrialoftheChampionChampions";
+		{ 29, 47522, "", "=q4=Marrowstrike", "=ds=#w7#"};
+		{ 30, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+        Prev = "TrialoftheChampionChampions";
 		Next = "TrialoftheChampionEadricthePure";
 	};
 
