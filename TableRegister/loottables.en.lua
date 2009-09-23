@@ -622,10 +622,10 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["MCTrashMobs"] = { AL["Trash Mobs"].." ("..BabbleZone["Molten Core"]..")", "AtlasLootOriginalWoW" };
   -- Onyxia's Lair
 	--AtlasLoot_TableNames["Onyxia"] = { BabbleBoss["Onyxia"], "AtlasLootOriginalWoW" };
-    AtlasLoot_TableNames["Onyxia1_10Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["Onyxia2_10Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["Onyxia1_25Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["Onyxia2_25Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["Onyxia_1"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["Onyxia_2"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["Onyxia_125Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+    AtlasLoot_TableNames["Onyxia_225Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
   -- Ragefire Chasm
 	AtlasLoot_TableNames["RagefireChasm"] = { BabbleZone["Ragefire Chasm"], "AtlasLootOriginalWoW" };
   -- Razorfen Downs

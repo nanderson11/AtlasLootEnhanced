@@ -32,6 +32,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Trial of the Champion
 ---- Trial of the Crusader
 ---- Trial of the Grand Crusader
+---- Onyxia (level 80)
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -5264,7 +5265,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--- Onyxia ---
 		--------------
         
-    AtlasLoot_Data["Onyxia1_10Man"] = {
+    AtlasLoot_Data["Onyxia_1"] = {
         { 1, 49322, "", "=q4=Bloodfang Mask", "=ds=#s1#, #a2#", "" };
         { 2, 49316, "", "=q4=Circlet of Transcendence", "=ds=#s1#, #a1#", "" };
         { 3, 49331, "", "=q4=Coif of Ten Storms", "=ds=#s1#, #a3#", "" };
@@ -5284,19 +5285,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
         { 17, 49327, "", "=q4=Stormrage Antlers", "=ds=#s1#, #a2#", "" };
         { 18, 49328, "", "=q4=Stormrage Helm", "=ds=#s1#, #a2#", "" };
         { 19, 49326, "", "=q4=Stormrage Hood", "=ds=#s1#, #a2#", "" };
-        { 21, 49307, "", "=q4=Fluttering Sapphiron Drape", "=ds=#s4#", "" };
-        { 22, 49306, "", "=q4=Eskhandar's Choker", "=ds=#s2#", "" };
-        { 23, 49309, "", "=q4=Runed Ring of Binding", "=ds=#s13#", "" };
-        { 24, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#", "" };
-        { 25, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#", "" };
-        { 26, 49308, "", "=q4=Antique Cornerstone Grimoire", "=ds=#s15#", "" };
-        { 27, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
-        { 28, 49294, "", "=q4=Ashen Sack of Gems", "=ds=", "" };
-        { 30, 49644, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
-        Next = "Onyxia2_10Man";
+        { 20, 49307, "", "=q4=Fluttering Sapphiron Drape", "=ds=#s4#", "" };
+        { 21, 49306, "", "=q4=Eskhandar's Choker", "=ds=#s2#", "" };
+        { 22, 49309, "", "=q4=Runed Ring of Binding", "=ds=#s13#", "" };
+        { 23, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#", "" };
+        { 24, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#", "" };
+        { 25, 49308, "", "=q4=Antique Cornerstone Grimoire", "=ds=#s15#", "" };
+        { 26, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
+        { 27, 49644, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
+        { 28, 49485, "", "=q4=Sparkling Onyxia Tooth Pendant", "=ds=#s2# =q1=#m4#", "", };
+        { 29, 49486, "", "=q4=Polished Dragonslayer's Signet", "=ds=#s13# =q1=#m4#", "", };
+        { 30, 49487, "", "=q4=Purified Onyxia Blood Talisman", "=ds=#s14# =q1=#m4#", "", };
+        --{ 28, 49294, "", "=q4=Ashen Sack of Gems", "=ds=", "" };
+        Next = "Onyxia_2";
     };
     
-    AtlasLoot_Data["Onyxia2_10Man"] = {
+    AtlasLoot_Data["Onyxia_2"] = {
         { 1, 49297, "", "=q4=Empowered Deathbringer", "=ds=#h1# #w1#", "" };
         { 2, 49437, "", "=q4=Rusted Gutgore Ripper", "=ds=#h1# #w4#", "" };
         { 3, 49303, "", "=q4=Gleaming Quel'Serrar", "=ds=#h1# #w10#", "" };
@@ -5307,25 +5311,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
         { 8, 49301, "", "=q4=Reclaimed Thunderstrike", "=ds=#w7#", "" };
         { 9, 49299, "", "=q4=Keen Obsidian Edged Blade", "=ds=#h2# #w10#", "" };
         { 10, 49305, "", "=q4=Snub-Nose Blastershot Launcher", "=ds=#w5#", "" };
-        Prev = "Onyxia1_10Man";
+        Prev = "Onyxia_1";
     };
     
-    AtlasLoot_Data["Onyxia1_25Man"] = {
+    AtlasLoot_Data["Onyxia_125Man"] = {
         { 1, 49477, "", "=q4=Bloodfang Hood", "=ds=#s1#, #a2#", "" };
-        { 2, 49480, "", "=q4=Dragonstalker's Helm", "=ds=#s1#, #a3#", "" };
-        { 3, 49467, "", "=q4=Frostforged Greathelm", "=ds=#s1#, #a4#", "" };
-        { 4, 49481, "", "=q4=Netherwind Crown", "=ds=#s1#, #a1#", "" };
-        { 16, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
-        { 17, 49294, "", "=q4=Ashen Sack of Gems", "=ds=", "" };
-        { 18, 49644, "", "=q4=Head of Onyxia", "=ds=", "" };
-        Next = "Onyxia2_25Man";
+        { 6, 49480, "", "=q4=Dragonstalker's Helm", "=ds=#s1#, #a3#", "" };
+        { 8, 49467, "", "=q4=Frostforged Greathelm", "=ds=#s1#, #a4#", "" };
+        { 16, 49481, "", "=q4=Netherwind Crown", "=ds=#s1#, #a1#", "" };
+        { 26, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
+        { 27, 49644, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
+        { 28, 49485, "", "=q4=Sparkling Onyxia Tooth Pendant", "=ds=#s2# =q1=#m4#", "", };
+        { 29, 49486, "", "=q4=Polished Dragonslayer's Signet", "=ds=#s13# =q1=#m4#", "", };
+        { 30, 49487, "", "=q4=Purified Onyxia Blood Talisman", "=ds=#s14# =q1=#m4#", "", };
+        Next = "Onyxia_225Man";
     };
     
-    AtlasLoot_Data["Onyxia2_25Man"] = {
-        { 1, 49496, "", "=q4=Reinforced Shadowstrike", "=ds=#w7#", "" };
-        { 2, 49497, "", "=q4=Reinforced Thunderstrike", "=ds=#w7#", "" };
-        { 3, 49501, "", "=q4=Tempered Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
-        Next = "Onyxia1_25Man";
+    AtlasLoot_Data["Onyxia_225Man"] = {
+        { 4, 49501, "", "=q4=Tempered Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
+        { 7, 49496, "", "=q4=Reinforced Shadowstrike", "=ds=#w7#", "" };
+        { 8, 49497, "", "=q4=Reinforced Thunderstrike", "=ds=#w7#", "" };
+        Prev = "Onyxia_125Man";
     };
 
 	----------------

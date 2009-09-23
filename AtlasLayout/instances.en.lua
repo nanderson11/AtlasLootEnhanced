@@ -1230,7 +1230,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
-        "Onyxia1_10Man";
+        "Onyxia_1";
         };
 
     RagefireChasm = {
@@ -2918,7 +2918,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "Onyxia1_10Man";
+        "Onyxia_1";
         };
 
     RagefireChasm = {
