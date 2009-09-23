@@ -319,6 +319,11 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["TrialoftheCrusaderTribute_HHEROIC"] = { AL["Tribute Run"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderTribute_A25ManHEROIC"] = { AL["Tribute Run"].." ("..BabbleFaction["Alliance"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["TrialoftheCrusaderTribute_H25ManHEROIC"] = { AL["Tribute Run"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
+  -- Onyxia (Level 80)
+	AtlasLoot_TableNames["Onyxia_1"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Onyxia_2"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Onyxia_125Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Onyxia_225Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
 
 --------------------
 --- BC Instances ---
@@ -620,12 +625,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["MCRagnaros"] = { BabbleBoss["Ragnaros"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MCRANDOMBOSSDROPPS"] = { "Random Boss Drops", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MCTrashMobs"] = { AL["Trash Mobs"].." ("..BabbleZone["Molten Core"]..")", "AtlasLootOriginalWoW" };
-  -- Onyxia's Lair
+  -- Onyxia's Lair (Level 60)
 	--AtlasLoot_TableNames["Onyxia"] = { BabbleBoss["Onyxia"], "AtlasLootOriginalWoW" };
-    AtlasLoot_TableNames["Onyxia_1"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["Onyxia_2"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["Onyxia_125Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
-    AtlasLoot_TableNames["Onyxia_225Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
   -- Ragefire Chasm
 	AtlasLoot_TableNames["RagefireChasm"] = { BabbleZone["Ragefire Chasm"], "AtlasLootOriginalWoW" };
   -- Razorfen Downs

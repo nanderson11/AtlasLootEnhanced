@@ -2161,7 +2161,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	};
 
 	AtlasLoot_Data["Inscription_Scrolls1"] = {
-        { 1, "s69385", "49632", "=q1=Runescroll of Fortitude", "=ds=" };
+		{ 1, "s69385", "49632", "=q1=Runescroll of Fortitude", "=ds=" };
 		{ 3, "s60337", "44315", "=q1=Scroll of Recall III", "=ds=" };
 		{ 4, "s60336", "44314", "=q1=Scroll of Recall II", "=ds=" };
 		{ 5, "s48248", "37118", "=q1=Scroll of Recall", "=ds=" };
@@ -3974,8 +3974,8 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 11, "s35530", "29540", "=q2=Reinforced Mining Bag", "=ds=#sr# 325"};
 		{ 12, "s45100", "34482", "=q2=Leatherworker's Satchel", "=ds=#sr# 300"};
 		{ 13, "s22815", "18258", "=q2=Gordok Ogre Suit", "=ds=#sr# 275"};
-        { 14, "s69386", "49633", "=q1=Drums of Forgotten Kings", "=ds=#sr# 450" };
-        { 15, "s69388", "49634", "=q1=Drums of the Wild", "=ds=#sr# 450" };
+		{ 14, "s69386", "49633", "=q1=Drums of Forgotten Kings", "=ds=#sr# 450" };
+		{ 15, "s69388", "49634", "=q1=Drums of the Wild", "=ds=#sr# 450" };
 		{ 16, "s23190", "18662", "=q1=Heavy Leather Ball", "=ds=#sr# 150"};
 		{ 17, "s5244", "5081", "=q1=Kodo Hide Bag", "=ds=#sr# 40"};
 		Back = "LEATHERWORKINGMENU";
