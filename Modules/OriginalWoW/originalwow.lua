@@ -2195,7 +2195,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		--- Onyxia's Lair ---
 		---------------------
 
-	AtlasLoot_Data["Onyxia"] = {
+	--[[AtlasLoot_Data["Onyxia"] = {
 		{ 1, 16914, "", "=q4=Netherwind Crown", "=q1=#m1# =ds=#c3# (T2)", "", "14.09%"};
 		{ 2, 16921, "", "=q4=Halo of Transcendence", "=q1=#m1# =ds=#c5# (T2)", "", "13.39%"};
 		{ 3, 16929, "", "=q4=Nemesis Skullcap", "=q1=#m1# =ds=#c8# (T2)", "", "13.54%"};
@@ -2221,7 +2221,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 27, 18404, "", "=q4=Onyxia Tooth Pendant", "=q1=#m4#: =ds=#s2#"};
 		{ 28, 18403, "", "=q4=Dragonslayer's Signet", "=q1=#m4#: =ds=#s13#"};
 		{ 29, 18406, "", "=q4=Onyxia Blood Talisman", "=q1=#m4#: =ds=#s14#"};
-	};
+	};]]
 
 		----------------------
 		--- Ragefire Chasm ---

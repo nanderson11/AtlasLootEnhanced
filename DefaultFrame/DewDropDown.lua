@@ -50,7 +50,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Molten Core"], "MoltenCore", "Submenu" },
 			},
 			[11] = {
-				{ BabbleZone["Onyxia's Lair"], "Onyxia", "Table" },
+				{ BabbleZone["Onyxia's Lair"], "Onyxia1_10Man", "Table" },
 			},
 			[12] = {
 				{ BabbleZone["Ragefire Chasm"], "RagefireChasm", "Table" },

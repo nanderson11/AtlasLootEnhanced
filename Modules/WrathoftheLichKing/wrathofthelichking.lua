@@ -5259,6 +5259,74 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "TrialoftheCrusaderAnubarak_H25ManHEROIC";
 		Next = "TrialoftheCrusaderPatterns_H";
 	};
+    
+		--------------
+		--- Onyxia ---
+		--------------
+        
+    AtlasLoot_Data["Onyxia1_10Man"] = {
+        { 1, 49322, "", "=q4=Bloodfang Mask", "=ds=#s1#, #a2#", "" };
+        { 2, 49316, "", "=q4=Circlet of Transcendence", "=ds=#s1#, #a1#", "" };
+        { 3, 49331, "", "=q4=Coif of Ten Storms", "=ds=#s1#, #a3#", "" };
+        { 4, 49317, "", "=q4=Coronet of Transcendence", "=ds=#s1#, #a1#", "" };
+        { 5, 49330, "", "=q4=Cowl of Ten Storms", "=ds=#s1#, #a3#", "" };
+        { 6, 49319, "", "=q4=Dragonstalker's Helmet", "=ds=#s1#, #a3#", "" };
+        { 7, 49320, "", "=q4=Faceguard of Wrath", "=ds=#s1#, #a4#", "" };
+        { 8, 49333, "", "=q4=Frostforged Helmet", "=ds=#s1#, #a4#", "" };
+        { 9, 49332, "", "=q4=Frostforged Ringhelm", "=ds=#s1#, #a4#", "" };
+        { 10, 49329, "", "=q4=Gaze of Ten Storms", "=ds=#s1#, #a3#", "" };
+        { 11, 49321, "", "=q4=Greathelm of Wrath", "=ds=#s1#, #a4#", "" };
+        { 12, 49323, "", "=q4=Judgement Cover", "=ds=#s1#, #a4#", "" };
+        { 13, 49325, "", "=q4=Judgement Helm", "=ds=#s1#, #a4#", "" };
+        { 14, 49324, "", "=q4=Judgement Helmet", "=ds=#s1#, #a4#", "" };
+        { 15, 49315, "", "=q4=Nemesis Skullcover", "=ds=#s1#, #a1#", "" };
+        { 16, 49318, "", "=q4=Netherwind Hood", "=ds=#s1#, #a1#", "" };
+        { 17, 49327, "", "=q4=Stormrage Antlers", "=ds=#s1#, #a2#", "" };
+        { 18, 49328, "", "=q4=Stormrage Helm", "=ds=#s1#, #a2#", "" };
+        { 19, 49326, "", "=q4=Stormrage Hood", "=ds=#s1#, #a2#", "" };
+        { 21, 49307, "", "=q4=Fluttering Sapphiron Drape", "=ds=#s4#", "" };
+        { 22, 49306, "", "=q4=Eskhandar's Choker", "=ds=#s2#", "" };
+        { 23, 49309, "", "=q4=Runed Ring of Binding", "=ds=#s13#", "" };
+        { 24, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#", "" };
+        { 25, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#", "" };
+        { 26, 49308, "", "=q4=Antique Cornerstone Grimoire", "=ds=#s15#", "" };
+        { 27, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
+        { 28, 49294, "", "=q4=Ashen Sack of Gems", "=ds=", "" };
+        { 30, 49644, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
+        Next = "Onyxia2_10Man";
+    };
+    
+    AtlasLoot_Data["Onyxia2_10Man"] = {
+        { 1, 49297, "", "=q4=Empowered Deathbringer", "=ds=#h1# #w1#", "" };
+        { 2, 49437, "", "=q4=Rusted Gutgore Ripper", "=ds=#h1# #w4#", "" };
+        { 3, 49303, "", "=q4=Gleaming Quel'Serrar", "=ds=#h1# #w10#", "" };
+        { 4, 49296, "", "=q4=Singed Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
+        { 5, 49304, "", "=q4=Sharpened Fang of the Mystics", "=ds=#h3# #w4#", "" };
+        { 6, 49298, "", "=q4=Glinting Azuresong Mageblade", "=ds=#h3# #w10#", "" };
+        { 7, 49302, "", "=q4=Reclaimed Shadowstrike", "=ds=#w7#", "" };
+        { 8, 49301, "", "=q4=Reclaimed Thunderstrike", "=ds=#w7#", "" };
+        { 9, 49299, "", "=q4=Keen Obsidian Edged Blade", "=ds=#h2# #w10#", "" };
+        { 10, 49305, "", "=q4=Snub-Nose Blastershot Launcher", "=ds=#w5#", "" };
+        Prev = "Onyxia1_10Man";
+    };
+    
+    AtlasLoot_Data["Onyxia1_25Man"] = {
+        { 1, 49477, "", "=q4=Bloodfang Hood", "=ds=#s1#, #a2#", "" };
+        { 2, 49480, "", "=q4=Dragonstalker's Helm", "=ds=#s1#, #a3#", "" };
+        { 3, 49467, "", "=q4=Frostforged Greathelm", "=ds=#s1#, #a4#", "" };
+        { 4, 49481, "", "=q4=Netherwind Crown", "=ds=#s1#, #a1#", "" };
+        { 16, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
+        { 17, 49294, "", "=q4=Ashen Sack of Gems", "=ds=", "" };
+        { 18, 49644, "", "=q4=Head of Onyxia", "=ds=", "" };
+        Next = "Onyxia2_25Man";
+    };
+    
+    AtlasLoot_Data["Onyxia2_25Man"] = {
+        { 1, 49496, "", "=q4=Reinforced Shadowstrike", "=ds=#w7#", "" };
+        { 2, 49497, "", "=q4=Reinforced Thunderstrike", "=ds=#w7#", "" };
+        { 3, 49501, "", "=q4=Tempered Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
+        Next = "Onyxia1_25Man";
+    };
 
 	----------------
 	--- Factions ---
