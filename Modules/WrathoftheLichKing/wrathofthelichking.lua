@@ -4308,10 +4308,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 11, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#"};
 		{ 12, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#"};
 		{ 13, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#"};
-		{ 14, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
-		{ 15, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
-		{ 16, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
-		{ 17, 48418, "", "=q1=Fragment of the Black Knight's Soul", "=ds=#m3#", "", "100%"};
+		{ 14, 49682, "", "=q4=Black Knight's Rondel", "=ds=#h1#, #w4#"};
+		{ 15, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
+		{ 16, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 17, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 18, 48418, "", "=q1=Fragment of the Black Knight's Soul", "=ds=#m3#", "", "100%"};
 		Prev = "TrialoftheChampionEadricthePure";
 	};
 
