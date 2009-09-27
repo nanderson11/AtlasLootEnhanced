@@ -913,14 +913,15 @@ local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 					if AtlasLootWishList["Own"][k] then
 						for i,j in pairs(AtlasLootWishList["Own"][k]) do
 							if AtlasLootWishList["Own"][k][i]["info"] then
-                                if type(AtlasLootWishList["Own"][k][i]["info"][2] ~= "table") then
+                                if (type(AtlasLootWishList["Own"][k][i]["info"][2]) ~= "table") then
+                                    DEFAULT_CHAT_FRAME:AddMessage(AtlasLootWishList["Own"][k][i]["info"][1].." not a table");
                                     AtlasLootWishList["Own"][k][i]["info"][2] = {};
                                 end
-								if k == tab2 and i == tabname then
-									AtlasLootWishList["Own"][k][i]["info"][2][playerName] = true;
-								else
-									AtlasLootWishList["Own"][k][i]["info"][2][playerName] = false;
-								end
+                                if k == tab2 and i == tabname then
+                                    AtlasLootWishList["Own"][k][i]["info"][2][playerName] = true;
+                                else
+                                    AtlasLootWishList["Own"][k][i]["info"][2][playerName] = false;
+                                end
 							end
 						end
 					end

@@ -1053,7 +1053,7 @@ AtlasLootNewBossButtons = {
         "BWLEbonroc";
         "BWLFlamegor";
         "BWLChromaggus";
-        "BWLNefarian";
+        "BWLNefarian1";
         "";
         "BWLTrashMobs";
         "T1T2T3SET";
@@ -2740,7 +2740,7 @@ AtlasLootBossButtons = {
         "BWLEbonroc";
         "BWLFlamegor";
         "BWLChromaggus";
-        "BWLNefarian";
+        "BWLNefarian1";
         "";
         "BWLTrashMobs";
         "T1T2T3SET";
