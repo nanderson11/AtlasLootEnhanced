@@ -136,11 +136,12 @@ if AL then
 
 	--Crafting Menu
 	AL["Crafting Daily Quests"] = "交易技能每日任務";
-	AL["Jewelcrafting Daily"] = "珠寶加工每日任務";
 	AL["Cooking Daily"] = "烹飪每日任務";
+	AL["Fishing Daily"] = "釣魚每日任務";
+	AL["Jewelcrafting Daily"] = "珠寶加工每日任務";
 	AL["Crafted Sets"] = "交易技能套裝";
 	AL["Crafted Epic Weapons"] = "交易技能史詩武器";
-	AL["Dragon's Eye"] = "龍之眼";
+	AL["Dragon's Eye"] = "龍瞳石";
 
 	--Sets/Collections Menu
 	AL["Badge of Justice Rewards"] = "正義徽章獎勵";
@@ -329,7 +330,9 @@ if AL then
 	AL["Classes:"] = "職業: ";
 	AL["This Item Begins a Quest"] = "該物品將觸發一個任務";
 	AL["Quest Item"] = "任務物品";
+	AL["Old Quest Item"] = "舊任務物品";
 	AL["Quest Reward"] = "任務獎勵";
+	AL["Old Quest Reward"] = "舊任務獎勵";
 	AL["Shared"] = "隨機掉落";
 	AL["Unique"] = "唯一";
 	AL["Right Half"] = "右半部份";
@@ -434,7 +437,8 @@ if AL then
 	AL["Tier 8 Sets"] = "T8 套裝";
 	AL["Tier 9 Sets"] = "T9 套裝";
 	AL["Furious Gladiator Sets"] = "狂烈鬥士套裝";
-    AL["Relentless Gladiator Sets"] = "無情鬥士套裝";
+	AL["Relentless Gladiator Sets"] = "無情鬥士套裝";
+	AL["Brew of the Month Club"] = "每月啤酒俱樂部";
 
 	--Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
@@ -630,7 +634,11 @@ if AL then
 	AL["Husk of the Old God"] = "上古之神的外殼";
 	AL["Carapace of the Old God"] = "上古之神的甲殼";
 
-	--Blacksmithing Crafted Sets
+	-- Blacksmithing Mail Crafted Sets
+	AL["Bloodsoul Embrace"] = "血魂的擁抱";
+	AL["Fel Iron Chain"] = "魔鐵鍊甲";
+
+	-- Blacksmithing Plate Crafted Sets
 	AL["Imperial Plate"] = "帝王鎧甲";
 	AL["The Darksoul"] = "黑暗之魂";
 	AL["Fel Iron Plate"] = "魔鐵鎧甲";
@@ -640,8 +648,8 @@ if AL then
 	AL["Khorium Ward"] = "克銀結界";
 	AL["Faith in Felsteel"] = "信仰魔鋼";
 	AL["Burning Rage"] = "燃燒狂怒";
-	AL["Bloodsoul Embrace"] = "血魂的擁抱";
-	AL["Fel Iron Chain"] = "魔鐵鍊甲";
+	AL["Ornate Saronite Battlegear"] = "華麗薩鋼戰裝";
+	AL["Savage Saronite Battlegear"] = "蠻荒薩鋼戰裝";
 
 	--Tailoring Crafted Sets
 	AL["Bloodvine Garb"] = "血藤之服";
@@ -1076,7 +1084,21 @@ if AL then
 	AL["Savage Gladiator\'s Weapons"] = "蠻荒鬥士武器";
 	AL["Deadly Gladiator\'s Weapons"] = "致命鬥士武器";
 	AL["Furious Gladiator\'s Weapons"] = "狂烈鬥士武器";
-    AL["Relentless Gladiator\'s Weapons"] = "無情鬥士武器";
+	AL["Relentless Gladiator\'s Weapons"] = "無情鬥士武器";
+
+	-- Months
+	AL["January"] = "一月";
+	AL["February"] = "二月";
+	AL["March"] = "三月";
+	AL["April"] = "四月";
+	AL["May"] = "五月";
+	AL["June"] = "六月";
+	AL["July"] = "七月";
+	AL["August"] = "八月";
+	AL["September"] = "九月";
+	AL["October"] = "十月";
+	AL["November"] = "十一月";
+	AL["December"] = "十二月";
 
 	-- Specs
 	AL["Balance"] = "平衡";
@@ -1311,6 +1333,7 @@ if AL then
 	AL["Hyldnir Spoils"] = "海迪尼爾戰利品";
 	AL["Ripe Disgusting Jar"] = "熟成的噁心罐子";
 	AL["Cracked Egg"] = "破損的蛋";
+	AL["Small Spice Bag"] = "小香料包";
 
 	--The next 4 lines are the tooltip for the Server Query Button
 	--The translation doesn't have to be literal, just re-write the
