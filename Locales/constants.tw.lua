@@ -651,7 +651,40 @@ if AL then
 	AL["Ornate Saronite Battlegear"] = "華麗薩鋼戰裝";
 	AL["Savage Saronite Battlegear"] = "蠻荒薩鋼戰裝";
 
-	--Tailoring Crafted Sets
+	-- Leatherworking Crafted Leather Sets
+	AL["Volcanic Armor"] = "火山護甲";
+	AL["Ironfeather Armor"] = "鐵羽護甲";
+	AL["Stormshroud Armor"] = "雷暴護甲";
+	AL["Devilsaur Armor"] = "魔暴龍護甲";
+	AL["Blood Tiger Harness"] = "血虎套索";
+	AL["Primal Batskin"] = "原始蝙蝠皮套裝";
+	AL["Wild Draenish Armor"] = "狂野德萊尼護甲";
+	AL["Thick Draenic Armor"] = "厚德萊尼護甲";
+	AL["Fel Skin"] = "惡魔皮膚";
+	AL["Strength of the Clefthoof"] = "裂蹄力量";
+	AL["Primal Intent"] = "原始之意套裝";
+	AL["Windhawk Armor"] = "風之隼護甲";
+	AL["Borean Embrace"] = "北風之擁";
+	AL["Iceborne Embrace"] = "冰降之擁";
+	AL["Eviscerator's Battlegear"] = "剔骨者戰裝";
+	AL["Overcaster Battlegear"] = "超法者戰裝";
+
+	-- Leatherworking Crafted Mail Sets
+	AL["Green Dragon Mail"] = "綠龍鎖甲";
+	AL["Blue Dragon Mail"] = "藍龍鎖甲";
+	AL["Black Dragon Mail"] = "黑龍鎖甲";
+	AL["Scaled Draenic Armor"] = "德萊尼鱗護甲";
+	AL["Felscale Armor"] = "魔鱗護甲";
+	AL["Felstalker Armor"] = "惡魔捕獵者套裝";
+	AL["Fury of the Nether"] = "虛空之怒套裝";
+	AL["Netherscale Armor"] = "虛空鱗護甲";
+	AL["Netherstrike Armor"] = "地擊套裝";
+	AL["Frostscale Binding"] = "霜鱗束縛";
+	AL["Nerubian Hive"] = "奈幽蟲巢";
+	AL["Stormhide Battlegear"] = "風暴皮革戰裝";
+	AL["Swiftarrow Battlefear"] = "迅箭戰裝";
+
+	-- Tailoring Crafted Sets
 	AL["Bloodvine Garb"] = "血藤之服";
 	AL["Netherweave Vestments"] = "幽紋套裝";
 	AL["Imbued Netherweave"] = "魔染幽紋套裝";
@@ -664,29 +697,9 @@ if AL then
 	AL["Primal Mooncloth"] = "原始月布";
 	AL["Shadow's Embrace"] = "暗影的擁抱";
 	AL["Wrath of Spellfire"] = "魔焰之怒";
-
-	--Leatherworking Crafted Sets
-	AL["Volcanic Armor"] = "火山護甲";
-	AL["Ironfeather Armor"] = "鐵羽護甲";
-	AL["Stormshroud Armor"] = "雷暴護甲";
-	AL["Devilsaur Armor"] = "魔暴龍護甲";
-	AL["Blood Tiger Harness"] = "血虎套索";
-	AL["Primal Batskin"] = "原始蝙蝠皮套裝";
-	AL["Wild Draenish Armor"] = "狂野德萊尼護甲";
-	AL["Thick Draenic Armor"] = "厚德萊尼護甲";
-	AL["Fel Skin"] = "惡魔皮膚";
-	AL["Strength of the Clefthoof"] = "裂蹄力量";
-	AL["Green Dragon Mail"] = "綠龍鎖甲";
-	AL["Blue Dragon Mail"] = "藍龍鎖甲";
-	AL["Black Dragon Mail"] = "黑龍鎖甲";
-	AL["Scaled Draenic Armor"] = "德萊尼鱗護甲";
-	AL["Felscale Armor"] = "魔鱗護甲";
-	AL["Felstalker Armor"] = "惡魔捕獵者套裝";
-	AL["Fury of the Nether"] = "虛空之怒套裝";
-	AL["Primal Intent"] = "原始之意套裝";
-	AL["Windhawk Armor"] = "風之隼護甲";
-	AL["Netherscale Armor"] = "虛空鱗護甲";
-	AL["Netherstrike Armor"] = "地擊套裝";
+	AL["Frostwoven Power"] = "霜織之力";
+	AL["Duskweaver"] = "暮織者";
+	AL["Frostsavage Battlegear"] = "霜蠻戰裝";
 
 	--Classic WoW Sets
 	AL["Defias Leather"] = "迪菲亞皮甲";
