@@ -278,6 +278,7 @@ if AL then
 	AL["Fish"] = "釣魚";
 	AL["Combat Pet"] = "戰鬥寵物";
 	AL["Fireworks"] = "煙火";
+	AL["Fishing Lure"] = "魚餌";
 
 	--Extra inventory stuff
 	AL["Cloak"] = "披風";
@@ -344,8 +345,8 @@ if AL then
 	AL["10 Slot"] = "10 格容器";
 	AL["(has random enchantment)"] = "(具有隨機屬性)";
 	AL["Currency"] = "用以兌換獎勵";
-	AL["Currency (Horde)"] = "用以兌換獎勵 (部落)";
 	AL["Currency (Alliance)"] = "用以兌換獎勵 (聯盟)";
+	AL["Currency (Horde)"] = "用以兌換獎勵 (部落)";
 	AL["Conjured Item"] = "特殊物品";
 	AL["Used to summon boss"] = "使用以召喚首領";
 	AL["Tradable against sunmote + item above"] = "以太陽微粒兌換的裝備";
@@ -411,7 +412,7 @@ if AL then
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Alone in the Darkness"] = "闇境孤軍";
-    	AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
+    AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
 	AL["A Tribute to Mad Skill (45)"] = "獻給瘋狂的技藝";
 	AL["A Tribute to Insanity (50)"] = "獻給瘋子";
 	AL["A Tribute to Immortality"] = "獻給不朽";
