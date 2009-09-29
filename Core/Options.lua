@@ -280,6 +280,8 @@ function AtlasLoot_CraftingLink_OnClick()
     local thisID = this:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasLoot_CraftingLink, thisID);
     AtlasLoot.db.profile.CraftingLink = thisID;
-    AtlasLoot_ShowItemsFrame(AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]);
+    if AtlasLootItemsFrame:IsVisible() then
+        AtlasLoot_ShowItemsFrame(AtlasLootItemsFrame.refresh[1], AtlasLootItemsFrame.refresh[2], AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refresh[4]);
+    end
     AtlasLoot_OptionsOnShow();
 end
