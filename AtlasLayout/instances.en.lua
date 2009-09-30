@@ -168,6 +168,7 @@ AtlasLootNewBossButtons = {
     TrialOfTheCrusader = {
         "";
         "";
+        "";
         "TrialoftheCrusaderNorthrendBeasts_A";
         "";
         "";
@@ -782,6 +783,7 @@ AtlasLootNewBossButtons = {
     TempestKeepBotanica = {
         "Shatar1";
         "BCKeys";
+        "";
         "";
         "TKBotSarannis";
         "TKBotFreywinn";
@@ -1686,6 +1688,7 @@ if englishFaction == "Horde" then
     AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
         "";
         "";
+        "";
         "TrialoftheCrusaderNorthrendBeasts_H";
         "";
         "";
@@ -1706,6 +1709,7 @@ if englishFaction == "Horde" then
         };
 else
     AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
+        "";
         "";
         "";
         "TrialoftheCrusaderNorthrendBeasts_A";
