@@ -254,3 +254,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, "JewelcraftingDaily6", "inv_jewelcrafting_dragonseye01", "=ds="..AL["Dragon's Eye"].." / "..BabbleInventory["Neck"].." / "..BabbleInventory["Ring"], "=q5="..AL["Wrath of the Lich King"] };
 		Back = "CRAFTINGMENU";
 	};
+    
+    --Please don't delete EmptyTable, it is needed as it is certain to load
+    --even if no loot modules have loaded
+    AtlasLoot_Data["EmptyTable"] = {
+    };
