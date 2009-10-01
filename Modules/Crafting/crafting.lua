@@ -3983,19 +3983,19 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["LeatherLeather1"] = {
 		{ 1, "s50936", "38425", "=q1=Heavy Borean Leather", "=ds="..AL["Trainer"]};
-		{ 1, "s64661", "33568", "=q1=Borean Leather", "=ds="..AL["Trainer"]};
-		{ 2, "s32455", "23793", "=q1=Heavy Knothide Leather", "=ds=#sr# 325"};
-		{ 3, "s32454", "21887", "=q1=Knothide Leather", "=ds=#sr# 300"};
-		{ 4, "s22331", "8170", "=q1=Rugged Leather", "=ds=#sr# 250"};
-		{ 5, "s19047", "15407", "=q1=Cured Rugged Hide", "=ds=#sr# 250"};
-		{ 6, "s20650", "4304", "=q1=Thick Leather", "=ds=#sr# 200"};
-		{ 7, "s10482", "8172", "=q1=Cured Thick Hide", "=ds=#sr# 200"};
-		{ 8, "s20649", "4234", "=q1=Heavy Leather", "=ds=#sr# 150"};
-		{ 9, "s3818", "4236", "=q1=Cured Heavy Hide", "=ds=#sr# 150"};
-		{ 10, "s20648", "2319", "=q1=Medium Leather", "=ds=#sr# 100"};
-		{ 11, "s3817", "4233", "=q1=Cured Medium Hide", "=ds=#sr# 100"};
-		{ 12, "s3816", "4231", "=q1=Cured Light Hide", "=ds=#sr# 35"};
-		{ 13, "s2881", "2318", "=q1=Light Leather", "=ds=#sr# 1"};
+		{ 2, "s64661", "33568", "=q1=Borean Leather", "=ds="..AL["Trainer"]};
+		{ 3, "s32455", "23793", "=q1=Heavy Knothide Leather", "=ds=#sr# 325"};
+		{ 4, "s32454", "21887", "=q1=Knothide Leather", "=ds=#sr# 300"};
+		{ 5, "s22331", "8170", "=q1=Rugged Leather", "=ds=#sr# 250"};
+		{ 6, "s19047", "15407", "=q1=Cured Rugged Hide", "=ds=#sr# 250"};
+		{ 7, "s20650", "4304", "=q1=Thick Leather", "=ds=#sr# 200"};
+		{ 8, "s10482", "8172", "=q1=Cured Thick Hide", "=ds=#sr# 200"};
+		{ 9, "s20649", "4234", "=q1=Heavy Leather", "=ds=#sr# 150"};
+		{ 10, "s3818", "4236", "=q1=Cured Heavy Hide", "=ds=#sr# 150"};
+		{ 11, "s20648", "2319", "=q1=Medium Leather", "=ds=#sr# 100"};
+		{ 12, "s3817", "4233", "=q1=Cured Medium Hide", "=ds=#sr# 100"};
+		{ 13, "s3816", "4231", "=q1=Cured Light Hide", "=ds=#sr# 35"};
+		{ 14, "s2881", "2318", "=q1=Light Leather", "=ds=#sr# 1"};
 		Back = "LEATHERWORKINGMENU";
 	};
 
