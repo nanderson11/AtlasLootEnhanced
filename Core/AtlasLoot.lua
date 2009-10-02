@@ -188,7 +188,8 @@ function AtlasLoot_OnVariablesLoaded()
 	if not AtlasLootCharDB["WishList"] then AtlasLootCharDB["WishList"] = {} end
     if not AtlasLootCharDB["QuickLooks"] then AtlasLootCharDB["QuickLooks"] = {} end
 	if not AtlasLootCharDB["SearchResult"] then AtlasLootCharDB["SearchResult"] = {} end
-	--Add the loot browser to the special frames tables to enable closing wih the ESC key
+	AtlasLoot.db.profile.LastBoss = "EmptyTable";
+    --Add the loot browser to the special frames tables to enable closing wih the ESC key
 	tinsert(UISpecialFrames, "AtlasLootDefaultFrame");
 	--Set up options frame
 	AtlasLootOptions_OnLoad();
