@@ -561,6 +561,12 @@ if AL then
 	AL["Pinata"] = true;
 	AL["El Pollo Grande"] = true;
 
+	-- Tenth set
+	AL["Scourgewar"] = true;
+	AL["Tiny"] = true;
+	AL["Tuskarr Kite"] = true;
+	AL["Spectral Kitten"] = true;
+
 	-- Battleground Brackets
 	AL["Misc. Rewards"] = true;
 	AL["Superior Rewards"] = true;

@@ -63,7 +63,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Blizzard Collectables
 ---- Legendaries
 ---- Tabards
----- Upper Deck Card Game Items
+---- Card Game Items
 ---- Vanity Pets
 ---- Mounts
 ---- BoE World Epics
@@ -8563,61 +8563,72 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		----------------------------------
 
 	AtlasLoot_Data["CardGame1"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud35#"};
-		{ 2, 49290, "", "=q4=Magic Rooster Egg", "=ds=#ud38#"};
-		{ 3, 46780, "", "=q3=Ogre Pinata", "=ds=#ud37#"};
-		{ 4, 46779, "", "=q1=Path of Cenarius", "=ds=#ud36#"};
-		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud31#"};
-		{ 7, 45037, "", "=q4=Epic Purple Shirt", "=ds=#ud32#"};
-		{ 8, 45063, "", "=q3=Foam Sword Rack", "=ds=#ud33#"};
-		{ 9, 45047, "", "=q3=Sandbox Tiger", "=ds=#ud34#"};
-		{ 11, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud27#"};
-		{ 12, 49282, "", "=q4=Big Battle Bear", "=ds=#ud28#"};
-		{ 13, 38578, "", "=q3=The Flag of Ownership", "=ds=#ud29#"};
-		{ 14, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds=#ud30#"};
-		{ 16, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud23#"};
-		{ 17, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#ud26#"};
-		{ 18, 38301, "", "=q3=D.I.S.C.O", "=ds=#ud25#"};
-		{ 19, 38233, "", "=q1=Path of Illidan", "=ds=#ud24#"};
-		{ 21, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud19#"};
-		{ 22, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds=#ud21#"};
-		{ 23, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#ud22#"};
-		{ 24, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#ud22#"};
-		{ 25, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds=#ud20#"};
-		{ 27, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud15#"};
-		{ 28, 34493, "", "=q4=Dragon Kite", "=ds=#ud16#"};
-		{ 29, 34492, "", "=q3=Rocket Chicken", "=ds=#ud17#"};
-		{ 30, 34499, "", "=q3=Paper Flying Machine Kit", "=ds=#ud18#"};
+		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud39#"};
+		{ 2, 49287, "", "=q4=Tuskarr Kite", "=ds=#ud41#"};
+		{ 3, 49343, "", "=q3=Spectral Tiger Cub", "=ds=#ud42#"};
+		{ 4, 49289, "", "=q2=Little White Stallion Bridle", "=ds=#ud40#"};
+		{ 5, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds=#ud40#"};
+		{ 7, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud35#"};
+		{ 8, 49290, "", "=q4=Magic Rooster Egg", "=ds=#ud38#"};
+		{ 9, 46780, "", "=q3=Ogre Pinata", "=ds=#ud37#"};
+		{ 10, 46779, "", "=q1=Path of Cenarius", "=ds=#ud36#"};
+		{ 12, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud31#"};
+		{ 13, 45037, "", "=q4=Epic Purple Shirt", "=ds=#ud32#"};
+		{ 14, 45063, "", "=q3=Foam Sword Rack", "=ds=#ud33#"};
+		{ 15, 45047, "", "=q3=Sandbox Tiger", "=ds=#ud34#"};
+		{ 16, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud27#"};
+		{ 17, 49282, "", "=q4=Big Battle Bear", "=ds=#ud28#"};
+		{ 18, 38578, "", "=q3=The Flag of Ownership", "=ds=#ud29#"};
+		{ 19, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds=#ud30#"};
+		{ 21, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud23#"};
+		{ 22, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#ud26#"};
+		{ 23, 38301, "", "=q3=D.I.S.C.O", "=ds=#ud25#"};
+		{ 24, 38233, "", "=q1=Path of Illidan", "=ds=#ud24#"};
+		{ 26, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud19#"};
+		{ 27, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds=#ud21#"};
+		{ 28, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#ud22#"};
+		{ 29, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#ud22#"};
+		{ 30, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds=#ud20#"};
 		Next = "CardGame2";
 		Back = "SETMENU";
 	};
 
 	AtlasLoot_Data["CardGame2"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud3#"};
-		{ 2, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#ud14#"};
-		{ 3, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#ud14#"};
-		{ 4, 33223, "", "=q3=Fishing Chair", "=ds=#ud13#"};
-		{ 5, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds=#ud12#"};
-		{ 7, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud2#"};
-		{ 8, 32588, "", "=q3=Banana Charm", "=ds=#ud9#"};
-		{ 9, 32566, "", "=q3=Picnic Basket", "=ds=#ud10#"};
-		{ 10, 32542, "", "=q3=Imp in a Ball", "=ds=#ud11#"};
-		{ 12, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud1#"};
-		{ 13, 23705, "", "=q4=Tabard of Flame", "=ds=#ud6#"};
-		{ 14, 23713, "", "=q4=Hippogryph Hatchling", "=ds=#ud7#"};
-		{ 15, 23720, "", "=q4=Riding Turtle", "=ds=#ud8#"};
-		{ 16, 0, "INV_Box_01", "=q6=#ud5#", ""};
-		{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
-		{ 18, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
-		{ 19, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
-		{ 20, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
-		{ 21, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
-		{ 22, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
-		{ 23, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
-		{ 24, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#"};
-		{ 25, 23716, "", "=q4=Carved Ogre Idol", "=ds=#s14#"};
-		{ 26, 23714, "", "=q4=Perpetual Purple Firework", "=ds=#s14#"};
+		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud15#"};
+		{ 2, 34493, "", "=q4=Dragon Kite", "=ds=#ud16#"};
+		{ 3, 34492, "", "=q3=Rocket Chicken", "=ds=#ud17#"};
+		{ 4, 34499, "", "=q3=Paper Flying Machine Kit", "=ds=#ud18#"};
+		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud3#"};
+		{ 7, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#ud14#"};
+		{ 8, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#ud14#"};
+		{ 9, 33223, "", "=q3=Fishing Chair", "=ds=#ud13#"};
+		{ 10, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds=#ud12#"};
+		{ 12, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud2#"};
+		{ 13, 32588, "", "=q3=Banana Charm", "=ds=#ud9#"};
+		{ 14, 32566, "", "=q3=Picnic Basket", "=ds=#ud10#"};
+		{ 15, 32542, "", "=q3=Imp in a Ball", "=ds=#ud11#"};
+		{ 16, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud1#"};
+		{ 17, 23705, "", "=q4=Tabard of Flame", "=ds=#ud6#"};
+		{ 18, 23713, "", "=q4=Hippogryph Hatchling", "=ds=#ud7#"};
+		{ 19, 23720, "", "=q4=Riding Turtle", "=ds=#ud8#"};
 		Prev = "CardGame1";
+		Next = "CardGame3";
+		Back = "SETMENU";
+	};
+	
+	AtlasLoot_Data["CardGame3"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#ud5#", ""};
+		{ 2, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
+		{ 3, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
+		{ 4, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
+		{ 5, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
+		{ 6, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
+		{ 7, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
+		{ 8, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
+		{ 9, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#"};
+		{ 10, 23716, "", "=q4=Carved Ogre Idol", "=ds=#s14#"};
+		{ 11, 23714, "", "=q4=Perpetual Purple Firework", "=ds=#s14#"};
+		Prev = "CardGame2";
 		Back = "SETMENU";
 	};
 

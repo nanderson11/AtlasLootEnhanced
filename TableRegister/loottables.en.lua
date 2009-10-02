@@ -1117,6 +1117,7 @@ AtlasLoot_TableNames = {};
   -- Upper Deck Card Game Items
 	AtlasLoot_TableNames["CardGame1"] = { AL["Upper Deck Card Game Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["CardGame2"] = { AL["Upper Deck Card Game Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["CardGame3"] = { AL["Upper Deck Card Game Items"], "AtlasLootWotLK" };
   -- World Epics
 	AtlasLoot_TableNames["WorldEpics1"] = { AL["BoE World Epics"].." - "..AL["Level 30-39"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics2"] = { AL["BoE World Epics"].." - "..AL["Level 40-49"], "AtlasLootOriginalWoW" };
