@@ -414,6 +414,8 @@ if AL then
 	AL["A Tribute to Mad Skill (45)"] = "Une offrande au talent fou (45)";
 	AL["A Tribute to Insanity (50)"] = "Une offrande à la démence (50)";
 	AL["A Tribute to Immortality"] = "Une offrande à l'immortalité";
+	AL["Low Level"] = "Haut niveau";
+	AL["High Level"] = "Bas niveau";
 
 	-- Loot Table Names
 	AL["Scholomance Sets"] = "Sets Scholomance";
@@ -731,8 +733,8 @@ if AL then
     
 	-- Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Vengeance de Raine";
-	AL["Low Level"] = "Haut niveau";
-	AL["High Level"] = "Bas niveau";
+	AL["Purified Shard of the Gods"] = "Eclat des dieux purifié";
+	AL["Shiny Shard of the Gods"] = "Eclat des dieux rutilant";
 
 	-- Recipe origin strings
 	AL["Trainer"] = "Entraineur";
