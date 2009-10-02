@@ -646,6 +646,8 @@ function AtlasLoot_FixText(text)
 
     -- Wrath Of The Lich King Sets
     text = gsub(text, "#wotlk1#", AL["Raine's Revenge"]);
+    text = gsub(text, "#wotlk2#", AL["Purified Shard of the Gods"]);
+    text = gsub(text, "#wotlk3#", AL["Shiny Shard of the Gods"]);
 
     -- ZG Sets
     text = gsub(text, "#zgs1#", AL["Haruspex's Garb"]);

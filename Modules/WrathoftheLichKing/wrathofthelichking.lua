@@ -8428,7 +8428,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 1, 0, "INV_Box_01", "=q6=#wotlk1#", "=q1=#z17#"};
 		{ 2, 37758, "", "=q3=Raine's Choker of Combustion", "=ds=#s2#"};
 		{ 3, 37821, "", "=q3=Raine's Signet of Blasting", "=ds=#s13#"};
-		Back = "SETSBURNINGCURSADE";
+		{ 5, 0, "INV_Box_01", "=q6=#wotlk2#", "=q1=#z15#"};
+		{ 6, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#"};
+		{ 7, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#"};
+		{ 16, 0, "INV_Box_01", "=q6=#wotlk3#", "=q1=#z15#"};
+		{ 17, 49464, "", "=q4=Shiny Shard of the Flame", "=ds=#s14#"};
+		{ 18, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#"};
+		Back = "SETSWRATHOFLICHKING";
 	};
 
 		-------------------

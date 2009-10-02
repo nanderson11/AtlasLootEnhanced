@@ -415,6 +415,8 @@ if AL then
 	AL["A Tribute to Mad Skill (45)"] = true;
 	AL["A Tribute to Insanity (50)"] = true;
 	AL["A Tribute to Immortality"] = true;
+	AL["Low Level"] = true;
+	AL["High Level"] = true;
 
 	-- Loot Table Names
 	AL["Scholomance Sets"] = true;
@@ -732,8 +734,8 @@ if AL then
 
 	-- Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = true;
-	AL["Low Level"] = true;
-	AL["High Level"] = true;
+	AL["Purified Shard of the Gods"] = true;
+	AL["Shiny Shard of the Gods"] = true;
 
 	-- Recipe origin strings
 	AL["Trainer"] = true;
