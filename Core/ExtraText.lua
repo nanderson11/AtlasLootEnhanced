@@ -85,7 +85,6 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["Trash Mobs"];
         GREY..INDENT..AL["Tier 1/2 Sets"];
     };
-
     CFRTheSteamvault = {
         "";
         GREY..INDENT..AL["Trash Mobs"];

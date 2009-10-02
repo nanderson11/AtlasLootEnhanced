@@ -563,6 +563,7 @@ AtlasLootNewBossButtons = {
         "CoTTrash";
         "CoTTrash";
         "CoTTrash";
+        "CoTTrash";
         };
 
     GruulsLair = {
