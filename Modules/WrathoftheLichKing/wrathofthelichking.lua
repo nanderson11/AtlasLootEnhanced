@@ -205,10 +205,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		Prev = "TheNexusAnomalus";
-		Next = "TheNexusKolurgStoutbeardHEROIC";
+		Next = "TheNexusKolurgStoutbeard";
 	};
 
-	AtlasLoot_Data["TheNexusKolurgStoutbeardHEROIC"] = {
+	AtlasLoot_Data["TheNexusKolurgStoutbeard"] = {
 		{ 1, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 2, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#", "", "20%"};
 		{ 3, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#", "", "20%"};
@@ -236,7 +236,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
 		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		{ 29, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#", "", "100%"};
-		Prev = "TheNexusKolurgStoutbeardHEROIC";
+		Prev = "TheNexusKolurgStoutbeard";
 	};
 
 		-------------------
@@ -333,10 +333,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#", "", "20%"};
 		{ 21, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#", "", "21%"};
 		Prev = "AhnkahetNadox";
-		Next = "AhnkahetAmanitarHEROIC";
+		Next = "AhnkahetAmanitar";
 	};
 
-	AtlasLoot_Data["AhnkahetAmanitarHEROIC"] = {
+	AtlasLoot_Data["AhnkahetAmanitar"] = {
 		{ 1, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 2, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#", "", "21%"};
 		{ 3, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#", "", "23%"};
@@ -359,7 +359,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 43282, "", "=q3=Shadowseeker's Pendant", "=ds=#s2#", "", "22%"};
 		{ 21, 43281, "", "=q3=Edge of Oblivion", "=ds=#h2#, #w1#", "", "22%"};
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
-		Prev = "AhnkahetAmanitarHEROIC";
+		Prev = "AhnkahetAmanitar";
 		Next = "AhnkahetVolazj";
 	};
 
@@ -639,10 +639,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#", "", "22%"};
 		{ 21, 37631, "", "=q3=Fist of the Deity", "=ds=#h3#, #w13#", "", "22%"};
 		Prev = "GundrakColossus";
-		Next = "GundrakEckHEROIC";
+		Next = "GundrakEck";
 	};
 
-	AtlasLoot_Data["GundrakEckHEROIC"] = {
+	AtlasLoot_Data["GundrakEck"] = {
 		{ 1, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 2, 43313, "", "=q3=Leggings of the Ruins Dweller", "=ds=#s11#, #a1#", "", "23%"};
 		{ 3, 43312, "", "=q3=Gorloc Muddy Footwraps", "=ds=#s12#, #a2#", "", "23%"};
@@ -669,7 +669,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 25, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#", "", "20%"};
 		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		{ 28, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#", "", "100%"};
-		Prev = "GundrakEckHEROIC";
+		Prev = "GundrakEck";
 		Next = "GundrakTrash";
 	};
 
@@ -8434,7 +8434,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 16, 0, "INV_Box_01", "=q6=#wotlk3#", "=q1=#z15#"};
 		{ 17, 49464, "", "=q4=Shiny Shard of the Flame", "=ds=#s14#"};
 		{ 18, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#"};
-		Back = "SETSWRATHOFLICHKING";
+		Back = "SETSMISCMENU";
 	};
 
 		-------------------

@@ -5908,16 +5908,16 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["Argent2"] = {
-		{ 1, 0, "INV_Jewelry_Talisman_08", "=q6=#r2#", ""};
-		{ 2, 13724, "", "=q1=Enriched Manna Biscuit", "=ds=#e3#"};
-		{ 4, 0, "INV_Jewelry_Talisman_08", "=q6=#r3#", ""};
-		{ 5, 13482, "", "=q2=Recipe: Transmute Air to Fire", "=ds=#p1# (275)"};
-		{ 6, 19203, "", "=q1=Plans: Girdle of the Dawn", "=ds=#p2# (290)"};
-		{ 7, 19446, "", "=q1=Formula: Enchant Bracer - Mana Regeneration", "=ds=#p4# (290)"};
-		{ 8, 19442, "", "=q1=Formula: Powerful Anti-Venom", "=ds=#p6# (300)"};
-		{ 9, 19328, "", "=q1=Pattern: Dawn Treaders", "=ds=#p7# (290)"};
-		{ 10, 19216, "", "=q1=Pattern: Argent Boots", "=ds=#p8# (290)"};
-		{ 14, 12844, "", "=q2=Argent Dawn Valor Token", "=ds=#m17#"};
+		{ 1, 12844, "", "=q2=Argent Dawn Valor Token", "=ds=#m17#"};
+		{ 3, 0, "INV_Jewelry_Talisman_08", "=q6=#r2#", ""};
+		{ 4, 13724, "", "=q1=Enriched Manna Biscuit", "=ds=#e3#"};
+		{ 5, 0, "INV_Jewelry_Talisman_08", "=q6=#r3#", ""};
+		{ 6, 13482, "", "=q2=Recipe: Transmute Air to Fire", "=ds=#p1# (275)"};
+		{ 7, 19203, "", "=q1=Plans: Girdle of the Dawn", "=ds=#p2# (290)"};
+		{ 8, 19446, "", "=q1=Formula: Enchant Bracer - Mana Regeneration", "=ds=#p4# (290)"};
+		{ 9, 19442, "", "=q1=Formula: Powerful Anti-Venom", "=ds=#p6# (300)"};
+		{ 10, 19328, "", "=q1=Pattern: Dawn Treaders", "=ds=#p7# (290)"};
+		{ 11, 19216, "", "=q1=Pattern: Argent Boots", "=ds=#p8# (290)"};
 		{ 16, 0, "INV_Jewelry_Talisman_08", "=q6=#r4#", ""};
 		{ 17, 18171, "", "=q2=Arcane Mantle of the Dawn", "=ds=#s3# #e17#"};
 		{ 18, 18169, "", "=q2=Flame Mantle of the Dawn", "=ds=#s3# #e17#"};
@@ -6160,15 +6160,15 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		----------------------
 
 	AtlasLoot_Data["Zandalar1"] = {
-		{ 1, 0, "INV_Misc_Coin_08", "=q6=#r2#", ""};
-		{ 2, 20012, "", "=q1=Recipe: Greater Dreamless Sleep", "=ds=#p1# (275)"};
-		{ 3, 19778, "", "=q1=Plans: Bloodsoul Gauntlets", "=ds=#p2# (300)"};
-		{ 4, 19781, "", "=q1=Plans: Darksoul Shoulders", "=ds=#p2# (300)"};
-		{ 5, 20757, "", "=q1=Formula: Brilliant Mana Oil", "=ds=#p4# (300)"};
-		{ 6, 20001, "", "=q1=Schematic: Bloodvine Lens", "=ds=#p5# (300)"};
-		{ 7, 19771, "", "=q1=Pattern: Primal Batskin Bracers", "=ds=#p7# (300)"};
-		{ 8, 19766, "", "=q1=Pattern: Bloodvine Boots", "=ds=#p8# (300)"};
-		{ 12, 19858, "", "=q2=Zandalar Honor Token", "=ds=#m17#"};
+		{ 1, 19858, "", "=q2=Zandalar Honor Token", "=ds=#m17#"};
+		{ 3, 0, "INV_Misc_Coin_08", "=q6=#r2#", ""};
+		{ 4, 20012, "", "=q1=Recipe: Greater Dreamless Sleep", "=ds=#p1# (275)"};
+		{ 5, 19778, "", "=q1=Plans: Bloodsoul Gauntlets", "=ds=#p2# (300)"};
+		{ 6, 19781, "", "=q1=Plans: Darksoul Shoulders", "=ds=#p2# (300)"};
+		{ 7, 20757, "", "=q1=Formula: Brilliant Mana Oil", "=ds=#p4# (300)"};
+		{ 8, 20001, "", "=q1=Schematic: Bloodvine Lens", "=ds=#p5# (300)"};
+		{ 9, 19771, "", "=q1=Pattern: Primal Batskin Bracers", "=ds=#p7# (300)"};
+		{ 10, 19766, "", "=q1=Pattern: Bloodvine Boots", "=ds=#p8# (300)"};
 		{ 16, 0, "INV_Misc_Coin_08", "=q6=#r3#", ""};
 		{ 17, 20014, "", "=q1=Recipe: Major Troll's Blood Potion", "=ds=#p1# (290)"};
 		{ 18, 19777, "", "=q1=Plans: Bloodsoul Shoulders", "=ds=#p2# (300)"};
