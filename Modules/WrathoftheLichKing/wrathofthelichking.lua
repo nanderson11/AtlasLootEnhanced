@@ -205,10 +205,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
 		Prev = "TheNexusAnomalus";
-		Next = "TheNexusKolurgStoutbeard";
+		Next = "TheNexusKolurgStoutbeardHEROIC";
 	};
 
-	AtlasLoot_Data["TheNexusKolurgStoutbeard"] = {
+	AtlasLoot_Data["TheNexusKolurgStoutbeardHEROIC"] = {
 		{ 1, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 2, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#", "", "20%"};
 		{ 3, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#", "", "20%"};
@@ -236,7 +236,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 26, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
 		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		{ 29, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#", "", "100%"};
-		Prev = "TheNexusKolurgStoutbeard";
+		Prev = "TheNexusKolurgStoutbeardHEROIC";
 	};
 
 		-------------------
@@ -333,10 +333,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 37612, "", "=q3=Bonegrinder Breastplate", "=ds=#s5#, #a4#", "", "20%"};
 		{ 21, 37595, "", "=q3=Necklace of Taldaram", "=ds=#s2#", "", "21%"};
 		Prev = "AhnkahetNadox";
-		Next = "AhnkahetAmanitar";
+		Next = "AhnkahetAmanitarHEROIC";
 	};
 
-	AtlasLoot_Data["AhnkahetAmanitar"] = {
+	AtlasLoot_Data["AhnkahetAmanitarHEROIC"] = {
 		{ 1, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 2, 43287, "", "=q3=Silken Bridge Handwraps", "=ds=#s9#, #a1#", "", "21%"};
 		{ 3, 43286, "", "=q3=Legguards of Swarming Attacks", "=ds=#s11#, #a2#", "", "23%"};
@@ -359,7 +359,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 43282, "", "=q3=Shadowseeker's Pendant", "=ds=#s2#", "", "22%"};
 		{ 21, 43281, "", "=q3=Edge of Oblivion", "=ds=#h2#, #w1#", "", "22%"};
 		{ 23, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q2=#m28#"};
-		Prev = "AhnkahetAmanitar";
+		Prev = "AhnkahetAmanitarHEROIC";
 		Next = "AhnkahetVolazj";
 	};
 
@@ -639,10 +639,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 37632, "", "=q3=Mojo Frenzy Greaves", "=ds=#s12#, #a4#", "", "22%"};
 		{ 21, 37631, "", "=q3=Fist of the Deity", "=ds=#h3#, #w13#", "", "22%"};
 		Prev = "GundrakColossus";
-		Next = "GundrakEck";
+		Next = "GundrakEckHEROIC";
 	};
 
-	AtlasLoot_Data["GundrakEck"] = {
+	AtlasLoot_Data["GundrakEckHEROIC"] = {
 		{ 1, 45624, "", "=q4=Emblem of Conquest", "=ds=#e15#", "", "100%"};
 		{ 2, 43313, "", "=q3=Leggings of the Ruins Dweller", "=ds=#s11#, #a1#", "", "23%"};
 		{ 3, 43312, "", "=q3=Gorloc Muddy Footwraps", "=ds=#s12#, #a2#", "", "23%"};
@@ -669,7 +669,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 25, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#", "", "20%"};
 		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		{ 28, 43693, "", "=q1=Mojo Remnant of Akali", "=ds=#m3#", "", "100%"};
-		Prev = "GundrakEck";
+		Prev = "GundrakEckHEROIC";
 		Next = "GundrakTrash";
 	};
 
@@ -5267,31 +5267,31 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--------------
 
 	AtlasLoot_Data["Onyxia_1"] = {
-		{ 1, 49316, "", "=q4=Circlet of Transcendence", "=ds=#s1#, #a1#", "" };
-		{ 2, 49317, "", "=q4=Coronet of Transcendence", "=ds=#s1#, #a1#", "" };
-		{ 3, 49315, "", "=q4=Nemesis Skullcover", "=ds=#s1#, #a1#", "" };
-		{ 4, 49318, "", "=q4=Netherwind Hood", "=ds=#s1#, #a1#", "" };
-		{ 5, 49322, "", "=q4=Bloodfang Mask", "=ds=#s1#, #a2#", "" };
-		{ 6, 49327, "", "=q4=Stormrage Antlers", "=ds=#s1#, #a2#", "" };
-		{ 7, 49328, "", "=q4=Stormrage Helm", "=ds=#s1#, #a2#", "" };
-		{ 8, 49326, "", "=q4=Stormrage Hood", "=ds=#s1#, #a2#", "" };
-		{ 9, 49331, "", "=q4=Coif of Ten Storms", "=ds=#s1#, #a3#", "" };
-		{ 10, 49330, "", "=q4=Cowl of Ten Storms", "=ds=#s1#, #a3#", "" };
-		{ 11, 49329, "", "=q4=Gaze of Ten Storms", "=ds=#s1#, #a3#", "" };
-		{ 12, 49319, "", "=q4=Dragonstalker's Helmet", "=ds=#s1#, #a3#", "" };
-		{ 13, 49320, "", "=q4=Faceguard of Wrath", "=ds=#s1#, #a4#", "" };
-		{ 14, 49321, "", "=q4=Greathelm of Wrath", "=ds=#s1#, #a4#", "" };
-		{ 15, 49333, "", "=q4=Frostforged Helmet", "=ds=#s1#, #a4#", "" };
-		{ 16, 49332, "", "=q4=Frostforged Ringhelm", "=ds=#s1#, #a4#", "" };
-		{ 17, 49323, "", "=q4=Judgement Cover", "=ds=#s1#, #a4#", "" };
-		{ 18, 49325, "", "=q4=Judgement Helm", "=ds=#s1#, #a4#", "" };
-		{ 19, 49324, "", "=q4=Judgement Helmet", "=ds=#s1#, #a4#", "" };
-		{ 21, 49307, "", "=q4=Fluttering Sapphiron Drape", "=ds=#s4#", "" };
-		{ 22, 49306, "", "=q4=Eskhandar's Choker", "=ds=#s2#", "" };
-		{ 23, 49309, "", "=q4=Runed Ring of Binding", "=ds=#s13#", "" };
-		{ 24, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#", "" };
-		{ 25, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#", "" };
-		{ 26, 49308, "", "=q4=Antique Cornerstone Grimoire", "=ds=#s15#", "" };
+		{ 1, 49307, "", "=q4=Fluttering Sapphiron Drape", "=ds=#s4#", "" };
+		{ 2, 49316, "", "=q4=Circlet of Transcendence", "=ds=#s1#, #a1#", "" };
+		{ 3, 49317, "", "=q4=Coronet of Transcendence", "=ds=#s1#, #a1#", "" };
+		{ 4, 49315, "", "=q4=Nemesis Skullcover", "=ds=#s1#, #a1#", "" };
+		{ 5, 49318, "", "=q4=Netherwind Hood", "=ds=#s1#, #a1#", "" };
+		{ 6, 49322, "", "=q4=Bloodfang Mask", "=ds=#s1#, #a2#", "" };
+		{ 7, 49327, "", "=q4=Stormrage Antlers", "=ds=#s1#, #a2#", "" };
+		{ 8, 49328, "", "=q4=Stormrage Helm", "=ds=#s1#, #a2#", "" };
+		{ 9, 49326, "", "=q4=Stormrage Hood", "=ds=#s1#, #a2#", "" };
+		{ 10, 49331, "", "=q4=Coif of Ten Storms", "=ds=#s1#, #a3#", "" };
+		{ 11, 49330, "", "=q4=Cowl of Ten Storms", "=ds=#s1#, #a3#", "" };
+		{ 12, 49329, "", "=q4=Gaze of Ten Storms", "=ds=#s1#, #a3#", "" };
+		{ 13, 49319, "", "=q4=Dragonstalker's Helmet", "=ds=#s1#, #a3#", "" };
+		{ 14, 49320, "", "=q4=Faceguard of Wrath", "=ds=#s1#, #a4#", "" };
+		{ 15, 49321, "", "=q4=Greathelm of Wrath", "=ds=#s1#, #a4#", "" };
+		{ 16, 49333, "", "=q4=Frostforged Helmet", "=ds=#s1#, #a4#", "" };
+		{ 17, 49332, "", "=q4=Frostforged Ringhelm", "=ds=#s1#, #a4#", "" };
+		{ 18, 49323, "", "=q4=Judgement Cover", "=ds=#s1#, #a4#", "" };
+		{ 19, 49325, "", "=q4=Judgement Helm", "=ds=#s1#, #a4#", "" };
+		{ 20, 49324, "", "=q4=Judgement Helmet", "=ds=#s1#, #a4#", "" };
+		{ 21, 49306, "", "=q4=Eskhandar's Choker", "=ds=#s2#", "" };
+		{ 22, 49309, "", "=q4=Runed Ring of Binding", "=ds=#s13#", "" };
+		{ 23, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#", "" };
+		{ 24, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#", "" };
+		{ 25, 49308, "", "=q4=Antique Cornerstone Grimoire", "=ds=#s15#", "" };
 		Next = "Onyxia_2";
 	};
 
@@ -8434,7 +8434,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 16, 0, "INV_Box_01", "=q6=#wotlk3#", "=q1=#z15#"};
 		{ 17, 49464, "", "=q4=Shiny Shard of the Flame", "=ds=#s14#"};
 		{ 18, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#"};
-		Back = "SETSMISCMENU";
+		Back = "SETSWRATHOFLICHKING";
 	};
 
 		-------------------

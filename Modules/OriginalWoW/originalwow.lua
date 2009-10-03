@@ -4193,7 +4193,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 23, 16954, "", "=q4=Judgement Legplates", "=ds="..BabbleBoss["Ragnaros"], "", "10.81%"};
 		{ 24, 16957, "", "=q4=Judgement Sabatons", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
 		Prev = "T0Paladin";
-		Next = "T3Paladin";		
+		Next = "T3Paladin";
 		Back = "T1T2T3SET";
 	};
 
@@ -4217,7 +4217,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 23, 16922, "", "=q4=Leggings of Transcendence", "=ds="..BabbleBoss["Ragnaros"], "", "17.30%"};
 		{ 24, 16919, "", "=q4=Boots of Transcendence", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
 		Prev = "T0Priest";
-		Next = "T3Priest";		
+		Next = "T3Priest";
 		Back = "T1T2T3SET";
 	};
 
@@ -4289,7 +4289,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 23, 16930, "", "=q4=Nemesis Leggings", "=ds="..BabbleBoss["Ragnaros"], "", "16.87%"};
 		{ 24, 16927, "", "=q4=Nemesis Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.32%"};
 		Prev = "T0Warlock";
-		Next = "T3Warlock";		
+		Next = "T3Warlock";
 		Back = "T1T2T3SET";
 	};
 
@@ -4313,7 +4313,7 @@ local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 		{ 23, 16962, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
 		{ 24, 16965, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
 		Prev = "T0Warrior";
-		Next = "T3Warrior";		
+		Next = "T3Warrior";
 		Back = "T1T2T3SET";
 	};
 
