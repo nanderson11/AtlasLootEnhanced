@@ -37,7 +37,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "08";
-local VERSION_BOSSES = "03";
+local VERSION_BOSSES = "04";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.14.2";
 ATLASLOOT_PREVIEW_ATLAS = "1.15.0";
@@ -487,7 +487,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	-- Hide the Filter Check-Box
 	AtlasLootFilterCheck:Hide();
     
-	dataSource_backup = dataSource;
+    dataSource_backup = dataSource;
 	if dataID == "SearchResult" or dataID == "WishList" then
         dataSource = {};
         -- Match the page number to display
@@ -1088,8 +1088,15 @@ AtlasLoot_HeroicModeToggle:
 Switches between the heroic and normal versions of a loot page
 ]]
 function AtlasLoot_HeroicModeToggle()
-	local Heroic = AtlasLootItemsFrame.refresh[1].."HEROIC";
-	local dataID = AtlasLootItemsFrame.refresh[1];
+	local Heroic;
+	local dataID;
+    if ATLASLOOT_FILTER_ENABLE == true then
+        Heroic = AtlasLootItemsFrame.refreshOri[1].."HEROIC";
+        dataID = AtlasLootItemsFrame.refreshOri[1];
+    else
+        Heroic = AtlasLootItemsFrame.refresh[1].."HEROIC";
+        dataID = AtlasLootItemsFrame.refresh[1];
+    end
 	local HeroicCheck=string.sub(dataID, string.len(dataID)-5, string.len(dataID));
 	local Lootpage;
 	if HeroicCheck=="HEROIC" then
@@ -1108,6 +1115,10 @@ Switches between the heroic and normal versions of a loot page
 ]]
 function AtlasLoot_10Man25ManToggle()
 	local Lootpage = AtlasLoot10Man25ManSwitch.lootpage;
+    --Deal with loot filter issue
+    if ATLASLOOT_FILTER_ENABLE == true then
+        Lootpage = AtlasLootItemsFrame.refreshOri[1];
+    end
     if AtlasLoot.db.profile.Bigraid == true then
         AtlasLoot.db.profile.Bigraid = false
     else
