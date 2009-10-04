@@ -554,11 +554,17 @@ if AL then
 	AL["Center of Attention"] = "Chemise violette épique";
 	AL["Foam Sword Rack"] = "Râtelier d'épées en mousse";
 
-	-- Ninth set
-	--AL["Fields of Honor"] = true; -- à traduire
+	-- Ninth set -- à traduire
+	--AL["Fields of Honor"] = true;
 	--AL["Path of Cenarius"] = true;
 	--AL["Pinata"] = true;
 	--AL["El Pollo Grande"] = true;
+
+	-- Tenth set -- à traduire
+	--AL["Scourgewar"] = true;
+	--AL["Tiny"] = true;
+	--AL["Tuskarr Kite"] = true;
+	--AL["Spectral Kitten"] = true;
 
 	-- Battleground Brackets
 	AL["Misc. Rewards"] = "Récompenses Diverses";
