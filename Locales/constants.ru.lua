@@ -44,13 +44,13 @@ if AL then
     AL["Factions - Wrath of the Lich King"] = "Фракции - Wrath of the Lich King";
     AL["Choose Table ..."] = "Выбор таблицы";
     AL["Unknown"] = "Неизвестно";
-    AL["Add to QuickLooks:"] = "Добавить в БыстрыйОсмотр:";
+    AL["Add to QuickLooks:"] = "В БыстрыйОсмотр:";
 	AL["Assign this loot table\n to QuickLook"] = "Определить эту таблицу в\n в БыстрыйОсмотр";
     AL["Query Server"] = "Запрос с серв.";
     AL["Reset Frames"] = "Сброс фреймов";
     AL["Reset Wishlist"] = "Сброс списка нужного";
     AL["Reset Quicklooks"] = "Сборс БО";
-    AL["Select a Loot Table..."] = "Выберите таблицу добычи..";
+    AL["Select a Loot Table..."] = "Выберите таблицу добычи";
     AL["OR"] = "или";
     AL["FuBar Options"] = "Опции FuBarа";
     AL["Attach to Minimap"] = "Закрепить у мини-карты";
@@ -197,7 +197,6 @@ if AL then
     AL["Abyssal Council"] = "Совет Бездны";
     AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражей Небес на Лагерь Баш'ира";
     AL["Brewfest"] = "Хмельной фестиваль";
-	AL["Brew of the Month Club"] = "Клуб \"Пиво месяца\"";
     AL["Children's Week"] = "Детская неделя";
     AL["Elemental Invasion"] = "Вторжение стихий";
     AL["Ethereum Prison"] = "Тюрьма Эфириумов";
@@ -213,20 +212,6 @@ if AL then
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
 	AL["Argent Tournament"] = "Серебряный турнир";
 	
-	-- Months
-	AL["January"] = "Январь";
-	AL["February"] = "Февраль";
-	AL["March"] = "Март";
-	AL["April"] = "Апрель";
-	AL["May"] = "Май";
-	AL["June"] = "Июнь";
-	AL["July"] = "Июль";
-	AL["August"] = "Август";
-	AL["September"] = "Сентябрь";
-	AL["October"] = "Октябрь";
-	AL["November"] = "Ноябрь";
-	AL["December"] = "Декабрь";
-	
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
@@ -239,8 +224,8 @@ if AL then
     AL["Select All Loot"] = "Выбрать всю добычу";
     AL["Apply Filter:"] = "Исп. Фильтр:";
 	AL["Armor:"] = "Доспехи";
-	AL["Melee weapons:"] = "Оружие ближнего боя";
-	AL["Ranged weapons:"] = "Оружие дальнего боя:";
+	AL["Melee weapons:"] = "Ближний бой:";
+	AL["Ranged weapons:"] = "Дальний бой:";
 	AL["Relics:"] = "Реликвии:";
 	AL["Other:"] = "Другое:";
 	
@@ -268,7 +253,7 @@ if AL then
 	AL["Show shared Wishlists"] = "Показ делимых списков";
 	AL["You must wait "] = "Вы должны обождать";
 	AL[" seconds before you can send a new Wishlist to "] = " секунд до возможности выслать новый список ";
-	AL["Send Wishlist (%s) to"] = "Выслать список (%s) too";
+	AL["Send Wishlist (%s) to"] = "Выслать список (%s) -";
 	AL["Send"] = "Выслать";
 	AL["Cancel"] = "Отмена";
 	AL["Delete Wishlist %s?"] = "Удалить список нужного %s?";
@@ -345,7 +330,9 @@ if AL then
     AL["Classes:"] = "Классы:";
     AL["This Item Begins a Quest"] = "Этот предмет начинает задание";
     AL["Quest Item"] = "Предмет для задания";
+	AL["Old Quest Item"] = "Прежний предмет для задания";
     AL["Quest Reward"] = "награда за задание";
+	AL["Old Quest Reward"] = "Прежняя награда за задание";
     AL["Shared"] = "Разделенные";
     AL["Unique"] = "Уникальный";
     AL["Right Half"] = "Правая половина";
@@ -404,8 +391,8 @@ if AL then
 	
 	-- Labels for loot table sections
     AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
-    AL["Heroic Mode"] = "Героический режим";
-    AL["Normal Mode"] = "Обычный режим";
+    AL["Heroic Mode"] = "Героик";
+    AL["Normal Mode"] = "Обычный";
     AL["Raid"] = "Рейд";
 	AL["Hard Mode"] = "Сложный режим";
 	AL["Bonus Loot"] = "Дополнительная добыча";
@@ -424,10 +411,12 @@ if AL then
 	AL["Weapons"] = "Орежия";
 	AL["Accessories"] = "Аксессуары";
 	AL["Alone in the Darkness"] = "Один во мраке";
-	AL["A Tribute to Skill (25)"] = "Дань умению";
-	AL["A Tribute to Mad Skill (45)"] = "Дань искусству";
-	AL["A Tribute to Insanity (50)"] = "Дань безумству";
+	AL["A Tribute to Skill (25)"] = "Дань умению (25)";
+	AL["A Tribute to Mad Skill (45)"] = "Дань искусству (45)";
+	AL["A Tribute to Insanity (50)"] = "Дань безумству (50)";
 	AL["A Tribute to Immortality"] = "Дань бессмертию";
+	AL["Low Level"] = "Низкого уровня";
+	AL["High Level"] = "Высокого уровня";
 	
 	-- Loot Table Names
     AL["Scholomance Sets"] = "Комплекты Некроситета";
@@ -451,6 +440,7 @@ if AL then
 	AL["Tier 9 Sets"] =  "Комплекты 9 тира";
     AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
     AL["Relentless Gladiator Sets"] = "Комплекты безжалостного гладиатора";
+	AL["Brew of the Month Club"] = "Клуб \"Пиво месяца\"";
 	
 	-- Extra Text in Boss lists
     AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
@@ -547,13 +537,13 @@ if AL then
     AL["Personal Weather Machine"] = "Личная погодная машина";
     AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Старомодное лакомство для питомцев от Папаши Хюммеля";
    
-   -- Sixth set
+    -- Sixth set
     AL["Hunt for Illidan"] = "Охота на Иллидана";
     AL["The Footsteps of Illidan"] = "Путь Иллидана";
     AL["Disco Inferno!"] = "Диско-шар";
     AL["Ethereal Plunderer"] = "Эфириал-призыватель";
    
-   -- Seventh set
+    -- Seventh set
 	AL["Drums of War"] = "Барабаны войны";
     AL["The Red Bearon"] = "The Red Bearon";
     AL["Owned!"] = "Owned!";
@@ -571,6 +561,12 @@ if AL then
 	AL["Pinata"] = "Пиньята";
 	AL["El Pollo Grande"] = "Бройлеро гиганто";
 
+	-- Tenth set
+	AL["Scourgewar"] = "Scourgewar";
+	AL["Tiny"] = "Tiny";
+	AL["Tuskarr Kite"] = "Tuskarr Kite";
+	AL["Spectral Kitten"] = "Spectral Kitten";
+	
     -- Battleground Brackets
     AL["Misc. Rewards"] = "Разные награды";
     AL["Superior Rewards"] = "Лучшии награды";
