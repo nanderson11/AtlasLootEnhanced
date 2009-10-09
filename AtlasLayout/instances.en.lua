@@ -1740,7 +1740,7 @@ end
 
 AtlasLootBossButtons = {
 
-  ---------------------
+  ----------------------
   -- WotLK Instances --
   ---------------------
 
@@ -1877,6 +1877,46 @@ AtlasLootBossButtons = {
         "OcuTrash";
         };
 
+    TrialOfTheChampion = {
+        "";
+        "TrialoftheChampionChampions";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheChampionEadricthePure";
+        "TrialoftheChampionConfessorPaletress";
+        "TrialoftheChampionBlackKnight";
+        };
+
+    -- Faction differences for Trial of the Crusader dealt with
+    -- at the bottom of this table
+
+    TrialOfTheCrusader = {
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderNorthrendBeasts_A";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderLordJaraxxus_A";
+        "TrialoftheCrusaderFactionChampions_A";
+        "TrialoftheCrusaderTwinValkyrs_A";
+        "";
+        "";
+        "TrialoftheCrusaderAnubarak_A";
+        };
+
     ObsidianSanctum = {
         "";
         "";
@@ -1912,6 +1952,8 @@ AtlasLootBossButtons = {
         "";
         "";
         "UlduarIronCouncil";
+        "";
+        "";
         "";
         "";
         "";
@@ -1985,6 +2027,7 @@ AtlasLootBossButtons = {
     UtgardeKeep = {
         "";
         "";
+        "";
         "UtgardeKeepKeleseth";
         "UtgardeKeepSkarvald";
         "UtgardeKeepSkarvald";
@@ -2008,6 +2051,7 @@ AtlasLootBossButtons = {
         "";
         "VaultofArchavonArchavon1";
         "VaultofArchavonEmalon1";
+        "VaultofArchavonKoralon1_A";
         };
 
     VioletHold = {
@@ -2254,6 +2298,7 @@ AtlasLootBossButtons = {
         "CoTTrash";
         "CoTTrash";
         "CoTTrash";
+        "CoTTrash";
         };
 
     GruulsLair = {
@@ -2474,6 +2519,7 @@ AtlasLootBossButtons = {
     TempestKeepBotanica = {
         "Shatar1";
         "BCKeys";
+        "";
         "";
         "TKBotSarannis";
         "TKBotFreywinn";
@@ -2868,7 +2914,6 @@ AtlasLootBossButtons = {
         };
         
     Maraudon = {
-        "OldKeys";
         "";
         "";
         "";
@@ -3373,3 +3418,52 @@ AtlasLootBossButtons = {
         "ZGEnchants";
         };
 };
+
+local englishFaction, _ = UnitFactionGroup("player")
+if englishFaction == "Horde" then
+    AtlasLootBossButtons["TrialOfTheCrusader"] = {
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderNorthrendBeasts_H";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderLordJaraxxus_H";
+        "TrialoftheCrusaderFactionChampions_H";
+        "TrialoftheCrusaderTwinValkyrs_H";
+        "";
+        "";
+        "TrialoftheCrusaderAnubarak_H";
+        };
+    AtlasLootBossButtons["VaultOfArchavon"] = {
+        "";
+        "VaultofArchavonArchavon1";
+        "VaultofArchavonEmalon1";
+        "VaultofArchavonKoralon1_H";
+        };
+else
+    AtlasLootBossButtons["TrialOfTheCrusader"] = {
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderNorthrendBeasts_A";
+        "";
+        "";
+        "";
+        "";
+        "TrialoftheCrusaderLordJaraxxus_A";
+        "TrialoftheCrusaderFactionChampions_A";
+        "TrialoftheCrusaderTwinValkyrs_A";
+        "";
+        "";
+        "TrialoftheCrusaderAnubarak_A";
+        };
+    AtlasLootBossButtons["VaultOfArchavon"] = {
+        "";
+        "VaultofArchavonArchavon1";
+        "VaultofArchavonEmalon1";
+        "VaultofArchavonKoralon1_A";
+        };
+end
