@@ -412,10 +412,12 @@ if AL then
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Alone in the Darkness"] = "闇境孤軍";
-    AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
+	AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
 	AL["A Tribute to Mad Skill (45)"] = "獻給瘋狂的技藝";
 	AL["A Tribute to Insanity (50)"] = "獻給瘋子";
 	AL["A Tribute to Immortality"] = "獻給不朽";
+	AL["Low Level"] = "較低等級";
+	AL["High Level"] = "較高等級";
 
 	--Loot Table Names
 	AL["Scholomance Sets"] = "通靈學院套裝";
@@ -559,6 +561,12 @@ if AL then
 	--AL["Path of Cenarius"] = true;
 	--AL["Pinata"] = true;
 	--AL["El Pollo Grande"] = true;
+
+	-- Tenth set
+	--AL["Scourgewar"] = true;
+	--AL["Tiny"] = true;
+	--AL["Tuskarr Kite"] = true;
+	--AL["Spectral Kitten"] = true;
 
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "雜項獎勵";
@@ -733,8 +741,8 @@ if AL then
 
 	--Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "萊尼的復仇";
-	AL["Low Level"] = "較低等級";
-	AL["High Level"] = "較高等級";
+	AL["Purified Shard of the Gods"] = "純淨諸神裂片";
+	AL["Shiny Shard of the Gods"] = "閃亮諸神裂片";
 
 	--Recipe origin strings
 	AL["Trainer"] = "訓練師";
