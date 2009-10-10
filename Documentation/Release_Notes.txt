@@ -5,9 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v5.08.x
+v5.08.05
+Update for Atlas 1.15.1
+Fixed <- and -> navigation for Ulduar
 Added the new Scourgewar trading card game in-game items.
-Compatible with the new Atlas version  Atlas 1.15.1
 
 v5.08.04
 Fixed a bug where the loot filter was breaking heroic mode loot

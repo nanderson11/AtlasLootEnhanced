@@ -3746,7 +3746,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 45700, "", "=q4=Stoneguard", "=ds=#h1#, #w10#", "", "19%"};
 		{ 10, 45695, "", "=q4=Spire of Withering Dreams", "=ds=#w9#", "", "21%"};
 		Prev = "UlduarIronCouncil";
-		Next = "UlduarAuriaya";
+		Next = "UlduarAlgalon";
 	};
 
 	AtlasLoot_Data["UlduarKologarn25Man"] = {
@@ -3768,7 +3768,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "18%"};
 		{ 18, 45261, "", "=q4=Giant's Bane", "=ds=#w5#", "", "16%"};
 		Prev = "UlduarIronCouncil25Man";
-		Next = "UlduarAuriaya25Man";
+		Next = "UlduarAlgalon25Man";
 	};
 
 	AtlasLoot_Data["UlduarAlgalon"] = {
@@ -3792,7 +3792,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
 		{ 19, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
 		{ 20, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
-		Prev = "UlduarIronCouncil";
+		Prev = "UlduarKologarn";
 		Next = "UlduarAuriaya";
 	};
 
@@ -3818,7 +3818,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
 		{ 21, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
 		{ 22, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
-		Prev = "UlduarIronCouncil25Man";
+		Prev = "UlduarKologarn25Man";
 		Next = "UlduarAuriaya25Man";
 	};
 
@@ -3833,7 +3833,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#", "", "19%"};
 		{ 9, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#", "", "19%"};
 		{ 10, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#", "", "21%"};
-		Prev = "UlduarKologarn";
+		Prev = "UlduarAlgalon";
 		Next = "UlduarHodir";
 	};
 
@@ -3855,7 +3855,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 16, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#", "", "20%"};
 		{ 17, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#", "", "19%"};
 		{ 18, 45327, "", "=q4=Siren's Cry", "=ds=#w2#", "", "20%"};
-		Prev = "UlduarKologarn25Man";
+		Prev = "UlduarAlgalon25Man";
 		Next = "UlduarHodir25Man";
 	};
 
@@ -6773,7 +6773,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		{ 10, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		{ 11, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
-		{ 12, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "1100 #arena# #reqrating# 1850"};
+		{ 12, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "300 #arena# #reqrating# 1850"};
 		Prev = "RelentlessGladiatorWeapons2";
 		Back = "LEVEL80PVPREWARDS";
 	};
