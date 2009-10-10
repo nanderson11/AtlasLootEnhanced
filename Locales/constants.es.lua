@@ -133,8 +133,9 @@ if AL then
 
 	-- Crafting Menu
 	AL["Crafting Daily Quests"] = "Fabricados misiones diarias";
-	AL["Jewelcrafting Daily"] = "Joyería diaria";
 	AL["Cooking Daily"] = "Cocina diaria";
+	AL["Fishing Daily"] = "Pesca diaria";	
+	AL["Jewelcrafting Daily"] = "Joyería diaria";
 	AL["Crafted Sets"] = "Conjuntos fabricados";
 	AL["Crafted Epic Weapons"] = "Armas épicas fabricadas";
     AL["Dragon's Eye"] = "Ojo de dragón";
@@ -186,6 +187,9 @@ if AL then
 	AL["PvP Misc"] = "Diseños Joyería JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Diseños Gemas/Encantamientos/Joyería JcJ";
 	AL["Level 80 PvP Sets"] = "Conjuntos Nivel 80 JcJ";
+	AL["Old Level 80 PvP Sets"] = "Conjuntos viejos Nivel 80 JcJ";
+	AL["Arena Season 7 Sets"] = "Conjuntos arena Temp 7";
+	AL["PvP Class Items"] = "Objetos de clase JcJ";
 
 	-- World Events
 	AL["Abyssal Council"] = "Consejo abisal";
@@ -271,10 +275,10 @@ if AL then
 	AL["Fish"] = "Pescado"; --Comprobar
 	AL["Combat Pet"] = "Mascota de combate"; --Comprobar
 	AL["Fireworks"] = "Fuegos artificiales";
+	AL["Fishing Lure"] = "Cebos de pesca";
 	
 	--Extra inventory stuff
 	AL["Cloak"] = "Capa";
-	AL["Weapons"] = "Armas";
 	AL["Sigil"] = "Sigilo"; -- Can be added to BabbleInv
 
 	--Alchemy
@@ -324,7 +328,9 @@ if AL then
 	AL["Classes:"] = "Clases";
 	AL["This Item Begins a Quest"] = "Este objeto empieza una misión";
 	AL["Quest Item"] = "Objeto de misión";
+	AL["Old Quest Item"] = "Objetos viejos de misiones";
 	AL["Quest Reward"] = "Recompensa de misión";
+	AL["Old Quest Reward"] = "Recompensas viejas de misiones";
 	AL["Shared"] = "Compartido";
 	AL["Unique"] = "Único";
 	AL["Right Half"] = "Parte derecha";
@@ -407,6 +413,8 @@ if AL then
 	AL["A Tribute to Mad Skill (45)"] = "Un tributo a la habilidad loca";
 	AL["A Tribute to Insanity (50)"] = "Un tributo a la locura";
 	AL["A Tribute to Immortality"] = "Un tributo a la inmortalidad";
+	AL["Low Level"] = "Nivel bajo";
+	AL["High Level"] = "Nivel alto";
 
 	-- Loot Table Names
 	AL["Scholomance Sets"] = "Conjuntos Scholomance";
@@ -429,6 +437,8 @@ if AL then
 	AL["Tier 8 Sets"] = "Conjuntos T8";
 	AL["Tier 9 Sets"] = "Conjuntos T9";
 	AL["Furious Gladiator Sets"] = "Conjuntos gladiador furioso";
+	AL["Relentless Gladiator Sets"] = "Conjuntos de Gladiador incansable";
+	AL["Brew of the Month Club"] = "Club de la Cerveza del Mes";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Conjunto: Abrazo de la víbora";
@@ -548,6 +558,11 @@ if AL then
 	--AL["Path of Cenarius"] = true;
 	--AL["Pinata"] = true;
 	--AL["El Pollo Grande"] = true;
+	-- Tenth set
+	AL["Scourgewar"] = "Guerra de la Plaga"; --Check
+	AL["Tiny"] = "Pequeño";
+	AL["Tuskarr Kite"] = "Cometa colmillarr";
+	AL["Spectral Kitten"] = "Gatito espectral"; --Check
 	
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "Recompensas varias";
@@ -705,9 +720,8 @@ if AL then
 
 	--Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Venganza de Raine";
---  AL["Low Level"] = true;
---	AL["High Level"] = true;
-
+	AL["Purified Shard of the Gods"] = "Fragmento de los Dioses purificado";
+	AL["Shiny Shard of the Gods"] = "Fragmento de los Dioses lustroso";
 
 	--Recipe origin strings
 	AL["Trainer"] = "Instructor";
@@ -1071,6 +1085,20 @@ if AL then
 	AL["Savage Gladiator\'s Weapons"] = "Armas de Gladiador indómito";
 	AL["Deadly Gladiator\'s Weapons"] = "Armas de Gladiador mortífero"; --Comprobar
 	AL["Furious Gladiator\'s Weapons"] = "Armas de Gladiador furioso";
+	AL["Relentless Gladiator\'s Weapons"] = "Armas de Gladiador incansable";
+	-- Months
+	AL["January"] = "Enero";
+	AL["February"] = "Febrero";
+	AL["March"] = "Marzo";
+	AL["April"] = "Abril";
+	AL["May"] = "Mayo";
+	AL["June"] = "Junio";
+	AL["July"] = "Julio";
+	AL["August"] = "Agosto";
+	AL["September"] = "Septiembre";
+	AL["October"] = "Octubre";
+	AL["November"] = "Noviembre";
+	AL["December"] = "Diciembre";
 	
 	--Specs
 	AL["Balance"] = "Equilibrio";
@@ -1305,6 +1333,7 @@ if AL then
 	AL["Hyldnir Spoils"] = "Botín Hyldnir";
 	AL["Ripe Disgusting Jar"] = "Tarro desagradable maduro";
 	AL["Cracked Egg"] = "Huevo roto";
+	AL["Small Spice Bag"] = "Bolsa de especias pequeña";
 	
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
