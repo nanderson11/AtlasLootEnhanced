@@ -6773,7 +6773,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 49187, "", "=q4=Relentless Gladiator's Compendium", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		{ 10, 42527, "", "=q4=Relentless Gladiator's Endgame", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		{ 11, 42539, "", "=q4=Relentless Gladiator's Grimoire", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
-		{ 12, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "300 #arena# #reqrating# 1850"};
+		{ 12, 42533, "", "=q4=Relentless Gladiator's Reprieve", "=ds=#s15#", "300 #arena# #reqrating# 1800"};
 		Prev = "RelentlessGladiatorWeapons2";
 		Back = "LEVEL80PVPREWARDS";
 	};
