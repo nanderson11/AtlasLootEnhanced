@@ -410,6 +410,7 @@ if AL then
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
 	AL["Alone in the Darkness"] = "Dans la nuit noire";
+	AL["Call of the Grand Crusade"] = "L'appel de la grande Croisade";
 	AL["A Tribute to Skill (25)"] = "Une offrande au talent (25)";
 	AL["A Tribute to Mad Skill (45)"] = "Une offrande au talent fou (45)";
 	AL["A Tribute to Insanity (50)"] = "Une offrande à la démence (50)";
