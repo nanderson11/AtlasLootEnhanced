@@ -411,6 +411,7 @@ if AL then
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
 	AL["Alone in the Darkness"] = true;
+	AL["Call of the Grand Crusade"] = true;
 	AL["A Tribute to Skill (25)"] = true;
 	AL["A Tribute to Mad Skill (45)"] = true;
 	AL["A Tribute to Insanity (50)"] = true;
