@@ -8819,6 +8819,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
 		{ 19, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
 		{ 20, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
+		{ 21, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
 		Prev = "PetsEvent1";
 		Next = "PetsAccessories1";
 		Back = "PETMENU";
