@@ -506,17 +506,17 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["HeadlessHorseman"] = {
-		{ 1, 49126, "", "=q4=The Horseman's Horrific Helm", "=ds=#s1#, #a4#", "", ""};
-		{ 2, 49121, "", "=q4=Ring of Ghoulish Glee", "=ds=#s13#", "", ""};
-		{ 3, 49123, "", "=q4=The Horseman's Seal", "=ds=#s13#", "", ""};
-		{ 4, 49124, "", "=q4=Wicked Witch's Band", "=ds=#s13#", "", ""};
-		{ 5, 49128, "", "=q4=The Horseman's Baleful Blade", "=ds=#h3#, #w10#"};
+		{ 1, 49126, "", "=q4=The Horseman's Horrific Helm", "=ds=#s1#, #a4#", ""};
+		{ 2, 49121, "", "=q4=Ring of Ghoulish Glee", "=ds=#s13#", ""};
+		{ 3, 49123, "", "=q4=The Horseman's Seal", "=ds=#s13#", ""};
+		{ 4, 49124, "", "=q4=Wicked Witch's Band", "=ds=#s13#", ""};
+		{ 5, 49128, "", "=q4=The Horseman's Baleful Blade", "=ds=#h3#, #w10#", ""};
 		{ 7, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=", "", "100%"};
 		{ 8, 33226, "", "=q1=Tricky Treat", ""};
-		{ 16, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#", "", ""};
-		{ 17, 37011, "", "=q3=Magic Broom", "=ds=#e12#", "", ""};
-		{ 19, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "", ""};
-		{ 20, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "", ""};
+		{ 16, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#", ""};
+		{ 17, 37011, "", "=q3=Magic Broom", "=ds=#e12#", ""};
+		{ 19, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", ""};
+		{ 20, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", ""};
 		Prev = "Halloween2";
 		Back = "WORLDEVENTMENU";
 	};
