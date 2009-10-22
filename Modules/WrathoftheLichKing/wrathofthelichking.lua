@@ -9435,7 +9435,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
 		{ 24, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
 		Next = "EmblemofConquest2";
-		Back = "SETMENU";
+		Back = "EMBLEMOFCONQUESTMENU";
 	};
 
 	AtlasLoot_Data["EmblemofConquest2"] = {
@@ -9464,7 +9464,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 40753, "", "=q4=Emblem of Valor", "=ds=#m17#", "1 #eofconquest#" };
 		{ 29, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "18 #eofconquest#" };
 		Prev = "EmblemofConquest1";
-		Back = "SETMENU";
+		Back = "EMBLEMOFCONQUESTMENU";
 	};
 
 		-------------------------------

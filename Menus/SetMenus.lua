@@ -5,7 +5,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["SETMENU"] = {
 		{ 2, "EMBLEMOFTRIUMPHMENU", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-		{ 3, "EmblemofConquest1", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 3, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 4, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 5, "EMBLEMOFHEROISMMENU", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 6, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice Rewards"], "=q5="..AL["Burning Crusade"]};
@@ -47,21 +47,32 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	AtlasLoot_Data["EMBLEMOFHEROISMMENU"] = {
 		{ 2, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], ""};
 		{ 3, "EmblemofHeroism3", "Spell_Holy_ProclaimChampion", "=ds="..BabbleInventory["Miscellaneous"], ""};
+        { 4, "LEVEL80PVPSETS", "Spell_Holy_ProclaimChampion", "=ds="..AL["Level 80 PvP Sets"], "" };
 		{ 17, "EmblemofHeroism2", "Spell_Holy_ProclaimChampion", "=ds="..AL["Accessories"], ""};
 		{ 18, "EmblemofHeroism4", "Spell_Holy_ProclaimChampion", "=ds="..AL["Heirloom"], ""};
 		Back = "SETMENU";
 	};
 
+    AtlasLoot_Data["EMBLEMOFCONQUESTMENU"] = {
+		{ 2, "EmblemofConquest1", "Spell_Holy_ChampionsGrace", "=ds="..AL["Vendor"], ""};
+        { 17, "LEVEL80PVPSETS", "Spell_Holy_ChampionsGrace", "=ds="..AL["Level 80 PvP Sets"], "" };
+		Back = "SETMENU";
+	};
+    
 	AtlasLoot_Data["EMBLEMOFVALORMENU"] = {
 		{ 2, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..BabbleInventory["Armor"], ""};
+        { 3, "LEVEL80PVPSETS", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Level 80 PvP Sets"], "" };
 		{ 17, "EmblemofValor2", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Accessories"], ""};
 		Back = "SETMENU";
 	};
 
 	AtlasLoot_Data["EMBLEMOFTRIUMPHMENU"] = {
 		{ 2, "EmblemofTriumph1", "spell_holy_summonchampion", "=ds="..BabbleInventory["Cloth"].." & "..BabbleInventory["Leather"], ""};
-		{ 3, "EmblemofTriumph3", "spell_holy_summonchampion", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
-		{ 17, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..BabbleInventory["Mail"].." & "..BabbleInventory["Plate"], ""};
+		{ 3, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..BabbleInventory["Mail"].." & "..BabbleInventory["Plate"], ""};
+        { 4, "EmblemofTriumph3", "spell_holy_summonchampion", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
+        { 17, "LEVEL80PVPSETS", "spell_holy_summonchampion", "=ds="..AL["Level 80 PvP Sets"], "" };
+        { 18, "T9SETALLIANCE", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"].." : "..BabbleFaction["Alliance"]};
+		{ 19, "T9SETHORDE", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"].." : "..BabbleFaction["Horde"]};
 		Back = "SETMENU";
 	};
 
