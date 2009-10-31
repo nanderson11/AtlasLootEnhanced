@@ -351,6 +351,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#x37#", AL["The Talon King's Coffer"]);
     text = gsub(text, "#x38#", AL["Mysterious Egg"]);
     text = gsub(text, "#x39#", AL["Hyldnir Spoils"]);
+    text = gsub(text, "#x40#", AL["Handful of Candy"]);
 
     -- NPC Names
     text = gsub(text, "#n1#", BabbleBoss["Lord Cobrahn"]);
