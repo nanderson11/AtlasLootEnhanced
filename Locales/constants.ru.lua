@@ -411,6 +411,7 @@ if AL then
 	AL["Weapons"] = "Орежия";
 	AL["Accessories"] = "Аксессуары";
 	AL["Alone in the Darkness"] = "Один во мраке";
+	AL["Call of the Grand Crusade"] = "Призыв великого крестоносца";
 	AL["A Tribute to Skill (25)"] = "Дань умению (25)";
 	AL["A Tribute to Mad Skill (45)"] = "Дань искусству (45)";
 	AL["A Tribute to Insanity (50)"] = "Дань безумству (50)";
