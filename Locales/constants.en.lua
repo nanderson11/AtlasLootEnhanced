@@ -198,6 +198,7 @@ if AL then
 	AL["Bash'ir Landing Skyguard Raid"] = true;
 	AL["Brewfest"] = true;
 	AL["Children's Week"] = true;
+	AL["Day of the Dead"] = true;
 	AL["Elemental Invasion"] = true;
 	AL["Ethereum Prison"] = true;
 	AL["Feast of Winter Veil"] = true;

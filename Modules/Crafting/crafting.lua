@@ -1275,6 +1275,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 23, "s33277", "24105", "=q1=Roasted Moongraze Tenderloin", "=ds="..AL["Quest"]..""};
 		{ 24, "s7752", "787", "=q1=Slitherskin Mackerel", "=ds="..AL["Vendor"]..""};
 		{ 25, "s37836", "30816", "=q1=Spice Bread", "=ds="..AL["Trainer"]};
+		{ 26, "s65454", "46691", "=q1=Bread of the Dead", "=ds="..AL["Vendor"]};
 		Prev = "Cooking5";
 		Back = "CRAFTINGMENU";
 	};

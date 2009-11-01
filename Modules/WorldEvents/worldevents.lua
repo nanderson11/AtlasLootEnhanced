@@ -8,6 +8,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 --- Seasonal Events
 ---- Brewfest
 ---- Children's Week
+---- Day of the Dead
 ---- Feast of Winter Veil
 ---- Hallow's End
 ---- Harvest Festival
@@ -379,6 +380,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 16, 0, "INV_Box_01", "=q6=#z40#", ""};
 		{ 17, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
 		{ 18, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
+		Back = "WORLDEVENTMENU";
+	};
+
+		-----------------------
+		--- Day of the Dead ---
+		-----------------------
+
+	AtlasLoot_Data["DayoftheDead"] = {
+		{ 1, 46831, "", "=q1=Macabre Marionette", "=q1=#m4#: =ds=#m20#"};
+		{ 3, 46860, "", "=q1=Whimsical Skull Mask", "=ds=#s1#, 5 #copper#"};
+		{ 4, 46861, "", "=q1=Bouquet of Orange Marigolds", "=ds=#s15#, 1 #gold#"};
+		{ 5, 46690, "", "=q1=Candy Skull", "=ds=#m20#, 5 #copper#"};
+		{ 6, 46711, "", "=q1=Spirit Candle", "=ds=#m20#, 30 #copper#"};
+		{ 7, 46718, "", "=q1=Orange Marigold", "=ds=#m20#, 10 #copper#"};
+		{ 9, 46710, "", "=q1=Recipe: Bread of the Dead", "=ds=#p3# (1), 20 #silver#"};
+		{ 10, 46691, "", "=q1=Bread of the Dead", "=ds=#e3#"};
 		Back = "WORLDEVENTMENU";
 	};
 
