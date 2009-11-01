@@ -197,6 +197,7 @@ if AL then
 	AL["Bash'ir Landing Skyguard Raid"] = "Point d'ancrage de Bash'ir";
 	AL["Brewfest"] = "La fête des Brasseurs";
 	AL["Children's Week"] = "La Semaine des enfants";
+	AL["Day of the Dead"] = "Jour des morts";
 	AL["Elemental Invasion"] = "Invasions élémentaires";
 	AL["Ethereum Prison"] = "Prison de l'Ethereum";
 	AL["Feast of Winter Veil"] = "La fête du Voile d'hiver";
@@ -1354,6 +1355,7 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "Jarre dégoûtante mûre";
 	AL["Cracked Egg"] = "Oeuf brisé";
 	AL["Small Spice Bag"] = "Petit sac d'épices";
+	AL["Handful of Candy"] = "Poignée de bonbons";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
