@@ -154,7 +154,7 @@ if AL then
 	AL["Dungeon 3 Sets"] = "副本套裝 3";
 	AL["Legendary Items"] = "傳說物品";
 	AL["Mounts"] = "坐騎";
-	AL["Vanity Pets"] = "非戰鬥寵物";
+	AL["Vanity Pets"] = "普通寵物";
 	AL["Misc Sets"] = "其他套裝";
 	AL["Classic Sets"] = "舊世界套裝";
 	AL["Burning Crusade Sets"] = "燃燒的遠征套裝";
@@ -345,9 +345,9 @@ if AL then
 	AL["16 Slot"] = "16 格容器";
 	AL["10 Slot"] = "10 格容器";
 	AL["(has random enchantment)"] = "(具有隨機屬性)";
-	AL["Currency"] = "用以兌換獎勵";
-	AL["Currency (Alliance)"] = "用以兌換獎勵 (聯盟)";
-	AL["Currency (Horde)"] = "用以兌換獎勵 (部落)";
+	AL["Currency"] = "貨幣";
+	AL["Currency (Alliance)"] = "貨幣 (聯盟)";
+	AL["Currency (Horde)"] = "貨幣 (部落)";
 	AL["Conjured Item"] = "特殊物品";
 	AL["Used to summon boss"] = "使用以召喚首領";
 	AL["Tradable against sunmote + item above"] = "以太陽微粒兌換的裝備";
