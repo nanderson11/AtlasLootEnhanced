@@ -199,6 +199,7 @@ if AL then
 	AL["Bash'ir Landing Skyguard Raid"] = "貝許爾平臺空防";
 	AL["Brewfest"] = "啤酒節";
 	AL["Children's Week"] = "兒童週";
+	AL["Day of the Dead"] = "亡者節";
 	AL["Elemental Invasion"] = "元素入侵";
 	AL["Ethereum Prison"] = "伊斯利恩監獄";
 	AL["Feast of Winter Veil"] = "冬幕節";
@@ -412,6 +413,7 @@ if AL then
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Alone in the Darkness"] = "闇境孤軍";
+	AL["Call of the Grand Crusade"] = "大十字軍的呼喚";
 	AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
 	AL["A Tribute to Mad Skill (45)"] = "獻給瘋狂的技藝";
 	AL["A Tribute to Insanity (50)"] = "獻給瘋子";
@@ -557,15 +559,15 @@ if AL then
 	AL["Foam Sword Rack"] = "泡沫之劍架";
 
 	-- Ninth set
-	--AL["Fields of Honor"] = true;
-	--AL["Path of Cenarius"] = true;
-	--AL["Pinata"] = true;
-	--AL["El Pollo Grande"] = true;
+	AL["Fields of Honor"] = "榮耀之地";
+	AL["Path of Cenarius"] = "通往塞納留斯之路";
+	AL["Pinata"] = "糖果玩偶";
+	AL["El Pollo Grande"] = "艾伯格蘭德";
 
 	-- Tenth set
 	--AL["Scourgewar"] = true;
 	--AL["Tiny"] = true;
-	--AL["Tuskarr Kite"] = true;
+	AL["Tuskarr Kite"] = "巨牙海民風箏";
 	--AL["Spectral Kitten"] = true;
 
 	--Battleground Brackets
@@ -1356,6 +1358,7 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "熟成的噁心罐子";
 	AL["Cracked Egg"] = "破損的蛋";
 	AL["Small Spice Bag"] = "小香料包";
+	AL["Handful of Candy"] = "一把糖果";
 
 	--The next 4 lines are the tooltip for the Server Query Button
 	--The translation doesn't have to be literal, just re-write the
