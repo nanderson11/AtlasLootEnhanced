@@ -123,7 +123,14 @@ function AtlasLoot_HideNoUsableItems()
 				for k,v in pairs(FilterTable) do
 					if type(v) == "table" then
 						for i,j in pairs(FilterTable[k]) do
-							if strfind(xitemExtraText, BabbleInventory[j]) and AtlasLootFilterDB[k][j] == false then
+							local Slotname = ""
+							-- Bugfix with Sigils
+							if j == "Sigils" then
+								Slotname = AL["Sigil"]
+							else
+								Slotname = BabbleInventory[j]
+							end
+							if strfind(xitemExtraText, Slotname) and AtlasLootFilterDB[k][j] == false then
 								xgo = false
 								-- German fix
 								if j == "Shield" and not strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) and not strfind(xitemExtraText, BabbleInventory["Off Hand"]) then
