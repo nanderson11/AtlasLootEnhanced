@@ -476,6 +476,7 @@ if AL then
 	-- Pets
 	AL["Pets"] = true;
 	AL["Promotional"] = true;
+	AL["Pet Store"] = true;
 	AL["Merchant Sold"] = true;
 	AL["Rare"] = true;
 	AL["Achievement"] = true;

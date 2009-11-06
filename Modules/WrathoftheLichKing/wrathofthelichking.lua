@@ -8821,6 +8821,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
 		{ 21, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
 		Prev = "PetsEvent1";
+		Next = "PetsPetStore1";
+		Back = "PETMENU";
+	};
+
+	AtlasLoot_Data["PetsPetStore1"] = {
+		{ 1, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+		Prev = "PetsPromotional1";
 		Next = "PetsAccessories1";
 		Back = "PETMENU";
 	};
@@ -8833,7 +8840,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 5, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
 		{ 6, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
 		{ 7, 37460, "", "=q1=Rope Pet Leash", "=ds="};
-		Prev = "PetsPromotional1";
+		Prev = "PetsPetStore1";
 		Back = "PETMENU";
 	};
 

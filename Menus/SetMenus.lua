@@ -100,9 +100,10 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 2, "PetsMerchant1", "spell_nature_polymorph", "=ds="..AL["Merchant Sold"], ""};
 		{ 3, "PetsRare1", "spell_shaman_hex", "=ds="..AL["Rare"], ""};
 		{ 4, "PetsPromotional1", "inv_netherwhelp", "=ds="..AL["Promotional"], ""};
+		{ 5, "PetsAccessories1", "inv_misc_petbiscuit_01", "=ds="..AL["Accessories"], ""};
 		{ 17, "PetsQuestCrafted1", "inv_drink_19", "=ds="..AL["Quest"].." / "..AL["Crafted"], ""};
 		{ 18, "PetsEvent1", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
-		{ 19, "PetsAccessories1", "inv_misc_petbiscuit_01", "=ds="..AL["Accessories"], ""};
+		{ 19, "PetsPetStore1", "INV_Misc_Coin_01", "=ds="..AL["Pet Store"], ""};
 		Back = "SETMENU";
 	};
 
