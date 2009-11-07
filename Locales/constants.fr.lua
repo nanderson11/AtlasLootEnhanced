@@ -233,18 +233,18 @@ if AL then
 	AL["Close"] = "Fermer";
 	--AL["Wishlist"] = true;
 	--AL["Own Wishlists"] = true;
-	--AL["Other Wishlists"] = true;
+	AL["Other Wishlists"] = "Autre Wishlist";
 	AL["Shared Wishlists"] = "Partager les Wishlists";
-	--AL["Mark items in loot tables"] = true;
+	--AL["Mark items in loot tables"] = "Marquer les objets dans les tables de butin";
 	--AL["Mark items from own Wishlist"] = true;
-	--AL["Mark items from all Wishlists"] = true;
+	AL["Mark items from all Wishlists"] = "Marquer les objets de toutes les Wishlists";
 	AL["Enable Wishlist Sharing"] = "Activer le partage de la Wishlist";
 	AL["Auto reject in combat"] = "Refuser automatiquement en combat";
 	AL["Always use default Wishlist"] = "Toujours utiliser cette wishlist par défaut";
 	AL["Add Wishlist"] = "Ajouter une wishlist";
 	AL["Edit Wishlist"] = "Modifier une wishlist"
 	AL["Show More Icons"] = "Afficher plus d'icône";
-	--AL["Wishlist name:"] = true;
+	AL["Wishlist name:"] = "Nom de la Wishlist :";
 	AL["Delete"] = "Supprimer";
 	AL["Edit"] = "Modifier";
 	AL["Share"] = "Partager";
@@ -475,6 +475,7 @@ if AL then
 	-- Pets
 	AL["Pets"] = "Familiers de combat";
 	AL["Promotional"] = "Promotionnel";
+	AL["Pet Store"] = "La boutique des mascottes";
 	AL["Merchant Sold"] = "Vendeur";
 	--AL["Rare"] = true;
 	AL["Achievement"] = "Haut fait"
