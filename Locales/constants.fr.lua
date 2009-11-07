@@ -17,6 +17,7 @@ local AL = AceLocale:NewLocale("AtlasLoot", "frFR", false);
 
 --Register translations
 if AL then
+
 	-- Text strings for UI objects
 	--AL["AtlasLoot"] = true,
 	AL["Select Loot Table"] = "Choisir une liste";
