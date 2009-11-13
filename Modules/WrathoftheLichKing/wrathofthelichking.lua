@@ -4689,7 +4689,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 47233, "", "=q4=Archon Glaive", "=ds=#w7#"};
 		{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_A25Man";
-		Next = "TrialoftheCrusaderTribute_AHEROIC";
+		Next = "TrialoftheCrusaderTribute_A25ManHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H25Man"] = {
@@ -4715,7 +4715,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 47329, "", "=q4=Hellion Glaive", "=ds=#w7#"};
 		{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		Prev = "TrialoftheCrusaderTwinValkyrs_H25Man";
-		Next = "TrialoftheCrusaderTribute_HHEROIC";
+		Next = "TrialoftheCrusaderTribute_H25ManHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_A"] = {
