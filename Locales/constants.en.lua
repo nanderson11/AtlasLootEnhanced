@@ -374,6 +374,7 @@ if AL then
 	AL["Tier 7"] = true;
 	AL["Tier 8"] = true;
 	AL["Tier 9"] = true;
+	AL["Tier 10"] = true;
 	AL["10 Man"] = true;
 	AL["25 Man"] = true;
 	AL["10/25 Man"] = true;
@@ -1005,6 +1006,27 @@ if AL then
 	AL["Koltira's Battlegear"] = true;
 	AL["Thassarian's Plate"] = true;
 	AL["Koltira's Plate"] = true;
+	
+	-- Tier 9 Sets
+	AL["Lasherweave's Garb"] = true;
+	AL["Lasherweave's Battlegear"] = true;
+	AL["Lasherweave's Regalia"] = true;
+	AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
+	AL["Bloodmage's Regalia"] = true;
+	AL["Lightsworn Garb"] = true;
+	AL["Lightsworn Plate"] = true;
+	AL["Lightsworn Battlegear"] = true;
+	AL["Crimson Acolyte's Regalia"] = true;
+	AL["Crimson Acolyte's Raiment"] = true;
+	AL["Shadowblade's Battlegear"] = true;
+	AL["Frost Witch's Garb"] = true;
+	AL["Frost Witch's Battlegear"] = true;
+	AL["Frost Witch's Regalia"] = true;
+	AL["Dark Coven's Regalia"] = true;
+	AL["Ymirjar Lord's Battlegear"] = true;
+	AL["Ymirjar Lord's Plate"] = true;
+	AL["Scourgelord's Battlegear"] = true;
+	AL["Scourgelord's Plate"] = true;
 
 	-- Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = true;

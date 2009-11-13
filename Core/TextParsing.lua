@@ -897,6 +897,27 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t9s10_2a#", AL["Thassarian's Battlegear"]);
     text = gsub(text, "#t9s10_2h#", AL["Koltira's Battlegear"]);
 
+    -- Tier 10 Sets
+    text = gsub(text, "#t10s1_1#", AL["Lasherweave's Garb"]);
+    text = gsub(text, "#t10s1_2#", AL["Lasherweave's Battlegear"]);
+    text = gsub(text, "#t10s1_3#", AL["Lasherweave's Regalia"]);
+    text = gsub(text, "#t10s2#", AL["Ahn'Kahar Blood Hunter's Battlegear"]);
+    text = gsub(text, "#t10s3#", AL["Bloodmage's Regalia"]);
+    text = gsub(text, "#t10s4_1#", AL["Lightsworn Garb"]);
+    text = gsub(text, "#t10s4_2#", AL["Lightsworn Plate"]);
+    text = gsub(text, "#t10s4_3#", AL["Lightsworn Battlegear"]);
+    text = gsub(text, "#t10s5_1#", AL["Crimson Acolyte's Regalia"]);
+    text = gsub(text, "#t10s5_2#", AL["Crimson Acolyte's Raiment"]);
+    text = gsub(text, "#t10s6#", AL["Shadowblade's Battlegear"]);
+    text = gsub(text, "#t10s7_1#", AL["Frost Witch's Garb"]);
+    text = gsub(text, "#t10s7_2#", AL["Frost Witch's Battlegear"]);
+    text = gsub(text, "#t10s7_3#", AL["Frost Witch's Regalia"]);
+    text = gsub(text, "#t10s8#", AL["Dark Coven's Garb"]);
+    text = gsub(text, "#t10s9_1#", AL["Ymirjar Lord's Battlegear"]);
+    text = gsub(text, "#t10s9_2#", AL["Ymirjar Lord's Plate"]);
+    text = gsub(text, "#t10s10_1#", AL["Scourgelord's Battlegear"]);
+    text = gsub(text, "#t10s10_2#", AL["Scourgelord's Plate"]);
+
     -- Arathi Basin Sets - Alliance
     text = gsub(text, "#absa1#", AL["The Highlander's Intent"]);
     text = gsub(text, "#absa2#", AL["The Highlander's Purpose"]);

@@ -59,6 +59,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 --- Sets & Collections
 ---- Naxx Sets (T7)/Ulduar Sets (T8)
 ---- Tier 9 Sets (T9)
+---- Tier 10 Sets (T10)
 ---- Wrath Of The Lich King Sets
 ---- Blizzard Collectables
 ---- Legendaries
@@ -5392,7 +5393,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 0, "INV_Shield_36", "=q6=#r5#", ""};
 		{ 18, 44503, "", "=q4=Schematic: Mekgineer's Chopper", "=ds=#p5# (450)"};
 		{ 19, 44937, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
-		{ 20, 44701, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
+		{ 20, 44701, "", "=q7=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
 		Back = "REPMENU_WOTLK";
 	};
 
@@ -5410,12 +5411,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 44245, "", "=q3=Zombie Sweeper Shotgun", "=ds=#w5#"};
 		{ 9, 44214, "", "=q3=Purifying Torch", "=ds=#w12#"};
 		{ 10, 41726, "", "=q3=Design: Guardian's Twilight Opal", "=ds=#p12# (390)"};
-		{ 11, 44150, "", "=q3=Arcanum of the Stalwart Protector", "=ds=#s1# #e17#"};
+		{ 11, 44150, "", "=q7=Arcanum of the Stalwart Protector", "=ds=#s1# #e17#"};
 		{ 16, 0, "INV_Jewelry_Talisman_08", "=q6=#r3#", ""};
 		{ 17, 44216, "", "=q3=Cloak of Holy Extermination", "=ds=#s4#"};
 		{ 18, 44240, "", "=q3=Special Issue Legplates", "=ds=#s11#, #a4#"};
 		{ 19, 44239, "", "=q3=Standard Issue Legguards", "=ds=#s11#, #a4#"};
-		{ 20, 44139, "", "=q3=Arcanum of the Fleeing Shadow", "=ds=#s1# #e17#"};
+		{ 20, 44139, "", "=q7=Arcanum of the Fleeing Shadow", "=ds=#s1# #e17#"};
 		{ 22, 0, "INV_Jewelry_Talisman_08", "=q6=#r5#", ""};
 		{ 23, 44297, "", "=q4=Boots of the Neverending Path", "=ds=#s12#, #a2#"};
 		{ 24, 44295, "", "=q4=Polished Regimental Hauberk", "=ds=#s5#, #a3#"};
@@ -5471,7 +5472,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
 		{ 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5# (450)"};
 		{ 19, 44938, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
-		{ 20, 44702, "", "=q3=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
+		{ 20, 44702, "", "=q7=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
 		Back = "REPMENU_WOTLK";
 	};
 
@@ -5487,13 +5488,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 44170, "", "=q3=Helm of the Majestic Stag", "=ds=#s1#, #a2#"};
 		{ 7, 44171, "", "=q3=Spaulders of Grounded Lightning", "=ds=#s3#, #a3#"};
 		{ 8, 44166, "", "=q3=Lightblade Rivener", "=ds=#h1#, #w4#"};
-		{ 9, 44141, "", "=q3=Arcanum of the Flame's Soul", "=ds=#s1# #e17#"};
+		{ 9, 44141, "", "=q7=Arcanum of the Flame's Soul", "=ds=#s1# #e17#"};
 		{ 16, 0, "Spell_Fire_MasterOfElements", "=q6=#r4#", ""};
 		{ 17, 44179, "", "=q3=Mind-Expanding Leggings", "=ds=#s11#, #a2#"};
 		{ 18, 44176, "", "=q3=Girdle of the Warrior Magi", "=ds=#s10#, #a4#"};
 		{ 19, 44173, "", "=q3=Flameheart Spell Scalpel", "=ds=#h3#, #w4#"};
 		{ 20, 44174, "", "=q3=Stave of Shrouded Mysteries", "=ds=#w9#"};
-		{ 21, 44159, "", "=q3=Arcanum of Burning Mysteries", "=ds=#s1# #e17#"};
+		{ 21, 44159, "", "=q7=Arcanum of Burning Mysteries", "=ds=#s1# #e17#"};
 		{ 23, 0, "Spell_Fire_MasterOfElements", "=q6=#r5#", ""};
 		{ 24, 44180, "", "=q4=Robes of Crackling Flame", "=ds=#s5#, #a1#"};
 		{ 25, 44181, "", "=q4=Ghostflicker Waistband", "=ds=#s10#, #a2#"};
@@ -5517,7 +5518,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 7, 44243, "", "=q3=Toxin-Tempered Sabatons", "=ds=#s12#, #a4#"};
 		{ 8, 44241, "", "=q3=Unholy Persuader", "=ds=#h4#, #w13#"};
 		{ 9, 44512, "", "=q3=Pattern: Nerubian Reinforced Quiver", "=ds=#p7# (415)"};
-		{ 10, 44138, "", "=q3=Arcanum of Toxic Warding", "=ds=#s1# #e17#"};
+		{ 10, 44138, "", "=q7=Arcanum of Toxic Warding", "=ds=#s1# #e17#"};
 		{ 16, 0, "INV_Weapon_Hand_01", "=q6=#r4#", ""};
 		{ 17, 44256, "", "=q3=Sterile Flesh-Handling Gloves", "=ds=#s9#, #a1#"};
 		{ 18, 44258, "", "=q3=Wound-Binder's Wristguards", "=ds=#s8#, #a2#"};
@@ -5525,7 +5526,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 44250, "", "=q3=Reaper of Dark Souls", "=ds=#h1#, #w10#"};
 		{ 21, 44249, "", "=q3=Runeblade of Demonstrable Power", "=ds=#h2#, #w10#"};
 		{ 22, 41721, "", "=q3=Design: Wicked Monarch Topaz", "=ds=#p12# (390)"};
-		{ 23, 44149, "", "=q3=Arcanum of Torment", "=ds=#s1# #e17#"};
+		{ 23, 44149, "", "=q7=Arcanum of Torment", "=ds=#s1# #e17#"};
 		{ 24, 42183, "", "=q1=Pattern: Abyssal Bag", "=ds=#p8# (435)"};
 		{ 26, 0, "INV_Weapon_Hand_01", "=q6=#r5#", ""};
 		{ 27, 44302, "", "=q4=Belt of Dark Mending", "=ds=#s10#, #a1#"};
@@ -5607,7 +5608,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 2, 44190, "", "=q3=Spaulders of Frozen Knives", "=ds=#s3#, #a2#"};
 		{ 3, 44189, "", "=q3=Giant Ring Belt", "=ds=#s10#, #a3#"};
 		{ 4, 44510, "", "=q3=Pattern: Mammoth Mining Bag", "=ds=#p7# (415)"};
-		{ 5, 44137, "", "=q3=Arcanum of the Frosty Soul", "=ds=#s1# #e17#"};
+		{ 5, 44137, "", "=q7=Arcanum of the Frosty Soul", "=ds=#s1# #e17#"};
 		{ 6, 44131, "", "=q3=Lesser Inscription of the Axe", "=ds=#s3# #e17#"};
 		{ 7, 44130, "", "=q3=Lesser Inscription of the Crag", "=ds=#s3# #e17#"};
 		{ 8, 44132, "", "=q3=Lesser Inscription of the Pinnacle", "=ds=#s3# #e17#"};
@@ -5669,13 +5670,13 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 44196, "", "=q3=Sash of the Wizened Wyrm", "=ds=#s10#, #a1#"};
 		{ 7, 44197, "", "=q3=Bracers of Accorded Courtesy", "=ds=#s8#, #a4#"};
 		{ 8, 44187, "", "=q3=Fang of Truth", "=ds=#h1#, #w10#"};
-		{ 9, 44140, "", "=q3=Arcanum of the Eclipsed Moon", "=ds=#s1# #e17#"};
+		{ 9, 44140, "", "=q7=Arcanum of the Eclipsed Moon", "=ds=#s1# #e17#"};
 		{ 16, 0, "Ability_Druid_Eclipse", "=q6=#r4#", ""};
 		{ 17, 44200, "", "=q3=Ancestral Sinew Wristguards", "=ds=#s8#, #a1#"};
 		{ 18, 44198, "", "=q3=Breastplate of the Solemn Council", "=ds=#s5#, #a4#"};
 		{ 19, 44201, "", "=q3=Sabatons of Draconic Vigor", "=ds=#s12#, #a4#"};
 		{ 20, 44199, "", "=q3=Gavel of the Brewing Storm", "=ds=#h3#, #w6#"};
-		{ 21, 44152, "", "=q3=Arcanum of Blissful Mending", "=ds=#s1# #e17#"};
+		{ 21, 44152, "", "=q7=Arcanum of Blissful Mending", "=ds=#s1# #e17#"};
 		{ 22, 42185, "", "=q1=Pattern: Mysterious Bag", "=ds=#p8# (440)"};
 		{ 24, 0, "Ability_Druid_Eclipse", "=q6=#r5#", ""};
 		{ 25, 44202, "", "=q4=Sandals of Crimson Fury", "=ds=#s12#, #a1#"};
@@ -8425,6 +8426,54 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 48467, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48469, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};
 		Back = "T9SETHORDE";
+	};
+
+		--------------------------
+		--- Tier 10 Sets (T10) ---
+		--------------------------
+
+	AtlasLoot_Data["T10Mage"] = {
+		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
+		{ 2, 50276, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#"};
+		{ 3, 50279, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 4, 50278, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#"};
+		{ 5, 50275, "", "=q4=Bloodmage Gloves", "=ds=#s9#, #a1#"};
+		{ 6, 50277, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#"};
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
+		{ 9, 51158, "", "=q4=Sanctified Bloodmage Hood", "=ds=#s1#, #a1#"};
+		{ 10, 51155, "", "=q4=Sanctified Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 11, 51156, "", "=q4=Sanctified Bloodmage Robe", "=ds=#s5#, #a1#"};
+		{ 12, 51159, "", "=q4=Sanctified Bloodmage Gloves", "=ds=#s9#, #a1#"};
+		{ 13, 51157, "", "=q4=Sanctified Bloodmage Leggings", "=ds=#s11#, #a1#"};
+		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
+		{ 17, 51715, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#"};
+		{ 18, 51712, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 19, 51713, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#"};
+		{ 20, 51716, "", "=q4=Bloodmage Gauntlets", "=ds=#s9#, #a1#"};
+		{ 21, 51714, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#"};
+		Back = "";
+	};
+
+	AtlasLoot_Data["T10Rogue"] = {
+		{ 1, 0, "Ability_BackStab", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
+		{ 2, 50089, "", "=q4=Shadowblade Helmet", "=ds=#s1#, #a2#"};
+		{ 3, 50105, "", "=q4=Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
+		{ 4, 50087, "", "=q4=Shadowblade Breastplate", "=ds=#s5#, #a2#"};
+		{ 5, 50088, "", "=q4=Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
+		{ 6, 50090, "", "=q4=Shadowblade Legplates", "=ds=#s11#, #a2#"};
+		{ 8, 0, "Ability_BackStab", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
+		{ 9, 51187, "", "=q4=Sanctified Shadowblade Helmet", "=ds=#s1#, #a2#"};
+		{ 10, 51185, "", "=q4=Sanctified Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
+		{ 11, 51189, "", "=q4=Sanctified Shadowblade Breastplate", "=ds=#s5#, #a2#"};
+		{ 12, 51188, "", "=q4=Sanctified Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
+		{ 13, 51186, "", "=q4=Sanctified Shadowblade Legplates", "=ds=#s11#, #a2#"};
+		{ 16, 0, "Ability_BackStab", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
+		{ 17, 51745, "", "=q4=Sanctified Shadowblade Helmet", "=ds=#s1#, #a2#"};
+		{ 18, 51746, "", "=q4=Sanctified Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
+		{ 19, 51743, "", "=q4=Sanctified Shadowblade Breastplate", "=ds=#s5#, #a2#"};
+		{ 20, 51742, "", "=q4=Sanctified Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
+		{ 21, 51744, "", "=q4=Sanctified Shadowblade Legplates", "=ds=#s11#, #a2#"};
+		Back = "";
 	};
 
 		-----------------------------------
