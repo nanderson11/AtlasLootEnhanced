@@ -1007,7 +1007,7 @@ if AL then
 	AL["Thassarian's Plate"] = true;
 	AL["Koltira's Plate"] = true;
 	
-	-- Tier 9 Sets
+	-- Tier 10 Sets
 	AL["Lasherweave's Garb"] = true;
 	AL["Lasherweave's Battlegear"] = true;
 	AL["Lasherweave's Regalia"] = true;

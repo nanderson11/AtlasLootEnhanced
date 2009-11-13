@@ -375,6 +375,7 @@ if AL then
 	AL["Tier 7"] = "T7";
 	AL["Tier 8"] = "T8";
 	AL["Tier 9"] = "T9";
+	AL["Tier 10"] = "T10";
 	AL["10 Man"] = "10 人";
 	AL["25 Man"] = "25 人";
 	AL["10/25 Man"] = "10/25 人";
@@ -481,6 +482,7 @@ if AL then
 	AL["Rare"] = "稀有";
 	AL["Achievement"] = "成就";
 	AL["Faction"] = "陣營";
+	AL["Faction"] = "派別";
 	AL["Dungeon/Raid"] = "副本/團隊";
 
 	--Mounts
@@ -1005,6 +1007,27 @@ if AL then
 	AL["Koltira's Battlegear"] = "寇爾提拉的戰裝";
 	AL["Thassarian's Plate"] = "薩沙理安的鎧甲";
 	AL["Koltira's Plate"] = "寇爾提拉的鎧甲";
+
+	-- Tier 10 Sets
+--	AL["Lasherweave's Garb"] = true;
+--	AL["Lasherweave's Battlegear"] = true;
+--	AL["Lasherweave's Regalia"] = true;
+--	AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
+--	AL["Bloodmage's Regalia"] = true;
+--	AL["Lightsworn Garb"] = true;
+--	AL["Lightsworn Plate"] = true;
+--	AL["Lightsworn Battlegear"] = true;
+--	AL["Crimson Acolyte's Regalia"] = true;
+--	AL["Crimson Acolyte's Raiment"] = true;
+--	AL["Shadowblade's Battlegear"] = true;
+--	AL["Frost Witch's Garb"] = true;
+--	AL["Frost Witch's Battlegear"] = true;
+--	AL["Frost Witch's Regalia"] = true;
+--	AL["Dark Coven's Regalia"] = true;
+--	AL["Ymirjar Lord's Battlegear"] = true;
+--	AL["Ymirjar Lord's Plate"] = true;
+--	AL["Scourgelord's Battlegear"] = true;
+--	AL["Scourgelord's Plate"] = true;
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "高地人的專注";
