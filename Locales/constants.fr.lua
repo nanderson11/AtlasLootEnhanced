@@ -374,6 +374,7 @@ if AL then
 	--AL["Tier 7"] = true;
 	--AL["Tier 8"] = true;
 	--AL["Tier 9"] = true;
+	--AL["Tier 10"] = true;
 	AL["10 Man"] = "10 Joueurs";
 	AL["25 Man"] = "25 Joueurs";
 	AL["10/25 Man"] = "10 / 25 Joueurs";
@@ -1005,6 +1006,27 @@ if AL then
 	AL["Koltira's Battlegear"] = "Tenue de combat de Koltira";
 	AL["Thassarian's Plate"] = "Armure de Thassarian en plaques";
 	AL["Koltira's Plate"] = "Armure de Koltira en plaques";
+
+	-- Tier 9 Sets -- à traduire
+	--AL["Lasherweave's Garb"] = true;
+	--AL["Lasherweave's Battlegear"] = true;
+	--AL["Lasherweave's Regalia"] = true;
+	--AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
+	--AL["Bloodmage's Regalia"] = true;
+	--AL["Lightsworn Garb"] = true;
+	--AL["Lightsworn Plate"] = true;
+	--AL["Lightsworn Battlegear"] = true;
+	--AL["Crimson Acolyte's Regalia"] = true;
+	--AL["Crimson Acolyte's Raiment"] = true;
+	--AL["Shadowblade's Battlegear"] = true;
+	--AL["Frost Witch's Garb"] = true;
+	--AL["Frost Witch's Battlegear"] = true;
+	--AL["Frost Witch's Regalia"] = true;
+	--AL["Dark Coven's Regalia"] = true;
+	--AL["Ymirjar Lord's Battlegear"] = true;
+	--AL["Ymirjar Lord's Plate"] = true;
+	--AL["Scourgelord's Battlegear"] = true;
+	--AL["Scourgelord's Plate"] = true;
 
 	-- Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "Intention des Hautes-terres";
