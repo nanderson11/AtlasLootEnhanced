@@ -45,6 +45,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- The Sons of Hodir
 ---- Winterfin Retreat
 ---- The Wyrmrest Accord
+---- The Ashen Verdict
 --- PvP
 ---- Armor Sets
 ---- Level 80 Epic Non-Sets
@@ -5685,6 +5686,41 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 44205, "", "=q4=Legplates of Bloody Reprisal", "=ds=#s11#, #a4#"};
 		{ 29, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e12#"};
 		{ 30, 41722, "", "=q3=Design: Glimmering Monarch Topaz", "=ds=#p12# (390)"};
+		Back = "REPMENU_WOTLK";
+	};
+
+		---------------------------
+		--- The Ashen Verdict ---
+		---------------------------
+
+	AtlasLoot_Data["AshenVerdict"] = {
+		{ 1, 0, "Inv_Jewelry_Ring_85", "=q6=#r2#", ""};
+		{ 2, 50375, "", "=q4=Ashen Band of Courage", "=ds=#s13#"};
+		{ 3, 50377, "", "=q4=Ashen Band of Destruction", "=ds=#s13#"};
+		{ 4, 50376, "", "=q4=Ashen Band of Vengeance", "=ds=#s13#"};
+		{ 5, 50378, "", "=q4=Ashen Band of Wisdom", "=ds=#s13#"};
+		{ 7, 0, "Inv_Jewelry_Ring_85", "=q6=#r3#", ""};
+		{ 9, 49974, "", "=q4=Plans: Boots of Kingly Upheaval", "=ds=#p2# (450)"};
+		{ 10, 49972, "", "=q4=Plans: Hellfrozen Bonegrinders", "=ds=#p2# (450)"};
+		{ 11, 49970, "", "=q4=Plans: Protectors of Life", "=ds=#p2# (450)"};
+		{ 12, 49958, "", "=q4=Pattern: Blessed Cenarion Boots", "=ds=#p7# (450)"};
+		{ 13, 49963, "", "=q4=Pattern: Earthsoul Boots", "=ds=#p7# (450)"};
+		{ 14, 49961, "", "=q4=Pattern: Footpads of Impending Death", "=ds=#p7# (450)"};
+		{ 15, 49966, "", "=q4=Pattern: Rock-Steady Treads", "=ds=#p7# (450)"};
+		{ 16, 49954, "", "=q4=Pattern: Deathfrost Boots", "=ds=#p8# (450)"};
+		{ 17, 49956, "", "=q4=Pattern: Sandals of Consecration", "=ds=#p8# (450)"};
+		{ 18, 52023, "", "=q4=Plans: Evil Arrow", "=ds=#p17# (450)"};
+		{ 19, 52022, "", "=q4=Plans: Shatter Rounds", "=ds=#p18# (450)"};
+		{ 21, 0, "Inv_Jewelry_Ring_85", "=q6=#r4#", ""};
+		{ 22, 49971, "", "=q4=Plans: Legplates of Painful Death", "=ds=#p2# (450)"};
+		{ 23, 49973, "", "=q4=Plans: Pillars of Might", "=ds=#p2# (450)"};
+		{ 24, 49969, "", "=q4=Plans: Puresteel Legplates", "=ds=#p2# (450)"};
+		{ 25, 49959, "", "=q4=Pattern: Bladeborn Leggings", "=ds=#p7# (450)"};
+		{ 26, 49965, "", "=q4=Pattern: Draconic Bonesplinter Legguards", "=ds=#p7# (450)"};
+		{ 27, 49957, "", "=q4=Pattern: Legwraps of Unleashed Nature", "=ds=#p7# (450)"};
+		{ 28, 49962, "", "=q4=Pattern: Lightning-Infused Leggings", "=ds=#p7# (450)"};
+		{ 29, 49953, "", "=q4=Pattern: Leggings of Woven Death", "=ds=#p8# (450)"};
+		{ 30, 49955, "", "=q4=Pattern: Lightweave Leggings", "=ds=#p8# (450)"};
 		Back = "REPMENU_WOTLK";
 	};
 
