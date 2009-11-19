@@ -441,6 +441,7 @@ if AL then
 	AL["Random"] = "Aléatoire";
 	AL["Tier 8 Sets"] = "Sets T8";
 	AL["Tier 9 Sets"] = "Sets T9";
+	AL["Tier 10 Sets"] = "Sets T10";
 	AL["Furious Gladiator Sets"] = "Sets de Gladiateur furieux";
 	AL["Relentless Gladiator Sets"] = "Sets de Gladiateur implacable";
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
