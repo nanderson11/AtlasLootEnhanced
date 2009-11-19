@@ -8468,6 +8468,50 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--- Tier 10 Sets (T10) ---
 		--------------------------
 
+	AtlasLoot_Data["T10DeathKnightDPS"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
+		{ 2, 50096, "", "=q4=Scourgelord Helmet", "=ds=#s1#, #a4#"};
+		{ 3, 50098, "", "=q4=Scourgelord Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 4, 50094, "", "=q4=Scourgelord Battleplate", "=ds=#s5#, #a4#"};
+		{ 5, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#"};
+		{ 6, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#"};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
+		{ 9, 51127, "", "=q4=Sanctified Scourgelord Helmet", "=ds=#s1#, #a4#"};
+		{ 10, 51125, "", "=q4=Sanctified Scourgelord Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 11, 51129, "", "=q4=Sanctified Scourgelord Battleplate", "=ds=#s5#, #a4#"};
+		{ 12, 51128, "", "=q4=Sanctified Scourgelord Gauntlets", "=ds=#s9#, #a4#"};
+		{ 13, 51126, "", "=q4=Sanctified Scourgelord Legplates", "=ds=#s11#, #a4#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
+		{ 17, 51312, "", "=q4=Sanctified Scourgelord Helmet", "=ds="};
+		{ 18, 51314, "", "=q4=Sanctified Scourgelord Shoulderplates", "=ds="};
+		{ 19, 51310, "", "=q4=Sanctified Scourgelord Battleplate", "=ds="};
+		{ 20, 51311, "", "=q4=Sanctified Scourgelord Gauntlets", "=ds="};
+		{ 21, 51313, "", "=q4=Sanctified Scourgelord Legplates", "=ds="};
+		Back = "T9SETHORDE";
+	};
+
+	AtlasLoot_Data["T10DeathKnightTank"] = {
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
+		{ 2, 50855, "", "=q4=Scourgelord Faceguard", "=ds=#s1#, #a4#"};
+		{ 3, 50853, "", "=q4=Scourgelord Pauldrons", "=ds=#s3#, #a4#"};
+		{ 4, 50857, "", "=q4=Scourgelord Chestguard", "=ds=#s5#, #a4#"};
+		{ 5, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#"};
+		{ 6, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#"};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
+		{ 9, 51133, "", "=q4=Sanctified Scourgelord Faceguard", "=ds=#s1#, #a4#"};
+		{ 10, 51130, "", "=q4=Sanctified Scourgelord Pauldrons", "=ds=#s3#, #a4#"};
+		{ 11, 51134, "", "=q4=Sanctified Scourgelord Chestguard", "=ds=#s5#, #a4#"};
+		{ 12, 51132, "", "=q4=Sanctified Scourgelord Handguards", "=ds=#s9#, #a4#"};
+		{ 13, 51131, "", "=q4=Sanctified Scourgelord Legguards", "=ds=#s11#, #a4#"};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
+		{ 17, 51306, "", "=q4=Sanctified Scourgelord Faceguard", "=ds="};
+		{ 18, 51309, "", "=q4=Sanctified Scourgelord Pauldrons", "=ds="};
+		{ 19, 51305, "", "=q4=Sanctified Scourgelord Chestguard", "=ds="};
+		{ 20, 51307, "", "=q4=Sanctified Scourgelord Handguards", "=ds="};
+		{ 21, 51308, "", "=q4=Sanctified Scourgelord Legguards", "=ds="};
+		Back = "T9SETALLIANCE";
+	};
+
 	AtlasLoot_Data["T10Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
 		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
@@ -8553,6 +8597,50 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 51233, "", "=q4=Sanctified Dark Coven Robe", "=ds=#s5#, #a1#"};
 		{ 20, 51230, "", "=q4=Sanctified Dark Coven Gloves", "=ds=#s9#, #a1#"};
 		{ 21, 51232, "", "=q4=Sanctified Dark Coven Leggings", "=ds=#s11#, #a1#"};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10WarriorFury"] = {
+		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
+		{ 2, 50080, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#"};
+		{ 3, 50082, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 4, 50078, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#"};
+		{ 5, 50079, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
+		{ 6, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
+		{ 9, 51212, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#"};
+		{ 10, 51210, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 11, 51214, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#"};
+		{ 12, 51213, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
+		{ 13, 51211, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
+		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
+		{ 17, 51227, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#"};
+		{ 18, 51229, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 19, 51225, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#"};
+		{ 20, 51226, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
+		{ 21, 51228, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10WarriorProtection"] = {
+		{ 1, 0, "INV_Shield_05", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
+		{ 2, 50848, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#"};
+		{ 3, 50846, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 4, 50850, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#"};
+		{ 5, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
+		{ 6, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
+		{ 8, 0, "INV_Shield_05", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
+		{ 9, 51218, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#"};
+		{ 10, 51215, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 11, 51219, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#"};
+		{ 12, 51217, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
+		{ 13, 51216, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
+		{ 16, 0, "INV_Shield_05", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
+		{ 17, 51221, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#"};
+		{ 18, 51224, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 19, 51220, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#"};
+		{ 20, 51222, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
+		{ 21, 51223, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
 		Back = "T10SET";
 	};
 

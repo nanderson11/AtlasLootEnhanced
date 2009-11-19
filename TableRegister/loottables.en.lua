@@ -1079,8 +1079,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["T9WarriorFury_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9WarriorProtection_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootWotLK" };
   -- Tier 10 Sets
-	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10DeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootWotLK" };
@@ -1096,8 +1096,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["NaxxShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T10Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["NaxxWarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["NaxxWarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10WarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootWotLK" };
 
 ------------------------
 --- Misc Collections ---
