@@ -5,8 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v5.x
+v5.08.07
 Added links to Tier 9 sets and PvP Sets in Emblem sections as appropriate
+Fixed a bug due to changes to Babble-Boss
 
 v5.08.06
 Corrections for the ToC Tribute run
