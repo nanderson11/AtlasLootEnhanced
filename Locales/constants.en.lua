@@ -274,6 +274,7 @@ if AL then
 	AL["Set"] = true;
 	AL["Token"] = true;
 	AL["Tokens"] = true;
+	AL["Token Hand-Ins"] = true;
 	AL["Skinning Knife"] = true;
 	AL["Herbalism Knife"] = true;
 	AL["Fish"] = true;
@@ -1024,7 +1025,7 @@ if AL then
 	AL["Frost Witch's Garb"] = true;
 	AL["Frost Witch's Battlegear"] = true;
 	AL["Frost Witch's Regalia"] = true;
-	AL["Dark Coven's Regalia"] = true;
+	AL["Dark Coven's Garb"] = true;
 	AL["Ymirjar Lord's Battlegear"] = true;
 	AL["Ymirjar Lord's Plate"] = true;
 	AL["Scourgelord's Battlegear"] = true;
