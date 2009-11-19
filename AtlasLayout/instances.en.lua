@@ -180,6 +180,9 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "TrialoftheCrusaderAnubarak_A";
+        "";
+		"TrialoftheCrusaderTribute_AHEROIC";
+		"TrialoftheCrusaderPatterns_A";
         };
 
     ObsidianSanctum = {
@@ -3436,6 +3439,9 @@ if englishFaction == "Horde" then
         "";
         "";
         "TrialoftheCrusaderAnubarak_H";
+        "";
+		"TrialoftheCrusaderTribute_HHEROIC";
+		"TrialoftheCrusaderPatterns_H";
         };
     AtlasLootBossButtons["VaultOfArchavon"] = {
         "";
@@ -3459,6 +3465,9 @@ else
         "";
         "";
         "TrialoftheCrusaderAnubarak_A";
+        "";
+		"TrialoftheCrusaderTribute_AHEROIC";
+		"TrialoftheCrusaderPatterns_A";
         };
     AtlasLootBossButtons["VaultOfArchavon"] = {
         "";

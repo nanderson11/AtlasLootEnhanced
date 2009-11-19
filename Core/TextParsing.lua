@@ -177,6 +177,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#j5#", AL["Dungeon Set 2 Summonable"]);
     text = gsub(text, "#j6#", AL["Dungeon Set 1"]);
     text = gsub(text, "#j7#", AL["Dungeon Set 2"]);
+	text = gsub(text, "#j8#", AL["Token Hand-Ins"]);
     text = gsub(text, "#j9#", AL["Level 60"]);
     text = gsub(text, "#j10#", AL["Level 70"]);
     text = gsub(text, "#j11#", AL["Fire Resistance Gear"]);

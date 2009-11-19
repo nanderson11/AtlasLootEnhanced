@@ -265,6 +265,12 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["AQ40 Class Sets"];
         GREY..INDENT..AL["AQ Opening Quest Chain"];
     };
+	TrialOfTheCrusader = {
+        "";
+        GREY..INDENT..AL["Tribute Run"];
+        GREY..INDENT..AL["Trial of the Crusader Patterns/Plans"];
+    };
+
     Uldaman = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
