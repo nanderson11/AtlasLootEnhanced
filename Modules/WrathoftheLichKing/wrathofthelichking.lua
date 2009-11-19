@@ -74,6 +74,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Emblem of Valor Items
 ---- Emblem of Conquest Items
 ---- Emblem of Triumph Items
+---- Emblem of Frost Items
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -9682,27 +9683,27 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 1, 45840, "", "=q4=Touch of the Occult", "=ds=#s9#, #a1#", "28 #eofconquest#" };
 		{ 2, 45831, "", "=q4=Sash of Potent Incantations", "=ds=#s10#, #a1#", "28 #eofconquest#" };
 		{ 3, 45848, "", "=q4=Legwraps of the Master Conjurer", "=ds=#s11#, #a1#", "39 #eofconquest#" };
-		{ 4, 45838, "", "=q4=Gloves of the Blind Stalker", "=ds=#s9#, #a2#", "28 #eofconquest#" };
-		{ 5, 45839, "", "=q4=Grips of the Secret Grove", "=ds=#s9#, #a2#", "28 #eofconquest#" };
-		{ 6, 45830, "", "=q4=Belt of the Living Thicket", "=ds=#s10#, #a2#", "28 #eofconquest#" };
-		{ 7, 45829, "", "=q4=Belt of the Twilight Assassin", "=ds=#s10#, #a2#", "28 #eofconquest#" };
-		{ 8, 45846, "", "=q4=Leggings of Wavering Shadow", "=ds=#s11#, #a2#", "39 #eofconquest#" };
-		{ 9, 45847, "", "=q4=Wildstrider Legguards", "=ds=#s11#, #a2#", "39 #eofconquest#" };
-		{ 10, 45837, "", "=q4=Gloves of Augury", "=ds=#s9#, #a3#", "28 #eofconquest#" };
-		{ 11, 45836, "", "=q4=Gloves of Unerring Aim", "=ds=#s9#, #a3#", "28 #eofconquest#" };
-		{ 12, 45827, "", "=q4=Belt of the Ardent Marksman", "=ds=#s10#, #a3#", "28 #eofconquest#" };
-		{ 13, 45828, "", "=q4=Windchill Binding", "=ds=#s10#, #a3#", "28 #eofconquest#" };
-		{ 14, 45844, "", "=q4=Leggings of the Tireless Sentry", "=ds=#s11#, #a3#", "39 #eofconquest#" };
-		{ 15, 45845, "", "=q4=Leggings of the Weary Mystic", "=ds=#s11#, #a3#", "39 #eofconquest#" };
-		{ 16, 45833, "", "=q4=Bladebreaker Gauntlets", "=ds=#s9#, #a4#", "28 #eofconquest#" };
-		{ 17, 45835, "", "=q4=Gauntlets of Serene Blessing", "=ds=#s9#, #a4#", "28 #eofconquest#" };
-		{ 18, 45834, "", "=q4=Gauntlets of the Royal Watch", "=ds=#s9#, #a4#", "28 #eofconquest#" };
-		{ 19, 45824, "", "=q4=Belt of the Singing Blade", "=ds=#s10#, #a4#", "28 #eofconquest#" };
-		{ 20, 45826, "", "=q4=Girdle of Unyielding Trust", "=ds=#s10#, #a4#", "28 #eofconquest#" };
-		{ 21, 45825, "", "=q4=Shieldwarder Girdle", "=ds=#s10#, #a4#", "28 #eofconquest#" };
-		{ 22, 45843, "", "=q4=Legguards of the Peaceful Covenant", "=ds=#s11#, #a4#", "39 #eofconquest#" };
-		{ 23, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
-		{ 24, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 5, 45833, "", "=q4=Bladebreaker Gauntlets", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+		{ 6, 45835, "", "=q4=Gauntlets of Serene Blessing", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+		{ 7, 45834, "", "=q4=Gauntlets of the Royal Watch", "=ds=#s9#, #a4#", "28 #eofconquest#" };
+		{ 8, 45824, "", "=q4=Belt of the Singing Blade", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+		{ 9, 45826, "", "=q4=Girdle of Unyielding Trust", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+		{ 10, 45825, "", "=q4=Shieldwarder Girdle", "=ds=#s10#, #a4#", "28 #eofconquest#" };
+		{ 11, 45843, "", "=q4=Legguards of the Peaceful Covenant", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 12, 45841, "", "=q4=Legplates of the Violet Champion", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 13, 45842, "", "=q4=Wyrmguard Legplates", "=ds=#s11#, #a4#", "39 #eofconquest#" };
+		{ 16, 45838, "", "=q4=Gloves of the Blind Stalker", "=ds=#s9#, #a2#", "28 #eofconquest#" };
+		{ 17, 45839, "", "=q4=Grips of the Secret Grove", "=ds=#s9#, #a2#", "28 #eofconquest#" };
+		{ 18, 45830, "", "=q4=Belt of the Living Thicket", "=ds=#s10#, #a2#", "28 #eofconquest#" };
+		{ 19, 45829, "", "=q4=Belt of the Twilight Assassin", "=ds=#s10#, #a2#", "28 #eofconquest#" };
+		{ 20, 45846, "", "=q4=Leggings of Wavering Shadow", "=ds=#s11#, #a2#", "39 #eofconquest#" };
+		{ 21, 45847, "", "=q4=Wildstrider Legguards", "=ds=#s11#, #a2#", "39 #eofconquest#" };
+		{ 23, 45837, "", "=q4=Gloves of Augury", "=ds=#s9#, #a3#", "28 #eofconquest#" };
+		{ 24, 45836, "", "=q4=Gloves of Unerring Aim", "=ds=#s9#, #a3#", "28 #eofconquest#" };
+		{ 25, 45827, "", "=q4=Belt of the Ardent Marksman", "=ds=#s10#, #a3#", "28 #eofconquest#" };
+		{ 26, 45828, "", "=q4=Windchill Binding", "=ds=#s10#, #a3#", "28 #eofconquest#" };
+		{ 27, 45844, "", "=q4=Leggings of the Tireless Sentry", "=ds=#s11#, #a3#", "39 #eofconquest#" };
+		{ 28, 45845, "", "=q4=Leggings of the Weary Mystic", "=ds=#s11#, #a3#", "39 #eofconquest#" };
 		Next = "EmblemofConquest2";
 		Back = "EMBLEMOFCONQUESTMENU";
 	};
@@ -9818,4 +9819,67 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 30, 47658, "", "=q4=Brimstone Igniter", "=ds=#w12#", "25 #eoftriumph#" };
 		Prev = "EmblemofTriumph2";
 		Back = "EMBLEMOFTRIUMPHMENU";
+	};
+
+		-----------------------------
+		--- Emblem of Frost Items ---
+		-----------------------------
+
+	AtlasLoot_Data["EmblemofFrost"] = {
+		{ 1, 50975, "", "=q4=Ermine Coronation Robes", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 2, 50974, "", "=q4=Meteor Chaser's Raiment", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 3, 50984, "", "=q4=Gloves of Ambivalence", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 4, 50996, "", "=q4=Belt of Omission", "=ds=#s10#, #a1#", "60 #eoffrost#" };
+		{ 5, 50997, "", "=q4=Circle of Ossus", "=ds=#s10#, #a1#", "60 #eoffrost#" };
+		{ 7, 50965, "", "=q4=Castle Breaker's Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 8, 50969, "", "=q4=Chestplate of Unspoken Truths", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 9, 50968, "", "=q4=Cataclysmic Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 10, 50977, "", "=q4=Gatecrasher's Gauntlets", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 11, 50976, "", "=q4=Gauntlets of Overexposure", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 12, 50978, "", "=q4=Gauntlets of the Kraken", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 13, 50989, "", "=q4=Lich Killer's Lanyard", "=ds=#s10#, #a4#", "60 #eoffrost#" };
+		{ 14, 50987, "", "=q4=Malevolant Girdle", "=ds=#s10#, #a4#", "60 #eoffrost#" };
+		{ 15, 50991, "", "=q4=Verdigris Chain Belt", "=ds=#s10#, #a4#", "60 #eoffrost#" };
+		{ 16, 50972, "", "=q4=Shadow Seeker's Tunic", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 17, 50973, "", "=q4=Vestments of Spruce and Fir", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 18, 50982, "", "=q4=Cat Burglar's Grips", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 19, 50981, "", "=q4=Gloves of the Great Horned Owl", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 20, 50994, "", "=q4=Belt of Petrified Ivy", "=ds=#s10#, #a2#", "60 #eoffrost#" };
+		{ 21, 50995, "", "=q4=Vengeful Noose", "=ds=#s10#, #a2#", "60 #eoffrost#" };
+		{ 23, 50970, "", "=q4=Longstrider's Vest", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 24, 50971, "", "=q4=Mail of the Geyser", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 25, 50980, "", "=q4=Blizzard Keeper's Mitts", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 26, 50979, "", "=q4=Logsplitters", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 27, 50993, "", "=q4=Band of the Night Raven", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		{ 28, 50992, "", "=q4=Waistband of Despair", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		Next = "EmblemofFrost2";
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["EmblemofFrost2"] = {
+		{ 1, 50468, "", "=q4=Drape of the Violet Tower", "=ds=#s4#", "50 #eoffrost#" };
+		{ 2, 50467, "", "=q4=Might of the Ocean Serpent", "=ds=#s4#", "50 #eoffrost#" };
+		{ 3, 50470, "", "=q4=Recovered Scarlet Onslaught Cape", "=ds=#s4#", "50 #eoffrost#" };
+		{ 4, 50466, "", "=q4=Sentinel's Winter Cloak", "=ds=#s4#", "50 #eoffrost#" };
+		{ 5, 50469, "", "=q4=Volde's Cloak of the Night Sky", "=ds=#s4#", "50 #eoffrost#" };
+		{ 7, 50356, "", "=q4=Corroded Skeleton Key", "=ds=#s14#", "60 #eoffrost#" };
+		{ 8, 50355, "", "=q4=Herkuml War Token", "=ds=#s14#", "60 #eoffrost#" };
+		{ 9, 50357, "", "=q4=Maghia's Misguided Quill", "=ds=#s14#", "60 #eoffrost#" };
+		{ 10, 50358, "", "=q4=Purified Lunar Dust", "=ds=#s14#", "60 #eoffrost#" };
+		{ 12, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "23 #eoffrost#" };
+		{ 14, 47241, "", "=q3=Emblem of Triumph", "=ds=#m17#", "1 #eoffrost#" };
+		{ 16, 50456, "", "=q4=Idol of the Crying Moon", "=ds=#s16#, #w14#", "30 #eoffrost#" };
+		{ 17, 50457, "", "=q4=Idol of the Lunar Eclipse", "=ds=#s16#, #w14#", "30 #eoffrost#" };
+		{ 18, 50454, "", "=q4=Idol of the Black Willow", "=ds=#s16#, #w14#", "30 #eoffrost#" };
+		{ 19, 50460, "", "=q4=Libram of Blinding Light", "=ds=#s16#, #w16#", "30 #eoffrost#" };
+		{ 20, 50461, "", "=q4=Libram of the Eternal Tower", "=ds=#s16#, #w16#", "30 #eoffrost#" };
+		{ 21, 50455, "", "=q4=Libram of Three Truths", "=ds=#s16#, #w16#", "30 #eoffrost#" };
+		{ 22, 50462, "", "=q4=Sigil of the Bone Gryphon", "=ds=#s16#, #w21#", "30 #eoffrost#" };
+		{ 23, 50459, "", "=q4=Sigil of the Hanged Man", "=ds=#s16#, #w21#", "30 #eoffrost#" };
+		{ 24, 50458, "", "=q4=Bizuri's Totem of Shattered Ice", "=ds=#s16#, #w15#", "30 #eoffrost#" };
+		{ 25, 50463, "", "=q4=Totem of the Avalanche", "=ds=#s16#, #w15#", "30 #eoffrost#" };
+		{ 26, 50464, "", "=q4=Totem of the Surging Sea", "=ds=#s16#, #w15#", "30 #eoffrost#" };
+		{ 28, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "? #eoffrost#" };
+		Prev = "EmblemofFrost";
+		Back = "SETMENU";
 	};
