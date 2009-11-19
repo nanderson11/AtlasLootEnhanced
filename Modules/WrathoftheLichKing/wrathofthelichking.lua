@@ -5395,7 +5395,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 44503, "", "=q4=Schematic: Mekgineer's Chopper", "=ds=#p5# (450)"};
 		{ 19, 44937, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
 		{ 20, 44701, "", "=q7=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		----------------------
@@ -5424,7 +5424,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 25, 44296, "", "=q4=Helm of Purified Thoughts", "=ds=#s1#, #a4#"};
 		{ 26, 44283, "", "=q4=Signet of Hopeful Light", "=ds=#s13#"};
 		{ 27, 42187, "", "=q1=Pattern: Brilliant Spellthread", "=ds=#p8# (430)"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		-------------------------
@@ -5454,7 +5454,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 25, 44717, "", "=q1=Disgusting Jar", "=ds="};
 		{ 27, 0, "INV_Misc_Rune_14", "=q6=#r5#", ""};
 		{ 28, 44073, "", "=q1=Frenzyheart Insignia of Fury", "=ds=#s14#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		----------------------------
@@ -5474,7 +5474,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5# (450)"};
 		{ 19, 44938, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
 		{ 20, 44702, "", "=q7=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		-----------------
@@ -5503,7 +5503,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 27, 44183, "", "=q4=Fireproven Gauntlets", "=ds=#s9#, #a4#"};
 		{ 28, 41718, "", "=q3=Design: Runed Scarlet Ruby", "=ds=#p12# (390)"};
 		{ 29, 42188, "", "=q1=Pattern: Sapphire Spellthread", "=ds=#p8# (430)"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		---------------------------------
@@ -5534,7 +5534,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 44303, "", "=q4=Darkheart Chestguard", "=ds=#s5#, #a2#"};
 		{ 29, 44305, "", "=q4=Kilt of Dark Mercy", "=ds=#s11#, #a3#"};
 		{ 30, 44306, "", "=q4=Death-Inured Sabatons", "=ds=#s12#, #a4#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		-------------------
@@ -5565,7 +5565,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 0, "INV_Fishingpole_03", "=q6=#r5#", ""};
 		{ 24, 44050, "", "=q4=Mastercraft Kalu'ak Fishing Pole", "=ds=#e20#"};
 		{ 25, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		-------------------
@@ -5597,7 +5597,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 25, 39878, "", "=q1=Mysterious Egg", "=ds="};
 		{ 27, 0, "INV_Helmet_138", "=q6=#r5#", ""};
 		{ 28, 44074, "", "=q4=Oracle Talisman of Ablution", "=ds=#s14#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		-------------------------
@@ -5622,7 +5622,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 44193, "", "=q3=Broken Stalactite", "=ds=#h1#, #w4#"};
 		{ 22, 44192, "", "=q3=Stalactite Chopper", "=ds=#h1#, #w1#"};
 		Next = "TheSonsofHodir2";
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 	AtlasLoot_Data["TheSonsofHodir2"] = {
@@ -5636,7 +5636,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 41720, "", "=q3=Design: Smooth Autumn's Glow", "=ds=#p12# (390)"};
 		{ 9, 42184, "", "=q1=Pattern: Glacial Bag", "=ds=#p8# (445)"};
 		Prev = "TheSonsofHodir1";
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		-------------------------
@@ -5656,7 +5656,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 11, 17058, "", "=q1=Fish Oil", "=ds=#e8#", "1 #winterfinclam#"};
 		{ 12, 17057, "", "=q1=Shiny Fish Scales", "=ds=#e8#", "1 #winterfinclam#"};
 		{ 14, 34597, "", "=q1=Winterfin Clam", "=ds=#m17#"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		---------------------------
@@ -5686,7 +5686,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 28, 44205, "", "=q4=Legplates of Bloody Reprisal", "=ds=#s11#, #a4#"};
 		{ 29, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e12#"};
 		{ 30, 41722, "", "=q3=Design: Glimmering Monarch Topaz", "=ds=#p12# (390)"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 		---------------------------
@@ -5721,7 +5721,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 27, 49962, "", "=q4=Pattern: Lightning-Infused Leggings", "=ds=#p7# (450)"};
 		{ 28, 49953, "", "=q4=Pattern: Leggings of Woven Death", "=ds=#p8# (450)"};
 		{ 29, 49955, "", "=q4=Pattern: Lightweave Leggings", "=ds=#p8# (450)"};
-		Back = "REPMENU_WOTLK";
+		Back = "REPMENU";
 	};
 
 	-----------
@@ -8487,7 +8487,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 51310, "", "=q4=Sanctified Scourgelord Battleplate", "=ds="};
 		{ 20, 51311, "", "=q4=Sanctified Scourgelord Gauntlets", "=ds="};
 		{ 21, 51313, "", "=q4=Sanctified Scourgelord Legplates", "=ds="};
-		Back = "T9SETHORDE";
+		Back = "T10SET";
 	};
 
 	AtlasLoot_Data["T10DeathKnightTank"] = {
@@ -8509,29 +8509,29 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 51305, "", "=q4=Sanctified Scourgelord Chestguard", "=ds="};
 		{ 20, 51307, "", "=q4=Sanctified Scourgelord Handguards", "=ds="};
 		{ 21, 51308, "", "=q4=Sanctified Scourgelord Legguards", "=ds="};
-		Back = "T9SETALLIANCE";
+		Back = "T10SET";
 	};
 
 	AtlasLoot_Data["T10Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
-		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
-		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
-		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
-		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
+		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
+		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
+		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
+		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
+		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-		{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 11, 51150, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 12, 51154, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 13, 51152, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
+		{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
+		{ 11, 51150, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
+		{ 12, 51154, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
+		{ 13, 51152, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
 		{ 17, 51286, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
 		{ 18, 51288, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
 		{ 19, 51289, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
 		{ 20, 51285, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
 		{ 21, 51287, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
-		Back = "T9SETALLIANCE";
+		Back = "T10SET";
 	};
 
 	AtlasLoot_Data["T10Mage"] = {
