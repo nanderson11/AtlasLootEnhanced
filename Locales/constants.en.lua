@@ -441,6 +441,7 @@ if AL then
 	AL["Random"] = true;
 	AL["Tier 8 Sets"] = true;
 	AL["Tier 9 Sets"] = true;
+	AL["Tier 10 Sets"] = true;
 	AL["Furious Gladiator Sets"] = true;
 	AL["Relentless Gladiator Sets"] = true;
 	AL["Brew of the Month Club"] = true;

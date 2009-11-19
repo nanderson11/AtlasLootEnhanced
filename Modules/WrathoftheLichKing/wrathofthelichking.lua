@@ -8468,6 +8468,28 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--- Tier 10 Sets (T10) ---
 		--------------------------
 
+	AtlasLoot_Data["T10Hunter"] = {
+		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
+		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "50 #eoftriumph#"};
+		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#", "30 #eoftriumph#"};
+		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#", "50 #eoftriumph#"};
+		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#", "30 #eoftriumph#"};
+		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#", "50 #eoftriumph#"};
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
+		{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 11, 51150, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 12, 51154, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 13, 51152, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
+		{ 17, 51286, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
+		{ 18, 51288, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
+		{ 19, 51289, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
+		{ 20, 51285, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
+		{ 21, 51287, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
+		Back = "T9SETALLIANCE";
+	};
+
 	AtlasLoot_Data["T10Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
 		{ 2, 50276, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#"};
@@ -8482,12 +8504,12 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 12, 51159, "", "=q4=Sanctified Bloodmage Gloves", "=ds=#s9#, #a1#"};
 		{ 13, 51157, "", "=q4=Sanctified Bloodmage Leggings", "=ds=#s11#, #a1#"};
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
-		{ 17, 51715, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#"};
-		{ 18, 51712, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
-		{ 19, 51713, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#"};
-		{ 20, 51716, "", "=q4=Bloodmage Gauntlets", "=ds=#s9#, #a1#"};
-		{ 21, 51714, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#"};
-		Back = "";
+		{ 17, 51281, "", "=q4=Sanctified Bloodmage Hood", "=ds=#s1#, #a1#"};
+		{ 18, 51284, "", "=q4=Sanctified Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 19, 51283, "", "=q4=Sanctified Bloodmage Robe", "=ds=#s5#, #a1#"};
+		{ 20, 51280, "", "=q4=Sanctified Bloodmage Gauntlets", "=ds=#s9#, #a1#"};
+		{ 21, 51282, "", "=q4=Sanctified Bloodmage Leggings", "=ds=#s11#, #a1#"};
+		Back = "T10SET";
 	};
 
 	AtlasLoot_Data["T10Rogue"] = {
@@ -8504,12 +8526,34 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 12, 51188, "", "=q4=Sanctified Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
 		{ 13, 51186, "", "=q4=Sanctified Shadowblade Legplates", "=ds=#s11#, #a2#"};
 		{ 16, 0, "Ability_BackStab", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
-		{ 17, 51745, "", "=q4=Sanctified Shadowblade Helmet", "=ds=#s1#, #a2#"};
-		{ 18, 51746, "", "=q4=Sanctified Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
-		{ 19, 51743, "", "=q4=Sanctified Shadowblade Breastplate", "=ds=#s5#, #a2#"};
-		{ 20, 51742, "", "=q4=Sanctified Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
-		{ 21, 51744, "", "=q4=Sanctified Shadowblade Legplates", "=ds=#s11#, #a2#"};
-		Back = "";
+		{ 17, 51252, "", "=q4=Sanctified Shadowblade Helmet", "=ds=#s1#, #a2#"};
+		{ 18, 51254, "", "=q4=Sanctified Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
+		{ 19, 51250, "", "=q4=Sanctified Shadowblade Breastplate", "=ds=#s5#, #a2#"};
+		{ 20, 51251, "", "=q4=Sanctified Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
+		{ 21, 51253, "", "=q4=Sanctified Shadowblade Legplates", "=ds=#s11#, #a2#"};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10Warlock"] = {
+		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
+		{ 2, 50241, "", "=q4=Dark Coven Hood", "=ds=#s1#, #a1#"};
+		{ 3, 50244, "", "=q4=Dark Coven Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 4, 50243, "", "=q4=Dark Coven Robe", "=ds=#s5#, #a1#"};
+		{ 5, 50240, "", "=q4=Dark Coven Gloves", "=ds=#s9#, #a1#"};
+		{ 6, 50242, "", "=q4=Dark Coven Leggings", "=ds=#s11#, #a1#"};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
+		{ 9, 51208, "", "=q4=Sanctified Dark Coven Hood", "=ds=#s1#, #a1#"};
+		{ 10, 51205, "", "=q4=Sanctified Dark Coven Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 11, 51206, "", "=q4=Sanctified Dark Coven Robe", "=ds=#s5#, #a1#"};
+		{ 12, 51209, "", "=q4=Sanctified Dark Coven Gloves", "=ds=#s9#, #a1#"};
+		{ 13, 51207, "", "=q4=Sanctified Dark Coven Leggings", "=ds=#s11#, #a1#"};
+		{ 16, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
+		{ 17, 51231, "", "=q4=Sanctified Dark Coven Hood", "=ds=#s1#, #a1#"};
+		{ 18, 51234, "", "=q4=Sanctified Dark Coven Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 19, 51233, "", "=q4=Sanctified Dark Coven Robe", "=ds=#s5#, #a1#"};
+		{ 20, 51230, "", "=q4=Sanctified Dark Coven Gloves", "=ds=#s9#, #a1#"};
+		{ 21, 51232, "", "=q4=Sanctified Dark Coven Leggings", "=ds=#s11#, #a1#"};
+		Back = "T10SET";
 	};
 
 		-----------------------------------
@@ -8911,7 +8955,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["PetsPetStore1"] = {
-		{ 1, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+		{ 1, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+		{ 2, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
 		Prev = "PetsPromotional1";
 		Next = "PetsAccessories1";
 		Back = "PETMENU";

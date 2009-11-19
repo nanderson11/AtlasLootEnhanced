@@ -1078,6 +1078,26 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["T9Warlock_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9WarriorFury_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["T9WarriorProtection_H"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootWotLK" };
+  -- Tier 10 Sets
+	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxDruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxDruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxDruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxPaladinHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxPaladinProtection"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxPaladinRetribution"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxPriestHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxPriestShadow"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxShamanElemental"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["T10Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxWarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["NaxxWarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootWotLK" };
 
 ------------------------
 --- Misc Collections ---
@@ -1635,6 +1655,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };
 	AtlasLoot_TableNames["T9SETALLIANCE"] = { AL["Tier 9 Sets"].." : "..BabbleFaction["Alliance"], "Menu" };
 	AtlasLoot_TableNames["T9SETHORDE"] = { AL["Tier 9 Sets"].." : "..BabbleFaction["Horde"], "Menu" };
+	AtlasLoot_TableNames["T10SET"] = { AL["Tier 10 Sets"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_ORIGINALWOW"] = { AL["Factions - Original WoW"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_BURNINGCRUSADE"] = { AL["Factions - Burning Crusade"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_WOTLK"] = { AL["Factions - Wrath of the Lich King"], "Menu" };
