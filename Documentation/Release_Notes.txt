@@ -5,10 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v5.08.xx
-Added Emblem of Frost Rewards
-Added Tier 10 Sets
+v5.08.08
+
+Added Emblem of Frost Rewards (only on PTR)
+Added Tier 10 Sets (only on PTR)
 Many minor fixes
+
 
 v5.08.07
 Added links to Tier 9 sets and PvP Sets in Emblem sections as appropriate
