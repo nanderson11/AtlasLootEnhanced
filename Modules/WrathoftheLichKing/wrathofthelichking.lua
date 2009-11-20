@@ -5651,18 +5651,16 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		-------------------------
 
 	AtlasLoot_Data["WinterfinRetreat"] = {
-		{ 2, 36784, "", "=q3=Siren's Tear", "=ds=#e7#", "60 #winterfinclam#"};
-		{ 3, 37462, "", "=q2=Sea King's Crown", "=ds=#s1#, #a1#", "50 #winterfinclam#"};
-		{ 4, 37463, "", "=q2=Winterfin Patch of Honor", "=ds=#s1#, #a2#", "50 #winterfinclam#"};
-		{ 5, 37461, "", "=q2=Tidebreaker Trident", "=ds=#w7#", "100 #winterfinclam#"};
+		{ 2, 36784, "", "=q3=Siren's Tear", "=ds=#e7#", "100 #winterfinclam#"};
+		{ 3, 37462, "", "=q2=Sea King's Crown", "=ds=#s1#, #a1#", "30 #winterfinclam#"};
+		{ 4, 37463, "", "=q2=Winterfin Patch of Honor", "=ds=#s1#, #a2#", "30 #winterfinclam#"};
+		{ 5, 37461, "", "=q2=Tidebreaker Trident", "=ds=#w7#", "50 #winterfinclam#"};
 		{ 6, 36783, "", "=q2=Northsea Pearl", "=ds=#e7#", "30 #winterfinclam#"};
-		{ 7, 37464, "", "=q1=Winterfin Horn of Distress", "=ds=#e22#", "20 #winterfinclam#"};
+		{ 7, 37464, "", "=q1=Winterfin Horn of Distress", "=ds=#e22#", "5 #winterfinclam#"};
 		{ 8, 37449, "", "=q1=Breath of Murloc", "=ds=#e2#", "5 #winterfinclam#"};
-		{ 9, 38351, "", "=q1=Murliver Oil", "=ds=#e2#", "5 #winterfinclam#"};
+		{ 9, 38351, "", "=q1=Murliver Oil", "=ds=#e2#", "2 #winterfinclam#"};
 		{ 10, 38350, "", "=q1=Winterfin \"Depth Charge\"", "=ds=#e4#", "1 #winterfinclam#"};
-		{ 11, 17058, "", "=q1=Fish Oil", "=ds=#e8#", "1 #winterfinclam#"};
-		{ 12, 17057, "", "=q1=Shiny Fish Scales", "=ds=#e8#", "1 #winterfinclam#"};
-		{ 14, 34597, "", "=q1=Winterfin Clam", "=ds=#m17#"};
+		{ 12, 34597, "", "=q1=Winterfin Clam", "=ds=#m17#"};
 		Back = "REPMENU";
 	};
 
@@ -7694,8 +7692,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds=#s11#, #a4#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
 		{ 17, 48545, "", "=q4=Thassarian's Faceguard of Triumph", "=ds="};
-		{ 18, 48543, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds="};
-		{ 19, 48547, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
+		{ 18, 48543, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds="};
+		{ 19, 48547, "", "=q4=Thassarian's Chestguard of Triumph", "=ds="};
 		{ 20, 48546, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
 		{ 21, 48544, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
@@ -7724,41 +7722,41 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["T9DruidRestoration_A"] = {
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
-		{ 2, 48102, "", "=q4=Stormrage's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
-		{ 3, 48131, "", "=q4=Stormrage's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
-		{ 4, 48129, "", "=q4=Stormrage's Robe of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
-		{ 5, 48132, "", "=q4=Stormrage's Handguards of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
-		{ 6, 48130, "", "=q4=Stormrage's Leggings of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
-		{ 9, 48134, "", "=q4=Stormrage's Headpiece of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 10, 48137, "", "=q4=Stormrage's Spaulders of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 11, 48136, "", "=q4=Stormrage's Robe of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 12, 48133, "", "=q4=Stormrage's Handguards of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 13, 48135, "", "=q4=Stormrage's Leggings of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
-		{ 17, 48141, "", "=q4=Stormrage's Headpiece of Triumph", "=ds="};
-		{ 18, 48138, "", "=q4=Stormrage's Spaulders of Triumph", "=ds="};
-		{ 19, 48139, "", "=q4=Stormrage's Robe of Triumph", "=ds="};
-		{ 20, 48142, "", "=q4=Stormrage's Handguards of Triumph", "=ds="};
-		{ 21, 48140, "", "=q4=Stormrage's Leggings of Triumph", "=ds="};
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48102, "", "=q4=Malfurion's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
+		{ 3, 48131, "", "=q4=Malfurion's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
+		{ 4, 48129, "", "=q4=Malfurion's Robe of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
+		{ 5, 48132, "", "=q4=Malfurion's Handguards of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
+		{ 6, 48130, "", "=q4=Malfurion's Leggings of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 9, 48134, "", "=q4=Malfurion's Headpiece of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 10, 48137, "", "=q4=Malfurion's Spaulders of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 11, 48136, "", "=q4=Malfurion's Robe of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 12, 48133, "", "=q4=Malfurion's Handguards of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 13, 48135, "", "=q4=Malfurion's Leggings of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48141, "", "=q4=Malfurion's Headpiece of Triumph", "=ds="};
+		{ 18, 48138, "", "=q4=Malfurion's Spaulders of Triumph", "=ds="};
+		{ 19, 48139, "", "=q4=Malfurion's Robe of Triumph", "=ds="};
+		{ 20, 48142, "", "=q4=Malfurion's Handguards of Triumph", "=ds="};
+		{ 21, 48140, "", "=q4=Malfurion's Leggings of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
 	};
 
 	AtlasLoot_Data["T9DruidRestoration_H"] = {
-		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48156, "", "=q4=Runetotem's Robe of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
 		{ 5, 48153, "", "=q4=Runetotem's Handguards of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
 		{ 6, 48155, "", "=q4=Runetotem's Leggings of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 		{ 9, 48151, "", "=q4=Runetotem's Headpiece of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 10, 48148, "", "=q4=Runetotem's Spaulders of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48149, "", "=q4=Runetotem's Robe of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48152, "", "=q4=Runetotem's Handguards of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 13, 48150, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 		{ 17, 48144, "", "=q4=Runetotem's Headpiece of Triumph", "=ds="};
 		{ 18, 48147, "", "=q4=Runetotem's Spaulders of Triumph", "=ds="};
 		{ 19, 48146, "", "=q4=Runetotem's Robe of Triumph", "=ds="};
@@ -7769,23 +7767,23 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T9DruidFeral_A"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
-		{ 2, 48214, "", "=q4=Stormrage's Headguard of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
-		{ 3, 48217, "", "=q4=Stormrage's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
-		{ 4, 48216, "", "=q4=Stormrage's Raiments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
-		{ 5, 48213, "", "=q4=Stormrage's Handgrips of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
-		{ 6, 48215, "", "=q4=Stormrage's Legguards of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
+		{ 2, 48214, "", "=q4=Malfurion's Headguard of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
+		{ 3, 48217, "", "=q4=Malfurion's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
+		{ 4, 48216, "", "=q4=Malfurion's Raiments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
+		{ 5, 48213, "", "=q4=Malfurion's Handgrips of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
+		{ 6, 48215, "", "=q4=Malfurion's Legguards of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
-		{ 9, 48211, "", "=q4=Stormrage's Headguard of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 10, 48208, "", "=q4=Stormrage's Shoulderpads of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 11, 48209, "", "=q4=Stormrage's Raiments of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 12, 48212, "", "=q4=Stormrage's Handgrips of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 13, 48210, "", "=q4=Stormrage's Legguards of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 9, 48211, "", "=q4=Malfurion's Headguard of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 10, 48208, "", "=q4=Malfurion's Shoulderpads of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 11, 48209, "", "=q4=Malfurion's Raiments of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 12, 48212, "", "=q4=Malfurion's Handgrips of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 13, 48210, "", "=q4=Malfurion's Legguards of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 16, 0, "Ability_Druid_Maul", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
-		{ 17, 48204, "", "=q4=Stormrage's Headguard of Triumph", "=ds="};
-		{ 18, 48207, "", "=q4=Stormrage's Shoulderpads of Triumph", "=ds="};
-		{ 19, 48206, "", "=q4=Stormrage's Raiments of Triumph", "=ds="};
-		{ 20, 48203, "", "=q4=Stormrage's Handgrips of Triumph", "=ds="};
-		{ 21, 48205, "", "=q4=Stormrage's Legguards of Triumph", "=ds="};
+		{ 17, 48204, "", "=q4=Malfurion's Headguard of Triumph", "=ds="};
+		{ 18, 48207, "", "=q4=Malfurion's Shoulderpads of Triumph", "=ds="};
+		{ 19, 48206, "", "=q4=Malfurion's Raiments of Triumph", "=ds="};
+		{ 20, 48203, "", "=q4=Malfurion's Handgrips of Triumph", "=ds="};
+		{ 21, 48205, "", "=q4=Malfurion's Legguards of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
 	};
 
@@ -7812,41 +7810,41 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["T9DruidBalance_A"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
-		{ 2, 48158, "", "=q4=Stormrage's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
-		{ 3, 48161, "", "=q4=Stormrage's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
-		{ 4, 48159, "", "=q4=Stormrage's Vestments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
-		{ 5, 48162, "", "=q4=Stormrage's Gloves of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
-		{ 6, 48160, "", "=q4=Stormrage's Trousers of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
-		{ 9, 48164, "", "=q4=Stormrage's Cover of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 10, 48167, "", "=q4=Stormrage's Mantle of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 11, 48166, "", "=q4=Stormrage's Vestments of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 12, 48163, "", "=q4=Stormrage's Gloves of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 13, 48165, "", "=q4=Stormrage's Trousers of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
-		{ 17, 48171, "", "=q4=Stormrage's Cover of Triumph", "=ds="};
-		{ 18, 48168, "", "=q4=Stormrage's Mantle of Triumph", "=ds="};
-		{ 19, 48169, "", "=q4=Stormrage's Vestments of Triumph", "=ds="};
-		{ 20, 48172, "", "=q4=Stormrage's Gloves of Triumph", "=ds="};
-		{ 21, 48170, "", "=q4=Stormrage's Trousers of Triumph", "=ds="};
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 2, 48158, "", "=q4=Malfurion's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
+		{ 3, 48161, "", "=q4=Malfurion's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
+		{ 4, 48159, "", "=q4=Malfurion's Vestments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
+		{ 5, 48162, "", "=q4=Malfurion's Gloves of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
+		{ 6, 48160, "", "=q4=Malfurion's Trousers of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 9, 48164, "", "=q4=Malfurion's Cover of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 10, 48167, "", "=q4=Malfurion's Mantle of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 11, 48166, "", "=q4=Malfurion's Vestments of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 12, 48163, "", "=q4=Malfurion's Gloves of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 13, 48165, "", "=q4=Malfurion's Trousers of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
+		{ 17, 48171, "", "=q4=Malfurion's Cover of Triumph", "=ds="};
+		{ 18, 48168, "", "=q4=Malfurion's Mantle of Triumph", "=ds="};
+		{ 19, 48169, "", "=q4=Malfurion's Vestments of Triumph", "=ds="};
+		{ 20, 48172, "", "=q4=Malfurion's Gloves of Triumph", "=ds="};
+		{ 21, 48170, "", "=q4=Malfurion's Trousers of Triumph", "=ds="};
 		Back = "T9SETALLIANCE";
 	};
 
 	AtlasLoot_Data["T9DruidBalance_H"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
 		{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a2#", "50 #eoftriumph#"};
 		{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a2#", "30 #eoftriumph#"};
 		{ 4, 48186, "", "=q4=Runetotem's Vestments of Conquest", "=ds=#s5#, #a2#", "50 #eoftriumph#"};
 		{ 5, 48183, "", "=q4=Runetotem's Gloves of Conquest", "=ds=#s9#, #a2#", "30 #eoftriumph#"};
 		{ 6, 48185, "", "=q4=Runetotem's Trousers of Conquest", "=ds=#s11#, #a2#", "50 #eoftriumph#"};
-		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
 		{ 9, 48181, "", "=q4=Runetotem's Cover of Triumph", "=ds=#s1#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 10, 48178, "", "=q4=Runetotem's Mantle of Triumph", "=ds=#s3#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 11, 48179, "", "=q4=Runetotem's Vestments of Triumph", "=ds=#s5#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 12, 48182, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a2#", "45 #eoftriumph# 1 #trophyofthecrusade#"};
 		{ 13, 48180, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a2#", "75 #eoftriumph# 1 #trophyofthecrusade#"};
-		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
 		{ 17, 48174, "", "=q4=Runetotem's Cover of Triumph", "=ds="};
 		{ 18, 48177, "", "=q4=Runetotem's Mantle of Triumph", "=ds="};
 		{ 19, 48176, "", "=q4=Runetotem's Vestments of Triumph", "=ds="};
@@ -8518,6 +8516,72 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 21, 51308, "", "=q4=Sanctified Scourgelord Legguards", "=ds="};
 		Back = "T10SET";
 	};
+	
+	AtlasLoot_Data["T10DruidRestoration"] = {
+		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
+		{ 2, 50108, "", "=q4=Lasherweave's Helmet  ", "=ds=#s1#, #a2#" };
+		{ 3, 50113, "", "=q4=Lasherweave's Pauldrons", "=ds=#s3#, #a2#" };
+		{ 4, 50106, "", "=q4=Lasherweave's Robes", "=ds=#s5#, #a2#" };
+		{ 5, 50107, "", "=q4=Lasherweave's Gauntlets", "=ds=#s9#, #a2#" };
+		{ 6, 50109, "", "=q4=Lasherweave's Legplates", "=ds=#s11#, #a2#" };
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
+		{ 9, 51137, "", "=q4=Sanctified Lasherweave's Helmet", "=ds=#s1#, #a2#" };
+		{ 10, 51135, "", "=q4=Sanctified Lasherweave's Pauldrons", "=ds=#s3#, #a2#" };
+		{ 11, 51139, "", "=q4=Sanctified Lasherweave's Robes", "=ds=#s5#, #a2#" };
+		{ 12, 51138, "", "=q4=Sanctified Lasherweave's Gauntlets", "=ds=#s9#, #a2#" };
+		{ 13, 51136, "", "=q4=Sanctified Lasherweave's Legplates", "=ds=#s11#, #a2#" };
+		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
+		{ 17, 51302, "", "=q4=Sanctified Lasherweave's Helmet", "=ds="};
+		{ 18, 51304, "", "=q4=Sanctified Lasherweave's Pauldrons", "=ds="};
+		{ 19, 51300, "", "=q4=Sanctified Lasherweave's Robes", "=ds="};
+		{ 20, 51301, "", "=q4=Sanctified Lasherweave's Gauntlets", "=ds="};
+		{ 21, 51303, "", "=q4=Sanctified Lasherweave's Legplates", "=ds="};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10DruidFeral"] = {
+		{ 1, 0, "Ability_Druid_Maul", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
+		{ 2, 50826, "", "=q4=Lasherweave's Headguard", "=ds=#s1#, #a2#" };
+		{ 3, 50824, "", "=q4=Lasherweave's Shoulderpads", "=ds=#s3#, #a2#" };
+		{ 4, 50828, "", "=q4=Lasherweave's Raiment", "=ds=#s5#, #a2#" };
+		{ 5, 50827, "", "=q4=Lasherweave's Handgrips", "=ds=#s9#, #a2#" };
+		{ 6, 50825, "", "=q4=Lasherweave's Legguards", "=ds=#s11#, #a2#" };
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
+		{ 9, 51143, "", "=q4=Sanctified Lasherweave's Headguard", "=ds=#s1#, #a2#" };
+		{ 10, 51140, "", "=q4=Sanctified Lasherweave's Shoulderpads", "=ds=#s3#, #a2#" };
+		{ 11, 51141, "", "=q4=Sanctified Lasherweave's Raiment", "=ds=#s5#, #a2#" };
+		{ 12, 51144, "", "=q4=Sanctified Lasherweave's Handgrips", "=ds=#s9#, #a2#" };
+		{ 13, 51142, "", "=q4=Sanctified Lasherweave's Legguards", "=ds=#s11#, #a2#" };
+		{ 16, 0, "Ability_Druid_Maul", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
+		{ 17, 51296, "", "=q4=Sanctified Lasherweave's Headguard", "=ds="};
+		{ 18, 51299, "", "=q4=Sanctified Lasherweave's Shoulderpads", "=ds="};
+		{ 19, 51298, "", "=q4=Sanctified Lasherweave's Raiment", "=ds="};
+		{ 20, 51295, "", "=q4=Sanctified Lasherweave's Handgrips", "=ds="};
+		{ 21, 51297, "", "=q4=Sanctified Lasherweave's Legguards", "=ds="};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10DruidBalance"] = {
+		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
+		{ 2, 50821, "", "=q4=Lasherweave's Cover", "=ds=#s1#, #a2#" };
+		{ 3, 50819, "", "=q4=Lasherweave's Mantle", "=ds=#s3#, #a2#" };
+		{ 4, 50823, "", "=q4=Lasherweave's Vestment", "=ds=#s5#, #a2#" };
+		{ 5, 50822, "", "=q4=Lasherweave's Gloves", "=ds=#s9#, #a2#" };
+		{ 6, 50820, "", "=q4=Lasherweave's Trousers", "=ds=#s11#, #a2#" };
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
+		{ 9, 51149, "", "=q4=Sanctified Lasherweave's Cover", "=ds=#s1#, #a2#" };
+		{ 10, 51147, "", "=q4=Sanctified Lasherweave's Mantle", "=ds=#s3#, #a2#" };
+		{ 11, 51145, "", "=q4=Sanctified Lasherweave's Vestment", "=ds=#s5#, #a2#" };
+		{ 12, 51148, "", "=q4=Sanctified Lasherweave's Gloves", "=ds=#s9#, #a2#" };
+		{ 13, 51146, "", "=q4=Sanctified Lasherweave's Trousers", "=ds=#s11#, #a2#" };
+		{ 16, 0, "Spell_Nature_InsectSwarm", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
+		{ 17, 51290, "", "=q4=Sanctified Lasherweave's Cover", "=ds="};
+		{ 18, 51292, "", "=q4=Sanctified Lasherweave's Mantle", "=ds="};
+		{ 19, 51294, "", "=q4=Sanctified Lasherweave's Vestment", "=ds="};
+		{ 20, 51291, "", "=q4=Sanctified Lasherweave's Gloves", "=ds="};
+		{ 21, 51293, "", "=q4=Sanctified Lasherweave's Trousers", "=ds="};
+		Back = "T10SET";
+	};
 
 	AtlasLoot_Data["T10Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
@@ -8560,6 +8624,72 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 51283, "", "=q4=Sanctified Bloodmage Robe", "=ds=#s5#, #a1#"};
 		{ 20, 51280, "", "=q4=Sanctified Bloodmage Gauntlets", "=ds=#s9#, #a1#"};
 		{ 21, 51282, "", "=q4=Sanctified Bloodmage Leggings", "=ds=#s11#, #a1#"};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10PaladinHoly"] = {
+		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
+		{ 2, 50867, "", "=q4=Lightsworn Headpiece", "=ds=#s1#, #a4#" };
+		{ 3, 50865, "", "=q4=Lightsworn Spaulders", "=ds=#s3#, #a4#" };
+		{ 4, 50869, "", "=q4=Lightsworn Tunic", "=ds=#s5#, #a4#" };
+		{ 5, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#" };
+		{ 6, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#" };
+		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
+		{ 9, 51167, "", "=q4=Sanctified Lightsworn Headpiece", "=ds=#s1#, #a4#" };
+		{ 10, 51166, "", "=q4=Sanctified Lightsworn Spaulders", "=ds=#s3#, #a4#" };
+		{ 11, 51165, "", "=q4=Sanctified Lightsworn Tunic", "=ds=#s5#, #a4#" };
+		{ 12, 51169, "", "=q4=Sanctified Lightsworn Gloves", "=ds=#s9#, #a4#" };
+		{ 13, 51168, "", "=q4=Sanctified Lightsworn Greaves", "=ds=#s11#, #a4#" };
+		{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
+		{ 17, 51272, "", "=q4=Sanctified Lightsworn Headpiece", "=ds=#s1#, #a4#"};
+		{ 18, 51273, "", "=q4=Sanctified Lightsworn Spaulders", "=ds=#s3#, #a4#"};
+		{ 19, 51274, "", "=q4=Sanctified Lightsworn Tunic", "=ds=#s5#, #a4#"};
+		{ 20, 51270, "", "=q4=Sanctified Lightsworn Gloves", "=ds=#s9#, #a4#"};
+		{ 21, 51271, "", "=q4=Sanctified Lightsworn Greaves", "=ds=#s11#, #a4#"};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10PaladinRetribution"] = {
+		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
+		{ 2, 50326, "", "=q4=Lightsworn Helmet", "=ds=#s1#, #a4#" };
+		{ 3, 50324, "", "=q4=Lightsworn Shoulderplates", "=ds=#s3#, #a4#" };
+		{ 4, 50328, "", "=q4=Lightsworn Battleplate", "=ds=#s5#, #a4#" };
+		{ 5, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#" };
+		{ 6, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#" };
+		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
+		{ 9, 51162, "", "=q4=Sanctified Lightsworn Helmet", "=ds=#s1#, #a4#" };
+		{ 10, 51160, "", "=q4=Sanctified Lightsworn Shoulderplates", "=ds=#s3#, #a4#" };
+		{ 11, 51164, "", "=q4=Sanctified Lightsworn Battleplate", "=ds=#s5#, #a4#" };
+		{ 12, 51163, "", "=q4=Sanctified Lightsworn Gauntlets", "=ds=#s9#, #a4#" };
+		{ 13, 51161, "", "=q4=Sanctified Lightsworn Legplates", "=ds=#s11#, #a4#" };
+		{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
+		{ 17, 51277, "", "=q4=Sanctified Lightsworn Helmet", "=ds=#s1#, #a4#"};
+		{ 18, 51279, "", "=q4=Sanctified Lightsworn Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 19, 51275, "", "=q4=Sanctified Lightsworn Battleplate", "=ds=#s5#, #a4#"};
+		{ 20, 51276, "", "=q4=Sanctified Lightsworn Gauntlets", "=ds=#s9#, #a4#"};
+		{ 21, 51278, "", "=q4=Sanctified Lightsworn Legplates", "=ds=#s11#, #a4#"};
+		Back = "T10SET";
+	};
+
+	AtlasLoot_Data["T10PaladinProtection"] = {
+		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
+		{ 2, 50862, "", "=q4=Lightsworn Faceguard", "=ds=#s1#, #a4#" };
+		{ 3, 50860, "", "=q4=Lightsworn Shoulderguards", "=ds=#s3#, #a4#" };
+		{ 4, 50864, "", "=q4=Lightsworn Chestguard", "=ds=#s5#, #a4#" };
+		{ 5, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#" };
+		{ 6, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#" };
+		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
+		{ 9, 51173, "", "=q4=Sanctified Lightsworn Faceguard", "=ds=#s1#, #a4#" };
+		{ 10, 51170, "", "=q4=Sanctified Lightsworn Shoulderguards", "=ds=#s3#, #a4#" };
+		{ 11, 51174, "", "=q4=Sanctified Lightsworn Chestguard", "=ds=#s5#, #a4#" };
+		{ 12, 51172, "", "=q4=Sanctified Lightsworn Handguards", "=ds=#s9#, #a4#" };
+		{ 13, 51171, "", "=q4=Sanctified Lightsworn Legguards", "=ds=#s11#, #a4#" };
+		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
+		{ 17, 51266, "", "=q4=Sanctified Lightsworn Faceguard", "=ds=#s1#, #a4#"};
+		{ 18, 51269, "", "=q4=Sanctified Lightsworn Shoulderguards", "=ds=#s3#, #a4#"};
+		{ 19, 51265, "", "=q4=Sanctified Lightsworn Chestguard", "=ds=#s5#, #a4#"};
+		{ 20, 51267, "", "=q4=Sanctified Lightsworn Handguards", "=ds=#s9#, #a4#"};
+		{ 21, 51268, "", "=q4=Sanctified Lightsworn Legguards", "=ds=#s11#, #a4#"};
 		Back = "T10SET";
 	};
 
@@ -8627,6 +8757,135 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 51251, "", "=q4=Sanctified Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
 		{ 21, 51253, "", "=q4=Sanctified Shadowblade Legplates", "=ds=#s11#, #a2#"};
 		Back = "T10SET";
+	};
+
+
+	AtlasLoot_Data["T10ShamanElemental"] = {
+
+		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
+	
+		{ 2, 50843, "", "=q4=Frost Witch's Helm", "=ds=#s1#, #a3#" };
+	
+		{ 3, 50845, "", "=q4=Frost Witch's Shoulderpads", "=ds=#s3#, #a3#" };
+	
+		{ 4, 50841, "", "=q4=Frost Witch's Hauberk", "=ds=#s5#, #a3#" };
+	
+		{ 5, 50842, "", "=q4=Frost Witch's Gloves", "=ds=#s9#, #a3#" };
+	
+		{ 6, 50844, "", "=q4=Frost Witch's Kilt", "=ds=#s11#, #a3#" };
+	
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
+	
+		{ 9, 51202, "", "=q4=Sanctified Frost Witch's Helm", "=ds=#s1#, #a3#" };
+	
+		{ 10, 51204, "", "=q4=Sanctified Frost Witch's Shoulderpads", "=ds=#s3#, #a3#" };
+	
+		{ 11, 51200, "", "=q4=Sanctified Frost Witch's Hauberk", "=ds=#s5#, #a3#" };
+
+		{ 12, 51201, "", "=q4=Sanctified Frost Witch's Gloves", "=ds=#s9#, #a3#" };
+
+		{ 13, 51203, "", "=q4=Sanctified Frost Witch's Kilt", "=ds=#s11#, #a3#" };
+	
+		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
+
+		{ 17, 51237, "", "=q4=Sanctified Frost Witch's Helm", "=ds=#s1#, #a3#"};
+	
+		{ 18, 51235, "", "=q4=Sanctified Frost Witch's Shoulderpads", "=ds=#s3#, #a3#"};
+	
+		{ 19, 51239, "", "=q4=Sanctified Frost Witch's Hauberk", "=ds=#s5#, #a3#"};
+
+		{ 20, 51238, "", "=q4=Sanctified Frost Witch's Gloves", "=ds=#s9#, #a3#"};
+	
+		{ 21, 51236, "", "=q4=Sanctified Frost Witch's Kilt", "=ds=#s11#, #a3#"};
+	
+		Back = "T10SET";
+
+	};
+
+	AtlasLoot_Data["T10ShamanEnhancement"] = {
+		
+		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
+	
+		{ 2, 50832, "", "=q4=Frost Witch's Faceguard", "=ds=#s1#, #a3#" };
+	
+		{ 3, 50834, "", "=q4=Frost Witch's Shoulderguards", "=ds=#s3#, #a3#" };
+	
+		{ 4, 50830, "", "=q4=Frost Witch's Chestguard", "=ds=#s5#, #a3#" };
+	
+		{ 5, 50831, "", "=q4=Frost Witch's Grips", "=ds=#s9#, #a3#" };
+	
+		{ 6, 50833, "", "=q4=Frost Witch's War-Kilt", "=ds=#s11#, #a3#" };
+	
+		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
+	
+		{ 9, 51197, "", "=q4=Sanctified Frost Witch's Faceguard", "=ds=#s1#, #a3#" };
+
+		{ 10, 51199, "", "=q4=Sanctified Frost Witch's Shoulderguards", "=ds=#s3#, #a3#" };
+	
+		{ 11, 51195, "", "=q4=Sanctified Frost Witch's Chestguard", "=ds=#s5#, #a3#" };
+
+		{ 12, 51196, "", "=q4=Sanctified Frost Witch's Grips", "=ds=#s9#, #a3#" };
+
+		{ 13, 51198, "", "=q4=Sanctified Frost Witch's War-Kilt", "=ds=#s11#, #a3#" };
+	
+		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
+	
+		{ 17, 51242, "", "=q4=Sanctified Frost Witch's Faceguard", "=ds=#s1#, #a3#"};
+	
+		{ 18, 51240, "", "=q4=Sanctified Frost Witch's Shoulderguards", "=ds=#s3#, #a3#"};
+	
+		{ 19, 51244, "", "=q4=Sanctified Frost Witch's Chestguard", "=ds=#s5#, #a3#"};
+	
+		{ 20, 51243, "", "=q4=Sanctified Frost Witch's Grips", "=ds=#s9#, #a3#"};
+
+		{ 21, 51241, "", "=q4=Sanctified Frost Witch's War-Kilt", "=ds=#s11#, #a3#"};
+
+		Back = "T10SET";
+	
+	};
+
+	
+
+	AtlasLoot_Data["T10ShamanRestoration"] = {
+		
+		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
+	
+		{ 2, 50837, "", "=q4=Frost Witch's Headpiece", "=ds=#s1#, #a3#" };
+	
+		{ 3, 50839, "", "=q4=Frost Witch's Spaulders", "=ds=#s3#, #a3#" };
+	
+		{ 4, 50835, "", "=q4=Frost Witch's Tunic", "=ds=#s5#, #a3#" };
+	
+		{ 5, 50836, "", "=q4=Frost Witch's Handguards", "=ds=#s9#, #a3#" };
+	
+		{ 6, 50838, "", "=q4=Frost Witch's Legguards", "=ds=#s11#, #a3#" };
+
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
+	
+		{ 9, 51192, "", "=q4=Sanctified Frost Witch's Headpiece", "=ds=#s1#, #a3#" };
+	
+		{ 10, 51194, "", "=q4=Sanctified Frost Witch's Spaulders", "=ds=#s3#, #a3#" };
+	
+		{ 11, 51190, "", "=q4=Sanctified Frost Witch's Tunic", "=ds=#s5#, #a3#" };
+	
+		{ 12, 51191, "", "=q4=Sanctified Frost Witch's Handguards", "=ds=#s9#, #a3#" };
+	
+		{ 13, 51193, "", "=q4=Sanctified Frost Witch's Legguards", "=ds=#s11#, #a3#" };
+	
+		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
+	
+		{ 17, 51247, "", "=q4=Sanctified Frost Witch's Headpiece", "=ds=#s1#, #a3#"};
+	
+		{ 18, 51245, "", "=q4=Sanctified Frost Witch's Spaulders", "=ds=#s3#, #a3#"};
+	
+		{ 19, 51249, "", "=q4=Sanctified Frost Witch's Tunic", "=ds=#s5#, #a3#"};
+	
+		{ 20, 51248, "", "=q4=Sanctified Frost Witch's Handguards", "=ds=#s9#, #a3#"};
+	
+		{ 21, 51246, "", "=q4=Sanctified Frost Witch's Legguards", "=ds=#s11#, #a3#"};
+	
+		Back = "T10SET";
+	
 	};
 
 	AtlasLoot_Data["T10Warlock"] = {
