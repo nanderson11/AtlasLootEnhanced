@@ -32,7 +32,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Trial of the Champion
 ---- Trial of the Crusader
 ---- Trial of the Grand Crusader
----- Onyxia (level 80)
+---- Onyxia (Level 80)
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -4109,6 +4109,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 24, 46312, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 		Prev = "UlduarVezax";
+		Next = "UlduarTrash";
 	};
 
 	AtlasLoot_Data["UlduarYoggSaron25Man"] = {
@@ -4136,6 +4137,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
 		{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e12#", "", "100%"};
 		Prev = "UlduarVezax25Man";
+		Next = "UlduarTrash25Man";
 	};
 
 	AtlasLoot_Data["UlduarTrash"] = {
@@ -4150,6 +4152,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 46351, "", "=q4=Bloodcrush Cudgel", "=ds=#h1# #w6#", "", "2%"};
 		{ 10, 46350, "", "=q4=Pillar of Fortitude", "=ds=#w9#", "", "2%"};
 		{ 11, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#", "", "2%"};
+		Prev = "UlduarYoggSaron";
+		Next = "UlduarPatterns";
 	};
 
 	AtlasLoot_Data["UlduarTrash25Man"] = {
@@ -4165,28 +4169,30 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 10, 45538, "", "=q4=Titanstone Pendant", "=ds=#s2#", "", "3%"};
 		{ 11, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#, #w14#", "", "6%"};
 		{ 12, 45605, "", "=q4=Daschal's Bite", "=ds=#h1# #w4#", "", "2%"};
+		Prev = "UlduarYoggSaron25Man";
+		Next = "UlduarPatterns";
 	};
 
 	AtlasLoot_Data["UlduarPatterns"] = {
-		{ 1, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-		{ 2, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-		{ 3, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)"};
-		{ 4, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
-		{ 5, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)"};
-		{ 6, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
-		{ 7, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)"};
-		{ 8, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)"};
-		{ 9, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)"};
-		{ 10, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)"};
-		{ 11, 45101, "", "=q4=Pattern: Boots of Wintry Endurance", "=ds=#p7# (450)"};
-		{ 12, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)"};
-		{ 13, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)"};
-		{ 14, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)"};
-		{ 15, 45089, "", "=q4=Plans: Battlelord's Plate Boots", "=ds=#p2# (450)"};
-		{ 16, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)"};
-		{ 17, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)"};
-		{ 18, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
-		{ 19, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};
+		{ 1, 45089, "", "=q4=Plans: Battlelord's Plate Boots", "=ds=#p2# (450)"};
+		{ 2, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)"};
+		{ 3, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)"};
+		{ 4, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
+		{ 5, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};
+		{ 6, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
+		{ 7, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
+		{ 8, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)"};
+		{ 9, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)"};
+		{ 10, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)"};
+		{ 11, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)"};
+		{ 12, 45101, "", "=q4=Pattern: Boots of Wintry Endurance", "=ds=#p7# (450)"};
+		{ 13, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)"};
+		{ 14, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)"};
+		{ 15, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)"};
+		{ 16, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)"};
+		{ 17, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
+		{ 18, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)"};
+		{ 19, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
 		{ 30, 45087, "", "=q3=Runed Orb", "=ds=#e8#"};
 	};
 
@@ -4722,47 +4728,47 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_A"] = {
-		{ 1, 47654, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)"};
-		{ 2, 47655, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)"};
-		{ 3, 47656, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
-		{ 4, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
-		{ 5, 47629, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)"};
-		{ 6, 47635, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)"};
-		{ 7, 47631, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)"};
-		{ 8, 47630, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)"};
-		{ 9, 47628, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)"};
-		{ 10, 47634, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)"};
-		{ 11, 47632, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)"};
-		{ 12, 47633, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)"};
-		{ 13, 47622, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)"};
-		{ 14, 47623, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)"};
-		{ 15, 47627, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)"};
-		{ 16, 47626, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)"};
-		{ 17, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
-		{ 18, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
+		{ 1, 47622, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)"};
+		{ 2, 47623, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)"};
+		{ 3, 47627, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)"};
+		{ 4, 47626, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)"};
+		{ 5, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
+		{ 6, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
+		{ 7, 47629, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)"};
+		{ 8, 47635, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)"};
+		{ 9, 47631, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)"};
+		{ 10, 47630, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)"};
+		{ 11, 47628, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)"};
+		{ 12, 47634, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)"};
+		{ 13, 47632, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)"};
+		{ 14, 47633, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)"};
+		{ 16, 47654, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)"};
+		{ 17, 47655, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)"};
+		{ 18, 47656, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
+		{ 19, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
 		{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
 		Prev = "TrialoftheCrusaderTribute_AHEROIC";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_H"] = {
-		{ 1, 47639, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)"};
-		{ 2, 47638, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)"};
-		{ 3, 47637, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
-		{ 4, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
-		{ 5, 47646, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)"};
-		{ 6, 47647, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)"};
-		{ 7, 47648, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)"};
-		{ 8, 47649, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)"};
-		{ 9, 47650, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)"};
-		{ 10, 47651, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)"};
-		{ 11, 47652, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)"};
-		{ 12, 47653, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)"};
-		{ 16, 47640, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)"};
-		{ 17, 47641, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)"};
-		{ 18, 47642, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)"};
-		{ 19, 47643, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)"};
-		{ 20, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
-		{ 21, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
+		{ 1, 47640, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)"};
+		{ 2, 47641, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)"};
+		{ 3, 47642, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)"};
+		{ 4, 47643, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)"};
+		{ 5, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
+		{ 6, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
+		{ 7, 47646, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)"};
+		{ 8, 47647, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)"};
+		{ 9, 47648, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)"};
+		{ 10, 47649, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)"};
+		{ 11, 47650, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)"};
+		{ 12, 47651, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)"};
+		{ 13, 47652, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)"};
+		{ 14, 47653, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)"};
+		{ 16, 47639, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)"};
+		{ 17, 47638, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)"};
+		{ 18, 47637, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
+		{ 19, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
 		{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
 		Prev = "TrialoftheCrusaderTribute_HHEROIC";
 	};
@@ -5271,9 +5277,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Next = "TrialoftheCrusaderPatterns_H";
 	};
 
-		--------------
-		--- Onyxia ---
-		--------------
+		-------------------------
+		--- Onyxia (Level 80) ---
+		-------------------------
 
 	AtlasLoot_Data["Onyxia_1"] = {
 		{ 1, 49307, "", "=q4=Fluttering Sapphiron Drape", "=ds=#s4#", "" };
@@ -5351,9 +5357,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 23, 49464, "", "=q4=Shiny Shard of the Flame", "=ds=#s14#", "" };
 		{ 24, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#", "" };
 		{ 25, 49490, "", "=q4=Antediluvian Cornerstone Grimoire", "=ds=#s15#", "" };
-		{ 26, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
-		{ 27, 49636, "", "=q4=Reins of the Onyxian Drake", "=ds=#e12#", "" };
-		{ 28, 49294, "", "=q4=Ashen Sack of Gems", "=ds=#e7# #e1#", "" };
 		Next = "Onyxia_225Man";
 	};
 
@@ -5372,6 +5375,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 17, 49485, "", "=q4=Sparkling Onyxia Tooth Pendant", "=q1=#m4#: =ds=#s2#", "", };
 		{ 18, 49486, "", "=q4=Polished Dragonslayer's Signet", "=q1=#m4#: =ds=#s13#", "", };
 		{ 19, 49487, "", "=q4=Purified Onyxia Blood Talisman", "=q1=#m4#: =ds=#s14#", "", };
+		{ 21, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "" };
+		{ 22, 49294, "", "=q4=Ashen Sack of Gems", "=ds=#e7# #e1#", "" };
+		{ 24, 49636, "", "=q4=Reins of the Onyxian Drake", "=ds=#e12#", "" };
 		Prev = "Onyxia_125Man";
 	};
 
@@ -5690,9 +5696,9 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "REPMENU";
 	};
 
-		---------------------------
+		-------------------------
 		--- The Ashen Verdict ---
-		---------------------------
+		-------------------------
 
 	AtlasLoot_Data["AshenVerdict"] = {
 		{ 1, 0, "Inv_Jewelry_Ring_85", "=q6=#r2#", ""};
@@ -8917,42 +8923,44 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 9, 45606, "", "=q3=Sen'jin Fetish", "=ds=#e13#"};
 		{ 10, 44965, "", "=q3=Teldrassil Sproutling", "=ds=#e13#"};
 		{ 11, 44971, "", "=q3=Tirisfal Batling", "=ds=#e13#"};
-		{ 12, 11023, "", "=q1=Ancona Chicken", "=ds=#e13#"};
-		{ 13, 10360, "", "=q1=Black Kingsnake", "=ds=#e13#"};
-		{ 14, 10361, "", "=q1=Brown Snake", "=ds=#e13#"};
-		{ 15, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds=#e13#"};
-		{ 16, 29901, "", "=q1=Blue Moth Egg", "=ds=#e13#"};
-		{ 17, 29364, "", "=q1=Brown Rabbit Crate", "=ds=#e13#"};
-		{ 18, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds=#e13#"};
-		{ 19, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds=#e13#"};
-		{ 20, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds=#e13#"};
-		{ 21, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds=#e13#"};
-		{ 22, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds=#e13#"};
-		{ 23, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds=#e13#"};
-		{ 24, 10393, "", "=q1=Cockroach", "=ds=#e13#"};
-		{ 25, 10392, "", "=q1=Crimson Snake", "=ds=#e13#"};
-		{ 26, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds=#e13#"};
-		{ 27, 8500, "", "=q1=Great Horned Owl", "=ds=#e13#"};
-		{ 28, 8501, "", "=q1=Hawk Owl", "=ds=#e13#"};
-		{ 29, 29363, "", "=q1=Mana Wyrmling", "=ds=#e13#"};
-		{ 30, 48120, "", "=q1=Obsidian Hatchling", "=ds=#e13#"};
+		{ 12, 44822, "", "=q1=Albino Snake", "=ds=#e13#"};
+		{ 13, 11023, "", "=q1=Ancona Chicken", "=ds=#e13#"};
+		{ 14, 10360, "", "=q1=Black Kingsnake", "=ds=#e13#"};
+		{ 15, 10361, "", "=q1=Brown Snake", "=ds=#e13#"};
+		{ 16, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 17, 29901, "", "=q1=Blue Moth Egg", "=ds=#e13#"};
+		{ 18, 29364, "", "=q1=Brown Rabbit Crate", "=ds=#e13#"};
+		{ 19, 46398, "", "=q1=Calico Cat", "=ds=#e13#"};
+		{ 20, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds=#e13#"};
+		{ 21, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds=#e13#"};
+		{ 22, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds=#e13#"};
+		{ 23, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds=#e13#"};
+		{ 24, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds=#e13#"};
+		{ 25, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds=#e13#"};
+		{ 26, 10393, "", "=q1=Cockroach", "=ds=#e13#"};
+		{ 27, 10392, "", "=q1=Crimson Snake", "=ds=#e13#"};
+		{ 28, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 29, 8500, "", "=q1=Great Horned Owl", "=ds=#e13#"};
+		{ 30, 8501, "", "=q1=Hawk Owl", "=ds=#e13#"};
 		Next = "PetsMerchant2";
 		Back = "PETMENU";
 	};
 
 	AtlasLoot_Data["PetsMerchant2"] = {
-		{ 1, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds=#e13#"};
-		{ 2, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds=#e13#"};
-		{ 3, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds=#e13#"};
-		{ 4, 10394, "", "=q1=Prairie Dog Whistle", "=ds=#e13#"};
-		{ 5, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds=#e13#"};
-		{ 6, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds=#e13#"};
-		{ 7, 29902, "", "=q1=Red Moth Egg", "=ds=#e13#"};
-		{ 8, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds=#e13#"};
-		{ 9, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
-		{ 10, 29904, "", "=q1=White Moth Egg", "=ds=#e13#"};
-		{ 11, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
-		{ 12, 29903, "", "=q1=Yellow Moth Egg", "=ds=#e13#"};
+		{ 1, 29363, "", "=q1=Mana Wyrmling", "=ds=#e13#"};
+		{ 2, 48120, "", "=q1=Obsidian Hatchling", "=ds=#e13#"};
+		{ 3, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds=#e13#"};
+		{ 4, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds=#e13#"};
+		{ 5, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds=#e13#"};
+		{ 6, 10394, "", "=q1=Prairie Dog Whistle", "=ds=#e13#"};
+		{ 7, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds=#e13#"};
+		{ 8, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 9, 29902, "", "=q1=Red Moth Egg", "=ds=#e13#"};
+		{ 10, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds=#e13#"};
+		{ 11, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
+		{ 12, 29904, "", "=q1=White Moth Egg", "=ds=#e13#"};
+		{ 13, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
+		{ 14, 29903, "", "=q1=Yellow Moth Egg", "=ds=#e13#"};
 		Prev = "PetsMerchant1";
 		Next = "PetsQuestCrafted1";
 		Back = "PETMENU";
@@ -8987,21 +8995,22 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["PetsRare1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-		{ 2, 33993, "", "=q3=Mojo", "=ds=#e13#"};
-		{ 3, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#"};
-		{ 4, 38658, "", "=q3=Vampiric Batling", "=ds=#e13#"};
-		{ 5, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#"};
-		{ 6, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#"};
+		{ 2, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
+		{ 3, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+		{ 4, 38658, "", "=q3=Vampiric Batling", "=q2="..BabbleBoss["Prince Tenris Mirkblood"]..", =q1="..BabbleZone["Karazhan"]};
+		{ 5, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+		{ 6, 48126, "", "=q1=Razzashi Hatchling", "=q2="..AL["Razzashi Raptor"]..", =q1="..BabbleZone["Zul'Gurub"]};
 		{ 8, 0, "INV_Box_01", "=q6="..AL["Achievement"], ""};
 		{ 9, 44738, "", "=q3=Kirin Tor Familiar", "=ds=#e13#"};
 		{ 10, 44841, "", "=q3=Little Fawn's Salt Lick", "=ds=#e13#"};
-		{ 11, 40653, "", "=q3=Reeking Pet Carrier", "=ds=#e13#"};
-		{ 12, 44819, "", "=q1=Baby Blizzard Bear", "=ds=#e13#"};
+		{ 11, 0, "", "=q3=Perky Pug", "=ds=#e13#"};
+		{ 12, 40653, "", "=q3=Reeking Pet Carrier", "=ds=#e13#"};
+		{ 13, 44819, "", "=q1=Baby Blizzard Bear", "=ds=#e13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
 		{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#"};
 		{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#"};
-		{ 19, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
-		{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
+		{ 19, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13# =ec1=#m7#"};
+		{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13# =ec1=#m6#"};
 		{ 21, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#"};
 		{ 22, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#"};
 		{ 23, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#"};

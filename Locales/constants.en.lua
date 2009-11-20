@@ -1009,7 +1009,7 @@ if AL then
 	AL["Koltira's Battlegear"] = true;
 	AL["Thassarian's Plate"] = true;
 	AL["Koltira's Plate"] = true;
-	
+
 	-- Tier 10 Sets
 	AL["Lasherweave's Garb"] = true;
 	AL["Lasherweave's Battlegear"] = true;
@@ -1277,7 +1277,7 @@ if AL then
 	AL["Templars"] = true;
 	AL["Dukes"] = true;
 	AL["High Council"] = true;
-	AL["Headless Horseman"] = true;
+	AL["Headless Horseman"] = true; --Is in BabbleBoss
 	AL["Barleybrew Brewery"] = true;
 	AL["Thunderbrew Brewery"] = true;
 	AL["Gordok Brewery"] = true;
@@ -1292,7 +1292,7 @@ if AL then
 	AL["Namdo Bizzfizzle"] = true;
 	AL["The Nameles Prophet"] = true;
 	AL["Zelemar the Wrathful"] = true;
-	AL["Henry Stern"] = true;
+	AL["Henry Stern"] = true; --Is in BabbleBoss
 	AL["Aggem Thorncurse"] = true;
 	AL["Roogug"] = true;
 	AL["Rajaxx's Captains"] = true;
@@ -1301,7 +1301,7 @@ if AL then
 	AL["Kalldan Felmoon"] = true;
 	AL["Magregan Deepshadow"] = true;
 	AL["Lord Ahune"] = true;
-	AL["Coren Direbrew"] = true;
+	AL["Coren Direbrew"] = true; --Is in BabbleBoss
 	AL["Don Carlos"] = true;
 	AL["Thomas Yance"] = true;
 	AL["Aged Dalaran Wizard"] = true;
@@ -1314,6 +1314,8 @@ if AL then
 	AL["Loken"] = true; -- Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = true;
 	AL["Faction Champions"] = true; -- if you have a better name, use it.
+	AL["Razzashi Raptor"] = true;
+	AL["Deviate Ravager/Deviate Guardian"] = true;
 
 	-- Zones
 	AL["World Drop"] = true;

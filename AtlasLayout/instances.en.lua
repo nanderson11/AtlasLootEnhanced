@@ -181,8 +181,8 @@ AtlasLootNewBossButtons = {
         "";
         "TrialoftheCrusaderAnubarak_A";
         "";
-		"TrialoftheCrusaderTribute_AHEROIC";
-		"TrialoftheCrusaderPatterns_A";
+        "TrialoftheCrusaderTribute_AHEROIC";
+        "TrialoftheCrusaderPatterns_A";
         };
 
     ObsidianSanctum = {
@@ -1704,6 +1704,9 @@ if englishFaction == "Horde" then
         "";
         "";
         "TrialoftheCrusaderAnubarak_H";
+        "";
+        "TrialoftheCrusaderTribute_HHEROIC";
+        "TrialoftheCrusaderPatterns_H";
         };
     AtlasLootNewBossButtons["VaultOfArchavon"] = {
         "";
@@ -1727,6 +1730,9 @@ else
         "";
         "";
         "TrialoftheCrusaderAnubarak_A";
+        "";
+        "TrialoftheCrusaderTribute_AHEROIC";
+        "TrialoftheCrusaderPatterns_A";
         };
     AtlasLootNewBossButtons["VaultOfArchavon"] = {
         "";
@@ -1918,6 +1924,9 @@ AtlasLootBossButtons = {
         "";
         "";
         "TrialoftheCrusaderAnubarak_A";
+        "";
+        "TrialoftheCrusaderTribute_AHEROIC";
+        "TrialoftheCrusaderPatterns_A";
         };
 
     ObsidianSanctum = {
@@ -3440,8 +3449,8 @@ if englishFaction == "Horde" then
         "";
         "TrialoftheCrusaderAnubarak_H";
         "";
-		"TrialoftheCrusaderTribute_HHEROIC";
-		"TrialoftheCrusaderPatterns_H";
+        "TrialoftheCrusaderTribute_HHEROIC";
+        "TrialoftheCrusaderPatterns_H";
         };
     AtlasLootBossButtons["VaultOfArchavon"] = {
         "";
@@ -3466,8 +3475,8 @@ else
         "";
         "TrialoftheCrusaderAnubarak_A";
         "";
-		"TrialoftheCrusaderTribute_AHEROIC";
-		"TrialoftheCrusaderPatterns_A";
+        "TrialoftheCrusaderTribute_AHEROIC";
+        "TrialoftheCrusaderPatterns_A";
         };
     AtlasLootBossButtons["VaultOfArchavon"] = {
         "";

@@ -265,12 +265,11 @@ AtlasLoot_ExtraText = {
         GREY..INDENT..AL["AQ40 Class Sets"];
         GREY..INDENT..AL["AQ Opening Quest Chain"];
     };
-	TrialOfTheCrusader = {
+    TrialOfTheCrusader = {
         "";
         GREY..INDENT..AL["Tribute Run"];
         GREY..INDENT..AL["Trial of the Crusader Patterns/Plans"];
     };
-
     Uldaman = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
@@ -279,36 +278,36 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
-	UlduarA = {
+    UlduarA = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
-		GREY..INDENT..AL["Tier 7/8 Sets"];
-	};
-	UlduarB = {
+        GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+        GREY..INDENT..AL["Tier 7/8 Sets"];
+    };
+    UlduarB = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
-		GREY..INDENT..AL["Tier 7/8 Sets"];
-	};
-	UlduarC = {
+        GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+        GREY..INDENT..AL["Tier 7/8 Sets"];
+    };
+    UlduarC = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
-		GREY..INDENT..AL["Tier 7/8 Sets"];
-	};
-	UlduarD = {
+        GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+        GREY..INDENT..AL["Tier 7/8 Sets"];
+    };
+    UlduarD = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
-		GREY..INDENT..AL["Tier 7/8 Sets"];
-	};
-	UlduarE = {
+        GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+        GREY..INDENT..AL["Tier 7/8 Sets"];
+    };
+    UlduarE = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-		GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
-		GREY..INDENT..AL["Tier 7/8 Sets"];
-	};
+        GREY..INDENT..AL["Ulduar Formula/Patterns/Plans"];
+        GREY..INDENT..AL["Tier 7/8 Sets"];
+    };
     UlduarHallsofStone = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
