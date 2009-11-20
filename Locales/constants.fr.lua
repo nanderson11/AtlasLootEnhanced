@@ -148,6 +148,7 @@ if AL then
 	AL["Emblem of Heroism Rewards"] = "Récompenses Emblème d'héroïsme";
 	AL["Emblem of Conquest Rewards"] = "Récompenses Emblème de conquête";
 	AL["Emblem of Triumph Rewards"] = "Récompenses Emblème de triomphe";
+	AL["Emblem of Frost Rewards"] = "Récompenses Emblème de givre";
 	AL["BoE World Epics"] = "LqE Épiques mondial";
 	AL["Dungeon 1/2 Sets"] = "Sets Donjon 1/2";
 	AL["Dungeon 3 Sets"] = "Sets Donjon 3";
@@ -273,6 +274,7 @@ if AL then
 	--AL["Set"] = true,
 	AL["Token"] = "Insigne";
 	AL["Tokens"] = "Insignes";
+	--AL["Token Hand-Ins"] = true; -- à traduire
 	AL["Skinning Knife"] = "Couteau à dépecer";
 	AL["Herbalism Knife"] = "Couteau d'herboriste";
 	AL["Fish"] = "Poisson";
