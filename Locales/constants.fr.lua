@@ -1010,7 +1010,7 @@ if AL then
 	AL["Thassarian's Plate"] = "Armure de Thassarian en plaques";
 	AL["Koltira's Plate"] = "Armure de Koltira en plaques";
 
-	-- Tier 9 Sets -- à traduire
+	-- Tier 10 Sets -- à traduire
 	--AL["Lasherweave's Garb"] = true;
 	--AL["Lasherweave's Battlegear"] = true;
 	--AL["Lasherweave's Regalia"] = true;
@@ -1277,7 +1277,7 @@ if AL then
 	AL["Templars"] = "Templiers";
 	AL["Dukes"] = "Ducs";
 	AL["High Council"] = "Princes";
-	AL["Headless Horseman"] = "Cavalier sans tête";
+	AL["Headless Horseman"] = "Cavalier sans tête"; --Is in BabbleBoss
 	AL["Barleybrew Brewery"] = "Apprenti Brasselorge";
 	AL["Thunderbrew Brewery"] = "Apprenti Tonnebière";
 	AL["Gordok Brewery"] = "Apprenti de la bière gordok";
@@ -1292,7 +1292,7 @@ if AL then
 	AL["Namdo Bizzfizzle"] = "Namdo Ventaperte";
 	AL["The Nameles Prophet"] = "Le Prophète sans nom";
 	AL["Zelemar the Wrathful"] = "Zelemar le Courroucé";
-	--AL["Henry Stern"] = true,
+	--AL["Henry Stern"] = true, --Is in BabbleBoss
 	AL["Aggem Thorncurse"] = "Aggem Malépine";
 	--AL["Roogug"] = true,
 	AL["Rajaxx's Captains"] = "Les Capitaines de Rajaxx";
@@ -1301,7 +1301,7 @@ if AL then
 	AL["Kalldan Felmoon"] = "Kalldan Gangrelune";
 	AL["Magregan Deepshadow"] = "Magregan Fondombre";
 	AL["Lord Ahune"] = "Seigneur Ahune";
-	AL["Coren Direbrew"] = "Coren Navrebière";
+	AL["Coren Direbrew"] = "Coren Navrebière"; --Is in BabbleBoss
 	--AL["Don Carlos"] = true,
 	--AL["Thomas Yance"] = true;
 	AL["Aged Dalaran Wizard"] = "Sorcier de Dalaran âgé";
@@ -1313,6 +1313,9 @@ if AL then
 	--AL["Bjarngrim"] = true; --Is in BabbleBoss
 	--AL["Loken"] = true;
 	AL["Time-Lost Proto Drake"] = "Rênes de proto-drake perdu dans le temps";
+	AL["Faction Champions"] = "Champions de faction"; -- if you have a better name, use it.
+	AL["Razzashi Raptor"] = "Raptor Razzashi";
+	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
 
 	-- Zones
 	--AL["World Drop"] = true,
