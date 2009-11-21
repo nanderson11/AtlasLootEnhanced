@@ -33,6 +33,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Trial of the Crusader
 ---- Trial of the Grand Crusader
 ---- Onyxia (Level 80)
+---- Icecrown Citadel
+----- Lower Spire
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -4485,11 +4487,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 47718, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
 		{ 4, 47717, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
 		{ 5, 47720, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
-		{ 7, 47724, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		{ 16, 47728, "", "=q4=Binding Light", "=ds=#s14#"};
-		{ 17, 47727, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
-		{ 18, 47726, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
-		{ 19, 47725, "", "=q4=Victor's Call", "=ds=#s14#"};
+		{ 7, 47728, "", "=q4=Binding Light", "=ds=#s14#"};
+		{ 8, 47727, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
+		{ 9, 47726, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
+		{ 10, 47725, "", "=q4=Victor's Call", "=ds=#s14#"};
+		{ 16, 47724, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_A";
 		Next = "TrialoftheCrusaderTwinValkyrs_A";
 	};
@@ -4500,11 +4502,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 47875, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
 		{ 4, 47876, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
 		{ 5, 47877, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
-		{ 7, 47874, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
-		{ 16, 47880, "", "=q4=Binding Stone", "=ds=#s14#"};
-		{ 17, 47882, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
-		{ 18, 47879, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
-		{ 19, 47881, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
+		{ 7, 47880, "", "=q4=Binding Stone", "=ds=#s14#"};
+		{ 8, 47882, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
+		{ 9, 47879, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
+		{ 10, 47881, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
+		{ 16, 47874, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_H";
 		Next = "TrialoftheCrusaderTwinValkyrs_H";
 	};
@@ -4524,8 +4526,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		{ 18, 47070, "", "=q4=Ring of Callous Aggression", "=ds=#s13#"};
 		{ 19, 47080, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#"};
-		{ 20, 47069, "", "=q4=Justicebringer", "=ds=#h2#, #w1#"};
-		{ 21, 47079, "", "=q4=Bastion of Purity", "=ds=#w8#"};
+		{ 21, 47069, "", "=q4=Justicebringer", "=ds=#h2#, #w1#"};
+		{ 22, 47079, "", "=q4=Bastion of Purity", "=ds=#w8#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_A25Man";
 		Next = "TrialoftheCrusaderTwinValkyrs_A25Man";
 	};
@@ -4545,8 +4547,8 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		{ 18, 47282, "", "=q4=Band of Callous Aggression", "=ds=#s13#"};
 		{ 19, 47290, "", "=q4=Juggernaut's Vitality", "=ds=#s14#"};
-		{ 20, 47285, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#"};
-		{ 21, 47287, "", "=q4=Bastion of Resolve", "=ds=#w8#"};
+		{ 21, 47285, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#"};
+		{ 22, 47287, "", "=q4=Bastion of Resolve", "=ds=#w8#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_H25Man";
 		Next = "TrialoftheCrusaderTwinValkyrs_H25Man";
 	};
@@ -4596,14 +4598,14 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 47142, "", "=q4=Breastplate of the Frozen Lake", "=ds=#s5#, #a4#"};
 		{ 7, 47108, "", "=q4=Bracers of the Shieldmaiden", "=ds=#s8#, #a4#"};
 		{ 8, 47121, "", "=q4=Legguards of Ascension", "=ds=#s11#, #a4#"};
-		{ 10, 47104, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
-		{ 11, 47114, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
+		{ 10, 47116, "", "=q4=The Arbiter's Muse", "=ds=#s2#"};
+		{ 11, 47105, "", "=q4=The Executioner's Malice", "=ds=#s2#"};
+		{ 12, 47139, "", "=q4=Wail of the Val'kyr", "=ds=#s2#"};
+		{ 13, 47115, "", "=q4=Death's Verdict", "=ds=#s14#"};
+		{ 14, 47138, "", "=q4=Chalice of Searing Light", "=ds=#s15#"};
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-		{ 18, 47116, "", "=q4=The Arbiter's Muse", "=ds=#s2#"};
-		{ 19, 47105, "", "=q4=The Executioner's Malice", "=ds=#s2#"};
-		{ 20, 47139, "", "=q4=Wail of the Val'kyr", "=ds=#s2#"};
-		{ 21, 47115, "", "=q4=Death's Verdict", "=ds=#s14#"};
-		{ 22, 47138, "", "=q4=Chalice of Searing Light", "=ds=#s15#"};
+		{ 18, 47104, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
+		{ 19, 47114, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
 		Prev = "TrialoftheCrusaderFactionChampions_A25Man";
 		Next = "TrialoftheCrusaderAnubarak_A25Man";
 	};
@@ -4617,14 +4619,14 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 47310, "", "=q4=Chestplate of the Frozen Lake", "=ds=#s5#, #a4#"};
 		{ 7, 47298, "", "=q4=Armguards of the Shieldmaiden", "=ds=#s8#, #a4#"};
 		{ 8, 47304, "", "=q4=Legplates of Ascension", "=ds=#s11#, #a4#"};
-		{ 10, 47300, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
-		{ 11, 47302, "", "=q4=Twin's Pact", "=ds=#w9#"};
+		{ 10, 47307, "", "=q4=Cry of the Val'kyr", "=ds=#s2#"};
+		{ 11, 47305, "", "=q4=Legionnaire's Gorget", "=ds=#s2#"};
+		{ 12, 47297, "", "=q4=The Executioner's Vice", "=ds=#s2#"};
+		{ 13, 47303, "", "=q4=Death's Choice", "=ds=#s14#"};
+		{ 14, 47309, "", "=q4=Mystifying Charm", "=ds=#s15#"};
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-		{ 18, 47307, "", "=q4=Cry of the Val'kyr", "=ds=#s2#"};
-		{ 19, 47305, "", "=q4=Legionnaire's Gorget", "=ds=#s2#"};
-		{ 20, 47297, "", "=q4=The Executioner's Vice", "=ds=#s2#"};
-		{ 21, 47303, "", "=q4=Death's Choice", "=ds=#s14#"};
-		{ 22, 47309, "", "=q4=Mystifying Charm", "=ds=#s15#"};
+		{ 18, 47300, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
+		{ 19, 47302, "", "=q4=Twin's Pact", "=ds=#w9#"};
 		Prev = "TrialoftheCrusaderFactionChampions_H25Man";
 		Next = "TrialoftheCrusaderAnubarak_H25Man";
 	};
@@ -4933,11 +4935,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 47942, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
 		{ 4, 47943, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
 		{ 5, 47944, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
-		{ 7, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		{ 16, 47947, "", "=q4=Binding Light", "=ds=#s14#"};
-		{ 17, 47949, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
-		{ 18, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
-		{ 19, 47948, "", "=q4=Victor's Call", "=ds=#s14#"};
+		{ 7, 47947, "", "=q4=Binding Light", "=ds=#s14#"};
+		{ 8, 47949, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
+		{ 9, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
+		{ 10, 47948, "", "=q4=Victor's Call", "=ds=#s14#"};
+		{ 16, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_AHEROIC";
 		Next = "TrialoftheCrusaderTwinValkyrs_AHEROIC";
 	};
@@ -4948,11 +4950,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 3, 48014, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
 		{ 4, 48015, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
 		{ 5, 48016, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
-		{ 7, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
-		{ 16, 48019, "", "=q4=Binding Stone", "=ds=#s14#"};
-		{ 17, 48021, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
-		{ 18, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
-		{ 19, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
+		{ 7, 48019, "", "=q4=Binding Stone", "=ds=#s14#"};
+		{ 8, 48021, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
+		{ 9, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
+		{ 10, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
+		{ 16, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
 		Prev = "TrialoftheCrusaderLordJaraxxus_HHEROIC";
 		Next = "TrialoftheCrusaderTwinValkyrs_HHEROIC";
 	};
@@ -5044,14 +5046,14 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 47147, "", "=q4=Breastplate of the Frozen Lake", "=ds=#s5#, #a4#"};
 		{ 7, 47111, "", "=q4=Bracers of the Shieldmaiden", "=ds=#s8#, #a4#"};
 		{ 8, 47132, "", "=q4=Legguards of Ascension", "=ds=#s11#, #a4#"};
-		{ 10, 47113, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
-		{ 11, 47130, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
+		{ 10, 47133, "", "=q4=The Arbiter's Muse", "=ds=#s2#"};
+		{ 11, 47110, "", "=q4=The Executioner's Malice", "=ds=#s2#"};
+		{ 12, 47144, "", "=q4=Wail of the Val'kyr", "=ds=#s2#"};
+		{ 13, 47131, "", "=q4=Death's Verdict", "=ds=#s14#"};
+		{ 14, 47146, "", "=q4=Chalice of Searing Light", "=ds=#s15#"};
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-		{ 18, 47133, "", "=q4=The Arbiter's Muse", "=ds=#s2#"};
-		{ 19, 47110, "", "=q4=The Executioner's Malice", "=ds=#s2#"};
-		{ 20, 47144, "", "=q4=Wail of the Val'kyr", "=ds=#s2#"};
-		{ 21, 47131, "", "=q4=Death's Verdict", "=ds=#s14#"};
-		{ 22, 47146, "", "=q4=Chalice of Searing Light", "=ds=#s15#"};
+		{ 18, 47113, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
+		{ 19, 47130, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
 		Prev = "TrialoftheCrusaderFactionChampions_A25ManHEROIC";
 		Next = "TrialoftheCrusaderAnubarak_A25ManHEROIC";
 	};
@@ -5065,14 +5067,14 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 6, 47471, "", "=q4=Chestplate of the Frozen Lake", "=ds=#s5#, #a4#"};
 		{ 7, 47459, "", "=q4=Armguards of the Shieldmaiden", "=ds=#s8#, #a4#"};
 		{ 8, 47465, "", "=q4=Legplates of Ascension", "=ds=#s11#, #a4#"};
-		{ 10, 47461, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
-		{ 11, 47463, "", "=q4=Twin's Pact", "=ds=#w9#"};
+		{ 10, 47468, "", "=q4=Cry of the Val'kyr", "=ds=#s2#"};
+		{ 11, 47466, "", "=q4=Legionnaire's Gorget", "=ds=#s2#"};
+		{ 12, 47458, "", "=q4=The Executioner's Vice", "=ds=#s2#"};
+		{ 13, 47464, "", "=q4=Death's Choice", "=ds=#s14#"};
+		{ 14, 47470, "", "=q4=Mystifying Charm", "=ds=#s15#"};
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-		{ 18, 47468, "", "=q4=Cry of the Val'kyr", "=ds=#s2#"};
-		{ 19, 47466, "", "=q4=Legionnaire's Gorget", "=ds=#s2#"};
-		{ 20, 47458, "", "=q4=The Executioner's Vice", "=ds=#s2#"};
-		{ 21, 47464, "", "=q4=Death's Choice", "=ds=#s14#"};
-		{ 22, 47470, "", "=q4=Mystifying Charm", "=ds=#s15#"};
+		{ 18, 47461, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
+		{ 19, 47463, "", "=q4=Twin's Pact", "=ds=#w9#"};
 		Prev = "TrialoftheCrusaderFactionChampions_H25ManHEROIC";
 		Next = "TrialoftheCrusaderAnubarak_H25ManHEROIC";
 	};
@@ -5379,6 +5381,123 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 22, 49294, "", "=q4=Ashen Sack of Gems", "=ds=#e7# #e1#", "" };
 		{ 24, 49636, "", "=q4=Reins of the Onyxian Drake", "=ds=#e12#", "" };
 		Prev = "Onyxia_125Man";
+	};
+
+		------------------------
+		--- Icecrown Citadel ---
+		------------------------
+
+		-------------------
+		--- Lower Spire ---
+		-------------------
+
+	AtlasLoot_Data["ICCLordMarrowgar"] = {
+		{ 1, 50764, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#"};
+		{ 2, 50773, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#"};
+		{ 3, 50774, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#"};
+		{ 4, 50762, "", "=q4=Linked Scourge Vertebrae", "=ds=#s10#, #a3#"};
+		{ 5, 50775, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#"};
+		{ 6, 50772, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#"};
+		{ 8, 50763, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#"};
+		{ 16, 50759, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
+		{ 17, 50760, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
+		{ 18, 50771, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
+		{ 19, 50761, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#"};
+		Next = "ICCLadyDeathwhisper";
+	};
+
+	AtlasLoot_Data["ICCLordMarrowgar25Man"] = {
+		{ 1, 49978, "", "=q4=Crushing Coldwraith Belt", "=ds=#s10#, #a1#"};
+		{ 2, 49979, "", "=q4=Handguards of Winter's Respite", "=ds=#s9#, #a2#"};
+		{ 3, 49950, "", "=q4=Frostbitten Fur Boots", "=ds=#s12#, #a2#"};
+		{ 4, 49952, "", "=q4=Snowserpent Mail Helm", "=ds=#s1#, #a3#"};
+		{ 5, 49980, "", "=q4=Rusted Bonespike Pauldrons", "=ds=#s3#, #a4#"};
+		{ 6, 49951, "", "=q4=Gendarme's Cuirass", "=ds=#s5#, #a4#"};
+		{ 7, 49960, "", "=q4=Bracers of Dark Reckoning", "=ds=#s8#, #a4#"};
+		{ 8, 49964, "", "=q4=Legguards of Lost Hope", "=ds=#s11#, #a4#"};
+		{ 10, 49975, "", "=q4=Bone Sentinel's Amulet", "=ds=#s2#"};
+		{ 11, 49949, "", "=q4=Band of the Bone Colossus", "=ds=#s13#"};
+		{ 12, 49977, "", "=q4=Loop of the Endless Labyrinth", "=ds=#s13#"};
+		{ 13, 49967, "", "=q4=Marrowgar's Frigid Eye", "=ds=#s13#"};
+		{ 16, 49968, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#"};
+		{ 17, 50415, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
+		{ 18, 49976, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
+		Next = "ICCLadyDeathwhisper25Man";
+	};
+
+	AtlasLoot_Data["ICCLadyDeathwhisper"] = {
+		Prev = "ICCLordMarrowgar";
+		Next = "ICCGunshipBattle";
+	};
+
+	AtlasLoot_Data["ICCLadyDeathwhisper25Man"] = {
+		Prev = "ICCLordMarrowgar25Man";
+		Next = "ICCGunshipBattle25Man";
+	};
+
+	AtlasLoot_Data["ICCGunshipBattle"] = {
+		{ 1, 50791, "", "=q4=Saronite Gargoyle Cloak", "=ds=#s4#"};
+		{ 2, 50795, "", "=q4=Cord of Dark Suffering", "=ds=#s10#, #a2#"};
+		{ 3, 50797, "", "=q4=Ice-Reinforced Vrykul Helm", "=ds=#s1#, #a3#"};
+		{ 4, 50792, "", "=q4=Pauldrons of Lost Hope", "=ds=#s3#, #a3#"};
+		{ 5, 50789, "", "=q4=Icecrown Rampart Bracers", "=ds=#s8#, #a3#"};
+		{ 6, 50796, "", "=q4=Bracers of Pale Illumination", "=ds=#s8#, #a4#"};
+		{ 7, 50788, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#"};
+		{ 9, 50790, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#"};
+		{ 10, 50340, "", "=q4=Muradin's Spyglass", "=ds=#s14#"};
+		{ 11, 50341, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
+		{ 16, 50787, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
+		{ 17, 50793, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
+		{ 18, 50794, "", "=q4=Neverending Winter", "=ds=#w8#"};
+		Prev = "ICCLadyDeathwhisper";
+		Next = "ICCSaurfang";
+	};
+
+	AtlasLoot_Data["ICCGunshipBattle25Man"] = {
+		{ 1, 49998, "", "=q4=Shadowvault Slayer's Cloak", "=ds=#s4#"};
+		{ 2, 50006, "", "=q4=Corp'rethar Ceremonial Crown", "=ds=#s1#, #a1#"};
+		{ 3, 50011, "", "=q4=Gunship Captain's Mittens", "=ds=#s9#, #a1#"};
+		{ 4, 50001, "", "=q4=Ikfirus's Sack of Wonder", "=ds=#s5#, #a2#"};
+		{ 5, 50009, "", "=q4=Boots of Unnatural Growth", "=ds=#s12#, #a2#"};
+		{ 6, 50000, "", "=q4=Scourge Hunter's Vambraces", "=ds=#s8#, #a3#"};
+		{ 7, 50003, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 8, 50002, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
+		{ 9, 50010, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
+		{ 16, 50005, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
+		{ 17, 50008, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
+		{ 18, 49999, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
+		{ 19, 50359, "", "=q4=Althor's Abacus", "=ds=#s14#"};
+		{ 20, 50352, "", "=q4=Corpse Tongue Coin", "=ds=#s14#"};
+		{ 22, 50411, "", "=q4=Scourgeborne Waraxe", "=ds=#h1#, #w1#"};
+		Prev = "ICCLadyDeathwhisper25Man";
+		Next = "ICCSaurfang25Man";
+	};
+
+	AtlasLoot_Data["ICCSaurfang"] = {
+		{ 1, 50807, "", "=q4=Thaumaturge's Crackling Cowl", "=ds=#s1#, #a1#"};
+		{ 2, 50804, "", "=q4=Icecrown Spire Sandals", "=ds=#s12#, #a1#"};
+		{ 3, 50799, "", "=q4=Scourge Stranglers", "=ds=#s9#, #a2#"};
+		{ 4, 50806, "", "=q4=Leggings of Unrelenting Blood", "=ds=#s11#, #a2#"};
+		{ 5, 50800, "", "=q4=Hauberk of a Thousand Cuts", "=ds=#s5#, #a3#"};
+		{ 6, 50801, "", "=q4=Blade-Scored Carapace", "=ds=#s5#, #a4#"};
+		{ 7, 50802, "", "=q4=Gargoyle Spit Bracers", "=ds=#s8#, #a4#"};
+		{ 8, 50808, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#"};
+		{ 16, 50809, "", "=q4=Soulcleave Pendant", "=ds=#s2#"};
+		{ 17, 50803, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#"};
+		{ 19, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h3#, #w1#"};
+		{ 20, 50805, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
+		Prev = "ICCGunshipBattle";
+		Next = "";
+	};
+
+	AtlasLoot_Data["ICCSaurfang25Man"] = {
+		{ 1, 50014, "", "=q4=Greatcloak of the Turned Champion", "=ds=#s4#"};
+		{ 2, 50333, "", "=q4=Toskk's Maximized Wristguards", "=ds=#s8#, #a2#"};
+		{ 3, 50015, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#"};
+		{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
+		{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
+		Prev = "ICCGunshipBattle25Man";
+		Next = "";
 	};
 
 	----------------

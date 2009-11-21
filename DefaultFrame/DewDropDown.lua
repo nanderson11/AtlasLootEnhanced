@@ -181,48 +181,51 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
 			[8] = {
-				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
+				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
 			},
 			[9] = {
-				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
+				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
 			[10] = {
-				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
+				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
 			},
 			[11] = {
-				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
+				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
 			[12] = {
-				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
+				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
 			[13] = {
-				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
+				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
 			[14] = {
-				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
+				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
 			[15] = {
+				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
+			},
+			[16] = {
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
 				},
 			},
-			[16] = {
+			[17] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
-			[17] = {
+			[18] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
-			[18] = {
+			[19] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[19] = {
+			[20] = {
 				[BabbleZone["Vault of Archavon"]] = {
 					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
 					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
 				},
 			},
-			[20] = {
+			[21] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
@@ -854,5 +857,11 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "DLethon"},
 		{ "", "DTaerar" },
 		{ "", "DYsondre" },
+	},
+	["IcecrownCitadel"] = {
+		{ "", "ICCLordMarrowgar" },
+		{ "", "ICCLadyDeathwhisper" },
+		{ "", "ICCGunshipBattle" },
+		{ "", "ICCSaurfang" },
 	},
 };

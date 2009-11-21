@@ -324,6 +324,15 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["Onyxia_2"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Onyxia_125Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Onyxia_225Man"] = { BabbleBoss["Onyxia"], "AtlasLootWotLK" };
+  -- Icecrown Citadel
+	AtlasLoot_TableNames["ICCLordMarrowgar"] = { BabbleBoss["Lord Marrowgar"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCLordMarrowgar25Man"] = { BabbleBoss["Lord Marrowgar"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCLadyDeathwhisper"] = { BabbleBoss["Lady Deathwhisper"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCLadyDeathwhisper25Man"] = { BabbleBoss["Lady Deathwhisper"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCGunshipBattle"] = { BabbleBoss["Icecrown Gunship Battle"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCGunshipBattle25Man"] = { BabbleBoss["Icecrown Gunship Battle"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCSaurfang"] = { BabbleBoss["Deathbringer Saurfang"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCSaurfang25Man"] = { BabbleBoss["Deathbringer Saurfang"], "AtlasLootWotLK" };
 
 --------------------
 --- BC Instances ---
