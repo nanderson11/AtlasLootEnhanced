@@ -196,6 +196,7 @@ if AL then
 
 	-- World Events
 	AL["Abyssal Council"] = true;
+	AL["Argent Tournament"] = true;
 	AL["Bash'ir Landing Skyguard Raid"] = true;
 	AL["Brewfest"] = true;
 	AL["Children's Week"] = true;
@@ -210,9 +211,9 @@ if AL then
 	AL["Lunar Festival"] = true;
 	AL["Midsummer Fire Festival"] = true;
 	AL["Noblegarden"] = true;
+	AL["Pilgrim's Bounty"] = true;
 	AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = true;
-	AL["Argent Tournament"] = true;
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = true;

@@ -16,6 +16,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 ---- Lunar Festival
 ---- Midsummer Fire Festival
 ---- Noblegarden
+---- Pilgrim's Bounty
 --- Reaccouring Events
 ---- Bash'ir Landing Skyguard Raid
 ---- Darkmoon Faire
@@ -711,6 +712,57 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 13, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
 		{ 14, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
 		Back = "WORLDEVENTMENU";
+	};
+		------------------------
+		--- Pilgrim's Bounty ---
+		------------------------
+
+	AtlasLoot_Data["PilgrimsBountyA"] = {
+		{ 1, 46809, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
+		{ 2, 44860, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
+		{ 3, 44862, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
+		{ 4, 44858, "", "=q1=Recipe: Cranberry Chutney", "=ds=#p3# (160)"};
+		{ 5, 44859, "", "=q1=Recipe: Candied Sweet Potato", "=ds=#p3# (220)"};
+		{ 6, 44861, "", "=q1=Recipe: Slow-Roasted Turkey", "=ds=#p3# (280)"};
+		{ 7, 46888, "", "=q1=Bountiful Basket", "=ds=#e3#, #p3# (350)"};
+		{ 8, 44855, "", "=q1=Teldrassil Sweet Potato", "=ds=#e3#"};
+		{ 9, 44854, "", "=q1=Tangy Wetland Cranberries", "=ds=#e3#"};
+		{ 10, 46784, "", "=q1=Ripe Elwynn Pumpkin", "=ds=#e3#"};
+		{ 11, 44835, "", "=q1=Autumnal Herbs", "=ds=#e6#"};
+		{ 12, 44853, "", "=q1=Honey", "=ds=#e6#"};
+		{ 16, 44810, "", "=q3=Turkey Cage", "=q1=#m32#: =ds=#e13#"};
+		{ 17, 46723, "", "=q1=Pilgrim's Hat", "=q1=#m4#: =ds=#s1#"};
+		{ 18, 46800, "", "=q1=Pilgrim's Attire", "=q1=#m4#: =ds=#s5#"};
+		{ 19, 44785, "", "=q1=Pilgrim's Dress", "=q1=#m4#: =ds=#s5#"};
+		{ 20, 46824, "", "=q1=Pilgrim's Robe", "=q1=#m4#: =ds=#s5#"};
+		{ 21, 44788, "", "=q1=Pilgrim's Boots", "=q1=#m4#: =ds=#s12#"};
+		{ 22, 44844, "", "=q1=Turkey Caller", "=q1=#m4#: =ds="};
+		{ 23, 44812, "", "=q1=Turkey Shooter", "=q1=#m4#: =ds="};
+		Back = "PILGRIMSBOUNTYMENU";
+	};
+
+	AtlasLoot_Data["PilgrimsBountyH"] = {
+		{ 1, 46810, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
+		{ 2, 46803, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
+		{ 3, 46804, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
+		{ 4, 46805, "", "=q1=Recipe: Cranberry Chutney", "=ds=#p3# (160)"};
+		{ 5, 46806, "", "=q1=Recipe: Candied Sweet Potato", "=ds=#p3# (220)"};
+		{ 6, 46807, "", "=q1=Recipe: Slow-Roasted Turkey", "=ds=#p3# (280)"};
+		{ 7, 46888, "", "=q1=Bountiful Basket", "=ds=#e3#, #p3# (350)"};
+		{ 8, 46797, "", "=q1=Mulgore Sweet Potato", "=ds=#e3#"};
+		{ 9, 46793, "", "=q1=Tangy Southfury Cranberries ", "=ds=#e3#"};
+		{ 10, 46796, "", "=q1=Ripe Tirisfal Pumpkin ", "=ds=#e3#"};
+		{ 11, 44835, "", "=q1=Autumnal Herbs", "=ds=#e6#"};
+		{ 12, 44853, "", "=q1=Honey", "=ds=#e6#"};
+		{ 16, 44810, "", "=q3=Turkey Cage", "=q1=#m32#: =ds=#e13#"};
+		{ 17, 46723, "", "=q1=Pilgrim's Hat", "=q1=#m4#: =ds=#s1#"};
+		{ 18, 46800, "", "=q1=Pilgrim's Attire", "=q1=#m4#: =ds=#s5#"};
+		{ 19, 44785, "", "=q1=Pilgrim's Dress", "=q1=#m4#: =ds=#s5#"};
+		{ 20, 46824, "", "=q1=Pilgrim's Robe", "=q1=#m4#: =ds=#s5#"};
+		{ 21, 44788, "", "=q1=Pilgrim's Boots", "=q1=#m4#: =ds=#s12#"};
+		{ 22, 44844, "", "=q1=Turkey Caller", "=q1=#m4#: =ds="};
+		{ 23, 44812, "", "=q1=Turkey Shooter", "=q1=#m4#: =ds="};
+		Back = "PILGRIMSBOUNTYMENU";
 	};
 
 	--------------------------
