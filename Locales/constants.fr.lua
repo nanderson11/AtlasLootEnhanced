@@ -196,6 +196,7 @@ if AL then
 
 	-- World Events
 	AL["Abyssal Council"] = "Conseil abyssal";
+	AL["Argent Tournament"] = "Tournoi d'Argent";
 	AL["Bash'ir Landing Skyguard Raid"] = "Point d'ancrage de Bash'ir";
 	AL["Brewfest"] = "La fête des Brasseurs";
 	AL["Children's Week"] = "La Semaine des enfants";
@@ -210,9 +211,9 @@ if AL then
 	AL["Lunar Festival"] = "La fête lunaire";
 	AL["Midsummer Fire Festival"] = "Solstice d'été : la fête du Feu";
 	AL["Noblegarden"] = "Le jardin des nobles";
+	AL["Pilgrim's Bounty"] = "Bienfaits du pèlerin";
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
-	AL["Argent Tournament"] = "Tournoi d'Argent";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcours des Listes d'Objets";
