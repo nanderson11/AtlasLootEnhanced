@@ -5426,11 +5426,35 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	};
 
 	AtlasLoot_Data["ICCLadyDeathwhisper"] = {
+		{ 1, 50785, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#"};
+		{ 2, 50782, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#"};
+		{ 3, 50780, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#"};
+		{ 4, 50788, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#"};
+		{ 5, 50783, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#"};
+		{ 6, 50777, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#"};
+		{ 7, 50784, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#"};
+		{ 8, 50779, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#"};
+		{ 9, 50786, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
+		{ 16, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
+		{ 18, 50776, "", "=q4=Njordnar Bone Bow", "=ds=#w2#"};
 		Prev = "ICCLordMarrowgar";
 		Next = "ICCGunshipBattle";
 	};
 
 	AtlasLoot_Data["ICCLadyDeathwhisper25Man"] = {
+		{ 1, 49991, "", "=q4=Shoulders of Mercy Killing", "=ds=#s3#, #a1#"};
+		{ 2, 49994, "", "=q4=The Lady's Brittle Bracers", "=ds=#s8#, #a1#"};
+		{ 3, 49987, "", "=q4=Cultist's Bloodsoaked Spaulders", "=ds=#s3#, #a2#"};
+		{ 4, 49996, "", "=q4=Deathwhisper Chestpiece", "=ds=#s5#, #a2#"};
+		{ 5, 49988, "", "=q4=Leggings of Northern Lights", "=ds=#s11#, #a3#"};
+		{ 6, 49993, "", "=q4=Necrophotic Greaves", "=ds=#s12#, #a3#"};
+		{ 7, 49986, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#"};
+		{ 8, 49995, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#"};
+		{ 9, 49983, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#"};
+		{ 16, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
+		{ 17, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
+		{ 18, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
+		{ 20, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
 		Prev = "ICCLordMarrowgar25Man";
 		Next = "ICCGunshipBattle25Man";
 	};
@@ -5487,7 +5511,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 19, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h3#, #w1#"};
 		{ 20, 50805, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
 		Prev = "ICCGunshipBattle";
-		Next = "";
 	};
 
 	AtlasLoot_Data["ICCSaurfang25Man"] = {
@@ -5497,7 +5520,6 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
 		{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
 		Prev = "ICCGunshipBattle25Man";
-		Next = "";
 	};
 
 	----------------
