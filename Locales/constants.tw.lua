@@ -149,6 +149,7 @@ if AL then
 	AL["Emblem of Heroism Rewards"] = "英雄紋章獎勵";
 	AL["Emblem of Conquest Rewards"] = "征服紋章獎勵";
 	AL["Emblem of Triumph Rewards"] = "凱旋紋章獎勵";
+	AL["Emblem of Frost Rewards"] = "冰霜紋章獎勵";
 	AL["BoE World Epics"] = "裝綁世界掉落紫裝";
 	AL["Dungeon 1/2 Sets"] = "副本套裝 1/2";
 	AL["Dungeon 3 Sets"] = "副本套裝 3";
@@ -190,12 +191,13 @@ if AL then
 	AL["PvP Misc"] = "PvP 珠寶加工設計圖";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
 	AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
-    AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";
-    AL["Arena Season 7 Sets"] = "競技場第七季 PvP 套裝";
-    AL["PvP Class Items"] = "PvP 職業物品";
+	AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";
+	AL["Arena Season 7 Sets"] = "競技場第七季 PvP 套裝";
+	AL["PvP Class Items"] = "PvP 職業物品";
 
 	--World Events
 	AL["Abyssal Council"] = "深淵議會";
+	AL["Argent Tournament"] = "銀白聯賽";
 	AL["Bash'ir Landing Skyguard Raid"] = "貝許爾平臺空防";
 	AL["Brewfest"] = "啤酒節";
 	AL["Children's Week"] = "兒童週";
@@ -210,9 +212,9 @@ if AL then
 	AL["Lunar Festival"] = "農曆新年慶典";
 	AL["Midsummer Fire Festival"] = "仲夏火焰節慶";
 	AL["Noblegarden"] = "彩蛋節";
+	AL["Pilgrim's Bounty"] = "旅人豐年祭";
 	AL["Skettis"] = "司凱堤斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
-	AL["Argent Tournament"] = "銀白聯賽";
 
 	--Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00左鍵|r 瀏覽物品掉落表";
@@ -274,6 +276,7 @@ if AL then
 	AL["Set"] = "套裝";
 	AL["Token"] = "勳章";
 	AL["Tokens"] = "勳章";
+--	AL["Token Hand-Ins"] = true;
 	AL["Skinning Knife"] = "剝皮小刀";
 	AL["Herbalism Knife"] = "草藥刀";
 	AL["Fish"] = "釣魚";
@@ -442,6 +445,7 @@ if AL then
 	AL["Random"] = "隨機";
 	AL["Tier 8 Sets"] = "T8 套裝";
 	AL["Tier 9 Sets"] = "T9 套裝";
+	AL["Tier 10 Sets"] = "T10 套裝";
 	AL["Furious Gladiator Sets"] = "狂烈鬥士套裝";
 	AL["Relentless Gladiator Sets"] = "無情鬥士套裝";
 	AL["Brew of the Month Club"] = "每月啤酒俱樂部";
