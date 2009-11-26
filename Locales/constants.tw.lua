@@ -482,11 +482,11 @@ if AL then
 	--Pets
 	AL["Pets"] = "寵物";
 	AL["Promotional"] = "促銷";
+	AL["Pet Store"] = "寵物商店";
 	AL["Merchant Sold"] = "商人販售";
 	AL["Rare"] = "稀有";
 	AL["Achievement"] = "成就";
 	AL["Faction"] = "陣營";
-	AL["Faction"] = "派別";
 	AL["Dungeon/Raid"] = "副本/團隊";
 
 	--Mounts
@@ -1316,6 +1316,8 @@ if AL then
 	AL["Loken"] = "洛肯"; --Is in BabbleBoss
 	AL["Time-Lost Proto Drake"] = "時光流逝元龍";
 	AL["Faction Champions"] = "陣營勇士"; -- if you have a better name, use it.
+	AL["Razzashi Raptor"] = "拉札希迅猛龍";
+	AL["Deviate Ravager/Deviate Guardian"] = "變異劫毀者/變異守護者";
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
