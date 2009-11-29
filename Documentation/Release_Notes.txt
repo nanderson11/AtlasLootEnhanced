@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v5.08.10
+Attempt to make the mod more resistant to errors
+
 v5.08.09
 Pilgrim's Bounty loot
 More loot in preparation of Patch 3.3 (only on PTR)
