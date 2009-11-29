@@ -5391,7 +5391,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		--- Lower Spire ---
 		-------------------
 
-	AtlasLoot_Data["ICCLordMarrowgar"] = {
+	--[[AtlasLoot_Data["ICCLordMarrowgar"] = {
 		{ 1, 50764, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#"};
 		{ 2, 50773, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#"};
 		{ 3, 50774, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#"};
@@ -5520,7 +5520,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
 		{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
 		Prev = "ICCGunshipBattle25Man";
-	};
+	};]]
 
 	----------------
 	--- Factions ---

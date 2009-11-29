@@ -180,52 +180,52 @@ AtlasLoot_DewDropDown = {
 			[7] = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
-			[8] = {
+			--[[[8] = {
 				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
-			},
-			[9] = {
+			},]]
+			[8] = {
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
-			[10] = {
+			[9] = {
 				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
 			},
-			[11] = {
+			[10] = {
 				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
-			[12] = {
+			[11] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
-			[13] = {
+			[12] = {
 				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
-			[14] = {
+			[13] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
-			[15] = {
+			[14] = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
-			[16] = {
+			[15] = {
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
 				},
 			},
-			[17] = {
+			[16] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
-			[18] = {
+			[17] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
-			[19] = {
+			[18] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[20] = {
+			[19] = {
 				[BabbleZone["Vault of Archavon"]] = {
 					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
 					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
 				},
 			},
-			[21] = {
+			[20] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
@@ -858,10 +858,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "DTaerar" },
 		{ "", "DYsondre" },
 	},
-	["IcecrownCitadel"] = {
+	--[[["IcecrownCitadel"] = {
 		{ "", "ICCLordMarrowgar" },
 		{ "", "ICCLadyDeathwhisper" },
 		{ "", "ICCGunshipBattle" },
 		{ "", "ICCSaurfang" },
-	},
+	},]]
 };
