@@ -9,6 +9,7 @@ The AL["text"] = true; shortcut can ONLY be used for English (the root translati
 
 --Table holding all loot tables is initialised here as it loads early
 AtlasLoot_Data = {};
+AtlasLoot_TableNames = {};
 
 --Create the library instance
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");

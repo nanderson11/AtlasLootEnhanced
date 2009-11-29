@@ -45,7 +45,9 @@ local SHADOWEAVE = GetSpellInfo(26801);
 local SPELLFIRE = GetSpellInfo(26797);
 
 -- Table of loot titles
-AtlasLoot_TableNames = {};
+if not AtlasLoot_TableNames then
+    AtlasLoot_TableNames = {};
+end
 
 -----------------------
 --- WotLK Instances ---

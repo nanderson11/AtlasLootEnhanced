@@ -190,6 +190,14 @@ function AtlasLoot_OnVariablesLoaded()
     if not AtlasLootCharDB["QuickLooks"] then AtlasLootCharDB["QuickLooks"] = {} end
 	if not AtlasLootCharDB["SearchResult"] then AtlasLootCharDB["SearchResult"] = {} end
 	AtlasLoot.db.profile.LastBoss = "EmptyTable";
+    if AtlasLoot_TableNames then
+        AtlasLoot_TableNames["EmptyTable"] = { AL["Select a Loot Table..."], "Menu" };
+	    AtlasLoot_TableNames["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" };
+	    AtlasLoot_TableNames["AtlasLootFallback"] = { "AtlasLoot", "AtlasLootFallback" };
+    end
+    if AtlasLoot_Data then
+        AtlasLoot_Data["EmptyTable"] = {};
+    end
     --Add the loot browser to the special frames tables to enable closing wih the ESC key
 	tinsert(UISpecialFrames, "AtlasLootDefaultFrame");
 	--Set up options frame
