@@ -276,7 +276,7 @@ if AL then
 	AL["Set"] = "套裝";
 	AL["Token"] = "勳章";
 	AL["Tokens"] = "勳章";
---	AL["Token Hand-Ins"] = true;
+	AL["Token Hand-Ins"] = "勳章繳交";
 	AL["Skinning Knife"] = "剝皮小刀";
 	AL["Herbalism Knife"] = "草藥刀";
 	AL["Fish"] = "釣魚";
@@ -1294,7 +1294,7 @@ if AL then
 	AL["Namdo Bizzfizzle"] = "納姆杜";
 	AL["The Nameles Prophet"] = "無名預言者";
 	AL["Zelemar the Wrathful"] = "『憤怒者』賽勒瑪爾";
-	AL["Henry Stern"] = "亨利·斯特恩";
+	AL["Henry Stern"] = "亨利·斯特恩"; --Is in BabbleBoss
 	AL["Aggem Thorncurse"] = "阿格姆";
 	AL["Roogug"] = "魯古格";
 	AL["Rajaxx's Captains"] = "拉賈克斯的上尉們";
@@ -1303,7 +1303,7 @@ if AL then
 	AL["Kalldan Felmoon"] = "卡爾丹·暗月";
 	AL["Magregan Deepshadow"] = "馬格雷甘·深影";
 	AL["Lord Ahune"] = "艾胡恩";
-	AL["Coren Direbrew"] = "寇仁·恐酒";
+	AL["Coren Direbrew"] = "寇仁·恐酒"; --Is in BabbleBoss
 	AL["Don Carlos"] = "卡洛斯先生龍舌蘭酒";
 	AL["Thomas Yance"] = "湯瑪斯·陽斯";
 	AL["Aged Dalaran Wizard"] = "年邁的達拉然巫師";
