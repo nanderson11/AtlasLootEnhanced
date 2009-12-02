@@ -20,8 +20,11 @@ AtlasLoot_RefreshWishlists()
 AtlasLoot_CreateWishlistOptions()
 ]]
 
-local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
+--[[
+local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
+]]--
 
 local ALModule = AtlasLoot:NewModule("WishList", "AceSerializer-3.0", "AceComm-3.0")
 

@@ -1,6 +1,10 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
+local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
+--[[
 local BabbleBoss = LibStub("LibBabble-Boss-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
+]]--
 
 -- Index
 --- Dungeons & Raids

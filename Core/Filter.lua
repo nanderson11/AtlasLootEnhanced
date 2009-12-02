@@ -11,8 +11,10 @@ AtlasLoot_FilterEnableButton()
 AtlasLoote_CreateFilterOptions()
 
 ]]
-
+local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+--[[
 local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
+]]--
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 local OptionsLoadet = false

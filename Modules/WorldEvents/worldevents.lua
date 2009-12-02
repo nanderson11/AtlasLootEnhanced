@@ -1,6 +1,10 @@
 ﻿local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
+local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
+--[[
 local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
+]]--
 
 -- Index
 --- Permanent Events
