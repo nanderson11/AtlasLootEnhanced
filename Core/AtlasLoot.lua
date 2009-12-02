@@ -104,6 +104,7 @@ local AtlasLootDBDefaults = {
         HeroicMode = false,
         Bigraid = false,
         AtlasLootVersion = "1",
+        AtlasNaggedVersion = "",
         FuBarPosition = 1,
         AutoQuery = false,
         LoadAllLoDStartup = false,
@@ -255,9 +256,10 @@ function AtlasLoot_OnVariablesLoaded()
 			AtlasLoot.db.profile.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 			StaticPopup_Show ("ATLASLOOT_SETUP");
 		end
-		--If not the expected Atlas version
-		if( ATLAS_VERSION ~= ATLASLOOT_CURRENT_ATLAS and ATLAS_VERSION ~= ATLASLOOT_PREVIEW_ATLAS ) then
-			StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
+		--If not the expected Atlas version, nag the user once
+		if( ATLAS_VERSION ~= ATLASLOOT_CURRENT_ATLAS and ATLAS_VERSION ~= ATLASLOOT_PREVIEW_ATLAS and ATLAS_VERSION ~= AtlasLoot.db.profile.AtlasNaggedVersion ) then
+            StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
+            AtlasLoot.db.profile.AtlasNaggedVersion = ATLAS_VERSION;
 		end
         if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS then
             AtlasLootBossButtons = AtlasLootNewBossButtons;
