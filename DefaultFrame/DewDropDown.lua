@@ -184,51 +184,54 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["The Forge of Souls"], "ForgeofSouls", "Submenu" },
 			},
 			[9] = {
-				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
+				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
 			},
 			[10] = {
-				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
+				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
 			},
 			[11] = {
-				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
+				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
 			[12] = {
-				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
+				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
 			},
 			[13] = {
-				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
+				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
 			[14] = {
-				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
+				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
 			[15] = {
-				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
+				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
 			[16] = {
-				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
+				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
 			[17] = {
+				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
+			},
+			[18] = {
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
 				},
 			},
-			[18] = {
+			[19] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
-			[19] = {
+			[20] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
-			[20] = {
+			[21] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[21] = {
+			[22] = {
 				[BabbleZone["Vault of Archavon"]] = {
 					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
 					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
 				},
 			},
-			[22] = {
+			[23] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
@@ -864,6 +867,11 @@ AtlasLoot_DewDropDown_SubTables = {
 	["ForgeofSouls"] = {
 		{ "", "FoSBronjahm" },
 		{ "", "FoSDevourer" },
+	},
+	["PitofSaron"] = {
+		{ "", "PoSGarfrost" },
+		{ "", "PoSKrickIck" },
+		{ "", "PoSTyrannus" },
 	},
 	["IcecrownCitadel"] = {
 		{ "", "ICCLordMarrowgar" },

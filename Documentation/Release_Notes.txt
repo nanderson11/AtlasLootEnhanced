@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
+v??
+Added ICC - Lower Spire Normal Mode loot
+Added The Forge of Souls loot
+
 v5.08.10
 Commented out some Patch 3.3 stuff that was causing problems
 Attempt to make the mod more resistant to errors

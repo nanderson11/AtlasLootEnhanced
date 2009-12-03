@@ -5446,6 +5446,79 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "FoSBronjahm";
 	};
 
+		--------------------
+		--- Pit of Saron ---
+		--------------------
+
+	AtlasLoot_Data["PoSGarfrost"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 49805, "", "=q4=Ice-Steeped Sandals", "=ds=#s12#, #a1#"};
+		{ 3, 49806, "", "=q4=Flayer's Black Belt", "=ds=#s10#, #a2#"};
+		{ 4, 49804, "", "=q4=Polished Mirror Helm", "=ds=#s1#, #a3#"};
+		{ 5, 49803, "", "=q4=Ring of Carnelian and Bone", "=ds=#s13#"};
+		{ 6, 49802, "", "=q4=Garfrost's Two-Ton Hammer", "=ds=#h2#, #w6#"};
+		{ 7, 49801, "", "=q4=Unspeakable Secret", "=ds=#w9#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 50233, "", "=q4=Spurned Val'kyr Shoulderguards", "=ds=#s3#, #a3#"};
+		{ 18, 50234, "", "=q4=Shoulderplates of Frozen Blood", "=ds=#s3#, #a4#"};
+		{ 19, 50230, "", "=q4=Malykriss Vambraces", "=ds=#s8#, #a4#"};
+		{ 20, 50229, "", "=q4=Legguards of the Frosty Depths", "=ds=#s11#, #a4#"};
+		{ 21, 50228, "", "=q4=Barbed Ymirheim Choker", "=ds=#s2#"};
+		{ 22, 50227, "", "=q4=Surgeon's Needle", "=ds=#h3#, #w4#"};
+		Next = "PoSKrickIck";
+	};
+
+	AtlasLoot_Data["PoSKrickIck"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 49809, "", "=q4=Wristguards of Subterranean Moss", "=ds=#s8#, #a1#"};
+		{ 3, 49810, "", "=q4=Scabrous Zombie Leather Belt", "=ds=#s10#, #a3#"};
+		{ 4, 49811, "", "=q4=Black Dragonskin Breeches", "=ds=#s11#, #a3#"};
+		{ 5, 49808, "", "=q4=Bent Gold Belt", "=ds=#s10#, #a4#"};
+		{ 6, 49812, "", "=q4=Purloined Wedding Ring", "=ds=#s13#"};
+		{ 7, 49807, "", "=q4=Krick's Beetle Stabber", "=ds=#h1#, #w4#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 50266, "", "=q4=Ancient Polar Bear Hide", "=ds=#s5#, #a1#"};
+		{ 18, 50263, "", "=q4=Braid of Salt and Fire", "=ds=#s10#, #a1#"};
+		{ 19, 50624, "", "=q4=Chewed Leather Wristguards", "=ds=#s8#, #a2#"};
+		{ 20, 50265, "", "=q4=Blackened Ghoul Skin Leggings", "=ds=#s11#, #a3#"};
+		{ 21, 50235, "", "=q4=Ick's Rotting Thumb", "=ds=#s14#"};
+		{ 22, 50262, "", "=q4=Felglacier Bolter", "=ds=#w3#"};
+		Prev = "PoSGarfrost";
+		Next = "PoSTyrannus";
+	};
+
+	AtlasLoot_Data["PoSTyrannus"] = {
+		{ 1, 49823, "", "=q4=Cloak of the Fallen Cardinal", "=ds=#s4#"};
+		{ 2, 49825, "", "=q4=Palebone Robes", "=ds=#s5#, #a1#"};
+		{ 3, 49822, "", "=q4=Rimewoven Silks", "=ds=#s11#, #a1#"};
+		{ 4, 49817, "", "=q4=Shaggy Wyrmleather Leggings", "=ds=#s11#, #a2#"};
+		{ 5, 49824, "", "=q4=Horns of the Spurned Val'kyr", "=ds=#s1#, #a3#"};
+		{ 6, 49826, "", "=q4=Shroud of Rime", "=ds=#s5#, #a3#"};
+		{ 7, 49820, "", "=q4=Gondria's Spectral Bracer", "=ds=#s8#, #a3#"};
+		{ 8, 49819, "", "=q4=Skeleton Lord's Cranium", "=ds=#s1#, #a4#"};
+		{ 9, 49816, "", "=q4=Scourgelord's Frigid Chestplate", "=ds=#s5#, #a4#"};
+		{ 16, 49818, "", "=q4=Painfully Sharp Choker", "=ds=#s2#"};
+		{ 18, 49813, "", "=q4=Rimebane Rifle", "=ds=#w5#"};
+		{ 19, 49821, "", "=q4=Protector of Frigid Souls", "=ds=#w8#"};
+		Prev = "PoSKrickIck";
+	};
+
+	AtlasLoot_Data["PoSTyrannusHEROIC"] = {
+		{ 1, 50286, "", "=q4=Prelate's Snowshoes", "=ds=#s12#, #a1#"};
+		{ 2, 50269, "", "=q4=Fleshwerk Leggings", "=ds=#s11#, #a2#"};
+		{ 3, 50270, "", "=q4=Belt of Rotted Fingernails", "=ds=#s10#, #a3#"};
+		{ 4, 50283, "", "=q4=Mudslide Boots", "=ds=#s12#, #a3#"};
+		{ 5, 50272, "", "=q4=Frost Wyrm Ribcage", "=ds=#s5#, #a4#"};
+		{ 6, 50285, "", "=q4=Icebound Bronze Cuirass", "=ds=#s5#, #a4#"};
+		{ 7, 50284, "", "=q4=Rusty Frozen Fingerguards", "=ds=#s9#, #a4#"};
+		{ 16, 50271, "", "=q4=Band of Stained Souls", "=ds=#s13#"};
+		{ 17, 50259, "", "=q4=Nevermelting Ice Crystal", "=ds=#s14#"};
+		{ 19, 50268, "", "=q4=Rimefang's Claw", "=ds=#h1#, #w10#"};
+		{ 20, 50267, "", "=q4=Tyrannical Beheader", "=ds=#h2#, #w1#"};
+		{ 21, 50273, "", "=q4=Engraved Gargoyle Femur", "=ds=#w9#"};
+		Prev = "PoSKrickIck";
+	};
+
 		------------------------
 		--- Icecrown Citadel ---
 		------------------------
