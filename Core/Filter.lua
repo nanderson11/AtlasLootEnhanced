@@ -51,11 +51,11 @@ local FilterTable = {
 		},
 		
 	["WeaponsRanged"] = {
-		"Wand",			--5
-		"Bow",			--7
-		"Crossbow",		--8
-		"Gun",			--9
-		"Thrown",		--13
+		"Wand",			--1
+		"Bow",			--2
+		"Crossbow",		--3
+		"Gun",			--4
+		"Thrown",		--5
 		},
 		
 	["Relics"] = {
@@ -95,7 +95,7 @@ local ClassHides = {
 AtlasLoot_Data["FilterList"] = {
 };
 	
-function AtlasLoot_HideNoUsableItems()	
+function AtlasLoot_HideNoUsableItems()
 	local _,playerClass = UnitClass("player")
 	local dataID = AtlasLootItemsFrame.refreshOri[1] 
 	local dataSource = AtlasLootItemsFrame.refreshOri[2] 
@@ -106,6 +106,7 @@ function AtlasLoot_HideNoUsableItems()
 	local itemCount = 0
 	local countAll = 1
 	local count = 0
+	local leatherworking = GetSpellInfo(2108)
 	AtlasLoot_Data["FilterList"] = {}
 	for i=1,30 do
 		local info = getglobal("AtlasLootItem_"..i.."_Extra"):GetText()
@@ -137,9 +138,12 @@ function AtlasLoot_HideNoUsableItems()
 								-- German fix
 								if j == "Shield" and not strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) and not strfind(xitemExtraText, BabbleInventory["Off Hand"]) then
 									xgo = false
-								elseif j == "Shield" and strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) or j == "Shield" and strfind(xitemExtraText, BabbleInventory["Off Hand"]) then
+								elseif j == "Shield" and strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) and AtlasLootFilterDB["WeaponsMeele"]["Held in Off-Hand"] == true then
 									xgo = true
 								end
+							-- Fix bug with Leatherworking Patterns
+							elseif strfind(xitemExtraText, leatherworking) then
+								xgo = true
 							end
 						end
 					end
