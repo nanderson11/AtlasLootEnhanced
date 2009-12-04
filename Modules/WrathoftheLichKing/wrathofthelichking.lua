@@ -8752,11 +8752,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10DeathKnightDPS"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50096, "", "=q4=Scourgelord Helmet", "=ds=#s1#, #a4#"};
-		{ 3, 50098, "", "=q4=Scourgelord Shoulderplates", "=ds=#s3#, #a4#"};
-		{ 4, 50094, "", "=q4=Scourgelord Battleplate", "=ds=#s5#, #a4#"};
-		{ 5, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#"};
-		{ 6, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#"};
+		{ 2, 50096, "", "=q4=Scourgelord Helmet", "=ds=#s1#, #a4#", "95 #eoffrost#" };
+		{ 3, 50098, "", "=q4=Scourgelord Shoulderplates", "=ds=#s3#, #a4#", "60 #eoffrost#" };
+		{ 4, 50094, "", "=q4=Scourgelord Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 5, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 6, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51127, "", "=q4=Sanctified Scourgelord Helmet", "=ds=#s1#, #a4#"};
 		{ 10, 51125, "", "=q4=Sanctified Scourgelord Shoulderplates", "=ds=#s3#, #a4#"};
@@ -8774,11 +8774,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10DeathKnightTank"] = {
 		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
-		{ 2, 50855, "", "=q4=Scourgelord Faceguard", "=ds=#s1#, #a4#"};
-		{ 3, 50853, "", "=q4=Scourgelord Pauldrons", "=ds=#s3#, #a4#"};
-		{ 4, 50857, "", "=q4=Scourgelord Chestguard", "=ds=#s5#, #a4#"};
-		{ 5, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#"};
-		{ 6, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#"};
+		{ 2, 50855, "", "=q4=Scourgelord Faceguard", "=ds=#s1#, #a4#", "95 #eoffrost#" };
+		{ 3, 50853, "", "=q4=Scourgelord Pauldrons", "=ds=#s3#, #a4#", "60 #eoffrost#" };
+		{ 4, 50857, "", "=q4=Scourgelord Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 5, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 6, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
 		{ 9, 51133, "", "=q4=Sanctified Scourgelord Faceguard", "=ds=#s1#, #a4#"};
 		{ 10, 51130, "", "=q4=Sanctified Scourgelord Pauldrons", "=ds=#s3#, #a4#"};
@@ -8796,11 +8796,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 	
 	AtlasLoot_Data["T10DruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
-		{ 2, 50108, "", "=q4=Lasherweave's Helmet  ", "=ds=#s1#, #a2#" };
+		{ 2, 50108, "", "=q4=Lasherweave's Helmet  ", "=ds=#s1#, #a2#", "95 #eoffrost#" };
 		{ 3, 50113, "", "=q4=Lasherweave's Pauldrons", "=ds=#s3#, #a2#" };
-		{ 4, 50106, "", "=q4=Lasherweave's Robes", "=ds=#s5#, #a2#" };
+		{ 4, 50106, "", "=q4=Lasherweave's Robes", "=ds=#s5#, #a2#", "95 #eoffrost#" };
 		{ 5, 50107, "", "=q4=Lasherweave's Gauntlets", "=ds=#s9#, #a2#" };
-		{ 6, 50109, "", "=q4=Lasherweave's Legplates", "=ds=#s11#, #a2#" };
+		{ 6, 50109, "", "=q4=Lasherweave's Legplates", "=ds=#s11#, #a2#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
 		{ 9, 51137, "", "=q4=Sanctified Lasherweave's Helmet", "=ds=#s1#, #a2#" };
 		{ 10, 51135, "", "=q4=Sanctified Lasherweave's Pauldrons", "=ds=#s3#, #a2#" };
@@ -8818,11 +8818,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10DruidFeral"] = {
 		{ 1, 0, "Ability_Druid_Maul", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50826, "", "=q4=Lasherweave's Headguard", "=ds=#s1#, #a2#" };
-		{ 3, 50824, "", "=q4=Lasherweave's Shoulderpads", "=ds=#s3#, #a2#" };
-		{ 4, 50828, "", "=q4=Lasherweave's Raiment", "=ds=#s5#, #a2#" };
-		{ 5, 50827, "", "=q4=Lasherweave's Handgrips", "=ds=#s9#, #a2#" };
-		{ 6, 50825, "", "=q4=Lasherweave's Legguards", "=ds=#s11#, #a2#" };
+		{ 2, 50826, "", "=q4=Lasherweave's Headguard", "=ds=#s1#, #a2#", "95 #eoffrost#" };
+		{ 3, 50824, "", "=q4=Lasherweave's Shoulderpads", "=ds=#s3#, #a2#", "60 #eoffrost#" };
+		{ 4, 50828, "", "=q4=Lasherweave's Raiment", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 5, 50827, "", "=q4=Lasherweave's Handgrips", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 6, 50825, "", "=q4=Lasherweave's Legguards", "=ds=#s11#, #a2#", "95 #eoffrost#" };
 		{ 8, 0, "Ability_Druid_Maul", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51143, "", "=q4=Sanctified Lasherweave's Headguard", "=ds=#s1#, #a2#" };
 		{ 10, 51140, "", "=q4=Sanctified Lasherweave's Shoulderpads", "=ds=#s3#, #a2#" };
@@ -8840,11 +8840,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10DruidBalance"] = {
 		{ 1, 0, "Spell_Nature_InsectSwarm", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
-		{ 2, 50821, "", "=q4=Lasherweave's Cover", "=ds=#s1#, #a2#" };
-		{ 3, 50819, "", "=q4=Lasherweave's Mantle", "=ds=#s3#, #a2#" };
-		{ 4, 50823, "", "=q4=Lasherweave's Vestment", "=ds=#s5#, #a2#" };
-		{ 5, 50822, "", "=q4=Lasherweave's Gloves", "=ds=#s9#, #a2#" };
-		{ 6, 50820, "", "=q4=Lasherweave's Trousers", "=ds=#s11#, #a2#" };
+		{ 2, 50821, "", "=q4=Lasherweave's Cover", "=ds=#s1#, #a2#", "95 #eoffrost#" };
+		{ 3, 50819, "", "=q4=Lasherweave's Mantle", "=ds=#s3#, #a2#", "60 #eoffrost#" };
+		{ 4, 50823, "", "=q4=Lasherweave's Vestment", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 5, 50822, "", "=q4=Lasherweave's Gloves", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 6, 50820, "", "=q4=Lasherweave's Trousers", "=ds=#s11#, #a2#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
 		{ 9, 51149, "", "=q4=Sanctified Lasherweave's Cover", "=ds=#s1#, #a2#" };
 		{ 10, 51147, "", "=q4=Sanctified Lasherweave's Mantle", "=ds=#s3#, #a2#" };
@@ -8862,11 +8862,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
-		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
-		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
-		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
-		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
+		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "95 #eoffrost#" };
+		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#", "60 #eoffrost#" };
+		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#", "95 #eoffrost#" };
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
 		{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
@@ -8884,11 +8884,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
-		{ 2, 50276, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#"};
-		{ 3, 50279, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
-		{ 4, 50278, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#"};
-		{ 5, 50275, "", "=q4=Bloodmage Gloves", "=ds=#s9#, #a1#"};
-		{ 6, 50277, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#"};
+		{ 2, 50276, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#", "95 #eoffrost#" };
+		{ 3, 50279, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#", "60 #eoffrost#" };
+		{ 4, 50278, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 5, 50275, "", "=q4=Bloodmage Gloves", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 6, 50277, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
 		{ 9, 51158, "", "=q4=Sanctified Bloodmage Hood", "=ds=#s1#, #a1#"};
 		{ 10, 51155, "", "=q4=Sanctified Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
@@ -8906,11 +8906,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10PaladinHoly"] = {
 		{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
-		{ 2, 50867, "", "=q4=Lightsworn Headpiece", "=ds=#s1#, #a4#" };
-		{ 3, 50865, "", "=q4=Lightsworn Spaulders", "=ds=#s3#, #a4#" };
-		{ 4, 50869, "", "=q4=Lightsworn Tunic", "=ds=#s5#, #a4#" };
-		{ 5, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#" };
-		{ 6, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#" };
+		{ 2, 50867, "", "=q4=Lightsworn Headpiece", "=ds=#s1#, #a4#", "95 #eoffrost#" };
+		{ 3, 50865, "", "=q4=Lightsworn Spaulders", "=ds=#s3#, #a4#", "60 #eoffrost#" };
+		{ 4, 50869, "", "=q4=Lightsworn Tunic", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 5, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 6, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
 		{ 9, 51167, "", "=q4=Sanctified Lightsworn Headpiece", "=ds=#s1#, #a4#" };
 		{ 10, 51166, "", "=q4=Sanctified Lightsworn Spaulders", "=ds=#s3#, #a4#" };
@@ -8928,11 +8928,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50326, "", "=q4=Lightsworn Helmet", "=ds=#s1#, #a4#" };
-		{ 3, 50324, "", "=q4=Lightsworn Shoulderplates", "=ds=#s3#, #a4#" };
-		{ 4, 50328, "", "=q4=Lightsworn Battleplate", "=ds=#s5#, #a4#" };
-		{ 5, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#" };
-		{ 6, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#" };
+		{ 2, 50326, "", "=q4=Lightsworn Helmet", "=ds=#s1#, #a4#", "95 #eoffrost#" };
+		{ 3, 50324, "", "=q4=Lightsworn Shoulderplates", "=ds=#s3#, #a4#", "60 #eoffrost#" };
+		{ 4, 50328, "", "=q4=Lightsworn Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 5, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 6, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51162, "", "=q4=Sanctified Lightsworn Helmet", "=ds=#s1#, #a4#" };
 		{ 10, 51160, "", "=q4=Sanctified Lightsworn Shoulderplates", "=ds=#s3#, #a4#" };
@@ -8950,11 +8950,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10PaladinProtection"] = {
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
-		{ 2, 50862, "", "=q4=Lightsworn Faceguard", "=ds=#s1#, #a4#" };
-		{ 3, 50860, "", "=q4=Lightsworn Shoulderguards", "=ds=#s3#, #a4#" };
-		{ 4, 50864, "", "=q4=Lightsworn Chestguard", "=ds=#s5#, #a4#" };
-		{ 5, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#" };
-		{ 6, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#" };
+		{ 2, 50862, "", "=q4=Lightsworn Faceguard", "=ds=#s1#, #a4#", "95 #eoffrost#" };
+		{ 3, 50860, "", "=q4=Lightsworn Shoulderguards", "=ds=#s3#, #a4#", "60 #eoffrost#" };
+		{ 4, 50864, "", "=q4=Lightsworn Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 5, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 6, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Holy_SealOfMight", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
 		{ 9, 51173, "", "=q4=Sanctified Lightsworn Faceguard", "=ds=#s1#, #a4#" };
 		{ 10, 51170, "", "=q4=Sanctified Lightsworn Shoulderguards", "=ds=#s3#, #a4#" };
@@ -8972,11 +8972,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
-		{ 2, 50392, "", "=q4=Crimson Acolyte's Cowl", "=ds=#s1#, #a1#"};
-		{ 3, 50396, "", "=q4=Crimson Acolyte's Mantle", "=ds=#s3#, #a1#"};
-		{ 4, 50394, "", "=q4=Crimson Acolyte's Raiments", "=ds=#s5#, #a1#"};
-		{ 5, 50391, "", "=q4=Crimson Acolyte's Handwraps", "=ds=#s9#, #a1#"};
-		{ 6, 50393, "", "=q4=Crimson Acolyte's Pants", "=ds=#s11#, #a1#"};
+		{ 2, 50392, "", "=q4=Crimson Acolyte's Cowl", "=ds=#s1#, #a1#", "95 #eoffrost#" };
+		{ 3, 50396, "", "=q4=Crimson Acolyte's Mantle", "=ds=#s3#, #a1#", "60 #eoffrost#" };
+		{ 4, 50394, "", "=q4=Crimson Acolyte's Raiments", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 5, 50391, "", "=q4=Crimson Acolyte's Handwraps", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 6, 50393, "", "=q4=Crimson Acolyte's Pants", "=ds=#s11#, #a1#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
 		{ 9, 51184, "", "=q4=Sanctified Crimson Acolyte's Cowl", "=ds=#s1#, #a1#"};
 		{ 10, 51182, "", "=q4=Sanctified Crimson Acolyte's Mantle", "=ds=#s3#, #a1#"};
@@ -8994,11 +8994,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10PriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50765, "", "=q4=Crimson Acolyte's Hood", "=ds=#s1#, #a1#"};
-		{ 3, 50767, "", "=q4=Crimson Acolyte's Shoulderpads", "=ds=#s3#, #a1#"};
-		{ 4, 50768, "", "=q4=Crimson Acolyte's Robe", "=ds=#s5#, #a1#"};
-		{ 5, 50766, "", "=q4=Crimson Acolyte's Gloves", "=ds=#s9#, #a1#"};
-		{ 6, 50769, "", "=q4=Crimson Acolyte's Leggings", "=ds=#s11#, #a1#"};
+		{ 2, 50765, "", "=q4=Crimson Acolyte's Hood", "=ds=#s1#, #a1#", "95 #eoffrost#" };
+		{ 3, 50767, "", "=q4=Crimson Acolyte's Shoulderpads", "=ds=#s3#, #a1#", "60 #eoffrost#" };
+		{ 4, 50768, "", "=q4=Crimson Acolyte's Robe", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 5, 50766, "", "=q4=Crimson Acolyte's Gloves", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 6, 50769, "", "=q4=Crimson Acolyte's Leggings", "=ds=#s11#, #a1#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51178, "", "=q4=Sanctified Crimson Acolyte's Hood", "=ds=#s1#, #a1#"};
 		{ 10, 51175, "", "=q4=Sanctified Crimson Acolyte's Shoulderpads", "=ds=#s3#, #a1#"};
@@ -9016,11 +9016,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10Rogue"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
-		{ 2, 50089, "", "=q4=Shadowblade Helmet", "=ds=#s1#, #a2#"};
-		{ 3, 50105, "", "=q4=Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
-		{ 4, 50087, "", "=q4=Shadowblade Breastplate", "=ds=#s5#, #a2#"};
-		{ 5, 50088, "", "=q4=Shadowblade Gauntlets", "=ds=#s9#, #a2#"};
-		{ 6, 50090, "", "=q4=Shadowblade Legplates", "=ds=#s11#, #a2#"};
+		{ 2, 50089, "", "=q4=Shadowblade Helmet", "=ds=#s1#, #a2#", "95 #eoffrost#" };
+		{ 3, 50105, "", "=q4=Shadowblade Pauldrons", "=ds=#s3#, #a2#", "60 #eoffrost#" };
+		{ 4, 50087, "", "=q4=Shadowblade Breastplate", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 5, 50088, "", "=q4=Shadowblade Gauntlets", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 6, 50090, "", "=q4=Shadowblade Legplates", "=ds=#s11#, #a2#", "95 #eoffrost#" };
 		{ 8, 0, "Ability_BackStab", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
 		{ 9, 51187, "", "=q4=Sanctified Shadowblade Helmet", "=ds=#s1#, #a2#"};
 		{ 10, 51185, "", "=q4=Sanctified Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
@@ -9036,142 +9036,80 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Back = "T10SET";
 	};
 
-
 	AtlasLoot_Data["T10ShamanElemental"] = {
-
 		{ 1, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
-	
-		{ 2, 50843, "", "=q4=Frost Witch's Helm", "=ds=#s1#, #a3#" };
-	
-		{ 3, 50845, "", "=q4=Frost Witch's Shoulderpads", "=ds=#s3#, #a3#" };
-	
-		{ 4, 50841, "", "=q4=Frost Witch's Hauberk", "=ds=#s5#, #a3#" };
-	
-		{ 5, 50842, "", "=q4=Frost Witch's Gloves", "=ds=#s9#, #a3#" };
-	
-		{ 6, 50844, "", "=q4=Frost Witch's Kilt", "=ds=#s11#, #a3#" };
-	
+		{ 2, 50843, "", "=q4=Frost Witch's Helm", "=ds=#s1#, #a3#", "95 #eoffrost#" };
+		{ 3, 50845, "", "=q4=Frost Witch's Shoulderpads", "=ds=#s3#, #a3#", "60 #eoffrost#" };
+		{ 4, 50841, "", "=q4=Frost Witch's Hauberk", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 5, 50842, "", "=q4=Frost Witch's Gloves", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 6, 50844, "", "=q4=Frost Witch's Kilt", "=ds=#s11#, #a3#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
-	
 		{ 9, 51202, "", "=q4=Sanctified Frost Witch's Helm", "=ds=#s1#, #a3#" };
-	
 		{ 10, 51204, "", "=q4=Sanctified Frost Witch's Shoulderpads", "=ds=#s3#, #a3#" };
-	
 		{ 11, 51200, "", "=q4=Sanctified Frost Witch's Hauberk", "=ds=#s5#, #a3#" };
-
 		{ 12, 51201, "", "=q4=Sanctified Frost Witch's Gloves", "=ds=#s9#, #a3#" };
-
 		{ 13, 51203, "", "=q4=Sanctified Frost Witch's Kilt", "=ds=#s11#, #a3#" };
-	
 		{ 16, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
-
 		{ 17, 51237, "", "=q4=Sanctified Frost Witch's Helm", "=ds=#s1#, #a3#"};
-	
 		{ 18, 51235, "", "=q4=Sanctified Frost Witch's Shoulderpads", "=ds=#s3#, #a3#"};
-	
 		{ 19, 51239, "", "=q4=Sanctified Frost Witch's Hauberk", "=ds=#s5#, #a3#"};
-
 		{ 20, 51238, "", "=q4=Sanctified Frost Witch's Gloves", "=ds=#s9#, #a3#"};
-	
 		{ 21, 51236, "", "=q4=Sanctified Frost Witch's Kilt", "=ds=#s11#, #a3#"};
-	
 		Back = "T10SET";
-
 	};
 
 	AtlasLoot_Data["T10ShamanEnhancement"] = {
-		
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
-	
-		{ 2, 50832, "", "=q4=Frost Witch's Faceguard", "=ds=#s1#, #a3#" };
-	
-		{ 3, 50834, "", "=q4=Frost Witch's Shoulderguards", "=ds=#s3#, #a3#" };
-	
-		{ 4, 50830, "", "=q4=Frost Witch's Chestguard", "=ds=#s5#, #a3#" };
-	
-		{ 5, 50831, "", "=q4=Frost Witch's Grips", "=ds=#s9#, #a3#" };
-	
-		{ 6, 50833, "", "=q4=Frost Witch's War-Kilt", "=ds=#s11#, #a3#" };
-	
+		{ 2, 50832, "", "=q4=Frost Witch's Faceguard", "=ds=#s1#, #a3#", "95 #eoffrost#" };
+		{ 3, 50834, "", "=q4=Frost Witch's Shoulderguards", "=ds=#s3#, #a3#", "60 #eoffrost#" };
+		{ 4, 50830, "", "=q4=Frost Witch's Chestguard", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 5, 50831, "", "=q4=Frost Witch's Grips", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 6, 50833, "", "=q4=Frost Witch's War-Kilt", "=ds=#s11#, #a3#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
-	
 		{ 9, 51197, "", "=q4=Sanctified Frost Witch's Faceguard", "=ds=#s1#, #a3#" };
-
 		{ 10, 51199, "", "=q4=Sanctified Frost Witch's Shoulderguards", "=ds=#s3#, #a3#" };
-	
 		{ 11, 51195, "", "=q4=Sanctified Frost Witch's Chestguard", "=ds=#s5#, #a3#" };
-
 		{ 12, 51196, "", "=q4=Sanctified Frost Witch's Grips", "=ds=#s9#, #a3#" };
-
 		{ 13, 51198, "", "=q4=Sanctified Frost Witch's War-Kilt", "=ds=#s11#, #a3#" };
-	
 		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
-	
 		{ 17, 51242, "", "=q4=Sanctified Frost Witch's Faceguard", "=ds=#s1#, #a3#"};
-	
 		{ 18, 51240, "", "=q4=Sanctified Frost Witch's Shoulderguards", "=ds=#s3#, #a3#"};
-	
 		{ 19, 51244, "", "=q4=Sanctified Frost Witch's Chestguard", "=ds=#s5#, #a3#"};
-	
 		{ 20, 51243, "", "=q4=Sanctified Frost Witch's Grips", "=ds=#s9#, #a3#"};
-
 		{ 21, 51241, "", "=q4=Sanctified Frost Witch's War-Kilt", "=ds=#s11#, #a3#"};
-
 		Back = "T10SET";
 	
 	};
 
-	
-
 	AtlasLoot_Data["T10ShamanRestoration"] = {
-		
 		{ 1, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
-	
-		{ 2, 50837, "", "=q4=Frost Witch's Headpiece", "=ds=#s1#, #a3#" };
-	
-		{ 3, 50839, "", "=q4=Frost Witch's Spaulders", "=ds=#s3#, #a3#" };
-	
-		{ 4, 50835, "", "=q4=Frost Witch's Tunic", "=ds=#s5#, #a3#" };
-	
-		{ 5, 50836, "", "=q4=Frost Witch's Handguards", "=ds=#s9#, #a3#" };
-	
-		{ 6, 50838, "", "=q4=Frost Witch's Legguards", "=ds=#s11#, #a3#" };
-
+		{ 2, 50837, "", "=q4=Frost Witch's Headpiece", "=ds=#s1#, #a3#", "95 #eoffrost#" };
+		{ 3, 50839, "", "=q4=Frost Witch's Spaulders", "=ds=#s3#, #a3#", "60 #eoffrost#" };
+		{ 4, 50835, "", "=q4=Frost Witch's Tunic", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 5, 50836, "", "=q4=Frost Witch's Handguards", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 6, 50838, "", "=q4=Frost Witch's Legguards", "=ds=#s11#, #a3#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
-	
 		{ 9, 51192, "", "=q4=Sanctified Frost Witch's Headpiece", "=ds=#s1#, #a3#" };
-	
 		{ 10, 51194, "", "=q4=Sanctified Frost Witch's Spaulders", "=ds=#s3#, #a3#" };
-	
 		{ 11, 51190, "", "=q4=Sanctified Frost Witch's Tunic", "=ds=#s5#, #a3#" };
-	
 		{ 12, 51191, "", "=q4=Sanctified Frost Witch's Handguards", "=ds=#s9#, #a3#" };
-	
 		{ 13, 51193, "", "=q4=Sanctified Frost Witch's Legguards", "=ds=#s11#, #a3#" };
-	
 		{ 16, 0, "Spell_Nature_HealingWaveGreater", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
-	
 		{ 17, 51247, "", "=q4=Sanctified Frost Witch's Headpiece", "=ds=#s1#, #a3#"};
-	
 		{ 18, 51245, "", "=q4=Sanctified Frost Witch's Spaulders", "=ds=#s3#, #a3#"};
-	
 		{ 19, 51249, "", "=q4=Sanctified Frost Witch's Tunic", "=ds=#s5#, #a3#"};
-	
 		{ 20, 51248, "", "=q4=Sanctified Frost Witch's Handguards", "=ds=#s9#, #a3#"};
-	
 		{ 21, 51246, "", "=q4=Sanctified Frost Witch's Legguards", "=ds=#s11#, #a3#"};
-	
 		Back = "T10SET";
-	
 	};
 
 	AtlasLoot_Data["T10Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
-		{ 2, 50241, "", "=q4=Dark Coven Hood", "=ds=#s1#, #a1#"};
-		{ 3, 50244, "", "=q4=Dark Coven Shoulderpads", "=ds=#s3#, #a1#"};
-		{ 4, 50243, "", "=q4=Dark Coven Robe", "=ds=#s5#, #a1#"};
-		{ 5, 50240, "", "=q4=Dark Coven Gloves", "=ds=#s9#, #a1#"};
-		{ 6, 50242, "", "=q4=Dark Coven Leggings", "=ds=#s11#, #a1#"};
+		{ 2, 50241, "", "=q4=Dark Coven Hood", "=ds=#s1#, #a1#", "95 #eoffrost#" };
+		{ 3, 50244, "", "=q4=Dark Coven Shoulderpads", "=ds=#s3#, #a1#", "60 #eoffrost#" };
+		{ 4, 50243, "", "=q4=Dark Coven Robe", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 5, 50240, "", "=q4=Dark Coven Gloves", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 6, 50242, "", "=q4=Dark Coven Leggings", "=ds=#s11#, #a1#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
 		{ 9, 51208, "", "=q4=Sanctified Dark Coven Hood", "=ds=#s1#, #a1#"};
 		{ 10, 51205, "", "=q4=Sanctified Dark Coven Shoulderpads", "=ds=#s3#, #a1#"};
@@ -9189,11 +9127,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10WarriorFury"] = {
 		{ 1, 0, "Ability_Warrior_BattleShout", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
-		{ 2, 50080, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#"};
+		{ 2, 50080, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#", "95 #eoffrost#" };
 		{ 3, 50082, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#"};
-		{ 4, 50078, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#"};
+		{ 4, 50078, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
 		{ 5, 50079, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
-		{ 6, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
+		{ 6, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
 		{ 9, 51212, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#"};
 		{ 10, 51210, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#"};
@@ -9211,11 +9149,11 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 
 	AtlasLoot_Data["T10WarriorProtection"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50848, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#"};
-		{ 3, 50846, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#"};
-		{ 4, 50850, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#"};
-		{ 5, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
-		{ 6, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
+		{ 2, 50848, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#", "95 #eoffrost#" };
+		{ 3, 50846, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#", "60 #eoffrost#" };
+		{ 4, 50850, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 5, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 6, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#", "95 #eoffrost#" };
 		{ 8, 0, "INV_Shield_05", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51218, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#"};
 		{ 10, 51215, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#"};
