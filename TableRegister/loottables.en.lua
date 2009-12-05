@@ -1387,7 +1387,8 @@ end
   --The Wyrmrest Accord
 	AtlasLoot_TableNames["TheWyrmrestAccord"] = { BabbleFaction["The Wyrmrest Accord"], "AtlasLootWotLK" };
   --The Ashen Verdict
-	AtlasLoot_TableNames["AshenVerdict"] = { "The Ashen Verdict", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AshenVerdict"] = { BabbleFaction["The Ashen Verdict"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["AshenVerdict2"] = { BabbleFaction["The Ashen Verdict"], "AtlasLootWotLK" };
 
 --------------
 --- Trades ---

@@ -597,6 +597,12 @@ if AL then
 	AL["Path of the Violet Mage"] = true;
 	AL["Path of the Violet Assassin"] = true;
 	AL["Path of the Violet Restorer"] = true;
+	
+	-- Ashen Verdict Paths
+	AL["Path of Courage"] = true;
+	AL["Path of Destruction"] = true;
+	AL["Path of Vengeance"] = true;
+	AL["Path of Wisdom"] = true;
 
 	-- AQ Opening Event
 	AL["Red Scepter Shard"] = true;
