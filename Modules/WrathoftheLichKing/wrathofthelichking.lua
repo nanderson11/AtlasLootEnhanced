@@ -5506,6 +5506,79 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		Prev = "PoSKrickIck";
 	};
 
+		---------------------------
+		--- Halls of Reflection ---
+		---------------------------
+
+	AtlasLoot_Data["HoRFalric"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 49823, "", "=q4=Eerie Runeblade Polisher", "=ds=#s4#"};
+		{ 3, 49828, "", "=q4=Marwyn's Macabre Fingertips", "=ds=#s9#, #a1#"};
+		{ 4, 49830, "", "=q4=Fallen Sentry's Hood", "=ds=#s1#, #a2#"};
+		{ 5, 49831, "", "=q4=Muddied Boots of Brill", "=ds=#s12#, #a3#"};
+		{ 6, 49829, "", "=q4=Valonforth's Tarnished Pauldrons", "=ds=#s3#, #a4#"};
+		{ 7, 49827, "", "=q4=Ghoulslicer", "=ds=#h1#, #w10#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 50292, "", "=q4=Bracer of Worn Molars", "=ds=#s8#, #a1#"};
+		{ 18, 50293, "", "=q4=Spaulders of Black Betrayal", "=ds=#s3#, #a2#"};
+		{ 19, 50295, "", "=q4=Spiked Toestompers", "=ds=#s12#, #a3#"};
+		{ 20, 50294, "", "=q4=Chestpiece of High Treason", "=ds=#s5#, #a4#"};
+		{ 21, 50290, "", "=q4=Falric's Wrist-Chopper", "=ds=#h1#, #w1#"};
+		{ 22, 50291, "", "=q4=Soulsplinter", "=ds=#w12#"};
+		Next = "HoRMarwyn";
+	};
+
+	AtlasLoot_Data["HoRMarwyn"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 49834, "", "=q4=Frayed Abomination Stitching Shoulders", "=ds=#s3#, #a1#"};
+		{ 3, 49838, "", "=q4=Carpal Tunnelers", "=ds=#s9#, #a2#"};
+		{ 4, 49837, "", "=q4=Mitts of Burning Hail", "=ds=#s9#, #a3#"};
+		{ 5, 49836, "", "=q4=Frostsworn Bone Leggings", "=ds=#s11#, #a1#"};
+		{ 6, 49835, "", "=q4=Splintered Door of the Citadel", "=ds=#h3#, #w10#"};
+		{ 7, 49828, "", "=q4=Marwyn's Macabre Fingertips", "=ds=#w8#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 50298, "", "=q4=Sightless Crown of Ulmaas", "=ds=#s1#, #a1#"};
+		{ 18, 50299, "", "=q4=Suspiciously Soft Gloves", "=ds=#s9#, #a1#"};
+		{ 19, 50300, "", "=q4=Choking Hauberk", "=ds=#s5#, #a2#"};
+		{ 20, 50297, "", "=q4=Frostsworn Bone Chestpiece", "=ds=#s5#, #a3#"};
+		{ 21, 50260, "", "=q4=Ephemeral Snowflake", "=ds=#s14#"};
+		{ 22, 50296, "", "=q4=Orca-Hunter's Harpoon", "=ds=#w7#"};
+		Prev = "HoRFalric";
+		Next = "HoRLichKing";
+	};
+
+	AtlasLoot_Data["HoRLichKing"] = {
+		{ 1, 49842, "", "=q4=Tapestry of the Frozen Throne", "=ds=#s4#"};
+		{ 2, 49849, "", "=q4=Tattered Glacial-Woven Hood", "=ds=#s1#, #a1#"};
+		{ 3, 49848, "", "=q4=Grim Lasher Shoulderguards", "=ds=#s3#, #a2#"};
+		{ 4, 49841, "", "=q4=Blackened Geist Ribs", "=ds=#s5#, #a2#"};
+		{ 5, 49847, "", "=q4=Legguards of Untimely Demise", "=ds=#s11#, #a3#"};
+		{ 6, 49851, "", "=q4=Greathelm of the Silver Hand", "=ds=#s1#, #a4#"};
+		{ 7, 49843, "", "=q4=Crystalline Citadel Gauntlets", "=ds=#s9#, #a4#"};
+		{ 16, 49840, "", "=q4=Hate-Forged Cleaver", "=ds=#h1#, #w1#"};
+		{ 17, 49846, "", "=q4=Chilled Heart of the Glacier", "=ds=#h3#, #w4#"};
+		{ 18, 49845, "", "=q4=Bone Golem Scapula", "=ds=#h3#, #w6#"};
+		{ 19, 49839, "", "=q4=Mourning Malice", "=ds=#h2#, #w10#"};
+		{ 20, 49844, "", "=q4=Crypt Fiend Slayer", "=ds=#w2#"};
+		Prev = "HoRMarwyn";
+	};
+
+	AtlasLoot_Data["HoRLichKingHEROIC"] = {
+		{ 1, 50314, "", "=q4=Strip of Remorse", "=ds=#s10#, #a1#"};
+		{ 2, 50312, "", "=q4=Chestguard of Broken Branches", "=ds=#s5#, #a2#"};
+		{ 3, 50308, "", "=q4=Blighted Leather Footpads", "=ds=#s12#, #a2#"};
+		{ 4, 50304, "", "=q4=Hoarfrost Gauntlets", "=ds=#s9#, #a3#"};
+		{ 5, 50311, "", "=q4=Second Helm of the Executioner", "=ds=#s1#, #a4#"};
+		{ 6, 50305, "", "=q4=Grinning Skull Boots", "=ds=#s12#, #a4#"};
+		{ 8, 50310, "", "=q4=Fossilized Ammonite Choker", "=ds=#s2#"};
+		{ 9, 50313, "", "=q4=Oath of Empress Zoe", "=ds=#s13#"};
+		{ 10, 50306, "", "=q4=The Lady's Promise", "=ds=#s13#"};
+		{ 16, 50302, "", "=q4=Liar's Tongue", "=ds=#h1#, #w10#"};
+		{ 17, 50303, "", "=q4=Black Icicle", "=ds=#h1#, #w6#"};
+		{ 18, 50309, "", "=q4=Shriveled Heart", "=ds=#s15#"};
+		Prev = "HoRMarwyn";
+	};
+
 		------------------------
 		--- Icecrown Citadel ---
 		------------------------

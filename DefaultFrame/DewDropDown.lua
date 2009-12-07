@@ -186,6 +186,9 @@ AtlasLoot_DewDropDown = {
 			[9] = {
 				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
 			},
+			[9] = {
+				{ BabbleZone["Halls of Reflection"], "HallsofReflection", "Submenu" },
+			},
 			[10] = {
 				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
 			},
@@ -872,6 +875,11 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "PoSGarfrost" },
 		{ "", "PoSKrickIck" },
 		{ "", "PoSTyrannus" },
+	},
+	["HallsofReflection"] = {
+		{ "", "HoRFalric" },
+		{ "", "HoRMarwyn" },
+		{ "", "HoRLichKing" },
 	},
 	["IcecrownCitadel"] = {
 		{ "", "ICCLordMarrowgar" },

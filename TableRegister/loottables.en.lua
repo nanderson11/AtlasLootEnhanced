@@ -341,6 +341,11 @@ end
 	AtlasLoot_TableNames["PoSKrickIck"] = { "Krick and Ick", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSTyrannus"] = { BabbleBoss["Scourgelord Tyrannus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSTyrannusHEROIC"] = { BabbleBoss["Scourgelord Tyrannus"], "AtlasLootWotLK" };
+  -- The Forge of Souls
+	AtlasLoot_TableNames["HoRFalric"] = { BabbleBoss["Falric"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoRMarwyn"] = { BabbleBoss["Marwyn"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoRLichKing"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["HoRLichKingHEROIC"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
   -- Icecrown Citadel
 	AtlasLoot_TableNames["ICCLordMarrowgar"] = { BabbleBoss["Lord Marrowgar"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCLordMarrowgar25Man"] = { BabbleBoss["Lord Marrowgar"], "AtlasLootWotLK" };
