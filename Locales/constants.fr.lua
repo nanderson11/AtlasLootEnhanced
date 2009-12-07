@@ -597,6 +597,12 @@ if AL then
 	AL["Path of the Violet Assassin"] = "La voie de l'assassin pourpre";
 	AL["Path of the Violet Restorer"] = "La voie du guérisseur pourpre";
 
+	-- Ashen Verdict Paths -- à traduire
+	--AL["Path of Courage"] = true;
+	--AL["Path of Destruction"] = true;
+	--AL["Path of Vengeance"] = true;
+	--AL["Path of Wisdom"] = true;
+
 	-- AQ Opening Event
 	AL["Red Scepter Shard"] = "Fragment de sceptre rouge";
 	AL["Blue Scepter Shard"] = "Fragment de sceptre bleu";
