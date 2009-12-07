@@ -148,6 +148,7 @@ if AL then
     AL["Emblem of Heroism Rewards"] = "Награды за эмблемы героизма";
     AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
 	AL["Emblem of Triumph Rewards"] = "Награды за эмблемы триумфа";
+	--AL["Emblem of Frost Rewards"] = true;
     AL["BoE World Epics"] = "Мировые превосходные ПпП";
 	AL["Dungeon 1/2 Sets"] = "Комплекты: Подземелья 1/2";
 	AL["Dungeon 3 Sets"] = "Комплекты: Подземелья 3";
@@ -195,9 +196,11 @@ if AL then
 
 	-- World Events
     AL["Abyssal Council"] = "Совет Бездны";
+	AL["Argent Tournament"] = "Серебряный Турнир";
     AL["Bash'ir Landing Skyguard Raid"] = "Рейд Стражей Небес на Лагерь Баш'ира";
     AL["Brewfest"] = "Хмельной фестиваль";
     AL["Children's Week"] = "Детская неделя";
+	AL["Day of the Dead"] = "День мертвых";
     AL["Elemental Invasion"] = "Вторжение стихий";
     AL["Ethereum Prison"] = "Тюрьма Эфириумов";
     AL["Feast of Winter Veil"] = "Зимний Покров";
@@ -208,9 +211,9 @@ if AL then
     AL["Lunar Festival"] = "Лунный фестиваль";
     AL["Midsummer Fire Festival"] = "Огненный солнцеворот";
     AL["Noblegarden"] = "Сад чудес";
+	AL["Pilgrim's Bounty"] = "Пиршество странников";
     AL["Skettis"] = "Скеттис";
     AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
-	AL["Argent Tournament"] = "Серебряный турнир";
 	
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
@@ -272,6 +275,7 @@ if AL then
     AL["Set"] = "Комплекты";
     AL["Token"] = "Знак";
     AL["Tokens"] = "Знаки";
+	--AL["Token Hand-Ins"] = true;
     AL["Skinning Knife"] = "Нож для свежевания";
     AL["Herbalism Knife"] = "Нож для травничества";
     AL["Fish"] = "Рыба";
@@ -373,6 +377,7 @@ if AL then
 	AL["Tier 7"] = "Тир 7";
 	AL["Tier 8"] = "Тир 8";
 	AL["Tier 9"] = "Тир 9";
+	AL["Tier 10"] = "Тир 10";
 	AL["10 Man"] = "10-чел";
     AL["25 Man"] = "25-чел";
     AL["10/25 Man"] = "10/25 Чел";
@@ -408,7 +413,7 @@ if AL then
     AL["Rare Fish"] = "Редкая Рыба";
     AL["Unattainable Tabards"] = "Недоступные гербовые накидки";
 	AL["Heirloom"] = "Фамильные";
-	AL["Weapons"] = "Орежия";
+	AL["Weapons"] = "Оружия";
 	AL["Accessories"] = "Аксессуары";
 	AL["Alone in the Darkness"] = "Один во мраке";
 	AL["Call of the Grand Crusade"] = "Призыв великого крестоносца";
@@ -439,6 +444,7 @@ if AL then
     AL["Random"] = "Случайный";
 	AL["Tier 8 Sets"] = "Комплекты 8 тира";
 	AL["Tier 9 Sets"] =  "Комплекты 9 тира";
+	AL["Tier 10 Sets"] = "Комплекты 10 тира";
     AL["Furious Gladiator Sets"] = "Комплекты гневного гладиатора";
     AL["Relentless Gladiator Sets"] = "Комплекты безжалостного гладиатора";
 	AL["Brew of the Month Club"] = "Клуб \"Пиво месяца\"";
@@ -475,6 +481,7 @@ if AL then
 	-- Pets
 	AL["Pets"] = "Питомци";
 	AL["Promotional"] = "Содействующие";
+	AL["Pet Store"] = "Магазин питомцев";
 	AL["Merchant Sold"] = "Продаються торговцами";
 	AL["Rare"] = "Редкий";
 	AL["Achievement"] = "Достижение";
@@ -589,6 +596,12 @@ if AL then
     AL["Path of the Violet Mage"] = "Маг из Аметистового Ока";
     AL["Path of the Violet Assassin"] = "Убийца из Аметистового Ока";
     AL["Path of the Violet Restorer"] = "Исцелитель из Аметистового Ока";
+	
+	-- Ashen Verdict Paths
+	--AL["Path of Courage"] = true;
+	--AL["Path of Destruction"] = true;
+	--AL["Path of Vengeance"] = true;
+	--AL["Path of Wisdom"] = true;
 
     -- AQ Opening Event
     AL["Red Scepter Shard"] = "Осколок красного скипетра";
@@ -741,8 +754,8 @@ if AL then
 	
 	-- Wrath of the Lich King Sets
 	AL["Raine's Revenge"] = "Отмщение Рейн";
-	AL["Low Level"] = "Назкий уровень";
-	AL["High Level"] = "Высокий уровень";
+	AL["Purified Shard of the Gods"] = "Очищенный осколок Богов";
+	AL["Shiny Shard of the Gods"] = "Блестящий осколок Богов";
 
     -- Recipe origin strings
     AL["Trainer"] = "Тренер";
@@ -1003,6 +1016,27 @@ if AL then
 	AL["Koltira's Battlegear"] = "Броня Кольтиры";
 	AL["Thassarian's Plate"] = "Латы Тассариана";
 	AL["Koltira's Plate"] = "Латы Кольтиры";
+	
+	-- Tier 10 Sets
+	--AL["Lasherweave's Garb"] = true;
+	--AL["Lasherweave's Battlegear"] = true;
+	--AL["Lasherweave's Regalia"] = true;
+	--AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
+	--AL["Bloodmage's Regalia"] = true;
+	--AL["Lightsworn Garb"] = true;
+	--AL["Lightsworn Plate"] = true;
+	--AL["Lightsworn Battlegear"] = true;
+	--AL["Crimson Acolyte's Regalia"] = true;
+	--AL["Crimson Acolyte's Raiment"] = true;
+	--AL["Shadowblade's Battlegear"] = true;
+	--AL["Frost Witch's Garb"] = true;
+	--AL["Frost Witch's Battlegear"] = true;
+	--AL["Frost Witch's Regalia"] = true;
+	--AL["Dark Coven's Garb"] = true;
+	--AL["Ymirjar Lord's Battlegear"] = true;
+	--AL["Ymirjar Lord's Plate"] = true;
+	--AL["Scourgelord's Battlegear"] = true;
+	--AL["Scourgelord's Plate"] = true;
 
     -- Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "Упорство горца";
@@ -1108,6 +1142,20 @@ if AL then
 	AL["Furious Gladiator\'s Weapons"] = "Оружие гневного гладиатора";
     AL["Relentless Gladiator\'s Weapons"] = "Оружие безжалостного гладиатора";
 
+	-- Months
+	AL["January"] = "Январь";
+	AL["February"] = "Февраль";
+	AL["March"] = "Март";
+	AL["April"] = "Апрель";
+	AL["May"] = "Май";
+	AL["June"] = "Июнь";
+	AL["July"] = "Июль";
+	AL["August"] = "Август";
+	AL["September"] = "Сентябрь";
+	AL["October"] = "Октябрь";
+	AL["November"] = "Ноябрь";
+	AL["December"] = "Декабрь";
+	
     -- Specs
     AL["Balance"] = "Баланс";
     AL["Feral"] = "Сила зверя";
@@ -1273,6 +1321,8 @@ if AL then
     AL["Loken"] = "Локен";
     AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 	AL["Faction Champions"] = "Чемпионы фракций"; -- if you have a better name, use it.
+	AL["Razzashi Raptor"] = "Ящер Раззаши";
+	AL["Deviate Ravager/Deviate Guardian"] = "Загадочный опустошитель/Загадочный страж";
 
     -- Zones
     AL["World Drop"] = "Мировой выпад";
@@ -1341,6 +1391,8 @@ if AL then
     AL["Hyldnir Spoils"] = "Хильдские трофеи";
     AL["Ripe Disgusting Jar"] = "Совершенно омерзительный кувшин";
     AL["Cracked Egg"] = "Треснутое яйцо";
+	AL["Small Spice Bag"] = "Маленький мешочек со специями";
+	AL["Handful of Candy"] = "Пригоршня конфет";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
@@ -1421,8 +1473,8 @@ if AL then
     AL["Incompatible Atlas Detected"] = "Обноружен несовместимый Атлас";
 
     -- Unsafe item tooltip
-    AL["Unsafe Item"] = "Опасный Предмет";
-    AL["Item Unavailable"] = "Предмет Недоступен";
+    AL["Unsafe Item"] = "Опасный предмет";
+    AL["Item Unavailable"] = "Предмет недоступен";
     AL["ItemID:"] = "ID предмета:";
     AL["This item is not available on your server or your battlegroup yet."] = "Этот предмет пока что недоступен на вашем сервере или боевой группе.";
     AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Этот предмет небезопасен. Для того, чтобы посмотреть его без риска отсоединения от сервера, сначала Вы должны его увидеть в игре. Это ограничение было введено компанией Blizzard начиная с патча 1.10.";
