@@ -5,9 +5,15 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-v??
-Added ICC - Lower Spire Normal Mode loot
-Added The Forge of Souls loot
+
+v5.09.00
+Updated for Patch 3.3
+Added Icecrown Citadel Lower Spire (Normal Mode)
+Added The Forge of Souls
+Added the Halls of Reflection
+Change so that you only get nagged for AtlasLoot/Atlas mismatches once
+Change to the use of Babble data for non-English users
+Minor fixes
 
 v5.08.10
 Commented out some Patch 3.3 stuff that was causing problems
