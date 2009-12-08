@@ -549,7 +549,7 @@ if AL then
 	-- Sixth set
 	AL["Hunt for Illidan"] = "獵殺伊利丹";
 	AL["The Footsteps of Illidan"] = "伊利丹的腳步";
---	AL["Disco Inferno!"] = true;
+	AL["Disco Inferno!"] = "Disco Inferno!";
 	AL["Ethereal Plunderer"] = "伊斯利掠奪者";
 
 	-- Seventh set
@@ -597,6 +597,12 @@ if AL then
 	AL["Path of the Violet Mage"] = "紫蘿蘭法師之路";
 	AL["Path of the Violet Assassin"] = "紫羅蘭刺客之路";
 	AL["Path of the Violet Restorer"] = "紫羅蘭治療師之路";
+	
+	-- Ashen Verdict Paths
+--	AL["Path of Courage"] = true;
+--	AL["Path of Destruction"] = true;
+--	AL["Path of Vengeance"] = true;
+--	AL["Path of Wisdom"] = true;
 
 	--AQ Opening Event
 	AL["Red Scepter Shard"] = "紅色權杖碎片";
