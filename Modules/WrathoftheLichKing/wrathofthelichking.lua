@@ -10447,7 +10447,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 24, 50458, "", "=q4=Bizuri's Totem of Shattered Ice", "=ds=#s16#, #w15#", "30 #eoffrost#" };
 		{ 25, 50463, "", "=q4=Totem of the Avalanche", "=ds=#s16#, #w15#", "30 #eoffrost#" };
 		{ 26, 50464, "", "=q4=Totem of the Surging Sea", "=ds=#s16#, #w15#", "30 #eoffrost#" };
-		{ 28, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "? #eoffrost#" };
+		{ 28, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "30 #eoffrost#" };
 		Prev = "EmblemofFrost";
 		Back = "SETMENU";
 	};
