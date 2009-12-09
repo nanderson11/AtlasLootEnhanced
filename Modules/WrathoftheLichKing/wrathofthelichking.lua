@@ -5704,7 +5704,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 8, 50808, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#"};
 		{ 16, 50809, "", "=q4=Soulcleave Pendant", "=ds=#s2#"};
 		{ 17, 50803, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#"};
-		{ 19, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h3#, #w1#"};
+		{ 19, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#"};
 		{ 20, 50805, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
 		Prev = "ICCGunshipBattle";
 	};
