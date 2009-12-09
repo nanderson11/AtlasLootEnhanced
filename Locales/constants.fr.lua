@@ -545,17 +545,17 @@ if AL then
 	AL["Personal Weather Machine"] = "Machine météorologique gobeline";
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Biscuit pour familier à l'ancienne de papa Humme";
 
-	-- Sixth set
+	-- Sixth set -- à traduire
 	AL["Hunt for Illidan"] = "La Traque d'Illidan";
-	--AL["The Footsteps of Illidan"] = true; -- à traduire
-	--AL["Disco Inferno!"] = true; -- à traduire
+	--AL["The Footsteps of Illidan"] = true;
+	--AL["Disco Inferno!"] = true;
 	AL["Ethereal Plunderer"] = "Pilleur éthérien";
 
-	-- Seventh set
+	-- Seventh set -- à traduire
 	AL["Drums of War"] = "Tambours de Guerre";
-	--AL["The Red Bearon"] = true; -- à traduire
-	--AL["Owned!"] = true; -- à traduire
-	--AL["Slashdance"] = true; -- à traduire
+	--AL["The Red Bearon"] = true;
+	--AL["Owned!"] = true;
+	--AL["Slashdance"] = true;
 
 	-- Eighth set
 	AL["Blood of Gladiators"] = "Le Sang des Gladiateurs";
@@ -1018,25 +1018,25 @@ if AL then
 	AL["Koltira's Plate"] = "Armure de Koltira en plaques";
 
 	-- Tier 10 Sets -- à traduire
-	--AL["Lasherweave's Garb"] = true;
-	--AL["Lasherweave's Battlegear"] = true;
-	--AL["Lasherweave's Regalia"] = true;
-	--AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
-	--AL["Bloodmage's Regalia"] = true;
-	--AL["Lightsworn Garb"] = true;
-	--AL["Lightsworn Plate"] = true;
-	--AL["Lightsworn Battlegear"] = true;
-	--AL["Crimson Acolyte's Regalia"] = true;
-	--AL["Crimson Acolyte's Raiment"] = true;
-	--AL["Shadowblade's Battlegear"] = true;
-	--AL["Frost Witch's Garb"] = true;
-	--AL["Frost Witch's Battlegear"] = true;
-	--AL["Frost Witch's Regalia"] = true;
-	--AL["Dark Coven's Regalia"] = true;
-	--AL["Ymirjar Lord's Battlegear"] = true;
-	--AL["Ymirjar Lord's Plate"] = true;
-	--AL["Scourgelord's Battlegear"] = true;
-	--AL["Scourgelord's Plate"] = true;
+	AL["Lasherweave's Garb"] = "Atours en tisse-flagellant";
+	AL["Lasherweave's Battlegear"] = "Tenue de combat en tisse-flagellant";
+	AL["Lasherweave's Regalia"] = "Tenue de parade en tisse-flagellant";
+	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "Tenue de combat de chasseur de sang ahn'kahar";
+	AL["Bloodmage's Regalia"] = "Tenue de parade de mage de sang";
+	AL["Lightsworn Garb"] = "Atours ligelumières";
+	AL["Lightsworn Plate"] = "Tenue de combat ligelumière";
+	AL["Lightsworn Battlegear"] = "Armure ligelumières en plaques";
+	AL["Crimson Acolyte's Regalia"] = "Tenue de parade d'acolyte cramoisi";
+	AL["Crimson Acolyte's Raiment"] = "Grande tenue d'acolyte cramoisi";
+	AL["Shadowblade's Battlegear"] = "Tenue de combat de lame de l'ombre";
+	AL["Frost Witch's Garb"] = "Atours de sorcière du givre";
+	AL["Frost Witch's Battlegear"] = "Tenue de combat de sorcière du givre";
+	AL["Frost Witch's Regalia"] = "Tenue de parade de sorcière du givre";
+	AL["Dark Coven's Regalia"] = "Tenue de parade du convent noir";
+	AL["Ymirjar Lord's Battlegear"] = "Tenue de combat de seigneur ymirjar";
+	AL["Ymirjar Lord's Plate"] = "Armure de seigneur ymirjar en plaques";
+	AL["Scourgelord's Battlegear"] = "Armure de seigneur du Fléau en plaques";
+	AL["Scourgelord's Plate"] = "Tenue de combat de seigneur du Fléau";
 
 	-- Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "Intention des Hautes-terres";
