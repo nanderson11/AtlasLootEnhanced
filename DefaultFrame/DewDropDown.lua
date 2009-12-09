@@ -186,55 +186,55 @@ AtlasLoot_DewDropDown = {
 			[9] = {
 				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
 			},
-			[9] = {
+			[10] = {
 				{ BabbleZone["Halls of Reflection"], "HallsofReflection", "Submenu" },
 			},
-			[10] = {
+			[11] = {
 				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
 			},
-			[11] = {
+			[12] = {
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
-			[12] = {
+			[13] = {
 				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
 			},
-			[13] = {
+			[14] = {
 				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
-			[14] = {
+			[15] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
-			[15] = {
+			[16] = {
 				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
-			[16] = {
+			[17] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
-			[17] = {
+			[18] = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
-			[18] = {
+			[19] = {
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
 				},
 			},
-			[19] = {
+			[20] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
-			[20] = {
+			[21] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
-			[21] = {
+			[22] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[22] = {
+			[23] = {
 				[BabbleZone["Vault of Archavon"]] = {
 					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
 					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
 				},
 			},
-			[23] = {
+			[24] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
