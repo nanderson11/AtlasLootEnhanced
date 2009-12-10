@@ -5391,6 +5391,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 5, 49787, "", "=q4=Seven Stormy Mornings", "=ds=#s8#, #a3#"};
 		{ 6, 49784, "", "=q4=Minister's Number One Legplates", "=ds=#s11#, #a4#"};
 		{ 7, 49783, "", "=q4=Lucky Old Sun", "=ds=#h1#, #w6#"};
+		{ 8, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 50193, "", "=q4=Very Fashionable Shoulders", "=ds=#s3#, #a1#"};
 		{ 18, 50197, "", "=q4=Eyes of Bewilderment", "=ds=#s1#, #a3#"};
@@ -5398,6 +5399,7 @@ local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 		{ 20, 50196, "", "=q4=Love's Prisoner", "=ds=#s2#"};
 		{ 21, 50191, "", "=q4=Nighttime", "=ds=#h1#, #w1#"};
 		{ 22, 50169, "", "=q4=Papa's Brand New Knife", "=ds=#w11#"};
+		{ 24, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
 		Next = "FoSDevourer";
 	};
 
