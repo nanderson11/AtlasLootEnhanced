@@ -13,6 +13,24 @@ local LibBabbleAdd = {
 		["frFR"] = {
 		
 		},
+        ["esES"] = {
+		
+		},
+		["esMX"] = {
+		
+		},
+        ["koKR"] = {
+		
+		},
+		["ruRU"] = {
+		
+		},
+        ["zhCN"] = {
+		
+		},
+		["zhTW"] = {
+		
+		},
 	},
 	["LibBabble-Inventory-3.0"] = {
 		["base"] = {
@@ -22,6 +40,24 @@ local LibBabbleAdd = {
 		
 		},
 		["frFR"] = {
+		
+		},
+        ["esES"] = {
+		
+		},
+		["esMX"] = {
+		
+		},
+        ["koKR"] = {
+		
+		},
+		["ruRU"] = {
+		
+		},
+        ["zhCN"] = {
+		
+		},
+		["zhTW"] = {
 		
 		},
 	},
@@ -35,6 +71,24 @@ local LibBabbleAdd = {
 		["frFR"] = {
 		
 		},
+        ["esES"] = {
+		
+		},
+		["esMX"] = {
+		
+		},
+        ["koKR"] = {
+		
+		},
+		["ruRU"] = {
+		
+		},
+        ["zhCN"] = {
+		
+		},
+		["zhTW"] = {
+		
+		},
 	},
 	["LibBabble-Zone-3.0"] = {
 		["base"] = {
@@ -44,6 +98,24 @@ local LibBabbleAdd = {
 		
 		},
 		["frFR"] = {
+		
+		},
+        ["esES"] = {
+		
+		},
+		["esMX"] = {
+		
+		},
+        ["koKR"] = {
+		
+		},
+		["ruRU"] = {
+		
+		},
+        ["zhCN"] = {
+		
+		},
+		["zhTW"] = {
 		
 		},
 	},
