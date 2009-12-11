@@ -21,6 +21,7 @@ AtlasLootFilterDB = {};
 local FilterTableNames = {
 	["Armor"] = AL["Armor:"],
 	["WeaponsMeele"] = AL["Melee weapons:"],
+	["WeaponsMeeleTwoHand"] = BabbleInventory["Two-Hand"]..":",--.." "..AL["Melee weapons:"],
 	["WeaponsRanged"] = AL["Ranged weapons:"],
 	["Relics"] = AL["Relics:"],
 	["Other"] = AL["Other:"],
@@ -35,16 +36,21 @@ local FilterTable = {
 		},
 		
 	["WeaponsMeele"] = {
-		"Two-Hand",			--1
-		"Held in Off-Hand",	--2
-		"Dagger",			--3
-		"Mace",				--4
-		"Staff",			--5		
-		"Axe",				--6
-		"Polearm",			--7
-		"Shield",			--8
-		"Sword",			--9
-		"Fist Weapon",		--10
+		"Held in Off-Hand",	--1
+		"Dagger",			--2
+		"Mace",				--3
+		"Staff",			--4		
+		"Axe",				--5
+		"Polearm",			--6
+		"Shield",			--7
+		"Sword",			--8
+		"Fist Weapon",		--9
+		},
+		
+	["WeaponsMeeleTwoHand"] = {
+		"Mace",				--1
+		"Axe",				--2
+		"Sword",			--3	
 		},
 		
 	["WeaponsRanged"] = {
@@ -71,16 +77,16 @@ local FilterTable = {
 }
 
 local ClassHides = {
-	["DRUID"] = {["Armor"] = {true,true,false,false},["WeaponsMeele"] = {true,true,true,true,true,false,true,false,false,false},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {true,false,false,false},["Other"] = {true,true,true,true}},
-	["MAGE"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {false,true,true,false,true,false,false,false,true,false},["WeaponsRanged"] = {true,false,false,false,false},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
-	["PALADIN"] = {["Armor"] = {true,true,true,true},["WeaponsMeele"] = {true,true,false,true,false,true,true,true,true,false},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {false,false,true,false},["Other"] = {true,true,true,true}},
-	["PRIEST"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {false,true,true,true,true,false,false,false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
-	["ROGUE"] = {["Armor"] = {true,true,false,false},["WeaponsMeele"] = {false,true,true,true,false,true,false,false,true,true},["WeaponsRanged"] = {false,true,true,true,true},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
-	["HUNTER"] = {["Armor"] = {true,true,true,false},["WeaponsMeele"] = {true,true,true,false,true,true,true,false,true,true},["WeaponsRanged"] = {false,true,true,true,true},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
-	["SHAMAN"] = {["Armor"] = {true,true,true,false},["WeaponsMeele"] = {true,true,true,true,true,true,false,true,false,true},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {false,true,false,false},["Other"] = {true,true,true,true}},
-	["WARLOCK"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {false,true,true,false,true,false,false,false,true,false},["WeaponsRanged"] = {true,false,false,false,false},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
-	["WARRIOR"] = {["Armor"] = {true,true,true,true},["WeaponsMeele"] = {true,true,true,true,true,true,true,true,true,true},["WeaponsRanged"] = {false,true,true,true,true},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
-	["DEATHKNIGHT"] = {["Armor"] = {true,true,true,true},["WeaponsMeele"] = {true,true,false,true,false,true,true,false,true,false},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {false,false,false,true},["Other"] = {true,true,true,true}}
+	["DRUID"] = {["Armor"] = {true,true,false,false},["WeaponsMeele"] = {true,true,true,true,false,true,false,false,false},["WeaponsMeeleTwoHand"] = {true,false,false},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {true,false,false,false},["Other"] = {true,true,true,true}},
+	["MAGE"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
+	["PALADIN"] = {["Armor"] = {true,true,true,true},["WeaponsMeele"] = {true,false,true,false,true,true,true,true,false},["WeaponsMeeleTwoHand"] = {true,false,true},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {false,false,true,false},["Other"] = {true,true,true,true}},
+	["PRIEST"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,true,true,false,false,false,false,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
+	["ROGUE"] = {["Armor"] = {true,true,false,false},["WeaponsMeele"] = {true,true,true,false,true,false,false,true,true},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {false,true,true,true,true},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
+	["HUNTER"] = {["Armor"] = {true,true,true,false},["WeaponsMeele"] = {true,true,false,true,true,true,false,true,true},["WeaponsMeeleTwoHand"] = {false,false,true},["WeaponsRanged"] = {false,true,true,true,true},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
+	["SHAMAN"] = {["Armor"] = {true,true,true,false},["WeaponsMeele"] = {true,true,true,true,true,false,true,false,true},["WeaponsMeeleTwoHand"] = {true,true,false},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {false,true,false,false},["Other"] = {true,true,true,true}},
+	["WARLOCK"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
+	["WARRIOR"] = {["Armor"] = {true,true,true,true},["WeaponsMeele"] = {true,true,true,true,true,true,true,true,true},["WeaponsMeeleTwoHand"] = {true,true,true},["WeaponsRanged"] = {false,true,true,true,true},["Relics"] = {false,false,false,false},["Other"] = {true,true,true,true}},
+	["DEATHKNIGHT"] = {["Armor"] = {true,true,true,true},["WeaponsMeele"] = {true,false,true,false,true,true,false,true,false},["WeaponsMeeleTwoHand"] = {true,false,true},["WeaponsRanged"] = {false,false,false,false,false},["Relics"] = {false,false,false,true},["Other"] = {true,true,true,true}}
 }
 
 -- **********************************************************************
@@ -130,7 +136,8 @@ function AtlasLoot_HideNoUsableItems()
 							else
 								Slotname = BabbleInventory[j]
 							end
-							if strfind(xitemExtraText, Slotname) and AtlasLootFilterDB[k][j] == false then
+							
+							if (k ~= "WeaponsMeeleTwoHand" and strfind(xitemExtraText, Slotname) and not strfind(xitemExtraText, BabbleInventory["Two-Hand"]) and AtlasLootFilterDB[k][j] == false) or (k == "WeaponsMeeleTwoHand" and strfind(xitemExtraText, BabbleInventory["Two-Hand"]) and strfind(xitemExtraText, Slotname) and AtlasLootFilterDB[k][j] == false) then
 								xgo = false
 								-- German fix
 								if j == "Shield" and not strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) and not strfind(xitemExtraText, BabbleInventory["Off Hand"]) then
@@ -225,7 +232,7 @@ local lastframewidht,lastframeheight = 0,0
 
 local function CreateCheckButton(parrent, text, num)
 	local framewidht = InterfaceOptionsFramePanelContainer:GetWidth()
-	local Check = CreateFrame("CheckButton", "AtlasLootOptionsCheck"..text, parrent, "OptionsCheckButtonTemplate")
+	local Check = CreateFrame("CheckButton", "AtlasLootOptionsCheck"..text..num, parrent, "OptionsCheckButtonTemplate")
 		Check:SetPoint("LEFT", parrent, "TOPLEFT", xpos, ypos)
 		Check:SetWidth(25)
 		Check:SetHeight(25)
@@ -358,6 +365,7 @@ function AtlasLoot_CreateFilterOptions()
 	
 	CreateCat(scc, "Armor")
 	CreateCat(scc, "WeaponsMeele")
+	CreateCat(scc, "WeaponsMeeleTwoHand")
 	CreateCat(scc, "WeaponsRanged")
 	CreateCat(scc, "Relics")
 	CreateCat(scc, "Other")
