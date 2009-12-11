@@ -5509,7 +5509,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["HoRFalric"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 49823, "", "=q4=Eerie Runeblade Polisher", "=ds=#s4#"};
+		{ 2, 49832, "", "=q4=Eerie Runeblade Polisher", "=ds=#s4#"};
 		{ 3, 49828, "", "=q4=Marwyn's Macabre Fingertips", "=ds=#s9#, #a1#"};
 		{ 4, 49830, "", "=q4=Fallen Sentry's Hood", "=ds=#s1#, #a2#"};
 		{ 5, 49831, "", "=q4=Muddied Boots of Brill", "=ds=#s12#, #a3#"};
