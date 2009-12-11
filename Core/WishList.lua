@@ -22,9 +22,6 @@ AtlasLoot_CreateWishlistOptions()
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
---[[
-local BabbleFaction = LibStub("LibBabble-Faction-3.0"):GetLookupTable();
-]]--
 
 local ALModule = AtlasLoot:NewModule("WishList", "AceSerializer-3.0", "AceComm-3.0")
 
@@ -776,7 +773,7 @@ local function ClearLines()
 end
 
 --[[
-<local> AddWishListOptions(parrent,name,icon,xxx,tabname,tab2)
+<local> AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
 Add a wishlist too the ScrollFrame
 ]]
 local function AddWishListOptions(parrent,name,icon,xxx,tabname,tab2,shared)
