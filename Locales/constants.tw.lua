@@ -286,7 +286,7 @@ if AL then
 
 	--Extra inventory stuff
 	AL["Cloak"] = "披風";
-	AL["Sigil"] = "符記"; --Can be added to BabbleInv
+	AL["Sigil"] = "符印"; --Can be added to BabbleInv
 
 	--Alchemy
 	AL["Battle Elixirs"] = "戰鬥藥劑";
@@ -308,7 +308,7 @@ if AL then
 
 	--Engineering
 	AL["Ammunition"] = "彈藥";
-	AL["Explosives"] = "火藥";
+	AL["Explosives"] = "爆裂物";
 
 	--Inscription
 	AL["Major Glyph"] = "極效雕紋";
@@ -599,10 +599,10 @@ if AL then
 	AL["Path of the Violet Restorer"] = "紫羅蘭治療師之路";
 	
 	-- Ashen Verdict Paths
---	AL["Path of Courage"] = true;
---	AL["Path of Destruction"] = true;
---	AL["Path of Vengeance"] = true;
---	AL["Path of Wisdom"] = true;
+	AL["Path of Courage"] = "勇氣之路";
+	AL["Path of Destruction"] = "毀滅之路";
+	AL["Path of Vengeance"] = "復仇之路";
+	AL["Path of Wisdom"] = "智慧之路";
 
 	--AQ Opening Event
 	AL["Red Scepter Shard"] = "紅色權杖碎片";
@@ -1019,25 +1019,25 @@ if AL then
 	AL["Koltira's Plate"] = "寇爾提拉的鎧甲";
 
 	-- Tier 10 Sets
---	AL["Lasherweave's Garb"] = true;
---	AL["Lasherweave's Battlegear"] = true;
---	AL["Lasherweave's Regalia"] = true;
---	AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
---	AL["Bloodmage's Regalia"] = true;
---	AL["Lightsworn Garb"] = true;
---	AL["Lightsworn Plate"] = true;
---	AL["Lightsworn Battlegear"] = true;
---	AL["Crimson Acolyte's Regalia"] = true;
---	AL["Crimson Acolyte's Raiment"] = true;
---	AL["Shadowblade's Battlegear"] = true;
---	AL["Frost Witch's Garb"] = true;
---	AL["Frost Witch's Battlegear"] = true;
---	AL["Frost Witch's Regalia"] = true;
---	AL["Dark Coven's Regalia"] = true;
---	AL["Ymirjar Lord's Battlegear"] = true;
---	AL["Ymirjar Lord's Plate"] = true;
---	AL["Scourgelord's Battlegear"] = true;
---	AL["Scourgelord's Plate"] = true;
+	AL["Lasherweave's Garb"] = "棘織裝束";
+	AL["Lasherweave's Battlegear"] = "棘織戰裝";
+	AL["Lasherweave's Regalia"] = "棘織戰衣";
+	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "安卡哈血狩戰裝";
+	AL["Bloodmage's Regalia"] = "血法戰衣";
+	AL["Lightsworn Garb"] = "光誓裝束";
+	AL["Lightsworn Plate"] = "光誓鎧甲";
+	AL["Lightsworn Battlegear"] = "光誓戰裝";
+	AL["Crimson Acolyte's Regalia"] = "赤紅侍僧戰衣";
+	AL["Crimson Acolyte's Raiment"] = "赤紅侍僧衣飾";
+	AL["Shadowblade's Battlegear"] = "影刃戰裝";
+	AL["Frost Witch's Garb"] = "冰霜女巫裝束";
+	AL["Frost Witch's Battlegear"] = "冰霜女巫戰裝";
+	AL["Frost Witch's Regalia"] = "冰霜女巫戰衣";
+	AL["Dark Coven's Regalia"] = "黑暗巫會戰衣";
+	AL["Ymirjar Lord's Battlegear"] = "依米亞領主戰裝";
+	AL["Ymirjar Lord's Plate"] = "依米亞領主鎧甲";
+	AL["Scourgelord's Battlegear"] = "天譴領主戰裝";
+	AL["Scourgelord's Plate"] = "天譴領主鎧甲";
 
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "高地人的專注";
