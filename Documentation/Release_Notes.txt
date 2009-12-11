@@ -8,6 +8,10 @@ Patch Notes
 5.09.01
 Pit of Saron is now visible in the loot browser
 
+v5.09.01
+Added Pit of Saron
+Minor fixes
+
 v5.09.00
 Updated for Patch 3.3
 Added Icecrown Citadel Lower Spire (Normal Mode)
