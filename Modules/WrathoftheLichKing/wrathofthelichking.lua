@@ -5622,7 +5622,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, 50785, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#"};
 		{ 2, 50782, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#"};
 		{ 3, 50780, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#"};
-		{ 4, 50788, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#"};
+		{ 4, 50778, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#"};
 		{ 5, 50783, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#"};
 		{ 6, 50777, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#"};
 		{ 7, 50784, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#"};
@@ -5647,7 +5647,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
 		{ 17, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
 		{ 18, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
-		{ 20, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
+		{ 20, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
+		{ 21, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
 		Prev = "ICCLordMarrowgar25Man";
 		Next = "ICCGunshipBattle25Man";
 	};
