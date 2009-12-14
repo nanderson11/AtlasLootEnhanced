@@ -1281,7 +1281,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 39633, "", "=q4=Heroes' Redemption Chestpiece", "=ds=#s5#, #a4#"};
 		{ 3, 39634, "", "=q4=Heroes' Redemption Gauntlets", "=ds=#s9#, #a4#"};
 		{ 4, 39636, "", "=q4=Heroes' Redemption Legplates", "=ds=#s11#, #a4#"};
-		{ 6, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Protection"]};
+		{ 6, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 7, 39638, "", "=q4=Heroes' Redemption Breastplate", "=ds=#s5#, #a4#"};
 		{ 8, 39639, "", "=q4=Heroes' Redemption Handguards", "=ds=#s9#, #a4#"};
 		{ 9, 39641, "", "=q4=Heroes' Redemption Legguards", "=ds=#s11#, #a4#"};
@@ -1457,7 +1457,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 40574, "", "=q4=Valorous Redemption Chestpiece", "=ds=#s5#, #a4#"};
 		{ 3, 40575, "", "=q4=Valorous Redemption Gauntlets", "=ds=#s9#, #a4#"};
 		{ 4, 40577, "", "=q4=Valorous Redemption Legplates", "=ds=#s11#, #a4#"};
-		{ 6, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Protection"]};
+		{ 6, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 7, 40579, "", "=q4=Valorous Redemption Breastplate", "=ds=#s5#, #a4#"};
 		{ 8, 40580, "", "=q4=Valorous Redemption Handguards", "=ds=#s9#, #a4#"};
 		{ 9, 40583, "", "=q4=Valorous Redemption Legguards", "=ds=#s11#, #a4#"};
@@ -5463,7 +5463,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 50266, "", "=q4=Ancient Polar Bear Hide", "=ds=#s5#, #a1#"};
 		{ 18, 50263, "", "=q4=Braid of Salt and Fire", "=ds=#s10#, #a1#"};
-		{ 19, 50624, "", "=q4=Chewed Leather Wristguards", "=ds=#s8#, #a2#"};
+		{ 19, 50264, "", "=q4=Chewed Leather Wristguards", "=ds=#s8#, #a2#"};
 		{ 20, 50265, "", "=q4=Blackened Ghoul Skin Leggings", "=ds=#s11#, #a3#"};
 		{ 21, 50235, "", "=q4=Ick's Rotting Thumb", "=ds=#s14#"};
 		{ 22, 50262, "", "=q4=Felglacier Bolter", "=ds=#w3#"};
