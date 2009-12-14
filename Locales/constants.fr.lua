@@ -135,9 +135,9 @@ if AL then
 
 	-- Crafting Menu
 	AL["Crafting Daily Quests"] = "Artisanat des quêtes journalières";
-	AL["Cooking Daily"] = "Rec. de cuisine (Jounalière)";
-	AL["Fishing Daily"] = "Rec. de pêche (Journalère)";
-	AL["Jewelcrafting Daily"] = "Rec. de Joaillerie (Journalière)";
+	AL["Cooking Daily"] = "Recs. journa. de cuisine";
+	AL["Fishing Daily"] = "Recs. journa. de pêche";
+	AL["Jewelcrafting Daily"] = "Recs. journa. de joaillerie";
 	AL["Crafted Sets"] = "Sets d'artisanat";
 	AL["Crafted Epic Weapons"] = "Armes d'artisanat épiques";
 	AL["Dragon's Eye"] = "Oeil de dragon";
