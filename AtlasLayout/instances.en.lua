@@ -73,6 +73,12 @@ AtlasLootNewBossButtons = {
         "Malygos";
         };
 
+    TheForgeOfSouls = {
+        "";
+        "FoSBronjahm";
+        "FoSDevourer";
+        };
+
     Gundrak = {
         "";
         "";
@@ -84,6 +90,13 @@ AtlasLootNewBossButtons = {
         "";
         "GundrakTrash";
         };
+        
+	HallsOfReflection = {
+		"";
+		"HoRLichKing";
+		"HoRFalric";
+		"HoRMarwyn";
+		};
 
     Naxxramas = {
         "";
@@ -141,6 +154,14 @@ AtlasLootNewBossButtons = {
         "";
         "OcuTrash";
         };
+
+	PitOfSaron = {
+		"";
+		"PoSGarfrost";
+		"PoSKrickIck";
+		"PoSKrickIck";
+		"PoSTyrannus";
+		};
 
     TrialOfTheChampion = {
         "";

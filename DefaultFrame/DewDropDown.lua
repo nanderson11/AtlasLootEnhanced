@@ -886,5 +886,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "ICCLadyDeathwhisper" },
 		{ "", "ICCGunshipBattle" },
 		{ "", "ICCSaurfang" },
+		{ "", "ICCTrash25Man" },
 	},
 };

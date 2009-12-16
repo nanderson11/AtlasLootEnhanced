@@ -5,11 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Daviesh
 
 Patch Notes
-5.09.01
-Pit of Saron is now visible in the loot browser
+5.09.02
+Compatible with Atlas Fan-update
+Minor fixes
 
 v5.09.01
-Added Pit of Saron
+Pit of Saron is now visible in the loot browser
 Minor fixes
 
 v5.09.00

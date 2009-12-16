@@ -5394,7 +5394,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 50196, "", "=q4=Love's Prisoner", "=ds=#s2#"};
 		{ 21, 50191, "", "=q4=Nighttime", "=ds=#h1#, #w1#"};
 		{ 22, 50169, "", "=q4=Papa's Brand New Knife", "=ds=#w11#"};
-		{ 24, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
+		{ 24, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#"};
+		{ 25, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
 		Next = "FoSDevourer";
 	};
 
@@ -5592,6 +5593,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 50775, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#"};
 		{ 6, 50772, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#"};
 		{ 8, 50763, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#"};
+		{ 9, 50339, "", "=q4=Sliver of Pure Ice", "=ds=#s14#"};
 		{ 16, 50759, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
 		{ 17, 50760, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
 		{ 18, 50771, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
@@ -5629,7 +5631,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 50779, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#"};
 		{ 9, 50786, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
 		{ 16, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
-		{ 18, 50776, "", "=q4=Njordnar Bone Bow", "=ds=#w2#"};
+		{ 17, 50342, "", "=q4=Whispering Fanged Skull", "=ds=#s15#"};
+		{ 19, 50776, "", "=q4=Njordnar Bone Bow", "=ds=#w2#"};
 		Prev = "ICCLordMarrowgar";
 		Next = "ICCGunshipBattle";
 	};
@@ -5647,8 +5650,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
 		{ 17, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
 		{ 18, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
-		{ 20, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
-		{ 21, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
+		{ 20, 49982, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
+		{ 21, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
+		{ 22, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
 		Prev = "ICCLordMarrowgar25Man";
 		Next = "ICCGunshipBattle25Man";
 	};
@@ -5663,7 +5667,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 50788, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#"};
 		{ 9, 50790, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#"};
 		{ 10, 50340, "", "=q4=Muradin's Spyglass", "=ds=#s14#"};
-		{ 11, 50341, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
 		{ 16, 50787, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
 		{ 17, 50793, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
 		{ 18, 50794, "", "=q4=Neverending Winter", "=ds=#w8#"};
@@ -5713,7 +5716,22 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, 50015, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#"};
 		{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
 		{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
 		Prev = "ICCGunshipBattle25Man";
+		Next = "ICCTrash25Man";
+	};
+
+	AtlasLoot_Data["ICCTrash25Man"] = {
+		{ 1, 50449, "", "=q4=Stiffened Corpse Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 2, 50450, "", "=q4=Leggings of Dubious Charms", "=ds=#s11#, #a3#"};
+		{ 3, 50451, "", "=q4=Belt of the Lonely Noble", "=ds=#s10#, #a4#"};
+		{ 4, 50452, "", "=q4=Wodin's Lucky Necklace", "=ds=#s2#"};
+		{ 5, 50447, "", "=q4=Harbinger's Bone Band", "=ds=#s13#"};
+		{ 6, 50453, "", "=q4=Ring of Rotting Sinew", "=ds=#s13#"};
+		{ 7, 50444, "", "=q4=Rowan's Rifle of Silver Bullets", "=ds=#w5#"};
+		Prev = "ICCSaurfang25Man";
 	};
 
 	----------------
