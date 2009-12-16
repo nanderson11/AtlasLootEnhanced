@@ -11,7 +11,9 @@ local RecursiveSearchZoneName(dataTable, zoneID)
 AtlasLoot_GetWishListSubheading(dataID)
 AtlasLoot_CategorizeWishList(wlTable)
 AtlasLoot_GetWishListPage(page)
-AtlasLoot_WishListCheck(itemID)
+AtlasLoot_WishListCheck(itemID, all)
+AtlasLoot_GetWishLists([playerName])
+AtlasLoot_CheckWishlistItem(itemID ,[playerName ,[wishlist] ])
 
 <local> ClearLines()
 <local> AddWishListOptions(parrent,name,icon,xxx,tabname,tab2)
@@ -585,7 +587,7 @@ function AtlasLoot_GetWishListPage(page)
 end
 
 --[[
-AtlasLoot_WishListCheck(itemID):
+AtlasLoot_WishListCheck(itemID, all):
 Returns true if an item is already in the wishlist
 ]]
 function AtlasLoot_WishListCheck(itemID, all)
@@ -661,6 +663,122 @@ function AtlasLoot_WishListCheck(itemID, all)
 			end	
 		end
 		return false;
+	end
+end
+
+--[[
+AtlasLoot_GetWishLists([playerName])
+Returns a Table with wishlist infos, if name not exist in wishlisttable it returns nil.
+[playerName]		-> Enter a PlayerName <string>
+
+return:
+table = {
+	["playerName"] = {
+		[WishListNumber] = {
+			[1] = "WishlistName",
+			[2] = "WishlistIcon",
+		},
+	},
+}
+]]
+function AtlasLoot_GetWishLists(playerName)
+	local returnTable = {}
+	if playerName then
+		if not returnTable[playerName] then returnTable[playerName] = {} end
+		if not AtlasLootWishList["Own"][playerName] then return nil end
+		for listIndex,_ in pairs(AtlasLootWishList["Own"][playerName]) do
+			if not returnTable[playerName][listIndex] then returnTable[playerName][listIndex] = {} end
+			returnTable[playerName][listIndex][1] = AtlasLootWishList["Own"][playerName][listIndex]["info"][1]
+			returnTable[playerName][listIndex][2] = AtlasLootWishList["Own"][playerName][listIndex]["info"][2]
+		end
+	else
+		for name,_ in pairs(AtlasLootWishList["Own"]) do
+			if not returnTable[name] then returnTable[name] = {} end
+			for listIndex,_ in pairs(AtlasLootWishList["Own"][name]) do
+				if not returnTable[name][listIndex] then returnTable[name][listIndex] = {} end
+				returnTable[name][listIndex][1] = AtlasLootWishList["Own"][name][listIndex]["info"][1]
+				returnTable[name][listIndex][2] = AtlasLootWishList["Own"][name][listIndex]["info"][2]
+			end
+		end
+	end
+	return returnTable
+end
+
+--[[
+AtlasLoot_CheckWishlistItem(itemID ,[playerName ,[wishlist] ])
+Returns a Table with infos about the item.
+itemID 			-> Enter a ItemID
+[playerName]	-> Enter a PlayerName, needed if you want to check only wishlists from a particular player (if you need to check all players, enter nil)
+[wishlist]		-> Checks only this wishlist (playerName can be nil)
+
+return:
+table = {
+	[index] = {
+		[1] = "playerName",
+		[2] = "WishListName"
+	}
+}
+]]
+function AtlasLoot_CheckWishlistItem(itemID, playerName, wishList)
+	if not itemID then return nil end
+	local returnTable = {}
+	local returnIndex = 1
+	
+	if playerName and not wishList then
+		if not AtlasLootWishList["Own"][playerName] then return nil end
+		for listIndex,_ in pairs(AtlasLootWishList["Own"][playerName]) do
+			for itemIndex,_ in pairs(AtlasLootWishList["Own"][playerName][listIndex]) do
+				if AtlasLootWishList["Own"][playerName][listIndex][itemIndex][2] == itemID then
+					returnTable[returnIndex] = {}
+					returnTable[returnIndex][1] = playerName
+					returnTable[returnIndex][2] = AtlasLootWishList["Own"][playerName][listIndex]["info"][1]
+					returnIndex = returnIndex + 1
+					break
+				end
+			end
+		end
+	elseif wishList then
+		for name,_ in pairs(AtlasLootWishList["Own"]) do
+			for listIndex,_ in pairs(AtlasLootWishList["Own"][name]) do
+				if wishList ~= AtlasLootWishList["Own"][name][listIndex]["info"][1] then break end
+				for itemIndex,_ in pairs(AtlasLootWishList["Own"][name][listIndex]) do
+					if AtlasLootWishList["Own"][name][listIndex][itemIndex][2] == itemID then
+						if playerName and playerName == name then
+							returnTable[returnIndex] = {}
+							returnTable[returnIndex][1] = name
+							returnTable[returnIndex][2] = AtlasLootWishList["Own"][name][listIndex]["info"][1]
+							returnIndex = returnIndex + 1
+							break
+						elseif not playerName then
+							returnTable[returnIndex] = {}
+							returnTable[returnIndex][1] = name
+							returnTable[returnIndex][2] = AtlasLootWishList["Own"][name][listIndex]["info"][1]
+							returnIndex = returnIndex + 1
+							break
+						end
+					end
+				end
+			end
+		end
+	else
+		for name,_ in pairs(AtlasLootWishList["Own"]) do
+			for listIndex,_ in pairs(AtlasLootWishList["Own"][name]) do
+				for itemIndex,_ in pairs(AtlasLootWishList["Own"][name][listIndex]) do
+					if AtlasLootWishList["Own"][name][listIndex][itemIndex][2] == itemID then
+						returnTable[returnIndex] = {}
+						returnTable[returnIndex][1] = name
+						returnTable[returnIndex][2] = AtlasLootWishList["Own"][name][listIndex]["info"][1]
+						returnIndex = returnIndex + 1
+						break
+					end
+				end
+			end
+		end
+	end
+	if type(returnTable) == "table" and #returnTable < 1 then
+		return nil
+	else
+		return returnTable
 	end
 end
 
