@@ -67,6 +67,17 @@ AtlasLootNewBossButtons = {
         "";
         "DrakTharonKeepTrash";
         };
+		
+	IcecrownStart = {
+		"";
+		"ICCLadyDeathwhisper";
+		"ICCLordMarrowgar";
+		"ICCGunshipBattle";
+		"ICCSaurfang";
+		"";
+		"";
+		"ICCTrash25Man";
+		};
 
     TheEyeOfEternity = {
         "WrathKeys";
