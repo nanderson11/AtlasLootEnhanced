@@ -5971,7 +5971,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 44190, "", "=q3=Spaulders of Frozen Knives", "=ds=#s3#, #a2#"};
 		{ 3, 44189, "", "=q3=Giant Ring Belt", "=ds=#s10#, #a3#"};
 		{ 4, 44510, "", "=q3=Pattern: Mammoth Mining Bag", "=ds=#p7# (415)"};
-		{ 5, 44137, "", "=q7=Arcanum of the Frosty Soul", "=ds=#s1# #e17#"};
+		{ 5, 44137, "", "=q3=Arcanum of the Frosty Soul", "=ds=#s1# #e17#"};
 		{ 6, 44131, "", "=q3=Lesser Inscription of the Axe", "=ds=#s3# #e17#"};
 		{ 7, 44130, "", "=q3=Lesser Inscription of the Crag", "=ds=#s3# #e17#"};
 		{ 8, 44132, "", "=q3=Lesser Inscription of the Pinnacle", "=ds=#s3# #e17#"};
@@ -6101,7 +6101,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 49962, "", "=q4=Pattern: Lightning-Infused Leggings", "=ds=#p7# (450)"};
 		{ 24, 49953, "", "=q4=Pattern: Leggings of Woven Death", "=ds=#p8# (450)"};
 		{ 25, 49955, "", "=q4=Pattern: Lightweave Leggings", "=ds=#p8# (450)"};
-		Prev = "AshenVerdict2";
+		Prev = "AshenVerdict";
 		Back = "REPMENU";
 	};
 
