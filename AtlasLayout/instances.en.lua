@@ -1781,7 +1781,7 @@ end
 
 AtlasLootBossButtons = {
 
-  ----------------------
+  ---------------------
   -- WotLK Instances --
   ---------------------
 
@@ -1843,10 +1843,27 @@ AtlasLootBossButtons = {
         "";
         "DrakTharonKeepTrash";
         };
+		
+	IcecrownStart = {
+		"";
+		"ICCLadyDeathwhisper";
+		"ICCLordMarrowgar";
+		"ICCGunshipBattle";
+		"ICCSaurfang";
+		"";
+		"";
+		"ICCTrash25Man";
+		};
 
     TheEyeOfEternity = {
         "WrathKeys";
         "Malygos";
+        };
+
+    TheForgeOfSouls = {
+        "";
+        "FoSBronjahm";
+        "FoSDevourer";
         };
 
     Gundrak = {
@@ -1860,6 +1877,13 @@ AtlasLootBossButtons = {
         "";
         "GundrakTrash";
         };
+        
+	HallsOfReflection = {
+		"";
+		"HoRLichKing";
+		"HoRFalric";
+		"HoRMarwyn";
+		};
 
     Naxxramas = {
         "";
@@ -1917,6 +1941,14 @@ AtlasLootBossButtons = {
         "";
         "OcuTrash";
         };
+
+	PitOfSaron = {
+		"";
+		"PoSGarfrost";
+		"PoSKrickIck";
+		"PoSKrickIck";
+		"PoSTyrannus";
+		};
 
     TrialOfTheChampion = {
         "";

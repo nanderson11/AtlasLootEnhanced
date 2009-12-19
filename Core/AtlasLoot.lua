@@ -37,10 +37,11 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "09";
-local VERSION_BOSSES = "01";
+local VERSION_BOSSES = "02";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "1.15.1";
-ATLASLOOT_PREVIEW_ATLAS = "1.15.2";
+--Now allows for multiple compatible Atlas versions.  Always put the newest first
+ATLASLOOT_CURRENT_ATLAS = {"1.15.2", "1.15.1"};
+ATLASLOOT_PREVIEW_ATLAS = {"1.15.3", "1.16.0"};
 
 ATLASLOOT_POSITION = AL["Position:"];
 ATLASLOOT_DEBUGMESSAGES = false;
@@ -114,6 +115,7 @@ local AtlasLootDBDefaults = {
         SearchOn = {
             All = true,
         },
+        AtlasType = "Release";
     }
 }
 
@@ -140,7 +142,7 @@ StaticPopupDialogs["ATLASLOOT_SETUP"] = {
 
 --Popup Box for an old version of Atlas
 StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
-  text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS.."/"..ATLASLOOT_PREVIEW_ATLAS..AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."],
+  text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS[1].."/"..ATLASLOOT_PREVIEW_ATLAS[1]..AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."],
   button1 = AL["OK"],
   OnAccept = function()
 	  DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["Incompatible Atlas Detected"]);
@@ -184,6 +186,7 @@ Invoked by the VARIABLES_LOADED event.  Now that we are sure all the assets
 the addon needs are in place, we can properly set up the mod
 ]]
 function AtlasLoot_OnVariablesLoaded()
+    local AtlasCheck = false;
     AtlasLoot.db = LibStub("AceDB-3.0"):New("AtlasLootDB");
     AtlasLoot.db:RegisterDefaults(AtlasLootDBDefaults);
 	if not AtlasLootCharDB then AtlasLootCharDB = {} end
@@ -198,6 +201,22 @@ function AtlasLoot_OnVariablesLoaded()
     end
     if AtlasLoot_Data then
         AtlasLoot_Data["EmptyTable"] = {};
+    end
+    --Figure out if it is a compatible Atlas version
+    for i=1,#ATLASLOOT_CURRENT_ATLAS do
+        if ATLAS_VERSION == ATLASLOOT_CURRENT_ATLAS[i] then
+            AtlasCheck = true;
+            AtlasLoot.db.profile.AtlasType = "Release";
+        end
+    end
+    for i=1,#ATLASLOOT_PREVIEW_ATLAS do
+        if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS[i] then
+            AtlasCheck = true;
+            AtlasLoot.db.profile.AtlasType = "Preview";
+        end
+    end
+    if AtlasCheck == false then
+        AtlasLoot.db.profile.AtlasType = "Unknown";
     end
     --Add the loot browser to the special frames tables to enable closing wih the ESC key
 	tinsert(UISpecialFrames, "AtlasLootDefaultFrame");
@@ -254,11 +273,11 @@ function AtlasLoot_OnVariablesLoaded()
 			StaticPopup_Show ("ATLASLOOT_SETUP");
 		end
 		--If not the expected Atlas version, nag the user once
-		if( ATLAS_VERSION ~= ATLASLOOT_CURRENT_ATLAS and ATLAS_VERSION ~= ATLASLOOT_PREVIEW_ATLAS and ATLAS_VERSION ~= AtlasLoot.db.profile.AtlasNaggedVersion ) then
+		if( AtlasLoot.db.profile.AtlasType == "Unknown" and AtlasLoot.db.profile.AtlasNaggedVersion ~= ATLAS_VERSION ) then
             StaticPopup_Show ("ATLASLOOT_OLD_ATLAS");
             AtlasLoot.db.profile.AtlasNaggedVersion = ATLAS_VERSION;
 		end
-        if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS then
+        if AtlasLoot.db.profile.AtlasType == "Preview" then
             AtlasLootBossButtons = AtlasLootNewBossButtons;
         end
 		Hooked_Atlas_Refresh();

@@ -181,25 +181,25 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
 			},
 			[8] = {
-				{ BabbleZone["The Forge of Souls"], "ForgeofSouls", "Submenu" },
-			},
-			[9] = {
-				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
-			},
-			[10] = {
 				{ BabbleZone["Halls of Reflection"], "HallsofReflection", "Submenu" },
 			},
-			[11] = {
+			[9] = {
 				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
 			},
-			[12] = {
+			[10] = {
 				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
 			},
-			[13] = {
+			[11] = {
 				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
 			},
-			[14] = {
+            [12] = {
+				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
+			},
+			[13] = {
 				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
+			},
+            [14] = {
+				{ BabbleZone["The Forge of Souls"], "ForgeofSouls", "Submenu" },
 			},
 			[15] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
