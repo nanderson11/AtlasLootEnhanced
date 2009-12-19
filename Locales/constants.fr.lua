@@ -176,13 +176,13 @@ if AL then
 	AL["WotLK Factions"] = "Factions WotLK";
 
 	-- PvP Menu
-	AL["Arena PvP Sets"] = "Sets arène JcJ";
+	AL["Arena PvP Sets"] = "Sets d'arène JcJ";
 	AL["PvP Rewards (Level 60)"] = "Récompenses JcJ (Niveau 60)";
 	AL["PvP Rewards (Level 70)"] = "Récompenses JcJ (Niveau 70)";
 	AL["PvP Rewards (Level 80)"] = "Récompenses JcJ (Niveau 80)";
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
 	AL["PvP Accessories"] = "Accessoires JcJ";
-	AL["PvP Armor Sets"] = "Sets Armures JcJ";
+	AL["PvP Armor Sets"] = "Sets d'armures JcJ";
 	AL["PvP Weapons"] = "Armes JcJ";
 	AL["PvP Non-Set Epics"] = "Hors sets épiques JcJ";
 	AL["PvP Reputation Sets"] = "Sets réputation JcJ";
@@ -190,8 +190,8 @@ if AL then
 	AL["PvP Misc"] = "Objets divers JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes/Enchantements/Dessins de Joaillerie JcJ";
 	AL["Level 80 PvP Sets"] = "Sets JcJ niveau 80";
-	AL["Old Level 80 PvP Sets"] = "Anciens Sets JcJ niveau 80";
-	AL["Arena Season 7 Sets"] = "Sets arène saison 7";
+	AL["Old Level 80 PvP Sets"] = "Anciens sets JcJ niveau 80";
+	AL["Arena Season 7 Sets"] = "Sets d'arène saison 7";
 	AL["PvP Class Items"] = "Objets JcJ de classe";
 
 	-- World Events
