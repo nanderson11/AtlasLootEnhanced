@@ -731,7 +731,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 else
                     itemButton.price = nil;
                 end
-                if dataSource[dataID][i][7] then
+                if dataSource[dataID][i][7] and dataSource[dataID][i][7] ~= "" then
 				    itemButton.droprate = dataSource[dataID][i][7];
                 else
                     itemButton.droprate = nil;
