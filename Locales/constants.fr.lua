@@ -256,11 +256,11 @@ if AL then
 	AL["Show shared Wishlists"] = "Afficher les listes de souhaits partagés";
 	AL["You must wait "] = "Vous devez attendre";
 	AL[" seconds before you can send a new Wishlist to "] = " secondes avant de pouvoir envoyer une nouvelle liste de souhaits à ";
-	AL["Send Wishlist (%s) to"] = "Envoyer la liste de souhait (%s) à";
+	AL["Send Wishlist (%s) to"] = "Envoyer la liste de souhaits (%s) à";
 	AL["Send"] = "Envoyer";
 	AL["Cancel"] = "Annuler";
 	AL["Delete Wishlist %s?"] = "Supprimer la liste de souhaits %s ?";
-	AL["%s sends you a Wishlist. Accept?"] = "%s souhaite vous envoyer une liste de souhait. Acceptez-vous ?";
+	AL["%s sends you a Wishlist. Accept?"] = "%s souhaite vous envoyer une liste de souhaits. Acceptez-vous ?";
 	AL[" tried to send you a Wishlist. Rejected because you are in combat."] = "a tenté de vous envoyer une liste de souhaits qui a été rejetée car vous êtes en combat.";
 	AL[" rejects your Wishlist."] = " a rejeté votre liste de souhaits.";
 	AL["You can't send Wishlists to yourself"] = "Vous ne pouvez pas envoyer de liste de souhaits à vous-même.";
@@ -1417,21 +1417,21 @@ if AL then
 	AL["Simply Ctrl+Left Click on the item.  Sometimes the dressing room window is hidden behind the Atlas or AtlasLoot windows, so if nothing seems to happen move your Atlas or AtlasLoot windows and see if anything is hidden."] = "Faites simplement la combinaison Ctrl-Clic gauche sur l'objet. Il se peut parfois que la fenêtre de la cabine d'essayage se retrouve cachée derrière la fenêtre d'Atlas ou d'AtlasLoot : si jamais rien ne semble se produire, déplacez la fenêtre d'Atlas et/ou d'AtlasLoot au cas où quelque chose soit caché derrière.";
 	AL["How to link an item to someone else:"] = "Comment faire le lien d'un objet pour le montrer à quelqu'un d'autre :";
 	AL["Shift+Left Click the item like you would for any other in-game item"] = "Faites la combinaison Shift+Clic-Gauche sur l'objet, exactement comme tous les autres objets du jeu.";
-	AL["How to add an item to the wishlist:"] = "Comment ajouter un objet à ma liste :";
-	AL["Alt+Left Click any item to add it to the wishlist."] = "Faites la combinaison Alt+Clic-Gauche sur l'objet en question pour l'ajouter à votre liste.";
-	AL["How to delete an item from the wishlist:"] = "Comment supprimer un objet de ma liste :";
-	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "Une fois sur l'écran de votre liste, faites simplement la combinaison Alt+Clic-Gauche sur l'objet à supprimer.";
-	AL["What else does the wishlist do?"] = "Qu'est-ce que la liste peut faire de plus ?";
-	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "Si vous faites un clic gauche sur un objet de la liste, vous serez directement conduit sur la page du butin qui correspond. De plus, tout objet se trouvant dans votre liste sera marqué par une étoile jaune sur les pages du butin.";
+	AL["How to add an item to the wishlist:"] = "Comment ajouter un objet à ma liste de souhaits :";
+	AL["Alt+Left Click any item to add it to the wishlist."] = "Faites la combinaison Alt+Clic-Gauche sur l'objet en question pour l'ajouter à votre liste de souhaits.";
+	AL["How to delete an item from the wishlist:"] = "Comment supprimer un objet de ma liste de souhaits:";
+	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "Une fois sur l'écran de votre liste de souhaits, faites simplement la combinaison Alt+Clic-Gauche sur l'objet à supprimer.";
+	AL["What else does the wishlist do?"] = "Qu'est-ce que la liste de souhaits peut faire de plus ?";
+	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "Si vous faites un clic gauche sur un objet de la liste de souhaits, vous serez directement conduit sur la page du butin qui correspond. De plus, tout objet se trouvant dans votre liste sera marqué par une étoile jaune sur les pages du butin.";
 	AL["HELP!! I have broken the mod somehow!"] = "AU SECOURS ! Le mod ne fonctionne plus !";
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "Utilisez les boutons réinitialiser présents sur le menu des options, ou tapez '/al reset' dans la saisie de votre fenêtre de discussion.";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
-	AL["WishList Full!"] = "WishList complète !";
-	AL[" added to the WishList."] = " a été ajouté à la WishList";
-	AL[" already in the WishList!"] = " est déjà dans la WishList";
-	AL[" deleted from the WishList."] = " a été effacé de la WishList";
+	AL["WishList Full!"] = "Liste de souhaits complète !";
+	AL[" added to the WishList."] = " a été ajouté à la liste de souhaits";
+	AL[" already in the WishList!"] = " est déjà dans la liste de souhaits";
+	AL[" deleted from the WishList."] = " a été effacé de la liste de souhaits";
     	AL["No match found for"] = "Aucun résultat trouvé pour";
 	AL[" is safe."] = " est valide.";
 	AL["Server queried for "] = "Interrogation du serveur pour ";
