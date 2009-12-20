@@ -605,21 +605,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
         return;
     end
 
-	--Escape out of this function if creating a menu, this function only handles loot tables.
-	--Inserting escapes in this way allows consistant calling of data whether it is a loot table or a menu.
-	if(dataID=="PVPSET") then
-		AtlasLootPVPSetMenu();
-	elseif(dataID=="PVP70RepSET") then
-		AtlasLootPVP70RepSetMenu();
-	elseif(dataID=="ARENASET") then
-		AtlasLootARENASetMenu();
-	elseif(dataID=="ARENA2SET") then
-		AtlasLootARENA2SetMenu();
-	elseif(dataID=="ARENA3SET") then
-		AtlasLootARENA3SetMenu();
-	elseif(dataID=="ARENA4SET") then
-		AtlasLootARENA4SetMenu();
-	elseif (dataID == "SearchResult") or (dataID == "WishList") or (AtlasLoot_IsLootTableAvailable(dataID)) then
+	-- Create the loottable
+	if (dataID == "SearchResult") or (dataID == "WishList") or (AtlasLoot_IsLootTableAvailable(dataID)) then
 		--Iterate through each item object and set its properties
 		for i = 1, 30, 1 do
 			--Check for a valid object (that it exists, and that it has a name)

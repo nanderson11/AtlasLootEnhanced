@@ -1679,9 +1679,7 @@ end
 -------------
 
   -- Menus, the entry does nothing, but makes the generalised loot table code less complex
-	AtlasLoot_TableNames["PVPSET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["PVP70RepSET"] = { "dummy", "dummy" };
-	AtlasLoot_TableNames["ARENASET"] = { "dummy", "dummy" };
+	AtlasLoot_TableNames["ARENASET"] = { AL["Arena PvP Sets"], "Menu" };
 	AtlasLoot_TableNames["SETSMISCMENU"] = { AL["Misc Sets"], "Menu" };
 	AtlasLoot_TableNames["SETSCLASSIC"] = { AL["Classic Sets"], "Menu" };
 	AtlasLoot_TableNames["SETSBURNINGCURSADE"] = { AL["Burning Crusade Sets"], "Menu" };
@@ -1706,12 +1704,14 @@ end
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };
 	AtlasLoot_TableNames["PETMENU"] = { AL["Vanity Pets"], "Menu" };
+	AtlasLoot_TableNames["PVPSET"] = { AL["PvP Armor Sets"]..": "..AL["Level 60"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["ABMENU"] = { BabbleZone["Arathi Basin"], "Menu" };
 	AtlasLoot_TableNames["WSGMENU"] = { BabbleZone["Warsong Gulch"], "Menu" };
 	AtlasLoot_TableNames["WINTERGRASPMENU"] = { BabbleZone["Wintergrasp"], "Menu" };
 	AtlasLoot_TableNames["LEVEL60PVPREWARDS"] = { AL["PvP Rewards (Level 60)"], "Menu" };
 	AtlasLoot_TableNames["LEVEL70PVPREWARDS"] = { AL["PvP Rewards (Level 70)"], "Menu" };
+	AtlasLoot_TableNames["PVP70RepSET"] = { AL["PvP Reputation Sets"]..": "..AL["Level 70"], "Menu" };
 	AtlasLoot_TableNames["PVP70NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
 	AtlasLoot_TableNames["LEVEL80PVPREWARDS"] = { AL["PvP Rewards (Level 80)"], "Menu" };
 	AtlasLoot_TableNames["PVP80NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
