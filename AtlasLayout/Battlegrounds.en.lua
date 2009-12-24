@@ -1,14 +1,11 @@
 --[[
 Battlegrounds.en.lua
-This series of files defines the loot buttons in the Atlas interface
-for the battleground maps.  There is a need for multiple versions of the
-file due to slight translation differences between Atlas languages.
-
-The English file also contains the loot tables for the battleground loot tables.
+This file defines the loot buttons in the Atlas interface for the battleground maps.
 ]]
 ------------
 -- Layout --
 ------------
+
 AtlasLootBattlegrounds = {
 
     AlteracValleyNorth = {

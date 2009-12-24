@@ -10,7 +10,7 @@
 ## X-Website: http://www.atlasloot.net
 ## X-Embeds: Ace3, DewdropLib, FuBarPlugin-2.0, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
 ## Title-deDE: AtlasLoot Enhanced
-## Notes-deDE: Shows the possible loot from the bosses
+## Notes-deDE: Zeigt mögliche Beute von Bossen
 ## Title-frFR: AtlasLoot Enhanced
 ## Notes-frFR: Montre le butin possible des boss
 ## Title-esES: AtlasLoot Enhanced
