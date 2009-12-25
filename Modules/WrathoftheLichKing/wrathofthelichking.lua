@@ -5484,8 +5484,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 49819, "", "=q4=Skeleton Lord's Cranium", "=ds=#s1#, #a4#"};
 		{ 9, 49816, "", "=q4=Scourgelord's Frigid Chestplate", "=ds=#s5#, #a4#"};
 		{ 16, 49818, "", "=q4=Painfully Sharp Choker", "=ds=#s2#"};
-		{ 18, 49813, "", "=q4=Rimebane Rifle", "=ds=#w5#"};
-		{ 19, 49821, "", "=q4=Protector of Frigid Souls", "=ds=#w8#"};
+		{ 18, 49821, "", "=q4=Protector of Frigid Souls", "=ds=#w8#"};
+		{ 19, 49813, "", "=q4=Rimebane Rifle", "=ds=#w5#"};
 		Prev = "PoSKrickIck";
 	};
 
@@ -5534,8 +5534,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 49838, "", "=q4=Carpal Tunnelers", "=ds=#s9#, #a2#"};
 		{ 5, 49837, "", "=q4=Mitts of Burning Hail", "=ds=#s9#, #a3#"};
 		{ 6, 49836, "", "=q4=Frostsworn Bone Leggings", "=ds=#s11#, #a3#"};
-		{ 7, 49835, "", "=q4=Splintered Door of the Citadel", "=ds=#w8#"};
-		{ 8, 49833, "", "=q4=Splintered Icecrown Parapet", "=ds=#h3#, #w10#"};
+		{ 7, 49833, "", "=q4=Splintered Icecrown Parapet", "=ds=#h3#, #w10#"};
+		{ 8, 49835, "", "=q4=Splintered Door of the Citadel", "=ds=#w8#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 50298, "", "=q4=Sightless Crown of Ulmaas", "=ds=#s1#, #a1#"};
 		{ 18, 50299, "", "=q4=Suspiciously Soft Gloves", "=ds=#s9#, #a1#"};
@@ -5555,10 +5555,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 49847, "", "=q4=Legguards of Untimely Demise", "=ds=#s11#, #a3#"};
 		{ 6, 49851, "", "=q4=Greathelm of the Silver Hand", "=ds=#s1#, #a4#"};
 		{ 7, 49843, "", "=q4=Crystalline Citadel Gauntlets", "=ds=#s9#, #a4#"};
-		{ 16, 49840, "", "=q4=Hate-Forged Cleaver", "=ds=#h1#, #w1#"};
-		{ 17, 49846, "", "=q4=Chilled Heart of the Glacier", "=ds=#h3#, #w4#"};
-		{ 18, 49845, "", "=q4=Bone Golem Scapula", "=ds=#h3#, #w6#"};
-		{ 19, 49839, "", "=q4=Mourning Malice", "=ds=#h2#, #w10#"};
+		{ 16, 49846, "", "=q4=Chilled Heart of the Glacier", "=ds=#h3#, #w4#"};
+		{ 17, 49839, "", "=q4=Mourning Malice", "=ds=#h2#, #w10#"};
+		{ 18, 49840, "", "=q4=Hate-Forged Cleaver", "=ds=#h1#, #w1#"};
+		{ 19, 49845, "", "=q4=Bone Golem Scapula", "=ds=#h3#, #w6#"};
 		{ 20, 49844, "", "=q4=Crypt Fiend Slayer", "=ds=#w2#"};
 		Prev = "HoRMarwyn";
 	};
@@ -5596,10 +5596,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 50772, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#"};
 		{ 8, 50763, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#"};
 		{ 9, 50339, "", "=q4=Sliver of Pure Ice", "=ds=#s14#"};
-		{ 16, 50759, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
-		{ 17, 50760, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
-		{ 18, 50771, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
-		{ 19, 50761, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#"};
+		{ 16, 50771, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
+		{ 17, 50761, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#"};
+		{ 18, 50759, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
+		{ 19, 50760, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
 		Next = "ICCLadyDeathwhisper";
 	};
 
@@ -5653,8 +5653,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
 		{ 18, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
 		{ 20, 49982, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
-		{ 21, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
-		{ 22, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
+		{ 21, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
+		{ 22, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
 		Prev = "ICCLordMarrowgar25Man";
 		Next = "ICCGunshipBattle25Man";
 	};
@@ -5669,8 +5669,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 50788, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#"};
 		{ 9, 50790, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#"};
 		{ 10, 50340, "", "=q4=Muradin's Spyglass", "=ds=#s14#"};
-		{ 16, 50787, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
-		{ 17, 50793, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
+		{ 16, 50793, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
+		{ 17, 50787, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
 		{ 18, 50794, "", "=q4=Neverending Winter", "=ds=#w8#"};
 		Prev = "ICCLadyDeathwhisper";
 		Next = "ICCSaurfang";
@@ -6104,7 +6104,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "AshenVerdict";
 		Back = "REPMENU";
 	};
-
 
 	-----------
 	--- PvP ---
@@ -8893,7 +8892,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 51308, "", "=q4=Sanctified Scourgelord Legguards", "=ds="};
 		Back = "T10SET";
 	};
-	
+
 	AtlasLoot_Data["T10DruidRestoration"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
 		{ 2, 50108, "", "=q4=Lasherweave's Helmet  ", "=ds=#s1#, #a2#", "95 #eoffrost#" };
@@ -9464,7 +9463,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Next = "CardGame3";
 		Back = "SETMENU";
 	};
-	
+
 	AtlasLoot_Data["CardGame3"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#ud5#", ""};
 		{ 2, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
