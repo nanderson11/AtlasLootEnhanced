@@ -478,6 +478,36 @@ function AtlasLoot_OnLoad()
 end
 
 --[[
+AtlasLoot_GetLoottableHeroic:
+Set up checks to see if we have a heroic loot table or not.
+Returns: HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID, SmallraiddataID, heroname
+]]
+function AtlasLoot_GetLoottableHeroic(dataID)
+	local HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
+	local HeroicdataID=dataID.."HEROIC";
+	local NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
+	
+	local BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));
+	local BigraiddataID=dataID.."25Man";
+	local SmallraiddataID=string.sub(dataID, 1, string.len(dataID)-5);
+	
+	local heroname = "HEROIC"
+	if BigraidCheck == "25Man" or HeroicCheck == "25ManHEROIC" then
+		HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
+		HeroicdataID=dataID.."25ManHEROIC";
+		NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-11);
+		heroname = "25ManHEROIC"
+	else
+		HeroicCheck=string.sub(dataID, string.len(dataID)-5, string.len(dataID));
+		HeroicdataID=dataID.."HEROIC";
+		NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
+		heroname = "HEROIC"
+	end
+
+	return HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID, SmallraiddataID, heroname
+end
+
+--[[
 AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame):
 dataID - Name of the loot table
 dataSource - Table in the database where the loot table is stored
@@ -536,26 +566,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
     end
 
 	--Set up checks to see if we have a heroic loot table or not
-	local HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
-	local HeroicdataID=dataID.."HEROIC";
-	local NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
-	
-	local BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));
-	local BigraiddataID=dataID.."25Man";
-	local SmallraiddataID=string.sub(dataID, 1, string.len(dataID)-5);
-	
-	local heroname = "HEROIC"
-	if BigraidCheck == "25Man" or HeroicCheck == "25ManHEROIC" then
-		HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
-		HeroicdataID=dataID.."25ManHEROIC";
-		NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-11);
-		heroname = "25ManHEROIC"
-	else
-		HeroicCheck=string.sub(dataID, string.len(dataID)-5, string.len(dataID));
-		HeroicdataID=dataID.."HEROIC";
-		NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
-		heroname = "HEROIC"
-	end
+	local HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID, SmallraiddataID, heroname = AtlasLoot_GetLoottableHeroic(dataID)
     
 	--Change the dataID to be consistant with the Heroic Mode toggle
 	if dataSource then
@@ -784,24 +795,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
         
         --Decide whether to show the Heroic mode toggle
         --Checks if a heroic version of the loot table is available.
-		local xdataID = AtlasLootItemsFrame.refreshOri[1]
-		HeroicCheck=string.sub(xdataID, string.len(xdataID)-10, string.len(xdataID));
-        HeroicdataID=xdataID.."HEROIC";
-		NonHeroicdataID=string.sub(xdataID, 1, string.len(xdataID)-6);
-        BigraidCheck=string.sub(xdataID, string.len(xdataID)-4, string.len(xdataID));
-        BigraiddataID=xdataID.."25Man";
-		
-		if BigraidCheck == "25Man" or HeroicCheck == "25ManHEROIC" then
-			HeroicCheck=string.sub(xdataID, string.len(xdataID)-10, string.len(xdataID));
-			HeroicdataID=xdataID.."HEROIC";
-			NonHeroicdataID=string.sub(xdataID, 1, string.len(xdataID)-11);
-			heroname = "25ManHEROIC"
-		else
-			HeroicCheck=string.sub(xdataID, string.len(xdataID)-5, string.len(xdataID));
-			HeroicdataID=xdataID.."HEROIC";
-			NonHeroicdataID=string.sub(xdataID, 1, string.len(xdataID)-6);
-			heroname = "HEROIC"
-		end
+		local xdataID = AtlasLootItemsFrame.refreshOri[1]	
+		HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID, SmallraiddataID, heroname = AtlasLoot_GetLoottableHeroic(xdataID)
 	
 		local check = NonHeroicdataID.."25ManHEROIC"
 
@@ -825,11 +820,12 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 end 
             end
         end
-        if BigraidCheck=="25Man" then
+		-- Show the 10/25 Man LootButton
+        if BigraidCheck=="25Man" and dataSource[SmallraiddataID] then
             AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"]);
             AtlasLoot10Man25ManSwitch.lootpage = string.sub(xdataID, 1, string.len(xdataID)-5);
             AtlasLoot10Man25ManSwitch:Show();
-		elseif HeroicCheck == "25ManHEROIC" then
+		elseif HeroicCheck == "25ManHEROIC" and dataSource[SmallraiddataID] then
             AtlasLoot10Man25ManSwitch:SetText(AL["Show 10 Man Loot"]);
             AtlasLoot10Man25ManSwitch.lootpage = string.sub(xdataID, 1, string.len(xdataID)-11);
 			AtlasLoot10Man25ManSwitch.lootpage = AtlasLoot10Man25ManSwitch.lootpage.."HEROIC"

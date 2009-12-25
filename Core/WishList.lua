@@ -504,6 +504,8 @@ function AtlasLoot_CategorizeWishList(wlTable)
 				-- Heroic handling
 				local HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
 				local NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-6);
+				local BigraidCheck=string.sub(dataID, string.len(dataID)-4, string.len(dataID));
+				
 				if BigraidCheck == "25Man" or HeroicCheck == "25ManHEROIC" then
 					HeroicCheck=string.sub(dataID, string.len(dataID)-10, string.len(dataID));
 					NonHeroicdataID=string.sub(dataID, 1, string.len(dataID)-11);

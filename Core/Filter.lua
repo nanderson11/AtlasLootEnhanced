@@ -154,6 +154,7 @@ function AtlasLoot_HideNoUsableItems()
 				end
 			end
 			
+			-- Sort the items
 			if xgo == true then
 				if i==16 and countOld > 0 then
 					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
@@ -195,6 +196,7 @@ function AtlasLoot_HideNoUsableItems()
 		end		
 	end
 
+	-- Set the Next, Prev and Back button.
 	if tablebase.Next then
 		AtlasLoot_Data["FilterList"].Next = tablebase.Next
 	end
