@@ -666,7 +666,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 11, 34684, "", "=q1=Handful of Summer Petals", "2 #fireflower#"};
 		{ 12, 23215, "", "=q1=Bag of Smorc Ingredients", "5 #fireflower#"};
 		{ 13, 34599, "", "=q1=Juggling Torch", "5 #fireflower#"};
-		{ 15, 23247, "", "=q2=Burning Blossom", "=ds=#m17#"};
+		{ 15, 23247, "", "=q1=Burning Blossom", "=ds=#m17#"};
 		{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#, #m4#"};
 		{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, 100 #fireflower#"};
 		{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#, 100 #fireflower#"};
@@ -818,8 +818,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, 19292, "", "=q1=Last Month's Mutton", "=ds=#h1#, #w6#", "10 #darkmoon#", ""};
 		{ 10, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "5 #darkmoon#", ""};
 		{ 12, 19182, "", "=q1=Darkmoon Faire Prize Ticket", "=ds=#m17#"};
-		{ 16, 19303, "", "=q3=Darkmoon Necklace", "=ds=#s2#"};
-		{ 17, 19302, "", "=q3=Darkmoon Ring", "=ds=#s13#"};
+		{ 16, 19302, "", "=q3=Darkmoon Ring", "=ds=#s13#"};
+		{ 17, 19303, "", "=q2=Darkmoon Necklace", "=ds=#s2#"};
 		{ 19, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
 		{ 20, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
 		{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};

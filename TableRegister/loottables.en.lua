@@ -1181,9 +1181,9 @@ end
 --------------------
 
   -- Azuregos/Highlord Kruul
-	AtlasLoot_TableNames["WorldBossesClassic"] = { BabbleBoss["Azuregos"].." - "..AL["Highlord Kruul"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WorldBossesClassic"] = { BabbleBoss["Azuregos"].." / "..AL["Highlord Kruul"], "AtlasLootOriginalWoW" };
   -- Kazzak/Doomwalker
-	AtlasLoot_TableNames["WorldBossesBC"] = { BabbleBoss["Doom Lord Kazzak"].." - "..BabbleBoss["Doomwalker"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["WorldBossesBC"] = { BabbleBoss["Doom Lord Kazzak"].." / "..BabbleBoss["Doomwalker"], "AtlasLootBurningCrusade" };
   -- Emrald Dragons
 	AtlasLoot_TableNames["DEmeriss"] = { BabbleBoss["Emeriss"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["DLethon"] = { BabbleBoss["Lethon"], "AtlasLootOriginalWoW" };
