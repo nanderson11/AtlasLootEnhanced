@@ -5632,8 +5632,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 50784, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#"};
 		{ 8, 50779, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#"};
 		{ 9, 50786, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
-		{ 16, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
-		{ 17, 50342, "", "=q4=Whispering Fanged Skull", "=ds=#s15#"};
+		{ 16, 50342, "", "=q4=Whispering Fanged Skull", "=ds=#s14#"};
+		{ 17, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
 		{ 19, 50776, "", "=q4=Njordnar Bone Bow", "=ds=#w2#"};
 		Prev = "ICCLordMarrowgar";
 		Next = "ICCGunshipBattle";
