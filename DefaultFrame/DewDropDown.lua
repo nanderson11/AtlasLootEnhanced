@@ -886,6 +886,9 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "ICCLadyDeathwhisper" },
 		{ "", "ICCGunshipBattle" },
 		{ "", "ICCSaurfang" },
+		{ "", "ICCFestergut" },
+		{ "", "ICCRotface" },
+		{ "", "ICCPutricide" },
 		{ "", "ICCTrash25Man" },
 	},
 };

@@ -39,6 +39,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 ---- Halls of Reflection
 ---- Icecrown Citadel
 ----- Lower Spire
+----- The Plagueworks
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -5722,6 +5723,61 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
 		Prev = "ICCGunshipBattle25Man";
+		Next = "ICCFestergut";
+	};
+
+		-----------------------
+		--- The Plagueworks ---
+		-----------------------
+
+	AtlasLoot_Data["ICCFestergut"] = {
+		{ 1, 50859, "", "=q4=Cloak of Many Skins", "=ds=#s4#"};
+		{ 2, 50988, "", "=q4=Bloodstained Surgeon's Shoulderguards", "=ds=#s3#, #a1#"};
+		{ 3, 50990, "", "=q4=Kilt of Untreated Wounds", "=ds=#s11#, #a1#"};
+		{ 4, 50985, "", "=q4=Wrists of Septic Shock", "=ds=#s8#, #a2#"};
+		{ 5, 50858, "", "=q4=Plague-Soaked Leather Leggings", "=ds=#s11#, #a2#"};
+		{ 6, 50812, "", "=q4=Taldron's Long Neglected Boots", "=ds=#s12#, #a3#"};
+		{ 7, 50967, "", "=q4=Festergut's Gaseous Gloves", "=ds=#s9#, #a4#"};
+		{ 8, 50811, "", "=q4=Festering Fingerguards", "=ds=#s9#, #a4#"};
+		{ 16, 50852, "", "=q4=Precious's Putrid Collar", "=ds=#s2#"};
+		{ 17, 50986, "", "=q4=Signet of Putrefaction", "=ds=#s13#"};
+		{ 19, 50810, "", "=q4=Gutbuster", "=ds=#h1#, #w6#"};
+		{ 20, 50966, "", "=q4=Abracadaver", "=ds=#w9#"};
+		Prev = "ICCSaurfang";
+		Next = "ICCRotface";
+	};
+	
+	AtlasLoot_Data["ICCRotface"] = {
+		{ 1, 51007, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#"};
+		{ 2, 51005, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#"};
+		{ 3, 51009, "", "=q4=Chestguard of the Failed Experiment", "=ds=#s5#, #a2#"};
+		{ 4, 51002, "", "=q4=Taldron's Short-Sighted Helm", "=ds=#s1#, #a3#"};
+		{ 5, 51006, "", "=q4=Shuffling Shoes", "=ds=#s12#, #a3#"};
+		{ 6, 51000, "", "=q4=Flesh-Shaper's Gurney Strap", "=ds=#s10#, #a4#"};
+		{ 8, 51008, "", "=q4=Choker of Filthy Diamonds", "=ds=#s2#"};
+		{ 9, 51001, "", "=q4=Rotface's Rupturing Ring", "=ds=#s13#"};
+		{ 16, 51003, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#"};
+		{ 17, 51004, "", "=q4=Lockjaw", "=ds=#h1#, #w6#"};
+		{ 18, 50998, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#"};
+		{ 19, 50999, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#"};
+		Prev = "ICCFestergut";
+		Next = "ICCPutricide";
+	};
+	
+	AtlasLoot_Data["ICCPutricide"] = {
+		{ 1, 51020, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
+		{ 2, 51017, "", "=q4=Cauterized Cord", "=ds=#s9#, #a1#"};
+		{ 3, 51013, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#"};
+		{ 4, 51015, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#"};
+		{ 5, 51019, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#"};
+		{ 6, 51014, "", "=q4=Scalpel-Sharpening Shoulderguards", "=ds=#s3#, #a4#"};
+		{ 7, 51018, "", "=q4=Chestplate of Septic Stitches", "=ds=#s5#, #a4#"};
+		{ 16, 51012, "", "=q4=Infected Choker", "=ds=#s2#"};
+		{ 17, 51016, "", "=q4=Pendant of Split Veins", "=ds=#s2#"};
+		{ 18, 50341, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
+		{ 20, 51011, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
+		{ 21, 51010, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
+		Prev = "ICCRotface";
 		Next = "ICCTrash25Man";
 	};
 
@@ -5733,7 +5789,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 50447, "", "=q4=Harbinger's Bone Band", "=ds=#s13#"};
 		{ 6, 50453, "", "=q4=Ring of Rotting Sinew", "=ds=#s13#"};
 		{ 7, 50444, "", "=q4=Rowan's Rifle of Silver Bullets", "=ds=#w5#"};
-		Prev = "ICCSaurfang25Man";
+		Prev = "ICCPutricide";
 	};
 
 	----------------

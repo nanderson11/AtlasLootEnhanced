@@ -349,6 +349,9 @@ end
 	AtlasLoot_TableNames["ICCGunshipBattle25Man"] = { BabbleBoss["Icecrown Gunship Battle"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCSaurfang"] = { BabbleBoss["Deathbringer Saurfang"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCSaurfang25Man"] = { BabbleBoss["Deathbringer Saurfang"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCFestergut"] = { BabbleBoss["Festergut"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCRotface"] = { BabbleBoss["Rotface"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCPutricide"] = { BabbleBoss["Professor Putricide"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCTrash25Man"] = { AL["Trash Mobs"].." ("..BabbleZone["Icecrown Citadel"]..")", "AtlasLootWotLK" };
 
 --------------------
