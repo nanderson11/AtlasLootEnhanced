@@ -5620,6 +5620,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 49968, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#"};
 		{ 17, 50415, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
 		{ 18, 49976, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
+		{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
 		Next = "ICCLadyDeathwhisper25Man";
 	};
 
@@ -5650,12 +5652,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 49986, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#"};
 		{ 8, 49995, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#"};
 		{ 9, 49983, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#"};
-		{ 16, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
-		{ 17, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
-		{ 18, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
-		{ 20, 49982, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
-		{ 21, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
-		{ 22, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
+		{ 11, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
+		{ 12, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
+		{ 13, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
+		{ 16, 49982, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
+		{ 17, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
+		{ 18, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
+		{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
 		Prev = "ICCLordMarrowgar25Man";
 		Next = "ICCGunshipBattle25Man";
 	};
@@ -5687,6 +5691,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 50003, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#"};
 		{ 8, 50002, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
 		{ 9, 50010, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
+		{ 11, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 12, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
 		{ 16, 50005, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
 		{ 17, 50008, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
 		{ 18, 49999, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
@@ -5719,6 +5725,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, 50015, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#"};
 		{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
 		{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
+		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
 		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -5746,7 +5754,31 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "ICCSaurfang";
 		Next = "ICCRotface";
 	};
-	
+
+	AtlasLoot_Data["ICCFestergut25Man"] = {
+		{ 1, 50063, "", "=q4=Lingering Illness", "=ds=#s10#, #a1#"};
+		{ 2, 50056, "", "=q4=Plaguebringer's Stained Pants", "=ds=#s11#, #a1#"};
+		{ 3, 50062, "", "=q4=Plague Scientist's Boots", "=ds=#s12#, #a1#"};
+		{ 4, 50042, "", "=q4=Gangrenous Leggings", "=ds=#s11#, #a2#"};
+		{ 5, 50041, "", "=q4=Leather of Stitched Scourge Parts", "=ds=#s11#, #a2#"};
+		{ 6, 50059, "", "=q4=Horrific Flesh Epaulets", "=ds=#s3#, #a3#"};
+		{ 7, 50038, "", "=q4=Carapace of Forgotten Kings", "=ds=#s5#, #a3#"};
+		{ 8, 50064, "", "=q4=Unclean Surgical Gloves", "=ds=#s9#, #a3#"};
+		{ 9, 50413, "", "=q4=Nerub'ar Stalker's Cord", "=ds=#s10#, #a3#"};
+		{ 10, 50060, "", "=q4=Faceplate of the Forgotten", "=ds=#s1#, #a4#"};
+		{ 11, 50037, "", "=q4=Fleshrending Gauntlets", "=ds=#s9#, #a4#"};
+		{ 12, 50036, "", "=q4=Belt of Broken Bones", "=ds=#s10#, #a4#"};
+		{ 16, 50061, "", "=q4=Holiday's Grace", "=ds=#s2#"};
+		{ 17, 50414, "", "=q4=Might of Blight", "=ds=#s13#"};
+		{ 19, 50035, "", "=q4=Black Bruise", "=ds=#h3#, #w13#"};
+		{ 20, 50040, "", "=q4=Distant Land", "=ds=#w9#"};
+		{ 22, 50226, "", "=q4=Festergut's Acidic Blood", "=ds=#m3#"};
+		{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 25, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCSaurfang25Man";
+		Next = "ICCRotface25Man";
+	};
+
 	AtlasLoot_Data["ICCRotface"] = {
 		{ 1, 51007, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#"};
 		{ 2, 51005, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#"};
@@ -5763,7 +5795,30 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "ICCFestergut";
 		Next = "ICCPutricide";
 	};
-	
+
+	AtlasLoot_Data["ICCRotface25Man"] = {
+		{ 1, 50019, "", "=q4=Winding Sheet", "=ds=#s4#"};
+		{ 2, 50032, "", "=q4=Death Surgeon's Sleeves", "=ds=#s8#, #a1#"};
+		{ 3, 50026, "", "=q4=Helm of the Elder Moon", "=ds=#s1#, #a2#"};
+		{ 4, 50021, "", "=q4=Aldriana's Gloves of Secrecy", "=ds=#s9#, #a2#"};
+		{ 5, 50022, "", "=q4=Dual-Bladed Pauldrons", "=ds=#s3#, #a3#"};
+		{ 6, 50030, "", "=q4=Bloodsunder's Bracers", "=ds=#s8#, #a3#"};
+		{ 7, 50020, "", "=q4=Raging Behemoth's Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 8, 50024, "", "=q4=Blightborne Warplate", "=ds=#s5#, #a4#"};
+		{ 9, 50027, "", "=q4=Rot-Resistant Breastplate", "=ds=#s5#, #a4#"};
+		{ 11, 50023, "", "=q4=Bile-Encrusted Medallion", "=ds=#s2#"};
+		{ 12, 50025, "", "=q4=Seal of Many Mouths", "=ds=#s13#"};
+		{ 13, 50353, "", "=q4=Dislodged Foreign Object", "=ds=#s14#"};
+		{ 16, 50028, "", "=q4=Trauma", "=ds=#h3#, #w6#"};
+		{ 17, 50016, "", "=q4=Rib Spreader", "=ds=#h1#, #w4#"};
+		{ 18, 50033, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#"};
+		{ 20, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#"};
+		{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 23, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCFestergut25Man";
+		Next = "ICCPutricide25Man";
+	};
+
 	AtlasLoot_Data["ICCPutricide"] = {
 		{ 1, 51020, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
 		{ 2, 51017, "", "=q4=Cauterized Cord", "=ds=#s9#, #a1#"};
@@ -5778,6 +5833,21 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 51011, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
 		{ 21, 51010, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
 		Prev = "ICCRotface";
+		Next = "ICCTrash25Man";
+	};
+
+	AtlasLoot_Data["ICCPutricide25Man"] = {
+		{ 1, 50067, "", "=q4=Astrylian's Sutured Cinch", "=ds=#s10#, #a2#"};
+		{ 2, 50069, "", "=q4=Professor's Bloodied Smock", "=ds=#s10#, #a2#"};
+		{ 3, 50351, "", "=q4=Tiny Abomination in a Jar", "=ds=#s14#"};
+		{ 4, 50179, "", "=q4=Last Word", "=ds=#h1#, #w6#"};
+		{ 5, 50068, "", "=q4=Rigormortis", "=ds=#h1#, #w10#"};
+		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCRotface25Man";
 		Next = "ICCTrash25Man";
 	};
 
