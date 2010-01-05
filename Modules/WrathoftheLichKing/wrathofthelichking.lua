@@ -5717,6 +5717,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#"};
 		{ 20, 50805, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
 		Prev = "ICCGunshipBattle";
+		Next = "ICCFestergut";
 	};
 
 	AtlasLoot_Data["ICCSaurfang25Man"] = {
@@ -5731,7 +5732,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
 		Prev = "ICCGunshipBattle25Man";
-		Next = "ICCFestergut";
+		Next = "ICCFestergut25Man";
 	};
 
 		-----------------------
