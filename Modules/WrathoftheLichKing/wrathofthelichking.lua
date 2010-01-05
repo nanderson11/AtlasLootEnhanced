@@ -137,10 +137,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 35577, "", "=q3=Holistic Patchwork Breeches", "=ds=#s11#, #a2#", "", "28%"};
 		{ 3, 35578, "", "=q3=Overlaid Chain Spaulders", "=ds=#s3#, #a3#", "", "26%"};
 		{ 4, 35576, "", "=q3=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#", "", "27%"};
-		{ 6, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
-		{ 7, 38218, "", "=q3=Executioner's Band", "=q1=#m4#: =ds=#s13#"};
-		{ 8, 38219, "", "=q3=Ring of Decimation", "=q1=#m4#: =ds=#s13#"};
-		{ 9, 38220, "", "=q3=Signet of Swift Judgement", "=q1=#m4#: =ds=#s13#"};
+		{ 5, 33330, "", "=q1=Ingvar's Head", "=ds=#m3#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
 		{ 17, 47241, "", "=q4=Emblem of Triumph", "=ds=#e15#", "", "100%"};
 		{ 18, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#", "", "20%"};
@@ -842,7 +839,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 37848, "", "=q3=Lightning Giant Staff", "=ds=#w9#", "", "18%"};
 		{ 26, 41799, "", "=q3=Design: Eternal Earthsiege Diamond", "=ds=#p12# (420)", "", "11%"};
 		{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
-		{ 29, 43724, "", "=q1=Celestial Ruby Ring", "=ds=#m3#", "", "100%"};
 		Prev = "HallsofLightningIonar";
 		Next = "HallsofLightningTrash";
 	};
@@ -4282,40 +4278,38 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["TrialoftheChampionBlackKnight"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-		{ 2, 47232, "", "=q4=Drape of the Undefeated", "=ds=#s4#"};
-		{ 3, 47226, "", "=q4=Mantle of Inconsolable Fear", "=ds=#s3#, #a1#"};
-		{ 4, 47230, "", "=q4=Handwraps of Surrendered Hope", "=ds=#s9#, #a1#"};
-		{ 5, 47221, "", "=q4=Shoulderpads of the Infamous Knave", "=ds=#s3#, #a2#"};
-		{ 6, 47231, "", "=q4=Belt of Merciless Cruelty", "=ds=#s10#, #a3#"};
-		{ 7, 47228, "", "=q4=Leggings of the Bloodless Knight", "=ds=#s11#, #a3#"};
-		{ 8, 47220, "", "=q4=Helm of the Violent Fray", "=ds=#s1#, #a4#"};
-		{ 9, 47229, "", "=q4=Girdle of Arrogant Downfall", "=ds=#s10#, #a4#"};
-		{ 10, 47227, "", "=q4=Girdle of the Pallid Knight", "=ds=#s10#, #a4#"};
-		{ 11, 47222, "", "=q4=Uruka's Band of Zeal", "=ds=#s13#"};
-		{ 12, 47215, "", "=q4=Tears of the Vanquished", "=ds=#s14#"};
-		{ 13, 47216, "", "=q4=The Black Heart", "=ds=#s14#"};
+		{ 1, 47232, "", "=q4=Drape of the Undefeated", "=ds=#s4#"};
+		{ 2, 47226, "", "=q4=Mantle of Inconsolable Fear", "=ds=#s3#, #a1#"};
+		{ 3, 47230, "", "=q4=Handwraps of Surrendered Hope", "=ds=#s9#, #a1#"};
+		{ 4, 47221, "", "=q4=Shoulderpads of the Infamous Knave", "=ds=#s3#, #a2#"};
+		{ 5, 47231, "", "=q4=Belt of Merciless Cruelty", "=ds=#s10#, #a3#"};
+		{ 6, 47228, "", "=q4=Leggings of the Bloodless Knight", "=ds=#s11#, #a3#"};
+		{ 7, 47220, "", "=q4=Helm of the Violent Fray", "=ds=#s1#, #a4#"};
+		{ 8, 47229, "", "=q4=Girdle of Arrogant Downfall", "=ds=#s10#, #a4#"};
+		{ 9, 47227, "", "=q4=Girdle of the Pallid Knight", "=ds=#s10#, #a4#"};
+		{ 16, 47222, "", "=q4=Uruka's Band of Zeal", "=ds=#s13#"};
+		{ 17, 47215, "", "=q4=Tears of the Vanquished", "=ds=#s14#"};
+		{ 18, 47216, "", "=q4=The Black Heart", "=ds=#s14#"};
 		Prev = "TrialoftheChampionEadricthePure";
 	};
 
 	AtlasLoot_Data["TrialoftheChampionBlackKnightHEROIC"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#j3#", ""};
-		{ 2, 47241, "", "=q4=Emblem of Triumph", "=ds=#e15#", "", "100%"};
-		{ 3, 47564, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#"};
-		{ 4, 47527, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#"};
-		{ 5, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#"};
-		{ 6, 47529, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#"};
-		{ 7, 47561, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#"};
-		{ 8, 47563, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#"};
-		{ 9, 47565, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#"};
-		{ 10, 47567, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#"};
-		{ 11, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#"};
-		{ 12, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#"};
-		{ 17, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#"};
-		{ 18, 49682, "", "=q4=Black Knight's Rondel", "=ds=#h1#, #w4#"};
-		{ 19, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
-		{ 21, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
-		{ 23, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
+		{ 1, 47241, "", "=q4=Emblem of Triumph", "=ds=#e15#", "", "100%"};
+		{ 2, 47564, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#"};
+		{ 3, 47527, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#"};
+		{ 4, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#"};
+		{ 5, 47529, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#"};
+		{ 6, 47561, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#"};
+		{ 7, 47563, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#"};
+		{ 8, 47565, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#"};
+		{ 9, 47567, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#"};
+		{ 10, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#"};
+		{ 11, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#"};
+		{ 16, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#"};
+		{ 17, 49682, "", "=q4=Black Knight's Rondel", "=ds=#h1#, #w4#"};
+		{ 18, 47568, "", "=q4=True-aim Long Rifle", "=ds=#w5#"};
+		{ 20, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 22, 44990, "", "=q1=Champion's Seal", "=ds=#e15#", "", "100%"};
 		Prev = "TrialoftheChampionEadricthePure";
 	};
 
@@ -5574,9 +5568,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 50310, "", "=q4=Fossilized Ammonite Choker", "=ds=#s2#"};
 		{ 9, 50313, "", "=q4=Oath of Empress Zoe", "=ds=#s13#"};
 		{ 10, 50306, "", "=q4=The Lady's Promise", "=ds=#s13#"};
+		{ 11, 50309, "", "=q4=Shriveled Heart", "=ds=#s15#"};
 		{ 16, 50302, "", "=q4=Liar's Tongue", "=ds=#h1#, #w10#"};
 		{ 17, 50303, "", "=q4=Black Icicle", "=ds=#h1#, #w6#"};
-		{ 18, 50309, "", "=q4=Shriveled Heart", "=ds=#s15#"};
 		Prev = "HoRMarwyn";
 	};
 
