@@ -27,6 +27,7 @@ local FilterTableNames = {
 	["Other"] = AL["Other:"],
 }
 
+local FilterSort = {"Armor","WeaponsMeele","WeaponsMeeleTwoHand","WeaponsRanged","Relics","Other"}
 local FilterTable = {
 	["Armor"] = {
 		"Cloth",		--1
@@ -97,9 +98,13 @@ local ClassHides = {
 
 AtlasLoot_Data["FilterList"] = {
 };
+
+function AtlasLoot_Testabc()
+		print(BabbleInventory["Two-Hand"])
+end	
+	
 	
 function AtlasLoot_HideNoUsableItems()
-	local _,playerClass = UnitClass("player")
 	local dataID = AtlasLootItemsFrame.refreshOri[1] 
 	local dataSource = AtlasLootItemsFrame.refreshOri[2] 
 	local boss = AtlasLootItemsFrame.refreshOri[3] 
@@ -110,6 +115,7 @@ function AtlasLoot_HideNoUsableItems()
 	local countAll = 1
 	local count = 0
 	local leatherworking = GetSpellInfo(2108)
+
 	AtlasLoot_Data["FilterList"] = {}
 	for i=1,30 do
 		local info = getglobal("AtlasLootItem_"..i.."_Extra"):GetText()
@@ -123,11 +129,15 @@ function AtlasLoot_HideNoUsableItems()
 			local xspellitemID = getglobal("AtlasLootItem_"..i).spellitemID
 			local xitemTexture = tablebase[itemCount][3]
 			local xitemExtraText = AtlasLoot_FixText(tablebase[itemCount][5])
+			local xitemExtraTextSave = xitemExtraText
+			-- remove the "-"
+			xitemExtraText = gsub(xitemExtraText, "-", "") 
 			local xitemNameText = getglobal("AtlasLootItem_"..i.."_Name"):GetText()
 			
 			if xitemExtraText and xitemExtraText ~= "" then
-				for k,v in pairs(FilterTable) do
-					if type(v) == "table" then
+				for k = 1,#FilterSort do
+					k = FilterSort[k]
+					if type(FilterTable[k]) == "table" then
 						for i,j in pairs(FilterTable[k]) do
 							local Slotname = ""
 							-- Bugfix with Sigils
@@ -136,8 +146,8 @@ function AtlasLoot_HideNoUsableItems()
 							else
 								Slotname = BabbleInventory[j]
 							end
-							
-							if (k ~= "WeaponsMeeleTwoHand" and strfind(xitemExtraText, Slotname) and not strfind(xitemExtraText, BabbleInventory["Two-Hand"]) and AtlasLootFilterDB[k][j] == false) or (k == "WeaponsMeeleTwoHand" and strfind(xitemExtraText, BabbleInventory["Two-Hand"]) and strfind(xitemExtraText, Slotname) and AtlasLootFilterDB[k][j] == false) then
+
+							if (k ~= "WeaponsMeeleTwoHand" and not strfind(xitemExtraText, BabbleInventory["Two-Hand"]) and strfind(xitemExtraText, Slotname) and AtlasLootFilterDB[k][j] == false) then
 								xgo = false
 								-- German fix
 								if j == "Shield" and not strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) and not strfind(xitemExtraText, BabbleInventory["Off Hand"]) then
@@ -145,6 +155,8 @@ function AtlasLoot_HideNoUsableItems()
 								elseif j == "Shield" and strfind(xitemExtraText, BabbleInventory["Held in Off-Hand"]) and AtlasLootFilterDB["WeaponsMeele"]["Held in Off-Hand"] == true then
 									xgo = true
 								end
+							elseif k == "WeaponsMeeleTwoHand" and strfind(xitemExtraText, BabbleInventory["Two-Hand"]) and strfind(xitemExtraText, Slotname) and AtlasLootFilterDB[k][j] == false then
+								xgo = false
 							-- Fix bug with Leatherworking Patterns
 							elseif strfind(xitemExtraText, leatherworking) then
 								xgo = true
@@ -157,19 +169,19 @@ function AtlasLoot_HideNoUsableItems()
 			-- Sort the items
 			if xgo == true then
 				if i==16 and countOld > 0 then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
 					countAll = 16
 				elseif i==16 and xitemExtraText and strfind(xitemExtraText, AL["Token"]) then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
 					countAll = 16
 				elseif countAll < 16 and xitemNameText and strfind(xitemNameText, AL["Hard Mode"]) then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
 					countAll = 16
 				elseif i==16 and xitemTexture == "INV_Box_01" then
-					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraText}	
+					AtlasLoot_Data["FilterList"][16] = { 16, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}	
 					countAll = 16
 				else
-					AtlasLoot_Data["FilterList"][countAll] = { countAll, xitemID, xitemTexture, xitemNameText, xitemExtraText}					
+					AtlasLoot_Data["FilterList"][countAll] = { countAll, xitemID, xitemTexture, xitemNameText, xitemExtraTextSave}					
 				end
 				
 				if tablebase[itemCount][6] and countAll==16 then
