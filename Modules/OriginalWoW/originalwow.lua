@@ -21,8 +21,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 ---- Dire Maul West
 ---- Gnomeregan
 ---- Maraudon
----- Naxxramas
----- Onyxia's Lair
 ---- Ragefire Chasm
 ---- Razorfen Downs
 ---- Razorfen Kraul
@@ -37,6 +35,22 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 ---- Wailing Caverns
 ---- Zul'Farrak
 ---- Zul'Gurub
+--- Sets & Collections
+---- Dungeon 1 and 2 Sets (D1/D2)
+---- Tier 1/2 Sets (T1/T2)
+---- Tier 3 Sets (T3)
+---- Vanilla WoW Sets
+---- ZG Sets
+---- AQ20 Sets
+---- AQ40 Sets
+---- BoE World Epics
+--- PvP
+---- Alterac Valley
+---- Arathi Basin
+---- Warsong Gulch
+---- PvP Level 60 Rare and Epic Sets
+---- PvP Level 60 Weapons
+---- PvP Level 60 Accessories
 --- Factions
 ---- Misc
 ---- Argent Dawn
@@ -47,22 +61,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 ---- Thorium Brotherhood
 ---- Timbermaw Hold
 ---- Zandalar Tribe
---- PvP
----- Alterac Valley
----- Arathi Basin
----- Warsong Gulch
----- PvP Level 60 Rare and Epic Sets
----- PvP Level 60 Weapons
----- PvP Level 60 Accessories
---- Sets & Collections
----- Dungeon 1 and 2 Sets (D1/D2)
----- Tier 1/2 Sets (T1/T2)
----- Tier 3 Sets (T3)
----- Vanilla WoW Sets
----- ZG Sets
----- AQ20 Sets
----- AQ40 Sets
----- BoE World Epics
 --- World Bosses
 ---- Dragons of Nightmare
 ---- Azuregos/Highlord Kruul
@@ -282,14 +280,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		------------------------------------------
 
 	AtlasLoot_Data["AQ40Skeram"] = {
-		{ 1, 21708, "", "=q4=Beetle Scaled Wristguards", "=ds=#s8#, #a2#", "", "12.85%"};
-		{ 2, 21698, "", "=q4=Leggings of Immersion", "=ds=#s11#, #a2#", "", " 10.99%"};
-		{ 3, 21699, "", "=q4=Barrage Shoulders", "=ds=#s3#, #a3#", "", "11.50%"};
-		{ 4, 21705, "", "=q4=Boots of the Fallen Prophet", "=ds=#s12#, #a3#", "", "3.33%"};
-		{ 5, 21814, "", "=q4=Breastplate of Annihilation", "=ds=#s5#, #a4#", "", "11.01%"};
-		{ 6, 21704, "", "=q4=Boots of the Redeemed Prophecy", "=ds=#s12#, #a4#", "", "7.75%"};
-		{ 7, 21706, "", "=q4=Boots of the Unwavering Will", "=ds=#s12#, #a4#", "", "12.23%"};
-		{ 9, 21701, "", "=q4=Cloak of Concentrated Hatred", "=ds=#s4#", "", "11.81%"};
+		{ 1, 21701, "", "=q4=Cloak of Concentrated Hatred", "=ds=#s4#", "", "11.81%"};
+		{ 2, 21708, "", "=q4=Beetle Scaled Wristguards", "=ds=#s8#, #a2#", "", "12.85%"};
+		{ 3, 21698, "", "=q4=Leggings of Immersion", "=ds=#s11#, #a2#", "", " 10.99%"};
+		{ 4, 21699, "", "=q4=Barrage Shoulders", "=ds=#s3#, #a3#", "", "11.50%"};
+		{ 5, 21705, "", "=q4=Boots of the Fallen Prophet", "=ds=#s12#, #a3#", "", "3.33%"};
+		{ 6, 21814, "", "=q4=Breastplate of Annihilation", "=ds=#s5#, #a4#", "", "11.01%"};
+		{ 7, 21704, "", "=q4=Boots of the Redeemed Prophecy", "=ds=#s12#, #a4#", "", "7.75%"};
+		{ 8, 21706, "", "=q4=Boots of the Unwavering Will", "=ds=#s12#, #a4#", "", "12.23%"};
 		{ 10, 21702, "", "=q4=Amulet of Foul Warding", "=ds=#s2#", "", "12.20%"};
 		{ 11, 21700, "", "=q4=Pendant of the Qiraji Guardian", "=ds=#s2#", "", "11.57%"};
 		{ 12, 21707, "", "=q4=Ring of Swarming Thought", "=ds=#s13#", "", "12.57%"};
@@ -345,10 +343,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 21668, "", "=q4=Scaled Leggings of Qiraji Fury", "=ds=#s11#, #a3#", "", "4.03%"};
 		{ 8, 21674, "", "=q4=Gauntlets of Steadfast Determination", "=ds=#s9#, #a4#", "", "11.07%"};
 		{ 9, 21667, "", "=q4=Legplates of Blazing Light", "=ds=#s11#, #a4#", "", "7.44%"};
-		{ 10, 21678, "", "=q4=Necklace of Purity", "=ds=#s2#", "", "14.21%"};
-		{ 11, 21670, "", "=q4=Badge of the Swarmguard", "=ds=#s14#", "", "13.22%"};
-		{ 12, 21666, "", "=q4=Sartura's Might", "=ds=#s15#", "", "6.47%"};
-		{ 13, 21673, "", "=q4=Silithid Claw", "=ds=#h3#, #w13#", "", "7.16%"};
+		{ 11, 21678, "", "=q4=Necklace of Purity", "=ds=#s2#", "", "14.21%"};
+		{ 12, 21670, "", "=q4=Badge of the Swarmguard", "=ds=#s14#", "", "13.22%"};
+		{ 13, 21666, "", "=q4=Sartura's Might", "=ds=#s15#", "", "6.47%"};
+		{ 14, 21673, "", "=q4=Silithid Claw", "=ds=#h3#, #w13#", "", "7.16%"};
 		{ 16, 21237, "", "=q4=Imperial Qiraji Regalia", "=ds=#m3#", "", "4.01%"};
 		{ 17, 21273, "", "=q4=Blessed Qiraji Acolyte Staff", "=q1=#m4#, =ds=#w9#"};
 		{ 18, 21275, "", "=q4=Blessed Qiraji Augur Staff", "=q1=#m4#, =ds=#w9#"};
@@ -370,12 +368,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 21651, "", "=q4=Scaled Sand Reaver Leggings", "=ds=#s11#, #a3#", "", "12.91%"};
 		{ 6, 21639, "", "=q4=Pauldrons of the Unrelenting", "=ds=#s3#, #a4#", "", "14.78%"};
 		{ 7, 21652, "", "=q4=Silithid Carapace Chestguard", "=ds=#s5#, #a4#", "", "10.29%"};
-		{ 8, 21650, "", "=q4=Ancient Qiraji Ripper", "=ds=#h1#, #w10#", "", " 7.19%"};
-		{ 9, 21635, "", "=q4=Barb of the Sand Reaver", "=ds=#w7#", "", "6.61%"};
-		{ 11, 21647, "", "=q4=Fetish of the Sand Reaver", "=ds=#s14#", "", "13.82%"};
-		{ 12, 21664, "", "=q4=Barbed Choker", "=ds=#s2#", "", "12.63%"};
-		{ 13, 22402, "", "=q4=Libram of Grace", "=ds=#s16#, #w16#", "", "4.21%"};
-		{ 14, 22396, "", "=q4=Totem of Life", "=ds=#s16#, #w15#", "", "1.69%"};
+		{ 9, 21647, "", "=q4=Fetish of the Sand Reaver", "=ds=#s14#", "", "13.82%"};
+		{ 10, 21664, "", "=q4=Barbed Choker", "=ds=#s2#", "", "12.63%"};
+		{ 11, 22402, "", "=q4=Libram of Grace", "=ds=#s16#, #w16#", "", "4.21%"};
+		{ 12, 22396, "", "=q4=Totem of Life", "=ds=#s16#, #w15#", "", "1.69%"};
+		{ 13, 21650, "", "=q4=Ancient Qiraji Ripper", "=ds=#h1#, #w10#", "", " 7.19%"};
+		{ 14, 21635, "", "=q4=Barb of the Sand Reaver", "=ds=#w7#", "", "6.61%"};
 		{ 16, 21237, "", "=q4=Imperial Qiraji Regalia", "=ds=#m3#", "", "4.84%"};
 		{ 17, 21273, "", "=q4=Blessed Qiraji Acolyte Staff", "=q1=#m4#, =ds=#w9#"};
 		{ 18, 21275, "", "=q4=Blessed Qiraji Augur Staff", "=q1=#m4#, =ds=#w9#"};
@@ -393,10 +391,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 21624, "", "=q4=Gauntlets of Kalimdor", "=ds=#s9#, #a3#", "", "3.90%"};
 		{ 2, 21626, "", "=q4=Slime-coated Leggings", "=ds=#s11#, #a3#", "", "13.66%"};
 		{ 3, 21623, "", "=q4=Gauntlets of the Righteous Champion", "=ds=#s9#, #a4#", "", "5.37%"};
-		{ 4, 21622, "", "=q4=Sharpened Silithid Femur", "=ds=#h3#, #w10#", "", "15.12%"};
-		{ 6, 21677, "", "=q4=Ring of the Qiraji Fury", "=ds=#s13#", "", "2.93%"};
-		{ 7, 21625, "", "=q4=Scarab Brooch", "=ds=#s14#", "", "21.46%"};
-		{ 8, 22399, "", "=q4=Idol of Health", "=ds=#s16#, #w14#", "", "7.32%"};
+		{ 5, 21677, "", "=q4=Ring of the Qiraji Fury", "=ds=#s13#", "", "2.93%"};
+		{ 6, 21625, "", "=q4=Scarab Brooch", "=ds=#s14#", "", "21.46%"};
+		{ 7, 22399, "", "=q4=Idol of Health", "=ds=#s16#, #w14#", "", "7.32%"};
+		{ 8, 21622, "", "=q4=Sharpened Silithid Femur", "=ds=#h3#, #w10#", "", "15.12%"};
 		{ 10, 20932, "", "=q4=Qiraji Bindings of Dominance", "=q1=#m1# =ds=#c8#, #c3#, #c7#, #c1#, #c4#", "", "100%"};
 		{ 11, 20928, "", "=q4=Qiraji Bindings of Command", "=q1=#m1# =ds=#c5#, #c6#, #c9#, #c2#", "", "100%"};
 		{ 16, 21237, "", "=q4=Imperial Qiraji Regalia", "=ds=#m3#", "", "3.19%"};
@@ -417,8 +415,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 21621, "", "=q4=Cloak of the Golden Hive", "=ds=#s4#", "", "12.56%"};
 		{ 3, 21617, "", "=q4=Wasphide Gauntlets", "=ds=#s9#, #a2#", "", "11.97%"};
 		{ 4, 21618, "", "=q4=Hive Defiler Wristguards", "=ds=#s8#, #a4#", "", "10.34%"};
-		{ 5, 21616, "", "=q4=Huhuran's Stinger", "=ds=#w2#", "", "5.71%"};
-		{ 7, 21620, "", "=q4=Ring of the Martyr", "=ds=#s13#", "", "12.97%"};
+		{ 6, 21620, "", "=q4=Ring of the Martyr", "=ds=#s13#", "", "12.97%"};
+		{ 7, 21616, "", "=q4=Huhuran's Stinger", "=ds=#w2#", "", "5.71%"};
 		{ 9, 20932, "", "=q4=Qiraji Bindings of Dominance", "=q1=#m1# =ds=#c8#, #c3#, #c7#, #c1#, #c4#", "", "100%"};
 		{ 10, 20928, "", "=q4=Qiraji Bindings of Command", "=q1=#m1# =ds=#c5#, #c6#, #c9#, #c2#", "", "100%"};
 		{ 16, 21237, "", "=q4=Imperial Qiraji Regalia", "=ds=#m3#", "", "4.31%"};
@@ -468,10 +466,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["AQ40Ouro"] = {
 		{ 1, 21615, "", "=q4=Don Rigoberto's Lost Hat", "=ds=#s1#, #a1#", "", "28.63%"};
 		{ 2, 21611, "", "=q4=Burrower Bracers", "=ds=#s8#, #a1#", "", "24.44%"};
-		{ 3, 23557, "", "=q4=Larvae of the Great Worm", "=ds=#w5#", "", "3.95%"};
-		{ 4, 21610, "", "=q4=Wormscale Blocker", "=ds=#w8#", "", "16.54%"};
-		{ 5, 23558, "", "=q4=The Burrower's Shell", "=ds=#s14#", "", "2.90%"};
-		{ 6, 23570, "", "=q4=Jom Gabbar", "=ds=#s14#", "", "2.80%"};
+		{ 3, 23558, "", "=q4=The Burrower's Shell", "=ds=#s14#", "", "2.90%"};
+		{ 4, 23570, "", "=q4=Jom Gabbar", "=ds=#s14#", "", "2.80%"};
+		{ 5, 23557, "", "=q4=Larvae of the Great Worm", "=ds=#w5#", "", "3.95%"};
+		{ 6, 21610, "", "=q4=Wormscale Blocker", "=ds=#w8#", "", "16.54%"};
 		{ 8, 20927, "", "=q4=Ouro's Intact Hide", "=q1=#m1# =ds=#c3#, #c5#, #c6#, #c9#", "", "100%"};
 		{ 9, 20931, "", "=q4=Skin of the Great Sandworm", "=q1=#m1# =ds=#c8#, #c7#, #c1#, #c2#, #c4#", "", "100%"};
 		{ 16, 21237, "", "=q4=Imperial Qiraji Regalia", "=ds=#m3#", "", "5.20%"};
@@ -495,12 +493,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 21582, "", "=q4=Grasp of the Old God", "=ds=#s10#, #a1#", "", "15.04%"};
 		{ 6, 21586, "", "=q4=Belt of Never-ending Agony", "=ds=#s10#, #a2#", "", "11.24%"};
 		{ 7, 21581, "", "=q4=Gauntlets of Annihilation", "=ds=#s9#, #a4#", "", "12.04%"};
-		{ 8, 21126, "", "=q4=Death's Sting", "=ds=#h1#, #w4#", "", "6.84%"};
-		{ 9, 21134, "", "=q4=Dark Edge of Insanity", "=ds=#h2#, #w1#", "", "5.93%"};
-		{ 10, 21839, "", "=q4=Scepter of the False Prophet", "=ds=#h3#, #w6#", "", "4.75%"};
-		{ 11, 22732, "", "=q4=Mark of C'Thun", "=ds=#s2#", "", "10.62%"};
-		{ 12, 21596, "", "=q4=Ring of the Godslayer", "=ds=#s13#", "", "11.83%"};
-		{ 13, 21579, "", "=q4=Vanquished Tentacle of C'Thun", "=ds=#s14#", "", "12.18%"};
+		{ 9, 22732, "", "=q4=Mark of C'Thun", "=ds=#s2#", "", "10.62%"};
+		{ 10, 21596, "", "=q4=Ring of the Godslayer", "=ds=#s13#", "", "11.83%"};
+		{ 11, 21579, "", "=q4=Vanquished Tentacle of C'Thun", "=ds=#s14#", "", "12.18%"};
+		{ 12, 21126, "", "=q4=Death's Sting", "=ds=#h1#, #w4#", "", "6.84%"};
+		{ 13, 21134, "", "=q4=Dark Edge of Insanity", "=ds=#h2#, #w1#", "", "5.93%"};
+		{ 14, 21839, "", "=q4=Scepter of the False Prophet", "=ds=#h3#, #w6#", "", "4.75%"};
 		{ 16, 20933, "", "=q4=Husk of the Old God", "=q1=#m1# =ds=#c8#, #c3#, #c1#, #c5#", "", "100%"};
 		{ 17, 20929, "", "=q4=Carapace of the Old God", "=q1=#m1# =ds=#c7#, #c6#, #c9#, #c2#, #c4#", "", "100%"};
 		{ 19, 21221, "", "=q4=Eye of C'Thun", "=ds=#m2#", "", "100%"};
@@ -519,10 +517,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 21838, "", "=q4=Garb of Royal Ascension", "=ds=#s5#, #a1#", "", "0.20%"};
 		{ 2, 21888, "", "=q4=Gloves of the Immortal", "=ds=#s9#, #a1#", "", "0.16%"};
 		{ 3, 21889, "", "=q4=Gloves of the Redeemed Prophecy", "=ds=#s9#, #a4# =q1=#m1# =ds=#c4#", "", "0.39%"};
-		{ 4, 21856, "", "=q4=Neretzek, The Blood Drinker", "=ds=#h2#, #w1#", "", "0.20%"};
-		{ 5, 21837, "", "=q4=Anubisath Warhammer", "=ds=#h1#, #w6#", "", "0.21%"};
-		{ 6, 21836, "", "=q4=Ritssyn's Ring of Chaos", "=ds=#s13#", "", "0.18%"};
-		{ 7, 21891, "", "=q4=Shard of the Fallen Star", "=ds=#s14#", "", "0.59%"};
+		{ 4, 21836, "", "=q4=Ritssyn's Ring of Chaos", "=ds=#s13#", "", "0.18%"};
+		{ 5, 21891, "", "=q4=Shard of the Fallen Star", "=ds=#s14#", "", "0.59%"};
+		{ 6, 21856, "", "=q4=Neretzek, The Blood Drinker", "=ds=#h2#, #w1#", "", "0.20%"};
+		{ 7, 21837, "", "=q4=Anubisath Warhammer", "=ds=#h1#, #w6#", "", "0.21%"};
 		{ 9, 22202, "", "=q1=Small Obsidian Shard", "=ds=#e8#"};
 		{ 10, 22203, "", "=q1=Large Obsidian Shard", "=ds=#e8#"};
 		{ 16, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=ds=#e12#", "", "10.64%"};
@@ -2208,38 +2206,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		Prev = "Maraudon1";
 	};
 
-		---------------------
-		--- Onyxia's Lair ---
-		---------------------
-
-	--[[AtlasLoot_Data["Onyxia"] = {
-		{ 1, 16914, "", "=q4=Netherwind Crown", "=q1=#m1# =ds=#c3# (T2)", "", "14.09%"};
-		{ 2, 16921, "", "=q4=Halo of Transcendence", "=q1=#m1# =ds=#c5# (T2)", "", "13.39%"};
-		{ 3, 16929, "", "=q4=Nemesis Skullcap", "=q1=#m1# =ds=#c8# (T2)", "", "13.54%"};
-		{ 4, 16900, "", "=q4=Stormrage Cover", "=q1=#m1# =ds=#c1# (T2)", "", "13.08%"};
-		{ 5, 16908, "", "=q4=Bloodfang Hood", "=q1=#m1# =ds=#c6# (T2)", "", "13.21%"};
-		{ 6, 16939, "", "=q4=Dragonstalker's Helm", "=q1=#m1# =ds=#c2# (T2)", "", "13.91%"};
-		{ 7, 16947, "", "=q4=Helmet of Ten Storms", "=q1=#m1# =ds=#c7# (T2)", "", "4.86%"};
-		{ 8, 16963, "", "=q4=Helm of Wrath", "=q1=#m1# =ds=#c9# (T2)", "", "13.65%"};
-		{ 9, 16955, "", "=q4=Judgement Crown", "=q1=#m1# =ds=#c4# (T2)", "", "8.64%"};
-		{ 11, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3# =q1=#m1# =ds=#c2#", "", "24.53%"};
-		{ 12, 18713, "", "=q4=Rhok'delar, Longbow of the Ancient Keepers", "=q1=#m4#: =ds=#w2#, =q1=#m1# =ds=#c2#"};
-		{ 14, 15410, "", "=q3=Scale of Onyxia", "=ds=#e8#"};
-		{ 15, 21108, "", "=q1=Draconic for Dummies", "=ds=#m3#", "", "100%"};
-		{ 16, 17078, "", "=q4=Sapphiron Drape", "=ds=#s4#", "", "15.28%"};
-		{ 17, 18205, "", "=q4=Eskhandar's Collar", "=ds=#s2#", "", "14.88%"};
-		{ 18, 18813, "", "=q4=Ring of Binding", "=ds=#s13#", "", "16.28%"};
-		{ 19, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#", "", "4.08%"};
-		{ 20, 17067, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", "16.07%"};
-		{ 21, 17075, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1#, #w10#", "", "4.00%"};
-		{ 22, 17068, "", "=q4=Deathbringer", "=ds=#h1#, #w1#", "", "4.31%"};
-		{ 24, 17966, "", "=q2=Onyxia Hide Backpack", "=ds=#m14# #e1#", "", "100%"};
-		{ 26, 18423, "", "=q4=Head of Onyxia", "=ds=#m2#", "", "100%"};
-		{ 27, 18404, "", "=q4=Onyxia Tooth Pendant", "=q1=#m4#: =ds=#s2#"};
-		{ 28, 18403, "", "=q4=Dragonslayer's Signet", "=q1=#m4#: =ds=#s13#"};
-		{ 29, 18406, "", "=q4=Onyxia Blood Talisman", "=q1=#m4#: =ds=#s14#"};
-	};]]
-
 		----------------------
 		--- Ragefire Chasm ---
 		----------------------
@@ -2268,7 +2234,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 10777, "", "=q3=Arachnid Gloves", "=ds=#s9#, #a2# =q2=#m16#", "", "28.95%"};
 		{ 4, 10775, "", "=q3=Carapace of Tuten'kash", "=ds=#s5#, #a4#", "", "24.87%"};
 		{ 6, 0, "INV_Box_01", "=q6="..AL["Henry Stern"], ""};
-		{ 7, 3831, "", "=q1=Recipe: Mighty Troll's Blood Potion", "=ds=#p1# (180)"};
+		{ 7, 3831, "", "=q2=Recipe: Mighty Troll's Blood Potion", "=ds=#p1# (180)"};
 		{ 8, "s13028", "10841", "=q1=Goldthorn Tea", "=ds=#p3# (175)"};
 		{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Mordresh Fire Eye"], ""};
 		{ 11, 10771, "", "=q3=Deathmage Sash", "=ds=#s10#, #a1#", "", "27.92%"};
@@ -2378,9 +2344,9 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["SMCathedral"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["High Inquisitor Fairbanks"], ""};
-		{ 2, 19507, "", "=q2=Inquisitor's Shawl", "=ds=#s3#, #a1#", "", "15.94%"};
-		{ 3, 19508, "", "=q2=Branded Leather Bracers", "=ds=#s8#, #a2#", "", "16.17%"};
-		{ 4, 19509, "", "=q2=Dusty Mail Boots", "=ds=#s12#, #a3#", "", "17.24%"};
+		{ 2, 19507, "", "=q3=Inquisitor's Shawl", "=ds=#s3#, #a1#", "", "15.94%"};
+		{ 3, 19508, "", "=q3=Branded Leather Bracers", "=ds=#s8#, #a2#", "", "16.17%"};
+		{ 4, 19509, "", "=q3=Dusty Mail Boots", "=ds=#s12#, #a3#", "", "17.24%"};
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Scarlet Commander Mograine"], ""};
 		{ 7, 7724, "", "=q3=Gauntlets of Divinity", "=ds=#s9#, #a3#", "", "17.49%"};
 		{ 8, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "", "12.95%"};
@@ -4515,9 +4481,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#, =q2=#n36# (#z15#)", "", "3.71%"};
 		{ 5, 0, "INV_Box_01", "=q6=#pre60s20#", "=q1=#z7#"};
 		{ 6, 18204, "", "=q4=Eskhandar's Pelt", "=ds=#s4#, =q2=#n37#", "", "9.16%"};
-		{ 7, 18205, "", "=q4=Eskhandar's Collar", "=ds=#s2#, =q2=#n36# (#z15#)", "", "14.29% "};
-		{ 8, 18203, "", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#, =q2=#n38# (#z14#)", "", "16.97%"};
-		{ 9, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#h4#, #w13#, =q2=#n39#", "", "12.36%"};
+		{ 7, 18203, "", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#, =q2=#n38# (#z14#)", "", "16.97%"};
+		{ 8, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#h4#, #w13#, =q2=#n39#", "", "12.36%"};
 		{ 16, 0, "INV_Box_01", "=q6=#pre60s24#", "=q1=#z10#"};
 		{ 17, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#, =q2=#n41#", "", "15.46%"};
 		{ 18, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#, =q2=#n42#", "", "13.07%"};
