@@ -40,6 +40,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 ---- Icecrown Citadel
 ----- Lower Spire
 ----- The Plagueworks
+----- The Crimson Hall
+----- Frostwing Halls
+----- The Frozen Throne
+---- Icecrown Citadel HEROIC
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -5828,7 +5832,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 51011, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
 		{ 21, 51010, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
 		Prev = "ICCRotface";
-		Next = "ICCTrash25Man";
+		Next = "ICCCouncil";
 	};
 
 	AtlasLoot_Data["ICCPutricide25Man"] = {
@@ -5843,6 +5847,173 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
 		Prev = "ICCRotface25Man";
+		Next = "ICCCouncil25Man";
+	};
+
+		------------------------
+		--- The Crimson Hall ---
+		------------------------
+		
+	AtlasLoot_Data["ICCCouncil"] = {
+		{ 1, 51382, "", "=q4=Heartsick Mender's Cape", "=ds=#s4#"};
+		{ 2, 51379, "", "=q4=Bloodsoul Raiment", "=ds=#s5#, #a1#"};
+		{ 3, 51380, "", "=q4=Pale Corpse Boots", "=ds=#s12#, #a1#"};
+		{ 4, 51023, "", "=q4=Taldaram's Soft Slippers", "=ds=#s12#, #a2#"};
+		{ 5, 51325, "", "=q4=Blood-Drinker's Girdle", "=ds=#s10#, #a3#"};
+		{ 6, 51383, "", "=q4=Spaulders of the Blood Princes", "=ds=#s3#, #a4#"};
+		{ 7, 51025, "", "=q4=Battle-Maiden's Legguards", "=ds=#s11#, #a4#"};
+		{ 9, 51381, "", "=q4=Cerise Coiled Ring", "=ds=#s13#"};
+		{ 10, 51024, "", "=q4=Thrice Fanged Signet", "=ds=#s13#"};
+		{ 16, 51021, "", "=q4=Soulbreaker", "=ds=#h1#, #w10#"};
+		{ 17, 51022, "", "=q4=Hersir's Greatspear", "=ds=#w7#"};
+		{ 18, 51326, "", "=q4=Wand of Ruby Claret", "=ds=#w12#"};
+		Prev = "ICCPutricide";
+		Next = "ICCLanathel";
+	};
+
+	AtlasLoot_Data["ICCCouncil25Man"] = {
+		{ 1, 50074, "", "=q4=Royal Crimson Cloak", "=ds=#s4#"};
+		{ 2, 50172, "", "=q4=Sanguine Silk Robes", "=ds=#s5#, #a1#"};
+		{ 3, 50176, "", "=q4=San'layn Ritualist Gloves", "=ds=#s9#, #a1#"};
+		{ 4, 50073, "", "=q4=Geistlord's Punishment Sack", "=ds=#s1#, #a2#"};
+		{ 5, 50171, "", "=q4=Shoulders of Frost-Tipped Thorns", "=ds=#s3#, #a2#"};
+		{ 6, 50177, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#"};
+		{ 7, 50071, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#"};
+		{ 8, 50072, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#"};
+		{ 9, 50075, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
+		{ 10, 50175, "", "=q4=Crypt Keeper's Bracers", "=ds=#s10#, #a4#"};
+		{ 16, 50174, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#"};
+		{ 17, 50170, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#"};
+		{ 18, 50173, "", "=q4=Shadow Silk Spindle", "=ds=#s15#"};
+		{ 20, 50184, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#"};
+		{ 21, 49919, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#"};
+		{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCPutricide25Man";
+		Next = "ICCLanathel25Man";
+	};
+
+	AtlasLoot_Data["ICCLanathel"] = {
+		{ 1, 51554, "", "=q4=Cowl of Malefic Repose", "=ds=#s1#, #a1#"};
+		{ 2, 51552, "", "=q4=Shoulderpads of the Searing Kiss", "=ds=#s3#, #a2#"};
+		{ 3, 51550, "", "=q4=Ivory-Inlaid Leggings", "=ds=#s11#, #a2#"};
+		{ 4, 51551, "", "=q4=Chestguard of Siphoned Elements", "=ds=#s5#, #a3#"};
+		{ 5, 51386, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#"};
+		{ 6, 51556, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#"};
+		{ 7, 51555, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#"};
+		{ 16, 51548, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#"};
+		{ 17, 51387, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#"};
+		{ 19, 51384, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#"};
+		{ 20, 51385, "", "=q4=Stakethrower", "=ds=#w5#"};
+		{ 21, 51553, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#"};
+		Prev = "ICCCouncil";
+		Next = "ICCValithria";
+	};
+
+	AtlasLoot_Data["ICCLanathel25Man"] = {
+		{ 1, 50182, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#"};
+		{ 2, 50180, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#"};
+		{ 3, 50354, "", "=q4=Bauble of True Blood", "=ds=#s14#"};
+		{ 4, 50178, "", "=q4=Bloodfall", "=ds=#w7#"};
+		{ 5, 50181, "", "=q4=Dying Light", "=ds=#w9#"};
+		{ 6, 50065, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
+		{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 9, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCCouncil25Man";
+		Next = "ICCValithria25Man";
+	};
+
+		------------------------
+		--- The Frozen Halls ---
+		------------------------
+
+	AtlasLoot_Data["ICCValithria"] = {
+		{ 1, 51584, "", "=q4=Lich Wrappings", "=ds=#s4#"};
+		{ 2, 51777, "", "=q4=Leggings of the Refracted Mind", "=ds=#s11#, #a1#"};
+		{ 3, 51585, "", "=q4=Sister Svalna's Spangenhelm", "=ds=#s1#, #a2#"};
+		{ 4, 51565, "", "=q4=Skinned Whelp Shoulders", "=ds=#s3#, #a2#"};
+		{ 5, 51583, "", "=q4=Stormbringer Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 51566, "", "=q4=Legguards of the Twisted Dream", "=ds=#s11#, #a3#"};
+		{ 7, 51586, "", "=q4=Emerald Saint's Spaulders", "=ds=#s3#, #a4#"};
+		{ 8, 51563, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#"};
+		{ 9, 51564, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#"};
+		{ 16, 51562, "", "=q4=Oxheart", "=ds=#h2#, #w6#"};
+		{ 17, 51582, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#"};
+		{ 18, 51561, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#"};
+		Prev = "ICCLanathel";
+		Next = "ICCSindragosa";
+	};
+
+	AtlasLoot_Data["ICCValithria25Man"] = {
+		{ 1, 50205, "", "=q4=Frostbinder's Shredded Cape", "=ds=#s4#"};
+		{ 2, 50418, "", "=q4=Robe of the Waking Nightmare", "=ds=#s5#, #a1#"};
+		{ 3, 50417, "", "=q4=Bracers of Eternal Dreaming", "=ds=#s8#, #a2#"};
+		{ 4, 50202, "", "=q4=Snowstorm Helm", "=ds=#s1#, #a3#"};
+		{ 5, 50188, "", "=q4=Anub'ar Stalker's Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 50187, "", "=q4=Coldwraith Links", "=ds=#s10#, #a4#"};
+		{ 7, 50199, "", "=q4=Leggings of Dying Candles", "=ds=#s11#, #a4#"};
+		{ 8, 50192, "", "=q4=Scourge Reaver's Legplates", "=ds=#s11#, #a4#"};
+		{ 9, 50416, "", "=q4=Boots of the Funeral March", "=ds=#s12#, #a4#"};
+		{ 10, 50190, "", "=q4=Grinning Skull Greatboots", "=ds=#s12#, #a4#"};
+		{ 16, 50195, "", "=q4=Noose of Malachite", "=ds=#s2#"};
+		{ 17, 50185, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#"};
+		{ 18, 50186, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#"};
+		{ 20, 50183, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
+		{ 21, 50472, "", "=q4=Nightmare Ender", "=ds=#w9#"};
+		{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCLanathel25Man";
+		Next = "ICCSindragosa25Man";
+	};
+
+	AtlasLoot_Data["ICCSindragosa"] = {
+		{ 1, 51790, "", "=q4=Robes of Azure Downfall", "=ds=#s5#, #a1#"};
+		{ 2, 51783, "", "=q4=Vambraces of the Frost Wyrm Queen", "=ds=#s8#, #a2#"};
+		{ 3, 51789, "", "=q4=Icicle Shapers", "=ds=#s9#, #a2#"};
+		{ 4, 51792, "", "=q4=Shoulderguards of Crystalline Bone", "=ds=#s3#, #a3#"};
+		{ 5, 51785, "", "=q4=Wyrmwing Treads", "=ds=#s12#, #a3#"};
+		{ 6, 51782, "", "=q4=Etched Dragonbone Girdle", "=ds=#s10#, #a4#"};
+		{ 7, 51786, "", "=q4=Legplates of Aetheric Strife", "=ds=#s11#, #a4#"};
+		{ 8, 51787, "", "=q4=Scourge Fanged Stompers", "=ds=#s12#, #a4#"};
+		{ 10, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#"};
+		{ 16, 51779, "", "=q4=Rimetooth Pendant", "=ds=#s2#"};
+		{ 18, 51784, "", "=q4=Splintershard", "=ds=#h4#, #w13#"};
+		{ 19, 51788, "", "=q4=Bleak Coldarra Carver", "=ds=#h3#, #w4#"};
+		{ 20, 51791, "", "=q4=Lost Pavise of the Blue Flight", "=ds=#w8#"};
+		Prev = "ICCValithria";
+		Next = "ICCLichKing";
+	};
+
+	AtlasLoot_Data["ICCSindragosa25Man"] = {
+		{ 1, 50421, "", "=q4=Sindragosa's Cruel Claw", "=ds=#s2#"};
+		{ 2, 50424, "", "=q4=Memory of Malygos", "=ds=#s13#"};
+		{ 3, 50360, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#"};
+		{ 4, 50361, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
+		{ 5, 50423, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
+		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 9, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCValithria25Man";
+		Next = "ICCLichKing25Man";
+	};
+
+		-------------------------
+		--- The Frozen Throne ---
+		-------------------------
+
+	AtlasLoot_Data["ICCLichKing"] = {
+		Prev = "ICCSindragosa";
+		Next = "ICCTrash25Man";
+	};
+
+	AtlasLoot_Data["ICCLichKing25Man"] = {
+		Prev = "ICCSindragosa25Man";
 		Next = "ICCTrash25Man";
 	};
 
@@ -5854,7 +6025,462 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 50447, "", "=q4=Harbinger's Bone Band", "=ds=#s13#"};
 		{ 6, 50453, "", "=q4=Ring of Rotting Sinew", "=ds=#s13#"};
 		{ 7, 50444, "", "=q4=Rowan's Rifle of Silver Bullets", "=ds=#w5#"};
-		Prev = "ICCPutricide";
+		Prev = "ICCLichKing";
+	};
+
+		-------------------------------
+		--- Icecrown Citadel HEROIC ---
+		-------------------------------
+
+		-------------------
+		--- Lower Spire ---
+		-------------------
+
+	AtlasLoot_Data["ICCLordMarrowgarHEROIC"] = {
+		{ 1, 51933, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#"};
+		{ 2, 51930, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#"};
+		{ 3, 51929, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#"};
+		{ 4, 51935, "", "=q4=Linked Scourge Vertebrae", "=ds=#s10#, #a3#"};
+		{ 5, 51928, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#"};
+		{ 6, 51931, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#"};
+		{ 8, 51934, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#"};
+		{ 9, 50346, "", "=q4=Sliver of Pure Ice", "=ds=#s14#"};
+		{ 16, 51932, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
+		{ 17, 51936, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#"};
+		{ 18, 51938, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
+		{ 19, 51937, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
+		Next = "ICCLadyDeathwhisperHEROIC";
+	};
+
+	AtlasLoot_Data["ICCLordMarrowgar25ManHEROIC"] = {
+		{ 1, 50613, "", "=q4=Crushing Coldwraith Belt", "=ds=#s10#, #a1#"};
+		{ 2, 50615, "", "=q4=Handguards of Winter's Respite", "=ds=#s9#, #a2#"};
+		{ 3, 50607, "", "=q4=Frostbitten Fur Boots", "=ds=#s12#, #a2#"};
+		{ 4, 50605, "", "=q4=Snowserpent Mail Helm", "=ds=#s1#, #a3#"};
+		{ 5, 50617, "", "=q4=Rusted Bonespike Pauldrons", "=ds=#s3#, #a4#"};
+		{ 6, 50606, "", "=q4=Gendarme's Cuirass", "=ds=#s5#, #a4#"};
+		{ 7, 50611, "", "=q4=Bracers of Dark Reckoning", "=ds=#s8#, #a4#"};
+		{ 8, 50612, "", "=q4=Legguards of Lost Hope", "=ds=#s11#, #a4#"};
+		{ 10, 50609, "", "=q4=Bone Sentinel's Amulet", "=ds=#s2#"};
+		{ 11, 50604, "", "=q4=Band of the Bone Colossus", "=ds=#s13#"};
+		{ 12, 50614, "", "=q4=Loop of the Endless Labyrinth", "=ds=#s13#"};
+		{ 13, 50610, "", "=q4=Marrowgar's Frigid Eye", "=ds=#s13#"};
+		{ 16, 50608, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#"};
+		{ 17, 50709, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
+		{ 18, 50616, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
+		{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Next = "ICCLadyDeathwhisper25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCLadyDeathwhisperHEROIC"] = {
+		{ 1, 51918, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#"};
+		{ 2, 51921, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#"};
+		{ 3, 51923, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#"};
+		{ 4, 51925, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#"};
+		{ 5, 51920, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#"};
+		{ 6, 51926, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#"};
+		{ 7, 51919, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#"};
+		{ 8, 51924, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#"};
+		{ 9, 51917, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
+		{ 16, 50343, "", "=q4=Whispering Fanged Skull", "=ds=#s14#"};
+		{ 17, 51922, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
+		{ 19, 51927, "", "=q4=Njordnar Bone Bow", "=ds=#w2#"};
+		Prev = "ICCLordMarrowgarHEROIC";
+		Next = "ICCGunshipBattleHEROIC";
+	};
+
+	AtlasLoot_Data["ICCLadyDeathwhisper25ManHEROIC"] = {
+		{ 1, 50643, "", "=q4=Shoulders of Mercy Killing", "=ds=#s3#, #a1#"};
+		{ 2, 50651, "", "=q4=The Lady's Brittle Bracers", "=ds=#s8#, #a1#"};
+		{ 3, 50646, "", "=q4=Cultist's Bloodsoaked Spaulders", "=ds=#s3#, #a2#"};
+		{ 4, 50649, "", "=q4=Deathwhisper Chestpiece", "=ds=#s5#, #a2#"};
+		{ 5, 50645, "", "=q4=Leggings of Northern Lights", "=ds=#s11#, #a3#"};
+		{ 6, 50652, "", "=q4=Necrophotic Greaves", "=ds=#s12#, #a3#"};
+		{ 7, 50640, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#"};
+		{ 8, 50650, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#"};
+		{ 9, 50639, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#"};
+		{ 11, 50647, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
+		{ 12, 50642, "", "=q4=Juggernaut Band", "=ds=#s13#"};
+		{ 13, 50644, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
+		{ 16, 50641, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
+		{ 17, 50648, "", "=q4=Nibelung", "=ds=#w9#"};
+		{ 18, 50638, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
+		{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCLordMarrowgar25ManHEROIC";
+		Next = "ICCGunshipBattle25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCGunshipBattleHEROIC"] = {
+		{ 1, 51912, "", "=q4=Saronite Gargoyle Cloak", "=ds=#s4#"};
+		{ 2, 51908, "", "=q4=Cord of Dark Suffering", "=ds=#s10#, #a2#"};
+		{ 3, 51906, "", "=q4=Ice-Reinforced Vrykul Helm", "=ds=#s1#, #a3#"};
+		{ 4, 51911, "", "=q4=Pauldrons of Lost Hope", "=ds=#s3#, #a3#"};
+		{ 5, 51914, "", "=q4=Icecrown Rampart Bracers", "=ds=#s8#, #a3#"};
+		{ 6, 51907, "", "=q4=Bracers of Pale Illumination", "=ds=#s8#, #a4#"};
+		{ 7, 51915, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#"};
+		{ 9, 51913, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#"};
+		{ 10, 50345, "", "=q4=Muradin's Spyglass", "=ds=#s14#"};
+		{ 16, 51910, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
+		{ 17, 51916, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
+		{ 18, 51909, "", "=q4=Neverending Winter", "=ds=#w8#"};
+		Prev = "ICCLadyDeathwhisperHEROIC";
+		Next = "ICCSaurfangHEROIC";
+	};
+
+	AtlasLoot_Data["ICCGunshipBattle25ManHEROIC"] = {
+		{ 1, 50653, "", "=q4=Shadowvault Slayer's Cloak", "=ds=#s4#"};
+		{ 2, 50661, "", "=q4=Corp'rethar Ceremonial Crown", "=ds=#s1#, #a1#"};
+		{ 3, 50663, "", "=q4=Gunship Captain's Mittens", "=ds=#s9#, #a1#"};
+		{ 4, 50656, "", "=q4=Ikfirus's Sack of Wonder", "=ds=#s5#, #a2#"};
+		{ 5, 50665, "", "=q4=Boots of Unnatural Growth", "=ds=#s12#, #a2#"};
+		{ 6, 50655, "", "=q4=Scourge Hunter's Vambraces", "=ds=#s8#, #a3#"};
+		{ 7, 50660, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#"};
+		{ 8, 50659, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
+		{ 9, 50667, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
+		{ 11, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 12, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 16, 50658, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
+		{ 17, 50664, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
+		{ 18, 50657, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
+		{ 19, 50366, "", "=q4=Althor's Abacus", "=ds=#s14#"};
+		{ 20, 50349, "", "=q4=Corpse Tongue Coin", "=ds=#s14#"};
+		{ 22, 50654, "", "=q4=Scourgeborne Waraxe", "=ds=#h1#, #w1#"};
+		Prev = "ICCLadyDeathwhisper25ManHEROIC";
+		Next = "ICCSaurfang25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCSaurfangHEROIC"] = {
+		{ 1, 51896, "", "=q4=Thaumaturge's Crackling Cowl", "=ds=#s1#, #a1#"};
+		{ 2, 51899, "", "=q4=Icecrown Spire Sandals", "=ds=#s12#, #a1#"};
+		{ 3, 51904, "", "=q4=Scourge Stranglers", "=ds=#s9#, #a2#"};
+		{ 4, 51897, "", "=q4=Leggings of Unrelenting Blood", "=ds=#s11#, #a2#"};
+		{ 5, 51903, "", "=q4=Hauberk of a Thousand Cuts", "=ds=#s5#, #a3#"};
+		{ 6, 51902, "", "=q4=Blade-Scored Carapace", "=ds=#s5#, #a4#"};
+		{ 7, 51901, "", "=q4=Gargoyle Spit Bracers", "=ds=#s8#, #a4#"};
+		{ 8, 51895, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#"};
+		{ 10, 51894, "", "=q4=Soulcleave Pendant", "=ds=#s2#"};
+		{ 11, 51900, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 51905, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#"};
+		{ 21, 51898, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
+		Prev = "ICCGunshipBattleHEROIC";
+		Next = "ICCFestergutHEROIC";
+	};
+
+	AtlasLoot_Data["ICCSaurfang25ManHEROIC"] = {
+		{ 1, 50668, "", "=q4=Greatcloak of the Turned Champion", "=ds=#s4#"};
+		{ 2, 50670, "", "=q4=Toskk's Maximized Wristguards", "=ds=#s8#, #a2#"};
+		{ 3, 50671, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#"};
+		{ 4, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
+		{ 5, 50672, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
+		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCGunshipBattle25ManHEROIC";
+		Next = "ICCFestergut25ManHEROIC";
+	};
+
+		-----------------------
+		--- The Plagueworks ---
+		-----------------------
+
+	AtlasLoot_Data["ICCFestergutHEROIC"] = {
+		{ 1, 51888, "", "=q4=Cloak of Many Skins", "=ds=#s4#"};
+		{ 2, 51883, "", "=q4=Bloodstained Surgeon's Shoulderguards", "=ds=#s3#, #a1#"};
+		{ 3, 51882, "", "=q4=Kilt of Untreated Wounds", "=ds=#s11#, #a1#"};
+		{ 4, 51885, "", "=q4=Wrists of Septic Shock", "=ds=#s8#, #a2#"};
+		{ 5, 51889, "", "=q4=Plague-Soaked Leather Leggings", "=ds=#s11#, #a2#"};
+		{ 6, 51891, "", "=q4=Taldron's Long Neglected Boots", "=ds=#s12#, #a3#"};
+		{ 7, 51886, "", "=q4=Festergut's Gaseous Gloves", "=ds=#s9#, #a4#"};
+		{ 8, 51892, "", "=q4=Festering Fingerguards", "=ds=#s9#, #a4#"};
+		{ 16, 51890, "", "=q4=Precious's Putrid Collar", "=ds=#s2#"};
+		{ 17, 51884, "", "=q4=Signet of Putrefaction", "=ds=#s13#"};
+		{ 19, 51893, "", "=q4=Gutbuster", "=ds=#h1#, #w6#"};
+		{ 20, 51887, "", "=q4=Abracadaver", "=ds=#w9#"};
+		Prev = "ICCSaurfangHEROIC";
+		Next = "ICCRotfaceHEROIC";
+	};
+
+	AtlasLoot_Data["ICCFestergut25ManHEROIC"] = {
+		{ 1, 50702, "", "=q4=Lingering Illness", "=ds=#s10#, #a1#"};
+		{ 2, 50694, "", "=q4=Plaguebringer's Stained Pants", "=ds=#s11#, #a1#"};
+		{ 3, 50699, "", "=q4=Plague Scientist's Boots", "=ds=#s12#, #a1#"};
+		{ 4, 50697, "", "=q4=Gangrenous Leggings", "=ds=#s11#, #a2#"};
+		{ 5, 50696, "", "=q4=Leather of Stitched Scourge Parts", "=ds=#s11#, #a2#"};
+		{ 6, 50698, "", "=q4=Horrific Flesh Epaulets", "=ds=#s3#, #a3#"};
+		{ 7, 50689, "", "=q4=Carapace of Forgotten Kings", "=ds=#s5#, #a3#"};
+		{ 8, 50703, "", "=q4=Unclean Surgical Gloves", "=ds=#s9#, #a3#"};
+		{ 9, 50688, "", "=q4=Nerub'ar Stalker's Cord", "=ds=#s10#, #a3#"};
+		{ 10, 50701, "", "=q4=Faceplate of the Forgotten", "=ds=#s1#, #a4#"};
+		{ 11, 50690, "", "=q4=Fleshrending Gauntlets", "=ds=#s9#, #a4#"};
+		{ 12, 50691, "", "=q4=Belt of Broken Bones", "=ds=#s10#, #a4#"};
+		{ 16, 50700, "", "=q4=Holiday's Grace", "=ds=#s2#"};
+		{ 17, 50693, "", "=q4=Might of Blight", "=ds=#s13#"};
+		{ 19, 50692, "", "=q4=Black Bruise", "=ds=#h3#, #w13#"};
+		{ 20, 50695, "", "=q4=Distant Land", "=ds=#w9#"};
+		{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 23, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCSaurfang25ManHEROIC";
+		Next = "ICCRotface25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCRotfaceHEROIC"] = {
+		{ 1, 51872, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#"};
+		{ 2, 51874, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#"};
+		{ 3, 51870, "", "=q4=Chestguard of the Failed Experiment", "=ds=#s5#, #a2#"};
+		{ 4, 51877, "", "=q4=Taldron's Short-Sighted Helm", "=ds=#s1#, #a3#"};
+		{ 5, 51873, "", "=q4=Shuffling Shoes", "=ds=#s12#, #a3#"};
+		{ 6, 51879, "", "=q4=Flesh-Shaper's Gurney Strap", "=ds=#s10#, #a4#"};
+		{ 8, 51871, "", "=q4=Choker of Filthy Diamonds", "=ds=#s2#"};
+		{ 9, 51878, "", "=q4=Rotface's Rupturing Ring", "=ds=#s13#"};
+		{ 16, 51876, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#"};
+		{ 17, 51875, "", "=q4=Lockjaw", "=ds=#h1#, #w6#"};
+		{ 18, 51881, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#"};
+		{ 19, 51880, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#"};
+		Prev = "ICCFestergutHEROIC";
+		Next = "ICCPutricideHEROIC";
+	};
+
+	AtlasLoot_Data["ICCRotface25ManHEROIC"] = {
+		{ 1, 50677, "", "=q4=Winding Sheet", "=ds=#s4#"};
+		{ 2, 50686, "", "=q4=Death Surgeon's Sleeves", "=ds=#s8#, #a1#"};
+		{ 3, 50679, "", "=q4=Helm of the Elder Moon", "=ds=#s1#, #a2#"};
+		{ 4, 50675, "", "=q4=Aldriana's Gloves of Secrecy", "=ds=#s9#, #a2#"};
+		{ 5, 50673, "", "=q4=Dual-Bladed Pauldrons", "=ds=#s3#, #a3#"};
+		{ 6, 50687, "", "=q4=Bloodsunder's Bracers", "=ds=#s8#, #a3#"};
+		{ 7, 50674, "", "=q4=Raging Behemoth's Shoulderplates", "=ds=#s3#, #a4#"};
+		{ 8, 50681, "", "=q4=Blightborne Warplate", "=ds=#s5#, #a4#"};
+		{ 9, 50680, "", "=q4=Rot-Resistant Breastplate", "=ds=#s5#, #a4#"};
+		{ 11, 50682, "", "=q4=Bile-Encrusted Medallion", "=ds=#s2#"};
+		{ 12, 50678, "", "=q4=Seal of Many Mouths", "=ds=#s13#"};
+		{ 13, 50348, "", "=q4=Dislodged Foreign Object", "=ds=#s14#"};
+		{ 16, 50685, "", "=q4=Trauma", "=ds=#h3#, #w6#"};
+		{ 17, 50676, "", "=q4=Rib Spreader", "=ds=#h1#, #w4#"};
+		{ 18, 50684, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#"};
+		{ 20, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#"};
+		{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 23, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCFestergut25ManHEROIC";
+		Next = "ICCPutricide25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCPutricideHEROIC"] = {
+		{ 1, 51859, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
+		{ 2, 51862, "", "=q4=Cauterized Cord", "=ds=#s9#, #a1#"};
+		{ 3, 51866, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#"};
+		{ 4, 51864, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#"};
+		{ 5, 51860, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#"};
+		{ 6, 51865, "", "=q4=Scalpel-Sharpening Shoulderguards", "=ds=#s3#, #a4#"};
+		{ 7, 51861, "", "=q4=Chestplate of Septic Stitches", "=ds=#s5#, #a4#"};
+		{ 16, 51867, "", "=q4=Infected Choker", "=ds=#s2#"};
+		{ 17, 51863, "", "=q4=Pendant of Split Veins", "=ds=#s2#"};
+		{ 18, 50344, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
+		{ 20, 51868, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
+		{ 21, 51869, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
+		Prev = "ICCRotfaceHEROIC";
+		Next = "ICCCouncilHEROIC";
+	};
+
+	AtlasLoot_Data["ICCPutricide25ManHEROIC"] = {
+		{ 1, 50707, "", "=q4=Astrylian's Sutured Cinch", "=ds=#s10#, #a2#"};
+		{ 2, 50705, "", "=q4=Professor's Bloodied Smock", "=ds=#s10#, #a2#"};
+		{ 3, 50706, "", "=q4=Tiny Abomination in a Jar", "=ds=#s14#"};
+		{ 4, 50708, "", "=q4=Last Word", "=ds=#h1#, #w6#"};
+		{ 5, 50704, "", "=q4=Rigormortis", "=ds=#h1#, #w10#"};
+		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCRotface25ManHEROIC";
+		Next = "ICCCouncil25ManHEROIC";
+	};
+
+		------------------------
+		--- The Crimson Hall ---
+		------------------------
+		
+	AtlasLoot_Data["ICCCouncilHEROIC"] = {
+		{ 1, 51848, "", "=q4=Heartsick Mender's Cape", "=ds=#s4#"};
+		{ 2, 51851, "", "=q4=Bloodsoul Raiment", "=ds=#s5#, #a1#"};
+		{ 3, 51850, "", "=q4=Pale Corpse Boots", "=ds=#s12#, #a1#"};
+		{ 4, 51856, "", "=q4=Taldaram's Soft Slippers", "=ds=#s12#, #a2#"};
+		{ 5, 51853, "", "=q4=Blood-Drinker's Girdle", "=ds=#s10#, #a3#"};
+		{ 6, 51847, "", "=q4=Spaulders of the Blood Princes", "=ds=#s3#, #a4#"};
+		{ 7, 51854, "", "=q4=Battle-Maiden's Legguards", "=ds=#s11#, #a4#"};
+		{ 9, 51849, "", "=q4=Cerise Coiled Ring", "=ds=#s13#"};
+		{ 10, 51855, "", "=q4=Thrice Fanged Signet", "=ds=#s13#"};
+		{ 16, 51858, "", "=q4=Soulbreaker", "=ds=#h1#, #w10#"};
+		{ 17, 51857, "", "=q4=Hersir's Greatspear", "=ds=#w7#"};
+		{ 18, 51852, "", "=q4=Wand of Ruby Claret", "=ds=#w12#"};
+		Prev = "ICCPutricideHEROIC";
+		Next = "ICCLanathelHEROIC";
+	};
+
+	AtlasLoot_Data["ICCCouncil25ManHEROIC"] = {
+		{ 1, 50718, "", "=q4=Royal Crimson Cloak", "=ds=#s4#"};
+		{ 2, 50717, "", "=q4=Sanguine Silk Robes", "=ds=#s5#, #a1#"};
+		{ 3, 50722, "", "=q4=San'layn Ritualist Gloves", "=ds=#s9#, #a1#"};
+		{ 4, 50713, "", "=q4=Geistlord's Punishment Sack", "=ds=#s1#, #a2#"};
+		{ 5, 50715, "", "=q4=Shoulders of Frost-Tipped Thorns", "=ds=#s3#, #a2#"};
+		{ 6, 50723, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#"};
+		{ 7, 50711, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#"};
+		{ 8, 50712, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#"};
+		{ 9, 50716, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
+		{ 10, 50721, "", "=q4=Crypt Keeper's Bracers", "=ds=#s10#, #a4#"};
+		{ 16, 50720, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#"};
+		{ 17, 50714, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#"};
+		{ 18, 50719, "", "=q4=Shadow Silk Spindle", "=ds=#s15#"};
+		{ 20, 50710, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#"};
+		{ 21, 50603, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#"};
+		{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCPutricide25ManHEROIC";
+		Next = "ICCLanathel25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCLanathelHEROIC"] = {
+		{ 1, 51837, "", "=q4=Cowl of Malefic Repose", "=ds=#s1#, #a1#"};
+		{ 2, 51839, "", "=q4=Shoulderpads of the Searing Kiss", "=ds=#s3#, #a2#"};
+		{ 3, 51841, "", "=q4=Ivory-Inlaid Leggings", "=ds=#s11#, #a2#"};
+		{ 4, 51840, "", "=q4=Chestguard of Siphoned Elements", "=ds=#s5#, #a3#"};
+		{ 5, 51844, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#"};
+		{ 6, 51835, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#"};
+		{ 7, 51836, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#"};
+		{ 16, 51842, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#"};
+		{ 17, 51843, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#"};
+		{ 19, 51846, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#"};
+		{ 20, 51845, "", "=q4=Stakethrower", "=ds=#w5#"};
+		{ 21, 51838, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#"};
+		Prev = "ICCCouncilHEROIC";
+		Next = "ICCValithriaHEROIC";
+	};
+
+	AtlasLoot_Data["ICCLanathel25ManHEROIC"] = {
+		{ 1, 50724, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#"};
+		{ 2, 50728, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#"};
+		{ 3, 50726, "", "=q4=Bauble of True Blood", "=ds=#s14#"};
+		{ 4, 50727, "", "=q4=Bloodfall", "=ds=#w7#"};
+		{ 5, 50725, "", "=q4=Dying Light", "=ds=#w9#"};
+		{ 6, 50729, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
+		{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 9, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCCouncil25ManHEROIC";
+		Next = "ICCValithria25ManHEROIC";
+	};
+
+		------------------------
+		--- The Frozen Halls ---
+		------------------------
+
+	AtlasLoot_Data["ICCValithriaHEROIC"] = {
+		{ 1, 51826, "", "=q4=Lich Wrappings", "=ds=#s4#"};
+		{ 2, 51823, "", "=q4=Leggings of the Refracted Mind", "=ds=#s11#, #a1#"};
+		{ 3, 51825, "", "=q4=Sister Svalna's Spangenhelm", "=ds=#s1#, #a2#"};
+		{ 4, 51830, "", "=q4=Skinned Whelp Shoulders", "=ds=#s3#, #a2#"};
+		{ 5, 51827, "", "=q4=Stormbringer Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 51829, "", "=q4=Legguards of the Twisted Dream", "=ds=#s11#, #a3#"};
+		{ 7, 51824, "", "=q4=Emerald Saint's Spaulders", "=ds=#s3#, #a4#"};
+		{ 8, 51832, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#"};
+		{ 9, 51831, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#"};
+		{ 16, 51833, "", "=q4=Oxheart", "=ds=#h2#, #w6#"};
+		{ 17, 51828, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#"};
+		{ 18, 51834, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#"};
+		Prev = "ICCLanathelHEROIC";
+		Next = "ICCSindragosaHEROIC";
+	};
+
+	AtlasLoot_Data["ICCValithria25ManHEROIC"] = {
+		{ 1, 50628, "", "=q4=Frostbinder's Shredded Cape", "=ds=#s4#"};
+		{ 2, 50629, "", "=q4=Robe of the Waking Nightmare", "=ds=#s5#, #a1#"};
+		{ 3, 50630, "", "=q4=Bracers of Eternal Dreaming", "=ds=#s8#, #a2#"};
+		{ 4, 50626, "", "=q4=Snowstorm Helm", "=ds=#s1#, #a3#"};
+		{ 5, 50619, "", "=q4=Anub'ar Stalker's Gloves", "=ds=#s9#, #a3#"};
+		{ 6, 50620, "", "=q4=Coldwraith Links", "=ds=#s10#, #a4#"};
+		{ 7, 50623, "", "=q4=Leggings of Dying Candles", "=ds=#s11#, #a4#"};
+		{ 8, 50624, "", "=q4=Scourge Reaver's Legplates", "=ds=#s11#, #a4#"};
+		{ 9, 50632, "", "=q4=Boots of the Funeral March", "=ds=#s12#, #a4#"};
+		{ 10, 50625, "", "=q4=Grinning Skull Greatboots", "=ds=#s12#, #a4#"};
+		{ 16, 50627, "", "=q4=Noose of Malachite", "=ds=#s2#"};
+		{ 17, 50622, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#"};
+		{ 18, 50618, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#"};
+		{ 20, 50621, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
+		{ 21, 50631, "", "=q4=Nightmare Ender", "=ds=#w9#"};
+		{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		Prev = "ICCLanathel25ManHEROIC";
+		Next = "ICCSindragosa25ManHEROIC";
+	};
+
+	AtlasLoot_Data["ICCSindragosaHEROIC"] = {
+		{ 1, 51813, "", "=q4=Robes of Azure Downfall", "=ds=#s5#, #a1#"};
+		{ 2, 51820, "", "=q4=Vambraces of the Frost Wyrm Queen", "=ds=#s8#, #a2#"};
+		{ 3, 51814, "", "=q4=Icicle Shapers", "=ds=#s9#, #a2#"};
+		{ 4, 51811, "", "=q4=Shoulderguards of Crystalline Bone", "=ds=#s3#, #a3#"};
+		{ 5, 51818, "", "=q4=Wyrmwing Treads", "=ds=#s12#, #a3#"};
+		{ 6, 51821, "", "=q4=Etched Dragonbone Girdle", "=ds=#s10#, #a4#"};
+		{ 7, 51817, "", "=q4=Legplates of Aetheric Strife", "=ds=#s11#, #a4#"};
+		{ 8, 51816, "", "=q4=Scourge Fanged Stompers", "=ds=#s12#, #a4#"};
+		{ 10, 51822, "", "=q4=Rimetooth Pendant", "=ds=#s2#"};
+		{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 51819, "", "=q4=Splintershard", "=ds=#h4#, #w13#"};
+		{ 21, 51815, "", "=q4=Bleak Coldarra Carver", "=ds=#h3#, #w4#"};
+		{ 22, 51812, "", "=q4=Lost Pavise of the Blue Flight", "=ds=#w8#"};
+		Prev = "ICCValithriaHEROIC";
+		Next = "ICCLichKingHEROIC";
+	};
+
+	AtlasLoot_Data["ICCSindragosa25ManHEROIC"] = {
+		{ 1, 50633, "", "=q4=Sindragosa's Cruel Claw", "=ds=#s2#"};
+		{ 2, 50636, "", "=q4=Memory of Malygos", "=ds=#s13#"};
+		{ 3, 50365, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#"};
+		{ 4, 50364, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
+		{ 5, 50635, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
+		{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
+		{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+		{ 9, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#"};
+		{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
+		{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
+		{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+		Prev = "ICCValithria25ManHEROIC";
+		Next = "ICCLichKing25ManHEROIC";
+	};
+
+		-------------------------
+		--- The Frozen Throne ---
+		-------------------------
+
+	AtlasLoot_Data["ICCLichKingHEROIC"] = {
+		Prev = "ICCSindragosaHEROIC";
+		Next = "ICCTrash25Man";
+	};
+
+	AtlasLoot_Data["ICCLichKing25ManHEROIC"] = {
+		Prev = "ICCSindragosa25ManHEROIC";
+		Next = "ICCTrash25Man";
 	};
 
 	----------------
@@ -9082,23 +9708,23 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["T10Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#", "95 #eoffrost#" };
-		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#", "60 #eoffrost#" };
-		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#", "95 #eoffrost#" };
-		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#", "60 #eoffrost#" };
-		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#", "95 #eoffrost#" };
+		{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunter's Headpiece", "=ds=#s1#, #a3#", "95 #eoffrost#" };
+		{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunter's Spaulders", "=ds=#s3#, #a3#", "60 #eoffrost#" };
+		{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunter's Tunic", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunter's Handguards", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunter's Legguards", "=ds=#s11#, #a3#", "95 #eoffrost#" };
 		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-		{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
-		{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
-		{ 11, 51150, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
-		{ 12, 51154, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
-		{ 13, 51152, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
+		{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Headpiece", "=ds=#s1#, #a3#"};
+		{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Spaulders", "=ds=#s3#, #a3#"};
+		{ 11, 51150, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Tunic", "=ds=#s5#, #a3#"};
+		{ 12, 51154, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Handguards", "=ds=#s9#, #a3#"};
+		{ 13, 51152, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Legguards", "=ds=#s11#, #a3#"};
 		{ 16, 0, "Ability_Hunter_RunningShot", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-		{ 17, 51286, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Headpiece", "=ds=#s1#, #a3#"};
-		{ 18, 51288, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Spaulders", "=ds=#s3#, #a3#"};
-		{ 19, 51289, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Tunic", "=ds=#s5#, #a3#"};
-		{ 20, 51285, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Handguards", "=ds=#s9#, #a3#"};
-		{ 21, 51287, "", "=q4=Sanctified Ahn'Kahar Blood Hunters Legguards", "=ds=#s11#, #a3#"};
+		{ 17, 51286, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Headpiece", "=ds=#s1#, #a3#"};
+		{ 18, 51288, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Spaulders", "=ds=#s3#, #a3#"};
+		{ 19, 51289, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Tunic", "=ds=#s5#, #a3#"};
+		{ 20, 51285, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Handguards", "=ds=#s9#, #a3#"};
+		{ 21, 51287, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Legguards", "=ds=#s11#, #a3#"};
 		Back = "T10SET";
 	};
 
@@ -9192,45 +9818,45 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["T10PriestShadow"] = {
 		{ 1, 0, "Spell_Shadow_AntiShadow", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
-		{ 2, 50392, "", "=q4=Crimson Acolyte's Cowl", "=ds=#s1#, #a1#", "95 #eoffrost#" };
-		{ 3, 50396, "", "=q4=Crimson Acolyte's Mantle", "=ds=#s3#, #a1#", "60 #eoffrost#" };
-		{ 4, 50394, "", "=q4=Crimson Acolyte's Raiments", "=ds=#s5#, #a1#", "95 #eoffrost#" };
-		{ 5, 50391, "", "=q4=Crimson Acolyte's Handwraps", "=ds=#s9#, #a1#", "60 #eoffrost#" };
-		{ 6, 50393, "", "=q4=Crimson Acolyte's Pants", "=ds=#s11#, #a1#", "95 #eoffrost#" };
+		{ 2, 50392, "", "=q4=Crimson Acolyte Cowl", "=ds=#s1#, #a1#", "95 #eoffrost#" };
+		{ 3, 50396, "", "=q4=Crimson Acolyte Mantle", "=ds=#s3#, #a1#", "60 #eoffrost#" };
+		{ 4, 50394, "", "=q4=Crimson Acolyte Raiments", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 5, 50391, "", "=q4=Crimson Acolyte Handwraps", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 6, 50393, "", "=q4=Crimson Acolyte Pants", "=ds=#s11#, #a1#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
-		{ 9, 51184, "", "=q4=Sanctified Crimson Acolyte's Cowl", "=ds=#s1#, #a1#"};
-		{ 10, 51182, "", "=q4=Sanctified Crimson Acolyte's Mantle", "=ds=#s3#, #a1#"};
-		{ 11, 51180, "", "=q4=Sanctified Crimson Acolyte's Raiments", "=ds=#s5#, #a1#"};
-		{ 12, 51183, "", "=q4=Sanctified Crimson Acolyte's Handwraps", "=ds=#s9#, #a1#"};
-		{ 13, 51181, "", "=q4=Sanctified Crimson Acolyte's Pants", "=ds=#s11#, #a1#"};
+		{ 9, 51184, "", "=q4=Sanctified Crimson Acolyte Cowl", "=ds=#s1#, #a1#"};
+		{ 10, 51182, "", "=q4=Sanctified Crimson Acolyte Mantle", "=ds=#s3#, #a1#"};
+		{ 11, 51180, "", "=q4=Sanctified Crimson Acolyte Raiments", "=ds=#s5#, #a1#"};
+		{ 12, 51183, "", "=q4=Sanctified Crimson Acolyte Handwraps", "=ds=#s9#, #a1#"};
+		{ 13, 51181, "", "=q4=Sanctified Crimson Acolyte Pants", "=ds=#s11#, #a1#"};
 		{ 16, 0, "Spell_Shadow_AntiShadow", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
-		{ 17, 51255, "", "=q4=Sanctified Crimson Acolyte's Cowl", "=ds=#s1#, #a1#"};
-		{ 18, 51257, "", "=q4=Sanctified Crimson Acolyte's Mantle", "=ds=#s3#, #a1#"};
-		{ 19, 51259, "", "=q4=Sanctified Crimson Acolyte's Raiments", "=ds=#s5#, #a1#"};
-		{ 20, 51256, "", "=q4=Sanctified Crimson Acolyte's Handwraps", "=ds=#s9#, #a1#"};
-		{ 21, 51258, "", "=q4=Sanctified Crimson Acolyte's Pants", "=ds=#s11#, #a1#"};
+		{ 17, 51255, "", "=q4=Sanctified Crimson Acolyte Cowl", "=ds=#s1#, #a1#"};
+		{ 18, 51257, "", "=q4=Sanctified Crimson Acolyte Mantle", "=ds=#s3#, #a1#"};
+		{ 19, 51259, "", "=q4=Sanctified Crimson Acolyte Raiments", "=ds=#s5#, #a1#"};
+		{ 20, 51256, "", "=q4=Sanctified Crimson Acolyte Handwraps", "=ds=#s9#, #a1#"};
+		{ 21, 51258, "", "=q4=Sanctified Crimson Acolyte Pants", "=ds=#s11#, #a1#"};
 		Back = "T10SET";
 	};
 
 	AtlasLoot_Data["T10PriestHoly"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
-		{ 2, 50765, "", "=q4=Crimson Acolyte's Hood", "=ds=#s1#, #a1#", "95 #eoffrost#" };
-		{ 3, 50767, "", "=q4=Crimson Acolyte's Shoulderpads", "=ds=#s3#, #a1#", "60 #eoffrost#" };
-		{ 4, 50768, "", "=q4=Crimson Acolyte's Robe", "=ds=#s5#, #a1#", "95 #eoffrost#" };
-		{ 5, 50766, "", "=q4=Crimson Acolyte's Gloves", "=ds=#s9#, #a1#", "60 #eoffrost#" };
-		{ 6, 50769, "", "=q4=Crimson Acolyte's Leggings", "=ds=#s11#, #a1#", "95 #eoffrost#" };
+		{ 2, 50765, "", "=q4=Crimson Acolyte Hood", "=ds=#s1#, #a1#", "95 #eoffrost#" };
+		{ 3, 50767, "", "=q4=Crimson Acolyte Shoulderpads", "=ds=#s3#, #a1#", "60 #eoffrost#" };
+		{ 4, 50768, "", "=q4=Crimson Acolyte Robe", "=ds=#s5#, #a1#", "95 #eoffrost#" };
+		{ 5, 50766, "", "=q4=Crimson Acolyte Gloves", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 6, 50769, "", "=q4=Crimson Acolyte Leggings", "=ds=#s11#, #a1#", "95 #eoffrost#" };
 		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
-		{ 9, 51178, "", "=q4=Sanctified Crimson Acolyte's Hood", "=ds=#s1#, #a1#"};
-		{ 10, 51175, "", "=q4=Sanctified Crimson Acolyte's Shoulderpads", "=ds=#s3#, #a1#"};
-		{ 11, 51176, "", "=q4=Sanctified Crimson Acolyte's Robe", "=ds=#s5#, #a1#"};
-		{ 12, 51179, "", "=q4=Sanctified Crimson Acolyte's Gloves", "=ds=#s9#, #a1#"};
-		{ 13, 51177, "", "=q4=Sanctified Crimson Acolyte's Leggings", "=ds=#s11#, #a1#"};
+		{ 9, 51178, "", "=q4=Sanctified Crimson Acolyte Hood", "=ds=#s1#, #a1#"};
+		{ 10, 51175, "", "=q4=Sanctified Crimson Acolyte Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 11, 51176, "", "=q4=Sanctified Crimson Acolyte Robe", "=ds=#s5#, #a1#"};
+		{ 12, 51179, "", "=q4=Sanctified Crimson Acolyte Gloves", "=ds=#s9#, #a1#"};
+		{ 13, 51177, "", "=q4=Sanctified Crimson Acolyte Leggings", "=ds=#s11#, #a1#"};
 		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
-		{ 17, 51261, "", "=q4=Sanctified Crimson Acolyte's Hood", "=ds=#s1#, #a1#"};
-		{ 18, 51264, "", "=q4=Sanctified Crimson Acolyte's Shoulderpads", "=ds=#s3#, #a1#"};
-		{ 19, 51263, "", "=q4=Sanctified Crimson Acolyte's Robe", "=ds=#s5#, #a1#"};
-		{ 20, 51260, "", "=q4=Sanctified Crimson Acolyte's Gloves", "=ds=#s9#, #a1#"};
-		{ 21, 51262, "", "=q4=Sanctified Crimson Acolyte's Leggings", "=ds=#s11#, #a1#"};
+		{ 17, 51261, "", "=q4=Sanctified Crimson Acolyte Hood", "=ds=#s1#, #a1#"};
+		{ 18, 51264, "", "=q4=Sanctified Crimson Acolyte Shoulderpads", "=ds=#s3#, #a1#"};
+		{ 19, 51263, "", "=q4=Sanctified Crimson Acolyte Robe", "=ds=#s5#, #a1#"};
+		{ 20, 51260, "", "=q4=Sanctified Crimson Acolyte Gloves", "=ds=#s9#, #a1#"};
+		{ 21, 51262, "", "=q4=Sanctified Crimson Acolyte Leggings", "=ds=#s11#, #a1#"};
 		Back = "T10SET";
 	};
 

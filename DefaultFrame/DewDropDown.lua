@@ -889,6 +889,11 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "ICCFestergut" },
 		{ "", "ICCRotface" },
 		{ "", "ICCPutricide" },
+		{ "", "ICCCouncil" },
+		{ "", "ICCLanathel" },
+		{ "", "ICCValithria" },
+		{ "", "ICCSindragosa" },
+		{ "", "ICCLichKing" },
 		{ "", "ICCTrash25Man" },
 	},
 };
