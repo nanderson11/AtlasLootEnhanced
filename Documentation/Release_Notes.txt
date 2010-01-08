@@ -6,7 +6,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 v5.09.04
+Added remaining ICC loot (Normal Mode)
+Added Heroic ICC loot
 Crafting updated for Patch 3.3
+Minor fixes and additions
 
 v5.09.03
 Added The Plagueworks raid loot
