@@ -90,6 +90,19 @@ AtlasLootNewBossButtons = {
         "FoSDevourer";
         };
 
+	FHTheForgeOfSouls = {
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "FoSBronjahm";
+        "FoSDevourer";
+        };
+
     Gundrak = {
         "";
         "";
@@ -171,6 +184,17 @@ AtlasLootNewBossButtons = {
 		"PoSGarfrost";
 		"PoSKrickIck";
 		"PoSKrickIck";
+		"PoSTyrannus";
+		};
+
+	FHPitOfSaron = {
+		"";
+		"";
+		"PoSGarfrost";
+		"";
+		"";
+		"PoSKrickIck";
+		"";
 		"PoSTyrannus";
 		};
 
