@@ -222,7 +222,7 @@ if AL then
 	AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Shift點擊|r 檢視選項";
 	AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffcccccc左鍵並拖曳以移動圖示位置";
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffcccccc右鍵並拖曳以移動圖示位置";
-	
+
 	-- Filter
 	AL["Filter"] = "過濾";
 	AL["Select All Loot"] = "選擇所有掉落物品";
@@ -1136,7 +1136,7 @@ if AL then
 	AL["Gladiator's Felshroud"] = "鬥士的魔化罩衣套裝";   -- arenas8_2
 	AL["Gladiator's Battlegear"] = "鬥士的戰裝";		  -- arenas9
 	AL["Gladiator's Desecration"] = "鬥士的褻瀆套裝";	 -- arenas10
-	
+
 	-- Level 80 PvP Weapons
 	AL["Savage Gladiator\'s Weapons"] = "蠻荒鬥士武器";
 	AL["Deadly Gladiator\'s Weapons"] = "致命鬥士武器";
