@@ -5,7 +5,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 
 	AtlasLoot_Data["SETMENU"] = {
-		{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..AL["Emblem of Frost Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 2, "EMBLEMOFFROSTMENU", "inv_misc_frostemblem_01", "=ds="..AL["Emblem of Frost Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 3, "EMBLEMOFTRIUMPHMENU", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 4, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 5, "EMBLEMOFVALORMENU", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor Rewards"], "=q5="..AL["Wrath of the Lich King"]};
@@ -76,6 +76,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, "LEVEL80PVPSETS", "spell_holy_summonchampion", "=ds="..AL["Level 80 PvP Sets"], "" };
 		{ 18, "T9SETALLIANCE", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"].." : "..BabbleFaction["Alliance"]};
 		{ 19, "T9SETHORDE", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"].." : "..BabbleFaction["Horde"]};
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["EMBLEMOFFROSTMENU"] = {
+		{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], ""};
+		{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Sets"], "=q5="..AL["10/25 Man"]};
 		Back = "SETMENU";
 	};
 
