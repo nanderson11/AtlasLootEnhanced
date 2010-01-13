@@ -340,6 +340,7 @@ end
 	AtlasLoot_TableNames["HoRMarwyn"] = { BabbleBoss["Marwyn"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoRLichKing"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoRLichKingHEROIC"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["FHTrashMobs"] = { AL["Trash Mobs"].." ("..BabbleZone["The Frozen Halls"]..")", "AtlasLootWotLK" };
   -- Icecrown Citadel
 	AtlasLoot_TableNames["ICCLordMarrowgar"] = { BabbleBoss["Lord Marrowgar"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCLordMarrowgar25Man"] = { BabbleBoss["Lord Marrowgar"], "AtlasLootWotLK" };

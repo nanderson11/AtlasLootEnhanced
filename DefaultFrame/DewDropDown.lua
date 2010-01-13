@@ -870,16 +870,19 @@ AtlasLoot_DewDropDown_SubTables = {
 	["ForgeofSouls"] = {
 		{ "", "FoSBronjahm" },
 		{ "", "FoSDevourer" },
+		{ "", "FHTrashMobs" },
 	},
 	["PitofSaron"] = {
 		{ "", "PoSGarfrost" },
 		{ "", "PoSKrickIck" },
 		{ "", "PoSTyrannus" },
+		{ "", "FHTrashMobs" },
 	},
 	["HallsofReflection"] = {
 		{ "", "HoRFalric" },
 		{ "", "HoRMarwyn" },
 		{ "", "HoRLichKing" },
+		{ "", "FHTrashMobs" },
 	},
 	["IcecrownCitadel"] = {
 		{ "", "ICCLordMarrowgar" },

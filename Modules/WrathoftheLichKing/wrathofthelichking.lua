@@ -1116,6 +1116,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#", "", "15%"};
 		{ 25, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#", "", "15%"};
 		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+		{ 28, 17962, "", "=q4=Blue Sack of Gems", "=ds="..AL["Random Heroic Reward"]};
 		Prev = "OcuUrom";
 		Next = "OcuTrash";
 	};
@@ -5413,6 +5414,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 49790, "", "=q4=Blood Boil Lancet", "=ds=#w9#"};
 		{ 21, 49793, "", "=q4=Tower of the Mouldering Corpse", "=ds=#w9#"};
 		Prev = "FoSBronjahm";
+		Next = "FHTrashMobs";
 	};
 
 	AtlasLoot_Data["FoSDevourerHEROIC"] = {
@@ -5429,6 +5431,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 50203, "", "=q4=Blood Weeper", "=ds=#h1#, #w4#"};
 		{ 20, 50210, "", "=q4=Seethe", "=ds=#h3#, #w10#"};
 		Prev = "FoSBronjahm";
+		Next = "FHTrashMobs";
 	};
 
 		--------------------
@@ -5486,6 +5489,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 49821, "", "=q4=Protector of Frigid Souls", "=ds=#w8#"};
 		{ 19, 49813, "", "=q4=Rimebane Rifle", "=ds=#w5#"};
 		Prev = "PoSKrickIck";
+		Next = "FHTrashMobs";
 	};
 
 	AtlasLoot_Data["PoSTyrannusHEROIC"] = {
@@ -5502,6 +5506,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 50267, "", "=q4=Tyrannical Beheader", "=ds=#h2#, #w1#"};
 		{ 21, 50273, "", "=q4=Engraved Gargoyle Femur", "=ds=#w9#"};
 		Prev = "PoSKrickIck";
+		Next = "FHTrashMobs";
 	};
 
 		---------------------------
@@ -5560,6 +5565,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 49845, "", "=q4=Bone Golem Scapula", "=ds=#h3#, #w6#"};
 		{ 20, 49844, "", "=q4=Crypt Fiend Slayer", "=ds=#w2#"};
 		Prev = "HoRMarwyn";
+		Next = "FHTrashMobs";
 	};
 
 	AtlasLoot_Data["HoRLichKingHEROIC"] = {
@@ -5576,6 +5582,28 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 50302, "", "=q4=Liar's Tongue", "=ds=#h1#, #w10#"};
 		{ 17, 50303, "", "=q4=Black Icicle", "=ds=#h1#, #w6#"};
 		Prev = "HoRMarwyn";
+		Next = "FHTrashMobs";
+	};
+
+	AtlasLoot_Data["FHTrashMobs"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 49854, "", "=q4=Mantle of Tattered Feathers", "=ds=#s3#, #a1#"};
+		{ 3, 49855, "", "=q4=Plated Grips of Korth'azz", "=ds=#s9#, #a4#"};
+		{ 4, 49853, "", "=q4=Titanium Links of Lore", "=ds=#s10#, #a4#"};
+		{ 5, 49852, "", "=q4=Coffin Nail", "=ds=#w12#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 50318, "", "=q4=Ghostly Wristwraps", "=ds=#s8#, #a2#"};
+		{ 18, 50315, "", "=q4=Seven-Fingered Claws", "=ds=#h3#, #w13#"};
+		{ 19, 50319, "", "=q4=Unsharpened Ice Razor", "=ds=#h1#, #w4#"};
+		{ 21, 50380, "", "=q4=Battered Hilt", "=ds=#m2#"};
+		{ 22, 50379, "", "=q4=Battered Hilt", "=ds=#m2#"};
+		{ 23, 50047, "", "=q4=Quel'Delar, Lens of the Mind", "=q1=#m4#: =ds=#h3#, #w10#"};
+		{ 24, 50046, "", "=q4=Quel'Delar, Cunning of the Shadows", "=q1=#m4#: =ds=#h1#, #w10#"};
+		{ 25, 50049, "", "=q4=Quel'Delar, Ferocity of the Scorned", "=q1=#m4#: =ds=#h2#, #w10#"};
+		{ 26, 50048, "", "=q4=Quel'Delar, Might of the Faithful", "=q1=#m4#: =ds=#h2#, #w10#"};
+		{ 27, 50051, "", "=q4=Hammer of Purified Flame", "=q1=#m4#: =ds=#h3#, #w6#"};
+		{ 28, 50050, "", "=q4=Cudgel of Furious Justice", "=q1=#m4#: =ds=#h1#, #w6#"};
+		{ 29, 50052, "", "=q4=Lightborn Spire", "=q1=#m4#: =ds=#h2#, #w6#"};
 	};
 
 		------------------------
@@ -6895,6 +6923,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 40791, "", "=q4=Relentless Gladiator's Dreadplate Chestpiece", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Dreadplate Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Dreadplate Shoulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Dreadplate Chestpiece", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Dreadplate Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Dreadplate Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -6933,6 +6967,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41317, "", "=q4=Relentless Gladiator's Wyrmhide Robes", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_2#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Wyrmhide Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Wyrmhide Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Wyrmhide Robes", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Wyrmhide Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Wyrmhide Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -6971,6 +7011,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41662, "", "=q4=Relentless Gladiator's Dragonhide Robes", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Ability_Druid_Maul", "=q6=#arenas1_1#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Dragonhide Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Dragonhide Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Dragonhide Robes", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Dragonhide Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Dragonhide Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7009,6 +7055,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41311, "", "=q4=Relentless Gladiator's Kodohide Robes", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Kodohide Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Kodohide Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Kodohide Robes", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Kodohide Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Kodohide Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7047,6 +7099,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41088, "", "=q4=Relentless Gladiator's Chain Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Chain Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Chain Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Chain Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Chain Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Chain Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7085,6 +7143,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41954, "", "=q4=Relentless Gladiator's Silk Raiment", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Silk Cowl", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Silk Amice", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Silk Raiment", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Silk Handguards", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Silk Trousers", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7123,6 +7187,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 40792, "", "=q4=Relentless Gladiator's Scaled Chestpiece", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Scaled Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Scaled Shoulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Scaled Chestpiece", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Scaled Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Scaled Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7161,6 +7231,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 40910, "", "=q4=Relentless Gladiator's Ornamented Chestguard", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Ornamented Headcover", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Ornamented Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Ornamented Chestguard", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Ornamented Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Ornamented Legplates", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7199,6 +7275,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41922, "", "=q4=Relentless Gladiator's Satin Robe", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Satin Hood", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Satin Mantle", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Satin Robe", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Satin Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Satin Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7237,6 +7319,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Mooncloth Hood", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Mooncloth Mantle", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Mooncloth Robe", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Mooncloth Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Mooncloth Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7275,6 +7363,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41651, "", "=q4=Relentless Gladiator's Leather Tunic", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Leather Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Leather Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Leather Tunic", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Leather Gloves", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Leather Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7313,6 +7407,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 40995, "", "=q4=Relentless Gladiator's Mail Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Mail Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Mail Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Mail Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Mail Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Mail Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7351,6 +7451,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41082, "", "=q4=Relentless Gladiator's Linked Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Linked Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Linked Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Linked Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Linked Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Linked Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7389,6 +7495,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 40994, "", "=q4=Relentless Gladiator's Ringmail Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_3#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Ringmail Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Ringmail Spaulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Ringmail Armor", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Ringmail Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Ringmail Leggings", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7427,6 +7539,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 41999, "", "=q4=Relentless Gladiator's Felweave Raiment", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_2#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Felweave Cowl", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Felweave Amice", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Felweave Raiment", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Felweave Handguards", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Felweave Trousers", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -7465,6 +7583,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 40790, "", "=q4=Relentless Gladiator's Plate Chestpiece", "=ds=", "2150 #arena# #reqrating# 1600"};
 		{ 5, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
 		{ 6, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
+		{ 8, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
+		{ 9, 0, "", "=q4=Wrathful Gladiator's Plate Helm", "=ds=", "2150 #arena# #reqrating# 1900"};
+		{ 10, 0, "", "=q4=Wrathful Gladiator's Plate Shoulders", "=ds=", "1750 #arena# #reqrating# 2000"};
+		{ 11, 0, "", "=q4=Wrathful Gladiator's Plate Chestpiece", "=ds=", "2150 #arena# #reqrating# 1600"};
+		{ 12, 0, "", "=q4=Wrathful Gladiator's Plate Gauntlets", "=ds=", "1300 #arena# #reqrating# 1400"};
+		{ 13, 0, "", "=q4=Wrathful Gladiator's Plate Legguards", "=ds=", "2150 #arena# #reqrating# 1550"};
 		Back = "LEVEL80PVPSETS2";
 	};
 
@@ -11161,29 +11285,30 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, 50975, "", "=q4=Ermine Coronation Robes", "=ds=#s5#, #a1#", "95 #eoffrost#" };
 		{ 2, 50974, "", "=q4=Meteor Chaser's Raiment", "=ds=#s5#, #a1#", "95 #eoffrost#" };
 		{ 3, 50984, "", "=q4=Gloves of Ambivalence", "=ds=#s9#, #a1#", "60 #eoffrost#" };
-		{ 4, 50996, "", "=q4=Belt of Omission", "=ds=#s10#, #a1#", "60 #eoffrost#" };
-		{ 5, 50997, "", "=q4=Circle of Ossus", "=ds=#s10#, #a1#", "60 #eoffrost#" };
-		{ 7, 50965, "", "=q4=Castle Breaker's Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
-		{ 8, 50969, "", "=q4=Chestplate of Unspoken Truths", "=ds=#s5#, #a4#", "95 #eoffrost#" };
-		{ 9, 50968, "", "=q4=Cataclysmic Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };
-		{ 10, 50977, "", "=q4=Gatecrasher's Gauntlets", "=ds=#s9#, #a4#", "60 #eoffrost#" };
-		{ 11, 50976, "", "=q4=Gauntlets of Overexposure", "=ds=#s9#, #a4#", "60 #eoffrost#" };
-		{ 12, 50978, "", "=q4=Gauntlets of the Kraken", "=ds=#s9#, #a4#", "60 #eoffrost#" };
-		{ 13, 50989, "", "=q4=Lich Killer's Lanyard", "=ds=#s10#, #a4#", "60 #eoffrost#" };
-		{ 14, 50987, "", "=q4=Malevolant Girdle", "=ds=#s10#, #a4#", "60 #eoffrost#" };
-		{ 15, 50991, "", "=q4=Verdigris Chain Belt", "=ds=#s10#, #a4#", "60 #eoffrost#" };
-		{ 16, 50972, "", "=q4=Shadow Seeker's Tunic", "=ds=#s5#, #a2#", "95 #eoffrost#" };
-		{ 17, 50973, "", "=q4=Vestments of Spruce and Fir", "=ds=#s5#, #a2#", "95 #eoffrost#" };
-		{ 18, 50982, "", "=q4=Cat Burglar's Grips", "=ds=#s9#, #a2#", "60 #eoffrost#" };
-		{ 19, 50981, "", "=q4=Gloves of the Great Horned Owl", "=ds=#s9#, #a2#", "60 #eoffrost#" };
-		{ 20, 50994, "", "=q4=Belt of Petrified Ivy", "=ds=#s10#, #a2#", "60 #eoffrost#" };
-		{ 21, 50995, "", "=q4=Vengeful Noose", "=ds=#s10#, #a2#", "60 #eoffrost#" };
-		{ 23, 50970, "", "=q4=Longstrider's Vest", "=ds=#s5#, #a3#", "95 #eoffrost#" };
-		{ 24, 50971, "", "=q4=Mail of the Geyser", "=ds=#s5#, #a3#", "95 #eoffrost#" };
-		{ 25, 50980, "", "=q4=Blizzard Keeper's Mitts", "=ds=#s9#, #a3#", "60 #eoffrost#" };
-		{ 26, 50979, "", "=q4=Logsplitters", "=ds=#s9#, #a3#", "60 #eoffrost#" };
-		{ 27, 50993, "", "=q4=Band of the Night Raven", "=ds=#s10#, #a3#", "60 #eoffrost#" };
-		{ 28, 50992, "", "=q4=Waistband of Despair", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		{ 4, 50983, "", "=q4=Gloves of False Gestures", "=ds=#s9#, #a1#", "60 #eoffrost#" };
+		{ 5, 50996, "", "=q4=Belt of Omission", "=ds=#s10#, #a1#", "60 #eoffrost#" };
+		{ 6, 50997, "", "=q4=Circle of Ossus", "=ds=#s10#, #a1#", "60 #eoffrost#" };
+		{ 8, 50972, "", "=q4=Shadow Seeker's Tunic", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 9, 50973, "", "=q4=Vestments of Spruce and Fir", "=ds=#s5#, #a2#", "95 #eoffrost#" };
+		{ 10, 50982, "", "=q4=Cat Burglar's Grips", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 11, 50981, "", "=q4=Gloves of the Great Horned Owl", "=ds=#s9#, #a2#", "60 #eoffrost#" };
+		{ 12, 50994, "", "=q4=Belt of Petrified Ivy", "=ds=#s10#, #a2#", "60 #eoffrost#" };
+		{ 13, 50995, "", "=q4=Vengeful Noose", "=ds=#s10#, #a2#", "60 #eoffrost#" };
+		{ 15, 50970, "", "=q4=Longstrider's Vest", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 16, 50971, "", "=q4=Mail of the Geyser", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 17, 50980, "", "=q4=Blizzard Keeper's Mitts", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 18, 50979, "", "=q4=Logsplitters", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 19, 50993, "", "=q4=Band of the Night Raven", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		{ 20, 50992, "", "=q4=Waistband of Despair", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		{ 22, 50965, "", "=q4=Castle Breaker's Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 23, 50969, "", "=q4=Chestplate of Unspoken Truths", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 24, 50968, "", "=q4=Cataclysmic Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };
+		{ 25, 50977, "", "=q4=Gatecrasher's Gauntlets", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 26, 50976, "", "=q4=Gauntlets of Overexposure", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 27, 50978, "", "=q4=Gauntlets of the Kraken", "=ds=#s9#, #a4#", "60 #eoffrost#" };
+		{ 28, 50989, "", "=q4=Lich Killer's Lanyard", "=ds=#s10#, #a4#", "60 #eoffrost#" };
+		{ 29, 50987, "", "=q4=Malevolant Girdle", "=ds=#s10#, #a4#", "60 #eoffrost#" };
+		{ 30, 50991, "", "=q4=Verdigris Chain Belt", "=ds=#s10#, #a4#", "60 #eoffrost#" };
 		Next = "EmblemofFrost2";
 		Back = "SETMENU";
 	};

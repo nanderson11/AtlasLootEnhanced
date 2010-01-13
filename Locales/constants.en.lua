@@ -357,6 +357,7 @@ if AL then
 	AL["Card Game Item"] = true;
 	AL["Skill Required:"] = true;
 	AL["Rating:"] = true; -- Shorthand for 'Required Rating' for the personal/team ratings
+	AL["Random Heroic Reward"] = true;
 
 	-- Minor Labels for loot table descriptions
 	AL["Original WoW"] = true;
