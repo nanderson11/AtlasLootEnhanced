@@ -356,6 +356,7 @@ if AL then
 	AL["Card Game Item"] = "Objet du jeu de carte";
 	AL["Skill Required:"] = "Compétence requise :";
 	AL["Rating:"] = "Côte :"; -- Shorthand for 'Required Rating' for the personal/team ratings
+	AL["Random Heroic Reward"] = "Récompense héroique aléatoire";
 
 	-- Minor Labels for loot table descriptions
 	AL["Original WoW"] = "WoW Original";
