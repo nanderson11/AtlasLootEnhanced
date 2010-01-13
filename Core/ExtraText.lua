@@ -134,6 +134,18 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
+	FHTheForgeOfSouls = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+	FHPitOfSaron = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+	FHHallsOfReflection = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     Gnomeregan = {
         "";
         GREY..INDENT..AL["Trash Mobs"];

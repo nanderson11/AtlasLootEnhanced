@@ -11294,12 +11294,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 11, 50981, "", "=q4=Gloves of the Great Horned Owl", "=ds=#s9#, #a2#", "60 #eoffrost#" };
 		{ 12, 50994, "", "=q4=Belt of Petrified Ivy", "=ds=#s10#, #a2#", "60 #eoffrost#" };
 		{ 13, 50995, "", "=q4=Vengeful Noose", "=ds=#s10#, #a2#", "60 #eoffrost#" };
-		{ 15, 50970, "", "=q4=Longstrider's Vest", "=ds=#s5#, #a3#", "95 #eoffrost#" };
-		{ 16, 50971, "", "=q4=Mail of the Geyser", "=ds=#s5#, #a3#", "95 #eoffrost#" };
-		{ 17, 50980, "", "=q4=Blizzard Keeper's Mitts", "=ds=#s9#, #a3#", "60 #eoffrost#" };
-		{ 18, 50979, "", "=q4=Logsplitters", "=ds=#s9#, #a3#", "60 #eoffrost#" };
-		{ 19, 50993, "", "=q4=Band of the Night Raven", "=ds=#s10#, #a3#", "60 #eoffrost#" };
-		{ 20, 50992, "", "=q4=Waistband of Despair", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		{ 16, 50970, "", "=q4=Longstrider's Vest", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 17, 50971, "", "=q4=Mail of the Geyser", "=ds=#s5#, #a3#", "95 #eoffrost#" };
+		{ 18, 50980, "", "=q4=Blizzard Keeper's Mitts", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 19, 50979, "", "=q4=Logsplitters", "=ds=#s9#, #a3#", "60 #eoffrost#" };
+		{ 20, 50993, "", "=q4=Band of the Night Raven", "=ds=#s10#, #a3#", "60 #eoffrost#" };
+		{ 21, 50992, "", "=q4=Waistband of Despair", "=ds=#s10#, #a3#", "60 #eoffrost#" };
 		{ 22, 50965, "", "=q4=Castle Breaker's Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
 		{ 23, 50969, "", "=q4=Chestplate of Unspoken Truths", "=ds=#s5#, #a4#", "95 #eoffrost#" };
 		{ 24, 50968, "", "=q4=Cataclysmic Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };

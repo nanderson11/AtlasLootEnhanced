@@ -101,6 +101,21 @@ AtlasLootNewBossButtons = {
         "";
         "FoSBronjahm";
         "FoSDevourer";
+        "";
+        "FHTrashMobs";
+
+        };
+
+    FHHallsOfReflection = {
+    	"";
+    	"";
+    	"";
+    	"";
+    	"HoRFalric";
+    	"HoRMarwyn";
+    	"HoRLichKing";
+        "";
+        "FHTrashMobs";
         };
 
     Gundrak = {
@@ -196,6 +211,9 @@ AtlasLootNewBossButtons = {
 		"PoSKrickIck";
 		"";
 		"PoSTyrannus";
+        "";
+        "";
+        "FHTrashMobs";
 		};
 
     TrialOfTheChampion = {
