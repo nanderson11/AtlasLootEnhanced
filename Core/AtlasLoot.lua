@@ -1139,12 +1139,13 @@ function AtlasLoot_10Man25ManToggle()
         Lootpage = AtlasLootItemsFrame.refreshOri[1];
     end
 	
-    if AtlasLoot.db.profile.Bigraid then
+	local NormalID, HeroicID, Normal25ID, Heroic25ID = AtlasLoot_GetLoottableHeroic(Lootpage)
+    if AtlasLoot.db.profile.Bigraid and Normal25ID then
         AtlasLoot.db.profile.Bigraid = false
-	elseif AtlasLoot.db.profile.BigraidHeroic then
+	elseif AtlasLoot.db.profile.BigraidHeroic and Heroic25ID then
 		AtlasLoot.db.profile.BigraidHeroic = false
 		AtlasLoot.db.profile.HeroicMode = true
-	elseif AtlasLoot.db.profile.HeroicMode then
+	elseif AtlasLoot.db.profile.HeroicMode and HeroicID then
 		AtlasLoot.db.profile.HeroicMode = false
 		AtlasLoot.db.profile.BigraidHeroic = true
 	else
