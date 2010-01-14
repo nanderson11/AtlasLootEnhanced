@@ -148,7 +148,7 @@ if AL then
     AL["Emblem of Heroism Rewards"] = "Награды за эмблемы героизма";
     AL["Emblem of Conquest Rewards"] = "Награды за эмблемы завоевания";
 	AL["Emblem of Triumph Rewards"] = "Награды за эмблемы триумфа";
-	--AL["Emblem of Frost Rewards"] = true;
+	AL["Emblem of Frost Rewards"] = "Награды за эмблемы льда";
     AL["BoE World Epics"] = "Мировые превосходные ПпП";
 	AL["Dungeon 1/2 Sets"] = "Комплекты: Подземелья 1/2";
 	AL["Dungeon 3 Sets"] = "Комплекты: Подземелья 3";
@@ -356,6 +356,7 @@ if AL then
 	AL["Card Game Item"] = "Предмет игровых карт";
 	AL["Skill Required:"] = "Необходим навык:";
 	AL["Rating:"] = "Рейтинг"; -- Shorthand for 'Required Rating' for the personal/team ratings
+	AL["Random Heroic Reward"] = "Случайные награды с героика";
 
 	-- Minor Labels for loot table descriptions
 	AL["Original WoW"] = "Классический";
