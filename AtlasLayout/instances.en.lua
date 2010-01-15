@@ -108,6 +108,7 @@ AtlasLootNewBossButtons = {
 
     FHHallsOfReflection = {
     	"";
+  		"";
     	"";
     	"";
     	"";
@@ -203,6 +204,7 @@ AtlasLootNewBossButtons = {
 		};
 
 	FHPitOfSaron = {
+		"";
 		"";
 		"";
 		"PoSGarfrost";
