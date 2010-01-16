@@ -1311,7 +1311,6 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
-        "";
         "Onyxia_1";
         };
 

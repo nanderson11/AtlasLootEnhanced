@@ -4464,7 +4464,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 20, "s55910", "41523", "=q3=Mystic Frostwoven Shoulders", "=ds="..AL["Trainer"] };
 		{ 21, "s55913", "41528", "=q3=Mystic Frostwoven Wriststraps", "=ds="..AL["Trainer"] };
 		{ 22, "s55923", "41550", "=q2=Duskweave Shoulders", "=ds="..AL["Trainer"] };
-		{ 23, "s56048", "41544", "=q2=Duskweave Boots", "=ds="..AL["Trainer"] };
+		{ 23, "s55924", "41544", "=q2=Duskweave Boots", "=ds="..AL["Trainer"] };
 		{ 24, "s55921", "41549", "=q2=Duskweave Robe", "=ds="..AL["Trainer"] };
 		{ 25, "s55922", "41545", "=q2=Duskweave Gloves", "=ds="..AL["Trainer"] };
 		{ 26, "s55920", "41551", "=q2=Duskweave Wriststraps", "=ds="..AL["Trainer"] };

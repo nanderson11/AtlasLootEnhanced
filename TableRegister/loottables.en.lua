@@ -1220,8 +1220,8 @@ end
 --- World Bosses ---
 --------------------
 
-  -- Azuregos/Highlord Kruul
-	AtlasLoot_TableNames["WorldBossesClassic"] = { BabbleBoss["Azuregos"].." / "..AL["Highlord Kruul"], "AtlasLootOriginalWoW" };
+  -- Azuregos
+	AtlasLoot_TableNames["WorldBossesClassic"] = { BabbleBoss["Azuregos"], "AtlasLootOriginalWoW" };
   -- Kazzak/Doomwalker
 	AtlasLoot_TableNames["WorldBossesBC"] = { BabbleBoss["Doom Lord Kazzak"].." / "..BabbleBoss["Doomwalker"], "AtlasLootBurningCrusade" };
   -- Emrald Dragons

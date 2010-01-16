@@ -63,7 +63,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 ---- Zandalar Tribe
 --- World Bosses
 ---- Dragons of Nightmare
----- Azuregos/Highlord Kruul
+---- Azuregos
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -6255,9 +6255,9 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 20578, "", "=q4=Emerald Dragonfang", "=ds=#h1#, #w4#", "", "9.95%"};
 	};
 
-		-------------------------------
-		--- Azuregos/Highlord Kruul ---
-		-------------------------------
+		----------------
+		--- Azuregos ---
+		----------------
 
 	AtlasLoot_Data["WorldBossesClassic"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Azuregos"], ""};
@@ -6271,20 +6271,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#h4#, #w13#", "", "11.76%"};
 		{ 10, 18542, "", "=q4=Typhoon", "=ds=#h2#, #w10#", "", "16.89%"};
 		{ 11, 19130, "", "=q4=Cold Snap", "=ds=#w12#", "", "11.89%"};
-		{ 13, 18704, "", "=q4=Mature Blue Dragon Sinew", "=ds=#m3# =q1=(#c2#)", "", "51.56%"};
-		{ 14, 18714, "", "=q4=Ancient Sinew Wrapped Lamina", "=q1=#m4#: =ds=#m14# #w19#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Highlord Kruul"], ""};
-		{ 17, 18204, "", "=q4=Eskhandar's Pelt", "=ds=#s4#", "", "8.77%"};
-		{ 18, 19135, "", "=q4=Blacklight Bracer", "=ds=#s8#, #a1#", "", "11.01%"};
-		{ 19, 19133, "", "=q4=Fel Infused Leggings", "=ds=#s11#, #a1#", "", "8.63%"};
-		{ 20, 18544, "", "=q4=Doomhide Gauntlets", "=ds=#s9#, #a2#", "", "10.05%"};
-		{ 21, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#, #a2#", "", "9.75%"};
-		{ 22, 18546, "", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "", "9.39%"};
-		{ 23, 17111, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", "10.95%"};
-		{ 24, 18543, "", "=q4=Ring of Entropy", "=ds=#s13#", "", "9.82%"};
-		{ 25, 17112, "", "=q4=Empyrean Demolisher", "=ds=#h3#, #w6#", "", "10.84%"};
-		{ 26, 17113, "", "=q4=Amberseal Keeper", "=ds=#w9#", "", "10.50%"};
-		{ 28, 18665, "", "=q4=The Eye of Shadow", "=ds=#m2# =q1=(#c5#)", "", "29.98%"};
-		{ 29, 18608, "", "=q4=Benediction", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#"};
-		{ 30, 18609, "", "=q4=Anathema", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 16, 18704, "", "=q4=Mature Blue Dragon Sinew", "=ds=#m3# =q1=(#c2#)", "", "51.56%"};
+		{ 17, 18714, "", "=q4=Ancient Sinew Wrapped Lamina", "=q1=#m4#: =ds=#m14# #w19#"};
 	};

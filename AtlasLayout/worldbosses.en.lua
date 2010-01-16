@@ -36,10 +36,6 @@ AtlasLootWBBossButtons = {
         "WorldBossesBC";
         };
 
-    HighlordKruul = {
-        "WorldBossesClassic";
-        };
-
     Skettis = {
         "";
         "";
