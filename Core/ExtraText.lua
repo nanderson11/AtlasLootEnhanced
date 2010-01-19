@@ -162,6 +162,18 @@ AtlasLoot_ExtraText = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
     };
+    IcecrownCitadelA = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    IcecrownCitadelB = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
+    IcecrownCitadelC = {
+        "";
+        GREY..INDENT..AL["Trash Mobs"];
+    };
     Karazhan = {
         "";
         GREY..INDENT..AL["Trash Mobs"];

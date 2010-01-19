@@ -112,6 +112,8 @@ AtlasLootNewBossButtons = {
     	"";
     	"";
     	"";
+      	"";
+    	"";
     	"HoRFalric";
     	"HoRMarwyn";
     	"HoRLichKing";
@@ -136,6 +138,39 @@ AtlasLootNewBossButtons = {
 		"HoRLichKing";
 		"HoRFalric";
 		"HoRMarwyn";
+		};
+		
+	IcecrownCitadelA = {
+		"";
+		"";
+		"ICCLordMarrowgar";
+		"ICCLadyDeathwhisper";
+		"ICCGunshipBattle";
+		"ICCSaurfang";
+		"";
+		"ICCTrash25Man";
+		};
+
+	IcecrownCitadelB = {
+		"";
+		"ICCFestergut";
+		"ICCRotface";
+		"ICCPutricide";
+		"ICCCouncil";
+		"";
+		"";
+		"";
+		"ICCLanathel";
+		"ICCValithria";
+		"ICCSindragosa";
+		"";
+		"ICCTrash25Man";
+		};
+		
+	IcecrownCitadelC = {
+		"ICCLichKing";
+		"";
+		"ICCTrash25Man";
 		};
 
     Naxxramas = {
@@ -207,11 +242,17 @@ AtlasLootNewBossButtons = {
 		"";
 		"";
 		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
 		"PoSGarfrost";
 		"";
 		"";
-		"PoSKrickIck";
 		"";
+		"PoSKrickIck";
 		"PoSTyrannus";
         "";
         "";

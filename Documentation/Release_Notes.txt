@@ -9,6 +9,7 @@ v5.09.04
 Added remaining ICC loot (Normal Mode)
 Added Heroic ICC loot
 Crafting updated for Patch 3.3
+Added support for upcoming Atlas 1.16.0
 Minor fixes and additions
 
 v5.09.03
