@@ -357,6 +357,7 @@ if AL then
 	AL["Card Game Item"] = "卡片遊戲物品";
 	AL["Skill Required:"] = "需要技能等級: ";
 	AL["Rating:"] = "等級:";	--Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
+	AL["Random Heroic Reward"] = "隨機英雄副本獎勵";
 
 	--Minor Labels for loot table descriptions
 	AL["Original WoW"] = "舊魔獸世界";
