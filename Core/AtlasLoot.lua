@@ -37,7 +37,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "09";
-local VERSION_BOSSES = "04";
+local VERSION_BOSSES = "05";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.15.2", "1.15.1"};
@@ -830,7 +830,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 			else
 				AtlasLootItemsFrame_Heroic:Disable()
 			end
-		elseif not AtlasLoot.db.profile.Bigraid and NormalID and HeroicID then
+		elseif NormalID and HeroicID then
 			AtlasLootItemsFrame_Heroic:Show()
 			AtlasLootItemsFrame_Heroic:SetChecked(false)
 			AtlasLootItemsFrame_Heroic:Enable()
