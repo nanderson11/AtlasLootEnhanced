@@ -1394,6 +1394,7 @@ if AL then
 	AL["Cracked Egg"] = "Oeuf brisé";
 	AL["Small Spice Bag"] = "Petit sac d'épices";
 	AL["Handful of Candy"] = "Poignée de bonbons";
+	AL["Krick and Ick"]  = "Krick et Ick";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
