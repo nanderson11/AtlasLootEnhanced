@@ -116,6 +116,7 @@ AtlasLootNewBossButtons = {
     	"";
     	"HoRFalric";
     	"HoRMarwyn";
+        "";
     	"HoRLichKing";
         "";
         "FHTrashMobs";
@@ -146,6 +147,7 @@ AtlasLootNewBossButtons = {
 		"";
 		"ICCLordMarrowgar";
 		"ICCLadyDeathwhisper";
+		"ICCGunshipBattle";
 		"ICCGunshipBattle";
 		"ICCSaurfang";
 		"";
