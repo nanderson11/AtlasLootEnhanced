@@ -254,7 +254,6 @@ AtlasLootNewBossButtons = {
 		"PoSGarfrost";
 		"";
 		"";
-		"";
 		"PoSKrickIck";
 		"PoSTyrannus";
         "";

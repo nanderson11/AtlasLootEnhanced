@@ -905,8 +905,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#t10s2#", AL["Ahn'Kahar Blood Hunter's Battlegear"]);
     text = gsub(text, "#t10s3#", AL["Bloodmage's Regalia"]);
     text = gsub(text, "#t10s4_1#", AL["Lightsworn Garb"]);
-    text = gsub(text, "#t10s4_2#", AL["Lightsworn Plate"]);
-    text = gsub(text, "#t10s4_3#", AL["Lightsworn Battlegear"]);
+    text = gsub(text, "#t10s4_2#", AL["Lightsworn Battlegear"]);
+    text = gsub(text, "#t10s4_3#", AL["Lightsworn Plate"]);
     text = gsub(text, "#t10s5_1#", AL["Crimson Acolyte's Regalia"]);
     text = gsub(text, "#t10s5_2#", AL["Crimson Acolyte's Raiment"]);
     text = gsub(text, "#t10s6#", AL["Shadowblade's Battlegear"]);

@@ -332,7 +332,7 @@ end
 	AtlasLoot_TableNames["FoSDevourerHEROIC"] = { BabbleBoss["Devourer of Souls"], "AtlasLootWotLK" };
   -- The Forge of Souls
 	AtlasLoot_TableNames["PoSGarfrost"] = { BabbleBoss["Forgemaster Garfrost"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PoSKrickIck"] = { "Krick and Ick", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["PoSKrickIck"] = { AL["Krick and Ick"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSTyrannus"] = { BabbleBoss["Scourgelord Tyrannus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSTyrannusHEROIC"] = { BabbleBoss["Scourgelord Tyrannus"], "AtlasLootWotLK" };
   -- The Forge of Souls

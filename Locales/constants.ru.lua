@@ -275,7 +275,7 @@ if AL then
     AL["Set"] = "Комплекты";
     AL["Token"] = "Знак";
     AL["Tokens"] = "Знаки";
-	--AL["Token Hand-Ins"] = true;
+	AL["Token Hand-Ins"] = "За знаки";
     AL["Skinning Knife"] = "Нож для свежевания";
     AL["Herbalism Knife"] = "Нож для травничества";
     AL["Fish"] = "Рыба";
@@ -561,7 +561,7 @@ if AL then
 	-- Eighth set
 	AL["Blood of Gladiators"] = "Кровь гладиаторов";
 	AL["Sandbox Tiger"] = "Тигр-качалка";
-	AL["Center of Attention"] = "Center of Attention";
+	AL["Center of Attention"] = "В центре внимания";
 	AL["Foam Sword Rack"] = "Подставка для мечя из пенополимера";
 	
 	-- Ninth set
@@ -573,7 +573,7 @@ if AL then
 	-- Tenth set
 	AL["Scourgewar"] = "Scourgewar";
 	AL["Tiny"] = "Tiny";
-	AL["Tuskarr Kite"] = "Tuskarr Kite";
+	AL["Tuskarr Kite"] = "Клыкаррский воздушный змей";
 	AL["Spectral Kitten"] = "Spectral Kitten";
 	
     -- Battleground Brackets
@@ -1019,25 +1019,25 @@ if AL then
 	AL["Koltira's Plate"] = "Латы Кольтиры";
 	
 	-- Tier 10 Sets
-	--AL["Lasherweave's Garb"] = true;
-	--AL["Lasherweave's Battlegear"] = true;
-	--AL["Lasherweave's Regalia"] = true;
-	--AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
-	--AL["Bloodmage's Regalia"] = true;
-	--AL["Lightsworn Garb"] = true;
-	--AL["Lightsworn Plate"] = true;
-	--AL["Lightsworn Battlegear"] = true;
-	--AL["Crimson Acolyte's Regalia"] = true;
-	--AL["Crimson Acolyte's Raiment"] = true;
-	--AL["Shadowblade's Battlegear"] = true;
-	--AL["Frost Witch's Garb"] = true;
-	--AL["Frost Witch's Battlegear"] = true;
-	--AL["Frost Witch's Regalia"] = true;
-	--AL["Dark Coven's Garb"] = true;
-	--AL["Ymirjar Lord's Battlegear"] = true;
-	--AL["Ymirjar Lord's Plate"] = true;
-	--AL["Scourgelord's Battlegear"] = true;
-	--AL["Scourgelord's Plate"] = true;
+	AL["Lasherweave's Garb"] = "Плеточные одеяния";
+	AL["Lasherweave's Battlegear"] = "Плеточная броня";
+	AL["Lasherweave's Regalia"] = "Плеточные регалии";
+	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "Броня ан'кахарского охотника за кровью";
+	AL["Bloodmage's Regalia"] = "Регалии волшебника крови";
+	AL["Lightsworn Garb"] = "Одеяния клятвы Свету";
+	AL["Lightsworn Plate"] = "Латы клятвы Свету";
+	AL["Lightsworn Battlegear"] = "Броня клятвы Свету";
+	AL["Crimson Acolyte's Regalia"] = "Регалии послушника из Богрового Легиона";
+	AL["Crimson Acolyte's Raiment"] = "Облачени послушника из Богрового Легиона";
+	AL["Shadowblade's Battlegear"] = "Броня теневого клинка";
+	AL["Frost Witch's Garb"] = "Одеяния ледяной ведьмы";
+	AL["Frost Witch's Battlegear"] = "Броня ледяной ведьмы";
+	AL["Frost Witch's Regalia"] = "Регалии ледяной ведьмы";
+	AL["Dark Coven's Garb"] = "Регалии мрачного шабаша";
+	AL["Ymirjar Lord's Battlegear"] = "Броня имирьярского повелителя";
+	AL["Ymirjar Lord's Plate"] = "Латы имирьярского повелителя";
+	AL["Scourgelord's Battlegear"] = "Латы повелителя Плети";
+	AL["Scourgelord's Plate"] = "Броня повелителя Плети";
 
     -- Arathi Basin Sets - Alliance
     AL["The Highlander's Intent"] = "Упорство горца";
@@ -1394,6 +1394,7 @@ if AL then
     AL["Cracked Egg"] = "Треснутое яйцо";
 	AL["Small Spice Bag"] = "Маленький мешочек со специями";
 	AL["Handful of Candy"] = "Пригоршня конфет";
+	AL["Krick and Ick"] = "Ик и Крик";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
