@@ -100,6 +100,7 @@ local AtlasLootDBDefaults = {
         HidePanel = false,
         LastBoss = "EmptyTable",
         HeroicMode = false,
+		BigraidHeroic = false,
         Bigraid = false,
         AtlasLootVersion = "1",
         AtlasNaggedVersion = "",
@@ -376,7 +377,10 @@ function AtlasLoot_OnVariablesLoaded()
         LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
     end    
     AtlasLoot_UpdateLootBrowserScale();
-
+	
+	AtlasLoot.db.profile.Bigraid = false
+	AtlasLoot.db.profile.BigraidHeroic = false
+	AtlasLoot.db.profile.HeroicMode = false
 end
 
 function AtlasLoot_Reset(data)
