@@ -6829,26 +6829,26 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		-------------------------
 
 	AtlasLoot_Data["AshenVerdict"] = {
-		{ 1, 0, "Inv_Jewelry_Ring_84", "=q6="..AL["Path of Courage"], ""};
-		{ 2, 50375, "", "=q4=Ashen Band of Courage", "=ds=#s13#, =q1=#r2#"};
-		{ 3, 50388, "", "=q4=Ashen Band of Greater Courage", "=ds=#s13#, =q1=#r3#"};
-		{ 4, 50403, "", "=q4=Ashen Band of Greater Courage", "=ds=#s13#, =q1=#r4#"};
-		{ 5, 50404, "", "=q4=Ashen Band of Greater Courage", "=ds=#s13#, =q1=#r5#"};
-		{ 7, 0, "Inv_Jewelry_Ring_83", "=q6="..AL["Path of Destruction"], ""};
-		{ 8, 50377, "", "=q4=Ashen Band of Destruction", "=ds=#s13#, =q1=#r2#"};
-		{ 9, 50384, "", "=q4=Ashen Band of Greater Destruction", "=ds=#s13#, =q1=#r3#"};
-		{ 10, 50397, "", "=q4=Ashen Band of Greater Destruction", "=ds=#s13#, =q1=#r4#"};
-		{ 11, 50398, "", "=q4=Ashen Band of Greater Destruction", "=ds=#s13#, =q1=#r5#"};
-		{ 16, 0, "Inv_Jewelry_Ring_81", "=q6="..AL["Path of Vengeance"], ""};
-		{ 17, 50376, "", "=q4=Ashen Band of Vengeance", "=ds=#s13#, =q1=#r2#"};
-		{ 18, 50387, "", "=q4=Ashen Band of Greater Vengeance", "=ds=#s13#, =q1=#r3#"};
-		{ 19, 50401, "", "=q4=Ashen Band of Greater Vengeance", "=ds=#s13#, =q1=#r4#"};
-		{ 20, 50402, "", "=q4=Ashen Band of Greater Vengeance", "=ds=#s13#, =q1=#r5#"};
-		{ 22, 0, "Inv_Jewelry_Ring_85", "=q6="..AL["Path of Wisdom"], ""};
-		{ 23, 50378, "", "=q4=Ashen Band of Wisdom", "=ds=#s13#, =q1=#r2#"};
-		{ 24, 50386, "", "=q4=Ashen Band of Greater Wisdom", "=ds=#s13#, =q1=#r3#"};
-		{ 25, 50399, "", "=q4=Ashen Band of Greater Wisdom", "=ds=#s13#, =q1=#r4#"};
-		{ 26, 50400, "", "=q4=Ashen Band of Greater Wisdom", "=ds=#s13#, =q1=#r5#"};
+		{ 1, 50375, "", "=q4=Ashen Band of Courage", "=ds=#s13#, =q1=#r2#"};
+		{ 2, 50388, "", "=q4=Ashen Band of Greater Courage", "=ds=#s13#, =q1=#r3#"};
+		{ 3, 50403, "", "=q4=Ashen Band of Unmatched Courage", "=ds=#s13#, =q1=#r4#"};
+		{ 4, 50404, "", "=q4=Ashen Band of Endless Courage", "=ds=#s13#, =q1=#r5#"};
+		{ 6, 50377, "", "=q4=Ashen Band of Destruction", "=ds=#s13#, =q1=#r2#"};
+		{ 7, 50384, "", "=q4=Ashen Band of Greater Destruction", "=ds=#s13#, =q1=#r3#"};
+		{ 8, 50397, "", "=q4=Ashen Band of Unmatched Destruction", "=ds=#s13#, =q1=#r4#"};
+		{ 9, 50398, "", "=q4=Ashen Band of Endless Destruction", "=ds=#s13#, =q1=#r5#"};
+		{ 11, 0, "", "=q4=Ashen Band of Might", "=ds=#s13#, =q1=#r2#"};
+		{ 12, 0, "", "=q4=Ashen Band of Greater Might", "=ds=#s13#, =q1=#r3#"};
+		{ 13, 0, "", "=q4=Ashen Band of Unmatched Might", "=ds=#s13#, =q1=#r4#"};
+		{ 14, 0, "", "=q4=Ashen Band of Endless Might", "=ds=#s13#, =q1=#r5#"};
+		{ 16, 50376, "", "=q4=Ashen Band of Vengeance", "=ds=#s13#, =q1=#r2#"};
+		{ 17, 50387, "", "=q4=Ashen Band of Greater Vengeance", "=ds=#s13#, =q1=#r3#"};
+		{ 18, 50401, "", "=q4=Ashen Band of Unmatched Vengeance", "=ds=#s13#, =q1=#r4#"};
+		{ 19, 50402, "", "=q4=Ashen Band of Endless Vengeance", "=ds=#s13#, =q1=#r5#"};
+		{ 21, 50378, "", "=q4=Ashen Band of Wisdom", "=ds=#s13#, =q1=#r2#"};
+		{ 22, 50386, "", "=q4=Ashen Band of Greater Wisdom", "=ds=#s13#, =q1=#r3#"};
+		{ 23, 50399, "", "=q4=Ashen Band of Unmatched Wisdom", "=ds=#s13#, =q1=#r4#"};
+		{ 24, 50400, "", "=q4=Ashen Band of Endless Wisdom", "=ds=#s13#, =q1=#r5#"};
 		Next = "AshenVerdict2";
 		Back = "REPMENU";
 	};
