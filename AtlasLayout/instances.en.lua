@@ -68,16 +68,16 @@ AtlasLootNewBossButtons = {
         "DrakTharonKeepTrash";
         };
 		
-	IcecrownStart = {
-		"";
-		"ICCLadyDeathwhisper";
-		"ICCLordMarrowgar";
-		"ICCGunshipBattle";
-		"ICCSaurfang";
-		"";
-		"";
-		"ICCTrash25Man";
-		};
+    IcecrownStart = {
+	"";
+	"ICCLadyDeathwhisper";
+	"ICCLordMarrowgar";
+	"ICCGunshipBattle";
+	"ICCSaurfang";
+	"";
+	"";
+	"ICCTrash25Man";
+	};
 
     TheEyeOfEternity = {
         "WrathKeys";
@@ -90,7 +90,7 @@ AtlasLootNewBossButtons = {
         "FoSDevourer";
         };
 
-	FHTheForgeOfSouls = {
+    FHTheForgeOfSouls = {
         "";
         "";
         "";
@@ -103,12 +103,11 @@ AtlasLootNewBossButtons = {
         "FoSDevourer";
         "";
         "FHTrashMobs";
-
         };
 
     FHHallsOfReflection = {
     	"";
-  		"";
+  	"";
     	"";
     	"";
     	"";
@@ -134,49 +133,57 @@ AtlasLootNewBossButtons = {
         "GundrakTrash";
         };
         
-	HallsOfReflection = {
-		"";
-		"HoRLichKing";
-		"HoRFalric";
-		"HoRMarwyn";
-		};
+    HallsOfReflection = {
+	"";
+	"HoRLichKing";
+	"HoRFalric";
+	"HoRMarwyn";
+	};
 		
-	IcecrownCitadelA = {
-		"AshenVerdict";
-		"";
-		"";
-		"ICCLordMarrowgar";
-		"ICCLadyDeathwhisper";
-		"ICCGunshipBattle";
-		"ICCGunshipBattle";
-		"ICCSaurfang";
-		"";
-		"ICCTrash25Man";
-		};
+    IcecrownCitadelA = {
+	"AshenVerdict";
+	"";
+	"";
+	"";
+	"ICCLordMarrowgar";
+	"ICCLadyDeathwhisper";
+	"ICCGunshipBattle";
+	"ICCGunshipBattle";
+	"ICCSaurfang";
+	"";
+	"";
+	"";
+	"";
+	"";
+	"ICCTrash25Man";
+	};
 
-	IcecrownCitadelB = {
-		"AshenVerdict";
-		"";
-		"ICCFestergut";
-		"ICCRotface";
-		"ICCPutricide";
-		"ICCCouncil";
-		"";
-		"";
-		"";
-		"ICCLanathel";
-		"ICCValithria";
-		"ICCSindragosa";
-		"";
-		"ICCTrash25Man";
-		};
+    IcecrownCitadelB = {
+	"AshenVerdict";
+	"";
+	"";
+	"ICCFestergut";
+	"ICCRotface";
+	"ICCPutricide";
+	"ICCCouncil";
+	"";
+	"";
+	"";
+	"ICCLanathel";
+	"ICCValithria";
+	"ICCSindragosa";
+	"";
+	"";
+	"";
+	"ICCTrash25Man";
+	};
 		
-	IcecrownCitadelC = {
-		"AshenVerdict";
-		"ICCLichKing";
-		"";
-		"ICCTrash25Man";
-		};
+    IcecrownCitadelC = {
+	"AshenVerdict";
+	"ICCLichKing";
+	"";
+	"ICCTrash25Man";
+	};
 
     Naxxramas = {
         "";
@@ -235,33 +242,33 @@ AtlasLootNewBossButtons = {
         "OcuTrash";
         };
 
-	PitOfSaron = {
-		"";
-		"PoSGarfrost";
-		"PoSKrickIck";
-		"PoSKrickIck";
-		"PoSTyrannus";
-		};
+    PitOfSaron = {
+	"";
+	"PoSGarfrost";
+	"PoSKrickIck";
+	"PoSKrickIck";
+	"PoSTyrannus";
+	};
 
-	FHPitOfSaron = {
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"PoSGarfrost";
-		"";
-		"";
-		"PoSKrickIck";
-		"PoSTyrannus";
+    FHPitOfSaron = {
+	"";
+	"";
+	"";
+	"";
+	"";
+	"";
+	"";
+	"";
+	"";
+	"PoSGarfrost";
+	"";
+	"";
+	"PoSKrickIck";
+	"PoSTyrannus";
         "";
         "";
         "FHTrashMobs";
-		};
+	};
 
     TrialOfTheChampion = {
         "";

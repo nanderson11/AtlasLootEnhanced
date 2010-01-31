@@ -9721,19 +9721,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--------------------------
 
 	AtlasLoot_Data["T10DeathKnightDPS"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
 		{ 2, 50096, "", "=q4=Scourgelord Helmet", "=ds=#s1#, #a4#", "95 #eoffrost#" };
 		{ 3, 50098, "", "=q4=Scourgelord Shoulderplates", "=ds=#s3#, #a4#", "60 #eoffrost#" };
 		{ 4, 50094, "", "=q4=Scourgelord Battleplate", "=ds=#s5#, #a4#", "95 #eoffrost#" };
 		{ 5, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#", "60 #eoffrost#" };
 		{ 6, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#", "95 #eoffrost#" };
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
 		{ 9, 51127, "", "=q4=Sanctified Scourgelord Helmet", "=ds=#s1#, #a4#"};
 		{ 10, 51125, "", "=q4=Sanctified Scourgelord Shoulderplates", "=ds=#s3#, #a4#"};
 		{ 11, 51129, "", "=q4=Sanctified Scourgelord Battleplate", "=ds=#s5#, #a4#"};
 		{ 12, 51128, "", "=q4=Sanctified Scourgelord Gauntlets", "=ds=#s9#, #a4#"};
 		{ 13, 51126, "", "=q4=Sanctified Scourgelord Legplates", "=ds=#s11#, #a4#"};
-		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
 		{ 17, 51312, "", "=q4=Sanctified Scourgelord Helmet", "=ds="};
 		{ 18, 51314, "", "=q4=Sanctified Scourgelord Shoulderplates", "=ds="};
 		{ 19, 51310, "", "=q4=Sanctified Scourgelord Battleplate", "=ds="};
@@ -9743,19 +9743,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["T10DeathKnightTank"] = {
-		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
+		{ 1, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
 		{ 2, 50855, "", "=q4=Scourgelord Faceguard", "=ds=#s1#, #a4#", "95 #eoffrost#" };
 		{ 3, 50853, "", "=q4=Scourgelord Pauldrons", "=ds=#s3#, #a4#", "60 #eoffrost#" };
 		{ 4, 50857, "", "=q4=Scourgelord Chestguard", "=ds=#s5#, #a4#", "95 #eoffrost#" };
 		{ 5, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#", "60 #eoffrost#" };
 		{ 6, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#", "95 #eoffrost#" };
-		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
+		{ 8, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
 		{ 9, 51133, "", "=q4=Sanctified Scourgelord Faceguard", "=ds=#s1#, #a4#"};
 		{ 10, 51130, "", "=q4=Sanctified Scourgelord Pauldrons", "=ds=#s3#, #a4#"};
 		{ 11, 51134, "", "=q4=Sanctified Scourgelord Chestguard", "=ds=#s5#, #a4#"};
 		{ 12, 51132, "", "=q4=Sanctified Scourgelord Handguards", "=ds=#s9#, #a4#"};
 		{ 13, 51131, "", "=q4=Sanctified Scourgelord Legguards", "=ds=#s11#, #a4#"};
-		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
+		{ 16, 0, "Spell_Deathknight_DeathStrike", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
 		{ 17, 51306, "", "=q4=Sanctified Scourgelord Faceguard", "=ds="};
 		{ 18, 51309, "", "=q4=Sanctified Scourgelord Pauldrons", "=ds="};
 		{ 19, 51305, "", "=q4=Sanctified Scourgelord Chestguard", "=ds="};
