@@ -5848,7 +5848,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["ICCPutricide"] = {
 		{ 1, 51020, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
-		{ 2, 51017, "", "=q4=Cauterized Cord", "=ds=#s9#, #a1#"};
+		{ 2, 51017, "", "=q4=Cauterized Cord", "=ds=#s10#, #a1#"};
 		{ 3, 51013, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#"};
 		{ 4, 51015, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#"};
 		{ 5, 51019, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#"};
@@ -6303,7 +6303,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["ICCPutricideHEROIC"] = {
 		{ 1, 51859, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
-		{ 2, 51862, "", "=q4=Cauterized Cord", "=ds=#s9#, #a1#"};
+		{ 2, 51862, "", "=q4=Cauterized Cord", "=ds=#s10#, #a1#"};
 		{ 3, 51866, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#"};
 		{ 4, 51864, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#"};
 		{ 5, 51860, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#"};
