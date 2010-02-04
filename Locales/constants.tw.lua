@@ -1325,6 +1325,7 @@ if AL then
 	AL["Faction Champions"] = "陣營勇士"; -- if you have a better name, use it.
 	AL["Razzashi Raptor"] = "拉札希迅猛龍";
 	AL["Deviate Ravager/Deviate Guardian"] = "變異劫毀者/變異守護者";
+	AL["Krick and Ick"]  = "克瑞克與艾克";
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
