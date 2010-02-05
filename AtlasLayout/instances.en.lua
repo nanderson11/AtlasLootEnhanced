@@ -175,6 +175,7 @@ AtlasLootNewBossButtons = {
 	"";
 	"";
 	"";
+	"";
 	"ICCTrash25Man";
 	};
 		
