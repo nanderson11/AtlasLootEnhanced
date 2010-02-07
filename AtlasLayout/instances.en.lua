@@ -1456,6 +1456,11 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
+        "";
+        "Valentineday3";
+        "";
+        "";
+        "";
         "ShadowfangKeep1";
         "ShadowfangKeep2";
         "ShadowfangKeep2";
@@ -1470,7 +1475,6 @@ AtlasLootNewBossButtons = {
         "ShadowfangKeep2";
         "ShadowfangKeep2";
         "";
-		"Valentineday3";
         "ShadowfangKeep2";
         };
 
