@@ -1470,6 +1470,7 @@ AtlasLootNewBossButtons = {
         "ShadowfangKeep2";
         "ShadowfangKeep2";
         "";
+		"Valentineday3";
         "ShadowfangKeep2";
         };
 

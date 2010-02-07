@@ -565,7 +565,78 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--------------------------
 		--- Love is in the Air ---
 		--------------------------
-
+		
+	AtlasLoot_Data["Valentineday"] = {
+		{ 1, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#, 10 #valentineday#"};
+		{ 2, 21815, "", "=q1=Love Token", "=ds=", "=ds=#m20#, 1 #valentineday2#"};
+		{ 3, 50163, "", "=q1=Lovely Rose", "=ds=", "=ds=#m20#, 5 #valentineday#"};
+		{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#, 2 #valentineday#"};
+		{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#, 5 #valentineday#"};
+		{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#, 40 #valentineday#"};
+		{ 7, 21813, "", "=q1=Bag of Candies", "=ds=#m20#, 2 #valentineday#"};
+		{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#, 10 #valentineday#"};
+		{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#, 20 #valentineday#"};
+		{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#, 20 #valentineday#"};
+		{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#, 5 #valentineday#"};
+		{ 12, 22261, "", "=q1=Love Fool", "=ds=#e22#, 10 #valentineday#"};
+		{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#, 1 #valentineday#"};
+		{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#, 1 #valentineday#"};
+		{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#, 1 #valentineday#"};
+		{ 19, 49856, "", "=q1=\"VICTORY\" Perfume", "=ds=#m20#, 1 #valentineday#"};
+		{ 20, 49858, "", "=q1=\"Forever\" Perfume", "=ds=#m20#, 1 #valentineday#"};
+		{ 21, 49857, "", "=q1=\"Enchantress\" Perfume", "=ds=#m20#, 1 #valentineday#"};
+		{ 23, 21815, "", "=q1=Love Token", "=ds=#m17#"};
+		{ 24, 49916, "", "=q1=Lovely Charm Bracelet", "=ds=#m17#"};
+		Next = "Valentineday2";
+		Back = "WORLDEVENTMENU";
+	};
+	
+	AtlasLoot_Data["Valentineday2"] = {	
+		{ 1, 0, "INV_Box_02", "=q6="..AL["Lovely Dress Box"], ""};
+		{ 2, 22279, "", "=q1=Lovely Black Dress", "=ds=#s5#"};
+		{ 3, 22276, "", "=q1=Lovely Red Dress", "=ds=#s5#"};
+		{ 4, 22278, "", "=q1=Lovely Blue Dress", "=ds=#s5#"};
+		{ 5, 22280, "", "=q1=Lovely Purple Dress", "=ds=#s5#"};	
+		{ 7, 0, "INV_Box_01", "=q6="..AL["Dinner Suit Box"], ""};
+		{ 8, 22277, "", "=q1=Red Dinner Suit", "=q1=#m4#: =ds=#s5#"};
+		{ 9, 22281, "", "=q1=Blue Dinner Suit", "=q1=#m4#: =ds=#s5#"};
+		{ 10, 22282, "", "=q1=Purple Dinner Suit", "=q1=#m4#: =ds=#s5#"};	
+		{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6=#x17#", ""};
+		{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
+		{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
+		{ 19, 22236, "", "=q1=Buttermilk Deligh", "=ds=#e3#"};
+		{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};		
+		{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Candies"], ""};
+		{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 24, 21817, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 25, 21818, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 26, 21819, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 27, 21820, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 28, 21821, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 29, 21822, "", "=q1=Heart Candy", "=ds=#m20#"};
+		{ 30, 21823, "", "=q1=Heart Candy", "=ds=#m20#"};
+		Prev = "Valentineday";
+		Next = "Valentineday3";
+		Back = "WORLDEVENTMENU";
+	};
+	
+	AtlasLoot_Data["Valentineday3"] = {
+		{ 1, 51804, "", "=q5=Winking Eye of Love", "=ds=#s2#"};
+		{ 2, 51805, "", "=q5=Heartbreak Charm", "=ds=#s2#"};
+		{ 3, 51806, "", "=q5=Shard of Pirouetting Happiness", "=ds=#s2#"};
+		{ 4, 51807, "", "=q5=Sweet Perfume Broach", "=ds=#s2#"};
+		{ 5, 51808, "", "=q5=Choker of the Pure Heart", "=ds=#s2#"};
+		
+		{ 7, 49715, "", "=q3=Forever-Lovely Rose", "=ds=#s1#"};
+		{ 8, 50741, "", "=q3=Vile Fumigator's Mask", "=ds=#s1#"};
+		
+		{ 16, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
+		{ 17, 50471, "", "=q3=The Heartbreaker", "=ds=#m20#"};
+		Prev = "Valentineday2";
+		Back = "WORLDEVENTMENU";
+	};
+	
+--[[
 	AtlasLoot_Data["Valentineday"] = {
 		{ 1, 44731, "", "=q2=Bouquet of Ebon Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
 		{ 2, 22206, "", "=q2=Bouquet of Red Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
@@ -591,7 +662,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 27, 22282, "", "=q1=Purple Dinner Suit", "=q1=#m4#: =ds=#s5#"};
 		Back = "WORLDEVENTMENU";
 	};
-
+]]--
 		----------------------
 		--- Lunar Festival ---
 		----------------------

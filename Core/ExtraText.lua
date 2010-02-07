@@ -267,6 +267,7 @@ AtlasLoot_ExtraText = {
     };
     ShadowfangKeep = {
         "";
+		GREY..INDENT..AL["Love is in the Air"];
         GREY..INDENT..AL["Trash Mobs"];
     };
     TheStockade = {
