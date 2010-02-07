@@ -6036,6 +6036,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		-------------------------
 
 	AtlasLoot_Data["ICCLichKing"] = {
+		
 		Prev = "ICCSindragosa";
 		Next = "ICCTrash25Man";
 	};
@@ -6501,12 +6502,53 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--- The Frozen Throne ---
 		-------------------------
 
-	AtlasLoot_Data["ICCLichKingHEROIC"] = {
+	AtlasLoot_Data["ICCLichKing"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 51801, "", "=q4=Pugius, Fist of Defiance", "=ds=#h3#, #w13#"};
+		{ 3, 51803, "", "=q4=Tel'thas, Dagger of the Blood King", "=ds=#h3#, #w4#"};
+		{ 4, 51800, "", "=q4=Stormfury, Black Blade of the Betrayer", "=ds=#h1#, #w4#"};
+		{ 5, 51795, "", "=q4=Troggbane, Axe of the Frostborne King", "=ds=#h1#, #w1#"};
+		{ 6, 51798, "", "=q4=Valius, Gavel of the Lightbringer", "=ds=#h3#, #w6#"};
+		{ 7, 51796, "", "=q4=Warmace of Menethil", "=ds=#h2#, #w6#"};
+		{ 8, 51799, "", "=q4=Halion, Staff of Forgotten Love", "=ds=#w9#"};
+		{ 9, 51797, "", "=q4=Tainted Twig of Nordrassil", "=ds=#w9#"};
+		{ 10, 51802, "", "=q4=Windrunner's Heartseeker", "=ds=#w3#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 51941, "", "=q4=Pugius, Fist of Defiance", "=ds=#h3#, #w13#"};
+		{ 18, 51939, "", "=q4=Tel'thas, Dagger of the Blood King", "=ds=#h3#, #w4#"};
+		{ 19, 51942, "", "=q4=Stormfury, Black Blade of the Betrayer", "=ds=#h1#, #w4#"};
+		{ 20, 51947, "", "=q4=Troggbane, Axe of the Frostborne King", "=ds=#h1#, #w1#"};
+		{ 21, 51944, "", "=q4=Valius, Gavel of the Lightbringer", "=ds=#h3#, #w6#"};
+		{ 22, 51946, "", "=q4=Warmace of Menethil", "=ds=#h2#, #w6#"};
+		{ 23, 51943, "", "=q4=Halion, Staff of Forgotten Love", "=ds=#w9#"};
+		{ 24, 51945, "", "=q4=Tainted Twig of Nordrassil", "=ds=#w9#"};
+		{ 25, 51940, "", "=q4=Windrunner's Heartseeker", "=ds=#w3#"};
 		Prev = "ICCSindragosaHEROIC";
 		Next = "ICCTrash25Man";
 	};
-
-	AtlasLoot_Data["ICCLichKing25ManHEROIC"] = {
+	
+	AtlasLoot_Data["ICCLichKing25Man"] = {
+		{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+		{ 2, 50426, "", "=q4=Heaven's Fall, Kryss of a Thousand Lies", "=ds=#h1#, #w4#"};
+		{ 3, 50427, "", "=q4=Bloodsurge, Kel'Thuzad's Blade of Agony", "=ds=#h3#, #w10#"};
+		{ 4, 50070, "", "=q4=Glorenzelg, High-Blade of the Silver Hand", "=ds=#h2#, #w10#"};
+		{ 5, 50012, "", "=q4=Havoc's Call, Blade of Lordaeron Kings", "=ds=#h1#, #w1#"};
+		{ 6, 50428, "", "=q4=Royal Scepter of Terenas II", "=ds=#h3#, #w6#"};
+		{ 7, 49997, "", "=q4=Mithrios, Bronzebeard's Legacy", "=ds=#h1#, #w6#"};
+		{ 8, 50425, "", "=q4=Oathbinder, Charge of the Ranger-General", "=ds=#w7#"};
+		{ 9, 50429, "", "=q4=Archus, Greatstaff of Antonidas", "=ds=#w9#"};
+		{ 10, 49981, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#"};
+		{ 16, 0, "INV_Box_01", "=q6=#j3#", ""};
+		{ 17, 50736, "", "=q4=Heaven's Fall, Kryss of a Thousand Lies", "=ds=#h1#, #w4#"};
+		{ 18, 50732, "", "=q4=Bloodsurge, Kel'Thuzad's Blade of Agony", "=ds=#h3#, #w10#"};
+		{ 19, 50730, "", "=q4=Glorenzelg, High-Blade of the Silver Hand", "=ds=#h2#, #w10#"};
+		{ 20, 50737, "", "=q4=Havoc's Call, Blade of Lordaeron Kings", "=ds=#h1#, #w1#"};
+		{ 21, 50734, "", "=q4=Royal Scepter of Terenas II", "=ds=#h3#, #w6#"};
+		{ 22, 50738, "", "=q4=Mithrios, Bronzebeard's Legacy", "=ds=#h1#, #w6#"};
+		{ 23, 50735, "", "=q4=Oathbinder, Charge of the Ranger-General", "=ds=#w7#"};
+		{ 24, 50731, "", "=q4=Archus, Greatstaff of Antonidas", "=ds=#w9#"};
+		{ 25, 50733, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#"};
+		{ 27, 50818, "", "=q4=Invincible's Reins", "=ds=#e12#"};
 		Prev = "ICCSindragosa25ManHEROIC";
 		Next = "ICCTrash25Man";
 	};
