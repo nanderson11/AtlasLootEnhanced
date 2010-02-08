@@ -621,15 +621,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 	
 	AtlasLoot_Data["Valentineday3"] = {
-		{ 1, 51804, "", "=q5=Winking Eye of Love", "=ds=#s2#"};
-		{ 2, 51805, "", "=q5=Heartbreak Charm", "=ds=#s2#"};
-		{ 3, 51806, "", "=q5=Shard of Pirouetting Happiness", "=ds=#s2#"};
-		{ 4, 51807, "", "=q5=Sweet Perfume Broach", "=ds=#s2#"};
-		{ 5, 51808, "", "=q5=Choker of the Pure Heart", "=ds=#s2#"};
-		
+		{ 1, 51804, "", "=q4=Winking Eye of Love", "=ds=#s2#"};
+		{ 2, 51805, "", "=q4=Heartbreak Charm", "=ds=#s2#"};
+		{ 3, 51806, "", "=q4=Shard of Pirouetting Happiness", "=ds=#s2#"};
+		{ 4, 51807, "", "=q4=Sweet Perfume Broach", "=ds=#s2#"};
+		{ 5, 51808, "", "=q4=Choker of the Pure Heart", "=ds=#s2#"};
 		{ 7, 49715, "", "=q3=Forever-Lovely Rose", "=ds=#s1#"};
 		{ 8, 50741, "", "=q3=Vile Fumigator's Mask", "=ds=#s1#"};
-		
 		{ 16, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
 		{ 17, 50471, "", "=q3=The Heartbreaker", "=ds=#m20#"};
 		Prev = "Valentineday2";
