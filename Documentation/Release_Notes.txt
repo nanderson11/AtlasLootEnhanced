@@ -4,6 +4,13 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 -Daviesh
 
+v5.09.06
+Added Arena Season 8 items
+Adjusted old Arena prices
+Added Lich King loot
+Revamp of Love is in the Air Event
+Minor fixes and additions
+
 Patch Notes
 v5.09.05
 Fixed the heroic toggle
