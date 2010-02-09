@@ -630,37 +630,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 50741, "", "=q3=Vile Fumigator's Mask", "=ds=#s1#"};
 		{ 16, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
 		{ 17, 50471, "", "=q3=The Heartbreaker", "=ds=#m20#"};
+		{ 19, 50250, "", "=q4=Big Love Rocket", "=ds=#e12#"};
 		Prev = "Valentineday2";
 		Back = "WORLDEVENTMENU";
 	};
-	
---[[
-	AtlasLoot_Data["Valentineday"] = {
-		{ 1, 44731, "", "=q2=Bouquet of Ebon Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
-		{ 2, 22206, "", "=q2=Bouquet of Red Roses", "=ds=#s15# =q2=#z7#", "", "0.43%"};
-		{ 4, 0, "INV_ValentinesBoxOfChocolates02", "=q6=#x16#", ""};
-		{ 5, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#"};
-		{ 6, 22279, "", "=q1=Lovely Black Dress", "=ds=#s5#"};
-		{ 7, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#"};
-		{ 8, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#"};
-		{ 9, 22261, "", "=q1=Love Fool", "=ds=#e22#"};
-		{ 10, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#"};
-		{ 11, 21813, "", "=q1=Bag of Candies", "=ds=#m20#"};
-		{ 12, 34258, "", "=q1=Love Rocket", "=ds=#e23#"};
-		{ 16, 0, "INV_Box_02", "=q6=#x17#", ""};
-		{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
-		{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
-		{ 19, 22236, "", "=q1=Buttermilk Deligh", "=ds=#e3#"};
-		{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};
-		{ 22, 22276, "", "=q1=Lovely Red Dress", "=q1=#m4#: =ds=#s5#"};
-		{ 23, 22278, "", "=q1=Lovely Blue Dress", "=q1=#m4#: =ds=#s5#"};
-		{ 24, 22280, "", "=q1=Lovely Purple Dress", "=q1=#m4#: =ds=#s5#"};
-		{ 25, 22277, "", "=q1=Red Dinner Suit", "=q1=#m4#: =ds=#s5#"};
-		{ 26, 22281, "", "=q1=Blue Dinner Suit", "=q1=#m4#: =ds=#s5#"};
-		{ 27, 22282, "", "=q1=Purple Dinner Suit", "=q1=#m4#: =ds=#s5#"};
-		Back = "WORLDEVENTMENU";
-	};
-]]--
+
 		----------------------
 		--- Lunar Festival ---
 		----------------------
