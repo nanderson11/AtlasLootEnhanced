@@ -162,6 +162,7 @@ AtlasLootNewBossButtons = {
 	"AshenVerdict";
 	"";
 	"";
+	"";
 	"ICCFestergut";
 	"ICCRotface";
 	"ICCPutricide";
@@ -175,12 +176,12 @@ AtlasLootNewBossButtons = {
 	"";
 	"";
 	"";
-	"";
 	"ICCTrash25Man";
 	};
 		
     IcecrownCitadelC = {
 	"AshenVerdict";
+	"";
 	"ICCLichKing";
 	"";
 	"ICCTrash25Man";
