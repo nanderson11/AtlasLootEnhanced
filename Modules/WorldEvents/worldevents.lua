@@ -573,7 +573,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#, 2 #valentineday#"};
 		{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#, 5 #valentineday#"};
 		{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#, 40 #valentineday#"};
-		{ 7, 21813, "", "=q1=Bag of Candies", "=ds=#m20#, 2 #valentineday#"};
+		{ 7, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#, 2 #valentineday#"};
 		{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#, 10 #valentineday#"};
 		{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#, 20 #valentineday#"};
 		{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#, 20 #valentineday#"};
@@ -606,7 +606,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
 		{ 19, 22236, "", "=q1=Buttermilk Deligh", "=ds=#e3#"};
 		{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};		
-		{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Candies"], ""};
+		{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], ""};
 		{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};
 		{ 24, 21817, "", "=q1=Heart Candy", "=ds=#m20#"};
 		{ 25, 21818, "", "=q1=Heart Candy", "=ds=#m20#"};
