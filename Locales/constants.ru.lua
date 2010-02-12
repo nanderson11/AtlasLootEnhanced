@@ -191,7 +191,7 @@ if AL then
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
     AL["Level 80 PvP Sets"] = "80 урв PvP комплекты";
 	AL["Old Level 80 PvP Sets"] = "Старые 80 ур. PvP комплекты";
-	AL["Arena Season 7 Sets"] = "Арена комплекты 7 сезона";
+	AL["Arena Season 7/8 Sets"] = "Арена комплекты 7/8 сезона";
 	AL["PvP Class Items"] = "PvP предметы";
 
 	-- World Events

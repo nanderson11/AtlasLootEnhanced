@@ -179,7 +179,7 @@ if AL then
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Edelsteine/Verzauberungen/Rezepte";
 	AL["Level 80 PvP Sets"] = "PvP-Sets (Stufe 80)";
 	AL["Old Level 80 PvP Sets"] = "Alte PvP-Sets (Stufe 80)";
-	AL["Arena Season 7 Sets"] = "PvP-Sets (7. Arenasaison)";
+	AL["Arena Season 7/8 Sets"] = "PvP-Sets (7./8. Arenasaison)";
 	AL["PvP Class Items"] = "PvP-Gegenstände (Klassenspezifisch)";
 
 	-- World Events

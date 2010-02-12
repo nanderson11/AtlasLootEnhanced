@@ -191,7 +191,7 @@ if AL then
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes/Enchantements/Dessins de Joaillerie JcJ";
 	AL["Level 80 PvP Sets"] = "Sets JcJ niveau 80";
 	AL["Old Level 80 PvP Sets"] = "Anciens sets JcJ niveau 80";
-	AL["Arena Season 7 Sets"] = "Sets d'arène saison 7";
+	AL["Arena Season 7/8 Sets"] = "Sets d'arène saison 7/8";
 	AL["PvP Class Items"] = "Objets JcJ de classe";
 
 	-- World Events

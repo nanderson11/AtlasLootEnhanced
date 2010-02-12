@@ -69,25 +69,19 @@ AtlasLootNewBossButtons = {
         };
 		
     IcecrownStart = {
-	"";
-	"ICCLadyDeathwhisper";
-	"ICCLordMarrowgar";
-	"ICCGunshipBattle";
-	"ICCSaurfang";
-	"";
-	"";
-	"ICCTrash25Man";
-	};
+		"";
+		"ICCLadyDeathwhisper";
+		"ICCLordMarrowgar";
+		"ICCGunshipBattle";
+		"ICCSaurfang";
+		"";
+		"";
+		"ICCTrash25Man";
+		};
 
     TheEyeOfEternity = {
         "WrathKeys";
         "Malygos";
-        };
-
-    TheForgeOfSouls = {
-        "";
-        "FoSBronjahm";
-        "FoSDevourer";
         };
 
     FHTheForgeOfSouls = {
@@ -107,7 +101,7 @@ AtlasLootNewBossButtons = {
 
     FHHallsOfReflection = {
     	"";
-  	"";
+  		"";
     	"";
     	"";
     	"";
@@ -132,59 +126,52 @@ AtlasLootNewBossButtons = {
         "";
         "GundrakTrash";
         };
-        
-    HallsOfReflection = {
-	"";
-	"HoRLichKing";
-	"HoRFalric";
-	"HoRMarwyn";
-	};
 		
     IcecrownCitadelA = {
-	"AshenVerdict";
-	"";
-	"";
-	"";
-	"ICCLordMarrowgar";
-	"ICCLadyDeathwhisper";
-	"ICCGunshipBattle";
-	"ICCGunshipBattle";
-	"ICCSaurfang";
-	"";
-	"";
-	"";
-	"";
-	"";
-	"ICCTrash25Man";
-	};
+		"AshenVerdict";
+		"";
+		"";
+		"";
+		"ICCLordMarrowgar";
+		"ICCLadyDeathwhisper";
+		"ICCGunshipBattle";
+		"ICCGunshipBattle";
+		"ICCSaurfang";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"ICCTrash25Man";
+		};
 
     IcecrownCitadelB = {
-	"AshenVerdict";
-	"";
-	"";
-	"";
-	"ICCFestergut";
-	"ICCRotface";
-	"ICCPutricide";
-	"ICCCouncil";
-	"";
-	"";
-	"";
-	"ICCLanathel";
-	"ICCValithria";
-	"ICCSindragosa";
-	"";
-	"";
-	"";
-	"ICCTrash25Man";
+		"AshenVerdict";
+		"";
+		"";
+		"";
+		"ICCFestergut";
+		"ICCRotface";
+		"ICCPutricide";
+		"ICCCouncil";
+		"";
+		"";
+		"";
+		"ICCLanathel";
+		"ICCValithria";
+		"ICCSindragosa";
+		"";
+		"";
+		"";
+		"ICCTrash25Man";
 	};
 		
     IcecrownCitadelC = {
-	"AshenVerdict";
-	"";
-	"ICCLichKing";
-	"";
-	"ICCTrash25Man";
+		"AshenVerdict";
+		"";
+		"ICCLichKing";
+		"";
+		"ICCTrash25Man";
 	};
 
     Naxxramas = {
@@ -244,29 +231,21 @@ AtlasLootNewBossButtons = {
         "OcuTrash";
         };
 
-    PitOfSaron = {
-	"";
-	"PoSGarfrost";
-	"PoSKrickIck";
-	"PoSKrickIck";
-	"PoSTyrannus";
-	};
-
     FHPitOfSaron = {
-	"";
-	"";
-	"";
-	"";
-	"";
-	"";
-	"";
-	"";
-	"";
-	"PoSGarfrost";
-	"";
-	"";
-	"PoSKrickIck";
-	"PoSTyrannus";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"PoSGarfrost";
+		"";
+		"";
+		"PoSKrickIck";
+		"PoSTyrannus";
         "";
         "";
         "FHTrashMobs";
@@ -1962,12 +1941,6 @@ AtlasLootBossButtons = {
         "Malygos";
         };
 
-    TheForgeOfSouls = {
-        "";
-        "FoSBronjahm";
-        "FoSDevourer";
-        };
-
     Gundrak = {
         "";
         "";
@@ -1979,13 +1952,6 @@ AtlasLootBossButtons = {
         "";
         "GundrakTrash";
         };
-        
-	HallsOfReflection = {
-		"";
-		"HoRLichKing";
-		"HoRFalric";
-		"HoRMarwyn";
-		};
 
     Naxxramas = {
         "";
@@ -2043,14 +2009,6 @@ AtlasLootBossButtons = {
         "";
         "OcuTrash";
         };
-
-	PitOfSaron = {
-		"";
-		"PoSGarfrost";
-		"PoSKrickIck";
-		"PoSKrickIck";
-		"PoSTyrannus";
-		};
 
     TrialOfTheChampion = {
         "";

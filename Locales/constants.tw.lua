@@ -192,7 +192,7 @@ if AL then
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
 	AL["Level 80 PvP Sets"] = "等級 80 PvP 套裝";
 	AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";
-	AL["Arena Season 7 Sets"] = "競技場第七季 PvP 套裝";
+	AL["Arena Season 7/8 Sets"] = "競技場第七季 PvP 套裝";
 	AL["PvP Class Items"] = "PvP 職業物品";
 
 	--World Events

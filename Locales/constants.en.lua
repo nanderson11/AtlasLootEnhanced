@@ -192,7 +192,7 @@ if AL then
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
 	AL["Level 80 PvP Sets"] = true;
 	AL["Old Level 80 PvP Sets"] = true;
-	AL["Arena Season 7 Sets"] = true;
+	AL["Arena Season 7/8 Sets"] = true;
 	AL["PvP Class Items"] = true;
 
 	-- World Events
