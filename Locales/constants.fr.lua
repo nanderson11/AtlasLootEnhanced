@@ -1397,7 +1397,7 @@ if AL then
 	AL["Handful of Candy"] = "Poignée de bonbons";
 	AL["Lovely Dress Box"] = "Boîte de robe ravissante";
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
-	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de coeur";
+	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the
