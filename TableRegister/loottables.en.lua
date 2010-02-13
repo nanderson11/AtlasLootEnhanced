@@ -1758,7 +1758,7 @@ end
 	AtlasLoot_TableNames["LEVEL80PVPREWARDS"] = { AL["PvP Rewards (Level 80)"], "Menu" };
 	AtlasLoot_TableNames["PVP80NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
 	AtlasLoot_TableNames["LEVEL80PVPSETS"] = { AL["Old Level 80 PvP Sets"], "Menu" };
-	AtlasLoot_TableNames["LEVEL80PVPSETS2"] = { AL["Arena Season 7 Sets"], "Menu" };
+	AtlasLoot_TableNames["LEVEL80PVPSETS2"] = { AL["Arena Season 7/8 Sets"], "Menu" };
 	AtlasLoot_TableNames["70TOKENMENU"] = { AL["Badge of Justice Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFHEROISMMENU"] = { AL["Emblem of Heroism Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFVALORMENU"] = { AL["Emblem of Valor Rewards"], "Menu" };
