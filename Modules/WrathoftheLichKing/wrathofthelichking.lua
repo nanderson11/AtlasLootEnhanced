@@ -1116,7 +1116,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#", "", "15%"};
 		{ 25, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#", "", "15%"};
 		{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
-		{ 28, 52676, "", "=q4=Cache of the Ley-Guardian", "=ds="..AL["Random Heroic Reward"]};
+		{ 28, 52676, "", "=q2=Cache of the Ley-Guardian", "=ds="..AL["Random Heroic Reward"]};
 		Prev = "OcuUrom";
 		Next = "OcuTrash";
 	};
