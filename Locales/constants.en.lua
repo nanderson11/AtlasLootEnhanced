@@ -1143,6 +1143,7 @@ if AL then
 	AL["Deadly Gladiator\'s Weapons"] = true; --unused
 	AL["Furious Gladiator\'s Weapons"] = true;
 	AL["Relentless Gladiator\'s Weapons"] = true;
+	AL["Wrathful Gladiator\'s Weapons"] = true;
 
 	-- Months
 	AL["January"] = true;

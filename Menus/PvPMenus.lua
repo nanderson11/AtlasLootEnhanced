@@ -117,7 +117,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
 		{ 2, "LEVEL80PVPSETS2", "INV_Boots_01", "=ds="..AL["Arena Season 7/8 Sets"], "" };
 		{ 3, "PvP80ClassItems1", "Spell_Frost_SummonWaterElemental", "=ds="..AL["PvP Class Items"], "" };
-		{ 4, "RelentlessGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Relentless Gladiator\'s Weapons"], "" };
+		{ 4, "WrathfulGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Wrathful Gladiator\'s Weapons"], "" };
 		{ 17, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Old Level 80 PvP Sets"], "" };
 		{ 18, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
 		{ 19, "PvP80Misc", "INV_Scroll_06", "=ds="..AL["PvP Misc"], ""};
