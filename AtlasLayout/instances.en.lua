@@ -429,7 +429,7 @@ AtlasLootNewBossButtons = {
         "VaultofArchavonArchavon1";
         "VaultofArchavonEmalon1";
         "VaultofArchavonKoralon1_A";
-		"VaultofArchavonToravon1";
+	"VaultofArchavonToravon1";
         };
 
     VioletHold = {
@@ -1827,6 +1827,7 @@ if englishFaction == "Horde" then
         "VaultofArchavonArchavon1";
         "VaultofArchavonEmalon1";
         "VaultofArchavonKoralon1_H";
+	"VaultofArchavonToravon1";
         };
 else
     AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
