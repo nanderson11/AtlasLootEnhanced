@@ -194,6 +194,14 @@ end
 	AtlasLoot_TableNames["VaultofArchavonKoralon6_H25Man"] = { BabbleBoss["Koralon the Flame Watcher"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VaultofArchavonKoralon7_H25Man"] = { BabbleBoss["Koralon the Flame Watcher"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VaultofArchavonKoralon8_H25Man"] = { BabbleBoss["Koralon the Flame Watcher"].." ("..BabbleFaction["Horde"]..")", "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon1"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon2"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon3"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon4"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon5"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon6"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon7"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon8"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
   -- Naxxramas Level 80
 	AtlasLoot_TableNames["Naxx80Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
@@ -330,12 +338,12 @@ end
 	AtlasLoot_TableNames["FoSBronjahm"] = { BabbleBoss["Bronjahm"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["FoSDevourer"] = { BabbleBoss["Devourer of Souls"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["FoSDevourerHEROIC"] = { BabbleBoss["Devourer of Souls"], "AtlasLootWotLK" };
-  -- The Forge of Souls
+  -- Pit of Saron
 	AtlasLoot_TableNames["PoSGarfrost"] = { BabbleBoss["Forgemaster Garfrost"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSKrickIck"] = { AL["Krick and Ick"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSTyrannus"] = { BabbleBoss["Scourgelord Tyrannus"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PoSTyrannusHEROIC"] = { BabbleBoss["Scourgelord Tyrannus"], "AtlasLootWotLK" };
-  -- The Forge of Souls
+  -- Halls of Reflection
 	AtlasLoot_TableNames["HoRFalric"] = { BabbleBoss["Falric"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoRMarwyn"] = { BabbleBoss["Marwyn"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["HoRLichKing"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
