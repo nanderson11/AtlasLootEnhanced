@@ -202,6 +202,14 @@ end
 	AtlasLoot_TableNames["VaultofArchavonToravon6"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VaultofArchavonToravon7"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VaultofArchavonToravon8"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon125Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon225Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon325Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon425Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon525Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon625Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon725Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["VaultofArchavonToravon825Man"] = { BabbleBoss["Toravon the Ice Watcher"], "AtlasLootWotLK" };
   -- Naxxramas Level 80
 	AtlasLoot_TableNames["Naxx80Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Naxx80Patchwerk25Man"] = { BabbleBoss["Patchwerk"], "AtlasLootWotLK" };

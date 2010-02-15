@@ -828,11 +828,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
 		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
 		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_A" },
+		{ BabbleBoss["Toralon the Ice Watcher"], "VaultofArchavonToralon1" },
 	},
 	["VaultofArchavon_H"] = {
 		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
 		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
 		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_H" },
+		{ BabbleBoss["Toralon the Ice Watcher"], "VaultofArchavonToralon1" },
 	},
 	["Naxxramas80"] = {
 		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
