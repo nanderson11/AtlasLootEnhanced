@@ -3064,9 +3064,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 51361, "", "=q4=Wrathful Gladiator's Bracers of Salvation", "=ds=#s8#, #a4#"};
 		{ 18, 51359, "", "=q4=Wrathful Gladiator's Girdle of Salvation", "=ds=#s10#, #a4#"};
 		{ 19, 51360, "", "=q4=Wrathful Gladiator's Greaves of Salvation", "=ds=#s12#, #a4#"};
-		{ 20, 51364, "", "=q4=Wrathful Gladiator's Bracers of Triumph", "=ds=#s8#, #a4#"};
-		{ 21, 51362, "", "=q4=Wrathful Gladiator's Girdle of Triumph", "=ds=#s10#, #a4#"};
-		{ 22, 51363, "", "=q4=Wrathful Gladiator's Greaves of Triumph", "=ds=#s12#, #a4#"};
+		{ 21, 51364, "", "=q4=Wrathful Gladiator's Bracers of Triumph", "=ds=#s8#, #a4#"};
+		{ 22, 51362, "", "=q4=Wrathful Gladiator's Girdle of Triumph", "=ds=#s10#, #a4#"};
+		{ 23, 51363, "", "=q4=Wrathful Gladiator's Greaves of Triumph", "=ds=#s12#, #a4#"};
 		Prev = "VaultofArchavonToravon625Man";
 		Next = "VaultofArchavonToravon825Man";
 	};
