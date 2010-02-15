@@ -1138,10 +1138,11 @@ if AL then
 	AL["Gladiator's Desecration"] = "Violation de gladiateur";
 
 	-- Level 80 PvP Weapons
-	AL["Savage Gladiator\'s Weapons"] = "Armes du Gladiateur sauvage"; --unused
-	AL["Deadly Gladiator\'s Weapons"] = "Armes du Gladiateur fatal"; --unused
-	AL["Furious Gladiator\'s Weapons"] = "Armes du Gladiateur furieux";
-	AL["Relentless Gladiator\'s Weapons"] = "Armes du Gladiateur implacable";
+	AL["Savage Gladiator\'s Weapons"] = "Armes du gladiateur sauvage"; --unused
+	AL["Deadly Gladiator\'s Weapons"] = "Armes du gladiateur fatal"; --unused
+	AL["Furious Gladiator\'s Weapons"] = "Armes du gladiateur furieux";
+	AL["Relentless Gladiator\'s Weapons"] = "Armes du gladiateur implacable";
+	AL["Wrathful Gladiator\'s Weapons"] = "Armes du gladiateur courroucé";
 
 	-- Months
 	AL["January"] = "Janvier";
