@@ -1699,9 +1699,9 @@ end
 	AtlasLoot_TableNames["PVPWeapons2"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP80ClassItems1"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80ClassItems2"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["WrathfulGladiatorWeapons1"] = { AL["Relentless Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["WrathfulGladiatorWeapons2"] = { AL["Relentless Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["WrathfulGladiatorWeapons3"] = { AL["Relentless Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["WrathfulGladiatorWeapons1"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["WrathfulGladiatorWeapons2"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["WrathfulGladiatorWeapons3"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Arena2Weapons1"] = { AL["Arena Season 2 Weapons"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Arena2Weapons2"] = { AL["Arena Season 2 Weapons"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Arena3Weapons1"] = { AL["Arena Season 3 Weapons"], "AtlasLootBurningCrusade" };

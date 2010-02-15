@@ -63,7 +63,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 ---- Savage Gladiator Weapons [unused]
 ---- Deadly Gladiator Weapons [unused]
 ---- Furious Gladiator Weapons [unused]
----- Relentless Gladiator Weapons
+---- Relentless Gladiator Weapons [unused]
+---- Wrathful Gladiator Weapons
 ---- PvP Class Items
 ---- PvP Miscellaneous
 ---- World PvP - Wintergrasp
@@ -7796,7 +7797,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 		------------------------------------
-		--- Relentless Gladiator Weapons ---
+		--- Wrathful Gladiator Weapons ---
 		------------------------------------
 
 	AtlasLoot_Data["WrathfulGladiatorWeapons1"] = {

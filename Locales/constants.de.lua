@@ -1130,6 +1130,7 @@ if AL then
 	AL["Deadly Gladiator\'s Weapons"] = "Waffen des tödlichen Gladiators"; --unused
 	AL["Furious Gladiator\'s Weapons"] = "Waffen des wütenden Gladiators";
 	AL["Relentless Gladiator\'s Weapons"] = "Waffen des unerbittlichen Gladiators";
+	AL["Wrathful Gladiator\'s Weapons"] = "Waffen des zornerfüllten Gladiators";
 
 	-- Months
 	AL["January"] = "Januar";
