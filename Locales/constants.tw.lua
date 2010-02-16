@@ -1143,6 +1143,7 @@ if AL then
 	AL["Deadly Gladiator\'s Weapons"] = "致命鬥士武器";
 	AL["Furious Gladiator\'s Weapons"] = "狂烈鬥士武器";
 	AL["Relentless Gladiator\'s Weapons"] = "無情鬥士武器";
+	AL["Wrathful Gladiator\'s Weapons"] = "憤怒鬥士武器";
 
 	-- Months
 	AL["January"] = "一月";
