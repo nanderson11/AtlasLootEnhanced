@@ -8466,14 +8466,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["LakeWintergrasp5"] = {
 		{ 2, 44901, "", "=q4=Titan-Forged Plate Headcover of Salvation", "=ds=#s1#, #a4#", "40 #wintergraspmark#" };
-		{ 3, 51581, "", "=q4=Titan-Forged Plate Shoulderplates of Salvation", "=ds=#s3#, #a4#", "40 #wintergraspmark#" };
+		{ 3, 51581, "", "=q4=Titan-Forged Shoulderplates of Salvation", "=ds=#s3#, #a4#", "40 #wintergraspmark#" };
 		{ 4, 46057, "", "=q4=Titan-Forged Chestguard of Salvation", "=ds=#s5#, #a4#", "40 #wintergraspmark#" };
 		{ 5, 48977, "", "=q4=Titan-Forged Bracers of Salvation", "=ds=#s8#, #a4#", "15 #wintergraspmark#" };
 		{ 6, 46071, "", "=q4=Titan-Forged Girdle of Salvation", "=ds=#s10#, #a4#", "15 #wintergraspmark#" };
 		{ 7, 48992, "", "=q4=Titan-Forged Plate Legplates of Salvation", "=ds=#s11#, #a4#", "40 #wintergraspmark#" };
 		{ 8, 44894, "", "=q4=Titan-Forged Greaves of Salvation", "=ds=#s12#, #a4#", "15 #wintergraspmark#" };
 		{ 17, 44902, "", "=q4=Titan-Forged Plate Helm of Triumph", "=ds=#s1#, #a4#", "40 #wintergraspmark#" };
-		{ 18, 51581, "", "=q4=Titan-Forged Plate Shoulderplates of Triumph", "=ds=#s3#, #a4#", "40 #wintergraspmark#" };
+		{ 18, 51580, "", "=q4=Titan-Forged Plate Shoulderplates of Triumph", "=ds=#s3#, #a4#", "40 #wintergraspmark#" };
 		{ 19, 46058, "", "=q4=Titan-Forged Breastplate of Triumph", "=ds=#s5#, #a4#", "40 #wintergraspmark#" };
 		{ 20, 48978, "", "=q4=Titan-Forged Bracers of Triumph", "=ds=#s8#, #a4#", "15 #wintergraspmark#" };
 		{ 21, 46072, "", "=q4=Titan-Forged Girdle of Triumph", "=ds=#s10#, #a4#", "15 #wintergraspmark#" };
