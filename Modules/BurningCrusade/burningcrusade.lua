@@ -3865,7 +3865,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["PvP70Accessories1"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 2, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "40000 #alliance#"};
-		{ 3, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "22950 #alliance# 10 #eos#"};
+		{ 3, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "23000 #alliance#"};
 		{ 4, 28235, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
 		{ 5, 28237, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
 		{ 6, 28238, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
@@ -3875,11 +3875,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 30351, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
 		{ 11, 30348, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
 		{ 12, 30350, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 13, 28247, "", "=q3=Band of Dominance", "=ds=", "9547 #alliance# 10 #av#"};
-		{ 14, 28246, "", "=q3=Band of Triumph", "=ds=", "9547 #alliance# 10 #av#"};
+		{ 13, 28247, "", "=q3=Band of Dominance", "=ds=", "10000 #alliance#"};
+		{ 14, 28246, "", "=q3=Band of Triumph", "=ds=", "10000 #alliance#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 17, 37865, "", "=q4=Medallion of the Horde", "=ds=", "40000 #horde#"};
-		{ 18, 24551, "", "=q4=Talisman of the Horde", "=ds=", "22950 #horde# 10 #eos#"};
+		{ 18, 24551, "", "=q4=Talisman of the Horde", "=ds=", "23000 #horde#"};
 		{ 19, 28241, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
 		{ 20, 28243, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
 		{ 21, 28239, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
@@ -3889,8 +3889,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 30345, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
 		{ 26, 30343, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
 		{ 27, 30344, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 28, 28247, "", "=q3=Band of Dominance", "=ds=", "9547 #horde# 10 #av#"};
-		{ 29, 28246, "", "=q3=Band of Triumph", "=ds=", "9547 #horde# 10 #av#"};
+		{ 28, 28247, "", "=q3=Band of Dominance", "=ds=", "10000 #horde#"};
+		{ 29, 28246, "", "=q3=Band of Triumph", "=ds=", "10000 #horde#"};
 		Next = "PvP70Accessories2";
 		Back = "LEVEL70PVPREWARDS";
 	};
