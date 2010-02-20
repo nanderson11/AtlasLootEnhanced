@@ -408,6 +408,11 @@ end
 	AtlasLoot_TableNames["ICCSindragosa25ManHEROIC"] = { BabbleBoss["Sindragosa"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCLichKingHEROIC"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCLichKing25ManHEROIC"] = { BabbleBoss["The Lich King"], "AtlasLootWotLK" };
+  -- Ruby Sanctum
+  	AtlasLoot_TableNames["Halion"] = { "Halion", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["HalionHEROIC"] = { "Halion", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["Halion25Man"] = { "Halion", "AtlasLootWotLK" };
+  	AtlasLoot_TableNames["Halion25ManHEROIC"] = { "Halion", "AtlasLootWotLK" };
 
 --------------------
 --- BC Instances ---

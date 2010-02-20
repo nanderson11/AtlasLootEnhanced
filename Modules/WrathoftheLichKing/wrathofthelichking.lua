@@ -44,6 +44,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 ----- Frostwing Halls
 ----- The Frozen Throne
 ---- Icecrown Citadel HEROIC
+---- Ruby Sanctum
 --- Factions
 ---- Alliance Vanguard
 ---- Argent Crusade
@@ -6966,6 +6967,22 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
 		Prev = "ICCSindragosa25ManHEROIC";
 		Next = "ICCTrash25Man";
+	};
+
+		--------------------
+		--- Ruby Sanctum ---
+		--------------------
+
+	AtlasLoot_Data["Halion"] = {
+	};
+
+	AtlasLoot_Data["Halion25Man"] = {
+	};
+
+	AtlasLoot_Data["HalionHEROIC"] = {
+	};
+
+	AtlasLoot_Data["Halion25ManHEROIC"] = {
 	};
 
 	----------------

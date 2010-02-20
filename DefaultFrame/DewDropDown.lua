@@ -195,46 +195,49 @@ AtlasLoot_DewDropDown = {
             [12] = {
 				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
 			},
-			[13] = {
+            [13] = {
+				{ "Ruby Sanctum", "Halion", "Table" },
+			},
+			[14] = {
 				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
 			},
-            [14] = {
+            [15] = {
 				{ BabbleZone["The Forge of Souls"], "ForgeofSouls", "Submenu" },
 			},
-			[15] = {
+			[16] = {
 				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
 			},
-			[16] = {
+			[17] = {
 				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
 			},
-			[17] = {
+			[18] = {
 				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
 			},
-			[18] = {
+			[19] = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
-			[19] = {
+			[20] = {
 				[BabbleZone["Trial of the Crusader"]] = {
 					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
 					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
 				},
 			},
-			[20] = {
+			[21] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
 			},
-			[21] = {
+			[22] = {
 				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
 			},
-			[22] = {
+			[23] = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
-			[23] = {
+			[24] = {
 				[BabbleZone["Vault of Archavon"]] = {
 					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
 					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
 				},
 			},
-			[24] = {
+			[25] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
 			},
 		},
