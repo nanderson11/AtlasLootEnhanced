@@ -194,6 +194,7 @@ if AL then
 	AL["Old Level 80 PvP Sets"] = true;
 	AL["Arena Season 7/8 Sets"] = true;
 	AL["PvP Class Items"] = true;
+	AL["NOT AVAILABLE ANYMORE"] = true;
 
 	-- World Events
 	AL["Abyssal Council"] = true;

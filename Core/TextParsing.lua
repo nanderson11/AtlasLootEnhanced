@@ -169,6 +169,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m33#", AL["Old Quest Item"]);
     text = gsub(text, "#m34#", AL["Old Quest Reward"]);
     text = gsub(text, "#m35#", AL["Tier 3"]);
+    text = gsub(text, "#m36#", AL["NOT AVAILABLE ANYMORE"]);
 
     -- Misc
     text = gsub(text, "#j1#", AL["Normal Mode"]);
