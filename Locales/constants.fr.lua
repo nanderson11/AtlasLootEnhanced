@@ -193,6 +193,7 @@ if AL then
 	AL["Old Level 80 PvP Sets"] = "Anciens sets JcJ niveau 80";
 	AL["Arena Season 7/8 Sets"] = "Sets d'arène saison 7/8";
 	AL["PvP Class Items"] = "Objets JcJ de classe";
+	AL["NOT AVAILABLE ANYMORE"] = "N'EST PLUS DISPONIBLE";
 
 	-- World Events
 	AL["Abyssal Council"] = "Conseil abyssal";
