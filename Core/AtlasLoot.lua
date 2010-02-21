@@ -489,25 +489,49 @@ Returns: HeroicCheck, HeroicdataID, NonHeroicdataID, BigraidCheck, BigraiddataID
 function AtlasLoot_GetLoottableHeroic(dataID)
 	local NormalID, HeroicID, Normal25ID, Heroic25ID = nil,nil,nil,nil
 	local dataSource = AtlasLoot_Data
-	-- remove all Heroic etc infos from the dataID
-	dataID = gsub(dataID, "HEROIC", "")
-	dataID = gsub(dataID, "25Man", "")
-	dataID = gsub(dataID, "25ManHEROIC", "")
+	local englishFaction = UnitFactionGroup("player")
+	-- remove all Heroic etc infos from the dataID**
+	dataID = gsub(dataID, "_H", "")				-- Horde
+	dataID = gsub(dataID, "_A", "")				-- Alliance
+	dataID = gsub(dataID, "HEROIC", "")			-- Hero Table (10)
+	dataID = gsub(dataID, "25Man", "")			-- 25 Man Table
+	dataID = gsub(dataID, "25ManHEROIC", "")	-- Heroic Table (25)
+	
 	-- dataID from normal <return>
 	-- Check tables if Heroic etc exists
-	if dataSource[dataID] then
+	if dataSource[dataID] or dataSource[dataID.."_H"] or dataSource[dataID.."_A"] then
 		NormalID = dataID
+		if englishFaction == "Horde" and dataSource[NormalID.."_H"] then
+			NormalID = NormalID.."_H"
+		elseif englishFaction ~= "Horde" and dataSource[NormalID.."_A"] then
+			NormalID = NormalID.."_A"
+		end
 	end
-	if dataSource[dataID.."HEROIC"] then
+	if dataSource[dataID.."HEROIC"] or dataSource[dataID.."HEROIC".."_H"] or dataSource[dataID.."HEROIC".."_A"] then
 		HeroicID = dataID.."HEROIC"
+		if englishFaction == "Horde" and dataSource[HeroicID.."_H"] then
+			HeroicID = HeroicID.."_H"
+		elseif englishFaction ~= "Horde" and dataSource[HeroicID.."_A"] then
+			HeroicID = HeroicID.."_A"
+		end
 	end
-	if dataSource[dataID.."25Man"] then
+	if dataSource[dataID.."25Man"] or dataSource[dataID.."25Man".."_H"] or dataSource[dataID.."25Man".."_A"] then
 		Normal25ID = dataID.."25Man"
+		if englishFaction == "Horde" and dataSource[Normal25ID.."_H"] then
+			Normal25ID = Normal25ID.."_H"
+		elseif englishFaction ~= "Horde" and dataSource[Normal25ID.."_A"] then
+			Normal25ID = Normal25ID.."_A"
+		end
 	end
-	if dataSource[dataID.."25ManHEROIC"] then
+	if dataSource[dataID.."25ManHEROIC"] or dataSource[dataID.."25ManHEROIC".."_H"] or dataSource[dataID.."25ManHEROIC".."_A"] then
 		Heroic25ID = dataID.."25ManHEROIC"
+		if englishFaction == "Horde" and dataSource[Heroic25ID.."_H"] then
+			Heroic25ID = Heroic25ID.."_H"
+		elseif englishFaction ~= "Horde" and dataSource[Heroic25ID.."_A"] then
+			Heroic25ID = Heroic25ID.."_A"
+		end
 	end
-	
+
 	return NormalID, HeroicID, Normal25ID, Heroic25ID
 end
 
