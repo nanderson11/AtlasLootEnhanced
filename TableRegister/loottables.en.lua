@@ -1314,8 +1314,8 @@ end
   --- Noblegarden
 	AtlasLoot_TableNames["Noblegarden"] = { AL["Noblegarden"], "AtlasLootWorldEvents" };
   --- Pilgrim's Bounty
-	AtlasLoot_TableNames["PilgrimsBountyA"] = { AL["Pilgrim's Bounty"]..": "..BabbleFaction["Alliance"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["PilgrimsBountyH"] = { AL["Pilgrim's Bounty"]..": "..BabbleFaction["Horde"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["PilgrimsBounty_A"] = { AL["Pilgrim's Bounty"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["PilgrimsBounty_H"] = { AL["Pilgrim's Bounty"], "AtlasLootWorldEvents" };
   -- Skettis
 	AtlasLoot_TableNames["DarkscreecherAkkarai"] = { AL["Darkscreecher Akkarai"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Karrog"] = { AL["Karrog"], "AtlasLootWorldEvents" };
@@ -1785,7 +1785,6 @@ end
 	AtlasLoot_TableNames["ARGENTMENU"] = { AL["Argent Tournament"], "Menu" };
 	AtlasLoot_TableNames["DARKMOONMENU"] = { BabbleFaction["Darkmoon Faire"], "Menu" };
 	AtlasLoot_TableNames["ETHEREUMMENU"] = { AL["Ethereum Prison"], "Menu" };
-	AtlasLoot_TableNames["PILGRIMSBOUNTYMENU"] = { AL["Pilgrim's Bounty"], "Menu" };
 	AtlasLoot_TableNames["SKETTISMENU"] = { AL["Skettis"], "Menu" };
 	AtlasLoot_TableNames["CRAFTINGMENU"] = { AL["Crafting"], "Menu" };
 	AtlasLoot_TableNames["ALCHEMYMENU"] = { ALCHEMY, "Menu" };

@@ -761,7 +761,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--- Pilgrim's Bounty ---
 		------------------------
 
-	AtlasLoot_Data["PilgrimsBountyA"] = {
+	AtlasLoot_Data["PilgrimsBounty_A"] = {
 		{ 1, 46809, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
 		{ 2, 44860, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
 		{ 3, 44862, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};
@@ -785,7 +785,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "PILGRIMSBOUNTYMENU";
 	};
 
-	AtlasLoot_Data["PilgrimsBountyH"] = {
+	AtlasLoot_Data["PilgrimsBounty_H"] = {
 		{ 1, 46810, "", "=q2=Bountiful Cookbook", "=ds=#p3# #e10# (1)"};
 		{ 2, 46803, "", "=q1=Recipe: Spice Bread Stuffing", "=ds=#p3# (1)"};
 		{ 3, 46804, "", "=q1=Recipe: Pumpkin Pie", "=ds=#p3# (100)"};

@@ -11,7 +11,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, "Halloween1", "INV_Misc_Bag_28_Halloween", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
 		{ 6, "Valentineday", "INV_ValentinesBoxOfChocolates02", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};
 		{ 7, "MidsummerFestival", "INV_SummerFest_FireFlower", "=ds="..AL["Midsummer Fire Festival"], "=q5="..AL["Various Locations"]};
-		{ 8, "PILGRIMSBOUNTYMENU", "inv_helmet_65", "=ds="..AL["Pilgrim's Bounty"], "=q5="..AL["Various Locations"]};
+		{ 8, "PilgrimsBounty_H", "inv_helmet_65", "=ds="..AL["Pilgrim's Bounty"], "=q5="..AL["Various Locations"]};
 		{ 10, "BashirLanding", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Skyguard Raid"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
 		{ 11, "GurubashiArena", "INV_Box_02", "=ds="..AL["Gurubashi Arena Booty Run"], "=q5="..BabbleZone["Stranglethorn Vale"]};
 		{ 12, "Shartuul", "INV_Misc_Rune_04", "=ds="..AL["Shartuul"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
@@ -45,12 +45,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "Darkmoon3", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Original and BC Trinkets"], ""};
 		{ 17, "Darkmoon2", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};
 		{ 18, "Darkmoon4", "INV_Inscription_TarotGreatness", "=ds="..AL["WotLK Trinkets"], ""};
-		Back = "WORLDEVENTMENU";
-	};
-
-	AtlasLoot_Data["PILGRIMSBOUNTYMENU"] = {
-		{ 2, "PilgrimsBountyA", "inv_helmet_65", "=ds="..BabbleFaction["Alliance"], ""};
-		{ 17, "PilgrimsBountyH", "inv_helmet_65", "=ds="..BabbleFaction["Horde"], ""};
 		Back = "WORLDEVENTMENU";
 	};
 
