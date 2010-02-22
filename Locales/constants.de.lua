@@ -181,6 +181,7 @@ if AL then
 	AL["Old Level 80 PvP Sets"] = "Alte PvP-Sets (Stufe 80)";
 	AL["Arena Season 7/8 Sets"] = "PvP-Sets (7./8. Arenasaison)";
 	AL["PvP Class Items"] = "PvP-Gegenstände (Klassenspezifisch)";
+	AL["NOT AVAILABLE ANYMORE"] = "NICHT MEHR VERFÜGBAR";
 
 	-- World Events
 	AL["Abyssal Council"] = "Abyssischer Rat";
