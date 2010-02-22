@@ -3926,41 +3926,25 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "21000 #faction#"};
 		{ 6, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "21000 #faction#"};
 		{ 7, 44429, "", "=q4=Volanthius Shroud", "=ds=", "21000 #faction#"};
+		{ 9, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "16000 #faction#"};
+		{ 10, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "16000 #faction#"};
+		{ 11, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "16000 #faction#"};
+		{ 12, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "16000 #faction#"};
 		{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "16000 #faction#"};
 		{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "16000 #faction#"};
 		{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "16000 #faction#"};
 		{ 19, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=", "16000 #faction#"};
 		{ 20, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=", "16000 #faction#"};
 		{ 21, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=", "16000 #faction#"};
-		{ 23, 33920, "", "=q4=Vindicator's Pendant of Conquest", "=ds=", "12000 #faction#"};
-		{ 24, 33921, "", "=q4=Vindicator's Pendant of Dominance", "=ds=", "12000 #faction#"};
-		{ 25, 35317, "", "=q4=Vindicator's Pendant of Reprieve", "=ds=", "12000 #faction#"};
-		{ 26, 33922, "", "=q4=Vindicator's Pendant of Salvation", "=ds=", "12000 #faction#"};
-		{ 27, 35319, "", "=q4=Vindicator's Pendant of Subjugation", "=ds=", "12000 #faction#"};
-		{ 28, 33923, "", "=q4=Vindicator's Pendant of Triumph", "=ds=", "12000 #faction#"};
+		{ 23, 41588, "", "=q4=Battlemaster's Aggression", "=ds=", "36000 #faction#"};
+		{ 24, 41587, "", "=q4=Battlemaster's Celerity", "=ds=", "36000 #faction#"};
+		{ 25, 41590, "", "=q4=Battlemaster's Courage", "=ds=", "36000 #faction#"};
+		{ 26, 41589, "", "=q4=Battlemaster's Resolve", "=ds=", "36000 #faction#"};
 		Next = "PvP70NonSet2";
 		Back = "PVP70NONSETEPICS";
 	};
 
 	AtlasLoot_Data["PvP70NonSet2"] = {
-		{ 1, 41588, "", "=q4=Battlemaster's Aggression", "=ds=", "36000 #faction#"};
-		{ 2, 41587, "", "=q4=Battlemaster's Celerity", "=ds=", "36000 #faction#"};
-		{ 3, 41590, "", "=q4=Battlemaster's Courage", "=ds=", "36000 #faction#"};
-		{ 4, 41589, "", "=q4=Battlemaster's Resolve", "=ds=", "36000 #faction#"};
-		{ 16, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "16000 #faction#"};
-		{ 17, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "16000 #faction#"};
-		{ 18, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "16000 #faction#"};
-		{ 19, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "16000 #faction#"};
-		{ 21, 33853, "", "=q4=Vindicator's Band of Dominance", "=ds=", "11934 #faction# 10 #av#"};
-		{ 22, 33918, "", "=q4=Vindicator's Band of Salvation", "=ds=", "11934 #faction# 10 #av#"};
-		{ 23, 33919, "", "=q4=Vindicator's Band of Triumph", "=ds=", "11934 #faction# 10 #av#"};
-		{ 24, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "11934 #faction# 10 #av#"};
-		Prev = "PvP70NonSet1";
-		Next = "PvP70NonSet3";
-		Back = "PVP70NONSETEPICS";
-	};
-
-	AtlasLoot_Data["PvP70NonSet3"] = {
 		{ 1, 35168, "", "=q4=Guardian's Dreadweave Cuffs", "=ds=", "13000 #faction#"};
 		{ 2, 35153, "", "=q4=Guardian's Dreadweave Belt", "=ds=", "18000 #faction#"};
 		{ 3, 35138, "", "=q4=Guardian's Dreadweave Stalkers", "=ds=", "18000 #faction#"};
@@ -3982,12 +3966,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 35180, "", "=q4=Guardian's Wyrmhide Bracers", "=ds=", "13000 #faction#"};
 		{ 29, 35165, "", "=q4=Guardian's Wyrmhide Belt", "=ds=", "18000 #faction#"};
 		{ 30, 35150, "", "=q4=Guardian's Wyrmhide Boots", "=ds=", "18000 #faction#"};
-		Prev = "PvP70NonSet2";
-		Next = "PvP70NonSet4";
+		Prev = "PvP70NonSet1";
+		Next = "PvP70NonSet3";
 		Back = "PVP70NONSETEPICS";
 	};
 
-	AtlasLoot_Data["PvP70NonSet4"] = {
+	AtlasLoot_Data["PvP70NonSet3"] = {
 		{ 1, 35166, "", "=q4=Guardian's Chain Bracers", "=ds=", "13000 #faction#"};
 		{ 2, 35151, "", "=q4=Guardian's Chain Girdle", "=ds=", "18000 #faction#"};
 		{ 3, 35136, "", "=q4=Guardian's Chain Sabatons", "=ds=", "18000 #faction#"};
@@ -4012,7 +3996,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 35178, "", "=q4=Guardian's Scaled Bracers", "=ds=", "13000 #faction#"};
 		{ 29, 35163, "", "=q4=Guardian's Scaled Belt", "=ds=", "18000 #faction#"};
 		{ 30, 35148, "", "=q4=Guardian's Scaled Greaves", "=ds=", "18000 #faction#"};
-		Prev = "PvP70NonSet3";
+		Prev = "PvP70NonSet2";
 		Back = "PVP70NONSETEPICS";
 	};
 
@@ -4496,7 +4480,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "ARENASET";
 	};
 
-		--------------------------------
+[[		--------------------------------
 		--- Arena Season 2 - Weapons ---
 		--------------------------------
 
@@ -4604,7 +4588,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 33843, "", "=q4=Vengeful Gladiator's Totem of the Third Wind", "=ds=", "800 #arena#", ""};
 		Prev = "Arena3Weapons1";
 		Back = "LEVEL70PVPREWARDS";
-	};
+	};]]
 
 		--------------------------------
 		--- Arena Season 4 - Weapons ---

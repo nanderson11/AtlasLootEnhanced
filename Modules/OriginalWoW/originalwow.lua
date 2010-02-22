@@ -5678,59 +5678,53 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--- PvP Level 60 Weapons ---
 		----------------------------
 
-	AtlasLoot_Data["PVPWeapons1"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 18843, "", "=q4=Grand Marshal's Right Hand Blade", "=ds=#h3#, #w13#", "13000 #alliance#", ""};
-		{ 3, 18847, "", "=q4=Grand Marshal's Left Hand Blade", "=ds=#h4#, #w13#", "13000 #alliance#", ""};
-		{ 4, 23451, "", "=q4=Grand Marshal's Mageblade", "=ds=#h4#, #w4#", "13000 #alliance#", ""};
-		{ 5, 18838, "", "=q4=Grand Marshal's Dirk", "=ds=#h1#, #w4#", "13000 #alliance#", ""};
-		{ 6, 12584, "", "=q4=Grand Marshal's Longsword", "=ds=#h1#, #w10#", "13000 #alliance#", ""};
-		{ 7, 23456, "", "=q4=Grand Marshal's Swiftblade", "=ds=#h1#, #w10#", "13000 #alliance#", ""};
-		{ 8, 18876, "", "=q4=Grand Marshal's Claymore", "=ds=#h2#, #w10#", "25000 #alliance#", ""};
-		{ 9, 18827, "", "=q4=Grand Marshal's Handaxe", "=ds=#h1#, #w1#", "13000 #alliance#", ""};
-		{ 10, 18830, "", "=q4=Grand Marshal's Sunderer", "=ds=#h2#, #w1#", "25000 #alliance#", ""};
-		{ 11, 23454, "", "=q4=Grand Marshal's Warhammer", "=ds=#h3#, #w6#", "13000 #alliance#", ""};
-		{ 12, 18865, "", "=q4=Grand Marshal's Punisher", "=ds=#h1#, #w6#", "13000 #alliance#", ""};
-		{ 13, 18867, "", "=q4=Grand Marshal's Battle Hammer", "=ds=#h2#, #w6#", "25000 #alliance#", ""};
-		{ 14, 23455, "", "=q4=Grand Marshal's Demolisher", "=ds=#h2#, #w6#", "25000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 18844, "", "=q4=High Warlord's Right Claw", "=ds=#h3#, #w13#", "13000 #horde#", ""};
-		{ 18, 18848, "", "=q4=High Warlord's Left Claw", "=ds=#h4#, #w13#", "13000 #horde#", ""};
-		{ 19, 23466, "", "=q4=High Warlord's Spellblade", "=ds=#h4#, #w4#", "13000 #horde#", ""};
-		{ 20, 18840, "", "=q4=High Warlord's Razor", "=ds=#h1#, #w4#", "13000 #horde#", ""};
-		{ 21, 16345, "", "=q4=High Warlord's Blade", "=ds=#h1#, #w10#", "13000 #horde#", ""};
-		{ 22, 23467, "", "=q4=High Warlord's Quickblade", "=ds=#h1#, #w10#", "13000 #horde#", ""};
-		{ 23, 18877, "", "=q4=High Warlord's Greatsword", "=ds=#h2#, #w10#", "25000 #horde#", ""};
-		{ 24, 18828, "", "=q4=High Warlord's Cleaver", "=ds=#h1#, #w1#", "13000 #horde#", ""};
-		{ 25, 18831, "", "=q4=High Warlord's Battle Axe", "=ds=#h2#, #w1#", "25000 #horde#", ""};
-		{ 26, 23464, "", "=q4=High Warlord's Battle Mace", "=ds=#h3#, #w6#", "13000 #horde#", ""};
-		{ 27, 18866, "", "=q4=High Warlord's Bludgeon", "=ds=#h1#, #w6#", "13000 #horde#", ""};
-		{ 28, 18868, "", "=q4=High Warlord's Pulverizer", "=ds=#h2#, #w6#", "25000 #horde#", ""};
-		{ 29, 23465, "", "=q4=High Warlord's Destroyer", "=ds=#h2#, #w6#", "25000 #horde#", ""};
-		Next = "PVPWeapons2";
+	AtlasLoot_Data["PVPWeapons_A"] = {
+		{ 1, 18843, "", "=q4=Grand Marshal's Right Hand Blade", "=ds=#h3#, #w13#", "13000 #alliance#", ""};
+		{ 2, 18847, "", "=q4=Grand Marshal's Left Hand Blade", "=ds=#h4#, #w13#", "13000 #alliance#", ""};
+		{ 3, 23451, "", "=q4=Grand Marshal's Mageblade", "=ds=#h4#, #w4#", "13000 #alliance#", ""};
+		{ 4, 18838, "", "=q4=Grand Marshal's Dirk", "=ds=#h1#, #w4#", "13000 #alliance#", ""};
+		{ 5, 12584, "", "=q4=Grand Marshal's Longsword", "=ds=#h1#, #w10#", "13000 #alliance#", ""};
+		{ 6, 23456, "", "=q4=Grand Marshal's Swiftblade", "=ds=#h1#, #w10#", "13000 #alliance#", ""};
+		{ 7, 18876, "", "=q4=Grand Marshal's Claymore", "=ds=#h2#, #w10#", "25000 #alliance#", ""};
+		{ 8, 18827, "", "=q4=Grand Marshal's Handaxe", "=ds=#h1#, #w1#", "13000 #alliance#", ""};
+		{ 9, 18830, "", "=q4=Grand Marshal's Sunderer", "=ds=#h2#, #w1#", "25000 #alliance#", ""};
+		{ 10, 23454, "", "=q4=Grand Marshal's Warhammer", "=ds=#h3#, #w6#", "13000 #alliance#", ""};
+		{ 11, 18865, "", "=q4=Grand Marshal's Punisher", "=ds=#h1#, #w6#", "13000 #alliance#", ""};
+		{ 12, 18867, "", "=q4=Grand Marshal's Battle Hammer", "=ds=#h2#, #w6#", "25000 #alliance#", ""};
+		{ 13, 23455, "", "=q4=Grand Marshal's Demolisher", "=ds=#h2#, #w6#", "25000 #alliance#", ""};
+		{ 14, 18869, "", "=q4=Grand Marshal's Glaive", "=ds=#w7#", "25000 #alliance#", ""};
+		{ 15, 18873, "", "=q4=Grand Marshal's Stave", "=ds=#w9#", "25000 #alliance#", ""};
+		{ 16, 18825, "", "=q4=Grand Marshal's Aegis", "=ds=#w8#", "13000 #alliance#", ""};
+		{ 17, 18833, "", "=q4=Grand Marshal's Bullseye", "=ds=#w2#", "13000 #alliance#", ""};
+		{ 18, 18836, "", "=q4=Grand Marshal's Repeater", "=ds=#w3#", "13000 #alliance#", ""};
+		{ 19, 18855, "", "=q4=Grand Marshal's Hand Cannon", "=ds=#w5#", "13000 #alliance#", ""};
+		{ 20, 23452, "", "=q4=Grand Marshal's Tome of Power", "=ds=#s15#", "13000 #alliance#", ""};
+		{ 21, 23453, "", "=q4=Grand Marshal's Tome of Restoration", "=ds=#s15#", "13000 #alliance#", ""};
 		Back = "LEVEL60PVPREWARDS";
 	};
 
-	AtlasLoot_Data["PVPWeapons2"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 18869, "", "=q4=Grand Marshal's Glaive", "=ds=#w7#", "25000 #alliance#", ""};
-		{ 3, 18873, "", "=q4=Grand Marshal's Stave", "=ds=#w9#", "25000 #alliance#", ""};
-		{ 4, 18825, "", "=q4=Grand Marshal's Aegis", "=ds=#w8#", "13000 #alliance#", ""};
-		{ 5, 18833, "", "=q4=Grand Marshal's Bullseye", "=ds=#w2#", "13000 #alliance#", ""};
-		{ 6, 18836, "", "=q4=Grand Marshal's Repeater", "=ds=#w3#", "13000 #alliance#", ""};
-		{ 7, 18855, "", "=q4=Grand Marshal's Hand Cannon", "=ds=#w5#", "13000 #alliance#", ""};
-		{ 8, 23452, "", "=q4=Grand Marshal's Tome of Power", "=ds=#s15#", "13000 #alliance#", ""};
-		{ 9, 23453, "", "=q4=Grand Marshal's Tome of Restoration", "=ds=#s15#", "13000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 18871, "", "=q4=High Warlord's Pig Sticker", "=ds=#w7#", "25000 #horde#", ""};
-		{ 18, 18874, "", "=q4=High Warlord's War Staff", "=ds=#w9#", "25000 #horde#", ""};
-		{ 19, 18826, "", "=q4=High Warlord's Shield Wall", "=ds=#w8#", "13000 #horde#", ""};
-		{ 20, 18835, "", "=q4=High Warlord's Recurve", "=ds=#w2#", "13000 #horde#", ""};
-		{ 21, 18837, "", "=q4=High Warlord's Crossbow", "=ds=#w3#", "13000 #horde#", ""};
-		{ 22, 18860, "", "=q4=High Warlord's Street Sweeper", "=ds=#w5#", "13000 #horde#", ""};
-		{ 23, 23468, "", "=q4=High Warlord's Tome of Destruction", "=ds=#s15#", "13000 #horde#", ""};
-		{ 24, 23469, "", "=q4=High Warlord's Tome of Mending", "=ds=#s15#", "13000 #horde#", ""};
-		Prev = "PVPWeapons1";
+	AtlasLoot_Data["PVPWeapons_H"] = {
+		{ 1, 18844, "", "=q4=High Warlord's Right Claw", "=ds=#h3#, #w13#", "13000 #horde#", ""};
+		{ 2, 18848, "", "=q4=High Warlord's Left Claw", "=ds=#h4#, #w13#", "13000 #horde#", ""};
+		{ 3, 23466, "", "=q4=High Warlord's Spellblade", "=ds=#h4#, #w4#", "13000 #horde#", ""};
+		{ 4, 18840, "", "=q4=High Warlord's Razor", "=ds=#h1#, #w4#", "13000 #horde#", ""};
+		{ 5, 16345, "", "=q4=High Warlord's Blade", "=ds=#h1#, #w10#", "13000 #horde#", ""};
+		{ 6, 23467, "", "=q4=High Warlord's Quickblade", "=ds=#h1#, #w10#", "13000 #horde#", ""};
+		{ 7, 18877, "", "=q4=High Warlord's Greatsword", "=ds=#h2#, #w10#", "25000 #horde#", ""};
+		{ 8, 18828, "", "=q4=High Warlord's Cleaver", "=ds=#h1#, #w1#", "13000 #horde#", ""};
+		{ 9, 18831, "", "=q4=High Warlord's Battle Axe", "=ds=#h2#, #w1#", "25000 #horde#", ""};
+		{ 10, 23464, "", "=q4=High Warlord's Battle Mace", "=ds=#h3#, #w6#", "13000 #horde#", ""};
+		{ 11, 18866, "", "=q4=High Warlord's Bludgeon", "=ds=#h1#, #w6#", "13000 #horde#", ""};
+		{ 12, 18868, "", "=q4=High Warlord's Pulverizer", "=ds=#h2#, #w6#", "25000 #horde#", ""};
+		{ 13, 23465, "", "=q4=High Warlord's Destroyer", "=ds=#h2#, #w6#", "25000 #horde#", ""};
+		{ 14, 18871, "", "=q4=High Warlord's Pig Sticker", "=ds=#w7#", "25000 #horde#", ""};
+		{ 15, 18874, "", "=q4=High Warlord's War Staff", "=ds=#w9#", "25000 #horde#", ""};
+		{ 16, 18826, "", "=q4=High Warlord's Shield Wall", "=ds=#w8#", "13000 #horde#", ""};
+		{ 17, 18835, "", "=q4=High Warlord's Recurve", "=ds=#w2#", "13000 #horde#", ""};
+		{ 18, 18837, "", "=q4=High Warlord's Crossbow", "=ds=#w3#", "13000 #horde#", ""};
+		{ 19, 18860, "", "=q4=High Warlord's Street Sweeper", "=ds=#w5#", "13000 #horde#", ""};
+		{ 20, 23468, "", "=q4=High Warlord's Tome of Destruction", "=ds=#s15#", "13000 #horde#", ""};
+		{ 21, 23469, "", "=q4=High Warlord's Tome of Mending", "=ds=#s15#", "13000 #horde#", ""};
 		Back = "LEVEL60PVPREWARDS";
 	};
 
