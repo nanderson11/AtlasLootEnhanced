@@ -4480,7 +4480,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "ARENASET";
 	};
 
-[[		--------------------------------
+--[[		--------------------------------
 		--- Arena Season 2 - Weapons ---
 		--------------------------------
 
@@ -4588,67 +4588,67 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 33843, "", "=q4=Vengeful Gladiator's Totem of the Third Wind", "=ds=", "800 #arena#", ""};
 		Prev = "Arena3Weapons1";
 		Back = "LEVEL70PVPREWARDS";
-	};]]
+	};]]--
 
 		--------------------------------
 		--- Arena Season 4 - Weapons ---
 		--------------------------------
 
 	AtlasLoot_Data["Arena4Weapons1"] = {
-		{ 1, 35076, "", "=q4=Brutal Gladiator's Right Ripper", "=ds=", "2625 #arena# #reqrating# 2050", ""};
-		{ 2, 35038, "", "=q4=Brutal Gladiator's Left Ripper", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 3, 35037, "", "=q4=Brutal Gladiator's Left Render", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 4, 35102, "", "=q4=Brutal Gladiator's Spellblade", "=ds=", "3150 #arena# #reqrating# 2050", ""};
-		{ 5, 37739, "", "=q4=Brutal Gladiator's Blade of Alacrity", "=ds=", "3150 #arena# #reqrating# 2050", ""};
-		{ 6, 35093, "", "=q4=Brutal Gladiator's Shanker", "=ds=", "2625 #arena# #reqrating# 2050", ""};
-		{ 7, 35058, "", "=q4=Brutal Gladiator's Mutilator", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 8, 35095, "", "=q4=Brutal Gladiator's Shiv", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 9, 35101, "", "=q4=Brutal Gladiator's Slicer", "=ds=", "2625 #arena# #reqrating# 2050", ""};
-		{ 10, 35072, "", "=q4=Brutal Gladiator's Quickblade", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 11, 35015, "", "=q4=Brutal Gladiator's Greatsword", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 12, 34996, "", "=q4=Brutal Gladiator's Cleaver", "=ds=", "2625 #arena# #reqrating# 2050", ""};
-		{ 13, 34995, "", "=q4=Brutal Gladiator's Chopper", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 14, 36737, "", "=q4=Brutal Gladiator's Hatchet", "=ds=", "1000 #arena# #reqrating# 2050", ""};
-		{ 15, 35017, "", "=q4=Brutal Gladiator's Hacker", "=ds=", "1125 #arena# #reqrating# 2050", ""};
-		{ 16, 34997, "", "=q4=Brutal Gladiator's Decapitator", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 17, 35110, "", "=q4=Brutal Gladiator's Waraxe", "=ds=", "1000 #arena# #reqrating# 2050", ""};
-		{ 18, 35014, "", "=q4=Brutal Gladiator's Gavel", "=ds=", "3150 #arena# #reqrating# 2050", ""};
-		{ 19, 35082, "", "=q4=Brutal Gladiator's Salvation", "=ds=", "3150 #arena# #reqrating# 2050", ""};
-		{ 20, 37740, "", "=q4=Brutal Gladiator's Swift Judgement", "=ds=", "3150 #arena# #reqrating# 2050", ""};
-		{ 21, 35071, "", "=q4=Brutal Gladiator's Pummeler", "=ds=", "2625 #arena# #reqrating# 2050", ""};
-		{ 22, 34988, "", "=q4=Brutal Gladiator's Bonecracker", "=ds=", "3150 #arena# #reqrating# 2050", ""};
-		{ 23, 34989, "", "=q4=Brutal Gladiator's Bonegrinder", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 24, 35064, "", "=q4=Brutal Gladiator's Painsaw", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 25, 34987, "", "=q4=Brutal Gladiator's Battle Staff", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 26, 35103, "", "=q4=Brutal Gladiator's Staff", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 27, 35109, "", "=q4=Brutal Gladiator's War Staff", "=ds=", "3750 #arena# #reqrating# 2050", ""};
+		{ 1, 35076, "", "=q4=Brutal Gladiator's Right Ripper", "=ds=#h3#, #w13#", "2625 #arena#", ""};
+		{ 2, 35038, "", "=q4=Brutal Gladiator's Left Ripper", "=ds=#h4#, #w13#", "1125 #arena#", ""};
+		{ 3, 35037, "", "=q4=Brutal Gladiator's Left Render", "=ds=#h4#, #w13#", "1125 #arena#", ""};
+		{ 4, 35102, "", "=q4=Brutal Gladiator's Spellblade", "=ds=#h3#, #w4#", "3150 #arena#", ""};
+		{ 5, 37739, "", "=q4=Brutal Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", "3150 #arena#", ""};
+		{ 6, 35093, "", "=q4=Brutal Gladiator's Shanker", "=ds=#h1#, #w4#", "2625 #arena#", ""};
+		{ 7, 35058, "", "=q4=Brutal Gladiator's Mutilator", "=ds=#h4#, #w4#", "1125 #arena#", ""};
+		{ 8, 35095, "", "=q4=Brutal Gladiator's Shiv", "=ds=#h4#, #w4#", "1125 #arena#", ""};
+		{ 9, 35101, "", "=q4=Brutal Gladiator's Slicer", "=ds=#h1#, #w10#", "2625 #arena#", ""};
+		{ 10, 35072, "", "=q4=Brutal Gladiator's Quickblade", "=ds=#h4#, #w10#", "1125 #arena#", ""};
+		{ 11, 35015, "", "=q4=Brutal Gladiator's Greatsword", "=ds=#h2#, #w10#", "3750 #arena#", ""};
+		{ 12, 34996, "", "=q4=Brutal Gladiator's Cleaver", "=ds=#h1#, #w1#", "2625 #arena#", ""};
+		{ 13, 34995, "", "=q4=Brutal Gladiator's Chopper", "=ds=#h4#, #w1#", "1125 #arena#", ""};
+		{ 14, 36737, "", "=q4=Brutal Gladiator's Hatchet", "=ds=#h4#, #w1#", "650 #arena#", ""};
+		{ 15, 35017, "", "=q4=Brutal Gladiator's Hacker", "=ds=#h4#, #w1#", "1125 #arena#", ""};
+		{ 16, 34997, "", "=q4=Brutal Gladiator's Decapitator", "=ds=#h2#, #w1#", "3750 #arena#", ""};
+		{ 17, 35110, "", "=q4=Brutal Gladiator's Waraxe", "=ds=#h3#, #w1#", "650 #arena#", ""};
+		{ 18, 35014, "", "=q4=Brutal Gladiator's Gavel", "=ds=#h3#, #w6#", "3150 #arena#", ""};
+		{ 19, 35082, "", "=q4=Brutal Gladiator's Salvation", "=ds=#h3#, #w6#", "3150 #arena#", ""};
+		{ 20, 37740, "", "=q4=Brutal Gladiator's Swift Judgement", "=ds=#h3#, #w6#", "3150 #arena#", ""};
+		{ 21, 35071, "", "=q4=Brutal Gladiator's Pummeler", "=ds=#h1#, #w6#", "2625 #arena#", ""};
+		{ 22, 34988, "", "=q4=Brutal Gladiator's Bonecracker", "=ds=#h4#, #w6#", "3150 #arena#", ""};
+		{ 23, 34989, "", "=q4=Brutal Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "3750 #arena#", ""};
+		{ 24, 35064, "", "=q4=Brutal Gladiator's Painsaw", "=ds=#w7#", "3750 #arena#", ""};
+		{ 25, 34987, "", "=q4=Brutal Gladiator's Battle Staff", "=ds=#w9#", "3750 #arena#", ""};
+		{ 26, 35103, "", "=q4=Brutal Gladiator's Staff", "=ds=#w9#", "3750 #arena#", ""};
+		{ 27, 35109, "", "=q4=Brutal Gladiator's War Staff", "=ds=#w9#", "3750 #arena#", ""};
 		Next = "Arena4Weapons2";
 		Back = "LEVEL70PVPREWARDS";
 	};
 
 	AtlasLoot_Data["Arena4Weapons2"] = {
-		{ 1, 34986, "", "=q4=Brutal Gladiator's Barrier", "=ds=", "1875 #arena# #reqrating# 2050", ""};
-		{ 2, 35073, "", "=q4=Brutal Gladiator's Redoubt", "=ds=", "1875 #arena# #reqrating# 2050", ""};
-		{ 3, 35094, "", "=q4=Brutal Gladiator's Shield Wall", "=ds=", "1875 #arena# #reqrating# 2050", ""};
-		{ 4, 35108, "", "=q4=Brutal Gladiator's War Edge", "=ds=", "1000 #arena#", ""};
-		{ 5, 35047, "", "=q4=Brutal Gladiator's Longbow", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 6, 35018, "", "=q4=Brutal Gladiator's Heavy Crossbow", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 7, 35075, "", "=q4=Brutal Gladiator's Rifle", "=ds=", "3750 #arena# #reqrating# 2050", ""};
-		{ 8, 34985, "", "=q4=Brutal Gladiator's Baton of Light", "=ds=", "1000 #arena#", ""};
-		{ 9, 35065, "", "=q4=Brutal Gladiator's Piercing Touch", "=ds=", "1000 #arena#", ""};
-		{ 10, 35107, "", "=q4=Brutal Gladiator's Touch of Defeat", "=ds=", "1000 #arena#", ""};
-		{ 11, 35008, "", "=q4=Brutal Gladiator's Endgame", "=ds=", "1125 #arena#", ""};
-		{ 12, 35016, "", "=q4=Brutal Gladiator's Grimoire", "=ds=", "1125 #arena#", ""};
-		{ 13, 35074, "", "=q4=Brutal Gladiator's Reprieve", "=ds=", "1125 #arena#", ""};
-		{ 16, 35019, "", "=q4=Brutal Gladiator's Idol of Resolve", "=ds=", "1000 #arena#", ""};
-		{ 17, 35020, "", "=q4=Brutal Gladiator's Idol of Steadfastness", "=ds=", "1000 #arena#", ""};
-		{ 18, 35021, "", "=q4=Brutal Gladiator's Idol of Tenacity", "=ds=", "1000 #arena#", ""};
-		{ 19, 35039, "", "=q4=Brutal Gladiator's Libram of Fortitude", "=ds=", "1000 #arena#", ""};
-		{ 20, 35040, "", "=q4=Brutal Gladiator's Libram of Justice", "=ds=", "1000 #arena#", ""};
-		{ 21, 35041, "", "=q4=Brutal Gladiator's Libram of Vengeance", "=ds=", "1000 #arena#", ""};
-		{ 22, 35104, "", "=q4=Brutal Gladiator's Totem of Indomitability", "=ds=", "1000 #arena#", ""};
-		{ 23, 35105, "", "=q4=Brutal Gladiator's Totem of Survival", "=ds=", "1000 #arena#", ""};
-		{ 24, 35106, "", "=q4=Brutal Gladiator's Totem of the Third Wind", "=ds=", "1000 #arena#", ""};
+		{ 1, 34986, "", "=q4=Brutal Gladiator's Barrier", "=ds=#w8#", "1875 #arena#", ""};
+		{ 2, 35073, "", "=q4=Brutal Gladiator's Redoubt", "=ds=#w8#", "1875 #arena#", ""};
+		{ 3, 35094, "", "=q4=Brutal Gladiator's Shield Wall", "=ds=#w8#", "1875 #arena#", ""};
+		{ 4, 35108, "", "=q4=Brutal Gladiator's War Edge", "=ds=#w11#", "1000 #arena#", ""};
+		{ 5, 35047, "", "=q4=Brutal Gladiator's Longbow", "=ds=#w2#", "3750 #arena#", ""};
+		{ 6, 35018, "", "=q4=Brutal Gladiator's Heavy Crossbow", "=ds=#w3#", "3750 #arena#", ""};
+		{ 7, 35075, "", "=q4=Brutal Gladiator's Rifle", "=ds=#w5#", "3750 #arena#", ""};
+		{ 8, 34985, "", "=q4=Brutal Gladiator's Baton of Light", "=ds=#w12#", "1000 #arena#", ""};
+		{ 9, 35065, "", "=q4=Brutal Gladiator's Piercing Touch", "=ds=#w12#", "1000 #arena#", ""};
+		{ 10, 35107, "", "=q4=Brutal Gladiator's Touch of Defeat", "=ds=#w12#", "1000 #arena#", ""};
+		{ 11, 35008, "", "=q4=Brutal Gladiator's Endgame", "=ds=#s15#", "1125 #arena#", ""};
+		{ 12, 35016, "", "=q4=Brutal Gladiator's Grimoire", "=ds=#s15#", "1125 #arena#", ""};
+		{ 13, 35074, "", "=q4=Brutal Gladiator's Reprieve", "=ds=#s15#", "1125 #arena#", ""};
+		{ 16, 35019, "", "=q4=Brutal Gladiator's Idol of Resolve", "=ds=#w14#", "1000 #arena#", ""};
+		{ 17, 35020, "", "=q4=Brutal Gladiator's Idol of Steadfastness#w14#", "=ds=", "1000 #arena#", ""};
+		{ 18, 35021, "", "=q4=Brutal Gladiator's Idol of Tenacity", "=ds=#w14#", "1000 #arena#", ""};
+		{ 19, 35039, "", "=q4=Brutal Gladiator's Libram of Fortitude", "=ds=#w16#", "1000 #arena#", ""};
+		{ 20, 35040, "", "=q4=Brutal Gladiator's Libram of Justice", "=ds=#w16#", "1000 #arena#", ""};
+		{ 21, 35041, "", "=q4=Brutal Gladiator's Libram of Vengeance", "=ds=#w16#", "1000 #arena#", ""};
+		{ 22, 35104, "", "=q4=Brutal Gladiator's Totem of Indomitability", "=ds=#w15#", "1000 #arena#", ""};
+		{ 23, 35105, "", "=q4=Brutal Gladiator's Totem of Survival", "=ds=#w15#", "1000 #arena#", ""};
+		{ 24, 35106, "", "=q4=Brutal Gladiator's Totem of the Third Wind", "=ds=#w15#", "1000 #arena#", ""};
 		Prev = "Arena4Weapons1";
 		Back = "LEVEL70PVPREWARDS";
 	};
