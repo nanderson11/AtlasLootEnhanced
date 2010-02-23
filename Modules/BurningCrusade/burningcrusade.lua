@@ -3634,15 +3634,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		---------------------------------------------------------------
 
 	AtlasLoot_Data["Hellfire"] = {
-		{ 1, 27833, "", "=q3=Band of the Victor", "=ds=15 #factionoutlandPvP#"};
-		{ 2, 27786, "", "=q3=Barbed Deep Peridot", "=ds=10 #factionoutlandPvP#"};
-		{ 3, 28360, "", "=q3=Mighty Blood Garnet", "=ds=10 #factionoutlandPvP#"};
+		{ 1, 27833, "", "=q3=Band of the Victor", "=ds=15 #markthrallmarhhold#"};
+		{ 2, 27786, "", "=q3=Barbed Deep Peridot", "=ds=10 #markthrallmarhhold#"};
+		{ 3, 28360, "", "=q3=Mighty Blood Garnet", "=ds=10 #markthrallmarhhold#"};
 		{ 5, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 		{ 6, 24520, "", "=q1=Honor Hold Favor", "=ds=5 #markhhold#"};
 		{ 7, 24579, "", "=q1=Mark of Honor Hold", "=ds=#m18#"};
-		{ 16, 27830, "", "=q3=Circlet of the Victor", "=ds=15 #factionoutlandPvP#"};
-		{ 17, 27785, "", "=q3=Notched Deep Peridot", "=ds=10 #factionoutlandPvP#"};
-		{ 18, 27777, "", "=q3=Stark Blood Garnet", "=ds=10 #factionoutlandPvP#"};
+		{ 16, 27830, "", "=q3=Circlet of the Victor", "=ds=15 #markthrallmarhhold#"};
+		{ 17, 27785, "", "=q3=Notched Deep Peridot", "=ds=10 #markthrallmarhhold#"};
+		{ 18, 27777, "", "=q3=Stark Blood Garnet", "=ds=10 #markthrallmarhhold#"};
 		{ 20, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 21, 24522, "", "=q1=Thrallmar Favor", "=ds=5 #markthrallmar#"};
 		{ 22, 24581, "", "=q1=Mark of Thrallmar", "=ds=#m19#"};
@@ -3728,16 +3728,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		-------------------------------------------------
 
 	AtlasLoot_Data["Zangarmarsh"] = {
-		{ 1, 27990, "", "=q3=Idol of Savagery", "=ds=#w14#", "15 #factionoutlandPvP#", ""};
-		{ 2, 27984, "", "=q3=Totem of Impact", "=ds=#w15#", "15 #factionoutlandPvP#", ""};
-		{ 3, 27922, "", "=q3=Mark of Defiance", "=ds=#s14#", "30 #factionoutlandPvP#", ""};
-		{ 4, 27929, "", "=q3=Terminal Edge", "=ds=#w11#", "15 #factionoutlandPvP#", ""};
-		{ 5, 27939, "", "=q3=Incendic Rod", "=ds=#w12#", "15 #factionoutlandPvP#", ""};
+		{ 1, 27990, "", "=q3=Idol of Savagery", "=ds=#w14#", "15 #markthrallmarhhold#", ""};
+		{ 2, 27984, "", "=q3=Totem of Impact", "=ds=#w15#", "15 #markthrallmarhhold#", ""};
+		{ 3, 27922, "", "=q3=Mark of Defiance", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
+		{ 4, 27929, "", "=q3=Terminal Edge", "=ds=#w11#", "15 #markthrallmarhhold#", ""};
+		{ 5, 27939, "", "=q3=Incendic Rod", "=ds=#w12#", "15 #markthrallmarhhold#", ""};
 		{ 7, 24579, "", "=q1=Mark of Honor Hold", "=ds=#m18#"};
-		{ 16, 27983, "", "=q3=Libram of Zeal", "=ds=#w16#", "15 #factionoutlandPvP#", ""};
-		{ 17, 27920, "", "=q3=Mark of Conquest", "=ds=#s14#", "30 #factionoutlandPvP#", ""};
-		{ 18, 27927, "", "=q3=Mark of Vindication", "=ds=#s14#", "30 #factionoutlandPvP#", ""};
-		{ 19, 27930, "", "=q3=Splintermark", "=ds=#w2#", "15 #factionoutlandPvP#", ""};
+		{ 16, 27983, "", "=q3=Libram of Zeal", "=ds=#w16#", "15 #markthrallmarhhold#", ""};
+		{ 17, 27920, "", "=q3=Mark of Conquest", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
+		{ 18, 27927, "", "=q3=Mark of Vindication", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
+		{ 19, 27930, "", "=q3=Splintermark", "=ds=#w2#", "15 #markthrallmarhhold#", ""};
 		{ 22, 24581, "", "=q1=Mark of Thrallmar", "=ds=#m19#"};
 		Back = "PVPMENU";
 	};

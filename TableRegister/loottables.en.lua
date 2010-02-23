@@ -1663,8 +1663,8 @@ end
   -- Battlegrounds
    -- Alterac Valley
 	AtlasLoot_TableNames["AVMisc"] = { BabbleZone["Alterac Valley"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["AVBlue"] = { BabbleZone["Alterac Valley"].." "..AL["Superior Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["AVPurple"] = { BabbleZone["Alterac Valley"].." "..AL["Epic Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AVBlue_A"] = { BabbleZone["Alterac Valley"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AVBlue_H"] = { BabbleZone["Alterac Valley"], "AtlasLootOriginalWoW" };
    -- Arathi Basin
 	AtlasLoot_TableNames["ABMisc"] = { BabbleZone["Arathi Basin"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["AB20291"] = { BabbleZone["Arathi Basin"].." "..AL["Level 20-29 Rewards"], "AtlasLootOriginalWoW" };
@@ -1685,6 +1685,9 @@ end
 	AtlasLoot_TableNames["WSG4049"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 40-49 Rewards"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WSG5059"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 50-59 Rewards"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WSG60"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 60 Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WSGTest"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WSGTest2"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
+	AtlasLoot_TableNames["WSGTest3"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
   -- World PvP
 	AtlasLoot_TableNames["Hellfire"] = { BabbleZone["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Nagrand1"] = { BabbleZone["Nagrand"]..": "..AL["Halaa"], "AtlasLootBurningCrusade" };
@@ -1700,9 +1703,10 @@ end
 	AtlasLoot_TableNames["LakeWintergrasp7"] = { BabbleZone["Wintergrasp"].." - "..AL["Heirloom"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["VentureBay1"] = { BabbleZone["Grizzly Hills"]..": "..AL["Venture Bay"], "AtlasLootWotLK" };
   -- Misc Other PvP
-	AtlasLoot_TableNames["PvP60Accessories1"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP60Accessories2"] = { AL["PvP Accessories - Alliance (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP60Accessories3"] = { AL["PvP Accessories - Horde (Level 60)"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories1_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories2_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories1_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories2_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP70Accessories1"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["PvP70Accessories2"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["PvP80Misc"] = { AL["PvP Misc"], "AtlasLootWotLK" };
