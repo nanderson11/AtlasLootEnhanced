@@ -2087,7 +2087,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "VaultofArchavonKoralon7_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon1_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon125Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 47753, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
 		{ 3, 47755, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a1#"};
@@ -2112,10 +2112,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
-		Next = "VaultofArchavonKoralon2_A25Man";
+		Next = "VaultofArchavonKoralon225Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon2_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon225Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 48163, "", "=q4=Stormrage's Gloves of Triumph", "=ds=#s9#, #a2#"};
 		{ 3, 48165, "", "=q4=Stormrage's Trousers of Triumph", "=ds=#s11#, #a2#"};
@@ -2140,11 +2140,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonKoralon1_A25Man";
-		Next = "VaultofArchavonKoralon3_A25Man";
+		Prev = "VaultofArchavonKoralon125Man_A";
+		Next = "VaultofArchavonKoralon325Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon3_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon325Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 3, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
@@ -2169,11 +2169,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
-		Prev = "VaultofArchavonKoralon2_A25Man";
-		Next = "VaultofArchavonKoralon4_A25Man";
+		Prev = "VaultofArchavonKoralon225Man_A";
+		Next = "VaultofArchavonKoralon425Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon4_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon425Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 3, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds=#s11#, #a4#"};
@@ -2195,11 +2195,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-		Prev = "VaultofArchavonKoralon3_A25Man";
-		Next = "VaultofArchavonKoralon5_A25Man";
+		Prev = "VaultofArchavonKoralon325Man_A";
+		Next = "VaultofArchavonKoralon525Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon5_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon525Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 48640, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 3, 48638, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#"};
@@ -2212,11 +2212,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
-		Prev = "VaultofArchavonKoralon4_A25Man";
-		Next = "VaultofArchavonKoralon6_A25Man";
+		Prev = "VaultofArchavonKoralon425Man_A";
+		Next = "VaultofArchavonKoralon625Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon6_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon625Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#, #a1#"};
 		{ 3, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s10#, #a1#"};
@@ -2237,11 +2237,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 41841, "", "=q4=Relentless Gladiator's Armwraps of Triumph", "=ds=#s8#, #a2#"};
 		{ 26, 41833, "", "=q4=Relentless Gladiator's Belt of Triumph", "=ds=#s10#, #a2#"};
 		{ 27, 41837, "", "=q4=Relentless Gladiator's Boots of Triumph", "=ds=#s12#, #a2#"};
-		Prev = "VaultofArchavonKoralon5_A25Man";
-		Next = "VaultofArchavonKoralon7_A25Man";
+		Prev = "VaultofArchavonKoralon525Man_A";
+		Next = "VaultofArchavonKoralon725Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon7_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon725Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
 		{ 3, 41071, "", "=q4=Relentless Gladiator's Waistguard of Dominance","=ds=#s10#, #a3#"};
@@ -2259,11 +2259,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 40890, "", "=q4=Relentless Gladiator's Bracers of Triumph", "=ds=#s8#, #a4#"};
 		{ 22, 40883, "", "=q4=Relentless Gladiator's Girdle of Triumph", "=ds=#s10#, #a4#"};
 		{ 23, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=#s12#, #a4#"};
-		Prev = "VaultofArchavonKoralon6_A25Man";
-		Next = "VaultofArchavonKoralon8_A25Man";
+		Prev = "VaultofArchavonKoralon625Man_A";
+		Next = "VaultofArchavonKoralon825Man_A";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon8_A25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon825Man_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
 		{ 3, 42080, "", "=q4=Relentless Gladiator's Cloak of Deliverance", "=ds=#s4#"};
@@ -2287,7 +2287,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
 		{ 27, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
 		{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
-		Prev = "VaultofArchavonKoralon7_A25Man";
+		Prev = "VaultofArchavonKoralon725Man_A";
 	};
 
 	AtlasLoot_Data["VaultofArchavonKoralon1_H"] = {
@@ -2490,7 +2490,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "VaultofArchavonKoralon7_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon1_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon125Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 		{ 2, 47772, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
 		{ 3, 47770, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#"};
@@ -2515,10 +2515,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 29, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
 		{ 30, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
-		Next = "VaultofArchavonKoralon2_H25Man";
+		Next = "VaultofArchavonKoralon225Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon2_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon225Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 		{ 2, 48182, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a2#"};
 		{ 3, 48180, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a2#"};
@@ -2543,11 +2543,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 29, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
 		{ 30, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
-		Prev = "VaultofArchavonKoralon1_H25Man";
-		Next = "VaultofArchavonKoralon3_H25Man";
+		Prev = "VaultofArchavonKoralon125Man_H";
+		Next = "VaultofArchavonKoralon325Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon3_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon325Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
 		{ 2, 48273, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 3, 48271, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
@@ -2572,11 +2572,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 29, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 		{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
-		Prev = "VaultofArchavonKoralon2_H25Man";
-		Next = "VaultofArchavonKoralon4_H25Man";
+		Prev = "VaultofArchavonKoralon225Man_H";
+		Next = "VaultofArchavonKoralon425Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon4_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon425Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 		{ 2, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 3, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#"};
@@ -2598,11 +2598,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
 		{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 		{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-		Prev = "VaultofArchavonKoralon3_H25Man";
-		Next = "VaultofArchavonKoralon5_H25Man";
+		Prev = "VaultofArchavonKoralon325Man_H";
+		Next = "VaultofArchavonKoralon525Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon5_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon525Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
 		{ 2, 48658, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 3, 48660, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};
@@ -2615,11 +2615,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 0, "INV_Box_01", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 		{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 		{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
-		Prev = "VaultofArchavonKoralon4_H25Man";
-		Next = "VaultofArchavonKoralon6_H25Man";
+		Prev = "VaultofArchavonKoralon425Man_H";
+		Next = "VaultofArchavonKoralon625Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon6_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon625Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
 		{ 2, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=#s8#, #a1#"};
 		{ 3, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=#s19#, #a1#"};
@@ -2640,11 +2640,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 41841, "", "=q4=Relentless Gladiator's Armwraps of Triumph", "=ds=#s8#, #a2#"};
 		{ 26, 41833, "", "=q4=Relentless Gladiator's Belt of Triumph", "=ds=#s10#, #a2#"};
 		{ 27, 41837, "", "=q4=Relentless Gladiator's Boots of Triumph", "=ds=#s12#, #a2#"};
-		Prev = "VaultofArchavonKoralon5_H25Man";
-		Next = "VaultofArchavonKoralon7_H25Man";
+		Prev = "VaultofArchavonKoralon525Man_H";
+		Next = "VaultofArchavonKoralon725Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon7_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon725Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
 		{ 2, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=#s8#, #a3#"};
 		{ 3, 41071, "", "=q4=Relentless Gladiator's Waistguard of Dominance","=ds=#s10#, #a3#"};
@@ -2662,11 +2662,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 40890, "", "=q4=Relentless Gladiator's Bracers of Triumph", "=ds=#s8#, #a4#"};
 		{ 22, 40883, "", "=q4=Relentless Gladiator's Girdle of Triumph", "=ds=#s10#, #a4#"};
 		{ 23, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=#s12#, #a4#"};
-		Prev = "VaultofArchavonKoralon6_H25Man";
-		Next = "VaultofArchavonKoralon8_H25Man";
+		Prev = "VaultofArchavonKoralon625Man_H";
+		Next = "VaultofArchavonKoralon825Man_H";
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon8_H25Man"] = {
+	AtlasLoot_Data["VaultofArchavonKoralon825Man_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Back"]};
 		{ 2, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=#s4#"};
 		{ 3, 42080, "", "=q4=Relentless Gladiator's Cloak of Deliverance", "=ds=#s4#"};
@@ -2690,7 +2690,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
 		{ 27, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
 		{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
-		Prev = "VaultofArchavonKoralon7_H25Man";
+		Prev = "VaultofArchavonKoralon725Man_H";
 	};
 
 	AtlasLoot_Data["VaultofArchavonToravon1"] = {
@@ -4758,7 +4758,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Next = "TrialoftheCrusaderLordJaraxxus_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_A25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts25Man_A"] = {
 		{ 1, 46970, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#"};
 		{ 2, 46976, "", "=q4=Shawl of the Refreshing Winds", "=ds=#s4#"};
 		{ 3, 46992, "", "=q4=Flowing Vestments of Ascent", "=ds=#s5#, #a1#"};
@@ -4775,10 +4775,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 46979, "", "=q4=Blade of Tarasque", "=ds=#h3#, #w4#"};
 		{ 21, 46958, "", "=q4=Steel Bladebreaker", "=ds=#h1#, #w4#"};
 		{ 22, 46963, "", "=q4=Crystal Plated Vanguard", "=ds=#w8#"};
-		Next = "TrialoftheCrusaderLordJaraxxus_A25Man";
+		Next = "TrialoftheCrusaderLordJaraxxus25Man_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_H25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts25Man_H"] = {
 		{ 1, 47257, "", "=q4=Cloak of the Untamed Predator", "=ds=#s4#"};
 		{ 2, 47256, "", "=q4=Drape of the Refreshing Winds", "=ds=#s4#"};
 		{ 3, 47264, "", "=q4=Flowing Robes of Ascent", "=ds=#s5#, #a1#"};
@@ -4795,7 +4795,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 47261, "", "=q4=Barb of Tarasque", "=ds=#h3#, #w4#"};
 		{ 21, 47255, "", "=q4=Stygian Bladebreaker", "=ds=#h1#, #w4#"};
 		{ 22, 47260, "", "=q4=Forlorn Barrier", "=ds=#w8#"};
-		Next = "TrialoftheCrusaderLordJaraxxus_H25Man";
+		Next = "TrialoftheCrusaderLordJaraxxus25Man_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_A"] = {
@@ -4834,7 +4834,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Next = "TrialoftheCrusaderFactionChampions_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_A25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus25Man_A"] = {
 		{ 1, 47042, "", "=q4=Pride of the Eredar", "=ds=#s4#"};
 		{ 2, 47051, "", "=q4=Leggings of the Soothing Touch", "=ds=#s11#, #a1#"};
 		{ 3, 47000, "", "=q4=Cuirass of Calamitous Fate", "=ds=#s5#, #a2#"};
@@ -4851,11 +4851,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 47053, "", "=q4=Symbol of Transgression", "=ds=#s15#"};
 		{ 23, 46996, "", "=q4=Lionhead Slasher", "=ds=#h1#, #w1#"};
 		{ 24, 46994, "", "=q4=Talonstrike", "=ds=#w3#"};
-		Prev = "TrialoftheCrusaderNorthrendBeasts_A25Man";
-		Next = "TrialoftheCrusaderFactionChampions_A25Man";
+		Prev = "TrialoftheCrusaderNorthrendBeasts25Man_A";
+		Next = "TrialoftheCrusaderFactionChampions25Man_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_H25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus25Man_H"] = {
 		{ 1, 47275, "", "=q4=Pride of the Demon Lord", "=ds=#s4#"};
 		{ 2, 47274, "", "=q4=Pants of the Soothing Touch", "=ds=#s11#, #a1#"};
 		{ 3, 47270, "", "=q4=Vest of Calamitous Fate", "=ds=#s5#, #a2#"};
@@ -4872,8 +4872,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 47276, "", "=q4=Talisman of Heedless Sins", "=ds=#s15#"};
 		{ 23, 47266, "", "=q4=Blood Fury", "=ds=#h1#, #w1#"};
 		{ 24, 47267, "", "=q4=Death's Head Crossbow", "=ds=#w3#"};
-		Prev = "TrialoftheCrusaderNorthrendBeasts_H25Man";
-		Next = "TrialoftheCrusaderFactionChampions_H25Man";
+		Prev = "TrialoftheCrusaderNorthrendBeasts25Man_H";
+		Next = "TrialoftheCrusaderFactionChampions25Man_H";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_A"] = {
@@ -4906,7 +4906,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Next = "TrialoftheCrusaderTwinValkyrs_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_A25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampions25Man_A"] = {
 		{ 1, 47089, "", "=q4=Cloak of Displacement", "=ds=#s4#"};
 		{ 2, 47081, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#"};
 		{ 3, 47092, "", "=q4=Boots of the Mourning Widow", "=ds=#s12#, #a1#"};
@@ -4923,11 +4923,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47080, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#"};
 		{ 21, 47069, "", "=q4=Justicebringer", "=ds=#h2#, #w1#"};
 		{ 22, 47079, "", "=q4=Bastion of Purity", "=ds=#w8#"};
-		Prev = "TrialoftheCrusaderLordJaraxxus_A25Man";
-		Next = "TrialoftheCrusaderTwinValkyrs_A25Man";
+		Prev = "TrialoftheCrusaderLordJaraxxus25Man_A";
+		Next = "TrialoftheCrusaderTwinValkyrs25Man_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_H25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampions25Man_H"] = {
 		{ 1, 47291, "", "=q4=Shroud of Displacement", "=ds=#s4#"};
 		{ 2, 47286, "", "=q4=Belt of Biting Cold", "=ds=#s10#, #a1#"};
 		{ 3, 47293, "", "=q4=Sandals of the Mourning Widow", "=ds=#s12#, #a1#"};
@@ -4984,7 +4984,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Next = "TrialoftheCrusaderAnubarak_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_A25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs25Man_A"] = {
 		{ 1, 47126, "", "=q4=Skyweaver Robes", "=ds=#s5#, #a1#"};
 		{ 2, 47141, "", "=q4=Bindings of Dark Essence", "=ds=#s8#, #a1#"};
 		{ 3, 47107, "", "=q4=Belt of the Merciless Killer", "=ds=#s10#, #a2#"};
@@ -5001,11 +5001,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		{ 18, 47104, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
 		{ 19, 47114, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
-		Prev = "TrialoftheCrusaderFactionChampions_A25Man";
-		Next = "TrialoftheCrusaderAnubarak_A25Man";
+		Prev = "TrialoftheCrusaderFactionChampions25Man_A";
+		Next = "TrialoftheCrusaderAnubarak25Man_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_H25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs25Man_H"] = {
 		{ 1, 47301, "", "=q4=Skyweaver Vestments", "=ds=#s5#, #a1#"};
 		{ 2, 47306, "", "=q4=Dark Essence Bindings", "=ds=#s8#, #a1#"};
 		{ 3, 47308, "", "=q4=Belt of Pale Thorns", "=ds=#s10#, #a2#"};
@@ -5022,8 +5022,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		{ 18, 47300, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
 		{ 19, 47302, "", "=q4=Twin's Pact", "=ds=#w9#"};
-		Prev = "TrialoftheCrusaderFactionChampions_H25Man";
-		Next = "TrialoftheCrusaderAnubarak_H25Man";
+		Prev = "TrialoftheCrusaderFactionChampions25Man_H";
+		Next = "TrialoftheCrusaderAnubarak25Man_H";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A"] = {
@@ -5046,7 +5046,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47812, "", "=q4=Vigilant Ward", "=ds=#w8#" };
 		{ 20, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
 		Prev = "TrialoftheCrusaderTwinValkyrs_A";
-		Next = "TrialoftheCrusaderTribute_AHEROIC";
+		Next = "TrialoftheCrusaderTributeHEROIC_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H"] = {
@@ -5069,10 +5069,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47895, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
 		{ 20, 47907, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
 		Prev = "TrialoftheCrusaderTwinValkyrs_H";
-		Next = "TrialoftheCrusaderTribute_HHEROIC";
+		Next = "TrialoftheCrusaderTributeHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderAnubarak25Man_A"] = {
 		{ 1, 47225, "", "=q4=Maiden's Favor", "=ds=#s4#"};
 		{ 2, 47183, "", "=q4=Strength of the Nerub", "=ds=#s4#"};
 		{ 3, 47203, "", "=q4=Armbands of the Ashen Saint", "=ds=#s8#, #a1#"};
@@ -5094,11 +5094,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, 47148, "", "=q4=Stormpike Cleaver", "=ds=#h1#, #w1#"};
 		{ 23, 47193, "", "=q4=Misery's End", "=ds=#h3#, #w6#"};
 		{ 24, 47233, "", "=q4=Archon Glaive", "=ds=#w7#"};
-		Prev = "TrialoftheCrusaderTwinValkyrs_A25Man";
-		Next = "TrialoftheCrusaderTribute_A25ManHEROIC";
+		Prev = "TrialoftheCrusaderTwinValkyrs25Man_A";
+		Next = "TrialoftheCrusaderTribute25ManHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H25Man"] = {
+	AtlasLoot_Data["TrialoftheCrusaderAnubarak25Man_H"] = {
 		{ 1, 47328, "", "=q4=Maiden's Adoration", "=ds=#s4#"};
 		{ 2, 47320, "", "=q4=Might of the Nerub", "=ds=#s4#"};
 		{ 3, 47324, "", "=q4=Bindings of the Ashen Saint", "=ds=#s8#, #a1#"};
@@ -5120,8 +5120,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, 47314, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#"};
 		{ 23, 47322, "", "=q4=Suffering's End", "=ds=#h3#, #w6#"};
 		{ 24, 47329, "", "=q4=Hellion Glaive", "=ds=#w7#"};
-		Prev = "TrialoftheCrusaderTwinValkyrs_H25Man";
-		Next = "TrialoftheCrusaderTribute_H25ManHEROIC";
+		Prev = "TrialoftheCrusaderTwinValkyrs25Man_H";
+		Next = "TrialoftheCrusaderTribute25ManHEROIC_H";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_A"] = {
@@ -5144,7 +5144,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 47656, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
 		{ 19, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
 		{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
-		Prev = "TrialoftheCrusaderTribute_AHEROIC";
+		Prev = "TrialoftheCrusaderTributeHEROIC_A";
 	};
 
 	AtlasLoot_Data["TrialoftheCrusaderPatterns_H"] = {
@@ -5167,14 +5167,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 47637, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
 		{ 19, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
 		{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
-		Prev = "TrialoftheCrusaderTribute_HHEROIC";
+		Prev = "TrialoftheCrusaderTributeHEROIC_H";
 	};
 
 		-----------------------------------
 		--- Trial of the Grand Crusader ---
 		-----------------------------------
 
-	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_AHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeastsHEROIC_A"] = {
 		{ 1, 47921, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
 		{ 2, 47923, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
 		{ 3, 47919, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
@@ -5187,10 +5187,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 47915, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
 		{ 17, 47920, "", "=q4=Gormok's Band", "=ds=#s13#"};
 		{ 19, 47922, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
-		Next = "TrialoftheCrusaderLordJaraxxus_AHEROIC";
+		Next = "TrialoftheCrusaderLordJaraxxusHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_HHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeastsHEROIC_H"] = {
 		{ 1, 47994, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
 		{ 2, 47996, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
 		{ 3, 47992, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
@@ -5203,10 +5203,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 47988, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
 		{ 17, 47993, "", "=q4=Carnivorous Band", "=ds=#s13#"};
 		{ 19, 47995, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
-		Next = "TrialoftheCrusaderLordJaraxxus_HHEROIC";
+		Next = "TrialoftheCrusaderLordJaraxxusHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_A25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts25ManHEROIC_A"] = {
 		{ 1, 46971, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#"};
 		{ 2, 46977, "", "=q4=Shawl of the Refreshing Winds", "=ds=#s4#"};
 		{ 3, 46993, "", "=q4=Flowing Vestments of Ascent", "=ds=#s5#, #a1#"};
@@ -5223,10 +5223,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 46980, "", "=q4=Blade of Tarasque", "=ds=#h3#, #w4#"};
 		{ 21, 46969, "", "=q4=Steel Bladebreaker", "=ds=#h1#, #w4#"};
 		{ 22, 46964, "", "=q4=Crystal Plated Vanguard", "=ds=#w8#"};
-		Next = "TrialoftheCrusaderLordJaraxxus_A25ManHEROIC";
+		Next = "TrialoftheCrusaderLordJaraxxus25ManHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts_H25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts25ManHEROIC_H"] = {
 		{ 1, 47418, "", "=q4=Cloak of the Untamed Predator", "=ds=#s4#"};
 		{ 2, 47417, "", "=q4=Drape of the Refreshing Winds", "=ds=#s4#"};
 		{ 3, 47425, "", "=q4=Flowing Robes of Ascent", "=ds=#s5#, #a1#"};
@@ -5243,10 +5243,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 47422, "", "=q4=Barb of Tarasque", "=ds=#h3#, #w4#"};
 		{ 21, 47416, "", "=q4=Stygian Bladebreaker", "=ds=#h1#, #w4#"};
 		{ 22, 47421, "", "=q4=Forlorn Barrier", "=ds=#w8#"};
-		Next = "TrialoftheCrusaderLordJaraxxus_H25ManHEROIC";
+		Next = "TrialoftheCrusaderLordJaraxxus25ManHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_AHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxusHEROIC_A"] = {
 		{ 1, 47927, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
 		{ 2, 47931, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
 		{ 3, 47929, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
@@ -5260,11 +5260,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 47928, "", "=q4=Firestorm Ring", "=ds=#s13#"};
 		{ 19, 47934, "", "=q4=Planestalker Signet", "=ds=#s13#"};
 		{ 21, 47938, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
-		Prev = "TrialoftheCrusaderNorthrendBeasts_AHEROIC";
-		Next = "TrialoftheCrusaderFactionChampions_AHEROIC";
+		Prev = "TrialoftheCrusaderNorthrendBeastsHEROIC_A";
+		Next = "TrialoftheCrusaderFactionChampionsHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_HHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxusHEROIC_H"] = {
 		{ 1, 48000, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
 		{ 2, 48004, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
 		{ 3, 48002, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
@@ -5278,11 +5278,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 48001, "", "=q4=Firestorm Band", "=ds=#s13#"};
 		{ 19, 48007, "", "=q4=Planestalker Band", "=ds=#s13#"};
 		{ 21, 48010, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
-		Prev = "TrialoftheCrusaderNorthrendBeasts_HHEROIC";
-		Next = "TrialoftheCrusaderFactionChampions_HHEROIC";
+		Prev = "TrialoftheCrusaderNorthrendBeastsHEROIC_H";
+		Next = "TrialoftheCrusaderFactionChampionsHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_A25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus25ManHEROIC_A"] = {
 		{ 1, 47063, "", "=q4=Pride of the Eredar", "=ds=#s4#"};
 		{ 2, 47062, "", "=q4=Leggings of the Soothing Touch", "=ds=#s11#, #a1#"};
 		{ 3, 47004, "", "=q4=Cuirass of Calamitous Fate", "=ds=#s5#, #a2#"};
@@ -5299,11 +5299,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 47064, "", "=q4=Symbol of Transgression", "=ds=#s15#"};
 		{ 23, 47001, "", "=q4=Lionhead Slasher", "=ds=#h1#, #w1#"};
 		{ 24, 46995, "", "=q4=Talonstrike", "=ds=#w3#"};
-		Prev = "TrialoftheCrusaderNorthrendBeasts_A25ManHEROIC";
-		Next = "TrialoftheCrusaderFactionChampions_A25ManHEROIC";
+		Prev = "TrialoftheCrusaderNorthrendBeasts25ManHEROIC_A";
+		Next = "TrialoftheCrusaderFactionChampions25ManHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus_H25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus25ManHEROIC_H"] = {
 		{ 1, 47436, "", "=q4=Pride of the Demon Lord", "=ds=#s4#"};
 		{ 2, 47435, "", "=q4=Pants of the Soothing Touch", "=ds=#s11#, #a1#"};
 		{ 3, 47431, "", "=q4=Vest of Calamitous Fate", "=ds=#s5#, #a2#"};
@@ -5320,11 +5320,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 47437, "", "=q4=Talisman of Heedless Sins", "=ds=#s15#"};
 		{ 23, 47427, "", "=q4=Blood Fury", "=ds=#h1#, #w1#"};
 		{ 24, 47428, "", "=q4=Death's Head Crossbow", "=ds=#w3#"};
-		Prev = "TrialoftheCrusaderNorthrendBeasts_H25ManHEROIC";
-		Next = "TrialoftheCrusaderFactionChampions_H25ManHEROIC";
+		Prev = "TrialoftheCrusaderNorthrendBeasts25ManHEROIC_H";
+		Next = "TrialoftheCrusaderFactionChampions25ManHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_AHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampionsHEROIC_A"] = {
 		{ 1, 47940, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
 		{ 2, 47945, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
 		{ 3, 47942, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
@@ -5335,11 +5335,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
 		{ 10, 47948, "", "=q4=Victor's Call", "=ds=#s14#"};
 		{ 16, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		Prev = "TrialoftheCrusaderLordJaraxxus_AHEROIC";
-		Next = "TrialoftheCrusaderTwinValkyrs_AHEROIC";
+		Prev = "TrialoftheCrusaderLordJaraxxusHEROIC_A";
+		Next = "TrialoftheCrusaderTwinValkyrsHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_HHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampionsHEROIC_H"] = {
 		{ 1, 48012, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
 		{ 2, 48017, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
 		{ 3, 48014, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
@@ -5350,11 +5350,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
 		{ 10, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
 		{ 16, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
-		Prev = "TrialoftheCrusaderLordJaraxxus_HHEROIC";
-		Next = "TrialoftheCrusaderTwinValkyrs_HHEROIC";
+		Prev = "TrialoftheCrusaderLordJaraxxusHEROIC_H";
+		Next = "TrialoftheCrusaderTwinValkyrsHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_A25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampions25ManHEROIC_A"] = {
 		{ 1, 47095, "", "=q4=Cloak of Displacement", "=ds=#s4#"};
 		{ 2, 47084, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#"};
 		{ 3, 47097, "", "=q4=Boots of the Mourning Widow", "=ds=#s12#, #a1#"};
@@ -5371,11 +5371,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47088, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#"};
 		{ 21, 47078, "", "=q4=Justicebringer", "=ds=#h2#, #w1#"};
 		{ 22, 47085, "", "=q4=Bastion of Purity", "=ds=#w8#"};
-		Prev = "TrialoftheCrusaderLordJaraxxus_A25ManHEROIC";
-		Next = "TrialoftheCrusaderTwinValkyrs_A25ManHEROIC";
+		Prev = "TrialoftheCrusaderLordJaraxxus25ManHEROIC_A";
+		Next = "TrialoftheCrusaderTwinValkyrs25ManHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderFactionChampions_H25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderFactionChampions25ManHEROIC_H"] = {
 		{ 1, 47452, "", "=q4=Shroud of Displacement", "=ds=#s4#"};
 		{ 2, 47447, "", "=q4=Belt of Biting Cold", "=ds=#s10#, #a1#"};
 		{ 3, 47454, "", "=q4=Sandals of the Mourning Widow", "=ds=#s12#, #a1#"};
@@ -5392,11 +5392,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47451, "", "=q4=Juggernaut's Vitality", "=ds=#s14#"};
 		{ 21, 47446, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#"};
 		{ 22, 47448, "", "=q4=Bastion of Resolve", "=ds=#w8#"};
-		Prev = "TrialoftheCrusaderLordJaraxxus_H25ManHEROIC";
-		Next = "TrialoftheCrusaderTwinValkyrs_H25ManHEROIC";
+		Prev = "TrialoftheCrusaderLordJaraxxus25ManHEROIC_H";
+		Next = "TrialoftheCrusaderTwinValkyrs25ManHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_AHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrsHEROIC_A"] = {
 		{ 1, 47956, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
 		{ 2, 49234, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
 		{ 3, 47959, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
@@ -5410,11 +5410,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 47951, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
 		{ 18, 47960, "", "=q4=Enlightenment", "=ds=#w9#"};
 		{ 19, 47950, "", "=q4=The Diplomat", "=ds=#w5#"};
-		Prev = "TrialoftheCrusaderFactionChampions_AHEROIC";
-		Next = "TrialoftheCrusaderAnubarak_AHEROIC";
+		Prev = "TrialoftheCrusaderFactionChampionsHEROIC_A";
+		Next = "TrialoftheCrusaderAnubarakHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_HHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrsHEROIC_H"] = {
 		{ 1, 48028, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
 		{ 2, 49233, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
 		{ 3, 48034, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
@@ -5428,11 +5428,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 48023, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
 		{ 18, 48036, "", "=q4=Illumination", "=ds=#w9#"};
 		{ 19, 48022, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
-		Prev = "TrialoftheCrusaderFactionChampions_HHEROIC";
-		Next = "TrialoftheCrusaderAnubarak_HHEROIC";
+		Prev = "TrialoftheCrusaderFactionChampionsHEROIC_H";
+		Next = "TrialoftheCrusaderAnubarakHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_A25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs25ManHEROIC_A"] = {
 		{ 1, 47129, "", "=q4=Skyweaver Robes", "=ds=#s5#, #a1#"};
 		{ 2, 47143, "", "=q4=Bindings of Dark Essence", "=ds=#s8#, #a1#"};
 		{ 3, 47112, "", "=q4=Belt of the Merciless Killer", "=ds=#s10#, #a2#"};
@@ -5449,11 +5449,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		{ 18, 47113, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
 		{ 19, 47130, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
-		Prev = "TrialoftheCrusaderFactionChampions_A25ManHEROIC";
-		Next = "TrialoftheCrusaderAnubarak_A25ManHEROIC";
+		Prev = "TrialoftheCrusaderFactionChampions25ManHEROIC_A";
+		Next = "TrialoftheCrusaderAnubarak25ManHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs_H25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs25ManHEROIC_H"] = {
 		{ 1, 47462, "", "=q4=Skyweaver Vestments", "=ds=#s5#, #a1#"};
 		{ 2, 47467, "", "=q4=Dark Essence Bindings", "=ds=#s8#, #a1#"};
 		{ 3, 47469, "", "=q4=Belt of Pale Thorns", "=ds=#s10#, #a2#"};
@@ -5470,11 +5470,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
 		{ 18, 47461, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
 		{ 19, 47463, "", "=q4=Twin's Pact", "=ds=#w9#"};
-		Prev = "TrialoftheCrusaderFactionChampions_H25ManHEROIC";
-		Next = "TrialoftheCrusaderAnubarak_H25ManHEROIC";
+		Prev = "TrialoftheCrusaderFactionChampions25ManHEROIC_H";
+		Next = "TrialoftheCrusaderAnubarak25ManHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_AHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderAnubarakHEROIC_A"] = {
 		{ 1, 47974, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
 		{ 2, 47977, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
 		{ 3, 47972, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
@@ -5493,11 +5493,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 47978, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
 		{ 19, 47963, "", "=q4=Vigilant Ward", "=ds=#w8#" };
 		{ 20, 47975, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
-		Prev = "TrialoftheCrusaderTwinValkyrs_AHEROIC";
-		Next = "TrialoftheCrusaderTribute_AHEROIC";
+		Prev = "TrialoftheCrusaderTwinValkyrsHEROIC_A";
+		Next = "TrialoftheCrusaderTributeHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_HHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderAnubarakHEROIC_H"] = {
 		{ 1, 48051, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
 		{ 2, 48054, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
 		{ 3, 48049, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
@@ -5516,11 +5516,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 48055, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
 		{ 19, 48040, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
 		{ 20, 48052, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
-		Prev = "TrialoftheCrusaderTwinValkyrs_HHEROIC";
-		Next = "TrialoftheCrusaderTribute_HHEROIC";
+		Prev = "TrialoftheCrusaderTwinValkyrsHEROIC_H";
+		Next = "TrialoftheCrusaderTributeHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_A25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderAnubarak25ManHEROIC_A"] = {
 		{ 1, 47238, "", "=q4=Maiden's Favor", "=ds=#s4#"};
 		{ 2, 47192, "", "=q4=Strength of the Nerub", "=ds=#s4#"};
 		{ 3, 47208, "", "=q4=Armbands of the Ashen Saint", "=ds=#s8#, #a1#"};
@@ -5542,11 +5542,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, 47156, "", "=q4=Stormpike Cleaver", "=ds=#h1#, #w1#"};
 		{ 23, 47206, "", "=q4=Misery's End", "=ds=#h3#, #w6#"};
 		{ 24, 47239, "", "=q4=Archon Glaive", "=ds=#w7#"};
-		Prev = "TrialoftheCrusaderTwinValkyrs_A25ManHEROIC";
-		Next = "TrialoftheCrusaderTribute_A25ManHEROIC";
+		Prev = "TrialoftheCrusaderTwinValkyrs25ManHEROIC_A";
+		Next = "TrialoftheCrusaderTribute25ManHEROIC_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderAnubarak_H25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderAnubarak25ManHEROIC_H"] = {
 		{ 1, 47490, "", "=q4=Maiden's Adoration", "=ds=#s4#"};
 		{ 2, 47481, "", "=q4=Might of the Nerub", "=ds=#s4#"};
 		{ 3, 47485, "", "=q4=Bindings of the Ashen Saint", "=ds=#s8#, #a1#"};
@@ -5568,11 +5568,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, 47475, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#"};
 		{ 23, 47483, "", "=q4=Suffering's End", "=ds=#h3#, #w6#"};
 		{ 24, 47491, "", "=q4=Hellion Glaive", "=ds=#w7#"};
-		Prev = "TrialoftheCrusaderTwinValkyrs_H25ManHEROIC";
-		Next = "TrialoftheCrusaderTribute_H25ManHEROIC";
+		Prev = "TrialoftheCrusaderTwinValkyrs25ManHEROIC_H";
+		Next = "TrialoftheCrusaderTribute25ManHEROIC_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTribute_AHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTributeHEROIC_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Call of the Grand Crusade"]};
 		{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
 		{ 4, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Skill (25)"]};
@@ -5592,11 +5592,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#" };
 		{ 24, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#" };
 		{ 25, 49044, "", "=q4=Swift Alliance Steed", "=ds=#e12# =ec1=#m7#"};
-		Prev = "TrialoftheCrusaderAnubarak_AHEROIC";
+		Prev = "TrialoftheCrusaderAnubarakHEROIC_A";
 		Next = "TrialoftheCrusaderPatterns_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTribute_HHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTributeHEROIC_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Call of the Grand Crusade"]};
 		{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
 		{ 4, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["A Tribute to Skill (25)"]};
@@ -5616,11 +5616,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 48666, "", "=q4=Drape of the Sunreavers", "=ds=#s4#" };
 		{ 24, 48667, "", "=q4=Shawl of the Devout Crusader", "=ds=#s4#" };
 		{ 25, 49046, "", "=q4=Swift Horde Wolf", "=ds=#e12# =ec1=#m6#"};
-		Prev = "TrialoftheCrusaderAnubarak_HHEROIC";
+		Prev = "TrialoftheCrusaderAnubarakHEROIC_H";
 		Next = "TrialoftheCrusaderPatterns_H";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTribute_A25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTribute25ManHEROIC_A"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Call of the Grand Crusade"]};
 		{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
 		{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
@@ -5643,11 +5643,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 47549, "", "=q4=Magni's Resolution", "=ds=#s4#"};
 		{ 25, 47545, "", "=q4=Vereesa's Dexterity", "=ds=#s4#"};
 		{ 26, 47547, "", "=q4=Varian's Furor", "=ds=#s4#"};
-		Prev = "TrialoftheCrusaderAnubarak_A25ManHEROIC";
+		Prev = "TrialoftheCrusaderAnubarak25ManHEROIC_A";
 		Next = "TrialoftheCrusaderPatterns_A";
 	};
 
-	AtlasLoot_Data["TrialoftheCrusaderTribute_H25ManHEROIC"] = {
+	AtlasLoot_Data["TrialoftheCrusaderTribute25ManHEROIC_H"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Call of the Grand Crusade"]};
 		{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
 		{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
@@ -5670,7 +5670,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 47548, "", "=q4=Garrosh's Rage", "=ds=#s4#"};
 		{ 25, 47554, "", "=q4=Lady Liadrin's Conviction", "=ds=#s4#"};
 		{ 26, 47546, "", "=q4=Sylvanas' Cunning", "=ds=#s4#"};
-		Prev = "TrialoftheCrusaderAnubarak_H25ManHEROIC";
+		Prev = "TrialoftheCrusaderAnubarak25ManHEROIC_H";
 		Next = "TrialoftheCrusaderPatterns_H";
 	};
 

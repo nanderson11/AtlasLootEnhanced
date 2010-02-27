@@ -271,9 +271,6 @@ AtlasLootNewBossButtons = {
         "TrialoftheChampionBlackKnight";
         };
 
-    -- Faction differences for Trial of the Crusader dealt with
-    -- at the bottom of this table
-
     TrialOfTheCrusader = {
         "";
         "";
@@ -290,7 +287,7 @@ AtlasLootNewBossButtons = {
         "";
         "TrialoftheCrusaderAnubarak_A";
         "";
-        "TrialoftheCrusaderTribute_AHEROIC";
+        "TrialoftheCrusaderTributeHEROIC_A";
         "TrialoftheCrusaderPatterns_A";
         };
 
@@ -1801,63 +1798,6 @@ AtlasLootNewBossButtons = {
         };
 };
 
-local englishFaction, _ = UnitFactionGroup("player")
-if englishFaction == "Horde" then
-    AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderNorthrendBeasts_H";
-        "";
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderLordJaraxxus_H";
-        "TrialoftheCrusaderFactionChampions_H";
-        "TrialoftheCrusaderTwinValkyrs_H";
-        "";
-        "";
-        "TrialoftheCrusaderAnubarak_H";
-        "";
-        "TrialoftheCrusaderTribute_HHEROIC";
-        "TrialoftheCrusaderPatterns_H";
-        };
-    AtlasLootNewBossButtons["VaultOfArchavon"] = {
-        "";
-        "VaultofArchavonArchavon1";
-        "VaultofArchavonEmalon1";
-        "VaultofArchavonKoralon1_H";
-		"VaultofArchavonToravon1";
-        };
-else
-    AtlasLootNewBossButtons["TrialOfTheCrusader"] = {
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderNorthrendBeasts_A";
-        "";
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderLordJaraxxus_A";
-        "TrialoftheCrusaderFactionChampions_A";
-        "TrialoftheCrusaderTwinValkyrs_A";
-        "";
-        "";
-        "TrialoftheCrusaderAnubarak_A";
-        "";
-        "TrialoftheCrusaderTribute_AHEROIC";
-        "TrialoftheCrusaderPatterns_A";
-        };
-    AtlasLootNewBossButtons["VaultOfArchavon"] = {
-        "";
-        "VaultofArchavonArchavon1";
-        "VaultofArchavonEmalon1";
-        "VaultofArchavonKoralon1_A";
-        "VaultofArchavonToravon1";
-        };
-end
-
 --------------------------------------------------
 -- AtlasLootBossButtons
 -- This layout is loaded for CURRENT Atlas version
@@ -2033,9 +1973,6 @@ AtlasLootBossButtons = {
         "TrialoftheChampionBlackKnight";
         };
 
-    -- Faction differences for Trial of the Crusader dealt with
-    -- at the bottom of this table
-
     TrialOfTheCrusader = {
         "";
         "";
@@ -2052,7 +1989,7 @@ AtlasLootBossButtons = {
         "";
         "TrialoftheCrusaderAnubarak_A";
         "";
-        "TrialoftheCrusaderTribute_AHEROIC";
+        "TrialoftheCrusaderTributeHEROIC_A";
         "TrialoftheCrusaderPatterns_A";
         };
 
@@ -3557,58 +3494,3 @@ AtlasLootBossButtons = {
         "ZGEnchants";
         };
 };
-
-local englishFaction, _ = UnitFactionGroup("player")
-if englishFaction == "Horde" then
-    AtlasLootBossButtons["TrialOfTheCrusader"] = {
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderNorthrendBeasts_H";
-        "";
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderLordJaraxxus_H";
-        "TrialoftheCrusaderFactionChampions_H";
-        "TrialoftheCrusaderTwinValkyrs_H";
-        "";
-        "";
-        "TrialoftheCrusaderAnubarak_H";
-        "";
-        "TrialoftheCrusaderTribute_HHEROIC";
-        "TrialoftheCrusaderPatterns_H";
-        };
-    AtlasLootBossButtons["VaultOfArchavon"] = {
-        "";
-        "VaultofArchavonArchavon1";
-        "VaultofArchavonEmalon1";
-        "VaultofArchavonKoralon1_H";
-        };
-else
-    AtlasLootBossButtons["TrialOfTheCrusader"] = {
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderNorthrendBeasts_A";
-        "";
-        "";
-        "";
-        "";
-        "TrialoftheCrusaderLordJaraxxus_A";
-        "TrialoftheCrusaderFactionChampions_A";
-        "TrialoftheCrusaderTwinValkyrs_A";
-        "";
-        "";
-        "TrialoftheCrusaderAnubarak_A";
-        "";
-        "TrialoftheCrusaderTribute_AHEROIC";
-        "TrialoftheCrusaderPatterns_A";
-        };
-    AtlasLootBossButtons["VaultOfArchavon"] = {
-        "";
-        "VaultofArchavonArchavon1";
-        "VaultofArchavonEmalon1";
-        "VaultofArchavonKoralon1_A";
-        };
-end

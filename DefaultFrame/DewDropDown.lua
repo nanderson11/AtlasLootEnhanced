@@ -217,10 +217,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
 			},
 			[20] = {
-				[BabbleZone["Trial of the Crusader"]] = {
-					{ BabbleFaction["Alliance"], "TrialoftheCrusader_A", "Submenu", BabbleZone["Trial of the Crusader"] },
-					{ BabbleFaction["Horde"], "TrialoftheCrusader_H", "Submenu", BabbleZone["Trial of the Crusader"] },
-				},
+				{ BabbleZone["Trial of the Crusader"], "TrialoftheCrusader_A", "Submenu" },
 			},
 			[21] = {
 				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
@@ -232,10 +229,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
 			},
 			[24] = {
-				[BabbleZone["Vault of Archavon"]] = {
-					{ BabbleFaction["Alliance"], "VaultofArchavon_A", "Submenu", BabbleZone["Vault of Archavon"] },
-					{ BabbleFaction["Horde"], "VaultofArchavon_H", "Submenu", BabbleZone["Vault of Archavon"] },
-				},
+				{ BabbleZone["Vault of Archavon"], "VaultofArchavon_A", "Submenu" },
 			},
 			[25] = {
 				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
@@ -818,25 +812,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_AHEROIC" },
 		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
 	},
-	["TrialoftheCrusader_H"] = {
-		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_H" },
-		{ BabbleBoss["Lord Jaraxxus"], "TrialoftheCrusaderLordJaraxxus_H" },
-		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_H" },
-		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_H" },
-		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_H" },
-		{ AL["Tribute Run"], "TrialoftheCrusaderTribute_HHEROIC" },
-		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_H" },
-	},
 	["VaultofArchavon_A"] = {
 		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
 		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
 		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_A" },
-		{ BabbleBoss["Toravon the Ice Watcher"], "VaultofArchavonToravon1" },
-	},
-	["VaultofArchavon_H"] = {
-		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
-		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
-		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_H" },
 		{ BabbleBoss["Toravon the Ice Watcher"], "VaultofArchavonToravon1" },
 	},
 	["Naxxramas80"] = {
