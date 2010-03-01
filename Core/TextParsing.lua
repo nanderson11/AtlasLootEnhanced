@@ -1060,7 +1060,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#ab#", "|TInterface\\Icons\\INV_Jewelry_Amulet_07:0|t");
     text = gsub(text, "#av#", "|TInterface\\Icons\\INV_Jewelry_Necklace_21:0|t");
     text = gsub(text, "#eos#", "|TInterface\\Icons\\Spell_Nature_EyeOfTheStorm:0|t");
-    text = gsub(text, "#arena#", "|TInterface\\PVPFrame\\PVP-ArenaPoints-Icon:0|t");
+    text = gsub(text, "#arena#", "|TInterface\\PVPFrame\\PVP-ArenaPoints-Icon:14:14:2:-1|t");
     text = gsub(text, "#markthrallmar#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
     text = gsub(text, "#markhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");
     text = gsub(text, "#halaabattle#", "|TInterface\\Icons\\INV_Misc_Rune_08:0|t");
@@ -1091,8 +1091,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#ogrilashard#", "|TInterface\\Icons\\INV_Misc_Apexis_Shard:0|t");
     text = gsub(text, "#ogrilacrystal#", "|TInterface\\Icons\\INV_Misc_Apexis_Crystal:0|t");
     text = gsub(text, "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t");
-    text = gsub(text, "#horde#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
-    text = gsub(text, "#alliance#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
+    text = gsub(text, "#horde#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:14:14:0:-1|t");
+    text = gsub(text, "#alliance#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:16:16:0:-2|t");
     text = gsub(text, "#fireflower#", "|TInterface\\Icons\\INV_SummerFest_FireFlower:0|t");
     text = gsub(text, "#t10mark#", "|TInterface\\Icons\\ability_paladin_shieldofthetemplar:0|t");
 	text = gsub(text, "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t");
@@ -1100,11 +1100,11 @@ function AtlasLoot_FixText(text)
 
     englishFaction, _ = UnitFactionGroup("player")
     if englishFaction == "Horde" then
-        text = gsub(text, "#faction#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
+        text = gsub(text, "#faction#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:14:14:0:-1|t");
         text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
         text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
     else
-        text = gsub(text, "#faction#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
+        text = gsub(text, "#faction#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:16:16:0:-2|t");
         text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
         text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");
     end

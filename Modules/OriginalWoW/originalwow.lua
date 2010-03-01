@@ -4822,7 +4822,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["AVMisc"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b1#"};
-		{ 2, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e12#", "3000 #horde#"};
+		{ 2, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e12#", "50000 #alliance#"};
 		{ 3, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "30 #av#"};
 		{ 4, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "60 #av#"};
 		{ 6, 19316, "", "=q2=Ice Threaded Arrow", "=ds=#w17#", "60 #silver# 1 #faction#"};
@@ -4831,7 +4831,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 19301, "", "=q1=Alterac Manna Biscuit", "=ds=#e3#", "70 #silver#"};
 		{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b2#"};
-		{ 17, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e12#", "3000 #horde#"};
+		{ 17, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e12#", "50000 #horde#"};
 		{ 18, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "30 #av#"};
 		{ 19, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "60 #av#"};
 		{ 21, 19317, "", "=q2=Ice Threaded Bullet", "=ds=#w18#", "60 #silver# 1 #faction#"};
