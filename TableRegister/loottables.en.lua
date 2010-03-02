@@ -1707,12 +1707,13 @@ end
 	AtlasLoot_TableNames["PvP60Accessories2_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP60Accessories1_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP60Accessories2_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP70Accessories1"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["PvP70Accessories2"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["PvP70Accessories1_A"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["PvP70Accessories1_H"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["PvP70Accessories2"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["PvP80Misc"] = { AL["PvP Misc"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP70NonSet1"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP70NonSet2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP70NonSet3"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["PvP70NonSet1"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["PvP70NonSet2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["PvP80NonSet1"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80NonSet2"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PvP80NonSet3"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
@@ -1726,10 +1727,6 @@ end
 	AtlasLoot_TableNames["WrathfulGladiatorWeapons1"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["WrathfulGladiatorWeapons2"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["WrathfulGladiatorWeapons3"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Arena2Weapons1"] = { AL["Arena Season 2 Weapons"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Arena2Weapons2"] = { AL["Arena Season 2 Weapons"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Arena3Weapons1"] = { AL["Arena Season 3 Weapons"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Arena3Weapons2"] = { AL["Arena Season 3 Weapons"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Arena4Weapons1"] = { AL["Arena Season 4 Weapons"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Arena4Weapons2"] = { AL["Arena Season 4 Weapons"], "AtlasLootBurningCrusade" };
 
@@ -1763,6 +1760,7 @@ end
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };
 	AtlasLoot_TableNames["PETMENU"] = { AL["Vanity Pets"], "Menu" };
 	AtlasLoot_TableNames["PVPSET"] = { AL["PvP Armor Sets"]..": "..AL["Level 60"], "Menu" };
+	AtlasLoot_TableNames["PVPMENUOLD"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["ABMENU"] = { BabbleZone["Arathi Basin"], "Menu" };
 	AtlasLoot_TableNames["WSGMENU"] = { BabbleZone["Warsong Gulch"], "Menu" };
@@ -1770,7 +1768,6 @@ end
 	AtlasLoot_TableNames["LEVEL60PVPREWARDS"] = { AL["PvP Rewards (Level 60)"], "Menu" };
 	AtlasLoot_TableNames["LEVEL70PVPREWARDS"] = { AL["PvP Rewards (Level 70)"], "Menu" };
 	AtlasLoot_TableNames["PVP70RepSET"] = { AL["PvP Reputation Sets"]..": "..AL["Level 70"], "Menu" };
-	AtlasLoot_TableNames["PVP70NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
 	AtlasLoot_TableNames["LEVEL80PVPREWARDS"] = { AL["PvP Rewards (Level 80)"], "Menu" };
 	AtlasLoot_TableNames["PVP80NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
 	AtlasLoot_TableNames["LEVEL80PVPSETS"] = { AL["Old Level 80 PvP Sets"], "Menu" };

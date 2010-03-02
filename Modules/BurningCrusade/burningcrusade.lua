@@ -3861,58 +3861,98 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		----------------------------------
 		--- PvP Level 70 - Accessories ---
 		----------------------------------
-
-	AtlasLoot_Data["PvP70Accessories1"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "40000 #alliance#"};
-		{ 3, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "23000 #alliance#"};
-		{ 4, 28235, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 5, 28237, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 6, 28238, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 7, 28236, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 8, 30349, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 9, 28234, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 10, 30351, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 11, 30348, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 12, 30350, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
-		{ 13, 28247, "", "=q3=Band of Dominance", "=ds=", "10000 #alliance#"};
-		{ 14, 28246, "", "=q3=Band of Triumph", "=ds=", "10000 #alliance#"};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 37865, "", "=q4=Medallion of the Horde", "=ds=", "40000 #horde#"};
-		{ 18, 24551, "", "=q4=Talisman of the Horde", "=ds=", "23000 #horde#"};
-		{ 19, 28241, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 20, 28243, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 21, 28239, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 22, 28242, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 23, 30346, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 24, 28240, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 25, 30345, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 26, 30343, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 27, 30344, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
-		{ 28, 28247, "", "=q3=Band of Dominance", "=ds=", "10000 #horde#"};
-		{ 29, 28246, "", "=q3=Band of Triumph", "=ds=", "10000 #horde#"};
+		
+	AtlasLoot_Data["PvP70Accessories1_A"] = {
+		{ 1, 28235, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 2, 28237, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 3, 28238, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 4, 28236, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 5, 30349, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 6, 28234, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 7, 30351, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 8, 30348, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 9, 30350, "", "=q3=Medallion of the Alliance", "=ds=", "8000 #alliance#"};
+		{ 11, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 12, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 13, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		{ 14, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		{ 15, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 8 #faction#"};
+		{ 16, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "40000 #alliance#"};
+		{ 17, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "23000 #alliance#"};
+		{ 19, 28120, "", "=q4=Gleaming Ornate Dawnstone", "=ds=", "6885 #faction#"};
+		{ 20, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "6885 #faction#"};
+		{ 21, 28362, "", "=q4=Bold Ornate Ruby", "=ds=", "6885 #faction#"};
+		{ 22, 28118, "", "=q4=Runed Ornate Ruby", "=ds=", "6885 #faction#"};
+		{ 23, 28363, "", "=q4=Inscribed Ornate Topaz", "=ds=", "8500 #faction#"};
+		{ 24, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "8500 #faction#"};
+		{ 26, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 27, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 28, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		{ 29, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
 		Next = "PvP70Accessories2";
-		Back = "LEVEL70PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
+	AtlasLoot_Data["PvP70Accessories1_H"] = {
+		{ 1, 28241, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 2, 28243, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 3, 28239, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 4, 28242, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 5, 30346, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 6, 28240, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 7, 30345, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 8, 30343, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 9, 30344, "", "=q3=Medallion of the Horde", "=ds=", "8000 #horde#"};
+		{ 11, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 12, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 13, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		{ 14, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		{ 15, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 8 #faction#"};
+		{ 16, 37865, "", "=q4=Medallion of the Horde", "=ds=", "40000 #horde#"};
+		{ 17, 24551, "", "=q4=Talisman of the Horde", "=ds=", "23000 #horde#"};
+		{ 19, 28120, "", "=q4=Gleaming Ornate Dawnstone", "=ds=", "6885 #faction#"};
+		{ 20, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "6885 #faction#"};
+		{ 21, 28362, "", "=q4=Bold Ornate Ruby", "=ds=", "6885 #faction#"};
+		{ 22, 28118, "", "=q4=Runed Ornate Ruby", "=ds=", "6885 #faction#"};
+		{ 23, 28363, "", "=q4=Inscribed Ornate Topaz", "=ds=", "8500 #faction#"};
+		{ 24, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "8500 #faction#"};
+		{ 26, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 27, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "200 #faction#"};
+		{ 28, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		{ 29, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "200 #faction#"};
+		Next = "PvP70Accessories2";
+		Back = "PVPMENU";
+	};
+	
 	AtlasLoot_Data["PvP70Accessories2"] = {
-		{ 1, 28362, "", "=q4=Bold Ornate Ruby", "=ds=", "6885 #faction#"};
-		{ 2, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "6885 #faction#"};
-		{ 3, 28363, "", "=q4=Inscribed Ornate Topaz", "=ds=", "8500 #faction#"};
-		{ 5, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "2 #wsg#"};
-		{ 6, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "2 #av#"};
-		{ 7, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "2 #wsg#"};
-		{ 8, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "2 #av#"};
-		{ 9, 32453, "", "=q1=Star's Tears", "=ds=", "25 #silver# 2 #faction#"};
-		{ 16, 28118, "", "=q4=Runed Ornate Ruby", "=ds=", "6885 #faction#"};
-		{ 17, 28120, "", "=q4=Gleaming Ornate Dawnstone", "=ds=", "6885 #faction#"};
-		{ 18, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "8500 #faction#"};
-		{ 20, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "2 #ab#"};
-		{ 21, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "2 #eos#"};
-		{ 22, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "2 #ab#"};
-		{ 23, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "2 #eos#"};
-		Prev = "PvP70Accessories1";
-		Back = "LEVEL70PVPREWARDS";
+		{ 1, 28378, "", "=q4=Sergeant's Heavy Cape", "=ds=", "8000 #faction#"};
+		{ 2, 28377, "", "=q4=Sergeant's Heavy Cloak", "=ds=", "8000 #faction#"};
+		{ 4, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=", "21000 #faction#"};
+		{ 5, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "21000 #faction#"};
+		{ 6, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "21000 #faction#"};
+		{ 7, 44429, "", "=q4=Volanthius Shroud", "=ds=", "21000 #faction#"};
+		{ 9, 41588, "", "=q4=Battlemaster's Aggression", "=ds=", "36000 #faction#"};
+		{ 10, 41587, "", "=q4=Battlemaster's Celerity", "=ds=", "36000 #faction#"};
+		{ 11, 41590, "", "=q4=Battlemaster's Courage", "=ds=", "36000 #faction#"};
+		{ 12, 41589, "", "=q4=Battlemaster's Resolve", "=ds=", "36000 #faction#"};
+		{ 14, 28247, "", "=q3=Band of Dominance", "=ds=", "10000 #alliance#"};
+		{ 15, 28246, "", "=q3=Band of Triumph", "=ds=", "10000 #alliance#"};
+		{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "16000 #faction#"};
+		{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "16000 #faction#"};
+		{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "16000 #faction#"};
+		{ 19, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=", "16000 #faction#"};
+		{ 20, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=", "16000 #faction#"};
+		{ 21, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=", "16000 #faction#"};
+		{ 23, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "16000 #faction#"};
+		{ 24, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "16000 #faction#"};
+		{ 25, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "16000 #faction#"};
+		{ 26, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "16000 #faction#"};
+		{ 27, 33853, "", "=q4=Vindicator's Band of Dominance", "=ds=", "12000 #faction#"};
+		{ 28, 33918, "", "=q4=Vindicator's Band of Salvation", "=ds=", "12000 #faction#"};
+		{ 29, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "12000 #faction#"};
+		{ 30, 33919, "", "=q4=Vindicator's Band of Triumph", "=ds=", "12000 #faction#"};
+		Prev = "PvP70Accessories1_A";
+		Back = "PVPMENU";
 	};
 
 		------------------------------------
@@ -3920,31 +3960,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		------------------------------------
 
 	AtlasLoot_Data["PvP70NonSet1"] = {
-		{ 1, 28378, "", "=q4=Sergeant's Heavy Cape", "=ds=", "8000 #faction#"};
-		{ 2, 28377, "", "=q4=Sergeant's Heavy Cloak", "=ds=", "8000 #faction#"};
-		{ 4, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=", "21000 #faction#"};
-		{ 5, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "21000 #faction#"};
-		{ 6, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "21000 #faction#"};
-		{ 7, 44429, "", "=q4=Volanthius Shroud", "=ds=", "21000 #faction#"};
-		{ 9, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "16000 #faction#"};
-		{ 10, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "16000 #faction#"};
-		{ 11, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "16000 #faction#"};
-		{ 12, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "16000 #faction#"};
-		{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "16000 #faction#"};
-		{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "16000 #faction#"};
-		{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "16000 #faction#"};
-		{ 19, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=", "16000 #faction#"};
-		{ 20, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=", "16000 #faction#"};
-		{ 21, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=", "16000 #faction#"};
-		{ 23, 41588, "", "=q4=Battlemaster's Aggression", "=ds=", "36000 #faction#"};
-		{ 24, 41587, "", "=q4=Battlemaster's Celerity", "=ds=", "36000 #faction#"};
-		{ 25, 41590, "", "=q4=Battlemaster's Courage", "=ds=", "36000 #faction#"};
-		{ 26, 41589, "", "=q4=Battlemaster's Resolve", "=ds=", "36000 #faction#"};
-		Next = "PvP70NonSet2";
-		Back = "PVP70NONSETEPICS";
-	};
-
-	AtlasLoot_Data["PvP70NonSet2"] = {
 		{ 1, 35168, "", "=q4=Guardian's Dreadweave Cuffs", "=ds=", "13000 #faction#"};
 		{ 2, 35153, "", "=q4=Guardian's Dreadweave Belt", "=ds=", "18000 #faction#"};
 		{ 3, 35138, "", "=q4=Guardian's Dreadweave Stalkers", "=ds=", "18000 #faction#"};
@@ -3966,12 +3981,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 35180, "", "=q4=Guardian's Wyrmhide Bracers", "=ds=", "13000 #faction#"};
 		{ 29, 35165, "", "=q4=Guardian's Wyrmhide Belt", "=ds=", "18000 #faction#"};
 		{ 30, 35150, "", "=q4=Guardian's Wyrmhide Boots", "=ds=", "18000 #faction#"};
-		Prev = "PvP70NonSet1";
-		Next = "PvP70NonSet3";
-		Back = "PVP70NONSETEPICS";
+		Next = "PvP70NonSet2";
+		Back = "PVPMENU";
 	};
 
-	AtlasLoot_Data["PvP70NonSet3"] = {
+	AtlasLoot_Data["PvP70NonSet2"] = {
 		{ 1, 35166, "", "=q4=Guardian's Chain Bracers", "=ds=", "13000 #faction#"};
 		{ 2, 35151, "", "=q4=Guardian's Chain Girdle", "=ds=", "18000 #faction#"};
 		{ 3, 35136, "", "=q4=Guardian's Chain Sabatons", "=ds=", "18000 #faction#"};
@@ -3996,8 +4010,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 35178, "", "=q4=Guardian's Scaled Bracers", "=ds=", "13000 #faction#"};
 		{ 29, 35163, "", "=q4=Guardian's Scaled Belt", "=ds=", "18000 #faction#"};
 		{ 30, 35148, "", "=q4=Guardian's Scaled Greaves", "=ds=", "18000 #faction#"};
-		Prev = "PvP70NonSet2";
-		Back = "PVP70NONSETEPICS";
+		Prev = "PvP70NonSet1";
+		Back = "PVPMENU";
 	};
 
 		--------------------------
@@ -4480,116 +4494,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "ARENASET";
 	};
 
---[[		--------------------------------
-		--- Arena Season 2 - Weapons ---
-		--------------------------------
-
-	AtlasLoot_Data["Arena2Weapons1"] = {
-		{ 1, 32028, "", "=q4=Merciless Gladiator's Right Ripper", "=ds=", "18000 #faction# 20 #eos#", ""};
-		{ 2, 32003, "", "=q4=Merciless Gladiator's Left Ripper", "=ds=", "9000 #faction# 20 #eos#", ""};
-		{ 3, 32053, "", "=q4=Merciless Gladiator's Spellblade", "=ds=", "25200 #faction# 20 #eos#", ""};
-		{ 4, 32044, "", "=q4=Merciless Gladiator's Shanker", "=ds=", "18000 #faction# 20 #eos#", ""};
-		{ 5, 32046, "", "=q4=Merciless Gladiator's Shiv", "=ds=", "9000 #faction# 20 #eos#", ""};
-		{ 6, 32052, "", "=q4=Merciless Gladiator's Slicer", "=ds=", "18000 #faction# 20 #eos#", ""};
-		{ 7, 32027, "", "=q4=Merciless Gladiator's Quickblade", "=ds=", "9000 #faction# 20 #eos#", ""};
-		{ 8, 31984, "", "=q4=Merciless Gladiator's Greatsword", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 9, 31965, "", "=q4=Merciless Gladiator's Cleaver", "=ds=", "18000 #faction# 20 #eos#", ""};
-		{ 10, 31985, "", "=q4=Merciless Gladiator's Hacker", "=ds=", "9000 #faction# 20 #eos#", ""};
-		{ 11, 31966, "", "=q4=Merciless Gladiator's Decapitator", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 12, 32963, "", "=q4=Merciless Gladiator's Gavel", "=ds=", "25200 #faction# 20 #eos#", ""};
-		{ 13, 32964, "", "=q4=Merciless Gladiator's Salvation", "=ds=", "25200 #faction# 20 #eos#", ""};
-		{ 14, 32026, "", "=q4=Merciless Gladiator's Pummeler", "=ds=", "18000 #faction# 20 #eos#", ""};
-		{ 15, 31958, "", "=q4=Merciless Gladiator's Bonecracker", "=ds=", "9000 #faction# 20 #eos#", ""};
-		{ 16, 31959, "", "=q4=Merciless Gladiator's Bonegrinder", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 17, 32014, "", "=q4=Merciless Gladiator's Maul", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 18, 32025, "", "=q4=Merciless Gladiator's Painsaw", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 19, 32055, "", "=q4=Merciless Gladiator's War Staff", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 20, 33313, "", "=q4=Merciless Gladiator's Barrier", "=ds=", "15000 #faction# 20 #eos#", ""};
-		{ 21, 33309, "", "=q4=Merciless Gladiator's Redoubt", "=ds=", "15000 #faction# 20 #eos#", ""};
-		{ 22, 32045, "", "=q4=Merciless Gladiator's Shield Wall", "=ds=", "15000 #faction# 20 #eos#", ""};
-		{ 23, 32054, "", "=q4=Merciless Gladiator's War Edge", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 24, 31986, "", "=q4=Merciless Gladiator's Crossbow of the Phoenix", "=ds=", "27000 #faction# 40 #av#", ""};
-		{ 25, 32962, "", "=q4=Merciless Gladiator's Touch of Defeat", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 26, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=", "9000 #faction# 20 #eos#", ""};
-		{ 27, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=", "9000 #faction# 20 #eos#", ""};
-		Next = "Arena2Weapons2";
-		Back = "LEVEL70PVPREWARDS";
-	};
-
-	AtlasLoot_Data["Arena2Weapons2"] = {
-		{ 1, 33946, "", "=q4=Merciless Gladiator's Idol of Resolve", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 2, 33943, "", "=q4=Merciless Gladiator's Idol of Steadfastness", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 3, 33076, "", "=q4=Merciless Gladiator's Idol of Tenacity", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 4, 33937, "", "=q4=Merciless Gladiator's Libram of Fortitude", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 5, 33077, "", "=q4=Merciless Gladiator's Libram of Justice", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 6, 33949, "", "=q4=Merciless Gladiator's Libram of Vengeance", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 7, 33940, "", "=q4=Merciless Gladiator's Totem of Indomitability", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 8, 33952, "", "=q4=Merciless Gladiator's Totem of Survival", "=ds=", "8000 #faction# 10 #eos#", ""};
-		{ 9, 33078, "", "=q4=Merciless Gladiator's Totem of the Third Wind", "=ds=", "8000 #faction# 10 #eos#", ""};
-		Prev = "Arena2Weapons1";
-		Back = "LEVEL70PVPREWARDS";
-	};
-
-		--------------------------------
-		--- Arena Season 3 - Weapons ---
-		--------------------------------
-
-	AtlasLoot_Data["Arena3Weapons1"] = {
-		{ 1, 33737, "", "=q4=Vengeful Gladiator's Right Ripper", "=ds=", "2100 #arena# #reqrating# 1800", ""};
-		{ 2, 33705, "", "=q4=Vengeful Gladiator's Left Ripper", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 3, 34016, "", "=q4=Vengeful Gladiator's Left Render", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 4, 33763, "", "=q4=Vengeful Gladiator's Spellblade", "=ds=", "2520 #arena# #reqrating# 1800", ""};
-		{ 5, 33754, "", "=q4=Vengeful Gladiator's Shanker", "=ds=", "2100 #arena# #reqrating# 1800", ""};
-		{ 6, 33801, "", "=q4=Vengeful Gladiator's Mutilator", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 7, 33756, "", "=q4=Vengeful Gladiator's Shiv", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 8, 33762, "", "=q4=Vengeful Gladiator's Slicer", "=ds=", "2100 #arena# #reqrating# 1800", ""};
-		{ 9, 33734, "", "=q4=Vengeful Gladiator's Quickblade", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 10, 33688, "", "=q4=Vengeful Gladiator's Greatsword", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 11, 33669, "", "=q4=Vengeful Gladiator's Cleaver", "=ds=", "2100 #arena# #reqrating# 1800", ""};
-		{ 12, 34015, "", "=q4=Vengeful Gladiator's Chopper", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 13, 33689, "", "=q4=Vengeful Gladiator's Hacker", "=ds=", "900 #arena# #reqrating# 1800", ""};
-		{ 14, 33670, "", "=q4=Vengeful Gladiator's Decapitator", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 15, 34014, "", "=q4=Vengeful Gladiator's Waraxe", "=ds=", "800 #arena#", ""};
-		{ 16, 33687, "", "=q4=Vengeful Gladiator's Gavel", "=ds=", "2520 #arena# #reqrating# 1800", ""};
-		{ 17, 33743, "", "=q4=Vengeful Gladiator's Salvation", "=ds=", "2520 #arena# #reqrating# 1800", ""};
-		{ 18, 33733, "", "=q4=Vengeful Gladiator's Pummeler", "=ds=", "2100 #arena# #reqrating# 1800", ""};
-		{ 19, 33662, "", "=q4=Vengeful Gladiator's Bonecracker", "=ds=", "2520 #arena# #reqrating# 1800", ""};
-		{ 20, 33663, "", "=q4=Vengeful Gladiator's Bonegrinder", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 21, 33727, "", "=q4=Vengeful Gladiator's Painsaw", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 22, 34540, "", "=q4=Vengeful Gladiator's Battle Staff", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 23, 33716, "", "=q4=Vengeful Gladiator's Staff", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 24, 33766, "", "=q4=Vengeful Gladiator's War Staff", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		Next = "Arena3Weapons2";
-		Back = "LEVEL70PVPREWARDS";
-	};
-
-	AtlasLoot_Data["Arena3Weapons2"] = {
-		{ 1, 33661, "", "=q4=Vengeful Gladiator's Barrier", "=ds=", "1500 #arena# #reqrating# 1800", ""};
-		{ 2, 33735, "", "=q4=Vengeful Gladiator's Redoubt", "=ds=", "1500 #arena# #reqrating# 1800", ""};
-		{ 3, 33755, "", "=q4=Vengeful Gladiator's Shield Wall", "=ds=", "1500 #arena# #reqrating# 1800", ""};
-		{ 4, 33765, "", "=q4=Vengeful Gladiator's War Edge", "=ds=", "800 #arena#", ""};
-		{ 5, 34529, "", "=q4=Vengeful Gladiator's Longbow", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 6, 33006, "", "=q4=Vengeful Gladiator's Heavy Crossbow", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 7, 34530, "", "=q4=Vengeful Gladiator's Rifle", "=ds=", "3000 #arena# #reqrating# 1800", ""};
-		{ 8, 34059, "", "=q4=Vengeful Gladiator's Baton of Light", "=ds=", "800 #arena#", ""};
-		{ 9, 34066, "", "=q4=Vengeful Gladiator's Piercing Touch", "=ds=", "800 #arena#", ""};
-		{ 10, 33764, "", "=q4=Vengeful Gladiator's Touch of Defeat", "=ds=", "800 #arena#", ""};
-		{ 11, 33681, "", "=q4=Vengeful Gladiator's Endgame", "=ds=", "900 #arena#", ""};
-		{ 12, 34033, "", "=q4=Vengeful Gladiator's Grimoire", "=ds=", "900 #arena#", ""};
-		{ 13, 33736, "", "=q4=Vengeful Gladiator's Reprieve", "=ds=", "900 #arena#", ""};
-		{ 16, 33947, "", "=q4=Vengeful Gladiator's Idol of Resolve", "=ds=", "800 #arena#", ""};
-		{ 17, 33944, "", "=q4=Vengeful Gladiator's Idol of Steadfastness", "=ds=", "800 #arena#", ""};
-		{ 18, 33841, "", "=q4=Vengeful Gladiator's Idol of Tenacity", "=ds=", "800 #arena#", ""};
-		{ 19, 33938, "", "=q4=Vengeful Gladiator's Libram of Fortitude", "=ds=", "800 #arena#", ""};
-		{ 20, 33842, "", "=q4=Vengeful Gladiator's Libram of Justice", "=ds=", "800 #arena#", ""};
-		{ 21, 33950, "", "=q4=Vengeful Gladiator's Libram of Vengeance", "=ds=", "800 #arena#", ""};
-		{ 22, 33941, "", "=q4=Vengeful Gladiator's Totem of Indomitability", "=ds=", "800 #arena#", ""};
-		{ 23, 33953, "", "=q4=Vengeful Gladiator's Totem of Survival", "=ds=", "800 #arena#", ""};
-		{ 24, 33843, "", "=q4=Vengeful Gladiator's Totem of the Third Wind", "=ds=", "800 #arena#", ""};
-		Prev = "Arena3Weapons1";
-		Back = "LEVEL70PVPREWARDS";
-	};]]--
-
 		--------------------------------
 		--- Arena Season 4 - Weapons ---
 		--------------------------------
@@ -4623,7 +4527,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 26, 35103, "", "=q4=Brutal Gladiator's Staff", "=ds=#w9#", "3750 #arena#", ""};
 		{ 27, 35109, "", "=q4=Brutal Gladiator's War Staff", "=ds=#w9#", "3750 #arena#", ""};
 		Next = "Arena4Weapons2";
-		Back = "LEVEL70PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["Arena4Weapons2"] = {
@@ -4650,7 +4554,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 35105, "", "=q4=Brutal Gladiator's Totem of Survival", "=ds=#w15#", "1000 #arena#", ""};
 		{ 24, 35106, "", "=q4=Brutal Gladiator's Totem of the Third Wind", "=ds=#w15#", "1000 #arena#", ""};
 		Prev = "Arena4Weapons1";
-		Back = "LEVEL70PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	--------------------------

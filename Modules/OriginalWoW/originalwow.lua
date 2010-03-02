@@ -4823,8 +4823,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["AVMisc"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b1#"};
 		{ 2, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e12#", "50000 #alliance#"};
-		{ 3, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "30 #av#"};
-		{ 4, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "60 #av#"};
+		{ 3, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "15000 #alliance#"};
+		{ 4, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "15000 #alliance#"};
 		{ 6, 19316, "", "=q2=Ice Threaded Arrow", "=ds=#w17#", "60 #silver# 1 #faction#"};
 		{ 7, 17348, "", "=q1=Major Healing Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
 		{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
@@ -4832,8 +4832,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b2#"};
 		{ 17, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e12#", "50000 #horde#"};
-		{ 18, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "30 #av#"};
-		{ 19, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "60 #av#"};
+		{ 18, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "15000 #horde#"};
+		{ 19, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "15000 #horde#"};
 		{ 21, 19317, "", "=q2=Ice Threaded Bullet", "=ds=#w18#", "60 #silver# 1 #faction#"};
 		{ 22, 17351, "", "=q1=Major Mana Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
 		{ 23, 17352, "", "=q1=Superior Mana Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
@@ -5785,7 +5785,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 19, 18855, "", "=q4=Grand Marshal's Hand Cannon", "=ds=#w5#", "13000 #alliance#", ""};
 		{ 20, 23452, "", "=q4=Grand Marshal's Tome of Power", "=ds=#s15#", "13000 #alliance#", ""};
 		{ 21, 23453, "", "=q4=Grand Marshal's Tome of Restoration", "=ds=#s15#", "13000 #alliance#", ""};
-		Back = "LEVEL60PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["PVPWeapons_H"] = {
@@ -5810,7 +5810,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 19, 18860, "", "=q4=High Warlord's Street Sweeper", "=ds=#w5#", "13000 #horde#", ""};
 		{ 20, 23468, "", "=q4=High Warlord's Tome of Destruction", "=ds=#s15#", "13000 #horde#", ""};
 		{ 21, 23469, "", "=q4=High Warlord's Tome of Mending", "=ds=#s15#", "13000 #horde#", ""};
-		Back = "LEVEL60PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 		--------------------------------
@@ -5818,11 +5818,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--------------------------------
 
 	AtlasLoot_Data["PvP60Accessories1_A"] = {
-		{ 1, 29465, "", "=q4=Black Battlestrider", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 2, 29467, "", "=q4=Black War Ram", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 3, 29468, "", "=q4=Black War Steed Bridle", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 4, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 5, 35906, "", "=q4=Reins of the Black War Elekk", "=ds#e12#=", "30 #av# 30 #ab# 30 #wsg#", ""};
+		{ 1, 29465, "", "=q4=Black Battlestrider", "=ds=#e12#", "50000 #alliance#", ""};
+		{ 2, 29467, "", "=q4=Black War Ram", "=ds=#e12#", "50000 #alliance#", ""};
+		{ 3, 29468, "", "=q4=Black War Steed Bridle", "=ds=#e12#", "50000 #alliance#", ""};
+		{ 4, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e12#", "50000 #alliance#", ""};
+		{ 5, 35906, "", "=q4=Reins of the Black War Elekk", "=ds#e12#=", "50000 #alliance#", ""};
 		{ 7, 18863, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "2805 #alliance#", ""};
 		{ 8, 18856, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "2805 #alliance#", ""};
 		{ 9, 18859, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "2805 #alliance#", ""};
@@ -5833,21 +5833,21 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 14, 18858, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "2805 #alliance#", ""};
 		{ 15, 18854, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "2805 #alliance#", ""};
 		{ 16, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "3 #ab# 3 #wsg#", ""};
-		{ 17, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "20 #av# 20 #ab# 20 #wsg#", ""};
+		{ 17, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "20000 #alliance#", ""};
 		{ 18, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "15300 #alliance#", ""};
 		{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 1 #alliance#", ""};
 		{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #alliance#", ""};
 		{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #alliance#", ""};
 		Next = "PvP60Accessories2_A";
-		Back = "LEVEL60PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["PvP60Accessories1_H"] = {
-		{ 1, 29466, "", "=q4=Black War Kodo", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 2, 29469, "", "=q4=Horn of the Black War Wolf", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 3, 29470, "", "=q4=Red Skeletal Warhorse", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 4, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
-		{ 5, 34129, "", "=q4=Swift Warstrider", "=ds=#e12#", "30 #av# 30 #ab# 30 #wsg#", ""};
+		{ 1, 29466, "", "=q4=Black War Kodo", "=ds=#e12#", "50000 #horde#", ""};
+		{ 2, 29469, "", "=q4=Horn of the Black War Wolf", "=ds=#e12#", "50000 #horde#", ""};
+		{ 3, 29470, "", "=q4=Red Skeletal Warhorse", "=ds=#e12#", "50000 #horde#", ""};
+		{ 4, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e12#", "50000 #horde#", ""};
+		{ 5, 34129, "", "=q4=Swift Warstrider", "=ds=#e12#", "50000 #horde#", ""};
 		{ 7, 18853, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
 		{ 8, 18846, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
 		{ 9, 18850, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
@@ -5858,13 +5858,13 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 14, 18852, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
 		{ 15, 18834, "", "=q3=Insignia of the Horde", "=ds=#s14#", "2805 #horde#", ""};
 		{ 16, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "3 #ab# 3 #wsg#", ""};
-		{ 17, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "20 #av# 20 #ab# 20 #wsg#", ""};
+		{ 17, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "20000 #horde#", ""};
 		{ 18, 18607, "", "=q1=Horde Battle Standard", "=ds=", "15300 #horde#", ""};
 		{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 1 #horde#", ""};
 		{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #horde#", ""};
 		{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #horde#", ""};
 		Next = "PvP60Accessories2_H";
-		Back = "LEVEL60PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["PvP60Accessories2_A"] = {
@@ -5885,7 +5885,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 18444, "", "=q3=Master Sergeant's Insignia", "=ds=#s2#", "300 #alliance#", ""};
 		{ 22, 18443, "", "=q3=Master Sergeant's Insignia", "=ds=#s2#", "1600 #alliance#", ""};
 		Prev = "PvP60Accessories1_A";
-		Back = "LEVEL60PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["PvP60Accessories2_H"] = {
@@ -5906,7 +5906,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 18428, "", "=q3=Senior Sergeant's Insignia", "=ds=#s2#", "300 #horde#", ""};
 		{ 22, 16335, "", "=q3=Senior Sergeant's Insignia", "=ds=#s2#", "1600 #horde#", ""};
 		Prev = "PvP60Accessories2";
-		Back = "LEVEL60PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	----------------
