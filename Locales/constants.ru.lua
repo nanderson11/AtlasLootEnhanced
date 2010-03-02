@@ -193,6 +193,7 @@ if AL then
 	AL["Old Level 80 PvP Sets"] = "Старые 80 ур. PvP комплекты";
 	AL["Arena Season 7/8 Sets"] = "Арена комплекты 7/8 сезона";
 	AL["PvP Class Items"] = "PvP предметы";
+	AL["NOT AVAILABLE ANYMORE"] = "Больше не доступно";
 
 	-- World Events
     AL["Abyssal Council"] = "Совет Бездны";
@@ -599,10 +600,10 @@ if AL then
     AL["Path of the Violet Restorer"] = "Исцелитель из Аметистового Ока";
 	
 	-- Ashen Verdict Paths
-	--AL["Path of Courage"] = true;
-	--AL["Path of Destruction"] = true;
-	--AL["Path of Vengeance"] = true;
-	--AL["Path of Wisdom"] = true;
+	AL["Path of Courage"] = "Путь отваги";
+	AL["Path of Destruction"] = "Путь разрушения";
+	AL["Path of Vengeance"] = "Путь мести";
+	AL["Path of Wisdom"] = "Путь мудрости";
 
     -- AQ Opening Event
     AL["Red Scepter Shard"] = "Осколок красного скипетра";
@@ -1142,6 +1143,7 @@ if AL then
     AL["Deadly Gladiator\'s Weapons"] = "Оружие смертоносного гладиатора";  --unused
 	AL["Furious Gladiator\'s Weapons"] = "Оружие гневного гладиатора";
     AL["Relentless Gladiator\'s Weapons"] = "Оружие безжалостного гладиатора";
+	AL["Wrathful Gladiator\'s Weapons"] = "Оружие разгневанного гладиатора";
 
 	-- Months
 	AL["January"] = "Январь";
@@ -1324,6 +1326,7 @@ if AL then
 	AL["Faction Champions"] = "Чемпионы фракций"; -- if you have a better name, use it.
 	AL["Razzashi Raptor"] = "Ящер Раззаши";
 	AL["Deviate Ravager/Deviate Guardian"] = "Загадочный опустошитель/Загадочный страж";
+	AL["Krick and Ick"] = "Ик и Крик";
 
     -- Zones
     AL["World Drop"] = "Мировой выпад";
@@ -1394,7 +1397,9 @@ if AL then
     AL["Cracked Egg"] = "Треснутое яйцо";
 	AL["Small Spice Bag"] = "Маленький мешочек со специями";
 	AL["Handful of Candy"] = "Пригоршня конфет";
-	AL["Krick and Ick"] = "Ик и Крик";
+	AL["Lovely Dress Box"] = "Коробка с красивым платьем";
+	AL["Dinner Suit Box"] = "Коробка с вечерним костюмом";
+	AL["Bag of Heart Candies"] = "Пакетик с леденцами-сердечками";
 
 	-- The next 4 lines are the tooltip for the Server Query Button
 	-- The translation doesn't have to be literal, just re-write the

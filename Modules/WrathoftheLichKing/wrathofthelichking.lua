@@ -7751,7 +7751,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=", "13200 #faction# 770 #arena# / 95 #eoffrost#"};
 		{ 8, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
 		{ 9, 51489, "", "=q4=Wrathful Gladiator's Satin Hood", "=ds=", "2370 #arena# #reqrating# 1950"};
-		{ 10, 51941, "", "=q4=Wrathful Gladiator's Satin Mantle", "=ds=", "1930 #arena# #reqrating# 2000"};
+		{ 10, 51491, "", "=q4=Wrathful Gladiator's Satin Mantle", "=ds=", "1930 #arena# #reqrating# 2000"};
 		{ 11, 51487, "", "=q4=Wrathful Gladiator's Satin Robe", "=ds=", "2370 #arena# #reqrating# 1600"};
 		{ 12, 51488, "", "=q4=Wrathful Gladiator's Satin Gloves", "=ds=", "1430 #arena# #reqrating# 1400"};
 		{ 13, 51490, "", "=q4=Wrathful Gladiator's Satin Leggings", "=ds=", "2370 #arena# #reqrating# 1500"};
