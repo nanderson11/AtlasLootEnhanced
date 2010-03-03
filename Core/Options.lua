@@ -288,6 +288,7 @@ end
 
 local Authors = {
 	["Calî"] = "Arthas", --Cal\195\174
+	["Hegarol"] = "Dun Morogh",
 }
  
 function AtlasLoot_UnitTarget()
