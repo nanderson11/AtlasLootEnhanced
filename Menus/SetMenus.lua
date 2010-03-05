@@ -73,8 +73,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..BabbleInventory["Mail"].." & "..BabbleInventory["Plate"], ""};
 		{ 4, "EmblemofTriumph3", "spell_holy_summonchampion", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
 		{ 17, "LEVEL80PVPSETS", "spell_holy_summonchampion", "=ds="..AL["Level 80 PvP Sets"], "" };
-		{ 18, "T9SETALLIANCE", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"].." : "..BabbleFaction["Alliance"]};
-		{ 19, "T9SETHORDE", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"].." : "..BabbleFaction["Horde"]};
+		{ 18, "T9SET", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"]};
 		Back = "SETMENU";
 	};
 
