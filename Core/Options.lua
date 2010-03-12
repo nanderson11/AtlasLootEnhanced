@@ -287,17 +287,24 @@ function AtlasLoot_CraftingLink_OnClick()
 end
 
 local Authors = {
-	["Calî"] = "Arthas", --Cal\195\174
+	["Calî"] = "Arthas",
+	["Lâg"] = "Arthas",
+	--["Daviesh"] = "Thaurissan",
 	["Hegarol"] = "Dun Morogh",
+	
 }
- 
+
 function AtlasLoot_UnitTarget()
 	local name = GameTooltip:GetUnit()
-	local _, realm = UnitName("mouseover")
-	if not realm then realm = GetRealmName() end
-	if Authors[name] then
-		if Authors[name] == realm then
-			GameTooltip:AddLine("AtlasLoot Author |TInterface\\AddOns\\AtlasLoot\\Images\\gold:0|t", 0, 1, 0 )
+	if UnitName("mouseover") == name then 
+		local _, realm = UnitName("mouseover")
+		if not realm then 
+			realm = GetRealmName()
+		end; 
+		if name and Authors[name] then
+			if Authors[name] == realm then
+				GameTooltip:AddLine("AtlasLoot Author |TInterface\\AddOns\\AtlasLoot\\Images\\gold:0|t", 0, 1, 0 )
+			end
 		end
 	end
 end
