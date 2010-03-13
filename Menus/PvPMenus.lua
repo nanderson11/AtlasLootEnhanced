@@ -21,18 +21,42 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["PVPMENU"] = {
-		{ 2, "PvP60Accessories1_A", "INV_Jewelry_Talisman_09", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 60"]};
+		{ 2, "PvP60Accessories1_A", "inv_jewelry_trinketpvp_01", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 60"]};
 		{ 3, "PVPSET", "INV_Axe_02", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 60"]};
-		{ 17, "PVPWeapons_A", "INV_Weapon_Bow_08", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 60"]};
-		{ 5, "PvP70Accessories1_A", "INV_Jewelry_Talisman_09", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 70"]};
+		{ 5, "PvP70Accessories1_A", "inv_jewelry_ring_60", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 70"]};
 		{ 6, "PVP70RepSET", "INV_Axe_02", "=ds="..AL["PvP Reputation Sets"], "=q5="..AL["Level 70"]};
-		{ 7, "ARENASET", "INV_Mace_36", "=ds="..AL["Arena PvP Sets"], "=q5="..AL["Level 70"]};
-		{ 20, "PvP70NonSet1", "INV_Boots_05", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 70"]};
+		{ 7, "ARENASET", "inv_gauntlets_29", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 70"]};
+		{ 9, "PvP80NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 80"]};
+		{ 10, "PvP80Misc", "INV_Scroll_06", "=ds="..AL["PvP Misc"], "=q5="..AL["Level 80"]};
+		{ 11, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 80"], "" };
+		{ 13, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
+		{ 15, "PVPMENU2", "INV_Misc_Platnumdisks", "=ds=BG/Open PvP", ""};
+		{ 17, "PVPWeapons_A", "INV_Weapon_Bow_08", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 60"]};
+		{ 20, "PvP70NonSet1", "inv_belt_13", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 70"]};
 		{ 21, "Arena4Weapons1", "INV_Weapon_Crossbow_10", "=ds="..AL["Arena PvP Weapons"], "=q5="..AL["Level 70"]};
-		{ 9, "LEVEL80PVPREWARDS", "INV_Axe_02", "=ds="..AL["PvP Rewards (Level 80)"], ""};
-		{ 11, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
-		{ 26, "VentureBay1", "INV_Misc_Coin_16", "=ds="..BabbleZone["Grizzly Hills"], "=q5="..AL["Venture Bay"]};
+		{ 24, "PVP80NONSETEPICS", "inv_bracer_51", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 80"]};
+		{ 25, "WrathfulGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Wrathful Gladiator\'s Weapons"], "=q5="..AL["Level 80"] };
+		{ 28, "VentureBay1", "INV_Misc_Coin_16", "=ds="..BabbleZone["Grizzly Hills"], "=q5="..AL["Venture Bay"]};
 	};
+
+	AtlasLoot_Data["PVPMENU2"] = {
+		{ 2, "AB60", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 60 Rewards"], ""};
+		{ 3, "AB40491", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 40-49 Rewards"], ""};
+		{ 4, "AB20291", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 20-29 Rewards"], ""};
+		{ 17, "AB5059", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 50-59 Rewards"], ""};
+		{ 18, "AB3039", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 30-39 Rewards"], ""};
+		{ 19, "ABMisc", "INV_Jewelry_Amulet_07", "=ds="..AL["Misc. Rewards"], ""};
+		{ 6, "WSGMisc", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], ""};
+		{ 7, "WSGAccessories_A", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], ""};
+		{ 21, "WSGWeapons_A", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], ""};
+		{ 22, "WSGArmor_A", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], ""};
+		{ 12, "AVMisc", "INV_Jewelry_Necklace_21", "=ds="..BabbleZone["Alterac Valley"], ""};
+		{ 25, "ABSets1", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
+		{ 14, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
+		{ 15, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
+		{ 29, "Terokkar", "INV_Jewelry_FrostwolfTrinket_04", "=ds="..BabbleZone["Terokkar Forest"], "=q5="..AL["Spirit Towers"]};
+		{ 30, "Nagrand1", "INV_Misc_Rune_09", "=ds="..BabbleZone["Nagrand"], "=q5="..AL["Halaa"]};
+		};
 
 	AtlasLoot_Data["PVPSET"] = {
 		{ 3, "PVPDruid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
@@ -54,18 +78,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, "AB5059", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 50-59 Rewards"], ""};
 		{ 18, "AB3039", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 30-39 Rewards"], ""};
 		{ 19, "ABMisc", "INV_Jewelry_Amulet_07", "=ds="..AL["Misc. Rewards"], ""};
-		Back = "PVPMENU";
-	};
-
-	AtlasLoot_Data["WSGMENU"] = {
-		{ 2, "WSG60", "INV_Misc_Rune_07", "=ds="..AL["Level 60 Rewards"], ""};
-		{ 3, "WSG4049", "INV_Misc_Rune_07", "=ds="..AL["Level 40-49 Rewards"], ""};
-		{ 4, "WSG2029", "INV_Misc_Rune_07", "=ds="..AL["Level 20-29 Rewards"], ""};
-		{ 5, "WSGMisc", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], ""};
-		{ 8, "WSGTest", "INV_Misc_Rune_07", "=ds=Test", ""};
-		{ 17, "WSG5059", "INV_Misc_Rune_07", "=ds="..AL["Level 50-59 Rewards"], ""};
-		{ 18, "WSG3039", "INV_Misc_Rune_07", "=ds="..AL["Level 30-39 Rewards"], ""};
-		{ 19, "WSG1019", "INV_Misc_Rune_07", "=ds="..AL["Level 10-19 Rewards"], ""};
 		Back = "PVPMENU";
 	};
 	
@@ -120,22 +132,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "PVPMENU";
 	};
 
-	AtlasLoot_Data["LEVEL80PVPREWARDS"] = {
-		{ 2, "LEVEL80PVPSETS", "INV_Boots_01", "=ds="..AL["Arena PvP Sets"], "=q5="..AL["Level 80"], "" };
-		{ 3, "PvP80ClassItems1", "Spell_Frost_SummonWaterElemental", "=ds="..AL["PvP Class Items"], "" };
-		{ 4, "WrathfulGladiatorWeapons1", "INV_Sword_86", "=ds="..AL["Wrathful Gladiator\'s Weapons"], "" };
-		{ 18, "PVP80NONSETEPICS", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Non-Set Epics"], ""};
-		{ 19, "PvP80Misc", "INV_Scroll_06", "=ds="..AL["PvP Misc"], ""};
-		Back = "PVPMENU";
-	};
-
 	AtlasLoot_Data["PVP80NONSETEPICS"] = {
 		{ 2, "PvP80NonSet3", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
 		{ 3, "PvP80NonSet5", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
-		{ 4, "PvP80NonSet1", "INV_Jewelry_Necklace_36", "=ds="..AL["PvP Accessories"], ""};
+		{ 4, "PvP80ClassItems1", "Spell_Frost_SummonWaterElemental", "=ds="..BabbleInventory["Relic"], "" };
 		{ 17, "PvP80NonSet4", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
 		{ 18, "PvP80NonSet6", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["LEVEL80PVPSETS"] = {
@@ -155,7 +158,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, "PvP80ShamanRestoration", "Spell_Nature_HealingWaveGreater", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
 		{ 26, "PvP80Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		{ 28, "PvP80Warrior", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["WINTERGRASPMENU"] = {

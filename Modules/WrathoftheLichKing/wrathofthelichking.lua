@@ -8128,7 +8128,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 42137, "", "=q4=Battlemaster's Ruination", "=ds=", "34100 #faction#"};
 		{ 29, 42135, "", "=q4=Battlemaster's Vivacity", "=ds=", "34100 #faction#"};
 		Next = "PvP80NonSet2";
-		Back = "PVP80NONSETEPICS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["PvP80NonSet2"] = {
@@ -8149,9 +8149,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=", "26100 #faction#"};
 		{ 22, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=", "26100 #faction#"};
 		{ 23, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=", "26100 #faction#"};
-		Next = "PvP80NonSet3";
 		Prev = "PvP80NonSet1";
-		Back = "PVP80NONSETEPICS";
+		Back = "PVPMENU";
 	};
 
 --Cloth
@@ -8175,7 +8174,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 49179, "", "=q4=Relentless Gladiator's Cord of Alacrity", "=ds=", "34100 #faction#"};
 		{ 26, 49183, "", "=q4=Relentless Gladiator's Treads of Alacrity", "=ds=", "34100 #faction#"};
 		Next = "PvP80NonSet4";
-		Prev = "PvP80NonSet2";
 		Back = "PVP80NONSETEPICS";
 	};
 
@@ -8244,6 +8242,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 40883, "", "=q4=Relentless Gladiator's Girdle of Triumph", "=ds=", "34100 #faction#"};
 		{ 22, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=", "34100 #faction#"};
 		Prev = "PvP80NonSet5";
+		Next = "PvP80ClassItems1";
 		Back = "PVP80NONSETEPICS";
 	};
 
@@ -8283,7 +8282,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 29, 51440, "", "=q4=Wrathful Gladiator's Dicer", "=ds=#h4#, #w1#", "1370 #arena# #reqrating# 2200"};
 		{ 30, 51526, "", "=q4=Wrathful Gladiator's Splitter", "=ds=#h4#, #w1#", "1370 #arena# #reqrating# 2200"};
 		Next = "WrathfulGladiatorWeapons2";
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["WrathfulGladiatorWeapons2"] = {
@@ -8319,7 +8318,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 30, 51450, "", "=q4=Wrathful Gladiator's Shotgun", "=ds=#w5#", "4670 #arena# #reqrating# 2200"};
 		Prev = "WrathfulGladiatorWeapons1";
 		Next = "WrathfulGladiatorWeapons3";
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["WrathfulGladiatorWeapons3"] = {
@@ -8336,7 +8335,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 11, 51408, "", "=q4=Wrathful Gladiator's Grimoire", "=ds=#s15#", "350 #arena# #reqrating# 1800"};
 		{ 12, 51409, "", "=q4=Wrathful Gladiator's Reprieve", "=ds=#s15#", "350 #arena# #reqrating# 1800"};
 		Prev = "WrathfulGladiatorWeapons2";
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 		-----------------------
@@ -8361,8 +8360,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 42616, "", "=q4=Relentless Gladiator's Libram of Justice", "=ds=#w16#", "6400 #faction# 350 #arena# #reqrating# 700"};
 		{ 23, 42853, "", "=q4=Furious Gladiator's Libram of Fortitude", "12000 #faction#"};
 		{ 24, 42615, "", "=q4=Furious Gladiator's Libram of Justice", "12000 #faction#"};
+		Prev = "PvP80NonSet6";
 		Next = "PvP80ClassItems2";
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVP80NONSETEPICS";
 	};
 
 	AtlasLoot_Data["PvP80ClassItems2"] = {
@@ -8381,7 +8381,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 26, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "12000 #faction#"};
 		{ 27, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "12000 #faction#"};
 		Prev = "PvP80ClassItems1";
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVP80NONSETEPICS";
 	};
 
 		-------------------------
@@ -8410,7 +8410,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 41560, "", "=q2=Design: Stormy Chalcedony", "=ds=#p12# (350)", "1250 #faction#"};
 		{ 26, 41570, "", "=q2=Design: Tense Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
 		{ 27, 41571, "", "=q2=Design: Turbid Dark Jade", "=ds=#p12# (350)", "1250 #faction#"};
-		Back = "LEVEL80PVPREWARDS";
+		Back = "PVPMENU";
 	};
 
 		--------------------------------

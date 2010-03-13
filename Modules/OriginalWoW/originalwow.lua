@@ -5211,11 +5211,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 19061, "", "=q1=Warsong Gulch Iron Ration", "=ds=", "15 #silver#", ""};
 		{ 23, 19066, "", "=q1=Warsong Gulch Runecloth Bandage", "=ds=", "20 #silver#", ""};
 		{ 24, 19068, "", "=q1=Warsong Gulch Silk Bandage", "=ds=", "10 #silver#", ""};
-		Next = "WSG1019";
-		Back = "WSGMENU";
+		Next = "WSGAccessories_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["WSGTest"] = {
+	AtlasLoot_Data["WSGAccessories_A"] = {
 		{ 1, 20428, "", "=q3=Caretaker's Cape", "=ds=", "100 #alliance#", ""};
 		{ 2, 19533, "", "=q3=Caretaker's Cape", "=ds=", "100 #alliance#", ""};
 		{ 3, 19532, "", "=q3=Caretaker's Cape", "=ds=", "300 #alliance#", ""};
@@ -5240,11 +5240,40 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 26, 19514, "", "=q3=Protector's Band", "=ds=", "1600 #alliance#", ""};
 		{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "300 #alliance#", ""};
 		{ 29, 21565, "", "=q3=Rune of Perfection", "=ds=", "300 #alliance#", ""};
-		Next = "WSGTest2";
-		Back = "WSGMENU";
+		Next = "WSGWeapons_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["WSGTest2"] = {
+	AtlasLoot_Data["WSGAccessories_H"] = {
+		{ 1, 20427, "", "=q3=Battle Healer's Cloak", "=ds=", "100 #horde#", ""};
+		{ 2, 19529, "", "=q3=Battle Healer's Cloak", "=ds=", "100 #horde#", ""};
+		{ 3, 19528, "", "=q3=Battle Healer's Cloak", "=ds=", "300 #horde#", ""};
+		{ 4, 19527, "", "=q3=Battle Healer's Cloak", "=ds=", "300 #horde#", ""};
+		{ 5, 19526, "", "=q3=Battle Healer's Cloak", "=ds=", "1600 #horde#", ""};
+		{ 7, 20442, "", "=q3=Scout's Medallion", "=ds=", "100 #horde#", ""};
+		{ 8, 19537, "", "=q3=Scout's Medallion", "=ds=", "100 #horde#", ""};
+		{ 9, 19536, "", "=q3=Scout's Medallion", "=ds=", "300 #horde#", ""};
+		{ 10, 19535, "", "=q3=Scout's Medallion", "=ds=", "300 #horde#", ""};
+		{ 11, 19534, "", "=q3=Scout's Medallion", "=ds=", "1600 #horde#", ""};
+		{ 13, 21568, "", "=q3=Rune of Duty", "=ds=", "300 #horde#", ""};
+		{ 14, 21567, "", "=q3=Rune of Duty", "=ds=", "300 #horde#", ""};
+		{ 16, 20426, "", "=q3=Advisor's Ring", "=ds=", "100 #horde#", ""};
+		{ 17, 19521, "", "=q3=Advisor's Ring", "=ds=", "100 #horde#", ""};
+		{ 18, 19520, "", "=q3=Advisor's Ring", "=ds=", "300 #horde#", ""};
+		{ 19, 19519, "", "=q3=Advisor's Ring", "=ds=", "300 #horde#", ""};
+		{ 20, 19518, "", "=q3=Advisor's Ring", "=ds=", "1600 #horde#", ""};
+		{ 22, 20429, "", "=q3=Legionnaire's Band", "=ds=", "100 #horde#", ""};
+		{ 23, 19513, "", "=q3=Legionnaire's Band", "=ds=", "100 #horde#", ""};
+		{ 24, 19512, "", "=q3=Legionnaire's Band", "=ds=", "300 #horde#", ""};		
+		{ 25, 19511, "", "=q3=Legionnaire's Band", "=ds=", "300 #horde#", ""};
+		{ 26, 19510, "", "=q3=Legionnaire's Band", "=ds=", "1600 #horde#", ""};
+		{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "300 #horde#", ""};
+		{ 29, 21565, "", "=q3=Rune of Perfection", "=ds=", "300 #horde#", ""};
+		Next = "WSGWeapons_H";
+		Back = "PVPMENU2";
+	};
+
+	AtlasLoot_Data["WSGWeapons_A"] = {
 		{ 1, 20443, "", "=q3=Sentinel's Blade", "=ds=", "300 #alliance#", ""};
 		{ 2, 19549, "", "=q3=Sentinel's Blade", "=ds=", "400 #alliance#", ""};
 		{ 3, 19548, "", "=q3=Sentinel's Blade", "=ds=", "500 #alliance#", ""};
@@ -5265,12 +5294,38 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 24, 19564, "", "=q3=Outrunner's Bow", "=ds=", "500 #alliance#", ""};
 		{ 25, 19563, "", "=q3=Outrunner's Bow", "=ds=", "700 #alliance#", ""};
 		{ 26, 19562, "", "=q3=Outrunner's Bow", "=ds=", "6000 #alliance#", ""};
-		Prev = "WSGTest";
-		Next = "WSGTest3";
-		Back = "WSGMENU";
+		Prev = "WSGAccessories_A";
+		Next = "WSGArmor_A";
+		Back = "PVPMENU2";
 	};
-	
-	AtlasLoot_Data["WSGTest3"] = {
+
+	AtlasLoot_Data["WSGWeapons_H"] = {
+		{ 1, 20441, "", "=q3=Scout's Blade", "=ds=", "300 #horde#", ""};
+		{ 2, 19545, "", "=q3=Scout's Blade", "=ds=", "400 #horde#", ""};
+		{ 3, 19544, "", "=q3=Scout's Blade", "=ds=", "500 #horde#", ""};
+		{ 4, 19543, "", "=q3=Scout's Blade", "=ds=", "700 #horde#", ""};
+		{ 5, 19542, "", "=q3=Scout's Blade", "=ds=", "6000 #horde#", ""};
+		{ 7, 20430, "", "=q3=Legionnaire's Sword", "=ds=", "300 #horde#", ""};
+		{ 8, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "400 #horde#", ""};
+		{ 9, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "500 #horde#", ""};
+		{ 10, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "700 #horde#", ""};
+		{ 11, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "6000 #horde#", ""};
+		{ 16, 20425, "", "=q3=Advisor's Gnarled Staff", "=ds=", "500 #horde#", ""};
+		{ 17, 19569, "", "=q3=Advisor's Gnarled Staff", "=ds=", "700 #horde#", ""};
+		{ 18, 19568, "", "=q3=Advisor's Gnarled Staff", "=ds=", "1000 #horde#", ""};
+		{ 19, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "5000 #horde#", ""};
+		{ 20, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "15000 #horde#", ""};
+		{ 22, 20437, "", "=q3=Outrider's Bow", "=ds=", "300 #horde#", ""};
+		{ 23, 19561, "", "=q3=Outrider's Bow", "=ds=", "400 #horde#", ""};
+		{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "500 #horde#", ""};
+		{ 25, 19559, "", "=q3=Outrider's Bow", "=ds=", "700 #horde#", ""};
+		{ 26, 19558, "", "=q3=Outrider's Bow", "=ds=", "6000 #horde#", ""};
+		Prev = "WSGAccessories_H";
+		Next = "WSGArmor_H";
+		Back = "PVPMENU2";
+	};
+
+	AtlasLoot_Data["WSGArmor_A"] = {
 		{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "500 #alliance#", ""};
 		{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "700 #alliance#", ""};
 		{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "5000 #alliance#", ""};	
@@ -5290,181 +5345,32 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 30497, "", "=q4=Sentinel's Mail Leggings", "=ds=", "9000 #alliance#", ""};
 		{ 24, 22753, "", "=q4=Sentinel's Lamellar Legguards", "=ds=", "9000 #alliance#", ""};
 		{ 25, 22672, "", "=q4=Sentinel's Plate Legguards", "=ds=", "9000 #alliance#", ""};	
-		Prev = "WSGTest2";
-		Back = "WSGMENU";
+		Prev = "WSGWeapons_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["WSG1019"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 20428, "", "=q3=Caretaker's Cape", "=ds=", "100 #alliance#", ""};
-		{ 3, 20444, "", "=q3=Sentinel's Medallion", "=ds=", "100 #alliance#", ""};
-		{ 4, 20431, "", "=q3=Lorekeeper's Ring", "=ds=", "100 #alliance#", ""};
-		{ 5, 20439, "", "=q3=Protector's Band", "=ds=", "100 #alliance#", ""};
-		{ 6, 20443, "", "=q3=Sentinel's Blade", "=ds=", "300 #alliance#", ""};
-		{ 7, 20440, "", "=q3=Protector's Sword", "=ds=", "300 #alliance#", ""};
-		{ 8, 20434, "", "=q3=Lorekeeper's Staff", "=ds=", "500 #alliance#", ""};
-		{ 9, 20438, "", "=q3=Outrunner's Bow", "=ds=", "300 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 20427, "", "=q3=Battle Healer's Cloak", "=ds=", "100 #horde#", ""};
-		{ 18, 20442, "", "=q3=Scout's Medallion", "=ds=", "100 #horde#", ""};
-		{ 19, 20426, "", "=q3=Advisor's Ring", "=ds=", "100 #horde#", ""};
-		{ 20, 20429, "", "=q3=Legionnaire's Band", "=ds=", "100 #horde#", ""};
-		{ 21, 20441, "", "=q3=Scout's Blade", "=ds=", "300 #horde#", ""};
-		{ 22, 20430, "", "=q3=Legionnaire's Sword", "=ds=", "300 #horde#", ""};
-		{ 23, 20425, "", "=q3=Advisor's Gnarled Staff", "=ds=", "500 #horde#", ""};
-		{ 24, 20437, "", "=q3=Outrider's Bow", "=ds=", "300 #horde#", ""};
-		Next = "WSG2029";
-		Prev = "WSGMisc";
-		Back = "WSGMENU";
-	};
-
-	AtlasLoot_Data["WSG2029"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19533, "", "=q3=Caretaker's Cape", "=ds=", "100 #alliance#", ""};
-		{ 3, 19541, "", "=q3=Sentinel's Medallion", "=ds=", "100 #alliance#", ""};
-		{ 4, 19525, "", "=q3=Lorekeeper's Ring", "=ds=", "100 #alliance#", ""};
-		{ 5, 19517, "", "=q3=Protector's Band", "=ds=", "100 #alliance#", ""};
-		{ 6, 21568, "", "=q3=Rune of Duty", "=ds=", "300 #alliance#", ""};
-		{ 7, 21566, "", "=q3=Rune of Perfection", "=ds=", "300 #alliance#", ""};
-		{ 8, 19549, "", "=q3=Sentinel's Blade", "=ds=", "400 #alliance#", ""};
-		{ 9, 19557, "", "=q3=Protector's Sword", "=ds=", "400 #alliance#", ""};
-		{ 10, 19573, "", "=q3=Lorekeeper's Staff", "=ds=", "700 #alliance#", ""};
-		{ 11, 19565, "", "=q3=Outrunner's Bow", "=ds=", "400 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19529, "", "=q3=Battle Healer's Cloak", "=ds=", "100 #horde#", ""};
-		{ 18, 19537, "", "=q3=Scout's Medallion", "=ds=", "100 #horde#", ""};
-		{ 19, 19521, "", "=q3=Advisor's Ring", "=ds=", "100 #horde#", ""};
-		{ 20, 19513, "", "=q3=Legionnaire's Band", "=ds=", "100 #horde#", ""};
-		{ 21, 21568, "", "=q3=Rune of Duty", "=ds=", "300 #horde#", ""};
-		{ 22, 21566, "", "=q3=Rune of Perfection", "=ds=", "300 #horde#", ""};
-		{ 23, 19545, "", "=q3=Scout's Blade", "=ds=", "400 #horde#", ""};
-		{ 24, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "400 #horde#", ""};
-		{ 25, 19569, "", "=q3=Advisor's Gnarled Staff", "=ds=", "700 #horde#", ""};
-		{ 26, 19561, "", "=q3=Outrider's Bow", "=ds=", "400 #horde#", ""};
-		Next = "WSG3039";
-		Prev = "WSG1019";
-		Back = "WSGMENU";
-	};
-
-	AtlasLoot_Data["WSG3039"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19532, "", "=q3=Caretaker's Cape", "=ds=", "300 #alliance#", ""};
-		{ 3, 19540, "", "=q3=Sentinel's Medallion", "=ds=", "300 #alliance#", ""};
-		{ 4, 19524, "", "=q3=Lorekeeper's Ring", "=ds=", "300 #alliance#", ""};
-		{ 5, 19515, "", "=q3=Protector's Band", "=ds=", "300 #alliance#", ""};
-		{ 6, 19548, "", "=q3=Sentinel's Blade", "=ds=", "500 #alliance#", ""};
-		{ 7, 19556, "", "=q3=Protector's Sword", "=ds=", "500 #alliance#", ""};
-		{ 8, 19572, "", "=q3=Lorekeeper's Staff", "=ds=", "1000 #alliance#", ""};
-		{ 9, 19564, "", "=q3=Outrunner's Bow", "=ds=", "500 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19528, "", "=q3=Battle Healer's Cloak", "=ds=", "300 #horde#", ""};
-		{ 18, 19536, "", "=q3=Scout's Medallion", "=ds=", "300 #horde#", ""};
-		{ 19, 19520, "", "=q3=Advisor's Ring", "=ds=", "300 #horde#", ""};
-		{ 20, 19512, "", "=q3=Legionnaire's Band", "=ds=", "300 #horde#", ""};
-		{ 21, 19544, "", "=q3=Scout's Blade", "=ds=", "500 #horde#", ""};
-		{ 22, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "500 #horde#", ""};
-		{ 23, 19568, "", "=q3=Advisor's Gnarled Staff", "=ds=", "1000 #horde#", ""};
-		{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "500 #horde#", ""};
-		Next = "WSG4049";
-		Prev = "WSG2029";
-		Back = "WSGMENU";
-	};
-
-	AtlasLoot_Data["WSG4049"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "500 #alliance#", ""};
-		{ 3, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "500 #alliance#", ""};
-		{ 4, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "500 #alliance#", ""};
-		{ 5, 19581, "", "=q4=Berserker Bracers", "=ds=", "500 #alliance#", ""};
-		{ 6, 19531, "", "=q3=Caretaker's Cape", "=ds=", "300 #alliance#", ""};
-		{ 7, 19539, "", "=q3=Sentinel's Medallion", "=ds=", "300 #alliance#", ""};
-		{ 8, 19523, "", "=q3=Lorekeeper's Ring", "=ds=", "300 #alliance#", ""};
-		{ 9, 19516, "", "=q3=Protector's Band", "=ds=", "300 #alliance#", ""};
-		{ 10, 21567, "", "=q3=Rune of Duty", "=ds=", "300 #alliance#", ""};
-		{ 11, 21565, "", "=q3=Rune of Perfection", "=ds=", "300 #alliance#", ""};
-		{ 12, 19547, "", "=q3=Sentinel's Blade", "=ds=", "700 #alliance#", ""};
-		{ 13, 19555, "", "=q3=Protector's Sword", "=ds=", "700 #alliance#", ""};
-		{ 14, 19571, "", "=q3=Lorekeeper's Staff", "=ds=", "5000 #alliance#", ""};
-		{ 15, 19563, "", "=q3=Outrunner's Bow", "=ds=", "700 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "500 #horde#", ""};
-		{ 18, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "500 #horde#", ""};
-		{ 19, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "500 #horde#", ""};
-		{ 20, 19581, "", "=q4=Berserker Bracers", "=ds=", "500 #horde#", ""};
-		{ 21, 19527, "", "=q3=Battle Healer's Cloak", "=ds=", "300 #horde#", ""};
-		{ 22, 19535, "", "=q3=Scout's Medallion", "=ds=", "300 #horde#", ""};
-		{ 23, 19519, "", "=q3=Advisor's Ring", "=ds=", "300 #horde#", ""};
-		{ 24, 19511, "", "=q3=Legionnaire's Band", "=ds=", "300 #horde#", ""};
-		{ 25, 21567, "", "=q3=Rune of Duty", "=ds=", "300 #horde#", ""};
-		{ 26, 21565, "", "=q3=Rune of Perfection", "=ds=", "300 #horde#", ""};
-		{ 27, 19543, "", "=q3=Scout's Blade", "=ds=", "700 #horde#", ""};
-		{ 28, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "700 #horde#", ""};
-		{ 29, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "5000 #horde#", ""};
-		{ 30, 19559, "", "=q3=Outrider's Bow", "=ds=", "700 #horde#", ""};
-		Next = "WSG5059";
-		Prev = "WSG3039";
-		Back = "WSGMENU";
-	};
-
-	AtlasLoot_Data["WSG5059"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "700 #alliance#", ""};
-		{ 3, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "700 #alliance#", ""};
-		{ 4, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "700 #alliance#", ""};
-		{ 5, 19580, "", "=q4=Berserker Bracers", "=ds=", "700 #alliance#", ""};
-		{ 6, 19530, "", "=q3=Caretaker's Cape", "=ds=", "1600 #alliance#", ""};
-		{ 7, 19538, "", "=q3=Sentinel's Medallion", "=ds=", "1600 #alliance#", ""};
-		{ 8, 19522, "", "=q3=Lorekeeper's Ring", "=ds=", "1600 #alliance#", ""};
-		{ 9, 19514, "", "=q3=Protector's Band", "=ds=", "1600 #alliance#", ""};
-		{ 10, 19546, "", "=q3=Sentinel's Blade", "=ds=", "6000 #alliance#", ""};
-		{ 11, 19554, "", "=q3=Protector's Sword", "=ds=", "6000 #alliance#", ""};
-		{ 12, 19570, "", "=q3=Lorekeeper's Staff", "=ds=", "15000 #alliance#", ""};
-		{ 13, 19562, "", "=q3=Outrunner's Bow", "=ds=", "6000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "700 #horde#", ""};
-		{ 18, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "700 #horde#", ""};
-		{ 19, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "700 #horde#", ""};
-		{ 20, 19580, "", "=q4=Berserker Bracers", "=ds=", "700 #horde#", ""};
-		{ 21, 19526, "", "=q3=Battle Healer's Cloak", "=ds=", "1600 #horde#", ""};
-		{ 22, 19534, "", "=q3=Scout's Medallion", "=ds=", "1600 #horde#", ""};
-		{ 23, 19518, "", "=q3=Advisor's Ring", "=ds=", "1600 #horde#", ""};
-		{ 24, 19510, "", "=q3=Legionnaire's Band", "=ds=", "1600 #horde#", ""};
-		{ 25, 19542, "", "=q3=Scout's Blade", "=ds=", "6000 #horde#", ""};
-		{ 26, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "6000 #horde#", ""};
-		{ 27, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "15000 #horde#", ""};
-		{ 28, 19558, "", "=q3=Outrider's Bow", "=ds=", "6000 #horde#", ""};
-		Next = "WSG60";
-		Prev = "WSG4049";
-		Back = "WSGMENU";
-	};
-
-	AtlasLoot_Data["WSG60"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "5000 #alliance#", ""};
-		{ 3, 22752, "", "=q4=Sentinel's Silk Leggings", "=ds=", "9000 #alliance#", ""};
-		{ 4, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "5000 #alliance#", ""};
-		{ 5, 22749, "", "=q4=Sentinel's Leather Pants", "=ds=", "9000 #alliance#", ""};
-		{ 6, 22750, "", "=q4=Sentinel's Lizardhide Pants", "=ds=", "9000 #alliance#", ""};
-		{ 7, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "5000 #alliance#", ""};
-		{ 8, 22748, "", "=q4=Sentinel's Chain Leggings", "=ds=", "9000 #alliance#", ""};
-		{ 9, 30497, "", "=q4=Sentinel's Mail Leggings", "=ds=", "9000 #alliance#", ""};
-		{ 10, 19578, "", "=q4=Berserker Bracers", "=ds=", "5000 #alliance#", ""};
-		{ 11, 22753, "", "=q4=Sentinel's Lamellar Legguards", "=ds=", "9000 #alliance#", ""};
-		{ 12, 22672, "", "=q4=Sentinel's Plate Legguards", "=ds=", "9000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "5000 #horde#", ""};
-		{ 18, 22747, "", "=q4=Outrider's Silk Leggings", "=ds=", "9000 #horde#", ""};
-		{ 19, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "5000 #horde#", ""};
-		{ 20, 22740, "", "=q4=Outrider's Leather Pants", "=ds=", "9000 #horde#", ""};
-		{ 21, 22741, "", "=q4=Outrider's Lizardhide Pants", "=ds=", "9000 #horde#", ""};
-		{ 22, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "5000 #horde#", ""};
-		{ 23, 22673, "", "=q4=Outrider's Chain Leggings", "=ds=", "9000 #horde#", ""};
-		{ 24, 22676, "", "=q4=Outrider's Mail Leggings", "=ds=", "9000 #horde#", ""};
-		{ 25, 19578, "", "=q4=Berserker Bracers", "=ds=", "5000 #horde#", ""};
-		{ 26, 30498, "", "=q4=Outrider's Lamellar Legguards", "=ds=", "9000 #horde#", ""};
-		{ 27, 22651, "", "=q4=Outrider's Plate Legguards", "=ds=", "9000 #horde#", ""};
-		Prev = "WSG5059";
-		Back = "WSGMENU";
+	AtlasLoot_Data["WSGArmor_H"] = {
+		{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "500 #horde#", ""};
+		{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "700 #horde#", ""};
+		{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "5000 #horde#", ""};
+		{ 5, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "500 #horde#", ""};
+		{ 6, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "700 #horde#", ""};
+		{ 7, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "5000 #horde#", ""};
+		{ 9, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "500 #horde#", ""};
+		{ 10, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "700 #horde#", ""};
+		{ 11, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "5000 #horde#", ""};
+		{ 13, 19581, "", "=q4=Berserker Bracers", "=ds=", "500 #horde#", ""};
+		{ 14, 19580, "", "=q4=Berserker Bracers", "=ds=", "700 #horde#", ""};
+		{ 15, 19578, "", "=q4=Berserker Bracers", "=ds=", "5000 #horde#", ""};
+		{ 16, 22747, "", "=q4=Outrider's Silk Leggings", "=ds=", "9000 #horde#", ""};
+		{ 18, 22740, "", "=q4=Outrider's Leather Pants", "=ds=", "9000 #horde#", ""};
+		{ 19, 22741, "", "=q4=Outrider's Lizardhide Pants", "=ds=", "9000 #horde#", ""};
+		{ 21, 22673, "", "=q4=Outrider's Chain Leggings", "=ds=", "9000 #horde#", ""};
+		{ 22, 22676, "", "=q4=Outrider's Mail Leggings", "=ds=", "9000 #horde#", ""};
+		{ 24, 30498, "", "=q4=Outrider's Lamellar Legguards", "=ds=", "9000 #horde#", ""};
+		{ 25, 22651, "", "=q4=Outrider's Plate Legguards", "=ds=", "9000 #horde#", ""};
+		Prev = "WSGWeapons_H";
+		Back = "PVPMENU2";
 	};
 
 		---------------------------------------

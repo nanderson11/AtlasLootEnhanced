@@ -1679,15 +1679,12 @@ end
 	AtlasLoot_TableNames["ABSets3"] = { BabbleZone["Arathi Basin"].." "..AL["PvP Armor Sets"].." ("..BabbleInventory["Plate"]..")", "AtlasLootOriginalWoW" };
    -- Warsong Gulch
 	AtlasLoot_TableNames["WSGMisc"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSG1019"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 10-19 Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSG2029"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 20-29 Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSG3039"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 30-39 Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSG4049"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 40-49 Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSG5059"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 50-59 Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSG60"] = { BabbleZone["Warsong Gulch"].." "..AL["Level 60 Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSGTest"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WSGTest2"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
-	AtlasLoot_TableNames["WSGTest3"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
+	AtlasLoot_TableNames["WSGAccessories_A"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WSGWeapons_A"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
+	AtlasLoot_TableNames["WSGArmor_A"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WSGAccessories_H"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WSGWeapons_H"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
+	AtlasLoot_TableNames["WSGArmor_H"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };  
   -- World PvP
 	AtlasLoot_TableNames["Hellfire"] = { BabbleZone["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["Nagrand1"] = { BabbleZone["Nagrand"]..": "..AL["Halaa"], "AtlasLootBurningCrusade" };
@@ -1762,13 +1759,10 @@ end
 	AtlasLoot_TableNames["PVPSET"] = { AL["PvP Armor Sets"]..": "..AL["Level 60"], "Menu" };
 	AtlasLoot_TableNames["PVPMENUOLD"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
+	AtlasLoot_TableNames["PVPMENU2"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["ABMENU"] = { BabbleZone["Arathi Basin"], "Menu" };
-	AtlasLoot_TableNames["WSGMENU"] = { BabbleZone["Warsong Gulch"], "Menu" };
 	AtlasLoot_TableNames["WINTERGRASPMENU"] = { BabbleZone["Wintergrasp"], "Menu" };
-	AtlasLoot_TableNames["LEVEL60PVPREWARDS"] = { AL["PvP Rewards (Level 60)"], "Menu" };
-	AtlasLoot_TableNames["LEVEL70PVPREWARDS"] = { AL["PvP Rewards (Level 70)"], "Menu" };
 	AtlasLoot_TableNames["PVP70RepSET"] = { AL["PvP Reputation Sets"]..": "..AL["Level 70"], "Menu" };
-	AtlasLoot_TableNames["LEVEL80PVPREWARDS"] = { AL["PvP Rewards (Level 80)"], "Menu" };
 	AtlasLoot_TableNames["PVP80NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
 	AtlasLoot_TableNames["LEVEL80PVPSETS"] = { AL["PvP Armor Sets"]..": "..AL["Level 80"], "Menu" };
 	AtlasLoot_TableNames["70TOKENMENU"] = { AL["Badge of Justice Rewards"], "Menu" };
