@@ -32,7 +32,7 @@ if AL then
 	AL["Back"] = "Retour";
 	AL["Level 60"] = "Niveau 60";
 	AL["Level 70"] = "Niveau 70";
-	AL["Level 70"] = "Niveau 80";
+	AL["Level 80"] = "Niveau 80";
 	AL["|cffff0000(unsafe)"] = "|cffff0000(invalide)";
 	AL["Misc"] = "Divers";
 	AL["Miscellaneous"] = "Divers";
