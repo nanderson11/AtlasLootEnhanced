@@ -3646,7 +3646,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
 		{ 21, 24522, "", "=q1=Thrallmar Favor", "=ds=5 #markthrallmar#"};
 		{ 22, 24581, "", "=q1=Mark of Thrallmar", "=ds=#m19#"};
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 		----------------------------------
@@ -3678,7 +3678,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 27, 32071, "", "=q1=Recipe: Elixir of Ironskin", "=ds=#p1# (330)", "2 #halaaresearch#", ""};
 		{ 29, 26044, "", "=q2=Halaa Research Token", "=ds=#m17#"};
 		Next = "Nagrand2";
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 	AtlasLoot_Data["Nagrand2"] = {
@@ -3694,7 +3694,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 30570, "", "=q2=Arkadian Claymore", "=ds=#h2#, #w10#"};
 		{ 22, 30568, "", "=q2=The Sharp Cookie", "=ds=#w11#"};
 		Prev = "Nagrand1";
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 		------------------------------------------------
@@ -3720,7 +3720,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 21, 28758, "", "=q3=Exorcist's Mail Helm", "=ds=#a3# #s1#", "18 #spiritshard#", ""};
 		{ 22, 28559, "", "=q3=Exorcist's Plate Helm", "=ds=#a4# #s1#", "18 #spiritshard#", ""};
 		{ 25, 32948, "", "=q1=Auchenai Mana Potion", "=ds=#e2#", "2 #spiritshard#", ""};
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 		-------------------------------------------------
@@ -3739,7 +3739,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 27927, "", "=q3=Mark of Vindication", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
 		{ 19, 27930, "", "=q3=Splintermark", "=ds=#w2#", "15 #markthrallmarhhold#", ""};
 		{ 22, 24581, "", "=q1=Mark of Thrallmar", "=ds=#m19#"};
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 		-------------------------------------

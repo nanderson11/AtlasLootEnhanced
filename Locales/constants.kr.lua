@@ -122,8 +122,6 @@ AL:RegisterTranslations("koKR", function() return {
 
     --Special loot categories for Battlegrounds
     ["Misc. Rewards"] = "일반급 보상",
-    ["Superior Rewards"] = "희귀급 보상",
-    ["Epic Rewards"] = "영웅급 보상",
 
     --Brood of Nozdormu Paths
     ["Path of the Conqueror"] = "정복자의 길",

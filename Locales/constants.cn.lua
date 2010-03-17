@@ -375,13 +375,10 @@ if AL then
 	
 	--Battleground Brackets
 	AL["Misc. Rewards"] = "其他奖励";
-	AL["Superior Rewards"] = "精良级别奖励";
-	AL["Epic Rewards"] = "史诗级别奖励";
-	AL["Level 10-19 Rewards"] = "等级10-19奖励";
 	AL["Level 20-29 Rewards"] = "等级20-29奖励";
 	AL["Level 30-39 Rewards"] = "等级30-39奖励";
+	AL["Level 20-39 Rewards"] = "等级20-39奖励";
 	AL["Level 40-49 Rewards"] = "等级40-49奖励";
-	AL["Level 50-59 Rewards"] = "等级50-59奖励";
 	AL["Level 60 Rewards"] = "等级60奖励";
 
 	--Brood of Nozdormu Paths

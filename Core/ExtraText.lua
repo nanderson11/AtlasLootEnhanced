@@ -1,4 +1,8 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
+local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
+local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 -- Colours stored for code readability
 local GREY = "|cff999999";
@@ -376,36 +380,26 @@ AtlasLoot_ExtraText = {
     AlteracValleyNorth = {
         "";
         GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Superior Rewards"];
-        GREEN..AL["Epic Rewards"];
+        GREEN..BabbleInventory["Armor"];
     };
     AlteracValleySouth = {
         "";
         GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Superior Rewards"];
-        GREEN..AL["Epic Rewards"];
+        GREEN..BabbleInventory["Armor"];
     };
     ArathiBasin = {
         "";
         GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Level 20-29 Rewards"];
-        GREEN..AL["Level 20-29 Rewards"];
-        GREEN..AL["Level 30-39 Rewards"];
         GREEN..AL["Level 40-49 Rewards"];
-        GREEN..AL["Level 40-49 Rewards"];
-        GREEN..AL["Level 50-59 Rewards"];
-        GREEN..AL["Level 60 Rewards"];
+        GREEN..AL["Level 20-39 Rewards"];
         "";
         GREEN..AL["Arathi Basin Sets"];
     };
     WarsongGulch = {
         "";
         GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Level 10-19 Rewards"];
-        GREEN..AL["Level 20-29 Rewards"];
-        GREEN..AL["Level 30-39 Rewards"];
-        GREEN..AL["Level 40-49 Rewards"];
-        GREEN..AL["Level 50-59 Rewards"];
-        GREEN..AL["Level 60 Rewards"];
+        GREEN..AL["Accessories"];
+        GREEN..AL["Weapons"];
+        GREEN..BabbleInventory["Armor"];
     };    
 };

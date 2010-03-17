@@ -7379,8 +7379,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40827, "", "=q4=Furious Gladiator's Dreadplate Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 40868, "", "=q4=Furious Gladiator's Dreadplate Shoulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 40787, "", "=q4=Furious Gladiator's Dreadplate Chestpiece", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Deathknight_DeathStrike", "=q6=#arenas10#", ""};
 		{ 24, 40824, "", "=q4=Deadly Gladiator's Dreadplate Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 40863, "", "=q4=Deadly Gladiator's Dreadplate Shoulders", "=ds=", "46 #eofconquest#"};
@@ -7425,8 +7425,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41327, "", "=q4=Furious Gladiator's Wyrmhide Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41281, "", "=q4=Furious Gladiator's Wyrmhide Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41316, "", "=q4=Furious Gladiator's Wyrmhide Robes", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41293, "", "=q4=Furious Gladiator's Wyrmhide Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41304, "", "=q4=Furious Gladiator's Wyrmhide Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Nature_InsectSwarm", "=q6=#arenas1_2#", ""};
 		{ 24, 41326, "", "=q4=Deadly Gladiator's Wyrmhide Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41280, "", "=q4=Deadly Gladiator's Wyrmhide Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7471,8 +7471,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41678, "", "=q4=Furious Gladiator's Dragonhide Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41715, "", "=q4=Furious Gladiator's Dragonhide Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41661, "", "=q4=Furious Gladiator's Dragonhide Robes", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41773, "", "=q4=Furious Gladiator's Dragonhide Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41667, "", "=q4=Furious Gladiator's Dragonhide Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Ability_Druid_Maul", "=q6=#arenas1_1#", ""};
 		{ 24, 41677, "", "=q4=Deadly Gladiator's Dragonhide Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41714, "", "=q4=Deadly Gladiator's Dragonhide Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7517,8 +7517,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41321, "", "=q4=Furious Gladiator's Kodohide Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41275, "", "=q4=Furious Gladiator's Kodohide Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41310, "", "=q4=Furious Gladiator's Kodohide Robes", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41287, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41287, "", "=q4=Furious Gladiator's Kodohide Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41298, "", "=q4=Furious Gladiator's Kodohide Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Nature_Regeneration", "=q6=#arenas1_3#", ""};
 		{ 24, 41320, "", "=q4=Deadly Gladiator's Kodohide Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41274, "", "=q4=Deadly Gladiator's Kodohide Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7563,8 +7563,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41157, "", "=q4=Furious Gladiator's Chain Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41217, "", "=q4=Furious Gladiator's Chain Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41087, "", "=q4=Furious Gladiator's Chain Armor", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41143, "", "=q4=Furious Gladiator's Chain Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41205, "", "=q4=Furious Gladiator's Chain Leggings", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Ability_Hunter_RunningShot", "=q6=#arenas2#", ""};
 		{ 24, 41156, "", "=q4=Deadly Gladiator's Chain Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41216, "", "=q4=Deadly Gladiator's Chain Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7609,8 +7609,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41946, "", "=q4=Furious Gladiator's Silk Cowl", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41965, "", "=q4=Furious Gladiator's Silk Amice", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41953, "", "=q4=Furious Gladiator's Silk Raiment", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41971, "", "=q4=Furious Gladiator's Silk Handguards", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41959, "", "=q4=Furious Gladiator's Silk Trousers", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Frost_IceStorm", "=q6=#arenas3#", ""};
 		{ 24, 41945, "", "=q4=Deadly Gladiator's Silk Cowl", "=ds=", "58 #eofconquest#"};
 		{ 25, 41964, "", "=q4=Deadly Gladiator's Silk Amice", "=ds=", "46 #eofconquest#"};
@@ -7655,8 +7655,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40828, "", "=q4=Furious Gladiator's Scaled Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 40869, "", "=q4=Furious Gladiator's Scaled Shoulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 40788, "", "=q4=Furious Gladiator's Scaled Chestpiece", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
 		{ 24, 40825, "", "=q4=Deadly Gladiator's Scaled Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 40864, "", "=q4=Deadly Gladiator's Scaled Shoulders", "=ds=", "46 #eofconquest#"};
@@ -7701,8 +7701,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40933, "", "=q4=Furious Gladiator's Ornamented Headcover", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 40963, "", "=q4=Furious Gladiator's Ornamented Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 40907, "", "=q4=Furious Gladiator's Ornamented Chestguard", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
 		{ 24, 40932, "", "=q4=Deadly Gladiator's Ornamented Headcover", "=ds=", "58 #eofconquest#"};
 		{ 25, 40962, "", "=q4=Deadly Gladiator's Ornamented Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7747,8 +7747,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41915, "", "=q4=Furious Gladiator's Satin Hood", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41934, "", "=q4=Furious Gladiator's Satin Mantle", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41921, "", "=q4=Furious Gladiator's Satin Robe", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41940, "", "=q4=Furious Gladiator's Satin Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41940, "", "=q4=Furious Gladiator's Satin Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41927, "", "=q4=Furious Gladiator's Satin Leggings", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Shadow_AntiShadow", "=q6=#arenas5_1#", ""};
 		{ 24, 41914, "", "=q4=Deadly Gladiator's Satin Hood", "=ds=", "58 #eofconquest#"};
 		{ 25, 41933, "", "=q4=Deadly Gladiator's Satin Mantle", "=ds=", "46 #eofconquest#"};
@@ -7793,8 +7793,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41854, "", "=q4=Furious Gladiator's Mooncloth Hood", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41869, "", "=q4=Furious Gladiator's Mooncloth Mantle", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41859, "", "=q4=Furious Gladiator's Mooncloth Robe", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41874, "", "=q4=Furious Gladiator's Mooncloth Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41874, "", "=q4=Furious Gladiator's Mooncloth Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41864, "", "=q4=Furious Gladiator's Mooncloth Leggings", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Holy_PowerWordShield", "=q6=#arenas5_2#", ""};
 		{ 24, 41853, "", "=q4=Deadly Gladiator's Mooncloth Hood", "=ds=", "58 #eofconquest#"};
 		{ 25, 41868, "", "=q4=Deadly Gladiator's Mooncloth Mantle", "=ds=", "46 #eofconquest#"};
@@ -7839,8 +7839,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41672, "", "=q4=Furious Gladiator's Leather Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41683, "", "=q4=Furious Gladiator's Leather Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41650, "", "=q4=Furious Gladiator's Leather Tunic", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41767, "", "=q4=Furious Gladiator's Leather Gloves", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41767, "", "=q4=Furious Gladiator's Leather Gloves", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41655, "", "=q4=Furious Gladiator's Leather Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Ability_BackStab", "=q6=#arenas6#", ""};
 		{ 24, 41671, "", "=q4=Deadly Gladiator's Leather Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41682, "", "=q4=Deadly Gladiator's Leather Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7885,8 +7885,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41019, "", "=q4=Furious Gladiator's Mail Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41044, "", "=q4=Furious Gladiator's Mail Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 40993, "", "=q4=Furious Gladiator's Mail Armor", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41007, "", "=q4=Furious Gladiator's Mail Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41007, "", "=q4=Furious Gladiator's Mail Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41033, "", "=q4=Furious Gladiator's Mail Leggings", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
 		{ 24, 41018, "", "=q4=Deadly Gladiator's Mail Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41043, "", "=q4=Deadly Gladiator's Mail Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7931,8 +7931,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41151, "", "=q4=Furious Gladiator's Linked Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41211, "", "=q4=Furious Gladiator's Linked Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41081, "", "=q4=Furious Gladiator's Linked Armor", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41137, "", "=q4=Furious Gladiator's Linked Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41137, "", "=q4=Furious Gladiator's Linked Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41199, "", "=q4=Furious Gladiator's Linked Leggings", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_FireResistanceTotem_01", "=q6=#arenas7_1#", ""};
 		{ 24, 41150, "", "=q4=Deadly Gladiator's Linked Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41210, "", "=q4=Deadly Gladiator's Linked Spaulders", "=ds=", "46 #eofconquest#"};
@@ -7977,8 +7977,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41013, "", "=q4=Furious Gladiator's Ringmail Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 41038, "", "=q4=Furious Gladiator's Ringmail Spaulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 40992, "", "=q4=Furious Gladiator's Ringmail Armor", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 41001, "", "=q4=Furious Gladiator's Ringmail Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 41001, "", "=q4=Furious Gladiator's Ringmail Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Nature_HealingWaveGreater", "=q6=#arenas7_3#", ""};
 		{ 24, 41012, "", "=q4=Deadly Gladiator's Ringmail Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 41037, "", "=q4=Deadly Gladiator's Ringmail Spaulders", "=ds=", "46 #eofconquest#"};
@@ -8023,8 +8023,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 41993, "", "=q4=Furious Gladiator's Felweave Cowl", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 42011, "", "=q4=Furious Gladiator's Felweave Amice", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 41998, "", "=q4=Furious Gladiator's Felweave Raiment", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 42017, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 42017, "", "=q4=Furious Gladiator's Felweave Handguards", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 42005, "", "=q4=Furious Gladiator's Felweave Trousers", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Spell_Shadow_CurseOfTounges", "=q6=#arenas8_2#", ""};
 		{ 24, 41992, "", "=q4=Deadly Gladiator's Felweave Cowl", "=ds=", "58 #eofconquest#"};
 		{ 25, 42010, "", "=q4=Deadly Gladiator's Felweave Amice", "=ds=", "46 #eofconquest#"};
@@ -8069,8 +8069,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 40826, "", "=q4=Furious Gladiator's Plate Helm", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
 		{ 18, 40866, "", "=q4=Furious Gladiator's Plate Shoulders", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
 		{ 19, 40789, "", "=q4=Furious Gladiator's Plate Chestpiece", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
-		{ 20, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=", "34700 #faction# / 50 #eoftriumph#"};
-		{ 21, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=", "54500 #faction# / 75 #eoftriumph#"};
+		{ 20, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=", "43400 #faction# / 50 #eoftriumph#"};
+		{ 21, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=", "34700 #faction# / 75 #eoftriumph#"};
 		{ 23, 0, "Ability_Warrior_BattleShout", "=q6=#arenas9#", ""};
 		{ 24, 40823, "", "=q4=Deadly Gladiator's Plate Helm", "=ds=", "58 #eofconquest#"};
 		{ 25, 40862, "", "=q4=Deadly Gladiator's Plate Shoulders", "=ds=", "46 #eofconquest#"};
@@ -11486,8 +11486,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		--- Emblem of Triumph Items ---
 		-------------------------------
 
-	AtlasLoot_Data["EmblemofTriumph1"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+	AtlasLoot_Data["EmblemofTriumph1_A"] = {
 		{ 2, 47694, "", "=q4=Helm of Clouded Sight", "=ds=#s1#, #a1#", "75 #eoftriumph#" };
 		{ 3, 47693, "", "=q4=Hood of Fiery Aftermath", "=ds=#s1#, #a1#", "75 #eoftriumph#" };
 		{ 4, 47713, "", "=q4=Mantle of Catastrophic Emanation", "=ds=#s3#, #a1#", "45 #eoftriumph#" };
@@ -11496,32 +11495,29 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 47689, "", "=q4=Hood of Lethal Intent", "=ds=#s1#, #a2#", "75 #eoftriumph#" };
 		{ 9, 47708, "", "=q4=Duskstalker Shoulderpads", "=ds=#s3#, #a2#", "45 #eoftriumph#" };
 		{ 10, 47712, "", "=q4=Shoulders of the Fateful Accord", "=ds=#s3#, #a2#", "45 #eoftriumph#" };
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 17, 47695, "", "=q4=Hood of Clouded Sight", "=ds=#s1#, #a1#", "75 #eoftriumph#" };
-		{ 18, 47692, "", "=q4=Hood of Smoldering Aftermath", "=ds=#s1#, #a1#", "75 #eoftriumph#" };
-		{ 19, 47714, "", "=q4=Pauldrons of Catastrophic Emanation", "=ds=#s3#, #a1#", "45 #eoftriumph#" };
-		{ 20, 47716, "", "=q4=Mantle of Revered Mortality", "=ds=#s3#, #a1#", "45 #eoftriumph#" };
-		{ 22, 47691, "", "=q4=Mask of Abundant Growth", "=ds=#s1#, #a2#", "75 #eoftriumph#" };
-		{ 23, 47688, "", "=q4=Mask of Lethal Intent", "=ds=#s1#, #a2#", "75 #eoftriumph#" };
-		{ 24, 47709, "", "=q4=Duskstalker Pauldrons", "=ds=#s3#, #a2#", "45 #eoftriumph#" };
-		{ 25, 47710, "", "=q4=Epaulets of the Fateful Accord", "=ds=#s3#, #a2#", "45 #eoftriumph#" };
+		{ 17, 47686, "", "=q4=Helm of Inner Warmth", "=ds=#s1#, #a3#", "75 #eoftriumph#" };
+		{ 18, 47685, "", "=q4=Helm of the Brooding Dragon", "=ds=#s1#, #a3#", "75 #eoftriumph#" };
+		{ 19, 47704, "", "=q4=Epaulets of the Devourer", "=ds=#s3#, #a3#", "45 #eoftriumph#" };
+		{ 20, 47707, "", "=q4=Mantle of the Groundbreaker", "=ds=#s3#, #a3#", "45 #eoftriumph#" };
+		{ 22, 47677, "", "=q4=Faceplate of the Honorbound", "=ds=#s1#, #a4#", "75 #eoftriumph#" };
+		{ 23, 47681, "", "=q4=Heaume of the Restless Watch", "=ds=#s1#, #a4#", "75 #eoftriumph#" };
+		{ 24, 47674, "", "=q4=Helm of Thunderous Rampage", "=ds=#s1#, #a4#", "75 #eoftriumph#" };
+		{ 25, 47702, "", "=q4=Pauldrons of the Cavalier", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
+		{ 26, 47697, "", "=q4=Pauldrons of Trembling Rage", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
+		{ 27, 47698, "", "=q4=Shoulderplates of Enduring Order", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
 		Next = "EmblemofTriumph2";
 		Back = "EMBLEMOFTRIUMPHMENU";
 	};
 
-	AtlasLoot_Data["EmblemofTriumph2"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 2, 47686, "", "=q4=Helm of Inner Warmth", "=ds=#s1#, #a3#", "75 #eoftriumph#" };
-		{ 3, 47685, "", "=q4=Helm of the Brooding Dragon", "=ds=#s1#, #a3#", "75 #eoftriumph#" };
-		{ 4, 47704, "", "=q4=Epaulets of the Devourer", "=ds=#s3#, #a3#", "45 #eoftriumph#" };
-		{ 5, 47707, "", "=q4=Mantle of the Groundbreaker", "=ds=#s3#, #a3#", "45 #eoftriumph#" };
-		{ 7, 47677, "", "=q4=Faceplate of the Honorbound", "=ds=#s1#, #a4#", "75 #eoftriumph#" };
-		{ 8, 47681, "", "=q4=Heaume of the Restless Watch", "=ds=#s1#, #a4#", "75 #eoftriumph#" };
-		{ 9, 47674, "", "=q4=Helm of Thunderous Rampage", "=ds=#s1#, #a4#", "75 #eoftriumph#" };
-		{ 10, 47702, "", "=q4=Pauldrons of the Cavalier", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
-		{ 11, 47697, "", "=q4=Pauldrons of Trembling Rage", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
-		{ 12, 47698, "", "=q4=Shoulderplates of Enduring Order", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+	AtlasLoot_Data["EmblemofTriumph1_H"] = {
+		{ 2, 47695, "", "=q4=Hood of Clouded Sight", "=ds=#s1#, #a1#", "75 #eoftriumph#" };
+		{ 3, 47692, "", "=q4=Hood of Smoldering Aftermath", "=ds=#s1#, #a1#", "75 #eoftriumph#" };
+		{ 4, 47714, "", "=q4=Pauldrons of Catastrophic Emanation", "=ds=#s3#, #a1#", "45 #eoftriumph#" };
+		{ 5, 47716, "", "=q4=Mantle of Revered Mortality", "=ds=#s3#, #a1#", "45 #eoftriumph#" };
+		{ 7, 47691, "", "=q4=Mask of Abundant Growth", "=ds=#s1#, #a2#", "75 #eoftriumph#" };
+		{ 8, 47688, "", "=q4=Mask of Lethal Intent", "=ds=#s1#, #a2#", "75 #eoftriumph#" };
+		{ 9, 47709, "", "=q4=Duskstalker Pauldrons", "=ds=#s3#, #a2#", "45 #eoftriumph#" };
+		{ 10, 47710, "", "=q4=Epaulets of the Fateful Accord", "=ds=#s3#, #a2#", "45 #eoftriumph#" };
 		{ 17, 47687, "", "=q4=Headguard of Inner Warmth", "=ds=#s1#, #a3#", "75 #eoftriumph#" };
 		{ 18, 47684, "", "=q4=Coif of the Brooding Dragon", "=ds=#s1#, #a3#", "75 #eoftriumph#" };
 		{ 19, 47705, "", "=q4=Pauldrons of the Devourer", "=ds=#s3#, #a3#", "45 #eoftriumph#" };
@@ -11532,12 +11528,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 25, 47701, "", "=q4=Shoulderplates of the Cavalier", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
 		{ 26, 47696, "", "=q4=Shoulderplates of Trembling Rage", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
 		{ 27, 47699, "", "=q4=Shoulderguards of Enduring Order", "=ds=#s3#, #a4#", "45 #eoftriumph#" };
-		Prev = "EmblemofTriumph1";
-		Next = "EmblemofTriumph3";
+		Next = "EmblemofTriumph2";
 		Back = "EMBLEMOFTRIUMPHMENU";
 	};
 
-	AtlasLoot_Data["EmblemofTriumph3"] = {
+	AtlasLoot_Data["EmblemofTriumph2"] = {
 		{ 1, 47732, "", "=q4=Band of the Invoker", "=ds=#s13#", "35 #eoftriumph#" };
 		{ 2, 47729, "", "=q4=Bloodshed Band", "=ds=#s13#", "35 #eoftriumph#" };
 		{ 3, 47731, "", "=q4=Clutch of Fortification", "=ds=#s13#", "35 #eoftriumph#" };
@@ -11562,7 +11557,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 47659, "", "=q4=Crimson Star", "=ds=#w11#", "25 #eoftriumph#" };
 		{ 29, 47660, "", "=q4=Blades of the Sable Cross", "=ds=#w11#", "25 #eoftriumph#" };
 		{ 30, 47658, "", "=q4=Brimstone Igniter", "=ds=#w12#", "25 #eoftriumph#" };
-		Prev = "EmblemofTriumph2";
+		Prev = "EmblemofTriumph1_A";
 		Back = "EMBLEMOFTRIUMPHMENU";
 	};
 

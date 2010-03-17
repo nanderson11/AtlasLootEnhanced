@@ -4839,7 +4839,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 23, 17352, "", "=q1=Superior Mana Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
 		{ 24, 19318, "", "=q1=Bottled Alterac Spring Water", "=ds=#e4#", "50 #silver#"};
 		Next = "AVBlue_A";
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 	AtlasLoot_Data["AVBlue_A"] = {
@@ -4868,7 +4868,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "5000 #faction#"};
 		{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "5000 #faction#"};
 		Prev = "AVMisc";
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 	AtlasLoot_Data["AVBlue_H"] = {
@@ -4897,15 +4897,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "5000 #faction#"};
 		{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "5000 #faction#"};
 		Prev = "AVMisc";
-		Back = "PVPMENU";
+		Back = "PVPMENU2";
 	};
 
 		--------------------
 		--- Arathi Basin ---
 		--------------------
 
-	AtlasLoot_Data["ABMisc"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
+	AtlasLoot_Data["ABMisc_A"] = {
 		{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #alliance#", ""};
 		{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #alliance#", ""};
 		{ 4, 20225, "", "=q1=Highlander's Enriched Ration", "=ds=", "18 #silver#", ""};
@@ -4914,89 +4913,20 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 20243, "", "=q1=Highlander's Runecloth Bandage", "=ds=", "18 #silver#", ""};
 		{ 8, 20237, "", "=q1=Highlander's Mageweave Bandage", "=ds=", "13,5 #silver#", ""};
 		{ 9, 20244, "", "=q1=Highlander's Silk Bandage", "=ds=", "9 #silver#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #horde#", ""};
-		{ 18, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #horde#", ""};
-		{ 19, 20222, "", "=q1=Defiler's Enriched Ration", "=ds=", "18 #silver#", ""};
-		{ 20, 20224, "", "=q1=Defiler's Iron Ration", "=ds=", "15 #silver#", ""};
-		{ 21, 20223, "", "=q1=Defiler's Field Ration", "=ds=", "9 #silver#", ""};
-		{ 22, 20234, "", "=q1=Defiler's Runecloth Bandage", "=ds=", "18 #silver#", ""};
-		{ 23, 20232, "", "=q1=Defiler's Mageweave Bandage", "=ds=", "15 #silver#", ""};
-		{ 24, 20235, "", "=q1=Defiler's Silk Bandage", "=ds=", "9 #silver#", ""};
-		Next = "AB20291";
-		Back = "ABMENU";
+		{ 11, 21119, "", "=q3=Talisman of Arathor", "=ds=", "300 #alliance#", ""};
+		{ 12, 21118, "", "=q3=Talisman of Arathor", "=ds=", "300 #alliance#", ""};
+		{ 13, 21117, "", "=q3=Talisman of Arathor", "=ds=", "400 #alliance#", ""};
+		{ 14, 20071, "", "=q3=Talisman of Arathor", "=ds=", "3000 #alliance#", ""};
+		{ 17, 0, "INV_BannerPVP_02", "=q6="..AL["Level 60 Rewards"], "=q5=#b5#" };
+		{ 18, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "5000 #alliance#", ""};
+		{ 19, 20070, "", "=q4=Sageclaw", "=ds=", "9000 #alliance#", ""};
+		{ 20, 20069, "", "=q4=Ironbark Staff", "=ds=", "16000 #alliance#", ""};
+		Next = "AB4049_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["AB20291"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
-		{ 2, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "300 #alliance#", ""};
-		{ 3, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "300 #alliance#", ""};
-		{ 4, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "300 #alliance#", ""};
-		{ 5, 20105, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "300 #alliance#", ""};
-		{ 6, 20120, "", "=q3=Highlander's Mail Girdle", "=ds=", "300 #alliance#", ""};
-		{ 7, 20090, "", "=q3=Highlander's Padded Girdle", "=ds=", "300 #alliance#", ""};
-		{ 8, 20114, "", "=q3=Highlander's Leather Boots", "=ds=", "300 #alliance#", ""};
-		{ 9, 20102, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "300 #alliance#", ""};
-		{ 10, 20123, "", "=q3=Highlander's Mail Greaves", "=ds=", "300 #alliance#", ""};
-		{ 11, 20093, "", "=q3=Highlander's Padded Greaves", "=ds=", "300 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "300 #horde#", ""};
-		{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "300 #horde#", ""};
-		{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "300 #horde#", ""};
-		{ 20, 20172, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "300 #horde#", ""};
-		{ 21, 20152, "", "=q3=Defiler's Chain Girdle", "=ds=", "300 #horde#", ""};
-		{ 22, 20197, "", "=q3=Defiler's Padded Girdle", "=ds=", "300 #horde#", ""};
-		{ 23, 20188, "", "=q3=Defiler's Leather Boots", "=ds=", "300 #horde#", ""};
-		{ 24, 20169, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "300 #horde#", ""};
-		{ 25, 20201, "", "=q3=Defiler's Mail Greaves", "=ds=", "300 #horde#", ""};
-		{ 26, 20157, "", "=q3=Defiler's Chain Greaves", "=ds=", "300 #horde#", ""};
-		Next = "AB20292";
-		Prev = "ABMisc";
-		Back = "ABMENU";
-	};
-
-	AtlasLoot_Data["AB20292"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
-		{ 2, 20108, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "300 #alliance#", ""};
-		{ 3, 20126, "", "=q3=Highlander's Mail Girdle", "=ds=", "300 #alliance#", ""};
-		{ 4, 20111, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "300 #alliance#", ""};
-		{ 5, 20129, "", "=q3=Highlander's Mail Greaves", "=ds=", "300 #alliance#", ""};
-		{ 6, 21119, "", "=q3=Talisman of Arathor", "=ds=", "300 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 20178, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "300 #horde#", ""};
-		{ 18, 20207, "", "=q3=Defiler's Mail Girdle", "=ds=", "300 #horde#", ""};
-		{ 19, 20182, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "300 #horde#", ""};
-		{ 20, 20210, "", "=q3=Defiler's Mail Greaves", "=ds=", "300 #horde#", ""};
-		{ 21, 21120, "", "=q3=Defiler's Talisman", "=ds=", "300 #horde#", ""};
-		Next = "AB3039";
-		Prev = "AB20291";
-		Back = "ABMENU";
-	};
-
-	AtlasLoot_Data["AB3039"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
-		{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "300 #alliance#", ""};
-		{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "300 #alliance#", ""};
-		{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "300 #alliance#", ""};
-		{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "300 #alliance#", ""};
-		{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "300 #alliance#", ""};
-		{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "300 #alliance#", ""};
-		{ 8, 21118, "", "=q3=Talisman of Arathor", "=ds=", "300 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "300 #horde#", ""};
-		{ 18, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "300 #horde#", ""};
-		{ 19, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "300 #horde#", ""};
-		{ 20, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "300 #horde#", ""};
-		{ 21, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "300 #horde#", ""};
-		{ 22, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "300 #horde#", ""};
-		{ 23, 21116, "", "=q3=Defiler's Talisman", "=ds=", "300 #horde#", ""};
-		Next = "AB40491";
-		Prev = "AB20292";
-		Back = "ABMENU";
-	};
-
-	AtlasLoot_Data["AB40491"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
+	AtlasLoot_Data["AB4049_A"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b5#"};
 		{ 2, 20097, "", "=q3=Highlander's Cloth Girdle", "=ds=", "400 #alliance#", ""};
 		{ 3, 20094, "", "=q3=Highlander's Cloth Boots", "=ds=", "400 #alliance#", ""};
 		{ 4, 20115, "", "=q3=Highlander's Leather Girdle", "=ds=", "400 #alliance#", ""};
@@ -5011,185 +4941,197 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 13, 20091, "", "=q3=Highlander's Chain Greaves", "=ds=", "400 #alliance#", ""};
 		{ 14, 20122, "", "=q3=Highlander's Mail Greaves", "=ds=", "300 #alliance#", ""};
 		{ 15, 20121, "", "=q3=Highlander's Mail Greaves", "=ds=", "400 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "400 #horde#", ""};
-		{ 18, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "400 #horde#", ""};
-		{ 19, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "400 #horde#", ""};
-		{ 20, 20174, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "400 #horde#", ""};
-		{ 21, 20189, "", "=q3=Defiler's Leather Boots", "=ds=", "400 #horde#", ""};
-		{ 22, 20170, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "400 #horde#", ""};
-		{ 23, 20153, "", "=q3=Defiler's Chain Girdle", "=ds=", "300 #horde#", ""};
-		{ 24, 20151, "", "=q3=Defiler's Chain Girdle", "=ds=", "400 #horde#", ""};
-		{ 25, 20198, "", "=q3=Defiler's Mail Girdle", "=ds=", "300 #horde#", ""};
-		{ 26, 20196, "", "=q3=Defiler's Mail Girdle", "=ds=", "400 #horde#", ""};
-		{ 27, 20156, "", "=q3=Defiler's Chain Greaves", "=ds=", "300 #horde#", ""};
-		{ 28, 20155, "", "=q3=Defiler's Chain Greaves", "=ds=", "400 #horde#", ""};
-		{ 29, 20200, "", "=q3=Defiler's Mail Greaves", "=ds=", "300 #horde#", ""};
-		{ 30, 20202, "", "=q3=Defiler's Mail Greaves", "=ds=", "400 #horde#", ""};
-		Next = "AB40492";
-		Prev = "AB3039";
-		Back = "ABMENU";
+		{ 17, 20107, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "300 #alliance#", ""};
+		{ 18, 20106, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "400 #alliance#", ""};
+		{ 19, 20125, "", "=q3=Highlander's Plate Girdle", "=ds=", "300 #alliance#", ""};
+		{ 20, 20124, "", "=q3=Highlander's Plate Girdle", "=ds=", "400 #alliance#", ""};
+		{ 21, 20110, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "300 #alliance#", ""};
+		{ 22, 20109, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "400 #alliance#", ""};
+		{ 23, 20128, "", "=q3=Highlander's Plate Greaves", "=ds=", "300 #alliance#", ""};
+		{ 24, 20127, "", "=q3=Highlander's Plate Greaves", "=ds=", "400 #alliance#", ""};
+		Prev = "ABMisc_A";
+		Next = "AB2039_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["AB40492"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
-		{ 2, 20107, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "300 #alliance#", ""};
-		{ 3, 20106, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "400 #alliance#", ""};
-		{ 4, 20125, "", "=q3=Highlander's Plate Girdle", "=ds=", "300 #alliance#", ""};
-		{ 5, 20124, "", "=q3=Highlander's Plate Girdle", "=ds=", "400 #alliance#", ""};
-		{ 6, 20110, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "300 #alliance#", ""};
-		{ 7, 20109, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "400 #alliance#", ""};
-		{ 8, 20128, "", "=q3=Highlander's Plate Greaves", "=ds=", "300 #alliance#", ""};
-		{ 9, 20127, "", "=q3=Highlander's Plate Greaves", "=ds=", "400 #alliance#", ""};
-		{ 10, 21117, "", "=q3=Talisman of Arathor", "=ds=", "400 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 20180, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "300 #horde#", ""};
-		{ 18, 20179, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "400 #horde#", ""};
-		{ 19, 20206, "", "=q3=Defiler's Plate Girdle", "=ds=", "300 #horde#", ""};
-		{ 20, 20205, "", "=q3=Defiler's Plate Girdle", "=ds=", "400 #horde#", ""};
-		{ 21, 20183, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "300 #horde#", ""};
-		{ 22, 20185, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "400 #horde#", ""};
-		{ 23, 20209, "", "=q3=Defiler's Plate Greaves", "=ds=", "300 #horde#", ""};
-		{ 24, 20211, "", "=q3=Defiler's Plate Greaves", "=ds=", "400 #horde#", ""};
-		{ 25, 21115, "", "=q3=Defiler's Talisman", "=ds=", "400 #horde#", ""};
-		Next = "AB5059";
-		Prev = "AB40491";
-		Back = "ABMENU";
+	AtlasLoot_Data["AB2039_A"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b5#"};
+		{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "300 #alliance#", ""};
+		{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "300 #alliance#", ""};
+		{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "300 #alliance#", ""};
+		{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "300 #alliance#", ""};
+		{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "300 #alliance#", ""};
+		{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "300 #alliance#", ""};
+		{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b5#" };
+		{ 17, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "300 #alliance#", ""};
+		{ 18, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "300 #alliance#", ""};
+		{ 19, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "300 #alliance#", ""};
+		{ 20, 20105, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "300 #alliance#", ""};
+		{ 21, 20120, "", "=q3=Highlander's Mail Girdle", "=ds=", "300 #alliance#", ""};
+		{ 22, 20090, "", "=q3=Highlander's Padded Girdle", "=ds=", "300 #alliance#", ""};
+		{ 23, 20114, "", "=q3=Highlander's Leather Boots", "=ds=", "300 #alliance#", ""};
+		{ 24, 20102, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "300 #alliance#", ""};
+		{ 25, 20123, "", "=q3=Highlander's Mail Greaves", "=ds=", "300 #alliance#", ""};
+		{ 26, 20093, "", "=q3=Highlander's Padded Greaves", "=ds=", "300 #alliance#", ""};
+		{ 27, 20108, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "300 #alliance#", ""};
+		{ 28, 20126, "", "=q3=Highlander's Mail Girdle", "=ds=", "300 #alliance#", ""};
+		{ 29, 20111, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "300 #alliance#", ""};
+		{ 30, 20129, "", "=q3=Highlander's Mail Greaves", "=ds=", "300 #alliance#", ""};
+		Prev = "AB4049_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["AB5059"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
-		{ 2, 20047, "", "=q3=Highlander's Cloth Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 3, 20054, "", "=q3=Highlander's Cloth Boots", "=ds=", "3000 #alliance#", ""};
-		{ 4, 20045, "", "=q3=Highlander's Leather Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 5, 20046, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 6, 20052, "", "=q3=Highlander's Leather Boots", "=ds=", "3000 #alliance#", ""};
-		{ 7, 20053, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "3000 #alliance#", ""};
-		{ 8, 20043, "", "=q3=Highlander's Chain Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 9, 20050, "", "=q3=Highlander's Chain Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 10, 20044, "", "=q3=Highlander's Mail Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 11, 20042, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 12, 20049, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 13, 20041, "", "=q3=Highlander's Plate Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 14, 20048, "", "=q3=Highlander's Plate Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 15, 20071, "", "=q3=Talisman of Arathor", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
-		{ 17, 20163, "", "=q3=Defiler's Cloth Girdle", "=ds=", "3000 #horde#", ""};
-		{ 18, 20159, "", "=q3=Defiler's Cloth Boots", "=ds=", "3000 #horde#", ""};
-		{ 19, 20190, "", "=q3=Defiler's Leather Girdle", "=ds=", "3000 #horde#", ""};
-		{ 20, 20171, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "3000 #horde#", ""};
-		{ 21, 20186, "", "=q3=Defiler's Leather Boots", "=ds=", "3000 #horde#", ""};
-		{ 22, 20167, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "3000 #horde#", ""};
-		{ 23, 20150, "", "=q3=Defiler's Chain Girdle", "=ds=", "3000 #horde#", ""};
-		{ 24, 20154, "", "=q3=Defiler's Chain Greaves", "=ds=", "3000 #horde#", ""};
-		{ 25, 20195, "", "=q3=Defiler's Mail Girdle", "=ds=", "3000 #horde#", ""};
-		{ 26, 20199, "", "=q3=Defiler's Mail Greaves", "=ds=", "3000 #horde#", ""};
-		{ 27, 20181, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "3000 #horde#", ""};
-		{ 28, 20204, "", "=q3=Defiler's Plate Girdle", "=ds=", "3000 #horde#", ""};
-		{ 29, 20208, "", "=q3=Defiler's Plate Greaves", "=ds=", "3000 #horde#", ""};
-		{ 30, 20072, "", "=q3=Defiler's Talisman", "=ds=", "3000 #horde#", ""};
-		Next = "AB60";
-		Prev = "AB40492";
-		Back = "ABMENU";
-	};
-
-	AtlasLoot_Data["AB60"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b5#"};
-		{ 2, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "5000 #alliance#", ""};
-		{ 3, 20061, "", "=q4=Highlander's Epaulets", "=ds=", "9000 #alliance#", ""};
-		{ 4, 20059, "", "=q4=Highlander's Leather Shoulders", "=ds=", "9000 #alliance#", ""};
-		{ 5, 20060, "", "=q4=Highlander's Lizardhide Shoulders", "=ds=", "9000 #alliance#", ""};
-		{ 6, 20055, "", "=q4=Highlander's Chain Pauldrons", "=ds=", "9000 #alliance#", ""};
-		{ 7, 20056, "", "=q4=Highlander's Mail Pauldrons", "=ds=", "9000 #alliance#", ""};
-		{ 8, 20058, "", "=q4=Highlander's Lamellar Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 9, 20057, "", "=q4=Highlander's Plate Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 10, 20070, "", "=q4=Sageclaw", "=ds=", "9000 #alliance#", ""};
-		{ 11, 20069, "", "=q4=Ironbark Staff", "=ds=", "16000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b6#"};
+	AtlasLoot_Data["ABMisc_H"] = {
+		{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #horde#", ""};
+		{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #horde#", ""};
+		{ 4, 20222, "", "=q1=Defiler's Enriched Ration", "=ds=", "18 #silver#", ""};
+		{ 5, 20224, "", "=q1=Defiler's Iron Ration", "=ds=", "15 #silver#", ""};
+		{ 6, 20223, "", "=q1=Defiler's Field Ration", "=ds=", "9 #silver#", ""};
+		{ 7, 20234, "", "=q1=Defiler's Runecloth Bandage", "=ds=", "18 #silver#", ""};
+		{ 8, 20232, "", "=q1=Defiler's Mageweave Bandage", "=ds=", "15 #silver#", ""};
+		{ 9, 20235, "", "=q1=Defiler's Silk Bandage", "=ds=", "9 #silver#", ""};
+		{ 11, 21116, "", "=q3=Defiler's Talisman", "=ds=", "300 #horde#", ""};
+		{ 12, 21120, "", "=q3=Defiler's Talisman", "=ds=", "300 #horde#", ""};
+		{ 13, 21115, "", "=q3=Defiler's Talisman", "=ds=", "400 #horde#", ""};
+		{ 14, 20072, "", "=q3=Defiler's Talisman", "=ds=", "3000 #horde#", ""};
+		{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Level 60 Rewards"], "=q5=#b6#"};
 		{ 17, 20068, "", "=q4=Deathguard's Cloak", "=ds=", "5000 #horde#", ""};
-		{ 18, 20176, "", "=q4=Defiler's Epaulets", "=ds=", "9000 #horde#", ""};
-		{ 19, 20194, "", "=q4=Defiler's Leather Shoulders", "=ds=", "9000 #horde#", ""};
-		{ 20, 20175, "", "=q4=Defiler's Lizardhide Shoulders", "=ds=", "9000 #horde#", ""};
-		{ 21, 20158, "", "=q4=Defiler's Chain Pauldrons", "=ds=", "9000 #horde#", ""};
-		{ 22, 20203, "", "=q4=Defiler's Mail Pauldrons", "=ds=", "9000 #horde#", ""};
-		{ 23, 20184, "", "=q4=Deflier's Lamellar Spaulders", "=ds=", "9000 #horde#", ""};
-		{ 24, 20212, "", "=q4=Defiler's Plate Spaulders", "=ds=", "9000 #horde#", ""};
 		{ 25, 20214, "", "=q4=Mindfang", "=ds=", "9000 #horde#", ""};
 		{ 26, 20220, "", "=q4=Ironbark Staff", "=ds=", "16000 #horde#", ""};
-		Prev = "AB5059";
-		Back = "ABMENU";
+		Next = "AB4049_H";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["ABSets1"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa1#", "=ec1=#m7#, #c5#, #c3#, #c8#"};
+	AtlasLoot_Data["AB4049_H"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b6#"};
+		{ 2, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "400 #horde#", ""};
+		{ 3, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "400 #horde#", ""};
+		{ 4, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "400 #horde#", ""};
+		{ 5, 20174, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "400 #horde#", ""};
+		{ 6, 20189, "", "=q3=Defiler's Leather Boots", "=ds=", "400 #horde#", ""};
+		{ 7, 20170, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "400 #horde#", ""};
+		{ 8, 20153, "", "=q3=Defiler's Chain Girdle", "=ds=", "300 #horde#", ""};
+		{ 9, 20151, "", "=q3=Defiler's Chain Girdle", "=ds=", "400 #horde#", ""};
+		{ 10, 20198, "", "=q3=Defiler's Mail Girdle", "=ds=", "300 #horde#", ""};
+		{ 11, 20196, "", "=q3=Defiler's Mail Girdle", "=ds=", "400 #horde#", ""};
+		{ 12, 20156, "", "=q3=Defiler's Chain Greaves", "=ds=", "300 #horde#", ""};
+		{ 13, 20155, "", "=q3=Defiler's Chain Greaves", "=ds=", "400 #horde#", ""};
+		{ 14, 20200, "", "=q3=Defiler's Mail Greaves", "=ds=", "300 #horde#", ""};
+		{ 15, 20202, "", "=q3=Defiler's Mail Greaves", "=ds=", "400 #horde#", ""};
+		{ 16, 20180, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "300 #horde#", ""};
+		{ 17, 20179, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "400 #horde#", ""};
+		{ 18, 20206, "", "=q3=Defiler's Plate Girdle", "=ds=", "300 #horde#", ""};
+		{ 19, 20205, "", "=q3=Defiler's Plate Girdle", "=ds=", "400 #horde#", ""};
+		{ 20, 20183, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "300 #horde#", ""};
+		{ 21, 20185, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "400 #horde#", ""};
+		{ 22, 20209, "", "=q3=Defiler's Plate Greaves", "=ds=", "300 #horde#", ""};
+		{ 23, 20211, "", "=q3=Defiler's Plate Greaves", "=ds=", "400 #horde#", ""};
+		Prev = "ABMisc_H";
+		Next = "AB2039_H";
+		Back = "PVPMENU2";
+	};
+
+	AtlasLoot_Data["AB2039_H"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b6#"};
+		{ 2, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "300 #horde#", ""};
+		{ 3, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "300 #horde#", ""};
+		{ 4, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "300 #horde#", ""};
+		{ 5, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "300 #horde#", ""};
+		{ 6, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "300 #horde#", ""};
+		{ 7, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "300 #horde#", ""};
+		{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b6#" };
+		{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "300 #horde#", ""};
+		{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "300 #horde#", ""};
+		{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "300 #horde#", ""};
+		{ 20, 20172, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "300 #horde#", ""};
+		{ 21, 20152, "", "=q3=Defiler's Chain Girdle", "=ds=", "300 #horde#", ""};
+		{ 22, 20197, "", "=q3=Defiler's Padded Girdle", "=ds=", "300 #horde#", ""};
+		{ 23, 20188, "", "=q3=Defiler's Leather Boots", "=ds=", "300 #horde#", ""};
+		{ 24, 20169, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "300 #horde#", ""};
+		{ 25, 20201, "", "=q3=Defiler's Mail Greaves", "=ds=", "300 #horde#", ""};
+		{ 26, 20157, "", "=q3=Defiler's Chain Greaves", "=ds=", "300 #horde#", ""};
+		{ 27, 20178, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "300 #horde#", ""};
+		{ 28, 20207, "", "=q3=Defiler's Mail Girdle", "=ds=", "300 #horde#", ""};
+		{ 29, 20182, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "300 #horde#", ""};
+		{ 30, 20210, "", "=q3=Defiler's Mail Greaves", "=ds=", "300 #horde#", ""};
+		Prev = "AB4049_H";
+		Back = "PVPMENU2";
+	};
+
+	AtlasLoot_Data["ABSets1_A"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa1#", "=ec1=#c5#, #c3#, #c8#"};
 		{ 2, 20061, "", "=q4=Highlander's Epaulets", "=ds=", "9000 #alliance#", ""};
 		{ 3, 20047, "", "=q3=Highlander's Cloth Girdle", "=ds=", "3000 #alliance#", ""};
 		{ 4, 20054, "", "=q3=Highlander's Cloth Boots", "=ds=", "3000 #alliance#", ""};
-		{ 6, 0, "INV_BannerPVP_02", "=q6=#absa2#", "=ec1=#m7#, #c6#, #c1#"};
+		{ 6, 0, "INV_BannerPVP_02", "=q6=#absa2#", "=ec1=#c6#, #c1#"};
 		{ 7, 20059, "", "=q4=Highlander's Leather Shoulders", "=ds=", "9000 #alliance#", ""};
 		{ 8, 20045, "", "=q3=Highlander's Leather Girdle", "=ds=", "3000 #alliance#", ""};
 		{ 9, 20052, "", "=q3=Highlander's Leather Boots", "=ds=", "3000 #alliance#", ""};
-		{ 11, 0, "INV_BannerPVP_02", "=q6=#absa3#", "=ec1=#m7#, #c6#, #c1#"};
+		{ 11, 0, "INV_BannerPVP_02", "=q6=#absa3#", "=ec1=#c6#, #c1#"};
 		{ 12, 20060, "", "=q4=Highlander's Lizardhide Shoulders", "=ds=", "9000 #alliance#", ""};
 		{ 13, 20046, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "3000 #alliance#", ""};
 		{ 14, 20053, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh1#", "=ec1=#m6#, #c5#, #c3#, #c8#"};
-		{ 17, 20176, "", "=q4=Defiler's Epaulets", "=ds=", "9000 #horde#", ""};
-		{ 18, 20163, "", "=q3=Defiler's Cloth Girdle", "=ds=", "3000 #horde#", ""};
-		{ 19, 20159, "", "=q3=Defiler's Cloth Boots", "=ds=", "3000 #horde#", ""};
-		{ 21, 0, "INV_BannerPVP_01", "=q6=#absh2#", "=ec1=#m6#, #c6#, #c1#"};
-		{ 22, 20194, "", "=q4=Defiler's Leather Shoulders", "=ds=", "9000 #horde#", ""};
-		{ 23, 20190, "", "=q3=Defiler's Leather Girdle", "=ds=", "3000 #horde#", ""};
-		{ 24, 20186, "", "=q3=Defiler's Leather Boots", "=ds=", "3000 #horde#", ""};
-		{ 26, 0, "INV_BannerPVP_01", "=q6=#absh3#", "=ec1=#m6#, #c6#, #c1#"};
-		{ 27, 20175, "", "=q4=Defiler's Lizardhide Shoulders", "=ds=", "9000 #horde#", ""};
-		{ 28, 20171, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "3000 #horde#", ""};
-		{ 29, 20167, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "3000 #horde#", ""};
-		Next = "ABSets2";
-		Back = "PVPMENU";
+		{ 16, 0, "INV_BannerPVP_02", "=q6=#absa4#", "=ec1=#c2#, #c7#"};
+		{ 17, 20055, "", "=q3=Highlander's Chain Pauldrons", "=ds=", "9000 #alliance#", ""};
+		{ 18, 20043, "", "=q3=Highlander's Chain Girdle", "=ds=", "3000 #alliance#", ""};
+		{ 19, 20050, "", "=q3=Highlander's Chain Greaves", "=ds=", "3000 #alliance#", ""};
+		{ 21, 0, "INV_BannerPVP_02", "=q6=#absa5#", "=ec1=#c2#, #c7#"};
+		{ 22, 20056, "", "=q4=Highlander's Mail Pauldrons", "=ds=", "9000 #alliance#", ""};
+		{ 23, 20044, "", "=q3=Highlander's Mail Girdle", "=ds=", "3000 #alliance#", ""};
+		{ 24, 20051, "", "=q3=Highlander's Mail Greaves", "=ds=", "3000 #alliance#", ""};
+		{ 26, 0, "INV_BannerPVP_02", "=q6=#absa6#", "=ec1=#c9#, #c4#"};
+		{ 27, 20057, "", "=q4=Highlander's Plate Spaulders", "=ds=", "9000 #alliance#", ""};
+		{ 28, 20041, "", "=q3=Highlander's Plate Girdle", "=ds=", "3000 #alliance#", ""};
+		{ 29, 20048, "", "=q3=Highlander's Plate Greaves", "=ds=", "3000 #alliance#", ""};
+		Next = "ABSets2_A";
+		Back = "PVPMENU2";
 	};
 
-	AtlasLoot_Data["ABSets2"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa4#", "=ec1=#m7#, #c2#, #c7#"};
-		{ 2, 20055, "", "=q3=Highlander's Chain Pauldrons", "=ds=", "9000 #alliance#", ""};
-		{ 3, 20043, "", "=q3=Highlander's Chain Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 4, 20050, "", "=q3=Highlander's Chain Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 6, 0, "INV_BannerPVP_02", "=q6=#absa5#", "=ec1=#m7#, #c2#, #c7#"};
-		{ 7, 20056, "", "=q4=Highlander's Mail Pauldrons", "=ds=", "9000 #alliance#", ""};
-		{ 8, 20044, "", "=q3=Highlander's Mail Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 9, 20051, "", "=q3=Highlander's Mail Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh4#", "=ec1=#m6#, #c2#, #c7#"};
+	AtlasLoot_Data["ABSets1_H"] = {
+		{ 1, 0, "INV_BannerPVP_01", "=q6=#absh1#", "=ec1=#c5#, #c3#, #c8#"};
+		{ 2, 20176, "", "=q4=Defiler's Epaulets", "=ds=", "9000 #horde#", ""};
+		{ 3, 20163, "", "=q3=Defiler's Cloth Girdle", "=ds=", "3000 #horde#", ""};
+		{ 4, 20159, "", "=q3=Defiler's Cloth Boots", "=ds=", "3000 #horde#", ""};
+		{ 6, 0, "INV_BannerPVP_01", "=q6=#absh2#", "=ec1=#c6#, #c1#"};
+		{ 7, 20194, "", "=q4=Defiler's Leather Shoulders", "=ds=", "9000 #horde#", ""};
+		{ 8, 20190, "", "=q3=Defiler's Leather Girdle", "=ds=", "3000 #horde#", ""};
+		{ 9, 20186, "", "=q3=Defiler's Leather Boots", "=ds=", "3000 #horde#", ""};
+		{ 11, 0, "INV_BannerPVP_01", "=q6=#absh3#", "=ec1=#c6#, #c1#"};
+		{ 12, 20175, "", "=q4=Defiler's Lizardhide Shoulders", "=ds=", "9000 #horde#", ""};
+		{ 13, 20171, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "3000 #horde#", ""};
+		{ 14, 20167, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "3000 #horde#", ""};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh4#", "=ec1=#c2#, #c7#"};
 		{ 17, 20158, "", "=q3=Defiler's Chain Pauldrons", "=ds=", "9000 #horde#", ""};
 		{ 18, 20150, "", "=q3=Defiler's Chain Girdle", "=ds=", "3000 #horde#", ""};
 		{ 19, 20154, "", "=q3=Defiler's Chain Greaves", "=ds=", "3000 #horde#", ""};
-		{ 21, 0, "INV_BannerPVP_01", "=q6=#absh5#", "=ec1=#m6#, #c2#, #c7#"};
+		{ 21, 0, "INV_BannerPVP_01", "=q6=#absh5#", "=ec1=#c2#, #c7#"};
 		{ 22, 20203, "", "=q4=Defiler's Mail Pauldrons", "=ds=", "9000 #horde#", ""};
 		{ 23, 20195, "", "=q3=Defiler's Mail Girdle", "=ds=", "3000 #horde#", ""};
 		{ 24, 20199, "", "=q3=Defiler's Mail Greaves", "=ds=", "3000 #horde#", ""};
-		Next = "ABSets3";
-		Prev = "ABSets1";
-		Back = "PVPMENU";
-	};
-
-	AtlasLoot_Data["ABSets3"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa6#", "=ec1=#m7#, #c9#, #c4#"};
-		{ 2, 20057, "", "=q4=Highlander's Plate Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 3, 20041, "", "=q3=Highlander's Plate Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 4, 20048, "", "=q3=Highlander's Plate Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 6, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#m7#, #c4#"};
-		{ 7, 20058, "", "=q4=Highlander's Lamellar Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 8, 20042, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "3000 #alliance#", ""};
-		{ 9, 20049, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh6#", "=ec1=#m6#, #c9#, #c4#"};
+		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh6#", "=ec1=#c9#, #c4#"};
 		{ 17, 20212, "", "=q4=Defiler's Plate Spaulders", "=ds=", "9000 #horde#", ""};
 		{ 18, 20204, "", "=q3=Defiler's Plate Girdle", "=ds=", "3000 #horde#", ""};
 		{ 19, 20208, "", "=q3=Defiler's Plate Greaves", "=ds=", "3000 #horde#", ""};
-		{ 21, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#m6#, #c4#"};
-		{ 22, 20184, "", "=q4=Defiler's Lamellar Spaulders", "=ds=", "9000 #horde#", ""};
-		{ 23, 20177, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "3000 #horde#", ""};
-		{ 24, 20181, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "3000 #horde#", ""};
-		Prev = "ABSets2";
-		Back = "PVPMENU";
+		Next = "ABSets2_H";
+		Back = "PVPMENU2";
+	};
+
+	AtlasLoot_Data["ABSets2_A"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#c4#"};
+		{ 2, 20058, "", "=q4=Highlander's Lamellar Spaulders", "=ds=", "9000 #alliance#", ""};
+		{ 3, 20042, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "3000 #alliance#", ""};
+		{ 4, 20049, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "3000 #alliance#", ""};
+		Prev = "ABSets1_A";
+		Back = "PVPMENU2";
+	};
+
+	AtlasLoot_Data["ABSets2_H"] = {
+		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#c4#"};
+		{ 2, 20184, "", "=q4=Defiler's Lamellar Spaulders", "=ds=", "9000 #horde#", ""};
+		{ 3, 20177, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "3000 #horde#", ""};
+		{ 4, 20181, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "3000 #horde#", ""};
+		Prev = "ABSets1_H";
+		Back = "PVPMENU2";
 	};
 
 		---------------------
@@ -5198,14 +5140,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["WSGMisc"] = {
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "60 #wsg#", ""};
+		{ 2, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "12000 #faction#", ""};
 		{ 5, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# 2 #faction#", ""};
 		{ 6, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #faction#", ""};
 		{ 7, 19060, "", "=q1=Warsong Gulch Enriched Ration", "=ds=", "20 #silver#", ""};
 		{ 8, 19062, "", "=q1=Warsong Gulch Field Ration", "=ds=", "10 #silver#", ""};
 		{ 9, 19067, "", "=q1=Warsong Gulch Mageweave Bandage", "=ds=", "15 #silver#", ""};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "60 #wsg#", ""};
+		{ 17, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "12000 #faction#", ""};
 		{ 20, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# 2 #faction#", ""};
 		{ 21, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #faction#", ""};
 		{ 22, 19061, "", "=q1=Warsong Gulch Iron Ration", "=ds=", "15 #silver#", ""};

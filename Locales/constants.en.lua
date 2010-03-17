@@ -579,14 +579,12 @@ if AL then
 	AL["Spectral Kitten"] = true;
 
 	-- Battleground Brackets
+	AL["BG/Open PvP Rewards"] = true;
 	AL["Misc. Rewards"] = true;
-	AL["Superior Rewards"] = true;
-	AL["Epic Rewards"] = true;
-	AL["Level 10-19 Rewards"] = true;
+	AL["Level 20-39 Rewards"] = true;
 	AL["Level 20-29 Rewards"] = true;
 	AL["Level 30-39 Rewards"] = true;
 	AL["Level 40-49 Rewards"] = true;
-	AL["Level 50-59 Rewards"] = true;
 	AL["Level 60 Rewards"] = true;
 
 	-- Brood of Nozdormu Paths

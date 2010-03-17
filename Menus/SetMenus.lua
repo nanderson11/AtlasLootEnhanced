@@ -69,9 +69,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["EMBLEMOFTRIUMPHMENU"] = {
-		{ 2, "EmblemofTriumph1", "spell_holy_summonchampion", "=ds="..BabbleInventory["Cloth"].." & "..BabbleInventory["Leather"], ""};
-		{ 3, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..BabbleInventory["Mail"].." & "..BabbleInventory["Plate"], ""};
-		{ 4, "EmblemofTriumph3", "spell_holy_summonchampion", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
+		{ 2, "EmblemofTriumph1_A", "spell_holy_summonchampion", "=ds="..BabbleInventory["Armor"], ""};
+		{ 3, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
 		{ 17, "LEVEL80PVPSETS", "spell_holy_summonchampion", "=ds="..AL["Level 80 PvP Sets"], "" };
 		{ 18, "T9SET", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Sets"], "=q5="..AL["10/25 Man"]};
 		Back = "SETMENU";
