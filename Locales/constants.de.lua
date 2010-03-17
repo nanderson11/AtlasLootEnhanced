@@ -567,6 +567,7 @@ if AL then
 
 	-- Battleground Brackets
 	AL["Misc. Rewards"] = "Diverses";
+	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
 	AL["Level 20-29 Rewards"] = "Belohnungen (Stufe 20-29)";
 	AL["Level 30-39 Rewards"] = "Belohnungen (Stufe 30-39)";
 	AL["Level 20-39 Rewards"] = "Belohnungen (Stufe 20-39)";
