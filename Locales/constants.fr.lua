@@ -127,7 +127,7 @@ if AL then
 	-- AtlasLoot Browser Menus
 	AL["Classic Instances"] = "Instances classiques";
 	AL["BC Instances"] = "Instances BC";
-	--AL["Sets/Collections"] = true;
+	AL["Sets/Collections"] = "Sets / Collections";
 	AL["Reputation Factions"] = "Factions de réputation";
 	AL["WotLK Instances"] = "Instance WotLK";
 	--AL["World Bosses"] = true;
@@ -188,7 +188,7 @@ if AL then
 	AL["PvP Reputation Sets"] = "Sets réputation JcJ";
 	AL["Arena PvP Weapons"] = "Armes d'arène JcJ";
 	AL["PvP Misc"] = "Objets divers JcJ";
-	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes/Enchantements/Dessins de Joaillerie JcJ";
+	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes / Enchantements / Dessins de Joaillerie JcJ";
 	AL["Level 80 PvP Sets"] = "Sets JcJ niveau 80";
 	AL["Old Level 80 PvP Sets"] = "Anciens sets JcJ niveau 80";
 	AL["Arena Season 7/8 Sets"] = "Sets d'arène saison 7/8";
@@ -473,11 +473,11 @@ if AL then
 	AL["Tribute Run"] = "Tribut du Roi";
 	AL["Dire Maul Books"] = "Livres de Hache Tripes";
 	AL["Random Boss Loot"] = "Objets aléatoires des boss";
-	AL["BT Patterns/Plans"] = "Patrons/Plans du Temple Noir";
+	AL["BT Patterns/Plans"] = "Patrons / Plans du Temple Noir";
 	AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
-	AL["SP Patterns/Plans"] = "Patrons/Plans du Plateau du Puits de soleil";
-	AL["Ulduar Formula/Patterns/Plans"] = "Formules/Patrons/Plans d'Ulduar";
-	AL["Trial of the Crusader Patterns/Plans"] = "Patrons/Plans de L'épreuve du croisé";
+	AL["SP Patterns/Plans"] = "Patrons / Plans du Plateau du Puits de soleil";
+	AL["Ulduar Formula/Patterns/Plans"] = "Formules / Patrons / Plans d'Ulduar";
+	AL["Trial of the Crusader Patterns/Plans"] = "Patrons / Plans de L'épreuve du croisé";
 	AL["Legendary Items for Kael'thas Fight"] = "Objets légendaires pour le combat contre Kael'thas";
 
 	-- Pets
@@ -488,7 +488,7 @@ if AL then
 	--AL["Rare"] = true;
 	AL["Achievement"] = "Haut fait"
 	--AL["Faction"] = true;
-	AL["Dungeon/Raid"] = "Donjon/Raid";
+	AL["Dungeon/Raid"] = "Donjon / Raid";
 
 	-- Mounts
 	AL["Achievement Reward"] = "Récompense de Hauts faits";
@@ -578,6 +578,7 @@ if AL then
 	--AL["Spectral Kitten"] = true;
 
 	-- Battleground Brackets
+	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
 	AL["Misc. Rewards"] = "Récompenses diverses";
 	AL["Level 20-29 Rewards"] = "Récompenses niveau 20-29";
 	AL["Level 30-39 Rewards"] = "Récompenses niveau 30-39";
