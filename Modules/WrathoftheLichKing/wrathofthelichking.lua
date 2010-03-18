@@ -8300,7 +8300,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 12, 51400, "", "=q4=Wrathful Gladiator's War Staff", "=ds=#w9#", "55000 #faction# 1540 #arena# #reqrating# 1800"};
 		{ 13, 51394, "", "=q4=Wrathful Gladiator's Longbow", "=ds=#w2#", "55000 #faction# 1540 #arena# #reqrating# 1800"};
 		{ 14, 51411, "", "=q4=Wrathful Gladiator's Heavy Crossbow", "=ds=#w3#", "55000 #faction# 1540 #arena# #reqrating# 1800"};
-		{ 15, 51449, "", "=q4=Wrathful Gladiator's Rifle", "=ds=#w5#", "5500 #faction# 1540 #arena# #reqrating# 1800"};
+		{ 15, 51449, "", "=q4=Wrathful Gladiator's Rifle", "=ds=#w5#", "55000 #faction# 1540 #arena# #reqrating# 1800"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
 		{ 17, 51389, "", "=q4=Wrathful Gladiator's Sunderer", "=ds=#h2#, #w1#", "4670 #arena# #reqrating# 2200"};
 		{ 18, 51454, "", "=q4=Wrathful Gladiator's Salvation", "=ds=#h3#, #w6#", "3950 #arena# #reqrating# 2200"};
