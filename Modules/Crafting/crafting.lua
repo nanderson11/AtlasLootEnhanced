@@ -5306,16 +5306,17 @@ local MASTER = select(2, GetSpellInfo(28596));
 		----------------------------
 
 	AtlasLoot_Data["CraftedWeapons1"] = {
-		{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j54#"};
-		{ 2, 45085, "", "=q4=Titansteel Spellblade", "=ds=#h3#, #w4#"};
-		{ 3, 42435, "", "=q4=Titansteel Shanker", "=ds=#h1#, #w4#"};
-		{ 4, 41383, "", "=q4=Titansteel Bonecrusher", "=ds=#h3#, #w6#"};
-		{ 5, 41384, "", "=q4=Titansteel Guardian", "=ds=#h3#, #w6#"};
-		{ 6, 41257, "", "=q4=Titansteel Destroyer", "=ds=#h2#, #w6#"};
-		{ 7, 42508, "", "=q4=Titansteel Shield Wall", "=ds=#w8#"};
-		{ 9, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j54#"};
-		{ 10, 41168, "", "=q4=Armor Plated Combat Shotgun", "=ds=#w5#"};
-		{ 11, 44504, "", "=q4=Nesingwary 4000", "=ds=#w5#"};
+		{ 1, 49888, "", "=q4=Shadow's Edge", "=ds=#h4#, #w1#"};
+		{ 3, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j54#"};
+		{ 4, 45085, "", "=q4=Titansteel Spellblade", "=ds=#h3#, #w4#"};
+		{ 5, 42435, "", "=q4=Titansteel Shanker", "=ds=#h1#, #w4#"};
+		{ 6, 41383, "", "=q4=Titansteel Bonecrusher", "=ds=#h3#, #w6#"};
+		{ 7, 41384, "", "=q4=Titansteel Guardian", "=ds=#h3#, #w6#"};
+		{ 8, 41257, "", "=q4=Titansteel Destroyer", "=ds=#h2#, #w6#"};
+		{ 9, 42508, "", "=q4=Titansteel Shield Wall", "=ds=#w8#"};
+		{ 11, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j54#"};
+		{ 12, 41168, "", "=q4=Armor Plated Combat Shotgun", "=ds=#w5#"};
+		{ 13, 44504, "", "=q4=Nesingwary 4000", "=ds=#w5#"};
 		{ 16, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j10#"};
 		{ 17, 23554, "", "=q4=Eternium Runed Blade", "=ds=#h3#, #w4#"};
 		{ 18, 23555, "", "=q4=Dirge", "=ds=#h1#, #w4#"};
