@@ -9179,7 +9179,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48490, "", "=q4=Thassarian's Battleplate of Triumph", "=ds="};
 		{ 20, 48489, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds="};
 		{ 21, 48487, "", "=q4=Thassarian's Legplates of Triumph", "=ds="};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DeathKnightDPS_H"] = {
@@ -9201,7 +9201,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48491, "", "=q4=Koltira's Battleplate of Triumph", "=ds="};
 		{ 20, 48492, "", "=q4=Koltira's Gauntlets of Triumph", "=ds="};
 		{ 21, 48494, "", "=q4=Koltira's Legplates of Triumph", "=ds="};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DeathKnightTank_A"] = {
@@ -9223,7 +9223,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48547, "", "=q4=Thassarian's Chestguard of Triumph", "=ds="};
 		{ 20, 48546, "", "=q4=Thassarian's Handguards of Triumph", "=ds="};
 		{ 21, 48544, "", "=q4=Thassarian's Legguards of Triumph", "=ds="};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DeathKnightTank_H"] = {
@@ -9245,7 +9245,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48548, "", "=q4=Koltira's Chestguard of Triumph", "=ds="};
 		{ 20, 48549, "", "=q4=Koltira's Handguards of Triumph", "=ds="};
 		{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds="};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DruidRestoration_A"] = {
@@ -9267,7 +9267,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48139, "", "=q4=Malfurion's Robe of Triumph", "=ds="};
 		{ 20, 48142, "", "=q4=Malfurion's Handguards of Triumph", "=ds="};
 		{ 21, 48140, "", "=q4=Malfurion's Leggings of Triumph", "=ds="};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DruidRestoration_H"] = {
@@ -9289,7 +9289,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48146, "", "=q4=Runetotem's Robe of Triumph", "=ds="};
 		{ 20, 48143, "", "=q4=Runetotem's Handguards of Triumph", "=ds="};
 		{ 21, 48145, "", "=q4=Runetotem's Leggings of Triumph", "=ds="};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DruidFeral_A"] = {
@@ -9311,7 +9311,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48206, "", "=q4=Malfurion's Raiments of Triumph", "=ds="};
 		{ 20, 48203, "", "=q4=Malfurion's Handgrips of Triumph", "=ds="};
 		{ 21, 48205, "", "=q4=Malfurion's Legguards of Triumph", "=ds="};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DruidFeral_H"] = {
@@ -9333,7 +9333,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48199, "", "=q4=Runetotem's Raiments of Triumph", "=ds="};
 		{ 20, 48202, "", "=q4=Runetotem's Handgrips of Triumph", "=ds="};
 		{ 21, 48200, "", "=q4=Runetotem's Legguards of Triumph", "=ds="};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DruidBalance_A"] = {
@@ -9355,7 +9355,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48169, "", "=q4=Malfurion's Vestments of Triumph", "=ds="};
 		{ 20, 48172, "", "=q4=Malfurion's Gloves of Triumph", "=ds="};
 		{ 21, 48170, "", "=q4=Malfurion's Trousers of Triumph", "=ds="};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9DruidBalance_H"] = {
@@ -9377,7 +9377,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48176, "", "=q4=Runetotem's Vestments of Triumph", "=ds="};
 		{ 20, 48173, "", "=q4=Runetotem's Gloves of Triumph", "=ds="};
 		{ 21, 48175, "", "=q4=Runetotem's Trousers of Triumph", "=ds="};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Hunter_A"] = {
@@ -9399,7 +9399,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48264, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48263, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48261, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Hunter_H"] = {
@@ -9421,7 +9421,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48265, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48266, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48268, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Mage_A"] = {
@@ -9443,7 +9443,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47759, "", "=q4=Khadgar's Robe of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 47762, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 47760, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Mage_H"] = {
@@ -9465,7 +9465,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47766, "", "=q4=Sunstrider's Robe of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 47763, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 47765, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PaladinHoly_A"] = {
@@ -9487,7 +9487,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48584, "", "=q4=Turalyon's Tunic of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48583, "", "=q4=Turalyon's Gloves of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48581, "", "=q4=Turalyon's Greaves of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PaladinHoly_H"] = {
@@ -9509,7 +9509,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48589, "", "=q4=Liadrin's Tunic of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48588, "", "=q4=Liadrin's Gloves of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48586, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PaladinRetribution_A"] = {
@@ -9531,7 +9531,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48616, "", "=q4=Turalyon's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48615, "", "=q4=Turalyon's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48613, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PaladinRetribution_H"] = {
@@ -9553,7 +9553,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48617, "", "=q4=Liadrin's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48618, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48620, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PaladinProtection_A"] = {
@@ -9575,7 +9575,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48642, "", "=q4=Turalyon's Breastplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48643, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48645, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PaladinProtection_H"] = {
@@ -9597,7 +9597,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48651, "", "=q4=Liadrin's Breastplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48650, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48648, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PriestShadow_A"] = {
@@ -9619,7 +9619,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48083, "", "=q4=Velen's Raiments of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 48086, "", "=q4=Velen's Handwraps of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 48084, "", "=q4=Velen's Pants of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PriestShadow_H"] = {
@@ -9641,7 +9641,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48090, "", "=q4=Zabra's Raiments of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 48087, "", "=q4=Zabra's Handwraps of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 48089, "", "=q4=Zabra's Pants of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PriestHoly_A"] = {
@@ -9663,7 +9663,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48031, "", "=q4=Velen's Robe of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 48037, "", "=q4=Velen's Gloves of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 48033, "", "=q4=Velen's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9PriestHoly_H"] = {
@@ -9685,7 +9685,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48060, "", "=q4=Zabra's Robe of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 48057, "", "=q4=Zabra's Gloves of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 48059, "", "=q4=Zabra's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Rogue_A"] = {
@@ -9707,7 +9707,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48232, "", "=q4=VanCleef's Breastplate of Triumph", "=ds=#s5#, #a2#"};
 		{ 20, 48231, "", "=q4=VanCleef's Gauntlets of Triumph", "=ds=#s9#, #a2#"};
 		{ 21, 48229, "", "=q4=VanCleef's Legplates of Triumph", "=ds=#s11#, #a2#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Rogue_H"] = {
@@ -9729,7 +9729,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48233, "", "=q4=Garona's Breastplate of Triumph", "=ds=#s5#, #a2#"};
 		{ 20, 48234, "", "=q4=Garona's Gauntlets of Triumph", "=ds=#s9#, #a2#"};
 		{ 21, 48236, "", "=q4=Garona's Legplates of Triumph", "=ds=#s11#, #a2#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9ShamanElemental_A"] = {
@@ -9751,7 +9751,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48325, "", "=q4=Nobundo's Hauberk of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48324, "", "=q4=Nobundo's Gloves of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48322, "", "=q4=Nobundo's Kilt of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9ShamanElemental_H"] = {
@@ -9773,7 +9773,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48326, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48327, "", "=q4=Thrall's Gloves of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48329, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9ShamanEnhancement_A"] = {
@@ -9795,7 +9795,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48355, "", "=q4=Nobundo's Chestguard of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48354, "", "=q4=Nobundo's Grips of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48352, "", "=q4=Nobundo's War-Kilt of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9ShamanEnhancement_H"] = {
@@ -9817,7 +9817,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48356, "", "=q4=Thrall's Chestguard of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48357, "", "=q4=Thrall's Grips of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48359, "", "=q4=Thrall's War-Kilt of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9ShamanRestoration_A"] = {
@@ -9839,7 +9839,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48294, "", "=q4=Nobundo's Tunic of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48293, "", "=q4=Nobundo's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48291, "", "=q4=Nobundo's Legguards of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9ShamanRestoration_H"] = {
@@ -9861,7 +9861,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48305, "", "=q4=Thrall's Tunic of Triumph", "=ds=#s5#, #a3#"};
 		{ 20, 48306, "", "=q4=Thrall's Handguards of Triumph", "=ds=#s9#, #a3#"};
 		{ 21, 48308, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Warlock_A"] = {
@@ -9883,7 +9883,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47791, "", "=q4=Kel'Thuzad's Robe of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 47788, "", "=q4=Kel'Thuzad's Gloves of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 47790, "", "=q4=Kel'Thuzad's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9Warlock_H"] = {
@@ -9905,7 +9905,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 47794, "", "=q4=Gul'dan's Robe of Triumph", "=ds=#s5#, #a1#"};
 		{ 20, 47797, "", "=q4=Gul'dan's Gloves of Triumph", "=ds=#s9#, #a1#"};
 		{ 21, 47795, "", "=q4=Gul'dan's Leggings of Triumph", "=ds=#s11#, #a1#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9WarriorFury_A"] = {
@@ -9927,7 +9927,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48385, "", "=q4=Wrynn's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48384, "", "=q4=Wrynn's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48382, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9WarriorFury_H"] = {
@@ -9949,7 +9949,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48396, "", "=q4=Hellscream's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48397, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48399, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9WarriorProtection_A"] = {
@@ -9971,7 +9971,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48451, "", "=q4=Wrynn's Breastplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48453, "", "=q4=Wrynn's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48447, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETALLIANCE";
+		Back = "T9SET";
 	};
 
 	AtlasLoot_Data["T9WarriorProtection_H"] = {
@@ -9993,7 +9993,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 48466, "", "=q4=Hellscream's Breastplate of Triumph", "=ds=#s5#, #a4#"};
 		{ 20, 48467, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#"};
 		{ 21, 48469, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};
-		Back = "T9SETHORDE";
+		Back = "T9SET";
 	};
 
 		--------------------------
