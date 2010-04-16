@@ -6394,7 +6394,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 50185, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#"};
 		{ 18, 50186, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#"};
 		{ 20, 50183, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
-		{ 21, 50472, "", "=q4=Nightmare Ender", "=ds=#w9#"};
+		{ 21, 50472, "", "=q4=Nightmare Ender", "=ds=#w12#"};
 		{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
 		{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
 		Prev = "ICCLanathel25Man";
@@ -10829,9 +10829,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["PetsPetStore1"] = {
 		{ 1, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-		{ 2, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
-		{ 3, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
-		{ 4, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
+		{ 2, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+		{ 3, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+		{ 4, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
+		{ 5, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
 		Prev = "PetsPromotional1";
 		Next = "PetsAccessories1";
 		Back = "PETMENU";
