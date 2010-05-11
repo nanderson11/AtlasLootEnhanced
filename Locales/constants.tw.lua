@@ -194,6 +194,7 @@ if AL then
 	AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";
 	AL["Arena Season 7/8 Sets"] = "競技場第七/八季 PvP 套裝";
 	AL["PvP Class Items"] = "PvP 職業物品";
+	AL["NOT AVAILABLE ANYMORE"] = "再也無法使用";
 
 	--World Events
 	AL["Abyssal Council"] = "深淵議會";
@@ -550,7 +551,7 @@ if AL then
 	-- Sixth set
 	AL["Hunt for Illidan"] = "獵殺伊利丹";
 	AL["The Footsteps of Illidan"] = "伊利丹的腳步";
-	AL["Disco Inferno!"] = "Disco Inferno!";
+	--AL["Disco Inferno!"] = "Disco Inferno!";
 	AL["Ethereal Plunderer"] = "伊斯利掠奪者";
 
 	-- Seventh set
@@ -578,10 +579,11 @@ if AL then
 	--AL["Spectral Kitten"] = true;
 
 	--Battleground Brackets
+	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
 	AL["Misc. Rewards"] = "雜項獎勵";
+	AL["Level 20-39 Rewards"] = "等級 20-39 獎勵";
 	AL["Level 20-29 Rewards"] = "等級 20-29 獎勵";
 	AL["Level 30-39 Rewards"] = "等級 30-39 獎勵";
-	AL["Level 20-39 Rewards"] = "等級 20-39 獎勵";
 	AL["Level 40-49 Rewards"] = "等級 40-49 獎勵";
 	AL["Level 60 Rewards"] = "等級 60 獎勵";
 
@@ -1031,7 +1033,7 @@ if AL then
 	AL["Frost Witch's Garb"] = "冰霜女巫裝束";
 	AL["Frost Witch's Battlegear"] = "冰霜女巫戰裝";
 	AL["Frost Witch's Regalia"] = "冰霜女巫戰衣";
-	AL["Dark Coven's Regalia"] = "黑暗巫會戰衣";
+	AL["Dark Coven's Garb"] = "黑暗巫會裝束";
 	AL["Ymirjar Lord's Battlegear"] = "依米亞領主戰裝";
 	AL["Ymirjar Lord's Plate"] = "依米亞領主鎧甲";
 	AL["Scourgelord's Battlegear"] = "天譴領主戰裝";
