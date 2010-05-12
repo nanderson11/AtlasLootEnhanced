@@ -6794,7 +6794,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 50711, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#"};
 		{ 8, 50712, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#"};
 		{ 9, 50716, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
-		{ 10, 50721, "", "=q4=Crypt Keeper's Bracers", "=ds=#s10#, #a4#"};
+		{ 10, 50721, "", "=q4=Crypt Keeper's Bracers", "=ds=#s8#, #a4#"};
 		{ 16, 50720, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#"};
 		{ 17, 50714, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#"};
 		{ 18, 50719, "", "=q4=Shadow Silk Spindle", "=ds=#s15#"};
