@@ -61,8 +61,6 @@ local MASTER = select(2, GetSpellInfo(28596));
 ---- Cooking
 ---- Fishing
 ---- Jewelcrafting
---- Contests
----- Fishing
 
 	-----------------------
 	--- Tradeskill List ---
@@ -5648,39 +5646,5 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 25, 42650, "", "=q4=Design: Titanium Spellshock Ring", "=ds=#p12# (420)"};
 		Prev = "JewelcraftingDaily5";
 		Back = "JEWELCRAFTINGDAILYMENU";
-	};
-
-	---------------
-	--- Contests ---
-	---------------
-
-		---------------
-		--- Fishing ---
-		---------------
-
-	AtlasLoot_Data["FishingContest1"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Winner's Reward"], ""};
-		{ 2, 19970, "", "=q3=Arcanite Fishing Pole", "=ds=#e20#", "", ""};
-		{ 3, 19979, "", "=q3=Hook of the Master Angler", "=ds=#s14#", "", ""};
-		{ 12, 19805, "", "=q2=Keefer's Angelfish", "=ds=#m17#", "", ""};
-		{ 13, 19803, "", "=q2=Brownell's Blue Striped Racer", "=ds=#m17#", "", ""};
-		{ 14, 19806, "", "=q2=Dezian Queenfish", "=ds=#m17#", "", ""};
-		{ 15, 19807, "", "=q1=Speckled Tastyfish", "=ds=#m17#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Fish"], ""};
-		{ 17, 19972, "", "=q2=Lucky Fishing Hat", "=ds=#s1#, #a1#", "", ""};
-		{ 18, 19969, "", "=q2=Nat Pagle's Extreme Anglin' Boots", "=ds=#s12#, #a1#", "", ""};
-		{ 19, 19971, "", "=q2=High Test Eternium Fishing Line", "=ds=#p24# #e17#", "", ""};
-		{ 20, 19808, "", "=q2=Rockhide Strongfish", "=ds=#h1#, #w6#", "", ""};
-		Next = "FishingContest2";
-		Back = "FISHINGCONTESTMENU";
-	};
-
-	AtlasLoot_Data["FishingContest2"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Winner's Reward"], ""};
-		{ 2, 50287, "", "=q3=Boots of the Bay", "=ds=#s12#", "", ""};
-		{ 3, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "", ""};
-		{ 15, 50289, "", "=q1=Blacktip Shark", "=ds=#m17#", "", ""};
-		Prev = "FishingContest1";
-		Back = "FISHINGCONTESTMENU";
 	};
 

@@ -10695,22 +10695,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["PetsQuestCrafted1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Quest"], ""};
-		{
-			{ 2, 45022, "", "=q3=Argent Gruntling", "=ds=#e13#"};--Horde
-			{ 2, 44998, "", "=q3=Argent Squire", "=ds=#e13#"};--Alliance
-		};
-		{ 3, 35350, "", "=q3=Chuck's Bucket", "=ds=#e13#"};
-		{ 4, 33818, "", "=q3=Muckbreath's Bucket", "=ds=#e13#"};
-		{ 5, 35349, "", "=q3=Snarly's Bucket", "=ds=#e13#"};
-		{ 6, 44983, "", "=q3=Strand Crawler", "=ds=#e13#"};
-		{ 7, 33816, "", "=q3=Toothy's Bucket", "=ds=#e13#"};
-		{ 8, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#"};
-		{ 9, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
-		{ 10, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
-		{ 11, 31760, "", "=q1=Miniwing", "=ds=#e13#"};
-		{ 12, 12529, "", "=q1=Smolderweb Carrier", "=ds=#e13#"};
-		{ 13, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#"};
-		{ 14, 12264, "", "=q1=Worg Carrier", "=ds=#e13#"};
+		{ 2, 45022, "", "=q3=Argent Gruntling", "=ds=#e13# =ec1=#m6#"};
+		{ 3, 44998, "", "=q3=Argent Squire", "=ds=#e13# =ec1=#m7#"};
+		{ 4, 35350, "", "=q3=Chuck's Bucket", "=ds=#e13#"};
+		{ 5, 33818, "", "=q3=Muckbreath's Bucket", "=ds=#e13#"};
+		{ 6, 35349, "", "=q3=Snarly's Bucket", "=ds=#e13#"};
+		{ 7, 44983, "", "=q3=Strand Crawler", "=ds=#e13#"};
+		{ 8, 33816, "", "=q3=Toothy's Bucket", "=ds=#e13#"};
+		{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#"};
+		{ 10, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
+		{ 11, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
+		{ 12, 31760, "", "=q1=Miniwing", "=ds=#e13#"};
+		{ 13, 12529, "", "=q1=Smolderweb Carrier", "=ds=#e13#"};
+		{ 14, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#"};
+		{ 15, 12264, "", "=q1=Worg Carrier", "=ds=#e13#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Crafted"], ""};
 		{ 17, 15996, "", "=q1=Lifelike Mechanical Toad", "=ds=#e13#"};
 		{ 18, 11826, "", "=q1=Lil' Smoky", "=ds=#e13#"};
@@ -10735,15 +10733,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
 		{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds=#e13#"};
 		{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds=#e13#"};
-		{
-			{ 19, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};--Horde
-			{ 19, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};--Alliance
-		};
-		{ 20, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#"};
-		{ 21, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#"};
-		{ 22, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#"};
-		{ 23, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#"};
-		{ 24, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#"};
+		{ 19, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13# =ec1=#m7#"};
+		{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13# =ec1=#m6#"};
+		{ 21, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#"};
+		{ 22, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#"};
+		{ 23, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#"};
+		{ 24, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#"};
+		{ 25, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#"};
 		Prev = "PetsQuestCrafted1";
 		Next = "PetsRare2";
 		Back = "PETMENU";
@@ -10827,11 +10823,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
 		{ 21, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
 		Prev = "PetsEvent1";
-		Next = "PetsBlizzardStore1";
+		Next = "PetsPetStore1";
 		Back = "PETMENU";
 	};
 
-	AtlasLoot_Data["PetsBlizzardStore1"] = {
+	AtlasLoot_Data["PetsPetStore1"] = {
 		{ 1, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
 		{ 2, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
 		{ 3, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
@@ -10850,7 +10846,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
 		{ 6, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
 		{ 7, 37460, "", "=q1=Rope Pet Leash", "=ds="};
-		Prev = "PetsBlizzardStore1";
+		Prev = "PetsPetStore1";
 		Back = "PETMENU";
 	};
 
@@ -11035,18 +11031,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Cenarion Expedition"].." #j30#", ""};
 		{ 17, 33999, "", "=q4=Cenarion War Hippogryph", "=ds=#e12#"};
 		{ 19, 0, "INV_Box_01", "=q6="..BabbleFaction["The Sons of Hodir"].." #j30#", ""};
-		{
-			{ 20, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e12#"};--Horde
-			{ 20, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e12#"};--Alliance
-		};
-		{
-			{ 21, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e12#"};--Horde
-			{ 21, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e12#"};--Alliance
-		};
-		{ 23, 0, "INV_Box_01", "=q6="..BabbleFaction["The Wyrmrest Accord"].." #j30#", ""};
-		{ 24, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e12#"};
-		{ 26, 0, "INV_Box_01", "=q6="..BabbleFaction["The Oracles"].." #j30#", ""};
-		{ 27, 44707, "", "=q4=Reins of the Green Proto-Drake", "=q2=#x38#", ""};
+		{ 20, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e12# =ec1=#m7#"};
+		{ 21, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e12# =ec1=#m6#"};
+		{ 22, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e12# =ec1=#m7#"};
+		{ 23, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e12# =ec1=#m6#"};
+		{ 25, 0, "INV_Box_01", "=q6="..BabbleFaction["The Wyrmrest Accord"].." #j30#", ""};
+		{ 26, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e12#"};
+		{ 28, 0, "INV_Box_01", "=q6="..BabbleFaction["The Oracles"].." #j30#", ""};
+		{ 29, 44707, "", "=q4=Reins of the Green Proto-Drake", "=q2=#x38#", ""};
 		Back = "MOUNTMENU";
 	};
 
@@ -11083,60 +11075,44 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
 		{ 2, 33809, "", "=q4=Amani War Bear", "=q2=#x33#, =q1=#z29#"};
 		{ 3, 32458, "", "=q4=Ashes of Al'ar", "=q2=#n59#, =q1=#z19#"};
-		{
-			{ 4, 49098, "", "=q4=Crusader's Black Warhorse", "=q2="..AL["A Tribute to Immortality"]..", =q1="..BabbleZone["Trial of the Crusader"], "", ""};--Horde
-			{ 4, 49096, "", "=q4=Crusader's White Warhorse", "=q2="..AL["A Tribute to Immortality"]..", =q1="..BabbleZone["Trial of the Crusader"], "", ""};--Alliance
-		};
-		{ 5, 13335, "", "=q4=Deathcharger's Reins", "=q2=#n52#, =q1=#z6#", "", "0.10%"};
-		{ 6, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2=#n53#, =q1=#z12#", "", "0.25%"};
-		{ 7, 50818, "", "=q4=Invincible's Reins", "=q2="..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-		{ 8, 45693, "", "=q4=Mimiron's Head", "=q2="..AL["Alone in the Darkness"]..", =q1="..BabbleZone["Ulduar"], "", ""};
-		{ 9, 43986, "", "=q4=Reins of the Black Drake", "=q2=#n153#, =q1=#j37# #z38# #j46#", ""};
-		{ 10, 43954, "", "=q4=Reins of the Twilight Drake", "=q2=#n153#, =q1=#j38# #z38# #j46#", ""};
-		{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=q2=#n154#, =q1=#j37# #z39#", ""};
-		{ 12, 43952, "", "=q4=Reins of the Azure Drake", "=q2=#n154#, =q1=#j38# #z39#", ""};
-		{ 13, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2=#n151#, =q1=#j47# #z35#", ""};
-		{ 14, 43951, "", "=q4=Reins of the Bronze Drake", "=q2=#n152#, =q1=#j47# #z36#", ""};
-		{ 15, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q2="..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-		{
-			{ 16, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"], "", ""};--Horde
-			{ 16, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"], "", ""};--Alliance
-		};
-		{ 17, 32768, "", "=q4=Reins of the Raven Lord", "=q2=#n58#, =q1=#z16#"};
-		{
-			{ 18, 49046, "", "=q4=Swift Horde Wolf", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..BabbleZone["Trial of the Crusader"], "", ""};--Horde
-			{ 18, 49044, "", "=q4=Swift Alliance Steed", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..BabbleZone["Trial of the Crusader"], "", ""};--Alliance
-		};
-		{ 19, 35513, "", "=q4=Swift White Hawkstrider", "=q2=#n59#, =q1=#z30#"};
-		{ 20, 19872, "", "=q4=Swift Razzashi Raptor", "=q2=#n33#, =q1=#z8#", "", "0.43%"};
-		{ 21, 19902, "", "=q4=Swift Zulian Tiger", "=q2=#n28#, =q1=#z8#", "", " 0.70%"};
-		{ 23, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "10.91%"};
-		{ 24, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "11.77%"};
-		{ 25, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "1.32%"};
-		{ 26, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "12.64%"};
+		{ 4, 13335, "", "=q4=Deathcharger's Reins", "=q2=#n52#, =q1=#z6#", "", "0.10%"};
+		{ 5, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2=#n53#, =q1=#z12#", "", "0.25%"};
+		{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..AL["Alone in the Darkness"]..", =q1="..BabbleZone["Ulduar"], "", ""};
+		{ 7, 43986, "", "=q4=Reins of the Black Drake", "=q2=#n153#, =q1=#j37# #z38# #j46#", ""};
+		{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "=q2=#n153#, =q1=#j38# #z38# #j46#", ""};
+		{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2=#n154#, =q1=#j37# #z39#", ""};
+		{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2=#n154#, =q1=#j38# #z39#", ""};
+		{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2=#n151#, =q1=#j47# #z35#", ""};
+		{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "=q2=#n152#, =q1=#j47# #z36#", ""};
+		{ 13, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m7#", "", ""};
+		{ 14, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e12# =ec1=#m6#", "", ""};
+		{ 15, 32768, "", "=q4=Reins of the Raven Lord", "=q2=#n58#, =q1=#z16#"};
+		{ 16, 49044, "", "=q4=Swift Alliance Steed", "=ec1=#m7# =q2="..AL["A Tribute to Insanity (50)"]..", =q1="..BabbleZone["Trial of the Crusader"], "", ""};
+		{ 17, 49046, "", "=q4=Swift Horde Wolf", "=ec1=#m6# =q2="..AL["A Tribute to Insanity (50)"]..", =q1="..BabbleZone["Trial of the Crusader"], "", ""};
+		{ 18, 35513, "", "=q4=Swift White Hawkstrider", "=q2=#n59#, =q1=#z30#"};
+		{ 19, 19872, "", "=q4=Swift Razzashi Raptor", "=q2=#n33#, =q1=#z8#", "", "0.43%"};
+		{ 20, 19902, "", "=q4=Swift Zulian Tiger", "=q2=#n28#, =q1=#z8#", "", " 0.70%"};
+		{ 22, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "10.91%"};
+		{ 23, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "11.77%"};
+		{ 24, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "1.32%"};
+		{ 25, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2=#n11#, =q1=#z11#", "", "12.64%"};
 		Next = "MountsRare2";
 		Back = "MOUNTMENU";
 	};
 
 	AtlasLoot_Data["MountsRare2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
-		{
-			{ 2, 44224, "", "=q4=Reins of the Black War Bear", "=ds=#e12#"};--Horde
-			{ 2, 44223, "", "=q4=Reins of the Black War Bear", "=ds=#e12#"};--Alliance
-		};
-		{
-			{ 3, 44842, "", "=q4=Red Dragonhawk Mount", "=ds=#e12#"};--Horde
-			{ 3, 44843, "", "=q4=Blue Dragonhawk Mount", "=ds=#e12#"};--Alliance
-		};
-		{ 4, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
-		{ 5, 44164, "", "=q4=Reins of the Black Proto-Drake", "=ds=#e12#"};
-		{ 6, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "=ds=#e12#"};
-		{ 7, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "=ds=#e12#"};
-		{ 8, 44160, "", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
-		{ 9, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "=ds=#e12#"};
-		{ 10, 44177, "", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
-		{ 11, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "=ds=#e12#"};
-		{ 12, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "=ds=#e12#"};
+		{ 2, 44223, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m7#"};
+		{ 3, 44224, "", "=q4=Reins of the Black War Bear", "=ds=#e12# =ec1=#m6#"};
+		{ 4, 44843, "", "=q4=Blue Dragonhawk Mount", "=ds=#e12# =ec1=#m7#"};
+		{ 5, 44842, "", "=q4=Red Dragonhawk Mount", "=ds=#e12# =ec1=#m6#"};
+		{ 6, 44178, "", "=q4=Reins of the Albino Drake", "=ds=#e12#"};
+		{ 7, 44164, "", "=q4=Reins of the Black Proto-Drake", "=ds=#e12#"};
+		{ 8, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "=ds=#e12#"};
+		{ 9, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "=ds=#e12#"};
+		{ 10, 44160, "", "=q4=Reins of the Red Proto-Drake", "=ds=#e12#"};
+		{ 11, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "=ds=#e12#"};
+		{ 12, "44177", "", "=q4=Reins of the Violet Proto-Drake", "=ds=#e12#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
 		{ 17, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2=#n155#, =q1=#z37#", ""};
 		{ 18, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
@@ -11151,27 +11127,24 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
 		{ 6, 54797, "", "=q4=Frosty Flying Carpet", "=q2=#p8#"};
 		{ 7, 44558, "", "=q4=Magnificent Flying Carpet", "=q2=#p8#"};
-		{
-			{ 8, 41508, "", "=q4=Mechano-hog", "=q2=#p5#"};--Horde
-			{ 8, 44413, "", "=q4=Mekgineer's Chopper", "=q2=#p5#"};--Alliance
-		};
-		{ 9, 34061, "", "=q4=Turbo-Charged Flying Machine Control", "=q2=#p5#"};
-		{ 10, 44554, "", "=q3=Flying Carpet", "=q2=#p8#"};
-		{ 11, 34060, "", "=q3=Flying Machine Control", "=q2=#p5#"};
+		{ 8, 44413, "", "=q4=Mekgineer's Chopper", "=q2=#p5# =ec1=#m7#"};
+		{ 9, 41508, "", "=q4=Mechano-hog", "=q2=#p5# =ec1=#m6#"};
+		{ 10, 34061, "", "=q4=Turbo-Charged Flying Machine Control", "=q2=#p5#"};
+		{ 11, 44554, "", "=q3=Flying Carpet", "=q2=#p8#"};
+		{ 12, 34060, "", "=q3=Flying Machine Control", "=q2=#p5#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-		{ 17, 54860, "", "=q4=X-53 Touring Rocket", "=q2="..AL["Recruit A Friend"]};
-		{ 18, 37719, "", "=q4=Swift Zhevra", "=q2="..AL["Recruit A Friend"]};
-		{ 19, 43599, "", "=q3=Big Battle Bear", "=ds=#e12#"};
-		{ 21, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
-		{ 22, 49282, "", "=q4=Big Battle Bear", "=q2=#m24#"};
-		{ 23, 49290, "", "=q4=Magic Rooster Egg", "=q2=#m24#"};
-		{ 24, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=q2=#m24#"};
-		{ 25, 23720, "", "=q4=Riding Turtle", "=q2=#m24#"};
-		{ 26, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=q2=#m24#"};
-		{ 27, 49283, "", "=q3=Reins of the Spectral Tiger", "=q2=#m24#"};
-		{ 28, 49285, "", "=q3=X-51 Nether-Rocket", "=q2=#m24#"};
-		{ 29, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds=#e12#"};
-		{ 30, 49289, "", "=q2=Little White Stallion Bridle", "=ds=#e12#"};
+		{ 17, 43599, "", "=q3=Big Blizzard Bear", "=ds=#e12#"};
+		{ 18, 37719, "", "=q4=Swift Zhevra", "=ds=#e12#"};
+		{ 20, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
+		{ 21, 49282, "", "=q4=Big Battle Bear", "=q2=#m24#"};
+		{ 22, 49290, "", "=q4=Magic Rooster Egg", "=q2=#m24#"};
+		{ 23, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=q2=#m24#"};
+		{ 24, 23720, "", "=q4=Riding Turtle", "=q2=#m24#"};
+		{ 25, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=q2=#m24#"};
+		{ 26, 49283, "", "=q3=Reins of the Spectral Tiger", "=q2=#m24#"};
+		{ 27, 49285, "", "=q3=X-51 Nether-Rocket", "=q2=#m24#"};
+		{ 28, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds=#e12#"};
+		{ 29, 49289, "", "=q2=Little White Stallion Bridle", "=ds=#e12#"};
 		Back = "MOUNTMENU";
 	};
 
@@ -11214,13 +11187,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 37012, "", "=q4=The Horseman's Reins", "=q2=#n136#"};
 		{ 8, 37011, "", "=q3=Magic Broom", "=q2=#n136#"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Love is in the Air"], ""};
-		{ 17, 50250, "", "=q4=Big Love Rocket", "=q2="..AL["Crown Chemical Co."]};
+		{ 17, 50250, "", "=q4=Big Love Rocket", "=ds=#e12#"};
 		Prev = "MountsEvent1";
-		Back = "MOUNTMENU";
-	};
-
-	AtlasLoot_Data["MountsBlizzardStore1"] = {
-		{ 1, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
 		Back = "MOUNTMENU";
 	};
 
@@ -11258,7 +11226,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "50 #eofheroism#  / 75 #champseal#"};
 		{ 9, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "50 #eofheroism#  / 75 #champseal#"};
 		{ 11, 49177, "", "=q7=Tome of Cold Weather Flight", "=ds=", "1000 #gold#"};
-		{ 13, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", AL["Kalu'ak Fishing Derby"], ""};
 		{ 16, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "40 #eofheroism# / 60 #champseal#"};
 		{ 17, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "40 #eofheroism# / 60 #champseal#"};
 		{ 18, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "40 #eofheroism# / 60 #champseal#"};
