@@ -5072,7 +5072,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 13, 20046, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "3000 #alliance#", ""};
 		{ 14, 20053, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "3000 #alliance#", ""};
 		{ 16, 0, "INV_BannerPVP_02", "=q6=#absa4#", "=ec1=#c2#, #c7#"};
-		{ 17, 20055, "", "=q3=Highlander's Chain Pauldrons", "=ds=", "9000 #alliance#", ""};
+		{ 17, 20055, "", "=q4=Highlander's Chain Pauldrons", "=ds=", "9000 #alliance#", ""};
 		{ 18, 20043, "", "=q3=Highlander's Chain Girdle", "=ds=", "3000 #alliance#", ""};
 		{ 19, 20050, "", "=q3=Highlander's Chain Greaves", "=ds=", "3000 #alliance#", ""};
 		{ 21, 0, "INV_BannerPVP_02", "=q6=#absa5#", "=ec1=#c2#, #c7#"};

@@ -10822,6 +10822,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
 		{ 20, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
 		{ 21, 13582, "", "=q3=Zergling Leash", "=ds=#e13#"};
+		{ 22, 56806, "", "=q3=Mini Thor", "=ds=#e13#"};
 		Prev = "PetsEvent1";
 		Next = "PetsPetStore1";
 		Back = "PETMENU";
