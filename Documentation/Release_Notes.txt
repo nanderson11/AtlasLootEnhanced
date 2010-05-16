@@ -8,6 +8,7 @@ Patch Notes
 
 v5.10.02
 Added Ruby Sanctum loot
+Lord Ahune drops updated
 Minor fixes and additions
 
 v5.10.01

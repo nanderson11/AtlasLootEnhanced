@@ -719,16 +719,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["LordAhune"] = {
-		{ 1, 35497, "", "=q4=Cloak of the Frigid Winds", "=ds=#s4#"};
-		{ 2, 35496, "", "=q4=Icebound Cloak", "=ds=#s4#"};
-		{ 3, 35494, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
-		{ 4, 35495, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
-		{ 5, 35514, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
-		{ 7, 35498, "", "=q3=Formula: Enchant Weapon - Deathfrost", "=ds=#p4# (350)"};
-		{ 8, 34955, "", "=q3=Scorched Stone", "=ds=#e13#"};
-		{ 10, 35723, "", "=q1=Shards of Ahune", "=ds=#m2#"};
-		{ 11, 35279, "", "=q3=Tabard of Summer Skies", "=q1=#m4#: =ds=#s7#"};
-		{ 12, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: =ds=#s7#"};
+		{ 1, 54805, "", "=q4=Cloak of the Frigid Winds", "=ds=#s4#"};
+		{ 2, 54801, "", "=q4=Icebound Cloak", "=ds=#s4#"};
+		{ 3, 54804, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
+		{ 4, 54803, "", "=q4=The Frost Lord's Battle Shroud", "=ds=#s4#"};
+		{ 5, 35495, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
+		{ 6, 35514, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
+		{ 8, 35498, "", "=q3=Formula: Enchant Weapon - Deathfrost", "=ds=#p4# (350)"};
+		{ 9, 34955, "", "=q3=Scorched Stone", "=ds=#e13#"};
+		{ 11, 35723, "", "=q1=Shards of Ahune", "=ds=#m2#"};
+		{ 12, 35279, "", "=q3=Tabard of Summer Skies", "=q1=#m4#: =ds=#s7#"};
+		{ 13, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: =ds=#s7#"};
 		{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 		{ 17, 35507, "", "=q4=Amulet of Bitter Hatred", "=ds=#s2#"};
 		{ 18, 35509, "", "=q4=Amulet of Glacial Tranquility", "=ds=#s2#"};
