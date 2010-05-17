@@ -300,6 +300,15 @@ AtlasLootNewBossButtons = {
         "Sartharion";
         };
 
+    RubySanctum = {
+        "";
+        "";
+        "";
+        "";
+        "";
+        "Halion";
+        };
+
     UlduarA = {
         "";
         "";
