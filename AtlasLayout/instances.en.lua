@@ -303,10 +303,10 @@ AtlasLootNewBossButtons = {
     RubySanctum = {
         "";
         "";
-        "";
-        "";
-        "";
         "Halion";
+        "";
+        "";
+        "";
         };
 
     UlduarA = {

@@ -6999,9 +6999,28 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["HalionHEROIC"] = {
+		{ 1, 0, "", "=q4=Abduction Cover", "=ds=#s4#"};
+		{ 2, 0, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#"};
+		{ 3, 0, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
+		{ 4, 0, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
+		{ 5, 0, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
+		{ 6, 0, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
 	};
 
 	AtlasLoot_Data["Halion25ManHEROIC"] = {
+		{ 1, 0, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
+		{ 2, 0, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
+		{ 3, 0, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
+		{ 4, 0, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
+		{ 5, 0, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
+		{ 6, 0, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
+		{ 7, 0, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
+		{ 8, 0, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
+		{ 9, 0, "", "=q4=Signet of Twilight", "=ds=#s13#"};
+		{ 16, 0, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
+		{ 17, 0, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
+		{ 18, 0, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
+		{ 19, 0, "", "=q4=Sharpended Twilight Scale", "=ds=#s14#"};
 	};
 
 	----------------

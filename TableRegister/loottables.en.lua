@@ -1254,6 +1254,7 @@ end
 --------------
 --- Events ---
 --------------
+
   -- Argent Tournament
 	AtlasLoot_TableNames["ArgentTournament1"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ArgentTournament2"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
