@@ -6984,14 +6984,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["Halion25Man"] = {
 		{ 1, 53489, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
-		{ 2, 53134, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
-		{ 3, 53488, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
-		{ 4, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
-		{ 5, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
-		{ 6, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
-		{ 7, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
-		{ 8, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
-		{ 9, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#"};
+		{ 2, 53486, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#"};
+		{ 3, 53134, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
+		{ 4, 53488, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
+		{ 5, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
+		{ 6, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
+		{ 7, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
+		{ 8, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
+		{ 9, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
+		{ 10, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#"};
 		{ 16, 54572, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
 		{ 17, 54573, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
 		{ 18, 54571, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
