@@ -6978,50 +6978,38 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 53118, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#"};
 		{ 3, 53114, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
 		{ 4, 53117, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
-		{ 5, 53112, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
-		{ 6, 53110, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
+		{ 5, 53113, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#"};
+		{ 6, 53112, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
+		{ 7, 53121, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#"};
+		{ 8, 53111, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#"};
+		{ 16, 53103, "", "=q4=Baltharus' Gift", "=ds=#s2#"};
+		{ 17, 53116, "", "=q4=Saviana's Tribute", "=ds=#s13#"};
+		{ 18, 53110, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
 	};
 
 	AtlasLoot_Data["Halion25Man"] = {
 		{ 1, 53489, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
 		{ 2, 53486, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#"};
 		{ 3, 53134, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
-		{ 4, 53488, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
-		{ 5, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
-		{ 6, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
-		{ 7, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
-		{ 8, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
-		{ 9, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
-		{ 10, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#"};
-		{ 16, 54572, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
-		{ 17, 54573, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
-		{ 18, 54571, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
-		{ 19, 54569, "", "=q4=Sharpended Twilight Scale", "=ds=#s14#"};
+		{ 4, 53126, "", "=q4=Umbrage Armbands", "=ds=#s10#, #a2#"};
+		{ 5, 53488, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
+		{ 6, 53127, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#"};
+		{ 7, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
+		{ 8, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
+		{ 9, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
+		{ 16, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
+		{ 17, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
+		{ 18, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#"};
+		{ 19, 54572, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
+		{ 20, 54573, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
+		{ 21, 54571, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
+		{ 22, 54569, "", "=q4=Sharpended Twilight Scale", "=ds=#s14#"};
 	};
 
 	AtlasLoot_Data["HalionHEROIC"] = {
-		{ 1, 0, "", "=q4=Abduction Cover", "=ds=#s4#"};
-		{ 2, 0, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#"};
-		{ 3, 0, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
-		{ 4, 0, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
-		{ 5, 0, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
-		{ 6, 0, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
 	};
 
 	AtlasLoot_Data["Halion25ManHEROIC"] = {
-		{ 1, 0, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
-		{ 2, 0, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
-		{ 3, 0, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
-		{ 4, 0, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
-		{ 5, 0, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
-		{ 6, 0, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
-		{ 7, 0, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
-		{ 8, 0, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
-		{ 9, 0, "", "=q4=Signet of Twilight", "=ds=#s13#"};
-		{ 16, 0, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
-		{ 17, 0, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
-		{ 18, 0, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
-		{ 19, 0, "", "=q4=Sharpended Twilight Scale", "=ds=#s14#"};
 	};
 
 	----------------
@@ -11121,7 +11109,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..AL["Alone in the Darkness"]..", =q1="..BabbleZone["Ulduar"], "", ""};
 		{ 7, 43986, "", "=q4=Reins of the Black Drake", "=q2=#n153#, =q1=#j37# #z38# #j46#", ""};
 		{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "=q2=#n153#, =q1=#j38# #z38# #j46#", ""};
-		{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2=#n154#, =q1=#z39#", ""};
+		{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleZone["The Oculus"], ""};
 		{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2=#n154#, =q1=#z39#", ""};
 		{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2=#n151#, =q1=#j47# #z35#", ""};
 		{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "=q2=#n152#, =q1=#j47# #z36#", ""};
