@@ -9,6 +9,7 @@ Patch Notes
 v5.11.00
 Added Ruby Sanctum Normal and Heroic loot
 Lord Ahune drops updated
+Added New TCG loot
 Added support for upcoming Atlas 1.16.1
 Minor fixes and additions
 

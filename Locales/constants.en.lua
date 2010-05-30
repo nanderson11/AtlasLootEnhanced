@@ -578,6 +578,12 @@ if AL then
 	AL["Tuskarr Kite"] = true;
 	AL["Spectral Kitten"] = true;
 
+	-- Eleventh set
+	AL["Wrathgate"] = true;
+	AL["Statue Generator"] = true;
+	AL["Landro's Gift"] = true;
+	AL["Blazing Hippogryph"] = true;
+
 	-- Battleground Brackets
 	AL["BG/Open PvP Rewards"] = true;
 	AL["Misc. Rewards"] = true;
