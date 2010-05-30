@@ -359,6 +359,7 @@ if AL then
 	AL["Skill Required:"] = "需要技能等級: ";
 	AL["Rating:"] = "等級:";	--Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
 	AL["Random Heroic Reward"] = "隨機英雄副本獎勵";
+	AL["Recruit A Friend"] = "招聘好友";
 
 	--Minor Labels for loot table descriptions
 	AL["Original WoW"] = "舊魔獸世界";
@@ -577,6 +578,12 @@ if AL then
 	--AL["Tiny"] = true;
 	AL["Tuskarr Kite"] = "巨牙海民風箏";
 	--AL["Spectral Kitten"] = true;
+
+	-- Eleventh set
+	AL["Wrathgate"] = "憤怒";
+	AL["Statue Generator"] = "雕像製造者";
+	AL["Landro's Gift"] = "藍卓的禮物";
+	AL["Blazing Hippogryph"] = "熾熱的角鷹獸";
 
 	--Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
