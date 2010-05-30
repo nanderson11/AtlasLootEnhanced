@@ -225,11 +225,11 @@ if AL then
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffcccccc右鍵並拖曳以移動圖示位置";
 
 	-- Filter
-	AL["Filter"] = "過濾";
+	AL["Filter"] = "篩選";
 	AL["Select All Loot"] = "選擇所有掉落物品";
-	AL["Apply Filter:"] = "套用過濾條件";
+	AL["Apply Filter:"] = "套用篩選條件";
 	AL["Armor:"] = "護甲種類:";
-	AL["Melee weapons:"] = "進戰武器:";
+	AL["Melee weapons:"] = "近戰武器:";
 	AL["Ranged weapons:"] = "遠程武器:";
 	AL["Relics:"] = "聖物";
 	AL["Other:"] = "其他:";
@@ -359,7 +359,6 @@ if AL then
 	AL["Skill Required:"] = "需要技能等級: ";
 	AL["Rating:"] = "等級:";	--Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
 	AL["Random Heroic Reward"] = "隨機英雄副本獎勵";
-	AL["Recruit A Friend"] = "招聘好友";
 
 	--Minor Labels for loot table descriptions
 	AL["Original WoW"] = "舊魔獸世界";
@@ -440,9 +439,9 @@ if AL then
 	AL["Arena Season 2 Weapons"] = "競技場第二季武器";
 	AL["Arena Season 3 Weapons"] = "競技場第三季武器";
 	AL["Arena Season 4 Weapons"] = "競技場第四季武器";
-	AL["Level 30-39"] = "等級 30-39";
-	AL["Level 40-49"] = "等級 40-49";
-	AL["Level 50-60"] = "等級 50-60";
+	AL["Level 30-39"] = "等級 30～39";
+	AL["Level 40-49"] = "等級 40～49";
+	AL["Level 50-60"] = "等級 50～60";
 	AL["Heroic"] = "英雄模式";
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
@@ -588,10 +587,12 @@ if AL then
 	--Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
 	AL["Misc. Rewards"] = "雜項獎勵";
-	AL["Level 20-39 Rewards"] = "等級 20-39 獎勵";
-	AL["Level 20-29 Rewards"] = "等級 20-29 獎勵";
-	AL["Level 30-39 Rewards"] = "等級 30-39 獎勵";
-	AL["Level 40-49 Rewards"] = "等級 40-49 獎勵";
+	AL["Level 10-19 Rewards"] = "等級 10～19 獎勵";
+	AL["Level 20-39 Rewards"] = "等級 20～39 獎勵";
+	AL["Level 20-29 Rewards"] = "等級 20～29 獎勵";
+	AL["Level 30-39 Rewards"] = "等級 30～39 獎勵";
+	AL["Level 40-49 Rewards"] = "等級 40～49 獎勵";
+	AL["Level 50-59 Rewards"] = "等級 50～59 獎勵;
 	AL["Level 60 Rewards"] = "等級 60 獎勵";
 
 	--Brood of Nozdormu Paths
