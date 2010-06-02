@@ -592,7 +592,7 @@ if AL then
 	AL["Level 20-29 Rewards"] = "等級 20～29 獎勵";
 	AL["Level 30-39 Rewards"] = "等級 30～39 獎勵";
 	AL["Level 40-49 Rewards"] = "等級 40～49 獎勵";
-	AL["Level 50-59 Rewards"] = "等級 50～59 獎勵;
+	AL["Level 50-59 Rewards"] = "等級 50～59 獎勵";
 	AL["Level 60 Rewards"] = "等級 60 獎勵";
 
 	--Brood of Nozdormu Paths
