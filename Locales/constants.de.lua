@@ -345,7 +345,7 @@ if AL then
 	AL["Card Game Item"] = "Kartenspiel Item";
 	AL["Skill Required:"] = "Benötigte Fertigkeit:";
 	AL["Rating:"] = "Wertung"; -- Shorthand for 'Required Rating' for the personal/team ratings
-	AL["Random Heroic Reward"] = "Zufällige heroische Belohnung";	
+	AL["Random Heroic Reward"] = "Zufällige heroische Belohnung";
 
 	-- Minor Labels for loot table descriptions
 	AL["Original WoW"] = "Klassisch";
@@ -565,9 +565,15 @@ if AL then
 	AL["Tuskarr Kite"] = "Tuskarrdrachen";
 	AL["Spectral Kitten"] = "Spektralkätzchen";
 
+	-- Eleventh set
+	AL["Wrathgate"] = "Pforte des Zorns";
+	AL["Statue Generator"] = "Instantstatue";
+	AL["Landro's Gift"] = "Landros Geschenkkiste";
+	AL["Blazing Hippogryph"] = "Flammender Hippogryph";
+
 	-- Battleground Brackets
-	AL["Misc. Rewards"] = "Diverses";
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
+	AL["Misc. Rewards"] = "Diverses";
 	AL["Level 20-29 Rewards"] = "Belohnungen (Stufe 20-29)";
 	AL["Level 30-39 Rewards"] = "Belohnungen (Stufe 30-39)";
 	AL["Level 20-39 Rewards"] = "Belohnungen (Stufe 20-39)";
