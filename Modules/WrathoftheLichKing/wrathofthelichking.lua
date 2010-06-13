@@ -10595,7 +10595,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud43#"};
 		{ 2, 54069, "", "=q4=Blazing Hippogryph", "=ds=#ud46#"};
 		{ 3, 54212, "", "=q3=Instant Statue Pedestal", "=ds=#ud45#"};
-		{ 4, 54218, "", "=q1=Landro's Gift", "=ds=#ud44#"};
+		{ 4, 54218, "", "=q1=Landro's Gift Box", "=ds=#ud44#"};
 		{ 6, 0, "INV_Box_01", "=q6=#ud4#", "=q1=#ud39#"};
 		{ 7, 49287, "", "=q4=Tuskarr Kite", "=ds=#ud41#"};
 		{ 8, 49343, "", "=q3=Spectral Tiger Cub", "=ds=#ud42#"};

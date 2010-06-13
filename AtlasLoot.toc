@@ -1,10 +1,10 @@
 ﻿## Interface: 30300
 ## Title: AtlasLoot
 ## Notes: Shows the possible loot from the bosses
-## Author: Daviesh
+## Author: Hegarol
 ## Version: @project-version@
-## X-eMail: oma_daviesh@hotmail.com
-## X-Credits: Asurn, Pernicus, Hegarol, Cellelach, many others
+## X-eMail: manager@atlasloot.net
+## X-Credits: Daviesh, Lag, Cellelach, Asurn, Pernicus and many others
 ## X-Category: Map
 ## X-License: GPL v2
 ## X-Website: http://www.atlasloot.net

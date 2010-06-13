@@ -3,9 +3,9 @@
 ## Notes: Minimap button for AtlasLoot
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAL 小地圖按鍵
 ## Notes-zhTW: AtlasLoot 小地圖按鍵
-## Author: Daviesh
+## Author: Hegarol
 ## Version: @project-version@
-## X-eMail: oma_daviesh@hotmail.com
+## X-eMail: manager@atlasloot.net
 ## X-Category: Map
 ## X-License: GPL v2
 ## X-Website: http://www.atlasloot.net

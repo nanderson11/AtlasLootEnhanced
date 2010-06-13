@@ -40,8 +40,8 @@ local VERSION_MINOR = "11";
 local VERSION_BOSSES = "01";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
-ATLASLOOT_CURRENT_ATLAS = {"1.15.2", "1.15.1"};
-ATLASLOOT_PREVIEW_ATLAS = {"1.16.0", "1.16.1"};
+ATLASLOOT_CURRENT_ATLAS = {"1.16.1", "1.16.0"};
+ATLASLOOT_PREVIEW_ATLAS = {"1.17.0", "1.16.2"};
 
 ATLASLOOT_POSITION = AL["Position:"];
 ATLASLOOT_DEBUGMESSAGES = false;
