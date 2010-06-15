@@ -724,7 +724,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, 54804, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
 		{ 4, 54803, "", "=q4=The Frost Lord's Battle Shroud", "=ds=#s4#"};
 		{ 5, 54802, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
-		{ 6, 35514, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
+		{ 6, 54806, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
 		{ 8, 35498, "", "=q3=Formula: Enchant Weapon - Deathfrost", "=ds=#p4# (350)"};
 		{ 9, 34955, "", "=q3=Scorched Stone", "=ds=#e13#"};
 		{ 11, 35723, "", "=q1=Shards of Ahune", "=ds=#m2#"};
