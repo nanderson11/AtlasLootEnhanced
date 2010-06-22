@@ -264,6 +264,10 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#ud44#", AL["Landro's Gift"]);
 	text = gsub(text, "#ud45#", AL["Statue Generator"]);
 	text = gsub(text, "#ud46#", AL["Blazing Hippogryph"]);
+	text = gsub(text, "#ud47#", AL["Icecrown"]);
+	text = gsub(text, "#ud48#", AL["Wooly White Rhino"]);
+	text = gsub(text, "#ud49#", AL["Ethereal Portal"]);
+	text = gsub(text, "#ud50#", AL["Paint Bomb"]);
 
     -- ZG Tokens
     text = gsub(text, "#zgt1#", AL["Primal Hakkari Kossack"]);

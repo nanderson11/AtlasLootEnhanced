@@ -584,6 +584,12 @@ if AL then
 	AL["Landro's Gift"] = true;
 	AL["Blazing Hippogryph"] = true;
 
+	-- Twelvth set
+	AL["Icecrown"] = true;
+	AL["Wooly White Rhino"] = true;
+	AL["Ethereal Portal"] = true;
+	AL["Paint Bomb"] = true;
+
 	-- Battleground Brackets
 	AL["BG/Open PvP Rewards"] = true;
 	AL["Misc. Rewards"] = true;
