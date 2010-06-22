@@ -571,6 +571,12 @@ if AL then
 	AL["Landro's Gift"] = "Landros Geschenkkiste";
 	AL["Blazing Hippogryph"] = "Flammender Hippogryph";
 
+	-- Twelvth set
+	AL["Icecrown"] = "Eiskrone";
+	AL["Wooly White Rhino"] = "Wolliges weißes Rhino";
+	AL["Ethereal Portal"] = "Etherportal";
+	AL["Paint Bomb"] = "Farbbombe";
+
 	-- Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
 	AL["Misc. Rewards"] = "Diverses";
