@@ -6979,9 +6979,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, 53114, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
 		{ 4, 53117, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
 		{ 5, 53113, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#"};
-		{ 6, 53112, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
-		{ 7, 53121, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#"};
-		{ 8, 53111, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#"};
+		{ 6, 53119, "", "=q4=Boots of Divided Being", "=ds=#s12#, #a3#"};
+		{ 7, 53112, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
+		{ 8, 53121, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#"};
+		{ 9, 53111, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#"};
 		{ 16, 53103, "", "=q4=Baltharus' Gift", "=ds=#s2#"};
 		{ 17, 53116, "", "=q4=Saviana's Tribute", "=ds=#s13#"};
 		{ 18, 53110, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
@@ -7007,9 +7008,37 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["HalionHEROIC"] = {
+		{ 1, 54556, "", "=q4=Abduction Cover", "=ds=#s4#"};
+		{ 2, 54562, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#"};
+		{ 3, 54561, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
+		{ 4, 54560, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
+		{ 5, 54566, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#"};
+		{ 6, 54558, "", "=q4=Boots of Divided Being", "=ds=#s12#, #a3#"};
+		{ 7, 54559, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
+		{ 8, 54565, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#"};
+		{ 9, 54564, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#"};
+		{ 16, 54557, "", "=q4=Baltharus' Gift", "=ds=#s2#"};
+		{ 17, 54563, "", "=q4=Saviana's Tribute", "=ds=#s13#"};
+		{ 18, 54567, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
 	};
 
 	AtlasLoot_Data["Halion25ManHEROIC"] = {
+		{ 1, 54583, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
+		{ 2, 54582, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#"};
+		{ 3, 54584, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
+		{ 4, 54580, "", "=q4=Umbrage Armbands", "=ds=#s10#, #a2#"};
+		{ 5, 54587, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
+		{ 6, 54577, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#"};
+		{ 7, 54578, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
+		{ 8, 54586, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
+		{ 9, 54579, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
+		{ 16, 54581, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
+		{ 17, 54585, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
+		{ 18, 54576, "", "=q4=Signet of Twilight", "=ds=#s13#"};
+		{ 19, 54588, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
+		{ 20, 54589, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
+		{ 21, 54591, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
+		{ 22, 54590, "", "=q4=Sharpended Twilight Scale", "=ds=#s14#"};
 	};
 
 	----------------
