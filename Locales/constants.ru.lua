@@ -349,8 +349,8 @@ if AL then
     AL["10 Slot"] = "10 ячеек";
     AL["(has random enchantment)"] = "(Случайное заклинание)";
     AL["Currency"] = "Валюта";
-    AL["Currency (Horde)"] = "Валюта (Орда)";
     AL["Currency (Alliance)"] = "Валюта (Альянс)";
+    AL["Currency (Horde)"] = "Валюта (Орда)";
 	AL["Conjured Item"] = "Сотворенный предмет";
 	AL["Used to summon boss"] = "Для призыва босса";
 	AL["Tradable against sunmote + item above"] = "В обмен на Частицу солнца + предметы выше";
@@ -582,6 +582,12 @@ if AL then
 	AL["Statue Generator"] = "Мгновенно возводимая статуя";
 	AL["Landro's Gift"] = "Коробка с подарками Ландро";
 	AL["Blazing Hippogryph"] = "Пламенеющий гиппогриф";
+	
+	-- Twelvth set
+	AL["Icecrown"] = "Ледяная Корона";
+	AL["Wooly White Rhino"] = "Белый шерстистый носорог";
+	AL["Ethereal Portal"] = "Эфириальный портал";
+	AL["Paint Bomb"] = "Бомба с краской";
 	
     -- Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "Поле боя/Открытое PvP";
