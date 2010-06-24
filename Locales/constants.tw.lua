@@ -584,6 +584,12 @@ if AL then
 	AL["Landro's Gift"] = "藍卓的禮物";
 	AL["Blazing Hippogryph"] = "熾熱的角鷹獸";
 
+	-- Twelvth set
+	AL["Icecrown"] = "寒冰皇冠";
+	AL["Wooly White Rhino"] = "白色蓬毛犀牛";
+	AL["Ethereal Portal"] = "以太傳送門";
+	AL["Paint Bomb"] = "漆彈";
+
 	--Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
 	AL["Misc. Rewards"] = "雜項獎勵";
