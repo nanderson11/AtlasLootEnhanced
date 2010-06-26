@@ -6312,8 +6312,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 50177, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#"};
 		{ 7, 50071, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#"};
 		{ 8, 50072, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#"};
-		{ 9, 50075, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
-		{ 10, 50175, "", "=q4=Crypt Keeper's Bracers", "=ds=#s10#, #a4#"};
+		{ 9, 50175, "", "=q4=Crypt Keeper's Bracers", "=ds=#s8#, #a4#"};
+		{ 10, 50075, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
 		{ 16, 50174, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#"};
 		{ 17, 50170, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#"};
 		{ 18, 50173, "", "=q4=Shadow Silk Spindle", "=ds=#s15#"};
@@ -6857,7 +6857,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 51832, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#"};
 		{ 9, 51831, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#"};
 		{ 16, 51833, "", "=q4=Oxheart", "=ds=#h2#, #w6#"};
-		{ 17, 51828, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#"};
+		{ 17, 51828, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w12#"};
 		{ 18, 51834, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#"};
 		Prev = "ICCLanathelHEROIC";
 		Next = "ICCSindragosaHEROIC";

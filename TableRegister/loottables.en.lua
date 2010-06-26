@@ -398,8 +398,8 @@ end
 	AtlasLoot_TableNames["ICCRotface25ManHEROIC"] = { BabbleBoss["Rotface"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCPutricideHEROIC"] = { BabbleBoss["Professor Putricide"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCPutricide25ManHEROIC"] = { BabbleBoss["Professor Putricide"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["ICCCouncilHEROIC"] = { BabbleBoss["Blood Princes"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["ICCCouncil25ManHEROIC"] = { BabbleBoss["Blood Princes"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCCouncilHEROIC"] = { BabbleBoss["Blood Prince Council"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ICCCouncil25ManHEROIC"] = { BabbleBoss["Blood Prince Council"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCLanathelHEROIC"] = { BabbleBoss["Blood-Queen Lana'thel"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCLanathel25ManHEROIC"] = { BabbleBoss["Blood-Queen Lana'thel"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["ICCValithriaHEROIC"] = { BabbleBoss["Valithria Dreamwalker"], "AtlasLootWotLK" };

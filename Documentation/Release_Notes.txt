@@ -8,7 +8,7 @@ Patch Notes
 
 v5.11.03
 Added Ruby Sanctum Heroic loot
-Minor updates
+Minor fixes and additions
 
 v5.11.02
 Added New TCG loot
