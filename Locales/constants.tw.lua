@@ -194,7 +194,7 @@ if AL then
 	AL["Old Level 80 PvP Sets"] = "舊等級 80 PvP 套裝";
 	AL["Arena Season 7/8 Sets"] = "競技場第七/八季 PvP 套裝";
 	AL["PvP Class Items"] = "PvP 職業物品";
-	AL["NOT AVAILABLE ANYMORE"] = "再也無法使用";
+	AL["NOT AVAILABLE ANYMORE"] = "已不再提供";
 
 	--World Events
 	AL["Abyssal Council"] = "深淵議會";
