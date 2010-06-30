@@ -196,7 +196,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
 			},
             [13] = {
-				{ "Ruby Sanctum", "Halion", "Table" },
+				{ BabbleZone["The Ruby Sanctum"], "Halion", "Table" },
 			},
 			[14] = {
 				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
