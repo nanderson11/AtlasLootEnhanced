@@ -317,7 +317,7 @@ if AL then
 	AL["Scrolls"] = "卷軸";
 	AL["Off-Hand Items"] = "副手物品";
 	AL["Reagents"] = "材料";
-	AL["Book of Glyph Mastery"] = "雕紋專精書籍";
+	AL["Book of Glyph Mastery"] = "雕紋精通之書";
 
 	--Leatherworking
 	AL["Leather Armor"] = "皮甲護甲";
