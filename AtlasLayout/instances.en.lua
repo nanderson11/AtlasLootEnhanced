@@ -406,7 +406,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "UtgardeKeepKeleseth";
-	"LunarFestival1";
+		"LunarFestival1";
         "UtgardeKeepSkarvald";
         "UtgardeKeepSkarvald";
         "UtgardeKeepIngvar";
@@ -420,7 +420,7 @@ AtlasLootNewBossButtons = {
         "UPSorrowgrave";
         "UPPalehoof";
         "UPSkadi";
-	"LunarFestival1";
+		"LunarFestival1";
         "UPYmiron";
         "";
         "UPTrash";
@@ -431,7 +431,7 @@ AtlasLootNewBossButtons = {
         "VaultofArchavonArchavon1";
         "VaultofArchavonEmalon1";
         "VaultofArchavonKoralon1_A";
-	"VaultofArchavonToravon1";
+		"VaultofArchavonToravon1";
         };
 
     VioletHold = {
