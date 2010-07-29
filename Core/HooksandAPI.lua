@@ -120,7 +120,7 @@ function AtlasLoot_Refresh()
     Atlastextbase = base;
     --Get the size of the Atlas text to append stuff to the bottom.  Looks for empty lines
 	--[[
-    local i = 2;
+    local i = 1;
     local j = 2;
     while ( (Atlastextbase[i] ~= nil and Atlastextbase[i]~="") or (Atlastextbase[j] ~= nil and Atlastextbase[j]~="")) do
         i = i + 1;
@@ -146,11 +146,13 @@ function AtlasLoot_Refresh()
     end
 	]]--
 	if AtlasLoot_ExtraText[zoneID] and #Atlastextbase and #Atlastextbase > 0 then
+		local numContent = #Atlastextbase
 		-- add the extra lines
 		for k,v in ipairs(AtlasLoot_ExtraText[zoneID]) do
-			k = #Atlastextbase + k
-			Atlastextbase[k] = {v, nil, nil}
+			numContent = numContent + 1
+			Atlastextbase[numContent] = {v, nil, nil}
 		end
+		Atlastextbase[numContent+1]={"", nil, nil}
 	end
 	
 	
