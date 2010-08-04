@@ -148,11 +148,16 @@ function AtlasLoot_Refresh()
 	if AtlasLoot_ExtraText[zoneID] and #Atlastextbase and #Atlastextbase > 0 then
 		local numContent = #Atlastextbase
 		-- add the extra lines
+		for i = 1,#AtlasLoot_ExtraText[zoneID]+1 do
+			Atlastextbase[numContent+i] = {"", nil, nil}
+		end
 		for k,v in ipairs(AtlasLoot_ExtraText[zoneID]) do
 			numContent = numContent + 1
+			print(numContent.." = "..v)
 			Atlastextbase[numContent] = {v, nil, nil}
+			print(numContent.." = "..Atlastextbase[numContent][1])
 		end
-		Atlastextbase[numContent+1]={"", nil, nil}
+		Atlastextbase[numContent+2]={"", nil, nil}
 	end
 	
 	
