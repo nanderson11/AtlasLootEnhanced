@@ -153,9 +153,7 @@ function AtlasLoot_Refresh()
 		end
 		for k,v in ipairs(AtlasLoot_ExtraText[zoneID]) do
 			numContent = numContent + 1
-			print(numContent.." = "..v)
 			Atlastextbase[numContent] = {v, nil, nil}
-			print(numContent.." = "..Atlastextbase[numContent][1])
 		end
 		Atlastextbase[numContent+2]={"", nil, nil}
 	end
