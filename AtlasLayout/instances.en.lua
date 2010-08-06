@@ -31,7 +31,6 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "AzjolNerubHadronox";
-        "LunarFestival1";
         "AzjolNerubAnubarak";
         "";
         "AzjolNerubTrash";
@@ -62,7 +61,6 @@ AtlasLootNewBossButtons = {
         "DrakTharonKeepTrollgore";
         "";
         "DrakTharonKeepNovos";
-        "LunarFestival1";
        	"DrakTharonKeepKingDred";
         "DrakTharonKeepTharonja";
         "";
@@ -111,7 +109,6 @@ AtlasLootNewBossButtons = {
         "";
         "GundrakSladran";
         "GundrakColossus";
-        "LunarFestival1";
         "GundrakMoorabi";
         "GundrakEckHEROIC";
         "GundrakGaldarah";
@@ -201,13 +198,12 @@ AtlasLootNewBossButtons = {
 
     TheNexus = {
         "";
+        "TheNexusOrmorok";
+        "TheNexusAnomalus";
+        "TheNexusTelestra";
         "";
         "TheNexusKolurgStoutbeardHEROIC";
         "TheNexusKolurgStoutbeardHEROIC";
-        "TheNexusTelestra";
-        "TheNexusAnomalus";
-        "LunarFestival1";
-        "TheNexusOrmorok";	
         "TheNexusKeristrasza";
         };
 
@@ -296,10 +292,10 @@ AtlasLootNewBossButtons = {
     RubySanctum = {
         "";
         "";
-        "";
-        "";
-        "";
         "Halion";
+        "";
+        "";
+        "";
         };
 
     UlduarA = {
@@ -391,9 +387,8 @@ AtlasLootNewBossButtons = {
 
     UlduarHallsofStone = {
         "";
-        "LunarFestival1";
-        "HallsofStoneKrystallus";
         "HallsofStoneMaiden";
+        "HallsofStoneKrystallus";
         "";
         "HallsofStoneTribunal";
         "HallsofStoneSjonnir";
@@ -406,7 +401,6 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "UtgardeKeepKeleseth";
-		"LunarFestival1";
         "UtgardeKeepSkarvald";
         "UtgardeKeepSkarvald";
         "UtgardeKeepIngvar";
@@ -420,7 +414,6 @@ AtlasLootNewBossButtons = {
         "UPSorrowgrave";
         "UPPalehoof";
         "UPSkadi";
-		"LunarFestival1";
         "UPYmiron";
         "";
         "UPTrash";
@@ -431,7 +424,7 @@ AtlasLootNewBossButtons = {
         "VaultofArchavonArchavon1";
         "VaultofArchavonEmalon1";
         "VaultofArchavonKoralon1_A";
-		"VaultofArchavonToravon1";
+	"VaultofArchavonToravon1";
         };
 
     VioletHold = {
@@ -670,7 +663,6 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "CoTHillsbradHunter";
-        "";
         "";
         "";
         "";
@@ -1837,7 +1829,6 @@ AtlasLootBossButtons = {
         "";
         "";
         "AzjolNerubHadronox";
-        "LunarFestival1";
         "AzjolNerubAnubarak";
         "";
         "AzjolNerubTrash";
@@ -1868,7 +1859,6 @@ AtlasLootBossButtons = {
         "DrakTharonKeepTrollgore";
         "";
         "DrakTharonKeepNovos";
-        "LunarFestival1";
        	"DrakTharonKeepKingDred";
         "DrakTharonKeepTharonja";
         "";
@@ -1917,7 +1907,6 @@ AtlasLootBossButtons = {
         "";
         "GundrakSladran";
         "GundrakColossus";
-        "LunarFestival1";
         "GundrakMoorabi";
         "GundrakEckHEROIC";
         "GundrakGaldarah";
@@ -2007,13 +1996,12 @@ AtlasLootBossButtons = {
 
     TheNexus = {
         "";
+        "TheNexusOrmorok";
+        "TheNexusAnomalus";
+        "TheNexusTelestra";
         "";
         "TheNexusKolurgStoutbeardHEROIC";
         "TheNexusKolurgStoutbeardHEROIC";
-        "TheNexusTelestra";
-        "TheNexusAnomalus";
-        "LunarFestival1";
-        "TheNexusOrmorok";	
         "TheNexusKeristrasza";
         };
 
@@ -2102,10 +2090,10 @@ AtlasLootBossButtons = {
     RubySanctum = {
         "";
         "";
-        "";
-        "";
-        "";
         "Halion";
+        "";
+        "";
+        "";
         };
 
     UlduarA = {
@@ -2197,9 +2185,8 @@ AtlasLootBossButtons = {
 
     UlduarHallsofStone = {
         "";
-        "LunarFestival1";
-        "HallsofStoneKrystallus";
         "HallsofStoneMaiden";
+        "HallsofStoneKrystallus";
         "";
         "HallsofStoneTribunal";
         "HallsofStoneSjonnir";
@@ -2212,7 +2199,6 @@ AtlasLootBossButtons = {
         "";
         "";
         "UtgardeKeepKeleseth";
-		"LunarFestival1";
         "UtgardeKeepSkarvald";
         "UtgardeKeepSkarvald";
         "UtgardeKeepIngvar";
@@ -2226,7 +2212,6 @@ AtlasLootBossButtons = {
         "UPSorrowgrave";
         "UPPalehoof";
         "UPSkadi";
-		"LunarFestival1";
         "UPYmiron";
         "";
         "UPTrash";
@@ -2237,7 +2222,7 @@ AtlasLootBossButtons = {
         "VaultofArchavonArchavon1";
         "VaultofArchavonEmalon1";
         "VaultofArchavonKoralon1_A";
-		"VaultofArchavonToravon1";
+	"VaultofArchavonToravon1";
         };
 
     VioletHold = {
@@ -2476,7 +2461,6 @@ AtlasLootBossButtons = {
         "";
         "";
         "CoTHillsbradHunter";
-        "";
         "";
         "";
         "";
@@ -3608,5 +3592,4 @@ AtlasLootBossButtons = {
         "ZGSets1";
         "ZGEnchants";
         };
-
 };
