@@ -675,6 +675,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
+        "";
         "CoTTrash";
         "CoTTrash";
         "CoTTrash";
@@ -2475,6 +2476,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "CoTHillsbradHunter";
+        "";
         "";
         "";
         "";
