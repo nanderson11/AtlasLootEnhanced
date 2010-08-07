@@ -8,6 +8,10 @@ Patch Notes
 
 
 
+v5.11.04
+Added support for Atlas 1.17.0
+Minor fixes
+
 v5.11.03
 Added Ruby Sanctum Heroic loot
 Minor fixes and additions
