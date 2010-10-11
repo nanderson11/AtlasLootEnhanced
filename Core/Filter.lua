@@ -250,7 +250,7 @@ local function CreateCheckButton(parrent, text, num)
 		Check:SetPoint("LEFT", parrent, "TOPLEFT", xpos, ypos)
 		Check:SetWidth(25)
 		Check:SetHeight(25)
-		Check:SetScript("OnShow", function()
+		Check:SetScript("OnShow", function(this)
 			getglobal(this:GetName().."Text"):SetText(BabbleInventory[text]);
 			if AtlasLootFilterDB[num][text] then
 				this:SetChecked(1);
@@ -258,7 +258,7 @@ local function CreateCheckButton(parrent, text, num)
 				this:SetChecked(nil);
 			end
 		end)
-		Check:SetScript("OnClick", function()
+		Check:SetScript("OnClick", function(this)
 			if AtlasLootFilterDB[num][text] then
 				AtlasLootFilterDB[num][text] = false;
 			else
