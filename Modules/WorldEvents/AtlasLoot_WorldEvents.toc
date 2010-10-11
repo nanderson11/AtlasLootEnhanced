@@ -1,4 +1,4 @@
-﻿## Interface: 30300
+﻿## Interface: 40000
 ## Title: AtlasLoot_WorldEvents
 ## Title-deDE: AtlasLoot |cFF0099FF[Welt-Loot]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[户外首领]|r

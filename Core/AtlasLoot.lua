@@ -159,7 +159,7 @@ event - Name of the event, passed from the API
 Invoked whenever a relevant event is detected by the engine.  The function then
 decides what action to take depending on the event.
 ]]
-function AtlasLoot_OnEvent(event)
+function AtlasLoot_OnEvent(this, event)
 	--Addons all loaded
 	if(event == "VARIABLES_LOADED") then
 		AtlasLoot_OnVariablesLoaded();
@@ -469,7 +469,7 @@ AtlasLoot_OnLoad:
 Performs inital setup of the mod and registers it for further setup when
 the required resources are in place
 ]]
-function AtlasLoot_OnLoad()
+function AtlasLoot_OnLoad(this)
 	this:RegisterEvent("VARIABLES_LOADED");
 	this:RegisterEvent("ADDON_ACTION_FORBIDDEN");
 	this:RegisterEvent("ADDON_ACTION_BLOCKED");
@@ -1097,7 +1097,7 @@ end
 AtlasLootMenuItem_OnClick:
 Requests the relevant loot page from a menu screen
 ]]
-function AtlasLootMenuItem_OnClick()
+function AtlasLootMenuItem_OnClick(this)
 	if this.lootpage ~= nil and this.lootpage ~= "" then
 		AtlasLoot_ShowBossLoot(this.lootpage, "", AtlasLoot_AnchorFrame);
 	end
@@ -1107,7 +1107,7 @@ end
 AtlasLoot_NavButton_OnClick:
 Called when <-, -> or 'Back' are pressed and calls up the appropriate loot page
 ]]
-function AtlasLoot_NavButton_OnClick()
+function AtlasLoot_NavButton_OnClick(this)
 	if AtlasLootItemsFrame.refresh and AtlasLootItemsFrame.refresh[4] then
 		if strsub(this.lootpage, 1, 16) == "SearchResultPage" then
 			AtlasLoot_ShowItemsFrame("SearchResult", this.lootpage, (AL["Search Result: %s"]):format(AtlasLootCharDB.LastSearchedText or ""), AtlasLootItemsFrame.refresh[4]);

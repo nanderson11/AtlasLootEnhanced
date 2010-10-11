@@ -96,7 +96,7 @@ end
 AtlasLootDefaultFrame_OnShow:
 Called whenever the loot browser is shown and sets up buttons and loot tables
 ]]
-function AtlasLootDefaultFrame_OnShow()
+function AtlasLootDefaultFrame_OnShow(this)
     --Definition of where I want the loot table to be shown    
     pFrame = { "TOPLEFT", "AtlasLootDefaultFrame_LootBackground", "TOPLEFT", "2", "-2" };
     --Having the Atlas and loot browser frames shown at the same time would
@@ -121,7 +121,7 @@ AtlasLootDefaultFrame_OnHide:
 When we close the loot browser, re-bind the item table to Atlas
 and close all Dewdrop menus
 ]]
-function AtlasLootDefaultFrame_OnHide()
+function AtlasLootDefaultFrame_OnHide(this)
     if AtlasFrame then
         AtlasLoot_SetupForAtlas();
     end

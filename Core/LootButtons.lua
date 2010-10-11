@@ -34,7 +34,7 @@ end
 -- Item OnEnter
 -- Called when a loot item is moused over
 --------------------------------------------------------------------------------
-function AtlasLootItem_OnEnter()
+function AtlasLootItem_OnEnter(this)
     local isItem;
     AtlasLootTooltip:ClearLines();
     for i=1, 30, 1 do
@@ -80,7 +80,7 @@ function AtlasLootItem_OnEnter()
                     end
                     AtlasLootTooltip:Show();
                     if((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled)))) or IsShiftKeyDown() then
-                        AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
+                        AtlasLootItem_ShowCompareItem(this); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
                     end
                     if (LootLink_AddItem) then
                         LootLink_AddItem(name, this.itemID..":0:0:0", color);
@@ -152,7 +152,7 @@ function AtlasLootItem_OnEnter()
                         end
                         AtlasLootTooltip:Show();
                         if((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled)))) or IsShiftKeyDown() then
-                            AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
+                            AtlasLootItem_ShowCompareItem(this); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
                         end
                     else
                         AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
@@ -173,7 +173,7 @@ function AtlasLootItem_OnEnter()
             AtlasLootTooltip:SetHyperlink(AtlasLoot_GetEnchantLink(spellID));
             AtlasLootTooltip:Show();
             if(this.spellitemID and ((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled))) or IsShiftKeyDown())) then
-                AtlasLootItem_ShowCompareItem(); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
+                AtlasLootItem_ShowCompareItem(this); --- CALL MISSING METHOD TO SHOW 2 TOOLTIPS (Item Compare)
             end    
         end
     end
@@ -183,7 +183,7 @@ end
 -- Item OnLeave
 -- Called when the mouse cursor leaves a loot item
 --------------------------------------------------------------------------------
-function AtlasLootItem_OnLeave()
+function AtlasLootItem_OnLeave(this)
     --Hide the necessary tooltips
     if( AtlasLoot.db.profile.LootlinkTT ) then
         AtlasLootTooltip:Hide();
@@ -207,7 +207,7 @@ end
 -- Item OnClick
 -- Called when a loot item is clicked on
 --------------------------------------------------------------------------------
-function AtlasLootItem_OnClick(arg1)
+function AtlasLootItem_OnClick(this, arg1)
     local isItem;
 	local color = strsub(getglobal("AtlasLootItem_"..this:GetID().."_Name"):GetText(), 1, 10);
 	local id = this:GetID();
@@ -284,7 +284,7 @@ end
 -- Missing GameToolTip method
 -- Enables item comparing. I've ripped this method directly from GameTooltip.lua and modified to work with AtlasLootTooltip /siena
 -------
-function AtlasLootItem_ShowCompareItem()
+function AtlasLootItem_ShowCompareItem(this)
    local shift = 1;
    local item,link = nil,nil
    if this.spellitemID and this.spellitemID ~= "" and this.spellitemID ~= 0 then

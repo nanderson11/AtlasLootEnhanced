@@ -30,7 +30,7 @@ AtlasLootBoss_OnClick:
 Invoked whenever a boss line in Atlas is clicked
 Shows a loot page if one is associated with the button
 ]]
-function AtlasLootBoss_OnClick(name)
+function AtlasLootBoss_OnClick(this, name)
     
     
     
