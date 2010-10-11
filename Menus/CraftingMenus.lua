@@ -64,15 +64,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["ENGINEERINGMENU"] = {
-		{ 2, "EngineeringAmmo1", "Trade_Engineering", "=ds="..AL["Ammunition"], "" };
-		{ 3, "EngineeringExplosives1", "Trade_Engineering", "=ds="..AL["Explosives"], "" };
-		{ 4, "EngineeringMisc1", "Trade_Engineering", "=ds="..AL["Miscellaneous"], "" };
-		{ 5, "EngineeringWeapon1", "Trade_Engineering", "=ds="..BabbleInventory["Weapon"], "" };
-		{ 7, "Gnomish1", "Trade_Engineering", "=ds="..GetSpellInfo(20220), "" };
+		{ 2, "EngineeringExplosives1", "Trade_Engineering", "=ds="..AL["Explosives"], "" };
+		{ 3, "EngineeringMisc1", "Trade_Engineering", "=ds="..AL["Miscellaneous"], "" };
+		{ 4, "EngineeringWeapon1", "Trade_Engineering", "=ds="..BabbleInventory["Weapon"], "" };
+		{ 6, "Gnomish1", "Trade_Engineering", "=ds="..GetSpellInfo(20220), "" };
 		{ 17, "EngineeringArmor1", "Trade_Engineering", "=ds="..BabbleInventory["Armor"], "" };
 		{ 18, "EngineeringItemEnhancements1", "Trade_Engineering", "=ds="..AL["Item Enhancements"], "" };
 		{ 19, "EngineeringReagents1", "Trade_Engineering", "=ds="..AL["Reagents"], "" };
-		{ 22, "Goblin1", "Trade_Engineering", "=ds="..GetSpellInfo(20221), "" };
+		{ 21, "Goblin1", "Trade_Engineering", "=ds="..GetSpellInfo(20221), "" };
 		Back = "CRAFTINGMENU";
 	};
 
@@ -126,8 +125,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "LeatherLeatherArmorBC1", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Burning Crusade"] };
 		{ 4, "LeatherLeatherArmorWrath1", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Wrath of the Lich King"] };
 		{ 6, "LeatherCloaks1", "INV_Misc_ArmorKit_17", "=ds="..AL["Cloaks"], "" };
-		{ 7, "LeatherQuiversPouches1", "INV_Misc_ArmorKit_17", "=ds="..AL["Quivers and Ammo Pouches"], "" };
-		{ 8, "LeatherLeather1", "INV_Misc_ArmorKit_17", "=ds="..BabbleInventory["Leather"], "" };
+		{ 7, "LeatherLeather1", "INV_Misc_ArmorKit_17", "=ds="..BabbleInventory["Leather"], "" };
 		{ 10, "Dragonscale1", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10656), "" };
 		{ 11, "Tribal1", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10660), "" };
 		{ 17, "LeatherMailArmorOld1", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Original WoW"] };

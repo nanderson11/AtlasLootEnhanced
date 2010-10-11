@@ -1691,23 +1691,6 @@ local MASTER = select(2, GetSpellInfo(28596));
 		--- Engineering ---
 		-------------------
 
-	AtlasLoot_Data["EngineeringAmmo1"] = {
-        { 1, "s72953", "52021", "=q4=Iceblade Arrow", "=ds=#p17#"};
-        { 2, "s72952", "52020", "=q4=Shatter Rounds", "=ds=#p18#"};
-		{ 3, "s56475", "41165", "=q1=Saronite Arrow Maker", "=ds=#sr# 415" };
-		{ 4, "s56474", "41164", "=q1=Ultrasafe Bullet Machine", "=ds=#sr# 410" };
-		{ 5, "s43676", "20475", "=q1=Adamantite Arrow Maker", "=ds=#sr# 335"};
-		{ 6, "s30347", "34504", "=q1=Adamantite Shell Machine", "=ds=#sr# 335"};
-		{ 7, "s30346", "23772", "=q2=Fel Iron Shells", "=ds=#sr# 310"};
-		{ 8, "s19800", "15997", "=q2=Thorium Shells", "=ds=#sr# 285"};
-		{ 9, "s12621", "10513", "=q2=Mithril Gyro-Shot", "=ds=#sr# 245"};
-		{ 10, "s12596", "10512", "=q2=Hi-Impact Mithril Slugs", "=ds=#sr# 210"};
-		{ 11, "s3947", "8069", "=q1=Crafted Solid Shot", "=ds=#sr# 125"};
-		{ 12, "s3930", "8068", "=q1=Crafted Heavy Shot", "=ds=#sr# 75"};
-		{ 13, "s3920", "8067", "=q1=Crafted Light Shot", "=ds=#sr# 1"};
-		Back = "ENGINEERINGMENU";
-	};
-
 	AtlasLoot_Data["EngineeringArmor1"] = {
 		{ 1, "s56480", "42549", "=q4=Armored Titanium Goggles", "=ds=#sr# 440"};
 		{ 2, "s56483", "42552", "=q4=Charged Titanium Specs", "=ds=#sr# 440"};
@@ -3961,22 +3944,6 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 7, "s2165", "2313", "=q1=Medium Armor Kit", "=ds=#sr# 100"};
 		{ 8, "s2152", "2304", "=q1=Light Armor Kit", "=ds=#sr# 1"};
 		Prev = "LeatherItemEnhancement1";
-		Back = "LEATHERWORKINGMENU";
-	};
-
-	AtlasLoot_Data["LeatherQuiversPouches1"] = {
-		{ 1, "s60645", "44447", "=q3=Dragonscale Ammo Pouch", "=ds="..BabbleFaction["The Kalu'ak"]..": "..BabbleFaction["Honored"]};
-		{ 2, "s60647", "44448", "=q3=Nerubian Reinforced Quiver", "=ds="..BabbleFaction["Knights of the Ebon Blade"]..": "..BabbleFaction["Honored"]};
-		{ 3, "s44768", "34106", "=q3=Netherscale Ammo Pouch", "=ds=#sr# 350"};
-		{ 4, "s44359", "34105", "=q3=Quiver of a Thousand Feathers", "=ds=#sr# 350"};
-		{ 5, "s44343", "34099", "=q2=Knothide Ammo Pouch", "=ds=#sr# 315"};
-		{ 6, "s44344", "34100", "=q2=Knothide Quiver", "=ds=#sr# 315"};
-		{ 7, "s14930", "8217", "=q2=Quickdraw Quiver", "=ds=#sr# 225"};
-		{ 8, "s14932", "8218", "=q2=Thick Leather Ammo Pouch", "=ds=#sr# 225"};
-		{ 9, "s9194", "7372", "=q2=Heavy Leather Ammo Pouch", "=ds=#sr# 150"};
-		{ 10, "s9193", "7371", "=q2=Heavy Quiver", "=ds=#sr# 150"};
-		{ 11, "s9060", "7278", "=q1=Light Leather Quiver", "=ds=#sr# 30"};
-		{ 12, "s9062", "7279", "=q1=Small Leather Ammo Pouch", "=ds=#sr# 30"};
 		Back = "LEATHERWORKINGMENU";
 	};
 

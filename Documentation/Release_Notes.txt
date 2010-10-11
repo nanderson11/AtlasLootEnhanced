@@ -2,11 +2,12 @@ AtlasLoot Enhanced
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
--Daviesh
+-Hegarol
 
 Patch Notes
 
-
+v5.11.05
+Compatible with 4.0
 
 v5.11.04
 Added support for Atlas 1.17.0
