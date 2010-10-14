@@ -5,6 +5,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v5.11.06
+Fixed the query server bug
 
 v5.11.05
 Compatible with 4.0
