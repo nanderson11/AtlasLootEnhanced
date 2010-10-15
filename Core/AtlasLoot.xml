@@ -655,7 +655,7 @@
                         GameTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 5);
                         GameTooltip:AddLine("|cffff0000"..AL["Query Server"]);
                         GameTooltip:AddLine(AL["Queries the server for all items"]);
-                        GameTooltip:AddLine(AL["on self page. The items will be"]);
+                        GameTooltip:AddLine(AL["on this page. The items will be"]);
                         GameTooltip:AddLine(AL["refreshed when you next mouse"]);
                         GameTooltip:AddLine(AL["over them."]);
                         GameTooltip:Show();

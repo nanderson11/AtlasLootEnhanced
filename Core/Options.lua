@@ -250,7 +250,7 @@ function AtlasLoot_SelectLootBrowserStyle_Initialize()
 	UIDropDownMenu_AddButton(info);
 end
 
-function AtlasLoot_SelectLootBrowserStyle_OnClick()
+function AtlasLoot_SelectLootBrowserStyle_OnClick(this)
     local thisID = this:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasLoot_SelectLootBrowserStyle, thisID);
     AtlasLoot.db.profile.LootBrowserStyle = thisID;
@@ -276,7 +276,7 @@ function AtlasLoot_CraftingLink_Initialize()
 	UIDropDownMenu_AddButton(info);
 end
 
-function AtlasLoot_CraftingLink_OnClick()
+function AtlasLoot_CraftingLink_OnClick(this)
     local thisID = this:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasLoot_CraftingLink, thisID);
     AtlasLoot.db.profile.CraftingLink = thisID;
