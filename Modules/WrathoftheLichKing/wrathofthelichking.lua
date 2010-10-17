@@ -7400,8 +7400,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 8, 49966, "", "=q4=Pattern: Rock-Steady Treads", "=ds=#p7# (450)"};
 		{ 9, 49954, "", "=q4=Pattern: Deathfrost Boots", "=ds=#p8# (450)"};
 		{ 10, 49956, "", "=q4=Pattern: Sandals of Consecration", "=ds=#p8# (450)"};
-		{ 11, 52023, "", "=q4=Plans: Evil Arrow", "=ds=#p17# (450)"};
-		{ 12, 52022, "", "=q4=Plans: Shatter Rounds", "=ds=#p18# (450)"};
 		{ 16, 0, "Inv_Jewelry_Ring_85", "=q6=#r4#", ""};
 		{ 17, 49971, "", "=q4=Plans: Legplates of Painful Death", "=ds=#p2# (450)"};
 		{ 18, 49973, "", "=q4=Plans: Pillars of Might", "=ds=#p2# (450)"};
