@@ -77,16 +77,21 @@ function AtlasLoot_Refresh()
     AtlasMap:SetWidth(512);
     AtlasMap:SetHeight(512);
     AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
-    local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
-    
-    --If texture was not found in the core Atlas mod, check plugins
-    if ( not builtIn ) then
-        for k,v in pairs(ATLAS_PLUGINS) do
-            if ( AtlasMap:SetTexture("Interface\\AddOns\\"..v.."\\Images\\"..zoneID) ) then
-                break;
-            end
-        end
-    end
+    for k,v in pairs(Atlas_CoreMapsKey) do
+    	if(zoneID == v) then
+    		AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+    		break;
+    	else
+    		for ka,va in pairs(ATLAS_PLUGINS) do
+    			for kb,vb in pairs(ATLAS_PLUGINS[ka]) do
+    				if (zoneID == vb) then
+    					AtlasMap:SetTexture("Interface\\AddOns\\"..ka.."\\Images\\"..zoneID);
+    					break;
+    				end
+    			end
+    		end
+    	end
+    end  
     
     --Setup info panel above boss listing
     local tName = base.ZoneName[1];
