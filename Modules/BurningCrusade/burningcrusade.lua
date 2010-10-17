@@ -2626,7 +2626,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, 30313, "", "=q5=Staff of Disintegration", "=ds=#w9#"};
 		{ 6, 30314, "", "=q5=Phaseshift Bulwark", "=ds=#w8#"};
 		{ 7, 30318, "", "=q5=Netherstrand Longbow", "=ds=#w2#, =q1=#m1# =ds=#c2#"};
-		{ 8, 30319, "", "=q5=Nether Spike", "=ds=#w17#"};
 	};
 
 		----------------

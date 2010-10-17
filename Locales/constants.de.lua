@@ -1482,7 +1482,7 @@ if AL then
 	AL["Item Unavailable"] = "Item nicht verfügbar";
 	-- AL["ItemID:"] = true;
 	AL["This item is not available on your server or your battlegroup yet."] = "Dieses Item ist auf deinem Server bzw. deinem Realmpool nicht verfügbar";
-	AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Diese Item ist unsicher.\nSobald du dieses Item ingame gesehen hast,\nbesteht nicht mehr die Gefahr eines Verbindungsabbruch\n(Es ist dann nicht mehr unsicher). Diese\nBestimmung wurde von Blizzard mit\nPatch 1.10 festgelegt.";
+	AL["This item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world. This is a restriction enforced by Blizzard since Patch 1.10."] = "Dieses Item ist unsicher.\nSobald du dieses Item ingame gesehen hast,\nbesteht nicht mehr die Gefahr eines Verbindungsabbruch\n(Es ist dann nicht mehr unsicher). Diese\nBestimmung wurde von Blizzard mit\nPatch 1.10 festgelegt.";
 	AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Mit einem Rechtsklick wird der\nServer nach dem Item abgefragt, dabei\nkönnte die Verbindung unterbrochen werden.";
 
 end
