@@ -10511,7 +10511,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 30313, "", "=q5=Staff of Disintegration", "=q1=#m26#: =ds=#w9#"};
 		{ 11, 30314, "", "=q5=Phaseshift Bulwark", "=q1=#m26#: =ds=#w8#"};
 		{ 12, 30318, "", "=q5=Netherstrand Longbow", "=q1=#m26#: =ds=#w2#, =q1=#m1# =ds=#c2#"};
-		{ 13, 30319, "", "=q5=Nether Spike", "=q1=#m26#: =ds=#w17#"};
 		{ 16, 22736, "", "=q5=Andonisus, Reaper of Souls", "=q1=#m26#: =ds=#h3#, #w10#"};
 		{ 17, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=ds=#h1#, #w10#"};
 		{ 18, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=ds=#h2#, #w6#"};
