@@ -324,7 +324,6 @@ if AL then
 	AL["Mail Armor"] = true;
 	AL["Cloaks"] = true;
 	AL["Item Enhancements"] = true;
-	AL["Quivers and Ammo Pouches"] = true;
 	AL["Drums, Bags and Misc."] = true;
 
 	-- Tailoring

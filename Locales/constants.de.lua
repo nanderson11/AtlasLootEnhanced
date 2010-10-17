@@ -308,10 +308,9 @@ if AL then
 
 	-- Leatherworking
 	AL["Leather Armor"] = "Lederrüstungen";
-	AL["Mail Armor"] = "Schwere Rüstungen";
+	AL["Mail Armor"] = "Kettenrüstungen";
 	AL["Cloaks"] = "Umhänge";
 	AL["Item Enhancements"] = "Gegenstandsverbesserungen";
-	AL["Quivers and Ammo Pouches"] = "Köcher und Munitionsbeutel";
 	AL["Drums, Bags and Misc."] = "Trommeln, Taschen, usw.";
 
 	-- Tailoring
