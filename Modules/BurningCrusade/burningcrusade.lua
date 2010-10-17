@@ -2815,9 +2815,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["CExpedition1"] = {
 		{ 1, 0, "INV_Misc_Ammo_Arrow_02", "=q6=#r2#", ""};
 		{ 2, 25737, "", "=q3=Pattern: Heavy Clefthoof Boots", "=ds=#p7# (355)"};
-		{ 3, 24417, "", "=q2=Scout's Arrow", "=ds=#w17#"};
-		{ 4, 23814, "", "=q1=Schematic: Green Smoke Flare", "=ds=#p5# (335)"};
-		{ 5, 24429, "", "=q1=Expedition Flare", ""};
+		{ 3, 23814, "", "=q1=Schematic: Green Smoke Flare", "=ds=#p5# (335)"};
+		{ 4, 24429, "", "=q1=Expedition Flare", ""};
 		{ 16, 0, "INV_Misc_Ammo_Arrow_02", "=q6=#r3#", ""};
 		{ 17, 25838, "", "=q3=Warden's Hauberk", "=ds=#s5#, #a2#"};
 		{ 18, 25836, "", "=q3=Preserver's Cudgel", "=ds=#h3#, #w6#"};
@@ -2842,11 +2841,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, 31391, "", "=q4=Plans: Wildguard Leggings", "=ds=#p2# (375)"};
 		{ 4, 29174, "", "=q3=Watcher's Cowl", "=ds=#s1#, #a1#"};
 		{ 5, 29173, "", "=q3=Strength of the Untamed", "=ds=#s2#"};
-		{ 6, 31949, "", "=q3=Warden's Arrow", "=ds=#w17#"};
-		{ 7, 24183, "", "=q3=Design: Nightseye Panther", "=ds=#p12# (370)"};
-		{ 8, 29192, "", "=q2=Arcanum of Ferocity", "=ds=#s1# #e17#"};
-		{ 9, 22918, "", "=q2=Recipe: Transmute Primal Water to Air", "=ds=#p1# (350)"};
-		{ 10, 28271, "", "=q2=Formula: Enchant Gloves - Spell Strike", "=ds=#p4# (360)"};
+		{ 6, 24183, "", "=q3=Design: Nightseye Panther", "=ds=#p12# (370)"};
+		{ 7, 29192, "", "=q2=Arcanum of Ferocity", "=ds=#s1# #e17#"};
+		{ 8, 22918, "", "=q2=Recipe: Transmute Primal Water to Air", "=ds=#p1# (350)"};
+		{ 9, 28271, "", "=q2=Formula: Enchant Gloves - Spell Strike", "=ds=#p4# (360)"};
 		{ 16, 0, "INV_Misc_Ammo_Arrow_02", "=q6=#r5#", ""};
 		{ 17, 29170, "", "=q4=Windcaller's Orb", "=ds=#s15#"};
 		{ 18, 29172, "", "=q4=Ashyen's Gift", "=ds=#s13#"};
@@ -2892,11 +2890,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, 0, "INV_BannerPVP_02", "=q6=#r4#", ""};
 		{ 2, 29169, "", "=q3=Ring of Convalescence", "=ds=#s13#"};
 		{ 3, 29166, "", "=q3=Hellforged Halberd", "=ds=#w7#"};
-		{ 4, 32883, "", "=q3=Felbane Slugs", "=ds=#w18#"};
-		{ 5, 24180, "", "=q3=Design: Dawnstone Crab", "=ds=#p12# (370)"};
-		{ 6, 29189, "", "=q2=Arcanum of Renewal", "=ds=#s1# #e17#"};
-		{ 7, 22547, "", "=q1=Formula: Enchant Chest - Exceptional Stats", "=ds=#p4# (345)"};
-		{ 8, 34218, "", "=q1=Pattern: Netherscale Ammo Pouch", "=ds=#p7# (350)"};
+		{ 4, 24180, "", "=q3=Design: Dawnstone Crab", "=ds=#p12# (370)"};
+		{ 5, 29189, "", "=q2=Arcanum of Renewal", "=ds=#s1# #e17#"};
+		{ 6, 22547, "", "=q1=Formula: Enchant Chest - Exceptional Stats", "=ds=#p4# (345)"};
 		{ 16, 0, "INV_BannerPVP_02", "=q6=#r5#", ""};
 		{ 17, 29153, "", "=q4=Blade of the Archmage", "=ds=#h3#, #w10#"};
 		{ 18, 29156, "", "=q4=Honor's Call", "=ds=#h1#, #w10#"};
@@ -3399,14 +3395,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["ScaleSands3"] = {
-		{ 1, 0, "INV_Misc_MonsterScales_13", "=q6=#r3#", ""};
-		{ 2, 31737, "", "=q4=Timeless Arrow", "=ds=#w17#"};
-		{ 3, 31735, "", "=q4=Timeless Shell", "=ds=#w18#"};
-		{ 5, 0, "INV_Misc_MonsterScales_13", "=q6=#r4#", ""};
-		{ 6, 32292, "", "=q4=Design: Rigid Lionseye", "=ds=#p12# (375)"};
-		{ 7, 32308, "", "=q4=Design: Wicked Pyrestone", "=ds=#p12# (375)"};
-		{ 8, 32309, "", "=q4=Design: Enduring Seaspray Emerald", "=ds=#p12# (375)"};
-		{ 9, 32302, "", "=q4=Design: Royal Shadowsong Amethyst", "=ds=#p12# (375)"};
+		{ 1, 0, "INV_Misc_MonsterScales_13", "=q6=#r4#", ""};
+		{ 2, 32292, "", "=q4=Design: Rigid Lionseye", "=ds=#p12# (375)"};
+		{ 3, 32308, "", "=q4=Design: Wicked Pyrestone", "=ds=#p12# (375)"};
+		{ 4, 32309, "", "=q4=Design: Enduring Seaspray Emerald", "=ds=#p12# (375)"};
+		{ 5, 32302, "", "=q4=Design: Royal Shadowsong Amethyst", "=ds=#p12# (375)"};
 		Prev = "ScaleSands2";
 		Back = "REPMENU_BURNINGCRUSADE";
 	};
@@ -3533,10 +3526,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 29187, "", "=q2=Inscription of Endurance", "=ds=#s3# #e17#"};
 		{ 7, 33209, "", "=q2=Recipe: Flask of Chromatic Wonder", "=ds=#p1# (375)"};
 		{ 9, 0, "Ability_Warrior_ShieldMastery", "=q6=#r4#", ""};
-		{ 10, 34581, "", "=q4=Mysterious Arrow", "=ds=#w17#"};
-		{ 11, 34582, "", "=q4=Mysterious Shell", "=ds=#w18#"};
-		{ 12, 31394, "", "=q4=Plans: Iceguard Leggings", "=ds=#p2# (375)"};
-		{ 13, 33205, "", "=q4=Pattern: Shadowprowler's Chestguard", "=ds=#p7# (365)"};
+		{ 10, 31394, "", "=q4=Plans: Iceguard Leggings", "=ds=#p2# (375)"};
+		{ 11, 33205, "", "=q4=Pattern: Shadowprowler's Chestguard", "=ds=#p7# (365)"};
 		{ 16, 0, "Ability_Warrior_ShieldMastery", "=q6=#r5#", ""};
 		{ 17, 33124, "", "=q3=Pattern: Cloak of Darkness", "=ds=#p7# (360)"};
 		{ 18, 33165, "", "=q1=Formula: Enchant Weapon - Greater Agility", "=ds=#p4# (350)"};
@@ -3573,11 +3564,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, 0, "INV_BannerPVP_01", "=q6=#r4#", ""};
 		{ 2, 29168, "", "=q3=Ancestral Band", "=ds=#s13#"};
 		{ 3, 29167, "", "=q3=Blackened Spear", "=ds=#w7#"};
-		{ 4, 32882, "", "=q3=Hellfire Shot", "=ds=#w18#"};
-		{ 5, 31358, "", "=q3=Design: Dawnstone Crab", "=ds=#p12# (370)"};
-		{ 6, 29190, "", "=q2=Arcanum of Renewal", "=ds=#s1# #e17#"};
-		{ 7, 24003, "", "=q1=Formula: Enchant Chest - Exceptional Stats", "=ds=#p4# (345)"};
-		{ 8, 34201, "", "=q1=Pattern: Netherscale Ammo Pouch", "=ds=#p7# (350)"};
+		{ 4, 31358, "", "=q3=Design: Dawnstone Crab", "=ds=#p12# (370)"};
+		{ 5, 29190, "", "=q2=Arcanum of Renewal", "=ds=#s1# #e17#"};
+		{ 6, 24003, "", "=q1=Formula: Enchant Chest - Exceptional Stats", "=ds=#p4# (345)"};
 		{ 16, 0, "INV_BannerPVP_01", "=q6=#r5#", ""};
 		{ 17, 29155, "", "=q4=Stormcaller", "=ds=#h3#, #w10#"};
 		{ 18, 29165, "", "=q4=Warbringer", "=ds=#h1#, #w1#"};
@@ -3681,17 +3670,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["Nagrand2"] = {
-		{ 1, 30611, "", "=q3=Halaani Razorshaft", "=ds=#w17#"};
-		{ 2, 30615, "", "=q1=Halaani Whiskey", "=ds=#e4#"};
-		{ 4, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-		{ 5, 30598, "", "=q3=Don Amancio's Heart", "=ds=#e7#"};
-		{ 6, 30597, "", "=q2=Halaani Claymore", "=ds=#h2#, #w10#"};
-		{ 7, 30599, "", "=q2=Avenging Blades", "=ds=#w11#"};
-		{ 16, 30612, "", "=q3=Halaani Grimshot", "=ds=#w18#"};
-		{ 19, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-		{ 20, 30571, "", "=q3=Don Rodrigo's Heart", "=ds=#e7#"};
-		{ 21, 30570, "", "=q2=Arkadian Claymore", "=ds=#h2#, #w10#"};
-		{ 22, 30568, "", "=q2=The Sharp Cookie", "=ds=#w11#"};
+		{ 1, 30615, "", "=q1=Halaani Whiskey", "=ds=#e4#"};
+		{ 3, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+		{ 4, 30598, "", "=q3=Don Amancio's Heart", "=ds=#e7#"};
+		{ 5, 30597, "", "=q2=Halaani Claymore", "=ds=#h2#, #w10#"};
+		{ 6, 30599, "", "=q2=Avenging Blades", "=ds=#w11#"};
+		{ 18, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+		{ 19, 30571, "", "=q3=Don Rodrigo's Heart", "=ds=#e7#"};
+		{ 20, 30570, "", "=q2=Arkadian Claymore", "=ds=#h2#, #w10#"};
+		{ 21, 30568, "", "=q2=The Sharp Cookie", "=ds=#w11#"};
 		Prev = "Nagrand1";
 		Back = "PVPMENU2";
 	};
