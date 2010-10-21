@@ -10,6 +10,7 @@ The AL["text"] = true; shortcut can ONLY be used for English (the root translati
 
 
 
+
 --Create the library instance
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 
@@ -576,6 +577,18 @@ if AL then
 	--AL["Tiny"] = true;
 	--AL["Tuskarr Kite"] = true;
 	--AL["Spectral Kitten"] = true;
+
+	-- Eleventh set -- à traduire
+	--AL["Wrathgate"] = true;
+	--AL["Statue Generator"] = true;
+	--AL["Landro's Gift"] = true;
+	--AL["Blazing Hippogryph"] = true;
+
+	-- Twelvth set -- à traduire
+	--AL["Icecrown"] = true;
+	--AL["Wooly White Rhino"] = true;
+	--AL["Ethereal Portal"] = true;
+	--AL["Paint Bomb"] = true;
 
 	-- Battleground Brackets
 	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
@@ -1338,7 +1351,7 @@ if AL then
 	--AL["Scholo"] = true,
 	--AL["Strat"] = true,
 	AL["Serpentshrine"] = "SCC";
-	--AL["Avatar"] = true;
+	--AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
 	AL["Dark Coffer"] = "Coffre Noir";
