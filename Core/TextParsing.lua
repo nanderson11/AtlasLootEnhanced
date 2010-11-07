@@ -1049,3 +1049,14 @@ function AtlasLoot:FixText(text)
 
     return text;
 end
+
+function AtlasLoot:FixTextBack(text)
+	if not text or text == "" then return "" end
+	
+	text = gsub(text, "Miscellaneous", "#m20#");
+	for k,_ in pairs(AtlasLoot_TextParsing) do
+		text = gsub(text, AtlasLoot_TextParsing[k][2], AtlasLoot_TextParsing[k][1]);
+	end
+
+    return text;
+end

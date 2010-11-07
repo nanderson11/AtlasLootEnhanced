@@ -42,6 +42,7 @@ end
 
 function getItemPrice(strg, newPrice, newPriceIcon)
 	local retStrg = ""
+	newPriceIcon = string.lower(newPriceIcon)
 	local priceTab = {
 		["justice"] = {"(%d+) #justice#", "%d+ #justice#", "Interface\\Icons\\pvecurrency-justice" },
 		["valor"] = {"(%d+) #valor#", "%d+ #valor#", "Interface\\Icons\\pvecurrency-valor" },
@@ -59,14 +60,14 @@ function getItemPrice(strg, newPrice, newPriceIcon)
     end
 	if strg then
 		for k,v in pairs(priceTab) do
-			if string.match(strg, v[1]) and v[3] == newPriceIcon and tonumber(string.match(strg, v[1])) ~= newPrice then
+			if string.match(strg, v[1]) and string.lower(v[3]) == newPriceIcon and tonumber(string.match(strg, v[1])) ~= newPrice then
 				retStrg = string.gsub(strg, v[2], newPrice.." #"..k.."#" )
 				itemUpdated = itemUpdated + 1
 			end
 		end
 	else
 		for k,v in pairs(priceTab) do
-			if v[3] == newPriceIcon then
+			if string.lower(v[3]) == newPriceIcon then
 				retStrg = newPrice.." #"..k.."#" 
 				itemUpdated = itemUpdated + 1
 			end
@@ -81,6 +82,16 @@ local function startVendorScan(tab)
 	-- itemTexture, itemValue, itemLink = GetMerchantItemCostItem(index, itemIndex)
 	-- numItems = GetMerchantNumItems();
 	-- itemID = string.match(itemLink, "item:(%d+):")
+	local qualityTab = {
+		--"=q0=",
+		"=q1=",
+		"=q2=",
+		"=q3=",
+		"=q4=",
+		"=q5=",
+		"=q6=",
+		"=q7=",
+	}
 
 	if MerchantFrame:IsShown() then
 		if tab then
@@ -104,7 +115,11 @@ local function startVendorScan(tab)
 				local itemTexture, itemValue = GetMerchantItemCostItem(i, 1)
 				local itemLink = GetMerchantItemLink(i)
 				local itemID = string.match(itemLink, "item:(%d+):")
-				tab[1][i] = { i, itemID, "", name, "=ds=", getItemPrice(nil, itemValue, itemTexture) }
+				itemID = tonumber(itemID)
+				local _,_,quality = GetItemInfo(itemID)
+				quality = qualityTab[quality]
+				local desc = AtlasLoot:FixTextBack(AtlasLoot:GetItemEquipInfo(itemID))
+				tab[1][i] = { i, itemID, "", quality..name, "=ds="..desc, getItemPrice(nil, itemValue, itemTexture) }
 			end
 		end
 	else
