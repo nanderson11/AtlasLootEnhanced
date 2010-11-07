@@ -166,7 +166,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	};
 
 	AtlasLoot_Data["AuchCryptsAvatar"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 27878, "", "=q3=Auchenai Death Shroud", "=ds=#s4#", "", "4.41%"};
 				{ 2, 28268, "", "=q3=Natural Mender's Wraps", "=ds=#s9#, #a2#", "", "3.94%"};
@@ -288,7 +288,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	};
 
 	AtlasLoot_Data["AuchManaYor"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 31919, "", "=q4=Nexus-Prince's Ring of Balance", "=ds=#s13#"};
 				{ 2, 31920, "", "=q4=Shaffar's Band of Brutality", "=ds=#s13#"};
@@ -306,7 +306,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Yor"].." ("..AL["Heroic"]..")",
+			name = BabbleBoss["Yor"],
 			module = moduleName, instance = "AuchManaTombs",
 		};
 	};
@@ -340,7 +340,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	};
 
 	AtlasLoot_Data["AuchSethekkRavenGod"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 32768, "", "=q4=Reins of the Raven Lord", "=ds=#e26#"};
 				{ 2, 30553, "", "=q4=Pristine Fire Opal", "=ds=#e7#", "", "15.73%"};
@@ -405,7 +405,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 5, 27887, "", "=q3=Platinum Shield of the Valorous", "=ds=#w8#", "", "10.88%"};
 				{ 6, 27885, "", "=q3=Soul-Wand of the Aldor", "=ds=#w12#", "", "13.34%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
-				{ 17, 30563, "", "=q4=Regal Chyroprase", "=ds=#e7#", "", "16.67%"};
+				{ 17, 30563, "", "=q4=Regal Chrysoprase", "=ds=#e7#", "", "16.67%"};
 				{ 18, 30559, "", "=q4=Etched Tanzanite", "=ds=#e7#", "", "17.85%"};
 				{ 19, 30560, "", "=q4=Misty Chrysoprase", "=ds=#e7#", "", "15.47%"};
 			};
@@ -579,7 +579,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 32273, "", "=q4=Amice of Brilliant Light", "=ds=#s3#, #a1#", "", "16%"};
 				{ 2, 32270, "", "=q4=Focused Mana Bindings", "=ds=#s8#, #a1#", "", "15%"};
 				{ 3, 32513, "", "=q4=Wristbands of Divine Influence", "=ds=#s8#, #a1#", "", "16%"};
-				{ 4, 32265, "", "=q4=Shadow-walker's Cord", "=ds=#s10#, #a2#", "", "16%"};
+				{ 4, 32265, "", "=q4=Shadow-Walker's Cord", "=ds=#s10#, #a2#", "", "16%"};
 				{ 5, 32271, "", "=q4=Kilt of Immortal Nature", "=ds=#s11#, #a2#", "", "14%"};
 				{ 6, 32264, "", "=q4=Shoulders of the Hidden Predator", "=ds=#s3#, #a3#", "", "16%"};
 				{ 7, 32275, "", "=q4=Spiritwalker Gauntlets", "=ds=#s9#, #a3#", "", "9%"};
@@ -1217,32 +1217,36 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["CFRSlaveQuagmirran"] = {
 		["Normal"] = {
 			{
-				{ 1, 27796, "", "=q3=Mana-Etched Spaulders", "=ds=#s3#, #a1# (D3)", "", "5.24%"};
-				{ 2, 27713, "", "=q3=Pauldrons of Desolation", "=ds=#s3#, #a3# (D3)", "", "10.70%"};
-				{ 4, 27742, "", "=q3=Mage-Fury Girdle", "=ds=#s10#, #a1#", "", "12.00%"};
-				{ 5, 27712, "", "=q3=Shackles of Quagmirran", "=ds=#s8#, #a2#"};
-				{ 6, 27800, "", "=q3=Earthsoul Britches", "=ds=#s11#, #a2#", "", "13.76%"};
-				{ 7, 28337, "", "=q3=Breastplate of Righteous Fury", "=ds=#s5#, #a4#", "", "8.73%"};
-				{ 8, 27672, "", "=q3=Girdle of the Immovable", "=ds=#s10#, #a4#", "", "7.64%"};
-				{ 9, 27740, "", "=q3=Band of Ursol", "=ds=#s13#", "", "12.23%"};
-				{ 10, 27683, "", "=q3=Quagmirran's Eye", "=ds=#s14#", "", "7.86%"};
-				{ 11, 27714, "", "=q3=Swamplight Lantern", "=ds=#s15#", "", "10.92%"};
-				{ 12, 27673, "", "=q3=Phosphorescent Blade", "=ds=#h1#, #w10#"};
-				{ 13, 27741, "", "=q3=Bleeding Hollow Warhammer", "=ds=#h3#, #w6#", "", "9.83%"};
-				{ 15, 33821, "", "=q1=The Heart of Quagmirran", "=ds=#m3#", "", "100%"};
-				{ 16, 30604, "", "=q4=Resplendent Fire Opal", "=ds=#e7#", "", "22.49%"};
-				{ 17, 30605, "", "=q4=Nimble Chrysoprase", "=ds=#e7#", "", "9.39%"};
-				{ 18, 30603, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "10.48%"};
-				{ 19, 29242, "", "=q4=Boots of Blasphemy", "=ds=#s12#, #a1#", "", "10.04%"};
-				{ 20, 30538, "", "=q4=Midnight Legguards", "=ds=#s11#, #a2#", "", "8.95%"};
-				{ 21, 32078, "", "=q4=Pauldrons of Wild Magic", "=ds=#s3#, #a3#"};
-				{ 22, 29349, "", "=q4=Adamantine Chain of the Unbroken", "=ds=#s2#", "", "1.53%"};
-				{ 24, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 25, 24362, "", "=q3=Spore-Soaked Vaneer", "=ds=#s4#", "", "10.63%"};
-				{ 26, 24365, "", "=q3=Deft Handguards", "=ds=#s9#, #a2#", "", "10.89%"};
-				{ 27, 24366, "", "=q3=Scorpid-Sting Mantle", "=ds=#s3#, #a3#", "", "11.72%"};
-				{ 28, 24363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#", "", "9.54%"};
-				{ 29, 24364, "", "=q3=Azureplate Greaves", "=ds=#s11#, #a4#", "", "9.98%"};
+				{ 1, 24362, "", "=q3=Spore-Soaked Vaneer", "=ds=#s4#", "", "10.63%"};
+				{ 2, 24365, "", "=q3=Deft Handguards", "=ds=#s9#, #a2#", "", "10.89%"};
+				{ 3, 24366, "", "=q3=Scorpid-Sting Mantle", "=ds=#s3#, #a3#", "", "11.72%"};
+				{ 4, 24363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#", "", "9.54%"};
+				{ 5, 24364, "", "=q3=Azureplate Greaves", "=ds=#s11#, #a4#", "", "9.98%"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 30604, "", "=q4=Resplendent Fire Opal", "=ds=#e7#", "", "22.49%"};
+				{ 2, 30605, "", "=q4=Nimble Chrysoprase", "=ds=#e7#", "", "9.39%"};
+				{ 3, 30603, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "10.48%"};
+				{ 4, 29242, "", "=q4=Boots of Blasphemy", "=ds=#s12#, #a1#", "", "10.04%"};
+				{ 5, 30538, "", "=q4=Midnight Legguards", "=ds=#s11#, #a2#", "", "8.95%"};
+				{ 6, 32078, "", "=q4=Pauldrons of Wild Magic", "=ds=#s3#, #a3#"};
+				{ 7, 29349, "", "=q4=Adamantine Chain of the Unbroken", "=ds=#s2#", "", "1.53%"};
+				{ 9, 27742, "", "=q3=Mage-Fury Girdle", "=ds=#s10#, #a1#", "", "12.00%"};
+				{ 10, 27712, "", "=q3=Shackles of Quagmirran", "=ds=#s8#, #a2#"};
+				{ 11, 27800, "", "=q3=Earthsoul Britches", "=ds=#s11#, #a2#", "", "13.76%"};
+				{ 12, 28337, "", "=q3=Breastplate of Righteous Fury", "=ds=#s5#, #a4#", "", "8.73%"};
+				{ 13, 27672, "", "=q3=Girdle of the Immovable", "=ds=#s10#, #a4#", "", "7.64%"};
+				{ 16, 27796, "", "=q3=Mana-Etched Spaulders", "=ds=#s3#, #a1# (D3)", "", "5.24%"};
+				{ 17, 27713, "", "=q3=Pauldrons of Desolation", "=ds=#s3#, #a3# (D3)", "", "10.70%"};
+				{ 19, 27740, "", "=q3=Band of Ursol", "=ds=#s13#", "", "12.23%"};
+				{ 20, 27683, "", "=q3=Quagmirran's Eye", "=ds=#s14#", "", "7.86%"};
+				{ 21, 27714, "", "=q3=Swamplight Lantern", "=ds=#s15#", "", "10.92%"};
+				{ 22, 27673, "", "=q3=Phosphorescent Blade", "=ds=#h1#, #w10#"};
+				{ 23, 27741, "", "=q3=Bleeding Hollow Warhammer", "=ds=#h3#, #w6#", "", "9.83%"};
+				{ 25, 33821, "", "=q1=The Heart of Quagmirran", "=ds=#m3#", "", "100%"};
+
 			};
 		};
 		info = {
@@ -1741,30 +1745,32 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["HCRampOmor"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 2, 27465, "", "=q3=Mana-Etched Gloves", "=ds=#s9#, #a1#", "", "11.74%"};
-				{ 3, 27466, "", "=q3=Headdress of Alacrity", "=ds=#s1#, #a1#", "", "12.10%"};
-				{ 4, 27462, "", "=q3=Crimson Bracers of Gloom", "=ds=#s8#, #a1#", "", "7.12%"};
-				{ 5, 27467, "", "=q3=Silent-Strider Kneeboots", "=ds=#s12#, #a2#", "", "16.37%"};
-				{ 6, 27478, "", "=q3=Girdle of the Blasted Reaches", "=ds=#s10#, #a3#", "", "14.59%"};
-				{ 7, 27539, "", "=q3=Justice Bearer's Pauldrons", "=ds=#s3#, #a4#", "", "8.90%"};
-				{ 8, 27906, "", "=q3=Crimsonforge Breastplate", "#s5#, #a4#", "", "12.10%"};
-				{ 9, 27464, "", "=q3=Omor's Unyielding Will", "=ds=#s2#", "", "13.52%"};
-				{ 10, 27895, "", "=q3=Band of Many Prisms", "=ds=#s13#", "", "11.74%"};
-				{ 11, 27477, "", "=q3=Faol's Signet of Cleansing", "=ds=#s15#", "", "10.32%"};
-				{ 12, 27463, "", "=q3=Terror Flame Dagger", "=ds=#h1#, #w4#", "", "8.90%"};
-				{ 13, 27476, "", "=q3=Truncheon of Five Hells", "=ds=#h1#, #w6#", "", "9.25%"};
-				{ 16, 30593, "", "=q4=Potent Fire Opal", "=ds=#e7#", "", "11.11%"};
-				{ 17, 30594, "", "=q4=Regal Chrysoprase", "=ds=#e7#", "", "12.35%"};
-				{ 18, 30592, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "8.64%"};
-				{ 20, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 21, 24090, "", "=q3=Bloodstained Ravager Gauntlets", "=ds=#s9#, #a3#", "", "12.14%"};
-				{ 22, 24091, "", "=q3=Tenacious Defender", "=ds=#s10#, #a4#", "", "12.67%"};
-				{ 23, 24073, "", "=q3=Garrote-String Necklace", "=ds=#s2#", "", "11.60%"};
-				{ 24, 24096, "", "=q3=Heartblood Prayer Beads", "=ds=#s2#", "", "11.15%"};
-				{ 25, 24094, "", "=q3=Heart Fire Warhammer", "=ds=#h2#, #w6#", "", "14.76%"};
-				{ 26, 24069, "", "=q3=Crystalfire Staff", "=ds=#w9#", "", "12.43%"};
-				{ 28, 23886, "", "=q1=Omor's Hoof", "=ds=#m3#", "", "100%"};
+				{ 1, 24090, "", "=q3=Bloodstained Ravager Gauntlets", "=ds=#s9#, #a3#", "", "12.14%"};
+				{ 2, 24091, "", "=q3=Tenacious Defender", "=ds=#s10#, #a4#", "", "12.67%"};
+				{ 3, 24073, "", "=q3=Garrote-String Necklace", "=ds=#s2#", "", "11.60%"};
+				{ 4, 24096, "", "=q3=Heartblood Prayer Beads", "=ds=#s2#", "", "11.15%"};
+				{ 5, 24094, "", "=q3=Heart Fire Warhammer", "=ds=#h2#, #w6#", "", "14.76%"};
+				{ 6, 24069, "", "=q3=Crystalfire Staff", "=ds=#w9#", "", "12.43%"};
+				{ 8, 23886, "", "=q1=Omor's Hoof", "=ds=#m3#", "", "100%"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 30593, "", "=q4=Potent Fire Opal", "=ds=#e7#", "", "11.11%"};
+				{ 2, 30594, "", "=q4=Regal Chrysoprase", "=ds=#e7#", "", "12.35%"};
+				{ 3, 30592, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "8.64%"};
+				{ 5, 27465, "", "=q3=Mana-Etched Gloves", "=ds=#s9#, #a1#", "", "11.74%"};
+				{ 6, 27466, "", "=q3=Headdress of Alacrity", "=ds=#s1#, #a1#", "", "12.10%"};
+				{ 7, 27462, "", "=q3=Crimson Bracers of Gloom", "=ds=#s8#, #a1#", "", "7.12%"};
+				{ 8, 27467, "", "=q3=Silent-Strider Kneeboots", "=ds=#s12#, #a2#", "", "16.37%"};
+				{ 9, 27478, "", "=q3=Girdle of the Blasted Reaches", "=ds=#s10#, #a3#", "", "14.59%"};
+				{ 10, 27539, "", "=q3=Justice Bearer's Pauldrons", "=ds=#s3#, #a4#", "", "8.90%"};
+				{ 11, 27906, "", "=q3=Crimsonforge Breastplate", "#s5#, #a4#", "", "12.10%"};
+				{ 16, 27464, "", "=q3=Omor's Unyielding Will", "=ds=#s2#", "", "13.52%"};
+				{ 17, 27895, "", "=q3=Band of Many Prisms", "=ds=#s13#", "", "11.74%"};
+				{ 18, 27477, "", "=q3=Faol's Signet of Cleansing", "=ds=#s15#", "", "10.32%"};
+				{ 20, 27463, "", "=q3=Terror Flame Dagger", "=ds=#h1#, #w4#", "", "8.90%"};
+				{ 21, 27476, "", "=q3=Truncheon of Five Hells", "=ds=#h1#, #w6#", "", "9.25%"};
 			};
 		};
 		info = {
@@ -1776,17 +1782,16 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["HCRampVazruden"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Reinforced Fel Iron Chest"], ""};
-				{ 2, 24150, "", "=q3=Mok'Nathal Wildercloak", "=ds=#s4#", "", "15.65%"};
-				{ 3, 24083, "", "=q3=Lifegiver Britches", "=ds=#s11#, #a1#", "", "17.00%"};
-				{ 4, 24063, "", "=q3=Shifting Sash of Midnight", "=ds=#s10#, #a2#", "", "17.25%"};
-				{ 5, 24046, "", "=q3=Kilt of Rolling Thunders", "=ds=#s11#, #a3#", "", "15.96%"};
-				{ 6, 24064, "", "=q3=Ironsole Clompers", "=ds=#s12#, #a4#", "", "13.80%"};
-				{ 7, 24045, "", "=q3=Band of Renewal", "=ds=#s13#", "", "14.44%"};
-				{ 8, 24154, "", "=q3=Witching Band", "=ds=#s13#", "", "13.23%"};
-				{ 9, 24151, "", "=q3=Mok'Nathal Clan Ring", "=ds=#s13#", "", "15.45%"};
-				{ 10, 24044, "", "=q3=Hellreaver", "=ds=#w7#", "", "13.91%"};
-				{ 11, 24155, "", "=q3=Ursol's Claw", "=ds=#w9#", "", "16.21%"};
+				{ 1, 24150, "", "=q3=Mok'Nathal Wildercloak", "=ds=#s4#", "", "15.65%"};
+				{ 2, 24083, "", "=q3=Lifegiver Britches", "=ds=#s11#, #a1#", "", "17.00%"};
+				{ 3, 24063, "", "=q3=Shifting Sash of Midnight", "=ds=#s10#, #a2#", "", "17.25%"};
+				{ 4, 24046, "", "=q3=Kilt of Rolling Thunders", "=ds=#s11#, #a3#", "", "15.96%"};
+				{ 5, 24064, "", "=q3=Ironsole Clompers", "=ds=#s12#, #a4#", "", "13.80%"};
+				{ 6, 24045, "", "=q3=Band of Renewal", "=ds=#s13#", "", "14.44%"};
+				{ 7, 24154, "", "=q3=Witching Band", "=ds=#s13#", "", "13.23%"};
+				{ 8, 24151, "", "=q3=Mok'Nathal Clan Ring", "=ds=#s13#", "", "15.45%"};
+				{ 9, 24044, "", "=q3=Hellreaver", "=ds=#w7#", "", "13.91%"};
+				{ 10, 24155, "", "=q3=Ursol's Claw", "=ds=#w9#", "", "16.21%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Vazruden"], ""};
 				{ 17, 23892, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%"};
 				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Nazan"], ""};
@@ -1883,32 +1888,35 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["HCFurnaceBreaker"] = {
 		["Normal"] = {
 			{
-				{ 1, 28264, "", "=q3=Wastewalker Tunic", "=ds=#s5#, #a2# (D3)", "", "6.82%"};
-				{ 2, 27497, "", "=q3=Doomplate Gauntlets", "=ds=#s9#, #a4# (D3)", "", "9.09%"};
-				{ 4, 27506, "", "=q3=Robe of Effervescent Light", "=ds=#s5#, #a1#", "", "17.42%"};
-				{ 5, 27514, "", "=q3=Leggings of the Unrepentant", "=ds=#s11#, #a2#", "", "13.64%"};
-				{ 6, 27522, "", "=q3=World's End Bracers", "=ds=#s8#, #a3#", "", "25.76%"};
-				{ 7, 27494, "", "=q3=Emerald Eye Bracer", "=ds=#s8#, #a3#", "", "11.50%"};
-				{ 8, 27505, "", "=q3=Ruby Helm of the Just", "=ds=#s1#, #a4#", "", "11.36%"};
-				{ 9, 27788, "", "=q3=Bloodsworn Warboots", "=ds=#s12#, #a4#"};
-				{ 10, 27495, "", "=q3=Soldier's Dog Tags", "=ds=#s2#", "", "9.85%"};
-				{ 11, 28121, "", "=q3=Icon of Unyielding Courage", "=ds=#s14#", "", "8.33%"};
-				{ 12, 27512, "", "=q3=The Willbreaker", "=ds=#h3#, #w10#", "", "6.06%"};
-				{ 13, 27507, "", "=q3=Adamantine Repeater", "=ds=#w3#", "", "6.82%"};
-				{ 15, 33814, "", "=q1=Keli'dan's Feathered Stave", "=ds=#m3#", "", "100%"};
-				{ 16, 30601, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "18.18%"};
-				{ 17, 30600, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "9.85%"};
-				{ 18, 30602, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "12.12%"};
-				{ 19, 32080, "", "=q4=Mantle of Shadowy Embrace", "=ds=#s3#, #a2#"};
-				{ 20, 29245, "", "=q4=Wave-Crest Striders", "=ds=#s12#, #a3#", "", "3.79%"};
-				{ 21, 29239, "", "=q4=Eaglecrest Warboots", "=ds=#s12#, #a4#", "", "6.82%"};
-				{ 22, 29347, "", "=q4=Talisman of the Breaker", "=ds=#s2#", "", "7.58%"};
-				{ 24, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 25, 24397, "", "=q3=Raiments of Divine Authority", "=ds=#s5#, #a1#", "", "16.92%"};
-				{ 26, 24395, "", "=q3=Mindfire Waistband", "=ds=#s10#, #a1#", "", "16.64%"};
-				{ 27, 24398, "", "=q3=Mantle of the Dusk-Dweller", "=ds=#s3#, #a2#", "", "14.29%"};
-				{ 28, 24396, "", "=q3=Vest of Vengeance", "=ds=#s5#, #a2#", "", "15.46%"};
-				{ 29, 24394, "", "=q3=Warsong Howling Axe", "=ds=#h2#, #w1#", "", "15.52%"};
+				{ 1, 24397, "", "=q3=Raiments of Divine Authority", "=ds=#s5#, #a1#", "", "16.92%"};
+				{ 2, 24395, "", "=q3=Mindfire Waistband", "=ds=#s10#, #a1#", "", "16.64%"};
+				{ 3, 24398, "", "=q3=Mantle of the Dusk-Dweller", "=ds=#s3#, #a2#", "", "14.29%"};
+				{ 4, 24396, "", "=q3=Vest of Vengeance", "=ds=#s5#, #a2#", "", "15.46%"};
+				{ 5, 24394, "", "=q3=Warsong Howling Axe", "=ds=#h2#, #w1#", "", "15.52%"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 30601, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "18.18%"};
+				{ 2, 30600, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "9.85%"};
+				{ 3, 30602, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "12.12%"};
+				{ 4, 32080, "", "=q4=Mantle of Shadowy Embrace", "=ds=#s3#, #a2#"};
+				{ 5, 29245, "", "=q4=Wave-Crest Striders", "=ds=#s12#, #a3#", "", "3.79%"};
+				{ 6, 29239, "", "=q4=Eaglecrest Warboots", "=ds=#s12#, #a4#", "", "6.82%"};
+				{ 7, 29347, "", "=q4=Talisman of the Breaker", "=ds=#s2#", "", "7.58%"};
+				{ 9, 27506, "", "=q3=Robe of Effervescent Light", "=ds=#s5#, #a1#", "", "17.42%"};
+				{ 10, 27514, "", "=q3=Leggings of the Unrepentant", "=ds=#s11#, #a2#", "", "13.64%"};
+				{ 11, 27522, "", "=q3=World's End Bracers", "=ds=#s8#, #a3#", "", "25.76%"};
+				{ 12, 27494, "", "=q3=Emerald Eye Bracer", "=ds=#s8#, #a3#", "", "11.50%"};
+				{ 13, 27505, "", "=q3=Ruby Helm of the Just", "=ds=#s1#, #a4#", "", "11.36%"};
+				{ 14, 27788, "", "=q3=Bloodsworn Warboots", "=ds=#s12#, #a4#"};
+				{ 16, 28264, "", "=q3=Wastewalker Tunic", "=ds=#s5#, #a2# (D3)", "", "6.82%"};
+				{ 17, 27497, "", "=q3=Doomplate Gauntlets", "=ds=#s9#, #a4# (D3)", "", "9.09%"};
+				{ 19, 27495, "", "=q3=Soldier's Dog Tags", "=ds=#s2#", "", "9.85%"};
+				{ 20, 28121, "", "=q3=Icon of Unyielding Courage", "=ds=#s14#", "", "8.33%"};
+				{ 21, 27512, "", "=q3=The Willbreaker", "=ds=#h3#, #w10#", "", "6.06%"};
+				{ 22, 27507, "", "=q3=Adamantine Repeater", "=ds=#w3#", "", "6.82%"};
+				{ 24, 33814, "", "=q1=Keli'dan's Feathered Stave", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -1946,7 +1954,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	};
 
 	AtlasLoot_Data["HCHallsPorung"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 30548, "", "=q4=Polished Chrysoprase", "=ds=#e7#", "", "0.16%"};
 				{ 2, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "0.19%"};
@@ -1974,9 +1982,9 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 27526, "", "=q3=Skyfire Hawk-Bow", "=ds=#w2#", "", "17.31%"};
 				{ 8, 30829, "", "=q1=Tear of the Earthmother", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
-				{ 18, 30548, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "0.16%"};
-				{ 19, 30547, "", "=q4=Reckless Fire Opal", "=ds=#e7#", "", "0.19%"};
-				{ 20, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "3.39%"};
+				{ 17, 30548, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "0.16%"};
+				{ 18, 30547, "", "=q4=Reckless Fire Opal", "=ds=#e7#", "", "0.19%"};
+				{ 19, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "3.39%"};
 			};
 		};
 		info = {
@@ -2187,7 +2195,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Shared Drops"], ""};
-				{ 2, 28594, "", "=q4=Trial-FireTrousers", "=ds=#s11#, #a1#", "", "15.96%"};
+				{ 2, 28594, "", "=q4=Trial-Fire Trousers", "=ds=#s11#, #a1#", "", "15.96%"};
 				{ 3, 28591, "", "=q4=Earthsoul Leggings", "=ds=#s11#, #a2#", "", "12.45%"};
 				{ 4, 28589, "", "=q4=Beastmaw Pauldrons", "=ds=#s3#, #a3#", "", "12.54%"};
 				{ 5, 28593, "", "=q4=Eternium Greathelm", "=ds=#s1#, #a4#", "", "11.53%"};

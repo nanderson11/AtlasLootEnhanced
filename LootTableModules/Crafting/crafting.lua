@@ -5041,9 +5041,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Mining"] = {
 		["Normal"] = {
 			{
-				{ 1, "s74529", "51950", "=q1=Smelt Pyrite", "=ds=#sr# 525"};
-				{ 2, "s74537", "53039", "=q2=Smelt Hardened Elementium", "=ds=#sr# 500"};
-				{ 3, "s74530", "52186", "=q2=Smelt Elementium", "=ds=#sr# 475"};
+				{ 1, "s74529", "51950", "=q2=Smelt Pyrite", "=ds=#sr# 525"};
+				{ 2, "s74537", "53039", "=q1=Smelt Hardened Elementium", "=ds=#sr# 500"};
+				{ 3, "s74530", "52186", "=q1=Smelt Elementium", "=ds=#sr# 475"};
 				{ 4, "s84038", "54849", "=q1=Smelt Obsidium", "=ds=#sr# 425"};
 				{ 5, "s55208", "37663", "=q2=Smelt Titansteel", "=ds=#sr# 450"};
 				{ 6, "s55211", "41163", "=q2=Smelt Titanium", "=ds=#sr# 450"};

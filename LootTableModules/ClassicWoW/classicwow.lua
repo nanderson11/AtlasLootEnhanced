@@ -622,7 +622,7 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Ghamoo-ra"], ""};
-				{ 2, 6908, "", "=q3=Ghamoo-ra's Bind", "=ds=#s10#, #a1#", "", "45.81%"};
+				{ 2, 6908, "", "=q3=Ghamoo-Ra's Bind", "=ds=#s10#, #a1#", "", "45.81%"};
 				{ 3, 6907, "", "=q3=Tortoise Armor", "=ds=#s5#, #a3#", "", "30.59%"};
 				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Lady Sarevess"], ""};
 				{ 6, 888, "", "=q3=Naga Battle Gloves", "=ds=#s9#, #a2#", "", "33.72%"};
@@ -974,7 +974,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 11814, "", "=q3=Molten Fists", "=ds=#s9#, #a3#", "", "27.88%"};
 				{ 5, 11832, "", "=q3=Burst of Knowledge", "=ds=#s14#", "", "14.61%"};
 				{ 6, 11809, "", "=q3=Flame Wrath", "=ds=#w7#", "", "18.69%"};
-				{ 8, 23320, "", "=q3=Tablet of Flame Shock VI", "=ds=#e10# =q1=#m1# =ds=#c7#"};
 			};
 		};
 		info = {
@@ -991,7 +990,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11925, "", "=q3=Ghostshroud", "=ds=#s1#, #a2#", "", "21.63%"};
 				{ 4, 11926, "", "=q3=Deathdealer Breastplate", "=ds=#s5#, #a3#", "", "22.08%"};
 				{ 5, 11927, "", "=q3=Legplates of the Eternal Guardian", "=ds=#s11#, #a4#", "", "65.45%"};
-				{ 6, 11922, "", "=q3=Blood-etched Blade", "=ds=#h3#, #w4#", "", "22.05%"};
+				{ 6, 11922, "", "=q3=Blood-Etched Blade", "=ds=#h3#, #w4#", "", "22.05%"};
 				{ 7, 11920, "", "=q3=Wraith Scythe", "=ds=#h1# #w1#", "", "22.61%"};
 				{ 8, 11923, "", "=q3=The Hammer of Grace", "=ds=#h3#, #w6#", "", "21.29%"};
 				{ 9, 11921, "", "=q3=Impervious Giant", "=ds=#h2#, #w6#", "", "22.23%"};
@@ -1106,7 +1105,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 18, 16053, "", "=q2=Schematic: Master Engineer's Goggles", "=ds=#p5# (290) =q1=#n77#", "", "0.45%"};
 				{ 19, 16049, "", "=q2=Schematic: Dark Iron Bomb", "=ds=#p5# (285) =q1=#n78#", "", "1.02%"};
 				{ 20, 16048, "", "=q2=Schematic: Dark Iron Rifle", "=ds=#p5# (275) =q1=#n79#", "", "0.98%"};
-				{ 21, 18654, "", "=q2=Schematic: Gnomish Alarm-O-Bot", "=ds=#p5# (265) =q1=#n78#", "", "1.88%"};
+				{ 21, 18654, "", "=q2=Schematic: Gnomish Alarm-o-Bot", "=ds=#p5# (265) =q1=#n78#", "", "1.88%"};
 				{ 22, 18661, "", "=q2=Schematic: World Enlarger", "=ds=#p5# (260) =q1=#n78#", "", "2.00%"};
 				{ 24, 11754, "", "=q2=Black Diamond", "#e8#", "", "5.0%"};
 				{ 25, 11078, "", "=q1=Relic Coffer Key", "=ds=#e9#"};
@@ -1313,7 +1312,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "10.30%"};
 				{ 7, 12725, "", "=q3=Plans: Enchanted Thorium Helm", "=q1=#m4#: =ds=#p2# (300)"};
 				{ 9, 12712, "", "=q1=Warosh's Mojo", "=ds=#m3#", "", "100%"};
-				{ 10, 15867, "", "=q2=Prismcharm", "=q1=#m4#: =ds=#s14#"};
+				{ 10, 15867, "", "=q3=Prismcharm", "=q1=#m4#: =ds=#s14#"};
 			};
 		};
 		info = {
@@ -2362,9 +2361,9 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18325, "", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "", "24.67%"};
 				{ 2, 18302, "", "=q3=Band of Vigor", "=ds=#s13#", "", "29.30%"};
-				{ 3, 18311, "", "=q3=Quel'dorai Channeling Rod", "=ds=#w9#", "", "7.30%"};
-				{ 4, 18301, "", "=q3=Lethtendris's Wand", "=ds=#w12#", "", "25.57%"};
-				{ 6, 18426, "", "=q1=Lethtendris's Web", "=ds=#m3#"};
+				{ 3, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "7.30%"};
+				{ 4, 18301, "", "=q3=Lethtendris' Wand", "=ds=#w12#", "", "25.57%"};
+				{ 6, 18426, "", "=q1=Lethtendris' Web", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -2876,7 +2875,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 9485, "", "=q3=Vibroblade", "=ds=#h1#, #w1#", "", "0.01%"};
 				{ 23, 9486, "", "=q3=Supercharger Battle Axe", "=ds=#h2#, #w1#", "", "0.02%"};
 				{ 24, 9488, "", "=q3=Oscillating Power Hammer", "=ds=#h1#, #w6#", "", "0.02%"};
-				{ 25, 9487, "", "=q3=Hi-tech Supergun", "=ds=#w5#", "", "0.01%"};
+				{ 25, 9487, "", "=q3=Hi-Tech Supergun", "=ds=#w5#", "", "0.01%"};
 				{ 26, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#", "", "1.41%"};
 				{ 28, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2#", "", "9.38%"};
 				{ 29, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#"};
@@ -2992,7 +2991,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 10777, "", "=q3=Arachnid Gloves", "=ds=#s9#, #a2# =q2=#m16#", "", "28.95%"};
 				{ 4, 10775, "", "=q3=Carapace of Tuten'kash", "=ds=#s5#, #a4#", "", "24.87%"};
 				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Henry Stern"], ""};
-				{ 7, 3831, "", "=q2=Recipe: Mighty Troll's Blood Potion", "=ds=#p1# (180)"};
+				{ 7, 3831, "", "=q2=Recipe: Major Troll's Blood Elixir", "=ds=#p1# (180)"};
 				{ 8, "s13028", "10841", "=q1=Goldthorn Tea", "=ds=#p3# (175)"};
 				{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Mordresh Fire Eye"], ""};
 				{ 11, 10771, "", "=q3=Deathmage Sash", "=ds=#s10#, #a1#", "", "27.92%"};
@@ -4095,7 +4094,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 1929, "", "=q3=Silk-Threaded Trousers", "=ds=#s11#, #a1#", ""};
 				{ 3, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", ""};
 				{ 4, 4676, "", "=q3=Skeletal Gauntlets", "=ds=#s9#, #a3#", ""};
-				{ 5, 62305, "", "=q3=Lord Overheat's Fiery Core", "=ds=#m3#", "", "100%"};
+				{ 5, 62305, "", "=q1=Lord Overheat's Fiery Core", "=ds=#m3#", "", "100%"};
 				{ 7, 0, "INV_Box_01", "=q6=Randolf Moloch", ""};
 				{ 8, 63345, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", ""};
 				{ 9, 63344, "", "=q3=Standard Issue Prisoner Shoes", "=ds=#s12#, #a2#", ""};
@@ -4218,7 +4217,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 13, 9403, "", "=q3=Battered Viking Shield", "=ds=#w8#", "", "69.85%"};
 				{ 14, 1177, "", "=q1=Oil of Olaf", "=ds=#e2#", "", "76.54%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Baelog's Chest"], ""};
-				{ 17, 7740, "", "=q1=Gni'kiv Medallion", "=ds=#m3#"};
+				{ 17, 7740, "", "=q3=Gni'kiv Medallion", "=ds=#m3#"};
 				{ 19, 0, "INV_Box_01", "=q6="..AL["Conspicuous Urn"], ""};
 				{ 20, 7671, "", "=q1=Shattered Necklace Topaz", "=ds=#m3#"};
 			}
@@ -4346,7 +4345,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 10, 9393, "", "=q3=Beacon of Hope", "=ds=#s15#", "", "0.01%"};
 				{ 16, 9384, "", "=q3=Stonevault Shiv", "=ds=#h1#, #w4#", "", "0.01%"};
 				{ 17, 9392, "", "=q3=Annealed Blade", "=ds=#h1#, #w10#", "", "0.01%"};
-				{ 18, 9424, "", "=q3=Ginn-su Sword", "=ds=#h1#, #w10#", "", "0.01%"};
+				{ 18, 9424, "", "=q3=Ginn-Su Sword", "=ds=#h1#, #w10#", "", "0.01%"};
 				{ 19, 9465, "", "=q3=Digmaster 5000", "=ds=#h1#, #w1#", "", "0.01%"};
 				{ 20, 9383, "", "=q3=Obsidian Cleaver", "=ds=#h2#, #w1#", "", "0.01%"};
 				{ 21, 9425, "", "=q3=Pendulum of Doom", "=ds=#h2#, #w1#", "", "0.01%"};

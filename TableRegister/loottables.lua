@@ -139,6 +139,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "BoTWyrmbreaker", 3 },
 				{ "BoTValionaTheralion", 4 },
+				{ "BoTSinestra", },	
 			},
 			["Info"] = { BabbleZone["The Bastion of Twilight"], "AtlasLootCataclysm" },
 		},

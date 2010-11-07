@@ -356,12 +356,12 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#", "", "19%"};
 				{ 19, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#", "", "19%"};
 				{ 20, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#", "", "19%"};
-				{ 21, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#", "", "20%"};
-				{ 22, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#", "", "20%"};
-				{ 23, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "19%"};
-				{ 24, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "21%"};
-				{ 25, 41796, "", "=q3=Design: Glinting Twilight Opal", "=ds=#p12# (390)", "", "12%"};
-				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 22, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#", "", "20%"};
+				{ 23, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#", "", "20%"};
+				{ 24, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "19%"};
+				{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "21%"};
+				{ 26, 41796, "", "=q3=Design: Glinting Twilight Opal", "=ds=#p12# (390)", "", "12%"};
+				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -478,12 +478,12 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 37623, "", "=q4=Fiery Obelisk Handguards", "=ds=#s9#, #a3#", "", "19%"};
 				{ 19, 37620, "", "=q4=Bracers of the Herald", "=ds=#s8#, #a4#", "", "18%"};
 				{ 20, 37619, "", "=q4=Wand of Ahn'kahet", "=ds=#w12#", "", "18%"};
-				{ 21, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#", "", "19%"};
-				{ 22, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#", "", "20%"};
-				{ 23, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#", "", "19%"};
-				{ 24, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#", "", "19%"};
-				{ 25, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)", "", "17%"};
-				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 22, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#", "", "19%"};
+				{ 23, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#", "", "20%"};
+				{ 24, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#", "", "19%"};
+				{ 25, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#", "", "19%"};
+				{ 26, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)", "", "17%"};
+				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -584,12 +584,12 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 37791, "", "=q4=Leggings of the Winged Serpent", "=ds=#s11#, #a2#", "", "20%"};
 				{ 19, 37788, "", "=q4=Limb Regeneration Bracers", "=ds=#s8#, #a3#", "", "21%"};
 				{ 20, 37784, "", "=q4=Keystone Great-Ring", "=ds=#s13#", "", "19%"};
-				{ 21, 37735, "", "=q3=Ziggurat Imprinted Chestguard", "=ds=#s5#, #a4#", "", "21%"};
-				{ 22, 37732, "", "=q3=Spectral Seal of the Prophet", "=ds=#s13#", "", "20%"};
-				{ 23, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#", "", "21%"};
-				{ 24, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#", "", "21%"};
-				{ 25, 41795, "", "=q3=Design: Timeless Twilight Opal", "=ds=#p12# (390)", "", "14%"};
-				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 22, 37735, "", "=q3=Ziggurat Imprinted Chestguard", "=ds=#s5#, #a4#", "", "21%"};
+				{ 23, 37732, "", "=q3=Spectral Seal of the Prophet", "=ds=#s13#", "", "20%"};
+				{ 24, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#", "", "21%"};
+				{ 25, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#", "", "21%"};
+				{ 26, 41795, "", "=q3=Design: Timeless Twilight Opal", "=ds=#p12# (390)", "", "14%"};
+				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -785,7 +785,7 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 35584, "", "=q3=Embroidered Gown of Zul'drak", "=ds=#s5#, #a1#", "", "28%"};
+				{ 2, 35584, "", "=q3=Embroidered Gown of Zul'Drak", "=ds=#s5#, #a1#", "", "28%"};
 				{ 3, 35585, "", "=q3=Cannibal's Legguards", "=ds=#s11#, #a3#", "", "29%"};
 				{ 4, 35583, "", "=q3=Witch Doctor's Wildstaff", "=ds=#w9#", "", "28%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
@@ -868,11 +868,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#", "", "19%"};
 				{ 19, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#", "", "19%"};
 				{ 20, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#", "", "18%"};
-				{ 21, 37641, "", "=q3=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#", "", "19%"};
-				{ 22, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#", "", "20%"};
-				{ 23, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#", "", "20%"};
-				{ 24, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#", "", "20%"};
-				{ 25, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 22, 37641, "", "=q3=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#", "", "19%"};
+				{ 23, 37640, "", "=q3=Boots of Transformation", "=ds=#s12#, #a2#", "", "20%"};
+				{ 24, 37639, "", "=q3=Grips of the Beast God", "=ds=#s9#, #a3#", "", "20%"};
+				{ 25, 37638, "", "=q3=Offering of Sacrifice", "=ds=#s14#", "", "20%"};
+				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			}
 		};
 		info = {
@@ -953,7 +953,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 37655, "", "=q3=Mantle of the Tribunal", "=ds=#s3#, #a1#", "", "16%"};
 				{ 18, 37656, "", "=q3=Raging Construct Bands", "=ds=#s8#, #a3#", "", "16%"};
 				{ 19, 37654, "", "=q3=Sabatons of the Ages", "=ds=#s12#, #a3#", "", "14%"};
-				{ 21, 37653, "", "=q3=Sword of Justice", "=ds=#h2#, #w10#", "", "16%"};
+				{ 20, 37653, "", "=q3=Sword of Justice", "=ds=#h2#, #w10#", "", "16%"};
 			};
 		};
 		info = {
@@ -974,12 +974,12 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 37668, "", "=q4=Bands of the Stoneforge", "=ds=#s8#, #a4#", "", "18%"};
 				{ 19, 37670, "", "=q4=Sjonnir's Girdle", "=ds=#s10#, #a4#", "", "18%"};
 				{ 20, 37667, "", "=q4=The Fleshshaper", "=ds=#h1#, #w4#", "", "18%"};
-				{ 21, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a2#", "", "19%"};
-				{ 22, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#", "", "19%"};
-				{ 23, 37657, "", "=q3=Spark of Life", "=ds=#s14#", "", "19%"};
-				{ 24, 37660, "", "=q3=Forge Ember", "=ds=#s14#", "", "18%"};
-				{ 25, 41792, "", "=q3=Design: Deft Monarch Topaz", "=ds=#p12# (390)", "", "15%"};
-				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 22, 37666, "", "=q3=Boots of the Whirling Mist", "=ds=#s12#, #a2#", "", "19%"};
+				{ 23, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#", "", "19%"};
+				{ 24, 37657, "", "=q3=Spark of Life", "=ds=#s14#", "", "19%"};
+				{ 25, 37660, "", "=q3=Forge Ember", "=ds=#s14#", "", "18%"};
+				{ 26, 41792, "", "=q3=Design: Deft Monarch Topaz", "=ds=#p12# (390)", "", "15%"};
+				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -1093,12 +1093,12 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 37853, "", "=q4=Advanced Tooled-Leather Bands", "=ds=#s8#, #a2#", "", "18%"};
 				{ 19, 37855, "", "=q4=Mail Girdle of the Audient Earth", "=ds=#s10#, #a3#", "", "19%"};
 				{ 20, 37852, "", "=q4=Colossal Skull-Clad Cleaver", "=ds=#h2#, #w1#", "", "18%"};
-				{ 21, 37851, "", "=q3=Ornate Woolen Stola", "=ds=#s5#, #a1#", "", "19%"};
-				{ 22, 37850, "", "=q3=Flowing Sash of Order", "=ds=#s10#, #a1#", "", "19%"};
-				{ 23, 37849, "", "=q3=Planetary Helm", "=ds=#s1#, #a4#", "", "19%"};
-				{ 24, 37848, "", "=q3=Lightning Giant Staff", "=ds=#w9#", "", "18%"};
-				{ 25, 41799, "", "=q3=Design: Eternal Earthsiege Diamond", "=ds=#p12# (420)", "", "11%"};
-				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 22, 37851, "", "=q3=Ornate Woolen Stola", "=ds=#s5#, #a1#", "", "19%"};
+				{ 23, 37850, "", "=q3=Flowing Sash of Order", "=ds=#s10#, #a1#", "", "19%"};
+				{ 24, 37849, "", "=q3=Planetary Helm", "=ds=#s1#, #a4#", "", "19%"};
+				{ 25, 37848, "", "=q3=Lightning Giant Staff", "=ds=#w9#", "", "18%"};
+				{ 26, 41799, "", "=q3=Design: Eternal Earthsiege Diamond", "=ds=#p12# (420)", "", "11%"};
+				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -6582,7 +6582,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 50786, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
 				{ 16, 50342, "", "=q4=Whispering Fanged Skull", "=ds=#s14#"};
 				{ 17, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
-				{ 19, 50776, "", "=q4=Njordar Bone Bow", "=ds=#w2#"};
+				{ 19, 50776, "", "=q4=Njorndar Bone Bow", "=ds=#w2#"};
 			};
 		};
 		["Heroic"] = {
@@ -6598,7 +6598,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 51917, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
 				{ 16, 50343, "", "=q4=Whispering Fanged Skull", "=ds=#s14#"};
 				{ 17, 51922, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
-				{ 19, 51927, "", "=q4=Njordar Bone Bow", "=ds=#w2#"};
+				{ 19, 51927, "", "=q4=Njorndar Bone Bow", "=ds=#w2#"};
 			};
 		};
 		["25Man"] = {

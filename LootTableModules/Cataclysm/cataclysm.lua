@@ -1158,6 +1158,29 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["BoTSinestra"] = {
+		["Heroic"] = {
+			{
+				{ 1, 60232, "", "=q4=Shroud of Endless Grief", "=ds=#s4#", ""};
+				{ 2, 60237, "", "=q4=Crown of the Twilight Queen", "=ds=#s1#, #a1#", ""};
+				{ 3, 60238, "", "=q4=Bracers of the Dark Mother", "=ds=#s8#, #a1#", ""};
+				{ 4, 60231, "", "=q4=Belt of the Fallen Brood", "=ds=#s10#, #a2#", ""};
+				{ 5, 60236, "", "=q4=Nightmare Rider's Boots", "=ds=#s12#, #a2#", ""};
+				{ 6, 60230, "", "=q4=Twilight Scale Leggings", "=ds=#s11#, #a3#", ""};
+				{ 7, 60235, "", "=q4=Boots of Az'galada", "=ds=#s12#, #a3#", ""};
+				{ 8, 60234, "", "=q4=Bindings of Bleak Betrayal", "=ds=#s8#, #a4#", ""};
+				{ 9, 60228, "", "=q4=Bracers of the Mat'redor", "=ds=#s8#, #a4#", ""};
+				{ 16, 60227, "", "=q4=Caelestrasz's Will", "=ds=#s2#", ""};
+				{ 17, 60226, "", "=q4=Dargonax's Signet", "=ds=#s13#", ""};
+				{ 18, 60233, "", "=q4=Shard of Woe", "=ds=#s14#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Sinestra"],
+			module = moduleName, instance = "TheBastionOfTwilight",
+		};
+	};
+
 		---------------------------
 		--- Blackwing Descent -----
 		---------------------------
@@ -2012,17 +2035,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60341, "", "=q4=Magma Plate Helmet", "=ds=#s1#, #a4#", ""};
-				{ 3, 60343, "", "=q4=Magma Plate Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 4, 60339, "", "=q4=Magma Plate Battleplate", "=ds=#s5#, #a4#", "2200 #valor#"};
-				{ 5, 60340, "", "=q4=Magma Plate Gauntlets", "=ds=#s9#, #a4#", "1650 #valor#"};
-				{ 6, 60342, "", "=q4=Magma Plate Legplates", "=ds=#s11#, #a4#", "2200 #valor#"};
+				{ 2, 60341, "", "=q4=Magma Plated Helmet", "=ds=#s1#, #a4#", ""};
+				{ 3, 60343, "", "=q4=Magma Plated Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 4, 60339, "", "=q4=Magma Plated Battleplate", "=ds=#s5#, #a4#", "2200 #valor#"};
+				{ 5, 60340, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", "1650 #valor#"};
+				{ 6, 60342, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65181, "", "=q4=Magma Plate Helmet", "=ds=#s1#, #a4#", ""};
-				{ 10, 65183, "", "=q4=Magma Plate Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 11, 65179, "", "=q4=Magma Plate Battleplate", "=ds=#s5#, #a4#", ""};
-				{ 12, 65180, "", "=q4=Magma Plate Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 13, 65182, "", "=q4=Magma Plate Legplates", "=ds=#s11#, #a4#", ""};
+				{ 9, 65181, "", "=q4=Magma Plated Helmet", "=ds=#s1#, #a4#", ""};
+				{ 10, 65183, "", "=q4=Magma Plated Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 11, 65179, "", "=q4=Magma Plated Battleplate", "=ds=#s5#, #a4#", ""};
+				{ 12, 65180, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 13, 65182, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", ""};
 			};
 		};
 		info = {
@@ -2035,17 +2058,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60351, "", "=q4=Magma Plate Faceguard", "=ds=#s1#, #a4#", ""};
-				{ 3, 60353, "", "=q4=Magma Plate Shoulderguards", "=ds=#s3#, #a4#", ""};
-				{ 4, 60349, "", "=q4=Magma Plate Chestguard", "=ds=#s5#, #a4#", "2200 #valor#"};
-				{ 5, 60350, "", "=q4=Magma Plate Handguards", "=ds=#s9#, #a4#", "1650 #valor#"};
-				{ 6, 60352, "", "=q4=Magma Plate Legguards", "=ds=#s11#, #a4#", "2200 #valor#"};
+				{ 2, 60351, "", "=q4=Magma Plated Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 3, 60353, "", "=q4=Magma Plated Shoulderguards", "=ds=#s3#, #a4#", ""};
+				{ 4, 60349, "", "=q4=Magma Plated Chestguard", "=ds=#s5#, #a4#", "2200 #valor#"};
+				{ 5, 60350, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", "1650 #valor#"};
+				{ 6, 60352, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65186, "", "=q4=Magma Plate Faceguard", "=ds=#s1#, #a4#", ""};
-				{ 10, 65188, "", "=q4=Magma Plate Shoulderguards", "=ds=#s3#, #a4#", ""};
-				{ 11, 65184, "", "=q4=Magma Plate Chestguard", "=ds=#s5#, #a4#", ""};
-				{ 12, 65185, "", "=q4=Magma Plate Handguards", "=ds=#s9#, #a4#", ""};
-				{ 13, 65187, "", "=q4=Magma Plate Legguards", "=ds=#s11#, #a4#", ""};
+				{ 9, 65186, "", "=q4=Magma Plated Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 10, 65188, "", "=q4=Magma Plated Shoulderguards", "=ds=#s3#, #a4#", ""};
+				{ 11, 65184, "", "=q4=Magma Plated Chestguard", "=ds=#s5#, #a4#", ""};
+				{ 12, 65185, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", ""};
+				{ 13, 65187, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", ""};
 			};
 		};
 		info = {
@@ -2081,17 +2104,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60286, "", "=q4=Stormrider's Cover", "=ds=#s1#, #a2#", ""};
-				{ 3, 60289, "", "=q4=Stormrider's Shoulderwraps", "=ds=#s3#, #a2#", ""};
-				{ 4, 60287, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", "2200 #valor#"};
-				{ 5, 60290, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", "1650 #valor#"};
-				{ 6, 60288, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", "2200 #valor#"};
+				{ 2, 60286, "", "=q4=Stormrider's Headpiece", "=ds=#s1#, #a2#", ""};
+				{ 3, 60289, "", "=q4=Stormrider's Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 4, 60287, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", "2200 #valor#"};
+				{ 5, 60290, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", "1650 #valor#"};
+				{ 6, 60288, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", "2200 #valor#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65200, "", "=q4=Stormrider's Cover", "=ds=#s1#, #a2#", ""};
-				{ 10, 65203, "", "=q4=Stormrider's Shoulderwraps", "=ds=#s3#, #a2#", ""};
-				{ 11, 65202, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", ""};
-				{ 12, 65199, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", ""};
-				{ 13, 65201, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 9, 65190, "", "=q4=Stormrider's Headpiece", "=ds=#s1#, #a2#", ""};
+				{ 10, 65193, "", "=q4=Stormrider's Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 11, 65192, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", ""};
+				{ 12, 65189, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", ""};
+				{ 13, 65191, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", ""};
 			};
 		};
 		info = {
@@ -2104,17 +2127,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60282, "", "=q4=Stormrider's Headpiece", "=ds=#s1#, #a2#", ""};
-				{ 3, 60284, "", "=q4=Stormrider's Spaulders", "=ds=#s3#, #a2#", ""};
-				{ 4, 60281, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", "2200 #valor#"};
-				{ 5, 60285, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", "1650 #valor#"};
-				{ 6, 60283, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", "2200 #valor#"};
+				{ 2, 60282, "", "=q4=Stormrider's Cover", "=ds=#s1#, #a2#", ""};
+				{ 3, 60284, "", "=q4=Stormrider's Shoulderwraps", "=ds=#s3#, #a2#", ""};
+				{ 4, 60281, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", "2200 #valor#"};
+				{ 5, 60285, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", "1650 #valor#"};
+				{ 6, 60283, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", "2200 #valor#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65190, "", "=q4=Stormrider's Headpiece", "=ds=#s1#, #a2#", ""};
-				{ 10, 65193, "", "=q4=Stormrider's Spaulders", "=ds=#s3#, #a2#", ""};
-				{ 11, 65192, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", ""};
-				{ 12, 65189, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", ""};
-				{ 13, 65191, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", ""};
+				{ 9, 65200, "", "=q4=Stormrider's Cover", "=ds=#s1#, #a2#", ""};
+				{ 10, 65203, "", "=q4=Stormrider's Shoulderwraps", "=ds=#s3#, #a2#", ""};
+				{ 11, 65202, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", ""};
+				{ 12, 65199, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", ""};
+				{ 13, 65201, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", ""};
 			};
 		};
 		info = {
