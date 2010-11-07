@@ -11590,7 +11590,7 @@ local moduleName = "AtlasLootWotLK"
 
 		----------------------
 		--- Heirloom Items ---
-		----------------------
+		----------------------		
 --Cata prices
 	AtlasLoot_Data["Heirloom"] = {
 		["Normal"] = {

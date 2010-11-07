@@ -14,6 +14,7 @@
 	<Script file="LootTableSort.lua"/>
 	
     <Script file="Search.lua"/>
+	<Script file="DEVTOOLS.lua"/>
     
 
     <GameTooltip name="AtlasLootTooltip" inherits="GameTooltipTemplate" parent="UIParent" hidden="true"/>

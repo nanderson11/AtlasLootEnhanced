@@ -180,7 +180,11 @@ function AtlasLoot:OnInitialize()
 	-- MiniMap Button
 	self:MiniMapButtonInitialize()
 	-- QuickLook
-	AtlasLoot:QuickLookInitialize()
+	self:QuickLookInitialize()
+	-- devtools
+	if self.DevToolsInitialize then
+		self:DevToolsInitialize()
+	end
 	-- Bindings
 	BINDING_HEADER_ATLASLOOT_TITLE = AL["AtlasLoot"]
 	BINDING_NAME_ATLASLOOT_TOGGLE = AL["Toggle AtlasLoot"]
@@ -219,20 +223,29 @@ function AtlasLoot:Print(...)
 	DEFAULT_CHAT_FRAME:AddMessage(...)
 end
 
-
--- msg - takes the argument for the /atlasloot command so that the appropriate action can be performed
--- If someone types /atlasloot, bring up the options box
-function AtlasLoot:SlashCommand(msg)
-	if msg == AL["reset"] then
-		self:Reset("frames");
-	elseif msg == AL["options"] then
-		self:OptionsToggle();
-	else
-		if AtlasLootDefaultFrame then
-			AtlasLootDefaultFrame:Show()
-		elseif AtlasFrame then
-			AtlasFrame:Show()
+-- Slash commands
+do
+	local slashCommand = {}
+	-- msg - takes the argument for the /atlasloot command so that the appropriate action can be performed
+	-- If someone types /atlasloot, bring up the options box
+	function AtlasLoot:SlashCommand(msg, ...)
+		if msg == AL["reset"] then
+			self:Reset("frames");
+		elseif msg == AL["options"] then
+			self:OptionsToggle();
+		elseif slashCommand[msg] then
+			slashCommand[msg](self, msg, ...)
+		else
+			if AtlasLootDefaultFrame then
+				AtlasLootDefaultFrame:Show()
+			elseif AtlasFrame then
+				AtlasFrame:Show()
+			end
 		end
+	end
+	
+	function AtlasLoot:RegisterSlashCommand(com, func)
+		slashCommand[com] = func
 	end
 end
 
