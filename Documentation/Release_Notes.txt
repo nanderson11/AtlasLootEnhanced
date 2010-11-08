@@ -7,24 +7,29 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v6.0.0
 Compatible with World Of Warcraft: Cataclysm.
-Added all new dungeon loot: Blackrock Caverns, Throne of the Tides, The Stonecore, Vortex Pinnacle, Lost City of Tol'vir, Grim Batol
-Added all new faction rewards: Baradin's Wardens, Dragonmaw Clan, Hellscream's Reach, Ramkahen, The Earthen Ring, The Guardians of Hyjal, Therazane, Wildhammer Clan.
-Added the following factions into the Classic faction page: Darnassus, Exodar, Gilneas, Gnomeregan, Ironforge, Stormwind, Bilgewater Cartel, Darkspear Trolls, Orgrimmar, Silvermoon City, Thunder Bluff and Undercity.
-Added the following factions into the Wrath of the Lich King page: The Silver Covenant and The Sunreavers.
-Added Tier 11 sets.
+New Features: New loot browser, Quicklook revamp, Wishlist revamp, Heirlooms can now be viewed by lvl.
+Added all new dungeon loot: Blackrock Caverns, Throne of the Tides, The Stonecore, Vortex Pinnacle, Lost City of Tol'vir, Grim Batol, Halls of Origination
+Added all new faction rewards: Baradin's Wardens, Dragonmaw Clan, Hellscream's Reach, Ramkahen, The Earthen Ring, The Guardians of Hyjal, Therazane, Wildhammer Clan
+Added the following factions into the Classic faction page: Darnassus, Exodar, Gilneas, Gnomeregan, Ironforge, Stormwind, Bilgewater Cartel, Darkspear Trolls, Orgrimmar, Silvermoon City, Thunder Bluff and Undercity
+Added the following factions into the Wrath of the Lich King page: The Silver Covenant and The Sunreavers
+Added Tier 11 sets
+Added Lvl85 PvP sets
 Added Daily Cooking rewards.
 Added new Darkmoon Faire trinkets
-Updated Crafting professions with new Cataclsym recipes.
+Updated Crafting professions (Engineering, First Aid, Cooking, Mining, Jewelcrafting) with new Cataclsym recipes.
 Updated events: Brewfest and Love is in the Air.
 Reorganized Companions, Mounts and Tabard pages. All new Companions, Mounts and Tabards added.
 New collection page - Transformation items.
-Converted all PvP prices into the new Honor Point system. New PvP items added.
+Converted all PvP prices into the new Honor Point system. New PvP items added. (not finished yet)
 Converted all Badge and Emblem gear into the new Justice Point system.
-Many minor fixes and additions
-Lag, add your changes to the list
+Tons of minor fixes and additions
+
+v5.11.07
+Added support for Atlas 1.17.2
 
 v5.11.06
-Fixed the query server bug
+Fixed the query button bug
+Fixed the options menu bug
 
 v5.11.05
 Compatible with 4.0

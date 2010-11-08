@@ -32,6 +32,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Stratholme - The Gauntlet
 ---- The Stockade
 ---- The Deadmines: Entrance
+---- The Deadmines
 ---- Uldaman
 ---- Wailing Caverns
 ---- Zul'Farrak
@@ -4183,6 +4184,136 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};]]--
+
+
+		---------------------
+		--- The Deadmines ---
+		---------------------
+
+	AtlasLoot_Data["DeadminesGlubtok"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
+				{ 3, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
+				{ 4, 5194, "", "=q3=Taskmaster Axe", "=ds=#h2#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
+				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};
+				{ 19, 63471, "", "=q3=Vest of the Curious Visitor", "=ds=#s5#, #a2#", ""};
+				{ 20, 63470, "", "=q3=Missing Diplomat's Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 21, 65163, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
+			};
+		};
+		info = {
+			name = "Glubtok",
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesGearbreaker"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 5199, "", "=q3=Smelting Pants", "=ds=#s11#, #a2#", "" };
+				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
+				{ 4, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
+				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
+				{ 19, 63476, "", "=q3=Gearbreaker's Bindings", "=ds=#s8#, #a4#", ""};
+				{ 20, 63474, "", "=q3=Gear-Marked Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 21, 65164, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", ""};
+			};
+		};
+		info = {
+			name = "Gearbreaker",
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesFoeReaper"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1937, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", "", };
+				{ 3, 5187, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
+				{ 4, 5201, "", "=q3=Emberstone Staff", "=ds=#w9#", "" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 65166, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", ""};
+				{ 18, 65165, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
+				{ 19, 65167, "", "=q3=Emberstone Staff", "=ds=#w9#", ""};
+			};
+		};
+		info = {
+			name = "Foe Reaper",
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesRipsnarl"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", "", };
+				{ 3, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
+				{ 4, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 65169, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", ""};
+				{ 18, 65170, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
+				{ 19, 65168, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
+			};
+		};
+		info = {
+			name = "Ripsnarl",
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesCookie"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "" };
+				{ 3, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "" };
+				{ 4, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
+				{ 5, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", };
+				{ 6, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 65177, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", ""};
+				{ 18, 65174, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", ""};
+				{ 19, 65173, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
+				{ 20, 65171, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", ""};
+				{ 21, 65172, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Cookie"],
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesVanessa"] = {
+		["Normal"] = {
+			{
+				{ 1, 63484, "", "=q3=Armbands of Exiled Architects", "=ds=#s8#, #a1#", "" };
+				{ 2, 63482, "", "=q3=Daughter's Hands", "=ds=#s9#, #a1#", "" };
+				{ 3, 63485, "", "=q3=Cowl of Rebellion", "=ds=#s1#, #a2#", "" };
+				{ 4, 65178, "", "=q3=VanCleef's Boots", "=ds=#s12#, #a2#", "" };
+				{ 5, 63479, "", "=q3=Bracers of Some Consequence", "=ds=#s8#, #a3#", "" };
+				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
+				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
+				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
+				{ 9, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
+				{ 10, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
+				{ 11, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
+			};
+		};
+		info = {
+			name = "Vanessa VanCleef",
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
 
 		---------------
 		--- Uldaman ---
