@@ -25,6 +25,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 ---- Elemental Invasion
 ---- Gurubashi Arena Booty Run
 ---- Stranglethorn Fishing Extravaganza
+--- One-Time Events
+---- Cataclysm World Event
 --- Triggered Events
 ---- Abyssal Council
 ---- Ethereum Prison
@@ -1067,6 +1069,49 @@ local moduleName = "AtlasLoot_WorldEvents"
 			module = moduleName, menu = "WORLDEVENTMENU"
 		};
 	};
+
+	-----------------------
+	--- One-Time Events ---
+	-----------------------
+
+		-----------------------------
+		--- Cataclysm World Event ---
+		-----------------------------
+
+	AtlasLoot_Data["ElementalUnrest"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=Flamelash", ""};
+				{ 2, 53504, "", "=q4=Flamewalker's Treads", "=ds=#s12#, #a2#"};
+				{ 3, 53505, "", "=q4=Salamander Skin", "=ds=#s5#, #a4#"};
+				{ 4, 53502, "", "=q4=Flamelash Amulet", "=ds=#s2#"};
+				{ 5, 53503, "", "=q4=Pendant of Burning Spirits", "=ds=#s2#"};
+				{ 6, 53501, "", "=q4=Sulfuron's Favor", "=ds=#s13#"};
+				{ 8, 0, "INV_Box_01", "=q6=Theradras", ""};
+				{ 9, 53497, "", "=q4=Zaetar's Deathshroud", "=ds=#s4#"};
+				{ 10, 53498, "", "=q4=Earth Bride's Gown", "=ds=#s5#, #a1#"};
+				{ 11, 53500, "", "=q4=Tectonic Plate", "=ds=#s5#, #a4#"};
+				{ 12, 53499, "", "=q4=Amulet of the Centauri", "=ds=#s2#"};
+				{ 13, 53496, "", "=q4=Barrier of the Earth Princess", "=ds=#w8#"};
+				{ 16, 0, "INV_Box_01", "=q6=Ghaz'rilla", ""};
+				{ 17, 53493, "", "=q4=Sacrificial Mail", "=ds=#s11#, #a3#"};
+				{ 18, 53491, "", "=q4=Twilight Offering Bands", "=ds=#s8#, #a4#"};
+				{ 19, 53494, "", "=q4=Girdle of Oblation", "=ds=#s10#, #a4#"};
+				{ 20, 53495, "", "=q4=Old God's Blessing", "=ds=#s13#"};
+				{ 21, 53492, "", "=q4=Ring of the Three-Headed Beast", "=ds=#s13#"};
+				{ 23, 0, "INV_Box_01", "=q6=Sarsarun", ""};
+				{ 24, 53506, "", "=q4=Cloak of Mocking Winds", "=ds=#s4#"};
+ 				{ 25, 53507, "", "=q4=Sandfury Sandals", "=ds=#s12#, #a1#"};
+				{ 26, 53508, "", "=q4=Pulmonary Casing", "=ds=#s5#, #a2#"};
+				{ 27, 53509, "", "=q4=Amulet of the Evil Winds", "=ds=#s2#"};
+			};
+		};
+		info = {
+			name = "Elemental Unrest",
+			module = moduleName, menu = "WORLDEVENTMENU"
+		};
+	};
+
 
 	------------------------
 	--- Triggered Events ---

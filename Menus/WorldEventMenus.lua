@@ -28,6 +28,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 25, "ElementalInvasion", "INV_DataCrystal03", "=ds="..AL["Elemental Invasion"], "=q5="..AL["Various Locations"]};
 				{ 26, "FishingExtravaganza", "inv_misc_fish_06", "=ds="..AL["Stranglethorn Fishing Extravaganza"], "=q5="..BabbleZone["Stranglethorn Vale"]};
 				{ 29, "ETHEREUMMENU", "INV_Misc_PunchCards_Prismatic", "=ds="..AL["Ethereum Prison"], ""};
+				{ 30, "ElementalUnrest", "INV_Misc_PunchCards_Prismatic", "=ds=Elemental Unrest", "=q5=Cataclysm Pre-Event"};
 			};
 		};
 		info = {
