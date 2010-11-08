@@ -25,6 +25,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 22, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 23, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 24, "T11SET", "inv_chest_plate_26", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
+				{ 26, "JusticePoints", "inv_chest_plate_26", "=ds=Justice Points Test Menu", "=q5="..AL["Cataclysm"]};
 			};
 		};
 		info = {
