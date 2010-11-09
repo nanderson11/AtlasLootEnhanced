@@ -244,6 +244,8 @@ if AL then
 	-- Sets/Collections Menu
 	-- AL["Sets"] = true;
 	-- AL["Set"] = true;
+	AL["Justice Points"] = "Gerechtigkeitspunkte";
+	AL["Valor Points"] = "Tapferkeitspunkte";
 	AL["Badge of Justice"] = "Abzeichen der Gerechtigkeit";
 	AL["Emblem Rewards"] = "Belohnungen für Embleme";
 	AL["Emblem of Valor"] = "Emblem der Ehre";
@@ -753,6 +755,7 @@ if AL then
 	AL["Worldbreaker"] = "Weltenbrecher";
 
 	-- Battleground Brackets
+	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
 	AL["Misc. Rewards"] = "Diverses";
 	AL["Level 10-19 Rewards"] = "Belohnungen (Stufe 10-19)";
