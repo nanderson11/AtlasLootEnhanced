@@ -7049,7 +7049,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = AL["PvP Weapons"].." "..AL["Level 60"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 
@@ -7144,7 +7144,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = AL["PvP Accessories"].." "..AL["Level 60"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 

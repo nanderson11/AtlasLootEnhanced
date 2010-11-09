@@ -257,6 +257,8 @@ if AL then
 	-- Sets/Collections Menu
 	AL["Sets"] = true;
 	AL["Set"] = true;
+	AL["Justice Points"] = true;
+	AL["Valor Points"] = true;
 	AL["Badge of Justice"] = true;
 	AL["Emblem Rewards"] = true;
 	AL["Emblem of Valor"] = true;
@@ -766,6 +768,7 @@ if AL then
 	AL["Worldbreaker"] = true;
 
 	-- Battleground Brackets
+	AL["Old PvP Rewards"] = true;
 	AL["BG/Open PvP Rewards"] = true;
 	AL["Misc. Rewards"] = true;
 	AL["Level 10-19 Rewards"] = true;

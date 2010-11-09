@@ -7,25 +7,26 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Emblem Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 3, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Badge of Justice"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
-				{ 5, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-				{ 6, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
-				{ 7, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..AL["Mounts"], ""};
-				{ 8, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Companions"], ""};
-				{ 9, "TABARDMENU", "inv_chest_cloth_30", "=ds="..AL["Tabards"], ""};
-				{ 10, "TransformationItems", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
-				{ 11, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
-				{ 13, "Heirloom", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"]};
-				{ 14, "Heirloom85", "inv_helmet_04", "=ds="..AL["Heirloom"], "=q5="..AL["Level 85"]};
+				{ 2, "ValorPoints", "inv_misc_cape_cataclysm_tank_d_01", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 3, "JusticePoints", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 5, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 6, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
+				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
+				{ 10, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..AL["Mounts"], ""};
+				{ 11, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Companions"], ""};
+				{ 12, "TABARDMENU", "inv_chest_cloth_30", "=ds="..AL["Tabards"], ""};
+				{ 13, "TransformationItems", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
+				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
-				{ 19, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Set"], "=q5="..AL["Classic WoW"]};
-				{ 20, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Set"], "=q5="..AL["Burning Crusade"]};
-				{ 21, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 22, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 23, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 24, "T11SET", "inv_chest_plate_26", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
-				{ 26, "JusticePoints", "inv_chest_plate_26", "=ds=Justice Points Test Menu", "=q5="..AL["Cataclysm"]};
+				{ 19, "Heirloom", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"]};
+				{ 20, "Heirloom85", "inv_helmet_04", "=ds="..AL["Heirloom"], "=q5="..AL["Level 85"]};
+				{ 22, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Set"], "=q5="..AL["Classic WoW"]};
+				{ 23, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Set"], "=q5="..AL["Burning Crusade"]};
+				{ 24, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 25, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 26, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 27, "T11SET", "inv_chest_plate_26", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
 			};
 		};
 		info = {

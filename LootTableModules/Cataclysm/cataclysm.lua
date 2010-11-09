@@ -1886,20 +1886,56 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-		--------------------------------
-		--- Level 85 - Non Set Epics ---
-		--------------------------------
-
-	AtlasLoot_Data["PVP85NonSet"] = {
+		----------------------------
+		--- Level 85 Accessories ---
+		----------------------------
+--- UNDER CONSTRUCTION
+	AtlasLoot_Data["PVP85Accessories"] = {
 		["Normal"] = {
 			{
-				{ 1, 60647, "", "=q4=Vicious Gladiator's Band of Accuracy", "=ds=", "1250 #conquest#"};
-				{ 2, 60645, "", "=q4=Vicious Gladiator's Band of Cruelty", "=ds=", "1250 #conquest#"};
-				{ 3, 60649, "", "=q4=Vicious Gladiator's Band of Dominance", "=ds=", "1250 #conquest#"};
-				{ 5, 60651, "", "=q4=Vicious Gladiator's Signet of Accuracy", "=ds=", "1250 #conquest#"};
-				{ 4, 60650, "", "=q4=Vicious Gladiator's Signet of Cruelty", "=ds=", "1250 #conquest#"};
-				{ 6, 60658, "", "=q4=Vicious Gladiator's Ring of Accuracy", "=ds=", "1250 #conquest#"};
-				{ 7, 60659, "", "=q4=Vicious Gladiator's Ring of Cruelty", "=ds=", "1250 #conquest#"};
+    			{ 1, 60783, "", "=q4=Vicious Gladiator's Cape of Cruelty", "=ds=#s4#", "1250 #conquest#" },
+  				{ 2, 60779, "", "=q4=Vicious Gladiator's Cape of Prowess", "=ds=#s4#", "1250 #conquest#" },
+    			{ 3, 60776, "", "=q4=Vicious Gladiator's Cloak of Alacrity", "=ds=#s4#", "1250 #conquest#" },
+    			{ 4, 60782, "", "=q4=Vicious Gladiator's Cloak of Conquest", "=ds=#s4#", "1250 #conquest#" },
+				{ 5, 60784, "", "=q4=Vicious Gladiator's Cloak of Dominance", "=ds=#s4#", "1250 #conquest#" },
+    			{ 6, 60785, "", "=q4=Vicious Gladiator's Cloak of Dominance", "=ds=#s4#", "1250 #conquest#" },
+    			{ 7, 60778, "", "=q4=Vicious Gladiator's Cloak of Prowess", "=ds=#s4#", "1250 #conquest#" },
+    			{ 8, 60786, "", "=q4=Vicious Gladiator's Drape of Diffusion", "=ds=#s4#", "1250 #conquest#" },
+    			{ 9, 60788, "", "=q4=Vicious Gladiator's Drape of Meditation", "=ds=#s4#", "1250 #conquest#" },
+    			{ 10, 60787, "", "=q4=Vicious Gladiator's Drape of Prowess", "=ds=#s4#", "1250 #conquest#" },
+				{
+   					{ 12, 60798, "", "=q4=Vicious Gladiator's Medallion of Command", "=ds=#s14#", "1650 #conquest#" },
+   					{ 12, 60798, "", "=q4=Vicious Gladiator's Medallion of Command", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{
+   					{ 13, 60801, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+   					{ 13, 60794, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{
+   					{ 14, 60806, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
+   					{ 14, 60799, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{
+   					{ 15, 60807, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+   					{ 15, 60800, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{ 16, 60673, "", "=q4=Vicious Gladiator's Choker of Accuracy", "=ds=#s2#", "1250 #conquest#" },
+				{ 17, 60670, "", "=q4=Vicious Gladiator's Choker of Proficiency", "=ds=#s2#", "1250 #conquest#" },
+    			{ 18, 60668, "", "=q4=Vicious Gladiator's Necklace of Prowess", "=ds=#s2#", "1250 #conquest#" },
+    			{ 19, 60669, "", "=q4=Vicious Gladiator's Necklace of Proficiency", "=ds=#s2#", "1250 #conquest#" },
+    			{ 20, 60662, "", "=q4=Vicious Gladiator's Pendant of Alacrity", "=ds=#s2#", "1250 #conquest#" },
+    			{ 21, 60666, "", "=q4=Vicious Gladiator's Pendant of Conquest", "=ds=#s2#", "1250 #conquest#" },
+    			{ 22, 60661, "", "=q4=Vicious Gladiator's Pendant of Diffusion", "=ds=#s2#", "1250 #conquest#" },
+    			{ 23, 60664, "", "=q4=Vicious Gladiator's Pendant of Meditation", "=ds=#s2#", "1250 #conquest#" },
+				{ 25, 60647, "", "=q4=Vicious Gladiator's Band of Accuracy", "=ds=#s13#", "1250 #conquest#"};
+				{ 26, 60645, "", "=q4=Vicious Gladiator's Band of Cruelty", "=ds=#s13#", "1250 #conquest#"};
+				{ 27, 60649, "", "=q4=Vicious Gladiator's Band of Dominance", "=ds=#s13#", "1250 #conquest#"};
+				{ 28, 60651, "", "=q4=Vicious Gladiator's Signet of Accuracy", "=ds=#s13#", "1250 #conquest#"};
+				{ 29, 60650, "", "=q4=Vicious Gladiator's Signet of Cruelty", "=ds=#s13#", "1250 #conquest#"};
+				{ 30, 60658, "", "=q4=Vicious Gladiator's Ring of Accuracy", "=ds=#s13#", "1250 #conquest#"};
+				{ 31, 60659, "", "=q4=Vicious Gladiator's Ring of Cruelty", "=ds=#s13#", "1250 #conquest#"};
+			};
+			{
 				{ 16, 64706, "", "=q3=Bloodthirsty Gladiator's Cape of Cruelty", "=ds=", "1250 #honor#"};
 				{ 17, 64707, "", "=q3=Bloodthirsty Gladiator's Cape of Prowess", "=ds=", "1250 #honor#"};
 				{ 18, 64718, "", "=q3=Bloodthirsty Gladiator's Cloak of Alacrity", "=ds=", "1250 #honor#"};
@@ -1914,8 +1950,20 @@ local moduleName = "AtlasLootCataclysm"
 				{ 28, 64833, "", "=q3=Bloodthirsty Gladiator's Signet of Cruelty", "=ds=", "1250 #honor#"};
 				{ 29, 64851, "", "=q3=Bloodthirsty Gladiator's Ring of Accuracy", "=ds=", "1250 #honor#"};
 				{ 30, 64852, "", "=q3=Bloodthirsty Gladiator's Ring of Cruelty", "=ds=", "1250 #honor#"};
-				extraText = ": "..AL["Accessories"];
 			};
+		};
+		info = {
+			name = AL["PvP Accessories"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
+		--------------------------------
+		--- Level 85 - Non Set Epics ---
+		--------------------------------
+
+	AtlasLoot_Data["PVP85NonSet"] = {
+		["Normal"] = {
 			{
 				{ 1, 60628, "", "=q4=Vicious Gladiator's Cuffs of Accuracy", "=ds=", "1250 #conquest#"};
 				{ 2, 60626, "", "=q4=Vicious Gladiator's Cord of Accuracy", "=ds=", "1650 #conquest#"};
@@ -2021,6 +2069,53 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["PvP Non-Set Epics"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
+		--------------------------
+		--- Level 85 - Weapons ---
+		--------------------------
+---UNFINISHED
+	AtlasLoot_Data["PVP85Weapons"] = {
+		["Normal"] = {
+			{
+    			{ 1, 61326, "", "=q4=Vicious Gladiator's Decapitator", "=ds=Two-Handed #w1#s, Weapon", "3400 #conquest#" },
+    			{ 2, 61339, "", "=q4=Vicious Gladiator's Bonegrinder", "=ds=Two-Handed #w6#s, Weapon", "3400 #conquest#" },
+    			{ 3, 61340, "", "=q4=Vicious Gladiator's Pike", "=ds=#w7#s, Weapon", "3400 #conquest#" },
+    			{ 4, 61341, "", "=q4=Vicious Gladiator's Battle Staff", "=ds=Staves, Weapon", "3400 #conquest#" },
+    			{ 5, 61342, "", "=q4=Vicious Gladiator's Energy Staff", "=ds=Staves, Weapon", "3400 #conquest#" },
+    			{ 6, 61346, "", "=q4=Vicious Gladiator's Greatsword", "=ds=Two-Handed #w10#s, Weapon", "3400 #conquest#" },
+    			{ 7, 61333, "", "=q4=Vicious Gladiator's Right Render", "=ds=#w13#s, Weapon", "2450 #conquest#" },
+    			{ 8, 61330, "", "=q4=Vicious Gladiator's Right Ripper", "=ds=#w13#s, Weapon", "2450 #conquest#" },
+    			{ 9, 61332, "", "=q4=Vicious Gladiator's Left Render", "=ds=#w13#s, Weapon", "950 #conquest#" },
+    			{ 10, 61331, "", "=q4=Vicious Gladiator's Left Ripper", "=ds=#w13#s, Weapon", "950 #conquest#" },
+    			{ 11, 61328, "", "=q4=Vicious Gladiator's Shiv", "=ds=#w4#s, Weapon", "950 #conquest#" },
+    			{ 12, 61345, "", "=q4=Vicious Gladiator's Quickblade", "=ds=One-Handed #w10#s, Weapon", "2450 #conquest#" },
+    			{ 13, 61344, "", "=q4=Vicious Gladiator's Slicer", "=ds=One-Handed #w10#s, Weapon", "2450 #conquest#" },
+    			{ 14, 61324, "", "=q4=Vicious Gladiator's Cleaver", "=ds=One-Handed #w1#s, Weapon", "2450 #conquest#" },
+    			{ 15, 61327, "", "=q4=Vicious Gladiator's Shanker", "=ds=#w4#s, Weapon", "2450 #conquest#" },
+    			{ 16, 61336, "", "=q4=Vicious Gladiator's Bonecracker", "=ds=One-Handed #w6#s, Weapon", "2450 #conquest#" },
+    			{ 17, 61335, "", "=q4=Vicious Gladiator's Pummeler", "=ds=One-Handed #w6#s, Weapon", "2450 #conquest#" },
+    			{ 18, 61325, "", "=q4=Vicious Gladiator's Hacker", "=ds=One-Handed #w1#s, Weapon", "2450 #conquest#" },
+    			{ 19, 61348, "", "=q4=Vicious Gladiator's Hatchet", "=ds=#w11#, Weapon", "700 #conquest#" },
+    			{ 20, 61358, "", "=q4=Vicious Gladiator's Reprieve", "=ds=Held In Off-hand, #m20#", "950 #conquest#" },
+    			{ 21, 61357, "", "=q4=Vicious Gladiator's Endgame", "=ds=Held In Off-hand, #m20#", "950 #conquest#" },
+    			{ 21, 61361, "", "=q4=Vicious Gladiator's Redoubt", "=ds=#h4#, #w8#s", "950 #conquest#" },
+    			{ 22, 61360, "", "=q4=Vicious Gladiator's Barrier", "=ds=#h4#, #w8#s", "950 #conquest#" },
+    			{ 23, 61359, "", "=q4=Vicious Gladiator's Shield Wall", "=ds=#h4#, #w8#s", "950 #conquest#" },
+    			{ 24, 61347, "", "=q4=Vicious Gladiator's War Edge", "=ds=#w11#, Weapon", "700 #conquest#" },
+    			{ 25, 61353, "", "=q4=Vicious Gladiator's Longbow", "=ds=#w2#s, Weapon", "3400 #conquest#" },
+    			{ 26, 61354, "", "=q4=Vicious Gladiator's Rifle", "=ds=#w5#s, Weapon", "3400 #conquest#" },
+    			{ 27, 61355, "", "=q4=Vicious Gladiator's Heavy Crossbow", "=ds=#w3#s, Weapon", "3400 #conquest#" },
+    			{ 28, 61329, "", "=q4=Vicious Gladiator's Spellblade", "=ds=#w4#s, Weapon", "2450 #conquest#" },
+    			{ 29, 61338, "", "=q4=Vicious Gladiator's Gavel", "=ds=One-Handed #w6#s, Weapon", "2450 #conquest#" },
+    			{ 30, 61351, "", "=q4=Vicious Gladiator's Baton of Light", "=ds=#w12#s, Weapon", "700 #conquest#" },
+    			{ 31, 61350, "", "=q4=Vicious Gladiator's Touch of Defeat", "=ds=#w12#s, Weapon", "700 #conquest#" },
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"], "=q5="..AL["Level 85"],
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
@@ -3649,11 +3744,38 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["ValorPoints"] = {
 		["Normal"] = {
 			{
-			
+    			{ 1, 58194, "", "=q4=Heavenly Breeze", "=ds=#s4#", "1250 #valor#" },
+    			{ 2, 58190, "", "=q4=Floating Web", "=ds=#s4#", "1250 #valor#" },
+    			{ 3, 58193, "", "=q4=Haunt of Flies", "=ds=#s4#", "1250 #valor#" },
+    			{ 4, 58192, "", "=q4=Gray Hair Cloak", "=ds=#s4#", "1250 #valor#" },
+    			{ 5, 58191, "", "=q4=Viewless Wings", "=ds=#s4#", "1250 #valor#" },
+    			{ 7, 58486, "", "=q4=Slippers of Moving Waters", "=ds=#s12#, #a1#", "1650 #valor#" },
+    			{ 8, 58485, "", "=q4=Melodious Slippers", "=ds=#s12#, #a1#", "1650 #valor#" },
+    			{ 9, 58484, "", "=q4=Fading Violet Sandals", "=ds=#s12#, #a2#", "1650 #valor#" },
+    			{ 10, 58482, "", "=q4=Treads of Fleeting Joy", "=ds=#s12#, #a2#", "1650 #valor#" },
+    			{ 11, 58481, "", "=q4=Boots of the Perilous Seas", "=ds=#s12#, #a3#", "1650 #valor#" },
+    			{ 12, 58199, "", "=q4=Moccasins of Verdurous Glooms", "=ds=#s12#, #a3#", "1650 #valor#" },
+    			{ 13, 58198, "", "=q4=Eternal Pathfinders", "=ds=#s12#, #a4#", "1650 #valor#" },
+    			{ 14, 58197, "", "=q4=Rock Furrow Boots", "=ds=#s12#, #a4#", "1650 #valor#" },
+    			{ 15, 58195, "", "=q4=Woe Breeder's Boots", "=ds=#s12#, #a4#", "1650 #valor#" },
+    			{ 16, 58185, "", "=q4=Band of Bees", "=ds=#s13#", "1250 #valor#" },
+    			{ 17, 58188, "", "=q4=Band of Secret Names", "=ds=#s13#", "1250 #valor#" },
+    			{ 18, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "1650 #valor#" },
+    			{ 19, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "1250 #valor#" },
+    			{ 20, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "1250 #valor#" },
+    			{ 21, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "1650 #valor#" },
+    			{ 22, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "1650 #valor#" },
+    			{ 23, 58180, "", "=q4=License to Slay", "=ds=#s14#", "1650 #valor#" },
+    			{ 24, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "1650 #valor#" },
+    			{ 26, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "700 #valor#" },
+    			{ 27, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "700 #valor#" },
+    			{ 28, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "700 #valor#" },
+    			{ 29, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "700 #valor#" },
+    			{ 30, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "700 #valor#" },
 			};
 		};
 		info = {
-			name = "Justice Points",
+			name = "Valor Points",
 			module = moduleName, menu = "SETMENU",
 		};
 	}

@@ -4791,7 +4791,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = AL["PvP Accessories"].." "..AL["Level 70"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 
@@ -4828,7 +4828,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = AL["PvP Accessories"].." "..AL["Level 70"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 
@@ -4892,7 +4892,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = AL["PvP Non-Set Epics"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 
@@ -5555,7 +5555,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = AL["PvP Weapons"].." "..AL["Level 70"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 

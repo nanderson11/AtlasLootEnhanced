@@ -8829,11 +8829,11 @@ local moduleName = "AtlasLootWotLK"
 		};
 	}
 
-		------------------------------
-		--- Level 80 Epic Non-Sets ---
-		------------------------------
+		----------------------------
+		--- Level 80 Accessories ---
+		----------------------------
 
-	AtlasLoot_Data["PVP80NonSet"] = {
+	AtlasLoot_Data["PVP80Accessories"] = {
 		["Normal"] = {
 			{
 				{ 1, 51334, "", "=q4=Wrathful Gladiator's Cloak of Ascendancy", "=ds=", "725 #honor#"};
@@ -8860,7 +8860,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 27, 42136, "", "=q4=Battlemaster's Rage", "=ds=", "630 #honor#"};
 				{ 28, 42137, "", "=q4=Battlemaster's Ruination", "=ds=", "630 #honor#"};
 				{ 29, 42135, "", "=q4=Battlemaster's Vivacity", "=ds=", "630 #honor#"};
-				extraText = ": "..AL["Accessories"];
 			};
 			{
 				{ 1, 42078, "", "=q4=Relentless Gladiator's Cloak of Ascendancy", "=ds=", "485 #honor#"};
@@ -8880,8 +8879,20 @@ local moduleName = "AtlasLootWotLK"
 				{ 21, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=", "485 #honor#"};
 				{ 22, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=", "485 #honor#"};
 				{ 23, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=", "485 #honor#"};
-				extraText = ": "..AL["Accessories"];
 			};
+		};
+		info = {
+			name = AL["PvP Accessories"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
+		------------------------------
+		--- Level 80 Epic Non-Sets ---
+		------------------------------
+
+	AtlasLoot_Data["PVP80NonSet"] = {
+		["Normal"] = {
 			{ -- Cloth
 				{ 1, 51329, "", "=q4=Wrathful Gladiator's Cuffs of Dominance", "=ds=", "600 #honor#"};
 				{ 2, 51327, "", "=q4=Wrathful Gladiator's Cord of Dominance", "=ds=", "945 #honor# #reqrating# 1300"};
@@ -9185,7 +9196,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 			{
 				{ 1, 44907, "", "=q4=Titan-Forged Leather Helm of Dominance", "=ds=#s1#, #a2#", "490 #honor#" };
-				{ 2, 51574, "", "=q4=Titan-Forged Leather Spaulders of Dominance", "=ds=#s3#, #a2#", "490 #honor#" };
+				{ 2, 51574, "", "=q4=Titan-Forged Spaulders of Dominance", "=ds=#s3#, #a2#", "490 #honor#" };
 				{ 3, 46064, "", "=q4=Titan-Forged Leather Chestguard of Dominance", "=ds=#s5#, #a2#", "490 #honor#" };
 				{ 4, 48974, "", "=q4=Titan-Forged Armwraps of Dominance", "=ds=#s8#, #a2#", "280 #honor#" };
 				{ 5, 46076, "", "=q4=Titan-Forged Belt of Dominance", "=ds=#s10#, #a2#", "280 #honor#" };
@@ -9199,7 +9210,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 14, 48987, "", "=q4=Titan-Forged Leather Legguards of Salvation", "=ds=#s11#, #a2#", "490 #honor#" };
 				{ 15, 44892, "", "=q4=Titan-Forged Boots of Salvation", "=ds=#s12#, #a2#", "280 #honor#" };
 				{ 16, 44908, "", "=q4=Titan-Forged Leather Helm of Triumph", "=ds=#s1#, #a2#", "490 #honor#" };
-				{ 17, 51576, "", "=q4=Titan-Forged Leather Spaulders of Triumph", "=ds=#s3#, #a2#", "490 #honor#" };
+				{ 17, 51576, "", "=q4=Titan-Forged Spaulders of Triumph", "=ds=#s3#, #a2#", "490 #honor#" };
 				{ 18, 46062, "", "=q4=Titan-Forged Leather Tunic of Triumph", "=ds=#s5#, #a2#", "490 #honor#" };
 				{ 19, 48976, "", "=q4=Titan-Forged Armwraps of Triumph", "=ds=#s8#, #a2#", "280 #honor#" };
 				{ 20, 46078, "", "=q4=Titan-Forged Belt of Triumph", "=ds=#s10#, #a2#", "280 #honor#" };
@@ -9240,7 +9251,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 48992, "", "=q4=Titan-Forged Plate Legguards of Salvation", "=ds=#s11#, #a4#", "490 #honor#" };
 				{ 8, 44894, "", "=q4=Titan-Forged Greaves of Salvation", "=ds=#s12#, #a4#", "280 #honor#" };
 				{ 17, 44902, "", "=q4=Titan-Forged Plate Helm of Triumph", "=ds=#s1#, #a4#", "490 #honor#" };
-				{ 18, 51580, "", "=q4=Titan-Forged Plate Shoulderplates of Triumph", "=ds=#s3#, #a4#", "490 #honor#" };
+				{ 18, 51580, "", "=q4=Titan-Forged Shoulderplates of Triumph", "=ds=#s3#, #a4#", "490 #honor#" };
 				{ 19, 46058, "", "=q4=Titan-Forged Breastplate of Triumph", "=ds=#s5#, #a4#", "490 #honor#" };
 				{ 20, 48978, "", "=q4=Titan-Forged Bracers of Triumph", "=ds=#s8#, #a4#", "280 #honor#" };
 				{ 21, 46072, "", "=q4=Titan-Forged Girdle of Triumph", "=ds=#s10#, #a4#", "280 #honor#" };
@@ -9254,7 +9265,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 44084, "", "=q3=Forlorn Starflare Diamond", "=ds=#e7#", "24 #honor#"};
 				{ 4, 44082, "", "=q3=Impassive Starflare Diamond", "=ds=#e7#", "24 #honor#"};
 				{ 5, 44076, "", "=q3=Swift Starflare Diamond", "=ds=#e7#", "24 #honor#"};
-				{ 6, 44078, "", "=q3=Swift Starflare Diamond", "=ds=#e7#", "24 #honor#"};
+				{ 6, 44078, "", "=q3=Tireless Starflare Diamond", "=ds=#e7#", "24 #honor#"};
 				{ 7, 44087, "", "=q3=Persistent Earthshatter Diamond", "=ds=#e7#", "24 #honor#"};
 				{ 8, 44088, "", "=q3=Powerful Earthshatter Diamond", "=ds=#e7#", "24 #honor#"};
 				{ 9, 44089, "", "=q3=Trenchant Earthshatter Diamond", "=ds=#e7#", "24 #honor#"};
@@ -9287,7 +9298,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "2175 #honor#"};
 				{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "2725 #honor#"};
 				{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "2725 #honor#"};
-				{ 12, 44115, "", "=q7=Wintergrasp Commendation", "=ds=", "30 #wintergrasp# / 9 #wintergraspmark#"};
 				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "2175 #honor#"};
 				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "2175 #honor#"};
 				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "3500 #honor#"};
