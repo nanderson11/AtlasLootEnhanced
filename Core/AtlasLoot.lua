@@ -578,6 +578,15 @@ function AtlasLoot:FormatDataID(dataID)
 	--dataID = gsub(dataID, "#(%d+)", "")
 	--dataID = gsub(dataID, "#last", "")
 	dataID = gsub(dataID, "#(.+)", "")
+	if string.find(dataID, "MENU") or (AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.menu) then
+		if AtlasLoot_Data[dataID].info.Modules then
+			for k,v in ipairs(AtlasLoot_Data[dataID].info.Modules) do
+				self:LoadModule(v)
+			end
+		else
+			self:LoadModule("all")
+		end
+	end
 	if not AtlasLoot_Data[dataID] then
 		local tLocation = self:GetTableLoaction(dataID)
 		if tLocation and AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2] then
@@ -588,6 +597,7 @@ function AtlasLoot:FormatDataID(dataID)
 			return
 		end
 	end
+	
 	if last then
 		local lootTableType = AtlasLoot:GetLootTableType(dataID)
 		instanceTableIndex = #AtlasLoot_Data[dataID][lootTableType]
@@ -1166,26 +1176,31 @@ end
 -- Module Loader
 -----------------------------
 
+local allLoaded = false
 --- Loads a AtlasLoot module
 -- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCataclysm, AtlasLootCrafting, AtlasLootWorldEvents, all
 -- @usage AtlasLoot:LoadModule(module)
 function AtlasLoot:LoadModule(module)
-	if not module then return end
+	if not module or allLoaded then return end
 	for k,v in ipairs(self.Modules) do
-		if v[1] == module or module == "all" then
-			local name, title, notes, enabled, loadable, reason, security = GetAddOnInfo(v[2])
-			if reason then
-				self.Modules[k][4] = reason
-			else
-				self.Modules[k][4] = ""
-				if not IsAddOnLoaded(v[2]) then
-					LoadAddOn(v[2])
-					self.Modules[k][3] = true
+		if not self.Modules[k][3] then
+			if v[1] == module or module == "all" then
+				--local name, title, notes, enabled, loadable, reason, security = GetAddOnInfo(v[2])
+				if reason then
+					self.Modules[k][4] = reason
+				else
+					self.Modules[k][4] = ""
+					if not IsAddOnLoaded(v[2]) then
+						LoadAddOn(v[2])
+						self.Modules[k][3] = true
+					end
 				end
 			end
 		end
 	end
-	collectgarbage("collect")
+	if module == "all" then
+		allLoaded = true
+	end
 end
 
 -- Module Enabler
