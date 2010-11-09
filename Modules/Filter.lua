@@ -282,6 +282,7 @@ function Filter:OnInitialize()
 	self:SetEnabledState(AtlasLoot:GetModuleEnabled(MODULENAME))
 	
 	AtlasLoot:AddTableFormatFunction(MODULENAME, self.FilterBySlot, getEnabledStatus)
+	AtlasLoot:RegisterOnProfileChanged(self.OnProfileChanged)
 	
 	for _, filterTable in pairs(FilterTable) do
 		for _, slot in ipairs(filterTable) do
@@ -292,6 +293,11 @@ function Filter:OnInitialize()
 			end
 		end
 	end
+	
+end
+
+function Filter:OnProfileChanged()
+	db = self.db.profile 
 end
 
 function Filter:OnEnable()

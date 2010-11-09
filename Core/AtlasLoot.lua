@@ -205,19 +205,25 @@ function AtlasLoot:OnInitialize()
 
 	if (self.db.profile.LoadAllLoDStartup == true) then
 		AtlasLoot:LoadModule("all")
-	else
-		collectgarbage("collect")
 	end
-
+	collectgarbage("collect")
     --if LibStub:GetLibrary("LibAboutPanel", true) then
         --LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
    -- end    
 end
 
-function AtlasLoot:OnProfileChanged(event, database, newProfileKey)
-   self:RefreshAtlasLootPanel()
-end
+do
+	local refreshProfile = {}
+	
+	function AtlasLoot:RegisterOnProfileChanged(func)
+		refreshProfile[#refreshProfile + 1] = func
+	end
 
+	function AtlasLoot:OnProfileChanged(event, database, newProfileKey)
+	   self:RefreshAtlasLootPanel()
+	end
+
+end
 -- Only a simple print function 
 function AtlasLoot:Print(...)
 	DEFAULT_CHAT_FRAME:AddMessage(...)

@@ -142,7 +142,7 @@ local function Init_ButtonList()
 		},
 		LoadModules = {
 			text = AL["Load Modules"],
-			func = AtlasLoot.LoadAllModules,
+			func = function() AtlasLoot:LoadModule("all") end,
 			order = 80,
 		},
 	}
@@ -272,6 +272,10 @@ do
 		numButtonsButtonList = numButtonsButtonList + 1
 	end
 	
+	--- Adds an button to the AtlasLoot Panel
+	-- @param name the name of the button (Not the displayed name)
+	-- @param info table with informations about the button
+	-- @usage AtlasLoot:PanelAddButton("TestButton", {name = "Test Button Loc", func = function() print("OnClick") end })
 	function AtlasLoot:PanelAddButton(name, info)
 		if not AtlasLoot.PanelButtonList then Init_ButtonList() end
 		if not AtlasLoot.PanelButtonList[name] then AtlasLoot.PanelButtonList[name] = {} end
