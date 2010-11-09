@@ -141,11 +141,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["PVP80NONSETEPICS"] = {
 		["Normal"] = {
 			{
-				{ 2, "PVP80NonSet#3", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "PVP80NonSet#5", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
+				{ 2, "PVP80NonSet#1", "INV_Boots_Cloth_12", "=ds="..BabbleInventory["Cloth"], ""};
+				{ 3, "PVP80NonSet#3", "INV_Boots_Plate_06", "=ds="..BabbleInventory["Mail"], ""};
 				{ 4, "PVP80ClassItems", "Spell_Frost_SummonWaterElemental", "=ds="..BabbleInventory["Relic"], "" };
-				{ 17, "PVP80NonSet#4", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "PVP80NonSet#6", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
+				{ 17, "PVP80NonSet#2", "INV_Boots_08", "=ds="..BabbleInventory["Leather"], ""};
+				{ 18, "PVP80NonSet#4", "INV_Boots_Plate_04", "=ds="..BabbleInventory["Plate"], ""};
 			};
 		};
 		info = {

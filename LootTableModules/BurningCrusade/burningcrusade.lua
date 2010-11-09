@@ -6276,7 +6276,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 3, 34924, "", "=q4=Gown of Spiritual Wonder", "=ds=#s5#", "520 #justice#", ""};
 				{ 4, 34917, "", "=q4=Shroud of the Lore`nial", "=ds=#s5#", "520 #justice#", ""};
 				{ 5, 34936, "", "=q4=Tormented Demonsoul Robes", "=ds=#s5#", "520 #justice#", ""};
-				{ 6, 33588, "", "=q4=Runed Spell-cuffs", "=ds=#s8#", "182 #justice#", ""};
+				{ 6, 33588, "", "=q4=Runed Spell-Cuffs", "=ds=#s8#", "182 #justice#", ""};
 				{ 7, 33589, "", "=q4=Wristguards of Tranquil Thought", "=ds=#s8#", "182 #justice#", ""};
 				{ 8, 34938, "", "=q4=Enslaved Doomguard Soulgrips", "=ds=#s9#", "390 #justice#", ""};
 				{ 9, 33587, "", "=q4=Light-Blessed Bonds", "=ds=#s9#", "312 #justice#", ""};
@@ -6331,9 +6331,9 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 3, 33552, "", "=q4=Pants of Splendid Recovery", "=ds=#s11#", "390 #justice#", ""};
 				{ 4, 34910, "", "=q4=Tameless Breeches", "=ds=#s11#", "520 #justice#", ""};
 				{ 5, 34928, "", "=q4=Trousers of the Scryers' Retainer", "=ds=#s11#", "520 #justice#", ""};
-				{ 6, 33538, "", "=q4=Shallow-grave Trousers", "=ds=#s11#", "390 #justice#", ""};
+				{ 6, 33538, "", "=q4=Shallow-Grave Trousers", "=ds=#s11#", "390 #justice#", ""};
 				{ 7, 33582, "", "=q4=Footwraps of Wild Encroachment", "=ds=#s12#", "312 #justice#", ""};
-				{ 8, 33577, "", "=q4=Moon-walkers", "=ds=#s12#", "312 #justice#", ""};
+				{ 8, 33577, "", "=q4=Moon-Walkers", "=ds=#s12#", "312 #justice#", ""};
 				{ 9, 33222, "", "=q4=Nyn'jah's Tabi Boots", "=ds=#s12#", "312 #justice#", ""};
 			};
 		};
@@ -6393,7 +6393,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 8, 34921, "", "=q4=Ecclesiastical Cuirass", "=ds=#s5#", "520 #justice#", ""};
 				{ 9, 34945, "", "=q4=Shattrath Protectorate's Breastplate", "=ds=#s5#", "520 #justice#", ""};
 				{ 10, 33516, "", "=q4=Bracers of the Ancient Phalanx", "=ds=#s8#, #a4#", "182 #justice#", ""};
-				{ 11, 33513, "", "=q4=Eternium Rage-shackles", "=ds=#s8#, #a4#", "182 #justice#", ""};
+				{ 11, 33513, "", "=q4=Eternium Rage-Shackles", "=ds=#s8#, #a4#", "182 #justice#", ""};
 				{ 12, 33520, "", "=q4=Vambraces of the Naaru", "=ds=#s8#, #a4#", "182 #justice#", ""};
 				{ 13, 33517, "", "=q4=Bonefist Gauntlets", "=ds=#s9#, #a4#", "312 #justice#", ""};
 				{ 14, 33512, "", "=q4=Furious Deathgrips", "=ds=#s9#, #a4#", "312 #justice#", ""};
@@ -6402,11 +6402,11 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 17, 34944, "", "=q4=Girdle of Seething Rage", "=ds=#s10#", "390 #justice#", ""};
 				{ 18, 34941, "", "=q4=Girdle of the Fearless", "=ds=#s10#", "390 #justice#", ""};
 				{ 19, 33524, "", "=q4=Girdle of the Protector", "=ds=#s10#, #a4#", "312 #justice#", ""};
-				{ 20, 33279, "", "=q4=Iron-tusk Girdle", "=ds=#s10#, #a4#", "312 #justice#", ""};
+				{ 20, 33279, "", "=q4=Iron-Tusk Girdle", "=ds=#s10#, #a4#", "312 #justice#", ""};
 				{ 21, 34923, "", "=q4=Waistguard of Reparation", "=ds=#s10#", "390 #justice#", ""};	
 			};
 			{
-				{ 1, 33501, "", "=q4=Bloodthirster's Greaves", "=ds=#s11#, #a4#", "390 #justice#", ""};
+				{ 1, 33501, "", "=q4=Bloodthirster's WarGreaves", "=ds=#s11#, #a4#", "390 #justice#", ""};
 				{ 2, 34922, "", "=q4=Greaves of Pacification", "=ds=#s11#", "520 #justice#", ""};
 				{ 3, 33518, "", "=q4=High Justicar's Legplates", "=ds=#s11#, #a4#", "390 #justice#", ""};
 				{ 4, 34946, "", "=q4=Inscribed Legplates of the Aldor", "=ds=#s11#", "520 #justice#", ""};
@@ -6437,7 +6437,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 9, 30780, "", "=q4=Inferno Hardened Gloves", "=ds=#a2#, #s9#", "104 #justice#", ""};
 				{ 10, 30778, "", "=q4=Inferno Hardened Leggings", "=ds=#a2#, #s11#", "156 #justice#", ""};
 				{ 11, 30779, "", "=q4=Inferno Hardened Boots", "=ds=#a2#, #s12#", "104 #justice#", ""};
-				{ 13, 29434, "", "=q4=Badge of Justice", "=ds=#m17#"};
 				{ 16, 0, "INV_Box_01", "=q6=#a3#", ""};
 				{ 17, 30773, "", "=q4=Inferno Forged Hauberk", "=ds=#a3#, #s5#", "156 #justice#", ""};
 				{ 18, 30774, "", "=q4=Inferno Forged Gloves", "=ds=#a3#, #s9#", "104 #justice#", ""};
@@ -6620,7 +6619,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 21, 34050, "", "=q4=Battlemaster's Perseverance", "=ds=#s14#", "390 #justice#", ""};
 				{ 22, 29383, "", "=q4=Bloodlust Brooch", "=ds=#s14#", "213 #justice#", ""};
 				{ 23, 29376, "", "=q4=Essence of the Martyr", "=ds=#s14#", "213 #justice#", ""};
-				{ 24, 29387, "", "=q4=Gnomeregan Auto-Blocker 600", "=ds=#s14#", "213 #justice#", ""};
+				{ 24, 29387, "", "=q4=Gnomeregan Auto-Dodger 600", "=ds=#s14#", "213 #justice#", ""};
 				{ 25, 29370, "", "=q4=Icon of the Silver Crescent", "=ds=#s14#", "213 #justice#", ""};
 				{ 27, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", "78 #justice#", ""};
 				{ 28, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e7#", "78 #justice#", ""};

@@ -344,7 +344,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 6, 49076, "", "=q4=Mithril Pocketwatch", "=ds=#s14#"};
 				{ 8, 38281, "", "=q1=Direbrew's Dire Brew", "=ds=#m2#"};
 				{ 16, 54535, "", "=q3=Keg-Shaped Treasure Chest", "=q5="..AL["Daily Reward"]};
-				{ 17, 49120, "", "=q4=Direbrew's Shanker 2.0", "=ds=#h1#, #w4#"};
+				{ 17, 49120, "", "=q4=Direbrew's Bloody Shanker", "=ds=#h1#, #w4#"};
 				{ 18, 48663, "", "=q4=Tankard O' Terror", "=ds=#h1#, #w6#"};
 				{ 19, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e26#"};
 				{ 20, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e26#"};
@@ -518,7 +518,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 3, 20561, "", "=q1=Flimsy Male Dwarf Mask", "=ds=#s1#"};
 				{ 4, 20391, "", "=q1=Flimsy Male Gnome Mask", "=ds=#s1#"};
 				{ 5, 20566, "", "=q1=Flimsy Male Human Mask", "=ds=#s1#"};
-				{ 6, 20564, "", "=q1=Flimsy Male Nightelf Mask", "=ds=#s1#"};
+				{ 6, 20564, "", "=q1=Flimsy Male Night Elf Mask", "=ds=#s1#"};
 				{ 7, 34002, "", "=q1=Flimsy Male Blood Elf Mask", "=ds=#s1#"};
 				{ 8, 20570, "", "=q1=Flimsy Male Orc Mask", "=ds=#s1#"};
 				{ 9, 20572, "", "=q1=Flimsy Male Tauren Mask", "=ds=#s1#"};
@@ -528,7 +528,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 18, 20562, "", "=q1=Flimsy Female Dwarf Mask", "=ds=#s1#"};
 				{ 19, 20392, "", "=q1=Flimsy Female Gnome Mask", "=ds=#s1#"};
 				{ 20, 20565, "", "=q1=Flimsy Female Human Mask", "=ds=#s1#"};
-				{ 21, 20563, "", "=q1=Flimsy Female Nightelf Mask", "=ds=#s1#"};
+				{ 21, 20563, "", "=q1=Flimsy Female Night Elf Mask", "=ds=#s1#"};
 				{ 22, 34000, "", "=q1=Flimsy Female Blood Elf Mask", "=ds=#s1#"};
 				{ 23, 20569, "", "=q1=Flimsy Female Orc Mask", "=ds=#s1#"};
 				{ 24, 20571, "", "=q1=Flimsy Female Tauren Mask", "=ds=#s1#"};
@@ -628,7 +628,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6="..AL["Box of Chocolates"], ""};
 				{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
 				{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
-				{ 19, 22236, "", "=q1=Buttermilk Deligh", "=ds=#e3#"};
+				{ 19, 22236, "", "=q1=Buttermilk Delight", "=ds=#e3#"};
 				{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};		
 				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], ""};
 				{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};

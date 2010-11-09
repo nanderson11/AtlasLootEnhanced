@@ -10,7 +10,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "ValorPoints", "inv_misc_cape_cataclysm_tank_d_01", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 3, "JusticePoints", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 5, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 6, "70TOKENMENU", "Spell_Holy_ChampionsBond", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
+				{ 6, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
 				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
 				{ 10, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..AL["Mounts"], ""};
@@ -37,16 +37,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["70TOKENMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "HardModeCloth", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "HardModeMail", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Mail"], ""};
-				{ 4, "HardModeResist", "Spell_Holy_ChampionsBond", "=ds="..AL["Fire Resistance Gear"], ""};
-				{ 6, "HardModeRelic", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Relic"], ""};
-				{ 8, "HardModeWeapons", "Spell_Holy_ChampionsBond", "=ds="..AL["Weapons"], ""};
-				{ 17, "HardModeLeather", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "HardModePlate", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Plate"], ""};
-				{ 19, "HardModeCloaks", "Spell_Holy_ChampionsBond", "=ds="..BabbleInventory["Back"], ""};
-				{ 21, "HardModeArena", "Spell_Holy_ChampionsBond", "=ds="..AL["PvP Rewards"], ""};
-				{ 23, "HardModeAccessories", "Spell_Holy_ChampionsBond", "=ds="..AL["Accessories"], ""};
+				{ 2, "HardModeCloth", "inv_pants_cloth_15", "=ds="..BabbleInventory["Cloth"], ""};
+				{ 3, "HardModeMail", "inv_pants_mail_26", "=ds="..BabbleInventory["Mail"], ""};
+				{ 4, "HardModeResist", "inv_chest_cloth_18", "=ds="..AL["Fire Resistance Gear"], ""};
+				{ 6, "HardModeRelic", "spell_nature_sentinal", "=ds="..BabbleInventory["Relic"], ""};
+				{ 8, "HardModeWeapons", "inv_shield_33", "=ds="..AL["Weapons"], ""};
+				{ 17, "HardModeLeather", "inv_shoulder_83", "=ds="..BabbleInventory["Leather"], ""};
+				{ 18, "HardModePlate", "inv_belt_27", "=ds="..BabbleInventory["Plate"], ""};
+				{ 19, "HardModeCloaks", "inv_misc_cape_06", "=ds="..BabbleInventory["Back"], ""};
+				{ 21, "HardModeArena", "inv_bracer_07", "=ds="..AL["PvP Rewards"], ""};
+				{ 23, "HardModeAccessories", "inv_valentineperfumebottle", "=ds="..AL["Accessories"], ""};
 			};
 		};
 		info = {
@@ -82,11 +82,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["WORLDEPICS"] = {
 		["Normal"] = {
 			{
-				{ 2, "WorldEpics80", "INV_Sword_109", "=ds="..AL["Level 80"], ""};
-				{ 3, "WorldEpics5060", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
-				{ 4, "WorldEpics3039", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
-				{ 17, "WorldEpics70", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
-				{ 18, "WorldEpics4049", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
+				{ 2, "WorldEpics85", "inv_misc_cape_cataclysm_caster_c_01", "=ds="..AL["Level 85"], ""};
+				{ 3, "WorldEpics70", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
+				{ 4, "WorldEpics4049", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
+				{ 17, "WorldEpics80", "INV_Sword_109", "=ds="..AL["Level 80"], ""};
+				{ 18, "WorldEpics5060", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
+				{ 19, "WorldEpics3039", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
 			};
 		};
 		info = {

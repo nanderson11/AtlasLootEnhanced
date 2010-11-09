@@ -2741,8 +2741,8 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
 				{ 2, 68008, "", "=q4=Mottled Drake", "=ds=" };
-				{ 3, 67128, "", "=q3=Landro's Lil' XT", "=ds=" };
-				{ 4, 67097, "", "=q3=Grim Campfire", "=ds=" };
+				{ 3, 67097, "", "=q3=Grim Campfire", "=ds=" };
+				{ 4, 67128, "", "=q3=Landro's Lil' XT", "=ds=" };
 				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
 				{ 7, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
 				{ 8, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
@@ -3055,10 +3055,12 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 2, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 3, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
-				{ 4, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
-				{ 5, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
+				{ 2, 68137, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+				{ 3, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 4, 67601, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 5, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+				{ 6, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+				{ 7, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
 			};
 		};
 		info = {
@@ -3621,6 +3623,29 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = AL["Transformation Items"],
 			module = moduleName, menu = "SETMENU",
+		};
+	}
+
+		-----------------------
+		--- BoE World Epics ---
+		-----------------------
+
+	AtlasLoot_Data["WorldEpics85"] = {
+		["Normal"] = {
+			{
+				{ 1, 67131, "", "=q4=Placeholder name", "=ds=#s4#"};
+				{ 2, 67144, "", "=q4=Placeholder name", "=ds=#s3#, #a4#"};
+				{ 3, 67143, "", "=q4=Placeholder name", "=ds=#s5#, #a4#"};
+				{ 4, 67141, "", "=q4=Placeholder name", "=ds=#s11#, #a4#"};
+				{ 5, 67138, "", "=q4=Placeholder name", "=ds=#s2#"};
+				{ 6, 67139, "", "=q4=Placeholder name", "=ds=#s13#"};
+				{ 7, 67129, "", "=q4=Placeholder name", "=ds=#s13#"};
+				{ 8, 67149, "", "=q4=Placeholder name", "=ds=#s14#"};
+			};
+		};
+		info = {
+			name = AL["BoE World Epics"].." "..AL["Level 85"],
+			module = moduleName, menu = "WORLDEPICS",
 		};
 	}
 
