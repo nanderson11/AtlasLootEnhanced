@@ -518,16 +518,19 @@ function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPag
 		return
 	end
 	
-	local bossName, instanceName
+	local bossName, instanceName, menuID
 	local instancePage, tableRegister, instanceType
 	local oriDataID = dataID
 	
 	dataID, instancePage = self:FormatDataID(dataID)
 	tableRegister = self:GetTableRegister(dataID)
 	instanceType = AtlasLoot:GetLootTableType(oriDataID)
+	menuID = AtlasLoot_Data[dataID].info.menu
 	
 	if tableRegister and tableRegister["Info"] and tableRegister["Info"][1] then
 		instanceName = tableRegister["Info"][1]
+	elseif menuID and AtlasLoot_Data[menuID] and AtlasLoot_Data[menuID].info and AtlasLoot_Data[menuID].info.name then
+		instanceName = AtlasLoot_Data[menuID].info.name
 	else
 		instanceName = _G["UNKNOWN"]
 	end
@@ -1365,8 +1368,32 @@ function AtlasLoot:CreateCompareFrame()
 	Frame.Title:SetText(AL["AtlasLoot"].." Compare Window")
 end
 
-
-
+function AtlasLoot:CheckHeroic(itemTable)
+	local heroic
+	local checkName = {
+		"|cffFF0000"..AL["Heroic Mode"],
+		"=q6=#j3#",
+	}
+	
+	if itemTable then
+		for itemNum,item in ipairs(itemTable) do
+			for k,v in ipairs(checkName) do
+				if item[4] == v then
+					heroic = itemNum
+				end
+			end
+		end
+	else
+		for itemNum,item in ipairs(AtlasLoot.ItemFrame.ItemButtons) do
+			for k,v in ipairs(checkName) do
+				if item.Frame.Name:GetText() == v then
+					heroic = itemNum
+				end
+			end
+		end
+	end
+	return heroic
+end
 
 
 

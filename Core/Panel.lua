@@ -459,7 +459,7 @@ do
 		
 		ButtonListLines["SearchFrame"]:SetWidth(searchFrameWidth)
 		
-		
+		AtlasLoot.SearchBox = SearchFrame.SearchBox
 		AtlasLoot:RefreshAtlasLootPanel()
 		buttonPanelLoadet = true
 		Frame:Hide()

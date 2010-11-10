@@ -361,7 +361,7 @@ function LootTableSort:ShowSortedTable(name, tab, itemType)
 					tablePage = tablePage + 1
 					if not self.lootpage["Normal"][tablePage] then self.lootpage["Normal"][tablePage] = {} end
 				end
-				self.lootpage["Normal"][tablePage][#self.lootpage["Normal"][tablePage] + 1] = { tablePos, boss["INFO"][3], "INV_Box_01", boss["INFO"][2], boss["INFO"][1], ""}
+				self.lootpage["Normal"][tablePage][#self.lootpage["Normal"][tablePage] + 1] = { tablePos, boss["INFO"][3], "INV_Box_01", boss["INFO"][2], "=q5="..boss["INFO"][1], ""}
 				tablePos = tablePos + 1
 			end
 			for itemSort,item in ipairs(boss) do

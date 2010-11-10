@@ -719,7 +719,7 @@ end
 -- Item on click function
 function WishList:ButtonTemp_AddItemToWishList()
 	if not self.info or not AtlasLoot:GetModuleEnabled(MODULENAME) then return end
-	local heroicCheckNumber = WishList:CheckHeroic()
+	local heroicCheckNumber = AtlasLoot:CheckHeroic()
 	if self.itemType and string.find(self.itemType, MODULENAME) then
 		self:DeleteItemFromWishList()
 	else
