@@ -17,7 +17,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- The Deadmines
 ---- Bastion of Twilight
 ---- Blackwing Descent
----- Baradin's Hold
+---- Baradin Hold
 --- Factions
 ---- Baradin's Wardens
 ---- Dragonmaw Clan
@@ -1183,9 +1183,9 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		---------------------------
-		--- Blackwing Descent -----
-		---------------------------
+		--------------------------
+		--- Blackwing Descent ----
+		--------------------------
 
 	AtlasLoot_Data["BDOmnitron"] = {
 		["Normal"] = {
@@ -1202,11 +1202,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		------------------------
-		--- Baradin's Hold -----
-		------------------------
+		---------------------
+		--- Baradin Hold ----
+		---------------------
 --TEST PAGE
-	AtlasLoot_Data["TestPage"] = {
+	AtlasLoot_Data["Argaloth"] = {
 		["Normal"] = {
 			{
 				{ 2, "PVP85SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5=Gloves, Legs"};
@@ -1217,8 +1217,8 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Baradion's Hold",
-			module = moduleName, instance = "BaradinsHold",
+			name = BabbleBoss["Argaloth"],
+			module = moduleName, instance = "BaradinHold",
 		};
 	};
 

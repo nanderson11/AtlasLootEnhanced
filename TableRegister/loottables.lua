@@ -151,11 +151,11 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Blackwing Descent"], "AtlasLootCataclysm" },
 		},
 
-		["BardinsHold"] = {
+		["BaradinHold"] = {
 			["Bosses"] = {
-				{ "TestPage", },
+				{ "Argaloth", 2 },
 			},
-			["Info"] = { "Baradin's Hold", "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm" },
 		},
 
 -----------------------
