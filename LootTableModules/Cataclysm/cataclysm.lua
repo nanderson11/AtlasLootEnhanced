@@ -15,6 +15,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Grim Batol
 ---- Halls of Origination
 ---- The Deadmines
+---- Shadowfang Keep
 ---- Bastion of Twilight
 ---- Blackwing Descent
 ---- Baradin Hold
@@ -1097,7 +1098,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DeadminesVanessa"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 63484, "", "=q3=Armbands of Exiled Architects", "=ds=#s8#, #a1#", "" };
 				{ 2, 63482, "", "=q3=Daughter's Hands", "=ds=#s9#, #a1#", "" };
@@ -1115,6 +1116,117 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = "Vanessa VanCleef",
 			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+		-----------------------
+		--- Shadowfang Keep ---
+		-----------------------
+
+	AtlasLoot_Data["ShadowfangAshbury"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#" };
+				{ 3, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#" };
+				{ 4, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63433, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#" };
+				{ 18, 63437, "", "=q3=Baron Ashbury's Cuffs", "=ds=#s8#, #a1#" };
+				{ 19, 63435, "", "=q3=Boots of the Predator", "=ds=#s12#, #a2#" };
+				{ 20, 63436, "", "=q3=Traitor's Grips", "=ds=#s9#, #a3#" };
+				{ 21, 63434, "", "=q3=Gloves of the Greymane Wall", "=ds=#s9#, #a4#" };
+			};
+		};
+		info = {
+			name = "Baron Ashbury",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangSilverlaine"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
+				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s8#, #a2#" };
+				{ 19, 63444, "", "=q3=Baron Silverlaine's Greaves", "=ds=#s12#, #a4#" };
+				{ 20, 63438, "", "=q3=Baroness Silverlaine's Locket", "=ds=#s2#" };
+				{ 21, 63441, "", "=q3=Pendant of the Keep", "=ds=#s2#" };
+				{ 23, 60885, "", "=q3=Silverlaine Family Sword", "=ds=#m3#" };
+			};
+		};
+		info = {
+			name = "Baron Silverlaine",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangSpringvale"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
+				{ 3, 6320, "", "=q3=Commander's Crest", "=ds=#w8#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63448, "", "=q3=Springvale's Cloak", "=ds=#s4#" };
+				{ 18, 63449, "", "=q3=Thieving Spaulders", "=ds=#s3#, #a2#" };
+				{ 19, 63447, "", "=q3=Breastplate of the Stilled Heart", "=ds=#s5#, #a3#" };
+				{ 20, 63446, "", "=q3=Haunting Footfalls", "=ds=#s12#, #a3#" };
+				{ 21, 63445, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
+			};
+		};
+		info = {
+			name = "Commander Springvale",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangWalden"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#" };
+				{ 3, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
+				{ 4, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
+				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
+				{ 19, 63452, "", "=q3=Burden of Lost Humanity", "=ds=#s3#, #a3#" };
+				{ 20, 63450, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
+				{ 21, 63453, "", "=q3=Iron Will Girdle", "=ds=#s10#, #a4#" };
+			};
+		};
+		info = {
+			name = "Lord Walden",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangGodfrey"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#" };
+				{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
+				{ 4, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#" };
+				{ 5, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63465, "", "=q3=Mantle of Loss", "=ds=#s3#, #a1#" };
+				{ 18, 63463, "", "=q3=Mantle of the Eastern Lords", "=ds=#s3#, #a1#" };
+				{ 19, 63459, "", "=q3=Worgen Hunter's Helm", "=ds=#s1#, #a3#" };
+				{ 20, 63462, "", "=q3=Helm of Untold Stories", "=ds=#s1#, #a4#" };
+				{ 21, 63458, "", "=q3=Lord Walden's Breastplate", "=ds=#s5#, #a4#" };
+				{ 22, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
+				{ 23, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
+				{ 24, 63456, "", "=q3=Staff of Isolation", "=ds=#w9#" };
+			};
+		};
+		info = {
+			name = "Lord Godfrey",
+			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
 
@@ -1150,8 +1262,18 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["BoTValionaTheralion"] = {
 		["Normal"] = {
 			{
-				{ 1, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
-				{ 2, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 1, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a1#", ""};
+				{ 2, 59512, "", "=q4=Theralion's Mirror", "=ds=#s2#", ""};
+				{ 3, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 4, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a1#", ""};
+				{ 2, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
+				{ 3, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 4, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
 			};
 		};
 		info = {
@@ -3005,28 +3127,29 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsPromotional"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
-				{ 2, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Card Game Item"]};
-				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Card Game Item"]};
-				{ 4, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Card Game Item"]};
-				{ 5, 32588, "", "=q3=Banana Charm", "=ds="..AL["Card Game Item"]};
-				{ 6, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Card Game Item"]};
-				{ 7, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Card Game Item"]};
-				{ 8, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Card Game Item"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
-				{ 17, 20371, "", "=q3=Blue Murloc Egg", "=ds="..AL["Blizzcon"]};
-				{ 18, 13584, "", "=q3=Diablo Stone", "=ds="..AL["Collector's Edition"]};
-				{ 19, 39286, "", "=q3=Frosty's Collar", "=ds="..AL["Collector's Edition"]};
-				{ 20, 46802, "", "=q3=Heavy Murloc Egg", "=ds="..AL["Blizzcon"]};
-				{ 21, 30360, "", "=q3=Lurky's Egg", "=ds="..AL["Collector's Edition"]};
-				{ 22, 56806, "", "=q3=Mini Thor", "=ds="..AL["Collector's Edition"]};
-				{ 23, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
-				{ 24, 25535, "", "=q3=Netherwhelp's Collar", "=ds="..AL["Collector's Edition"]};
-				{ 25, 13583, "", "=q3=Panda Collar", "=ds="..AL["Collector's Edition"]};
-				{ 26, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-				{ 27, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
-				{ 28, 13582, "", "=q3=Zergling Leash", "=ds="..AL["Collector's Edition"]};
-
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
+				{ 2, 20371, "", "=q3=Blue Murloc Egg", "=ds="..AL["Blizzcon"]};
+				{ 3, 13584, "", "=q3=Diablo Stone", "=ds="..AL["Collector's Edition"]};
+				{ 4, 39286, "", "=q3=Frosty's Collar", "=ds="..AL["Collector's Edition"]};
+				{ 5, 46802, "", "=q3=Heavy Murloc Egg", "=ds="..AL["Blizzcon"]};
+				{ 6, 62540, "", "=q3=Lil'Deathwing", "=ds="..AL["Collector's Edition"]};
+				{ 7, 30360, "", "=q3=Lurky's Egg", "=ds="..AL["Collector's Edition"]};
+				{ 8, 56806, "", "=q3=Mini Thor", "=ds="..AL["Collector's Edition"]};
+				{ 9, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
+				{ 10, 25535, "", "=q3=Netherwhelp's Collar", "=ds="..AL["Collector's Edition"]};
+				{ 11, 13583, "", "=q3=Panda Collar", "=ds="..AL["Collector's Edition"]};
+				{ 12, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
+				{ 13, 67418, "", "=q3=Smoldering Murloc Egg", "=ds="..AL["Blizzcon"]};
+				{ 14, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
+				{ 15, 13582, "", "=q3=Zergling Leash", "=ds="..AL["Collector's Edition"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
+				{ 17, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Card Game Item"]};
+				{ 18, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Card Game Item"]};
+				{ 19, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Card Game Item"]};
+				{ 20, 32588, "", "=q3=Banana Charm", "=ds="..AL["Card Game Item"]};
+				{ 21, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Card Game Item"]};
+				{ 22, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Card Game Item"]};
+				{ 23, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Card Game Item"]};
 			};
 		};
 		info = {
@@ -3112,20 +3235,17 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 59597, "", "=q3=Personal World Destroyer", "=ds="..BabbleInventory["Engineering"]};
 				{ 18, 63355, "", "=q3=Rustberg Gull", "=ds=#e13#"}; -- Tol Barad - Alliance
 				{ 19, 64996, "", "=q3=Rustberg Gull", "=ds=#e13#"}; -- Tol Barad - Horde
-				{ 20, 65355, "", "=q3=Smoldering Murloc Egg", "=ds="..AL["Blizzcon"]};
-				{ 21, 65661, "", "=q1=Blue Mini Jouster", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 22, 66067, "", "=q1=Brazie's Sunflower Seeds", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 23, 65662, "", "=q1=Gold Mini Jouster", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 24, 66076, "", "=q1=Mr. Grubbs", "=ds="}; -- Drop in epl
-				{ 25, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
-				{ 26, 64494, "", "=q1=Tiny Shale Spider", "=ds="}; -- Drop from Jadefang in Deepholm
-				{ 27, 46325, "", "=q1=Withers", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 28, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
-				{ 29, "s89930", "", "=q1=Swirling Stormling", "=ds="};
-				{ 30, "s89931", "", "=q1=Whirling Waveling", "=ds="};
-			};
-			{
-				{ 1, 68137, "", "=q3=Moonkin Hatchling", "=ds="};--new Blizzard store pet
+				{ 20, 65661, "", "=q1=Blue Mini Jouster", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 21, 66067, "", "=q1=Brazie's Sunflower Seeds", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 22, 65662, "", "=q1=Gold Mini Jouster", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 23, 66076, "", "=q1=Mr. Grubbs", "=ds="}; -- Drop in epl
+				{ 24, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
+				{ 25, 64494, "", "=q1=Tiny Shale Spider", "=ds="}; -- Drop from Jadefang in Deepholm
+				{ 26, 46325, "", "=q1=Withers", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
+				{ 27, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
+				{ 28, "s89930", "", "=q1=Swirling Stormling", "=ds="};
+				{ 29, "s89931", "", "=q1=Whirling Waveling", "=ds="};
+				{ 30, 68137, "", "=q3=Moonkin Hatchling", "=ds="};--new Blizzard store pet
 			};
 		};
 		info = {

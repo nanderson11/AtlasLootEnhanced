@@ -28,6 +28,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Razorfen Kraul
 ---- Scarlet Monastery
 ---- Scholomance
+---- Shadowfang Keep
 ---- Stratholme - Crusader's Square
 ---- Stratholme - The Gauntlet
 ---- The Stockade
@@ -3684,6 +3685,117 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
+		-----------------------
+		--- Shadowfang Keep ---
+		-----------------------
+
+	AtlasLoot_Data["ShadowfangAshbury"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#" };
+				{ 3, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#" };
+				{ 4, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63433, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#" };
+				{ 18, 63437, "", "=q3=Baron Ashbury's Cuffs", "=ds=#s8#, #a1#" };
+				{ 19, 63435, "", "=q3=Boots of the Predator", "=ds=#s12#, #a2#" };
+				{ 20, 63436, "", "=q3=Traitor's Grips", "=ds=#s9#, #a3#" };
+				{ 21, 63434, "", "=q3=Gloves of the Greymane Wall", "=ds=#s9#, #a4#" };
+			};
+		};
+		info = {
+			name = "Baron Ashbury",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangSilverlaine"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
+				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s8#, #a2#" };
+				{ 19, 63444, "", "=q3=Baron Silverlaine's Greaves", "=ds=#s12#, #a4#" };
+				{ 20, 63438, "", "=q3=Baroness Silverlaine's Locket", "=ds=#s2#" };
+				{ 21, 63441, "", "=q3=Pendant of the Keep", "=ds=#s2#" };
+				{ 23, 60885, "", "=q3=Silverlaine Family Sword", "=ds=#m3#" };
+			};
+		};
+		info = {
+			name = "Baron Silverlaine",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangSpringvale"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
+				{ 3, 6320, "", "=q3=Commander's Crest", "=ds=#w8#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 21, 63448, "", "=q3=Springvale's Cloak", "=ds=#s4#" };
+				{ 21, 63449, "", "=q3=Thieving Spaulders", "=ds=#s3#, #a2#" };
+				{ 21, 63447, "", "=q3=Breastplate of the Stilled Heart", "=ds=#s5#, #a3#" };
+				{ 21, 63446, "", "=q3=Haunting Footfalls", "=ds=#s12#, #a3#" };
+				{ 21, 63445, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
+			};
+		};
+		info = {
+			name = "Commander Springvale",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangWalden"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#" };
+				{ 3, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
+				{ 4, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
+				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
+				{ 19, 63452, "", "=q3=Burden of Lost Humanity", "=ds=#s3#, #a3#" };
+				{ 20, 63450, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
+				{ 21, 63453, "", "=q3=Iron Will Girdle", "=ds=#s10#, #a4#" };
+			};
+		};
+		info = {
+			name = "Lord Walden",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangGodfrey"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#" };
+				{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
+				{ 4, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#" };
+				{ 5, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63465, "", "=q3=Mantle of Loss", "=ds=#s3#, #a1#" };
+				{ 18, 63463, "", "=q3=Mantle of the Eastern Lords", "=ds=#s3#, #a1#" };
+				{ 19, 63459, "", "=q3=Worgen Hunter's Helm", "=ds=#s1#, #a3#" };
+				{ 20, 63462, "", "=q3=Helm of Untold Stories", "=ds=#s1#, #a4#" };
+				{ 21, 63458, "", "=q3=Lord Walden's Breastplate", "=ds=#s5#, #a4#" };
+				{ 22, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
+				{ 23, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
+				{ 24, 63456, "", "=q3=Staff of Isolation", "=ds=#w9#" };
+			};
+		};
+		info = {
+			name = "Lord Godfrey",
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
 		--------------------------------------
 		--- Stratholme - Crusader's Square ---
 		--------------------------------------
@@ -4798,7 +4910,7 @@ local moduleName = "AtlasLootClassicWoW"
 		-----------------------
 		--- Shadowfang Keep ---
 		-----------------------
-
+--[[Old SFK loot table
 	AtlasLoot_Data["ShadowfangKeep1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Deathsworn Captain"], ""};
 		{ 2, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#", "", "30.49%"};
@@ -4853,7 +4965,7 @@ local moduleName = "AtlasLootClassicWoW"
 		{ 26, 3194, "", "=q3=Black Malice", "=ds=#h2#, #w6#", "", "0.02%"};
 		{ 27, 1484, "", "=q3=Witching Stave", "=ds=#w9#", "", "0.01%"};
 		Prev = "ShadowfangKeep1";
-	};
+	};]]--
 
 		-------------------------
 		--- The Sunken Temple ---
