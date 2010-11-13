@@ -1184,11 +1184,12 @@ AtlasLoot_LootTableRegister = {
 
 		["ShadowfangKeep"] = {
 			["Bosses"] = {
-				{ "ShadowfangAshbury", },
-				{ "ShadowfangSilverlaine", },
-				{ "ShadowfangSpringvale", },
-				{ "ShadowfangWalden", },
-				{ "ShadowfangGodfrey", },
+				{ "ShadowfangAshbury", 3 },
+				{ "ShadowfangSilverlaine", 4 },
+				{ "ShadowfangSpringvale", 6 },
+				{ "ShadowfangWalden", 7 },
+				{ "ShadowfangGodfrey", 8 },
+				{ "Valentineday#3", 9, hide = true },
 			},
 			["Info"] = { BabbleZone["Shadowfang Keep"], "AtlasLootCataclysm" },
 		},

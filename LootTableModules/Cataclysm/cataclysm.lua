@@ -1151,7 +1151,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
-				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s8#, #a2#" };
+				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s9#, #a2#" };
 				{ 19, 63444, "", "=q3=Baron Silverlaine's Greaves", "=ds=#s12#, #a4#" };
 				{ 20, 63438, "", "=q3=Baroness Silverlaine's Locket", "=ds=#s2#" };
 				{ 21, 63441, "", "=q3=Pendant of the Keep", "=ds=#s2#" };
@@ -1219,9 +1219,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 63459, "", "=q3=Worgen Hunter's Helm", "=ds=#s1#, #a3#" };
 				{ 20, 63462, "", "=q3=Helm of Untold Stories", "=ds=#s1#, #a4#" };
 				{ 21, 63458, "", "=q3=Lord Walden's Breastplate", "=ds=#s5#, #a4#" };
-				{ 22, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
-				{ 23, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
-				{ 24, 63456, "", "=q3=Staff of Isolation", "=ds=#w9#" };
+				{ 22, 63457, "", "=q3=Shackles of Undeath", "=ds=#s8#, #a4#" };
+				{ 23, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
+				{ 24, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
+				{ 25, 63461, "", "=q3=Staff of Isolation", "=ds=#w9#" };
 			};
 		};
 		info = {
@@ -1262,7 +1263,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["BoTValionaTheralion"] = {
 		["Normal"] = {
 			{
-				{ 1, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a1#", ""};
+				{ 1, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
 				{ 2, 59512, "", "=q4=Theralion's Mirror", "=ds=#s2#", ""};
 				{ 3, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
 				{ 4, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
@@ -1270,7 +1271,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		["Heroic"] = {
 			{
-				{ 1, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a1#", ""};
+				{ 1, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
 				{ 2, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
 				{ 3, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
 				{ 4, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
@@ -3800,84 +3801,84 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["JusticePoints"] = {
 		["Normal"] = {
 			{
-    			{ 1, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "2200 #justice#" },
-    			{ 2, 58161, "", "=q3=Mask of New Snow", "=ds=#s1#, #a1#", "2200 #justice#" },
-    			{ 3, 58157, "", "=q3=Meadow Mantle", "=ds=#s3#, #a1#", "1650 #justice#" },
-    			{ 4, 58162, "", "=q3=Summer Song Shoulderwraps", "=ds=#s3#, #a1#", "1650 #justice#" },
-    			{ 5, 58159, "", "=q3=Musk Rose Robes", "=ds=#s5#, #a1#", "2200 #justice#" },
-    			{ 6, 58153, "", "=q3=Robes of Embalmed Darkness", "=ds=#s5#, #a1#", "2200 #justice#" },
-    			{ 7, 58163, "", "=q3=Gloves of Purification", "=ds=#s9#, #a1#", "1650 #justice#" },
-    			{ 8, 58158, "", "=q3=Gloves of the Painless Midnight", "=ds=#s9#, #a1#", "1650 #justice#" },
-    			{ 9, 57922, "", "=q3=Belt of the Falling Rain", "=ds=#s10#, #a1#", "1650 #justice#" },
-    			{ 10, 57921, "", "=q3=Incense Infused Cumberbund", "=ds=#s10#, #a1#", "1650 #justice#" },
-    			{ 11, 58160, "", "=q3=Leggings of Charity", "=ds=#s11#, #a1#", "2200 #justice#" },
-    			{ 12, 58154, "", "=q3=Pensive Legwraps", "=ds=#s11#, #a1#", "2200 #justice#" },
+    				{ 1, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "2200 #justice#" },
+    				{ 2, 58161, "", "=q3=Mask of New Snow", "=ds=#s1#, #a1#", "2200 #justice#" },
+    				{ 3, 58157, "", "=q3=Meadow Mantle", "=ds=#s3#, #a1#", "1650 #justice#" },
+    				{ 4, 58162, "", "=q3=Summer Song Shoulderwraps", "=ds=#s3#, #a1#", "1650 #justice#" },
+    				{ 5, 58159, "", "=q3=Musk Rose Robes", "=ds=#s5#, #a1#", "2200 #justice#" },
+    				{ 6, 58153, "", "=q3=Robes of Embalmed Darkness", "=ds=#s5#, #a1#", "2200 #justice#" },
+    				{ 7, 58163, "", "=q3=Gloves of Purification", "=ds=#s9#, #a1#", "1650 #justice#" },
+    				{ 8, 58158, "", "=q3=Gloves of the Painless Midnight", "=ds=#s9#, #a1#", "1650 #justice#" },
+    				{ 9, 57922, "", "=q3=Belt of the Falling Rain", "=ds=#s10#, #a1#", "1650 #justice#" },
+    				{ 10, 57921, "", "=q3=Incense Infused Cumberbund", "=ds=#s10#, #a1#", "1650 #justice#" },
+    				{ 11, 58160, "", "=q3=Leggings of Charity", "=ds=#s11#, #a1#", "2200 #justice#" },
+    				{ 12, 58154, "", "=q3=Pensive Legwraps", "=ds=#s11#, #a1#", "2200 #justice#" },
 			};
 			{
   		  		{ 1, 58150, "", "=q3=Cluster of Stars", "=ds=#s1#, #a2#", "2200 #justice#" },
-    			{ 2, 58133, "", "=q3=Mask of Vines", "=ds=#s1#, #a2#", "2200 #justice#" },
-    			{ 3, 58134, "", "=q3=Embrace of the Night", "=ds=#s3#, #a2#", "1650 #justice#" },
-    			{ 4, 58151, "", "=q3=Somber Shawl", "=ds=#s3#, #a2#", "1650 #justice#" },
-    			{ 5, 58139, "", "=q3=Robes of Forgetfulness", "=ds=#s5#, #a2#", "2200 #justice#" },
-    			{ 6, 58131, "", "=q3=Tunic of Sinking Envy", "=ds=#s5#, #a2#", "2200 #justice#" },
-    			{ 7, 58152, "", "=q3=Blessed Hands of Elune", "=ds=#s9#, #a2#", "1650 #justice#" },
-    			{ 8, 58138, "", "=q3=Sticky Fingers", "=ds=#s9#, #a2#", "1650 #justice#" },
-    			{ 9, 57918, "", "=q3=Sash of Musing", "=ds=#s10#, #a2#", "1650 #justice#" },
-    			{ 10, 57919, "", "=q3=Thatch Eave Vines", "=ds=#s10#, #a2#", "1650 #justice#" },
-    			{ 11, 58132, "", "=q3=Leggings of the Burrowing Mole", "=ds=#s11#, #a2#", "2200 #justice#" },
-    			{ 12, 58140, "", "=q3=Leggings of Late Blooms", "=ds=#s11#, #a2#", "2200 #justice#" },
+    				{ 2, 58133, "", "=q3=Mask of Vines", "=ds=#s1#, #a2#", "2200 #justice#" },
+    				{ 3, 58134, "", "=q3=Embrace of the Night", "=ds=#s3#, #a2#", "1650 #justice#" },
+    				{ 4, 58151, "", "=q3=Somber Shawl", "=ds=#s3#, #a2#", "1650 #justice#" },
+    				{ 5, 58139, "", "=q3=Robes of Forgetfulness", "=ds=#s5#, #a2#", "2200 #justice#" },
+    				{ 6, 58131, "", "=q3=Tunic of Sinking Envy", "=ds=#s5#, #a2#", "2200 #justice#" },
+    				{ 7, 58152, "", "=q3=Blessed Hands of Elune", "=ds=#s9#, #a2#", "1650 #justice#" },
+    				{ 8, 58138, "", "=q3=Sticky Fingers", "=ds=#s9#, #a2#", "1650 #justice#" },
+    				{ 9, 57918, "", "=q3=Sash of Musing", "=ds=#s10#, #a2#", "1650 #justice#" },
+    				{ 10, 57919, "", "=q3=Thatch Eave Vines", "=ds=#s10#, #a2#", "1650 #justice#" },
+    				{ 11, 58132, "", "=q3=Leggings of the Burrowing Mole", "=ds=#s11#, #a2#", "2200 #justice#" },
+    				{ 12, 58140, "", "=q3=Leggings of Late Blooms", "=ds=#s11#, #a2#", "2200 #justice#" },
 			};
 			{
-    			{ 1, 58128, "", "=q3=Helm of the Inward Eye", "=ds=#s1#, #a3#", "2200 #justice#" },
-    			{ 2, 58123, "", "=q3=Willow Mask", "=ds=#s1#, #a3#", "2200 #justice#" },
-    			{ 3, 58129, "", "=q3=Seafoam Mantle", "=ds=#s3#, #a3#", "1650 #justice#" },
-    			{ 4, 58124, "", "=q3=Wrap of the Valley Glades", "=ds=#s3#, #a3#", "1650 #justice#" },
-    			{ 5, 58121, "", "=q3=Vest of the True Companion", "=ds=#s5#, #a3#", "2200 #justice#" },
-    			{ 6, 58126, "", "=q3=Vest of the Waking Dream", "=ds=#s5#, #a3#", "2200 #justice#" },
-    			{ 7, 58130, "", "=q3=Gleaning Gloves", "=ds=#s9#, #a3#", "1650 #justice#" },
-    			{ 8, 58125, "", "=q3=Gloves of the Passing Night", "=ds=#s9#, #a3#", "1650 #justice#" },
-    			{ 9, 57916, "", "=q3=Belt of the Dim Forest", "=ds=#s10#, #a3#", "1650 #justice#" },
-    			{ 10, 57917, "", "=q3=Belt of the Still Stream", "=ds=#s10#, #a3#", "1650 #justice#" },
-    			{ 11, 58122, "", "=q3=Hillside Striders", "=ds=#s11#, #a3#", "2200 #justice#" },
-    			{ 12, 58127, "", "=q3=Leggings of Soothing Silence", "=ds=#s11#, #a3#", "2200 #justice#" },
+    				{ 1, 58128, "", "=q3=Helm of the Inward Eye", "=ds=#s1#, #a3#", "2200 #justice#" },
+    				{ 2, 58123, "", "=q3=Willow Mask", "=ds=#s1#, #a3#", "2200 #justice#" },
+    				{ 3, 58129, "", "=q3=Seafoam Mantle", "=ds=#s3#, #a3#", "1650 #justice#" },
+    				{ 4, 58124, "", "=q3=Wrap of the Valley Glades", "=ds=#s3#, #a3#", "1650 #justice#" },
+    				{ 5, 58121, "", "=q3=Vest of the True Companion", "=ds=#s5#, #a3#", "2200 #justice#" },
+    				{ 6, 58126, "", "=q3=Vest of the Waking Dream", "=ds=#s5#, #a3#", "2200 #justice#" },
+    				{ 7, 58130, "", "=q3=Gleaning Gloves", "=ds=#s9#, #a3#", "1650 #justice#" },
+    				{ 8, 58125, "", "=q3=Gloves of the Passing Night", "=ds=#s9#, #a3#", "1650 #justice#" },
+    				{ 9, 57916, "", "=q3=Belt of the Dim Forest", "=ds=#s10#, #a3#", "1650 #justice#" },
+    				{ 10, 57917, "", "=q3=Belt of the Still Stream", "=ds=#s10#, #a3#", "1650 #justice#" },
+    				{ 11, 58122, "", "=q3=Hillside Striders", "=ds=#s11#, #a3#", "2200 #justice#" },
+    				{ 12, 58127, "", "=q3=Leggings of Soothing Silence", "=ds=#s11#, #a3#", "2200 #justice#" },
 			};
 			{
-    			{ 1, 58108, "", "=q3=Crown of the Blazing Sun", "=ds=#s1#, #a4#", "2200 #justice#" },
-    			{ 2, 58103, "", "=q3=Helm of the Proud", "=ds=#s1#, #a4#", "2200 #justice#" },
-    			{ 3, 58098, "", "=q3=Helm of Easeful Death", "=ds=#s1#, #a4#", "2200 #justice#" },
-    			{ 4, 58109, "", "=q3=Pauldrons of the Forlorn", "=ds=#s3#, #a4#", "1650 #justice#" },
-    			{ 5, 58100, "", "=q3=Pauldrons of the High Requiem", "=ds=#s3#, #a4#", "1650 #justice#" },
-    			{ 6, 58104, "", "=q3=Sunburnt Pauldrons", "=ds=#s3#, #a4#", "1650 #justice#" },
-    			{ 7, 58101, "", "=q3=Chestplate of the Steadfast", "=ds=#s5#, #a4#", "2200 #justice#" },
-    			{ 8, 58096, "", "=q3=Breastplate of Raging Fury", "=ds=#s5#, #a4#", "2200 #justice#" },
-    			{ 9, 58106, "", "=q3=Chestguard of Dancing Waves", "=ds=#s5#, #a4#", "2200 #justice#" },
+    				{ 1, 58108, "", "=q3=Crown of the Blazing Sun", "=ds=#s1#, #a4#", "2200 #justice#" },
+    				{ 2, 58103, "", "=q3=Helm of the Proud", "=ds=#s1#, #a4#", "2200 #justice#" },
+    				{ 3, 58098, "", "=q3=Helm of Easeful Death", "=ds=#s1#, #a4#", "2200 #justice#" },
+    				{ 4, 58109, "", "=q3=Pauldrons of the Forlorn", "=ds=#s3#, #a4#", "1650 #justice#" },
+    				{ 5, 58100, "", "=q3=Pauldrons of the High Requiem", "=ds=#s3#, #a4#", "1650 #justice#" },
+    				{ 6, 58104, "", "=q3=Sunburnt Pauldrons", "=ds=#s3#, #a4#", "1650 #justice#" },
+    				{ 7, 58101, "", "=q3=Chestplate of the Steadfast", "=ds=#s5#, #a4#", "2200 #justice#" },
+    				{ 8, 58096, "", "=q3=Breastplate of Raging Fury", "=ds=#s5#, #a4#", "2200 #justice#" },
+    				{ 9, 58106, "", "=q3=Chestguard of Dancing Waves", "=ds=#s5#, #a4#", "2200 #justice#" },
    		 		{ 10, 58105, "", "=q3=Numbing Handguards", "=ds=#s9#, #a4#", "1650 #justice#" },
-    			{ 11, 58099, "", "=q3=Reaping Gauntlets", "=ds=#s9#, #a4#", "1650 #justice#" },
-    			{ 12, 58110, "", "=q3=Gloves of Curious Conscience", "=ds=#s9#, #a4#", "1650 #justice#" },
-    			{ 13, 57914, "", "=q3=Girdle of the Mountains", "=ds=#s10#, #a4#", "1650 #justice#" },
-    			{ 14, 57913, "", "=q3=Beech Green Belt", "=ds=#s10#, #a4#", "1650 #justice#" },
-    			{ 15, 57915, "", "=q3=Belt of Barred Clouds", "=ds=#s10#, #a4#", "1650 #justice#" },
-    			{ 16, 58102, "", "=q3=Greaves of Splendor", "=ds=#s11#, #a4#", "2200 #justice#" },
-    			{ 17, 58097, "", "=q3=Greaves of Gallantry", "=ds=#s11#, #a4#", "2200 #justice#" },
-    			{ 18, 58107, "", "=q3=Legguards of the Gentle", "=ds=#s11#, #a4#", "2200 #justice#" },
+    				{ 11, 58099, "", "=q3=Reaping Gauntlets", "=ds=#s9#, #a4#", "1650 #justice#" },
+    				{ 12, 58110, "", "=q3=Gloves of Curious Conscience", "=ds=#s9#, #a4#", "1650 #justice#" },
+    				{ 13, 57914, "", "=q3=Girdle of the Mountains", "=ds=#s10#, #a4#", "1650 #justice#" },
+    				{ 14, 57913, "", "=q3=Beech Green Belt", "=ds=#s10#, #a4#", "1650 #justice#" },
+    				{ 15, 57915, "", "=q3=Belt of Barred Clouds", "=ds=#s10#, #a4#", "1650 #justice#" },
+    				{ 16, 58102, "", "=q3=Greaves of Splendor", "=ds=#s11#, #a4#", "2200 #justice#" },
+    				{ 17, 58097, "", "=q3=Greaves of Gallantry", "=ds=#s11#, #a4#", "2200 #justice#" },
+    				{ 18, 58107, "", "=q3=Legguards of the Gentle", "=ds=#s11#, #a4#", "2200 #justice#" },
 			};
 			{
-    			{ 1, 57932, "", "=q3=The Lustrous Eye", "=ds=#s2#, #m20#", "1250 #justice#" },
-  				{ 2, 57930, "", "=q3=Pendant of Quiet Breath", "=ds=#s2#, #m20#", "1250 #justice#" },
-    			{ 3, 57934, "", "=q3=Celadon Pendant", "=ds=#s2#, #m20#", "1250 #justice#" },
-    			{ 4, 57933, "", "=q3=String of Beaded Bubbles", "=ds=#s2#, #m20#", "1250 #justice#" },
-   				{ 5, 57931, "", "=q3=Amulet of Dull Dreaming", "=ds=#s2#, #m20#", "1250 #justice#" },
-    			{ 6, 57924, "", "=q3=Apple-Bent Bough", "=ds=Held In Off-hand, #m20#", "950 #justice#" },
-		    	{ 7, 57923, "", "=q3=Hermit's Lamp", "=ds=Held In Off-hand, #m20#", "950 #justice#" },
-    			{ 8, 57929, "", "=q3=Dawnblaze Blade", "=ds=One-Handed #w10#s, Weapon", "950 #justice#" },
-    			{ 9, 57928, "", "=q3=Windslicer", "=ds=One-Handed #w1#s, Weapon", "950 #justice#" },
-    			{ 10, 57927, "", "=q3=Throat Slasher", "=ds=#w4#s, Weapon", "950 #justice#" },
-    			{ 11, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#h4#, #w8#s", "950 #justice#" },
-    			{ 12, 57925, "", "=q3=Shield of the Mists", "=ds=#h4#, #w8#s", "950 #justice#" },
+    				{ 1, 57932, "", "=q3=The Lustrous Eye", "=ds=#s2#", "1250 #justice#" },
+  				{ 2, 57930, "", "=q3=Pendant of Quiet Breath", "=ds=#s2#", "1250 #justice#" },
+    				{ 3, 57934, "", "=q3=Celadon Pendant", "=ds=#s2#", "1250 #justice#" },
+    				{ 4, 57933, "", "=q3=String of Beaded Bubbles", "=ds=#s2#", "1250 #justice#" },
+   				{ 5, 57931, "", "=q3=Amulet of Dull Dreaming", "=ds=#s2#", "1250 #justice#" },
+    				{ 6, 57924, "", "=q3=Apple-Bent Bough", "=ds=#s15#", "950 #justice#" },
+			    	{ 7, 57923, "", "=q3=Hermit's Lamp", "=ds=#s15#", "950 #justice#" },
+    				{ 8, 57929, "", "=q3=Dawnblaze Blade", "=ds=#h4#, #w10#", "950 #justice#" },
+    				{ 9, 57928, "", "=q3=Windslicer", "=ds=#h4#, #w1#", "950 #justice#" },
+    				{ 10, 57927, "", "=q3=Throat Slasher", "=ds=#h4#, #w4#", "950 #justice#" },
+    				{ 11, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#w8#", "950 #justice#" },
+    				{ 12, 57925, "", "=q3=Shield of the Mists", "=ds=#w8#", "950 #justice#" },
 			};
 		};
 		info = {
-			name = "Justice Points",
+			name = AL["Justice Points"],
 			module = moduleName, menu = "SETMENU",
 		};
 	}
@@ -3920,7 +3921,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Valor Points",
+			name = AL["Valor Points"],
 			module = moduleName, menu = "SETMENU",
 		};
 	}
