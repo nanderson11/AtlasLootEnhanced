@@ -908,7 +908,24 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingArmorCata"] = {
 		["Normal"] = {
 			{
-			
+				{ 1, "s76288", "55039", "=q3=Stormforged Helm", "=ds="..AL["Trainer"] };
+				{ 2, "s76286", "55037", "=q3=Stormforged Shoulders", "=ds="..AL["Trainer"] };
+				{ 3, "s76289", "55040", "=q2=Stormforged Breastplate", "=ds="..AL["Trainer"] };
+				{ 4, "s76283", "55035", "=q2=Stormforged Belt", "=ds="..AL["Trainer"] };
+				{ 5, "s76287", "55038", "=q2=Stormforged Legguards", "=ds="..AL["Trainer"] };
+				{ 6, "s76285", "55036", "=q2=Stormforged Boots", "=ds="..AL["Trainer"] };
+				{ 7, "s76269", "55031", "=q2=Redsteel Helm", "=ds="..AL["Trainer"] };
+				{ 8, "s76266", "55029", "=q3=Redsteel Shoulders", "=ds="..AL["Trainer"] };
+				{ 9, "s76270", "55032", "=q3=Redsteel Breastplate", "=ds="..AL["Trainer"] };
+				{ 10, "s76264", "55027", "=q2=Redsteel Belt", "=ds="..AL["Trainer"] };
+				{ 11, "s76267", "55030", "=q2=Redsteel Legguards", "=ds="..AL["Trainer"] };
+				{ 12, "s76265", "55028", "=q2=Redsteel Boots", "=ds="..AL["Trainer"] };
+				{ 13, "s76260", "55023", "=q3=Hardened Obsidium Helm", "=ds="..AL["Trainer"] };
+				{ 14, "s76258", "54876", "=q3=Hardened Obsidium Shoulders", "=ds="..AL["Trainer"] };
+				{ 15, "s76261", "55024", "=q2=Hardened Obsidium Breastplate", "=ds="..AL["Trainer"] };
+				{ 16, "s76181", "54853", "=q2=Hardened Obsidium Belt", "=ds="..AL["Trainer"] };
+				{ 17, "s76259", "55022", "=q2=Hardened Obsidium Legguards", "=ds="..AL["Trainer"] };
+				{ 18, "s76182", "54854", "=q2=Hardened Obsidium Boots", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -1099,7 +1116,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingWeaponCata"] = {
 		["Normal"] = {
 			{
-			
+				{ 1, "s76433", "55043", "=q3=Decapitator's Razor", "=ds="..AL["Trainer"] };
+				{ 2, "s76434", "55044", "=q3=Cold-Forged Shank", "=ds="..AL["Trainer"] };
+				{ 3, "s76474", "55246", "=q3=Obsidium Bladespear", "=ds="..AL["Trainer"] };
+				{ 4, "s76293", "55042", "=q2=Stormforged Shield", "=ds="..AL["Trainer"] };
+				{ 5, "s76435", "55045", "=q3=Fire-Etched Dagger", "=ds="..AL["Trainer"] };
+				{ 6, "s76436", "55046", "=q3=Lifeforce Hammer", "=ds="..AL["Trainer"] };
+				{ 7, "s76437", "55052", "=q3=Obsidium Executioner", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -1111,41 +1134,42 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, "s55628", "INV_Jewelcrafting_ThoriumSetting", "=ds=Socket Bracer", "=ds="..AL["Trainer"] };
-				{ 2, "s55641", "INV_GAUNTLETS_61", "=ds=Socket Gloves", "=ds="..AL["Trainer"] };
-				{ 3, "s55656", "41611", "=q3=Eternal Belt Buckle", "=ds="..AL["Trainer"] };
-				{ 4, "s62202", "44936", "=q3=Titanium Plating", "=ds="..AL["Vendor"]};
-				{ 5, "s56357", "42500", "=q2=Titanium Shield Spike", "=ds="..AL["Trainer"] };
-				{ 6, "s55839", "41976", "=q2=Titanium Weapon Chain", "=ds="..AL["Trainer"] };
-				{ 7, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360"};
-				{ 8, "s29656", "23529", "=q2=Adamantite Sharpening Stone", "=ds=#sr# 350"};
-				{ 9, "s34608", "28421", "=q2=Adamantite Weightstone", "=ds=#sr# 350"};
-				{ 10, "s42688", "33185", "=q2=Adamantite Weapon Chain", "=ds=#sr# 335"};
-				{ 11, "s22757", "18262", "=q2=Elemental Sharpening Stone", "=ds=#sr# 300"};
-				{ 12, "s16651", "12645", "=q2=Thorium Shield Spike", "=ds=#sr# 275"};
-				{ 13, "s9964", "7969", "=q2=Mithril Spurs", "=ds=#sr# 235"};
-				{ 14, "s9939", "7967", "=q2=Mithril Shield Spike", "=ds=#sr# 215"};
-				{ 15, "s29729", "23576", "=q1=Greater Ward of Shielding", "=ds=#sr# 375"};
-				{ 16, "s32285", "25521", "=q1=Greater Rune of Warding", "=ds=#sr# 350"};
-				{ 17, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340"};
-				{ 18, "s32284", "23559", "=q1=Lesser Rune of Warding", "=ds=#sr# 325"};
-				{ 19, "s29654", "23528", "=q1=Fel Sharpening Stone", "=ds=#sr# 300"};
-				{ 20, "s34607", "28420", "=q1=Fel Weightstone", "=ds=#sr# 300"};
-				{ 21, "s16641", "12404", "=q1=Dense Sharpening Stone", "=ds=#sr# 250"};
-				{ 22, "s16640", "12643", "=q1=Dense Weightstone", "=ds=#sr# 250"};
-				{ 23, "s9918", "7964", "=q1=Solid Sharpening Stone", "=ds=#sr# 200"};
-				{ 24, "s9921", "7965", "=q1=Solid Weightstone", "=ds=#sr# 200"};
-				{ 25, "s7224", "6041", "=q1=Steel Weapon Chain", "=ds=#sr# 190"};
-				{ 26, "s7222", "6043", "=q1=Iron Counterweight", "=ds=#sr# 165"};
-				{ 27, "s7221", "6042", "=q1=Iron Shield Spike", "=ds=#sr# 150"};
-				{ 28, "s2674", "2871", "=q1=Heavy Sharpening Stone", "=ds=#sr# 125"};
-				{ 29, "s3117", "3241", "=q1=Heavy Weightstone", "=ds=#sr# 125"};
-				{ 30, "s2665", "2863", "=q1=Coarse Sharpening Stone", "=ds=#sr# 65"};
+				{ 1, "s76441", "55055", "=q2=Elementium Shield Spike", "=ds="..AL["Trainer"] };
+				{ 2, "s55628", "INV_Jewelcrafting_ThoriumSetting", "=ds=Socket Bracer", "=ds="..AL["Trainer"] };
+				{ 3, "s55641", "INV_GAUNTLETS_61", "=ds=Socket Gloves", "=ds="..AL["Trainer"] };
+				{ 4, "s55656", "41611", "=q3=Eternal Belt Buckle", "=ds="..AL["Trainer"] };
+				{ 5, "s62202", "44936", "=q3=Titanium Plating", "=ds="..AL["Vendor"]};
+				{ 6, "s56357", "42500", "=q2=Titanium Shield Spike", "=ds="..AL["Trainer"] };
+				{ 7, "s55839", "41976", "=q2=Titanium Weapon Chain", "=ds="..AL["Trainer"] };
+				{ 8, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360"};
+				{ 9, "s29656", "23529", "=q2=Adamantite Sharpening Stone", "=ds=#sr# 350"};
+				{ 10, "s34608", "28421", "=q2=Adamantite Weightstone", "=ds=#sr# 350"};
+				{ 11, "s42688", "33185", "=q2=Adamantite Weapon Chain", "=ds=#sr# 335"};
+				{ 12, "s22757", "18262", "=q2=Elemental Sharpening Stone", "=ds=#sr# 300"};
+				{ 13, "s16651", "12645", "=q2=Thorium Shield Spike", "=ds=#sr# 275"};
+				{ 14, "s9964", "7969", "=q2=Mithril Spurs", "=ds=#sr# 235"};
+				{ 15, "s9939", "7967", "=q2=Mithril Shield Spike", "=ds=#sr# 215"};
+				{ 16, "s29729", "23576", "=q1=Greater Ward of Shielding", "=ds=#sr# 375"};
+				{ 17, "s32285", "25521", "=q1=Greater Rune of Warding", "=ds=#sr# 350"};
+				{ 18, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340"};
+				{ 19, "s32284", "23559", "=q1=Lesser Rune of Warding", "=ds=#sr# 325"};
+				{ 20, "s29654", "23528", "=q1=Fel Sharpening Stone", "=ds=#sr# 300"};
+				{ 21, "s34607", "28420", "=q1=Fel Weightstone", "=ds=#sr# 300"};
+				{ 22, "s16641", "12404", "=q1=Dense Sharpening Stone", "=ds=#sr# 250"};
+				{ 23, "s16640", "12643", "=q1=Dense Weightstone", "=ds=#sr# 250"};
+				{ 24, "s9918", "7964", "=q1=Solid Sharpening Stone", "=ds=#sr# 200"};
+				{ 25, "s9921", "7965", "=q1=Solid Weightstone", "=ds=#sr# 200"};
+				{ 26, "s7224", "6041", "=q1=Steel Weapon Chain", "=ds=#sr# 190"};
+				{ 27, "s7222", "6043", "=q1=Iron Counterweight", "=ds=#sr# 165"};
+				{ 28, "s7221", "6042", "=q1=Iron Shield Spike", "=ds=#sr# 150"};
+				{ 29, "s2674", "2871", "=q1=Heavy Sharpening Stone", "=ds=#sr# 125"};
+				{ 30, "s3117", "3241", "=q1=Heavy Weightstone", "=ds=#sr# 125"};
 			};
 			{
-				{ 1, "s3116", "3240", "=q1=Coarse Weightstone", "=ds=#sr# 65"};
-				{ 2, "s2660", "2862", "=q1=Rough Sharpening Stone", "=ds=#sr# 1"};
-				{ 3, "s3115", "3239", "=q1=Rough Weightstone", "=ds=#sr# 1"};
+				{ 1, "s2665", "2863", "=q1=Coarse Sharpening Stone", "=ds=#sr# 65"};
+				{ 2, "s3116", "3240", "=q1=Coarse Weightstone", "=ds=#sr# 65"};
+				{ 3, "s2660", "2862", "=q1=Rough Sharpening Stone", "=ds=#sr# 1"};
+				{ 4, "s3115", "3239", "=q1=Rough Weightstone", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -1157,27 +1181,29 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s59406", "43853", "=q2=Titanium Skeleton Key", "=ds="..AL["Trainer"] };
-				{ 2, "s59405", "43854", "=q2=Cobalt Skeleton Key", "=ds="..AL["Trainer"] };
-				{ 3, "s19669", "15872", "=q2=Arcanite Skeleton Key", "=ds=#sr# 275"};
-				{ 4, "s19668", "15871", "=q2=Truesilver Skeleton Key", "=ds=#sr# 200"};
-				{ 5, "s19667", "15870", "=q2=Golden Skeleton Key", "=ds=#sr# 150"};
-				{ 6, "s19666", "15869", "=q2=Silver Skeleton Key", "=ds=#sr# 100"};
-				{ 7, "s55732", "41745", "=q1=Titanium Rod", "=ds="..AL["Trainer"]};
-				{ 8, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360"};
-				{ 9, "s32656", "25844", "=q1=Adamantite Rod", "=ds=#sr# 350"};
-				{ 10, "s32655", "25843", "=q1=Fel Iron Rod", "=ds=#sr# 300"};
-				{ 11, "s20201", "16206", "=q1=Arcanite Rod", "=ds=#sr# 275"};
-				{ 12, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250"};
-				{ 13, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200"};
-				{ 14, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200"};
-				{ 15, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200"};
+				{ 1, "s76438", "55053", "=q1=Obsidium Skeleton Key", "=ds="..AL["Trainer"] };
+				{ 2, "s59406", "43853", "=q2=Titanium Skeleton Key", "=ds="..AL["Trainer"] };
+				{ 3, "s59405", "43854", "=q2=Cobalt Skeleton Key", "=ds="..AL["Trainer"] };
+				{ 4, "s19669", "15872", "=q2=Arcanite Skeleton Key", "=ds=#sr# 275"};
+				{ 5, "s19668", "15871", "=q2=Truesilver Skeleton Key", "=ds=#sr# 200"};
+				{ 6, "s19667", "15870", "=q2=Golden Skeleton Key", "=ds=#sr# 150"};
+				{ 7, "s19666", "15869", "=q2=Silver Skeleton Key", "=ds=#sr# 100"};
+				{ 9, "s92375", "65358", "=q1=Elementium Rod", "=ds="..AL["Trainer"] };
+				{ 10, "s55732", "41745", "=q1=Titanium Rod", "=ds="..AL["Trainer"]};
+				{ 11, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360"};
+				{ 12, "s32656", "25844", "=q1=Adamantite Rod", "=ds=#sr# 350"};
+				{ 13, "s32655", "25843", "=q1=Fel Iron Rod", "=ds=#sr# 300"};
+				{ 14, "s20201", "16206", "=q1=Arcanite Rod", "=ds=#sr# 275"};
+				{ 15, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200"};
 				{ 16, "s14379", "11128", "=q1=Golden Rod", "=ds=#sr# 150"};
-				{ 17, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150"};
-				{ 18, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125"};
-				{ 19, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100"};
-				{ 20, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75"};
-				{ 21, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25"};
+				{ 17, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100"};
+				{ 19, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250"};
+				{ 20, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200"};
+				{ 21, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125"};
+				{ 22, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75"};
+				{ 23, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25"};
+				{ 25, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200"};
+				{ 26, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150"};
 			};
 		};
 		info = {

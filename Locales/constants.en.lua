@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 constants.en.lua
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
@@ -518,6 +518,8 @@ if AL then
 	AL["Glory of the Ulduar Raider (25 player)"] = true;
 	AL["Glory of the Icecrown Raider (10 player)"] = true;
 	AL["Glory of the Icecrown Raider (25 player)"] = true;
+	AL["Glory of the Cataclysm Hero"] = true;
+	AL["Glory of the Cataclysm Raider"] = true;
 	AL["Guild Glory of the Cataclysm Raider"] = true;
 	AL["Guild Level 25"] = true;
 	AL["Leading the Cavalry"] = true;
