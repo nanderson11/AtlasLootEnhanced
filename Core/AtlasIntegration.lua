@@ -8,7 +8,7 @@ local ATLAS_LOOT_BOSS_LINES	= 24;
 
 -- Colours stored for code readability
 local GREY = "|cff999999";
-local RED = "|cffff0000";
+local RED = "|cffcc3333";
 local WHITE = "|cffFFFFFF";
 local GREEN = "|cff1eff00";
 local PURPLE = "|cff9F3FFF";
@@ -143,7 +143,7 @@ function AtlasLoot:AtlasRefreshHook()
     --Setup info panel above boss listing
     local tName = base.ZoneName[1];
     if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
-        local _RED = "|cffcc6666";
+        local _RED = "|cffcc3333";
         tName = tName.._RED.." ["..base.Acronym.."]";
     end
     AtlasText_ZoneName_Text:SetText(tName);
