@@ -1155,7 +1155,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 63444, "", "=q3=Baron Silverlaine's Greaves", "=ds=#s12#, #a4#" };
 				{ 20, 63438, "", "=q3=Baroness Silverlaine's Locket", "=ds=#s2#" };
 				{ 21, 63441, "", "=q3=Pendant of the Keep", "=ds=#s2#" };
-				{ 23, 60885, "", "=q3=Silverlaine Family Sword", "=ds=#m3#" };
+				{ 23, 60885, "", "=q1=Silverlaine Family Sword", "=ds=#m3#" };
 			};
 		};
 		info = {
@@ -1251,7 +1251,27 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
 				{ 10, 59483, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
 				{ 11, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
-				{ 12, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
+				{ 12, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 13, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65135, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
+				{ 2, 65138, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
+				{ 2, 0, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
+				{ 3, 0, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 3, 65144, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
+				{ 4, 65136, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
+				{ 5, 65141, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 6, 65142, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
+				{ 7, 65143, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
+				{ 8, 65137, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
+				{ 9, 0, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 10, 65134, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
+				{ 11, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
+				{ 12, 65133, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 13, 65139, "", "=q4=Malevolence", "=ds=#w9#", ""};
 			};
 		};
 		info = {
@@ -1264,7 +1284,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
-				{ 2, 59512, "", "=q4=Theralion's Mirror", "=ds=#s2#", ""};
+				{ 2, 59512, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
 				{ 3, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
 				{ 4, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
 			};
@@ -3808,14 +3828,14 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WorldEpics85"] = {
 		["Normal"] = {
 			{
-				{ 1, 67131, "", "=q4=Placeholder name", "=ds=#s4#"};
-				{ 2, 67144, "", "=q4=Placeholder name", "=ds=#s3#, #a4#"};
-				{ 3, 67143, "", "=q4=Placeholder name", "=ds=#s5#, #a4#"};
-				{ 4, 67141, "", "=q4=Placeholder name", "=ds=#s11#, #a4#"};
-				{ 5, 67138, "", "=q4=Placeholder name", "=ds=#s2#"};
-				{ 6, 67139, "", "=q4=Placeholder name", "=ds=#s13#"};
-				{ 7, 67129, "", "=q4=Placeholder name", "=ds=#s13#"};
-				{ 8, 67149, "", "=q4=Placeholder name", "=ds=#s14#"};
+				{ 1, 67131, "", "=q4=Ritssyn's Ruminous Drape", "=ds=#s4#"};
+				{ 2, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
+				{ 3, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
+				{ 4, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
+				{ 5, 67138, "", "=q4=Buc-Zakai Choker", "=ds=#s2#"};
+				{ 6, 67139, "", "=q4=Blauvelt's Family Crest", "=ds=#s13#"};
+				{ 7, 67129, "", "=q4=Signet of High Arcanist Savor", "=ds=#s13#"};
+				{ 8, 67149, "", "=q4=Heartbound Tome", "=ds=#s14#"};
 			};
 		};
 		info = {

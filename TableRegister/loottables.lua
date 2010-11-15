@@ -1614,6 +1614,13 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { AL["PvP Accessories"].." "..AL["Level 70"], "AtlasLootBurningCrusade"},
 		},
+		["AlteracValley"] = {
+			["Bosses"] = {
+				{ "AVMisc" },
+				{ "AVBlue" },
+			},
+			["Info"] = { BabbleZone["Alterac Valley"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
+		},
 	},
 	
 	["Sets"] = {

@@ -26,7 +26,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 24, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 25, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 26, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 27, "T11SET", "inv_chest_plate_26", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
+				{ 27, "T11SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
 			};
 		};
 		info = {

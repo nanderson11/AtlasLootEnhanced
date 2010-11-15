@@ -29,10 +29,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 2, "ABMisc", "INV_Jewelry_Amulet_07", "=ds="..AL["Misc. Rewards"], "=q5="..BabbleZone["Arathi Basin"]};
-				{ 3, "ABSets1", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
+				{ 3, "ABSets", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
 				{ 5, "WSGMisc", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], "=q5="..BabbleZone["Warsong Gulch"]};
 				{ 6, "WSGAccessories", "INV_Misc_Rune_07", "=ds="..AL["Accessories"], "=q5="..BabbleZone["Warsong Gulch"]};
-				{ 8, "AVMisc", "INV_Jewelry_Necklace_21", "=ds="..BabbleZone["Alterac Valley"], ""};
+				{ 8, "AlteracValley", "INV_Jewelry_Necklace_21", "=ds="..BabbleZone["Alterac Valley"], ""};
 				{ 10, "Hellfire", "INV_Misc_Token_HonorHold", "=ds="..BabbleZone["Hellfire Peninsula"], "=q5="..AL["Hellfire Fortifications"]};
 				{ 11, "Zangarmarsh", "Spell_Nature_ElementalPrecision_1", "=ds="..BabbleZone["Zangarmarsh"], "=q5="..AL["Twin Spire Ruins"]};
 				{ 13, "WINTERGRASPMENU", "INV_Misc_Platnumdisks", "=ds="..BabbleZone["Wintergrasp"], ""};
@@ -86,7 +86,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["PvP Armor Sets"]..": "..AL["Level 60"],
-			menu = "PVPMENU",
+			menu = "PVPMENU3",
 		};
 	}
 
@@ -114,7 +114,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["PvP Armor Sets"]..": "..AL["Level 70"],
-			menu = "PVPMENU",
+			menu = "PVPMENU3",
 		};
 	}
 	
@@ -134,7 +134,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["PvP Reputation Sets"]..": "..AL["Level 70"],
-			menu = "PVPMENU",
+			menu = "PVPMENU3",
 		};
 	}
 

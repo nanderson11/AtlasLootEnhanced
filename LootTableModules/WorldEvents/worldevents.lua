@@ -337,8 +337,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 49078, "", "=q4=Ancient Pickled Egg", "=ds=#s14#"};
-				{ 2, 49118, "", "=q4=Bubbling Balebrew Charm", "=ds=#s14#"};
-				{ 3, 49116, "", "=q4=Bitter Brightbrew Charm", "=ds=#s14#"};
+				{ 2, 49118, "", "=q4=Bubbling Brightbrew Charm", "=ds=#s14#"};
+				{ 3, 49116, "", "=q4=Bitter Balebrew Charm", "=ds=#s14#"};
 				{ 4, 49080, "", "=q4=Brawler's Souvenir", "=ds=#s14#"};
 				{ 5, 49074, "", "=q4=Coren's Chromium Coaster", "=ds=#s14#"};
 				{ 6, 49076, "", "=q4=Mithril Pocketwatch", "=ds=#s14#"};

@@ -4515,7 +4515,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 28553, "", "=q4=Band of the Exorcist", "=ds=#s13#", "50 #spiritshard#", ""};
-				{ 2, 28557, "", "=q3=Swift Starfire Diamond", "=ds=#e7#", "8 #spiritshard#", ""};
+				{ 2, 28557, "", "=q3=Quickened Starfire Diamond", "=ds=#e7#", "8 #spiritshard#", ""};
 				{ 3, 28759, "", "=q3=Exorcist's Dreadweave Hood", "=ds=#a1# #s1#", "18 #spiritshard#", ""};
 				{ 4, 28574, "", "=q3=Exorcist's Dragonhide Helm", "=ds=#a2# #s1#", "18 #spiritshard#", ""};
 				{ 5, 28575, "", "=q3=Exorcist's Wyrmhide Helm", "=ds=#a2# #s1#", "18 #spiritshard#", ""};

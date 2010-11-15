@@ -6257,316 +6257,339 @@ local moduleName = "AtlasLootClassicWoW"
 		----------------------
 
 	AtlasLoot_Data["AVMisc"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b1#"};
-		{ 2, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26#", "2000 #honor#"};
-		{ 3, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "125 #honor#"};
-		{ 4, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "125 #honor#"};
-		{ 7, 17348, "", "=q1=Major Healing Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
-		{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
-		{ 9, 19301, "", "=q1=Alterac Manna Biscuit", "=ds=#e3#", "70 #silver#"};
-		{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b2#"};
-		{ 17, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26#", "2000 #honor#"};
-		{ 18, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "125 #honor#"};
-		{ 19, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "125 #honor#"};
-		{ 21, 17351, "", "=q1=Major Mana Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
-		{ 22, 17352, "", "=q1=Superior Mana Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
-		{ 23, 19318, "", "=q1=Bottled Alterac Spring Water", "=ds=#e4#", "50 #silver#"};
-		Next = "AVBlue_A";
-		Back = "PVPMENU2";
-	};
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b1#"};
+				{ 2, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26#", "2000 #honor#"};
+				{ 3, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "500 #honor#"};
+				{ 4, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "2678 #honor#"};
+				{ 7, 17348, "", "=q1=Major Healing Draught", "=ds=#e2#", "10 #silver# 8 #honor#"};
+				{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# 1 #honor#"};
+				{ 9, 19301, "", "=q1=Alterac Manna Biscuit", "=ds=#e3#", "70 #silver#"};
+				{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b2#"};
+				{ 17, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26#", "2000 #honor#"};
+				{ 18, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "500 #honor#"};
+				{ 19, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "2678 #honor#"};
+				{ 21, 17351, "", "=q1=Major Mana Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
+				{ 22, 17352, "", "=q1=Superior Mana Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
+				{ 23, 19318, "", "=q1=Bottled Alterac Spring Water", "=ds=#e4#", "50 #silver#"};
+			};
+		};
+		info = {
+			name = BabbleZone["Alterac Valley"].." "..AL["Misc. Rewards"],
+			module = moduleName, menu = "PVPMENU2", instance = "AlteracValley",
+		};
+	}
 
-	AtlasLoot_Data["AVBlue_A"] = {
-		{ 2, 19086, "", "=q3=Stormpike Sage's Cloak", "=ds=#s4#", "50 #honor#"};
-		{ 3, 19084, "", "=q3=Stormpike Soldier's Cloak", "=ds=#s4#", "50 #honor#"};
-		{ 4, 19094, "", "=q3=Stormpike Cloth Girdle", "=ds=#s10#, #a1#", "60 #honor#"};
-		{ 5, 19093, "", "=q3=Stormpike Leather Girdle", "=ds=#s10#, #a2#", "60 #honor#"};
-		{ 6, 19092, "", "=q3=Stormpike Mail Girdle", "=ds=#s10#, #a3#", "60 #honor#"};
-		{ 7, 19091, "", "=q3=Stormpike Plate Girdle", "=ds=#s10#, #a4#", "60 #honor#"};
-		{ 8, 19098, "", "=q3=Stormpike Sage's Pendant", "=ds=#s2#", "50 #honor#"};
-		{ 9, 19097, "", "=q3=Stormpike Soldier's Pendant", "=ds=#s2#", "50 #honor#"};
-		{ 10, 19100, "", "=q3=Electrified Dagger", "=ds=#h1#, #w4#", "2400 #alliance#"};
-		{ 11, 19104, "", "=q3=Stormstrike Hammer", "=ds=#h1#, #w6#", "2400 #alliance#"};
-		{ 12, 19102, "", "=q3=Crackling Staff", "=ds=#w9#", "60 #honor#"};
-		{ 13, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "50 #honor#"};
-		{ 14, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "50 #honor#"};
-		{ 17, 19325, "", "=q4=Don Julio's Band", "=ds=#s13#", "5000 #faction#"};
-		{ 18, 21563, "", "=q4=Don Rodrigo's Band", "=ds=#s13#", "5000 #faction#"};
-		{ 19, 19312, "", "=q4=Lei of the Lifegiver", "=ds=#s15#", "5000 #faction#"};
-		{ 20, 19315, "", "=q4=Therazane's Touch", "=ds=#s15#", "5000 #faction#"};
-		{ 21, 19308, "", "=q4=Tome of Arcane Domination", "=ds=#s15#", "5000 #faction#"};
-		{ 22, 19309, "", "=q4=Tome of Shadow Force", "=ds=#s15#", "5000 #faction#"};
-		{ 23, 19311, "", "=q4=Tome of Fiery Arcana", "=ds=#s15#", "5000 #faction#"};
-		{ 24, 19310, "", "=q4=Tome of the Ice Lord", "=ds=#s15#", "5000 #faction#"};
-		{ 25, 19324, "", "=q4=The Lobotomizer", "=ds=#h1#, #w4#", "5000 #faction#"};
-		{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "5000 #faction#"};
-		{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "5000 #faction#"};
-		Prev = "AVMisc";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["AVBlue_H"] = {
-		{ 2, 19085, "", "=q3=Frostwolf Advisor's Cloak", "=ds=#s4#", "50 #honor#"};
-		{ 3, 19083, "", "=q3=Frostwolf Legionnaire's Cloak", "=ds=#s4#", "50 #honor#"};
-		{ 4, 19090, "", "=q3=Frostwolf Cloth Belt", "=ds=#s10#, #a1#", "60 #honor#"};
-		{ 5, 19089, "", "=q3=Frostwolf Leather Belt", "=ds=#s10#, #a2#", "60 #honor#"};
-		{ 6, 19088, "", "=q3=Frostwolf Mail Belt", "=ds=#s10#, #a3#", "60 #honor#"};
-		{ 7, 19087, "", "=q3=Frostwolf Plate Belt", "=ds=#s10#, #a4#", "60 #honor#"};
-		{ 8, 19096, "", "=q3=Frostwolf Advisor's Pendant", "=ds=#s2#", "50 #honor#"};
-		{ 9, 19095, "", "=q3=Frostwolf Legionnaire's Pendant", "=ds=#s2#", "50 #honor#"};
-		{ 10, 19099, "", "=q3=Glacial Blade", "=ds=#h1#, #w4#", "2400 #horde#"};
-		{ 11, 19103, "", "=q3=Frostbite", "=ds=#h1#, #w6#", "2400 #horde#"};
-		{ 12, 19101, "", "=q3=Whiteout Staff", "=ds=#w9#", "60 #honor#"};
-		{ 13, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "50 #honor#"};
-		{ 14, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "50 #honor#"};
-		{ 17, 19325, "", "=q4=Don Julio's Band", "=ds=#s13#", "5000 #faction#"};
-		{ 18, 21563, "", "=q4=Don Rodrigo's Band", "=ds=#s13#", "5000 #faction#"};
-		{ 19, 19312, "", "=q4=Lei of the Lifegiver", "=ds=#s15#", "5000 #faction#"};
-		{ 20, 19315, "", "=q4=Therazane's Touch", "=ds=#s15#", "5000 #faction#"};
-		{ 21, 19308, "", "=q4=Tome of Arcane Domination", "=ds=#s15#", "5000 #faction#"};
-		{ 22, 19309, "", "=q4=Tome of Shadow Force", "=ds=#s15#", "5000 #faction#"};
-		{ 23, 19311, "", "=q4=Tome of Fiery Arcana", "=ds=#s15#", "5000 #faction#"};
-		{ 24, 19310, "", "=q4=Tome of the Ice Lord", "=ds=#s15#", "5000 #faction#"};
-		{ 25, 19324, "", "=q4=The Lobotomizer", "=ds=#h1#, #w4#", "5000 #faction#"};
-		{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "5000 #faction#"};
-		{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "5000 #faction#"};
-		Prev = "AVMisc";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["AVBlue"] = {
+		["Normal_A"] = {
+			{
+				{ 2, 19086, "", "=q3=Stormpike Sage's Cloak", "=ds=#s4#", "50 #honor#"};
+				{ 3, 19084, "", "=q3=Stormpike Soldier's Cloak", "=ds=#s4#", "50 #honor#"};
+				{ 4, 19094, "", "=q3=Stormpike Cloth Girdle", "=ds=#s10#, #a1#", "60 #honor#"};
+				{ 5, 19093, "", "=q3=Stormpike Leather Girdle", "=ds=#s10#, #a2#", "60 #honor#"};
+				{ 6, 19092, "", "=q3=Stormpike Mail Girdle", "=ds=#s10#, #a3#", "60 #honor#"};
+				{ 7, 19091, "", "=q3=Stormpike Plate Girdle", "=ds=#s10#, #a4#", "60 #honor#"};
+				{ 8, 19098, "", "=q3=Stormpike Sage's Pendant", "=ds=#s2#", "50 #honor#"};
+				{ 9, 19097, "", "=q3=Stormpike Soldier's Pendant", "=ds=#s2#", "50 #honor#"};
+				{ 10, 19100, "", "=q3=Electrified Dagger", "=ds=#h1#, #w4#", "175 #honor#"};
+				{ 11, 19104, "", "=q3=Stormstrike Hammer", "=ds=#h1#, #w6#", "175 #honor#"};
+				{ 12, 19102, "", "=q3=Crackling Staff", "=ds=#w9#", "60 #honor#"};
+				{ 13, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "50 #honor#"};
+				{ 14, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "50 #honor#"};
+				{ 17, 19325, "", "=q4=Don Julio's Band", "=ds=#s13#", "50 #honor#"};
+				{ 18, 21563, "", "=q4=Don Rodrigo's Band", "=ds=#s13#", "50 #honor#"};
+				{ 19, 19312, "", "=q4=Lei of the Lifegiver", "=ds=#s15#", "50 #honor#"};
+				{ 20, 19315, "", "=q4=Therazane's Touch", "=ds=#s15#", "50 #honor#"};
+				{ 21, 19308, "", "=q4=Tome of Arcane Domination", "=ds=#s15#", "50 #honor#"};
+				{ 22, 19309, "", "=q4=Tome of Shadow Force", "=ds=#s15#", "50 #honor#"};
+				{ 23, 19311, "", "=q4=Tome of Fiery Arcana", "=ds=#s15#", "50 #honor#"};
+				{ 24, 19310, "", "=q4=Tome of the Ice Lord", "=ds=#s15#", "50 #honor#"};
+				{ 25, 19324, "", "=q4=The Lobotomizer", "=ds=#h1#, #w4#", "165 #honor#"};
+				{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "50 #honor#"};
+				{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "250 #honor#"};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 2, 19085, "", "=q3=Frostwolf Advisor's Cloak", "=ds=#s4#", "50 #honor#"};
+				{ 3, 19083, "", "=q3=Frostwolf Legionnaire's Cloak", "=ds=#s4#", "50 #honor#"};
+				{ 4, 19090, "", "=q3=Frostwolf Cloth Belt", "=ds=#s10#, #a1#", "60 #honor#"};
+				{ 5, 19089, "", "=q3=Frostwolf Leather Belt", "=ds=#s10#, #a2#", "60 #honor#"};
+				{ 6, 19088, "", "=q3=Frostwolf Mail Belt", "=ds=#s10#, #a3#", "60 #honor#"};
+				{ 7, 19087, "", "=q3=Frostwolf Plate Belt", "=ds=#s10#, #a4#", "60 #honor#"};
+				{ 8, 19096, "", "=q3=Frostwolf Advisor's Pendant", "=ds=#s2#", "50 #honor#"};
+				{ 9, 19095, "", "=q3=Frostwolf Legionnaire's Pendant", "=ds=#s2#", "50 #honor#"};
+				{ 10, 19099, "", "=q3=Glacial Blade", "=ds=#h1#, #w4#", "175 #honor#"};
+				{ 11, 19103, "", "=q3=Frostbite", "=ds=#h1#, #w6#", "175 #honor#"};
+				{ 12, 19101, "", "=q3=Whiteout Staff", "=ds=#w9#", "60 #honor#"};
+				{ 13, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "50 #honor#"};
+				{ 14, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "50 #honor#"};
+				{ 17, 19325, "", "=q4=Don Julio's Band", "=ds=#s13#", "50 #honor#"};
+				{ 18, 21563, "", "=q4=Don Rodrigo's Band", "=ds=#s13#", "50 #honor#"};
+				{ 19, 19312, "", "=q4=Lei of the Lifegiver", "=ds=#s15#", "50 #honor#"};
+				{ 20, 19315, "", "=q4=Therazane's Touch", "=ds=#s15#", "50 #honor#"};
+				{ 21, 19308, "", "=q4=Tome of Arcane Domination", "=ds=#s15#", "50 #honor#"};
+				{ 22, 19309, "", "=q4=Tome of Shadow Force", "=ds=#s15#", "50 #honor#"};
+				{ 23, 19311, "", "=q4=Tome of Fiery Arcana", "=ds=#s15#", "50 #honor#"};
+				{ 24, 19310, "", "=q4=Tome of the Ice Lord", "=ds=#s15#", "50 #honor#"};
+				{ 25, 19324, "", "=q4=The Lobotomizer", "=ds=#h1#, #w4#", "165 #honor#"};
+				{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "50 #honor#"};
+				{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "250 #honor#"};
+			};
+		};
+		info = {
+			name = BabbleZone["Alterac Valley"],
+			module = moduleName, menu = "PVPMENU2"
+		};
+	}
 
 		--------------------
 		--- Arathi Basin ---
 		--------------------
 
-	AtlasLoot_Data["ABMisc_A"] = {
-		{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #alliance#", ""};
-		{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #alliance#", ""};
-		{ 4, 20225, "", "=q1=Highlander's Enriched Ration", "=ds=", "18 #silver#", ""};
-		{ 5, 20227, "", "=q1=Highlander's Iron Ration", "=ds=", "13,5 #silver#", ""};
-		{ 6, 20226, "", "=q1=Highlander's Field Ration", "=ds=", "9 #silver#", ""};
-		{ 7, 20243, "", "=q1=Highlander's Runecloth Bandage", "=ds=", "18 #silver#", ""};
-		{ 8, 20237, "", "=q1=Highlander's Mageweave Bandage", "=ds=", "13,5 #silver#", ""};
-		{ 9, 20244, "", "=q1=Highlander's Silk Bandage", "=ds=", "9 #silver#", ""};
-		{ 11, 21119, "", "=q3=Talisman of Arathor", "=ds=", "45 #honor#", ""};
-		{ 12, 21118, "", "=q3=Talisman of Arathor", "=ds=", "45 #honor#", ""};
-		{ 13, 21117, "", "=q3=Talisman of Arathor", "=ds=", "400 #alliance#", ""};
-		{ 14, 20071, "", "=q3=Talisman of Arathor", "=ds=", "60 #honor#", ""};
-		{ 17, 0, "INV_BannerPVP_02", "=q6="..AL["Level 60 Rewards"], "=q5=#b5#" };
-		{ 18, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "105 #honor#", ""};
-		{ 19, 20070, "", "=q4=Sageclaw", "=ds=", "70 #honor#", ""};
-		{ 20, 20069, "", "=q4=Ironbark Staff", "=ds=", "16000 #alliance#", ""};
-		Next = "AB4049_A";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["ABMisc"] = {
+		["Normal_A"] = {
+			{
+				{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 4, 20225, "", "=q1=Highlander's Enriched Ration", "=ds=", "18 #silver#", ""};
+				{ 5, 20227, "", "=q1=Highlander's Iron Ration", "=ds=", "13,5 #silver#", ""};
+				{ 6, 20226, "", "=q1=Highlander's Field Ration", "=ds=", "9 #silver#", ""};
+				{ 7, 20243, "", "=q1=Highlander's Runecloth Bandage", "=ds=", "18 #silver#", ""};
+				{ 8, 20237, "", "=q1=Highlander's Mageweave Bandage", "=ds=", "13,5 #silver#", ""};
+				{ 9, 20244, "", "=q1=Highlander's Silk Bandage", "=ds=", "9 #silver#", ""};
+				{ 11, 21119, "", "=q3=Talisman of Arathor", "=ds=", "25 #honor#", ""};
+				{ 12, 21118, "", "=q3=Talisman of Arathor", "=ds=", "35 #honor#", ""};
+				{ 13, 21117, "", "=q3=Talisman of Arathor", "=ds=", "45 #honor#", ""};
+				{ 14, 20071, "", "=q3=Talisman of Arathor", "=ds=", "55 #honor#", ""};
+				{ 17, 0, "INV_BannerPVP_02", "=q6="..AL["Level 60 Rewards"], "=q5=#b5#" };
+				{ 18, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "85 #honor#", ""};
+				{ 19, 20070, "", "=q4=Sageclaw", "=ds=", "130 #honor#", ""};
+				{ 20, 20069, "", "=q4=Ironbark Staff", "=ds=", "185 #honor#", ""};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 4, 20222, "", "=q1=Defiler's Enriched Ration", "=ds=", "18 #silver#", ""};
+				{ 5, 20224, "", "=q1=Defiler's Iron Ration", "=ds=", "15 #silver#", ""};
+				{ 6, 20223, "", "=q1=Defiler's Field Ration", "=ds=", "9 #silver#", ""};
+				{ 7, 20234, "", "=q1=Defiler's Runecloth Bandage", "=ds=", "18 #silver#", ""};
+				{ 8, 20232, "", "=q1=Defiler's Mageweave Bandage", "=ds=", "15 #silver#", ""};
+				{ 9, 20235, "", "=q1=Defiler's Silk Bandage", "=ds=", "9 #silver#", ""};
+				{ 11, 21116, "", "=q3=Defiler's Talisman", "=ds=", "25 #honor#", ""};
+				{ 12, 21120, "", "=q3=Defiler's Talisman", "=ds=", "35 #honor#", ""};
+				{ 13, 21115, "", "=q3=Defiler's Talisman", "=ds=", "45 #honor#", ""};
+				{ 14, 20072, "", "=q3=Defiler's Talisman", "=ds=", "55 #honor#", ""};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Level 60 Rewards"], "=q5=#b6#"};
+				{ 17, 20068, "", "=q4=Deathguard's Cloak", "=ds=", "85 #honor#", ""};
+				{ 25, 20214, "", "=q4=Mindfang", "=ds=", "130 #honor#", ""};
+				{ 26, 20220, "", "=q4=Ironbark Staff", "=ds=", "185 #honor#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Arathi Basin"].." "..AL["Misc. Rewards"],
+			module = moduleName, menu = "PVPMENU2"
+		};
+	}
 
-	AtlasLoot_Data["AB4049_A"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b5#"};
-		{ 2, 20097, "", "=q3=Highlander's Cloth Girdle", "=ds=", "400 #alliance#", ""};
-		{ 3, 20094, "", "=q3=Highlander's Cloth Boots", "=ds=", "400 #alliance#", ""};
-		{ 4, 20115, "", "=q3=Highlander's Leather Girdle", "=ds=", "400 #alliance#", ""};
-		{ 5, 20103, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "400 #alliance#", ""};
-		{ 6, 20112, "", "=q3=Highlander's Leather Boots", "=ds=", "400 #alliance#", ""};
-		{ 7, 20100, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "400 #alliance#", ""};
-		{ 8, 20089, "", "=q3=Highlander's Chain Girdle", "=ds=", "45 #honor#", ""};
-		{ 9, 20088, "", "=q3=Highlander's Chain Girdle", "=ds=", "400 #alliance#", ""};
-		{ 10, 20119, "", "=q3=Highlander's Mail Girdle", "=ds=", "45 #honor#", ""};
-		{ 11, 20118, "", "=q3=Highlander's Mail Girdle", "=ds=", "400 #alliance#", ""};
-		{ 12, 20092, "", "=q3=Highlander's Chain Greaves", "=ds=", "45 #honor#", ""};
-		{ 13, 20091, "", "=q3=Highlander's Chain Greaves", "=ds=", "400 #alliance#", ""};
-		{ 14, 20122, "", "=q3=Highlander's Mail Greaves", "=ds=", "45 #honor#", ""};
-		{ 15, 20121, "", "=q3=Highlander's Mail Greaves", "=ds=", "400 #alliance#", ""};
-		{ 17, 20107, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "45 #honor#", ""};
-		{ 18, 20106, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "400 #alliance#", ""};
-		{ 19, 20125, "", "=q3=Highlander's Plate Girdle", "=ds=", "45 #honor#", ""};
-		{ 20, 20124, "", "=q3=Highlander's Plate Girdle", "=ds=", "400 #alliance#", ""};
-		{ 21, 20110, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "45 #honor#", ""};
-		{ 22, 20109, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "400 #alliance#", ""};
-		{ 23, 20128, "", "=q3=Highlander's Plate Greaves", "=ds=", "45 #honor#", ""};
-		{ 24, 20127, "", "=q3=Highlander's Plate Greaves", "=ds=", "400 #alliance#", ""};
-		Prev = "ABMisc_A";
-		Next = "AB2039_A";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["AB4049"] = {
+		["Normal_A"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b5#"};
+				{ 2, 20097, "", "=q3=Highlander's Cloth Girdle", "=ds=", "70 #honor#", ""};
+				{ 3, 20094, "", "=q3=Highlander's Cloth Boots", "=ds=", "70 #honor#", ""};
+				{ 4, 20115, "", "=q3=Highlander's Leather Girdle", "=ds=", "70 #honor#", ""};
+				{ 5, 20103, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "70 #honor#", ""};
+				{ 6, 20112, "", "=q3=Highlander's Leather Boots", "=ds=", "70 #honor#", ""};
+				{ 7, 20100, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "70 #honor#", ""};
+				{ 8, 20089, "", "=q3=Highlander's Chain Girdle", "=ds=", "55 #honor#", ""};
+				{ 9, 20088, "", "=q3=Highlander's Chain Girdle", "=ds=", "70 #honor#", ""};
+				{ 10, 20119, "", "=q3=Highlander's Mail Girdle", "=ds=", "55 #honor#", ""};
+				{ 11, 20118, "", "=q3=Highlander's Mail Girdle", "=ds=", "70 #honor#", ""};
+				{ 12, 20092, "", "=q3=Highlander's Chain Greaves", "=ds=", "55 #honor#", ""};
+				{ 13, 20091, "", "=q3=Highlander's Chain Greaves", "=ds=", "70 #honor#", ""};
+				{ 14, 20122, "", "=q3=Highlander's Mail Greaves", "=ds=", "55 #honor#", ""};
+				{ 15, 20121, "", "=q3=Highlander's Mail Greaves", "=ds=", "70 #honor#", ""};
+				{ 17, 20107, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "55 #honor#", ""};
+				{ 18, 20106, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "70 #honor#", ""};
+				{ 19, 20125, "", "=q3=Highlander's Plate Girdle", "=ds=", "55 #honor#", ""};
+				{ 20, 20124, "", "=q3=Highlander's Plate Girdle", "=ds=", "70 #honor#", ""};
+				{ 21, 20110, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "55 #honor#", ""};
+				{ 22, 20109, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "70 #honor#", ""};
+				{ 23, 20128, "", "=q3=Highlander's Plate Greaves", "=ds=", "55 #honor#", ""};
+				{ 24, 20127, "", "=q3=Highlander's Plate Greaves", "=ds=", "70 #honor#", ""};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b6#"};
+				{ 2, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "70 #honor#", ""};
+				{ 3, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "70 #honor#", ""};
+				{ 4, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "70 #honor#", ""};
+				{ 5, 20174, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "70 #honor#", ""};
+				{ 6, 20189, "", "=q3=Defiler's Leather Boots", "=ds=", "70 #honor#", ""};
+				{ 7, 20170, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "70 #honor#", ""};
+				{ 8, 20153, "", "=q3=Defiler's Chain Girdle", "=ds=", "55 #honor#", ""};
+				{ 9, 20151, "", "=q3=Defiler's Chain Girdle", "=ds=", "70 #honor#", ""};
+				{ 10, 20198, "", "=q3=Defiler's Mail Girdle", "=ds=", "55 #honor#", ""};
+				{ 11, 20196, "", "=q3=Defiler's Mail Girdle", "=ds=", "70 #honor#", ""};
+				{ 12, 20156, "", "=q3=Defiler's Chain Greaves", "=ds=", "55 #honor#", ""};
+				{ 13, 20155, "", "=q3=Defiler's Chain Greaves", "=ds=", "70 #honor#", ""};
+				{ 14, 20200, "", "=q3=Defiler's Mail Greaves", "=ds=", "55 #honor#", ""};
+				{ 15, 20202, "", "=q3=Defiler's Mail Greaves", "=ds=", "70 #honor#", ""};
+				{ 16, 20180, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "55 #honor#", ""};
+				{ 17, 20179, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "70 #honor#", ""};
+				{ 18, 20206, "", "=q3=Defiler's Plate Girdle", "=ds=", "55 #honor#", ""};
+				{ 19, 20205, "", "=q3=Defiler's Plate Girdle", "=ds=", "70 #honor#", ""};
+				{ 20, 20183, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "55 #honor#", ""};
+				{ 21, 20185, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "70 #honor#", ""};
+				{ 22, 20209, "", "=q3=Defiler's Plate Greaves", "=ds=", "55 #honor#", ""};
+				{ 23, 20211, "", "=q3=Defiler's Plate Greaves", "=ds=", "70 #honor#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Arathi Basin"].." "..AL["Level 40-49 Rewards"],
+			module = moduleName, menu = "PVPMENU2"
+		};
+	}
 
-	AtlasLoot_Data["AB2039_A"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b5#"};
-		{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "45 #honor#", ""};
-		{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "45 #honor#", ""};
-		{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "45 #honor#", ""};
-		{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
-		{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "45 #honor#", ""};
-		{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "45 #honor#", ""};
-		{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b5#" };
-		{ 17, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "45 #honor#", ""};
-		{ 18, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "45 #honor#", ""};
-		{ 19, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "45 #honor#", ""};
-		{ 20, 20105, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
-		{ 21, 20120, "", "=q3=Highlander's Mail Girdle", "=ds=", "45 #honor#", ""};
-		{ 22, 20090, "", "=q3=Highlander's Padded Girdle", "=ds=", "45 #honor#", ""};
-		{ 23, 20114, "", "=q3=Highlander's Leather Boots", "=ds=", "45 #honor#", ""};
-		{ 24, 20102, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "45 #honor#", ""};
-		{ 25, 20123, "", "=q3=Highlander's Mail Greaves", "=ds=", "45 #honor#", ""};
-		{ 26, 20093, "", "=q3=Highlander's Padded Greaves", "=ds=", "45 #honor#", ""};
-		{ 27, 20108, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "45 #honor#", ""};
-		{ 28, 20126, "", "=q3=Highlander's Mail Girdle", "=ds=", "45 #honor#", ""};
-		{ 29, 20111, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "45 #honor#", ""};
-		{ 30, 20129, "", "=q3=Highlander's Mail Greaves", "=ds=", "45 #honor#", ""};
-		Prev = "AB4049_A";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["AB2039"] = {
+		["Normal_A"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b5#"};
+				{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "45 #honor#", ""};
+				{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "45 #honor#", ""};
+				{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "45 #honor#", ""};
+				{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
+				{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "45 #honor#", ""};
+				{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "45 #honor#", ""};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b5#" };
+				{ 17, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "45 #honor#", ""};
+				{ 18, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "45 #honor#", ""};
+				{ 19, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "45 #honor#", ""};
+				{ 20, 20105, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
+				{ 21, 20120, "", "=q3=Highlander's Mail Girdle", "=ds=", "45 #honor#", ""};
+				{ 22, 20090, "", "=q3=Highlander's Padded Girdle", "=ds=", "45 #honor#", ""};
+				{ 23, 20114, "", "=q3=Highlander's Leather Boots", "=ds=", "45 #honor#", ""};
+				{ 24, 20102, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "45 #honor#", ""};
+				{ 25, 20123, "", "=q3=Highlander's Mail Greaves", "=ds=", "45 #honor#", ""};
+				{ 26, 20093, "", "=q3=Highlander's Padded Greaves", "=ds=", "45 #honor#", ""};
+				{ 27, 20108, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "45 #honor#", ""};
+				{ 28, 20126, "", "=q3=Highlander's Mail Girdle", "=ds=", "45 #honor#", ""};
+				{ 29, 20111, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "45 #honor#", ""};
+				{ 30, 20129, "", "=q3=Highlander's Mail Greaves", "=ds=", "45 #honor#", ""};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b6#"};
+				{ 2, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "45 #honor#", ""};
+				{ 3, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "45 #honor#", ""};
+				{ 4, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "45 #honor#", ""};
+				{ 5, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
+				{ 6, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "45 #honor#", ""};
+				{ 7, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "45 #honor#", ""};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b6#" };
+				{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "45 #honor#", ""};
+				{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "45 #honor#", ""};
+				{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "45 #honor#", ""};
+				{ 20, 20172, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
+				{ 21, 20152, "", "=q3=Defiler's Chain Girdle", "=ds=", "45 #honor#", ""};
+				{ 22, 20197, "", "=q3=Defiler's Padded Girdle", "=ds=", "45 #honor#", ""};
+				{ 23, 20188, "", "=q3=Defiler's Leather Boots", "=ds=", "45 #honor#", ""};
+				{ 24, 20169, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "45 #honor#", ""};
+				{ 25, 20201, "", "=q3=Defiler's Mail Greaves", "=ds=", "45 #honor#", ""};
+				{ 26, 20157, "", "=q3=Defiler's Chain Greaves", "=ds=", "45 #honor#", ""};
+				{ 27, 20178, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "45 #honor#", ""};
+				{ 28, 20207, "", "=q3=Defiler's Mail Girdle", "=ds=", "45 #honor#", ""};
+				{ 29, 20182, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "45 #honor#", ""};
+				{ 30, 20210, "", "=q3=Defiler's Mail Greaves", "=ds=", "45 #honor#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Arathi Basin"].." "..AL["Level 20-39 Rewards"],
+			module = moduleName, menu = "PVPMENU2"
+		};
+	}
 
-	AtlasLoot_Data["ABMisc_H"] = {
-		{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #horde#", ""};
-		{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #horde#", ""};
-		{ 4, 20222, "", "=q1=Defiler's Enriched Ration", "=ds=", "18 #silver#", ""};
-		{ 5, 20224, "", "=q1=Defiler's Iron Ration", "=ds=", "15 #silver#", ""};
-		{ 6, 20223, "", "=q1=Defiler's Field Ration", "=ds=", "9 #silver#", ""};
-		{ 7, 20234, "", "=q1=Defiler's Runecloth Bandage", "=ds=", "18 #silver#", ""};
-		{ 8, 20232, "", "=q1=Defiler's Mageweave Bandage", "=ds=", "15 #silver#", ""};
-		{ 9, 20235, "", "=q1=Defiler's Silk Bandage", "=ds=", "9 #silver#", ""};
-		{ 11, 21116, "", "=q3=Defiler's Talisman", "=ds=", "45 #honor#", ""};
-		{ 12, 21120, "", "=q3=Defiler's Talisman", "=ds=", "45 #honor#", ""};
-		{ 13, 21115, "", "=q3=Defiler's Talisman", "=ds=", "400 #horde#", ""};
-		{ 14, 20072, "", "=q3=Defiler's Talisman", "=ds=", "60 #honor#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Level 60 Rewards"], "=q5=#b6#"};
-		{ 17, 20068, "", "=q4=Deathguard's Cloak", "=ds=", "105 #honor#", ""};
-		{ 25, 20214, "", "=q4=Mindfang", "=ds=", "70 #honor#", ""};
-		{ 26, 20220, "", "=q4=Ironbark Staff", "=ds=", "16000 #horde#", ""};
-		Next = "AB4049_H";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["AB4049_H"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b6#"};
-		{ 2, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "400 #horde#", ""};
-		{ 3, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "400 #horde#", ""};
-		{ 4, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "400 #horde#", ""};
-		{ 5, 20174, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "400 #horde#", ""};
-		{ 6, 20189, "", "=q3=Defiler's Leather Boots", "=ds=", "400 #horde#", ""};
-		{ 7, 20170, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "400 #horde#", ""};
-		{ 8, 20153, "", "=q3=Defiler's Chain Girdle", "=ds=", "45 #honor#", ""};
-		{ 9, 20151, "", "=q3=Defiler's Chain Girdle", "=ds=", "400 #horde#", ""};
-		{ 10, 20198, "", "=q3=Defiler's Mail Girdle", "=ds=", "45 #honor#", ""};
-		{ 11, 20196, "", "=q3=Defiler's Mail Girdle", "=ds=", "400 #horde#", ""};
-		{ 12, 20156, "", "=q3=Defiler's Chain Greaves", "=ds=", "45 #honor#", ""};
-		{ 13, 20155, "", "=q3=Defiler's Chain Greaves", "=ds=", "400 #horde#", ""};
-		{ 14, 20200, "", "=q3=Defiler's Mail Greaves", "=ds=", "45 #honor#", ""};
-		{ 15, 20202, "", "=q3=Defiler's Mail Greaves", "=ds=", "400 #horde#", ""};
-		{ 16, 20180, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "45 #honor#", ""};
-		{ 17, 20179, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "400 #horde#", ""};
-		{ 18, 20206, "", "=q3=Defiler's Plate Girdle", "=ds=", "45 #honor#", ""};
-		{ 19, 20205, "", "=q3=Defiler's Plate Girdle", "=ds=", "400 #horde#", ""};
-		{ 20, 20183, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "45 #honor#", ""};
-		{ 21, 20185, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "400 #horde#", ""};
-		{ 22, 20209, "", "=q3=Defiler's Plate Greaves", "=ds=", "45 #honor#", ""};
-		{ 23, 20211, "", "=q3=Defiler's Plate Greaves", "=ds=", "400 #horde#", ""};
-		Prev = "ABMisc_H";
-		Next = "AB2039_H";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["AB2039_H"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b6#"};
-		{ 2, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "45 #honor#", ""};
-		{ 3, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "45 #honor#", ""};
-		{ 4, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "45 #honor#", ""};
-		{ 5, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
-		{ 6, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "45 #honor#", ""};
-		{ 7, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "45 #honor#", ""};
-		{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b6#" };
-		{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "45 #honor#", ""};
-		{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "45 #honor#", ""};
-		{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "45 #honor#", ""};
-		{ 20, 20172, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
-		{ 21, 20152, "", "=q3=Defiler's Chain Girdle", "=ds=", "45 #honor#", ""};
-		{ 22, 20197, "", "=q3=Defiler's Padded Girdle", "=ds=", "45 #honor#", ""};
-		{ 23, 20188, "", "=q3=Defiler's Leather Boots", "=ds=", "45 #honor#", ""};
-		{ 24, 20169, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "45 #honor#", ""};
-		{ 25, 20201, "", "=q3=Defiler's Mail Greaves", "=ds=", "45 #honor#", ""};
-		{ 26, 20157, "", "=q3=Defiler's Chain Greaves", "=ds=", "45 #honor#", ""};
-		{ 27, 20178, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "45 #honor#", ""};
-		{ 28, 20207, "", "=q3=Defiler's Mail Girdle", "=ds=", "45 #honor#", ""};
-		{ 29, 20182, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "45 #honor#", ""};
-		{ 30, 20210, "", "=q3=Defiler's Mail Greaves", "=ds=", "45 #honor#", ""};
-		Prev = "AB4049_H";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["ABSets1_A"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa1#", "=ec1=#c5#, #c3#, #c8#"};
-		{ 2, 20061, "", "=q4=Highlander's Epaulets", "=ds=", "70 #honor#", ""};
-		{ 3, 20047, "", "=q3=Highlander's Cloth Girdle", "=ds=", "60 #honor#", ""};
-		{ 4, 20054, "", "=q3=Highlander's Cloth Boots", "=ds=", "60 #honor#", ""};
-		{ 6, 0, "INV_BannerPVP_02", "=q6=#absa2#", "=ec1=#c6#, #c1#"};
-		{ 7, 20059, "", "=q4=Highlander's Leather Shoulders", "=ds=", "70 #honor#", ""};
-		{ 8, 20045, "", "=q3=Highlander's Leather Girdle", "=ds=", "60 #honor#", ""};
-		{ 9, 20052, "", "=q3=Highlander's Leather Boots", "=ds=", "60 #honor#", ""};
-		{ 11, 0, "INV_BannerPVP_02", "=q6=#absa3#", "=ec1=#c6#, #c1#"};
-		{ 12, 20060, "", "=q4=Highlander's Lizardhide Shoulders", "=ds=", "70 #honor#", ""};
-		{ 13, 20046, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "60 #honor#", ""};
-		{ 14, 20053, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "60 #honor#", ""};
-		{ 16, 0, "INV_BannerPVP_02", "=q6=#absa4#", "=ec1=#c2#, #c7#"};
-		{ 17, 20055, "", "=q4=Highlander's Chain Pauldrons", "=ds=", "70 #honor#", ""};
-		{ 18, 20043, "", "=q3=Highlander's Chain Girdle", "=ds=", "60 #honor#", ""};
-		{ 19, 20050, "", "=q3=Highlander's Chain Greaves", "=ds=", "60 #honor#", ""};
-		{ 21, 0, "INV_BannerPVP_02", "=q6=#absa5#", "=ec1=#c2#, #c7#"};
-		{ 22, 20056, "", "=q4=Highlander's Mail Pauldrons", "=ds=", "70 #honor#", ""};
-		{ 23, 20044, "", "=q3=Highlander's Mail Girdle", "=ds=", "60 #honor#", ""};
-		{ 24, 20051, "", "=q3=Highlander's Mail Greaves", "=ds=", "60 #honor#", ""};
-		{ 26, 0, "INV_BannerPVP_02", "=q6=#absa6#", "=ec1=#c9#, #c4#"};
-		{ 27, 20057, "", "=q4=Highlander's Plate Spaulders", "=ds=", "70 #honor#", ""};
-		{ 28, 20041, "", "=q3=Highlander's Plate Girdle", "=ds=", "60 #honor#", ""};
-		{ 29, 20048, "", "=q3=Highlander's Plate Greaves", "=ds=", "60 #honor#", ""};
-		Next = "ABSets2_A";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["ABSets1_H"] = {
-		{ 1, 0, "INV_BannerPVP_01", "=q6=#absh1#", "=ec1=#c5#, #c3#, #c8#"};
-		{ 2, 20176, "", "=q4=Defiler's Epaulets", "=ds=", "70 #honor#", ""};
-		{ 3, 20163, "", "=q3=Defiler's Cloth Girdle", "=ds=", "60 #honor#", ""};
-		{ 4, 20159, "", "=q3=Defiler's Cloth Boots", "=ds=", "60 #honor#", ""};
-		{ 6, 0, "INV_BannerPVP_01", "=q6=#absh2#", "=ec1=#c6#, #c1#"};
-		{ 7, 20194, "", "=q4=Defiler's Leather Shoulders", "=ds=", "70 #honor#", ""};
-		{ 8, 20190, "", "=q3=Defiler's Leather Girdle", "=ds=", "60 #honor#", ""};
-		{ 9, 20186, "", "=q3=Defiler's Leather Boots", "=ds=", "60 #honor#", ""};
-		{ 11, 0, "INV_BannerPVP_01", "=q6=#absh3#", "=ec1=#c6#, #c1#"};
-		{ 12, 20175, "", "=q4=Defiler's Lizardhide Shoulders", "=ds=", "70 #honor#", ""};
-		{ 13, 20171, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "60 #honor#", ""};
-		{ 14, 20167, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "60 #honor#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh4#", "=ec1=#c2#, #c7#"};
-		{ 17, 20158, "", "=q3=Defiler's Chain Pauldrons", "=ds=", "70 #honor#", ""};
-		{ 18, 20150, "", "=q3=Defiler's Chain Girdle", "=ds=", "60 #honor#", ""};
-		{ 19, 20154, "", "=q3=Defiler's Chain Greaves", "=ds=", "60 #honor#", ""};
-		{ 21, 0, "INV_BannerPVP_01", "=q6=#absh5#", "=ec1=#c2#, #c7#"};
-		{ 22, 20203, "", "=q4=Defiler's Mail Pauldrons", "=ds=", "70 #honor#", ""};
-		{ 23, 20195, "", "=q3=Defiler's Mail Girdle", "=ds=", "60 #honor#", ""};
-		{ 24, 20199, "", "=q3=Defiler's Mail Greaves", "=ds=", "60 #honor#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#absh6#", "=ec1=#c9#, #c4#"};
-		{ 17, 20212, "", "=q4=Defiler's Plate Spaulders", "=ds=", "70 #honor#", ""};
-		{ 18, 20204, "", "=q3=Defiler's Plate Girdle", "=ds=", "60 #honor#", ""};
-		{ 19, 20208, "", "=q3=Defiler's Plate Greaves", "=ds=", "60 #honor#", ""};
-		Next = "ABSets2_H";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["ABSets2_A"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#c4#"};
-		{ 2, 20058, "", "=q4=Highlander's Lamellar Spaulders", "=ds=", "70 #honor#", ""};
-		{ 3, 20042, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "60 #honor#", ""};
-		{ 4, 20049, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "60 #honor#", ""};
-		Prev = "ABSets1_A";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["ABSets2_H"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#c4#"};
-		{ 2, 20184, "", "=q4=Defiler's Lamellar Spaulders", "=ds=", "70 #honor#", ""};
-		{ 3, 20177, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "60 #honor#", ""};
-		{ 4, 20181, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "60 #honor#", ""};
-		Prev = "ABSets1_H";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["ABSets"] = {
+		["Normal_A"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#absa1#", "=ec1=#c5#, #c3#, #c8#"};
+				{ 2, 20061, "", "=q4=Highlander's Epaulets", "=ds=", "130 #honor#", ""};
+				{ 3, 20047, "", "=q3=Highlander's Cloth Girdle", "=ds=", "85 #honor#", ""};
+				{ 4, 20054, "", "=q3=Highlander's Cloth Boots", "=ds=", "85 #honor#", ""};
+				{ 6, 0, "INV_BannerPVP_02", "=q6=#absa2#", "=ec1=#c6#, #c1#"};
+				{ 7, 20059, "", "=q4=Highlander's Leather Shoulders", "=ds=", "130 #honor#", ""};
+				{ 8, 20045, "", "=q3=Highlander's Leather Girdle", "=ds=", "85 #honor#", ""};
+				{ 9, 20052, "", "=q3=Highlander's Leather Boots", "=ds=", "85 #honor#", ""};
+				{ 11, 0, "INV_BannerPVP_02", "=q6=#absa3#", "=ec1=#c6#, #c1#"};
+				{ 12, 20060, "", "=q4=Highlander's Lizardhide Shoulders", "=ds=", "130 #honor#", ""};
+				{ 13, 20046, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "85 #honor#", ""};
+				{ 14, 20053, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "85 #honor#", ""};
+				{ 16, 0, "INV_BannerPVP_02", "=q6=#absa4#", "=ec1=#c2#, #c7#"};
+				{ 17, 20055, "", "=q4=Highlander's Chain Pauldrons", "=ds=", "130 #honor#", ""};
+				{ 18, 20043, "", "=q3=Highlander's Chain Girdle", "=ds=", "85 #honor#", ""};
+				{ 19, 20050, "", "=q3=Highlander's Chain Greaves", "=ds=", "85 #honor#", ""};
+				{ 21, 0, "INV_BannerPVP_02", "=q6=#absa5#", "=ec1=#c2#, #c7#"};
+				{ 22, 20056, "", "=q4=Highlander's Mail Pauldrons", "=ds=", "130 #honor#", ""};
+				{ 23, 20044, "", "=q3=Highlander's Mail Girdle", "=ds=", "85 #honor#", ""};
+				{ 24, 20051, "", "=q3=Highlander's Mail Greaves", "=ds=", "85 #honor#", ""};
+				{ 26, 0, "INV_BannerPVP_02", "=q6=#absa6#", "=ec1=#c9#, #c4#"};
+				{ 27, 20057, "", "=q4=Highlander's Plate Spaulders", "=ds=", "130 #honor#", ""};
+				{ 28, 20041, "", "=q3=Highlander's Plate Girdle", "=ds=", "85 #honor#", ""};
+				{ 29, 20048, "", "=q3=Highlander's Plate Greaves", "=ds=", "85 #honor#", ""};
+			};
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#c4#"};
+				{ 2, 20058, "", "=q4=Highlander's Lamellar Spaulders", "=ds=", "130 #honor#", ""};
+				{ 3, 20042, "", "=q3=Highlander's Lamellar Girdle", "=ds=", "85 #honor#", ""};
+				{ 4, 20049, "", "=q3=Highlander's Lamellar Greaves", "=ds=", "85 #honor#", ""};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_01", "=q6=#absh1#", "=ec1=#c5#, #c3#, #c8#"};
+				{ 2, 20176, "", "=q4=Defiler's Epaulets", "=ds=", "130 #honor#", ""};
+				{ 3, 20163, "", "=q3=Defiler's Cloth Girdle", "=ds=", "85 #honor#", ""};
+				{ 4, 20159, "", "=q3=Defiler's Cloth Boots", "=ds=", "85 #honor#", ""};
+				{ 6, 0, "INV_BannerPVP_01", "=q6=#absh2#", "=ec1=#c6#, #c1#"};
+				{ 7, 20194, "", "=q4=Defiler's Leather Shoulders", "=ds=", "130 #honor#", ""};
+				{ 8, 20190, "", "=q3=Defiler's Leather Girdle", "=ds=", "85 #honor#", ""};
+				{ 9, 20186, "", "=q3=Defiler's Leather Boots", "=ds=", "85 #honor#", ""};
+				{ 11, 0, "INV_BannerPVP_01", "=q6=#absh3#", "=ec1=#c6#, #c1#"};
+				{ 12, 20175, "", "=q4=Defiler's Lizardhide Shoulders", "=ds=", "130 #honor#", ""};
+				{ 13, 20171, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "85 #honor#", ""};
+				{ 14, 20167, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "85 #honor#", ""};
+				{ 16, 0, "INV_BannerPVP_01", "=q6=#absh4#", "=ec1=#c2#, #c7#"};
+				{ 17, 20158, "", "=q3=Defiler's Chain Pauldrons", "=ds=", "130 #honor#", ""};
+				{ 18, 20150, "", "=q3=Defiler's Chain Girdle", "=ds=", "85 #honor#", ""};
+				{ 19, 20154, "", "=q3=Defiler's Chain Greaves", "=ds=", "85 #honor#", ""};
+				{ 21, 0, "INV_BannerPVP_01", "=q6=#absh5#", "=ec1=#c2#, #c7#"};
+				{ 22, 20203, "", "=q4=Defiler's Mail Pauldrons", "=ds=", "130 #honor#", ""};
+				{ 23, 20195, "", "=q3=Defiler's Mail Girdle", "=ds=", "85 #honor#", ""};
+				{ 24, 20199, "", "=q3=Defiler's Mail Greaves", "=ds=", "85 #honor#", ""};
+				{ 26, 0, "INV_BannerPVP_01", "=q6=#absh6#", "=ec1=#c9#, #c4#"};
+				{ 27, 20212, "", "=q4=Defiler's Plate Spaulders", "=ds=", "130 #honor#", ""};
+				{ 28, 20204, "", "=q3=Defiler's Plate Girdle", "=ds=", "85 #honor#", ""};
+				{ 29, 20208, "", "=q3=Defiler's Plate Greaves", "=ds=", "85 #honor#", ""};
+			};
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#absa7#", "=ec1=#c4#"};
+				{ 2, 20184, "", "=q4=Defiler's Lamellar Spaulders", "=ds=", "130 #honor#", ""};
+				{ 3, 20177, "", "=q3=Defiler's Lamellar Girdle", "=ds=", "85 #honor#", ""};
+				{ 4, 20181, "", "=q3=Defiler's Lamellar Greaves", "=ds=", "85 #honor#", ""};
+			};
+		};
+		info = {
+			name = AL["Arathi Basin Sets"],
+			module = moduleName, menu = "PVPMENU2"
+		};
+	}
 
 		---------------------
 		--- Warsong Gulch ---
@@ -6651,12 +6674,12 @@ local moduleName = "AtlasLootClassicWoW"
 
 	AtlasLoot_Data["WSGWeapons_A"] = {
 		{ 1, 20443, "", "=q3=Sentinel's Blade", "=ds=", "45 #honor#", ""};
-		{ 2, 19549, "", "=q3=Sentinel's Blade", "=ds=", "400 #alliance#", ""};
+		{ 2, 19549, "", "=q3=Sentinel's Blade", "=ds=", "70 #honor#", ""};
 		{ 3, 19548, "", "=q3=Sentinel's Blade", "=ds=", "500 #alliance#", ""};
 		{ 4, 19547, "", "=q3=Sentinel's Blade", "=ds=", "700 #alliance#", ""};
 		{ 5, 19546, "", "=q3=Sentinel's Blade", "=ds=", "6000 #alliance#", ""};
 		{ 7, 20440, "", "=q3=Protector's Sword", "=ds=", "45 #honor#", ""};
-		{ 8, 19557, "", "=q3=Protector's Sword", "=ds=", "400 #alliance#", ""};
+		{ 8, 19557, "", "=q3=Protector's Sword", "=ds=", "70 #honor#", ""};
 		{ 9, 19556, "", "=q3=Protector's Sword", "=ds=", "500 #alliance#", ""};
 		{ 10, 19555, "", "=q3=Protector's Sword", "=ds=", "700 #alliance#", ""};
 		{ 11, 19554, "", "=q3=Protector's Sword", "=ds=", "6000 #alliance#", ""};
@@ -6666,7 +6689,7 @@ local moduleName = "AtlasLootClassicWoW"
 		{ 19, 19571, "", "=q3=Lorekeeper's Staff", "=ds=", "105 #honor#", ""};
 		{ 20, 19570, "", "=q3=Lorekeeper's Staff", "=ds=", "125 #honor#", ""};
 		{ 22, 20438, "", "=q3=Outrunner's Bow", "=ds=", "45 #honor#", ""};
-		{ 23, 19565, "", "=q3=Outrunner's Bow", "=ds=", "400 #alliance#", ""};
+		{ 23, 19565, "", "=q3=Outrunner's Bow", "=ds=", "70 #honor#", ""};
 		{ 24, 19564, "", "=q3=Outrunner's Bow", "=ds=", "500 #alliance#", ""};
 		{ 25, 19563, "", "=q3=Outrunner's Bow", "=ds=", "700 #alliance#", ""};
 		{ 26, 19562, "", "=q3=Outrunner's Bow", "=ds=", "6000 #alliance#", ""};
@@ -6677,12 +6700,12 @@ local moduleName = "AtlasLootClassicWoW"
 
 	AtlasLoot_Data["WSGWeapons_H"] = {
 		{ 1, 20441, "", "=q3=Scout's Blade", "=ds=", "45 #honor#", ""};
-		{ 2, 19545, "", "=q3=Scout's Blade", "=ds=", "400 #horde#", ""};
+		{ 2, 19545, "", "=q3=Scout's Blade", "=ds=", "70 #honor#", ""};
 		{ 3, 19544, "", "=q3=Scout's Blade", "=ds=", "500 #horde#", ""};
 		{ 4, 19543, "", "=q3=Scout's Blade", "=ds=", "700 #horde#", ""};
 		{ 5, 19542, "", "=q3=Scout's Blade", "=ds=", "6000 #horde#", ""};
 		{ 7, 20430, "", "=q3=Legionnaire's Sword", "=ds=", "45 #honor#", ""};
-		{ 8, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "400 #horde#", ""};
+		{ 8, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "70 #honor#", ""};
 		{ 9, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "500 #horde#", ""};
 		{ 10, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "700 #horde#", ""};
 		{ 11, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "6000 #horde#", ""};
@@ -6692,7 +6715,7 @@ local moduleName = "AtlasLootClassicWoW"
 		{ 19, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "105 #honor#", ""};
 		{ 20, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "125 #honor#", ""};
 		{ 22, 20437, "", "=q3=Outrider's Bow", "=ds=", "45 #honor#", ""};
-		{ 23, 19561, "", "=q3=Outrider's Bow", "=ds=", "400 #horde#", ""};
+		{ 23, 19561, "", "=q3=Outrider's Bow", "=ds=", "70 #honor#", ""};
 		{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "500 #horde#", ""};
 		{ 25, 19559, "", "=q3=Outrider's Bow", "=ds=", "700 #horde#", ""};
 		{ 26, 19558, "", "=q3=Outrider's Bow", "=ds=", "6000 #horde#", ""};
