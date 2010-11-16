@@ -308,6 +308,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = "Pilgerfreuden";
 	-- AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
+	AL["Elemental Unrest"] = "Elementare Invasion";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";
