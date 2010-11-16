@@ -28,6 +28,7 @@ if AL then
 	AL["Reset"] = "Zurücksetzen";
 	AL["Reset Frames"] = "Fenster zurücksetzen";
 	AL["Profiles"] = "Profile";
+	AL["Show price and slot if possible"] = "Preis und Slot anzeigen wenn möglich";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";
@@ -152,6 +153,11 @@ if AL then
 	AL["Heroic"] = "Heroisch";
 	AL["25 Man"] = "25 Spieler";
 	AL["25 Man Heroic"] = "25 Spieler Heroisch";
+	-- buttons
+	AL["Show 10 Man Loot"] = "Beute (10 Spieler)";
+	AL["Show 25 Man Loot"] = "Beute (25 Spieler)";
+	AL["Show Slot"] = "Slot anzeigen";
+	AL["Show Price"] = "Preis anzeigen";
 
 	-- #######################################
 	-- UI things END
@@ -171,8 +177,6 @@ if AL then
 	AL["|cffff0000(unsafe)"] = " |cffff0000(unsicher)";
 	AL["Misc"] = "Sonstiges";
 	AL["Rewards"] = "Belohnungen";
-	AL["Show 10 Man Loot"] = "Beute (10 Spieler)";
-	AL["Show 25 Man Loot"] = "Beute (25 Spieler)";
 	AL["Choose Table ..."] = "Verzeichnis wählen ...";
 	AL["Unknown"] = "Unbekannt";
 	AL["Reset Wishlist"] = "Wunschzettel zurücksetzen";
@@ -505,6 +509,8 @@ if AL then
 	AL["Glory of the Ulduar Raider (25 player)"] = "Ruhm des Schlachtzüglers von Ulduar (25 Spieler)";
 	AL["Glory of the Icecrown Raider (10 player)"] = "Ruhm des Schlachtzüglers von Eiskrone (10 Spieler)";
 	AL["Glory of the Icecrown Raider (25 player)"] = "Ruhm des Schlachtzüglers von Eiskrone (25 Spieler)";
+	AL["Glory of the Cataclysm Hero"] = "Heldenruhm des Kataklysmus";
+	AL["Glory of the Cataclysm Raider"] = "Ruhm des Kataklysmus-Schlachtzüglers";
 	AL["Guild Glory of the Cataclysm Raider"] = "Gildenruhm des Kataklysmus-Schlachtzüglers";
 	AL["Guild Level 25"] = "Gildenstufe 25";
 	AL["Leading the Cavalry"] = "Vorreiter der Kavallerie";
