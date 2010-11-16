@@ -25,11 +25,11 @@ AtlasLoot.AddonInfo = {
 		},
 		["Celellach"] = {
 			email = "celellach@atlasloot.net",
-			--ingame = {},
+			ingame = {"Celellach@Turalyon"},
 		},
 		["Daviesh"] = {
-			--email = "",
-			--ingame = {},
+			email = "daviesh@atlasloot.net",
+			ingame = {"Daviesh@Thaurissan"},
 		},
 	},
 }

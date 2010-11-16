@@ -109,7 +109,6 @@ AtlasLoot_TextParsing = {
 	{ "#e10#", BabbleInventory["Book"] },
 	{ "#e11#", AL["Scope"] },
 	{ "#e12#", BabbleInventory["Mount"] },
-	--{ "#e13#", BabbleInventory["Pet"] },
 	{ "#e13#", AL["Companion"] },
 	{ "#e14#", AL["Banner"] },
 	{ "#e15#", AL["Token"] },
