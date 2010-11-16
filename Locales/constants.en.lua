@@ -41,6 +41,7 @@ if AL then
 	AL["Reset"] = true;
 	AL["Reset Frames"] = true;
 	AL["Profiles"] = true;
+	AL["Show price and slot if possible"] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;
@@ -165,6 +166,11 @@ if AL then
 	AL["Heroic"] = true;
 	AL["25 Man"] = true;
 	AL["25 Man Heroic"] = true;
+	-- buttons
+	AL["Show 10 Man Loot"] = true;
+	AL["Show 25 Man Loot"] = true;
+	AL["Show Slot"] = true;
+	AL["Show Price"] = true;
 
 	-- #######################################
 	-- UI things END
@@ -184,8 +190,6 @@ if AL then
 	AL["|cffff0000(unsafe)"] = true;
 	AL["Misc"] = true;
 	AL["Rewards"] = true;
-	AL["Show 10 Man Loot"] = true;
-	AL["Show 25 Man Loot"] = true;
 	AL["Choose Table ..."] = true;
 	AL["Unknown"] = true;
 	AL["Reset Wishlist"] = true;

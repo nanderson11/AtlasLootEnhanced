@@ -1,4 +1,4 @@
---[[
+﻿--[[
 Atlasloot Enhanced
 Author Hegarol
 Loot browser associating loot with instance bosses
@@ -115,6 +115,8 @@ local AtlasLootDBDefaults = {
 		EnableQuickLook = true,
 		ShowUnusedQuickLooks = true,
 		LastSearch = "",
+		ShowLootTablePrice = true,
+		ShowPriceAndDesc = false,
     }
 }
 
@@ -994,6 +996,13 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	elseif ( lootTableType == "25Man" or lootTableType == "25ManHeroic" ) and ( AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"] ) then
 		self.ItemFrame.Switch:SetText(AL["Show 10 Man Loot"])
 		self.ItemFrame.Switch:Show()
+	elseif self.ItemFrame.Switch.changePoint then
+		if AtlasLoot.db.profile.ShowLootTablePrice then
+			self.ItemFrame.Switch:SetText(AL["Show Slot"])
+		else
+			self.ItemFrame.Switch:SetText(AL["Show Price"])
+		end
+		self.ItemFrame.Switch:Show()
 	end
 	
 	if string.find(dataID, "SortedTable") then
@@ -1394,8 +1403,6 @@ function AtlasLoot:CheckHeroic(itemTable)
 	end
 	return heroic
 end
-
-
 
 
 

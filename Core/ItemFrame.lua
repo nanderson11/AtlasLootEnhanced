@@ -20,6 +20,7 @@ function AtlasLoot:ClearLootPage()
 	self.ItemFrame.Prev:Hide()
 	self.ItemFrame.Heroic:Hide()
 	self.ItemFrame.Switch:Hide()
+	self.ItemFrame.changePoint = nil
 	self.ItemFrame.Back:Hide()
 	self.ItemFrame.dataID = nil
 	self.ItemFrame.lootTableType = nil
@@ -41,6 +42,7 @@ end
 function AtlasLoot:SetItemTable(tab)
 	self:ClearLootPageItems()
 	if not tab or type(tab) ~= "table" or not #tab then return end
+	local cPoint = false
 	for k,v in ipairs(tab) do
 		if v and type(v) == "table" then
 			local itemButtonNum = v[1]
@@ -58,6 +60,10 @@ function AtlasLoot:SetItemTable(tab)
 					v[2] = tonumber(v[3])
 				end
 					
+				-- check if we have a price
+				if v[6] and v[6] ~= "" and v[6] ~= "=ds=" then--and v[5] and v[5] ~= "" and v[5] ~= "=ds="  then
+					cPoint = true
+				end
 				local num1 = string.find(v[2], "s(%d+)")
 				if v[2] == 0 or v[2] == "" then
 					self.ItemFrame.ItemButtons[itemButtonNum]:SetDummy(v[4], v[5], texture)
@@ -81,6 +87,7 @@ function AtlasLoot:SetItemTable(tab)
 			end
 		end
 	end
+	self.ItemFrame.Switch.changePoint = cPoint
 	self.ItemFrame:Show()
 end 
 
@@ -153,14 +160,19 @@ end
 function AtlasLoot:Toggle10Man25Man()
 	local dataID = AtlasLoot.ItemFrame.dataID
 	
-	if AtlasLoot.db.profile.LootTableType == "Normal" then
-		AtlasLoot:SetLootTableType("25Man", dataID)
-	elseif AtlasLoot.db.profile.LootTableType == "Heroic" then
-		AtlasLoot:SetLootTableType("25ManHeroic", dataID)
-	elseif AtlasLoot.db.profile.LootTableType == "25Man" then
-		AtlasLoot:SetLootTableType("Normal", dataID)
-	elseif AtlasLoot.db.profile.LootTableType == "25ManHeroic" then
-		AtlasLoot:SetLootTableType("Heroic", dataID)
+	if self.changePoint then
+		AtlasLoot.db.profile.ShowLootTablePrice = not AtlasLoot.db.profile.ShowLootTablePrice
+		AtlasLoot:ShowLootPage(dataID)
+	else
+		if AtlasLoot.db.profile.LootTableType == "Normal" then
+			AtlasLoot:SetLootTableType("25Man", dataID)
+		elseif AtlasLoot.db.profile.LootTableType == "Heroic" then
+			AtlasLoot:SetLootTableType("25ManHeroic", dataID)
+		elseif AtlasLoot.db.profile.LootTableType == "25Man" then
+			AtlasLoot:SetLootTableType("Normal", dataID)
+		elseif AtlasLoot.db.profile.LootTableType == "25ManHeroic" then
+			AtlasLoot:SetLootTableType("Heroic", dataID)
+		end
 	end
 end
 

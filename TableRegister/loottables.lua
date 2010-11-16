@@ -116,7 +116,7 @@ AtlasLoot_LootTableRegister = {
 				{ "GBErudax", 5 },
 				{ "GBTrash", 10 },
 			},
-			["Info"] = { BabbleZone["Grim Batol"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Grim Batol"], "AtlasLootCataclysm", mapname = "GrimBatol" },
 		},
 
 		["HallsOfOrigination"] = {

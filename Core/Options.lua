@@ -110,6 +110,15 @@ do
 										set = setOpt,
 										width = "full",
 									},
+									ShowPriceAndDesc = {
+										type = "toggle",
+										name = AL["Show price and slot if possible"],
+										--desc = ,
+										order = 60,
+										get = getOpt,
+										set = setOpt,
+										width = "full",
+									},
 								},
 							},
 							
@@ -119,6 +128,7 @@ do
 								name = "Loot Table",
 								order = 30,
 								args = {
+									--[[
 									Opaque = {
 										type = "toggle",
 										name = AL["Opaque"],
@@ -127,17 +137,13 @@ do
 										get = getOpt,
 										set = setOpt,
 									},
-									nllockb = {
-										type = "description",
-										name = "",
-										order = 20,
-									},
+									]]
 									CraftingLink = {
 										type = "select",
 										name = AL["Treat Crafted Items:"],
 										--desc = ,
 										values = { AL["As Crafting Spells"], AL["As Items"] },
-										order = 30,
+										order = 20,
 										get = getOpt,
 										set = setOpt,
 									},
@@ -353,14 +359,27 @@ function AtlasLoot:OptionsHidePanel()
 end
 
 do
-	local Authors = {
-		["Calî"] = "Arthas",
-		["Lâg"] = "Arthas",
-		["Lâg"] = "Mekkatorque (EU)",
-		--["Daviesh"] = "Thaurissan",
-		["Hegarol"] = "Dun Morogh",
-		
-	}
+	local Authors = {}
+	local Friends = {}
+	
+	for k,v in pairs(AtlasLoot.AddonInfo.authors) do
+		if v.ingame then
+			for _,name in ipairs(v.ingame) do
+				local a,b = string.split("@", name)
+				if a and b then
+					Authors[a] = b
+				end
+			end
+		end
+		if v.friends then
+			for _,name in ipairs(v.friends) do
+				local a,b = string.split("@", name)
+				if a and b then
+					Friends[a] = b
+				end
+			end
+		end
+	end
 
 	function AtlasLoot:HookUnitTarget()
 		local name = GameTooltip:GetUnit()
@@ -369,9 +388,11 @@ do
 			if not realm then 
 				realm = GetRealmName()
 			end
-			if name and Authors[name] then
+			if name and ( Authors[name] or Friends[name] ) then
 				if Authors[name] == realm then
 					GameTooltip:AddLine("AtlasLoot Author |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
+				elseif Friends[name] == realm then
+					GameTooltip:AddLine("AtlasLoot Friend |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
 				end
 			end
 		end

@@ -38,7 +38,7 @@ do
 				Frame = {},
 				item = false,
 				spell = false,
-				tableLink = false,
+				tableLink = false,				
 			},
 			mt
 		)
@@ -158,18 +158,39 @@ do
 	local function GetItemExtraText(itemID, extraText, price, itemName)
 		local tempText = ""
 		if extraText and price and price ~= "" then
-			if extraText == "=ds=" then
-				tempText = price
-			else
-				tempText = AtlasLoot:FixText(extraText).." / "..price
-			end
-			local lengh = string.len(tempText)
 			-- lengh < 70  = standart
-			-- self adds the ItemPrice to the Extratext if its not to long
-			if lengh < 50 then
-				tempText = tempText
-			else
-				tempText = price
+			-- this adds the ItemPrice to the Extratext if its not to long
+			if AtlasLoot.db.profile.ShowPriceAndDesc and price ~= "=ds=" and price ~= "" then
+				if extraText == "=ds=" or extraText == "" then
+					if itemName then
+						extraText = AtlasLoot:GetItemEquipInfo(itemID)
+					else
+						extraText = price
+					end
+				end
+				local dummyText = AtlasLoot:FixText(extraText).." / "..price
+				local lengh = string.len(dummyText)
+				if lengh < 50 then
+					tempText = dummyText
+				end
+			end
+			if not tempText or tempText == "" then
+				if extraText == "=ds=" or extraText == "" then
+					if itemName then
+						extraText = AtlasLoot:GetItemEquipInfo(itemID)
+					else
+						extraText = price
+					end
+				end
+				if price == "=ds=" or price == "" then
+					price = extraText
+				end
+
+				if AtlasLoot.db.profile.ShowLootTablePrice then
+					tempText = price
+				else
+					tempText = extraText
+				end
 			end
 		elseif price and price ~= "" then
 			tempText = price
