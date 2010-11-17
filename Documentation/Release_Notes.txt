@@ -16,7 +16,7 @@ Added Tier 11 sets
 Added Lvl85 PvP sets
 Added Daily Cooking rewards.
 Added new Darkmoon Faire trinkets
-Updated Crafting professions (Engineering, First Aid, Cooking, Mining, Jewelcrafting) with new Cataclsym recipes.
+Updated Crafting professions (Blacksmithing, Cooking, Engineering, First Aid, Jewelcrafting and Mining) with new Cataclsym recipes.
 Updated events: Brewfest and Love is in the Air.
 Reorganized Companions, Mounts and Tabard pages. All new Companions, Mounts and Tabards added.
 New collection page - Transformation items.
