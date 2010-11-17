@@ -2743,98 +2743,118 @@ local moduleName = "AtlasLootCataclysm"
 		--- Tabards ---
 		---------------
 
-	AtlasLoot_Data["TabardsClassic"] = {
+	AtlasLoot_Data["TabardsAlliance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-				{ 2, 15196, "", "=q1=Private's Tabard", "=ds=#s7#"};
-				{ 3, 15198, "", "=q1=Knight's Colors", "=ds=#s7#"};
-				{ 4, 20132, "", "=q1=Arathor Battle Tabard", "=ds=#s7#, =q1=#m4#"};
-				{ 5, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#"};
-				{ 6, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=#s7#"};
-				{ 9, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.48%"};
-				{ 10, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+				{ 1, 63379, "", "=q3=Baradin's Wardens Tabard", "=ds=#s7#"};
+				{ 2, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
+				{ 3, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
+				{ 4, 64882, "", "=q1=Gilneas Tabard", "=ds=#s7#"};
+				{ 5, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
+				{ 6, 23999, "", "=q1=Honor Hold Tabard", "=ds=#s7#"};
+				{ 7, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
+				{ 8, 31774, "", "=q1=Kurenai Tabard", "=ds=#s7#"};
+				{ 9, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
+				{ 10, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
+				{ 11, 65908, "", "=q1=Tabard of the Wildhammer Clan", "=ds=#s7#"};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["PvP Tabards"], ""};
+				{ 17, 15196, "", "=q1=Private's Tabard", "=ds=#s7#"};
+				{ 18, 15198, "", "=q1=Knight's Colors", "=ds=#s7#"};
+				{ 19, 20132, "", "=q1=Arathor Battle Tabard", "=ds=#s7#, =q1=#m4#"};
+				{ 20, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=#s7#"};
+				{ 21, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#"};
+			};
+		};
+		info = {
+			name = AL["Alliance Tabards"],
+			module = moduleName, menu = "TABARDMENU",
+		};
+	}
+
+	AtlasLoot_Data["TabardsHorde"] = {
+		["Normal"] = {
+			{
+				{ 1, 63378, "", "=q3=Hellscream's Reach Tabard", "=ds=#s7#"};
+				{ 2, 64884, "", "=q1=Bilgewater Cartel Tabard", "=ds=#s7#"};
+				{ 3, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#"};
+				{ 4, 31773, "", "=q1=Mag'har Tabard", "=ds=#s7#"};
+				{ 5, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
+				{ 6, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#"};
+				{ 7, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#"};
+				{ 8, 65909, "", "=q1=Tabard of the Dragonmaw Clan", "=ds=#s7#"};
+				{ 9, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#"};
+				{ 10, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
+				{ 11, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["PvP Tabards"], ""};
 				{ 17, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#"};
 				{ 18, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#"};
 				{ 19, 20131, "", "=q1=Battle Tabard of the Defilers", "=ds=#s7#, =q1=#m4#"};
 				{ 20, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#"};
 				{ 21, 19505, "", "=q1=Warsong Battle Tabard", "=ds=#s7#"};
-				extraText = " - "..AL["Classic WoW"]			
 			};
 		};
 		info = {
-			name = AL["Tabards"],
+			name = AL["Horde Tabards"],
 			module = moduleName, menu = "TABARDMENU",
 		};
 	}
 
-	AtlasLoot_Data["TabardsBurningCrusade"] = {
+	AtlasLoot_Data["TabardsNeutralFaction"] = {
 		["Normal"] = {
 			{
-				{ 1, 35279, "", "=q3=Tabard of Summer Skies", "=ds=#s7#, =q1=#m4#"};
-				{ 2, 35280, "", "=q3=Tabard of Summer Flames", "=ds=#s7#, =q1=#m4#"};
-				{ 3, 31404, "", "=q2=Green Trophy Tabard of the Illidari", "=ds=#s7#, =q1=#m4#"};
-				{ 4, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=ds=#s7#, =q1=#m4#"};
-				{ 5, 24344, "", "=q1=Tabard of the Hand", "=ds=#s7#, =q1=#m4#, =ec1=#m7#"};
-				{ 6, 25549, "", "=q1=Blood Knight Tabard", "=ds=#s7#, =ec1=#m6#"};
-				{ 16, 31779, "", "=q1=Aldor Tabard", "=ds=#s7#"};
-				{ 17, 31804, "", "=q1=Cenarion Expedition Tabard", "=ds=#s7#"};
-				{ 18, 31776, "", "=q1=Consortium Tabard", "=ds=#s7#"};
-				{ 19, 23999, "", "=q1=Honor Hold Tabard", "=ds=#s7#, =ec1=#m7#"};
-				{ 20, 31777, "", "=q1=Keepers of Time Tabard", "=ds=#s7#"};
-				{ 21, 31774, "", "=q1=Kurenai Tabard", "=ds=#s7#, =ec1=#m7#"};
-				{ 22, 31778, "", "=q1=Lower City Tabard", "=ds=#s7#"};
-				{ 23, 31773, "", "=q1=Mag'har Tabard", "=ds=#s7#, =ec1=#m6#"};
-				{ 24, 32828, "", "=q1=Ogri'la Tabard", "=ds=#s7#"};
-				{ 25, 31781, "", "=q1=Sha'tar Tabard", "=ds=#s7#"};
-				{ 26, 31775, "", "=q1=Sporeggar Tabard", "=ds=#s7#"};
-				{ 27, 31780, "", "=q1=Scryers Tabard", "=ds=#s7#"};
-				{ 28, 32445, "", "=q1=Skyguard Tabard", "=ds=#s7#"};
-				{ 29, 35221, "", "=q1=Tabard of the Shattered Sun", "=ds=#s7#"};
-				{ 30, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#, =ec1=#m6#"};
-				extraText = " - "..AL["Burning Crusade"]
-			};
-		};
-		info = {
-			name = AL["Tabards"],
-			module = moduleName, menu = "TABARDMENU",
-		};
-	}
-
-	AtlasLoot_Data["TabardsWrath"] = {
-		["Normal"] = {
-			{
-				{ 1, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds=#s7#"};
-				{ 2, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds=#s7#"};
-				{ 4, 43349, "", "=q4=Tabard of Brute Force", "=q2="..AL["Brutally Dedicated"]};
-				{ 5, 40643, "", "=q4=Tabard of the Achiever", "=q2="..AL["Twenty-Five Tabards"]};
-				{ 6, 43348, "", "=q4=Tabard of the Explorer", "=q2="..AL["Explore Northrend"]};
-				{ 7, 43300, "", "=q4=Loremaster's Colors", "=q2="..AL["The Loremaster"]};
-				{ 8, 49052, "", "=q3=Tabard of Conquest", "=q2="..AL["Master of Isle of Conquest"].." =ec1=#m7#"};
-				{ 9, 49054, "", "=q3=Tabard of Conquest", "=q2="..AL["Master of Isle of Conquest"].." =ec1=#m6#"};
-				{ 11, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
-				{ 12, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7# =ec1=#m7#"};
-				{ 13, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7# =ec1=#m6#"};
-				{ 16, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
+				{ 1, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
+				{ 2, 31779, "", "=q1=Aldor Tabard", "=ds=#s7#"};
+				{ 3, 31804, "", "=q1=Cenarion Expedition Tabard", "=ds=#s7#"};
+				{ 4, 31776, "", "=q1=Consortium Tabard", "=ds=#s7#"};
+				{ 5, 31777, "", "=q1=Keepers of Time Tabard", "=ds=#s7#"};
+				{ 6, 31778, "", "=q1=Lower City Tabard", "=ds=#s7#"};
+				{ 7, 32828, "", "=q1=Ogri'la Tabard", "=ds=#s7#"};
+				{ 8, 31781, "", "=q1=Sha'tar Tabard", "=ds=#s7#"};
+				{ 9, 31775, "", "=q1=Sporeggar Tabard", "=ds=#s7#"};
+				{ 10, 31780, "", "=q1=Scryers Tabard", "=ds=#s7#"};
+				{ 11, 32445, "", "=q1=Skyguard Tabard", "=ds=#s7#"};
+				{ 12, 65904, "", "=q1=Tabard of Ramkahen", "=ds=#s7#"};
+				{ 13, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
+				{ 14, 65905, "", "=q1=Tabard of the Earthen Ring", "=ds=#s7#"};
+				{ 15, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
+				{ 16, 65906, "", "=q1=Tabard of the Guardians of Hyjal", "=ds=#s7#"};
 				{ 17, 43157, "", "=q1=Tabard of the Kirin Tor", "=ds=#s7#"};
-				{ 18, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
+				{ 18, 35221, "", "=q1=Tabard of the Shattered Sun", "=ds=#s7#"};
 				{ 19, 43156, "", "=q1=Tabard of the Wyrmrest Accord", "=ds=#s7#"};
-				{ 21, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7# =ec1=#m7#"};
-				{ 22, 45580, "", "=q1=Exodar Tabard", "=ds=#s7# =ec1=#m7#"};
-				{ 23, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7# =ec1=#m7#"};
-				{ 24, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7# =ec1=#m7#"};
-				{ 25, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7# =ec1=#m7#"};
-				{ 26, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7# =ec1=#m6#"};
-				{ 27, 45582, "", "=q1=Sen'jin Tabard", "=ds=#s7# =ec1=#m6#"};
-				{ 28, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7# =ec1=#m6#"};
-				{ 29, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7# =ec1=#m6#"};
-				{ 30, 45583, "", "=q1=Undercity Tabard", "=ds=#s7# =ec1=#m6#"};
-				extraText = " - "..AL["Wrath of the Lich King"]
+				{ 20, 65907, "", "=q1=Tabard of Therazane", "=ds=#s7#"};
 			};
 		};
 		info = {
-			name = AL["Tabards"],
+			name = AL["Neutral Faction Tabards"],
+			module = moduleName, menu = "TABARDMENU",
+		};
+	}
+
+	AtlasLoot_Data["TabardsAchievementQuestRareMisc"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=Achievement Rewards", ""}; ---different icon
+				{ 2, 43349, "", "=q4=Tabard of Brute Force", "=q2="..AL["Brutally Dedicated"]};
+				{ 3, 40643, "", "=q4=Tabard of the Achiever", "=q2="..AL["Twenty-Five Tabards"]};
+				{ 4, 43348, "", "=q4=Tabard of the Explorer", "=q2="..AL["Explore Northrend"]};
+				{ 5, 43300, "", "=q4=Loremaster's Colors", "=q2="..AL["The Loremaster"]};
+				{ 6, 49052, "", "=q3=Tabard of Conquest", "=q2="..AL["Master of Isle of Conquest"].." =ec1=#m7#"};
+				{ 7, 49054, "", "=q3=Tabard of Conquest", "=q2="..AL["Master of Isle of Conquest"].." =ec1=#m6#"};
+				{ 9, 0, "INV_BannerPVP_02", "=q6=Misc", ""}; ---different icon
+				{ 10, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.48%"};
+				{ 11, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
+				{ 16, 0, "INV_BannerPVP_02", "=q6=Quest Rewards", ""}; ---different icon
+				{ 17, 52252, "", "=q4=Tabard of the Lightbringer", "=ds="};
+				{ 18, 35279, "", "=q3=Tabard of Summer Skies", "=ds=#s7#, =q1=#m4#"};
+				{ 19, 35280, "", "=q3=Tabard of Summer Flames", "=ds=#s7#, =q1=#m4#"};
+				{ 20, 31404, "", "=q2=Green Trophy Tabard of the Illidari", "=ds=#s7#, =q1=#m4#"};
+				{ 21, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=ds=#s7#, =q1=#m4#"};
+				{ 22, 25549, "", "=q1=Blood Knight Tabard", "=ds=#s7#, =ec1=#m6#"};
+				{ 23, 24344, "", "=q1=Tabard of the Hand", "=ds=#s7#, =q1=#m4#, =ec1=#m7#"};
+			};
+		};
+		info = {
+			name = AL["Card Game Tabards"],
 			module = moduleName, menu = "TABARDMENU",
 		};
 	}
@@ -2866,7 +2886,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 22999, "", "=q1=Tabard of the Agent Dawn", "=ds=#s7#, =q1=#m4#"};
 				{ 4, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
 				{ 5, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
-				{ 16, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds=#s7#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
+				{ 17, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="..AL["Season 6"]};
+				{ 18, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="..AL["Season 7"]};
+				{ 19, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds="..AL["Season 8"]};
 			};
 		};
 		info = {
@@ -3022,78 +3045,88 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
---need to split this page
-	AtlasLoot_Data["PetsQuestCrafted"] = {
+
+	AtlasLoot_Data["PetsQuest"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
 				{
-					{ 2, 45022, "", "=q3=Argent Gruntling", "=ds=#e13# =ec1=#m6#"};
-					{ 2, 44998, "", "=q3=Argent Squire", "=ds=#e13# =ec1=#m7#"};
+					{ 1, 45022, "", "=q3=Argent Gruntling", "=ds=#e13# =ec1=#m6#"};
+					{ 1, 44998, "", "=q3=Argent Squire", "=ds=#e13# =ec1=#m7#"};
 				};
-				{ 3, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 4, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 5, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 6, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
-				{ 7, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 8, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 9, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 10, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 11, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
-				{ 12, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 13, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
-				{ 14, 31760, "", "=q1=Miniwing", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 15, 12529, "", "=q1=Smolderweb Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
-				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Feralas"]};
-				{ 17, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 18, 12264, "", "=q1=Worg Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
-				{ 2, 60847, "", "=q4=Crawling Hand", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 4, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2="..BabbleInventory["Engineering"]};
-				{ 5, 67282, "", "=q3=Elementium Geode", "=q2=Mining (Needs to be added to BabbleInv)"};
-				{ 6, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
-				{ 7, 60955, "", "=q3=Fossilized Hatchling", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 8, 67275, "", "=q3=Magic Lamp", "=ds="..BabbleInventory["Enchanting"]};
-				{ 9, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
-				{ 10, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2="..BabbleInventory["Engineering"]};
-				{ 11, 11826, "", "=q1=Lil' Smoky", "=q2="..BabbleInventory["Engineering"]};
-				{ 12, 4401, "", "=q1=Mechanical Squirrel Box", "=q2="..BabbleInventory["Engineering"]};
-				{ 13, 11825, "", "=q1=Pet Bombling", "=q2="..BabbleInventory["Engineering"]};
-				{ 14, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2="..BabbleInventory["Engineering"]};
+				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 4, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 5, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
+				{ 6, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 7, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 8, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 10, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
+				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 12, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
+				{ 13, 31760, "", "=q1=Miniwing", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 14, 12529, "", "=q1=Smolderweb Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
+				{ 15, 11474, "", "=q1=Sprite Darter Egg", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Feralas"]};
+				{ 16, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
+				{ 17, 12264, "", "=q1=Worg Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
 			};
 		};
 		info = {
-			name = AL["Quest Reward"].." / "..AL["Crafted Companions"],
+			name = AL["Quest Reward Companions"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
---need to rename and split this page from the rare one
-	AtlasLoot_Data["PetsRare"] = {
+
+	AtlasLoot_Data["PetsCrafted"] = {
+		["Normal"] = {
+			{
+				{ 1, 60847, "", "=q4=Crawling Hand", "=q2=Archaeology (Needs to be added to BabbleInv)"};
+				{ 2, 64372, "", "=q3=Clockwork Gnome", "=q2=Archaeology (Needs to be added to BabbleInv)"};
+				{ 3, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2="..BabbleInventory["Engineering"]};
+				{ 4, 67282, "", "=q3=Elementium Geode", "=q2=Mining (Needs to be added to BabbleInv)"};
+				{ 5, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
+				{ 6, 60955, "", "=q3=Fossilized Hatchling", "=q2=Archaeology (Needs to be added to BabbleInv)"};
+				{ 7, 67275, "", "=q3=Magic Lamp", "=ds="..BabbleInventory["Enchanting"]};
+				{ 8, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
+				{ 9, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2="..BabbleInventory["Engineering"]};
+				{ 10, 11826, "", "=q1=Lil' Smoky", "=q2="..BabbleInventory["Engineering"]};
+				{ 11, 4401, "", "=q1=Mechanical Squirrel Box", "=q2="..BabbleInventory["Engineering"]};
+				{ 12, 11825, "", "=q1=Pet Bombling", "=q2="..BabbleInventory["Engineering"]};
+				{ 13, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2="..BabbleInventory["Engineering"]};
+			};
+		};
+		info = {
+			name = AL["Crafted Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsAchievementFaction"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement"], ""};
 				{ 2, 63398, "", "=q3=Armadillo Pup", "=q2="..AL["Critter Kill Squad"]};
 				{ 3, 63138, "", "=q3=Dark Phoenix Hatchling", "=q2="..AL["United Nations"]};
-				{ 4, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"]};
-				{ 5, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"]};
-				{ 6, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
-				{ 7, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
-				{ 8, 44738, "", "=q3=Kirin Tor Familiar", "=q2="..AL["Higher Learning"]};
-				{ 9, 44841, "", "=q3=Little Fawn's Salt Lick", "=q2="..AL["Lil' Game Hunter"]};
-				{ 10, 49912, "", "=q3=Perky Pug", "=q2="..AL["Looking For Multitudes"]};
-				{ 11, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};---not ach
-				{ 12, 40653, "", "=q3=Reeking Pet Carrier", "=q2="..AL["Shop Smart, Shop Pet...Smart"]};
-				{ 13, 44810, "", "=q3=Turkey Cage", "=q2="..AL["Pilgrim"]};
-				{ 14, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
+				{
+					{ 4, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"]};
+					{ 4, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"]};
+				};
+				{
+					{ 5, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
+					{ 5, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
+				};
+				{ 6, 44738, "", "=q3=Kirin Tor Familiar", "=q2="..AL["Higher Learning"]};
+				{ 7, 44841, "", "=q3=Little Fawn's Salt Lick", "=q2="..AL["Lil' Game Hunter"]};
+				{ 8, 49912, "", "=q3=Perky Pug", "=q2="..AL["Looking For Multitudes"]};
+				{ 9, 40653, "", "=q3=Reeking Pet Carrier", "=q2="..AL["Shop Smart, Shop Pet...Smart"]};
+				{ 10, 44810, "", "=q3=Turkey Cage", "=q2="..AL["Pilgrim"]};
+				{ 11, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
 				{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds="..BabbleFaction["Sha'tari Skyguard"]};
 				{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="..BabbleFaction["The Kalu'ak"]};
 				{
-					{ 19, 63355, "", "=q3=Rustberg Gull", "=ds=#e13#"}; -- Tol Barad - Alliance
-					{ 19, 64996, "", "=q3=Rustberg Gull", "=ds=#e13#"}; -- Tol Barad - Horde
+					{ 19, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
+					{ 19, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
 				};
 				{
 					{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Sunreavers"]};
@@ -3105,6 +3138,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 24, 39896, "", "=q1=Tickbird Hatchling", "=ds="..BabbleFaction["The Oracles"]};
 				{ 25, 39899, "", "=q1=White Tickbird Hatchling", "=ds="..BabbleFaction["The Oracles"]};
 			};
+		};
+		info = {
+			name = AL["Achievement & Faction Reward Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsRare"] = {
+		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#z17#", ""};
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
@@ -3118,16 +3160,17 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 48116, "", "=q1=Gundrak Hatchling", "=ds="..BabbleZone["Gundrak"]};
 				{ 11, 48118, "", "=q1=Leaping Hatchling", "=ds="..BabbleZone["The Barrens"]};
 				{ 12, 27445, "", "=q1=Magical Crawdad Box", "=ds="..BabbleZone["Terokkar Forest"]};
-				{ 13, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
-				{ 14, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
-				{ 15, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
-				{ 16, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Swamp of Sorrows"]};
-				{ 18, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 19, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
-				{ 20, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 21, 38658, "", "=q3=Vampiric Batling", "=q2="..BabbleBoss["Prince Tenris Mirkblood"]..", =q1="..BabbleZone["Karazhan"]}; --need to move to removed pets page
-				{ 22, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
-				{ 23, 48126, "", "=q1=Razzashi Hatchling", "=q2="..AL["Razzashi Raptor"]..", =q1="..BabbleZone["Zul'Gurub"]}; --need to find out new drop location	
+				{ 13, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
+				{ 14, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
+				{ 15, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
+				{ 16, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
+				{ 17, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Swamp of Sorrows"]};
+				{ 18, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
+				{ 21, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
+				{ 22, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 23, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+				{ 24, 48126, "", "=q1=Razzashi Hatchling", "=q2="..AL["Razzashi Raptor"]..", =q1="..BabbleZone["Zul'Gurub"]}; --need to find out new drop location
 			};
 		};
 		info = {
@@ -3172,31 +3215,31 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsPromotional"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
-				{ 2, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
-				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
-				{ 4, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
-				{ 5, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 6, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
-				{ 7, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
-				{ 8, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
-				{ 9, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
-				{ 17, 20371, "", "=q3=Blue Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 18, 13584, "", "=q3=Diablo Stone", "=q2="..AL["Collector's Edition"]};
-				{ 19, 39286, "", "=q3=Frosty's Collar", "=q2="..AL["Collector's Edition"]};
-				{ 20, 46802, "", "=q3=Heavy Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 21, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
-				{ 22, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
-				{ 23, 56806, "", "=q3=Mini Thor", "=q2="..AL["Collector's Edition"]};
-				{ 24, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
-				{ 25, 25535, "", "=q3=Netherwhelp's Collar", "=q2="..AL["Collector's Edition"]};
-				{ 26, 13583, "", "=q3=Panda Collar", "=q2="..AL["Collector's Edition"]};
-				{ 27, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-				{ 28, 65355, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 29, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
-				{ 30, 13582, "", "=q3=Zergling Leash", "=q2="..AL["Collector's Edition"]};
-
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
+				{ 2, 20371, "", "=q3=Blue Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 3, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
+				{ 4, 13584, "", "=q3=Diablo Stone", "=q2="..AL["Collector's Edition"]};
+				{ 5, 39286, "", "=q3=Frosty's Collar", "=q2="..AL["Collector's Edition"]};
+				{ 6, 46802, "", "=q3=Heavy Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 7, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
+				{ 8, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
+				{ 9, 56806, "", "=q3=Mini Thor", "=q2="..AL["Collector's Edition"]};
+				{ 10, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
+				{ 11, 25535, "", "=q3=Netherwhelp's Collar", "=q2="..AL["Collector's Edition"]};
+				{ 12, 13583, "", "=q3=Panda Collar", "=q2="..AL["Collector's Edition"]};
+				{ 13, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
+				{ 14, 65355, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 15, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
+				{ 16, 13582, "", "=q3=Zergling Leash", "=q2="..AL["Collector's Edition"]};
+				{ 18, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
+				{ 19, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
+				{ 20, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
+				{ 21, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
+				{ 22, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
+				{ 23, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 24, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
+				{ 25, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
+				{ 26, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
 			};
 		};
 		info = {
@@ -3210,9 +3253,10 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
 				{ 2, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
-				{ 3, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
-				{ 4, 44819, "", "=q1=Baby Blizzard Bear", "=ds="..AL["WoW Anniversary Celebration"]};
-				{ 5, 49362, "", "=q1=Onyxian Whelpling", "=ds="..AL["WoW Anniversary Celebration"]};
+				{ 3, 38658, "", "=q3=Vampiric Batling", "=q2="..BabbleBoss["Prince Tenris Mirkblood"]..", =q1="..BabbleZone["Karazhan"]};
+				{ 4, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
+				{ 5, 44819, "", "=q1=Baby Blizzard Bear", "=ds="..AL["WoW Anniversary Celebration"]};
+				{ 6, 49362, "", "=q1=Onyxian Whelpling", "=ds="..AL["WoW Anniversary Celebration"]};
 			};
 		};
 		info = {
@@ -3225,10 +3269,10 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 2, 68137, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
-				{ 3, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 4, 67601, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
-				{ 5, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+				{ 2, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 3, 67601, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 4, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+				{ 5, 68137, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
 				{ 6, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
 				{ 7, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
 			};
@@ -3253,49 +3297,49 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Companions"].." - "..AL["Accessories"],
+			name = AL["Companion Accessories"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
 
--- This is a loot table for all the pets introduced with Cataclysm. Please don't sort them in to the other
--- loot tables yet as they are a subject of change.
 	AtlasLoot_Data["PetsCata"] = {
 		["Normal"] = {
 			{
-				{ 1, 60847, "", "=q4=Crawling Hand", "=ds=Archaeology (Needs to be added to BabbleInv)"};
-				{ 2, 63398, "", "=q3=Armadillo Pup", "=q2="..AL["Critter Kill Squad"]}; -- Guild reward 
-				{ 3, 64372, "", "=q3=Clockwork Gnome", "=ds=Archaeology (Needs to be added to BabbleInv)"};
-				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "=q2="..AL["United Nations"]}; -- Guild reward
-				{ 5, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=ds="..BabbleInventory["Engineering"]};
-				{ 6, 67282, "", "=q3=Elementium Geode", "=ds=Mining (Needs to be added to BabbleInv)"};
-				{ 7, 67274, "", "=q3=Enchanted Lantern", "=ds="..BabbleInventory["Enchanting"]};
-				{ 8, 60955, "", "=q3=Fossilized Hatchling", "=ds=Archaeology (Needs to be added to BabbleInv)"};
-				{ 9, 64403, "", "=q3=Fox Kit", "=ds="}; -- havent added to any table yet
-				{ 10, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"]}; -- Guild reward
-				{ 11, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"]}; -- Guild reward
-				{ 12, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]}; -- Guild reward Alliance
-				{ 13, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]}; -- Guild reward Horde
-				{ 14, 67128, "", "=q3=Landro's Lil' XT", "=ds="};-- new TCG pet
-				{ 15, 62540, "", "=q3=Lil'Deathwing", "=ds="..AL["Collector's Edition"]};
-				{ 16, 67275, "", "=q3=Magic Lamp", "=ds="..BabbleInventory["Enchanting"]};
-				{ 17, 59597, "", "=q3=Personal World Destroyer", "=ds="..BabbleInventory["Engineering"]};
-				{ 18, 63355, "", "=q3=Rustberg Gull", "=ds=#e13#"}; -- Tol Barad - Alliance
-				{ 19, 64996, "", "=q3=Rustberg Gull", "=ds=#e13#"}; -- Tol Barad - Horde
-				{ 20, 65355, "", "=q3=Smoldering Murloc Egg", "=ds="..AL["Blizzcon"]};
-				{ 21, 65661, "", "=q1=Blue Mini Jouster", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 22, 66067, "", "=q1=Brazie's Sunflower Seeds", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 23, 65662, "", "=q1=Gold Mini Jouster", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 24, 66076, "", "=q1=Mr. Grubbs", "=ds="}; -- Drop in epl / havent added to any table yet
-				{ 25, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
-				{ 26, 64494, "", "=q1=Tiny Shale Spider", "=ds="}; -- Drop from Jadefang in Deepholm / havent added to any table yet
-				{ 27, 46325, "", "=q1=Withers", "=ds="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 28, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
-				{ 29, "s89930", "", "=q1=Swirling Stormling", "=ds="};
-				{ 30, "s89931", "", "=q1=Whirling Waveling", "=ds="};
-			};
-			{
-				{ 1, 68137, "", "=q3=Moonkin Hatchling", "=ds="};--new Blizzard store pet  / havent added to any table yet
+				{ 1, 60847, "", "=q4=Crawling Hand", "=q2=Archaeology (Needs to be added to BabbleInv)"};
+				{ 2, 63398, "", "=q3=Armadillo Pup", "=q2="..AL["Critter Kill Squad"]};
+				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=Archaeology (Needs to be added to BabbleInv)"};
+				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "=q2="..AL["United Nations"]};
+				{ 5, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2="..BabbleInventory["Engineering"]};
+				{ 6, 67282, "", "=q3=Elementium Geode", "=q2=Mining (Needs to be added to BabbleInv)"};
+				{ 7, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
+				{ 8, 60955, "", "=q3=Fossilized Hatchling", "=q2=Archaeology (Needs to be added to BabbleInv)"};
+				{ 9, 64403, "", "=q3=Fox Kit", "=ds="}; -- havent added to any table yet / unkown drop location
+				{
+					{ 10, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"]};
+					{ 10, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"]};
+				};
+				{
+					{ 11, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
+					{ 11, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
+				};
+				{ 12, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 13, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
+				{ 14, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
+				{ 15, 68137, "", "=q3=Moonkin Hatchling", "=ds="..AL["Companion Store"]};
+				{ 16, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
+				{ 17, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
+				{ 18, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
+				{ 19, 65355, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 20, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 21, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 22, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 23, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
+				{ 24, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
+				{ 25, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 26, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
+				{ 27, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
+				{ 28, "s89930", "", "=q1=Swirling Stormling", "=ds="};
+				{ 29, "s89931", "", "=q1=Whirling Waveling", "=ds="};
 			};
 		};
 		info = {

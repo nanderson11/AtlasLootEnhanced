@@ -637,14 +637,17 @@ if AL then
 
 	-- Companions
 	AL["Achievement"] = "Erfolg";
+	--AL["Achievement & Faction Reward Companions"] = true;
 	AL["Card Game Companions"] = "Kartenspiel-Haustiere";
+	--AL["Companion Accessories"] = true;
+	AL["Companion Store"] = "Haustiershop";
 	AL["Crafted Companions"] = "Hergestellte Haustiere";
 	AL["Dungeon/Raid"] = "Instanz/Schlachtzug";
 	AL["Faction"] = "Fraktion";
 	AL["Merchant Sold Companions"] = "Vom Händler verkauft";
 	AL["Pets"] = "Haustiere";
-	AL["Companion Store"] = "Haustiershop";
 	AL["Promotional Companions"] = "Promotions-Haustiere";
+	AL["Quest Reward Companions"] = true;
 	AL["Rare Companions"] = "Seltene Haustiere";
 	AL["Unobtainable Companions"] = "Nicht mehr erhaltbar";
 
@@ -666,12 +669,13 @@ if AL then
 	AL["Unobtainable Mounts"] = "Nicht mehr erhaltbar";
 
 	-- Tabards
-	AL["Classic Tabards"] = "Classic Wappenröcke";
-	AL["The Burning Crusade Tabards"] = "The Burning Crusade";
-	AL["Wrath of the Lich King Tabards"] = "Wrath of the Lich King";
-	AL["Cataclysm Tabards"] = "Cataclysm Wappenröcke";
-	AL["Card Game Tabards"] = "Kartenspiel Wappenröcke";
-	AL["Unobtainable Tabards"] = "Nicht mehr erhaltbar";
+	--AL["Achievement & Quest Reward Tabards"] = true;
+	--AL["Alliance Tabards"] = true;
+	--AL["Card Game Tabards"] = true;
+	--AL["Horde Tabards"] = true;
+	--AL["Neutral Faction Tabards"] = true;
+	--AL["PvP Tabards"] = true;
+	--AL["Unobtainable Tabards"] = true;
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Dunkelmond-Jahrmarkt Belohnungen";

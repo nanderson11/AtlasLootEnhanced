@@ -650,14 +650,17 @@ if AL then
 
 	-- Companions
 	AL["Achievement"] = true;
+	AL["Achievement & Faction Reward Companions"] = true;
 	AL["Card Game Companions"] = true;
+	AL["Companion Accessories"] = true;
+	AL["Companion Store"] = true;
 	AL["Crafted Companions"] = true;
 	AL["Dungeon/Raid"] = true;
 	AL["Faction"] = true;
 	AL["Merchant Sold Companions"] = true;
 	AL["Pets"] = true;
-	AL["Companion Store"] = true;
 	AL["Promotional Companions"] = true;
+	AL["Quest Reward Companions"] = true;
 	AL["Rare Companions"] = true;
 	AL["Unobtainable Companions"] = true;
 
@@ -679,11 +682,12 @@ if AL then
 	AL["Unobtainable Mounts"] = true;
 
 	-- Tabards
-	AL["Classic Tabards"] = true;
-	AL["The Burning Crusade Tabards"] = true;
-	AL["Wrath of the Lich King Tabards"] = true;
-	AL["Cataclysm Tabards"] = true;
+	AL["Achievement & Quest Reward Tabards"] = true;
+	AL["Alliance Tabards"] = true;
 	AL["Card Game Tabards"] = true;
+	AL["Horde Tabards"] = true;
+	AL["Neutral Faction Tabards"] = true;
+	AL["PvP Tabards"] = true;
 	AL["Unobtainable Tabards"] = true;
 
 	-- Darkmoon Faire
@@ -1513,6 +1517,7 @@ if AL then
 	AL["Razzashi Raptor"] = true;
 	AL["Deviate Ravager/Deviate Guardian"] = true;
 	AL["Servant's Quarter Animal Bosses"] = true;
+	AL["Jadefang"] = true;
 
 	-- Zones
 	AL["World Drop"] = true;
@@ -1591,6 +1596,7 @@ if AL then
 	AL["Lovely Dress Box"] = true;
 	AL["Dinner Suit Box"] = true;
 	AL["Bag of Heart Candies"] = true;
+	AL["Hidden Stash"] = true;
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = true;

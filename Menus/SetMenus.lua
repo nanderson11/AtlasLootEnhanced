@@ -128,14 +128,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 2, "PetsMerchant", "spell_nature_polymorph", "=ds="..AL["Merchant Sold Companions"], ""};
-				{ 3, "PetsRare", "spell_shaman_hex", "=ds="..AL["Rare Companions"], ""};
-				{ 4, "PetsPromotional", "inv_netherwhelp", "=ds="..AL["Promotional Companions"], ""};
-				{ 5, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
-				{ 17, "PetsQuestCrafted", "inv_drink_19", "=ds="..BabbleInventory["Quest"].." / "..AL["Crafted"], ""};
-				{ 18, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
-				{ 19, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Companion Store"], ""};
-				{ 20, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Accessories"], ""};
-				{ 21, "PetsCata", "INV_Misc_Coin_01", "=ds="..AL["Cataclysm"], ""};
+				{ 3, "PetsCrafted", "inv_drink_19", "=ds="..AL["Crafted Companions"], ""};
+				{ 4, "PetsRare", "spell_shaman_hex", "=ds="..AL["Rare Companions"], ""};
+				{ 5, "PetsPromotional", "inv_netherwhelp", "=ds="..AL["Promotional Companions"], ""};
+				{ 6, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
+				{ 7, "PetsCata", "INV_Misc_Coin_01", "=ds="..AL["Cataclysm"], ""};
+				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
+				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement & Faction Reward Companions"], ""};
+				{ 19, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
+				{ 20, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Companion Store"], ""};
+				{ 21, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};
 			};
 		};
 		info = {
@@ -147,11 +149,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["TABARDMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "TabardsClassic", "inv_shirt_guildtabard_01", "=ds="..AL["Classic Tabards"], ""};
-				{ 3, "TabardsWrath", "inv_chest_cloth_30", "=ds="..AL["Wrath of the Lich King Tabards"], ""};
+				{ 2, "TabardsAlliance", "achievement_pvp_a_16", "=ds="..AL["Alliance Tabards"], ""};
+				{ 3, "TabardsNeutralFaction", "inv_chest_cloth_30", "=ds="..AL["Neutral Faction Tabards"], ""};
 				{ 4, "TabardsCardGame", "inv_misc_tabardpvp_02", "=ds="..AL["Card Game Tabards"], ""};
-				{ 17, "TabardsBurningCrusade", "inv_misc_tabardpvp_01", "=ds="..AL["The Burning Crusade Tabards"], ""};
-				--{ 18, "TabardsCataclysm", "inv_shirt_guildtabard_01", "=ds="..AL["Cataclysm Tabards"], ""};
+				{ 17, "TabardsHorde", "achievement_pvp_h_16", "=ds="..AL["Horde Tabards"], ""};
+				{ 18, "TabardsAchievementQuestRareMisc", "inv_shirt_guildtabard_01", "=ds="..AL["Achievement & Quest Reward Tabards"], ""};
 				{ 19, "TabardsRemoved", "INV_Jewelry_Ring_15", "=ds="..AL["Unobtainable Tabards"], ""};
 			};
 		};
