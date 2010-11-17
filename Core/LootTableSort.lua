@@ -296,6 +296,24 @@ local function SortTableItems(t, f)
 	end
 end
 
+local function GetItemPriceFromTable(itemTable, itemID)
+	if not itemTable or not itemID then return end
+	if type(itemTable) == "string" then
+		local dataID, instancePage = AtlasLoot:FormatDataID(itemTable)
+		local lootTableType = AtlasLoot:GetLootTableType(itemTable)
+		itemTable = AtlasLoot_Data[dataID][lootTableType][instancePage]
+	end
+	
+	local price
+	for k,v in ipairs(itemTable) do
+		if v[2] == itemID or v[3] == itemID then
+			price = v[6]
+			break
+		end
+	end
+	return price 
+end
+
 function LootTableSort:ShowSortedTable(name, tab, itemType)
 	self.lootpage = self:Preparing_SortTable()
 	self.lootpage.info.name = name or self.name
@@ -367,9 +385,9 @@ function LootTableSort:ShowSortedTable(name, tab, itemType)
 			for itemSort,item in ipairs(boss) do
 				if tab[item] and tab[item][3] and type(tab[item][3]) == "string" and tab[item][3] ~= "" then
 					spell = "s"..tab[item][3]
-					self.lootpage["Normal"][tablePage][#self.lootpage["Normal"][tablePage] + 1] = { tablePos, spell, tab[item][2], tab[item][4], tab[item][5], "", type = itemType}
+					self.lootpage["Normal"][tablePage][#self.lootpage["Normal"][tablePage] + 1] = { tablePos, spell, tab[item][2], tab[item][4], tab[item][5], GetItemPriceFromTable(boss["INFO"][3], tab[item][2]), type = itemType}
 				elseif tab[item] and tab[item][2] then
-					self.lootpage["Normal"][tablePage][#self.lootpage["Normal"][tablePage] + 1] = { tablePos, tab[item][2], "", tab[item][4], tab[item][5], "", type = itemType}
+					self.lootpage["Normal"][tablePage][#self.lootpage["Normal"][tablePage] + 1] = { tablePos, tab[item][2], "", tab[item][4], tab[item][5], GetItemPriceFromTable(boss["INFO"][3], tab[item][2]), type = itemType}
 				end
 				tablePos = tablePos + 1
 				if tablePos > 30 then
