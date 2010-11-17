@@ -9338,7 +9338,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleZone["Grizzly Hills"]..": "..AL["Venture Bay"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU2",
 		};
 	}
 

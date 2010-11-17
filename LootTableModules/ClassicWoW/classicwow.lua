@@ -545,7 +545,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 21585, "", "=q4=Dark Storm Gauntlets", "=ds=#s9#, #a1#", "", "13.63%"};
 				{ 4, 22730, "", "=q4=Eyestalk Waist Cord", "=ds=#s10#, #a1#", "", "10.41%"};
 				{ 5, 21582, "", "=q4=Grasp of the Old God", "=ds=#s10#, #a1#", "", "15.04%"};
-				{ 6, 21586, "", "=q4=Belt of Never-ending Agony", "=ds=#s10#, #a2#", "", "11.24%"};
+				{ 6, 21586, "", "=q4=Belt of Never-Ending Agony", "=ds=#s10#, #a2#", "", "11.24%"};
 				{ 7, 21581, "", "=q4=Gauntlets of Annihilation", "=ds=#s9#, #a4#", "", "12.04%"};
 				{ 9, 22732, "", "=q4=Mark of C'Thun", "=ds=#s2#", "", "10.62%"};
 				{ 10, 21596, "", "=q4=Ring of the Godslayer", "=ds=#s13#", "", "11.83%"};
@@ -948,9 +948,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 11, 11744, "", "=q3=Bloodfist", "=ds=#h1#, #w13#", "", "28.48%"};
 				{ 16, 0, "INV_Box_01", "=q6=#n50#", ""};
 				{ 17, 11612, "", "=q3=Plans: Dark Iron Plate", "=ds=#p2# (285)", "", "22.20%"};
-				{ 18, 2662, "", "=q2=Ribbly's Quiver", "=ds=#e1#", "", "17.03%"};
-				{ 19, 2663, "", "=q2=Ribbly's Bandolier", "=ds=#m13# #e1#", "", "15.73%"};
-				{ 20, 11742, "", "=q2=Wayfarer's Knapsack", "=ds=#m13# #e1#", "", "25.07%"};
+				{ 18, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#m13# #e1#", "", "25.07%"};
+				{ 19, 2662, "", "=q2=Ribbly's Quiver", "=ds=#m13# #e1#", "", "17.03%"};
+				{ 20, 2663, "", "=q2=Ribbly's Bandolier", "=ds=#m13# #e1#", "", "15.73%"};
 				{ 21, 11313, "", "=q1=Ribbly's Head", "=ds=#m3#"};
 				{ 23, 0, "INV_Box_01", "=q6=#n51#", ""};
 				{ 24, 12793, "", "=q3=Mixologist's Tunic", "=ds=#s5#, #a2#", "", "24.87%"};
@@ -2880,8 +2880,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 25, 9487, "", "=q3=Hi-Tech Supergun", "=ds=#w5#", "", "0.01%"};
 				{ 26, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#", "", "1.41%"};
 				{ 28, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2#", "", "9.38%"};
-				{ 29, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#"};
-				{ 30, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13#"};
+				{ 29, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13#"};
+				{ 30, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#"};
 			};
 		};
 		info = {
@@ -6259,21 +6259,21 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AVMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b1#"};
-				{ 2, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26#", "2000 #honor#"};
-				{ 3, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "500 #honor#"};
-				{ 4, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "2678 #honor#"};
+				{ 2, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b1#"};
+				{ 3, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26#", "2000 #honor#"};
+				{ 4, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "500 #honor#"};
+				{ 5, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "2678 #honor#"};
 				{ 7, 17348, "", "=q1=Major Healing Draught", "=ds=#e2#", "10 #silver# 8 #honor#"};
 				{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# 1 #honor#"};
 				{ 9, 19301, "", "=q1=Alterac Manna Biscuit", "=ds=#e3#", "70 #silver#"};
 				{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b2#"};
-				{ 17, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26#", "2000 #honor#"};
-				{ 18, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "500 #honor#"};
-				{ 19, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "2678 #honor#"};
-				{ 21, 17351, "", "=q1=Major Mana Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
-				{ 22, 17352, "", "=q1=Superior Mana Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
-				{ 23, 19318, "", "=q1=Bottled Alterac Spring Water", "=ds=#e4#", "50 #silver#"};
+				{ 17, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b2#"};
+				{ 18, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26#", "2000 #honor#"};
+				{ 19, 19046, "", "=q3=Frostwolf Battle Standard", "=ds=#e14#", "500 #honor#"};
+				{ 20, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#", "2678 #honor#"};
+				{ 22, 17351, "", "=q1=Major Mana Draught", "=ds=#e2#", "10 #silver# 8 #faction#"};
+				{ 23, 17352, "", "=q1=Superior Mana Draught", "=ds=#e2#", "5 #silver# 1 #faction#"};
+				{ 24, 19318, "", "=q1=Bottled Alterac Spring Water", "=ds=#e4#", "50 #silver#"};
 			};
 		};
 		info = {
@@ -6341,7 +6341,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleZone["Alterac Valley"],
-			module = moduleName, menu = "PVPMENU2"
+			module = moduleName, menu = "PVPMENU2", instance = "AlteracValley",
 		};
 	}
 
@@ -6596,181 +6596,200 @@ local moduleName = "AtlasLootClassicWoW"
 		---------------------
 
 	AtlasLoot_Data["WSGMisc"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 2, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "12000 #faction#", ""};
-		{ 5, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# 2 #faction#", ""};
-		{ 6, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #faction#", ""};
-		{ 7, 19060, "", "=q1=Warsong Gulch Enriched Ration", "=ds=", "20 #silver#", ""};
-		{ 8, 19062, "", "=q1=Warsong Gulch Field Ration", "=ds=", "10 #silver#", ""};
-		{ 9, 19067, "", "=q1=Warsong Gulch Mageweave Bandage", "=ds=", "15 #silver#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 17, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "12000 #faction#", ""};
-		{ 20, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# 2 #faction#", ""};
-		{ 21, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #faction#", ""};
-		{ 22, 19061, "", "=q1=Warsong Gulch Iron Ration", "=ds=", "15 #silver#", ""};
-		{ 23, 19066, "", "=q1=Warsong Gulch Runecloth Bandage", "=ds=", "20 #silver#", ""};
-		{ 24, 19068, "", "=q1=Warsong Gulch Silk Bandage", "=ds=", "10 #silver#", ""};
-		Next = "WSGAccessories_A";
-		Back = "PVPMENU2";
-	};
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
+				{ 2, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "2059 #honor#", ""};
+				{ 5, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# 1 #honor#", ""};
+				{ 6, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 7, 19060, "", "=q1=Warsong Gulch Enriched Ration", "=ds=", "20 #silver#", ""};
+				{ 8, 19062, "", "=q1=Warsong Gulch Field Ration", "=ds=", "10 #silver#", ""};
+				{ 9, 19067, "", "=q1=Warsong Gulch Mageweave Bandage", "=ds=", "15 #silver#", ""};
+				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
+				{ 17, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "2059 #honor#", ""};
+				{ 20, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# 1 #honor#", ""};
+				{ 21, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 22, 19061, "", "=q1=Warsong Gulch Iron Ration", "=ds=", "15 #silver#", ""};
+				{ 23, 19066, "", "=q1=Warsong Gulch Runecloth Bandage", "=ds=", "20 #silver#", ""};
+				{ 24, 19068, "", "=q1=Warsong Gulch Silk Bandage", "=ds=", "10 #silver#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"],
+			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
+		};
+	}
 
-	AtlasLoot_Data["WSGAccessories_A"] = {
-		{ 1, 20428, "", "=q3=Caretaker's Cape", "=ds=", "40 #honor#", ""};
-		{ 2, 19533, "", "=q3=Caretaker's Cape", "=ds=", "40 #honor#", ""};
-		{ 3, 19532, "", "=q3=Caretaker's Cape", "=ds=", "45 #honor#", ""};
-		{ 4, 19531, "", "=q3=Caretaker's Cape", "=ds=", "45 #honor#", ""};
-		{ 5, 19530, "", "=q3=Caretaker's Cape", "=ds=", "50 #honor#", ""};
-		{ 7, 20444, "", "=q3=Sentinel's Medallion", "=ds=", "40 #honor#", ""};
-		{ 8, 19541, "", "=q3=Sentinel's Medallion", "=ds=", "40 #honor#", ""};
-		{ 9, 19540, "", "=q3=Sentinel's Medallion", "=ds=", "45 #honor#", ""};
-		{ 10, 19539, "", "=q3=Sentinel's Medallion", "=ds=", "45 #honor#", ""};
-		{ 11, 19538, "", "=q3=Sentinel's Medallion", "=ds=", "50 #honor#", ""};
-		{ 13, 21568, "", "=q3=Rune of Duty", "=ds=", "45 #honor#", ""};
-		{ 14, 21567, "", "=q3=Rune of Duty", "=ds=", "45 #honor#", ""};
-		{ 16, 20431, "", "=q3=Lorekeeper's Ring", "=ds=", "40 #honor#", ""};
-		{ 17, 19525, "", "=q3=Lorekeeper's Ring", "=ds=", "40 #honor#", ""};
-		{ 18, 19524, "", "=q3=Lorekeeper's Ring", "=ds=", "45 #honor#", ""};
-		{ 19, 19523, "", "=q3=Lorekeeper's Ring", "=ds=", "45 #honor#", ""};
-		{ 20, 19522, "", "=q3=Lorekeeper's Ring", "=ds=", "50 #honor#", ""};
-		{ 22, 20439, "", "=q3=Protector's Band", "=ds=", "40 #honor#", ""};
-		{ 23, 19517, "", "=q3=Protector's Band", "=ds=", "40 #honor#", ""};
-		{ 24, 19515, "", "=q3=Protector's Band", "=ds=", "45 #honor#", ""};
-		{ 25, 19516, "", "=q3=Protector's Band", "=ds=", "45 #honor#", ""};
-		{ 26, 19514, "", "=q3=Protector's Band", "=ds=", "50 #honor#", ""};
-		{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "45 #honor#", ""};
-		{ 29, 21565, "", "=q3=Rune of Perfection", "=ds=", "45 #honor#", ""};
-		Next = "WSGWeapons_A";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["WSGAccessories"] = {
+		["Normal_A"] = {
+			{
+				{ 1, 20428, "", "=q3=Caretaker's Cape", "=ds=", "20 #honor#", ""};
+				{ 2, 19533, "", "=q3=Caretaker's Cape", "=ds=", "25 #honor#", ""};
+				{ 3, 19532, "", "=q3=Caretaker's Cape", "=ds=", "35 #honor#", ""};
+				{ 4, 19531, "", "=q3=Caretaker's Cape", "=ds=", "45 #honor#", ""};
+				{ 5, 19530, "", "=q3=Caretaker's Cape", "=ds=", "55 #honor#", ""};
+				{ 7, 20444, "", "=q3=Sentinel's Medallion", "=ds=", "20 #honor#", ""};
+				{ 8, 19541, "", "=q3=Sentinel's Medallion", "=ds=", "25 #honor#", ""};
+				{ 9, 19540, "", "=q3=Sentinel's Medallion", "=ds=", "35 #honor#", ""};
+				{ 10, 19539, "", "=q3=Sentinel's Medallion", "=ds=", "45 #honor#", ""};
+				{ 11, 19538, "", "=q3=Sentinel's Medallion", "=ds=", "55 #honor#", ""};
+				{ 13, 21568, "", "=q3=Rune of Duty", "=ds=", "20 #honor#", ""};
+				{ 14, 21567, "", "=q3=Rune of Duty", "=ds=", "35 #honor#", ""};
+				{ 16, 20431, "", "=q3=Lorekeeper's Ring", "=ds=", "20 #honor#", ""};
+				{ 17, 19525, "", "=q3=Lorekeeper's Ring", "=ds=", "25 #honor#", ""};
+				{ 18, 19524, "", "=q3=Lorekeeper's Ring", "=ds=", "35 #honor#", ""};
+				{ 19, 19523, "", "=q3=Lorekeeper's Ring", "=ds=", "45 #honor#", ""};
+				{ 20, 19522, "", "=q3=Lorekeeper's Ring", "=ds=", "55 #honor#", ""};
+				{ 22, 20439, "", "=q3=Protector's Band", "=ds=", "20 #honor#", ""};
+				{ 23, 19517, "", "=q3=Protector's Band", "=ds=", "25 #honor#", ""};
+				{ 24, 19515, "", "=q3=Protector's Band", "=ds=", "35 #honor#", ""};
+				{ 25, 19516, "", "=q3=Protector's Band", "=ds=", "45 #honor#", ""};
+				{ 26, 19514, "", "=q3=Protector's Band", "=ds=", "55 #honor#", ""};
+				{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "20 #honor#", ""};
+				{ 29, 21565, "", "=q3=Rune of Perfection", "=ds=", "35 #honor#", ""};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 1, 20427, "", "=q3=Battle Healer's Cloak", "=ds=", "20 #honor#", ""};
+				{ 2, 19529, "", "=q3=Battle Healer's Cloak", "=ds=", "25 #honor#", ""};
+				{ 3, 19528, "", "=q3=Battle Healer's Cloak", "=ds=", "35 #honor#", ""};
+				{ 4, 19527, "", "=q3=Battle Healer's Cloak", "=ds=", "45 #honor#", ""};
+				{ 5, 19526, "", "=q3=Battle Healer's Cloak", "=ds=", "55 #honor#", ""};
+				{ 7, 20442, "", "=q3=Scout's Medallion", "=ds=", "20 #honor#", ""};
+				{ 8, 19537, "", "=q3=Scout's Medallion", "=ds=", "25 #honor#", ""};
+				{ 9, 19536, "", "=q3=Scout's Medallion", "=ds=", "35 #honor#", ""};
+				{ 10, 19535, "", "=q3=Scout's Medallion", "=ds=", "45 #honor#", ""};
+				{ 11, 19534, "", "=q3=Scout's Medallion", "=ds=", "55 #honor#", ""};
+				{ 13, 21568, "", "=q3=Rune of Duty", "=ds=", "20 #honor#", ""};
+				{ 14, 21567, "", "=q3=Rune of Duty", "=ds=", "35 #honor#", ""};
+				{ 16, 20426, "", "=q3=Advisor's Ring", "=ds=", "20 #honor#", ""};
+				{ 17, 19521, "", "=q3=Advisor's Ring", "=ds=", "25 #honor#", ""};
+				{ 18, 19520, "", "=q3=Advisor's Ring", "=ds=", "35 #honor#", ""};
+				{ 19, 19519, "", "=q3=Advisor's Ring", "=ds=", "45 #honor#", ""};
+				{ 20, 19518, "", "=q3=Advisor's Ring", "=ds=", "55 #honor#", ""};
+				{ 22, 20429, "", "=q3=Legionnaire's Band", "=ds=", "20 #honor#", ""};
+				{ 23, 19513, "", "=q3=Legionnaire's Band", "=ds=", "25 #honor#", ""};
+				{ 24, 19512, "", "=q3=Legionnaire's Band", "=ds=", "35 #honor#", ""};		
+				{ 25, 19511, "", "=q3=Legionnaire's Band", "=ds=", "45 #honor#", ""};
+				{ 26, 19510, "", "=q3=Legionnaire's Band", "=ds=", "55 #honor#", ""};
+				{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "20 #honor#", ""};
+				{ 29, 21565, "", "=q3=Rune of Perfection", "=ds=", "35 #honor#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Warsong Gulch"].." "..AL["Accessories"],
+			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
+		};
+	}
 
-	AtlasLoot_Data["WSGAccessories_H"] = {
-		{ 1, 20427, "", "=q3=Battle Healer's Cloak", "=ds=", "40 #honor#", ""};
-		{ 2, 19529, "", "=q3=Battle Healer's Cloak", "=ds=", "40 #honor#", ""};
-		{ 3, 19528, "", "=q3=Battle Healer's Cloak", "=ds=", "45 #honor#", ""};
-		{ 4, 19527, "", "=q3=Battle Healer's Cloak", "=ds=", "45 #honor#", ""};
-		{ 5, 19526, "", "=q3=Battle Healer's Cloak", "=ds=", "50 #honor#", ""};
-		{ 7, 20442, "", "=q3=Scout's Medallion", "=ds=", "40 #honor#", ""};
-		{ 8, 19537, "", "=q3=Scout's Medallion", "=ds=", "40 #honor#", ""};
-		{ 9, 19536, "", "=q3=Scout's Medallion", "=ds=", "45 #honor#", ""};
-		{ 10, 19535, "", "=q3=Scout's Medallion", "=ds=", "45 #honor#", ""};
-		{ 11, 19534, "", "=q3=Scout's Medallion", "=ds=", "50 #honor#", ""};
-		{ 13, 21568, "", "=q3=Rune of Duty", "=ds=", "45 #honor#", ""};
-		{ 14, 21567, "", "=q3=Rune of Duty", "=ds=", "45 #honor#", ""};
-		{ 16, 20426, "", "=q3=Advisor's Ring", "=ds=", "40 #honor#", ""};
-		{ 17, 19521, "", "=q3=Advisor's Ring", "=ds=", "40 #honor#", ""};
-		{ 18, 19520, "", "=q3=Advisor's Ring", "=ds=", "45 #honor#", ""};
-		{ 19, 19519, "", "=q3=Advisor's Ring", "=ds=", "45 #honor#", ""};
-		{ 20, 19518, "", "=q3=Advisor's Ring", "=ds=", "50 #honor#", ""};
-		{ 22, 20429, "", "=q3=Legionnaire's Band", "=ds=", "40 #honor#", ""};
-		{ 23, 19513, "", "=q3=Legionnaire's Band", "=ds=", "40 #honor#", ""};
-		{ 24, 19512, "", "=q3=Legionnaire's Band", "=ds=", "45 #honor#", ""};		
-		{ 25, 19511, "", "=q3=Legionnaire's Band", "=ds=", "45 #honor#", ""};
-		{ 26, 19510, "", "=q3=Legionnaire's Band", "=ds=", "50 #honor#", ""};
-		{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "45 #honor#", ""};
-		{ 29, 21565, "", "=q3=Rune of Perfection", "=ds=", "45 #honor#", ""};
-		Next = "WSGWeapons_H";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["WSGWeapons"] = {
+		["Normal_A"] = {
+			{
+				{ 1, 20443, "", "=q3=Sentinel's Blade", "=ds=", "70 #honor#", ""};
+				{ 2, 19549, "", "=q3=Sentinel's Blade", "=ds=", "85 #honor#", ""};
+				{ 3, 19548, "", "=q3=Sentinel's Blade", "=ds=", "110 #honor#", ""};
+				{ 4, 19547, "", "=q3=Sentinel's Blade", "=ds=", "135 #honor#", ""};
+				{ 5, 19546, "", "=q3=Sentinel's Blade", "=ds=", "170 #honor#", ""};
+				{ 7, 20440, "", "=q3=Protector's Sword", "=ds=", "70 #honor#", ""};
+				{ 8, 19557, "", "=q3=Protector's Sword", "=ds=", "85 #honor#", ""};
+				{ 9, 19556, "", "=q3=Protector's Sword", "=ds=", "110 #honor#", ""};
+				{ 10, 19555, "", "=q3=Protector's Sword", "=ds=", "135 #honor#", ""};
+				{ 11, 19554, "", "=q3=Protector's Sword", "=ds=", "170 #honor#", ""};
+				{ 16, 20434, "", "=q3=Lorekeeper's Staff", "=ds=", "100 #honor#", ""};
+				{ 17, 19573, "", "=q3=Lorekeeper's Staff", "=ds=", "125 #honor#", ""};
+				{ 18, 19572, "", "=q3=Lorekeeper's Staff", "=ds=", "155 #honor#", ""};
+				{ 19, 19571, "", "=q3=Lorekeeper's Staff", "=ds=", "195 #honor#", ""};
+				{ 20, 19570, "", "=q3=Lorekeeper's Staff", "=ds=", "245 #honor#", ""};
+				{ 22, 20438, "", "=q3=Outrunner's Bow", "=ds=", "70 #honor#", ""};
+				{ 23, 19565, "", "=q3=Outrunner's Bow", "=ds=", "85 #honor#", ""};
+				{ 24, 19564, "", "=q3=Outrunner's Bow", "=ds=", "110 #honor#", ""};
+				{ 25, 19563, "", "=q3=Outrunner's Bow", "=ds=", "135 #honor#", ""};
+				{ 26, 19562, "", "=q3=Outrunner's Bow", "=ds=", "170 #honor#", ""};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 1, 20441, "", "=q3=Scout's Blade", "=ds=", "70 #honor#", ""};
+				{ 2, 19545, "", "=q3=Scout's Blade", "=ds=", "85 #honor#", ""};
+				{ 3, 19544, "", "=q3=Scout's Blade", "=ds=", "110 #honor#", ""};
+				{ 4, 19543, "", "=q3=Scout's Blade", "=ds=", "135 #honor#", ""};
+				{ 5, 19542, "", "=q3=Scout's Blade", "=ds=", "170 #honor#", ""};
+				{ 7, 20430, "", "=q3=Legionnaire's Sword", "=ds=", "70 #honor#", ""};
+				{ 8, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "85 #honor#", ""};
+				{ 9, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "110 #honor#", ""};
+				{ 10, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "135 #honor#", ""};
+				{ 11, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "170 #honor#", ""};
+				{ 16, 20425, "", "=q3=Advisor's Gnarled Staff", "=ds=", "100 #honor#", ""};
+				{ 17, 19569, "", "=q3=Advisor's Gnarled Staff", "=ds=", "125 #honor#", ""};
+				{ 18, 19568, "", "=q3=Advisor's Gnarled Staff", "=ds=", "155 #honor#", ""};
+				{ 19, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "195 #honor#", ""};
+				{ 20, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "245 #honor#", ""};
+				{ 22, 20437, "", "=q3=Outrider's Bow", "=ds=", "70 #honor#", ""};
+				{ 23, 19561, "", "=q3=Outrider's Bow", "=ds=", "85 #honor#", ""};
+				{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "110 #honor#", ""};
+				{ 25, 19559, "", "=q3=Outrider's Bow", "=ds=", "135 #honor#", ""};
+				{ 26, 19558, "", "=q3=Outrider's Bow", "=ds=", "170 #honor#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Warsong Gulch"].." "..AL["Weapons"],
+			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
+		};
+	}
 
-	AtlasLoot_Data["WSGWeapons_A"] = {
-		{ 1, 20443, "", "=q3=Sentinel's Blade", "=ds=", "45 #honor#", ""};
-		{ 2, 19549, "", "=q3=Sentinel's Blade", "=ds=", "70 #honor#", ""};
-		{ 3, 19548, "", "=q3=Sentinel's Blade", "=ds=", "500 #alliance#", ""};
-		{ 4, 19547, "", "=q3=Sentinel's Blade", "=ds=", "700 #alliance#", ""};
-		{ 5, 19546, "", "=q3=Sentinel's Blade", "=ds=", "6000 #alliance#", ""};
-		{ 7, 20440, "", "=q3=Protector's Sword", "=ds=", "45 #honor#", ""};
-		{ 8, 19557, "", "=q3=Protector's Sword", "=ds=", "70 #honor#", ""};
-		{ 9, 19556, "", "=q3=Protector's Sword", "=ds=", "500 #alliance#", ""};
-		{ 10, 19555, "", "=q3=Protector's Sword", "=ds=", "700 #alliance#", ""};
-		{ 11, 19554, "", "=q3=Protector's Sword", "=ds=", "6000 #alliance#", ""};
-		{ 16, 20434, "", "=q3=Lorekeeper's Staff", "=ds=", "500 #alliance#", ""};
-		{ 17, 19573, "", "=q3=Lorekeeper's Staff", "=ds=", "700 #alliance#", ""};
-		{ 18, 19572, "", "=q3=Lorekeeper's Staff", "=ds=", "1000 #alliance#", ""};
-		{ 19, 19571, "", "=q3=Lorekeeper's Staff", "=ds=", "105 #honor#", ""};
-		{ 20, 19570, "", "=q3=Lorekeeper's Staff", "=ds=", "125 #honor#", ""};
-		{ 22, 20438, "", "=q3=Outrunner's Bow", "=ds=", "45 #honor#", ""};
-		{ 23, 19565, "", "=q3=Outrunner's Bow", "=ds=", "70 #honor#", ""};
-		{ 24, 19564, "", "=q3=Outrunner's Bow", "=ds=", "500 #alliance#", ""};
-		{ 25, 19563, "", "=q3=Outrunner's Bow", "=ds=", "700 #alliance#", ""};
-		{ 26, 19562, "", "=q3=Outrunner's Bow", "=ds=", "6000 #alliance#", ""};
-		Prev = "WSGAccessories_A";
-		Next = "WSGArmor_A";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["WSGWeapons_H"] = {
-		{ 1, 20441, "", "=q3=Scout's Blade", "=ds=", "45 #honor#", ""};
-		{ 2, 19545, "", "=q3=Scout's Blade", "=ds=", "70 #honor#", ""};
-		{ 3, 19544, "", "=q3=Scout's Blade", "=ds=", "500 #horde#", ""};
-		{ 4, 19543, "", "=q3=Scout's Blade", "=ds=", "700 #horde#", ""};
-		{ 5, 19542, "", "=q3=Scout's Blade", "=ds=", "6000 #horde#", ""};
-		{ 7, 20430, "", "=q3=Legionnaire's Sword", "=ds=", "45 #honor#", ""};
-		{ 8, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "70 #honor#", ""};
-		{ 9, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "500 #horde#", ""};
-		{ 10, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "700 #horde#", ""};
-		{ 11, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "6000 #horde#", ""};
-		{ 16, 20425, "", "=q3=Advisor's Gnarled Staff", "=ds=", "500 #horde#", ""};
-		{ 17, 19569, "", "=q3=Advisor's Gnarled Staff", "=ds=", "700 #horde#", ""};
-		{ 18, 19568, "", "=q3=Advisor's Gnarled Staff", "=ds=", "1000 #horde#", ""};
-		{ 19, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "105 #honor#", ""};
-		{ 20, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "125 #honor#", ""};
-		{ 22, 20437, "", "=q3=Outrider's Bow", "=ds=", "45 #honor#", ""};
-		{ 23, 19561, "", "=q3=Outrider's Bow", "=ds=", "70 #honor#", ""};
-		{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "500 #horde#", ""};
-		{ 25, 19559, "", "=q3=Outrider's Bow", "=ds=", "700 #horde#", ""};
-		{ 26, 19558, "", "=q3=Outrider's Bow", "=ds=", "6000 #horde#", ""};
-		Prev = "WSGAccessories_H";
-		Next = "WSGArmor_H";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["WSGArmor_A"] = {
-		{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "500 #alliance#", ""};
-		{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "700 #alliance#", ""};
-		{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "105 #honor#", ""};	
-		{ 5, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "500 #alliance#", ""};
-		{ 6, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "700 #alliance#", ""};
-		{ 7, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "105 #honor#", ""};
-		{ 9, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "500 #alliance#", ""};
-		{ 10, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "700 #alliance#", ""};
-		{ 11, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "105 #honor#", ""};
-		{ 13, 19581, "", "=q4=Berserker Bracers", "=ds=", "500 #alliance#", ""};
-		{ 14, 19580, "", "=q4=Berserker Bracers", "=ds=", "700 #alliance#", ""};
-		{ 15, 19578, "", "=q4=Berserker Bracers", "=ds=", "105 #honor#", ""};
-		{ 16, 22752, "", "=q4=Sentinel's Silk Leggings", "=ds=", "70 #honor#", ""};	
-		{ 18, 22749, "", "=q4=Sentinel's Leather Pants", "=ds=", "70 #honor#", ""};
-		{ 19, 22750, "", "=q4=Sentinel's Lizardhide Pants", "=ds=", "70 #honor#", ""};
-		{ 21, 22748, "", "=q4=Sentinel's Chain Leggings", "=ds=", "70 #honor#", ""};
-		{ 22, 30497, "", "=q4=Sentinel's Mail Leggings", "=ds=", "70 #honor#", ""};
-		{ 24, 22753, "", "=q4=Sentinel's Lamellar Legguards", "=ds=", "70 #honor#", ""};
-		{ 25, 22672, "", "=q4=Sentinel's Plate Legguards", "=ds=", "70 #honor#", ""};	
-		Prev = "WSGWeapons_A";
-		Back = "PVPMENU2";
-	};
-
-	AtlasLoot_Data["WSGArmor_H"] = {
-		{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "500 #horde#", ""};
-		{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "700 #horde#", ""};
-		{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "105 #honor#", ""};
-		{ 5, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "500 #horde#", ""};
-		{ 6, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "700 #horde#", ""};
-		{ 7, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "105 #honor#", ""};
-		{ 9, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "500 #horde#", ""};
-		{ 10, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "700 #horde#", ""};
-		{ 11, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "105 #honor#", ""};
-		{ 13, 19581, "", "=q4=Berserker Bracers", "=ds=", "500 #horde#", ""};
-		{ 14, 19580, "", "=q4=Berserker Bracers", "=ds=", "700 #horde#", ""};
-		{ 15, 19578, "", "=q4=Berserker Bracers", "=ds=", "105 #honor#", ""};
-		{ 16, 22747, "", "=q4=Outrider's Silk Leggings", "=ds=", "70 #honor#", ""};
-		{ 18, 22740, "", "=q4=Outrider's Leather Pants", "=ds=", "70 #honor#", ""};
-		{ 19, 22741, "", "=q4=Outrider's Lizardhide Pants", "=ds=", "70 #honor#", ""};
-		{ 21, 22673, "", "=q4=Outrider's Chain Leggings", "=ds=", "70 #honor#", ""};
-		{ 22, 22676, "", "=q4=Outrider's Mail Leggings", "=ds=", "70 #honor#", ""};
-		{ 24, 30498, "", "=q4=Outrider's Lamellar Legguards", "=ds=", "70 #honor#", ""};
-		{ 25, 22651, "", "=q4=Outrider's Plate Legguards", "=ds=", "70 #honor#", ""};
-		Prev = "WSGWeapons_H";
-		Back = "PVPMENU2";
-	};
+	AtlasLoot_Data["WSGArmor"] = {
+		["Normal_A"] = {
+			{
+				{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "55 #honor#", ""};
+				{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "65 #honor#", ""};
+				{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "85 #honor#", ""};	
+				{ 5, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "55 #honor#", ""};
+				{ 6, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "65 #honor#", ""};
+				{ 7, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "85 #honor#", ""};
+				{ 9, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "55 #honor#", ""};
+				{ 10, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "65 #honor#", ""};
+				{ 11, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "85 #honor#", ""};
+				{ 13, 19581, "", "=q4=Berserker Bracers", "=ds=", "55 #honor#", ""};
+				{ 14, 19580, "", "=q4=Berserker Bracers", "=ds=", "65 #honor#", ""};
+				{ 15, 19578, "", "=q4=Berserker Bracers", "=ds=", "85 #honor#", ""};
+				{ 16, 22752, "", "=q4=Sentinel's Silk Leggings", "=ds=", "105 #honor#", ""};	
+				{ 18, 22749, "", "=q4=Sentinel's Leather Pants", "=ds=", "105 #honor#", ""};
+				{ 19, 22750, "", "=q4=Sentinel's Lizardhide Pants", "=ds=", "105 #honor#", ""};
+				{ 21, 22748, "", "=q4=Sentinel's Chain Leggings", "=ds=", "105 #honor#", ""};
+				{ 22, 30497, "", "=q4=Sentinel's Mail Leggings", "=ds=", "105 #honor#", ""};
+				{ 24, 22753, "", "=q4=Sentinel's Lamellar Legguards", "=ds=", "105 #honor#", ""};
+				{ 25, 22672, "", "=q4=Sentinel's Plate Legguards", "=ds=", "105 #honor#", ""};	
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "55 #honor#", ""};
+				{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "65 #honor#", ""};
+				{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "85 #honor#", ""};
+				{ 5, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "55 #honor#", ""};
+				{ 6, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "65 #honor#", ""};
+				{ 7, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "85 #honor#", ""};
+				{ 9, 19584, "", "=q4=Windtalker's Wristguards", "=ds=", "55 #honor#", ""};
+				{ 10, 19583, "", "=q4=Windtalker's Wristguards", "=ds=", "65 #honor#", ""};
+				{ 11, 19582, "", "=q4=Windtalker's Wristguards", "=ds=", "85 #honor#", ""};
+				{ 13, 19581, "", "=q4=Berserker Bracers", "=ds=", "55 #honor#", ""};
+				{ 14, 19580, "", "=q4=Berserker Bracers", "=ds=", "65 #honor#", ""};
+				{ 15, 19578, "", "=q4=Berserker Bracers", "=ds=", "85 #honor#", ""};
+				{ 16, 22747, "", "=q4=Outrider's Silk Leggings", "=ds=", "105 #honor#", ""};
+				{ 18, 22740, "", "=q4=Outrider's Leather Pants", "=ds=", "105 #honor#", ""};
+				{ 19, 22741, "", "=q4=Outrider's Lizardhide Pants", "=ds=", "105 #honor#", ""};
+				{ 21, 22673, "", "=q4=Outrider's Chain Leggings", "=ds=", "105 #honor#", ""};
+				{ 22, 22676, "", "=q4=Outrider's Mail Leggings", "=ds=", "105 #honor#", ""};
+				{ 24, 30498, "", "=q4=Outrider's Lamellar Legguards", "=ds=", "105 #honor#", ""};
+				{ 25, 22651, "", "=q4=Outrider's Plate Legguards", "=ds=", "105 #honor#", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Warsong Gulch"].." "..AL["Armor"],
+			module = moduleName, menu = "PVPMENU2", instance = "WarsongGulch",
+		};
+	}
 
 		---------------------------------------
 		--- PvP Level 60 Rare and Epic Sets ---

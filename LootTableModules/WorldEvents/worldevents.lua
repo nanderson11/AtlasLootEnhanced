@@ -1097,7 +1097,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 17, 53493, "", "=q4=Sacrificial Mail", "=ds=#s11#, #a3#"};
 				{ 18, 53491, "", "=q4=Twilight Offering Bands", "=ds=#s8#, #a4#"};
 				{ 19, 53494, "", "=q4=Girdle of Oblation", "=ds=#s10#, #a4#"};
-				{ 20, 53495, "", "=q4=Old God's Blessing", "=ds=#s13#"};
+				{ 20, 53495, "", "=q4=Old Gods' Blessing", "=ds=#s13#"};
 				{ 21, 53492, "", "=q4=Ring of the Three-Headed Beast", "=ds=#s13#"};
 				{ 23, 0, "INV_Box_01", "=q6=Sarsarun", ""};
 				{ 24, 53506, "", "=q4=Cloak of Mocking Winds", "=ds=#s4#"};

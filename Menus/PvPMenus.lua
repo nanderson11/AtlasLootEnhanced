@@ -17,7 +17,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 18, "PVP85Weapons", "inv_weapon_shortblade_107", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 85"] };
 				{ 21, "PVP80NONSETEPICS", "inv_bracer_51", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 80"]};
 				{ 22, "PVP80Weapons", "INV_Sword_86", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 80"] };
-				{ 25, "PVPMENU3", "INV_Jewelry_Necklace_21", "=ds="..AL["Old PvP Rewards"], "=q5="..AL["Level 60"].. " / " ..AL["Level 70"]};
+				{ 25, "PVPMENU3", "inv_belt_13", "=ds="..AL["Old PvP Rewards"], "=q5="..AL["Level 60"].. " / " ..AL["Level 70"]};
 			};
 		};
 		info = {
@@ -222,7 +222,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = BabbleZone["Wintergrasp"],
-			menu = "PVPMENU",
+			menu = "PVPMENU2",
 		};
 	}
 	

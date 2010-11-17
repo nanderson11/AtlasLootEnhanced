@@ -977,7 +977,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BWLChromaggus", 12 },
 				{ "BWLNefarian", 13 },
 				{ "BWLTrashMobs",  18 },
-				{ "T1T2T3SET", 19 },
+				{ "T1T2T3SET", 19, 24, hide = true },
 			},
 			["Info"] = { BabbleZone["Blackwing Lair"], "AtlasLootClassicWoW" },
 		},
@@ -1096,7 +1096,7 @@ AtlasLoot_LootTableRegister = {
 				{ "STRATBlackGuardSwordsmith", {10,11} },
 				{ "STRATStonespine", },
 				{ "STRATTrash", 14 },
-				{ "VWOWSets#2", 12 },
+				{ "VWOWSets#2", 12, hide = true },
 			},
 			["Info"] = { BabbleZone["Stratholme"].." - "..AL["The Gauntlet"], "AtlasLootClassicWoW" },
 		},
@@ -1620,6 +1620,15 @@ AtlasLoot_LootTableRegister = {
 				{ "AVBlue" },
 			},
 			["Info"] = { BabbleZone["Alterac Valley"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
+		},
+		["WarsongGulch"] = {
+			["Bosses"] = {
+				{ "WSGMisc" },
+				{ "WSGAccessories" },
+				{ "WSGWeapons" },
+				{ "WSGArmor" },
+			},
+			["Info"] = { BabbleZone["Warsong Gulch"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
 		},
 	},
 	
