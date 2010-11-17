@@ -789,7 +789,7 @@ function AtlasLoot:GetLootPageFromDataID(dataID)
 	dataID, instancePage = self:FormatDataID(dataID)
 	lootTableType = self:GetLootTableType(dataIDOri) or "Normal"
 	if not AtlasLoot_Data[dataID] or not AtlasLoot_Data[dataID][lootTableType] or not AtlasLoot_Data[dataID][lootTableType][instancePage] then
-		print(string.format("AtlasLoot_Data[\"%s\"][\"%s\"][%s] not found.", dataID, lootTableType, instancePage))
+		print(string.format("AtlasLoot_Data[\"%s\"][\"%s\"][%s] not found. (%s)", dataID or "nil", lootTableType or "nil", instancePage or "nil", dataIDOri or "nil"))
 		return
 	end
 	lootTable = AtlasLoot_Data[dataID][lootTableType][instancePage]
