@@ -977,7 +977,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BWLChromaggus", 12 },
 				{ "BWLNefarian", 13 },
 				{ "BWLTrashMobs",  18 },
-				{ "T1T2T3SET", 19, 24, hide = true },
+				{ "T1T2T3SET", 19, hide = true },
 			},
 			["Info"] = { BabbleZone["Blackwing Lair"], "AtlasLootClassicWoW" },
 		},
