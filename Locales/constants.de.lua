@@ -649,7 +649,7 @@ if AL then
 	AL["Promotional Companions"] = "Promotions-Haustiere";
 	AL["Quest Reward Companions"] = "Questbelohnungs-Haustiere";
 	AL["Rare Companions"] = "Seltene Haustiere";
-	AL["Unobtainable Companions"] = "Nicht mehr erhaltbar";
+	AL["Unobtainable Companions"] = "Nicht mehr erhältlich";
 
 	-- Mounts
 	AL["Alliance Flying Mounts"] = "Allianz Flugreittiere";
@@ -666,16 +666,16 @@ if AL then
 	AL["Halaa PvP Mounts"] = "Halaa PvP Reittiere";
 	AL["Promotional Mounts"] = "Promotions-Reittiere";
 	AL["Rare Mounts"] = "Seltene Reittiere";
-	AL["Unobtainable Mounts"] = "Nicht mehr erhaltbar";
+	AL["Unobtainable Mounts"] = "Nicht mehr erhältlich";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "Erfolgs & Questbelohnungen";
 	AL["Alliance Tabards"] = "Allianz Wappenröcke";
-	AL["Card Game Tabards"] = Kartenspiel Wappenröcke;
+	AL["Card Game Tabards"] = "Kartenspiel Wappenröcke";
 	AL["Horde Tabards"] = "Horde Wappenröcke";
 	AL["Neutral Faction Tabards"] = "Fraktionsneutrale Wappenröcke";
 	AL["PvP Tabards"] = "PvP Wappenröcke";
-	AL["Unobtainable Tabards"] = "Nicht mehr erhaltbar";
+	AL["Unobtainable Tabards"] = "Nicht mehr erhältlich";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Dunkelmond-Jahrmarkt Belohnungen";
