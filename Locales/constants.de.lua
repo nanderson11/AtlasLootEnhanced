@@ -637,9 +637,9 @@ if AL then
 
 	-- Companions
 	AL["Achievement"] = "Erfolg";
-	--AL["Achievement & Faction Reward Companions"] = true;
+	AL["Achievement & Faction Reward Companions"] = "Erfolgs & Fraktionsbelohnungen";
 	AL["Card Game Companions"] = "Kartenspiel-Haustiere";
-	--AL["Companion Accessories"] = true;
+	AL["Companion Accessories"] = "Haustierzubehör";
 	AL["Companion Store"] = "Haustiershop";
 	AL["Crafted Companions"] = "Hergestellte Haustiere";
 	AL["Dungeon/Raid"] = "Instanz/Schlachtzug";
@@ -647,7 +647,7 @@ if AL then
 	AL["Merchant Sold Companions"] = "Vom Händler verkauft";
 	AL["Pets"] = "Haustiere";
 	AL["Promotional Companions"] = "Promotions-Haustiere";
-	AL["Quest Reward Companions"] = true;
+	AL["Quest Reward Companions"] = "Questbelohnungs-Haustiere";
 	AL["Rare Companions"] = "Seltene Haustiere";
 	AL["Unobtainable Companions"] = "Nicht mehr erhaltbar";
 
@@ -669,13 +669,13 @@ if AL then
 	AL["Unobtainable Mounts"] = "Nicht mehr erhaltbar";
 
 	-- Tabards
-	--AL["Achievement & Quest Reward Tabards"] = true;
-	--AL["Alliance Tabards"] = true;
-	--AL["Card Game Tabards"] = true;
-	--AL["Horde Tabards"] = true;
-	--AL["Neutral Faction Tabards"] = true;
-	--AL["PvP Tabards"] = true;
-	--AL["Unobtainable Tabards"] = true;
+	AL["Achievement & Quest Reward Tabards"] = "Erfolgs & Questbelohnungen";
+	AL["Alliance Tabards"] = "Allianz Wappenröcke";
+	AL["Card Game Tabards"] = Kartenspiel Wappenröcke;
+	AL["Horde Tabards"] = "Horde Wappenröcke";
+	AL["Neutral Faction Tabards"] = "Fraktionsneutrale Wappenröcke";
+	AL["PvP Tabards"] = "PvP Wappenröcke";
+	AL["Unobtainable Tabards"] = "Nicht mehr erhaltbar";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Dunkelmond-Jahrmarkt Belohnungen";
