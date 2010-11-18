@@ -3228,7 +3228,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 25535, "", "=q3=Netherwhelp's Collar", "=q2="..AL["Collector's Edition"]};
 				{ 12, 13583, "", "=q3=Panda Collar", "=q2="..AL["Collector's Edition"]};
 				{ 13, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-				{ 14, 65355, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 14, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
 				{ 15, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
 				{ 16, 13582, "", "=q3=Zergling Leash", "=q2="..AL["Collector's Edition"]};
 				{ 18, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
@@ -3272,7 +3272,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
 				{ 3, 67601, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
 				{ 4, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
-				{ 5, 68137, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+				{
+					{ 5, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+					{ 5, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+				};
 				{ 6, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
 				{ 7, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
 			};
@@ -3329,7 +3332,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
 				{ 17, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
 				{ 18, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
-				{ 19, 65355, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 19, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
 				{ 20, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
 				{ 21, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
 				{ 22, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
