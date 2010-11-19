@@ -29,12 +29,12 @@ if AL then
 	AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = true;
 	AL["Minimap Button"] = true;
-	AL["itemIDs"] = true;
-	AL["Droprate"] = true;
+	AL["Show itemIDs"] = true;
+	AL["Show Droprates"] = true;
 	AL["Safe Chat Links"] = true;
 	AL["Comparison TT"] = true;
 	AL["Show Comparison Tooltips"] = true;
-	AL["Suppress Item Query Text"] = true;
+	AL["Supress item query text"] = true;
 	AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = true;
 	AL["Treat Crafted Items:"] = true;

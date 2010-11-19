@@ -50,6 +50,7 @@ end
 -- ######################################################
 local function returnItemTableString(tab)
 	lootTableString = ""
+	if not tab then return "" end
 	for site, siteTab in ipairs(tab) do
 		if site == 1 then
 			lootTableString = lootTableString.."{\n"
@@ -272,7 +273,6 @@ local function TextParsingFrame(container)
 	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
 		numEntrys = tonumber(text)
 		editbox:SetText(numEntrys)
-		
 	end)
 	container:AddChild(editbox)
 	
@@ -285,9 +285,17 @@ local function TextParsingFrame(container)
 		local text, number = CheckTextParsing(numEntrys)
 		multiEditbox:SetText(text)
 		desc:SetText(number.." entrys found")
+		multiEditbox.editBox:HighlightText(0)
 	end)
 	button:SetWidth(200)
 	container:AddChild(button)
+	local button2 = AceGUI:Create("Button")
+	button2:SetText("Mark all")
+	button2:SetCallback("OnClick", function()
+		multiEditbox.editBox:HighlightText(0)
+	end)
+	button2:SetWidth(200)
+	container:AddChild(button2)
 	container:AddChild(desc)
 	
 	multiEditbox:SetLabel("TextParsing:")
@@ -295,6 +303,7 @@ local function TextParsingFrame(container)
 	multiEditbox:SetFullHeight(true)
 	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
+
 end
 
 -- ######################################################

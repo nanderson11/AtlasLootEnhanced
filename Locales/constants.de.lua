@@ -14,12 +14,12 @@ if AL then
 	AL["Options"] = "Optionen";
 	AL["Load Loot Modules at Startup"] = "Module beim Start laden";
 	-- AL["Minimap Button"] = true;
-	AL["itemIDs"] = "Item-IDs";
-	-- AL["Droprate"] = true;
+	AL["Show itemIDs"] = "Zeige Item-IDs";
+	AL["Show Droprates"] = "Zeige Droprate";
 	AL["Safe Chat Links"] = "Sichere Chatlinks";
 	AL["Comparison TT"] = "Vergleiche Item";
 	AL["Show Comparison Tooltips"] = "Zeige eigenes Item zum Vergleich";
-	AL["Suppress Item Query Text"] = "Meldung der Serverabfrage verstecken";
+	AL["Supress item query text"] = "Meldung der Serverabfrage verstecken";
 	AL["Opaque"] = "Undurchsichtig";
 	AL["Make Loot Table Opaque"] = "Schwarzer Hintergrund";
 	AL["Treat Crafted Items:"] = "Herstellbare Gegenstände behandeln";

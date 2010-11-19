@@ -34,7 +34,7 @@ local FilterTableNames = {
 	["ItemSlot"] = AL["Itemslot"],
 }
 
-local FilterSort = {"Armor", "WeaponsMeele", "WeaponsMeeleTwoHand", "WeaponsRanged", "Other", "ItemSlot"}
+local FilterSort = {"Armor", "Other", "ItemSlot", "WeaponsMeele", "WeaponsMeeleTwoHand", "WeaponsRanged"}
 local FilterTable = {
 	["Armor"] = {
 		"#a1#",				-- Cloth
@@ -101,55 +101,6 @@ local FilterTable = {
 }
 local FilterTableNamesSlots = {}
 
-local FilterTableOld = {
-	["Armor"] = {
-		"Cloth",		--1
-		"Leather",		--2
-		"Mail",			--3
-		"Plate",		--4
-		},
-		
-	["WeaponsMeele"] = {
-		"Held in Off-Hand",	--1
-		"Dagger",			--2
-		"Mace",				--3
-		"Staff",			--4		
-		"Axe",				--5
-		"Polearm",			--6
-		"Shield",			--7
-		"Sword",			--8
-		"Fist Weapon",		--9
-		},
-		
-	["WeaponsMeeleTwoHand"] = {
-		"Mace",				--1
-		"Axe",				--2
-		"Sword",			--3	
-		},
-		
-	["WeaponsRanged"] = {
-		"Wand",			--1
-		"Bow",			--2
-		"Crossbow",		--3
-		"Gun",			--4
-		"Thrown",		--5
-		},
-		
-	["Relics"] = {
-		"Idol",			--1
-		"Totem",		--2
-		"Libram",		--3
-		"Sigils",		--4
-		},
-		
-	["Other"] = {
-		"Ring",			--1
-		"Trinket",		--2
-		"Neck",			--3
-		"Back",			--4
-		}
-}
-
 local ClassHides = {
 	["DRUID"] = {["Armor"] = {false,true,false,false},["WeaponsMeele"] = {true,true,true,true,false,true,false,false,false},["WeaponsMeeleTwoHand"] = {true,false,false},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,true}},
 	["MAGE"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Other"] = {true,true,true,true,false}},
@@ -166,6 +117,21 @@ local ClassHides = {
 local getOptions
 do
 	local locClass,englishClass = UnitClass("player")
+	
+	local function SortTable(t, slot)
+		if slot == "WeaponsMeele" or slot == "WeaponsRanged" or slot == "WeaponsMeeleTwoHand" then
+			local a,b = {}, {}
+			for m,n in ipairs(t) do a[#a + 1] = FilterTableNamesSlots[n] b[FilterTableNamesSlots[n]] = m end
+			table.sort(a)
+			local i = 0
+			return function()
+				i = i + 1
+				return b[a[i]], t[b[a[i]]]
+			end
+		else
+			return ipairs(t)
+		end
+	end
 
  	local function getOpt(info)
 		return db.filterSlots[info[#info-1]][info[#info]]
@@ -175,6 +141,16 @@ do
 		db.filterSlots[info[#info-1]][info[#info]] = value
 		return db.filterSlots[info[#info-1]][info[#info]]
 	end
+	
+	local function getTwoHandOpt(info)
+		return db.filterSlots["WeaponsMeeleTwoHand"][info[#info]]
+	end
+	
+	local function setTwoHandOpt(info, value)
+		db.filterSlots["WeaponsMeeleTwoHand"][info[#info]] = value
+		return db.filterSlots["WeaponsMeeleTwoHand"][info[#info]]
+	end
+	
 	
 	local function setupClassTable()
 		for tabName,tab in pairs(FilterTable) do
@@ -244,23 +220,47 @@ do
 			}
 			
 			local orderNumber = 50
-			for tabName,tab in pairs(FilterTable) do
-				options.args[tabName] = {
-					type = "group",
-					name = FilterTableNames[tabName],
-					--desc = ,
-					order = orderNumber,
-					args = {},
-				}
-				for smallOrder,slot in ipairs(tab) do
-					options.args[tabName].args[slot] = {
-						type = "toggle",
-						name = FilterTableNamesSlots[slot],
-						--desc = ,
-						order = smallOrder,
-						get = getOpt,
-						set = setOpt,
+			for _,tabName in pairs(FilterSort) do
+				local tab = FilterTable[tabName]
+				local i = 1
+				if tabName == "WeaponsMeeleTwoHand" then
+					i = 100
+					options.args["WeaponsMeele"].args.nllockb = {
+						type = "description",
+						name = "",
+						order = i - 1,
+						width = "full",
 					}
+					for smallOrder,slot in SortTable(tab, tabName) do
+						options.args["WeaponsMeele"].args[slot] = {
+							type = "toggle",
+							name = FilterTableNames[tabName].." "..FilterTableNamesSlots[slot],
+							--desc = ,
+							order = i,
+							get = getTwoHandOpt,
+							set = setTwoHandOpt,
+						}
+						i = i + 1
+					end
+				else
+					options.args[tabName] = {
+						type = "group",
+						name = FilterTableNames[tabName],
+						--desc = ,
+						order = orderNumber,
+						args = {},
+					}
+					for smallOrder,slot in SortTable(tab, tabName) do
+						options.args[tabName].args[slot] = {
+							type = "toggle",
+							name = FilterTableNamesSlots[slot],
+							--desc = ,
+							order = i,
+							get = getOpt,
+							set = setOpt,
+						}
+						i = i + 1
+					end
 				end
 				orderNumber = orderNumber + 1
 			end
