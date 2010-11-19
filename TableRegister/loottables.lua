@@ -62,7 +62,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BlackrockCavernsLordObsidius", 6 },
 				{ "BlackrockCavernsTrash", 9 },
 			},
-			["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns" },
 		},
 
 		["ThroneOfTheTides"] = {
@@ -73,7 +73,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTOzumat", 6 },
 				{ "ToTTrash", 8 },
 			},
-			["Info"] = { BabbleZone["Throne of the Tides"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Throne of the Tides"], "AtlasLootCataclysm", mapname = "ThroneOfTheTides" },
 		},
 
 		["TheStonecore"] = {
@@ -84,7 +84,7 @@ AtlasLoot_LootTableRegister = {
 				{ "StonecoreAzil", 7 },
 				{ "StonecoreTrash", 9 },
 			},
-			["Info"] = { BabbleZone["The Stonecore"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["The Stonecore"], "AtlasLootCataclysm", mapname = "TheStonecore" },
 		},
 
 		["TheVortexPinnacle"] = {
@@ -94,7 +94,7 @@ AtlasLoot_LootTableRegister = {
 				{ "VPAsimalAkir", 5 },
 				{ "VPTrash", 7 },
 			},
-			["Info"] = { BabbleZone["The Vortex Pinnacle"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["The Vortex Pinnacle"], "AtlasLootCataclysm", mapname = "SkywallDungeon" },
 		},
 
 		["LostCityOfTolvir"] = {
@@ -105,7 +105,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LostCitySiamat", 6 },
 				{ "LostCityTrash", 8 },
 			},
-			["Info"] = { BabbleZone["Lost City of the Tol'vir"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Lost City of the Tol'vir"], "AtlasLootCataclysm", mapname = "LostCityofTolvir" },
 		},
 		
 		["GrimBatol"] = {
@@ -130,7 +130,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HoORajh", 8 },
 				{ "HoOTrash", 11 },
 			},
-			["Info"] = { BabbleZone["Halls of Origination"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Halls of Origination"], "AtlasLootCataclysm", mapname = "HallsOfOrigination" },
 		},
 
 	---- Raids
@@ -141,21 +141,21 @@ AtlasLoot_LootTableRegister = {
 				{ "BoTValionaTheralion", 4 },
 				{ "BoTSinestra", 7 },	
 			},
-			["Info"] = { BabbleZone["The Bastion of Twilight"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["The Bastion of Twilight"], "AtlasLootCataclysm", mapname = "TheBastionofTwilight" },
 		},
 
 		["BlackwingDescent"] = {
 			["Bosses"] = {
 				{ "BDOmnitron", 3 },
 			},
-			["Info"] = { BabbleZone["Blackwing Descent"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Blackwing Descent"], "AtlasLootCataclysm", mapname = "BlackwingDescent" },
 		},
 
 		["BaradinHold"] = {
 			["Bosses"] = {
 				{ "Argaloth", 2 },
 			},
-			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
 
 -----------------------
@@ -173,7 +173,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AhnkahetVolazj", 7 },
 				{ "AhnkahetTrash", 10 },
 			},
-			["Info"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK", mapname = "Ahnkahet" },
 		},
 
 		["AzjolNerub"] = {
@@ -184,7 +184,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 10, hide = true },
 				{ "AzjolNerubTrash", 12 },
 			},
-			["Info"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK", mapname = "AzjolNerub" },
 		},
 		
 		["CoTOldStratholme"] = {
@@ -196,7 +196,7 @@ AtlasLoot_LootTableRegister = {
 				{ "CoTStratholmeMalGanis", 10 },
 				{ "CoTStratholmeTrash", 14 },
 			},
-			["Info"] = { BabbleZone["Old Stratholme"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Old Stratholme"], "AtlasLootWotLK", mapname = "CoTStratholme" },
 		},
 
 		["DrakTharonKeep"] = {
@@ -208,7 +208,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 8, hide = true },
 				{ "DrakTharonKeepTrash", 11 },
 			},
-			["Info"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK", mapname = "DrakTharonKeep" },
 		},
 
 		["FHTheForgeOfSouls"] = {
@@ -217,7 +217,7 @@ AtlasLoot_LootTableRegister = {
 				{ "FoSDevourer", 4 },
 				{ "FHTrashMobs", 12 },
 			},
-			["Info"] = { BabbleZone["The Forge of Souls"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Forge of Souls"], "AtlasLootWotLK", mapname = "TheForgeofSouls" },
 		},
 		
 		["FHHallsOfReflection"] = {
@@ -227,7 +227,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HoRLichKing", {6,7} },
 				{ "FHTrashMobs", 13 },
 			},
-			["Info"] = { BabbleZone["Halls of Reflection"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Halls of Reflection"], "AtlasLootWotLK", mapname = "HallsofReflection" },
 		},
 		
 		["FHPitOfSaron"] = {
@@ -237,7 +237,7 @@ AtlasLoot_LootTableRegister = {
 				{ "PoSTyrannus", 8 },
 				{ "FHTrashMobs", 17 },
 			},
-			["Info"] = { BabbleZone["Pit of Saron"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Pit of Saron"], "AtlasLootWotLK", mapname = "PitofSaron" },
 		},
 
 		["Gundrak"] = {
@@ -250,7 +250,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 8, hide = true },
 				{ "GundrakTrash", 10 },
 			},
-			["Info"] = { BabbleZone["Gundrak"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Gundrak"], "AtlasLootWotLK", mapname = "Gundrak" },
 		},
 		
 		["TheNexus"] = {
@@ -262,7 +262,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TheNexusKeristrasza", 8 },
 				{ "LunarFestival", 9, hide = true },
 			},
-			["Info"] = { BabbleZone["The Nexus"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Nexus"], "AtlasLootWotLK", mapname = "TheNexus" },
 		},
 
 		["TheOculus"] = {
@@ -273,7 +273,7 @@ AtlasLoot_LootTableRegister = {
 				{ "OcuEregos", {6,8} },
 				{ "OcuTrash", 10 },
 			},
-			["Info"] = { BabbleZone["The Oculus"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Oculus"], "AtlasLootWotLK", mapname = "Nexus80" },
 		},
 
 		["TrialOfTheChampion"] = {
@@ -283,7 +283,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TrialoftheChampionConfessorPaletress", 16 },
 				{ "TrialoftheChampionBlackKnight", 17 },	
 			},
-			["Info"] = { BabbleZone["Trial of the Champion"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Trial of the Champion"], "AtlasLootWotLK", mapname = "TheArgentColiseum" },
 		},
 
 		["UlduarHallsofStone"] = {
@@ -295,7 +295,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 7, hide = true },
 				{ "HallsofStoneTrash", 10 },
 			},
-			["Info"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK", mapname = "Ulduar77" },
 		},
 		
 		["UlduarHallsofLightning"] = {
@@ -306,7 +306,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HallsofLightningLoken", 5 },
 				{ "HallsofLightningTrash", 7 },
 			},
-			["Info"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK", mapname = "HallsofLightning" },
 		},
 	
 		["UtgardeKeep"] = {
@@ -317,7 +317,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 8, hide = true },
 				{ "UtgardeKeepTrash", 10 },
 			},
-			["Info"] = { BabbleZone["Utgarde Keep"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Utgarde Keep"], "AtlasLootWotLK", mapname = "UtgardeKeep" },
 		},
 
 		["UtgardePinnacle"] = {
@@ -329,7 +329,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 7, hide = true },
 				{ "UPTrash", 9 },
 			},
-			["Info"] = { BabbleZone["Utgarde Pinnacle"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Utgarde Pinnacle"], "AtlasLootWotLK", mapname = "UtgardePinnacle" },
 		},
 
 		["VioletHold"] = {
@@ -344,7 +344,7 @@ AtlasLoot_LootTableRegister = {
 				{ "VioletHoldCyanigosa", 9 },
 				{ "VioletHoldTrash", 11 },
 			},
-			["Info"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK", mapname = "VioletHold" },
 		},
 
 	---- Raids
@@ -377,7 +377,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ICCLichKing", 3},
 				{ "ICCTrash", 5},
 			},
-			["Info"] = { BabbleZone["Icecrown Citadel"], "AtlasLootWotLK", sortOrder = { "IcecrownCitadelA", "IcecrownCitadelB", "IcecrownCitadelC" } },
+			["Info"] = { BabbleZone["Icecrown Citadel"], "AtlasLootWotLK", sortOrder = { "IcecrownCitadelA", "IcecrownCitadelB", "IcecrownCitadelC" }, mapname = "IcecrownCitadel" },
 		},
 
 		["Naxxramas"] = {
@@ -400,28 +400,28 @@ AtlasLoot_LootTableRegister = {
 				{ "Naxx80Trash", 33 },
 				{ "T7T8SET", 34, hide = true },
 			},
-			["Info"] = { BabbleZone["Naxxramas"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Naxxramas"], "AtlasLootWotLK", mapname = "IcecrownCitadel", mapname = "Naxxramas" },
 		},
 
 		["ObsidianSanctum"] = {
 			["Bosses"] = {
 				{ "Sartharion", 6 },
 			},
-			["Info"] = { BabbleZone["The Obsidian Sanctum"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Obsidian Sanctum"], "AtlasLootWotLK", mapname = "Naxxramas", mapname = "TheObsidianSanctum" },
 		},
 
 		["OnyxiasLair"] = {
 			["Bosses"] = {
 				{ "Onyxia", 2 },
 			},
-			["Info"] = { BabbleZone["Onyxia's Lair"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Onyxia's Lair"], "AtlasLootWotLK", mapname = "OnyxiasLair" },
 		},
 		
 		["RubySanctum"] = {
 			["Bosses"] = {
 				{ "Halion", 6 },
 			},
-			["Info"] = { BabbleZone["The Ruby Sanctum"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Ruby Sanctum"], "AtlasLootWotLK", mapname = "TheRubySanctum" },
 		},
 
 		["TheEyeOfEternity"] = {
@@ -429,7 +429,7 @@ AtlasLoot_LootTableRegister = {
 				{ "WrathKeys", 1, hide = true },
 				{ "Malygos", 3 },
 			},
-			["Info"] = { BabbleZone["The Eye of Eternity"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["The Eye of Eternity"], "AtlasLootWotLK", mapname = "TheEyeOfEternity" },
 		},
 
 		["TrialOfTheCrusader"] = {
@@ -442,7 +442,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TrialoftheCrusaderTribute", 16 },
 				{ "TrialoftheCrusaderPatterns", 18 },
 			},
-			["Info"] = { BabbleZone["Trial of the Crusader"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Trial of the Crusader"], "AtlasLootWotLK", mapname = "TheArgentColiseum" },
 		},
 
 		["UlduarA"] = "Ulduar",
@@ -491,7 +491,7 @@ AtlasLoot_LootTableRegister = {
 				{ "UlduarPatterns", 8 },
 				{ "T7T8SET", 9, hide = true },
 			},
-			["Info"] = { BabbleZone["Ulduar"], "AtlasLootWotLK", sortOrder = { "UlduarA", "UlduarB", "UlduarC", "UlduarD", "UlduarE" } },
+			["Info"] = { BabbleZone["Ulduar"], "AtlasLootWotLK", sortOrder = { "UlduarA", "UlduarB", "UlduarC", "UlduarD", "UlduarE" }, mapname = "Ulduar" },
 		},
 
 		["VaultOfArchavon"] = {
@@ -501,7 +501,7 @@ AtlasLoot_LootTableRegister = {
 				{ "VaultofArchavonKoralon", 4 },
 				{ "VaultofArchavonToravon", 5 },
 			},
-			["Info"] = { BabbleZone["Vault of Archavon"], "AtlasLootWotLK" },
+			["Info"] = { BabbleZone["Vault of Archavon"], "AtlasLootWotLK", mapname = "VaultofArchavon" },
 		},
 
 --------------------
@@ -877,7 +877,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Blackfathom#1", {3,4,5,7,8,11} },
 				{ "Blackfathom#2", {9,12,13}, hide = true },
 			},
-			["Info"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootClassicWoW", mapname = "BlackFathomDeeps" },
 		},
 
 		["BlackrockDepths"] = {
@@ -910,7 +910,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BRDTrash", 72 },
 				{ "VWOWSets#1", 73, hide = true },
 			},
-			["Info"] = { BabbleZone["Blackrock Depths"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Blackrock Depths"], "AtlasLootClassicWoW", mapname = "BlackrockDepths" },
 		},
 
 		["BlackrockMountainEnt"] = {
@@ -944,7 +944,7 @@ AtlasLoot_LootTableRegister = {
 				{ "T0SET", 34, hide = true },
 				{ "VWOWSets#3", 35, hide = true },
 			},
-			["Info"] = { BabbleZone["Lower Blackrock Spire"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Lower Blackrock Spire"], "AtlasLootClassicWoW", mapname = "BlackrockSpire" },
 		},
 
 		["BlackrockSpireUpper"] = {
@@ -963,7 +963,7 @@ AtlasLoot_LootTableRegister = {
 				{ "T0SET", 23, hide = true },
 				{ "VWOWSets#3", 24, hide = true },
 			},
-			["Info"] = { BabbleZone["Upper Blackrock Spire"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Upper Blackrock Spire"], "AtlasLootClassicWoW", mapname = "BlackrockSpire" },
 		},	
 
 		["BlackwingLair"] = {
@@ -979,7 +979,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BWLTrashMobs",  17 },
 				{ "T1T2T3SET", 18, hide = true },
 			},
-			["Info"] = { BabbleZone["Blackwing Lair"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Blackwing Lair"], "AtlasLootClassicWoW", mapname = "BlackwingLair" },
 		},
 
 		["DireMaulEnt"] = {
@@ -1002,7 +1002,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DMNTRIBUTERUN", 12 },
 				{ "DMBooks", 13 },
 			},
-			["Info"] = { BabbleZone["Dire Maul (North)"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Dire Maul (North)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
 
 		["DireMaulEast"] = {
@@ -1016,7 +1016,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DMETrash", 15 },
 				{ "DMBooks", 16 },
 			},
-			["Info"] = { BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
 	
 		["DireMaulWest"] = {
@@ -1033,7 +1033,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DMWTrash", 26 },
 				{ "DMBooks", 27 },
 			},
-			["Info"] = { BabbleZone["Dire Maul (West)"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Dire Maul (West)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
 
 		["Maraudon"] = {
@@ -1042,7 +1042,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MaraudonLoot#2", {7,9,10,11,12,13}, hide = true }, 
 				{ "LunarFestival", 14, hide = true },
 			},
-			["Info"] = { BabbleZone["Maraudon"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Maraudon"], "AtlasLootClassicWoW", mapname = "Maraudon" },
 		},
 
 		["Uldaman"] = {
@@ -1059,7 +1059,7 @@ AtlasLoot_LootTableRegister = {
 				{ "UldArchaedas", 15 },
 				{ "UldTrash", 23 },
 			},
-			["Info"] = { BabbleZone["Uldaman"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Uldaman"], "AtlasLootClassicWoW", mapname = "Uldaman" },
 		},
 
 		["StratholmeCrusader"] = {
@@ -1080,7 +1080,7 @@ AtlasLoot_LootTableRegister = {
 				{ "STRATTrash", 23 },
 				{ "VWOWSets#2", {17,18,20,21}, hide = true },
 			},
-			["Info"] = { BabbleZone["Stratholme"].." - "..AL["Crusader's Square"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Stratholme"].." - "..AL["Crusader's Square"], "AtlasLootClassicWoW", mapname = "Stratholme" },
 		},
 
 		["StratholmeGauntlet"] = {
@@ -1098,7 +1098,7 @@ AtlasLoot_LootTableRegister = {
 				{ "STRATTrash", 14 },
 				{ "VWOWSets#2", 12, hide = true },
 			},
-			["Info"] = { BabbleZone["Stratholme"].." - "..AL["The Gauntlet"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Stratholme"].." - "..AL["The Gauntlet"], "AtlasLootClassicWoW", mapname = "Stratholme" },
 		},
 
 		["RazorfenDowns"] = {
@@ -1106,7 +1106,7 @@ AtlasLoot_LootTableRegister = {
 				{ "RazorfenDownsLoot#1", {2,3,4,8,10} },
 				{ "RazorfenDownsLoot#2", {5,6}, hide = true },
 			},
-			["Info"] = { BabbleZone["Razorfen Downs"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Razorfen Downs"], "AtlasLootClassicWoW", mapname = "RazorfenDowns" },
 		},
 
 		["RazorfenKraul"] = {
@@ -1114,7 +1114,7 @@ AtlasLoot_LootTableRegister = {
 				{ "RazorfenKraulLoot#1", {2,3,4,5,6,8,12} }, 
 				{ "RazorfenKraulLoot#2", {7,13}, hide = true }, 
 			},
-			["Info"] = { BabbleZone["Razorfen Kraul"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Razorfen Kraul"], "AtlasLootClassicWoW", mapname = "RazorfenKraul" },
 		},
 
 		["TheSunkenTemple"] = {
@@ -1133,14 +1133,14 @@ AtlasLoot_LootTableRegister = {
 				{ BabbleBoss["Troll Minibosses"], "STTrollMinibosses", 19 },
 				{ AL["Trash Mobs"], "STTrash", 27 },
 			},
-			["Info"] = { BabbleZone["The Temple of Atal'Hakkar"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["The Temple of Atal'Hakkar"], "AtlasLootClassicWoW", mapname = "TempleOfAtalHakkar" },
 		},
 
 		["RagefireChasm"] = {
 			["Bosses"] = {
 				{ "RagefireChasmLoot", {3,4,5} },
 			},
-			["Info"] = { BabbleZone["Ragefire Chasm"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Ragefire Chasm"], "AtlasLootClassicWoW", mapname = "Ragefire" },
 		},
 
 		["MoltenCore"] = {
@@ -1160,7 +1160,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MCRANDOMBOSSDROPPS", 16 },
 				{ "MCTrashMobs", 17 },
 			},
-			["Info"] = { BabbleZone["Molten Core"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Molten Core"], "AtlasLootClassicWoW", mapname = "MoltenCore" },
 		},
 
 		["TheTempleofAhnQiraj"] = {
@@ -1179,7 +1179,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AQ40Sets", 27, hide = true },
 				{ "AQEnchants", 28 },
 			},
-			["Info"] = { BabbleZone["Temple of Ahn'Qiraj"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Temple of Ahn'Qiraj"], "AtlasLootClassicWoW", mapname = "TempleofAhnQiraj" },
 		},
 
 		["ShadowfangKeep"] = {
@@ -1191,7 +1191,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ShadowfangGodfrey", 8 },
 				{ "Valentineday#3", 9, hide = true },
 			},
-			["Info"] = { BabbleZone["Shadowfang Keep"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Shadowfang Keep"], "AtlasLootCataclysm", mapname = "ShadowfangKeep" },
 		},
 
 		["Gnomeregan"] = {
@@ -1199,7 +1199,7 @@ AtlasLoot_LootTableRegister = {
 				{ "GnomereganLoot#1", {4,7,8,10} },
 				{ "GnomereganLoot#2", {11}, hide = true },
 			},
-			["Info"] = { BabbleZone["Gnomeregan"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Gnomeregan"], "AtlasLootClassicWoW", mapname = "Gnomeregan" },
 		},
 
 		["SMArmory"] = {
@@ -1208,7 +1208,7 @@ AtlasLoot_LootTableRegister = {
 				{ "SMTrash", 4 },
 				{ "VWOWSets#1", 5, hide = true },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["SMCathedral"] = {
@@ -1217,7 +1217,7 @@ AtlasLoot_LootTableRegister = {
 				{ "SMTrash", 6 },
 				{ "VWOWSets#1", 7, hide = true },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Cathedral"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Cathedral"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["SMLibrary"] = {
@@ -1226,7 +1226,7 @@ AtlasLoot_LootTableRegister = {
 				{ "SMTrash", 5 },
 				{ "VWOWSets#1", 6, hide = true },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Library"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Library"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["SMGraveyard"] = {
@@ -1236,7 +1236,7 @@ AtlasLoot_LootTableRegister = {
 				{ "SMTrash", 8 },
 				{ "VWOWSets#1", 10, hide = true },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Graveyard"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Graveyard"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["Scholomance"] = {
@@ -1261,7 +1261,7 @@ AtlasLoot_LootTableRegister = {
 				{ "SCHOLOTrash", 30 },
 				{ "VWOWScholo", 31, hide = true },
 			},
-			["Info"] = { BabbleZone["Scholomance"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Scholomance"], "AtlasLootClassicWoW", mapname = "Scholomance" },
 		},
 
 
@@ -1279,7 +1279,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DeadminesCookie", 8 },
 				{ "DeadminesVanessa", 9 },
 			},
-			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootCataclysm", sortOrder = { "TheDeadminesEnt", "TheDeadmines" } },
+			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootCataclysm", sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines" },
 		},
 
 		["WailingCavernsEnt"] = "WailingCavernsEaI",
@@ -1293,14 +1293,14 @@ AtlasLoot_LootTableRegister = {
 				{ "WailingCavernsLoot#2", {5,6,7,8,9,12}, hide = true },
 				{ "VWOWSets#1", 14, hide = true },
 			},
-			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", sortOrder = { "WailingCavernsEnt", "WailingCaverns" } },
+			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", sortOrder = { "WailingCavernsEnt", "WailingCaverns" }, mapname = "WailingCaverns" },
 		},
 
 		["TheStockade"] = {
 			["Bosses"] = {
 				{ "Stockade", {2,3,4} },
 			},
-			["Info"] = { BabbleZone["The Stockade"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["The Stockade"], "AtlasLootClassicWoW", mapname = "TheStockade" },
 		},
 
 		["TheRuinsofAhnQiraj"] = {
@@ -1316,7 +1316,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AQ20Sets", 21, hide = true },
 				{ "AQEnchants", 22 },
 			},
-			["Info"] = { BabbleZone["Ruins of Ahn'Qiraj"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Ruins of Ahn'Qiraj"], "AtlasLootClassicWoW", mapname = "RuinsofAhnQiraj" },
 		},
 
 		["ZulFarrak"] = {
@@ -1336,7 +1336,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ZFZerillis", 20 },
 				{ "ZFTrash", 23 },				
 			},
-			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak" },
 		},
 	},
 
