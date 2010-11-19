@@ -18,7 +18,7 @@
 	
 	<!--@debug@--> <Script file="DEVTOOLS.lua"/> <!--@end-debug@-->
 
-    <GameTooltip name="AtlasLootTooltip" inherits="GameTooltipTemplate" parent="UIParent" hidden="true"/>
+    <GameTooltip name="AtlasLootTooltipTEMP" inherits="GameTooltipTemplate" parent="UIParent" hidden="true"/>
 	
 	<CheckButton name="WishListIconButtonTemplate" inherits="SimplePopupButtonTemplate" virtual="true">
 		<Scripts>

@@ -56,6 +56,9 @@ Hooked_Atlas_Refresh = nil;
 Hooked_Atlas_OnShow = nil;
 Hooked_AtlasScrollBar_Update = nil;
 
+-- The AtlasLoot tooltip
+AtlasLootTooltip = nil
+
 --The error loottable
 AtlasLoot_Data["ErrorPage"] = {["Normal"] = {{}};info = {name = "ErrorPage"};};
 
@@ -117,6 +120,7 @@ local AtlasLootDBDefaults = {
 		LastSearch = "",
 		ShowLootTablePrice = true,
 		ShowPriceAndDesc = false,
+		UseGameTooltip = false,
     }
 }
 
@@ -186,6 +190,8 @@ function AtlasLoot:OnInitialize()
 
 	-- Slash /al 
 	self:CreateSlash()
+	-- Setup the AtlasLootTooltip
+	self:SetupTooltip()
 	-- This loads the Gui
 	self:CreateAtlasInfoFrame()
 	self:CreateAtlasLootPanel()

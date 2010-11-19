@@ -119,6 +119,19 @@ do
 										set = setOpt,
 										width = "full",
 									},
+									UseGameTooltip = {
+										type = "toggle",
+										name = AL["Use GameTooltip"],
+										desc = AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"],
+										order = 70,
+										get = getOpt,
+										set = function(info, value)
+											setOpt(info, value)
+											AtlasLoot:SetupTooltip()
+											return value
+										end,
+										width = "full",
+									},
 								},
 							},
 							

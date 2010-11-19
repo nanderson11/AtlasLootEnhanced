@@ -624,9 +624,18 @@ do
 		modifierStateFrame:RegisterEvent("MODIFIER_STATE_CHANGED")
 		modifierStateFrame:SetScript("OnEvent", onEvent)
 	
+	function AtlasLoot:SetupTooltip()
+		if AtlasLootTooltip then AtlasLootTooltip:Hide() end
+		if self.db.profile.UseGameTooltip then
+			AtlasLootTooltip = GameTooltip
+		else
+			AtlasLootTooltip = AtlasLootTooltipTEMP
+		end
+	end
 
 	-- Called when a loot item is moused over
 	function AtlasLoot:ItemOnEnter()
+		if not AtlasLootTooltip then AtlasLoot:SetupTooltip() end
 		curEnter = true
 		AtlasLootTooltip:ClearLines();
 		for i=1, 30, 1 do

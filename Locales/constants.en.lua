@@ -43,7 +43,6 @@ if AL then
 	AL["Reset"] = true;
 	AL["Reset Frames"] = true;
 	AL["Profiles"] = true;
-	AL["Show price and slot if possible"] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;
@@ -81,6 +80,9 @@ if AL then
 	AL["Drop Rate: "] = true;
 	AL["DKP"] = true;
 	AL["Priority:"] = true;
+	AL["Show price and slot if possible"] = true;
+	AL["Use GameTooltip"] = true;
+	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true;
 	-- Unsafe Item
 	AL["Item Unavailable"] = true;
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = true;
