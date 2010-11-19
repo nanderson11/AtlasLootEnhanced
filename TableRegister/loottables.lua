@@ -851,7 +851,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TKEyeKaelthas", 6 },
 				{ "TKEyeTrash", 12 },
 			},
-			["Info"] = { BabbleZone["Tempest Keep"], AtlasLootExpansionItems },
+			["Info"] = { BabbleZone["The Eye"], "AtlasLootBurningCrusade" },
 		},
 
 		["ZulAman"] = {
