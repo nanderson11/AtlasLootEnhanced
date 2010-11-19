@@ -22,7 +22,9 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
-
+	-- AtlasLootFu 
+	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = true;
+	
 	-- Options
 	AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = true;
@@ -115,6 +117,9 @@ if AL then
 	AL["Use as default wishlist"] = true;
 	AL["Add Wishlist"] = true;
 	AL["Always use default Wishlist"] = true;
+	AL["Save wishlists at character DB"] = true;
+	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = true;
+	
 
 	-- Filter
 	AL["Filter"] = true;

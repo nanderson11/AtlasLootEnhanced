@@ -114,6 +114,7 @@ local dbDefaults = {
 	},
 	profile = {
 		defaultWishlist = false,
+		useCharDB = false,
 	},
 }
 
@@ -207,30 +208,46 @@ do
 							AtlasLoot:SetModuleEnabled(MODULENAME, v)
 						end,
 						order = 10,
+						width = "full",
+					},
+					useCharDB = {
+						type = "toggle",
+						name = AL["Save wishlists at character DB"],
+						desc = string.format(AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."], WishList.char, WishList.realm),
+						get = function()
+							return db.useCharDB
+						end,
+						set = function(info, v)
+							db.useCharDB = v
+							WishList:SetupDb()
+							return db.useCharDB 
+						end,
+						order = 20,
+						width = "full",
 					},
 					nllockb = {
 						type = "description",
 						name = "",
-						order = 20,
+						order = 30,
 					},
 					Own = {
 						type = "group",
 						name = AL["Own"],
 						args = {},
-						order = 30,
+						order = 40,
 					},
 					Other = {
 						type = "group",
 						name = AL["Other"],
 						args = {},
-						order = 40,
+						order = 50,
 					},
 					--[[
 					Shared = {
 						type = "group",
 						name = AL["Shared"],
 						args = {},
-						order = 50,
+						order = 60,
 					},
 					]]
 				},
@@ -307,6 +324,7 @@ end
 	
 function WishList:OnInitialize()
 	self.db = AtlasLoot.db:RegisterNamespace(MODULENAME, dbDefaults)
+	self.chardb = AtlasLoot.chardb:RegisterNamespace(MODULENAME, dbDefaults)
 	db = self.db.profile
 	--LootTableSort:SetConfigTable(db.tableSort)
 	AtlasLoot:RegisterModuleOptions(MODULENAME, getOptions, AL["Wishlist"])
@@ -337,7 +355,8 @@ function WishList:OnInitialize()
 	self.char = UnitName("player")
 	
 	
-	self.ownWishLists = self.db.global.data['Normal'][self.realm][self.char]
+	--self.ownWishLists = self.db.global.data['Normal'][self.realm][self.char]
+	self:SetupDb()
 	self.allWishLists = self.db.global.data['Normal']--[self.realm][self.char]
 	self.sharedWishLists = self.db.global.data['Shared'][self.realm][self.char]
 end
@@ -352,6 +371,29 @@ function WishList:OnDisable()
 
 end
 
+local function MoveTable(t, tt)
+	tt = tt or {}
+	local i, v = next(t, nil)
+	while i do
+		if type(v)=="table" then 
+			v=CopyTable(v)
+		end 
+		tt[i] = v
+		t[i] = nil
+		i, v = next(t, i)
+	end
+	return tt
+end
+
+function WishList:SetupDb()
+	if db.useCharDB then
+		MoveTable(self.db.global.data['Normal'][self.realm][self.char], self.chardb.global.data['Normal'][self.realm][self.char])
+		self.ownWishLists = self.chardb.global.data['Normal'][self.realm][self.char]
+	else
+		MoveTable(self.chardb.global.data['Normal'][self.realm][self.char], self.db.global.data['Normal'][self.realm][self.char])
+		self.ownWishLists = self.db.global.data['Normal'][self.realm][self.char]
+	end
+end
 -- Icon select
 do
 	local icon_row_height = 36

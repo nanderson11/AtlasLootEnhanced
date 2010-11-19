@@ -11,6 +11,43 @@ function AtlasLoot:DevTool_Slash(...)
 	self:DevTool_CreateFrame()
 end
 
+function AtlasLoot:GetEntryInfos()
+	local itemIDs = {}
+	local numItemIds = 0
+	local spellIDs = {}
+	local numSpellIds = 0
+	for dataID, data in pairs(AtlasLoot_Data) do
+		for _,tableType in ipairs(lootTableTypes) do
+			if data[tableType] and not AtlasLoot.IgnoreList[dataID] then
+				for _,itemTable in ipairs(data[tableType]) do
+					for _,item in ipairs(itemTable) do
+						local num1
+						if type(item[2]) == "string" then
+							num1 = string.find(item[2], "s(%d+)")
+						end
+						if item[2] and type(item[2]) == "number" and item[2] > 0 then
+							if not itemIDs[item[2]] then
+								itemIDs[item[2]] = true
+								numItemIds = numItemIds + 1
+							end
+						elseif item[2] and type(item[2]) == "string" and num1 then
+							if not spellIDs[item[2]] then
+								spellIDs[item[2]] = true
+								numSpellIds = numSpellIds + 1
+								if item[3] and tonumber(item[3]) and not itemIDs[tonumber(item[3])] then
+									itemIDs[tonumber(item[3])] = true
+									numItemIds = numItemIds + 1
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	print("ITEMS: "..numItemIds.." --- SPELLS: "..numSpellIds)
+end
+-- ######################################################
 local function returnItemTableString(tab)
 	lootTableString = ""
 	for site, siteTab in ipairs(tab) do
@@ -177,15 +214,99 @@ local function VendorFrame(container)
 	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
 	container:AddChild(multiEditbox)
 end
+-- ######################################################
+-- ######################################################
+
+local function CheckTextParsing(entrys)
+	entrys = entrys or 0
+	local checkString = ""
+	local numberFound = 0
+	local checkTable = {}
+	for iniName, iniTable in pairs(AtlasLoot_Data) do
+		for tableType, tableTypeTable in pairs(iniTable) do
+			if tableType ~= "info" then
+				for tableNumber, tableNumberTable in ipairs(tableTypeTable) do
+					if type(tableNumberTable) == "table" then
+						for itemNum, itemTable in ipairs(tableNumberTable) do
+							for k,v in pairs(AtlasLoot_TextParsing) do
+								local tabName = v[1].." <"..v[2]..">"
+								if not checkTable[tabName] then checkTable[tabName] = {} end
+								if string.find(itemTable[4] or "", v[1]) 
+								or string.find(itemTable[5] or "", v[1]) 
+								or string.find(itemTable[6] or "", v[1]) 
+								or string.find(itemTable[7] or "", v[1]) then
+									checkTable[tabName][#checkTable[tabName] + 1] = "AtlasLoot_Data[\""..iniName.."\"][\""..tableType.."\"]["..tableNumber.."]["..itemNum.."]"
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	for k,v in pairs(checkTable) do
+		if #v <= entrys then
+			numberFound = numberFound + 1
+			local chacheString = ""
+			chacheString = chacheString.."\""..k.."\" ("..#v..")\n"
+			for i,j in ipairs(v) do
+				chacheString = chacheString.."-- "..j.."\n"
+			end
+			chacheString = chacheString.."\n\n"
+			checkString = checkString..chacheString
+			chacheString = nil
+		end
+	end
+	
+	return checkString, numberFound
+end
+
+local function TextParsingFrame(container)
+	local multiEditbox = AceGUI:Create("MultiLineEditBox")
+	local numEntrys
+	
+	local editbox = AceGUI:Create("EditBox")
+	editbox:SetLabel("Less than x entrys:")
+	editbox:SetWidth(200)
+	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
+		numEntrys = tonumber(text)
+		editbox:SetText(numEntrys)
+		
+	end)
+	container:AddChild(editbox)
+	
+	local desc = AceGUI:Create("Label")
+	desc:SetText("0")
+	
+	local button = AceGUI:Create("Button")
+	button:SetText("Start Scan")
+	button:SetCallback("OnClick", function() 
+		local text, number = CheckTextParsing(numEntrys)
+		multiEditbox:SetText(text)
+		desc:SetText(number.." entrys found")
+	end)
+	button:SetWidth(200)
+	container:AddChild(button)
+	container:AddChild(desc)
+	
+	multiEditbox:SetLabel("TextParsing:")
+	multiEditbox:SetFullWidth(true)
+	multiEditbox:SetFullHeight(true)
+	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
+	container:AddChild(multiEditbox)
+end
+
+-- ######################################################
 
 
 -- Callback function for OnGroupSelected
 local function SelectGroup(container, event, group)
    container:ReleaseChildren()
    if group == "tab1" then
-      VendorFrame(container)
+		VendorFrame(container)
    elseif group == "tab2" then
-    
+		TextParsingFrame(container)
    end
 end
 
@@ -202,7 +323,7 @@ function AtlasLoot:DevTool_CreateFrame()
 	local tab =  AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
-	tab:SetTabs({{text="Vendor Scan", value="tab1"}})--, {text="Tab 2", value="tab2"}})
+	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}})
 	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)

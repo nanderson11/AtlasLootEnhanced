@@ -77,7 +77,7 @@ AtlasLoot.IgnoreList = {
 }
 
 AtlasLoot.imagePath = "Interface\\AddOns\\"..addonname.."\\Images\\"
-AtlasLootCharDB={};
+--AtlasLootCharDB={};
 local AtlasLootDBDefaults = { 
     profile = {
         SavedTooltips = {},
@@ -163,12 +163,27 @@ end
 
 -- Initialize all things like Gui, slash commands, saved variables
 function AtlasLoot:OnInitialize()
-    self.db = LibStub("AceDB-3.0"):New("AtlasLootDB");
+    self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
     self.db:RegisterDefaults(AtlasLootDBDefaults);
+	self.chardb = LibStub("AceDB-3.0"):New("AtlasLootCharDB")
+    self.chardb:RegisterDefaults(AtlasLootDBDefaults);
 	self.db.RegisterCallback(self, "OnProfileChanged", "OnProfileChanged")
 	self.db.RegisterCallback(self, "OnProfileCopied", "OnProfileChanged")
 	self.db.RegisterCallback(self, "OnProfileReset", "OnProfileChanged")
 	
+	local _, _, _, enabled, _, reason = GetAddOnInfo("AtlasLootFu")
+	if enabled or reason == "DISABLED" then
+		DisableAddOn("AtlasLootFu")
+		StaticPopupDialogs["ATLASLOOT_FU_ERROR"] = {
+			text = AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"],
+			button1 = OKAY,
+			timeout = 0,
+			exclusive = 1,
+			whileDead = 1,
+		}
+		StaticPopup_Show("ATLASLOOT_FU_ERROR")
+	end
+
 	-- Slash /al 
 	self:CreateSlash()
 	-- This loads the Gui

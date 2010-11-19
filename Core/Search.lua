@@ -26,43 +26,6 @@ function AtlasLoot:ShowSearchResult()
 	end
 end
 
-function AtlasLoot:GetEntryInfos()
-	local itemIDs = {}
-	local numItemIds = 0
-	local spellIDs = {}
-	local numSpellIds = 0
-	for dataID, data in pairs(AtlasLoot_Data) do
-		for _,tableType in ipairs(lootTableTypes) do
-			if data[tableType] and not AtlasLoot.IgnoreList[dataID] then
-				for _,itemTable in ipairs(data[tableType]) do
-					for _,item in ipairs(itemTable) do
-						local num1
-						if type(item[2]) == "string" then
-							num1 = string.find(item[2], "s(%d+)")
-						end
-						if item[2] and type(item[2]) == "number" and item[2] > 0 then
-							if not itemIDs[item[2]] then
-								itemIDs[item[2]] = true
-								numItemIds = numItemIds + 1
-							end
-						elseif item[2] and type(item[2]) == "string" and num1 then
-							if not spellIDs[item[2]] then
-								spellIDs[item[2]] = true
-								numSpellIds = numSpellIds + 1
-								if item[3] and tonumber(item[3]) and not itemIDs[tonumber(item[3])] then
-									itemIDs[tonumber(item[3])] = true
-									numItemIds = numItemIds + 1
-								end
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-	print("ITEMS: "..numItemIds.." --- SPELLS: "..numSpellIds)
-end
-
 function AtlasLoot:Search(Text)
 	if not Text then return end
 	Text = strtrim(Text);
@@ -132,7 +95,7 @@ function AtlasLoot:Search(Text)
 			searchTableSort = AtlasLoot:AddLootTableSort("ATLASLOOT_SEARCH")
 			--searchTableSort:SetConfigTable()
 		end
-		searchTableSort:ShowSortedTable(nil, searchResult)
+		searchTableSort:ShowSortedTable("Text", searchResult)
 		--AtlasLoot:CreateFormatedLootPage(searchResult)
 	end
 	searchResult = nil
