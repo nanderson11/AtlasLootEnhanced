@@ -332,6 +332,53 @@ function AtlasLoot:DevTool_CreateFrame()
 	-- add to the frame container
 	frame:AddChild(tab)
 
+end
 
+local atlasSupportRemoved = false
+function AtlasLoot:ReduceMemoryUsage()
+	for iniName, iniTable in pairs(AtlasLoot_Data) do
+		if iniTable.info and iniTable.info.module then
+			iniTable.info.module = nil
+		end
+		if not string.find(iniName, "MENU") then
+			for tableType, tableTypeTable in pairs(iniTable) do
+				if tableType ~= "info" then
+					for tableNumber, tableNumberTable in ipairs(tableTypeTable) do
+						if type(tableNumberTable) == "table" then
+							for itemNum, itemTable in ipairs(tableNumberTable) do
+								if itemTable[4] ~= "INV_Box_01" and itemTable[4] ~= "inv_box_04" then
+									itemTable[4] = nil
+									itemTable[5] = nil
+									itemTable[6] = nil
+									itemTable[7] = nil
+									itemTable[8] = nil
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
 	
+	if not atlasSupportRemoved and not IsAddOnLoaded("Atlas") then
+		for k,v in pairs(AtlasLoot_LootTableRegister["Instances"]) do
+			if type(v) == "table" and v["Bosses"] then
+				for i,j in ipairs(v["Bosses"]) do
+					j[2] = nil
+				end
+			end
+		end
+		
+		AtlasLoot.SetupForAtlas = nil
+		AtlasLoot.AtlasInitialize = nil
+		AtlasLoot.Atlas_OnShow = nil 
+		AtlasLoot.AtlasRefreshHook = nil 
+		AtlasLoot.AtlasScrollBar_Update = nil 
+		AtlasLoot.Atlas_SetBoss = nil 
+		AtlasLoot.Boss_OnClick = nil 
+		atlasSupportRemoved = true
+	end
+	collectgarbage("collect")
+
 end

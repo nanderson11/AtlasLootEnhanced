@@ -38,3 +38,4 @@ move-folders:
 ignore:
 	- Modules/TemplateFile.lua
 	- Core/DEVTOOLS.lua
+	- Libs/LibDataBroker-1.1
