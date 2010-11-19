@@ -2883,7 +2883,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j29#", ""};
 				{ 2, 36941, "", "=q3=Competitor's Tabard", "=ds=#s7#"};
-				{ 3, 22999, "", "=q1=Tabard of the Agent Dawn", "=ds=#s7#, =q1=#m4#"};
+				{ 3, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#, =q1=#m4#"};
 				{ 4, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
 				{ 5, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
@@ -3055,20 +3055,20 @@ local moduleName = "AtlasLootCataclysm"
 				};
 				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
 				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 4, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 5, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
-				{ 6, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 7, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 8, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 10, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
-				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 12, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
-				{ 13, 31760, "", "=q1=Miniwing", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 14, 12529, "", "=q1=Smolderweb Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
-				{ 15, 11474, "", "=q1=Sprite Darter Egg", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Feralas"]};
-				{ 16, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 17, 12264, "", "=q1=Worg Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
+				{ 4, 12529, "", "=q3=Smolderweb Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
+				{ 5, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 6, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
+				{ 7, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 8, 12264, "", "=q3=Worg Carrier", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Lower Blackrock Spire"]};
+				{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 10, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 11, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 12, 11110, "", "=q1=Chicken Egg", "=ds=#e13#"};
+				{ 13, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 14, 10398, "", "=q1=Mechanical Chicken", "=ds=#e13#"};
+				{ 15, 31760, "", "=q1=Miniwing", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Feralas"]};
+				{ 17, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
 			};
 		};
 		info = {
@@ -3086,7 +3086,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 67282, "", "=q3=Elementium Geode", "=q2=Mining (Needs to be added to BabbleInv)"};
 				{ 5, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
 				{ 6, 60955, "", "=q3=Fossilized Hatchling", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 7, 67275, "", "=q3=Magic Lamp", "=ds="..BabbleInventory["Enchanting"]};
+				{ 7, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
 				{ 8, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
 				{ 9, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2="..BabbleInventory["Engineering"]};
 				{ 10, 11826, "", "=q1=Lil' Smoky", "=q2="..BabbleInventory["Engineering"]};
@@ -3125,8 +3125,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds="..BabbleFaction["Sha'tari Skyguard"]};
 				{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="..BabbleFaction["The Kalu'ak"]};
 				{
-					{ 19, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
 					{ 19, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
+					{ 19, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
 				};
 				{
 					{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Sunreavers"]};
@@ -3221,7 +3221,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 13584, "", "=q3=Diablo Stone", "=q2="..AL["Collector's Edition"]};
 				{ 5, 39286, "", "=q3=Frosty's Collar", "=q2="..AL["Collector's Edition"]};
 				{ 6, 46802, "", "=q3=Heavy Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 7, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
+				{ 7, 62540, "", "=q3=Lil' Deathwing", "=q2="..AL["Collector's Edition"]};
 				{ 8, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
 				{ 9, 56806, "", "=q3=Mini Thor", "=q2="..AL["Collector's Edition"]};
 				{ 10, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
@@ -3270,7 +3270,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
 				{ 2, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 3, 67601, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 3, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
 				{ 4, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
 				{
 					{ 5, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
@@ -3325,24 +3325,22 @@ local moduleName = "AtlasLootCataclysm"
 					{ 11, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
 					{ 11, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
 				};
-				{ 12, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
-				{ 13, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
-				{ 14, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
-				{ 15, 68137, "", "=q3=Moonkin Hatchling", "=ds="..AL["Companion Store"]};
-				{ 16, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
-				{ 17, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
-				{ 18, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
-				{ 19, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 20, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 21, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 22, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 23, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
-				{ 24, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
-				{ 25, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 26, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 27, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
-				{ 28, "s89930", "", "=q1=Swirling Stormling", "=ds="};
-				{ 29, "s89931", "", "=q1=Whirling Waveling", "=ds="};
+				{ 12, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
+				{ 13, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
+				{ 14, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
+				{ 15, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
+				{ 16, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
+				{ 17, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 18, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 19, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 20, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 21, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
+				{ 22, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
+				{ 23, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 24, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
+				{ 25, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
+				{ 26, "s89930", "", "=q1=Swirling Stormling", "=ds="};
+				{ 27, "s89931", "", "=q1=Whirling Waveling", "=ds="};
 			};
 		};
 		info = {
@@ -3666,7 +3664,7 @@ local moduleName = "AtlasLootCataclysm"
 					{ 18, 44223, "", "=q4=Reins of the Black War Bear", "=q2="..AL["For The Alliance!"].."  =ec1="..BabbleFaction["Alliance"]};
 				};
 				{ 19, 62298, "", "=q4=Reins of the Golden King", "=q2="..AL["Guild Level 25"].."  =ec1="..BabbleFaction["Alliance"]};
-				{ 20, 67107, "", "=q4=Reins of the Kron'Kar Annihilator", "=q2="..AL["Guild Level 25"].."  =ec1="..BabbleFaction["Horde"]};
+				{ 20, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "=q2="..AL["Guild Level 25"].."  =ec1="..BabbleFaction["Horde"]};
 			};
 		};
 		info = {
@@ -3776,7 +3774,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 62298, "", "=q4=Reins of the Golden King", "=q2="..AL["Guild Level 25"]};
-				{ 2, 67107, "", "=q4=Reins of the Kron'Kar Annihilator", "=q2="..AL["Guild Level 25"]};
+				{ 2, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "=q2="..AL["Guild Level 25"]};
 				{ 3, 64883, "", "=q4=Scepter of Az'Aqir", "=ds=#e26# =q2=Archaeology (Needs to be added to BabbleInv)"};
 				{ 4, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=Archaeology (Needs to be added to BabbleInv)"};
 				{ 5, 62462, "", "=q4=Goblin Turbo-Trike Key", "=ds=#e26#"};
@@ -3825,7 +3823,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 34092, "", "=q4=Merciless Nether Drake", "=ds="..AL["Season 2"]};
 				{ 19, 37676, "", "=q4=Vengeful Nether Drake", "=ds="..AL["Season 3"]};
 				{ 20, 43516, "", "=q4=Brutal Nether Drake", "=ds="..AL["Season 4"]};
-				{ 21, 46708, "", "=q4=Deadly Gladiator's Frostwyrm", "=ds="..AL["Season 5"]};
+				{ 21, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "=ds="..AL["Season 5"]};
 				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "=ds="..AL["Season 6"]};
 				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "=ds="..AL["Season 7"]};
 			};
