@@ -3103,23 +3103,26 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsAchievementFaction"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement"], ""};
-				{ 2, 63398, "", "=q3=Armadillo Pup", "=q2="..AL["Critter Kill Squad"]};
-				{ 3, 63138, "", "=q3=Dark Phoenix Hatchling", "=q2="..AL["United Nations"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
+				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
+				{ 3, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5125#"};
 				{
-					{ 4, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"].."  =ec1="..BabbleFaction["Alliance"]};
-					{ 4, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"].."  =ec1="..BabbleFaction["Horde"]};
+					{ 4, 65363, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Alliance"]};
+					{ 4, 65364, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Horde"]};
 				};
 				{
-					{ 5, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"].."  =ec1="..BabbleFaction["Alliance"]};
-					{ 5, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"].."  =ec1="..BabbleFaction["Horde"]};
+					{ 5, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1="..BabbleFaction["Alliance"]};
+					{ 5, 65362, "", "=q3=Guild Page", "#ACHIEVEMENTID:5179#, =ec1="..BabbleFaction["Horde"]};
 				};
-				{ 6, 44738, "", "=q3=Kirin Tor Familiar", "=q2="..AL["Higher Learning"]};
-				{ 7, 44841, "", "=q3=Little Fawn's Salt Lick", "=q2="..AL["Lil' Game Hunter"]};
-				{ 8, 49912, "", "=q3=Perky Pug", "=q2="..AL["Looking For Multitudes"]};
-				{ 9, 40653, "", "=q3=Reeking Pet Carrier", "=q2="..AL["Shop Smart, Shop Pet...Smart"]};
-				{ 10, 44810, "", "=q3=Turkey Cage", "=q2="..AL["Pilgrim"]};
-				{ 11, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
+				{ 6, 44738, "", "=q3=Kirin Tor Familiar", "#ACHIEVEMENTID:1956#"};
+				{ 7, 44841, "", "=q3=Little Fawn's Salt Lick", "#ACHIEVEMENTID:2516#"};
+				{ 8, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
+				{ 9, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
+				{
+					{ 10, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1="..BabbleFaction["Alliance"]};
+					{ 10, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1="..BabbleFaction["Horde"]};
+				};
+				{ 11, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
 				{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds="..BabbleFaction["Sha'tari Skyguard"]};
 				{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="..BabbleFaction["The Kalu'ak"]};
@@ -3308,38 +3311,40 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 60847, "", "=q4=Crawling Hand", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 2, 63398, "", "=q3=Armadillo Pup", "=q2="..AL["Critter Kill Squad"]};
+				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
 				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "=q2="..AL["United Nations"]};
+				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5125#"};
 				{ 5, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2="..BabbleInventory["Engineering"]};
 				{ 6, 67282, "", "=q3=Elementium Geode", "=q2=Mining (Needs to be added to BabbleInv)"};
 				{ 7, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
 				{ 8, 60955, "", "=q3=Fossilized Hatchling", "=q2=Archaeology (Needs to be added to BabbleInv)"};
-				{ 9, 64403, "", "=q3=Fox Kit", "=ds="}; -- havent added to any table yet / unkown drop location
+				{ 9, 64403, "", "=q3=Fox Kit", "=ds=#e13#"}; -- havent added to any table yet / unkown drop location
 				{
-					{ 10, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"]};
-					{ 10, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"]};
+					{ 10, 65363, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Alliance"]};
+					{ 10, 65364, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Horde"]};
 				};
 				{
-					{ 11, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
-					{ 11, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
+					{ 11, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1="..BabbleFaction["Alliance"]};
+					{ 11, 65362, "", "=q3=Guild Page", "#ACHIEVEMENTID:5179#, =ec1="..BabbleFaction["Horde"]};
 				};
 				{ 12, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
 				{ 13, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
 				{ 14, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
-				{ 15, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
-				{ 16, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
-				{ 17, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 18, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 19, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 20, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 21, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
-				{ 22, 60869, "", "=q1=Pebble", "=q2="..AL["Rock Lover"]};
-				{ 23, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 24, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 25, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
-				{ 26, "s89930", "", "=q1=Swirling Stormling", "=ds="};
-				{ 27, "s89931", "", "=q1=Whirling Waveling", "=ds="};
+				{
+					{ 15, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
+					{ 15, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
+				};
+				{ 16, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 17, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 18, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 19, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 20, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
+				{ 21, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
+				{ 22, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 23, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
+				{ 24, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
+				{ 25, "s89930", "", "=q1=Swirling Stormling", "=ds="};
+				{ 26, "s89931", "", "=q1=Whirling Waveling", "=ds="};
 			};
 		};
 		info = {
@@ -3644,27 +3649,26 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["MountsAchievement"] = {
 		["Normal"] = {
 			{
-				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "=q2="..AL["Mountain o' Mounts"]..", =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 44842, "", "=q4=Red Dragonhawk Mount", "=q2="..AL["Mountain o' Mounts"]..", =ec1="..BabbleFaction["Horde"]};
-				{ 3, 44178, "", "=q4=Reins of the Albino Drake", "=q2="..AL["Leading the Cavalry"]};
-				{ 4, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "=q2="..AL["Glory of the Icecrown Raider (10 player)"]..", =q1="..BabbleZone["Icecrown Citadel"]};
-				{ 5, 63125, "", "=q4=Reins of the Dark Phoenix", "=q2="..AL["Guild Glory of the Cataclysm Raider"]};
-				{ 6, 62901, "", "=q4=Reins of the Drake of the East Wind", "=q2="..AL["Glory of the Cataclysm Raider"]};
-				{ 7, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "=q2="..AL["Glory of the Icecrown Raider (25 player)"]..", =q1="..BabbleZone["Icecrown Citadel"]};
-				{ 8, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "=q2="..AL["Glory of the Ulduar Raider (25 player)"]..", =q1="..BabbleZone["Ulduar"]};
-				{ 9, 44160, "", "=q4=Reins of the Red Proto-Drake", "=q2="..AL["Glory of the Hero"]};
-				{ 10, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "=q2="..AL["Glory of the Ulduar Raider (10 player)"]..", =q1="..BabbleZone["Ulduar"]};
-				--{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "=q2="..AL["What A Long, Strange Trip It's Been"]};
+				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1="..BabbleFaction["Alliance"]};
+				{ 2, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
+				{ 3, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
+				{ 4, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 5, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 6, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 7, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 8, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 9, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 10, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
 				{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
-				{ 12, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "=q2="..AL["Glory of the Cataclysm Hero"]};
-				{ 16, 49098, "", "=q4=Crusader's Black Warhorse", "=q2="..AL["A Tribute to Immortality"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1="..BabbleFaction["Horde"]};
-				{ 17, 49096, "", "=q4=Crusader's White Warhorse", "=q2="..AL["A Tribute to Immortality"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1="..BabbleFaction["Alliance"]};
+				{ 12, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
+				{ 16, 49098, "", "=q4=Crusader's Black Warhorse", "#ACHIEVEMENTID:4079#, =ec1="..BabbleFaction["Horde"]};
+				{ 17, 49096, "", "=q4=Crusader's White Warhorse", "#ACHIEVEMENTID:4156#, =ec1="..BabbleFaction["Alliance"]};
 				{
-					{ 18, 44224, "", "=q4=Reins of the Black War Bear", "=q2="..AL["For The Horde!"].."  =ec1="..BabbleFaction["Horde"]};
-					{ 18, 44223, "", "=q4=Reins of the Black War Bear", "=q2="..AL["For The Alliance!"].."  =ec1="..BabbleFaction["Alliance"]};
+					{ 18, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
+					{ 18, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
 				};
-				{ 19, 62298, "", "=q4=Reins of the Golden King", "=q2="..AL["Guild Level 25"].."  =ec1="..BabbleFaction["Alliance"]};
-				{ 20, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "=q2="..AL["Guild Level 25"].."  =ec1="..BabbleFaction["Horde"]};
+				{ 19, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
+				{ 20, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
 			};
 		};
 		info = {
@@ -3689,7 +3693,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 34060, "", "=q3=Flying Machine Control", "=ds=#e27# =q2=#p5#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
 				{ 17, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
-				{ 18, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: "..BabbleZone["Vashj'ir"]};
+				{ 18, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
 			};
 		};
 		info = {
@@ -3773,8 +3777,8 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["MountsCata"] = {
 		["Normal"] = {
 			{
-				{ 1, 62298, "", "=q4=Reins of the Golden King", "=q2="..AL["Guild Level 25"]};
-				{ 2, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "=q2="..AL["Guild Level 25"]};
+				{ 1, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
+				{ 2, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
 				{ 3, 64883, "", "=q4=Scepter of Az'Aqir", "=ds=#e26# =q2=Archaeology (Needs to be added to BabbleInv)"};
 				{ 4, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=Archaeology (Needs to be added to BabbleInv)"};
 				{ 5, 62462, "", "=q4=Goblin Turbo-Trike Key", "=ds=#e26#"};
@@ -3783,15 +3787,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
 				{ 9, 63046, "", "=q4=Reins of the Grey Riding Camel", "=ds=#e26#", ""};
 				{ 10, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
-				{ 11, 63125, "", "=q4=Reins of the Dark Phoenix", "=q2="..AL["Guild Glory of the Cataclysm Raider"]};
-				{ 12, 62901, "", "=q4=Reins of the Drake of the East Wind", "=q2="..AL["Glory of the Cataclysm Raider"]};
+				{ 11, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 12, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
 				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altarius"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
 				{ 14, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#"};--not known where from
 				{ 15, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 				{ 16, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 				{ 17, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
 				{ 18, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 19, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "=q2="..AL["Glory of the Cataclysm Hero"]};
+				{ 19, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
 				{ 20, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
 				{ 21, 62461, "", "=q3=Goblin Trike Key", "=ds=#e26#"};
 				{ 22, 54465, "", "=q3=Subdued Abyssal Seahorse", "=ds=#e12#"};--quest reward in Vashj'ir
@@ -3812,10 +3816,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "=q2="..BabbleBoss["Bloodlord Mandokir"]..", =q1="..BabbleZone["Zul'Gurub"], "", "0.43%"};
 				{ 4, 19902, "", "=q4=Swift Zulian Tiger", "=q2="..BabbleBoss["High Priest Thekal"]..", =q1="..BabbleZone["Zul'Gurub"], "", " 0.70%"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
-				{ 7, 44164, "", "=q4=Reins of the Black Proto-Drake", "=q2="..AL["Glory of the Raider (25 player)"]};
-				{ 8, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "=q2="..AL["Glory of the Raider (10 player)"]};
+				{ 7, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
+				{ 8, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
 				{ 10, 0, "INV_Box_01", "=q6=Other", ""};--no idea what to call this section
-				{ 11, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q2=#m4#"};
+				{ 11, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
 				{ 12, 37719, "", "=q4=Swift Zhevra", "=ds=#e26#"};
 				{ 13, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
