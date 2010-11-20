@@ -576,7 +576,6 @@ if AL then
 	AL["First Prize"] = true;
 	AL["Rare Fish Rewards"] = true;
 	AL["Rare Fish"] = true;
-	AL["Unattainable Tabards"] = true;--replace
 	AL["Heirloom"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;

@@ -349,7 +349,6 @@ if AL then
 	AL["First Prize"] = "Primer precio";
 	AL["Rare Fish Rewards"] = "Recompensas superiores pesca";
 	AL["Rare Fish"] = "Pescado superior";
-	AL["Unattainable Tabards"] = "Tabardos inalcanzables";
 	AL["Heirloom"] = "Reliquia";
 	AL["Weapons"] = "Armas";
 	AL["Accessories"] = "Accesorios";

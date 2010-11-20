@@ -297,7 +297,6 @@ if AL then
 	AL["Random"] = "随机";
 	AL["Weapons"] = "武器";
 	AL["Achievement"] = "成就";
-	AL["Unattainable Tabards"] = "无法获得的战袍";
 	AL["Heirloom"] = "传家宝";
 
 	--Darkmoon Faire

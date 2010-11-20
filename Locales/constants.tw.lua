@@ -366,7 +366,6 @@ if AL then
 	AL["First Prize"] = "頭獎";
 	AL["Rare Fish Rewards"] = "稀有釣魚獎勵";
 	AL["Rare Fish"] = "稀有魚類";
-	AL["Unattainable Tabards"] = "難以取得的外袍";
 	AL["Heirloom"] = "家傳物品";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";

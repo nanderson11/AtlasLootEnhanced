@@ -2833,24 +2833,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["TabardsAchievementQuestRareMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=Achievement Rewards", ""}; ---different icon
+				{ 1, 0, "achievement_guildperk_honorablemention_rank2", "=q6="..AL["Achievement Reward"], ""};
 				{ 2, 43349, "", "=q4=Tabard of Brute Force", "=q2="..AL["Brutally Dedicated"]};
 				{ 3, 40643, "", "=q4=Tabard of the Achiever", "=q2="..AL["Twenty-Five Tabards"]};
 				{ 4, 43348, "", "=q4=Tabard of the Explorer", "=q2="..AL["Explore Northrend"]};
 				{ 5, 43300, "", "=q4=Loremaster's Colors", "=q2="..AL["The Loremaster"]};
 				{ 6, 49052, "", "=q3=Tabard of Conquest", "=q2="..AL["Master of Isle of Conquest"].." =ec1=#m7#"};
 				{ 7, 49054, "", "=q3=Tabard of Conquest", "=q2="..AL["Master of Isle of Conquest"].." =ec1=#m6#"};
-				{ 9, 0, "INV_BannerPVP_02", "=q6=Misc", ""}; ---different icon
+				{ 9, 0, "INV_BannerPVP_02", "=q6="..AL["Misc"], ""}; ---different icon
 				{ 10, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.48%"};
 				{ 11, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
-				{ 16, 0, "INV_BannerPVP_02", "=q6=Quest Rewards", ""}; ---different icon
-				{ 17, 52252, "", "=q4=Tabard of the Lightbringer", "=ds="};
-				{ 18, 35279, "", "=q3=Tabard of Summer Skies", "=ds=#s7#, =q1=#m4#"};
-				{ 19, 35280, "", "=q3=Tabard of Summer Flames", "=ds=#s7#, =q1=#m4#"};
-				{ 20, 31404, "", "=q2=Green Trophy Tabard of the Illidari", "=ds=#s7#, =q1=#m4#"};
-				{ 21, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=ds=#s7#, =q1=#m4#"};
+				{ 16, 0, "achievement_guildperk_honorablemention", "=q6="..AL["Quest Reward"], ""};
+				{ 17, 52252, "", "=q4=Tabard of the Lightbringer", "=ds=#s7#"};
+				{ 18, 35280, "", "=q3=Tabard of Summer Flames", "=ds=#s7#"};
+				{ 19, 35279, "", "=q3=Tabard of Summer Skies", "=ds=#s7#"};
+				{ 20, 31404, "", "=q2=Green Trophy Tabard of the Illidari", "=ds=#s7#"};
+				{ 21, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=ds=#s7#"};
 				{ 22, 25549, "", "=q1=Blood Knight Tabard", "=ds=#s7#, =ec1=#m6#"};
-				{ 23, 24344, "", "=q1=Tabard of the Hand", "=ds=#s7#, =q1=#m4#, =ec1=#m7#"};
+				{ 23, 24344, "", "=q1=Tabard of the Hand", "=ds=#s7#, =ec1=#m7#"};
 			};
 		};
 		info = {
@@ -2881,11 +2881,10 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["TabardsRemoved"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j29#", ""};
-				{ 2, 36941, "", "=q3=Competitor's Tabard", "=ds=#s7#"};
-				{ 3, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#, =q1=#m4#"};
-				{ 4, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
-				{ 5, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
+				{ 1, 36941, "", "=q3=Competitor's Tabard", "=ds=#s7#"};
+				{ 2, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#, =q1=#m4#"};
+				{ 3, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
+				{ 4, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
 				{ 17, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="..AL["Season 6"]};
 				{ 18, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="..AL["Season 7"]};

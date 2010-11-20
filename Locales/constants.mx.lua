@@ -305,7 +305,6 @@ if AL then
 	AL["Random"] = "Aleatorio";
 	AL["Weapons"] = "Armas";
 	AL["Achievement"] = "Logro";
-	AL["Unattainable Tabards"] = "Tabardos inasequibles";
 	AL["Heirloom"] = "Reliquia";	
 
 	-- Darkmoon Faire

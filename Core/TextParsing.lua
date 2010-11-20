@@ -183,7 +183,6 @@ AtlasLoot_TextParsing = {
 	{ "#j26#", AL["Rare Fish"] },
 	{ "#j27#", AL["Additional Heroic Loot"] },
 	{ "#j28#", AL["Entrance"] },
-	{ "#j29#", AL["Unattainable Tabards"] },
 	{ "#j30#", AL["Mounts"] },
 	{ "#j37#", AL["10 Man"] },
 	{ "#j38#", AL["25 Man"] },
