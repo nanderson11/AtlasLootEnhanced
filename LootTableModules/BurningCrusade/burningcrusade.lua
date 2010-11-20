@@ -4493,11 +4493,11 @@ local moduleName = "AtlasLootBurningCrusade"
 				{
 					{ 25, 30570, "", "=q2=Arkadian Claymore", "=ds=#h2#, #w10#"};
 					{ 25, 30597, "", "=q2=Halaani Claymore", "=ds=#h2#, #w10#"};
-				};				
+				};
 				{
 					{ 26, 30568, "", "=q2=The Sharp Cookie", "=ds=#w11#"};
 					{ 26, 30599, "", "=q2=Avenging Blades", "=ds=#w11#"};
-				};					
+				};
 				{ 27, 30615, "", "=q1=Halaani Whiskey", "=ds=#e4#"};
 			};
 		};
@@ -4651,7 +4651,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#pvprep707_1#", "=ec1=#c7#"};			
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#pvprep707_1#", "=ec1=#c7#"};
 				{
 					{ 2, 35383, "", "=q3=Seer's Linked Helm", "=ds=#f3#, =ec1=#r3#"};
 					{ 2, 35474, "", "=q3=Seer's Linked Helm", "=ds=#f4#, =ec1=#r3#"};
@@ -6232,7 +6232,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
 			module = moduleName, menu = "T456SET",
 		};
 	}
@@ -6323,7 +6323,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 21, 34929, "", "=q4=Belt of the Silent Path", "=ds=#s10#", "390 #justice#", ""};
 				{ 22, 33559, "", "=q4=Starfire Waistband", "=ds=#s10#", "312 #justice#", ""};
 				{ 23, 33583, "", "=q4=Waistguard of the Great Beast", "=ds=#s10#", "312 #justice#", ""};
-
 			};
 			{
 				{ 1, 34905, "", "=q4=Crystalwind Leggings", "=ds=#s11#", "520 #justice#", ""};
@@ -6357,7 +6356,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 9, 33532, "", "=q4=Gleaming Earthen Bracers", "=ds=#s8#", "182 #justice#", ""};
 				{ 10, 33529, "", "=q4=Steadying Bracers", "=ds=#s8#", "182 #justice#", ""};
 				{ 11, 34916, "", "=q4=Gauntlets of Rapidity", "=ds=#s9#", "390 #justice#", ""};
-				{ 12, 33528, "", "=q4=Gauntlets of Sniping", "=ds=#s9#", "312 #justice#", ""};				
+				{ 12, 33528, "", "=q4=Gauntlets of Sniping", "=ds=#s9#", "312 #justice#", ""};
 				{ 13, 33534, "", "=q4=Grips of Nature's Wrath", "=ds=#s9#", "312 #justice#", ""};
 				{ 14, 33531, "", "=q4=Polished Waterscale Gloves", "=ds=#s9#", "312 #justice#", ""};
 				{ 15, 34935, "", "=q4=Aftershock Waistguard", "=ds=#s10#", "390 #justice#", ""};

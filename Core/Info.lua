@@ -70,15 +70,3 @@ AtlasLoot.AddonInfo = {
 		},	
 	},
 }
-
-
-
-
-
-
-
-
-
-
-
-

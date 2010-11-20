@@ -1112,7 +1112,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 		};
 	};
 
-
 	------------------------
 	--- Triggered Events ---
 	------------------------
@@ -1183,7 +1182,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 			module = moduleName, menu = "ABYSSALMENU"
 		};
 	};
-
 
 	AtlasLoot_Data["HighCouncil"] = {
 		["Normal"] = {

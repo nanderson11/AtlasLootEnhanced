@@ -419,7 +419,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 25, "s53780", "35625", "=q2=Transmute: Eternal Shadow to Life", "=ds="};
 				{ 26, "s53783", "35623", "=q2=Transmute: Eternal Water to Air", "=ds="};
 				{ 27, "s53784", "36860", "=q2=Transmute: Eternal Water to Fire", "=ds="};
-
 			};
 			{
 				{ 1, "s29688", "23571", "=q3=Transmute: Primal Might", "=ds="..AL["Vendor"]};
@@ -3652,7 +3651,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 24, "s53934", "39919", "=q2=Solid Chalcedony", "=ds="..AL["Trainer"] };
 				{ 25, "s53940", "39920", "=q2=Sparkling Chalcedony", "=ds="..AL["Trainer"] };
 				{ 26, "s53943", "39932", "=q2=Stormy Chalcedony", "=ds=1250 #faction#" };
-
 			};
 			{
 				{ 1, "s39715", "32200", "=q4=Solid Empyrean Sapphire", "=ds=#sr# 375"};
@@ -3857,8 +3855,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 25, "s53978", "40040", "=q3=Resplendent Monarch Topaz", "=ds="..BabbleZone["Wintergrasp"].." 12 #wintergrasp#" };
 				{ 26, "s53992", "40056", "=q3=Stalwart Monarch Topaz", "=ds="..AL["Drop"]..""};
 				{ 27, "s53986", "40050", "=q3=Willful Monarch Topaz", "=ds="..BabbleZone["Wintergrasp"].." 12 #wintergrasp#" };
-
-
 			};
 			{
 				{ 1, "s53874", "39949", "=q2=Champion's Huge Citrine", "=ds="..AL["Trainer"] };
@@ -6760,7 +6756,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 23, 43506, "", "=q2=Recipe: Small Feast", "=ds=#p3# (425)"};
 				{ 24, 43017, "", "=q2=Recipe: Fish Feast", "=ds=#p3# (450)"};
 				{ 26, 43016, "", "=q2=Dalaran Cooking Award", "=ds=#m17#"};
-
 			};
 			{
 				{ 1, 46349, "", "=q3=Chef's Hat", "=ds=#s1#"};

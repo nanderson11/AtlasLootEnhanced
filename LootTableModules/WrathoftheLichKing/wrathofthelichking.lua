@@ -3572,7 +3572,7 @@ local moduleName = "AtlasLootWotLK"
 			module = moduleName, instance = "Naxxramas",
 		};
 	};
-	
+
 	AtlasLoot_Data["Naxx80Faerlina"] = {
 		["Normal"] = {
 			{
@@ -3989,7 +3989,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 40373, "", "=q4=Extract of Necromatic Power", "=ds=#s14#", "", "18%"};
 				{ 23, 40372, "", "=q4=Rune of Repulsion", "=ds=#s14#", "", "19%"};
 				{ 24, 40382, "", "=q4=Soul of the Dead", "=ds=#s14#", "", "20%"};
-
 			};
 		};
 		info = {
@@ -4346,7 +4345,6 @@ local moduleName = "AtlasLootWotLK"
 			module = moduleName, instance = "Ulduar",
 		};
 	};
-
 
 	AtlasLoot_Data["UlduarDeconstructor"] = {
 		["Normal"] = {
@@ -6729,7 +6727,7 @@ local moduleName = "AtlasLootWotLK"
 			module = moduleName, instance = "IcecrownCitadel",
 		};
 	}
-	
+
 	AtlasLoot_Data["ICCSaurfang"] = {
 		["Normal"] = {
 			{
@@ -9103,7 +9101,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 23, 42599, "", "=q4=Relentless Gladiator's Totem of the Third Wind", "=ds=#s16#", "6400 #honor# 350 #arena# #reqrating# 700"};
 				{ 25, 42608, "", "=q4=Furious Gladiator's Totem of Indomitability", "12000 #honor#"};
 				{ 26, 42603, "", "=q4=Furious Gladiator's Totem of Survival", "12000 #honor#"};
-				{ 27, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "12000 #honor#"};			
+				{ 27, 42598, "", "=q4=Furious Gladiator's Totem of the Third Wind", "12000 #honor#"};
 			};
 		};
 		info = {
@@ -9186,7 +9184,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 48979, "", "=q4=Titan-Forged Cuffs of Salvation", "=ds=#s8#, #a1#", "280 #honor#" };
 				{ 21, 46080, "", "=q4=Titan-Forged Cord of Salvation", "=ds=#s10#, #a1#", "280 #honor#" };
 				{ 22, 48991, "", "=q4=Titan-Forged Cloth Leggings of Salvation", "=ds=#s11#, #a1#", "490 #honor#" };
-				{ 23, 44900, "", "=q4=Titan-Forged Slippers of Salvation", "=ds=#s12#, #a1#", "280 #honor#" };		
+				{ 23, 44900, "", "=q4=Titan-Forged Slippers of Salvation", "=ds=#s12#, #a1#", "280 #honor#" };
 				extraText = " - "..BabbleInventory["Cloth"];
 			};
 			{
@@ -9210,8 +9208,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 48976, "", "=q4=Titan-Forged Armwraps of Triumph", "=ds=#s8#, #a2#", "280 #honor#" };
 				{ 20, 46078, "", "=q4=Titan-Forged Belt of Triumph", "=ds=#s10#, #a2#", "280 #honor#" };
 				{ 21, 48988, "", "=q4=Titan-Forged Leather Legguards of Triumph", "=ds=#s11#, #a2#", "490 #honor#" };
-				{ 22, 44893, "", "=q4=Titan-Forged Boots of Triumph", "=ds=#s12#, #a2#", "280 #honor#" };	
-				extraText = " - "..BabbleInventory["Leather"];				
+				{ 22, 44893, "", "=q4=Titan-Forged Boots of Triumph", "=ds=#s12#, #a2#", "280 #honor#" };
+				extraText = " - "..BabbleInventory["Leather"];
 			};
 			{
 				{ 1, 44904, "", "=q4=Titan-Forged Mail Helm of Dominance", "=ds=#s1#, #a3#", "490 #honor#" };
@@ -9234,7 +9232,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 48982, "", "=q4=Titan-Forged Wristguards of Triumph", "=ds=#s8#, #a3#", "280 #honor#" };
 				{ 20, 46075, "", "=q4=Titan-Forged Waistguard of Triumph", "=ds=#s10#, #a3#", "280 #honor#" };
 				{ 21, 48983, "", "=q4=Titan-Forged Chain Leggings of Triumph", "=ds=#s11#, #a3#", "490 #honor#" };
-				{ 22, 44898, "", "=q4=Titan-Forged Sabatons of Triumph", "=ds=#s12#, #a3#", "280 #honor#" };	
+				{ 22, 44898, "", "=q4=Titan-Forged Sabatons of Triumph", "=ds=#s12#, #a3#", "280 #honor#" };
 				extraText = " - "..BabbleInventory["Mail"];
 			};
 			{
@@ -9252,7 +9250,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 21, 46072, "", "=q4=Titan-Forged Girdle of Triumph", "=ds=#s10#, #a4#", "280 #honor#" };
 				{ 22, 48993, "", "=q4=Titan-Forged Plate Legguards of Triumph", "=ds=#s11#, #a4#", "490 #honor#" };
 				{ 23, 44895, "", "=q4=Titan-Forged Greaves of Triumph", "=ds=#s12#, #a4#", "280 #honor#" };
-				extraText = " - "..BabbleInventory["Plate"];				
+				extraText = " - "..BabbleInventory["Plate"];
 			};
 			{
 				{ 1, 44066, "", "=q4=Kharmaa's Grace", "=ds=#e7#", "165 #honor#"};
@@ -9280,8 +9278,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 25, 41728, "", "=q3=Design: Stormy Sky Sapphire", "=ds=#p12# (390)", "19 #honor#"};
 				{ 26, 41742, "", "=q3=Design: Enigmatic Skyflare Diamond", "=ds=#p12# (420)", "38 #honor#"};
 				{ 27, 41743, "", "=q3=Design: Forlorn Skyflare Diamond", "=ds=#p12# (420)", "38 #honor#"};
-				{ 28, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "38 #honor#"};		
-				extraText = " - "..AL["PVP Gems/Enchants/Jewelcrafting Designs"];	
+				{ 28, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "38 #honor#"};
+				extraText = " - "..AL["PVP Gems/Enchants/Jewelcrafting Designs"];
 			};
 			{
 				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "2175 #honor#"};
@@ -9298,8 +9296,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "3500 #honor#"};
 				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "2725 #honor#"};
 				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "3500 #honor#"};
-				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};	
-				extraText = " - "..AL["Heirloom"];	
+				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};
+				extraText = " - "..AL["Heirloom"];
 			};
 		};
 		info = {
@@ -9699,7 +9697,7 @@ local moduleName = "AtlasLootWotLK"
 			module = moduleName, menu = "T7T8SET",
 		};
 	}
-	
+
 	AtlasLoot_Data["NaxxPriestShadow"] = {
 		["Normal"] = {
 			{
@@ -9975,7 +9973,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
 			module = moduleName, menu = "T7T8SET",
 		};
 	}
@@ -10061,7 +10059,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48495, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48491, "", "=q4=Koltira's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48492, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48494, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48494, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -10112,7 +10110,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48552, "", "=q4=Koltira's Pauldrons of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48548, "", "=q4=Koltira's Chestguard of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48549, "", "=q4=Koltira's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48551, "", "=q4=Koltira's Legguards of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -10163,7 +10161,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48147, "", "=q4=Runetotem's Spaulders of Triumph", "=ds=#s3#, #a2#"};
 				{ 19, 48146, "", "=q4=Runetotem's Robe of Triumph", "=ds=#s5#, #a2#"};
 				{ 20, 48143, "", "=q4=Runetotem's Handguards of Triumph", "=ds=#s9#, #a2#"};
-				{ 21, 48145, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a2#"};			
+				{ 21, 48145, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -10214,7 +10212,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48198, "", "=q4=Runetotem's Shoulderpads of Triumph", "=ds=#s3#, #a2#"};
 				{ 19, 48199, "", "=q4=Runetotem's Raiments of Triumph", "=ds=#s5#, #a2#"};
 				{ 20, 48202, "", "=q4=Runetotem's Handgrips of Triumph", "=ds=#s9#, #a2#"};
-				{ 21, 48200, "", "=q4=Runetotem's Legguards of Triumph", "=ds=#s11#, #a2#"};			
+				{ 21, 48200, "", "=q4=Runetotem's Legguards of Triumph", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -10222,7 +10220,7 @@ local moduleName = "AtlasLootWotLK"
 			module = moduleName, menu = "T9SET",
 		};
 	}
-	
+
 	AtlasLoot_Data["T9DruidBalance"] = {
 		["Normal_A"] = {
 			{
@@ -10265,7 +10263,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48177, "", "=q4=Runetotem's Mantle of Triumph", "=ds=#s3#, #a2#"};
 				{ 19, 48176, "", "=q4=Runetotem's Vestments of Triumph", "=ds=#s5#, #a2#"};
 				{ 20, 48173, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a2#"};
-				{ 21, 48175, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a2#"};			
+				{ 21, 48175, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -10316,7 +10314,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48269, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
 				{ 19, 48265, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#"};
 				{ 20, 48266, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#"};
-				{ 21, 48268, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};			
+				{ 21, 48268, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -10367,7 +10365,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 47767, "", "=q4=Sunstrider's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
 				{ 19, 47766, "", "=q4=Sunstrider's Robe of Triumph", "=ds=#s5#, #a1#"};
 				{ 20, 47763, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a1#"};
-				{ 21, 47765, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#"};			
+				{ 21, 47765, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#"};
 			};
 		};
 		info = {
@@ -10418,7 +10416,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48585, "", "=q4=Liadrin's Spaulders of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48589, "", "=q4=Liadrin's Tunic of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48588, "", "=q4=Liadrin's Gloves of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48586, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48586, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -10469,7 +10467,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48621, "", "=q4=Liadrin's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48617, "", "=q4=Liadrin's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48618, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48620, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48620, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -10520,7 +10518,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48647, "", "=q4=Liadrin's Shoulderguards of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48651, "", "=q4=Liadrin's Breastplate of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48650, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48648, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48648, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -10571,7 +10569,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48091, "", "=q4=Zabra's Mantle of Triumph", "=ds=#s3#, #a1#"};
 				{ 19, 48090, "", "=q4=Zabra's Raiments of Triumph", "=ds=#s5#, #a1#"};
 				{ 20, 48087, "", "=q4=Zabra's Handwraps of Triumph", "=ds=#s9#, #a1#"};
-				{ 21, 48089, "", "=q4=Zabra's Pants of Triumph", "=ds=#s11#, #a1#"};			
+				{ 21, 48089, "", "=q4=Zabra's Pants of Triumph", "=ds=#s11#, #a1#"};
 			};
 		};
 		info = {
@@ -10622,7 +10620,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48061, "", "=q4=Zabra's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
 				{ 19, 48060, "", "=q4=Zabra's Robe of Triumph", "=ds=#s5#, #a1#"};
 				{ 20, 48057, "", "=q4=Zabra's Gloves of Triumph", "=ds=#s9#, #a1#"};
-				{ 21, 48059, "", "=q4=Zabra's Leggings of Triumph", "=ds=#s11#, #a1#"};			
+				{ 21, 48059, "", "=q4=Zabra's Leggings of Triumph", "=ds=#s11#, #a1#"};
 			},
 		};
 		info = {
@@ -10673,7 +10671,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48237, "", "=q4=Garona's Pauldrons of Triumph", "=ds=#s3#, #a2#"};
 				{ 19, 48233, "", "=q4=Garona's Breastplate of Triumph", "=ds=#s5#, #a2#"};
 				{ 20, 48234, "", "=q4=Garona's Gauntlets of Triumph", "=ds=#s9#, #a2#"};
-				{ 21, 48236, "", "=q4=Garona's Legplates of Triumph", "=ds=#s11#, #a2#"};			
+				{ 21, 48236, "", "=q4=Garona's Legplates of Triumph", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -10724,7 +10722,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48330, "", "=q4=Thrall's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
 				{ 19, 48326, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#"};
 				{ 20, 48327, "", "=q4=Thrall's Gloves of Triumph", "=ds=#s9#, #a3#"};
-				{ 21, 48329, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#"};			
+				{ 21, 48329, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -10775,7 +10773,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48360, "", "=q4=Thrall's Shoulderguards of Triumph", "=ds=#s3#, #a3#"};
 				{ 19, 48356, "", "=q4=Thrall's Chestguard of Triumph", "=ds=#s5#, #a3#"};
 				{ 20, 48357, "", "=q4=Thrall's Grips of Triumph", "=ds=#s9#, #a3#"};
-				{ 21, 48359, "", "=q4=Thrall's War-Kilt of Triumph", "=ds=#s11#, #a3#"};			
+				{ 21, 48359, "", "=q4=Thrall's War-Kilt of Triumph", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -10826,7 +10824,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48309, "", "=q4=Thrall's Spaulders of Triumph", "=ds=#s3#, #a3#"};
 				{ 19, 48305, "", "=q4=Thrall's Tunic of Triumph", "=ds=#s5#, #a3#"};
 				{ 20, 48306, "", "=q4=Thrall's Handguards of Triumph", "=ds=#s9#, #a3#"};
-				{ 21, 48308, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#"};			
+				{ 21, 48308, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -10877,7 +10875,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 47793, "", "=q4=Gul'dan's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
 				{ 19, 47794, "", "=q4=Gul'dan's Robe of Triumph", "=ds=#s5#, #a1#"};
 				{ 20, 47797, "", "=q4=Gul'dan's Gloves of Triumph", "=ds=#s9#, #a1#"};
-				{ 21, 47795, "", "=q4=Gul'dan's Leggings of Triumph", "=ds=#s11#, #a1#"};			
+				{ 21, 47795, "", "=q4=Gul'dan's Leggings of Triumph", "=ds=#s11#, #a1#"};
 			};
 		};
 		info = {
@@ -10928,11 +10926,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48400, "", "=q4=Hellscream's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48396, "", "=q4=Hellscream's Battleplate of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48397, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48399, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48399, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
 			module = moduleName, menu = "T9SET",
 		};
 	}
@@ -10979,7 +10977,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 48470, "", "=q4=Hellscream's Pauldrons of Triumph", "=ds=#s3#, #a4#"};
 				{ 19, 48466, "", "=q4=Hellscream's Breastplate of Triumph", "=ds=#s5#, #a4#"};
 				{ 20, 48467, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 21, 48469, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};			
+				{ 21, 48469, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -11509,7 +11507,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
 			module = moduleName, menu = "T10SET",
 		};
 	}
@@ -11595,7 +11593,7 @@ local moduleName = "AtlasLootWotLK"
 
 		----------------------
 		--- Heirloom Items ---
-		----------------------		
+		----------------------
 
 	AtlasLoot_Data["Heirloom"] = {
 		["Normal"] = {
@@ -11639,7 +11637,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "3500 #honor#"};
 				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "2725 #honor#"};
 				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "3500 #honor#"};
-				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};			
+				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};
 			};
 		};
 		info = {
@@ -11692,7 +11690,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 21, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "348 #justice#"};
 				{ 22, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "348 #justice#"};
 				{ 23, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "348 #justice#"};
-				{ 24, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "348 #justice#"};		
+				{ 24, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "348 #justice#"};
 			};
 			{
 				{ 1, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "550 #justice#"};
@@ -11709,7 +11707,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 36931, "", "=q4=Ametrine", "=ds=#e7#", "110 #justice#" };
 				{ 20, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "110 #justice#" };
 				{ 21, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "110 #justice#" };
-				{ 23, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "110 #justice#"};			
+				{ 23, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "110 #justice#"};
 			};
 		};
 		info = {
@@ -11832,7 +11830,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 24, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#", "405 #justice#" };
 				{ 25, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#", "405 #justice#" };
 				{ 26, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#", "405 #justice#" };
-				{ 28, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "186 #justice#" };			
+				{ 28, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "186 #justice#" };
 			};
 		};
 		info = {
@@ -11887,7 +11885,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 24, 47675, "", "=q4=Faceplate of Thunderous Rampage", "=ds=#s1#, #a4#", "935 #justice#" };
 				{ 25, 47701, "", "=q4=Shoulderplates of the Cavalier", "=ds=#s3#, #a4#", "591 #justice#" };
 				{ 26, 47696, "", "=q4=Shoulderplates of Trembling Rage", "=ds=#s3#, #a4#", "591 #justice#" };
-				{ 27, 47699, "", "=q4=Shoulderguards of Enduring Order", "=ds=#s3#, #a4#", "591 #justice#" };			
+				{ 27, 47699, "", "=q4=Shoulderguards of Enduring Order", "=ds=#s3#, #a4#", "591 #justice#" };
 			};
 		};
 		info = {
@@ -11976,7 +11974,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 50355, "", "=q4=Herkuml War Token", "=ds=#s14#", "695 #justice#" };
 				{ 9, 50357, "", "=q4=Maghia's Misguided Quill", "=ds=#s14#", "695 #justice#" };
 				{ 10, 50358, "", "=q4=Purified Lunar Dust", "=ds=#s14#", "695 #justice#" };
-				{ 12, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "347 #justice#" };			
+				{ 12, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "347 #justice#" };
 				{ 16, 50456, "", "=q4=Idol of the Crying Moon", "=ds=#s16#", "347 #justice#" };
 				{ 17, 50457, "", "=q4=Idol of the Lunar Eclipse", "=ds=#s16#", "347 #justice#" };
 				{ 18, 50454, "", "=q4=Idol of the Black Willow", "=ds=#s16#", "347 #justice#" };

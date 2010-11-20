@@ -166,7 +166,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheRuinsofAhnQiraj",
 		};
 	};
-	
+
 	AtlasLoot_Data["AQ20Buru"] = {
 		["Normal"] = {
 			{
@@ -278,7 +278,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheRuinsofAhnQiraj",
 		};
 	};
-    
+
 		------------------------------------------
 		--- Ahn'Qiraj: The Temple of Ahn'Qiraj ---
 		------------------------------------------
@@ -509,7 +509,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheTempleofAhnQiraj",
 		};
 	};
-    
+
 	AtlasLoot_Data["AQ40Ouro"] = {
 		["Normal"] = {
 			{
@@ -537,7 +537,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheTempleofAhnQiraj",
 		};
 	};
-    
+
 	AtlasLoot_Data["AQ40CThun"] = {
 		["Normal"] = {
 			{
@@ -572,7 +572,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheTempleofAhnQiraj",
 		};
 	};
-    
+
 	AtlasLoot_Data["AQ40Trash"] = {
 		["Normal"] = {
 			{
@@ -1122,7 +1122,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
-    
+
 		-----------------------------------
 		--- Blackrock Mountain: Entrance ---
 		-----------------------------------
@@ -3042,7 +3042,7 @@ local moduleName = "AtlasLootClassicWoW"
 		----------------------
 		--- Razorfen Kraul ---
 		----------------------
-		
+
 	AtlasLoot_Data["RazorfenKraulLoot"] = {
 		["Normal"] = {
 			{
@@ -4132,7 +4132,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["STRATBaronRivendare"] = {
 		["Normal"] = {
 			{
-				{ 1, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%"}; ---drop rate according to blue
+				{ 1, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%"};
 				{ 2, 13335, "", "=q4=Deathcharger's Reins", "=ds=#e26#", "", "0.10%"};
 				{ 4, 13340, "", "=q3=Cape of the Black Baron", "=ds=#s4#", "", "8.75%"};
 				{ 5, 22412, "", "=q3=Thuzadin Mantle", "=ds=#s3#, #a1#", "", "4.16%"};
@@ -4246,7 +4246,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
---Old VC loot table
+--Old VC loot table / do we keep this or remove this?
 --[[	AtlasLoot_Data["Deadmines"] = {
 		["Normal"] = {
 			{
@@ -4297,7 +4297,6 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};]]--
-
 
 		---------------------
 		--- The Deadmines ---
@@ -6671,7 +6670,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 20, 19518, "", "=q3=Advisor's Ring", "=ds=", "55 #honor#", ""};
 				{ 22, 20429, "", "=q3=Legionnaire's Band", "=ds=", "20 #honor#", ""};
 				{ 23, 19513, "", "=q3=Legionnaire's Band", "=ds=", "25 #honor#", ""};
-				{ 24, 19512, "", "=q3=Legionnaire's Band", "=ds=", "35 #honor#", ""};		
+				{ 24, 19512, "", "=q3=Legionnaire's Band", "=ds=", "35 #honor#", ""};
 				{ 25, 19511, "", "=q3=Legionnaire's Band", "=ds=", "45 #honor#", ""};
 				{ 26, 19510, "", "=q3=Legionnaire's Band", "=ds=", "55 #honor#", ""};
 				{ 28, 21566, "", "=q3=Rune of Perfection", "=ds=", "20 #honor#", ""};
@@ -6744,7 +6743,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 19597, "", "=q4=Dryad's Wrist Bindings", "=ds=", "55 #honor#", ""};
 				{ 2, 19596, "", "=q4=Dryad's Wrist Bindings", "=ds=", "65 #honor#", ""};
-				{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "85 #honor#", ""};	
+				{ 3, 19595, "", "=q4=Dryad's Wrist Bindings", "=ds=", "85 #honor#", ""};
 				{ 5, 19590, "", "=q4=Forest Stalker's Bracers", "=ds=", "55 #honor#", ""};
 				{ 6, 19589, "", "=q4=Forest Stalker's Bracers", "=ds=", "65 #honor#", ""};
 				{ 7, 19587, "", "=q4=Forest Stalker's Bracers", "=ds=", "85 #honor#", ""};
@@ -6754,13 +6753,13 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 13, 19581, "", "=q4=Berserker Bracers", "=ds=", "55 #honor#", ""};
 				{ 14, 19580, "", "=q4=Berserker Bracers", "=ds=", "65 #honor#", ""};
 				{ 15, 19578, "", "=q4=Berserker Bracers", "=ds=", "85 #honor#", ""};
-				{ 16, 22752, "", "=q4=Sentinel's Silk Leggings", "=ds=", "105 #honor#", ""};	
+				{ 16, 22752, "", "=q4=Sentinel's Silk Leggings", "=ds=", "105 #honor#", ""};
 				{ 18, 22749, "", "=q4=Sentinel's Leather Pants", "=ds=", "105 #honor#", ""};
 				{ 19, 22750, "", "=q4=Sentinel's Lizardhide Pants", "=ds=", "105 #honor#", ""};
 				{ 21, 22748, "", "=q4=Sentinel's Chain Leggings", "=ds=", "105 #honor#", ""};
 				{ 22, 30497, "", "=q4=Sentinel's Mail Leggings", "=ds=", "105 #honor#", ""};
 				{ 24, 22753, "", "=q4=Sentinel's Lamellar Legguards", "=ds=", "105 #honor#", ""};
-				{ 25, 22672, "", "=q4=Sentinel's Plate Legguards", "=ds=", "105 #honor#", ""};	
+				{ 25, 22672, "", "=q4=Sentinel's Plate Legguards", "=ds=", "105 #honor#", ""};
 			};
 		};
 		["Normal_H"] = {
@@ -7533,7 +7532,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 16, 0, "INV_QirajIdol_Amber", "=q6=#j8#", ""};
 				{ 17, 21190, "", "=q4=Wrath of Cenarius", "=ds=#s13#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#"};
 				{ 18, 21180, "", "=q4=Earthstrike", "=ds=#s14#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#"};
-				{ 19, 21188, "", "=q4=Fist of Cenarius", "=ds=#h2#, #w6#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#", "", ""};			
+				{ 19, 21188, "", "=q4=Fist of Cenarius", "=ds=#h2#, #w6#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#", "", ""};
 			};
 		};
 		info = {
@@ -7775,7 +7774,7 @@ local moduleName = "AtlasLootClassicWoW"
 		----------------------------------------
 		--- Stormpike Guard & Frostwolf Clan ---
 		----------------------------------------
-		
+
 	AtlasLoot_Data["AlteracFactions"] = {
 		["Normal"] = {
 			{
@@ -7873,7 +7872,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 19211, "", "=q1=Plans: Blackguard", "=ds=#p2# (300)"};
 				{ 18, 20040, "", "=q1=Plans: Dark Iron Boots", "=ds=#p2# (300)"};
 				{ 19, 19210, "", "=q1=Plans: Ebon Hand", "=ds=#p2# (300)"};
-				{ 20, 19212, "", "=q1=Plans: Nightfall", "=ds=#p2# (300)"};			
+				{ 20, 19212, "", "=q1=Plans: Nightfall", "=ds=#p2# (300)"};
 			};
 		};
 		info = {
@@ -7974,6 +7973,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	}
 
+--gone?
 		----------------------
 		--- Zandalar Tribe ---
 		----------------------

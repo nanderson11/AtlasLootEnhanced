@@ -2680,7 +2680,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
 			module = moduleName, menu = "T11SET",
 		};
 	}
@@ -3108,12 +3108,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 63398, "", "=q3=Armadillo Pup", "=q2="..AL["Critter Kill Squad"]};
 				{ 3, 63138, "", "=q3=Dark Phoenix Hatchling", "=q2="..AL["United Nations"]};
 				{
-					{ 4, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"]};
-					{ 4, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"]};
+					{ 4, 65363, "", "=q3=Guild Herald", "=q2="..AL["Horde Slayer"].."  =ec1="..BabbleFaction["Alliance"]};
+					{ 4, 65364, "", "=q3=Guild Herald", "=q2="..AL["Alliance Slayer"].."  =ec1="..BabbleFaction["Horde"]};
 				};
 				{
-					{ 5, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
-					{ 5, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"]};
+					{ 5, 65361, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"].."  =ec1="..BabbleFaction["Alliance"]};
+					{ 5, 65362, "", "=q3=Guild Page", "=q2="..AL["Profit Sharing"].."  =ec1="..BabbleFaction["Horde"]};
 				};
 				{ 6, 44738, "", "=q3=Kirin Tor Familiar", "=q2="..AL["Higher Learning"]};
 				{ 7, 44841, "", "=q3=Little Fawn's Salt Lick", "=q2="..AL["Lil' Game Hunter"]};
@@ -3129,8 +3129,8 @@ local moduleName = "AtlasLootCataclysm"
 					{ 19, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
 				};
 				{
-					{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Sunreavers"]};
-					{ 20, 46820, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Silver Covenant"]};
+					{ 20, 46821, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Sunreavers"].."  =ec1="..BabbleFaction["Horde"]};
+					{ 20, 46820, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Silver Covenant"].."  =ec1="..BabbleFaction["Alliance"]};
 				};
 				{ 21, 34478, "", "=q3=Tiny Sporebat", "=ds="..BabbleFaction["Sporeggar"]};
 				{ 22, 39898, "", "=q1=Cobra Hatchling", "=ds="..BabbleFaction["The Oracles"]};
