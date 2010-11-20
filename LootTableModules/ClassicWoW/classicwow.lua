@@ -4841,8 +4841,10 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 9243, "", "=q3=Shriveled Troll Heart", "=ds=#s2#"};
 				{ 4, 862, "", "=q3=Runed Ring", "=ds=#s13# =q2=#m16#", "", "0.02%"};
 				{ 5, 6440, "", "=q3=Brainlash", "=ds=#s13#", "", "0.01%"};
-				{ 7, 9523, "", "=q1=Troll Temper", "=ds=#m3#"};
-				{ 8, 9238, "", "=q1=Uncracked Scarab Shell", "=ds=#m3#"};
+				--{ 7, 9523, "", "=q1=Troll Temper", "=ds=#m3#"};
+				{ 7, 9523, "", "=q1=Troll Temper", "#QUESTID:3042#"};
+				{ 8, 9238, "", "=q1=Uncracked Scarab Shell", "#QUESTID:2865#"};
+				--{ 8, 9238, "", "=q1=Uncracked Scarab Shell", "=ds=#m3#"};
 				{ 16, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.01%"};
 				{ 17, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.01%"};
 				{ 18, 9481, "", "=q3=The Minotaur", "=ds=#h2#, #w1#", "", "0.01%"};

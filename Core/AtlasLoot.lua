@@ -1331,6 +1331,28 @@ do
 		AtlasLootScanTooltip:Hide()
 		return maxLvl
 	end
+	
+	--/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hquest:5090:50\124h[A Call to Arms: The Plaguelands!]\124h\124r");
+	function AtlasLoot:GetQuestName(questID)
+		if not questID then return end
+		local questName
+		AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
+		AtlasLootScanTooltip:ClearLines();
+		AtlasLootScanTooltip:SetHyperlink("quest:"..questID);
+		AtlasLootScanTooltip:Show()
+		
+		local lastTime = GetTime()
+		while not questName or questName == "" do
+			questName = _G["AtlasLootScanTooltipTextLeft1"]:GetText()
+			if (GetTime() - lastTime) > 0.02 then
+				break
+			end
+		end
+		
+		AtlasLootScanTooltip:Hide()
+		
+		return questName or "", questLink
+	end
 end
 
 function AtlasLoot:CreateCompareFrame()

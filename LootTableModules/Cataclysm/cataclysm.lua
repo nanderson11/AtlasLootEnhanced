@@ -3654,7 +3654,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "=q2="..AL["Glory of the Ulduar Raider (25 player)"]..", =q1="..BabbleZone["Ulduar"]};
 				{ 9, 44160, "", "=q4=Reins of the Red Proto-Drake", "=q2="..AL["Glory of the Hero"]};
 				{ 10, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "=q2="..AL["Glory of the Ulduar Raider (10 player)"]..", =q1="..BabbleZone["Ulduar"]};
-				{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "=q2="..AL["What A Long, Strange Trip It's Been"]};
+				--{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "=q2="..AL["What A Long, Strange Trip It's Been"]};
+				{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
 				{ 12, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "=q2="..AL["Glory of the Cataclysm Hero"]};
 				{ 16, 49098, "", "=q4=Crusader's Black Warhorse", "=q2="..AL["A Tribute to Immortality"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1="..BabbleFaction["Horde"]};
 				{ 17, 49096, "", "=q4=Crusader's White Warhorse", "=q2="..AL["A Tribute to Immortality"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1="..BabbleFaction["Alliance"]};

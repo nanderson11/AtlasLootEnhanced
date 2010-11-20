@@ -98,7 +98,33 @@ do
 		itemButton.Frame.Extra:SetText("")
 		itemButton.Frame.Extra:SetWidth(205)
 		itemButton.Frame.Extra:SetHeight(10)
-
+		
+		-- Extra text for Quests/Achievements
+		itemButton.Frame.QA = CreateFrame("Button", name.."_QA", itemButton.Frame)
+		itemButton.Frame.QA:SetWidth(205)
+		itemButton.Frame.QA:SetHeight(14)
+		itemButton.Frame.QA:SetPoint("TOPLEFT", itemButton.Frame.Name, "BOTTOMLEFT", 0, -1)
+		itemButton.Frame.QA:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+		itemButton.Frame.QA:RegisterForClicks("LeftButtonDown", "RightButtonDown")	
+		
+		itemButton.Frame.QA.ExtraIcon = itemButton.Frame.QA:CreateTexture(name.."_QAExtraIcon", "OVERLAY")
+		itemButton.Frame.QA.ExtraIcon:SetPoint("TOPLEFT", itemButton.Frame.QA, "TOPLEFT", 0, -1)
+		itemButton.Frame.QA.ExtraIcon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
+		itemButton.Frame.QA.ExtraIcon:SetHeight(10)
+		itemButton.Frame.QA.ExtraIcon:SetWidth(10)
+		
+		--- text
+		itemButton.Frame.QA.ExtraText = itemButton.Frame.QA:CreateFontString(name.."_QAExtraText", "ARTWORK", "GameFontNormalSmall")
+		itemButton.Frame.QA.ExtraText:SetPoint("TOPLEFT", itemButton.Frame.QA, "TOPLEFT", 10, -1)
+		itemButton.Frame.QA.ExtraText:SetJustifyH("LEFT")
+		itemButton.Frame.QA.ExtraText:SetText("TEST")
+		itemButton.Frame.QA.ExtraText:SetWidth(205)
+		itemButton.Frame.QA.ExtraText:SetHeight(10)
+		
+		itemButton.Frame.QA:SetScript("OnEnter", AtlasLoot.QAItemOnEnter)
+		itemButton.Frame.QA:SetScript("OnLeave", AtlasLoot.QAItemOnLeave)
+		itemButton.Frame.QA:SetScript("OnClick", AtlasLoot.QAItemOnClick)
+		
 		-- Unsafe <texture>
 		itemButton.Frame.Unsafe = itemButton.Frame:CreateTexture(name.."_Unsafe", "BACKGROUND")
 		itemButton.Frame.Unsafe:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT")
@@ -154,10 +180,25 @@ end
 -- Set functions
 do
 	local dummyIcon = "Interface\\Icons\\INV_Misc_QuestionMark"
+	local questIcon = "Interface\\MINIMAP\\TRACKING\\TrivialQuests"
+	local achievementIcon = "Interface\\Icons\\INV_Misc_QuestionMark"
+	
 	-- Create and returns the editet extra Text
 	local function GetItemExtraText(itemID, extraText, price, itemName)
-		local tempText = ""
-		if extraText and price and price ~= "" then
+		local tempText, isQuest, isAchievement = nil, nil, nil
+		if extraText and string.find(extraText, "#QUESTID:%d+#") then
+			_,_,isQuest = string.find(extraText, "#QUESTID:(%d+)#")
+			tempText = AtlasLoot:GetQuestName(isQuest)
+			tempText = "|cffFFFFFF"..tempText
+			tempText = tempText..gsub(extraText, "#QUESTID:%d+#", "")
+		elseif extraText and string.find(extraText, "#ACHIEVEMENTID:%d+#") then
+			_,_,isAchievement = string.find(extraText, "#ACHIEVEMENTID:(%d+)#")
+			tempText = select(2,GetAchievementInfo(isAchievement))
+			tempText = "|cff1eff00"..tempText
+			tempText = tempText..gsub(extraText, "#ACHIEVEMENTID:%d+#", "")
+		end
+
+		if not tempText and extraText and price and price ~= "" then
 			-- lengh < 70  = standart
 			-- this adds the ItemPrice to the Extratext if its not to long
 			if AtlasLoot.db.profile.ShowPriceAndDesc and price ~= "=ds=" and price ~= "" then
@@ -192,16 +233,16 @@ do
 					tempText = extraText
 				end
 			end
-		elseif price and price ~= "" then
+		elseif not tempText and price and price ~= "" then
 			tempText = price
-		elseif extraText then
+		elseif not tempText and extraText then
 			tempText = extraText
-		elseif not extraText and itemName then
+		elseif not tempText and not extraText and itemName then
 			tempText = AtlasLoot:GetItemEquipInfo(itemID)
 		end
 		
 		tempText = AtlasLoot:FixText(tempText)
-		return tempText
+		return tempText or "", isQuest, isAchievement
 	end
 
 	--- Sets a item to the button
@@ -249,10 +290,28 @@ do
 		-- ########################
 		-- extraText and itemPrice
 		-- ########################
-		tempText = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
+		local isQuest, isAchievement
+		tempText, isQuest, isAchievement = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
 		
-		self.Frame.Extra:SetText(tempText)
-		self.Frame.Extra:Show()
+		if isQuest then
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.questID = isQuest
+			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
+			self.Frame.QA.ExtraText:SetText(tempText)
+		elseif isAchievement then
+			local img = select(10, GetAchievementInfo(isAchievement))
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.achievementID = isAchievement
+			self.Frame.QA.ExtraIcon:SetTexture(img or achievementIcon)
+			self.Frame.QA.ExtraText:SetText(tempText)	
+		else
+			self.Frame.QA:Hide()
+			self.Frame.Extra:SetText(tempText)
+			self.Frame.Extra:Show()		
+		end
+		
 		tempText = ""
 		
 		-- ########################
@@ -327,10 +386,27 @@ do
 		-- ########################
 		-- extraText and itemPrice
 		-- ########################
-		tempText = GetItemExtraText(itemID, extraText, itemPrice, spellNameNew)
+		local isQuest, isAchievement
+		tempText, isQuest, isAchievement = GetItemExtraText(itemID, extraText, itemPrice, spellNameNew)
 		
-		self.Frame.Extra:SetText(tempText)
-		self.Frame.Extra:Show()
+		if isQuest then
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.questID = isQuest
+			self.Frame.QA.ExtraIcon = questIcon
+			self.Frame.QA.ExtraText:SetText(tempText)
+		elseif isAchievement then
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.achievementID = isAchievement
+			self.Frame.QA.ExtraIcon = achievementIcon
+			self.Frame.QA.ExtraText:SetText(tempText)	
+		else
+			self.Frame.QA:Hide()
+			self.Frame.Extra:SetText(tempText)
+			self.Frame.Extra:Show()		
+		end
+		
 		tempText = ""
 		
 		-- ########################
@@ -390,6 +466,7 @@ do
 		-- ########################
 		tempText = AtlasLoot:FixText(tabExtraText or "")
 		
+		self.Frame.QA:Hide()
 		self.Frame.Extra:SetText(tempText)
 		self.Frame.Extra:Show()
 		tempText = ""
@@ -434,6 +511,7 @@ do
 		-- ########################
 		tempText = AtlasLoot:FixText(extraText or "")
 		
+		self.Frame.QA:Hide()
 		self.Frame.Extra:SetText(tempText)
 		self.Frame.Extra:Show()
 		tempText = ""
@@ -593,6 +671,61 @@ function AtlasLoot:AddItemButtonTemplateFunc(func, name)
 	if not func or not name or type(func) ~= "function" then return end
 	if not AltasLootItemButton[name] then
 		AltasLootItemButton[name] = func
+	end
+end
+
+-----------------------------
+-- Quests/Achievements Script functions
+-----------------------------
+function AtlasLoot:QAItemOnEnter()
+	if not AtlasLootTooltip then AtlasLoot:SetupTooltip() end
+	AtlasLootTooltip:ClearLines();
+	for i=1, 30, 1 do
+		if (_G["AtlasLootTooltipTextRight"..i] ~= nil) then
+			_G["AtlasLootTooltipTextRight"..i]:SetText("");
+		end
+	end
+	
+	local questID = self.questID
+	local achievementID = self.achievementID
+	
+	if questID then
+		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
+		AtlasLootTooltip:SetHyperlink("quest:"..questID)
+		AtlasLootTooltip:Show();
+	elseif achievementID then
+		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
+		AtlasLootTooltip:SetHyperlink(GetAchievementLink(achievementID))
+		AtlasLootTooltip:Show();
+	end
+end
+
+function AtlasLoot:QAItemOnLeave()
+	AtlasLootTooltip:Hide()
+	GameTooltip:Hide()
+	ShoppingTooltip2:Hide()
+	ShoppingTooltip1:Hide()
+end
+
+function AtlasLoot:QAItemOnClick(arg1)
+	if IsShiftKeyDown() then
+		local questID = self.questID
+		local achievementID = self.achievementID
+		local link
+		if questID then
+			link = "|cffffff00|Hquest:"..questID.."|h["..AtlasLoot:GetQuestName(questID).."]|h|r"
+			--/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hquest:2969:47\124h[Freedom for All Creatures]\124h\124r");
+			--http://www.wowpedia.org/QuestLink
+		elseif achievementID then
+			link = GetAchievementLink(achievementID)
+		end
+		if link then
+			if ChatFrameEditBox and ChatFrameEditBox:IsVisible() then
+				ChatFrameEditBox:Insert(link)
+			else
+				ChatEdit_InsertLink(link)
+			end
+		end
 	end
 end
 
