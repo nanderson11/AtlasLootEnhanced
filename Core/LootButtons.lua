@@ -115,7 +115,7 @@ do
 		
 		--- text
 		itemButton.Frame.QA.ExtraText = itemButton.Frame.QA:CreateFontString(name.."_QAExtraText", "ARTWORK", "GameFontNormalSmall")
-		itemButton.Frame.QA.ExtraText:SetPoint("TOPLEFT", itemButton.Frame.QA, "TOPLEFT", 10, -1)
+		itemButton.Frame.QA.ExtraText:SetPoint("TOPLEFT", itemButton.Frame.QA, "TOPLEFT", 12, -1)
 		itemButton.Frame.QA.ExtraText:SetJustifyH("LEFT")
 		itemButton.Frame.QA.ExtraText:SetText("TEST")
 		itemButton.Frame.QA.ExtraText:SetWidth(205)
@@ -181,7 +181,7 @@ end
 do
 	local dummyIcon = "Interface\\Icons\\INV_Misc_QuestionMark"
 	local questIcon = "Interface\\MINIMAP\\TRACKING\\TrivialQuests"
-	local achievementIcon = "Interface\\Icons\\INV_Misc_QuestionMark"
+	local achievementIcon = "Interface\\ACHIEVEMENTFRAME\\UI-Achievement-TinyShield"
 	
 	-- Create and returns the editet extra Text
 	local function GetItemExtraText(itemID, extraText, price, itemName)
@@ -190,12 +190,16 @@ do
 			_,_,isQuest = string.find(extraText, "#QUESTID:(%d+)#")
 			tempText = AtlasLoot:GetQuestName(isQuest)
 			tempText = "|cffFFFFFF"..tempText
-			tempText = tempText..gsub(extraText, "#QUESTID:%d+#", "")
+			tempText = gsub(extraText, "#QUESTID:%d+#", tempText)
 		elseif extraText and string.find(extraText, "#ACHIEVEMENTID:%d+#") then
 			_,_,isAchievement = string.find(extraText, "#ACHIEVEMENTID:(%d+)#")
-			tempText = select(2,GetAchievementInfo(isAchievement))
+			if GetAchievementLink(isAchievement) then
+				tempText = select(2,GetAchievementInfo(isAchievement))
+			else
+				tempText = "ID:"..isAchievement.." not found"
+			end
 			tempText = "|cff1eff00"..tempText
-			tempText = tempText..gsub(extraText, "#ACHIEVEMENTID:%d+#", "")
+			tempText = gsub(extraText, "#ACHIEVEMENTID:%d+#", tempText)
 		end
 
 		if not tempText and extraText and price and price ~= "" then
@@ -298,14 +302,19 @@ do
 			self.Frame.QA:Show()
 			self.Frame.QA.questID = isQuest
 			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
+			self.Frame.QA.ExtraIcon:SetWidth(10)
+			self.Frame.QA.ExtraIcon:SetHeight(10)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 10, -1)
 			self.Frame.QA.ExtraText:SetText(tempText)
 		elseif isAchievement then
-			local img = select(10, GetAchievementInfo(isAchievement))
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
 			self.Frame.QA.achievementID = isAchievement
-			self.Frame.QA.ExtraIcon:SetTexture(img or achievementIcon)
-			self.Frame.QA.ExtraText:SetText(tempText)	
+			self.Frame.QA.ExtraIcon:SetTexture(achievementIcon)
+			self.Frame.QA.ExtraIcon:SetWidth(20)
+			self.Frame.QA.ExtraIcon:SetHeight(20)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -1)
+			self.Frame.QA.ExtraText:SetText(tempText)		
 		else
 			self.Frame.QA:Hide()
 			self.Frame.Extra:SetText(tempText)
@@ -393,14 +402,20 @@ do
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
 			self.Frame.QA.questID = isQuest
-			self.Frame.QA.ExtraIcon = questIcon
+			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
+			self.Frame.QA.ExtraIcon:SetWidth(10)
+			self.Frame.QA.ExtraIcon:SetHeight(10)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 10, -1)
 			self.Frame.QA.ExtraText:SetText(tempText)
 		elseif isAchievement then
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
 			self.Frame.QA.achievementID = isAchievement
-			self.Frame.QA.ExtraIcon = achievementIcon
-			self.Frame.QA.ExtraText:SetText(tempText)	
+			self.Frame.QA.ExtraIcon:SetTexture(achievementIcon)
+			self.Frame.QA.ExtraIcon:SetWidth(20)
+			self.Frame.QA.ExtraIcon:SetHeight(20)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -1)
+			self.Frame.QA.ExtraText:SetText(tempText)		
 		else
 			self.Frame.QA:Hide()
 			self.Frame.Extra:SetText(tempText)
@@ -693,7 +708,7 @@ function AtlasLoot:QAItemOnEnter()
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 		AtlasLootTooltip:SetHyperlink("quest:"..questID)
 		AtlasLootTooltip:Show();
-	elseif achievementID then
+	elseif achievementID and GetAchievementLink(achievementID) then
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 		AtlasLootTooltip:SetHyperlink(GetAchievementLink(achievementID))
 		AtlasLootTooltip:Show();

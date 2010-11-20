@@ -1344,7 +1344,7 @@ do
 		local lastTime = GetTime()
 		while not questName or questName == "" do
 			questName = _G["AtlasLootScanTooltipTextLeft1"]:GetText()
-			if (GetTime() - lastTime) > 0.02 then
+			if (GetTime() - lastTime) > 0.05 then
 				break
 			end
 		end
