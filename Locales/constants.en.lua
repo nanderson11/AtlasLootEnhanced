@@ -122,7 +122,6 @@ if AL then
 	AL["Save wishlists at character DB"] = true;
 	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = true;
 	
-
 	-- Filter
 	AL["Filter"] = true;
 	AL["Select All Loot"] = true;
@@ -270,13 +269,13 @@ if AL then
 	AL["Set"] = true;
 	AL["Justice Points"] = true;
 	AL["Valor Points"] = true;
-	AL["Badge of Justice"] = true;
-	AL["Emblem Rewards"] = true;
-	AL["Emblem of Valor"] = true;
-	AL["Emblem of Heroism"] = true;
-	AL["Emblem of Conquest"] = true;
-	AL["Emblem of Triumph"] = true;
-	AL["Emblem of Frost"] = true;
+	AL["Badge of Justice"] = true; --should be removed
+	AL["Emblem Rewards"] = true; --should be removed
+	AL["Emblem of Valor"] = true; --should be removed
+	AL["Emblem of Heroism"] = true; --should be removed
+	AL["Emblem of Conquest"] = true; --should be removed
+	AL["Emblem of Triumph"] = true; --should be removed
+	AL["Emblem of Frost"] = true; --should be removed
 	AL["BoE World Epics"] = true;
 	AL["Legendary Items"] = true;
 	AL["Mounts"] = true;
