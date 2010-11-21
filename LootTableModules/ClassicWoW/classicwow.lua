@@ -5,6 +5,7 @@ local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootClassicWoW"
 
+
 -- Index WIP
 --- Dungeons & Raids
 ---- Keys
@@ -32,12 +33,55 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Shadowfang Keep
 ---- Stratholme - Crusader's Square
 ---- Stratholme - The Gauntlet
----- The Stockade
 ---- The Deadmines: Entrance
 ---- The Deadmines
+---- The Stockade
+---- The Sunken Temple
 ---- Uldaman
 ---- Wailing Caverns
 ---- Zul'Farrak
+--- Sets & Collections
+---- Dungeon 1 and 2 Sets (D1/D2)
+---- Tier 1/2 Sets (T1/T2)
+---- Tier 3 Sets (T3)
+---- Vanilla WoW Sets
+---- ZG Sets
+---- AQ20 Sets
+---- AQ40 Sets
+---- BoE World Epics
+--- PvP
+---- Alterac Valley
+---- Arathi Basin
+---- Warsong Gulch
+---- PvP Level 60 Rare and Epic Sets
+---- PvP Level 60 Weapons
+---- PvP Level 60 Accessories
+--- Factions
+---- Misc
+---- Argent Dawn
+---- Bloodsail Buccaneers & Hydraxian Waterlords
+---- Bilgewater Cartel
+---- Brood of Nozdormu
+---- Cenarion Circle
+---- Darnassus
+---- Darkspear Trolls
+---- Exodar
+---- Gilneas
+---- Gnomeregan
+---- Ironforge
+---- Orgrimmar
+---- Silvermoon City
+---- Stormpike Guard & Frostwolf Clan
+---- Stormwind
+---- Thorium Brotherhood
+---- Thunder Bluff
+---- Timbermaw Hold
+---- Zandalar Tribe
+---- Undercity
+
+	------------------------
+	--- Dungeons & Raids ---
+	------------------------
 
 		------------
 		--- Keys ---
@@ -4841,10 +4885,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 9243, "", "=q3=Shriveled Troll Heart", "=ds=#s2#"};
 				{ 4, 862, "", "=q3=Runed Ring", "=ds=#s13# =q2=#m16#", "", "0.02%"};
 				{ 5, 6440, "", "=q3=Brainlash", "=ds=#s13#", "", "0.01%"};
-				--{ 7, 9523, "", "=q1=Troll Temper", "=ds=#m3#"};
 				{ 7, 9523, "", "=q1=Troll Temper", "#QUESTID:3042#"};
 				{ 8, 9238, "", "=q1=Uncracked Scarab Shell", "#QUESTID:2865#"};
-				--{ 8, 9238, "", "=q1=Uncracked Scarab Shell", "=ds=#m3#"};
 				{ 16, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.01%"};
 				{ 17, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.01%"};
 				{ 18, 9481, "", "=q3=The Minotaur", "=ds=#h2#, #w1#", "", "0.01%"};
@@ -4859,55 +4901,6 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
-
----- ****
--- Index
---- Dungeons & Raids
----- Shadowfang Keep
----- The Stockade
----- The Sunken Temple
---- Sets & Collections
----- Dungeon 1 and 2 Sets (D1/D2)
----- Tier 1/2 Sets (T1/T2)
----- Tier 3 Sets (T3)
----- Vanilla WoW Sets
----- ZG Sets
----- AQ20 Sets
----- AQ40 Sets
----- BoE World Epics
---- PvP
----- Alterac Valley
----- Arathi Basin
----- Warsong Gulch
----- PvP Level 60 Rare and Epic Sets
----- PvP Level 60 Weapons
----- PvP Level 60 Accessories
---- Factions
----- Misc
----- Argent Dawn
----- Bloodsail Buccaneers & Hydraxian Waterlords
----- Bilgewater Cartel
----- Brood of Nozdormu
----- Cenarion Circle
----- Darnassus
----- Darkspear Trolls
----- Exodar
----- Gilneas
----- Gnomeregan
----- Ironforge
----- Orgrimmar
----- Silvermoon City
----- Stormpike Guard & Frostwolf Clan
----- Stormwind
----- Thorium Brotherhood
----- Thunder Bluff
----- Timbermaw Hold
----- Zandalar Tribe
----- Undercity
-
-	------------------------
-	--- Dungeons & Raids ---
-	------------------------
 
 		-----------------------
 		--- Shadowfang Keep ---
@@ -4972,7 +4965,7 @@ local moduleName = "AtlasLootClassicWoW"
 		-------------------------
 		--- The Sunken Temple ---
 		-------------------------
-
+---needs to be converted
 	AtlasLoot_Data["STSpawnOfHakkar"] = {
 		{ 1, 10802, "", "=q3=Wingveil Cloak", "=ds=#s4#", "", "25.6%"};
 		{ 2, 10801, "", "=q3=Slitherscale Boots", "=ds=#s12#, #a2#", "", "42.33%"};

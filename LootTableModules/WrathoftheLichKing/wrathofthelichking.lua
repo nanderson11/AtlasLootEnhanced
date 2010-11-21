@@ -9119,13 +9119,12 @@ local moduleName = "AtlasLootWotLK"
 			{
 				{ 1, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds=#s7#", "450 #honor# #reqrating# 2300" };
 				{ 2, 44957, "", "=q4=Greater Inscription of the Gladiator", "=ds=#s3# #e17#", "165 #honor#" };
-				{ 3, 45706, "", "=q4=Commendation of Bravery", "=ds=", "100 #arena#" };
-				{ 5, 36931, "", "=q4=Ametrine", "=ds=#e7#", "165 #honor#" };
-				{ 6, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "165 #honor#" };
-				{ 7, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "165 #honor#" };
-				{ 8, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "165 #honor#" };
-				{ 9, 36922, "", "=q4=King's Amber", "=ds=#e7#", "165 #honor#" };
-				{ 10, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "165 #honor#" };
+				{ 4, 36931, "", "=q4=Ametrine", "=ds=#e7#", "165 #honor#" };
+				{ 5, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "165 #honor#" };
+				{ 6, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "165 #honor#" };
+				{ 7, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "165 #honor#" };
+				{ 8, 36922, "", "=q4=King's Amber", "=ds=#e7#", "165 #honor#" };
+				{ 9, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "165 #honor#" };
 				{ 16, 41565, "", "=q2=Design: Lucent Huge Citrine", "=ds=#p12# (350)", "100 #honor#"};
 				{ 17, 41575, "", "=q2=Design: Mysterious Shadow Crystal", "=ds=#p12# (350)", "100 #honor#"};
 				{ 18, 41559, "", "=q2=Design: Mystic Sun Crystal", "=ds=#p12# (350)", "100 #honor#"};

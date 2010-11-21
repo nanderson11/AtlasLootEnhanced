@@ -20,7 +20,7 @@ Updated Crafting professions (Blacksmithing, Cooking, Engineering, First Aid, Je
 Updated events: Brewfest and Love is in the Air.
 Reorganized Companions, Mounts and Tabard pages. All new Companions, Mounts and Tabards added.
 New collection page - Transformation items.
-Converted all PvP prices into the new Honor Point system. New PvP items added. (not finished yet)
+Converted all PvP prices into the new Honor Point system.
 Converted all Badge and Emblem gear into the new Justice Point system.
 Tons of minor fixes and additions
 
