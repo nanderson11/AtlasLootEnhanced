@@ -28,6 +28,10 @@ end
 
 function AtlasLoot:Search(Text)
 	if not Text then return end
+	if Text then
+		print("AtlasLoot search is temporary disabled")
+		return
+	end
 	Text = strtrim(Text);
 	if Text == "" then return end
 	local searchResult = {}
