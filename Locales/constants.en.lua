@@ -513,51 +513,6 @@ if AL then
 	AL["Shadow Resistance Gear"] = true;
 	AL["Classic Sets"] = true;
 
-	-- Achievement labels for loot table descriptions
-	--- Mounts
-	AL["A Tribute to Skill (25)"] = true;
-	AL["A Tribute to Mad Skill (45)"] = true;
-	AL["A Tribute to Insanity (50)"] = true;
-	AL["A Tribute to Immortality"] = true;
-	AL["Alone in the Darkness"] = true;
-	AL["Call of the Grand Crusade"] = true;
-	AL["For The Alliance!"] = true;
-	AL["For The Horde!"] = true;
-	AL["Glory of the Hero"] = true;
-	AL["Glory of the Raider (10 player)"] = true;
-	AL["Glory of the Raider (25 player)"] = true;
-	AL["Glory of the Ulduar Raider (10 player)"] = true;
-	AL["Glory of the Ulduar Raider (25 player)"] = true;
-	AL["Glory of the Icecrown Raider (10 player)"] = true;
-	AL["Glory of the Icecrown Raider (25 player)"] = true;
-	AL["Glory of the Cataclysm Hero"] = true;
-	AL["Glory of the Cataclysm Raider"] = true;
-	AL["Guild Glory of the Cataclysm Raider"] = true;
-	AL["Guild Level 25"] = true;
-	AL["Leading the Cavalry"] = true;
-	AL["Mountain o' Mounts"] = true;
-	AL["What A Long, Strange Trip It's Been"] = true;
-
-	--- Companions
-	AL["Alliance Slayer"] = true;
-	AL["Critter Kill Squad"] = true;
-	AL["Higher Learning"] = true;
-	AL["Horde Slayer"] = true;
-	AL["Lil' Game Hunter"] = true;
-	AL["Looking For Multitudes"] = true;
-	AL["Pilgrim"] = true;
-	AL["Profit Sharing"] = true;
-	AL["Rock Lover"] = true;
-	AL["Shop Smart, Shop Pet...Smart"] = true;
-	AL["United Nations"] = true;
-
-	--- Tabards
-	AL["Brutally Dedicated"] = true;
-	AL["Explore Northrend"] = true;
-	AL["Master of Isle of Conquest"] = true;
-	AL["The Loremaster"] = true;
-	AL["Twenty-Five Tabards"] = true;
-
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = true;
 	AL["Heroic Mode"] = true;

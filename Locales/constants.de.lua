@@ -493,51 +493,6 @@ if AL then
 	AL["Shadow Resistance Gear"] = "Schattenresistenz";
 	AL["Classic Sets"] = "Klassische Sets";
 
-	-- Achievement labels for loot table descriptions
-	--- Mounts
-	AL["A Tribute to Skill (25)"] = "Ein Tribut an die gute Leistung (25)";
-	AL["A Tribute to Mad Skill (45)"] = "Ein Tribut an die hervorragende Leistung (45)";
-	AL["A Tribute to Insanity (50)"] = "Ein Tribut an den Wahnsinn (50)";
-	AL["A Tribute to Immortality"] = "Ein Tribut an die Unsterblichkeit";
-	AL["Alone in the Darkness"] = "Allein im Dunkeln";
-	AL["Call of the Grand Crusade"] = "Der Ruf des großen Kreuzzugs";
-	AL["For The Alliance!"] = "Für die Allianz!";
-	AL["For The Horde!"] = "Für die Horde!";
-	AL["Glory of the Hero"] = "Ruhm des Helden";
-	AL["Glory of the Raider (10 player)"] = "Ruhm des Schlachtzüglers (10 Spieler)";
-	AL["Glory of the Raider (25 player)"] = "Ruhm des Schlachtzüglers (25 Spieler)";
-	AL["Glory of the Ulduar Raider (10 player)"] = "Ruhm des Schlachtzüglers von Ulduar (10 Spieler)";
-	AL["Glory of the Ulduar Raider (25 player)"] = "Ruhm des Schlachtzüglers von Ulduar (25 Spieler)";
-	AL["Glory of the Icecrown Raider (10 player)"] = "Ruhm des Schlachtzüglers von Eiskrone (10 Spieler)";
-	AL["Glory of the Icecrown Raider (25 player)"] = "Ruhm des Schlachtzüglers von Eiskrone (25 Spieler)";
-	AL["Glory of the Cataclysm Hero"] = "Heldenruhm des Kataklysmus";
-	AL["Glory of the Cataclysm Raider"] = "Ruhm des Kataklysmus-Schlachtzüglers";
-	AL["Guild Glory of the Cataclysm Raider"] = "Gildenruhm des Kataklysmus-Schlachtzüglers";
-	AL["Guild Level 25"] = "Gildenstufe 25";
-	AL["Leading the Cavalry"] = "Vorreiter der Kavallerie";
-	AL["Mountain o' Mounts"] = "Tierisch viele Reittiere";
-	AL["What A Long, Strange Trip It's Been"] = "Was für eine lange, seltsame Reise...";
-
-	--- Companions
-	AL["Alliance Slayer"] = "Schlächter der Allianz";
-	AL["Critter Kill Squad"] = "Tierbeseitigungsbrigade";
-	AL["Higher Learning"] = "Höheres Studium";
-	AL["Horde Slayer"] = "Schlächter der Horde";
-	AL["Lil' Game Hunter"] = "Kleinwildjäger";
-	AL["Looking For Multitudes"] = "Suche nach Mehrererereren";
-	AL["Pilgrim"] = "Pilger";
-	AL["Profit Sharing"] = "Profitteilung";
-	AL["Rock Lover"] = "Felsliebhaber";
-	AL["Shop Smart, Shop Pet...Smart"] = "Haustierepidemie";
-	AL["United Nations"] = "Vereinte Nationen";
-
-	--- Tabards
-	AL["Brutally Dedicated"] = "Brutaler Kämpfer";
-	AL["Explore Northrend"] = "Erforscht Nordend";
-	AL["Master of Isle of Conquest"] = "Meister der Insel der Eroberung";
-	AL["The Loremaster"] = "Der Meister der Lehren";
-	AL["Twenty-Five Tabards"] = "25 Wappenröcke";
-
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "Zusätzliche heroische Beute";
 	AL["Heroic Mode"] = "Heroisch";
