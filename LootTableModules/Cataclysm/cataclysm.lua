@@ -3615,10 +3615,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 13335, "", "=q4=Deathcharger's Reins", "=q2="..BabbleBoss["Baron Rivendare"]..", =q1="..BabbleZone["Stratholme"], "", "0.10%"};
 				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2="..BabbleBoss["Attumen the Huntsman"]..", =q1="..BabbleZone["Karazhan"], "", "0.25%"};
 				{ 5, 50818, "", "=q4=Invincible's Reins", "=q2="..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-				{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..AL["Alone in the Darkness"]..", =q1="..BabbleZone["Ulduar"], "", ""};
+				{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..BabbleBoss["Mimiron"]..", =q1="..BabbleZone["Ulduar"], "", ""};
 				{ 7, 43986, "", "=q4=Reins of the Black Drake", "=q2="..BabbleBoss["Sartharion"]..", =q1=#j37# #z38# #j46#", ""};
 				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "=q2="..BabbleBoss["Sartharion"]..", =q1=#j38# #z38# #j46#", ""};
-				{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Ley-Guardian Eregos"]..", =q1="..AL["Heroic"].." "..BabbleZone["The Oculus"], ""};
+				{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
 				{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "=q2="..BabbleBoss["Infinite Corruptor"]..", =q1="..AL["Heroic"].." "..BabbleZone["The Culling of Stratholme"], ""};
@@ -3630,8 +3630,8 @@ local moduleName = "AtlasLootCataclysm"
 				};
 				{ 16, 32768, "", "=q4=Reins of the Raven Lord", "=q2="..BabbleBoss["Anzu"]..", =q1="..BabbleZone["Sethekk Halls"]};
 				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 18, 49044, "", "=q4=Swift Alliance Steed", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1=#m7#", "", "100%"};
-				{ 19, 49046, "", "=q4=Swift Horde Wolf", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1=#m6#", "", "100%"};
+				{ 18, 49044, "", "=q4=Swift Alliance Steed", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1=#m7#", "", "100%"};-- NOT AVAILABLE ANYMORE
+				{ 19, 49046, "", "=q4=Swift Horde Wolf", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1=#m6#", "", "100%"};-- NOT AVAILABLE ANYMORE
 				{ 20, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
 				{ 21, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
 				{ 22, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
