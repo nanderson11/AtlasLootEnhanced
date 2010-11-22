@@ -9,13 +9,15 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	-- AtlasLootFu 
+	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu wird nicht mehr verwendet.\nLöschen Sie es aus Ihrem AddOns-Verzeichnis";
 
 	-- Options
 	AL["Options"] = "Optionen";
 	AL["Load Loot Modules at Startup"] = "Module beim Start laden";
 	-- AL["Minimap Button"] = true;
-	AL["Show itemIDs"] = "Zeige Item-IDs";
-	AL["Show Droprates"] = "Zeige Droprate";
+	AL["Show itemIDs"] = "Item-IDs anzeigen";
+	AL["Show Droprates"] = "Dropraten anzeigen";
 	AL["Safe Chat Links"] = "Sichere Chatlinks";
 	AL["Comparison TT"] = "Vergleiche Item";
 	AL["Show Comparison Tooltips"] = "Zeige eigenes Item zum Vergleich";
@@ -28,7 +30,6 @@ if AL then
 	AL["Reset"] = "Zurücksetzen";
 	AL["Reset Frames"] = "Fenster zurücksetzen";
 	AL["Profiles"] = "Profile";
-	AL["Show price and slot if possible"] = "Preis und Slot anzeigen wenn möglich";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";
@@ -66,6 +67,9 @@ if AL then
 	AL["Drop Rate: "] = "Droprate: ";
 	-- AL["DKP"] = true;
 	AL["Priority:"] = "Priorität:";
+	AL["Show price and slot if possible"] = "Preis und Slot anzeigen wenn möglich";
+	AL["Use GameTooltip"] = "Spiel-ToolTip verwenden";
+	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Statt dem angepassten AtlasLoot-ToolTip den normalen Spiel-ToolTip verwenden";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "Item nicht verfügbar";
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070ddItemID: %d |r\nDieses Item ist unsicher.  Sobald Sie dieses Item im Spiel gesehen haben, besteht nicht mehr die Gefahr eines Verbindungsabbruchs.\n\nSie können die Abfrage mit einem Rechtsklick erzwingen.  Dies kann zu einem Verbindungsabbruch führen.";
@@ -102,6 +106,8 @@ if AL then
 	AL["Use as default wishlist"] = "Als Standard-Wunschzettel verwenden";
 	AL["Add Wishlist"] = "Wunschzettel hinzufügen";
 	AL["Always use default Wishlist"] = "Immer Standard-Wunschzettel verwenden";
+	AL["Save wishlists at character DB"] = "Wunschzettel in Charakter-DB speichern";
+	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "Speichert die Wunschzettel nur für |cff1eff00%s-%s|r.\n Andere Charaktere können die Wunschzettel nicht einsehen, allerdings wird der Speicherbedarf verringert.";
 
 	-- Filter
 	-- AL["Filter"] = true;

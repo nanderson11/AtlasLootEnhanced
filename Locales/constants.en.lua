@@ -24,7 +24,7 @@ if AL then
 	-- #########
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = true;
-	
+
 	-- Options
 	AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = true;
