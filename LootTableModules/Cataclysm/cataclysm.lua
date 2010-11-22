@@ -1010,7 +1010,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Glubtok",
+			name = BabbleBoss["Glubtok"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1031,7 +1031,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Gearbreaker",
+			name = BabbleBoss["Helix Gearbreaker"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1050,7 +1050,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Foe Reaper",
+			name = BabbleBoss["Foe Reaper 5000"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1069,7 +1069,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Ripsnarl",
+			name = BabbleBoss["Admiral Ripsnarl"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1092,7 +1092,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Cookie"],
+			name = BabbleBoss["\"Captain\" Cookie"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1114,7 +1114,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Vanessa VanCleef",
+			name = BabbleBoss["Vanessa VanCleef"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1139,7 +1139,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Baron Ashbury",
+			name = BabbleBoss["Baron Ashbury"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1159,7 +1159,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Baron Silverlaine",
+			name = BabbleBoss["Baron Silverlaine"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1179,7 +1179,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Commander Springvale",
+			name = BabbleBoss["Commander Springvale"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1200,7 +1200,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Lord Walden",
+			name = BabbleBoss["Lord Walden"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1226,7 +1226,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Lord Godfrey",
+			name = BabbleBoss["Lord Godfrey"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};

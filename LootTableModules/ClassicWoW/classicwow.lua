@@ -3750,7 +3750,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Baron Ashbury",
+			name = BabbleBoss["Baron Ashbury"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3770,7 +3770,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Baron Silverlaine",
+			name = BabbleBoss["Baron Silverlaine"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3790,7 +3790,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Commander Springvale",
+			name = BabbleBoss["Commander Springvale"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3811,7 +3811,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Lord Walden",
+			name = BabbleBoss["Lord Walden"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3836,7 +3836,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Lord Godfrey",
+			name = BabbleBoss["Lord Godfrey"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3908,7 +3908,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["STRATCannonMasterWilley"] = {
+	AtlasLoot_Data["STRATWilleyHopebreaker"] = {
 		["Normal"] = {
 			{
 				{ 1, 22405, "", "=q3=Mantle of the Scarlet Crusade", "=ds=#s3#, #a1#", "", "16.03%"};
@@ -3926,7 +3926,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Cannon Master Willey"],
+			name = BabbleBoss["Willey Hopebreaker"],
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -3944,7 +3944,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["STRATArchivistGalford"] = {
+	AtlasLoot_Data["STRATInstructorGalford"] = {
 		["Normal"] = {
 			{
 				{ 1, 13386, "", "=q3=Archivist Cape", "=ds=#s4#", "", "18.45%"};
@@ -3958,7 +3958,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Archivist Galford"],
+			name = BabbleBoss["Instructor Galford"],
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -4018,7 +4018,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["STRATCrimsonHammersmith"] = {
+	AtlasLoot_Data["STRATRisenHammersmith"] = {
 		["Normal"] = {
 			{
 				{ 1, 18781, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "41.6%"};
@@ -4029,7 +4029,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Crimson Hammersmith"].." ("..AL["Summon"]..")",
+			name = BabbleBoss["Risen Hammersmith"].." ("..AL["Summon"]..")",
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -4173,7 +4173,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["STRATBaronRivendare"] = {
+	AtlasLoot_Data["STRATLordAuriusRivendare"] = {
 		["Normal"] = {
 			{
 				{ 1, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%"};
@@ -4206,7 +4206,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Baron Rivendare"],
+			name = BabbleBoss["Lord Aurius Rivendare"],
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -4248,16 +4248,16 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Stockade"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=Lord Overheat", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Overheat"], ""};
 				{ 2, 1929, "", "=q3=Silk-Threaded Trousers", "=ds=#s11#, #a1#", ""};
 				{ 3, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", ""};
 				{ 4, 4676, "", "=q3=Skeletal Gauntlets", "=ds=#s9#, #a3#", ""};
 				{ 5, 62305, "", "=q1=Lord Overheat's Fiery Core", "=ds=#m3#", "", "100%"};
-				{ 7, 0, "INV_Box_01", "=q6=Randolf Moloch", ""};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Randolph Moloch"], ""};
 				{ 8, 63345, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", ""};
 				{ 9, 63344, "", "=q3=Standard Issue Prisoner Shoes", "=ds=#s12#, #a2#", ""};
 				{ 10, 63346, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", ""};
-				{ 16, 0, "INV_Box_01", "=q6=Hogger", ""};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Hogger"], ""};
 				{ 17, 2168, "", "=q3=Corpse Rompers", "=ds=#s12#, #a1#", ""};
 				{ 18, 1934, "", "=q3=Hogger's Trousers", "=ds=#s11#, #a2#", ""};
 				{ 19, 1959, "", "=q3=Cold Iron Pick", "=ds=#h2#, #w1#", ""};
@@ -4362,7 +4362,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Glubtok",
+			name = BabbleBoss["Glubtok"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4383,7 +4383,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Gearbreaker",
+			name = BabbleBoss["Helix Gearbreaker"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4402,7 +4402,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Foe Reaper",
+			name = BabbleBoss["Foe Reaper 5000"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4421,7 +4421,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Ripsnarl",
+			name = BabbleBoss["Admiral Ripsnarl"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4444,7 +4444,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Cookie"],
+			name = BabbleBoss["\"Captain\" Cookie"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4466,7 +4466,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = "Vanessa VanCleef",
+			name = BabbleBoss["Vanessa VanCleef"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
