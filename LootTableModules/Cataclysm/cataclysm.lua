@@ -3612,7 +3612,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
 				{ 2, 32458, "", "=q4=Ashes of Al'ar", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["The Eye"]};
-				{ 3, 13335, "", "=q4=Deathcharger's Reins", "=q2="..BabbleBoss["Baron Rivendare"]..", =q1="..BabbleZone["Stratholme"], "", "0.10%"};
+				{ 3, 13335, "", "=q4=Deathcharger's Reins", "=q2="..BabbleBoss["Lord Aurius Rivendare"]..", =q1="..BabbleZone["Stratholme"], "", "0.10%"};
 				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2="..BabbleBoss["Attumen the Huntsman"]..", =q1="..BabbleZone["Karazhan"], "", "0.25%"};
 				{ 5, 50818, "", "=q4=Invincible's Reins", "=q2="..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
 				{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..BabbleBoss["Mimiron"]..", =q1="..BabbleZone["Ulduar"], "", ""};
@@ -3630,17 +3630,15 @@ local moduleName = "AtlasLootCataclysm"
 				};
 				{ 16, 32768, "", "=q4=Reins of the Raven Lord", "=q2="..BabbleBoss["Anzu"]..", =q1="..BabbleZone["Sethekk Halls"]};
 				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 18, 49044, "", "=q4=Swift Alliance Steed", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1=#m7#", "", "100%"};-- NOT AVAILABLE ANYMORE
-				{ 19, 49046, "", "=q4=Swift Horde Wolf", "=q2="..AL["A Tribute to Insanity (50)"]..", =q1="..AL["Trial of the Grand Crusader"].."  =ec1=#m6#", "", "100%"};-- NOT AVAILABLE ANYMORE
-				{ 20, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 21, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
-				{ 22, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
-				{ 23, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
-				{ 24, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 27, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
-				{ 28, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 29, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
+				{ 18, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 19, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 20, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 21, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 22, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
+				{ 24, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
+				{ 25, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
+				{ 26, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 27, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
 			};
 		};
 		info = {
@@ -3821,10 +3819,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
 				{ 7, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
 				{ 8, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
-				{ 10, 0, "INV_Box_01", "=q6=Other", ""};--no idea what to call this section
-				{ 11, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
-				{ 12, 37719, "", "=q4=Swift Zhevra", "=ds=#e26#"};
-				{ 13, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
+				{ 9, 49044, "", "=q4=Swift Alliance Steed", "#ACHIEVEMENTID:3810#"};
+				{ 10, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#"};
+				{ 12, 0, "INV_Box_01", "=q6=Other", ""};--no idea what to call this section
+				{ 13, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
+				{ 14, 37719, "", "=q4=Swift Zhevra", "=ds=#e26#"};
+				{ 15, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
 				{ 17, 30609, "", "=q4=Swift Nether Drake", "=ds="..AL["Season 1"]};
 				{ 18, 34092, "", "=q4=Merciless Nether Drake", "=ds="..AL["Season 2"]};
