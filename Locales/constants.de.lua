@@ -523,6 +523,7 @@ if AL then
 	AL["Low Level"] = "Niedrigstufig";
 	AL["High Level"] = "Hochstufig";
 	AL["Rare"] = "Selten";
+	AL["Alone in the Darkness"] = "Allein im Dunkeln";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";

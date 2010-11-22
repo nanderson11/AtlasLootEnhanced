@@ -536,6 +536,7 @@ if AL then
 	AL["Low Level"] = true;
 	AL["High Level"] = true;
 	AL["Rare"] = true;
+	AL["Alone in the Darkness"] = true;
 
 	-- Loot Table Names
 	AL["Level 30-39"] = true;
