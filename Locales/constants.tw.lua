@@ -264,6 +264,11 @@ if AL then
 	AL["Chimera's Eye"] = "奇美拉之瞳";
 
 	--Sets/Collections Menu
+	AL["Sets"] = "套裝";
+	AL["Set"] = "套裝";
+	AL["Justice Points"] = "英雄點數";
+	AL["Valor Points"] = "勇氣點數";
+	AL["Badge of Justice"] = "正義徽章"; --should be removed
 	AL["Emblem Rewards"] = "紋章獎勵";
 	AL["Emblem of Valor"] = "勇氣紋章";
 	AL["Emblem of Heroism"] = "英雄紋章";
@@ -273,9 +278,20 @@ if AL then
 	AL["BoE World Epics"] = "裝綁世界掉落紫裝";
 	AL["Legendary Items"] = "傳說物品";
 	AL["Mounts"] = "坐騎";
-	--AL["Vanity Pets"] = "普通寵物"; --changed
+	AL["Companions"] = "夥伴";
 	AL["Misc Sets"] = "其他套裝";
 	AL["Tabards"] = "外袍";
+	AL["Tier 1/2 Set"] = "T1/T2 套裝";
+	AL["Tier 1/2/3 Set"] = "T1/T2/T3 套裝";
+	AL["Tier 3 Set"] = "T3 套裝";
+	AL["Tier 4/5/6 Set"] = "T4/T5/T6 套裝";
+	AL["Tier 7/8 Set"] = "T7/T8 套裝";
+	AL["Tier 8 Set"] = "T8 套裝";
+	AL["Tier 9 Set"] = "T9 套裝";
+	AL["Tier 10 Set"] = "T10 套裝";
+	AL["Tier 11 Set"] = "T11 套裝";
+	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
+	AL["Transformation Items"] = "變形物品";
 
 	--PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套裝";
@@ -310,6 +326,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = "旅人豐年祭";
 	AL["Skettis"] = "司凱堤斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
+	AL["Elemental Unrest"] = "元素風潮";
 
 	--Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00左鍵|r 瀏覽物品掉落表";
@@ -318,6 +335,9 @@ if AL then
 	AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffcccccc左鍵並拖曳以移動圖示位置";
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffcccccc右鍵並拖曳以移動圖示位置";
 
+	-- Default Frame
+	AL["Select Module"] = "選擇模組";
+	AL["Select Instance"] = "選擇副本";
 
 	-- Wishlist
 	AL["Close"] = "關閉";
@@ -361,6 +381,11 @@ if AL then
 	AL["Combat Pet"] = "戰鬥寵物";
 	AL["Fireworks"] = "煙火";
 	AL["Fishing Lure"] = "魚餌";
+	AL["Transformation Item"] = "變形物品";
+	AL["Ground Mount"] = "陸行坐騎";
+	AL["Flying Mount"] = "飛行坐騎";
+	AL["Companion"] = "夥伴";
+	AL["Keys"] = "鑰匙";
 
 	--Extra inventory stuff
 	AL["Cloak"] = "披風";
@@ -384,7 +409,6 @@ if AL then
 	AL["Enchant Weapon"] = "附魔武器";
 
 	--Engineering
-	AL["Ammunition"] = "彈藥";
 	AL["Explosives"] = "爆裂物";
 
 	--Inscription
@@ -400,7 +424,6 @@ if AL then
 	AL["Mail Armor"] = "鎖甲護甲";
 	AL["Cloaks"] = "披風";
 	AL["Item Enhancements"] = "物品附魔";
-	AL["Quivers and Ammo Pouches"] = "箭袋/彈藥袋";
 	AL["Drums, Bags and Misc."] = "戰鼓、背包與其他物品";
 
 	--Tailoring
@@ -424,7 +447,6 @@ if AL then
 	AL["18 Slot"] = "18 格容器";
 	AL["16 Slot"] = "16 格容器";
 	AL["10 Slot"] = "10 格容器";
-	AL["(has random enchantment)"] = "(具有隨機屬性)";
 	AL["Currency"] = "貨幣";
 	AL["Conjured Item"] = "特殊物品";
 	AL["Used to summon boss"] = "使用以召喚首領";
@@ -433,6 +455,11 @@ if AL then
 	AL["Skill Required:"] = "需要技能等級: ";
 	AL["Rating:"] = "等級:";	--Shorthand for 'Required Rating' for the personal/team ratings in Arena S4
 	AL["Random Heroic Reward"] = "隨機英雄副本獎勵";
+	AL["Fishing Daily Reward"] = "每日釣魚獎勵";
+	AL["Collector's Edition"] = "典藏版";
+--	AL["Blizzcon"] = true;
+	AL["WoW Anniversary Celebration"] = "魔獸世界週年慶典";
+	AL["Daily Reward"] = "每日獎勵";
 
 	--Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "原始的魔獸世界";
@@ -442,6 +469,7 @@ if AL then
 	AL["Entrance"] = "入口";
 	AL["Dungeon Set 1"] = "副本套裝 1";
 	AL["Dungeon Set 2"] = "副本套裝 2";
+	AL["Dungeon Set 1/2"] = "副本套裝 1/2";
 	AL["Dungeon Set 3"] = "副本套裝 3";
 	AL["Tier 1"] = "T1";
 	AL["Tier 2"] = "T2";
@@ -453,10 +481,20 @@ if AL then
 	AL["Tier 8"] = "T8";
 	AL["Tier 9"] = "T9";
 	AL["Tier 10"] = "T10";
+	AL["Tier 11"] = "T11";
 	AL["10 Man"] = "10 人";
 	AL["10/25 Man"] = "10/25 人";
 	AL["Epic Set"] = "PvP 史詩套裝";
 	AL["Rare Set"] = "PvP 稀有套裝";
+	AL["Season 1"] = "第一季";
+	AL["Season 2"] = "第二季";
+	AL["Season 3"] = "第三季";
+	AL["Season 4"] = "第四季";
+	AL["Season 5"] = "第五季";
+	AL["Season 6"] = "第六季";
+	AL["Season 7"] = "第七季";
+	AL["Season 8"] = "第八季";
+	AL["Season 9"] = "第九季";
 	AL["Fire"] = "赤紅";
 	AL["Water"] = "碧藍";
 	AL["Wind"] = "蒼白";
@@ -467,6 +505,7 @@ if AL then
 	AL["Nature Resistance Gear"] = "自然抗性裝備";
 	AL["Frost Resistance Gear"] = "冰霜抗性裝備";
 	AL["Shadow Resistance Gear"] = "暗影抗性裝備";
+	AL["Classic Sets"] = "舊世界套裝";
 
 	--Labels for loot table sections
 	AL["Additional Heroic Loot"] = "更多的英雄物品";
@@ -479,6 +518,7 @@ if AL then
 	AL["Two Drakes Left"] = "剩餘二隻飛龍";
 	AL["Three Drakes Left"] = "剩餘三隻飛龍";
 	AL["Arena Reward"] = "競技場獎勵";
+	AL["Achievement Reward"] = "成就獎勵";
 	AL["Phase 1"] = "第一階段";
 	AL["Phase 2"] = "第二階段";
 	AL["Phase 3"] = "第三階段";
@@ -488,17 +528,12 @@ if AL then
 	AL["Heirloom"] = "家傳物品";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
-	AL["Alone in the Darkness"] = "闇境孤軍";
-	AL["Call of the Grand Crusade"] = "大十字軍的呼喚";
-	AL["A Tribute to Skill (25)"] = "獻給技藝精湛";
-	AL["A Tribute to Mad Skill (45)"] = "獻給瘋狂的技藝";
-	AL["A Tribute to Insanity (50)"] = "獻給瘋子";
-	AL["A Tribute to Immortality"] = "獻給不朽";
 	AL["Low Level"] = "較低等級";
 	AL["High Level"] = "較高等級";
+	AL["Rare"] = "稀有";
+	AL["Alone in the Darkness"] = "闇境孤軍";
 
 	--Loot Table Names
-	AL["Scholomance Sets"] = "通靈學院套裝";
 	AL["Level 30-39"] = "等級 30～39";
 	AL["Level 40-49"] = "等級 40～49";
 	AL["Level 50-60"] = "等級 50～60";
@@ -506,7 +541,40 @@ if AL then
 	AL["Random"] = "隨機";
 	AL["Brew of the Month Club"] = "每月啤酒俱樂部";
 
-	--Extra Text in Boss lists
+	-- Cooking descriptions
+	AL["Buff"] = "增益";
+	AL["Agility"] = "敏捷";
+	AL["Intellect"] = "智力";
+	AL["Strength"] = "力量";
+	AL["Agility, Intellect, Strength"] = "敏捷, 智力, 力量";
+	AL["Spell Power"] = "法術能量";
+	AL["Attack Power"] = "攻擊強度";
+	AL["Spell/Attack Power"] = "法術能量攻擊強度";
+	AL["Hit Rating"] = "命中等級";
+	AL["Crit Rating"] = "致命一擊等級";
+	AL["Crit/Hit Rating"] = "致命一擊/命中等級";
+	AL["Haste Rating"] = "加速等級";
+	AL["Dodge Rating"] = "閃躲等級";
+	AL["Expertise Rating"] = "熟練等級";
+	AL["Mastery Rating"] = "精通等級";
+	AL["Parry Rating"] = "招架等級";
+	AL["Other Ratings"] = "其他等級";
+	AL["Resistance"] = "抗性";
+--	AL["Health / Second"] = true;
+--	AL["Mana / Second"] = true;
+	AL["Tracking"] = "追蹤";
+--	AL["Emotions"] = true;
+	AL["Alcohol"] = "酒類";
+	AL["Health"] = "生命";
+	AL["Mana"] = "法力";
+	AL["Health and Mana"] = "生命和法力";
+	AL["Other Buffs"] = "其他增益";
+	AL["Standard Buffs"] = "標準增益";
+	AL["Food without Buffs"] = "沒有增益的食物";
+	AL["Special"] = "特殊";
+	AL["Feasts"] = "宴類";
+
+	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
 	AL["Set: Defias Leather"] = "套裝:迪菲亞皮甲";
 	AL["Set: The Gladiator"] = "套裝:角鬥士";
@@ -533,42 +601,58 @@ if AL then
 	AL["SP Patterns/Plans"] = "特殊圖樣/卷軸";
 	AL["Ulduar Formula/Patterns/Plans"] = "奧杜亞公式/圖樣/設計圖";
 	AL["Trial of the Crusader Patterns/Plans"] = "十字軍試煉圖樣/設計圖";
+	AL["BRD Blacksmithing Plans"] = "黑石深淵黑帖鍛造圖樣";
 
-	--Pets
-	AL["Pets"] = "寵物";
-	--AL["Promotional"] = "促銷"; --changed
-	--AL["Pet Store"] = "寵物商店"; --changed
-	--AL["Merchant Sold"] = "商人販售"; --changed
-	AL["Rare"] = "稀有";
+	-- Companions
 	AL["Achievement"] = "成就";
-	AL["Faction"] = "陣營";
+	AL["Achievement & Faction Reward Companions"] = "成就/聲望獎勵夥伴";
+	AL["Card Game Companions"] = "卡牌遊戲獎勵夥伴";
+	AL["Companion Accessories"] = "夥伴飾品";
+	AL["Companion Store"] = "夥伴商店";
+	AL["Crafted Companions"] = "製作的夥伴";
 	AL["Dungeon/Raid"] = "副本/團隊";
+	AL["Faction"] = "陣營";
+	AL["Merchant Sold Companions"] = "商人販售的夥伴";
+	AL["Pets"] = "寵物";
+	AL["Promotional Companions"] = "促銷活動夥伴";
+	AL["Quest Reward Companions"] = "任務獎勵夥伴";
+	AL["Rare Companions"] = "稀有夥伴";
+	AL["Unobtainable Companions"] = "無法取得的夥伴";
 
 	--Mounts
-	AL["Achievement Reward"] = "成就獎勵";
 	AL["Alliance Flying Mounts"] = "聯盟飛行坐騎";
 	AL["Alliance Mounts"] = "聯盟坐騎";
 	AL["Horde Flying Mounts"] = "部落飛行坐騎";
 	AL["Horde Mounts"] = "部落坐騎";
-	AL["Card Game Mounts"] = "套卡獎勵坐騎";
-	AL["Crafted Mounts"] = "精製坐騎";
+	AL["Card Game Mounts"] = "卡牌遊戲獎勵坐騎";
+	AL["Crafted Mounts"] = "製作的坐騎";
 	AL["Event Mounts"] = "事件獎勵坐騎";
 	AL["Neutral Faction Mounts"] = "中立陣營坐騎";
 	AL["PvP Mounts"] = "PvP 坐騎";
 	AL["Alliance PvP Mounts"] = "聯盟 PvP 坐騎";
 	AL["Horde PvP Mounts"] = "部落 PvP 坐騎";
 	AL["Halaa PvP Mounts"] = "哈剌 PvP 坐騎";
-	AL["Promotional Mounts"] = "特定商業促銷坐騎";
+	AL["Promotional Mounts"] = "促銷活動坐騎";
 	AL["Rare Mounts"] = "稀有坐騎";
+	AL["Unobtainable Mounts"] = "無法取得的坐騎";
+
+	-- Tabards
+	AL["Achievement & Quest Reward Tabards"] = "成就/任務獎勵外袍";
+	AL["Alliance Tabards"] = "聯盟外袍";
+	AL["Card Game Tabards"] = "卡牌遊戲獎勵外袍";
+	AL["Horde Tabards"] = "部落外袍";
+	AL["Neutral Faction Tabards"] = "中立陣營外袍";
+	AL["PvP Tabards"] = "PvP 外袍";
+	AL["Unobtainable Tabards"] = "無法取得的外袍";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月馬戲團獎勵";
-	AL["Low Level Decks"] = "低階套排";
-	--AL["Level 60 Trinkets"] = true;
-	--AL["Level 70 Trinkets"] = true;
-	--AL["Level 60 & 70 Trinkets"] = true;
-	--AL["Level 80 Trinkets"] = true;
-	--AL["Level 85 Trinkets"] = true;
+	AL["Low Level Decks"] = "低階套牌";
+	AL["Level 60 Trinkets"] = "等級 60 飾品";
+	AL["Level 70 Trinkets"] = "等級 70 飾品";
+	AL["Level 60 & 70 Trinkets"] = "等級 60/70 飾品";
+	AL["Level 80 Trinkets"] = "等級 80 飾品";
+	AL["Level 85 Trinkets"] = "等級 85 飾品";
 
 	--Card Game Decks and descriptions
 	AL["Loot Card Items"] = "可換取的物品";
@@ -640,7 +724,17 @@ if AL then
 	AL["Landro's Gift"] = "藍卓的禮物";
 	AL["Blazing Hippogryph"] = "熾熱的角鷹獸";
 
+	-- Twelvth set
+	AL["Icecrown"] = "寒冰皇冠";
+	AL["Wooly White Rhino"] = "白色蓬毛犀牛";
+	AL["Ethereal Portal"] = "以太傳送門";
+	AL["Paint Bomb"] = "漆彈";
+
+	-- Thirtheenth set
+	AL["Worldbreaker"] = "碎界者";
+
 	--Battleground Brackets
+	AL["Old PvP Rewards"] = "舊 PvP 獎勵";
 	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
 	AL["Misc. Rewards"] = "雜項獎勵";
 	AL["Level 10-19 Rewards"] = "等級 10～19 獎勵";
@@ -1092,6 +1186,27 @@ if AL then
 	AL["Scourgelord's Battlegear"] = "天譴領主戰裝";
 	AL["Scourgelord's Plate"] = "天譴領主鎧甲";
 
+	-- Tier 11 Sets
+	AL["Stormrider's Vestments"] = "風暴馭乘者法衣";
+	AL["Stormrider's Battlegarb"] = "風暴馭乘者戰袍";
+	AL["Stormrider's Regalia"] = "風暴馭乘者戰衣";
+	AL["Lightning-Charged Battlegear"] = "閃電充能戰裝";
+	AL["Firelord's Vestments"] = "炎魔套裝";
+	AL["Reinforced Sapphirium Regalia"] = "強化藍寶石戰衣";
+	AL["Reinforced Sapphirium Battlearmor"] = "強化藍寶石護甲";
+	AL["Reinforced Sapphirium Battleplate"] = "強化藍寶石戰甲";
+	AL["Mercurial Regalia"] = "水銀戰衣";
+	AL["Mercurial Vestments"] = "水銀法衣";
+	AL["Wind Dancer's Regalia"] = "風舞者戰衣";
+	AL["Vestments of the Raging Elements"] = "狂怒元素法衣";
+	AL["Battlegear of the Raging Elements"] = "狂怒元素戰裝";
+	AL["Regalia of the Raging Elements"] = "狂怒元素戰衣";
+	AL["Shadowflame Regalia"] = "暗影之焰戰衣";
+	AL["Earthen Warplate"] = "土靈戰鎧套裝";
+	AL["Earthen Battleplate"] = "土靈戰甲";
+	AL["Magma Plated Battlegear"] = "熔岩鎧甲戰裝";
+	AL["Magma Plated Battlearmor"] = "熔岩鎧甲戰甲";
+
 	--Arathi Basin Sets - Alliance
 	AL["The Highlander's Intent"] = "高地人的專注";
 	AL["The Highlander's Purpose"] = "高地人的毅力";
@@ -1212,6 +1327,7 @@ if AL then
 	AL["Feral"] = "野性";
 	AL["Restoration"] = "恢復";
 	AL["Holy"] = "神聖";
+	AL["Discipline"] = "戒律";
 	AL["Protection"] = "防護";
 	AL["Retribution"] = "懲戒";
 	AL["Shadow"] = "暗影";
@@ -1353,12 +1469,16 @@ if AL then
 	AL["Felsteed"] = "惡魔戰馬";
 	AL["Shattered Hand Executioner"] = "破碎之手劊子手";
 	AL["Time-Lost Proto Drake"] = "時光流逝元龍";
-	AL["Faction Champions"] = "陣營勇士"; -- if you have a better name, use it.
 	AL["Razzashi Raptor"] = "拉札希迅猛龍";
 	AL["Deviate Ravager/Deviate Guardian"] = "變異劫毀者/變異守護者";
+--	AL["Servant's Quarter Animal Bosses"] = true;
+--	AL["Jadefang"] = true;
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
+	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
+	AL["Crusader's Square"] = "十字軍廣場";
+	AL["The Gauntlet"] = "街巷";
 
 	--Shortcuts for Bossname files
 	AL["LBRS"] = "黑下";
@@ -1371,6 +1491,10 @@ if AL then
 	AL["Avatar"] = "馬丁瑞德的化身";  -- Avatar of the Martyred
 
 	--Chests, etc
+	AL["Ring of Law"] = "秩序競技場";
+	AL["Monument of Franclorn Forgewright"] = "弗蘭克羅恩·鑄鐵的紀念碑";
+	AL["The Grim Guzzler"] = "黑鐵酒吧";
+	AL["Summoner's Tomb"] = "召喚師之墓";
 	AL["The Secret Safe"] = "隱密的保險箱";
 	AL["The Vault"] = "寶窟";
 	AL["Ogre Tannin Basket"] = "巨魔鞣酸籃";
@@ -1428,7 +1552,6 @@ if AL then
 	AL["Dinner Suit Box"] = "晚宴套裝盒";
 	AL["Bag of Heart Candies"] = "心願糖果袋";
 	AL["Hidden Stash"] = "隱密藏匿物";
-
 
 	--Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";
