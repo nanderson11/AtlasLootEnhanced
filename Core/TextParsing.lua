@@ -404,6 +404,7 @@ AtlasLoot_TextParsing = {
 	-- Factions
 	{ "#f1#", BabbleFaction["Lower City"] },
 	{ "#f2#", BabbleFaction["The Sha'tar"] },
+	{ "#f4#", BabbleFaction["Honor Hold"] },
 	{ "#f5#", BabbleFaction["Keepers of Time"] },
 	{ "#f6#", BabbleFaction["Cenarion Expedition"] },
 
