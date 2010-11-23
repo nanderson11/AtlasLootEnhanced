@@ -27,6 +27,11 @@ externals:
     Libs/LibStub: svn://svn.wowace.com/wow/libstub/mainline/tags/1.0
 	Libs/LibDataBroker-1.1: git://git.wowace.com/wow/libdatabroker-1-1/mainline.git
 
+ignore:
+	- Modules/TemplateFile.lua
+	- Core/DEVTOOLS.lua
+	- Libs/LibDataBroker-1.1
+	
 move-folders:
     AtlasLoot/LootTableModules/BurningCrusade: AtlasLoot_BurningCrusade
 	AtlasLoot/LootTableModules/Cataclysm: AtlasLoot_Cataclysm
@@ -34,8 +39,3 @@ move-folders:
     AtlasLoot/LootTableModules/ClassicWoW: AtlasLoot_ClassicWoW
     AtlasLoot/LootTableModules/WorldEvents: AtlasLoot_WorldEvents
     AtlasLoot/LootTableModules/WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
-	
-ignore:
-	- Modules/TemplateFile.lua
-	- Core/DEVTOOLS.lua
-	- Libs/LibDataBroker-1.1

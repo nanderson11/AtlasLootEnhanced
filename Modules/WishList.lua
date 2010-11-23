@@ -219,7 +219,7 @@ do
 						end,
 						set = function(info, v)
 							db.useCharDB = v
-							WishList:SetupDb()
+							WishList:SetupDb(true)
 							return db.useCharDB 
 						end,
 						order = 20,
@@ -385,12 +385,16 @@ local function MoveTable(t, tt)
 	return tt
 end
 
-function WishList:SetupDb()
+function WishList:SetupDb(change)
 	if db.useCharDB then
-		MoveTable(self.db.global.data['Normal'][self.realm][self.char], self.chardb.global.data['Normal'][self.realm][self.char])
+		if change then
+			MoveTable(self.db.global.data['Normal'][self.realm][self.char], self.chardb.global.data['Normal'][self.realm][self.char])
+		end
 		self.ownWishLists = self.chardb.global.data['Normal'][self.realm][self.char]
 	else
-		MoveTable(self.chardb.global.data['Normal'][self.realm][self.char], self.db.global.data['Normal'][self.realm][self.char])
+		if change then
+			MoveTable(self.chardb.global.data['Normal'][self.realm][self.char], self.db.global.data['Normal'][self.realm][self.char])
+		end
 		self.ownWishLists = self.db.global.data['Normal'][self.realm][self.char]
 	end
 end

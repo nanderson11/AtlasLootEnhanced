@@ -15,6 +15,17 @@ local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 
+StaticPopupDialogs["ATLASLOOT_INCOMPATIBLE_ATLAS"] = {
+	text = "DUMMYTEXT",
+	button1 = AL["OK"],
+	OnAccept = function()
+		
+	end,
+	timeout = 0,
+	whileDead = 1,
+	hideOnEscape = 1
+};
+
 -- self function sets up the Atlas specific XML objects
 function AtlasLoot:SetupForAtlas()
 	if not AtlasFrame then return end
@@ -30,41 +41,59 @@ function AtlasLoot:SetupForAtlas()
 end
 
 function AtlasLoot:AtlasInitialize()
-	local AtlasCheck = false;
-    --Figure out if it is a compatible Atlas version
-    for i=1,#ATLASLOOT_CURRENT_ATLAS do
-        if ATLAS_VERSION == ATLASLOOT_CURRENT_ATLAS[i] then
-            AtlasCheck = true;
-            AtlasLoot.db.profile.AtlasType = "Release"
-        end
-    end
-    for i=1,#ATLASLOOT_PREVIEW_ATLAS do
-        if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS[i] then
-            AtlasCheck = true;
-            AtlasLoot.db.profile.AtlasType = "Preview"
-        end
-    end
-	if AtlasCheck == false then
-		AtlasLoot.db.profile.AtlasType = "Unknown"
-	end
-	
-	--Legacy code for those using the ultimately failed attempt at making Atlas load on demand
-	if AtlasButton_LoadAtlas then
-		AtlasButton_LoadAtlas()
-	end
-	
-	AtlasLoot:RegisterPFrame("Atlas", { "TOPLEFT", "AtlasFrame", "TOPLEFT", "18", "-84" })
+	local curAtlas = string.gsub(ATLAS_VERSION or "0", "%.", "")
+	curAtlas = tonumber(curAtlas)
+	ATLASLOOT_MIN_ATLAS = string.gsub(ATLASLOOT_MIN_ATLAS or "0", "%.", "")
+	ATLASLOOT_MIN_ATLAS = tonumber(ATLASLOOT_MIN_ATLAS)
+	if ATLASLOOT_MIN_ATLAS <= curAtlas then
+		print(ATLASLOOT_MIN_ATLAS, ", ", curAtlas)
+		local AtlasCheck = false;
+		--Figure out if it is a compatible Atlas version
+		for i=1,#ATLASLOOT_CURRENT_ATLAS do
+			if ATLAS_VERSION == ATLASLOOT_CURRENT_ATLAS[i] then
+				AtlasCheck = true;
+				AtlasLoot.db.profile.AtlasType = "Release"
+			end
+		end
+		for i=1,#ATLASLOOT_PREVIEW_ATLAS do
+			if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS[i] then
+				AtlasCheck = true;
+				AtlasLoot.db.profile.AtlasType = "Preview"
+			end
+		end
+		if AtlasCheck == false then
+			AtlasLoot.db.profile.AtlasType = "Unknown"
+		end
+		
+		--Legacy code for those using the ultimately failed attempt at making Atlas load on demand
+		if AtlasButton_LoadAtlas then
+			AtlasButton_LoadAtlas()
+		end
+		
+		AtlasLoot:RegisterPFrame("Atlas", { "TOPLEFT", "AtlasFrame", "TOPLEFT", "18", "-84" })
 
-	--Hook the necessary Atlas functions
-    Hooked_Atlas_Refresh = Atlas_Refresh
-    Atlas_Refresh = AtlasLoot.AtlasRefreshHook
-	Hooked_Atlas_OnShow = Atlas_OnShow
-	Atlas_OnShow = AtlasLoot.Atlas_OnShow
-	
-	--Instead of hooking, replace the scrollbar driver function 
-    Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
-	AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
-	
+		--Hook the necessary Atlas functions
+		Hooked_Atlas_Refresh = Atlas_Refresh
+		Atlas_Refresh = AtlasLoot.AtlasRefreshHook
+		Hooked_Atlas_OnShow = Atlas_OnShow
+		Atlas_OnShow = AtlasLoot.Atlas_OnShow
+		
+		--Instead of hooking, replace the scrollbar driver function 
+		Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
+		AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
+	else
+		if ATLAS_VERSION then
+			StaticPopup_Show("ATLASLOOT_INCOMPATIBLE_ATLAS")			
+		end
+		AtlasLoot.AtlasRefreshHook = nil
+		AtlasLoot.Atlas_OnShow = nil
+		AtlasLoot.AtlasScrollBar_Update = nil
+		AtlasLoot.SetupForAtlas = nil
+		AtlasLoot.Atlas_SetBoss = nil
+		AtlasLoot.Boss_OnClick = nil
+		AtlasLoot.SetupForAtlas = nil
+		AtlasLoot.AtlasInitialize = nil
+	end
 end
 
 -- Hooks Atlas_OnShow() to add extra setup routines that AtlasLoot needs for

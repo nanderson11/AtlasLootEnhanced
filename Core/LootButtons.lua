@@ -957,7 +957,7 @@ function AtlasLoot:ItemOnClick(arg1)
 		else
 			AtlasLoot:ShowLootPage(self.par.tableLink)
 		end
-	elseif arg1 == "RightButton" and not IsShiftKeyDown() then
+	elseif arg1 == "RightButton" and not IsShiftKeyDown() and not IsAltKeyDown() then
 		self.par:Query()
 	elseif IsShiftKeyDown() then
 		if arg1 == "LeftButton" then
