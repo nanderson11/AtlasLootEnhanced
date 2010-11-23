@@ -215,7 +215,6 @@ if AL then
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dMinimap-Button anzeigen|r";
 	AL["Set Minimap Button Position"] = "Position des Buttons an der Minimap festlegen";
 	AL["Notify on LoD Module Load"] = "Meldung beim automatischen Laden der Module";
-	AL["Load Loot Modules at Startup"] = "Module beim Start laden";
 	AL["Loot Browser Scale: "] = "AtlasLoot Skalierung";
 	AL["Button Position: "] = "Position des Buttons";
 	AL["Button Radius: "] = "Radius des Buttons";
@@ -337,8 +336,6 @@ if AL then
 	AL["Mark items from all Wishlists"] = "Items aller Wunschzettel hervorheben";
 	AL["Enable Wishlist Sharing"] = "Teilen von Wunschzetteln aktivieren";
 	AL["Auto reject in combat"] = "Automatisches Ablehnen im Kampf";
-	AL["Always use default Wishlist"] = "Immer Standard-Wunschzettel verwenden";
-	AL["Add Wishlist"] = "Wunschzettel hinzufügen";
 	AL["Edit Wishlist"] = "Wunschzettel bearbeiten";
 	AL["Show More Icons"] = "Weitere Icons anzeigen";
 	AL["Edit"] = "Bearbeiten";
@@ -473,7 +470,6 @@ if AL then
 	-- AL["Tier 10"] = true;
 	-- AL["Tier 11"] = true;
 	AL["10 Man"] = "10 Spieler";
-	AL["25 Man"] = "25 Spieler";
 	AL["10/25 Man"] = "10/25 Spieler";
 	AL["Epic Set"] = "Episches Set";
 	AL["Rare Set"] = "Seltenes Set";
@@ -528,7 +524,6 @@ if AL then
 	AL["Level 30-39"] = "Stufe 30-39";
 	AL["Level 40-49"] = "Stufe 40-49";
 	AL["Level 50-60"] = "Stufe 50-60";
-	AL["Heroic"] = "Heroisch";
 	AL["Summon"] = "Beschwörbar";
 	AL["Random"] = "Zufällig";
 	AL["Brew of the Month Club"] = "Bier des Monats e.V.";

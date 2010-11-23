@@ -121,7 +121,7 @@ if AL then
 	AL["Always use default Wishlist"] = true;
 	AL["Save wishlists at character DB"] = true;
 	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = true;
-	
+
 	-- Filter
 	AL["Filter"] = true;
 	AL["Select All Loot"] = true;
