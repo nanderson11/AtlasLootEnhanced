@@ -6,7 +6,7 @@
 ## Notes: AtlasLoot loot tables from pre-Burning Crusade
 ## Notes-deDE: AtlasLoot Loot-Tabellen für Instanzen vor Burning Crusade
 ## Notes-zhCN: AtlasLoot Enhanced 的《燃烧的远征》发售之前的副本掉落信息
-## Notes-zhTW: AtlasLoot 艾澤拉斯副本掉落物品資料庫
+## Notes-zhTW: AtlasLoot 艾澤拉斯掉落物品資料庫
 ## Author: Hegarol	
 ## Version: @project-version@
 ## X-eMail: manager@atlasloot.net

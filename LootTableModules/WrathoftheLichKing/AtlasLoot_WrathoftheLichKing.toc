@@ -4,7 +4,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAL 巫妖王之怒
 ## Notes: AtlasLoot loot tables from the Wrath of the Lich King
 ## Notes-zhCN: AtlasLoot Enhanced 的《巫妖王之怒》副本掉落信息
-## Notes-zhTW: AtlasLoot 巫妖王之怒副本掉落物品資料庫
+## Notes-zhTW: AtlasLoot 巫妖王之怒物品掉落資料庫
 ## Author: Hegarol	
 ## Version: @project-version@
 ## X-eMail: manager@atlasloot.net
