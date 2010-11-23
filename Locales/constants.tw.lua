@@ -89,7 +89,7 @@ if AL then
 	-- Heriloom Config Window
 	AL["Heirloom preview"] = "傳家之寶預覽";
 	AL["Change level:"] = "變更等級: ";
-	AL["Shift + Right Click to select character level"] = "按 Shift 及右鍵來選擇腳色等級";	
+	AL["Shift + Right Click to select character level"] = "按 Shift 及右鍵來選擇角色等級";	
 
 	-- LootTableSort
 	AL["Sort by Instance"] = "依副本排序";
@@ -119,8 +119,8 @@ if AL then
 	AL["Use as default wishlist"] = "將其設為預設裝備願望清單";
 	AL["Add Wishlist"] = "新增願望清單";
 	AL["Always use default Wishlist"] = "永遠使用預設的願望清單";
-	AL["Save wishlists at character DB"] = "將裝備願望清單儲存至腳色資料庫";
-	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "只針對 |cff1eff00%s-%s|r 腳色儲存裝備願望清單\n其他腳色可以檢視清單而不儲存, 以減少記憶體使用量";
+	AL["Save wishlists at character DB"] = "將裝備願望清單儲存至角色資料庫";
+	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "只針對 |cff1eff00%s-%s|r 角色儲存裝備願望清單\n其他角色可以檢視清單而不儲存, 以減少記憶體使用量";
 
 	-- Filter
 	AL["Filter"] = "篩選";
