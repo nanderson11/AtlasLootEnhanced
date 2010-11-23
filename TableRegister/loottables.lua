@@ -1390,8 +1390,37 @@ AtlasLoot_LootTableRegister = {
 		},
 	},
 	]]--
-	["WorldBosses"] = {
 
+--------------------
+--- World Bosses ---
+--------------------
+
+	["WorldBosses"] = {
+		["DoomLordKazzak"] = {
+			["Bosses"] = {
+				{ "WorldBossesBC", 1 },
+				{ "Thrallmar", 5 },
+			},
+			["Info"] = { BabbleBoss["Doom Lord Kazzak"], "AtlasLootBurningCrusade" },
+		},
+
+		["Doomwalker"] = {
+			["Bosses"] = {
+				{ "WorldBossesBC", 1 },
+			},
+			["Info"] = { BabbleBoss["Doomwalker"], "AtlasLootBurningCrusade" },
+		},
+
+		["Skettis"] = {
+			["Bosses"] = {
+				{ "Terokk", 9 },
+				{ "DarkscreecherAkkarai", 18 },
+				{ "GezzaraktheHuntress", 19 },
+				{ "Karrog", 20 },
+				{ "VakkiztheWindrager", 21 },
+			},
+			["Info"] = { AL["Skettis"], "AtlasLootWorldEvents" },
+		},
 	},
 	
 --------------------
