@@ -296,10 +296,10 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 31922, "", "=q4=Ring of Conflict Survival", "=ds=#s13#"};
 				{ 5, 31923, "", "=q4=Band of the Crystalline Void", "=ds=#s13#"};
 				{ 6, 31924, "", "=q4=Yor's Revenge", "=ds=#s13#"};
-				{ 8, 31554, "", "=q3=Windchanneller's Tunic", "=ds=#s5#, #a1# =q2=#m16#"};
-				{ 9, 31562, "", "=q3=Skystalker's Tunic", "=ds=#s5#, #a2# =q2=#m16#"};
-				{ 10, 31570, "", "=q3=Mistshroud Tunic", "=ds=#s5#, #a3# =q2=#m16#"};
-				{ 11, 31578, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#, =q2=#m16#"};
+				{ 8, 31554, "", "=q3=Windchanneller's Tunic", "=ds=#s5#, #a1#"};
+				{ 9, 31562, "", "=q3=Skystalker's Tunic", "=ds=#s5#, #a2#"};
+				{ 10, 31570, "", "=q3=Mistshroud Tunic", "=ds=#s5#, #a3#"};
+				{ 11, 31578, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#"};
 				{ 16, 30584, "", "=q4=Inscribed Fire Opal", "=ds=#e7#", "", "0.08%"};
 				{ 17, 30585, "", "=q4=Polished Fire Opal", "=ds=#e7#", "", "6.06%"};
 				{ 18, 30583, "", "=q4=Timeless Tanzanite", "=ds=#e7#", "", "9.09%"};
@@ -2097,20 +2097,20 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Ability_Hunter_Pet_Spider", "=q6="..BabbleBoss["Hyakiss the Lurker"], "=q5="..AL["Spider"]};
-				{ 2, 30675, "", "=q4=Lurker's Cord", "=ds=#s10#, #a1# =q2=#m16#", "", "32.81%"};
-				{ 3, 30676, "", "=q4=Lurker's Grasp", "=ds=#s10#, #a2# =q2=#m16#", "", "9.38%"};
-				{ 4, 30677, "", "=q4=Lurker's Belt", "=ds=#s10#, #a3# =q2=#m16#", "", "23.44%"};
-				{ 5, 30678, "", "=q4=Lurker's Girdle", "=ds=#s10#, #a4# =q2=#m16#", "", "15.62%"};
+				{ 2, 30675, "", "=q4=Lurker's Cord", "=ds=#s10#, #a1#", "", "32.81%"};
+				{ 3, 30676, "", "=q4=Lurker's Grasp", "=ds=#s10#, #a2#", "", "9.38%"};
+				{ 4, 30677, "", "=q4=Lurker's Belt", "=ds=#s10#, #a3#", "", "23.44%"};
+				{ 5, 30678, "", "=q4=Lurker's Girdle", "=ds=#s10#, #a4#", "", "15.62%"};
 				{ 7, 0, "Ability_Hunter_Pet_Hyena", "=q6="..BabbleBoss["Rokad the Ravager"], "=q5="..AL["Darkhound"]};
-				{ 8, 30684, "", "=q4=Ravager's Cuffs", "=ds=#s8#, #a1# =q2=#m16#", "", "27.78%"};
-				{ 9, 30685, "", "=q4=Ravager's Wrist-Wraps", "=ds=#s8#, #a2# =q2=#m16#", "", "11.11%"};
-				{ 10, 30686, "", "=q4=Ravager's Bands", "=ds=#s8#, #a3# =q2=#m16#", "", "23.33%"};
-				{ 11, 30687, "", "=q4=Ravager's Bracers", "=ds=#s8#, #a4# =q2=#m16#", "", "8.89%"};
+				{ 8, 30684, "", "=q4=Ravager's Cuffs", "=ds=#s8#, #a1#", "", "27.78%"};
+				{ 9, 30685, "", "=q4=Ravager's Wrist-Wraps", "=ds=#s8#, #a2#", "", "11.11%"};
+				{ 10, 30686, "", "=q4=Ravager's Bands", "=ds=#s8#, #a3#", "", "23.33%"};
+				{ 11, 30687, "", "=q4=Ravager's Bracers", "=ds=#s8#, #a4#", "", "8.89%"};
 				{ 16, 0, "Ability_Hunter_Pet_Bat", "=q6="..BabbleBoss["Shadikith the Glider"], "=q5="..AL["Bat"]};
-				{ 17, 30680, "", "=q4=Glider's Foot-Wraps", "=ds=#s12#, #a1# =q2=#m16#", "", "9.68%"};
-				{ 18, 30681, "", "=q4=Glider's Boots", "=ds=#s12#, #a2# =q2=#m16#", "", "22.58%"};
-				{ 19, 30682, "", "=q4=Glider's Sabatons", "=ds=#s12#, #a3# =q2=#m16#", "", "9.68%"};
-				{ 20, 30683, "", "=q4=Glider's Greaves", "=ds=#s12#, #a4# =q2=#m16#", "", "8.60%"};
+				{ 17, 30680, "", "=q4=Glider's Foot-Wraps", "=ds=#s12#, #a1#", "", "9.68%"};
+				{ 18, 30681, "", "=q4=Glider's Boots", "=ds=#s12#, #a2#", "", "22.58%"};
+				{ 19, 30682, "", "=q4=Glider's Sabatons", "=ds=#s12#, #a3#", "", "9.68%"};
+				{ 20, 30683, "", "=q4=Glider's Greaves", "=ds=#s12#, #a4#", "", "8.60%"};
 			};
 		};
 		info = {

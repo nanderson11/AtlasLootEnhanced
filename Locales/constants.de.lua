@@ -437,7 +437,6 @@ if AL then
 	AL["18 Slot"] = "18 Platz";
 	AL["16 Slot"] = "16 Platz";
 	AL["10 Slot"] = "10 Platz";
-	AL["(has random enchantment)"] = "(zufällige Verzauberung)";
 	AL["Currency"] = "Zum Kaufen von Belohnungen";
 	AL["Conjured Item"] = "Verbrauchbar";
 	AL["Used to summon boss"] = "Zur Beschwörung benötigt (Boss)";

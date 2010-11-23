@@ -1118,21 +1118,14 @@ AtlasLoot_LootTableRegister = {
 
 		["TheSunkenTemple"] = {
 			["Bosses"] = {		 
-				{ BabbleBoss["Atal'alarion"], "STAtalalarion", 6 },
-				{ BabbleBoss["Dreamscythe"], "STDreamscythe", 7 },
-				{ BabbleBoss["Weaver"], "STWeaver", 8 },
-				{ BabbleBoss["Avatar of Hakkar"], "STAvatarofHakkar", 9 },
-				{ BabbleBoss["Jammal'an the Prophet"], "STJammalan", 10 },
-				{ BabbleBoss["Ogom the Wretched"], "STOgom", 11 },
-				{ BabbleBoss["Morphaz"], "STMorphaz", 12 },
-				{ BabbleBoss["Hazzas"], "STHazzas", 13 },
-				{ BabbleBoss["Shade of Eranikus"], "STEranikus", 14 },
-				{ BabbleBoss["Spawn of Hakkar"], "STSpawnOfHakkar", 16 },
-				{ BabbleBoss["Lunar Festival"], "LunarFestival", 17, hide = true },
-				{ BabbleBoss["Troll Minibosses"], "STTrollMinibosses", 19 },
-				{ AL["Trash Mobs"], "STTrash", 27 },
+				{ "STAvatarofHakkar", 3 },
+				{ "STJammalanandOgom", {4,5} },
+				{ "STHazzasandMorphaz", {6,7} },
+				{ "STEranikus", 8 },
+				{ "LunarFestival", 10, hide = true },
+				{ "STTrash", 12 },
 			},
-			["Info"] = { BabbleZone["The Temple of Atal'Hakkar"], "AtlasLootClassicWoW", mapname = "TempleOfAtalHakkar" },
+			["Info"] = { BabbleZone["Sunken Temple"], "AtlasLootClassicWoW", mapname = "TempleOfAtalHakkar" },
 		},
 
 		["RagefireChasm"] = {

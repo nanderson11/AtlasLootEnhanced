@@ -141,7 +141,6 @@ AtlasLoot_TextParsing = {
 	{ "#m13#", AL["16 Slot"] },
 	{ "#m14#", AL["18 Slot"] },
 	{ "#m15#", AL["20 Slot"] },
-	{ "#m16#", AL["(has random enchantment)"] },
 	{ "#m17#", AL["Currency"] },
 	{ "#m20#", AL["Misc"] },
 	{ "#m21#", AL["Tier 4"] },

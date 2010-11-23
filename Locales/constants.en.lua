@@ -450,7 +450,6 @@ if AL then
 	AL["18 Slot"] = true;
 	AL["16 Slot"] = true;
 	AL["10 Slot"] = true;
-	AL["(has random enchantment)"] = true;
 	AL["Currency"] = true;
 	AL["Conjured Item"] = true;
 	AL["Used to summon boss"] = true;

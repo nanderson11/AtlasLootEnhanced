@@ -931,13 +931,13 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 			{
 				{ 1, 37163, "", "=q2=Rogues Deck", "=ds=#m2#"};
-				{ 2, 38318, "", "=q2=Darkmoon Robe", "=q1=#m4#: =ds=#s5#, #a1# =q2=#m16#"};
-				{ 3, 39509, "", "=q2=Darkmoon Vest", "=q1=#m4#: =ds=#s5#, #a2# =q2=#m16#"};
-				{ 4, 39507, "", "=q2=Darkmoon Chain Shirt", "=q1=#m4#: =ds=#s5#, #a3# =q2=#m16#"};
+				{ 2, 38318, "", "=q2=Darkmoon Robe", "=q1=#m4#: =ds=#s5#, #a1#"};
+				{ 3, 39509, "", "=q2=Darkmoon Vest", "=q1=#m4#: =ds=#s5#, #a2#"};
+				{ 4, 39507, "", "=q2=Darkmoon Chain Shirt", "=q1=#m4#: =ds=#s5#, #a3#"};
 				{ 6, 37164, "", "=q3=Swords Deck", "=ds=#m2#"};
-				{ 7, 39894, "", "=q3=Darkcloth Shoulders", "=q1=#m4#: =ds=#s3#, #a1# =q2=#m16#"};
-				{ 8, 39895, "", "=q3=Cloaked Shoulderpads", "=q1=#m4#: =ds=#s3#, #a2# =q2=#m16#"};
-				{ 9, 39897, "", "=q3=Azure Shoulderguards", "=q1=#m4#: =ds=#s3#, #a3# =q2=#m16#"};
+				{ 7, 39894, "", "=q3=Darkcloth Shoulders", "=q1=#m4#: =ds=#s3#, #a1#"};
+				{ 8, 39895, "", "=q3=Cloaked Shoulderpads", "=q1=#m4#: =ds=#s3#, #a2#"};
+				{ 9, 39897, "", "=q3=Azure Shoulderguards", "=q1=#m4#: =ds=#s3#, #a3#"};
 				{ 16, 44148, "", "=q3=Mages Deck", "=ds=#m2#"};
 				{ 17, 44215, "", "=q3=Darkmoon Necklace", "=q1=#m4#: =ds=#s2#"};
 				{ 18, 44213, "", "=q3=Darkmoon Pendant", "=q1=#m4#: =ds=#s2#"};
@@ -1125,23 +1125,23 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#n96#", "=q1=#j19#"};
 				{ 2, 20657, "", "=q3=Crystal Tipped Stiletto", "=ds=#h1#, #w4#", "", "2.31%"};
-				{ 3, 20655, "", "=q2=Abyssal Cloth Handwraps", "=ds=#s9#, #a1#, =q2=#m16#", "", "13.03%"};
-				{ 4, 20656, "", "=q2=Abyssal Mail Sabatons", "=ds=#s12#, #a3# =q2=#m16#", "", "12.89%"};
+				{ 3, 20655, "", "=q2=Abyssal Cloth Handwraps", "=ds=#s9#, #a1#", "", "13.03%"};
+				{ 4, 20656, "", "=q2=Abyssal Mail Sabatons", "=ds=#s12#, #a3#", "", "12.89%"};
 				{ 5, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
 				{ 7, 0, "INV_Box_01", "=q6=#n97#", "=q1=#j20#"};
 				{ 8, 20654, "", "=q3=Amethyst War Staff", "=ds=#w9#", "", "2.38%"};
-				{ 9, 20652, "", "=q2=Abyssal Cloth Slippers", "=ds=#s12#, #a1# =q2=#m16#", "", "12.94%"};
-				{ 10, 20653, "", "=q2=Abyssal Plate Gauntlets", "=ds=#s9#, #a4# =q2=#m16#", "", "13.61%"};
+				{ 9, 20652, "", "=q2=Abyssal Cloth Slippers", "=ds=#s12#, #a1#", "", "12.94%"};
+				{ 10, 20653, "", "=q2=Abyssal Plate Gauntlets", "=ds=#s9#, #a4#", "", "13.61%"};
 				{ 11, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#n98#", "=q1=#j21#"};
 				{ 17, 20660, "", "=q3=Stonecutting Glaive", "=ds=#w7#", "", "2.22%"};
-				{ 18, 20658, "", "=q2=Abyssal Leather Boots", "=ds=#s12#, #a2# =q2=#m16#", "", "13.16%"};
-				{ 19, 20659, "", "=q2=Abyssal Mail Handguards", "=ds=#s9#, #a3# =q2=#m16#", "", "12.64%"};
+				{ 18, 20658, "", "=q2=Abyssal Leather Boots", "=ds=#s12#, #a2#", "", "13.16%"};
+				{ 19, 20659, "", "=q2=Abyssal Mail Handguards", "=ds=#s9#, #a3#", "", "12.64%"};
 				{ 20, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
 				{ 22, 0, "INV_Box_01", "=q6=#n99#", "=q1=#j22#"};
 				{ 23, 20663, "", "=q3=Deep Strike Bow", "=ds=#w2#", "", "2.55%"};
-				{ 24, 20661, "", "=q2=Abyssal Leather Gloves", "=ds=#s9#, #a2# =q2=#m16#", "", "13.16%"};
-				{ 25, 20662, "", "=q2=Abyssal Plate Greaves", "=ds=#s12#, #a4# =q2=#m16#", "", "12.93%"};
+				{ 24, 20661, "", "=q2=Abyssal Leather Gloves", "=ds=#s9#, #a2#", "", "13.16%"};
+				{ 25, 20662, "", "=q2=Abyssal Plate Greaves", "=ds=#s12#, #a4#", "", "12.93%"};
 				{ 26, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
 			};
 		};
@@ -1155,26 +1155,26 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#n100#", "=q1=#j19#"};
-				{ 2, 20665, "", "=q3=Abyssal Leather Leggings", "=ds=#s11#, #a2# =q2=#m16#", "", "22.50%"};
+				{ 2, 20665, "", "=q3=Abyssal Leather Leggings", "=ds=#s11#, #a2#", "", "22.50%"};
 				{ 3, 20666, "", "=q3=Hardened Steel Warhammer", "=ds=#h3#, #w6#", "", "30.47%"};
 				{ 4, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
-				{ 5, 20664, "", "=q2=Abyssal Cloth Sash", "=ds=#s10#, #a1# =q2=#m16#", "", "27.08%"};
+				{ 5, 20664, "", "=q2=Abyssal Cloth Sash", "=ds=#s10#, #a1#", "", "27.08%"};
 				{ 6, 21989, "", "=q1=Cinder of Cynders", "=ds=#m3#", "", "100%"};
 				{ 8, 0, "INV_Box_01", "=q6=#n101#", "=q1=#j20#"};
-				{ 9, 20668, "", "=q3=Abyssal Mail Legguards", "=ds=#s11#, #a3# =q2=#m16#", "", "22.40%"};
+				{ 9, 20668, "", "=q3=Abyssal Mail Legguards", "=ds=#s11#, #a3#", "", "22.40%"};
 				{ 10, 20669, "", "=q3=Darkstone Claymore", "=ds=#h2#, #w10#", "", "29.62%"};
 				{ 11, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
-				{ 12, 20667, "", "=q2=Abyssal Leather Belt", "=ds=#s10#, #a2# =q2=#m16#", "", "29.04%"};
+				{ 12, 20667, "", "=q2=Abyssal Leather Belt", "=ds=#s10#, #a2#", "", "29.04%"};
 				{ 16, 0, "INV_Box_01", "=q6=#n102#", "=q1=#j21#"};
-				{ 17, 20674, "", "=q3=Abyssal Cloth Pants", "=ds=#s11#, #a1# =q2=#m16#", "", "21.83%"};
+				{ 17, 20674, "", "=q3=Abyssal Cloth Pants", "=ds=#s11#, #a1#", "", "21.83%"};
 				{ 18, 20675, "", "=q3=Soulrender", "=ds=#h1#, #w1#", "", "29.73%"};
 				{ 19, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
-				{ 20, 20673, "", "=q2=Abyssal Plate Girdle", "=ds=#s10#, #a4# =q2=#m16#", "", "27.11%"};
+				{ 20, 20673, "", "=q2=Abyssal Plate Girdle", "=ds=#s10#, #a4#", "", "27.11%"};
 				{ 23, 0, "INV_Box_01", "=q6=#n103#", "=q1=#j22#"};
-				{ 24, 20671, "", "=q3=Abyssal Plate Legplates", "=ds=#s11#, #a4# =q2=#m16#", "", "22.63%"};
+				{ 24, 20671, "", "=q3=Abyssal Plate Legplates", "=ds=#s11#, #a4#", "", "22.63%"};
 				{ 25, 20672, "", "=q3=Sparkling Crystal Wand", "=ds=#w12#", "", "28.90%"};
 				{ 26, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
-				{ 27, 20670, "", "=q2=Abyssal Mail Clutch", "=ds=#s10#, #a3# =q2=#m16#", "", "28.16%"};
+				{ 27, 20670, "", "=q2=Abyssal Mail Clutch", "=ds=#s10#, #a3#", "", "28.16%"};
 			};
 		};
 		info = {
@@ -1189,23 +1189,23 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 1, 0, "INV_Box_01", "=q6=#n104#", "=q1=#j19#"};
 				{ 2, 20682, "", "=q4=Elemental Focus Band", "=ds=#s13#", "", "22.83%"};
 				{ 3, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 4, 20681, "", "=q3=Abyssal Leather Bracers", "=ds=#s8#, #a2# =q2=#m16#", "", "24.70%"};
-				{ 5, 20680, "", "=q3=Abyssal Mail Pauldrons", "=ds=#s3#, #a3# =q2=#m16#", "", "24.21%"};
+				{ 4, 20681, "", "=q3=Abyssal Leather Bracers", "=ds=#s8#, #a2#", "", "24.70%"};
+				{ 5, 20680, "", "=q3=Abyssal Mail Pauldrons", "=ds=#s3#, #a3#", "", "24.21%"};
 				{ 7, 0, "INV_Box_01", "=q6=#n105#", "=q1=#j20#"};
 				{ 8, 20685, "", "=q4=Wavefront Necklace", "=ds=#s2#", "", "24.48%"};
 				{ 9, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 10, 20684, "", "=q3=Abyssal Mail Armguards", "=ds=#s8#, #a3# =q2=#m16#", "", "27.68%"};
-				{ 11, 20683, "", "=q3=Abyssal Plate Epaulets", "=ds=#s3#, #a4# =q2=#m16#", "", "21.52%"};
+				{ 10, 20684, "", "=q3=Abyssal Mail Armguards", "=ds=#s8#, #a3#", "", "27.68%"};
+				{ 11, 20683, "", "=q3=Abyssal Plate Epaulets", "=ds=#s3#, #a4#", "", "21.52%"};
 				{ 16, 0, "INV_Box_01", "=q6=#n106#", "=q1=#j21#"};
 				{ 17, 20691, "", "=q4=Windshear Cape", "=ds=#s4#", "", "22.08%"};
 				{ 18, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 19, 20690, "", "=q3=Abyssal Cloth Wristbands", "=ds=#s8#, #a1# =q2=#m16#", "", "23.60%"};
-				{ 20, 20689, "", "=q3=Abyssal Leather Shoulders", "=ds=#s3#, #a3# =q2=#m16#", "", "23.40%"};
+				{ 19, 20690, "", "=q3=Abyssal Cloth Wristbands", "=ds=#s8#, #a1#", "", "23.60%"};
+				{ 20, 20689, "", "=q3=Abyssal Leather Shoulders", "=ds=#s3#, #a3#", "", "23.40%"};
 				{ 22, 0, "INV_Box_01", "=q6=#n107#", "=q1=#j22#"};
 				{ 23, 20688, "", "=q4=Earthen Guard", "=ds=#w8#", "", "20.64%"};
 				{ 24, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 25, 20686, "", "=q3=Abyssal Cloth Amice", "=ds=#s3#, #a1# =q2=#m16#", "", "23.96%"};
-				{ 26, 20687, "", "=q3=Abyssal Plate Vambraces", "=ds=#s8#, #a4# =q2=#m16#", "", "23.66%"};
+				{ 25, 20686, "", "=q3=Abyssal Cloth Amice", "=ds=#s3#, #a1#", "", "23.96%"};
+				{ 26, 20687, "", "=q3=Abyssal Plate Vambraces", "=ds=#s8#, #a4#", "", "23.66%"};
 			};
 		};
 		info = {
@@ -1221,18 +1221,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ArmbreakerHuffaz"] = {
 		["Normal"] = {
 			{
-				{ 1, 31943, "", "=q3=Ethereum Band", "=ds=#s13# =q2=#m16#", "", "10.7%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "1.36%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "0.4%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "0.36%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "1.1%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "0.6%"};
+				{ 1, 31943, "", "=q3=Ethereum Band", "=ds=#s13#", "", "10.7%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "1.36%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "0.4%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "0.36%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "1.1%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "0.6%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "0.7%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "0.8%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "0.5%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "1.0%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "1.3%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "0.7%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "0.8%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "0.5%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "1.0%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "1.3%"};
 			};
 		};
 		info = {
@@ -1244,18 +1244,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["FelTinkererZortan"] = {
 		["Normal"] = {
 			{
-				{ 1, 31573, "", "=q3=Mistshroud Boots", "=ds=#s12#, #a3# =q2=#m16#", "", "9.7%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "0.94%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "1.0%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "0.94%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "0.4%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "0.7%"};
+				{ 1, 31573, "", "=q3=Mistshroud Boots", "=ds=#s12#, #a3#", "", "9.7%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "0.94%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "1.0%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "0.94%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "0.4%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "0.7%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "1.0%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "1.3%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "1.2%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "1.0%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "1.2%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "1.0%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "1.3%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "1.2%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "1.0%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "1.2%"};
 			};
 		};
 		info = {
@@ -1267,18 +1267,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Forgosh"] = {
 		["Normal"] = {
 			{
-				{ 1, 31565, "", "=q3=Skystalker's Boots", "=ds=#s12#, #a2# =q2=#m16#", "", "8.5%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "2.63%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "0.29%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "0.9%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "0.7%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "1.0%"};
+				{ 1, 31565, "", "=q3=Skystalker's Boots", "=ds=#s12#, #a2#", "", "8.5%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "2.63%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "0.29%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "0.9%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "0.7%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "1.0%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "0.9%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "1.9%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "0.5%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "1.0%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "0.7%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "0.9%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "1.9%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "0.5%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "1.0%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "0.7%"};
 			};
 		};
 		info = {
@@ -1290,18 +1290,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Gulbor"] = {
 		["Normal"] = {
 			{
-				{ 1, 31940, "", "=q3=Ethereum Torque", "=ds=#s2# =q2=#m16#", "", "9.5%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "0.66%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "0.66%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "1.1%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "1.1%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "0.8%"};
+				{ 1, 31940, "", "=q3=Ethereum Torque", "=ds=#s2#", "", "9.5%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "0.66%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "0.66%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "1.1%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "1.1%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "0.8%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "0.7%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "0.9%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "0.8%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "0.8%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "2.0%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "0.7%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "0.9%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "0.8%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "0.8%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "2.0%"};
 			};
 		};
 		info = {
@@ -1313,18 +1313,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["MalevustheMad"] = {
 		["Normal"] = {
 			{
-				{ 1, 31581, "", "=q3=Slatesteel Boots", "=ds=#s12#, #a4# =q2=#m16#", "", "10.5%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "2.46%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "0.70%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "1.5%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "0.7%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "1.3%"};
+				{ 1, 31581, "", "=q3=Slatesteel Boots", "=ds=#s12#, #a4#", "", "10.5%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "2.46%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "0.70%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "1.5%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "0.7%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "1.3%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "0.5%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "0.8%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "1.75%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "0.6%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "1.8%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "0.5%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "0.8%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "1.75%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "0.6%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "1.8%"};
 			};
 		};
 		info = {
@@ -1336,18 +1336,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["PorfustheGemGorger"] = {
 		["Normal"] = {
 			{
-				{ 1, 31557, "", "=q3=Windchanneller's Boots", "=ds=#s12#, #a1# =q2=#m16#", "", "7.9%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "1.89%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "0.81%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "1.0%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "0.7%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "1.1%"};
+				{ 1, 31557, "", "=q3=Windchanneller's Boots", "=ds=#s12#, #a1#", "", "7.9%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "1.89%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "0.81%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "1.0%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "0.7%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "1.1%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "0.7%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "0.6%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "1.8%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "1.0%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "1.1%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "0.7%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "0.6%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "1.8%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "1.0%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "1.1%"};
 			};
 		};
 		info = {
@@ -1359,18 +1359,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["WrathbringerLaztarash"] = {
 		["Normal"] = {
 			{
-				{ 1, 32520, "", "=q3=Manaforged Sphere", "=ds=#s15# =q2=#m16#", "", "10.4%"};
-				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4# =q2=#m16#", "", "1.06%"};
-				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4# =q2=#m16#", "", "1.06%"};
-				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4# =q2=#m16#", "", "0.8%"};
-				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4# =q2=#m16#", "", "1.5%"};
-				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4# =q2=#m16#", "", "0.3%"};
+				{ 1, 32520, "", "=q3=Manaforged Sphere", "=ds=#s15#", "", "10.4%"};
+				{ 3, 31939, "", "=q3=Dark Cloak", "=ds=#s4#", "", "1.06%"};
+				{ 4, 31938, "", "=q3=Enigmatic Cloak", "=ds=#s4#", "", "1.06%"};
+				{ 5, 31936, "", "=q3=Fiery Cloak", "=ds=#s4#", "", "0.8%"};
+				{ 6, 31935, "", "=q3=Frigid Cloak", "=ds=#s4#", "", "1.5%"};
+				{ 7, 31937, "", "=q3=Living Cloak", "=ds=#s4#", "", "0.3%"};
 				{ 9, 31957, "", "=q2=Ethereum Prisoner I.D. Tag", "=ds=#m3#", "", "100%"};
-				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13# =q2=#m16#", "", "0.7%"};
-				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13# =q2=#m16#", "", "0.7%"};
-				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13# =q2=#m16#", "", "1.2%"};
-				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13# =q2=#m16#", "", "1.1%"};
-				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13# =q2=#m16#", "", "1.1%"};
+				{ 18, 31928, "", "=q3=Dark Band", "=ds=#s13#", "", "0.7%"};
+				{ 19, 31929, "", "=q3=Enigmatic Band", "=ds=#s13#", "", "0.7%"};
+				{ 20, 31925, "", "=q3=Fiery Band", "=ds=#s13#", "", "1.2%"};
+				{ 21, 31926, "", "=q3=Frigid Band", "=ds=#s13#", "", "1.1%"};
+				{ 22, 31927, "", "=q3=Living Band", "=ds=#s13#", "", "1.1%"};
 			};
 		};
 		info = {
@@ -1383,19 +1383,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#n118#", ""};
-				{ 2, 32522, "", "=q3=Demonic Bulwark", "=ds=#w8# =q2=#m16#", "", ""};
+				{ 2, 32522, "", "=q3=Demonic Bulwark", "=ds=#w8#", "", ""};
 				{ 3, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 				{ 5, 0, "INV_Box_01", "=q6=#n119#", ""};
-				{ 6, 31577, "", "=q3=Slatesteel Shoulders", "=ds=#s3#, #a4# =q2=#m16#", "", ""};
+				{ 6, 31577, "", "=q3=Slatesteel Shoulders", "=ds=#s3#, #a4#", "", ""};
 				{ 7, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 				{ 9, 0, "INV_Box_01", "=q6=#n120#", ""};
-				{ 10, 31569, "", "=q3=Mistshroud Shoulders", "=ds=#s3#, #a3# =q2=#m16#", "", ""};
+				{ 10, 31569, "", "=q3=Mistshroud Shoulders", "=ds=#s3#, #a3#", "", ""};
 				{ 11, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 				{ 16, 0, "INV_Box_01", "=q6=#n121#", ""};
-				{ 17, 31553, "", "=q3=Windchanneller's Mantle", "=ds=#s3#, #a1# =q2=#m16#", "", ""};
+				{ 17, 31553, "", "=q3=Windchanneller's Mantle", "=ds=#s3#, #a1#", "", ""};
 				{ 18, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 				{ 20, 0, "INV_Box_01", "=q6=#n122#", ""};
-				{ 21, 31561, "", "=q3=Skystalker's Shoulders", "=ds=#s3#, #a2# =q2=#m16#", "", ""};
+				{ 21, 31561, "", "=q3=Skystalker's Shoulders", "=ds=#s3#, #a2#", "", ""};
 				{ 22, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 			};
 		};
@@ -1451,15 +1451,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 32529, "", "=q3=Heretic's Gauntlets", "=ds=#s9#, #a4#", "", "17.3%"};
 				{ 2, 32715, "", "=q2=Akkarai's Talons", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1# =q2=#m16#", "", "5.3%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1# =q2=#m16#", "", "4.3%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2# =q2=#m16#", "", "6.8%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2# =q2=#m16#", "", "6.2%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3# =q2=#m16#", "", "4.1%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3# =q2=#m16#", "", "4.5%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4# =q2=#m16#", "", "6.7%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4# =q2=#m16#", "", "5.5%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13# =q2=#m16#", "", "31.5%"};
+				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.3%"};
+				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "4.3%"};
+				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "6.8%"};
+				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "6.2%"};
+				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "4.1%"};
+				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "4.5%"};
+				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
+				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "5.5%"};
+				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "31.5%"};
 			};
 		};
 		info = {
@@ -1473,15 +1473,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 32533, "", "=q3=Karrog's Shard", "=ds=#s15#", "", "15.0%"};
 				{ 2, 32717, "", "=q2=Karrog's Spine", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1# =q2=#m16#", "", "5.6%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1# =q2=#m16#", "", "6.8%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2# =q2=#m16#", "", "6.0%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2# =q2=#m16#", "", "8.0%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3# =q2=#m16#", "", "5.6%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3# =q2=#m16#", "", "3.6%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4# =q2=#m16#", "", "4.3%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4# =q2=#m16#", "", "5.3%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13# =q2=#m16#", "", "24.9%"};
+				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.6%"};
+				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "6.8%"};
+				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "6.0%"};
+				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "8.0%"};
+				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.6%"};
+				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "3.6%"};
+				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "4.3%"};
+				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "5.3%"};
+				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "24.9%"};
 			};
 		};
 		info = {
@@ -1495,15 +1495,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 32531, "", "=q3=Gezzarak's Fang", "=ds=#s2#", "", "16.9%"};
 				{ 2, 32716, "", "=q2=Gezzarak's Claws", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1# =q2=#m16#", "", "5.2%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1# =q2=#m16#", "", "6.9%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2# =q2=#m16#", "", "5.2%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2# =q2=#m16#", "", "4.9%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3# =q2=#m16#", "", "5.8%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3# =q2=#m16#", "", "5.4%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4# =q2=#m16#", "", "6.2%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4# =q2=#m16#", "", "4.6%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13# =q2=#m16#", "", "25.7%"};
+				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.2%"};
+				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "6.9%"};
+				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "5.2%"};
+				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "4.9%"};
+				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.8%"};
+				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "5.4%"};
+				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "6.2%"};
+				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "4.6%"};
+				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "25.7%"};
 			};
 		};
 		info = {
@@ -1517,15 +1517,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 32532, "", "=q3=Windrager's Coils", "=ds=#s8#, #a3#", "", "18.1%"};
 				{ 2, 32718, "", "=q2=Vakkiz's Scale", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1# =q2=#m16#", "", "5.0%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1# =q2=#m16#", "", "4.4%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2# =q2=#m16#", "", "4.1%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2# =q2=#m16#", "", "3.9%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3# =q2=#m16#", "", "5.7%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3# =q2=#m16#", "", "6.3%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4# =q2=#m16#", "", "5.8%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4# =q2=#m16#", "", "2.7%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13# =q2=#m16#", "", "28.7%"};
+				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.0%"};
+				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "4.4%"};
+				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "4.1%"};
+				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "3.9%"};
+				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.7%"};
+				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "6.3%"};
+				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "5.8%"};
+				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "2.7%"};
+				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "28.7%"};
 			};
 		};
 		info = {
@@ -1539,15 +1539,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 32540, "", "=q4=Terokk's Might", "=ds=#s4#", "", "4.6%"};
 				{ 2, 32541, "", "=q4=Terokk's Wisdom", "=ds=#s4#", "", "4.6%"};
-				{ 3, 31556, "", "=q3=Windchanneller's Leggings", "=ds=#s11#, #a1# =q2=#m16#", "", "14.3%"};
-				{ 4, 31564, "", "=q3=Skystalker's Leggings", "=ds=#s11#, #a2# =q2=#m16#", "", "13.9%"};
-				{ 5, 31572, "", "=q3=Mistshroud Pants", "=ds=#s11#, #a3# =q2=#m16#", "", "10.7%"};
-				{ 6, 31580, "", "=q3=Slatesteel Leggings", "=ds=#s11#, #a4# =q2=#m16#", "", "11.6%"};
+				{ 3, 31556, "", "=q3=Windchanneller's Leggings", "=ds=#s11#, #a1#", "", "14.3%"};
+				{ 4, 31564, "", "=q3=Skystalker's Leggings", "=ds=#s11#, #a2#", "", "13.9%"};
+				{ 5, 31572, "", "=q3=Mistshroud Pants", "=ds=#s11#, #a3#", "", "10.7%"};
+				{ 6, 31580, "", "=q3=Slatesteel Leggings", "=ds=#s11#, #a4#", "", "11.6%"};
 				{ 7, 32535, "", "=q3=Gift of the Talonpriests", "=ds=#s13#", "", "7.9%"};
 				{ 8, 32534, "", "=q3=Brooch of the Immortal King", "=ds=#s14#", "", "11.2%"};
 				{ 9, 32782, "", "=q3=Time-Lost Figurine", "=ds=#s14#", "", ""};
-				{ 10, 32536, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6# =q2=#m16#", "", "6.7%"};
-				{ 11, 32537, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6# =q2=#m16#", "", "7.9%"};
+				{ 10, 32536, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6#", "", "6.7%"};
+				{ 11, 32537, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6#", "", "7.9%"};
 			};
 		};
 		info = {
