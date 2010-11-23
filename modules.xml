@@ -3,17 +3,11 @@
 
 <!--@debug@-->
 <Script file="LootTableModules\ClassicWoW\classicwow.lua"/>
-<!-- <Script file="LootTableModules\ClassicWoW\localization.lua"/> -->
 <Script file="LootTableModules\BurningCrusade\burningcrusade.lua"/>
-<!-- <Script file="LootTableModules\BurningCrusade\localization.lua"/> -->
 <Script file="LootTableModules\WrathoftheLichKing\wrathofthelichking.lua"/>
-<!-- <Script file="LootTableModules\WrathoftheLichKing\localization.lua"/> -->
 <Script file="LootTableModules\Cataclysm\cataclysm.lua"/>
-<!-- <Script file="LootTableModules\Cataclysm\localization.lua"/> -->
 <Script file="LootTableModules\Crafting\crafting.lua"/>
-<!-- <Script file="LootTableModules\Crafting\localization.lua"/> -->
 <Script file="LootTableModules\WorldEvents\worldevents.lua"/>
-<!-- <Script file="LootTableModules\WorldEvents\localization.lua"/> -->
 <!--@end-debug@-->
  
 </Ui>
