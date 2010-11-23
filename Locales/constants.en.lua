@@ -228,7 +228,6 @@ if AL then
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = true;
 	AL["Set Minimap Button Position"] = true;
 	AL["Notify on LoD Module Load"] = true;
-	AL["Load Loot Modules at Startup"] = true;
 	AL["Loot Browser Scale: "] = true;
 	AL["Button Position: "] = true;
 	AL["Button Radius: "] = true;
@@ -350,8 +349,6 @@ if AL then
 	AL["Mark items from all Wishlists"] = true;
 	AL["Enable Wishlist Sharing"] = true;
 	AL["Auto reject in combat"] = true;
-	AL["Always use default Wishlist"] = true;
-	AL["Add Wishlist"] = true;
 	AL["Edit Wishlist"] = true;
 	AL["Show More Icons"] = true;
 	AL["Edit"] = true;
@@ -486,7 +483,6 @@ if AL then
 	AL["Tier 10"] = true;
 	AL["Tier 11"] = true;
 	AL["10 Man"] = true;
-	AL["25 Man"] = true;
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;
 	AL["Rare Set"] = true;
@@ -541,7 +537,6 @@ if AL then
 	AL["Level 30-39"] = true;
 	AL["Level 40-49"] = true;
 	AL["Level 50-60"] = true;
-	AL["Heroic"] = true;
 	AL["Summon"] = true;
 	AL["Random"] = true;
 	AL["Brew of the Month Club"] = true;
