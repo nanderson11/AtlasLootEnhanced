@@ -1103,7 +1103,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 24, 53506, "", "=q4=Cloak of Mocking Winds", "=ds=#s4#"};
  				{ 25, 53507, "", "=q4=Sandfury Sandals", "=ds=#s12#, #a1#"};
 				{ 26, 53508, "", "=q4=Pulmonary Casing", "=ds=#s5#, #a2#"};
-				{ 27, 53509, "", "=q4=Amulet of the Evil Winds", "=ds=#s2#"};
+				{ 27, 54592, "", "=q4=Sul'Iithuz Scale Bracers", "=ds=#s8#, #a3#"};
+				{ 28, 53509, "", "=q4=Amulet of the Evil Winds", "=ds=#s2#"};
 			};
 		};
 		info = {
