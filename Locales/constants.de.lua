@@ -56,7 +56,7 @@ if AL then
 	AL["Alt+Left Click any item to add it to the wishlist."] = "Alt+Linksklick auf einen Gegenstand fügt ihn zum Wunschzettel hinzu.";
 	AL["How to delete an item from the wishlist:"] = "Einen Gegenstand vom Wunschzettel entfernen";
 	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "Zum Entfernen eines Gegenstandes müssen Sie diesen einfach im Wunschzettel Alt+Linksklicken.";
-	AL["What else does the wishlist do?"] = "Wofür sonst ist der Wunschzettel da?";
+	AL["What else does the wishlist do?"] = "Wofür ist der Wunschzettel sonst noch da?";
 	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "Mit einem Linksklick auf einen Gegenstand auf dem Wunschzettel gelangen Sie zu dem Beuteverzeichnis aus dem der Gegenstand stammt. Des Weiteren wird jeder bereits auf dem Wunschzettel befindliche Gegenstand in den Verzeichnissen mit einem zuvor vergebenen Symbol vermerkt.";
 	AL["HELP!! I have broken the mod somehow!"] = "HILFE!!! Das Addon läuft nicht mehr!";
 	AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."] = "Nutzen Sie den Zurücksetzen Button im Optionsmenü oder geben Sie '/al reset' im Chatfenster ein.";
