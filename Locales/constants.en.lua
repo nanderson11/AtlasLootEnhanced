@@ -290,7 +290,7 @@ if AL then
 	AL["Tier 9 Set"] = true;
 	AL["Tier 10 Set"] = true;
 	AL["Tier 11 Set"] = true;
-	AL["TCG Items"] = true;
+	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Transformation Items"] = true;
 
 	-- PvP Menu
