@@ -1638,7 +1638,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 62429, "", "=q3=Windhome Helm", "=ds=#s1#, #a3#"};	
 				{ 12, 62428, "", "=q3=Crown of Wings", "=ds=#s1#, #a4#"};
 				{ 13, 62430, "", "=q3=Gyphon Talon Gauntlets", "=ds=#s9#, #a4#"};
-				{ 14, 62427, "", "=q3=Band of the Singing Grass", "=ds=#s13#"};
+				{ 14, 62427, "", "=q3=Band of Singing Grass", "=ds=#s13#"};
 				{ 15, 62422, "", "=q7=Arcanum of the Wildhammer", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_wildhammerclan", "=q6=#r5#", ""};
 				{ 17, 62433, "", "=q4=Stormbolt Gloves", "=ds=#s9#, #a2#"};

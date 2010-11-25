@@ -733,7 +733,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 4, 23379, "", "=q2=Cinder Bracers", "=ds=#e22#"};
 				{ 6, 23246, "", "=q1=Fiery Festival Brew", "2 #fireflower#"};
 				{ 7, 23435, "", "=q1=Elderberry Pie", "5 #fireflower#"};
-				{ 8, 23327, "", "=q1=Fire-toasted Bun", "5 #fireflower#"};
+				{ 8, 23327, "", "=q1=Fire-Toasted Bun", "5 #fireflower#"};
 				{ 9, 23326, "", "=q1=Midsummer Sausage", "5 #fireflower#"};
 				{ 10, 23211, "", "=q1=Toasted Smorc", "5 #fireflower#"};
 				{ 11, 34684, "", "=q1=Handful of Summer Petals", "2 #fireflower#"};
@@ -1103,8 +1103,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 24, 53506, "", "=q4=Cloak of Mocking Winds", "=ds=#s4#"};
  				{ 25, 53507, "", "=q4=Sandfury Sandals", "=ds=#s12#, #a1#"};
 				{ 26, 53508, "", "=q4=Pulmonary Casing", "=ds=#s5#, #a2#"};
-				{ 27, 54592, "", "=q4=Sul'Iithuz Scale Bracers", "=ds=#s8#, #a3#"};
-				{ 28, 53509, "", "=q4=Amulet of the Evil Winds", "=ds=#s2#"};
+				{ 27, 54592, "", "=q4=Sul'lithuz Scale Bracers", "=ds=#s8#, #a3#"};
+				{ 28, 53509, "", "=q4=Amulet of Evil Winds", "=ds=#s2#"};
 			};
 		};
 		info = {
