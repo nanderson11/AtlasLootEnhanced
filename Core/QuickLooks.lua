@@ -212,7 +212,6 @@ function AtlasLoot:SetEnableQuickLook(value)
 	AtlasLoot:RefreshModuleOptions()
 end
 
-
 function AtlasLoot:GetEnableQuickLook()
 	return AtlasLoot.db.profile.EnableQuickLook
 end

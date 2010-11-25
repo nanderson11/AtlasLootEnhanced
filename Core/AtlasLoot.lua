@@ -1031,8 +1031,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.QuickLooks:Hide()
 		self.ItemFrame.QuickLooksName:Hide()
 	else
-		self.ItemFrame.QuickLooks:Show()
-		self.ItemFrame.QuickLooksName:Show()
+		self:SetEnableQuickLook(self:GetEnableQuickLook())
 	end
 end
 

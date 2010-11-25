@@ -13,6 +13,7 @@ local modules = { "AtlasLoot_BurningCrusade", "AtlasLoot_Crafting", "AtlasLoot_O
 local currentPage = 1;
 local SearchResult = nil;
 local lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
+local searchCache = ""
 local searchTableSort
 AtlasLoot_Data["SearchResult"] = {
 	
@@ -33,7 +34,9 @@ function AtlasLoot:Search(Text)
 		return
 	end
 	Text = strtrim(Text);
+	searchCache = Text
 	if Text == "" then return end
+	if string.lower(Text) == string.lower(searchCache) then return end
 	local searchResult = {}
 	AtlasLoot.db.profile.LastSearch = Text
 	-- Decide if we need load all modules or just specified ones

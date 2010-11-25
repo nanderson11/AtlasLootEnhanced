@@ -23,3 +23,4 @@ function AtlasLoot_GetLocaleLibBabble(typ)
 	end
 	return rettab
 end
+

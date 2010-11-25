@@ -143,12 +143,14 @@ do
 	end
 	
 	local function getTwoHandOpt(info)
-		return db.filterSlots["WeaponsMeeleTwoHand"][info[#info]]
+		local dbEntry = gsub(info[#info], "2Hand", "")
+		return db.filterSlots["WeaponsMeeleTwoHand"][dbEntry]
 	end
 	
 	local function setTwoHandOpt(info, value)
-		db.filterSlots["WeaponsMeeleTwoHand"][info[#info]] = value
-		return db.filterSlots["WeaponsMeeleTwoHand"][info[#info]]
+		local dbEntry = gsub(info[#info], "2Hand", "")
+		db.filterSlots["WeaponsMeeleTwoHand"][dbEntry] = value
+		return db.filterSlots["WeaponsMeeleTwoHand"][dbEntry]
 	end
 	
 	
@@ -232,7 +234,7 @@ do
 						width = "full",
 					}
 					for smallOrder,slot in SortTable(tab, tabName) do
-						options.args["WeaponsMeele"].args[slot] = {
+						options.args["WeaponsMeele"].args[slot.."2Hand"] = {
 							type = "toggle",
 							name = FilterTableNames[tabName].." "..FilterTableNamesSlots[slot],
 							--desc = ,
