@@ -328,9 +328,6 @@ if AL then
 	AL["Raid"] = "Banda";
 	AL["Hard Mode"] = "Modo dificil";
 	AL["Bonus Loot"] = "Botín bonus";
-	AL["One Drake Left"] = "Con un dragón";
-	AL["Two Drakes Left"] = "Con dos dragones";
-	AL["Three Drakes Left"] = "Con tres dragones";
 	AL["Arena Reward"] = "Recompensas de arena";
 	AL["Phase 1"] = "Fase 1";
 	AL["Phase 2"] = "Fase 2";

@@ -1332,64 +1332,84 @@ AtlasLoot_LootTableRegister = {
 		},
 	},
 
-------------
---- Sets ---
-------------
+---------------------
+--- Battlegrounds ---
+---------------------
 
-	--[[
+
 	["Battlegrounds"] = {
 		["AlteracValleyNorth"] = {
 			["Bosses"] = {
-				{ BabbleZone["Alterac Valley"], "AlteracFactions", 1 },
-				{ BabbleZone["Alterac Valley"].." "..AL["Epic Rewards"], "AVPurple", 64 },
-				{ BabbleZone["Alterac Valley"].." "..AL["Superior Rewards"], "AVBlue", 63 },
-				{ BabbleZone["Alterac Valley"].." "..AL["Misc. Rewards"], "AVMisc", 62 },
+				{ "AlteracFactions", 1 },
+				{ "AVMisc", 62 },
+				{ "AVBlue", 63 },
 			},
 			["Info"] = { BabbleZone["Alterac Valley"], "AtlasLootClassicWoW" },
 		},
 		
 		["AlteracValleySouth"] = {
 			["Bosses"] = {
-				{ BabbleZone["Alterac Valley"], "AlteracFactions", 1 },
-				{ BabbleZone["Alterac Valley"].." "..AL["Misc. Rewards"], "AVMisc", 45 },
-				{ BabbleZone["Alterac Valley"].." "..AL["Superior Rewards"], "AVBlue", 46 },
-				{ BabbleZone["Alterac Valley"].." "..AL["Epic Rewards"], "AVPurple", 47 },
+				{ "AlteracFactions", 1 },
+				{ "AVMisc", 45 },
+				{ "AVBlue", 46 },
 			},
 			["Info"] = { BabbleZone["Alterac Valley"], "AtlasLootClassicWoW" },
 		},
-		
 		["ArathiBasin"] = {
 			["Bosses"] = {
-				{ AL["Factions - Original WoW"], "MiscFactions", 1 },
-				{ AL["Factions - Original WoW"], "MiscFactions", 2 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Misc. Rewards"], "ABMisc", 11 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 20-29 Rewards"], "AB20291", 12 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 20-29 Rewards"], "AB20292", 13 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 30-39 Rewards"], "AB3039", 14 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 40-49 Rewards"], "AB40491", 15 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 40-49 Rewards"], "AB40492", 16 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 50-59 Rewards"], "AB5059", 17 },
-				{ BabbleZone["Arathi Basin"].." "..AL["Level 60 Rewards"], "AB60", 18 },
-				{ BabbleZone["Arathi Basin"].." "..AL["PvP Armor Sets"].." ("..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"]..")", "ABSets1", 20 },
-
+				{ "MiscFactions", {1,2} },
+				{ "AB2039", 11 },
+				{ "AB4049", 12 },
+				{ "ABSets", 13 },
+				{ "ABMisc", 14 },
 			},
 			["Info"] = { BabbleZone["Arathi Basin"], "AtlasLootClassicWoW" },
 		},
-
-		["WarsongGulch"] = {
+		["HalaaPvP"] = {
 			["Bosses"] = {
-				{ BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "WSGMisc", 6 },
-				{ BabbleZone["Warsong Gulch"].." "..AL["Level 10-19 Rewards"], "WSG1019", 7 },
-				{ BabbleZone["Warsong Gulch"].." "..AL["Level 20-29 Rewards"], "WSG2029", 8 },
-				{ BabbleZone["Warsong Gulch"].." "..AL["Level 30-39 Rewards"], "WSG3039", 9 },
-				{ BabbleZone["Warsong Gulch"].." "..AL["Level 40-49 Rewards"], "WSG4049", 10 },
-				{ BabbleZone["Warsong Gulch"].." "..AL["Level 50-59 Rewards"], "WSG5059", 11 },
-				{ BabbleZone["Warsong Gulch"].." "..AL["Level 60 Rewards"], "WSG60", 12 },
+				{ "Nagrand", 1 },
 			},
-			["Info"] = { BabbleZone["Warsong Gulch"], "AtlasLootClassicWoW" },
+			["Info"] = { BabbleZone["Nagrand"]..": "..AL["Halaa"], "AtlasLootBurningCrusade" },
+		},
+		["HellfirePeninsulaPvP"] = {
+			["Bosses"] = {
+				{ "Hellfire", 1 },
+			},
+			["Info"] = { BabbleZone["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"], "AtlasLootBurningCrusade" },
+		},
+		["TerokkarForestPvP"] = {
+			["Bosses"] = {
+				{ "Terokkar", 1 },
+			},
+			["Info"] = { BabbleZone["Terokkar Forest"]..": "..AL["Spirit Towers"], "AtlasLootBurningCrusade" },
+		},
+		["ZangarmarshPvP"] = {
+			["Bosses"] = {
+				{ "Zangarmarsh", 1 },
+			},
+			["Info"] = { BabbleZone["Zangarmarsh"]..": "..AL["Twin Spire Ruins"], "AtlasLootBurningCrusade" },
+		},
+		["WintergraspPvP"] = {
+			["Bosses"] = {
+				{ "LakeWintergrasp", 1 },
+			},
+			["Info"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" },
+		},
+		["TolBarad"] = {
+			["Bosses"] = {
+				{ "BaradinsWardens", 1 },
+				{ "HellscreamsReach", 2 },
+			},
+			["Info"] = { BabbleZone["Tol Barad"], "AtlasLootCataclysm" },
+		},
+		["TwinPeaks"] = {
+			["Bosses"] = {
+				{ "WildhammerClan", 1 },
+				{ "DragonmawClan", 2 },
+			},
+			["Info"] = { BabbleZone["Twin Peaks"], "AtlasLootCataclysm" },
 		},
 	},
-	]]--
 
 --------------------
 --- World Bosses ---
@@ -1647,10 +1667,10 @@ AtlasLoot_LootTableRegister = {
 		},
 		["WarsongGulch"] = {
 			["Bosses"] = {
-				{ "WSGMisc" },
-				{ "WSGAccessories" },
-				{ "WSGWeapons" },
-				{ "WSGArmor" },
+				{ "WSGMisc", 6 },
+				{ "WSGAccessories", 7 },
+				{ "WSGWeapons", 8 },
+				{ "WSGArmor", 10 },
 			},
 			["Info"] = { BabbleZone["Warsong Gulch"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
 		},

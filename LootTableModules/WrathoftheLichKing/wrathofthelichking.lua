@@ -4086,7 +4086,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#", "", "18%"};
 				{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#", "", "100%"};
 				{ 8, 43347, "", "=q4=Satchel of Spoils", "", "", "100%"};
-				{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["One Drake Left"]};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2049#"};
 				{ 11, 43988, "", "=q4=Gale-Proof Cloak", "=ds=#s4#", "", "1%"};
 				{ 12, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#", "", "2%"};
 				{ 13, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#", "", "1%"};
@@ -4095,13 +4095,13 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "", "28%"};
 				{ 17, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "", "29%"};
 				{ 18, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "", "37%"};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Two Drakes Left"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2050#"};
 				{ 21, 43995, "", "=q4=Enamored Cowl", "=ds=#s1#, #a1#", "", "0.00%"};
 				{ 22, 43998, "", "=q4=Chestguard of Flagrant Prowess", "=ds=#s5#, #a3#"};
 				{ 23, 43996, "", "=q4=Sabatons of Firmament", "=ds=#s12#, #a3#"};
 				{ 24, 43994, "", "=q4=Belabored Legplates", "=ds=#s11#, #a4#"};
 				{ 25, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#"};
-				{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"]};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2051#"};
 				{ 28, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e27#", "", "100%"};
 			};
 		};
@@ -4122,18 +4122,18 @@ local moduleName = "AtlasLootWotLK"
 				{ 13, 40628, "", "=q4=Gauntlets of the Lost Conqueror", "=ds=#e15#", "", "51%"};
 				{ 14, 40629, "", "=q4=Gauntlets of the Lost Protector", "=ds=#e15#", "", "53%"};
 				{ 15, 40630, "", "=q4=Gauntlets of the Lost Vanquisher", "=ds=#e15#", "", "67%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["One Drake Left"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2052#"};
 				{ 17, 44002, "", "=q4=The Sanctum's Flowing Vestments", "=ds=#s5#, #a1#", "", "7%"};
 				{ 18, 44003, "", "=q4=Upstanding Spaulders", "=ds=#s3#, #a3#", "", "7%"};
 				{ 19, 44004, "", "=q4=Bountiful Gauntlets", "=ds=#s9#, #a3#", "", "6%"};
 				{ 20, 44000, "", "=q4=Dragonstorm Breastplate", "=ds=#s5#, #a4#", "", "6%"};
-				{ 22, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Two Drakes Left"]};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2053#"};
 				{ 23, 44005, "", "=q4=Pennant Cloak", "=ds=#s4#", "", "3%"};
 				{ 24, 44008, "", "=q4=Unsullied Cuffs", "=ds=#s8#, #a1#", "", "3%"};
 				{ 25, 44007, "", "=q4=Headpiece of Reconciliation", "=ds=#s1#, #a2#", "", "3%"};
 				{ 26, 44011, "", "=q4=Leggings of the Honored", "=ds=#s11#, #a2#", "", "3%"};
 				{ 27, 44006, "", "=q4=Obsidian Greathelm", "=ds=#s1#, #a4#", "", "3%"};
-				{ 29, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Three Drakes Left"]};
+				{ 29, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2054#"};
 				{ 30, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e27#", "", "100%"};
 			};
 		};
@@ -4221,7 +4221,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 45287, "", "=q4=Firesoul", "=ds=#h3#, #w10#", "", "17%"};
 				{ 17, 45284, "", "=q4=Kinetic Ripper", "=ds=#h4#, #w13#", "", "19%"};
 				{ 18, 45282, "", "=q4=Ironsoul", "=ds=#h2#, #w6#", "", "19%"};
-				{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3056#"};
 				{ 21, 45293, "", "=q4=Handguards of Potent Cures", "=ds=#s9#, #a2#", "", "0.18%"};
 				{ 22, 45300, "", "=q4=Mantle of Fiery Vengeance", "=ds=#s3#, #a3#"};
 				{ 23, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#", "", "0.25%"};
@@ -4248,7 +4248,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#", "", "18%"};
 				{ 20, 45086, "", "=q4=Rising Sun", "=ds=#w11#", "", "18%"};
-				{ 22, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3057#"};
 				{ 23, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#", "", "0.27%"};
 				{ 24, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
 				{ 25, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
@@ -4359,7 +4359,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 45675, "", "=q4=Power Enhancing Loop", "=ds=#s13#", "", "20%"};
 				{ 16, 45685, "", "=q4=Plasma Foil", "=ds=#h3#, #w4#", "", "22%"};
 				{ 17, 45682, "", "=q4=Pulsing Spellshield", "=ds=#w8#", "", "14%"};
-				{ 19, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3058#"};
 				{ 20, 45869, "", "=q4=Fluxing Energy Coils", "=ds=#s8#, #a2#", "", "3%"};
 				{ 21, 45867, "", "=q4=Breastplate of the Stoneshaper", "=ds=#s5#, #a3#", "", "2%"};
 				{ 22, 45871, "", "=q4=Seal of Ulduar", "=ds=#s13#", "", "2%"};
@@ -4386,7 +4386,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 45246, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#", "", "19%"};
 				{ 20, 45256, "", "=q4=Twisted Visage", "=ds=#w9#", "", "19%"};
 				{ 21, 45257, "", "=q4=Quartz Crystal Wand", "=ds=#w12#", "", "20%"};
-				{ 23, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 23, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3059#"};
 				{ 24, 45446, "", "=q4=Grasps of Reason", "=ds=#s8#, #a1#", "", "0.16%"};
 				{ 25, 45444, "", "=q4=Gloves of the Steady Hand", "=ds=#s9#, #a3#", "", "0.29%"};
 				{ 26, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#", "", "0.16%"};
@@ -4413,7 +4413,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 45418, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#", "", "21%"};
 				{ 16, 45332, "", "=q4=Stormtip", "=ds=#h3#, #w4#", "", "23%"};
 				{ 17, 45331, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#", "", "19%"};
-				{ 19, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2941#"};
 				{ 20, 45455, "", "=q4=Belt of the Crystal Tree", "=ds=#s10#, #a2#", "", "19%"};
 				{ 21, 45447, "", "=q4=Watchful Eye", "=ds=#s2#", "", "18%"};
 				{ 22, 45456, "", "=q4=Loop of the Agile", "=ds=#s13#", "", "16%"};
@@ -4441,7 +4441,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45233, "", "=q4=Rune Edge", "=ds=#h2#, #w10#", "", "20%"};
 				{ 20, 45234, "", "=q4=Rapture", "=ds=#w9#", "", "19%"};
-				{ 22, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2944#"};
 				{ 23, 45242, "", "=q4=Drape of Mortal Downfall", "=ds=#s4#", "", "21%"};
 				{ 24, 45245, "", "=q4=Shoulderpads of the Intruder", "=ds=#s3#, #a2#", "", "14%"};
 				{ 25, 45244, "", "=q4=Greaves of Swift Vengeance", "=ds=#s12#, #a3#", "", "9%"};
@@ -4608,7 +4608,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 45650, "", "=q4=Leggings of the Wayward Conqueror", "=ds=#e15#", "", "29%"};
 				{ 8, 45651, "", "=q4=Leggings of the Wayward Protector", "=ds=#e15#", "", "29%"};
 				{ 9, 45652, "", "=q4=Leggings of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3182#"};
 				{ 17, 45888, "", "=q4=Bitter Cold Armguards", "=ds=#s8#, #a4#", "", "18%"};
 				{ 18, 45876, "", "=q4=Shiver", "=ds=#h1#, #w6#", "", "16%"};
 				{ 19, 45886, "", "=q4=Icecore Staff", "=ds=#w9#", "", "20%"};
@@ -4629,7 +4629,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
 				{ 11, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=#e15#", "", "50%"};
 				{ 12, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=#e15#", "", "71%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3184#"};
 				{ 17, 45461, "", "=q4=Drape of Icy Intent", "=ds=#s4#", "", "19%"};
 				{ 18, 45462, "", "=q4=Gloves of the Frozen Glade", "=ds=#s9#, #a2#", "", "10%"};
 				{ 19, 45460, "", "=q4=Bindings of Winter Gale", "=ds=#s8#, #a3#", "", "12%"};
@@ -4656,7 +4656,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 45659, "", "=q4=Spaulders of the Wayward Conqueror", "=ds=#e15#", "", "25%"};
 				{ 8, 45660, "", "=q4=Spaulders of the Wayward Protector", "=ds=#e15#", "", "28%"};
 				{ 9, 45661, "", "=q4=Spaulders of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3176#"};
 				{ 17, 45928, "", "=q4=Gauntlets of the Thunder God", "=ds=#s9#, #a4#", "", "5%"};
 				{ 18, 45933, "", "=q4=Pendant of the Shallow Grave", "=ds=#s2#", "", "4%"};
 				{ 19, 45931, "", "=q4=Mjolnir Runestone", "=ds=#s14#", "", "5%"};
@@ -4677,7 +4677,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=#e15#", "", "50%"};
 				{ 11, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=#e15#", "", "57%"};
 				{ 12, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=#e15#", "", "71%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3183#"};
 				{ 17, 45473, "", "=q4=Embrace of the Gladiator", "=ds=#s5#, #a2#", "", "2%"};
 				{ 18, 45474, "", "=q4=Pauldrons of the Combatant", "=ds=#s3#, #a3#", "", "2%"};
 				{ 19, 45472, "", "=q4=Warhelm of the Champion", "=ds=#s1#, #a4#", "", "1%"};
@@ -4705,7 +4705,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 45645, "", "=q4=Gloves of the Wayward Protector", "=ds=#e15#", "", "23%"};
 				{ 9, 45646, "", "=q4=Gloves of the Wayward Vanquisher", "=ds=#e15#", "", "30%"};
 				{ 11, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3179#"};
 				{ 17, 45943, "", "=q4=Gloves of Whispering Winds", "=ds=#s9#, #a3#", "", "2%"};
 				{ 18, 45945, "", "=q4=Seed of Budding Carnage", "=ds=#s2#", "", "2%"};
 				{ 19, 45946, "", "=q4=Fire Orchid Signet", "=ds=#s13#", "", "2%"};
@@ -4727,7 +4727,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 11, 45654, "", "=q4=Legplates of the Wayward Protector", "=ds=#e15#", "", "52%"};
 				{ 12, 45655, "", "=q4=Legplates of the Wayward Vanquisher", "=ds=#e15#", "", "69%"};
 				{ 14, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3187#"};
 				{ 17, 45486, "", "=q4=Drape of the Sullen Goddess", "=ds=#s4#"};
 				{ 18, 45488, "", "=q4=Leggings of the Enslaved Idol", "=ds=#s11#, #a1#", "", "0.13%"};
 				{ 19, 45487, "", "=q4=Handguards of Revitalization", "=ds=#s9#, #a4#", "", "0.34%"};
@@ -4754,7 +4754,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 45647, "", "=q4=Helm of the Wayward Conqueror", "=ds=#e15#", "", "28%"};
 				{ 8, 45648, "", "=q4=Helm of the Wayward Protector", "=ds=#e15#", "", "75%"};
 				{ 9, 45649, "", "=q4=Helm of the Wayward Vanquisher", "=ds=#e15#", "", "37%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3180#"};
 				{ 17, 45993, "", "=q4=Mimiron's Flight Goggles", "=ds=#s1#, #a2#", "", "1%"};
 				{ 18, 45989, "", "=q4=Tempered Mercury Greaves", "=ds=#s12#, #a3#", "", "0.34%"};
 				{ 19, 45982, "", "=q4=Fused Alloy Legplates", "=ds=#s11#, #a4#", "", "0.34%"};
@@ -4775,7 +4775,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#", "", "45%"};
 				{ 11, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#", "", "50%"};
 				{ 12, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#", "", "68%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3189#"};
 				{ 17, 45496, "", "=q4=Titanskin Cloak", "=ds=#s4#", "", "0.33%"};
 				{ 18, 45497, "", "=q4=Crown of Luminescence", "=ds=#s1#, #a1#"};
 				{ 19, 45663, "", "=q4=Armbands of Bedlam", "=ds=#s8#, #a4#"};
@@ -4805,7 +4805,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 46010, "", "=q4=Darkstone Ring", "=ds=#s13#", "", "21%"};
 				{ 16, 46011, "", "=q4=Shadowbite", "=ds=#h1#, #w4#", "", "19%"};
 				{ 17, 45996, "", "=q4=Hoperender", "=ds=#w7#", "", "22%"};
-				{ 19, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3181#"};
 				{ 20, 46032, "", "=q4=Drape of the Faceless General", "=ds=#s4#", "", "2%"};
 				{ 21, 46034, "", "=q4=Leggings of Profound Darkness", "=ds=#s11#, #a1#", "", "3%"};
 				{ 22, 46036, "", "=q4=Void Sabre", "=ds=#h1#, #w10#", "", "2%"};
@@ -4832,7 +4832,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "20%"};
 				{ 20, 45511, "", "=q4=Scepter of Lost Souls", "=ds=#w12#", "", "19%"};
-				{ 22, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3188#"};
 				{ 23, 45520, "", "=q4=Handwraps of the Vigilant", "=ds=#s9#, #a1#", "", "0.32%"};
 				{ 24, 45519, "", "=q4=Vestments of the Blind Denizen", "=ds=#s5#, #a2#", "", "0.32%"};
 				{ 25, 45517, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "0.36%"};
@@ -4862,7 +4862,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 12, 45635, "", "=q4=Chestguard of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
 				{ 13, 45636, "", "=q4=Chestguard of the Wayward Protector", "=ds=#e15#", "", "50%"};
 				{ 14, 45637, "", "=q4=Chestguard of the Wayward Vanquisher", "=ds=#e15#", "", "27%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3157#"};
 				{ 17, 46068, "", "=q4=Amice of Inconceivable Horror", "=ds=#s3#, #a1#"};
 				{ 18, 46095, "", "=q4=Soul-Devouring Cinch", "=ds=#s10#, #a2#"};
 				{ 19, 46096, "", "=q4=Signet of Soft Lament", "=ds=#s13#"};
@@ -4889,7 +4889,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 45656, "", "=q4=Mantle of the Wayward Conqueror", "=ds=#e15#", "", "59%"};
 				{ 17, 45657, "", "=q4=Mantle of the Wayward Protector", "=ds=#e15#", "", "54%"};
 				{ 18, 45658, "", "=q4=Mantle of the Wayward Vanquisher", "=ds=#e15#", "", "66%"};
-				{ 20, 0, "INV_Box_01", "=q6=#j53#", ""};
+				{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3161#"};
 				{ 21, 45537, "", "=q4=Treads of the False Oracle", "=ds=#s12#, #a1#", "", "1%"};
 				{ 22, 45536, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "1%"};
 				{ 23, 45534, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};

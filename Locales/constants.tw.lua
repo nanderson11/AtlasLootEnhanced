@@ -501,9 +501,6 @@ if AL then
 	AL["Raid"] = "團隊";
 	AL["Hard Mode"] = "困難模式";
 	AL["Bonus Loot"] = "額外獎勵";
-	AL["One Drake Left"] = "剩餘一隻飛龍";
-	AL["Two Drakes Left"] = "剩餘二隻飛龍";
-	AL["Three Drakes Left"] = "剩餘三隻飛龍";
 	AL["Arena Reward"] = "競技場獎勵";
 	AL["Achievement Reward"] = "成就獎勵";
 	AL["Phase 1"] = "第一階段";

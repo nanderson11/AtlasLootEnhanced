@@ -3156,7 +3156,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#z17#", ""};
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
-				{ 3, 43698, "", "=q3=Giant Sewer Rat", "=ds="..BabbleZone["Dalaran"]};
+				{ 3, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
 				{ 4, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Azshara"]};
 				{ 5, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
 				{ 6, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
@@ -3614,20 +3614,20 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 32458, "", "=q4=Ashes of Al'ar", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["The Eye"]};
 				{ 3, 13335, "", "=q4=Deathcharger's Reins", "=q2="..BabbleBoss["Lord Aurius Rivendare"]..", =q1="..BabbleZone["Stratholme"], "", "0.10%"};
 				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2="..BabbleBoss["Attumen the Huntsman"]..", =q1="..BabbleZone["Karazhan"], "", "0.25%"};
-				{ 5, 50818, "", "=q4=Invincible's Reins", "=q2="..AL["25 Man Heroic"].." "..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
+				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
 				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:3164#, =q1="..BabbleZone["Ulduar"], "", ""};
-				{ 7, 43986, "", "=q4=Reins of the Black Drake", "=q2="..BabbleBoss["Sartharion"]..", =q1=#j37# #z38# #j46#", ""};
-				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "=q2="..BabbleBoss["Sartharion"]..", =q1=#j38# #z38# #j46#", ""};
+				{ 7, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1=#z38#", ""};
+				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1=#z38#", ""};
 				{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
-				{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "=q2="..BabbleBoss["Infinite Corruptor"]..", =q1="..AL["Heroic"].." "..BabbleZone["The Culling of Stratholme"], ""};
+				{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#, =q1="..BabbleZone["The Culling of Stratholme"], ""};
 				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altarius"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
 				{
 					{ 14, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Horde"], "", ""};
 					{ 14, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Alliance"], "", ""};
 				};
-				{ 15, 32768, "", "=q4=Reins of the Raven Lord", "=q2="..BabbleBoss["Anzu"]..", =q1="..BabbleZone["Sethekk Halls"]};
+				{ 15, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#, =q1="..BabbleZone["Sethekk Halls"]};
 				{ 16, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
 				{ 17, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
 				{ 18, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
@@ -3637,7 +3637,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 23, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
 				{ 24, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
 				{ 25, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 26, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
+				{ 26, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {

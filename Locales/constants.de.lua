@@ -89,7 +89,7 @@ if AL then
 
 	-- Wishlist 
 	AL["Wishlist"] = "Wunschzettel";
-	-- AL["Wishlists"] = true;
+	AL["Wishlists"] = "Wunschzettel";
 	AL["Own"] = "Eigene";
 	AL["Other"] = "Andere";
 	AL["Shared"] = "Geteilte";
@@ -488,9 +488,6 @@ if AL then
 	AL["Raid"] = "Schlachtzug";
 	-- AL["Hard Mode"] = true;
 	AL["Bonus Loot"] = "Zusatzbeute";
-	AL["One Drake Left"] = "Ein verbleibender Drache";
-	AL["Two Drakes Left"] = "Zwei verbleibende Drachen";
-	AL["Three Drakes Left"] = "Drei verbleibende Drachen";
     	AL["Arena Reward"] = "Arena Belohnung";
 	AL["Achievement Reward"] = "Erfolgsbelohnung";
 	-- AL["Phase 1"] = true;
@@ -1445,6 +1442,8 @@ if AL then
 	AL["Razzashi Raptor"] = "Razzashiraptor";
 	AL["Deviate Ravager/Deviate Guardian"] = "Deviatverheerer/Deviatwächter";
 	AL["Servant's Quarter Animal Bosses"] = "Bosse im Quartier der Diener";
+	AL["Jadefang"] = "Jadezahn";
+	-- AL["Aeonaxx"] = true;
 
 	-- Zones
 	AL["World Drop"] = "Weltdrops";
@@ -1523,6 +1522,7 @@ if AL then
 	AL["Lovely Dress Box"] = "Karton 'Reizendes Kleid'";
 	AL["Dinner Suit Box"] = "Karton 'Abendanzug'";
 	AL["Bag of Heart Candies"] = "Tüte mit Zuckerherzen";
+	AL["Hidden Stash"] = "Gebunkerte Güter";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot Fehler!";

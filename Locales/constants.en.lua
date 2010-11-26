@@ -501,9 +501,6 @@ if AL then
 	AL["Raid"] = true;
 	AL["Hard Mode"] = true;
 	AL["Bonus Loot"] = true;
-	AL["One Drake Left"] = true;
-	AL["Two Drakes Left"] = true;
-	AL["Three Drakes Left"] = true;
 	AL["Arena Reward"] = true;
 	AL["Achievement Reward"] = true;
 	AL["Phase 1"] = true;

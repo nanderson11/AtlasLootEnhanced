@@ -336,9 +336,6 @@ if AL then
 	--AL["Raid"] = true;
 	AL["Hard Mode"] = "Mode difficile";
 	AL["Bonus Loot"] = "Bonus de loot";
-	AL["One Drake Left"] = "Sartharion + 1 drake";
-	AL["Two Drakes Left"] = "Sartharion + 2 drakes";
-	AL["Three Drakes Left"] = "Sartharion + 3 drakes";
 	AL["Arena Reward"] = "Récompense d'arène";
 	--AL["Phase 1"] = true;
 	--AL["Phase 2"] = true;

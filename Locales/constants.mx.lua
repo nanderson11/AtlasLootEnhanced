@@ -75,9 +75,6 @@ if AL then
 	AL["Hide Icon"] = "Esconder Icono";
 	AL["Minimap Button Options"] = "Opciones botón minimapa";
 	AL["Bonus Loot"] = "Bonus Botín";
-	AL["Three Drakes Left"] = "Quedan tres dracos";
-	AL["Two Drakes Left"] = "Quedan dos dracos";
-	AL["One Drake Left"] = "Queda un draco";
 
 	--Text for Options Panel
 	AL["Atlasloot Options"] = "Opciones Atlasloot";

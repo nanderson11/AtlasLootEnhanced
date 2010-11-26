@@ -69,9 +69,6 @@ if AL then
 	AL["Hide Icon"] = "隐藏图标";
 	AL["Minimap Button Options"] = "小地图按钮选项";
 	AL["Bonus Loot"] = "奖励掉落";
-	AL["One Drake Left"] = "剩余一条幼龙";
-	AL["Two Drakes Left"] = "剩余两条幼龙";
-	AL["Three Drakes Left"] = "剩余三条幼龙";
 
 	-- Text for Options Panel
 	AL["Atlasloot Options"] = "Atlasloot 设置";

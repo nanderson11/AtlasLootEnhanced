@@ -500,9 +500,6 @@ if AL then
 	AL["Raid"] = "Рейд";
 	AL["Hard Mode"] = "Сложный режим";
 	AL["Bonus Loot"] = "Дополнительная добыча";
-	AL["One Drake Left"] = "Превый дракон";
-	AL["Two Drakes Left"] = "Второй дракон";
-	AL["Three Drakes Left"] = "Третий дракон";
 	AL["Arena Reward"] = "Награды с Арены";
 	AL["Achievement Reward"] = "Награда за достижение";
 	AL["Phase 1"] = "Фаза 1";
