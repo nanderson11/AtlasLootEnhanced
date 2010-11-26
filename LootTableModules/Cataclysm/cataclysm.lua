@@ -3218,7 +3218,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["PetsPromotional"] = {
+	AtlasLoot_Data["PetsPromotionalCardGame"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
@@ -3701,7 +3701,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["MountsPromotion"] = {
+	AtlasLoot_Data["MountsCardGamePromotionl"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
@@ -3716,6 +3716,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "=ds=#e27#"};
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "=ds="..AL["Blizzcon"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Companion Store"], ""};
+				{ 21, 54811, "", "=q4=Celestial Steed", "=ds=#m24#"};
 			};
 		};
 		info = {

@@ -1605,11 +1605,14 @@ AtlasLoot_LootTableRegister = {
 		["Pets"] = {
 			["Bosses"] = {
 				{ "PetsMerchant" },
-				{ "PetsQuestCrafted" },
+				{ "PetsQuest" },
+				{ "PetsCrafted" },
+				{ "PetsAchievementFaction" },
 				{ "PetsRare" },
 				{ "PetsEvent" },
-				{ "PetsPromotional" },
+				{ "PetsPromotionalCardGame" },
 				{ "PetsPetStore" },
+				{ "PetsRemoved" },
 				{ "PetsAccessories" },
 				{ "PetsCata" },
 			},
