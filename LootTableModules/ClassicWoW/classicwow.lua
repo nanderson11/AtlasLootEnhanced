@@ -7099,9 +7099,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 13, 29593, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "55 #honor#", ""};
 				{ 14, 18858, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "55 #honor#", ""};
 				{ 15, 18854, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "55 #honor#", ""};
-				{ 16, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "2517 #honor#", ""};
-				{ 17, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "3511 #honor#", ""};
-				{ 18, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "2550 #honor#", ""};
+				{ 16, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "50 #honor#", ""};
+				{ 17, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "100 #honor#", ""};
+				{ 18, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "500 #honor#", ""};
 				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
 				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
 				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver#", ""};
@@ -7141,9 +7141,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 13, 18845, "", "=q3=Insignia of the Horde", "=ds=#s14#", "55 #honor#", ""};
 				{ 14, 18852, "", "=q3=Insignia of the Horde", "=ds=#s14#", "55 #honor#", ""};
 				{ 15, 18834, "", "=q3=Insignia of the Horde", "=ds=#s14#", "55 #honor#", ""};
-				{ 16, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "2517 #honor#", ""};
-				{ 17, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "3511 #honor#", ""};
-				{ 18, 18607, "", "=q1=Horde Battle Standard", "=ds=", "2550 #honor#", ""};
+				{ 16, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "50 #honor#", ""};
+				{ 17, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "100 #honor#", ""};
+				{ 18, 18607, "", "=q1=Horde Battle Standard", "=ds=", "500 #honor#", ""};
 				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
 				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
 				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver#", ""};

@@ -1,4 +1,4 @@
-local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+mand local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
@@ -8888,14 +8888,14 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{ -- Cloth
 				{ 1, 51329, "", "=q4=Wrathful Gladiator's Cuffs of Dominance", "=ds=", "600 #honor#"};
-				{ 2, 51327, "", "=q4=Wrathful Gladiator's Cord of Dominance", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 3, 51328, "", "=q4=Wrathful Gladiator's Treads of Dominance", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 2, 51327, "", "=q4=Wrathful Gladiator's Cord of Dominance", "=ds=", "945 #honor#"};
+				{ 3, 51328, "", "=q4=Wrathful Gladiator's Treads of Dominance", "=ds=", "945 #honor#"};
 				{ 5, 51367, "", "=q4=Wrathful Gladiator's Cuffs of Salvation", "=ds=", "600 #honor#"};
-				{ 6, 51365, "", "=q4=Wrathful Gladiator's Cord of Salvation", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 7, 51366, "", "=q4=Wrathful Gladiator's Treads of Salvation", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 6, 51365, "", "=q4=Wrathful Gladiator's Cord of Salvation", "=ds=", "945 #honor#"};
+				{ 7, 51366, "", "=q4=Wrathful Gladiator's Treads of Salvation", "=ds=", "945 #honor#"};
 				{ 9, 51339, "", "=q4=Wrathful Gladiator's Cuffs of Alacrity", "=ds=", "600 #honor#"};
-				{ 10, 51337, "", "=q4=Wrathful Gladiator's Cord of Alacrity", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 11, 51338, "", "=q4=Wrathful Gladiator's Treads of Alacrity", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 10, 51337, "", "=q4=Wrathful Gladiator's Cord of Alacrity", "=ds=", "945 #honor#"};
+				{ 11, 51338, "", "=q4=Wrathful Gladiator's Treads of Alacrity", "=ds=", "945 #honor#"};
 				{ 16, 41910, "", "=q4=Relentless Gladiator's Cuffs of Dominance", "=ds=", "400 #honor#"};
 				{ 17, 41899, "", "=q4=Relentless Gladiator's Cord of Dominance", "=ds=", "630 #honor#"};
 				{ 18, 41904, "", "=q4=Relentless Gladiator's Treads of Dominance", "=ds=", "630 #honor#"};
@@ -8909,14 +8909,14 @@ local moduleName = "AtlasLootWotLK"
 			};
 			{ -- Leather
 				{ 1, 51345, "", "=q4=Wrathful Gladiator's Armwraps of Dominance", "=ds=", "600 #honor#"};
-				{ 2, 51343, "", "=q4=Wrathful Gladiator's Belt of Dominance", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 3, 51344, "", "=q4=Wrathful Gladiator's Boots of Dominance", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 2, 51343, "", "=q4=Wrathful Gladiator's Belt of Dominance", "=ds=", "945 #honor#"};
+				{ 3, 51344, "", "=q4=Wrathful Gladiator's Boots of Dominance", "=ds=", "945 #honor#"};
 				{ 5, 51342, "", "=q4=Wrathful Gladiator's Armwraps of Salvation", "=ds=", "600 #honor#"};
-				{ 6, 51340, "", "=q4=Wrathful Gladiator's Belt of Salvation", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 7, 51341, "", "=q4=Wrathful Gladiator's Boots of Salvation", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 6, 51340, "", "=q4=Wrathful Gladiator's Belt of Salvation", "=ds=", "945 #honor#"};
+				{ 7, 51341, "", "=q4=Wrathful Gladiator's Boots of Salvation", "=ds=", "945 #honor#"};
 				{ 9, 51370, "", "=q4=Wrathful Gladiator's Armwraps of Triumph", "=ds=", "600 #honor#"};
-				{ 10, 51368, "", "=q4=Wrathful Gladiator's Belt of Triumph", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 11, 51369, "", "=q4=Wrathful Gladiator's Boots of Triumph", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 10, 51368, "", "=q4=Wrathful Gladiator's Belt of Triumph", "=ds=", "945 #honor#"};
+				{ 11, 51369, "", "=q4=Wrathful Gladiator's Boots of Triumph", "=ds=", "945 #honor#"};
 				{ 16, 41641, "", "=q4=Relentless Gladiator's Armwraps of Dominance", "=ds=", "400 #honor#"};
 				{ 17, 41631, "", "=q4=Relentless Gladiator's Belt of Dominance", "=ds=", "630 #honor#"};
 				{ 18, 41636, "", "=q4=Relentless Gladiator's Boots of Dominance", "=ds=", "630 #honor#"};
@@ -8930,14 +8930,14 @@ local moduleName = "AtlasLootWotLK"
 			};
 			{ -- Mail
 				{ 1, 51376, "", "=q4=Wrathful Gladiator's Wristguards of Dominance", "=ds=", "600 #honor#"};
-				{ 2, 51374, "", "=q4=Wrathful Gladiator's Waistguard of Dominance", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 3, 51375, "", "=q4=Wrathful Gladiator's Sabatons of Dominance", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 2, 51374, "", "=q4=Wrathful Gladiator's Waistguard of Dominance", "=ds=", "945 #honor#"};
+				{ 3, 51375, "", "=q4=Wrathful Gladiator's Sabatons of Dominance", "=ds=", "945 #honor#"};
 				{ 5, 51373, "", "=q4=Wrathful Gladiator's Wristguards of Salvation", "=ds=", "600 #honor#"};
-				{ 6, 51371, "", "=q4=Wrathful Gladiator's Waistguard of Salvation", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 7, 51372, "", "=q4=Wrathful Gladiator's Sabatons of Salvation", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 6, 51371, "", "=q4=Wrathful Gladiator's Waistguard of Salvation", "=ds=", "945 #honor#"};
+				{ 7, 51372, "", "=q4=Wrathful Gladiator's Sabatons of Salvation", "=ds=", "945 #honor#"};
 				{ 9, 51352, "", "=q4=Wrathful Gladiator's Wristguards of Triumph", "=ds=", "600 #honor#"};
-				{ 10, 51350, "", "=q4=Wrathful Gladiator's Waistguard of Triumph", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 11, 51351, "", "=q4=Wrathful Gladiator's Sabatons of Triumph", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 10, 51350, "", "=q4=Wrathful Gladiator's Waistguard of Triumph", "=ds=", "945 #honor#"};
+				{ 11, 51351, "", "=q4=Wrathful Gladiator's Sabatons of Triumph", "=ds=", "945 #honor#"};
 				{ 16, 41066, "", "=q4=Relentless Gladiator's Wristguards of Dominance", "=ds=", "400 #honor#"};
 				{ 17, 41071, "", "=q4=Relentless Gladiator's Waistguard of Dominance", "=ds=", "630 #honor#"};
 				{ 18, 41076, "", "=q4=Relentless Gladiator's Sabatons of Dominance", "=ds=", "630 #honor#"};
@@ -8951,11 +8951,11 @@ local moduleName = "AtlasLootWotLK"
 			};
 			{ -- Plate
 				{ 1, 51361, "", "=q4=Wrathful Gladiator's Bracers of Salvation", "=ds=", "600 #honor#"};
-				{ 2, 51359, "", "=q4=Wrathful Gladiator's Girdle of Salvation", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 3, 51360, "", "=q4=Wrathful Gladiator's Greaves of Salvation", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 2, 51359, "", "=q4=Wrathful Gladiator's Girdle of Salvation", "=ds=", "945 #honor#"};
+				{ 3, 51360, "", "=q4=Wrathful Gladiator's Greaves of Salvation", "=ds=", "945 #honor#"};
 				{ 5, 51364, "", "=q4=Wrathful Gladiator's Bracers of Triumph", "=ds=", "600 #honor#"};
-				{ 6, 51362, "", "=q4=Wrathful Gladiator's Girdle of Triumph", "=ds=", "945 #honor# #reqrating# 1300"};
-				{ 7, 51363, "", "=q4=Wrathful Gladiator's Greaves of Triumph", "=ds=", "945 #honor# #reqrating# 1400"};
+				{ 6, 51362, "", "=q4=Wrathful Gladiator's Girdle of Triumph", "=ds=", "945 #honor#"};
+				{ 7, 51363, "", "=q4=Wrathful Gladiator's Greaves of Triumph", "=ds=", "945 #honor#"};
 				{ 16, 40984, "", "=q4=Relentless Gladiator's Bracers of Salvation", "=ds=", "400 #honor#"};
 				{ 17, 40978, "", "=q4=Relentless Gladiator's Girdle of Salvation", "=ds=", "630 #honor#"};
 				{ 18, 40979, "", "=q4=Relentless Gladiator's Greaves of Salvation", "=ds=", "630 #honor#"};
