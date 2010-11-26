@@ -526,6 +526,7 @@ end
 -- Scale
 function AtlasLoot:DefaultFrame_RefreshScale()
 	AtlasLootDefaultFrame:SetScale( AtlasLoot.db.profile.LootBrowserScale )
+	AtlasLootTooltipTEMP:SetScale( AtlasLoot.db.profile.LootBrowserScale )
 end
 
 -- Alpha

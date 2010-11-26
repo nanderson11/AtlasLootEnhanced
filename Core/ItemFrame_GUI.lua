@@ -171,6 +171,5 @@ function AtlasLoot:CreateItemFrame()
 	
 	Frame.SetItemsTable = AtlasLoot.ItemFrame_SetItemsTable
 	
-	AtlasLootTooltipTEMP:SetParent(Frame)
 	Frame:Hide()
 end               

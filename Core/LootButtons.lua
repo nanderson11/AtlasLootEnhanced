@@ -249,6 +249,33 @@ do
 		return tempText or "", isQuest, isAchievement
 	end
 
+	local function Setup_ItemExtraText(self, itemID, extraText, itemPrice, itemNameNew)
+		local tempText, isQuest, isAchievement = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
+		
+		if isQuest then
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.questID = isQuest
+			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
+			self.Frame.QA.ExtraIcon:SetWidth(10)
+			self.Frame.QA.ExtraIcon:SetHeight(10)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 10, -1)
+			self.Frame.QA.ExtraText:SetText(tempText)
+		elseif isAchievement then
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.achievementID = isAchievement
+			self.Frame.QA.ExtraIcon:SetTexture(achievementIcon)
+			self.Frame.QA.ExtraIcon:SetWidth(20)
+			self.Frame.QA.ExtraIcon:SetHeight(20)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -1)
+			self.Frame.QA.ExtraText:SetText(tempText)		
+		else
+			self.Frame.QA:Hide()
+			self.Frame.Extra:SetText(tempText)
+			self.Frame.Extra:Show()		
+		end
+	end
 	--- Sets a item to the button
 	-- @param itemID The item ID
 	-- @param itemName The item name, self is only used if the item name is not in the cache. Set to nil and not in cache it will use UNKNOWN
@@ -294,34 +321,7 @@ do
 		-- ########################
 		-- extraText and itemPrice
 		-- ########################
-		local isQuest, isAchievement
-		tempText, isQuest, isAchievement = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
-		
-		if isQuest then
-			self.Frame.Extra:Hide()
-			self.Frame.QA:Show()
-			self.Frame.QA.questID = isQuest
-			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
-			self.Frame.QA.ExtraIcon:SetWidth(10)
-			self.Frame.QA.ExtraIcon:SetHeight(10)	
-			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 10, -1)
-			self.Frame.QA.ExtraText:SetText(tempText)
-		elseif isAchievement then
-			self.Frame.Extra:Hide()
-			self.Frame.QA:Show()
-			self.Frame.QA.achievementID = isAchievement
-			self.Frame.QA.ExtraIcon:SetTexture(achievementIcon)
-			self.Frame.QA.ExtraIcon:SetWidth(20)
-			self.Frame.QA.ExtraIcon:SetHeight(20)	
-			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -1)
-			self.Frame.QA.ExtraText:SetText(tempText)		
-		else
-			self.Frame.QA:Hide()
-			self.Frame.Extra:SetText(tempText)
-			self.Frame.Extra:Show()		
-		end
-		
-		tempText = ""
+		Setup_ItemExtraText(self, itemID, extraText, itemPrice, itemNameNew)
 		
 		-- ########################
 		-- itemTexture
@@ -395,34 +395,7 @@ do
 		-- ########################
 		-- extraText and itemPrice
 		-- ########################
-		local isQuest, isAchievement
-		tempText, isQuest, isAchievement = GetItemExtraText(itemID, extraText, itemPrice, spellNameNew)
-		
-		if isQuest then
-			self.Frame.Extra:Hide()
-			self.Frame.QA:Show()
-			self.Frame.QA.questID = isQuest
-			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
-			self.Frame.QA.ExtraIcon:SetWidth(10)
-			self.Frame.QA.ExtraIcon:SetHeight(10)	
-			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 10, -1)
-			self.Frame.QA.ExtraText:SetText(tempText)
-		elseif isAchievement then
-			self.Frame.Extra:Hide()
-			self.Frame.QA:Show()
-			self.Frame.QA.achievementID = isAchievement
-			self.Frame.QA.ExtraIcon:SetTexture(achievementIcon)
-			self.Frame.QA.ExtraIcon:SetWidth(20)
-			self.Frame.QA.ExtraIcon:SetHeight(20)	
-			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -1)
-			self.Frame.QA.ExtraText:SetText(tempText)		
-		else
-			self.Frame.QA:Hide()
-			self.Frame.Extra:SetText(tempText)
-			self.Frame.Extra:Show()		
-		end
-		
-		tempText = ""
+		Setup_ItemExtraText(self, itemID, extraText, itemPrice, spellNameNew)
 		
 		-- ########################
 		-- itemTexture
@@ -479,12 +452,7 @@ do
 		-- ########################
 		-- tabExtraText
 		-- ########################
-		tempText = AtlasLoot:FixText(tabExtraText or "")
-		
-		self.Frame.QA:Hide()
-		self.Frame.Extra:SetText(tempText)
-		self.Frame.Extra:Show()
-		tempText = ""
+		Setup_ItemExtraText(self, nil, tabExtraText, nil, nil)
 		
 		-- ########################
 		-- itemTexture
@@ -524,12 +492,7 @@ do
 		-- ########################
 		-- extraText
 		-- ########################
-		tempText = AtlasLoot:FixText(extraText or "")
-		
-		self.Frame.QA:Hide()
-		self.Frame.Extra:SetText(tempText)
-		self.Frame.Extra:Show()
-		tempText = ""
+		Setup_ItemExtraText(self, nil, extraText, nil, nil)
 		
 		-- ########################
 		-- itemTexture
@@ -791,11 +754,12 @@ do
 				_G["AtlasLootTooltipTextRight"..i]:SetText("");
 			end
 		end
-		
+
 		--self.info = { nil, itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate }
 		if not self.par.info then return end
 		local spellID = self.par.info[1]
 		local itemID = self.par.info[2]
+		local droprate = self.par.info[7]
 		
 		
 		if itemID and not spellID then
@@ -820,8 +784,8 @@ do
 					if ( AtlasLoot.db.profile.ItemIDs ) then
 						AtlasLootTooltip:AddLine(BLUE..AL["ItemID:"].." "..itemID, nil, nil, nil, 1);
 					end
-					if( self.droprate ~= nil) and AtlasLoot.db.profile.DropRate then
-						AtlasLootTooltip:AddLine(AL["Drop Rate: "]..self.droprate, 1, 1, 0);
+					if( droprate ~= nil) and AtlasLoot.db.profile.DropRate then
+						AtlasLootTooltip:AddLine(AL["Drop Rate: "]..droprate, 1, 1, 0);
 					end
 					if( DKP ~= nil and DKP ~= "" ) then
 						AtlasLootTooltip:AddLine(RED..DKP.." "..AL["DKP"], 1, 1, 0);
