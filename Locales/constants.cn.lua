@@ -191,7 +191,6 @@ if AL then
 	AL["You can right-click to attempt to query the server.	You may be disconnected."] = "您可以右键点击该物品以向服务器查询，但这样做有可能会与服务器断开连接。";
 
 	--Misc Inventory related words
-	AL["Enchant"] = "附魔";
 	AL["Scope"] = "瞄准镜";
 	AL["Darkmoon Faire Card"] = "暗月马戏团卡片";
 	AL["Banner"] = "旗帜";
@@ -199,8 +198,6 @@ if AL then
 	AL["Token"] = "兑换物";
 	AL["Tokens"] = "兑换物";
 	AL["Skinning Knife"] = "剥皮刀";
-	AL["Herbalism Knife"] = "采药刀";
-	AL["Fish"] = "鱼";
 	AL["Combat Pet"] = "战斗宠物";
 	AL["Fireworks"] = "焰火";
 
@@ -225,10 +222,6 @@ if AL then
 	AL["Enchant Shield"] = "附魔盾牌";
 	AL["Enchant 2H Weapon"] = "附魔双手武器";
 	AL["Enchant Weapon"] = "附魔武器";
-
-	--Engineering
-	AL["Ammunition"] = "弹药";
-	AL["Explosives"] = "爆炸物";
 
 	--Inscription
 	AL["Major Glyph"] = "大型雕文";
@@ -858,7 +851,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "自然抗性装备";
 	AL["Frost Resistance Gear"] = "冰霜抗性装备";
 	AL["Shadow Resistance Gear"] = "暗影抗性装备";
-	AL["Tabards"] = "战袍";
 	AL["BoE World Epics"] = "世界掉落的史诗装备";
 	AL["Level 30-39"] = "等级 30-39";
 	AL["Level 40-49"] = "等级 40-49";
@@ -870,10 +862,8 @@ if AL then
 
 	--Pets
 	AL["Pets"] = "宠物";
-	--AL["Vanity Pets"] = "非战斗宠物"; --changed
 
 	--Mounts
-	AL["Mounts"] = "坐骑";
 	AL["Card Game Mounts"] = "卡片游戏坐骑";
 	AL["Crafted Mounts"] = "制造的坐骑";
 	AL["Event Mounts"] = "世界事件坐骑";

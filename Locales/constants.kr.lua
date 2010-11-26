@@ -87,7 +87,6 @@ AL:RegisterTranslations("koKR", function() return {
     ["You can right-click to attempt to query the server.  You may be disconnected."] = "오른쪽 클릭으로 서버에 아이템 정보를 요청할 수 있습니다.  서버연결이 종료될 수도 있습니다.",
 
     --Misc Inventory related words
-    ["Enchant"] = "마법부여",
     ["Scope"] = "장치",
     ["Darkmoon Faire Card"] = "다크문 축제 카드",
     ["Banner"] = "깃발",
@@ -548,7 +547,6 @@ AL:RegisterTranslations("koKR", function() return {
     ["Arcane Resistance Gear"] = "비전 저항 장비",
     ["Nature Resistance Gear"] = "자연 저항 장비",
     ["Rare Mounts"] = "희귀 탈 것",
-    ["Tabards"] = "겉옷",
 
     --NPCs missing from BabbleBoss
     ["Trash Mobs"] = "일반 몹",

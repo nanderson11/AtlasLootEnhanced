@@ -277,10 +277,7 @@ if AL then
 	AL["Emblem of Frost"] = true; --should be removed
 	AL["BoE World Epics"] = true;
 	AL["Legendary Items"] = true;
-	AL["Mounts"] = true;
-	AL["Companions"] = true;
 	AL["Misc Sets"] = true;
-	AL["Tabards"] = true;
 	AL["Tier 1/2 Set"] = true;
 	AL["Tier 1/2/3 Set"] = true;
 	AL["Tier 3 Set"] = true;
@@ -367,7 +364,6 @@ if AL then
 	AL["Set as default Wishlist"] = true;
 
 	-- Misc Inventory related words
-	AL["Enchant"] = true;
 	AL["Scope"] = true;
 	AL["Darkmoon Faire Card"] = true;
 	AL["Banner"] = true;
@@ -376,15 +372,9 @@ if AL then
 	AL["Tokens"] = true;
 	AL["Token Hand-Ins"] = true;
 	AL["Skinning Knife"] = true;
-	AL["Herbalism Knife"] = true;
-	AL["Fish"] = true;
 	AL["Combat Pet"] = true;
 	AL["Fireworks"] = true;
-	AL["Fishing Lure"] = true;
 	AL["Transformation Item"] = true;
-	AL["Ground Mount"] = true;
-	AL["Flying Mount"] = true;
-	AL["Companion"] = true;
 	AL["Keys"] = true;
 
 	-- Extra inventory stuff
@@ -407,9 +397,6 @@ if AL then
 	AL["Enchant Shield"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
-
-	-- Engineering
-	AL["Explosives"] = true;
 
 	-- Inscription
 	AL["Major Glyph"] = true;
@@ -531,7 +518,6 @@ if AL then
 	AL["Low Level"] = true;
 	AL["High Level"] = true;
 	AL["Rare"] = true;
-	AL["Alone in the Darkness"] = true;
 
 	-- Loot Table Names
 	AL["Level 30-39"] = true;
@@ -1473,6 +1459,7 @@ if AL then
 	AL["Deviate Ravager/Deviate Guardian"] = true;
 	AL["Servant's Quarter Animal Bosses"] = true;
 	AL["Jadefang"] = true;
+	AL["Aeonaxx"] = true;
 
 	-- Zones
 	AL["World Drop"] = true;

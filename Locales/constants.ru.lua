@@ -276,10 +276,7 @@ if AL then
 	AL["Emblem of Frost"] = "Эмблема льда";
 	AL["BoE World Epics"] = "Мировые превосходные ПпП";
 	AL["Legendary Items"] = "Легендарные предметы";
-	AL["Mounts"] = "Ездовые животные";
-	AL["Companions"] = "Спутники";
 	AL["Misc Sets"] = "Различные комплекты";
-	AL["Tabards"] = "Накидки";
 	AL["Tier 1/2 Set"] = "Комплекты Тира 1/2";
 	AL["Tier 1/2/3 Set"] = "Комплекты Тира 1/2/3";
 	AL["Tier 3 Set"] = "Комплект Тира 3";
@@ -366,7 +363,6 @@ if AL then
 	AL["Set as default Wishlist"] = "Установка списка по умолчанию";
 
 	-- Misc Inventory related words
-	AL["Enchant"] = "Зачарование";
 	AL["Scope"] = "Прицелы";
 	AL["Darkmoon Faire Card"] = "Карты Ярмарки Темной Луны";
 	AL["Banner"] = "Знамя";
@@ -375,15 +371,9 @@ if AL then
 	AL["Tokens"] = "Знаки";
 	AL["Token Hand-Ins"] = "За знаки";
 	AL["Skinning Knife"] = "Нож для свежевания";
-	AL["Herbalism Knife"] = "Нож для травничества";
-	AL["Fish"] = "Рыба";
 	AL["Combat Pet"] = "Боевой питомец";
 	AL["Fireworks"] = "Феерверк";
-	AL["Fishing Lure"] = "Рыбацкая приманка";
 	AL["Transformation Item"] = "Трансформ. предмет";
-	AL["Ground Mount"] = "наземный траспорт";
-	AL["Flying Mount"] = "Летающий транспорт";
-	AL["Companion"] = "Спутник";
 	AL["Keys"] = "Ключи";
 
 	-- Extra inventory stuff
@@ -406,9 +396,6 @@ if AL then
 	AL["Enchant Shield"] = "Чары для щита";
 	AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
 	AL["Enchant Weapon"] = "Чары для оружия";
-
-	-- Engineering
-	AL["Explosives"] = "Взрывчатые вещества";
 
 	-- Inscription
 	AL["Major Glyph"] = "Большой символ";

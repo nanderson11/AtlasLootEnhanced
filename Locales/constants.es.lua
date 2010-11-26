@@ -122,15 +122,12 @@ if AL then
 	AL["Jewelcrafting Daily"] = "Joyería diaria";
 	AL["Crafted Sets"] = "Conjuntos fabricados";
 	AL["Crafted Epic Weapons"] = "Armas épicas fabricadas";
-    AL["Dragon's Eye"] = "Ojo de dragón";
+	AL["Dragon's Eye"] = "Ojo de dragón";
 
 	-- Sets/Collections Menu
 	AL["BoE World Epics"] = "Épicos del mundo BoE";
 	AL["Legendary Items"] = "Objetos legendários";
-	AL["Mounts"] = "Monturas";
-	--AL["Vanity Pets"] = "Mascotas No-Combate"; --changed
 	AL["Misc Sets"] = "Conjuntos varios";
-	AL["Tabards"] = "Tabardos";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Conjuntos de Cuenca de Arathi";
@@ -215,7 +212,6 @@ if AL then
 	AL["Set as default Wishlist"] = "Elegir ListaDeseada como predeterminada.";
 
 	--Misc Inventory related words
-	AL["Enchant"] = "Encantamiento";
 	AL["Scope"] = "Mira";
 	AL["Darkmoon Faire Card"] = "Carta de la Feria de la Luna";
 	AL["Banner"] = "Estandarte";
@@ -223,11 +219,8 @@ if AL then
 	AL["Token"] = "Insignia";
 	AL["Tokens"] = "Insignias";	
 	AL["Skinning Knife"] = "Cuchillo para desollar";
-	AL["Herbalism Knife"] = "Cuchillo de herbolista"; --Comprobar
-	AL["Fish"] = "Pescado"; --Comprobar
 	AL["Combat Pet"] = "Mascota de combate"; --Comprobar
 	AL["Fireworks"] = "Fuegos artificiales";
-	AL["Fishing Lure"] = "Cebos de pesca";
 
 	--Extra inventory stuff
 	AL["Cloak"] = "Capa";
@@ -249,10 +242,6 @@ if AL then
 	AL["Enchant Shield"] = "Encantamiento Escudo";
 	AL["Enchant 2H Weapon"] = "Encantamiento Arma 2 Manos";
 	AL["Enchant Weapon"] = "Encantamiento Arma";
-
-	--Engineering
-	AL["Ammunition"] = "Munición";
-	AL["Explosives"] = "Explosivos";
 
 	--Inscription
 	AL["Major Glyph"] = "Glifos Sublimes";
@@ -352,7 +341,6 @@ if AL then
 	AL["Heirloom"] = "Reliquia";
 	AL["Weapons"] = "Armas";
 	AL["Accessories"] = "Accesorios";
-	AL["Alone in the Darkness"] = "Solo en la oscuridad";
 	AL["A Tribute to Skill (25)"] = "Un tributo a la habilidad";
 	AL["A Tribute to Mad Skill (45)"] = "Un tributo a la habilidad loca";
 	AL["A Tribute to Insanity (50)"] = "Un tributo a la locura";

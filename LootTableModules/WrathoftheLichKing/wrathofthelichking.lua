@@ -4868,7 +4868,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 46096, "", "=q4=Signet of Soft Lament", "=ds=#s13#"};
 				{ 20, 46097, "", "=q4=Caress of Insanity", "=ds=#h1#, #w6#"};
 				{ 21, 46067, "", "=q4=Hammer of Crushing Whispers", "=ds=#h2#, #w6#"};
-				{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3159#"};
 				{ 24, 46312, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 			};
 		};
@@ -4895,7 +4895,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 23, 45534, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};
 				{ 24, 45535, "", "=q4=Show of Faith", "=ds=#s14#"};
 				{ 25, 45533, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w1#", "", "1%"};
-				{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "=q5="..AL["Alone in the Darkness"]};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3164#"};
 				{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e27#", "", "100%"};
 			};
 		};

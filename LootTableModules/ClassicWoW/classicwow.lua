@@ -7829,13 +7829,13 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 8, 64921, "", "=q3=Cape of Undercity", "=ds=#s4#"};
 				{ 9, 64922, "", "=q3=Mantle of Undercity", "=ds=#s4#"};
 				{ 10, 64920, "", "=q3=Shroud of Undercity", "=ds=#s4#"};
-				{ 16, 18766, "", "=q4=Reins of the Swift Frostsaber", "=ds=#e26#"};
-				{ 17, 18767, "", "=q4=Reins of the Swift Mistsaber", "=ds=#e26#"};
-				{ 18, 18902, "", "=q4=Reins of the Swift Stormsaber", "=ds=#e26#"};
-				{ 19, 8632, "", "=q3=Reins of the Spotted Frostsaber", "=ds=#e26#"};
-				{ 20, 47100, "", "=q3=Reins of the Striped Dawnsaber", "=ds=#e26#"};
-				{ 21, 8631, "", "=q3=Reins of the Striped Frostsaber", "=ds=#e26#"};
-				{ 22, 8629, "", "=q3=Reins of the Striped Nightsaber", "=ds=#e26#"};
+				{ 16, 13334, "", "=q4=Green Skeletal Warhorse", "=ds=#e26#"};
+				{ 17, 47101, "", "=q4=Ochre Skeletal Warhorse", "=ds=#e26#"};
+				{ 18, 18791, "", "=q4=Purple Skeletal Warhorse", "=ds=#e26#"};
+				{ 19, 46308, "", "=q3=Black Skeletal Horse", "=ds=#e26#"};
+				{ 20, 13332, "", "=q3=Blue Skeletal Horse", "=ds=#e26#"};
+				{ 21, 13333, "", "=q3=Brown Skeletal Horse", "=ds=#e26#"};
+				{ 22, 13331, "", "=q3=Red Skeletal Horse", "=ds=#e26#"};
 			};
 		};
 		info = {

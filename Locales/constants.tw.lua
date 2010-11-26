@@ -277,10 +277,7 @@ if AL then
 	AL["Emblem of Frost"] = "冰霜紋章";
 	AL["BoE World Epics"] = "裝綁世界掉落紫裝";
 	AL["Legendary Items"] = "傳說物品";
-	AL["Mounts"] = "坐騎";
-	AL["Companions"] = "夥伴";
 	AL["Misc Sets"] = "其他套裝";
-	AL["Tabards"] = "外袍";
 	AL["Tier 1/2 Set"] = "T1/T2 套裝";
 	AL["Tier 1/2/3 Set"] = "T1/T2/T3 套裝";
 	AL["Tier 3 Set"] = "T3 套裝";
@@ -367,7 +364,6 @@ if AL then
 	AL["Set as default Wishlist"] = "設為預設的願望清單";
 
 	--Misc Inventory related words
-	AL["Enchant"] = "公式";
 	AL["Scope"] = "瞄準鏡";
 	AL["Darkmoon Faire Card"] = "暗月卡";
 	AL["Banner"] = "軍旗";
@@ -376,15 +372,9 @@ if AL then
 	AL["Tokens"] = "勳章";
 	AL["Token Hand-Ins"] = "勳章繳交";
 	AL["Skinning Knife"] = "剝皮小刀";
-	AL["Herbalism Knife"] = "草藥刀";
-	AL["Fish"] = "釣魚";
 	AL["Combat Pet"] = "戰鬥寵物";
 	AL["Fireworks"] = "煙火";
-	AL["Fishing Lure"] = "魚餌";
 	AL["Transformation Item"] = "變形物品";
-	AL["Ground Mount"] = "陸行坐騎";
-	AL["Flying Mount"] = "飛行坐騎";
-	AL["Companion"] = "夥伴";
 	AL["Keys"] = "鑰匙";
 
 	--Extra inventory stuff
@@ -407,9 +397,6 @@ if AL then
 	AL["Enchant Shield"] = "附魔盾牌";
 	AL["Enchant 2H Weapon"] = "附魔雙手武器";
 	AL["Enchant Weapon"] = "附魔武器";
-
-	--Engineering
-	AL["Explosives"] = "爆裂物";
 
 	--Inscription
 	AL["Major Glyph"] = "極效雕紋";
@@ -531,7 +518,6 @@ if AL then
 	AL["Low Level"] = "較低等級";
 	AL["High Level"] = "較高等級";
 	AL["Rare"] = "稀有";
-	AL["Alone in the Darkness"] = "闇境孤軍";
 
 	--Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";

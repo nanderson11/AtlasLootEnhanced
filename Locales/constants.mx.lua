@@ -197,7 +197,6 @@ if AL then
 	AL["You can right-click to attempt to query the server.  You may be disconnected."] = "Puedes hacer Click-dcho para intentar consultar al servidor.\nPuedes ser desconectado.";
 
 	--Misc Inventory related words
-	AL["Enchant"] = "Encantamiento";
 	AL["Scope"] = "Mira";
 	AL["Darkmoon Faire Card"] = "Carta de la Feria de la Luna";
 	AL["Banner"] = "Estandarte";
@@ -205,8 +204,6 @@ if AL then
 	AL["Token"] = "Insignia";
 	AL["Tokens"] = "Insignias";	
 	AL["Skinning Knife"] = "Cuchillo para desollar";
-	AL["Herbalism Knife"] = "Cuchillo de herbolista"; --Comprobar
-	AL["Fish"] = "Pescado"; --Comprobar
 	AL["Combat Pet"] = "Mascota de combate"; --Comprobar
 	AL["Fireworks"] = "Fuegos artificiales";
 
@@ -232,9 +229,6 @@ if AL then
 	AL["Enchant 2H Weapon"] = "Encantamiento Arma 2 Manos";
 	AL["Enchant Weapon"] = "Encantamiento Arma";
 
-	--Engineering
-	AL["Ammunition"] = "Munición";
-	AL["Explosives"] = "Explosivos";
 	--Inscription
 	AL["Major Glyph"] = "Glifos Sublimes";
 	AL["Minor Glyph"] = "Glifos Menores";
@@ -878,7 +872,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "Equipamientos con resistencia a la naturaleza";
 	AL["Frost Resistance Gear"] = "Equipamientos con resistencia al hielo";
 	AL["Shadow Resistance Gear"] = "Equipamientos con resistencia a las sombras";
-	AL["Tabards"] = "Tabardos";
 	AL["BoE World Epics"] = "Épicos del mundo BoE";
 	AL["Level 30-39"] = "Niveles 30-39";
 	AL["Level 40-49"] = "Niveles 40-49";
@@ -893,7 +886,6 @@ if AL then
 	--AL["Vanity Pets"] = "Mascotas No-Combate"; --changed
 
 	--Mounts
-	AL["Mounts"] = "Monturas";
 	AL["Card Game Mounts"] = "Monturas Barajas";
 	AL["Crafted Mounts"] = "Monturas fabricadas";
 	AL["Event Mounts"] = "Monturas de eventos";

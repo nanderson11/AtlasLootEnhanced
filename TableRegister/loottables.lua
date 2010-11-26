@@ -1613,7 +1613,7 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsAccessories" },
 				{ "PetsCata" },
 			},
-			["Info"] = { AL["Companions"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Companions"], "AtlasLootCataclysm"},
 		},
 		["WorldEpics"] = {
 			["Bosses"] = {

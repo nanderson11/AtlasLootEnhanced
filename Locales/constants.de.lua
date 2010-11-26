@@ -264,10 +264,7 @@ if AL then
 	AL["Emblem of Frost"] = "Emblem des Frosts";
 	AL["BoE World Epics"] = "Epische Weltdrops (BoE)";
 	AL["Legendary Items"] = "Legendäre Gegenstände";
-	AL["Mounts"] = "Reittiere";
-	AL["Companions"] = "Haustiere";
 	AL["Misc Sets"] = "Sets (Sonstige)";
-	AL["Tabards"] = "Wappenröcke";
 	-- AL["Tier 1/2 Set"] = true;
 	-- AL["Tier 1/2/3 Set"] = true;
 	-- AL["Tier 3 Set"] = true;
@@ -354,7 +351,6 @@ if AL then
 	AL["Set as default Wishlist"] = "Zum Standard-Wunschzettel machen";
 
 	-- Misc Inventory related words
-	AL["Enchant"] = "Verzauberung";
 	AL["Scope"] = "Zielfernrohr";
 	AL["Darkmoon Faire Card"] = "Dunkelmond-Karte";
 	-- AL["Banner"] = true;
@@ -363,15 +359,9 @@ if AL then
 	AL["Tokens"] = "Gutscheine";
 	-- AL["Token Hand-Ins"] = true;
 	AL["Skinning Knife"] = "Kürschnermesser";
-	AL["Herbalism Knife"] = "Kräuterkundemesser";
-	AL["Fish"] = "Fisch";
 	AL["Combat Pet"] = "Haustier (Kampf)";
 	AL["Fireworks"] = "Feuerwerk";
-	AL["Fishing Lure"] = "Köder";
 	AL["Transformation Item"] = "Verwandlungsitem";
-	AL["Ground Mount"] = "Bodenreittier";
-	AL["Flying Mount"] = "Flugreittier";
-	AL["Companion"] = "Haustier";
 	AL["Keys"] = "Schlüssel";
 
 	-- Extra inventory stuff
@@ -394,9 +384,6 @@ if AL then
 	AL["Enchant Shield"] = "Schild verzaubern";
 	AL["Enchant 2H Weapon"] = "2H Waffe verzaubern";
 	AL["Enchant Weapon"] = "Waffe verzaubern";
-
-	-- Engineering
-	AL["Explosives"] = "Sprengladungen";
 
 	-- Inscription
 	AL["Major Glyph"] = "Erhebliche Glyphe";
@@ -518,7 +505,6 @@ if AL then
 	AL["Low Level"] = "Niedrigstufig";
 	AL["High Level"] = "Hochstufig";
 	AL["Rare"] = "Selten";
-	AL["Alone in the Darkness"] = "Allein im Dunkeln";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";

@@ -44,6 +44,7 @@ AtlasLoot_TextParsing = {
 	{ "#p23#", GetSpellInfo(2575) },	-- Mining
 	{ "#p24#", GetSpellInfo(63275) },	-- Fishing
 	{ "#p25#", GetSpellInfo(78670) },	-- Archaeology
+	{ "#p26#", GetSpellInfo(45357) },	-- Inscription
 	
 	-- Reputation
 	{ "#r1#", BabbleFaction["Neutral"] },
@@ -110,20 +111,20 @@ AtlasLoot_TextParsing = {
 	{ "#e10#", BabbleInventory["Book"] },
 	{ "#e11#", AL["Scope"] },
 	{ "#e12#", BabbleInventory["Mount"] },
-	{ "#e13#", AL["Companion"] },
+	{ "#e13#", BabbleInventory["Companion"] },
 	{ "#e14#", AL["Banner"] },
 	{ "#e15#", AL["Token"] },
 	{ "#e16#", AL["Darkmoon Faire Card"] },
-	{ "#e17#", AL["Enchant"] },
+	{ "#e17#", BabbleInventory["Enchant"] },
 	{ "#e18#", AL["Skinning Knife"] },
 	{ "#e20#", BabbleInventory["Fishing Pole"] },
-	{ "#e21#", AL["Fish"] },
+	{ "#e21#", BabbleInventory["Fish"] },
 	{ "#e22#", AL["Combat Pet"] },
 	{ "#e23#", AL["Fireworks"] },
-	{ "#e24#", AL["Fishing Lure"] },
+	{ "#e24#", BabbleInventory["Fishing Lure"] },
 	{ "#e25#", AL["Transformation Item"] },
-	{ "#e26#", AL["Ground Mount"] },
-	{ "#e27#", AL["Flying Mount"] },
+	{ "#e26#", BabbleInventory["Ground Mount"] },
+	{ "#e27#", BabbleInventory["Flying Mount"] },
 
 	-- Labels for Loot Descriptions
 	{ "#m1#", AL["Classes:"] },
@@ -183,7 +184,7 @@ AtlasLoot_TextParsing = {
 	{ "#j26#", AL["Rare Fish"] },
 	{ "#j27#", AL["Additional Heroic Loot"] },
 	{ "#j28#", AL["Entrance"] },
-	{ "#j30#", AL["Mounts"] },
+	{ "#j30#", BabbleInventory["Mounts"] },
 	{ "#j37#", AL["10 Man"] },
 	{ "#j38#", AL["25 Man"] },
 	{ "#j46#", AL["Hard Mode"] },
@@ -969,15 +970,15 @@ function AtlasLoot:FixText(text)
 
     englishFaction, _ = UnitFactionGroup("player")
     if englishFaction == "Horde" then
-        text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-horde:0|t");
+		text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-horde:0|t");
 		text = gsub(text, "#conquest#", "|TInterface\\Icons\\pvpcurrency-conquest-horde:0|t");
-        text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
-        text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
+		text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
+		text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
     else
-        text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-alliance:0|t");
+		text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-alliance:0|t");
 		text = gsub(text, "#conquest#", "|TInterface\\Icons\\pvpcurrency-conquest-alliance:0|t");
-        text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
-        text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");
+		text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
+		text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");
     end
 
     return text;

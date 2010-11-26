@@ -3070,7 +3070,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 14, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
 				{ 15, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
 				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
-				{ 17, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
@@ -3084,17 +3085,17 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 60847, "", "=q4=Crawling Hand", "=q2=#p25#"};
 				{ 2, 64372, "", "=q3=Clockwork Gnome", "=q2=#p25#"};
-				{ 3, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2="..BabbleInventory["Engineering"]};
+				{ 3, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
 				{ 4, 67282, "", "=q3=Elementium Geode", "=q2=#p24#"};
-				{ 5, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
+				{ 5, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
 				{ 6, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
-				{ 7, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
-				{ 8, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
-				{ 9, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2="..BabbleInventory["Engineering"]};
-				{ 10, 11826, "", "=q1=Lil' Smoky", "=q2="..BabbleInventory["Engineering"]};
-				{ 11, 4401, "", "=q1=Mechanical Squirrel Box", "=q2="..BabbleInventory["Engineering"]};
-				{ 12, 11825, "", "=q1=Pet Bombling", "=q2="..BabbleInventory["Engineering"]};
-				{ 13, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2="..BabbleInventory["Engineering"]};
+				{ 7, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
+				{ 8, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
+				{ 9, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
+				{ 10, 11826, "", "=q1=Lil' Smoky", "=q2=#p5#"};
+				{ 11, 4401, "", "=q1=Mechanical Squirrel Box", "=q2=#p5#"};
+				{ 12, 11825, "", "=q1=Pet Bombling", "=q2=#p5#"};
+				{ 13, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2=#p5#"};
 			};
 		};
 		info = {
@@ -3212,7 +3213,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Companions"].." - "..AL["World Events"],
+			name = BabbleInventory["Companions"].." - "..AL["World Events"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -3317,9 +3318,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
 				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=#p25#"};
 				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5125#"};
-				{ 5, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2="..BabbleInventory["Engineering"]};
-				{ 6, 67282, "", "=q3=Elementium Geode", "=q2=Mining (Needs to be added to BabbleInv)"};
-				{ 7, 67274, "", "=q3=Enchanted Lantern", "=q2="..BabbleInventory["Enchanting"]};
+				{ 5, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
+				{ 6, 67282, "", "=q3=Elementium Geode", "=q2=#p23#"};
+				{ 7, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
 				{ 8, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
 				{ 9, 64403, "", "=q3=Fox Kit", "=ds=#e13#"}; -- havent added to any table yet / unkown drop location
 				{
@@ -3331,16 +3332,16 @@ local moduleName = "AtlasLootCataclysm"
 					{ 11, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1="..BabbleFaction["Alliance"]};
 				};
 				{ 12, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
-				{ 13, 67275, "", "=q3=Magic Lamp", "=q2="..BabbleInventory["Enchanting"]};
-				{ 14, 59597, "", "=q3=Personal World Destroyer", "=q2="..BabbleInventory["Engineering"]};
+				{ 13, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
+				{ 14, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
 				{
 					{ 15, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
 					{ 15, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
 				};
 				{ 16, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 17, 65661, "", "=q1=Blue Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
-				{ 18, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 19, 65662, "", "=q1=Gold Mini Jouster", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Mount Hyjal"]};
+				{ 17, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 18, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
+				{ 19, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
 				{ 20, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
 				{ 21, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 				{ 22, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
@@ -3351,7 +3352,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Companions"].." - "..AL["Cataclysm"],
+			name = BabbleInventory["Companions"].." - "..AL["Cataclysm"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -3598,7 +3599,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 23, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m6#"};
 				{ 24, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};--Hellscrean's Reach - Horde
 				{ 25, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};--Hellscrean's Reach - Horde
-
 			};
 		};
 		info = {
@@ -3614,31 +3614,30 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 32458, "", "=q4=Ashes of Al'ar", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["The Eye"]};
 				{ 3, 13335, "", "=q4=Deathcharger's Reins", "=q2="..BabbleBoss["Lord Aurius Rivendare"]..", =q1="..BabbleZone["Stratholme"], "", "0.10%"};
 				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2="..BabbleBoss["Attumen the Huntsman"]..", =q1="..BabbleZone["Karazhan"], "", "0.25%"};
-				{ 5, 50818, "", "=q4=Invincible's Reins", "=q2="..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-				{ 6, 45693, "", "=q4=Mimiron's Head", "=q2="..BabbleBoss["Mimiron"]..", =q1="..BabbleZone["Ulduar"], "", ""};
+				{ 5, 50818, "", "=q4=Invincible's Reins", "=q2="..AL["25 Man Heroic"].." "..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
+				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:3164#, =q1="..BabbleZone["Ulduar"], "", ""};
 				{ 7, 43986, "", "=q4=Reins of the Black Drake", "=q2="..BabbleBoss["Sartharion"]..", =q1=#j37# #z38# #j46#", ""};
 				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "=q2="..BabbleBoss["Sartharion"]..", =q1=#j38# #z38# #j46#", ""};
 				{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
 				{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "=q2="..BabbleBoss["Infinite Corruptor"]..", =q1="..AL["Heroic"].." "..BabbleZone["The Culling of Stratholme"], ""};
-				{ 13, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q2="..BabbleBoss["The Lich King"]..", =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-				{ 14, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altarius"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
+				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altarius"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
 				{
-					{ 15, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Horde"], "", ""};
-					{ 15, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Alliance"], "", ""};
+					{ 14, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Horde"], "", ""};
+					{ 14, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Alliance"], "", ""};
 				};
-				{ 16, 32768, "", "=q4=Reins of the Raven Lord", "=q2="..BabbleBoss["Anzu"]..", =q1="..BabbleZone["Sethekk Halls"]};
-				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 18, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 19, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
-				{ 20, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
-				{ 21, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
-				{ 22, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 25, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
-				{ 26, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 27, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
+				{ 15, 32768, "", "=q4=Reins of the Raven Lord", "=q2="..BabbleBoss["Anzu"]..", =q1="..BabbleZone["Sethekk Halls"]};
+				{ 16, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
+				{ 17, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 18, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 19, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 20, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 21, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
+				{ 24, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
+				{ 25, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 26, 46109, "", "=q3=Sea Turtle", "=q2=#p24#", ""};
 			};
 		};
 		info = {
@@ -3662,8 +3661,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
 				{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
 				{ 12, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{ 16, 49098, "", "=q4=Crusader's Black Warhorse", "#ACHIEVEMENTID:4079#, =ec1="..BabbleFaction["Horde"]};
-				{ 17, 49096, "", "=q4=Crusader's White Warhorse", "#ACHIEVEMENTID:4156#, =ec1="..BabbleFaction["Alliance"]};
 				{
 					{ 18, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
 					{ 18, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
@@ -3693,8 +3690,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};
 				{ 12, 34060, "", "=q3=Flying Machine Control", "=ds=#e27# =q2=#p5#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
-				{ 17, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
-				{ 18, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
+				{ 17, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q1=#m4#: #QUESTID:24915#"};
+				{ 18, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
+				{ 19, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
 			};
 		};
 		info = {
@@ -3773,8 +3771,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
--- This is a loot table for all the mounts introduced with Cataclysm. Please don't sort them in to the other
--- loot tables yet as they are a subject of change.
 	AtlasLoot_Data["MountsCata"] = {
 		["Normal"] = {
 			{
@@ -3794,7 +3790,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 14, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#"};--not known where from
 				{ 15, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 				{ 16, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
-				{ 17, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
+				{ 17, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..",=q1="..BabbleZone["Deepholm"]};
 				{ 18, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
 				{ 19, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
 				{ 20, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
@@ -3817,22 +3813,25 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "=q2="..BabbleBoss["Bloodlord Mandokir"]..", =q1="..BabbleZone["Zul'Gurub"], "", "0.43%"};
 				{ 4, 19902, "", "=q4=Swift Zulian Tiger", "=q2="..BabbleBoss["High Priest Thekal"]..", =q1="..BabbleZone["Zul'Gurub"], "", " 0.70%"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
-				{ 7, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
-				{ 8, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
-				{ 9, 49044, "", "=q4=Swift Alliance Steed", "#ACHIEVEMENTID:3810#"};
-				{ 10, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#"};
-				{ 12, 0, "INV_Box_01", "=q6=Other", ""};--no idea what to call this section
-				{ 13, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
-				{ 14, 37719, "", "=q4=Swift Zhevra", "=ds=#e26#"};
-				{ 15, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
-				{ 17, 30609, "", "=q4=Swift Nether Drake", "=ds="..AL["Season 1"]};
-				{ 18, 34092, "", "=q4=Merciless Nether Drake", "=ds="..AL["Season 2"]};
-				{ 19, 37676, "", "=q4=Vengeful Nether Drake", "=ds="..AL["Season 3"]};
-				{ 20, 43516, "", "=q4=Brutal Nether Drake", "=ds="..AL["Season 4"]};
-				{ 21, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "=ds="..AL["Season 5"]};
-				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "=ds="..AL["Season 6"]};
-				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "=ds="..AL["Season 7"]};
+				{ 7, 49098, "", "=q4=Crusader's Black Warhorse", "#ACHIEVEMENTID:4079#, =ec1="..BabbleFaction["Horde"]};
+				{ 8, 49096, "", "=q4=Crusader's White Warhorse", "#ACHIEVEMENTID:4156#, =ec1="..BabbleFaction["Alliance"]};
+				{ 9, 49044, "", "=q4=Swift Alliance Steed", "#ACHIEVEMENTID:3810#, =ec1="..BabbleFaction["Alliance"]};
+				{ 10, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#, =ec1="..BabbleFaction["Horde"]};
+				{ 11, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
+				{ 12, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
+				{ 16, 0, "INV_Box_01", "=q6=Other", ""};--no idea what to call this section
+				{ 17, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
+				{ 18, 37719, "", "=q4=Swift Zhevra", "=ds=#e26#"};
+				{ 19, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
+				{ 21, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
+				{ 22, 30609, "", "=q4=Swift Nether Drake", "=ds="..AL["Season 1"]};
+				{ 23, 34092, "", "=q4=Merciless Nether Drake", "=ds="..AL["Season 2"]};
+				{ 24, 37676, "", "=q4=Vengeful Nether Drake", "=ds="..AL["Season 3"]};
+				{ 25, 43516, "", "=q4=Brutal Nether Drake", "=ds="..AL["Season 4"]};
+				{ 26, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "=ds="..AL["Season 5"]};
+				{ 27, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "=ds="..AL["Season 6"]};
+				{ 28, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "=ds="..AL["Season 7"]};
+				{ 29, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "=ds="..AL["Season 8"]};
 			};
 		};
 		info = {
@@ -3848,22 +3847,23 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["TransformationItems"] = {
 		["Normal"] = {
 			{
-				{ 1, 49704, "", "=q4=Carved Ogre Idol", "=ds=#m24#"};
-				{ 2, 37254, "", "=q4=Super Simian Sphere", "=ds=#z17#"};
-				{ 3, 54653, "", "=q3=Darkspear Pride", "=q1=#m4#: #QUESTID:25480#"};
-				{ 4, 44719, "", "=q3=Frenzyheart Brew", "=q2="..BabbleFaction["Frenzyheart Tribe"].." "..BabbleFaction["Revered"]};
-				{ 5, 54651, "", "=q3=Gnomeregan Pride", "=q1=#m4#: #QUESTID:25286#"};
-				{ 6, 1973, "", "=q3=Orb of Deception", "=ds=#z17#"};
-				{ 7, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 8, 45850, "", "=q3=Rituals of the New Moon", "=ds=inscription"};
-				{ 9, 45851, "", "=q3=Rituals of the New Moon", "=ds=inscription"};
-				{ 10, 45852, "", "=q3=Rituals of the New Moon", "=ds=inscription"};
-				{ 11, 45853, "", "=q3=Rituals of the New Moon", "=ds=inscription"};
-				{ 12, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]};
-				{ 13, 5462, "", "=q1=Dartol's Rod of Transformation", "=q1=#m4#: #QUESTID:1028#"};
+				{ 1, 49704, "", "=q4=Carved Ogre Idol", "=q2=#m24#"};
+				{ 2, 52201, "", "=q4=Muradin's Favor", "=q1=#m4#: #QUESTID:24917#"};
+				{ 3, 37254, "", "=q4=Super Simian Sphere", "=ds=#z17#"};
+				{ 4, 54653, "", "=q3=Darkspear Pride", "=q1=#m4#: #QUESTID:25480#"};
+				{ 5, 44719, "", "=q3=Frenzyheart Brew", "=q2="..BabbleFaction["Frenzyheart Tribe"].." "..BabbleFaction["Revered"]};
+				{ 6, 54651, "", "=q3=Gnomeregan Pride", "=q1=#m4#: #QUESTID:25286#"};
+				{ 7, 1973, "", "=q3=Orb of Deception", "=ds=#z17#"};
+				{ 8, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 9, 45850, "", "=q3=Rituals of the New Moon", "=q2=#p26#"};
+				{ 10, 45851, "", "=q3=Rituals of the New Moon", "=q2=#p26#"};
+				{ 11, 45852, "", "=q3=Rituals of the New Moon", "=q2=#p26#"};
+				{ 12, 45853, "", "=q3=Rituals of the New Moon", "=q2=#p26#"};
+				{ 13, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]..", =q1="..BabbleZone["Terokkar Forest"]};
+				{ 14, 5462, "", "=q1=Dartol's Rod of Transformation", "=q1=#m4#: #QUESTID:1028#"};
 				{
-					{ 14, 43499, "", "=q1=Iron Boot Flask", "=ds="};--Alliance / sold in stormpeaks - Rork Sharpchin
-					{ 14, 43499, "", "=q1=Iron Boot Flask", "=ds="};--Horde / sold in stormpeaks - Olut Alegut
+					{ 15, 43499, "", "=q1=Iron Boot Flask", "=q2="..BabbleZone["The Storm Peaks"]};--Horde / - Olut Alegut
+					{ 15, 43499, "", "=q1=Iron Boot Flask", "=q2="..BabbleZone["The Storm Peaks"]};--Alliance / - Rork Sharpchin
 				};
 			};
 		};

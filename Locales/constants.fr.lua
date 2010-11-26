@@ -129,10 +129,7 @@ if AL then
 	-- Sets/Collections Menu
 	AL["BoE World Epics"] = "LqE Épiques mondial";
 	AL["Legendary Items"] = "Objets légendaires";
-	AL["Mounts"] = "Montures";
-	--AL["Vanity Pets"] = "Familiers"; --changed
 	AL["Misc Sets"] = "Sets divers";
-	--AL["Tabards"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
@@ -220,7 +217,6 @@ if AL then
 	AL["Set as default Wishlist"] = "Définir en tant que liste de souhaits par défaut";
 
 	-- Misc Inventory related words
-	AL["Enchant"] = "Enchantement";
 	AL["Scope"] = "Lunette de visée";
 	AL["Darkmoon Faire Card"] = "Carte de la foire de Sombrelune";
 	AL["Banner"] = "Etendard";
@@ -229,11 +225,8 @@ if AL then
 	AL["Tokens"] = "Insignes";
 	--AL["Token Hand-Ins"] = true; -- à traduire
 	AL["Skinning Knife"] = "Couteau à dépecer";
-	AL["Herbalism Knife"] = "Couteau d'herboriste";
-	AL["Fish"] = "Poisson";
 	AL["Combat Pet"] = "Animal de compagnie de combat";
 	AL["Fireworks"] = "Feux d'artifice";
-	AL["Fishing Lure"] = "Appât de pêche";
 
 	--Extra inventory stuff
 	AL["Cloak"] = "Cape";
@@ -255,10 +248,6 @@ if AL then
 	AL["Enchant Shield"] = "Enchantement Bouclier";
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
-
-	-- Engineering
-	AL["Ammunition"] = "Munitions";
-	AL["Explosives"] = "Explosifs";
 
 	-- Inscription
 	AL["Major Glyph"] = "Glyphe majeur";
@@ -360,7 +349,6 @@ if AL then
 	AL["Heirloom"] = "Héritage";
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
-	AL["Alone in the Darkness"] = "Dans la nuit noire";
 	AL["Call of the Grand Crusade"] = "L'appel de la grande Croisade";
 	AL["A Tribute to Skill (25)"] = "Une offrande au talent (25)";
 	AL["A Tribute to Mad Skill (45)"] = "Une offrande au talent fou (45)";

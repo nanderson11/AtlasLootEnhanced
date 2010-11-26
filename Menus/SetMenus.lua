@@ -13,9 +13,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 6, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
 				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
-				{ 10, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..AL["Mounts"], ""};
-				{ 11, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Companions"], ""};
-				{ 12, "TABARDMENU", "inv_chest_cloth_30", "=ds="..AL["Tabards"], ""};
+				{ 10, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
+				{ 11, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..BabbleInventory["Companions"], ""};
+				{ 12, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
 				{ 13, "TransformationItems", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
 				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
@@ -119,7 +119,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = AL["Mounts"],
+			name = BabbleInventory["Mounts"],
 			menu = "SETMENU",
 		};
 	}
@@ -141,7 +141,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = AL["Companions"],
+			name = BabbleInventory["Companions"],
 			menu = "SETMENU",
 		};
 	}
@@ -158,7 +158,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = AL["Tabards"],
+			name = BabbleInventory["Tabards"],
 			menu = "SETMENU",
 		};
 	}

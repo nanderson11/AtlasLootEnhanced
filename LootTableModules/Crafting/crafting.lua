@@ -2502,7 +2502,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = ENGINEERING..": "..AL["Explosives"],
+			name = ENGINEERING..": "..BabbleInventory["Explosives"],
 			module = moduleName, menu = "ENGINEERINGMENU", instance = "Engineering",
 		};
 	};
