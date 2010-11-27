@@ -3222,21 +3222,21 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
-				{ 2, 20371, "", "=q3=Blue Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 2, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
 				{ 3, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
-				{ 4, 13584, "", "=q3=Diablo Stone", "=q2="..AL["Collector's Edition"]};
-				{ 5, 39286, "", "=q3=Frosty's Collar", "=q2="..AL["Collector's Edition"]};
-				{ 6, 46802, "", "=q3=Heavy Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 7, 62540, "", "=q3=Lil' Deathwing", "=q2="..AL["Collector's Edition"]};
+				{ 4, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};
+				{ 5, 39286, "", "=q3=Frosty's Collar", "#ACHIEVEMENTID:683#"};
+				{ 6, 46802, "", "=q3=Heavy Murloc Egg", "#ACHIEVEMENTID:3536#"};
+				{ 7, 62540, "", "=q3=Lil' Deathwing", "#ACHIEVEMENTID:5377#"};
 				{ 8, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
-				{ 9, 56806, "", "=q3=Mini Thor", "=q2="..AL["Collector's Edition"]};
-				{ 10, 45180, "", "=q3=Murkimus' Little Spear", "=ds=#e13#"};
-				{ 11, 25535, "", "=q3=Netherwhelp's Collar", "=q2="..AL["Collector's Edition"]};
-				{ 12, 13583, "", "=q3=Panda Collar", "=q2="..AL["Collector's Edition"]};
+				{ 9, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
+				{ 10, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
+				{ 11, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
+				{ 12, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
 				{ 13, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-				{ 14, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
-				{ 15, 39656, "", "=q3=Tyrael's Hilt", "=ds=#e13#"};
-				{ 16, 13582, "", "=q3=Zergling Leash", "=q2="..AL["Collector's Edition"]};
+				{ 14, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
+				{ 15, 39656, "", "=q3=Tyrael's Hilt", "#ACHIEVEMENTID:414#"};
+				{ 16, 13582, "", "=q3=Zergling Leash", "#ACHIEVEMENTID:664#"};
 				{ 18, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
 				{ 19, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
 				{ 20, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
