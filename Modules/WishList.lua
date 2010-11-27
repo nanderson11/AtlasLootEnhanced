@@ -337,6 +337,8 @@ function WishList:OnInitialize()
 	AtlasLoot.ItemFrame.WishListDropDownMenu.displayMode = "MENU"
 	AtlasLoot.ItemFrame.WishListDropDownMenu.initialize = self.WishList_DropDownInit
 	
+	AtlasLoot:RegisterSlashCommand("wishlist", WishList.SlashCommand)
+	
 	for i in ipairs(AtlasLoot.ItemFrame.ItemButtons) do
 		if AtlasLoot.ItemFrame.ItemButtons[i] then
 			AtlasLoot.ItemFrame.ItemButtons[i].Frame:HookScript("OnClick", WishList.ButtonOnClick)
@@ -595,6 +597,19 @@ function WishList:ShowWishlist(wishlist)
 	LootTableSort:ShowSortedTable(WishList:GetWishlistNameByID(wishlist), WishList.ownWishLists[wishlist][1], MODULENAME.."#"..wishlist)
 end
 
+-- /al wishlist, /atlasloot wishlist
+-- msg is allways "wishlist"
+function WishList:SlashCommand(msg, ...)
+	local wishlistName = ...
+	if wishlistName then
+		WishList:OpenWishlist(wishlistName)
+	else
+		if AtlasLootDefaultFrame then
+			AtlasLootDefaultFrame:Show()
+			WishList:ShowWishListList()
+		end
+	end
+end
 -- tableLinkFunc
 -- Shows all Wishlists in a menu table
 function WishList:ShowWishListList()
@@ -679,7 +694,7 @@ function WishList:RefreshCurWishlist(id)
 	end
 end
 -- ###################################
--- 
+-- API
 -- ###################################
 function WishList:CheckWishlistForItemOrSpell(id, wishlist)
 	local isListed
@@ -709,6 +724,31 @@ function WishList:GetWishlistNameByID(id)
 	return self.ownWishLists[id].info.name
 end
 
+--- Searchs a wishlist
+-- @param name the wishlist name you want to search
+function WishList:SearchWishlist(name)
+	name = string.lower(name) or ""
+	local found
+	for k,v in ipairs(WishList.ownWishLists) do
+		if string.lower(WishList.ownWishLists[k].info.name) == name then
+			found = k
+		end
+	end
+	return found
+end
+
+function WishList:OpenWishlist(nameOrId)
+	if AtlasLootDefaultFrame then
+		if type(nameOrId) == "string" then
+			nameOrId = self:SearchWishlist(nameOrId)
+		end
+		if nameOrId then
+			AtlasLootDefaultFrame:Show()
+			WishList:ShowWishlist(nameOrId)
+		end
+		
+	end
+end
 -- ###################################
 -- Add/delete Item
 -- ###################################

@@ -259,12 +259,15 @@ do
 	-- msg - takes the argument for the /atlasloot command so that the appropriate action can be performed
 	-- If someone types /atlasloot, bring up the options box
 	function AtlasLoot:SlashCommand(msg, ...)
+		msg = string.lower(msg)
+		local saveMsg = msg
+		msg = string.split(" ", msg) or msg
 		if msg == AL["reset"] then
 			self:Reset("frames");
 		elseif msg == AL["options"] then
 			self:OptionsToggle();
 		elseif slashCommand[msg] then
-			slashCommand[msg](self, msg, ...)
+			slashCommand[msg](self, string.split(" ", saveMsg))
 		else
 			if AtlasLootDefaultFrame then
 				AtlasLootDefaultFrame:Show()
@@ -275,7 +278,7 @@ do
 	end
 	
 	function AtlasLoot:RegisterSlashCommand(com, func)
-		slashCommand[com] = func
+		slashCommand[string.lower(com)] = func
 	end
 end
 
