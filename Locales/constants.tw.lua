@@ -1456,6 +1456,7 @@ if AL then
 	AL["Deviate Ravager/Deviate Guardian"] = "變異劫毀者/變異守護者";
 --	AL["Servant's Quarter Animal Bosses"] = true;
 --	AL["Jadefang"] = true;
+	AL["Aeonaxx"] = "艾歐納克斯";
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
