@@ -107,7 +107,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Lost City of the Tol'vir"], "AtlasLootCataclysm", mapname = "LostCityofTolvir" },
 		},
-		
+
 		["GrimBatol"] = {
 			["Bosses"] = {
 				{ "GBUmbriss", 2 },
@@ -139,7 +139,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "BoTWyrmbreaker", 3 },
 				{ "BoTValionaTheralion", 4 },
-				{ "BoTSinestra", 7 },	
+				{ "BoTSinestra", 7 },
 			},
 			["Info"] = { BabbleZone["The Bastion of Twilight"], "AtlasLootCataclysm", mapname = "TheBastionofTwilight" },
 		},
@@ -186,7 +186,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK", mapname = "AzjolNerub" },
 		},
-		
+
 		["CoTOldStratholme"] = {
 			["Bosses"] = {
 				{ "CoTStratholmeMeathook", 5 },
@@ -219,17 +219,17 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["The Forge of Souls"], "AtlasLootWotLK", mapname = "TheForgeofSouls" },
 		},
-		
+
 		["FHHallsOfReflection"] = {
 			["Bosses"] = {
 				{ "HoRFalric", 4 },
-				{ "HoRMarwyn", 5 },			
+				{ "HoRMarwyn", 5 },
 				{ "HoRLichKing", {6,7} },
 				{ "FHTrashMobs", 13 },
 			},
 			["Info"] = { BabbleZone["Halls of Reflection"], "AtlasLootWotLK", mapname = "HallsofReflection" },
 		},
-		
+
 		["FHPitOfSaron"] = {
 			["Bosses"] = {
 				{ "PoSGarfrost", 4 },
@@ -252,7 +252,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Gundrak"], "AtlasLootWotLK", mapname = "Gundrak" },
 		},
-		
+
 		["TheNexus"] = {
 			["Bosses"] = {
 				{ "TheNexusKolurgStoutbeard", {2,3} },
@@ -281,7 +281,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TrialoftheChampionChampions", 2 },
 				{ "TrialoftheChampionEadricthePure", 15 },
 				{ "TrialoftheChampionConfessorPaletress", 16 },
-				{ "TrialoftheChampionBlackKnight", 17 },	
+				{ "TrialoftheChampionBlackKnight", 17 },
 			},
 			["Info"] = { BabbleZone["Trial of the Champion"], "AtlasLootWotLK", mapname = "TheArgentColiseum" },
 		},
@@ -297,7 +297,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK", mapname = "Ulduar77" },
 		},
-		
+
 		["UlduarHallsofLightning"] = {
 			["Bosses"] = {
 				{ "HallsofLightningBjarngrim", 2 },
@@ -308,7 +308,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK", mapname = "HallsofLightning" },
 		},
-	
+
 		["UtgardeKeep"] = {
 			["Bosses"] = {
 				{ "UtgardeKeepKeleseth", 4 },
@@ -393,7 +393,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Naxx80Gothik", 16 },
 				{ "Naxx80FourHorsemen", {17,22} },
 				{ "Naxx80Noth", 24 },
-				{ "Naxx80Heigan", 25 },			
+				{ "Naxx80Heigan", 25 },
 				{ "Naxx80Loatheb", 26 },
 				{ "Naxx80Sapphiron", 28 },
 				{ "Naxx80KelThuzad", 29 },
@@ -416,7 +416,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Onyxia's Lair"], "AtlasLootWotLK", mapname = "OnyxiasLair" },
 		},
-		
+
 		["RubySanctum"] = {
 			["Bosses"] = {
 				{ "Halion", 6 },
@@ -508,7 +508,7 @@ AtlasLoot_LootTableRegister = {
 --------------------
 
 	---- Dungeons
-	
+
 		["AuchAuchenaiCrypts"] = {
 			["Bosses"] = {
 				{ "LowerCity", 1, hide = true },
@@ -585,7 +585,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["The Black Morass"], "AtlasLootBurningCrusade" },
 		},
-		
+
 		["CFRTheSlavePens"] = {
 			["Bosses"] = {
 				{ "CExpedition", 1, hide = true },
@@ -597,7 +597,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["The Slave Pens"], "AtlasLootBurningCrusade" },
 		},
-		
+
 		["CFRTheSteamvault"] = {
 			["Bosses"] = {
 				{ "CExpedition", 1, hide = true },
@@ -658,7 +658,6 @@ AtlasLoot_LootTableRegister = {
 				{ "HCHallsKargath", 8 },
 				{ "HCHallsTrash", 9, hide = true },
 				{ "HCHallsTrash", 19 },
-
 			},
 			["Info"] = { BabbleZone["The Shattered Halls"], "AtlasLootBurningCrusade" },
 		},
@@ -778,7 +777,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Serpentshrine Cavern"], "AtlasLootBurningCrusade" },
 		},
-			
+
 		["GruulsLair"] = {
 			["Bosses"] = {
 				{ "GruulsLairHighKingMaulgar", 2 },
@@ -819,7 +818,7 @@ AtlasLoot_LootTableRegister = {
 				{ "KaraCurator", 11 },
 				{ "KaraIllhoof", 12 },
 				{ "KaraAran", 14 },
-				{ "KaraNetherspite", 15 },				
+				{ "KaraNetherspite", 15 },
 				{ "KaraChess", {16,17} },
 				{ "KaraPrince", 18 },
 				{ "KaraTrash", 25 },
@@ -1017,7 +1016,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
-	
+
 		["DireMaulWest"] = {
 			["Bosses"] = {
 				{ "OldKeys", 1, hide = true },
@@ -1117,7 +1116,7 @@ AtlasLoot_LootTableRegister = {
 		},
 
 		["TheSunkenTemple"] = {
-			["Bosses"] = {		 
+			["Bosses"] = { 
 				{ "STAvatarofHakkar", 3 },
 				{ "STJammalanandOgom", {4,5} },
 				{ "STHazzasandMorphaz", {6,7} },
@@ -1256,7 +1255,6 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Scholomance"], "AtlasLootClassicWoW", mapname = "Scholomance" },
 		},
 
-
 		["TheDeadminesEnt"] = "TheDeadminesEaI",
 		["TheDeadmines"] = "TheDeadminesEaI",
 		["TheDeadminesEaI"] = {
@@ -1313,7 +1311,7 @@ AtlasLoot_LootTableRegister = {
 
 		["ZulFarrak"] = {
 			["Bosses"] = {
-              			{ "ZFGahzrilla", 2 },
+				{ "ZFGahzrilla", 2 },
 				{ "ZFSandfury", 3 },
 				{ "ZFSergeantBly", 5 },
 				{ "ZFSezzziz", 9 },
@@ -1326,7 +1324,7 @@ AtlasLoot_LootTableRegister = {
 				{ "LunarFestival", 17, hide = true },
 				{ "ZFDustwraith", 19 },
 				{ "ZFZerillis", 20 },
-				{ "ZFTrash", 23 },				
+				{ "ZFTrash", 23 },
 			},
 			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak" },
 		},
@@ -1336,8 +1334,8 @@ AtlasLoot_LootTableRegister = {
 --- Battlegrounds ---
 ---------------------
 
-
 	["Battlegrounds"] = {
+
 		["AlteracValleyNorth"] = {
 			["Bosses"] = {
 				{ "AlteracFactions", 1 },
@@ -1346,7 +1344,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Alterac Valley"], "AtlasLootClassicWoW" },
 		},
-		
+
 		["AlteracValleySouth"] = {
 			["Bosses"] = {
 				{ "AlteracFactions", 1 },
@@ -1355,6 +1353,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Alterac Valley"], "AtlasLootClassicWoW" },
 		},
+
 		["ArathiBasin"] = {
 			["Bosses"] = {
 				{ "MiscFactions", {1,2} },
@@ -1365,36 +1364,42 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Arathi Basin"], "AtlasLootClassicWoW" },
 		},
+
 		["HalaaPvP"] = {
 			["Bosses"] = {
 				{ "Nagrand", 1 },
 			},
 			["Info"] = { BabbleZone["Nagrand"]..": "..AL["Halaa"], "AtlasLootBurningCrusade" },
 		},
+
 		["HellfirePeninsulaPvP"] = {
 			["Bosses"] = {
 				{ "Hellfire", 1 },
 			},
 			["Info"] = { BabbleZone["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"], "AtlasLootBurningCrusade" },
 		},
+
 		["TerokkarForestPvP"] = {
 			["Bosses"] = {
 				{ "Terokkar", 1 },
 			},
 			["Info"] = { BabbleZone["Terokkar Forest"]..": "..AL["Spirit Towers"], "AtlasLootBurningCrusade" },
 		},
+
 		["ZangarmarshPvP"] = {
 			["Bosses"] = {
 				{ "Zangarmarsh", 1 },
 			},
 			["Info"] = { BabbleZone["Zangarmarsh"]..": "..AL["Twin Spire Ruins"], "AtlasLootBurningCrusade" },
 		},
+
 		["WintergraspPvP"] = {
 			["Bosses"] = {
 				{ "LakeWintergrasp", 1 },
 			},
 			["Info"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" },
 		},
+
 		["TolBarad"] = {
 			["Bosses"] = {
 				{ "BaradinsWardens", 1 },
@@ -1402,6 +1407,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Tol Barad"], "AtlasLootCataclysm" },
 		},
+
 		["TwinPeaks"] = {
 			["Bosses"] = {
 				{ "WildhammerClan", 1 },
@@ -1416,6 +1422,7 @@ AtlasLoot_LootTableRegister = {
 --------------------
 
 	["WorldBosses"] = {
+
 		["DoomLordKazzak"] = {
 			["Bosses"] = {
 				{ "WorldBossesBC", 1 },
@@ -1442,12 +1449,13 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { AL["Skettis"], "AtlasLootWorldEvents" },
 		},
 	},
-	
+
 --------------------
 --- World Events ---
 --------------------
 
 	["WorldEvents"] = {
+
 		["Brewfest"] = {
 			["Bosses"] = {
 				{ "Brewfest" },
@@ -1456,6 +1464,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { AL["Brewfest"], "AtlasLootWorldEvents"},
 		},
+
 		["Halloween"] = {
 			["Bosses"] = {
 				{ "Halloween" },
@@ -1463,6 +1472,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { AL["Hallow's End"], "AtlasLootWorldEvents"},
 		},
+
 		["MidsummerFestival"] = {
 			["Bosses"] = {
 				{ "MidsummerFestival" },
@@ -1483,11 +1493,11 @@ AtlasLoot_LootTableRegister = {
 				{ "SmithingArmorOld" },
 				{ "SmithingArmorBC" },
 				{ "SmithingArmorWrath" },
-				--{ "SmithingArmorCata" },
+				{ "SmithingArmorCata" },
 				{ "SmithingWeaponOld" },
 				{ "SmithingWeaponBC" },
 				{ "SmithingWeaponWrath" },
-				--{ "SmithingWeaponCata" },
+				{ "SmithingWeaponCata" },
 				{ "SmithingEnhancement" },
 				{ "SmithingMisc" },
 				{ "Armorsmith" },
@@ -1599,6 +1609,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { LEATHERWORKING..": "..BabbleInventory["Mail"], "AtlasLootCrafting"},
 		},
+
 		["TailoringSets"] = {
 			["Bosses"] = {
 				{ "TailoringBloodvineG" },
@@ -1638,6 +1649,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleInventory["Companions"], "AtlasLootCataclysm"},
 		},
+
 		["WorldEpics"] = {
 			["Bosses"] = {
 				{ "WorldEpics80" },
@@ -1649,7 +1661,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { AL["BoE World Epics"], "AtlasLootWotLK"},
 		},
 	},
-	
+
 	["PVP"] = {
 		["PvP70Accessories"] = {
 			["Bosses"] = {
@@ -1658,6 +1670,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { AL["PvP Accessories"].." "..AL["Level 70"], "AtlasLootBurningCrusade"},
 		},
+
 		["AlteracValley"] = {
 			["Bosses"] = {
 				{ "AVMisc" },
@@ -1665,6 +1678,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Alterac Valley"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
 		},
+
 		["WarsongGulch"] = {
 			["Bosses"] = {
 				{ "WSGMisc", 6 },
@@ -1675,7 +1689,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Warsong Gulch"].." "..AL["Rewards"], "AtlasLootClassicWoW"},
 		},
 	},
-	
+
 	["Sets"] = {
 		["EmblemofTriumph"] = {
 			["Bosses"] = {
