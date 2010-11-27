@@ -633,10 +633,12 @@ end
 -- Refresh functions
 -- ###################################
 function WishList:Refresh()
-	self.Info.numWishlists = #self.ownWishLists
-	self:RefreshItemIdList()
-	self:RefreshDefaultWishlist()
-	self:RefreshCurWishlist()
+	if self.ownWishLists then
+		self.Info.numWishlists = #self.ownWishLists
+		self:RefreshItemIdList()
+		self:RefreshDefaultWishlist()
+		self:RefreshCurWishlist()
+	end
 end
 
 function WishList:RefreshItemIdList()

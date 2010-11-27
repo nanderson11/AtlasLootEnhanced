@@ -549,7 +549,9 @@ function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPag
 	dataID, instancePage = self:FormatDataID(dataID)
 	tableRegister = self:GetTableRegister(dataID)
 	instanceType = AtlasLoot:GetLootTableType(oriDataID)
-	menuID = AtlasLoot_Data[dataID].info.menu
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.menu then
+		menuID = AtlasLoot_Data[dataID].info.menu
+	end
 	
 	if tableRegister and tableRegister["Info"] and tableRegister["Info"][1] then
 		instanceName = tableRegister["Info"][1]
