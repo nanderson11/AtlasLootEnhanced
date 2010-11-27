@@ -3189,19 +3189,18 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "=ds="..AL["Feast of Winter Veil"]};
-				{ 3, 46545, "", "=q3=Curious Oracle Hatchling", "=ds="..AL["Children's Week"]};
-				{ 4, 46544, "", "=q3=Curious Wolvar Pup", "=ds="..AL["Children's Week"]};
-				{ 5, 32616, "", "=q3=Egbert's Egg", "=ds="..AL["Children's Week"]};
-				{ 6, 32622, "", "=q3=Elekk Training Collar", "=ds="..AL["Children's Week"]};
-				{ 7, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 8, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds="..AL["Brewfest"]};
-				{ 9, 34955, "", "=q3=Scorched Stone", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 10, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
-				{ 11, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
-				{ 12, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
-				{ 13, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="..AL["Brewfest"]};
-				{ 14, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Love is in the Air"]};
+				{ 2, 46545, "", "=q3=Curious Oracle Hatchling", "=ds="..AL["Children's Week"]};
+				{ 3, 46544, "", "=q3=Curious Wolvar Pup", "=ds="..AL["Children's Week"]};
+				{ 4, 32616, "", "=q3=Egbert's Egg", "=ds="..AL["Children's Week"]};
+				{ 5, 32622, "", "=q3=Elekk Training Collar", "=ds="..AL["Children's Week"]};
+				{ 6, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 7, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds="..AL["Brewfest"]};
+				{ 8, 34955, "", "=q3=Scorched Stone", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 9, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
+				{ 10, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
+				{ 11, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
+				{ 12, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="..AL["Brewfest"]};
+				{ 13, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Love is in the Air"]};
 				{ 16, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
 				{ 17, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
 				{ 18, 23007, "", "=q1=Piglet's Collar", "=ds="..AL["Children's Week"]};
@@ -3257,12 +3256,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsRemoved"] = {
 		["Normal"] = {
 			{
-				{ 1, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
-				{ 2, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
-				{ 3, 38658, "", "=q3=Vampiric Batling", "=q2="..BabbleBoss["Prince Tenris Mirkblood"]..", =q1="..BabbleZone["Karazhan"]};
-				{ 4, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
-				{ 5, 44819, "", "=q1=Baby Blizzard Bear", "=ds="..AL["WoW Anniversary Celebration"]};
-				{ 6, 49362, "", "=q1=Onyxian Whelpling", "=ds="..AL["WoW Anniversary Celebration"]};
+				{ 1, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
+				{ 2, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
+				{ 3, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
+				{ 4, 38658, "", "=q3=Vampiric Batling", "#ACHIEVEMENTID:2456#, =q1="..BabbleZone["Karazhan"]};
+				{ 5, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
+				{ 6, 44819, "", "=q1=Baby Blizzard Bear", "#ACHIEVEMENTID:2398#"};
+				{ 7, 49362, "", "=q1=Onyxian Whelpling", "#ACHIEVEMENTID:4400#"};
 			};
 		};
 		info = {
@@ -3331,14 +3331,14 @@ local moduleName = "AtlasLootCataclysm"
 					{ 11, 65362, "", "=q3=Guild Page", "#ACHIEVEMENTID:5179#, =ec1="..BabbleFaction["Horde"]};
 					{ 11, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1="..BabbleFaction["Alliance"]};
 				};
-				{ 12, 62540, "", "=q3=Lil'Deathwing", "=q2="..AL["Collector's Edition"]};
+				{ 12, 62540, "", "=q3=Lil'Deathwing", "#ACHIEVEMENTID:5377#"};
 				{ 13, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
 				{ 14, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
 				{
 					{ 15, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
 					{ 15, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
 				};
-				{ 16, 67418, "", "=q3=Smoldering Murloc Egg", "=q2="..AL["Blizzcon"]};
+				{ 16, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
 				{ 17, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
 				{ 18, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
 				{ 19, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
@@ -3611,11 +3611,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 2, 32458, "", "=q4=Ashes of Al'ar", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["The Eye"]};
-				{ 3, 13335, "", "=q4=Deathcharger's Reins", "=q2="..BabbleBoss["Lord Aurius Rivendare"]..", =q1="..BabbleZone["Stratholme"], "", "0.10%"};
-				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "=q2="..BabbleBoss["Attumen the Huntsman"]..", =q1="..BabbleZone["Karazhan"], "", "0.25%"};
+				{ 2, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
+				{ 3, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
+				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
 				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:3164#, =q1="..BabbleZone["Ulduar"], "", ""};
+				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
 				{ 7, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1=#z38#", ""};
 				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1=#z38#", ""};
 				{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
@@ -3627,15 +3627,15 @@ local moduleName = "AtlasLootCataclysm"
 					{ 14, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Horde"], "", ""};
 					{ 14, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Alliance"], "", ""};
 				};
-				{ 15, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#, =q1="..BabbleZone["Sethekk Halls"]};
+				{ 15, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
 				{ 16, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 17, 35513, "", "=q4=Swift White Hawkstrider", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 17, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
 				{ 18, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
 				{ 19, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
 				{ 20, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
 				{ 21, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
 				{ 23, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 24, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2=Aeonaxx, =q1="..BabbleZone["Deepholm"]};-- Need to add name
+				{ 24, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
 				{ 25, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
 				{ 26, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
@@ -3714,8 +3714,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
 				{ 9, 49285, "", "=q3=X-51 Nether-Rocket", "=q2=#m24#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "=ds=#e27#"};
-				{ 18, 43599, "", "=q3=Big Blizzard Bear", "=ds="..AL["Blizzcon"]};
+				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 20, 0, "INV_Box_01", "=q6="..AL["Companion Store"], ""};
 				{ 21, 54811, "", "=q4=Celestial Steed", "=ds=#m24#"};
 			};
@@ -3761,10 +3761,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 37828, "", "=q4=Great Brewfest Kodo", "=q2=#n150#"};
 				{ 3, 33977, "", "=q4=Swift Brewfest Ram", "=q2=#n150#"};
 				{ 5, 0, "INV_Box_01", "=q6="..AL["Hallow's End"], ""};
-				{ 6, 37012, "", "=q4=The Horseman's Reins", "=q2=#n136#"};
+				{ 6, 37012, "", "=q4=The Horseman's Reins", "#ACHIEVEMENTID:980#"};
 				{ 7, 37011, "", "=q3=Magic Broom", "=q2=#n136#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Love is in the Air"], ""};
-				{ 17, 50250, "", "=q4=Big Love Rocket", "=ds=#e27#"};			
+				{ 17, 50250, "", "=q4=Big Love Rocket", "#ACHIEVEMENTID:4627#"};			
 			};
 		};
 		info = {
@@ -3812,8 +3812,8 @@ local moduleName = "AtlasLootCataclysm"
 
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
 				{ 2, 33809, "", "=q4=Amani War Bear", "=q2="..AL["Timed Reward Chest 4"]..", =q1="..BabbleZone["Zul'Aman"]};
-				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "=q2="..BabbleBoss["Bloodlord Mandokir"]..", =q1="..BabbleZone["Zul'Gurub"], "", "0.43%"};
-				{ 4, 19902, "", "=q4=Swift Zulian Tiger", "=q2="..BabbleBoss["High Priest Thekal"]..", =q1="..BabbleZone["Zul'Gurub"], "", " 0.70%"};
+				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#", "", "0.43%"};
+				{ 4, 19902, "", "=q4=Swift Zulian Tiger", "#ACHIEVEMENTID:880#", "", " 0.70%"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
 				{ 7, 49098, "", "=q4=Crusader's Black Warhorse", "#ACHIEVEMENTID:4079#, =ec1="..BabbleFaction["Horde"]};
 				{ 8, 49096, "", "=q4=Crusader's White Warhorse", "#ACHIEVEMENTID:4156#, =ec1="..BabbleFaction["Alliance"]};
@@ -3823,7 +3823,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
 				{ 16, 0, "INV_Box_01", "=q6=Other", ""};--no idea what to call this section
 				{ 17, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
-				{ 18, 37719, "", "=q4=Swift Zhevra", "=ds=#e26#"};
+				{ 18, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
 				{ 19, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
 				{ 21, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
 				{ 22, 30609, "", "=q4=Swift Nether Drake", "=ds="..AL["Season 1"]};
