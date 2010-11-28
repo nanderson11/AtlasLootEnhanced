@@ -466,7 +466,11 @@ do
 			end
 		end
 		for ini,iniTab in SortTable(AtlasLoot_LootTableRegister["Instances"]) do
-			if iniTab["Info"] and instances[ iniTab["Info"][2] ] then
+			if iniTab["Info"] and iniTab["Info"][2] and type(iniTab["Info"][2]) == "table" then
+				for k,v in ipairs(iniTab["Info"][2]) do
+					instances[ v ][#instances[ v ] + 1] = ini
+				end
+			elseif iniTab["Info"] and instances[ iniTab["Info"][2] ] then
 				instances[ iniTab["Info"][2] ][#instances[ iniTab["Info"][2] ] + 1] = ini
 			end
 		end

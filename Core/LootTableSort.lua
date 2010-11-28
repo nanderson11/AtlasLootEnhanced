@@ -288,7 +288,7 @@ local function SortTableItems(t, f)
 			elseif not itemName and not v[4] then
 				itemName = "ERROR"..k
 			end
-			itemName = itemName..v[2]
+			itemName = itemName..v[2]..k
 			a[#a + 1] = itemName
 			a2[itemName] = k
 			

@@ -1182,7 +1182,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ShadowfangGodfrey", 8 },
 				{ "Valentineday#3", 9, hide = true },
 			},
-			["Info"] = { BabbleZone["Shadowfang Keep"], "AtlasLootCataclysm", mapname = "ShadowfangKeep" },
+			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, mapname = "ShadowfangKeep" },
 		},
 
 		["Gnomeregan"] = {
@@ -1269,7 +1269,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DeadminesCookie", 8 },
 				{ "DeadminesVanessa", 9 },
 			},
-			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootCataclysm", sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines" },
+			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines" },
 		},
 
 		["WailingCavernsEnt"] = "WailingCavernsEaI",
