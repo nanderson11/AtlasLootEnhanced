@@ -1339,8 +1339,8 @@ AtlasLoot_LootTableRegister = {
 		["AlteracValleyNorth"] = {
 			["Bosses"] = {
 				{ "AlteracFactions", 1 },
-				{ "AVMisc", 62 },
-				{ "AVBlue", 63 },
+				{ "AVMisc", 48 },
+				{ "AVBlue", 49 },
 			},
 			["Info"] = { BabbleZone["Alterac Valley"], "AtlasLootClassicWoW" },
 		},
@@ -1348,8 +1348,8 @@ AtlasLoot_LootTableRegister = {
 		["AlteracValleySouth"] = {
 			["Bosses"] = {
 				{ "AlteracFactions", 1 },
-				{ "AVMisc", 45 },
-				{ "AVBlue", 46 },
+				{ "AVMisc", 31 },
+				{ "AVBlue", 32 },
 			},
 			["Info"] = { BabbleZone["Alterac Valley"], "AtlasLootClassicWoW" },
 		},
