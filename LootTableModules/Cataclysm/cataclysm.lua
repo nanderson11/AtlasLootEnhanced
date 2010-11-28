@@ -355,11 +355,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 55800, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
 				{ 6, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56334, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
-				{ 18, 56336, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
-				{ 19, 56333, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
-				{ 20, 56337, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
-				{ 21, 56335, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
+				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
+				{ 18, 56334, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
+				{ 19, 56336, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
+				{ 20, 56333, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
+				{ 21, 56337, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
+				{ 22, 56335, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -457,11 +458,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
 				{ 6, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
-				{ 18, 56363, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
-				{ 19, 56362, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
-				{ 20, 56365, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
-				{ 21, 56364, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
+				{ 17, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
+				{ 18, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
+				{ 19, 56363, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
+				{ 20, 56362, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
+				{ 21, 56365, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
+				{ 22, 56364, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
 			};
 		};
 		info = {
@@ -1349,15 +1351,14 @@ local moduleName = "AtlasLootCataclysm"
 		---------------------
 		--- Baradin Hold ----
 		---------------------
---TEST PAGE
 	AtlasLoot_Data["Argaloth"] = {
 		["Normal"] = {
 			{
-				{ 2, "PVP85SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5=Gloves, Legs"};
-				{ 3, "PVP80NONSETEPICS", "inv_bracer_51", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 80"]};
+				{ 2, "PVP85SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5=#s9#, #s11#"};
+				{ 3, "PVP80NONSETEPICS", "inv_bracer_51", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 80"]}; --needs change
 				{ 5, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
 				{ 6, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
-				{ 17, "T11SET", "inv_chest_plate_26", "=q6="..AL["Tier 11 Set"], "=q5=Gloves, Legs"};
+				{ 17, "T11SET", "inv_chest_plate_26", "=q6="..AL["Tier 11 Set"], "=q5=#s9#, #s11#"};
 			};
 		};
 		info = {

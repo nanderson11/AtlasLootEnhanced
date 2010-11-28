@@ -3016,7 +3016,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 9, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
 				{ 10, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
-				{ 17, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "" };
+				{ 17, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "", "9%" };
 				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
 				{ 20, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
 			};
