@@ -122,6 +122,7 @@ local AtlasLootDBDefaults = {
 		ShowLootTablePrice = true,
 		ShowPriceAndDesc = false,
 		UseGameTooltip = false,
+		LastMinAtlasVersion = 0,
     }
 }
 

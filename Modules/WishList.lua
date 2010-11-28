@@ -399,6 +399,11 @@ function WishList:SetupDb(change)
 		end
 		self.ownWishLists = self.db.global.data['Normal'][self.realm][self.char]
 	end
+	for i = 1, #self.ownWishLists do
+		if self.ownWishLists[i] == nil then
+			table.remove(self.ownWishLists, i)
+		end
+	end
 end
 -- Icon select
 do
@@ -474,6 +479,7 @@ do
 			self.IconSelect.Title:SetText(info.name)
 			self.IconSelect.selectedIcon = nil
 			self.IconSelect.selectedIconTexture = info.icon
+			self.IconSelect.OkayButton.info = info
 			self.IconSelect:Show() 
 			return
 		end
@@ -560,8 +566,9 @@ do
 		IconSelect.OkayButton:SetHeight(22)
 		IconSelect.OkayButton:SetPoint("RIGHT", IconSelect.CancelButton, "LEFT", -2, 0)
 		IconSelect.OkayButton:SetText(OKAY)	
-		IconSelect.OkayButton:SetScript("OnClick", function() 
-			info.icon = newIcon
+		IconSelect.OkayButton.info = info
+		IconSelect.OkayButton:SetScript("OnClick", function(self) 
+			self.info.icon = newIcon
 			WishList.IconSelect:Hide()
 			AtlasLoot:RefreshModuleOptions()
 		end)
@@ -641,8 +648,9 @@ function WishList:ShowWishListList()
 end
 
 function WishList:DeleteWishlist(info, id)
-	self.ownWishLists[id] = nil
+	table.remove(self.ownWishLists, id)
 	WishList:Refresh()
+	collectgarbage("collect")
 end
 -- ###################################
 -- Refresh functions

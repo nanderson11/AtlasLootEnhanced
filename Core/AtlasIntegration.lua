@@ -82,7 +82,8 @@ function AtlasLoot:AtlasInitialize()
 		Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
 		AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
 	else
-		if ATLAS_VERSION then
+		if ATLAS_VERSION and ATLASLOOT_MIN_ATLAS ~= AtlasLoot.db.profile.LastMinAtlasVersion then
+			AtlasLoot.db.profile.LastMinAtlasVersion = ATLASLOOT_MIN_ATLAS
 			StaticPopup_Show("ATLASLOOT_INCOMPATIBLE_ATLAS")			
 		end
 		AtlasLoot.AtlasRefreshHook = nil
