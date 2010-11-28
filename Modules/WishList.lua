@@ -668,12 +668,16 @@ function WishList:RefreshItemIdList()
 	local IdSave = self.Info.IdSave
 	wipe(IdSave)
 	for _,wishlist in ipairs(self.ownWishLists) do
-		for _,item in ipairs(wishlist[1]) do
-			if not IdSave[item[2]] then IdSave[item[2]] = {} end
-			IdSave[item[2]][#IdSave[item[2]] + 1] = wishlist.info.name
-			if item[3] and item[3] ~= "" then
-				if not IdSave["s"..item[3]] then IdSave["s"..item[3]] = {} end
-				IdSave["s"..item[3]][#IdSave["s"..item[3]] + 1] = wishlist.info.name
+		for itemNum,item in ipairs(wishlist[1]) do
+			if item[2] then
+				if not IdSave[item[2]] then IdSave[item[2]] = {} end
+				IdSave[item[2]][#IdSave[item[2]] + 1] = wishlist.info.name
+				if item[3] and item[3] ~= "" then
+					if not IdSave["s"..item[3]] then IdSave["s"..item[3]] = {} end
+					IdSave["s"..item[3]][#IdSave["s"..item[3]] + 1] = wishlist.info.name
+				end
+			else
+				table.remove(self.ownWishLists, itemNum)
 			end
 		end
 	end
@@ -828,7 +832,12 @@ function WishList:ButtonTemp_AddItemToWishList()
 		curItem = { self.info[1], self.info[2], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink() }
 		if (db.defaultWishlist and Wishlists_Info.defaultWishlist) or Wishlists_Info.numWishlists <= 1 then
 			WishList:RefreshCurWishlist(1)
-			WishList:AddItemToWishList(self.info[1], self.info[2], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink())
+			if self.info[2] == nil then 
+				WishList:AddItemToWishList(self.info[1], self.info[5], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink())
+			else
+				WishList:AddItemToWishList(self.info[1], self.info[2], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink())
+			end
+			
 		else
 			ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.WishListDropDownMenu, self.Frame:GetName(), 0, 0)
 		end

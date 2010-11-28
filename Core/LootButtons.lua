@@ -369,7 +369,7 @@ do
 			return
 		end
 		if not self.info then
-			self.info = { spellID, itemID, spellName, extraText, itemTexture, itemPrice, nil }
+			self.info = { spellID, itemID, spellName, extraText, spellTexture, itemPrice, nil }
 		end
 		self.Frame:Show()
 		local tempText = ""
