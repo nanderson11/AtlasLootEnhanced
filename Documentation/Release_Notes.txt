@@ -9,6 +9,7 @@ v6.01.00
 New slash command "/al wishlist"
 Search reenabled
 Various bugs fixed
+deDE, ruRu, zhTW translation updates
 Many minor additions
 
 v6.00.00
