@@ -5,7 +5,13 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.0.0
+v6.01.00
+New slash command "/al wishlist"
+Search reenabled
+Various bugs fixed
+Many minor additions
+
+v6.00.00
 Compatible with World Of Warcraft: Cataclysm.
 Added support for Atlas 1.18.0
 New Features: New loot browser, Quicklook revamp, Wishlist revamp, Heirlooms can now be viewed by lvl, button to switch between price and description

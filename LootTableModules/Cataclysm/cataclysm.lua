@@ -1149,6 +1149,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
+				{ 3, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
 				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s9#, #a2#" };

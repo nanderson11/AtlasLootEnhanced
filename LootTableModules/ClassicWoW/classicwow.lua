@@ -3011,12 +3011,14 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
 				{ 4, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
 				{ 5, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
-				{ 8, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
-				{ 17, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
-				{ 18, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
-				{ 19, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
+				{ 8, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
+				{ 9, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
+				{ 10, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
+				{ 17, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "" };
+				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
+				{ 20, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -3759,6 +3761,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
+				{ 3, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
 				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s8#, #a2#" };
