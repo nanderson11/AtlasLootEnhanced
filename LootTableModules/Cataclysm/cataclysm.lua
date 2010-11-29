@@ -1247,39 +1247,33 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 59482, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
-				{ 2, 59475, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};--checked
-				{ 2, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
-				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 2, 59475, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
 				{ 3, 59469, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
-				{ 4, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};--checked
+				{ 4, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
 				{ 5, 59472, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
 				{ 6, 59471, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
-				{ 7, 59470, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};--checked
+				{ 7, 59470, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
 				{ 8, 59476, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
-				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 10, 59483, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
-				{ 11, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};--checked
-				{ 12, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};--checked
-				{ 13, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
+				{ 16, 59483, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
+				{ 17, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
+				{ 18, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 20, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65135, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
 				{ 2, 65138, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
-				{ 2, 0, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
-				{ 3, 0, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
 				{ 3, 65144, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
 				{ 4, 65136, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
 				{ 5, 65141, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
 				{ 6, 65142, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
 				{ 7, 65143, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
 				{ 8, 65137, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
-				{ 9, 0, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 10, 65134, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
-				{ 11, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
-				{ 12, 65133, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
-				{ 13, 65139, "", "=q4=Malevolence", "=ds=#w9#", ""};
+				{ 16, 65134, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
+				{ 17, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
+				{ 18, 65133, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 20, 65139, "", "=q4=Malevolence", "=ds=#w9#", ""};
 			};
 		};
 		info = {
@@ -1293,24 +1287,32 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 59516, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
 				{ 2, 63534, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
-				{ 3, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
-				{ 4, 59512, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
-				{ 5, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
-				{ 6, 63533, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
-				{ 7, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
-				{ 8, 63532, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
+				{ 3, 63535, "", "=q4=Waistguard of Hatred", "=ds=#s10#, #a3#", ""};
+				{ 4, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
+				{ 6, 59517, "", "=q4=Necklace of Strife", "=ds=#s2#", ""};
+				{ 7, 59512, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
+				{ 8, 59518, "", "=q4=Ring of Rivalry", "=ds=#s13#", ""};
+				{ 9, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 10, 59515, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
+				{ 16, 63533, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
+				{ 17, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 18, 63532, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65108, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
 				{ 2, 65093, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
-				{ 3, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
-				{ 4, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
-				{ 5, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
-				{ 6, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
-				{ 7, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
-				{ 8, 65095, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
+				{ 3, 65092, "", "=q4=Waistguard of Hatred", "=ds=#s10#, #a3#", ""};
+				{ 4, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
+				{ 6, 65107, "", "=q4=Necklace of Strife", "=ds=#s2#", ""};
+				{ 7, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
+				{ 8, 65106, "", "=q4=Ring of Rivalry", "=ds=#s13#", ""};
+				{ 9, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 10, 65109, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
+				{ 16, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
+				{ 17, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 18, 65095, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
 		info = {
@@ -1323,27 +1325,33 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 59507, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
-				{ 2, 59511, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
-				{ 3, 59502, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
-				{ 4, 59504, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
-				{ 5, 59510, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
-				{ 6, 59509, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
-				{ 7, 59505, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-				{ 8, 59506, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
-				{ 9, 59514, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+				{ 2, 59508, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", ""};
+				{ 3, 59511, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
+				{ 4, 59502, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
+				{ 5, 59504, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
+				{ 6, 59510, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
+				{ 7, 59509, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
+				{ 8, 59505, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
+				{ 9, 59503, "", "=q4=Terrastra's Legguards", "=ds=#s10#, #a4#", ""};
+				{ 16, 59506, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
+				{ 17, 59514, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+				{ 18, 59513, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65117, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
-				{ 2, 65113, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
-				{ 3, 65122, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
-				{ 4, 65120, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
-				{ 5, 65114, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
-				{ 6, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
-				{ 7, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-				{ 8, 65118, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
-				{ 9, 65110, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+				{ 2, 65116, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", ""};
+				{ 3, 65113, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
+				{ 4, 65122, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
+				{ 5, 65120, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
+				{ 6, 65114, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
+				{ 7, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
+				{ 8, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
+				{ 9, 65121, "", "=q4=Terrastra's Legguards", "=ds=#s10#, #a4#", ""};
+				{ 16, 65118, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
+				{ 17, 65110, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+				{ 18, 65111, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
 			};
 		};
 		info = {
@@ -1356,21 +1364,41 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 59498, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
-				{ 2, 59485, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
-				{ 3, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
-				{ 4, 59487, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
-				{ 5, 59486, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
-				{ 6, 59500, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+				{ 2, 59490, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
+				{ 3, 59495, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
+				{ 4, 59485, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
+				{ 5, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
+				{ 6, 59487, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
+				{ 7, 59486, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 8, 59497, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
+				{ 10, 59501, "", "=q4=Signet of the Fifth Circle", "=ds=#s13#", ""};
+				{ 11, 59500, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+				{ 16, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 20, 59494, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
+				{ 21, 59330, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
+				{ 22, 63680, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65126, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
-				{ 2, 65132, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
-				{ 3, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
-				{ 4, 65130, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
-				{ 5, 65131, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
-				{ 6, 65124, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+				{ 2, 65129, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
+				{ 3, 65128, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
+				{ 4, 65132, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
+				{ 5, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
+				{ 6, 65130, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
+				{ 7, 65131, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 8, 65127, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
+				{ 10, 65123, "", "=q4=Signet of the Fifth Circle", "=ds=#s13#", ""};
+				{ 11, 65124, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+				{ 16, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 20, 68600, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
+				{ 21, 65145, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
+				{ 22, 65090, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
 			};
 		};
 		info = {
@@ -1406,17 +1434,23 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
-				{ 2, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
-				{ 3, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
-				{ 4, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+				{ 2, 60201, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
+				{ 3, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 5, 59520, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
+				{ 16, 59521, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
+				{ 17, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
+				{ 18, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65097, "", "=q4=Battleplate of the Apocalypse", "=ds=#s8#, #a1#", ""};
-				{ 2, 65101, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
-				{ 3, 65102, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
-				{ 4, 65098, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+				{ 2, 65100, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
+				{ 3, 65101, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 5, 65104, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
+				{ 16, 65103, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
+				{ 17, 65102, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
+				{ 18, 65098, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
 			};
 		};
 		info = {
@@ -1434,18 +1468,32 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 59452, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
 				{ 2, 59336, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
-				{ 3, 59340, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
-				{ 4, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
-				{ 5, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
+				{ 3, 59335, "", "=q4=Scorched Wormling Vest", "=ds=#s5#, #a2#", ""};
+				{ 4, 59329, "", "=q4=Parasitic Bands", "=ds=#s8#, #a2#", ""};
+				{ 5, 59334, "", "=q4=Lifecycle Waistguard", "=ds=#s10#, #a3#", ""};
+				{ 6, 59331, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
+				{ 7, 59340, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
+				{ 8, 59328, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
+				{ 10, 59332, "", "=q4=Symbiotic Worm", "=ds=#s13#", ""};
+				{ 16, 59333, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
+				{ 17, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
+				{ 18, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65020, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
 				{ 2, 65044, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
-				{ 3, 65042, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
-				{ 4, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
-				{ 5, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
+				{ 3, 65045, "", "=q4=Scorched Wormling Vest", "=ds=#s5#, #a2#", ""};
+				{ 4, 65050, "", "=q4=Parasitic Bands", "=ds=#s8#, #a2#", ""};
+				{ 5, 65046, "", "=q4=Lifecycle Waistguard", "=ds=#s10#, #a3#", ""};
+				{ 6, 65049, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
+				{ 7, 65042, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
+				{ 8, 65051, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
+				{ 10, 65048, "", "=q4=Symbiotic Worm", "=ds=#s13#", ""};
+				{ 16, 65047, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
+				{ 17, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
+				{ 18, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
 			};
 		};
 		info = {
@@ -1457,14 +1505,32 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["BDOmnitron"] = {
 		["Normal"] = {
 			{
-				{ 1, 59118, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
-				{ 2, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+				{ 1, 59219, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 59217, "", "=q4=X-Tron Duct Tape", "=ds=#s10#, #a1#", ""};
+				{ 3, 59218, "", "=q4=Passive Resistor Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 4, 59120, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 5, 59119, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 6, 59118, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
+				{ 7, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 59216, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
+				{ 10, 59220, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
+				{ 11, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s14#", ""};
+				{ 16, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w10#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 65085, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
-				{ 2, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+				{ 1, 65077, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 65079, "", "=q4=X-Tron Duct Tape", "=ds=#s10#, #a1#", ""};
+				{ 3, 65078, "", "=q4=Passive Resistor Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 4, 65083, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 5, 65084, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 6, 65085, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
+				{ 7, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 65080, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
+				{ 10, 65076, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
+				{ 11, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s14#", ""};
+				{ 16, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w10#", ""};
 			};
 		};
 		info = {
@@ -1478,22 +1544,32 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 59348, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
 				{ 2, 59349, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
-				{ 3, 59343, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
-				{ 4, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
-				{ 5, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 6, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 7, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 3, 59351, "", "=q4=Legwraps of the Greatest Son", "=ds=#s11#, #a1#", ""};
+				{ 4, 59343, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 5, 59353, "", "=q4=Leggings of Consuming Flames", "=ds=#s11#, #a2#", ""};
+				{ 6, 59350, "", "=q4=Treads of Flawless Creation", "=ds=#s12#, #a3#", ""};
+				{ 7, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
+				{ 8, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 9, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
+				{ 11, 59441, "", "=q4=Prestor's Talisman of Machination", "=ds=#s2#", ""};
+				{ 12, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 16, 59347, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65035, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
 				{ 2, 65034, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
-				{ 3, 65039, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
-				{ 4, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
-				{ 5, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 6, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 7, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 3, 65032, "", "=q4=Legwraps of the Greatest Son", "=ds=#s11#, #a1#", ""};
+				{ 4, 65039, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 5, 65030, "", "=q4=Leggings of Consuming Flames", "=ds=#s11#, #a2#", ""};
+				{ 6, 65033, "", "=q4=Treads of Flawless Creation", "=ds=#s12#, #a3#", ""};
+				{ 7, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
+				{ 8, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 9, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
+				{ 11, 65026, "", "=q4=Prestor's Talisman of Machination", "=ds=#s2#", ""};
+				{ 12, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 16, 65036, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		info = {
@@ -1505,26 +1581,34 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["BDAtramedes"] = {
 		["Normal"] = {
 			{
-				{ 1, 59322, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
-				{ 2, 59312, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
-				{ 3, 59324, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
-				{ 4, 59315, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
-				{ 5, 59316, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
-				{ 6, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
-				{ 7, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
-				{ 8, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+				{ 1, 59325, "", "=q4=Mantle of Roaring Flames", "=ds=#s3#, #a1#", ""};
+				{ 2, 59322, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
+				{ 3, 59312, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
+				{ 4, 59318, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", ""};
+				{ 5, 59324, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
+				{ 6, 59315, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
+				{ 7, 59316, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
+				{ 8, 59317, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
+				{ 10, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 11, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 16, 59320, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
+				{ 17, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 65056, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
-				{ 2, 65066, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
-				{ 3, 65055, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
-				{ 4, 65063, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
-				{ 5, 65062, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
-				{ 6, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
-				{ 7, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
-				{ 8, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+				{ 1, 65054, "", "=q4=Mantle of Roaring Flames", "=ds=#s3#, #a1#", ""};
+				{ 2, 65056, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
+				{ 3, 65066, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
+				{ 4, 65060, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", ""};
+				{ 5, 65055, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
+				{ 6, 65063, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
+				{ 7, 65062, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
+				{ 8, 65061, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
+				{ 10, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 11, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 16, 65058, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
+				{ 17, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
 			};
 		};
 		info = {
@@ -1543,9 +1627,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 59355, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
 				{ 6, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
 				{ 7, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 8, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 9, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 10, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+				{ 8, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 10, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 11, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 16, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1557,9 +1642,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 65028, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
 				{ 6, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
 				{ 7, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 8, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 9, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 10, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+				{ 8, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 10, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 11, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 16, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
 			};
 		};
 		info = {
@@ -1572,12 +1658,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 59457, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
-				{ 2, 59454, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
-				{ 3, 59321, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
-				{ 4, 59450, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
-				{ 5, 59443, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
-				{ 6, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
-				{ 7, 59444, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
+				{ 2, 59337, "", "=q4=Mantle of Nefarius", "=ds=#s3#, #a1#", ""};
+				{ 3, 59454, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
+				{ 4, 59321, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
+				{ 5, 59222, "", "=q4=Spaulders of the Scarred Lady", "=ds=#s3#, #a3#", ""};
+				{ 6, 59356, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", ""};
+				{ 7, 59450, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
+				{ 9, 59442, "", "=q4=Rage of Ages", "=ds=#s2#", ""};
+				{ 20, 59443, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
+				{ 21, 63679, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
+				{ 22, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 23, 59444, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
 				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
 				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
 				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
@@ -1586,12 +1677,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Heroic"] = {
 			{
 				{ 1, 65018, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
-				{ 2, 65019, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
-				{ 3, 65057, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
-				{ 4, 65022, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
-				{ 5, 65024, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
-				{ 6, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
-				{ 7, 65023, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
+				{ 2, 65043, "", "=q4=Mantle of Nefarius", "=ds=#s3#, #a1#", ""};
+				{ 3, 65019, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
+				{ 4, 65057, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
+				{ 5, 65074, "", "=q4=Spaulders of the Scarred Lady", "=ds=#s3#, #a3#", ""};
+				{ 6, 65027, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", ""};
+				{ 7, 65022, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
+				{ 9, 65025, "", "=q4=Rage of Ages", "=ds=#s2#", ""};
+				{ 20, 65024, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
+				{ 21, 65003, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
+				{ 22, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 23, 65023, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
 				{ 16, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
 				{ 17, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37#"};
 				{ 18, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
@@ -1607,19 +1703,27 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 59466, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
-				{ 2, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
-				{ 3, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
-				{ 4, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 5, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 2, 59468, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
+				{ 3, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
+				{ 4, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
+				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
+				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h2#, #w1#", ""};
+				{ 17, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 18, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 19, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 65010, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
-				{ 2, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
-				{ 3, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
-				{ 4, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 5, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 2, 65008, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
+				{ 3, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
+				{ 4, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
+				{ 5, 65012, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
+				{ 16, 65014, "", "=q4=Maimgor's Bite", "=ds=#h2#, #w1#", ""};
+				{ 17, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 18, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 19, 65016, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
 			};
 		};
 		info = {
@@ -1701,6 +1805,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 8, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
 			};
 		};
 		["Heroic"] = {
@@ -1714,6 +1819,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
 			};
 		};
 		info = {
