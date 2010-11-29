@@ -1332,7 +1332,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 59510, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
 				{ 7, 59509, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
 				{ 8, 59505, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-				{ 9, 59503, "", "=q4=Terrastra's Legguards", "=ds=#s10#, #a4#", ""};
+				{ 9, 59503, "", "=q4=Terrastra's Legguards", "=ds=#s11#, #a4#", ""};
 				{ 16, 59506, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
 				{ 17, 59514, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
 				{ 18, 59513, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
@@ -1348,7 +1348,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 65114, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
 				{ 7, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
 				{ 8, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-				{ 9, 65121, "", "=q4=Terrastra's Legguards", "=ds=#s10#, #a4#", ""};
+				{ 9, 65121, "", "=q4=Terrastra's Legguards", "=ds=#s11#, #a4#", ""};
 				{ 16, 65118, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
 				{ 17, 65110, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
 				{ 18, 65111, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
@@ -1367,7 +1367,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 59490, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
 				{ 3, 59495, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
 				{ 4, 59485, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
-				{ 5, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
+				{ 5, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s11#, #a3#", ""};
 				{ 6, 59487, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
 				{ 7, 59486, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
 				{ 8, 59497, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
@@ -1387,7 +1387,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 65129, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
 				{ 3, 65128, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
 				{ 4, 65132, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
-				{ 5, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
+				{ 5, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s11#, #a3#", ""};
 				{ 6, 65130, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
 				{ 7, 65131, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
 				{ 8, 65127, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
@@ -1474,7 +1474,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 59331, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
 				{ 7, 59340, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
 				{ 8, 59328, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
-				{ 10, 59332, "", "=q4=Symbiotic Worm", "=ds=#s13#", ""};
+				{ 10, 59332, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
 				{ 16, 59333, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
 				{ 17, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
 				{ 18, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
@@ -1490,7 +1490,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 65049, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
 				{ 7, 65042, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
 				{ 8, 65051, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
-				{ 10, 65048, "", "=q4=Symbiotic Worm", "=ds=#s13#", ""};
+				{ 10, 65048, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
 				{ 16, 65047, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
 				{ 17, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
 				{ 18, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
@@ -1514,8 +1514,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
 				{ 8, 59216, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
 				{ 10, 59220, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
-				{ 11, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s14#", ""};
-				{ 16, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w10#", ""};
+				{ 11, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
+				{ 16, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1529,8 +1529,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
 				{ 8, 65080, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
 				{ 10, 65076, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
-				{ 11, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s14#", ""};
-				{ 16, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w10#", ""};
+				{ 11, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
+				{ 16, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -1551,7 +1551,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
 				{ 8, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
 				{ 9, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 11, 59441, "", "=q4=Prestor's Talisman of Machination", "=ds=#s2#", ""};
+				{ 11, 59441, "", "=q4=Prestor's Talisman of Machination", "=ds=#s14#", ""};
 				{ 12, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
 				{ 16, 59347, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
 			};
@@ -1567,7 +1567,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
 				{ 8, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
 				{ 9, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 11, 65026, "", "=q4=Prestor's Talisman of Machination", "=ds=#s2#", ""};
+				{ 11, 65026, "", "=q4=Prestor's Talisman of Machination", "=ds=#s14#", ""};
 				{ 12, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
 				{ 16, 65036, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
 			};
@@ -1707,7 +1707,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
 				{ 4, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
 				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
-				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h2#, #w1#", ""};
+				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
 				{ 17, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
 				{ 18, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
 				{ 19, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
@@ -1720,7 +1720,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
 				{ 4, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
 				{ 5, 65012, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
-				{ 16, 65014, "", "=q4=Maimgor's Bite", "=ds=#h2#, #w1#", ""};
+				{ 16, 65014, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
 				{ 17, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
 				{ 18, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
 				{ 19, 65016, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
