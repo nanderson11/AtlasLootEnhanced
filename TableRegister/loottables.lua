@@ -139,23 +139,23 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "BoTWyrmbreaker", 3 },
 				{ "BoTValionaTheralion", 4 },
-				{ "BoTCouncil" },
-				{ "BoTChogall" },
+				{ "BoTCouncil", 5 },
+				{ "BoTChogall", 6  },
 				{ "BoTSinestra", 7 },
-				{ "BoTTrash" },
+				{ "BoTTrash", 9 },
 			},
 			["Info"] = { BabbleZone["The Bastion of Twilight"], "AtlasLootCataclysm", mapname = "TheBastionofTwilight" },
 		},
 
 		["BlackwingDescent"] = {
 			["Bosses"] = {
-				{ "BDMagmaw" },
+				{ "BDMagmaw", 2 },
 				{ "BDOmnitron", 3 },
-				{ "BDMaloriak" },
-				{ "BDAtramedes" },
-				{ "BDChimaeron" },
-				{ "BDNefarian" },
-				{ "BDTrash" },
+				{ "BDMaloriak", 4 },
+				{ "BDAtramedes", 5 },
+				{ "BDChimaeron", 6 },
+				{ "BDNefarian", 7 },
+				{ "BDTrash", 9 },
 			},
 			["Info"] = { BabbleZone["Blackwing Descent"], "AtlasLootCataclysm", mapname = "BlackwingDescent" },
 		},
@@ -167,10 +167,10 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
 
-		["ThroneFourWinds"] = {
+		["ThroneOfTheFourWinds"] = {
 			["Bosses"] = {
-				{ "TFWConclave" },
-				{ "TFWAlAkir" },
+				{ "TFWConclave", 2 },
+				{ "TFWAlAkir", 3 },
 			},
 			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm" },
 		},
