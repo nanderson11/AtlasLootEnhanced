@@ -45,6 +45,10 @@ local moduleName = "AtlasLootCataclysm"
 ---- Justice Points Items
 ---- Valor Points Items
 
+	------------------------
+	--- Dungeons & Raids ---
+	------------------------
+
 		-------------------------
 		--- Blackrock Caverns ---
 		-------------------------
@@ -1023,7 +1027,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 5199, "", "=q3=Smelting Pants", "=ds=#s11#, #a2#", "" };
 				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
-				{ 4, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
+				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
+				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
 				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
@@ -1242,19 +1247,19 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 59482, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
-				{ 2, 59475, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
+				{ 2, 59475, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};--checked
 				{ 2, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
 				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
 				{ 3, 59469, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
-				{ 4, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
+				{ 4, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};--checked
 				{ 5, 59472, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
 				{ 6, 59471, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
-				{ 7, 59470, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
+				{ 7, 59470, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};--checked
 				{ 8, 59476, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
 				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
 				{ 10, 59483, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
-				{ 11, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
-				{ 12, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 11, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};--checked
+				{ 12, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};--checked
 				{ 13, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
 			};
 		};
@@ -1286,22 +1291,90 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["BoTValionaTheralion"] = {
 		["Normal"] = {
 			{
+				{ 1, 59516, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
+				{ 1, 63534, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
 				{ 1, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
 				{ 2, 59512, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
 				{ 3, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 4, 63533, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
 				{ 4, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 1, 63532, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 65108, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
+				{ 1, 65093, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
 				{ 1, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
 				{ 2, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
 				{ 3, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 4, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
 				{ 4, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 1, 65095, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
 		info = {
 			name = BabbleBoss["Valiona and Theralion"],
+			module = moduleName, instance = "TheBastionOfTwilight",
+		};
+	};
+
+	AtlasLoot_Data["BoTCouncil"] = {
+		["Normal"] = {
+			{
+				{ 1, 59507, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
+				{ 1, 59511, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
+				{ 1, 59502, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
+				{ 1, 59504, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
+				{ 1, 59510, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
+				{ 1, 59509, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
+				{ 1, 59505, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
+				{ 1, 59506, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
+				{ 1, 59514, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65117, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
+				{ 1, 65113, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
+				{ 1, 65122, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
+				{ 1, 65120, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
+				{ 1, 65114, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
+				{ 1, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
+				{ 1, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
+				{ 1, 65118, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
+				{ 1, 65110, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Ascendant Council"],
+			module = moduleName, instance = "TheBastionOfTwilight",
+		};
+	};
+
+	AtlasLoot_Data["BoTChogall"] = {
+		["Normal"] = {
+			{
+				{ 1, 59498, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
+				{ 1, 59485, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
+				{ 1, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
+				{ 1, 59487, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
+				{ 1, 59486, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 1, 59500, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65126, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
+				{ 1, 65132, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
+				{ 1, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s12#, #a3#", ""};
+				{ 1, 65130, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
+				{ 1, 65131, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 1, 65124, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Cho'gall"],
 			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
@@ -1329,17 +1402,69 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["BoTTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
+				{ 1, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 1, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
+				{ 1, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65097, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 1, 65101, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 1, 65102, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
+				{ 1, 65098, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "TheBastionOfTwilight",
+		};
+	};
+
 		--------------------------
 		--- Blackwing Descent ----
 		--------------------------
 
+	AtlasLoot_Data["BDMagmaw"] = {
+		["Normal"] = {
+			{
+				{ 1, 59452, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
+				{ 1, 59336, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
+				{ 1, 59340, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
+				{ 1, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
+				{ 1, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65020, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
+				{ 1, 65044, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
+				{ 1, 65042, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
+				{ 1, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
+				{ 1, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Magmaw"],
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
 	AtlasLoot_Data["BDOmnitron"] = {
 		["Normal"] = {
 			{
-				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
-				{ 2, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 3, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 4, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+				{ 2, 59118, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
+				{ 2, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 2, 65085, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
+				{ 2, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
 			};
 		};
 		info = {
@@ -1348,9 +1473,165 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["BDMaloriak"] = {
+		["Normal"] = {
+			{
+				{ 1, 59348, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
+				{ 1, 59349, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
+				{ 1, 59343, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 1, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
+				{ 1, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 1, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
+				{ 1, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65035, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
+				{ 1, 65034, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
+				{ 1, 65039, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 1, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
+				{ 1, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 1, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
+				{ 1, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Maloriak"],
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDAtramedes"] = {
+		["Normal"] = {
+			{
+				{ 1, 59322, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
+				{ 1, 59312, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
+				{ 1, 59324, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
+				{ 1, 59315, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
+				{ 1, 59316, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
+				{ 1, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 1, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 1, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65056, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
+				{ 1, 65066, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
+				{ 1, 65055, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
+				{ 1, 65063, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
+				{ 1, 65062, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
+				{ 1, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 1, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 1, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Atramedes"],
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDChimaeron"] = {
+		["Normal"] = {
+			{
+				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
+				{ 1, 59234, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
+				{ 1, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 1, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 1, 59355, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 1, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 2, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 1, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s14#", ""};
+				{ 1, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 4, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65065, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
+				{ 1, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
+				{ 1, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 1, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 1, 65028, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 1, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 2, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 1, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s14#", ""};
+				{ 1, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 4, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Chimaeron"],
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDNefarian"] = {
+		["Normal"] = {
+			{
+				{ 1, 59457, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
+				{ 1, 59454, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
+				{ 1, 59321, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
+				{ 1, 59450, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
+				{ 1, 59443, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
+				{ 1, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 1, 59444, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
+				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65018, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
+				{ 1, 65019, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
+				{ 1, 65057, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
+				{ 1, 65022, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
+				{ 1, 65024, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
+				{ 1, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 1, 65023, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
+				{ 16, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Nefarian"],
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 59466, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
+				{ 1, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
+				{ 1, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
+				{ 1, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 1, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65010, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
+				{ 1, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
+				{ 1, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
+				{ 1, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 1, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
 		---------------------
 		--- Baradin Hold ----
 		---------------------
+
 	AtlasLoot_Data["Argaloth"] = {
 		["Normal"] = {
 			{
@@ -1364,6 +1645,80 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = BabbleBoss["Argaloth"],
 			module = moduleName, instance = "BaradinHold",
+		};
+	};
+
+		---------------------------------
+		--- Throne of the Four Winds ----
+		---------------------------------
+
+	AtlasLoot_Data["TFWConclave"] = {
+		["Normal"] = {
+			{
+				{ 1, 63498, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
+				{ 2, 63497, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
+				{ 3, 63493, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
+				{ 4, 63496, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 63492, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
+				{ 6, 63490, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
+				{ 7, 63495, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 63491, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
+				{ 10, 63488, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
+				{ 11, 63489, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
+				{ 12, 63494, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65376, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
+				{ 2, 65374, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
+				{ 3, 65371, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
+				{ 4, 65377, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 65368, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
+				{ 6, 65369, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
+				{ 7, 65375, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 65370, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
+				{ 10, 65367, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
+				{ 11, 65372, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
+				{ 12, 65373, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Conclave of Wind"],
+			module = moduleName, instance = "ThroneFourWinds",
+		};
+	};
+
+	AtlasLoot_Data["TFWAlAkir"] = {
+		["Normal"] = {
+			{
+				{ 1, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 2, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 3, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 4, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 5, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 6, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 7, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 8, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 10, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 2, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 3, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 4, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 5, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 6, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 7, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Al'Akir"],
+			module = moduleName, instance = "ThroneFourWinds",
 		};
 	};
 
@@ -2277,13 +2632,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60341, "", "=q4=Magma Plated Helmet", "=ds=#s1#, #a4#", ""};
+				{ 2, 60341, "", "=q4=Magma Plated Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60343, "", "=q4=Magma Plated Pauldrons", "=ds=#s3#, #a4#", ""};
 				{ 4, 60339, "", "=q4=Magma Plated Battleplate", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60340, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60342, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65181, "", "=q4=Magma Plated Helmet", "=ds=#s1#, #a4#", ""};
+				{ 9, 65181, "", "=q4=Magma Plated Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65183, "", "=q4=Magma Plated Pauldrons", "=ds=#s3#, #a4#", ""};
 				{ 11, 65179, "", "=q4=Magma Plated Battleplate", "=ds=#s5#, #a4#", ""};
 				{ 12, 65180, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", ""};
@@ -2300,13 +2655,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60351, "", "=q4=Magma Plated Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 2, 60351, "", "=q4=Magma Plated Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60353, "", "=q4=Magma Plated Shoulderguards", "=ds=#s3#, #a4#", ""};
 				{ 4, 60349, "", "=q4=Magma Plated Chestguard", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60350, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60352, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65186, "", "=q4=Magma Plated Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 9, 65186, "", "=q4=Magma Plated Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65188, "", "=q4=Magma Plated Shoulderguards", "=ds=#s3#, #a4#", ""};
 				{ 11, 65184, "", "=q4=Magma Plated Chestguard", "=ds=#s5#, #a4#", ""};
 				{ 12, 65185, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", ""};
@@ -2323,13 +2678,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t11s1_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60277, "", "=q4=Stormrider's Helm", "=ds=#s1#, #a2#", ""};
+				{ 2, 60277, "", "=q4=Stormrider's Helm", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60279, "", "=q4=Stormrider's Mantle", "=ds=#s3#, #a2#", ""};
 				{ 4, 60276, "", "=q4=Stormrider's Robes", "=ds=#s5#, #a2#", "2200 #valor#"};
 				{ 5, 60280, "", "=q4=Stormrider's Handwraps", "=ds=#s9#, #a2#", "1650 #valor#"};
 				{ 6, 60278, "", "=q4=Stormrider's Legwraps", "=ds=#s11#, #a2#", "2200 #valor#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t11s1_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65195, "", "=q4=Stormrider's Helm", "=ds=#s1#, #a2#", ""};
+				{ 9, 65195, "", "=q4=Stormrider's Helm", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65198, "", "=q4=Stormrider's Mantle", "=ds=#s3#, #a2#", ""};
 				{ 11, 65197, "", "=q4=Stormrider's Robes", "=ds=#s5#, #a2#", ""};
 				{ 12, 65194, "", "=q4=Stormrider's Handwraps", "=ds=#s9#, #a2#", ""};
@@ -2346,13 +2701,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60286, "", "=q4=Stormrider's Headpiece", "=ds=#s1#, #a2#", ""};
+				{ 2, 60286, "", "=q4=Stormrider's Headpiece", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60289, "", "=q4=Stormrider's Spaulders", "=ds=#s3#, #a2#", ""};
 				{ 4, 60287, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", "2200 #valor#"};
 				{ 5, 60290, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", "1650 #valor#"};
 				{ 6, 60288, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", "2200 #valor#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65190, "", "=q4=Stormrider's Headpiece", "=ds=#s1#, #a2#", ""};
+				{ 9, 65190, "", "=q4=Stormrider's Headpiece", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65193, "", "=q4=Stormrider's Spaulders", "=ds=#s3#, #a2#", ""};
 				{ 11, 65192, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", ""};
 				{ 12, 65189, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", ""};
@@ -2369,13 +2724,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60282, "", "=q4=Stormrider's Cover", "=ds=#s1#, #a2#", ""};
+				{ 2, 60282, "", "=q4=Stormrider's Cover", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60284, "", "=q4=Stormrider's Shoulderwraps", "=ds=#s3#, #a2#", ""};
 				{ 4, 60281, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", "2200 #valor#"};
 				{ 5, 60285, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", "1650 #valor#"};
 				{ 6, 60283, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", "2200 #valor#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65200, "", "=q4=Stormrider's Cover", "=ds=#s1#, #a2#", ""};
+				{ 9, 65200, "", "=q4=Stormrider's Cover", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65203, "", "=q4=Stormrider's Shoulderwraps", "=ds=#s3#, #a2#", ""};
 				{ 11, 65202, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", ""};
 				{ 12, 65199, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", ""};
@@ -2392,13 +2747,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t11s2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60303, "", "=q4=Lightning-Charged Headguard", "=ds=#s1#, #a3#", ""};
+				{ 2, 60303, "", "=q4=Lightning-Charged Headguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60306, "", "=q4=Lightning-Charged Spaulders", "=ds=#s3#, #a3#", ""};
 				{ 4, 60304, "", "=q4=Lightning-Charged Tunic", "=ds=#s5#, #a3#", "2200 #valor#"};
 				{ 5, 60307, "", "=q4=Lightning-Charged Gloves", "=ds=#s9#, #a3#", "1650 #valor#"};
 				{ 6, 60305, "", "=q4=Lightning-Charged Legguards", "=ds=#s11#, #a3#", "2200 #valor#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t11s2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65206, "", "=q4=Lightning-Charged Headguard", "=ds=#s1#, #a3#", ""};
+				{ 9, 65206, "", "=q4=Lightning-Charged Headguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65208, "", "=q4=Lightning-Charged Spaulders", "=ds=#s3#, #a3#", ""};
 				{ 11, 65204, "", "=q4=Lightning-Charged Tunic", "=ds=#s5#, #a3#", ""};
 				{ 12, 65205, "", "=q4=Lightning-Charged Gloves", "=ds=#s9#, #a3#", ""};
@@ -2415,13 +2770,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t11s3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60243, "", "=q4=Firelord's Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 60243, "", "=q4=Firelord's Hood", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60246, "", "=q4=Firelord's Mantle", "=ds=#s3#, #a1#", ""};
 				{ 4, 60244, "", "=q4=Firelord's Robes", "=ds=#s5#, #a1#", "2200 #valor#"};
 				{ 5, 60247, "", "=q4=Firelord's Gloves", "=ds=#s9#, #a1#", "1650 #valor#"};
 				{ 6, 60245, "", "=q4=Firelord's Leggings", "=ds=#s11#, #a1#", "2200 #valor#"};
 				{ 8, 0, "inv_staff_13", "=q6=#t11s3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65210, "", "=q4=Firelord's Hood", "=ds=#s1#, #a1#", ""};
+				{ 9, 65210, "", "=q4=Firelord's Hood", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65213, "", "=q4=Firelord's Mantle", "=ds=#s3#, #a1#", ""};
 				{ 11, 65212, "", "=q4=Firelord's Robes", "=ds=#s5#, #a1#", ""};
 				{ 12, 65209, "", "=q4=Firelord's Gloves", "=ds=#s9#, #a1#", ""};
@@ -2438,13 +2793,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t11s4_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60359, "", "=q4=Reinforced Sapphirium Headguard", "=ds=#s1#, #a4#", ""};
+				{ 2, 60359, "", "=q4=Reinforced Sapphirium Headguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60362, "", "=q4=Reinforced Sapphirium Mantle", "=ds=#s3#, #a4#", ""};
 				{ 4, 60360, "", "=q4=Reinforced Sapphirium Breastplate", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60363, "", "=q4=Reinforced Sapphirium Gloves", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60361, "", "=q4=Reinforced Sapphirium Greaves", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t11s4_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65221, "", "=q4=Reinforced Sapphirium Headguard", "=ds=#s1#, #a4#", ""};
+				{ 9, 65221, "", "=q4=Reinforced Sapphirium Headguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65223, "", "=q4=Reinforced Sapphirium Mantle", "=ds=#s3#, #a4#", ""};
 				{ 11, 65219, "", "=q4=Reinforced Sapphirium Breastplate", "=ds=#s5#, #a4#", ""};
 				{ 12, 65220, "", "=q4=Reinforced Sapphirium Gloves", "=ds=#s9#, #a4#", ""};
@@ -2461,13 +2816,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t11s4_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60356, "", "=q4=Reinforced Sapphirium Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 2, 60356, "", "=q4=Reinforced Sapphirium Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60358, "", "=q4=Reinforced Sapphirium Shoulderguards", "=ds=#s3#, #a4#", ""};
 				{ 4, 60354, "", "=q4=Reinforced Sapphirium Chestguard", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60355, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60357, "", "=q4=Reinforced Sapphirium Legguards", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t11s4_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65226, "", "=q4=Reinforced Sapphirium Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 9, 65226, "", "=q4=Reinforced Sapphirium Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65228, "", "=q4=Reinforced Sapphirium Shoulderguards", "=ds=#s3#, #a4#", ""};
 				{ 11, 65224, "", "=q4=Reinforced Sapphirium Chestguard", "=ds=#s5#, #a4#", ""};
 				{ 12, 65225, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", ""};
@@ -2484,13 +2839,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t11s4_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60346, "", "=q4=Reinforced Sapphirium Helmet", "=ds=#s1#, #a4#", ""};
+				{ 2, 60346, "", "=q4=Reinforced Sapphirium Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60348, "", "=q4=Reinforced Sapphirium Pauldrons", "=ds=#s3#, #a4#", ""};
 				{ 4, 60344, "", "=q4=Reinforced Sapphirium Battleplate", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60345, "", "=q4=Reinforced Sapphirium Gauntlets", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60347, "", "=q4=Reinforced Sapphirium Legplates", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t11s4_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65216, "", "=q4=Reinforced Sapphirium Helmet", "=ds=#s1#, #a4#", ""};
+				{ 9, 65216, "", "=q4=Reinforced Sapphirium Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65218, "", "=q4=Reinforced Sapphirium Pauldrons", "=ds=#s3#, #a4#", ""};
 				{ 11, 65214, "", "=q4=Reinforced Sapphirium Battleplate", "=ds=#s5#, #a4#", ""};
 				{ 12, 65215, "", "=q4=Reinforced Sapphirium Gauntlets", "=ds=#s9#, #a4#", ""};
@@ -2507,13 +2862,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t11s5_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60256, "", "=q4=Mercurial Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 60256, "", "=q4=Mercurial Hood", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60253, "", "=q4=Mercurial Shoulderwraps", "=ds=#s3#, #a1#", ""};
 				{ 4, 60254, "", "=q4=Mercurial Vestment", "=ds=#s5#, #a1#", "2200 #valor#"};
 				{ 5, 60257, "", "=q4=Mercurial Gloves", "=ds=#s9#, #a1#", "1650 #valor#"};
 				{ 6, 60255, "", "=q4=Mercurial Leggings", "=ds=#s11#, #a1#", "2200 #valor#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t11s5_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65235, "", "=q4=Mercurial Hood", "=ds=#s1#, #a1#", ""};
+				{ 9, 65235, "", "=q4=Mercurial Hood", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65238, "", "=q4=Mercurial Shoulderwraps", "=ds=#s3#, #a1#", ""};
 				{ 11, 65237, "", "=q4=Mercurial Vestment", "=ds=#s5#, #a1#", ""};
 				{ 12, 65234, "", "=q4=Mercurial Gloves", "=ds=#s9#, #a1#", ""};
@@ -2530,13 +2885,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t11s5_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60258, "", "=q4=Mercurial Cowl", "=ds=#s1#, #a1#", ""};
+				{ 2, 60258, "", "=q4=Mercurial Cowl", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60262, "", "=q4=Mercurial Mantle", "=ds=#s3#, #a1#", ""};
 				{ 4, 60259, "", "=q4=Mercurial Robes", "=ds=#s5#, #a1#", "2200 #valor#"};
 				{ 5, 60275, "", "=q4=Mercurial Handwraps", "=ds=#s9#, #a1#", "1650 #valor#"};
 				{ 6, 60261, "", "=q4=Mercurial Legwraps", "=ds=#s11#, #a1#", "2200 #valor#"};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t11s5_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65230, "", "=q4=Mercurial Cowl", "=ds=#s1#, #a1#", ""};
+				{ 9, 65230, "", "=q4=Mercurial Cowl", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65233, "", "=q4=Mercurial Mantle", "=ds=#s3#, #a1#", ""};
 				{ 11, 65232, "", "=q4=Mercurial Robes", "=ds=#s5#, #a1#", ""};
 				{ 12, 65229, "", "=q4=Mercurial Handwraps", "=ds=#s9#, #a1#", ""};
@@ -2553,13 +2908,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t11s6#", "=q5="..AL["Tier 11"]};
-				{ 2, 60299, "", "=q4=Wind Dancer's Helmet", "=ds=#s1#, #a2#", ""};
+				{ 2, 60299, "", "=q4=Wind Dancer's Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60302, "", "=q4=Wind Dancer's Spaulders", "=ds=#s3#, #a2#", ""};
 				{ 4, 60301, "", "=q4=Wind Dancer's Tunic", "=ds=#s5#, #a2#", "2200 #valor#"};
 				{ 5, 60298, "", "=q4=Wind Dancer's Gloves", "=ds=#s9#, #a2#", "1650 #valor#"};
 				{ 6, 60300, "", "=q4=Wind Dancer's Legguards", "=ds=#s11#, #a2#", "2200 #valor#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t11s6#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65241, "", "=q4=Wind Dancer's Helmet", "=ds=#s1#, #a2#", ""};
+				{ 9, 65241, "", "=q4=Wind Dancer's Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65243, "", "=q4=Wind Dancer's Spaulders", "=ds=#s3#, #a2#", ""};
 				{ 11, 65239, "", "=q4=Wind Dancer's Tunic", "=ds=#s5#, #a2#", ""};
 				{ 12, 65240, "", "=q4=Wind Dancer's Gloves", "=ds=#s9#, #a2#", ""};
@@ -2576,13 +2931,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t11s7_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60315, "", "=q4=Headpiece of the Raging Elements", "=ds=#s1#, #a3#", ""};
+				{ 2, 60315, "", "=q4=Headpiece of the Raging Elements", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60317, "", "=q4=Shoulderwraps of the Raging Elements", "=ds=#s3#, #a3#", ""};
 				{ 4, 60313, "", "=q4=Hauberk of the Raging Elements", "=ds=#s5#, #a3#", "2200 #valor#"};
 				{ 5, 60314, "", "=q4=Gloves of the Raging Elements", "=ds=#s9#, #a3#", "1650 #valor#"};
 				{ 6, 60316, "", "=q4=Kilt of the Raging Elements", "=ds=#s11#, #a3#", "2200 #valor#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t11s7_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65256, "", "=q4=Headpiece of the Raging Elements", "=ds=#s1#, #a3#", ""};
+				{ 9, 65256, "", "=q4=Headpiece of the Raging Elements", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65258, "", "=q4=Shoulderwraps of the Raging Elements", "=ds=#s3#, #a3#", ""};
 				{ 11, 65254, "", "=q4=Hauberk of the Raging Elements", "=ds=#s5#, #a3#", ""};
 				{ 12, 65255, "", "=q4=Gloves of the Raging Elements", "=ds=#s9#, #a3#", ""};
@@ -2599,13 +2954,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t11s7_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60320, "", "=q4=Helmet of the Raging Elements", "=ds=#s1#, #a3#", ""};
+				{ 2, 60320, "", "=q4=Helmet of the Raging Elements", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60322, "", "=q4=Spaulders of the Raging Elements", "=ds=#s3#, #a3#", ""};
 				{ 4, 60318, "", "=q4=Culrass of the Raging Elements", "=ds=#s5#, #a3#", "2200 #valor#"};
 				{ 5, 60319, "", "=q4=Grips of the Raging Elements", "=ds=#s9#, #a3#", "1650 #valor#"};
 				{ 6, 60321, "", "=q4=Legguards of the Raging Elements", "=ds=#s11#, #a3#", "2200 #valor#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t11s7_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65251, "", "=q4=Helmet of the Raging Elements", "=ds=#s1#, #a3#", ""};
+				{ 9, 65251, "", "=q4=Helmet of the Raging Elements", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65253, "", "=q4=Spaulders of the Raging Elements", "=ds=#s3#, #a3#", ""};
 				{ 11, 65249, "", "=q4=Culrass of the Raging Elements", "=ds=#s5#, #a3#", ""};
 				{ 12, 65250, "", "=q4=Grips of the Raging Elements", "=ds=#s9#, #a3#", ""};
@@ -2622,13 +2977,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t11s7_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60308, "", "=q4=Faceguard of the Raging Elements", "=ds=#s1#, #a3#", ""};
+				{ 2, 60308, "", "=q4=Faceguard of the Raging Elements", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60311, "", "=q4=Mantle of the Raging Elements", "=ds=#s3#, #a3#", ""};
 				{ 4, 60309, "", "=q4=Tunic of the Raging Elements", "=ds=#s5#, #a3#", "2200 #valor#"};
 				{ 5, 60312, "", "=q4=Handwraps of the Raging Elements", "=ds=#s9#, #a3#", "1650 #valor#"};
 				{ 6, 60310, "", "=q4=Legwraps of the Raging Elements", "=ds=#s11#, #a3#", "2200 #valor#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t11s7_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65246, "", "=q4=Faceguard of the Raging Elements", "=ds=#s1#, #a3#", ""};
+				{ 9, 65246, "", "=q4=Faceguard of the Raging Elements", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65248, "", "=q4=Mantle of the Raging Elements", "=ds=#s3#, #a3#", ""};
 				{ 11, 65244, "", "=q4=Tunic of the Raging Elements", "=ds=#s5#, #a3#", ""};
 				{ 12, 65245, "", "=q4=Handwraps of the Raging Elements", "=ds=#s9#, #a3#", ""};
@@ -2645,13 +3000,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 11"]};
-				{ 2, 60249, "", "=q4=Shadowflame Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 60249, "", "=q4=Shadowflame Hood", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60252, "", "=q4=Shadowflame Mantle", "=ds=#s3#, #a1#", ""};
 				{ 4, 60251, "", "=q4=Shadowflame Robes", "=ds=#s5#, #a1#", "2200 #valor#"};
 				{ 5, 60248, "", "=q4=Shadowflame Handwraps", "=ds=#s9#, #a1#", "1650 #valor#"};
 				{ 6, 60250, "", "=q4=Shadowflame Leggings", "=ds=#s11#, #a1#", "2200 #valor#"};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65260, "", "=q4=Shadowflame Hood", "=ds=#s1#, #a1#", ""};
+				{ 9, 65260, "", "=q4=Shadowflame Hood", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65263, "", "=q4=Shadowflame Mantle", "=ds=#s3#, #a1#", ""};
 				{ 11, 65262, "", "=q4=Shadowflame Robes", "=ds=#s5#, #a1#", ""};
 				{ 12, 65259, "", "=q4=Shadowflame Handwraps", "=ds=#s9#, #a1#", ""};
@@ -2668,13 +3023,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t11s9_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60325, "", "=q4=Earthen Helmet", "=ds=#s1#, #a4#", ""};
+				{ 2, 60325, "", "=q4=Earthen Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60327, "", "=q4=Earthen Pauldrons", "=ds=#s3#, #a4#", ""};
 				{ 4, 60323, "", "=q4=Earthen Battleplate", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60326, "", "=q4=Earthen Gauntlets", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60324, "", "=q4=Earthen Legplates", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t11s9_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65266, "", "=q4=Earthen Helmet", "=ds=#s1#, #a4#", ""};
+				{ 9, 65266, "", "=q4=Earthen Helmet", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65268, "", "=q4=Earthen Pauldrons", "=ds=#s3#, #a4#", ""};
 				{ 11, 65264, "", "=q4=Earthen Battleplate", "=ds=#s5#, #a4#", ""};
 				{ 12, 65265, "", "=q4=Earthen Gauntlets", "=ds=#s9#, #a4#", ""};
@@ -2691,13 +3046,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t11s9_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60328, "", "=q4=Earthen Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 2, 60328, "", "=q4=Earthen Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 3, 60331, "", "=q4=Earthen Shoulderguards", "=ds=#s3#, #a4#", ""};
 				{ 4, 60329, "", "=q4=Earthen Chestguard", "=ds=#s5#, #a4#", "2200 #valor#"};
 				{ 5, 60332, "", "=q4=Earthen Handguards", "=ds=#s9#, #a4#", "1650 #valor#"};
 				{ 6, 60330, "", "=q4=Earthen Legguards", "=ds=#s11#, #a4#", "2200 #valor#"};
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t11s9_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65271, "", "=q4=Earthen Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 9, 65271, "", "=q4=Earthen Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
 				{ 10, 65273, "", "=q4=Earthen Shoulderguards", "=ds=#s3#, #a4#", ""};
 				{ 11, 65269, "", "=q4=Earthen Chestguard", "=ds=#s5#, #a4#", ""};
 				{ 12, 65270, "", "=q4=Earthen Handguards", "=ds=#s9#, #a4#", ""};

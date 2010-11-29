@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.01.01
+Added raid loot: Throne of the Four Winds, Bastion of Twilight, Blackwing Descent, Baradin Hold
+Many minor fixes and additions
+
 v6.01.00
 New slash command "/al wishlist"
 Search reenabled

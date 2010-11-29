@@ -158,6 +158,7 @@ AtlasLoot_TextParsing = {
 	{ "#m34#", AL["Old Quest Reward"] },
 	{ "#m35#", AL["Tier 3"] },
 	{ "#m36#", AL["NOT AVAILABLE ANYMORE"]},
+	{ "#m37#", AL["Tier 11"] },
 
 	-- Misc
 	{ "#j1#", AL["Normal Mode"] },

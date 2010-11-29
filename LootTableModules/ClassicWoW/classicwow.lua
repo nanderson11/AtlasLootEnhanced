@@ -4295,7 +4295,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 5199, "", "=q3=Smelting Pants", "=ds=#s11#, #a2#", "" };
 				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
-				{ 4, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
+				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
+				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
 				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
