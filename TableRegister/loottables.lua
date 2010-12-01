@@ -1146,7 +1146,7 @@ AtlasLoot_LootTableRegister = {
 
 		["RagefireChasm"] = {
 			["Bosses"] = {
-				{ "RagefireChasmLoot", {3,4,5,6} },
+				{ "RagefireChasmLoot", {2,3,4,5,6} },
 			},
 			["Info"] = { BabbleZone["Ragefire Chasm"], "AtlasLootClassicWoW", mapname = "Ragefire" },
 		},

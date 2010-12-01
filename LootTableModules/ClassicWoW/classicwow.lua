@@ -3006,19 +3006,21 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["RagefireChasmLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Taragaman the Hungerer"], ""};
-				{ 2, 14149, "", "=q3=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
-				{ 3, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
-				{ 4, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
-				{ 5, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
-				{ 8, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
-				{ 9, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
-				{ 10, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
-				{ 17, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "", "9%" };
-				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
-				{ 20, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Oggleflint"], ""};
+				{ 2, 68194, "", "=q3=Oggleflint's Inspirer", "=ds=#h1#, #w6#", "", "28%"};
+				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Taragaman the Hungerer"], ""};
+				{ 5, 14149, "", "=q3=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
+				{ 6, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
+				{ 7, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
+				{ 8, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
+				{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
+				{ 11, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
+				{ 12, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
+				{ 13, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
+				{ 17, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
+				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
+				{ 20, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "", "9%" };
 			};
 		};
 		info = {
