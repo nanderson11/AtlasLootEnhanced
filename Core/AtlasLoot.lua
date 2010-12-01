@@ -68,10 +68,10 @@ local pFrameRegister = {}
 
 --List with Modules
 AtlasLoot.Modules = {
-	{"AtlasLootClassicWoW", "AtlasLoot_ClassicWoW", false, "", "Classic" },
-	{"AtlasLootBurningCrusade", "AtlasLoot_BurningCrusade", false, "", "Burning Crusade" },
-	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", "Wrath of the Lich King"},
-	{"AtlasLootCataclysm", "AtlasLoot_Cataclysm", false, "", "Cataclysm"},
+	{"AtlasLootClassicWoW", "AtlasLoot_ClassicWoW", false, "", AL["Classic WoW"] },
+	{"AtlasLootBurningCrusade", "AtlasLoot_BurningCrusade", false, "", AL["Burning Crusade"] },
+	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
+	{"AtlasLootCataclysm", "AtlasLoot_Cataclysm", false, "", AL["Cataclysm"] },
 	{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
 	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
 }
