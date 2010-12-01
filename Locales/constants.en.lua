@@ -177,8 +177,8 @@ if AL then
 	AL["Show 25 Man Loot"] = true;
 	AL["Show Slot"] = true;
 	AL["Show Price"] = true;
-	AL["Skill"] = true
-	AL["Location"] = true
+	AL["Skill"] = true;
+	AL["Location"] = true;
 
 	-- #######################################
 	-- UI things END
@@ -801,6 +801,7 @@ if AL then
 
 	-- Classic WoW Sets
 	AL["Zul'Gurub Rings"] = true;
+
 	-- Recipe origin strings
 	AL["Trainer"] = true;
 	AL["Discovery"] = true;
