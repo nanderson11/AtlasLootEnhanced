@@ -3007,7 +3007,7 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Oggleflint"], ""};
-				{ 2, 68194, "", "=q3=Oggleflint's Inspirer", "=ds=#h1#, #w6#", "", "28%"};
+				{ 2, 68194, "", "=q3=Oggleflint's Inspirer", "=ds=#h1#, #w6#", "", ""};
 				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Taragaman the Hungerer"], ""};
 				{ 5, 14149, "", "=q3=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
 				{ 6, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
@@ -3020,7 +3020,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
 				{ 17, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
 				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
-				{ 20, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "", "9%" };
+				{ 20, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "", "" };
 			};
 		};
 		info = {
