@@ -1,6 +1,7 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 
@@ -185,23 +186,23 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETSCLASSIC"] = {
 		["Normal"] = {
 			{
-				{ 2, "VWOWSets#1", "INV_Pants_12", "=ds="..AL["Defias Leather"], "=q5="..BabbleZone["The Deadmines"]};
-				{ 3, "VWOWSets#1", "INV_Shirt_16", "=ds="..AL["Embrace of the Viper"], "=q5="..BabbleZone["Wailing Caverns"]};
-				{ 4, "VWOWSets#1", "INV_Gauntlets_19", "=ds="..AL["Chain of the Scarlet Crusade"], "=q5="..BabbleZone["Scarlet Monastery"]};
-				{ 5, "VWOWSets#1", "INV_Helmet_01", "=ds="..AL["The Gladiator"], "=q5="..BabbleZone["Blackrock Depths"]};
-				{ 6, "VWOWSets#2", "INV_Boots_Cloth_05", "=ds="..AL["Ironweave Battlesuit"], "=q5="..AL["Various Locations"]};
-				{ 7, "VWOWSets#2", "INV_Boots_02", "=ds="..AL["The Postmaster"], "=q5="..BabbleZone["Stratholme"]};
-				{ 8, "VWOWScholo", "INV_Shoulder_02", "=ds="..AL["Necropile Raiment"], "=q5="..BabbleZone["Scholomance"]};
-				{ 9, "VWOWScholo", "INV_Belt_16", "=ds="..AL["Cadaverous Garb"], "=q5="..BabbleZone["Scholomance"]};
-				{ 10, "VWOWScholo", "INV_Gauntlets_26", "=ds="..AL["Bloodmail Regalia"], "=q5="..BabbleZone["Scholomance"]};
-				{ 11, "VWOWScholo", "INV_Belt_12", "=ds="..AL["Deathbone Guardian"], "=q5="..BabbleZone["Scholomance"]};
-				{ 17, "VWOWSets#3", "INV_Weapon_ShortBlade_16", "=ds="..AL["Spider's Kiss"], "=q5="..BabbleZone["Lower Blackrock Spire"]};
-				{ 18, "VWOWSets#3", "INV_Sword_43", "=ds="..AL["Dal'Rend's Arms"], "=q5="..BabbleZone["Upper Blackrock Spire"]};
+				{ 2, "VWOWSets#1", "INV_Pants_12", "=ds="..BabbleItemSet["Defias Leather"], "=q5="..BabbleZone["The Deadmines"]};
+				{ 3, "VWOWSets#1", "INV_Shirt_16", "=ds="..BabbleItemSet["Embrace of the Viper"], "=q5="..BabbleZone["Wailing Caverns"]};
+				{ 4, "VWOWSets#1", "INV_Gauntlets_19", "=ds="..BabbleItemSet["Chain of the Scarlet Crusade"], "=q5="..BabbleZone["Scarlet Monastery"]};
+				{ 5, "VWOWSets#1", "INV_Helmet_01", "=ds="..BabbleItemSet["The Gladiator"], "=q5="..BabbleZone["Blackrock Depths"]};
+				{ 6, "VWOWSets#2", "INV_Boots_Cloth_05", "=ds="..BabbleItemSet["Ironweave Battlesuit"], "=q5="..AL["Various Locations"]};
+				{ 7, "VWOWSets#2", "INV_Boots_02", "=ds="..BabbleItemSet["The Postmaster"], "=q5="..BabbleZone["Stratholme"]};
+				{ 8, "VWOWScholo", "INV_Shoulder_02", "=ds="..BabbleItemSet["Necropile Raiment"], "=q5="..BabbleZone["Scholomance"]};
+				{ 9, "VWOWScholo", "INV_Belt_16", "=ds="..BabbleItemSet["Cadaverous Garb"], "=q5="..BabbleZone["Scholomance"]};
+				{ 10, "VWOWScholo", "INV_Gauntlets_26", "=ds="..BabbleItemSet["Bloodmail Regalia"], "=q5="..BabbleZone["Scholomance"]};
+				{ 11, "VWOWScholo", "INV_Belt_12", "=ds="..BabbleItemSet["Deathbone Guardian"], "=q5="..BabbleZone["Scholomance"]};
+				{ 17, "VWOWSets#3", "INV_Weapon_ShortBlade_16", "=ds="..BabbleItemSet["Spider's Kiss"], "=q5="..BabbleZone["Lower Blackrock Spire"]};
+				{ 18, "VWOWSets#3", "INV_Sword_43", "=ds="..BabbleItemSet["Dal'Rend's Arms"], "=q5="..BabbleZone["Upper Blackrock Spire"]};
 				{ 19, "VWOWZulGurub", "INV_Bijou_Orange", "=ds="..AL["Zul'Gurub Rings"], "=q5="..BabbleZone["Zul'Gurub"]};
-				{ 20, "VWOWZulGurub", "INV_Weapon_Hand_01", "=ds="..AL["Primal Blessing"], "=q5="..BabbleZone["Zul'Gurub"]};
-				{ 21, "VWOWZulGurub", "INV_Sword_55", "=ds="..AL["The Twin Blades of Hakkari"], "=q5="..BabbleZone["Zul'Gurub"]};
-				{ 22, "VWOWSets#3", "INV_Misc_MonsterScales_15", "=ds="..AL["Shard of the Gods"], "=q5="..AL["Various Locations"]};
-				{ 23, "VWOWSets#3", "INV_Misc_MonsterClaw_04", "=ds="..AL["Spirit of Eskhandar"], "=q5="..AL["Various Locations"]};
+				{ 20, "VWOWZulGurub", "INV_Weapon_Hand_01", "=ds="..BabbleItemSet["Primal Blessing"], "=q5="..BabbleZone["Zul'Gurub"]};
+				{ 21, "VWOWZulGurub", "INV_Sword_55", "=ds="..BabbleItemSet["The Twin Blades of Hakkari"], "=q5="..BabbleZone["Zul'Gurub"]};
+				{ 22, "VWOWSets#3", "INV_Misc_MonsterScales_15", "=ds="..BabbleItemSet["Shard of the Gods"], "=q5="..AL["Various Locations"]};
+				{ 23, "VWOWSets#3", "INV_Misc_MonsterClaw_04", "=ds="..BabbleItemSet["Spirit of Eskhandar"], "=q5="..AL["Various Locations"]};
 			};
 		};
 		info = {
@@ -233,19 +234,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["DS3SET"] = {
 		["Normal"] = {
 			{
-				{ 2, "DS3Cloth", "Spell_Holy_InnerFire", "=ds="..AL["Hallowed Raiment"], "=q5="..BabbleInventory["Cloth"]};
-				{ 3, "DS3Cloth", "INV_Elemental_Mote_Nether", "=ds="..AL["Mana-Etched Regalia"], "=q5="..BabbleInventory["Cloth"]};
-				{ 5, "DS3Leather", "Ability_Rogue_SinisterCalling", "=ds="..AL["Assassination Armor"], "=q5="..BabbleInventory["Leather"]};
-				{ 6, "DS3Leather", "Ability_Hunter_RapidKilling", "=ds="..AL["Wastewalker Armor"], "=q5="..BabbleInventory["Leather"]};
-				{ 8, "DS3Mail", "Ability_Hunter_Pet_Wolf", "=ds="..AL["Beast Lord Armor"], "=q5="..BabbleInventory["Mail"]};
-				{ 9, "DS3Mail", "INV_Helmet_70", "=ds="..AL["Tidefury Raiment"], "=q5="..BabbleInventory["Mail"]};
-				{ 11, "DS3Plate", "Spell_Fire_EnchantWeapon", "=ds="..AL["Bold Armor"], "=q5="..BabbleInventory["Plate"]};
-				{ 12, "DS3Plate", "INV_Hammer_02", "=ds="..AL["Righteous Armor"], "=q5="..BabbleInventory["Plate"]};
-				{ 17, "DS3Cloth", "Ability_Creature_Cursed_04", "=ds="..AL["Incanter's Regalia"], "=q5="..BabbleInventory["Cloth"]};
-				{ 18, "DS3Cloth", "Ability_Creature_Cursed_03", "=ds="..AL["Oblivion Raiment"], "=q5="..BabbleInventory["Cloth"]};
-				{ 20, "DS3Leather", "Spell_Holy_SealOfRighteousness", "=ds="..AL["Moonglade Raiment"], "=q5="..BabbleInventory["Leather"]};
-				{ 23, "DS3Mail", "Ability_FiegnDead", "=ds="..AL["Desolation Battlegear"], "=q5="..BabbleInventory["Mail"]};
-				{ 26, "DS3Plate", "INV_Helmet_08", "=ds="..AL["Doomplate Battlegear"], "=q5="..BabbleInventory["Plate"]};
+				{ 2, "DS3Cloth", "Spell_Holy_InnerFire", "=ds="..BabbleItemSet["Hallowed Raiment"], "=q5="..BabbleInventory["Cloth"]};
+				{ 3, "DS3Cloth", "INV_Elemental_Mote_Nether", "=ds="..BabbleItemSet["Mana-Etched Regalia"], "=q5="..BabbleInventory["Cloth"]};
+				{ 5, "DS3Leather", "Ability_Rogue_SinisterCalling", "=ds="..BabbleItemSet["Assassination Armor"], "=q5="..BabbleInventory["Leather"]};
+				{ 6, "DS3Leather", "Ability_Hunter_RapidKilling", "=ds="..BabbleItemSet["Wastewalker Armor"], "=q5="..BabbleInventory["Leather"]};
+				{ 8, "DS3Mail", "Ability_Hunter_Pet_Wolf", "=ds="..BabbleItemSet["Beast Lord Armor"], "=q5="..BabbleInventory["Mail"]};
+				{ 9, "DS3Mail", "INV_Helmet_70", "=ds="..BabbleItemSet["Tidefury Raiment"], "=q5="..BabbleInventory["Mail"]};
+				{ 11, "DS3Plate", "Spell_Fire_EnchantWeapon", "=ds="..BabbleItemSet["Bold Armor"], "=q5="..BabbleInventory["Plate"]};
+				{ 12, "DS3Plate", "INV_Hammer_02", "=ds="..BabbleItemSet["Righteous Armor"], "=q5="..BabbleInventory["Plate"]};
+				{ 17, "DS3Cloth", "Ability_Creature_Cursed_04", "=ds="..BabbleItemSet["Incanter's Regalia"], "=q5="..BabbleInventory["Cloth"]};
+				{ 18, "DS3Cloth", "Ability_Creature_Cursed_03", "=ds="..BabbleItemSet["Oblivion Raiment"], "=q5="..BabbleInventory["Cloth"]};
+				{ 20, "DS3Leather", "Spell_Holy_SealOfRighteousness", "=ds="..BabbleItemSet["Moonglade Raiment"], "=q5="..BabbleInventory["Leather"]};
+				{ 23, "DS3Mail", "Ability_FiegnDead", "=ds="..BabbleItemSet["Desolation Battlegear"], "=q5="..BabbleInventory["Mail"]};
+				{ 26, "DS3Plate", "INV_Helmet_08", "=ds="..BabbleItemSet["Doomplate Battlegear"], "=q5="..BabbleInventory["Plate"]};
 			};
 		};
 		info = {

@@ -2,6 +2,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootCrafting"
 
@@ -5668,7 +5669,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Bloodsoul Embrace"],
+			name = BabbleItemSet["Bloodsoul Embrace"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingMail",
 		};
 	};
@@ -5684,7 +5685,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Fel Iron Chain"],
+			name = BabbleItemSet["Fel Iron Chain"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingMail",
 		};
 	};
@@ -5707,7 +5708,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Imperial Plate"],
+			name = BabbleItemSet["Imperial Plate"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5722,7 +5723,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["The Darksoul"],
+			name = BabbleItemSet["The Darksoul"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5739,7 +5740,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Fel Iron Plate"],
+			name = BabbleItemSet["Fel Iron Plate"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5754,7 +5755,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Adamantite Battlegear"],
+			name = BabbleItemSet["Adamantite Battlegear"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5770,7 +5771,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Flame Guard"],
+			name = BabbleItemSet["Flame Guard"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5786,7 +5787,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Enchanted Adamantite Armor"],
+			name = BabbleItemSet["Enchanted Adamantite Armor"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5801,7 +5802,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Khorium Ward"],
+			name = BabbleItemSet["Khorium Ward"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5816,7 +5817,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Faith in Felsteel"],
+			name = BabbleItemSet["Faith in Felsteel"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5832,7 +5833,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Burning Rage"],
+			name = BabbleItemSet["Burning Rage"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5852,7 +5853,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Ornate Saronite Battlegear"],
+			name = BabbleItemSet["Ornate Saronite Battlegear"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5872,7 +5873,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Savage Saronite Battlegear"],
+			name = BabbleItemSet["Savage Saronite Battlegear"],
 			module = moduleName, menu = "CRAFTSET", instance = "BlacksmithingPlate",
 		};
 	};
@@ -5891,7 +5892,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Volcanic Armor"],
+			name = BabbleItemSet["Volcanic Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5905,7 +5906,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Ironfeather Armor"],
+			name = BabbleItemSet["Ironfeather Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5921,7 +5922,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Stormshroud Armor"],
+			name = BabbleItemSet["Stormshroud Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5935,7 +5936,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Devilsaur Armor"],
+			name = BabbleItemSet["Devilsaur Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5949,7 +5950,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Blood Tiger Harness"],
+			name = BabbleItemSet["Blood Tiger Harness"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5964,7 +5965,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Primal Batskin"],
+			name = BabbleItemSet["Primal Batskin"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5980,7 +5981,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Wild Draenish Armor"],
+			name = BabbleItemSet["Wild Draenish Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -5996,7 +5997,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Thick Draenic Armor"],
+			name = BabbleItemSet["Thick Draenic Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6011,7 +6012,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Fel Skin"],
+			name = BabbleItemSet["Fel Skin"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6026,7 +6027,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Strength of the Clefthoof"],
+			name = BabbleItemSet["Strength of the Clefthoof"],
 			module = moduleName, menu = "CRAFTSET2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6041,7 +6042,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Primal Intent"],
+			name = BabbleItemSet["Primal Intent"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6056,7 +6057,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Windhawk Armor"],
+			name = BabbleItemSet["Windhawk Armor"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6076,7 +6077,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Borean Embrace"],
+			name = BabbleItemSet["Borean Embrace"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6096,7 +6097,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Iceborne Embrace"],
+			name = BabbleItemSet["Iceborne Embrace"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6116,7 +6117,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Eviscerator's Battlegear"],
+			name = BabbleItemSet["Eviscerator's Battlegear"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6136,7 +6137,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Overcaster Battlegear"],
+			name = BabbleItemSet["Overcaster Battlegear"],
 			module = moduleName, menu = "CRAFTSET#2", instance = "LeatherworkingLeather",
 		};
 	};
@@ -6155,7 +6156,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Green Dragon Mail"],
+			name = BabbleItemSet["Green Dragon Mail"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6170,7 +6171,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Blue Dragon Mail"],
+			name = BabbleItemSet["Blue Dragon Mail"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6186,7 +6187,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Black Dragon Mail"],
+			name = BabbleItemSet["Black Dragon Mail"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6202,7 +6203,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Scaled Draenic Armor"],
+			name = BabbleItemSet["Scaled Draenic Armor"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6218,7 +6219,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Felscale Armor"],
+			name = BabbleItemSet["Felscale Armor"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6233,7 +6234,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Felstalker Armor"],
+			name = BabbleItemSet["Felstalker Armor"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6248,7 +6249,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Fury of the Nether"],
+			name = BabbleItemSet["Fury of the Nether"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6263,7 +6264,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Netherscale Armor"],
+			name = BabbleItemSet["Netherscale Armor"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6278,7 +6279,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Netherstrike Armor"],
+			name = BabbleItemSet["Netherstrike Armor"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6298,7 +6299,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Frostscale Binding"],
+			name = BabbleItemSet["Frostscale Binding"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6318,7 +6319,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Nerubian Hive"],
+			name = BabbleItemSet["Nerubian Hive"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6338,7 +6339,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Stormhide Battlegear"],
+			name = BabbleItemSet["Stormhide Battlegear"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6358,7 +6359,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Swiftarrow Battlefear"],
+			name = BabbleItemSet["Swiftarrow Battlegear"],
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
@@ -6377,7 +6378,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Bloodvine Garb"],
+			name = BabbleItemSet["Bloodvine Garb"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6396,7 +6397,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Netherweave Vestments"],
+			name = BabbleItemSet["Netherweave Vestments"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6412,7 +6413,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Imbued Netherweave"],
+			name = BabbleItemSet["Imbued Netherweave"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6427,7 +6428,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Arcanoweave Vestments"],
+			name = BabbleItemSet["Arcanoweave Vestments"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6441,7 +6442,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["The Unyielding"],
+			name = BabbleItemSet["The Unyielding"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6455,7 +6456,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Whitemend Wisdom"],
+			name = BabbleItemSet["Whitemend Wisdom"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6469,7 +6470,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Spellstrike Infusion"],
+			name = BabbleItemSet["Spellstrike Infusion"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6483,7 +6484,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Battlecast Garb"],
+			name = BabbleItemSet["Battlecast Garb"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6498,7 +6499,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Soulcloth Embrace"],
+			name = BabbleItemSet["Soulcloth Embrace"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6513,7 +6514,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Primal Mooncloth"],
+			name = BabbleItemSet["Primal Mooncloth"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6528,7 +6529,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Shadow's Embrace"],
+			name = BabbleItemSet["Shadow's Embrace"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6543,7 +6544,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Wrath of Spellfire"],
+			name = BabbleItemSet["Wrath of Spellfire"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6563,7 +6564,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Frostwoven Power"],
+			name = BabbleItemSet["Frostwoven Power"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6583,7 +6584,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Duskweaver"],
+			name = BabbleItemSet["Duskweaver"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
@@ -6603,7 +6604,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = AL["Frostsavage Battlegear"],
+			name = BabbleItemSet["Frostsavage Battlegear"],
 			module = moduleName, menu = "CRAFTSET#4", instance = "TailoringSets",
 		};
 	};
