@@ -97,8 +97,8 @@ if AL then
 	AL["Sort by Boss"] = "Trier par boss";
 	AL["Sort loottable by Boss"] = "Trier la table de loot par boss";
 	AL["Item Name"] = "Nom de l'objet";
-	AL["Item Slot"] = true; -- à traduire
-	--AL["Item Quality"] = "Qualité de l'objet";
+	AL["Item Slot"] = "Slot de l'objet";
+	AL["Item Quality"] = "Qualité de l'objet";
 
 	-- Wishlist
 	AL["Wishlist"] = "Liste de souhaits";
@@ -129,7 +129,7 @@ if AL then
 	AL["Meele weapons"] = "Armes de mêlée";
 	AL["Ranged weapons"] = "Armes à distance";
 	AL["Other"] = "Autre";
-	--AL["Itemslot"] = true; -- à traduire
+	AL["Itemslot"] = "Slot de l'objet";
 	AL["Shift + Click on the Filter button opens the config page."] = "Maj + Clic sur le bouton Filtre ouvre la page de configuration.";
 
 	-- Panel
@@ -161,11 +161,11 @@ if AL then
 	AL["Lock"] = "Bloquer";
 
 	-- Query Server / Query all
-	--AL["Query Server"] = true;
-	--AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = true;
+	AL["Query Server"] = "Interroger le serveur";
+	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "Interroger le serveur pour tout les objets \nde cette page. Les objets seront rafraichis \nquand vous passerez votre souris dessus.";
 
 	-- Atlas
-	--AL["Click boss name to view loot."] = true;
+	AL["Click boss name to view loot."] = "Cliquer sur le nom du boss pour voir ses loots";
 
 	-- LootTable
 	-- title
@@ -175,7 +175,7 @@ if AL then
 	-- buttons
 	AL["Show 10 Man Loot"] = "Afficher les loots Raid 10";
 	AL["Show 25 Man Loot"] = "Afficher les loots Raid 25";
-	--AL["Show Slot"] = true;
+	AL["Show Slot"] = "Afficher le slot";
 	AL["Show Price"] = "Afficher le prix";
 
 	-- #######################################
@@ -268,13 +268,13 @@ if AL then
 	--AL["Set"] = true;
 	AL["Justice Points"] = "Point de justice";
 	AL["Valor Points"] = "Point de valeur";
-	--AL["Badge of Justice"] = true; --should be removed
-	--AL["Emblem Rewards"] = true; --should be removed
-	--AL["Emblem of Valor"] = true; --should be removed
-	--AL["Emblem of Heroism"] = true; --should be removed
-	--AL["Emblem of Conquest"] = true; --should be removed
-	--AL["Emblem of Triumph"] = true; --should be removed
-	--AL["Emblem of Frost"] = true; --should be removed
+	AL["Badge of Justice"] = "Ecusson de justice"; --should be removed
+	AL["Emblem Rewards"] = "Récompenses des emblèmes"; --should be removed
+	AL["Emblem of Valor"] = "Emblème de vaillance"; --should be removed
+	AL["Emblem of Heroism"] = "Emblème d'héroïsme"; --should be removed
+	AL["Emblem of Conquest"] = "Emblème de conquête"; --should be removed
+	AL["Emblem of Triumph"] = "Emblème de triomphe"; --should be removed
+	AL["Emblem of Frost"] = "Emblème de givre"; --should be removed
 	AL["BoE World Epics"] = "LqE Épiques mondial";
 	AL["Legendary Items"] = "Objets légendaires";
 	AL["Misc Sets"] = "Sets divers";
