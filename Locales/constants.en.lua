@@ -177,6 +177,8 @@ if AL then
 	AL["Show 25 Man Loot"] = true;
 	AL["Show Slot"] = true;
 	AL["Show Price"] = true;
+	AL["Skill"] = true
+	AL["Location"] = true
 
 	-- #######################################
 	-- UI things END

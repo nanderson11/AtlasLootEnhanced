@@ -955,13 +955,17 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	end
 	self:SetItemInfoFrame(pFrame)
 	
-	local instancePage, nextPage, prevPage, lootTableType, bossName
+	local instancePage, nextPage, prevPage, lootTableType, bossName, moduleName
 	local saveDataID = dataID
 	
 	dataID, instancePage = self:FormatDataID(dataID)
 	nextPage, prevPage = self:GetNextPrevPage(dataID, instancePage)
 	lootTableType = self:GetLootTableType(saveDataID)
 	bossName = self:GetTableInfo(saveDataID, false, true, true)
+	
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.module then
+		moduleName = AtlasLoot_Data[dataID].info.module
+	end
 	
 	if self.ItemFrame.dataID == "FormatedList" and dataID ~= "FormatedList" then
 		wipe(AtlasLoot_Data["FormatedList"]["Normal"])
@@ -1026,9 +1030,17 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Switch:Show()
 	elseif self.ItemFrame.Switch.changePoint then
 		if AtlasLoot.db.profile.ShowLootTablePrice then
-			self.ItemFrame.Switch:SetText(AL["Show Slot"])
+			if moduleName == "AtlasLootCrafting" then
+				self.ItemFrame.Switch:SetText(AL["Skill"])
+			else
+				self.ItemFrame.Switch:SetText(AL["Show Slot"])
+			end
 		else
-			self.ItemFrame.Switch:SetText(AL["Show Price"])
+			if moduleName == "AtlasLootCrafting" then
+				self.ItemFrame.Switch:SetText(AL["Location"])
+			else
+				self.ItemFrame.Switch:SetText(AL["Show Price"])
+			end
 		end
 		self.ItemFrame.Switch:Show()
 	end
