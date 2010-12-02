@@ -244,7 +244,7 @@ do
 					
 					Help = {
 						type = "group",
-						name = "Help",
+						name = AL["Help"],
 						order = 600,
 						childGroups = "tab",
 						args = {
@@ -287,7 +287,7 @@ function AtlasLoot:OptionsInitialize()
 	--LibStub("AceConfigRegistry-3.0"):NotifyChange("AtlasLoot")
 	self.optFrames.AtlasLoot = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", "AtlasLoot", nil, "general")
 	self:RegisterModuleOptions("Profiles", LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db), AL["Profiles"])
-	self.optFrames.Help = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", "Help", "AtlasLoot", "Help")
+	self.optFrames.Help = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", AL["Help"], "AtlasLoot", "Help")
 end
 
 --- Adds a OptionsSubCat 
