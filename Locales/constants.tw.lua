@@ -43,6 +43,8 @@ if AL then
 	AL["Reset"] = "重設";
 	AL["Reset Frames"] = "重設框架";
 	AL["Profiles"] = "設定檔";
+	AL["Item Buttons"] = "物品按鍵";
+	AL["Loot Table"] = "物品表";
 
 	-- Default Frame
 	AL["Default Frame"] = "預設框架";
@@ -116,11 +118,15 @@ if AL then
 	AL[" deleted from the WishList."] = "已從願望清單移除";
 	AL["Are you sure you want to delete Wishlist |cff1eff00%s|r?"] = "你確定要刪除 |cff1eff00%s|r 裝備願望清單嗎?";
 	AL["default"] = "預設";
+	AL[" |cff999999<default>"] = " |cff999999<預設>";
 	AL["Use as default wishlist"] = "將其設為預設裝備願望清單";
 	AL["Add Wishlist"] = "新增願望清單";
 	AL["Always use default Wishlist"] = "永遠使用預設的願望清單";
 	AL["Save wishlists at character DB"] = "將裝備願望清單儲存至角色資料庫";
 	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "只針對 |cff1eff00%s-%s|r 角色儲存裝備願望清單\n其他角色可以檢視清單而不儲存, 以減少記憶體使用量";
+	AL["Table Sort"] = "表格排序";
+	AL["Table Sort:"] = "表格排序: ";
+	AL["Item Sort:"] = "物品排序: ";
 
 	-- Filter
 	AL["Filter"] = "篩選";
@@ -135,6 +141,7 @@ if AL then
 	-- Panel
 	AL["Hide Panel"] = "隱藏面板";
 	AL["Toggle AL Panel"] = "AtlasLoot 面板";
+	AL["Buttons"] = "按鍵";
 
 	-- Buttons
 	AL["Collections"] = "套裝/特殊物品";
@@ -146,6 +153,7 @@ if AL then
 
 	-- QuickLooks
 	AL["QuickLook"] = "快速瀏覽";
+	AL["QuickLooks"] = "快速瀏覽";
 	AL["Number of QuickLooks:"] = "快速瀏覽數目: ";
 	AL["Add to QuickLooks:"] = "新增至快速瀏覽";
 	AL["Reset Quicklooks"] = "重設快速瀏覽";
@@ -159,7 +167,8 @@ if AL then
 	AL["Use Instance name"] = "使用副本名稱";
 	AL["Delete"] = "刪除";
 	AL["Lock"] = "鎖定";
-
+	AL["Enable"] = "啟用";
+	
 	-- Query Server / Query all
 	AL["Query Server"] = "向伺服器查詢";
 	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "向伺服器查詢此頁所有物品。完成後滑鼠移至物品圖示上即可更新。";

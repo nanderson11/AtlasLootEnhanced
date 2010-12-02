@@ -39,7 +39,7 @@ do
 				args = {
 					toggle = {
 						type = "toggle",
-						name = "Enable",
+						name = AL["Enable"],
 						get = function()
 							return AtlasLoot:GetModuleEnabled(MODULENAME)
 						end,

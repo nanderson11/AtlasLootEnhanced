@@ -200,7 +200,7 @@ do
 				args = {
 					toggle = {
 						type = "toggle",
-						name = "Enable",
+						name = AL["Enable"],
 						get = function()
 							return AtlasLoot:GetModuleEnabled(MODULENAME)
 						end,
@@ -297,7 +297,7 @@ do
 				end,
 			}
 			if v.info.default then
-				options.args.Own.args[tostring(k)].name = v.info.name.." |cff999999<default>"
+				options.args.Own.args[tostring(k)].name = v.info.name..AL[" |cff999999<default>"];
 			end
 		end
 		

@@ -43,6 +43,8 @@ if AL then
 	AL["Reset"] = true;
 	AL["Reset Frames"] = true;
 	AL["Profiles"] = true;
+	AL["Item Buttons"] = true;
+	AL["Loot Table"] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;
@@ -116,11 +118,15 @@ if AL then
 	AL[" deleted from the WishList."] = true;
 	AL["Are you sure you want to delete Wishlist |cff1eff00%s|r?"] = true;
 	AL["default"] = true;
+	AL[" |cff999999<default>"] = true;
 	AL["Use as default wishlist"] = true;
 	AL["Add Wishlist"] = true;
 	AL["Always use default Wishlist"] = true;
 	AL["Save wishlists at character DB"] = true;
 	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = true;
+	AL["Table Sort"] = true;
+	AL["Table Sort:"] = true;
+	AL["Item Sort:"] = true;
 
 	-- Filter
 	AL["Filter"] = true;
@@ -135,6 +141,7 @@ if AL then
 	-- Panel
 	AL["Hide Panel"] = true;
 	AL["Toggle AL Panel"] = true;
+	AL["Buttons"] = true;
 
 	-- Buttons
 	AL["Collections"] = true;
@@ -146,6 +153,7 @@ if AL then
 
 	-- QuickLooks
 	AL["QuickLook"] = true;
+	AL["QuickLooks"] = true;
 	AL["Number of QuickLooks:"] = true;
 	AL["Add to QuickLooks:"] = true;
 	AL["Reset Quicklooks"] = true;
@@ -159,6 +167,7 @@ if AL then
 	AL["Use Instance name"] = true;
 	AL["Delete"] = true;
 	AL["Lock"] = true;
+	AL["Enable"] = true;
 
 	-- Query Server / Query all
 	AL["Query Server"] = true;

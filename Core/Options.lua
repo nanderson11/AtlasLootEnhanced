@@ -66,7 +66,7 @@ do
 							itemButton = {						
 								type = "group",
 								inline = true,
-								name = "Item Buttons",
+								name = AL["Item Buttons"],
 								order = 30,
 								args = {
 									ItemIDs = {
@@ -138,7 +138,7 @@ do
 							lootTable = {						
 								type = "group",
 								inline = true,
-								name = "Loot Table",
+								name = AL["Loot Table"],
 								order = 30,
 								args = {
 									--[[

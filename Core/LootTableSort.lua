@@ -120,7 +120,7 @@ function LootTableSort:GetOptionsTable(order)
 		sortOpt = {						
 			type = "group",
 			inline = true,
-			name = "TableSort",
+			name = AL["Table Sort"],
 			order = order,
 			args = {
 			},
@@ -130,7 +130,7 @@ function LootTableSort:GetOptionsTable(order)
 	
 	tab.sortOpt.args.TableSort = {
 		type = "select",
-		name = "TableSort:",
+		name = AL["Table Sort:"],
 		--desc = ,
 		values = {},
 		order = curOrder,
@@ -171,7 +171,7 @@ function LootTableSort:GetOptionsTable(order)
 	]=]
 	tab.sortOpt.args.ItemSort = {
 		type = "select",
-		name = "ItemSort:",
+		name = AL["Item Sort:"],
 		--desc = ,
 		values = {},
 		order = curOrder,

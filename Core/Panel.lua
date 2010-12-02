@@ -47,7 +47,7 @@ do
 					Buttons = {						
 						type = "group",
 						inline = true,
-						name = "Buttons",
+						name = AL["Buttons"],
 						order = 20,
 						args = {
 						
