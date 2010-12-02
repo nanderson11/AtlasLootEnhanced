@@ -280,7 +280,7 @@ end
 function Filter:OnInitialize()
 	self.db = AtlasLoot.db:RegisterNamespace(MODULENAME, dbDefaults)
 	db = self.db.profile
-	AtlasLoot:RegisterModuleOptions(MODULENAME, getOptions, MODULENAME)
+	AtlasLoot:RegisterModuleOptions(MODULENAME, getOptions, AL["Filter"])
 	self:SetEnabledState(AtlasLoot:GetModuleEnabled(MODULENAME))
 	
 	AtlasLoot:AddTableFormatFunction(MODULENAME, self.FilterBySlot, getEnabledStatus)
