@@ -2294,14 +2294,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorCloth"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81725", "59449", "=q4=Lightweight Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 2, "s56484", "42553", "=q4=Visage Liquification Goggles", "=ds=#sr# 440"};
-				{ 3, "s46111", "34847", "=q4=Annihilator Holo-Gogs", "=ds=#sr# 375"};
-				{ 4, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375"};
-				{ 5, "s30574", "23828", "=q4=Gnomish Power Goggles", "=ds=#sr# 375"};
-				{ 6, "s46108", "35181", "=q4=Powerheal 9000 Lens", "=ds=#sr# 375"};
-				{ 7, "s41320", "32494", "=q4=Destruction Holo-gogs", "=ds=#sr# 350"};
-				{ 8, "s41321", "32495", "=q4=Powerheal 4000 Lens", "=ds=#sr# 350"};
+				{ 1, "s81725", "59449", "=q4=Lightweight Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 2, "s56484", "42553", "=q4=Visage Liquification Goggles", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 3, "s46111", "34847", "=q4=Annihilator Holo-Gogs", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 4, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 5, "s30574", "23828", "=q4=Gnomish Power Goggles", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 6, "s46108", "35181", "=q4=Powerheal 9000 Lens", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 7, "s41320", "32494", "=q4=Destruction Holo-gogs", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 8, "s41321", "32495", "=q4=Powerheal 4000 Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2313,17 +2313,17 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorLeather"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81722", "59455", "=q4=Agile Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 2, "s81724", "59453", "=q4=Camoflauge Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 3, "s56486", "42554", "=q4=Greensight Gogs", "=ds=#sr# 440"};
-				{ 4, "s56481", "42550", "=q4=Weakness Spectralizers", "=ds=#sr# 440"};
-				{ 5, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375"};
-				{ 6, "s46109", "35182", "=q4=Hyper-Magnified Moon Specs", "=ds=#sr# 375"};
-				{ 7, "s46116", "34353", "=q4=Quad Deathblow X44 Goggles", "=ds=#sr# 375"};
-				{ 8, "s46106", "35183", "=q4=Wonderheal XT68 Shades", "=ds=#sr# 375"};
-				{ 9, "s41317", "32478", "=q4=Deathblow X11 Goggles", "=ds=#sr# 350"};
-				{ 10, "s41319", "32480", "=q4=Magnified Moon Specs", "=ds=#sr# 350"};
-				{ 11, "s41318", "32479", "=q4=Wonderheal XT40 Shades", "=ds=#sr# 350"};
+				{ 1, "s81722", "59455", "=q4=Agile Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 2, "s81724", "59453", "=q4=Camoflauge Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 3, "s56486", "42554", "=q4=Greensight Gogs", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 4, "s56481", "42550", "=q4=Weakness Spectralizers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 5, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 6, "s46109", "35182", "=q4=Hyper-Magnified Moon Specs", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 7, "s46116", "34353", "=q4=Quad Deathblow X44 Goggles", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 8, "s46106", "35183", "=q4=Wonderheal XT68 Shades", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 9, "s41317", "32478", "=q4=Deathblow X11 Goggles", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 10, "s41319", "32480", "=q4=Magnified Moon Specs", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 11, "s41318", "32479", "=q4=Wonderheal XT40 Shades", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2335,17 +2335,17 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorMail"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81716", "59456", "=q4=Deadly Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 2, "s81720", "59458", "=q4=Energized Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 3, "s56487", "42555", "=q4=Electroflux Sight Enhancers", "=ds=#sr# 440"};
-				{ 4, "s56574", "42551", "=q4=Truesight Ice Blinders", "=ds=#sr# 440"};
-				{ 5, "s30566", "23839", "=q4=Foreman's Reinforced Helmet", "=ds=#sr# 375"};
-				{ 6, "s46112", "34355", "=q4=Lightning Etched Specs", "=ds=#sr# 375"};
-				{ 7, "s46110", "35184", "=q4=Primal-Attuned Goggles", "=ds=#sr# 375"};
-				{ 8, "s46113", "34356", "=q4=Surestrike Goggles v3.0", "=ds=#sr# 375"};
-				{ 9, "s41315", "32476", "=q4=Gadgetstorm Goggles", "=ds=#sr# 350"};
-				{ 10, "s41316", "32475", "=q4=Living Replicator Specs", "=ds=#sr# 350"};
-				{ 11, "s41314", "32474", "=q4=Surestrike Goggles v2.0", "=ds=#sr# 350"};
+				{ 1, "s81716", "59456", "=q4=Deadly Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 2, "s81720", "59458", "=q4=Energized Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 3, "s56487", "42555", "=q4=Electroflux Sight Enhancers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 4, "s56574", "42551", "=q4=Truesight Ice Blinders", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 5, "s30566", "23839", "=q4=Foreman's Reinforced Helmet", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 6, "s46112", "34355", "=q4=Lightning Etched Specs", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 7, "s46110", "35184", "=q4=Primal-Attuned Goggles", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 8, "s46113", "34356", "=q4=Surestrike Goggles v3.0", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 9, "s41315", "32476", "=q4=Gadgetstorm Goggles", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 10, "s41316", "32475", "=q4=Living Replicator Specs", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 11, "s41314", "32474", "=q4=Surestrike Goggles v2.0", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2357,16 +2357,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorPlate"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81714", "59359", "=q4=Reinforced Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 2, "s81715", "59448", "=q4=Specialized Bio-Optic Killshades", "=ds=#sr# 525"};
-				{ 3, "s56480", "42549", "=q4=Armored Titanium Goggles", "=ds=#sr# 440"};
-				{ 4, "s56483", "42552", "=q4=Charged Titanium Specs", "=ds=#sr# 440"};
-				{ 5, "s62271", "44949", "=q4=Unbreakable Healing Amplifiers", "=ds=#sr# 440"};
-				{ 6, "s46115", "34357", "=q4=Hard Khorium Goggles", "=ds=#sr# 375"};
-				{ 7, "s46107", "35185", "=q4=Justicebringer 3000 Specs", "=ds=#sr# 375"};
-				{ 8, "s46114", "34354", "=q4=Mayhem Projection Goggles", "=ds=#sr# 375"};
-				{ 9, "s40274", "32461", "=q4=Furious Gizmatic Goggles", "=ds=#sr# 350"};
-				{ 10, "s41312", "32473", "=q4=Tankatronic Goggles", "=ds=#sr# 350"};
+				{ 1, "s81714", "59359", "=q4=Reinforced Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 2, "s81715", "59448", "=q4=Specialized Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 3, "s56480", "42549", "=q4=Armored Titanium Goggles", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 4, "s56483", "42552", "=q4=Charged Titanium Specs", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 5, "s62271", "44949", "=q4=Unbreakable Healing Amplifiers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 6, "s46115", "34357", "=q4=Hard Khorium Goggles", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 7, "s46107", "35185", "=q4=Justicebringer 3000 Specs", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 8, "s46114", "34354", "=q4=Mayhem Projection Goggles", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
+				{ 9, "s40274", "32461", "=q4=Furious Gizmatic Goggles", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 10, "s41312", "32473", "=q4=Tankatronic Goggles", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2378,28 +2378,29 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorTrinket"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84418", "60403", "=q3=Elementium Dragonling", "=ds=#sr# 525" };
-				{ 2, "s56469", "41121", "=q3=Gnomish Lightning Generator", "=ds=#sr# 425" };
-				{ 3, "s56467", "40865", "=q3=Noise Machine", "=ds=#sr# 420"};
-				{ 4, "s56466", "40767", "=q3=Sonic Booster", "=ds=#sr# 420"};
-				{ 5, "s30563", "23836", "=q3=Goblin Rocket Launcher", "=ds=#sr# 350"};
-				{ 6, "s30569", "23835", "=q3=Gnomish Poultryizer", "=ds=#sr# 340"};
-				{ 7, "s19830", "16022", "=q3=Arcanite Dragonling", "=ds=#sr# 300"};
-				{ 8, "s23082", "18639", "=q3=Ultra-Flash Shadow Reflector", "=ds=#sr# 300"};
-				{ 9, "s23081", "18638", "=q3=Hyper-Radiant Flame Reflector", "=ds=#sr# 290"};
-				{ 10, "s23079", "18637", "=q2=Major Recombobulator", "=ds=#sr# 275"};
-				{ 11, "s63750", "45631", "=q3=High-powered Flashlight", "=ds=#sr# 270"};
-				{ 12, "s23077", "18634", "=q3=Gyrofreeze Ice Reflector", "=ds=#sr# 260"};
-				{ 13, "s12624", "10576", "=q2=Mithril Mechanical Dragonling", "=ds=#sr# 250"};
-				{ 14, "s12759", "10645", "=q1=Gnomish Death Ray", "=ds=#sr# 240"};
-				{ 15, "s12908", "10727", "=q1=Goblin Dragon Gun", "=ds=#sr# 240"};
-				{ 16, "s12906", "10725", "=q1=Gnomish Battle Chicken", "=ds=#sr# 230"};
-				{ 17, "s12755", "10587", "=q1=Goblin Bomb Dispenser", "=ds=#sr# 230"};
-				{ 18, "s12899", "10716", "=q2=Gnomish Shrink Ray", "=ds=#sr# 205"};
-				{ 19, "s3971", "4397", "=q2=Gnomish Cloaking Device", "=ds=#sr# 200"};
-				{ 20, "s3969", "4396", "=q2=Mechanical Dragonling", "=ds=#sr# 200"};
-				{ 21, "s3952", "4381", "=q2=Minor Recombobulator", "=ds=#sr# 140"};
-				{ 22, "s9269", "7506", "=q2=Gnomish Universal Remote", "=ds=#sr# 125"};
+				{ 1, "s84418", "60403", "=q3=Elementium Dragonling", "=ds=#sr# 525" };--loc unknown
+				{ 2, "s56469", "41121", "=q3=Gnomish Lightning Generator", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 3, "s56467", "40865", "=q3=Noise Machine", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 4, "s56466", "40767", "=q3=Sonic Booster", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 5, "s30563", "23836", "=q3=Goblin Rocket Launcher", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 6, "s30569", "23835", "=q3=Gnomish Poultryizer", "=ds=#sr# 340", "=ds="..AL["Trainer"] };
+				{ 7, "s19830", "16022", "=q3=Arcanite Dragonling", "=ds=#sr# 300", "=ds="..AL["Vendor"] };
+				{ 8, "s23082", "18639", "=q3=Ultra-Flash Shadow Reflector", "=ds=#sr# 300", "=ds="..BabbleZone["Stratholme"] };
+				{ 9, "s23081", "18638", "=q3=Hyper-Radiant Flame Reflector", "=ds=#sr# 290", "=ds="..BabbleZone["Blackrock Spire"] };
+				{ 10, "s23079", "18637", "=q2=Major Recombobulator", "=ds=#sr# 275", "=ds="..BabbleZone["Dire Maul"] };
+				{ 11, "s63750", "45631", "=q3=High-powered Flashlight", "=ds=#sr# 270", "=ds="..AL["Vendor"] };
+				{ 12, "s23077", "18634", "=q3=Gyrofreeze Ice Reflector", "=ds=#sr# 260", "=ds="..AL["Vendor"] };
+				{ 13, "s12624", "10576", "=q2=Mithril Mechanical Dragonling", "=ds=#sr# 250", "=ds="..AL["Trainer"] };
+				{ 14, "s12759", "10645", "=q1=Gnomish Death Ray", "=ds=#sr# 240", "=ds="..AL["Trainer"] };
+				{ 15, "s12908", "10727", "=q1=Goblin Dragon Gun", "=ds=#sr# 240", "=ds="..AL["Trainer"] };
+				{ 16, "s12906", "10725", "=q1=Gnomish Battle Chicken", "=ds=#sr# 230", "=ds="..AL["Trainer"] };
+				{ 17, "s12755", "10587", "=q1=Goblin Bomb Dispenser", "=ds=#sr# 230", "=ds="..AL["Trainer"] };
+				{ 18, "s12899", "10716", "=q2=Gnomish Shrink Ray", "=ds=#sr# 205", "=ds="..AL["Trainer"] };
+				{ 19, "s12716", "10577", "=q2=Goblin Mortar", "=ds=#sr# 205", "=ds="..AL["Trainer"] };
+				{ 20, "s3971", "4397", "=q2=Gnomish Cloaking Device", "=ds=#sr# 200", "=ds="..AL["Vendor"] };
+				{ 21, "s3969", "4396", "=q2=Mechanical Dragonling", "=ds=#sr# 200", "=ds="..AL["Vendor"] };
+				{ 22, "s3952", "4381", "=q2=Minor Recombobulator", "=ds=#sr# 140", "=ds="..AL["Vendor"] };
+				{ 23, "s9269", "7506", "=q2=Gnomish Universal Remote", "=ds=#sr# 125", "=ds="..BabbleZone["Gnomeregan"] };
 			};
 		};
 		info = {
@@ -2459,47 +2460,46 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringExplosives"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84409", "60853", "=q1=Volatile Seaforium Blastpack", "=ds=#sr# 530"};
-				{ 2, "s56514", "42641", "=q1=Global Thermal Sapper Charge", "=ds=#sr# 425"};
-				{ 3, "s56468", "44951", "=q1=Box of Bombs", "=ds=#sr# 405" };
-				{ 4, "s56463", "40536", "=q1=Explosive Decoy", "=ds=#sr# 375"};
-				{ 5, "s56460", "40771", "=q1=Cobalt Frag Bomb", "=ds=#sr# 350"};
-				{ 6, "s30547", "23819", "=q1=Elemental Seaforium Charge", "=ds=#sr# 350"};
-				{ 7, "s30560", "23827", "=q1=Super Sapper Charge", "=ds=#sr# 340"};
-				{ 8, "s39973", "32413", "=q1=Frost Grenades", "=ds=#sr# 335"};
-				{ 9, "s30311", "23737", "=q1=Adamantite Grenade", "=ds=#sr# 325"};
-				{ 10, "s30558", "23826", "=q1=The Bigger One", "=ds=#sr# 325"};
-				{ 11, "s19831", "16040", "=q1=Arcane Bomb", "=ds=#sr# 300"};
-				{ 12, "s30310", "23736", "=q1=Fel Iron Bomb", "=ds=#sr# 300"};
-				{ 13, "s19799", "16005", "=q1=Dark Iron Bomb", "=ds=#sr# 285"};
-				{ 14, "s23080", "18594", "=q1=Powerful Seaforium Charge", "=ds=#sr# 275"};
-				{ 15, "s19790", "15993", "=q1=Thorium Grenade", "=ds=#sr# 260"};
-				{ 16, "s23070", "18641", "=q1=Dense Dynamite", "=ds=#sr# 250"};
-				{ 17, "s12619", "10562", "=q1=Hi-Explosive Bomb", "=ds=#sr# 235"};
-				{ 18, "s12754", "10586", "=q1=The Big One", "=ds=#sr# 235"};
-				{ 19, "s12603", "10514", "=q1=Mithril Frag Bomb", "=ds=#sr# 215"};
-				{ 20, "s12716", "10577", "=q2=Goblin Mortar", "=ds=#sr# 205"};
-				{ 21, "s12760", "10646", "=q1=Goblin Sapper Charge", "=ds=#sr# 205"};
-				{ 22, "s13240", "10577", "=q2=The Mortar: Reloaded", "=ds=#sr# 205"};
-				{ 23, "s23069", "18588", "=q1=EZ-Thro Dynamite II", "=ds=#sr# 200"};
-				{ 24, "s3972", "4398", "=q1=Large Seaforium Charge", "=ds=#sr# 200"};
-				{ 25, "s3968", "4395", "=q1=Goblin Land Mine", "=ds=#sr# 195"};
-				{ 26, "s3967", "4394", "=q1=Big Iron Bomb", "=ds=#sr# 190"};
-				{ 27, "s8243", "4852", "=q1=Flash Bomb", "=ds=#sr# 185"};
-				{ 28, "s3962", "4390", "=q1=Iron Grenade", "=ds=#sr# 175"};
-				{ 29, "s12586", "10507", "=q1=Solid Dynamite", "=ds=#sr# 175"};
-				{ 30, "s3960", "4403", "=q1=Portable Bronze Mortar", "=ds=#sr# 165"};
+				{ 1, "s84409", "60853", "=q1=Volatile Seaforium Blastpack", "=ds=#sr# 455"};--loc unknown
+				{ 2, "s56514", "42641", "=q1=Global Thermal Sapper Charge", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 3, "s56468", "44951", "=q1=Box of Bombs", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
+				{ 4, "s56463", "40536", "=q1=Explosive Decoy", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 5, "s56460", "40771", "=q1=Cobalt Frag Bomb", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 6, "s30547", "23819", "=q1=Elemental Seaforium Charge", "=ds=#sr# 350", "=ds="..BabbleFaction["The Consortium"] };
+				{ 7, "s30560", "23827", "=q1=Super Sapper Charge", "=ds=#sr# 340", "=ds="..AL["Trainer"] };
+				{ 8, "s39973", "32413", "=q1=Frost Grenades", "=ds=#sr# 335", "=ds="..AL["Trainer"] };
+				{ 9, "s30311", "23737", "=q1=Adamantite Grenade", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 10, "s30558", "23826", "=q1=The Bigger One", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 11, "s19831", "16040", "=q1=Arcane Bomb", "=ds=#sr# 300", "=ds="..AL["World Drop"] };
+				{ 12, "s30310", "23736", "=q1=Fel Iron Bomb", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
+				{ 13, "s19799", "16005", "=q1=Dark Iron Bomb", "=ds=#sr# 285", "=ds="..BabbleZone["Blackrock Depths"] };
+				{ 14, "s23080", "18594", "=q1=Powerful Seaforium Charge", "=ds=#sr# 275", "=ds="..AL["Vendor"] };
+				{ 15, "s19790", "15993", "=q1=Thorium Grenade", "=ds=#sr# 260", "=ds="..AL["Trainer"] };
+				{ 16, "s23070", "18641", "=q1=Dense Dynamite", "=ds=#sr# 250", "=ds="..AL["Trainer"] };
+				{ 17, "s12619", "10562", "=q1=Hi-Explosive Bomb", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
+				{ 18, "s12754", "10586", "=q1=The Big One", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
+				{ 19, "s12603", "10514", "=q1=Mithril Frag Bomb", "=ds=#sr# 215", "=ds="..AL["Trainer"] };
+				{ 20, "s12760", "10646", "=q1=Goblin Sapper Charge", "=ds=#sr# 205", "=ds="..AL["Trainer"] };
+				{ 21, "s13240", "10577", "=q2=The Mortar: Reloaded", "=ds=#sr# 205", "=ds="..AL["Trainer"] };
+				{ 22, "s23069", "18588", "=q1=EZ-Thro Dynamite II", "=ds=#sr# 200", "=ds="..AL["Vendor"] };
+				{ 23, "s3972", "4398", "=q1=Large Seaforium Charge", "=ds=#sr# 200", "=ds="..AL["World Drop"] };
+				{ 24, "s3968", "4395", "=q1=Goblin Land Mine", "=ds=#sr# 195", "=ds="..AL["World Drop"] };
+				{ 25, "s3967", "4394", "=q1=Big Iron Bomb", "=ds=#sr# 190", "=ds="..AL["Trainer"] };
+				{ 26, "s8243", "4852", "=q1=Flash Bomb", "=ds=#sr# 185", "=ds="..BabbleZone["Gnomeregan"] };
+				{ 27, "s3962", "4390", "=q1=Iron Grenade", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 28, "s12586", "10507", "=q1=Solid Dynamite", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 29, "s3960", "4403", "=q1=Portable Bronze Mortar", "=ds=#sr# 165", "=ds="..AL["World Drop"] };
+				{ 30, "s3950", "4380", "=q1=Big Bronze Bomb", "=ds=#sr# 140", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s3950", "4380", "=q1=Big Bronze Bomb", "=ds=#sr# 140"};
-				{ 2, "s3946", "4378", "=q1=Heavy Dynamite", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
-				{ 3, "s3941", "4374", "=q1=Small Bronze Bomb", "=ds=#sr# 120", "=ds="..AL["Trainer"] };
-				{ 4, "s3937", "4370", "=q1=Large Copper Bomb", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
-				{ 5, "s8339", "6714", "=q1=EZ-Thro Dynamite", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
-				{ 6, "s3933", "4367", "=q1=Small Seaforium Charge", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
-				{ 7, "s3931", "4365", "=q1=Coarse Dynamite", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
-				{ 8, "s3923", "4360", "=q1=Rough Copper Bomb", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
-				{ 9, "s3919", "4358", "=q1=Rough Dynamite", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				{ 1, "s3946", "4378", "=q1=Heavy Dynamite", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 2, "s3941", "4374", "=q1=Small Bronze Bomb", "=ds=#sr# 120", "=ds="..AL["Trainer"] };
+				{ 3, "s3937", "4370", "=q1=Large Copper Bomb", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
+				{ 4, "s8339", "6714", "=q1=EZ-Thro Dynamite", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
+				{ 5, "s3933", "4367", "=q1=Small Seaforium Charge", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
+				{ 6, "s3931", "4365", "=q1=Coarse Dynamite", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 7, "s3923", "4360", "=q1=Rough Copper Bomb", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
+				{ 8, "s3919", "4358", "=q1=Rough Dynamite", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2511,19 +2511,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringScope"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# ?" };
-				{ 2, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# ?" };
-				{ 3, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# ?" };
-				{ 5, "s56478", "41167", "=q3=Heartseeker Scope", "=ds=#sr# 430" };
-				{ 6, "s56470", "41146", "=q3=Sun Scope", "=ds=#sr# 425" };
-				{ 7, "s61471", "44739", "=q1=Diamond-cut Refractor Scope", "=ds=#sr# 390" };
-				{ 9, "s30334", "23766", "=q3=Stabilized Eternium Scope", "=ds=#sr# 375"};
-				{ 10, "s30332", "23765", "=q3=Khorium Scope", "=ds=#sr# 360"};
-				{ 11, "s30329", "23764", "=q2=Adamantite Scope", "=ds=#sr# 335"};
-				{ 16, "s22793", "18283", "=q3=Biznicks 247x128 Accurascope", "=ds=#sr# 300"};
-				{ 17, "s12620", "10548", "=q1=Sniper Scope", "=ds=#sr# 240"};
-				{ 18, "s12597", "10546", "=q1=Deadly Scope", "=ds=#sr# 210"};
-				{ 19, "s3979", "4407", "=q2=Accurate Scope", "=ds=#sr# 180"};
+				{ 1, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# 515"};--loc unknown
+				{ 2, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# 450" };--loc unknown
+				{ 3, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450" };--loc unknown
+				{ 5, "s56478", "41167", "=q3=Heartseeker Scope", "=ds=#sr# 430", "=ds="..AL["Trainer"] };
+				{ 6, "s56470", "41146", "=q3=Sun Scope", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 7, "s61471", "44739", "=q1=Diamond-cut Refractor Scope", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
+				{ 9, "s30334", "23766", "=q3=Stabilized Eternium Scope", "=ds=#sr# 375", "=ds="..BabbleZone["Karazhan"] };
+				{ 10, "s30332", "23765", "=q3=Khorium Scope", "=ds=#sr# 360", "=ds="..BabbleZone["Netherstorm"] };
+				{ 11, "s30329", "23764", "=q2=Adamantite Scope", "=ds=#sr# 335", "=ds="..AL["Vendor"] };
+				{ 16, "s22793", "18283", "=q3=Biznicks 247x128 Accurascope", "=ds=#sr# 300", "=ds="..BabbleZone["Molten Core"] };
+				{ 17, "s12620", "10548", "=q1=Sniper Scope", "=ds=#sr# 240", "=ds="..AL["World Drop"] };
+				{ 18, "s12597", "10546", "=q1=Deadly Scope", "=ds=#sr# 210", "=ds="..AL["Vendor"] };
+				{ 19, "s3979", "4407", "=q2=Accurate Scope", "=ds=#sr# 180", "=ds="..AL["Vendor"] };
 				{ 20, "s3978", "4406", "=q1=Standard Scope", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
 				{ 21, "s3977", "4405", "=q1=Crude Scope", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
 			};
@@ -2776,14 +2776,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringGem"] = {
 		["Normal"] = {
 			{
-				{ 1, "", "59480", "=q3=Fractured Cogwheel", "=ds=#sr# ?" };
-				{ 2, "", "59479", "=q3=Quick Cogwheel", "=ds=#sr# ?" };
-				{ 3, "", "59478", "=q3=Smooth Cogwheel", "=ds=#sr# ?" };
-				{ 4, "", "59477", "=q3=Subtle Cogwheel", "=ds=#sr# ?" };
-				{ 16, "", "59491", "=q3=Flashing Hydraulic Pump", "=ds=#sr# ?" };
-				{ 17, "", "59489", "=q3=Precise Hydraulic Pump", "=ds=#sr# ?" };
-				{ 18, "", "59493", "=q3=Rigid Hydraulic Pump", "=ds=#sr# ?" };
-				{ 19, "", "59496", "=q3=Sparkling Hydraulic Pump", "=ds=#sr# ?" };
+				{ 1, "", "59480", "=q3=Fractured Cogwheel", "=ds=#sr# 525" };
+				{ 2, "", "59479", "=q3=Quick Cogwheel", "=ds=#sr# 525" };
+				{ 3, "", "59478", "=q3=Smooth Cogwheel", "=ds=#sr# 525" };
+				{ 4, "", "59477", "=q3=Subtle Cogwheel", "=ds=#sr# 525" };
+				{ 16, "", "59491", "=q3=Flashing Cogwheel", "=ds=#sr# 525" };
+				{ 17, "", "59489", "=q3=Precise Cogwheel", "=ds=#sr# 525" };
+				{ 18, "", "59493", "=q3=Rigid Cogwheel", "=ds=#sr# 525" };
+				{ 19, "", "59496", "=q3=Sparkling Cogwheel", "=ds=#sr# 525" };
 			};
 		};
 		info = {
@@ -2795,17 +2795,17 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringPetMount"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds="..BabbleInventory["Engineering"]};
-				{ 2, "s84412", "59597", "=q3=Personal World Destroyer", "=ds="..BabbleInventory["Engineering"]};
-				{ 3, "s19793", "15996", "=q1=Lifelike Mechanical Toad", "=ds=#sr# 265"};
-				{ 4, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250"};
-				{ 5, "s15633", "11826", "=q1=Lil' Smoky", "=ds=#sr# 205"};
-				{ 6, "s15628", "11825", "=q1=Pet Bombling", "=ds=#sr# 205"};
+				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds=#sr# 475"};--loc unknown
+				{ 2, "s84412", "59597", "=q3=Personal World Destroyer", "=ds=#sr# 475"};--loc unknown
+				{ 3, "s19793", "15996", "=q1=Lifelike Mechanical Toad", "=ds=#sr# 265", "=ds="..AL["World Drop"] };
+				{ 4, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250", "=ds="..AL["Quest Reward"] };
+				{ 5, "s15633", "11826", "=q1=Lil' Smoky", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
+				{ 6, "s15628", "11825", "=q1=Pet Bombling", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
 				{ 7, "s3928", "4401", "=q1=Mechanical Squirrel", "=ds=#sr# 75", "=ds="..AL["World Drop"] };
-				{ 16, "s60866", "41508", "=q4=Mechano-hog", "=ds=#sr# 450" };
-				{ 17, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450" };
-				{ 18, "s44157", "34061", "=q4=Turbo-Charged Flying Machine", "=ds=#sr# 375"};
-				{ 19, "s44155", "34060", "=q3=Flying Machine", "=ds=#sr# 350"};
+				{ 16, "s60866", "41508", "=q4=Mechano-hog", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"] };
+				{ 17, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"] };
+				{ 18, "s44157", "34061", "=q4=Turbo-Charged Flying Machine Control", "=ds=#sr# 375", "=ds="..AL["Trainerd"] };
+				{ 19, "s44155", "34060", "=q3=Flying Machine Control", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
