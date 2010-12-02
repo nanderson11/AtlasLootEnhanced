@@ -2804,7 +2804,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, "s3928", "4401", "=q1=Mechanical Squirrel", "=ds=#sr# 75", "=ds="..AL["World Drop"] };
 				{ 16, "s60866", "41508", "=q4=Mechano-hog", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"] };
 				{ 17, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"] };
-				{ 18, "s44157", "34061", "=q4=Turbo-Charged Flying Machine Control", "=ds=#sr# 375", "=ds="..AL["Trainerd"] };
+				{ 18, "s44157", "34061", "=q4=Turbo-Charged Flying Machine Control", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
 				{ 19, "s44155", "34060", "=q3=Flying Machine Control", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 			};
 		};
