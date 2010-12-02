@@ -43,6 +43,8 @@ if AL then
 	AL["Reset"] = "Réinitialiser";
 	AL["Reset Frames"] = "Réinitialiser les frames";
 	--AL["Profiles"] = true;
+	--AL["Item Buttons"] = true; -- à traduire
+	AL["Loot Table"] = "Table de loot";
 
 	-- Default Frame
 	AL["Default Frame"] = "Frame par défaut";
@@ -116,11 +118,15 @@ if AL then
 	AL[" deleted from the WishList."] = " à été supprimer de la liste de souhaits";
 	AL["Are you sure you want to delete Wishlist |cff1eff00%s|r?"] = "Êtes-vous sûr de vouloir supprimer la liste de souhaits |cff1eff00%s|r?";
 	AL["default"] = "par défaut";
+	AL[" |cff999999<default>"] = " |cff999999<par défaut>";
 	AL["Use as default wishlist"] = "Utiliser cette liste de souhaits par défaut";
 	AL["Add Wishlist"] = "Ajouter une liste de souhaits";
 	AL["Always use default Wishlist"] = "Toujours utiliser cetteliste de souhaits par défaut";
 	--AL["Save wishlists at character DB"] = true; -- à traduire
 	--AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = true; -- à traduire
+	--AL["Table Sort"] = true; -- à traduire
+	--AL["Table Sort:"] = true; -- à traduire
+	--AL["Item Sort:"] = true; -- à traduire
 
 	-- Filter
 	AL["Filter"] = "Filtre";
@@ -135,6 +141,7 @@ if AL then
 	-- Panel
 	AL["Hide Panel"] = "Masquer le panneau";
 	--AL["Toggle AL Panel"] = true; -- à traduire
+	AL["Buttons"] = "Boutons";
 
 	-- Buttons
 	--AL["Collections"] = true;
@@ -146,6 +153,7 @@ if AL then
 
 	-- QuickLooks
 	--AL["QuickLook"] = true;
+	--AL["QuickLooks"] = true;
 	AL["Number of QuickLooks:"] = "Nombre de QuickLook";
 	AL["Add to QuickLooks:"] = "Ajouter à QuickLook :";
 	AL["Reset Quicklooks"] = "Réinitialiser QuickLook";
@@ -159,6 +167,7 @@ if AL then
 	--AL["Use Instance name"] = true;
 	AL["Delete"] = "Supprimer";
 	AL["Lock"] = "Bloquer";
+	AL["Enable"] = "Activer";
 
 	-- Query Server / Query all
 	AL["Query Server"] = "Interroger le serveur";
