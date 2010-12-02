@@ -105,7 +105,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 14, 45131, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
 				{ 15, 44990, "", "=q2=Champion's Seal", "=ds=#m17#"};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45209, "", "=q3=Sash of Trumpted Pride", "=ds=#s10#, #a1#", "10 #champseal#" };
+				{ 17, 45209, "", "=q3=Sash of Trumpeted Pride", "=ds=#s10#, #a1#", "10 #champseal#" };
 				{ 18, 45211, "", "=q3=Waistguard of Equine Fury", "=ds=#s10#, #a2#", "10 #champseal#" };
 				{ 19, 45220, "", "=q3=Treads of the Earnest Squire", "=ds=#s12#, #a2#", "10 #champseal#" };
 				{ 20, 45215, "", "=q3=Links of Unquenched Savagery", "=ds=#s10#, #a3#", "10 #champseal#" };
@@ -242,26 +242,26 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Brewfest"] = {
 		["Normal"] = {
 			{
-				{ 1, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#, 100 #brewfest#"};
-				{ 2, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#, 100 #brewfest#"};
-				{ 3, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
-				{ 4, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
-				{ 5, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
-				{ 6, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#, 50 #brewfest#"};
-				{ 7, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#, 200 #brewfest#"};
-				{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#, 200 #brewfest#"};
-				{ 9, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#, 100 #brewfest#"};
-				{ 10, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#, 100 #brewfest#"};
+				{ 1, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "100 #brewfest#"};
+				{ 2, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "100 #brewfest#"};
+				{ 3, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
+				{ 4, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
+				{ 5, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
+				{ 6, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
+				{ 7, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#", "200 #brewfest#"};
+				{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#", "200 #brewfest#"};
+				{ 9, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#", "100 #brewfest#"};
+				{ 10, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#", "100 #brewfest#"};
 				{ 12, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
-				{ 16, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#, 100 #brewfest#"};
-				{ 17, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#, 100 #brewfest#"};
-				{ 18, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#, 40 #silver#"};
-				{ 19, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#, 200 #brewfest#"};
-				{ 21, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#, 20 #brewfest#"};
-				{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#, 2 #brewfest#"};
+				{ 16, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "100 #brewfest#"};
+				{ 17, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "100 #brewfest#"};
+				{ 18, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
+				{ 19, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#", "200 #brewfest#"};
+				{ 21, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "20 #brewfest#"};
+				{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#", "2 #brewfest#"};
 				{
-					{ 23, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#, 5 #brewfest#"};
-					{ 23, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#, 5 #brewfest#"};
+					{ 23, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#", "5 #brewfest#"};
+					{ 23, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#", "5 #brewfest#"};
 				};
 			};
 			{
@@ -594,24 +594,24 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Valentineday"] = {
 		["Normal"] = {
 			{
-				{ 1, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#, 10 #valentineday#"};
-				{ 2, 21815, "", "=q1=Love Token", "=ds=", "=ds=#m20#, 1 #valentineday2#"};
-				{ 3, 50163, "", "=q1=Lovely Rose", "=ds=", "=ds=#m20#, 5 #valentineday#"};
-				{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#, 2 #valentineday#"};
-				{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#, 5 #valentineday#"};
-				{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#, 40 #valentineday#"};
-				{ 7, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#, 2 #valentineday#"};
-				{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#, 10 #valentineday#"};
-				{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#, 20 #valentineday#"};
-				{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#, 20 #valentineday#"};
-				{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#, 5 #valentineday#"};
-				{ 12, 22261, "", "=q1=Love Fool", "=ds=#e22#, 10 #valentineday#"};
-				{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#, 1 #valentineday#"};
-				{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#, 1 #valentineday#"};
-				{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#, 1 #valentineday#"};
-				{ 19, 49856, "", "=q1=\"VICTORY\" Perfume", "=ds=#m20#, 1 #valentineday#"};
-				{ 20, 49858, "", "=q1=\"Forever\" Perfume", "=ds=#m20#, 1 #valentineday#"};
-				{ 21, 49857, "", "=q1=\"Enchantress\" Perfume", "=ds=#m20#, 1 #valentineday#"};
+				{ 1, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "10 #valentineday#"};
+				{ 2, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
+				{ 3, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "5 #valentineday#"};
+				{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "2 #valentineday#"};
+				{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "5 #valentineday#"};
+				{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "40 #valentineday#"};
+				{ 7, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "2 #valentineday#"};
+				{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "10 #valentineday#"};
+				{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "20 #valentineday#"};
+				{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "20 #valentineday#"};
+				{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "5 #valentineday#"};
+				{ 12, 22261, "", "=q1=Love Fool", "=ds=#e22#", "10 #valentineday#"};
+				{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#", "1 #valentineday#"};
+				{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#", "1 #valentineday#"};
+				{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#", "1 #valentineday#"};
+				{ 19, 49856, "", "=q1=\"VICTORY\" Perfume", "=ds=#m20#", "1 #valentineday#"};
+				{ 20, 49858, "", "=q1=\"Forever\" Perfume", "=ds=#m20#", "1 #valentineday#"};
+				{ 21, 49857, "", "=q1=\"Enchantress\" Perfume", "=ds=#m20#", "1 #valentineday#"};
 				{ 23, 21815, "", "=q1=Love Token", "=ds=#m17#"};
 				{ 24, 49916, "", "=q1=Lovely Charm Bracelet", "=ds=#m17#"};
 			};
@@ -886,7 +886,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 13, 32638, "", "=q3=Unstable Topaz", "=ds=#e7#", "", ""};
 				{ 16, 0, "INV_Box_01", "=q6=#j18#", "=q1=#n114#"};
 				{ 17, 32641, "", "=q3=Imbued Unstable Diamond", "=ds=#e7#", "", ""};
-				{ 18, 32640, "", "=q3=Potent Unstable Diamond", "=ds=#e7#", "", ""};
+				{ 18, 32640, "", "=q3=Tensex Unstable Diamond", "=ds=#e7#", "", ""};
 				{ 19, 32759, "", "=q1=Accelerator Module", "=ds=", "", ""};
 				{ 20, 32630, "", "=q1=Small Gold Metamorphosis Geode", "=ds=", "", ""};
 				{ 21, 32631, "", "=q1=Small Silver Metamorphosis Geode", "=ds=", "", ""};

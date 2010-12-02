@@ -2687,7 +2687,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 5, "s56479", "41168", "=q4=Armor Plated Combat Shotgun", "=ds=#sr# 450" };
 				{ 6, "s60874", "44504", "=q4=Nesingwary 4000", "=ds=#sr# 450" };
 				{ 7, "s54353", "39688", "=q3=Mark \"S\" Boomstick", "=ds=#sr# 400" };
-				{ 8, "s41307", "32756", "=q4=Gyro-balanced Khorium Destroyer", "=ds=#sr# 375"};
+				{ 8, "s41307", "32756", "=q4=Gyro-Balanced Khorium Destroyer", "=ds=#sr# 375"};
 				{ 9, "s30315", "23748", "=q3=Ornate Khorium Rifle", "=ds=#sr# 375"};
 				{ 10, "s30314", "23747", "=q3=Felsteel Boomstick", "=ds=#sr# 360"};
 				{ 11, "s30313", "23746", "=q2=Adamantite Rifle", "=ds=#sr# 350"};
@@ -6643,7 +6643,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 25, 23546, "", "=q4=Fel Hardened Maul", "=ds=#h2#, #w6#"};
 				{ 26, 32854, "", "=q4=Hammer of Righteous Might", "=ds=#h2#, #w6#"};
 				{ 28, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j10#"};
-				{ 29, 32756, "", "=q4=Gyro-balanced Khorium Destroyer", "=ds=#w5#"};
+				{ 29, 32756, "", "=q4=Gyro-Balanced Khorium Destroyer", "=ds=#w5#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j9#"};

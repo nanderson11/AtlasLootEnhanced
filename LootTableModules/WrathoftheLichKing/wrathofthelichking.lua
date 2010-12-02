@@ -1821,8 +1821,8 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 2, 46131, "", "=q4=Valorous Kirin'dor Gauntlets", "=ds=#s9#, #a1#"};
-				{ 3, 45367, "", "=q4=Valorous Kirin'dor Leggings", "=ds=#s11#, #a1#"};
+				{ 2, 46131, "", "=q4=Valorous Kirin Tor Gauntlets", "=ds=#s9#, #a1#"};
+				{ 3, 45367, "", "=q4=Valorous Kirin Tor Leggings", "=ds=#s11#, #a1#"};
 				{ 5, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 				{ 6, 45387, "", "=q4=Valorous Gloves of Sanctification", "=ds=#s9#, #a1#"};
 				{ 7, 45388, "", "=q4=Valorous Leggings of Sanctification", "=ds=#s11#, #a1#"};
@@ -2000,8 +2000,8 @@ local moduleName = "AtlasLootWotLK"
 		["25Man"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 2, 46132, "", "=q4=Conqueror's Kirin'dor Gauntlets", "=ds=#s9#, #a1#"};
-				{ 3, 46133, "", "=q4=Conqueror's Kirin'dor Leggings", "=ds=#s11#, #a1#"};
+				{ 2, 46132, "", "=q4=Conqueror's Kirin Tor Gauntlets", "=ds=#s9#, #a1#"};
+				{ 3, 46133, "", "=q4=Conqueror's Kirin Tor Leggings", "=ds=#s11#, #a1#"};
 				{ 5, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
 				{ 6, 46188, "", "=q4=Conqueror's Gloves of Sanctification", "=ds=#s9#, #a1#"};
 				{ 7, 46195, "", "=q4=Conqueror's Leggings of Sanctification", "=ds=#s11#, #a1#"};
