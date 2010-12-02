@@ -810,27 +810,6 @@ if AL then
 	AL["Vendor"] = true;
 	AL["Crafted"] = true;
 
-	-- Tier 10 Sets
-	AL["Lasherweave's Garb"] = true;
-	AL["Lasherweave's Battlegear"] = true;
-	AL["Lasherweave's Regalia"] = true;
-	AL["Ahn'Kahar Blood Hunter's Battlegear"] = true;
-	AL["Bloodmage's Regalia"] = true;
-	AL["Lightsworn Garb"] = true;
-	AL["Lightsworn Plate"] = true;
-	AL["Lightsworn Battlegear"] = true;
-	AL["Crimson Acolyte's Regalia"] = true;
-	AL["Crimson Acolyte's Raiment"] = true;
-	AL["Shadowblade's Battlegear"] = true;
-	AL["Frost Witch's Garb"] = true;
-	AL["Frost Witch's Battlegear"] = true;
-	AL["Frost Witch's Regalia"] = true;
-	AL["Dark Coven's Garb"] = true;
-	AL["Ymirjar Lord's Battlegear"] = true;
-	AL["Ymirjar Lord's Plate"] = true;
-	AL["Scourgelord's Battlegear"] = true;
-	AL["Scourgelord's Plate"] = true;
-
 	-- Level 80 PvP Weapons
 	AL["Wrathful Gladiator\'s Weapons"] = true;
 

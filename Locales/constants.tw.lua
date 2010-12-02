@@ -810,27 +810,6 @@ if AL then
 	AL["Vendor"] = "商人販售";
 	AL["Crafted"] = "製作";
 
-	-- Tier 10 Sets
-	AL["Lasherweave's Garb"] = "棘織裝束";
-	AL["Lasherweave's Battlegear"] = "棘織戰裝";
-	AL["Lasherweave's Regalia"] = "棘織戰衣";
-	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "安卡哈血狩戰裝";
-	AL["Bloodmage's Regalia"] = "血法戰衣";
-	AL["Lightsworn Garb"] = "光誓裝束";
-	AL["Lightsworn Plate"] = "光誓鎧甲";
-	AL["Lightsworn Battlegear"] = "光誓戰裝";
-	AL["Crimson Acolyte's Regalia"] = "赤紅侍僧戰衣";
-	AL["Crimson Acolyte's Raiment"] = "赤紅侍僧衣飾";
-	AL["Shadowblade's Battlegear"] = "影刃戰裝";
-	AL["Frost Witch's Garb"] = "冰霜女巫裝束";
-	AL["Frost Witch's Battlegear"] = "冰霜女巫戰裝";
-	AL["Frost Witch's Regalia"] = "冰霜女巫戰衣";
-	AL["Dark Coven's Garb"] = "黑暗巫會裝束";
-	AL["Ymirjar Lord's Battlegear"] = "依米亞領主戰裝";
-	AL["Ymirjar Lord's Plate"] = "依米亞領主鎧甲";
-	AL["Scourgelord's Battlegear"] = "天譴領主戰裝";
-	AL["Scourgelord's Plate"] = "天譴領主鎧甲";
-
 	-- Level 80 PvP Weapons
 	AL["Wrathful Gladiator\'s Weapons"] = "憤怒鬥士武器";
 

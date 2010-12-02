@@ -811,27 +811,6 @@ if AL then
 	AL["Vendor"] = "Vendeur";
 	AL["Crafted"] = "Créer";
 
-	-- Tier 10 Sets
-	AL["Lasherweave's Garb"] = "Atours en tisse-flagellant";
-	AL["Lasherweave's Battlegear"] = "Tenue de combat en tisse-flagellant";
-	AL["Lasherweave's Regalia"] = "Tenue de parade en tisse-flagellant";
-	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "Tenue de combat de chasseur de sang ahn'kahar";
-	AL["Bloodmage's Regalia"] = "Tenue de parade de mage de sang";
-	AL["Lightsworn Garb"] = "Atours ligelumières";
-	AL["Lightsworn Plate"] = "Tenue de combat ligelumière";
-	AL["Lightsworn Battlegear"] = "Armure ligelumières en plaques";
-	AL["Crimson Acolyte's Regalia"] = "Tenue de parade d'acolyte cramoisi";
-	AL["Crimson Acolyte's Raiment"] = "Grande tenue d'acolyte cramoisi";
-	AL["Shadowblade's Battlegear"] = "Tenue de combat de lame de l'ombre";
-	AL["Frost Witch's Garb"] = "Atours de sorcière du givre";
-	AL["Frost Witch's Battlegear"] = "Tenue de combat de sorcière du givre";
-	AL["Frost Witch's Regalia"] = "Tenue de parade de sorcière du givre";
-	AL["Dark Coven's Regalia"] = "Tenue de parade du convent noir";
-	AL["Ymirjar Lord's Battlegear"] = "Tenue de combat de seigneur ymirjar";
-	AL["Ymirjar Lord's Plate"] = "Armure de seigneur ymirjar en plaques";
-	AL["Scourgelord's Battlegear"] = "Armure de seigneur du Fléau en plaques";
-	AL["Scourgelord's Plate"] = "Tenue de combat de seigneur du Fléau";
-
 	-- Level 80 PvP Weapons
 	AL["Wrathful Gladiator\'s Weapons"] = "Armes du gladiateur courroucé";
 

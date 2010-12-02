@@ -809,27 +809,6 @@ if AL then
 	AL["Vendor"] = "Продавец";
 	AL["Crafted"] = "Создано";
 
-	-- Tier 10 Sets
-	AL["Lasherweave's Garb"] = "Плеточные одеяния";
-	AL["Lasherweave's Battlegear"] = "Плеточная броня";
-	AL["Lasherweave's Regalia"] = "Плеточные регалии";
-	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "Броня ан'кахарского охотника за кровью";
-	AL["Bloodmage's Regalia"] = "Регалии волшебника крови";
-	AL["Lightsworn Garb"] = "Одеяния клятвы Свету";
-	AL["Lightsworn Plate"] = "Латы клятвы Свету";
-	AL["Lightsworn Battlegear"] = "Броня клятвы Свету";
-	AL["Crimson Acolyte's Regalia"] = "Регалии послушника из Богрового Легиона";
-	AL["Crimson Acolyte's Raiment"] = "Облачени послушника из Богрового Легиона";
-	AL["Shadowblade's Battlegear"] = "Броня теневого клинка";
-	AL["Frost Witch's Garb"] = "Одеяния ледяной ведьмы";
-	AL["Frost Witch's Battlegear"] = "Броня ледяной ведьмы";
-	AL["Frost Witch's Regalia"] = "Регалии ледяной ведьмы";
-	AL["Dark Coven's Garb"] = "Регалии мрачного шабаша";
-	AL["Ymirjar Lord's Battlegear"] = "Броня имирьярского повелителя";
-	AL["Ymirjar Lord's Plate"] = "Латы имирьярского повелителя";
-	AL["Scourgelord's Battlegear"] = "Латы повелителя Плети";
-	AL["Scourgelord's Plate"] = "Броня повелителя Плети";
-
 	-- Level 80 PvP Weapons
 	AL["Wrathful Gladiator\'s Weapons"] = "Оружие разгневанного гладиатора";
 

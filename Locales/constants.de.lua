@@ -797,27 +797,6 @@ if AL then
 	AL["Vendor"] = "Händler";
 	AL["Crafted"] = "Hergestellt";
 
-	-- Tier 10 Sets
-	AL["Lasherweave's Garb"] = "Peitschergewirktes Gewand";
-	AL["Lasherweave's Battlegear"] = "Peitschergewirkte Schlachtrüstung";
-	AL["Lasherweave's Regalia"] = "Peitschergewirktes Ornat";
-	AL["Ahn'Kahar Blood Hunter's Battlegear"] = "Blutjägerschlachtrüstung der Ahn'Kahar";
-	AL["Bloodmage's Regalia"] = "Ornat des Blutmagiers";
-	AL["Lightsworn Garb"] = "Gewand des Lichts";
-	AL["Lightsworn Plate"] = "Plattenrüstung des Lichts";
-	AL["Lightsworn Battlegear"] = "Schlachtrüstung des Lichts";
-	AL["Crimson Acolyte's Regalia"] = "Ornat des purpurroten Akolyten";
-	AL["Crimson Acolyte's Raiment"] = "Roben des purpurroten Akolyten";
-	AL["Shadowblade's Battlegear"] = "Schlachtrüstung der Schattenklinge";
-	AL["Frost Witch's Garb"] = "Gewand der Frosthexe";
-	AL["Frost Witch's Battlegear"] = "Schlachtrüstung der Frosthexe";
-	AL["Frost Witch's Regalia"] = "Ornat der Frosthexe";
-	AL["Dark Coven's Garb"] = "Ornat des dunklen Zirkels";
-	AL["Ymirjar Lord's Battlegear"] = "Schlachtrüstung des Ymirjarfürsten";
-	AL["Ymirjar Lord's Plate"] = "Plattenrüstung des Ymirjarfürsten";
-	AL["Scourgelord's Battlegear"] = "Schlachtrüstung des Geißelfürsten";
-	AL["Scourgelord's Plate"] = "Plattenrüstung des Geißelfürsten";
-
 	-- Level 80 PvP Weapons
 	AL["Wrathful Gladiator\'s Weapons"] = "Waffen des zornerfüllten Gladiators";
 
