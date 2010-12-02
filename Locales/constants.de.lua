@@ -30,6 +30,8 @@ if AL then
 	AL["Reset"] = "Zurücksetzen";
 	AL["Reset Frames"] = "Fenster zurücksetzen";
 	AL["Profiles"] = "Profile";
+	-- AL["Item Buttons"] = true;
+	AL["Loot Table"] = "Beuteverzeichnis";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";
@@ -103,11 +105,15 @@ if AL then
 	AL[" deleted from the WishList."] = " vom Wunschzettel gelöscht";
 	AL["Are you sure you want to delete Wishlist |cff1eff00%s|r?"] = "Soll der Wunschzettel |cff1eff00%s|r wirklich gelöscht werden?";
 	AL["default"] = "Standard";
+	AL[" |cff999999<default>"] = " |cff999999<Standard>";
 	AL["Use as default wishlist"] = "Als Standard-Wunschzettel verwenden";
 	AL["Add Wishlist"] = "Wunschzettel hinzufügen";
 	AL["Always use default Wishlist"] = "Immer Standard-Wunschzettel verwenden";
 	AL["Save wishlists at character DB"] = "Wunschzettel in Charakter-DB speichern";
 	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "Speichert die Wunschzettel nur für |cff1eff00%s-%s|r.\n Andere Charaktere können die Wunschzettel nicht einsehen, allerdings wird der Speicherbedarf verringert.";
+	AL["Table Sort"] = "Beute sortieren";
+	AL["Table Sort:"] = "Beute sortieren:";
+	AL["Item Sort:"] = "Items sortieren:";
 
 	-- Filter
 	-- AL["Filter"] = true;
@@ -122,6 +128,7 @@ if AL then
 	-- Panel
 	AL["Hide Panel"] = "Leiste verstecken";
 	AL["Toggle AL Panel"] = "AtlasLoot-Leiste ein/aus";
+	-- AL["Buttons"] = true;
 
 	-- Buttons
 	AL["Collections"] = "Sammlungen";
@@ -133,6 +140,7 @@ if AL then
 
 	-- QuickLooks
 	AL["QuickLook"] = "Lesezeichen";
+	AL["QuickLooks"] = "Lesezeichen";
 	AL["Number of QuickLooks:"] = "Anzahl der Lesezeichen:";
 	AL["Add to QuickLooks:"] = "Lesezeichen hinzufügen";
 	AL["Reset Quicklooks"] = "Lesezeichen zurücksetzen";
@@ -146,6 +154,7 @@ if AL then
 	AL["Use Instance name"] = "Instanznamen verwenden";
 	AL["Delete"] = "Löschen";
 	AL["Lock"] = "Sperren";
+	AL["Enable"] = "Aktivieren";
 
 	-- Query Server / Query all
 	AL["Query Server"] = "Serverabfrage";
