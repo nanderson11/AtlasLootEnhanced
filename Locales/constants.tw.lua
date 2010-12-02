@@ -1,4 +1,4 @@
-﻿-- $Id: constants.tw.lua 2875 2010-10-15 09:07:01Z celellach $
+﻿-- $Id$
 --[[
 constants.tw.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -177,6 +177,8 @@ if AL then
 	AL["Show 25 Man Loot"] = "25 人團隊物品表";
 	AL["Show Slot"] = "顯示部位";
 	AL["Show Price"] = "顯示價格";
+	AL["Skill"] = "技能";
+	AL["Location"] = "位置";
 
 	-- #######################################
 	-- UI things END
@@ -543,10 +545,10 @@ if AL then
 	AL["Parry Rating"] = "招架等級";
 	AL["Other Ratings"] = "其他等級";
 	AL["Resistance"] = "抗性";
---	AL["Health / Second"] = true;
---	AL["Mana / Second"] = true;
+	AL["Health / Second"] = "每秒回復生命";
+	AL["Mana / Second"] = "每秒回復法力";
 	AL["Tracking"] = "追蹤";
---	AL["Emotions"] = true;
+	AL["Emotions"] = "情緒";
 	AL["Alcohol"] = "酒類";
 	AL["Health"] = "生命";
 	AL["Mana"] = "法力";
@@ -799,6 +801,7 @@ if AL then
 
 	--Classic WoW Sets
 	AL["Zul'Gurub Rings"] = "祖爾格拉布套戒";
+
 	--Recipe origin strings
 	AL["Trainer"] = "訓練師";
 	AL["Discovery"] = "探索";
