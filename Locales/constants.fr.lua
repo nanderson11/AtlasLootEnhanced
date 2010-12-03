@@ -133,7 +133,7 @@ if AL then
 	AL["Filter"] = "Filtre";
 	AL["Select All Loot"] = "Sélectionner tous les loots";
 	AL["Apply Filter:"]= "Appliquer le filtre :";
-	AL["Meele weapons"] = "Armes de mêlée";
+	AL["Melee weapons"] = "Armes de mêlée";
 	AL["Ranged weapons"] = "Armes à distance";
 	AL["Other"] = "Autre";
 	AL["Itemslot"] = "Slot de l'objet";
