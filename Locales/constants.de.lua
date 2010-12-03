@@ -1,6 +1,6 @@
 ﻿-- $Id$
 --[[
-constants.en.lua
+constants.de.lua
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
