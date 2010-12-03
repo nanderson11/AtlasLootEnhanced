@@ -234,7 +234,7 @@ if AL then
 	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dBulles d'aide ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
-	AL["Show Comparison Tooltips"] = "Bulles d'aide comparatives";
+	--AL["Show itemIDs at all times"] = true; -- à traduire
 	AL["Hide AtlasLoot Panel"] = "Cacher le panneau d'AtlasLoot";
 	AL["Show Basic Minimap Button"] = "Afficher le bouton sur la mini-carte";
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dAfficher le bouton sur la mini-carte|r";
@@ -733,9 +733,9 @@ if AL then
 	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
 	AL["Misc. Rewards"] = "Récompenses diverses";
 	AL["Level 10-19 Rewards"] = "Récompenses niveau 10-19";
+	AL["Level 20-39 Rewards"] = "Récompenses niveau 20-39";
 	AL["Level 20-29 Rewards"] = "Récompenses niveau 20-29";
 	AL["Level 30-39 Rewards"] = "Récompenses niveau 30-39";
-	AL["Level 20-39 Rewards"] = "Récompenses niveau 20-39";
 	AL["Level 40-49 Rewards"] = "Récompenses niveau 40-49";
 	AL["Level 50-59 Rewards"] = "Récompenses niveau 50-59";
 	AL["Level 60 Rewards"] = "Récompenses niveau 60";
@@ -1005,7 +1005,7 @@ if AL then
 	--AL["Scholo"] = true,
 	--AL["Strat"] = true,
 	AL["Serpentshrine"] = "SCC";
-	--AL["Avatar"] = true;
+	--AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
 	--AL["Ring of Law"] = true;
