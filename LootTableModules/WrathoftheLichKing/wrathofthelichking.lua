@@ -4896,7 +4896,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 24, 45535, "", "=q4=Show of Faith", "=ds=#s14#"};
 				{ 25, 45533, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w1#", "", "1%"};
 				{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3164#"};
-				{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e27#", "", "100%"};
+				{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e27#", "", "1%"};
 			};
 		};
 		info = {
