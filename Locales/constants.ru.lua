@@ -1,4 +1,5 @@
-﻿--[[
+﻿-- $Id$
+--[[
 constants.ru.lua
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall

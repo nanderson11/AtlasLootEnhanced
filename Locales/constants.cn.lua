@@ -1,5 +1,5 @@
 ﻿-- AtlasLoot zhCN constants file
--- $Id: constants.cn.lua 2875 2010-10-15 09:07:01Z celellach $
+-- $Id$
 
 --Create the library instance
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");

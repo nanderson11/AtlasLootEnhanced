@@ -1,4 +1,18 @@
-﻿	-- Create the library instance
+﻿-- $Id$
+--[[
+constants.en.lua
+This file defines an AceLocale table for all the various text strings needed
+by AtlasLoot.  In this implementation, if a translation is missing, it will fall
+back to the English translation.
+
+The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
+]]
+
+	-- Table holding all loot tables is initialised here as it loads early
+	--AtlasLoot_Data = {};
+	--AtlasLoot_TableNames = {};
+
+	-- Create the library instance
 	local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 
 	local AL = AceLocale:NewLocale("AtlasLoot", "deDE", false);
