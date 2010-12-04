@@ -1248,7 +1248,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Spirestone Battle Lord"],
+			name = BabbleBoss["Spirestone Battle Lord"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1262,7 +1262,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Spirestone Lord Magus"],
+			name = BabbleBoss["Spirestone Lord Magus"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1344,7 +1344,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Crystal Fang"],
+			name = BabbleBoss["Crystal Fang"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -2402,30 +2402,21 @@ local moduleName = "AtlasLootClassicWoW"
 		--- Dire Maul East ---
 		----------------------
 
-	AtlasLoot_Data["DMELethtendris"] = {
+	AtlasLoot_Data["DMELethtendrisPimgib"] = {
 		["Normal"] = {
 			{
-				{ 1, 18325, "", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "", "24.67%"};
-				{ 2, 18302, "", "=q3=Band of Vigor", "=ds=#s13#", "", "29.30%"};
-				{ 3, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "7.30%"};
-				{ 4, 18301, "", "=q3=Lethtendris' Wand", "=ds=#w12#", "", "25.57%"};
-				{ 6, 18426, "", "=q1=Lethtendris' Web", "=ds=#m3#"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lethtendris"], ""};
+				{ 2, 18325, "", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "", "24.67%"};
+				{ 3, 18302, "", "=q3=Band of Vigor", "=ds=#s13#", "", "29.30%"};
+				{ 4, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "7.30%"};
+				{ 5, 18301, "", "=q3=Lethtendris' Wand", "=ds=#w12#", "", "25.57%"};
+				{ 7, 18426, "", "=q1=Lethtendris' Web", "=ds=#m3#"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Pimgib"], ""};
+				{ 17, 18354, "", "=q3=Pimgib's Collar", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.68%"};
 			};
 		};
 		info = {
-			name = BabbleBoss["Lethtendris"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
-	AtlasLoot_Data["DMEPimgib"] = {
-		["Normal"] = {
-			{
-				{ 1, 18354, "", "=q3=Pimgib's Collar", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.68%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Pimgib"],
+			name = BabbleBoss["Lethtendris"].." & "..BabbleBoss["Pimgib"],
 			module = moduleName, instance = "DireMaulEast",
 		};
 	};
@@ -2438,6 +2429,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 18305, "", "=q3=Breakwater Legguards", "=ds=#s11#, #a4#", "", "22.75%"};
 				{ 4, 18317, "", "=q3=Tempest Talisman", "=ds=#s2#", "", "16.44%"};
 				{ 5, 18324, "", "=q3=Waveslicer", "=ds=#h2#, #w1#", "", "8.46%"};
+				{ 7, 18299, "", "=q1=Hydrospawn Essence", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -2829,18 +2821,6 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["DMWShendralarProvisioner"] = {
-		["Normal"] = {
-			{
-				{ 1, 18487, "", "=q1=Pattern: Mooncloth Robe", "=ds=#p8# (300)"};
-			};
-		};
-		info = {
-			name = AL["Shen'dralar Provisioner"],
-			module = moduleName, instance = "DireMaulWest",
-		};
-	};
-
 	AtlasLoot_Data["DMWTsuzee"] = {
 		["Normal"] = {
 			{
@@ -2858,9 +2838,12 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["DMWTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 18344, "", "=q3=Stonebark Gauntlets", "=ds=#s9#, #a2#", "", "0.47%"};
-				{ 2, 18340, "", "=q3=Eidolon Talisman", "=ds=#s2#", "", "0.58%"};
-				{ 3, 18338, "", "=q3=Wand of Arcane Potency", "=ds=#w12#", "", "0.78%"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+				{ 2, 18344, "", "=q3=Stonebark Gauntlets", "=ds=#s9#, #a2#", "", "0.47%"};
+				{ 3, 18340, "", "=q3=Eidolon Talisman", "=ds=#s2#", "", "0.58%"};
+				{ 4, 18338, "", "=q3=Wand of Arcane Potency", "=ds=#w12#", "", "0.78%"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Shen'dralar Provisioner"], ""};
+				{ 17, 18487, "", "=q1=Pattern: Mooncloth Robe", "=ds=#p8# (300)"};
 			};
 		};
 		info = {
