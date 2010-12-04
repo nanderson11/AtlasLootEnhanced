@@ -3044,10 +3044,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 10764, "", "=q3=Deathchill Armor", "=ds=#s5#, #a3#", "", "24.24%"};
 				{ 5, 10763, "", "=q3=Icemetal Barbute", "=ds=#s1#, #a4#", "", "28.66%"};
 				{ 6, 10761, "", "=q3=Coldrage Dagger", "=ds=#h1#, #w4#", "", "13.89%"};
-				{ 7, 10420, "", "=q1=Skull of the Coldbringer", "=ds=#m3#", "", "100%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Plaguemaw the Rotting"], ""};
-				{ 10, 10760, "", "=q3=Swine Fists", "=ds=#s9#, #a2#", "", "58.15%"};
-				{ 11, 10766, "", "=q3=Plaguerot Sprig", "=ds=#w12#, =q1=#m1# =ds=#c3#", "", "29.98%"};
+				{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Plaguemaw the Rotting"], ""};
+				{ 9, 10760, "", "=q3=Swine Fists", "=ds=#s9#, #a2#", "", "58.15%"};
+				{ 10, 10766, "", "=q3=Plaguerot Sprig", "=ds=#w12#, =q1=#m1# =ds=#c3#", "", "29.98%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
 				{ 17, 10574, "", "=q3=Corpseshroud", "=ds=#s1#, #a1#", "", "0.01%"};
 				{ 18, 10581, "", "=q3=Death's Head Vestment", "=ds=#s5#, #a1#", "", "0.02%"};
