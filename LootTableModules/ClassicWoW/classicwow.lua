@@ -2793,7 +2793,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Hel'nurath"],
+			name = BabbleBoss["Lord Hel'nurath"].." ("..AL["Summon"]..")",
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
@@ -2830,7 +2830,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Tsu'zee"],
+			name = BabbleBoss["Tsu'zee"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
