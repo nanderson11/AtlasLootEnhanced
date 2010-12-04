@@ -74,7 +74,7 @@ function DefaultFrame:OnInitialize()
 	--AtlasLoot:RegisterModuleOptions(MODULENAME, getOptions, MODULENAME)
 	AtlasLoot:RegisterPFrame(frameName, { "TOPLEFT", frameName, "TOPLEFT", "18", "-84" })
 	AtlasLoot:AddResetCommand(DefaultFrame.ResetCom, "DefaultFrame", "frames")
-	DefaultFrame:SetInstanceTable()
+	--DefaultFrame:SetInstanceTable()
 	DefaultFrame:DropDownRefresh()
 	AtlasLoot.ShowFrame_MiniMap = DefaultFrame.MiniMap_OnClick_Replace
 	AtlasLoot:DefaultFrame_RefreshScale()

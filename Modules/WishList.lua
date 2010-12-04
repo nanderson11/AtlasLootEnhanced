@@ -399,9 +399,14 @@ function WishList:SetupDb(change)
 		end
 		self.ownWishLists = self.db.global.data['Normal'][self.realm][self.char]
 	end
-	for i = 1, #self.ownWishLists do
-		if self.ownWishLists[i] == nil then
-			table.remove(self.ownWishLists, i)
+	if self.ownWishLists then
+		local numLists = #self.ownWishLists
+		if numLists and #self.ownWishLists > 0 then
+			for i = 1, #self.ownWishLists do
+				if self.ownWishLists[i] == nil then
+					table.remove(self.ownWishLists, i)
+				end
+			end
 		end
 	end
 end
