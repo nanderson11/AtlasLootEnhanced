@@ -115,7 +115,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 20, "MountsHorde#4", "achievement_pvp_h_16", "=ds="..BabbleZone["Dalaran"].." / "..AL["Misc"], "=ec1="..AL["Horde Mounts"]};
 				{ 22, "MountsPvP", "ability_mount_netherdrakeelite", "=ds="..AL["PvP Mounts"], ""};
 				{ 23, "MountsAchievement", "achievement_halloween_witch_01", "=ds="..AL["Achievement Reward"], ""};
-				{ 24, "MountsCardGamePromotionl", "ability_mount_bigblizzardbear", "=ds="..AL["Promotional Mounts"].." / "..AL["Card Game Mounts"], ""};
+				{ 24, "MountsCardGamePromotionl", "ability_mount_bigblizzardbear", "=ds="..AL["Promotional & Card Game"], ""};
 				{ 25, "MountsRemoved", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Unobtainable Mounts"], ""};
 			};
 		};
@@ -131,11 +131,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "PetsMerchant", "spell_nature_polymorph", "=ds="..AL["Merchant Sold Companions"], ""};
 				{ 3, "PetsCrafted", "inv_drink_19", "=ds="..AL["Crafted Companions"], ""};
 				{ 4, "PetsRare", "spell_shaman_hex", "=ds="..AL["Rare Companions"], ""};
-				{ 5, "PetsPromotionalCardGame", "inv_netherwhelp", "=ds="..AL["Promotional Companions"].." / "..AL["Card Game Companions"], ""};
+				{ 5, "PetsPromotionalCardGame", "inv_netherwhelp", "=ds="..AL["Promotional & Card Game"], ""};
 				{ 6, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
 				{ 7, "PetsCata", "INV_Misc_Coin_01", "=ds="..AL["Cataclysm"], ""};
 				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
-				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement & Faction Reward Companions"], ""};
+				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement & Faction Reward"], ""};
 				{ 19, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
 				{ 20, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Companion Store"], ""};
 				{ 21, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};

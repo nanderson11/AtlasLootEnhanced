@@ -3628,10 +3628,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#z17#", ""};
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
 				{ 3, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
-				{ 4, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Azshara"]};
+				{ 4, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Winterspring"]};
 				{ 5, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
 				{ 6, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
-				{ 7, 10822, "", "=q1=Dark Whelpling", "=ds="..BabbleZone["Badlands"].." / "..BabbleZone["Dustwallow Marsh"]};
+				{ 7, 10822, "", "=q1=Dark Whelpling", "=ds="..BabbleZone["Wetlands"].." / "..BabbleZone["Badlands"].." / "..BabbleZone["Burning Steppes"]};
 				{ 8, 48112, "", "=q1=Darting Hatchling", "=ds="..BabbleZone["Dustwallow Marsh"]};
 				{ 9, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#"};
 				{ 10, 48116, "", "=q1=Gundrak Hatchling", "=ds="..BabbleZone["Gundrak"]};

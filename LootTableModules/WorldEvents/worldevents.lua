@@ -1099,7 +1099,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 19, 53494, "", "=q4=Girdle of Oblation", "=ds=#s10#, #a4#"};
 				{ 20, 53495, "", "=q4=Old Gods' Blessing", "=ds=#s13#"};
 				{ 21, 53492, "", "=q4=Ring of the Three-Headed Beast", "=ds=#s13#"};
-				{ 23, 0, "INV_Box_01", "=q6=Sarsarun", ""};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["Prince Sarsarun"], ""};
 				{ 24, 53506, "", "=q4=Cloak of Mocking Winds", "=ds=#s4#"};
  				{ 25, 53507, "", "=q4=Sandfury Sandals", "=ds=#s12#, #a1#"};
 				{ 26, 53508, "", "=q4=Pulmonary Casing", "=ds=#s5#, #a2#"};

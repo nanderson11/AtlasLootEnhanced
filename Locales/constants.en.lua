@@ -598,9 +598,13 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = true;
 	AL["BRD Blacksmithing Plans"] = true;
 
-	-- Companions
+	-- General titles
 	AL["Achievement"] = true;
+	AL["Promotional & Card Game"] = true;
+
+	-- Companions
 	AL["Achievement & Faction Reward Companions"] = true;
+	AL["Achievement & Faction Reward"] = true;
 	AL["Card Game Companions"] = true;
 	AL["Companion Accessories"] = true;
 	AL["Companion Store"] = true;
@@ -989,6 +993,7 @@ if AL then
 	AL["Servant's Quarter Animal Bosses"] = true;
 	AL["Jadefang"] = true;
 	AL["Aeonaxx"] = true;
+	AL["Prince Sarsarun"] = true;
 
 	-- Zones
 	AL["World Drop"] = true;
