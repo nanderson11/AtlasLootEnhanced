@@ -598,9 +598,13 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = "Prüfung des Kreuzfahrers Muster/Pläne";
 	AL["BRD Blacksmithing Plans"] = "Schwarzfelstiefen Schmiedepläne";
 
-	-- Companions
+	-- General titles
 	AL["Achievement"] = "Erfolg";
+	AL["Promotional & Card Game"] = "Promotion & Kartenspiel";
+
+	-- Companions
 	AL["Achievement & Faction Reward Companions"] = "Erfolgs & Fraktionsbelohnungen";
+	AL["Achievement & Faction Reward"] = "Erfolgs & Fraktionsbelohnungen";
 	AL["Card Game Companions"] = "Kartenspiel-Haustiere";
 	AL["Companion Accessories"] = "Haustierzubehör";
 	AL["Companion Store"] = "Haustiershop";
@@ -989,6 +993,7 @@ if AL then
 	AL["Servant's Quarter Animal Bosses"] = "Bosse im Quartier der Diener";
 	AL["Jadefang"] = "Jadezahn";
 	-- AL["Aeonaxx"] = true;
+	AL["Prince Sarsarun"] = "Prinz Sarsarun";
 
 	-- Zones
 	AL["World Drop"] = "Weltdrops";
