@@ -6665,11 +6665,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16459, "", "=q4=Marshal's Dragonhide Boots", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra1#", "=q5=#pvps2#"};
 				{ 10, 23308, "", "=q3=Lieutenant Commander's Dragonhide Headguard", "=ds=", "105 #honor#", ""};
-				{ 11, 23309, "", "=q3=Lieutenant Commander's Dragonhide Shoulders", "=ds=", "60 #honor#", ""};
+				{ 11, 23309, "", "=q3=Lieutenant Commander's Dragonhide Shoulders", "=ds=", "85 #honor#", ""};
 				{ 12, 23294, "", "=q3=Knight-Captain's Dragonhide Chestpiece", "=ds=", "105 #honor#", ""};
 				{ 13, 23280, "", "=q3=Knight-Lieutenant's Dragonhide Grips", "=ds=", "60 #honor#", ""};
 				{ 14, 23295, "", "=q3=Knight-Captain's Dragonhide Leggings", "=ds=", "105 #honor#", ""};
-				{ 15, 23281, "", "=q3=Knight-Lieutenant's Dragonhide Treads", "=ds=", "60 #honor#", ""};
+				{ 15, 23281, "", "=q3=Knight-Lieutenant's Dragonhide Treads", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh1#", "=q5=#pvps1#"};
 				{ 17, 16550, "", "=q4=Warlord's Dragonhide Helmet", "=ds=", "125 #honor#", ""};
 				{ 18, 16551, "", "=q4=Warlord's Dragonhide Epaulets", "=ds=", "70 #honor#", ""};
@@ -6679,11 +6679,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16554, "", "=q4=General's Dragonhide Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh1#", "=q5=#pvps2#"};
 				{ 25, 23253, "", "=q3=Champion's Dragonhide Headguard", "=ds=", "105 #honor#", ""};
-				{ 26, 23254, "", "=q3=Champion's Dragonhide Shoulders", "=ds=", "60 #honor#", ""};
+				{ 26, 23254, "", "=q3=Champion's Dragonhide Shoulders", "=ds=", "85 #honor#", ""};
 				{ 27, 22877, "", "=q3=Legionnaire's Dragonhide Chestpiece", "=ds=", "105 #honor#", ""};
 				{ 28, 22863, "", "=q3=Blood Guard's Dragonhide Grips", "=ds=", "60 #honor#", ""};
 				{ 29, 22878, "", "=q3=Legionnaire's Dragonhide Leggings", "=ds=", "105 #honor#", ""};
-				{ 30, 22852, "", "=q3=Blood Guard's Dragonhide Treads", "=ds=", "60 #honor#", ""};
+				{ 30, 22852, "", "=q3=Blood Guard's Dragonhide Treads", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6704,11 +6704,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16462, "", "=q4=Marshal's Chain Boots", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra2#", "=q5=#pvps2#"};
 				{ 10, 23306, "", "=q3=Lieutenant Commander's Chain Helm", "=ds=", "105 #honor#", ""};
-				{ 11, 23307, "", "=q3=Lieutenant Commander's Chain Shoulders", "=ds=", "60 #honor#", ""};
+				{ 11, 23307, "", "=q3=Lieutenant Commander's Chain Shoulders", "=ds=", "85 #honor#", ""};
 				{ 12, 23292, "", "=q3=Knight-Captain's Chain Hauberk", "=ds=", "105 #honor#", ""};
 				{ 13, 23279, "", "=q3=Knight-Lieutenant's Chain Vices", "=ds=", "60 #honor#", ""};
 				{ 14, 23293, "", "=q3=Knight-Captain's Chain Legguards", "=ds=", "105 #honor#", ""};
-				{ 15, 23278, "", "=q3=Knight-Lieutenant's Chain Greaves", "=ds=", "60 #honor#", ""};
+				{ 15, 23278, "", "=q3=Knight-Lieutenant's Chain Greaves", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh2#", "=q5=#pvps1#"};
 				{ 17, 16566, "", "=q4=Warlord's Chain Helmet", "=ds=", "125 #honor#", ""};
 				{ 18, 16568, "", "=q4=Warlord's Chain Shoulders", "=ds=", "70 #honor#", ""};
@@ -6718,11 +6718,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16569, "", "=q4=General's Chain Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh2#", "=q5=#pvps2#"};
 				{ 25, 23251, "", "=q3=Champion's Chain Helm", "=ds=", "105 #honor#", ""};
-				{ 26, 23252, "", "=q3=Champion's Chain Shoulders", "=ds=", "60 #honor#", ""};
+				{ 26, 23252, "", "=q3=Champion's Chain Shoulders", "=ds=", "85 #honor#", ""};
 				{ 27, 22874, "", "=q3=Legionnaire's Chain Hauberk", "=ds=", "105 #honor#", ""};
 				{ 28, 22862, "", "=q3=Blood Guard's Chain Vices", "=ds=", "60 #honor#", ""};
 				{ 29, 22875, "", "=q3=Legionnaire's Chain Legguards", "=ds=", "105 #honor#", ""};
-				{ 30, 22843, "", "=q3=Blood Guard's Chain Greaves", "=ds=", "60 #honor#", ""};
+				{ 30, 22843, "", "=q3=Blood Guard's Chain Greaves", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6743,11 +6743,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16437, "", "=q4=Marshal's Silk Footwraps", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra3#", "=q5=#pvps2#"};
 				{ 10, 23318, "", "=q3=Lieutenant Commander's Silk Cowl", "=ds=", "105 #honor#", ""};
-				{ 11, 23319, "", "=q3=Lieutenant Commander's Silk Mantle", "=ds=", "60 #honor#", ""};
+				{ 11, 23319, "", "=q3=Lieutenant Commander's Silk Mantle", "=ds=", "85 #honor#", ""};
 				{ 12, 23305, "", "=q3=Knight-Captain's Silk Tunic", "=ds=", "105 #honor#", ""};
 				{ 13, 23290, "", "=q3=Knight-Lieutenant's Silk Handwraps", "=ds=", "60 #honor#", ""};
 				{ 14, 23304, "", "=q3=Knight-Captain's Silk Legguards", "=ds=", "105 #honor#", ""};
-				{ 15, 23291, "", "=q3=Knight-Lieutenant's Silk Walkers", "=ds=", "60 #honor#", ""};
+				{ 15, 23291, "", "=q3=Knight-Lieutenant's Silk Walkers", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh3#", "=q5=#pvps1#"};
 				{ 17, 16533, "", "=q4=Warlord's Silk Cowl", "=ds=", "125 #honor#", ""};
 				{ 18, 16536, "", "=q4=Warlord's Silk Amice", "=ds=", "70 #honor#", ""};
@@ -6757,11 +6757,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16539, "", "=q4=General's Silk Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh3#", "=q5=#pvps2#"};
 				{ 25, 23263, "", "=q3=Champion's Silk Cowl", "=ds=", "105 #honor#", ""};
-				{ 26, 23264, "", "=q3=Champion's Silk Mantle", "=ds=", "60 #honor#", ""};
+				{ 26, 23264, "", "=q3=Champion's Silk Mantle", "=ds=", "85 #honor#", ""};
 				{ 27, 22886, "", "=q3=Legionnaire's Silk Tunic", "=ds=", "105 #honor#", ""};
 				{ 28, 22870, "", "=q3=Blood Guard's Silk Handwraps", "=ds=", "60 #honor#", ""};
 				{ 29, 22883, "", "=q3=Legionnaire's Silk Legguards", "=ds=", "105 #honor#", ""};
-				{ 30, 22860, "", "=q3=Blood Guard's Silk Walkers", "=ds=", "60 #honor#", ""};
+				{ 30, 22860, "", "=q3=Blood Guard's Silk Walkers", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6782,11 +6782,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16472, "", "=q4=Marshal's Lamellar Boots", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra4#", "=q5=#pvps2#"};
 				{ 10, 23276, "", "=q3=Lieutenant Commander's Lamellar Headguard", "=ds=", "105 #honor#", ""};
-				{ 11, 23277, "", "=q3=Lieutenant Commander's Lamellar Shoulders", "=ds=", "60 #honor#", ""};
+				{ 11, 23277, "", "=q3=Lieutenant Commander's Lamellar Shoulders", "=ds=", "85 #honor#", ""};
 				{ 12, 23272, "", "=q3=Knight-Captain's Lamellar Breastplate", "=ds=", "105 #honor#", ""};
 				{ 13, 23274, "", "=q3=Knight-Lieutenant's Lamellar Gauntlets", "=ds=", "60 #honor#", ""};
 				{ 14, 23273, "", "=q3=Knight-Captain's Lamellar Leggings", "=ds=", "105 #honor#", ""};
-				{ 15, 23275, "", "=q3=Knight-Lieutenant's Lamellar Sabatons", "=ds=", "60 #honor#", ""};
+				{ 15, 23275, "", "=q3=Knight-Lieutenant's Lamellar Sabatons", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh9#", "=q5=#pvps1#"};
 				{ 17, 29616, "", "=q4=Warlord's Lamellar Faceguard", "=ds=", "125 #honor#", ""};
 				{ 18, 29617, "", "=q4=Warlord's Lamellar Pauldrons", "=ds=", "70 #honor#", ""};
@@ -6796,11 +6796,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 29612, "", "=q4=General's Lamellar Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh9#", "=q5=#pvps2#"};
 				{ 25, 29604, "", "=q3=Champion's Lamellar Headguard", "=ds=", "105 #honor#", ""};
-				{ 26, 29605, "", "=q3=Champion's Lamellar Shoulders", "=ds=", "60 #honor#", ""};
+				{ 26, 29605, "", "=q3=Champion's Lamellar Shoulders", "=ds=", "85 #honor#", ""};
 				{ 27, 29602, "", "=q3=Legionnaire's Lamellar Breastplate", "=ds=", "105 #honor#", ""};
 				{ 28, 29600, "", "=q3=Blood Guard's Lamellar Gauntlets", "=ds=", "60 #honor#", ""};
 				{ 29, 29603, "", "=q3=Legionnaire's Lamellar Leggings", "=ds=", "105 #honor#", ""};
-				{ 30, 29601, "", "=q3=Blood Guard's Lamellar Sabatons", "=ds=", "60 #honor#", ""};
+				{ 30, 29601, "", "=q3=Blood Guard's Lamellar Sabatons", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6821,11 +6821,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 17607, "", "=q4=Marshal's Satin Sandals", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra5#", "=q5=#pvps2#"};
 				{ 10, 23316, "", "=q3=Lieutenant Commander's Satin Hood", "=ds=", "105 #honor#", ""};
-				{ 11, 23317, "", "=q3=Lieutenant Commander's Satin Mantle", "=ds=", "60 #honor#", ""};
+				{ 11, 23317, "", "=q3=Lieutenant Commander's Satin Mantle", "=ds=", "85 #honor#", ""};
 				{ 12, 23303, "", "=q3=Knight-Captain's Satin Tunic", "=ds=", "105 #honor#", ""};
 				{ 13, 23288, "", "=q3=Knight-Lieutenant's Satin Handwraps", "=ds=", "60 #honor#", ""};
 				{ 14, 23302, "", "=q3=Knight-Captain's Satin Legguards", "=ds=", "105 #honor#", ""};
-				{ 15, 23289, "", "=q3=Knight-Lieutenant's Satin Walkers", "=ds=", "60 #honor#", ""};
+				{ 15, 23289, "", "=q3=Knight-Lieutenant's Satin Walkers", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh4#", "=q5=#pvps1#"};
 				{ 17, 17623, "", "=q4=Warlord's Satin Cowl", "=ds=", "125 #honor#", ""};
 				{ 18, 17622, "", "=q4=Warlord's Satin Mantle", "=ds=", "70 #honor#", ""};
@@ -6835,11 +6835,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 17618, "", "=q4=General's Satin Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh4#", "=q5=#pvps2#"};
 				{ 25, 23261, "", "=q3=Champion's Satin Hood", "=ds=", "105 #honor#", ""};
-				{ 26, 23262, "", "=q3=Champion's Satin Mantle", "=ds=", "60 #honor#", ""};
+				{ 26, 23262, "", "=q3=Champion's Satin Mantle", "=ds=", "85 #honor#", ""};
 				{ 27, 22885, "", "=q3=Legionnaire's Satin Tunic", "=ds=", "105 #honor#", ""};
 				{ 28, 22869, "", "=q3=Blood Guard's Satin Handwraps", "=ds=", "60 #honor#", ""};
 				{ 29, 22882, "", "=q3=Legionnaire's Satin Legguards", "=ds=", "105 #honor#", ""};
-				{ 30, 22859, "", "=q3=Blood Guard's Satin Walkers", "=ds=", "60 #honor#", ""};
+				{ 30, 22859, "", "=q3=Blood Guard's Satin Walkers", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6860,11 +6860,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16446, "", "=q4=Marshal's Leather Footguards", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra6#", "=q5=#pvps2#"};
 				{ 10, 23312, "", "=q3=Lieutenant Commander's Leather Helm", "=ds=", "105 #honor#", ""};
-				{ 11, 23313, "", "=q3=Lieutenant Commander's Leather Shoulders", "=ds=", "60 #honor#", ""};
+				{ 11, 23313, "", "=q3=Lieutenant Commander's Leather Shoulders", "=ds=", "85 #honor#", ""};
 				{ 12, 23298, "", "=q3=Knight-Captain's Leather Chestpiece", "=ds=", "105 #honor#", ""};
 				{ 13, 23284, "", "=q3=Knight-Lieutenant's Leather Grips", "=ds=", "60 #honor#", ""};
 				{ 14, 23299, "", "=q3=Knight-Captain's Leather Legguards", "=ds=", "105 #honor#", ""};
-				{ 15, 23285, "", "=q3=Knight-Lieutenant's Leather Walkers", "=ds=", "60 #honor#", ""};
+				{ 15, 23285, "", "=q3=Knight-Lieutenant's Leather Walkers", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh5#", "=q5=#pvps1#"};
 				{ 17, 16561, "", "=q4=Warlord's Leather Helm", "=ds=", "125 #honor#", ""};
 				{ 18, 16562, "", "=q4=Warlord's Leather Spaulders", "=ds=", "70 #honor#", ""};
@@ -6874,11 +6874,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16558, "", "=q4=General's Leather Treads", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh5#", "=q5=#pvps2#"};
 				{ 25, 23257, "", "=q3=Champion's Leather Helm", "=ds=", "105 #honor#", ""};
-				{ 26, 23258, "", "=q3=Champion's Leather Shoulders", "=ds=", "60 #honor#", ""};
+				{ 26, 23258, "", "=q3=Champion's Leather Shoulders", "=ds=", "85 #honor#", ""};
 				{ 27, 22879, "", "=q3=Legionnaire's Leather Chestpiece", "=ds=", "105 #honor#", ""};
 				{ 28, 22864, "", "=q3=Blood Guard's Leather Grips", "=ds=", "60 #honor#", ""};
 				{ 29, 22880, "", "=q3=Legionnaire's Leather Legguards", "=ds=", "105 #honor#", ""};
-				{ 30, 22856, "", "=q3=Blood Guard's Leather Walkers", "=ds=", "60 #honor#", ""};
+				{ 30, 22856, "", "=q3=Blood Guard's Leather Walkers", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6899,11 +6899,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 29606, "", "=q4=Marshal's Mail Boots", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra9#", "=q5=#pvps2#"};
 				{ 10, 29598, "", "=q3=Lieutenant Commander's Mail Headguard", "=ds=", "105 #honor#", ""};
-				{ 11, 29599, "", "=q3=Lieutenant Commander's Mail Pauldrons", "=ds=", "60 #honor#", ""};
+				{ 11, 29599, "", "=q3=Lieutenant Commander's Mail Pauldrons", "=ds=", "85 #honor#", ""};
 				{ 12, 29596, "", "=q3=Knight-Captain's Mail Hauberk", "=ds=", "105 #honor#", ""};
 				{ 13, 29595, "", "=q3=Knight-Lieutenant's Mail Vices", "=ds=", "60 #honor#", ""};
 				{ 14, 29597, "", "=q3=Knight-Captain's Mail Legguards", "=ds=", "105 #honor#", ""};
-				{ 15, 29594, "", "=q3=Knight-Lieutenant's Mail Greaves", "=ds=", "60 #honor#", ""};
+				{ 15, 29594, "", "=q3=Knight-Lieutenant's Mail Greaves", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh6#", "=q5=#pvps1#"};
 				{ 17, 16578, "", "=q4=Warlord's Mail Helm", "=ds=", "125 #honor#", ""};
 				{ 18, 16580, "", "=q4=Warlord's Mail Spaulders", "=ds=", "70 #honor#", ""};
@@ -6913,11 +6913,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16573, "", "=q4=General's Mail Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh6#", "=q5=#pvps2#"};
 				{ 25, 23259, "", "=q3=Champion's Mail Headguard", "=ds=", "105 #honor#", ""};
-				{ 26, 23260, "", "=q3=Champion's Mail Pauldrons", "=ds=", "60 #honor#", ""};
+				{ 26, 23260, "", "=q3=Champion's Mail Pauldrons", "=ds=", "85 #honor#", ""};
 				{ 27, 22876, "", "=q3=Legionnaire's Mail Hauberk", "=ds=", "105 #honor#", ""};
 				{ 28, 22867, "", "=q3=Blood Guard's Mail Vices", "=ds=", "60 #honor#", ""};
 				{ 29, 22887, "", "=q3=Legionnaire's Mail Legguards", "=ds=", "105 #honor#", ""};
-				{ 30, 22857, "", "=q3=Blood Guard's Mail Greaves", "=ds=", "60 #honor#", ""};
+				{ 30, 22857, "", "=q3=Blood Guard's Mail Greaves", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6938,11 +6938,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 17583, "", "=q4=Marshal's Dreadweave Boots", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra7#", "=q5=#pvps2#"};
 				{ 10, 23310, "", "=q3=Lieutenant Commander's Dreadweave Cowl", "=ds=", "105 #honor#", ""};
-				{ 11, 23311, "", "=q3=Lieutenant Commander's Dreadweave Spaulders", "=ds=", "60 #honor#", ""};
+				{ 11, 23311, "", "=q3=Lieutenant Commander's Dreadweave Spaulders", "=ds=", "85 #honor#", ""};
 				{ 12, 23297, "", "=q3=Knight-Captain's Dreadweave Tunic", "=ds=", "105 #honor#", ""};
 				{ 13, 23282, "", "=q3=Knight-Lieutenant's Dreadweave Handwraps", "=ds=", "60 #honor#", ""};
 				{ 14, 23296, "", "=q3=Knight-Captain's Dreadweave Legguards", "=ds=", "105 #honor#", ""};
-				{ 15, 23283, "", "=q3=Knight-Lieutenant's Dreadweave Walkers", "=ds=", "60 #honor#", ""};
+				{ 15, 23283, "", "=q3=Knight-Lieutenant's Dreadweave Walkers", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh7#", "=q5=#pvps1#"};
 				{ 17, 17591, "", "=q4=Warlord's Dreadweave Hood", "=ds=", "125 #honor#", ""};
 				{ 18, 17590, "", "=q4=Warlord's Dreadweave Mantle", "=ds=", "70 #honor#", ""};
@@ -6952,11 +6952,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 17586, "", "=q4=General's Dreadweave Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh7#", "=q5=#pvps2#"};
 				{ 25, 23255, "", "=q3=Champion's Dreadweave Cowl", "=ds=", "105 #honor#", ""};
-				{ 26, 23256, "", "=q3=Champion's Dreadweave Spaulders", "=ds=", "60 #honor#", ""};
+				{ 26, 23256, "", "=q3=Champion's Dreadweave Spaulders", "=ds=", "85 #honor#", ""};
 				{ 27, 22884, "", "=q3=Legionnaire's Dreadweave Tunic", "=ds=", "105 #honor#", ""};
 				{ 28, 22865, "", "=q3=Blood Guard's Dreadweave Handwraps", "=ds=", "60 #honor#", ""};
 				{ 29, 22881, "", "=q3=Legionnaire's Dreadweave Legguards", "=ds=", "105 #honor#", ""};
-				{ 30, 22855, "", "=q3=Blood Guard's Dreadweave Walkers", "=ds=", "60 #honor#", ""};
+				{ 30, 22855, "", "=q3=Blood Guard's Dreadweave Walkers", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -6977,11 +6977,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16483, "", "=q4=Marshal's Plate Boots", "=ds=", "70 #honor#", ""};
 				{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra8#", "=q5=#pvps2#"};
 				{ 10, 23314, "", "=q3=Lieutenant Commander's Plate Helm", "=ds=", "105 #honor#", ""};
-				{ 11, 23315, "", "=q3=Lieutenant Commander's Plate Shoulders", "=ds=", "60 #honor#", ""};
+				{ 11, 23315, "", "=q3=Lieutenant Commander's Plate Shoulders", "=ds=", "85 #honor#", ""};
 				{ 12, 23300, "", "=q3=Knight-Captain's Plate Hauberk", "=ds=", "105 #honor#", ""};
 				{ 13, 23286, "", "=q3=Knight-Lieutenant's Plate Gauntlets", "=ds=", "60 #honor#", ""};
 				{ 14, 23301, "", "=q3=Knight-Captain's Plate Leggings", "=ds=", "105 #honor#", ""};
-				{ 15, 23287, "", "=q3=Knight-Lieutenant's Plate Greaves", "=ds=", "60 #honor#", ""};
+				{ 15, 23287, "", "=q3=Knight-Lieutenant's Plate Greaves", "=ds=", "85 #honor#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh8#", "=q5=#pvps1#"};
 				{ 17, 16542, "", "=q4=Warlord's Plate Headpiece", "=ds=", "125 #honor#", ""};
 				{ 18, 16544, "", "=q4=Warlord's Plate Shoulders", "=ds=", "70 #honor#", ""};
@@ -6991,11 +6991,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16545, "", "=q4=General's Plate Boots", "=ds=", "70 #honor#", ""};
 				{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh8#", "=q5=#pvps2#"};
 				{ 25, 23244, "", "=q3=Champion's Plate Helm", "=ds=", "105 #honor#", ""};
-				{ 26, 23243, "", "=q3=Champion's Plate Shoulders", "=ds=", "60 #honor#", ""};
+				{ 26, 23243, "", "=q3=Champion's Plate Shoulders", "=ds=", "85 #honor#", ""};
 				{ 27, 22872, "", "=q3=Legionnaire's Plate Hauberk", "=ds=", "105 #honor#", ""};
 				{ 28, 22868, "", "=q3=Blood Guard's Plate Gauntlets", "=ds=", "60 #honor#", ""};
 				{ 29, 22873, "", "=q3=Legionnaire's Plate Leggings", "=ds=", "105 #honor#", ""};
-				{ 30, 22858, "", "=q3=Blood Guard's Plate Greaves", "=ds=", "60 #honor#", ""};
+				{ 30, 22858, "", "=q3=Blood Guard's Plate Greaves", "=ds=", "85 #honor#", ""};
 			};
 		};
 		info = {
@@ -7013,7 +7013,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18843, "", "=q4=Grand Marshal's Right Hand Blade", "=ds=#h3#, #w13#", "185 #honor#", ""};
 				{ 2, 18847, "", "=q4=Grand Marshal's Left Hand Blade", "=ds=#h4#, #w13#", "185 #honor#", ""};
-				{ 3, 23451, "", "=q4=Grand Marshal's Mageblade", "=ds=#h4#, #w4#", "185 #honor#", ""};
+				{ 3, 23451, "", "=q4=Grand Marshal's Mageblade", "=ds=#h3#, #w4#", "185 #honor#", ""};
 				{ 4, 18838, "", "=q4=Grand Marshal's Dirk", "=ds=#h1#, #w4#", "185 #honor#", ""};
 				{ 5, 12584, "", "=q4=Grand Marshal's Longsword", "=ds=#h1#, #w10#", "185 #honor#", ""};
 				{ 6, 23456, "", "=q4=Grand Marshal's Swiftblade", "=ds=#h1#, #w10#", "185 #honor#", ""};
@@ -7038,7 +7038,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18844, "", "=q4=High Warlord's Right Claw", "=ds=#h3#, #w13#", "185 #honor#", ""};
 				{ 2, 18848, "", "=q4=High Warlord's Left Claw", "=ds=#h4#, #w13#", "185 #honor#", ""};
-				{ 3, 23466, "", "=q4=High Warlord's Spellblade", "=ds=#h4#, #w4#", "185 #honor#", ""};
+				{ 3, 23466, "", "=q4=High Warlord's Spellblade", "=ds=#h3#, #w4#", "185 #honor#", ""};
 				{ 4, 18840, "", "=q4=High Warlord's Razor", "=ds=#h1#, #w4#", "185 #honor#", ""};
 				{ 5, 16345, "", "=q4=High Warlord's Blade", "=ds=#h1#, #w10#", "185 #honor#", ""};
 				{ 6, 23467, "", "=q4=High Warlord's Quickblade", "=ds=#h1#, #w10#", "185 #honor#", ""};
@@ -7088,28 +7088,28 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 15, 18854, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "55 #honor#", ""};
 				{ 16, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "50 #honor#", ""};
 				{ 17, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "100 #honor#", ""};
-				{ 18, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "500 #honor#", ""};
-				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
-				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
-				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver#", ""};
+				{ 18, 18606, "", "=q1=Alliance Battle Standard", "=ds=#e14#", "500 #honor#", ""};
+				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
+				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
+				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #honor#", ""};
 			};
 			{
 				{ 1, 18457, "", "=q3=Sergeant Major's Silk Cuffs", "=ds=#s8#, #a1#", "45 #honor#", ""};
-				{ 2, 18456, "", "=q3=Sergeant Major's Silk Cuffs", "=ds=#s8#, #a1#", "50 #honor#", ""};
+				{ 2, 18456, "", "=q3=Sergeant Major's Silk Cuffs", "=ds=#s8#, #a1#", "55 #honor#", ""};
 				{ 4, 18455, "", "=q3=Sergeant Major's Dragonhide Armsplints", "=ds=#s8#, #a2#", "45 #honor#", ""};
-				{ 5, 18454, "", "=q3=Sergeant Major's Dragonhide Armsplints", "=ds=#s8#, #a2#", "50 #honor#", ""};
+				{ 5, 18454, "", "=q3=Sergeant Major's Dragonhide Armsplints", "=ds=#s8#, #a2#", "55 #honor#", ""};
 				{ 7, 18453, "", "=q3=Sergeant Major's Leather Armsplints", "=ds=#s8#, #a3#", "45 #honor#", ""};
-				{ 8, 18452, "", "=q3=Sergeant Major's Leather Armsplints", "=ds=#s8#, #a3#", "50 #honor#", ""};
+				{ 8, 18452, "", "=q3=Sergeant Major's Leather Armsplints", "=ds=#s8#, #a3#", "55 #honor#", ""};
 				{ 10, 18449, "", "=q3=Sergeant Major's Chain Armguards", "=ds=#s8#, #a3#", "45 #honor#", ""};
-				{ 11, 18448, "", "=q3=Sergeant Major's Chain Armguards", "=ds=#s8#, #a3#", "50 #honor#", ""};
+				{ 11, 18448, "", "=q3=Sergeant Major's Chain Armguards", "=ds=#s8#, #a3#", "55 #honor#", ""};
 				{ 13, 18447, "", "=q3=Sergeant Major's Plate Wristguards", "=ds=#s8#, #a4#", "45 #honor#", ""};
-				{ 14, 18445, "", "=q3=Sergeant Major's Plate Wristguards", "=ds=#s8#, #a4#", "50 #honor#", ""};
+				{ 14, 18445, "", "=q3=Sergeant Major's Plate Wristguards", "=ds=#s8#, #a4#", "55 #honor#", ""};
 				{ 16, 18440, "", "=q3=Sergeant's Cape", "=ds=#s4#", "40 #honor#", ""};
 				{ 17, 18441, "", "=q3=Sergeant's Cape", "=ds=#s4#", "45 #honor#", ""};
-				{ 18, 16342, "", "=q3=Sergeant's Cape", "=ds=#s4#", "50 #honor#", ""};
+				{ 18, 16342, "", "=q3=Sergeant's Cape", "=ds=#s4#", "55 #honor#", ""};
 				{ 20, 18442, "", "=q3=Master Sergeant's Insignia", "=ds=#s2#", "40 #honor#", ""};
 				{ 21, 18444, "", "=q3=Master Sergeant's Insignia", "=ds=#s2#", "45 #honor#", ""};
-				{ 22, 18443, "", "=q3=Master Sergeant's Insignia", "=ds=#s2#", "50 #honor#", ""};
+				{ 22, 18443, "", "=q3=Master Sergeant's Insignia", "=ds=#s2#", "55 #honor#", ""};
 			};
 		};
 		["Normal_H"] = {
@@ -7130,28 +7130,28 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 15, 18834, "", "=q3=Insignia of the Horde", "=ds=#s14#", "55 #honor#", ""};
 				{ 16, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "50 #honor#", ""};
 				{ 17, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "100 #honor#", ""};
-				{ 18, 18607, "", "=q1=Horde Battle Standard", "=ds=", "500 #honor#", ""};
-				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
-				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
-				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver#", ""};
+				{ 18, 18607, "", "=q1=Horde Battle Standard", "=ds=#e14#", "500 #honor#", ""};
+				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
+				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
+				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #honor#", ""};
 			};
 			{
 				{ 1, 18437, "", "=q3=First Sergeant's Silk Cuffs", "=ds=#s8#, #a1#", "45 #honor#", ""};
-				{ 2, 16486, "", "=q3=First Sergeant's Silk Cuffs", "=ds=#s8#, #a1#", "50 #honor#", ""};
+				{ 2, 16486, "", "=q3=First Sergeant's Silk Cuffs", "=ds=#s8#, #a1#", "55 #honor#", ""};
 				{ 4, 18436, "", "=q3=First Sergeant's Dragonhide Armguards", "=ds=#s8#, #a1#", "45 #honor#", ""};
-				{ 5, 18434, "", "=q3=First Sergeant's Dragonhide Armguards", "=ds=#s8#, #a1#", "50 #honor#", ""};
+				{ 5, 18434, "", "=q3=First Sergeant's Dragonhide Armguards", "=ds=#s8#, #a1#", "55 #honor#", ""};
 				{ 7, 18435, "", "=q3=First Sergeant's Leather Armguards", "=ds=#s8#, #a2#", "45 #honor#", ""};
-				{ 8, 16497, "", "=q3=First Sergeant's Leather Armguards", "=ds=#s8#, #a2#", "50 #honor#", ""};
+				{ 8, 16497, "", "=q3=First Sergeant's Leather Armguards", "=ds=#s8#, #a2#", "55 #honor#", ""};
 				{ 10, 18432, "", "=q3=First Sergeant's Mail Wristguards", "=ds=#s8#, #a3#", "45 #honor#", ""};
-				{ 11, 16532, "", "=q3=First Sergeant's Mail Wristguards", "=ds=#s8#, #a3#", "50 #honor#", ""};
+				{ 11, 16532, "", "=q3=First Sergeant's Mail Wristguards", "=ds=#s8#, #a3#", "55 #honor#", ""};
 				{ 13, 18430, "", "=q3=First Sergeant's Plate Bracers", "=ds=#s8#, #a4#", "45 #honor#", ""};
-				{ 14, 18429, "", "=q3=First Sergeant's Plate Bracers", "=ds=#s8#, #a4#", "50 #honor#", ""};
+				{ 14, 18429, "", "=q3=First Sergeant's Plate Bracers", "=ds=#s8#, #a4#", "55 #honor#", ""};
 				{ 16, 18427, "", "=q3=Sergeant's Cloak", "=ds=#s4#", "40 #honor#", ""};
 				{ 17, 16341, "", "=q3=Sergeant's Cloak", "=ds=#s4#", "45 #honor#", ""};
-				{ 18, 18461, "", "=q3=Sergeant's Cloak", "=ds=#s4#", "50 #honor#", ""};
+				{ 18, 18461, "", "=q3=Sergeant's Cloak", "=ds=#s4#", "55 #honor#", ""};
 				{ 20, 15200, "", "=q3=Senior Sergeant's Insignia", "=ds=#s2#", "40 #honor#", ""};
 				{ 21, 18428, "", "=q3=Senior Sergeant's Insignia", "=ds=#s2#", "45 #honor#", ""};
-				{ 22, 16335, "", "=q3=Senior Sergeant's Insignia", "=ds=#s2#", "50 #honor#", ""};
+				{ 22, 16335, "", "=q3=Senior Sergeant's Insignia", "=ds=#s2#", "55 #honor#", ""};
 			};
 		};
 		info = {
