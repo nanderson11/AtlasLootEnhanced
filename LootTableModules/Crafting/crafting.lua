@@ -507,35 +507,51 @@ local SPELLFIRE = GetSpellInfo(26797);
 		--- Archaeology ---
 		-------------------
 
-	AtlasLoot_Data["Archaeology"] = {
+	AtlasLoot_Data["ArchaeologyArmorAndWeapons"] = {
 		["Normal"] = {
 			{
 				{ 1, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds=#s5#, #a1#"};
 				{ 2, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#s1#, #a3#"};
 				{ 3, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#s13#"};
-				{ 5, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds=#s14#"};
-				{ 5, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#s14#"};
-				{ 6, 64885, "", "=q4=Scimitar of the Sirocco", "=ds=#h1#, #w10#"};
-				{ 7, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#h2#, #w10#"};
+				{ 4, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#s14#"};
+				{ 5, 64885, "", "=q4=Scimitar of the Sirocco", "=ds=#h1#, #w10#"};
+				{ 6, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#h2#, #w10#"};
+				{ 7, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#h1#, #w1#"};
 				{ 8, 64880, "", "=q4=Staff of Ammunae", "=ds=#w9#"};
 				{ 9, 64489, "", "=q4=Staff of Sorceror-Thane Thaurissan", "=ds=#w9#"};
-				{ 10, 60954, "", "=q4=Fossilized Raptor", "=ds=#e12#"};
-				{ 11, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e12#"};
-				{ 12, 64372, "", "=q3=Clockwork Gnome", "=ds=#e13#"};
-				{ 13, 60955, "", "=q3=Fossilized Hatchling", "=ds=#e13#"};
-				{ 14, 60847, "", "=q4=Crawling Claw", "=ds=#e13#"};
-				{ 15, 64481, "", "=q4=Blessing of the Old God", "=ds="};
-				{ 16, 64646, "", "=q4=Bones of Transformation", "=ds="};
-				{ 17, 60847, "", "=q4=Crawling Claw", "=ds=#e13#"};
-				{ 18, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#h1#, #w1#"};
-				{ 19, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="};
-				{ 20, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="};
-				{ 21, 64651, "", "=q4=Wisp Amulet", "=ds="};
 			};
 		};
 		info = {
 			name = "Archaeology",
-			module = moduleName, menu = "CRAFTINGMENU"
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyMisc"] = {
+		["Normal"] = {
+			{
+				{ 1, 64481, "", "=q4=Blessing of the Old God", "=ds="};
+				{ 2, 64646, "", "=q4=Bones of Transformation", "=ds="};
+				{ 3, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="};
+				{ 4, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="};
+				{ 5, 64651, "", "=q4=Wisp Amulet", "=ds="};
+				{ 6, 64456, "", "=q3=Arrival of the Naaru", "=ds="};
+				{ 7, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds="};
+				{ 8, 64361, "", "=q3=Druid and Priest Statue Set", "=ds="};
+				{ 9, 64358, "", "=q3=Highborne Soul Mirror", "=ds="};
+				{ 10, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds="};
+				{ 11, 64488, "", "=q3=The Innkeeper's Daughter", "=ds="};
+				{ 12, 64457, "", "=q3=The Last Relic of Argus", "=ds="};
+				{ 16, 60847, "", "=q4=Crawling Claw", "=ds=#e13#"};
+				{ 17, 60954, "", "=q4=Fossilized Raptor", "=ds=#e12#"};
+				{ 18, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e12#"};
+				{ 19, 64372, "", "=q3=Clockwork Gnome", "=ds=#e13#"};
+				{ 20, 60955, "", "=q3=Fossilized Hatchling", "=ds=#e13#"};
+			};
+		};
+		info = {
+			name = "Archaeology",
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
 

@@ -17,6 +17,7 @@ local ARTISAN = select(2, GetSpellInfo(11611));
 local MASTER = select(2, GetSpellInfo(28596));
 
 local ALCHEMY, APPRENTICE = GetSpellInfo(2259);
+local ARCHAEOLOGY = GetSpellInfo(78670)
 local BLACKSMITHING = GetSpellInfo(2018);
 local ARMORSMITH = GetSpellInfo(9788);
 local WEAPONSMITH = GetSpellInfo(9787);
@@ -54,7 +55,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
 				{ 9, "Mining", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
 				{ 10, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
-				{ 12, "Archaeology", "trade_archaeology", "=ds="..GetSpellInfo(78670), ""};
+				{ 12, "ARCHAEOLOGYMENU", "trade_archaeology", "=ds="..GetSpellInfo(78670), ""};
 				{ 13, "COOKINGMENU", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
 				{ 14, "FirstAid", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
 				{ 17, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
@@ -98,10 +99,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 9, "Armorsmith", "inv_chest_plate16", "=ds="..GetSpellInfo(9788), "" };
 				{ 10, "Axesmith", "inv_axe_1h_blacksmithing_01", "=ds="..GetSpellInfo(17041), "" };
 				{ 11, "Swordsmith", "inv_sword_1h_blacksmithing_02", "=ds="..GetSpellInfo(17039), "" };
-				{ 17, "SmithingWeaponCata", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Cataclysm"] };
-				{ 18, "SmithingWeaponWrath", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 19, "SmithingWeaponBC", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Burning Crusade"] };
-				{ 20, "SmithingWeaponOld", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Classic WoW"] };
+				{ 17, "SmithingWeaponCata", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Cataclysm"] };
+				{ 18, "SmithingWeaponWrath", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 19, "SmithingWeaponBC", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Burning Crusade"] };
+				{ 20, "SmithingWeaponOld", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Classic WoW"] };
 				{ 22, "SmithingMisc", "inv_misc_key_07", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 24, "Weaponsmith", "inv_hammer_21", "=ds="..GetSpellInfo(9787), "" };
 				{ 25, "Hammersmith", "inv_hammer_09", "=ds="..GetSpellInfo(17040), "" };
@@ -262,6 +263,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = TAILORING,
+			menu = "CRAFTINGMENU",
+		};
+	}
+
+	AtlasLoot_Data["ARCHAEOLOGYMENU"] = {
+		["Normal"] = {
+			{
+				{ 2, "ArchaeologyArmorAndWeapons", "trade_archaeology_ancientorcshamanheaddress", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], "" };
+				{ 17, "ArchaeologyMisc", "trade_archaeology_tinydinosaurskeleton", "=ds="..BabbleInventory["Miscellaneous"], "" };
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY,
 			menu = "CRAFTINGMENU",
 		};
 	}
