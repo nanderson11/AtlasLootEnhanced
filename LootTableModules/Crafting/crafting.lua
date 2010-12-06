@@ -698,7 +698,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Armor"],
+			name = BLACKSMITHING..": "..BabbleInventory["Armor"].." - "..AL["Classic WoW"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -784,7 +784,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Armor"],
+			name = BLACKSMITHING..": "..BabbleInventory["Armor"].." - "..AL["Burning Crusade"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -798,109 +798,121 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, "s70567", "49904", "=q4=Pillars of Might", "=ds="..AL["Vendor"]..""};
 				{ 5, "s70563", "49905", "=q4=Protectors of Life", "=ds="..AL["Vendor"]..""};
 				{ 6, "s70562", "49902", "=q4=Puresteel Legplates", "=ds="..AL["Vendor"]..""};
-				{ 7, "s67130", "47592", "=q4=Breastplate of the White Knight", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 8, "s67091", "47591", "=q4=Breastplate of the White Knight", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 9, "s67131", "47571", "=q4=Saronite Swordbreakers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 10, "s67092", "47570", "=q4=Saronite Swordbreakers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 11, "s67096", "47574", "=q4=Sunforged Bracers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 12, "s67135", "47575", "=q4=Sunforged Bracers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 13, "s67095", "47593", "=q4=Sunforged Breastplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 14, "s67134", "47594", "=q4=Sunforged Breastplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 15, "s67093", "47589", "=q4=Titanium Razorplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 16, "s67132", "47590", "=q4=Titanium Razorplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 17, "s67094", "47572", "=q4=Titanium Spikeguards", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 18, "s67133", "47573", "=q4=Titanium Spikeguards", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
-				{ 19, "s63188", "45559", "=q4=Battlelord's Plate Boots", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
-				{ 20, "s63187", "45550", "=q4=Belt of the Titans", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
-				{ 21, "s63191", "45551", "=q4=Indestructible Plate Girdle", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
-				{ 22, "s63189", "45552", "=q4=Plate Girdle of Righteousness", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
-				{ 23, "s63192", "45560", "=q4=Spiked Deathdealers", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
-				{ 24, "s63190", "45561", "=q4=Treads of Destiny", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
-				{ 25, "s55374", "41388", "=q4=Brilliant Titansteel Helm", "=ds="..AL["Trainer"] };
-				{ 26, "s55377", "41394", "=q4=Brilliant Titansteel Treads", "=ds="..AL["Trainer"] };
-				{ 27, "s55372", "41386", "=q4=Spiked Titansteel Helm", "=ds="..AL["Trainer"] };
-				{ 28, "s55375", "41391", "=q4=Spiked Titansteel Treads", "=ds="..AL["Trainer"] };
-				{ 29, "s55373", "41387", "=q4=Tempered Titansteel Helm", "=ds="..AL["Trainer"] };
-				{ 30, "s55376", "41392", "=q4=Tempered Titansteel Treads", "=ds="..AL["Trainer"] };
+				{
+					{ 7, "s67130", "47592", "=q4=Breastplate of the White Knight", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+					{ 7, "s67091", "47591", "=q4=Breastplate of the White Knight", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+				};
+				{
+					{ 8, "s67131", "47571", "=q4=Saronite Swordbreakers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+					{ 8, "s67092", "47570", "=q4=Saronite Swordbreakers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+				};
+				{
+					{ 9, "s67135", "47575", "=q4=Sunforged Bracers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+					{ 9, "s67096", "47574", "=q4=Sunforged Bracers", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+				};
+				{
+					{ 10, "s67134", "47594", "=q4=Sunforged Breastplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+					{ 10, "s67095", "47593", "=q4=Sunforged Breastplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+				};
+				{
+					{ 11, "s67132", "47590", "=q4=Titanium Razorplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+					{ 11, "s67093", "47589", "=q4=Titanium Razorplate", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+				};
+				{
+					{ 12, "s67133", "47573", "=q4=Titanium Spikeguards", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+					{ 12, "s67094", "47572", "=q4=Titanium Spikeguards", "=ds="..AL["Drop"]..", "..BabbleZone["Trial of the Crusader"]};
+				};
+				{ 13, "s63188", "45559", "=q4=Battlelord's Plate Boots", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
+				{ 14, "s63187", "45550", "=q4=Belt of the Titans", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
+				{ 15, "s63191", "45551", "=q4=Indestructible Plate Girdle", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
+				{ 16, "s63189", "45552", "=q4=Plate Girdle of Righteousness", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
+				{ 17, "s63192", "45560", "=q4=Spiked Deathdealers", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
+				{ 18, "s63190", "45561", "=q4=Treads of Destiny", "=ds="..AL["Drop"]..", "..BabbleZone["Ulduar"]};
+				{ 19, "s55374", "41388", "=q4=Brilliant Titansteel Helm", "=ds="..AL["Trainer"] };
+				{ 20, "s55377", "41394", "=q4=Brilliant Titansteel Treads", "=ds="..AL["Trainer"] };
+				{ 21, "s55372", "41386", "=q4=Spiked Titansteel Helm", "=ds="..AL["Trainer"] };
+				{ 22, "s55375", "41391", "=q4=Spiked Titansteel Treads", "=ds="..AL["Trainer"] };
+				{ 23, "s55373", "41387", "=q4=Tempered Titansteel Helm", "=ds="..AL["Trainer"] };
+				{ 24, "s55376", "41392", "=q4=Tempered Titansteel Treads", "=ds="..AL["Trainer"] };
+				{ 25, "s56400", "42508", "=q4=Titansteel Shield Wall", "=ds="..AL["Trainer"] };
+				{ 26, "s61008", "43586", "=q4=Icebane Chestguard", "=ds="..AL["Trainer"] };
+				{ 27, "s61009", "43587", "=q4=Icebane Girdle", "=ds="..AL["Trainer"] };
+				{ 28, "s61010", "43588", "=q4=Icebane Treads", "=ds="..AL["Trainer"] };
+				{ 29, "s55303", "41345", "=q3=Daunting Legplates", "=ds="..AL["Trainer"] };
+				{ 30, "s55302", "41344", "=q3=Helm of Command", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s56400", "42508", "=q4=Titansteel Shield Wall", "=ds="..AL["Trainer"] };
-				{ 2, "s61008", "43586", "=q4=Icebane Chestguard", "=ds="..AL["Trainer"] };
-				{ 3, "s61009", "43587", "=q4=Icebane Girdle", "=ds="..AL["Trainer"] };
-				{ 4, "s61010", "43588", "=q4=Icebane Treads", "=ds="..AL["Trainer"] };
-				{ 5, "s55303", "41345", "=q3=Daunting Legplates", "=ds="..AL["Trainer"] };
-				{ 6, "s55302", "41344", "=q3=Helm of Command", "=ds="..AL["Trainer"] };
-				{ 7, "s56555", "42725", "=q3=Ornate Saronite Hauberk", "=ds="..AL["Trainer"] };
-				{ 8, "s56554", "42726", "=q3=Ornate Saronite Legplates", "=ds="..AL["Trainer"] };
-				{ 9, "s56556", "42728", "=q3=Ornate Saronite Skullshield", "=ds="..AL["Trainer"] };
-				{ 10, "s55304", "41346", "=q3=Righteous Greaves", "=ds="..AL["Trainer"] };
-				{ 11, "s55311", "41353", "=q3=Savage Saronite Hauberk", "=ds="..AL["Trainer"] };
-				{ 12, "s55310", "41347", "=q3=Savage Saronite Legplates", "=ds="..AL["Trainer"] };
-				{ 13, "s55312", "41350", "=q3=Savage Saronite Skullshield", "=ds="..AL["Trainer"] };
-				{ 14, "s55301", "41357", "=q3=Daunting Handguards", "=ds="..AL["Trainer"] };
-				{ 15, "s56553", "42724", "=q3=Ornate Saronite Gauntlets", "=ds="..AL["Trainer"] };
-				{ 16, "s56550", "42727", "=q3=Ornate Saronite Pauldrons", "=ds="..AL["Trainer"] };
-				{ 17, "s56551", "42729", "=q3=Ornate Saronite Waistguard", "=ds="..AL["Trainer"] };
-				{ 18, "s56552", "42730", "=q3=Ornate Saronite Walkers", "=ds="..AL["Trainer"] };
-				{ 19, "s55300", "41356", "=q3=Righteous Gauntlets", "=ds="..AL["Trainer"] };
-				{ 20, "s55309", "41349", "=q3=Savage Saronite Gauntlets", "=ds="..AL["Trainer"] };
-				{ 21, "s55306", "41351", "=q3=Savage Saronite Pauldrons", "=ds="..AL["Trainer"] };
-				{ 22, "s55307", "41352", "=q3=Savage Saronite Waistguard", "=ds="..AL["Trainer"] };
-				{ 23, "s55308", "41348", "=q3=Savage Saronite Walkers", "=ds="..AL["Trainer"] };
-				{ 24, "s56549", "42723", "=q3=Ornate Saronite Bracers", "=ds="..AL["Trainer"] };
-				{ 25, "s55305", "41354", "=q3=Savage Saronite Bracers", "=ds="..AL["Trainer"] };
-				{ 26, "s55298", "41355", "=q3=Vengeance Bindings", "=ds="..AL["Trainer"] };
-				{ 27, "s55058", "41129", "=q3=Brilliant Saronite Breastplate", "=ds="..AL["Trainer"] };
-				{ 28, "s59441", "43870", "=q3=Brilliant Saronite Helm", "=ds="..AL["Trainer"] };
-				{ 29, "s55186", "41189", "=q3=Chestplate of Conquest", "=ds="..AL["Trainer"] };
-				{ 30, "s55187", "41190", "=q3=Legplates of Conquest", "=ds="..AL["Trainer"] };
+				{ 1, "s56555", "42725", "=q3=Ornate Saronite Hauberk", "=ds="..AL["Trainer"] };
+				{ 2, "s56554", "42726", "=q3=Ornate Saronite Legplates", "=ds="..AL["Trainer"] };
+				{ 3, "s56556", "42728", "=q3=Ornate Saronite Skullshield", "=ds="..AL["Trainer"] };
+				{ 4, "s55304", "41346", "=q3=Righteous Greaves", "=ds="..AL["Trainer"] };
+				{ 5, "s55311", "41353", "=q3=Savage Saronite Hauberk", "=ds="..AL["Trainer"] };
+				{ 6, "s55310", "41347", "=q3=Savage Saronite Legplates", "=ds="..AL["Trainer"] };
+				{ 7, "s55312", "41350", "=q3=Savage Saronite Skullshield", "=ds="..AL["Trainer"] };
+				{ 8, "s55301", "41357", "=q3=Daunting Handguards", "=ds="..AL["Trainer"] };
+				{ 9, "s56553", "42724", "=q3=Ornate Saronite Gauntlets", "=ds="..AL["Trainer"] };
+				{ 10, "s56550", "42727", "=q3=Ornate Saronite Pauldrons", "=ds="..AL["Trainer"] };
+				{ 11, "s56551", "42729", "=q3=Ornate Saronite Waistguard", "=ds="..AL["Trainer"] };
+				{ 12, "s56552", "42730", "=q3=Ornate Saronite Walkers", "=ds="..AL["Trainer"] };
+				{ 13, "s55300", "41356", "=q3=Righteous Gauntlets", "=ds="..AL["Trainer"] };
+				{ 14, "s55309", "41349", "=q3=Savage Saronite Gauntlets", "=ds="..AL["Trainer"] };
+				{ 15, "s55306", "41351", "=q3=Savage Saronite Pauldrons", "=ds="..AL["Trainer"] };
+				{ 16, "s55307", "41352", "=q3=Savage Saronite Waistguard", "=ds="..AL["Trainer"] };
+				{ 17, "s55308", "41348", "=q3=Savage Saronite Walkers", "=ds="..AL["Trainer"] };
+				{ 18, "s56549", "42723", "=q3=Ornate Saronite Bracers", "=ds="..AL["Trainer"] };
+				{ 19, "s55305", "41354", "=q3=Savage Saronite Bracers", "=ds="..AL["Trainer"] };
+				{ 20, "s55298", "41355", "=q3=Vengeance Bindings", "=ds="..AL["Trainer"] };
+				{ 21, "s55058", "41129", "=q3=Brilliant Saronite Breastplate", "=ds="..AL["Trainer"] };
+				{ 22, "s59441", "43870", "=q3=Brilliant Saronite Helm", "=ds="..AL["Trainer"] };
+				{ 23, "s55186", "41189", "=q3=Chestplate of Conquest", "=ds="..AL["Trainer"] };
+				{ 24, "s55187", "41190", "=q3=Legplates of Conquest", "=ds="..AL["Trainer"] };
+				{ 25, "s55015", "41114", "=q3=Tempered Saronite Gauntlets", "=ds="..AL["Trainer"] };
+				{ 26, "s55014", "41113", "=q3=Saronite Bulwark", "=ds="..AL["Trainer"] };
+				{ 27, "s55017", "41116", "=q3=Tempered Saronite Bracers", "=ds="..AL["Trainer"] };
+				{ 28, "s55057", "41128", "=q3=Brilliant Saronite Boots", "=ds="..AL["Trainer"] };
+				{ 29, "s59440", "43865", "=q3=Brilliant Saronite Pauldrons", "=ds="..AL["Trainer"] };
+				{ 30, "s54555", "40673", "=q3=Tempered Saronite Helm", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s55015", "41114", "=q3=Tempered Saronite Gauntlets", "=ds="..AL["Trainer"] };
-				{ 2, "s55014", "41113", "=q3=Saronite Bulwark", "=ds="..AL["Trainer"] };
-				{ 3, "s55017", "41116", "=q3=Tempered Saronite Bracers", "=ds="..AL["Trainer"] };
-				{ 4, "s55057", "41128", "=q3=Brilliant Saronite Boots", "=ds="..AL["Trainer"] };
-				{ 5, "s59440", "43865", "=q3=Brilliant Saronite Pauldrons", "=ds="..AL["Trainer"] };
-				{ 6, "s54555", "40673", "=q3=Tempered Saronite Helm", "=ds="..AL["Trainer"] };
-				{ 7, "s54556", "40675", "=q3=Tempered Saronite Shoulders", "=ds="..AL["Trainer"] };
-				{ 8, "s59438", "43864", "=q3=Brilliant Saronite Bracers", "=ds="..AL["Trainer"] };
-				{ 9, "s55056", "41127", "=q3=Brilliant Saronite Gauntlets", "=ds="..AL["Trainer"] };
-				{ 10, "s54552", "40671", "=q3=Tempered Saronite Boots", "=ds="..AL["Trainer"] };
-				{ 11, "s54553", "40672", "=q3=Tempered Saronite Breastplate", "=ds="..AL["Trainer"] };
-				{ 12, "s59436", "43860", "=q3=Brilliant Saronite Belt", "=ds="..AL["Trainer"] };
-				{ 13, "s55055", "41126", "=q3=Brilliant Saronite Legplates", "=ds="..AL["Trainer"] };
-				{ 14, "s54551", "40669", "=q3=Tempered Saronite Belt", "=ds="..AL["Trainer"] };
-				{ 15, "s54554", "40674", "=q3=Tempered Saronite Legplates", "=ds="..AL["Trainer"] };
-				{ 16, "s54557", "40670", "=q3=Saronite Defender", "=ds="..AL["Trainer"] };
-				{ 17, "s55013", "41117", "=q3=Saronite Protector", "=ds="..AL["Trainer"] };
-				{ 18, "s54949", "40955", "=q2=Horned Cobalt Helm", "=ds="..AL["Trainer"] };
-				{ 19, "s54948", "40954", "=q2=Spiked Cobalt Bracers", "=ds="..AL["Trainer"] };
-				{ 20, "s54946", "40953", "=q2=Spiked Cobalt Belt", "=ds="..AL["Trainer"] };
-				{ 21, "s54947", "40943", "=q2=Spiked Cobalt Legplates", "=ds="..AL["Trainer"] };
-				{ 22, "s54945", "40952", "=q2=Spiked Cobalt Gauntlets", "=ds="..AL["Trainer"] };
-				{ 23, "s54941", "40950", "=q2=Spiked Cobalt Shoulders", "=ds="..AL["Trainer"] };
-				{ 24, "s54918", "40949", "=q2=Spiked Cobalt Boots", "=ds="..AL["Trainer"] };
-				{ 25, "s54944", "40951", "=q2=Spiked Cobalt Chestpiece", "=ds="..AL["Trainer"] };
-				{ 26, "s54978", "40956", "=q2=Reinforced Cobalt Shoulders", "=ds="..AL["Drop"]..": "..BabbleZone["Dragonblight"] };
-				{ 27, "s54979", "40957", "=q2=Reinforced Cobalt Helm", "=ds="..AL["Drop"]..": "..BabbleZone["Grizzly Hills"] };
-				{ 28, "s54980", "40958", "=q2=Reinforced Cobalt Legplates", "=ds="..AL["Drop"]..": "..BabbleZone["Zul'Drak"] };
-				{ 29, "s54981", "40959", "=q2=Reinforced Cobalt Chestpiece", "=ds="..AL["Drop"]..": "..BabbleZone["Sholazar Basin"] };
-				{ 30, "s54917", "40942", "=q2=Spiked Cobalt Helm", "=ds="..AL["Trainer"] };
+				{ 1, "s54556", "40675", "=q3=Tempered Saronite Shoulders", "=ds="..AL["Trainer"] };
+				{ 2, "s59438", "43864", "=q3=Brilliant Saronite Bracers", "=ds="..AL["Trainer"] };
+				{ 3, "s55056", "41127", "=q3=Brilliant Saronite Gauntlets", "=ds="..AL["Trainer"] };
+				{ 4, "s54552", "40671", "=q3=Tempered Saronite Boots", "=ds="..AL["Trainer"] };
+				{ 5, "s54553", "40672", "=q3=Tempered Saronite Breastplate", "=ds="..AL["Trainer"] };
+				{ 6, "s59436", "43860", "=q3=Brilliant Saronite Belt", "=ds="..AL["Trainer"] };
+				{ 7, "s55055", "41126", "=q3=Brilliant Saronite Legplates", "=ds="..AL["Trainer"] };
+				{ 8, "s54551", "40669", "=q3=Tempered Saronite Belt", "=ds="..AL["Trainer"] };
+				{ 9, "s54554", "40674", "=q3=Tempered Saronite Legplates", "=ds="..AL["Trainer"] };
+				{ 10, "s54557", "40670", "=q3=Saronite Defender", "=ds="..AL["Trainer"] };
+				{ 11, "s55013", "41117", "=q3=Saronite Protector", "=ds="..AL["Trainer"] };
+				{ 12, "s54949", "40955", "=q2=Horned Cobalt Helm", "=ds="..AL["Trainer"] };
+				{ 13, "s54948", "40954", "=q2=Spiked Cobalt Bracers", "=ds="..AL["Trainer"] };
+				{ 14, "s54946", "40953", "=q2=Spiked Cobalt Belt", "=ds="..AL["Trainer"] };
+				{ 15, "s54947", "40943", "=q2=Spiked Cobalt Legplates", "=ds="..AL["Trainer"] };
+				{ 16, "s54945", "40952", "=q2=Spiked Cobalt Gauntlets", "=ds="..AL["Trainer"] };
+				{ 17, "s54941", "40950", "=q2=Spiked Cobalt Shoulders", "=ds="..AL["Trainer"] };
+				{ 18, "s54918", "40949", "=q2=Spiked Cobalt Boots", "=ds="..AL["Trainer"] };
+				{ 19, "s54944", "40951", "=q2=Spiked Cobalt Chestpiece", "=ds="..AL["Trainer"] };
+				{ 20, "s54978", "40956", "=q2=Reinforced Cobalt Shoulders", "=ds="..AL["Drop"]..": "..BabbleZone["Dragonblight"] };
+				{ 21, "s54979", "40957", "=q2=Reinforced Cobalt Helm", "=ds="..AL["Drop"]..": "..BabbleZone["Grizzly Hills"] };
+				{ 22, "s54980", "40958", "=q2=Reinforced Cobalt Legplates", "=ds="..AL["Drop"]..": "..BabbleZone["Zul'Drak"] };
+				{ 23, "s54981", "40959", "=q2=Reinforced Cobalt Chestpiece", "=ds="..AL["Drop"]..": "..BabbleZone["Sholazar Basin"] };
+				{ 24, "s54917", "40942", "=q2=Spiked Cobalt Helm", "=ds="..AL["Trainer"] };
+				{ 25, "s52570", "39085", "=q2=Cobalt Chestpiece", "=ds="..AL["Trainer"] };
+				{ 26, "s52571", "39084", "=q2=Cobalt Helm", "=ds="..AL["Trainer"] };
+				{ 27, "s52567", "39086", "=q2=Cobalt Legplates", "=ds="..AL["Trainer"] };
+				{ 28, "s55835", "41975", "=q2=Cobalt Gauntlets", "=ds="..AL["Trainer"] };
+				{ 29, "s55834", "41974", "=q2=Cobalt Bracers", "=ds="..AL["Trainer"] };
+				{ 30, "s52572", "39083", "=q2=Cobalt Shoulders", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s52570", "39085", "=q2=Cobalt Chestpiece", "=ds="..AL["Trainer"] };
-				{ 2, "s52571", "39084", "=q2=Cobalt Helm", "=ds="..AL["Trainer"] };
-				{ 3, "s52567", "39086", "=q2=Cobalt Legplates", "=ds="..AL["Trainer"] };
-				{ 4, "s55835", "41975", "=q2=Cobalt Gauntlets", "=ds="..AL["Trainer"] };
-				{ 5, "s55834", "41974", "=q2=Cobalt Bracers", "=ds="..AL["Trainer"] };
-				{ 6, "s52572", "39083", "=q2=Cobalt Shoulders", "=ds="..AL["Trainer"] };
-				{ 7, "s54550", "40668", "=q2=Cobalt Triangle Shield", "=ds="..AL["Trainer"] };
-				{ 8, "s52568", "39087", "=q2=Cobalt Belt", "=ds="..AL["Trainer"] };
-				{ 9, "s52569", "39088", "=q2=Cobalt Boots", "=ds="..AL["Trainer"] };
+				{ 1, "s54550", "40668", "=q2=Cobalt Triangle Shield", "=ds="..AL["Trainer"] };
+				{ 2, "s52568", "39087", "=q2=Cobalt Belt", "=ds="..AL["Trainer"] };
+				{ 3, "s52569", "39088", "=q2=Cobalt Boots", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Armor"],
+			name = BLACKSMITHING..": "..BabbleInventory["Armor"].." - "..AL["Wrath of the Lich King"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -929,7 +941,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Armor"],
+			name = BLACKSMITHING..": "..BabbleInventory["Armor"].." - "..AL["Cataclysm"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -1021,7 +1033,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Weapon"],
+			name = BLACKSMITHING..": "..BabbleInventory["Weapon"].." - "..AL["Classic WoW"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -1076,7 +1088,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Weapon"],
+			name = BLACKSMITHING..": "..BabbleInventory["Weapon"].." - "..AL["Burning Crusade"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -1108,7 +1120,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Weapon"],
+			name = BLACKSMITHING..": "..BabbleInventory["Weapon"].." - "..AL["Wrath of the Lich King"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -1126,7 +1138,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Weapon"],
+			name = BLACKSMITHING..": "..BabbleInventory["Weapon"].." - "..AL["Cataclysm"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};

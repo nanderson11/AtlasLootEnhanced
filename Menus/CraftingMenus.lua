@@ -90,7 +90,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SMITHINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "SmithingArmorCata", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5=Cataclysm" };
+				{ 2, "SmithingArmorCata", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Cataclysm"] };
 				{ 3, "SmithingArmorWrath", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Wrath of the Lich King"] };
 				{ 4, "SmithingArmorBC", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Burning Crusade"] };
 				{ 5, "SmithingArmorOld", "Trade_BlackSmithing", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Classic WoW"] };
@@ -98,7 +98,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 9, "Armorsmith", "inv_chest_plate16", "=ds="..GetSpellInfo(9788), "" };
 				{ 10, "Axesmith", "inv_axe_1h_blacksmithing_01", "=ds="..GetSpellInfo(17041), "" };
 				{ 11, "Swordsmith", "inv_sword_1h_blacksmithing_02", "=ds="..GetSpellInfo(17039), "" };
-				{ 17, "SmithingWeaponCata", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5=Cataclysm" };
+				{ 17, "SmithingWeaponCata", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Cataclysm"] };
 				{ 18, "SmithingWeaponWrath", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Wrath of the Lich King"] };
 				{ 19, "SmithingWeaponBC", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Burning Crusade"] };
 				{ 20, "SmithingWeaponOld", "Trade_BlackSmithing", "=ds="..BabbleInventory["Weapon"], "=q5="..AL["Classic WoW"] };
