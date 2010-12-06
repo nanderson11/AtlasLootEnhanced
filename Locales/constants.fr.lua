@@ -536,7 +536,7 @@ if AL then
 	AL["Random"] = "Aléatoire";
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
 
-	-- Cooking descriptions
+	-- Cooking descriptions -- à traduire
 	--AL["Buff"] = true;
 	--AL["Agility"] = true;
 	--AL["Intellect"] = true;
@@ -598,21 +598,25 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = "Patrons / Plans de L'épreuve du croisé";
 	--AL["BRD Blacksmithing Plans"] = true; -- à traduire
 
+	-- General titles
+	AL["Achievement"] = "Haut fait";
+	AL["Promotional & Card Game"] = "Promotionnel & Jeu de cartes";
+
 	-- Companions
-	--AL["Achievement"] = true;
-	--AL["Achievement & Faction Reward Companions"] = true;
-	--AL["Card Game Companions"] = true;
-	--AL["Companion Accessories"] = true;
-	--AL["Companion Store"] = true;
-	--AL["Crafted Companions"] = true;
-	--AL["Dungeon/Raid"] = true;
+	AL["Achievement & Faction Reward Companions"] = "Haut fait & mascottes de récompenses de factions";
+	AL["Achievement & Faction Reward"] = "Haut fait & récompense de faction";
+	AL["Card Game Companions"] = "Mascottes des jeux de cartes";
+	AL["Companion Accessories"] = "Accessoires pour mascottes";
+	AL["Companion Store"] = "Mascottes de la boutique Blizzard";
+	AL["Crafted Companions"] = "Mascottes de l'artisanat";
+	AL["Dungeon/Raid"] = "Donjon / Raid";
 	--AL["Faction"] = true;
-	--AL["Merchant Sold Companions"] = true;
-	--AL["Pets"] = true;
-	--AL["Promotional Companions"] = true;
-	--AL["Quest Reward Companions"] = true;
-	--AL["Rare Companions"] = true;
-	--AL["Unobtainable Companions"] = true;
+	AL["Merchant Sold Companions"] = "Mascottes des marchands";
+	AL["Pets"] = "Animaux de compagnie";
+	AL["Promotional Companions"] = "Mascottes promotionnelles";
+	AL["Quest Reward Companions"] = "Mascottes des récompenses de quêtes";
+	AL["Rare Companions"] = "Mascottes rares";
+	AL["Unobtainable Companions"] = "Mascottes impossible à obtenir";
 
 	-- Mounts
 	AL["Alliance Flying Mounts"] = "Montures volantes de l'Alliance";
@@ -990,6 +994,7 @@ if AL then
 	--AL["Servant's Quarter Animal Bosses"] = true;
 	--AL["Jadefang"] = true; -- à traduire
 	--AL["Aeonaxx"] = true; -- à traduire
+	--AL["Prince Sarsarun"] = true; -- à traduire
 
 	-- Zones
 	--AL["World Drop"] = true,
