@@ -599,7 +599,7 @@ if AL then
 
 	-- General titles
 	AL["Achievement"] = "成就";
-	AL["Promotional & Card Game"] = ""促銷活動和卡牌遊戲;
+	AL["Promotional & Card Game"] = "促銷活動和卡牌遊戲";
 
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = "成就/聲望獎勵夥伴";
