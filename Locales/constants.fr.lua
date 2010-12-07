@@ -881,9 +881,6 @@ if AL then
 	--AL["Herod/Mograine"] = true,
 	AL["Scarlet Protector/Guardsman"] = "Protecteur/Gardien écarlate";
 	AL["Shadowforge Flame Keeper"] = "Gardien des flammes Ombreforge";
-	AL["Shadow of Doom"] = "Ombre funeste";
-	AL["Bone Witch"] = "Sorcière des ossements";
-	AL["Lumbering Horror"] = "Horreur chancelante";
 	AL["Avatar of the Martyred"] = "Avatar des martyrs";
 	AL["Nexus Stalker"] = "Traqueur du nexus";
 	AL["Auchenai Monk"] = "Moine auchenaï";
@@ -943,12 +940,6 @@ if AL then
 	AL["Gorgolon the All-seeing"] = "Gorgolon l'Omnivoyant";
 	AL["Matron Li-sahar"] = "Matrone Li-sahar";
 	AL["Solus the Eternal"] = "Solus l'Éternel";
-	--AL["Balzaphon"] = true,
-	AL["Lord Blackwood"] = "Seigneur Noirbois";
-	--AL["Revanchion"] = true,
-	--AL["Scorn"] = true,
-	--AL["Sever"] = true,
-	AL["Lady Falther'ess"] = "Dame Falther'ess";
 	AL["Smokywood Pastures Vendor"] = "Vendeurs de Gourmandises Fumebois";
 	--AL["Shartuul"] = true,
 	AL["Darkscreecher Akkarai"] = "Akkarai le Hurle-sombre";

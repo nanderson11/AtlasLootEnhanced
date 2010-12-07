@@ -880,9 +880,6 @@ if AL then
 	AL["Herod/Mograine"] = true;
 	AL["Scarlet Protector/Guardsman"] = true;
 	AL["Shadowforge Flame Keeper"] = true;
-	AL["Shadow of Doom"] = true;
-	AL["Bone Witch"] = true;
-	AL["Lumbering Horror"] = true;
 	AL["Avatar of the Martyred"] = true;
 	AL["Nexus Stalker"] = true;
 	AL["Auchenai Monk"] = true;
@@ -942,12 +939,6 @@ if AL then
 	AL["Gorgolon the All-seeing"] = true;
 	AL["Matron Li-sahar"] = true;
 	AL["Solus the Eternal"] = true;
-	AL["Balzaphon"] = true;
-	AL["Lord Blackwood"] = true;
-	AL["Revanchion"] = true;
-	AL["Scorn"] = true;
-	AL["Sever"] = true;
-	AL["Lady Falther'ess"] = true;
 	AL["Smokywood Pastures Vendor"] = true;
 	AL["Shartuul"] = true;
 	AL["Darkscreecher Akkarai"] = true;
@@ -994,6 +985,7 @@ if AL then
 	AL["Jadefang"] = true;
 	AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = true;
+	AL["Highlord Kruul"] = true; -- added until decided if the set gets removed
 
 	-- Zones
 	AL["World Drop"] = true;

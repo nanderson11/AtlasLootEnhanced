@@ -5733,19 +5733,19 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 13392, "", "=q3=The Postmaster's Seal", "=ds=#s13#", "", ""};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#pre60s15#", "=q1=#z7#"};
-				{ 2, 17082, "", "=q4=Shard of the Flame", "=ds=#s14#, =q2=#n35# (#z14#)", "", "4.46%"};
-				{ 3, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#, =q2=#n36# (#z15#)", "", "3.71%"};
-				{ 5, 0, "INV_Box_01", "=q6=#pre60s20#", "=q1=#z7#"};
-				{ 6, 18204, "", "=q4=Eskhandar's Pelt", "=ds=#s4#, =q2=#n37#", "", "9.16%"};
-				{ 7, 18203, "", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#, =q2=#n38# (#z14#)", "", "16.97%"};
-				{ 8, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#h4#, #w13#, =q2=#n39#", "", "12.36%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s24#", "=q1=#z10#"};
-				{ 17, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#, =q2=#n41#", "", "15.46%"};
-				{ 18, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#, =q2=#n42#", "", "13.07%"};
-				{ 20, 0, "INV_Box_01", "=q6=#pre60s23#", "=q1=#z9#"};
-				{ 21, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#, =q2=#n40#", "", "6.62%"};
-				{ 22, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#, =q2=#n40#", "", "7.44%"};
+				{ 1, 0, "INV_Box_01", "=q6=#pre60s15#", "=q1="..AL["Various Locations"]};
+				{ 2, 17082, "", "=q4=Shard of the Flame", "=ds=#s14#", "=q2="..BabbleBoss["Ragnaros"].." ("..BabbleZone["Molten Core"]..")", "", "4.46%"};
+				{ 3, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#", "=q2="..BabbleBoss["Onyxia"].." ("..BabbleZone["Onyxia's Lair"]..")", "", "3.71%"};
+				{ 5, 0, "INV_Box_01", "=q6=#pre60s20#", "=q1="..AL["Various Locations"]};
+				{ 6, 18204, "", "=q4=Eskhandar's Pelt", "=ds=#s4#", "=q2="..AL["Highlord Kruul"], "", "9.16%"};
+				{ 7, 18203, "", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#", "=q2="..BabbleBoss["Magmadar"].." ("..BabbleZone["Molten Core"]..")", "", "16.97%"};
+				{ 8, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#h4#, #w13#", "=q2="..BabbleBoss["Azuregos"], "", "12.36%"};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s24#", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 17, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#", "=q2="..BabbleBoss["Crystal Fang"], "", "15.46%"};
+				{ 18, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "=q2="..BabbleBoss["Mother Smolderweb"], "", "13.07%"};
+				{ 20, 0, "INV_Box_01", "=q6=#pre60s23#", "=q1="..BabbleZone["Upper Blackrock Spire"]};
+				{ 21, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "=q2="..BabbleBoss["Warchief Rend Blackhand"], "", "6.62%"};
+				{ 22, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#", "=q2="..BabbleBoss["Warchief Rend Blackhand"], "", "7.44%"};
 			};
 		};
 		info = {
@@ -5756,25 +5756,25 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["VWOWScholo"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#pre60s6#", "=ec1=#a1#. =q1=#z5#"};
+				{ 1, 0, "INV_Box_01", "=q6=#pre60s6#", "=ec1=#a1#. =q1="..BabbleZone["Scholomance"]};
 				{ 2, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#", "", "1.12%"};
 				{ 3, 14626, "", "=q3=Necropile Robe", "=ds=#s5#", "", "1.27%"};
 				{ 4, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#", "", "1.03%"};
 				{ 5, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#", "", "0.85%"};
 				{ 6, 14631, "", "=q3=Necropile Boots", "=ds=#s12#", "", "0.88%"};
-				{ 8, 0, "INV_Box_01", "=q6=#pre60s7#", "=ec1=#a2#. =q1=#z5#"};
+				{ 8, 0, "INV_Box_01", "=q6=#pre60s7#", "=ec1=#a2#. =q1="..BabbleZone["Scholomance"]};
 				{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#", "", "1.51%"};
 				{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#", "", "0.82%"};
 				{ 11, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#", "", "0.60%"};
 				{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#", "", "1.09%"};
 				{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#", "", "0.67%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s8#", "=ec1=#a3#. =q1=#z5#"};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s8#", "=ec1=#a3#. =q1="..BabbleZone["Scholomance"]};
 				{ 17, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#", "", "0.54%"};
 				{ 18, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#", "", "0.09%"};
 				{ 19, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#", "", "0.60%"};
 				{ 20, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#", "", "0.42%"};
 				{ 21, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#", "", "0.36%"};
-				{ 23, 0, "INV_Box_01", "=q6=#pre60s9#", "=ec1=#a4#. =q1=#z5#"};
+				{ 23, 0, "INV_Box_01", "=q6=#pre60s9#", "=ec1=#a4#. =q1="..BabbleZone["Scholomance"]};
 				{ 24, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#", "", "0.45%"};
 				{ 25, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#", "", "0.45%"};
 				{ 26, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#", "", "0.67%"};
@@ -5791,24 +5791,24 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["VWOWZulGurub"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#pre60s16#", "=q1=#z8#"};
-				{ 2, 19898, "", "=q3=Seal of Jin", "=ds=#s13#, =q2=#n28#", "", "8.81%"};
-				{ 3, 19925, "", "=q3=Band of Jin", "=ds=#s13#, =q2=#n29#", "", "10.36%"};
-				{ 5, 0, "INV_Box_01", "=q6=#pre60s17#", "=q1=#z8#"};
-				{ 6, 19873, "", "=q3=Overlord's Crimson Band", "=ds=#s13#, =q2=#n33#", "", "10.12%"};
-				{ 7, 19912, "", "=q3=Overlord's Onyx Band", "=ds=#s13#, =q2=#n30#", "", "14.51%"};
-				{ 9, 0, "INV_Box_01", "=q6=#pre60s22#", "=q1=#z8#"};
-				{ 10, 19896, "", "=q4=Thekal's Grasp", "=ds=#h3#, #w13#, =q2=#n28#", "", "5.20%"};
-				{ 11, 19910, "", "=q4=Arlokk's Grasp", "=ds=#h4#, #w13#, =q2=#n30#", "", "4.54%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s18#", "=q1=#z8#"};
-				{ 17, 19863, "", "=q3=Primalist's Seal", "=ds=#s13#, =q2=#n33#", "", "9.72%"};
-				{ 18, 19920, "", "=q3=Primalist's Band", "=ds=#s13#, =q2=#n31#", "", "8.95%"};
-				{ 20, 0, "INV_Box_01", "=q6=#pre60s19#", "=q1=#z8#"};
-				{ 21, 19905, "", "=q3=Zanzil's Band", "=ds=#s13#, =q2=#n32#", "", "9.24%"};
-				{ 22, 19893, "", "=q3=Zanzil's Seal", "=ds=#s13#, =q2=#n33#", "", "10.12%"};
-				{ 24, 0, "INV_Box_01", "=q6=#pre60s21#", "=q1=#z8#"};
-				{ 25, 19865, "", "=q4=Warblade of the Hakkari", "=ds=#h3#, #w10#, =q2=#n34#", "", "5.18%"};
-				{ 26, 19866, "", "=q4=Warblade of the Hakkari", "=ds=#h4#, #w10#, =q2=#n33#", "", "4.55%"};
+				{ 1, 0, "INV_Box_01", "=q6=#pre60s16#", "=q1="..BabbleZone["Zul'Gurub"]};
+				{ 2, 19898, "", "=q3=Seal of Jin", "=ds=#s13#", "=q2="..BabbleBoss["High Priest Thekal"], "", "8.81%"};
+				{ 3, 19925, "", "=q3=Band of Jin", "=ds=#s13#", "=q2="..BabbleBoss["High Priestess Mar'li"], "", "10.36%"};
+				{ 5, 0, "INV_Box_01", "=q6=#pre60s17#", "=q1="..BabbleZone["Zul'Gurub"]};
+				{ 6, 19873, "", "=q3=Overlord's Crimson Band", "=ds=#s13#", "=q2="..BabbleBoss["Bloodlord Mandokir"], "", "10.12%"};
+				{ 7, 19912, "", "=q3=Overlord's Onyx Band", "=ds=#s13#", "=q2="..BabbleBoss["High Priestess Arlokk"], "", "14.51%"};
+				{ 9, 0, "INV_Box_01", "=q6=#pre60s22#", "=q1="..BabbleZone["Zul'Gurub"]};
+				{ 10, 19896, "", "=q4=Thekal's Grasp", "=ds=#h3#, #w13#", "=q2="..BabbleBoss["High Priest Thekal"], "", "5.20%"};
+				{ 11, 19910, "", "=q4=Arlokk's Grasp", "=ds=#h4#, #w13#", "=q2="..BabbleBoss["High Priestess Arlokk"], "", "4.54%"};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s18#", "=q1="..BabbleZone["Zul'Gurub"]};
+				{ 17, 19863, "", "=q3=Primalist's Seal", "=ds=#s13#", "=q2="..BabbleBoss["Bloodlord Mandokir"], "", "9.72%"};
+				{ 18, 19920, "", "=q3=Primalist's Band", "=ds=#s13#", "=q2="..BabbleBoss["High Priestess Jeklik"], "", "8.95%"};
+				{ 20, 0, "INV_Box_01", "=q6=#pre60s19#", "=q1="..BabbleZone["Zul'Gurub"]};
+				{ 21, 19905, "", "=q3=Zanzil's Band", "=ds=#s13#", "=q2="..BabbleBoss["High Priest Venoxis"], "", "9.24%"};
+				{ 22, 19893, "", "=q3=Zanzil's Seal", "=ds=#s13#", "=q2="..BabbleBoss["Bloodlord Mandokir"], "", "10.12%"};
+				{ 24, 0, "INV_Box_01", "=q6=#pre60s21#", "=q1="..BabbleZone["Zul'Gurub"]};
+				{ 25, 19865, "", "=q4=Warblade of the Hakkari", "=ds=#h3#, #w10#", "=q2="..BabbleBoss["Hakkar"], "", "5.18%"};
+				{ 26, 19866, "", "=q4=Warblade of the Hakkari", "=ds=#h4#, #w10#", "=q2="..BabbleBoss["Bloodlord Mandokir"], "", "4.55%"};
 		Back = "SETSCLASSIC";
 			};
 		};

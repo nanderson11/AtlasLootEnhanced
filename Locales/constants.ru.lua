@@ -875,9 +875,6 @@ if AL then
 	AL["Herod/Mograine"] = "Герод/Могрейн";
 	AL["Scarlet Protector/Guardsman"] = "Охранник/Заступник из Алого Ордена";
 	AL["Shadowforge Flame Keeper"] = "Тенегорнский хранитель огня";
-	AL["Shadow of Doom"] = "Тень Рока";
-	AL["Bone Witch"] = "Костяной ведьмак";
-	AL["Lumbering Horror"] = "Неуклюжий ужас";
 	AL["Avatar of the Martyred"] = "Аватара Мученика";
 	AL["Nexus Stalker"] = "Ловчий нексуса";
 	AL["Auchenai Monk"] = "Аукенайский монах";
@@ -937,12 +934,6 @@ if AL then
 	AL["Gorgolon the All-seeing"] = "Горголон Всевидящий";
 	AL["Matron Li-sahar"] = "Сестра Ли-саар";
 	AL["Solus the Eternal"] = "Солус Вечный";
-	AL["Balzaphon"] = "Балзафон";
-	AL["Lord Blackwood"] = "Лорд Чернолес";
-	AL["Revanchion"] = "Реваншион";
-	AL["Scorn"] = "Скорн";
-	AL["Sever"] = "Отсекатель";
-	AL["Lady Falther'ess"] = "Леди Фалтер'есс";
 	AL["Smokywood Pastures Vendor"] = "торговец-Пастбища Дымного Леса";
 	AL["Shartuul"] = "Шартуул";
 	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";

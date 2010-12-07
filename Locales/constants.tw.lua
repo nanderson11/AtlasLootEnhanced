@@ -879,9 +879,6 @@ if AL then
 	AL["Herod/Mograine"] = "赫洛德/莫格萊尼";
 	AL["Scarlet Protector/Guardsman"] = "血色保衛者/血色衛兵";
 	AL["Shadowforge Flame Keeper"] = "暗爐持火者";
-	AL["Shadow of Doom"] = "末日陰影";
-	AL["Bone Witch"] = "骸骨巫師";
-	AL["Lumbering Horror"] = "笨拙的憎惡";
 	AL["Avatar of the Martyred"] = "馬丁瑞德的化身";
 	AL["Nexus Stalker"] = "奈薩斯捕獵者";
 	AL["Auchenai Monk"] = "奧奇奈僧侶";
@@ -941,12 +938,6 @@ if AL then
 	AL["Gorgolon the All-seeing"] = "全知者戈爾多隆";
 	AL["Matron Li-sahar"] = "女侍衛長利薩哈爾";
 	AL["Solus the Eternal"] = "智者索勒斯";
-	AL["Balzaphon"] = "巴爾薩馮";
-	AL["Lord Blackwood"] = "黑木公爵";
-	AL["Revanchion"] = "雷瓦克安";
-	AL["Scorn"] = "瑟克恩";
-	AL["Sever"] = "塞沃爾";
-	AL["Lady Falther'ess"] = "法瑟蕾絲夫人";
 	AL["Smokywood Pastures Vendor"] = "燻木牧場商人";
 	AL["Shartuul"] = "夏圖歐";
 	AL["Darkscreecher Akkarai"] = "黑暗尖叫者阿卡萊";
