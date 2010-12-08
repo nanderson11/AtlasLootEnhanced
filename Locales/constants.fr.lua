@@ -982,10 +982,11 @@ if AL then
 	AL["Time-Lost Proto Drake"] = "Rênes de proto-drake perdu dans le temps";
 	AL["Razzashi Raptor"] = "Raptor Razzashi";
 	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
-	--AL["Servant's Quarter Animal Bosses"] = true;
-	--AL["Jadefang"] = true; -- à traduire
+	--AL["Servant's Quarter Animal Bosses"] = true; -- à traduire
+	AL["Jadefang"] = "Jadecroc";
 	--AL["Aeonaxx"] = true; -- à traduire
-	--AL["Prince Sarsarun"] = true; -- à traduire
+	--AL["Prince Sarsarun"] = true;
+	-- AL["Highlord Kruul"] = true; -- added until decided if the set gets removed -- à traduire
 
 	-- Zones
 	--AL["World Drop"] = true,
