@@ -353,11 +353,12 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55798, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
-				{ 3, 55797, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
-				{ 4, 55799, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
-				{ 5, 55800, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
-				{ 6, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
+				{ 2, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
+				{ 3, 55798, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
+				{ 4, 55797, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
+				{ 5, 55799, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
+				{ 6, 55800, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
+				{ 7, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
 				{ 18, 56334, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
@@ -4249,7 +4250,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
 				{ 2, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
-				{ 3, 64883, "", "=q4=Scepter of Az'Aqir", "=ds=#e26# =q2=#p25#"};
+				{ 3, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
 				{ 4, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
 				{ 5, 62462, "", "=q4=Goblin Turbo-Trike Key", "=ds=#e26#"};
 				{ 6, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};

@@ -1082,7 +1082,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Ambassador Flamelash"], ""};
-				{ 2, 53504, "", "=q4=Flamewalker's Treads", "=ds=#s12#, #a2#"};
+				{ 2, 53504, "", "=q4=Flamewaker's Treads", "=ds=#s12#, #a2#"};
 				{ 3, 53505, "", "=q4=Salamander Skin", "=ds=#s5#, #a4#"};
 				{ 4, 53502, "", "=q4=Flamelash Amulet", "=ds=#s2#"};
 				{ 5, 53503, "", "=q4=Pendant of Burning Spirits", "=ds=#s2#"};
