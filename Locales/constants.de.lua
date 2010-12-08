@@ -985,6 +985,7 @@ if AL then
 	AL["Jadefang"] = "Jadezahn";
 	-- AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = "Prinz Sarsarun";
+	AL["Highlord Kruul"] = "Hochlord Kruul";
 
 	-- Zones
 	AL["World Drop"] = "Weltdrops";
