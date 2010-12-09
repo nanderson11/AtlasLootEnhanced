@@ -245,21 +245,7 @@ AtlasLoot_TextParsing = {
 	{ "#x1#", AL["Timed Reward Chest 4"] },
 
 	-- NPC Names
-	{ "#n1#", BabbleBoss["Lord Cobrahn"] },
-	{ "#n2#", BabbleBoss["Lady Anacondra"] },
-	{ "#n3#", BabbleBoss["Lord Serpentis"] },
-	{ "#n4#", AL["Druid of the Fang"] },
-	{ "#n5#", BabbleBoss["Lord Pythas"] },
-	{ "#n6#", BabbleBoss["Edwin VanCleef"] },--Might not be in Deadmines anymore
-	{ "#n7#", BabbleBoss["Captain Greenskin"] },
-	{ "#n8#", AL["Defias Strip Miner"] },
-	{ "#n9#", AL["Defias Overseer/Taskmaster"] },
-	{ "#n10#", AL["Scarlet Defender/Myrmidon"] },
 	{ "#n11#", AL["Trash Mobs"] },
-	{ "#n12#", AL["Scarlet Champion"] },
-	{ "#n13#", AL["Scarlet Centurion"] },
-	{ "#n14#", AL["Herod/Mograine"] },
-	{ "#n15#", AL["Scarlet Protector/Guardsman"] },
 	{ "#n16#", BabbleBoss["Lord Valthalak"] },
 	{ "#n17#", AL["Theldren"] },
 	{ "#n18#", AL["Sothos and Jarien"] },
@@ -269,21 +255,6 @@ AtlasLoot_TextParsing = {
 	{ "#n22#", BabbleBoss["Kormok"] },
 	{ "#n23#", BabbleBoss["The Beast"] },
 	{ "#n24#", BabbleBoss["Postmaster Malown"] },
-	{ "#n28#", BabbleBoss["High Priest Thekal"] },
-	{ "#n29#", BabbleBoss["High Priestess Mar'li"] },
-	{ "#n30#", BabbleBoss["High Priestess Arlokk"] },
-	{ "#n31#", BabbleBoss["High Priestess Jeklik"] },
-	{ "#n32#", BabbleBoss["High Priest Venoxis"] },
-	{ "#n33#", BabbleBoss["Bloodlord Mandokir"] },
-	{ "#n34#", BabbleBoss["Hakkar"] },
-	{ "#n35#", BabbleBoss["Ragnaros"] },
-	{ "#n36#", BabbleBoss["Onyxia"] },
-	--{ "#n37#", AL["Highlord Kruul"] },--Do we use him anymore?
-	{ "#n38#", BabbleBoss["Magmadar"] },
-	{ "#n39#", BabbleBoss["Azuregos"] },--Azuregos is not a raid boss anymore
-	{ "#n40#", BabbleBoss["Warchief Rend Blackhand"] },
-	{ "#n41#", BabbleBoss["Crystal Fang"] },
-	{ "#n42#", BabbleBoss["Mother Smolderweb"] },
 	{ "#n43#", AL["Scarlet Trainee"] },
 	{ "#n44#", AL["Shadowforge Flame Keeper"] },
 	{ "#n45#", BabbleBoss["Baelog"] },--Might not be in Uldaman anymore

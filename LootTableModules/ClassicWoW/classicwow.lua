@@ -4996,14 +4996,14 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t0s2#", "=ec1=#j6#"};
-				{ 2, 16677, "", "=q3=Beaststalker's Cap", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.00%"};
-				{ 3, 16679, "", "=q3=Beaststalker's Mantle", "=ds="..BabbleBoss["Overlord Wyrmthalak"].." ("..AL["LBRS"]..")", "", "9.89%"};
-				{ 4, 16674, "", "=q3=Beaststalker's Tunic", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.81%"};
-				{ 5, 16681, "", "=q3=Beaststalker's Bindings", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.64%"};
-				{ 6, 16676, "", "=q3=Beaststalker's Gloves", "=ds="..BabbleBoss["War Master Voone"].." ("..AL["LBRS"]..")", "", "9.15%"};
-				{ 7, 16680, "", "=q3=Beaststalker's Belt", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.36%"};
-				{ 8, 16678, "", "=q3=Beaststalker's Pants", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.16%"};
-				{ 9, 16675, "", "=q3=Beaststalker's Boots", "=ds="..BabbleBoss["Nerub'enkan"].." ("..AL["Strat"]..")", "", "13.62%"};
+				{ 2, 16677, "", "=q3=Beaststalker's Cap", "=ds=#a3#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.00%"};
+				{ 3, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#a3#, #s3#", "=ds="..BabbleBoss["Overlord Wyrmthalak"].." ("..AL["LBRS"]..")", "", "9.89%"};
+				{ 4, 16674, "", "=q3=Beaststalker's Tunic", "=ds=#a3#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.81%"};
+				{ 5, 16681, "", "=q3=Beaststalker's Bindings", "=ds=#a3#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.64%"};
+				{ 6, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#a3#, #s9#", "=ds="..BabbleBoss["War Master Voone"].." ("..AL["LBRS"]..")", "", "9.15%"};
+				{ 7, 16680, "", "=q3=Beaststalker's Belt", "=ds=#a3#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.36%"};
+				{ 8, 16678, "", "=q3=Beaststalker's Pants", "=ds=#a3#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.16%"};
+				{ 9, 16675, "", "=q3=Beaststalker's Boots", "=ds=#a3#, #s12#", "=ds="..BabbleBoss["Nerub'enkan"].." ("..AL["Strat"]..")", "", "13.62%"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t05s2#", "=ec1=#j7#"};
 				{ 17, 22013, "", "=q4=Beastmaster's Cap", "=ds=#a3#, #s1#"};
 				{ 18, 22016, "", "=q3=Beastmaster's Mantle", "=ds=#a3#, #s3#"};
@@ -5689,31 +5689,31 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["VWOWSets"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#pre60s1#", "=ec1=#a2#. =q1=#z1#"};
-				{ 2, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, =q2=#n6#", "", "14.77%"};
-				{ 3, 10401, "", "=q3=Blackened Defias Gloves", "=ds=#s9#, =q2=#n9#", "", "1.76%"};
-				{ 4, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#, =q2=#n7#", "", "23.26%"};
-				{ 5, 10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#, =q2=#n9#", "", "1.64%"};
-				{ 6, 10402, "", "=q3=Blackened Defias Boots", "=ds=#s12#, =q2=#n8#", "", "1.23%"};
-				{ 8, 0, "INV_Box_01", "=q6=#pre60s2#", "=ec1=#a2#. =q1=#z2#"};
-				{ 9, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, =q2=#n5#", "", "52.05%"};
-				{ 10, 10413, "", "=q3=Gloves of the Fang", "=ds=#s9#, =q2=#n4#", "", "1.20%"};
-				{ 11, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, =q2=#n2#", "", "8.64%"};
-				{ 12, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, =q2=#n1#", "", "16.03%"};
-				{ 13, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, =q2=#n3#", "", "19.08%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s3#", "=ec1=#a3#. =q1=#z3#"};
-				{ 17, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#, =q2=#n12#", "", "0.3%"};
-				{ 18, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#, =q2=#n15#", "", "1.6%"};
-				{ 19, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#, =q2=#n13#", "", "1.7%"};
-				{ 20, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#, =q2=#n10#", "", "1.6%"};
-				{ 21, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, =q2=#n14#", "", "13.2%"};
-				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#, =q2=#n11#", "", "0.1%"};
-				{ 24, 0, "INV_Box_01", "=q6=#pre60s4#", "=ec1=#a3#. =q1=#z4#"};
-				{ 25, 11729, "", "=q3=Savage Gladiator Helm", "=ds=#s1#, =q2=#brd3#, #brd5#", "", "10.08%"};
-				{ 26, 11726, "", "=q4=Savage Gladiator Chain", "=ds=#s5#, =q2=#brd3#", "", "14.52%"};
-				{ 27, 11730, "", "=q3=Savage Gladiator Grips", "=ds=#s9#, =q2=#brd2#", "", "14.12%"};
-				{ 28, 11728, "", "=q3=Savage Gladiator Leggings", "=ds=#s11#, =q2=#brd6#", "", "14.95%"};
-				{ 29, 11731, "", "=q3=Savage Gladiator Greaves", "=ds=#s12#, =q2=#brd1#", "", "15.14%"};
+				{ 1, 0, "INV_Box_01", "=q6=#pre60s1#", "=ec1=#a2#. =q1="..BabbleZone["The Deadmines"]};
+				{ 2, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#", "=q2="..BabbleBoss["Edwin VanCleef"], "", "14.77%"};
+				{ 3, 10401, "", "=q3=Blackened Defias Gloves", "=ds=#s9#", "=q2="..AL["Defias Overseer/Taskmaster"], "", "1.76%"};
+				{ 4, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#", "=q2="..BabbleBoss["Captain Greenskin"], "", "23.26%"};
+				{ 5, 10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#", "=q2="..AL["Defias Overseer/Taskmaster"], "", "1.64%"};
+				{ 6, 10402, "", "=q3=Blackened Defias Boots", "=ds=#s12#", "=q2="..AL["Defias Strip Miner"], "", "1.23%"};
+				{ 8, 0, "INV_Box_01", "=q6=#pre60s2#", "=ec1=#a2#. =q1="..BabbleZone["Wailing Caverns"]};
+				{ 9, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#", "=q2="..BabbleBoss["Lord Pythas"], "", "52.05%"};
+				{ 10, 10413, "", "=q3=Gloves of the Fang", "=ds=#s9#", "=q2="..AL["Druid of the Fang"], "", "1.20%"};
+				{ 11, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#", "=q2="..BabbleBoss["Lady Anacondra"], "", "8.64%"};
+				{ 12, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#", "=q2="..BabbleBoss["Lord Cobrahn"], "", "16.03%"};
+				{ 13, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#", "=q2="..BabbleBoss["Lord Serpentis"], "", "19.08%"};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s3#", "=ec1=#a3#. =q1="..BabbleZone["Scarlet Monastery"]};
+				{ 17, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#", "=q2="..AL["Scarlet Champion"], "", "0.3%"};
+				{ 18, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#", "=q2="..AL["Scarlet Protector/Guardsman"], "", "1.6%"};
+				{ 19, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#", "=q2="..AL["Scarlet Centurion"], "", "1.7%"};
+				{ 20, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#", "=q2="..AL["Scarlet Defender/Myrmidon"], "", "1.6%"};
+				{ 21, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#", "=q2="..AL["Herod/Mograine"], "", "13.2%"};
+				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#", "=q2=#n11#", "", "0.1%"};
+				{ 24, 0, "INV_Box_01", "=q6=#pre60s4#", "=ec1=#a3#. =q1="..BabbleZone["Blackrock Depths"]};
+				{ 25, 11729, "", "=q3=Savage Gladiator Helm", "=ds=#s1#", "=q2="..BabbleBoss["Gorosh the Dervish"].." / "..BabbleBoss["Hedrum the Creeper"], "", "10.08%"};
+				{ 26, 11726, "", "=q4=Savage Gladiator Chain", "=ds=#s5#", "=q2="..BabbleBoss["Gorosh the Dervish"], "", "14.52%"};
+				{ 27, 11730, "", "=q3=Savage Gladiator Grips", "=ds=#s9#", "=q2="..BabbleBoss["Eviscerator"], "", "14.12%"};
+				{ 28, 11728, "", "=q3=Savage Gladiator Leggings", "=ds=#s11#", "=q2="..BabbleBoss["Ok'thor the Breaker"], "", "14.95%"};
+				{ 29, 11731, "", "=q3=Savage Gladiator Greaves", "=ds=#s12#", "=q2="..BabbleBoss["Anub'shiah"], "", "15.14%"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#pre60s5#", "=ec1=#a1#, =q1=#m1# #c5#, #c3#, #c8#"};
@@ -5725,7 +5725,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 22306, "", "=q3=Ironweave Belt", "=ds=#s10#, =q2=#n21# (#z10#)", "", "20.28%"};
 				{ 8, 22303, "", "=q3=Ironweave Pants", "=ds=#s11#, =q2=#n22# (#z5#)", "", "23.33%"};
 				{ 9, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#, =q2=#n23# (#z9#)", "", "12.31%"};
-				{ 16, 0, "INV_Box_01", "=q6=#pre60s10#", "=ec1=#a1#, =q2=#n24#. =q1=#z6#"};
+				{ 16, 0, "INV_Box_01", "=q6=#pre60s10#", "=ec1=#a1#, =q2=#n24#. =q1="..BabbleZone["Stratholme"]};
 				{ 17, 13390, "", "=q3=The Postmaster's Band", "=ds=#s1#", "", ""};
 				{ 18, 13388, "", "=q3=The Postmaster's Tunic", "=ds=#s5#", "", ""};
 				{ 19, 13389, "", "=q3=The Postmaster's Trousers", "=ds=#s11#", "", ""};
