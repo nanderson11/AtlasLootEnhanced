@@ -249,13 +249,6 @@ AtlasLoot_TextParsing = {
 	{ "#n16#", BabbleBoss["Lord Valthalak"] },
 	{ "#n17#", AL["Theldren"] },
 	{ "#n18#", AL["Sothos and Jarien"] },
-	{ "#n19#", BabbleBoss["Halycon"] },
-	{ "#n20#", BabbleBoss["Isalien"] },
-	{ "#n21#", BabbleBoss["Mor Grayhoof"] },
-	{ "#n22#", BabbleBoss["Kormok"] },
-	{ "#n23#", BabbleBoss["The Beast"] },
-	{ "#n24#", BabbleBoss["Postmaster Malown"] },
-	{ "#n43#", AL["Scarlet Trainee"] },
 	{ "#n44#", AL["Shadowforge Flame Keeper"] },
 	{ "#n45#", BabbleBoss["Baelog"] },--Might not be in Uldaman anymore
 	--{ "#n46#", AL["Eric 'The Swift'"] },--Might not be in Uldaman anymore

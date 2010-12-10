@@ -11547,13 +11547,13 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["WOTLKSets"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#wotlk1#", "=q1=#z17#"};
+				{ 1, 0, "INV_Box_01", "=q6=#wotlk1#", "=q1="..AL["World Drop"]};
 				{ 2, 37758, "", "=q3=Raine's Choker of Combustion", "=ds=#s2#"};
 				{ 3, 37821, "", "=q3=Raine's Signet of Blasting", "=ds=#s13#"};
-				{ 5, 0, "INV_Box_01", "=q6=#wotlk2#", "=q1=#z15#"};
+				{ 5, 0, "INV_Box_01", "=q6=#wotlk2#", "=q1="..BabbleZone["Onyxia's Lair"]};
 				{ 6, 49463, "", "=q4=Purified Shard of the Flame", "=ds=#s14#"};
 				{ 7, 49310, "", "=q4=Purified Shard of the Scale", "=ds=#s14#"};
-				{ 16, 0, "INV_Box_01", "=q6=#wotlk3#", "=q1=#z15#"};
+				{ 16, 0, "INV_Box_01", "=q6=#wotlk3#", "=q1="..BabbleZone["Onyxia's Lair"]};
 				{ 17, 49464, "", "=q4=Shiny Shard of the Flame", "=ds=#s14#"};
 				{ 18, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#"};
 			};
