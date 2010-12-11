@@ -4967,23 +4967,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_maul", "=q6=#t0s1#", "=ec1=#j6#"};
-				{ 2, 16720, "", "=q3=Wildheart Cowl", "=ds=#a2#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.09%"};
-				{ 3, 16718, "", "=q3=Wildheart Spaulders", "=ds=#a2#, #s3#", "=ds="..BabbleBoss["Gizrul the Slavener"].." ("..AL["LBRS"]..")", "", "11.04%"};
-				{ 4, 16706, "", "=q3=Wildheart Vest", "=ds=#a2#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "7.36%"};
-				{ 5, 16714, "", "=q3=Wildheart Bracers", "=ds=#a2#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.85%"};
-				{ 6, 16717, "", "=q3=Wildheart Gloves", "=ds=#a2#, #s9#", "=ds="..BabbleBoss["The Unforgiven"].." ("..AL["Strat"]..")", "", "12.61%"};
-				{ 7, 16716, "", "=q3=Wildheart Belt", "=ds=#a2#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["Scholo"]..")", "", "2.60%"};
-				{ 8, 16719, "", "=q3=Wildheart Kilt", "=ds=#a2#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.58%"};
-				{ 9, 16715, "", "=q3=Wildheart Boots", "=ds=#a2#, #s12#", "=ds="..BabbleBoss["Mother Smolderweb"].." ("..AL["LBRS"]..")", "", "13.03%"};
+				{ 2, 16720, "", "=q3=Wildheart Cowl", "=ds=#s1#, #a2#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.09%"};
+				{ 3, 16718, "", "=q3=Wildheart Spaulders", "=ds=#s3#, #a2#", "=ds="..BabbleBoss["Gizrul the Slavener"].." ("..AL["LBRS"]..")", "", "11.04%"};
+				{ 4, 16706, "", "=q3=Wildheart Vest", "=ds=#s5#, #a2#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "7.36%"};
+				{ 5, 16714, "", "=q3=Wildheart Bracers", "=ds= #s8#, #a2#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.85%"};
+				{ 6, 16717, "", "=q3=Wildheart Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["The Unforgiven"].." ("..AL["Strat"]..")", "", "12.61%"};
+				{ 7, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2#", "=ds="..AL["Trash Mobs"].." ("..AL["Scholo"]..")", "", "2.60%"};
+				{ 8, 16719, "", "=q3=Wildheart Kilt", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.58%"};
+				{ 9, 16715, "", "=q3=Wildheart Boots", "=ds=#s12#, #a2#", "=ds="..BabbleBoss["Mother Smolderweb"].." ("..AL["LBRS"]..")", "", "13.03%"};
 				{ 16, 0, "ability_druid_maul", "=q6=#t05s1#", "=ec1=#j7#"};
-				{ 17, 22109, "", "=q4=Feralheart Cowl", "=ds=#a2#, #s1#"};
-				{ 18, 22112, "", "=q3=Feralheart Spaulders", "=ds=#a2#, #s3#"};
-				{ 19, 22113, "", "=q4=Feralheart Vest", "=ds=#a2#, #s5#"};
-				{ 20, 22108, "", "=q3=Feralheart Bracers", "=ds=#a2#, #s8#"};
-				{ 21, 22110, "", "=q4=Feralheart Gloves", "=ds=#a2#, #s9#"};
-				{ 22, 22106, "", "=q3=Feralheart Belt", "=ds=#a2#, #s10#"};
-				{ 23, 22111, "", "=q3=Feralheart Kilt", "=ds=#a2#, #s11#"};
-				{ 24, 22107, "", "=q4=Feralheart Boots", "=ds=#a2#, #s12#"};
+				{ 17, 22109, "", "=q4=Feralheart Cowl", "=ds=#s1#, #a2#"};
+				{ 18, 22112, "", "=q3=Feralheart Spaulders", "=ds=#s3#, #a2#"};
+				{ 19, 22113, "", "=q4=Feralheart Vest", "=ds=#s5#, #a2#"};
+				{ 20, 22108, "", "=q3=Feralheart Bracers", "=ds=#s8#, #a2#"};
+				{ 21, 22110, "", "=q4=Feralheart Gloves", "=ds=#s9#, #a2#"};
+				{ 22, 22106, "", "=q3=Feralheart Belt", "=ds=#s10#, #a2#"};
+				{ 23, 22111, "", "=q3=Feralheart Kilt", "=ds=#s11#, #a2#"};
+				{ 24, 22107, "", "=q4=Feralheart Boots", "=ds=#s12#, #a2#"};
 			};
 		};
 		info = {
@@ -4996,23 +4996,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t0s2#", "=ec1=#j6#"};
-				{ 2, 16677, "", "=q3=Beaststalker's Cap", "=ds=#a3#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.00%"};
-				{ 3, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#a3#, #s3#", "=ds="..BabbleBoss["Overlord Wyrmthalak"].." ("..AL["LBRS"]..")", "", "9.89%"};
-				{ 4, 16674, "", "=q3=Beaststalker's Tunic", "=ds=#a3#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.81%"};
-				{ 5, 16681, "", "=q3=Beaststalker's Bindings", "=ds=#a3#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.64%"};
-				{ 6, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#a3#, #s9#", "=ds="..BabbleBoss["War Master Voone"].." ("..AL["LBRS"]..")", "", "9.15%"};
-				{ 7, 16680, "", "=q3=Beaststalker's Belt", "=ds=#a3#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.36%"};
-				{ 8, 16678, "", "=q3=Beaststalker's Pants", "=ds=#a3#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.16%"};
-				{ 9, 16675, "", "=q3=Beaststalker's Boots", "=ds=#a3#, #s12#", "=ds="..BabbleBoss["Nerub'enkan"].." ("..AL["Strat"]..")", "", "13.62%"};
+				{ 2, 16677, "", "=q3=Beaststalker's Cap", "=ds=#s1#, #a3#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.00%"};
+				{ 3, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#s3#, #a3#", "=ds="..BabbleBoss["Overlord Wyrmthalak"].." ("..AL["LBRS"]..")", "", "9.89%"};
+				{ 4, 16674, "", "=q3=Beaststalker's Tunic", "=ds=#s5#, #a3#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.81%"};
+				{ 5, 16681, "", "=q3=Beaststalker's Bindings", "=ds=#s8#, #a3#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.64%"};
+				{ 6, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["War Master Voone"].." ("..AL["LBRS"]..")", "", "9.15%"};
+				{ 7, 16680, "", "=q3=Beaststalker's Belt", "=ds=#s10#, #a3#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.36%"};
+				{ 8, 16678, "", "=q3=Beaststalker's Pants", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.16%"};
+				{ 9, 16675, "", "=q3=Beaststalker's Boots", "=ds=#s12#, #a3#", "=ds="..BabbleBoss["Nerub'enkan"].." ("..AL["Strat"]..")", "", "13.62%"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t05s2#", "=ec1=#j7#"};
-				{ 17, 22013, "", "=q4=Beastmaster's Cap", "=ds=#a3#, #s1#"};
-				{ 18, 22016, "", "=q3=Beastmaster's Mantle", "=ds=#a3#, #s3#"};
-				{ 19, 22060, "", "=q4=Beastmaster's Tunic", "=ds=#a3#, #s5#"};
-				{ 20, 22011, "", "=q3=Beastmaster's Bindings", "=ds=#a3#, #s8#"};
-				{ 21, 22015, "", "=q4=Beastmaster's Gloves", "=ds=#a3#, #s9#"};
-				{ 22, 22010, "", "=q3=Beastmaster's Belt", "=ds=#a3#, #s10#"};
-				{ 23, 22017, "", "=q3=Beastmaster's Pants", "=ds=#a3#, #s11#"};
-				{ 24, 22061, "", "=q4=Beastmaster's Boots", "=ds=#a3#, #s12#"};
+				{ 17, 22013, "", "=q4=Beastmaster's Cap", "=ds=#s1#, #a3#"};
+				{ 18, 22016, "", "=q3=Beastmaster's Mantle", "=ds=#s3#, #a3#"};
+				{ 19, 22060, "", "=q4=Beastmaster's Tunic", "=ds=#s5#, #a3#"};
+				{ 20, 22011, "", "=q3=Beastmaster's Bindings", "=ds=#s8#, #a3#"};
+				{ 21, 22015, "", "=q4=Beastmaster's Gloves", "=ds=#s9#, #a3#"};
+				{ 22, 22010, "", "=q3=Beastmaster's Belt", "=ds=#s10#, #a3#"};
+				{ 23, 22017, "", "=q3=Beastmaster's Pants", "=ds=#s11#, #a3#"};
+				{ 24, 22061, "", "=q4=Beastmaster's Boots", "=ds=#s12#, #a3#"};
 			};
 		};
 		info = {
@@ -5025,23 +5025,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t0s3#", "=ec1=#j6#"};
-				{ 2, 16686, "", "=q3=Magister's Crown", "=ds=#a1#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "8.60%"};
-				{ 3, 16689, "", "=q3=Magister's Mantle", "=ds=#a1#, #s3#", "=ds="..BabbleBoss["Ras Frostwhisper"].." ("..AL["Scholo"]..")", "", "11.93%"};
-				{ 4, 16688, "", "=q3=Magister's Robes", "=ds=#a1#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "7.24%"};
-				{ 5, 16683, "", "=q3=Magister's Bindings", "=ds=#a1#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.19%"};
-				{ 6, 16684, "", "=q3=Magister's Gloves", "=ds=#a1#, #s9#", "=ds="..BabbleBoss["Doctor Theolen Krastinov"].." ("..AL["Scholo"]..")", "", "9.75%"};
-				{ 7, 16685, "", "=q3=Magister's Belt", "=ds=#a1#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.32%"};
-				{ 8, 16687, "", "=q3=Magister's Leggings", "=ds=#a1#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.79%"};
-				{ 9, 16682, "", "=q3=Magister's Boots", "=ds=#a1#, #s12#", "=ds="..BabbleBoss["Hearthsinger Forresten"].." ("..AL["Strat"]..")", "", "10.86%"};
+				{ 2, 16686, "", "=q3=Magister's Crown", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "8.60%"};
+				{ 3, 16689, "", "=q3=Magister's Mantle", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Ras Frostwhisper"].." ("..AL["Scholo"]..")", "", "11.93%"};
+				{ 4, 16688, "", "=q3=Magister's Robes", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "7.24%"};
+				{ 5, 16683, "", "=q3=Magister's Bindings", "=ds=#s8#, #a1#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.19%"};
+				{ 6, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Doctor Theolen Krastinov"].." ("..AL["Scholo"]..")", "", "9.75%"};
+				{ 7, 16685, "", "=q3=Magister's Belt", "=ds=#s10#, #a1#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.32%"};
+				{ 8, 16687, "", "=q3=Magister's Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "6.79%"};
+				{ 9, 16682, "", "=q3=Magister's Boots", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Hearthsinger Forresten"].." ("..AL["Strat"]..")", "", "10.86%"};
 				{ 16, 0, "inv_staff_13", "=q6=#t05s3#", "=ec1=#j7#"};
-				{ 17, 22065, "", "=q4=Sorcerer's Crown", "=ds=#a1#, #s1#"};
-				{ 18, 22068, "", "=q3=Sorcerer's Mantle", "=ds=#a1#, #s3#"};
-				{ 19, 22069, "", "=q4=Sorcerer's Robes", "=ds=#a1#, #s5#"};
-				{ 20, 22063, "", "=q3=Sorcerer's Bindings", "=ds=#a1#, #s8#"};
-				{ 21, 22066, "", "=q4=Sorcerer's Gloves", "=ds=#a1#, #s9#"};
-				{ 22, 22062, "", "=q3=Sorcerer's Belt", "=ds=#a1#, #s10#"};
-				{ 23, 22067, "", "=q3=Sorcerer's Leggings", "=ds=#a1#, #s11#"};
-				{ 24, 22064, "", "=q4=Sorcerer's Boots", "=ds=#a1#, #s12#"};
+				{ 17, 22065, "", "=q4=Sorcerer's Crown", "=ds=#s1#, #a1#"};
+				{ 18, 22068, "", "=q3=Sorcerer's Mantle", "=ds=#s3#, #a1#"};
+				{ 19, 22069, "", "=q4=Sorcerer's Robes", "=ds=#s5#, #a1#"};
+				{ 20, 22063, "", "=q3=Sorcerer's Bindings", "=ds=#s8#, #a1#"};
+				{ 21, 22066, "", "=q4=Sorcerer's Gloves", "=ds=#s9#, #a1#"};
+				{ 22, 22062, "", "=q3=Sorcerer's Belt", "=ds=#s10#, #a1#"};
+				{ 23, 22067, "", "=q3=Sorcerer's Leggings", "=ds=#s11#, #a1#"};
+				{ 24, 22064, "", "=q4=Sorcerer's Boots", "=ds=#s12#, #a1#"};
 			};
 		};
 		info = {
@@ -5054,23 +5054,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_thunderbolt", "=q6=#t0s4#", "=ec1=#j6#"};
-				{ 2, 16727, "", "=q3=Lightforge Helm", "=ds=#a4#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "5.32%"};
-				{ 3, 16729, "", "=q3=Lightforge Spaulders", "=ds=#a4#, #s3#", "=ds="..BabbleBoss["The Beast"].." ("..AL["UBRS"]..")", "", "13.62%"};
-				{ 4, 16726, "", "=q3=Lightforge Breastplate", "=ds=#a4#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "3.76%"};
-				{ 5, 16722, "", "=q3=Lightforge Bracers", "=ds=#a4#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["Scholo"]..")", "", "3.37%"};
-				{ 6, 16724, "", "=q3=Lightforge Gauntlets", "=ds=#a4#, #s9#", "=ds="..BabbleBoss["Timmy the Cruel"].." ("..AL["Strat"]..")", "", "10.42%"};
-				{ 7, 16723, "", "=q3=Lightforge Belt", "=ds=#a4#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.93%"};
-				{ 8, 16728, "", "=q3=Lightforge Legplates", "=ds=#a4#, #s12#", "=ds=#a4#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "4.20%"};
-				{ 9, 16725, "", "=q3=Lightforge Boots", "=ds="..BabbleBoss["Balnazzar"].." ("..AL["Strat"]..")", "", "11.11%"};
+				{ 2, 16727, "", "=q3=Lightforge Helm", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "5.32%"};
+				{ 3, 16729, "", "=q3=Lightforge Spaulders", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["The Beast"].." ("..AL["UBRS"]..")", "", "13.62%"};
+				{ 4, 16726, "", "=q3=Lightforge Breastplate", "=ds=#s5#, #a4#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "3.76%"};
+				{ 5, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4#", "=ds="..AL["Trash Mobs"].." ("..AL["Scholo"]..")", "", "3.37%"};
+				{ 6, 16724, "", "=q3=Lightforge Gauntlets", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Timmy the Cruel"].." ("..AL["Strat"]..")", "", "10.42%"};
+				{ 7, 16723, "", "=q3=Lightforge Belt", "=ds=#s10#, #a4#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.93%"};
+				{ 8, 16728, "", "=q3=Lightforge Legplates", "=ds=#s11#, #a4#", "=ds=#a4#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "4.20%"};
+				{ 9, 16725, "", "=q3=Lightforge Boots", "=ds=#s12#, #a4#", "=ds="..BabbleBoss["Balnazzar"].." ("..AL["Strat"]..")", "", "11.11%"};
 				{ 16, 0, "ability_thunderbolt", "=q6=#t05s4#", "=ec1=#j7#"};
-				{ 17, 22091, "", "=q4=Soulforge Helm", "=ds=#a4#, #s1#"};
-				{ 18, 22093, "", "=q3=Soulforge Spaulders", "=ds=#a4#, #s3#"};
-				{ 19, 22089, "", "=q4=Soulforge Breastplate", "=ds=#a4#, #s5#"};
-				{ 20, 22088, "", "=q3=Soulforge Bracers", "=ds=#a4#, #s8#"};
-				{ 21, 22090, "", "=q4=Soulforge Gauntlets", "=ds=#a4#, #s9#"};
-				{ 22, 22086, "", "=q3=Soulforge Belt", "=ds=#a4#, #s10#"};
-				{ 23, 22092, "", "=q3=Soulforge Legplates", "=ds=#a4#, #s11#"};
-				{ 24, 22087, "", "=q4=Soulforge Boots", "=ds=#a4#, #s12#"};
+				{ 17, 22091, "", "=q4=Soulforge Helm", "=ds=#s1#, #a4#"};
+				{ 18, 22093, "", "=q3=Soulforge Spaulders", "=ds=#s3#, #a4#"};
+				{ 19, 22089, "", "=q4=Soulforge Breastplate", "=ds=#s5#, #a4#"};
+				{ 20, 22088, "", "=q3=Soulforge Bracers", "=ds=#s8#, #a4#"};
+				{ 21, 22090, "", "=q4=Soulforge Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 22086, "", "=q3=Soulforge Belt", "=ds=#s10#, #a4#"};
+				{ 23, 22092, "", "=q3=Soulforge Legplates", "=ds=#s11#, #a4#"};
+				{ 24, 22087, "", "=q4=Soulforge Boots", "=ds=#s12#, #a4#"};
 			};
 		};
 		info = {
@@ -5083,23 +5083,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_30", "=q6=#t0s5#", "=ec1=#j6#"};
-				{ 2, 16693, "", "=q3=Devout Crown", "=ds=#a1#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.89%"};
-				{ 3, 16695, "", "=q3=Devout Mantle", "=ds=#a1#, #s3#", "=ds="..BabbleBoss["Solakar Flamewreath"].." ("..AL["UBRS"]..")", "", "12.84%"};
-				{ 4, 16690, "", "=q3=Devout Robe", "=ds=#a1#, #s8#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.20%"};
-				{ 5, 16697, "", "=q3=Devout Bracers", "=ds=#a1#, #s9#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.13%"};
-				{ 6, 16692, "", "=q3=Devout Gloves", "=ds=#a1#, #s10#", "=ds="..BabbleBoss["Archivist Galford"].." ("..AL["Strat"]..")", "", "12.46%"};
-				{ 7, 16696, "", "=q3=Devout Belt", "=ds=#a1#, #s11#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "2.07%"};
-				{ 8, 16694, "", "=q3=Devout Skirt", "=ds=#a1#, #s12#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "7.42%"};
-				{ 9, 16691, "", "=q3=Devout Sandals", "=ds="..BabbleBoss["Maleki the Pallid"].." ("..AL["Strat"]..")", "", "13.64%"};
+				{ 2, 16693, "", "=q3=Devout Crown", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "7.89%"};
+				{ 3, 16695, "", "=q3=Devout Mantle", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Solakar Flamewreath"].." ("..AL["UBRS"]..")", "", "12.84%"};
+				{ 4, 16690, "", "=q3=Devout Robe", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.20%"};
+				{ 5, 16697, "", "=q3=Devout Bracers", "=ds=#s8#, #a1#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.13%"};
+				{ 6, 16692, "", "=q3=Devout Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Archivist Galford"].." ("..AL["Strat"]..")", "", "12.46%"};
+				{ 7, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "2.07%"};
+				{ 8, 16694, "", "=q3=Devout Skirt", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "7.42%"};
+				{ 9, 16691, "", "=q3=Devout Sandals", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Maleki the Pallid"].." ("..AL["Strat"]..")", "", "13.64%"};
 				{ 16, 0, "inv_staff_30", "=q6=#t05s5#", "=ec1=#j7#"};
-				{ 17, 22080, "", "=q4=Virtuous Crown", "=ds=#a1#, #s1#"};
-				{ 18, 22082, "", "=q3=Virtuous Mantle", "=ds=#a1#, #s3#"};
-				{ 19, 22083, "", "=q4=Virtuous Robe", "=ds=#a1#, #s5#"};
-				{ 20, 22079, "", "=q3=Virtuous Bracers", "=ds=#a1#, #s8#"};
-				{ 21, 22081, "", "=q4=Virtuous Gloves", "=ds=#a1#, #s9#"};
-				{ 22, 22078, "", "=q3=Virtuous Belt", "=ds=#a1#, #s10#"};
-				{ 23, 22085, "", "=q3=Virtuous Skirt", "=ds=#a1#, #s11#"};
-				{ 24, 22084, "", "=q4=Virtuous Sandals", "=ds=#a1#, #s12#"};
+				{ 17, 22080, "", "=q4=Virtuous Crown", "=ds=#s1#, #a1#"};
+				{ 18, 22082, "", "=q3=Virtuous Mantle", "=ds=#s3#, #a1#"};
+				{ 19, 22083, "", "=q4=Virtuous Robe", "=ds=#s5#, #a1#"};
+				{ 20, 22079, "", "=q3=Virtuous Bracers", "=ds=#s8#, #a1#"};
+				{ 21, 22081, "", "=q4=Virtuous Gloves", "=ds=#s9#, #a1#"};
+				{ 22, 22078, "", "=q3=Virtuous Belt", "=ds=#s10#, #a1#"};
+				{ 23, 22085, "", "=q3=Virtuous Skirt", "=ds=#s11#, #a1#"};
+				{ 24, 22084, "", "=q4=Virtuous Sandals", "=ds=#s12#, #a1#"};
 			};
 		};
 		info = {
@@ -5112,23 +5112,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t0s6#", "=ec1=#j6#"};
-				{ 2, 16707, "", "=q3=Shadowcraft Cap", "=ds=#a2#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "6.65%"};
-				{ 3, 16708, "", "=q3=Shadowcraft Spaulders", "=ds=#a2#, #s3#", "=ds="..BabbleBoss["Cannon Master Willey"].." ("..AL["Strat"]..")", "", "10.68%"};
-				{ 4, 16721, "", "=q3=Shadowcraft Tunic", "=ds=#a2#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.09%"};
-				{ 5, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#a2#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["Scholo"]..")", "", "3.51%"};
-				{ 6, 16712, "", "=q3=Shadowcraft Gloves", "=ds=#a2#, #s9#", "=ds="..BabbleBoss["Shadow Hunter Vosh'gajin"].." ("..AL["LBRS"]..")", "", "11.89%"};
-				{ 7, 16713, "", "=q3=Shadowcraft Belt", "=ds=#a2#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.05%"};
-				{ 8, 16709, "", "=q3=Shadowcraft Pants", "=ds=#a2#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "7.76%"};
-				{ 9, 16711, "", "=q3=Shadowcraft Boots", "=ds=#a2#, #s12#", "=ds="..BabbleBoss["Rattlegore"].." ("..AL["Scholo"]..")", "", "14.32%"};
+				{ 2, 16707, "", "=q3=Shadowcraft Cap", "=ds=#s1#, #a2#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "6.65%"};
+				{ 3, 16708, "", "=q3=Shadowcraft Spaulders", "=ds=#s3#, #a2#", "=ds="..BabbleBoss["Cannon Master Willey"].." ("..AL["Strat"]..")", "", "10.68%"};
+				{ 4, 16721, "", "=q3=Shadowcraft Tunic", "=ds=#s5#, #a2#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "6.09%"};
+				{ 5, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2#", "=ds="..AL["Trash Mobs"].." ("..AL["Scholo"]..")", "", "3.51%"};
+				{ 6, 16712, "", "=q3=Shadowcraft Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Shadow Hunter Vosh'gajin"].." ("..AL["LBRS"]..")", "", "11.89%"};
+				{ 7, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.05%"};
+				{ 8, 16709, "", "=q3=Shadowcraft Pants", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "7.76%"};
+				{ 9, 16711, "", "=q3=Shadowcraft Boots", "=ds=#s12#, #a2#", "=ds="..BabbleBoss["Rattlegore"].." ("..AL["Scholo"]..")", "", "14.32%"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t05s6#", "=ec1=#j7#"};
-				{ 17, 22005, "", "=q4=Darkmantle Cap", "=ds=#a2#, #s1#"};
-				{ 18, 22008, "", "=q3=Darkmantle Spaulders", "=ds=#a2#, #s3#"};
-				{ 19, 22009, "", "=q4=Darkmantle Tunic", "=ds=#a2#, #s5#"};
-				{ 20, 22004, "", "=q3=Darkmantle Bracers", "=ds=#a2#, #s8#"};
-				{ 21, 22006, "", "=q4=Darkmantle Gloves", "=ds=#a2#, #s9#"};
-				{ 22, 22002, "", "=q3=Darkmantle Belt", "=ds=#a2#, #s10#"};
-				{ 23, 22007, "", "=q3=Darkmantle Pants", "=ds=#a2#, #s11#"};
-				{ 24, 22003, "", "=q4=Darkmantle Boots", "=ds=#a2#, #s12#"};
+				{ 17, 22005, "", "=q4=Darkmantle Cap", "=ds=#s1#, #a2#"};
+				{ 18, 22008, "", "=q3=Darkmantle Spaulders", "=ds=#s3#, #a2#"};
+				{ 19, 22009, "", "=q4=Darkmantle Tunic", "=ds=#s5#, #a2#"};
+				{ 20, 22004, "", "=q3=Darkmantle Bracers", "=ds=#s8#, #a2#"};
+				{ 21, 22006, "", "=q4=Darkmantle Gloves", "=ds=#s9#, #a2#"};
+				{ 22, 22002, "", "=q3=Darkmantle Belt", "=ds=#s10#, #a2#"};
+				{ 23, 22007, "", "=q3=Darkmantle Pants", "=ds=#s11#, #a2#"};
+				{ 24, 22003, "", "=q4=Darkmantle Boots", "=ds=#s12#, #a2#"};
 			};
 		};
 		info = {
@@ -5141,23 +5141,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_bloodlust", "=q6=#t0s7#", "=ec1=#j6#"};
-				{ 2, 16667, "", "=q3=Coif of Elements", "=ds=#a3#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "2.86%"};
-				{ 3, 16669, "", "=q3=Pauldrons of Elements", "=ds=#a3#, #s3#", "=ds="..BabbleBoss["Gyth"].." ("..AL["UBRS"]..")", "", "14.77%"};
-				{ 4, 16666, "", "=q3=Vest of Elements", "=ds=#a3#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "3.03%"};
-				{ 5, 16671, "", "=q3=Bindings of Elements", "=ds=#a3#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.59%"};
-				{ 6, 16672, "", "=q3=Gauntlets of Elements", "=ds=#a3#, #s9#", "=ds="..BabbleBoss["Pyroguard Emberseer"].." ("..AL["UBRS"]..")", "", "14.23%"};
-				{ 7, 16673, "", "=q3=Cord of Elements", "=ds=#a3#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.06%"};
-				{ 8, 16668, "", "=q3=Kilt of Elements", "=ds=#a3#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "3.02%"};
-				{ 9, 16670, "", "=q3=Boots of Elements", "=ds=#a3#, #s12#", "=ds="..BabbleBoss["Highlord Omokk"].." ("..AL["LBRS"]..")", "", "9.35%"};
+				{ 2, 16667, "", "=q3=Coif of Elements", "=ds=#s1#, #a3#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "2.86%"};
+				{ 3, 16669, "", "=q3=Pauldrons of Elements", "=ds=#s3#, #a3#", "=ds="..BabbleBoss["Gyth"].." ("..AL["UBRS"]..")", "", "14.77%"};
+				{ 4, 16666, "", "=q3=Vest of Elements", "=ds=#s5#, #a3#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "3.03%"};
+				{ 5, 16671, "", "=q3=Bindings of Elements", "=ds=#s8#, #a3#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.59%"};
+				{ 6, 16672, "", "=q3=Gauntlets of Elements", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Pyroguard Emberseer"].." ("..AL["UBRS"]..")", "", "14.23%"};
+				{ 7, 16673, "", "=q3=Cord of Elements", "=ds=#s10#, #a3#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.06%"};
+				{ 8, 16668, "", "=q3=Kilt of Elements", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "3.02%"};
+				{ 9, 16670, "", "=q3=Boots of Elements", "=ds=#s12#, #a3#", "=ds="..BabbleBoss["Highlord Omokk"].." ("..AL["LBRS"]..")", "", "9.35%"};
 				{ 16, 0, "spell_nature_bloodlust", "=q6=#t05s7#", "=ec1=#j7#"};
-				{ 17, 22097, "", "=q4=Coif of The Five Thunders", "=ds=#a3#, #s1#"};
-				{ 18, 22101, "", "=q3=Pauldrons of The Five Thunders", "=ds=#a3#, #s3#"};
-				{ 19, 22102, "", "=q4=Vest of The Five Thunders", "=ds=#a3#, #s5#"};
-				{ 20, 22095, "", "=q3=Bindings of The Five Thunders", "=ds=#a3#, #s8#"};
-				{ 21, 22099, "", "=q4=Gauntlets of The Five Thunders", "=ds=#a3#, #s9#"};
-				{ 22, 22098, "", "=q3=Cord of The Five Thunders", "=ds=#a3#, #s10#"};
-				{ 23, 22100, "", "=q3=Kilt of The Five Thunders", "=ds=#a3#, #s11#"};
-				{ 24, 22096, "", "=q4=Boots of The Five Thunders", "=ds=#a3#, #s12#"};
+				{ 17, 22097, "", "=q4=Coif of The Five Thunders", "=ds=#s1#, #a3#"};
+				{ 18, 22101, "", "=q3=Pauldrons of The Five Thunders", "=ds=#s3#, #a3#"};
+				{ 19, 22102, "", "=q4=Vest of The Five Thunders", "=ds=#s5#, #a3#"};
+				{ 20, 22095, "", "=q3=Bindings of The Five Thunders", "=ds=#s8#, #a3#"};
+				{ 21, 22099, "", "=q4=Gauntlets of The Five Thunders", "=ds=#s9#, #a3#"};
+				{ 22, 22098, "", "=q3=Cord of The Five Thunders", "=ds=#s10#, #a3#"};
+				{ 23, 22100, "", "=q3=Kilt of The Five Thunders", "=ds=#s11#, #a3#"};
+				{ 24, 22096, "", "=q4=Boots of The Five Thunders", "=ds=#s12#, #a3#"};
 			};
 		};
 		info = {
@@ -5170,23 +5170,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t0s8#", "=ec1=#j6#"};
-				{ 2, 16698, "", "=q3=Dreadmist Mask", "=ds=#a1#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "8.78%"};
-				{ 3, 16701, "", "=q3=Dreadmist Mantle", "=ds=#a1#, #s3#", "=ds="..BabbleBoss["Jandice Barov"].." ("..AL["Scholo"]..")", "", "12.20%"};
-				{ 4, 16700, "", "=q3=Dreadmist Robe", "=ds=#a1#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "8.04%"};
-				{ 5, 16703, "", "=q3=Dreadmist Bracers", "=ds=#a1#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.68%"};
-				{ 6, 16705, "", "=q3=Dreadmist Wraps", "=ds=#a1#, #s9#", "=ds="..BabbleBoss["Lorekeeper Polkelt"].." ("..AL["Scholo"]..")", "", "14.54%"};
-				{ 7, 16702, "", "=q3=Dreadmist Belt", "=ds=#a1#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.03%"};
-				{ 8, 16699, "", "=q3=Dreadmist Leggings", "=ds=#a1#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "7.31%"};
-				{ 9, 16704, "", "=q3=Dreadmist Sandals", "=ds=#a1#, #s12#", "=ds="..BabbleBoss["Baroness Anastari"].." ("..AL["Strat"]..")", "", "13.16%"};
+				{ 2, 16698, "", "=q3=Dreadmist Mask", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "8.78%"};
+				{ 3, 16701, "", "=q3=Dreadmist Mantle", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Jandice Barov"].." ("..AL["Scholo"]..")", "", "12.20%"};
+				{ 4, 16700, "", "=q3=Dreadmist Robe", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "8.04%"};
+				{ 5, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.68%"};
+				{ 6, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Lorekeeper Polkelt"].." ("..AL["Scholo"]..")", "", "14.54%"};
+				{ 7, 16702, "", "=q3=Dreadmist Belt", "=ds=#s10#, #a1#", "=ds="..AL["Trash Mobs"].." ("..AL["Strat"]..")", "", "1.03%"};
+				{ 8, 16699, "", "=q3=Dreadmist Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "7.31%"};
+				{ 9, 16704, "", "=q3=Dreadmist Sandals", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Baroness Anastari"].." ("..AL["Strat"]..")", "", "13.16%"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t05s8#", "=ec1=#j7#"};
-				{ 17, 22074, "", "=q4=Deathmist Mask", "=ds=#a1#, #s1#"};
-				{ 18, 22073, "", "=q3=Deathmist Mantle", "=ds=#a1#, #s3#"};
-				{ 19, 22075, "", "=q4=Deathmist Robe", "=ds=#a1#, #s5#"};
-				{ 20, 22071, "", "=q3=Deathmist Bracers", "=ds=#a1#, #s8#"};
-				{ 21, 22077, "", "=q4=Deathmist Wraps", "=ds=#a1#, #s9#"};
-				{ 22, 22070, "", "=q3=Deathmist Belt", "=ds=#a1#, #s10#"};
-				{ 23, 22072, "", "=q3=Deathmist Leggings", "=ds=#a1#, #s11#"};
-				{ 24, 22076, "", "=q4=Deathmist Sandals", "=ds=#a1#, #s12#"};
+				{ 17, 22074, "", "=q4=Deathmist Mask", "=ds=#s1#, #a1#"};
+				{ 18, 22073, "", "=q3=Deathmist Mantle", "=ds=#s3#, #a1#"};
+				{ 19, 22075, "", "=q4=Deathmist Robe", "=ds=#s5#, #a1#"};
+				{ 20, 22071, "", "=q3=Deathmist Bracers", "=ds=#s8#, #a1#"};
+				{ 21, 22077, "", "=q4=Deathmist Wraps", "=ds=#s9#, #a1#"};
+				{ 22, 22070, "", "=q3=Deathmist Belt", "=ds=#s10#, #a1#"};
+				{ 23, 22072, "", "=q3=Deathmist Leggings", "=ds=#s11#, #a1#"};
+				{ 24, 22076, "", "=q4=Deathmist Sandals", "=ds=#s12#, #a1#"};
 			};
 		};
 		info = {
@@ -5199,23 +5199,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_sword_27", "=q6=#t0s9#", "=ec1=#j6#"};
-				{ 2, 16731, "", "=q3=Helm of Valor", "=ds=#a4#, #s1#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "6.54%"};
-				{ 3, 16733, "", "=q3=Spaulders of Valor", "=ds=#a4#, #s3#", "=ds="..BabbleBoss["Warchief Rend Blackhand"].." ("..AL["UBRS"]..")", "", "13.39%"};
-				{ 4, 16730, "", "=q3=Breastplate of Valor", "=ds=#a4#, #s5#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "5.83%"};
-				{ 5, 16735, "", "=q3=Bracers of Valor", "=ds=#a4#, #s8#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.49%"};
-				{ 6, 16737, "", "=q3=Gauntlets of Valor", "=ds=#a4#, #s9#", "=ds="..BabbleBoss["Ramstein the Gorger"].." ("..AL["Strat"]..")", "", "9.58%"};
-				{ 7, 16736, "", "=q3=Belt of Valor", "=ds=#a4#, #s10#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.96%"};
-				{ 8, 16732, "", "=q3=Legplates of Valor", "=ds=#a4#, #s11#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "5.74%"};
-				{ 9, 16734, "", "=q3=Boots of Valor", "=ds=#a4#, #s12#", "=ds="..BabbleBoss["Kirtonos the Herald"].." ("..AL["Scholo"]..")", "", "11.12%"};
+				{ 2, 16731, "", "=q3=Helm of Valor", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "6.54%"};
+				{ 3, 16733, "", "=q3=Spaulders of Valor", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Warchief Rend Blackhand"].." ("..AL["UBRS"]..")", "", "13.39%"};
+				{ 4, 16730, "", "=q3=Breastplate of Valor", "=ds=#s5#, #a4#", "=ds="..BabbleBoss["General Drakkisath"].." ("..AL["UBRS"]..")", "", "5.83%"};
+				{ 5, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.49%"};
+				{ 6, 16737, "", "=q3=Gauntlets of Valor", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Ramstein the Gorger"].." ("..AL["Strat"]..")", "", "9.58%"};
+				{ 7, 16736, "", "=q3=Belt of Valor", "=ds=#s10#, #a4#", "=ds="..AL["Trash Mobs"].." ("..AL["LBRS"]..")", "", "1.96%"};
+				{ 8, 16732, "", "=q3=Legplates of Valor", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Baron Rivendare"].." ("..AL["Strat"]..")", "", "5.74%"};
+				{ 9, 16734, "", "=q3=Boots of Valor", "=ds=#s12#, #a4#", "=ds="..BabbleBoss["Kirtonos the Herald"].." ("..AL["Scholo"]..")", "", "11.12%"};
 				{ 16, 0, "inv_sword_27", "=q6=#t05s9#", "=ec1=#j7#"};
-				{ 17, 21999, "", "=q4=Helm of Heroism", "=ds=#a4#, #s1#"};
-				{ 18, 22001, "", "=q3=Spaulders of Heroism", "=ds=#a4#, #s3#"};
-				{ 19, 21997, "", "=q4=Breastplate of Heroism", "=ds=#a4#, #s5#"};
-				{ 20, 21996, "", "=q3=Bracers of Heroism", "=ds=#a4#, #s8#"};
-				{ 21, 21998, "", "=q4=Gauntlets of Heroism", "=ds=#a4#, #s9#"};
-				{ 22, 21994, "", "=q3=Belt of Heroism", "=ds=#a4#, #s10#"};
-				{ 23, 22000, "", "=q3=Legplates of Heroism", "=ds=#a4#, #s11#"};
-				{ 24, 21995, "", "=q4=Boots of Heroism", "=ds=#a4#, #s12#"};
+				{ 17, 21999, "", "=q4=Helm of Heroism", "=ds=#s1#, #a4#"};
+				{ 18, 22001, "", "=q3=Spaulders of Heroism", "=ds=#s3#, #a4#"};
+				{ 19, 21997, "", "=q4=Breastplate of Heroism", "=ds=#s5#, #a4#"};
+				{ 20, 21996, "", "=q3=Bracers of Heroism", "=ds=#s8#, #a4#"};
+				{ 21, 21998, "", "=q4=Gauntlets of Heroism", "=ds=#s9#, #a4#"};
+				{ 22, 21994, "", "=q3=Belt of Heroism", "=ds=#s10#, #a4#"};
+				{ 23, 22000, "", "=q3=Legplates of Heroism", "=ds=#s11#, #a4#"};
+				{ 24, 21995, "", "=q4=Boots of Heroism", "=ds=#s12#, #a4#"};
 			};
 		};
 		info = {
@@ -5232,23 +5232,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_maul", "=q6=#t1s1#", "=ec1=#m30#"};
-				{ 2, 16834, "", "=q4=Cenarion Helm", "=ds="..BabbleBoss["Garr"], "", "11.51%"};
-				{ 3, 16836, "", "=q4=Cenarion Spaulders", "=ds="..BabbleBoss["Baron Geddon"], "", "19.52%"};
-				{ 4, 16833, "", "=q4=Cenarion Vestments", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.21%"};
-				{ 5, 16830, "", "=q4=Cenarion Bracers", "=ds="..AL["Trash Mobs"], "", "0.17%"};
-				{ 6, 16831, "", "=q4=Cenarion Gloves", "=ds="..BabbleBoss["Shazzrah"], "", "19.53%"};
-				{ 7, 16828, "", "=q4=Cenarion Belt", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 8, 16835, "", "=q4=Cenarion Leggings", "=ds="..BabbleBoss["Magmadar"], "", "12.90%"};
-				{ 9, 16829, "", "=q4=Cenarion Boots", "=ds="..BabbleBoss["Lucifron"], "", "10.72%"};
+				{ 2, 16834, "", "=q4=Cenarion Helm", "=ds=#s1#, #a2#", "=ds="..BabbleBoss["Garr"], "", "11.51%"};
+				{ 3, 16836, "", "=q4=Cenarion Spaulders", "=ds=#s3#, #a2#", "=ds="..BabbleBoss["Baron Geddon"], "", "19.52%"};
+				{ 4, 16833, "", "=q4=Cenarion Vestments", "=ds=#s5#, #a2#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.21%"};
+				{ 5, 16830, "", "=q4=Cenarion Bracers", "=ds=#s8#, #a2#", "=ds="..AL["Trash Mobs"], "", "0.17%"};
+				{ 6, 16831, "", "=q4=Cenarion Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Shazzrah"], "", "19.53%"};
+				{ 7, 16828, "", "=q4=Cenarion Belt", "=ds=#s10#, #a2#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 8, 16835, "", "=q4=Cenarion Leggings", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Magmadar"], "", "12.90%"};
+				{ 9, 16829, "", "=q4=Cenarion Boots", "=ds=#s12#, #a2#", "=ds="..BabbleBoss["Lucifron"], "", "10.72%"};
 				{ 16, 0, "ability_druid_maul", "=q6=#t2s1#", "=ec1=#m31#"};
-				{ 17, 16900, "", "=q4=Stormrage Cover", "=ds="..BabbleBoss["Nefarian"], "", "13.08%"};
-				{ 18, 16902, "", "=q4=Stormrage Pauldrons", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
-				{ 19, 16897, "", "=q4=Stormrage Chestguard", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
-				{ 20, 16904, "", "=q4=Stormrage Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
-				{ 21, 16899, "", "=q4=Stormrage Handguards", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
-				{ 22, 16903, "", "=q4=Stormrage Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
-				{ 23, 16901, "", "=q4=Stormrage Legguards", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-				{ 24, 16898, "", "=q4=Stormrage Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
+				{ 17, 16900, "", "=q4=Stormrage Cover", "=ds=#s1#, #a2#", "=ds="..BabbleBoss["Nefarian"], "", "13.08%"};
+				{ 18, 16902, "", "=q4=Stormrage Pauldrons", "=ds=#s3#, #a2#", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
+				{ 19, 16897, "", "=q4=Stormrage Chestguard", "=ds=#s5#, #a2#", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
+				{ 20, 16904, "", "=q4=Stormrage Bracers", "=ds=#s8#, #a2#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
+				{ 21, 16899, "", "=q4=Stormrage Handguards", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
+				{ 22, 16903, "", "=q4=Stormrage Belt", "=ds=#s10#, #a2#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
+				{ 23, 16901, "", "=q4=Stormrage Legguards", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+				{ 24, 16898, "", "=q4=Stormrage Boots", "=ds=#s12#, #a2#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
 			};
 		};
 		info = {
@@ -5261,23 +5261,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t1s2#", "=ec1=#m30#"};
-				{ 2, 16846, "", "=q4=Giantstalker's Helmet", "=ds="..BabbleBoss["Garr"], "", "11.57%"};
-				{ 3, 16848, "", "=q4=Giantstalker's Epaulets", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "19.64%"};
-				{ 4, 16845, "", "=q4=Giantstalker's Breastplate", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.83%"};
-				{ 5, 16850, "", "=q4=Giantstalker's Bracers", "=ds="..AL["Trash Mobs"], "", "0.18%"};
-				{ 6, 16852, "", "=q4=Giantstalker's Gloves", "=ds="..BabbleBoss["Shazzrah"], "", "18.58%"};
-				{ 7, 16851, "", "=q4=Giantstalker's Belt", "=ds="..AL["Trash Mobs"], "", "0.17%"};
-				{ 8, 16847, "", "=q4=Giantstalker's Leggings", "=ds="..BabbleBoss["Magmadar"], "", "13.28%"};
-				{ 9, 16849, "", "=q4=Giantstalker's Boots", "=ds="..BabbleBoss["Gehennas"], "", "14.54%"};
+				{ 2, 16846, "", "=q4=Giantstalker's Helmet", "=ds=#s1#, #a3#", "=ds="..BabbleBoss["Garr"], "", "11.57%"};
+				{ 3, 16848, "", "=q4=Giantstalker's Epaulets", "=ds=#s3#, #a3#", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "19.64%"};
+				{ 4, 16845, "", "=q4=Giantstalker's Breastplate", "=ds=#s5#, #a3#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.83%"};
+				{ 5, 16850, "", "=q4=Giantstalker's Bracers", "=ds=#s8#, #a3#", "=ds="..AL["Trash Mobs"], "", "0.18%"};
+				{ 6, 16852, "", "=q4=Giantstalker's Gloves", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Shazzrah"], "", "18.58%"};
+				{ 7, 16851, "", "=q4=Giantstalker's Belt", "=ds=#s10#, #a3#", "=ds="..AL["Trash Mobs"], "", "0.17%"};
+				{ 8, 16847, "", "=q4=Giantstalker's Leggings", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Magmadar"], "", "13.28%"};
+				{ 9, 16849, "", "=q4=Giantstalker's Boots", "=ds=#s12#, #a3#", "=ds="..BabbleBoss["Gehennas"], "", "14.54%"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t2s2#", "=ec1=#m31#"};
-				{ 17, 16939, "", "=q4=Dragonstalker's Helm", "=ds="..BabbleBoss["Nefarian"], "", "13.91%"};
-				{ 18, 16937, "", "=q4=Dragonstalker's Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "16.20%"};
-				{ 19, 16942, "", "=q4=Dragonstalker's Breastplate", "=ds="..BabbleBoss["Nefarian"], "", "13.30%"};
-				{ 20, 16935, "", "=q4=Dragonstalker's Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "19.13%"};
-				{ 21, 16940, "", "=q4=Dragonstalker's Gauntlets", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.13%"};
-				{ 22, 16936, "", "=q4=Dragonstalker's Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.17%"};
-				{ 23, 16938, "", "=q4=Dragonstalker's Legguards", "=ds="..BabbleBoss["Ragnaros"], "", "16.02%"};
-				{ 24, 16941, "", "=q4=Dragonstalker's Greaves", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.78%"};
+				{ 17, 16939, "", "=q4=Dragonstalker's Helm", "=ds=#s1#, #a3#", "=ds="..BabbleBoss["Nefarian"], "", "13.91%"};
+				{ 18, 16937, "", "=q4=Dragonstalker's Spaulders", "=ds=#s3#, #a3#", "=ds="..BabbleBoss["Chromaggus"], "", "16.20%"};
+				{ 19, 16942, "", "=q4=Dragonstalker's Breastplate", "=ds=#s5#, #a3#", "=ds="..BabbleBoss["Nefarian"], "", "13.30%"};
+				{ 20, 16935, "", "=q4=Dragonstalker's Bracers", "=ds=#s8#, #a3#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "19.13%"};
+				{ 21, 16940, "", "=q4=Dragonstalker's Gauntlets", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.13%"};
+				{ 22, 16936, "", "=q4=Dragonstalker's Belt", "=ds=#s10#, #a3#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.17%"};
+				{ 23, 16938, "", "=q4=Dragonstalker's Legguards", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Ragnaros"], "", "16.02%"};
+				{ 24, 16941, "", "=q4=Dragonstalker's Greaves", "=ds=#s12#, #a3#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.78%"};
 			};
 		};
 		info = {
@@ -5290,23 +5290,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t1s3#", "=ec1=#m30#"};
-				{ 2, 16795, "", "=q4=Arcanist Crown", "=ds="..BabbleBoss["Garr"], "", "11.31%"};
-				{ 3, 16797, "", "=q4=Arcanist Mantle", "=ds="..BabbleBoss["Baron Geddon"], "", "19.92%"};
-				{ 4, 16798, "", "=q4=Arcanist Robes", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "16.51%"};
-				{ 5, 16799, "", "=q4=Arcanist Bindings", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 6, 16801, "", "=q4=Arcanist Gloves", "=ds="..BabbleBoss["Shazzrah"], "", "19.59%"};
-				{ 7, 16802, "", "=q4=Arcanist Belt", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 8, 16796, "", "=q4=Arcanist Leggings", "=ds="..BabbleBoss["Magmadar"], "", "14.57%"};
-				{ 9, 16800, "", "=q4=Arcanist Boots", "=ds="..BabbleBoss["Lucifron"], "", "12.06%"};
+				{ 2, 16795, "", "=q4=Arcanist Crown", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Garr"], "", "11.31%"};
+				{ 3, 16797, "", "=q4=Arcanist Mantle", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Baron Geddon"], "", "19.92%"};
+				{ 4, 16798, "", "=q4=Arcanist Robes", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "16.51%"};
+				{ 5, 16799, "", "=q4=Arcanist Bindings", "=ds=#s8#, #a1#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 6, 16801, "", "=q4=Arcanist Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Shazzrah"], "", "19.59%"};
+				{ 7, 16802, "", "=q4=Arcanist Belt", "=ds=#s10#, #a1#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 8, 16796, "", "=q4=Arcanist Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Magmadar"], "", "14.57%"};
+				{ 9, 16800, "", "=q4=Arcanist Boots", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Lucifron"], "", "12.06%"};
 				{ 16, 0, "inv_staff_13", "=q6=#t2s3#", "=ec1=#m31#"};
-				{ 17, 16914, "", "=q4=Netherwind Crown", "=ds="..BabbleBoss["Nefarian"], "", "14.09%"};
-				{ 18, 16917, "", "=q4=Netherwind Mantle", "=ds="..BabbleBoss["Chromaggus"], "", "18.09%"};
-				{ 19, 16916, "", "=q4=Netherwind Robes", "=ds="..BabbleBoss["Nefarian"], "", "14.03%"};
-				{ 20, 16918, "", "=q4=Netherwind Bindings", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.41%"};
-				{ 21, 16913, "", "=q4=Netherwind Gloves", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "7.37%"};
-				{ 22, 16818, "", "=q4=Netherwind Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "19.94%"};
-				{ 23, 16915, "", "=q4=Netherwind Pants", "=ds="..BabbleBoss["Ragnaros"], "", "17.37%"};
-				{ 24, 16912, "", "=q4=Netherwind Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.17%"};
+				{ 17, 16914, "", "=q4=Netherwind Crown", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Nefarian"], "", "14.09%"};
+				{ 18, 16917, "", "=q4=Netherwind Mantle", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Chromaggus"], "", "18.09%"};
+				{ 19, 16916, "", "=q4=Netherwind Robes", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["Nefarian"], "", "14.03%"};
+				{ 20, 16918, "", "=q4=Netherwind Bindings", "=ds=#s8#, #a1#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.41%"};
+				{ 21, 16913, "", "=q4=Netherwind Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "7.37%"};
+				{ 22, 16818, "", "=q4=Netherwind Belt", "=ds=#s10#, #a1#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "19.94%"};
+				{ 23, 16915, "", "=q4=Netherwind Pants", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Ragnaros"], "", "17.37%"};
+				{ 24, 16912, "", "=q4=Netherwind Boots", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.17%"};
 			};
 		};
 		info = {
@@ -5319,23 +5319,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_thunderbolt", "=q6=#t1s4#", "=ec1=#m30#"};
-				{ 2, 16854, "", "=q4=Lawbringer Helm", "=ds="..BabbleBoss["Garr"], "", "7.23%"};
-				{ 3, 16856, "", "=q4=Lawbringer Spaulders", "=ds="..BabbleBoss["Baron Geddon"], "", "12.62%"};
-				{ 4, 16853, "", "=q4=Lawbringer Chestguard", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "9.53%"};
-				{ 5, 16857, "", "=q4=Lawbringer Bracers", "=ds="..AL["Trash Mobs"], "", "0.11%"};
-				{ 6, 16860, "", "=q4=Lawbringer Gauntlets", "=ds="..BabbleBoss["Gehennas"], "", "11.77%"};
-				{ 7, 16858, "", "=q4=Lawbringer Belt", "=ds="..AL["Trash Mobs"], "", "0.10%"};
-				{ 8, 16855, "", "=q4=Lawbringer Legplates", "=ds="..BabbleBoss["Magmadar"], "", "8.54%"};
-				{ 9, 16859, "", "=q4=Lawbringer Boots", "=ds="..BabbleBoss["Lucifron"], "", "7.20%"};
+				{ 2, 16854, "", "=q4=Lawbringer Helm", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Garr"], "", "7.23%"};
+				{ 3, 16856, "", "=q4=Lawbringer Spaulders", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Baron Geddon"], "", "12.62%"};
+				{ 4, 16853, "", "=q4=Lawbringer Chestguard", "=ds=#s5#, #a4#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "9.53%"};
+				{ 5, 16857, "", "=q4=Lawbringer Bracers", "=ds=#s8#, #a4#", "=ds="..AL["Trash Mobs"], "", "0.11%"};
+				{ 6, 16860, "", "=q4=Lawbringer Gauntlets", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Gehennas"], "", "11.77%"};
+				{ 7, 16858, "", "=q4=Lawbringer Belt", "=ds=#s10#, #a4#", "=ds="..AL["Trash Mobs"], "", "0.10%"};
+				{ 8, 16855, "", "=q4=Lawbringer Legplates", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Magmadar"], "", "8.54%"};
+				{ 9, 16859, "", "=q4=Lawbringer Boots", "=ds=#s12#, #a4#", "=ds="..BabbleBoss["Lucifron"], "", "7.20%"};
 				{ 16, 0, "ability_thunderbolt", "=q6=#t2s4#", "=ec1=#m31#"};
-				{ 17, 16955, "", "=q4=Judgement Crown", "=ds="..BabbleBoss["Nefarian"], "", "8.64%"};
-				{ 18, 16953, "", "=q4=Judgement Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
-				{ 19, 16958, "", "=q4=Judgement Breastplate", "=ds="..BabbleBoss["Nefarian"], "", "9.24%"};
-				{ 20, 16951, "", "=q4=Judgement Bindings", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "13.61%"};
-				{ 21, 16956, "", "=q4=Judgement Gauntlets", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "3.58%"};
-				{ 22, 16952, "", "=q4=Judgement Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
-				{ 23, 16954, "", "=q4=Judgement Legplates", "=ds="..BabbleBoss["Ragnaros"], "", "10.81%"};
-				{ 24, 16957, "", "=q4=Judgement Sabatons", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
+				{ 17, 16955, "", "=q4=Judgement Crown", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Nefarian"], "", "8.64%"};
+				{ 18, 16953, "", "=q4=Judgement Spaulders", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
+				{ 19, 16958, "", "=q4=Judgement Breastplate", "=ds=#s5#, #a4#", "=ds="..BabbleBoss["Nefarian"], "", "9.24%"};
+				{ 20, 16951, "", "=q4=Judgement Bindings", "=ds=#s8#, #a4#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "13.61%"};
+				{ 21, 16956, "", "=q4=Judgement Gauntlets", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "3.58%"};
+				{ 22, 16952, "", "=q4=Judgement Belt", "=ds=#s10#, #a4#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
+				{ 23, 16954, "", "=q4=Judgement Legplates", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Ragnaros"], "", "10.81%"};
+				{ 24, 16957, "", "=q4=Judgement Sabatons", "=ds=#s12#, #a4#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
 			};
 		};
 		info = {
@@ -5348,23 +5348,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_30", "=q6=#t1s5#", "=ec1=#m30#"};
-				{ 2, 16813, "", "=q4=Circlet of Prophecy", "=ds="..BabbleBoss["Garr"], "", "11.36%"};
-				{ 3, 16816, "", "=q4=Mantle of Prophecy", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "21.06%"};
-				{ 4, 16815, "", "=q4=Robes of Prophecy", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.65%"};
-				{ 5, 16819, "", "=q4=Vambraces of Prophecy", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 6, 16812, "", "=q4=Gloves of Prophecy", "=ds="..BabbleBoss["Gehennas"], "", "18.65%"};
-				{ 7, 16817, "", "=q4=Girdle of Prophecy", "=ds="..AL["Trash Mobs"], "", "0.18%"};
-				{ 8, 16814, "", "=q4=Pants of Prophecy", "=ds="..BabbleBoss["Magmadar"], "", "14.33%"};
-				{ 9, 16811, "", "=q4=Boots of Prophecy", "=ds="..BabbleBoss["Shazzrah"], "", "14.90%"};
+				{ 2, 16813, "", "=q4=Circlet of Prophecy", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Garr"], "", "11.36%"};
+				{ 3, 16816, "", "=q4=Mantle of Prophecy", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "21.06%"};
+				{ 4, 16815, "", "=q4=Robes of Prophecy", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.65%"};
+				{ 5, 16819, "", "=q4=Vambraces of Prophecy", "=ds=#s8#, #a1#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 6, 16812, "", "=q4=Gloves of Prophecy", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Gehennas"], "", "18.65%"};
+				{ 7, 16817, "", "=q4=Girdle of Prophecy", "=ds=#s10#, #a1#", "=ds="..AL["Trash Mobs"], "", "0.18%"};
+				{ 8, 16814, "", "=q4=Pants of Prophecy", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Magmadar"], "", "14.33%"};
+				{ 9, 16811, "", "=q4=Boots of Prophecy", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Shazzrah"], "", "14.90%"};
 				{ 16, 0, "inv_staff_30", "=q6=#t2s5#", "=ec1=#m31#"};
-				{ 17, 16921, "", "=q4=Halo of Transcendence", "=ds="..BabbleBoss["Nefarian"], "", "13.39%"};
-				{ 18, 16924, "", "=q4=Pauldrons of Transcendence", "=ds="..BabbleBoss["Chromaggus"], "", "17.83%"};
-				{ 19, 16923, "", "=q4=Robes of Transcendence", "=ds="..BabbleBoss["Nefarian"], "", "14.83%"};
-				{ 20, 16926, "", "=q4=Bindings of Transcendence", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.37%"};
-				{ 21, 16920, "", "=q4=Handguards of Transcendence", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.01%"};
-				{ 22, 16925, "", "=q4=Belt of Transcendence", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
-				{ 23, 16922, "", "=q4=Leggings of Transcendence", "=ds="..BabbleBoss["Ragnaros"], "", "17.30%"};
-				{ 24, 16919, "", "=q4=Boots of Transcendence", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
+				{ 17, 16921, "", "=q4=Halo of Transcendence", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Nefarian"], "", "13.39%"};
+				{ 18, 16924, "", "=q4=Pauldrons of Transcendence", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Chromaggus"], "", "17.83%"};
+				{ 19, 16923, "", "=q4=Robes of Transcendence", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["Nefarian"], "", "14.83%"};
+				{ 20, 16926, "", "=q4=Bindings of Transcendence", "=ds=#s8#, #a1#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.37%"};
+				{ 21, 16920, "", "=q4=Handguards of Transcendence", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.01%"};
+				{ 22, 16925, "", "=q4=Belt of Transcendence", "=ds=#s10#, #a1#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
+				{ 23, 16922, "", "=q4=Leggings of Transcendence", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Ragnaros"], "", "17.30%"};
+				{ 24, 16919, "", "=q4=Boots of Transcendence", "=ds= #s12#, #a1#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
 			};
 		};
 		info = {
@@ -5377,23 +5377,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t1s6#", "=ec1=#m30#"};
-				{ 2, 16821, "", "=q4=Nightslayer Cover", "=ds="..BabbleBoss["Garr"], "", "10.38%"};
-				{ 3, 16823, "", "=q4=Nightslayer Shoulder Pads", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "20.66%"};
-				{ 4, 16820, "", "=q4=Nightslayer Chestpiece", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "16.76%"};
-				{ 5, 16825, "", "=q4=Nightslayer Bracelets", "=ds="..AL["Trash Mobs"], "", "0.17%"};
-				{ 6, 16826, "", "=q4=Nightslayer Gloves", "=ds="..BabbleBoss["Gehennas"], "", "19.47%"};
-				{ 7, 16827, "", "=q4=Nightslayer Belt", "=ds="..AL["Trash Mobs"], "", "0.15%"};
-				{ 8, 16822, "", "=q4=Nightslayer Pants", "=ds="..BabbleBoss["Magmadar"], "", "13.83%"};
-				{ 9, 16824, "", "=q4=Nightslayer Boots", "=ds="..BabbleBoss["Shazzrah"], "", "15.58%"};
+				{ 2, 16821, "", "=q4=Nightslayer Cover", "=ds=#s1#, #a2#", "=ds="..BabbleBoss["Garr"], "", "10.38%"};
+				{ 3, 16823, "", "=q4=Nightslayer Shoulder Pads", "=ds=#s3#, #a2#", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "20.66%"};
+				{ 4, 16820, "", "=q4=Nightslayer Chestpiece", "=ds=#s5#, #a2#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "16.76%"};
+				{ 5, 16825, "", "=q4=Nightslayer Bracelets", "=ds=#s8#, #a2#", "=ds="..AL["Trash Mobs"], "", "0.17%"};
+				{ 6, 16826, "", "=q4=Nightslayer Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Gehennas"], "", "19.47%"};
+				{ 7, 16827, "", "=q4=Nightslayer Belt", "=ds=#s10#, #a2#", "=ds="..AL["Trash Mobs"], "", "0.15%"};
+				{ 8, 16822, "", "=q4=Nightslayer Pants", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Magmadar"], "", "13.83%"};
+				{ 9, 16824, "", "=q4=Nightslayer Boots", "=ds=#s12#, #a2#", "=ds="..BabbleBoss["Shazzrah"], "", "15.58%"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t2s6#", "=ec1=#m31#"};
-				{ 17, 16908, "", "=q4=Bloodfang Hood", "=ds="..BabbleBoss["Nefarian"], "", "13.21%"};
-				{ 18, 16832, "", "=q4=Bloodfang Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "17.03%"};
-				{ 19, 16905, "", "=q4=Bloodfang Chestpiece", "=ds="..BabbleBoss["Nefarian"], "", "14.21%"};
-				{ 20, 16911, "", "=q4=Bloodfang Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.69%"};
-				{ 21, 16907, "", "=q4=Bloodfang Gloves", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.84%"};
-				{ 22, 16910, "", "=q4=Bloodfang Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "19.69%"};
-				{ 23, 16909, "", "=q4=Bloodfang Pants", "=ds="..BabbleBoss["Ragnaros"], "", "17.18%"};
-				{ 24, 16906, "", "=q4=Bloodfang Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.66%"};
+				{ 17, 16908, "", "=q4=Bloodfang Hood", "=ds=#s1#, #a2#", "=ds="..BabbleBoss["Nefarian"], "", "13.21%"};
+				{ 18, 16832, "", "=q4=Bloodfang Spaulders", "=ds=#s3#, #a2#", "=ds="..BabbleBoss["Chromaggus"], "", "17.03%"};
+				{ 19, 16905, "", "=q4=Bloodfang Chestpiece", "=ds=#s5#, #a2#", "=ds="..BabbleBoss["Nefarian"], "", "14.21%"};
+				{ 20, 16911, "", "=q4=Bloodfang Bracers", "=ds=#s8#, #a2#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.69%"};
+				{ 21, 16907, "", "=q4=Bloodfang Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.84%"};
+				{ 22, 16910, "", "=q4=Bloodfang Belt", "=ds=#s10#, #a2#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "19.69%"};
+				{ 23, 16909, "", "=q4=Bloodfang Pants", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Ragnaros"], "", "17.18%"};
+				{ 24, 16906, "", "=q4=Bloodfang Boots", "=ds=#s12#, #a2#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.66%"};
 			};
 		};
 		info = {
@@ -5406,23 +5406,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_bloodlust", "=q6=#t1s7#", "=ec1=#m30#"};
-				{ 2, 16842, "", "=q4=Earthfury Helmet", "=ds="..BabbleBoss["Garr"], "", "3.91%"};
-				{ 3, 16844, "", "=q4=Earthfury Epaulets", "=ds="..BabbleBoss["Baron Geddon"], "", "7.29%"};
-				{ 4, 16841, "", "=q4=Earthfury Vestments", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "6.08%"};
-				{ 5, 16840, "", "=q4=Earthfury Bracers", "=ds="..AL["Trash Mobs"], "", "0.06%"};
-				{ 6, 16839, "", "=q4=Earthfury Gauntlets", "=ds="..BabbleBoss["Gehennas"], "", "7.38%"};
-				{ 7, 16838, "", "=q4=Earthfury Belt", "=ds="..AL["Trash Mobs"], "", "0.07%"};
-				{ 8, 16843, "", "=q4=Earthfury Legguards", "=ds="..BabbleBoss["Magmadar"], "", "4.73%"};
-				{ 9, 16837, "", "=q4=Earthfury Boots", "=ds="..BabbleBoss["Lucifron"], "", "4.16%"};
+				{ 2, 16842, "", "=q4=Earthfury Helmet", "=ds=#s1#, #a3#", "=ds="..BabbleBoss["Garr"], "", "3.91%"};
+				{ 3, 16844, "", "=q4=Earthfury Epaulets", "=ds=#s3#, #a3#", "=ds="..BabbleBoss["Baron Geddon"], "", "7.29%"};
+				{ 4, 16841, "", "=q4=Earthfury Vestments", "=ds=#s5#, #a3#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "6.08%"};
+				{ 5, 16840, "", "=q4=Earthfury Bracers", "=ds=#s8#, #a3#", "=ds="..AL["Trash Mobs"], "", "0.06%"};
+				{ 6, 16839, "", "=q4=Earthfury Gauntlets", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Gehennas"], "", "7.38%"};
+				{ 7, 16838, "", "=q4=Earthfury Belt", "=ds=#s10#, #a3#", "=ds="..AL["Trash Mobs"], "", "0.07%"};
+				{ 8, 16843, "", "=q4=Earthfury Legguards", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Magmadar"], "", "4.73%"};
+				{ 9, 16837, "", "=q4=Earthfury Boots", "=ds=#s12#, #a3#", "=ds="..BabbleBoss["Lucifron"], "", "4.16%"};
 				{ 16, 0, "spell_nature_bloodlust", "=q6=#t2s7#", "=ec1=#m31#"};
-				{ 17, 16947, "", "=q4=Helmet of Ten Storms", "=ds="..BabbleBoss["Nefarian"], "", "4.86%"};
-				{ 18, 16945, "", "=q4=Epaulets of Ten Storms", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
-				{ 19, 16950, "", "=q4=Breastplate of Ten Storms", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
-				{ 20, 16943, "", "=q4=Bracers of Ten Storms", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
-				{ 21, 16948, "", "=q4=Gauntlets of Ten Storms", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
-				{ 22, 16944, "", "=q4=Belt of Ten Storms", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
-				{ 23, 16946, "", "=q4=Legplates of Ten Storms", "=ds="..BabbleBoss["Ragnaros"], "", "5.97%"};
-				{ 24, 16949, "", "=q4=Greaves of Ten Storms", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
+				{ 17, 16947, "", "=q4=Helmet of Ten Storms", "=ds=#s1#, #a3#", "=ds="..BabbleBoss["Nefarian"], "", "4.86%"};
+				{ 18, 16945, "", "=q4=Epaulets of Ten Storms", "=ds=#s3#, #a3#", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
+				{ 19, 16950, "", "=q4=Breastplate of Ten Storms", "=ds=#s5#, #a3#", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
+				{ 20, 16943, "", "=q4=Bracers of Ten Storms", "=ds=#s8#, #a3#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
+				{ 21, 16948, "", "=q4=Gauntlets of Ten Storms", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
+				{ 22, 16944, "", "=q4=Belt of Ten Storms", "=ds=#s10#, #a3#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
+				{ 23, 16946, "", "=q4=Legplates of Ten Storms", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Ragnaros"], "", "5.97%"};
+				{ 24, 16949, "", "=q4=Greaves of Ten Storms", "=ds=#s12#, #a3#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
 			};
 		};
 		info = {
@@ -5435,23 +5435,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t1s8#", "=ec1=#m30#"};
-				{ 2, 16808, "", "=q4=Felheart Horns", "=ds="..BabbleBoss["Garr"], "", "10.62%"};
-				{ 3, 16807, "", "=q4=Felheart Shoulder Pads", "=ds="..BabbleBoss["Baron Geddon"], "", "19.78%"};
-				{ 4, 16809, "", "=q4=Felheart Robes", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.66%"};
-				{ 5, 16804, "", "=q4=Felheart Bracers", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 6, 16805, "", "=q4=Felheart Gloves", "=ds="..BabbleBoss["Lucifron"], "", "14.89%"};
-				{ 7, 16806, "", "=q4=Felheart Belt", "=ds="..AL["Trash Mobs"], "", "0.19%"};
-				{ 8, 16810, "", "=q4=Felheart Pants", "=ds="..BabbleBoss["Magmadar"], "", "13.75%"};
-				{ 9, 16803, "", "=q4=Felheart Slippers", "=ds="..BabbleBoss["Shazzrah"], "", "15.28%"};
+				{ 2, 16808, "", "=q4=Felheart Horns", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Garr"], "", "10.62%"};
+				{ 3, 16807, "", "=q4=Felheart Shoulder Pads", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Baron Geddon"], "", "19.78%"};
+				{ 4, 16809, "", "=q4=Felheart Robes", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.66%"};
+				{ 5, 16804, "", "=q4=Felheart Bracers", "=ds=#s8#, #a1#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 6, 16805, "", "=q4=Felheart Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Lucifron"], "", "14.89%"};
+				{ 7, 16806, "", "=q4=Felheart Belt", "=ds=#s10#, #a1#", "=ds="..AL["Trash Mobs"], "", "0.19%"};
+				{ 8, 16810, "", "=q4=Felheart Pants", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Magmadar"], "", "13.75%"};
+				{ 9, 16803, "", "=q4=Felheart Slippers", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Shazzrah"], "", "15.28%"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t2s8#", "=ec1=#m31#"};
-				{ 17, 16929, "", "=q4=Nemesis Skullcap", "=ds="..BabbleBoss["Nefarian"], "", "13.54%"};
-				{ 18, 16932, "", "=q4=Nemesis Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "16.26%"};
-				{ 19, 16931, "", "=q4=Nemesis Robes", "=ds="..BabbleBoss["Nefarian"], "", "12.46%"};
-				{ 20, 16934, "", "=q4=Nemesis Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "18.11%"};
-				{ 21, 16928, "", "=q4=Nemesis Gloves", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.28%"};
-				{ 22, 16933, "", "=q4=Nemesis Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.42%"};
-				{ 23, 16930, "", "=q4=Nemesis Leggings", "=ds="..BabbleBoss["Ragnaros"], "", "16.87%"};
-				{ 24, 16927, "", "=q4=Nemesis Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.32%"};
+				{ 17, 16929, "", "=q4=Nemesis Skullcap", "=ds=#s1#, #a1#", "=ds="..BabbleBoss["Nefarian"], "", "13.54%"};
+				{ 18, 16932, "", "=q4=Nemesis Spaulders", "=ds=#s3#, #a1#", "=ds="..BabbleBoss["Chromaggus"], "", "16.26%"};
+				{ 19, 16931, "", "=q4=Nemesis Robes", "=ds=#s5#, #a1#", "=ds="..BabbleBoss["Nefarian"], "", "12.46%"};
+				{ 20, 16934, "", "=q4=Nemesis Bracers", "=ds=#s8#, #a1#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "18.11%"};
+				{ 21, 16928, "", "=q4=Nemesis Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.28%"};
+				{ 22, 16933, "", "=q4=Nemesis Belt", "=ds=#s10#, #a1#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.42%"};
+				{ 23, 16930, "", "=q4=Nemesis Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Ragnaros"], "", "16.87%"};
+				{ 24, 16927, "", "=q4=Nemesis Boots", "=ds=#s12#, #a1#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.32%"};
 			};
 		};
 		info = {
@@ -5464,23 +5464,23 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_sword_27", "=q6=#t1s9#", "=ec1=#m30#"};
-				{ 2, 16866, "", "=q4=Helm of Might", "=ds="..BabbleBoss["Garr"], "", "11.39%"};
-				{ 3, 16868, "", "=q4=Pauldrons of Might", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "21.14%"};
-				{ 4, 16865, "", "=q4=Breastplate of Might", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.28%"};
-				{ 5, 16861, "", "=q4=Bracers of Might", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 6, 16863, "", "=q4=Gauntlets of Might", "=ds="..BabbleBoss["Lucifron"], "", "16.40%"};
-				{ 7, 16864, "", "=q4=Belt of Might", "=ds="..AL["Trash Mobs"], "", "0.16%"};
-				{ 8, 16867, "", "=q4=Legplates of Might", "=ds="..BabbleBoss["Magmadar"], "", "13.97%"};
-				{ 9, 16862, "", "=q4=Sabatons of Might", "=ds="..BabbleBoss["Gehennas"], "", "14.48%"};
+				{ 2, 16866, "", "=q4=Helm of Might", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Garr"], "", "11.39%"};
+				{ 3, 16868, "", "=q4=Pauldrons of Might", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Sulfuron Harbinger"], "", "21.14%"};
+				{ 4, 16865, "", "=q4=Breastplate of Might", "=ds=#s5#, #a4#", "=ds="..BabbleBoss["Golemagg the Incinerator"], "", "15.28%"};
+				{ 5, 16861, "", "=q4=Bracers of Might", "=ds=#s8#, #a4#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 6, 16863, "", "=q4=Gauntlets of Might", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Lucifron"], "", "16.40%"};
+				{ 7, 16864, "", "=q4=Belt of Might", "=ds=#s10#, #a4#", "=ds="..AL["Trash Mobs"], "", "0.16%"};
+				{ 8, 16867, "", "=q4=Legplates of Might", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Magmadar"], "", "13.97%"};
+				{ 9, 16862, "", "=q4=Sabatons of Might", "=ds=#s12#, #a4#", "=ds="..BabbleBoss["Gehennas"], "", "14.48%"};
 				{ 16, 0, "inv_sword_27", "=q6=#t2s9#", "=ec1=#m31#"};
-				{ 17, 16963, "", "=q4=Helm of Wrath", "=ds="..BabbleBoss["Nefarian"], "", "13.65%"};
-				{ 18, 16961, "", "=q4=Pauldrons of Wrath", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
-				{ 19, 16966, "", "=q4=Breastplate of Wrath", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
-				{ 20, 16959, "", "=q4=Bracelets of Wrath", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
-				{ 21, 16964, "", "=q4=Gauntlets of Wrath", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
-				{ 22, 16960, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
-				{ 23, 16962, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
-				{ 24, 16965, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
+				{ 17, 16963, "", "=q4=Helm of Wrath", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Nefarian"], "", "13.65%"};
+				{ 18, 16961, "", "=q4=Pauldrons of Wrath", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
+				{ 19, 16966, "", "=q4=Breastplate of Wrath", "=ds=#s5#, #a4#", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
+				{ 20, 16959, "", "=q4=Bracelets of Wrath", "=ds=#s8#, #a4#", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
+				{ 21, 16964, "", "=q4=Gauntlets of Wrath", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
+				{ 22, 16960, "", "=q4=Waistband of Wrath", "=ds=#s10#, #a4#", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
+				{ 23, 16962, "", "=q4=Legplates of Wrath", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
+				{ 24, 16965, "", "=q4=Sabatons of Wrath", "=ds=#s12#, #a4#", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
 			};
 		};
 		info = {
@@ -5497,15 +5497,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_maul", "=q6=#t3s1#", "=ec1=#m35#"};
-				{ 2, 22490, "", "=q4=Dreamwalker Headpiece", "=ds="};
-				{ 3, 22491, "", "=q4=Dreamwalker Spaulders", "=ds="};
-				{ 4, 22488, "", "=q4=Dreamwalker Tunic", "=ds="};
-				{ 5, 22495, "", "=q4=Dreamwalker Wristguards", "=ds="};
-				{ 6, 22493, "", "=q4=Dreamwalker Handguards", "=ds="};
-				{ 7, 22494, "", "=q4=Dreamwalker Girdle", "=ds="};
-				{ 8, 22489, "", "=q4=Dreamwalker Legguards", "=ds="};
-				{ 9, 22492, "", "=q4=Dreamwalker Boots", "=ds="};
-				{ 10, 23064, "", "=q4=Ring of the Dreamwalker", "=ds="};
+				{ 2, 22490, "", "=q4=Dreamwalker Headpiece", "=ds=#s1#, #a2#"};
+				{ 3, 22491, "", "=q4=Dreamwalker Spaulders", "=ds=#s3#, #a2#"};
+				{ 4, 22488, "", "=q4=Dreamwalker Tunic", "=ds=#s5#, #a2#"};
+				{ 5, 22495, "", "=q4=Dreamwalker Wristguards", "=ds=#s8#, #a2#"};
+				{ 6, 22493, "", "=q4=Dreamwalker Handguards", "=ds=#s9#, #a2#"};
+				{ 7, 22494, "", "=q4=Dreamwalker Girdle", "=ds=#s10#, #a2#"};
+				{ 8, 22489, "", "=q4=Dreamwalker Legguards", "=ds=#s11#, #a2#"};
+				{ 9, 22492, "", "=q4=Dreamwalker Boots", "=ds=#s12#, #a2#"};
+				{ 10, 23064, "", "=q4=Ring of the Dreamwalker", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5518,15 +5518,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t3s2#", "=ec1=#m35#"};
-				{ 2, 22438, "", "=q4=Cryptstalker Headpiece", "=ds="};
-				{ 3, 22439, "", "=q4=Cryptstalker Spaulders", "=ds="};
-				{ 4, 22436, "", "=q4=Cryptstalker Tunic", "=ds="};
-				{ 5, 22443, "", "=q4=Cryptstalker Wristguards", "=ds="};
-				{ 6, 22441, "", "=q4=Cryptstalker Handguards", "=ds="};
-				{ 7, 22442, "", "=q4=Cryptstalker Girdle", "=ds="};
-				{ 8, 22437, "", "=q4=Cryptstalker Legguards", "=ds="};
-				{ 9, 22440, "", "=q4=Cryptstalker Boots", "=ds="};
-				{ 10, 23067, "", "=q4=Ring of the Cryptstalker", "=ds="};
+				{ 2, 22438, "", "=q4=Cryptstalker Headpiece", "=ds=#s1#, #a3#"};
+				{ 3, 22439, "", "=q4=Cryptstalker Spaulders", "=ds=#s3#, #a3#"};
+				{ 4, 22436, "", "=q4=Cryptstalker Tunic", "=ds=#s5#, #a3#"};
+				{ 5, 22443, "", "=q4=Cryptstalker Wristguards", "=ds=#s8#, #a3#"};
+				{ 6, 22441, "", "=q4=Cryptstalker Handguards", "=ds=#s9#, #a3#"};
+				{ 7, 22442, "", "=q4=Cryptstalker Girdle", "=ds=#s10#, #a3#"};
+				{ 8, 22437, "", "=q4=Cryptstalker Legguards", "=ds=#s11#, #a3#"};
+				{ 9, 22440, "", "=q4=Cryptstalker Boots", "=ds=#s12#, #a3#"};
+				{ 10, 23067, "", "=q4=Ring of the Cryptstalker", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5539,15 +5539,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t3s3#", "=ec1=#m35#"};
-				{ 2, 22498, "", "=q4=Frostfire Circlet", "=ds="};
-				{ 3, 22499, "", "=q4=Frostfire Shoulderpads", "=ds="};
-				{ 4, 22496, "", "=q4=Frostfire Robe", "=ds="};
-				{ 5, 22503, "", "=q4=Frostfire Bindings", "=ds="};
-				{ 6, 22501, "", "=q4=Frostfire Gloves", "=ds="};
-				{ 7, 22502, "", "=q4=Frostfire Belt", "=ds="};
-				{ 8, 22497, "", "=q4=Frostfire Leggings", "=ds="};
-				{ 9, 22500, "", "=q4=Frostfire Sandals", "=ds="};
-				{ 10, 23062, "", "=q4=Frostfire Ring", "=ds="};
+				{ 2, 22498, "", "=q4=Frostfire Circlet", "=ds=#s1#, #a1#"};
+				{ 3, 22499, "", "=q4=Frostfire Shoulderpads", "=ds=#s3#, #a1#"};
+				{ 4, 22496, "", "=q4=Frostfire Robe", "=ds=#s5#, #a1#"};
+				{ 5, 22503, "", "=q4=Frostfire Bindings", "=ds=#s8#, #a1#"};
+				{ 6, 22501, "", "=q4=Frostfire Gloves", "=ds=#s9#, #a1#"};
+				{ 7, 22502, "", "=q4=Frostfire Belt", "=ds=#s10#, #a1#"};
+				{ 8, 22497, "", "=q4=Frostfire Leggings", "=ds=#s11#, #a1#"};
+				{ 9, 22500, "", "=q4=Frostfire Sandals", "=ds=#s12#, #a1#"};
+				{ 10, 23062, "", "=q4=Frostfire Ring", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5560,15 +5560,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_thunderbolt", "=q6=#t3s4#", "=ec1=#m35#"};
-				{ 2, 22428, "", "=q4=Redemption Headpiece", "=ds="};
-				{ 3, 22429, "", "=q4=Redemption Spaulders", "=ds="};
-				{ 4, 22425, "", "=q4=Redemption Tunic", "=ds="};
-				{ 5, 22424, "", "=q4=Redemption Wristguards", "=ds="};
-				{ 6, 22426, "", "=q4=Redemption Handguards", "=ds="};
-				{ 7, 22431, "", "=q4=Redemption Girdle", "=ds="};
-				{ 8, 22427, "", "=q4=Redemption Legguards", "=ds="};
-				{ 9, 22430, "", "=q4=Redemption Boots", "=ds="};
-				{ 10, 23066, "", "=q4=Ring of Redemption", "=ds="};
+				{ 2, 22428, "", "=q4=Redemption Headpiece", "=ds=#s1#, #a4#"};
+				{ 3, 22429, "", "=q4=Redemption Spaulders", "=ds=#s3#, #a4#"};
+				{ 4, 22425, "", "=q4=Redemption Tunic", "=ds=#s5#, #a4#"};
+				{ 5, 22424, "", "=q4=Redemption Wristguards", "=ds=#s8#, #a4#"};
+				{ 6, 22426, "", "=q4=Redemption Handguards", "=ds=#s9#, #a4#"};
+				{ 7, 22431, "", "=q4=Redemption Girdle", "=ds=#s10#, #a4#"};
+				{ 8, 22427, "", "=q4=Redemption Legguards", "=ds=#s11#, #a4#"};
+				{ 9, 22430, "", "=q4=Redemption Boots", "=ds=#s12#, #a4#"};
+				{ 10, 23066, "", "=q4=Ring of Redemption", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5581,15 +5581,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_30", "=q6=#t3s5#", "=ec1=#m35#"};
-				{ 2, 22514, "", "=q4=Circlet of Faith", "=ds="};
-				{ 3, 22515, "", "=q4=Shoulderpads of Faith", "=ds="};
-				{ 4, 22512, "", "=q4=Robe of Faith", "=ds="};
-				{ 5, 22519, "", "=q4=Bindings of Faith", "=ds="};
-				{ 6, 22517, "", "=q4=Gloves of Faith", "=ds="};
-				{ 7, 22518, "", "=q4=Belt of Faith", "=ds="};
-				{ 8, 22513, "", "=q4=Leggings of Faith", "=ds="};
-				{ 9, 22516, "", "=q4=Sandals of Faith", "=ds="};
-				{ 10, 23061, "", "=q4=Ring of Faith", "=ds="};
+				{ 2, 22514, "", "=q4=Circlet of Faith", "=ds=#s1#, #a1#"};
+				{ 3, 22515, "", "=q4=Shoulderpads of Faith", "=ds=#s3#, #a1#"};
+				{ 4, 22512, "", "=q4=Robe of Faith", "=ds=#s5#, #a1#"};
+				{ 5, 22519, "", "=q4=Bindings of Faith", "=ds=#s8#, #a1#"};
+				{ 6, 22517, "", "=q4=Gloves of Faith", "=ds=#s9#, #a1#"};
+				{ 7, 22518, "", "=q4=Belt of Faith", "=ds=#s10#, #a1#"};
+				{ 8, 22513, "", "=q4=Leggings of Faith", "=ds=#s11#, #a1#"};
+				{ 9, 22516, "", "=q4=Sandals of Faith", "=ds=#s12#, #a1#"};
+				{ 10, 23061, "", "=q4=Ring of Faith", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5602,15 +5602,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t3s6#", "=ec1=#m35#"};
-				{ 2, 22478, "", "=q4=Bonescythe Helmet", "=ds="};
-				{ 3, 22479, "", "=q4=Bonescythe Pauldrons", "=ds="};
-				{ 4, 22476, "", "=q4=Bonescythe Breastplate", "=ds="};
-				{ 5, 22483, "", "=q4=Bonescythe Bracers", "=ds="};
-				{ 6, 22481, "", "=q4=Bonescythe Gauntlets", "=ds="};
-				{ 7, 22482, "", "=q4=Bonescythe Waistguard", "=ds="};
-				{ 8, 22477, "", "=q4=Bonescythe Legplates", "=ds="};
-				{ 9, 22480, "", "=q4=Bonescythe Sabatons", "=ds="};
-				{ 10, 23060, "", "=q4=Bonescythe Ring", "=ds="};
+				{ 2, 22478, "", "=q4=Bonescythe Helmet", "=ds=#s1#, #a2#"};
+				{ 3, 22479, "", "=q4=Bonescythe Pauldrons", "=ds=#s3#, #a2#"};
+				{ 4, 22476, "", "=q4=Bonescythe Breastplate", "=ds=#s5#, #a2#"};
+				{ 5, 22483, "", "=q4=Bonescythe Bracers", "=ds=#s8#, #a2#"};
+				{ 6, 22481, "", "=q4=Bonescythe Gauntlets", "=ds=#s9#, #a2#"};
+				{ 7, 22482, "", "=q4=Bonescythe Waistguard", "=ds=#s10#, #a2#"};
+				{ 8, 22477, "", "=q4=Bonescythe Legplates", "=ds=#s11#, #a2#"};
+				{ 9, 22480, "", "=q4=Bonescythe Sabatons", "=ds=#s12#, #a2#"};
+				{ 10, 23060, "", "=q4=Bonescythe Ring", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5623,15 +5623,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_bloodlust", "=q6=#t3s7#", "=ec1=#m35#"};
-				{ 2, 22466, "", "=q4=Earthshatter Headpiece", "=ds="};
-				{ 3, 22467, "", "=q4=Earthshatter Spaulders", "=ds="};
-				{ 4, 22464, "", "=q4=Earthshatter Tunic", "=ds="};
-				{ 5, 22471, "", "=q4=Earthshatter Wristguards", "=ds="};
-				{ 6, 22469, "", "=q4=Earthshatter Handguards", "=ds="};
-				{ 7, 22470, "", "=q4=Earthshatter Girdle", "=ds="};
-				{ 8, 22465, "", "=q4=Earthshatter Legguards", "=ds="};
-				{ 9, 22468, "", "=q4=Earthshatter Boots", "=ds="};
-				{ 10, 23065, "", "=q4=Ring of the Earthshatterer", "=ds="};
+				{ 2, 22466, "", "=q4=Earthshatter Headpiece", "=ds=#s1#, #a3#"};
+				{ 3, 22467, "", "=q4=Earthshatter Spaulders", "=ds=#s3#, #a3#"};
+				{ 4, 22464, "", "=q4=Earthshatter Tunic", "=ds=#s5#, #a3#"};
+				{ 5, 22471, "", "=q4=Earthshatter Wristguards", "=ds=#s8#, #a3#"};
+				{ 6, 22469, "", "=q4=Earthshatter Handguards", "=ds=#s9#, #a3#"};
+				{ 7, 22470, "", "=q4=Earthshatter Girdle", "=ds=#s10#, #a3#"};
+				{ 8, 22465, "", "=q4=Earthshatter Legguards", "=ds=#s11#, #a3#"};
+				{ 9, 22468, "", "=q4=Earthshatter Boots", "=ds=#s12#, #a3#"};
+				{ 10, 23065, "", "=q4=Ring of the Earthshatterer", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5644,15 +5644,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t3s8#", "=ec1=#m35#"};
-				{ 2, 22506, "", "=q4=Plagueheart Circlet", "=ds="};
-				{ 3, 22507, "", "=q4=Plagueheart Shoulderpads", "=ds="};
-				{ 4, 22504, "", "=q4=Plagueheart Robe", "=ds="};
-				{ 5, 22511, "", "=q4=Plagueheart Bindings", "=ds="};
-				{ 6, 22509, "", "=q4=Plagueheart Gloves", "=ds="};
-				{ 7, 22510, "", "=q4=Plagueheart Belt", "=ds="};
-				{ 8, 22505, "", "=q4=Plagueheart Leggings", "=ds="};
-				{ 9, 22508, "", "=q4=Plagueheart Sandals", "=ds="};
-				{ 10, 23063, "", "=q4=Plagueheart Ring", "=ds="};
+				{ 2, 22506, "", "=q4=Plagueheart Circlet", "=ds=#s1#, #a1#"};
+				{ 3, 22507, "", "=q4=Plagueheart Shoulderpads", "=ds=#s3#, #a1#"};
+				{ 4, 22504, "", "=q4=Plagueheart Robe", "=ds=#s5#, #a1#"};
+				{ 5, 22511, "", "=q4=Plagueheart Bindings", "=ds=#s8#, #a1#"};
+				{ 6, 22509, "", "=q4=Plagueheart Gloves", "=ds=#s9#, #a1#"};
+				{ 7, 22510, "", "=q4=Plagueheart Belt", "=ds=#s10#, #a1#"};
+				{ 8, 22505, "", "=q4=Plagueheart Leggings", "=ds=#s11#, #a1#"};
+				{ 9, 22508, "", "=q4=Plagueheart Sandals", "=ds=#s12#, #a1#"};
+				{ 10, 23063, "", "=q4=Plagueheart Ring", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5665,15 +5665,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_sword_27", "=q6=#t3s9#", "=ec1=#m35#"};
-				{ 2, 22418, "", "=q4=Dreadnaught Helmet", "=ds="};
-				{ 3, 22419, "", "=q4=Dreadnaught Pauldrons", "=ds="};
-				{ 4, 22416, "", "=q4=Dreadnaught Breastplate", "=ds="};
-				{ 5, 22423, "", "=q4=Dreadnaught Bracers", "=ds="};
-				{ 6, 22421, "", "=q4=Dreadnaught Gauntlets", "=ds="};
-				{ 7, 22422, "", "=q4=Dreadnaught Waistguard", "=ds="};
-				{ 8, 22417, "", "=q4=Dreadnaught Legplates", "=ds="};
-				{ 9, 22420, "", "=q4=Dreadnaught Sabatons", "=ds="};
-				{ 10, 23059, "", "=q4=Ring of the Dreadnaught", "=ds="};
+				{ 2, 22418, "", "=q4=Dreadnaught Helmet", "=ds=#s1#, #a4#"};
+				{ 3, 22419, "", "=q4=Dreadnaught Pauldrons", "=ds=#s3#, #a4#"};
+				{ 4, 22416, "", "=q4=Dreadnaught Breastplate", "=ds=#s5#, #a4#"};
+				{ 5, 22423, "", "=q4=Dreadnaught Bracers", "=ds=#s8#, #a4#"};
+				{ 6, 22421, "", "=q4=Dreadnaught Gauntlets", "=ds=#s9#, #a4#"};
+				{ 7, 22422, "", "=q4=Dreadnaught Waistguard", "=ds=#s10#, #a4#"};
+				{ 8, 22417, "", "=q4=Dreadnaught Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 22420, "", "=q4=Dreadnaught Sabatons", "=ds=#s12#, #a4#"};
+				{ 10, 23059, "", "=q4=Ring of the Dreadnaught", "=ds=#s13#"};
 			};
 		};
 		info = {
