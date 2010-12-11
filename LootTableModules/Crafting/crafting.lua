@@ -530,18 +530,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, 64481, "", "=q4=Blessing of the Old God", "=ds="};
-				{ 2, 64646, "", "=q4=Bones of Transformation", "=ds="};
-				{ 3, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="};
-				{ 4, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="};
-				{ 5, 64651, "", "=q4=Wisp Amulet", "=ds="};
-				{ 6, 64456, "", "=q3=Arrival of the Naaru", "=ds="};
-				{ 7, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds="};
-				{ 8, 64361, "", "=q3=Druid and Priest Statue Set", "=ds="};
-				{ 9, 64358, "", "=q3=Highborne Soul Mirror", "=ds="};
-				{ 10, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds="};
-				{ 11, 64488, "", "=q3=The Innkeeper's Daughter", "=ds="};
-				{ 12, 64457, "", "=q3=The Last Relic of Argus", "=ds="};
+				{ 1, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds=#p1# (525)"};
+				{ 2, 64481, "", "=q4=Blessing of the Old God", "=ds="};
+				{ 3, 64646, "", "=q4=Bones of Transformation", "=ds="};
+				{ 4, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="};
+				{ 5, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="};
+				{ 6, 64651, "", "=q4=Wisp Amulet", "=ds="};
+				{ 7, 64456, "", "=q3=Arrival of the Naaru", "=ds="};
+				{ 8, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds="};
+				{ 9, 64361, "", "=q3=Druid and Priest Statue Set", "=ds="};
+				{ 10, 64358, "", "=q3=Highborne Soul Mirror", "=ds="};
+				{ 11, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds="};
+				{ 12, 64488, "", "=q3=The Innkeeper's Daughter", "=ds="};
+				{ 13, 64457, "", "=q3=The Last Relic of Argus", "=ds="};
 				{ 16, 60847, "", "=q4=Crawling Claw", "=ds=#e13#"};
 				{ 17, 60954, "", "=q4=Fossilized Raptor", "=ds=#e12#"};
 				{ 18, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e12#"};

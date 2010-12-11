@@ -1828,6 +1828,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 11, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
 			};
 		};

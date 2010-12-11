@@ -5,7 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.01.02
+Archaeology updated with Rare and Epic quality rewards.
+Many minor fixes, additions and translations
+
 v6.01.01
+
 Fixed a bug that got people disconnected
 Added raid loot: Throne of the Four Winds, Bastion of Twilight, Blackwing Descent, Baradin Hold
 Updated frFR translation
