@@ -733,7 +733,7 @@ if AL then
 	--AL["Worldbreaker"] = true;
 
 	-- Battleground Brackets
-	--AL["Old PvP Rewards"] = true;
+	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
 	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
 	AL["Misc. Rewards"] = "Récompenses diverses";
 	AL["Level 10-19 Rewards"] = "Récompenses niveau 10-19";
