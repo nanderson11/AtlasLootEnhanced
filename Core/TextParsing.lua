@@ -246,17 +246,8 @@ AtlasLoot_TextParsing = {
 
 	-- NPC Names
 	{ "#n11#", AL["Trash Mobs"] },
-	{ "#n16#", BabbleBoss["Lord Valthalak"] },
 	{ "#n17#", AL["Theldren"] },
 	{ "#n18#", AL["Sothos and Jarien"] },
-	{ "#n44#", AL["Shadowforge Flame Keeper"] },
-	{ "#n45#", BabbleBoss["Baelog"] },--Might not be in Uldaman anymore
-	--{ "#n46#", AL["Eric 'The Swift'"] },--Might not be in Uldaman anymore
-	--{ "#n47#", AL["Olaf"] },--Might not be in Uldaman anymore
-	{ "#n48#", BabbleBoss["Hurley Blackbreath"] },
-	{ "#n49#", BabbleBoss["Phalanx"] },
-	{ "#n50#", BabbleBoss["Ribbly Screwspigot"] },
-	{ "#n51#", BabbleBoss["Plugger Spazzring"] },
 	{ "#n54#", AL["Nexus Stalker"] },
 	{ "#n55#", AL["Auchenai Monk"] },
 	{ "#n56#", AL["Cabal Fanatic"] },

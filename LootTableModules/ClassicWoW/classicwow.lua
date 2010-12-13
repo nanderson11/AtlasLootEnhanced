@@ -981,23 +981,23 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["BRDGuzzler"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n48#", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Hurley Blackbreath"], ""};
 				{ 2, 11735, "", "=q3=Ragefury Eyepatch", "=ds=#s1#, #a2#", "", "8.11%"};
 				{ 3, 18043, "", "=q3=Coal Miner Boots", "=ds=#s12#, #a2#", "", "23.87%"};
 				{ 4, 22275, "", "=q3=Firemoss Boots", "=ds=#s12#, #a2#", "", "23.87%"};
 				{ 5, 18044, "", "=q3=Hurley's Tankard", "=ds=#h1#, #w6#", "", "31.02%"};
 				{ 6, 11312, "", "=q1=Lost Thunderbrew Recipe", "=ds=#m3#"};
-				{ 8, 0, "INV_Box_01", "=q6=#n49#", ""};
+				{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Phalanx"], ""};
 				{ 9, 22212, "", "=q3=Golem Fitted Pauldrons", "=ds=#s3#, #a3#", "", "26.04%"};
 				{ 10, 11745, "", "=q3=Fists of Phalanx", "=ds=#s9#, #a4#", "", "29.79%"};
 				{ 11, 11744, "", "=q3=Bloodfist", "=ds=#h1#, #w13#", "", "28.48%"};
-				{ 16, 0, "INV_Box_01", "=q6=#n50#", ""};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Ribbly Screwspigot"], ""};
 				{ 17, 11612, "", "=q3=Plans: Dark Iron Plate", "=ds=#p2# (285)", "", "22.20%"};
 				{ 18, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#m13# #e1#", "", "25.07%"};
 				{ 19, 2662, "", "=q2=Ribbly's Quiver", "=ds=#m13# #e1#", "", "17.03%"};
 				{ 20, 2663, "", "=q2=Ribbly's Bandolier", "=ds=#m13# #e1#", "", "15.73%"};
 				{ 21, 11313, "", "=q1=Ribbly's Head", "=ds=#m3#"};
-				{ 23, 0, "INV_Box_01", "=q6=#n51#", ""};
+				{ 23, 0, "INV_Box_01", "=q6="..BabbleBoss["Plugger Spazzring"], ""};
 				{ 24, 12793, "", "=q3=Mixologist's Tunic", "=ds=#s5#, #a2#", "", "24.87%"};
 				{ 25, 12791, "", "=q3=Barman Shanker", "=ds=#h1#, #w4#", "", "6.97%"};
 				{ 26, 13483, "", "=q2=Recipe: Transmute Fire to Earth", "=ds=#p1# (275)"};
@@ -1121,7 +1121,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["BRDLyceum"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n44#", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Shadowforge Flame Keeper"], ""};
 				{ 2, 11885, "", "=q1=Shadowforge Torch", "=ds=#m20#"};
 			};
 		};
@@ -4545,7 +4545,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["UldBaelog"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n45#", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Baelog"], ""};
 				{ 2, 9401, "", "=q3=Nordic Longshank", "=ds=#h1#, #w10#", "", "8.89%"};
 				{ 3, 9400, "", "=q3=Baelog's Shortbow", "=ds=#w2#", "", "46.52%"};
 				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Eric \"The Swift\""], ""};
@@ -5707,7 +5707,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 19, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#", "=q2="..AL["Scarlet Centurion"], "", "1.7%"};
 				{ 20, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#", "=q2="..AL["Scarlet Defender/Myrmidon"], "", "1.6%"};
 				{ 21, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#", "=q2="..AL["Herod/Mograine"], "", "13.2%"};
-				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#", "=q2=#n11#", "", "0.1%"};
+				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#", "=q2="..AL["Trash Mobs"], "", "0.1%"};
 				{ 24, 0, "INV_Box_01", "=q6=#pre60s4#", "=ec1=#a3#. =q1="..BabbleZone["Blackrock Depths"]};
 				{ 25, 11729, "", "=q3=Savage Gladiator Helm", "=ds=#s1#", "=q2="..BabbleBoss["Gorosh the Dervish"].." / "..BabbleBoss["Hedrum the Creeper"], "", "10.08%"};
 				{ 26, 11726, "", "=q4=Savage Gladiator Chain", "=ds=#s5#", "=q2="..BabbleBoss["Gorosh the Dervish"], "", "14.52%"};
@@ -5826,29 +5826,29 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_maul", "=q6=#zgs1#", "=ec1=#c1#"};
-				{ 2, 19955, "", "=q4=Wushoolay's Charm of Nature", ""};
-				{ 3, 19613, "", "=q4=Pristine Enchanted South Seas Kelp", "=ds=#r5#"};
-				{ 4, 19838, "", "=q4=Zandalar Haruspex's Tunic", "=q4=#zgt9#, =ds=#r4#"};
-				{ 5, 19839, "", "=q4=Zandalar Haruspex's Belt", "=q4=#zgt4#, =ds=#r3#"};
-				{ 6, 19840, "", "=q4=Zandalar Haruspex's Bracers", "=q4=#zgt5#, =ds=#r2#"};
+				{ 2, 19955, "", "=q4=Wushoolay's Charm of Nature", "=ds=#s14#"};
+				{ 3, 19613, "", "=q4=Pristine Enchanted South Seas Kelp", "=ds=#s2#", "=ds=#r5#"};
+				{ 4, 19838, "", "=q4=Zandalar Haruspex's Tunic", "=ds=#s5#", "=q4=#zgt9#, =ds=#r4#"};
+				{ 5, 19839, "", "=q4=Zandalar Haruspex's Belt", "=ds=#s10#", "=q4=#zgt4#, =ds=#r3#"};
+				{ 6, 19840, "", "=q4=Zandalar Haruspex's Bracers", "=ds=#s8#", "=q4=#zgt5#, =ds=#r2#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#zgs2#", "=ec1=#c2#"};
-				{ 9, 19953, "", "=q4=Renataki's Charm of Beasts", ""};
-				{ 10, 19621, "", "=q4=Maelstrom's Wrath", "=ds=#r5#"};
-				{ 11, 19831, "", "=q4=Zandalar Predator's Mantle", "=q4=#zgt6#, =ds=#r4#"};
-				{ 12, 19832, "", "=q4=Zandalar Predator's Belt", "=q4=#zgt2#, =ds=#r3#"};
-				{ 13, 19833, "", "=q4=Zandalar Predator's Bracers", "=q4=#zgt3#, =ds=#r2#"};
+				{ 9, 19953, "", "=q4=Renataki's Charm of Beasts", "=ds=#s14#"};
+				{ 10, 19621, "", "=q4=Maelstrom's Wrath", "=ds=#s2#", "=ds=#r5#"};
+				{ 11, 19831, "", "=q4=Zandalar Predator's Mantle", "=ds=#s3#", "=q4=#zgt6#, =ds=#r4#"};
+				{ 12, 19832, "", "=q4=Zandalar Predator's Belt", "=ds=#s10#", "=q4=#zgt2#, =ds=#r3#"};
+				{ 13, 19833, "", "=q4=Zandalar Predator's Bracers", "=ds=#s8#", "=q4=#zgt3#, =ds=#r2#"};
 				{ 16, 0, "inv_staff_13", "=q6=#zgs3#", "=ec1=#c3#"};
-				{ 17, 19959, "", "=q4=Hazza'rah's Charm of Magic", ""};
-				{ 18, 19601, "", "=q4=Jewel of Kajaro", "=ds=#r5#"};
-				{ 19, 20034, "", "=q4=Zandalar Illusionist's Robe", "=q4=#zgt1#, =ds=#r4#"};
-				{ 20, 19845, "", "=q4=Zandalar Illusionist's Mantle", "=q4=#zgt2#, =ds=#r3#"};
-				{ 21, 19846, "", "=q4=Zandalar Illusionist's Wraps", "=q4=#zgt3#, =ds=#r2#"};
+				{ 17, 19959, "", "=q4=Hazza'rah's Charm of Magic", "=ds=#s14#"};
+				{ 18, 19601, "", "=q4=Jewel of Kajaro", "=ds=#s2#", "=ds=#r5#"};
+				{ 19, 20034, "", "=q4=Zandalar Illusionist's Robe", "=ds=#s5#", "=q4=#zgt1#, =ds=#r4#"};
+				{ 20, 19845, "", "=q4=Zandalar Illusionist's Mantle", "=ds=#s3#", "=q4=#zgt2#, =ds=#r3#"};
+				{ 21, 19846, "", "=q4=Zandalar Illusionist's Wraps", "=ds=#s8#", "=q4=#zgt3#, =ds=#r2#"};
 				{ 23, 0, "ability_thunderbolt", "=q6=#zgs4#", "=ec1=#c4#"};
-				{ 24, 19952, "", "=q4=Gri'lek's Charm of Valor", ""};
-				{ 25, 19588, "", "=q4=Hero's Brand", "=ds=#r5#"};
-				{ 26, 19825, "", "=q4=Zandalar Freethinker's Breastplate", "=q4=#zgt9#, =ds=#r4#"};
-				{ 27, 19826, "", "=q4=Zandalar Freethinker's Belt", "=q4=#zgt2#, =ds=#r3#"};
-				{ 28, 19827, "", "=q4=Zandalar Freethinker's Armguards", "=q4=#zgt3#, =ds=#r2#"};
+				{ 24, 19952, "", "=q4=Gri'lek's Charm of Valor", "=ds=#s14#"};
+				{ 25, 19588, "", "=q4=Hero's Brand", "=ds=#s2#", "=ds=#r5#"};
+				{ 26, 19825, "", "=q4=Zandalar Freethinker's Breastplate", "=ds=#s5#", "=q4=#zgt9#, =ds=#r4#"};
+				{ 27, 19826, "", "=q4=Zandalar Freethinker's Belt", "=ds=#s10#", "=q4=#zgt2#, =ds=#r3#"};
+				{ 28, 19827, "", "=q4=Zandalar Freethinker's Armguards", "=ds=#s8#", "=q4=#zgt3#, =ds=#r2#"};
 			};
 			{
 				{ 1, 0, "inv_staff_30", "=q6=#zgs5#", "=ec1=#c5#"};
