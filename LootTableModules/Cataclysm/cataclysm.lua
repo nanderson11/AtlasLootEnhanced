@@ -1512,7 +1512,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["BDOmnitron"] = {
+	AtlasLoot_Data["BDOmnotron"] = {
 		["Normal"] = {
 			{
 				{ 1, 59219, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
@@ -1544,7 +1544,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Omnitron Defense System"],
+			name = BabbleBoss["Omnotron Defense System"],
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};

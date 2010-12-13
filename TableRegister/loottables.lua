@@ -150,7 +150,7 @@ AtlasLoot_LootTableRegister = {
 		["BlackwingDescent"] = {
 			["Bosses"] = {
 				{ "BDMagmaw", 2 },
-				{ "BDOmnitron", 3 },
+				{ "BDOmnotron", 3 },
 				{ "BDMaloriak", 4 },
 				{ "BDAtramedes", 5 },
 				{ "BDChimaeron", 6 },
