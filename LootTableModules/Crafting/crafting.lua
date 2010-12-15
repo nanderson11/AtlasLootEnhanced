@@ -6649,7 +6649,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["CraftedWeapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 49888, "", "=q4=Shadow's Edge", "=ds=#h4#, #w1#"};
+				{ 1, 49888, "", "=q4=Shadow's Edge", "=ds=#h2#, #w1#"};
 				{ 3, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j54#"};
 				{ 4, 45085, "", "=q4=Titansteel Spellblade", "=ds=#h3#, #w4#"};
 				{ 5, 42435, "", "=q4=Titansteel Shanker", "=ds=#h1#, #w4#"};
