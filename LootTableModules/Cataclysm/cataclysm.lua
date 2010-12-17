@@ -1985,8 +1985,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 62448, "", "=q4=Sun King's Girdle", "=ds=#s10#, #a4#", ""};
 				{ 20, 62447, "", "=q4=Gift of Nadun", "=ds=#s2#", ""};
 				{ 21, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
-				{ 22, 63046, "", "=q4=Reins of the Grey Riding Camel", "=ds=#e26#", ""};
-				{ 23, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
+				{ 22, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
 			};
 		};
 		info = {
@@ -4037,8 +4036,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Ramkahen"].." #j30#", "=q1="..BabbleZone["Uldum"]};
 				{ 2, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
-				{ 3, 63046, "", "=q4=Reins of the Grey Riding Camel", "=ds=#e26#", ""};
-				{ 4, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
+				{ 3, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
 			};
 		};
 		info = {
@@ -4110,9 +4108,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
 				{ 22, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
 				{ 24, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 25, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 26, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 27, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 25, 63046, "", "=q4=Reins of the Grey Riding Camel", "=q2="..AL["Dormus the Camel-Hoarder"], ""};
+				{ 26, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 27, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 28, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {
