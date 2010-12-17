@@ -60,11 +60,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, 62046, "", "=q4=Earthquake Deck", "=ds=#m2#"};
 				{ 3, 62048, "", "=q4=Darkmoon Card: Earthquake", "=q1=#m4#: =ds=#s14#"};
 				{ 5, 62045, "", "=q4=Hurricane Deck", "=ds=#m2#"};
-				{ 6, 62051, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 8, 62044, "", "=q4=Tsunami Deck", "=ds=#m2#"};
-				{ 9, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
-				{ 11, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
-				{ 12, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
+				{ 6, 62049, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
+				{ 7, 62051, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
+				{ 9, 62044, "", "=q4=Tsunami Deck", "=ds=#m2#"};
+				{ 10, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
+				{ 12, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
+				{ 13, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
 				{ 17, "Darkmoon", "INV_Misc_Ticket_Darkmoon_01", "=ds="..AL["Darkmoon Faire Rewards"], ""};
 				{ 18, "Darkmoon#2", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};
 				{ 19, "Darkmoon#3", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Level 60 & 70 Trinkets"], ""};
