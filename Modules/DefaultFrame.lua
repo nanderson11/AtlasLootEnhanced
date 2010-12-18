@@ -17,6 +17,12 @@ local scrollNumLines, scrollCurLines, curInstance = 24, 0, {}
 local curBoss = nil
 local instances = {}
 
+--[[
+	1 = Atlas
+	2 = AtlasLoot old
+]]--
+local DEFAULTFRAME_STYLE_NUM_DUMMY = 1
+
 local db
 local dbDefaults = {
 	profile = {
@@ -336,19 +342,36 @@ function DefaultFrame:ModuleSelect_OnClick()
 	DefaultFrame:SetInstanceTable()
 end
 
-function DefaultFrame:InstanceSelect_Initialize()
+function DefaultFrame:InstanceSelect_Initialize(level)
+	--if not level then return end
 	local info = self.info
-	wipe(info)	
-	
-	for k,v in ipairs(instances[db.module]) do
-		if k == 1 and db.instance == "" then
-			db.instance = v
+	wipe(info)
+	if level == 1 or not level then
+		if instances[db.module] then
+			for k,v in ipairs(instances[db.module]) do
+				if k == 1 and db.instance == "" then
+					db.instance = v
+				end
+				info.text = AtlasLoot_LootTableRegister["Instances"][v]["Info"][1]
+				info.value = v
+				info.func = DefaultFrame.InstanceSelect_OnClick
+				if DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
+					info.hasArrow = true
+				end
+				info.checked = nil
+				UIDropDownMenu_AddButton(info, level)
+			end
 		end
-		info.text = AtlasLoot_LootTableRegister["Instances"][v]["Info"][1]
-		info.value = v
-		info.func = DefaultFrame.InstanceSelect_OnClick
-		info.checked = nil
-		UIDropDownMenu_AddButton(info)
+	elseif level == 2 and DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
+		if AtlasLoot_LootTableRegister["Instances"][UIDROPDOWNMENU_MENU_VALUE] then
+			for bossNum, bossTab in ipairs(AtlasLoot_LootTableRegister["Instances"][UIDROPDOWNMENU_MENU_VALUE]["Bosses"]) do
+				info.text = AtlasLoot:GetTableInfo(bossTab[1])
+				info.value = bossTab[1]
+				info.func = AtlasLoot.ShowLootPage
+				info.checked = nil
+				UIDropDownMenu_AddButton(info, level)
+			end
+		end
 	end
 end
 
@@ -374,42 +397,50 @@ function DefaultFrame:SetInstanceTable()
 	curInstance = curInstance["Bosses"]
 	if not curInstance then return end
 	scrollCurLines = #curInstance
-	DefaultFrame.Frame.InstanceName:SetText(iniName)
+	
 
-	for i = 1,scrollCurLines do
-		if not DefaultFrame.Frame.ScrollFrame.Buttons[i] then
-			if i==1 then
-				DefaultFrame.Frame.ScrollFrame.Buttons[i] = AtlasLoot:CreateSelectBossLineButton(DefaultFrame.Frame, {"TOPLEFT", frameName.."_ScrollFrame", "TOPLEFT", 16, -3}, frameName.."_ScrollLine"..i)
-			else
-				DefaultFrame.Frame.ScrollFrame.Buttons[i] = AtlasLoot:CreateSelectBossLineButton(DefaultFrame.Frame, {"TOPLEFT", frameName.."_ScrollLine"..(i-1), "BOTTOMLEFT"}, frameName.."_ScrollLine"..i)
+
+
+	if DEFAULTFRAME_STYLE_NUM_DUMMY == 1 then
+		DefaultFrame.Frame.InstanceName:SetText(iniName)
+		
+		for i = 1,scrollCurLines do
+			if not DefaultFrame.Frame.ScrollFrame.Buttons[i] then
+				if i==1 then
+					DefaultFrame.Frame.ScrollFrame.Buttons[i] = AtlasLoot:CreateSelectBossLineButton(DefaultFrame.Frame, {"TOPLEFT", frameName.."_ScrollFrame", "TOPLEFT", 16, -3}, frameName.."_ScrollLine"..i)
+				else
+					DefaultFrame.Frame.ScrollFrame.Buttons[i] = AtlasLoot:CreateSelectBossLineButton(DefaultFrame.Frame, {"TOPLEFT", frameName.."_ScrollLine"..(i-1), "BOTTOMLEFT"}, frameName.."_ScrollLine"..i)
+				end
+				DefaultFrame.Frame.ScrollFrame.Buttons[i]:SetScript("OnClick", DefaultFrame.Boss_OnClick)
 			end
-			DefaultFrame.Frame.ScrollFrame.Buttons[i]:SetScript("OnClick", DefaultFrame.Boss_OnClick)
 		end
-	end
-
-	for i in ipairs(DefaultFrame.Frame.ScrollFrame.Buttons) do
-		if DefaultFrame.Frame.ScrollFrame.Buttons[i] then
-			DefaultFrame.Frame.ScrollFrame.Buttons[i]:Hide()
-			DefaultFrame.Frame.ScrollFrame.Buttons[i].Loot:Hide()
-			DefaultFrame.Frame.ScrollFrame.Buttons[i].Selected:Hide()
-			DefaultFrame.Frame.ScrollFrame.Buttons[i].boss = nil
-		end
-	end
-
-	local buttonNum = 1
-	for k,v in ipairs(curInstance) do
-		if AtlasLoot:FormatDataID(v[1]) and not v.hide then
-			local bossname = AtlasLoot:GetTableInfo(v[1])
-			DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Text:SetText(bossname)
-			DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:Show()
-			DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Loot:Show()
-			DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Selected:Hide()
-			DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].boss = v[1]
-			if not curBoss then
-				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:Click()
+	
+		for i in ipairs(DefaultFrame.Frame.ScrollFrame.Buttons) do
+			if DefaultFrame.Frame.ScrollFrame.Buttons[i] then
+				DefaultFrame.Frame.ScrollFrame.Buttons[i]:Hide()
+				DefaultFrame.Frame.ScrollFrame.Buttons[i].Loot:Hide()
+				DefaultFrame.Frame.ScrollFrame.Buttons[i].Selected:Hide()
+				DefaultFrame.Frame.ScrollFrame.Buttons[i].boss = nil
 			end
-			buttonNum = buttonNum + 1
 		end
+
+		local buttonNum = 1
+		for k,v in ipairs(curInstance) do
+			if AtlasLoot:FormatDataID(v[1]) and not v.hide then
+				local bossname = AtlasLoot:GetTableInfo(v[1])
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Text:SetText(bossname)
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:Show()
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Loot:Show()
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Selected:Hide()
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].boss = v[1]
+				if not curBoss then
+					DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:Click()
+				end
+				buttonNum = buttonNum + 1
+			end
+		end
+	elseif DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
+	
 	end
 	
 end
@@ -494,10 +525,17 @@ do
 		mapRegister = {}
 		for instance,iniTab in pairs(AtlasLoot_LootTableRegister["Instances"]) do
 			if iniTab["Info"] and iniTab["Info"].mapname then
-				mapRegister[iniTab["Info"].mapname] = {
-					instance,
-					iniTab["Info"][2],
-				}
+				if iniTab["Info"][2] and type(iniTab["Info"][2]) == "table" then
+					mapRegister[iniTab["Info"].mapname] = {
+						instance,
+						iniTab["Info"][2],
+					}
+				else
+					mapRegister[iniTab["Info"].mapname] = {
+						instance,
+						iniTab["Info"][2][#iniTab["Info"][2]],
+					}
+				end
 			end
 		end
 	end
