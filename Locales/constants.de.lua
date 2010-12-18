@@ -986,6 +986,7 @@ if AL then
 	-- AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = "Prinz Sarsarun";
 	AL["Highlord Kruul"] = "Hochlord Kruul";
+	AL["Dormus the Camel-Hoarder"] = "Dormus der Kameltreiber"; 
 
 	-- Zones
 	AL["World Drop"] = "Weltdrops";
