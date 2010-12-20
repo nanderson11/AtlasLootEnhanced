@@ -890,6 +890,9 @@ AtlasLoot_TextParsing = {
 	{ "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t"},
 	{ "#justice#", "|TInterface\\Icons\\pvecurrency-justice:0|t"},
 	{ "#valor#", "|TInterface\\Icons\\pvecurrency-valor:0|t"},
+	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},
+	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},
+	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},
 }
 
 --------------------------------------------------------------------------------

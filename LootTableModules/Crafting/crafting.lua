@@ -1226,13 +1226,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 15, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200"};
 				{ 16, "s14379", "11128", "=q1=Golden Rod", "=ds=#sr# 150"};
 				{ 17, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100"};
-				{ 19, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250"};
-				{ 20, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200"};
-				{ 21, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125"};
-				{ 22, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75"};
-				{ 23, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25"};
-				{ 25, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200"};
-				{ 26, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150"};
+				{ 19, "s76178", "65365", "=q1=Folded Obsidium", "=ds=#sr# 425"};
+				{ 20, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250"};
+				{ 21, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200"};
+				{ 22, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125"};
+				{ 23, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75"};
+				{ 24, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25"};
+				{ 26, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200"};
+				{ 27, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150"};
 			};
 		};
 		info = {
@@ -1338,6 +1339,86 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["SmithingCataVendor"] = {
+		["Normal"] = {
+			{
+				{ 1, 66117, "", "=q1=Plans: Bloodied Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
+
+				{ 2, 66118, "", "=q1=Plans: Bloodied Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
+
+				{ 3, 66125, "", "=q1=Plans: Ornate Pyrium Bracers", "=ds=#p2# (505)", "20 #elementiumbar#" },
+
+				{ 4, 66126, "", "=q1=Plans: Ornate Pyrium Gauntlets", "=ds=#p2# (510)", "20 #elementiumbar#" },
+
+				{ 5, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
+
+				{ 6, 66119, "", "=q1=Plans: Bloodied Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
+
+				{ 7, 66107, "", "=q1=Plans: Elementium Girdle of Pain", "=ds=#p2# (510)", "20 #elementiumbar#" },
+
+				{ 8, 66105, "", "=q1=Plans: Hardened Elementium Girdle", "=ds=#p2# (510)", "20 #elementiumbar#" },
+
+				{ 9, 66109, "", "=q1=Plans: Light Elementium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
+
+				{ 10, 66127, "", "=q1=Plans: Ornate Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
+
+				{ 11, 66120, "", "=q1=Plans: Bloodied Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 12, 67603, "", "=q1=Plans: Elementium Gutslicer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 13, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
+
+				{ 14, 66113, "", "=q1=Plans: Elementium Bonesplitter", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 15, 66106, "", "=q1=Plans: Elementium Deathplate", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 16, 66111, "", "=q1=Plans: Elementium Hammer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 17, 66104, "", "=q1=Plans: Hardened Elementium Hauberk", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 18, 66108, "", "=q1=Plans: Light Elementium Chestguard", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 19, 66128, "", "=q1=Plans: Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+
+				{ 20, 66121, "", "=q1=Plans: Bloodied Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 21, 66115, "", "=q1=Plans: Elementium Earthguard", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 22, 66112, "", "=q1=Plans: Elementium Poleaxe", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 23, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 24, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 25, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 26, 66129, "", "=q1=Plans: Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+
+				{ 27, 66124, "", "=q1=Plans: Bloodied Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+				{ 28, 66123, "", "=q1=Plans: Bloodied Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+				{ 29, 66122, "", "=q1=Plans: Bloodied Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+				{ 30, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+			};
+			{
+				{ 1, 66132, "", "=q1=Plans: Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+				{ 2, 66131, "", "=q1=Plans: Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+				{ 3, 66130, "", "=q1=Plans: Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+
+				{ 4, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
+			};
+		};
+		info = {
+			name = BLACKSMITHING..": "..BabbleInventory["Miscellaneous"],
+			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
+		};
+	};
+	
 		---------------
 		--- Cooking ---
 		---------------
