@@ -8,7 +8,7 @@ Patch Notes
 v6.01.02
 Archaeology updated with Rare and Epic quality rewards.
 Blacksmith updated with vendor sold plans.
-Enchanting updated with vendor sold plans.
+Enchanting updated with vendor sold formulas.
 Many minor fixes, additions and translations
 
 v6.01.01
