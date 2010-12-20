@@ -893,6 +893,9 @@ AtlasLoot_TextParsing = {
 	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},
 	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},
 	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},
+	{ "#heavenlyshard#", "|TInterface\\Icons\\inv_misc_largeshard_superior:0|t"},
+	{ "#hypnoticdust#", "|TInterface\\Icons\\inv_enchant_dust:0|t"},
+	{ "#maelstromcrystal#", "|TInterface\\Icons\\inv_misc_crystalepic:0|t"},
 }
 
 --------------------------------------------------------------------------------

@@ -399,6 +399,9 @@ if AL then
 	AL["Transmutes"] = true;
 	AL["Flasks"] = true;
 
+	-- Blacksmithing
+	AL["Cataclysm Vendor Sold Plans"] = true;
+
 	-- Enchanting
 	AL["Enchant Boots"] = true;
 	AL["Enchant Bracer"] = true;
@@ -409,6 +412,7 @@ if AL then
 	AL["Enchant Shield"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
+	AL["Cataclysm Vendor Sold Formulas"] = true;
 
 	-- Inscription
 	AL["Major Glyph"] = true;

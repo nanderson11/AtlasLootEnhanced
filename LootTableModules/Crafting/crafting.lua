@@ -58,6 +58,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- Axesmith
 ----- Hammersmith
 ----- Swordsmith
+----- Cataclysm Vendor Sold Plans
 ---- Cooking
 ---- Enchanting
 ----- Boots
@@ -71,6 +72,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- 1 Hand Weapons
 ----- Staves
 ----- Miscellaneous
+----- Cataclysm Vendor Sold Formulas
 ---- Engineering
 ---- First Aid
 ---- Inscription
@@ -1343,82 +1345,49 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 66117, "", "=q1=Plans: Bloodied Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
-
-				{ 2, 66118, "", "=q1=Plans: Bloodied Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
-
-				{ 3, 66125, "", "=q1=Plans: Ornate Pyrium Bracers", "=ds=#p2# (505)", "20 #elementiumbar#" },
-
-				{ 4, 66126, "", "=q1=Plans: Ornate Pyrium Gauntlets", "=ds=#p2# (510)", "20 #elementiumbar#" },
-
-				{ 5, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
-
+				{ 2, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
+				{ 3, 66118, "", "=q1=Plans: Bloodied Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
+				{ 4, 66125, "", "=q1=Plans: Ornate Pyrium Bracers", "=ds=#p2# (505)", "20 #elementiumbar#" },
+				{ 5, 66126, "", "=q1=Plans: Ornate Pyrium Gauntlets", "=ds=#p2# (510)", "20 #elementiumbar#" },
 				{ 6, 66119, "", "=q1=Plans: Bloodied Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-
 				{ 7, 66107, "", "=q1=Plans: Elementium Girdle of Pain", "=ds=#p2# (510)", "20 #elementiumbar#" },
-
 				{ 8, 66105, "", "=q1=Plans: Hardened Elementium Girdle", "=ds=#p2# (510)", "20 #elementiumbar#" },
-
 				{ 9, 66109, "", "=q1=Plans: Light Elementium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-
 				{ 10, 66127, "", "=q1=Plans: Ornate Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-
 				{ 11, 66120, "", "=q1=Plans: Bloodied Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
 				{ 12, 67603, "", "=q1=Plans: Elementium Gutslicer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 13, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
-
-				{ 14, 66113, "", "=q1=Plans: Elementium Bonesplitter", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 15, 66106, "", "=q1=Plans: Elementium Deathplate", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 16, 66111, "", "=q1=Plans: Elementium Hammer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 17, 66104, "", "=q1=Plans: Hardened Elementium Hauberk", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 18, 66108, "", "=q1=Plans: Light Elementium Chestguard", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 19, 66128, "", "=q1=Plans: Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-
-				{ 20, 66121, "", "=q1=Plans: Bloodied Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
-				{ 21, 66115, "", "=q1=Plans: Elementium Earthguard", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
-				{ 22, 66112, "", "=q1=Plans: Elementium Poleaxe", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
-				{ 23, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
-				{ 24, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
-				{ 25, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
-				{ 26, 66129, "", "=q1=Plans: Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-
+				{ 13, 66113, "", "=q1=Plans: Elementium Bonesplitter", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 14, 66106, "", "=q1=Plans: Elementium Deathplate", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 15, 66111, "", "=q1=Plans: Elementium Hammer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 16, 66104, "", "=q1=Plans: Hardened Elementium Hauberk", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 17, 66108, "", "=q1=Plans: Light Elementium Chestguard", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 18, 66128, "", "=q1=Plans: Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 19, 66121, "", "=q1=Plans: Bloodied Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 20, 66115, "", "=q1=Plans: Elementium Earthguard", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 21, 66112, "", "=q1=Plans: Elementium Poleaxe", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 22, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 23, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 24, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 25, 66129, "", "=q1=Plans: Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 26, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
 				{ 27, 66124, "", "=q1=Plans: Bloodied Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 				{ 28, 66123, "", "=q1=Plans: Bloodied Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 				{ 29, 66122, "", "=q1=Plans: Bloodied Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 				{ 30, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 			};
 			{
 				{ 1, 66132, "", "=q1=Plans: Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 				{ 2, 66131, "", "=q1=Plans: Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 				{ 3, 66130, "", "=q1=Plans: Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
-
 				{ 4, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..BabbleInventory["Miscellaneous"],
+			name = BLACKSMITHING..": "..AL["Cataclysm Vendor Sold Plans"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
-	
+
 		---------------
 		--- Cooking ---
 		---------------
@@ -2393,6 +2362,37 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ENCHANTING..": "..BabbleInventory["Miscellaneous"],
+			module = moduleName, menu = "ENCHANTINGMENU", instance = "Enchanting",
+		};
+	};
+
+	AtlasLoot_Data["EnchantingCataVendor"] = {
+		["Normal"] = {
+			{
+				{ 1, 65359, "", "=q1=Formula: Runed Elementium Rod", "=ds=#p4# (515)", "1 #heavenlyshard#" },
+				{ 2, 64411, "", "=q2=Formula: Enchant Boots - Assassin's Step", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+
+				{ 3, 64412, "", "=q2=Formula: Enchant Boots - Lavawalker", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+				{ 4, 52738, "", "=q2=Formula: Enchant Bracer - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+				{ 5, 64413, "", "=q2=Formula: Enchant Bracer - Greater Speed", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+
+				{ 6, 52740, "", "=q2=Formula: Enchant Chest - Greater Stamina", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+				{ 7, 52739, "", "=q2=Formula: Enchant Chest - Peerless Stats", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+				{ 8, 52737, "", "=q2=Formula: Enchant Cloak - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+
+				{ 9, 64414, "", "=q2=Formula: Enchant Gloves - Greater Mastery", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+
+				{ 10, 64415, "", "=q2=Formula: Enchant Gloves - Mighty Strength", "=ds=#p4# (525)", "5 #heavenlyshard#" },
+
+				{ 11, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#" },
+
+				{ 12, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+				{ 13, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+				{ 14, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+			};
+		};
+		info = {
+			name = ENCHANTING..": "..AL["Cataclysm Vendor Sold Formulas"],
 			module = moduleName, menu = "ENCHANTINGMENU", instance = "Enchanting",
 		};
 	};
