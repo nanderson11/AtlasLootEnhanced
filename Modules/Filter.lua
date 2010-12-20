@@ -111,7 +111,7 @@ local ClassHides = {
 	["SHAMAN"] = {["Armor"] = {false,false,true,false},["WeaponsMeele"] = {true,true,true,true,true,false,true,false,true},["WeaponsMeeleTwoHand"] = {true,true,false},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,true}},
 	["WARLOCK"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Other"] = {true,true,true,true,false}},
 	["WARRIOR"] = {["Armor"] = {false,false,false,true},["WeaponsMeele"] = {true,true,true,true,true,true,true,true,true},["WeaponsMeeleTwoHand"] = {true,true,true},["WeaponsRanged"] = {false,true,true,true,true},["Other"] = {true,true,true,true,false}},
-	["DEATHKNIGHT"] = {["Armor"] = {false,false,false,true},["WeaponsMeele"] = {true,false,true,false,true,true,false,true,false},["WeaponsMeeleTwoHand"] = {true,false,true},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,false}}
+	["DEATHKNIGHT"] = {["Armor"] = {false,false,false,true},["WeaponsMeele"] = {true,false,true,false,true,true,false,true,false},["WeaponsMeeleTwoHand"] = {true,true,true},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,false}}
 }
 
 local getOptions

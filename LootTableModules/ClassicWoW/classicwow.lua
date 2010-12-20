@@ -3791,7 +3791,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
 				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
 				{ 19, 63452, "", "=q3=Burden of Lost Humanity", "=ds=#s3#, #a3#" };
-				{ 20, 63450, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
+				{ 20, 63450, "", "=q3=Phantom Armor", "=ds=#s5#, #a4#" };
 				{ 21, 63453, "", "=q3=Iron Will Girdle", "=ds=#s10#, #a4#" };
 			};
 		};
