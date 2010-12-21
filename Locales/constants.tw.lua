@@ -398,6 +398,9 @@ if AL then
 	AL["Transmutes"] = "轉化";
 	AL["Flasks"] = "精煉藥劑";
 
+	-- Blacksmithing
+	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商出售設計圖";
+
 	--Enchanting
 	AL["Enchant Boots"] = "附魔靴子";
 	AL["Enchant Bracer"] = "附魔護腕";
@@ -408,6 +411,7 @@ if AL then
 	AL["Enchant Shield"] = "附魔盾牌";
 	AL["Enchant 2H Weapon"] = "附魔雙手武器";
 	AL["Enchant Weapon"] = "附魔武器";
+	AL["Cataclysm Vendor Sold Formulas"] = "浩劫與重生供應商出售公式";
 
 	--Inscription
 	AL["Major Glyph"] = "極效雕紋";
@@ -455,7 +459,7 @@ if AL then
 	AL["Random Heroic Reward"] = "隨機英雄副本獎勵";
 	AL["Fishing Daily Reward"] = "每日釣魚獎勵";
 	AL["Collector's Edition"] = "典藏版";
---	AL["Blizzcon"] = true;
+	AL["Blizzcon"] = "Blizzcon";
 	AL["WoW Anniversary Celebration"] = "魔獸世界週年慶典";
 	AL["Daily Reward"] = "每日獎勵";
 
@@ -753,7 +757,7 @@ if AL then
 	AL["Path of the Violet Mage"] = "紫蘿蘭法師之路";
 	AL["Path of the Violet Assassin"] = "紫羅蘭刺客之路";
 	AL["Path of the Violet Restorer"] = "紫羅蘭治療師之路";
-	
+
 	-- Ashen Verdict Paths
 	AL["Path of Courage"] = "勇氣之路";
 	AL["Path of Destruction"] = "毀滅之路";
@@ -984,6 +988,8 @@ if AL then
 --	AL["Jadefang"] = true;
 	AL["Aeonaxx"] = "艾歐納克斯";
 	AL["Prince Sarsarun"] = "薩爾撒倫王子";
+	AL["Highlord Kruul"] = "卡魯歐大領主"; -- added until decided if the set gets removed
+--	AL["Dormus the Camel-Hoarder"] = true; 
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
