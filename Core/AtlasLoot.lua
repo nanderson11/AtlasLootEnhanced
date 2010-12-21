@@ -228,9 +228,9 @@ function AtlasLoot:OnInitialize()
 		EquipCompare_RegisterTooltip(AtlasLootTooltip)
 	end
 
-	if (self.db.profile.LoadAllLoDStartup == true) then
+	--if (self.db.profile.LoadAllLoDStartup == true) then
 		AtlasLoot:LoadModule("all")
-	end
+	--end
 	collectgarbage("collect")
     --if LibStub:GetLibrary("LibAboutPanel", true) then
         --LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
