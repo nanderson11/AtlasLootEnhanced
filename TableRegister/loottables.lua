@@ -89,8 +89,8 @@ AtlasLoot_LootTableRegister = {
 
 		["TheVortexPinnacle"] = {
 			["Bosses"] = {
-				{ "VPAltarius", 3 },
-				{ "VPErtan", 4 },
+				{ "VPErtan", 3 },
+				{ "VPAltarius", 4 },
 				{ "VPAsimalAkir", 5 },
 				{ "VPTrash", 7 },
 			},
