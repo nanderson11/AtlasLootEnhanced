@@ -399,6 +399,9 @@ if AL then
 	AL["Transmutes"] = "Transmutations";
 	AL["Flasks"] = "Flacons";
 
+	-- Blacksmithing
+	--AL["Cataclysm Vendor Sold Plans"] = true; --  traduire
+
 	-- Enchanting
 	AL["Enchant Boots"] = "Enchantement Bottes";
 	AL["Enchant Bracer"] = "Enchantement Bracelets";
@@ -409,6 +412,7 @@ if AL then
 	AL["Enchant Shield"] = "Enchantement Bouclier";
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
+	--AL["Cataclysm Vendor Sold Formulas"] = true; -- à traduire
 
 	-- Inscription
 	AL["Major Glyph"] = "Glyphe majeur";
