@@ -453,30 +453,6 @@ local moduleName = "AtlasLootCataclysm"
 		--- Vortex Pinnacle -----
 		-------------------------
 
-	AtlasLoot_Data["VPAltarius"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55838, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
-				{ 3, 55835, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
-				{ 4, 55840, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
-				{ 5, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
-				{ 6, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
-				{ 18, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
-				{ 19, 56363, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
-				{ 20, 56362, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
-				{ 21, 56365, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
-				{ 22, 56364, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["Altarius"],
-			module = moduleName, instance = "TheVortexPinnacle",
-		};
-	};
-
 	AtlasLoot_Data["VPErtan"] = {
 		["Normal"] = {
 			{
@@ -496,6 +472,30 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Grand Vizier Ertan"],
+			module = moduleName, instance = "TheVortexPinnacle",
+		};
+	};
+
+	AtlasLoot_Data["VPAltairus"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55838, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
+				{ 3, 55835, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
+				{ 4, 55840, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
+				{ 5, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
+				{ 6, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
+				{ 18, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
+				{ 19, 56363, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
+				{ 20, 56362, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
+				{ 21, 56365, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
+				{ 22, 56364, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Altarius"],
 			module = moduleName, instance = "TheVortexPinnacle",
 		};
 	};
@@ -579,29 +579,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["LostCityBarim"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55861, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
-				{ 3, 55862, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
-				{ 4, 55864, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
-				{ 5, 55863, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
-				{ 6, 55865, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56386, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
-				{ 18, 56387, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
-				{ 19, 56385, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
-				{ 20, 56388, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
-				{ 21, 56384, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["High Prophet Barim"],
-			module = moduleName, instance = "LostCityOfTolvir",
-		};
-	};
-
 	AtlasLoot_Data["LostCityLockmaw"] = {
 		["Normal"] = {
 			{
@@ -621,6 +598,29 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Lockmaw"],
+			module = moduleName, instance = "LostCityOfTolvir",
+		};
+	};
+
+	AtlasLoot_Data["LostCityBarim"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55861, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
+				{ 3, 55862, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
+				{ 4, 55864, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
+				{ 5, 55863, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
+				{ 6, 55865, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 56386, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
+				{ 18, 56387, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
+				{ 19, 56385, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
+				{ 20, 56388, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
+				{ 21, 56384, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["High Prophet Barim"],
 			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};

@@ -90,7 +90,7 @@ AtlasLoot_LootTableRegister = {
 		["TheVortexPinnacle"] = {
 			["Bosses"] = {
 				{ "VPErtan", 3 },
-				{ "VPAltarius", 4 },
+				{ "VPAltairus", 4 },
 				{ "VPAsimalAkir", 5 },
 				{ "VPTrash", 7 },
 			},
@@ -100,8 +100,8 @@ AtlasLoot_LootTableRegister = {
 		["LostCityOfTolvir"] = {
 			["Bosses"] = {
 				{ "LostCityHusam", 3 },
-				{ "LostCityBarim", 4 },
-				{ "LostCityLockmaw", 5 },
+				{ "LostCityLockmaw", 4 },
+				{ "LostCityBarim", 5 },
 				{ "LostCitySiamat", 6 },
 				{ "LostCityTrash", 8 },
 			},
