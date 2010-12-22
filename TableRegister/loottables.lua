@@ -100,10 +100,10 @@ AtlasLoot_LootTableRegister = {
 		["LostCityOfTolvir"] = {
 			["Bosses"] = {
 				{ "LostCityHusam", 3 },
-				{ "LostCityLockmaw", 4 },
-				{ "LostCityBarim", 5 },
-				{ "LostCitySiamat", 6 },
-				{ "LostCityTrash", 8 },
+				{ "LostCityLockmaw", {4,5} },
+				{ "LostCityBarim", 6 },
+				{ "LostCitySiamat", 7 },
+				{ "LostCityTrash", 9 },
 			},
 			["Info"] = { BabbleZone["Lost City of the Tol'vir"], "AtlasLootCataclysm", mapname = "LostCityofTolvir" },
 		},
@@ -162,7 +162,9 @@ AtlasLoot_LootTableRegister = {
 
 		["BaradinHold"] = {
 			["Bosses"] = {
-				{ "Argaloth", 2 },
+				{ "BaradinsWardens", 1 },
+				{ "HellscreamsReach", 2 },
+				{ "Argaloth", 4 },
 			},
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
