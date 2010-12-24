@@ -54,7 +54,7 @@ if AL then
 	--AL["Only change alpha on leave frame"] = true; -- à traduire
 
 	-- Bindings
-	--AL["Toggle AtlasLoot"] = true; -- à traduire
+	AL["Toggle AtlasLoot"] = "Afficher / Masquer AtlasLoot";
 
 	-- Help
 	AL["Help"] = "Aide";
@@ -83,7 +83,7 @@ if AL then
 	AL["Drop Rate: "] = "Chance de tomber : ";
 	--AL["DKP"] = true;
 	AL["Priority:"] = "Priorité :";
-	AL["Show price and slot if possible"] = "Voir le prix si possible"; -- à traduire
+	AL["Show price and slot if possible"] = "Voir le prix et le slot si possible";
 	--AL["Use GameTooltip"] = true; -- à traduire
 	--AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true; -- à traduire
 	-- Unsafe Item
@@ -141,7 +141,7 @@ if AL then
 
 	-- Panel
 	AL["Hide Panel"] = "Masquer le panneau";
-	--AL["Toggle AL Panel"] = true; -- à traduire
+	AL["Toggle AL Panel"] = "Afficher / Masquer le panneau d'AtlasLoot";
 	AL["Buttons"] = "Boutons";
 
 	-- Buttons
@@ -164,8 +164,8 @@ if AL then
 	-- Single options
 	AL["unused"] = "inutilisé";
 	AL["QuickLook name:"] = "Nom du QuickLook :";
-	--AL["Use Boss name"] = true;
-	--AL["Use Instance name"] = true;
+	AL["Use Boss name"] = "Utiliser le nom du boss";
+	AL["Use Instance name"] = "Utiliser le nom de l'instance";
 	AL["Delete"] = "Supprimer";
 	AL["Lock"] = "Bloquer";
 	AL["Enable"] = "Activer";
@@ -460,7 +460,7 @@ if AL then
 	AL["Random Heroic Reward"] = "Récompense héroique aléatoire";
 	--AL["Fishing Daily Reward"] = true; -- à traduire
 	--AL["Collector's Edition"] = true; -- à traduire
-	--AL["Blizzcon"] = true; -- à traduire
+	--AL["Blizzcon"] = true;
 	--AL["WoW Anniversary Celebration"] = true; -- à traduire
 	--AL["Daily Reward"] = true; -- à traduire
 
