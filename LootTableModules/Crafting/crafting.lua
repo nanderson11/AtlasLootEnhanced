@@ -1147,13 +1147,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingWeaponCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s76433", "55043", "=q3=Decapitator's Razor", "=ds="..AL["Trainer"] };
-				{ 2, "s76434", "55044", "=q3=Cold-Forged Shank", "=ds="..AL["Trainer"] };
-				{ 3, "s76474", "55246", "=q3=Obsidium Bladespear", "=ds="..AL["Trainer"] };
-				{ 4, "s76293", "55042", "=q2=Stormforged Shield", "=ds="..AL["Trainer"] };
-				{ 5, "s76435", "55045", "=q3=Fire-Etched Dagger", "=ds="..AL["Trainer"] };
-				{ 6, "s76436", "55046", "=q3=Lifeforce Hammer", "=ds="..AL["Trainer"] };
-				{ 7, "s76437", "55052", "=q3=Obsidium Executioner", "=ds="..AL["Trainer"] };
+				{ 1, "s76454", "55069", "=q4=Elementium Earthguard", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 2, "s76455", "55070", "=q4=Elementium Stormshield", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 3, "s76451", "55066", "=q3=Elementium Poleaxe", "=ds=#w7# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 4, "s76453", "55068", "=q3=Elementium Shank", "=ds=#h1#, #w4# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 5, "s76449", "55064", "=q3=Elementium Spellblade", "=ds=#h3#, #w4# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 6, "s94732", "67605", "=q3=Forged Elementium Mindcrusher", "=ds=#h2#, #w6# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 7, "s94718", "67602", "=q3=Elementium Gutslicer", "=ds=#h1#, #w1# / =q1=#sk# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 8, "s76452", "55067", "=q3=Elementium Bonesplitter", "=ds=#h1#, #w1# / =q1=#sk# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 9, "s76450", "55065", "=q3=Elementium Hammer", "=ds=#h3#, #w6# / =q1=#sk# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 10, "s76433", "55043", "=q3=Decapitator's Razor", "=ds=#h1#, #w1# / =q1=#sk# 425", "=ds="..AL["Trainer"]};
+				{ 11, "s76434", "55044", "=q3=Cold-Forged Shank", "=ds=#h1#, #w4# / =q1=#sk# 425","=ds="..AL["Trainer"]};
+				{ 12, "s76474", "55246", "=q3=Obsidium Bladespear", "=ds=#w7# / =q1=#sk# 425","=ds="..AL["Trainer"]};
+				{ 13, "s76435", "55045", "=q3=Fire-Etched Dagger", "=ds=#h3#, #w4# / =q1=#sk# 425","=ds="..AL["Trainer"]};
+				{ 14, "s76436", "55046", "=q3=Lifeforce Hammer", "=ds=#h3#, #w6#   =q1=#sk# 425","=ds="..AL["Trainer"]};
+				{ 15, "s76437", "55052", "=q3=Obsidium Executioner", "=ds=#h2#, #w10# / =q1=#sk# 425","=ds="..AL["Trainer"]};
+				{ 16, "s76293", "55042", "=q2=Stormforged Shield", "=ds=#w8# / =q1=#sk# 425","=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -6730,18 +6739,36 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["CraftedWeapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 49888, "", "=q4=Shadow's Edge", "=ds=#h2#, #w1#"};
-				{ 3, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j54#"};
-				{ 4, 45085, "", "=q4=Titansteel Spellblade", "=ds=#h3#, #w4#"};
-				{ 5, 42435, "", "=q4=Titansteel Shanker", "=ds=#h1#, #w4#"};
-				{ 6, 41383, "", "=q4=Titansteel Bonecrusher", "=ds=#h3#, #w6#"};
-				{ 7, 41384, "", "=q4=Titansteel Guardian", "=ds=#h3#, #w6#"};
-				{ 8, 41257, "", "=q4=Titansteel Destroyer", "=ds=#h2#, #w6#"};
-				{ 9, 42508, "", "=q4=Titansteel Shield Wall", "=ds=#w8#"};
-				{ 11, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j54#"};
-				{ 12, 41168, "", "=q4=Armor Plated Combat Shotgun", "=ds=#w5#"};
-				{ 13, 44504, "", "=q4=Nesingwary 4000", "=ds=#w5#"};
-				{ 16, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j10#"};
+				{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1="..AL["Level 85"]};
+				{ 2, 55069, "", "=q4=Elementium Earthguard", "=ds=#w8#"};
+				{ 3, 55070, "", "=q4=Elementium Stormshield", "=ds=#w8#"};
+				{ 16, 0, "INV_Box_01", "=q6=#p2#", "=q1="..AL["Level 80"]};
+				{ 17, 45085, "", "=q4=Titansteel Spellblade", "=ds=#h3#, #w4#"};
+				{ 18, 42435, "", "=q4=Titansteel Shanker", "=ds=#h1#, #w4#"};
+				{ 19, 41383, "", "=q4=Titansteel Bonecrusher", "=ds=#h3#, #w6#"};
+				{ 20, 41384, "", "=q4=Titansteel Guardian", "=ds=#h3#, #w6#"};
+				{ 21, 41257, "", "=q4=Titansteel Destroyer", "=ds=#h2#, #w6#"};
+				{ 22, 42508, "", "=q4=Titansteel Shield Wall", "=ds=#w8#"};
+				{ 24, 0, "INV_Box_01", "=q6=#p5#", "=q1="..AL["Level 80"]};
+				{ 25, 41168, "", "=q4=Armor Plated Combat Shotgun", "=ds=#w5#"};
+				{ 26, 44504, "", "=q4=Nesingwary 4000", "=ds=#w5#"};
+				{ 28, 49888, "", "=q4=Shadow's Edge", "=ds=#h2#, #w1#"};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1="..AL["Level 60"]};
+				{ 2, 19166, "", "=q4=Black Amnesty", "=ds=#h1#, #w4#"};
+				{ 3, 22383, "", "=q4=Sageblade", "=ds=#h3#, #w10#"};
+				{ 4, 19168, "", "=q4=Blackguard", "=ds=#h1#, #w10#"};
+				{ 5, 19169, "", "=q4=Nightfall", "=ds=#h2#, #w1#"};
+				{ 6, 19170, "", "=q4=Ebon Hand", "=ds=#h1#, #w6#"};
+				{ 7, 22384, "", "=q4=Persuader", "=ds=#h1#, #w6#"};
+				{ 8, 17193, "", "=q4=Sulfuron Hammer", "=ds=#h2#, #w6#"};
+				{ 9, 19167, "", "=q4=Blackfury", "=ds=#w7#"};
+				{ 10, 22198, "", "=q4=Jagged Obsidian Shield", "=ds=#w8#"};
+				{ 12, 0, "INV_Box_01", "=q6=#p5#", "=q1="..AL["Level 60"]};
+				{ 13, 18282, "", "=q4=Core Marksman Rifle", "=ds=#w5#"};
+				{ 14, 18168, "", "=q4=Force Reactive Disk", "=ds=#w8#"};
+				{ 16, 0, "INV_Box_01", "=q6=#p2#", "=q1="..AL["Level 70"]};
 				{ 17, 23554, "", "=q4=Eternium Runed Blade", "=ds=#h3#, #w4#"};
 				{ 18, 23555, "", "=q4=Dirge", "=ds=#h1#, #w4#"};
 				{ 19, 23540, "", "=q4=Felsteel Longblade", "=ds=#h1#, #w10#"};
@@ -6752,23 +6779,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 24, 23544, "", "=q4=Runic Hammer", "=ds=#h1#, #w6#"};
 				{ 25, 23546, "", "=q4=Fel Hardened Maul", "=ds=#h2#, #w6#"};
 				{ 26, 32854, "", "=q4=Hammer of Righteous Might", "=ds=#h2#, #w6#"};
-				{ 28, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j10#"};
+				{ 28, 0, "INV_Box_01", "=q6=#p5#", "=q1="..AL["Level 70"]};
 				{ 29, 32756, "", "=q4=Gyro-Balanced Khorium Destroyer", "=ds=#w5#"};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#p2#", "=q1=#j9#"};
-				{ 2, 19166, "", "=q4=Black Amnesty", "=ds=#h1#, #w4#"};
-				{ 3, 22383, "", "=q4=Sageblade", "=ds=#h3#, #w10#"};
-				{ 4, 19168, "", "=q4=Blackguard", "=ds=#h1#, #w10#"};
-				{ 5, 19169, "", "=q4=Nightfall", "=ds=#h2#, #w1#"};
-				{ 6, 19170, "", "=q4=Ebon Hand", "=ds=#h1#, #w6#"};
-				{ 7, 22384, "", "=q4=Persuader", "=ds=#h1#, #w6#"};
-				{ 8, 17193, "", "=q4=Sulfuron Hammer", "=ds=#h2#, #w6#"};
-				{ 9, 19167, "", "=q4=Blackfury", "=ds=#w7#"};
-				{ 10, 22198, "", "=q4=Jagged Obsidian Shield", "=ds=#w8#"};
-				{ 12, 0, "INV_Box_01", "=q6=#p5#", "=q1=#j9#"};
-				{ 13, 18282, "", "=q4=Core Marksman Rifle", "=ds=#w5#"};
-				{ 14, 18168, "", "=q4=Force Reactive Disk", "=ds=#w8#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#p15#", ""};

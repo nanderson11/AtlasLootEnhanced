@@ -826,6 +826,7 @@ AtlasLoot_TextParsing = {
 
 	-- Crafting
 	{ "#sr#", AL["Skill Required:"] },
+	{ "#sk#", AL["Skill"] },
 
 	-- Misc PvP Set Text
 	{ "#pvps1#", AL["Epic Set"] },
