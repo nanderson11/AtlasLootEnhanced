@@ -265,7 +265,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Erunak Stonespeaker"],
+			name = BabbleBoss["Erunak Stonespeaker"].." & "..BabbleBoss["Mindbender Ghur'sha"],
 			module = moduleName, instance = "ThroneOfTheTides",
 		};
 	};

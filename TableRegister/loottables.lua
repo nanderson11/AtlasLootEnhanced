@@ -67,11 +67,11 @@ AtlasLoot_LootTableRegister = {
 
 		["ThroneOfTheTides"] = {
 			["Bosses"] = {
-				{ "ToTNazjar", 3 },
-				{ "ToTUlthok",  4 },
-				{ "ToTStonespeaker", 5 },
-				{ "ToTOzumat", 6 },
-				{ "ToTTrash", 8 },
+				{ "ToTNazjar", 5 },
+				{ "ToTUlthok",  6 },
+				{ "ToTStonespeaker", 7 },
+				{ "ToTOzumat", 8 },
+				{ "ToTTrash", 12 },
 			},
 			["Info"] = { BabbleZone["Throne of the Tides"], "AtlasLootCataclysm", mapname = "ThroneOfTheTides" },
 		},
@@ -82,7 +82,7 @@ AtlasLoot_LootTableRegister = {
 				{ "StonecoreSlabhide", 5 },
 				{ "StonecoreOzruk", 6 },
 				{ "StonecoreAzil", 7 },
-				{ "StonecoreTrash", 9 },
+				{ "StonecoreTrash", 10 },
 			},
 			["Info"] = { BabbleZone["The Stonecore"], "AtlasLootCataclysm", mapname = "TheStonecore" },
 		},
@@ -151,9 +151,9 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "BDMagmaw", 2 },
 				{ "BDOmnotron", 3 },
-				{ "BDMaloriak", 4 },
-				{ "BDAtramedes", 5 },
-				{ "BDChimaeron", 6 },
+				{ "BDChimaeron", 4 },
+				{ "BDMaloriak", 5 },
+				{ "BDAtramedes", 6 },
 				{ "BDNefarian", 7 },
 				{ "BDTrash", 9 },
 			},
