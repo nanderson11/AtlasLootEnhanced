@@ -1506,27 +1506,6 @@ AtlasLoot_LootTableRegister = {
 
 	["Crafting"] = {
 
-		["Blacksmithing"] = {
-			["Bosses"] = {
-				{ "SmithingArmorOld" },
-				{ "SmithingArmorBC" },
-				{ "SmithingArmorWrath" },
-				{ "SmithingArmorCata" },
-				{ "SmithingWeaponOld" },
-				{ "SmithingWeaponBC" },
-				{ "SmithingWeaponWrath" },
-				{ "SmithingWeaponCata" },
-				{ "SmithingEnhancement" },
-				{ "SmithingMisc" },
-				{ "Armorsmith" },
-				{ "Weaponsmith" },
-				{ "Axesmith" },
-				{ "Hammersmith" },
-				{ "Swordsmith" },
-			},
-			["Info"] = { BLACKSMITHING, "AtlasLootCrafting"},
-		},
-
 		["Enchanting"] = {
 			["Bosses"] = {
 				{ "EnchantingBoots" },
