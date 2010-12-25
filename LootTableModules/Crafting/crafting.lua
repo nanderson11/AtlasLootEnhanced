@@ -2834,25 +2834,26 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Gnomish"] = {
 		["Normal"] = {
 			{
-				{ 1, "s56473", "40895", "=q3=Gnomish X-Ray Specs", "=ds=#sr# 425" };
-				{ 2, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375"};
-				{ 3, "s30574", "23828", "=q4=Gnomish Power Goggles", "=ds=#sr# 375"};
-				{ 4, "s30570", "23825", "=q3=Nigh-Invulnerability Belt", "=ds=#sr# 350"};
-				{ 5, "s36955", "30544", "=q2=Ultrasafe Transporter - Toshley's Station", "=ds=#sr# 350"};
-				{ 6, "s30569", "23835", "=q3=Gnomish Poultryizer", "=ds=#sr# 340"};
-				{ 7, "s30568", "23841", "=q1=Gnomish Flame Turret", "=ds=#sr# 325"};
-				{ 8, "s23096", "18645", "=q1=Alarm-O-Bot", "=ds=#sr# 265"};
-				{ 9, "s23489", "18986", "=q2=Ultrasafe Transporter - Gadgetzan", "=ds=#sr# 260"};
-				{ 10, "s23129", "18660", "=q2=World Enlarger", "=ds=#sr# 260"};
-				{ 11, "s12759", "10645", "=q1=Gnomish Death Ray", "=ds=#sr# 240"};
-				{ 12, "s12907", "10726", "=q2=Gnomish Mind Control Cap", "=ds=#sr# 235"};
-				{ 13, "s12906", "10725", "=q1=Gnomish Battle Chicken", "=ds=#sr# 230"};
-				{ 14, "s12905", "10724", "=q2=Gnomish Rocket Boots", "=ds=#sr# 225"};
-				{ 15, "s12903", "10721", "=q2=Gnomish Harm Prevention Belt", "=ds=#sr# 215"};
-				{ 16, "s12897", "10545", "=q2=Gnomish Goggles", "=ds=#sr# 210"};
-				{ 17, "s12902", "10720", "=q1=Gnomish Net-o-Matic Projector", "=ds=#sr# 210"};
-				{ 18, "s12899", "10716", "=q1=Gnomish Shrink Ray", "=ds=#sr# 205"};
-				{ 19, "s12895", "10713", "=q1=Inlaid Mithril Cylinder Plans", "=ds=#sr# 205"};
+				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds=#sr# 475"};--loc unknown
+				{ 2, "s56473", "40895", "=q3=Gnomish X-Ray Specs", "=ds=#sr# 425" };
+				{ 3, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375"};
+				{ 4, "s30574", "23828", "=q4=Gnomish Power Goggles", "=ds=#sr# 375"};
+				{ 5, "s30570", "23825", "=q3=Nigh-Invulnerability Belt", "=ds=#sr# 350"};
+				{ 6, "s36955", "30544", "=q2=Ultrasafe Transporter - Toshley's Station", "=ds=#sr# 350"};
+				{ 7, "s30569", "23835", "=q3=Gnomish Poultryizer", "=ds=#sr# 340"};
+				{ 8, "s30568", "23841", "=q1=Gnomish Flame Turret", "=ds=#sr# 325"};
+				{ 9, "s23096", "18645", "=q1=Alarm-O-Bot", "=ds=#sr# 265"};
+				{ 10, "s23489", "18986", "=q2=Ultrasafe Transporter - Gadgetzan", "=ds=#sr# 260"};
+				{ 11, "s23129", "18660", "=q2=World Enlarger", "=ds=#sr# 260"};
+				{ 12, "s12759", "10645", "=q1=Gnomish Death Ray", "=ds=#sr# 240"};
+				{ 13, "s12907", "10726", "=q2=Gnomish Mind Control Cap", "=ds=#sr# 235"};
+				{ 14, "s12906", "10725", "=q1=Gnomish Battle Chicken", "=ds=#sr# 230"};
+				{ 15, "s12905", "10724", "=q2=Gnomish Rocket Boots", "=ds=#sr# 225"};
+				{ 16, "s12903", "10721", "=q2=Gnomish Harm Prevention Belt", "=ds=#sr# 215"};
+				{ 17, "s12897", "10545", "=q2=Gnomish Goggles", "=ds=#sr# 210"};
+				{ 18, "s12902", "10720", "=q1=Gnomish Net-o-Matic Projector", "=ds=#sr# 210"};
+				{ 19, "s12899", "10716", "=q1=Gnomish Shrink Ray", "=ds=#sr# 205"};
+				{ 20, "s12895", "10713", "=q1=Inlaid Mithril Cylinder Plans", "=ds=#sr# 205"};
 			};
 		};
 		info = {
@@ -2864,26 +2865,27 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Goblin"] = {
 		["Normal"] = {
 			{
-				{ 1, "s56514", "42641", "=q1=Global Thermal Sapper Charge", "=ds=#sr# 425" };
-				{ 2, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375"};
-				{ 3, "s30566", "23839", "=q4=Foreman's Reinforced Helmet", "=ds=#sr# 375"};
-				{ 4, "s30563", "23836", "=q3=Goblin Rocket Launcher", "=ds=#sr# 350"};
-				{ 5, "s36954", "30542", "=q2=Dimensional Ripper - Area 52", "=ds=#sr# 350"};
-				{ 6, "s30560", "23827", "=q1=Super Sapper Charge", "=ds=#sr# 340"};
-				{ 7, "s30558", "23826", "=q1=The Bigger One", "=ds=#sr# 325"};
-				{ 8, "s23078", "18587", "=q1=Goblin Jumper Cables XL", "=ds=#sr# 265"};
-				{ 9, "s23486", "18984", "=q2=Dimensional Ripper - Everlook", "=ds=#sr# 260"};
-				{ 10, "s12758", "10588", "=q2=Goblin Rocket Helmet", "=ds=#sr# 245"};
-				{ 11, "s12908", "10727", "=q1=Goblin Dragon Gun", "=ds=#sr# 240"};
-				{ 12, "s12754", "10586", "=q1=The Big One", "=ds=#sr# 235"};
-				{ 13, "s12755", "10587", "=q1=Goblin Bomb Dispenser", "=ds=#sr# 230"};
-				{ 14, "s8895", "7189", "=q2=Goblin Rocket Boots", "=ds=#sr# 225"};
-				{ 15, "s12718", "10543", "=q2=Goblin Construction Helmet", "=ds=#sr# 205"};
-				{ 16, "s12717", "10542", "=q2=Goblin Mining Helmet", "=ds=#sr# 205"};
-				{ 17, "s12716", "10577", "=q1=Goblin Mortar", "=ds=#sr# 205"};
-				{ 18, "s12715", "10644", "=q1=Goblin Rocket Fuel Recipe", "=ds=#sr# 205"};
-				{ 19, "s12760", "10646", "=q1=Goblin Sapper Charge", "=ds=#sr# 205"};
-				{ 20, "s13240", "10577", "=q1=The Mortar: Reloaded", "=ds=#sr# 205"};
+				{ 1, "s84412", "59597", "=q3=Personal World Destroyer", "=ds=#sr# 475"};--loc unknown
+				{ 2, "s56514", "42641", "=q1=Global Thermal Sapper Charge", "=ds=#sr# 425" };
+				{ 3, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375"};
+				{ 4, "s30566", "23839", "=q4=Foreman's Reinforced Helmet", "=ds=#sr# 375"};
+				{ 5, "s30563", "23836", "=q3=Goblin Rocket Launcher", "=ds=#sr# 350"};
+				{ 6, "s36954", "30542", "=q2=Dimensional Ripper - Area 52", "=ds=#sr# 350"};
+				{ 7, "s30560", "23827", "=q1=Super Sapper Charge", "=ds=#sr# 340"};
+				{ 8, "s30558", "23826", "=q1=The Bigger One", "=ds=#sr# 325"};
+				{ 9, "s23078", "18587", "=q1=Goblin Jumper Cables XL", "=ds=#sr# 265"};
+				{ 10, "s23486", "18984", "=q2=Dimensional Ripper - Everlook", "=ds=#sr# 260"};
+				{ 11, "s12758", "10588", "=q2=Goblin Rocket Helmet", "=ds=#sr# 245"};
+				{ 12, "s12908", "10727", "=q1=Goblin Dragon Gun", "=ds=#sr# 240"};
+				{ 13, "s12754", "10586", "=q1=The Big One", "=ds=#sr# 235"};
+				{ 14, "s12755", "10587", "=q1=Goblin Bomb Dispenser", "=ds=#sr# 230"};
+				{ 15, "s8895", "7189", "=q2=Goblin Rocket Boots", "=ds=#sr# 225"};
+				{ 16, "s12718", "10543", "=q2=Goblin Construction Helmet", "=ds=#sr# 205"};
+				{ 17, "s12717", "10542", "=q2=Goblin Mining Helmet", "=ds=#sr# 205"};
+				{ 18, "s12716", "10577", "=q1=Goblin Mortar", "=ds=#sr# 205"};
+				{ 19, "s12715", "10644", "=q1=Goblin Rocket Fuel Recipe", "=ds=#sr# 205"};
+				{ 20, "s12760", "10646", "=q1=Goblin Sapper Charge", "=ds=#sr# 205"};
+				{ 21, "s13240", "10577", "=q1=The Mortar: Reloaded", "=ds=#sr# 205"};
 			};
 		};
 		info = {

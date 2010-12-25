@@ -1719,6 +1719,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
 				{ 4, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
 				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
+				{ 7, 59461, "", "=q4=Fury of Angerforge", "=ds=#s14#", ""};
 				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
 				{ 17, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
 				{ 18, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
