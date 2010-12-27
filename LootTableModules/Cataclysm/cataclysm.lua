@@ -4359,19 +4359,27 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WorldEpics85"] = {
 		["Normal"] = {
 			{
-				{ 1, 67131, "", "=q4=Ritssyn's Ruminous Drape", "=ds=#s4#"};
+				{ 1, 67134, "", "=q4=Dory's Finery", "=ds=#s4#"};
 				{ 2, 67140, "", "=q4=Drape of Inimitable Fate", "=ds=#s4#"};
-				{ 3, 67142, "", "=q4=Zom's Electrostatic Cloak", "=ds=#s4#"};
-				{ 4, 67146, "", "=q4=Woundsplicer Handwraps", "=ds=#s9#, #a1#"};
-				{ 5, 67150, "", "=q4=Arrowsinger Legguards", "=ds=#s11#, #a3#"};
-				{ 6, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
-				{ 7, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
-				{ 8, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 67130, "", "=q4=Dorian's Lost Necklace", "=ds=#s2#"};
-				{ 10, 67138, "", "=q4=Buc-Zakai Choker", "=ds=#s2#"};
-				{ 11, 67139, "", "=q4=Blauvelt's Family Crest", "=ds=#s13#"};
-				{ 12, 67129, "", "=q4=Signet of High Arcanist Savor", "=ds=#s13#"};
-				{ 13, 67149, "", "=q4=Heartbound Tome", "=ds=#s15#"};
+				{ 3, 67131, "", "=q4=Ritssyn's Ruminous Drape", "=ds=#s4#"};
+				{ 4, 67142, "", "=q4=Zom's Electrostatic Cloak", "=ds=#s4#"};
+				{ 5, 67147, "", "=q4=Je'Tze's Sparkling Tiara", "=ds=#s1#, #a1#"};
+				{ 6, 67133, "", "=q4=Dizze's Whirling Robe", "=ds=#s5#, #a1#"};
+				{ 7, 67132, "", "=q4=Grips of the Failed Immortal", "=ds=#s9#, #a1#"};
+				{ 8, 67146, "", "=q4=Woundsplicer Handwraps", "=ds=#s9#, #a1#"};
+				{ 9, 67150, "", "=q4=Arrowsinger Legguards", "=ds=#s11#, #a3#"};
+				{ 10, 67148, "", "=q4=Kilt of Trollish Dreams", "=ds=#s11#, #a3#"};
+				{ 11, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
+				{ 12, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
+				{ 13, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
+				{ 16, 67138, "", "=q4=Buc-Zakai Choker", "=ds=#s2#"};
+				{ 17, 67137, "", "=q4=Don Rodrigo's Fabulous Necklace", "=ds=#s2#"};
+				{ 18, 67130, "", "=q4=Dorian's Lost Necklace", "=ds=#s2#"};
+				{ 20, 67139, "", "=q4=Blauvelt's Family Crest", "=ds=#s13#"};
+				{ 21, 67136, "", "=q4=Gilnean Ring of Ruination", "=ds=#s13#"};
+				{ 22, 67129, "", "=q4=Signet of High Arcanist Savor", "=ds=#s13#"};
+				{ 24, 67145, "", "=q4=Blockade's Lost Shield", "=ds=#w8#"};
+				{ 25, 67149, "", "=q4=Heartbound Tome", "=ds=#s15#"};
 			};
 		};
 		info = {
