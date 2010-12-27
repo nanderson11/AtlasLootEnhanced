@@ -4360,13 +4360,18 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 67131, "", "=q4=Ritssyn's Ruminous Drape", "=ds=#s4#"};
-				{ 2, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
-				{ 3, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
-				{ 4, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
-				{ 5, 67138, "", "=q4=Buc-Zakai Choker", "=ds=#s2#"};
-				{ 6, 67139, "", "=q4=Blauvelt's Family Crest", "=ds=#s13#"};
-				{ 7, 67129, "", "=q4=Signet of High Arcanist Savor", "=ds=#s13#"};
-				{ 8, 67149, "", "=q4=Heartbound Tome", "=ds=#s14#"};
+				{ 2, 67140, "", "=q4=Drape of Inimitable Fate", "=ds=#s4#"};
+				{ 3, 67142, "", "=q4=Zom's Electrostatic Cloak", "=ds=#s4#"};
+				{ 4, 67146, "", "=q4=Woundsplicer Handwraps", "=ds=#s9#, #a1#"};
+				{ 5, 67150, "", "=q4=Arrowsinger Legguards", "=ds=#s11#, #a3#"};
+				{ 6, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
+				{ 7, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
+				{ 8, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 67130, "", "=q4=Dorian's Lost Necklace", "=ds=#s2#"};
+				{ 10, 67138, "", "=q4=Buc-Zakai Choker", "=ds=#s2#"};
+				{ 11, 67139, "", "=q4=Blauvelt's Family Crest", "=ds=#s13#"};
+				{ 12, 67129, "", "=q4=Signet of High Arcanist Savor", "=ds=#s13#"};
+				{ 13, 67149, "", "=q4=Heartbound Tome", "=ds=#s15#"};
 			};
 		};
 		info = {
