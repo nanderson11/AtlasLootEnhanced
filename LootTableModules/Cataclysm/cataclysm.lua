@@ -29,7 +29,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Therazane
 ---- Wildhammer Clan
 --- PvP
----- Armor Sets
+---- PvP Armor Sets
 ---- Level 85 - Non Set Epics
 --- Sets & Collections
 ---- Tier 11 Sets (T11)
@@ -2132,9 +2132,9 @@ local moduleName = "AtlasLootCataclysm"
 	--- PvP ---
 	-----------
 
-		------------------
-		--- Armor Sets ---
-		------------------
+		----------------------
+		--- PvP Armor Sets ---
+		----------------------
 
 	AtlasLoot_Data["PVP85DeathKnight"] = {
 		["Normal"] = {
@@ -2303,15 +2303,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
 				{ 2, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "2200 #conquest#"};
 				{ 3, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "1650 #conquest#"};
-				{ 4, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "2200 #conquest#"};
+				{ 4, 64802, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "2200 #conquest#"};
 				{ 5, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "1650 #conquest#"};
 				{ 6, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "2200 #conquest#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
-				{ 9, 64845, "", "=q3=Bloodthirsty Gladiator's Scaled Helm", "=ds=", "2200 #honor#"};
-				{ 10, 64847, "", "=q3=Bloodthirsty Gladiator's Scaled Shoulders", "=ds=", "1650 #honor#"};
-				{ 11, 64843, "", "=q3=Bloodthirsty Gladiator's Scaled Chestpiece", "=ds=", "2200 #honor#"};
-				{ 12, 64844, "", "=q3=Bloodthirsty Gladiator's Scaled Gauntlets", "=ds=", "1650 #honor#"};
-				{ 13, 64846, "", "=q3=Bloodthirsty Gladiator's Scaled Legguards", "=ds=", "2200 #honor#"};
+				{ 9, 64804, "", "=q3=Bloodthirsty Gladiator's Ornamented Headcover", "=ds=", "2200 #honor#"};
+				{ 10, 64806, "", "=q3=Bloodthirsty Gladiator's Ornamented Spaulders", "=ds=", "1650 #honor#"};
+				{ 11, 64843, "", "=q3=Bloodthirsty Gladiator's Ornamented Chestguard", "=ds=", "2200 #honor#"};
+				{ 12, 64803, "", "=q3=Bloodthirsty Gladiator's Ornamented Gloves", "=ds=", "1650 #honor#"};
+				{ 13, 64805, "", "=q3=Bloodthirsty Gladiator's Ornamented Legplates", "=ds=", "2200 #honor#"};
 			};
 		};
 		info = {
