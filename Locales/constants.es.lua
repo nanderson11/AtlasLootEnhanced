@@ -42,7 +42,7 @@ if AL then
 	AL["Loot Table"] = "Tabla de botín";
 
 	-- Default Frame
-	AL["Default Frame"] = "Ventana predet.";
+	AL["Default Frame"] = "Ventana predeterminada";
 	AL["Scale:"] = "Escala";
 	AL["Alpha:"] = "Transparencia";
 	AL["Only change alpha on leave frame"] = "Solo cambia la transparencia de la ventana principal";
@@ -149,7 +149,7 @@ if AL then
 	-- QuickLooks
 	AL["QuickLook"] = "VistaRapida"
 	AL["QuickLooks"] = "VistasRapidas";
-	AL["Number of QuickLooks:"] = "Búmero de VistasRapidas";
+	AL["Number of QuickLooks:"] = "Número de VistasRapidas";
 	AL["Add to QuickLooks:"] = "Añade a VistaRápida";
 	AL["Reset Quicklooks"] = "Res. BotínRápido";
 	AL["Assign this loot table\n to QuickLook"] = "Asignar esta tabla\n a VistaRapida";
@@ -162,6 +162,7 @@ if AL then
 	AL["Use Instance name"] = "Usa nombre de la mazmorra";
 	AL["Delete"] = "Borrar";
 	AL["Lock"] = "Bloquear";
+	AL["Enable"] = "Activo";
 
 	-- Query Server / Query all
 	AL["Query Server"] = "Pregun. Servidor";
