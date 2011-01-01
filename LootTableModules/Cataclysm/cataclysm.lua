@@ -33,14 +33,13 @@ local moduleName = "AtlasLootCataclysm"
 ---- Level 85 - Non Set Epics
 --- Sets & Collections
 ---- Tier 11 Sets (T11)
----- BoE World Epics
----- Blizzard Collectables
 ---- Legendaries
 ---- Tabards
 ---- Trading Card Game Items
 ---- Companions
 ---- Mounts
 ---- Transformation Items
+---- BoE World Epics
 ---- Heirloom Items
 ---- Justice Points Items
 ---- Valor Points Items
@@ -3183,10 +3182,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-		-----------------------
-		--- BoE World Epics ---
-		-----------------------
-
 		-------------------
 		--- Legendaries ---
 		-------------------
@@ -4384,7 +4379,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["BoE World Epics"].." "..AL["Level 85"],
-			module = moduleName, menu = "WORLDEPICS",
+			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
 		};
 	}
 
