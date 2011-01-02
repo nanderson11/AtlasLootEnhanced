@@ -1198,7 +1198,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#" };
 				{ 3, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
-				{ 4, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
+				{ 4, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#" };
+				{ 5, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
 				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
