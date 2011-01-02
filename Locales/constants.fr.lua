@@ -433,6 +433,7 @@ if AL then
 	AL["Cloth Armor"] = "Armure en tissu";
 	AL["Shirts"] = "Chemises";
 	AL["Bags"] = "Sacs";
+	--AL["Cataclysm Vendor Sold Patterns"] = true; -- à traduire
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "Classes :";
