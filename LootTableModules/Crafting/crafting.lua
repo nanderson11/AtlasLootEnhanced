@@ -80,6 +80,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 ---- Leatherworking
 ---- Mining
 ---- Tailoring
+----- Armor
+----- Bags
+----- Miscellaneous
+----- Shirts
+----- Mooncloth
+----- Shadoweave
+----- Spellfire
+----- Cataclysm Vendor Sold Patterns
 --- Profession Sets
 ---- Blacksmithing Mail Sets
 ---- Blacksmithing Plate Sets
@@ -5784,6 +5792,31 @@ local SPELLFIRE = GetSpellInfo(26797);
 		info = {
 			name = SPELLFIRE,
 			module = moduleName, menu = "TAILORINGMENU", instance = "Tailoring",
+		};
+	};
+
+	AtlasLoot_Data["TailoringCataVendor"] = {
+		["Normal"] = {
+			{
+				{ 1, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkboltl#" },
+				{ 2, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 3, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 4, 54593, "", "=q3=Pattern: Emberfire Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 5, 54594, "", "=q3=Pattern: Emberfire Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 6, 54595, "", "=q3=Pattern: Emberfire Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 7, 54596, "", "=q3=Pattern: Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 8, 54597, "", "=q3=Pattern: Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 9, 54598, "", "=q3=Pattern: Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 10, 54604, "", "=q3=Pattern: Flame-Ascended Pantaloons", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 11, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 12, 54603, "", "=q3=Pattern: Breeches of Mended Nightmares", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 13, 54602, "", "=q3=Pattern: Dreamless Belt", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 14, 54605, "", "=q3=Pattern: Illusionary Bag", "=ds=#p8# (525)", "1 #dreamcloth#" },
+			};
+		};
+		info = {
+			name = TAILORING..": "..AL["Cataclysm Vendor Sold Patterns"],
+			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};
 

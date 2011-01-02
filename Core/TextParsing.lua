@@ -891,12 +891,16 @@ AtlasLoot_TextParsing = {
 	{ "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t"},
 	{ "#justice#", "|TInterface\\Icons\\pvecurrency-justice:0|t"},
 	{ "#valor#", "|TInterface\\Icons\\pvecurrency-valor:0|t"},
+
+	-- Currency Icons for Crafting Recipes
 	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},
 	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},
 	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},
 	{ "#heavenlyshard#", "|TInterface\\Icons\\inv_misc_largeshard_superior:0|t"},
 	{ "#hypnoticdust#", "|TInterface\\Icons\\inv_enchant_dust:0|t"},
 	{ "#maelstromcrystal#", "|TInterface\\Icons\\inv_misc_crystalepic:0|t"},
+	{ "#embersilkboltl#", "|TInterface\\Icons\\inv_misc_emberweavecloth_01:0|t"},
+	{ "#dreamcloth#", "|TInterface\\Icons\\inv_chest_cloth_57:0|t"},
 }
 
 --------------------------------------------------------------------------------
