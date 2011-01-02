@@ -1444,23 +1444,14 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
-				{ 2, 60201, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
-				{ 3, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
-				{ 5, 59520, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
+				{ 2, 60202, "", "=q4=Tsanga's Helm", "=ds=#s1#, #a2#", ""};
+				{ 3, 60201, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
+				{ 4, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 6, 59520, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
 				{ 16, 59521, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
 				{ 17, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
 				{ 18, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65097, "", "=q4=Battleplate of the Apocalypse", "=ds=#s8#, #a1#", ""};
-				{ 2, 65100, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
-				{ 3, 65101, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
-				{ 5, 65104, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
-				{ 16, 65103, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
-				{ 17, 65102, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
-				{ 18, 65098, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+				{ 19, 68608, "", "=q4=Dragonwreck Throwing Axe", "=ds=#w11#", ""};
 			};
 		};
 		info = {
@@ -1721,22 +1712,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
 				{ 7, 59461, "", "=q4=Fury of Angerforge", "=ds=#s14#", ""};
 				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
-				{ 17, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 18, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
-				{ 19, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65010, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
-				{ 2, 65008, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
-				{ 3, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
-				{ 4, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
-				{ 5, 65012, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
-				{ 16, 65014, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
-				{ 17, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 18, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
-				{ 19, 65016, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
+				{ 17, 59463, "", "=q4=Maldo's Sword Cane", "=ds=#h3#, #w10#", ""};
+				{ 18, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 19, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 20, 68601, "", "=q4=Scaleslicer", "=ds=#h1#, #w4#", ""};
+				{ 21, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
 			};
 		};
 		info = {
