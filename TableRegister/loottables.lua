@@ -60,7 +60,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BlackrockCavernsSteelbender", 4 },
 				{ "BlackrockCavernsBeauty", 5 },
 				{ "BlackrockCavernsLordObsidius", 6 },
-				{ "BlackrockCavernsTrash", 9 },
+				{ "BlackrockCavernsTrash", 11 },
 			},
 			["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns" },
 		},
@@ -128,7 +128,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HoOAmmunae", 6 },
 				{ "HoOSetesh", 7 },
 				{ "HoORajh", 8 },
-				{ "HoOTrash", 11 },
+				{ "HoOTrash", 12 },
 			},
 			["Info"] = { BabbleZone["Halls of Origination"], "AtlasLootCataclysm", mapname = "HallsOfOrigination" },
 		},
@@ -892,7 +892,7 @@ AtlasLoot_LootTableRegister = {
 		["BlackfathomDeeps"] = {
 			["Bosses"] = {
 				{ "Blackfathom#1", {3,4,5,7,8,11} },
-				{ "Blackfathom#2", {9,12,13}, hide = true },
+				{ "Blackfathom#2", {9,12,17}, hide = true },
 			},
 			["Info"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootClassicWoW", mapname = "BlackFathomDeeps" },
 		},

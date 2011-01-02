@@ -744,7 +744,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Drahga Shodowburner"],
+			name = BabbleBoss["Drahga Shodowburner"].." & "..BabbleBoss["Valiona"],
 			module = moduleName, instance = "GrimBatol",
 		};
 	};
