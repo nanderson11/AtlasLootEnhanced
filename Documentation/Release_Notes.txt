@@ -5,21 +5,25 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+
 v6.01.03
 Justice Points menu better organized.
+Blacksmithing Cataclysm level armor and weapons and Classic level armor pages have been updated.
+Tailoring updated with vendor sold patterns.
+Compatible with the Atlas version 1.18.1.
 
 v6.01.02
 Archaeology updated with Rare and Epic quality rewards.
-Blacksmith updated with vendor sold plans.
+Blacksmithing updated with vendor sold plans.
 Enchanting updated with vendor sold formulas.
-Many minor fixes, additions and translations
+Many minor fixes, additions and translations.
 
 v6.01.01
 
-Fixed a bug that got people disconnected
-Added raid loot: Throne of the Four Winds, Bastion of Twilight, Blackwing Descent, Baradin Hold
-Updated frFR translation
-Many minor fixes and additions
+Fixed a bug that got people disconnected.
+Added raid loot: Throne of the Four Winds, Bastion of Twilight, Blackwing Descent, Baradin Hold.
+Updated frFR translation.
+Many minor fixes and additions.
 
 v6.01.00
 New slash command "/al wishlist"
