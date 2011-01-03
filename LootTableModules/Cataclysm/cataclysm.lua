@@ -1454,6 +1454,19 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 68608, "", "=q4=Dragonwreck Throwing Axe", "=ds=#w11#", ""};
 			};
 		};
+		--[[ Commented out, as the heroic trash mobs drop normal loot
+		["Heroic"] = {
+			{
+				{ 1, 65097, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
+				{ 2, 65100, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
+				{ 3, 65101, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 5, 65104, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
+				{ 16, 65103, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
+				{ 17, 65102, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
+				{ 18, 65098, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+			};
+		};
+		]]--
 		info = {
 			name = "trash",
 			module = moduleName, instance = "TheBastionOfTwilight",
@@ -1719,6 +1732,22 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
 			};
 		};
+		--[[ Commented out, as the heroic trash mobs drop normal loot
+		["Heroic"] = {
+			{
+				{ 1, 65010, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
+				{ 2, 65008, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
+				{ 3, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
+				{ 4, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
+				{ 5, 65012, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
+				{ 16, 65014, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
+				{ 17, 65013, "", "=q4=Maldo's Sword Cane", "=ds=#h3#, #w10#", ""};
+				{ 18, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 19, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 20, 65016, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
+			};
+		};
+		]]--
 		info = {
 			name = "trash",
 			module = moduleName, instance = "BlackwingDescent",
