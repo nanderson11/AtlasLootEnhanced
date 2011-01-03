@@ -432,6 +432,7 @@ if AL then
 	AL["Cloth Armor"] = "護甲";
 	AL["Shirts"] = "襯衣";
 	AL["Bags"] = "容器";
+	AL["Cataclysm Vendor Sold Patterns"] = "浩劫與重生商人販售的圖樣";
 
 	--Labels for loot descriptions
 	AL["Classes:"] = "職業: ";
