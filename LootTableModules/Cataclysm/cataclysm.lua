@@ -479,11 +479,12 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55838, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
-				{ 3, 55835, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
-				{ 4, 55840, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
-				{ 5, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
-				{ 6, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
+				{ 2, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
+				{ 3, 55838, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
+				{ 4, 55835, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 55840, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
+				{ 6, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
+				{ 7, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
 				{ 18, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
