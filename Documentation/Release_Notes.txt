@@ -11,6 +11,7 @@ Justice Points menu better organized.
 Blacksmithing Cataclysm level armor and weapons and Classic level armor pages have been updated.
 Tailoring updated with vendor sold patterns.
 Compatible with the Atlas version 1.18.1.
+Many minor fixes, additions and translations.
 
 v6.01.02
 Archaeology updated with Rare and Epic quality rewards.
