@@ -335,6 +335,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = "Pilgerfreuden";
 	-- AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
+	AL["Kalu'ak Fishing Derby"] = "Angelwettstreit der Kalu'ak";
 	AL["Elemental Unrest"] = "Elementare Invasion";
 
 	-- Minimap Button
@@ -736,6 +737,9 @@ if AL then
 
 	-- Thirtheenth set
 	AL["Worldbreaker"] = "Weltenbrecher";
+	AL["Mottled Drake"] = "Scheckiger Drache";
+	AL["Grim Campfire"] = "Finsteres Lagerfeuer";
+	AL["Landro's Lil' XT"] = "Landros XT der Kleine";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
