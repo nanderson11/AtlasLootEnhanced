@@ -3392,9 +3392,9 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
-				{ 2, 68008, "", "=q4=Mottled Drake", "=ds=" };
-				{ 3, 67097, "", "=q3=Grim Campfire", "=ds=" };
-				{ 4, 67128, "", "=q3=Landro's Lil' XT", "=ds=" };
+				{ 2, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
+				{ 3, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
+				{ 4, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
 				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
 				{ 7, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
 				{ 8, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
@@ -3831,9 +3831,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 				{ 22, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
 				{ 23, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-				{ 24, "s89929", "", "=q1=Rumbling Rockling", "=ds="};
-				{ 25, "s89930", "", "=q1=Swirling Stormling", "=ds="};
-				{ 26, "s89931", "", "=q1=Whirling Waveling", "=ds="};
 			};
 		};
 		info = {
@@ -4376,11 +4373,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 67133, "", "=q4=Dizze's Whirling Robe", "=ds=#s5#, #a1#"};
 				{ 7, 67132, "", "=q4=Grips of the Failed Immortal", "=ds=#s9#, #a1#"};
 				{ 8, 67146, "", "=q4=Woundsplicer Handwraps", "=ds=#s9#, #a1#"};
-				{ 9, 67150, "", "=q4=Arrowsinger Legguards", "=ds=#s11#, #a3#"};
-				{ 10, 67148, "", "=q4=Kilt of Trollish Dreams", "=ds=#s11#, #a3#"};
-				{ 11, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
-				{ 12, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
-				{ 13, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 67135, "", "=q4=Morrie's Waywalker Wrap", "=ds=#s5#, #a2#"};
+				{ 10, 67150, "", "=q4=Arrowsinger Legguards", "=ds=#s11#, #a3#"};
+				{ 11, 67148, "", "=q4=Kilt of Trollish Dreams", "=ds=#s11#, #a3#"};
+				{ 12, 67144, "", "=q4=Pauldrons of Edward the Odd", "=ds=#s3#, #a4#"};
+				{ 13, 67143, "", "=q4=Icebone Hauberk", "=ds=#s5#, #a4#"};
+				{ 14, 67141, "", "=q4=Corefire Legplates", "=ds=#s11#, #a4#"};
 				{ 16, 67138, "", "=q4=Buc-Zakai Choker", "=ds=#s2#"};
 				{ 17, 67137, "", "=q4=Don Rodrigo's Fabulous Necklace", "=ds=#s2#"};
 				{ 18, 67130, "", "=q4=Dorian's Lost Necklace", "=ds=#s2#"};

@@ -11609,7 +11609,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
 				{ 11, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
 				{ 12, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 14, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", ""};
+				{ 14, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
 				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "2175 #justice#  / 60 #champseal#"};
 				{ 17, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "2175 #justice#  / 60 #champseal#"};
 				{ 18, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "3500 #justice# / 95 #champseal#"};

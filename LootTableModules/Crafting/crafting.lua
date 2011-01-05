@@ -566,6 +566,118 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["ArchaeologyFossil"] = {
+		["Normal"] = {
+			{
+				{ 1, 60954, "", "=q4=Fossilized Raptor", "=ds=#sr# 150", "=ds=#e26#"};
+				{ 2, 60955, "", "=q3=Fossilized Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
+				{ 4, 64473, "", "=q0=Imprint of a Kraken Tentacle", "=ds=#sr# 300"};
+				{ 5, 64468, "", "=q0=Proto-Drake Skeleton", "=ds=#sr# 300"};
+				{ 6, 64355, "", "=q0=Ancient Shark Jaws", "=ds=#sr# 1"};
+				{ 7, 63121, "", "=q0=Beautiful Preserved Fern", "=ds=#sr# 1"};
+				{ 8, 63109, "", "=q0=Black Trilobite", "=ds=#sr# 1"};
+				{ 9, 64349, "", "=q0=Devilsaur Tooth", "=ds=#sr# 1"};
+				{ 19, 64385, "", "=q0=Feathered Raptor Arm", "=ds=#sr# 1"};
+				{ 20, 64350, "", "=q0=Insect in Amber", "=ds=#sr# 1"};
+				{ 21, 66056, "", "=q0=Shard of Petrified Wood", "=ds=#sr# 1"};
+				{ 22, 66057, "", "=q0=Strange Velvet Worm", "=ds=#sr# 1"};
+				{ 23, 63527, "", "=q0=Twisted Ammonite Shell", "=ds=#sr# 1"};
+				{ 24, 64387, "", "=q0=Vicious Ancient Fish", "=ds=#sr# 1"};
+			};
+		};
+		info = {
+			name = "Archaeology",
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyTroll"] = {
+		["Normal"] = {
+			{
+				{ 1, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#sr# 450", "=ds=#h2#, #w10#"};
+				{ 3, 64348, "", "=q0=Atal'ai Scepter", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#" };
+				{ 4, 64346, "", "=q0=Bracelet of Jade and Coins", "=ds=#sr# 1"};
+				{ 5, 63524, "", "=q0=Cinnabar Bijou", "=ds=#sr# 1"};
+				{ 6, 64375, "", "=q0=Drakkari Sacrificial Knife", "=ds=#sr# 1"};
+				{ 7, 63523, "", "=q0=Eerie Smolderthorn Idol", "=ds=#sr# 1"};
+				{ 8, 63413, "", "=q0=Feathered Gold Earring", "=ds=#sr# 1"};
+				{ 9, 63120, "", "=q0=Fetish of Hir'eek", "=ds=#sr# 1"};
+				{ 10, 66058, "", "=q0=Fine Bloodscalp Dinnerware", "=ds=#sr# 1"};
+				{ 18, 64347, "", "=q0=Gahz'rilla Figurine", "=ds=#sr# 1"};
+				{ 19, 63412, "", "=q0=Jade Asp with Ruby Eyes", "=ds=#sr# 1"};
+				{ 20, 63118, "", "=q0=Lizard Foot Charm", "=ds=#sr# 1"};
+				{ 21, 64345, "", "=q0=Skull-Shaped Planter", "=ds=#sr# 1"};
+				{ 22, 64374, "", "=q0=Tooth with Gold Filling", "=ds=#sr# 1"};
+				{ 23, 63115, "", "=q0=Zandalari Voodoo Doll", "=ds=#sr# 1"};
+			};
+		};
+		info = {
+			name = "Archaeology",
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyOrc"] = {
+		["Normal"] = {
+			{
+				{ 1, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
+				{ 3, 64436, "", "=q0=Fiendish Whip", "=ds=#sr# 300"};
+				{ 4, 64421, "", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
+				{ 5, 64418, "", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 6, 64417, "", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 7, 64419, "", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 8, 64420, "", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
+				{ 18, 64366, "", "=q0=Scorched Staff of Shadow Priest Anund", "=ds=#sr# 300"};
+				{ 19, 63411, "", "=q0=Silver Neck Torc", "=ds=#sr# 300"};
+				{ 20, 64438, "", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
+				{ 21, 64437, "", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
+				{ 22, 64389, "", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+			};
+		};
+		info = {
+			name = "Archaeology",
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyDraenei"] = {
+		["Normal"] = {
+			{
+				{ 1, 64456, "", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
+				{ 2, 64457, "", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
+				{ 4, 64440, "", "=q0=Anklet with Golden Bells", "=ds=#sr# 300"};
+				{ 5, 64453, "", "=q0=Baroque Sword Scabbard", "=ds=#sr# 300"};
+				{ 6, 64442, "", "=q0=Carved Harp of Exotic Wood", "=ds=#sr# 300"};
+				{ 7, 64455, "", "=q0=Dignified Portrait", "=ds=#sr# 300"};
+				{ 19, 64454, "", "=q0=Fine Crystal Candelabra", "=ds=#sr# 300"};
+				{ 20, 64458, "", "=q0=Plated Elekk Goad", "=ds=#sr# 300"};
+				{ 21, 64444, "", "=q0=Scepter of the Nathrezim", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
+				{ 22, 64443, "", "=q0=Strange Silver Paperweight", "=ds=#sr# 300"};
+			};
+		};
+		info = {
+			name = "Archaeology",
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyVrykul"] = {
+		["Normal"] = {
+			{
+				{ 1, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 375", "=ds=#h1#, #w1#" };
+				{ 3, 64464, "", "=q0=Fanged Cloak Pin", "=ds=#sr# 375"};
+				{ 4, 64462, "", "=q0=Flint Striker", "=ds=#sr# 375"};
+				{ 5, 64459, "", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 375"};
+				{ 18, 64461, "", "=q0=Scramseax", "=ds=#sr# 375"};
+				{ 19, 64467, "", "=q0=Thorned Necklace", "=ds=#sr# 375"};
+			};
+		};
+		info = {
+			name = "Archaeology",
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
 		---------------------
 		--- Blacksmithing ---
 		---------------------

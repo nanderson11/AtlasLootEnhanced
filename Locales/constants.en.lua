@@ -335,6 +335,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = true;
 	AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = true;
+	AL["Kalu'ak Fishing Derby"] = true;
 	AL["Elemental Unrest"] = true;
 
 	-- Minimap Button
@@ -736,6 +737,9 @@ if AL then
 
 	-- Thirtheenth set
 	AL["Worldbreaker"] = true;
+	AL["Mottled Drake"] = true;
+	AL["Grim Campfire"] = true;
+	AL["Landro's Lil' XT"] = true;
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = true;
