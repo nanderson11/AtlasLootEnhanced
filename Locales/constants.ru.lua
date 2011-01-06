@@ -334,6 +334,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = "Пиршество странников";
 	AL["Skettis"] = "Скеттис";
 	AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
+	AL["Kalu'ak Fishing Derby"] = "Калуакское рыбоборье";
 	AL["Elemental Unrest"] = "Нашествие элементалей";
 
 	-- Minimap Button
@@ -397,6 +398,9 @@ if AL then
 	AL["Potions"] = "Зелья";
 	AL["Transmutes"] = "Трансмутация";
 	AL["Flasks"] = "Фляги";
+	
+	-- Blacksmithing
+	AL["Cataclysm Vendor Sold Plans"] = "Чертежы Cataclysmа у торговцев";
 
 	-- Enchanting
 	AL["Enchant Boots"] = "Чары для обуви";
@@ -408,6 +412,7 @@ if AL then
 	AL["Enchant Shield"] = "Чары для щита";
 	AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
 	AL["Enchant Weapon"] = "Чары для оружия";
+	AL["Cataclysm Vendor Sold Formulas"] = "Формулы Cataclysmа у торговцев";
 
 	-- Inscription
 	AL["Major Glyph"] = "Большой символ";
@@ -428,6 +433,7 @@ if AL then
 	AL["Cloth Armor"] = "Тканевая броня";
 	AL["Shirts"] = "Рубашки";
 	AL["Bags"] = "Сумки";
+	AL["Cataclysm Vendor Sold Patterns"] = "Выкройки Cataclysmа у торговцев";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "Классы:";
@@ -597,9 +603,13 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = "Испытание крестоносца - выкройки/чертежы";
 	AL["BRD Blacksmithing Plans"] = "ГЧГ - Чертежи для кузнецов";
 
-	-- Companions
+	-- General titles
 	AL["Achievement"] = "Достижение";
-	AL["Achievement & Faction Reward Companions"] = "Спутники за достижения и за фракции";
+	AL["Promotional & Card Game"] = "Поощрительные и карточные игры";
+	
+	-- Companions
+	AL["Achievement & Faction Reward Companions"] = "Спутники за достижения и фракции";
+	AL["Achievement & Faction Reward"] = "Награды за достижения и фракции";
 	AL["Card Game Companions"] = "Спутники с игровых карт";
 	AL["Companion Accessories"] = "Аксессуары спутников";
 	AL["Companion Store"] = "Магазин спутников";
@@ -631,7 +641,7 @@ if AL then
 	AL["Unobtainable Mounts"] = "Недоступный транспорт";
 
 	-- Tabards
-	AL["Achievement & Quest Reward Tabards"] = "Накидки за достижения и за фракции";
+	AL["Achievement & Quest Reward Tabards"] = "Накидки за достижения и фракции";
 	AL["Alliance Tabards"] = "Накидки альянса";
 	AL["Card Game Tabards"] = "Накидки с игровых карт";
 	AL["Horde Tabards"] = "Накидки орды";
@@ -726,6 +736,9 @@ if AL then
 
 	-- Thirtheenth set
 	AL["Worldbreaker"] = "Миродробитель";
+	AL["Mottled Drake"] = "Пятнистый верховой дракон";
+	AL["Grim Campfire"] = "Мрачный костер";
+	AL["Landro's Lil' XT"] = "Разрушитель XXS-002 Ландро";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Старые нарады PvP";
@@ -977,8 +990,11 @@ if AL then
 	AL["Razzashi Raptor"] = "Ящер Раззаши";
 	AL["Deviate Ravager/Deviate Guardian"] = "Загадочный опустошитель/Загадочный страж";
 	AL["Servant's Quarter Animal Bosses"] = "Боссы Комнаты Слуг";
-	--AL["Jadefang"] = true;
-	--AL["Aeonaxx"] = true;
+	AL["Jadefang"] = "Яшмовый Клык";
+	AL["Aeonaxx"] = "Эонакс";
+	AL["Prince Sarsarun"] = "Принц Сарсарун";
+	--AL["Highlord Kruul"] = ""; -- added until decided if the set gets removed
+	--AL["Dormus the Camel-Hoarder"] = ""; 
 
 	-- Zones
 	AL["World Drop"] = "Мировой выпад";
