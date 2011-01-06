@@ -168,7 +168,7 @@ if AL then
 	AL["Delete"] = "刪除";
 	AL["Lock"] = "鎖定";
 	AL["Enable"] = "啟用";
-	
+
 	-- Query Server / Query all
 	AL["Query Server"] = "向伺服器查詢";
 	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "向伺服器查詢此頁所有物品。完成後滑鼠移至物品圖示上即可更新。";
@@ -334,6 +334,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = "旅人豐年祭";
 	AL["Skettis"] = "司凱堤斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
+	AL["Kalu'ak Fishing Derby"] = "卡魯耶克釣魚大賽";
 	AL["Elemental Unrest"] = "元素風潮";
 
 	--Minimap Button
@@ -734,7 +735,10 @@ if AL then
 	AL["Paint Bomb"] = "漆彈"; -- confirmed
 
 	-- Thirtheenth set
-	AL["Worldbreaker"] = "碎界者"; -- confirmed
+	AL["Worldbreaker"] = "碎界者";
+	AL["Mottled Drake"] = "雜斑龍";
+	AL["Grim Campfire"] = "陰森的篝火";
+	AL["Landro's Lil' XT"] = "藍卓的XT小小拆解者";
 
 	--Battleground Brackets
 	AL["Old PvP Rewards"] = "舊 PvP 獎勵";
@@ -986,7 +990,7 @@ if AL then
 	AL["Razzashi Raptor"] = "拉札希迅猛龍";
 	AL["Deviate Ravager/Deviate Guardian"] = "變異劫毀者/變異守護者";
 	AL["Servant's Quarter Animal Bosses"] = "伺從區";
---	AL["Jadefang"] = true;
+	AL["Jadefang"] = "翡翠牙";
 	AL["Aeonaxx"] = "艾歐納克斯";
 	AL["Prince Sarsarun"] = "薩爾撒倫王子";
 	AL["Highlord Kruul"] = "卡魯歐大領主"; -- added until decided if the set gets removed

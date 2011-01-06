@@ -1,7 +1,7 @@
 ﻿## Interface: 40000
 ## Title: AtlasLoot_Cataclysm
 ## Title-deDE: AtlasLoot |cFF0099FF[Cataclysm-Instanzen]|r
-## Title-zhTW: |r|cFF0099FF[地圖]|rAL 浩劫與重生
+## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 浩劫與重生
 ## Title-zhCN: AtlasLoot |cFF0099FF[大灾变]|r
 ## Notes: AtlasLoot loot tables from Cataclysm
 ## Notes-deDE: AtlasLoot Loot-Tabellen für Cataclysm Instanzen
