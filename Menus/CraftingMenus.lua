@@ -119,12 +119,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ENCHANTINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "EnchantingBoots", "Trade_Engraving", "=ds="..AL["Enchant Boots"], "" };
+				{ 2, "EnchantingBoots", "inv_enchant_formulasuperior_01", "=ds="..AL["Enchant Boots"], "" };
 				{ 3, "EnchantingChest", "Trade_Engraving", "=ds="..AL["Enchant Chest"], "" };
 				{ 4, "EnchantingGloves", "Trade_Engraving", "=ds="..AL["Enchant Gloves"], "" };
 				{ 5, "EnchantingShield", "Trade_Engraving", "=ds="..AL["Enchant Shield"], "" };
 				{ 6, "Enchanting2HWeapon", "Trade_Engraving", "=ds="..AL["Enchant 2H Weapon"], "" };
-				{ 7, "EnchantingMisc", "Trade_Engraving", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 7, "EnchantingMisc", "inv_rod_enchantedadamantite", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 9, "EnchantingCataVendor", "inv_enchant_formulasuperior_01", "=ds="..AL["Cataclysm Vendor Sold Formulas"], "=q5="..BabbleZone["Twilight Highlands"] };
 				{ 17, "EnchantingBracer", "Trade_Engraving", "=ds="..AL["Enchant Bracer"], "" };
 				{ 18, "EnchantingCloak", "Trade_Engraving", "=ds="..AL["Enchant Cloak"], "" };
@@ -274,8 +274,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ARCHAEOLOGYMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "ArchaeologyArmorAndWeapons", "trade_archaeology_ancientorcshamanheaddress", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], "" };
-				{ 17, "ArchaeologyMisc", "trade_archaeology_tinydinosaurskeleton", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 2, "ArchaeologyDwarf", "trade_archaeology_dwarf_runestone", "=ds="..AL["Dwarf"], "" };
+				{ 3, "ArchaeologyDraenei", "trade_archaeology_draenei_tome", "=ds="..AL["Draenei"], "" };
+				{ 4, "ArchaeologyFossil", "trade_archaeology_dwarf_runestone", "=ds="..AL["Fossil"], "" };
+				{ 5, "ArchaeologyNight Elf", "trade_archaeology_highborne_scroll", "=ds="..AL["Night Elf"], "" };
+				{ 6, "ArchaeologyNerubian", "trade_archaeology_nerubian_obelisk", "=ds="..AL["Nerubian"], "" };
+				{ 17, "ArchaeologyOrc", "trade_archaeology_orc_bloodtext", "=ds="..AL["Orc"], "" };
+				{ 18, "ArchaeologyTolvir", "trade_archaeology_aqir_artifactfragment", "=ds="..AL["Tol'vir"], "" };
+				{ 19, "ArchaeologyTroll", "trade_archaeology_troll_tablet", "=ds="..AL["Troll"], "" };
+				{ 20, "ArchaeologyVrykul", "trade_archaeology_vrykul_runestick", "=ds="..AL["Vrykul"], "" };
 			};
 		};
 		info = {

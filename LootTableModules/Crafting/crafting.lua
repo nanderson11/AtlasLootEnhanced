@@ -13,6 +13,7 @@ local ARTISAN = select(2, GetSpellInfo(11611));
 local MASTER = select(2, GetSpellInfo(28596));
 
 local ALCHEMY, APPRENTICE = GetSpellInfo(2259);
+local ARCHAEOLOGY = GetSpellInfo(78670)
 local BLACKSMITHING = GetSpellInfo(2018);
 local ARMORSMITH = GetSpellInfo(9788);
 local WEAPONSMITH = GetSpellInfo(9787);
@@ -532,7 +533,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY,
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -561,7 +562,51 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY,
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyDwarf"] = {
+		["Normal"] = {
+			{
+				{ 1, 64489, "", "=q4=Staff of Sorceror-Thane Thaurissan", "=ds=#sr# 450", "=ds=#w9#"};
+				{ 3, 64372, "", "=q3=Clockwork Gnome", "=ds=#sr# 225", "=ds=#e13#"};
+				{ 4, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds=#sr# 150"};
+				{ 5, 64488, "", "=q3=The Innkeeper's Daughter", "=ds=#sr# 150"};
+				{ 7, 63113, "", "=q1=Belt Buckle with Anvilmar Crest", "=ds=#sr# 1"};
+				{ 8, 64439, "", "=q1=Bodacious Door Knocker", "=ds=#sr# 1"};
+				{ 9, 63112, "", "=q1=Bone Gaming Dice", "=ds=#sr# 1"};
+				{ 10, 64340, "", "=q1=Boot Heel with Scrollwork", "=ds=#sr# 1"};
+				{ 11, 63409, "", "=q1=Ceramic Funeral Urn", "=ds=#sr# 1"};
+				{ 12, 64362, "", "=q1=Dented Shield of Horuz Killcrow", "=ds=#sr# 1"};
+				{ 13, 66054, "", "=q1=Dwarven Baby Socks", "=ds=#sr# 1"};
+				{ 14, 64342, "", "=q1=Golden Chamber Pot", "=ds=#sr# 1"};
+				{ 15, 64344, "", "=q1=Ironstar's Petrified Shield", "=ds=#sr# 1"};
+				{ 16, 64368, "", "=q1=Mithril Chain of Angerforge", "=ds=#sr# 1"};
+				{ 17, 63414, "", "=q1=Moltenfist's Jeweled Goblet", "=ds=#sr# 1"};
+				{ 18, 64337, "", "=q1=Notched Sword of Tunadil the Redeemer", "=ds=#sr# 1"};
+				{ 19, 63408, "", "=q1=Pewter Drinking Cup", "=ds=#sr# 1"};
+				{ 20, 64659, "", "=q1=Pipe of Franclorn Forgewright", "=ds=#sr# 1"};
+				{ 21, 64487, "", "=q1=Scepter of Bronzebeard", "=ds=#sr# 1"};
+				{ 22, 64367, "", "=q1=Scepter of Charlga Razorflank", "=ds=#sr# 1"};
+				{ 23, 64366, "", "=q1=Scorched Staff of Shadow Priest Anund", "=ds=#sr# 1"};
+				{ 24, 64483, "", "=q1=Silver Kris of Korl", "=ds=#sr# 1"};
+				{ 25, 63411, "", "=q1=Silver Neck Torc", "=ds=#sr# 1"};
+				{ 26, 64371, "", "=q1=Skull Staff of Shadowforge", "=ds=#sr# 1"};
+				{ 27, 64485, "", "=q1=Spiked Gauntlets of Anvilrage", "=ds=#sr# 1"};
+				{ 28, 63410, "", "=q1=Stone Gryphon", "=ds=#sr# 1"};
+				{ 29, 64484, "", "=q1=Warmaul of Burningeye", "=ds=#sr# 1"};
+				{ 30, 64343, "", "=q1=Winged Helm of Corehammer", "=ds=#sr# 1"};
+			};
+				{ 1, 63111, "", "=q1=Wooden Whistle", "=ds=#sr# 1"};
+				{ 2, 64486, "", "=q1=Word of Empress Zoe", "=ds=#sr# 1"};
+				{ 3, 63110, "", "=q1=Worn Hunting Knife", "=ds=#sr# 1"};
+			{
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Dwarf"],
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -586,7 +631,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY..": "..AL["Fossil"],
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -612,7 +657,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY..": "..AL["Troll"],
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -635,7 +680,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY..": "..AL["Orc"],
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -656,7 +701,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY..": "..AL["Draenei"],
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -673,7 +718,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = "Archaeology",
+			name = ARCHAEOLOGY..": "..AL["Vrykul"],
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -2109,32 +2154,54 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EnchantingBoots"] = {
 		["Normal"] = {
 			{
-				{ 1, "s60763", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Assault", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
-				{ 2, "s47901", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Tuskarr's Vitality", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
-				{ 3, "s44589", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Superior Agility", "=ds="..AL["Trainer"]};
-				{ 4, "s44508", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Spirit", "=ds="..AL["Trainer"]};
-				{ 5, "s44584", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Vitality", "=ds="..AL["Trainer"]};
-				{ 6, "s60606", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Assault", "=ds="..AL["Trainer"]};
-				{ 7, "s44528", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Fortitude", "=ds="..AL["Trainer"]};
-				{ 8, "s60623", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Icewalker", "=ds="..AL["Trainer"]};
-				{ 9, "s27954", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Surefooted", "=ds=#sr# 370"};
-				{ 10, "s34008", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Boar's Speed", "=ds=#sr# 360"};
-				{ 11, "s34007", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Cat's Swiftness", "=ds=#sr# 360"};
-				{ 12, "s27951", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Dexterity", "=ds=#sr# 340"};
-				{ 13, "s27950", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Fortitude", "=ds=#sr# 320"};
-				{ 14, "s27948", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Vitality", "=ds=#sr# 305"};
-				{ 15, "s20023", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Agility", "=ds=#sr# 295"};
-				{ 16, "s20024", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Spirit", "=ds=#sr# 275"};
-				{ 17, "s20020", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Stamina", "=ds=#sr# 260"};
-				{ 18, "s63746", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Accuracy", "=ds="};
-				{ 19, "s13935", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Agility", "=ds=#sr# 235"};
-				{ 20, "s13890", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Minor Speed", "=ds=#sr# 225"};
-				{ 21, "s13836", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Stamina", "=ds=#sr# 215"};
-				{ 22, "s13687", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Spirit", "=ds=#sr# 190"};
-				{ 23, "s13644", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Stamina", "=ds=#sr# 170"};
-				{ 24, "s13637", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Agility", "=ds=#sr# 160"};
-				{ 25, "s7867", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Minor Agility", "=ds=#sr# 125"};
-				{ 26, "s7863", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Minor Stamina", "=ds=#sr# 125"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Agility"], ""};
+				{ 2, "s74213", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Major Agility", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 3, "s74252", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Assassin's Step", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 4, "s44589", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Superior Agility", "=ds=#sr# 410", "=ds="..AL["Trainer"]};
+				{ 5, "s27951", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Dexterity", "=ds=#sr# 340", "=ds="..BabbleZone["Auchenai Crypts"]};
+				{ 6, "s20023", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Greater Agility", "=ds=#sr# 295", "=ds="..AL["Trainer"]};
+				{ 7, "s34007", "inv_enchant_formulasuperior_01", "=ds=Enchant Boots - Cat's Swiftness", "=ds=#sr# 360", "=ds="..AL["World Drop"]};
+				{ 8, "s13935", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Agility", "=ds=#sr# 235", "=ds="..AL["Trainer"]};
+				{ 9, "s13637", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Agility", "=ds=#sr# 160", "=ds="..AL["Trainer"]};
+				{ 10, "s7867", "inv_misc_note_01", "=ds=Enchant Boots - Minor Agility", "=ds=#sr# 125", "=ds="..AL["Vendor"]};
+				{ 12, 0, "INV_Box_01", "=q6="..AL["Spirit"], ""};
+				{ 13, "s44508", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Spirit", "=ds=#sr# 410", "=ds="..AL["Trainer"]};
+				{ 14, "s20024", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Spirit", "=ds=#sr# 275", "=ds="..AL["World Drop"]};
+				{ 15, "s13687", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Lesser Spirit", "=ds=#sr# 190", "=ds="..AL["World Drop"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Stamina"], ""};
+				{ 17, "s74189", "spell_holy_greaterheal", "=ds=Enchant Boots - Earthen Vitality", "=ds=#sr# 425", "=ds="..AL["Trainer"]};
+				{ 18, "s44528", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Fortitude", "=ds=#sr# 385", "=ds="..AL["Trainer"]};
+				{ 19, "s47901", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Tuskarr's Vitality", "=ds=#sr# 440", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+				{ 20, "s27950", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Fortitude", "=ds=#sr# 320", "=ds="..BabbleZone["Mana-Tombs"]};
+				{ 21, "s34008", "inv_enchant_formulasuperior_01", "=ds=Enchant Boots - Boar's Speed", "=ds=#sr# 360", "=ds="..AL["World Drop"]};
+				{ 22, "s20020", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Greater Stamina", "=ds=#sr# 260", "=ds="..AL["World Drop"]};
+				{ 23, "s13836", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Stamina", "=ds=#sr# 215", "=ds="..AL["Trainer"]};
+				{ 24, "s13644", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Stamina", "=ds=#sr# 170", "=ds="..AL["Trainer"]};
+				{ 25, "s7863", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Minor Stamina", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Attack Power"], ""};
+				{ 28, "s60763", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Greater Assault", "=ds=#sr# 440", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+				{ 29, "s60606", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Assault", "=ds=#sr# 375", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Ratings"], ""};
+				{ 2, "s74253", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Lavawalker", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 3, "s74238", "spell_holy_greaterheal", "=ds=Enchant Boots - Mastery", "=ds=#sr# 510", "=ds="..AL["Trainer"]};
+				{ 4, "s74236", "spell_holy_greaterheal", "=ds=Enchant Boots - Precision", "=ds=#sr# 505", "=ds="..AL["Trainer"]};
+				{ 5, "s74199", "spell_holy_greaterheal", "=ds=Enchant Boots - Haste", "=ds=#sr# 455", "=ds="..AL["Trainer"]};
+				{ 6, "s60623", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Icewalker", "=ds=#sr# 385", "=ds="..AL["Trainer"]};
+				{ 7, "s27954", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Surefooted", "=ds=#sr# 370", "=ds"..BabbleZone["Karazhan"]};
+				{ 8, "s63746", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Lesser Accuracy", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["Other"], ""};
+				{ 11, "s44584", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Greater Vitality", "=ds=#sr# 405", "=ds="..AL["Trainer"]};
+				{ 12, "s27948", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Vitality", "=ds=#sr# 305", "=ds="..AL["World Drop"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Speed"], ""};
+				{ 17, "s74252", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Assassin's Step", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 18, "s74253", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Lavawalker", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 19, "s34008", "inv_enchant_formulasuperior_01", "=ds=Enchant Boots - Boar's Speed", "=ds=#sr# 360", "=ds="..AL["World Drop"]};
+				{ 20, "s34007", "inv_enchant_formulasuperior_01", "=ds=Enchant Boots - Cat's Swiftness", "=ds=#sr# 360", "=ds="..AL["World Drop"]};
+				{ 21, "s74189", "spell_holy_greaterheal", "=ds=Enchant Boots - Earthen Vitality", "=ds=#sr# 425", "=ds="..AL["Trainer"]};
+				{ 22, "s47901", "inv_enchant_formulagood_01", "=ds=Enchant Boots - Tuskarr's Vitality", "=ds=#sr# 440", "=ds="..AL["Vendor"]..", "..BabbleZone["Dalaran"]};
+				{ 23, "s13890", "Spell_Holy_GreaterHeal", "=ds=Enchant Boots - Minor Speed", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -2345,13 +2412,17 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EnchantingRing"] = {
 		["Normal"] = {
 			{
-				{ 1, "s44645", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Assault", "=ds="..AL["Trainer"]};
-				{ 2, "s44636", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Greater Spellpower", "=ds="..AL["Trainer"]};
-				{ 3, "s59636", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Stamina", "=ds="..AL["Trainer"]};
-				{ 4, "s27927", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Stats", "=ds=#sr# 375"};
-				{ 5, "s27926", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Healing Power", "=ds=#sr# 370"};
-				{ 6, "s27924", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Spellpower", "=ds=#sr# 360"};
-				{ 7, "s27920", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Striking", "=ds=#sr# 360"};
+				{ 1, "s74216", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Agility", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 2, "s74218", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Greater Stamina", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 3, "s74217", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Intellect", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 4, "s74215", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Strength", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 5, "s44645", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Assault", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 6, "s44636", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Greater Spellpower", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 7, "s59636", "Spell_Holy_GreaterHeal", "=ds=Enchant Ring - Stamina", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 16, "s27927", "inv_misc_note_01", "=ds=Enchant Ring - Stats", "=ds=#sr# 375", "=ds="..AL["Vendor"]};
+				{ 17, "s27926", "inv_misc_note_01", "=ds=Enchant Ring - Healing Power", "=ds=#sr# 370", "=ds="..AL["Vendor"]};
+				{ 18, "s27924", "inv_misc_note_01", "=ds=Enchant Ring - Spellpower", "=ds=#sr# 360", "=ds="..AL["Vendor"]};
+				{ 19, "s27920", "inv_misc_note_01", "=ds=Enchant Ring - Striking", "=ds=#sr# 360", "=ds="..AL["Vendor"]};
 			};
 		};
 		info = {
@@ -2493,39 +2564,47 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EnchantingMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s28028", "22459", "=q4=Void Sphere", "=ds=#sr# 350"};
-				{ 2, "s60619", "44452", "=q3=Runed Titanium Rod", "=ds="..AL["Trainer"]};
-				{ 3, "s32667", "22463", "=q3=Runed Eternium Rod", "=ds=#sr# 375"};
-				{ 4, "s45765", "22449", "=q3=Void Shatter", "=ds=#sr# 360"};
-				{ 5, "s42615", "22448", "=q3=Small Prismatic Shard", "=ds=#sr# 335"};
-				{ 6, "s28022", "22449", "=q3=Large Prismatic Shard", "=ds=#sr# 335"};
-				{ 7, "s28027", "22460", "=q3=Prismatic Sphere", "=ds=#sr# 325"};
-				{ 8, "s42613", "22448", "=q3=Nexus Transformation", "=ds=#sr# 300"};
-				{ 9, "s15596", "11811", "=q3=Smoking Heart of the Mountain", "=ds=#sr# 265"};
-				{ 10, "s32665", "22462", "=q2=Runed Adamantite Rod", "=ds=#sr# 350"};
-				{ 11, "s14810", "11290", "=q2=Greater Mystic Wand", "=ds=#sr# 175"};
-				{ 12, "s14809", "11289", "=q2=Lesser Mystic Wand", "=ds=#sr# 155"};
-				{ 13, "s14807", "11288", "=q2=Greater Magic Wand", "=ds=#sr# 70"};
-				{ 14, "s14293", "11287", "=q2=Lesser Magic Wand", "=ds=#sr# 10"};
-				{ 15, "s28019", "22522", "=q1=Superior Wizard Oil", "=ds=#sr# 340"};
-				{ 16, "s28016", "22521", "=q1=Superior Mana Oil", "=ds=#sr# 310"};
-				{ 17, "s25130", "20748", "=q1=Brilliant Mana Oil", "=ds=#sr# 300"};
-				{ 18, "s25129", "20749", "=q1=Brilliant Wizard Oil", "=ds=#sr# 300"};
-				{ 19, "s32664", "22461", "=q1=Runed Fel Iron Rod", "=ds=#sr# 300"};
-				{ 20, "s20051", "16207", "=q1=Runed Arcanite Rod", "=ds=#sr# 290"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Rod"], ""};
+				{ 2, "s92370", "52723", "=q3=Runed Elementium Rod", "=ds=#sr# 500"};
+				{ 3, "s60619", "44452", "=q3=Runed Titanium Rod", "=ds="..AL["Trainer"]};
+				{ 4, "s32667", "22463", "=q3=Runed Eternium Rod", "=ds=#sr# 375"};
+				{ 5, "s32665", "22462", "=q2=Runed Adamantite Rod", "=ds=#sr# 350"};
+				{ 6, "s32664", "22461", "=q1=Runed Fel Iron Rod", "=ds=#sr# 300"};
+				{ 7, "s20051", "16207", "=q1=Runed Arcanite Rod", "=ds=#sr# 290"};
+				{ 8, "s13702", "11145", "=q1=Runed Truesilver Rod", "=ds=#sr# 200"};
+				{ 9, "s13628", "11130", "=q1=Runed Golden Rod", "=ds=#sr# 150"};
+				{ 10, "s7795", "6339", "=q1=Runed Silver Rod", "=ds=#sr# 100"};
+				{ 11, "s7421", "6218", "=q1=Runed Copper Rod", "=ds=#sr# 1"};
+				{ 13, 0, "INV_Box_01", "=q6="..BabbleInventory["Companions"], ""};
+				{ 14, "s93841", "67274", "=q3=Enchanted Lantern", "=ds=#sr# 525"};
+				{ 15, "s93843", "67275", "=q3=Magic Lamp", "=ds=#sr# 525"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Oil"], ""};
+				{ 17, "s28019", "22522", "=q1=Superior Wizard Oil", "=ds=#sr# 340"};
+				{ 18, "s28016", "22521", "=q1=Superior Mana Oil", "=ds=#sr# 310"};
+				{ 19, "s25130", "20748", "=q1=Brilliant Mana Oil", "=ds=#sr# 300"};
+				{ 20, "s25129", "20749", "=q1=Brilliant Wizard Oil", "=ds=#sr# 300"};
 				{ 21, "s25128", "20750", "=q1=Wizard Oil", "=ds=#sr# 275"};
-				{ 22, "s17180", "12655", "=q1=Enchanted Thorium", "=ds=#sr# 250"};
-				{ 23, "s25127", "20747", "=q1=Lesser Mana Oil", "=ds=#sr# 250"};
-				{ 24, "s17181", "12810", "=q1=Enchanted Leather", "=ds=#sr# 250"};
-				{ 25, "s25126", "20746", "=q1=Lesser Wizard Oil", "=ds=#sr# 200"};
-				{ 26, "s13702", "11145", "=q1=Runed Truesilver Rod", "=ds=#sr# 200"};
-				{ 27, "s25125", "20745", "=q1=Minor Mana Oil", "=ds=#sr# 150"};
-				{ 28, "s13628", "11130", "=q1=Runed Golden Rod", "=ds=#sr# 150"};
-				{ 29, "s7795", "6339", "=q1=Runed Silver Rod", "=ds=#sr# 100"};
-				{ 30, "s25124", "20744", "=q1=Minor Wizard Oil", "=ds=#sr# 45"};
+				{ 22, "s25127", "20747", "=q1=Lesser Mana Oil", "=ds=#sr# 250"};
+				{ 23, "s25126", "20746", "=q1=Lesser Wizard Oil", "=ds=#sr# 200"};
+				{ 24, "s25125", "20745", "=q1=Minor Mana Oil", "=ds=#sr# 150"};
+				{ 25, "s25124", "20744", "=q1=Minor Wizard Oil", "=ds=#sr# 45"};
 			};
 			{
-				{ 1, "s7421", "6218", "=q1=Runed Copper Rod", "=ds=#sr# 1"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Other"], ""};
+				{ 2, "s28028", "22459", "=q4=Void Sphere", "=ds=#sr# 350"};
+				{ 3, "s45765", "22449", "=q3=Void Shatter", "=ds=#sr# 360"};
+				{ 4, "s42615", "22448", "=q3=Small Prismatic Shard", "=ds=#sr# 335"};
+				{ 5, "s28022", "22449", "=q3=Large Prismatic Shard", "=ds=#sr# 335"};
+				{ 6, "s28027", "22460", "=q3=Prismatic Sphere", "=ds=#sr# 325"};
+				{ 7, "s42613", "22448", "=q3=Nexus Transformation", "=ds=#sr# 300"};
+				{ 8, "s15596", "11811", "=q3=Smoking Heart of the Mountain", "=ds=#sr# 265"};
+				{ 9, "s17180", "12655", "=q1=Enchanted Thorium", "=ds=#sr# 250"};
+				{ 10, "s17181", "12810", "=q1=Enchanted Leather", "=ds=#sr# 250"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Wand"], ""};
+				{ 17, "s14810", "11290", "=q2=Greater Mystic Wand", "=ds=#sr# 175"};
+				{ 18, "s14809", "11289", "=q2=Lesser Mystic Wand", "=ds=#sr# 155"};
+				{ 19, "s14807", "11288", "=q2=Greater Magic Wand", "=ds=#sr# 70"};
+				{ 20, "s14293", "11287", "=q2=Lesser Magic Wand", "=ds=#sr# 10"};
 			};
 		};
 		info = {
@@ -2539,21 +2618,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, 65359, "", "=q1=Formula: Runed Elementium Rod", "=ds=#p4# (515)", "1 #heavenlyshard#" },
 				{ 2, 64411, "", "=q2=Formula: Enchant Boots - Assassin's Step", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-
 				{ 3, 64412, "", "=q2=Formula: Enchant Boots - Lavawalker", "=ds=#p4# (525)", "5 #heavenlyshard#" },
 				{ 4, 52738, "", "=q2=Formula: Enchant Bracer - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
 				{ 5, 64413, "", "=q2=Formula: Enchant Bracer - Greater Speed", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-
 				{ 6, 52740, "", "=q2=Formula: Enchant Chest - Greater Stamina", "=ds=#p4# (525)", "5 #heavenlyshard#" },
 				{ 7, 52739, "", "=q2=Formula: Enchant Chest - Peerless Stats", "=ds=#p4# (525)", "5 #heavenlyshard#" },
 				{ 8, 52737, "", "=q2=Formula: Enchant Cloak - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-
 				{ 9, 64414, "", "=q2=Formula: Enchant Gloves - Greater Mastery", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-
 				{ 10, 64415, "", "=q2=Formula: Enchant Gloves - Mighty Strength", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-
 				{ 11, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#" },
-
 				{ 12, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
 				{ 13, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
 				{ 14, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
@@ -2572,7 +2645,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorCloth"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81725", "59449", "=q4=Lightweight Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 1, "s81725", "59449", "=q4=Lightweight Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
 				{ 2, "s56484", "42553", "=q4=Visage Liquification Goggles", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 3, "s46111", "34847", "=q4=Annihilator Holo-Gogs", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
 				{ 4, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
@@ -2591,8 +2664,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorLeather"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81722", "59455", "=q4=Agile Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
-				{ 2, "s81724", "59453", "=q4=Camoflauge Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 1, "s81722", "59455", "=q4=Agile Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 2, "s81724", "59453", "=q4=Camoflauge Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
 				{ 3, "s56486", "42554", "=q4=Greensight Gogs", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 4, "s56481", "42550", "=q4=Weakness Spectralizers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 5, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
@@ -2613,8 +2686,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorMail"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81716", "59456", "=q4=Deadly Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
-				{ 2, "s81720", "59458", "=q4=Energized Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 1, "s81716", "59456", "=q4=Deadly Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 2, "s81720", "59458", "=q4=Energized Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
 				{ 3, "s56487", "42555", "=q4=Electroflux Sight Enhancers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 4, "s56574", "42551", "=q4=Truesight Ice Blinders", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 5, "s30566", "23839", "=q4=Foreman's Reinforced Helmet", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
@@ -2635,8 +2708,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorPlate"] = {
 		["Normal"] = {
 			{
-				{ 1, "s81714", "59359", "=q4=Reinforced Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
-				{ 2, "s81715", "59448", "=q4=Specialized Bio-Optic Killshades", "=ds=#sr# 525"};--loc unknown
+				{ 1, "s81714", "59359", "=q4=Reinforced Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 2, "s81715", "59448", "=q4=Specialized Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
 				{ 3, "s56480", "42549", "=q4=Armored Titanium Goggles", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 4, "s56483", "42552", "=q4=Charged Titanium Specs", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 5, "s62271", "44949", "=q4=Unbreakable Healing Amplifiers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
@@ -2656,7 +2729,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringArmorTrinket"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84418", "60403", "=q3=Elementium Dragonling", "=ds=#sr# 525" };--loc unknown
+				{ 1, "s84418", "60403", "=q3=Elementium Dragonling", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
 				{ 2, "s56469", "41121", "=q3=Gnomish Lightning Generator", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
 				{ 3, "s56467", "40865", "=q3=Noise Machine", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
 				{ 4, "s56466", "40767", "=q3=Sonic Booster", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
@@ -2738,7 +2811,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringExplosives"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84409", "60853", "=q1=Volatile Seaforium Blastpack", "=ds=#sr# 455"};--loc unknown
+				{ 1, "s84409", "60853", "=q1=Volatile Seaforium Blastpack", "=ds=#sr# 455", "=ds="..AL["Trainer"] };
 				{ 2, "s56514", "42641", "=q1=Global Thermal Sapper Charge", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
 				{ 3, "s56468", "44951", "=q1=Box of Bombs", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
 				{ 4, "s56463", "40536", "=q1=Explosive Decoy", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
@@ -2789,9 +2862,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringScope"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# 515"};--loc unknown
-				{ 2, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# 450" };--loc unknown
-				{ 3, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450" };--loc unknown
+				{ 1, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 2, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
+				{ 3, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 5, "s56478", "41167", "=q3=Heartseeker Scope", "=ds=#sr# 430", "=ds="..AL["Trainer"] };
 				{ 6, "s56470", "41146", "=q3=Sun Scope", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
 				{ 7, "s61471", "44739", "=q1=Diamond-cut Refractor Scope", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
@@ -2815,22 +2888,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringTinker"] = {
 		["Normal"] = {
 			{
-				{ 1, "s55002", "Trade_Engineering", "=ds=Flexweave Underlay", "=ds=#sr# 380"};
-				{ 3, "s82177", "Trade_Engineering", "=ds=Quickflip Deflection Plates", "=ds=#sr# 525"};
-				{ 4, "s82200", "Trade_Engineering", "=ds=Spinal Healing Injector", "=ds=#sr# 525"};
-				{ 5, "s82175", "Trade_Engineering", "=ds=Synapse Springs", "=ds=Discovery"};
-				{ 6, "s82180", "Trade_Engineering", "=ds=Tazik Shocker", "=ds=Discovery"};
-				{ 7, "s82180", "Trade_Engineering", "=ds=Z50 Mana Gulper", "=ds=Discovery"};
-				{ 8, "s54998", "Trade_Engineering", "=ds=Hand-Mounted Pyro Rocket", "=ds=#sr# 400"};
-				{ 9, "s54999", "Trade_Engineering", "=ds=Hyperspeed Accelerators", "=ds=#sr# 400"};
-				{ 10, "s63770", "Trade_Engineering", "=ds=Reticulated Armor Webbing", "=ds=#sr# 400"};
-				{ 16, "s84424", "Trade_Engineering", "=ds=Invisibility Field", "=ds=#sr# 525"};
-				{ 17, "s84425", "Trade_Engineering", "=ds=Cardboard Assassin", "=ds=Discovery"};
-				{ 18, "s84427", "Trade_Engineering", "=ds=Grounded Plasma Shield", "=ds=Discovery"};
-				{ 19, "s55016", "Trade_Engineering", "=ds=Nitro Boosts", "=ds=#sr# 405"};
-				{ 20, "s67839", "Trade_Engineering", "=ds=Mind Amplification Dish", "=ds=#sr# 390"};
-				{ 21, "s54736", "Trade_Engineering", "=ds=Personal Electromagnetic Pulse Generator", "=ds=#sr# 390"};
-				{ 22, "s54793", "Trade_Engineering", "=ds=Frag Belt", "=ds=#sr# 380"};
+				{ 1, "s55002", "Trade_Engineering", "=ds=Flexweave Underlay", "=ds=#sr# 380", "=ds="..AL["Trainer"] };
+				{ 3, "s82177", "Trade_Engineering", "=ds=Quickflip Deflection Plates", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 4, "s82200", "Trade_Engineering", "=ds=Spinal Healing Injector", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 5, "s82175", "Trade_Engineering", "=ds=Synapse Springs", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 6, "s82180", "Trade_Engineering", "=ds=Tazik Shocker", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 7, "s82180", "Trade_Engineering", "=ds=Z50 Mana Gulper", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 8, "s54998", "Trade_Engineering", "=ds=Hand-Mounted Pyro Rocket", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 9, "s54999", "Trade_Engineering", "=ds=Hyperspeed Accelerators", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 10, "s63770", "Trade_Engineering", "=ds=Reticulated Armor Webbing", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 16, "s84424", "Trade_Engineering", "=ds=Invisibility Field", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 17, "s84425", "Trade_Engineering", "=ds=Cardboard Assassin", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 18, "s84427", "Trade_Engineering", "=ds=Grounded Plasma Shield", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 19, "s55016", "Trade_Engineering", "=ds=Nitro Boosts", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
+				{ 20, "s67839", "Trade_Engineering", "=ds=Mind Amplification Dish", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
+				{ 21, "s54736", "Trade_Engineering", "=ds=Personal Electromagnetic Pulse Generator", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
+				{ 22, "s54793", "Trade_Engineering", "=ds=Frag Belt", "=ds=#sr# 380", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2842,11 +2915,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84429", "60858", "=q3=Goblin Barbecue", "=ds=#sr# 525"};
-				{ 2, "s84416", "60217", "=q3=Elementium Toolbox", "=ds=#sr# 525"};
-				{ 3, "s84430", "68049", "=q1=Heat-Treated Spinning Lure", "=ds=#sr# 525"};
-				{ 4, "s84421", "60854", "=q3=Loot-a-Rang", "=ds=#sr# 525"};
-				{ 5, "s84415", "60218", "=q3=Lure Master Tackle Box", "=ds=#sr# 525"};
+				{ 1, "s84430", "68049", "=q1=Heat-Treated Spinning Lure", "=ds=#sr# 510"};
+				{ 2, "s84429", "60858", "=q3=Goblin Barbecue", "=ds=#sr# 505"};
+				{ 4, "s84421", "60854", "=q3=Loot-a-Rang", "=ds=#sr# 490"};
+				{ 3, "s84416", "60217", "=q3=Elementium Toolbox", "=ds=#sr# 475"};
+				{ 5, "s84415", "60218", "=q3=Lure Master Tackle Box", "=ds=#sr# 475"};
 				{ 6, "s84411", "60223", "=q3=High-Powered Bolt Gun", "=ds=#sr# 465"};
 				{ 7, "s95703", "67494", "=q3=Electrostatic Condenser", "=ds=#sr# 440"};
 				{ 8, "s68067", "49040", "=q4=Jeeves", "=ds=#sr# 450"};
@@ -2906,47 +2979,46 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringReagents"] = {
 		["Normal"] = {
 			{
-				{ 1, "s94748", "67749", "=q1=Electrified Ether", "=ds="..AL["Trainer"]..""};
-				{ 2, "s84403", "60224", "=q1=Handful of Obsidium Bolts", "=ds="..AL["Trainer"]..""};
-				{ 3, "s84407", "60852", "=q1=Volatile Energy Converter", "=ds="..AL["Trainer"]..""};
-				{ 4, "s56349", "39681", "=q1=Handful of Cobalt Bolts", "=ds="..AL["Trainer"]..""};
-				{ 5, "s56471", "39683", "=q1=Froststeel Tube", "=ds=#sr# 390" };
-				{ 6, "s56464", "39682", "=q1=Overcharged Capacitor", "=ds=#sr# 375"};
-				{ 7, "s53281", "39690", "=q1=Volatile Blasting Trigger", "=ds="..AL["Trainer"]..""};
-				{ 8, "s30309", "23787", "=q1=Felsteel Stabilizer", "=ds=#sr# 340"};
-				{ 9, "s30307", "23785", "=q1=Hardened Adamantite Tube", "=ds=#sr# 340"};
-				{ 10, "s30308", "23786", "=q1=Khorium Power Core", "=ds=#sr# 340"};
-				{ 11, "s39971", "32423", "=q1=Icy Blasting Primers", "=ds=#sr# 335"};
-				{ 12, "s30306", "23784", "=q1=Adamantite Frame", "=ds=#sr# 325"};
-				{ 13, "s30305", "23783", "=q1=Handful of Fel Iron Bolts", "=ds=#sr# 300"};
-				{ 14, "s30303", "23781", "=q1=Elemental Blasting Powder", "=ds=#sr# 300"};
-				{ 15, "s30304", "23782", "=q1=Fel Iron Casing", "=ds=#sr# 300"};
-				{ 16, "s19815", "16006", "=q1=Delicate Arcanite Converter", "=ds=#sr# 285"};
-				{ 17, "s19795", "16000", "=q1=Thorium Tube", "=ds=#sr# 275"};
-				{ 18, "s39895", "7191", "=q1=Fused Wiring", "=ds=#sr# 275"};
-				{ 19, "s19791", "15994", "=q1=Thorium Widget", "=ds=#sr# 260"};
-				{ 20, "s23071", "18631", "=q1=Truesilver Transformer", "=ds=#sr# 260"};
-				{ 21, "s19788", "15992", "=q1=Dense Blasting Powder", "=ds=#sr# 250"};
-				{ 22, "s12599", "10561", "=q1=Mithril Casing", "=ds=#sr# 215"};
-				{ 23, "s12591", "10560", "=q1=Unstable Trigger", "=ds=#sr# 200"};
-				{ 24, "s12589", "10559", "=q1=Mithril Tube", "=ds=#sr# 195"};
-				{ 25, "s12590", "10498", "=q1=Gyromatic Micro-Adjustor", "=ds=#sr# 175"};
-				{ 26, "s12585", "10505", "=q1=Solid Blasting Powder", "=ds=#sr# 175"};
-				{ 27, "s3961", "4389", "=q1=Gyrochronatom", "=ds=#sr# 170"};
-				{ 28, "s3958", "4387", "=q1=Iron Strut", "=ds=#sr# 160"};
-				{ 29, "s12584", "10558", "=q1=Gold Power Core", "=ds=#sr# 150"};
-				{ 30, "s3953", "4382", "=q1=Bronze Framework", "=ds=#sr# 145"};
+				{ 1, "s94748", "67749", "=q1=Electrified Ether", "=ds=#sr# 445", "=ds="..AL["Trainer"]..""};
+				{ 2, "s84403", "60224", "=q1=Handful of Obsidium Bolts", "=ds=#sr# 425", "=ds="..AL["Trainer"]..""};
+				{ 3, "s56471", "39683", "=q1=Froststeel Tube", "=ds=#sr# 390" };
+				{ 4, "s56464", "39682", "=q1=Overcharged Capacitor", "=ds=#sr# 375"};
+				{ 5, "s56349", "39681", "=q1=Handful of Cobalt Bolts", "=ds=#sr# 350", "=ds="..AL["Trainer"]..""};
+				{ 6, "s53281", "39690", "=q1=Volatile Blasting Trigger", "=ds=#sr# 350", "=ds="..AL["Trainer"]..""};
+				{ 7, "s30309", "23787", "=q1=Felsteel Stabilizer", "=ds=#sr# 340"};
+				{ 8, "s30307", "23785", "=q1=Hardened Adamantite Tube", "=ds=#sr# 340"};
+				{ 9, "s30308", "23786", "=q1=Khorium Power Core", "=ds=#sr# 340"};
+				{ 10, "s39971", "32423", "=q1=Icy Blasting Primers", "=ds=#sr# 335"};
+				{ 11, "s30306", "23784", "=q1=Adamantite Frame", "=ds=#sr# 325"};
+				{ 12, "s30305", "23783", "=q1=Handful of Fel Iron Bolts", "=ds=#sr# 300"};
+				{ 13, "s30303", "23781", "=q1=Elemental Blasting Powder", "=ds=#sr# 300"};
+				{ 14, "s30304", "23782", "=q1=Fel Iron Casing", "=ds=#sr# 300"};
+				{ 15, "s19815", "16006", "=q1=Delicate Arcanite Converter", "=ds=#sr# 285"};
+				{ 16, "s19795", "16000", "=q1=Thorium Tube", "=ds=#sr# 275"};
+				{ 17, "s39895", "7191", "=q1=Fused Wiring", "=ds=#sr# 275"};
+				{ 18, "s19791", "15994", "=q1=Thorium Widget", "=ds=#sr# 260"};
+				{ 19, "s23071", "18631", "=q1=Truesilver Transformer", "=ds=#sr# 260"};
+				{ 20, "s19788", "15992", "=q1=Dense Blasting Powder", "=ds=#sr# 250"};
+				{ 21, "s12599", "10561", "=q1=Mithril Casing", "=ds=#sr# 215"};
+				{ 22, "s12591", "10560", "=q1=Unstable Trigger", "=ds=#sr# 200"};
+				{ 23, "s12589", "10559", "=q1=Mithril Tube", "=ds=#sr# 195"};
+				{ 24, "s12590", "10498", "=q1=Gyromatic Micro-Adjustor", "=ds=#sr# 175"};
+				{ 25, "s12585", "10505", "=q1=Solid Blasting Powder", "=ds=#sr# 175"};
+				{ 26, "s3961", "4389", "=q1=Gyrochronatom", "=ds=#sr# 170"};
+				{ 27, "s3958", "4387", "=q1=Iron Strut", "=ds=#sr# 160"};
+				{ 28, "s12584", "10558", "=q1=Gold Power Core", "=ds=#sr# 150"};
+				{ 29, "s3953", "4382", "=q1=Bronze Framework", "=ds=#sr# 145"};
+				{ 30, "s3942", "4375", "=q1=Whirring Bronze Gizmo", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
 			};
 			{
-				{ 1, "s3942", "4375", "=q1=Whirring Bronze Gizmo", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
-				{ 2, "s3945", "4377", "=q1=Heavy Blasting Powder", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
-				{ 3, "s3938", "4371", "=q1=Bronze Tube", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
-				{ 4, "s3973", "4404", "=q1=Silver Contact", "=ds=#sr# 90", "=ds="..AL["Trainer"] };
-				{ 5, "s3929", "4364", "=q1=Coarse Blasting Powder", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
-				{ 6, "s3926", "4363", "=q1=Copper Modulator", "=ds=#sr# 65", "=ds="..AL["Trainer"] };
-				{ 7, "s3924", "4361", "=q1=Copper Tube", "=ds=#sr# 50", "=ds="..AL["Trainer"] };
-				{ 8, "s3922", "4359", "=q1=Handful of Copper Bolts", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
-				{ 9, "s3918", "4357", "=q1=Rough Blasting Powder", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				{ 1, "s3945", "4377", "=q1=Heavy Blasting Powder", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 2, "s3938", "4371", "=q1=Bronze Tube", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
+				{ 3, "s3973", "4404", "=q1=Silver Contact", "=ds=#sr# 90", "=ds="..AL["Trainer"] };
+				{ 4, "s3929", "4364", "=q1=Coarse Blasting Powder", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 5, "s3926", "4363", "=q1=Copper Modulator", "=ds=#sr# 65", "=ds="..AL["Trainer"] };
+				{ 6, "s3924", "4361", "=q1=Copper Tube", "=ds=#sr# 50", "=ds="..AL["Trainer"] };
+				{ 7, "s3922", "4359", "=q1=Handful of Copper Bolts", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
+				{ 8, "s3918", "4357", "=q1=Rough Blasting Powder", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -2958,10 +3030,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringWeapon"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84431", "59364", "=q4=Overpowered Chicken Splitter", "=ds=#sr# 525" };
-				{ 2, "s84432", "59367", "=q3=Kickback 5000", "=ds=#sr# 525" };
-				{ 3, "s84420", "59598", "=q3=Finely-Tuned Throat Needler", "=ds=#sr# 525" };
-				{ 4, "s84417", "59599", "=q3=Volatile Thunderstick", "=ds=#sr# 525" };
+				{ 1, "s84431", "59364", "=q3=Overpowered Chicken Splitter", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 2, "s84432", "59367", "=q3=Kickback 5000", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 3, "s84417", "59599", "=q3=Volatile Thunderstick", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
+				{ 4, "s84420", "59598", "=q3=Finely-Tuned Throat Needler", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
 				{ 5, "s56479", "41168", "=q4=Armor Plated Combat Shotgun", "=ds=#sr# 450" };
 				{ 6, "s60874", "44504", "=q4=Nesingwary 4000", "=ds=#sr# 450" };
 				{ 7, "s54353", "39688", "=q3=Mark \"S\" Boomstick", "=ds=#sr# 400" };
@@ -2993,7 +3065,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Gnomish"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds=#sr# 475"};--loc unknown
+				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
 				{ 2, "s56473", "40895", "=q3=Gnomish X-Ray Specs", "=ds=#sr# 425" };
 				{ 3, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375"};
 				{ 4, "s30574", "23828", "=q4=Gnomish Power Goggles", "=ds=#sr# 375"};
@@ -3024,7 +3096,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Goblin"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84412", "59597", "=q3=Personal World Destroyer", "=ds=#sr# 475"};--loc unknown
+				{ 1, "s84412", "59597", "=q3=Personal World Destroyer", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
 				{ 2, "s56514", "42641", "=q1=Global Thermal Sapper Charge", "=ds=#sr# 425" };
 				{ 3, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375"};
 				{ 4, "s30566", "23839", "=q4=Foreman's Reinforced Helmet", "=ds=#sr# 375"};
@@ -3056,14 +3128,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringGem"] = {
 		["Normal"] = {
 			{
-				{ 1, "", "59480", "=q3=Fractured Cogwheel", "=ds=#sr# 525" };
-				{ 2, "", "59479", "=q3=Quick Cogwheel", "=ds=#sr# 525" };
-				{ 3, "", "59478", "=q3=Smooth Cogwheel", "=ds=#sr# 525" };
-				{ 4, "", "59477", "=q3=Subtle Cogwheel", "=ds=#sr# 525" };
-				{ 16, "", "59491", "=q3=Flashing Cogwheel", "=ds=#sr# 525" };
-				{ 17, "", "59489", "=q3=Precise Cogwheel", "=ds=#sr# 525" };
-				{ 18, "", "59493", "=q3=Rigid Cogwheel", "=ds=#sr# 525" };
-				{ 19, "", "59496", "=q3=Sparkling Cogwheel", "=ds=#sr# 525" };
+				{ 1, "", "59480", "=q3=Fractured Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 2, "", "59479", "=q3=Quick Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 3, "", "59478", "=q3=Smooth Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 4, "", "59477", "=q3=Subtle Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 16, "", "59491", "=q3=Flashing Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 17, "", "59489", "=q3=Precise Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 18, "", "59493", "=q3=Rigid Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 19, "", "59496", "=q3=Sparkling Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
 			};
 		};
 		info = {
@@ -3075,8 +3147,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringPetMount"] = {
 		["Normal"] = {
 			{
-				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds=#sr# 475"};--loc unknown
-				{ 2, "s84412", "59597", "=q3=Personal World Destroyer", "=ds=#sr# 475"};--loc unknown
+				{ 1, "s84413", "60216", "=q3=De-Weaponized Mechanical Companion", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 2, "s84412", "59597", "=q3=Personal World Destroyer", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
 				{ 3, "s19793", "15996", "=q1=Lifelike Mechanical Toad", "=ds=#sr# 265", "=ds="..AL["World Drop"] };
 				{ 4, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250", "=ds="..AL["Quest Reward"] };
 				{ 5, "s15633", "11826", "=q1=Lil' Smoky", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };

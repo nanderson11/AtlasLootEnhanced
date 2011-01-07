@@ -542,11 +542,13 @@ if AL then
 	AL["Random"] = true;
 	AL["Brew of the Month Club"] = true;
 
-	-- Cooking descriptions
+	-- Profession descriptions
 	AL["Buff"] = true;
 	AL["Agility"] = true;
 	AL["Intellect"] = true;
 	AL["Strength"] = true;
+	AL["Spirit"] = true;
+	AL["Stamina"] = true;
 	AL["Agility, Intellect, Strength"] = true;
 	AL["Spell Power"] = true;
 	AL["Attack Power"] = true;
@@ -560,6 +562,7 @@ if AL then
 	AL["Mastery Rating"] = true;
 	AL["Parry Rating"] = true;
 	AL["Other Ratings"] = true;
+	AL["Ratings"] = true;
 	AL["Resistance"] = true;
 	AL["Health / Second"] = true;
 	AL["Mana / Second"] = true;
@@ -570,10 +573,24 @@ if AL then
 	AL["Mana"] = true;
 	AL["Health and Mana"] = true;
 	AL["Other Buffs"] = true;
+	AL["Other"] = true;
 	AL["Standard Buffs"] = true;
 	AL["Food without Buffs"] = true;
 	AL["Special"] = true;
 	AL["Feasts"] = true;
+	AL["Speed"] = true;
+	AL["Rod"] = true;
+	AL["Oil"] = true;
+	AL["Wand"] = true;
+	AL["Dwarf"] = true;
+	AL["Draenei"] = true;
+	AL["Night Elf"] = true;
+	AL["Fossil"] = true;
+	AL["Nerubian"] = true;
+	AL["Vrykul"] = true;
+	AL["Troll"] = true;
+	AL["Tol'vir"] = true;
+	AL["Orc"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;

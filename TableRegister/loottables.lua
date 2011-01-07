@@ -162,8 +162,8 @@ AtlasLoot_LootTableRegister = {
 
 		["BaradinHold"] = {
 			["Bosses"] = {
-				{ "BaradinsWardens", 1 },
-				{ "HellscreamsReach", 2 },
+				{ "BaradinsWardens", 1, hide = true },
+				{ "HellscreamsReach", 2, hide = true },
 				{ "Argaloth", 4 },
 			},
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
@@ -1505,23 +1505,6 @@ AtlasLoot_LootTableRegister = {
 ----------------
 
 	["Crafting"] = {
-
-		["Enchanting"] = {
-			["Bosses"] = {
-				{ "EnchantingBoots" },
-				{ "EnchantingBracer" },
-				{ "EnchantingChest" },
-				{ "EnchantingCloak" },
-				{ "EnchantingGloves" },
-				{ "EnchantingRing" },
-				{ "EnchantingShield" },
-				{ "Enchanting2HWeapon" },
-				{ "EnchantingWeapon" },
-				{ "EnchantingStaff" },
-				{ "EnchantingMisc" },
-			},
-			["Info"] = { ENCHANTING, "AtlasLootCrafting"},
-		},
 
 		["Leatherworking"] = {
 			["Bosses"] = {
