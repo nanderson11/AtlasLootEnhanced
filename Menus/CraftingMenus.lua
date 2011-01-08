@@ -153,7 +153,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 12, "EngineeringArmor", "spell_arcane_portaldarnassus", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleInventory["Miscellaneous"] };
 				{ 17, "EngineeringExplosives", "spell_shadow_mindbomb", "=ds="..BabbleInventory["Explosives"], "" };
 				{ 18, "EngineeringPetMount", "inv_misc_key_06", "=ds="..BabbleInventory["Pet"].." & "..BabbleInventory["Mount"], "" };
-				{ 19, "EngineeringTinker", "Trade_Engineering", "=ds=Tinker", "" };
+				{ 19, "EngineeringTinker", "Trade_Engineering", "=ds="..AL["Tinker"], "" };
 				{ 20, "EngineeringArmorTrinket", "inv_misc_head_dragon_bronze", "=ds="..BabbleInventory["Trinket"], "" };
 				{ 23, "Goblin", "inv_gizmo_supersappercharge", "=ds="..GetSpellInfo(20221), "" };
 				{ 25, "EngineeringArmorMail", "inv_gizmo_newgoggles", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleInventory["Mail"] };

@@ -415,6 +415,9 @@ if AL then
 	AL["Enchant Weapon"] = "Waffe verzaubern";
 	AL["Cataclysm Vendor Sold Formulas"] = "Cataclysm - Vom Händler verkaufte Formeln";
 
+	-- Engineering
+	AL["Tinker"] = "Basteln";
+
 	-- Inscription
 	AL["Major Glyph"] = "Erhebliche Glyphe";
 	AL["Minor Glyph"] = "Geringe Glyphe";
@@ -542,11 +545,13 @@ if AL then
 	AL["Random"] = "Zufällig";
 	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
 
-	-- Cooking descriptions
+	-- Profession descriptions
 	-- AL["Buff"] = true;
 	AL["Agility"] = "Beweglichkeit";
 	AL["Intellect"] = "Intelligenz";
 	AL["Strength"] = "Stärke";
+	AL["Spirit"] = "Willenskraft";
+	AL["Stamina"] = "Ausdauer";
 	AL["Agility, Intellect, Strength"] = "Beweglichkeit, Intelligenz, Stärke";
 	AL["Spell Power"] = "Zaubermacht";
 	AL["Attack Power"] = "Angriffskraft";
@@ -560,6 +565,7 @@ if AL then
 	AL["Mastery Rating"] = "Meisterschaftswertung";
 	AL["Parry Rating"] = "Parierwertung";
 	AL["Other Ratings"] = "Andere Wertungen";
+	AL["Ratings"] = "Wertungen";
 	AL["Resistance"] = "Widerstand";
 	AL["Health / Second"] = "Gesundheit / Sekunde";
 	AL["Mana / Second"] = "Mana / Sekunde";
@@ -570,10 +576,23 @@ if AL then
 	-- AL["Mana"] = true;
 	AL["Health and Mana"] = "Gesundheit und Mana";
 	AL["Other Buffs"] = "Andere Buffs";
+	AL["Other"] = "Andere";
 	AL["Standard Buffs"] = "Standard-Buffs";
 	AL["Food without Buffs"] = "Speisen ohne Buff";
 	AL["Special"] = "Speziell";
 	AL["Feasts"] = "Festmähler";
+	AL["Speed"] = "Tempo";
+	AL["Rod"] = "Rute";
+	AL["Oil"] = "Öl";
+	AL["Dwarf"] = "Zwerge";
+	-- AL["Draenei"] = true;
+	AL["Night Elf"] = "Nachtelfen";
+	AL["Fossil"] = "Fossilien";
+	AL["Nerubian"] = "Neruber";
+	-- AL["Vrykul"] = true;
+	AL["Troll"] = "Trolle";
+	-- AL["Tol'vir"] = true;
+	AL["Orc"] = "Orcs";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Umarmung der Viper (5 Teile)";

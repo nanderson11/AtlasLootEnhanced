@@ -415,6 +415,9 @@ if AL then
 	AL["Enchant Weapon"] = true;
 	AL["Cataclysm Vendor Sold Formulas"] = true;
 
+	-- Engineering
+	AL["Tinker"] = true;
+
 	-- Inscription
 	AL["Major Glyph"] = true;
 	AL["Minor Glyph"] = true;
@@ -581,7 +584,6 @@ if AL then
 	AL["Speed"] = true;
 	AL["Rod"] = true;
 	AL["Oil"] = true;
-	AL["Wand"] = true;
 	AL["Dwarf"] = true;
 	AL["Draenei"] = true;
 	AL["Night Elf"] = true;

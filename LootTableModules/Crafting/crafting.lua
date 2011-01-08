@@ -2682,7 +2682,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, "s15596", "11811", "=q3=Smoking Heart of the Mountain", "=ds=#sr# 265"};
 				{ 9, "s17180", "12655", "=q1=Enchanted Thorium", "=ds=#sr# 250"};
 				{ 10, "s17181", "12810", "=q1=Enchanted Leather", "=ds=#sr# 250"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Wand"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Wand"], ""};
 				{ 17, "s14810", "11290", "=q2=Greater Mystic Wand", "=ds=#sr# 175"};
 				{ 18, "s14809", "11289", "=q2=Lesser Mystic Wand", "=ds=#sr# 155"};
 				{ 19, "s14807", "11288", "=q2=Greater Magic Wand", "=ds=#sr# 70"};
@@ -2971,17 +2971,17 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, "s55002", "Trade_Engineering", "=ds=Flexweave Underlay", "=ds=#sr# 380", "=ds="..AL["Trainer"] };
-				{ 3, "s82177", "Trade_Engineering", "=ds=Quickflip Deflection Plates", "=ds=#sr# 450+", "=ds=Discovery"};
-				{ 4, "s82200", "Trade_Engineering", "=ds=Spinal Healing Injector", "=ds=#sr# 450+", "=ds=Discovery"};
-				{ 5, "s82175", "Trade_Engineering", "=ds=Synapse Springs", "=ds=#sr# 450+", "=ds=Discovery"};
-				{ 6, "s82180", "Trade_Engineering", "=ds=Tazik Shocker", "=ds=#sr# 450+", "=ds=Discovery"};
-				{ 7, "s82180", "Trade_Engineering", "=ds=Z50 Mana Gulper", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 3, "s82177", "Trade_Engineering", "=ds=Quickflip Deflection Plates", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
+				{ 4, "s82200", "Trade_Engineering", "=ds=Spinal Healing Injector", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
+				{ 5, "s82175", "Trade_Engineering", "=ds=Synapse Springs", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
+				{ 6, "s82180", "Trade_Engineering", "=ds=Tazik Shocker", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
+				{ 7, "s82201", "Trade_Engineering", "=ds=Z50 Mana Gulper", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
 				{ 8, "s54998", "Trade_Engineering", "=ds=Hand-Mounted Pyro Rocket", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
 				{ 9, "s54999", "Trade_Engineering", "=ds=Hyperspeed Accelerators", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
 				{ 10, "s63770", "Trade_Engineering", "=ds=Reticulated Armor Webbing", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
-				{ 16, "s84424", "Trade_Engineering", "=ds=Invisibility Field", "=ds=#sr# 450+", "=ds=Discovery"};
-				{ 17, "s84425", "Trade_Engineering", "=ds=Cardboard Assassin", "=ds=#sr# 450+", "=ds=Discovery"};
-				{ 18, "s84427", "Trade_Engineering", "=ds=Grounded Plasma Shield", "=ds=#sr# 450+", "=ds=Discovery"};
+				{ 16, "s84424", "Trade_Engineering", "=ds=Invisibility Field", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
+				{ 17, "s84425", "Trade_Engineering", "=ds=Cardboard Assassin", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
+				{ 18, "s84427", "Trade_Engineering", "=ds=Grounded Plasma Shield", "=ds=#sr# 450+", "=ds="..AL["Discovery"] };
 				{ 19, "s55016", "Trade_Engineering", "=ds=Nitro Boosts", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
 				{ 20, "s67839", "Trade_Engineering", "=ds=Mind Amplification Dish", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
 				{ 21, "s54736", "Trade_Engineering", "=ds=Personal Electromagnetic Pulse Generator", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
@@ -2989,7 +2989,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = ENGINEERING..": Tinker",
+			name = ENGINEERING..": "..AL["Tinker"],
 			module = moduleName, menu = "ENGINEERINGMENU", instance = "Engineering",
 		};
 	};
