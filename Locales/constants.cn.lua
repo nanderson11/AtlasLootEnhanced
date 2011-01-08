@@ -605,7 +605,6 @@ if AL then
 	AL["Matron Li-sahar"] = "里萨哈";
 	AL["Solus the Eternal"] = "永恒者索鲁斯";
 	AL["Smokywood Pastures Vendor"] = "烟林牧场商人";
-	AL["Shartuul"] = "沙图尔";
 	AL["Darkscreecher Akkarai"] = "黑暗尖啸者阿克卡莱";
 	AL["Karrog"] = "卡尔洛格";
 	AL["Gezzarak the Huntress"] = "猎手吉萨拉克";

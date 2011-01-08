@@ -966,7 +966,6 @@ if AL then
 	AL["Matron Li-sahar"] = true;
 	AL["Solus the Eternal"] = true;
 	AL["Smokywood Pastures Vendor"] = true;
-	AL["Shartuul"] = true;
 	AL["Darkscreecher Akkarai"] = true;
 	AL["Karrog"] = true;
 	AL["Gezzarak the Huntress"] = true;

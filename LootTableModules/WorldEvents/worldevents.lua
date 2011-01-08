@@ -30,7 +30,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 --- Triggered Events
 ---- Abyssal Council
 ---- Ethereum Prison
----- Shartuul
 ---- Skettis
 
 	------------------------
@@ -1403,43 +1402,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 		info = {
 			name = AL["Bash'ir Landing Stasis Chambers"],
 			module = moduleName, menu = "ETHEREUMMENU"
-		};
-	};
-
-		----------------
-		--- Shartuul ---
-		----------------
-
-	AtlasLoot_Data["Shartuul"] = {
-		["Normal"] = {
-			{
-				{ 1, 32941, "", "=q4=Corruptor's Signet", "=ds=#s13#", "", "6.0%"};
-				{ 3, 32676, "", "=q4=Depleted Cloth Bracers", "=ds=#m20#", "", "5.0%"};
-				{ 4, 32675, "", "=q4=Depleted Mail Gauntlets", "=ds=#m20#", "", "7.0%"};
-				{ 5, 32677, "", "=q3=Depleted Cloak", "=ds=#m20#", "", "9.0%"};
-				{ 6, 32678, "", "=q3=Depleted Ring", "=ds=#m20#", "", "9.0%"};
-				{ 7, 32672, "", "=q3=Depleted Badge", "=ds=#m20#", "", "13.0%"};
-				{ 8, 32673, "", "=q3=Depleted Dagger", "=ds=#m20#", "", "6.0%"};
-				{ 9, 32674, "", "=q3=Depleted Sword", "=ds=#m20#", "", "14.0%"};
-				{ 10, 32670, "", "=q3=Depleted Two-Handed Axe", "=ds=#m20#", "", "0.02%"};
-				{ 11, 32671, "", "=q3=Depleted Mace", "=ds=#m20#", "", "11.0%"};
-				{ 12, 32679, "", "=q3=Depleted Staff", "=ds=#m20#", "", "6.0%"};
-				{ 16, 32942, "", "=q4=Ring of the Overseer", "=ds=#s13#", "", "1.4%"};
-				{ 18, 32655, "", "=q4=Crystalweave Bracers", "=ds=#s8#, #a1#"};
-				{ 19, 32656, "", "=q4=Crystalhide Handwraps", "=ds=#s9#, #a3#"};
-				{ 20, 32665, "", "=q3=Crystalweave Cape", "=ds=#s4#"};
-				{ 21, 32664, "", "=q3=Dreamcrystal Band", "=ds=#s13#"};
-				{ 22, 32658, "", "=q3=Badge of Tenacity", "=ds=#s14#"};
-				{ 23, 32659, "", "=q3=Crystal-Infused Shiv", "=ds=#h1#, #w4#"};
-				{ 24, 32660, "", "=q3=Crystalforged Sword", "=ds=#h3#, #w10#"};
-				{ 25, 32663, "", "=q3=Apexis Cleaver", "=ds=#h2#, #w1#"};
-				{ 26, 32661, "", "=q3=Apexis Crystal Mace", "=ds=#h1#, #w6#"};
-				{ 27, 32662, "", "=q3=Flaming Quartz Staff", "=ds=#w9#"};
-			};
-		};
-		info = {
-			name = AL["Shartuul"],
-			module = moduleName, menu = "WORLDEVENTMENU"
 		};
 	};
 

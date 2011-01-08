@@ -948,7 +948,6 @@ if AL then
 	AL["Matron Li-sahar"] = "女侍衛長利薩哈爾";
 	AL["Solus the Eternal"] = "智者索勒斯";
 	AL["Smokywood Pastures Vendor"] = "燻木牧場商人";
-	AL["Shartuul"] = "夏圖歐";
 	AL["Darkscreecher Akkarai"] = "黑暗尖叫者阿卡萊";
 	AL["Karrog"] = "凱羅格";
 	AL["Gezzarak the Huntress"] = "女獵人吉札拉";

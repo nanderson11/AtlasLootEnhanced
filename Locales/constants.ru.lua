@@ -948,7 +948,6 @@ if AL then
 	AL["Matron Li-sahar"] = "Сестра Ли-саар";
 	AL["Solus the Eternal"] = "Солус Вечный";
 	AL["Smokywood Pastures Vendor"] = "торговец-Пастбища Дымного Леса";
-	AL["Shartuul"] = "Шартуул";
 	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
 	AL["Karrog"] = "Каррог";
 	AL["Gezzarak the Huntress"] = "Геззарак Охотница";

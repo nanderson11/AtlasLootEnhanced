@@ -937,7 +937,6 @@ if AL then
 	AL["Matron Li-sahar"] = "Matrona Li-sahar";
 	AL["Solus the Eternal"] = "Solus el Eterno";
 	AL["Smokywood Pastures Vendor"] = "Vendedor de Pastos de Bosquehumeante";
-	--AL["Shartuul"] = true,
 	AL["Darkscreecher Akkarai"] = "Estridador oscuro Akkarai";
 	--AL["Karrog"] = true,
 	AL["Gezzarak the Huntress"] = "Gezzarak la Cazadora";

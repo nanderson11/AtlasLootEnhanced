@@ -1831,6 +1831,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 8, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 16, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1844,8 +1845,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 11, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
+				{ 18, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		info = {
@@ -1866,7 +1867,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_baradinwardens", "=q6=#r2#", ""};
-				{ 2, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds="};
+				{ 2, 63517, "", "=q7=Baradin's Wardens Commendation", "=ds="};
 				{ 3, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#"};
 				{ 4, 63144, "", "=q1=Baradin's Wardens Healing Potion", "=ds=#e2#"};
 				{ 5, 63145, "", "=q1=Baradin's Wardens Mana Potion", "=ds=#e2#"};
@@ -1941,7 +1942,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
-				{ 2, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds="};
+				{ 2, 63518, "", "=q7=Hellscream's Reach Commendation", "=ds="};
 				{ 3, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#"};
 				{ 4, 64994, "", "=q1=Hellscream's Reach Healing Potion", "=ds=#e2#"};
 				{ 5, 64993, "", "=q1=Hellscream's Reach Mana Potion", "=ds=#e2#"};
