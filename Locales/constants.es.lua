@@ -1011,9 +1011,7 @@ if AL then
 	AL["Fengus's Chest"] = "Cofre de Fengus";
 	AL["The Prince's Chest"] = "El cofre del Príncipe";
 	AL["Doan's Strongbox"] = "Caja fuerte de Doan";
-	AL["Frostwhisper's Embalming Fluid"] = "Líquido de embalsamar Levescarcha";
 	AL["Unforged Rune Covered Breastplate"] = "Coraza cubierta de runas sin forjar";
-	AL["Malor's Strongbox"] = "Caja fuerte de Malor";
 	AL["Unfinished Painting"] = "Pintura sin terminar"; --Comprobar
 	AL["Felvine Shard"] = "Fragmento de gangrevid";
 	AL["Baelog's Chest"] = "Cofre de Baelog";

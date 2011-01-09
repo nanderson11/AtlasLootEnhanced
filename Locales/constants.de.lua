@@ -1042,9 +1042,7 @@ if AL then
 	AL["Fengus's Chest"] = "Fengus Truhe";
 	AL["The Prince's Chest"] = "Die Truhe des Prinzen";
 	AL["Doan's Strongbox"] = "Doans Geldkassette";
-	AL["Frostwhisper's Embalming Fluid"] = "Frostraunens Balsamierungsflüssigkeit";
 	AL["Unforged Rune Covered Breastplate"] = "Ungeschmiedete runenverzierte Brustplatte";
-	AL["Malor's Strongbox"] = "Malors Geldkassette";
 	AL["Unfinished Painting"] = "Unvollendetes Gemälde";
 	AL["Felvine Shard"] = "Teufelsrankensplitter";
 	AL["Baelog's Chest"] = "Baelogs Truhe";

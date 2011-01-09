@@ -1022,9 +1022,7 @@ if AL then
 	AL["Fengus's Chest"] = "Сундук Фенгуса";
 	AL["The Prince's Chest"] = "Сундук принца";
 	AL["Doan's Strongbox"] = "Сейф Доана";
-	AL["Frostwhisper's Embalming Fluid"] = "Бальзамировочный состав Ледяного Шепота";
 	AL["Unforged Rune Covered Breastplate"] = "Некованная руническая кираса";
-	AL["Malor's Strongbox"] = "Сейф Малора";
 	AL["Unfinished Painting"] = "Незаконченная картина";
 	AL["Felvine Shard"] = "Сквернит";
 	AL["Baelog's Chest"] = "Сундук Бейлога";

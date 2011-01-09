@@ -661,9 +661,7 @@ if AL then
 	AL["Fengus's Chest"] = "芬古斯的箱子";
 	AL["The Prince's Chest"] = "王子的箱子";
 	AL["Doan's Strongbox"] = "杜安的保险箱";
-	AL["Frostwhisper's Embalming Fluid"] = "莱斯·霜语的防腐液";
 	AL["Unforged Rune Covered Breastplate"] = "未铸造的符文覆饰胸甲";
-	AL["Malor's Strongbox"] = "玛洛尔的保险箱";
 	AL["Unfinished Painting"] = "未完成的油画";
 	AL["Felvine Shard"] = "魔藤碎片";
 	AL["Baelog's Chest"] = "巴尔洛戈的箱子";

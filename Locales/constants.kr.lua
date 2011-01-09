@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.en.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -1018,9 +1018,7 @@ if AL then
 	AL["Fengus's Chest"] = "펜쿠스의 궤짝";
 	AL["The Prince's Chest"] = "오래된 궤짝";
 	AL["Doan's Strongbox"] = "도안의 금고";
-	AL["Frostwhisper's Embalming Fluid"] = "프로스트위스퍼의 불변의 영액";
 	AL["Unforged Rune Covered Breastplate"] = "버려지지 않은 룬문자 흉갑";
-	AL["Malor's Strongbox"] = "말로의 금고";
 	AL["Unfinished Painting"] = "완성되지 않은 그림";
 	AL["Felvine Shard"] = "악령덩쿨 조각";
 	AL["Baelog's Chest"] = "밸로그의 궤짝";
