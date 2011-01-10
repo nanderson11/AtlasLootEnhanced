@@ -561,6 +561,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AuchSethekkRavenGod", 6 },
 				{ "AuchTrash", 7, hide = true },
 				{ "AuchSethekkTalonKing", 8 },
+				{ "" },
 				{ "AuchTrash", 10 },
 			},
 			["Info"] = { BabbleZone["Sethekk Halls"], "AtlasLootBurningCrusade" },
