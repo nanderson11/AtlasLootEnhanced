@@ -7895,7 +7895,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#"};
 				{ 3, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#"};
 				{ 4, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
-				{ 5, 46817, "", "=q4=Silver Covenant Tabard", "=ds=#s7#"};
+				{ 5, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
@@ -7959,7 +7959,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#"};
 				{ 3, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#"};
 				{ 4, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#"};
-				{ 5, 46818, "", "=q4=Sunreaver Tabard", "=ds=#s7#"};
+				{ 5, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {

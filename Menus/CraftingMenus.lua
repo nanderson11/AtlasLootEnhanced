@@ -121,15 +121,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 2, "EnchantingBoots", "inv_enchant_formulasuperior_01", "=ds="..AL["Enchant Boots"], "" };
-				{ 3, "EnchantingChest", "Trade_Engraving", "=ds="..AL["Enchant Chest"], "" };
+				{ 3, "EnchantingChest", "inv_enchant_formulagood_01", "=ds="..AL["Enchant Chest"], "" };
 				{ 4, "EnchantingGloves", "Trade_Engraving", "=ds="..AL["Enchant Gloves"], "" };
-				{ 5, "EnchantingShield", "Trade_Engraving", "=ds="..AL["Enchant Shield"], "" };
+				{ 5, "EnchantingShield", "Spell_Holy_GreaterHeal", "=ds="..AL["Enchant Shield"], "" };
 				{ 6, "Enchanting2HWeapon", "Trade_Engraving", "=ds="..AL["Enchant 2H Weapon"], "" };
 				{ 7, "EnchantingMisc", "inv_rod_enchantedadamantite", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 9, "EnchantingCataVendor", "inv_enchant_formulasuperior_01", "=ds="..AL["Cataclysm Vendor Sold Formulas"], "=q5="..BabbleZone["Twilight Highlands"] };
 				{ 17, "EnchantingBracer", "Trade_Engraving", "=ds="..AL["Enchant Bracer"], "" };
 				{ 18, "EnchantingCloak", "Trade_Engraving", "=ds="..AL["Enchant Cloak"], "" };
-				{ 19, "EnchantingRing", "Trade_Engraving", "=ds="..AL["Enchant Ring"], "" };
+				{ 19, "EnchantingRing", "inv_misc_note_01", "=ds="..AL["Enchant Ring"], "" };
 				{ 20, "EnchantingStaff", "Trade_Engraving", "=ds="..BabbleInventory["Staff"], "" };
 				{ 21, "EnchantingWeapon", "Trade_Engraving", "=ds="..AL["Enchant Weapon"], "" };
 			};

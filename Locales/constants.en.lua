@@ -593,6 +593,8 @@ if AL then
 	AL["Troll"] = true;
 	AL["Tol'vir"] = true;
 	AL["Orc"] = true;
+	AL["Stats"] = true;
+	AL["Resilience"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;

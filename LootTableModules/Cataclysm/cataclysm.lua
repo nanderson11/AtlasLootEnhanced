@@ -1642,14 +1642,15 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
 				{ 2, 59234, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
-				{ 3, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
-				{ 4, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
-				{ 5, 59355, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
-				{ 6, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
-				{ 7, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 8, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 10, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 11, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 4, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 5, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 6, 59355, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 7, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 8, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 11, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 12, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
 				{ 16, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
 			};
 		};
@@ -1657,14 +1658,15 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 65065, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
 				{ 2, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
-				{ 3, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
-				{ 4, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
-				{ 5, 65028, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
-				{ 6, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
-				{ 7, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 8, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 10, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 11, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 3, 65021, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 4, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 5, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 6, 65028, "", "=q4=Chimaron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 7, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 8, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 9, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 11, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 12, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
 				{ 16, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
 			};
 		};
@@ -4185,7 +4187,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["MountsCardGamePromotionl"] = {
+	AtlasLoot_Data["MountsCardGamePromotional"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
