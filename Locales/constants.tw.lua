@@ -393,11 +393,11 @@ if AL then
 	AL["Cloak"] = "披風";
 
 	--Alchemy
-	AL["Battle Elixirs"] = "戰鬥藥劑";
-	AL["Guardian Elixirs"] = "防護藥劑";
+	AL["Battle Elixirs"] = "作戰藥劑";
+	AL["Guardian Elixirs"] = "守護藥劑";
 	AL["Potions"] = "藥水";
 	AL["Transmutes"] = "轉化";
-	AL["Flasks"] = "精煉藥劑";
+	AL["Flasks"] = "精鍊藥劑";
 
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商出售設計圖";
@@ -413,6 +413,9 @@ if AL then
 	AL["Enchant 2H Weapon"] = "附魔雙手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "浩劫與重生供應商出售公式";
+
+	-- Engineering
+	AL["Tinker"] = "工程師專屬";
 
 	--Inscription
 	AL["Major Glyph"] = "極效雕紋";
@@ -541,11 +544,13 @@ if AL then
 	AL["Random"] = "隨機";
 	AL["Brew of the Month Club"] = "每月啤酒俱樂部";
 
-	-- Cooking descriptions
+	-- Profession descriptions
 	AL["Buff"] = "增益";
 	AL["Agility"] = "敏捷";
 	AL["Intellect"] = "智力";
 	AL["Strength"] = "力量";
+	AL["Spirit"] = "精神";
+	AL["Stamina"] = "耐力";
 	AL["Agility, Intellect, Strength"] = "敏捷, 智力, 力量";
 	AL["Spell Power"] = "法術能量";
 	AL["Attack Power"] = "攻擊強度";
@@ -555,13 +560,14 @@ if AL then
 	AL["Crit/Hit Rating"] = "致命一擊/命中等級";
 	AL["Haste Rating"] = "加速等級";
 	AL["Dodge Rating"] = "閃躲等級";
-	AL["Expertise Rating"] = "熟練等級";
+	AL["Expertise Rating"] = "專精等級";
 	AL["Mastery Rating"] = "精通等級";
 	AL["Parry Rating"] = "招架等級";
 	AL["Other Ratings"] = "其他等級";
+	AL["Ratings"] = "等級";
 	AL["Resistance"] = "抗性";
-	AL["Health / Second"] = "每秒回復生命";
-	AL["Mana / Second"] = "每秒回復法力";
+	AL["Health / Second"] = "每秒恢復生命";
+	AL["Mana / Second"] = "每秒恢復法力";
 	AL["Tracking"] = "追蹤";
 	AL["Emotions"] = "情緒";
 	AL["Alcohol"] = "酒類";
@@ -569,10 +575,23 @@ if AL then
 	AL["Mana"] = "法力";
 	AL["Health and Mana"] = "生命和法力";
 	AL["Other Buffs"] = "其他增益";
+	AL["Other"] = "其他";
 	AL["Standard Buffs"] = "標準增益";
 	AL["Food without Buffs"] = "沒有增益的食物";
 	AL["Special"] = "特殊";
 	AL["Feasts"] = "宴類";
+	AL["Speed"] = "速度";
+--	AL["Rod"] = true; -- where did it be used?
+--	AL["Oil"] = true; -- where did it be used?
+	AL["Dwarf"] = "矮人";
+	AL["Draenei"] = "德萊尼";
+	AL["Night Elf"] = "夜精靈";
+	AL["Fossil"] = "化石";
+	AL["Nerubian"] = "奈幽";
+	AL["Vrykul"] = "維酷";
+	AL["Troll"] = "食人妖";
+	AL["Tol'vir"] = "托維爾";
+	AL["Orc"] = "獸人";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
