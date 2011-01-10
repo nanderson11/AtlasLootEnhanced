@@ -180,14 +180,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["BlackrockCavernsTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 55791, "", "=q3=Acanthia's Lost Pendant", "=ds=#s2#", ""};
 				{ 3, 55790, "", "=q3=Toxidunk Dagger", "=ds=#h1#, #w4#", ""};
 				{ 4, 55789, "", "=q3=Berto's Staff", "=ds=#w9#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56327, "", "=q3=Acanthia's Lost Pendant", "=ds=#s2#", ""};
 				{ 18, 56326, "", "=q3=Toxidunk Dagger", "=ds=#h1#, #w4#", ""};
-				{ 19, 56325, "", "=q3=Berto's Staff", "=ds=#w9#", ""};
+				{ 19, 56325, "", "=q3=Berto's Staff", "=ds=#w9#", ""};]]--
 			};
 		};
 		info = {
@@ -305,14 +304,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["ToTTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 55260, "", "=q3=Alpheus Legguards", "=ds=#s11#, #a4#", ""};
 				{ 3, 55262, "", "=q3=Barnacle Pendant", "=ds=#s2#", ""};
 				{ 4, 55261, "", "=q3=Ring of the Great Whale", "=ds=#s13#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56294, "", "=q3=Alpheus Legguards", "=ds=#s11#, #a4#", ""};
 				{ 18, 56292, "", "=q3=Barnacle Pendant", "=ds=#s2#", ""};
-				{ 19, 56293, "", "=q3=Ring of the Great Whale", "=ds=#s13#", ""};
+				{ 19, 56293, "", "=q3=Ring of the Great Whale", "=ds=#s13#", ""};--]]
 			};
 		};
 		info = {
@@ -432,14 +430,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["StonecoreTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 55824, "", "=q3=Skin of Stone", "=ds=#s4#", ""};
 				{ 3, 55822, "", "=q3=Heavy Geode Mace", "=ds=#h1#, #w6#", ""};
 				{ 4, 55823, "", "=q3=Wand of Dark Worship", "=ds=#w12#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56355, "", "=q3=Skin of Stone", "=ds=#s4#", ""};
 				{ 18, 56353, "", "=q3=Heavy Geode Mace", "=ds=#h1#, #w6#", ""};
-				{ 19, 56354, "", "=q3=Wand of Dark Worship", "=ds=#w12#", ""};
+				{ 19, 56354, "", "=q3=Wand of Dark Worship", "=ds=#w12#", ""};--]]
 			};
 		};
 		info = {
@@ -536,14 +533,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["VPTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 55855, "", "=q3=Darksky Treads", "=ds=#s12#, #a4#", ""};
 				{ 3, 55854, "", "=q3=Rainsong", "=ds=#s14#", ""};
 				{ 4, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56378, "", "=q3=Darksky Treads", "=ds=#s12#, #a4#", ""};
 				{ 18, 56377, "", "=q3=Rainsong", "=ds=#s14#", ""};
-				{ 19, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};
+				{ 19, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};--]]
 			};
 		};
 		info = {
@@ -661,14 +657,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["LostCityTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 55882, "", "=q3=Oasis Bracers", "=ds=#s8#, #a2#"};
 				{ 3, 55884, "", "=q3=Mirage Ring", "=ds=#s13#"};
 				{ 4, 55881, "", "=q3=Impetuous Query", "=ds=#s14#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56405, "", "=q3=Oasis Bracers", "=ds=#s8#, #a2#"};
 				{ 18, 56404, "", "=q3=Mirage Ring", "=ds=#s13#"};
-				{ 19, 56406, "", "=q3=Impetuous Query", "=ds=#s14#"};
+				{ 19, 56406, "", "=q3=Impetuous Query", "=ds=#s14#"};--]]
 			};
 		};
 		info = {
@@ -786,14 +781,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["GBTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 56219, "", "=q3=Shroud of Dark Memories", "=ds=#s4#", ""};
 				{ 3, 56218, "", "=q3=Curse-Tainted Leggings", "=ds=#s11#, #a1#", ""};
 				{ 4, 56220, "", "=q3=Abandoned Dark Iron Ring", "=ds=#s13#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56467, "", "=q3=Shroud of Dark Memories", "=ds=#s4#", ""};
 				{ 18, 56466, "", "=q3=Curse-Tainted Leggings", "=ds=#s11#, #a1#", ""};
-				{ 19, 56465, "", "=q3=Abandoned Dark Iron Ring", "=ds=#s13#", ""};
+				{ 19, 56465, "", "=q3=Abandoned Dark Iron Ring", "=ds=#s13#", ""};--]]
 			};
 		};
 		info = {
@@ -980,14 +974,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["HoOTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 56110, "", "=q3=Charm of the Muse", "=ds=#s2#", ""};
 				{ 3, 56111, "", "=q3=Temple Band", "=ds=#s13#", ""};
 				{ 4, 56109, "", "=q3=Book of Origination", "=ds=#s15#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56437, "", "=q3=Charm of the Muse", "=ds=#s2#", ""};
 				{ 18, 56439, "", "=q3=Temple Band", "=ds=#s13#", ""};
-				{ 19, 56438, "", "=q3=Book of Origination", "=ds=#s15#", ""};
+				{ 19, 56438, "", "=q3=Book of Origination", "=ds=#s15#", ""};--]]
 			};
 		};
 		info = {
