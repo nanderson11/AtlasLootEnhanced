@@ -108,6 +108,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 22, "SmithingMisc", "inv_misc_key_07", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 24, "Weaponsmith", "inv_hammer_21", "=ds="..GetSpellInfo(9787), "" };
 				{ 25, "Hammersmith", "inv_hammer_09", "=ds="..GetSpellInfo(17040), "" };
+				{ 29, "SmithingWeaponRemoved", "Trade_BlackSmithing", "=ds=Removed (Temp Name)", "" };
 			};
 		};
 		info = {

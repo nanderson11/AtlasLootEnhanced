@@ -9,7 +9,7 @@ Patch Notes
 v6.01.03
 Reorganized Justice Points menu.
 Revamped Archaeology.
-Updated Blacksmithing Cataclysm level armor and weapons and Classic level armor pages.
+Updated Blacksmithing Cataclysm and Classic level armor and weapons pages.
 Udated Tailoring with vendor sold patterns.
 Added support for Atlas 1.18.1.
 Many minor fixes, additions and translations.
