@@ -8,6 +8,7 @@ Patch Notes
 
 v6.01.03
 Reorganized Justice Points menu.
+Added missing PvP stuff.
 Revamped Archaeology.
 Updated Blacksmithing Cataclysm and Classic level armor and weapons pages.
 Udated Tailoring with vendor sold patterns.

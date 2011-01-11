@@ -313,6 +313,7 @@ if AL then
 	AL["PvP Misc"] = true;
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
 	AL["PvP Class Items"] = true;
+	AL["PvP Trinkets"] = true;
 	AL["NOT AVAILABLE ANYMORE"] = true;
 
 	-- World Events
