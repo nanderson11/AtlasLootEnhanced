@@ -4433,10 +4433,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelMeta"] = {
 		["Normal"] = {
 			{
-				{ 1, "", "", "=q3=Agile Shadowspirit Diamond", "=ds="};
+				{ 1, "s96255", "68778", "=q3=Agile Shadowspirit Diamond", "=ds="};
 				{ 2, "s73468", "52294", "=q3=Austere Shadowspirit Diamond", "=ds="};
 				{ 3, "s73466", "52292", "=q3=Bracing Shadowspirit Diamond", "=ds="};
-				{ 4, "", "", "=q3=Burning Shadowspirit Diamond", "=ds="};
+				{ 4, "s96257", "68780", "=q3=Burning Shadowspirit Diamond", "=ds="};
 				{ 5, "s73465", "52291", "=q3=Chaotic Shadowspirit Diamond", "=ds="};
 				{ 6, "s73472", "52298", "=q3=Destructive Shadowspirit Diamond", "=ds="};
 				{ 7, "s73469", "52295", "=q3=Efullgent Shadowspirit Diamond", "=ds="};
@@ -4448,7 +4448,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 13, "s73475", "52301", "=q3=Impressive Shadowspirit Diamond", "=ds="};
 				{ 14, "s73473", "52299", "=q3=Powerful Shadowspirit Diamond", "=ds="};
 				{ 15, "s73471", "52297", "=q3=Revitalizing Shadowspirit Diamond", "=ds="};
-				{ 16, "", "", "=q3=Reverberating Shadowspirit Diamond", "=ds="};
+				{ 16, "s96256", "68779", "=q3=Reverberating Shadowspirit Diamond", "=ds="};
 				{ 18, "s55401", "41380", "=q3=Austere Earthsiege Diamond", "=ds="..BabbleBoss["King Ymiron"] };
 				{ 19, "s55405", "41389", "=q3=Beaming Earthsiege Diamond", "=ds="..AL["Drop"]..""};
 				{ 20, "s55397", "41395", "=q3=Bracing Earthsiege Diamond", "=ds="..BabbleBoss["Ley-Guardian Eregos"] };

@@ -3611,10 +3611,10 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsCrafted"] = {
 		["Normal"] = {
 			{
-				{ 1, 60847, "", "=q4=Crawling Hand", "=q2=#p25#"};
+				{ 1, 60847, "", "=q4=Crawling Claw", "=q2=#p25#"};
 				{ 2, 64372, "", "=q3=Clockwork Gnome", "=q2=#p25#"};
 				{ 3, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
-				{ 4, 67282, "", "=q3=Elementium Geode", "=q2=#p24#"};
+				{ 4, 67282, "", "=q3=Elementium Geode", "=q2=#p23#"};
 				{ 5, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
 				{ 6, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
 				{ 7, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
@@ -3843,7 +3843,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsCata"] = {
 		["Normal"] = {
 			{
-				{ 1, 60847, "", "=q4=Crawling Hand", "=q2=#p25#"};
+				{ 1, 60847, "", "=q4=Crawling Claw", "=q2=#p25#"};
 				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
 				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=#p25#"};
 				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5125#"};
