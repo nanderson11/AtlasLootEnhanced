@@ -313,6 +313,7 @@ if AL then
 	AL["PvP Misc"] = "Objets divers JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes / Enchantements / Dessins de Joaillerie JcJ";
 	AL["PvP Class Items"] = "Objets JcJ de classe";
+	AL["PvP Trinkets"] = "Bijoux JcJ";
 	AL["NOT AVAILABLE ANYMORE"] = "N'EST PLUS DISPONIBLE";
 
 	-- World Events
@@ -335,6 +336,7 @@ if AL then
 	AL["Pilgrim's Bounty"] = "Bienfaits du pèlerin";
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
+	AL["Kalu'ak Fishing Derby"] = "Tournoi de pêche kalu'ak";
 	AL["Elemental Unrest"] = "L'invasion des élementaires";
 
 	-- Minimap Button
@@ -413,6 +415,9 @@ if AL then
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
 	--AL["Cataclysm Vendor Sold Formulas"] = true; -- à traduire
+
+	-- Engineering
+	--AL["Tinker"] = true; -- à traduire
 
 	-- Inscription
 	AL["Major Glyph"] = "Glyphe majeur";
@@ -541,11 +546,13 @@ if AL then
 	AL["Random"] = "Aléatoire";
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
 
-	-- Cooking descriptions -- à traduire
+	-- Profession descriptions -- à traduire
 	--AL["Buff"] = true;
 	--AL["Agility"] = true;
 	--AL["Intellect"] = true;
 	--AL["Strength"] = true;
+	--AL["Spirit"] = true;
+	--AL["Stamina"] = true;
 	--AL["Agility, Intellect, Strength"] = true;
 	--AL["Spell Power"] = true;
 	--AL["Attack Power"] = true;
@@ -559,6 +566,7 @@ if AL then
 	--AL["Mastery Rating"] = true;
 	--AL["Parry Rating"] = true;
 	--AL["Other Ratings"] = true;
+	--AL["Ratings"] = true;
 	--AL["Resistance"] = true;
 	--AL["Health / Second"] = true;
 	--AL["Mana / Second"] = true;
@@ -569,10 +577,25 @@ if AL then
 	--AL["Mana"] = true;
 	--AL["Health and Mana"] = true;
 	--AL["Other Buffs"] = true;
+	--AL["Other"] = true;
 	--AL["Standard Buffs"] = true;
 	--AL["Food without Buffs"] = true;
 	--AL["Special"] = true;
 	--AL["Feasts"] = true;
+	--AL["Speed"] = true;
+	--AL["Rod"] = true;
+	--AL["Oil"] = true;
+	--AL["Dwarf"] = true;
+	--AL["Draenei"] = true;
+	--AL["Night Elf"] = true;
+	--AL["Fossil"] = true;
+	--AL["Nerubian"] = true;
+	--AL["Vrykul"] = true;
+	--AL["Troll"] = true;
+	--AL["Tol'vir"] = true;
+	--AL["Orc"] = true;
+	--AL["Stats"] = true;
+	--AL["Resilience"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
@@ -736,6 +759,9 @@ if AL then
 
 	-- Thirtheenth set -- à traduire
 	--AL["Worldbreaker"] = true;
+	--AL["Mottled Drake"] = true;
+	--AL["Grim Campfire"] = true;
+	--AL["Landro's Lil' XT"] = true;
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
