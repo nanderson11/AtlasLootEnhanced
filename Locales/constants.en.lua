@@ -572,6 +572,7 @@ if AL then
 	AL["Other Ratings"] = true;
 	AL["Ratings"] = true;
 	AL["Resistance"] = true;
+	AL["Damage Absorption"] = true;
 	AL["Health / Second"] = true;
 	AL["Mana / Second"] = true;
 	AL["Tracking"] = true;
