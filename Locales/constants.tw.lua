@@ -592,6 +592,8 @@ if AL then
 	AL["Troll"] = "食人妖";
 	AL["Tol'vir"] = "托維爾";
 	AL["Orc"] = "獸人";
+	AL["Stats"] = "屬性";
+	AL["Resilience"] = "韌性";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
