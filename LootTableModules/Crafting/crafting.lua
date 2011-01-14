@@ -1387,15 +1387,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingWeaponCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s76454", "55069", "=q4=Elementium Earthguard", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 2, "s76455", "55070", "=q4=Elementium Stormshield", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 3, "s76451", "55066", "=q3=Elementium Poleaxe", "=ds=#w7# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 4, "s76453", "55068", "=q3=Elementium Shank", "=ds=#h1#, #w4# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 5, "s76449", "55064", "=q3=Elementium Spellblade", "=ds=#h3#, #w4# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 6, "s94732", "67605", "=q3=Forged Elementium Mindcrusher", "=ds=#h2#, #w6# / =q1=#sk# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 7, "s94718", "67602", "=q3=Elementium Gutslicer", "=ds=#h1#, #w1# / =q1=#sk# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 8, "s76452", "55067", "=q3=Elementium Bonesplitter", "=ds=#h1#, #w1# / =q1=#sk# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
-				{ 9, "s76450", "55065", "=q3=Elementium Hammer", "=ds=#h3#, #w6# / =q1=#sk# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"]};
+				{ 1, "s76454", "55069", "=q4=Elementium Earthguard", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 2, "s76455", "55070", "=q4=Elementium Stormshield", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 3, "s76451", "55066", "=q3=Elementium Poleaxe", "=ds=#w7# / =q1=#sk# 520", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 4, "s76453", "55068", "=q3=Elementium Shank", "=ds=#h1#, #w4# / =q1=#sk# 520", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 5, "s76449", "55064", "=q3=Elementium Spellblade", "=ds=#h3#, #w4# / =q1=#sk# 520", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 6, "s94732", "67605", "=q3=Forged Elementium Mindcrusher", "=ds=#h2#, #w6# / =q1=#sk# 520", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 7, "s94718", "67602", "=q3=Elementium Gutslicer", "=ds=#h1#, #w1# / =q1=#sk# 515", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 8, "s76452", "55067", "=q3=Elementium Bonesplitter", "=ds=#h1#, #w1# / =q1=#sk# 515", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 9, "s76450", "55065", "=q3=Elementium Hammer", "=ds=#h3#, #w6# / =q1=#sk# 515", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
 				{ 10, "s76433", "55043", "=q3=Decapitator's Razor", "=ds=#h1#, #w1# / =q1=#sk# 460", "=ds="..AL["Trainer"]};
 				{ 11, "s76434", "55044", "=q3=Cold-Forged Shank", "=ds=#h1#, #w4# / =q1=#sk# 470","=ds="..AL["Trainer"]};
 				{ 12, "s76474", "55246", "=q3=Obsidium Bladespear", "=ds=#w7# / =q1=#sk# 470","=ds="..AL["Trainer"]};
@@ -1411,49 +1411,72 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["SmithingEnhancement"] = {
+	AtlasLoot_Data["SmithingArmorEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, "s76441", "55055", "=q2=Elementium Shield Spike", "=ds="..AL["Trainer"] };
-				{ 2, "s55628", "INV_Jewelcrafting_ThoriumSetting", "=ds=Socket Bracer", "=ds="..AL["Trainer"] };
-				{ 3, "s55641", "INV_GAUNTLETS_61", "=ds=Socket Gloves", "=ds="..AL["Trainer"] };
-				{ 4, "s55656", "41611", "=q3=Eternal Belt Buckle", "=ds="..AL["Trainer"] };
-				{ 5, "s62202", "44936", "=q3=Titanium Plating", "=ds="..AL["Vendor"]};
-				{ 6, "s56357", "42500", "=q2=Titanium Shield Spike", "=ds="..AL["Trainer"] };
-				{ 7, "s55839", "41976", "=q2=Titanium Weapon Chain", "=ds="..AL["Trainer"] };
-				{ 8, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360"};
-				{ 9, "s29656", "23529", "=q2=Adamantite Sharpening Stone", "=ds=#sr# 350"};
-				{ 10, "s34608", "28421", "=q2=Adamantite Weightstone", "=ds=#sr# 350"};
-				{ 11, "s42688", "33185", "=q2=Adamantite Weapon Chain", "=ds=#sr# 335"};
-				{ 12, "s22757", "18262", "=q2=Elemental Sharpening Stone", "=ds=#sr# 300"};
-				{ 13, "s16651", "12645", "=q2=Thorium Shield Spike", "=ds=#sr# 275"};
-				{ 14, "s9964", "7969", "=q2=Mithril Spurs", "=ds=#sr# 235"};
-				{ 15, "s9939", "7967", "=q2=Mithril Shield Spike", "=ds=#sr# 215"};
-				{ 16, "s29729", "23576", "=q1=Greater Ward of Shielding", "=ds=#sr# 375"};
-				{ 17, "s32285", "25521", "=q1=Greater Rune of Warding", "=ds=#sr# 350"};
-				{ 18, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340"};
-				{ 19, "s32284", "23559", "=q1=Lesser Rune of Warding", "=ds=#sr# 325"};
-				{ 20, "s29654", "23528", "=q1=Fel Sharpening Stone", "=ds=#sr# 300"};
-				{ 21, "s34607", "28420", "=q1=Fel Weightstone", "=ds=#sr# 300"};
-				{ 22, "s16641", "12404", "=q1=Dense Sharpening Stone", "=ds=#sr# 250"};
-				{ 23, "s16640", "12643", "=q1=Dense Weightstone", "=ds=#sr# 250"};
-				{ 24, "s9918", "7964", "=q1=Solid Sharpening Stone", "=ds=#sr# 200"};
-				{ 25, "s9921", "7965", "=q1=Solid Weightstone", "=ds=#sr# 200"};
-				{ 26, "s7224", "6041", "=q1=Steel Weapon Chain", "=ds=#sr# 190"};
-				{ 27, "s7222", "6043", "=q1=Iron Counterweight", "=ds=#sr# 165"};
-				{ 28, "s7221", "6042", "=q1=Iron Shield Spike", "=ds=#sr# 150"};
-				{ 29, "s2674", "2871", "=q1=Heavy Sharpening Stone", "=ds=#sr# 125"};
-				{ 30, "s3117", "3241", "=q1=Heavy Weightstone", "=ds=#sr# 125"};
-			};
-			{
-				{ 1, "s2665", "2863", "=q1=Coarse Sharpening Stone", "=ds=#sr# 65"};
-				{ 2, "s3116", "3240", "=q1=Coarse Weightstone", "=ds=#sr# 65"};
-				{ 3, "s2660", "2862", "=q1=Rough Sharpening Stone", "=ds=#sr# 1"};
-				{ 4, "s3115", "3239", "=q1=Rough Weightstone", "=ds=#sr# 1"};
+				{ 1, "s76439", "55054", "=q3=Ebonsteel Belt Buckle", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 2, "s55656", "41611", "=q3=Eternal Belt Buckle", "=ds=#sr# 415", "=ds="..AL["Trainer"]};
+				{ 3, "s55628", "item_socketedbracer", "=ds=Socket Bracer", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 4, "s55641", "INV_GAUNTLETS_61", "=ds=Socket Gloves", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 6, "s32285", "25521", "=q1=Greater Rune of Warding", "=ds=#sr# 350", "=ds="..BabbleFaction["Cenarion Expedition"].." - "..BabbleFaction["Honored"]};
+				{ 7, "s32284", "23559", "=q1=Lesser Rune of Warding", "=ds=#sr# 325", "=ds="..AL["Trainer"]};
+				{ 9, "s9964", "7969", "=q2=Mithril Spurs", "=ds=#sr# 235", "=ds="..AL["World Drop"]};
+				{ 16, "s76441", "55055", "=q2=Elementium Shield Spike", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
+				{ 17, "s56357", "42500", "=q2=Titanium Shield Spike", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{
+					{ 18, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360", "=ds="..BabbleFaction["Thrallmar"].." - "..BabbleFaction["Exalted"]};
+					{ 18, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360", "=ds="..BabbleFaction["Honor Hold"].." - "..BabbleFaction["Exalted"]};
+				};
+				{ 19, "s16651", "12645", "=q2=Thorium Shield Spike", "=ds=#sr# 275", "=ds="..AL["World Drop"]};
+				{ 20, "s9939", "7967", "=q2=Mithril Shield Spike", "=ds=#sr# 215", "=ds="..AL["World Drop"]};
+				{ 21, "s7221", "6042", "=q1=Iron Shield Spike", "=ds=#sr# 150", "=ds="..AL["World Drop"]};
+				{
+					{ 23, "s62202", "44936", "=q3=Titanium Plating", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"].." - "..BabbleFaction["Exalted"]};
+					{ 23, "s62202", "44936", "=q3=Titanium Plating", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"].." - "..BabbleFaction["Exalted"]};
+				};
+				{ 24, "s29729", "23576", "=q1=Greater Ward of Shielding", "=ds=#sr# 375", "=ds="..AL["Drop"]..": "..BabbleZone["Netherstorm"]};
+				{
+					{ 25, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"].." / "..BabbleZone["Kelp'thar Forest"]};
+					{ 25, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"].." / "..BabbleZone["Kelp'thar Forest"]};
+				};
+
+
 			};
 		};
 		info = {
-			name = BLACKSMITHING..": "..AL["Item Enhancements"],
+			name = BLACKSMITHING..": "..AL["Armor Enhancements"],
+			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
+		};
+	};
+
+	AtlasLoot_Data["SmithingWeaponEnhancement"] = {
+		["Normal"] = {
+			{
+				{ 1, "s22757", "18262", "=q2=Elemental Sharpening Stone", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Molten Core"]};
+				{ 2, "s29656", "23529", "=q2=Adamantite Sharpening Stone", "=ds=#sr# 350", "=ds="..BabbleFaction["Cenarion Expedition"].." - "..BabbleFaction["Honored"]};
+				{ 3, "s29654", "23528", "=q1=Fel Sharpening Stone", "=ds=#sr# 300", "=ds="..AL["Trainer"]};
+				{ 4, "s16641", "12404", "=q1=Dense Sharpening Stone", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
+				{ 5, "s9918", "7964", "=q1=Solid Sharpening Stone", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 6, "s2674", "2871", "=q1=Heavy Sharpening Stone", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
+				{ 7, "s2665", "2863", "=q1=Coarse Sharpening Stone", "=ds=#sr# 65", "=ds="..AL["Trainer"]};
+				{ 8, "s2660", "2862", "=q1=Rough Sharpening Stone", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 10, "s76442", "55057", "=q2=Pyrium Weapon Chain", "=ds=#sr# 500", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 11, "s55839", "41976", "=q2=Titanium Weapon Chain", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{ 12, "s42688", "33185", "=q2=Adamantite Weapon Chain", "=ds=#sr# 335", "=ds="..AL["Drop"]..": "..BabbleZone["Magisters' Terrace"].." / "..AL["World Drop"]};
+				{ 13, "s7224", "6041", "=q1=Steel Weapon Chain", "=ds=#sr# 190", "=ds="..AL["World Drop"]};
+				{ 17, "s34608", "28421", "=q2=Adamantite Weightstone", "=ds=#sr# 350", "=ds="..BabbleFaction["Cenarion Expedition"].." - "..BabbleFaction["Honored"]};
+				{ 18, "s34607", "28420", "=q1=Fel Weightstone", "=ds=#sr# 300", "=ds="..AL["Trainer"]};
+				{ 19, "s16640", "12643", "=q1=Dense Weightstone", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
+				{ 20, "s9921", "7965", "=q1=Solid Weightstone", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 21, "s3117", "3241", "=q1=Heavy Weightstone", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
+				{ 22, "s3116", "3240", "=q1=Coarse Weightstone", "=ds=#sr# 65", "=ds="..AL["Trainer"]};
+				{ 23, "s3115", "3239", "=q1=Rough Weightstone", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 25, "s7222", "6043", "=q1=Iron Counterweight", "=ds=#sr# 165", "=ds="..AL["World Drop"]};
+
+			};
+		};
+		info = {
+			name = BLACKSMITHING..": "..AL["Weapon Enhancements"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
@@ -1461,30 +1484,33 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s76438", "55053", "=q1=Obsidium Skeleton Key", "=ds="..AL["Trainer"] };
-				{ 2, "s59406", "43853", "=q2=Titanium Skeleton Key", "=ds="..AL["Trainer"] };
-				{ 3, "s59405", "43854", "=q2=Cobalt Skeleton Key", "=ds="..AL["Trainer"] };
-				{ 4, "s19669", "15872", "=q2=Arcanite Skeleton Key", "=ds=#sr# 275"};
-				{ 5, "s19668", "15871", "=q2=Truesilver Skeleton Key", "=ds=#sr# 200"};
-				{ 6, "s19667", "15870", "=q2=Golden Skeleton Key", "=ds=#sr# 150"};
-				{ 7, "s19666", "15869", "=q2=Silver Skeleton Key", "=ds=#sr# 100"};
-				{ 9, "s92375", "65358", "=q1=Elementium Rod", "=ds="..AL["Trainer"] };
-				{ 10, "s55732", "41745", "=q1=Titanium Rod", "=ds="..AL["Trainer"]};
-				{ 11, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360"};
-				{ 12, "s32656", "25844", "=q1=Adamantite Rod", "=ds=#sr# 350"};
-				{ 13, "s32655", "25843", "=q1=Fel Iron Rod", "=ds=#sr# 300"};
-				{ 14, "s20201", "16206", "=q1=Arcanite Rod", "=ds=#sr# 275"};
-				{ 15, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200"};
-				{ 16, "s14379", "11128", "=q1=Golden Rod", "=ds=#sr# 150"};
-				{ 17, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100"};
-				{ 19, "s76178", "65365", "=q1=Folded Obsidium", "=ds=#sr# 425"};
-				{ 20, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250"};
-				{ 21, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200"};
-				{ 22, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125"};
-				{ 23, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75"};
-				{ 24, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25"};
-				{ 26, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200"};
-				{ 27, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150"};
+				{ 1, "s76438", "55053", "=q1=Obsidium Skeleton Key", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
+				{ 2, "s59406", "43853", "=q2=Titanium Skeleton Key", "=ds=#sr# 430", "=ds="..AL["Trainer"]};
+				{ 3, "s59405", "43854", "=q2=Cobalt Skeleton Key", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 4, "s19669", "15872", "=q2=Arcanite Skeleton Key", "=ds=#sr# 275", "=ds="..AL["Trainer"]};
+				{ 5, "s19668", "15871", "=q2=Truesilver Skeleton Key", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 6, "s19667", "15870", "=q2=Golden Skeleton Key", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 7, "s19666", "15869", "=q2=Silver Skeleton Key", "=ds=#sr# 100", "=ds="..AL["Trainer"]};
+				{ 9, "s76178", "65365", "=q1=Folded Obsidium", "=ds=#sr# 425", "=ds="..AL["Trainer"]};
+				{ 10, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
+				{ 11, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 12, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
+				{ 13, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75", "=ds="..AL["Trainer"]};
+				{ 14, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25", "=ds="..AL["Trainer"]};
+				{ 16, "s92375", "65358", "=q1=Elementium Rod", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 17, "s55732", "41745", "=q1=Titanium Rod", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{
+					{ 18, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"].." / "..BabbleZone["Kelp'thar Forest"]};
+					{ 18, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"].." / "..BabbleZone["Kelp'thar Forest"]};
+				};
+				{ 19, "s32656", "25844", "=q1=Adamantite Rod", "=ds=#sr# 350", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"].." / "..BabbleZone["Kelp'thar Forest"]};
+				{ 20, "s32655", "25843", "=q1=Fel Iron Rod", "=ds=#sr# 300", "=ds="..AL["Trainer"]};
+				{ 21, "s20201", "16206", "=q1=Arcanite Rod", "=ds=#sr# 275", "=ds="..AL["Trainer"]};
+				{ 22, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 23, "s14379", "11128", "=q1=Golden Rod", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 24, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100", "=ds="..AL["Trainer"]};
+				{ 26, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036).." (205)"};
+				{ 27, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {

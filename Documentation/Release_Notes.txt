@@ -10,9 +10,9 @@ v6.01.03
 Reorganized Justice Points menu.
 Added missing PvP stuff.
 Revamped Archaeology.
-Updated Blacksmithing Cataclysm and Classic level armor and weapons pages.
+Updated Blacksmithing Cataclysm and Classic level armor and weapons pages. Armor Enhancements, Weapons Enhancements and Miscellaneous pages have also been updated.
 Updated Inscription with Cataclysm recipes. (Thanks to Vexx)
-Udated Tailoring with vendor sold patterns.
+Uddated Tailoring with vendor sold patterns.
 Added support for Atlas 1.18.1.
 Many minor fixes, additions and translations.
 

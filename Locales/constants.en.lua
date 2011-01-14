@@ -403,6 +403,8 @@ if AL then
 
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = true;
+	AL["Armor Enhancements"] = true;
+	AL["Weapon Enhancements"] = true;
 
 	-- Enchanting
 	AL["Enchant Boots"] = true;
