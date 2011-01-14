@@ -420,6 +420,8 @@ if AL then
 	AL["Tinker"] = true;
 
 	-- Inscription
+	AL["Glyph"] = true;
+	AL["Prime Glyph"] = true;
 	AL["Major Glyph"] = true;
 	AL["Minor Glyph"] = true;
 	AL["Scrolls"] = true;

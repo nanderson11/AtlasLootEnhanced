@@ -1764,8 +1764,6 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 2, "PVP85SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5=#s9#, #s11#"};
 				{ 3, "PVP80NONSETEPICS", "inv_bracer_51", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 80"]}; --needs change
-				{ 5, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 6, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
 				{ 17, "T11SET", "inv_chest_plate_26", "=q6="..AL["Tier 11 Set"], "=q5=#s9#, #s11#"};
 			};
 		};
@@ -1828,7 +1826,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 8, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 16, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 16, 68127, "", "=q4=Stormwake the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 17, 68128, "", "=q4=Stormwake the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 19, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1843,7 +1843,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
-				{ 18, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 18, 68132, "", "=q4=Stormwake the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 19, 68131, "", "=q4=Stormwake the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 21, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		info = {
@@ -2568,13 +2570,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 13, 64833, "", "=q3=Bloodthirsty Gladiator's Signet of Cruelty", "=ds=", "1250 #honor#"};
 				{ 14, 64851, "", "=q3=Bloodthirsty Gladiator's Ring of Accuracy", "=ds=", "1250 #honor#"};
 				{ 15, 64852, "", "=q3=Bloodthirsty Gladiator's Ring of Cruelty", "=ds=", "1250 #honor#"};
-				{ 16, 64713, "", "=q4=Bloodthirsty Gladiator's Choker of Accuracy", "=ds=#s2#", "1250 #honor#" },
-				{ 17, 64714, "", "=q4=Bloodthirsty Gladiator's Choker of Proficiency", "=ds=#s2#", "1250 #honor#" },
-    			{ 18, 64800, "", "=q4=Bloodthirsty Gladiator's Necklace of Proficiency", "=ds=#s2#", "1250 #honor#" },
-    			{ 19, 64801, "", "=q4=Bloodthirsty Gladiator's Necklace of Prowess", "=ds=#s2#", "1250 #honor#" },
-    			{ 20, 64807, "", "=q4=Bloodthirsty Gladiator's Pendant of Alacrity", "=ds=#s2#", "1250 #honor#" },
-    			{ 21, 64808, "", "=q4=Bloodthirsty Gladiator's Pendant of Diffusion", "=ds=#s2#", "1250 #honor#" },
-    			{ 22, 64809, "", "=q4=Bloodthirsty Gladiator's Pendant of Meditation", "=ds=#s2#", "1250 #honor#" },
+				{ 16, 64713, "", "=q3=Bloodthirsty Gladiator's Choker of Accuracy", "=ds=#s2#", "1250 #honor#" },
+				{ 17, 64714, "", "=q3=Bloodthirsty Gladiator's Choker of Proficiency", "=ds=#s2#", "1250 #honor#" },
+    			{ 18, 64800, "", "=q3=Bloodthirsty Gladiator's Necklace of Proficiency", "=ds=#s2#", "1250 #honor#" },
+    			{ 19, 64801, "", "=q3=Bloodthirsty Gladiator's Necklace of Prowess", "=ds=#s2#", "1250 #honor#" },
+    			{ 20, 64807, "", "=q3=Bloodthirsty Gladiator's Pendant of Alacrity", "=ds=#s2#", "1250 #honor#" },
+    			{ 21, 64808, "", "=q3=Bloodthirsty Gladiator's Pendant of Diffusion", "=ds=#s2#", "1250 #honor#" },
+    			{ 22, 64809, "", "=q3=Bloodthirsty Gladiator's Pendant of Meditation", "=ds=#s2#", "1250 #honor#" },
 			};
 		};
 		info = {
@@ -2590,27 +2592,27 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Trinkets"] = {
 		["Normal"] = {
 			{
-				{ 1, 61033, "", "=q3=Vicious Gladiator's Badge of Conquest", "=ds=#s14#", "1650 #conquest#" },
-				{ 2, 61035, "", "=q3=Vicious Gladiator's Badge of Dominance", "=ds=#s14#", "1650 #conquest#" },
-				{ 3, 61034, "", "=q3=Vicious Gladiator's Badge of Victory", "=ds=#s14#", "1650 #conquest#" },
-				{ 5, 61026, "", "=q3=Vicious Gladiator's Emblem of Cruelty", "=ds=#s14#", "1650 #conquest#" },
-				{ 6, 61031, "", "=q3=Vicious Gladiator's Emblem of Meditation", "=ds=#s14#", "1650 #conquest#" },
-				{ 7, 61032, "", "=q3=Vicious Gladiator's Emblem of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+				{ 1, 61033, "", "=q4=Vicious Gladiator's Badge of Conquest", "=ds=#s14#", "1650 #conquest#" },
+				{ 2, 61035, "", "=q4=Vicious Gladiator's Badge of Dominance", "=ds=#s14#", "1650 #conquest#" },
+				{ 3, 61034, "", "=q4=Vicious Gladiator's Badge of Victory", "=ds=#s14#", "1650 #conquest#" },
+				{ 5, 61026, "", "=q4=Vicious Gladiator's Emblem of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+				{ 6, 61031, "", "=q4=Vicious Gladiator's Emblem of Meditation", "=ds=#s14#", "1650 #conquest#" },
+				{ 7, 61032, "", "=q4=Vicious Gladiator's Emblem of Tenacity", "=ds=#s14#", "1650 #conquest#" },
 				{
-					{ 9, 60801, "", "=q3=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
-					{ 9, 60794, "", "=q3=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+					{ 9, 60801, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+					{ 9, 60794, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
 				};
 				{
-					{ 10, 60806, "", "=q3=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
-					{ 10, 60799, "", "=q3=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
+					{ 10, 60806, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
+					{ 10, 60799, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
 				};
 				{
-					{ 11, 60807, "", "=q3=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
-					{ 11, 60800, "", "=q3=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+					{ 11, 60807, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+					{ 11, 60800, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
 				};
-				{ 13, 61047, "", "=q3=Vicious Gladiator's Insignia of Conquest", "=ds=#s14#", "1650 #conquest#" },
-				{ 14, 61045, "", "=q3=Vicious Gladiator's Insignia of Dominance", "=ds=#s14#", "1650 #conquest#" },
-				{ 15, 61046, "", "=q3=Vicious Gladiator's Insignia of Victory", "=ds=#s14#", "1650 #conquest#" },
+				{ 13, 61047, "", "=q4=Vicious Gladiator's Insignia of Conquest", "=ds=#s14#", "1650 #conquest#" },
+				{ 14, 61045, "", "=q4=Vicious Gladiator's Insignia of Dominance", "=ds=#s14#", "1650 #conquest#" },
+				{ 15, 61046, "", "=q4=Vicious Gladiator's Insignia of Victory", "=ds=#s14#", "1650 #conquest#" },
 				{ 16, 64687, "", "=q3=Bloodthirsty Gladiator's Badge of Conquest", "=ds=#s14#", "1650 #honor#" },
 				{ 17, 64688, "", "=q3=Bloodthirsty Gladiator's Badge of Dominance", "=ds=#s14#", "1650 #honor#" },
 				{ 18, 64689, "", "=q3=Bloodthirsty Gladiator's Badge of Victory", "=ds=#s14#", "1650 #honor#" },
