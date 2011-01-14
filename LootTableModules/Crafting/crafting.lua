@@ -3518,521 +3518,613 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["Inscription_DeathKnight"] = {
+	AtlasLoot_Data["Inscription_DeathKnightPrimeMinor"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Prime Glyph"], "" };
-				{ 2, "s57214", "43542", "=q1=Glyph of Death and Decay", "=ds="..GetSpellInfo(61177) };
-				{ 3, "s64266", "45804", "=q1=Glyph of Death Coil", "=ds="..AL["Trainer"] };
-				{ 4, "s59340", "43827", "=q1=Glyph of Death Strike", "=ds="..AL["Trainer"] };
-				{ 5, "s57216", "43543", "=q1=Glyph of Frost Strike", "=ds="..AL["Trainer"] };
-				{ 6, "s57208", "43534", "=q1=Glyph of Heart Strike", "=ds="..GetSpellInfo(61177) };
-				{ 7, "s64300", "45806", "=q1=Glyph of Howling Blast", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s57219", "43546", "=q1=Glyph of Icy Touch", "=ds="..AL["Trainer"] };
-				{ 18, "s57220", "43547", "=q1=Glyph of Obliterate", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s57222", "43549", "=q1=Glyph of Raise Dead", "=ds="..AL["Trainer"] };
-				{ 20, "s57223", "43550", "=q1=Glyph of Rune Strike", "=ds="..GetSpellInfo(61177) };
-				{ 21, "s57224", "43551", "=q1=Glyph of Scourge Strike", "=ds="..AL["Trainer"] };
-				{ 9, 0, "INV_Box_01", "=q6="..AL["Minor Glyph"], "" };
-				{ 10, "s57209", "43535", "=q1=Glyph of Blood Tap", "=ds="..GetSpellInfo(61288) };
-				{ 11, "s57215", "43539", "=q1=Glyph of Death's Embrace", "=ds="..GetSpellInfo(61288) };
-				{ 12, "s57217", "43544", "=q1=Glyph of Horn of Winter", "=ds="..GetSpellInfo(61288) };
-				{ 25, "s57229", "43671", "=q1=Glyph of Path of Frost", "=ds="..GetSpellInfo(61288) };
-				{ 26, "s57228", "43673", "=q1=Glyph of Raise Ally", "=ds="..GetSpellInfo(61288) };
-				{ 27, "s57230", "43672", "=q1=Glyph of Resilient Grip", "=ds="..GetSpellInfo(61288) };
-			};
-			{ 
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Major Glyph"], "" };
-				{ 2, "s57207", "43533", "=q1=Glyph of Anti-Magic Shell", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s59339", "43826", "=q1=Glyph of Blood Boil", "=ds="..AL["Trainer"] };
-				{ 3, "s57210", "43536", "=q1=Glyph of Bone Shield", "=ds="..AL["Trainer"] };
-				{ 18, "s57211", "43537", "=q1=Glyph of Chains of Ice", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s64297", "45799", "=q1=Glyph of Dancing Rune Weapon", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 19, "s57213", "43541", "=q1=Glyph of Death Grip", "=ds="..AL["Trainer"] };
-				{ 5, "s64298", "45800", "=q1=Glyph of Hungering Cold", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 20, "s57221", "43548", "=q1=Glyph of Pestilence", "=ds="..AL["Trainer"] };
-				{ 6, "s57226", "43553", "=q1=Glyph of Pillar of Frost", "=ds="..AL["Trainer"] };
-				{ 21, "s59338", "43825", "=q1=Glyph of Rune Tap", "=ds="..AL["Trainer"] };
-				{ 7, "s57225", "43552", "=q1=Glyph of Strangulate", "=ds="..AL["Trainer"] };
-				{ 22, "s57227", "43554", "=q1=Glyph of Vampiric Blood", "=ds="..AL["Trainer"] };
+				-- Prime Glyphs
+				{ 1, 0, "inv_glyph_primedeathknight", "Prime Glyphs", "" };
+				{ 2, "s57214", "43542", "=q1=Glyph of Death and Decay", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 3, "s64266", "45804", "=q1=Glyph of Death Coil", "=ds=#sr# 275", "=ds="..AL["Trainer"] };
+				{ 4, "s59340", "43827", "=q1=Glyph of Death Strike", "=ds=#sr# 340", "=ds="..AL["Trainer"] };
+				{ 5, "s57216", "43543", "=q1=Glyph of Frost Strike", "=ds=#sr# 270", "=ds="..AL["Trainer"] };
+				{ 6, "s57208", "43534", "=q1=Glyph of Heart Strike", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 7, "s64300", "45806", "=q1=Glyph of Howling Blast", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 8, "s57219", "43546", "=q1=Glyph of Icy Touch", "=ds=#sr# 280", "=ds="..AL["Trainer"] };
+				{ 9, "s57220", "43547", "=q1=Glyph of Obliterate", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s57222", "43549", "=q1=Glyph of Raise Dead", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 11, "s57223", "43550", "=q1=Glyph of Rune Strike", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 12, "s57224", "43551", "=q1=Glyph of Scourge Strike", "=ds=#sr# 330", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minordeathknight", "Minor Glyphs", "" };
+				{ 17, "s57209", "43535", "=q1=Glyph of Blood Tap", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s57215", "43539", "=q1=Glyph of Death's Embrace", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s57217", "43544", "=q1=Glyph of Horn of Winter", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s57229", "43671", "=q1=Glyph of Path of Frost", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s57228", "43673", "=q1=Glyph of Raise Ally", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s57230", "43672", "=q1=Glyph of Resilient Grip", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_DeathKnightMajor"] = {
+		["Normal"] = {
+			{ -- Major Glyphs
+				{ 1, 0, "inv_glyph_majordeathknight", "Major Glyphs", "" };
+				{ 2, "s57207", "43533", "=q1=Glyph of Anti-Magic Shell", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 3, "s59339", "43826", "=q1=Glyph of Blood Boil", "=ds=#sr# 320", "=ds="..AL["Trainer"] };
+				{ 4, "s57210", "43536", "=q1=Glyph of Bone Shield", "=ds=#sr# 265", "=ds="..AL["Trainer"] };
+				{ 5, "s57211", "43537", "=q1=Glyph of Chains of Ice", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s64297", "45799", "=q1=Glyph of Dancing Rune Weapon", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 7, "s57213", "43541", "=q1=Glyph of Death Grip", "=ds=#sr# 285", "=ds="..AL["Trainer"] };
+				{ 8, "s64298", "45800", "=q1=Glyph of Hungering Cold", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 9, "s57221", "43548", "=q1=Glyph of Pestilence", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
+				{ 10, "s57226", "43553", "=q1=Glyph of Pillar of Frost", "=ds=#sr# 305", "=ds="..AL["Trainer"] };
+				{ 11, "s59338", "43825", "=q1=Glyph of Rune Tap", "=ds=#sr# 310", "=ds="..AL["Trainer"] };
+				{ 12, "s57225", "43552", "=q1=Glyph of Strangulate", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 13, "s57227", "43554", "=q1=Glyph of Vampiric Blood", "=ds=#sr# 345", "=ds="..AL["Trainer"] };
+			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Druid"] = {
+	AtlasLoot_Data["Inscription_DruidPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primedruid", "Prime Glyphs", "" };
 				{ 2, "s64268", "45601", "=q1=Glyph of Berserk", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s56948", "40919", "=q1=Glyph of Insect Swarm", "=ds="..AL["Trainer"] };
-				{ 3, "s94402", "67484", "=q1=Glyph of Lacerate", "=ds="..AL["Trainer"] };
-				{ 18, "s56949", "40915", "=q1=Glyph of Lifebloom", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s56950", "40900", "=q1=Glyph of Mangle", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s56951", "40923", "=q1=Glyph of Moonfire", "=ds="..AL["Trainer"] };
-				{ 5, "s56954", "40912", "=q1=Glyph of Regrowth", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s56955", "40913", "=q1=Glyph of Rejuvenation", "=ds="..AL["Trainer"] };
-				{ 6, "s56956", "40902", "=q1=Glyph of Rip", "=ds="..AL["Trainer"] };
-				{ 21, "s64307", "45604", "=q1=Glyph of Savage Roar", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 7, "s56957", "40901", "=q1=Glyph of Shred", "=ds="..AL["Trainer"] };
-				{ 22, "s56959", "40916", "=q1=Glyph of Starfire", "=ds="..AL["Trainer"] };
-				{ 8, "s64313", "45603", "=q1=Glyph of Starsurge", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 23, "s56960", "40906", "=q1=Glyph of Swiftmend", "=ds="..GetSpellInfo(61177) };
-				{ 9, "s94401", "67487", "=q1=Glyph of Tiger's Fury", "=ds="..AL["Trainer"] };
-				{ 24, "s56963", "40922", "=q1=Glyph of Wrath", "=ds="..AL["Trainer"] };
+				{ 3, "s56948", "40919", "=q1=Glyph of Insect Swarm", "=ds="..AL["Trainer"] };
+				{ 4, "s94402", "67484", "=q1=Glyph of Lacerate", "=ds="..AL["Trainer"] };
+				{ 5, "s56949", "40915", "=q1=Glyph of Lifebloom", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s56950", "40900", "=q1=Glyph of Mangle", "=ds="..GetSpellInfo(61177) };
+				{ 7, "s56951", "40923", "=q1=Glyph of Moonfire", "=ds="..AL["Trainer"] };
+				{ 8, "s56954", "40912", "=q1=Glyph of Regrowth", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s56955", "40913", "=q1=Glyph of Rejuvenation", "=ds="..AL["Trainer"] };
+				{ 10, "s56956", "40902", "=q1=Glyph of Rip", "=ds="..AL["Trainer"] };
+				{ 11, "s64307", "45604", "=q1=Glyph of Savage Roar", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 12, "s56957", "40901", "=q1=Glyph of Shred", "=ds="..AL["Trainer"] };
+				{ 13, "s56959", "40916", "=q1=Glyph of Starfire", "=ds="..AL["Trainer"] };
+				{ 14, "s64313", "45603", "=q1=Glyph of Starsurge", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 15, "s56960", "40906", "=q1=Glyph of Swiftmend", "=ds="..GetSpellInfo(61177) };
+				{ 16, "s94401", "67487", "=q1=Glyph of Tiger's Fury", "=ds="..AL["Trainer"] };
+				{ 17, "s56963", "40922", "=q1=Glyph of Wrath", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 19, 0, "inv_glyph_minordruid", "Minor Glyphs", "" };
+				{ 20, "s58286", "43316", "=q1=Glyph of Aquatic Form", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58287", "43334", "=q1=Glyph of Challenging Roar", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s59315", "43674", "=q1=Glyph of Dash", "=ds="..GetSpellInfo(61288) };
+				{ 23, "s58296", "43335", "=q1=Glyph of the Wild", "=ds="..GetSpellInfo(61288) };
+				{ 24, "s95215", "68039", "=q1=Glyph of the Treant", "=ds="..GetSpellInfo(61288) };
+				{ 25, "s56965", "44922", "=q1=Glyph of Typhoon", "=ds="..GetSpellInfo(61288) };
+				{ 26, "s58288", "43331", "=q1=Glyph of Unburdened Rebirth", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_DruidMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majordruid", "Major Glyphs", "" };
 				{ 2, "s64256", "45623", "=q1=Glyph of Barkskin", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s48121", "40924", "=q1=Glyph of Entangling Roots", "=ds="..AL["Trainer"] };
-				{ 3, "s94403", "67485", "=q1=Glyph of Faerie Fire", "=ds="..AL["Trainer"] };
-				{ 18, "s94404", "67486", "=q1=Glyph of Feral Charge", "=ds="..AL["Trainer"] };
-				{ 4, "s67600", "48720", "=q1=Glyph of Ferocious Bite", "=ds="..AL["Trainer"] };
-				{ 19, "s62162", "44928", "=q1=Glyph of Focus", "=ds="..AL["Trainer"] };
-				{ 5, "s56943", "40896", "=q1=Glyph of Frenzied Regeneration", "=ds="..AL["Trainer"] };
-				{ 20, "s56945", "40914", "=q1=Glyph of Healing Touch", "=ds="..AL["Trainer"] };
-				{ 6, "s56946", "40920", "=q1=Glyph of Hurricane", "=ds="..GetSpellInfo(61177) };
-				{ 21, "s56947", "40908", "=q1=Glyph of Innervate", "=ds="..GetSpellInfo(61177) };
-				{ 7, "s56961", "40897", "=q1=Glyph of Maul", "=ds="..AL["Trainer"] };
-				{ 22, "s64258", "45622", "=q1=Glyph of Monsoon", "=ds="..AL["Trainer"] };
-				{ 8, "s56952", "40903", "=q1=Glyph of Rake", "=ds="..AL["Trainer"] };
-				{ 23, "s56953", "40909", "=q1=Glyph of Rebirth", "=ds="..AL["Trainer"] };
-				{ 9, "s56944", "40899", "=q1=Glyph of Solar Beam", "=ds="..GetSpellInfo(61177) };
-				{ 24, "s56958", "40921", "=q1=Glyph of Starfall", "=ds="..GetSpellInfo(61177) };
-				{ 10, "s58289", "43332", "=q1=Glyph of Thorns", "=ds="..GetSpellInfo(61177) };
-				{ 25, "s64270", "45602", "=q1=Glyph of Wild Growth", "=ds="..AL["Book of Glyph Mastery"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minordruid", "Minor Glyphs", ""};
-				{ 2, "s58286", "43316", "=q1=Glyph of Aquatic Form", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58287", "43334", "=q1=Glyph of Challenging Roar", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s59315", "43674", "=q1=Glyph of Dash", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s58296", "43335", "=q1=Glyph of the Wild", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s95215", "68039", "=q1=Glyph of the Treant", "=ds="..GetSpellInfo(61288) };
-				{ 19, "s56965", "44922", "=q1=Glyph of Typhoon", "=ds="..GetSpellInfo(61288) };
-				{ 5, "s58288", "43331", "=q1=Glyph of Unburdened Rebirth", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s48121", "40924", "=q1=Glyph of Entangling Roots", "=ds="..AL["Trainer"] };
+				{ 4, "s94403", "67485", "=q1=Glyph of Faerie Fire", "=ds="..AL["Trainer"] };
+				{ 5, "s94404", "67486", "=q1=Glyph of Feral Charge", "=ds="..AL["Trainer"] };
+				{ 6, "s67600", "48720", "=q1=Glyph of Ferocious Bite", "=ds="..AL["Trainer"] };
+				{ 7, "s62162", "44928", "=q1=Glyph of Focus", "=ds="..AL["Trainer"] };
+				{ 8, "s56943", "40896", "=q1=Glyph of Frenzied Regeneration", "=ds="..AL["Trainer"] };
+				{ 9, "s56945", "40914", "=q1=Glyph of Healing Touch", "=ds="..AL["Trainer"] };
+				{ 10, "s56946", "40920", "=q1=Glyph of Hurricane", "=ds="..GetSpellInfo(61177) };
+				{ 11, "s56947", "40908", "=q1=Glyph of Innervate", "=ds="..GetSpellInfo(61177) };
+				{ 12, "s56961", "40897", "=q1=Glyph of Maul", "=ds="..AL["Trainer"] };
+				{ 13, "s64258", "45622", "=q1=Glyph of Monsoon", "=ds="..AL["Trainer"] };
+				{ 14, "s56952", "40903", "=q1=Glyph of Rake", "=ds="..AL["Trainer"] };
+				{ 15, "s56953", "40909", "=q1=Glyph of Rebirth", "=ds="..AL["Trainer"] };
+				{ 16, "s56944", "40899", "=q1=Glyph of Solar Beam", "=ds="..GetSpellInfo(61177) };
+				{ 17, "s56958", "40921", "=q1=Glyph of Starfall", "=ds="..GetSpellInfo(61177) };
+				{ 18, "s58289", "43332", "=q1=Glyph of Thorns", "=ds="..GetSpellInfo(61177) };
+				{ 19, "s64270", "45602", "=q1=Glyph of Wild Growth", "=ds="..AL["Book of Glyph Mastery"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Hunter"] = {
+	AtlasLoot_Data["Inscription_HunterPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primehunter", "Prime Glyphs", "" };
 				{ 2, "s56994", "42897", "=q1=Glyph of Aimed Shot", "=ds="..AL["Trainer"] };
-				{ 17, "s56995", "42898", "=q1=Glyph of Arcane Shot", "=ds="..AL["Trainer"] };
-				{ 3, "s64271", "45625", "=q1=Glyph of Chimera Shot", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 18, "s64273", "45731", "=q1=Glyph of Explosive Shot", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 4, "s57012", "42915", "=q1=Glyph of Kill Command", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s64304", "45732", "=q1=Glyph of Kill Shot", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 5, "s57008", "42911", "=q1=Glyph of Rapid Fire", "=ds="..AL["Trainer"] };
-				{ 20, "s57009", "42912", "=q1=Glyph of Serpent Sting", "=ds="..AL["Trainer"] };
-				{ 6, "s57011", "42914", "=q1=Glyph of Steady Shot", "=ds="..GetSpellInfo(61177) };
-				{ 21, "s57006", "42909", "=q1=Glyph of Dazzled Prey", "=ds="..AL["Trainer"] };
+				{ 3, "s56995", "42898", "=q1=Glyph of Arcane Shot", "=ds="..AL["Trainer"] };
+				{ 4, "s64271", "45625", "=q1=Glyph of Chimera Shot", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 5, "s64273", "45731", "=q1=Glyph of Explosive Shot", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 6, "s57012", "42915", "=q1=Glyph of Kill Command", "=ds="..GetSpellInfo(61177) };
+				{ 7, "s64304", "45732", "=q1=Glyph of Kill Shot", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 8, "s57008", "42911", "=q1=Glyph of Rapid Fire", "=ds="..AL["Trainer"] };
+				{ 9, "s57009", "42912", "=q1=Glyph of Serpent Sting", "=ds="..AL["Trainer"] };
+				{ 10, "s57011", "42914", "=q1=Glyph of Steady Shot", "=ds="..GetSpellInfo(61177) };
+				{ 11, "s57006", "42909", "=q1=Glyph of Dazzled Prey", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorhunter", "Minor Glyphs", "" };
+				{ 17, "s58297", "43355", "=q1=Glyph of Aspect of the Pack", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58302", "43351", "=q1=Glyph of Feign Death", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58301", "43350", "=q1=Glyph of Mend Pet", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s58299", "43338", "=q1=Glyph of Revive Pet", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58298", "43356", "=q1=Glyph of Scare Beast", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_HunterMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majorhunter", "Major Glyphs", "" };
 				{ 2, "s56999", "42902", "=q1=Glyph of Beastial Wrath", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s56998", "42901", "=q1=Glyph of Concussive Shot", "=ds="..GetSpellInfo(61177) };
-				{ 3, "s57000", "42903", "=q1=Glyph of Deterrence", "=ds="..AL["Trainer"] };
-				{ 18, "s57001", "42904", "=q1=Glyph of Disengage", "=ds="..AL["Trainer"] };
-				{ 4, "s57002", "42905", "=q1=Glyph of Freezing Trap", "=ds="..AL["Trainer"] };
-				{ 19, "s57003", "42906", "=q1=Glyph of Ice Trap", "=ds="..AL["Trainer"] };
-				{ 5, "s57005", "42908", "=q1=Glyph of Immolation Trap", "=ds="..AL["Trainer"] };
-				{ 20, "s64253", "45733", "=q1=Glyph of Master's Call", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 6, "s56997", "42900", "=q1=Glyph of Mending", "=ds="..AL["Trainer"] };
-				{ 21, "s57004", "42907", "=q1=Glyph of Misdirection", "=ds="..AL["Trainer"] };
-				{ 7, "s64246", "45735", "=q1=Glyph of Raptor Strike", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 22, "s64249", "45734", "=q1=Glyph of Scatter Shot", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 8, "s57007", "42910", "=q1=Glyph of Silencing Shot", "=ds="..AL["Trainer"] };
-				{ 23, "s57010", "42913", "=q1=Glyph of Snake Trap", "=ds="..GetSpellInfo(61177) };
-				{ 9, "s56996", "42899", "=q1=Glyph of Trap Launcher", "=ds="..GetSpellInfo(61177) };
-				{ 24, "s57014", "42917", "=q1=Glyph of Wyvern Sting", "=ds="..GetSpellInfo(61177) };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorhunter", "Minor Glyphs", ""};
-				{ 2, "s58297", "43355", "=q1=Glyph of Aspect of the Pack", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58302", "43351", "=q1=Glyph of Feign Death", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58301", "43350", "=q1=Glyph of Mend Pet", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s58299", "43338", "=q1=Glyph of Revive Pet", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s58298", "43356", "=q1=Glyph of Scare Beast", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s56998", "42901", "=q1=Glyph of Concussive Shot", "=ds="..GetSpellInfo(61177) };
+				{ 4, "s57000", "42903", "=q1=Glyph of Deterrence", "=ds="..AL["Trainer"] };
+				{ 5, "s57001", "42904", "=q1=Glyph of Disengage", "=ds="..AL["Trainer"] };
+				{ 6, "s57002", "42905", "=q1=Glyph of Freezing Trap", "=ds="..AL["Trainer"] };
+				{ 7, "s57003", "42906", "=q1=Glyph of Ice Trap", "=ds="..AL["Trainer"] };
+				{ 8, "s57005", "42908", "=q1=Glyph of Immolation Trap", "=ds="..AL["Trainer"] };
+				{ 9, "s64253", "45733", "=q1=Glyph of Master's Call", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 10, "s56997", "42900", "=q1=Glyph of Mending", "=ds="..AL["Trainer"] };
+				{ 11, "s57004", "42907", "=q1=Glyph of Misdirection", "=ds="..AL["Trainer"] };
+				{ 12, "s64246", "45735", "=q1=Glyph of Raptor Strike", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 13, "s64249", "45734", "=q1=Glyph of Scatter Shot", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 14, "s57007", "42910", "=q1=Glyph of Silencing Shot", "=ds="..AL["Trainer"] };
+				{ 15, "s57010", "42913", "=q1=Glyph of Snake Trap", "=ds="..GetSpellInfo(61177) };
+				{ 16, "s56996", "42899", "=q1=Glyph of Trap Launcher", "=ds="..GetSpellInfo(61177) };
+				{ 17, "s57014", "42917", "=q1=Glyph of Wyvern Sting", "=ds="..GetSpellInfo(61177) };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Mage"] = {
+	AtlasLoot_Data["Inscription_MagePrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primemage", "Prime Glyphs", "" };
 				{ 2, "s64276", "45738", "=q1=Glyph of Arcane Barrage", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s56991", "44955", "=q1=Glyph of Arcane Blast", "=ds="..AL["Trainer"] };
-				{ 3, "s56971", "42735", "=q1=Glyph of Arcane Missiles", "=ds="..AL["Trainer"] };
-				{ 18, "s56988", "42753", "=q1=Glyph of Cone of Cold", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s64274", "45736", "=q1=Glyph of Deep Freeze", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 19, "s56975", "42739", "=q1=Glyph of Fireball", "=ds="..GetSpellInfo(61177) };
-				{ 5, "s56977", "42742", "=q1=Glyph of Frostbolt", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s61677", "44684", "=q1=Glyph of Frostfire", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s56980", "42745", "=q1=Glyph of Ice Lance", "=ds="..AL["Trainer"] };
-				{ 21, "s94000", "63539", "=q1=Glyph of Living Bomb", "=ds="..GetSpellInfo(61177) };
-				{ 7, "s56984", "42749", "=q1=Glyph of Mage Armor", "=ds="..AL["Trainer"] };
-				{ 22, "s56986", "42751", "=q1=Glyph of Molten Armor", "=ds="..GetSpellInfo(61177) };
-				{ 8, "s56978", "42743", "=q1=Glyph of Pyroblast", "=ds="..AL["Trainer"] };
+				{ 3, "s56991", "44955", "=q1=Glyph of Arcane Blast", "=ds="..AL["Trainer"] };
+				{ 4, "s56971", "42735", "=q1=Glyph of Arcane Missiles", "=ds="..AL["Trainer"] };
+				{ 5, "s56988", "42753", "=q1=Glyph of Cone of Cold", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s64274", "45736", "=q1=Glyph of Deep Freeze", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 7, "s56975", "42739", "=q1=Glyph of Fireball", "=ds="..GetSpellInfo(61177) };
+				{ 8, "s56977", "42742", "=q1=Glyph of Frostbolt", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s61677", "44684", "=q1=Glyph of Frostfire", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s56980", "42745", "=q1=Glyph of Ice Lance", "=ds="..AL["Trainer"] };
+				{ 11, "s94000", "63539", "=q1=Glyph of Living Bomb", "=ds="..GetSpellInfo(61177) };
+				{ 12, "s56984", "42749", "=q1=Glyph of Mage Armor", "=ds="..AL["Trainer"] };
+				{ 13, "s56986", "42751", "=q1=Glyph of Molten Armor", "=ds="..GetSpellInfo(61177) };
+				{ 14, "s56978", "42743", "=q1=Glyph of Pyroblast", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minormage", "Minor Glyphs", "" };
+				{ 17, "s58303", "43339", "=q1=Glyph of Arcane Brilliance", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s95710", "63416", "=q1=Glyph of Armors", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58306", "43359", "=q1=Glyph of Conjuring", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s64314", "45739", "=q1=Glyph of Mirror Image", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58308", "43364", "=q1=Glyph of Slow Fall", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s58307", "43360", "=q1=Glyph of the Monkey", "=ds="..GetSpellInfo(61288) };
+				{ 23, "s58310", "43361", "=q1=Glyph of the Penguin", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_MageMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majormage", "Major Glyphs", "" };
 				{ 2, "s56972", "42736", "=q1=Glyph of Arcane Power", "=ds="..AL["Trainer"] };
-				{ 17, "s56990", "44920", "=q1=Glyph of Blast Wave", "=ds=".."Unknown" };
-				{ 3, "s56973", "42737", "=q1=Glyph of Blink", "=ds="..AL["Trainer"] };
-				{ 18, "s56989", "42754", "=q1=Glyph of Dragon's Breath", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s56974", "42738", "=q1=Glyph of Evocation", "=ds="..AL["Trainer"] };
-				{ 19, "s56976", "42741", "=q1=Glyph of Frost Nova", "=ds="..AL["Trainer"] };
-				{ 5, "s64257", "45740", "=q1=Glyph of Ice Barrier", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 20, "s56979", "42744", "=q1=Glyph of Ice Block", "=ds="..AL["Trainer"] };
-				{ 6, "s56981", "42746", "=q1=Glyph of Icy Veins", "=ds="..AL["Trainer"] };
-				{ 21, "s56983", "42748", "=q1=Glyph of Invisibility", "=ds="..GetSpellInfo(61177) };
-				{ 7, "s71101", "50045", "=q1=Glyph of Mana Shield", "=ds="..AL["Vendor"] };
-				{ 22, "s56987", "42752", "=q1=Glyph of Polymorph", "=ds="..AL["Trainer"] };
-				{ 8, "s64275", "45737", "=q1=Glyph of Slow", "=ds="..AL["Book of Glyph Mastery"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minormage", "Minor Glyphs", ""};
-				{ 2, "s58303", "43339", "=q1=Glyph of Arcane Brilliance", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s95710", "63416", "=q1=Glyph of Armors", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58306", "43359", "=q1=Glyph of Conjuring", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s64314", "45739", "=q1=Glyph of Mirror Image", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s58308", "43364", "=q1=Glyph of Slow Fall", "=ds="..GetSpellInfo(61288) };
-				{ 19, "s58307", "43360", "=q1=Glyph of the Monkey", "=ds="..GetSpellInfo(61288) };
-				{ 5, "s58310", "43361", "=q1=Glyph of the Penguin", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s56990", "44920", "=q1=Glyph of Blast Wave", "=ds=".."Unknown" };
+				{ 4, "s56973", "42737", "=q1=Glyph of Blink", "=ds="..AL["Trainer"] };
+				{ 5, "s56989", "42754", "=q1=Glyph of Dragon's Breath", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s56974", "42738", "=q1=Glyph of Evocation", "=ds="..AL["Trainer"] };
+				{ 7, "s56976", "42741", "=q1=Glyph of Frost Nova", "=ds="..AL["Trainer"] };
+				{ 8, "s64257", "45740", "=q1=Glyph of Ice Barrier", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 9, "s56979", "42744", "=q1=Glyph of Ice Block", "=ds="..AL["Trainer"] };
+				{ 10, "s56981", "42746", "=q1=Glyph of Icy Veins", "=ds="..AL["Trainer"] };
+				{ 11, "s56983", "42748", "=q1=Glyph of Invisibility", "=ds="..GetSpellInfo(61177) };
+				{ 12, "s71101", "50045", "=q1=Glyph of Mana Shield", "=ds="..AL["Vendor"] };
+				{ 13, "s56987", "42752", "=q1=Glyph of Polymorph", "=ds="..AL["Trainer"] };
+				{ 14, "s64275", "45737", "=q1=Glyph of Slow", "=ds="..AL["Book of Glyph Mastery"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Paladin"] = {
+	AtlasLoot_Data["Inscription_PaladinPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primepaladin", "Prime Glyphs", "" };
 				{ 2, "s57024", "41098", "=q1=Glyph of Crusader Strike", "=ds="..AL["Trainer"] };
-				{ 17, "s57029", "41106", "=q1=Glyph of Divine Favor", "=ds="..AL["Trainer"] };
-				{ 3, "s57025", "41103", "=q1=Glyph of Exorcism", "=ds="..AL["Trainer"] };
-				{ 18, "s64278", "45742", "=q1=Glyph of Hammer of the Righteous", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 4, "s64254", "45746", "=q1=Glyph of Holy Shock", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 19, "s57030", "41092", "=q1=Glyph of Judgement", "=ds="..AL["Trainer"] };
-				{ 5, "s57034", "41110", "=q1=Glyph of Seal of Insight", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s59561", "43869", "=q1=Glyph of Seal of Truth", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s64308", "45744", "=q1=Glyph of Shield of Righteousness", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 21, "s64279", "45743", "=q1=Glyph of Templar's Verdict", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 7, "s57026", "41105", "=q1=Glyph of Word of Glory", "=ds="..AL["Trainer"] };
+				{ 3, "s57029", "41106", "=q1=Glyph of Divine Favor", "=ds="..AL["Trainer"] };
+				{ 4, "s57025", "41103", "=q1=Glyph of Exorcism", "=ds="..AL["Trainer"] };
+				{ 5, "s64278", "45742", "=q1=Glyph of Hammer of the Righteous", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 6, "s64254", "45746", "=q1=Glyph of Holy Shock", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 7, "s57030", "41092", "=q1=Glyph of Judgement", "=ds="..AL["Trainer"] };
+				{ 8, "s57034", "41110", "=q1=Glyph of Seal of Insight", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s59561", "43869", "=q1=Glyph of Seal of Truth", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s64308", "45744", "=q1=Glyph of Shield of Righteousness", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 11, "s64279", "45743", "=q1=Glyph of Templar's Verdict", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 12, "s57026", "41105", "=q1=Glyph of Word of Glory", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorpaladin", "Minor Glyphs", "" };
+				{ 17, "s58311", "43365", "=q1=Glyph of Blessing of Kings", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58314", "43340", "=q1=Glyph of Blessing of Might", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58312", "43366", "=q1=Glyph of Insight", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s58316", "43369", "=q1=Glyph of Justice", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58313", "43367", "=q1=Glyph of Lay on Hands", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s58315", "43368", "=q1=Glyph of Truth", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_PaladinMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majorpaladin", "Major Glyphs", "" };
 				{ 2, "s64277", "45741", "=q1=Glyph of Beacon of Light", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s57020", "41104", "=q1=Glyph of Cleansing", "=ds="..AL["Trainer"] };
-				{ 3, "s57023", "41099", "=q1=Glyph of Consecration", "=ds="..AL["Trainer"] };
-				{ 18, "s59560", "43868", "=q1=Glyph of Dazing Shield", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s64305", "45745", "=q1=Glyph of Divine Plea", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 19, "s57022", "41096", "=q1=Glyph of Divine Protection", "=ds="..AL["Trainer"] };
-				{ 5, "s57031", "41108", "=q1=Glyph of Divinity", "=ds="..AL["Trainer"] };
-				{ 20, "s57019", "41101", "=q1=Glyph of Focused Shield", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s57027", "41095", "=q1=Glyph of Hammer of Justice", "=ds="..AL["Trainer"] };
-				{ 21, "s57028", "41097", "=q1=Glyph of Hammer of Wrath", "=ds="..GetSpellInfo(61177) };
-				{ 7, "s59559", "43867", "=q1=Glyph of Holy Wrath", "=ds="..GetSpellInfo(61177) };
-				{ 22, "s57035", "41109", "=q1=Glyph of Light of Dawn", "=ds="..GetSpellInfo(61177) };
-				{ 8, "s57033", "41094", "=q1=Glyph of Rebuke", "=ds="..AL["Trainer"] };
-				{ 23, "s57032", "41100", "=q1=Glyph of Righteousness", "=ds=".."[NR] "..GetSpellInfo(61288) };
-				{ 9, "s64251", "45747", "=q1=Glyph of Salvation", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 24, "s57021", "41107", "=q1=Glyph of the Ascetic Crusader", "=ds="..GetSpellInfo(61177) };
-				{ 10, "s95825", "66918", "=q1=Glyph of the Long Word", "=ds="..GetSpellInfo(61177) };
-				{ 25, "s57036", "41102", "=q1=Glyph of Turn Evil", "=ds="..AL["Trainer"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorpaladin", "Minor Glyphs", ""};
-				{ 2, "s58311", "43365", "=q1=Glyph of Blessing of Kings", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58314", "43340", "=q1=Glyph of Blessing of Might", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58312", "43366", "=q1=Glyph of Insight", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s58316", "43369", "=q1=Glyph of Justice", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s58313", "43367", "=q1=Glyph of Lay on Hands", "=ds="..GetSpellInfo(61288) };
-				{ 19, "s58315", "43368", "=q1=Glyph of Truth", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s57020", "41104", "=q1=Glyph of Cleansing", "=ds="..AL["Trainer"] };
+				{ 4, "s57023", "41099", "=q1=Glyph of Consecration", "=ds="..AL["Trainer"] };
+				{ 5, "s59560", "43868", "=q1=Glyph of Dazing Shield", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s64305", "45745", "=q1=Glyph of Divine Plea", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 7, "s57022", "41096", "=q1=Glyph of Divine Protection", "=ds="..AL["Trainer"] };
+				{ 8, "s57031", "41108", "=q1=Glyph of Divinity", "=ds="..AL["Trainer"] };
+				{ 9, "s57019", "41101", "=q1=Glyph of Focused Shield", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s57027", "41095", "=q1=Glyph of Hammer of Justice", "=ds="..AL["Trainer"] };
+				{ 11, "s57028", "41097", "=q1=Glyph of Hammer of Wrath", "=ds="..GetSpellInfo(61177) };
+				{ 12, "s59559", "43867", "=q1=Glyph of Holy Wrath", "=ds="..GetSpellInfo(61177) };
+				{ 13, "s57035", "41109", "=q1=Glyph of Light of Dawn", "=ds="..GetSpellInfo(61177) };
+				{ 14, "s57033", "41094", "=q1=Glyph of Rebuke", "=ds="..AL["Trainer"] };
+				{ 15, "s57032", "41100", "=q1=Glyph of Righteousness", "=ds=".."[NR] "..GetSpellInfo(61288) };
+				{ 16, "s64251", "45747", "=q1=Glyph of Salvation", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 17, "s57021", "41107", "=q1=Glyph of the Ascetic Crusader", "=ds="..GetSpellInfo(61177) };
+				{ 18, "s95825", "66918", "=q1=Glyph of the Long Word", "=ds="..GetSpellInfo(61177) };
+				{ 19, "s57036", "41102", "=q1=Glyph of Turn Evil", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Priest"] = {
+	AtlasLoot_Data["Inscription_PriestPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primepriest", "Prime Glyphs", "" };
 				{ 2, "s64280", "45753", "=q1=Glyph of Dispersion", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s57186", "42400", "=q1=Glyph of Flash Heal", "=ds="..AL["Trainer"] };
-				{ 3, "s64281", "45755", "=q1=Glyph of Guardian Spirit", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 18, "s57189", "42403", "=q1=Glyph of Lightwell", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s57200", "42415", "=q1=Glyph of Mind Flay", "=ds="..AL["Trainer"] };
-				{ 19, "s64282", "45756", "=q1=Glyph of Penance", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 5, "s57193", "42407", "=q1=Glyph of Power Word: Barrier", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s57194", "42408", "=q1=Glyph of Power Word: Shield", "=ds="..AL["Trainer"] };
-				{ 6, "s57195", "42409", "=q1=Glyph of Prayer of Healing", "=ds="..GetSpellInfo(61177) };
-				{ 21, "s57197", "42411", "=q1=Glyph of Renew", "=ds="..AL["Trainer"] };
-				{ 7, "s57199", "42414", "=q1=Glyph of Shadow Word: Death", "=ds="..GetSpellInfo(61177) };
-				{ 22, "s57192", "42406", "=q1=Glyph of Shadow Word: Pain", "=ds="..AL["Trainer"] };
+				{ 3, "s57186", "42400", "=q1=Glyph of Flash Heal", "=ds="..AL["Trainer"] };
+				{ 4, "s64281", "45755", "=q1=Glyph of Guardian Spirit", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 5, "s57189", "42403", "=q1=Glyph of Lightwell", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s57200", "42415", "=q1=Glyph of Mind Flay", "=ds="..AL["Trainer"] };
+				{ 7, "s64282", "45756", "=q1=Glyph of Penance", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 8, "s57193", "42407", "=q1=Glyph of Power Word: Barrier", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s57194", "42408", "=q1=Glyph of Power Word: Shield", "=ds="..AL["Trainer"] };
+				{ 10, "s57195", "42409", "=q1=Glyph of Prayer of Healing", "=ds="..GetSpellInfo(61177) };
+				{ 11, "s57197", "42411", "=q1=Glyph of Renew", "=ds="..AL["Trainer"] };
+				{ 12, "s57199", "42414", "=q1=Glyph of Shadow Word: Death", "=ds="..GetSpellInfo(61177) };
+				{ 13, "s57192", "42406", "=q1=Glyph of Shadow Word: Pain", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorpriest", "Minor Glyphs", "" };
+				{ 17, "s58317", "43342", "=q1=Glyph of Fading", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58318", "43371", "=q1=Glyph of Fortitude", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58319", "43370", "=q1=Glyph of Levitate", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s58320", "43373", "=q1=Glyph of Shackle Undead", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58321", "43372", "=q1=Glyph of Shadow Protection", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s58322", "43374", "=q1=Glyph of Shadowfiend", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_PriestMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majorpriest", "Major Glyphs", "" };
 				{ 2, "s57181", "42396", "=q1=Glyph of Circle of Healing", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s57183", "42397", "=q1=Glyph of Dispel Magic", "=ds="..AL["Trainer"] };
-				{ 3, "s64283", "45758", "=q1=Glyph of Divine Accuracy", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 18, "s57184", "42398", "=q1=Glyph of Fade", "=ds="..AL["Trainer"] };
-				{ 4, "s57185", "42399", "=q1=Glyph of Fear Ward", "=ds="..AL["Trainer"] };
-				{ 19, "s57187", "42401", "=q1=Glyph of Holy Nova", "=ds="..AL["Trainer"] };
-				{ 5, "s57188", "42402", "=q1=Glyph of Inner Fire", "=ds="..AL["Trainer"] };
-				{ 20, "s57190", "42404", "=q1=Glyph of Mass Dispel", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s64259", "45760", "=q1=Glyph of Pain Suppression", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 21, "s57191", "42405", "=q1=Glyph of Psychic Horror", "=ds="..GetSpellInfo(61177) };
-				{ 7, "s57196", "42410", "=q1=Glyph of Psychic Scream", "=ds="..AL["Trainer"] };
-				{ 22, "s57198", "42412", "=q1=Glyph of Scourge Imprisonment", "=ds="..AL["Trainer"] };
-				{ 8, "s57201", "42416", "=q1=Glyph of Smite", "=ds="..AL["Trainer"] };
-				{ 23, "s57202", "42417", "=q1=Glyph of Spirit of Redemption", "=ds="..GetSpellInfo(61177) };
-				{ 9, "s64309", "45757", "=q1=Glyph of Spirit Tap", "=ds="..AL["Book of Glyph Mastery"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorpriest", "Minor Glyphs", ""};
-				{ 2, "s58317", "43342", "=q1=Glyph of Fading", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58318", "43371", "=q1=Glyph of Fortitude", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58319", "43370", "=q1=Glyph of Levitate", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s58320", "43373", "=q1=Glyph of Shackle Undead", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s58321", "43372", "=q1=Glyph of Shadow Protection", "=ds="..GetSpellInfo(61288) };
-				{ 19, "s58322", "43374", "=q1=Glyph of Shadowfiend", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s57183", "42397", "=q1=Glyph of Dispel Magic", "=ds="..AL["Trainer"] };
+				{ 4, "s64283", "45758", "=q1=Glyph of Divine Accuracy", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 5, "s57184", "42398", "=q1=Glyph of Fade", "=ds="..AL["Trainer"] };
+				{ 6, "s57185", "42399", "=q1=Glyph of Fear Ward", "=ds="..AL["Trainer"] };
+				{ 7, "s57187", "42401", "=q1=Glyph of Holy Nova", "=ds="..AL["Trainer"] };
+				{ 8, "s57188", "42402", "=q1=Glyph of Inner Fire", "=ds="..AL["Trainer"] };
+				{ 9, "s57190", "42404", "=q1=Glyph of Mass Dispel", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s64259", "45760", "=q1=Glyph of Pain Suppression", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 11, "s57191", "42405", "=q1=Glyph of Psychic Horror", "=ds="..GetSpellInfo(61177) };
+				{ 12, "s57196", "42410", "=q1=Glyph of Psychic Scream", "=ds="..AL["Trainer"] };
+				{ 13, "s57198", "42412", "=q1=Glyph of Scourge Imprisonment", "=ds="..AL["Trainer"] };
+				{ 14, "s57201", "42416", "=q1=Glyph of Smite", "=ds="..AL["Trainer"] };
+				{ 15, "s57202", "42417", "=q1=Glyph of Spirit of Redemption", "=ds="..GetSpellInfo(61177) };
+				{ 16, "s64309", "45757", "=q1=Glyph of Spirit Tap", "=ds="..AL["Book of Glyph Mastery"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Rogue"] = {
+	AtlasLoot_Data["Inscription_RoguePrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primerogue", "Prime Glyphs", "" };
 				{ 2, "s57112", "42954", "=q1=Glyph of Adrenaline Rush", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s57114", "42956", "=q1=Glyph of Backstab", "=ds="..AL["Trainer"] };
-				{ 3, "s57120", "42961", "=q1=Glyph of Eviscerate", "=ds="..AL["Trainer"] };
-				{ 18, "s57126", "42967", "=q1=Glyph of Hemorrhage", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s64285", "45762", "=q1=Glyph of Killing Spree", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 19, "s64260", "45768", "=q1=Glyph of Mutilate", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 5, "s57124", "42965", "=q1=Glyph of Revealing Strike", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s57128", "42969", "=q1=Glyph of Rupture", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s64286", "45764", "=q1=Glyph of Shadow Dance", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 21, "s57131", "42972", "=q1=Glyph of Sinister Strike", "=ds="..AL["Trainer"] };
-				{ 7, "s57132", "42973", "=q1=Glyph of Slice and Dice", "=ds="..AL["Trainer"] };
-				{ 22, "s64284", "45761", "=q1=Glyph of Vendetta", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 3, "s57114", "42956", "=q1=Glyph of Backstab", "=ds="..AL["Trainer"] };
+				{ 4, "s57120", "42961", "=q1=Glyph of Eviscerate", "=ds="..AL["Trainer"] };
+				{ 5, "s57126", "42967", "=q1=Glyph of Hemorrhage", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s64285", "45762", "=q1=Glyph of Killing Spree", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 7, "s64260", "45768", "=q1=Glyph of Mutilate", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 8, "s57124", "42965", "=q1=Glyph of Revealing Strike", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s57128", "42969", "=q1=Glyph of Rupture", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s64286", "45764", "=q1=Glyph of Shadow Dance", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 11, "s57131", "42972", "=q1=Glyph of Sinister Strike", "=ds="..AL["Trainer"] };
+				{ 12, "s57132", "42973", "=q1=Glyph of Slice and Dice", "=ds="..AL["Trainer"] };
+				{ 13, "s64284", "45761", "=q1=Glyph of Vendetta", "=ds="..AL["Book of Glyph Mastery"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorrogue", "Minor Glyphs", "" };
+				{ 17, "s58323", "43379", "=q1=Glyph of Blurred Speed", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58324", "43376", "=q1=Glyph of Distract", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58325", "43377", "=q1=Glyph of Pick Lock", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s58326", "43343", "=q1=Glyph of Pick Pocket", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58328", "43380", "=q1=Glyph of Poisons", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s58327", "43378", "=q1=Glyph of Safe Fall", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_RogueMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majorrogue", "Major Glyphs", "" };
 				{ 2, "s57113", "42955", "=q1=Glyph of Ambush", "=ds="..AL["Trainer"] };
-				{ 17, "s57115", "42957", "=q1=Glyph of Blade Flurry", "=ds="..GetSpellInfo(61177) };
-				{ 3, "s92579", "64493", "=q1=Glyph of Blind", "=ds="..AL["Trainer"] };
-				{ 18, "s64303", "45769", "=q1=Glyph of Cloak of Shadows", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 4, "s57116", "42958", "=q1=Glyph of Crippling Poison", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s57117", "42959", "=q1=Glyph of Deadly Throw", "=ds="..GetSpellInfo(61177) };
-				{ 5, "s57119", "42960", "=q1=Glyph of Evasion", "=ds="..AL["Trainer"] };
-				{ 20, "s57121", "42962", "=q1=Glyph of Expose Armor", "=ds="..AL["Trainer"] };
-				{ 6, "s64315", "45766", "=q1=Glyph of Fan of Knives", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 21, "s57122", "42963", "=q1=Glyph of Feint", "=ds="..AL["Trainer"] };
-				{ 7, "s57123", "42964", "=q1=Glyph of Garrote", "=ds="..AL["Trainer"] };
-				{ 22, "s57125", "42966", "=q1=Glyph of Gouge", "=ds="..AL["Trainer"] };
-				{ 8, "s57130", "42971", "=q1=Glyph of Kick", "=ds="..GetSpellInfo(61177) };
-				{ 23, "s57127", "42968", "=q1=Glyph of Preparation", "=ds="..GetSpellInfo(61177) };
-				{ 9, "s57129", "42970", "=q1=Glyph of Sap", "=ds="..AL["Trainer"] };
-				{ 24, "s57133", "42974", "=q1=Glyph of Sprint", "=ds="..AL["Trainer"] };
-				{ 10, "s64310", "45767", "=q1=Glyph of Tricks of the Trade", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 25, "s94711", "63420", "=q1=Glyph of Vanish", "=ds="..AL["Book of Glyph Mastery"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorrogue", "Minor Glyphs", ""};
-				{ 2, "s58323", "43379", "=q1=Glyph of Blurred Speed", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58324", "43376", "=q1=Glyph of Distract", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58325", "43377", "=q1=Glyph of Pick Lock", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s58326", "43343", "=q1=Glyph of Pick Pocket", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s58328", "43380", "=q1=Glyph of Poisons", "=ds="..GetSpellInfo(61288) };
-				{ 19, "s58327", "43378", "=q1=Glyph of Safe Fall", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s57115", "42957", "=q1=Glyph of Blade Flurry", "=ds="..GetSpellInfo(61177) };
+				{ 4, "s92579", "64493", "=q1=Glyph of Blind", "=ds="..AL["Trainer"] };
+				{ 5, "s64303", "45769", "=q1=Glyph of Cloak of Shadows", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 6, "s57116", "42958", "=q1=Glyph of Crippling Poison", "=ds="..GetSpellInfo(61177) };
+				{ 7, "s57117", "42959", "=q1=Glyph of Deadly Throw", "=ds="..GetSpellInfo(61177) };
+				{ 8, "s57119", "42960", "=q1=Glyph of Evasion", "=ds="..AL["Trainer"] };
+				{ 9, "s57121", "42962", "=q1=Glyph of Expose Armor", "=ds="..AL["Trainer"] };
+				{ 10, "s64315", "45766", "=q1=Glyph of Fan of Knives", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 11, "s57122", "42963", "=q1=Glyph of Feint", "=ds="..AL["Trainer"] };
+				{ 12, "s57123", "42964", "=q1=Glyph of Garrote", "=ds="..AL["Trainer"] };
+				{ 13, "s57125", "42966", "=q1=Glyph of Gouge", "=ds="..AL["Trainer"] };
+				{ 14, "s57130", "42971", "=q1=Glyph of Kick", "=ds="..GetSpellInfo(61177) };
+				{ 15, "s57127", "42968", "=q1=Glyph of Preparation", "=ds="..GetSpellInfo(61177) };
+				{ 16, "s57129", "42970", "=q1=Glyph of Sap", "=ds="..AL["Trainer"] };
+				{ 17, "s57133", "42974", "=q1=Glyph of Sprint", "=ds="..AL["Trainer"] };
+				{ 18, "s64310", "45767", "=q1=Glyph of Tricks of the Trade", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 19, "s94711", "63420", "=q1=Glyph of Vanish", "=ds="..AL["Book of Glyph Mastery"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Shaman"] = {
+	AtlasLoot_Data["Inscription_ShamanPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primeshaman", "Prime Glyphs", "" };
 				{ 2, "s64261", "45775", "=q1=Glyph of Earth Shield", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 17, "s57236", "41527", "=q1=Glyph of Earthliving Weapon", "=ds="..AL["Trainer"] };
-				{ 3, "s64288", "45771", "=q1=Glyph of Feral Spirit", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 18, "s57237", "41529", "=q1=Glyph of Fire Elemental Totem", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s57239", "41531", "=q1=Glyph of Flame Shock", "=ds="..AL["Trainer"] };
-				{ 19, "s57240", "41532", "=q1=Glyph of Flametongue Weapon", "=ds="..AL["Trainer"] };
-				{ 5, "s57234", "41524", "=q1=Glyph of Lava Burst", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s57249", "41540", "=q1=Glyph of Lava Lash", "=ds="..AL["Trainer"] };
-				{ 6, "s57245", "41536", "=q1=Glyph of Lightning Bolt", "=ds="..AL["Trainer"] };
-				{ 21, "s64289", "45772", "=q1=Glyph of Riptide", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 7, "s57235", "41526", "=q1=Glyph of Shocking", "=ds="..GetSpellInfo(61177) };
-				{ 22, "s57248", "41539", "=q1=Glyph of Stormstrike", "=ds="..AL["Trainer"] };
-				{ 8, "s57251", "41541", "=q1=Glyph of Water Shield", "=ds="..AL["Trainer"] };
-				{ 23, "s57252", "41542", "=q1=Glyph of Windfury Weapon", "=ds="..AL["Trainer"] };
+				{ 3, "s57236", "41527", "=q1=Glyph of Earthliving Weapon", "=ds="..AL["Trainer"] };
+				{ 4, "s64288", "45771", "=q1=Glyph of Feral Spirit", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 5, "s57237", "41529", "=q1=Glyph of Fire Elemental Totem", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s57239", "41531", "=q1=Glyph of Flame Shock", "=ds="..AL["Trainer"] };
+				{ 7, "s57240", "41532", "=q1=Glyph of Flametongue Weapon", "=ds="..AL["Trainer"] };
+				{ 8, "s57234", "41524", "=q1=Glyph of Lava Burst", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s57249", "41540", "=q1=Glyph of Lava Lash", "=ds="..AL["Trainer"] };
+				{ 10, "s57245", "41536", "=q1=Glyph of Lightning Bolt", "=ds="..AL["Trainer"] };
+				{ 11, "s64289", "45772", "=q1=Glyph of Riptide", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 12, "s57235", "41526", "=q1=Glyph of Shocking", "=ds="..GetSpellInfo(61177) };
+				{ 13, "s57248", "41539", "=q1=Glyph of Stormstrike", "=ds="..AL["Trainer"] };
+				{ 14, "s57251", "41541", "=q1=Glyph of Water Shield", "=ds="..AL["Trainer"] };
+				{ 15, "s57252", "41542", "=q1=Glyph of Windfury Weapon", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorshaman", "Minor Glyphs", "" };
+				{ 17, "s58329", "43381", "=q1=Glyph of Astral Recall", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58330", "43385", "=q1=Glyph of Renewed Life", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58332", "43386", "=q1=Glyph of the Arctic Wolf", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s57253", "44923", "=q1=Glyph of Thunderstorm", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58331", "43344", "=q1=Glyph of Water Breathing", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s58333", "43388", "=q1=Glyph of Water Walking", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_ShamanMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majorshaman", "Major Glyphs", "" };
 				{ 2, "s57232", "41517", "=q1=Glyph of Chain Heal", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s57233", "41518", "=q1=Glyph of Chain Lightning", "=ds="..GetSpellInfo(61177) };
-				{ 3, "s57250", "41552", "=q1=Glyph of Elemental Mastery", "=ds="..GetSpellInfo(61177) };
-				{ 18, "s57238", "41530", "=q1=Glyph of Fire Nova", "=ds="..AL["Trainer"] };
-				{ 4, "s57241", "41547", "=q1=Glyph of Frost Shock", "=ds="..AL["Trainer"] };
-				{ 19, "s59326", "43725", "=q1=Glyph of Ghost Wolf", "=ds="..GetSpellInfo(61288) };
-				{ 5, "s57247", "41538", "=q1=Glyph of Grounding Totem", "=ds="..GetSpellInfo(61288) };
-				{ 20, "s57242", "41533", "=q1=Glyph of Healing Stream Totem", "=ds="..AL["Trainer"] };
-				{ 6, "s57243", "41534", "=q1=Glyph of Healing Wave", "=ds="..GetSpellInfo(61177) };
-				{ 21, "s64316", "45777", "=q1=Glyph of Hex", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 7, "s57246", "41537", "=q1=Glyph of Lightning Shield", "=ds="..AL["Trainer"] };
-				{ 22, "s64262", "45776", "=q1=Glyph of Shamanistic Rage", "=ds="..AL["Trainer"] };
-				{ 8, "s64247", "45778", "=q1=Glyph of Stoneclaw Totem", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 23, "s64287", "45770", "=q1=Glyph of Thunder", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 9, "s57244", "41535", "=q1=Glyph of Totemic Recall", "=ds="..AL["Trainer"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorshaman", "Minor Glyphs", "" };
-				{ 2, "s58329", "43381", "=q1=Glyph of Astral Recall", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58330", "43385", "=q1=Glyph of Renewed Life", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58332", "43386", "=q1=Glyph of the Arctic Wolf", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s57253", "44923", "=q1=Glyph of Thunderstorm", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s58331", "43344", "=q1=Glyph of Water Breathing", "=ds="..GetSpellInfo(61288) };
-				{ 19, "s58333", "43388", "=q1=Glyph of Water Walking", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s57233", "41518", "=q1=Glyph of Chain Lightning", "=ds="..GetSpellInfo(61177) };
+				{ 4, "s57250", "41552", "=q1=Glyph of Elemental Mastery", "=ds="..GetSpellInfo(61177) };
+				{ 5, "s57238", "41530", "=q1=Glyph of Fire Nova", "=ds="..AL["Trainer"] };
+				{ 6, "s57241", "41547", "=q1=Glyph of Frost Shock", "=ds="..AL["Trainer"] };
+				{ 7, "s59326", "43725", "=q1=Glyph of Ghost Wolf", "=ds="..GetSpellInfo(61288) };
+				{ 8, "s57247", "41538", "=q1=Glyph of Grounding Totem", "=ds="..GetSpellInfo(61288) };
+				{ 9, "s57242", "41533", "=q1=Glyph of Healing Stream Totem", "=ds="..AL["Trainer"] };
+				{ 10, "s57243", "41534", "=q1=Glyph of Healing Wave", "=ds="..GetSpellInfo(61177) };
+				{ 11, "s64316", "45777", "=q1=Glyph of Hex", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 12, "s57246", "41537", "=q1=Glyph of Lightning Shield", "=ds="..AL["Trainer"] };
+				{ 13, "s64262", "45776", "=q1=Glyph of Shamanistic Rage", "=ds="..AL["Trainer"] };
+				{ 14, "s64247", "45778", "=q1=Glyph of Stoneclaw Totem", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 15, "s64287", "45770", "=q1=Glyph of Thunder", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 16, "s57244", "41535", "=q1=Glyph of Totemic Recall", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Warlock"] = {
+	AtlasLoot_Data["Inscription_WarlockPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primewarlock", "Prime Glyphs", "" };
 				{ 2, "s57260", "42456", "=q1=Glyph of Bane of Agony", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s64294", "45781", "=q1=Glyph of Chaos Bolt", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 3, "s57258", "42454", "=q1=Glyph of Conflagrate", "=ds="..GetSpellInfo(61177) };
-				{ 18, "s57259", "42455", "=q1=Glyph of Corruption", "=ds="..AL["Trainer"] };
-				{ 4, "s57263", "42459", "=q1=Glyph of Felguard", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s64291", "45779", "=q1=Glyph of Haunt", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 5, "s57268", "42464", "=q1=Glyph of Immolate", "=ds="..GetSpellInfo(61177) };
-				{ 20, "s57269", "42465", "=q1=Glyph of Imp", "=ds="..AL["Trainer"] };
-				{ 6, "s57257", "42453", "=q1=Glyph of Incinerate", "=ds="..AL["Trainer"] };
-				{ 21, "s71102", "50077", "=q1=Glyph of Lash of Pain", "=ds="..AL["Vendor"] };
-				{ 7, "s64318", "45780", "=q1=Glyph of Metamorphosis", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 22, "s57272", "42468", "=q1=Glyph of Shadowburn", "=ds="..AL["Trainer"] };
-				{ 8, "s57276", "42472", "=q1=Glyph of Unstable Affliction", "=ds="..GetSpellInfo(61177) };
+				{ 3, "s64294", "45781", "=q1=Glyph of Chaos Bolt", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 4, "s57258", "42454", "=q1=Glyph of Conflagrate", "=ds="..GetSpellInfo(61177) };
+				{ 5, "s57259", "42455", "=q1=Glyph of Corruption", "=ds="..AL["Trainer"] };
+				{ 6, "s57263", "42459", "=q1=Glyph of Felguard", "=ds="..GetSpellInfo(61177) };
+				{ 7, "s64291", "45779", "=q1=Glyph of Haunt", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 8, "s57268", "42464", "=q1=Glyph of Immolate", "=ds="..GetSpellInfo(61177) };
+				{ 9, "s57269", "42465", "=q1=Glyph of Imp", "=ds="..AL["Trainer"] };
+				{ 10, "s57257", "42453", "=q1=Glyph of Incinerate", "=ds="..AL["Trainer"] };
+				{ 11, "s71102", "50077", "=q1=Glyph of Lash of Pain", "=ds="..AL["Vendor"] };
+				{ 12, "s64318", "45780", "=q1=Glyph of Metamorphosis", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 13, "s57272", "42468", "=q1=Glyph of Shadowburn", "=ds="..AL["Trainer"] };
+				{ 14, "s57276", "42472", "=q1=Glyph of Unstable Affliction", "=ds="..GetSpellInfo(61177) };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorwarlock", "Minor Glyphs", "" };
+				{ 17, "s58338", "43392", "=q1=Glyph of Curse of Exhaustion", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58337", "43390", "=q1=Glyph of Drain Soul", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s58339", "43393", "=q1=Glyph of Enslave Demon", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s58340", "43391", "=q1=Glyph of Eye of Kilrogg", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s57265", "42461", "=q1=Glyph of Health Funnel", "=ds="..AL["Trainer"] };
+				{ 22, "s58341", "43394", "=q1=Glyph of Ritual of Souls", "=ds="..GetSpellInfo(61288) };
+				{ 23, "s58336", "43389", "=q1=Glyph of Unending Breath", "=ds="..GetSpellInfo(61288) };
 			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_WarlockMajor"] = {
+		["Normal"] = {
 			{ -- Major Glyphs
 				{ 1, 0, "inv_glyph_majorwarlock", "Major Glyphs", "" };
 				{ 2, "s57261", "42457", "=q1=Glyph of Death Coil", "=ds="..GetSpellInfo(61177) };
-				{ 17, "s64317", "45782", "=q1=Glyph of Demonic Circle", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 3, "s57262", "42458", "=q1=Glyph of Fear", "=ds="..AL["Trainer"] };
-				{ 18, "s57264", "42460", "=q1=Glyph of Felhunter", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s57266", "42462", "=q1=Glyph of Healthstone", "=ds="..AL["Trainer"] };
-				{ 19, "s57267", "42463", "=q1=Glyph of Howl of Terror", "=ds="..GetSpellInfo(61177) };
-				{ 5, "s64248", "45785", "=q1=Glyph of Life Tap", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 20, "s57275", "42471", "=q1=Glyph of Seduction", "=ds="..AL["Trainer"] };
-				{ 6, "s57271", "42467", "=q1=Glyph of Shadow Bolt", "=ds="..AL["Trainer"] };
-				{ 21, "s64311", "45783", "=q1=Glyph of Shadowflame", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 7, "s64250", "45789", "=q1=Glyph of Soul Link", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 22, "s57270", "42466", "=q1=Glyph of Soul Swap", "=ds="..AL["Trainer"] };
-				{ 8, "s57274", "42470", "=q1=Glyph of Soulstone", "=ds="..AL["Trainer"] };
-				{ 23, "s57277", "42473", "=q1=Glyph of Voidwalker", "=ds="..AL["Trainer"] };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorwarlock", "Minor Glyphs", "" };
-				{ 2, "s58338", "43392", "=q1=Glyph of Curse of Exhaustion", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58337", "43390", "=q1=Glyph of Drain Soul", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s58339", "43393", "=q1=Glyph of Enslave Demon", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s58340", "43391", "=q1=Glyph of Eye of Kilrogg", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s57265", "42461", "=q1=Glyph of Health Funnel", "=ds="..AL["Trainer"] };
-				{ 19, "s58341", "43394", "=q1=Glyph of Ritual of Souls", "=ds="..GetSpellInfo(61288) };
-				{ 5, "s58336", "43389", "=q1=Glyph of Unending Breath", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s64317", "45782", "=q1=Glyph of Demonic Circle", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 4, "s57262", "42458", "=q1=Glyph of Fear", "=ds="..AL["Trainer"] };
+				{ 5, "s57264", "42460", "=q1=Glyph of Felhunter", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s57266", "42462", "=q1=Glyph of Healthstone", "=ds="..AL["Trainer"] };
+				{ 7, "s57267", "42463", "=q1=Glyph of Howl of Terror", "=ds="..GetSpellInfo(61177) };
+				{ 8, "s64248", "45785", "=q1=Glyph of Life Tap", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 9, "s57275", "42471", "=q1=Glyph of Seduction", "=ds="..AL["Trainer"] };
+				{ 10, "s57271", "42467", "=q1=Glyph of Shadow Bolt", "=ds="..AL["Trainer"] };
+				{ 11, "s64311", "45783", "=q1=Glyph of Shadowflame", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 12, "s64250", "45789", "=q1=Glyph of Soul Link", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 13, "s57270", "42466", "=q1=Glyph of Soul Swap", "=ds="..AL["Trainer"] };
+				{ 14, "s57274", "42470", "=q1=Glyph of Soulstone", "=ds="..AL["Trainer"] };
+				{ 15, "s57277", "42473", "=q1=Glyph of Voidwalker", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
 
-	AtlasLoot_Data["Inscription_Warrior"] = {
+	AtlasLoot_Data["Inscription_WarriorPrimeMinor"] = {
 		["Normal"] = {
-			{ -- Prime Glyphs
+			{
+				-- Prime Glyphs
 				{ 1, 0, "inv_glyph_primewarrior", "Prime Glyphs", "" };
 				{ 2, "s64295", "45790", "=q1=Glyph of Bladestorm", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 17, "s57156", "43416", "=q1=Glyph of Bloodthirst", "=ds="..AL["Trainer"] };
-				{ 3, "s57155", "43415", "=q1=Glyph of Devastate", "=ds="..GetSpellInfo(61177) };
-				{ 18, "s57160", "43421", "=q1=Glyph of Mortal Strike", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s57161", "43422", "=q1=Glyph of Overpower", "=ds="..AL["Trainer"] };
-				{ 19, "s57172", "43432", "=q1=Glyph of Raging Blow", "=ds="..AL["Trainer"] };
-				{ 5, "s57165", "43424", "=q1=Glyph of Revenge", "=ds="..AL["Trainer"] };
-				{ 20, "s57152", "43425", "=q1=Glyph of Shield Slam", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s57163", "43423", "=q1=Glyph of Slam", "=ds="..AL["Trainer"] };
-			};
-			{ -- Major Glyphs
-				{ 1, 0, "inv_glyph_majorwarrior", "Major Glyphs", "" };
-				{ 2, "s57154", "43414", "=q1=Glyph of Cleaving", "=ds="..AL["Trainer"] };
-				{ 17, "s89815", "63481", "=q1=Glyph of Colossus Smash", "=ds="..AL["Trainer"] };
-				{ 3, "s57158", "43418", "=q1=Glyph of Heroic Throw", "=ds="..AL["Trainer"] };
-				{ 18, "s94406", "67482", "=q1=Glyph of Intercept", "=ds="..GetSpellInfo(61177) };
-				{ 4, "s57159", "43419", "=q1=Glyph of Intervene", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s57157", "43417", "=q1=Glyph of Piercing Howl", "=ds="..AL["Trainer"] };
-				{ 5, "s57162", "43413", "=q1=Glyph of Rapid Charge", "=ds="..AL["Trainer"] };
-				{ 20, "s57164", "43430", "=q1=Glyph of Resonating Power", "=ds="..GetSpellInfo(61177) };
-				{ 6, "s64252", "45797", "=q1=Glyph of Shield Wall", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 21, "s64296", "45792", "=q1=Glyph of Shockwave", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 7, "s64302", "45795", "=q1=Glyph of Spell Reflection", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 22, "s57167", "43427", "=q1=Glyph of Sunder Armor", "=ds="..AL["Trainer"] };
-				{ 8, "s57168", "43428", "=q1=Glyph of Sweeping Strikes", "=ds="..AL["Trainer"] };
-				{ 23, "s57170", "43431", "=q1=Glyph of Victory Rush", "=ds="..GetSpellInfo(61177) };
-			};
-			{ -- Minor Glyphs
-				{ 1, 0, "inv_glyph_minorwarrior", "Minor Glyphs", ""};
-				{ 2, "s58342", "43395", "=q1=Glyph of Battle", "=ds="..GetSpellInfo(61288) };
-				{ 17, "s58343", "43396", "=q1=Glyph of Berserker Rage", "=ds="..GetSpellInfo(61288) };
-				{ 3, "s57153", "43412", "=q1=Glyph of Bloody Healing", "=ds="..GetSpellInfo(61288) };
-				{ 18, "s68166", "49084", "=q1=Glyph of Command", "=ds="..GetSpellInfo(61288) };
-				{ 4, "s94405", "67483", "=q1=Glyph of Death Wish", "=ds="..AL["Trainer"] };
-				{ 19, "s58345", "43398", "=q1=Glyph of Demoralizing Shout", "=ds="..GetSpellInfo(61288) };
-				{ 5, "s58347", "43400", "=q1=Glyph of Enduring Victory", "=ds="..GetSpellInfo(61288) };
-				{ 20, "s64255", "45793", "=q1=Glyph of Furious Sundering", "=ds="..GetSpellInfo(61288) };
-				{ 6, "s64312", "45794", "=q1=Glyph of Intimidating Shout", "=ds="..GetSpellInfo(61288) };
-				{ 21, "s58344", "43397", "=q1=Glyph of Long Charge", "=ds="..GetSpellInfo(61288) };
-				{ 7, "s58346", "43399", "=q1=Glyph of Thunder Clap", "=ds="..GetSpellInfo(61288) };
+				{ 3, "s57156", "43416", "=q1=Glyph of Bloodthirst", "=ds="..AL["Trainer"] };
+				{ 4, "s57155", "43415", "=q1=Glyph of Devastate", "=ds="..GetSpellInfo(61177) };
+				{ 5, "s57160", "43421", "=q1=Glyph of Mortal Strike", "=ds="..GetSpellInfo(61177) };
+				{ 6, "s57161", "43422", "=q1=Glyph of Overpower", "=ds="..AL["Trainer"] };
+				{ 7, "s57172", "43432", "=q1=Glyph of Raging Blow", "=ds="..AL["Trainer"] };
+				{ 8, "s57165", "43424", "=q1=Glyph of Revenge", "=ds="..AL["Trainer"] };
+				{ 9, "s57152", "43425", "=q1=Glyph of Shield Slam", "=ds="..GetSpellInfo(61177) };
+				{ 10, "s57163", "43423", "=q1=Glyph of Slam", "=ds="..AL["Trainer"] };
+				-- Minor Glyphs
+				{ 16, 0, "inv_glyph_minorwarrior", "Minor Glyphs", ""};
+				{ 17, "s58342", "43395", "=q1=Glyph of Battle", "=ds="..GetSpellInfo(61288) };
+				{ 18, "s58343", "43396", "=q1=Glyph of Berserker Rage", "=ds="..GetSpellInfo(61288) };
+				{ 19, "s57153", "43412", "=q1=Glyph of Bloody Healing", "=ds="..GetSpellInfo(61288) };
+				{ 20, "s68166", "49084", "=q1=Glyph of Command", "=ds="..GetSpellInfo(61288) };
+				{ 21, "s58345", "43398", "=q1=Glyph of Demoralizing Shout", "=ds="..GetSpellInfo(61288) };
+				{ 22, "s58347", "43400", "=q1=Glyph of Enduring Victory", "=ds="..GetSpellInfo(61288) };
+				{ 23, "s64255", "45793", "=q1=Glyph of Furious Sundering", "=ds="..GetSpellInfo(61288) };
+				{ 24, "s64312", "45794", "=q1=Glyph of Intimidating Shout", "=ds="..GetSpellInfo(61288) };
+				{ 25, "s58344", "43397", "=q1=Glyph of Long Charge", "=ds="..GetSpellInfo(61288) };
+				{ 26, "s58346", "43399", "=q1=Glyph of Thunder Clap", "=ds="..GetSpellInfo(61288) };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Prime Glyph"]..", "..AL["Minor Glyph"],
+			module = moduleName, menu = "INSCRIPTIONMENU"
+		};
+	};
+	
+	AtlasLoot_Data["Inscription_WarriorMajor"] = {
+		["Normal"] = {
+			{ -- Major Glyphs
+				{ 1, 0, "inv_glyph_majorwarrior", "Major Glyphs", "" };
+				{ 2, "s57154", "43414", "=q1=Glyph of Cleaving", "=ds="..AL["Trainer"] };
+				{ 3, "s89815", "63481", "=q1=Glyph of Colossus Smash", "=ds="..AL["Trainer"] };
+				{ 4, "s94405", "67483", "=q1=Glyph of Death Wish", "=ds="..AL["Trainer"] };
+				{ 5, "s57158", "43418", "=q1=Glyph of Heroic Throw", "=ds="..AL["Trainer"] };
+				{ 6, "s94406", "67482", "=q1=Glyph of Intercept", "=ds="..GetSpellInfo(61177) };
+				{ 7, "s57159", "43419", "=q1=Glyph of Intervene", "=ds="..GetSpellInfo(61177) };
+				{ 8, "s57157", "43417", "=q1=Glyph of Piercing Howl", "=ds="..AL["Trainer"] };
+				{ 9, "s57162", "43413", "=q1=Glyph of Rapid Charge", "=ds="..AL["Trainer"] };
+				{ 10, "s57164", "43430", "=q1=Glyph of Resonating Power", "=ds="..GetSpellInfo(61177) };
+				{ 11, "s64252", "45797", "=q1=Glyph of Shield Wall", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 12, "s64296", "45792", "=q1=Glyph of Shockwave", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 13, "s64302", "45795", "=q1=Glyph of Spell Reflection", "=ds="..AL["Book of Glyph Mastery"]};
+				{ 14, "s57167", "43427", "=q1=Glyph of Sunder Armor", "=ds="..AL["Trainer"] };
+				{ 15, "s57168", "43428", "=q1=Glyph of Sweeping Strikes", "=ds="..AL["Trainer"] };
+				{ 16, "s57170", "43431", "=q1=Glyph of Victory Rush", "=ds="..GetSpellInfo(61177) };
+			};
+		};
+		info = {
+			name = INSCRIPTION..": "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Major Glyph"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
