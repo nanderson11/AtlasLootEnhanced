@@ -3381,7 +3381,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Inscription_OffHand"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Off-Hand Items"], "" };
 				{ 2, "s86643", "62236", "=q3=Battle Tome", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
 				{ 3, "s86642", "62235", "=q3=Divine Companion", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
 				{ 4, "s86641", "62234", "=q3=Dungeoneering Guide", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
@@ -3402,7 +3401,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 24, "s59478", "43655", "=q3=Book of Survival", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
 				{ 25, "s59475", "43654", "=q3=Tome of the Dawn", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
 				{ 26, "s58565", "43515", "=q3=Mystic Tome", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
-				
 			};
 		};
 		info = {
@@ -3421,7 +3419,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 17, "s86649", "62242", "=q3=Runed Dragonscale", "=ds=#sr# 505", "=ds="..AL["Trainer"] };
 				{ 18, "s86647", "62240", "=q3=Etched Horn", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
 				{ 19, "s86648", "62241", "=q3=Manual of the Planes", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Shoulder Enchants"], "" };
 				{ 7, "s86403", "INV_Misc_MastersInscription", "=ds=Felfire Inscription", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
 				{ 8, "s86402", "INV_Misc_MastersInscription", "=ds=Inscription of the Earthen Prince", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
@@ -3519,7 +3516,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Inscription_Misc"] = {
 		["Normal"] = {
 			{
-				
 				{ 1, "s86654", "63276", "=q1=Forged Documents", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
 				{ 2, "s86646", "65651", "=q1=Origami Beetle", "=ds=#sr# 500", "=ds="..AL["World Drop"] };
 				{ 3, "s86645", "65650", "=q1=Origami Rock", "=ds=#sr# 490", "=ds="..AL["World Drop"] };
@@ -3629,7 +3625,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 12, "s58286", "43316", "=q1=Glyph of Aquatic Form", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 13, "s58287", "43334", "=q1=Glyph of Challenging Roar", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 14, "s59315", "43674", "=q1=Glyph of Dash", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
-				{ 15, "s58296", "43335", "=q1=Glyph of the Wild", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 15, "s58296", "43335", "=q1=Glyph of Mark of the Wild", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 27, "s95215", "68039", "=q1=Glyph of the Treant", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 28, "s56965", "44922", "=q1=Glyph of Typhoon", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 29, "s58288", "43331", "=q1=Glyph of Unburdened Rebirth", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
@@ -3675,7 +3671,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 18, "s57008", "42911", "=q1=Glyph of Rapid Fire", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
 				{ 19, "s57009", "42912", "=q1=Glyph of Serpent Sting", "=ds=#sr# 90", "=ds="..AL["Trainer"] };
 				{ 20, "s57011", "42914", "=q1=Glyph of Steady Shot", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
-				{ 21, "s57006", "42909", "=q1=Glyph of Dazzled Prey", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 21, "s57006", "42909", "=q1=Glyph of the Dazzled Prey", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
 				{ 8, 0, "INV_Box_01", "=q6="..AL["Minor Glyph"], "" };
 				{ 9, "s58297", "43355", "=q1=Glyph of Aspect of the Pack", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 10, "s58302", "43351", "=q1=Glyph of Feign Death", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
@@ -3685,7 +3681,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Major Glyph"], "" };
-				{ 2, "s56999", "42902", "=q1=Glyph of Beastial Wrath", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 2, "s56999", "42902", "=q1=Glyph of Bestial Wrath", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 3, "s56998", "42901", "=q1=Glyph of Concussive Shot", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 4, "s57000", "42903", "=q1=Glyph of Deterrence", "=ds=#sr# 200", "=ds="..AL["Trainer"] };
 				{ 5, "s57001", "42904", "=q1=Glyph of Disengage", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
@@ -3770,7 +3766,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, "s57030", "41092", "=q1=Glyph of Judgement", "=ds=#sr# 120", "=ds="..AL["Trainer"] };
 				{ 17, "s57034", "41110", "=q1=Glyph of Seal of Insight", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 18, "s59561", "43869", "=q1=Glyph of Seal of Truth", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s64308", "45744", "=q1=Glyph of Shield of Righteousness", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 19, "s64308", "45744", "=q1=Glyph of Shield of Righteous", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 				{ 20, "s64279", "45743", "=q1=Glyph of Templar's Verdict", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"]};
 				{ 21, "s57026", "41105", "=q1=Glyph of Word of Glory", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 				{ 9, 0, "INV_Box_01", "=q6="..AL["Minor Glyph"], "" };
