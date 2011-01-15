@@ -3381,21 +3381,28 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Inscription_OffHand"] = {
 		["Normal"] = {
 			{
-				{ 1, "s59498", "44210", "=q4=Faces of Doom", "=ds=" };
-				{ 2, "s59497", "38322", "=q4=Iron-bound Tome", "=ds=" };
-				{ 3, "s64051", "45854", "=q3=Rituals of the New Moon", "=ds="};
-				{ 4, "s64053", "45849", "=q3=Twilight Tome", "=ds="};
-				{ 5, "s59496", "43667", "=q3=Book of Clever Tricks", "=ds=" };
-				{ 6, "s59495", "43666", "=q3=Hellfire Tome", "=ds=" };
-				{ 7, "s59494", "43664", "=q3=Manual of Clouds", "=ds=" };
-				{ 8, "s59493", "43663", "=q3=Stormbound Tome", "=ds=" };
-				{ 9, "s59490", "43661", "=q3=Book of Stars", "=ds=" };
-				{ 10, "s59489", "43660", "=q3=Fire Eater's Guide", "=ds=" };
-				{ 11, "s59486", "43657", "=q3=Royal Guide of Escape Routes", "=ds=" };
-				{ 12, "s59484", "43656", "=q3=Tome of Kings", "=ds=" };
-				{ 13, "s59478", "43655", "=q3=Book of Survival", "=ds=" };
-				{ 14, "s59475", "43654", "=q3=Tome of the Dawn", "=ds=" };
-				{ 15, "s58565", "43515", "=q3=Mystic Tome", "=ds="..AL["Trainer"] };
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Off-Hand Items"], "" };
+				{ 2, "s86643", "62236", "=q3=Battle Tome", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 3, "s86642", "62235", "=q3=Divine Companion", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 4, "s86641", "62234", "=q3=Dungeoneering Guide", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 5, "s86616", "62231", "=q3=Book of Blood", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 6, "s86640", "62233", "=q3=Lord Rottington's Pressed Wisp Book", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 7, "s59498", "44210", "=q4=Faces of Doom", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 8, "s59497", "38322", "=q4=Iron-bound Tome", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 9, "s64051", "45854", "=q3=Rituals of the New Moon", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 10, "s64053", "45849", "=q3=Twilight Tome", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 11, "s59496", "43667", "=q3=Book of Clever Tricks", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 17, "s59495", "43666", "=q3=Hellfire Tome", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 18, "s59494", "43664", "=q3=Manual of Clouds", "=ds=#sr# 275", "=ds="..AL["Trainer"] };
+				{ 19, "s59493", "43663", "=q3=Stormbound Tome", "=ds=#sr# 275", "=ds="..AL["Trainer"] };
+				{ 20, "s59490", "43661", "=q3=Book of Stars", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 21, "s59489", "43660", "=q3=Fire Eater's Guide", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 22, "s59486", "43657", "=q3=Royal Guide of Escape Routes", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 23, "s59484", "43656", "=q3=Tome of Kings", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 24, "s59478", "43655", "=q3=Book of Survival", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 25, "s59475", "43654", "=q3=Tome of the Dawn", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 26, "s58565", "43515", "=q3=Mystic Tome", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				
 			};
 		};
 		info = {
@@ -3403,30 +3410,31 @@ local SPELLFIRE = GetSpellInfo(26797);
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
-
-	AtlasLoot_Data["Inscription_Reagents"] = {
+	
+	AtlasLoot_Data["Inscription_RelicsEnchants"] = {
 		["Normal"] = {
 			{
-				{ 1, "s57716", "43127", "=q2=Snowfall Ink", "=ds="..AL["Trainer"] };
-				{ 2, "s57714", "43125", "=q2=Darkflame Ink", "=ds="..AL["Trainer"] };
-				{ 3, "s57712", "43123", "=q2=Ink of the Sky", "=ds="..AL["Trainer"] };
-				{ 4, "s57710", "43121", "=q2=Fiery Ink", "=ds="..AL["Trainer"] };
-				{ 5, "s57708", "43119", "=q2=Royal Ink", "=ds="..AL["Trainer"] };
-				{ 6, "s57706", "43117", "=q2=Dawnstar Ink", "=ds="..AL["Trainer"] };
-				{ 7, "s57703", "43115", "=q2=Hunter's Ink", "=ds="..AL["Trainer"] };
-				{ 8, "s57715", "43126", "=q1=Ink of the Sea", "=ds="..AL["Trainer"] };
-				{ 9, "s57713", "43124", "=q1=Ethereal Ink", "=ds="..AL["Trainer"] };
-				{ 10, "s57711", "43122", "=q1=Shimmering Ink", "=ds="..AL["Trainer"] };
-				{ 11, "s57709", "43120", "=q1=Celestial Ink", "=ds="..AL["Trainer"] };
-				{ 12, "s57707", "43118", "=q1=Jadefire Ink", "=ds="..AL["Trainer"] };
-				{ 13, "s57704", "43116", "=q1=Lion's Ink", "=ds="..AL["Trainer"] };
-				{ 14, "s53462", "39774", "=q1=Midnight Ink", "=ds="..AL["Trainer"] };
-				{ 15, "s52843", "39469", "=q1=Moonglow Ink", "=ds="..AL["Trainer"] };
-				{ 16, "s52738", "37101", "=q1=Ivory Ink", "=ds="..AL["Trainer"] };
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Relics"], "" };
+				{ 2, "s86650", "62243", "=q3=Notched Jawbone", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 3, "s86653", "62245", "=q3=Silver Inlaid Leaf", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 4, "s86652", "62244", "=q3=Tattooed Eyeball", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 17, "s86649", "62242", "=q3=Runed Dragonscale", "=ds=#sr# 505", "=ds="..AL["Trainer"] };
+				{ 18, "s86647", "62240", "=q3=Etched Horn", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 19, "s86648", "62241", "=q3=Manual of the Planes", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Shoulder Enchants"], "" };
+				{ 7, "s86403", "INV_Misc_MastersInscription", "=ds=Felfire Inscription", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 8, "s86402", "INV_Misc_MastersInscription", "=ds=Inscription of the Earthen Prince", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 9, "s86401", "INV_Misc_MastersInscription", "=ds=Lionsmane Inscription", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 10, "s86375", "INV_Misc_MastersInscription", "=ds=Swiftsteel Inscription", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 22, "s61117", "INV_Misc_MastersInscription", "=ds=Master's Inscription of the Axe", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 23, "s61118", "INV_Misc_MastersInscription", "=ds=Master's Inscription of the Crag", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 24, "s61119", "INV_Misc_MastersInscription", "=ds=Master's Inscription of the Pinnacle", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 25, "s61120", "INV_Misc_MastersInscription", "=ds=Master's Inscription of the Storm", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Reagents"],
+			name = INSCRIPTION..": "..AL["Relics/Shoulder Enchants"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
@@ -3434,26 +3442,45 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Inscription_Scrolls"] = {
 		["Normal"] = {
 			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Darkmoon Faire Card"], "" };
+				{ 2, "s86615", "61987", "=q3=Darkmoon Card of the Destruction", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 3, "s86609", "60838", "=q1=Mysterious Fortune Card", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
+				{ 4, "s59504", "44318", "=q3=Darkmoon Card of the North", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 5, "s59503", "44317", "=q3=Greater Darkmoon Card", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 6, "s59502", "44316", "=q3=Darkmoon Card", "=ds=#sr# 275", "=ds="..AL["Trainer"] };
+				{ 17, "s59491", "44163", "=q1=Shadowy Tarot", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 18, "s59487", "44161", "=q1=Arcane Tarot", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 19, "s48247", "44142", "=q1=Mysterious Tarot", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 20, "s59480", "48247", "=q1=Strange Tarot", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 8, 0, "INV_Box_01", "=q6="..AL["Agility"].." "..AL["Scrolls"], "" };
+				{ 9, "s89370", "63303", "=q1=Scroll of Agility IX", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
+				{ 10, "s58483", "43464", "=q1=Scroll of Agility VIII", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 11, "s58482", "43463", "=q1=Scroll of Agility VII", "=ds=#sr# 370", "=ds="..AL["Trainer"] };
+				{ 12, "s58481", "33457", "=q1=Scroll of Agility VI", "=ds=#sr# 310", "=ds="..AL["Trainer"] };
+				{ 13, "s58480", "27498", "=q1=Scroll of Agility V", "=ds=#sr# 270", "=ds="..AL["Trainer"] };
+				{ 24, "s58478", "10309", "=q1=Scroll of Agility IV", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 25, "s58476", "4425", "=q1=Scroll of Agility III", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 26, "s58473", "1477", "=q1=Scroll of Agility II", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 27, "s58472", "3012", "=q1=Scroll of Agility", "=ds=#sr# 15", "=ds="..AL["Trainer"] };
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Intellect"].." "..AL["Scrolls"], "" };
+				{ 2, "s89368", "63305", "=q1=Scroll of Intellect IX", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 3, "s50604", "37092", "=q1=Scroll of Intellect VIII", "=ds=#sr# 410", "=ds="..AL["Trainer"] };
+				{ 4, "s50603", "37091", "=q1=Scroll of Intellect VII", "=ds=#sr# 360", "=ds="..AL["Trainer"] };
+				{ 5, "s50602", "33458", "=q1=Scroll of Intellect VI", "=ds=#sr# 310", "=ds="..AL["Trainer"] };
+				{ 6, "s50601", "27499", "=q1=Scroll of Intellect V", "=ds=#sr# 260", "=ds="..AL["Trainer"] };
+				{ 17, "s50600", "10308", "=q1=Scroll of Intellect IV", "=ds=#sr# 215", "=ds="..AL["Trainer"] };
+				{ 18, "s50599", "4419", "=q1=Scroll of Intellect III", "=ds=#sr# 165", "=ds="..AL["Trainer"] };
+				{ 19, "s50598", "2290", "=q1=Scroll of Intellect II", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 20, "s48114", "955", "=q1=Scroll of Intellect", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+		
+				--[[
 				{ 1, "s69385", "49632", "=q1=Runescroll of Fortitude", "=ds=" };
 				{ 3, "s60337", "44315", "=q1=Scroll of Recall III", "=ds=" };
 				{ 4, "s60336", "44314", "=q1=Scroll of Recall II", "=ds=" };
 				{ 5, "s48248", "37118", "=q1=Scroll of Recall", "=ds=" };
-				{ 6, "s58483", "3012", "=q1=Scroll of Agility VIII", "=ds=" };
-				{ 7, "s58482", "3012", "=q1=Scroll of Agility VII", "=ds=" };
-				{ 8, "s58481", "3012", "=q1=Scroll of Agility VI", "=ds=" };
-				{ 9, "s58480", "3012", "=q1=Scroll of Agility V", "=ds=" };
-				{ 10, "s58478", "3012", "=q1=Scroll of Agility IV", "=ds=" };
-				{ 11, "s58476", "3012", "=q1=Scroll of Agility III", "=ds=" };
-				{ 12, "s58473", "3012", "=q1=Scroll of Agility II", "=ds=" };
-				{ 13, "s58472", "3012", "=q1=Scroll of Agility", "=ds=" };
-				{ 14, "s50604", "955", "=q1=Scroll of Intellect VIII", "=ds=" };
-				{ 15, "s50603", "955", "=q1=Scroll of Intellect VII", "=ds=" };
-				{ 16, "s50602", "955", "=q1=Scroll of Intellect VI", "=ds=" };
-				{ 17, "s50601", "955", "=q1=Scroll of Intellect V", "=ds=" };
-				{ 18, "s50600", "955", "=q1=Scroll of Intellect IV", "=ds=" };
-				{ 19, "s50599", "955", "=q1=Scroll of Intellect III", "=ds=" };
-				{ 20, "s50598", "955", "=q1=Scroll of Intellect II", "=ds=" };
-				{ 21, "s48114", "955", "=q1=Scroll of Intellect", "=ds=" };
+				
 				{ 23, "s50611", "955", "=q1=Scroll of Spirit VIII", "=ds=" };
 				{ 24, "s50610", "955", "=q1=Scroll of Spirit VII", "=ds=" };
 				{ 25, "s50609", "955", "=q1=Scroll of Spirit VI", "=ds=" };
@@ -3480,10 +3507,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 21, "s58486", "3012", "=q1=Scroll of Strength III", "=ds=" };
 				{ 22, "s58485", "3012", "=q1=Scroll of Strength II", "=ds=" };
 				{ 23, "s58484", "3012", "=q1=Scroll of Strength", "=ds=" };
+				]]--
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Scrolls"],
+			name = INSCRIPTION..": "..AL["Scrolls"].."/"..AL["Darkmoon Faire Card"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};
@@ -3491,25 +3519,39 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["Inscription_Misc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s59504", "INV_Feather_05", "=ds=Darkmoon Card of the North", "=ds=" };
-				{ 2, "s59503", "INV_Feather_05", "=ds=Greater Darkmoon Card", "=ds=" };
-				{ 3, "s59502", "INV_Feather_05", "=ds=Darkmoon Card", "=ds=" };
-				{ 4, "s59491", "INV_Feather_05", "=ds=Shadowy Tarot", "=ds=" };
-				{ 5, "s59487", "INV_Feather_05", "=ds=Arcane Tarot", "=ds=" };
-				{ 6, "s48247", "INV_Feather_05", "=ds=Mysterious Tarot", "=ds="..AL["Trainer"]..""};
-				{ 7, "s59480", "INV_Feather_05", "=ds=Strange Tarot", "=ds=" };
-				{ 9, "s61117", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Axe", "=ds=" };
-				{ 10, "s61118", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Crag", "=ds=" };
-				{ 11, "s61119", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Pinnacle", "=ds=" };
-				{ 12, "s61120", "INV_Inscription_Tradeskill01", "=ds=Master's Inscription of the Storm", "=ds=" };
+				
+				{ 1, "s86654", "63276", "=q1=Forged Documents", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 2, "s86646", "65651", "=q1=Origami Beetle", "=ds=#sr# 500", "=ds="..AL["World Drop"] };
+				{ 3, "s86645", "65650", "=q1=Origami Rock", "=ds=#sr# 490", "=ds="..AL["World Drop"] };
+				{ 4, "s86644", "65649", "=q1=Origami Slime", "=ds=#sr# 480", "=ds="..AL["World Drop"] };
+				{ 16, "s92027", "63388", "=q1=Dust of Disappearance", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 17, "s89367", "62237", "=q1=Adventurer's Journal", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
+				{ 18, "s59387", "43850", "=q1=Certificate of Ownership", "=ds=#sr# 200", "=ds="..AL["Trainer"] };
+				{ 19, "s92026", "64670", "=q1=Vanishing Powder", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 20, "s52739", "38682", "=q1=Enchanting Vellum", "=ds=#sr# 35", "=ds="..AL["Trainer"] };
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Reagents"], "" };
+				{ 7, "s86005", "61981", "=q2=Inferno Ink", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 8, "s86004", "61978", "=q1=Blackfallow Ink", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 9, "s57716", "43127", "=q2=Snowfall Ink", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 10, "s57715", "43126", "=q1=Ink of the Sea", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 11, "s57714", "43125", "=q2=Darkflame Ink", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 12, "s57713", "43124", "=q1=Ethereal Ink", "=ds=#sr# 290", "=ds="..AL["Trainer"] };
+				{ 13, "s57712", "43123", "=q2=Ink of the Sky", "=ds=#sr# 275", "=ds="..AL["Trainer"] };
+				{ 14, "s57711", "43122", "=q1=Shimmering Ink", "=ds=#sr# 250", "=ds="..AL["Trainer"] };
+				{ 15, "s57710", "43121", "=q2=Fiery Ink", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 22, "s57709", "43120", "=q1=Celestial Ink", "=ds=#sr# 200", "=ds="..AL["Trainer"] };
+				{ 23, "s57708", "43119", "=q2=Royal Ink", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 24, "s57707", "43118", "=q1=Jadefire Ink", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
+				{ 25, "s57706", "43117", "=q2=Dawnstar Ink", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 26, "s57704", "43116", "=q1=Lion's Ink", "=ds=#sr# 100", "=ds="..AL["Trainer"] };
+				{ 27, "s57703", "43115", "=q2=Hunter's Ink", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 28, "s53462", "39774", "=q1=Midnight Ink", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 29, "s52843", "39469", "=q1=Moonglow Ink", "=ds=#sr# 35", "=ds="..AL["Trainer"] };
+				{ 30, "s52738", "37101", "=q1=Ivory Ink", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				
+				--[[ Not really a recipe :\
 				{ 14, "s52175", "INV_Misc_Book_11", "=ds=Decipher", "=ds="..AL["Trainer"] };
-				{ 16, "s59500", "43145", "=q1=Armor Vellum III", "=ds=" };
-				{ 17, "s59499", "37602", "=q1=Armor Vellum II", "=ds=" };
-				{ 18, "s52739", "38682", "=q1=Armor Vellum", "=ds="..AL["Trainer"] };
-				{ 20, "s59501", "43146", "=q1=Weapon Vellum III", "=ds=" };
-				{ 21, "s59488", "39350", "=q1=Weapon Vellum II", "=ds=" };
-				{ 22, "s52840", "39349", "=q1=Weapon Vellum", "=ds="..AL["Trainer"] };
-				{ 24, "s59387", "43850", "=q1=Certificate of Ownership", "=ds=" };
+				]]--
 			};
 		};
 		info = {

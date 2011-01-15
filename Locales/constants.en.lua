@@ -428,6 +428,9 @@ if AL then
 	AL["Minor Glyph"] = true;
 	AL["Scrolls"] = true;
 	AL["Off-Hand Items"] = true;
+	AL["Relics/Shoulder Enchants"] = true;
+	AL["Relics"] = true;
+	AL["Shoulder Enchants"] = true;
 	AL["Reagents"] = true;
 	AL["Book of Glyph Mastery"] = true;
 
