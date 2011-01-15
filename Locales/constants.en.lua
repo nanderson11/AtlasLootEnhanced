@@ -426,6 +426,8 @@ if AL then
 	AL["Prime Glyph"] = true;
 	AL["Major Glyph"] = true;
 	AL["Minor Glyph"] = true;
+	AL["Runescrolls"] = true;
+	AL["Recall"] = true;
 	AL["Scrolls"] = true;
 	AL["Off-Hand Items"] = true;
 	AL["Relics/Shoulder Enchants"] = true;
