@@ -119,10 +119,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, "s80491", "58094", "=q1=Elixir of Impossible Accuracy", "=ds="..AL["Trainer"]};
 				{ 5, "s80493", "58144", "=q1=Elixir of Mighty Speed", "=ds="..AL["Trainer"]};
 				{ 6, "s80497", "58148", "=q1=Elixir of the Master", "=ds="..AL["Trainer"]};
-				{ 8, "s60355", "44327", "=q1=Elixir of Deadly Strikes", "=ds="..AL["Northrend Alchemy Research"]};
-				{ 9, "s60357", "44329", "=q1=Elixir of Expertise", "=ds="..AL["Northrend Alchemy Research"]};
-				{ 10, "s60366", "44331", "=q1=Elixir of Lightning Speed", "=ds="..AL["Northrend Alchemy Research"]};
-				{ 12, "s60354", "44325", "=q1=Elixir of Accuracy", "=ds="..AL["Northrend Alchemy Research"]};
+				{ 8, "s60355", "44327", "=q1=Elixir of Deadly Strikes", "=ds="..GetSpellInfo(60893)};
+				{ 9, "s60357", "44329", "=q1=Elixir of Expertise", "=ds="..GetSpellInfo(60893)};
+				{ 10, "s60366", "44331", "=q1=Elixir of Lightning Speed", "=ds="..GetSpellInfo(60893)};
+				{ 12, "s60354", "44325", "=q1=Elixir of Accuracy", "=ds="..GetSpellInfo(60893)};
 				{ 13, "s63732", "45621", "=q1=Elixir of Minor Accuracy", "=ds="..AL["Trainer"]};
 				{ 16, "s53848", "40076", "=q1=Guru's Elixir", "=ds="..AL["Trainer"]};
 				{ 17, "s33741", "28104", "=q1=Elixir of Mastery", "=ds="..AL["Trainer"]};
@@ -133,7 +133,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 
 			};
 			{
-				{ 1, "s60365", "44330", "=q1=Elixir of Armor Piercing", "=ds="..AL["Northrend Alchemy Research"]};
+				{ 1, "s60365", "44330", "=q1=Elixir of Armor Piercing", "=ds="..GetSpellInfo(60893)};
 				{ 2, "s53840", "39666", "=q1=Elixir of Mighty Agility", "=ds="..AL["Trainer"]};
 				{ 3, "s28553", "22831", "=q1=Elixir of Major Agility", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Thrallmar"].."/"..BabbleFaction["Honor Hold"]};
 				{ 4, "s17571", "13452", "=q1=Elixir of the Mongoose", "=ds="..BabbleZone["Felwood"]};
@@ -210,7 +210,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Guardian Elixirs"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 	};
 
@@ -229,7 +229,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Other Elixirs"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 
 	};
@@ -344,7 +344,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Potions"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 	};
 
@@ -379,7 +379,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Flasks"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 	};
 
@@ -451,15 +451,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Transmutes"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 	};
 
 	AtlasLoot_Data["AlchemyCauldron"] = {
 		["Normal"] = {
 			{
-				{ 1, "s92688", "65460", "=q1=Big Cauldron of Battle", "=ds="..BabbleFaction["Friendly"]..":"..AL["Guild"]};
-				{ 2, "s92643", "62288", "=q1=Cauldron of Battle", "=ds="..BabbleFaction["Friendly"]..":"..AL["Guild"]};
+				{ 1, "s92688", "65460", "=q1=Big Cauldron of Battle", "=ds="..BabbleFaction["Friendly"]..": "..AL["Guild"]};
+				{ 2, "s92643", "62288", "=q1=Cauldron of Battle", "=ds="..BabbleFaction["Friendly"]..": "..AL["Guild"]};
 				{ 16, "s41458", "32839", "=q1=Cauldron of Major Arcane Protection Potion", "=ds="..AL["Discovery"]};
 				{ 17, "s41500", "32849", "=q1=Cauldron of Major Fire Protection Potion", "=ds="..AL["Discovery"]};
 				{ 18, "s41501", "32850", "=q1=Cauldron of Major Frost Protection Potion", "=ds="..AL["Discovery"]};
@@ -469,7 +469,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Cauldron"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 
 	};
@@ -490,7 +490,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Oil"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 
 	};
@@ -516,7 +516,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ALCHEMY..": "..BabbleInventory["Miscellaneous"],
-			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+			module = moduleName, menu = "ALCHEMYMENU",
 		};
 	};
 

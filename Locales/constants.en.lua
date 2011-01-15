@@ -396,10 +396,15 @@ if AL then
 
 	-- Alchemy
 	AL["Battle Elixirs"] = true;
+	AL["Cauldron"] = true;
+	AL["Cauldrons"] = true;
 	AL["Guardian Elixirs"] = true;
+	AL["Oils"] = true;
+	AL["Other Elixirs"] = true;
 	AL["Potions"] = true;
 	AL["Transmutes"] = true;
 	AL["Flasks"] = true;
+	AL["Guild"] = true;
 
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = true;
