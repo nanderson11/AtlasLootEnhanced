@@ -113,78 +113,27 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["AlchemyBattleElixir"] = {
 		["Normal"] = {
 			{
-				{ 1, "s60365", "44330", "=q1=Elixir of Armor Piercing", "=ds="};
-				{ 2, "s60355", "44327", "=q1=Elixir of Deadly Strikes", "=ds="};
-				{ 3, "s60357", "44329", "=q1=Elixir of Expertise", "=ds="};
-				{ 4, "s60366", "44331", "=q1=Elixir of Lightning Speed", "=ds="};
-				{ 5, "s60354", "44325", "=q1=Elixir of Accuracy", "=ds="};
-				{ 6, "s53840", "39666", "=q1=Elixir of Mighty Agility", "=ds="..AL["Trainer"]};
-				{ 7, "s54218", "40073", "=q1=Elixir of Mighty Strength", "=ds="..AL["Trainer"]};
-				{ 8, "s53848", "40076", "=q1=Guru's Elixir", "=ds="..AL["Trainer"]};
-				{ 9, "s53842", "40070", "=q1=Spellpower Elixir", "=ds="..AL["Trainer"]};
-				{ 10, "s53841", "40068", "=q1=Wrath Elixir", "=ds="..AL["Trainer"]};
-				{ 11, "s28558", "22835", "=q1=Elixir of Major Shadow Power", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["Lower City"]};
-				{ 12, "s28556", "22833", "=q1=Elixir of Major Firepower", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["The Scryers"]};
-				{ 13, "s38960", "31679", "=q1=Fel Strength Elixir", "=ds="..BabbleZone["Shadowmoon Valley"]};
-				{ 14, "s28553", "22831", "=q1=Elixir of Major Agility", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Thrallmar"].."/"..BabbleFaction["Honor Hold"]};
-				{ 15, "s28549", "22827", "=q1=Elixir of Major Frost Power", "=ds="..AL["Vendor"]..", "..BabbleZone["Zangarmarsh"]};
-				{ 16, "s33741", "28104", "=q1=Elixir of Mastery", "=ds="..AL["Trainer"]};
-				{ 17, "s28545", "22825", "=q1=Elixir of Healing Power", "=ds="..AL["Trainer"]};
-				{ 18, "s28544", "22824", "=q1=Elixir of Major Strength", "=ds="..AL["Trainer"]};
-				{ 19, "s33740", "28103", "=q1=Adept's Elixir", "=ds="..AL["Trainer"]};
-				{ 20, "s33738", "28102", "=q1=Onslaught Elixir", "=ds="..AL["Trainer"]};
-				{ 21, "s17573", "13454", "=q1=Greater Arcane Elixir", "=ds="..AL["Trainer"]};
-				{ 22, "s17571", "13452", "=q1=Elixir of the Mongoose", "=ds="..BabbleZone["Felwood"]};
-				{ 23, "s17557", "13453", "=q1=Elixir of Brute Force", "=ds="..AL["Trainer"]};
-				{ 24, "s11477", "9224", "=q1=Elixir of Demonslaying", "=ds="..AL["Vendor"]};
-				{ 25, "s26277", "21546", "=q1=Elixir of Greater Firepower", "=ds="..BabbleZone["Searing Gorge"]};
-				{ 26, "s11476", "9264", "=q1=Elixir of Shadow Power", "=ds="..AL["Vendor"]..", "..BabbleZone["Undercity"].."/"..BabbleZone["Stormwind City"]};
-				{ 27, "s11472", "9206", "=q1=Elixir of Giants", "=ds="..AL["World Drop"]};
-				{ 28, "s11467", "9187", "=q1=Elixir of Greater Agility", "=ds="..AL["Trainer"]};
-				{ 29, "s11461", "9155", "=q1=Arcane Elixir", "=ds="..AL["Trainer"]};
-				{ 30, "s21923", "17708", "=q1=Elixir of Frost Power", "=ds="..AL["Feast of Winter Veil"]};
-			};
-			{
-				{ 1, "s11449", "8949", "=q1=Elixir of Agility", "=ds="..AL["Trainer"]};
-				{ 2, "s63732", "45621", "=q1=Elixir of Minor Accuracy", "=ds="};
-				{ 3, "s3188", "3391", "=q1=Elixir of Ogre's Strength", "=ds="..AL["World Drop"]};
-				{ 4, "s2333", "3390", "=q1=Elixir of Lesser Agility", "=ds="..AL["World Drop"]};
-				{ 5, "s7845", "6373", "=q1=Elixir of Firepower", "=ds="..AL["Trainer"]};
-				{ 6, "s8240", "6662", "=q1=Elixir of Giant Growth", "=ds="..BabbleZone["The Barrens"]};
-				{ 7, "s3230", "2457", "=q1=Elixir of Minor Agility", "=ds="..AL["World Drop"]};
-				{ 8, "s2329", "2454", "=q1=Elixir of Lion's Strength", "=ds="..AL["Trainer"]};			
-			};
-		};
-		info = {
-			name = ALCHEMY..": "..AL["Battle Elixirs"],
-			module = moduleName, menu = "ALCHEMYMENU",
-		};
-	};
-
-	AtlasLoot_Data["AlchemyBattleElixirNEW"] = {
-		["Normal"] = {
-			{
-				{ 1, "s80477", "58084", "=q1=Ghost Elixir", "=ds="};
-				{ 2, "s80480", "58089", "=q1=Elixir of the Naga", "=ds="};
-				{ 3, "s80488", "58093", "=q1=Elixir of Deep Earth", "=ds="};
-				{ 4, "s80492", "58143", "=q1=Prismatic Elixir", "=ds="};
-				{ 5, "s80491", "58094", "=q1=Elixir of Impossible Accuracy", "=ds="};
-				{ 6, "s80493", "58144", "=q1=Elixir of Mighty Speed", "=ds="};
-				{ 7, "s80497", "58148", "=q1=Elixir of the Master", "=ds="};
-				{ 9, "s60355", "44327", "=q1=Elixir of Deadly Strikes", "=ds="};
-				{ 10, "s60357", "44329", "=q1=Elixir of Expertise", "=ds="};
-				{ 11, "s60366", "44331", "=q1=Elixir of Lightning Speed", "=ds="};
-				{ 12, "s60354", "44325", "=q1=Elixir of Accuracy", "=ds="};
-				{ 13, "s63732", "45621", "=q1=Elixir of Minor Accuracy", "=ds="};
+				{ 1, "s80477", "58084", "=q1=Ghost Elixir", "=ds="..AL["Trainer"]};
+				{ 2, "s80480", "58089", "=q1=Elixir of the Naga", "=ds="..AL["Trainer"]};
+				{ 3, "s80484", "58092", "=q1=Elixir of the Cobra", "=ds="..AL["Trainer"]};
+				{ 4, "s80491", "58094", "=q1=Elixir of Impossible Accuracy", "=ds="..AL["Trainer"]};
+				{ 5, "s80493", "58144", "=q1=Elixir of Mighty Speed", "=ds="..AL["Trainer"]};
+				{ 6, "s80497", "58148", "=q1=Elixir of the Master", "=ds="..AL["Trainer"]};
+				{ 8, "s60355", "44327", "=q1=Elixir of Deadly Strikes", "=ds="..AL["Northrend Alchemy Research"]};
+				{ 9, "s60357", "44329", "=q1=Elixir of Expertise", "=ds="..AL["Northrend Alchemy Research"]};
+				{ 10, "s60366", "44331", "=q1=Elixir of Lightning Speed", "=ds="..AL["Northrend Alchemy Research"]};
+				{ 12, "s60354", "44325", "=q1=Elixir of Accuracy", "=ds="..AL["Northrend Alchemy Research"]};
+				{ 13, "s63732", "45621", "=q1=Elixir of Minor Accuracy", "=ds="..AL["Trainer"]};
 				{ 16, "s53848", "40076", "=q1=Guru's Elixir", "=ds="..AL["Trainer"]};
 				{ 17, "s33741", "28104", "=q1=Elixir of Mastery", "=ds="..AL["Trainer"]};
 				{ 19, "s53841", "40068", "=q1=Wrath Elixir", "=ds="..AL["Trainer"]};
 				{ 20, "s38960", "31679", "=q1=Fel Strength Elixir", "=ds="..BabbleZone["Shadowmoon Valley"]};
 				{ 21, "s33738", "28102", "=q1=Onslaught Elixir", "=ds="..AL["Trainer"]};
 				{ 22, "s11477", "9224", "=q1=Elixir of Demonslaying", "=ds="..AL["Vendor"]};
+
 			};
 			{
-				{ 1, "s60365", "44330", "=q1=Elixir of Armor Piercing", "=ds="};
+				{ 1, "s60365", "44330", "=q1=Elixir of Armor Piercing", "=ds="..AL["Northrend Alchemy Research"]};
 				{ 2, "s53840", "39666", "=q1=Elixir of Mighty Agility", "=ds="..AL["Trainer"]};
 				{ 3, "s28553", "22831", "=q1=Elixir of Major Agility", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Thrallmar"].."/"..BabbleFaction["Honor Hold"]};
 				{ 4, "s17571", "13452", "=q1=Elixir of the Mongoose", "=ds="..BabbleZone["Felwood"]};
@@ -223,35 +172,40 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["AlchemyGuardianElixir"] = {
 		["Normal"] = {
 			{
-				{ 1, "s60356", "44328", "=q1=Elixir of Mighty Defense", "=ds="..AL["Discovery"]};
-				{ 2, "s56519", "40109", "=q1=Elixir of Mighty Mageblood", "=ds="..AL["Discovery"]};
-				{ 3, "s54220", "40097", "=q1=Elixir of Protection", "=ds="..AL["Discovery"]};
-				{ 4, "s62410", "8827", "=q1=Elixir of Water Walking", "=ds="..AL["Discovery"]};
-				{ 5, "s53898", "40078", "=q1=Elixir of Mighty Fortitude", "=ds="..AL["Trainer"]};
-				{ 6, "s60367", "44332", "=q1=Elixir of Mighty Thoughts", "=ds="..AL["Trainer"]};
-				{ 7, "s53847", "40072", "=q1=Elixir of Spirit", "=ds="..AL["Trainer"]};
-				{ 8, "s28578", "22848", "=q1=Elixir of Empowerment", "=ds="..AL["World Drop"]};
-				{ 9, "s28570", "22840", "=q1=Elixir of Major Mageblood", "=ds="..AL["World Drop"]};
-				{ 10, "s28557", "22834", "=q1=Elixir of Major Defense", "=ds="..AL["Vendor"]};
-				{ 11, "s39639", "32068", "=q1=Elixir of Ironskin", "=ds="..AL["Vendor"]..", "..BabbleZone["Nagrand"]};
-				{ 12, "s39637", "32063", "=q1=Earthen Elixir", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Cenarion Expedition"]};
-				{ 13, "s39638", "32067", "=q1=Elixir of Draenic Wisdom", "=ds="..AL["Trainer"]};
-				{ 14, "s39636", "32062", "=q1=Elixir of Major Fortitude", "=ds="..AL["Trainer"]};
-				{ 15, "s24368", "20004", "=q1=Major Troll's Blood Elixir", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Zandalar Tribe"]};
-				{ 16, "s24365", "20007", "=q1=Mageblood Elixir", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["Zandalar Tribe"]};
-				{ 17, "s17554", "13445", "=q1=Elixir of Superior Defense", "=ds="..AL["Vendor"]..", "..BabbleZone["Orgrimmar"].."/"..BabbleZone["Ironforge"]};
-				{ 18, "s17555", "13447", "=q1=Elixir of the Sages", "=ds="..AL["Trainer"]};
-				{ 19, "s11466", "9088", "=q1=Gift of Arthas", "=ds="..BabbleZone["Western Plaguelands"]};
-				{ 20, "s11465", "9179", "=q1=Elixir of Greater Intellect", "=ds="..AL["Trainer"]};
-				{ 21, "s11450", "8951", "=q1=Elixir of Greater Defense", "=ds="..AL["Trainer"]};
-				{ 22, "s3451", "3826", "=q1=Mighty Troll's Blood Elixir", "=ds="..AL["World Drop"]};
-				{ 23, "s3450", "3825", "=q1=Elixir of Fortitude", "=ds="..AL["Trainer"]};
-				{ 24, "s3177", "3389", "=q1=Elixir of Defense", "=ds="..AL["Trainer"]};
-				{ 25, "s3176", "3388", "=q1=Strong Troll's Blood Potion", "=ds="..AL["Trainer"]};
-				{ 26, "s3171", "3383", "=q1=Elixir of Wisdom", "=ds="..AL["Trainer"]};
-				{ 27, "s2334", "2458", "=q1=Elixir of Minor Fortitude", "=ds="..AL["Trainer"]};
-				{ 28, "s3170", "3382", "=q1=Weak Troll's Blood Elixir", "=ds="..AL["Trainer"]};
-				{ 29, "s7183", "5997", "=q1=Elixir of Minor Defense", "=ds="..AL["Trainer"]};
+				{ 1, "s80492", "58143", "=q1=Prismatic Elixir", "=ds="..AL["Trainer"]};
+				{ 2, "s80488", "58093", "=q1=Elixir of Deep Earth", "=ds="..AL["Trainer"]};
+				{ 4, "s60356", "44328", "=q1=Elixir of Mighty Defense", "=ds="..AL["Discovery"]};
+				{ 5, "s56519", "40109", "=q1=Elixir of Mighty Mageblood", "=ds="..AL["Discovery"]};
+				{ 6, "s54220", "40097", "=q1=Elixir of Protection", "=ds="..AL["Discovery"]};
+				{ 7, "s62410", "8827", "=q1=Elixir of Water Walking", "=ds="..AL["Discovery"]};
+				{ 8, "s53898", "40078", "=q1=Elixir of Mighty Fortitude", "=ds="..AL["Trainer"]};
+				{ 9, "s60367", "44332", "=q1=Elixir of Mighty Thoughts", "=ds="..AL["Trainer"]};
+				{ 10, "s53847", "40072", "=q1=Elixir of Spirit", "=ds="..AL["Trainer"]};
+				{ 11, "s28578", "22848", "=q1=Elixir of Empowerment", "=ds="..AL["World Drop"]};
+				{ 12, "s28570", "22840", "=q1=Elixir of Major Mageblood", "=ds="..AL["World Drop"]};
+				{ 13, "s28557", "22834", "=q1=Elixir of Major Defense", "=ds="..AL["Vendor"]};
+				{ 14, "s39639", "32068", "=q1=Elixir of Ironskin", "=ds="..AL["Vendor"]..", "..BabbleZone["Nagrand"]};
+				{ 15, "s39637", "32063", "=q1=Earthen Elixir", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Cenarion Expedition"]};
+				{ 16, "s39638", "32067", "=q1=Elixir of Draenic Wisdom", "=ds="..AL["Trainer"]};
+				{ 17, "s39636", "32062", "=q1=Elixir of Major Fortitude", "=ds="..AL["Trainer"]};
+				{ 18, "s24368", "20004", "=q1=Major Troll's Blood Elixir", "=ds="..BabbleFaction["Honored"]..": "..BabbleFaction["Zandalar Tribe"]};
+				{ 19, "s24365", "20007", "=q1=Mageblood Elixir", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["Zandalar Tribe"]};
+				{ 20, "s17554", "13445", "=q1=Elixir of Superior Defense", "=ds="..AL["Vendor"]..", "..BabbleZone["Orgrimmar"].."/"..BabbleZone["Ironforge"]};
+				{ 21, "s17555", "13447", "=q1=Elixir of the Sages", "=ds="..AL["Trainer"]};
+				{ 22, "s11466", "9088", "=q1=Gift of Arthas", "=ds="..BabbleZone["Western Plaguelands"]};
+				{ 23, "s11465", "9179", "=q1=Elixir of Greater Intellect", "=ds="..AL["Trainer"]};
+				{ 24, "s11450", "8951", "=q1=Elixir of Greater Defense", "=ds="..AL["Trainer"]};
+				{ 25, "s3451", "3826", "=q1=Mighty Troll's Blood Elixir", "=ds="..AL["World Drop"]};
+				{ 26, "s3450", "3825", "=q1=Elixir of Fortitude", "=ds="..AL["Trainer"]};
+				{ 27, "s3177", "3389", "=q1=Elixir of Defense", "=ds="..AL["Trainer"]};
+				{ 28, "s3176", "3388", "=q1=Strong Troll's Blood Potion", "=ds="..AL["Trainer"]};
+				{ 29, "s3171", "3383", "=q1=Elixir of Wisdom", "=ds="..AL["Trainer"]};
+				{ 30, "s2334", "2458", "=q1=Elixir of Minor Fortitude", "=ds="..AL["Trainer"]};				
+			};
+			{
+				{ 1, "s3170", "3382", "=q1=Weak Troll's Blood Elixir", "=ds="..AL["Trainer"]};
+				{ 2, "s7183", "5997", "=q1=Elixir of Minor Defense", "=ds="..AL["Trainer"]};
+				{ 3, "s12609", "10592", "=q1=Catseye Elixir", "=ds="..AL["Trainer"]};	
 			};
 		};
 		info = {
@@ -260,97 +214,132 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["AlchemyOtherElixir"] = {
+		["Normal"] = {
+			{
+				{ 1, "s28552", "22830", "=q1=Elixir of the Searching Eye", "=ds="..AL["World Drop"]};
+				{ 2, "s28543", "22823", "=q1=Elixir of Camouflage", "=ds="..AL["Vendor"]};
+				{ 3, "s11478", "9233", "=q1=Elixir of Detect Demon", "=ds="..AL["Trainer"]};
+				{ 4, "s11468", "9197", "=q1=Elixir of Dream Vision", "=ds="..AL["World Drop"]};
+				{ 5, "s11460", "9154", "=q1=Elixir of Detect Undead", "=ds="..AL["Trainer"]};
+				{ 6, "s22808", "18294", "=q1=Elixir of Greater Water Breathing", "=ds="..AL["Trainer"]};			
+				{ 7, "s3453", "3828", "=q1=Elixir of Detect Lesser Invisibility", "=ds="..AL["World Drop"]};
+				{ 8, "s7179", "5996", "=q1=Elixir of Water Breathing", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = ALCHEMY..": "..AL["Other Elixirs"],
+			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+		};
+
+	};
+
 	AtlasLoot_Data["AlchemyPotion"] = {
 		["Normal"] = {
 			{
-				{ 1, "s54221", "40211", "=q1=Potion of Speed", "=ds="};
-				{ 2, "s54222", "40212", "=q1=Potion of Wild Magic", "=ds="};
-				{ 3, "s53904", "40087", "=q1=Powerful Rejuvenation Potion", "=ds="};
-				{ 4, "s58868", "43570", "=q1=Endless Mana Potion", "=ds="..AL["Trainer"]};
-				{ 5, "s53837", "33448", "=q1=Runic Mana Potion", "=ds="..AL["Trainer"]};
-				{ 6, "s58871", "43569", "=q1=Endless Healing Potion", "=ds="..AL["Trainer"]};
-				{ 7, "s53836", "33447", "=q1=Runic Healing Potion", "=ds="..AL["Trainer"]};
-				{ 8, "s53936", "40213", "=q1=Mighty Arcane Protection Potion", "=ds="};
-				{ 9, "s53939", "40214", "=q1=Mighty Fire Protection Potion", "=ds="..AL["Drop"]};
-				{ 10, "s53937", "40215", "=q1=Mighty Frost Protection Potion", "=ds="..AL["Drop"]};
-				{ 11, "s53942", "40216", "=q1=Mighty Nature Protection Potion", "=ds="..AL["Drop"]};
-				{ 12, "s53938", "40217", "=q1=Mighty Shadow Protection Potion", "=ds="};
-				{ 13, "s53905", "40093", "=q1=Indestructible Potion", "=ds="..AL["Trainer"]};
-				{ 14, "s53900", "40081", "=q1=Potion of Nightmares", "=ds="..AL["Trainer"]};
-				{ 15, "s53895", "40077", "=q1=Crazy Alchemist's Potion", "=ds="..AL["Trainer"]};
-				{ 16, "s53839", "40067", "=q1=Icy Mana Potion", "=ds="..AL["Trainer"]};
-				{ 17, "s53838", "39671", "=q1=Resurgent Healing Potion", "=ds="..AL["Trainer"]};
-				{ 18, "s28586", "22850", "=q1=Super Rejuvenation Potion", "=ds="..AL["Discovery"]};
-				{ 19, "s38961", "31677", "=q1=Fel Mana Potion", "=ds="..BabbleZone["Shadowmoon Valley"]};
-				{ 20, "s28579", "22849", "=q1=Ironshield Potion", "=ds="..BabbleBoss["Captain Skarloc"]..": "..BabbleZone["Old Hillsbrad Foothills"]};
-				{ 21, "s28575", "22845", "=q1=Major Arcane Protection Potion", "=ds="..BabbleZone["Nagrand"]};
-				{ 22, "s28571", "22841", "=q1=Major Fire Protection Potion", "=ds="..BabbleZone["The Mechanar"]};
-				{ 23, "s28572", "22842", "=q1=Major Frost Protection Potion", "=ds="..BabbleBoss["Nexus-Prince Shaffar"]..": "..BabbleZone["Mana-Tombs"]};
-				{ 24, "s28577", "22847", "=q1=Major Holy Protection Potion", "=ds="..BabbleZone["Blade's Edge Mountains"]};
-				{ 25, "s28573", "22844", "=q1=Major Nature Protection Potion", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Cenarion Expedition"]};
-				{ 26, "s28576", "22846", "=q1=Major Shadow Protection Potion", "=ds="..BabbleZone["Shadowmoon Valley"]};
-				{ 27, "s28565", "22839", "=q1=Destruction Potion", "=ds="..AL["World Drop"]};
-				{ 28, "s28564", "22838", "=q1=Haste Potion", "=ds="..AL["World Drop"]};
-				{ 29, "s28563", "22837", "=q1=Heroic Potion", "=ds="..AL["World Drop"]};
-				{ 30, "s28562", "22836", "=q1=Major Dreamless Sleep Potion", "=ds="..AL["Vendor"]};
+				{ 1, "s80498", "57191", "=q1=Mythical Healing Potion", "=ds="..AL["Trainer"]};
+				{ 2, "s80494", "57192", "=q1=Mythical Mana Potion", "=ds="..AL["Trainer"]};
+				{ 3, "s80490", "57193", "=q1=Mighty Rejuvenation Potion", "=ds="..AL["Trainer"]};				
+				{ 4, "s93935", "67415", "=q1=Draught of War", "=ds="..AL["Trainer"]};
+				{ 5, "s80487", "57099", "=q1=Mysterious Potion", "=ds="..AL["Trainer"]};
+				{ 6, "s80482", "57194", "=q1=Potion of Concentration", "=ds="..AL["Trainer"]};
+				{ 8, "s80478", "58090", "=q1=Earthen Potion", "=ds="..AL["Trainer"]};
+				{ 9, "s80496", "58146", "=q1=Golemblood Potion", "=ds="..AL["Trainer"]};
+				{ 10, "s80495", "58145", "=q1=Potion of the Tol'vir", "=ds="..AL["Trainer"]};
+				{ 11, "s80481", "58091", "=q1=Volcanic Potion", "=ds="..AL["Trainer"]};	
+				{ 13, "s80269", "58489", "=q1=Potion of Illusion", "=ds="..AL["Trainer"]};
+				{ 14, "s80726", "58488", "=q1=Potion of Treasure Finding", "=ds="..AL["Trainer"]};				
+				{ 15, "s80725", "58487", "=q1=Potion of Deepholm", "=ds="..AL["Trainer"]};
+				{ 16, "s54221", "40211", "=q1=Potion of Speed", "=ds="..AL["Discovery"]};
+				{ 17, "s54222", "40212", "=q1=Potion of Wild Magic", "=ds="..AL["Discovery"]};
+				{ 18, "s53904", "40087", "=q1=Powerful Rejuvenation Potion", "=ds="..AL["Discovery"]};
+				{ 19, "s58868", "43570", "=q1=Endless Mana Potion", "=ds="..AL["Trainer"]};
+				{ 20, "s53837", "33448", "=q1=Runic Mana Potion", "=ds="..AL["Trainer"]};
+				{ 21, "s58871", "43569", "=q1=Endless Healing Potion", "=ds="..AL["Trainer"]};
+				{ 22, "s53836", "33447", "=q1=Runic Healing Potion", "=ds="..AL["Trainer"]};
+				{ 23, "s53936", "40213", "=q1=Mighty Arcane Protection Potion", "=ds="..BabbleZone["Icecrown"]};
+				{ 24, "s53939", "40214", "=q1=Mighty Fire Protection Potion", "=ds="..AL["Drop"]};
+				{ 25, "s53937", "40215", "=q1=Mighty Frost Protection Potion", "=ds="..AL["Drop"]};
+				{ 26, "s53942", "40216", "=q1=Mighty Nature Protection Potion", "=ds="..AL["Drop"]};
+				{ 27, "s53938", "40217", "=q1=Mighty Shadow Protection Potion", "=ds="..BabbleZone["Icecrown"]};
+				{ 28, "s53905", "40093", "=q1=Indestructible Potion", "=ds="..AL["Trainer"]};
+				{ 29, "s53900", "40081", "=q1=Potion of Nightmares", "=ds="..AL["Trainer"]};
+				{ 30, "s53895", "40077", "=q1=Crazy Alchemist's Potion", "=ds="..AL["Trainer"]};				
 			};
 			{
-				{ 1, "s38962", "31676", "=q1=Fel Regeneration Potion", "=ds="..BabbleZone["Shadowmoon Valley"]};
-				{ 2, "s28555", "22832", "=q1=Super Mana Potion", "=ds="..AL["Vendor"]};
-				{ 3, "s28554", "22871", "=q1=Shrouding Potion", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Sporeggar"]};
-				{ 4, "s45061", "34440", "=q1=Mad Alchemist's Potion", "=ds="..AL["Trainer"]};
-				{ 5, "s28551", "22829", "=q1=Super Healing Potion", "=ds="..AL["Trainer"]};
-				{ 6, "s28550", "22828", "=q1=Insane Strength Potion", "=ds="..AL["World Drop"]};
-				{ 7, "s28546", "22826", "=q1=Sneaking Potion", "=ds="..AL["Vendor"]};
-				{ 8, "s33733", "28101", "=q1=Unstable Mana Potion", "=ds="..AL["Trainer"]};
-				{ 9, "s22732", "18253", "=q1=Major Rejuvenation Potion", "=ds="..BabbleZone["Molten Core"]};
-				{ 10, "s33732", "28100", "=q1=Volatile Healing Potion", "=ds="..AL["Trainer"]};
-				{ 11, "s17580", "13444", "=q1=Major Mana Potion", "=ds="..AL["Vendor"]..", "..BabbleZone["Western Plaguelands"]};
-				{ 12, "s17577", "13461", "=q1=Greater Arcane Protection Potion", "=ds="..BabbleZone["Winterspring"]};
-				{ 13, "s17574", "13457", "=q1=Greater Fire Protection Potion", "=ds="..BabbleZone["Blackrock Spire"]};
-				{ 14, "s17575", "13456", "=q1=Greater Frost Protection Potion", "=ds="..BabbleZone["Winterspring"]};
-				{ 15, "s17576", "13458", "=q1=Greater Nature Protection Potion", "=ds="..BabbleZone["Western Plaguelands"]};
-				{ 16, "s17578", "13459", "=q1=Greater Shadow Protection Potion", "=ds="..BabbleZone["Eastern Plaguelands"]};
-				{ 17, "s24367", "20008", "=q1=Living Action Potion", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Zandalar Tribe"]};
-				{ 18, "s17572", "13462", "=q1=Purification Potion", "=ds="..AL["World Drop"]};
-				{ 19, "s17570", "13455", "=q1=Greater Stoneshield Potion", "=ds="..AL["World Drop"]};
-				{ 20, "s24366", "20002", "=q1=Greater Dreamless Sleep Potion", "=ds="..BabbleFaction["Friendly"]..": "..BabbleFaction["Zandalar Tribe"]};
-				{ 21, "s17556", "13446", "=q1=Major Healing Potion", "=ds="..AL["Trainer"]};
-				{ 22, "s17553", "13443", "=q1=Superior Mana Potion", "=ds="..AL["Trainer"]};
-				{ 23, "s17552", "13442", "=q1=Mighty Rage Potion", "=ds="..AL["Trainer"]};
-				{ 24, "s3175", "3387", "=q1=Limited Invulnerability Potion", "=ds="..AL["World Drop"]};
-				{ 25, "s11464", "9172", "=q1=Invisibility Potion", "=ds="..AL["World Drop"]};
-				{ 26, "s15833", "12190", "=q1=Dreamless Sleep Potion", "=ds="..AL["Trainer"]};
-				{ 27, "s11458", "9144", "=q1=Wildvine Potion", "=ds="..BabbleZone["The Hinterlands"].."/"..BabbleZone["Stranglethorn Vale"]};
-				{ 28, "s4942", "4623", "=q1=Lesser Stoneshield Potion", "=ds="..BabbleInventory["Quest"]..": "..BabbleZone["Badlands"]};
-				{ 29, "s11457", "3928", "=q1=Superior Healing Potion", "=ds="..AL["Trainer"]};
-				{ 30, "s11453", "9036", "=q1=Magic Resistance Potion", "=ds="..AL["World Drop"]};
+				{ 1, "s53839", "40067", "=q1=Icy Mana Potion", "=ds="..AL["Trainer"]};
+				{ 2, "s53838", "39671", "=q1=Resurgent Healing Potion", "=ds="..AL["Trainer"]};
+				{ 3, "s28586", "22850", "=q1=Super Rejuvenation Potion", "=ds="..AL["Discovery"]};
+				{ 4, "s38961", "31677", "=q1=Fel Mana Potion", "=ds="..BabbleZone["Shadowmoon Valley"]};
+				{ 5, "s28579", "22849", "=q1=Ironshield Potion", "=ds="..BabbleBoss["Captain Skarloc"]..": "..BabbleZone["Old Hillsbrad Foothills"]};
+				{ 6, "s28575", "22845", "=q1=Major Arcane Protection Potion", "=ds="..BabbleZone["Nagrand"]};
+				{ 7, "s28571", "22841", "=q1=Major Fire Protection Potion", "=ds="..BabbleZone["The Mechanar"]};
+				{ 8, "s28572", "22842", "=q1=Major Frost Protection Potion", "=ds="..BabbleBoss["Nexus-Prince Shaffar"]..": "..BabbleZone["Mana-Tombs"]};
+				{ 9, "s28577", "22847", "=q1=Major Holy Protection Potion", "=ds="..BabbleZone["Blade's Edge Mountains"]};
+				{ 10, "s28573", "22844", "=q1=Major Nature Protection Potion", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Cenarion Expedition"]};
+				{ 11, "s28576", "22846", "=q1=Major Shadow Protection Potion", "=ds="..BabbleZone["Shadowmoon Valley"]};
+				{ 12, "s28565", "22839", "=q1=Destruction Potion", "=ds="..AL["World Drop"]};
+				{ 13, "s28564", "22838", "=q1=Haste Potion", "=ds="..AL["World Drop"]};
+				{ 14, "s28563", "22837", "=q1=Heroic Potion", "=ds="..AL["World Drop"]};
+				{ 15, "s28562", "22836", "=q1=Major Dreamless Sleep Potion", "=ds="..AL["Vendor"]};
+				{ 16, "s38962", "31676", "=q1=Fel Regeneration Potion", "=ds="..BabbleZone["Shadowmoon Valley"]};
+				{ 17, "s28555", "22832", "=q1=Super Mana Potion", "=ds="..AL["Vendor"]};
+				{ 18, "s28554", "22871", "=q1=Shrouding Potion", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Sporeggar"]};
+				{ 19, "s45061", "34440", "=q1=Mad Alchemist's Potion", "=ds="..AL["Trainer"]};
+				{ 20, "s28551", "22829", "=q1=Super Healing Potion", "=ds="..AL["Trainer"]};
+				{ 21, "s28550", "22828", "=q1=Insane Strength Potion", "=ds="..AL["World Drop"]};
+				{ 22, "s28546", "22826", "=q1=Sneaking Potion", "=ds="..AL["Vendor"]};
+				{ 23, "s33733", "28101", "=q1=Unstable Mana Potion", "=ds="..AL["Trainer"]};
+				{ 25, "s22732", "18253", "=q1=Major Rejuvenation Potion", "=ds="..BabbleZone["Molten Core"]};
+				{ 26, "s33732", "28100", "=q1=Volatile Healing Potion", "=ds="..AL["Trainer"]};
+				{ 27, "s17580", "13444", "=q1=Major Mana Potion", "=ds="..AL["Vendor"]..", "..BabbleZone["Western Plaguelands"]};
+				{ 28, "s17577", "13461", "=q1=Greater Arcane Protection Potion", "=ds="..BabbleZone["Winterspring"]};
+				{ 29, "s17574", "13457", "=q1=Greater Fire Protection Potion", "=ds="..BabbleZone["Blackrock Spire"]};
+				{ 30, "s17575", "13456", "=q1=Greater Frost Protection Potion", "=ds="..BabbleZone["Winterspring"]};
 			};
 			{
-				{ 1, "s11452", "9030", "=q1=Restorative Potion", "=ds="..BabbleInventory["Quest"]..": "..BabbleZone["Badlands"]};
-				{ 2, "s11448", "6149", "=q1=Greater Mana Potion", "=ds="..AL["Trainer"]};
-				{ 3, "s7258", "6050", "=q1=Frost Protection Potion", "=ds="..AL["Vendor"]};
-				{ 4, "s7259", "6052", "=q1=Nature Protection Potion", "=ds="..AL["Vendor"]};
-				{ 5, "s6618", "5633", "=q1=Great Rage Potion", "=ds="..AL["Vendor"]};
-				{ 6, "s3448", "3823", "=q1=Lesser Invisibility Potion", "=ds="..AL["Trainer"]};
-				{ 7, "s7257", "6049", "=q1=Fire Protection Potion", "=ds="..AL["Vendor"]};
-				{ 8, "s3452", "3827", "=q1=Mana Potion", "=ds="..AL["Trainer"]};
-				{ 9, "s7181", "1710", "=q1=Greater Healing Potion", "=ds="..AL["Trainer"]};
-				{ 10, "s6624", "5634", "=q1=Free Action Potion", "=ds="..AL["Vendor"]};
-				{ 11, "s7256", "6048", "=q1=Shadow Protection Potion", "=ds="..AL["Vendor"]};
-				{ 12, "s3173", "3385", "=q1=Lesser Mana Potion", "=ds="..AL["Trainer"]};
-				{ 13, "s3174", "3386", "=q1=Potion of Curing", "=ds="..AL["World Drop"]};
-				{ 14, "s3447", "929", "=q1=Healing Potion", "=ds="..AL["Trainer"]};
-				{ 15, "s3172", "3384", "=q1=Minor Magic Resistance Potion", "=ds="..AL["World Drop"]};
-				{ 16, "s7255", "6051", "=q1=Holy Protection Potion", "=ds="..AL["Vendor"]};
-				{ 17, "s7841", "6372", "=q1=Swim Speed Potion", "=ds="..AL["Trainer"]};
-				{ 18, "s6617", "5631", "=q1=Rage Potion", "=ds="..AL["Vendor"]};
-				{ 19, "s2335", "2459", "=q1=Swiftness Potion", "=ds="..AL["World Drop"]};
-				{ 20, "s2337", "858", "=q1=Lesser Healing Potion", "=ds="..AL["Trainer"]};
-				{ 21, "s4508", "4596", "=q1=Discolored Healing Potion", "=ds="..BabbleInventory["Quest"]..", "..BabbleZone["Silverpine Forest"]};
-				{ 22, "s2332", "2456", "=q1=Minor Rejuvenation Potion", "=ds="..AL["Trainer"]};
-				{ 23, "s2331", "2455", "=q1=Minor Mana Potion", "=ds="..AL["Trainer"]};
-				{ 24, "s2330", "118", "=q1=Minor Healing Potion", "=ds="..AL["Trainer"]};
+				{ 1, "s17576", "13458", "=q1=Greater Nature Protection Potion", "=ds="..BabbleZone["Western Plaguelands"]};
+				{ 2, "s17578", "13459", "=q1=Greater Shadow Protection Potion", "=ds="..BabbleZone["Eastern Plaguelands"]};
+				{ 3, "s24367", "20008", "=q1=Living Action Potion", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Zandalar Tribe"]};
+				{ 4, "s17572", "13462", "=q1=Purification Potion", "=ds="..AL["World Drop"]};
+				{ 5, "s17570", "13455", "=q1=Greater Stoneshield Potion", "=ds="..AL["World Drop"]};
+				{ 6, "s24366", "20002", "=q1=Greater Dreamless Sleep Potion", "=ds="..BabbleFaction["Friendly"]..": "..BabbleFaction["Zandalar Tribe"]};
+				{ 7, "s17556", "13446", "=q1=Major Healing Potion", "=ds="..AL["Trainer"]};
+				{ 8, "s17553", "13443", "=q1=Superior Mana Potion", "=ds="..AL["Trainer"]};
+				{ 9, "s17552", "13442", "=q1=Mighty Rage Potion", "=ds="..AL["Trainer"]};
+				{ 10, "s3175", "3387", "=q1=Limited Invulnerability Potion", "=ds="..AL["World Drop"]};
+				{ 11, "s11464", "9172", "=q1=Invisibility Potion", "=ds="..AL["World Drop"]};
+				{ 12, "s15833", "12190", "=q1=Dreamless Sleep Potion", "=ds="..AL["Trainer"]};
+				{ 13, "s11458", "9144", "=q1=Wildvine Potion", "=ds="..BabbleZone["The Hinterlands"].."/"..BabbleZone["Stranglethorn Vale"]};
+				{ 14, "s4942", "4623", "=q1=Lesser Stoneshield Potion", "=ds="..BabbleInventory["Quest"]..": "..BabbleZone["Badlands"]};
+				{ 15, "s11457", "3928", "=q1=Superior Healing Potion", "=ds="..AL["Trainer"]};
+				{ 16, "s11453", "9036", "=q1=Magic Resistance Potion", "=ds="..AL["World Drop"]};
+				{ 17, "s11452", "9030", "=q1=Restorative Potion", "=ds="..BabbleInventory["Quest"]..": "..BabbleZone["Badlands"]};
+				{ 18, "s11448", "6149", "=q1=Greater Mana Potion", "=ds="..AL["Trainer"]};
+				{ 19, "s7258", "6050", "=q1=Frost Protection Potion", "=ds="..AL["Vendor"]};
+				{ 20, "s7259", "6052", "=q1=Nature Protection Potion", "=ds="..AL["Vendor"]};
+				{ 21, "s6618", "5633", "=q1=Great Rage Potion", "=ds="..AL["Vendor"]};
+				{ 22, "s3448", "3823", "=q1=Lesser Invisibility Potion", "=ds="..AL["Trainer"]};
+				{ 23, "s7257", "6049", "=q1=Fire Protection Potion", "=ds="..AL["Vendor"]};
+				{ 24, "s3452", "3827", "=q1=Mana Potion", "=ds="..AL["Trainer"]};
+				{ 25, "s7181", "1710", "=q1=Greater Healing Potion", "=ds="..AL["Trainer"]};
+				{ 26, "s6624", "5634", "=q1=Free Action Potion", "=ds="..AL["Vendor"]};
+				{ 27, "s7256", "6048", "=q1=Shadow Protection Potion", "=ds="..AL["Vendor"]};
+				{ 28, "s3173", "3385", "=q1=Lesser Mana Potion", "=ds="..AL["Trainer"]};
+				{ 29, "s3174", "3386", "=q1=Potion of Curing", "=ds="..AL["World Drop"]};
+				{ 30, "s3447", "929", "=q1=Healing Potion", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, "s3172", "3384", "=q1=Minor Magic Resistance Potion", "=ds="..AL["World Drop"]};
+				{ 2, "s7255", "6051", "=q1=Holy Protection Potion", "=ds="..AL["Vendor"]};
+				{ 3, "s7841", "6372", "=q1=Swim Speed Potion", "=ds="..AL["Trainer"]};
+				{ 4, "s6617", "5631", "=q1=Rage Potion", "=ds="..AL["Vendor"]};
+				{ 5, "s2335", "2459", "=q1=Swiftness Potion", "=ds="..AL["World Drop"]};
+				{ 6, "s2337", "858", "=q1=Lesser Healing Potion", "=ds="..AL["Trainer"]};
+				{ 7, "s4508", "4596", "=q1=Discolored Healing Potion", "=ds="..BabbleInventory["Quest"]..", "..BabbleZone["Silverpine Forest"]};
+				{ 8, "s2332", "2456", "=q1=Minor Rejuvenation Potion", "=ds="..AL["Trainer"]};
+				{ 9, "s2331", "2455", "=q1=Minor Mana Potion", "=ds="..AL["Trainer"]};
+				{ 10, "s2330", "118", "=q1=Minor Healing Potion", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -397,16 +386,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["AlchemyTransmute"] = {
 		["Normal"] = {
 			{
-				{ 1, "s80247", "52195", "=q3=Transmute: Amberjewel", "=ds="};
-				{ 2, "s80248", "52194", "=q3=Transmute: Demonseye", "=ds="};
-				{ 3, "s80251", "52192", "=q3=Transmute: Dream Emerald", "=ds="};
-				{ 4, "s80250", "52193", "=q3=Transmute: Ember Topaz", "=ds="};
-				{ 5, "s80245", "52190", "=q3=Transmute: Inferno Ruby", "=ds="};
-				{ 6, "s80246", "52191", "=q3=Transmute: Ocean Sapphire", "=ds="};
-				{ 7, "s80237", "52303", "=q3=Transmute: Shadowspirit Diamond", "=ds="};
-				{ 16, "s80243", "58480", "=q2=Transmute: Truegold", "=ds="};
-				{ 17, "s80244", "51950", "=q2=Transmute: Pyrium Bar", "=ds="};
-				{ 19, "s78866", "54464", "=q1=Transmute: Living Elements", "=ds="};
+				{ 1, "s80247", "52195", "=q3=Transmute: Amberjewel", "=ds="..AL["Trainer"]};
+				{ 2, "s80248", "52194", "=q3=Transmute: Demonseye", "=ds="..AL["Trainer"]};
+				{ 3, "s80251", "52192", "=q3=Transmute: Dream Emerald", "=ds="..AL["Trainer"]};
+				{ 4, "s80250", "52193", "=q3=Transmute: Ember Topaz", "=ds="..AL["Trainer"]};
+				{ 5, "s80245", "52190", "=q3=Transmute: Inferno Ruby", "=ds="..AL["Trainer"]};
+				{ 6, "s80246", "52191", "=q3=Transmute: Ocean Sapphire", "=ds="..AL["Trainer"]};
+				{ 7, "s80237", "52303", "=q3=Transmute: Shadowspirit Diamond", "=ds="..AL["Trainer"]};
+				{ 16, "s80243", "58480", "=q2=Transmute: Truegold", "=ds="..AL["Trainer"]};
+				{ 17, "s80244", "51950", "=q2=Transmute: Pyrium Bar", "=ds="..AL["Trainer"]};
+				{ 19, "s78866", "54464", "=q1=Transmute: Living Elements", "=ds="..AL["Trainer"]};
 			};
 			{
 				{ 1, "s66659", "36919", "=q4=Transmute: Cardinal Ruby", "=ds="..AL["Quest Reward"]};
@@ -419,18 +408,18 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 9, "s57427", "41334", "=q3=Transmute: Earthsiege Diamond", "=ds="..AL["Trainer"]};
 				{ 10, "s57425", "41266", "=q3=Transmute: Skyflare Diamond", "=ds="..AL["Trainer"]};
 				{ 12, "s60350", "41163", "=q2=Transmute: Titanium", "=ds="..AL["Trainer"]};
-				{ 16, "s53777", "35624", "=q2=Transmute: Eternal Air to Earth", "=ds="};
-				{ 17, "s53776", "35622", "=q2=Transmute: Eternal Air to Water", "=ds="};
-				{ 18, "s53781", "35623", "=q2=Transmute: Eternal Earth to Air", "=ds="};
-				{ 19, "s53782", "35627", "=q2=Transmute: Eternal Earth to Shadow", "=ds="};
-				{ 20, "s53775", "35625", "=q2=Transmute: Eternal Fire to Life", "=ds="};
-				{ 21, "s53774", "35622", "=q2=Transmute: Eternal Fire to Water", "=ds="};
-				{ 22, "s53773", "36860", "=q2=Transmute: Eternal Life to Fire", "=ds="};
-				{ 23, "s53771", "35627", "=q2=Transmute: Eternal Life to Shadow", "=ds="};
-				{ 24, "s53779", "35624", "=q2=Transmute: Eternal Shadow to Earth", "=ds="};
-				{ 25, "s53780", "35625", "=q2=Transmute: Eternal Shadow to Life", "=ds="};
-				{ 26, "s53783", "35623", "=q2=Transmute: Eternal Water to Air", "=ds="};
-				{ 27, "s53784", "36860", "=q2=Transmute: Eternal Water to Fire", "=ds="};
+				{ 16, "s53777", "35624", "=q2=Transmute: Eternal Air to Earth", "=ds="..AL["Discovery"]};
+				{ 17, "s53776", "35622", "=q2=Transmute: Eternal Air to Water", "=ds="..AL["Discovery"]};
+				{ 18, "s53781", "35623", "=q2=Transmute: Eternal Earth to Air", "=ds="..AL["Discovery"]};
+				{ 19, "s53782", "35627", "=q2=Transmute: Eternal Earth to Shadow", "=ds="..AL["Discovery"]};
+				{ 20, "s53775", "35625", "=q2=Transmute: Eternal Fire to Life", "=ds="..AL["Discovery"]};
+				{ 21, "s53774", "35622", "=q2=Transmute: Eternal Fire to Water", "=ds="..AL["Discovery"]};
+				{ 22, "s53773", "36860", "=q2=Transmute: Eternal Life to Fire", "=ds="..AL["Discovery"]};
+				{ 23, "s53771", "35627", "=q2=Transmute: Eternal Life to Shadow", "=ds="..AL["Discovery"]};
+				{ 24, "s53779", "35624", "=q2=Transmute: Eternal Shadow to Earth", "=ds="..AL["Discovery"]};
+				{ 25, "s53780", "35625", "=q2=Transmute: Eternal Shadow to Life", "=ds="..AL["Discovery"]};
+				{ 26, "s53783", "35623", "=q2=Transmute: Eternal Water to Air", "=ds="..AL["Discovery"]};
+				{ 27, "s53784", "36860", "=q2=Transmute: Eternal Water to Fire", "=ds="..AL["Discovery"]};
 			};
 			{
 				{ 1, "s29688", "23571", "=q3=Transmute: Primal Might", "=ds="..AL["Vendor"]};
@@ -466,46 +455,63 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["AlchemyCauldron"] = {
+		["Normal"] = {
+			{
+				{ 1, "s92688", "65460", "=q1=Big Cauldron of Battle", "=ds="..BabbleFaction["Friendly"]..":"..AL["Guild"]};
+				{ 2, "s92643", "62288", "=q1=Cauldron of Battle", "=ds="..BabbleFaction["Friendly"]..":"..AL["Guild"]};
+				{ 16, "s41458", "32839", "=q1=Cauldron of Major Arcane Protection Potion", "=ds="..AL["Discovery"]};
+				{ 17, "s41500", "32849", "=q1=Cauldron of Major Fire Protection Potion", "=ds="..AL["Discovery"]};
+				{ 18, "s41501", "32850", "=q1=Cauldron of Major Frost Protection Potion", "=ds="..AL["Discovery"]};
+				{ 19, "s41502", "32851", "=q1=Cauldron of Major Nature Protection Potion", "=ds="..AL["Discovery"]};
+				{ 20, "s41503", "32852", "=q1=Cauldron of Major Shadow Protection Potion", "=ds="..AL["Discovery"]};
+			};
+		};
+		info = {
+			name = ALCHEMY..": "..AL["Cauldron"],
+			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+		};
+
+	};
+
+	AtlasLoot_Data["AlchemyOil"] = {
+		["Normal"] = {
+			{
+				{ 1, "s80486", "56850", "=q1=Deepstone Oil", "=ds="..AL["Trainer"]};
+				{ 2, "s62409", "44958", "=q1=Ethereal Oil", "=ds="..AL["Trainer"]};
+				{ 3, "s53812", "40195", "=q1=Pygmy Oil", "=ds="..AL["Trainer"]};
+				{ 4, "s17551", "13423", "=q1=Stonescale Oil", "=ds="..AL["Trainer"]};
+				{ 5, "s3454", "3829", "=q1=Frost Oil", "=ds="..AL["Vendor"]..", "..BabbleZone["Alterac Mountains"]};
+				{ 6, "s11451", "8956", "=q1=Oil of Immolation", "=ds="..AL["Trainer"]};
+				{ 7, "s3449", "3824", "=q1=Shadow Oil", "=ds="..AL["Vendor"]};
+				{ 8, "s7836", "6370", "=q1=Blackmouth Oil", "=ds="..AL["Trainer"]};
+				{ 9, "s7837", "6371", "=q1=Fire Oil", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = ALCHEMY..": "..AL["Oil"],
+			module = moduleName, menu = "ALCHEMYMENU", instance = "Alchemy",
+		};
+
+	};
+
 	AtlasLoot_Data["AlchemyMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s47050", "35751", "=q4=Assassin's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
-				{ 2, "s47046", "35748", "=q4=Guardian's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
-				{ 3, "s47049", "35750", "=q4=Redeemer's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
-				{ 4, "s47048", "35749", "=q4=Sorcerer's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
-				{ 5, "s17632", "13503", "=q4=Alchemist's Stone", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["The Sha'tar"]};
-				{ 6, "s60403", "44323", "=q3=Indestructible Alchemist Stone", "=ds="..AL["Trainer"]};
-				{ 7, "s60396", "44322", "=q3=Mercurial Alchemist Stone", "=ds="..AL["Trainer"]};
-				{ 8, "s60405", "44324", "=q3=Mighty Alchemist Stone", "=ds="..AL["Trainer"]};
-				{ 9, "s24266", "19931", "=q3=Gurubashi Mojo Madness", "=ds="..BabbleZone["Zul'Gurub"]};
-				{ 10, "s38070", "31080", "=q2=Mercurial Stone", "=ds="..AL["Trainer"]};
-				{ 11, "s62409", "44958", "=q1=Ethereal Oil", "=ds="..AL["Trainer"]};
-				{ 12, "s53812", "40195", "=q1=Pygmy Oil", "=ds="..AL["Trainer"]};
-				{ 13, "s41458", "32839", "=q1=Cauldron of Major Arcane Protection Potion", "=ds="..AL["Discovery"]};
-				{ 14, "s41500", "32849", "=q1=Cauldron of Major Fire Protection Potion", "=ds="..AL["Discovery"]};
-				{ 15, "s41501", "32850", "=q1=Cauldron of Major Frost Protection Potion", "=ds="..AL["Discovery"]};
-				{ 16, "s41502", "32851", "=q1=Cauldron of Major Nature Protection Potion", "=ds="..AL["Discovery"]};
-				{ 17, "s41503", "32852", "=q1=Cauldron of Major Shadow Protection Potion", "=ds="..AL["Discovery"]};
-				{ 18, "s28552", "22830", "=q1=Elixir of the Searching Eye", "=ds="..AL["World Drop"]};
-				{ 19, "s28543", "22823", "=q1=Elixir of Camouflage", "=ds="..AL["Vendor"]};
-				{ 20, "s11478", "9233", "=q1=Elixir of Detect Demon", "=ds="..AL["Trainer"]};
-				{ 21, "s17551", "13423", "=q1=Stonescale Oil", "=ds="..AL["Trainer"]};
-				{ 22, "s11473", "9210", "=q1=Ghost Dye", "=ds="..AL["Vendor"]..", "..BabbleZone["Feralas"]};
-				{ 23, "s11468", "9197", "=q1=Elixir of Dream Vision", "=ds="..AL["World Drop"]};
-				{ 24, "s11460", "9154", "=q1=Elixir of Detect Undead", "=ds="..AL["Trainer"]};
-				{ 25, "s22808", "18294", "=q1=Elixir of Greater Water Breathing", "=ds="..AL["Trainer"]};
-				{ 26, "s11456", "9061", "=q1=Goblin Rocket Fuel", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036)};
-				{ 27, "s11451", "8956", "=q1=Oil of Immolation", "=ds="..AL["Trainer"]};
-				{ 28, "s12609", "10592", "=q1=Catseye Elixir", "=ds="..AL["Trainer"]};
-				{ 29, "s3454", "3829", "=q1=Frost Oil", "=ds="..AL["Vendor"]..", "..BabbleZone["Alterac Mountains"]};
-				{ 30, "s11459", "9149", "=q1=Philosopher's Stone", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
-			};
-			{
-				{ 1, "s3453", "3828", "=q1=Elixir of Detect Lesser Invisibility", "=ds="..AL["World Drop"]};
-				{ 2, "s3449", "3824", "=q1=Shadow Oil", "=ds="..AL["Vendor"]};
-				{ 3, "s7837", "6371", "=q1=Fire Oil", "=ds="..AL["Trainer"]};
-				{ 4, "s7179", "5996", "=q1=Elixir of Water Breathing", "=ds="..AL["Trainer"]};
-				{ 5, "s7836", "6370", "=q1=Blackmouth Oil", "=ds="..AL["Trainer"]};
+				{ 1, "s80508", "58483", "=q4=Lifebound Alchemist Stone", "=ds="..AL["Trainer"]};
+				{ 2, "s47050", "35751", "=q4=Assassin's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
+				{ 3, "s47046", "35748", "=q4=Guardian's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
+				{ 4, "s47049", "35750", "=q4=Redeemer's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
+				{ 5, "s47048", "35749", "=q4=Sorcerer's Alchemist Stone", "=ds="..BabbleFaction["Exalted"]..": "..BabbleFaction["Shattered Sun Offensive"]};
+				{ 6, "s17632", "13503", "=q4=Alchemist's Stone", "=ds="..BabbleFaction["Revered"]..": "..BabbleFaction["The Sha'tar"]};
+				{ 8, "s60403", "44323", "=q3=Indestructible Alchemist Stone", "=ds="..AL["Trainer"]};
+				{ 9, "s60396", "44322", "=q3=Mercurial Alchemist Stone", "=ds="..AL["Trainer"]};
+				{ 10, "s60405", "44324", "=q3=Mighty Alchemist Stone", "=ds="..AL["Trainer"]};
+				{ 12, "s38070", "31080", "=q2=Mercurial Stone", "=ds="..AL["Trainer"]};
+				{ 13, "s11459", "9149", "=q2=Philosopher's Stone", "=ds="..AL["Vendor"]..", "..BabbleZone["Tanaris"]};
+				{ 16, "s11456", "9061", "=q1=Goblin Rocket Fuel", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036)};				
+				{ 18, "s11473", "9210", "=q1=Ghost Dye", "=ds="..AL["Vendor"]..", "..BabbleZone["Feralas"]};
+				{ 19, "s24266", "19931", "=q3=Gurubashi Mojo Madness", "=ds="..BabbleZone["Zul'Gurub"]};				
 			};
 		};
 		info = {

@@ -73,13 +73,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ALCHEMYMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "AlchemyBattleElixir", "inv_alchemy_potion_06", "=ds="..AL["Battle Elixirs"], "" };
-				{ 3, "AlchemyPotion", "inv_alchemy_elixir_02", "=ds="..AL["Potions"], "" };
-				{ 4, "AlchemyTransmute", "inv_elemental_eternal_air", "=ds="..AL["Transmutes"], "" };
-				{ 6, "AlchemyBattleElixirNEW", "inv_alchemy_potion_06", "=ds="..AL["Battle Elixirs"], "" };
-				{ 17, "AlchemyGuardianElixir", "inv_potion_164", "=ds="..AL["Guardian Elixirs"], "" };
-				{ 18, "AlchemyFlask", "inv_alchemy_endlessflask_04", "=ds="..AL["Flasks"], "" };
-				{ 19, "AlchemyMisc", "inv_misc_cauldron_frost", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 1, "AlchemyBattleElixir", "inv_alchemy_potion_06", "=ds="..AL["Battle Elixirs"], "" };
+				{ 2, "AlchemyGuardianElixir", "inv_potion_164", "=ds="..AL["Guardian Elixirs"], "" };			
+				{ 4, "AlchemyFlask", "inv_alchemy_endlessflask_04", "=ds="..AL["Flasks"], "" };
+				{ 5, "AlchemyCauldron", "inv_misc_cauldron_fire", "=ds="..AL["Cauldrons"], "" };
+				{ 7, "AlchemyPotion", "inv_alchemy_elixir_02", "=ds="..AL["Potions"], "" };
+				{ 16, "AlchemyOtherElixir", "inv_potion_112", "=ds="..AL["Other Elixirs"], "" };				
+				{ 18, "AlchemyOil", "inv_potion_07", "=ds="..AL["Oils"], "" };
+				{ 20, "AlchemyTransmute", "inv_elemental_eternal_air", "=ds="..AL["Transmutes"], "" };				
+				{ 21, "AlchemyMisc", "spell_holy_aspiration", "=ds="..BabbleInventory["Miscellaneous"], "" };
 			};
 		};
 		info = {
