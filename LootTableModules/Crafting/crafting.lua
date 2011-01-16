@@ -3599,6 +3599,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, "s57210", "43536", "=q1=Glyph of Bone Shield", "=ds=#sr# 265", "=ds="..AL["Trainer"] };
 				{ 5, "s57211", "43537", "=q1=Glyph of Chains of Ice", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 6, "s64297", "45799", "=q1=Glyph of Dancing Rune Weapon", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				-- TODO 4.0.6: Add Glyph of Dark Succor (below)
+				--{ 7, "s96284", "68793", "=q1=Glyph of Dark Succor", "=ds=#sr# 280", "=ds=Available in 4.0.6 from "..AL["Trainer"] };
 				{ 7, "s57213", "43541", "=q1=Glyph of Death Grip", "=ds=#sr# 285", "=ds="..AL["Trainer"] };
 				{ 17, "s64298", "45800", "=q1=Glyph of Hungering Cold", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 				{ 18, "s57221", "43548", "=q1=Glyph of Pestilence", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
@@ -3845,6 +3847,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Major Glyph"], "" };
 				{ 2, "s57181", "42396", "=q1=Glyph of Circle of Healing", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				-- TODO 4.0.6: Add Glyph of desperation (below)
+				--{ 3, "s64259", "45760", "=q1=Glyph of Desperation", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 				{ 3, "s57183", "42397", "=q1=Glyph of Dispel Magic", "=ds=#sr# 230", "=ds="..AL["Trainer"] };
 				{ 4, "s64283", "45758", "=q1=Glyph of Divine Accuracy", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 				{ 5, "s57184", "42398", "=q1=Glyph of Fade", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
@@ -3852,11 +3856,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, "s57187", "42401", "=q1=Glyph of Holy Nova", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
 				{ 8, "s57188", "42402", "=q1=Glyph of Inner Fire", "=ds=#sr# 135", "=ds="..AL["Trainer"] };
 				{ 9, "s57190", "42404", "=q1=Glyph of Mass Dispel", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				-- TODO 4.0.6: Remove Glyph of Pain Suppression (below)
 				{ 17, "s64259", "45760", "=q1=Glyph of Pain Suppression", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				-- TODO 4.0.6: Add Glyph of Prayer of Mending (below)
+				--{ 18, "s57202", "42417", "=q1=Glyph of Prayer of Mending", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 18, "s57191", "42405", "=q1=Glyph of Psychic Horror", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 19, "s57196", "42410", "=q1=Glyph of Psychic Scream", "=ds=#sr# 95", "=ds="..AL["Trainer"] };
 				{ 20, "s57198", "42412", "=q1=Glyph of Scourge Imprisonment", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
 				{ 21, "s57201", "42416", "=q1=Glyph of Smite", "=ds=#sr# 210", "=ds="..AL["Trainer"] };
+				-- TODO 4.0.6: Remove Glyph of Spirit of Redemption (below)
 				{ 22, "s57202", "42417", "=q1=Glyph of Spirit of Redemption", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 23, "s64309", "45757", "=q1=Glyph of Spirit Tap", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 			};
