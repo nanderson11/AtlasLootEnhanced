@@ -313,6 +313,7 @@ if AL then
 	AL["PvP Misc"] = "PvP (Sonstiges)";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Edelsteine/Verzauberungen/Rezepte";
 	AL["PvP Class Items"] = "PvP Klassengegenstände";
+	AL["PvP Trinkets"] = "PvP Schmuckstücke";
 	AL["NOT AVAILABLE ANYMORE"] = "NICHT MEHR VERFÜGBAR";
 
 	-- World Events
@@ -395,13 +396,20 @@ if AL then
 
 	-- Alchemy
 	AL["Battle Elixirs"] = "Kampfelixiere";
+	AL["Cauldron"] = "Kessel";
+	AL["Cauldrons"] = "Kessel";
 	AL["Guardian Elixirs"] = "Wächterelixiere";
+	AL["Oils"] = "Öle";
+	AL["Other Elixirs"] = "Andere Elixiere";
 	AL["Potions"] = "Tränke";
 	AL["Transmutes"] = "Transmutieren";
 	AL["Flasks"] = "Fläschchen";
+	AL["Guild"] = "Gilde";
 
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = "Cataclysm - Vom Händler verkaufte Pläne";
+	AL["Armor Enhancements"] = "Rüstungsverbesserungen";
+	AL["Weapon Enhancements"] = "Waffenverbesserungen";
 
 	-- Enchanting
 	AL["Enchant Boots"] = "Stiefel verzaubern";
@@ -419,10 +427,17 @@ if AL then
 	AL["Tinker"] = "Basteln";
 
 	-- Inscription
+	AL["Glyph"] = "Glyphe";
+	AL["Prime Glyph"] = "Primärglyphe";
 	AL["Major Glyph"] = "Erhebliche Glyphe";
 	AL["Minor Glyph"] = "Geringe Glyphe";
+	AL["Runescrolls"] = "Runenschriftrollen";
+	AL["Recall"] = "Rückruf";
 	AL["Scrolls"] = "Rollen";
 	AL["Off-Hand Items"] = "Nebenhand-Gegenstände";
+	AL["Relics/Shoulder Enchants"] = "Relikte/Schulterverzauberungen";
+	AL["Relics"] = "Relikte";
+	AL["Shoulder Enchants"] = "Schulterverzauberungen";
 	AL["Reagents"] = "Reagenzien";
 	AL["Book of Glyph Mastery"] = "Buch der Glyphenbeherrschung";
 
@@ -567,6 +582,7 @@ if AL then
 	AL["Other Ratings"] = "Andere Wertungen";
 	AL["Ratings"] = "Wertungen";
 	AL["Resistance"] = "Widerstand";
+	AL["Damage Absorption"] = "Schadenssbsorption";
 	AL["Health / Second"] = "Gesundheit / Sekunde";
 	AL["Mana / Second"] = "Mana / Sekunde";
 	AL["Tracking"] = "Aufspürung";
