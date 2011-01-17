@@ -396,13 +396,20 @@ if AL then
 
 	-- Alchemy
 	AL["Battle Elixirs"] = "Elixirs de bataille";
+	AL["Cauldron"] = "Chaudron";
+	AL["Cauldrons"] = "Chaudrons";
 	AL["Guardian Elixirs"] = "Elixirs du Gardien";
+	AL["Oils"] = "Huiles";
+	AL["Other Elixirs"] = "Autre élixirs";
 	--AL["Potions"] = true;
 	AL["Transmutes"] = "Transmutations";
 	AL["Flasks"] = "Flacons";
+	AL["Guild"] = "Guilde";
 
 	-- Blacksmithing
-	--AL["Cataclysm Vendor Sold Plans"] = true; --  traduire
+	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Catalysm"
+	AL["Armor Enhancements"] = "Améliorations d'armure";
+	AL["Weapon Enhancements"] = "Améliorations d'arme";
 
 	-- Enchanting
 	AL["Enchant Boots"] = "Enchantement Bottes";
@@ -420,10 +427,17 @@ if AL then
 	--AL["Tinker"] = true; -- à traduire
 
 	-- Inscription
+	AL["Glyph"] = "Glyphe";
+	AL["Prime Glyph"] = "Glyphe primordial";
 	AL["Major Glyph"] = "Glyphe majeur";
 	AL["Minor Glyph"] = "Glyphe mineur";
+	AL["Runescrolls"] = "Parchemins";
+	AL["Recall"] = "Rappel";
 	AL["Scrolls"] = "Parchemins";
 	AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
+	AL["Relics/Shoulder Enchants"] = "Reliques / Enchantements d'épaule";
+	AL["Relics"] = "Reliques";
+	AL["Shoulder Enchants"] = "Enchantements d'épaule";
 	AL["Reagents"] = "Réactifs";
 	AL["Book of Glyph Mastery"] = "Livre de la maîtrise des glyphes";
 
@@ -548,12 +562,12 @@ if AL then
 
 	-- Profession descriptions -- à traduire
 	--AL["Buff"] = true;
-	--AL["Agility"] = true;
-	--AL["Intellect"] = true;
-	--AL["Strength"] = true;
-	--AL["Spirit"] = true;
-	--AL["Stamina"] = true;
-	--AL["Agility, Intellect, Strength"] = true;
+	AL["Agility"] = "Agilité";
+	AL["Intellect"] = "Intelligence";
+	AL["Strength"] = "Force";
+	AL["Spirit"] = "Esprit";
+	AL["Stamina"] = "Endurance";
+	AL["Agility, Intellect, Strength"] = "Agilité, intelligence, force";
 	--AL["Spell Power"] = true;
 	--AL["Attack Power"] = true;
 	--AL["Spell/Attack Power"] = true;
@@ -568,6 +582,7 @@ if AL then
 	--AL["Other Ratings"] = true;
 	--AL["Ratings"] = true;
 	--AL["Resistance"] = true;
+	--AL["Damage Absorption"] = true;
 	--AL["Health / Second"] = true;
 	--AL["Mana / Second"] = true;
 	--AL["Tracking"] = true;
