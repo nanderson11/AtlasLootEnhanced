@@ -312,6 +312,7 @@ if AL then
 	AL["PvP Misc"] = "PvP 珠寶加工設計圖";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
 	AL["PvP Class Items"] = "PvP 職業物品";
+	AL["PvP Trinkets"] = "PvP 飾品";
 	AL["NOT AVAILABLE ANYMORE"] = "再也無法使用";
 
 	--World Events
@@ -394,13 +395,20 @@ if AL then
 
 	--Alchemy
 	AL["Battle Elixirs"] = "作戰藥劑";
+	AL["Cauldron"] = "大鍋";
+	AL["Cauldrons"] = "大鍋";
 	AL["Guardian Elixirs"] = "守護藥劑";
+	AL["Oils"] = "附魔油";
+	AL["Other Elixirs"] = "其他藥劑";
 	AL["Potions"] = "藥水";
 	AL["Transmutes"] = "轉化";
 	AL["Flasks"] = "精鍊藥劑";
+	AL["Guild"] = "公會";
 
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商出售設計圖";
+	AL["Armor Enhancements"] = "護甲附魔";
+	AL["Weapon Enhancements"] = "武器附魔";
 
 	--Enchanting
 	AL["Enchant Boots"] = "附魔靴子";
@@ -418,10 +426,17 @@ if AL then
 	AL["Tinker"] = "工程師專屬";
 
 	--Inscription
+	AL["Glyph"] = "雕紋";
+	AL["Prime Glyph"] = "主要雕紋";
 	AL["Major Glyph"] = "極效雕紋";
 	AL["Minor Glyph"] = "初階雕紋";
+	AL["Runescrolls"] = "符文卷軸";
+	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷軸";
 	AL["Off-Hand Items"] = "副手物品";
+	AL["Relics/Shoulder Enchants"] = "聖物/肩部附魔";
+	AL["Relics"] = "聖物";
+	AL["Shoulder Enchants"] = "肩部附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕紋專精書籍";
 
@@ -472,7 +487,7 @@ if AL then
 	AL["Classic WoW"] = "原始的魔獸世界";
 	AL["Burning Crusade"] = "燃燒的遠征";
 	AL["Wrath of the Lich King"] = "巫妖王之怒";
-	AL["Cataclysm"] = "浩劫重生後的魔獸世界";
+	AL["Cataclysm"] = "浩劫與重生";
 	AL["Entrance"] = "入口";
 	AL["Dungeon Set 1"] = "副本套裝 1";
 	AL["Dungeon Set 2"] = "副本套裝 2";
@@ -566,6 +581,7 @@ if AL then
 	AL["Other Ratings"] = "其他等級";
 	AL["Ratings"] = "等級";
 	AL["Resistance"] = "抗性";
+	AL["Damage Absorption"] = "吸收傷害";
 	AL["Health / Second"] = "每秒恢復生命";
 	AL["Mana / Second"] = "每秒恢復法力";
 	AL["Tracking"] = "追蹤";
