@@ -421,7 +421,7 @@ if AL then
 	AL["Enchant Shield"] = "Enchantement Bouclier";
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
-	--AL["Cataclysm Vendor Sold Formulas"] = true; -- à traduire
+	AL["Cataclysm Vendor Sold Formulas"] = "Vendeur de formules à Catalysm";
 
 	-- Engineering
 	--AL["Tinker"] = true; -- à traduire
@@ -452,7 +452,7 @@ if AL then
 	AL["Cloth Armor"] = "Armure en tissu";
 	AL["Shirts"] = "Chemises";
 	AL["Bags"] = "Sacs";
-	--AL["Cataclysm Vendor Sold Patterns"] = true; -- à traduire
+	AL["Cataclysm Vendor Sold Patterns"] = "Vendeur de patrons à Cataclysm";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "Classes :";
@@ -684,7 +684,7 @@ if AL then
 	AL["Card Game Tabards"] = true;
 	AL["Horde Tabards"] = true;
 	AL["Neutral Faction Tabards"] = true;
-	AL["PvP Tabards"] = true;
+	AL["PvP Tabards"] = "Tabards JcJ";
 	AL["Unobtainable Tabards"] = true;
 
 	-- Darkmoon Faire
