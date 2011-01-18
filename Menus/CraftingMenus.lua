@@ -223,19 +223,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LEATHERWORKINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "LeatherLeatherArmorOld", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Classic WoW"] };
-				{ 3, "LeatherLeatherArmorBC", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Burning Crusade"] };
-				{ 4, "LeatherLeatherArmorWrath", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 6, "LeatherCloaks", "inv_misc_cape_05", "=ds="..AL["Cloaks"], "" };
-				{ 7, "LeatherLeather", "inv_misc_leatherscrap_10", "=ds="..BabbleInventory["Leather"], "" };
+				{ 2, "LeatherLeatherArmorCata", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Cataclysm"] };
+				{ 3, "LeatherLeatherArmorWrath", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 4, "LeatherLeatherArmorBC", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Burning Crusade"] };
+				{ 5, "LeatherLeatherArmorOld", "INV_Misc_ArmorKit_17", "=ds="..AL["Leather Armor"], "=q5="..AL["Classic WoW"] };
+				{ 7, "LeatherItemEnhancement", "inv_misc_armorkit_18", "=ds="..AL["Item Enhancements"], "" };
 				{ 9, "Dragonscale", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10656), "" };
-				{ 10, "Tribal", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10660), "" };
-				{ 17, "LeatherMailArmorOld", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Classic WoW"] };
-				{ 18, "LeatherMailArmorBC", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Burning Crusade"] };
-				{ 19, "LeatherMailArmorWrath", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 21, "LeatherItemEnhancement", "inv_misc_armorkit_18", "=ds="..AL["Item Enhancements"], "" };
-				{ 22, "LeatherDrumsBagsMisc", "inv_misc_drum_03", "=ds="..AL["Drums, Bags and Misc."], "" };
-				{ 24, "Elemental", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10658), "" };
+				{ 10, "Elemental", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10658), "" };
+				{ 23, "Tribal", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10660), "" };
+				{ 17, "LeatherMailArmorCata", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Cataclysm"] };
+				{ 18, "LeatherMailArmorWrath", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 19, "LeatherMailArmorBC", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Burning Crusade"] };
+				{ 20, "LeatherMailArmorOld", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Classic WoW"] };
+				{ 21, "LeatherCloaks", "inv_misc_cape_05", "=ds="..AL["Cloaks"], "" };
+				{ 12, "LeatherLeather", "inv_misc_leatherscrap_10", "=ds="..BabbleInventory["Leather"], "" };
+				{ 26, "LeatherDrumsBagsMisc", "inv_misc_drum_03", "=ds="..AL["Drums, Bags and Misc."], "" };
+				
 			};
 		};
 		info = {

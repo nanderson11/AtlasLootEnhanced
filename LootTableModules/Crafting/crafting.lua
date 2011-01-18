@@ -5169,6 +5169,36 @@ local SPELLFIRE = GetSpellInfo(26797);
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
+	
+	AtlasLoot_Data["LeatherLeatherArmorCata"] = {
+		["Normal"] = {
+			{
+				{ 1, "s78488", "56562", "=q4=Assassin's Chestplate", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 2, "s78461", "56537", "=q4=Belt of Nefarious Whispers", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 3, "s78487", "56561", "=q4=Chestguard of Nature's Fury", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 4, "s78481", "56554", "=q3=Bloodied Leather Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 5, "s78482", "56555", "=q3=Bloodied Leather Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 6, "s78480", "56553", "=q3=Bloodied Wyrmhide Helm", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 7, "s78479", "56552", "=q3=Bloodied Wyrmhide Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 8, "s78468", "56542", "=q3=Bloodied Leather Belt", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 9, "s78469", "56543", "=q3=Bloodied Leather Helm", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 10, "s78467", "56541", "=q3=Bloodied Wyrmhide Chest", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 11, "s78464", "56540", "=q3=Bloodied Wyrmhide Shoulders", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 12, "s78454", "56530", "=q3=Bloodied Leather Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 13, "s78455", "56531", "=q3=Bloodied Leather Shoulders", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 14, "s78453", "56529", "=q3=Bloodied Wyrmhide Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 15, "s78452", "56528", "=q3=Bloodied Wyrmhide Gloves", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 16, "s78446", "56522", "=q3=Bloodied Leather Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 17, "s78447", "56523", "=q3=Bloodied Leather Gloves", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 18, "s78445", "56521", "=q3=Bloodied Wyrmhide Belt", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 19, "s78444", "56520", "=q3=Bloodied Wyrmhide Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+			};
+		};
+		info = {
+			name = LEATHERWORKING..": "..AL["Leather Armor"],
+			module = moduleName, menu = "LEATHERWORKINGMENU"
+		};
+	};
 
 	AtlasLoot_Data["LeatherMailArmorOld"] = {
 		["Normal"] = {
@@ -5372,6 +5402,34 @@ local SPELLFIRE = GetSpellInfo(26797);
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
+	
+	AtlasLoot_Data["LeatherMailArmorCata"] = {
+		["Normal"] = {
+			{
+				{ 1, "s78463", "56539", "=q4=Corded Viper Belt", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 2, "s78486", "56559", "=q3=Bloodied Dragonscale Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 3, "s78485", "56558", "=q3=Bloodied Dragonscale Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 4, "s78483", "56556", "=q3=Bloodied Scale Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 5, "s78484", "56557", "=q3=Bloodied Scale Helm", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 6, "s78473", "56546", "=q3=Bloodied Dragonscale Belt", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 7, "s78474", "56547", "=q3=Bloodied Dragonscale Helm", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 8, "s78471", "56545", "=q3=Bloodied Scale Legs", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 9, "s78470", "56544", "=q3=Bloodied Scale Shoulders", "=ds=#sr# 520", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 10, "s78458", "56534", "=q3=Bloodied Dragonscale Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 11, "s78459", "56535", "=q3=Bloodied Dragonscale Gloves", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 12, "s78457", "56533", "=q3=Bloodied Scale Belt", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 13, "s78456", "56532", "=q3=Bloodied Scale Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 14, "s78450", "56526", "=q3=Bloodied Dragonscale Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 15, "s78451", "56527", "=q3=Bloodied Dragonscale Shoulders", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 16, "s78448", "56524", "=q3=Bloodied Scale Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 17, "s78449", "56525", "=q3=Bloodied Scale Gloves", "=ds=#sr# 510", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+			};
+		};
+		info = {
+			name = LEATHERWORKING..": "..AL["Mail Armor"],
+			module = moduleName, menu = "LEATHERWORKINGMENU"
+		};
+	};
 
 	AtlasLoot_Data["LeatherCloaks"] = {
 		["Normal"] = {
@@ -5405,46 +5463,53 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherItemEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, "s57683", "Trade_LeatherWorking", "=ds=Fur Lining - Attack Power", "=ds="..AL["Trainer"]};
-				{ 2, "s57701", "Trade_LeatherWorking", "=ds=Fur Lining - Arcane Resist", "=ds="..AL["Drop"]};
-				{ 3, "s57692", "Trade_LeatherWorking", "=ds=Fur Lining - Fire Resist", "=ds="..AL["Drop"]};
-				{ 4, "s57694", "Trade_LeatherWorking", "=ds=Fur Lining - Frost Resist", "=ds="..AL["Drop"]};
-				{ 5, "s57699", "Trade_LeatherWorking", "=ds=Fur Lining - Nature Resist", "=ds="..AL["Drop"]};
-				{ 6, "s57696", "Trade_LeatherWorking", "=ds=Fur Lining - Shadow Resist", "=ds="..AL["Drop"]};
-				{ 7, "s57691", "Trade_LeatherWorking", "=ds=Fur Lining - Spell Power", "=ds="..AL["Trainer"]};
-				{ 8, "s57690", "Trade_LeatherWorking", "=ds=Fur Lining - Stamina", "=ds="..AL["Trainer"]};
-				{ 9, "s60583", "Trade_LeatherWorking", "=ds=Jormungar Leg Reinforcements", "=ds="..AL["Trainer"]};
-				{ 10, "s60584", "Trade_LeatherWorking", "=ds=Nerubian Leg Reinforcements", "=ds="..AL["Trainer"]};
-				{ 11, "s62448", "44963", "=q4=Earthen Leg Armor", "=ds="..AL["Trainer"]};
-				{ 12, "s50965", "38373", "=q4=Frosthide Leg Armor", "=ds="..AL["Trainer"]};
-				{ 13, "s50967", "38374", "=q4=Icescale Leg Armor", "=ds="..AL["Trainer"]};
-				{ 14, "s35557", "29536", "=q4=Nethercleft Leg Armor", "=ds=#sr# 365"};
-				{ 15, "s35554", "29535", "=q4=Nethercobra Leg Armor", "=ds=#sr# 365"};
-				{ 16, "s50964", "38371", "=q3=Jormungar Leg Armor", "=ds="..AL["Trainer"]};
-				{ 17, "s50966", "38372", "=q3=Nerubian Leg Armor", "=ds="..AL["Trainer"]};
-				{ 18, "s35555", "29534", "=q3=Clefthide Leg Armor", "=ds=#sr# 335"};
-				{ 19, "s35549", "29533", "=q3=Cobrahide Leg Armor", "=ds=#sr# 335"};
-				{ 20, "s22727", "18251", "=q3=Core Armor Kit", "=ds=#sr# 300"};
-				{ 21, "s50963", "38376", "=q2=Heavy Borean Armor Kit", "=ds="..AL["Trainer"]};
-				{ 22, "s44770", "34207", "=q2=Glove Reinforcements", "=ds=#sr# 350"};
-				{ 23, "s35524", "29488", "=q2=Arcane Armor Kit", "=ds=#sr# 340"};
-				{ 24, "s35521", "29485", "=q2=Flame Armor Kit", "=ds=#sr# 340"};
-				{ 25, "s35522", "29486", "=q2=Frost Armor Kit", "=ds=#sr# 340"};
-				{ 26, "s35523", "29487", "=q2=Nature Armor Kit", "=ds=#sr# 340"};
-				{ 27, "s35520", "29483", "=q2=Shadow Armor Kit", "=ds=#sr# 340"};
-				{ 28, "s50962", "38375", "=q1=Borean Armor Kit", "=ds="..AL["Trainer"]};
-				{ 29, "s44970", "34330", "=q1=Heavy Knothide Armor Kit", "=ds=#sr# 350"};
-				{ 30, "s32458", "25652", "=q1=Magister's Armor Kit", "=ds=#sr# 325"};
+				{ 2, "s78478", "56551", "=q4=Charscale Leg Armor", "=ds=#sr# 525", "=ds="..AL["Vendor"]..", "..BabbleZone["Twilight Highlands"] };
+				{ 3, "s85008", "Trade_LeatherWorking", "=ds=Draconic Embossment - Agility", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 4, "s85010", "Trade_LeatherWorking", "=ds=Draconic Embossment - Intellect", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 5, "s85007", "Trade_LeatherWorking", "=ds=Draconic Embossment - Stamina", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 6, "s85009", "Trade_LeatherWorking", "=ds=Draconic Embossment - Strength", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 7, "s85068", "Trade_LeatherWorking", "=ds=Charscale Leg Reinforcements", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
+				{ 8, "s85067", "Trade_LeatherWorking", "=ds=Dragonbone Leg Reinforcements", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
+				{ 9, "s57683", "Trade_LeatherWorking", "=ds=Fur Lining - Attack Power", "=ds="..AL["Trainer"]};
+				{ 10, "s57701", "Trade_LeatherWorking", "=ds=Fur Lining - Arcane Resist", "=ds="..AL["Drop"]};
+				{ 11, "s57692", "Trade_LeatherWorking", "=ds=Fur Lining - Fire Resist", "=ds="..AL["Drop"]};
+				{ 12, "s57694", "Trade_LeatherWorking", "=ds=Fur Lining - Frost Resist", "=ds="..AL["Drop"]};
+				{ 13, "s57699", "Trade_LeatherWorking", "=ds=Fur Lining - Nature Resist", "=ds="..AL["Drop"]};
+				{ 14, "s57696", "Trade_LeatherWorking", "=ds=Fur Lining - Shadow Resist", "=ds="..AL["Drop"]};
+				{ 15, "s57691", "Trade_LeatherWorking", "=ds=Fur Lining - Spell Power", "=ds="..AL["Trainer"]};
+				{ 16, "s57690", "Trade_LeatherWorking", "=ds=Fur Lining - Stamina", "=ds="..AL["Trainer"]};
+				{ 17, "s60583", "Trade_LeatherWorking", "=ds=Jormungar Leg Reinforcements", "=ds="..AL["Trainer"]};
+				{ 18, "s60584", "Trade_LeatherWorking", "=ds=Nerubian Leg Reinforcements", "=ds="..AL["Trainer"]};
+				{ 19, "s62448", "44963", "=q4=Earthen Leg Armor", "=ds="..AL["Trainer"]};
+				{ 20, "s50965", "38373", "=q4=Frosthide Leg Armor", "=ds="..AL["Trainer"]};
+				{ 21, "s50967", "38374", "=q4=Icescale Leg Armor", "=ds="..AL["Trainer"]};
+				{ 22, "s35557", "29536", "=q4=Nethercleft Leg Armor", "=ds=#sr# 365"};
+				{ 23, "s35554", "29535", "=q4=Nethercobra Leg Armor", "=ds=#sr# 365"};
+				{ 24, "s50964", "38371", "=q3=Jormungar Leg Armor", "=ds="..AL["Trainer"]};
+				{ 25, "s50966", "38372", "=q3=Nerubian Leg Armor", "=ds="..AL["Trainer"]};
+				{ 26, "s35555", "29534", "=q3=Clefthide Leg Armor", "=ds=#sr# 335"};
+				{ 27, "s35549", "29533", "=q3=Cobrahide Leg Armor", "=ds=#sr# 335"};
+				{ 28, "s22727", "18251", "=q3=Core Armor Kit", "=ds=#sr# 300"};
+				{ 29, "s50963", "38376", "=q2=Heavy Borean Armor Kit", "=ds="..AL["Trainer"]};
+				{ 30, "s44770", "34207", "=q2=Glove Reinforcements", "=ds=#sr# 350"};
 			};
 			{
-				{ 1, "s32457", "25651", "=q1=Vindicator's Armor Kit", "=ds=#sr# 325"};
-				{ 2, "s32456", "25650", "=q1=Knothide Armor Kit", "=ds=#sr# 300"};
-				{ 3, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300"};
-				{ 4, "s19058", "15564", "=q1=Rugged Armor Kit", "=ds=#sr# 250"};
-				{ 5, "s10487", "8173", "=q1=Thick Armor Kit", "=ds=#sr# 200"};
-				{ 6, "s3780", "4265", "=q1=Heavy Armor Kit", "=ds=#sr# 150"};
-				{ 7, "s2165", "2313", "=q1=Medium Armor Kit", "=ds=#sr# 100"};
-				{ 8, "s2152", "2304", "=q1=Light Armor Kit", "=ds=#sr# 1"};
+				{ 1, "s35524", "29488", "=q2=Arcane Armor Kit", "=ds=#sr# 340"};
+				{ 2, "s35521", "29485", "=q2=Flame Armor Kit", "=ds=#sr# 340"};
+				{ 3, "s35522", "29486", "=q2=Frost Armor Kit", "=ds=#sr# 340"};
+				{ 4, "s35523", "29487", "=q2=Nature Armor Kit", "=ds=#sr# 340"};
+				{ 5, "s35520", "29483", "=q2=Shadow Armor Kit", "=ds=#sr# 340"};
+				{ 6, "s50962", "38375", "=q1=Borean Armor Kit", "=ds="..AL["Trainer"]};
+				{ 7, "s44970", "34330", "=q1=Heavy Knothide Armor Kit", "=ds=#sr# 350"};
+				{ 8, "s32458", "25652", "=q1=Magister's Armor Kit", "=ds=#sr# 325"};
+				{ 9, "s32457", "25651", "=q1=Vindicator's Armor Kit", "=ds=#sr# 325"};
+				{ 10, "s32456", "25650", "=q1=Knothide Armor Kit", "=ds=#sr# 300"};
+				{ 11, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300"};
+				{ 12, "s19058", "15564", "=q1=Rugged Armor Kit", "=ds=#sr# 250"};
+				{ 13, "s10487", "8173", "=q1=Thick Armor Kit", "=ds=#sr# 200"};
+				{ 14, "s3780", "4265", "=q1=Heavy Armor Kit", "=ds=#sr# 150"};
+				{ 15, "s2165", "2313", "=q1=Medium Armor Kit", "=ds=#sr# 100"};
+				{ 16, "s2152", "2304", "=q1=Light Armor Kit", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -5484,20 +5549,21 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherLeather"] = {
 		["Normal"] = {
 			{
-				{ 1, "s50936", "38425", "=q1=Heavy Borean Leather", "=ds="..AL["Trainer"]};
-				{ 2, "s64661", "33568", "=q1=Borean Leather", "=ds="..AL["Trainer"]};
-				{ 3, "s32455", "23793", "=q1=Heavy Knothide Leather", "=ds=#sr# 325"};
-				{ 4, "s32454", "21887", "=q1=Knothide Leather", "=ds=#sr# 300"};
-				{ 5, "s22331", "8170", "=q1=Rugged Leather", "=ds=#sr# 250"};
-				{ 6, "s19047", "15407", "=q1=Cured Rugged Hide", "=ds=#sr# 250"};
-				{ 7, "s20650", "4304", "=q1=Thick Leather", "=ds=#sr# 200"};
-				{ 8, "s10482", "8172", "=q1=Cured Thick Hide", "=ds=#sr# 200"};
-				{ 9, "s20649", "4234", "=q1=Heavy Leather", "=ds=#sr# 150"};
-				{ 10, "s3818", "4236", "=q1=Cured Heavy Hide", "=ds=#sr# 150"};
-				{ 11, "s20648", "2319", "=q1=Medium Leather", "=ds=#sr# 100"};
-				{ 12, "s3817", "4233", "=q1=Cured Medium Hide", "=ds=#sr# 100"};
-				{ 13, "s3816", "4231", "=q1=Cured Light Hide", "=ds=#sr# 35"};
-				{ 14, "s2881", "2318", "=q1=Light Leather", "=ds=#sr# 1"};
+				{ 1, "s74493", "52976", "=q1=Savage Leather", "=ds=#sr# 440", "=ds="..AL["Trainer"]};
+				{ 2, "s50936", "38425", "=q1=Heavy Borean Leather", "=ds="..AL["Trainer"]};
+				{ 3, "s64661", "33568", "=q1=Borean Leather", "=ds="..AL["Trainer"]};
+				{ 4, "s32455", "23793", "=q1=Heavy Knothide Leather", "=ds=#sr# 325"};
+				{ 5, "s32454", "21887", "=q1=Knothide Leather", "=ds=#sr# 300"};
+				{ 6, "s22331", "8170", "=q1=Rugged Leather", "=ds=#sr# 250"};
+				{ 7, "s19047", "15407", "=q1=Cured Rugged Hide", "=ds=#sr# 250"};
+				{ 8, "s20650", "4304", "=q1=Thick Leather", "=ds=#sr# 200"};
+				{ 9, "s10482", "8172", "=q1=Cured Thick Hide", "=ds=#sr# 200"};
+				{ 10, "s20649", "4234", "=q1=Heavy Leather", "=ds=#sr# 150"};
+				{ 11, "s3818", "4236", "=q1=Cured Heavy Hide", "=ds=#sr# 150"};
+				{ 12, "s20648", "2319", "=q1=Medium Leather", "=ds=#sr# 100"};
+				{ 13, "s3817", "4233", "=q1=Cured Medium Hide", "=ds=#sr# 100"};
+				{ 14, "s3816", "4231", "=q1=Cured Light Hide", "=ds=#sr# 35"};
+				{ 15, "s2881", "2318", "=q1=Light Leather", "=ds=#sr# 1"};
 			};
 		};
 		info = {
