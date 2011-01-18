@@ -400,7 +400,7 @@ if AL then
 	AL["Cauldrons"] = "Chaudrons";
 	AL["Guardian Elixirs"] = "Elixirs du Gardien";
 	AL["Oils"] = "Huiles";
-	AL["Other Elixirs"] = "Autre élixirs";
+	AL["Other Elixirs"] = "Autres élixirs";
 	--AL["Potions"] = true;
 	AL["Transmutes"] = "Transmutations";
 	AL["Flasks"] = "Flacons";
