@@ -4391,7 +4391,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 10845, "", "=q3=Warrior's Embrace", "=ds=#s5#, #a4#", "", "30.44%"};
 				{ 7, 10838, "", "=q3=Might of Hakkar", "=ds=#h1#, #w6#", "", "16.37%"};
 				{ 8, 10844, "", "=q3=Spire of Hakkar", "=ds=#w9#", "", "16.02%"};
-				{ 10, 10663, "", "=q1=Essence of Hakkar", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -4459,8 +4458,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 10837, "", "=q3=Tooth of Eranikus", "=ds=#h1#, #w1#", "", "10.05%"};
 				{ 7, 10835, "", "=q3=Crest of Supremacy", "=ds=#w8#", "", "19.17%"};
 				{ 8, 10836, "", "=q3=Rod of Corrosion", "=ds=#w12#", "", "21.54%"};
-				{ 10, 10454, "", "=q2=Essence of Eranikus", "=ds=#m2#"};
-				{ 11, 10455, "", "=q3=Chained Essence of Eranikus", "=q1=#m4#: =ds=#s14#"};
 			};
 		};
 		info = {
@@ -4479,8 +4476,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 5, 10633, "", "=q3=Silvershell Leggings", "=ds=#s11#, #a3#", "", "0.01%"};
 				{ 6, 10634, "", "=q3=Mindseye Circle", "=ds=#s13#", "", "0.02%"};
 				{ 8, 15733, "", "=q3=Pattern: Green Dragonscale Leggings", "=ds=#p7# (270) =q1="..AL["Murk Worm"], "", "1.80%"};
-				{ 10, 11318, "", "=q1=Atal'ai Haze", "=ds=#m3#"};
-				{ 11, 6181, "", "=q1=Fetish of Hakkar", "=ds=#m3#"};
 				{ 16, 10623, "", "=q3=Winter's Bite", "=ds=#h1#, #w1#", "", "0.01%"};
 				{ 17, 10625, "", "=q3=Stealthblade", "=ds=#h1#, #w4#", "", "0.01%"};
 				{ 18, 10628, "", "=q3=Deathblow", "=ds=#h2#, #w10#", "", "0.01%"};
