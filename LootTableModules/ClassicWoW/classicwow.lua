@@ -90,13 +90,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["OldKeys"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#e9#", ""};
-				{ 2, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#"};
-				{ 4, 0, "INV_Box_01", "=q6=#m20#", ""};
-				{ 5, 13523, "", "=q1=Blood of Innocents", "=ds=#m27#"};
-				{ 6, 18746, "", "=q1=Divination Scryer", "=ds=#m27#"};
-				{ 7, 18663, "", "=q1=J'eevee's Jar", "=ds=#m27#"};
-				{ 8, 7733, "", "=q1=Staff of Prehistoria", "=ds=#m27#"};
+				{ 1, 0, "INV_Box_01", "=q6=#m20#", ""};
+				{ 2, 13523, "", "=q1=Blood of Innocents", "=ds=#m27#"};
+				{ 3, 18746, "", "=q1=Divination Scryer", "=ds=#m27#"};
+				{ 4, 18663, "", "=q1=J'eevee's Jar", "=ds=#m27#"};
+				{ 5, 7733, "", "=q1=Staff of Prehistoria", "=ds=#m27#"};
 			};
 		};
 		info = {
@@ -731,7 +729,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 11624, "", "=q3=Kentic Amice", "=ds=#s3#, #a1#", "", "22.45%"};
 				{ 3, 22240, "", "=q3=Greaves of Withering Despair", "=ds=#s12#, #a3#", "", "16.81%"};
 				{ 4, 11625, "", "=q3=Enthralled Sphere", "=ds=#s15#", "", "23.14%"};
-				{ 6, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#"};
 			};
 		};
 		info = {
@@ -797,8 +794,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 11765, "", "=q3=Pyremail Wristguards", "=ds=#s8#, #a3#", "", "18.85%"};
 				{ 5, 11767, "", "=q3=Emberplate Armguards", "=ds=#s8#, #a4#", "", "19.24%"};
 				{ 6, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "2.10%"};
-				{ 8, 21987, "", "=q1=Incendicite of Incendius", "=ds=#m3#"};
-				{ 9, 11126, "", "=q1=Tablet of Kurniya", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -815,7 +810,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11842, "", "=q3=Lead Surveyor's Mantle", "=ds=#s3#, #a3#", "", "20.83%"};
 				{ 4, 22223, "", "=q3=Foreman's Head Protector", "=ds=#s1#, #a4#", "", "19.73%"};
 				{ 6, 11840, "", "=q1=Master Builder's Shirt", "#s6#", "", "3.9%"};
-				{ 8, 10999, "", "=q1=Ironfel", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -938,7 +932,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11810, "", "=q3=Force of Will", "=ds=#s14#", "", "12.97%"};
 				{ 4, 11817, "", "=q3=Lord General's Sword", "=ds=#h1#, #w10# ", "", "14.72%"};
 				{ 5, 11816, "", "=q3=Angerforge's Battle Axe", "=ds=#h2#, #w1#", "", "16.41%"};
-				{ 7, 11464, "", "=q1=Marshal Windsor's Lost Information", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -955,8 +948,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11669, "", "=q3=Naglering", "=ds=#s13#", "", "22.92%"};
 				{ 4, 11819, "", "=q3=Second Wind", "=ds=#s14#", "", "5.75%"};
 				{ 6, 21956, "", "=q2=Design: Dark Iron Scorpid", "=ds=#p12# (300)"};
-				{ 8, 11268, "", "=q1=Head of Argelmach", "=ds=#m3#"};
-				{ 9, 11465, "", "=q1=Marshal Windsor's Lost Information", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -994,17 +985,14 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Ribbly Screwspigot"], ""};
 				{ 17, 11612, "", "=q3=Plans: Dark Iron Plate", "=ds=#p2# (285)", "", "22.20%"};
 				{ 18, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#m13# #e1#", "", "25.07%"};
-				{ 19, 2662, "", "=q2=Ribbly's Quiver", "=ds=#m13# #e1#", "", "17.03%"};
-				{ 20, 2663, "", "=q2=Ribbly's Bandolier", "=ds=#m13# #e1#", "", "15.73%"};
-				{ 21, 11313, "", "=q1=Ribbly's Head", "=ds=#m3#"};
-				{ 23, 0, "INV_Box_01", "=q6="..BabbleBoss["Plugger Spazzring"], ""};
-				{ 24, 12793, "", "=q3=Mixologist's Tunic", "=ds=#s5#, #a2#", "", "24.87%"};
-				{ 25, 12791, "", "=q3=Barman Shanker", "=ds=#h1#, #w4#", "", "6.97%"};
-				{ 26, 13483, "", "=q2=Recipe: Transmute Fire to Earth", "=ds=#p1# (275)"};
-				{ 27, 18653, "", "=q2=Schematic: Goblin Jumper Cables XL", "=ds=#p5# (265)", "", "14.13%"};
-				{ 28, 15759, "", "=q1=Pattern: Black Dragonscale Breastplate", "=ds=#p7# (290)"};
-				{ 29, 11602, "", "=q1=Grim Guzzler Key", "=ds=#e9#"};
-				{ 30, 11325, "", "=q1=Dark Iron Ale Mug", "=ds=#m3#"};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Plugger Spazzring"], ""};
+				{ 21, 12793, "", "=q3=Mixologist's Tunic", "=ds=#s5#, #a2#", "", "24.87%"};
+				{ 22, 12791, "", "=q3=Barman Shanker", "=ds=#h1#, #w4#", "", "6.97%"};
+				{ 23, 13483, "", "=q2=Recipe: Transmute Fire to Earth", "=ds=#p1# (275)"};
+				{ 24, 18653, "", "=q2=Schematic: Goblin Jumper Cables XL", "=ds=#p5# (265)", "", "14.13%"};
+				{ 25, 15759, "", "=q1=Pattern: Black Dragonscale Breastplate", "=ds=#p7# (290)"};
+				{ 26, 11602, "", "=q1=Grim Guzzler Key", "=ds=#e9#"};
+				{ 27, 11325, "", "=q1=Dark Iron Ale Mug", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -1157,8 +1145,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 24, 11754, "", "=q2=Black Diamond", "#e8#", "", "5.0%"};
 				{ 25, 11078, "", "=q1=Relic Coffer Key", "=ds=#e9#"};
 				{ 26, 18945, "", "=q1=Dark Iron Residue", "=ds=#m3#"};
-				{ 27, 11468, "", "=q1=Dark Iron Fanny Pack", "=ds=#m3#"};
-				{ 28, 11446, "", "=q1=A Crumpled Up Note", "=ds=#m2#"};
 			};
 		};
 		info = {
