@@ -1,4 +1,4 @@
-AtlasLoot Enhanced
+﻿AtlasLoot Enhanced
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
@@ -10,9 +10,9 @@ v6.02.00
 Reorganized Justice Points menu.
 Added missing PvP stuff.
 Revamped Archaeology.
+Updated Alchemy with Cataclysm recipes. (Thanks to Yinzara)
 Updated Blacksmithing Cataclysm and Classic level armor and weapons pages. Armor Enhancements, Weapons Enhancements and Miscellaneous pages have also been updated.
 Updated Inscription with Cataclysm recipes. (Thanks to Xecration)
-Updated Alchemy with Cataclysm recipes. (Thanks to Yinzara)
 Uddated Tailoring with vendor sold patterns.
 Added support for Atlas 1.18.1.
 Many minor fixes, additions and translations.
