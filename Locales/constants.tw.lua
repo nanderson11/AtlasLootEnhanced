@@ -268,7 +268,7 @@ if AL then
 	AL["Crafting Daily Quests"] = "交易技能每日任務";
 	AL["Cooking Daily"] = "烹飪每日任務";
 	AL["Fishing Daily"] = "釣魚每日任務";
-	AL["Jewelcrafting Daily"] = "珠寶加工每日任務";
+	AL["Jewelcrafting Daily"] = "珠寶設計每日任務";
 	AL["Crafted Sets"] = "交易技能套裝";
 	AL["Crafted Epic Weapons"] = "交易技能史詩武器";
 	AL["Dragon's Eye"] = "龍瞳石";
@@ -280,12 +280,12 @@ if AL then
 	AL["Justice Points"] = "英雄點數";
 	AL["Valor Points"] = "勇氣點數";
 	AL["Badge of Justice"] = "正義徽章"; --should be removed
-	AL["Emblem Rewards"] = "紋章獎勵";
-	AL["Emblem of Valor"] = "勇氣紋章";
-	AL["Emblem of Heroism"] = "英雄紋章";
-	AL["Emblem of Conquest"] = "征服紋章";
-	AL["Emblem of Triumph"] = "凱旋紋章";
-	AL["Emblem of Frost"] = "冰霜紋章";
+	AL["Emblem Rewards"] = "紋章獎勵"; --should be removed
+	AL["Emblem of Valor"] = "勇氣紋章"; --should be removed
+	AL["Emblem of Heroism"] = "英雄紋章"; --should be removed
+	AL["Emblem of Conquest"] = "征服紋章"; --should be removed
+	AL["Emblem of Triumph"] = "凱旋紋章"; --should be removed
+	AL["Emblem of Frost"] = "冰霜紋章"; --should be removed
 	AL["BoE World Epics"] = "裝綁世界掉落紫裝";
 	AL["Legendary Items"] = "傳說物品";
 	AL["Misc Sets"] = "其他套裝";
