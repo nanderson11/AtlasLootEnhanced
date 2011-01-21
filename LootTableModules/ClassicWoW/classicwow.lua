@@ -1179,13 +1179,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["LBRSQuestItems"] = {
 		["Normal"] = {
 			{
-				{ 1, 12812, "", "=q3=Unfired Plate Gauntlets", "=ds=#m3#", "", "100%"};
-				{ 2, 12631, "", "=q3=Fiery Plate Gauntlets", "=q1=#m4#: =ds=#s9#, #a4#"};
-				{ 3, 12699, "", "=q3=Plans: Fiery Plate Gauntlets", "=q1=#m4#: =ds=#p2# (290)"};
-				{ 5, 12533, "", "=q1=Roughshod Pike", "=ds=#m3#"};
-				{ 6, 12740, "", "=q1=Fifth Mosh'aru Tablet", "=ds=#m3#"};
-				{ 7, 12741, "", "=q1=Sixth Mosh'aru Tablet", "=ds=#m3#"};
-				{ 8, 12345, "", "=q1=Bijou's Belongings", "=ds=#m3#"};
+				{ 1, 12533, "", "=q1=Roughshod Pike", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -1215,8 +1209,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 13168, "", "=q3=Plate of the Shaman King", "=ds=#s5#, #a4#", "", "8.62%"};
 				{ 4, 13166, "", "=q3=Slamshot Shoulders", "=ds=#s3#, #a4#", "", "7.25%"};
 				{ 5, 13167, "", "=q3=Fist of Omokk", "=ds=#h2#, #w6#", "", "10.64%"};
-				{ 7, 12336, "", "=q2=Gemstone of Spirestone", "=ds=#m3#", "", "100%"};
-				{ 9, 12534, "", "=q1=Omokk's Head", "=ds=#m3#", "", "100%"};
+				{ 7, 12534, "", "=q1=Omokk's Head", "=ds=#m3#", "", "100%"};
 				{ 16, 16670, "", "=q3=Boots of Elements", "=ds=#s12#, #a3# (D1, #c7#)", "", "9.35%"};
 			};
 		};
@@ -1261,8 +1254,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 13255, "", "=q3=Trueaim Gauntlets", "=ds=#s9#, #a3#", "", "18.08%"};
 				{ 4, 12651, "", "=q3=Blackcrow", "=ds=#w3#", "", "8.56%"};
 				{ 5, 12653, "", "=q3=Riphook", "=ds=#w2#", "", "7.99%"};
-				{ 7, 13352, "", "=q1=Vosh'gajin's Snakestone", "=ds=#m3#", "", "100%"};
-				{ 8, 12821, "", "=q3=Plans: Dawn's Edge", "=q1=#m4#: =ds=#p2# (275)"};
 				{ 16, 16712, "", "=q3=Shadowcraft Gloves", "=ds=#s9#, #a2# (D1, #c6#)", "", "11.89%"};
 			};
 		};
@@ -1280,7 +1271,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 13177, "", "=q3=Talisman of Evasion", "=ds=#s2#", "", "15.40%"};
 				{ 4, 12582, "", "=q3=Keris of Zul'Serak", "=ds=#h1#, #w4#", "", "8.08%"};
 				{ 5, 28972, "", "=q3=Flightblade Throwing Axe", "=ds=#w11#", "", "79.85%"};
-				{ 7, 12335, "", "=q2=Gemstone of Smolderthorn", "=ds=#m3#", "", "100%"};
 				{ 16, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#s9#, #a3# (D1, #c2#)", "", "9.15%"};
 			};
 		};
@@ -1344,8 +1334,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 13178, "", "=q3=Rosewine Circle", "=ds=#s13#", "", "21.48%"};
 				{ 6, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "10.30%"};
 				{ 7, 12725, "", "=q3=Plans: Enchanted Thorium Helm", "=q1=#m4#: =ds=#p2# (300)"};
-				{ 9, 12712, "", "=q1=Warosh's Mojo", "=ds=#m3#", "", "100%"};
-				{ 10, 15867, "", "=q3=Prismcharm", "=q1=#m4#: =ds=#s14#"};
 			};
 		};
 		info = {
@@ -1424,7 +1412,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 13163, "", "=q3=Relentless Scythe", "=ds=#h2#, #w10#", "", "14.12%"};
 				{ 7, 13148, "", "=q3=Chillpike", "=ds=#w7#", "", "0.76%"};
 				{ 8, 13161, "", "=q3=Trindlehaven Staff", "=ds=#w9#", "", "10.40%"};
-				{ 10, 12337, "", "=q2=Gemstone of Bloodaxe", "=ds=#m3#", "", "100%"};
 				{ 16, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#s3#, #a3# (D1, #c2#)", "", "9.89%"};
 			};
 		};
@@ -1457,8 +1444,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength", "=ds=#p4# (295) =q1=".. AL["Firebrand Legionnaire"], "", "4.16%"};
 				{ 7, 15749, "", "=q2=Pattern: Volcanic Breastplate", "=ds=#p7# (285) =q1="..AL["Spirestone Warlord"], "", "2.04%"};
 				{ 8, 15775, "", "=q2=Pattern: Volcanic Shoulders", "=ds=#p7# (300) =q1="..AL["Spirestone Mystic"], "", "10.56%"};
-				{ 10, 12219, "", "=q1=Unadorned Seal of Ascension", "=ds=#m3#"};
-				{ 11, 21982, "", "=q1=Ogre Warbeads", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -3675,7 +3660,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 10, 16255, "", "=q2=Formula: Enchant 2H Weapon - Major Spirit", "=ds=#p4# (300) =q1="..AL["Scholomance Adept"], "", "0.88%"};
 				{ 11, 15773, "", "=q2=Pattern: Wicked Leather Armor", "=ds=#p7# (300) =q1="..AL["Spectral Researcher"], "", "3.03%"};
 				{ 12, 15776, "", "=q2=Pattern: Runic Leather Armor", "=ds=#p7# (300) =q1="..AL["Scholomance Dark Summoner"], "", "1.62%"};
-				{ 14, 12753, "", "=q2=Skin of Shadow", "=ds=#m3#"};
 				{ 16, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# (D1)", "", "0.03%"};
 				{ 17, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# (D1)", "", "1.27%"};
 				{ 18, 16685, "", "=q3=Magister's Belt", "=ds=#s8#, #a1# (D1)", "", "0.22%"};
