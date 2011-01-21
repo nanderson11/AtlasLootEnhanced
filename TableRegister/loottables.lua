@@ -892,7 +892,7 @@ AtlasLoot_LootTableRegister = {
 		["BlackfathomDeeps"] = {
 			["Bosses"] = {
 				{ "Blackfathom#1", {3,4,5,7,8,11} },
-				{ "Blackfathom#2", {9,12,17}, hide = true },
+				{ "Blackfathom#2", {9,12,19}, hide = true },
 			},
 			["Info"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootClassicWoW", mapname = "BlackFathomDeeps" },
 		},
@@ -1071,7 +1071,7 @@ AtlasLoot_LootTableRegister = {
 				{ "UldGalgannFirehammer", 13 },
 				{ "UldGrimlok", 14 },
 				{ "UldArchaedas", 15 },
-				{ "UldTrash", 22 },
+				{ "UldTrash", 25 },
 			},
 			["Info"] = { BabbleZone["Uldaman"], "AtlasLootClassicWoW", mapname = "Uldaman" },
 		},
@@ -1124,8 +1124,8 @@ AtlasLoot_LootTableRegister = {
 
 		["RazorfenKraul"] = {
 			["Bosses"] = {
-				{ "RazorfenKraulLoot#1", {2,3,4,5,6,8,12} }, 
-				{ "RazorfenKraulLoot#2", {7,13}, hide = true }, 
+				{ "RazorfenKraulLoot#1", {2,3,4,5,6,8,11} }, 
+				{ "RazorfenKraulLoot#2", {7,12}, hide = true }, 
 			},
 			["Info"] = { BabbleZone["Razorfen Kraul"], "AtlasLootClassicWoW", mapname = "RazorfenKraul" },
 		},
@@ -1192,10 +1192,10 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "ShadowfangAshbury", 3 },
 				{ "ShadowfangSilverlaine", 4 },
-				{ "ShadowfangSpringvale", 6 },
-				{ "ShadowfangWalden", 7 },
-				{ "ShadowfangGodfrey", 8 },
-				{ "Valentineday#3", 9, hide = true },
+				{ "ShadowfangSpringvale", 8 },
+				{ "ShadowfangWalden", 9 },
+				{ "ShadowfangGodfrey", 10 },
+				{ "Valentineday#3", 11, hide = true },
 			},
 			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, mapname = "ShadowfangKeep" },
 		},

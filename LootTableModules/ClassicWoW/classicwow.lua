@@ -3895,7 +3895,6 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 13172, "", "=q1=Siabi's Premium Tobacco", "=ds=#m3#", "", "100%"};
-				{ 2, 13171, "", "=q2=Smokey's Lighter", "=q1=#m4#: =ds=#s14#"};
 			}
 		};
 		info = {
@@ -3925,9 +3924,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18781, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "41.6%"};
 				{ 2, 12726, "", "=q3=Plans: Enchanted Thorium Leggings", "=q1=#m4#: =ds=#p2# (300)"};
-				{ 4, 13351, "", "=q1=Crimson Hammersmith's Apron", "=ds=#m3#", "", "100%"};
-				{ 5, 12824, "", "=q2=Plans: Enchanted Battlehammer", "=q1=#m4#: =ds=#p2# (280)"};
-				{ 7, 12827, "", "=q2=Plans: Serenity", "=ds=#p2# (285)", "", "100%"};
+				{ 4, 12827, "", "=q2=Plans: Serenity", "=ds=#p2# (285)", "", "100%"};
 			}
 		};
 		info = {
@@ -4113,9 +4110,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18783, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "23.5%"};
 				{ 2, 12725, "", "=q3=Plans: Enchanted Thorium Helm", "=q1=#m4#: =ds=#p2# (300)"};
-				{ 4, 13350, "", "=q1=Insignia of the Black Guard", "=ds=#m3#", "", "100%"};
-				{ 5, 12825, "", "=q2=Plans: Blazing Rapier", "=q1=#m4#: =ds=#p2# (280)"};
-				{ 7, 12830, "", "=q1=Plans: Corruption", "=ds=#p2# (290)", "", "100%"};
+				{ 4, 12830, "", "=q1=Plans: Corruption", "=ds=#p2# (290)", "", "100%"};
 			}
 		};
 		info = {
@@ -4146,11 +4141,11 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Marisa du'Paige"], "=ec1=#j28#"};
-				{ 2, 3019, "", "=q2=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
-				{ 3, 4660, "", "=q2=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
+				{ 2, 3019, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
+				{ 3, 4660, "", "=q3=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
-				{ 17, 5967, "", "=q2=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
-				{ 18, 3902, "", "=q2=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
+				{ 17, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
+				{ 18, 3902, "", "=q3=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
 			};
 		};
 		info = {
@@ -7732,7 +7727,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	}
 
---gone?
+--[[ Removed
 		----------------------
 		--- Zandalar Tribe ---
 		----------------------
@@ -7782,4 +7777,4 @@ local moduleName = "AtlasLootClassicWoW"
 			name = BabbleFaction["Zandalar Tribe"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
-	}
+	}]]--
