@@ -1059,8 +1059,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "Panier Ogre de tannin";
 	AL["Fengus's Chest"] = "Coffre de Fengus";
 	AL["The Prince's Chest"] = "Coffre du Prince";
-	AL["Doan's Strongbox"] = "Coffre de Doan";
-	AL["Unforged Rune Covered Breastplate"] = "Plastron couvert de runes inachevé";
 	AL["Unfinished Painting"] = "Toile inachevée";
 	AL["Felvine Shard"] = "Fragment de la Gangrevigne";
 	AL["Baelog's Chest"] = "Coffre de Baelog";

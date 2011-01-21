@@ -1101,7 +1101,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Panzor the Invincible"],
+			name = BabbleBoss["Panzor the Invincible"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1463,8 +1463,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 12927, "", "=q3=Truestrike Shoulders", "=ds=#s3#, #a2#", "", "17.47%"};
 				{ 3, 12929, "", "=q3=Emberfury Talisman", "=ds=#s2#", "", "15.89%"};
 				{ 4, 12926, "", "=q3=Flaming Band", "=ds=#s13#", "", "18.52%"};
-				{ 6, 17322, "", "=q1=Eye of the Emberseer", "=ds=#m3#", "", "100%"};
-				{ 7, 21988, "", "=q1=Ember of Emberseer", "=ds=#m3#"};
 				{ 16, 16672, "", "=q3=Gauntlets of Elements", "=ds=#s9#, #a3# (D1, #c7#)", "", "14.23%"};
 			};
 		};
@@ -1499,15 +1497,12 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 13502, "", "=q3=Handcrafted Mastersmith Girdle", "=ds=#s10#, #a4#", "", "15.78%"};
 				{ 3, 13498, "", "=q3=Handcrafted Mastersmith Leggings", "=ds=#s11#, #a4#", "", "20.63%"};
 				{ 4, 18048, "", "=q3=Mastersmith's Hammer", "=ds=#h3#, #w6#", "", "17.26%"};
-				{ 6, 12837, "", "=q3=Plans: Masterwork Stormhammer", "=ds=#p2# (300)", "", "4.80%"};
-				{ 7, 12794, "", "=q3=Masterwork Stormhammer", "=ds=#h1#, #w6#"};
-				{ 8, 12834, "", "=q3=Plans: Arcanite Champion", "=ds=#p2# (300)", "", "4.75%"};
-				{ 9, 12790, "", "=q3=Arcanite Champion", "=ds=#h2#, #w10#"};
-				{ 11, 18779, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume I", "=ds=#m3#", "", "17.08%"};
-				{ 12, 12727, "", "=q3=Plans: Enchanted Thorium Breastplate", "=q1=#m4#: =ds=#p2# (300)"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Unforged Rune Covered Breastplate"], ""};
-				{ 17, 12806, "", "=q3=Unforged Rune Covered Breastplate", "=ds=#m3#"};
-				{ 18, 12696, "", "=q3=Plans: Demon Forged Breastplate", "=q1=#m4#: =ds=#p2# (285)"};
+				{ 16, 12837, "", "=q3=Plans: Masterwork Stormhammer", "=ds=#p2# (300)", "", "4.80%"};
+				{ 17, 12794, "", "=q3=Masterwork Stormhammer", "=ds=#h1#, #w6#"};
+				{ 18, 12834, "", "=q3=Plans: Arcanite Champion", "=ds=#p2# (300)", "", "4.75%"};
+				{ 19, 12790, "", "=q3=Arcanite Champion", "=ds=#h2#, #w10#"};
+				{ 21, 18779, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume I", "=ds=#m3#", "", "17.08%"};
+				{ 22, 12727, "", "=q3=Plans: Enchanted Thorium Breastplate", "=q1=#m4#: =ds=#p2# (300)"};
 			};
 		};
 		info = {
@@ -1532,7 +1527,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 18, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "", "6.79%"};
 				{ 19, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#", "", "7.61%"};
 				{ 20, 12583, "", "=q3=Blackhand Doomsaw", "=ds=#w7#", "", "7.44%"};
-				{ 22, 12630, "", "=q1=Head of Rend Blackhand", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -1544,15 +1538,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["UBRSGyth"] = {
 		["Normal"] = {
 			{
-				{ 1, 12871, "", "=q4=Chromatic Carapace", "=ds=#m3#", "", "2.64%"};
-				{ 2, 12945, "", "=q4=Legplates of the Chromatic Defier", "=q1=#m4#: =ds=#s11#, #a3#"};
-				{ 3, 12903, "", "=q4=Legguards of the Chromatic Defier", "=q1=#m4#: =ds=#s11#, #a3#"};
-				{ 4, 12895, "", "=q4=Breastplate of the Chromatic Flight", "=q1=#m4#: =ds=#s5#, #a4#"};
-				{ 6, 22225, "", "=q3=Dragonskin Cowl", "=ds=#s1#, #a1#", "", "11.85%"};
-				{ 7, 12960, "", "=q3=Tribal War Feathers", "=ds=#s1#, #a2#", "", "15.24%"};
-				{ 8, 12953, "", "=q3=Dragoneye Coif", "=ds=#s1#, #a3#", "", "15.99%"};
-				{ 9, 12952, "", "=q3=Gyth's Skull", "=ds=#s1#, #a4#", "", "12.43%"};
-				{ 11, 13522, "", "=q2=Recipe: Flask of Chromatic Resistance", "=ds=#p1# (300)", "", "2.95%"};
+				{ 1, 22225, "", "=q3=Dragonskin Cowl", "=ds=#s1#, #a1#", "", "11.85%"};
+				{ 2, 12960, "", "=q3=Tribal War Feathers", "=ds=#s1#, #a2#", "", "15.24%"};
+				{ 3, 12953, "", "=q3=Dragoneye Coif", "=ds=#s1#, #a3#", "", "15.99%"};
+				{ 4, 12952, "", "=q3=Gyth's Skull", "=ds=#s1#, #a4#", "", "12.43%"};
+				{ 6, 13522, "", "=q2=Recipe: Flask of Chromatic Resistance", "=ds=#p1# (300)", "", "2.95%"};
 				{ 16, 16669, "", "=q3=Pauldrons of Elements", "=ds=#s3#, #a3# (D1, #c7#)", "", "14.77%"};
 			};
 		};
@@ -1565,19 +1555,15 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["UBRSBeast"] = {
 		["Normal"] = {
 			{
-				{ 1, 12731, "", "=q4=Pristine Hide of the Beast", "=ds=#m3#", "", "0.77%"};
-				{ 2, 12752, "", "=q4=Cap of the Scarlet Savant", "=q1=#m4#: =ds=#s1#, #a1#"};
-				{ 3, 12757, "", "=q4=Breastplate of Bloodthirst", "=q1=#m4#: =ds=#s5#, #a2#"};
-				{ 4, 12756, "", "=q4=Leggings of Arcana", "=q1=#m4#: =ds=#s11#, #a2#"};
-				{ 6, 12967, "", "=q3=Bloodmoon Cloak", "=ds=#s4#", "", "18.30%"};
-				{ 7, 12968, "", "=q3=Frostweaver Cape", "=ds=#s4#", "", "14.47%"};
-				{ 8, 12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", "", "13.16%"};
-				{ 9, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#, #a1#", "", "12.31%"};
-				{ 10, 12966, "", "=q3=Blackmist Armguards", "=ds=#s8#, #a2#", "", "16.06%"};
-				{ 11, 12963, "", "=q3=Blademaster Leggings", "=ds=#s11#, #a2#", "", "12.74%"};
-				{ 12, 12964, "", "=q3=Tristam Legguards", "=ds=#s11#, #a3#", "", "18.16%"};
-				{ 13, 12709, "", "=q3=Finkle's Skinner", "=ds=#h1#, #w4#, =q1=#e18#", "", "6.95%"};
-				{ 14, 12969, "", "=q3=Seeping Willow", "=ds=#h2#, #w6#", "", "11.49%"};
+				{ 1, 12967, "", "=q3=Bloodmoon Cloak", "=ds=#s4#", "", "18.30%"};
+				{ 2, 12968, "", "=q3=Frostweaver Cape", "=ds=#s4#", "", "14.47%"};
+				{ 3, 12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", "", "13.16%"};
+				{ 4, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#, #a1#", "", "12.31%"};
+				{ 5, 12966, "", "=q3=Blackmist Armguards", "=ds=#s8#, #a2#", "", "16.06%"};
+				{ 6, 12963, "", "=q3=Blademaster Leggings", "=ds=#s11#, #a2#", "", "12.74%"};
+				{ 7, 12964, "", "=q3=Tristam Legguards", "=ds=#s11#, #a3#", "", "18.16%"};
+				{ 8, 12709, "", "=q3=Finkle's Skinner", "=ds=#h1#, #w4#, =q1=#e18#", "", "6.95%"};
+				{ 9, 12969, "", "=q3=Seeping Willow", "=ds=#h2#, #w6#", "", "11.49%"};
 				{ 16, 16729, "", "=q3=Lightforge Spaulders", "=ds=#s3#, #a4# (D1, #c4#)", "", "13.62%"};
 				{ 18, 19227, "", "=q3=Ace of Beasts", "=ds=#e16#", "", "4.53%"};
 			};
@@ -1612,7 +1598,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16666, "", "=q3=Vest of Elements", "=ds=#s5#, #a3# (D1, #c7#)", "", "3.03%"};
 				{ 23, 16730, "", "=q3=Breastplate of Valor", "=ds=#s5#, #a4# (D1, #c9#)", "", "5.83%"};
 				{ 24, 16726, "", "=q3=Lightforge Breastplate", "=ds=#s5#, #a4# (D1, #c4#)", "", "3.76%"};
-				{ 30, 16663, "", "=q1=Blood of the Black Dragon Champion", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -1633,19 +1618,6 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["UBRSQuestItems"] = {
-		["Normal"] = {
-			{
-				{ 1, 12358, "", "=q1=Darkstone Tablet", "=ds=#m3#"};
-				{ 2, 12352, "", "=q1=Doomrigger's Clasp", "=ds=#m3#"};
-			};
-		};
-		info = {
-			name = AL["Quest Item"].." ("..BabbleZone["Upper Blackrock Spire"]..")",
-			module = moduleName, instance = "BlackrockSpireUpper",
-		};
-	};
-
 	AtlasLoot_Data["UBRSRunewatcher"] = {
 		["Normal"] = {
 			{
@@ -1655,7 +1627,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Jed Runewatcher"],
+			name = BabbleBoss["Jed Runewatcher"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "BlackrockSpireUpper",
 		};
 	};
@@ -1666,7 +1638,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 13260, "", "=q3=Wind Dancer Boots", "=ds=#s12#, #a3#", "", "0.01%"};
 				{ 3, 16247, "", "=q2=Formula: Enchant 2H Weapon - Superior Impact", "=ds=#p4# (295) =q1="..AL["Blackhand Elite"], "", "1.54%"};
 				{ 5, 12607, "", "=q3=Brilliant Chromatic Scale", "=ds=#m3#"};
-				{ 6, 12219, "", "=q1=Unadorned Seal of Ascension", "=ds=#m3#"};
 			};
 		};
 		info = {

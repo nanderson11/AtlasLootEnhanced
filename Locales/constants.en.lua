@@ -1059,8 +1059,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = true;
 	AL["Fengus's Chest"] = true;
 	AL["The Prince's Chest"] = true;
-	AL["Doan's Strongbox"] = true;
-	AL["Unforged Rune Covered Breastplate"] = true;
 	AL["Unfinished Painting"] = true;
 	AL["Felvine Shard"] = true;
 	AL["Baelog's Chest"] = true;

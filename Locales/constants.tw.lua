@@ -1058,8 +1058,6 @@ if AL then
 	AL["Ogre Tannin Basket"] = "巨魔鞣酸籃";
 	AL["Fengus's Chest"] = "衛兵芬古斯的箱子";
 	AL["The Prince's Chest"] = "王子的箱子";
-	AL["Doan's Strongbox"] = "杜安的箱子";
-	AL["Unforged Rune Covered Breastplate"] = "未鑄造的符文覆飾胸甲";
 	AL["Unfinished Painting"] = "未完成的畫作";
 	AL["Felvine Shard"] = "魔藤碎片";
 	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
