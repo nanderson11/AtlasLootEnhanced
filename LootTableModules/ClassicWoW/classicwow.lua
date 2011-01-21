@@ -4666,82 +4666,16 @@ local moduleName = "AtlasLootClassicWoW"
 		--- Zul'Farrak ---
 		------------------
 
-	AtlasLoot_Data["ZFAntusul"] = {
-        	["Normal"] = {
-			{
-				{ 1, 9640, "", "=q3=Vice Grips", "=ds=#s9#, #a4#", "", "31.30%"};
-				{ 2, 9641, "", "=q3=Lifeblood Amulet", "=ds=#s2#", "", "30.80%"};
-				{ 3, 9639, "", "=q3=The Hand of Antu'sul", "=ds=#h1#, #w6#", "", "15.47%"};
-				{ 5, 9379, "", "=q3=Sang'thraze the Deflector", "=ds=#h1#, #w10#", "", "2.10%"};
-				{ 6, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2#, #w10#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Antu'sul"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFThekatheMartyr"] = {
+	AtlasLoot_Data["ZFGahzrilla"] = {
 		["Normal"] = {
 			{
-				{ 1, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
+				{ 1, 9469, "", "=q3=Gahz'rilla Scale Armor", "=ds=#s5#, #a3#", "", "36.76%"};
+				{ 2, 9467, "", "=q3=Gahz'rilla Fang", "=ds=#h1#, #w4#", "", "36.83%"};
+				{ 4, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#"};
 			};
 		};
 		info = {
-			name = BabbleBoss["Theka the Martyr"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFWitchDoctorZumrah"] = {
-		["Normal"] = {
-			{
-				{ 1, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
-				{ 2, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Witch Doctor Zum'rah"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFNekrumGutchewer"] = {
-		["Normal"] = {
-			{
-				{ 1, 9471, "", "=q1=Nekrum's Medallion", "=ds=#m3#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Nekrum Gutchewer"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFSezzziz"] = {
-		["Normal"] = {
-			{
-				{ 1, 9470, "", "=q3=Bad Mojo Mask", "=ds=#s1#, #a1#", "", "18.69%"};
-				{ 2, 9473, "", "=q3=Jinxed Hoodoo Skin", "=ds=#s5#, #a2#", "", "21.12%"};
-				{ 3, 9474, "", "=q3=Jinxed Hoodoo Kilt", "=ds=#s11#, #a2#", "", "20.95%"};
-				{ 4, 9475, "", "=q3=Diabolic Skiver", "=ds=#w7#", "", "20.06%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Shadowpriest Sezz'ziz"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFDustwraith"] = {
-		["Normal"] = {
-			{
-				{ 1, 12471, "", "=q3=Desertwalker Cane", "=ds=#s15#", "", "17.71%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Dustwraith"],
+			name = BabbleBoss["Gahz'rilla"],
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4758,41 +4692,17 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["ZFSergeantBly"] = {
+	AtlasLoot_Data["ZFSezzziz"] = {
 		["Normal"] = {
 			{
-				{ 1, 8548, "", "=q1=Divino-Matic Rod", "=ds=#m3#", "", "100%"};
+				{ 1, 9470, "", "=q3=Bad Mojo Mask", "=ds=#s1#, #a1#", "", "18.69%"};
+				{ 2, 9473, "", "=q3=Jinxed Hoodoo Skin", "=ds=#s5#, #a2#", "", "21.12%"};
+				{ 3, 9474, "", "=q3=Jinxed Hoodoo Kilt", "=ds=#s11#, #a2#", "", "20.95%"};
+				{ 4, 9475, "", "=q3=Diabolic Skiver", "=ds=#w7#", "", "20.06%"};
 			};
 		};
 		info = {
-			name = BabbleBoss["Sergeant Bly"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFHydromancerVelratha"] = {
-		["Normal"] = {
-			{
-				{ 1, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%"};
-				{ 2, 10661, "", "=q1=Second Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Hydromancer Velratha"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFGahzrilla"] = {
-		["Normal"] = {
-			{
-				{ 1, 9469, "", "=q3=Gahz'rilla Scale Armor", "=ds=#s5#, #a3#", "", "36.76%"};
-				{ 2, 9467, "", "=q3=Gahz'rilla Fang", "=ds=#h1#, #w4#", "", "36.83%"};
-				{ 4, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Gahz'rilla"],
+			name = BabbleBoss["Shadowpriest Sezz'ziz"],
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4814,6 +4724,59 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
+	AtlasLoot_Data["ZFWitchDoctorZumrah"] = {
+		["Normal"] = {
+			{
+				{ 1, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
+				{ 2, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Witch Doctor Zum'rah"],
+			module = moduleName, instance = "ZulFarrak",
+		};
+	};
+
+	AtlasLoot_Data["ZFAntusul"] = {
+        	["Normal"] = {
+			{
+				{ 1, 9640, "", "=q3=Vice Grips", "=ds=#s9#, #a4#", "", "31.30%"};
+				{ 2, 9641, "", "=q3=Lifeblood Amulet", "=ds=#s2#", "", "30.80%"};
+				{ 3, 9639, "", "=q3=The Hand of Antu'sul", "=ds=#h1#, #w6#", "", "15.47%"};
+				{ 5, 9379, "", "=q3=Sang'thraze the Deflector", "=ds=#h1#, #w10#", "", "2.10%"};
+				{ 6, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2#, #w10#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Antu'sul"],
+			module = moduleName, instance = "ZulFarrak",
+		};
+	};
+
+	AtlasLoot_Data["ZFHydromancerVelratha"] = {
+		["Normal"] = {
+			{
+				{ 1, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Hydromancer Velratha"],
+			module = moduleName, instance = "ZulFarrak",
+		};
+	};
+
+	AtlasLoot_Data["ZFDustwraith"] = {
+		["Normal"] = {
+			{
+				{ 1, 12471, "", "=q3=Desertwalker Cane", "=ds=#s15#", "", "17.71%"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Dustwraith"].." ("..AL["Rare"]..")",
+			module = moduleName, instance = "ZulFarrak",
+		};
+	};
+
 	AtlasLoot_Data["ZFZerillis"] = {
 		["Normal"] = {
 			{
@@ -4821,7 +4784,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Zerillis"],
+			name = BabbleBoss["Zerillis"].." ("..AL["Rare"]..")",
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4834,8 +4797,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 9243, "", "=q3=Shriveled Troll Heart", "=ds=#s2#"};
 				{ 4, 862, "", "=q3=Runed Ring", "=ds=#s13#", "", "0.02%"};
 				{ 5, 6440, "", "=q3=Brainlash", "=ds=#s13#", "", "0.01%"};
-				{ 7, 9523, "", "=q1=Troll Temper", "#QUESTID:3042#"};
-				{ 8, 9238, "", "=q1=Uncracked Scarab Shell", "#QUESTID:2865#"};
 				{ 16, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.01%"};
 				{ 17, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.01%"};
 				{ 18, 9481, "", "=q3=The Minotaur", "=ds=#h2#, #w1#", "", "0.01%"};
