@@ -438,7 +438,7 @@ if AL then
 	AL["Relics"] = "聖物";
 	AL["Shoulder Enchants"] = "肩部附魔";
 	AL["Reagents"] = "材料";
-	AL["Book of Glyph Mastery"] = "雕紋專精書籍";
+	AL["Book of Glyph Mastery"] = "雕紋精通之書";
 
 	--Leatherworking
 	AL["Leather Armor"] = "皮甲護甲";
