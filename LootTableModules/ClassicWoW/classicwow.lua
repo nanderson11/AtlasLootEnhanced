@@ -1637,7 +1637,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 13260, "", "=q3=Wind Dancer Boots", "=ds=#s12#, #a3#", "", "0.01%"};
 				{ 3, 16247, "", "=q2=Formula: Enchant 2H Weapon - Superior Impact", "=ds=#p4# (295) =q1="..AL["Blackhand Elite"], "", "1.54%"};
-				{ 5, 12607, "", "=q3=Brilliant Chromatic Scale", "=ds=#m3#"};
+				{ 5, 12607, "", "=q3=Brilliant Chromatic Scale", "#e8#"};
 			};
 		};
 		info = {
