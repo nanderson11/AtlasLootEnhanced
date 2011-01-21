@@ -1162,8 +1162,10 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Scarshield Quartermaster"], ""};
 				{ 2, 18987, "", "=q1=Blackhand's Command", "=ds=#m2#", "", "100%"};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Overmaster Pyron"], ""};
-				{ 5, 14486, "", "=q3=Pattern: Cloak of Fire", "=ds=#p8# (275)", "", "17.95"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["The Behemoth"], ""};
+				{ 5, 11603, "", "=q3=Vilerend Slicer", "=ds=#h3#, #w13#", "", "95%"};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Overmaster Pyron"], ""};
+				{ 8, 14486, "", "=q3=Pattern: Cloak of Fire", "=ds=#p8# (275)", "", "17.95%"};
 			};
 		};
 		info = {

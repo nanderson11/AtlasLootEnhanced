@@ -1031,7 +1031,8 @@ if AL then
 	AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = true;
 	AL["Highlord Kruul"] = true; -- added until decided if the set gets removed
-	AL["Dormus the Camel-Hoarder"] = true; 
+	AL["Dormus the Camel-Hoarder"] = true;
+	AL["The Behemoth"] = true;
 
 	-- Zones
 	AL["World Drop"] = true;

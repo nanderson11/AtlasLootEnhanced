@@ -931,7 +931,7 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackrockMountainEnt"] = {
 			["Bosses"] = {
-				{ "BlackrockMountainEntLoot", {12,14} },
+				{ "BlackrockMountainEntLoot", {12,13,14} },
 			},
 			["Info"] = { BabbleZone["Blackrock Mountain"], "AtlasLootClassicWoW" },
 		},
