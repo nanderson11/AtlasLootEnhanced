@@ -3015,16 +3015,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["RazorfenKraulLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Roogug"], ""};
-				{ 2, 6841, "", "=q1=Vial of Phlogiston", "=ds=#m3#"};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Aggem Thorncurse"], ""};
-				{ 5, 6681, "", "=q3=Thornspike", "=ds=#h1#, #w4#", "", "57,12%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Death Speaker Jargba"], ""};
-				{ 8, 6685, "", "=q3=Death Speaker Mantle", "=ds=#s3#, #a1#", "", "40.42%"};
-				{ 9, 6682, "", "=q3=Death Speaker Robes", "=ds=#s5#, #a1#", "", "40.52%"};
-				{ 10, 2816, "", "=q3=Death Speaker Scepter", "=ds=#h3#, #w6#", "", "7.72%"};
-				{ 12, 0, "INV_Box_01", "=q6="..AL["Razorfen Spearhide"], ""};
-				{ 13, 6679, "", "=q3=Armor Piercer", "=ds=#w7#", "", "43%"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Aggem Thorncurse"], ""};
+				{ 2, 6681, "", "=q3=Thornspike", "=ds=#h1#, #w4#", "", "57,12%"};
+				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Death Speaker Jargba"], ""};
+				{ 5, 6685, "", "=q3=Death Speaker Mantle", "=ds=#s3#, #a1#", "", "40.42%"};
+				{ 6, 6682, "", "=q3=Death Speaker Robes", "=ds=#s5#, #a1#", "", "40.52%"};
+				{ 7, 2816, "", "=q3=Death Speaker Scepter", "=ds=#h3#, #w6#", "", "7.72%"};
+				{ 9, 0, "INV_Box_01", "=q6="..AL["Razorfen Spearhide"], ""};
+				{ 10, 6679, "", "=q3=Armor Piercer", "=ds=#w7#", "", "43%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Overlord Ramtusk"], ""};
 				{ 17, 6686, "", "=q3=Tusken Helm", "=ds=#s1#, #a3#", "", "57.14%"};
 				{ 18, 6687, "", "=q3=Corpsemaker", "=ds=#h2#, #w1#", "", "27.79%"};
@@ -3041,12 +3039,10 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 6693, "", "=q3=Agamaggan's Clutch", "=ds=#s13#", "", "32.15%"};
 				{ 3, 6692, "", "=q3=Pronged Reaver", "=ds=#h1#, #w1#", "", "15.43%"};
 				{ 4, 6694, "", "=q3=Heart of Agamaggan", "=ds=#w8#", "", "30.24%"};
-				{ 5, 17008, "", "=q1=Small Scroll", "=ds=#m2# (#m6#)"};
-				{ 6, 5793, "", "=q1=Razorflank's Heart", "=ds=#m3#", "", "100%"};
-				{ 7, 5792, "", "=q1=Razorflank's Medallion", "=ds=#m3#", "", "100%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Earthcaller Halmgar"], ""};
-				{ 10, 6688, "", "=q3=Whisperwind Headdress", "=ds=#s1#, #a2#", "", "43.75%"};
-				{ 11, 6689, "", "=q3=Wind Spirit Staff", "=ds=#w9#", "", "42.66%"};
+				{ 5, 5793, "", "=q1=Razorflank's Heart", "=ds=#m3#", "", "100%"};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Earthcaller Halmgar"], ""};
+				{ 8, 6688, "", "=q3=Whisperwind Headdress", "=ds=#s1#, #a2#", "", "43.75%"};
+				{ 9, 6689, "", "=q3=Wind Spirit Staff", "=ds=#w9#", "", "42.66%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
 				{ 17, 2264, "", "=q3=Mantle of Thieves", "=ds=#s3#, #a2#", "", "0.02%"};
 				{ 18, 1978, "", "=q3=Wolfclaw Gloves", "=ds=#s9#, #a2#", "", "0.02%"};
@@ -4607,17 +4603,12 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["WailingCavernsLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Kalldan Felmoon"], "=ec1=#j28#"};
-				{ 2, 6475, "", "=q1=Pattern: Deviate Scale Gloves", "=ds=#p7# (105)"};
-				{ 3, 6474, "", "=q1=Pattern: Deviate Scale Cloak", "=ds=#p7# (90)"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Mad Magglish"], "=ec1=#j28#"};
-				{ 6, 5334, "", "=q1=99-Year-Old Port", "=ds=#m3#", "", "100%"};
-				{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], "=ec1=#j28#"};
-				{ 9, 5425, "", "=q3=Runescale Girdle", "=ds=#s8#, #a3#", "", "50%"};
-				{ 10, 5426, "", "=q3=Serpent's Kiss", "=ds=#h1#, #w1#", "", "35%"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], "=ec1=#j28#"};
-				{ 13, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
-				{ 14, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], "=ec1=#j28#"};
+				{ 2, 5425, "", "=q3=Runescale Girdle", "=ds=#s8#, #a3#", "", "50%"};
+				{ 3, 5426, "", "=q3=Serpent's Kiss", "=ds=#h1#, #w1#", "", "35%"};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], "=ec1=#j28#"};
+				{ 6, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
+				{ 7, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Cobrahn"], ""};
 				{ 17, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "51.73%"};
 				{ 18, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "16.03%"};
@@ -4650,10 +4641,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 6461, "", "=q3=Slime-Encrusted Pads", "=ds=#s3#, #a1#", "", "22.96%"};
 				{ 23, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "18.33%"};
 				{ 24, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "21.99%"};
-				{ 25, 10441, "", "=q1=Glowing Shard", "=ds=#m2#"};
-				{ 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], ""};
-				{ 28, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
-				{ 29, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
+				{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], ""};
+				{ 27, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
+				{ 28, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
 			};
 		};
 		info = {

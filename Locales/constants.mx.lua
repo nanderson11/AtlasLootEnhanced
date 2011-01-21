@@ -636,7 +636,6 @@ if AL then
 	AL["The Nameles Prophet"] = "El profeta sin nombre";
 	AL["Rajaxx's Captains"] = "Capitanes de Rajaxx";
 	AL["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
-	AL["Kalldan Felmoon"] = "Kalldan Lunavil";
 	AL["Magregan Deepshadow"] = "Magregan Sombraprofunda";
 	--AL["Don Carlos"] = true,
 	--AL["Thomas Yance"] = "Thomas Yance";

@@ -635,7 +635,6 @@ if AL then
 	AL["The Nameles Prophet"] = "无名预言者";
 	AL["Rajaxx's Captains"] = "拉贾克斯的副官";
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
-	AL["Kalldan Felmoon"] = "卡尔丹·暗月";
 	AL["Magregan Deepshadow"] = "马格雷甘·深影";
 	AL["Don Carlos"] = "唐·卡洛斯";
 	AL["Thomas Yance"] = "托马斯·杨斯";

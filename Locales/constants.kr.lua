@@ -974,7 +974,6 @@ if AL then
 	AL["The Nameles Prophet"] = true;
 	AL["Rajaxx's Captains"] = true;
 	AL["Razorfen Spearhide"] = true;
-	AL["Kalldan Felmoon"] = true;
 	AL["Magregan Deepshadow"] = true;
 	AL["Don Carlos"] = true;
 	AL["Thomas Yance"] = true;

@@ -1116,16 +1116,16 @@ AtlasLoot_LootTableRegister = {
 
 		["RazorfenDowns"] = {
 			["Bosses"] = {
-				{ "RazorfenDownsLoot#1", {2,3,4,8,10} },
-				{ "RazorfenDownsLoot#2", {5,6}, hide = true },
+				{ "RazorfenDownsLoot#1", {3,4,5,9,11} },
+				{ "RazorfenDownsLoot#2", {6,7}, hide = true },
 			},
 			["Info"] = { BabbleZone["Razorfen Downs"], "AtlasLootClassicWoW", mapname = "RazorfenDowns" },
 		},
 
 		["RazorfenKraul"] = {
 			["Bosses"] = {
-				{ "RazorfenKraulLoot#1", {2,3,4,5,6,8,11} }, 
-				{ "RazorfenKraulLoot#2", {7,12}, hide = true }, 
+				{ "RazorfenKraulLoot#1", {3,4,5,6,7,13} }, 
+				{ "RazorfenKraulLoot#2", {8,14}, hide = true }, 
 			},
 			["Info"] = { BabbleZone["Razorfen Kraul"], "AtlasLootClassicWoW", mapname = "RazorfenKraul" },
 		},
@@ -1291,7 +1291,7 @@ AtlasLoot_LootTableRegister = {
 		["WailingCaverns"] = "WailingCavernsEaI",
 		["WailingCavernsEaI"] = {
 			["WailingCavernsEnt"] = {
-				{ "WailingCavernsLoot#1", 3, hide = true },
+				{ "WailingCavernsLoot#1", {5,6}, hide = true },
 			},
 			["WailingCaverns"] = {
 				{ "WailingCavernsLoot#1", {2,3,4} },

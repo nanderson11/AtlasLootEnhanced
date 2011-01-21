@@ -978,7 +978,6 @@ if AL then
 	AL["The Nameles Prophet"] = "Безымянный пророк";
 	AL["Rajaxx's Captains"] = "Капитаны Раджакса";
 	AL["Razorfen Spearhide"] = "Копьешкур из племени Иглошкурых";
-	AL["Kalldan Felmoon"] = "Калидан Лунный Серп";
 	AL["Magregan Deepshadow"] = "Магреган Чернотень";
 	AL["Don Carlos"] = "Дон Карлос";
 	AL["Thomas Yance"] = "Томас Янс";
