@@ -532,7 +532,7 @@ if AL then
 	--Labels for loot table sections
 	AL["Additional Heroic Loot"] = "更多的英雄物品";
 	AL["Heroic Mode"] = "英雄模式";
-	AL["Normal Mode"] = "一般模式";
+	AL["Normal Mode"] = "普通模式";
 	AL["Raid"] = "團隊";
 	AL["Hard Mode"] = "困難模式";
 	AL["Bonus Loot"] = "額外獎勵";
