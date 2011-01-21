@@ -1064,7 +1064,6 @@ if AL then
 	AL["Baelog's Chest"] = "Coffre de Baelog";
 	AL["Lorgalis Manuscript"] = "Manuscrit de Lorgalis";
 	AL["Fathom Core"] = "Noyau de la Brasse";
-	AL["Conspicuous Urn"] = "Urne ostentatoire";
 	AL["Gift of Adoration"] = "Cadeau d'adoration";
 	AL["Box of Chocolates"] = "Boîte de chocolats";
 	AL["Treat Bag"] = "Sac de friandises";

@@ -1063,7 +1063,6 @@ if AL then
 	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
 	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
 	AL["Fathom Core"] = "深淵之核";
-	AL["Conspicuous Urn"] = "顯眼的石罐";
 	AL["Gift of Adoration"] = "愛慕之禮";
 	AL["Box of Chocolates"] = "巧克力盒";
 	AL["Treat Bag"] = "糖果包";

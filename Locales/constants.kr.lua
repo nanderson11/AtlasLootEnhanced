@@ -1022,7 +1022,6 @@ if AL then
 	AL["Baelog's Chest"] = "밸로그의 궤짝";
 	AL["Lorgalis Manuscript"] = "로르갈리스 초본";
 	AL["Fathom Core"] = "심연의 핵";
-	AL["Conspicuous Urn"] = true;
 	AL["Gift of Adoration"] = true;
 	AL["Box of Chocolates"] = true;
 	AL["Treat Bag"] = true;

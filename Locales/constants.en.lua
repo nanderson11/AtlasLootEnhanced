@@ -1065,7 +1065,6 @@ if AL then
 	AL["Baelog's Chest"] = true;
 	AL["Lorgalis Manuscript"] = true;
 	AL["Fathom Core"] = true;
-	AL["Conspicuous Urn"] = true;
 	AL["Gift of Adoration"] = true;
 	AL["Box of Chocolates"] = true;
 	AL["Treat Bag"] = true;

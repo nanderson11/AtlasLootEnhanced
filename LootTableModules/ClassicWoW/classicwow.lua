@@ -4464,8 +4464,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 14, 1177, "", "=q1=Oil of Olaf", "=ds=#e2#", "", "76.54%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Baelog's Chest"], ""};
 				{ 17, 7740, "", "=q3=Gni'kiv Medallion", "=ds=#m3#"};
-				{ 19, 0, "INV_Box_01", "=q6="..AL["Conspicuous Urn"], ""};
-				{ 20, 7671, "", "=q1=Shattered Necklace Topaz", "=ds=#m3#"};
 			}
 		};
 		info = {
@@ -4507,7 +4505,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["UldObsidianSentinel"] = {
 		["Normal"] = {
 			{
-				{ 1, 8053, "", "=q1=Obsidian Power Source", "=ds=#m3#", "", "100%"};
+				{ 1, 62053, "", "=q1=Obsidian Power Core", "=ds=#m3#", "", "100%"};
 			}
 		};
 		info = {
@@ -4521,6 +4519,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 9411, "", "=q3=Rockshard Pauldrons", "=ds=#s3#, #a3#", "", "43.41%"};
 				{ 2, 9410, "", "=q3=Cragfists", "=ds=#s9#, #a4#", "", "41.61%"};
+				{ 4, 62055, "", "=q1=Titan Power Core", "=ds=#m3#", "", "100%"};
 			}
 		};
 		info = {
@@ -4536,8 +4535,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 11310, "", "=q3=Flameseer Mantle", "=ds=#s3#, #a1#", "", "17.35%"};
 				{ 3, 9419, "", "=q3=Galgann's Firehammer", "=ds=#h1#, #w6#", "", "18.10%"};
 				{ 4, 9412, "", "=q3=Galgann's Fireblaster", "=ds=#w5#", "", "17.10%"};
-				{ 6, 5824, "", "=q1=Tablet of Will", "=ds=#m3#"};
-				{ 7, 7669, "", "=q1=Shattered Necklace Ruby", "=ds=#m3#"};
 			}
 		};
 		info = {
@@ -4552,7 +4549,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 9415, "", "=q3=Grimlok's Tribal Vestments", "=ds=#s5#, #a1#", "", "36.51%"};
 				{ 2, 9414, "", "=q3=Oilskin Leggings", "=ds=#s11#, #a2#", "", "29.78%"};
 				{ 3, 9416, "", "=q3=Grimlok's Charge", "=ds=#w7#", "", "15.05%"};
-				{ 5, 7670, "", "=q1=Shattered Necklace Sapphire", "=ds=#m3#", "", "100%"};
 			}
 		};
 		info = {
@@ -4567,7 +4563,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 11118, "", "=q3=Archaedic Stone", "=ds=#s13#", "", "51.99%"};
 				{ 2, 9418, "", "=q3=Stoneslayer", "=ds=#h2#, #w10#", "", "10.48%"};
 				{ 3, 9413, "", "=q3=The Rockpounder", "=ds=#h2#, #w6#", "", "10.94%"};
-				{ 5, 7672, "", "=q1=Shattered Necklace Power Source", "=ds=#m3#", "", "100%"};
 			}
 		};
 		info = {

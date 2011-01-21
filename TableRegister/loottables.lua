@@ -1071,7 +1071,7 @@ AtlasLoot_LootTableRegister = {
 				{ "UldGalgannFirehammer", 13 },
 				{ "UldGrimlok", 14 },
 				{ "UldArchaedas", 15 },
-				{ "UldTrash", 23 },
+				{ "UldTrash", 22 },
 			},
 			["Info"] = { BabbleZone["Uldaman"], "AtlasLootClassicWoW", mapname = "Uldaman" },
 		},
