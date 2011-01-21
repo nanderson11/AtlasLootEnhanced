@@ -1202,8 +1202,8 @@ AtlasLoot_LootTableRegister = {
 
 		["Gnomeregan"] = {
 			["Bosses"] = {
-				{ "GnomereganLoot#1", {4,7,8,10} },
-				{ "GnomereganLoot#2", {11}, hide = true },
+				{ "GnomereganLoot#1", {4,7,8,9} },
+				{ "GnomereganLoot#2", {10}, hide = true },
 			},
 			["Info"] = { BabbleZone["Gnomeregan"], "AtlasLootClassicWoW", mapname = "Gnomeregan" },
 		},

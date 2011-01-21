@@ -14,7 +14,7 @@ Updated Alchemy with Cataclysm recipes. (Thanks to Yinzara)
 Updated Blacksmithing Cataclysm and Classic level armor and weapons pages. Armor Enhancements, Weapons Enhancements and Miscellaneous pages have also been updated.
 Updated Inscription with Cataclysm recipes. (Thanks to Xecration)
 Uddated Tailoring with vendor sold patterns.
-Added support for Atlas 1.18.1.
+Added support for Atlas 1.18.2.
 Many minor fixes, additions and translations.
 
 v6.01.02
