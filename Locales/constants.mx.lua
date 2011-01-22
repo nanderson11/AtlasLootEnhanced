@@ -632,7 +632,6 @@ if AL then
 	--AL["Thomas Yance"] = true,
 	AL["Knot Thimblejack"] = "Knot Thimblejack";
 	AL["Shen'dralar Provisioner"] = "Proveedor Shen'dralar";
-	AL["Namdo Bizzfizzle"] = "Namdo Silvabín";
 	AL["The Nameles Prophet"] = "El profeta sin nombre";
 	AL["Rajaxx's Captains"] = "Capitanes de Rajaxx";
 	AL["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
@@ -662,7 +661,6 @@ if AL then
 	AL["The Vault"] = "La caja fuerte";
 	AL["Ogre Tannin Basket"] = "Cesta de Ogro Tanino";
 	AL["Fengus's Chest"] = "Cofre de Fengus";
-	AL["The Prince's Chest"] = "El cofre del Príncipe";
 	AL["Unfinished Painting"] = "Pintura sin terminar"; --Comprobar
 	AL["Felvine Shard"] = "Fragmento de gangrevid";
 	AL["Baelog's Chest"] = "Cofre de Baelog";

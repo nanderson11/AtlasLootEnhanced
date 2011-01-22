@@ -1012,7 +1012,6 @@ if AL then
 	AL["Thomas Yance"] = "Thomas Yance";
 	AL["Knot Thimblejack"] = "Knot Zwingschraub";
 	AL["Shen'dralar Provisioner"] = "Versorger der Shen'dralar";
-	AL["Namdo Bizzfizzle"] = "Namdo Blitzzischel";
 	AL["The Nameles Prophet"] = "The Nameles Prophet";
 	AL["Rajaxx's Captains"] = "Rajaxx's Captains";
 	AL["Razorfen Spearhide"] = "Speerträger der Klingenhauer";
@@ -1058,7 +1057,6 @@ if AL then
 	AL["The Vault"] = "Der Tresor";
 	AL["Ogre Tannin Basket"] = "Gerbekorb der Oger";
 	AL["Fengus's Chest"] = "Fengus Truhe";
-	AL["The Prince's Chest"] = "Die Truhe des Prinzen";
 	AL["Unfinished Painting"] = "Unvollendetes Gemälde";
 	AL["Felvine Shard"] = "Teufelsrankensplitter";
 	AL["Baelog's Chest"] = "Baelogs Truhe";

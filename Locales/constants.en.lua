@@ -1012,7 +1012,6 @@ if AL then
 	AL["Thomas Yance"] = true;
 	AL["Knot Thimblejack"] = true;
 	AL["Shen'dralar Provisioner"] = true;
-	AL["Namdo Bizzfizzle"] = true;
 	AL["The Nameles Prophet"] = true;
 	AL["Rajaxx's Captains"] = true;
 	AL["Razorfen Spearhide"] = true;
@@ -1058,7 +1057,6 @@ if AL then
 	AL["The Vault"] = true;
 	AL["Ogre Tannin Basket"] = true;
 	AL["Fengus's Chest"] = true;
-	AL["The Prince's Chest"] = true;
 	AL["Unfinished Painting"] = true;
 	AL["Felvine Shard"] = true;
 	AL["Baelog's Chest"] = true;

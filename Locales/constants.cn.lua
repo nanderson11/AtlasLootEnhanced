@@ -631,7 +631,6 @@ if AL then
 	AL["Thomas Yance"] = "托马斯·杨斯";
 	AL["Knot Thimblejack"] = "诺特·希姆加克";
 	AL["Shen'dralar Provisioner"] = "辛德拉圣职者";
-	AL["Namdo Bizzfizzle"] = "纳姆杜";
 	AL["The Nameles Prophet"] = "无名预言者";
 	AL["Rajaxx's Captains"] = "拉贾克斯的副官";
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
@@ -658,7 +657,6 @@ if AL then
 	AL["The Vault"] = "黑色宝库";
 	AL["Ogre Tannin Basket"] = "食人魔鞣酸篮";
 	AL["Fengus's Chest"] = "芬古斯的箱子";
-	AL["The Prince's Chest"] = "王子的箱子";
 	AL["Unfinished Painting"] = "未完成的油画";
 	AL["Felvine Shard"] = "魔藤碎片";
 	AL["Baelog's Chest"] = "巴尔洛戈的箱子";

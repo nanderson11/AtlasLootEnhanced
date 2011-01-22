@@ -1123,6 +1123,21 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["DeadminesTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1930, "", "=q3=Stonemason Cloak", "=ds=#s4#", "", "0.01%"};
+				{ 3, 1951, "", "=q3=Blackwater Cutlass", "=ds=#h1#, #w10#", "", "0.01%"};
+				{ 4, 1926, "", "=q3=Weighted Sap", "=ds=#h1#, #w6#", "", "0.01%"};
+			};
+		};
+		info = {
+			name = AL["Trash Mobs"],
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
 		-----------------------
 		--- Shadowfang Keep ---
 		-----------------------
@@ -1154,13 +1169,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
 				{ 3, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
+				{ 5, 60885, "", "=q1=Silverlaine Family Sword", "=ds=#m3#", "", "100%" };
+				{ 6, 60878, "", "=q1=Silverlaine's Enchanted Crystal", "=ds=#m3#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
 				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s9#, #a2#" };
 				{ 19, 63444, "", "=q3=Baron Silverlaine's Greaves", "=ds=#s12#, #a4#" };
 				{ 20, 63438, "", "=q3=Baroness Silverlaine's Locket", "=ds=#s2#" };
 				{ 21, 63441, "", "=q3=Pendant of the Keep", "=ds=#s2#" };
-				{ 23, 60885, "", "=q1=Silverlaine Family Sword", "=ds=#m3#" };
 			};
 		};
 		info = {
@@ -1175,6 +1191,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
 				{ 3, 6320, "", "=q3=Commander's Crest", "=ds=#w8#" };
+				{ 5, 60879, "", "=q1=Commander's Holy Symbol", "=ds=#m3#", "", "100%" };
+				{ 6, 60880, "", "=q1=Springvale's Sharpening Stone", "=ds=#m3#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63448, "", "=q3=Springvale's Cloak", "=ds=#s4#" };
 				{ 18, 63449, "", "=q3=Thieving Spaulders", "=ds=#s3#, #a2#" };
@@ -1197,6 +1215,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
 				{ 4, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#" };
 				{ 5, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
+				{ 7, 60876, "", "=q1=Walden's Elixirs", "=ds=#m3#", "", "100%" };
+				{ 8, 60881, "", "=q1=Walden's Talisman", "=ds=#m3#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
 				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
@@ -1219,6 +1239,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
 				{ 4, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#" };
 				{ 5, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#" };
+				{ 7, 60877, "", "=q1=Godfrey's Crystal Scope", "=ds=#m3#", "", "100%" };
+				{ 8, 60882, "", "=q1=Tenebrous Orb", "=ds=#m3#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63465, "", "=q3=Mantle of Loss", "=ds=#s3#, #a1#" };
 				{ 18, 63463, "", "=q3=Mantle of the Eastern Lords", "=ds=#s3#, #a1#" };
@@ -1234,6 +1256,27 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Lord Godfrey"],
+			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+	AtlasLoot_Data["ShadowfangTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1974, "", "=q3=Mindthrust Bracers", "=ds=#s8#, #a1#", "", "0.01%"};
+				{ 3, 3194, "", "=q3=Black Malice", "=ds=#h2#, #w6#", "", "0.01%"};
+				{ 4, 1483, "", "=q3=Face Smasher", "=ds=#h1#, #w6#", "", "0.01%"};
+				{ 5, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
+				{ 6, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
+				{ 7, 1484, "", "=q3=Witching Stave", "=ds=#h2#, #w9#", "", "0.01%"};
+				{ 16, 60977, "", "=q1=Orders from High Command", "=ds=#m3#"};
+				{ 17, 60874, "", "=q1=Deathless Sinew", "=ds=#m3#", "", "100%"};
+				{ 18, 60875, "", "=q1=Ghostly Essence", "=ds=#m3#", "", "100%"};
+			};
+		};
+		info = {
+			name = AL["Trash Mobs"],
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};

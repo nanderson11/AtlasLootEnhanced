@@ -974,7 +974,6 @@ if AL then
 	AL["Thomas Yance"] = "Томас Янс";
 	AL["Knot Thimblejack"] = "Уззл Наперстяк";
 	AL["Shen'dralar Provisioner"] = "Шен'драларский поставщик";
-	AL["Namdo Bizzfizzle"] = "Намдо Вклвыкл";
 	AL["The Nameles Prophet"] = "Безымянный пророк";
 	AL["Rajaxx's Captains"] = "Капитаны Раджакса";
 	AL["Razorfen Spearhide"] = "Копьешкур из племени Иглошкурых";
@@ -1019,7 +1018,6 @@ if AL then
 	AL["The Vault"] = "Чертог";
 	AL["Ogre Tannin Basket"] = "Огрский дубильный чан";
 	AL["Fengus's Chest"] = "Сундук Фенгуса";
-	AL["The Prince's Chest"] = "Сундук принца";
 	AL["Unfinished Painting"] = "Незаконченная картина";
 	AL["Felvine Shard"] = "Сквернит";
 	AL["Baelog's Chest"] = "Сундук Бейлога";
