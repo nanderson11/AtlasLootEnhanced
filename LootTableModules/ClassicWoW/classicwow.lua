@@ -880,6 +880,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11750, "", "=q3=Kindling Stave", "=ds=#w9#", "", " 16.19%"};
 				{ 4, 11748, "", "=q3=Pyric Caduceus", "=ds=#w12#", "", "30.20%"};
 				{ 6, 11207, "", "=q2=Formula: Enchant Weapon - Fiery Weapon", "=ds=#p4# (265)", "", "13.32%"};
+				{ 8, 63469, "", "=q1=Breath of Cenarius", "=ds=#m3#, =q1=#m1# =ds=#c1#", "", " 100%"};
+				{ 9, 64305, "", "=q1=Loregrain's Grimoire", "=ds=#m3#, =q1=#m1# =ds=#c3#", "", " 100%"};
 			};
 		};
 		info = {
@@ -932,6 +934,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11810, "", "=q3=Force of Will", "=ds=#s14#", "", "12.97%"};
 				{ 4, 11817, "", "=q3=Lord General's Sword", "=ds=#h1#, #w10# ", "", "14.72%"};
 				{ 5, 11816, "", "=q3=Angerforge's Battle Axe", "=ds=#h2#, #w1#", "", "16.41%"};
+				{ 7, 64302, "", "=q1=General's Attack Plans", "=ds=#m3#, =q1=#m1# =ds=#c9#", "", " 100%"};
 			};
 		};
 		info = {
@@ -948,6 +951,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 11669, "", "=q3=Naglering", "=ds=#s13#", "", "22.92%"};
 				{ 4, 11819, "", "=q3=Second Wind", "=ds=#s14#", "", "5.75%"};
 				{ 6, 21956, "", "=q2=Design: Dark Iron Scorpid", "=ds=#p12# (300)"};
+				{ 8, 64303, "", "=q1=Elemental Golem Blueprints", "=ds=#m3#, =q1=#m1# =ds=#c2#", "", " 100%"};
 			};
 		};
 		info = {
@@ -1106,15 +1110,16 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["BRDLyceum"] = {
+	AtlasLoot_Data["BRDQuestItems"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Shadowforge Flame Keeper"], ""};
-				{ 2, 11885, "", "=q1=Shadowforge Torch", "=ds=#m20#"};
+				{ 1, 18412, "", "=q1=Core Fragment", "=ds=#m3#", "", "100%"};
+				{ 3, 0, "INV_Box_01", "=q6="..AL["Shadowforge Flame Keeper"], ""};
+				{ 4, 11885, "", "=q1=Shadowforge Torch", "=ds=#m20#"};
 			};
 		};
 		info = {
-			name = AL["Shadowforge Flame Keeper"],
+			name = BabbleZone["Blackrock Depths"].." - "..AL["Quest Item"],
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1145,6 +1150,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 24, 11754, "", "=q2=Black Diamond", "#e8#", "", "5.0%"};
 				{ 25, 11078, "", "=q1=Relic Coffer Key", "=ds=#e9#"};
 				{ 26, 18945, "", "=q1=Dark Iron Residue", "=ds=#m3#"};
+				{ 27, 64304, "", "=q1=Elemental Module", "=ds=#m3#, =q1=#m1# =ds=#c2#"};
+				{ 28, 64313, "", "=q1=Elemental-Imbued Weapon", "=ds=#m3#, =q1=#m1# =ds=#c4#"};
 			};
 		};
 		info = {
@@ -3257,7 +3264,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 18758, "", "=q3=Specter's Blade", "=ds=#h1#, #w4#", "", "15.72%"};
 				{ 3, 18759, "", "=q3=Malicious Axe", "=ds=#h2#, #w1#", "", "24.75%"};
 				{ 4, 18761, "", "=q3=Oblivion's Touch", "=ds=#w12#", "", "17.17%"};
-				{ 6, 18749, "", "=q1=Charger's Lost Soul", "=ds=#m3#", "", "10.93%"};
+				{ 6, 18749, "", "=q1=Charger's Lost Soul", "=ds=#m3#, =q1=#m1# =ds=#c4#", "", "10.93%"};
 			}
 		};
 		info = {
@@ -3661,8 +3668,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#" };
 				{ 3, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
-				{ 5, 60885, "", "=q1=Silverlaine Family Sword", "=ds=#m3#", "", "100%" };
-				{ 6, 60878, "", "=q1=Silverlaine's Enchanted Crystal", "=ds=#m3#", "", "100%" };
+				{ 5, 60885, "", "=q1=Silverlaine Family Sword", "=ds=#m3#, =q1=#m1# =ds=#c9#", "", "100%" };
+				{ 6, 60878, "", "=q1=Silverlaine's Enchanted Crystal", "=ds=#m3#, =q1=#m1# =ds=#c3#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63440, "", "=q3=Boots of Lingering Sorrow", "=ds=#s12#, #a1#" };
 				{ 18, 63439, "", "=q3=Gloves of the Uplifted Cup", "=ds=#s8#, #a2#" };
@@ -3683,8 +3690,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
 				{ 3, 6320, "", "=q3=Commander's Crest", "=ds=#w8#" };
-				{ 5, 60879, "", "=q1=Commander's Holy Symbol", "=ds=#m3#", "", "100%" };
-				{ 6, 60880, "", "=q1=Springvale's Sharpening Stone", "=ds=#m3#", "", "100%" };
+				{ 5, 60879, "", "=q1=Commander's Holy Symbol", "=ds=#m3#, =q1=#m1# =ds=#c4#, =ds=#c5#", "", "100%" };
+				{ 6, 60880, "", "=q1=Springvale's Sharpening Stone", "=ds=#m3#, =q1=#m1# =ds=#c6#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 21, 63448, "", "=q3=Springvale's Cloak", "=ds=#s4#" };
 				{ 21, 63449, "", "=q3=Thieving Spaulders", "=ds=#s3#, #a2#" };
@@ -3707,8 +3714,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
 				{ 4, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#" };
 				{ 5, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
-				{ 7, 60876, "", "=q1=Walden's Elixirs", "=ds=#m3#", "", "100%" };
-				{ 8, 60881, "", "=q1=Walden's Talisman", "=ds=#m3#", "", "100%" };
+				{ 7, 60876, "", "=q1=Walden's Elixirs", "=ds=#m3#, =q1=#m1# =ds=#c1#", "", "100%" };
+				{ 8, 60881, "", "=q1=Walden's Talisman", "=ds=#m3#, =q1=#m1# =ds=#c7#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
 				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
@@ -3731,8 +3738,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
 				{ 4, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#" };
 				{ 5, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#" };
-				{ 7, 60877, "", "=q1=Godfrey's Crystal Scope", "=ds=#m3#", "", "100%" };
-				{ 8, 60882, "", "=q1=Tenebrous Orb", "=ds=#m3#", "", "100%" };
+				{ 7, 60877, "", "=q1=Godfrey's Crystal Scope", "=ds=#m3#, =q1=#m1# =ds=#c2#", "", "100%" };
+				{ 8, 60882, "", "=q1=Tenebrous Orb", "=ds=#m3#, =q1=#m1# =ds=#c8#", "", "100%" };
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63465, "", "=q3=Mantle of Loss", "=ds=#s3#, #a1#" };
 				{ 18, 63463, "", "=q3=Mantle of the Eastern Lords", "=ds=#s3#, #a1#" };
