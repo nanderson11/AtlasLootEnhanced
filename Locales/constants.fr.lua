@@ -24,7 +24,7 @@ if AL then
 	-- UI things
 	-- #########
 	-- AtlasLootFu 
-	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu n'est plus utilisé. Veuillez le supprimer de votre dossier AddOns.";
+	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu n'est plus utilisé.\nVeuillez le supprimer de votre dossier AddOns.";
 
 	-- Options
 	--AL["Options"] = true;
@@ -1030,6 +1030,8 @@ if AL then
 	--AL["Aeonaxx"] = true; -- à traduire
 	--AL["Prince Sarsarun"] = true;
 	-- AL["Highlord Kruul"] = true; -- added until decided if the set gets removed -- à traduire
+	AL["Dormus the Camel-Hoarder"] = "Dormus le Collectionneur de dromadaires";
+	AL["The Behemoth"] = "Le Béhémoth";
 
 	-- Zones
 	--AL["World Drop"] = true,
