@@ -250,16 +250,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TAILORINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
-				{ 3, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
-				{ 4, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 6, "Mooncloth", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
-				{ 7, "Shadoweave", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
-				{ 9, "TailoringCataVendor", "inv_scroll_04", "=ds="..AL["Cataclysm Vendor Sold Patterns"], "=q5="..BabbleZone["Twilight Highlands"] };
+				{ 2, "TailoringArmorCata", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Cataclysm"] };
+				{ 3, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 4, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
+				{ 5, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
+				{ 7, "Mooncloth", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
+				{ 8, "Shadoweave", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
 				{ 17, "TailoringBags", "inv_misc_bag_enchantedrunecloth", "=ds="..AL["Bags"], "" };
 				{ 18, "TailoringMisc", "ability_mount_magnificentflyingcarpet", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 19, "TailoringShirts", "inv_shirt_white_01", "=ds="..AL["Shirts"], "" };
-				{ 21, "Spellfire", "Trade_Tailoring", "=ds="..GetSpellInfo(26797), "" };
+				{ 22, "Spellfire", "Trade_Tailoring", "=ds="..GetSpellInfo(26797), "" };
 			};
 		};
 		info = {
