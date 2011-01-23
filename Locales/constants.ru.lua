@@ -303,8 +303,8 @@ if AL then
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Комплекты Низины Арати";
-	AL["PvP Accessories"] = "PvP Аксессуары";
-	AL["PvP Armor Sets"] = "PvP Комплекты Доспехов";
+	AL["PvP Accessories"] = "PvP предметы";
+	AL["PvP Armor Sets"] = "PvP комплекты доспехов";
 	AL["PvP Weapons"] = "PvP Оружие";
 	AL["PvP Non-Set Epics"] = "PvP Превосходные не из комплектов";
 	AL["PvP Reputation Sets"] = "PvP комплекты за репутацию";
@@ -312,6 +312,7 @@ if AL then
 	AL["PvP Misc"] = "PvP ювелирные эскизы";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
 	AL["PvP Class Items"] = "PvP предметы";
+	AL["PvP Trinkets"] = "PvP аксессуары";
 	AL["NOT AVAILABLE ANYMORE"] = "Больше не доступно";
 
 	-- World Events
@@ -393,14 +394,21 @@ if AL then
 	AL["Cloak"] = "Плащ";
 
 	-- Alchemy
-	AL["Battle Elixirs"] = "Боевые Эликсиры";
-	AL["Guardian Elixirs"] = "Оборонительные Эликсиры";
+	AL["Battle Elixirs"] = "Боевые эликсиры";
+	AL["Cauldron"] = "Котел";
+	AL["Cauldrons"] = "Котлы";
+	AL["Guardian Elixirs"] = "Оборонительные эликсиры";
+	AL["Oils"] = "Масла";
+	AL["Other Elixirs"] = "Другие элексиры";
 	AL["Potions"] = "Зелья";
 	AL["Transmutes"] = "Трансмутация";
 	AL["Flasks"] = "Фляги";
+	AL["Guild"] = "Гильдия";
 	
 	-- Blacksmithing
 	AL["Cataclysm Vendor Sold Plans"] = "Чертежы Cataclysmа у торговцев";
+	AL["Armor Enhancements"] = "Улучшения доспехов";
+	AL["Weapon Enhancements"] = "Улучшения оружия";
 
 	-- Enchanting
 	AL["Enchant Boots"] = "Чары для обуви";
@@ -413,12 +421,22 @@ if AL then
 	AL["Enchant 2H Weapon"] = "Чары для двуручного оружия";
 	AL["Enchant Weapon"] = "Чары для оружия";
 	AL["Cataclysm Vendor Sold Formulas"] = "Формулы Cataclysmа у торговцев";
+	
+	-- Engineering
+	-AL["Tinker"] = "Конструирование";
 
 	-- Inscription
+	AL["Glyph"] = "Символ";
+	AL["Prime Glyph"] = "Основной символ";
 	AL["Major Glyph"] = "Большой символ";
 	AL["Minor Glyph"] = "Малый символ";
+	AL["Runescrolls"] = "Рунические свитки";
+	AL["Recall"] = "Возвраты";
 	AL["Scrolls"] = "Свитки";
 	AL["Off-Hand Items"] = "Предметы в левую руку";
+	AL["Relics/Shoulder Enchants"] = "Реликвии";
+	AL["Relics"] = "Реликвии";
+	AL["Shoulder Enchants"] = "Наложения на плечи";
 	AL["Reagents"] = "Реагенты";
 	AL["Book of Glyph Mastery"] = "Книга познания символов";
 
@@ -541,11 +559,13 @@ if AL then
 	AL["Random"] = "Случайный";
 	AL["Brew of the Month Club"] = "Клуб \"Пиво месяца\"";
 
-	-- Cooking descriptions
+	-- Profession descriptions
 	AL["Buff"] = "Полож. эффект";
 	AL["Agility"] = "Ловкость";
 	AL["Intellect"] = "Интеллект";
 	AL["Strength"] = "Сила";
+	AL["Spirit"] = "Дух";
+	AL["Stamina"] = "Выносливость";
 	AL["Agility, Intellect, Strength"] = "Ловкость, Интеллект, Сила";
 	AL["Spell Power"] = "Сила заклинаний";
 	AL["Attack Power"] = "Сила атаки";
@@ -559,7 +579,9 @@ if AL then
 	AL["Mastery Rating"] = "Искусность";
 	AL["Parry Rating"] = "Парирование";
 	AL["Other Ratings"] = "Другое";
+	AL["Ratings"] = "Рейтинги";
 	AL["Resistance"] = "Сопротивление";
+	AL["Damage Absorption"] = "Поглощение урона";
 	AL["Health / Second"] = "Здоровье / сек.";
 	AL["Mana / Second"] = "Мана / сек.";
 	AL["Tracking"] = "Отслеживание";
@@ -569,10 +591,25 @@ if AL then
 	AL["Mana"] = "Мана";
 	AL["Health and Mana"] = "Здоровье и Мана";
 	AL["Other Buffs"] = "Другие эффекты";
+	AL["Other"] = "Другое";
 	AL["Standard Buffs"] = "Стандартные эффекты";
 	AL["Food without Buffs"] = "Еда без эффектов";
 	AL["Special"] = "Специальное";
 	AL["Feasts"] = "Пиры";
+	AL["Speed"] = "Скорость";
+	AL["Rod"] = "Жезл";
+	AL["Oil"] = "Масло";
+	AL["Dwarf"] = "Дворфы";
+	AL["Draenei"] = "Дренеи";
+	AL["Night Elf"] = "Ночные эльфы";
+	AL["Fossil"] = "Окаменелости";
+	AL["Nerubian"] = "Нерубы";
+	AL["Vrykul"] = "Врайкулы";
+	AL["Troll"] = "Тролли";
+	AL["Tol'vir"] = "Тол'виры";
+	AL["Orc"] = "Орки";
+	AL["Stats"] = "Статистика";
+	AL["Resilience"] = "Устойчивость";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
@@ -652,11 +689,11 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Награды Ярмарки Новолуния";
 	AL["Low Level Decks"] = "Низко уровневые колоды";
-	AL["Level 60 Trinkets"] = "Акксесуанры на 60урв";
-	AL["Level 70 Trinkets"] = "Акксесуанры на 70урв";
-	AL["Level 60 & 70 Trinkets"] = "Акксесуанры на 60/70 урв";
-	AL["Level 80 Trinkets"] = "Акксесуанры на 80 урв";
-	AL["Level 85 Trinkets"] = "Акксесуанры на 85 урв";
+	AL["Level 60 Trinkets"] = "Аксессуары на 60урв";
+	AL["Level 70 Trinkets"] = "Аксессуары на 70урв";
+	AL["Level 60 & 70 Trinkets"] = "Аксессуары на 60/70 урв";
+	AL["Level 80 Trinkets"] = "Аксессуары на 80 урв";
+	AL["Level 85 Trinkets"] = "Аксессуары на 85 урв";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "Предметы с карт";
@@ -991,7 +1028,8 @@ if AL then
 	AL["Aeonaxx"] = "Эонакс";
 	AL["Prince Sarsarun"] = "Принц Сарсарун";
 	--AL["Highlord Kruul"] = ""; -- added until decided if the set gets removed
-	--AL["Dormus the Camel-Hoarder"] = ""; 
+	AL["Dormus the Camel-Hoarder"] = "Дормус Погонщик Верблюдов"; 
+	AL["The Behemoth"] = "Чудище";
 
 	-- Zones
 	AL["World Drop"] = "Мировой выпад";
