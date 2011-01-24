@@ -423,7 +423,7 @@ if AL then
 	AL["Cataclysm Vendor Sold Formulas"] = "Формулы Cataclysmа у торговцев";
 	
 	-- Engineering
-	-AL["Tinker"] = "Конструирование";
+	--AL["Tinker"] = "Конструирование";
 
 	-- Inscription
 	AL["Glyph"] = "Символ";
