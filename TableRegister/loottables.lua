@@ -770,8 +770,13 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Black Temple"], "AtlasLootBurningCrusade", sortOrder = { "BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" } },
 		},
 
-		["CoTHyjal"] = {
-			["Bosses"] = {
+		["CoTHyjalEnt"] = "CoTHyjalEaI",
+		["CoTHyjal"] = "CoTHyjalEaI",
+		["CoTHyjalEaI"] = {
+			["CoTHyjalEnt"] = {
+				{ "ScaleSands", 2, hide = true },
+			},
+			["CoTHyjal"] = {
 				{ "ScaleSands", 2, hide = true },
 				{ "MountHyjalWinterchill", 9 },
 				{ "MountHyjalAnetheron", 10 },
@@ -780,7 +785,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MountHyjalArchimonde", 13 },
 				{ "MountHyjalTrash", 15 },
 			},
-			["Info"] = { BabbleZone["Hyjal"], "AtlasLootBurningCrusade" },
+			["Info"] = { BabbleZone["Hyjal"], "AtlasLootBurningCrusade", sortOrder = { "CoTHyjalEnt", "CoTHyjal" } },
 		},
 
 		["CFRSerpentshrineCavern"] = {

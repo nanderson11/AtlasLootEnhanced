@@ -871,6 +871,7 @@ AtlasLoot_TextParsing = {
 	{ "#halaaresearch#", "|TInterface\\Icons\\INV_Misc_Rune_09:0|t" },
 	{ "#spiritshard#", "|TInterface\\Icons\\INV_Jewelry_FrostwolfTrinket_04:0|t" },
 	{ "#wintergrasp#", "|TInterface\\Icons\\INV_Misc_Platnumdisks:0|t" },
+	{ "#tolbarad#", "|TInterface\\Icons\\achievement_zone_tolbarad:0|t" },
 
 	-- Currency Icons - PvE
 	{ "#t10mark#", "|TInterface\\Icons\\ability_paladin_shieldofthetemplar:0|t"},
