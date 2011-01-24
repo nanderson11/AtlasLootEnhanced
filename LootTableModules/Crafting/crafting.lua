@@ -98,9 +98,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 --- Other
 ---- Crafted Epic Weapons
 --- Daily Profession Rewards
----- Cooking
----- Fishing
----- Jewelcrafting
+---- Cooking Daily
+---- Fishing Daily
+---- Jewelcrafting Daily
 
 	-----------------------
 	--- Tradeskill List ---
@@ -7388,81 +7388,86 @@ local SPELLFIRE = GetSpellInfo(26797);
 	--- Daily Profession Rewards ---
 	--------------------------------
 
-		---------------
-		--- Cooking ---
-		---------------
+		---------------------
+		--- Cooking Daily ---
+		---------------------
 
 	AtlasLoot_Data["CookingDaily"] = {
 		["Normal"] = {
 			{
-				{ 1, 65411, "", "=q2=Recipe: Broiled Mountain Trout", "=ds=#p3# (450)"};
-				{ 2, 65408, "", "=q2=Recipe: Feathered Lure", "=ds=#p3# (450)"};
-				{ 3, 65415, "", "=q2=Recipe: Highland Spirits", "=ds=#p3# (450)"};
-				{ 4, 65407, "", "=q2=Recipe: Lavascale Fillet", "=ds=#p3# (450)"};
-				{ 5, 65409, "", "=q2=Recipe: Lavascale Minestrone", "=ds=#p3# (450)"};
-				{ 6, 65416, "", "=q2=Recipe: Lurker Lunch", "=ds=#p3# (450)"};
-				{ 7, 65410, "", "=q2=Recipe: Salted Eye", "=ds=#p3# (450)"};
-				{ 8, 65413, "", "=q2=Recipe: Seasoned Crab", "=ds=#p3# (450)"};
-				{ 9, 65414, "", "=q2=Recipe: Starfire Espresso", "=ds=#p3# (450)"};
-				{ 10, 65406, "", "=q2=Recipe: Whitecrest Gumbo", "=ds=#p3# (450)"};
-				{ 11, 65418, "", "=q2=Recipe: Hearty Seafood Soup", "=ds=#p3# (475)"};
-				{ 12, 65417, "", "=q2=Recipe: Pickled Guppy", "=ds=#p3# (475)"};
-				{ 13, 65419, "", "=q2=Recipe: Tender Baked Turtle", "=ds=#p3# (475)"};
-				{ 14, 65426, "", "=q2=Recipe: Baked Rockfish", "=ds=#p3# (500)"};
-				{ 15, 65427, "", "=q2=Recipe: Basilisk Liverdog", "=ds=#p3# (500)"};
-				{ 16, 65429, "", "=q2=Recipe: Beer-Basted Crocolisk", "=ds=#p3# (500)"};
-				{ 17, 65424, "", "=q2=Recipe: Blackbelly Sushi", "=ds=#p3# (500)"};
-				{ 18, 65430, "", "=q2=Recipe: Crocolisk Au Gratin", "=ds=#p3# (500)"};
-				{ 19, 65422, "", "=q2=Recipe: Delicious Sagefish Tail", "=ds=#p3# (500)"};
-				{ 20, 65423, "", "=q2=Recipe: Fish Fry", "=ds=#p3# (500)"};
-				{ 21, 65428, "", "=q2=Recipe: Grilled Dragon", "=ds=#p3# (500)"};
-				{ 22, 65412, "", "=q2=Recipe: Lightly Fried Lurker", "=ds=#p3# (500)"};
-				{ 23, 65420, "", "=q2=Recipe: Mushroom Sauce Mudfish", "=ds=#p3# (500)"};
-				{ 24, 68688, "", "=q2=Recipe: Scalding Murglesnout", "=ds=#p3# (500)"};
-				{ 25, 65421, "", "=q2=Recipe: Severed Sagefish Head", "=ds=#p3# (500)"};
-				{ 26, 65425, "", "=q2=Recipe: Skewered Eel", "=ds=#p3# (500)"};
-				{ 27, 65431, "", "=q2=Recipe: Chocolate Cookie", "=ds=#p3# (505)"};
-				{ 28, 65432, "", "=q2=Recipe: Fortune Cookie", "=ds=#p3# (525)"};
-				{ 29, 65433, "", "=q2=Recipe: South Island Iced Tea", "=ds=#p3# (525)"};
-				{ 30, 65513, "", "=q1=Crate of Tasty Meat", "=ds="};
+				{ 1, 65411, "", "=q2=Recipe: Broiled Mountain Trout", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 2, 65408, "", "=q2=Recipe: Feathered Lure", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 3, 65415, "", "=q2=Recipe: Highland Spirits", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 4, 65407, "", "=q2=Recipe: Lavascale Fillet", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 5, 65412, "", "=q2=Recipe: Lightly Fried Lurker", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 6, 65416, "", "=q2=Recipe: Lurker Lunch", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 7, 65410, "", "=q2=Recipe: Salted Eye", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 8, 65413, "", "=q2=Recipe: Seasoned Crab", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 9, 65414, "", "=q2=Recipe: Starfire Espresso", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 10, 65406, "", "=q2=Recipe: Whitecrest Gumbo", "=ds=#p3# (450)", "3 #chefaward#"};
+				{ 11, 65418, "", "=q2=Recipe: Hearty Seafood Soup", "=ds=#p3# (475)", "3 #chefaward#"};
+				{ 12, 65417, "", "=q2=Recipe: Pickled Guppy", "=ds=#p3# (475)", "3 #chefaward#"};
+				{ 13, 65419, "", "=q2=Recipe: Tender Baked Turtle", "=ds=#p3# (475)", "3 #chefaward#"};
+				{ 14, 65426, "", "=q2=Recipe: Baked Rockfish", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 15, 65427, "", "=q2=Recipe: Basilisk Liverdog", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 16, 65429, "", "=q2=Recipe: Beer-Basted Crocolisk", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 17, 65424, "", "=q2=Recipe: Blackbelly Sushi", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 18, 65430, "", "=q2=Recipe: Crocolisk Au Gratin", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 19, 65422, "", "=q2=Recipe: Delicious Sagefish Tail", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 20, 65423, "", "=q2=Recipe: Fish Fry", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 21, 65428, "", "=q2=Recipe: Grilled Dragon", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 22, 65409, "", "=q2=Recipe: Lavascale Minestrone", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 23, 65420, "", "=q2=Recipe: Mushroom Sauce Mudfish", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 24, 68688, "", "=q2=Recipe: Scalding Murglesnout", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 25, 65421, "", "=q2=Recipe: Severed Sagefish Head", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 26, 65425, "", "=q2=Recipe: Skewered Eel", "=ds=#p3# (500)", "3 #chefaward#"};
+				{ 27, 65431, "", "=q2=Recipe: Chocolate Cookie", "=ds=#p3# (505)", "3 #chefaward#"};
+				{ 28, 65432, "", "=q2=Recipe: Fortune Cookie", "=ds=#p3# (525)", "5 #chefaward#"};
+				{ 29, 65433, "", "=q2=Recipe: South Island Iced Tea", "=ds=#p3# (525)", "5 #chefaward#"};
 				extraText = ": "..BabbleZone["Stormwind"] .." / "..BabbleZone["Orgrimmar"];
 			};
 			{
-				{ 1, 43035, "", "=q2=Recipe: Blackened Dragonfin", "=ds=#p3# (400)"};
-				{ 2, 43032, "", "=q2=Recipe: Blackened Worg Steak", "=ds=#p3# (400)"};
-				{ 3, 43029, "", "=q2=Recipe: Critter Bites", "=ds=#p3# (400)"};
-				{ 4, 43033, "", "=q2=Recipe: Cuttlesteak", "=ds=#p3# (400)"};
-				{ 5, 43036, "", "=q2=Recipe: Dragonfin Filet", "=ds=#p3# (400)"};
-				{ 6, 43024, "", "=q2=Recipe: Firecracker Salmon", "=ds=#p3# (400)"};
-				{ 7, 43030, "", "=q2=Recipe: Hearty Rhino", "=ds=#p3# (400)"};
-				{ 8, 43026, "", "=q2=Recipe: Imperial Manta Steak", "=ds=#p3# (400)"};
-				{ 9, 43018, "", "=q2=Recipe: Mega Mammoth Meal", "=ds=#p3# (400)"};
-				{ 10, 43022, "", "=q2=Recipe: Mighty Rhino Dogs", "=ds=#p3# (400)"};
-				{ 11, 43023, "", "=q2=Recipe: Poached Northern Sculpin", "=ds=#p3# (400)"};
-				{ 12, 43028, "", "=q2=Recipe: Rhinolicious Wyrmsteak", "=ds=#p3# (400)"};
-				{ 13, 43031, "", "=q2=Recipe: Snapper Extreme", "=ds=#p3# (400)"};
-				{ 14, 43034, "", "=q2=Recipe: Spiced Mammoth Treats", "=ds=#p3# (400)"};
-				{ 15, 43020, "", "=q2=Recipe: Spiced Worm Burger", "=ds=#p3# (400)"};
-				{ 16, 43025, "", "=q2=Recipe: Spicy Blue Nettlefish", "=ds=#p3# (400)"};
-				{ 17, 43027, "", "=q2=Recipe: Spicy Fried Herring", "=ds=#p3# (400)"};
-				{ 18, 43019, "", "=q2=Recipe: Tender Shoveltusk Steak", "=ds=#p3# (400)"};
-				{ 19, 43037, "", "=q2=Recipe: Tracker Snacks", "=ds=#p3# (400)"};
-				{ 20, 43021, "", "=q2=Recipe: Very Burnt Worg", "=ds=#p3# (400)"};
-				{ 21, 44954, "", "=q2=Recipe: Worg Tartare", "=ds=#p3# (400)"};
-				{ 22, 43505, "", "=q2=Recipe: Gigantic Feast", "=ds=#p3# (425)"};
-				{ 23, 43506, "", "=q2=Recipe: Small Feast", "=ds=#p3# (425)"};
-				{ 24, 43017, "", "=q2=Recipe: Fish Feast", "=ds=#p3# (450)"};
+				{ 1, 62786, "", "=q1=Cocoa Beans", "=ds=#e8#", "10 #silver#"};
+				{ 2, 65513, "", "=q1=Crate of Tasty Meat", "=ds=#m20#", "2 #chefaward#"};
+				{ 16, 62788, "", "=q1=Dry Yeast", "=ds=#e8#", "10 #silver#"};
+				{ 17, 62787, "", "=q1=Noble Hops", "=ds=#e8#", "10 #silver#"};
+			};
+			{
+				{ 1, 43035, "", "=q2=Recipe: Blackened Dragonfin", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 2, 43032, "", "=q2=Recipe: Blackened Worg Steak", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 3, 43029, "", "=q2=Recipe: Critter Bites", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 4, 43033, "", "=q2=Recipe: Cuttlesteak", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 5, 43036, "", "=q2=Recipe: Dragonfin Filet", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 6, 43024, "", "=q2=Recipe: Firecracker Salmon", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 7, 43030, "", "=q2=Recipe: Hearty Rhino", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 8, 43026, "", "=q2=Recipe: Imperial Manta Steak", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 9, 43018, "", "=q2=Recipe: Mega Mammoth Meal", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 10, 43022, "", "=q2=Recipe: Mighty Rhino Dogs", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 11, 43023, "", "=q2=Recipe: Poached Northern Sculpin", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 12, 43028, "", "=q2=Recipe: Rhinolicious Wyrmsteak", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 13, 43031, "", "=q2=Recipe: Snapper Extreme", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 14, 43034, "", "=q2=Recipe: Spiced Mammoth Treats", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 15, 43020, "", "=q2=Recipe: Spiced Worm Burger", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 16, 43025, "", "=q2=Recipe: Spicy Blue Nettlefish", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 17, 43027, "", "=q2=Recipe: Spicy Fried Herring", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 18, 43019, "", "=q2=Recipe: Tender Shoveltusk Steak", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 19, 43037, "", "=q2=Recipe: Tracker Snacks", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 20, 43021, "", "=q2=Recipe: Very Burnt Worg", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 21, 44954, "", "=q2=Recipe: Worg Tartare", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 22, 43505, "", "=q2=Recipe: Gigantic Feast", "=ds=#p3# (425)", "3 #cookingaward#"};
+				{ 23, 43506, "", "=q2=Recipe: Small Feast", "=ds=#p3# (425)", "3 #cookingaward#"};
+				{ 24, 43017, "", "=q2=Recipe: Fish Feast", "=ds=#p3# (450)", "5 #cookingaward#"};
 				{ 26, 43016, "", "=q2=Dalaran Cooking Award", "=ds=#m17#"};
 				extraText = ": "..BabbleZone["Dalaran"];
 			};
 			{
-				{ 1, 46349, "", "=q3=Chef's Hat", "=ds=#s1#"};
-				{ 2, 43007, "", "=q1=Northern Spices", "=ds=#e8#"};
+				{ 1, 46349, "", "=q3=Chef's Hat", "=ds=#s1#", "100 #cookingaward#"};
+				{ 2, 43007, "", "=q1=Northern Spices", "=ds=#e8#", "1 #cookingaward#"};
 				{ 16, 0, "inv_misc_bag_11", "=q6="..AL["Small Spice Bag"], ""};
-				{ 17, 33925, "", "=q3=Recipe: Delicious Chocolate Cake", "=ds=#p3# (1)", "", ""};
-				{ 18, 33871, "", "=q3=Recipe: Stormchops", "=ds=#p3# (300)", "", ""};
-				{ 19, 44228, "", "=q1=Baby Spice", "=ds=", "", ""};
-				{ 20, 44114, "", "=q1=Old Spices", "=ds=", "", ""};
+				{ 17, 33925, "", "=q3=Recipe: Delicious Chocolate Cake", "=ds=#p3# (1)", ""};
+				{ 18, 33871, "", "=q3=Recipe: Stormchops", "=ds=#p3# (300)", ""};
+				{ 19, 44228, "", "=q1=Baby Spice", "=ds=#m20#", ""};
+				{ 20, 44114, "", "=q1=Old Spices", "=ds=#m20#", ""};
 				extraText = ": "..BabbleZone["Dalaran"];
 			};
 			{
@@ -7481,9 +7486,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	}
 
-		---------------
-		--- Fishing ---
-		---------------
+		---------------------
+		--- Fishing Daily ---
+		---------------------
 
 	AtlasLoot_Data["FishingDaily"] = {
 		["Normal"] = {
@@ -7539,9 +7544,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	}
 
-		---------------------
-		--- Jewelcrafting ---
-		---------------------
+		---------------------------
+		--- Jewelcrafting Daily ---
+		---------------------------
 
 	AtlasLoot_Data["JewelcraftingDailyRed"] = {
 		["Normal"] = {

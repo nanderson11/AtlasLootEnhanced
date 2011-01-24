@@ -862,6 +862,8 @@ AtlasLoot_TextParsing = {
 	{ "#gold#", "|TInterface\\AddOns\\AtlasLoot\\Images\\gold:0|t" },
 	{ "#silver#", "|TInterface\\AddOns\\AtlasLoot\\Images\\silver:0|t" },
 	{ "#copper#", "|TInterface\\AddOns\\AtlasLoot\\Images\\bronze:0|t" },
+
+	-- Currency Icons - PvP
 	{ "#arena#", "|TInterface\\PVPFrame\\PVP-ArenaPoints-Icon:0|t" },
 	{ "#markthrallmar#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t" },
 	{ "#markhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t" },
@@ -869,10 +871,21 @@ AtlasLoot_TextParsing = {
 	{ "#halaaresearch#", "|TInterface\\Icons\\INV_Misc_Rune_09:0|t" },
 	{ "#spiritshard#", "|TInterface\\Icons\\INV_Jewelry_FrostwolfTrinket_04:0|t" },
 	{ "#wintergrasp#", "|TInterface\\Icons\\INV_Misc_Platnumdisks:0|t" },
+
+	-- Currency Icons - PvE
+	{ "#t10mark#", "|TInterface\\Icons\\ability_paladin_shieldofthetemplar:0|t"},
 	{ "#trophyofthecrusade#", "|TInterface\\Icons\\INV_Misc_Trophy_Argent:0|t" },
+	{ "#justice#", "|TInterface\\Icons\\pvecurrency-justice:0|t"},
+	{ "#valor#", "|TInterface\\Icons\\pvecurrency-valor:0|t"},
+
+	-- Currency Icons - Events
 	{ "#darkmoon#", "|TInterface\\Icons\\INV_Misc_Ticket_Darkmoon_01:0|t" },
 	{ "#noblegarden#", "|TInterface\\Icons\\Achievement_Noblegarden_Chocolate_Egg:0|t" },
 	{ "#brewfest#", "|TInterface\\Icons\\INV_Misc_Coin_01:0|t" },
+	{ "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t"},
+	{ "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t"},
+
+	-- Currency Icons - Factions
 	{ "#ccombat#", "|TInterface\\Icons\\INV_Jewelry_Talisman_06:0|t" },
 	{ "#champseal#", "|TInterface\\Icons\\Ability_Paladin_ArtofWar:0|t" },
 	{ "#champwrit#", "|TInterface\\Icons\\INV_Scroll_11:0|t" },
@@ -886,13 +899,10 @@ AtlasLoot_TextParsing = {
 	{ "#ogrilacrystal#", "|TInterface\\Icons\\INV_Misc_Apexis_Crystal:0|t" },
 	{ "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t" },
 	{ "#fireflower#", "|TInterface\\Icons\\INV_SummerFest_FireFlower:0|t" },
-	{ "#t10mark#", "|TInterface\\Icons\\ability_paladin_shieldofthetemplar:0|t"},
-	{ "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t"},
-	{ "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t"},
-	{ "#justice#", "|TInterface\\Icons\\pvecurrency-justice:0|t"},
-	{ "#valor#", "|TInterface\\Icons\\pvecurrency-valor:0|t"},
 
-	-- Currency Icons for Crafting Recipes
+	-- Currency Icons - Crafting Recipes
+	{ "#cookingaward#", "|TInterface\\Icons\\inv_misc_ribbon_01:0|t"},
+	{ "#chefaward#", "|TInterface\\Icons\\achievement_profession_chefhat:0|t"},
 	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},
 	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},
 	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},
