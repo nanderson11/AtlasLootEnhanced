@@ -527,7 +527,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyArmorAndWeapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Dwarf"], "=ds=#s5#, #a1#"};
+				{ 1, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
 				{ 2, 64644, "", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
 				{ 3, 64904, "", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
 				{ 4, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
@@ -535,7 +535,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
 				{ 7, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
 				{ 8, 64880, "", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
-				{ 9, 64489, "", "=q4=Staff of Sorceror-Thane Thaurissan", "=ds=#w9#"};
+				{ 9, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
 			};
 		};
 		info = {
@@ -689,13 +689,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, 63523, "", "=q0=Eerie Smolderthorn Idol", "=ds=#sr# 1"};
 				{ 8, 63413, "", "=q0=Feathered Gold Earring", "=ds=#sr# 1"};
 				{ 9, 63120, "", "=q0=Fetish of Hir'eek", "=ds=#sr# 1"};
-				{ 10, 66058, "", "=q0=Fine Bloodscalp Dinnerware", "=ds=#sr# 1"};
-				{ 18, 64347, "", "=q0=Gahz'rilla Figurine", "=ds=#sr# 1"};
-				{ 19, 63412, "", "=q0=Jade Asp with Ruby Eyes", "=ds=#sr# 1"};
-				{ 20, 63118, "", "=q0=Lizard Foot Charm", "=ds=#sr# 1"};
-				{ 21, 64345, "", "=q0=Skull-Shaped Planter", "=ds=#sr# 1"};
-				{ 22, 64374, "", "=q0=Tooth with Gold Filling", "=ds=#sr# 1"};
-				{ 23, 63115, "", "=q0=Zandalari Voodoo Doll", "=ds=#sr# 1"};
+				{ 18, 66058, "", "=q0=Fine Bloodscalp Dinnerware", "=ds=#sr# 1"};
+				{ 19, 64347, "", "=q0=Gahz'rilla Figurine", "=ds=#sr# 1"};
+				{ 20, 63412, "", "=q0=Jade Asp with Ruby Eyes", "=ds=#sr# 1"};
+				{ 21, 63118, "", "=q0=Lizard Foot Charm", "=ds=#sr# 1"};
+				{ 22, 64345, "", "=q0=Skull-Shaped Planter", "=ds=#sr# 1"};
+				{ 23, 64374, "", "=q0=Tooth with Gold Filling", "=ds=#sr# 1"};
+				{ 24, 63115, "", "=q0=Zandalari Voodoo Doll", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -713,12 +713,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 5, 64418, "", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
 				{ 6, 64417, "", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
 				{ 7, 64419, "", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 8, 64420, "", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
-				{ 18, 64366, "", "=q0=Scorched Staff of Shadow Priest Anund", "=ds=#sr# 300"};
-				{ 19, 63411, "", "=q0=Silver Neck Torc", "=ds=#sr# 300"};
-				{ 20, 64438, "", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
-				{ 21, 64437, "", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
-				{ 22, 64389, "", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 18, 64420, "", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
+				{ 19, 64438, "", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
+				{ 20, 64437, "", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
+				{ 21, 64389, "", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
 			};
 		};
 		info = {
@@ -730,12 +728,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyDraenei"] = {
 		["Normal"] = {
 			{
-				{ 1, 64456, "", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
-				{ 2, 64457, "", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
+				{ 2, 64456, "", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
 				{ 4, 64440, "", "=q0=Anklet with Golden Bells", "=ds=#sr# 300"};
 				{ 5, 64453, "", "=q0=Baroque Sword Scabbard", "=ds=#sr# 300"};
 				{ 6, 64442, "", "=q0=Carved Harp of Exotic Wood", "=ds=#sr# 300"};
 				{ 7, 64455, "", "=q0=Dignified Portrait", "=ds=#sr# 300"};
+				{ 16, 64457, "", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
 				{ 19, 64454, "", "=q0=Fine Crystal Candelabra", "=ds=#sr# 300"};
 				{ 20, 64458, "", "=q0=Plated Elekk Goad", "=ds=#sr# 300"};
 				{ 21, 64444, "", "=q0=Scepter of the Nathrezim", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#"};
@@ -3272,15 +3270,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringGem"] = {
 		["Normal"] = {
 			{
-				{ 1, "", "59480", "=q3=Fractured Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 2, "", "59491", "=q3=Flashing Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 3, "", "68660", "=q3=Mystic Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 4, "", "59489", "=q3=Precise Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 5, "", "59479", "=q3=Quick Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 16, "", "59493", "=q3=Rigid Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 17, "", "59496", "=q3=Sparkling Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 18, "", "59478", "=q3=Smooth Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 19, "", "59477", "=q3=Subtle Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 2, "", "59480", "=q3=Fractured Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 3, "", "59491", "=q3=Flashing Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 4, "", "68660", "=q3=Mystic Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 5, "", "59489", "=q3=Precise Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 6, "", "59479", "=q3=Quick Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 17, "", "59493", "=q3=Rigid Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 18, "", "59496", "=q3=Sparkling Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 19, "", "59478", "=q3=Smooth Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 20, "", "59477", "=q3=Subtle Cogwheel", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
 			};
 		};
 		info = {
@@ -3598,9 +3596,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, "s57210", "43536", "=q1=Glyph of Bone Shield", "=ds=#sr# 265", "=ds="..AL["Trainer"] };
 				{ 5, "s57211", "43537", "=q1=Glyph of Chains of Ice", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 6, "s64297", "45799", "=q1=Glyph of Dancing Rune Weapon", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
-				-- TODO 4.0.6: Add Glyph of Dark Succor (below)
-				--{ 7, "s96284", "68793", "=q1=Glyph of Dark Succor", "=ds=#sr# 280", "=ds=Available in 4.0.6 from "..AL["Trainer"] };
-				{ 7, "s57213", "43541", "=q1=Glyph of Death Grip", "=ds=#sr# 285", "=ds="..AL["Trainer"] };
+				{ 7, "s96284", "68793", "=q1=Glyph of Dark Succor", "=ds=#sr# 280", "=ds="..AL["Trainer"] };
+				{ 8, "s57213", "43541", "=q1=Glyph of Death Grip", "=ds=#sr# 285", "=ds="..AL["Trainer"] };
 				{ 17, "s64298", "45800", "=q1=Glyph of Hungering Cold", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 				{ 18, "s57221", "43548", "=q1=Glyph of Pestilence", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 				{ 19, "s57226", "43553", "=q1=Glyph of Pillar of Frost", "=ds=#sr# 305", "=ds="..AL["Trainer"] };
@@ -3846,25 +3843,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Major Glyph"], "" };
 				{ 2, "s57181", "42396", "=q1=Glyph of Circle of Healing", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
-				-- TODO 4.0.6: Add Glyph of desperation (below)
-				--{ 3, "s64259", "45760", "=q1=Glyph of Desperation", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 3, "s57183", "42397", "=q1=Glyph of Dispel Magic", "=ds=#sr# 230", "=ds="..AL["Trainer"] };
-				{ 4, "s64283", "45758", "=q1=Glyph of Divine Accuracy", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
-				{ 5, "s57184", "42398", "=q1=Glyph of Fade", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
-				{ 6, "s57185", "42399", "=q1=Glyph of Fear Ward", "=ds=#sr# 270", "=ds="..AL["Trainer"] };
-				{ 7, "s57187", "42401", "=q1=Glyph of Holy Nova", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
-				{ 8, "s57188", "42402", "=q1=Glyph of Inner Fire", "=ds=#sr# 135", "=ds="..AL["Trainer"] };
-				{ 9, "s57190", "42404", "=q1=Glyph of Mass Dispel", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
-				-- TODO 4.0.6: Remove Glyph of Pain Suppression (below)
-				{ 17, "s64259", "45760", "=q1=Glyph of Pain Suppression", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
-				-- TODO 4.0.6: Add Glyph of Prayer of Mending (below)
-				--{ 18, "s57202", "42417", "=q1=Glyph of Prayer of Mending", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
-				{ 18, "s57191", "42405", "=q1=Glyph of Psychic Horror", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
-				{ 19, "s57196", "42410", "=q1=Glyph of Psychic Scream", "=ds=#sr# 95", "=ds="..AL["Trainer"] };
-				{ 20, "s57198", "42412", "=q1=Glyph of Scourge Imprisonment", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
-				{ 21, "s57201", "42416", "=q1=Glyph of Smite", "=ds=#sr# 210", "=ds="..AL["Trainer"] };
-				-- TODO 4.0.6: Remove Glyph of Spirit of Redemption (below)
-				{ 22, "s57202", "42417", "=q1=Glyph of Spirit of Redemption", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 3, "s64259", "45760", "=q1=Glyph of Desperation", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 4, "s57183", "42397", "=q1=Glyph of Dispel Magic", "=ds=#sr# 230", "=ds="..AL["Trainer"] };
+				{ 5, "s64283", "45758", "=q1=Glyph of Divine Accuracy", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
+				{ 6, "s57184", "42398", "=q1=Glyph of Fade", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
+				{ 7, "s57185", "42399", "=q1=Glyph of Fear Ward", "=ds=#sr# 270", "=ds="..AL["Trainer"] };
+				{ 8, "s57187", "42401", "=q1=Glyph of Holy Nova", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
+				{ 9, "s57188", "42402", "=q1=Glyph of Inner Fire", "=ds=#sr# 135", "=ds="..AL["Trainer"] };
+				{ 17, "s57190", "42404", "=q1=Glyph of Mass Dispel", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 18, "s57202", "42417", "=q1=Glyph of Prayer of Mending", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 19, "s57191", "42405", "=q1=Glyph of Psychic Horror", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
+				{ 20, "s57196", "42410", "=q1=Glyph of Psychic Scream", "=ds=#sr# 95", "=ds="..AL["Trainer"] };
+				{ 21, "s57198", "42412", "=q1=Glyph of Scourge Imprisonment", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 22, "s57201", "42416", "=q1=Glyph of Smite", "=ds=#sr# 210", "=ds="..AL["Trainer"] };
 				{ 23, "s64309", "45757", "=q1=Glyph of Spirit Tap", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 			};
 		};

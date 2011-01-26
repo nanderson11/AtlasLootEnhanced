@@ -230,14 +230,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, "LeatherItemEnhancement", "inv_misc_armorkit_18", "=ds="..AL["Item Enhancements"], "" };
 				{ 9, "Dragonscale", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10656), "" };
 				{ 10, "Elemental", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10658), "" };
-				{ 23, "Tribal", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10660), "" };
+				{ 12, "LeatherLeather", "inv_misc_leatherscrap_10", "=ds="..BabbleInventory["Leather"], "" };
 				{ 17, "LeatherMailArmorCata", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Cataclysm"] };
 				{ 18, "LeatherMailArmorWrath", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Wrath of the Lich King"] };
 				{ 19, "LeatherMailArmorBC", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Burning Crusade"] };
 				{ 20, "LeatherMailArmorOld", "INV_Misc_ArmorKit_17", "=ds="..AL["Mail Armor"], "=q5="..AL["Classic WoW"] };
-				{ 21, "LeatherCloaks", "inv_misc_cape_05", "=ds="..AL["Cloaks"], "" };
-				{ 12, "LeatherLeather", "inv_misc_leatherscrap_10", "=ds="..BabbleInventory["Leather"], "" };
-				{ 26, "LeatherDrumsBagsMisc", "inv_misc_drum_03", "=ds="..AL["Drums, Bags and Misc."], "" };
+				{ 22, "LeatherCloaks", "inv_misc_cape_05", "=ds="..AL["Cloaks"], "" };
+				{ 24, "Tribal", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(10660), "" };
+				{ 27, "LeatherDrumsBagsMisc", "inv_misc_drum_03", "=ds="..AL["Drums, Bags and Misc."], "" };
 				
 			};
 		};
