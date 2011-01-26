@@ -912,6 +912,7 @@ AtlasLoot_TextParsing = {
 	{ "#maelstromcrystal#", "|TInterface\\Icons\\inv_misc_crystalepic:0|t"},
 	{ "#embersilkboltl#", "|TInterface\\Icons\\inv_misc_emberweavecloth_01:0|t"},
 	{ "#dreamcloth#", "|TInterface\\Icons\\inv_chest_cloth_57:0|t"},
+	{ "#heavysavageleather#", "|TInterface\\Icons\\item_savageleatherhide:0|t"},
 }
 
 --------------------------------------------------------------------------------

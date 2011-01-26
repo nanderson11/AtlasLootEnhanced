@@ -931,7 +931,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 15, "s2667", "2864", "=q2=Runed Copper Breastplate", "=ds=#sr# 80", "=ds="..AL["World Drop"]};
 				{ 16, "s2666", "2857", "=q2=Runed Copper Belt", "=ds=#sr# 70", "=ds="..AL["Trainer"]};
 				{ 17, "s3325", "3474", "=q2=Gemmed Copper Gauntlets", "=ds=#sr# 60", "=ds="..AL["World Drop"]};
-				{ 18, "s2666", "3324", "=q2=Runed Copper Pants", "=ds=#sr# 45", "=ds="..AL["Trainer"]};
+				{ 18, "s3324", "3473", "=q2=Runed Copper Pants", "=ds=#sr# 45", "=ds="..AL["Trainer"]};
 				{ 19, "s3323", "3472", "=q2=Runed Copper Gauntlets", "=ds=#sr# 40", "=ds="..AL["Trainer"]};
 				{ 20, "s3321", "3471", "=q2=Copper Chain Vest", "=ds=#sr# 35", "=ds="..AL["World Drop"]};
 				{ 21, "s2661", "2851", "=q1=Copper Chain Belt", "=ds=#sr# 35", "=ds="..AL["Trainer"]};
@@ -1278,7 +1278,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 21, "s2742", "2850", "=q2=Bronze Shortsword", "=ds=#h3#, #w10# / #sk# 120", "=ds="..AL["Trainer"]};
 				{ 22, "s2741", "2849", "=q2=Bronze Axe", "=ds=#h3#, #w1# / #sk# 115", "=ds="..AL["Trainer"]};
 				{ 23, "s2740", "2848", "=q2=Bronze Mace", "=ds=#h3#, #w6# / #sk# 110", "=ds="..AL["Trainer"]};
-				{ 24, "s6517", "5540", "=q2=Pearl-handled Dagger", "=ds=#h1#, #w4# / #sk# 110", "=ds="..AL["Trainer"]};
+				{ 24, "s6517", "5540", "=q2=Pearl-Handled Dagger", "=ds=#h1#, #w4# / #sk# 110", "=ds="..AL["Trainer"]};
 				{ 25, "s3491", "3848", "=q2=Big Bronze Knife", "=ds=#h1#, #w4# / #sk# 105", "=ds="..AL["Trainer"]};
 				{ 26, "s34979", "29201", "=q2=Thick Bronze Darts", "=ds=#w11# / #sk# 100", "=ds="..AL["Trainer"]};
 				{ 27, "s3292", "3487", "=q2=Heavy Copper Broadsword", "=ds=#h2#, #w10# / #sk# 95", "=ds="..AL["Trainer"]};
@@ -2794,7 +2794,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, "s30565", "23838", "=q4=Foreman's Enchanted Helmet", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
 				{ 5, "s30574", "23828", "=q4=Gnomish Power Goggles", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
 				{ 6, "s46108", "35181", "=q4=Powerheal 9000 Lens", "=ds=#sr# 375", "=ds="..BabbleZone["Sunwell Plateau"] };
-				{ 7, "s41320", "32494", "=q4=Destruction Holo-gogs", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 7, "s41320", "32494", "=q4=Destruction Holo-Gogs", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
 				{ 8, "s41321", "32495", "=q4=Powerheal 4000 Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
 			};
 		};
@@ -2808,7 +2808,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, "s81722", "59455", "=q4=Agile Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
-				{ 2, "s81724", "59453", "=q4=Camoflauge Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 2, "s81724", "59453", "=q4=Camouflauge Bio-Optic Killshades", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
 				{ 3, "s56486", "42554", "=q4=Greensight Gogs", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 4, "s56481", "42550", "=q4=Weakness Spectralizers", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
 				{ 5, "s30575", "23829", "=q4=Gnomish Battle Goggles", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
@@ -2975,7 +2975,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 19, "s12603", "10514", "=q1=Mithril Frag Bomb", "=ds=#sr# 215", "=ds="..AL["Trainer"] };
 				{ 20, "s12760", "10646", "=q1=Goblin Sapper Charge", "=ds=#sr# 205", "=ds="..AL["Trainer"] };
 				{ 21, "s13240", "10577", "=q2=The Mortar: Reloaded", "=ds=#sr# 205", "=ds="..AL["Trainer"] };
-				{ 22, "s23069", "18588", "=q1=EZ-Thro Dynamite II", "=ds=#sr# 200", "=ds="..AL["Vendor"] };
+				{ 22, "s23069", "18588", "=q1=Ez-Thro Dynamite II", "=ds=#sr# 200", "=ds="..AL["Vendor"] };
 				{ 23, "s3972", "4398", "=q1=Large Seaforium Charge", "=ds=#sr# 200", "=ds="..AL["World Drop"] };
 				{ 24, "s3968", "4395", "=q1=Goblin Land Mine", "=ds=#sr# 195", "=ds="..AL["World Drop"] };
 				{ 25, "s3967", "4394", "=q1=Big Iron Bomb", "=ds=#sr# 190", "=ds="..AL["Trainer"] };
@@ -2989,7 +2989,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 1, "s3946", "4378", "=q1=Heavy Dynamite", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
 				{ 2, "s3941", "4374", "=q1=Small Bronze Bomb", "=ds=#sr# 120", "=ds="..AL["Trainer"] };
 				{ 3, "s3937", "4370", "=q1=Large Copper Bomb", "=ds=#sr# 105", "=ds="..AL["Trainer"] };
-				{ 4, "s8339", "6714", "=q1=EZ-Thro Dynamite", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
+				{ 4, "s8339", "6714", "=q1=Ez-Thro Dynamite", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
 				{ 5, "s3933", "4367", "=q1=Small Seaforium Charge", "=ds=#sr# 100", "=ds="..AL["World Drop"] };
 				{ 6, "s3931", "4365", "=q1=Coarse Dynamite", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
 				{ 7, "s3923", "4360", "=q1=Rough Copper Bomb", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
@@ -3010,7 +3010,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 5, "s56478", "41167", "=q3=Heartseeker Scope", "=ds=#sr# 430", "=ds="..AL["Trainer"] };
 				{ 6, "s56470", "41146", "=q3=Sun Scope", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 7, "s61471", "44739", "=q1=Diamond-cut Refractor Scope", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
+				{ 7, "s61471", "44739", "=q1=Diamond-Cut Refractor Scope", "=ds=#sr# 390", "=ds="..AL["Trainer"] };
 				{ 9, "s30334", "23766", "=q3=Stabilized Eternium Scope", "=ds=#sr# 375", "=ds="..BabbleZone["Karazhan"] };
 				{ 10, "s30332", "23765", "=q3=Khorium Scope", "=ds=#sr# 360", "=ds="..BabbleZone["Netherstorm"] };
 				{ 11, "s30329", "23764", "=q2=Adamantite Scope", "=ds=#sr# 335", "=ds="..AL["Vendor"] };
@@ -3095,8 +3095,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, "s23129", "18660", "=q2=World Enlarger", "=ds=#sr# 260", "=ds="..AL["Drop"]};
 				{ 4, "s19567", "15846", "=q1=Salt Shaker", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
 				{ 5, "s12902", "10720", "=q1=Gnomish Net-o-Matic Projector", "=ds=#sr# 210", "=ds="..AL["Trainer"]};
-				{ 6, "s12715", "10644", "=q1=Goblin Rocket Fuel Recipe", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
-				{ 7, "s12895", "10713", "=q1=Inlaid Mithril Cylinder Plans", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
+				{ 6, "s12715", "10644", "=q1=Recipe: Goblin Rocket Fuel", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
+				{ 7, "s12895", "10713", "=q1=Plans: Inlaid Mithril Cylinder", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
 				{ 8, "s15255", "11590", "=q1=Mechanical Repair Kit", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
 				{ 9, "s21940", "17716", "=q1=Snowmaster 9000", "=ds=#sr# 190", "=ds="..AL["Feast of Winter Veil"]};
 				{ 10, "s3965", "4392", "=q1=Advanced Target Dummy", "=ds=#sr# 185", "=ds="..AL["Trainer"]};
@@ -3188,10 +3188,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 14, "s19833", "16007", "=q3=Flawless Arcanite Rifle", "=ds=#sr# 300", "=ds="..BabbleZone["Eastern Plaguelands"]};
 				{ 15, "s19796", "16004", "=q3=Dark Iron Rifle", "=ds=#sr# 275", "=ds="..BabbleZone["Blackrock Depths"]};
 				{ 16, "s19792", "15995", "=q2=Thorium Rifle", "=ds=#sr# 260", "=ds="..AL["Trainer"]};
-				{ 17, "s12614", "10510", "=q2=Mithril Heavy-bore Rifle", "=ds=#sr# 220", "=ds="..AL["World Drop"]};
+				{ 17, "s12614", "10510", "=q2=Mithril Heavy-Bore Rifle", "=ds=#sr# 220", "=ds="..AL["World Drop"]};
 				{ 18, "s12595", "10508", "=q2=Mithril Blunderbuss", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
 				{ 19, "s3954", "4383", "=q2=Moonsight Rifle", "=ds=#sr# 145", "=ds="..AL["World Drop"]};
-				{ 20, "s3949", "4379", "=q2=Silver-plated Shotgun", "=ds=#sr# 130", "=ds="..AL["Trainer"]};
+				{ 20, "s3949", "4379", "=q2=Silver-Plated Shotgun", "=ds=#sr# 130", "=ds="..AL["Trainer"]};
 				{ 21, "s3939", "4372", "=q2=Lovingly Crafted Boomstick", "=ds=#sr# 120", "=ds="..BabbleZone["Thousand Needles"]};
 				{ 22, "s3936", "4369", "=q2=Deadly Blunderbuss", "=ds=#sr# 105", "=ds="..AL["Trainer"]};
 				{ 23, "s3925", "4362", "=q2=Rough Boomstick", "=ds=#sr# 50", "=ds="..AL["Trainer"]};
@@ -3255,8 +3255,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 15, "s8895", "7189", "=q2=Goblin Rocket Boots", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
 				{ 16, "s12718", "10543", "=q2=Goblin Construction Helmet", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
 				{ 17, "s12717", "10542", "=q2=Goblin Mining Helmet", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
-				{ 18, "s12716", "10577", "=q1=Goblin Mortar", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
-				{ 19, "s12715", "10644", "=q1=Goblin Rocket Fuel Recipe", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
+				{ 18, "s12716", "10577", "=q2=Goblin Mortar", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
+				{ 19, "s12715", "10644", "=q1=Recipe: Goblin Rocket Fuel", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
 				{ 20, "s12760", "10646", "=q1=Goblin Sapper Charge", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
 				{ 21, "s13240", "10577", "=q1=The Mortar: Reloaded", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
 			};
@@ -3296,8 +3296,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250", "=ds="..AL["Quest Reward"] };
 				{ 5, "s15633", "11826", "=q1=Lil' Smoky", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
 				{ 6, "s15628", "11825", "=q1=Pet Bombling", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
-				{ 7, "s3928", "4401", "=q1=Mechanical Squirrel", "=ds=#sr# 75", "=ds="..AL["World Drop"] };
-				{ 16, "s60866", "41508", "=q4=Mechano-hog", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"] };
+				{ 7, "s3928", "4401", "=q1=Mechanical Squirrel Box", "=ds=#sr# 75", "=ds="..AL["World Drop"] };
+				{ 16, "s60866", "41508", "=q4=Mechano-Hog", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"] };
 				{ 17, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"] };
 				{ 18, "s44157", "34061", "=q4=Turbo-Charged Flying Machine Control", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
 				{ 19, "s44155", "34060", "=q3=Flying Machine Control", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
@@ -5647,6 +5647,64 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["LeatherworkingCataVendor"] = {
+		["Normal"] = {
+			{
+    			{ 1, 52980, "", "=q3=Pristine Hide", "=ds=" },
+   				{ 2, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 3, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 4, 67080, "", "=q1=Pattern: Bloodied Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 5, 67065, "", "=q1=Pattern: Bloodied Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 6, 67054, "", "=q1=Pattern: Bloodied Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 7, 67093, "", "=q1=Pattern: Bloodied Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 8, 67066, "", "=q1=Pattern: Bloodied Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 9, 67081, "", "=q1=Pattern: Bloodied Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 10, 67092, "", "=q1=Pattern: Bloodied Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 11, 67055, "", "=q1=Pattern: Bloodied Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 12, 67076, "", "=q1=Pattern: Bloodied Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+   				{ 13, 67060, "", "=q1=Pattern: Bloodied Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 14, 67046, "", "=q1=Pattern: Bloodied Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 15, 67087, "", "=q1=Pattern: Bloodied Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 16, 67048, "", "=q1=Pattern: Bloodied Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 17, 67077, "", "=q1=Pattern: Bloodied Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 18, 67089, "", "=q1=Pattern: Bloodied Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 19, 67062, "", "=q1=Pattern: Bloodied Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+  				{ 20, 67064, "", "=q1=Pattern: Bloodied Scale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 21, 67063, "", "=q1=Pattern: Bloodied Scale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 22, 67049, "", "=q1=Pattern: Bloodied Scale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 23, 67090, "", "=q1=Pattern: Bloodied Scale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 24, 67053, "", "=q1=Pattern: Bloodied Scale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 25, 67091, "", "=q1=Pattern: Bloodied Scale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 26, 67079, "", "=q1=Pattern: Bloodied Scale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 27, 67078, "", "=q1=Pattern: Bloodied Scale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 28, 67044, "", "=q1=Pattern: Bloodied Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    			{ 29, 67058, "", "=q1=Pattern: Bloodied Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 30, 67042, "", "=q1=Pattern: Bloodied Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+    		};
+    		{
+    			{ 1, 67075, "", "=q1=Pattern: Bloodied Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 2, 67056, "", "=q1=Pattern: Bloodied Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+    			{ 3, 67086, "", "=q1=Pattern: Bloodied Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 4, 67085, "", "=q1=Pattern: Bloodied Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 5, 67074, "", "=q1=Pattern: Bloodied Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+    			{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+    			{ 9, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+    			{ 10, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+    			{ 11, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+    			{ 12, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+    			{ 13, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+   				{ 14, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+    			{ 15, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+			};
+		};
+		info = {
+			name = LEATHERWORKING..": "..AL["Cataclysm Vendor Sold Patterns"],
+			module = moduleName, menu = "LEATHERWORKINGMENU",
+		};
+	};
+
 		--------------
 		--- Mining ---
 		--------------
@@ -7435,7 +7493,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 9, 43018, "", "=q2=Recipe: Mega Mammoth Meal", "=ds=#p3# (400)", "3 #cookingaward#"};
 				{ 10, 43022, "", "=q2=Recipe: Mighty Rhino Dogs", "=ds=#p3# (400)", "3 #cookingaward#"};
 				{ 11, 43023, "", "=q2=Recipe: Poached Northern Sculpin", "=ds=#p3# (400)", "3 #cookingaward#"};
-				{ 12, 43028, "", "=q2=Recipe: Rhinolicious Wyrmsteak", "=ds=#p3# (400)", "3 #cookingaward#"};
+				{ 12, 43028, "", "=q2=Recipe: Rhinolicious Wormsteak", "=ds=#p3# (400)", "3 #cookingaward#"};
 				{ 13, 43031, "", "=q2=Recipe: Snapper Extreme", "=ds=#p3# (400)", "3 #cookingaward#"};
 				{ 14, 43034, "", "=q2=Recipe: Spiced Mammoth Treats", "=ds=#p3# (400)", "3 #cookingaward#"};
 				{ 15, 43020, "", "=q2=Recipe: Spiced Worm Burger", "=ds=#p3# (400)", "3 #cookingaward#"};

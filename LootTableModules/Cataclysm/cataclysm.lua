@@ -1112,9 +1112,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
 				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
 				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
-				{ 9, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
-				{ 10, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
-				{ 11, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
+				{ 16, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
+				{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
+				{ 19, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
 			};
 		};
 		info = {
@@ -4526,48 +4526,48 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["JusticePoints"] = {
 		["Normal"] = {
 			{
-				{ 1, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "2200 #justice#" },
-				{ 2, 58157, "", "=q3=Meadow Mantle", "=ds=#s3#, #a1#", "1650 #justice#" },
-				{ 3, 58153, "", "=q3=Robes of Embalmed Darkness", "=ds=#s5#, #a1#", "2200 #justice#" },
-				{ 4, 58158, "", "=q3=Gloves of the Painless Midnight", "=ds=#s9#, #a1#", "1650 #justice#" },
-				{ 5, 57921, "", "=q3=Incense Infused Cumberbund", "=ds=#s10#, #a1#", "1650 #justice#" },
-				{ 6, 58154, "", "=q3=Pensive Legwraps", "=ds=#s11#, #a1#", "2200 #justice#" },
-				{ 16, 58161, "", "=q3=Mask of New Snow", "=ds=#s1#, #a1#", "2200 #justice#" },
-				{ 17, 58162, "", "=q3=Summer Song Shoulderwraps", "=ds=#s3#, #a1#", "1650 #justice#" },
-				{ 18, 58159, "", "=q3=Musk Rose Robes", "=ds=#s5#, #a1#", "2200 #justice#" },
-				{ 19, 58163, "", "=q3=Gloves of Purification", "=ds=#s9#, #a1#", "1650 #justice#" },
-				{ 20, 57922, "", "=q3=Belt of the Falling Rain", "=ds=#s10#, #a1#", "1650 #justice#" },
-				{ 21, 58160, "", "=q3=Leggings of Charity", "=ds=#s11#, #a1#", "2200 #justice#" },
+				{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "2200 #justice#" },
+				{ 3, 58157, "", "=q3=Meadow Mantle", "=ds=#s3#, #a1#", "1650 #justice#" },
+				{ 4, 58153, "", "=q3=Robes of Embalmed Darkness", "=ds=#s5#, #a1#", "2200 #justice#" },
+				{ 5, 58158, "", "=q3=Gloves of the Painless Midnight", "=ds=#s9#, #a1#", "1650 #justice#" },
+				{ 6, 57921, "", "=q3=Incense Infused Cumberbund", "=ds=#s10#, #a1#", "1650 #justice#" },
+				{ 7, 58154, "", "=q3=Pensive Legwraps", "=ds=#s11#, #a1#", "2200 #justice#" },
+				{ 17, 58161, "", "=q3=Mask of New Snow", "=ds=#s1#, #a1#", "2200 #justice#" },
+				{ 18, 58162, "", "=q3=Summer Song Shoulderwraps", "=ds=#s3#, #a1#", "1650 #justice#" },
+				{ 19, 58159, "", "=q3=Musk Rose Robes", "=ds=#s5#, #a1#", "2200 #justice#" },
+				{ 20, 58163, "", "=q3=Gloves of Purification", "=ds=#s9#, #a1#", "1650 #justice#" },
+				{ 21, 57922, "", "=q3=Belt of the Falling Rain", "=ds=#s10#, #a1#", "1650 #justice#" },
+				{ 22, 58160, "", "=q3=Leggings of Charity", "=ds=#s11#, #a1#", "2200 #justice#" },
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
-				{ 1, 58150, "", "=q3=Cluster of Stars", "=ds=#s1#, #a2#", "2200 #justice#" },
-				{ 2, 58151, "", "=q3=Somber Shawl", "=ds=#s3#, #a2#", "1650 #justice#" },
-				{ 3, 58139, "", "=q3=Robes of Forgetfulness", "=ds=#s5#, #a2#", "2200 #justice#" },
-				{ 4, 58152, "", "=q3=Blessed Hands of Elune", "=ds=#s9#, #a2#", "1650 #justice#" },
-				{ 5, 57919, "", "=q3=Thatch Eave Vines", "=ds=#s10#, #a2#", "1650 #justice#" },
-				{ 6, 58140, "", "=q3=Leggings of Late Blooms", "=ds=#s11#, #a2#", "2200 #justice#" },
-				{ 16, 58133, "", "=q3=Mask of Vines", "=ds=#s1#, #a2#", "2200 #justice#" },
-				{ 17, 58134, "", "=q3=Embrace of the Night", "=ds=#s3#, #a2#", "1650 #justice#" },
-				{ 18, 58131, "", "=q3=Tunic of Sinking Envy", "=ds=#s5#, #a2#", "2200 #justice#" },
-				{ 19, 58138, "", "=q3=Sticky Fingers", "=ds=#s9#, #a2#", "1650 #justice#" },
-				{ 20, 57918, "", "=q3=Sash of Musing", "=ds=#s10#, #a2#", "1650 #justice#" },
-				{ 21, 58132, "", "=q3=Leggings of the Burrowing Mole", "=ds=#s11#, #a2#", "2200 #justice#" },
+				{ 2, 58150, "", "=q3=Cluster of Stars", "=ds=#s1#, #a2#", "2200 #justice#" },
+				{ 3, 58151, "", "=q3=Somber Shawl", "=ds=#s3#, #a2#", "1650 #justice#" },
+				{ 4, 58139, "", "=q3=Robes of Forgetfulness", "=ds=#s5#, #a2#", "2200 #justice#" },
+				{ 5, 58152, "", "=q3=Blessed Hands of Elune", "=ds=#s9#, #a2#", "1650 #justice#" },
+				{ 6, 57919, "", "=q3=Thatch Eave Vines", "=ds=#s10#, #a2#", "1650 #justice#" },
+				{ 7, 58140, "", "=q3=Leggings of Late Blooms", "=ds=#s11#, #a2#", "2200 #justice#" },
+				{ 17, 58133, "", "=q3=Mask of Vines", "=ds=#s1#, #a2#", "2200 #justice#" },
+				{ 18, 58134, "", "=q3=Embrace of the Night", "=ds=#s3#, #a2#", "1650 #justice#" },
+				{ 19, 58131, "", "=q3=Tunic of Sinking Envy", "=ds=#s5#, #a2#", "2200 #justice#" },
+				{ 20, 58138, "", "=q3=Sticky Fingers", "=ds=#s9#, #a2#", "1650 #justice#" },
+				{ 21, 57918, "", "=q3=Sash of Musing", "=ds=#s10#, #a2#", "1650 #justice#" },
+				{ 22, 58132, "", "=q3=Leggings of the Burrowing Mole", "=ds=#s11#, #a2#", "2200 #justice#" },
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 1, 58128, "", "=q3=Helm of the Inward Eye", "=ds=#s1#, #a3#", "2200 #justice#" },
-				{ 2, 58129, "", "=q3=Seafoam Mantle", "=ds=#s3#, #a3#", "1650 #justice#" },
-				{ 3, 58126, "", "=q3=Vest of the Waking Dream", "=ds=#s5#, #a3#", "2200 #justice#" },
-				{ 4, 58130, "", "=q3=Gleaning Gloves", "=ds=#s9#, #a3#", "1650 #justice#" },
-				{ 5, 57917, "", "=q3=Belt of the Still Stream", "=ds=#s10#, #a3#", "1650 #justice#" },
-				{ 6, 58127, "", "=q3=Leggings of Soothing Silence", "=ds=#s11#, #a3#", "2200 #justice#" },
-				{ 16, 58123, "", "=q3=Willow Mask", "=ds=#s1#, #a3#", "2200 #justice#" },
-				{ 17, 58124, "", "=q3=Wrap of the Valley Glades", "=ds=#s3#, #a3#", "1650 #justice#" },
-				{ 18, 58121, "", "=q3=Vest of the True Companion", "=ds=#s5#, #a3#", "2200 #justice#" },
-				{ 19, 58125, "", "=q3=Gloves of the Passing Night", "=ds=#s9#, #a3#", "1650 #justice#" },
-				{ 20, 57916, "", "=q3=Belt of the Dim Forest", "=ds=#s10#, #a3#", "1650 #justice#" },
-				{ 21, 58122, "", "=q3=Hillside Striders", "=ds=#s11#, #a3#", "2200 #justice#" },
+				{ 2, 58128, "", "=q3=Helm of the Inward Eye", "=ds=#s1#, #a3#", "2200 #justice#" },
+				{ 3, 58129, "", "=q3=Seafoam Mantle", "=ds=#s3#, #a3#", "1650 #justice#" },
+				{ 4, 58126, "", "=q3=Vest of the Waking Dream", "=ds=#s5#, #a3#", "2200 #justice#" },
+				{ 5, 58130, "", "=q3=Gleaning Gloves", "=ds=#s9#, #a3#", "1650 #justice#" },
+				{ 6, 57917, "", "=q3=Belt of the Still Stream", "=ds=#s10#, #a3#", "1650 #justice#" },
+				{ 7, 58127, "", "=q3=Leggings of Soothing Silence", "=ds=#s11#, #a3#", "2200 #justice#" },
+				{ 17, 58123, "", "=q3=Willow Mask", "=ds=#s1#, #a3#", "2200 #justice#" },
+				{ 18, 58124, "", "=q3=Wrap of the Valley Glades", "=ds=#s3#, #a3#", "1650 #justice#" },
+				{ 19, 58121, "", "=q3=Vest of the True Companion", "=ds=#s5#, #a3#", "2200 #justice#" },
+				{ 20, 58125, "", "=q3=Gloves of the Passing Night", "=ds=#s9#, #a3#", "1650 #justice#" },
+				{ 21, 57916, "", "=q3=Belt of the Dim Forest", "=ds=#s10#, #a3#", "1650 #justice#" },
+				{ 22, 58122, "", "=q3=Hillside Striders", "=ds=#s11#, #a3#", "2200 #justice#" },
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
