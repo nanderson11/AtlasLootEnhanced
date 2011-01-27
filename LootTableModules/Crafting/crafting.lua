@@ -52,7 +52,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 ---- Blacksmithing
 ----- Armor
 ----- Weapons
------ Enhancements
+----- Armor Enhancements
+----- Weapon Enhancements
 ----- Miscellaneous
 ----- Armorsmith
 ----- Weaponsmith
@@ -79,6 +80,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 ---- Inscription
 ---- Jewelcrafting
 ---- Leatherworking
+----- Leather Armor
+----- Mail Armor
+----- Cloaks
+----- Item Enhancements
+----- Drums / Bags / Misc
+----- Leather
+----- Dragonscale
+----- Elemental
+----- Tribal
+----- Cataclysm Vendor Sold Patterns
 ---- Mining
 ---- Tailoring
 ----- Armor
@@ -200,7 +211,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 27, "s3177", "3389", "=q1=Elixir of Defense", "=ds="..AL["Trainer"]};
 				{ 28, "s3176", "3388", "=q1=Strong Troll's Blood Potion", "=ds="..AL["Trainer"]};
 				{ 29, "s3171", "3383", "=q1=Elixir of Wisdom", "=ds="..AL["Trainer"]};
-				{ 30, "s2334", "2458", "=q1=Elixir of Minor Fortitude", "=ds="..AL["Trainer"]};				
+				{ 30, "s2334", "2458", "=q1=Elixir of Minor Fortitude", "=ds="..AL["Trainer"]};
 			};
 			{
 				{ 1, "s3170", "3382", "=q1=Weak Troll's Blood Elixir", "=ds="..AL["Trainer"]};
@@ -222,7 +233,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, "s11478", "9233", "=q1=Elixir of Detect Demon", "=ds="..AL["Trainer"]};
 				{ 4, "s11468", "9197", "=q1=Elixir of Dream Vision", "=ds="..AL["World Drop"]};
 				{ 5, "s11460", "9154", "=q1=Elixir of Detect Undead", "=ds="..AL["Trainer"]};
-				{ 6, "s22808", "18294", "=q1=Elixir of Greater Water Breathing", "=ds="..AL["Trainer"]};			
+				{ 6, "s22808", "18294", "=q1=Elixir of Greater Water Breathing", "=ds="..AL["Trainer"]};
 				{ 7, "s3453", "3828", "=q1=Elixir of Detect Lesser Invisibility", "=ds="..AL["World Drop"]};
 				{ 8, "s7179", "5996", "=q1=Elixir of Water Breathing", "=ds="..AL["Trainer"]};
 			};
@@ -239,7 +250,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, "s80498", "57191", "=q1=Mythical Healing Potion", "=ds="..AL["Trainer"]};
 				{ 2, "s80494", "57192", "=q1=Mythical Mana Potion", "=ds="..AL["Trainer"]};
-				{ 3, "s80490", "57193", "=q1=Mighty Rejuvenation Potion", "=ds="..AL["Trainer"]};				
+				{ 3, "s80490", "57193", "=q1=Mighty Rejuvenation Potion", "=ds="..AL["Trainer"]};
 				{ 4, "s93935", "67415", "=q1=Draught of War", "=ds="..AL["Trainer"]};
 				{ 5, "s80487", "57099", "=q1=Mysterious Potion", "=ds="..AL["Trainer"]};
 				{ 6, "s80482", "57194", "=q1=Potion of Concentration", "=ds="..AL["Trainer"]};
@@ -248,7 +259,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s80495", "58145", "=q1=Potion of the Tol'vir", "=ds="..AL["Trainer"]};
 				{ 11, "s80481", "58091", "=q1=Volcanic Potion", "=ds="..AL["Trainer"]};	
 				{ 13, "s80269", "58489", "=q1=Potion of Illusion", "=ds="..AL["Trainer"]};
-				{ 14, "s80726", "58488", "=q1=Potion of Treasure Finding", "=ds="..AL["Trainer"]};				
+				{ 14, "s80726", "58488", "=q1=Potion of Treasure Finding", "=ds="..AL["Trainer"]};
 				{ 15, "s80725", "58487", "=q1=Potion of Deepholm", "=ds="..AL["Trainer"]};
 				{ 16, "s54221", "40211", "=q1=Potion of Speed", "=ds="..AL["Discovery"]};
 				{ 17, "s54222", "40212", "=q1=Potion of Wild Magic", "=ds="..AL["Discovery"]};
@@ -264,7 +275,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 27, "s53938", "40217", "=q1=Mighty Shadow Protection Potion", "=ds="..BabbleZone["Icecrown"]};
 				{ 28, "s53905", "40093", "=q1=Indestructible Potion", "=ds="..AL["Trainer"]};
 				{ 29, "s53900", "40081", "=q1=Potion of Nightmares", "=ds="..AL["Trainer"]};
-				{ 30, "s53895", "40077", "=q1=Crazy Alchemist's Potion", "=ds="..AL["Trainer"]};				
+				{ 30, "s53895", "40077", "=q1=Crazy Alchemist's Potion", "=ds="..AL["Trainer"]};
 			};
 			{
 				{ 1, "s53839", "40067", "=q1=Icy Mana Potion", "=ds="..AL["Trainer"]};
@@ -788,7 +799,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds=#sr# 450", "=ds=#p1# (525)"};
 				{ 2, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#sr# 450", "=ds=#s13#"};
-				{ 3, 64885, "", "=q4=Scimitar of the Sirocco", "=ds=#sr# 450", "=ds=#h1#, #w10#"};			
+				{ 3, 64885, "", "=q4=Scimitar of the Sirocco", "=ds=#sr# 450", "=ds=#h1#, #w10#"};
 				{ 4, 64880, "", "=q4=Staff of Ammunae", "=ds=#sr# 450", "=ds=#w9#"};
 				{ 5, 60847, "", "=q4=Crawling Claw", "=ds=#sr# 450", "=ds=#e13#"};
 				{ 6, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#sr# 450", "=ds=#e12#"};
@@ -1443,8 +1454,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 					{ 25, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"].." / "..BabbleZone["Kelp'thar Forest"]};
 					{ 25, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"].." / "..BabbleZone["Kelp'thar Forest"]};
 				};
-
-
 			};
 		};
 		info = {
@@ -4946,7 +4955,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 28, "s21943", "17721", "=q2=Gloves of the Greatfather", "=ds=#sr# 190", "=ds="..AL["Feast of Winter Veil"]};
 				{ 29, "s9202", "7386", "=q2=Green Whelp Bracers", "=ds=#sr# 190", "=ds="..AL["Vendor"]};
 				{ 30, "s6705", "5783", "=q2=Murloc Scale Bracers", "=ds=#sr# 190", "=ds="..AL["Vendor"]};
-
 			};
 			{
 				{ 1, "s6661", "5739", "=q1=Barbaric Harness", "=ds=#sr# 190", "=ds="..AL["Trainer"]};
@@ -5650,53 +5658,53 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherworkingCataVendor"] = {
 		["Normal"] = {
 			{
-    			{ 1, 52980, "", "=q3=Pristine Hide", "=ds=" },
-   				{ 2, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 3, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 4, 67080, "", "=q1=Pattern: Bloodied Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 5, 67065, "", "=q1=Pattern: Bloodied Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 6, 67054, "", "=q1=Pattern: Bloodied Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 7, 67093, "", "=q1=Pattern: Bloodied Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 8, 67066, "", "=q1=Pattern: Bloodied Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 9, 67081, "", "=q1=Pattern: Bloodied Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 10, 67092, "", "=q1=Pattern: Bloodied Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 11, 67055, "", "=q1=Pattern: Bloodied Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 12, 67076, "", "=q1=Pattern: Bloodied Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-   				{ 13, 67060, "", "=q1=Pattern: Bloodied Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 14, 67046, "", "=q1=Pattern: Bloodied Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 15, 67087, "", "=q1=Pattern: Bloodied Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 16, 67048, "", "=q1=Pattern: Bloodied Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 17, 67077, "", "=q1=Pattern: Bloodied Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 18, 67089, "", "=q1=Pattern: Bloodied Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 19, 67062, "", "=q1=Pattern: Bloodied Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-  				{ 20, 67064, "", "=q1=Pattern: Bloodied Scale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 21, 67063, "", "=q1=Pattern: Bloodied Scale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 22, 67049, "", "=q1=Pattern: Bloodied Scale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 23, 67090, "", "=q1=Pattern: Bloodied Scale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 24, 67053, "", "=q1=Pattern: Bloodied Scale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 25, 67091, "", "=q1=Pattern: Bloodied Scale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 26, 67079, "", "=q1=Pattern: Bloodied Scale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 27, 67078, "", "=q1=Pattern: Bloodied Scale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 28, 67044, "", "=q1=Pattern: Bloodied Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    			{ 29, 67058, "", "=q1=Pattern: Bloodied Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 30, 67042, "", "=q1=Pattern: Bloodied Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-    		};
-    		{
-    			{ 1, 67075, "", "=q1=Pattern: Bloodied Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 2, 67056, "", "=q1=Pattern: Bloodied Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-    			{ 3, 67086, "", "=q1=Pattern: Bloodied Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 4, 67085, "", "=q1=Pattern: Bloodied Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 5, 67074, "", "=q1=Pattern: Bloodied Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-    			{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-    			{ 9, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-    			{ 10, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-    			{ 11, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-    			{ 12, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-    			{ 13, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-   				{ 14, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-    			{ 15, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 1, 52980, "", "=q3=Pristine Hide", "=ds=#e8#", "10 #heavysavageleather#" },
+				{ 2, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 3, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 4, 67080, "", "=q1=Pattern: Bloodied Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 5, 67065, "", "=q1=Pattern: Bloodied Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 6, 67054, "", "=q1=Pattern: Bloodied Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 7, 67093, "", "=q1=Pattern: Bloodied Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 8, 67066, "", "=q1=Pattern: Bloodied Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 9, 67081, "", "=q1=Pattern: Bloodied Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 10, 67092, "", "=q1=Pattern: Bloodied Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 11, 67055, "", "=q1=Pattern: Bloodied Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 12, 67076, "", "=q1=Pattern: Bloodied Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 13, 67060, "", "=q1=Pattern: Bloodied Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 14, 67046, "", "=q1=Pattern: Bloodied Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 15, 67087, "", "=q1=Pattern: Bloodied Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 16, 67048, "", "=q1=Pattern: Bloodied Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 17, 67077, "", "=q1=Pattern: Bloodied Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 18, 67089, "", "=q1=Pattern: Bloodied Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 19, 67062, "", "=q1=Pattern: Bloodied Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 20, 67064, "", "=q1=Pattern: Bloodied Scale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 21, 67063, "", "=q1=Pattern: Bloodied Scale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 22, 67049, "", "=q1=Pattern: Bloodied Scale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 23, 67090, "", "=q1=Pattern: Bloodied Scale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 24, 67053, "", "=q1=Pattern: Bloodied Scale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 25, 67091, "", "=q1=Pattern: Bloodied Scale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 26, 67079, "", "=q1=Pattern: Bloodied Scale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 27, 67078, "", "=q1=Pattern: Bloodied Scale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 28, 67044, "", "=q1=Pattern: Bloodied Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 29, 67058, "", "=q1=Pattern: Bloodied Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 30, 67042, "", "=q1=Pattern: Bloodied Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+			};
+			{
+				{ 1, 67075, "", "=q1=Pattern: Bloodied Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 2, 67056, "", "=q1=Pattern: Bloodied Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 3, 67086, "", "=q1=Pattern: Bloodied Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 4, 67085, "", "=q1=Pattern: Bloodied Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 5, 67074, "", "=q1=Pattern: Bloodied Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 9, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 10, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 11, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 12, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 13, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 14, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 15, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (425)", "10 #heavysavageleather#" },
 			};
 		};
 		info = {
@@ -6152,7 +6160,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 25, "s75259", "54480", "=q2=Spiritmend Bracers", "=ds=#sr# 470"};
 				{ 26, "s75258", "54481", "=q2=Spiritmend Belt", "=ds=#sr# 470"};
 				{ 27, "s75257", "54475", "=q3=Deathsilk Robe", "=ds=#sr# 465"};
-				{ 28, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460"};	
+				{ 28, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460"};
 				{ 29, "s75254", "54472", "=q2=Deathsilk Leggings", "=ds=#sr# 460"};
 				{ 30, "s75252", "54477", "=q2=Deathsilk Boots", "=ds=#sr# 445"};
 			};
@@ -6915,7 +6923,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			module = moduleName, menu = "CRAFTSET#3", instance = "LeatherworkingMail",
 		};
 	};
-	
+
 	AtlasLoot_Data["LeatherworkingMailBlackDragonM"] = {
 		["Normal"] = {
 			{
