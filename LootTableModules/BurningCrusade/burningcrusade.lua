@@ -4900,6 +4900,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		--- Armor Sets ---
 		------------------
 
+	AtlasLoot_Data["PVP70DeathKnight"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", ""};
+				{ 2, 40442, "", "=q4=Brutal Gladiator's Dreadplate Helm", "=ds=", "175 #honor#", ""};
+				{ 3, 40444, "", "=q4=Brutal Gladiator's Dreadplate Shoulders", "=ds=", "140 #honor#", ""};
+				{ 4, 40440, "", "=q4=Brutal Gladiator's Dreadplate Chestpiece", "=ds=", "175 #honor#", ""};
+				{ 5, 40441, "", "=q4=Brutal Gladiator's Dreadplate Gauntlets", "=ds=", "140 #honor#", ""};
+				{ 6, 40443, "", "=q4=Brutal Gladiator's Dreadplate Legguards", "=ds=", "175 #honor#", ""};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			module = moduleName, menu = "PVP70SET",
+		};
+	}
+
 	AtlasLoot_Data["PVP70DruidFeral"] = {
 		["Normal"] = {
 			{

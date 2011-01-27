@@ -165,6 +165,7 @@ AtlasLoot_TextParsing = {
 	{ "#j1#", AL["Normal Mode"] },
 	{ "#j2#", AL["Raid"] },
 	{ "#j3#", AL["Heroic Mode"] },
+	{ "#j4#", AL["Heroic"] },
 	{ "#j6#", AL["Dungeon Set 1"] },
 	{ "#j7#", AL["Dungeon Set 2"] },
 	{ "#j8#", AL["Token Hand-Ins"] },

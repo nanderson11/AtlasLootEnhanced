@@ -3536,9 +3536,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, "s86654", "63276", "=q1=Forged Documents", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 2, "s86646", "65651", "=q1=Origami Beetle", "=ds=#sr# 500", "=ds="..AL["World Drop"] };
-				{ 3, "s86645", "65650", "=q1=Origami Rock", "=ds=#sr# 490", "=ds="..AL["World Drop"] };
-				{ 4, "s86644", "65649", "=q1=Origami Slime", "=ds=#sr# 480", "=ds="..AL["World Drop"] };
+				{ 2, "s86646", "63246", "=q1=Origami Beetle", "=ds=#sr# 500", "=ds="..AL["World Drop"] };
+				{ 3, "s86645", "62238", "=q1=Origami Rock", "=ds=#sr# 490", "=ds="..AL["World Drop"] };
+				{ 4, "s86644", "62239", "=q1=Origami Slime", "=ds=#sr# 480", "=ds="..AL["World Drop"] };
 				{ 16, "s92027", "63388", "=q1=Dust of Disappearance", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
 				{ 17, "s89367", "62237", "=q1=Adventurer's Journal", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
 				{ 18, "s59387", "43850", "=q1=Certificate of Ownership", "=ds=#sr# 200", "=ds="..AL["Trainer"] };
@@ -5698,13 +5698,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 9, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-				{ 10, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-				{ 11, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-				{ 12, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-				{ 13, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-				{ 14, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (425)", "10 #heavysavageleather#" },
-				{ 15, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (425)", "10 #heavysavageleather#" },
+				{ 9, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 10, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 11, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 12, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 13, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 14, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 15, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 			};
 		};
 		info = {
@@ -6271,7 +6271,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, "s55900", "41511", "=q2=Bolt of Imbued Frostweave", "=ds=#sr# 400"};
 				{ 9, "s26747", "21842", "=q2=Bolt of Imbued Netherweave", "=ds=#sr# 325"};
 				{ 10, "s74964", "53643", "=q1=Bolt of Embersilk Cloth", "=ds=#sr# 425"};
-				{ 11, "s75247", "54442", "=q1=Bolt of Embersilk Net", "=ds=#sr# 425"};
+				{ 11, "s75247", "54442", "=q1=Embersilk Net", "=ds=#sr# 425"};
 				{ 12, "s55898", "41509", "=q1=Frostweave Net", "=ds=#sr# 360"};
 				{ 13, "s55899", "41510", "=q1=Bolt of Frostweave", "=ds=#sr# 350"};
 				{ 14, "s26750", "21844", "=q1=Bolt of Soulcloth", "=ds=#sr# 345"};
