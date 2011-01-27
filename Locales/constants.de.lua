@@ -582,6 +582,7 @@ if AL then
 	AL["Other Ratings"] = "Andere Wertungen";
 	AL["Ratings"] = "Wertungen";
 	AL["Resistance"] = "Widerstand";
+	AL["Specific Resistance"] = "Spezieller Widerstand";
 	AL["Damage Absorption"] = "Schadenssbsorption";
 	AL["Health / Second"] = "Gesundheit / Sekunde";
 	AL["Mana / Second"] = "Mana / Sekunde";
@@ -611,6 +612,8 @@ if AL then
 	AL["Orc"] = "Orcs";
 	AL["Stats"] = "Werte";
 	AL["Resilience"] = "Abhärtung";
+	AL["Armor"] = "Rüstung";
+	AL["Professions"] = "Berufe";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Umarmung der Viper (5 Teile)";
@@ -1031,6 +1034,7 @@ if AL then
 	AL["Highlord Kruul"] = "Hochlord Kruul";
 	AL["Dormus the Camel-Hoarder"] = "Dormus der Kameltreiber";
 	AL["The Behemoth"] = "Das Ungetüm";
+	AL["Master Elemental Shaper Krixix"] = "Meisterelementarformer Krixix";
 
 	-- Zones
 	AL["World Drop"] = "Weltdrops";

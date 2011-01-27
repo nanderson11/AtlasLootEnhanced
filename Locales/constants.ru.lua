@@ -1030,6 +1030,7 @@ if AL then
 	--AL["Highlord Kruul"] = ""; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = "Дормус Погонщик Верблюдов"; 
 	AL["The Behemoth"] = "Чудище";
+	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";
 
 	-- Zones
 	AL["World Drop"] = "Мировой выпад";

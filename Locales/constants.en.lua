@@ -1034,6 +1034,7 @@ if AL then
 	AL["Highlord Kruul"] = true; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = true;
 	AL["The Behemoth"] = true;
+	AL["Master Elemental Shaper Krixix"] = true;
 
 	-- Zones
 	AL["World Drop"] = true;

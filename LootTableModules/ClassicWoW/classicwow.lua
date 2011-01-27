@@ -1927,7 +1927,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 19354, "", "=q4=Draconic Avenger", "=ds=#h2#, #w1#", "", "5.96%"};
 				{ 8, 19358, "", "=q4=Draconic Maul", "=ds=#h2#, #w6#", "", "2.30%"};
 				{ 9, 19435, "", "=q4=Essence Gatherer", "=ds=#w12#", "", "1.61%"};
-				{ 16, 18562, "", "=q4=Elementium Ingot", "=ds=#e8#", "", "4.75%"};
+				{ 11, 18562, "", "=q4=Elementium Ingot", "=ds=#e8#", "", "4.75%"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Master Elemental Shaper Krixix"], ""};
+				{ 17, 44956, "", "=q3=Goblin's Guide to Elementium", "=ds=#p23# (300)", "", "100%"};
 			};
 		};
 		info = {

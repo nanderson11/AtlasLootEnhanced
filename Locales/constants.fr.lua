@@ -1032,6 +1032,7 @@ if AL then
 	-- AL["Highlord Kruul"] = true; -- added until decided if the set gets removed -- à traduire
 	AL["Dormus the Camel-Hoarder"] = "Dormus le Collectionneur de dromadaires";
 	AL["The Behemoth"] = "Le Béhémoth";
+	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
 
 	-- Zones
 	--AL["World Drop"] = true,

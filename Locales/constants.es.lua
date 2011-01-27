@@ -980,7 +980,9 @@ if AL then
 	--AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = "Príncipe Sarsarun";
 	--AL["Highlord Kruul"] = true; -- added until decided if the set gets removed
-	AL["Dormus the Camel-Hoarder"] = "Dormus el Acaparacamellos"; 
+	AL["Dormus the Camel-Hoarder"] = "Dormus el Acaparacamellos";
+	AL["The Behemoth"] = "El Behemoth";
+	AL["Master Elemental Shaper Krixix"] = "Maestro de los elementos Formacio Krixix";
 
 	--Zones
 	AL["World Drop"] = "Hallazgos del Mundo";
