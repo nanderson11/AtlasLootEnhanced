@@ -226,9 +226,6 @@ do
 		]]
 		tempText, isQuest, isAchievement = GetAchievementOrQuestText(extraText)
 		local tempPrice = GetAchievementOrQuestText(price)
-		if tempPrice then
-			tempText, isQuest, isAchievement = GetAchievementOrQuestText(price)
-		end
 		if not tempText and extraText and price and price ~= "" then
 			-- lengh < 70  = standart
 			-- this adds the ItemPrice to the Extratext if its not to long
@@ -259,7 +256,11 @@ do
 				end
 
 				if AtlasLoot.db.profile.ShowLootTablePrice then
-					tempText = price
+					if tempPrice then
+						tempText, isQuest, isAchievement = GetAchievementOrQuestText(price)
+					else
+						tempText = price
+					end
 				else
 					tempText = extraText
 				end
