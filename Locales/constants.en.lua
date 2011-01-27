@@ -582,6 +582,7 @@ if AL then
 	AL["Other Ratings"] = true;
 	AL["Ratings"] = true;
 	AL["Resistance"] = true;
+	AL["Specific Resistance"] = true;
 	AL["Damage Absorption"] = true;
 	AL["Health / Second"] = true;
 	AL["Mana / Second"] = true;
@@ -611,6 +612,8 @@ if AL then
 	AL["Orc"] = true;
 	AL["Stats"] = true;
 	AL["Resilience"] = true;
+	AL["Armor"] = true;
+	AL["Professions"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;
