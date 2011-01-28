@@ -1028,7 +1028,9 @@ if AL then
 	AL["Aeonaxx"] = "艾歐納克斯";
 	AL["Prince Sarsarun"] = "薩爾撒倫王子";
 	AL["Highlord Kruul"] = "卡魯歐大領主"; -- added until decided if the set gets removed
---	AL["Dormus the Camel-Hoarder"] = true; 
+--	AL["Dormus the Camel-Hoarder"] = true;
+	AL["The Behemoth"] = "貝希摩斯";
+	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
 
 	--Zones
 	AL["World Drop"] = "世界掉落";
