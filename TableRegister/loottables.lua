@@ -174,7 +174,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TFWConclave", 2 },
 				{ "TFWAlAkir", 3 },
 			},
-			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm", mapname = "Throneofthefourwinds" },
 		},
 
 -----------------------
@@ -426,7 +426,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "Sartharion", 6 },
 			},
-			["Info"] = { BabbleZone["The Obsidian Sanctum"], "AtlasLootWotLK", mapname = "Naxxramas", mapname = "TheObsidianSanctum" },
+			["Info"] = { BabbleZone["The Obsidian Sanctum"], "AtlasLootWotLK", mapname = "TheObsidianSanctum" },
 		},
 
 		["OnyxiasLair"] = {

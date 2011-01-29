@@ -355,7 +355,7 @@ function AtlasLoot:CreateSelectBossLineButton(parent, point, name)
 	local bossLineButton = {}
 	
 	bossLineButton = CreateFrame("Button", name, parent)
-	bossLineButton:SetFrameStrata("HIGH")
+	---bossLineButton:SetFrameStrata("HIGH")
 	bossLineButton:SetWidth(336)
 	bossLineButton:SetHeight(15)
 	bossLineButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
