@@ -1916,7 +1916,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_baradinwardens", "=q6=#r2#", ""};
-				{ 2, 63517, "", "=q7=Baradin's Wardens Commendation", "=ds=", "10 #tolbarad#"};
+				{ 2, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "10 #tolbarad#"};
 				{ 3, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#", "5 #tolbarad#"};
 				{ 4, 63144, "", "=q1=Baradin's Wardens Healing Potion", "=ds=#e2#", "2 #tolbarad#"};
 				{ 5, 63145, "", "=q1=Baradin's Wardens Mana Potion", "=ds=#e2#", "2 #tolbarad#"};
@@ -1994,7 +1994,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
-				{ 2, 63518, "", "=q7=Hellscream's Reach Commendation", "=ds=", "10 #tolbarad#"};
+				{ 2, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "10 #tolbarad#"};
 				{ 3, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#", "5 #tolbarad#"};
 				{ 4, 64994, "", "=q1=Hellscream's Reach Healing Potion", "=ds=#e2#", "2 #tolbarad#"};
 				{ 5, 64993, "", "=q1=Hellscream's Reach Mana Potion", "=ds=#e2#", "2 #tolbarad#"};

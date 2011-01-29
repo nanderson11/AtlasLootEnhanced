@@ -4296,9 +4296,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
 				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
 				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
-				{ 9, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
-				{ 10, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
-				{ 11, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
+				{ 16, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
+				{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
+				{ 19, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
 			};
 		};
 		info = {
