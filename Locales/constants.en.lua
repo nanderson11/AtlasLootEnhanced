@@ -612,7 +612,6 @@ if AL then
 	AL["Orc"] = true;
 	AL["Stats"] = true;
 	AL["Resilience"] = true;
-	AL["Armor"] = true;
 	AL["Professions"] = true;
 
 	-- Extra Text in Boss lists
