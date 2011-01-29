@@ -91,7 +91,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "VPErtan", 3 },
 				{ "VPAltairus", 4 },
-				{ "VPAsimalAkir", 5 },
+				{ "VPAsaad", 5 },
 				{ "VPTrash", 8 },
 			},
 			["Info"] = { BabbleZone["The Vortex Pinnacle"], "AtlasLootCataclysm", mapname = "SkywallDungeon" },

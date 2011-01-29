@@ -612,7 +612,6 @@ if AL then
 	AL["Orc"] = "Orcs";
 	AL["Stats"] = "Werte";
 	AL["Resilience"] = "Abhärtung";
-	AL["Armor"] = "Rüstung";
 	AL["Professions"] = "Berufe";
 
 	-- Extra Text in Boss lists

@@ -495,12 +495,12 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Altarius"],
+			name = BabbleBoss["Altairus"],
 			module = moduleName, instance = "TheVortexPinnacle",
 		};
 	};
 
-	AtlasLoot_Data["VPAsimalAkir"] = {
+	AtlasLoot_Data["VPAsaad"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
@@ -528,7 +528,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Asim al Akir"],
+			name = BabbleBoss["Asaad"],
 			module = moduleName, instance = "TheVortexPinnacle",
 		};
 	};
@@ -4208,7 +4208,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
 				{ 12, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#, =q1="..BabbleZone["The Culling of Stratholme"], ""};
-				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altarius"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
+				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
 				{ 14, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
 				{
 					{ 15, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q2="..BabbleZone["Vault of Archavon"]..", =ec1="..BabbleFaction["Horde"], "", ""};
@@ -4377,7 +4377,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
 				{ 11, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
 				{ 12, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altarius"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
+				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
 				{ 14, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
 				{ 15, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 				{ 16, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
