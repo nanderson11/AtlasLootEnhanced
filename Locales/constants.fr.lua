@@ -582,6 +582,7 @@ if AL then
 	AL["Other Ratings"] = "Autres scores";
 	AL["Ratings"] = "Scores";
 	AL["Resistance"] = "Résistance";
+	AL["Specific Resistance"] = "Résistance spécifique";
 	AL["Damage Absorption"] = "Absorption des dégâts";
 	AL["Health / Second"] = "Vie / seconde"
 	AL["Mana / Second"] = "Mana / seconde";
@@ -611,6 +612,7 @@ if AL then
 	--AL["Orc"] = true;
 	--AL["Stats"] = true;
 	AL["Resilience"] = "Résilience";
+	--AL["Professions"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
