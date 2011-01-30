@@ -1303,7 +1303,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 30, "s3293", "3488", "=q2=Copper Battle Axe", "=ds=#h2#, #w1# / #sk# 35", "=ds="..AL["Trainer"]};
 			};
 			{
-				{ 1, "s43549", "33791", "=q2=Heavy Copper Longsword", "=ds=#h1#, #w10# / #sk# 35", "=ds=#QUESTID:8324#"};
+				{ 1, "s43549", "33791", "=q2=Heavy Copper Longsword", "=ds=#h1#, #w10# / #sk# 35", "=ds=#QUESTID:1578#"};
 				{ 2, "s9983", "7955", "=q1=Copper Claymore", "=ds=#h2#, #w10# / #sk# 30", "=ds="..AL["Trainer"]};
 				{ 3, "s8880", "7166", "=q1=Copper Dagger", "=ds=#h1#, #w4# / #sk# 30", "=ds="..AL["Trainer"]};
 				{ 4, "s2739", "2847", "=q1=Copper Shortsword", "=ds=#h3#, #w10# / #sk# 25", "=ds="..AL["Trainer"]};
