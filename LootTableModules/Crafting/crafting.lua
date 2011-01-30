@@ -2812,10 +2812,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, 52737, "", "=q2=Formula: Enchant Cloak - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
 				{ 9, 64414, "", "=q2=Formula: Enchant Gloves - Greater Mastery", "=ds=#p4# (525)", "5 #heavenlyshard#" },
 				{ 10, 64415, "", "=q2=Formula: Enchant Gloves - Mighty Strength", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 11, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#" },
-				{ 12, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
-				{ 13, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
-				{ 14, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+				{ 11, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+				{ 12, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+				{ 13, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
+				{ 14, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#" },
 			};
 		};
 		info = {
@@ -6412,18 +6412,18 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkboltl#" },
-				{ 2, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 3, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 4, 54593, "", "=q3=Pattern: Emberfire Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 5, 54594, "", "=q3=Pattern: Emberfire Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 6, 54595, "", "=q3=Pattern: Emberfire Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 7, 54596, "", "=q3=Pattern: Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 8, 54597, "", "=q3=Pattern: Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 9, 54598, "", "=q3=Pattern: Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 10, 54604, "", "=q3=Pattern: Flame-Ascended Pantaloons", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 11, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 12, 54603, "", "=q3=Pattern: Breeches of Mended Nightmares", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 13, 54602, "", "=q3=Pattern: Dreamless Belt", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 2, 54593, "", "=q3=Pattern: Emberfire Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 3, 54594, "", "=q3=Pattern: Emberfire Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 4, 54595, "", "=q3=Pattern: Emberfire Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 5, 54596, "", "=q3=Pattern: Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 6, 54597, "", "=q3=Pattern: Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 7, 54598, "", "=q3=Pattern: Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 8, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 9, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 10, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 11, 54603, "", "=q3=Pattern: Breeches of Mended Nightmares", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 12, 54602, "", "=q3=Pattern: Dreamless Belt", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 13, 54604, "", "=q3=Pattern: Flame-Ascended Pantaloons", "=ds=#p8# (525)", "1 #dreamcloth#" },
 				{ 14, 54605, "", "=q3=Pattern: Illusionary Bag", "=ds=#p8# (525)", "1 #dreamcloth#" },
 			};
 		};
