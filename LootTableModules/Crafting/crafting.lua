@@ -44,11 +44,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 ---- Alchemy
 ----- Battle Elixirs
 ----- Guardian Elixirs
+----- Other Elixirs
 ----- Potions
 ----- Flasks
 ----- Transmutes
+----- Cauldrons
+----- Oils
 ----- Miscellaneous
 ---- Archaeology
+----- Armor and Weapons
+----- Miscellaneous
 ---- Blacksmithing
 ----- Armor
 ----- Weapons
@@ -5688,42 +5693,42 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 52980, "", "=q3=Pristine Hide", "=ds=#e8#", "10 #heavysavageleather#" },
-				{ 2, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 3, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 4, 67080, "", "=q1=Pattern: Bloodied Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 5, 67065, "", "=q1=Pattern: Bloodied Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 6, 67054, "", "=q1=Pattern: Bloodied Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 7, 67093, "", "=q1=Pattern: Bloodied Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 8, 67066, "", "=q1=Pattern: Bloodied Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 9, 67081, "", "=q1=Pattern: Bloodied Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 10, 67092, "", "=q1=Pattern: Bloodied Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 11, 67055, "", "=q1=Pattern: Bloodied Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 12, 67076, "", "=q1=Pattern: Bloodied Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 13, 67060, "", "=q1=Pattern: Bloodied Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 14, 67046, "", "=q1=Pattern: Bloodied Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 15, 67087, "", "=q1=Pattern: Bloodied Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 16, 67048, "", "=q1=Pattern: Bloodied Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 17, 67077, "", "=q1=Pattern: Bloodied Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 18, 67089, "", "=q1=Pattern: Bloodied Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 19, 67062, "", "=q1=Pattern: Bloodied Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 20, 67064, "", "=q1=Pattern: Bloodied Scale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 21, 67063, "", "=q1=Pattern: Bloodied Scale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 22, 67049, "", "=q1=Pattern: Bloodied Scale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 23, 67090, "", "=q1=Pattern: Bloodied Scale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 24, 67053, "", "=q1=Pattern: Bloodied Scale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 25, 67091, "", "=q1=Pattern: Bloodied Scale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 26, 67079, "", "=q1=Pattern: Bloodied Scale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 27, 67078, "", "=q1=Pattern: Bloodied Scale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 28, 67044, "", "=q1=Pattern: Bloodied Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 29, 67058, "", "=q1=Pattern: Bloodied Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 30, 67042, "", "=q1=Pattern: Bloodied Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 2, 67054, "", "=q1=Pattern: Bloodied Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 3, 67055, "", "=q1=Pattern: Bloodied Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 4, 67046, "", "=q1=Pattern: Bloodied Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 5, 67048, "", "=q1=Pattern: Bloodied Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 6, 67049, "", "=q1=Pattern: Bloodied Scale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 7, 67053, "", "=q1=Pattern: Bloodied Scale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 8, 67044, "", "=q1=Pattern: Bloodied Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 9, 67042, "", "=q1=Pattern: Bloodied Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 10, 67065, "", "=q1=Pattern: Bloodied Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 11, 67066, "", "=q1=Pattern: Bloodied Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 12, 67060, "", "=q1=Pattern: Bloodied Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 13, 67062, "", "=q1=Pattern: Bloodied Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 14, 67064, "", "=q1=Pattern: Bloodied Scale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 15, 67063, "", "=q1=Pattern: Bloodied Scale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 16, 67058, "", "=q1=Pattern: Bloodied Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 17, 67056, "", "=q1=Pattern: Bloodied Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 18, 67080, "", "=q1=Pattern: Bloodied Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 19, 67081, "", "=q1=Pattern: Bloodied Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 20, 67076, "", "=q1=Pattern: Bloodied Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 21, 67077, "", "=q1=Pattern: Bloodied Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 22, 67079, "", "=q1=Pattern: Bloodied Scale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 23, 67078, "", "=q1=Pattern: Bloodied Scale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 24, 67075, "", "=q1=Pattern: Bloodied Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 25, 67074, "", "=q1=Pattern: Bloodied Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 26, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 27, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 28, 67093, "", "=q1=Pattern: Bloodied Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 29, 67092, "", "=q1=Pattern: Bloodied Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 30, 67087, "", "=q1=Pattern: Bloodied Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 			};
 			{
-				{ 1, 67075, "", "=q1=Pattern: Bloodied Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 2, 67056, "", "=q1=Pattern: Bloodied Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 3, 67086, "", "=q1=Pattern: Bloodied Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 4, 67085, "", "=q1=Pattern: Bloodied Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 5, 67074, "", "=q1=Pattern: Bloodied Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 1, 67089, "", "=q1=Pattern: Bloodied Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 2, 67090, "", "=q1=Pattern: Bloodied Scale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 3, 67091, "", "=q1=Pattern: Bloodied Scale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 4, 67086, "", "=q1=Pattern: Bloodied Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 5, 67085, "", "=q1=Pattern: Bloodied Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
