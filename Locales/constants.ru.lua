@@ -581,6 +581,7 @@ if AL then
 	AL["Other Ratings"] = "Другое";
 	AL["Ratings"] = "Рейтинги";
 	AL["Resistance"] = "Сопротивление";
+	AL["Specific Resistance"] = "Особое сопротивление";
 	AL["Damage Absorption"] = "Поглощение урона";
 	AL["Health / Second"] = "Здоровье / сек.";
 	AL["Mana / Second"] = "Мана / сек.";
@@ -610,6 +611,7 @@ if AL then
 	AL["Orc"] = "Орки";
 	AL["Stats"] = "Статистика";
 	AL["Resilience"] = "Устойчивость";
+	AL["Professions"] = "Профессии";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
