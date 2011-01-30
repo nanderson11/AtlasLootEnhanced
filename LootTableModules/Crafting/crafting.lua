@@ -6260,67 +6260,87 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["TailoringMisc"] = {
+	AtlasLoot_Data["TailoringItemEnhancement"] = {
 		["Normal"] = {
 			{
 				{ 1, "s75175", "INV_Misc_Thread_01", "=ds=Darkglow Embroidery - Rank 2", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 2, "s75172", "INV_Misc_Thread_01", "=ds=Lightweave Embroidery - Rank 2", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 3, "s75178", "INV_Misc_Thread_01", "=ds=Swordguard Embroidery - Rank 2", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 4, "s55769", "INV_Misc_Thread_01", "=ds=Darkglow Embroidery - Rank 1", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 2, "s55769", "INV_Misc_Thread_01", "=ds=Darkglow Embroidery - Rank 1", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 4, "s75172", "INV_Misc_Thread_01", "=ds=Lightweave Embroidery - Rank 2", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
 				{ 5, "s55642", "INV_Misc_Thread_01", "=ds=Lightweave Embroidery - Rank 1", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
-				{ 6, "s55777", "INV_Misc_Thread_01", "=ds=Swordguard Embroidery - Rank 1", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
-				{ 7, "s75154", "Spell_Nature_AstralRecalGroup", "=ds=Master's Spellthread - Rank 2", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
-				{ 8, "s75155", "Spell_Nature_AstralRecalGroup", "=ds=Sanctified Spellthread - Rank 2", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
-				{ 9, "s56034", "Spell_Nature_AstralRecalGroup", "=ds=Master's Spellthread - Rank 1", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
-				{ 10, "s56039", "Spell_Nature_AstralRecalGroup", "=ds=Sanctified Spellthread - Rank 1", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
-				{ 11, "s75309", "54448", "=q4=Powerful Enchanted Spellthread", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 12, "s75310", "54450", "=q4=Powerful Ghostly Spellthread", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 13, "s56009", "41602", "=q4=Brilliant Spellthread", "=ds=#sr# 430", "=ds="..BabbleFaction["Argent Crusade"]..": "..BabbleFaction["Exalted"] };
-				{ 14, "s56011", "41604", "=q4=Sapphire Spellthread", "=ds=#sr# 430", "=ds="..BabbleFaction["Kirin Tor"]..": "..BabbleFaction["Exalted"] };
-				{ 15, "s75597", "54797", "=q4=Frosty Flying Carpet", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 16, "s60971", "44558", "=q4=Magnificent Flying Carpet", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 17, "s31433", "24276", "=q4=Golden Spellthread", "=ds=#sr# 375", "=ds="..BabbleFaction["The Aldor"]..": "..BabbleFaction["Exalted"] };
-				{ 18, "s31432", "24274", "=q4=Runic Spellthread", "=ds=#sr# 375", "=ds="..BabbleFaction["The Scryers"]..": "..BabbleFaction["Exalted"] };
-				{ 19, "s94743", "54440", "=q3=Dream of Destruction", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
-				{ 20, "s75141", "54440", "=q3=Dream of Skywall", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
-				{ 21, "s75145", "54440", "=q3=Dream of Ragnaros", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 22, "s75142", "54440", "=q3=Dream of Deepholm", "=ds=#sr# 505", "=ds="..AL["Trainer"] };
-				{ 23, "s75144", "54440", "=q3=Dream of Hyjal", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 24, "s75146", "54440", "=q3=Dream of Azshara", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 25, "s75255", "54449", "=q3=Ghostly Spellthread", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
-				{ 26, "s75250", "54447", "=q3=Enchanted Spellthread", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
-				{ 27, "s56002", "41593", "=q3=Ebonweave", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
-				{ 28, "s56001", "41594", "=q3=Moonshroud", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
-				{ 29, "s56003", "41595", "=q3=Spellweave", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
-				{ 30, "s56010", "41603", "=q3=Azure Spellthread", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 7, "s75178", "INV_Misc_Thread_01", "=ds=Swordguard Embroidery - Rank 2", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 8, "s55777", "INV_Misc_Thread_01", "=ds=Swordguard Embroidery - Rank 1", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 10, "s75154", "Spell_Nature_AstralRecalGroup", "=ds=Master's Spellthread - Rank 2", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 11, "s56034", "Spell_Nature_AstralRecalGroup", "=ds=Master's Spellthread - Rank 1", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
+				{ 13, "s75155", "Spell_Nature_AstralRecalGroup", "=ds=Sanctified Spellthread - Rank 2", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 14, "s56039", "Spell_Nature_AstralRecalGroup", "=ds=Sanctified Spellthread - Rank 1", "=ds=#sr# 405", "=ds="..AL["Trainer"] };
+				{ 16, "s75309", "54448", "=q4=Powerful Enchanted Spellthread", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 17, "s75310", "54450", "=q4=Powerful Ghostly Spellthread", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 18, "s56009", "41602", "=q4=Brilliant Spellthread", "=ds=#sr# 430", "=ds="..BabbleFaction["Argent Crusade"]..": "..BabbleFaction["Exalted"] };
+				{ 19, "s56011", "41604", "=q4=Sapphire Spellthread", "=ds=#sr# 430", "=ds="..BabbleFaction["Kirin Tor"]..": "..BabbleFaction["Exalted"] };
+				{ 20, "s31433", "24276", "=q4=Golden Spellthread", "=ds=#sr# 375", "=ds="..BabbleFaction["The Aldor"]..": "..BabbleFaction["Exalted"] };
+				{ 21, "s31432", "24274", "=q4=Runic Spellthread", "=ds=#sr# 375", "=ds="..BabbleFaction["The Scryers"]..": "..BabbleFaction["Exalted"] };
+				{ 22, "s75255", "54449", "=q3=Ghostly Spellthread", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
+				{ 23, "s75250", "54447", "=q3=Enchanted Spellthread", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
+				{ 24, "s56010", "41603", "=q3=Azure Spellthread", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 25, "s56008", "41601", "=q3=Shining Spellthread", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 26, "s31430", "24273", "=q3=Mystic Spellthread", "=ds=#sr# 335", "=ds="..BabbleFaction["The Scryers"]..": "..BabbleFaction["Honored"] };
+				{ 27, "s31431", "24275", "=q3=Silver Spellthread", "=ds=#sr# 335", "=ds="..BabbleFaction["The Aldor"]..": "..BabbleFaction["Honored"] };
 			};
+		};
+		info = {
+			name = TAILORING..": "..AL["Item Enhancements"],
+			module = moduleName, menu = "TAILORINGMENU",
+		};
+	};
+
+	AtlasLoot_Data["TailoringMisc"] = {
+		["Normal"] = {
 			{
-				{ 1, "s56008", "41601", "=q3=Shining Spellthread", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
-				{ 2, "s26751", "21845", "=q3=Primal Mooncloth", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
-				{ 3, "s36686", "24272", "=q3=Shadowcloth", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
-				{ 4, "s31373", "24271", "=q3=Spellcloth", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
-				{ 5, "s31430", "24273", "=q3=Mystic Spellthread", "=ds=#sr# 335", "=ds="..BabbleFaction["The Scryers"]..": "..BabbleFaction["Honored"] };
-				{ 6, "s31431", "24275", "=q3=Silver Spellthread", "=ds=#sr# 335", "=ds="..BabbleFaction["The Aldor"]..": "..BabbleFaction["Honored"] };
-				{ 7, "s60969", "44554", "=q3=Flying Carpet", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
-				{ 8, "s55900", "41511", "=q2=Bolt of Imbued Frostweave", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
-				{ 9, "s26747", "21842", "=q2=Bolt of Imbued Netherweave", "=ds=#sr# 325", "=ds="..AL["Vendor"] };
-				{ 10, "s74964", "53643", "=q1=Bolt of Embersilk Cloth", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 11, "s75247", "54442", "=q1=Bolt of Embersilk Net", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 12, "s55898", "41509", "=q1=Frostweave Net", "=ds=#sr# 360", "=ds="..AL["Trainer"] };
-				{ 13, "s55899", "41510", "=q1=Bolt of Frostweave", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 14, "s26750", "21844", "=q1=Bolt of Soulcloth", "=ds=#sr# 345", "=ds="..AL["Vendor"] };
-				{ 15, "s26745", "21840", "=q1=Bolt of Netherweave", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
-				{ 16, "s31460", "24268", "=q1=Netherweave Net", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
-				{ 17, "s18401", "14048", "=q1=Bolt of Runecloth", "=ds=#sr# 250", "=ds="..AL["Trainer"] };
-				{ 18, "s18560", "14342", "=q1=Mooncloth", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Winterspring"]};
-				{ 19, "s3865", "4339", "=q1=Bolt of Mageweave", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
-				{ 20, "s3839", "4305", "=q1=Bolt of Silk Cloth", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
-				{ 21, "s2964", "2997", "=q1=Bolt of Woolen Cloth", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
-				{ 22, "s2963", "2996", "=q1=Bolt of Linen Cloth", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				{ 1, "s75597", "54797", "=q4=Frosty Flying Carpet", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 2, "s60971", "44558", "=q4=Magnificent Flying Carpet", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 3, "s60969", "44554", "=q3=Flying Carpet", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
+				{ 4, "s75247", "54442", "=q1=Embersilk Net", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 5, "s55898", "41509", "=q1=Frostweave Net", "=ds=#sr# 360", "=ds="..AL["Trainer"] };
+				{ 6, "s31460", "24268", "=q1=Netherweave Net", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
 			name = TAILORING..": "..BabbleInventory["Miscellaneous"],
+			module = moduleName, menu = "TAILORINGMENU",
+		};
+	};
+
+	AtlasLoot_Data["TailoringCloth"] = {
+		["Normal"] = {
+			{
+				{ 1, "s94743", "54440", "=q3=Dream of Destruction", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
+				{ 2, "s75141", "54440", "=q3=Dream of Skywall", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 3, "s75145", "54440", "=q3=Dream of Ragnaros", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 4, "s75142", "54440", "=q3=Dream of Deepholm", "=ds=#sr# 505", "=ds="..AL["Trainer"] };
+				{ 5, "s75144", "54440", "=q3=Dream of Hyjal", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 6, "s75146", "54440", "=q3=Dream of Azshara", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 7, "s56002", "41593", "=q3=Ebonweave", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
+				{ 8, "s56001", "41594", "=q3=Moonshroud", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
+				{ 9, "s56003", "41595", "=q3=Spellweave", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
+				{ 10, "s26751", "21845", "=q3=Primal Mooncloth", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
+				{ 11, "s36686", "24272", "=q3=Shadowcloth", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
+				{ 12, "s31373", "24271", "=q3=Spellcloth", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
+				{ 13, "s18560", "14342", "=q1=Mooncloth", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Winterspring"]};
+				{ 16, "s74964", "53643", "=q1=Bolt of Embersilk Cloth", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 17, "s55900", "41511", "=q2=Bolt of Imbued Frostweave", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
+				{ 18, "s55899", "41510", "=q1=Bolt of Frostweave", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 19, "s26750", "21844", "=q1=Bolt of Soulcloth", "=ds=#sr# 345", "=ds="..AL["Vendor"] };
+				{ 20, "s26747", "21842", "=q2=Bolt of Imbued Netherweave", "=ds=#sr# 325", "=ds="..AL["Vendor"] };
+				{ 21, "s26745", "21840", "=q1=Bolt of Netherweave", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
+				{ 22, "s18401", "14048", "=q1=Bolt of Runecloth", "=ds=#sr# 250", "=ds="..AL["Trainer"] };
+				{ 23, "s3865", "4339", "=q1=Bolt of Mageweave", "=ds=#sr# 175", "=ds="..AL["Trainer"] };
+				{ 24, "s3839", "4305", "=q1=Bolt of Silk Cloth", "=ds=#sr# 125", "=ds="..AL["Trainer"] };
+				{ 25, "s2964", "2997", "=q1=Bolt of Woolen Cloth", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 26, "s2963", "2996", "=q1=Bolt of Linen Cloth", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+			};
+		};
+		info = {
+			name = TAILORING..": "..BabbleInventory["Cloth"],
 			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};
