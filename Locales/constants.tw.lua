@@ -581,6 +581,7 @@ if AL then
 	AL["Other Ratings"] = "其他等級";
 	AL["Ratings"] = "等級";
 	AL["Resistance"] = "抗性";
+	AL["Specific Resistance"] = "抗性類別";
 	AL["Damage Absorption"] = "吸收傷害";
 	AL["Health / Second"] = "每秒恢復生命";
 	AL["Mana / Second"] = "每秒恢復法力";
@@ -610,6 +611,7 @@ if AL then
 	AL["Orc"] = "獸人";
 	AL["Stats"] = "屬性";
 	AL["Resilience"] = "韌性";
+	AL["Professions"] = "專業技能";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
