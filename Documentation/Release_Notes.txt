@@ -14,7 +14,7 @@ Updated Alchemy with Cataclysm recipes. (Thanks to Yinzara)
 Updated Blacksmithing Cataclysm and Classic level armor and weapons pages. Armor Enhancements, Weapons Enhancements and Miscellaneous pages have also been updated.
 Updated Inscription with Cataclysm recipes. (Thanks to Xecration)
 Updated Leatherworking with Cataclysm vendor sold patterns.
-Uddated Tailoring with Cataclysm recipes and vendor sold patterns. (Thanks to Panik, Earthen Ring)
+Updated Tailoring with Cataclysm recipes and vendor sold patterns. (Thanks to Razel (Earthen Ring) and Panik)
 Added new stuff coming with Patch 4.0.6.
 Added support for Atlas 1.18.2.
 Removed Cataclysm dungeon and raid heroic trash drops.
