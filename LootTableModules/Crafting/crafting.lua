@@ -5641,62 +5641,74 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["Dragonscale"] = {
+	AtlasLoot_Data["LeatherSpecializations"] = {
 		["Normal"] = {
 			{
-				{ 1, "s10619", "8347", "=q3=Dragonscale Gauntlets", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
-				{ 2, "s10650", "8367", "=q3=Dragonscale Breastplate", "=ds=#sr# 255", "=ds="..AL["Trainer"]};
-				{ 3, "s36076", "29971", "=q3=Dragonstrike Leggings", "=ds=#sr# 260", "=ds="..AL["Trainer"]};
-				{ 4, "s24655", "20296", "=q3=Green Dragonscale Gauntlets", "=ds=#sr# 280", "=ds="..AL["Trainer"]};
-				{ 5, "s24654", "20295", "=q3=Blue Dragonscale Leggings", "=ds=#sr# 300"};
-				{ 6, "s36079", "29975", "=q3=Golden Dragonstrike Breastplate", "=ds=#sr# 330"};
-				{ 7, "s35576", "29516", "=q4=Ebon Netherscale Belt", "=ds=#sr# 375"};
-				{ 8, "s35577", "29517", "=q4=Ebon Netherscale Bracers", "=ds=#sr# 375"};
-				{ 9, "s35575", "29515", "=q4=Ebon Netherscale Breastplate", "=ds=#sr# 375"};
-				{ 10, "s35582", "29520", "=q4=Netherstrike Belt", "=ds=#sr# 375"};
-				{ 11, "s35584", "29521", "=q4=Netherstrike Bracers", "=ds=#sr# 375"};
-				{ 12, "s35580", "29519", "=q4=Netherstrike Breastplate", "=ds=#sr# 375"};
+				-- Dragonscale LW
+				{ 1, 0, "INV_Box_01", "=q6="..DRAGONSCALE, "" };
+				{
+					{ 2, "s35576", "29516", "=q4=Ebon Netherscale Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Badlands"] };
+					{ 2, "s35576", "29516", "=q4=Ebon Netherscale Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Azshara"] };
+				};
+				{
+					{ 3, "s35577", "29517", "=q4=Ebon Netherscale Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Badlands"] };
+					{ 3, "s35577", "29517", "=q4=Ebon Netherscale Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Azshara"] };
+				};
+				{
+					{ 4, "s35575", "29515", "=q4=Ebon Netherscale Breastplate", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Badlands"] };
+					{ 4, "s35575", "29515", "=q4=Ebon Netherscale Breastplate", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Azshara"] };
+				};
+				{
+					{ 5, "s35582", "29520", "=q4=Netherstrike Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Badlands"] };
+					{ 5, "s35582", "29520", "=q4=Netherstrike Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Azshara"] };
+				};
+				{
+					{ 17, "s35584", "29521", "=q4=Netherstrike Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Badlands"] };
+					{ 17, "s35584", "29521", "=q4=Netherstrike Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Azshara"] };
+				};
+				{
+					{ 18, "s35580", "29519", "=q4=Netherstrike Breastplate", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Badlands"] };
+					{ 18, "s35580", "29519", "=q4=Netherstrike Breastplate", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Azshara"] };
+				};
+				{ 19, "s36079", "29975", "=q3=Golden Dragonstrike Breastplate", "=ds=#sr# 330", "=ds="..AL["Trainer"] };
+				{ 20, "s36076", "29971", "=q3=Dragonstrike Leggings", "=ds=#sr# 260", "=ds="..AL["Trainer"] };
+				-- Elemental LW
+				{ 7, 0, "INV_Box_01", "=q6="..ELEMENTAL, "" };
+				{
+					{ 8, "s35590", "29526", "=q4=Primalstrike Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Thunder Bluff"] };
+					{ 8, "s35590", "29526", "=q4=Primalstrike Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Stormwind"] };
+				};
+				{
+					{ 9, "s35591", "29527", "=q4=Primalstrike Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Thunder Bluff"] };
+					{ 9, "s35591", "29527", "=q4=Primalstrike Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Stormwind"] };
+				};
+				{
+					{ 10, "s35589", "29525", "=q4=Primalstrike Vest", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Thunder Bluff"] };
+					{ 10, "s35589", "29525", "=q4=Primalstrike Vest", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Stormwind"] };
+				};
+				{ 23, "s36077", "29973", "=q3=Primalstorm Breastplate", "=ds=#sr# 330", "=ds="..AL["Trainer"] };
+				{ 24, "s36074", "29964", "=q3=Blackstorm Leggings", "=ds=#sr# 260", "=ds="..AL["Trainer"] };
+				-- Tribal LW
+				{ 12, 0, "INV_Box_01", "=q6="..TRIBAL, "" };
+				{
+					{ 13, "s35587", "29524", "=q4=Windhawk Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Northern Stranglethorn"] };
+					{ 13, "s35587", "29524", "=q4=Windhawk Belt", "=ds=#sr# 375", "=ds="..AL["Trainer"].." "..AL["No Longer Available"] };
+				};
+				{
+					{ 14, "s35588", "29523", "=q4=Windhawk Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Northern Stranglethorn"] };
+					{ 14, "s35588", "29523", "=q4=Windhawk Bracers", "=ds=#sr# 375", "=ds="..AL["Trainer"].." "..AL["No Longer Available"] };
+				};
+				{
+					{ 15, "s35585", "29522", "=q4=Windhawk Hauberk", "=ds=#sr# 375", "=ds="..AL["Trainer"]..": "..BabbleZone["Northern Stranglethorn"] };
+					{ 15, "s35585", "29522", "=q4=Windhawk Hauberk", "=ds=#sr# 375", "=ds="..AL["Trainer"].." "..AL["No Longer Available"] };
+				};
+				{ 28, "s36078", "29974", "=q3=Living Crystal Breastplate", "=ds=#sr# 330", "=ds="..AL["Trainer"] };
+				{ 29, "s36075", "29970", "=q3=Wildfeather Leggings", "=ds=#sr# 260", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
-			name = DRAGONSCALE,
-			module = moduleName, menu = "LEATHERWORKINGMENU", instance = "Leatherworking",
-		};
-	};
-
-	AtlasLoot_Data["Elemental"] = {
-		["Normal"] = {
-			{
-				{ 1, "s10630", "8346", "=q3=Gauntlets of the Sea", "=ds=#sr# 230", "=ds="..AL["Trainer"]};
-				{ 2, "s10632", "8348", "=q3=Helm of Fire", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
-				{ 3, "s36074", "29964", "=q3=Blackstorm Leggings", "=ds=#sr# 260", "=ds="..AL["Trainer"]};
-				{ 4, "s36077", "29973", "=q3=Primalstorm Breastplate", "=ds=#sr# 330"};
-				{ 5, "s35590", "29526", "=q4=Primalstrike Belt", "=ds=#sr# 375"};
-				{ 6, "s35591", "29527", "=q4=Primalstrike Bracers", "=ds=#sr# 375"};
-				{ 7, "s35589", "29525", "=q4=Primalstrike Vest", "=ds=#sr# 375"};
-			};
-		};
-		info = {
-			name = ELEMENTAL,
-			module = moduleName, menu = "LEATHERWORKINGMENU", instance = "Leatherworking",
-		};
-	};
-
-	AtlasLoot_Data["Tribal"] = {
-		["Normal"] = {
-			{
-				{ 1, "s10621", "8345", "=q3=Wolfshead Helm", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
-				{ 2, "s10647", "8349", "=q3=Feathered Breastplate", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
-				{ 3, "s36075", "29970", "=q3=Wildfeather Leggings", "=ds=#sr# 260", "=ds="..AL["Trainer"]};
-				{ 4, "s36078", "29974", "=q3=Living Crystal Breastplate", "=ds=#sr# 330"};
-				{ 5, "s35587", "29524", "=q4=Windhawk Belt", "=ds=#sr# 375"};
-				{ 6, "s35588", "29523", "=q4=Windhawk Bracers", "=ds=#sr# 375"};
-				{ 7, "s35585", "29522", "=q4=Windhawk Hauberk", "=ds=#sr# 375"};
-			};
-		};
-		info = {
-			name = TRIBAL,
-			module = moduleName, menu = "LEATHERWORKINGMENU", instance = "Leatherworking",
+			name = LEATHERWORKING..": "..AL["Specializations"],
+			module = moduleName, menu = "LEATHERWORKINGMENU",
 		};
 	};
 
