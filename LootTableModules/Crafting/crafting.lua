@@ -5483,36 +5483,36 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherCloaks"] = {
 		["Normal"] = {
 			{
-				{ 1, "s78475", "56549", "=q3=Razor-Edged Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 2, "s78476", "56548", "=q3=Twilight Dragonscale Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 3, "s78439", "56519", "=q3=Cloak of War", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
-				{ 4, "s78438", "56518", "=q3=Cloak of Beasts", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
-				{ 5, "s78405", "56489", "=q2=Hardened Scale Cloak", "=ds=#sr# 470", "=ds="..AL["Trainer"]};
-				{ 6, "s78380", "56480", "=q2=Savage Cloak", "=ds=#sr# 460", "=ds="..AL["Trainer"]};
-				{ 7, "s60637", "43566", "=q4=Ice Striker's Cloak", "=ds=#sr# 440", "=ds="..AL["Trainer"]};
-				{ 8, "s55199", "41238", "=q3=Cloak of Tormented Skies", "=ds=#sr# 395", "=ds="..AL["Trainer"]};
-				{ 9, "s60631", "38441", "=q3=Cloak of Harsh Winds", "=ds=#sr# 380", "=ds="..AL["Trainer"]};
-				{ 10, "s42546", "33122", "=q4=Cloak of Darkness", "=ds=#sr# 360", "=ds="..BabbleFaction["The Violet Eye"]};
-				{ 11, "s22926", "18509", "=q4=Chromatic Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"]};
-				{ 12, "s22928", "18511", "=q4=Shifting Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"]};
+				{ 1, "s78475", "56549", "=q3=Razor-Edged Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 2, "s78476", "56548", "=q3=Twilight Dragonscale Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 3, "s60637", "43566", "=q4=Ice Striker's Cloak", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 4, "s78439", "56519", "=q3=Cloak of War", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 5, "s78438", "56518", "=q3=Cloak of Beasts", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 6, "s78405", "56489", "=q2=Hardened Scale Cloak", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 7, "s78380", "56480", "=q2=Savage Cloak", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 8, "s55199", "41238", "=q3=Cloak of Tormented Skies", "=ds=#sr# 395", "=ds="..AL["Trainer"] };
+				{ 9, "s60631", "38441", "=q3=Cloak of Harsh Winds", "=ds=#sr# 380", "=ds="..AL["Trainer"] };	
+				{ 10, "s42546", "33122", "=q4=Cloak of Darkness", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleFaction["The Violet Eye"].." ("..BabbleZone["Deadwind Pass"]..")" };
+				{ 11, "s22926", "18509", "=q4=Chromatic Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"] };
+				{ 12, "s22928", "18511", "=q4=Shifting Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"] };
 				{
-					{ 13, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7493#"};
-					{ 13, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7497#"};
+					{ 16, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7493#" };
+					{ 16, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7497#" };
 				};
 				{
-					{ 14, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2860#"};
-					{ 14, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2853#"};
+					{ 17, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2860#" };
+					{ 17, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2853#" };
 				};
-				{ 15, "s10562", "8216", "=q2=Big Voodoo Cloak", "=ds=#sr# 240", "=ds="..AL["World Drop"]};
-				{ 16, "s7153", "5965", "=q2=Guardian Cloak", "=ds=#sr# 185", "=ds="..AL["World Drop"]};
-				{ 17, "s9198", "7377", "=q2=Frost Leather Cloak", "=ds=#sr# 180", "=ds="..AL["Trainer"]};
-				{ 18, "s3760", "3719", "=q2=Hillman's Cloak", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
-				{ 19, "s2168", "2316", "=q2=Dark Leather Cloak", "=ds=#sr# 110", "=ds="..AL["Trainer"]};
-				{ 20, "s9070", "7283", "=q2=Black Whelp Cloak", "=ds=#sr# 100", "=ds="..AL["Vendor"]};
-				{ 21, "s7953", "6466", "=q2=Deviate Scale Cloak", "=ds=#sr# 90", "=ds="..AL["Vendor"]};
-				{ 22, "s2159", "2308", "=q2=Fine Leather Cloak", "=ds=#sr# 85", "=ds="..AL["Trainer"]};
-				{ 23, "s2162", "2310", "=q2=Embossed Leather Cloak", "=ds=#sr# 60", "=ds="..AL["Trainer"]};
-				{ 24, "s9058", "7276", "=q1=Handstitched Leather Cloak", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 18, "s10562", "8216", "=q2=Big Voodoo Cloak", "=ds=#sr# 240", "=ds="..AL["World Drop"] };
+				{ 19, "s7153", "5965", "=q2=Guardian Cloak", "=ds=#sr# 185", "=ds="..AL["World Drop"] };
+				{ 20, "s9198", "7377", "=q2=Frost Leather Cloak", "=ds=#sr# 180", "=ds="..AL["Trainer"] };
+				{ 21, "s3760", "3719", "=q2=Hillman's Cloak", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
+				{ 22, "s2168", "2316", "=q2=Dark Leather Cloak", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
+				{ 23, "s9070", "7283", "=q2=Black Whelp Cloak", "=ds=#sr# 100", "=ds="..AL["Vendor"]..": "..BabbleZone["Redridge Mountains"] };
+				{ 24, "s7953", "6466", "=q2=Deviate Scale Cloak", "=ds=#sr# 90", "=ds="..AL["Vendor"]..": "..BabbleZone["Northern Barrens"] };
+				{ 25, "s2159", "2308", "=q2=Fine Leather Cloak", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 26, "s2162", "2310", "=q2=Embossed Leather Cloak", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
+				{ 27, "s9058", "7276", "=q1=Handstitched Leather Cloak", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -5524,7 +5524,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherItemEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 2, "s78478", "56551", "=q4=Charscale Leg Armor", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 1, "s78478", "56551", "=q4=Charscale Leg Armor", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
+				{ 2, "s78477", "56550", "=q4=Dragonscale Leg Armor", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"] };
 				{ 3, "s85008", "Trade_LeatherWorking", "=ds=Draconic Embossment - Agility", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
 				{ 4, "s85010", "Trade_LeatherWorking", "=ds=Draconic Embossment - Intellect", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
 				{ 5, "s85007", "Trade_LeatherWorking", "=ds=Draconic Embossment - Stamina", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
@@ -5563,14 +5564,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, "s50962", "38375", "=q1=Borean Armor Kit", "=ds="..AL["Trainer"]};
 				{ 7, "s44970", "34330", "=q1=Heavy Knothide Armor Kit", "=ds=#sr# 350"};
 				{ 8, "s32458", "25652", "=q1=Magister's Armor Kit", "=ds=#sr# 325"};
-				{ 9, "s32457", "25651", "=q1=Vindicator's Armor Kit", "=ds=#sr# 325"};
-				{ 10, "s32456", "25650", "=q1=Knothide Armor Kit", "=ds=#sr# 300"};
-				{ 11, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300"};
-				{ 12, "s19058", "15564", "=q1=Rugged Armor Kit", "=ds=#sr# 250"};
-				{ 13, "s10487", "8173", "=q1=Thick Armor Kit", "=ds=#sr# 200"};
-				{ 14, "s3780", "4265", "=q1=Heavy Armor Kit", "=ds=#sr# 150"};
-				{ 15, "s2165", "2313", "=q1=Medium Armor Kit", "=ds=#sr# 100"};
-				{ 16, "s2152", "2304", "=q1=Light Armor Kit", "=ds=#sr# 1"};
+				{ 16, "s32457", "25651", "=q1=Vindicator's Armor Kit", "=ds=#sr# 325"};
+				{ 17, "s32456", "25650", "=q1=Knothide Armor Kit", "=ds=#sr# 300"};
+				{ 18, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300"};
+				{ 19, "s19058", "15564", "=q1=Rugged Armor Kit", "=ds=#sr# 250"};
+				{ 20, "s10487", "8173", "=q1=Thick Armor Kit", "=ds=#sr# 200"};
+				{ 21, "s3780", "4265", "=q1=Heavy Armor Kit", "=ds=#sr# 150"};
+				{ 22, "s2165", "2313", "=q1=Medium Armor Kit", "=ds=#sr# 100"};
+				{ 23, "s2152", "2304", "=q1=Light Armor Kit", "=ds=#sr# 1"};
 			};
 		};
 		info = {
