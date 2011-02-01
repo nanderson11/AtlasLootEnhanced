@@ -483,6 +483,7 @@ if AL then
 	-- AL["Blizzcon"] = true;
 	AL["WoW Anniversary Celebration"] = "WoW Geburtstagsgeschenke";
 	AL["Daily Reward"] = "Tägliche Belohnung";
+	AL["No Longer Available"] = "Nicht mehr erhältlich";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "Klassisch";
@@ -551,6 +552,7 @@ if AL then
 	AL["Low Level"] = "Niedrigstufig";
 	AL["High Level"] = "Hochstufig";
 	AL["Rare"] = "Selten";
+	AL["Specializations"] = "Spezialisierungen";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";
