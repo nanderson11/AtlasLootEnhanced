@@ -146,7 +146,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 20, "s38960", "31679", "=q1=Fel Strength Elixir", "=ds="..BabbleZone["Shadowmoon Valley"]};
 				{ 21, "s33738", "28102", "=q1=Onslaught Elixir", "=ds="..AL["Trainer"]};
 				{ 22, "s11477", "9224", "=q1=Elixir of Demonslaying", "=ds="..AL["Vendor"]};
-
 			};
 			{
 				{ 1, "s60365", "44330", "=q1=Elixir of Armor Piercing", "=ds="..GetSpellInfo(60893)};
@@ -183,7 +182,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 26, "s21923", "17708", "=q1=Elixir of Frost Power", "=ds="..AL["Feast of Winter Veil"]};
 				{ 27, "s7845", "6373", "=q1=Elixir of Firepower", "=ds="..AL["Trainer"]};
 			};
-
 		};
 		info = {
 			name = ALCHEMY..": "..AL["Battle Elixirs"],
@@ -256,7 +254,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 			name = ALCHEMY..": "..AL["Other Elixirs"],
 			module = moduleName, menu = "ALCHEMYMENU",
 		};
-
 	};
 
 	AtlasLoot_Data["AlchemyPotion"] = {
@@ -502,7 +499,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 			name = ALCHEMY..": "..AL["Cauldron"],
 			module = moduleName, menu = "ALCHEMYMENU",
 		};
-
 	};
 
 	AtlasLoot_Data["AlchemyOil"] = {
@@ -523,7 +519,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 			name = ALCHEMY..": "..AL["Oil"],
 			module = moduleName, menu = "ALCHEMYMENU",
 		};
-
 	};
 
 	AtlasLoot_Data["AlchemyMisc"] = {
@@ -1505,7 +1500,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 22, "s3116", "3240", "=q1=Coarse Weightstone", "=ds=#sr# 65", "=ds="..AL["Trainer"]};
 				{ 23, "s3115", "3239", "=q1=Rough Weightstone", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
 				{ 25, "s7222", "6043", "=q1=Iron Counterweight", "=ds=#sr# 165", "=ds="..AL["World Drop"]};
-
 			};
 		};
 		info = {
@@ -3356,14 +3350,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, "s19793", "15996", "=q1=Lifelike Mechanical Toad", "=ds=#sr# 265", "=ds="..AL["World Drop"] };
 				{ 4, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250", "=ds="..AL["Quest Reward"] };
 				{ 5, "s15633", "11826", "=q1=Lil' Smoky", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
-				{ 16, "s15628", "11825", "=q1=Pet Bombling", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
-				{ 17, "s3928", "4401", "=q1=Mechanical Squirrel Box", "=ds=#sr# 75", "=ds="..AL["World Drop"] };
-				{
-					{ 18, "s60866", "41508", "=q4=Mechano-Hog", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"].." - "..BabbleFaction["Exalted"] };
-					{ 18, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"].." - "..BabbleFaction["Exalted"] };
-				};
-				{ 19, "s44157", "34061", "=q4=Turbo-Charged Flying Machine Control", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
-				{ 20, "s44155", "34060", "=q3=Flying Machine Control", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
+				{ 6, "s15628", "11825", "=q1=Pet Bombling", "=ds=#sr# 205", "=ds="..BabbleZone["Gnomeregan"] };
+				{ 7, "s3928", "4401", "=q1=Mechanical Squirrel Box", "=ds=#sr# 75", "=ds="..AL["World Drop"] };
+				{ 16, "s60866", "41508", "=q4=Mechano-Hog", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"].." - "..BabbleFaction["Exalted"] };
+				{ 17, "s60867", "44413", "=q4=Mekgineer's Chopper", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"].." - "..BabbleFaction["Exalted"] };
+				{ 18, "s44157", "34061", "=q4=Turbo-Charged Flying Machine Control", "=ds=#sr# 375", "=ds="..AL["Trainer"] };
+				{ 19, "s44155", "34060", "=q3=Flying Machine Control", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -5468,7 +5460,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
-	
+
 	AtlasLoot_Data["LeatherMailArmorCata"] = {
 		["Normal"] = {
 			{
@@ -6264,7 +6256,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 25, "s75259", "54480", "=q2=Spiritmend Bracers", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
 				{ 26, "s75258", "54481", "=q2=Spiritmend Belt", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
 				{ 27, "s75257", "54475", "=q3=Deathsilk Robe", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
-				{ 28, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460", "=ds="..AL["Trainer"] };	
+				{ 28, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
 				{ 29, "s75254", "54472", "=q2=Deathsilk Leggings", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
 				{ 30, "s75252", "54477", "=q2=Deathsilk Boots", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
 			};
