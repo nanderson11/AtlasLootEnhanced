@@ -646,10 +646,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyNightElf"] = {
 		["Normal"] = {
 			{
-				{ 1, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds=#sr# 450", "=ds=#s5#, #a1#"};
-				{ 2, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#sr# 450", "=ds=#s14#"};
-				{ 3, 64646, "", "=q4=Bones of Transformation", "=ds=#sr# 450", "=ds="};
-				{ 4, 64651, "", "=q4=Wisp Amulet", "=ds=#sr# 450"};
+				{ 1, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#sr# 450", "=ds=#s14#"};
+				{ 2, 64646, "", "=q4=Bones of Transformation", "=ds=#sr# 450", "=ds="};
+				{ 3, 64651, "", "=q4=Wisp Amulet", "=ds=#sr# 450"};
+				{ 4, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds=#sr# 225", "=ds=#s5#, #a1#"};
 				{ 6, 64647, "", "=q0=Carcanet of the Hundred Magi", "=ds=#sr# 450"};
 				{ 7, 64648, "", "=q0=Silver Scroll Case", "=ds=#sr# 450", "#ACHIEVEMENTID:5191#"};
 				{ 8, 64650, "", "=q0=Umbra Crescent", "=ds=#sr# 450"};
@@ -682,14 +682,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyFossil"] = {
 		["Normal"] = {
 			{
-				{ 1, 60954, "", "=q4=Fossilized Raptor", "=ds=#sr# 150", "=ds=#e26#"};
-				{ 2, 60955, "", "=q3=Fossilized Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
+				{ 2, 60954, "", "=q4=Fossilized Raptor", "=ds=#sr# 150", "=ds=#e26#"};
 				{ 4, 64473, "", "=q0=Imprint of a Kraken Tentacle", "=ds=#sr# 300"};
 				{ 5, 64468, "", "=q0=Proto-Drake Skeleton", "=ds=#sr# 300"};
 				{ 6, 64355, "", "=q0=Ancient Shark Jaws", "=ds=#sr# 1"};
 				{ 7, 63121, "", "=q0=Beautiful Preserved Fern", "=ds=#sr# 1"};
 				{ 8, 63109, "", "=q0=Black Trilobite", "=ds=#sr# 1"};
 				{ 9, 64349, "", "=q0=Devilsaur Tooth", "=ds=#sr# 1"};
+				{ 17, 60955, "", "=q3=Fossilized Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
 				{ 19, 64385, "", "=q0=Feathered Raptor Arm", "=ds=#sr# 1"};
 				{ 20, 64350, "", "=q0=Insect in Amber", "=ds=#sr# 1"};
 				{ 21, 66056, "", "=q0=Shard of Petrified Wood", "=ds=#sr# 1"};
