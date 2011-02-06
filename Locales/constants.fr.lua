@@ -478,11 +478,12 @@ if AL then
 	AL["Skill Required:"] = "Compétence requise :";
 	AL["Rating:"] = "Côte :"; -- Shorthand for 'Required Rating' for the personal/team ratings
 	AL["Random Heroic Reward"] = "Récompense héroique aléatoire";
-	--AL["Fishing Daily Reward"] = true; -- à traduire
-	--AL["Collector's Edition"] = true; -- à traduire
+	AL["Fishing Daily Reward"] = "Réc. journa. de pêche";
+	AL["Collector's Edition"] = "Edition Collector";
 	--AL["Blizzcon"] = true;
-	--AL["WoW Anniversary Celebration"] = true; -- à traduire
-	--AL["Daily Reward"] = true; -- à traduire
+	AL["WoW Anniversary Celebration"] = "Célébration de l'anniversaire de WoW";
+	AL["Daily Reward"] = "Récompense journalière";
+	AL["No Longer Available"] = "N'est plus disponible";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "WoW classique";
@@ -551,6 +552,7 @@ if AL then
 	AL["Low Level"] = "Bas niveau";
 	AL["High Level"] = "Haut niveau";
 	--AL["Rare"] = true;
+	AL["Specializations"] = "Spécialisations";
 
 	-- Loot Table Names
 	--AL["Level 30-39"] = true;
