@@ -648,8 +648,10 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 50741, "", "=q3=Vile Fumigator's Mask", "=ds=#s1#"};
 				{ 16, 54537, "", "=q3=Heart-Shaped Box", "=q5="..AL["Daily Reward"]};
 				{ 17, 50250, "", "=q4=Big Love Rocket", "=ds=#e12#"};
-				{ 18, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
-				{ 19, 50471, "", "=q3=The Heartbreaker", "=ds=#m20#"};
+				{ 18, 49715, "", "=q3=Forever-Lovely Rose", "=ds=#s1#"};
+				{ 19, 50741, "", "=q3=Forever-Lovely Rose", "=ds=#s1#, #a1#"};
+				{ 20, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
+				{ 21, 50471, "", "=q3=The Heartbreaker", "=ds=#m20#"};
 			};
 		};
 		info = {
