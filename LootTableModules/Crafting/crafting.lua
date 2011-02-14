@@ -1647,10 +1647,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 66117, "", "=q1=Plans: Bloodied Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 2, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 3, 66118, "", "=q1=Plans: Bloodied Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
-				{ 4, 66125, "", "=q1=Plans: Ornate Pyrium Bracers", "=ds=#p2# (505)", "20 #elementiumbar#" },
-				{ 5, 66126, "", "=q1=Plans: Ornate Pyrium Gauntlets", "=ds=#p2# (510)", "20 #elementiumbar#" },
+				{ 2, 66125, "", "=q1=Plans: Ornate Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
+				{ 3, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
+				{ 4, 66118, "", "=q1=Plans: Bloodied Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
+				{ 5, 66126, "", "=q1=Plans: Ornate Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
 				{ 6, 66119, "", "=q1=Plans: Bloodied Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
 				{ 7, 66107, "", "=q1=Plans: Elementium Girdle of Pain", "=ds=#p2# (510)", "20 #elementiumbar#" },
 				{ 8, 66105, "", "=q1=Plans: Hardened Elementium Girdle", "=ds=#p2# (510)", "20 #elementiumbar#" },
@@ -1670,18 +1670,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 22, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 23, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 24, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 25, 66129, "", "=q1=Plans: Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 26, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
-				{ 27, 66124, "", "=q1=Plans: Bloodied Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 28, 66123, "", "=q1=Plans: Bloodied Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 29, 66122, "", "=q1=Plans: Bloodied Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 30, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 25, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
+				{ 26, 66129, "", "=q1=Plans: Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 27, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
+				{ 28, 66124, "", "=q1=Plans: Bloodied Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 29, 66123, "", "=q1=Plans: Bloodied Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 30, 66122, "", "=q1=Plans: Bloodied Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
 			};
 			{
-				{ 1, 66132, "", "=q1=Plans: Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 2, 66131, "", "=q1=Plans: Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 3, 66130, "", "=q1=Plans: Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 4, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 1, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 2, 66132, "", "=q1=Plans: Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 3, 66131, "", "=q1=Plans: Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 4, 66130, "", "=q1=Plans: Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 5, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
 			};
 		};
 		info = {
