@@ -3769,9 +3769,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 5, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
 				{ 6, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
 				{ 7, 1484, "", "=q3=Witching Stave", "=ds=#h2#, #w9#", "", "0.01%"};
-				{ 16, 60977, "", "=q1=Orders from High Command", "=ds=#m3#"};
-				{ 17, 60874, "", "=q1=Deathless Sinew", "=ds=#m3#", "", "100%"};
-				{ 18, 60875, "", "=q1=Ghostly Essence", "=ds=#m3#", "", "100%"};
+				{ 17, 60977, "", "=q1=Orders from High Command", "=ds=#m3#"};
+				{ 18, 60874, "", "=q1=Deathless Sinew", "=ds=#m3#", "", "100%"};
+				{ 19, 60875, "", "=q1=Ghostly Essence", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {

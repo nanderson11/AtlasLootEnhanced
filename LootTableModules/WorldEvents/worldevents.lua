@@ -263,7 +263,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				};
 			};
 			{
-				{ 1, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009 =q1=#m34#: =ds=#h1#"};
+				{ 1, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009,2010 =q1=#m34#: =ds=#h1#"};
 				{ 2, 33016, "", "=q3=Blue Brewfest Stein", "=ec1=2008 =q1=#m34#: =ds=#h1#"};
 				{ 3, 32912, "", "=q3=Yellow Brewfest Stein", "=ec1=2007 =q1=#m34#: =ds=#h1#"};
 				{ 4, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m34#: =ds=#s15#"};
@@ -448,13 +448,11 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 3, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
 				{ 4, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
 				{ 5, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
-				{ 7, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Festive Gift"], ""};
-				{ 8, 21328, "", "=q1=Wand of Holiday Cheer", "=ds=#m20#"};
-				{ 10, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], ""};
-				{ 11, 34425, "", "=q3=Clockwork Rocket Bot", "=ds=#e13#"};
-				{ 13, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gently Shaken Gift"], ""};
-				{ 14, 21235, "", "=q1=Winter Veil Roast", "=ds=#e3#"};
-				{ 15, 21241, "", "=q1=Winter Veil Eggnog", "=ds=#e4#"};
+				{ 7, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], ""};
+				{ 8, 46709, "", "=q3=MiniZep Controller", "=ec1=2010 =ds=#e22#"};
+				{ 9, 46725, "", "=q3=Red Rider Air Rifle", "=ec1=2009 =ds=#m20#"};
+				{ 10, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "=ec1=2008 =ds=#e22#"};
+				{ 11, 34425, "", "=q3=Clockwork Rocket Bot", "=ec1=2007 =ds=#e13#"};
 				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Ticking Present"], ""};
 				{ 17, 21325, "", "=q2=Mechanical Greench", "=ds=#e22#"};
 				{ 18, 21213, "", "=q2=Preserved Holly", "=ds=#m20#"};
@@ -464,10 +462,17 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 22, 17722, "", "=q2=Pattern: Gloves of the Greatfather", "=ds=#p7# (190)"};
 				{ 23, 17709, "", "=q1=Recipe: Elixir of Frost Power", "=ds=#p1# (190)"};
 				{ 24, 17724, "", "=q1=Pattern: Green Holiday Shirt", "=ds=#p8# (190)"};
-				{ 26, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Carefully Wrapped Present"], ""};
-				{ 27, 21254, "", "=q1=Winter Veil Cookie", "=ds=#e3#"};
-				{ 29, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Extra-Special Gift"], ""};
-				{ 30, 21215, "", "=q1=Graccu's Mince Meat Fruitcake", "=ds=#e3#"};
+			};
+			{
+				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Festive Gift"], ""};
+				{ 2, 21328, "", "=q1=Wand of Holiday Cheer", "=ds=#m20#"};
+				{ 4, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gently Shaken Gift"], ""};
+				{ 5, 21235, "", "=q1=Winter Veil Roast", "=ds=#e3#"};
+				{ 6, 21241, "", "=q1=Winter Veil Eggnog", "=ds=#e4#"};
+				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Carefully Wrapped Present"], ""};
+				{ 17, 21254, "", "=q1=Winter Veil Cookie", "=ds=#e3#"};
+				{ 19, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Extra-Special Gift"], ""};
+				{ 20, 21215, "", "=q1=Graccu's Mince Meat Fruitcake", "=ds=#e3#"};
 			};
 		};
 		info = {

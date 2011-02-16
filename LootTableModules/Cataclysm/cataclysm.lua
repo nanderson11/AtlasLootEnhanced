@@ -1270,9 +1270,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
 				{ 6, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
 				{ 7, 1484, "", "=q3=Witching Stave", "=ds=#h2#, #w9#", "", "0.01%"};
-				{ 16, 60977, "", "=q1=Orders from High Command", "=ds=#m3#"};
-				{ 17, 60874, "", "=q1=Deathless Sinew", "=ds=#m3#", "", "100%"};
-				{ 18, 60875, "", "=q1=Ghostly Essence", "=ds=#m3#", "", "100%"};
+				{ 17, 60977, "", "=q1=Orders from High Command", "=ds=#m3#"};
+				{ 18, 60874, "", "=q1=Deathless Sinew", "=ds=#m3#", "", "100%"};
+				{ 19, 60875, "", "=q1=Ghostly Essence", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -1566,9 +1566,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 59118, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
 				{ 8, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
 				{ 9, 59216, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
-				{ 11, 59220, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
-				{ 12, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
-				{ 16, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
+				{ 16, 59220, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
+				{ 17, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
+				{ 19, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1582,9 +1582,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65085, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
 				{ 8, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
 				{ 9, 65080, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
-				{ 11, 65076, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
-				{ 12, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
-				{ 16, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
+				{ 16, 65076, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
+				{ 17, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
+				{ 19, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -1606,8 +1606,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
 				{ 9, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
 				{ 10, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 12, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
-				{ 16, 59347, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
+				{ 16, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 18, 59347, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1622,11 +1622,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
 				{ 9, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
 				{ 10, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 12, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
 				{ 16, 67428, "", "=q4=Leggings of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
 				{ 17, 67427, "", "=q4=Leggings of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
 				{ 18, 67426, "", "=q4=Leggings of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65036, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
+				{ 20, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 22, 65036, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
 			};
 		};
 		info = {
@@ -1646,10 +1646,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 59315, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
 				{ 7, 59316, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
 				{ 8, 59317, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
-				{ 10, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
-				{ 11, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
-				{ 16, 59320, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
-				{ 17, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+				{ 16, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 17, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 18, 59320, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
+				{ 19, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1662,10 +1662,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 65063, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
 				{ 7, 65062, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
 				{ 8, 65061, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
-				{ 10, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
-				{ 11, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
-				{ 16, 65058, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
-				{ 17, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+				{ 16, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 17, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 18, 65058, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
+				{ 19, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
 			};
 		};
 		info = {
@@ -1686,9 +1686,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
 				{ 8, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
 				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 11, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 12, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 16, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+				{ 16, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 17, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 19, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1702,9 +1702,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
 				{ 8, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
 				{ 9, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 11, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 12, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 16, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+				{ 16, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 17, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 19, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
 			};
 		};
 		info = {
@@ -1888,8 +1888,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
-				{ 18, 68132, "", "=q4=Stormwake the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 19, 68131, "", "=q4=Stormwake the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 18, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 19, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
 				{ 21, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
@@ -4644,13 +4644,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 15, 58195, "", "=q4=Woe Breeder's Boots", "=ds=#s12#, #a4#", "1650 #valor#" },
 				{ 16, 58185, "", "=q4=Band of Bees", "=ds=#s13#", "1250 #valor#" },
 				{ 17, 58188, "", "=q4=Band of Secret Names", "=ds=#s13#", "1250 #valor#" },
-				{ 18, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "1650 #valor#" },
+				{ 18, 68812, "", "=q4=Hornet-Sting Band", "=ds=#s13#", "1250 #valor#" },
 				{ 19, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "1250 #valor#" },
 				{ 20, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "1250 #valor#" },
-				{ 21, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "1650 #valor#" },
-				{ 22, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "1650 #valor#" },
-				{ 23, 58180, "", "=q4=License to Slay", "=ds=#s14#", "1650 #valor#" },
-				{ 24, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "1650 #valor#" },
+				{ 21, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "1650 #valor#" },
+				{ 22, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "1650 #valor#" },
+				{ 23, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "1650 #valor#" },
+				{ 24, 58180, "", "=q4=License to Slay", "=ds=#s14#", "1650 #valor#" },
+				{ 25, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "1650 #valor#" },
 				{ 26, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "700 #valor#" },
 				{ 27, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "700 #valor#" },
 				{ 28, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "700 #valor#" },
