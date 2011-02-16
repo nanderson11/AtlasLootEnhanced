@@ -307,6 +307,62 @@ local function TextParsingFrame(container)
 end
 
 -- ######################################################
+-- ######################################################
+local function CheckInstanceList()
+	local cacheTab = {}
+	local moduleList = {}
+	local retString = ""
+	
+	for k,v in ipairs(AtlasLoot_ModuleList_Loader) do
+		moduleList[v] = k
+	end
+	for iniName, iniTable in pairs(AtlasLoot_Data) do
+		--iniTable.info.module
+		if not iniTable or not iniTable.info or not iniTable.info.module then
+			print("ERROR "..iniName)
+		else
+			cacheTab[iniName] = moduleList[iniTable.info.module]
+		end
+	end
+	
+	retString = "AtlasLoot_InstanceList_Loader = {\n"
+	for k,v in pairs(cacheTab) do
+		retString = retString.."\n[\""..k.."\"] = "..v..","
+	end
+	retString = retString.."\n}"
+	
+	return retString
+end
+
+
+local function InstanceInfoFrame(container)
+	local multiEditbox = AceGUI:Create("MultiLineEditBox")
+	
+	local button = AceGUI:Create("Button")
+	button:SetText("Start Scan")
+	button:SetCallback("OnClick", function() 
+		local text, number = CheckInstanceList()
+		multiEditbox:SetText(text)
+		multiEditbox.editBox:HighlightText(0)
+	end)
+	button:SetWidth(200)
+	container:AddChild(button)
+	local button2 = AceGUI:Create("Button")
+	button2:SetText("Mark all")
+	button2:SetCallback("OnClick", function()
+		multiEditbox.editBox:HighlightText(0)
+	end)
+	button2:SetWidth(200)
+	container:AddChild(button2)
+	
+	multiEditbox:SetLabel("InstanceList:")
+	multiEditbox:SetFullWidth(true)
+	multiEditbox:SetFullHeight(true)
+	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
+	container:AddChild(multiEditbox)
+end
+
+-- ######################################################
 
 
 -- Callback function for OnGroupSelected
@@ -316,6 +372,8 @@ local function SelectGroup(container, event, group)
 		VendorFrame(container)
    elseif group == "tab2" then
 		TextParsingFrame(container)
+	elseif group == "tab3" then
+		InstanceInfoFrame(container)
    end
 end
 
@@ -332,7 +390,7 @@ function AtlasLoot:DevTool_CreateFrame()
 	local tab =  AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
-	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}})
+	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}})
 	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)

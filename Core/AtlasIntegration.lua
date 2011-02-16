@@ -61,6 +61,7 @@ function AtlasLoot:AtlasInitialize()
 			if ATLAS_VERSION == ATLASLOOT_PREVIEW_ATLAS[i] then
 				AtlasCheck = true;
 				AtlasLoot.db.profile.AtlasType = "Preview"
+				AtlasLoot:LootTableRegister_Merge()
 			end
 		end
 		if AtlasCheck == false then

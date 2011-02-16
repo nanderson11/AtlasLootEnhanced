@@ -1,0 +1,20 @@
+﻿## Interface: 40000
+## Title: AtlasLoot_Loader
+## Title-deDE: AtlasLoot Loader
+## Title-zhTW: AtlasLoot Loader
+## Title-zhCN: AtlasLoot Loader
+## Notes: AtlasLoot Loader
+## Notes-deDE: AtlasLoot Loader
+## Notes-zhTW: AtlasLoot Loader
+## Notes-zhCN: AtlasLoot Loader
+## Author: Hegarol	
+## Version: @project-version@
+## X-eMail: manager@atlasloot.net
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+
+embeds.xml
+
+Locales\Locales.xml
+core.xml

@@ -7,11 +7,10 @@ Can be integrated with Atlas (http://www.atlasmod.com)
 Functions:
 ]]
 local addonname = ...
-AtlasLoot = LibStub("AceAddon-3.0"):NewAddon("AtlasLoot");
+local AtlasLoot = _G.AtlasLoot
 
 --Instance required libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "6";
@@ -65,16 +64,6 @@ AtlasLoot_Data["ErrorPage"] = {["Normal"] = {{}};info = {name = "ErrorPage"};};
 
 -- Saves the pFrame positions
 local pFrameRegister = {}
-
---List with Modules
-AtlasLoot.Modules = {
-	{"AtlasLootClassicWoW", "AtlasLoot_ClassicWoW", false, "", AL["Classic WoW"] },
-	{"AtlasLootBurningCrusade", "AtlasLoot_BurningCrusade", false, "", AL["Burning Crusade"] },
-	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
-	{"AtlasLootCataclysm", "AtlasLoot_Cataclysm", false, "", AL["Cataclysm"] },
-	{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
-	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
-}
 
 AtlasLoot.IgnoreList = {
 	["FormatedList"] = true,
@@ -168,7 +157,7 @@ end
 -----------------------------
 
 -- Initialize all things like Gui, slash commands, saved variables
-function AtlasLoot:OnInitialize()
+function AtlasLoot:OnLoaderLoad()
     self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
     self.db:RegisterDefaults(AtlasLootDBDefaults);
 	self.chardb = LibStub("AceDB-3.0"):New("AtlasLootCharDB")
@@ -176,22 +165,7 @@ function AtlasLoot:OnInitialize()
 	self.db.RegisterCallback(self, "OnProfileChanged", "OnProfileChanged")
 	self.db.RegisterCallback(self, "OnProfileCopied", "OnProfileChanged")
 	self.db.RegisterCallback(self, "OnProfileReset", "OnProfileChanged")
-	
-	local _, _, _, enabled, _, reason = GetAddOnInfo("AtlasLootFu")
-	if enabled or reason == "DISABLED" then
-		DisableAddOn("AtlasLootFu")
-		StaticPopupDialogs["ATLASLOOT_FU_ERROR"] = {
-			text = AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"],
-			button1 = OKAY,
-			timeout = 0,
-			exclusive = 1,
-			whileDead = 1,
-		}
-		StaticPopup_Show("ATLASLOOT_FU_ERROR")
-	end
 
-	-- Slash /al 
-	self:CreateSlash()
 	-- Setup the AtlasLootTooltip
 	self:SetupTooltip()
 	-- This loads the Gui
@@ -199,7 +173,7 @@ function AtlasLoot:OnInitialize()
 	self:CreateAtlasLootPanel()
 	self:CreateItemFrame()
 	-- Options loader
-	self:OptionsInitialize()
+	self:ReplaceOptions()
 	-- Atlas 
 	self:AtlasInitialize()
 	-- MiniMap Button
@@ -229,7 +203,7 @@ function AtlasLoot:OnInitialize()
 	end
 
 	--if (self.db.profile.LoadAllLoDStartup == true) then
-		AtlasLoot:LoadModule("all")
+		--AtlasLoot:LoadModule("all")
 	--end
 	collectgarbage("collect")
     --if LibStub:GetLibrary("LibAboutPanel", true) then
@@ -280,20 +254,6 @@ do
 	
 	function AtlasLoot:RegisterSlashCommand(com, func)
 		slashCommand[string.lower(com)] = func
-	end
-end
-
-
--- Create the Slashs /al and /atlasloot
-function AtlasLoot:CreateSlash()
-	--self:RegisterEvent("VARIABLES_LOADED");
-	--self:RegisterEvent("ADDON_ACTION_FORBIDDEN");
-	--self:RegisterEvent("ADDON_ACTION_BLOCKED");
-	--Enable the use of /al or /atlasloot to open the loot browser
-	SLASH_ATLASLOOT1 = "/atlasloot";
-	SLASH_ATLASLOOT2 = "/al";
-	SlashCmdList["ATLASLOOT"] = function(msg)
-		self:SlashCommand(msg);
 	end
 end
 
@@ -355,7 +315,7 @@ function AtlasLoot:CreateSelectBossLineButton(parent, point, name)
 	local bossLineButton = {}
 	
 	bossLineButton = CreateFrame("Button", name, parent)
-	---bossLineButton:SetFrameStrata("HIGH")
+	--bossLineButton:SetFrameStrata("HIGH")
 	bossLineButton:SetWidth(336)
 	bossLineButton:SetHeight(15)
 	bossLineButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
@@ -623,18 +583,12 @@ function AtlasLoot:FormatDataID(dataID)
 				self:LoadModule(v)
 			end
 		else
-			self:LoadModule("all")
+			--self:LoadModule("all")
 		end
 	end
-	if not AtlasLoot_Data[dataID] then
-		local tLocation = self:GetTableLoaction(dataID)
-		if tLocation and AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2] then
-			self:LoadModule(AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2])
-		else
-			--print("AtlasLoot:FormatDataID >>> dataID: "..dataID.." >>> ErrorPage")
-			--return "ErrorPage", 1
-			return
-		end
+	local dataIDLoaded = AtlasLoot:CheckDataID(dataID)
+	if not dataIDLoaded then
+		return 
 	end
 	
 	if last then
@@ -1226,37 +1180,6 @@ function AtlasLoot:GetItemInfoFrame()
 		if k and _G[v[2]]:IsShown() then
 			return k
 		end
-	end
-end
-
------------------------------
--- Module Loader
------------------------------
-
-local allLoaded = false
---- Loads a AtlasLoot module
--- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCataclysm, AtlasLootCrafting, AtlasLootWorldEvents, all
--- @usage AtlasLoot:LoadModule(module)
-function AtlasLoot:LoadModule(module)
-	if not module or allLoaded then return end
-	for k,v in ipairs(self.Modules) do
-		if not self.Modules[k][3] then
-			if v[1] == module or module == "all" then
-				--local name, title, notes, enabled, loadable, reason, security = GetAddOnInfo(v[2])
-				if reason then
-					self.Modules[k][4] = reason
-				else
-					self.Modules[k][4] = ""
-					if not IsAddOnLoaded(v[2]) then
-						LoadAddOn(v[2])
-						self.Modules[k][3] = true
-					end
-				end
-			end
-		end
-	end
-	if module == "all" then
-		allLoaded = true
 	end
 end
 

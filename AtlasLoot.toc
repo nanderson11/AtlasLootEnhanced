@@ -30,6 +30,8 @@
 
 embeds.xml
 
+Loader\embeds.xml
+Loader\core.xml
 Locales\Locales.xml
 TableRegister\TableRegister.xml
 Add_Ons\Addons.xml

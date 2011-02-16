@@ -23,6 +23,11 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	-- Loader
+	AL["Load AtlasLoot"] = true;
+	AL["Module \"%s\" is disabled."] = true;
+	AL["Module \"%s\" is missing."] = true;
+	
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = true;
 

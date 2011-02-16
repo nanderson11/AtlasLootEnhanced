@@ -280,34 +280,11 @@ end
 --[[
 AtlasLoot:OptionsInitialize()
 ]]
-function AtlasLoot:OptionsInitialize()
-	if self.optFrames then return end
-	self.optFrames = {}
+function AtlasLoot:ReplaceOptions()
 	LibStub("AceConfigRegistry-3.0"):RegisterOptionsTable("AtlasLoot", getOptions)
-	--LibStub("AceConfigRegistry-3.0"):NotifyChange("AtlasLoot")
-	self.optFrames.AtlasLoot = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", "AtlasLoot", nil, "general")
+
 	self:RegisterModuleOptions("Profiles", LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db), AL["Profiles"])
 	self.optFrames.Help = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", AL["Help"], "AtlasLoot", "Help")
-end
-
---- Adds a OptionsSubCat 
--- @param name the name of the option
--- @param optFunc the funtion that returns the options table
--- @param displayName the displayed options name
--- @usage AtlasLoot:RegisterModuleOptions(name, optFunc, displayName)
-function AtlasLoot:RegisterModuleOptions(name, optFunc, displayName)
-	if not self.optFrames then self:OptionsInitialize() end
-	if moduleOptions[name] then self:RefreshModuleOptions() return end
-	moduleOptions[name] = optFunc
-	self.optFrames[name] = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", displayName or name, "AtlasLoot", name)
-end
-
-function AtlasLoot:OpenModuleOptions(module)
-	LibStub("AceConfigDialog-3.0"):Open("AtlasLoot", nil, module)
-end
-
-function AtlasLoot:RefreshModuleOptions()
-	LibStub("AceConfigRegistry-3.0"):NotifyChange("AtlasLoot")
 end
 
 --
@@ -338,48 +315,4 @@ function AtlasLoot:OptionsHidePanel()
 		AtlasLoot.db.profile.HidePanel = true;
 		AtlasLootPanel:Hide()
 	end
-end
-
-do
-	local Authors = {}
-	local Friends = {}
-	
-	for k,v in pairs(AtlasLoot.AddonInfo.authors) do
-		if v.ingame then
-			for _,name in ipairs(v.ingame) do
-				local a,b = string.split("@", name)
-				if a and b then
-					Authors[a] = b
-				end
-			end
-			v.ingame = nil
-		end
-		if v.friends then
-			for _,name in ipairs(v.friends) do
-				local a,b = string.split("@", name)
-				if a and b then
-					Friends[a] = b
-				end
-			end
-			v.friends = nil
-		end
-	end
-
-	function AtlasLoot:HookUnitTarget()
-		local name = GameTooltip:GetUnit()
-		if UnitName("mouseover") == name then 
-			local _, realm = UnitName("mouseover")
-			if not realm then 
-				realm = GetRealmName()
-			end
-			if name and ( Authors[name] or Friends[name] ) then
-				if Authors[name] == realm then
-					GameTooltip:AddLine("AtlasLoot Author |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
-				elseif Friends[name] == realm then
-					GameTooltip:AddLine("AtlasLoot Friend |T"..AtlasLoot.imagePath.."silver:0|t", 0, 1, 0 )
-				end
-			end
-		end
-	end
-	GameTooltip:HookScript("OnTooltipSetUnit", AtlasLoot.HookUnitTarget)
 end
