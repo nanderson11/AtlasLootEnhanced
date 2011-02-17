@@ -2858,6 +2858,34 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
+		--------------------------
+		--- Level 85 - Misc ---
+		--------------------------
+
+	AtlasLoot_Data["PVP85Misc"] = {
+		["Normal"] = {
+			{
+    			{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "2000 #honor#" },
+    			{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "2000 #honor#" },
+    			{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "2000 #honor#" },
+    			{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "1000 #honor#" },
+    			{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "1000 #honor#" },
+    			{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "1000 #honor#" },
+   				{ 17, 52555, "", "=q1=Hypnotic Dust", "=ds=", "200 #honor#" },
+    			{ 18, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "800 #honor#" },
+    			{ 19, 52721, "", "=q3=Heavenly Shard", "=ds=", "1200 #honor#" },
+    			{ 20, 52976, "", "=q1=Savage Leather", "=ds=", "750 #honor#" },
+    			{ 21, 53010, "", "=q1=Embersilk Cloth", "=ds=", "2500 #honor#" },
+    			{ 22, 52185, "", "=q1=Elementium Ore", "=ds=", "2000 #honor#" },
+    			{ 23, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "3000 #honor#" },
+			};
+		};
+		info = {
+			name = AL["Misc"], "=q5="..AL["Level 85"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
 	--------------------------
 	--- Sets & Collections ---
 	--------------------------
@@ -4613,6 +4641,16 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#w8#", "950 #justice#" },
 				{ 20, 57925, "", "=q3=Shield of the Mists", "=ds=#w8#", "950 #justice#" },
 				extraText = ": "..AL["Accessories"].." & "..AL["Weapons"];
+			};
+			{
+   				{ 2, 52555, "", "=q1=Hypnotic Dust", "=ds=", "200 #justice#" },
+    			{ 3, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "800 #justice#" },
+    			{ 4, 52721, "", "=q3=Heavenly Shard", "=ds=", "1200 #justice#" },
+    			{ 5, 52976, "", "=q1=Savage Leather", "=ds=", "750 #justice#" },
+    			{ 17, 53010, "", "=q1=Embersilk Cloth", "=ds=", "2500 #justice#" },
+    			{ 18, 52185, "", "=q1=Elementium Ore", "=ds=", "2000 #justice#" },
+    			{ 19, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "3000 #justice#" },
+    			extraText = ": "..AL["Other"]
 			};
 		};
 		info = {

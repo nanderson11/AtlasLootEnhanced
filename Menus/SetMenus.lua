@@ -40,9 +40,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "JusticePoints", "inv_chest_robe_dungeonrobe_c_04", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "JusticePoints#3", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
-				{ 4, "JusticePoints#5", "inv_misc_forestnecklace", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
+				{ 5, "JusticePoints#5", "inv_misc_forestnecklace", "=ds="..AL["Accessories"].." & "..AL["Weapons"], ""};
 				{ 17, "JusticePoints#2", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "JusticePoints#4", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
+				{ 20, "JusticePoints#6", "inv_misc_greateressence", "=ds="..AL["Other"], ""};
 			};
 		};
 		info = {
