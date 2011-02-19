@@ -15,7 +15,7 @@ local getOptions
 
 do
  	local function loadAddon(info)
-		--AtlasLoot:
+		AtlasLoot:LoadModule("AtlasLoot")
 	end
 
 	function getOptions()
@@ -65,18 +65,6 @@ function AtlasLoot:OptionsInitialize()
 	self.optFrames.AtlasLoot = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", "AtlasLoot", nil, "general")
 end
 
---- Adds a OptionsSubCat 
--- @param name the name of the option
--- @param optFunc the funtion that returns the options table
--- @param displayName the displayed options name
--- @usage AtlasLoot:RegisterModuleOptions(name, optFunc, displayName)
-function AtlasLoot:RegisterModuleOptions(name, optFunc, displayName)
-	if not self.optFrames then self:OptionsInitialize() end
-	if moduleOptions[name] then self:RefreshModuleOptions() return end
-	moduleOptions[name] = optFunc
-	self.optFrames[name] = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", displayName or name, "AtlasLoot", name)
-end
-
 function AtlasLoot:OpenModuleOptions(module)
 	LibStub("AceConfigDialog-3.0"):Open("AtlasLoot", nil, module)
 end
@@ -119,9 +107,17 @@ do
 			end
 			if name and ( Authors[name] or Friends[name] ) then
 				if Authors[name] == realm then
-					GameTooltip:AddLine("AtlasLoot Author |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
+					if AtlasLoot.imagePath then
+						GameTooltip:AddLine("AtlasLoot Author |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
+					else
+						GameTooltip:AddLine("AtlasLoot Author", 0, 1, 0 )
+					end
 				elseif Friends[name] == realm then
-					GameTooltip:AddLine("AtlasLoot Friend |T"..AtlasLoot.imagePath.."silver:0|t", 0, 1, 0 )
+					if AtlasLoot.imagePath then
+						GameTooltip:AddLine("AtlasLoot Friend |T"..AtlasLoot.imagePath.."silver:0|t", 0, 1, 0 )
+					else
+						GameTooltip:AddLine("AtlasLoot Friend", 0, 1, 0 )
+					end
 				end
 			end
 		end

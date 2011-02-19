@@ -8,7 +8,6 @@
     <Script file="Options.lua"/>
     <Script file="LootButtons.lua"/>
     <Script file="AtlasIntegration.lua"/>
-    <Script file="MiniMap-LDB.lua"/>
 	<Script file="Panel.lua"/>
 	<Script file="QuickLooks.lua"/>
 	<Script file="LootTableSort.lua"/>

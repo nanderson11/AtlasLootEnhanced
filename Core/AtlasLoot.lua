@@ -86,7 +86,7 @@ local AtlasLootDBDefaults = {
 			hide = false,
 		},
         HidePanel = false,
-        AtlasLootVersion = "1",
+        AtlasLootVersion = nil,
         AtlasNaggedVersion = "",
         AutoQuery = false,
         LoadAllLoDStartup = false,
@@ -155,9 +155,10 @@ end
 -----------------------------
 -- Core functions
 -----------------------------
-
+local loaded = false
 -- Initialize all things like Gui, slash commands, saved variables
 function AtlasLoot:OnLoaderLoad()
+	if loaded then return end
     self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
     self.db:RegisterDefaults(AtlasLootDBDefaults);
 	self.chardb = LibStub("AceDB-3.0"):New("AtlasLootCharDB")
@@ -176,25 +177,20 @@ function AtlasLoot:OnLoaderLoad()
 	self:ReplaceOptions()
 	-- Atlas 
 	self:AtlasInitialize()
-	-- MiniMap Button
-	self:MiniMapButtonInitialize()
 	-- QuickLook
 	self:QuickLookInitialize()
 	-- devtools
 	if self.DevToolsInitialize then
 		self:DevToolsInitialize()
 	end
-	-- Bindings
-	BINDING_HEADER_ATLASLOOT_TITLE = AL["AtlasLoot"]
-	BINDING_NAME_ATLASLOOT_TOGGLE = AL["Toggle AtlasLoot"]
 
 
 	--#########
-	-- Default Frame
+	-- Default Frame -- 40301 --
 	--#########
-	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) then
+	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < tonumber(VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES))) then
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
-		AtlasLootCharDB.AutoQuery = false;
+		--AtlasLootCharDB.AutoQuery = false;
 	end
 
 	--If EquipCompare is available, use it
@@ -209,6 +205,7 @@ function AtlasLoot:OnLoaderLoad()
     --if LibStub:GetLibrary("LibAboutPanel", true) then
         --LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
    -- end    
+   loaded = true
 end
 
 do
@@ -826,7 +823,7 @@ function AtlasLoot:GetNextPrevPage(dataID, curPage)
 		curPage = instancePage
 	end
 	
-	if AtlasLoot_Data[dataID][lootTableType] then
+	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID][lootTableType] then
 	
 		tablePages = #AtlasLoot_Data[dataID][lootTableType]
 		
@@ -954,7 +951,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		else
 			self.ItemFrame.Heroic:Disable()
 		end
-	elseif lootTableType == "25ManHeroic" and AtlasLoot_Data[dataID]["25ManHeroic"] then
+	elseif lootTableType == "25ManHeroic" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["25ManHeroic"] then
 		self.ItemFrame.Heroic:Show()
 		self.ItemFrame.Heroic:SetChecked(true)
 		if AtlasLoot_Data[dataID]["25Man"] then
@@ -962,13 +959,13 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		else
 			self.ItemFrame.Heroic:Disable()
 		end
-	elseif lootTableType == "Normal" and AtlasLoot_Data[dataID]["Normal"] then
+	elseif lootTableType == "Normal" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["Normal"] then
 		if AtlasLoot_Data[dataID]["Heroic"] then
 			self.ItemFrame.Heroic:Show()
 			self.ItemFrame.Heroic:SetChecked(false)
 			self.ItemFrame.Heroic:Enable()
 		end
-	elseif lootTableType == "25Man" and AtlasLoot_Data[dataID]["25Man"] then
+	elseif lootTableType == "25Man" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["25Man"] then
 		if AtlasLoot_Data[dataID]["25ManHeroic"] then
 			self.ItemFrame.Heroic:Show()
 			self.ItemFrame.Heroic:SetChecked(false)
@@ -976,10 +973,10 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		end
 	end
 	
-	if ( lootTableType == "Normal" or lootTableType == "Heroic" ) and ( AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"] ) then
+	if ( lootTableType == "Normal" or lootTableType == "Heroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"] ) then
 		self.ItemFrame.Switch:SetText(AL["Show 25 Man Loot"])
 		self.ItemFrame.Switch:Show()
-	elseif ( lootTableType == "25Man" or lootTableType == "25ManHeroic" ) and ( AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"] ) then
+	elseif ( lootTableType == "25Man" or lootTableType == "25ManHeroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"] ) then
 		self.ItemFrame.Switch:SetText(AL["Show 10 Man Loot"])
 		self.ItemFrame.Switch:Show()
 	elseif self.ItemFrame.Switch.changePoint then

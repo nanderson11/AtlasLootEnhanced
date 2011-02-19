@@ -1683,3 +1683,16 @@ AtlasLoot_LootTableRegister = {
 		},
 	},	
 }
+
+AtlasLoot_LootTableRegister["Instances"]["EmptyPage"] = {
+	["Bosses"] = {{"EmptyPage"}},
+	["Info"] = { "EmptyPage" },
+}
+
+AtlasLoot_Data["EmptyPage"] = {
+	["Normal"] = {{}};
+	info = {
+		name = "EmptyPage",
+		instance = "EmptyPage",
+	};
+}

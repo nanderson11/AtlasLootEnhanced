@@ -278,6 +278,7 @@ end
 	
 	
 function Filter:OnInitialize()
+	if not AtlasLoot.db then AtlasLoot:OnLoaderLoad() end
 	self.db = AtlasLoot.db:RegisterNamespace(MODULENAME, dbDefaults)
 	db = self.db.profile
 	AtlasLoot:RegisterModuleOptions(MODULENAME, getOptions, AL["Filter"])

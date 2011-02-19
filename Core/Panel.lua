@@ -236,11 +236,12 @@ do
 		end
 		-- Check if we need a new ButtonLine
 		curWidthButtonList = curWidthButtonList + ButtonFrame:GetWidth()
-		if curWidthButtonList > panelMaxWidth then
+		if curWidthButtonList > panelMaxWidth+5 then
 			curWidthButtonList = 0
 			startNewLine = true
 			curLineButtonList = curLineButtonList + 1
 			curLinePosButtonList = curLinePosButtonList - 22
+			ButtonFrame:Hide()
 			CreateLootTableButton(frame, info)
 			return
 		end

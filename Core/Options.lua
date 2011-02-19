@@ -43,7 +43,7 @@ do
 								name = "",
 								order = 10,
 								args = {
-									LoadAllLoDStartup = {
+									--[[LoadAllLoDStartup = {
 										type = "toggle",
 										name = AL["Load Loot Modules at Startup"],
 										--desc = ,
@@ -51,13 +51,13 @@ do
 										get = getOpt,
 										set = setOpt,
 										width = "full",
-									},
+									},]]
 									HideMiniMapButton = {
 										type = "toggle",
 										name = AL["Minimap Button"],
 										--desc = ,
 										order = 20,
-										get = function() return not AtlasLoot.db.profile.MiniMapButton.hide end,
+										get = function() return not AtlasLootLoaderDB.MiniMapButton.hide end,
 										set = AtlasLoot.MiniMapButtonHideShow,
 									},
 									
@@ -285,6 +285,18 @@ function AtlasLoot:ReplaceOptions()
 
 	self:RegisterModuleOptions("Profiles", LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db), AL["Profiles"])
 	self.optFrames.Help = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", AL["Help"], "AtlasLoot", "Help")
+end
+
+--- Adds a OptionsSubCat 
+-- @param name the name of the option
+-- @param optFunc the funtion that returns the options table
+-- @param displayName the displayed options name
+-- @usage AtlasLoot:RegisterModuleOptions(name, optFunc, displayName)
+function AtlasLoot:RegisterModuleOptions(name, optFunc, displayName)
+	if not self.optFrames then self:OptionsInitialize() end
+	if moduleOptions[name] then self:RefreshModuleOptions() return end
+	moduleOptions[name] = optFunc
+	self.optFrames[name] = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("AtlasLoot", displayName or name, "AtlasLoot", name)
 end
 
 --

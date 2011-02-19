@@ -8,6 +8,8 @@ Functions:
 ]]
 AtlasLoot = LibStub("AceAddon-3.0"):NewAddon("AtlasLoot")
 
+AtlasLootLoaderDB = {}
+
 --Instance required libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
@@ -23,7 +25,10 @@ AtlasLoot.Modules = {
 
 
 function AtlasLoot:OnInitialize()
+	--@debug@ 
 	self:OnLoaderLoad()
+	--@end-debug@
+	
 	-- Warning if AtlasLootFu is enabled
 	local _, _, _, enabled, _, reason = GetAddOnInfo("AtlasLootFu")
 	if enabled or reason == "DISABLED" then
@@ -38,8 +43,22 @@ function AtlasLoot:OnInitialize()
 		StaticPopup_Show("ATLASLOOT_FU_ERROR")
 	end
 	
+	if not AtlasLootLoaderDB.MiniMapButton then
+		AtlasLootLoaderDB.MiniMapButton = {
+			hide = false,
+		}
+	end
+	
+	-- Bindings
+	BINDING_HEADER_ATLASLOOT_TITLE = AL["AtlasLoot"]
+	BINDING_NAME_ATLASLOOT_TOGGLE = AL["Toggle AtlasLoot"]
+	
 	-- Slash /al 
 	self:CreateSlash()
+	-- Options
+	self:OptionsInitialize()
+	-- MiniMap Button
+	self:MiniMapButtonInitialize()
 	
 	
 end
@@ -47,6 +66,7 @@ end
 
 local allLoaded = false
 local spamProtect = {}
+local atlasLootIsLoaded = false
 
 --- Loads a AtlasLoot module
 -- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCataclysm, AtlasLootCrafting, AtlasLootWorldEvents, all
@@ -55,6 +75,14 @@ function AtlasLoot:LoadModule(module)
 	if not module then return end
 	if allLoaded then return true end
 	local loadedRET,reasonRET = true, ""
+	if module == "AtlasLoot" or not atlasLootIsLoaded then
+		if not IsAddOnLoaded(module) then
+			LoadAddOn("AtlasLoot")
+			self:OnLoaderLoad()
+			atlasLootIsLoaded = true
+		end
+		return loadedRET, reasonRET
+	end
 	
 	for k,v in ipairs(self.Modules) do
 		if not self.Modules[k][3] then
@@ -95,15 +123,16 @@ function AtlasLoot:LoadModule(module)
 				checkVal = false
 				break
 			end
-			if checkVal == true then
-				allLoaded = true
-			end
+		end
+		if checkVal == true then
+			allLoaded = true
 		end
 	end
 	if allLoaded then
 		AtlasLoot_InstanceList_Loader = nil
 		collectgarbage("collect")
 		loadedRET = true
+		reasonRET = nil
 	end
 	return loadedRET,reasonRET
 end
@@ -111,7 +140,8 @@ end
 -- This only loads the AtlasLoot Core
 -- After first call this function is replaced
 function AtlasLoot:SlashCommand(msg)
-	
+	self:LoadModule("AtlasLoot")
+	self:SlashCommand(msg)
 end
 
 -- Create the Slashs /al and /atlasloot
@@ -140,3 +170,23 @@ function AtlasLoot:CheckDataID(dataID)
 		return false, "MISSING"
 	end
 end
+
+function AtlasLoot:CheckModule(module)
+	if allLoaded then return true end
+	for k,v in ipairs(self.Modules) do
+		if v[1] == module or v[2] == module then
+			local name, title, notes, enabled, loadable, reason, security = GetAddOnInfo(v[2])
+			if IsAddOnLoaded(v[2]) then
+				return true
+			else
+				return reason
+			end
+		end
+	end
+end
+
+--@debug@ 
+function AtlasLoot:CheckModule(module)
+	return true
+end
+--@end-debug@

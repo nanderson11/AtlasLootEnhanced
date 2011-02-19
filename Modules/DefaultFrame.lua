@@ -71,6 +71,7 @@ end
 	
 
 function DefaultFrame:OnInitialize()
+	if not AtlasLoot.db then AtlasLoot:OnLoaderLoad() end
 	self.db = AtlasLoot.db:RegisterNamespace(MODULENAME, dbDefaults)
 	db = self.db.profile
 	
@@ -303,7 +304,7 @@ do
 		Frame.InstanceSelect.Text:SetPoint("BOTTOMLEFT", Frame.InstanceSelect, "TOPLEFT", 21, 0)
 		Frame.InstanceSelect.Text:SetText(AL["Select Instance"])
 		
-
+		Frame:Hide()
 	end
 
 end
@@ -323,7 +324,7 @@ function DefaultFrame:ModuleSelect_Initialize()
 	wipe(info)	
 	
 	for num,module in ipairs(AtlasLoot.Modules) do
-		if module[1] ~= "AtlasLootCrafting" and module[1] ~= "AtlasLootWorldEvents" then
+		if module[1] ~= "AtlasLootCrafting" and module[1] ~= "AtlasLootWorldEvents" and type(AtlasLoot:CheckModule(module[1])) ~= "string" then
 			info.text = module[5]
 			info.value = module[1]
 			info.func = DefaultFrame.ModuleSelect_OnClick
@@ -388,9 +389,9 @@ function DefaultFrame:SetInstanceTable()
 	curInstance = AtlasLoot:GetTableRegister(db.instance)
 	if not curInstance then
 		--print("ERROR: DefaultFrame:SetInstanceTable() <-->"..db.instance.." <--> "..db.module)
-		curInstance = AtlasLoot:GetTableRegister(dbDefaults.profile.instance)
-		db.instance = dbDefaults.profile.instance
-		db.module = dbDefaults.profile.module
+		curInstance = AtlasLoot:GetTableRegister("EmptyPage")
+		db.instance = "EmptyPage"
+		db.module = "EmptyPage"
 		DefaultFrame:DropDownRefresh()
 	end
 	local iniName = curInstance["Info"][1]

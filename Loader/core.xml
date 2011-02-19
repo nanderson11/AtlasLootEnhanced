@@ -5,4 +5,5 @@
 	<Script file="AtlasLoot_Loader.lua"/>
 	<Script file="Info.lua"/>
 	<Script file="Options.lua"/>
+	<Script file="MiniMap-LDB.lua"/>
 </Ui>

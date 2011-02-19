@@ -60,10 +60,13 @@ ignore:
 	- Core/DEVTOOLS.lua
 	- Loader/Libs/LibDataBroker-1.1
 	- save.txt
+	- AtlasLoot.toc
 	
 move-folders:
-	AtlasLoot/Locales: AtlasLoot/Loader/Locales
+	AtlasLoot/AtlasLootRELEASE.toc: AtlasLoot/AtlasLoot.toc
 	AtlasLoot/Loader: AtlasLoot_Loader
+	AtlasLoot/Locales: AtlasLoot_Loader/Locales
+	AtlasLoot/Bindings.xml: AtlasLoot_Loader/Bindings.xml
     AtlasLoot/LootTableModules/BurningCrusade: AtlasLoot_BurningCrusade
 	AtlasLoot/LootTableModules/Cataclysm: AtlasLoot_Cataclysm
     AtlasLoot/LootTableModules/Crafting: AtlasLoot_Crafting
