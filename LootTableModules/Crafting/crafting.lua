@@ -6293,15 +6293,17 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 24, "s75260", "54479", "=q3=Spiritmend Shoulders", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
 				{ 25, "s75259", "54480", "=q2=Spiritmend Bracers", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
 				{ 26, "s75258", "54481", "=q2=Spiritmend Belt", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
-				{ 27, "s75257", "54475", "=q3=Deathsilk Robe", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
-				{ 28, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
-				{ 29, "s75254", "54472", "=q2=Deathsilk Leggings", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
-				{ 30, "s75252", "54477", "=q2=Deathsilk Boots", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 27, "s75256", "54476", "=q2=Deathsilk Cowl", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
+				{ 28, "s75257", "54475", "=q3=Deathsilk Robe", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
+				{ 29, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
+				{ 30, "s75254", "54472", "=q2=Deathsilk Leggings", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s75249", "54473", "=q2=Deathsilk Bracers", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
-				{ 2, "s75248", "54471", "=q2=Deathsilk Belt", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
-				{ 3, "s75288", "54441", "=q1=Black Embersilk Gown", "=ds=#sr# 500", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 1, "s75251", "54474", "=q2=Deathsilk Shoulders", "=ds=#sr# 455", "=ds="..AL["Trainer"] };
+				{ 2, "s75252", "54477", "=q2=Deathsilk Boots", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 3, "s75249", "54473", "=q2=Deathsilk Bracers", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 4, "s75248", "54471", "=q2=Deathsilk Belt", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 5, "s75288", "54441", "=q1=Black Embersilk Gown", "=ds=#sr# 500", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
 			};
 		};
 		info = {
