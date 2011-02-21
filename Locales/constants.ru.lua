@@ -22,6 +22,12 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	
+	-- Loader
+	AL["Load AtlasLoot"] = "Загрузить AtlasLoot";
+	AL["Module \"%s\" is disabled."] = "Модуль \"%s\" отключен.";
+	AL["Module \"%s\" is missing."] = "Модуль \"%s\" отсутствует.";
+
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu больше не используется.\nУдалите его из вашей папик модификаций";
 
@@ -482,6 +488,7 @@ if AL then
 	AL["Blizzcon"] = "Blizzcon";
 	AL["WoW Anniversary Celebration"] = "Юбелей WoW";
 	AL["Daily Reward"] = "Награды за эжедн. задания";
+	AL["No Longer Available"] = "Больше не доступно";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "Classic WoW";
@@ -550,6 +557,7 @@ if AL then
 	AL["Low Level"] = "Низкого уровня";
 	AL["High Level"] = "Высокого уровня";
 	AL["Rare"] = "Редкий";
+	AL["Specializations"] = "Специализации";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Уровни 30-39";
@@ -612,6 +620,7 @@ if AL then
 	AL["Stats"] = "Статистика";
 	AL["Resilience"] = "Устойчивость";
 	AL["Professions"] = "Профессии";
+	AL["Damage"] = "Урон";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
