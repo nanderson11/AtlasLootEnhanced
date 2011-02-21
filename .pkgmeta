@@ -67,9 +67,9 @@ move-folders:
 	AtlasLoot/Loader: AtlasLoot_Loader
 	AtlasLoot/Locales: AtlasLoot_Loader/Locales
 	AtlasLoot/Bindings.xml: AtlasLoot_Loader/Bindings.xml
-    AtlasLoot/LootTableModules/BurningCrusade: AtlasLoot_BurningCrusade
+	AtlasLoot/LootTableModules/BurningCrusade: AtlasLoot_BurningCrusade
 	AtlasLoot/LootTableModules/Cataclysm: AtlasLoot_Cataclysm
-    AtlasLoot/LootTableModules/Crafting: AtlasLoot_Crafting
-    AtlasLoot/LootTableModules/ClassicWoW: AtlasLoot_ClassicWoW
-    AtlasLoot/LootTableModules/WorldEvents: AtlasLoot_WorldEvents
-    AtlasLoot/LootTableModules/WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
+	AtlasLoot/LootTableModules/Crafting: AtlasLoot_Crafting
+	AtlasLoot/LootTableModules/ClassicWoW: AtlasLoot_ClassicWoW
+	AtlasLoot/LootTableModules/WorldEvents: AtlasLoot_WorldEvents
+	AtlasLoot/LootTableModules/WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
