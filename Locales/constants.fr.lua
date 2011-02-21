@@ -23,6 +23,12 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+
+	-- Loader
+	AL["Load AtlasLoot"] = "Charger AtlasLoot";
+	AL["Module \"%s\" is disabled."] = "Le module \"%s\" est désactivé.";
+	AL["Module \"%s\" is missing."] = "Le module \"%s\" est manquant.";
+
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu n'est plus utilisé.\nVeuillez le supprimer de votre dossier AddOns.";
 
