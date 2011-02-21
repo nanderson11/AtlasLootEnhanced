@@ -22,6 +22,12 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+
+	-- Loader
+	AL["Load AtlasLoot"] = "載入 AtlasLoot";
+	AL["Module \"%s\" is disabled."] = "\"%s\" 模組已停用.";
+	AL["Module \"%s\" is missing."] = "找不到 \"%s\" 模組.";
+
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu 已不再包含在 AtlasLoot 裡, \n請將其從 Addons 目錄移除.";
 
@@ -482,6 +488,7 @@ if AL then
 	AL["Blizzcon"] = "Blizzcon";
 	AL["WoW Anniversary Celebration"] = "魔獸世界週年慶典";
 	AL["Daily Reward"] = "每日獎勵";
+	AL["No Longer Available"] = "已不存在.";
 
 	--Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "原始的魔獸世界";
@@ -550,6 +557,7 @@ if AL then
 	AL["Low Level"] = "較低等級";
 	AL["High Level"] = "較高等級";
 	AL["Rare"] = "稀有";
+	AL["Specializations"] = "專業"; -- needs review
 
 	--Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";
@@ -612,6 +620,7 @@ if AL then
 	AL["Stats"] = "屬性";
 	AL["Resilience"] = "韌性";
 	AL["Professions"] = "專業技能";
+	AL["Damage"] = "傷害";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
@@ -1030,7 +1039,7 @@ if AL then
 	AL["Aeonaxx"] = "艾歐納克斯";
 	AL["Prince Sarsarun"] = "薩爾撒倫王子";
 	AL["Highlord Kruul"] = "卡魯歐大領主"; -- added until decided if the set gets removed
---	AL["Dormus the Camel-Hoarder"] = true;
+	AL["Dormus the Camel-Hoarder"] = "『駱駝囤積者』多姆斯";
 	AL["The Behemoth"] = "貝希摩斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
 
