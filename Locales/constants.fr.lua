@@ -195,6 +195,8 @@ if AL then
 	AL["Show Price"] = "Afficher le prix";
 	AL["Skill"] = "Talent";
 	AL["Location"] = "Lieu";
+	--AL["ilvl 359"] = true;
+	--AL["ilvl 372"] = true;
 
 	-- #######################################
 	-- UI things END
