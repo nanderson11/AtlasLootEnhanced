@@ -40,54 +40,31 @@ local moduleName = "AtlasLoot_WorldEvents"
 		-------------------------
 
 	AtlasLoot_Data["ArgentTournament"] = {
-		["Normal"] = {
+		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 				{ 2, 45714, "", "=q2=Darnassus Commendation Badge", "=ds=1 #champwrit#"};
 				{ 3, 45715, "", "=q2=Exodar Commendation Badge", "=ds=1 #champwrit#"};
 				{ 4, 45716, "", "=q2=Gnomeregan Commendation Badge", "=ds=1 #champwrit#"};
 				{ 5, 45717, "", "=q2=Ironforge Commendation Badge", "=ds=1 #champwrit#"};
 				{ 6, 45718, "", "=q2=Stormwind Commendation Badge", "=ds=1 #champwrit#"};
-				{ 15, 46114, "", "=q1=Champion's Writ", "=ds=#m17#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45719, "", "=q2=Orgrimmar Commendation Badge", "=ds=1 #champwrit#"};
-				{ 18, 45723, "", "=q2=Undercity Commendation Badge", "=ds=1 #champwrit#"};
-				{ 19, 45722, "", "=q2=Thunder Bluff Commendation Badge", "=ds=1 #champwrit#"};
-				{ 20, 45720, "", "=q2=Sen'jin Commendation Badge", "=ds=1 #champwrit#"};
-				{ 21, 45721, "", "=q2=Silvermoon Commendation Badge", "=ds=1 #champwrit#"};
-			};
-			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-				{ 2, 45021, "", "=q1=Darnassus Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 3, 45020, "", "=q1=Exodar Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 4, 45019, "", "=q1=Gnomeregan Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 5, 45018, "", "=q1=Ironforge Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 6, 45011, "", "=q1=Stormwind Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 7, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 8, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 9, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 10, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 11, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 12, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 8, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 9, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 10, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 14, 46114, "", "=q1=Champion's Writ", "=ds=#m17#"};
 				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45014, "", "=q1=Orgrimmar Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 18, 45016, "", "=q1=Undercity Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 19, 45013, "", "=q1=Thunder Bluff Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 20, 45015, "", "=q1=Sen'jin Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 21, 45017, "", "=q1=Silvermoon City Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 22, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 23, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 24, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 25, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 26, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 27, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#", "50 #champseal#"};
-				{ 28, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-				{ 29, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "15 #champseal#"};
-				{ 30, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 17, 45021, "", "=q1=Darnassus Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 18, 45020, "", "=q1=Exodar Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 19, 45019, "", "=q1=Gnomeregan Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 20, 45018, "", "=q1=Ironforge Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 21, 45011, "", "=q1=Stormwind Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 22, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 23, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 24, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 25, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 26, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 27, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#", "50 #champseal#"};
 			};
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 				{ 2, 45156, "", "=q3=Sash of Shattering Hearts", "=ds=#s10#, #a1#", "10 #champseal#" };
 				{ 3, 45181, "", "=q3=Wrap of the Everliving Tree", "=ds=#s10#, #a2#", "10 #champseal#" };
 				{ 4, 45159, "", "=q3=Treads of Nimble Evasion", "=ds=#s12#, #a2#", "10 #champseal#" };
@@ -101,88 +78,37 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 12, 45154, "", "=q3=Necklace of Valiant Blood", "=ds=#s2#", "10 #champseal#" };
 				{ 13, 45152, "", "=q3=Pendant of Azure Dreams", "=ds=#s2#", "10 #champseal#" };
 				{ 14, 45131, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
-				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45209, "", "=q3=Sash of Trumpeted Pride", "=ds=#s10#, #a1#", "10 #champseal#" };
-				{ 18, 45211, "", "=q3=Waistguard of Equine Fury", "=ds=#s10#, #a2#", "10 #champseal#" };
-				{ 19, 45220, "", "=q3=Treads of the Earnest Squire", "=ds=#s12#, #a2#", "10 #champseal#" };
-				{ 20, 45215, "", "=q3=Links of Unquenched Savagery", "=ds=#s10#, #a3#", "10 #champseal#" };
-				{ 21, 45221, "", "=q3=Treads of Whispering Dreams", "=ds=#s12#, #a3#", "10 #champseal#" };
-				{ 22, 45216, "", "=q3=Gauntlets of Mending Touch", "=ds=#s9#, #a4#", "10 #champseal#" };
-				{ 23, 45217, "", "=q3=Clinch of Savage Fury", "=ds=#s10#, #a4#", "10 #champseal#" };
-				{ 24, 45218, "", "=q3=Blood-Caked Stompers", "=ds=#s12#, #a4#", "10 #champseal#" };
-				{ 25, 45206, "", "=q3=Choker of Feral Fury", "=ds=#s2#", "10 #champseal#" };
-				{ 26, 45207, "", "=q3=Necklace of Stolen Skulls", "=ds=#s2#", "10 #champseal#" };
-				{ 27, 45213, "", "=q3=Pendant of Emerald Crusader", "=ds=#s2#", "10 #champseal#" };
-				{ 28, 45223, "", "=q3=Razor's Edge Pendant", "=ds=#s2#", "10 #champseal#" };
-				{ 29, 45219, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
+				{ 17, 45078, "", "=q4=Dagger of Lunar Purity", "=ds=#h3#, #w4#", "25 #champseal#" };
+				{ 18, 45077, "", "=q4=Dagger of the Rising Moon", "=ds=#h1#, #w4#", "25 #champseal#" };
+				{ 19, 45129, "", "=q4=Gnomeregan Bonechopper", "=ds=#h3#, #w10#", "25 #champseal#" };
+				{ 20, 45074, "", "=q4=Claymore of the Prophet", "=ds=#h2#, #w10#", "25 #champseal#" };
+				{ 21, 45076, "", "=q4=Teldrassil Protector", "=ds=#h1#, #w1#", "25 #champseal#" };
+				{ 22, 45075, "", "=q4=Ironforge Smasher", "=ds=#h1#, #w6#", "25 #champseal#" };
+				{ 23, 45128, "", "=q4=Silvery Sylvan Stave", "=ds=#w9#", "25 #champseal#" };
+				{ 24, 45130, "", "=q4=Blunderbuss of Khaz Modan", "=ds=#w5#", "25 #champseal#" };
+				{ 26, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
 			};
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-				{ 2, 45078, "", "=q4=Dagger of Lunar Purity", "=ds=#h3#, #w4#", "25 #champseal#" };
-				{ 3, 45077, "", "=q4=Dagger of the Rising Moon", "=ds=#h1#, #w4#", "25 #champseal#" };
-				{ 4, 45129, "", "=q4=Gnomeregan Bonechopper", "=ds=#h3#, #w10#", "25 #champseal#" };
-				{ 5, 45074, "", "=q4=Claymore of the Prophet", "=ds=#h2#, #w10#", "25 #champseal#" };
-				{ 6, 45076, "", "=q4=Teldrassil Protector", "=ds=#h1#, #w1#", "25 #champseal#" };
-				{ 7, 45075, "", "=q4=Ironforge Smasher", "=ds=#h1#, #w6#", "25 #champseal#" };
-				{ 8, 45128, "", "=q4=Silvery Sylvan Stave", "=ds=#w9#", "25 #champseal#" };
-				{ 9, 45130, "", "=q4=Blunderbuss of Khaz Modan", "=ds=#w5#", "25 #champseal#" };
-				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45214, "", "=q4=Scalpel of the Royal Apothecary", "=ds=#h3#, #w4#", "25 #champseal#" };
-				{ 18, 45222, "", "=q4=Spinal Destroyer", "=ds=#h1#, #w4#", "25 #champseal#" };
-				{ 19, 45208, "", "=q4=Blade of the Keening Banshee", "=ds=#h3#, #w10#", "25 #champseal#" };
-				{ 20, 45205, "", "=q4=Greatsword of the Sin'dorei", "=ds=#h2#, #w10#", "25 #champseal#" };
-				{ 21, 45204, "", "=q4=Axe of the Sen'jin Protector", "=ds=#h1#, #w1#", "25 #champseal#" };
-				{ 22, 45203, "", "=q4=Grimhorn Crusher", "=ds=#h1#, #w6#", "25 #champseal#" };
-				{ 23, 45212, "", "=q4=Staff of Feral Furies", "=ds=#w9#", "25 #champseal#" };
-				{ 24, 45210, "", "=q4=Sen'jin Beakblade Longrifle", "=ds=#w5#", "25 #champseal#" };
-			};
-			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
 				{ 2, 44998, "", "=q3=Argent Squire", "=ds=#m4#"};
-				{ 4, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#", "40 #champseal#"};
-				{ 5, 44965, "", "=q3=Teldrassil Sproutling", "=ds=#e13#", "40 #champseal#"};
-				{ 6, 44970, "", "=q3=Dun Morogh Cub", "=ds=#e13#", "40 #champseal#"};
-				{ 7, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#", "40 #champseal#"};
-				{ 8, 45002, "", "=q3=Mechanopeep", "=ds=#e13#", "40 #champseal#"};
-				{ 9, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
-				{ 11, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-				{ 12, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
+				{ 3, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#", "40 #champseal#"};
+				{ 4, 44965, "", "=q3=Teldrassil Sproutling", "=ds=#e13#", "40 #champseal#"};
+				{ 5, 44970, "", "=q3=Dun Morogh Cub", "=ds=#e13#", "40 #champseal#"};
+				{ 6, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#", "40 #champseal#"};
+				{ 7, 45002, "", "=q3=Mechanopeep", "=ds=#e13#", "40 #champseal#"};
+				{ 8, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
+				{ 10, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
 				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45022, "", "=q3=Argent Gruntling", "=ds=#m4#"};
-				{ 19, 44980, "", "=q3=Mulgore Hatchling", "=ds=#e13#", "40 #champseal#"};
-				{ 20, 45606, "", "=q3=Sen'jin Fetish", "=ds=#e13#", "40 #champseal#"};
-				{ 21, 44971, "", "=q3=Tirisfal Batling", "=ds=#e13#", "40 #champseal#"};
-				{ 22, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#", "40 #champseal#"};
-				{ 23, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "40 #champseal#"};
-				{ 24, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
-			};
-			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-				{ 2, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e26#", "100 #champseal#"};
-				{ 3, 45590, "", "=q4=Exodar Elekk", "=ds=#e26#", "100 #champseal#"};
-				{ 4, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e26#", "100 #champseal#"};
-				{ 5, 45586, "", "=q4=Ironforge Ram", "=ds=#e26#", "100 #champseal#"};
-				{ 6, 45125, "", "=q4=Stormwind Steed", "=ds=#e26#", "100 #champseal#"};
-				{ 8, 46745, "", "=q4=Great Red Elekk", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 9, 46752, "", "=q4=Swift Gray Steed", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 10, 46744, "", "=q4=Swift Moonsaber", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 11, 46748, "", "=q4=Swift Violet Ram", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 12, 46747, "", "=q4=Turbostrider", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e26#", "100 #champseal#"};
-				{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e26#", "100 #champseal#"};
-				{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e26#", "100 #champseal#"};
-				{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e26#", "100 #champseal#"};
-				{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e26#", "100 #champseal#"};
-				{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 17, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e26#", "100 #champseal#"};
+				{ 18, 45590, "", "=q4=Exodar Elekk", "=ds=#e26#", "100 #champseal#"};
+				{ 19, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e26#", "100 #champseal#"};
+				{ 20, 45586, "", "=q4=Ironforge Ram", "=ds=#e26#", "100 #champseal#"};
+				{ 21, 45125, "", "=q4=Stormwind Steed", "=ds=#e26#", "100 #champseal#"};
+				{ 22, 46745, "", "=q4=Great Red Elekk", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 23, 46752, "", "=q4=Swift Gray Steed", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 24, 46744, "", "=q4=Swift Moonsaber", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 25, 46748, "", "=q4=Swift Violet Ram", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 26, 46747, "", "=q4=Turbostrider", "=ds=#e26#", "500 #gold# 5 #champseal#"};
 			};
 			{
 				{ 1, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=ec1=#m7#"};
@@ -197,6 +123,99 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 17, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#", "100 #champseal#"};
 				{ 18, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "150 #champseal#"};
 			};
+		};
+		["Normal_H"] = {
+			{
+				{ 2, 45719, "", "=q2=Orgrimmar Commendation Badge", "=ds=1 #champwrit#"};
+				{ 3, 45723, "", "=q2=Undercity Commendation Badge", "=ds=1 #champwrit#"};
+				{ 4, 45722, "", "=q2=Thunder Bluff Commendation Badge", "=ds=1 #champwrit#"};
+				{ 5, 45720, "", "=q2=Sen'jin Commendation Badge", "=ds=1 #champwrit#"};
+				{ 6, 45721, "", "=q2=Silvermoon Commendation Badge", "=ds=1 #champwrit#"};
+				{ 8, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 9, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 10, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 14, 46114, "", "=q1=Champion's Writ", "=ds=#m17#"};
+				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
+				{ 17, 45014, "", "=q1=Orgrimmar Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 18, 45016, "", "=q1=Undercity Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 19, 45013, "", "=q1=Thunder Bluff Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 20, 45015, "", "=q1=Sen'jin Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 21, 45017, "", "=q1=Silvermoon City Banner", "=ds=#e14#", "15 #champseal#"};
+				{ 22, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 23, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 24, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 25, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 26, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "50 #champseal#"};
+				{ 27, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#", "50 #champseal#"};
+			};
+			{
+				{ 2, 45209, "", "=q3=Sash of Trumpeted Pride", "=ds=#s10#, #a1#", "10 #champseal#" };
+				{ 3, 45211, "", "=q3=Waistguard of Equine Fury", "=ds=#s10#, #a2#", "10 #champseal#" };
+				{ 4, 45220, "", "=q3=Treads of the Earnest Squire", "=ds=#s12#, #a2#", "10 #champseal#" };
+				{ 5, 45215, "", "=q3=Links of Unquenched Savagery", "=ds=#s10#, #a3#", "10 #champseal#" };
+				{ 6, 45221, "", "=q3=Treads of Whispering Dreams", "=ds=#s12#, #a3#", "10 #champseal#" };
+				{ 7, 45216, "", "=q3=Gauntlets of Mending Touch", "=ds=#s9#, #a4#", "10 #champseal#" };
+				{ 8, 45217, "", "=q3=Clinch of Savage Fury", "=ds=#s10#, #a4#", "10 #champseal#" };
+				{ 9, 45218, "", "=q3=Blood-Caked Stompers", "=ds=#s12#, #a4#", "10 #champseal#" };
+				{ 10, 45206, "", "=q3=Choker of Feral Fury", "=ds=#s2#", "10 #champseal#" };
+				{ 11, 45207, "", "=q3=Necklace of Stolen Skulls", "=ds=#s2#", "10 #champseal#" };
+				{ 12, 45213, "", "=q3=Pendant of Emerald Crusader", "=ds=#s2#", "10 #champseal#" };
+				{ 13, 45223, "", "=q3=Razor's Edge Pendant", "=ds=#s2#", "10 #champseal#" };
+				{ 14, 45219, "", "=q3=Jouster's Fury", "=ds=#s14#", "10 #champseal#" };
+				{ 17, 45214, "", "=q4=Scalpel of the Royal Apothecary", "=ds=#h3#, #w4#", "25 #champseal#" };
+				{ 18, 45222, "", "=q4=Spinal Destroyer", "=ds=#h1#, #w4#", "25 #champseal#" };
+				{ 19, 45208, "", "=q4=Blade of the Keening Banshee", "=ds=#h3#, #w10#", "25 #champseal#" };
+				{ 20, 45205, "", "=q4=Greatsword of the Sin'dorei", "=ds=#h2#, #w10#", "25 #champseal#" };
+				{ 21, 45204, "", "=q4=Axe of the Sen'jin Protector", "=ds=#h1#, #w1#", "25 #champseal#" };
+				{ 22, 45203, "", "=q4=Grimhorn Crusher", "=ds=#h1#, #w6#", "25 #champseal#" };
+				{ 23, 45212, "", "=q4=Staff of Feral Furies", "=ds=#w9#", "25 #champseal#" };
+				{ 24, 45210, "", "=q4=Sen'jin Beakblade Longrifle", "=ds=#w5#", "25 #champseal#" };
+				{ 26, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
+			};
+			{
+				{ 2, 45022, "", "=q3=Argent Gruntling", "=ds=#m4#"};
+				{ 3, 44980, "", "=q3=Mulgore Hatchling", "=ds=#e13#", "40 #champseal#"};
+				{ 4, 45606, "", "=q3=Sen'jin Fetish", "=ds=#e13#", "40 #champseal#"};
+				{ 5, 44971, "", "=q3=Tirisfal Batling", "=ds=#e13#", "40 #champseal#"};
+				{ 6, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#", "40 #champseal#"};
+				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "40 #champseal#"};
+				{ 8, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "40 #champseal#"};
+				{ 10, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "150 #champseal#"};
+				{ 15, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
+				{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e26#", "100 #champseal#"};
+				{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e26#", "100 #champseal#"};
+				{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e26#", "100 #champseal#"};
+				{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e26#", "100 #champseal#"};
+				{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e26#", "100 #champseal#"};
+				{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+				{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e26#", "500 #gold# 5 #champseal#"};
+			};
+			{
+				{ 2, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=ec1=#m7#"};
+				{ 3, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#", "100 #champseal#"};
+				{ 4, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#", "150 #champseal#"};
+				{ 6, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
+				{ 7, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "100 #champseal#"};
+				{ 8, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "100 #champseal#"};
+				{ 9, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "150 #champseal#"};
+				{ 17, 0, "inv_misc_tabardpvp_02", "=q6="..BabbleFaction["The Sunreavers"], "=ec1=#m6#"};
+				{ 18, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#", "100 #champseal#"};
+				{ 19, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "150 #champseal#"};
+				{ 21, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
+			};
+		};
+		info = {
+			name = AL["Argent Tournament"],
+			module = moduleName, menu = "ARGENTMENU",
+		};
+	};
+
+	AtlasLoot_Data["ATHeirlooms"] = {
+		["Normal"] = {
 			{
 				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#",  "60 #champseal#"};
 				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "60 #champseal#"};
@@ -204,23 +223,23 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "60 #champseal#"};
 				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "60 #champseal#"};
 				{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "60 #champseal#"};
-				{ 8, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "75 #champseal#"};
-				{ 9, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "75 #champseal#"};
-				{ 11, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
-				{ 16, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "60 #champseal#"};
-				{ 17, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "60 #champseal#"};
-				{ 18, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "60 #champseal#"};
-				{ 19, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "60 #champseal#"};
-				{ 20, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "60 #champseal#"};
-				{ 21, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "60 #champseal#"};
-				{ 23, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "60 #champseal#"};
-				{ 24, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "60 #champseal#"};
-				{ 25, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "95 #champseal#"};
-				{ 26, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "75 #champseal#"};
-				{ 27, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "75 #champseal#"};
-				{ 28, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "95 #champseal#"};
-				{ 29, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "95 #champseal#"};
-				{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "95 #champseal#"};
+				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "60 #champseal#"};
+				{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "60 #champseal#"};
+				{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "60 #champseal#"};
+				{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "60 #champseal#"};
+				{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "60 #champseal#"};
+				{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "60 #champseal#"};
+				{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "75 #champseal#"};
+				{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "75 #champseal#"};
+				{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "60 #champseal#"};
+				{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "60 #champseal#"};
+				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "95 #champseal#"};
+				{ 22, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "75 #champseal#"};
+				{ 23, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "75 #champseal#"};
+				{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "95 #champseal#"};
+				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "95 #champseal#"};
+				{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "95 #champseal#"};
+				{ 28, 44990, "", "=q1=Champion's Seal", "=ds=#m17#"};
 			};
 		};
 		info = {
@@ -575,13 +594,13 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["HarvestFestival"] = {
 		["Normal"] = {
 			{
-				{ 1, 19697, "", "=q1=Bounty of the Harvest", "=q1=#m4#: =ds=#m20#"};
-				{ 2, 20009, "", "=q1=For the Light!", "=q1=#m4#: =ds=#e10# =ec1=#m7#"};
-				{ 3, 20010, "", "=q1=The Horde's Hellscream", "=q1=#m4#: =ds=#e10# =ec1=#m6#"};
-				{ 5, 19995, "", "=q1=Harvest Boar", "=ds=#e3#"};
-				{ 6, 19996, "", "=q1=Harvest Fish", "=ds=#e3#"};
-				{ 7, 19994, "", "=q1=Harvest Fruit", "=ds=#e3#"};
-				{ 8, 19997, "", "=q1=Harvest Nectar", "=ds=#e4#"};
+				{ 2, 19995, "", "=q1=Harvest Boar", "=ds=#e3#"};
+				{ 3, 19996, "", "=q1=Harvest Fish", "=ds=#e3#"};
+				{ 4, 19994, "", "=q1=Harvest Fruit", "=ds=#e3#"};
+				{ 5, 19997, "", "=q1=Harvest Nectar", "=ds=#e4#"};
+				{ 17, 19697, "", "=q1=Bounty of the Harvest", "=q1=#m4#: =ds=#m20#"};
+				{ 18, 20009, "", "=q1=For the Light!", "=q1=#m4#: =ds=#e10# =ec1=#m7#"};
+				{ 19, 20010, "", "=q1=The Horde's Hellscream", "=q1=#m4#: =ds=#e10# =ec1=#m6#"};
 			};
 		};
 		info = {
@@ -999,20 +1018,20 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ElementalInvasion"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n108#", "=q1=#j19#, #z20#"};
-				{ 2, 18671, "", "=q3=Baron Charr's Sceptre", "=ds=#h1#, #w6#", "", "12.18%"};
-				{ 3, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "10.14%"};
-				{ 4, 18672, "", "=q2=Elemental Ember", "=ds=#s15#", "", "53.31%"};
-				{ 6, 0, "INV_Box_01", "=q6=#n109#", "=q1=#j20#, #z21#"};
-				{ 7, 18678, "", "=q3=Tempestria's Frozen Necklace", "=ds=#s2#", "", "12.33%"};
-				{ 8, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "5.24%"};
-				{ 9, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "25.00%"};
-				{ 10, 18679, "", "=q2=Frigid Ring", "=ds=#s13#", "", "51.01%"};
-				{ 16, 0, "INV_Box_01", "=q6=#n111#", "=q1=#j21#, #z23#"};
-				{ 17, 18676, "", "=q3=Sash of the Windreaver", "=ds=#s10#, #a3#", "", "16.76%"};
-				{ 18, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "9.76%"};
-				{ 19, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "36.28%"};
-				{ 20, 18677, "", "=q2=Zephyr Cloak", "=ds=#s4#", "", "52.47%"};
+				{ 2, 0, "INV_Box_01", "=q6=#n108#", "=q1=#j19#, #z20#"};
+				{ 3, 18671, "", "=q3=Baron Charr's Sceptre", "=ds=#h1#, #w6#", "", "12.18%"};
+				{ 4, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "10.14%"};
+				{ 5, 18672, "", "=q2=Elemental Ember", "=ds=#s15#", "", "53.31%"};
+				{ 7, 0, "INV_Box_01", "=q6=#n109#", "=q1=#j20#, #z21#"};
+				{ 8, 18678, "", "=q3=Tempestria's Frozen Necklace", "=ds=#s2#", "", "12.33%"};
+				{ 9, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "5.24%"};
+				{ 10, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "25.00%"};
+				{ 11, 18679, "", "=q2=Frigid Ring", "=ds=#s13#", "", "51.01%"};
+				{ 17, 0, "INV_Box_01", "=q6=#n111#", "=q1=#j21#, #z23#"};
+				{ 18, 18676, "", "=q3=Sash of the Windreaver", "=ds=#s10#, #a3#", "", "16.76%"};
+				{ 19, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "9.76%"};
+				{ 20, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "36.28%"};
+				{ 21, 18677, "", "=q2=Zephyr Cloak", "=ds=#s4#", "", "52.47%"};
 			};
 		};
 		info = {
@@ -1028,12 +1047,12 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["GurubashiArena"] = {
 		["Normal"] = {
 			{
-				{ 1, 18709, "", "=q3=Arena Wristguards", "=ds=#s8#, #a1#", "", "5.0%"};
-				{ 2, 18710, "", "=q3=Arena Bracers", "=ds=#s8#, #a2#", "", "6.4%"};
-				{ 3, 18711, "", "=q3=Arena Bands", "=ds=#s8#, #a3#", "", "6.0%"};
-				{ 4, 18712, "", "=q3=Arena Vambraces", "=ds=#s8#, #a4#", "", "6.8%"};
-				{ 16, 18706, "", "=q2=Arena Master", "=ds=#s14#, =q1=#m2#", "", "100%"};
-				{ 17, 19024, "", "=q3=Arena Grand Master", "=q1=#m4#: =ds=#s14#"};
+				{ 2, 18709, "", "=q3=Arena Wristguards", "=ds=#s8#, #a1#", "", "5.0%"};
+				{ 3, 18710, "", "=q3=Arena Bracers", "=ds=#s8#, #a2#", "", "6.4%"};
+				{ 4, 18711, "", "=q3=Arena Bands", "=ds=#s8#, #a3#", "", "6.0%"};
+				{ 5, 18712, "", "=q3=Arena Vambraces", "=ds=#s8#, #a4#", "", "6.8%"};
+				{ 17, 18706, "", "=q2=Arena Master", "=ds=#s14#, =q1=#m2#", "", "100%"};
+				{ 18, 19024, "", "=q3=Arena Grand Master", "=q1=#m4#: =ds=#s14#"};
 			};
 		};
 		info = {

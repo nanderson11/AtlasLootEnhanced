@@ -195,6 +195,8 @@ if AL then
 	AL["Show Price"] = true;
 	AL["Skill"] = true;
 	AL["Location"] = true;
+	AL["ilvl 359"] = true;
+	AL["ilvl 372"] = true;
 
 	-- #######################################
 	-- UI things END

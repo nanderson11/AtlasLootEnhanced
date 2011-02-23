@@ -86,7 +86,7 @@ if AL then
 	AL["Drop Rate: "] = "掉落率：";
 	AL["DKP"] = "DKP";
 	AL["Priority:"] = "优先：";
-	AL["Show price and slot if possible"] = ""显示可用价格与部位;
+	AL["Show price and slot if possible"] = "显示可用价格与部位";
 	AL["Use GameTooltip"] = "使用游戏内提示";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用标准游戏内提示而不使用 AtlasLoot 提示";
 	-- Unsafe Item
@@ -127,7 +127,7 @@ if AL then
 	AL["Add Wishlist"] = "新增愿望列表";
 	AL["Always use default Wishlist"] = "永远使用默认愿望列表";
 	AL["Save wishlists at character DB"] = "将愿望列表储存到角色资料库";
-	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "只针对|cff1eff00%s-%s|r"角色存储愿望列表\n其它角色不可以查看此愿望列表，减少内存使用。;
+	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "只针对|cff1eff00%s-%s|r角色存储愿望列表\n其它角色不可以查看此愿望列表，减少内存使用。";
 	AL["Table Sort"] = "表格排序";
 	AL["Table Sort:"] = "表格排序：";
 	AL["Item Sort:"] = "物品排序：";

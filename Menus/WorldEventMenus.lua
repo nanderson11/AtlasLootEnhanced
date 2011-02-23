@@ -37,13 +37,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["ARGENTMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "ArgentTournament", "inv_scroll_11", "=ds="..BabbleInventory["Miscellaneous"], ""};
-				{ 3, "ArgentTournament#3", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"], ""};
-				{ 4, "ArgentTournament#5", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"], ""};
-				{ 5, "ArgentTournament#8", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
-				{ 17, "ArgentTournament#2", "inv_misc_tournaments_tabard_human", "=ds="..BabbleInventory["Tabards"].." / "..AL["Banner"], ""};
-				{ 18, "ArgentTournament#4", "inv_mace_29", "=ds="..AL["Weapons"], ""};
-				{ 19, "ArgentTournament#6", "ability_mount_charger", "=ds="..BabbleInventory["Mounts"], ""};
+				{ 2, "ArgentTournament", "inv_misc_tournaments_tabard_human", "=ds="..BabbleInventory["Tabards"].." / "..AL["Banner"], ""};
+				{ 3, "ArgentTournament#2", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"].." / "..AL["Weapons"], ""};
+				{ 17, "ArgentTournament#3", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"].." / "..BabbleInventory["Mounts"], ""};
+				{ 18, "ATHeirlooms", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
 			};
 		};
 		info = {

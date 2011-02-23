@@ -8987,7 +8987,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 13, 51515, "", "=q4=Wrathful Gladiator's Cleaver", "=ds=#h1#, #w1#", "1785 #honor#"};
 				{ 14, 51525, "", "=q4=Wrathful Gladiator's Chopper", "=ds=#h4#, #w1#", "760 #honor#"};
 				{ 15, 51439, "", "=q4=Wrathful Gladiator's Hacker", "=ds=#h4#, #w1#", "760 #honor#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
+--[[				{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
 				{ 17, 51524, "", "=q4=Wrathful Gladiator's Grasp", "=ds=#h3#, #w13#", "2745 #honor# #reqrating# 2200"};
 				{ 18, 51529, "", "=q4=Wrathful Gladiator's Left Claw", "=ds=#h4#, #w13#", "1140 #honor# #reqrating# 2200"};
 				{ 19, 51444, "", "=q4=Wrathful Gladiator's Left Razor", "=ds=#h4#, #w13#", "1140 #honor# #reqrating# 2200"};
@@ -9001,7 +9001,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 27, 51393, "", "=q4=Wrathful Gladiator's Claymore", "=ds=#h2#, #w10#", "3825 #honor# #reqrating# 2200"};
 				{ 28, 51516, "", "=q4=Wrathful Gladiator's Handaxe", "=ds=#h1#, #w1#", "2745 #honor# #reqrating# 2200"};
 				{ 29, 51440, "", "=q4=Wrathful Gladiator's Dicer", "=ds=#h4#, #w1#", "1140 #honor# #reqrating# 2200"};
-				{ 30, 51526, "", "=q4=Wrathful Gladiator's Splitter", "=ds=#h4#, #w1#", "1140 #honor# #reqrating# 2200"};
+				{ 30, 51526, "", "=q4=Wrathful Gladiator's Splitter", "=ds=#h4#, #w1#", "1140 #honor# #reqrating# 2200"};--]]
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
@@ -11597,23 +11597,24 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "2175 #justice# / 60 #champseal#"};
 				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "2175 #justice# / 60 #champseal#"};
 				{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 7, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "2175 #justice# / 60 #champseal#"};
-				{ 8, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
-				{ 9, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
-				{ 10, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
-				{ 11, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
-				{ 12, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 14, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
-				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "2175 #justice#  / 60 #champseal#"};
-				{ 17, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "2175 #justice#  / 60 #champseal#"};
-				{ 18, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "3500 #justice# / 95 #champseal#"};
-				{ 19, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "2725 #justice# / 75 #champseal#"};
-				{ 20, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "2175 #justice# / 75 #champseal#"};
-				{ 21, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "3500 #justice# / 95 #champseal#"};
-				{ 22, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "3500 #justice# / 95 #champseal#"};
-				{ 23, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "3500 #justice# / 95 #champseal#"};
-				{ 25, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
-				{ 26, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
+				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "2175 #justice# / 60 #champseal#"};
+				{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
+				{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
+				{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
+				{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
+				{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
+				{ 15, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
+				{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
+				{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
+				{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "2175 #justice#  / 60 #champseal#"};
+				{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "2175 #justice#  / 60 #champseal#"};
+				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "3500 #justice# / 95 #champseal#"};
+				{ 22, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "2725 #justice# / 75 #champseal#"};
+				{ 23, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "2175 #justice# / 75 #champseal#"};
+				{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "3500 #justice# / 95 #champseal#"};
+				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "3500 #justice# / 95 #champseal#"};
+				{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "3500 #justice# / 95 #champseal#"};
+
 			};
 			{
 				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "2175 #honor#"};
