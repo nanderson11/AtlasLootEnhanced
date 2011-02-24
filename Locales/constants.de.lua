@@ -791,6 +791,9 @@ if AL then
 	AL["Grim Campfire"] = "Finsteres Lagerfeuer";
 	AL["Landro's Lil' XT"] = "Landros XT der Kleine";
 
+	-- Fourteenth set
+	AL["War of the Elements"] = "Krieg der Elemente";
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
