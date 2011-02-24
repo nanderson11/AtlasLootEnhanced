@@ -776,20 +776,23 @@ if AL then
 	-- Eleventh set -- à traduire
 	--AL["Wrathgate"] = true;
 	--AL["Statue Generator"] = true;
-	--AL["Landro's Gift"] = true;
-	--AL["Blazing Hippogryph"] = true;
+	AL["Landro's Gift"] = "Cadeau de Landro";
+	AL["Blazing Hippogryph"] = "Hippogriffe flamboyant";
 
-	-- Twelvth set -- à traduire
-	--AL["Icecrown"] = true;
-	--AL["Wooly White Rhino"] = true;
-	--AL["Ethereal Portal"] = true;
-	--AL["Paint Bomb"] = true;
+	-- Twelvth set
+	AL["Icecrown"] = "La Couronne de glace";
+	AL["Wooly White Rhino"] = "Rhinocéros laineux blanc";
+	AL["Ethereal Portal"] = "Portail éthérien";
+	AL["Paint Bomb"] = "Bombe de peinture";
 
-	-- Thirtheenth set -- à traduire
-	--AL["Worldbreaker"] = true;
-	--AL["Mottled Drake"] = true;
-	--AL["Grim Campfire"] = true;
-	--AL["Landro's Lil' XT"] = true;
+	-- Thirtheenth set
+	AL["Worldbreaker"] = "Brise-monde";
+	AL["Mottled Drake"] = "Drake tacheté";
+	AL["Grim Campfire"] = "Feu de camp sinistre";
+	AL["Landro's Lil' XT"] = "Mini XT de Landro";
+
+	-- Fourteenth set
+	AL["War of the Elements"] = "Gardien des éléments";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
