@@ -23,10 +23,17 @@ AtlasLoot.Modules = {
 	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
 }
 
+local allLoaded = false
+local spamProtect = {}
+local atlasLootIsLoaded = false
+
 
 function AtlasLoot:OnInitialize()
 	--@debug@ 
-	self:OnLoaderLoad()
+	if self.OnLoaderLoad then
+		self:OnLoaderLoad()
+		allLoaded = true
+	end
 	--@end-debug@
 	
 	-- Warning if AtlasLootFu is enabled
@@ -62,11 +69,6 @@ function AtlasLoot:OnInitialize()
 	
 	
 end
-
-
-local allLoaded = false
-local spamProtect = {}
-local atlasLootIsLoaded = false
 
 --- Loads a AtlasLoot module
 -- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCataclysm, AtlasLootCrafting, AtlasLootWorldEvents, all
