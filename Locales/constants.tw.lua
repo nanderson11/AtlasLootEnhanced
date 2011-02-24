@@ -194,6 +194,8 @@ if AL then
 	AL["Show Price"] = "顯示價格";
 	AL["Skill"] = "技能";
 	AL["Location"] = "位置";
+	AL["ilvl 359"] = "ilvl 359";
+	AL["ilvl 372"] = "ilvl 372";
 
 	-- #######################################
 	-- UI things END
