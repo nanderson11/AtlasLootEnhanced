@@ -515,8 +515,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 18635, "", "=q1=Bellara's Nutterbar", "=ds=#e3#"};
 				{ 9, 20557, "", "=q1=Hallow's End Pumpkin Treat", "=ds=#m20#"};
 				{ 11, 0, "inv_gauntlets_06", "=q6="..AL["Handful of Candy"], ""};
-				{ 12, 37585, "", "=q3=Chewy Fel Taffy", "=ds=#m20#"};
-				{ 13, 37583, "", "=q3=G.N.E.R.D.S.", "=ds=#m20#"};
+				{ 12, 37585, "", "=q1=Chewy Fel Taffy", "=ds=#m20#"};
+				{ 13, 37583, "", "=q1=G.N.E.R.D.S.", "=ds=#m20#"};
 				{ 14, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#"};
 				{ 15, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#"};
 				{ 16, 0, "INV_Misc_Bag_11", "=q6="..AL["Treat Bag"], ""};

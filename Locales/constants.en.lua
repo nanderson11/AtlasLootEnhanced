@@ -791,6 +791,9 @@ if AL then
 	AL["Grim Campfire"] = true;
 	AL["Landro's Lil' XT"] = true;
 
+	-- Fourteenth set
+	AL["War of the Elements"] = true;
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = true;
 	AL["BG/Open PvP Rewards"] = true;
