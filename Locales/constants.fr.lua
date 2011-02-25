@@ -794,6 +794,9 @@ if AL then
 	-- Fourteenth set
 	AL["War of the Elements"] = "Gardien des éléments";
 
+	-- Fifteenth set -- à traduire
+	--AL["Twilight of the Dragons"] = true;
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
 	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
