@@ -794,6 +794,9 @@ if AL then
 	-- Fourteenth set
 	AL["War of the Elements"] = true;
 
+	-- Fifteenth set
+	AL["Twilight of the Dragons"] = true;
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = true;
 	AL["BG/Open PvP Rewards"] = true;

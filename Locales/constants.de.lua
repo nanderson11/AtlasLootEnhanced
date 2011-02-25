@@ -794,6 +794,9 @@ if AL then
 	-- Fourteenth set
 	AL["War of the Elements"] = "Krieg der Elemente";
 
+	-- Fifteenth set
+	AL["Twilight of the Dragons"] = "Zwielicht der Drachen";
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
