@@ -602,7 +602,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyDwarf"] = {
 		["Normal"] = {
 			{
-				{ 1, 64489, "", "=q4=Staff of Sorceror-Thane Thaurissan", "=ds=#sr# 450", "=ds=#w9#"};
+				{ 1, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#sr# 450", "=ds=#w9#"};
 				{ 3, 64372, "", "=q3=Clockwork Gnome", "=ds=#sr# 225", "=ds=#e13#"};
 				{ 4, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds=#sr# 150"};
 				{ 5, 64488, "", "=q3=The Innkeeper's Daughter", "=ds=#sr# 150"};

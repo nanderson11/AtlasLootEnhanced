@@ -2124,7 +2124,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 15, 62367, "", "=q7=Arcanum of Hyjal", "=ds=#s1# #e17#"};
 				{ 16, 0, "inv_misc_tabard_guardiansofhyjal", "=q6=#r5#", ""};
 				{ 17, 62383, "", "=q4=Wrap of the Great Turtle", "=ds=#s4#"};
-				{ 18, 62386, "", "=q4=Cord of Raven Queen", "=ds=#s10#, #a1#"};
+				{ 18, 62386, "", "=q4=Cord of the Raven Queen", "=ds=#s10#, #a1#"};
 				{ 19, 62385, "", "=q4=Treads of Malorne", "=ds=#s12#, #a3#"};
 				{ 20, 62384, "", "=q4=Belt of the Ferocious Wolf", "=ds=#s10#, #a4#"};
 			};
@@ -3579,54 +3579,58 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["CardGame"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
-				{ 2, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
-				{ 3, 69227, "", "=q3=Fool's Gold", "=ds=" },
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
+				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
+				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
 				{ 4, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
-				{ 7, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
-				{ 8, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
-				{ 9, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
-				{ 12, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
-				{ 13, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
-				{ 14, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
-				{ 17, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
-				{ 18, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
-				{ 19, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
-				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
-				{ 22, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
-				{ 23, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
-				{ 24, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
-				{ 25, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
-				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
-				{ 28, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
-				{ 29, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
-				{ 30, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
+				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 8, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
+				{ 9, 69227, "", "=q3=Fool's Gold", "=ds=" },
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
+				{ 12, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
+				{ 13, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
+				{ 14, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
+				{ 17, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
+				{ 18, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
+				{ 19, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
+				{ 22, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
+				{ 23, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
+				{ 24, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
+				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
+				{ 27, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
+				{ 28, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
+				{ 29, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
+				{ 30, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
-				{ 2, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
-				{ 3, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
-				{ 4, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
-				{ 7, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
-				{ 8, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
-				{ 9, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
-				{ 12, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
-				{ 13, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
-				{ 14, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
-				{ 17, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
-				{ 18, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
-				{ 19, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
-				{ 20, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
-				{ 22, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
-				{ 23, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
-				{ 24, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
-				{ 25, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
+				{ 2, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
+				{ 3, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
+				{ 4, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
+				{ 7, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
+				{ 8, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
+				{ 9, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
+				{ 12, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
+				{ 13, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
+				{ 14, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
+				{ 17, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
+				{ 18, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
+				{ 19, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 22, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
+				{ 23, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 24, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 25, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
+				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
+				{ 28, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
+				{ 29, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
+				{ 30, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fires of Outland"]};
@@ -4766,16 +4770,16 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["NewItems41"] = {
 		["Normal"] = {
 			{
-				{ 2, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },--probably TCG
-				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
+				{ 2, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },--TCG
+				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },--TCG
 				{ 4, 68833, "", "=q1=Panther Cub", "=ds=#e13#" },
 				{ 5, 69239, "", "=q1=Winterspring Cub", "=ds=#e13#" },
-				{ 17, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
-				{ 18, 68825, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#" },
+				{ 17, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },--TCG
+				{ 18, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#" },
 				{ 19, 69213, "", "=q4=Flameward Hippogryph", "=ds=#e27#" },
 				{ 20, 69226, "", "=q4=Reins of the Beryl Fire Hawk", "=ds=#e27#" },
 				{ 21, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=#e27#" },
-				{ 22, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 22, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },--TCG
 				{ 23, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#" },
 				extraText = ": "..BabbleInventory["Companions"].." & "..BabbleInventory["Mounts"];
 			};
