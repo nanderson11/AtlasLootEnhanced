@@ -689,7 +689,7 @@ if AL then
 	AL["Halaa PvP Mounts"] = "Montures JcJ de Halaa";
 	AL["Promotional Mounts"] = "Montures promotionnelles";
 	AL["Rare Mounts"] = "Montures rares";
-	--AL["Unobtainable Mounts"] = true;
+	AL["Unobtainable Mounts"] = "Montures impossible à obtenir";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = true;
