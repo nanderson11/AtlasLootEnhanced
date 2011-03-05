@@ -790,6 +790,12 @@ if AL then
 	AL["Grim Campfire"] = "陰森的篝火";
 	AL["Landro's Lil' XT"] = "藍卓的XT小小拆解者";
 
+	-- Fourteenth set
+	--AL["War of the Elements"] = true;
+
+	-- Fifteenth set
+	--AL["Twilight of the Dragons"] = true;
+
 	--Battleground Brackets
 	AL["Old PvP Rewards"] = "舊 PvP 獎勵";
 	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
