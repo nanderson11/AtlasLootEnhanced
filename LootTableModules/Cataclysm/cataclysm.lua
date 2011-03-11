@@ -19,6 +19,8 @@ local moduleName = "AtlasLootCataclysm"
 ---- Bastion of Twilight
 ---- Blackwing Descent
 ---- Baradin Hold
+---- Zul'Aman
+---- Zul'Gurub
 --- Factions
 ---- Baradin's Wardens
 ---- Dragonmaw Clan
@@ -515,6 +517,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 55845, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
 				{ 10, 55852, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
 				{ 11, 55846, "", "=q3=Lightningflash", "=ds=#w5#", ""};
+				{ 12, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56369, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
 				{ 18, 56371, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
@@ -526,6 +529,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 24, 56370, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
 				{ 25, 56372, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
 				{ 26, 56366, "", "=q3=Lightningflash", "=ds=#w5#", ""};
+				{ 27, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};
 			};
 		};
 		info = {
@@ -539,11 +543,9 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 2, 55855, "", "=q3=Darksky Treads", "=ds=#s12#, #a4#", ""};
 				{ 3, 55854, "", "=q3=Rainsong", "=ds=#s14#", ""};
-				{ 4, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
---[[				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+--[[			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56378, "", "=q3=Darksky Treads", "=ds=#s12#, #a4#", ""};
-				{ 18, 56377, "", "=q3=Rainsong", "=ds=#s14#", ""};
-				{ 19, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};--]]
+				{ 18, 56377, "", "=q3=Rainsong", "=ds=#s14#", ""};--]]
 			};
 		};
 		info = {
@@ -1897,6 +1899,131 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = BabbleBoss["Al'Akir"],
 			module = moduleName, instance = "ThroneOfTheFourWinds",
+		};
+	};
+
+		------------------
+		--- Zul'Gurub ----
+		------------------
+--ALL LOOT TABLES ARE UNCONFIRMED. GUESS WORK BASED ON NAME AND ID
+	AtlasLoot_Data["ZGVenoxis"] = {
+		["Normal"] = {
+			{
+				{ 1, 69602, "", "=q4=Signet of Venoxis", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["High Priest Venoxis"],
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGMandokir"] = {
+		["Normal"] = {
+			{
+				{ 1, 69609, "", "=q4=Bloodlord's Protector", "=ds=#h1#, #w10#", ""};
+				{ 2, 69625, "", "=q4=Mandokir's Tribute", "=ds=#w2#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Bloodlord Mandokir"],
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGMadness"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
+				{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
+				{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
+				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+				{ 16, 69585, "", "=q4=Wristwraps of Madness", "=ds=#s8#, #a1#", ""};
+			};
+		};
+		info = {
+			name = "The Cage of Madness",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGKilnara"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "High Priestess Kilnara",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGZanzil"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Zanzil",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGJindo"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Jin'do the Godbreaker",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+		----------------
+		--- Zul'Aman ---
+		----------------
+--ALL LOOT TABLES ARE UNCONFIRMED. GUESS WORK BASED ON NAME AND ID
+	AtlasLoot_Data["ZA85Nalorakk"] = {
+		["Normal"] = {
+			{
+				{ 1, 69555, "", "=q4=Boots of the Ursine", "=ds=#s12#, #a1#"};
+				{ 2, 69556, "", "=q4=Armbands of the Bear Spirit", "=ds=#s8#, #a2#"};
+				{ 3, 69554, "", "=q4=Pauldrons of Nalorakk", "=ds=#s3#, #a3#"};
+				{ 4, 69557, "", "=q4=Jungle Striders", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Nalorakk"],
+			module = moduleName, instance = "ZulAman85",
+		};
+	};
+
+	AtlasLoot_Data["ZA85JanAlai"] = {
+		["Normal"] = {
+			{
+				{ 1, 69560, "", "=q4=Jan'alai's Spaulders", "=ds=#s3#, #a1#"};
+				{ 2, 69561, "", "=q4=Hawkscale Waistguard", "=ds=#s10#, #a3#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Jan'alai"],
+			module = moduleName, instance = "ZulAman85",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Malacrass"] = {
+		["Normal"] = {
+			{
+				{ 1, 69572, "", "=q4=Hex Lord's Bloody Cloak", "=ds=#s4#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Hex Lord Malacrass"],
+			module = moduleName, instance = "ZulAman85",
 		};
 	};
 
@@ -3581,8 +3708,8 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
 				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
-				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
-				{ 4, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
+				{ 3, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
+				{ 4, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
 				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
 				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
 				{ 8, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
@@ -3921,10 +4048,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
 				{ 22, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
 				{ 23, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 24, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
-				{ 25, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
-				{ 26, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
-				{ 27, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
+				{ 24, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
+				{ 25, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 26, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
+				{ 27, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
+				{ 28, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
+				{ 29, 68841, "", "=q1=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
 			};
 		};
 		info = {
@@ -4340,12 +4469,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
 				{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
 				{ 12, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{
-					{ 16, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
-					{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
-				};
-				{ 17, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
-				{ 18, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
+				{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
+				{ 17, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
+				{ 18, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
+				{ 19, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
 			};
 		};
 		info = {
@@ -4384,14 +4511,16 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
-				{ 2, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#"};
-				{ 3, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
-				{ 4, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
-				{ 5, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
-				{ 6, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
-				{ 7, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=q2=#m24#"};
-				{ 8, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
-				{ 9, 49285, "", "=q3=X-51 Nether-Rocket", "=q2=#m24#"};
+				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
+				{ 3, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#"};
+				{ 4, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
+				{ 5, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
+				{ 6, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
+				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 8, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
+				{ 9, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=q2=#m24#"};
+				{ 10, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
+				{ 11, 49285, "", "=q3=X-51 Nether-Rocket", "=q2=#m24#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
@@ -4626,7 +4755,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 58157, "", "=q3=Meadow Mantle", "=ds=#s3#, #a1#", "1650 #justice#" },
 				{ 4, 58153, "", "=q3=Robes of Embalmed Darkness", "=ds=#s5#, #a1#", "2200 #justice#" },
 				{ 5, 58158, "", "=q3=Gloves of the Painless Midnight", "=ds=#s9#, #a1#", "1650 #justice#" },
-				{ 6, 57921, "", "=q3=Incense Infused Cumberbund", "=ds=#s10#, #a1#", "1650 #justice#" },
+				{ 6, 57921, "", "=q3=Incense Infused Cummerbund", "=ds=#s10#, #a1#", "1650 #justice#" },
 				{ 7, 58154, "", "=q3=Pensive Legwraps", "=ds=#s11#, #a1#", "2200 #justice#" },
 				{ 17, 58161, "", "=q3=Mask of New Snow", "=ds=#s1#, #a1#", "2200 #justice#" },
 				{ 18, 58162, "", "=q3=Summer Song Shoulderwraps", "=ds=#s3#, #a1#", "1650 #justice#" },
@@ -4774,13 +4903,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },--TCG
 				{ 4, 68833, "", "=q1=Panther Cub", "=ds=#e13#" },
 				{ 5, 69239, "", "=q1=Winterspring Cub", "=ds=#e13#" },
+				{ 5, 69648, "", "=q3=Legs", "=ds=#e13#" },
 				{ 17, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },--TCG
-				{ 18, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#" },
-				{ 19, 69213, "", "=q4=Flameward Hippogryph", "=ds=#e27#" },
-				{ 20, 69226, "", "=q4=Reins of the Beryl Fire Hawk", "=ds=#e27#" },
-				{ 21, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=#e27#" },
-				{ 22, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },--TCG
-				{ 23, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#" },
+				{ 18, 69747, "", "=q4=Amani Battle Bear", "=ds=#e27#" },
+				{ 19, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#" },
+				{ 20, 69213, "", "=q4=Flameward Hippogryph", "=ds=#e27#" },
+				{ 21, 69226, "", "=q4=Reins of the Beryl Fire Hawk", "=ds=#e27#" },
+				{ 22, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=#e27#" },
+				{ 23, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },--TCG
+				{ 24, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#" },
 				extraText = ": "..BabbleInventory["Companions"].." & "..BabbleInventory["Mounts"];
 			};
 			{
