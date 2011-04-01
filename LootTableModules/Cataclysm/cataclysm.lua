@@ -4526,6 +4526,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 20, 0, "INV_Box_01", "=q6="..AL["Companion Store"], ""};
 				{ 21, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
+				{ 22, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
 			};
 		};
 		info = {
@@ -4903,7 +4904,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },--TCG
 				{ 4, 68833, "", "=q1=Panther Cub", "=ds=#e13#" },
 				{ 5, 69239, "", "=q1=Winterspring Cub", "=ds=#e13#" },
-				{ 5, 69648, "", "=q3=Legs", "=ds=#e13#" },
+				{ 6, 69648, "", "=q3=Legs", "=ds=#e13#" },
+				{ 7, 69821, "", "=q3=Pterrordax Hatchling", "=ds=#e13#" },
+				{ 8, 69824, "", "=q3=Voodoo Figurine", "=ds=#e13#" },
+				{ 9, 69847, "", "=q3=Guardian Cub", "=ds=#e13#" },
 				{ 17, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },--TCG
 				{ 18, 69747, "", "=q4=Amani Battle Bear", "=ds=#e27#" },
 				{ 19, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#" },
@@ -4912,6 +4916,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=#e27#" },
 				{ 23, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },--TCG
 				{ 24, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#" },
+				{ 25, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
 				extraText = ": "..BabbleInventory["Companions"].." & "..BabbleInventory["Mounts"];
 			};
 			{

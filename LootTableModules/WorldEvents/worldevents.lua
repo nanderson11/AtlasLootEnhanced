@@ -777,17 +777,17 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["LordAhune"] = {
 		["Normal"] = {
 			{
-				{ 1, 54805, "", "=q4=Cloak of the Frigid Winds", "=ds=#s4#"};
-				{ 2, 54801, "", "=q4=Icebound Cloak", "=ds=#s4#"};
-				{ 3, 54804, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
-				{ 4, 54803, "", "=q4=The Frost Lord's Battle Shroud", "=ds=#s4#"};
-				{ 5, 54802, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
+				{ 1, 69769, "", "=q4=Cloak of the Frigid Winds", "=ds=#s4#"};
+				{ 2, 69770, "", "=q4=Icebound Cloak", "=ds=#s4#"};
+				{ 3, 69768, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
+				{ 4, 69767, "", "=q4=The Frost Lord's Battle Shroud", "=ds=#s4#"};
+				{ 5, 69766, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
 				{ 7, 35498, "", "=q3=Formula: Enchant Weapon - Deathfrost", "=ds=#p4# (350)"};
 				{ 9, 35723, "", "=q1=Shards of Ahune", "=ds=#m2#"};
 				{ 10, 35279, "", "=q3=Tabard of Summer Skies", "=q1=#m4#: =ds=#s7#"};
 				{ 11, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: =ds=#s7#"};
 				{ 16, 54536, "", "=q3=Satchel of Chilled Goods", "=q5="..AL["Daily Reward"]};
-				{ 17, 54806, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
+				{ 17, 69771, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
 				{ 18, 53641, "", "=q3=Ice Chip", "=ds=#e13#"};
 			};
 		};
