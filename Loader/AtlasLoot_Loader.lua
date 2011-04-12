@@ -67,7 +67,17 @@ function AtlasLoot:OnInitialize()
 	-- MiniMap Button
 	self:MiniMapButtonInitialize()
 	
-	
+	-- Atlas loader
+	if Atlas_OnShow then
+		local loaded = false
+		function Atlas_OnShow(...)
+			if not loaded then
+				loaded = true
+				AtlasLoot:LoadModule("AtlasLoot")
+				Atlas_OnShow(...)
+			end
+		end
+	end
 end
 
 --- Loads a AtlasLoot module
