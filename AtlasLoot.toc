@@ -19,7 +19,7 @@
 ## Notes-koKR: Shows the possible loot from the bosses
 ## Title-zhCN: AtlasLoot Enhanced
 ## Notes-zhCN: 显示首领与小怪可能的掉落，并可查询各阵营于战场的奖励、套装物品等
-## Title-zhTW: AtlasLoot Enhanced
+## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 物品掉落[主程式]
 ## Notes-zhTW: 顯示首領與小怪可能的掉落，並可查詢各陣營與戰場的獎勵、套裝物品等
 ## Notes-ruRU: Отображает весю возможную добычу с боссов
 ## SavedVariables: AtlasLootDB
