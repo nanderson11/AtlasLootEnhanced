@@ -9,7 +9,7 @@ function AtlasLoot_GetLocaleLibBabble(typ)
 	local rettab = {}
 	
 	setmetatable(rettab, {
-		__index = tab or loctab
+		__index = loctab or tab
 	})
 	
 	return rettab
