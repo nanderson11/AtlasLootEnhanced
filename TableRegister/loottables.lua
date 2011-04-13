@@ -147,9 +147,12 @@ AtlasLoot_LootTableRegister = {
 
 		["ZulAman85"] = {
 			["Bosses"] = {
+				{ "ZA85AkilZon", },
 				{ "ZA85Nalorakk", },
 				{ "ZA85JanAlai", },
+				{ "ZA85Halazzi", },
 				{ "ZA85Malacrass", },
+				{ "ZA85Daakara", },
 			},
 			["Info"] = { BabbleZone["Zul'Aman"], "AtlasLootCataclysm" },
 		},

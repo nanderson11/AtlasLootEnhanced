@@ -1,4 +1,4 @@
-﻿AtlasLoot Enhanced
+AtlasLoot Enhanced
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
@@ -9,7 +9,8 @@ Patch Notes
 v6.03.00
 Fixed a bug with overlapping panel buttons.
 Fixed a bug with empty loot tables.
-Added some missing 4.0.6 stuff. 
+Added some missing 4.0.6 stuff.
+Added loot for heroic Zul'Gurub and Zul'Aman.
 Updated Enchanting with Cataclysm recipes.
 Updated Leatherworking with Cataclysm recipes. (Thanks to Xecration)
 Many minor fixes, additions and translations.

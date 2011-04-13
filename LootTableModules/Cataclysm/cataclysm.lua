@@ -1957,7 +1957,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 69612, "", "=q4=Claw-Fringe Mantle", "=ds=#s3#, #a1#", ""};
-				{ 2, 69611, "", "=q4=Claw-Fringe Mantle", "=ds=#s10#, #a1#", ""};
+				{ 2, 69611, "", "=q4=Sash of Anguish", "=ds=#s10#, #a1#", ""};
 				{ 3, 69613, "", "=q4=Leggings of the Pride", "=ds=#s11#, #a2#", ""};
 				{ 4, 69614, "", "=q4=Roaring Mask of Bethekk", "=ds=#s1#, #a4#", ""};
 				{ 5, 69610, "", "=q4=Arlokk's Signet", "=ds=#s13#", ""};
@@ -2009,14 +2009,32 @@ local moduleName = "AtlasLootCataclysm"
 		----------------
 		--- Zul'Aman ---
 		----------------
---ALL LOOT TABLES ARE UNCONFIRMED. GUESS WORK BASED ON NAME AND ID
+
+
+	AtlasLoot_Data["ZA85AkilZon"] = {
+		["Normal"] = {
+			{
+				{ 1, 69550, "", "=q4=Leggings of Ancient Magics", "=ds=#s11#, #a1#"};
+				{ 2, 69551, "", "=q4=Feathers of Akil'zon", "=ds=#s3#, #a2#"};
+				{ 3, 69549, "", "=q4=Wristguards of the Predator", "=ds=#s8#, #a3#"};
+				{ 4, 69552, "", "=q4=Bracers of Hidden Purpose", "=ds=#s8#, #a4#"};
+				{ 5, 69553, "", "=q4=Talonguard Band", "=ds=#s13#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Akil'zon"],
+			module = moduleName, instance = "ZulAman85",
+		};
+	};
+
 	AtlasLoot_Data["ZA85Nalorakk"] = {
 		["Normal"] = {
 			{
 				{ 1, 69555, "", "=q4=Boots of the Ursine", "=ds=#s12#, #a1#"};
 				{ 2, 69556, "", "=q4=Armbands of the Bear Spirit", "=ds=#s8#, #a2#"};
 				{ 3, 69554, "", "=q4=Pauldrons of Nalorakk", "=ds=#s3#, #a3#"};
-				{ 4, 69557, "", "=q4=Jungle Striders", "=ds=#s11#, #a4#"};
+				{ 4, 69558, "", "=q4=Spiritshield Mask", "=ds=#s1#, #a4#"};
+				{ 5, 69557, "", "=q4=Jungle Striders", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -2029,7 +2047,10 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 69560, "", "=q4=Jan'alai's Spaulders", "=ds=#s3#, #a1#"};
-				{ 2, 69561, "", "=q4=Hawkscale Waistguard", "=ds=#s10#, #a3#"};
+				{ 2, 69559, "", "=q4=Amani'shi Bracers", "=ds=#s8#, #a2#"};
+				{ 3, 69561, "", "=q4=Hawkscale Waistguard", "=ds=#s10#, #a3#"};
+				{ 4, 69562, "", "=q4=Boots of Bad Mojo", "=ds=#s12#, #a4#"};
+				{ 5, 69563, "", "=q4=Ring of the Numberless Brood", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -2038,14 +2059,55 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["ZA85Halazzi"] = {
+		["Normal"] = {
+			{
+				{ 1, 69567, "", "=q4=Wristwraps of Departed Spirits", "=ds=#s8#, #a1#"};
+				{ 2, 69564, "", "=q4=The Savager's Mask", "=ds=#s1#, #a2#"};
+				{ 3, 69565, "", "=q4=Breastplate of Primal Fury", "=ds=#s5#, #a3#"};
+				{ 4, 69568, "", "=q4=Shadowmender Wristguards", "=ds=#s8#, #a3#"};
+				{ 5, 69566, "", "=q4=Shimmerclaw Band", "=ds=#s13#"};
+			};
+		};
+		info = {
+			name = BabbleBoss["Halazzi"],
+			module = moduleName, instance = "ZulAman85",
+		};
+	};
+
 	AtlasLoot_Data["ZA85Malacrass"] = {
 		["Normal"] = {
 			{
 				{ 1, 69572, "", "=q4=Hex Lord's Bloody Cloak", "=ds=#s4#"};
+				{ 2, 69569, "", "=q4=Shadowtooth Trollskin Breastplate", "=ds=#s5#, #a2#"};
+				{ 3, 69570, "", "=q4=Waistband of Hexes", "=ds=#s10#, #a3#"};
+				{ 4, 69573, "", "=q4=Pauldrons of Sacrifice", "=ds=#s3#, #a4#"};
+				{ 5, 69571, "", "=q4=Soul Drain Signet", "=ds=#s13#"};
 			};
 		};
 		info = {
 			name = BabbleBoss["Hex Lord Malacrass"],
+			module = moduleName, instance = "ZulAman85",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Daakara"] = {
+		["Normal"] = {
+			{
+				{ 1, 69577, "", "=q4=Collar of Bones", "=ds=#s1#, #a1#"};
+				{ 2, 69578, "", "=q4=Hexing Robes", "=ds=#s5#, #a1#"};
+				{ 3, 69579, "", "=q4=Amani Headdress", "=ds=#s1#, #a2#"};
+				{ 4, 69574, "", "=q4=Tusked Shoulderpads", "=ds=#s3#, #a2#"};
+				{ 5, 69576, "", "=q4=Headdress of Sharpened Vision", "=ds=#s1#, #a3#"};
+				{ 6, 69580, "", "=q4=Mask of Restless Spirits", "=ds=#s1#, #a3#"};
+				{ 7, 69582, "", "=q4=Skullpiercer Pauldrons", "=ds=#s3#, #a4#"};
+				{ 8, 69583, "", "=q4=Legguards of the Unforgiving", "=ds=#s11#, #a4#"};
+				{ 16, 69577, "", "=q4=Amani Scepter of Rites", "=ds=#h1#, #w6#"};
+				{ 17, 69577, "", "=q4=Mace of the Sacrificed", "=ds=#h1#, #w6#"};
+			};
+		};
+		info = {
+			name = "Daakara",
 			module = moduleName, instance = "ZulAman85",
 		};
 	};
