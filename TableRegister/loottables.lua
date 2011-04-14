@@ -154,7 +154,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ZA85Malacrass", },
 				{ "ZA85Daakara", },
 			},
-			["Info"] = { BabbleZone["Zul'Aman"], "AtlasLootCataclysm" },
+			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm" },
 		},
 
 	---- Raids
