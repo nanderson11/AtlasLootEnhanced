@@ -220,6 +220,9 @@ function AtlasLoot:SetQuickLook(num)
 	if AtlasLoot.IgnoreList[AtlasLoot.ItemFrame.dataID] then return end
 	AtlasLoot.db.profile.QuickLooks[num].lootPage = AtlasLoot.ItemFrame.dataID
 	AtlasLoot.db.profile.QuickLooks[num].lootPageType = AtlasLoot.db.profile.LootTableType
+	AtlasLoot.db.profile.QuickLooks[num].savedName = AtlasLoot:GetQuickLookName(num)
+	AtlasLoot.db.profile.QuickLooks[num].module = AtlasLoot_Data[ AtlasLoot.ItemFrame.dataID ].info.module
+	
 	AtlasLoot:RefreshAtlasLootPanel()
 end
 
@@ -262,27 +265,31 @@ function AtlasLoot:GetQuickLookName(num, getLootPageName)
 	if not num then return end
 	local retName, bossName, iniName
 	
-	if (AtlasLoot.db.profile.QuickLooks[num].useBossName and AtlasLoot.db.profile.QuickLooks[num].useInstanceName) or getLootPageName then
-		bossName, iniName = AtlasLoot:GetTableInfo(AtlasLoot.db.profile.QuickLooks[num].lootPage)
-	elseif AtlasLoot.db.profile.QuickLooks[num].useBossName then
-		bossName = AtlasLoot:GetTableInfo(AtlasLoot.db.profile.QuickLooks[num].lootPage)
-	elseif AtlasLoot.db.profile.QuickLooks[num].useInstanceName then
-		bossName, iniName = AtlasLoot:GetTableInfo(AtlasLoot.db.profile.QuickLooks[num].lootPage)
-		bossName = nil
-	elseif AtlasLoot.db.profile.QuickLooks[num].customName then
-		bossName = AtlasLoot.db.profile.QuickLooks[num].customName
-	end
-	
-	if bossName and iniName and iniName ~= _G["UNKNOWN"] then
-		retName = bossName.." ("..iniName..")"
-	elseif bossName then
-		retName = bossName
-	elseif iniName and iniName ~= _G["UNKNOWN"] then
-		retName = iniName
+	if not AtlasLoot_Data[ AtlasLoot.db.profile.QuickLooks[num].lootPage ] then
+		retName = AtlasLoot.db.profile.QuickLooks[num].savedName or AL["QuickLook"].." "..num
 	else
-		retName = AL["QuickLook"].." "..num
-	end
+		if (AtlasLoot.db.profile.QuickLooks[num].useBossName and AtlasLoot.db.profile.QuickLooks[num].useInstanceName) or getLootPageName then
+			bossName, iniName = AtlasLoot:GetTableInfo(AtlasLoot.db.profile.QuickLooks[num].lootPage)
+		elseif AtlasLoot.db.profile.QuickLooks[num].useBossName then
+			bossName = AtlasLoot:GetTableInfo(AtlasLoot.db.profile.QuickLooks[num].lootPage)
+		elseif AtlasLoot.db.profile.QuickLooks[num].useInstanceName then
+			bossName, iniName = AtlasLoot:GetTableInfo(AtlasLoot.db.profile.QuickLooks[num].lootPage)
+			bossName = nil
+		elseif AtlasLoot.db.profile.QuickLooks[num].customName then
+			bossName = AtlasLoot.db.profile.QuickLooks[num].customName
+		end
 
+	
+		if bossName and iniName and iniName ~= _G["UNKNOWN"] then
+			retName = bossName.." ("..iniName..")"
+		elseif bossName then
+			retName = bossName
+		elseif iniName and iniName ~= _G["UNKNOWN"] then
+			retName = iniName
+		else
+			retName = AL["QuickLook"].." "..num
+		end
+	end
 	return retName
 end
 

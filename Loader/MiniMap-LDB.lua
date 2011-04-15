@@ -39,11 +39,12 @@ function AtlasLoot:MiniMapButtonHideShow()
 	end
 
 end
+
 -- Overwrite this in ../AtlasLoot/Modules/DefaultFrame.lua
-local loaded = false
+local loadedMiniMap = false
 function AtlasLoot:ShowFrame_MiniMap()
-	if not loaded then
-		loaded = true
+	if not loadedMiniMap then
+		loadedMiniMap = true
 		AtlasLoot:LoadModule("AtlasLoot")
 		AtlasLoot:ShowFrame_MiniMap()
 	end

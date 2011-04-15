@@ -68,15 +68,17 @@ function AtlasLoot:OnInitialize()
 	self:MiniMapButtonInitialize()
 	
 	-- Atlas loader
-	if Atlas_OnShow then
+	if AtlasFrame then
 		local loaded = false
-		function Atlas_OnShow(...)
+		local function onShow(...)
 			if not loaded then
 				loaded = true
 				AtlasLoot:LoadModule("AtlasLoot")
-				Atlas_OnShow(...)
+				AtlasFrame:Hide()
+				AtlasFrame:Show()
 			end
 		end
+		AtlasFrame:HookScript("OnShow", onShow)
 	end
 end
 

@@ -346,7 +346,12 @@ do
 		else
 			tempText = _G["UNKNOWN"]
 		end
-		self.Frame.Name:SetText(tempText)
+		local wishlist
+		if AtlasLoot.GetItemOnWishlistIconString then
+			wishlist = AtlasLoot:GetItemOnWishlistIconString(itemID)
+			wishlist = wishlist or ""
+		end
+		self.Frame.Name:SetText(wishlist..tempText)
 		tempText = ""
 
 		-- ########################
@@ -729,11 +734,11 @@ function AtlasLoot:QAItemOnClick(arg1)
 			link = GetAchievementLink(achievementID)
 		end
 		if link then
-			if ChatFrameEditBox and ChatFrameEditBox:IsVisible() then
-				ChatFrameEditBox:Insert(link)
-			else
+			--if ChatFrameEditBox and ChatFrameEditBox:IsVisible() then
+			--	ChatFrameEditBox:Insert(link)
+			--else
 				ChatEdit_InsertLink(link)
-			end
+			--end
 		end
 	end
 end

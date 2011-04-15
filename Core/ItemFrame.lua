@@ -104,7 +104,7 @@ function AtlasLoot:ItemsFrameOnCloseButton()
     if AtlasFrame and AtlasFrame:IsVisible() then
         if ATLAS_CUR_LINES then
             for i=1,ATLAS_CUR_LINES do
-                if _G["AtlasBossLine"..i.."_Selected"]:IsVisible() then
+                if _G["AtlasBossLine"..i.."_Selected"] and _G["AtlasBossLine"..i.."_Selected"]:IsVisible() then
                    _G["AtlasBossLine"..i.."_Selected"]:Hide();
                     _G["AtlasBossLine"..i.."_Loot"]:Show();
                 end

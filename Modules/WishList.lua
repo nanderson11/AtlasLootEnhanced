@@ -742,6 +742,70 @@ function WishList:GetWishlistNameByID(id)
 	return self.ownWishLists[id].info.name
 end
 
+function WishList:CheckWishlistForItemOrSpell(id, wishlist)
+	local isListed
+	if self.Info.curWishlist and self.Info.curWishlist ~= 0 then
+		if id and self.Info.IdSave[id] then
+			if wishlist then
+				for k,v in ipairs(self.Info.IdSave[id]) do
+					if v == wishlist then
+						isListed = true
+					end
+				end
+				if not isListed then
+					isListed = false
+				end
+			else
+				isListed = true
+			end
+		else
+			isListed = false
+		end
+	end
+	return isListed
+end
+
+function WishList:GetWishlistNameByID(id)
+	if not id then return end
+	return self.ownWishLists[id].info.name
+end
+
+function WishList:GetWishlistIDByName(name)
+	if not name then return end
+	for id,wishlist in ipairs(self.ownWishLists) do
+		if wishlist.info.name == name then
+			return id
+		end
+	end
+	return nil
+end
+
+function WishList:GetWishListIcon(wishlist)
+	if type(wishlist) == "string" then
+		wishlist = self:GetWishlistIDByName(wishlist)
+	elseif type(wishlist) == "number" then
+		wishlist = wishlist
+	else
+		return nil
+	end
+	return self.ownWishLists[wishlist]["info"]["icon"] or "Interface\\Icons\\INV_Misc_QuestionMark"
+end
+
+function AtlasLoot:GetItemOnWishlistIconString(itemID)
+	if not itemID then return end
+	if WishList.Info.IdSave[itemID] then
+		local retstring = ""
+		for k,v in ipairs(WishList.Info.IdSave[itemID]) do
+			local icon = WishList:GetWishListIcon(v)
+			if icon then
+				retstring = retstring.."|T"..icon..":0|t"
+			end
+		end
+		retstring = retstring.." "
+		return retstring
+	end
+	return nil
+end
 --- Searchs a wishlist
 -- @param name the wishlist name you want to search
 function WishList:SearchWishlist(name)
