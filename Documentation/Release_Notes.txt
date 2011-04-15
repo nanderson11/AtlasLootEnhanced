@@ -10,6 +10,8 @@ v6.03.00
 Fixed a bug with overlapping panel buttons.
 Fixed a bug with empty loot tables.
 Added some missing 4.0.6 stuff.
+
+Added various new 4.1 items.
 Added loot for heroic Zul'Gurub and Zul'Aman.
 Updated Enchanting with Cataclysm recipes.
 Updated Leatherworking with Cataclysm recipes. (Thanks to Xecration)

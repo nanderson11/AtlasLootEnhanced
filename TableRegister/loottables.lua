@@ -1651,7 +1651,6 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsPetStore" },
 				{ "PetsRemoved" },
 				{ "PetsAccessories" },
-				{ "PetsCata" },
 			},
 			["Info"] = { BabbleInventory["Companions"], "AtlasLootCataclysm"},
 		},

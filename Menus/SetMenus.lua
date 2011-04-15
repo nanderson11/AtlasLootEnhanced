@@ -28,7 +28,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 25, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 26, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 27, "T11SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
-				{ 30, "NewItems41", "achievement_firelands-raid_fandral-staghelm", "=ds=New Items", "=q5=Patch 4.1"};
 			};
 		};
 		info = {
@@ -126,7 +125,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 8, "MountsRare", "ability_mount_drake_bronze", "=ds="..AL["Rare Mounts"], ""};
 				{ 9, "MountsCraftQuest", "ability_mount_gyrocoptorelite", "=ds="..BabbleInventory["Quest"].." / "..AL["Crafted Mounts"], ""};
 				{ 10, "MountsEvent", "achievement_halloween_witch_01", "=ds="..AL["World Events"], ""};
-				{ 11, "MountsCata", "INV_Misc_Coin_01", "=ds="..AL["Cataclysm"], ""};
 				{ 17, "MountsHorde", "achievement_pvp_h_16", "=ds="..BabbleFaction["Orgrimmar"].." / "..BabbleFaction["Silvermoon City"], "=ec1="..AL["Horde Mounts"]};
 				{ 18, "MountsHorde#2", "achievement_pvp_h_16", "=ds="..BabbleFaction["Darkspear Trolls"].." / "..BabbleFaction["Thunder Bluff"].." / "..BabbleFaction["Undercity"], "=ec1="..AL["Horde Mounts"]};
 				{ 19, "MountsHorde#3", "achievement_pvp_h_16", "=ds="..AL["Horde Flying Mounts"].." / "..BabbleFaction["The Mag'har"], "=ec1="..AL["Horde Mounts"]};
@@ -151,7 +149,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 4, "PetsRare", "spell_shaman_hex", "=ds="..AL["Rare Companions"], ""};
 				{ 5, "PetsPromotionalCardGame", "inv_netherwhelp", "=ds="..AL["Promotional & Card Game"], ""};
 				{ 6, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
-				{ 7, "PetsCata", "INV_Misc_Coin_01", "=ds="..AL["Cataclysm"], ""};
 				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
 				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement & Faction Reward"], ""};
 				{ 19, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};

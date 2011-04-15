@@ -1311,6 +1311,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 13244, "", "=q3=Gilded Gauntlets", "=ds=#s9#, #a3#", "", "25.06%"};
 				{ 2, 13213, "", "=q3=Smolderweb's Eye", "=ds=#s14#", "", "24.97%"};
 				{ 3, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "", "12.49%"};
+				{ 5, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#"};
 				{ 16, 16715, "", "=q3=Wildheart Boots", "=ds=#s12#, #a2# (D1, #c1#)", "", "13.03%"};
 			};
 		};
@@ -1359,6 +1360,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 12835, "", "=q3=Plans: Annihilator", "=ds=#p2# (300)", "", "8.37%"};
 				{ 5, 12798, "", "=q3=Annihilator", "=ds=#h1#, #w1#"};
 				{ 7, 21955, "", "=q2=Design: Black Diamond Crab", "=ds=#p12# (300)"};
+				{ 16, 12264, "", "=q3=Worg Carrier", "=ds=#e13#"};
 			};
 		};
 		info = {

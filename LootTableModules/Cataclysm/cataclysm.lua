@@ -2102,8 +2102,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 69580, "", "=q4=Mask of Restless Spirits", "=ds=#s1#, #a3#"};
 				{ 7, 69582, "", "=q4=Skullpiercer Pauldrons", "=ds=#s3#, #a4#"};
 				{ 8, 69583, "", "=q4=Legguards of the Unforgiving", "=ds=#s11#, #a4#"};
-				{ 16, 69577, "", "=q4=Amani Scepter of Rites", "=ds=#h1#, #w6#"};
-				{ 17, 69577, "", "=q4=Mace of the Sacrificed", "=ds=#h1#, #w6#"};
+				{ 16, 69581, "", "=q4=Amani Scepter of Rites", "=ds=#h1#, #w6#"};
+				{ 17, 69575, "", "=q4=Mace of the Sacrificed", "=ds=#h1#, #w6#"};
 			};
 		};
 		info = {
@@ -3136,13 +3136,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "1000 #honor#" },
 				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "1000 #honor#" },
 				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "1000 #honor#" },
-				{ 17, 52555, "", "=q1=Hypnotic Dust", "=ds=", "200 #honor#" },
-				{ 18, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "800 #honor#" },
-				{ 19, 52721, "", "=q3=Heavenly Shard", "=ds=", "1200 #honor#" },
-				{ 20, 52976, "", "=q1=Savage Leather", "=ds=", "750 #honor#" },
-				{ 21, 53010, "", "=q1=Embersilk Cloth", "=ds=", "2500 #honor#" },
-				{ 22, 52185, "", "=q1=Elementium Ore", "=ds=", "2000 #honor#" },
-				{ 23, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "3000 #honor#" },
+				{ 17, 52722, "", "=q4=Maelstrom Crystal", "=ds=", "3750 #honor#" },
+				{ 18, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "1500 #honor#" },
+				{ 19, 53010, "", "=q1=Embersilk Cloth", "=ds=", "1250 #honor#" },
+				{ 20, 52185, "", "=q1=Elementium Ore", "=ds=", "1000 #honor#" },
+				{ 21, 52721, "", "=q3=Heavenly Shard", "=ds=", "600 #honor#" },
+				{ 22, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "400 #honor#" },
+				{ 23, 52976, "", "=q1=Savage Leather", "=ds=", "375 #honor#" },
+				{ 24, 52555, "", "=q1=Hypnotic Dust", "=ds=", "100 #honor#" },
 			};
 		};
 		info = {
@@ -3793,12 +3794,12 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
 				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
-				{ 3, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
+				{ 3, 69227, "", "=q3=Fool's Gold", "=ds=" },
 				{ 4, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
 				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
 				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
 				{ 8, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
-				{ 9, 69227, "", "=q3=Fool's Gold", "=ds=" },
+				{ 9, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
 				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
 				{ 12, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
 				{ 13, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
@@ -3948,21 +3949,19 @@ local moduleName = "AtlasLootCataclysm"
 				};
 				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
 				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 4, 12529, "", "=q3=Smolderweb Carrier", "=q1=#m4#: #QUESTID:4862#"};
-				{ 5, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 6, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
-				{ 7, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 8, 12264, "", "=q3=Worg Carrier", "=q1=#m4#: #QUESTID:4729#"};
-				{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: #QUESTID:7946#"};
-				{ 10, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 11, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
-				{ 12, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
-				{ 13, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 14, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
-				{ 15, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
-				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
-				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
-				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{ 4, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 5, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
+				{ 6, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 7, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: #QUESTID:7946#"};
+				{ 8, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
+				{ 10, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
+				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 12, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
+				{ 13, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
+				{ 14, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
+				{ 15, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 16, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
@@ -3981,6 +3980,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
 				{ 7, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
 				{ 8, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
+				{ 9, 69821, "", "=q3=Pterrorday Hatchling", "=p2=#p25#"};
+				{ 10, 69824, "", "=q3=Voodoo Figurine", "=p2=#p25#"};
 				{ 17, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
 				{ 18, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
 				{ 19, 11826, "", "=q1=Lil' Smoky", "=q2=#p5#"};
@@ -4066,9 +4067,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
 				{ 21, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
 				{ 23, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 24, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
-				{ 25, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 26, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+				{ 24, 68673, "", "=q3=Smolderweb Egg", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 25, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 26, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
+				{ 27, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 28, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
 			};
 		};
 		info = {
@@ -4201,49 +4204,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Companion Accessories"],
-			module = moduleName, menu = "PETMENU", instance = "Pets",
-		};
-	}
-
-	AtlasLoot_Data["PetsCata"] = {
-		["Normal"] = {
-			{
-				{ 1, 60847, "", "=q4=Crawling Claw", "=q2=#p25#"};
-				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
-				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=#p25#"};
-				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5125#"};
-				{ 5, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
-				{ 6, 67282, "", "=q3=Elementium Geode", "=q2=#p23#"};
-				{ 7, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
-				{ 8, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
-				{ 9, 64403, "", "=q3=Fox Kit", "=ds="..BabbleZone["Tol Barad Peninsula"]};
-				{
-					{ 10, 65364, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Horde"]};
-					{ 10, 65363, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Alliance"]};
-				};
-				{
-					{ 11, 65362, "", "=q3=Guild Page", "#ACHIEVEMENTID:5179#, =ec1="..BabbleFaction["Horde"]};
-					{ 11, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1="..BabbleFaction["Alliance"]};
-				};
-				{ 12, 62540, "", "=q3=Lil' Deathwing", "#ACHIEVEMENTID:5377#"};
-				{ 13, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
-				{ 14, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
-				{
-					{ 15, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1="..BabbleFaction["Horde"]};
-					{ 15, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1="..BabbleFaction["Alliance"]};
-				};
-				{ 16, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
-				{ 17, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 18, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
-				{ 19, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 20, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
-				{ 21, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
-				{ 22, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 23, 46325, "", "=q1=Withers", "=q1="..AL["Quest Reward"]..": "..BabbleZone["Darkshore"]};
-			};
-		};
-		info = {
-			name = BabbleInventory["Companions"].." - "..AL["Cataclysm"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -4527,10 +4487,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
 				{ 23, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
 				{ 25, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 26, 63046, "", "=q4=Reins of the Grey Riding Camel", "=q2="..AL["Dormus the Camel-Hoarder"], ""};
-				{ 27, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 28, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 29, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 26, 67151, "", "=q4=Reins of Poseidus", "=q2=", ""};
+				{ 27, 63046, "", "=q4=Reins of the Grey Riding Camel", "=q2="..AL["Dormus the Camel-Hoarder"], ""};
+				{ 28, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 29, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 30, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {
@@ -4603,9 +4564,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
 				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
 				{ 8, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
-				{ 9, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=q2=#m24#"};
+				{ 9, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
 				{ 10, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
-				{ 11, 49285, "", "=q3=X-51 Nether-Rocket", "=q2=#m24#"};
+				{ 11, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
@@ -4663,39 +4624,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["World Events"],
-			module = moduleName, menu = "MOUNTMENU",
-		};
-	}
-
-	AtlasLoot_Data["MountsCata"] = {
-		["Normal"] = {
-			{
-				{ 1, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
-				{ 3, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
-				{ 4, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
-				{ 5, 62462, "", "=q4=Goblin Turbo-Trike Key", "=ds=#e26#"};
-				{ 6, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};
-				{ 7, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};
-				{ 8, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
-				{ 9, 63046, "", "=q4=Reins of the Grey Riding Camel", "=ds=#e26#", ""};
-				{ 10, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
-				{ 11, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 12, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 13, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
-				{ 14, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
-				{ 15, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
-				{ 16, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
-				{ 17, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 18, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 19, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{ 20, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
-				{ 21, 62461, "", "=q3=Goblin Trike Key", "=ds=#e26#"};
-				{ 22, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
-			};
-		};
-		info = {
-			name = AL["Cataclysm"],
 			module = moduleName, menu = "MOUNTMENU",
 		};
 	}
@@ -4918,13 +4846,14 @@ local moduleName = "AtlasLootCataclysm"
 				extraText = ": "..AL["Accessories"].." & "..AL["Weapons"];
 			};
 			{
-				{ 2, 52555, "", "=q1=Hypnotic Dust", "=ds=", "200 #justice#" },
-				{ 3, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "800 #justice#" },
-				{ 4, 52721, "", "=q3=Heavenly Shard", "=ds=", "1200 #justice#" },
-				{ 5, 52976, "", "=q1=Savage Leather", "=ds=", "750 #justice#" },
-				{ 17, 53010, "", "=q1=Embersilk Cloth", "=ds=", "2500 #justice#" },
-				{ 18, 52185, "", "=q1=Elementium Ore", "=ds=", "2000 #justice#" },
-				{ 19, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "3000 #justice#" },
+				{ 2, 52722, "", "=q4=Maelstrom Crystal", "=ds=", "3750 #justice#" },
+				{ 3, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "1500 #justice#" },
+				{ 4, 53010, "", "=q1=Embersilk Cloth", "=ds=", "1250 #justice#" },
+				{ 5, 52185, "", "=q1=Elementium Ore", "=ds=", "1000 #justice#" },
+				{ 17, 52721, "", "=q3=Heavenly Shard", "=ds=", "600 #justice#" },
+				{ 18, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "400 #justice#" },
+				{ 19, 52976, "", "=q1=Savage Leather", "=ds=", "375 #justice#" },
+				{ 20, 52555, "", "=q1=Hypnotic Dust", "=ds=", "100 #justice#" },
 				extraText = ": "..AL["Other"]
 			};
 		};
@@ -4984,26 +4913,6 @@ local moduleName = "AtlasLootCataclysm"
 
 	AtlasLoot_Data["NewItems41"] = {
 		["Normal"] = {
-			{
-				{ 2, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },--TCG
-				{ 3, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },--TCG
-				{ 4, 68833, "", "=q1=Panther Cub", "=ds=#e13#" },
-				{ 5, 69239, "", "=q1=Winterspring Cub", "=ds=#e13#" },
-				{ 6, 69648, "", "=q3=Legs", "=ds=#e13#" },
-				{ 7, 69821, "", "=q3=Pterrordax Hatchling", "=ds=#e13#" },
-				{ 8, 69824, "", "=q3=Voodoo Figurine", "=ds=#e13#" },
-				{ 9, 69847, "", "=q3=Guardian Cub", "=ds=#e13#" },
-				{ 17, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },--TCG
-				{ 18, 69747, "", "=q4=Amani Battle Bear", "=ds=#e27#" },
-				{ 19, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#" },
-				{ 20, 69213, "", "=q4=Flameward Hippogryph", "=ds=#e27#" },
-				{ 21, 69226, "", "=q4=Reins of the Beryl Fire Hawk", "=ds=#e27#" },
-				{ 22, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=#e27#" },
-				{ 23, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },--TCG
-				{ 24, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#" },
-				{ 25, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
-				extraText = ": "..BabbleInventory["Companions"].." & "..BabbleInventory["Mounts"];
-			};
 			{
 				{ 1, 69001, "", "=q4=Ancient Petrified Seed", "=ds=#s14#" },
 				{ 2, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
