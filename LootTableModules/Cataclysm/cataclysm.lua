@@ -4746,10 +4746,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", ""};
 				{ 5, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", ""};
 				{ 6, 61935, "", "=q7=Tarnished Raging Berserker's Helm", "=ds=#s1#, #a3#", ""};
-				{ 7, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", ""};
+				{ 7, 69887, "", "=q7=Burnished Helm of Might", "=ds=#s1#, #a4#", ""};
+				{ 8, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", ""};
 				{ 17, 62040, "", "=q7=Ancient Bloodmoon Cloak", "=ds=#s4#", ""};
 				{ 18, 62039, "", "=q7=Inherited Cape of the Black Baron", "=ds=#s4#", ""};
-				{ 19, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", ""};
+				{ 19, 69892, "", "=q7=Ripped Sandstorm Cloak", "=ds=#s4#", ""};
+				{ 20, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", ""};
 			};
 		};
 		info = {

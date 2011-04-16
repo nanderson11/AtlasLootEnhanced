@@ -7965,7 +7965,7 @@ local moduleName = "AtlasLootWotLK"
 		---------------------------
 		--- The Wyrmrest Accord ---
 		---------------------------
--- new item?? http://ptr.wowhead.com/item=46331
+
 	AtlasLoot_Data["TheWyrmrestAccord"] = {
 		["Normal"] = {
 			{
