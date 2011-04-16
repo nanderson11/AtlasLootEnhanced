@@ -17,8 +17,6 @@ AtlasLoot_ModuleList_Loader = {
 
 AtlasLoot_InstanceList_Loader = {
 
-AtlasLoot_InstanceList_Loader = {
-
 ["T456Rogue"] = 2,
 ["TailoringSoulclothEm"] = 5,
 ["ZAZuljin"] = 2,
