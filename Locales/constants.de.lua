@@ -1103,7 +1103,6 @@ if AL then
 	-- AL["Timed Reward Chest 1"] = true;
 	-- AL["Timed Reward Chest 2"] = true;
 	-- AL["Timed Reward Chest 3"] = true;
-	-- AL["Timed Reward Chest 4"] = true;
 	AL["The Talon King's Coffer"] = "Der Kasten des Klauenkönigs";
 	AL["Krom Stoutarm's Chest"] = "Krom Starkarms Truhe";
 	AL["Garrett Family Chest"] = "Familientruhe der Garretts";

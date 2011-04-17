@@ -4696,7 +4696,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-    		------------------
+    	------------------
 		--- Zul'Farrak ---
 		------------------
 
@@ -4710,18 +4710,6 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleBoss["Gahz'rilla"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFSandfury"] = {
-		["Normal"] = {
-			{
-				{ 1, 8444, "", "=q1=Executioner's Key", "=ds=#e9#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Sandfury Executioner"],
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};

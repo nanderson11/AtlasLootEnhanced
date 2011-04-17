@@ -151,7 +151,6 @@ AtlasLoot_TextParsing = {
 	{ "#m24#", AL["Card Game Item"] },
 	{ "#m26#", AL["Conjured Item"] },
 	{ "#m27#", AL["Used to summon boss"] },
-	{ "#m28#", AL["Feast of Winter Veil"] },
 	{ "#m29#", AL["Tradable for sunmote + item above"] },
 	{ "#m30#", AL["Tier 1"] },
 	{ "#m31#", AL["Tier 2"] },
@@ -241,9 +240,6 @@ AtlasLoot_TextParsing = {
 	{ "#brd4#", BabbleBoss["Grizzle"] },
 	{ "#brd5#", BabbleBoss["Hedrum the Creeper"] },
 	{ "#brd6#", BabbleBoss["Ok'thor the Breaker"] },
-
-	-- Chests, Boxes, etc.
-	{ "#x1#", AL["Timed Reward Chest 4"] },
 
 	-- NPC Names
 	{ "#n11#", AL["Trash Mobs"] },

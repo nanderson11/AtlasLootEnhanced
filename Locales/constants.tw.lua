@@ -1102,7 +1102,6 @@ if AL then
 	AL["Timed Reward Chest 1"] = "限時任務獎勵箱子 1";
 	AL["Timed Reward Chest 2"] = "限時任務獎勵箱子 2";
 	AL["Timed Reward Chest 3"] = "限時任務獎勵箱子 3";
-	AL["Timed Reward Chest 4"] = "限時任務獎勵箱子 4";
 	AL["The Talon King's Coffer"] = "鷹王的保險箱";
 	AL["Krom Stoutarm's Chest"] = "克羅姆·粗臂的箱子";
 	AL["Garrett Family Chest"] = "加勒特的寶箱";

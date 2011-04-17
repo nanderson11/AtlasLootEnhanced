@@ -1040,7 +1040,6 @@ if AL then
 	AL["Timed Reward Chest 1"] = true;
 	AL["Timed Reward Chest 2"] = true;
 	AL["Timed Reward Chest 3"] = true;
-	AL["Timed Reward Chest 4"] = true;
 	AL["The Talon King's Coffer"] = true;
 	AL["Krom Stoutarm's Chest"] = true;
 	AL["Garrett Family Chest"] = true;

@@ -1094,7 +1094,6 @@ if AL then
 	AL["Timed Reward Chest 1"] = "1-й сундук, награда за время";
 	AL["Timed Reward Chest 2"] = "2-й сундук, награда за время";
 	AL["Timed Reward Chest 3"] = "3-й сундук, награда за время";
-	AL["Timed Reward Chest 4"] = "4-й сундук, награда за время";
 	AL["The Talon King's Coffer"] = "Сундук Короля Когтей";
 	AL["Krom Stoutarm's Chest"] = "Сундук Крома Крепкорука";
 	AL["Garrett Family Chest"] = "Сундук семейства Гарретт";

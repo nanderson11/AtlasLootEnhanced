@@ -1359,7 +1359,6 @@ AtlasLoot_LootTableRegister = {
 		["ZulFarrak"] = {
 			["Bosses"] = {
 				{ "ZFGahzrilla", 5 },
-				{ "ZFSandfury", 6 },
 				{ "ZFSezzziz", 12 },
 				{ "ZFChiefUkorzSandscalp", 14 },
 				{ "ZFWitchDoctorZumrah", 16 },

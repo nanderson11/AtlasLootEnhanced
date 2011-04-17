@@ -15,6 +15,7 @@ Added various new 4.1 items.
 Added loot for heroic Zul'Gurub and Zul'Aman.
 Updated Enchanting with Cataclysm recipes.
 Updated Leatherworking with Cataclysm recipes. (Thanks to Xecration)
+Updated Children's Week.
 Many minor fixes, additions and translations.
 
 v6.02.00

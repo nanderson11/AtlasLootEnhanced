@@ -1104,7 +1104,6 @@ if AL then
 	AL["Timed Reward Chest 1"] = "Coffre du parcours rapide 1";
 	AL["Timed Reward Chest 2"] = "Coffre du parcours rapide 2";
 	AL["Timed Reward Chest 3"] = "Coffre du parcours rapide 3";
-	AL["Timed Reward Chest 4"] = "Coffre du parcours rapide 4";
 	AL["The Talon King's Coffer"] = "Le coffre du roi-serre";
 	AL["Krom Stoutarm's Chest"] = "Coffre de Krom Rudebras";
 	AL["Garrett Family Chest"] = "Coffre de la famille Garrett";

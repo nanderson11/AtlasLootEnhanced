@@ -2083,6 +2083,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 69570, "", "=q4=Waistband of Hexes", "=ds=#s10#, #a3#"};
 				{ 4, 69573, "", "=q4=Pauldrons of Sacrifice", "=ds=#s3#, #a4#"};
 				{ 5, 69571, "", "=q4=Soul Drain Signet", "=ds=#s13#"};
+				{ 7, 69264, "", "=q1=The Hex Lord's Fetish", "=ds=#m3#"};
 			};
 		};
 		info = {
@@ -4089,11 +4090,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 46544, "", "=q3=Curious Wolvar Pup", "=ds="..AL["Children's Week"]};
 				{ 6, 32616, "", "=q3=Egbert's Egg", "=ds="..AL["Children's Week"]};
 				{ 7, 32622, "", "=q3=Elekk Training Collar", "=ds="..AL["Children's Week"]};
-				{ 8, 23007, "", "=q1=Piglet's Collar", "=ds="..AL["Children's Week"]};
-				{ 9, 23015, "", "=q1=Rat Cage", "=ds="..AL["Children's Week"]};
-				{ 10, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
-				{ 11, 23002, "", "=q1=Turtle Box", "=ds="..AL["Children's Week"]};
-				{ 13, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
+				{ 8, 69648, "", "=q3=Legs", "=ds="..AL["Children's Week"]};
+				{ 9, 23007, "", "=q1=Piglet's Collar", "=ds="..AL["Children's Week"]};
+				{ 10, 23015, "", "=q1=Rat Cage", "=ds="..AL["Children's Week"]};
+				{ 11, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
+				{ 12, 66073, "", "=q1=Snail Shell", "=ds="..AL["Children's Week"]};
+				{ 13, 23002, "", "=q1=Turtle Box", "=ds="..AL["Children's Week"]};
+				{ 15, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
 				{ 16, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
 				{ 17, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
 				{ 18, 21305, "", "=q1=Red Helper Box", "=ds="..AL["Feast of Winter Veil"]};
@@ -4488,7 +4491,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 23, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
 				{ 25, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
 				{ 26, 67151, "", "=q4=Reins of Poseidus", "=q2=", ""};
-				{ 27, 63046, "", "=q4=Reins of the Grey Riding Camel", "=q2="..AL["Dormus the Camel-Hoarder"], ""};
+				{ 27, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
 				{ 28, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
 				{ 29, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
 				{ 30, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
@@ -4633,7 +4636,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 2, 33809, "", "=q4=Amani War Bear", "=q2="..AL["Timed Reward Chest 4"]..", =q1="..BabbleZone["Zul'Aman"]};
+				{ 2, 33809, "", "=q4=Amani War Bear", "=q1="..BabbleZone["Zul'Aman"], ""};
 				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#", "", "0.43%"};
 				{ 4, 19902, "", "=q4=Swift Zulian Tiger", "#ACHIEVEMENTID:880#", "", " 0.70%"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
@@ -4784,7 +4787,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 2, 58150, "", "=q3=Cluster of Stars", "=ds=#s1#, #a2#", "2200 #justice#" },
 				{ 3, 58151, "", "=q3=Somber Shawl", "=ds=#s3#, #a2#", "1650 #justice#" },
-				{ 4, 58139, "", "=q3=Robes of Forgetfulness", "=ds=#s5#, #a2#", "2200 #justice#" },
+				{ 4, 58139, "", "=q3=Chestguard of Forgetfulness", "=ds=#s5#, #a2#", "2200 #justice#" },
 				{ 5, 58152, "", "=q3=Blessed Hands of Elune", "=ds=#s9#, #a2#", "1650 #justice#" },
 				{ 6, 57919, "", "=q3=Thatch Eave Vines", "=ds=#s10#, #a2#", "1650 #justice#" },
 				{ 7, 58140, "", "=q3=Leggings of Late Blooms", "=ds=#s11#, #a2#", "2200 #justice#" },
