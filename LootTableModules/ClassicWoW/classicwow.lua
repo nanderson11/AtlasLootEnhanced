@@ -4647,10 +4647,10 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["WailingCavernsLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], "=ec1=#j28#"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], ""};
 				{ 2, 5425, "", "=q3=Runescale Girdle", "=ds=#s8#, #a3#", "", "50%"};
 				{ 3, 5426, "", "=q3=Serpent's Kiss", "=ds=#h1#, #w1#", "", "35%"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], "=ec1=#j28#"};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], ""};
 				{ 6, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
 				{ 7, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Cobrahn"], ""};
