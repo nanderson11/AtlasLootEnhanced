@@ -194,6 +194,8 @@ if AL then
 	AL["Show Price"] = "Цена";
 	AL["Skill"] = "Навык";
 	AL["Location"] = "Место";
+	AL["ilvl 359"] = "ilvl 359";
+	AL["ilvl 372"] = "ilvl 372";
 
 	-- #######################################
 	-- UI things END
@@ -787,6 +789,12 @@ if AL then
 	AL["Mottled Drake"] = "Пятнистый верховой дракон";
 	AL["Grim Campfire"] = "Мрачный костер";
 	AL["Landro's Lil' XT"] = "Разрушитель XXS-002 Ландро";
+	
+	-- Fourteenth set
+	AL["War of the Elements"] = "War of the Elements";
+
+	-- Fifteenth set
+	AL["Twilight of the Dragons"] = "Twilight of the Dragons";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Старые нарады PvP";
