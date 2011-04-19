@@ -28,6 +28,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 25, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 26, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 27, "T11SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11 Set"], "=q5="..AL["Cataclysm"]};
+				{ 29, "NewItems41", "inv_helm_robe_raidmage_i_01", "Patch 4.2 Trinkets" };
 			};
 		};
 		info = {

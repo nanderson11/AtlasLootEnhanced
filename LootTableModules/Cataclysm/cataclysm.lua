@@ -1992,7 +1992,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
 				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
 				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
-				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h3#, #w6#", ""};
+				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h2#, #w6#", ""};
 				{ 7, 69626, "", "=q4=Jin'do's Verdict", "=ds=#w9#", ""};
 				{ 8, 69624, "", "=q4=Legacy of Arlokk", "=ds=#w9#", ""};
 				{ 16, 69629, "", "=q4=Shield of the Blood God", "=ds=#w8#", ""};
@@ -3137,14 +3137,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "1000 #honor#" },
 				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "1000 #honor#" },
 				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "1000 #honor#" },
-				{ 17, 52722, "", "=q4=Maelstrom Crystal", "=ds=", "3750 #honor#" },
-				{ 18, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "1500 #honor#" },
-				{ 19, 53010, "", "=q1=Embersilk Cloth", "=ds=", "1250 #honor#" },
-				{ 20, 52185, "", "=q1=Elementium Ore", "=ds=", "1000 #honor#" },
-				{ 21, 52721, "", "=q3=Heavenly Shard", "=ds=", "600 #honor#" },
-				{ 22, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "400 #honor#" },
-				{ 23, 52976, "", "=q1=Savage Leather", "=ds=", "375 #honor#" },
-				{ 24, 52555, "", "=q1=Hypnotic Dust", "=ds=", "100 #honor#" },
+				{ 17, 52722, "", "=q4=Maelstrom Crystal", "3750 #honor#" },
+				{ 18, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "1500 #honor#" },
+				{ 19, 53010, "", "=q1=Embersilk Cloth", "1250 #honor#" },
+				{ 20, 52185, "", "=q1=Elementium Ore", "1000 #honor#" },
+				{ 21, 52721, "", "=q3=Heavenly Shard", "600 #honor#" },
+				{ 22, 52719, "", "=q2=Greater Celestial Essence", "400 #honor#" },
+				{ 23, 52976, "", "=q1=Savage Leather", "375 #honor#" },
+				{ 24, 52555, "", "=q1=Hypnotic Dust", "100 #honor#" },
 			};
 		};
 		info = {
@@ -3981,8 +3981,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
 				{ 7, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
 				{ 8, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
-				{ 9, 69821, "", "=q3=Pterrorday Hatchling", "=p2=#p25#"};
-				{ 10, 69824, "", "=q3=Voodoo Figurine", "=p2=#p25#"};
+				{ 9, 69821, "", "=q3=Pterrordax Hatchling", "=q2=#p25#"};
+				{ 10, 69824, "", "=q3=Voodoo Figurine", "=q2=#p25#"};
 				{ 17, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
 				{ 18, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
 				{ 19, 11826, "", "=q1=Lil' Smoky", "=q2=#p5#"};
@@ -4851,14 +4851,14 @@ local moduleName = "AtlasLootCataclysm"
 				extraText = ": "..AL["Accessories"].." & "..AL["Weapons"];
 			};
 			{
-				{ 2, 52722, "", "=q4=Maelstrom Crystal", "=ds=", "3750 #justice#" },
-				{ 3, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "=ds=", "1500 #justice#" },
-				{ 4, 53010, "", "=q1=Embersilk Cloth", "=ds=", "1250 #justice#" },
-				{ 5, 52185, "", "=q1=Elementium Ore", "=ds=", "1000 #justice#" },
-				{ 17, 52721, "", "=q3=Heavenly Shard", "=ds=", "600 #justice#" },
-				{ 18, 52719, "", "=q2=Greater Celestial Essence", "=ds=", "400 #justice#" },
-				{ 19, 52976, "", "=q1=Savage Leather", "=ds=", "375 #justice#" },
-				{ 20, 52555, "", "=q1=Hypnotic Dust", "=ds=", "100 #justice#" },
+				{ 2, 52722, "", "=q4=Maelstrom Crystal", "3750 #justice#" },
+				{ 3, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "1500 #justice#" },
+				{ 4, 53010, "", "=q1=Embersilk Cloth", "1250 #justice#" },
+				{ 5, 52185, "", "=q1=Elementium Ore", "1000 #justice#" },
+				{ 17, 52721, "", "=q3=Heavenly Shard", "600 #justice#" },
+				{ 18, 52719, "", "=q2=Greater Celestial Essence", "400 #justice#" },
+				{ 19, 52976, "", "=q1=Savage Leather", "375 #justice#" },
+				{ 20, 52555, "", "=q1=Hypnotic Dust", "100 #justice#" },
 				extraText = ": "..AL["Other"]
 			};
 		};
@@ -4949,16 +4949,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 28, 69110, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" },
 				{ 29, 69167, "", "=q4=Vessel of Acceleration", "=ds=#s14#" },
 				{ 30, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
-				extraText = ": "..BabbleInventory["Trinket"];
-			};
-			{
-				{ 2, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#" },
-				{ 3, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#" },
-				extraText = ": "..AL["Misc"];
 			};
 		};
 		info = {
-			name = "Patch 4.1 Items",
+			name = "Patch 4.2 Trinkets",
 			module = moduleName, menu = "SETMENU",
 		};
 	}

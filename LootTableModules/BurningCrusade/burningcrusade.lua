@@ -3328,7 +3328,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			module = moduleName, instance = "TempestKeepTheEye",
 		};
 	};
-
+--[[
 		----------------
 		--- Zul'Aman ---
 		----------------
@@ -3509,7 +3509,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			module = moduleName, instance = "ZulAman",
 		};
 	};
-
+--]]
 	----------------
 	--- Factions ---
 	----------------

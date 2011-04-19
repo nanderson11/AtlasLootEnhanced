@@ -900,7 +900,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["The Eye"], "AtlasLootBurningCrusade" },
 		},
 
-		["ZulAman"] = {
+--[[	["ZulAman"] = {
 			["Bosses"] = {
 				{ "ZANalorakk", 3 },
 				{ "ZAAkilZon", 6 },
@@ -912,7 +912,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ZATrash", 35 },	
 			},
 			["Info"] = { BabbleZone["Zul'Aman"], "AtlasLootBurningCrusade" },
-		},
+		},--]]
 
 -------------------------
 --- Classic Instances ---
