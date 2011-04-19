@@ -3348,7 +3348,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Nalorakk"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3367,7 +3367,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Akil'zon"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3386,7 +3386,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Jan'alai"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3405,7 +3405,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Halazzi"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3431,7 +3431,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Hex Lord Malacrass"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3456,7 +3456,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Zul'jin"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3489,7 +3489,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = "Timed Reward Chest",
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 
@@ -3506,7 +3506,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = AL["Trash Mobs"],
-			module = moduleName, instance = "ZulAman",
+			module = moduleName, instance = "ZulAman70",
 		};
 	};
 --]]

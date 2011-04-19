@@ -2023,7 +2023,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Akil'zon"],
-			module = moduleName, instance = "ZulAman85",
+			module = moduleName, instance = "ZulAman",
 		};
 	};
 
@@ -2039,7 +2039,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Nalorakk"],
-			module = moduleName, instance = "ZulAman85",
+			module = moduleName, instance = "ZulAman",
 		};
 	};
 
@@ -2055,7 +2055,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Jan'alai"],
-			module = moduleName, instance = "ZulAman85",
+			module = moduleName, instance = "ZulAman",
 		};
 	};
 
@@ -2071,7 +2071,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Halazzi"],
-			module = moduleName, instance = "ZulAman85",
+			module = moduleName, instance = "ZulAman",
 		};
 	};
 
@@ -2088,7 +2088,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Hex Lord Malacrass"],
-			module = moduleName, instance = "ZulAman85",
+			module = moduleName, instance = "ZulAman",
 		};
 	};
 
@@ -2109,7 +2109,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Daakara",
-			module = moduleName, instance = "ZulAman85",
+			module = moduleName, instance = "ZulAman",
 		};
 	};
 

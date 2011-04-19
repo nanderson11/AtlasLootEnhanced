@@ -145,14 +145,14 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm" },
 		},
 
-		["ZulAman85"] = {
+		["ZulAman"] = {
 			["Bosses"] = {
-				{ "ZA85AkilZon", },
-				{ "ZA85Nalorakk", },
-				{ "ZA85JanAlai", },
-				{ "ZA85Halazzi", },
-				{ "ZA85Malacrass", },
-				{ "ZA85Daakara", },
+				{ "ZA85AkilZon", 6 },
+				{ "ZA85Nalorakk", 3 },
+				{ "ZA85JanAlai", 8 },
+				{ "ZA85Halazzi", 10 },
+				{ "ZA85Malacrass", 12 },
+				{ "ZA85Daakara", 21 },
 			},
 			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm" },
 		},
@@ -900,7 +900,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["The Eye"], "AtlasLootBurningCrusade" },
 		},
 
---[[	["ZulAman"] = {
+--[[	["ZulAman70"] = {
 			["Bosses"] = {
 				{ "ZANalorakk", 3 },
 				{ "ZAAkilZon", 6 },
