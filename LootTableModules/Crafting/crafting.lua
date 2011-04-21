@@ -2540,84 +2540,75 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EnchantingWeapon"] = {
 		["Normal"] = {
 			{
-
-
-			};
-		};
-		info = {
-			name = ENCHANTING..": "..AL["Enchant Weapon"],
-			module = moduleName, menu = "ENCHANTINGMENU", instance = "Enchanting",
-		};
-	};
-
-	AtlasLoot_Data["EnchantingWeaponNEW"] = {
-		["Normal"] = {
-			{
----Damage
-				{ 1, "s74211", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Elemental Slayer", "=ds=#sr# 470", "=ds="..AL["Trainer"]};
-				{ 9, "s44621", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Giant Slayer", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 27, "s27967", "inv_misc_note_01", "=ds=Enchant Weapon - Major Striking", "=ds=#sr# 340", "=ds="..BabbleFaction["The Consortium"].." - "..BabbleFaction["Honored"]};
-				{ 5, "s20031", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Superior Striking", "=ds=#sr# 300", "=ds="..AL["Drop"]};
-				{ 11, "s13943", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Greater Striking", "=ds=#sr# 245", "=ds="..AL["Trainer"]};
-				{ 12, "s13915", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Demonslaying", "=ds=#sr# 230", "=ds="..AL["Drop"]};
-				{ 13, "s13693", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Striking", "=ds=#sr# 195", "=ds="..AL["Trainer"]};
-				{ 16, "s13653", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Lesser Beastslayer", "=ds=#sr# 175", "=ds="..AL["Drop"]};
-				{ 15, "s13655", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Lesser Elemental Slayer", "=ds=#sr# 175", "=ds="..AL["Drop"]};
-				{ 17, "s13503", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lesser Striking", "=ds=#sr# 140", "=ds="..AL["Trainer"]};
-				{ 18, "s7786", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Minor Beastslayer", "=ds=#sr# 90", "=ds="..AL["Drop"]};
-				{ 19, "s7788", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Minor Striking", "=ds=#sr# 90", "=ds="..AL["Trainer"]};
----Agility
-				{ 11, "s44633", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Exceptional Agility", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
-				{ 16, "s27984", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Mongoose", "=ds=#sr# 375", "=ds="..AL["Drop"]};
-				{ 25, "s42620", "inv_misc_note_01", "=ds=Enchant Weapon - Greater Agility", "=ds=#sr# 350", "=ds="..BabbleFaction["The Violet Eye"].." - "..BabbleFaction["Exalted"]};
-				{ 7, "s23800", "inv_misc_note_01", "=ds=Enchant Weapon - Agility", "=ds=#sr# 290", "=ds="..BabbleFaction["Timbermaw Hold"].." - "..BabbleFaction["Honored"]};
----Intellect
-				{ 1, "s74242", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Power Torrent", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 26, "s27968", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Intellect", "=ds=#sr# 340", "=ds="..AL["Drop"]};
-				{ 2, "s23804", "inv_misc_note_01", "=ds=Enchant Weapon - Mighty Intellect", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
----Strength
-				{ 24, "s27972", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Potency", "=ds=#sr# 350", "=ds="..AL["Drop"]};
-				{ 8, "s23799", "inv_misc_note_01", "=ds=Enchant Weapon - Strength", "=ds=#sr# 290", "=ds="..AL["Vendor"]};
----Spell Power
-				{ 7, "s60714", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Mighty Spellpower", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 13, "s44629", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Exceptional Spellpower", "=ds=#sr# 395", "=ds="..AL["Trainer"] };
-				{ 17, "s27982", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Soulfrost", "=ds=#sr# 375"};
-				{ 18, "s27981", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Sunfire", "=ds=#sr# 375"};
-				{ 22, "s34010", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Healing", "=ds=#sr# 350"};
-				{ 23, "s27975", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Spellpower", "=ds=#sr# 350"};
-				{ 29, "s22750", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Healing Power", "=ds=#sr# 300"};
-				{ 4, "s22749", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Spellpower", "=ds=#sr# 300"};
-				{ 14, "s21931", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Winter's Might", "=ds=#sr# 190"};
----Spirit
-				{ 1, "s74225", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Heartsong", "=ds=#sr# 485", "=ds="..AL["Trainer"]};
-				{ 12, "s44510", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Exceptional Spirit", "=ds="..AL["Trainer"] };
-				{ 3, "s23803", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mighty Spirit", "=ds=#sr# 300"};
----Attack Power
-				{ 1, "s74246", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Landslide", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 4, "s59621", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Berserking", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 8, "s60707", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Superior Potency", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 14, "s60621", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Greater Potency", "=ds="..AL["Trainer"] };
----Proc
-				{ 1, "s74244", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Windwalk", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
-				{ 1, "s74223", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Hurricane", "=ds=#sr# 480", "=ds="..AL["Trainer"]};
-				{ 1, "s74197", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Avalanche", "=ds=#sr# 450", "=ds="..AL["Trainer"]};
-				{ 1, "s74195", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mending", "=ds=#sr# 450", "=ds="..AL["Trainer"]};
-				{ 1, "s64441", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Blade Ward", "=ds=#sr# 450"};
-				{ 2, "s64579", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Blood Draining", "=ds=#sr# 450"};
-				{ 5, "s59625", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Black Magic", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 6, "s44576", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lifeward", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Proc"], ""};
+				{ 2, "s74244", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Windwalk", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 3, "s74223", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Hurricane", "=ds=#sr# 480", "=ds="..AL["Trainer"]};
+				{ 4, "s74197", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Avalanche", "=ds=#sr# 450", "=ds="..AL["Trainer"]};
+				{ 5, "s74195", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mending", "=ds=#sr# 450", "=ds="..AL["Trainer"]};
+				{ 6, "s64441", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Blade Ward", "=ds=#sr# 450"};
+				{ 7, "s64579", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Blood Draining", "=ds=#sr# 450"};
+				{ 8, "s59625", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Black Magic", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 9, "s44576", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lifeward", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 10, "s44524", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Icebreaker", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 15, "s42974", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Executioner", "=ds=#sr# 375"};
-				{ 19, "s28004", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Battlemaster", "=ds=#sr# 360"};
-				{ 20, "s28003", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Spellsurge", "=ds=#sr# 360"};
-				{ 21, "s46578", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Deathfrost", "=ds=#sr# 350"};
-				{ 28, "s20034", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Crusader", "=ds=#sr# 300"};
-				{ 1, "s20032", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lifestealing", "=ds=#sr# 300"};
-				{ 6, "s20033", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Unholy Weapon", "=ds=#sr# 295"};
-				{ 9, "s20029", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Icy Chill", "=ds=#sr# 285"};
-				{ 10, "s13898", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Fiery Weapon", "=ds=#sr# 265"};
----Other
-				{ 3, "s59619", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Accuracy", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 11, "s42974", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Executioner", "=ds=#sr# 375"};
+				{ 12, "s28004", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Battlemaster", "=ds=#sr# 360"};
+				{ 13, "s28003", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Spellsurge", "=ds=#sr# 360"};
+				{ 14, "s46578", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Deathfrost", "=ds=#sr# 350"};
+				{ 15, "s20034", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Crusader", "=ds=#sr# 300"};
+				{ 16, "s20032", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lifestealing", "=ds=#sr# 300"};
+				{ 17, "s20033", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Unholy Weapon", "=ds=#sr# 295"};
+				{ 18, "s20029", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Icy Chill", "=ds=#sr# 285"};
+				{ 19, "s13898", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Fiery Weapon", "=ds=#sr# 265"};
+				{ 21, 0, "INV_Box_01", "=q6="..AL["Agility"], ""};
+				{ 22, "s44633", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Exceptional Agility", "=ds=#sr# 420", "=ds="..AL["Trainer"] };
+				{ 23, "s27984", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Mongoose", "=ds=#sr# 375", "=ds="..AL["Drop"]};
+				{ 24, "s42620", "inv_misc_note_01", "=ds=Enchant Weapon - Greater Agility", "=ds=#sr# 350", "=ds="..BabbleFaction["The Violet Eye"].." - "..BabbleFaction["Exalted"]};
+				{ 25, "s23800", "inv_misc_note_01", "=ds=Enchant Weapon - Agility", "=ds=#sr# 290", "=ds="..BabbleFaction["Timbermaw Hold"].." - "..BabbleFaction["Honored"]};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Intellect"], ""};
+				{ 28, "s74242", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Power Torrent", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 29, "s27968", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Intellect", "=ds=#sr# 340", "=ds="..AL["Drop"]};
+				{ 30, "s23804", "inv_misc_note_01", "=ds=Enchant Weapon - Mighty Intellect", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Damage"], ""};
+				{ 2, "s74211", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Elemental Slayer", "=ds=#sr# 470", "=ds="..AL["Trainer"]};
+				{ 3, "s44621", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Giant Slayer", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 4, "s27967", "inv_misc_note_01", "=ds=Enchant Weapon - Major Striking", "=ds=#sr# 340", "=ds="..BabbleFaction["The Consortium"].." - "..BabbleFaction["Honored"]};
+				{ 5, "s20031", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Superior Striking", "=ds=#sr# 300", "=ds="..AL["Drop"]};
+				{ 6, "s13943", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Greater Striking", "=ds=#sr# 245", "=ds="..AL["Trainer"]};
+				{ 7, "s13915", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Demonslaying", "=ds=#sr# 230", "=ds="..AL["Drop"]};
+				{ 8, "s13693", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Striking", "=ds=#sr# 195", "=ds="..AL["Trainer"]};
+				{ 9, "s13653", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Lesser Beastslayer", "=ds=#sr# 175", "=ds="..AL["Drop"]};
+				{ 10, "s13655", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Lesser Elemental Slayer", "=ds=#sr# 175", "=ds="..AL["Drop"]};
+				{ 11, "s13503", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Lesser Striking", "=ds=#sr# 140", "=ds="..AL["Trainer"]};
+				{ 12, "s7786", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Minor Beastslayer", "=ds=#sr# 90", "=ds="..AL["Drop"]};
+				{ 13, "s7788", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Minor Striking", "=ds=#sr# 90", "=ds="..AL["Trainer"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Strength"], ""};
+				{ 17, "s27972", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Potency", "=ds=#sr# 350", "=ds="..AL["Drop"]};
+				{ 18, "s23799", "inv_misc_note_01", "=ds=Enchant Weapon - Strength", "=ds=#sr# 290", "=ds="..AL["Vendor"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Attack Power"], ""};
+				{ 21, "s74246", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Landslide", "=ds=#sr# 525", "=ds="..AL["Vendor"]..": "..BabbleZone["Twilight Highlands"]};
+				{ 22, "s59621", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Berserking", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 23, "s60707", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Superior Potency", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 24, "s60621", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Greater Potency", "=ds="..AL["Trainer"] };
+				{ 26, 0, "INV_Box_01", "=q6="..AL["Spirit"], ""};
+				{ 27, "s74225", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Heartsong", "=ds=#sr# 485", "=ds="..AL["Trainer"]};
+				{ 28, "s44510", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Exceptional Spirit", "=ds="..AL["Trainer"] };
+				{ 29, "s23803", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mighty Spirit", "=ds=#sr# 300"};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Spellpower"], ""};
+				{ 2, "s60714", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Mighty Spellpower", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 3, "s44629", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Exceptional Spellpower", "=ds=#sr# 395", "=ds="..AL["Trainer"] };
+				{ 4, "s27982", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Soulfrost", "=ds=#sr# 375"};
+				{ 5, "s27981", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Sunfire", "=ds=#sr# 375"};
+				{ 6, "s34010", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Healing", "=ds=#sr# 350"};
+				{ 7, "s27975", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Spellpower", "=ds=#sr# 350"};
+				{ 8, "s22750", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Healing Power", "=ds=#sr# 300"};
+				{ 9, "s22749", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Spellpower", "=ds=#sr# 300"};
+				{ 10, "s21931", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Winter's Might", "=ds=#sr# 190"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Other"], ""};
+				{ 17, "s59619", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Accuracy", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 			};
 		};
 		info = {

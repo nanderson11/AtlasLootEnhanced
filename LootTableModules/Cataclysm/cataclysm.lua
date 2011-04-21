@@ -2817,10 +2817,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 60662, "", "=q4=Vicious Gladiator's Pendant of Alacrity", "=ds=#s2#", "1250 #conquest#" },
 				{ 21, 60661, "", "=q4=Vicious Gladiator's Pendant of Diffusion", "=ds=#s2#", "1250 #conquest#" },
 				{ 22, 60664, "", "=q4=Vicious Gladiator's Pendant of Meditation", "=ds=#s2#", "1250 #conquest#" },
-				{ 24, 61391, "", "=q3=Vicious Gladiator's Relic of Conquest", "=ds=#s16#", "700 #conquest#" },
-				{ 25, 61388, "", "=q3=Vicious Gladiator's Relic of Dominance", "=ds=#s16#", "700 #conquest#" },
-				{ 26, 61389, "", "=q3=Vicious Gladiator's Relic of Salvation", "=ds=#s16#", "700 #conquest#" },
-				{ 27, 61390, "", "=q3=Vicious Gladiator's Relic of Triumph", "=ds=#s16#", "700 #conquest#" },
+				{ 24, 61391, "", "=q4=Vicious Gladiator's Relic of Conquest", "=ds=#s16#", "700 #conquest#" },
+				{ 25, 61388, "", "=q4=Vicious Gladiator's Relic of Dominance", "=ds=#s16#", "700 #conquest#" },
+				{ 26, 61389, "", "=q4=Vicious Gladiator's Relic of Salvation", "=ds=#s16#", "700 #conquest#" },
+				{ 27, 61390, "", "=q4=Vicious Gladiator's Relic of Triumph", "=ds=#s16#", "700 #conquest#" },
 			};
 			{
 				{ 1, 64706, "", "=q3=Bloodthirsty Gladiator's Cape of Cruelty", "=ds=#s4#", "1250 #honor#"};

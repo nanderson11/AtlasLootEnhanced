@@ -7,6 +7,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 
 v6.03.00
+Compatible with Patch 4.1
+Added support for Atlas 1.18.3
 Fixed a bug with overlapping panel buttons.
 Fixed a bug with empty loot tables.
 Added some missing 4.0.6 stuff.
