@@ -39,9 +39,9 @@ if AL then
 	AL["Show itemIDs"] = "Afficher les IDs des objets";
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
 	AL["Safe Chat Links"] = "Liens sûrs sur le canal";
-	AL["Comparison TT"] = "Comparaison TT";
-	AL["Show Comparison Tooltips"] = "Afficher les bulles d'aide comparatives";
-	--AL["Supress item query text"] = true; -- à traduire
+	AL["Comparison TT"] = "Bulles d'aides";
+	AL["Show Comparison Tooltips"] = "Afficher les bulles d'aides comparatives";
+	AL["Supress item query text"] = "Supprimer la requête sur l'objet";
 	--AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = "Fond de liste opaque";
 	AL["Treat Crafted Items:"] = "Traiter les objets fabriqués :";
@@ -57,7 +57,7 @@ if AL then
 	AL["Default Frame"] = "Frame par défaut";
 	AL["Scale:"] = "Échelle :";
 	AL["Alpha:"] = "Transparence :";
-	--AL["Only change alpha on leave frame"] = true; -- à traduire
+	AL["Only change alpha on leave frame"] = "Changer seulement la transparence si on quitte une frame";
 
 	-- Bindings
 	AL["Toggle AtlasLoot"] = "Afficher / Masquer AtlasLoot";
@@ -129,8 +129,8 @@ if AL then
 	AL["Use as default wishlist"] = "Utiliser cette liste de souhaits par défaut";
 	AL["Add Wishlist"] = "Ajouter une liste de souhaits";
 	AL["Always use default Wishlist"] = "Toujours utiliser cetteliste de souhaits par défaut";
-	--AL["Save wishlists at character DB"] = true; -- à traduire
-	--AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = true; -- à traduire
+	AL["Save wishlists at character DB"] = "Sauvegarder la liste de souhaits pour le personnage actuel";
+	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "Sauvegarder la liste de souhaits seulement pour |cff1eff00%s-%s|r.\n Les autres personnages ne peuvent pas voir la liste de souhaits, mais cela réduit la mémoire.";
 	--AL["Table Sort"] = true; -- à traduire
 	--AL["Table Sort:"] = true; -- à traduire
 	--AL["Item Sort:"] = true; -- à traduire
@@ -165,8 +165,8 @@ if AL then
 	AL["Add to QuickLooks:"] = "Ajouter à QuickLook :";
 	AL["Reset Quicklooks"] = "Réinitialiser QuickLook";
 	AL["Assign this loot table\n to QuickLook"] = "Assigner cette table de loot\n à QuickLook";
-	AL["Show unused QuickLooks in the Panel"] = "Afficher les QuickLook inutilisé sur le panneau";
-	--AL["Shows unused QuickLooks as grey buttons in the AtlasLoot Panel"] = true; -- à traduire
+	AL["Show unused QuickLooks in the Panel"] = "Afficher les QuickLooks inutilisé sur le panneau";
+	AL["Shows unused QuickLooks as grey buttons in the AtlasLoot Panel"] = "Afficher les QuiLooks inutilisés sous forme de bouton gris sur le panneau d'AtlasLoot";
 	-- Single options
 	AL["unused"] = "inutilisé";
 	AL["QuickLook name:"] = "Nom du QuickLook :";
@@ -178,10 +178,10 @@ if AL then
 
 	-- Query Server / Query all
 	AL["Query Server"] = "Interroger le serveur";
-	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "Interroger le serveur pour tout les objets \nde cette page. Les objets seront rafraichis \nquand vous passerez votre souris dessus.";
+	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "Interroger le serveur pour tous les objets \nde cette page. Les objets seront rafraichis \nquand vous passerez votre souris dessus.";
 
 	-- Atlas
-	AL["Click boss name to view loot."] = "Cliquer sur le nom du boss pour voir ses loots";
+	AL["Click boss name to view loot."] = "Cliquer sur le nom du boss pour afficher ses loots";
 
 	-- LootTable
 	-- title
@@ -223,14 +223,14 @@ if AL then
 	AL["OR"] = "OU";
 	AL["FuBar Options"] = "Options de FuBar";
 	AL["Attach to Minimap"] = "Joindre à la mini-carte";
-	AL["Hide FuBar Plugin"] = "Cacher le plugin FuBar";
+	AL["Hide FuBar Plugin"] = "Masquer le plugin FuBar";
 	AL["Show FuBar Plugin"] = "Afficher le plugin FuBar";
 	AL["Position:"] = "Position :";
 	AL["Left"] = "Gauche";
 	AL["Center"] = "Centre";
 	AL["Right"] = "Droite";
-	AL["Hide Text"] = "Cacher le texte";
-	AL["Hide Icon"] = "Cacher l'icône";
+	AL["Hide Text"] = "Masquer le texte";
+	AL["Hide Icon"] = "Masquer l'icône";
 	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
 	
 	-- Text for Options Panel
@@ -242,8 +242,8 @@ if AL then
 	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dBulles d'aide ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
-	--AL["Show itemIDs at all times"] = true; -- à traduire
-	AL["Hide AtlasLoot Panel"] = "Cacher le panneau d'AtlasLoot";
+	AL["Show itemIDs at all times"] = "Afficher l'IDs des objets tous le temps";
+	AL["Hide AtlasLoot Panel"] = "Masquer le panneau d'AtlasLoot";
 	AL["Show Basic Minimap Button"] = "Afficher le bouton sur la mini-carte";
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dAfficher le bouton sur la mini-carte|r";
 	AL["Set Minimap Button Position"] = "Position du bouton sur la mini-carte";
@@ -295,7 +295,7 @@ if AL then
 	AL["Emblem of Conquest"] = "Emblème de conquête"; --should be removed
 	AL["Emblem of Triumph"] = "Emblème de triomphe"; --should be removed
 	AL["Emblem of Frost"] = "Emblème de givre"; --should be removed
-	AL["BoE World Epics"] = "LqE Épiques mondial";
+	AL["BoE World Epics"] = "LqÉ Épiques mondial";
 	AL["Legendary Items"] = "Objets légendaires";
 	AL["Misc Sets"] = "Sets divers";
 	--AL["Tier 1/2 Set"] = true;
@@ -432,7 +432,7 @@ if AL then
 	AL["Cataclysm Vendor Sold Formulas"] = "Vendeur de formules à Catalysm";
 
 	-- Engineering
-	--AL["Tinker"] = true; -- à traduire
+	AL["Tinker"] = "Objets bricolés";
 
 	-- Inscription
 	AL["Glyph"] = "Glyphe";
@@ -609,7 +609,7 @@ if AL then
 	AL["Special"] = "Spécial";
 	AL["Feasts"] = "Festins";
 	AL["Speed"] = "Vitesse";
-	--AL["Rod"] = true;
+	AL["Rod"] = "Bâtonnet";
 	AL["Oil"] = "Huile";
 	AL["Dwarf"] = "Nain";
 	AL["Draenei"] = "Draeneï";
@@ -624,6 +624,7 @@ if AL then
 	AL["Resilience"] = "Résilience";
 	--AL["Professions"] = true;
 	AL["Damage"] = "Dommage";
+	--AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
@@ -652,7 +653,7 @@ if AL then
 	AL["SP Patterns/Plans"] = "Patrons / Plans du Plateau du Puits de soleil";
 	AL["Ulduar Formula/Patterns/Plans"] = "Formules / Patrons / Plans d'Ulduar";
 	AL["Trial of the Crusader Patterns/Plans"] = "Patrons / Plans de L'épreuve du croisé";
-	--AL["BRD Blacksmithing Plans"] = true; -- à traduire
+	AL["BRD Blacksmithing Plans"] = "Plans de forge de BRD";
 
 	-- General titles
 	AL["Achievement"] = "Haut fait";
@@ -689,25 +690,25 @@ if AL then
 	AL["Halaa PvP Mounts"] = "Montures JcJ de Halaa";
 	AL["Promotional Mounts"] = "Montures promotionnelles";
 	AL["Rare Mounts"] = "Montures rares";
-	AL["Unobtainable Mounts"] = "Montures impossible à obtenir";
+	AL["Unobtainable Mounts"] = "Montures impossibles à obtenir";
 
 	-- Tabards
-	AL["Achievement & Quest Reward Tabards"] = true;
-	AL["Alliance Tabards"] = true;
-	AL["Card Game Tabards"] = true;
-	AL["Horde Tabards"] = true;
-	AL["Neutral Faction Tabards"] = true;
+	AL["Achievement & Quest Reward Tabards"] = "Tabards de hauts faits & récompenses de quêtes";
+	AL["Alliance Tabards"] = "Tabards de l'Alliance";
+	AL["Card Game Tabards"] = "Tabards du jeu de cartes";
+	AL["Horde Tabards"] = "Tabards de la Horde";
+	AL["Neutral Faction Tabards"] = "Tabards de factions neutres";
 	AL["PvP Tabards"] = "Tabards JcJ";
-	AL["Unobtainable Tabards"] = true;
+	AL["Unobtainable Tabards"] = "Tabards imposssibles à obtenir";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Récompenses Foire de Sombrelune";
 	AL["Low Level Decks"] = "Cartes bas level";
-	--AL["Level 60 Trinkets"] = true;
-	--AL["Level 70 Trinkets"] = true;
-	--AL["Level 60 & 70 Trinkets"] = true;
-	--AL["Level 80 Trinkets"] = true;
-	--AL["Level 85 Trinkets"] = true;
+	AL["Level 60 Trinkets"] = "Bijoux niveau 60";
+	AL["Level 70 Trinkets"] = "Bijoux niveau 70";
+	AL["Level 60 & 70 Trinkets"] = "Bijoux niveau 60 & 70";
+	AL["Level 80 Trinkets"] = "Bijoux niveau 80";
+	AL["Level 85 Trinkets"] = "Bijoux niveau 85";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "Objets des cartes à jouer";
@@ -1046,7 +1047,7 @@ if AL then
 	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
 	--AL["Servant's Quarter Animal Bosses"] = true; -- à traduire
 	AL["Jadefang"] = "Jadecroc";
-	--AL["Aeonaxx"] = true; -- à traduire
+	--AL["Aeonaxx"] = true;
 	--AL["Prince Sarsarun"] = true;
 	-- AL["Highlord Kruul"] = true; -- added until decided if the set gets removed -- à traduire
 	AL["Dormus the Camel-Hoarder"] = "Dormus le Collectionneur de dromadaires";
@@ -1057,7 +1058,7 @@ if AL then
 	--AL["World Drop"] = true,
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
 	AL["Crusader's Square"] = "Place des Croisés";
-	--AL["The Gauntlet"] = true; -- à traduire
+	AL["The Gauntlet"] = "Le Défi";
 
 	-- Shortcuts for Bossname files
 	--AL["LBRS"] = true,
@@ -1123,7 +1124,7 @@ if AL then
 	AL["Lovely Dress Box"] = "Boîte de robe ravissante";
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
 	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";
-	--AL["Hidden Stash"] = true; -- à traduire
+	AL["Hidden Stash"] = "Fortune cachée";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
