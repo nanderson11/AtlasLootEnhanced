@@ -94,7 +94,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 13523, "", "=q1=Blood of Innocents", "=ds=#m27#"};
 				{ 3, 18746, "", "=q1=Divination Scryer", "=ds=#m27#"};
 				{ 4, 18663, "", "=q1=J'eevee's Jar", "=ds=#m27#"};
-				{ 5, 7733, "", "=q1=Staff of Prehistoria", "=ds=#m27#"};
 			};
 		};
 		info = {
@@ -4498,7 +4497,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 13, 9403, "", "=q3=Battered Viking Shield", "=ds=#w8#", "", "69.85%"};
 				{ 14, 1177, "", "=q1=Oil of Olaf", "=ds=#e2#", "", "76.54%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Baelog's Chest"], ""};
-				{ 17, 7740, "", "=q3=Gni'kiv Medallion", "=ds=#m3#"};
+				--new loot for the Chest in 4.1. Needs to be checked once it goes live!!
 			}
 		};
 		info = {
@@ -4514,7 +4513,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 9389, "", "=q3=Revelosh's Spaulders", "=ds=#s3#, #a2#", "", "18.77%"};
 				{ 3, 9388, "", "=q3=Revelosh's Armguards", "=ds=#s8#, #a3#", "", "19.84%"};
 				{ 4, 9387, "", "=q3=Revelosh's Boots", "=ds=#s12#, #a4#", "", "20.53%"};
-				{ 6, 7741, "", "=q3=The Shaft of Tsol", "=ds=#m3#"};
 			}
 		};
 		info = {
