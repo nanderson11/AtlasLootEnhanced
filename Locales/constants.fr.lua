@@ -625,6 +625,7 @@ if AL then
 	--AL["Professions"] = true;
 	AL["Damage"] = "Dommage";
 	--AL["Proc"] = true;
+	AL["Spellpower"] = "Puissance des sorts";
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
