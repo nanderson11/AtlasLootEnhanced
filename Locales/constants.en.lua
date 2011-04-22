@@ -625,6 +625,7 @@ if AL then
 	AL["Professions"] = true;
 	AL["Damage"] = true;
 	AL["Proc"] = true;
+	AL["Spellpower"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = true;
