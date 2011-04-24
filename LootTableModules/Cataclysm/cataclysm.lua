@@ -1902,110 +1902,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		------------------
-		--- Zul'Gurub ----
-		------------------
-
-	AtlasLoot_Data["ZGVenoxis"] = {
-		["Normal"] = {
-			{
-				{ 1, 69601, "", "=q4=Serpentine Leggings", "=ds=#s11#, #a1#", ""};
-				{ 2, 69600, "", "=q4=Belt of Slithering Serpents", "=ds=#s10#, #a2#", ""};
-				{ 3, 69603, "", "=q4=Breastplate of Serenity", "=ds=#s5#, #a3#", ""};
-				{ 4, 69604, "", "=q4=Coils of Hate", "=ds=#s10#, #a4#", ""};
-				{ 5, 69602, "", "=q4=Signet of Venoxis", "=ds=#s13#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["High Priest Venoxis"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGMandokir"] = {
-		["Normal"] = {
-			{
-				{ 1, 69606, "", "=q4=Hakkari Loa Drape", "=ds=#s4#", ""};
-				{ 2, 69608, "", "=q4=Deathcharged Wristguards", "=ds=#s8#, #a4#", ""};
-				{ 3, 69605, "", "=q4=Amulet of the Watcher", "=ds=#s2#", ""};
-				{ 4, 69609, "", "=q4=Bloodlord's Protector", "=ds=#h1#, #w10#", ""};
-				{ 5, 69607, "", "=q4=Touch of Discord", "=ds=#w12#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["Bloodlord Mandokir"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGMadness"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
-				{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
-				{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
-			};
-		};
-		info = {
-			name = "The Cage of Madness",
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGKilnara"] = {
-		["Normal"] = {
-			{
-				{ 1, 69612, "", "=q4=Claw-Fringe Mantle", "=ds=#s3#, #a1#", ""};
-				{ 2, 69611, "", "=q4=Sash of Anguish", "=ds=#s10#, #a1#", ""};
-				{ 3, 69613, "", "=q4=Leggings of the Pride", "=ds=#s11#, #a2#", ""};
-				{ 4, 69614, "", "=q4=Roaring Mask of Bethekk", "=ds=#s1#, #a4#", ""};
-				{ 5, 69610, "", "=q4=Arlokk's Signet", "=ds=#s13#", ""};
-			};
-		};
-		info = {
-			name = "High Priestess Kilnara",
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGZanzil"] = {
-		["Normal"] = {
-			{
-				{ 1, 69616, "", "=q4=Spiritbinder Spaulders", "=ds=#s3#, #a3#", ""};
-				{ 2, 69615, "", "=q4=Zombie Walker Legguards", "=ds=#s11#, #a3#", ""};
-				{ 3, 69617, "", "=q4=Plumed Medicine Helm", "=ds=#s1#, #a4#", ""};
-				{ 4, 69619, "", "=q4=Bone Plate Handguards", "=ds=#s9#, #a4#", ""};
-				{ 5, 69618, "", "=q4=Zulian Slasher", "=ds=#h1#, #w10#", ""};
-			};
-		};
-		info = {
-			name = "Zanzil",
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGJindo"] = {
-		["Normal"] = {
-			{
-				{ 1, 69622, "", "=q4=The Hexxer's Headdress", "=ds=#s1#, #a1#", ""};
-				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
-				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
-				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
-				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h2#, #w6#", ""};
-				{ 7, 69626, "", "=q4=Jin'do's Verdict", "=ds=#w9#", ""};
-				{ 8, 69624, "", "=q4=Legacy of Arlokk", "=ds=#w9#", ""};
-				{ 16, 69629, "", "=q4=Shield of the Blood God", "=ds=#w8#", ""};
-				{ 17, 69627, "", "=q4=Zulian Ward", "=ds=#w8#", ""};
-				{ 18, 69625, "", "=q4=Mandokir's Tribute", "=ds=#w2#", ""};
-			};
-		};
-		info = {
-			name = "Jin'do the Godbreaker",
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
 		----------------
 		--- Zul'Aman ---
 		----------------
@@ -2110,6 +2006,110 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = "Daakara",
 			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+		------------------
+		--- Zul'Gurub ----
+		------------------
+
+	AtlasLoot_Data["ZGVenoxis"] = {
+		["Normal"] = {
+			{
+				{ 1, 69601, "", "=q4=Serpentine Leggings", "=ds=#s11#, #a1#", ""};
+				{ 2, 69600, "", "=q4=Belt of Slithering Serpents", "=ds=#s10#, #a2#", ""};
+				{ 3, 69603, "", "=q4=Breastplate of Serenity", "=ds=#s5#, #a3#", ""};
+				{ 4, 69604, "", "=q4=Coils of Hate", "=ds=#s10#, #a4#", ""};
+				{ 5, 69602, "", "=q4=Signet of Venoxis", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["High Priest Venoxis"],
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGMandokir"] = {
+		["Normal"] = {
+			{
+				{ 1, 69606, "", "=q4=Hakkari Loa Drape", "=ds=#s4#", ""};
+				{ 2, 69608, "", "=q4=Deathcharged Wristguards", "=ds=#s8#, #a4#", ""};
+				{ 3, 69605, "", "=q4=Amulet of the Watcher", "=ds=#s2#", ""};
+				{ 4, 69609, "", "=q4=Bloodlord's Protector", "=ds=#h1#, #w10#", ""};
+				{ 5, 69607, "", "=q4=Touch of Discord", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Bloodlord Mandokir"],
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGMadness"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
+				{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
+				{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
+				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+			};
+		};
+		info = {
+			name = "The Cage of Madness",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGKilnara"] = {
+		["Normal"] = {
+			{
+				{ 1, 69612, "", "=q4=Claw-Fringe Mantle", "=ds=#s3#, #a1#", ""};
+				{ 2, 69611, "", "=q4=Sash of Anguish", "=ds=#s10#, #a1#", ""};
+				{ 3, 69613, "", "=q4=Leggings of the Pride", "=ds=#s11#, #a2#", ""};
+				{ 4, 69614, "", "=q4=Roaring Mask of Bethekk", "=ds=#s1#, #a4#", ""};
+				{ 5, 69610, "", "=q4=Arlokk's Signet", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = "High Priestess Kilnara",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGZanzil"] = {
+		["Normal"] = {
+			{
+				{ 1, 69616, "", "=q4=Spiritbinder Spaulders", "=ds=#s3#, #a3#", ""};
+				{ 2, 69615, "", "=q4=Zombie Walker Legguards", "=ds=#s11#, #a3#", ""};
+				{ 3, 69617, "", "=q4=Plumed Medicine Helm", "=ds=#s1#, #a4#", ""};
+				{ 4, 69619, "", "=q4=Bone Plate Handguards", "=ds=#s9#, #a4#", ""};
+				{ 5, 69618, "", "=q4=Zulian Slasher", "=ds=#h1#, #w10#", ""};
+			};
+		};
+		info = {
+			name = "Zanzil",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGJindo"] = {
+		["Normal"] = {
+			{
+				{ 1, 69622, "", "=q4=The Hexxer's Headdress", "=ds=#s1#, #a1#", ""};
+				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
+				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
+				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
+				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h2#, #w6#", ""};
+				{ 7, 69626, "", "=q4=Jin'do's Verdict", "=ds=#w9#", ""};
+				{ 8, 69624, "", "=q4=Legacy of Arlokk", "=ds=#w9#", ""};
+				{ 16, 69629, "", "=q4=Shield of the Blood God", "=ds=#w8#", ""};
+				{ 17, 69627, "", "=q4=Zulian Ward", "=ds=#w8#", ""};
+				{ 18, 69625, "", "=q4=Mandokir's Tribute", "=ds=#w2#", ""};
+			};
+		};
+		info = {
+			name = "Jin'do the Godbreaker",
+			module = moduleName, instance = "ZulGurub",
 		};
 	};
 

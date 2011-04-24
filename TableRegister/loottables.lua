@@ -133,18 +133,6 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Halls of Origination"], "AtlasLootCataclysm", mapname = "HallsOfOrigination" },
 		},
 
-		["ZulGurub"] = {
-			["Bosses"] = {
-				{ "ZGVenoxis", 10 },
-				{ "ZGMandokir", 16 },
-				{ "ZGMadness", 18 },
-				{ "ZGKilnara", 19 },
-				{ "ZGZanzil", 20 },
-				{ "ZGJindo", 21 },
-			},
-			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm" },
-		},
-
 		["ZulAman"] = {
 			["Bosses"] = {
 				{ "ZA85AkilZon", 6 },
@@ -155,6 +143,18 @@ AtlasLoot_LootTableRegister = {
 				{ "ZA85Daakara", 21 },
 			},
 			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm" },
+		},
+
+		["ZulGurub"] = {
+			["Bosses"] = {
+				{ "ZGVenoxis", 15 },
+				{ "ZGMandokir", 20 },
+				{ "ZGMadness", 25 },
+				{ "ZGKilnara", 32 },
+				{ "ZGZanzil", 33 },
+				{ "ZGJindo", 34 },
+			},
+			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm" },
 		},
 
 	---- Raids
