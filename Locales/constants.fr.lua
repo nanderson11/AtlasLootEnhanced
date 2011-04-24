@@ -38,10 +38,10 @@ if AL then
 	AL["Minimap Button"] = "Afficher le boutton sur la mini-carte";
 	AL["Show itemIDs"] = "Afficher les IDs des objets";
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
-	AL["Safe Chat Links"] = "Liens sûrs sur le canal";
+	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
 	AL["Comparison TT"] = "Bulles d'aides";
 	AL["Show Comparison Tooltips"] = "Afficher les bulles d'aides comparatives";
-	AL["Supress item query text"] = "Supprimer la requête sur l'objet";
+	AL["Supress item query text"] = "Supprimer la requête serveur sur l'objet";
 	--AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = "Fond de liste opaque";
 	AL["Treat Crafted Items:"] = "Traiter les objets fabriqués :";
@@ -89,7 +89,7 @@ if AL then
 	AL["Drop Rate: "] = "Chance de tomber : ";
 	--AL["DKP"] = true;
 	AL["Priority:"] = "Priorité :";
-	AL["Show price and slot if possible"] = "Voir le prix et le slot si possible";
+	AL["Show price and slot if possible"] = "Voir le prix et le slot, si possible";
 	--AL["Use GameTooltip"] = true; -- à traduire
 	--AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true; -- à traduire
 	-- Unsafe Item
@@ -131,9 +131,9 @@ if AL then
 	AL["Always use default Wishlist"] = "Toujours utiliser cetteliste de souhaits par défaut";
 	AL["Save wishlists at character DB"] = "Sauvegarder la liste de souhaits pour le personnage actuel";
 	AL["Saves the wishlists only for |cff1eff00%s-%s|r.\n Other characters cant view the wishlists, but the memory usage is reduced."] = "Sauvegarder la liste de souhaits seulement pour |cff1eff00%s-%s|r.\n Les autres personnages ne peuvent pas voir la liste de souhaits, mais cela réduit la mémoire.";
-	--AL["Table Sort"] = true; -- à traduire
-	--AL["Table Sort:"] = true; -- à traduire
-	--AL["Item Sort:"] = true; -- à traduire
+	AL["Table Sort"] = "Tri des tables";
+	AL["Table Sort:"] = "Tri des tables :";
+	AL["Item Sort:"] = "Tri des objets :";
 
 	-- Filter
 	AL["Filter"] = "Filtre";
@@ -178,7 +178,7 @@ if AL then
 
 	-- Query Server / Query all
 	AL["Query Server"] = "Interroger le serveur";
-	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "Interroger le serveur pour tous les objets \nde cette page. Les objets seront rafraichis \nquand vous passerez votre souris dessus.";
+	AL["Queries the server for all items \non this page. The items will be \nrefreshed when you next mouse \nover them."] = "Interroger le serveur pour tous les objets \nse trouvant sur cette page. Ils seront rafraichis \nquand vous passerez votre souris dessus.";
 
 	-- Atlas
 	AL["Click boss name to view loot."] = "Cliquer sur le nom du boss pour afficher ses loots";
@@ -242,7 +242,7 @@ if AL then
 	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dBulles d'aide ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
-	AL["Show itemIDs at all times"] = "Afficher l'IDs des objets tous le temps";
+	AL["Show itemIDs at all times"] = "Afficher l'ID sur les objets tous le temps";
 	AL["Hide AtlasLoot Panel"] = "Masquer le panneau d'AtlasLoot";
 	AL["Show Basic Minimap Button"] = "Afficher le bouton sur la mini-carte";
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dAfficher le bouton sur la mini-carte|r";
