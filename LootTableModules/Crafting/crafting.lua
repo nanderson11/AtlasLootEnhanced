@@ -2597,7 +2597,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 29, "s23803", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mighty Spirit", "=ds=#sr# 300"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Spellpower"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Spell Power"], ""};
 				{ 2, "s60714", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Mighty Spellpower", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 3, "s44629", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Exceptional Spellpower", "=ds=#sr# 395", "=ds="..AL["Trainer"] };
 				{ 4, "s27982", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Soulfrost", "=ds=#sr# 375"};

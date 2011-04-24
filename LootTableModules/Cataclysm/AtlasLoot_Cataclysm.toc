@@ -1,4 +1,4 @@
-﻿## Interface: 40000
+﻿## Interface: 40100
 ## Title: AtlasLoot_Cataclysm
 ## Title-deDE: AtlasLoot |cFF0099FF[Cataclysm-Instanzen]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 浩劫與重生

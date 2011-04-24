@@ -3931,8 +3931,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
 				{ 12, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
 				{ 13, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 14, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 15, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 14, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
+				{ 15, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 16, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
 			};
 		};
 		info = {
@@ -3958,11 +3959,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
 				{ 10, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
 				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 12, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
-				{ 13, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
-				{ 14, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
-				{ 15, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
-				{ 16, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{ 12, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#"};--check after 4.1 goes live
+				{ 13, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
+				{ 14, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
+				{ 15, 68833, "", "=q1=Panther Cub", "=q1=#m4#"};--check after 4.1 goes live
+				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
+				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
