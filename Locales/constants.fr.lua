@@ -242,7 +242,7 @@ if AL then
 	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dBulles d'aide ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
-	AL["Show itemIDs at all times"] = "Afficher l'ID sur les objets tous le temps";
+	AL["Show itemIDs at all times"] = "Toujours afficher l'ID sur les objets";
 	AL["Hide AtlasLoot Panel"] = "Masquer le panneau d'AtlasLoot";
 	AL["Show Basic Minimap Button"] = "Afficher le bouton sur la mini-carte";
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dAfficher le bouton sur la mini-carte|r";
