@@ -310,6 +310,13 @@ do
 end
 
 function DefaultFrame:DropDownRefresh()
+	if type(db.module) == "table" then
+		if UnitLevel("player") == 85 then
+			db.module = db.module[2]
+		else
+			db.module = db.module[1]
+		end
+	end
 	UIDropDownMenu_Initialize(_G[frameName.."_ModuleSelect"], DefaultFrame.ModuleSelect_Initialize)
 	UIDropDownMenu_SetSelectedValue(_G[frameName.."_ModuleSelect"], db.module)
 	UIDropDownMenu_SetWidth(_G[frameName.."_ModuleSelect"], 190)
@@ -547,7 +554,15 @@ do
 		
 		if not mapname or not mapRegister[mapname] then return end
 		
-		db.module = mapRegister[mapname][2]
+		if type(mapRegister[mapname][2]) == "table" then
+			if UnitLevel("player") == 85 then
+				db.module = mapRegister[mapname][2][2]
+			else
+				db.module = mapRegister[mapname][2][1]
+			end
+		else
+			db.module = mapRegister[mapname][2]
+		end
 		db.instance = mapRegister[mapname][1]
 		
 		DefaultFrame:DropDownRefresh()
