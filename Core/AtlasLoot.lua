@@ -22,7 +22,7 @@ ATLASLOOT_VERSION_NUM = VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_MIN_ATLAS = "1.18.0"
 ATLASLOOT_CURRENT_ATLAS = {"1.18.3"};
-ATLASLOOT_PREVIEW_ATLAS = {"1.19.0", "1.18.4"};
+ATLASLOOT_PREVIEW_ATLAS = {"1.19.1", "1.19.0"};
 
 --ATLASLOOT_POSITION = AL["Position:"];
 ATLASLOOT_DEBUGMESSAGES = false;
