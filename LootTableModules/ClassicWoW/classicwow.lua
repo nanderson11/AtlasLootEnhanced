@@ -4645,56 +4645,56 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["WailingCavernsLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], ""};
-				{ 2, 5425, "", "=q3=Runescale Girdle", "=ds=#s8#, #a3#", "", "50%"};
-				{ 3, 5426, "", "=q3=Serpent's Kiss", "=ds=#h1#, #w1#", "", "35%"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], ""};
-				{ 6, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
-				{ 7, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Cobrahn"], ""};
-				{ 17, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "51.73%"};
-				{ 18, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "16.03%"};
-				{ 19, 6460, "", "=q3=Cobrahn's Grasp", "=ds=#s10#, #a3#", "", "16.20%"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Lady Anacondra"], ""};
-				{ 22, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "58.61%"};
-				{ 23, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "8.63%"};
-				{ 24, 6446, "", "=q3=Snakeskin Bag", "=ds=#m12# #e1#", "", "6.61%"};
-				{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Kresh"], ""};
-				{ 27, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "9.17%"};
-				{ 28, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "63.66%"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lady Anacondra"], ""};
+				{ 2, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "58.61%"};
+				{ 3, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "8.63%"};
+				{ 4, 6446, "", "=q3=Snakeskin Bag", "=ds=#m12# #e1#", "", "6.61%"};
+				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Pythas"], ""};
+				{ 7, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "52.06%"};
+				{ 8, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "28.24%"};
+				{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Cobrahn"], ""};
+				{ 11, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "51.73%"};
+				{ 12, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "16.03%"};
+				{ 13, 6460, "", "=q3=Cobrahn's Grasp", "=ds=#s10#, #a3#", "", "16.20%"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Skum"], ""};
+				{ 17, 6449, "", "=q3=Glowing Lizardscale Cloak", "=ds=#s4#", "", "38.24%"};
+				{ 18, 6448, "", "=q3=Tail Spike", "=ds=#h1#, #w4#", "", "39.24%"};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Serpentis"], ""};
+				{ 21, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "20.96%"};
+				{ 22, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, #a2#", "", "19.07%"};
+				{ 23, 6459, "", "=q3=Savage Trodders", "=ds=#s12#, #a3#", "", "24.39%"};
+				{ 24, 6469, "", "=q3=Venomstrike", "=ds=#w2#", "", "16.63%"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Pythas"], ""};
-				{ 2, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "52.06%"};
-				{ 3, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "28.24%"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Skum"], ""};
-				{ 6, 6449, "", "=q3=Glowing Lizardscale Cloak", "=ds=#s4#", "", "38.24%"};
-				{ 7, 6448, "", "=q3=Tail Spike", "=ds=#h1#, #w4#", "", "39.24%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Serpentis"], ""};
-				{ 10, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "20.96%"};
-				{ 11, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, #a2#", "", "19.07%"};
-				{ 12, 6459, "", "=q3=Savage Trodders", "=ds=#s12#, #a3#", "", "24.39%"};
-				{ 13, 6469, "", "=q3=Venomstrike", "=ds=#w2#", "", "16.63%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Verdan the Everliving"], ""};
-				{ 17, 6629, "", "=q3=Sporid Cape", "=ds=#s4#", "", "16.65%"};
-				{ 18, 6631, "", "=q3=Living Root", "=ds=#w9#", "", "34.47%"};
-				{ 19, 6630, "", "=q3=Seedcloud Buckler", "=ds=#w8#", "", "35.38%"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Mutanus the Devourer"], ""};
-				{ 22, 6461, "", "=q3=Slime-Encrusted Pads", "=ds=#s3#, #a1#", "", "22.96%"};
-				{ 23, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "18.33%"};
-				{ 24, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "21.99%"};
-				{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], ""};
-				{ 27, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
-				{ 28, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Verdan the Everliving"], ""};
+				{ 2, 6629, "", "=q3=Sporid Cape", "=ds=#s4#", "", "16.65%"};
+				{ 3, 6631, "", "=q3=Living Root", "=ds=#w9#", "", "34.47%"};
+				{ 4, 6630, "", "=q3=Seedcloud Buckler", "=ds=#w8#", "", "35.38%"};
+				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Mutanus the Devourer"], ""};
+				{ 7, 6461, "", "=q3=Slime-Encrusted Pads", "=ds=#s3#, #a1#", "", "22.96%"};
+				{ 8, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "18.33%"};
+				{ 9, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "21.99%"};
+				{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Kresh"], ""};
+				{ 12, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "9.17%"};
+				{ 13, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "63.66%"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], ""};
+				{ 17, 5425, "", "=q3=Runescale Girdle", "=ds=#s8#, #a3#", "", "50%"};
+				{ 18, 5426, "", "=q3=Serpent's Kiss", "=ds=#h1#, #w1#", "", "35%"};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], ""};
+				{ 21, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
+				{ 22, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
+				{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], ""};
+				{ 25, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
+				{ 26, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
 			};
 		};
 		info = {
 			name = BabbleZone["Wailing Caverns"],
-			module = moduleName, instance = "WailingCavernsEaI",
+			module = moduleName, instance = "WailingCaverns",
 		};
 	};
 
-    	------------------
+    		------------------
 		--- Zul'Farrak ---
 		------------------
 
