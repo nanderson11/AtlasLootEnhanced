@@ -21,6 +21,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Baradin Hold
 ---- Zul'Aman
 ---- Zul'Gurub
+---- The Firelands
 --- Factions
 ---- Baradin's Wardens
 ---- Dragonmaw Clan
@@ -2022,7 +2023,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Daakara",
+			name = BabbleBoss["Daakara"],
 			module = moduleName, instance = "ZulAman",
 		};
 	};
@@ -2044,7 +2045,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Timed Reward Chest",
+			name = AL["Timed Reward Chest"],
 			module = moduleName, instance = "ZulAman",
 		};
 	};
@@ -2126,7 +2127,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "The Cache of Madness",
+			name = AL["The Cache of Madness"],
 			module = moduleName, instance = "ZulGurub",
 		};
 	};
@@ -2143,7 +2144,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "High Priestess Kilnara",
+			name = BabbleBoss["High Priestess Kilnara"],
 			module = moduleName, instance = "ZulGurub",
 		};
 	};
@@ -2159,7 +2160,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Zanzil",
+			name = BabbleBoss["Zanzil"],
 			module = moduleName, instance = "ZulGurub",
 		};
 	};
@@ -2198,6 +2199,129 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = "trash",
 			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+		----------------------
+		--- The Firelands ----
+		----------------------
+
+	AtlasLoot_Data["FirelandsBethtilac"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Beth'tilac",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsRhyolith"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Lord Rhyolith",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsAlysrazor"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Alysrazor",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsShannox"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Shannox",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsBaleroc"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Baleroc",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsStaghelm"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Staghelm",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsRagnaros"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Ragnaros",
+			module = moduleName, instance = "TheFirelands",
 		};
 	};
 

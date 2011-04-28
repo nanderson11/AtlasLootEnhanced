@@ -1124,6 +1124,7 @@ if AL then
 	AL["Dinner Suit Box"] = true;
 	AL["Bag of Heart Candies"] = true;
 	AL["Hidden Stash"] = true;
+	AL["The Cache of Madness"] = true;
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = true;
