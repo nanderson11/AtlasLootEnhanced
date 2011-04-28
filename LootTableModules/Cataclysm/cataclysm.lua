@@ -1995,7 +1995,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 69570, "", "=q4=Waistband of Hexes", "=ds=#s10#, #a3#"};
 				{ 4, 69573, "", "=q4=Pauldrons of Sacrifice", "=ds=#s3#, #a4#"};
 				{ 5, 69571, "", "=q4=Soul Drain Signet", "=ds=#s13#"};
-				{ 7, 69264, "", "=q1=The Hex Lord's Fetish", "=ds=#m3#"};
+				{ 6, 69762, "", "=q4=Miniature Voodoo Mask", "=ds=#s15#"};
+				{ 8, 69264, "", "=q1=The Hex Lord's Fetish", "=ds=#m3#"};
+				{ 16, 70080, "", "=q4=Reforged Heartless", "=ds=#h1#, #w10#"};
 			};
 		};
 		info = {
@@ -2038,6 +2040,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 69588, "", "=q4=Skullcrusher Warboots", "=ds=#s12#, #a4#"};
 				{ 16, 69591, "", "=q4=Voodoo Hexblade", "=ds=#h1#, #w4#"};
 				{ 17, 69592, "", "=q4=Reforged Trollbane", "=ds=#h2#, #w1#"};
+				{ 19, 69747, "", "=q4=Amani Battle Bear", "=ds=#e26#", ""};
 			};
 		};
 		info = {
@@ -2090,6 +2093,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 69605, "", "=q4=Amulet of the Watcher", "=ds=#s2#", ""};
 				{ 4, 69609, "", "=q4=Bloodlord's Protector", "=ds=#h1#, #w10#", ""};
 				{ 5, 69607, "", "=q4=Touch of Discord", "=ds=#w12#", ""};
+				{ 7, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#", ""};
 			};
 		};
 		info = {
@@ -2135,6 +2139,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 69613, "", "=q4=Leggings of the Pride", "=ds=#s11#, #a2#", ""};
 				{ 4, 69614, "", "=q4=Roaring Mask of Bethekk", "=ds=#s1#, #a4#", ""};
 				{ 5, 69610, "", "=q4=Arlokk's Signet", "=ds=#s13#", ""};
+				{ 7, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#", ""};
 			};
 		};
 		info = {
