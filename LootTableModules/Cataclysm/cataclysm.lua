@@ -1865,35 +1865,51 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["TFWAlAkir"] = {
 		["Normal"] = {
 			{
-				{ 1, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
-				{ 2, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
-				{ 3, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
-				{ 4, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
-				{ 5, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
-				{ 6, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
-				{ 7, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
-				{ 8, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 10, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 16, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 17, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 19, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 1, 69834, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
+				{ 2, 69831, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
+				{ 3, 69833, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
+				{ 4, 69835, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
+				{ 5, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 7, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 8, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 9, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 16, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 17, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 18, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 19, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 20, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 22, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 23, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 25, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
-				{ 2, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
-				{ 3, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
-				{ 4, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
-				{ 5, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
-				{ 6, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
-				{ 7, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
-				{ 8, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 10, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 1, 69879, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
+				{ 2, 69884, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
+				{ 3, 69878, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
+				{ 4, 69881, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
+				{ 5, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 7, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 8, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 9, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
-				{ 18, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 19, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 21, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 18, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 19, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 20, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 21, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 22, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 24, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 25, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 27, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		info = {
@@ -2009,6 +2025,43 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["ZA85TimedChest"] = {
+		["Normal"] = {
+			{
+				{ 1, 69584, "", "=q4=Recovered Cloak of Frostheim", "=ds=#s4#"};
+				{ 2, 69585, "", "=q4=Wristwraps of Madness", "=ds=#s8#, #a1#"};
+				{ 3, 69589, "", "=q4=Leggings of Dancing Blades", "=ds=#s11#, #a2#"};
+				{ 4, 69586, "", "=q4=Two-Toed Boots", "=ds=#s12#, #a2#"};
+				{ 5, 69590, "", "=q4=Mojo-Mender's Gloves", "=ds=#s9#, #a3#"};
+				{ 6, 69593, "", "=q4=Battleplate of the Amani Empire", "=ds=#s5#, #a4#"};
+				{ 7, 69587, "", "=q4=Chestplate of Hubris", "=ds=#s5#, #a4#"};
+				{ 8, 69588, "", "=q4=Skullcrusher Warboots", "=ds=#s12#, #a4#"};
+				{ 16, 69591, "", "=q4=Voodoo Hexblade", "=ds=#h1#, #w4#"};
+				{ 17, 69592, "", "=q4=Reforged Trollbane", "=ds=#h2#, #w1#"};
+			};
+		};
+		info = {
+			name = "Timed Reward Chest",
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Trash"] = {
+		["Normal"] = {
+			{
+				{ 1, 69797, "", "=q4=Charmbinder Grips", "=ds=#s9#, #a1#"};
+				{ 2, 69801, "", "=q4=Amani Armguards", "=ds=#s8#, #a4#"};
+				{ 4, 69802, "", "=q4=Band of the Gurubashi Berserker", "=ds=#s13#"};
+				{ 5, 69799, "", "=q4=Quickfinger Ring", "=ds=#s13#"};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+
 		------------------
 		--- Zul'Gurub ----
 		------------------
@@ -2049,13 +2102,27 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
-				{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
-				{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+				{ 2, 69634, "", "=q4=Fasc's Preserved Boots", "=ds=#s12#, #a2#", ""};
+				{ 3, 69635, "", "=q4=Amulet of Protection", "=ds=#s2#", ""};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
+				{ 6, 69636, "", "=q4=Thekal's Claws", "=ds=#h3#, #w13#", ""};
+				{ 7, 69637, "", "=q4=Gurubashi Destroyer", "=ds=#w5#", ""};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
+				{ 10, 69638, "", "=q4=Arlokk's Claws", "=ds=#h4#, #w13#", ""};
+				{ 11, 69639, "", "=q4=Renataki's Soul Slicer", "=ds=#h1#, #w10#", ""};
+				{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+				{ 14, 69640, "", "=q4=Kilt of Forgotten Rites", "=ds=#s11#, #a3#", ""};
+				{ 15, 69641, "", "=q4=Troll Skull Chestplate", "=ds=#s5#, #a4#", ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};
+				{ 17, 69630, "", "=q4=Handguards of the Tormented", "=ds=#s9#, #a3#", ""};
+				{ 18, 69633, "", "=q4=Plunderer's Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 19, 69632, "", "=q4=Lost Bag of Whammies", "=ds=#s15#", ""};
+				{ 20, 69631, "", "=q4=Zulian Voodoo Stick", "=ds=#w12#", ""};
+				{ 21, 69647, "", "=q1=Mysterious Gurubashi Bijou", "=ds=#m3#", ""};
 			};
 		};
 		info = {
-			name = "The Cage of Madness",
+			name = "The Cache of Madness",
 			module = moduleName, instance = "ZulGurub",
 		};
 	};
@@ -2105,10 +2172,26 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 69629, "", "=q4=Shield of the Blood God", "=ds=#w8#", ""};
 				{ 17, 69627, "", "=q4=Zulian Ward", "=ds=#w8#", ""};
 				{ 18, 69625, "", "=q4=Mandokir's Tribute", "=ds=#w2#", ""};
+				{ 20, 69774, "", "=q1=Zul'Gurub Stone", "=ds=#m3#", ""};
 			};
 		};
 		info = {
 			name = "Jin'do the Godbreaker",
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 69800, "", "=q4=Spiritguard Drape", "=ds=#s4#"};
+				{ 2, 69796, "", "=q4=Spiritcaller Cloak", "=ds=#s4#"};
+				{ 3, 69798, "", "=q4=Knotted Handwraps", "=ds=#s9#, #a2#"};
+				{ 5, 69803, "", "=q4=Gurubashi Punisher", "=ds=#h1#, #w6#"};
+			};
+		};
+		info = {
+			name = "trash",
 			module = moduleName, instance = "ZulGurub",
 		};
 	};

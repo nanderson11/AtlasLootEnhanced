@@ -11608,14 +11608,15 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
 				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
 				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
-				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#w4#, #h1#", "2175 #justice#  / 60 #champseal#"};
-				{ 22, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#w10#, #h3#", "2175 #justice#  / 60 #champseal#"};
-				{ 23, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#w1#, #h2#", "3500 #justice# / 95 #champseal#"};
-				{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#w6#, #h3#", "2725 #justice# / 75 #champseal#"};
-				{ 25, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#w6#, #h1#", "2175 #justice# / 75 #champseal#"};
-				{ 26, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#w6#, #h2#", "3500 #justice# / 95 #champseal#"};
-				{ 27, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "3500 #justice# / 95 #champseal#"};
-				{ 28, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "3500 #justice# / 95 #champseal#"};
+				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "2175 #justice#  / 60 #champseal#"};
+				{ 22, 69893, "", "=q7=Blooksoaked Skullforge Reaver", "=ds=#h3#, #w10#", "2175 #justice#  / 60 #champseal#"};
+				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "2175 #justice#  / 60 #champseal#"};
+				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "3500 #justice# / 95 #champseal#"};
+				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "2725 #justice# / 75 #champseal#"};
+				{ 26, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "2175 #justice# / 75 #champseal#"};
+				{ 27, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "3500 #justice# / 95 #champseal#"};
+				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "3500 #justice# / 95 #champseal#"};
+				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "3500 #justice# / 95 #champseal#"};
 
 			};
 			{

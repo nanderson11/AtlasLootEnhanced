@@ -7,7 +7,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 
 v6.03.01 (? ??, 2011)
-Many minor fixes, additions and translations.
+Added missing Zul'Aman and Zul'Gurub loot.
+Minor fixes and additions.
 
 v6.03.00 (Apr 26, 2011)
 Compatible with Patch 4.1
@@ -894,13 +895,13 @@ Korean Update
 German Update
 French Update
 
-v1.19.00
+v1.19.00 (Sep 19, 2006)
 Included a small database of all AQ40 and Naxx tooltips as these items cannot always be queried with a right-click
 Legendary Item page added in the 'Item Sets' window
 Naxx Update
 French Update
 
-v1.18.05
+v1.18.05 (Sep 10, 2006)
 Fixed a Zevrim Thornhoof typo
 Added the recipes Lieutenant General Andorov sells
 Made T0 trash drops more specific (where possible)
@@ -914,7 +915,7 @@ Fixed the Lootlink bug some were having
 Headings no longer bring up tooltip fragments
 Added Brood of Nozdormu Rings to the AQ40 page
 
-v1.18.03
+v1.18.03 (Aug 29, 2006)
 Right-clicking an unsafe item will attempt to get tooltip data from the server
 Attempted improvements in Lootlink use in non-english clients (thanks KKram!)
 Naxx Update
@@ -937,10 +938,10 @@ for an item as someone in your battlegroup has it, but you cannot link it in a
 chat channel as it has not dropped on your server.  As a result, I can no longer
 guarantee safe item linking, only safe viewing of tooltip data
 
-v1.18.02
+v1.18.02 (Aug 23, 2006)
 Updated version check for Atlas 1.8.1
 
-v1.18.01
+v1.18.01 (Aug 23, 2006)
 Changed (no iteminfo) to (unsafe) in the English translation as the old text was confusing people
 Expanded drop rates in Naxx to a few more bosses well and truly on farm
 Fixed Armaments and Regalia drop rates in AQ40
@@ -967,7 +968,7 @@ v1.17.04
 German, French and Chinese (Trad. and Simp.) updates
 Naxx fixes
 
-v1.17.03
+v1.17.03 (Aug 02, 2006)
 Added PvP, T2, T1, T0 Armour sets (thanks to Asurn for helping with data assimilation)
 Removed the default 'Boss:' prefix from headers that didn't need them
 Trad. Chinese Update
@@ -983,7 +984,7 @@ Attempted fix for localisation of set names, let me know if it works
 Fixed framestrata error appearing in FrameXML.log
 Simp. Chinese update
 
-v1.17.00
+v1.17.00 (Jul 23, 2006)
 Set interface re-programmed
 Added T3 Sets to Naxx page
 Added the Observer to DM North on Gordok's table
@@ -1006,13 +1007,13 @@ Quest items needed for armor sets localised
 Reordering of some boss loot
 Naxx updated
 
-v1.16.01
+v1.16.01 (Jul 03, 2006)
 German update for Atlas v1.7.5
 Bug fix for people without Atlas installed
 Drop Rates added to SFK, RC, SM, Uld, RFD, ZF, Mara, ST, Deadmines, WC, BFD, Stockade and Gnomeregan (thanks Pownas!)
 Naxx Update
 
-v1.16.00
+v1.16.00 (Jul 01, 2006)
 Korean Update
 German Update
 French Update
@@ -1038,7 +1039,7 @@ Added Tablet of Flame Shock VI
 Added better bag descriptions and Binding of the Windseeker description
 Added Libram of Divinity
 
-v1.15.05
+v1.15.05 (Jun 24, 2006)
 Fixed Red Dragonscale Breastplate (en)
 Trad. Chinese Update
 Added Primal Hakkari Idol
@@ -1048,19 +1049,19 @@ Added data to the Grim Guzzler in BRD
 Added Shadowpriest Sezz'ziz in ZF (en)
 Added a missing Ouro drop
 
-v1.15.04
+v1.15.04 (Jun 23, 2006)
 Updated Simp. Chinese
 Added new ZG drops
 Fixed popup bug on non-english clients
 
-v1.15.03
+v1.15.03 (Jun 22, 2006)
 Fixed ZF to mach Atlas v1.7.4
 Seperated the Tier 0.5 Summonables to match Atlas v1.7.4 English (other languages as soon as Atlas is ready)
 Now checks the Atlas version is compatible.
 Completed WSG Pants Data
 Filled in some gaps in Naxx
 
-v1.15.02
+v1.15.02 (Jun 21, 2006)
 Fix to match Atlas v1.7.4 UBRS changes
 Upgraded ZG and AQ20 Sets to Epic Quality.
 
@@ -1093,15 +1094,15 @@ Updated German, Korean, Simp. Chinese and Trad. Chinese translations
 Drop Rate text localised
 Safe item links now enabled by default
 
-v1.14.00
+v1.14.00 (Jun 13, 2006)
 Added Alterac Valley Rep Rewards and Arathi Basin Rep Rewards (lvl60)
 Added Stubs for Naxxramas loot using all the test server data I could find
 
-v1.13.01
+v1.13.01 (Jun 12, 2006)
 Updated Traditional Chinese and Korean translations
 Fix to boss names having the first couple of letters cut off in the German translation.
 
-v1.13.00
+v1.13.00 (Jun 11, 2006)
 Updated German, Simp. Chinese and Trad. Chinese translations
 Now asks for setup when run for the first time.
 Added Dire Maul Books
@@ -1134,17 +1135,17 @@ Fixed some more typos in the English version
 Updated German Translation
 Added World Spawns in anticipation of a new Atlas version and to give translators time to work on it.
 
-v1.12.07
+v1.12.07 (Jun 04, 2006)
 Updated Simplified Chinese translation
 Fixed a number of typos in the English translation
 
-v1.12.06
+v1.12.06 (Jun 03, 2006)
 Added Traditional Chinese support
 
-v1.12.05
+v1.12.05 (Jun 03, 2006)
 Font fix for asian languages (I hope!)
 
-v1.12.04
+v1.12.04 (Jun 03, 2006)
 Updated Korean Translation
 Better use of artwork (now an atlas symbol next to bosses with loot)
 
