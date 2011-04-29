@@ -1124,6 +1124,7 @@ if AL then
 	AL["Dinner Suit Box"] = "Karton 'Abendanzug'";
 	AL["Bag of Heart Candies"] = "Tüte mit Zuckerherzen";
 	AL["Hidden Stash"] = "Gebunkerte Güter";
+	AL["The Cache of Madness"] = "Der Hort des Wahnsinns";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot Fehler!";
