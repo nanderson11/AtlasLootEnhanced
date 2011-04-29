@@ -92,7 +92,8 @@ function AtlasLoot:LoadModule(module)
 	if module == "AtlasLoot" or not atlasLootIsLoaded then
 		if not IsAddOnLoaded(module) then
 			LoadAddOn("AtlasLoot")
-			self:OnLoaderLoad()
+			atlasLootIsLoaded = true
+		else
 			atlasLootIsLoaded = true
 		end
 		return loadedRET, reasonRET

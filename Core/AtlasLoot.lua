@@ -152,6 +152,8 @@ local function CopyTable(t)
 	return new
 end
 
+local loadFrame = CreateFrame("FRAME")
+loadFrame:SetScript("OnLoad", AtlasLoot.OnLoaderLoad)
 -----------------------------
 -- Core functions
 -----------------------------
@@ -1293,71 +1295,6 @@ do
 	end
 end
 
-function AtlasLoot:CreateCompareFrame()
-	if self.CompareFrame then return end
-	
-	AtlasLoot.CompareFrame = CreateFrame("Frame","AtlasLootCompareFrame")
-
-	local Frame = AtlasLoot.CompareFrame
-	Frame:ClearAllPoints()
-	Frame:SetParent(UIParent)
-	Frame:SetPoint("CENTER", "UIParent", "CENTER", 0, 0)
-	Frame:SetFrameStrata("HIGH")
-	Frame:SetWidth(832)
-	Frame:SetHeight(447)
-	
-	Frame.Layers = {}
-	
-	Frame.Layers[1] = Frame:CreateTexture(nil, "BACKGROUND")
-	Frame.Layers[1]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 12, -8)	
-	Frame.Layers[1]:SetWidth(58)
-	Frame.Layers[1]:SetHeight(58)
-	Frame.Layers[1]:SetTexture("Interface\\Icons\\INV_Box_01")
-	
-	Frame.Layers[2] = Frame:CreateTexture(nil, "ARTWORK")
-	Frame.Layers[2]:SetPoint("TOPLEFT", Frame, "TOPLEFT")	
-	Frame.Layers[2]:SetWidth(256)
-	Frame.Layers[2]:SetHeight(256)
-	Frame.Layers[2]:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopLeft")
-	
-	Frame.Layers[3] = Frame:CreateTexture(nil, "ARTWORK")
-	Frame.Layers[3]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 256, 0)	
-	Frame.Layers[3]:SetWidth(320)
-	Frame.Layers[3]:SetHeight(256)
-	Frame.Layers[3]:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Top")
-	
-	Frame.Layers[4] = Frame:CreateTexture(nil, "ARTWORK")
-	Frame.Layers[4]:SetPoint("TOPLEFT", Frame.Layers[3], "TOPRIGHT")	
-	Frame.Layers[4]:SetWidth(256)
-	Frame.Layers[4]:SetHeight(256)
-	Frame.Layers[4]:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopRight")
-	
-	Frame.Layers[5] = Frame:CreateTexture(nil, "ARTWORK")
-	Frame.Layers[5]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 0, -256)	
-	Frame.Layers[5]:SetWidth(256)
-	Frame.Layers[5]:SetHeight(256)
-	Frame.Layers[5]:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotLeft")
-	
-	Frame.Layers[6] = Frame:CreateTexture(nil, "ARTWORK")
-	Frame.Layers[6]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 256, -256)	
-	Frame.Layers[6]:SetWidth(320)
-	Frame.Layers[6]:SetHeight(256)
-	Frame.Layers[6]:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Auction-Bot")
-	
-	Frame.Layers[7] = Frame:CreateTexture(nil, "ARTWORK")
-	Frame.Layers[7]:SetPoint("TOPLEFT", Frame.Layers[6], "TOPRIGHT")	
-	Frame.Layers[7]:SetWidth(256)
-	Frame.Layers[7]:SetHeight(256)
-	Frame.Layers[7]:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-BotRight")
-	
-	Frame.Title = Frame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
-	Frame.Title:SetPoint("TOPLEFT", Frame, "TOPLEFT", 350, -16)
-	Frame.Title:SetWidth(200)
-	Frame.Title:SetHeight(18)
-	Frame.Title:SetJustifyH("CENTER")
-	Frame.Title:SetText(AL["AtlasLoot"].." Compare Window")
-end
-
 function AtlasLoot:CheckHeroic(itemTable)
 	local heroic
 	local checkName = {
@@ -1384,10 +1321,6 @@ function AtlasLoot:CheckHeroic(itemTable)
 	end
 	return heroic
 end
-
-
-
-
 
 
 

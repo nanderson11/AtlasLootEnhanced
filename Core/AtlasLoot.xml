@@ -36,7 +36,4 @@
 		<HighlightTexture alphaMode="ADD" file="Interface\Buttons\ButtonHilight-Square"/>
 		<CheckedTexture alphaMode="ADD" file="Interface\Buttons\CheckButtonHilight"/>
 	</CheckButton>
-
 </Ui>
-
-
