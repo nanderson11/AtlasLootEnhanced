@@ -1125,6 +1125,7 @@ if AL then
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
 	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";
 	AL["Hidden Stash"] = "Fortune cachée";
+	--AL["The Cache of Madness"] = true; -- à traduire
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
