@@ -623,6 +623,7 @@ if AL then
 	AL["Resilience"] = "韌性";
 	AL["Professions"] = "專業技能";
 	AL["Damage"] = "傷害";
+--	AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
 	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
@@ -791,10 +792,10 @@ if AL then
 	AL["Landro's Lil' XT"] = "藍卓的XT小小拆解者";
 
 	-- Fourteenth set
-	--AL["War of the Elements"] = true;
+	AL["War of the Elements"] = "元素之戰";
 
 	-- Fifteenth set
-	--AL["Twilight of the Dragons"] = true;
+	AL["Twilight of the Dragons"] = "暮光之龍";
 
 	--Battleground Brackets
 	AL["Old PvP Rewards"] = "舊 PvP 獎勵";
@@ -1122,6 +1123,7 @@ if AL then
 	AL["Dinner Suit Box"] = "晚宴套裝盒";
 	AL["Bag of Heart Candies"] = "心願糖果袋";
 	AL["Hidden Stash"] = "隱密藏匿物";
+	AL["The Cache of Madness"] = "瘋狂之緣"; -- to be confirmed, should it be "狂性儲納所"?
 
 	--Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";
