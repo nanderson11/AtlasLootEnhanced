@@ -1322,7 +1322,7 @@ AtlasLoot_LootTableRegister = {
 		["WailingCaverns"] = {
 			["Bosses"] = {
 				{ "WailingCavernsLoot#1", {2,3,4,5,6} },
-				{ "WailingCavernsLoot#2", {7,8,9,10,11,12}, hide = true },
+				{ "WailingCavernsLoot#2", {7,8,10,11}, hide = true },
 				{ "VWOWSets#1", 15, hide = true },
 			},
 			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "WailingCaverns" },
