@@ -1923,7 +1923,6 @@ local moduleName = "AtlasLootCataclysm"
 		--- Zul'Aman ---
 		----------------
 
-
 	AtlasLoot_Data["ZA85AkilZon"] = {
 		["Normal"] = {
 			{
@@ -3943,7 +3942,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 49054, "", "=q3=Tabard of Conquest", "#ACHIEVEMENTID:3957#, =ec1="..BabbleFaction["Horde"]};
 				{ 9, 0, "INV_BannerPVP_02", "=q6="..AL["Misc"], ""}; ---different icon
 				{ 10, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.48%"};
-				{ 11, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
+				{ 11, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
+				{ 12, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
+				{ 13, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
 				{ 16, 0, "achievement_guildperk_honorablemention", "=q6="..AL["Quest Reward"], ""};
 				{ 17, 52252, "", "=q4=Tabard of the Lightbringer", "=q1=#m4#: #QUESTID:24919#"};
 				{ 18, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: #QUESTID:11972#"};
@@ -4171,10 +4172,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
 				{ 10, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
 				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 12, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#"};--check after 4.1 goes live
+				{ 12, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
 				{ 13, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
 				{ 14, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
-				{ 15, 68833, "", "=q1=Panther Cub", "=q1=#m4#"};--check after 4.1 goes live
+				{ 15, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
 				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
 				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
 				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
@@ -4722,17 +4723,18 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
-				{ 3, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
-				{ 4, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 5, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 6, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 7, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 8, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 9, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
-				{ 10, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 11, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
-				{ 12, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
+				{ 2, 69213, "", "=q4=Flameward Hippogryph", "Patch 4.2"};
+				{ 3, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
+				{ 4, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
+				{ 5, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 6, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 7, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 8, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 9, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 10, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 11, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 12, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
+				{ 13, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
 				{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
 				{ 17, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
 				{ 18, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
@@ -5164,6 +5166,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 28, 69110, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" },
 				{ 29, 69167, "", "=q4=Vessel of Acceleration", "=ds=#s14#" },
 				{ 30, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
+			};
+			{
+				{ 1, 69226, "", "=q4=Reins of the Beryl Fire Hawk", "=ds=" },--4.2 meta reward?
+				{ 2, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=" },--4.2 meta reward?
 			};
 		};
 		info = {

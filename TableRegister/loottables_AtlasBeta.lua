@@ -90,13 +90,3 @@ function AtlasLoot:LootTableRegister_Merge()
 		mergeFinish = true
 	end
 end
-
-
-
-
-
-
-
-
-
-
