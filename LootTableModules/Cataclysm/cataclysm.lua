@@ -4390,16 +4390,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsPetStore"] = {
 		["Normal"] = {
 			{
-				{ 2, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 3, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 4, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
-				{ 5, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+				{ 2, 70099, "", "=q3=Cenarion Hatchling", "=ds=#e13#"};
+				{ 3, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
+				{ 4, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 5, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 17, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
 				{
-					{ 17, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
-					{ 17, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+					{ 18, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
+					{ 18, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
 				};
-				{ 18, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
-				{ 19, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
+				{ 19, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+				{ 20, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
 			};
 		};
 		info = {
