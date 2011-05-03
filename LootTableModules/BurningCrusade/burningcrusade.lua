@@ -2,6 +2,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootBurningCrusade"
 
@@ -32,7 +33,6 @@ local moduleName = "AtlasLootBurningCrusade"
 ---- Tempest Keep: The Botanica
 ---- Tempest Keep: The Mechanar
 ---- Tempest Keep: The Eye
----- Zul'Aman
 --- Factions
 ---- Ashtongue Deathsworn
 ---- Cenarion Expedition
@@ -498,18 +498,18 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Mana-Tombs"]};
-				{ 2, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370), =q1=#n54#", "", "0.52%"};
-				{ 3, 22543, "", "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1=#n83#", "", "0.52%"};
+				{ 2, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370), =q1="..AL["Nexus Stalker"], "", "0.52%"};
+				{ 3, 22543, "", "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1="..AL["Ethereal Priest"], "", "0.52%"};
 				{ 5, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Sethekk Halls"]};
-				{ 6, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1=#n84#", "", "0.46%"};
-				{ 7, 29669, "", "=q2=Pattern: Shadow Armor Kit", "=ds=#p7# (340) =q1=#n85#", "", "0.39%"};
+				{ 6, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1="..AL["Sethekk Ravenguard"], "", "0.46%"};
+				{ 7, 29669, "", "=q2=Pattern: Shadow Armor Kit", "=ds=#p7# (340) =q1="..AL["Time-Lost Shadowmage"], "", "0.39%"};
 				{ 9, 0, "INV_Box_01", "=q6="..AL["The Saga of Terokk"], "=q5="..BabbleZone["Sethekk Halls"]};
 				{ 10, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Auchenai Crypts"]};
-				{ 17, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360), =q1=#n55#", "", "0.69%"};
-				{ 18, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1=#n82#", "", "0.60%"};
+				{ 17, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360), =q1="..AL["Auchenai Monk"], "", "0.69%"};
+				{ 18, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1="..AL["Raging Skeleton"], "", "0.60%"};
 				{ 20, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Shadow Labyrinth"]};
-				{ 21, 23607, "", "=q3=Plans: Felsteel Helm", "=ds=#p2# (365), =q1=#n56#", "", "0.61%"};
+				{ 21, 23607, "", "=q3=Plans: Felsteel Helm", "=ds=#p2# (365), =q1="..AL["Cabal Fanatic"], "", "0.61%"};
 				{ 23, 0, "INV_Box_01", "=q6="..AL["First Fragment Guardian"], "=q5="..BabbleZone["Shadow Labyrinth"]};
 				{ 24, 24514, "", "=q1=First Key Fragment", "=ds=#m3#", "", "100%"};
 			};
@@ -905,13 +905,13 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["Old Hillsbrad Foothills"]};
-				{ 2, 25729, "", "=q3=Pattern: Stylin' Adventure Hat", "=ds=#p7# (350) =q1=#n94#", "", "0.25%"};
+				{ 2, 25729, "", "=q3=Pattern: Stylin' Adventure Hat", "=ds=#p7# (350) =q1="..AL["Durnholde Rifleman"], "", "0.25%"};
 				{ 4, 0, "INV_Box_01", "=q6="..AL["Don Carlos"], "=q5="..BabbleZone["Old Hillsbrad Foothills"]};
 				{ 5, 38506, "", "=q3=Don Carlos' Famous Hat", "=ds=#s1#, #a1# =q2=#j3#"};
 				{ 6, 38329, "", "=q1=Don Carlos' Hat", "=q1=#m3#"};
 				{ 7, 38276, "", "=q1=Haliscan Brimmed Hat", "=q1=#m4#: =ds=#s1#, #a1#"};
 				{ 9, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["The Black Morass"]};
-				{ 10, 25730, "", "=q3=Pattern: Stylin' Jungle Hat", "=ds=#p7# (350) =q1=#n95#", "", "0.29%"};
+				{ 10, 25730, "", "=q3=Pattern: Stylin' Jungle Hat", "=ds=#p7# (350) =q1="..AL["Rift Keeper/Rift Lord"], "", "0.29%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Thomas Yance"], "=q5="..BabbleZone["Old Hillsbrad Foothills"]};
 				{ 17, 25725, "", "=q1=Pattern: Riding Crop", "=ds=#p7# (350)"};
 				{ 19, 0, "INV_Box_01", "=q6="..AL["Aged Dalaran Wizard"], "=q5="..BabbleZone["Old Hillsbrad Foothills"]};
@@ -1339,8 +1339,8 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["CFRSteamTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 24159, "", "=q3=Design: Khorium Band of Frost", "=ds=#p12# (355) =q1=#n86#", "", "0.14%"};
-				{ 3, 22533, "", "=q2=Formula: Enchant Bracer - Fortitude", "=ds=#p4# (350) =q1=#n87#", "", "0.40%"};
+				{ 1, 24159, "", "=q3=Design: Khorium Band of Frost", "=ds=#p12# (355) =q1="..AL["Coilfang Sorceress"], "", "0.14%"};
+				{ 3, 22533, "", "=q2=Formula: Enchant Bracer - Fortitude", "=ds=#p4# (350) =q1="..AL["Coilfang Oracle"], "", "0.40%"};
 				{ 5, 24367, "", "=q1=Orders from Lady Vashj", "=ds=#m2#"};
 				{ 6, 24368, "", "=q1=Coilfang Armaments", "=ds=#m3#", "", "12.68%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Second Fragment Guardian"], "=q5="..BabbleZone["The Steamvault"]};
@@ -2029,7 +2029,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["HCHallsTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 22554, "", "=q2=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (350) =q1=#n88#", "", "1.65%"};
+				{ 1, 22554, "", "=q2=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (350) =q1="..AL["Shattered Hand Centurion"], "", "1.65%"};
 				{ 3, 0, "INV_Box_01", "=q6="..AL["Shattered Hand Executioner"], ""};
 				{ 4, 31716, "", "=q1=Unused Axe of the Executioner", "=ds=#m3#", "", "100%"};
 			};
@@ -2068,7 +2068,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 22, 28790, "", "=q4=Naaru Lightwarden's Band", "=q1=#m4#: =ds=#s13#"};
 				{ 23, 28793, "", "=q4=Band of Crimson Fury", "=q1=#m4#: =ds=#s13#"};
 				{ 24, 28792, "", "=q4=A'dal's Signet of Defense", "=q1=#m4#: =ds=#s13#"};
-				{ 26, 34845, "", "=q4=Pit Lord's Satchel", "=ds=#e1# #m15#"};
+				{ 26, 34845, "", "=q4=Pit Lord's Satchel", "=ds=#e1#"};
 			};
 		};
 		info = {
@@ -2194,7 +2194,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["KaraOperaEvent"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Shared Drops"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};
 				{ 2, 28594, "", "=q4=Trial-Fire Trousers", "=ds=#s11#, #a1#", "", "15.96%"};
 				{ 3, 28591, "", "=q4=Earthsoul Leggings", "=ds=#s11#, #a2#", "", "12.45%"};
 				{ 4, 28589, "", "=q4=Beastmaw Pauldrons", "=ds=#s3#, #a3#", "", "12.54%"};
@@ -2538,7 +2538,7 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["SMTTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 35516, "", "=q3=Sun Touched Satchel", "=ds=#e1# #m15#", "", "1%"};
+				{ 1, 35516, "", "=q3=Sun Touched Satchel", "=ds=#e1#", "", "1%"};
 			};
 		};
 		info = {
@@ -2908,17 +2908,17 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["The Botanica"]};
-				{ 2, 24172, "", "=q4=Design: Coronet of Verdant Flame", "=ds=#p12# (370) =q1=#n92#", "", "0.27%"};
+				{ 2, 24172, "", "=q4=Design: Coronet of Verdant Flame", "=ds=#p12# (370) =q1="..AL["Sunseeker Botanist"], "", "0.27%"};
 				{ 4, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["The Mechanar"]};
-				{ 5, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1=#n93#", "", "0.30%"};
-				{ 6, 21906, "", "=q2=Pattern: Arcanoweave Boots", "=ds=#p8# (360) =q1=#n93#", "", "0.57%"};
+				{ 5, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1="..AL["Sunseeker Astromage"], "", "0.30%"};
+				{ 6, 21906, "", "=q2=Pattern: Arcanoweave Boots", "=ds=#p8# (360) =q1="..AL["Sunseeker Astromage"], "", "0.57%"};
 				{ 8, 0, "INV_Box_01", "=q6="..AL["Overcharged Manacell"], "=q5="..BabbleZone["The Mechanar"]};
 				{ 9, 30824, "", "=q1=Overcharged Manacell", "=ds=#m3#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], "=q5="..BabbleZone["The Arcatraz"]};
-				{ 17, 23606, "", "=q3=Plans: Felsteel Leggings", "=ds=#p2# (360), =q1=#n57#", "", "3.93%"};
-				{ 18, 22556, "", "=q2=Formula: Enchant 2H Weapon - Major Agility", "=ds=#p4# (360) =q1=#n89#", "", "1.68%"};
-				{ 19, 29672, "", "=q2=Pattern: Flame Armor Kit", "=ds=#p7# (340) =q1=#n91#", "", "1.84%"};
-				{ 20, 21905, "", "=q2=Pattern: Arcanoweave Bracers", "=ds=#p8# (350) =q1=#n90#", "", "1.21%"};
+				{ 17, 23606, "", "=q3=Plans: Felsteel Leggings", "=ds=#p2# (360), =q1="..AL["Unchained Doombringer"], "", "3.93%"};
+				{ 18, 22556, "", "=q2=Formula: Enchant 2H Weapon - Major Agility", "=ds=#p4# (360) =q1="..AL["Eredar Deathbringer"], "", "1.68%"};
+				{ 19, 29672, "", "=q2=Pattern: Flame Armor Kit", "=ds=#p7# (340) =q1="..AL["Gargantuan Abyssal"], "", "1.84%"};
+				{ 20, 21905, "", "=q2=Pattern: Arcanoweave Bracers", "=ds=#p8# (350) =q1="..AL["Arcatraz Sentinel"], "", "1.21%"};
 				{ 22, 0, "INV_Box_01", "=q6="..AL["Third Fragment Guardian"], "=q5="..BabbleZone["The Arcatraz"]};
 				{ 23, 24488, "", "=q1=Third Key Fragment", "=ds=#m3#", "", "100%"};
 			};
@@ -3328,188 +3328,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			module = moduleName, instance = "TempestKeepTheEye",
 		};
 	};
---[[
-		----------------
-		--- Zul'Aman ---
-		----------------
 
-	AtlasLoot_Data["ZANalorakk"] = {
-		["Normal"] = {
-			{
-				{ 1, 33203, "", "=q4=Robes of Heavenly Purpose", "=ds=#s5#, #a1#", "", "13%"};
-				{ 2, 33285, "", "=q4=Fury of the Ursine", "=ds=#s8#, #a1#", "", "13%"};
-				{ 3, 33211, "", "=q4=Bladeangel's Money Belt", "=ds=#s10#, #a2#", "", "14%"};
-				{ 4, 33206, "", "=q4=Pauldrons of Primal Fury", "=ds=#s3#, #a3#", "", "13%"};
-				{ 5, 33327, "", "=q4=Mask of Introspection", "=ds=#s1#, #a4#", "", "13%"};
-				{ 6, 33191, "", "=q4=Jungle Stompers", "=ds=#s12#, #a4#", "", "13%"};
-				{ 7, 33640, "", "=q4=Fury", "=ds=#h4#, #w13#", "", "14%"};
-				{ 9, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Nalorakk"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZAAkilZon"] = {
-		["Normal"] = {
-			{
-				{ 1, 33286, "", "=q4=Mojo-Mender's Mask", "=ds=#s1#, #a3#", "", "13%"};
-				{ 2, 33215, "", "=q4=Bloodstained Elven Battlevest", "=ds=#s5#, #a4#", "", "13%"};
-				{ 3, 33216, "", "=q4=Chestguard of Hidden Purpose", "=ds=#s5#, #a4#", "", "13%"};
-				{ 4, 33281, "", "=q4=Brooch of Nature's Mercy", "=ds=#s2#", "", "13%"};
-				{ 5, 33293, "", "=q4=Signet of Ancient Magics", "=ds=#s13#", "", "13%"};
-				{ 6, 33214, "", "=q4=Akil'zon's Talonblade", "=ds=#h1#, #w10#", "", "13%"};
-				{ 7, 33283, "", "=q4=Amani Punisher", "=ds=#h3#, #w6#", "", "14%"};
-				{ 9, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Akil'zon"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZAJanAlai"] = {
-		["Normal"] = {
-			{
-				{ 1, 33357, "", "=q4=Footpads of Madness", "=ds=#s12#, #a1#", "", "13%"};
-				{ 2, 33356, "", "=q4=Helm of Natural Regeneration", "=ds=#s1#, #a2#", "", "13%"};
-				{ 3, 33329, "", "=q4=Shadowtooth Trollskin Cuirass", "=ds=#s5#, #a2#", "", "13%"};
-				{ 4, 33328, "", "=q4=Arrow-Fall Chestguard", "=ds=#s5#, #a3#", "", "13%"};
-				{ 5, 33354, "", "=q4=Wub's Cursed Hexblade", "=ds=#h3#, #w4#", "", "14%"};
-				{ 6, 33326, "", "=q4=Bulwark of the Amani Empire", "=ds=#w8#", "", "13%"};
-				{ 7, 33332, "", "=q4=Enamelled Disc of Mojo", "=ds=#w8#", "", "12%"};
-				{ 9, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Jan'alai"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZAHalazzi"] = {
-		["Normal"] = {
-			{
-				{ 1, 33317, "", "=q4=Robe of Departed Spirits", "=ds=#s5#, #a1#", "", "13%"};
-				{ 2, 33300, "", "=q4=Shoulderpads of Dancing Blades", "=ds=#s3#, #a2#", "", "14%"};
-				{ 3, 33322, "", "=q4=Shimmer-Pelt Vest", "=ds=#s5#, #a2#", "", "13%"};
-				{ 4, 33533, "", "=q4=Avalanche Leggings", "=ds=#s11#, #a3#", "", "13%"};
-				{ 5, 33299, "", "=q4=Spaulders of the Advocate", "=ds=#s3#, #a4#", "", "13%"};
-				{ 6, 33303, "", "=q4=Skullshatter Warboots", "=ds=#s12#, #a4#", "", "14%"};
-				{ 7, 33297, "", "=q4=The Savage's Choker", "=ds=#s2#", "", "13%"};
-				{ 9, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Halazzi"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZAMalacrass"] = {
-		["Normal"] = {
-			{
-				{ 1, 33592, "", "=q4=Cloak of Ancient Rituals", "=ds=#s4#", "", "13%"};
-				{ 2, 33453, "", "=q4=Hood of Hexing", "=ds=#s1#, #a1#", "", "13%"};
-				{ 3, 33463, "", "=q4=Hood of the Third Eye", "=ds=#s1#, #a1#", "", "13%"};
-				{ 4, 33432, "", "=q4=Coif of the Jungle Stalker", "=ds=#s1#, #a3#", "", "15%"};
-				{ 5, 33464, "", "=q4=Hex Lord's Voodoo Pauldrons", "=ds=#s3#, #a3#", "", "13%"};
-				{ 6, 33421, "", "=q4=Battleworn Tuskguard", "=ds=#s1#, #a4#", "", "15%"};
-				{ 7, 33446, "", "=q4=Girdle of Stromgarde's Hope", "=ds=#s10#, #a4#", "", "15%"};
-				{ 9, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"};
-				{ 16, 33829, "", "=q4=Hex Shrunken Head", "=ds=#s14#", "", "12%"};
-				{ 17, 34029, "", "=q4=Tiny Voodoo Mask", "=ds=#s14#", "", "25%"};
-				{ 18, 33828, "", "=q4=Tome of Diabolic Remedy", "=ds=#s14#", "", "13%"};
-				{ 19, 33389, "", "=q4=Dagger of Bad Mojo", "=ds=#h1#, #w4#", "", "15%"};
-				{ 20, 33298, "", "=q4=Prowler's Strikeblade", "=ds=#h1#, #w4#", "", "14%"};
-				{ 21, 33388, "", "=q4=Heartless", "=ds=#h1#, #w10#", "", "15%"};
-				{ 22, 33465, "", "=q4=Staff of Primal Fury", "=ds=#w9#", "", "13%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Hex Lord Malacrass"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZAZuljin"] = {
-		["Normal"] = {
-			{
-				{ 1, 33471, "", "=q4=Two-Toed Sandals", "=ds=#s12#, #a1#", "", "15%"};
-				{ 2, 33479, "", "=q4=Grimgrin Faceguard", "=ds=#s1#, #a2#", "", "15%"};
-				{ 3, 33469, "", "=q4=Hauberk of the Empire's Champion", "=ds=#s5#, #a3#", "", "16%"};
-				{ 4, 33473, "", "=q4=Chestguard of the Warlord", "=ds=#s5#, #a4#", "", "15%"};
-				{ 5, 33466, "", "=q4=Loop of Cursed Bones", "=ds=#s2#", "", "14%"};
-				{ 6, 33830, "", "=q4=Ancient Aqir Artifact", "=ds=#s14#", "", "14%"};
-				{ 7, 33831, "", "=q4=Berserker's Call", "=ds=#s14#", "", "14%"};
-				{ 9, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"};
-				{ 16, 33467, "", "=q4=Blade of Twisted Visions", "=ds=#h3#, #w10#", "", "14%"};
-				{ 17, 33478, "", "=q4=Jin'rohk, The Great Apocalypse", "=ds=#h2#, #w10#", "", "14%"};
-				{ 18, 33476, "", "=q4=Cleaver of the Unforgiving", "=ds=#h1#, #w1#", "", "15%"};
-				{ 19, 33468, "", "=q4=Dark Blessing", "=ds=#h3#, #w6#", "", "15%"};
-				{ 20, 33474, "", "=q4=Ancient Amani Longbow", "=ds=#w2#", "", "14%"};
-				{ 22, 33102, "", "=q4=Blood of Zul'Jin", "=ds=#m2#", "", "87%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Zul'jin"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZATimedChest"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Timed Reward Chest 1"], ""};
-				{ 2, 33590, "", "=q4=Cloak of Fiends", "=ds=#s4#", "", "10%"};
-				{ 3, 33591, "", "=q4=Shadowcaster's Drape", "=ds=#s4#", "", "11%"};
-				{ 4, 33489, "", "=q4=Mantle of Ill Intent", "=ds=#s3#, #a1#", "", "11%"};
-				{ 5, 33480, "", "=q4=Cord of Braided Troll Hair", "=ds=#s10#, #a1#", "", "10%"};
-				{ 6, 33483, "", "=q4=Life-step Belt", "=ds=#s10#, #a2#", "", "12%"};
-				{ 7, 33971, "", "=q4=Elunite Imbued Leggings", "=ds=#s11#, #a2#", "", "10%"};
-				{ 8, 33805, "", "=q4=Shadowhunter's Treads", "=ds=#s12#, #a3#", "", "10%"};
-				{ 9, 33481, "", "=q4=Pauldrons of Stone Resolve", "=ds=#s3#, #a4#", "", "11%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Timed Reward Chest 2"], ""};
-				{ 17, 33495, "", "=q4=Rage", "=ds=#h3#, #w13#", "", "12%"};
-				{ 18, 33493, "", "=q4=Umbral Shiv", "=ds=#h1#, #w4#", "", "12%"};
-				{ 19, 33492, "", "=q4=Trollbane", "=ds=#h2#, #w1#", "", "11%"};
-				{ 20, 33490, "", "=q4=Staff of Dark Mending", "=ds=#w9#", "", "13%"};
-				{ 21, 33494, "", "=q4=Amani Divining Staff", "=ds=#w9#", "", "11%"};
-				{ 22, 33491, "", "=q4=Tuskbreaker", "=ds=#w5#", "", "12%"};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Timed Reward Chest 3"], ""};
-				{ 25, 33497, "", "=q4=Mana Attuned Band", "=ds=#s13#", "", "18%"};
-				{ 26, 33500, "", "=q4=Signet of Eternal Life", "=ds=#s13#", "", "20%"};
-				{ 27, 33496, "", "=q4=Signet of Primal Wrath", "=ds=#s13#", "", "23%"};
-				{ 28, 33499, "", "=q4=Signet of the Last Defender", "=ds=#s13#", "", "18%"};
-				{ 29, 33498, "", "=q4=Signet of the Quiet Forest", "=ds=#s13#", "", "21%"};
-			};
-		};
-		info = {
-			name = "Timed Reward Chest",
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
-
-	AtlasLoot_Data["ZATrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 33993, "", "=q3=Mojo", "=ds=#e13#"};
-				{ 3, 33865, "", "=q2=Amani Hex Stick", "=ds=#m20#", "", "40%"};
-				{ 4, 33930, "", "=q2=Amani Charm of the Bloodletter", "=ds=#m26#", "", "25%"};
-				{ 5, 33932, "", "=q2=Amani Charm of the Witch Doctor", "=ds=#m26#", "", "24%"};
-				{ 6, 33931, "", "=q2=Amani Charm of Mighty Mojo", "=ds=#m26#", "", "25%"};
-				{ 7, 33933, "", "=q2=Amani Charm of the Raging Defender", "=ds=#m26#", "", "25%"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "ZulAman70",
-		};
-	};
---]]
 	----------------
 	--- Factions ---
 	----------------
@@ -4069,7 +3888,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 16, 0, "INV_Weapon_Shortblade_31", "=q6=#r3#", ""};
 				{ 17, 29457, "", "=q3=Nethershard", "=ds=#h3#, #w4#"};
 				{ 18, 29456, "", "=q3=Gift of the Ethereal", "=ds=#h1#, #w10#"};
-				{ 19, 29118, "", "=q3=Smuggler's Ammo Pouch", "=ds=#m14# #e1# =q1=#m1# =ds=#c2#"};
+				{ 19, 29118, "", "=q3=Smuggler's Ammo Pouch", "=ds=#e1# =q1=#m1# =ds=#c2#"};
 				{ 20, 25733, "", "=q3=Pattern: Fel Leather Boots", "=ds=#p7# (350)"};
 				{ 21, 23134, "", "=q2=Design: Delicate Blood Garnet", "=ds=#p12# (325)"};
 				{ 22, 23155, "", "=q2=Design: Sparkling Azure Moonstone", "=ds=#p12# (325)"};
@@ -4475,7 +4294,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 8, 27652, "", "=q3=Stormbreaker's Leggings", "=ds=#a3# #s11#", "40 #halaabattle# 2 #halaaresearch#", ""};
 				{ 9, 27654, "", "=q3=Avenger's Legplates", "=ds=#a4# #s11#", "40 #halaabattle# 2 #halaaresearch#", ""};
 				{ 10, 27653, "", "=q3=Slayer's Legguards", "=ds=#a4# #s11#", "40 #halaabattle# 2 #halaaresearch#", ""};
-				{ 12, 27680, "", "=q3=Halaani Bag", "=ds=#m14# #e1#", "8 #halaaresearch#", ""};
+				{ 12, 27680, "", "=q3=Halaani Bag", "=ds=#e1#", "8 #halaaresearch#", ""};
 				{ 13, 24208, "", "=q3=Design: Mystic Dawnstone", "=ds=#p12# (350)", "12 #gold#", ""};
 				{ 14, 33783, "", "=q3=Design: Steady Talasite", "=ds=#p12# (350)", "4 #halaaresearch#", ""};
 				{ 15, 32071, "", "=q1=Recipe: Elixir of Ironskin", "=ds=#p1# (330)", "2 #halaaresearch#", ""};
@@ -6261,16 +6080,16 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["TBCSets"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#bcs3#", "=q1="..AL["Various Locations"]};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Latro's Flurry"], "=q1="..AL["Various Locations"]};
 				{ 2, 34703, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "=q2="..BabbleBoss["Vexallus"].." ("..BabbleZone["Magisters' Terrace"]..")", "", ""};
 				{ 3, 28189, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "=q2="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")", "", ""};
-				{ 5, 0, "INV_Box_01", "=q6=#bcs1#", "=q1=#z17#"};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Twin Stars"], "=q1="..AL["World Drop"]};
 				{ 6, 31338, "", "=q4=Charlotte's Ivy", "=ds=#s2#", "", "0.01%"};
 				{ 7, 31339, "", "=q4=Lola's Eve", "=ds=#s13#", "", "0.01%"};
-				{ 16, 0, "INV_Box_01", "=q6=#bcs4#", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Hyjal Summit"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Fists of Fury"], "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Hyjal Summit"]};
 				{ 17, 32946, "", "=q4=Claw of Molten Fury", "=ds=#h3#, #w13#"};
 				{ 18, 32945, "", "=q4=Fist of Molten Fury", "=ds=#h4#, #w13#"};
-				{ 20, 0, "INV_Box_01", "=q6=#bcs2#", "=q2="..BabbleBoss["Illidan Stormrage"]..", =q1="..BabbleZone["Black Temple"]};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Twin Blades of Azzinoth"], "=q2="..BabbleBoss["Illidan Stormrage"]..", =q1="..BabbleZone["Black Temple"]};
 				{ 21, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
 				{ 22, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
 			};

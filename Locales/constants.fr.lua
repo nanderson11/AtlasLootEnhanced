@@ -391,9 +391,6 @@ if AL then
 	AL["Banner"] = "Etendard";
 	--AL["Set"] = true,
 	AL["Token"] = "Insigne";
-	AL["Tokens"] = "Insignes";
-	--AL["Token Hand-Ins"] = true; -- à traduire
-	AL["Skinning Knife"] = "Couteau à dépecer";
 	AL["Combat Pet"] = "Animal de compagnie de combat";
 	AL["Fireworks"] = "Feux d'artifice";
 	AL["Transformation Item"] = "Objet de transformation";
@@ -470,16 +467,9 @@ if AL then
 	AL["Quest Reward"] = "Récompense de quête";
 	AL["Old Quest Reward"] = "Ancienne récompense de quête";
 	AL["Shared"] = "Partagé";
-	--AL["Unique"] = true,
 	AL["Right Half"] = "Moitié droite";
 	AL["Left Half"] = "Moitié gauche";
-	AL["28 Slot Soul Shard"] = "28 emplacements Pierre d'âme";
-	AL["20 Slot"] = "20 emplacements";
-	AL["18 Slot"] = "18 emplacements";
-	AL["16 Slot"] = "16 emplacements";
-	AL["10 Slot"] = "10 emplacements";
 	AL["Currency"] = "Monnaie";
-	AL["Conjured Item"] = "Objet conjuré";
 	AL["Used to summon boss"] = "Utilisé pour invoquer un boss";
 	AL["Tradable for sunmote + item above"] = "Echangeable contre une Granule de soleil + l'objet du dessus";
 	AL["Card Game Item"] = "Objet du jeu de carte";
@@ -488,8 +478,6 @@ if AL then
 	AL["Random Heroic Reward"] = "Récompense héroique aléatoire";
 	AL["Fishing Daily Reward"] = "Réc. journa. de pêche";
 	AL["Collector's Edition"] = "Edition Collector";
-	--AL["Blizzcon"] = true;
-	AL["WoW Anniversary Celebration"] = "Célébration de l'anniversaire de WoW";
 	AL["Daily Reward"] = "Récompense journalière";
 	AL["No Longer Available"] = "N'est plus disponible";
 
@@ -537,7 +525,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "Equipements de Résistance à la Nature";
 	AL["Frost Resistance Gear"] = "Equipements de Résistance au Froid";
 	AL["Shadow Resistance Gear"] = "Equipements de Résistance à l'Ombre";
-	AL["Classic Sets"] = "Sets classique";
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
@@ -627,24 +614,10 @@ if AL then
 	--AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
-	AL["Set: Embrace of the Viper"] = "Set: Etreinte de la vipère";
-	AL["Set: Defias Leather"] = "Set: Cuir défias";
-	AL["Set: The Gladiator"] = "Set: Le Gladiateur";
-	AL["Set: Chain of the Scarlet Crusade"] = "Set: Cotte de mailles de la croisade écarlate";
-	AL["Set: The Postmaster"] = "Set: Le Maître de poste";
-	AL["Set: Necropile Raiment"] = "Set: Grande tenue nécropile";
-	AL["Set: Cadaverous Garb"] = "Set: Atours cadavériques";
-	AL["Set: Bloodmail Regalia"] = "Set: Tenue de parade en mailles sanglantes";
-	AL["Set: Deathbone Guardian"] = "Set: Gardien des ossements";
-	AL["Set: Dal'Rend's Arms"] = "Set: Armes de Dal'Rend";
-	AL["Set: Spider's Kiss"] = "Baiser de l'araignée";
 	AL["AQ20 Class Sets"] = "Sets de Classe AQ20";
 	AL["AQ Enchants"] = "Enchantements AQ";
 	AL["AQ40 Class Sets"] = "Sets de Classe AQ40";
 	AL["AQ Opening Quest Chain"] = "Quêtes d'ouverture d'AQ";
-	AL["ZG Class Sets"] = "Sets de Classe ZG";
-	AL["ZG Enchants"] = "Enchantements ZG";
-	AL["Class Books"] = "Livres de classe";
 	AL["Tribute Run"] = "Tribut du Roi";
 	AL["Dire Maul Books"] = "Livres de Hache Tripes";
 	AL["Random Boss Loot"] = "Objets aléatoires des boss";
@@ -841,7 +814,6 @@ if AL then
 	AL["Venture Bay"] = "Baie de la KapitalRisk";
 
 	-- Karazhan Opera Event Headings
-	AL["Shared Drops"] = "Objets en commun";
 	AL["Wizard of Oz"] = "Le Magicien d'Oz";
 	AL["Red Riding Hood"] = "Petit Chaperon Rouge";
 
@@ -849,17 +821,6 @@ if AL then
 	AL["Spider"] = "Araignée";
 	AL["Darkhound"] = "Sombredogue";
 	AL["Bat"] = "Chauve-souris";
-
-	-- ZG Tokens
-	AL["Primal Hakkari Kossack"] = "Casaque primordiale hakkari";
-	AL["Primal Hakkari Shawl"] = "Châle primordial hakkari";
-	AL["Primal Hakkari Bindings"] = "Manchettes primordiales hakkari";
-	AL["Primal Hakkari Sash"] = "Echarpe primordiale hakkari";
-	AL["Primal Hakkari Stanchion"] = "Etançon primordial hakkari";
-	AL["Primal Hakkari Aegis"] = "Egide primordiale hakkari";
-	AL["Primal Hakkari Girdle"] = "Ceinturon primordial hakkari";
-	AL["Primal Hakkari Armsplint"] = "Brachiales primordiales hakkari";
-	AL["Primal Hakkari Tabard"] = "Tabard primordial hakkari";
 
 	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "Manche orné qiraji";
@@ -879,10 +840,6 @@ if AL then
 	AL["Husk of the Old God"] = "Peau du Grand ver des sables";
 	AL["Carapace of the Old God"] = "Carapace du Dieu très ancien";
 
-	-- Classic WoW Sets
-	AL["Zul'Gurub Rings"] = "Anneaux Zul'Gurub";
-
-
 	-- Recipe origin strings
 	AL["Trainer"] = "Entraineur";
 	AL["Discovery"] = "Découverte";
@@ -890,9 +847,6 @@ if AL then
 	--AL["Drop"] = true;
 	AL["Vendor"] = "Vendeur";
 	AL["Crafted"] = "Créer";
-
-	-- Level 80 PvP Weapons
-	AL["Wrathful Gladiator\'s Weapons"] = "Armes du gladiateur courroucé";
 
 	-- Months
 	AL["January"] = "Janvier";
@@ -924,13 +878,6 @@ if AL then
 	--AL["Destruction"] = true;
 	--AL["Tanking"] = true;
 	--AL["DPS"] = true;
-
-	-- Naxx Zones
-	AL["Construct Quarter"] = "Le quartier des Assemblages";
-	AL["Arachnid Quarter"] = "Le quartier des Arachnides";
-	AL["Military Quarter"] = "Le quartier Militaire";
-	AL["Plague Quarter"] = "Le quartier de la Peste";
-	AL["Frostwyrm Lair"] = "Repaire de la Wyrm des glaces";
 
 	-- NPCs missing from BabbleBoss
 	--AL["Trash Mobs"] = true,
@@ -1049,13 +996,11 @@ if AL then
 	AL["Jadefang"] = "Jadecroc";
 	--AL["Aeonaxx"] = true;
 	--AL["Prince Sarsarun"] = true;
-	-- AL["Highlord Kruul"] = true; -- added until decided if the set gets removed -- à traduire
 	AL["Dormus the Camel-Hoarder"] = "Dormus le Collectionneur de dromadaires";
 	AL["The Behemoth"] = "Le Béhémoth";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
 
 	-- Zones
-	--AL["World Drop"] = true,
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
 	AL["Crusader's Square"] = "Place des Croisés";
 	AL["The Gauntlet"] = "Le Défi";

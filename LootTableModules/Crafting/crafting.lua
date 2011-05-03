@@ -3211,7 +3211,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = ENGINEERING..": "..BabbleInventory["Gem"],
+			name = ENGINEERING..": "..BabbleInventory["Cogwheel"],
 			module = moduleName, menu = "ENGINEERINGMENU", instance = "Engineering",
 		};
 	};
@@ -6406,7 +6406,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["BlacksmithingMailBloodsoulEmbrace"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Hammer_20", "=q6=#craftbm1#", ""};
+				{ 1, 0, "INV_Hammer_20", "=q6="..BabbleItemSet["Bloodsoul Embrace"], ""};
 				{ 2, 19691, "", "=q3=Bloodsoul Shoulders", "=ds=#s3#, #a3#"};
 				{ 3, 19690, "", "=q3=Bloodsoul Breastplate", "=ds=#s5#, #a3#"};
 				{ 4, 19692, "", "=q3=Bloodsoul Gauntlets", "=ds=#s9#, #a3#"};
@@ -6421,7 +6421,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["BlacksmithingMailFelIronChain"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Hammer_20", "=q6=#craftbm2#", ""};
+				{ 1, 0, "INV_Hammer_20", "=q6="..BabbleItemSet["Fel Iron Chain"], ""};
 				{ 2, 23493, "", "=q2=Fel Iron Chain Coif", "=ds=#s1#, #a3#"};
 				{ 3, 23490, "", "=q2=Fel Iron Chain Tunic", "=ds=#s5#, #a3#"};
 				{ 4, 23494, "", "=q2=Fel Iron Chain Bracers", "=ds=#s8#, #a3#"};

@@ -391,9 +391,6 @@ if AL then
 	AL["Banner"] = true;
 	AL["Set"] = true;
 	AL["Token"] = true;
-	AL["Tokens"] = true;
-	AL["Token Hand-Ins"] = true;
-	AL["Skinning Knife"] = true;
 	AL["Combat Pet"] = true;
 	AL["Fireworks"] = true;
 	AL["Transformation Item"] = true;
@@ -470,16 +467,9 @@ if AL then
 	AL["Quest Reward"] = true;
 	AL["Old Quest Reward"] = true;
 	AL["Shared"] = true;
-	AL["Unique"] = true;
 	AL["Right Half"] = true;
 	AL["Left Half"] = true;
-	AL["28 Slot Soul Shard"] = true;--is this still an item?
-	AL["20 Slot"] = true;
-	AL["18 Slot"] = true;
-	AL["16 Slot"] = true;
-	AL["10 Slot"] = true;
 	AL["Currency"] = true;
-	AL["Conjured Item"] = true;
 	AL["Used to summon boss"] = true;
 	AL["Tradable for sunmote + item above"] = true;
 	AL["Card Game Item"] = true;
@@ -488,8 +478,6 @@ if AL then
 	AL["Random Heroic Reward"] = true;
 	AL["Fishing Daily Reward"] = true;
 	AL["Collector's Edition"] = true;
-	AL["Blizzcon"] = true;
-	AL["WoW Anniversary Celebration"] = true;
 	AL["Daily Reward"] = true;
 	AL["No Longer Available"] = true;
 
@@ -537,7 +525,6 @@ if AL then
 	AL["Nature Resistance Gear"] = true;
 	AL["Frost Resistance Gear"] = true;
 	AL["Shadow Resistance Gear"] = true;
-	AL["Classic Sets"] = true;
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = true;
@@ -627,24 +614,10 @@ if AL then
 	AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
-	AL["Set: Embrace of the Viper"] = true;
-	AL["Set: Defias Leather"] = true;
-	AL["Set: The Gladiator"] = true;
-	AL["Set: Chain of the Scarlet Crusade"] = true;
-	AL["Set: The Postmaster"] = true;
-	AL["Set: Necropile Raiment"] = true;
-	AL["Set: Cadaverous Garb"] = true;
-	AL["Set: Bloodmail Regalia"] = true;
-	AL["Set: Deathbone Guardian"] = true;
-	AL["Set: Dal'Rend's Arms"] = true;
-	AL["Set: Spider's Kiss"] = true;
 	AL["AQ20 Class Sets"] = true;
 	AL["AQ Enchants"] = true;
 	AL["AQ40 Class Sets"] = true;
 	AL["AQ Opening Quest Chain"] = true;
-	AL["ZG Class Sets"] = true;
-	AL["ZG Enchants"] = true;
-	AL["Class Books"] = true;
 	AL["Tribute Run"] = true;
 	AL["Dire Maul Books"] = true;
 	AL["Random Boss Loot"] = true;
@@ -841,7 +814,6 @@ if AL then
 	AL["Venture Bay"] = true;
 
 	-- Karazhan Opera Event Headings
-	AL["Shared Drops"] = true;
 	AL["Wizard of Oz"] = true;
 	AL["Red Riding Hood"] = true;
 
@@ -849,17 +821,6 @@ if AL then
 	AL["Spider"] = true;
 	AL["Darkhound"] = true;
 	AL["Bat"] = true;
-
-	-- ZG Tokens
-	AL["Primal Hakkari Kossack"] = true;
-	AL["Primal Hakkari Shawl"] = true;
-	AL["Primal Hakkari Bindings"] = true;
-	AL["Primal Hakkari Sash"] = true;
-	AL["Primal Hakkari Stanchion"] = true;
-	AL["Primal Hakkari Aegis"] = true;
-	AL["Primal Hakkari Girdle"] = true;
-	AL["Primal Hakkari Armsplint"] = true;
-	AL["Primal Hakkari Tabard"] = true;
 
 	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = true;
@@ -879,9 +840,6 @@ if AL then
 	AL["Husk of the Old God"] = true;
 	AL["Carapace of the Old God"] = true;
 
-	-- Classic WoW Sets
-	AL["Zul'Gurub Rings"] = true;
-
 	-- Recipe origin strings
 	AL["Trainer"] = true;
 	AL["Discovery"] = true;
@@ -889,9 +847,6 @@ if AL then
 	AL["Drop"] = true;
 	AL["Vendor"] = true;
 	AL["Crafted"] = true;
-
-	-- Level 80 PvP Weapons
-	AL["Wrathful Gladiator\'s Weapons"] = true;
 
 	-- Months
 	AL["January"] = true;
@@ -923,13 +878,6 @@ if AL then
 	AL["Destruction"] = true;
 	AL["Tanking"] = true;
 	AL["DPS"] = true;
-
-	-- Naxx Zones
-	AL["Construct Quarter"] = true;
-	AL["Arachnid Quarter"] = true;
-	AL["Military Quarter"] = true;
-	AL["Plague Quarter"] = true;
-	AL["Frostwyrm Lair"] = true;
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = true;
@@ -1048,13 +996,11 @@ if AL then
 	AL["Jadefang"] = true;
 	AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = true;
-	AL["Highlord Kruul"] = true; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = true;
 	AL["The Behemoth"] = true;
 	AL["Master Elemental Shaper Krixix"] = true;
 
 	-- Zones
-	AL["World Drop"] = true;
 	AL["Trial of the Grand Crusader"] = true;
 	AL["Crusader's Square"] = true;
 	AL["The Gauntlet"] = true;

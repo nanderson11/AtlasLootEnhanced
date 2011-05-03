@@ -386,9 +386,6 @@ if AL then
 	AL["Banner"] = "旗帜";
 	AL["Set"] = "套装";
 	AL["Token"] = "兑换物";
-	AL["Tokens"] = "兑换物";
-	AL["Token Hand-Ins"] = "兑换物缴付";
-	AL["Skinning Knife"] = "剥皮刀";
 	AL["Combat Pet"] = "战斗宠物";
 	AL["Fireworks"] = "焰火";
 	AL["Transformation Item"] = "变形物品";
@@ -465,16 +462,9 @@ if AL then
 	AL["Quest Reward"] = "任务奖励";
 	AL["Old Quest Reward"] = "旧任务奖励";
 	AL["Shared"] = "已分享";
-	AL["Unique"] = "唯一";
 	AL["Right Half"] = "右半部分";
 	AL["Left Half"] = "左半部分";
-	AL["28 Slot Soul Shard"] = "28格灵魂袋";
-	AL["20 Slot"] = "20格";
-	AL["18 Slot"] = "18格";
-	AL["16 Slot"] = "16格";
-	AL["10 Slot"] = "10格";
 	AL["Currency"] = "购买";
-	AL["Conjured Item"] = "魔法制造的物品";
 	AL["Used to summon boss"] = "用以召唤首领";
 	AL["Tradable for sunmote + item above"] = "太阳之尘与上面物品兑换";
 	AL["Card Game Item"] = "集换卡游戏物品";
@@ -483,8 +473,6 @@ if AL then
 	AL["Random Heroic Reward"] = "随机英雄奖励";
 	AL["Fishing Daily Reward"] = "钓鱼日常奖励";
 	AL["Collector's Edition"] = "典藏版";
-	AL["Blizzcon"] = "暴雪嘉年华";
-	AL["WoW Anniversary Celebration"] = "魔兽世界周年庆典";
 	AL["Daily Reward"] = "日常奖励";
 	AL["No Longer Available"] = "已绝版";
 
@@ -532,7 +520,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "自然抗性装备";
 	AL["Frost Resistance Gear"] = "冰霜抗性装备";
 	AL["Shadow Resistance Gear"] = "暗影抗性装备";
-	AL["Classic Sets"] = "经典旧世套装";
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "英雄难度额外掉落";
@@ -621,24 +608,10 @@ if AL then
 	AL["Damage"] = "伤害";
 
 	-- Extra Text in Boss lists
-	AL["Set: Embrace of the Viper"] = "套装：毒蛇的拥抱";
-	AL["Set: Defias Leather"] = "套装：迪菲亚皮甲";
-	AL["Set: The Gladiator"] = "套装：角斗士";
-	AL["Set: Chain of the Scarlet Crusade"] = "套装：血色十字军链甲";
-	AL["Set: The Postmaster"] = "套装：邮差";
-	AL["Set: Necropile Raiment"] = "套装：骨堆";
-	AL["Set: Cadaverous Garb"] = "套装：苍白";
-	AL["Set: Bloodmail Regalia"] = "套装：血链";
-	AL["Set: Deathbone Guardian"] = "套装：亡者之骨";
-	AL["Set: Dal'Rend's Arms"] = "套装：雷德双刀";
-	AL["Set: Spider's Kiss"] = "套装：蜘蛛之吻";
 	AL["AQ20 Class Sets"] = "安其拉废墟职业套装";
 	AL["AQ Enchants"] = "安其拉附魔";
 	AL["AQ40 Class Sets"] = "安其拉神殿职业套装";
 	AL["AQ Opening Quest Chain"] = "安其拉开门任务链";
-	AL["ZG Class Sets"] = "祖尔格拉布职业套装";
-	AL["ZG Enchants"] = "祖尔格拉布附魔";
-	AL["Class Books"] = "职业书籍";
 	AL["Tribute Run"] = "贡品";
 	AL["Dire Maul Books"] = "厄运之槌书籍";
 	AL["Random Boss Loot"] = "首领随机掉落";
@@ -829,7 +802,6 @@ if AL then
 	AL["Venture Bay"] = "风险湾";
 
 	-- Karazhan Opera Event Headings
-	AL["Shared Drops"] = "共享掉落";
 	AL["Wizard of Oz"] = "绿野仙踪";
 	AL["Red Riding Hood"] = "小红帽";
 
@@ -837,17 +809,6 @@ if AL then
 	AL["Spider"] = "蜘蛛";
 	AL["Darkhound"] = "黑暗猎犬";
 	AL["Bat"] = "蝙蝠";
-
-	-- ZG Tokens
-	AL["Primal Hakkari Kossack"] = "原始哈卡莱套索";
-	AL["Primal Hakkari Shawl"] = "原始哈卡莱披肩";
-	AL["Primal Hakkari Bindings"] = "原始哈卡莱护腕";
-	AL["Primal Hakkari Sash"] = "原始哈卡莱腰带";
-	AL["Primal Hakkari Stanchion"] = "原始哈卡莱直柱";
-	AL["Primal Hakkari Aegis"] = "原始哈卡莱之盾";
-	AL["Primal Hakkari Girdle"] = "原始哈卡莱束带";
-	AL["Primal Hakkari Armsplint"] = "原始哈卡莱护臂";
-	AL["Primal Hakkari Tabard"] = "原始哈卡莱徽章";
 
 	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "其拉装饰刀柄";
@@ -867,9 +828,6 @@ if AL then
 	AL["Husk of the Old God"] = "上古之神的外鞘";
 	AL["Carapace of the Old God"] = "上古之神的甲壳";
 
-	-- Classic WoW Sets
-	AL["Zul'Gurub Rings"] = "祖尔格拉布戒指";
-
 	-- Recipe origin strings
 	AL["Trainer"] = "训练师";
 	AL["Discovery"] = "领悟";
@@ -877,9 +835,6 @@ if AL then
 	AL["Drop"] = "掉落";
 	AL["Vendor"] = "商人";
 	AL["Crafted"] = "制造";
-
-	-- Level 80 PvP Weapons
-	AL["Wrathful Gladiator\'s Weapons"] = "暴怒角斗士武器";
 
 	-- Months
 	AL["January"] = "一月";
@@ -911,13 +866,6 @@ if AL then
 	AL["Destruction"] = "毁灭";
 	AL["Tanking"] = "坦克";
 	AL["DPS"] = "DPS";
-
-	-- Naxx Zones
-	AL["Construct Quarter"] = "构造区";
-	AL["Arachnid Quarter"] = "蜘蛛区";
-	AL["Military Quarter"] = "军事区";
-	AL["Plague Quarter"] = "瘟疫区";
-	AL["Frostwyrm Lair"] = "冰霜巨龙的巢穴";
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "普通怪物";
@@ -1036,13 +984,11 @@ if AL then
 	AL["Jadefang"] = "Jadefang";
 	AL["Aeonaxx"] = "Aeonaxx";
 	AL["Prince Sarsarun"] = "Prince Sarsarun";
-	AL["Highlord Kruul"] = "魔王库鲁尔"; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = "Dormus the Camel-Hoarder";
 	AL["The Behemoth"] = "贝哈默斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
 
 	-- Zones
-	AL["World Drop"] = "世界掉落";
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
 	AL["Crusader's Square"] = "十字军广场";
 	AL["The Gauntlet"] = "街巷";

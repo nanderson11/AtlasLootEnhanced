@@ -299,23 +299,23 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 25, 33026, "", "=q1=The Golden Link", "=ds=#e3#"};
 			};
 			{
-				{ 1, 0, "INV_Cask_04", "=q6=#n131#", ""};
+				{ 1, 0, "INV_Cask_04", "=q6="..AL["Barleybrew Brewery"], ""};
 				{ 2, 33030, "", "=q1=Barleybrew Clear", "=ds=#e4#"};
 				{ 3, 33028, "", "=q1=Barleybrew Light", "=ds=#e4#"};
 				{ 4, 33029, "", "=q1=Barleybrew Dark", "=ds=#e4#"};
-				{ 6, 0, "INV_Cask_04", "=q6=#n132#", ""};
+				{ 6, 0, "INV_Cask_04", "=q6="..AL["Thunderbrew Brewery"], ""};
 				{ 7, 33031, "", "=q1=Thunder 45", "=ds=#e4#"};
 				{ 8, 33032, "", "=q1=Thunderbrew Ale", "=ds=#e4#"};
 				{ 9, 33033, "", "=q1=Thunderbrew Stout", "=ds=#e4#"};
-				{ 11, 0, "INV_Cask_04", "=q6=#n133#", ""};
+				{ 11, 0, "INV_Cask_04", "=q6="..AL["Gordok Brewery"], ""};
 				{ 12, 33034, "", "=q1=Gordok Grog", "=ds=#e4#"};
 				{ 13, 33036, "", "=q1=Mudder's Milk", "=ds=#e4#"};
 				{ 14, 33035, "", "=q1=Ogre Mead", "=ds=#e4#"};
-				{ 16, 0, "INV_Cask_04", "=q6=#n134#", ""};
+				{ 16, 0, "INV_Cask_04", "=q6="..AL["Drohn's Distillery"], ""};
 				{ 17, 34017, "", "=q1=Small Step Brew", "=ds=#e4#"};
 				{ 18, 34018, "", "=q1=Long Stride Brew", "=ds=#e4#"};
 				{ 19, 34019, "", "=q1=Path of Brew", "=ds=#e4#"};
-				{ 21, 0, "INV_Cask_04", "=q6=#n135#", ""};
+				{ 21, 0, "INV_Cask_04", "=q6="..AL["T'chali's Voodoo Brewery"], ""};
 				{ 22, 34020, "", "=q1=Jungle River Water", "=ds=#e4#"};
 				{ 23, 34021, "", "=q1=Brewdoo Magic", "=ds=#e4#"};
 				{ 24, 34022, "", "=q1=Stout Shrunken Head", "=ds=#e4#"};
@@ -381,18 +381,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ChildrensWeek"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#z24#", "=q5="..BabbleZone["Stormwind"].." / "..BabbleZone["Orgrimmar"]};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleZone["Azeroth"], "=q5="..BabbleZone["Stormwind"].." / "..BabbleZone["Orgrimmar"]};
 				{ 2, 23007, "", "=q1=Piglet's Collar", "=ds=#e13#"};
 				{ 3, 23015, "", "=q1=Rat Cage", "=ds=#e13#"};
 				{ 4, 66073, "", "=q1=Snail Shell", "=ds=#e13#"};
 				{ 5, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
 				{ 6, 23022, "", "=q1=Curmudgeon's Payoff", "=ds="};
-				{ 8, 0, "INV_Box_01", "=q6=#z25#", "=q5="..BabbleZone["Shattrath"]};
+				{ 8, 0, "INV_Box_01", "=q6="..BabbleZone["Outland"], "=q5="..BabbleZone["Shattrath"]};
 				{ 9, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
 				{ 10, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
 				{ 11, 69648, "", "=q3=Legs", "=ds=#e13#"};
 				{ 12, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
-				{ 16, 0, "INV_Box_01", "=q6=#z40#", "=q5="..BabbleZone["Dalaran"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleZone["Northrend"], "=q5="..BabbleZone["Dalaran"]};
 				{ 17, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
 				{ 18, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
 			};
@@ -433,14 +433,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Winterviel"] = {
 		["Normal"] = {
 			{
-				{ 1, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2=#z7#"};
-				{ 2, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2=#z7#"};
+				{ 1, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
+				{ 2, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
 				{ 3, 17712, "", "=q1=Winter Veil Disguise Kit", "=q1=#m4#: =ds=#m20#"};
 				{ 4, 17202, "", "=q1=Snowball", "=ds=#m20#"};
 				{ 5, 34191, "", "=q1=Handful of Snowflakes", "=ds=#m20#"};
 				{ 6, 21212, "", "=q1=Fresh Holly", "=ds=#m20#"};
 				{ 7, 21519, "", "=q1=Mistletoe", "=ds=#m20#"};
-				{ 9, 0, "INV_Holiday_Christmas_Present_01", "=q6=#n129#", ""};
+				{ 9, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Vendor"], ""};
 				{ 10, 34262, "", "=q2=Pattern: Winter Boots", "=ds=#p7# (285)"};
 				{ 11, 34319, "", "=q2=Pattern: Red Winter Clothes", "=ds=#p8# (250)"};
 				{ 12, 34261, "", "=q2=Pattern: Green Winter Clothes", "=ds=#p8# (250)"};
@@ -509,8 +509,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Halloween"] = {
 		["Normal"] = {
 			{
-				{ 1, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#m14# #e1# =q2=#z7#"};
-				{ 2, 20400, "", "=q2=Pumpkin Bag", "=ds=#m13# #e1# =q2=#z7#"};
+				{ 1, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1# =q2="..AL["Various Locations"]};
+				{ 2, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
 				{ 4, 33189, "", "=q2=Rickety Magic Broom", "=ds=#e12#", "", ""};
 				{ 6, 18633, "", "=q1=Styleen's Sour Suckerpop", "=ds=#e3#"};
 				{ 7, 18632, "", "=q1=Moonbrook Riot Taffy", "=ds=#e3#"};
@@ -896,19 +896,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["BashirLanding"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j16#", "=q1=#n112#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Phase 1"], "=q1="..AL["Aether-tech Assistant"]};
 				{ 2, 32596, "", "=q1=Unstable Flask of the Elder", "=ds=#e2#", "", ""};
 				{ 3, 32600, "", "=q1=Unstable Flask of the Physician", "=ds=#e2#", "", ""};
 				{ 4, 32599, "", "=q1=Unstable Flask of the Bandit", "=ds=#e2#", "", ""};
 				{ 5, 32597, "", "=q1=Unstable Flask of the Soldier", "=ds=#e2#", "", ""};
-				{ 7, 0, "INV_Box_01", "=q6=#j17#", "=q1=#n113#"};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Phase 2"], "=q1="..AL["Aether-tech Adept"]};
 				{ 8, 32634, "", "=q3=Shifting Amethyst", "=ds=#e7#", "", ""};
 				{ 9, 32637, "", "=q3=Deadly Citrine", "=ds=#e7#", "", ""};
 				{ 10, 32638, "", "=q3=Reckless Citrine", "=ds=#e7#", "", ""};
 				{ 11, 32635, "", "=q3=Timeless Peridot", "=ds=#e7#", "", ""};
 				{ 12, 32636, "", "=q3=Purified Sapphire", "=ds=#e7#", "", ""};
 				{ 13, 32639, "", "=q3=Jagged Mossjewel", "=ds=#e7#", "", ""};
-				{ 16, 0, "INV_Box_01", "=q6=#j18#", "=q1=#n114#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Phase 3"], "=q1="..AL["Aether-tech Master"]};
 				{ 17, 32641, "", "=q3=Imbued Unstable Diamond", "=ds=#e7#", "", ""};
 				{ 18, 32640, "", "=q3=Tense Unstable Diamond", "=ds=#e7#", "", ""};
 				{ 19, 32759, "", "=q1=Accelerator Module", "=ds=", "", ""};
@@ -1020,16 +1020,16 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ElementalInvasion"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "INV_Box_01", "=q6=#n108#", "=q1=#j19#, #z20#"};
+				{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Baron Charr"], "=q1=#j19#, "..BabbleZone["Un'Goro Crater"]};
 				{ 3, 18671, "", "=q3=Baron Charr's Sceptre", "=ds=#h1#, #w6#", "", "12.18%"};
 				{ 4, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "10.14%"};
 				{ 5, 18672, "", "=q2=Elemental Ember", "=ds=#s15#", "", "53.31%"};
-				{ 7, 0, "INV_Box_01", "=q6=#n109#", "=q1=#j20#, #z21#"};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Princess Tempestria"], "=q1=#j20#, "..BabbleZone["Winterspring"]};
 				{ 8, 18678, "", "=q3=Tempestria's Frozen Necklace", "=ds=#s2#", "", "12.33%"};
 				{ 9, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "5.24%"};
 				{ 10, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "25.00%"};
 				{ 11, 18679, "", "=q2=Frigid Ring", "=ds=#s13#", "", "51.01%"};
-				{ 17, 0, "INV_Box_01", "=q6=#n111#", "=q1=#j21#, #z23#"};
+				{ 17, 0, "INV_Box_01", "=q6="..BabbleBoss["The Windreaver"], "=q1=#j21#, "..BabbleZone["Silithus"]};
 				{ 18, 18676, "", "=q3=Sash of the Windreaver", "=ds=#s10#, #a3#", "", "16.76%"};
 				{ 19, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "9.76%"};
 				{ 20, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "36.28%"};
@@ -1070,15 +1070,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["FishingExtravaganza"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j24#", "=q1=#j23#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["First Prize"], "=q1="..AL["Master Angler"]};
 				{ 2, 19970, "", "=q3=Arcanite Fishing Pole", "=ds=#e20#"};
 				{ 3, 19979, "", "=q3=Hook of the Master Angler", "=ds=#s14#"};
-				{ 5, 0, "INV_Box_01", "=q6=#j26#", ""};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Rare Fish"], ""};
 				{ 6, 19805, "", "=q2=Keefer's Angelfish", "=ds=#e21#", "", ""};
 				{ 7, 19803, "", "=q2=Brownell's Blue Striped Racer", "=ds=#e21#", "", ""};
 				{ 8, 19806, "", "=q2=Dezian Queenfish", "=ds=#e21#", "", ""};
 				{ 9, 19808, "", "=q2=Rockhide Strongfish", "=ds=#h1#, #w6#", "", ""};
-				{ 20, 0, "INV_Box_01", "=q6=#j25#", ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Rare Fish Rewards"], ""};
 				{ 21, 19972, "", "=q2=Lucky Fishing Hat", "=ds=#s1#, #a1#"};
 				{ 22, 19969, "", "=q2=Nat Pagle's Extreme Anglin' Boots", "=ds=#s12#, #a1#"};
 				{ 23, 19971, "", "=q2=High Test Eternium Fishing Line", "=ds=#e20# #e17#"};
@@ -1105,22 +1105,22 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Templars"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n96#", "=q1=#j19#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Crimson Templar"], "=q1=#j19#"};
 				{ 2, 20657, "", "=q3=Crystal Tipped Stiletto", "=ds=#h1#, #w4#", "", "2.31%"};
 				{ 3, 20655, "", "=q2=Abyssal Cloth Handwraps", "=ds=#s9#, #a1#", "", "13.03%"};
 				{ 4, 20656, "", "=q2=Abyssal Mail Sabatons", "=ds=#s12#, #a3#", "", "12.89%"};
 				{ 5, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
-				{ 7, 0, "INV_Box_01", "=q6=#n97#", "=q1=#j20#"};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Azure Templar"], "=q1=#j20#"};
 				{ 8, 20654, "", "=q3=Amethyst War Staff", "=ds=#w9#", "", "2.38%"};
 				{ 9, 20652, "", "=q2=Abyssal Cloth Slippers", "=ds=#s12#, #a1#", "", "12.94%"};
 				{ 10, 20653, "", "=q2=Abyssal Plate Gauntlets", "=ds=#s9#, #a4#", "", "13.61%"};
 				{ 11, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
-				{ 16, 0, "INV_Box_01", "=q6=#n98#", "=q1=#j21#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Hoary Templar"], "=q1=#j21#"};
 				{ 17, 20660, "", "=q3=Stonecutting Glaive", "=ds=#w7#", "", "2.22%"};
 				{ 18, 20658, "", "=q2=Abyssal Leather Boots", "=ds=#s12#, #a2#", "", "13.16%"};
 				{ 19, 20659, "", "=q2=Abyssal Mail Handguards", "=ds=#s9#, #a3#", "", "12.64%"};
 				{ 20, 20513, "", "=q2=Abyssal Crest", "=ds=#m3#", "", "100%"};
-				{ 22, 0, "INV_Box_01", "=q6=#n99#", "=q1=#j22#"};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["Earthen Templar"], "=q1=#j22#"};
 				{ 23, 20663, "", "=q3=Deep Strike Bow", "=ds=#w2#", "", "2.55%"};
 				{ 24, 20661, "", "=q2=Abyssal Leather Gloves", "=ds=#s9#, #a2#", "", "13.16%"};
 				{ 25, 20662, "", "=q2=Abyssal Plate Greaves", "=ds=#s12#, #a4#", "", "12.93%"};
@@ -1136,23 +1136,23 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Dukes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n100#", "=q1=#j19#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["The Duke of Cynders"], "=q1=#j19#"};
 				{ 2, 20665, "", "=q3=Abyssal Leather Leggings", "=ds=#s11#, #a2#", "", "22.50%"};
 				{ 3, 20666, "", "=q3=Hardened Steel Warhammer", "=ds=#h3#, #w6#", "", "30.47%"};
 				{ 4, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
 				{ 5, 20664, "", "=q2=Abyssal Cloth Sash", "=ds=#s10#, #a1#", "", "27.08%"};
 				{ 6, 21989, "", "=q1=Cinder of Cynders", "=ds=#m3#", "", "100%"};
-				{ 8, 0, "INV_Box_01", "=q6=#n101#", "=q1=#j20#"};
+				{ 8, 0, "INV_Box_01", "=q6="..AL["The Duke of Fathoms"], "=q1=#j20#"};
 				{ 9, 20668, "", "=q3=Abyssal Mail Legguards", "=ds=#s11#, #a3#", "", "22.40%"};
 				{ 10, 20669, "", "=q3=Darkstone Claymore", "=ds=#h2#, #w10#", "", "29.62%"};
 				{ 11, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
 				{ 12, 20667, "", "=q2=Abyssal Leather Belt", "=ds=#s10#, #a2#", "", "29.04%"};
-				{ 16, 0, "INV_Box_01", "=q6=#n102#", "=q1=#j21#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["The Duke of Zephyrs"], "=q1=#j21#"};
 				{ 17, 20674, "", "=q3=Abyssal Cloth Pants", "=ds=#s11#, #a1#", "", "21.83%"};
 				{ 18, 20675, "", "=q3=Soulrender", "=ds=#h1#, #w1#", "", "29.73%"};
 				{ 19, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
 				{ 20, 20673, "", "=q2=Abyssal Plate Girdle", "=ds=#s10#, #a4#", "", "27.11%"};
-				{ 23, 0, "INV_Box_01", "=q6=#n103#", "=q1=#j22#"};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["The Duke of Shards"], "=q1=#j22#"};
 				{ 24, 20671, "", "=q3=Abyssal Plate Legplates", "=ds=#s11#, #a4#", "", "22.63%"};
 				{ 25, 20672, "", "=q3=Sparkling Crystal Wand", "=ds=#w12#", "", "28.90%"};
 				{ 26, 20514, "", "=q3=Abyssal Signet", "=ds=#m3#", "", "100%"};
@@ -1168,22 +1168,22 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["HighCouncil"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n104#", "=q1=#j19#"};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Skaldrenox"], "=q1=#j19#"};
 				{ 2, 20682, "", "=q4=Elemental Focus Band", "=ds=#s13#", "", "22.83%"};
 				{ 3, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
 				{ 4, 20681, "", "=q3=Abyssal Leather Bracers", "=ds=#s8#, #a2#", "", "24.70%"};
 				{ 5, 20680, "", "=q3=Abyssal Mail Pauldrons", "=ds=#s3#, #a3#", "", "24.21%"};
-				{ 7, 0, "INV_Box_01", "=q6=#n105#", "=q1=#j20#"};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Skwol"], "=q1=#j20#"};
 				{ 8, 20685, "", "=q4=Wavefront Necklace", "=ds=#s2#", "", "24.48%"};
 				{ 9, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
 				{ 10, 20684, "", "=q3=Abyssal Mail Armguards", "=ds=#s8#, #a3#", "", "27.68%"};
 				{ 11, 20683, "", "=q3=Abyssal Plate Epaulets", "=ds=#s3#, #a4#", "", "21.52%"};
-				{ 16, 0, "INV_Box_01", "=q6=#n106#", "=q1=#j21#"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["High Marshal Whirlaxis"], "=q1=#j21#"};
 				{ 17, 20691, "", "=q4=Windshear Cape", "=ds=#s4#", "", "22.08%"};
 				{ 18, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
 				{ 19, 20690, "", "=q3=Abyssal Cloth Wristbands", "=ds=#s8#, #a1#", "", "23.60%"};
 				{ 20, 20689, "", "=q3=Abyssal Leather Shoulders", "=ds=#s3#, #a3#", "", "23.40%"};
-				{ 22, 0, "INV_Box_01", "=q6=#n107#", "=q1=#j22#"};
+				{ 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Baron Kazum"], "=q1=#j22#"};
 				{ 23, 20688, "", "=q4=Earthen Guard", "=ds=#w8#", "", "20.64%"};
 				{ 24, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
 				{ 25, 20686, "", "=q3=Abyssal Cloth Amice", "=ds=#s3#, #a1#", "", "23.96%"};
@@ -1364,19 +1364,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["BashirStasisChambers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#n118#", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Trelopades"], ""};
 				{ 2, 32522, "", "=q3=Demonic Bulwark", "=ds=#w8#", "", ""};
 				{ 3, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 5, 0, "INV_Box_01", "=q6=#n119#", ""};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["King Dorfbruiser"], ""};
 				{ 6, 31577, "", "=q3=Slatesteel Shoulders", "=ds=#s3#, #a4#", "", ""};
 				{ 7, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 9, 0, "INV_Box_01", "=q6=#n120#", ""};
+				{ 9, 0, "INV_Box_01", "=q6="..AL["Gorgolon the All-seeing"], ""};
 				{ 10, 31569, "", "=q3=Mistshroud Shoulders", "=ds=#s3#, #a3#", "", ""};
 				{ 11, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 16, 0, "INV_Box_01", "=q6=#n121#", ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Matron Li-sahar"], ""};
 				{ 17, 31553, "", "=q3=Windchanneller's Mantle", "=ds=#s3#, #a1#", "", ""};
 				{ 18, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 20, 0, "INV_Box_01", "=q6=#n122#", ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Solus the Eternal"], ""};
 				{ 21, 31561, "", "=q3=Skystalker's Shoulders", "=ds=#s3#, #a2#", "", ""};
 				{ 22, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 			};

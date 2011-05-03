@@ -390,9 +390,6 @@ if AL then
 	AL["Banner"] = "軍旗";
 	AL["Set"] = "套裝";
 	AL["Token"] = "勳章";
-	AL["Tokens"] = "勳章";
-	AL["Token Hand-Ins"] = "勳章繳交";
-	AL["Skinning Knife"] = "剝皮小刀";
 	AL["Combat Pet"] = "戰鬥寵物";
 	AL["Fireworks"] = "煙火";
 	AL["Transformation Item"] = "變形物品";
@@ -469,16 +466,9 @@ if AL then
 	AL["Quest Reward"] = "任務獎勵";
 	AL["Old Quest Reward"] = "舊任務獎勵";
 	AL["Shared"] = "隨機掉落";
-	AL["Unique"] = "唯一";
 	AL["Right Half"] = "右半部份";
 	AL["Left Half"] = "左半部份";
-	AL["28 Slot Soul Shard"] = "28 格靈魂袋";
-	AL["20 Slot"] = "20 格容器";
-	AL["18 Slot"] = "18 格容器";
-	AL["16 Slot"] = "16 格容器";
-	AL["10 Slot"] = "10 格容器";
 	AL["Currency"] = "貨幣";
-	AL["Conjured Item"] = "特殊物品";
 	AL["Used to summon boss"] = "使用以召喚首領";
 	AL["Tradable for sunmote + item above"] = "以太陽微粒兌換的裝備";
 	AL["Card Game Item"] = "卡片遊戲物品";
@@ -487,8 +477,6 @@ if AL then
 	AL["Random Heroic Reward"] = "隨機英雄副本獎勵";
 	AL["Fishing Daily Reward"] = "每日釣魚獎勵";
 	AL["Collector's Edition"] = "典藏版";
-	AL["Blizzcon"] = "Blizzcon";
-	AL["WoW Anniversary Celebration"] = "魔獸世界週年慶典";
 	AL["Daily Reward"] = "每日獎勵";
 	AL["No Longer Available"] = "已不存在.";
 
@@ -536,7 +524,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "自然抗性裝備";
 	AL["Frost Resistance Gear"] = "冰霜抗性裝備";
 	AL["Shadow Resistance Gear"] = "暗影抗性裝備";
-	AL["Classic Sets"] = "舊世界套裝";
 
 	--Labels for loot table sections
 	AL["Additional Heroic Loot"] = "更多的英雄物品";
@@ -626,24 +613,10 @@ if AL then
 --	AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
-	AL["Set: Embrace of the Viper"] = "套裝:毒蛇的擁抱";
-	AL["Set: Defias Leather"] = "套裝:迪菲亞皮甲";
-	AL["Set: The Gladiator"] = "套裝:角鬥士";
-	AL["Set: Chain of the Scarlet Crusade"] = "套裝:血色十字軍鍊甲";
-	AL["Set: The Postmaster"] = "套裝:郵差套裝";
-	AL["Set: Necropile Raiment"] = "套裝:骨堆套裝";
-	AL["Set: Cadaverous Garb"] = "套裝:蒼白套裝";
-	AL["Set: Bloodmail Regalia"] = "套裝:血鏈套裝";
-	AL["Set: Deathbone Guardian"] = "套裝:亡骨守護者套裝";
-	AL["Set: Dal'Rend's Arms"] = "套裝:雷德雙刀";
-	AL["Set: Spider's Kiss"] = "套裝:蜘蛛之吻";
 	AL["AQ20 Class Sets"] = "AQ20 職業套裝";
 	AL["AQ Enchants"] = "AQ 公式";
 	AL["AQ40 Class Sets"] = "AQ40 職業套裝";
 	AL["AQ Opening Quest Chain"] = "安其拉開門系列任務";
-	AL["ZG Class Sets"] = "ZG 職業套裝";
-	AL["ZG Enchants"] = "ZG 公式";
-	AL["Class Books"] = "職業技能書";
 	AL["Tribute Run"] = "貢品";
 	AL["Dire Maul Books"] = "厄運書籍";
 	AL["Random Boss Loot"] = "首領隨機掉落";
@@ -840,7 +813,6 @@ if AL then
 	AL["Venture Bay"] = "風險海灣";
 
 	--Karazhan Opera Event Headings
-	AL["Shared Drops"] = "隨機掉落";
 	AL["Wizard of Oz"] = "綠野仙蹤";
 	AL["Red Riding Hood"] = "小紅帽";
 
@@ -848,17 +820,6 @@ if AL then
 	AL["Spider"] = "蜘蛛";
 	AL["Darkhound"] = "黑暗犬";
 	AL["Bat"] = "蝙蝠";
-
-	--ZG Tokens
-	AL["Primal Hakkari Kossack"] = "原始哈卡萊套索";
-	AL["Primal Hakkari Shawl"] = "原始哈卡萊披肩";
-	AL["Primal Hakkari Bindings"] = "原始哈卡萊護腕";
-	AL["Primal Hakkari Sash"] = "原始哈卡萊腰帶";
-	AL["Primal Hakkari Stanchion"] = "原始哈卡萊直柱";
-	AL["Primal Hakkari Aegis"] = "原始哈卡萊之盾";
-	AL["Primal Hakkari Girdle"] = "原始哈卡萊束帶";
-	AL["Primal Hakkari Armsplint"] = "原始哈卡萊護臂";
-	AL["Primal Hakkari Tabard"] = "原始哈卡萊徽章";
 
 	--AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "其拉華麗刀柄";
@@ -878,9 +839,6 @@ if AL then
 	AL["Husk of the Old God"] = "上古之神的外殼";
 	AL["Carapace of the Old God"] = "上古之神的甲殼";
 
-	--Classic WoW Sets
-	AL["Zul'Gurub Rings"] = "祖爾格拉布套戒";
-
 	--Recipe origin strings
 	AL["Trainer"] = "訓練師";
 	AL["Discovery"] = "探索";
@@ -888,9 +846,6 @@ if AL then
 	AL["Drop"] = "掉落";
 	AL["Vendor"] = "商人販售";
 	AL["Crafted"] = "製作";
-
-	-- Level 80 PvP Weapons
-	AL["Wrathful Gladiator\'s Weapons"] = "憤怒鬥士武器";
 
 	-- Months
 	AL["January"] = "一月";
@@ -1047,13 +1002,11 @@ if AL then
 	AL["Jadefang"] = "翡翠牙";
 	AL["Aeonaxx"] = "艾歐納克斯";
 	AL["Prince Sarsarun"] = "薩爾撒倫王子";
-	AL["Highlord Kruul"] = "卡魯歐大領主"; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = "『駱駝囤積者』多姆斯";
 	AL["The Behemoth"] = "貝希摩斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
 
 	--Zones
-	AL["World Drop"] = "世界掉落";
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
 	AL["Crusader's Square"] = "十字軍廣場";
 	AL["The Gauntlet"] = "街巷";

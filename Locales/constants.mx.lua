@@ -200,8 +200,6 @@ if AL then
 	AL["Banner"] = "Estandarte";
 	AL["Set"] = "Conjunto";
 	AL["Token"] = "Insignia";
-	AL["Tokens"] = "Insignias";	
-	AL["Skinning Knife"] = "Cuchillo para desollar";
 	AL["Combat Pet"] = "Mascota de combate"; --Comprobar
 	AL["Fireworks"] = "Fuegos artificiales";
 
@@ -254,14 +252,8 @@ if AL then
 	AL["Quest Item"] = "Objeto de misión";
 	AL["Quest Reward"] = "Recompensa de misión";
 	AL["Shared"] = "Compartido";
-	AL["Unique"] = "Único";
 	AL["Right Half"] = "Parte derecha";
 	AL["Left Half"] = "Parte izquierda";
-	AL["28 Slot Soul Shard"] = "28 huecos para fragmentos de alma";
-	AL["20 Slot"] = "20 huecos";
-	AL["18 Slot"] = "18 huecos";
-	AL["16 Slot"] = "16 huecos";
-	AL["10 Slot"] = "10 huecos";
 	AL["(has random enchantment)"] = "(añade un encantamiento aleatorio)";
 	AL["Currency"] = "Utiliza recompensas para comprarlo";
 	AL["Card Game Item"] = "Juego de cartas";
@@ -276,7 +268,6 @@ if AL then
 	AL["10/25 Man"] = "10/25 Personas";
 	AL["Level 80 PvP Sets"] = "Conjuntos Nivel 80 JcJ";
 	AL["Arena Reward"] = "Recompensas de Arenas";
-	AL["Conjured Item"] = "Objetos conjurados";
 	AL["Used to summon boss"] = "Usado para invocar a un jefe";
 	AL["Phase 1"] = "Fase 1";
 	AL["Phase 2"] = "Fase 2";
@@ -393,7 +384,6 @@ if AL then
 	AL["Venture Bay"] = "Bahía Aventura"; --Check
 
 	--Karazhan Opera Event Headings
-	AL["Shared Drops"] = "Objetos compartidos";
 	AL["Wizard of Oz"] = "El mago de Oz";
 	AL["Red Riding Hood"] = "Caperucita roja";
 
@@ -401,17 +391,6 @@ if AL then
 	AL["Spider"] = "Araña";
 	AL["Darkhound"] = "Can oscuro";
 	AL["Bat"] = "Murciélago";
-
-	--ZG Tokens
-	AL["Primal Hakkari Kossack"] = "Casaca Hakkari primigenia";
-	AL["Primal Hakkari Shawl"] = "Primal Hakkari Shawl";
-	AL["Primal Hakkari Bindings"] = "Ataduras Hakkari primigenias";
-	AL["Primal Hakkari Sash"] = "Fajín Hakkari primigenio";
-	AL["Primal Hakkari Stanchion"] = "Puntal Hakkari primigenio";
-	AL["Primal Hakkari Aegis"] = "Égida Hakkari primigenia";
-	AL["Primal Hakkari Girdle"] = "Faja Hakkari primigenia";
-	AL["Primal Hakkari Armsplint"] = "Cabestrillo Hakkari primigenio";
-	AL["Primal Hakkari Tabard"] = "Tabardo Hakkari primigenio";
 
 	--AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "Empuñadura Qiraji ornamentada";
@@ -431,9 +410,6 @@ if AL then
 	AL["Husk of the Old God"] = "Colmillo del dios antiguo";
 	AL["Carapace of the Old God"] = "Caparazón del dios antiguo";
 
-	--Vanilla WoW Sets
-	AL["Zul'Gurub Rings"] = "Anillos de Zul'Gurub";
-
 	--Recipe origin strings
 	AL["Trainer"] = "Instructor";
 	AL["Discovery"] = "Descubierto";
@@ -443,17 +419,6 @@ if AL then
 	AL["Crafted"] = "Fabricado";
 
 	--Set Labels
-	AL["Set: Embrace of the Viper"] = "Conjunto: Abrazo de la víbora";
-	AL["Set: Defias Leather"] = "Conjunto: Cuero Defias";
-	AL["Set: The Gladiator"] = "Conjunto: El Gladiador";
-	AL["Set: Chain of the Scarlet Crusade"] = "Conjunto: Cadena de la Cruzada Escarlata";
-	AL["Set: The Postmaster"] = "Conjunto: El jefe de correos";
-	AL["Set: Necropile Raiment"] = "Conjunto: Vestiduras necrópilas";
-	AL["Set: Cadaverous Garb"] = "Conjunto: Atuendo de cadáver";
-	AL["Set: Bloodmail Regalia"] = "Conjunto: Atavío mallasangre";
-	AL["Set: Deathbone Guardian"] = "Conjunto: Guardia de hueso de muerto";
-	AL["Set: Dal'Rend's Arms"] = "Conjunto: Armas de Dal'Rend";
-	AL["Set: Spider's Kiss"] = "Beso de la araña";
 	AL["AQ40 Class Sets"] = "Conjuntos por Clase de AQ40";
 	AL["AQ20 Class Sets"] = "Conjuntos por Clase de AQ20";
 	AL["AQ Enchants"] = "Encantamientos AQ";
@@ -462,8 +427,6 @@ if AL then
 	AL["Scholomance Sets"] = "Conjuntos Scholomance";
 	AL["Crafted Sets"] = "Conjuntos fabricados";
 	AL["Crafted Epic Weapons"] = "Armas épicas fabricadas";
-	AL["ZG Class Sets"] = "Conjuntos por Clase de ZG";
-	AL["ZG Enchants"] = "Encantamientos ZG";
 	AL["Dungeon Set 1"] = "Conjunto de Mazmorra 1";
 	AL["Dungeon Set 2"] = "Conjunto de Mazmorra 2";
 	AL["Dungeon Set 3"] = "Conjunto de Mazmorra 3";	
@@ -476,7 +439,6 @@ if AL then
 	AL["PvP Reputation Sets"] = "Conjuntos JcJ por reputación";
 	AL["Arena PvP Weapons"] = "Armas de Arenas JcJ";
 	AL["Arathi Basin Sets"] = "Conjuntos de Cuenca de Arathi";
-	AL["Class Books"] = "Libros de clase";
 	AL["Tribute Run"] = "Homenaje de carrera";
 	AL["Dire Maul Books"] = "Libros de La Masacre";
 	AL["Random Boss Loot"] = "Botín de jefes aleatorios";
@@ -644,7 +606,6 @@ if AL then
 	AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";
 
 	--Zones
-	AL["World Drop"] = "Hallazgos del Mundo";
 
 	--Shortcuts for Bossname files
 	AL["LBRS"] = "CRNI";

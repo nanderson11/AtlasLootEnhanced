@@ -381,9 +381,6 @@ if AL then
 	AL["Banner"] = "깃발";
 	AL["Set"] = "세트";
 	AL["Token"] = "휘장";
-	AL["Tokens"] = "휘장";
-	AL["Token Hand-Ins"] = true;
-	AL["Skinning Knife"] = true;
 	AL["Combat Pet"] = true;
 	AL["Fireworks"] = true;
 	AL["Transformation Item"] = true;
@@ -442,16 +439,9 @@ if AL then
 	AL["Quest Reward"] = "퀘스트 보상";
 	AL["Old Quest Reward"] = true;
 	AL["Shared"] = "공통";
-	AL["Unique"] = "고유";
 	AL["Right Half"] = "오른쪽 반쪽";
 	AL["Left Half"] = "왼쪽 반쪽";
-	AL["28 Slot Soul Shard"] = "28칸 영혼석";--is this still an item?
-	AL["20 Slot"] = "20칸";
-	AL["18 Slot"] = "18칸";
-	AL["16 Slot"] = "16칸";
-	AL["10 Slot"] = "10칸";
 	AL["Currency"] = "보상아이템 구입에 사용";
-	AL["Conjured Item"] = true;
 	AL["Used to summon boss"] = true;
 	AL["Tradable for sunmote + item above"] = true;
 	AL["Card Game Item"] = "카드 게임 아이템";
@@ -460,8 +450,6 @@ if AL then
 	AL["Random Heroic Reward"] = true;
 	AL["Fishing Daily Reward"] = true;
 	AL["Collector's Edition"] = true;
-	AL["Blizzcon"] = true;
-	AL["WoW Anniversary Celebration"] = true;
 	AL["Daily Reward"] = true;
 
 	-- Minor Labels for loot table descriptions
@@ -508,7 +496,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "자연 저항 장비";
 	AL["Frost Resistance Gear"] = "냉기 저항 장비";
 	AL["Shadow Resistance Gear"] = "암흑 저항 장비";
-	AL["Classic Sets"] = true;
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = true;
@@ -574,24 +561,10 @@ if AL then
 	AL["Feasts"] = true;
 
 	-- Extra Text in Boss lists
-	AL["Set: Embrace of the Viper"] = "세트: 독사의 은총";
-	AL["Set: Defias Leather"] = "세트: 데피아즈단";
-	AL["Set: The Gladiator"] = "세트: 검투사";
-	AL["Set: Chain of the Scarlet Crusade"] = "세트: 붉은십자군";
-	AL["Set: The Postmaster"] = "세트: 우체국장";
-	AL["Set: Necropile Raiment"] = "세트: 시체더미 의복";
-	AL["Set: Cadaverous Garb"] = "세트: 시체 수의";
-	AL["Set: Bloodmail Regalia"] = "세트: 피고리 제복";
-	AL["Set: Deathbone Guardian"] = "세트: 죽음의 뼈갑옷";
-	AL["Set: Dal'Rend's Arms"] = "세트: 달렌드의 무기";
-	AL["Set: Spider's Kiss"] = "세트: 거미의 입맞춤";
 	AL["AQ20 Class Sets"] = "안퀴라즈 폐허 직업 세트";
 	AL["AQ Enchants"] = "안퀴라즈 마법부여";
 	AL["AQ40 Class Sets"] = "안퀴라즈 사원 직업 세트";
 	AL["AQ Opening Quest Chain"] = "안퀴라즈 열기 연퀘";
-	AL["ZG Class Sets"] = "줄구룹 직업 세트";
-	AL["ZG Enchants"] = "줄구룹 마법부여";
-	AL["Class Books"] = "직업 책";
 	AL["Tribute Run"] = "공물함";
 	AL["Dire Maul Books"] = "혈투의 전장 직업 책";
 	AL["Random Boss Loot"] = "렌덤 보스 드랍";
@@ -779,7 +752,6 @@ if AL then
 	AL["Venture Bay"] = true;
 
 	-- Karazhan Opera Event Headings
-	AL["Shared Drops"] = "공통 드랍";
 	AL["Wizard of Oz"] = "오즈의 마법사";
 	AL["Red Riding Hood"] = "빨간 두건";
 
@@ -787,17 +759,6 @@ if AL then
 	AL["Spider"] = "거미";
 	AL["Darkhound"] = "광포한 암흑사냥개";
 	AL["Bat"] = "박쥐";
-
-	-- ZG Tokens
-	AL["Primal Hakkari Kossack"] = "고대 학카리 조끼";
-	AL["Primal Hakkari Shawl"] = "고대 학카리 어깨걸이";
-	AL["Primal Hakkari Bindings"] = "고대 학카리 팔보호구";
-	AL["Primal Hakkari Sash"] = "고대 학카리 장식띠";
-	AL["Primal Hakkari Stanchion"] = "고대 학카리 손목갑옷";
-	AL["Primal Hakkari Aegis"] = "고대 학카리 아이기스";
-	AL["Primal Hakkari Girdle"] = "고대 학카리 벨트";
-	AL["Primal Hakkari Armsplint"] = "고대 학카리 어깨갑옷";
-	AL["Primal Hakkari Tabard"] = "고대 학카리 휘장";
 
 	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "화려한 퀴라지 자루";
@@ -817,9 +778,6 @@ if AL then
 	AL["Husk of the Old God"] = "고대신의 허물";
 	AL["Carapace of the Old God"] = "고대신의 껍질";
 
-	-- Classic WoW Sets
-	AL["Zul'Gurub Rings"] = true;
-
 	-- Recipe origin strings
 	AL["Trainer"] = true;
 	AL["Discovery"] = true;
@@ -827,9 +785,6 @@ if AL then
 	AL["Drop"] = true;
 	AL["Vendor"] = true;
 	AL["Crafted"] = true;
-
-	-- Level 80 PvP Weapons
-	AL["Wrathful Gladiator\'s Weapons"] = true;
 
 	-- Months
 	AL["January"] = true;
@@ -861,13 +816,6 @@ if AL then
 	AL["Destruction"] = true;
 	AL["Tanking"] = true;
 	AL["DPS"] = true;
-
-	-- Naxx Zones
-	AL["Construct Quarter"] = true;
-	AL["Arachnid Quarter"] = true;
-	AL["Military Quarter"] = true;
-	AL["Plague Quarter"] = true;
-	AL["Frostwyrm Lair"] = true;
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "일반 몬스터";
@@ -986,11 +934,9 @@ if AL then
 	AL["Jadefang"] = true;
 	AL["Aeonaxx"] = true;
 	AL["Prince Sarsarun"] = true;
-	AL["Highlord Kruul"] = true; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = true; 
 
 	-- Zones
-	AL["World Drop"] = "월드 드랍";
 	AL["Trial of the Grand Crusader"] = true;
 	AL["Crusader's Square"] = true;
 	AL["The Gauntlet"] = true;

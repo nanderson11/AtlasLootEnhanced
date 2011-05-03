@@ -390,9 +390,6 @@ if AL then
 	AL["Banner"] = "Знамя";
 	AL["Set"] = "Комплекты";
 	AL["Token"] = "Знак";
-	AL["Tokens"] = "Знаки";
-	AL["Token Hand-Ins"] = "За знаки";
-	AL["Skinning Knife"] = "Нож для свежевания";
 	AL["Combat Pet"] = "Боевой питомец";
 	AL["Fireworks"] = "Феерверк";
 	AL["Transformation Item"] = "Трансформ. предмет";
@@ -469,16 +466,9 @@ if AL then
 	AL["Quest Reward"] = "награда за задание";
 	AL["Old Quest Reward"] = "Прежняя награда за задание";
 	AL["Shared"] = "Разделенные";
-	AL["Unique"] = "Уникальный";
 	AL["Right Half"] = "Правая половина";
 	AL["Left Half"] = "Левая половина";
-	AL["28 Slot Soul Shard"] = "28 ячеек Осколок душ";
-	AL["20 Slot"] = "20 ячеек";
-	AL["18 Slot"] = "18 ячеек";
-	AL["16 Slot"] = "16 ячеек";
-	AL["10 Slot"] = "10 ячеек";
 	AL["Currency"] = "Испол-ся для покупки наград";
-	AL["Conjured Item"] = "Сотворенный предмет";
 	AL["Used to summon boss"] = "Испол-ся для призыва босса";
 	AL["Tradable for sunmote + item above"] = "В обмен на Частицу солнца + предметы выше";
 	AL["Card Game Item"] = "Предмет игровых карт";
@@ -487,8 +477,6 @@ if AL then
 	AL["Random Heroic Reward"] = "Случайные награды с героика";
 	AL["Fishing Daily Reward"] = "Награды за рыболовский эжедн.";
 	AL["Collector's Edition"] = "Коллекционное издание";
-	AL["Blizzcon"] = "Blizzcon";
-	AL["WoW Anniversary Celebration"] = "Юбелей WoW";
 	AL["Daily Reward"] = "Награды за эжедн. задания";
 	AL["No Longer Available"] = "Больше не доступно";
 
@@ -536,7 +524,6 @@ if AL then
 	AL["Nature Resistance Gear"] = "Наборы защиты от магии природы";
 	AL["Frost Resistance Gear"] = "Наборы защиты от льда";
 	AL["Shadow Resistance Gear"] = "Наборы защиты от магии тьмы";
-	AL["Classic Sets"] = "Комплекты классика";
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "Допол. добыча с героиков";
@@ -625,24 +612,10 @@ if AL then
 	AL["Damage"] = "Урон";
 
 	-- Extra Text in Boss lists
-	AL["Set: Embrace of the Viper"] = "Комплект: Объятия гадюки";
-	AL["Set: Defias Leather"] = "Комплект: Кожаные доспехи Братства Справедливости";
-	AL["Set: The Gladiator"] = "Комплект: Гладиатор";
-	AL["Set: Chain of the Scarlet Crusade"] = "Комплект: Цепь Алого ордена";
-	AL["Set: The Postmaster"] = "Комплект: Вестник";
-	AL["Set: Necropile Raiment"] = "Комплект: Одеяния Праха";
-	AL["Set: Cadaverous Garb"] = "Комплект: Трупный наряд";
-	AL["Set: Bloodmail Regalia"] = "Комплект: Регалии Кровавой кольчуги";
-	AL["Set: Deathbone Guardian"] = "Комплект: Костяной Страж";
-	AL["Set: Dal'Rend's Arms"] = "Комплект: Руки Дал'Ренда";
-	AL["Set: Spider's Kiss"] = "Комплект: Поцелуй паука";
 	AL["AQ20 Class Sets"] = "Классовые комплекты АК20";
 	AL["AQ Enchants"] = "Наложения чар из АК";
 	AL["AQ40 Class Sets"] = "Классовые комплекты АК40";
 	AL["AQ Opening Quest Chain"] = "Цепь заданий открытия АК";
-	AL["ZG Class Sets"] = "Классовые комплекты ЗГ";
-	AL["ZG Enchants"] = "Наложения чар из ЗГ";
-	AL["Class Books"] = "Классовые Книги";
 	AL["Tribute Run"] = "Заход почести";
 	AL["Dire Maul Books"] = "Книги Забытого Города";
 	AL["Random Boss Loot"] = "Трофеи случайных боссов";
@@ -839,7 +812,6 @@ if AL then
 	AL["Venture Bay"] = "Бухта торговцев";
 
 	-- Karazhan Opera Event Headings
-	AL["Shared Drops"] = "Разделенная добыча";
 	AL["Wizard of Oz"] = "Страна Оз";
 	AL["Red Riding Hood"] = "Красная Шапочка";
 
@@ -847,17 +819,6 @@ if AL then
 	AL["Spider"] = "Паук";
 	AL["Darkhound"] = "Пес тьмы";
 	AL["Bat"] = "Летучая мышь";
-
-	-- ZG Tokens
-	AL["Primal Hakkari Kossack"] = "Изначальная рубашка Хаккари";
-	AL["Primal Hakkari Shawl"] = "Изначальная лацерна Хаккари";
-	AL["Primal Hakkari Bindings"] = "Изначальные наручники Хаккари";
-	AL["Primal Hakkari Sash"] = "Изначальный кушак Хаккари";
-	AL["Primal Hakkari Stanchion"] = "Изначальный браслет Хаккари";
-	AL["Primal Hakkari Aegis"] = "Изначальная эгида Хаккари";
-	AL["Primal Hakkari Girdle"] = "Ремень Изначальных Хаккари";
-	AL["Primal Hakkari Armsplint"] = "Изначальные обручья Хаккари";
-	AL["Primal Hakkari Tabard"] = "Изначальная гербовая накидка Хаккари";
 
 	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "Киражская изысканная рукоять";
@@ -877,9 +838,6 @@ if AL then
 	AL["Husk of the Old God"] = "Броня Древнего Бога";
 	AL["Carapace of the Old God"] = "Панцирь Древнего Бога";
 
-	-- Classic WoW Sets
-	AL["Zul'Gurub Rings"] = "Кольца Зул'Гуруба";
-
 	-- Recipe origin strings
 	AL["Trainer"] = "Тренер";
 	AL["Discovery"] = "Находка";
@@ -887,9 +845,6 @@ if AL then
 	AL["Drop"] = "Падает";
 	AL["Vendor"] = "Продавец";
 	AL["Crafted"] = "Создано";
-
-	-- Level 80 PvP Weapons
-	AL["Wrathful Gladiator\'s Weapons"] = "Оружие разгневанного гладиатора";
 
 	-- Months
 	AL["January"] = "Январь";
@@ -921,13 +876,6 @@ if AL then
 	AL["Destruction"] = "Разрушение";
 	AL["Tanking"] = "Танкования";
 	AL["DPS"] = "ДПС";
-
-	-- Naxx Zones
-	AL["Construct Quarter"] = "Квартал Мерзости";
-	AL["Arachnid Quarter"] = "Паучий квартал";
-	AL["Military Quarter"] = "Военный квартал";
-	AL["Plague Quarter"] = "Чумной квартал";
-	AL["Frostwyrm Lair"] = "Логово ледяного змея";
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "Существа";
@@ -1046,13 +994,11 @@ if AL then
 	AL["Jadefang"] = "Яшмовый Клык";
 	AL["Aeonaxx"] = "Эонакс";
 	AL["Prince Sarsarun"] = "Принц Сарсарун";
-	--AL["Highlord Kruul"] = ""; -- added until decided if the set gets removed
 	AL["Dormus the Camel-Hoarder"] = "Дормус Погонщик Верблюдов"; 
 	AL["The Behemoth"] = "Чудище";
 	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";
 
 	-- Zones
-	AL["World Drop"] = "Мировой выпад";
 	AL["Trial of the Grand Crusader"] = "Испытание великого крестоносца";
 	AL["Crusader's Square"] = "Площадь рыцарей";
 	AL["The Gauntlet"] = "Улица Испытаний";

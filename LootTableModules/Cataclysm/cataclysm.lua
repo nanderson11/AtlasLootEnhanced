@@ -2056,6 +2056,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 69801, "", "=q4=Amani Armguards", "=ds=#s8#, #a4#"};
 				{ 4, 69802, "", "=q4=Band of the Gurubashi Berserker", "=ds=#s13#"};
 				{ 5, 69799, "", "=q4=Quickfinger Ring", "=ds=#s13#"};
+				{ 16, 33993, "", "=q3=Mojo", "=ds=#e13#"};
 			};
 		};
 		info = {
@@ -2799,13 +2800,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
 				{ 2, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "2200 #conquest#"};
 				{ 3, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "1650 #conquest#"};
-				{ 4, 64802, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "2200 #conquest#"};
+				{ 4, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "2200 #conquest#"};
 				{ 5, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "1650 #conquest#"};
 				{ 6, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "2200 #conquest#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
 				{ 9, 64804, "", "=q3=Bloodthirsty Gladiator's Ornamented Headcover", "=ds=", "2200 #honor#"};
 				{ 10, 64806, "", "=q3=Bloodthirsty Gladiator's Ornamented Spaulders", "=ds=", "1650 #honor#"};
-				{ 11, 64843, "", "=q3=Bloodthirsty Gladiator's Ornamented Chestguard", "=ds=", "2200 #honor#"};
+				{ 11, 64802, "", "=q3=Bloodthirsty Gladiator's Ornamented Chestguard", "=ds=", "2200 #honor#"};
 				{ 12, 64803, "", "=q3=Bloodthirsty Gladiator's Ornamented Gloves", "=ds=", "1650 #honor#"};
 				{ 13, 64805, "", "=q3=Bloodthirsty Gladiator's Ornamented Legplates", "=ds=", "2200 #honor#"};
 			};
@@ -4263,7 +4264,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsRare"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#z17#", ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["World Drop"], ""};
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
 				{ 3, 64403, "", "=q3=Fox Kit", "=ds="..BabbleZone["Tol Barad Peninsula"]};
 				{ 4, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
@@ -4686,8 +4687,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
 				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
 				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
-				{ 7, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1=#z38#", ""};
-				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1=#z38#", ""};
+				{ 7, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 8, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
 				{ 9, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 10, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
 				{ 11, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
@@ -4834,11 +4835,10 @@ local moduleName = "AtlasLootCataclysm"
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Brewfest"], ""};
-				{ 2, 37828, "", "=q4=Great Brewfest Kodo", "=q2=#n150#"};
-				{ 3, 33977, "", "=q4=Swift Brewfest Ram", "=q2=#n150#"};
+				{ 2, 37828, "", "=q4=Great Brewfest Kodo", "=q2="..BabbleBoss["Coren Direbrew"]};
+				{ 3, 33977, "", "=q4=Swift Brewfest Ram", "=q2="..BabbleBoss["Coren Direbrew"]};
 				{ 5, 0, "INV_Box_01", "=q6="..AL["Hallow's End"], ""};
 				{ 6, 37012, "", "=q4=The Horseman's Reins", "#ACHIEVEMENTID:980#"};
-				{ 7, 37011, "", "=q3=Magic Broom", "=q2=#n136#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Love is in the Air"], ""};
 				{ 17, 50250, "", "=q4=Big Love Rocket", "#ACHIEVEMENTID:4627#"};
 			};
@@ -4894,11 +4894,11 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 49704, "", "=q4=Carved Ogre Idol", "=q2=#m24#"};
 				{ 2, 52201, "", "=q4=Muradin's Favor", "=q1=#m4#: #QUESTID:24917#"};
-				{ 3, 37254, "", "=q4=Super Simian Sphere", "=ds=#z17#"};
+				{ 3, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
 				{ 4, 54653, "", "=q3=Darkspear Pride", "=q1=#m4#: #QUESTID:25480#"};
 				{ 5, 44719, "", "=q3=Frenzyheart Brew", "=q2="..BabbleFaction["Frenzyheart Tribe"].." "..BabbleFaction["Revered"]};
 				{ 6, 54651, "", "=q3=Gnomeregan Pride", "=q1=#m4#: #QUESTID:25286#"};
-				{ 7, 1973, "", "=q3=Orb of Deception", "=ds=#z17#"};
+				{ 7, 1973, "", "=q3=Orb of Deception", "=ds="..AL["World Drop"]};
 				{ 8, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..BabbleZone["Magisters' Terrace"]};
 				{ 9, 45850, "", "=q3=Rituals of the New Moon", "=q2=#p26#"};
 				{ 10, 45851, "", "=q3=Rituals of the New Moon", "=q2=#p26#"};
