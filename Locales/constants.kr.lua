@@ -322,7 +322,6 @@ if AL then
 	AL["Brewfest"] = true;
 	AL["Children's Week"] = true;
 	AL["Day of the Dead"] = true;
-	AL["Elemental Invasion"] = true;
 	AL["Ethereum Prison"] = true;
 	AL["Feast of Winter Veil"] = true;
 	AL["Gurubashi Arena Booty Run"] = true;
@@ -335,7 +334,6 @@ if AL then
 	AL["Pilgrim's Bounty"] = true;
 	AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = true;
-	AL["Elemental Unrest"] = true;
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00왼쪽 클릭|r 아이템 테이블 화면";
@@ -942,13 +940,6 @@ if AL then
 	AL["The Gauntlet"] = true;
 
 	-- Shortcuts for Bossname files
-	AL["LBRS"] = true;
-	AL["UBRS"] = true;
-	AL["CoT1"] = true;
-	AL["CoT2"] = true;
-	AL["Scholo"] = true;
-	AL["Strat"] = true;
-	AL["Serpentshrine"] = true;
 	AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc

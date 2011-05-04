@@ -541,7 +541,7 @@ AtlasLoot_LootTableRegister = {
 
 		["VaultOfArchavon"] = {
 			["Bosses"] = {
-				{ "VaultofArchavonArchavon", 2 },
+				{ "ARCHAVON", 2 },
 				{ "VaultofArchavonEmalon", 3 },
 				{ "VaultofArchavonKoralon", 4 },
 				{ "VaultofArchavonToravon", 5 },

@@ -330,7 +330,6 @@ if AL then
 	AL["Brewfest"] = "Хмельной фестиваль";
 	AL["Children's Week"] = "Детская неделя";
 	AL["Day of the Dead"] = "День мертвых";
-	AL["Elemental Invasion"] = "Вторжение стихий";
 	AL["Ethereum Prison"] = "Тюрьма Эфириумов";
 	AL["Feast of Winter Veil"] = "Зимний Покров";
 	AL["Gurubashi Arena Booty Run"] = "Арена Гурубаши";
@@ -344,7 +343,6 @@ if AL then
 	AL["Skettis"] = "Скеттис";
 	AL["Stranglethorn Fishing Extravaganza"] = "Рыбомания Тернистой долины";
 	AL["Kalu'ak Fishing Derby"] = "Калуакское рыбоборье";
-	AL["Elemental Unrest"] = "Нашествие элементалей";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
@@ -1004,13 +1002,6 @@ if AL then
 	AL["The Gauntlet"] = "Улица Испытаний";
 
 	-- Shortcuts for Bossname files
-	AL["LBRS"] = "ВЧЧГ";
-	AL["UBRS"] = "НЧЧГ";
-	AL["CoT1"] = "ПВ1";
-	AL["CoT2"] = "ПВ2";
-	AL["Scholo"] = "Некрос";
-	AL["Strat"] = "Страт";
-	AL["Serpentshrine"] = "Святилища Змея";
 	AL["Avatar"] = "Аватара"; -- Avatar of the Martyred
 
 	-- Chests, etc

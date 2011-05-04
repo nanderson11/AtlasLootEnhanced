@@ -22,7 +22,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 --- Reaccouring Events
 ---- Bash'ir Landing Skyguard Raid
 ---- Darkmoon Faire
----- Elemental Invasion
 ---- Gurubashi Arena Booty Run
 ---- Stranglethorn Fishing Extravaganza
 --- One-Time Events
@@ -1010,35 +1009,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 		info = {
 			name = BabbleFaction["Darkmoon Faire"],
 			module = moduleName, menu = "DARKMOONMENU"
-		};
-	};
-
-		--------------------------
-		--- Elemental Invasion ---
-		--------------------------
-
-	AtlasLoot_Data["ElementalInvasion"] = {
-		["Normal"] = {
-			{
-				{ 2, 0, "INV_Box_01", "=q6="..BabbleBoss["Baron Charr"], "=q1=#j19#, "..BabbleZone["Un'Goro Crater"]};
-				{ 3, 18671, "", "=q3=Baron Charr's Sceptre", "=ds=#h1#, #w6#", "", "12.18%"};
-				{ 4, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "10.14%"};
-				{ 5, 18672, "", "=q2=Elemental Ember", "=ds=#s15#", "", "53.31%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Princess Tempestria"], "=q1=#j20#, "..BabbleZone["Winterspring"]};
-				{ 8, 18678, "", "=q3=Tempestria's Frozen Necklace", "=ds=#s2#", "", "12.33%"};
-				{ 9, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "5.24%"};
-				{ 10, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "25.00%"};
-				{ 11, 18679, "", "=q2=Frigid Ring", "=ds=#s13#", "", "51.01%"};
-				{ 17, 0, "INV_Box_01", "=q6="..BabbleBoss["The Windreaver"], "=q1=#j21#, "..BabbleZone["Silithus"]};
-				{ 18, 18676, "", "=q3=Sash of the Windreaver", "=ds=#s10#, #a3#", "", "16.76%"};
-				{ 19, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "9.76%"};
-				{ 20, 21548, "", "=q3=Pattern: Stormshroud Gloves", "=ds=#p7# (300)", "", "36.28%"};
-				{ 21, 18677, "", "=q2=Zephyr Cloak", "=ds=#s4#", "", "52.47%"};
-			};
-		};
-		info = {
-			name = AL["Elemental Invasion"],
-			module = moduleName, menu = "WORLDEVENTMENU"
 		};
 	};
 

@@ -330,7 +330,6 @@ if AL then
 	AL["Brewfest"] = "啤酒節";
 	AL["Children's Week"] = "兒童週";
 	AL["Day of the Dead"] = "亡者節";
-	AL["Elemental Invasion"] = "元素入侵";
 	AL["Ethereum Prison"] = "伊斯利恩監獄";
 	AL["Feast of Winter Veil"] = "冬幕節";
 	AL["Gurubashi Arena Booty Run"] = "古拉巴什競技場藏寶競技";
@@ -344,7 +343,6 @@ if AL then
 	AL["Skettis"] = "司凱堤斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
 	AL["Kalu'ak Fishing Derby"] = "卡魯耶克釣魚大賽";
-	AL["Elemental Unrest"] = "元素風潮";
 
 	--Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00左鍵|r 瀏覽物品掉落表";
@@ -1012,13 +1010,6 @@ if AL then
 	AL["The Gauntlet"] = "街巷";
 
 	--Shortcuts for Bossname files
-	AL["LBRS"] = "黑下";
-	AL["UBRS"] = "黑上";
-	AL["CoT1"] = "時光之穴1";
-	AL["CoT2"] = "時光之穴2";
-	AL["Scholo"] = "通靈";
-	AL["Strat"] = "斯坦";
-	AL["Serpentshrine"] = "毒蛇神殿";
 	AL["Avatar"] = "馬丁瑞德的化身";  -- Avatar of the Martyred
 
 	--Chests, etc

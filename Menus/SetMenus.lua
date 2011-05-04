@@ -1,4 +1,5 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
@@ -186,7 +187,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "SETSCLASSIC", "INV_Sword_43", "=ds="..AL["Classic WoW"].." "..AL["Sets"], ""};
 				{ 3, "WOTLKSets", "inv_misc_monsterscales_15", "=ds="..AL["Wrath of the Lich King"].." "..AL["Sets"], ""};
 				{ 5, "AQ20Sets", "achievement_boss_ossiriantheunscarred", "=ds="..BabbleZone["Ruins of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
-				{ 7, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon Set 1/2"], "=q5="..AL["Classic WoW"]};
+				{ 7, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon Set 1/2"], "=q5="..AL["No Longer Available"]};
 				{ 17, "TBCSets", "INV_Weapon_Glave_01", "=ds="..AL["Burning Crusade"].." "..AL["Sets"], ""};
 				{ 20, "AQ40Sets", "achievement_boss_cthun", "=ds="..BabbleZone["Temple of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
 				{ 22, "DS3SET", "INV_Helmet_15", "=ds="..AL["Dungeon Set 3"], "=q5="..AL["Burning Crusade"]};
@@ -441,5 +442,27 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		info = {
 			name = AL["Tier 11 Set"],
 			menu = "SETMENU",
+		};
+	}
+
+	AtlasLoot_Data["ARCHAVON"] = {
+		["Normal"] = {
+			{
+				{ 2, "VoAArchavon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "VoAArchavon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "VoAArchavon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 5, "VoAArchavon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 6, "VoAArchavon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 8, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
+				{ 17, "VoAArchavon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAArchavon#3", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAArchavon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAArchavon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAArchavon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Archavon the Stone Watcher"],
 		};
 	}

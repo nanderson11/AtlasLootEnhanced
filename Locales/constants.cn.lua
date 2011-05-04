@@ -326,7 +326,6 @@ if AL then
 	AL["Brewfest"] = "美酒节";
 	AL["Children's Week"] = "儿童周";
 	AL["Day of the Dead"] = "悼念日";
-	AL["Elemental Invasion"] = "元素入侵";
 	AL["Ethereum Prison"] = "复仇军监狱";
 	AL["Feast of Winter Veil"] = "冬幕节";
 	AL["Gurubashi Arena Booty Run"] = "古拉巴什竞技场";
@@ -340,7 +339,6 @@ if AL then
 	AL["Skettis"] = "斯克提斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荆棘谷钓鱼大赛";
 	AL["Kalu'ak Fishing Derby"] = "卡亚鲁克钓鱼大赛";
-	AL["Elemental Unrest"] = "Elemental Unrest";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00单击|r浏览掉落表格";
@@ -994,13 +992,6 @@ if AL then
 	AL["The Gauntlet"] = "街巷";
 
 	-- Shortcuts for Bossname files
-	AL["LBRS"] = "黑下";
-	AL["UBRS"] = "黑上";
-	AL["CoT1"] = "救萨尔";
-	AL["CoT2"] = "18波";
-	AL["Scholo"] = "通灵";
-	AL["Strat"] = "斯坦索姆";
-	AL["Serpentshrine"] = "毒蛇";
 	AL["Avatar"] = "殉难者的化身";
 
 	-- Chests, etc

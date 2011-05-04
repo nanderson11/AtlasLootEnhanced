@@ -316,7 +316,6 @@ if AL then
 	AL["Brewfest"] = "Fiesta de la Cerveza";
 	AL["Children's Week"] = "Semana de los niños";
 	AL["Day of the Dead"] = "Festividad de los Muertos";
-	AL["Elemental Invasion"] = "Invasión de elementales";
 	AL["Ethereum Prison"] = "Prisión de los Etereum";
 	AL["Feast of Winter Veil"] = "Festival de Invierno";
 	AL["Gurubashi Arena Booty Run"] = "El cofre pirata de Gurubashi";
@@ -329,7 +328,6 @@ if AL then
 	AL["Pilgrim's Bounty"] = "Generosidad del Peregrino";
 	AL["Skettis"] = "Skettis";
 	AL["Stranglethorn Fishing Extravaganza"] = "Concurso de Pesca";
-	AL["Elemental Unrest"] = "Evento de los elementales";
 
 	--Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Click-izdo|r Navegar por las tablas de botines";
@@ -944,13 +942,6 @@ if AL then
 	AL["The Gauntlet"] = "El reto"; -- Comprobar
 
 	--Shortcuts for Bossname files
-	AL["LBRS"] = "CRNI";
-	AL["UBRS"] = "CRNS";
-	AL["CoT1"] = "CdT1";
-	AL["CoT2"] = "CdT2";
-	--  AL["Scholo"] = true,
-	--  AL["Strat"] = true,
-	AL["Serpentshrine"] = "Serpiente";
 	--AL["Avatar"] = true,	
 
 	--Chests, etc

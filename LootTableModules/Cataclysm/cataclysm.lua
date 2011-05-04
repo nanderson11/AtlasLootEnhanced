@@ -4074,7 +4074,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 13, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
 				{ 14, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
 				{ 15, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
-				{ 16, 0, "INV_Box_01", "=q6="..AL["UDE Items"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
 				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
 				{ 18, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
 				{ 19, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};

@@ -608,13 +608,6 @@ if AL then
 	--Zones
 
 	--Shortcuts for Bossname files
-	AL["LBRS"] = "CRNI";
-	AL["UBRS"] = "CRNS";
-	AL["CoT1"] = "CdT1";
-	AL["CoT2"] = "CdT2";
-	--  AL["Scholo"] = true,
-	--  AL["Strat"] = true,
-	AL["Serpentshrine"] = "Serpiente";
 	--AL["Avatar"] = true,	
 
 	--Chests, etc
@@ -668,7 +661,6 @@ if AL then
 	AL["Bash'ir Landing Skyguard Raid"] = "Punto de anclaje de Bash'ir";
 	AL["Brewfest"] = "Fiesta de la Cerveza";
 	AL["Children's Week"] = "Semana de los niños";
-	AL["Elemental Invasion"] = "Invasión de elementales";
 	AL["Ethereum Prison"] = "Prisión de los Etereum";
 	AL["Feast of Winter Veil"] = "Festival de Invierno";
 	AL["Gurubashi Arena Booty Run"] = "El cofre pirata de Gurubashi";
