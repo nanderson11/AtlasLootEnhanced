@@ -3817,8 +3817,8 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["Legendaries"] = {
 		["Normal"] = {
 			{
-				{ 1, 49623, "", "=q5=Shadowmourne", "=ds=#h2# #w1#", "" };
-				{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3# #w6#", "" };
+				{ 1, 49623, "", "=q5=Shadowmourne", "=ds=#h2#, #w1#", "" };
+				{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3#, #w6#", "" };
 				{ 4, 34334, "", "=q5=Thori'dal, the Stars' Fury", "=ds=#w2#"};
 				{ 5, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
 				{ 6, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};

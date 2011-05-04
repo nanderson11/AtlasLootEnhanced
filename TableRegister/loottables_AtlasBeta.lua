@@ -62,15 +62,6 @@ AtlasLoot_LootTableRegister_AtlasBeta = {
 				["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns" },
 			},
 		]]--
-
-			["WailingCaverns"] = {
-				["Bosses"] = {
-					{ "WailingCavernsLoot#1", {2,3,4,5,6} },
-					{ "WailingCavernsLoot#2", {7,8,9,10}, hide = true },
-					{ "VWOWSets#1", 15, hide = true },
-				},
-				["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "WailingCaverns" },
-			},
 		},
 }
 

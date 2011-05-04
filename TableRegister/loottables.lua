@@ -1305,13 +1305,18 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines" },
 		},
 
-		["WailingCaverns"] = {
-			["Bosses"] = {
-				{ "WailingCavernsLoot#1", {2,3,4,5,6} },
-				{ "WailingCavernsLoot#2", {7,8,10,11}, hide = true },
-				{ "VWOWSets#1", 15, hide = true },
+		["WailingCavernsEnt"] = "WailingCavernsEaI",
+		["WailingCaverns"] = "WailingCavernsEaI",
+		["WailingCavernsEaI"] = {
+			["WailingCavernsEnt"] = {
+				{ "WailingCavernsLoot#1", 3, hide = true },
 			},
-			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "WailingCaverns" },
+			["WailingCaverns"] = {
+				{ "WailingCavernsLoot#1", {2,3,4,5} },
+				{ "WailingCavernsLoot#2", {6,7,8,10,11}, hide = true },
+				{ "VWOWSets#1", 16, hide = true },
+			},
+			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", sortOrder = { "WailingCavernsEnt", "WailingCaverns" }, mapname = "WailingCaverns" },
 		},
 
 		["TheStockade"] = {
