@@ -500,6 +500,7 @@ if AL then
 	AL["Tier 9"] = true;
 	AL["Tier 10"] = true;
 	AL["Tier 11"] = true;
+	AL["Tier 12"] = true;
 	AL["10 Man"] = true;
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;

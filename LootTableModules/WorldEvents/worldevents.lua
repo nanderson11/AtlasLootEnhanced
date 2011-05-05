@@ -536,27 +536,30 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 29, 20390, "", "=q1=Candy Bar", "=ds=#e3#"};
 			};
 			{
-				{ 1, 0, "INV_Misc_Bag_11", "=q6="..AL["Treat Bag"], ""};
-				{ 2, 34003, "", "=q1=Flimsy Male Draenei Mask", "=ds=#s1#"};
-				{ 3, 20561, "", "=q1=Flimsy Male Dwarf Mask", "=ds=#s1#"};
-				{ 4, 20391, "", "=q1=Flimsy Male Gnome Mask", "=ds=#s1#"};
-				{ 5, 20566, "", "=q1=Flimsy Male Human Mask", "=ds=#s1#"};
-				{ 6, 20564, "", "=q1=Flimsy Male Night Elf Mask", "=ds=#s1#"};
-				{ 7, 34002, "", "=q1=Flimsy Male Blood Elf Mask", "=ds=#s1#"};
-				{ 8, 20570, "", "=q1=Flimsy Male Orc Mask", "=ds=#s1#"};
-				{ 9, 20572, "", "=q1=Flimsy Male Tauren Mask", "=ds=#s1#"};
-				{ 10, 20568, "", "=q1=Flimsy Male Troll Mask", "=ds=#s1#"};
-				{ 11, 20573, "", "=q1=Flimsy Male Undead Mask", "=ds=#s1#"};
-				{ 17, 34001, "", "=q1=Flimsy Female Draenei Mask", "=ds=#s1#"};
-				{ 18, 20562, "", "=q1=Flimsy Female Dwarf Mask", "=ds=#s1#"};
-				{ 19, 20392, "", "=q1=Flimsy Female Gnome Mask", "=ds=#s1#"};
-				{ 20, 20565, "", "=q1=Flimsy Female Human Mask", "=ds=#s1#"};
-				{ 21, 20563, "", "=q1=Flimsy Female Night Elf Mask", "=ds=#s1#"};
-				{ 22, 34000, "", "=q1=Flimsy Female Blood Elf Mask", "=ds=#s1#"};
-				{ 23, 20569, "", "=q1=Flimsy Female Orc Mask", "=ds=#s1#"};
-				{ 24, 20571, "", "=q1=Flimsy Female Tauren Mask", "=ds=#s1#"};
-				{ 25, 20567, "", "=q1=Flimsy Female Troll Mask", "=ds=#s1#"};
-				{ 26, 20574, "", "=q1=Flimsy Female Undead Mask", "=ds=#s1#"};
+				{ 2, 34003, "", "=q1=Draenei Male Mask", "=ds=#s1#"};
+				{ 3, 20561, "", "=q1=Dwarf Male Mask", "=ds=#s1#"};
+				{ 4, 20391, "", "=q1=Gnome Male Mask", "=ds=#s1#"};
+				{ 5, 49210, "", "=q1=Goblin Male Mask", "=ds=#s1#"};
+				{ 6, 20566, "", "=q1=Human Male Mask", "=ds=#s1#"};
+				{ 7, 20564, "", "=q1=Night Male Elf Mask", "=ds=#s1#"};
+				{ 8, 34002, "", "=q1=Blood Male Elf Mask", "=ds=#s1#"};
+				{ 9, 20570, "", "=q1=Orc Male Mask", "=ds=#s1#"};
+				{ 10, 20572, "", "=q1=Tauren Male Mask", "=ds=#s1#"};
+				{ 11, 20568, "", "=q1=Troll Male Mask", "=ds=#s1#"};
+				{ 12, 20573, "", "=q1=Undead Male Mask", "=ds=#s1#"};
+				{ 13, 49216, "", "=q1=Worfen Male Mask", "=ds=#s1#"};
+				{ 17, 34001, "", "=q1=Draenei Female Mask", "=ds=#s1#"};
+				{ 18, 20562, "", "=q1=Dwarf Female Mask", "=ds=#s1#"};
+				{ 19, 20392, "", "=q1=Gnome Female Mask", "=ds=#s1#"};
+				{ 20, 49212, "", "=q1=Goblin Female Mask", "=ds=#s1#"};
+				{ 21, 20565, "", "=q1=Human Female Mask", "=ds=#s1#"};
+				{ 22, 20563, "", "=q1=Night Elf Female Mask", "=ds=#s1#"};
+				{ 23, 34000, "", "=q1=Blood Elf Female Mask", "=ds=#s1#"};
+				{ 24, 20569, "", "=q1=Orc Female Mask", "=ds=#s1#"};
+				{ 25, 20571, "", "=q1=Tauren Female Mask", "=ds=#s1#"};
+				{ 26, 20567, "", "=q1=Troll Female Mask", "=ds=#s1#"};
+				{ 27, 20574, "", "=q1=Undead Female Mask", "=ds=#s1#"};
+				{ 28, 49215, "", "=q1=Worfen Female Mask", "=ds=#s1#"};
 			};
 		};
 		info = {
@@ -568,18 +571,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["HeadlessHorseman"] = {
 		["Normal"] = {
 			{
-				{ 1, 49126, "", "=q4=The Horseman's Horrific Helm", "=ds=#s1#, #a4#"};
-				{ 2, 49121, "", "=q4=Ring of Ghoulish Glee", "=ds=#s13#"};
-				{ 3, 49123, "", "=q4=The Horseman's Seal", "=ds=#s13#"};
-				{ 4, 49124, "", "=q4=Wicked Witch's Band", "=ds=#s13#"};
-				{ 6, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#", "", "100%"};
-				{ 7, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
+				{ 1, 49121, "", "=q4=Ring of Ghoulish Glee", "=ds=#s13#"};
+				{ 2, 49123, "", "=q4=The Horseman's Seal", "=ds=#s13#"};
+				{ 3, 49124, "", "=q4=Wicked Witch's Band", "=ds=#s13#"};
+				{ 5, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#", "", "100%"};
+				{ 6, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
 				{ 16, 54516, "", "=q3=Loot-Filled Pumpkin", "=q5="..AL["Daily Reward"]};
-				{ 17, 49128, "", "=q4=The Horseman's Baleful Blade", "=ds=#h3#, #w10#"};
-				{ 18, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#"};
-				{ 19, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
-				{ 20, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};
-				{ 21, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
+				{ 17, 49126, "", "=q4=The Horseman's Horrific Helm", "=ds=#s1#, #a4#"};
+				{ 18, 49128, "", "=q4=The Horseman's Baleful Blade", "=ds=#h3#, #w10#"};
+				{ 19, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#"};
+				{ 20, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
+				{ 21, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};
+				{ 22, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
 			};
 		};
 		info = {

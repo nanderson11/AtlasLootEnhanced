@@ -5131,7 +5131,7 @@ local moduleName = "AtlasLootCataclysm"
 	}
 
 		-----------------
-		--- 4.1 Stuff ---
+		--- 4.2 Stuff ---
 		-----------------
 
 	AtlasLoot_Data["NewItems41"] = {
@@ -5169,12 +5169,385 @@ local moduleName = "AtlasLootCataclysm"
 				{ 30, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
 			};
 			{
-				{ 1, 69226, "", "=q4=Reins of the Beryl Fire Hawk", "=ds=" },--4.2 meta reward?
-				{ 2, 69224, "", "=q4=Reins of the Crimson Fire Hawk", "=ds=" },--4.2 meta reward?
+				{ 1, 70909, "", "=q4=Alliance War Steed", "=ds=" },--New Alliance PvP Mount
+				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },--Meta Reward
+				{ 3, 70910, "", "=q4=Horde War Wolf", "=ds=" },--New Horde PvP Mount
+				{ 4, 69226, "", "=q4=Green Fire Hawk Mount", "=ds=" },--Unknown
+				{ 5, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=" },--Unknown
+				{ 16, 71033, "", "=q1=Dragonwrath Whelpling", "#ACHIEVEMENTID:5840#" },--Legendary guild reward
+				{ 17, 70908, "", "=q1=Feline Familiar", "=ds=" },
+				{ 18, 70160, "", "=q3=Fire Lasher", "=ds=" },
+				{ 19, 70140, "", "=q3=Hyjal Bear Cub", "=ds=" },
 			};
 		};
 		info = {
 			name = "Patch 4.2 Trinkets",
-			module = moduleName, menu = "SETMENU",
+			module = moduleName, menu = "PATCH42MENU",
+		};
+	}
+
+		--------------------------
+		--- Tier 12 Sets (T12) ---
+		--------------------------
+
+	AtlasLoot_Data["T12DeathKnightDPS"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t12s10_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a4#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a4#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "spell_deathknight_frostpresence", "=q6=#t12s10_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+				{ 24, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a4#", ""};
+				{ 25, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 26, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a4#", ""};
+				{ 27, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 28, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a4#", ""};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12DeathKnightTank"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t12s10_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 70954, "", "=q4=Elementium Dragon Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 18, 70951, "", "=q4=Elementium Dragon Shouldergards", "=ds=#s3#, #a4#", ""};
+				{ 19, 70955, "", "=q4=Elementium Dragon Chestguard", "=ds=#s5#, #a4#", ""};
+				{ 20, 70953, "", "=q4=Elementium Dragon Handguards", "=ds=#s9#, #a4#", ""};
+				{ 21, 70952, "", "=q4=Elementium Dragon Legguards", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "spell_deathknight_frostpresence", "=q6=#t12s10_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+				{ 24, 0, "", "=q4=Elementium Dragon Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 25, 0, "", "=q4=Elementium Dragon Shouldergards", "=ds=#s3#, #a4#", ""};
+				{ 26, 0, "", "=q4=Elementium Dragon Chestguard", "=ds=#s5#, #a4#", ""};
+				{ 27, 0, "", "=q4=Elementium Dragon Handguards", "=ds=#s9#, #a4#", ""};
+				{ 28, 0, "", "=q4=Elementium Dragon Legguards", "=ds=#s11#, #a4#", ""};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12DruidRestoration"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#t12s1_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a2#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a2#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a2#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a2#", ""};
+				{ 23, 0, "spell_nature_healingtouch", "=q6=#t12s1_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12DruidFeral"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "ability_racial_bearform", "=q6=#t12s1_2#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a2#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a2#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a2#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a2#", ""};
+				{ 23, 0, "ability_racial_bearform", "=q6=#t12s1_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12DruidBalance"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_nature_starfall", "=q6=#t12s1_3#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a2#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a2#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a2#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a2#", ""};
+				{ 23, 0, "spell_nature_starfall", "=q6=#t12s1_3#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12Hunter"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#t12s2#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Fireflight Helmet", "=ds=#s1#, #a3#", ""};
+				{ 18, 0, "", "=q4=Fireflight Pauldrons", "=ds=#s3#, #a3#", ""};
+				{ 19, 0, "", "=q4=Fireflight Battleplate", "=ds=#s5#, #a3#", ""};
+				{ 20, 0, "", "=q4=Fireflight Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 21, 70736, "", "=q4=Fireflight Leggings", "=ds=#s11#, #a3#", ""};
+				{ 23, 0, "inv_weapon_bow_07", "=q6=#t12s2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12Mage"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "inv_staff_13", "=q6=#t12s3#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 23, 0, "inv_staff_13", "=q6=#t12s3#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12PaladinHoly"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t12s4_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Immolation Helmet", "=ds=#s1#, #a4#", ""};
+				{ 18, 0, "", "=q4=Immolation Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 19, 0, "", "=q4=Immolation Battleplate", "=ds=#s5#, #a4#", ""};
+				{ 20, 0, "", "=q4=Immolation Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 21, 0, "", "=q4=Immolation Legplates", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#t12s4_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12PaladinProtection"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_holy_devotionaura", "=q6=#t12s4_2#", "=q5="..AL["Tier 12"]};
+				{ 17, 70948, "", "=q4=Immolation Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 18, 70946, "", "=q4=Immolation Shoulderguards", "=ds=#s3#, #a4#", ""};
+				{ 19, 70950, "", "=q4=Immolation Chestguards", "=ds=#s5#, #a4#", ""};
+				{ 20, 70949, "", "=q4=Immolation Handguards", "=ds=#s9#, #a4#", ""};
+				{ 21, 70947, "", "=q4=Immolation Legguards", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "spell_holy_devotionaura", "=q6=#t12s4_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+				{ 24, 0, "", "=q4=Immolation Faceguard", "=ds=#s1#, #a4#", ""};
+				{ 25, 0, "", "=q4=Immolation Shoulderguards", "=ds=#s3#, #a4#", ""};
+				{ 26, 0, "", "=q4=Immolation Chestguards", "=ds=#s5#, #a4#", ""};
+				{ 27, 0, "", "=q4=Immolation Handguards", "=ds=#s9#, #a4#", ""};
+				{ 28, 0, "", "=q4=Immolation Legguards", "=ds=#s11#, #a4#", ""};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12PaladinRetribution"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t12s4_3#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Immolation Helmet", "=ds=#s1#, #a4#", ""};
+				{ 18, 0, "", "=q4=Immolation Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 19, 0, "", "=q4=Immolation Battleplate", "=ds=#s5#, #a4#", ""};
+				{ 20, 0, "", "=q4=Immolation Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 21, 0, "", "=q4=Immolation Legplates", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#t12s4_3#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12PriestShadow"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t12s5_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 23, 0, "spell_shadow_shadowwordpain", "=q6=#t12s5_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12PriestHoly"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t12s5_2#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 23, 0, "spell_holy_guardianspirit", "=q6=#t12s5_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12Rogue"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "inv_throwingknife_04", "=q6=#t12s6#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a2#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a2#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a2#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a2#", ""};
+				{ 23, 0, "inv_throwingknife_04", "=q6=#t12s6#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12ShamanElemental"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t12s7_3#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a3#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a3#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a3#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a3#", ""};
+				{ 23, 0, "Spell_Nature_Lightning", "=q6=#t12s7_3#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12ShamanEnhancement"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#t12s7_2#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a3#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a3#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a3#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a3#", ""};
+				{ 23, 0, "spell_nature_lightningshield", "=q6=#t12s7_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};		
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12ShamanRestoration"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t12s7_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a3#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a3#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a3#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a3#", ""};
+				{ 23, 0, "spell_nature_magicimmunity", "=q6=#t12s7_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12Warlock"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t12s8#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3s3#, #a1#", ""};
+				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
+				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
+				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 23, 0, "spell_nature_drowsy", "=q6=#t12s8#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12WarriorFury"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t12s9_1#", "=q5="..AL["Tier 12"]};
+				{ 17, 0, "", "=q4=Faceguard of the Molten Giant", "=ds=#s1#, #a4#", "=ds="};
+				{ 18, 0, "", "=q4=Shoulderguards of the Molten Giant", "=ds=#s3#, #a4#", "=ds="};
+				{ 19, 0, "", "=q4=Chestguard of the Molten Giant", "=ds=#s5#, #a4#", ""};
+				{ 20, 0, "", "=q4=Handguards of the Molten Giant", "=ds=#s9#, #a4#", ""};
+				{ 21, 0, "", "=q4=Legguards of the Molten Giant", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "ability_warrior_innerrage", "=q6=#t12s9_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
+			module = moduleName, menu = "T12SET",
+		};
+	}
+
+	AtlasLoot_Data["T12WarriorProtection"] = {
+		["Normal"] = {
+			{
+				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t12s9_2#", "=q5="..AL["Tier 12"]};
+				{ 17, 70944, "", "=q4=Faceguard of the Molten Giant", "=ds=#s1#, #a4#", "=ds="};
+				{ 18, 70941, "", "=q4=Shoulderguards of the Molten Giant", "=ds=#s3#, #a4#", "=ds="};
+				{ 19, 70945, "", "=q4=Chestguard of the Molten Giant", "=ds=#s5#, #a4#", ""};
+				{ 20, 70943, "", "=q4=Handguards of the Molten Giant", "=ds=#s9#, #a4#", ""};
+				{ 21, 70942, "", "=q4=Legguards of the Molten Giant", "=ds=#s11#, #a4#", ""};
+				{ 23, 0, "ability_warrior_defensivestance", "=q6=#t12s9_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
+				{ 24, 0, "", "=q4=Faceguard of the Molten Giant", "=ds=#s1#, #a4#", "=ds="};
+				{ 25, 0, "", "=q4=Shoulderguards of the Molten Giant", "=ds=#s3#, #a4#", "=ds="};
+				{ 26, 0, "", "=q4=Chestguard of the Molten Giant", "=ds=#s5#, #a4#", ""};
+				{ 27, 0, "", "=q4=Handguards of the Molten Giant", "=ds=#s9#, #a4#", ""};
+				{ 28, 0, "", "=q4=Legguards of the Molten Giant", "=ds=#s11#, #a4#", ""};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
+			module = moduleName, menu = "T12SET",
 		};
 	}
