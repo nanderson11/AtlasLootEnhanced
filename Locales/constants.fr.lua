@@ -500,6 +500,7 @@ if AL then
 	--AL["Tier 9"] = true;
 	--AL["Tier 10"] = true;
 	--AL["Tier 11"] = true;
+	--AL["Tier 12"] = true;
 	AL["10 Man"] = "10 Joueurs";
 	AL["10/25 Man"] = "10 / 25 Joueurs";
 	AL["Epic Set"] = "Set épique";
@@ -526,8 +527,8 @@ if AL then
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
-	AL["Heroic Mode"] = "Mode Héroïque";
-	AL["Normal Mode"] = "Mode Normal";
+	AL["Heroic Mode"] = "Mode héroïque";
+	AL["Normal Mode"] = "Mode normal";
 	--AL["Raid"] = true;
 	AL["Hard Mode"] = "Mode difficile";
 	AL["Bonus Loot"] = "Bonus de loot";
@@ -555,7 +556,7 @@ if AL then
 	AL["Random"] = "Aléatoire";
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
 
-	-- Profession descriptions -- à traduire
+	-- Profession descriptions
 	--AL["Buff"] = true;
 	AL["Agility"] = "Agilité";
 	AL["Intellect"] = "Intelligence";
