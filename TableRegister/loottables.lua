@@ -135,14 +135,14 @@ AtlasLoot_LootTableRegister = {
 
 		["ZulAman"] = {
 			["Bosses"] = {
-				{ "ZA85AkilZon", 6 },
-				{ "ZA85Nalorakk", 3 },
-				{ "ZA85JanAlai", 8 },
-				{ "ZA85Halazzi", 10 },
-				{ "ZA85Malacrass", 12 },
-				{ "ZA85Daakara", 21 },
-				{ "ZA85TimedChest", 34 },
-				{ "ZA85Trash", 35 },
+				{ "ZA85AkilZon", 9 },
+				{ "ZA85Nalorakk", 6 },
+				{ "ZA85JanAlai", 11 },
+				{ "ZA85Halazzi", 13 },
+				{ "ZA85Malacrass", 15 },
+				{ "ZA85Daakara", 24 },
+				{ "ZA85TimedChest", 37 },
+				{ "ZA85Trash", 38 },
 			},
 			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm" },
 		},
