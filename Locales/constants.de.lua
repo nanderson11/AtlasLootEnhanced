@@ -306,6 +306,7 @@ if AL then
 	-- AL["Tier 9 Set"] = true;
 	-- AL["Tier 10 Set"] = true;
 	-- AL["Tier 11 Set"] = true;
+	-- AL["Tier 11/12 Set"] = true;
 	AL["TCG Items"] = "TCG Gegenstände";
 	AL["Transformation Items"] = "Transformations-Gegenstände";
 
