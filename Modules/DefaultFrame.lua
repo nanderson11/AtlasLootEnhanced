@@ -533,15 +533,10 @@ do
 		mapRegister = {}
 		for instance,iniTab in pairs(AtlasLoot_LootTableRegister["Instances"]) do
 			if iniTab["Info"] and iniTab["Info"].mapname then
-				if iniTab["Info"][2] and type(iniTab["Info"][2]) == "table" then
+				if iniTab["Info"][2] then
 					mapRegister[iniTab["Info"].mapname] = {
 						instance,
 						iniTab["Info"][2],
-					}
-				else
-					mapRegister[iniTab["Info"].mapname] = {
-						instance,
-						iniTab["Info"][2][#iniTab["Info"][2]],
 					}
 				end
 			end
@@ -551,7 +546,6 @@ do
 	function DefaultFrame:AutoSelect()
 		if not mapRegister then createMapRegister() end
 		local mapname = GetMapInfo()
-		
 		if not mapname or not mapRegister[mapname] then return end
 		
 		if type(mapRegister[mapname][2]) == "table" then
