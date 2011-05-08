@@ -280,7 +280,6 @@ if AL then
 	AL["Set"] = true;
 	AL["Justice Points"] = true;
 	AL["Valor Points"] = true;
-	AL["Badge of Justice"] = true; --should be removed
 	AL["Emblem Rewards"] = true; --should be removed
 	AL["Emblem of Valor"] = true; --should be removed
 	AL["Emblem of Heroism"] = true; --should be removed

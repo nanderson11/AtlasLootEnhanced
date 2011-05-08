@@ -74,7 +74,6 @@ local moduleName = "AtlasLootWotLK"
 ---- Tier 10 Sets (T10)
 ---- Wrath Of The Lich King Sets
 ---- BoE World Epics
----- Heirloom Items
 ---- Emblem of Heroism Items
 ---- Emblem of Valor Items
 ---- Emblem of Conquest Items
@@ -1809,7 +1808,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 	};
 
-	AtlasLoot_Data["VaultofArchavonEmalon"] = {
+	AtlasLoot_Data["VoAEmalon"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
@@ -1890,41 +1889,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41026, "", "=q4=Deadly Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 45370, "", "=q4=Valorous Aegis Gloves", "=ds=#s9#, #a4#"};
+				{ 3, 45371, "", "=q4=Valorous Aegis Greaves", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 45376, "", "=q4=Valorous Aegis Gauntlets", "=ds=#s9#, #a4#"};
+				{ 7, 45379, "", "=q4=Valorous Aegis Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 45383, "", "=q4=Valorous Aegis Handguards", "=ds=#s9#, #a4#"};
+				{ 11, 45384, "", "=q4=Valorous Aegis Legguards", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 45341, "", "=q4=Valorous Darkruned Gauntlets", "=ds=#s9#, #a4#"};
 				{ 3, 45343, "", "=q4=Valorous Darkruned Legplates", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 45337, "", "=q4=Valorous Darkruned Handguards", "=ds=#s9#, #a4#"};
 				{ 7, 45338, "", "=q4=Valorous Darkruned Legguards", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 45370, "", "=q4=Valorous Aegis Gloves", "=ds=#s9#, #a4#"};
-				{ 11, 45371, "", "=q4=Valorous Aegis Greaves", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 45376, "", "=q4=Valorous Aegis Gauntlets", "=ds=#s9#, #a4#"};
-				{ 15, 45379, "", "=q4=Valorous Aegis Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 45430, "", "=q4=Valorous Siegebreaker Gauntlets", "=ds=#s9#, #a4#"};
+				{ 11, 45432, "", "=q4=Valorous Siegebreaker Legplates", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 45426, "", "=q4=Valorous Siegebreaker Handguards", "=ds=#s9#, #a4#"};
+				{ 15, 45427, "", "=q4=Valorous Siegebreaker Legguards", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40806, "", "=q4=Deadly Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40845, "", "=q4=Deadly Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40926, "", "=q4=Deadly Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40938, "", "=q4=Deadly Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40805, "", "=q4=Deadly Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40846, "", "=q4=Deadly Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 45383, "", "=q4=Valorous Aegis Handguards", "=ds=#s9#, #a4#"};
-				{ 3, 45384, "", "=q4=Valorous Aegis Legguards", "=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 45430, "", "=q4=Valorous Siegebreaker Gauntlets", "=ds=#s9#, #a4#"};
-				{ 7, 45432, "", "=q4=Valorous Siegebreaker Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 45426, "", "=q4=Valorous Siegebreaker Handguards", "=ds=#s9#, #a4#"};
-				{ 11, 45427, "", "=q4=Valorous Siegebreaker Legguards", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40804, "", "=q4=Deadly Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40844, "", "=q4=Deadly Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -1973,8 +1972,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42063, "", "=q4=Deadly Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42067, "", "=q4=Deadly Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42068, "", "=q4=Deadly Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42114, "", "=q4=Deadly Gladiator's Band of Ascendancy", "=ds=#s13#"};
+				{ 12, 42115, "", "=q4=Deadly Gladiator's Band of Victory", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42030, "", "=q4=Deadly Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42032, "", "=q4=Deadly Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -1983,11 +1983,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 21, 42031, "", "=q4=Deadly Gladiator's Pendant of Subjugation", "=ds=#s2#"};
 				{ 22, 42027, "", "=q4=Deadly Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 23, 42028, "", "=q4=Deadly Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42114, "", "=q4=Deadly Gladiator's Band of Ascendancy", "=ds=#s13#"};
-				{ 28, 42115, "", "=q4=Deadly Gladiator's Band of Victory", "=ds=#s13#"};
 			};
-			
 		};
 		["25Man"] = {
 			{
@@ -2069,41 +2065,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 46179, "", "=q4=Conqueror's Aegis Gloves", "=ds=#s9#, #a4#"};
+				{ 3, 46181, "", "=q4=Conqueror's Aegis Greaves", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 46155, "", "=q4=Conqueror's Aegis Gauntlets", "=ds=#s9#, #a4#"};
+				{ 7, 46153, "", "=q4=Conqueror's Aegis Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 46174, "", "=q4=Conqueror's Aegis Handguards", "=ds=#s9#, #a4#"};
+				{ 11, 46176, "", "=q4=Conqueror's Aegis Legguards", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 46113, "", "=q4=Conqueror's Darkruned Gauntlets", "=ds=#s9#, #a4#"};
 				{ 3, 46116, "", "=q4=Conqueror's Darkruned Legplates", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 46119, "", "=q4=Conqueror's Darkruned Handguards", "=ds=#s9#, #a4#"};
 				{ 7, 46121, "", "=q4=Conqueror's Darkruned Legguards", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 46179, "", "=q4=Conqueror's Aegis Gloves", "=ds=#s9#, #a4#"};
-				{ 11, 46181, "", "=q4=Conqueror's Aegis Greaves", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 46155, "", "=q4=Conqueror's Aegis Gauntlets", "=ds=#s9#, #a4#"};
-				{ 15, 46153, "", "=q4=Conqueror's Aegis Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 46148, "", "=q4=Conqueror's Siegebreaker Gauntlets", "=ds=#s9#, #a4#"};
+				{ 11, 46150, "", "=q4=Conqueror's Siegebreaker Legplates", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 46164, "", "=q4=Conqueror's Siegebreaker Handguards", "=ds=#s9#, #a4#"};
+				{ 15, 46169, "", "=q4=Conqueror's Siegebreaker Legguards", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 46174, "", "=q4=Conqueror's Aegis Handguards", "=ds=#s9#, #a4#"};
-				{ 3, 46176, "", "=q4=Conqueror's Aegis Legguards", "=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 46148, "", "=q4=Conqueror's Siegebreaker Gauntlets", "=ds=#s9#, #a4#"};
-				{ 7, 46150, "", "=q4=Conqueror's Siegebreaker Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 46164, "", "=q4=Conqueror's Siegebreaker Handguards", "=ds=#s9#, #a4#"};
-				{ 11, 46169, "", "=q4=Conqueror's Siegebreaker Legguards", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -2152,8 +2148,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42070, "", "=q4=Furious Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42074, "", "=q4=Furious Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42075, "", "=q4=Furious Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=#s13#"};
+				{ 12, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42037, "", "=q4=Furious Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42039, "", "=q4=Furious Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -2163,18 +2160,15 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 46373, "", "=q4=Furious Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 42034, "", "=q4=Furious Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 42035, "", "=q4=Furious Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=#s13#"};
-				{ 28, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 			};
 		};
 		info = {
 			name = BabbleBoss["Emalon the Storm Watcher"],
-			module = moduleName, instance = "VaultOfArchavon",
+			module = moduleName, menu = "EMALON", instance = "VaultOfArchavon",
 		};
 	};
 
-	AtlasLoot_Data["VaultofArchavonKoralon"] = {
+	AtlasLoot_Data["VoAKoralon"] = {
 		["Normal_A"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
@@ -2255,41 +2249,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 48574, "", "=q4=Turalyon's Gloves of Conquest", "=ds=#s9#, #a4#"};
+				{ 3, 48568, "", "=q4=Turalyon's Greaves of Conquest", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 48603, "", "=q4=Turalyon's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
+				{ 7, 48605, "", "=q4=Turalyon's Legplates of Conquest", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 48633, "", "=q4=Turalyon's Handguards of Conquest", "=ds=#s9#, #a4#"};
+				{ 11, 48635, "", "=q4=Turalyon's Legguards of Conquest","=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
 				{ 3, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds=#s9#, #a4#"};
 				{ 7, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 48574, "", "=q4=Turalyon's Gloves of Conquest", "=ds=#s9#, #a4#"};
-				{ 11, 48568, "", "=q4=Turalyon's Greaves of Conquest", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 48603, "", "=q4=Turalyon's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
-				{ 15, 48605, "", "=q4=Turalyon's Legplates of Conquest", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 48375, "", "=q4=Wrynn's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
+				{ 11, 48373, "", "=q4=Wrynn's Legplates of Conquest", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 48449, "", "=q4=Wrynn's Handguards of Conquest", "=ds=#s9#, #a4#"};
+				{ 15, 48445, "", "=q4=Wrynn's Legguards of Conquest", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 48633, "", "=q4=Turalyon's Handguards of Conquest", "=ds=#s9#, #a4#"};
-				{ 3, 48635, "", "=q4=Turalyon's Legguards of Conquest","=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 48375, "", "=q4=Wrynn's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
-				{ 7, 48373, "", "=q4=Wrynn's Legplates of Conquest", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 48449, "", "=q4=Wrynn's Handguards of Conquest", "=ds=#s9#, #a4#"};
-				{ 11, 48445, "", "=q4=Wrynn's Legguards of Conquest", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -2338,8 +2332,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42070, "", "=q4=Furious Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42074, "", "=q4=Furious Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42075, "", "=q4=Furious Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=#s13#"};
+				{ 12, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42037, "", "=q4=Furious Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42039, "", "=q4=Furious Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -2349,9 +2344,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 46373, "", "=q4=Furious Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 42034, "", "=q4=Furious Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 42035, "", "=q4=Furious Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=#s13#"};
-				{ 28, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 			};		
 		};
 		["25Man_A"] = {
@@ -2434,41 +2426,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 48576, "", "=q4=Turalyon's Gloves of Triumph", "=ds=#s9#, #a4#"};
+				{ 3, 48578, "", "=q4=Turalyon's Greaves of Triumph", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 48608, "", "=q4=Turalyon's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
+				{ 7, 48610, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 48640, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#"};
+				{ 11, 48638, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 				{ 3, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 48539, "", "=q4=Thassarian's Handguards of Triumph", "=ds=#s9#, #a4#"};
 				{ 7, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 48576, "", "=q4=Turalyon's Gloves of Triumph", "=ds=#s9#, #a4#"};
-				{ 11, 48578, "", "=q4=Turalyon's Greaves of Triumph", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 48608, "", "=q4=Turalyon's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 15, 48610, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 48377, "", "=q4=Wrynn's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
+				{ 11, 48379, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 48452, "", "=q4=Wrynn's Handguards of Triumph", "=ds=#s9#, #a4#"};
+				{ 15, 48446, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 48640, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 3, 48638, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 48377, "", "=q4=Wrynn's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 7, 48379, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 48452, "", "=q4=Wrynn's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 11, 48446, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -2520,8 +2512,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
+				{ 12, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42044, "", "=q4=Relentless Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42046, "", "=q4=Relentless Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -2531,9 +2524,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
-				{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 			};
 		};
 		["Normal_H"] = {
@@ -2616,41 +2606,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41027, "", "=q4=Furious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 48598, "", "=q4=Liadrin's Gloves of Conquest", "=ds=#s9#, #a4#"};
+				{ 3, 48596, "", "=q4=Liadrin's Greaves of Conquest", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 48630, "", "=q4=Liadrin's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
+				{ 7, 48628, "", "=q4=Liadrin's Legplates of Conquest", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 48653, "", "=q4=Liadrin's Handguards of Conquest", "=ds=#s9#, #a4#"};
+				{ 11, 48655, "", "=q4=Liadrin's Legguards of Conquest", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 21, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
 				{ 3, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds=#s9#, #a4#"};
 				{ 7, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 48598, "", "=q4=Liadrin's Gloves of Conquest", "=ds=#s9#, #a4#"};
-				{ 11, 48596, "", "=q4=Liadrin's Greaves of Conquest", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 48630, "", "=q4=Liadrin's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
-				{ 15, 48628, "", "=q4=Liadrin's Legplates of Conquest", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 48387, "", "=q4=Hellscream's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
+				{ 11, 48389, "", "=q4=Hellscream's Legplates of Conquest", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 48457, "", "=q4=Hellscream's Handguards of Conquest", "=ds=#s9#, #a4#"};
+				{ 15, 48459, "", "=q4=Hellscream's Legguards of Conquest", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40809, "", "=q4=Furious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40848, "", "=q4=Furious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40927, "", "=q4=Furious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40939, "", "=q4=Furious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40808, "", "=q4=Furious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40849, "", "=q4=Furious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 48653, "", "=q4=Liadrin's Handguards of Conquest", "=ds=#s9#, #a4#"};
-				{ 3, 48655, "", "=q4=Liadrin's Legguards of Conquest", "=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 48387, "", "=q4=Hellscream's Gauntlets of Conquest", "=ds=#s9#, #a4#"};
-				{ 7, 48389, "", "=q4=Hellscream's Legplates of Conquest", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 48457, "", "=q4=Hellscream's Handguards of Conquest", "=ds=#s9#, #a4#"};
-				{ 11, 48459, "", "=q4=Hellscream's Legguards of Conquest", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40807, "", "=q4=Furious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40847, "", "=q4=Furious Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -2699,8 +2689,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42070, "", "=q4=Furious Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42074, "", "=q4=Furious Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42075, "", "=q4=Furious Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=#s13#"};
+				{ 12, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42037, "", "=q4=Furious Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42039, "", "=q4=Furious Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -2710,9 +2701,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 46373, "", "=q4=Furious Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 42034, "", "=q4=Furious Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 42035, "", "=q4=Furious Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42116, "", "=q4=Furious Gladiator's Band of Dominance", "=ds=#s13#"};
-				{ 28, 42117, "", "=q4=Furious Gladiator's Band of Triumph", "=ds=#s13#"};
 			};	
 		};
 		["25Man_H"] = {
@@ -2795,41 +2783,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 48593, "", "=q4=Liadrin's Gloves of Triumph", "=ds=#s9#, #a4#"};
+				{ 3, 48591, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 48625, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
+				{ 7, 48623, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 48658, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#"};
+				{ 11, 48660, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
 				{ 3, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 48556, "", "=q4=Koltira's Handguards of Triumph", "=ds=#s9#, #a4#"};
 				{ 7, 48554, "", "=q4=Koltira's Legguards of Triumph", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 48593, "", "=q4=Liadrin's Gloves of Triumph", "=ds=#s9#, #a4#"};
-				{ 11, 48591, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 48625, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 15, 48623, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 48392, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
+				{ 11, 48394, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 48462, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#"};
+				{ 15, 48464, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 48658, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 3, 48660, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 48392, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#"};
-				{ 7, 48394, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 48462, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#"};
-				{ 11, 48464, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -2881,8 +2869,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
+				{ 12, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42044, "", "=q4=Relentless Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42046, "", "=q4=Relentless Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -2892,18 +2881,15 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
-				{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 			};
 		};
 		info = {
 			name = BabbleBoss["Koralon the Flame Watcher"],
-			module = moduleName, instance = "VaultOfArchavon",
+			module = moduleName, menu = "KORALON", instance = "VaultOfArchavon",
 		};
 	};
 
-	AtlasLoot_Data["VaultofArchavonToravon"] = {
+	AtlasLoot_Data["VoAToravon"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
@@ -2984,41 +2970,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#"};
+				{ 3, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#"};
+				{ 7, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#"};
+				{ 11, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#"};
 				{ 3, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#"};
 				{ 7, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#"};
-				{ 11, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#"};
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#"};
-				{ 15, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 50079, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 11, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
+				{ 15, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#"};
-				{ 3, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#"};
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 50079, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
-				{ 7, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
-				{ 11, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -3070,8 +3056,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 42077, "", "=q4=Relentless Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 42081, "", "=q4=Relentless Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 42082, "", "=q4=Relentless Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
+				{ 12, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 42044, "", "=q4=Relentless Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 42046, "", "=q4=Relentless Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -3081,9 +3068,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 46374, "", "=q4=Relentless Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 42041, "", "=q4=Relentless Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 42042, "", "=q4=Relentless Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 42118, "", "=q4=Relentless Gladiator's Band of Ascendancy", "=ds=#s13#"};
-				{ 28, 42119, "", "=q4=Relentless Gladiator's Band of Victory", "=ds=#s13#"};
 			};
 		};
 		["25Man"] = {
@@ -3166,41 +3150,41 @@ local moduleName = "AtlasLootWotLK"
 				{ 30, 51500, "", "=q4=Wrathful Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
 			};
 			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 51169, "", "=q4=Sanctified Lightsworn Gloves", "=ds=#s9#, #a4#" };
+				{ 3, 51168, "", "=q4=Sanctified Lightsworn Greaves", "=ds=#s11#, #a4#" };
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 51163, "", "=q4=Sanctified Lightsworn Gauntlets", "=ds=#s9#, #a4#" };
+				{ 7, 51161, "", "=q4=Sanctified Lightsworn Legplates", "=ds=#s11#, #a4#" };
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 51172, "", "=q4=Sanctified Lightsworn Handguards", "=ds=#s9#, #a4#" };
+				{ 11, 51171, "", "=q4=Sanctified Lightsworn Legguards", "=ds=#s11#, #a4#" };
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 51469, "", "=q4=Wrathful Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 51471, "", "=q4=Wrathful Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 51475, "", "=q4=Wrathful Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 51477, "", "=q4=Wrathful Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
 				{ 2, 51128, "", "=q4=Sanctified Scourgelord Gauntlets", "=ds=#s9#, #a4#"};
 				{ 3, 51126, "", "=q4=Sanctified Scourgelord Legplates", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
 				{ 6, 51132, "", "=q4=Sanctified Scourgelord Handguards", "=ds=#s9#, #a4#"};
 				{ 7, 51131, "", "=q4=Sanctified Scourgelord Legguards", "=ds=#s11#, #a4#"};
-				{ 9, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 10, 51169, "", "=q4=Sanctified Lightsworn Gloves", "=ds=#s9#, #a4#" };
-				{ 11, 51168, "", "=q4=Sanctified Lightsworn Greaves", "=ds=#s11#, #a4#" };
-				{ 13, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 14, 51163, "", "=q4=Sanctified Lightsworn Gauntlets", "=ds=#s9#, #a4#" };
-				{ 15, 51161, "", "=q4=Sanctified Lightsworn Legplates", "=ds=#s11#, #a4#" };
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 51213, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 11, 51211, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 51217, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
+				{ 15, 51216, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
 				{ 17, 51414, "", "=q4=Wrathful Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 18, 51416, "", "=q4=Wrathful Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
-				{ 24, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 25, 51469, "", "=q4=Wrathful Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 26, 51471, "", "=q4=Wrathful Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
-				{ 28, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, 51475, "", "=q4=Wrathful Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
-				{ 30, 51477, "", "=q4=Wrathful Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
-			};
-			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 2, 51172, "", "=q4=Sanctified Lightsworn Handguards", "=ds=#s9#, #a4#" };
-				{ 3, 51171, "", "=q4=Sanctified Lightsworn Legguards", "=ds=#s11#, #a4#" };
-				{ 5, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 6, 51213, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#"};
-				{ 7, 51211, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-				{ 10, 51217, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#"};
-				{ 11, 51216, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#"};
-				{ 20, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 21, 51542, "", "=q4=Wrathful Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 22, 51544, "", "=q4=Wrathful Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 51542, "", "=q4=Wrathful Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 51544, "", "=q4=Wrathful Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
@@ -3252,8 +3236,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 51332, "", "=q4=Wrathful Gladiator's Cloak of Subjugation", "=ds=#s4#"};
 				{ 7, 51354, "", "=q4=Wrathful Gladiator's Cloak of Triumph", "=ds=#s4#"};
 				{ 8, 51356, "", "=q4=Wrathful Gladiator's Cloak of Victory", "=ds=#s4#"};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 13, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
+				{ 11, 51336, "", "=q4=Wrathful Gladiator's Band of Dominance", "=ds=#s13#"};
+				{ 12, 51358, "", "=q4=Wrathful Gladiator's Band of Triumph", "=ds=#s13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Neck"]};
 				{ 17, 51335, "", "=q4=Wrathful Gladiator's Pendant of Ascendancy", "=ds=#s2#"};
 				{ 18, 51349, "", "=q4=Wrathful Gladiator's Pendant of Deliverance", "=ds=#s2#"};
@@ -3263,14 +3248,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 51353, "", "=q4=Wrathful Gladiator's Pendant of Sundering", "=ds=#s2#"};
 				{ 23, 51355, "", "=q4=Wrathful Gladiator's Pendant of Triumph", "=ds=#s2#"};
 				{ 24, 51357, "", "=q4=Wrathful Gladiator's Pendant of Victory", "=ds=#s2#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Ring"]};
-				{ 27, 51336, "", "=q4=Wrathful Gladiator's Band of Dominance", "=ds=#s13#"};
-				{ 28, 51358, "", "=q4=Wrathful Gladiator's Band of Triumph", "=ds=#s13#"};
 			};
 		};
 		info = {
 			name = BabbleBoss["Toravon the Ice Watcher"],
-			module = moduleName, instance = "VaultOfArchavon",
+			module = moduleName, menu = "TORAVON", instance = "VaultOfArchavon",
 		};
 	};
 
@@ -11579,65 +11561,6 @@ local moduleName = "AtlasLootWotLK"
 		info = {
 			name = AL["BoE World Epics"].." "..AL["Level 80"],
 			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
-		};
-	}
-
-		----------------------
-		--- Heirloom Items ---
-		----------------------
-
-	AtlasLoot_Data["Heirloom"] = {
-		["Normal"] = {
-			{
-				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "2175 #justice# / 60 #champseal#"};
-				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "2175 #justice# / 60 #champseal#"};
-				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "2175 #justice# / 60 #champseal#"};
-				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "2175 #justice# / 60 #champseal#"};
-				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "2175 #justice# / 60 #champseal#"};
-				{ 6, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 7, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 9, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "2175 #justice# / 60 #champseal#"};
-				{ 10, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
-				{ 11, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
-				{ 12, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
-				{ 13, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
-				{ 14, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 15, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
-				{ 16, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
-				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
-				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
-				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "2175 #justice#  / 60 #champseal#"};
-				{ 22, 69893, "", "=q7=Blooksoaked Skullforge Reaver", "=ds=#h3#, #w10#", "2175 #justice#  / 60 #champseal#"};
-				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "2175 #justice#  / 60 #champseal#"};
-				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "3500 #justice# / 95 #champseal#"};
-				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "2725 #justice# / 75 #champseal#"};
-				{ 26, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "2175 #justice# / 75 #champseal#"};
-				{ 27, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "3500 #justice# / 95 #champseal#"};
-				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "3500 #justice# / 95 #champseal#"};
-				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "3500 #justice# / 95 #champseal#"};
-
-			};
-			{
-				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "2175 #honor#"};
-				{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "2175 #honor#"};
-				{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "2175 #honor#"};
-				{ 4, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "2175 #honor#"};
-				{ 5, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "2175 #honor#"};
-				{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "2175 #honor#"};
-				{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "2175 #honor#"};
-				{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "2725 #honor#"};
-				{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "2725 #honor#"};
-				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "2175 #honor#"};
-				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "2175 #honor#"};
-				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "3500 #honor#"};
-				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "2725 #honor#"};
-				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "3500 #honor#"};
-				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};
-			};
-		};
-		info = {
-			name = AL["Heirloom"],
-			module = moduleName, menu = "SETMENU",
 		};
 	}
 

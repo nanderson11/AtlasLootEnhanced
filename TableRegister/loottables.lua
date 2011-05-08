@@ -191,7 +191,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "BaradinsWardens", 1, hide = true },
 				{ "HellscreamsReach", 2, hide = true },
-				{ "Argaloth", 4 },
+				{ "ARGALOTH", 4 },
 			},
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
@@ -542,9 +542,9 @@ AtlasLoot_LootTableRegister = {
 		["VaultOfArchavon"] = {
 			["Bosses"] = {
 				{ "ARCHAVON", 2 },
-				{ "VaultofArchavonEmalon", 3 },
-				{ "VaultofArchavonKoralon", 4 },
-				{ "VaultofArchavonToravon", 5 },
+				{ "EMALON", 3 },
+				{ "KORALON", 4 },
+				{ "TORAVON", 5 },
 			},
 			["Info"] = { BabbleZone["Vault of Archavon"], "AtlasLootWotLK", mapname = "VaultofArchavon" },
 		},
@@ -1455,7 +1455,7 @@ AtlasLoot_LootTableRegister = {
 		["DoomLordKazzak"] = {
 			["Bosses"] = {
 				{ "WorldBossesBC", 1 },
-				{ "Thrallmar", 5 },
+				{ "Thrallmar", 5, hide = true },
 			},
 			["Info"] = { BabbleBoss["Doom Lord Kazzak"], "AtlasLootBurningCrusade" },
 		},

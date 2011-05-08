@@ -1807,18 +1807,147 @@ local moduleName = "AtlasLootCataclysm"
 		--- Baradin Hold ----
 		---------------------
 
-	AtlasLoot_Data["Argaloth"] = {
+	AtlasLoot_Data["BHArgaloth"] = {
 		["Normal"] = {
 			{
-				{ 2, "PVP85SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5=#s9#, #s11#"};
-				{ 3, "PVP85NonSet", "inv_bracer_mail_pvphunter_c_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 85"]};
-				{ 4, "PVP85Trinkets", "inv_misc_token_argentdawn3", "=ds="..AL["PvP Trinkets"], "=q5="..AL["Level 85"]};
-				{ 17, "T11SET", "inv_chest_plate_26", "=q6="..AL["Tier 11 Set"], "=q5=#s9#, #s11#"};
+				{ 1, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 2, 60285, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", ""};
+				{ 3, 60283, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 4, 60453, "", "=q4=Vicious Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 5, 60455, "", "=q4=Vicious Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#", ""};
+				{ 6, 64874, "", "=q3=Bloodthirsty Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 7, 64876, "", "=q3=Bloodthirsty Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#", ""};
+				{ 9, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+				{ 10, 60290, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", ""};
+				{ 11, 60288, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", ""};
+				{ 12, 60443, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 13, 60445, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#", ""};
+				{ 14, 64727, "", "=q3=Bloodthirsty Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 15, 64729, "", "=q3=Bloodthirsty Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#", ""};
+				{ 16, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 17, 60280, "", "=q4=Stormrider's Handwraps", "=ds=#s9#, #a2#", ""};
+				{ 18, 60278, "", "=q4=Stormrider's Legwraps", "=ds=#s11#, #a2#", ""};
+				{ 19, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 20, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#", ""};
+				{ 21, 64764, "", "=q3=Bloodthirsty Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 22, 64766, "", "=q3=Bloodthirsty Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#", ""};
+			};
+			{
+				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 2, 60247, "", "=q4=Firelord's Gloves", "=ds=#s9#, #a1#", ""};
+				{ 3, 60245, "", "=q4=Firelord's Leggings", "=ds=#s11#, #a1#", ""};
+				{ 4, 60463, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=#s9#, #a1#", ""};
+				{ 5, 60465, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=#s11#, #a1#", ""};
+				{ 6, 64855, "", "=q3=Bloodthirsty Gladiator's Silk Handguards", "=ds=#s9#, #a1#", ""};
+				{ 7, 64857, "", "=q3=Bloodthirsty Gladiator's Silk Trousers", "=ds=#s11#, #a1#", ""};
+				{ 9, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 10, 60307, "", "=q4=Lightning-Charged Gloves", "=ds=#s9#, #a3#", ""};
+				{ 11, 60305, "", "=q4=Lightning-Charged Legguards", "=ds=#s11#, #a3#", ""};
+				{ 12, 60424, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 13, 60426, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=#s11#, #a3#", ""};
+				{ 14, 64709, "", "=q3=Bloodthirsty Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 15, 64711, "", "=q3=Bloodthirsty Gladiator's Chain Leggings", "=ds=#s11#, #a3#", ""};
+				{ 16, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 17, 60298, "", "=q4=Wind Dancer's Gloves", "=ds=#s9#, #a2#", ""};
+				{ 18, 60300, "", "=q4=Wind Dancer's Legguards", "=ds=#s11#, #a2#", ""};
+				{ 19, 60459, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=#s9#, #a2#", ""};
+				{ 20, 60461, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=#s11#, #a2#", ""};
+				{ 21, 64769, "", "=q3=Bloodthirsty Gladiator's Leather Gloves", "=ds=#s9#, #a2#", ""};
+				{ 22, 64771, "", "=q3=Bloodthirsty Gladiator's Leather Legguards", "=ds=#s11#, #a2#", ""};
+				{ 24, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 25, 60248, "", "=q4=Shadowflame Handwraps", "=ds=#s9#, #a1#", ""};
+				{ 26, 60250, "", "=q4=Shadowflame Leggings", "=ds=#s11#, #a1#", ""};
+				{ 27, 60478, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=#s9#, #a1#", ""};
+				{ 28, 60480, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=#s11#, #a1#", ""};
+				{ 29, 64747, "", "=q3=Bloodthirsty Gladiator's Felweave Handguards", "=ds=#s9#, #a1#", ""};
+				{ 30, 64749, "", "=q3=Bloodthirsty Gladiator's Felweave Trousers", "=ds=#s11#, #a1#", ""};
+			};
+			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 60363, "", "=q4=Reinforced Sapphirium Gloves", "=ds=#s9#, #a4#", ""};
+				{ 3, 60361, "", "=q4=Reinforced Sapphirium Greaves", "=ds=#s11#, #a4#", ""};
+				{ 4, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#", ""};
+				{ 5, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#", ""};
+				{ 6, 64803, "", "=q3=Bloodthirsty Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#", ""};
+				{ 7, 64805, "", "=q3=Bloodthirsty Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#", ""};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 60355, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", ""};
+				{ 11, 60357, "", "=q4=Reinforced Sapphirium Legguards", "=ds=#s11#, #a4#", ""};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 17, 60355, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", ""};
+				{ 18, 60357, "", "=q4=Reinforced Sapphirium Legguards", "=ds=#s11#, #a4#", ""};
+				{ 19, 60414, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 20, 60416, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=#s11#, #a4#", ""};
+				{ 21, 64844, "", "=q3=Bloodthirsty Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 22, 64846, "", "=q3=Bloodthirsty Gladiator's Scaled Legguards", "=ds=#s11#, #a4#", ""};
+			};
+			{
+				{ 1, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 2, 60275, "", "=q4=Mercurial Handwraps", "=ds=#s9#, #a1#", ""};
+				{ 3, 60261, "", "=q4=Mercurial Legwraps", "=ds=#s11#, #a1#", ""};
+				{ 4, 60468, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#", ""};
+				{ 5, 60470, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 64795, "", "=q3=Bloodthirsty Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#", ""};
+				{ 7, 64797, "", "=q3=Bloodthirsty Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#", ""};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 17, 60476, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=#s9#, #a1#", ""};
+				{ 18, 60475, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=#s11#, #a1#", ""};
+				{ 19, 64838, "", "=q3=Bloodthirsty Gladiator's Satin Gloves", "=ds=#s9#, #a1#", ""};
+				{ 20, 64840, "", "=q3=Bloodthirsty Gladiator's Satin Leggings", "=ds=#s11#, #a1#", ""};
+				{ 21, 60257, "", "=q4=Mercurial Gloves", "=ds=#s9#, #a1#", ""};
+				{ 22, 60255, "", "=q4=Mercurial Leggings", "=ds=#s11#, #a1#", ""};
+			};
+			{
+				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 2, 60314, "", "=q4=Gloves of the Raging Elements", "=ds=#s9#, #a3#", ""};
+				{ 3, 60316, "", "=q4=Kilt of the Raging Elements", "=ds=#s11#, #a3#", ""};
+				{ 4, 60439, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 5, 60441, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=#s11#, #a3#", ""};
+				{ 6, 64785, "", "=q3=Bloodthirsty Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 7, 64787, "", "=q3=Bloodthirsty Gladiator's Mail Leggings", "=ds=#s11#, #a3#", ""};
+				{ 9, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 10, 60319, "", "=q4=Grips of the Raging Elements", "=ds=#s9#, #a3#", ""};
+				{ 11, 60321, "", "=q4=Legguards of the Raging Elements", "=ds=#s11#, #a3#", ""};
+				{ 12, 60434, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 13, 60436, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=#s11#, #a3#", ""};
+				{ 14, 64777, "", "=q3=Bloodthirsty Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 15, 64779, "", "=q3=Bloodthirsty Gladiator's Linked Leggings", "=ds=#s11#, #a3#", ""};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 17, 60312, "", "=q4=Handwraps of the Raging Elements", "=ds=#s9#, #a3#", ""};
+				{ 18, 60310, "", "=q4=Legwraps of the Raging Elements", "=ds=#s11#, #a3#", ""};
+				{ 19, 60429, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 20, 60431, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#", ""};
+				{ 21, 64828, "", "=q3=Bloodthirsty Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 22, 64830, "", "=q3=Bloodthirsty Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#", ""};
+			};
+			{
+				{ 1, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
+				{ 2, 60409, "", "=q4=Vicious Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 3, 60411, "", "=q4=Vicious Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#", ""};
+				{ 4, 64736, "", "=q3=Bloodthirsty Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 5, 64738, "", "=q3=Bloodthirsty Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#", ""};
+				{ 7, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+				{ 8, 60340, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 9, 60342, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", ""};
+				{ 11, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+				{ 12, 60350, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", ""};
+				{ 13, 60352, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", ""};
+				{ 16, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 17, 60419, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 18, 60421, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=#s11#, #a4#", ""};
+				{ 19, 64812, "", "=q3=Bloodthirsty Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 20, 64814, "", "=q3=Bloodthirsty Gladiator's Plate Legguards", "=ds=#s11#, #a4#", ""};
+				{ 22, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 23, 60326, "", "=q4=Earthen Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 24, 60324, "", "=q4=Earthen Legplates", "=ds=#s11#, #a4#", ""};
+				{ 26, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 27, 60332, "", "=q4=Earthen Handguards", "=ds=#s9#, #a4#", ""};
+				{ 28, 60330, "", "=q4=Earthen Legguards", "=ds=#s11#, #a4#", ""};
 			};
 		};
 		info = {
 			name = BabbleBoss["Argaloth"],
-			module = moduleName, instance = "BaradinHold",
+			module = moduleName, menu = "ARGALOTH", instance = "BaradinHold",
 		};
 	};
 
@@ -1878,14 +2007,20 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
 				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 16, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
-				{ 17, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
-				{ 18, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
-				{ 19, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
-				{ 20, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 22, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 23, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 25, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 19, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 20, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 21, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 23, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 24, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 25, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 26, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 27, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 29, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		["Heroic"] = {
@@ -1902,15 +2037,21 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
 				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
 				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
 				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
-				{ 18, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
-				{ 19, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
-				{ 20, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
-				{ 21, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
-				{ 22, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 24, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 25, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 27, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 17, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 19, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 21, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 22, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 24, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 25, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 26, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 27, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 28, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 30, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
 			};
 		};
 		info = {
@@ -3227,7 +3368,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 64869, "", "=q3=Bloodthirsty Gladiator's Warboots of Accuracy", "=ds=", "1650 #honor#"};
 				{ 24, 64705, "", "=q3=Bloodthirsty Gladiator's Bracers of Prowess", "=ds=", "1250 #honor#"};
 				{ 25, 64715, "", "=q3=Bloodthirsty Gladiator's Clasp of Cruelty", "=ds=", "1650 #honor#"};
-				{ 26, 64869, "", "=q3=Bloodthirsty Gladiator's Greaves of Alacrity", "=ds=", "1650 #honor#"};
+				{ 26, 64756, "", "=q3=Bloodthirsty Gladiator's Greaves of Alacrity", "=ds=", "1650 #honor#"};
 				{ 28, 64683, "", "=q3=Bloodthirsty Gladiator's Armplates of Alacrity", "=ds=", "1250 #honor#"};
 				{ 29, 64753, "", "=q3=Bloodthirsty Gladiator's Girdle of Cruelty", "=ds=", "1650 #honor#"};
 				{ 30, 64870, "", "=q3=Bloodthirsty Gladiator's Warboots of Cruelty", "=ds=", "1650 #honor#"};
@@ -3373,7 +3514,7 @@ local moduleName = "AtlasLootCataclysm"
 		--- Tier 11 Sets (T11) ---
 		--------------------------
 
-	AtlasLoot_Data["T11DeathKnightDPS"] = {
+	AtlasLoot_Data["T1112DeathKnightDPS"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"]};
@@ -3392,11 +3533,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11DeathKnightTank"] = {
+	AtlasLoot_Data["T1112DeathKnightTank"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"]};
@@ -3415,11 +3556,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11DruidRestoration"] = {
+	AtlasLoot_Data["T1112DruidRestoration"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t11s1_1#", "=q5="..AL["Tier 11"]};
@@ -3438,11 +3579,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11DruidFeral"] = {
+	AtlasLoot_Data["T1112DruidFeral"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"]};
@@ -3461,11 +3602,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11DruidBalance"] = {
+	AtlasLoot_Data["T1112DruidBalance"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"]};
@@ -3484,11 +3625,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11Hunter"] = {
+	AtlasLoot_Data["T1112Hunter"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t11s2#", "=q5="..AL["Tier 11"]};
@@ -3507,11 +3648,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11Mage"] = {
+	AtlasLoot_Data["T1112Mage"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t11s3#", "=q5="..AL["Tier 11"]};
@@ -3530,11 +3671,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11PaladinHoly"] = {
+	AtlasLoot_Data["T1112PaladinHoly"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t11s4_1#", "=q5="..AL["Tier 11"]};
@@ -3553,11 +3694,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11PaladinProtection"] = {
+	AtlasLoot_Data["T1112PaladinProtection"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t11s4_2#", "=q5="..AL["Tier 11"]};
@@ -3576,11 +3717,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11PaladinRetribution"] = {
+	AtlasLoot_Data["T1112PaladinRetribution"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t11s4_3#", "=q5="..AL["Tier 11"]};
@@ -3599,11 +3740,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11PriestShadow"] = {
+	AtlasLoot_Data["T1112PriestShadow"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t11s5_1#", "=q5="..AL["Tier 11"]};
@@ -3622,11 +3763,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11PriestHoly"] = {
+	AtlasLoot_Data["T1112PriestHoly"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t11s5_2#", "=q5="..AL["Tier 11"]};
@@ -3645,11 +3786,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11Rogue"] = {
+	AtlasLoot_Data["T1112Rogue"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t11s6#", "=q5="..AL["Tier 11"]};
@@ -3668,11 +3809,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11ShamanElemental"] = {
+	AtlasLoot_Data["T1112ShamanElemental"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t11s7_3#", "=q5="..AL["Tier 11"]};
@@ -3691,11 +3832,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11ShamanEnhancement"] = {
+	AtlasLoot_Data["T1112ShamanEnhancement"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t11s7_2#", "=q5="..AL["Tier 11"]};
@@ -3714,11 +3855,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11ShamanRestoration"] = {
+	AtlasLoot_Data["T1112ShamanRestoration"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t11s7_1#", "=q5="..AL["Tier 11"]};
@@ -3737,11 +3878,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11Warlock"] = {
+	AtlasLoot_Data["T1112Warlock"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 11"]};
@@ -3760,11 +3901,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11WarriorFury"] = {
+	AtlasLoot_Data["T1112WarriorFury"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t11s9_1#", "=q5="..AL["Tier 11"]};
@@ -3783,11 +3924,11 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
-	AtlasLoot_Data["T11WarriorProtection"] = {
+	AtlasLoot_Data["T1112WarriorProtection"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t11s9_2#", "=q5="..AL["Tier 11"]};
@@ -3806,7 +3947,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
-			module = moduleName, menu = "T11SET",
+			module = moduleName, menu = "T1112SET",
 		};
 	}
 
@@ -4959,8 +5100,53 @@ local moduleName = "AtlasLootCataclysm"
 		--- Heirloom Items ---
 		----------------------
 
-	AtlasLoot_Data["Heirloom85"] = {
+	AtlasLoot_Data["Heirloom"] = {
 		["Normal"] = {
+			{
+				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "2175 #justice# / 60 #champseal#"};
+				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "2175 #justice# / 60 #champseal#"};
+				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "2175 #justice# / 60 #champseal#"};
+				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "2175 #justice# / 60 #champseal#"};
+				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "2175 #justice# / 60 #champseal#"};
+				{ 6, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "2175 #justice# / 60 #champseal#"};
+				{ 7, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "2175 #justice# / 60 #champseal#"};
+				{ 9, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "2175 #justice# / 60 #champseal#"};
+				{ 10, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
+				{ 11, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "2175 #justice# / 60 #champseal#"};
+				{ 12, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
+				{ 13, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "2175 #justice# / 60 #champseal#"};
+				{ 14, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
+				{ 15, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "2175 #justice# / 60 #champseal#"};
+				{ 16, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
+				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
+				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "2725 #justice#  / 75 #champseal#"};
+				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "2175 #justice#  / 60 #champseal#"};
+				{ 22, 69893, "", "=q7=Blooksoaked Skullforge Reaver", "=ds=#h3#, #w10#", "2175 #justice#  / 60 #champseal#"};
+				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "2175 #justice#  / 60 #champseal#"};
+				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "3500 #justice# / 95 #champseal#"};
+				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "2725 #justice# / 75 #champseal#"};
+				{ 26, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "2175 #justice# / 75 #champseal#"};
+				{ 27, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "3500 #justice# / 95 #champseal#"};
+				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "3500 #justice# / 95 #champseal#"};
+				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "3500 #justice# / 95 #champseal#"};
+			};
+			{
+				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "2175 #honor#"};
+				{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "2175 #honor#"};
+				{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "2175 #honor#"};
+				{ 4, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "2175 #honor#"};
+				{ 5, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "2175 #honor#"};
+				{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "2175 #honor#"};
+				{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "2175 #honor#"};
+				{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "2725 #honor#"};
+				{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "2725 #honor#"};
+				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "2175 #honor#"};
+				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "2175 #honor#"};
+				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "3500 #honor#"};
+				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "2725 #honor#"};
+				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "3500 #honor#"};
+				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};
+			};
 			{
 				{ 2, 61958, "", "=q7=Tattered Dreadmist Mask", "=ds=#s1#, #a1#", ""};
 				{ 3, 61942, "", "=q7=Preened Tribal War Feathers", "=ds=#s1#, #a2#", ""};
@@ -5498,7 +5684,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t12s8#", "=q5="..AL["Tier 12"]};
 				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3s3#, #a1#", ""};
+				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
 				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
 				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
 				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};

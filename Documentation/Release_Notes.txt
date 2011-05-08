@@ -6,9 +6,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
-v6.03.02 (? ?, 2011)
+v6.03.02 (May 08, 2011)
 Added support for Atlas 1.19.1.
 Revamped Vault of Archavon and Baradin Hold loot tables.
+Fixed a localization bug for missing Babble entries.
+Fixed a bug with the instance autoselect.
 Minor fixes, additions.
 
 v6.03.01 (May 02, 2011)

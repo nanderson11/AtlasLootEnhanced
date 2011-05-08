@@ -288,7 +288,6 @@ if AL then
 	AL["Set"] = true;
 	AL["Justice Points"] = true;
 	AL["Valor Points"] = true;
-	AL["Badge of Justice"] = true; --should be removed
 	AL["Emblem Rewards"] = true; --should be removed
 	AL["Emblem of Valor"] = true; --should be removed
 	AL["Emblem of Heroism"] = true; --should be removed
@@ -307,6 +306,7 @@ if AL then
 	AL["Tier 9 Set"] = true;
 	AL["Tier 10 Set"] = true;
 	AL["Tier 11 Set"] = true;
+	AL["Tier 11/12 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Transformation Items"] = true;
 

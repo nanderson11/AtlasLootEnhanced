@@ -288,7 +288,6 @@ if AL then
 	--AL["Set"] = true;
 	AL["Justice Points"] = "Point de justice";
 	AL["Valor Points"] = "Point de valeur";
-	AL["Badge of Justice"] = "Ecusson de justice"; --should be removed
 	AL["Emblem Rewards"] = "Récompenses des emblèmes"; --should be removed
 	AL["Emblem of Valor"] = "Emblème de vaillance"; --should be removed
 	AL["Emblem of Heroism"] = "Emblème d'héroïsme"; --should be removed

@@ -6128,7 +6128,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. BabbleInventory["Cloth"],
+			name = AL["Justice Points"].." - ".. BabbleInventory["Cloth"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6173,7 +6173,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. BabbleInventory["Leather"],
+			name = AL["Justice Points"].." - ".. BabbleInventory["Leather"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6210,7 +6210,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. BabbleInventory["Mail"],
+			name = AL["Justice Points"].." - ".. BabbleInventory["Mail"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6254,7 +6254,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. BabbleInventory["Plate"],
+			name = AL["Justice Points"].." - ".. BabbleInventory["Plate"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6285,7 +6285,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. AL["Fire Resistance Gear"],
+			name = AL["Justice Points"].." - ".. AL["Fire Resistance Gear"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6306,7 +6306,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. BabbleInventory["Back"],
+			name = AL["Justice Points"].." - ".. BabbleInventory["Back"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6329,7 +6329,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. BabbleInventory["Relic"],
+			name = AL["Justice Points"].." - ".. BabbleInventory["Relic"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6387,7 +6387,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. AL["PvP Rewards"],
+			name = AL["Justice Points"].." - ".. AL["PvP Rewards"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6424,7 +6424,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. AL["Weapons"],
+			name = AL["Justice Points"].." - ".. AL["Weapons"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}
@@ -6470,7 +6470,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["Badge of Justice"].." - ".. AL["Accessories"],
+			name = AL["Justice Points"].." - ".. AL["Accessories"],
 			module = moduleName, menu = "70TOKENMENU",
 		};
 	}

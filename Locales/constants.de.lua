@@ -288,7 +288,6 @@ if AL then
 	-- AL["Set"] = true;
 	AL["Justice Points"] = "Gerechtigkeitspunkte";
 	AL["Valor Points"] = "Tapferkeitspunkte";
-	AL["Badge of Justice"] = "Abzeichen der Gerechtigkeit";
 	AL["Emblem Rewards"] = "Belohnungen für Embleme";
 	AL["Emblem of Valor"] = "Emblem der Ehre";
 	AL["Emblem of Heroism"] = "Emblem des Heldentums";

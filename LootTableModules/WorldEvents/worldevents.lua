@@ -281,6 +281,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				};
 			};
 			{
+			--[[{ 1, 56836, "", "=q3=?? Brewfest Stein", "=ec1=2011 =q1=#m34#: =ds=#h1#"};]]--Not confirmed yet
 				{ 1, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009,2010 =q1=#m34#: =ds=#h1#"};
 				{ 2, 33016, "", "=q3=Blue Brewfest Stein", "=ec1=2008 =q1=#m34#: =ds=#h1#"};
 				{ 3, 32912, "", "=q3=Yellow Brewfest Stein", "=ec1=2007 =q1=#m34#: =ds=#h1#"};

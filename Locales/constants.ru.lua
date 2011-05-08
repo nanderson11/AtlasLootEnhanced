@@ -287,7 +287,6 @@ if AL then
 	AL["Set"] = "Комплект";
 	AL["Justice Points"] = "Очки справедливости";
 	AL["Valor Points"] = "Очки доблести";
-	AL["Badge of Justice"] = "Знак справедливости";
 	AL["Emblem Rewards"] = "Награды за знаки";
 	AL["Emblem of Valor"] = "Эмблема доблести";
 	AL["Emblem of Heroism"] = "Эмблема героизма";

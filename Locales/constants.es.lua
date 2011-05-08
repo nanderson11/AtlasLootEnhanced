@@ -274,7 +274,6 @@ if AL then
 	AL["Set"] = "Conjunto";
 	AL["Justice Points"] = "Puntos de justicia";
 	AL["Valor Points"] = "Puntos de valor";
-	AL["Badge of Justice"] = "Distintivo de justicia"; --should be removed
 	AL["Emblem Rewards"] = "Recompensas por emblemas"; --should be removed
 	AL["Emblem of Valor"] = "Emblema de valor"; --should be removed
 	AL["Emblem of Heroism"] = "Emblema de heroísmo"; --should be removed

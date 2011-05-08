@@ -283,7 +283,6 @@ if AL then
 	AL["Set"] = "套装";
 	AL["Justice Points"] = "Justice Points";
 	AL["Valor Points"] = "Valor Points";
-	AL["Badge of Justice"] = "公正徽章";
 	AL["Emblem Rewards"] = "纹章奖励"; --should be removed
 	AL["Emblem of Valor"] = "勇气纹章";
 	AL["Emblem of Heroism"] = "英雄纹章";
