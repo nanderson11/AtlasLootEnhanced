@@ -1247,6 +1247,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 14, "s76179", "54850", "=q2=Hardened Obsidium Bracers", "=ds=#s8#, #a4# / =q1=#sk# 440", "=ds="..AL["Trainer"]};
 				{ 15, "s76262", "55025", "=q2=Redsteel Bracers", "=ds=#s8#, #a4# / =q1=#sk# 440", "=ds="..AL["Trainer"]};
 				{ 16, "s76280", "55033", "=q2=Stormforged Bracers", "=ds=#s8#, #a4# / =q1=#sk# 440", "=ds="..AL["Trainer"]};
+				{ 16, "s76291", "55041", "=q2=Hardened Obsidium Shield", "=ds=#w8# / =q1=#sk# 425", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
