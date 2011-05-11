@@ -7906,3 +7906,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 			module = moduleName, menu = "JEWELCRAFTINGDAILYMENU",
 		};
 	}
+
+	AtlasLoot_Data["NewCrafting42"] = {
+		["Normal"] = {
+			{
+				{ 1, "s100687", "71077", "=q4=Extreme-Impact Hole Puncher", "=ds=#p5# (525)"};
+				{ 2, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#p5# (515)"};
+			};
+		info = {
+			name = "Patch 4.2 Craftables",
+			module = moduleName, menu = "PATCH42MENU",
+		};
+	}
