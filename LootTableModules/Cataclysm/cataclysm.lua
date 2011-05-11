@@ -5394,6 +5394,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 70140, "", "=q3=Hyjal Bear Cub", "=ds=" },
 				{ 20, 71076, "", "=q1=Creepy Crate", "=ds=" },
 			};
+		};
 		info = {
 			name = "Patch 4.2 Trinkets",
 			module = moduleName, menu = "PATCH42MENU",
