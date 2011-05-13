@@ -556,15 +556,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyArmorAndWeapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
-				{ 2, 64644, "", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
-				{ 3, 64904, "", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
-				{ 4, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
-				{ 5, 64885, "", "=q4=Scimitar of the Sirocco", "=ds="..AL["Tol'vir"], "=ds=#h1#, #w10#"};
-				{ 6, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
-				{ 7, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
-				{ 8, 64880, "", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
-				{ 9, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
+				{ 2, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
+				{ 3, 64644, "", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
+				{ 4, 64904, "", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
+				{ 5, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
+				{ 17, 64885, "", "=q4=Scimitar of the Sirocco", "=ds="..AL["Tol'vir"], "=ds=#h1#, #w10#"};
+				{ 18, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
+				{ 19, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
+				{ 20, 64880, "", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
+				{ 21, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
+				{ 22, 69764, "", "=q4=Extinct Turtle Shell", "=ds="..AL["Fossil"], "=ds=#w8#"};
 			};
 		};
 		info = {
@@ -576,24 +577,40 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds="..AL["Tol'vir"], "=ds=#p1# (525)"};
-				{ 2, 64481, "", "=q4=Blessing of the Old God", "=ds="..AL["Fossil"]};
-				{ 3, 64646, "", "=q4=Bones of Transformation", "=ds="..AL["Night Elf"]};
-				{ 4, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="..AL["Tol'vir"]};
-				{ 5, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="..AL["Fossil"]};
-				{ 6, 64651, "", "=q4=Wisp Amulet", "=ds="..AL["Night Elf"]};
-				{ 7, 64456, "", "=q3=Arrival of the Naaru", "=ds="..AL["Draenei"]};
-				{ 8, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds="..AL["Dwarf"]};
-				{ 9, 64361, "", "=q3=Druid and Priest Statue Set", "=ds="..AL["Night Elf"]};
-				{ 10, 64358, "", "=q3=Highborne Soul Mirror", "=ds="..AL["Night Elf"]};
-				{ 11, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds="..AL["Night Elf"]};
-				{ 12, 64488, "", "=q3=The Innkeeper's Daughter", "=ds="..AL["Dwarf"]};
-				{ 13, 64457, "", "=q3=The Last Relic of Argus", "=ds="..AL["Draenei"]};
-				{ 16, 60847, "", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
+				{ 2, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds="..AL["Tol'vir"], "=ds=#p1# (525)"};
+				{ 3, 64481, "", "=q4=Blessing of the Old God", "=ds="..AL["Fossil"]};
+				{ 4, 64646, "", "=q4=Bones of Transformation", "=ds="..AL["Night Elf"]};
+				{ 5, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="..AL["Tol'vir"]};
+				{ 6, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="..AL["Fossil"]};
+				{ 7, 64651, "", "=q4=Wisp Amulet", "=ds="..AL["Night Elf"]};
+				{ 17, 69776, "", "=q3=Ancient Amber", "=ds="..AL["Fossil"], "=ds="};
+				{ 18, 64456, "", "=q3=Arrival of the Naaru", "=ds="..AL["Draenei"]};
+				{ 19, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds="..AL["Dwarf"]};
+				{ 20, 64361, "", "=q3=Druid and Priest Statue Set", "=ds="..AL["Night Elf"]};
+				{ 21, 69777, "", "=q3=Haunted War Drum", "=ds="..AL["Troll"]};
+				{ 22, 64358, "", "=q3=Highborne Soul Mirror", "=ds="..AL["Night Elf"]};
+				{ 23, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds="..AL["Night Elf"]};
+				{ 24, 64488, "", "=q3=The Innkeeper's Daughter", "=ds="..AL["Dwarf"]};
+				{ 25, 64457, "", "=q3=The Last Relic of Argus", "=ds="..AL["Draenei"]};
+				{ 26, 69775, "", "=q3=Vrykul Drinking Horn", "=ds="..AL["Vrykul"]};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY,
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyPetMount"] = {
+		["Normal"] = {
+			{
+				{ 2, 60847, "", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
+				{ 3, 64372, "", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
+				{ 4, 60955, "", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
+				{ 5, 69821, "", "=q3=Pterrordax Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
+				{ 6, 69824, "", "=q3=Voodoo Figurine", "=ds="..AL["Troll"], "=ds=#e13#"};
 				{ 17, 60954, "", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
 				{ 18, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
-				{ 19, 64372, "", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
-				{ 20, 60955, "", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
 			};
 		};
 		info = {
@@ -741,16 +758,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyOrc"] = {
 		["Normal"] = {
 			{
-				{ 1, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
-				{ 3, 64436, "", "=q0=Fiendish Whip", "=ds=#sr# 300"};
-				{ 4, 64421, "", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
-				{ 5, 64418, "", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 6, 64417, "", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 7, 64419, "", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 18, 64420, "", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
-				{ 19, 64438, "", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
-				{ 20, 64437, "", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
-				{ 21, 64389, "", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 2, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
+				{ 4, 64436, "", "=q0=Fiendish Whip", "=ds=#sr# 300"};
+				{ 5, 64421, "", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
+				{ 6, 64418, "", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 7, 64417, "", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 8, 64419, "", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 19, 64420, "", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
+				{ 20, 64438, "", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
+				{ 21, 64437, "", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
+				{ 22, 64389, "", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
 			};
 		};
 		info = {
@@ -783,13 +800,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyVrykul"] = {
 		["Normal"] = {
 			{
-				{ 1, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 375", "=ds=#h1#, #w1#" };
-				{ 3, 64464, "", "=q0=Fanged Cloak Pin", "=ds=#sr# 375"};
-				{ 4, 64462, "", "=q0=Flint Striker", "=ds=#sr# 375"};
-				{ 5, 64459, "", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 375"};
-				{ 16, 69775, "", "=q3=Vrykul Drinking Horn", "=ds=#sr# 100" };
-				{ 18, 64461, "", "=q0=Scramseax", "=ds=#sr# 375"};
-				{ 19, 64467, "", "=q0=Thorned Necklace", "=ds=#sr# 375"};
+				{ 2, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 375", "=ds=#h1#, #w1#" };
+				{ 4, 64464, "", "=q0=Fanged Cloak Pin", "=ds=#sr# 375"};
+				{ 5, 64462, "", "=q0=Flint Striker", "=ds=#sr# 375"};
+				{ 6, 64459, "", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 375"};
+				{ 17, 69775, "", "=q3=Vrykul Drinking Horn", "=ds=#sr# 100" };
+				{ 19, 64461, "", "=q0=Scramseax", "=ds=#sr# 375"};
+				{ 20, 64467, "", "=q0=Thorned Necklace", "=ds=#sr# 375"};
 			};
 		};
 		info = {
@@ -7487,8 +7504,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, 62786, "", "=q1=Cocoa Beans", "=ds=#e8#", "10 #silver#"};
 				{ 2, 65513, "", "=q1=Crate of Tasty Meat", "=ds=#m20#", "2 #chefaward#"};
-				{ 16, 62788, "", "=q1=Dry Yeast", "=ds=#e8#", "10 #silver#"};
-				{ 17, 62787, "", "=q1=Noble Hops", "=ds=#e8#", "10 #silver#"};
 			};
 			{
 				{ 1, 43035, "", "=q2=Recipe: Blackened Dragonfin", "=ds=#sr# (400)", "3 #cookingaward#"};

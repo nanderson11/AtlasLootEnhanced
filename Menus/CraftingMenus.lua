@@ -282,7 +282,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 19, "ArchaeologyTroll", "trade_archaeology_troll_tablet", "=ds="..AL["Troll"], "" };
 				{ 20, "ArchaeologyVrykul", "trade_archaeology_vrykul_runestick", "=ds="..AL["Vrykul"], "" };
 				{ 8, "ArchaeologyArmorAndWeapons", "trade_archaeology_ancientorcshamanheaddress", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], "" };
-				{ 23, "ArchaeologyMisc", "trade_archaeology_tinydinosaurskeleton", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 23, "ArchaeologyPetMount", "trade_archaeology_tinydinosaurskeleton", "=ds="..BabbleInventory["Pet"].." & "..BabbleInventory["Mount"], "" };
+				{ 9, "ArchaeologyMisc", "trade_archaeology_theinnkeepersdaughter", "=ds="..BabbleInventory["Miscellaneous"], "" };
 			};
 		};
 		info = {

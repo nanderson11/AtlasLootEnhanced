@@ -1928,6 +1928,78 @@ local moduleName = "AtlasLootCataclysm"
 				{ 25, 60419, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#", ""};
 				{ 26, 60421, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=#s11#, #a4#", ""};
 			};
+			{
+				{ 1, 60628, "", "=q4=Vicious Gladiator's Cuffs of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 2, 60626, "", "=q4=Vicious Gladiator's Cord of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 3, 60630, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 5, 60635, "", "=q4=Vicious Gladiator's Cuffs of Meditation", "=ds=", "1250 #conquest#"};
+				{ 6, 60637, "", "=q4=Vicious Gladiator's Cord of Meditation", "=ds=", "1650 #conquest#"};
+				{ 7, 60636, "", "=q4=Vicious Gladiator's Treads of Meditation", "=ds=", "1650 #conquest#"};
+				{ 9, 60634, "", "=q4=Vicious Gladiator's Cuffs of Prowess", "=ds=", "1250 #conquest#"};
+				{ 10, 60612, "", "=q4=Vicious Gladiator's Cord of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 11, 60613, "", "=q4=Vicious Gladiator's Treads of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 16, 60591, "", "=q4=Vicious Gladiator's Armwraps of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 17, 60589, "", "=q4=Vicious Gladiator's Waistband of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 18, 60587, "", "=q4=Vicious Gladiator's Boots of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 20, 60594, "", "=q4=Vicious Gladiator's Armwraps of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 21, 60586, "", "=q4=Vicious Gladiator's Waistband of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 22, 60593, "", "=q4=Vicious Gladiator's Boots of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 24, 60611, "", "=q4=Vicious Gladiator's Bindings of Prowess", "=ds=", "1250 #conquest#"};
+				{ 25, 60583, "", "=q4=Vicious Gladiator's Belt of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 26, 60607, "", "=q4=Vicious Gladiator's Footguards of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 28, 60582, "", "=q4=Vicious Gladiator's Bindings of Meditation", "=ds=", "1250 #conquest#"};
+				{ 29, 60580, "", "=q4=Vicious Gladiator's Belt of Meditation", "=ds=", "1650 #conquest#"};
+				{ 30, 60581, "", "=q4=Vicious Gladiator's Footguards of Meditation", "=ds=", "1650 #conquest#"};
+			};
+			{
+				{ 1, 60535, "", "=q4=Vicious Gladiator's Armbands of Meditation", "=ds=", "1250 #conquest#"};
+				{ 2, 60533, "", "=q4=Vicious Gladiator's Waistguard of Meditation", "=ds=", "1650 #conquest#"};
+				{ 3, 60534, "", "=q4=Vicious Gladiator's Sabatons of Meditation", "=ds=", "1650 #conquest#"};
+				{ 5, 60569, "", "=q4=Vicious Gladiator's Armbands of Prowess", "=ds=", "1250 #conquest#"};
+				{ 6, 60536, "", "=q4=Vicious Gladiator's Waistguard of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 7, 60567, "", "=q4=Vicious Gladiator's Sabatons of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 9, 60559, "", "=q4=Vicious Gladiator's Wristguards of Alacrity", "=ds=", "1250 #conquest#"};
+				{ 10, 60555, "", "=q4=Vicious Gladiator's Links of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 11, 60557, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 13, 60565, "", "=q4=Vicious Gladiator's Wristguards of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 14, 60564, "", "=q4=Vicious Gladiator's Links of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 15, 60554, "", "=q4=Vicious Gladiator's Sabatons of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 16, 60541, "", "=q4=Vicious Gladiator's Bracers of Meditation", "=ds=", "1250 #conquest#"};
+				{ 17, 60539, "", "=q4=Vicious Gladiator's Clasp of Meditation", "=ds=", "1650 #conquest#"};
+				{ 18, 60540, "", "=q4=Vicious Gladiator's Greaves of Meditation", "=ds=", "1650 #conquest#"};
+				{ 20, 60523, "", "=q4=Vicious Gladiator's Armplates of Proficiency", "=ds=", "1250 #conquest#"};
+				{ 21, 60521, "", "=q4=Vicious Gladiator's Girdle of Prowess", "=ds=", "1650 #conquest#"};
+				{ 22, 60513, "", "=q4=Vicious Gladiator's Warboots of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 24, 60520, "", "=q4=Vicious Gladiator's Bracers of Prowess", "=ds=", "1250 #conquest#"};
+				{ 25, 60505, "", "=q4=Vicious Gladiator's Clasp of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 26, 60516, "", "=q4=Vicious Gladiator's Greaves of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 28, 60512, "", "=q4=Vicious Gladiator's Armplates of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 29, 60508, "", "=q4=Vicious Gladiator's Girdle of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 30, 60509, "", "=q4=Vicious Gladiator's Warboots of Cruelty", "=ds=", "1650 #conquest#"};
+			};
+			{
+				{ 2, 61033, "", "=q4=Vicious Gladiator's Badge of Conquest", "=ds=#s14#", "1650 #conquest#" },
+				{ 3, 61035, "", "=q4=Vicious Gladiator's Badge of Dominance", "=ds=#s14#", "1650 #conquest#" },
+				{ 4, 61034, "", "=q4=Vicious Gladiator's Badge of Victory", "=ds=#s14#", "1650 #conquest#" },
+				{ 6, 61026, "", "=q4=Vicious Gladiator's Emblem of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+				{ 7, 61031, "", "=q4=Vicious Gladiator's Emblem of Meditation", "=ds=#s14#", "1650 #conquest#" },
+				{ 8, 61032, "", "=q4=Vicious Gladiator's Emblem of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+				{
+					{ 17, 60801, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+					{ 17, 60794, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{
+					{ 18, 60806, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
+					{ 18, 60799, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{
+					{ 19, 60807, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+					{ 19, 60800, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "1650 #conquest#" },
+				};
+				{ 21, 61047, "", "=q4=Vicious Gladiator's Insignia of Conquest", "=ds=#s14#", "1650 #conquest#" },
+				{ 22, 61045, "", "=q4=Vicious Gladiator's Insignia of Dominance", "=ds=#s14#", "1650 #conquest#" },
+				{ 23, 61046, "", "=q4=Vicious Gladiator's Insignia of Victory", "=ds=#s14#", "1650 #conquest#" },
+			};
 		};
 		info = {
 			name = BabbleBoss["Argaloth"],
@@ -4484,8 +4556,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
 				{ 24, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
 				{ 25, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 26, 34955, "", "=q3=Scorched Stone", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 28, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
+				{ 26, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
 			};
 		};
 		info = {
@@ -4538,10 +4609,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
 				{ 3, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
 				{ 4, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
-				{ 5, 38658, "", "=q3=Vampiric Batling", "#ACHIEVEMENTID:2456#, =q1="..BabbleZone["Karazhan"]};
-				{ 17, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
-				{ 18, 44819, "", "=q1=Baby Blizzard Bear", "#ACHIEVEMENTID:2398#"};
-				{ 19, 49362, "", "=q1=Onyxian Whelpling", "#ACHIEVEMENTID:4400#"};
+				{ 5, 34955, "", "=q3=Scorched Stone", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 17, 38658, "", "=q3=Vampiric Batling", "#ACHIEVEMENTID:2456#, =q1="..BabbleZone["Karazhan"]};
+				{ 18, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
+				{ 19, 44819, "", "=q1=Baby Blizzard Bear", "#ACHIEVEMENTID:2398#"};
+				{ 20, 49362, "", "=q1=Onyxian Whelpling", "#ACHIEVEMENTID:4400#"};
 			};
 		};
 		info = {
