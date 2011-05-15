@@ -2546,12 +2546,21 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 0, "inv_neck_hyjaldaily_04", "=q6=#r2#", ""};
 				{ 2, 70930, "", "=q4=Durable Flamewrath Cloak", "=ds=#s4#"};
-				{ 4, 0, "inv_neck_hyjaldaily_04", "=q6=#r3#", ""};
-				{ 5, 70933, "", "=q4=Girdle of the Indomitable Flame", "=ds=#s10#, #a4#"};
+				{ 3, 71229, "", "=q4=Flowing Flamewrath Cloak", "=ds=#s4#"};
+				{ 4, 71228, "", "=q4=Nimble Flamewrath Cloak", "=ds=#s4#"};
+				{ 5, 71230, "", "=q4=Rippling Flamewrath Cloak", "=ds=#s4#"};
+				{ 6, 71227, "", "=q4=Spiked Flamewrath Cloak", "=ds=#s4#"};
+				{ 8, 0, "inv_neck_hyjaldaily_04", "=q6=#r3#", ""};
+				{ 9, 71131, "", "=q4=Flamebinding Girdle", "=ds=#s10#, #a2#"};
+				{ 10, 70933, "", "=q4=Girdle of the Indomitable Flame", "=ds=#s10#, #a4#"};
 				{ 16, 0, "inv_neck_hyjaldaily_04", "=q6=#r4#", ""};
 				{ 17, 68996, "", "=q4=Stay of Execution", "=ds=#s14#"};
 				{ 19, 0, "inv_neck_hyjaldaily_04", "=q6=#r5#", ""};
 				{ 20, 70934, "", "=q4=Adamantine Signet of the Avengers", "=ds=#s13#"};
+				{ 21, 71217, "", "=q4=Infernal Signet of the Avengers", "=ds=#s13#"};
+				{ 22, 71215, "", "=q4=Obsidian Signet of the Avengers", "=ds=#s13#"};
+				{ 23, 71237, "", "=q4=Quicksilver Signet of the Avengers", "=ds=#s13#"};
+				{ 24, 71216, "", "=q4=Viridian Signet of the Avengers", "=ds=#s13#"};
 			};
 		};
 		info = {
@@ -5457,7 +5466,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 70908, "", "=q1=Feline Familiar", "=ds=" },
 				{ 18, 70160, "", "=q3=Fire Lasher", "=ds=" },
 				{ 19, 70140, "", "=q3=Hyjal Bear Cub", "=ds=" },
-				{ 20, 71076, "", "=q1=Creepy Crate", "=ds=" },
+				{ 20, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5875#" },
+				{ 21, 71076, "", "=q1=Creepy Crate", "=ds=" },
 			};
 		};
 		info = {
