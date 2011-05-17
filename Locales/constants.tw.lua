@@ -305,6 +305,7 @@ if AL then
 	AL["Tier 9 Set"] = "T9 套裝";
 	AL["Tier 10 Set"] = "T10 套裝";
 	AL["Tier 11 Set"] = "T11 套裝";
+	AL["Tier 11/12 Set"] = "T11/T12 套裝";
 	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
 	AL["Transformation Items"] = "變形物品";
 
@@ -498,6 +499,7 @@ if AL then
 	AL["Tier 9"] = "T9";
 	AL["Tier 10"] = "T10";
 	AL["Tier 11"] = "T11";
+	AL["Tier 12"] = "T12";
 	AL["10 Man"] = "10 人";
 	AL["10/25 Man"] = "10/25 人";
 	AL["Epic Set"] = "PvP 史詩套裝";
@@ -874,13 +876,6 @@ if AL then
 	AL["Destruction"] = "毀滅";
 	AL["Tanking"] = "防禦型";
 	AL["DPS"] = "傷害型";
-
-	--Naxx Zones
-	AL["Construct Quarter"] = "傀儡區";
-	AL["Arachnid Quarter"] = "蜘蛛區";
-	AL["Military Quarter"] = "軍事區";
-	AL["Plague Quarter"] = "瘟疫區";
-	AL["Frostwyrm Lair"] = "冰霜巨龍巢穴";
 
 	--NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "小怪";
