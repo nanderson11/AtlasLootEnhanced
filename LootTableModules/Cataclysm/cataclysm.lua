@@ -4973,7 +4973,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 69213, "", "=q4=Flameward Hippogryph", , "#ACHIEVEMENTID:5866#"};
+				{ 2, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
 				{ 3, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
 				{ 4, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
 				{ 5, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
