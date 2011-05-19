@@ -4109,9 +4109,9 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
-				{ 3, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
-				{ 4, 5194, "", "=q3=Taskmaster Axe", "=ds=#h2#, #w1#", ""};
+				{ 2, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", ""};
+				{ 3, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
+				{ 4, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
 				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};

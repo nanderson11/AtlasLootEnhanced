@@ -3731,7 +3731,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 18, "s59561", "43869", "=q1=Glyph of Seal of Truth", "=ds=#sr# 385", "=ds="..GetSpellInfo(61177) };
 				{ 19, "s64308", "45744", "=q1=Glyph of Shield of the Righteous", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"] };
 				{ 20, "s64279", "45743", "=q1=Glyph of Templar's Verdict", "=ds=#sr# 425", "=ds="..AL["Book of Glyph Mastery"]};
-				{ 21, "s101057", "71155", "=q1=Glyph of Unleashed Lightning", "=ds=#sr# 430", "=ds="..AL["Trainer"] };
+				{ 21, "s101057", "71155", "=q1=Glyph of Unleashed Lightning", "=ds=#sr# 430", "=ds="..GetSpellInfo(61177) };
 				{ 22, "s57026", "41105", "=q1=Glyph of Word of Glory", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 				{ 9, 0, "INV_Box_01", "=q6="..AL["Minor Glyph"], "" };
 				{ 10, "s58311", "43365", "=q1=Glyph of Blessing of Kings", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };

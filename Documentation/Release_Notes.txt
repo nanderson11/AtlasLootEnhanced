@@ -5,6 +5,15 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.04.00 (? ?, 2011)
+Compatible with Patch 4.2
+Added Tier 12 Raid Set.
+Added Firelands Raid loot Normal and Heroic.
+Added Season 10 PvP Items.
+Added various new mounts and companions.
+Added various new crafting recipes.
+Updated Brewfest and Hallows' End boss loot.
+Minor fixes, additions and translations.
 
 v6.03.03 (? ?, 2011)
 Minor fixes, additions and translations.

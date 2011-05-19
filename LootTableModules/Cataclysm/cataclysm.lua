@@ -1006,9 +1006,9 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
-				{ 3, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
-				{ 4, 5194, "", "=q3=Taskmaster Axe", "=ds=#h2#, #w1#", ""};
+				{ 2, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", ""};
+				{ 3, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
+				{ 4, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
 				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};
@@ -2519,12 +2519,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["FirelandsRagnaros"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 71356, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
+				{ 2, 70921, "", "=q4=Spaulders of Pure Flame", "=ds=#s1#, #a3#"};
+				{ 3, 71354, "", "=q4=Choker of the Firelord", "=ds=#s2#"};
+				{ 4, 71355, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 5, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
+				{ 6, 71353, "", "=q4=Arathar, the Wings of Flame", "=ds=#w2#"};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
 			};
 		};
 		info = {
@@ -4898,8 +4903,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e26# =ec1=#m7#"};
 				{ 7, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26# =ec1=#m7#"};
 				{ 8, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m7#"};
-				{ 9, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};--Baradin's Wardens - Alliance
-				{ 10, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};--Baradin's Wardens - Alliance
+				{ 9, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};
+				{ 10, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 				{ 12, 0, "INV_Box_01", "=q6="..AL["Halaa PvP Mounts"], "=q1="..BabbleZone["Nagrand"]};
 				{ 13, 28915, "", "=q4=Reins of the Dark Riding Talbuk", "=ds=#e26#"};
 				{ 14, 29228, "", "=q4=Reins of the Dark War Talbuk", "=ds=#e26#"};
@@ -4911,8 +4916,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e26# =ec1=#m6#"};
 				{ 22, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26# =ec1=#m6#"};
 				{ 23, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m6#"};
-				{ 24, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};--Hellscrean's Reach - Horde
-				{ 25, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};--Hellscrean's Reach - Horde
+				{ 24, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};
+				{ 25, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 			};
 		};
 		info = {
@@ -4968,7 +4973,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 69213, "", "=q4=Flameward Hippogryph", "Patch 4.2"};
+				{ 2, 69213, "", "=q4=Flameward Hippogryph", , "#ACHIEVEMENTID:5866#"};
 				{ 3, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
 				{ 4, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
 				{ 5, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
@@ -5095,7 +5100,6 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["MountsRemoved"] = {
 		["Normal"] = {
 			{
-
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
 				{ 2, 33809, "", "=q4=Amani War Bear", "=q1="..BabbleZone["Zul'Aman"], ""};
 				{ 3, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#", "", "0.43%"};
@@ -5120,6 +5124,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 27, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "=ds="..AL["Season 6"]};
 				{ 28, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "=ds="..AL["Season 7"]};
 				{ 29, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "=ds="..AL["Season 8"]};
+				{ 30, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "=ds="..AL["Season 9"]};
 			};
 		};
 		info = {
@@ -5602,11 +5607,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "inv_staff_13", "=q6=#t12s3#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 17, 71287, "", "=q4=Firehawk Hood", "=ds=#s1#, #a1#", ""};
+				{ 18, 71290, "", "=q4=Firehawk Mantle", "=ds=#s3#, #a1#", ""};
+				{ 19, 71289, "", "=q4=Firehawk Robes", "=ds=#s5#, #a1#", ""};
+				{ 20, 71286, "", "=q4=Firehawk Gloves", "=ds=#s9#, #a1#", ""};
+				{ 21, 71288, "", "=q4=Firehawk Leggings", "=ds=#s11#, #a1#", ""};
 				{ 23, 0, "inv_staff_13", "=q6=#t12s3#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};
 		};
@@ -5679,11 +5684,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t12s5_1#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 17, 71277, "", "=q4=Hood of the Cleansing Flame", "=ds=#s1#, #a1#", ""};
+				{ 18, 71280, "", "=q4=Shoulderwraps of the Cleansing Flame", "=ds=#s3#, #a1#", ""};
+				{ 19, 71729, "", "=q4=Vestment of the Cleansing Flame", "=ds=#s5#, #a1#", ""};
+				{ 20, 71726, "", "=q4=Gloves of the Cleansing Flame", "=ds=#s9#, #a1#", ""};
+				{ 21, 71278, "", "=q4=Leggings of the Cleansing Flame", "=ds=#s11#, #a1#", ""};
 				{ 23, 0, "spell_shadow_shadowwordpain", "=q6=#t12s5_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};
 		};
@@ -5697,11 +5702,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t12s5_2#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 17, 71272, "", "=q4=Cowl of the Cleansing Flame", "=ds=#s1#, #a1#", ""};
+				{ 18, 71275, "", "=q4=Mantle of the Cleansing Flame", "=ds=#s3#, #a1#", ""};
+				{ 19, 71274, "", "=q4=Robes of the Cleansing Flame", "=ds=#s5#, #a1#", ""};
+				{ 20, 71271, "", "=q4=Handwraps of the Cleansing Flame", "=ds=#s9#, #a1#", ""};
+				{ 21, 72173, "", "=q4=Legwraps of the Cleansing Flame", "=ds=#s11#, #a1#", ""};
 				{ 23, 0, "spell_holy_guardianspirit", "=q6=#t12s5_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};
 		};
@@ -5733,11 +5738,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t12s7_3#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a3#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a3#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a3#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a3#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a3#", ""};
+				{ 17, 71293, "", "=q4=Eruptic Volcanic Headpiece", "=ds=#s1#, #a3#", ""};
+				{ 18, 71295, "", "=q4=Eruptic Volcanic Shoulderwraps", "=ds=#s3#, #a3#", ""};
+				{ 19, 71294, "", "=q4=Eruptic Volcanic Kilt", "=ds=#s5#, #a3#", ""};
+				{ 20, 71292, "", "=q4=Eruptic Volcanic Gloves", "=ds=#s9#, #a3#", ""};
+				{ 21, 71291, "", "=q4=Eruptic Volcanic Hauberk", "=ds=#s11#, #a3#", ""};
 				{ 23, 0, "Spell_Nature_Lightning", "=q6=#t12s7_3#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};
 		};
@@ -5751,11 +5756,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t12s7_2#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a3#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a3#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a3#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a3#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a3#", ""};
+				{ 17, 71303, "", "=q4=Eruptic Volcanic Helmet", "=ds=#s1#, #a3#", ""};
+				{ 18, 71305, "", "=q4=Eruptic Volcanic Spaulders", "=ds=#s3#, #a3#", ""};
+				{ 19, 71301, "", "=q4=Eruptic Volcanic Cuirass", "=ds=#s5#, #a3#", ""};
+				{ 20, 71302, "", "=q4=Eruptic Volcanic Grips", "=ds=#s9#, #a3#", ""};
+				{ 21, 71304, "", "=q4=Eruptic Volcanic Legguards", "=ds=#s11#, #a3#", ""};
 				{ 23, 0, "spell_nature_lightningshield", "=q6=#t12s7_2#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};		
 		};
@@ -5769,11 +5774,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t12s7_1#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a3#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a3#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a3#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a3#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a3#", ""};
+				{ 17, 71298, "", "=q4=Eruptic Volcanic Faceguard", "=ds=#s1#, #a3#", ""};
+				{ 18, 71300, "", "=q4=Eruptic Volcanic Mantle", "=ds=#s3#, #a3#", ""};
+				{ 19, 71296, "", "=q4=Eruptic Volcanic Tunic", "=ds=#s5#, #a3#", ""};
+				{ 20, 71297, "", "=q4=Eruptic Volcanic Handwraps", "=ds=#s9#, #a3#", ""};
+				{ 21, 71299, "", "=q4=Eruptic Volcanic Legwraps", "=ds=#s11#, #a3#", ""};
 				{ 23, 0, "spell_nature_magicimmunity", "=q6=#t12s7_1#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};
 		};
@@ -5787,11 +5792,11 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t12s8#", "=q5="..AL["Tier 12"]};
-				{ 17, 0, "", "=q4=Elementium Dragon Helmet", "=ds=#s1#, #a1#", ""};
-				{ 18, 0, "", "=q4=Elementium Dragon Pauldrons", "=ds=#s3#, #a1#", ""};
-				{ 19, 0, "", "=q4=Elementium Dragon Battleplate", "=ds=#s5#, #a1#", ""};
-				{ 20, 0, "", "=q4=Elementium Dragon Gauntlets", "=ds=#s9#, #a1#", ""};
-				{ 21, 0, "", "=q4=Elementium Dragon Legplates", "=ds=#s11#, #a1#", ""};
+				{ 17, 71282, "", "=q4=Balespider's Hood", "=ds=#s1#, #a1#", ""};
+				{ 18, 71285, "", "=q4=Balespider's Mantle", "=ds=#s3#, #a1#", ""};
+				{ 19, 71284, "", "=q4=Balespider's Robes", "=ds=#s5#, #a1#", ""};
+				{ 20, 71281, "", "=q4=Balespider's Handwraps", "=ds=#s9#, #a1#", ""};
+				{ 21, 71283, "", "=q4=Balespider's Leggings", "=ds=#s11#, #a1#", ""};
 				{ 23, 0, "spell_nature_drowsy", "=q6=#t12s8#", "=q5="..AL["Tier 12"].." - "..AL["Heroic"]};
 			};
 		};

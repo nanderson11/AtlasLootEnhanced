@@ -567,7 +567,7 @@ AtlasLoot_TextParsing = {
 	{ "#t11s10_1#", BabbleItemSet["Magma Plated Battlegear"] },
 	{ "#t11s10_2#", BabbleItemSet["Magma Plated Battlearmor"] },
 
-	-- Tier 12 Sets
+	-- Tier 12 Sets (NAMES ARE MISSING, JUST PLACEHOLDER)
 	{ "#t12s1_1#", BabbleItemSet["Stormrider's Vestments"] },
 	{ "#t12s1_2#", BabbleItemSet["Stormrider's Battlegarb"] },
 	{ "#t12s1_3#", BabbleItemSet["Stormrider's Regalia"] },
