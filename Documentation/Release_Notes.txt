@@ -11,6 +11,7 @@ Added Firelands Raid loot Normal and Heroic.
 Added Faction Avengers of Hyjal.
 Added Tier 12 Raid Set.
 Added Season 10 PvP Items.
+Added Molten Fire Daily Rewards.
 Added various new mounts and companions.
 Added various new crafting recipes.
 Updated Brewfest and Hallows' End boss loot.

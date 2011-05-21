@@ -5857,3 +5857,37 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "T12SET",
 		};
 	}
+
+	AtlasLoot_Data["MoltenFront"] = {
+		["Normal"] = {
+			{
+				{ 1, 70118, "", "=q4=Widow's Clutches", "=ds=#s9#, #a1#"};
+				{ 2, 70122, "", "=q4=Aviana's Grips", "=ds=#s9#, #a2#"};
+				{ 3, 70114, "", "=q4=Fireplume Girdle", "=ds=#s10#, #a2#"};
+				{ 4, 70115, "", "=q4=Fiery Treads", "=ds=#s12#, #a3#"};
+				{ 5, 70123, "", "=q4=Lancer's Greaves", "=ds=#s12#, #a3#"};
+				{ 6, 70116, "", "=q4=Gauntlets of Living Obsidium", "=ds=#s9#, #a4#"};
+				{ 7, 70117, "", "=q4=Belt of Living Obsidium", "=ds=#s10#, #a4#"};
+				{ 8, 70120, "", "=q4=Rickety Belt", "=ds=#s10#, #a4#"};
+				{ 9, 70108, "", "=q4=Pyrelord Greaves", "=ds=#s12#, #a4#"};
+				{ 11, 70111, "", "=q4=Relic of Elune's Light", "=ds=#s16#"};
+				{ 12, 70109, "", "=q4=Relic of Elune's Shadow", "=ds=#s16#"};
+				{ 13, 70125, "", "=q4=Relic of Lo'Gosh", "=ds=#s16#"};
+				{ 14, 70128, "", "=q4=Relic of Tortolla", "=ds=#s16#"};
+				{ 16, 70107, "", "=q4=Fireheart Necklace", "=ds=#s2#"};
+				{ 17, 70106, "", "=q4=Nightweaver's Amulet", "=ds=#s2#"};
+				{ 19, 70110, "", "=q4=Band of Glittering Lights", "=ds=#s13#"};
+				{ 20, 70127, "", "=q4=Lylagar Horn Ring", "=ds=#s13#"};
+				{ 21, 70105, "", "=q4=Matoclaw's Band", "=ds=#s13#"};
+				{ 22, 70119, "", "=q4=Meteorite Ring", "=ds=#s13#"};
+				{ 23, 70113, "", "=q4=Moon Blessed Band", "=ds=#s13#"};
+				{ 24, 70126, "", "=q4=Nemesis Shell Band", "=ds=#s13#"};
+				{ 25, 70124, "", "=q4=Spirit Fragment Band", "=ds=#s13#"};
+				{ 27, 70112, "", "=q4=Globe of Moonlight", "=ds=#s15#"};
+			};
+		};
+		info = {
+			name = "Molten Front Daily Rewards",
+			module = moduleName, menu = "SETMENU",
+		};
+	}
