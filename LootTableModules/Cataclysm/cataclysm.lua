@@ -1254,7 +1254,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 63458, "", "=q3=Lord Walden's Breastplate", "=ds=#s5#, #a4#" };
 				{ 22, 63457, "", "=q3=Shackles of Undeath", "=ds=#s8#, #a4#" };
 				{ 23, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
-				{ 24, 63460, "", "=q3=Relic of Arathor", "=ds=#s14#" };
+				{ 24, 63460, "", "=q3=Relic of Arathor", "=ds=#s16#" };
 				{ 25, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
 				{ 26, 63461, "", "=q3=Staff of Isolation", "=ds=#w9#" };
 			};
@@ -4361,52 +4361,53 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..BabbleZone["Icecrown"]};
 				{ 2, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
-				{ 3, 44970, "", "=q3=Dun Morogh Cub", "=ds="..BabbleZone["Icecrown"]};
-				{ 4, 44973, "", "=q3=Durotar Scorpion", "=ds="..BabbleZone["Icecrown"]};
-				{ 5, 44974, "", "=q3=Elwynn Lamb", "=ds="..BabbleZone["Icecrown"]};
-				{ 6, 44982, "", "=q3=Enchanted Broom", "=ds="..BabbleZone["Icecrown"]};
-				{ 7, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
-				{ 8, 45002, "", "=q3=Mechanopeep", "=ds="..BabbleZone["Icecrown"]};
-				{ 9, 44980, "", "=q3=Mulgore Hatchling", "=ds="..BabbleZone["Icecrown"]};
-				{ 10, 45606, "", "=q3=Sen'jin Fetish", "=ds="..BabbleZone["Icecrown"]};
-				{ 11, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..BabbleZone["Icecrown"]};
-				{ 12, 44971, "", "=q3=Tirisfal Batling", "=ds="..BabbleZone["Icecrown"]};
-				{ 13, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
-				{ 14, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
-				{ 15, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 16, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 17, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 18, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 19, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
-				{ 20, 46398, "", "=q1=Calico Cat", "=ds="..BabbleZone["Dalaran"]};
-				{ 21, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 22, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 23, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 24, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
-				{ 25, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 26, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
-				{ 27, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
-				{ 28, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
-				{ 29, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
-				{ 30, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 3, 70160, "", "=q3=Crimson Lasher", "=ds=" },---Molten Front Daily reward, new with 4.2
+				{ 4, 44970, "", "=q3=Dun Morogh Cub", "=ds="..BabbleZone["Icecrown"]};
+				{ 5, 44973, "", "=q3=Durotar Scorpion", "=ds="..BabbleZone["Icecrown"]};
+				{ 6, 44974, "", "=q3=Elwynn Lamb", "=ds="..BabbleZone["Icecrown"]};
+				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds="..BabbleZone["Icecrown"]};
+				{ 8, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
+				{ 9, 45002, "", "=q3=Mechanopeep", "=ds="..BabbleZone["Icecrown"]};
+				{ 10, 44980, "", "=q3=Mulgore Hatchling", "=ds="..BabbleZone["Icecrown"]};
+				{ 11, 45606, "", "=q3=Sen'jin Fetish", "=ds="..BabbleZone["Icecrown"]};
+				{ 12, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..BabbleZone["Icecrown"]};
+				{ 13, 44971, "", "=q3=Tirisfal Batling", "=ds="..BabbleZone["Icecrown"]};
+				{ 14, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
+				{ 15, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
+				{ 16, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 17, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 18, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 19, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 20, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
+				{ 21, 46398, "", "=q1=Calico Cat", "=ds="..BabbleZone["Dalaran"]};
+				{ 22, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 23, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 24, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 25, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
+				{ 26, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 27, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
+				{ 28, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
+				{ 29, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
+				{ 30, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
 			};
 			{
-				{ 1, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 2, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 3, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
-				{ 4, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
-				{ 5, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
-				{ 6, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
-				{ 7, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
-				{ 8, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
-				{ 9, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 10, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
-				{ 11, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 12, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 13, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 14, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
-				{ 15, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 16, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 1, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 2, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 3, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 4, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
+				{ 5, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
+				{ 6, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
+				{ 7, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
+				{ 8, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
+				{ 9, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
+				{ 10, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 11, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
+				{ 12, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 13, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 14, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 15, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
+				{ 16, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 17, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
 			};
 		};
 		info = {
@@ -4489,13 +4490,15 @@ local moduleName = "AtlasLootCataclysm"
 				};
 				{ 6, 44738, "", "=q3=Kirin Tor Familiar", "#ACHIEVEMENTID:1956#"};
 				{ 7, 44841, "", "=q3=Little Fawn's Salt Lick", "#ACHIEVEMENTID:2516#"};
-				{ 8, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
-				{ 9, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
+				{ 8, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5875#" },--new with 4.2
+				{ 9, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
+				{ 10, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
 				{
-					{ 10, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1="..BabbleFaction["Horde"]};
-					{ 10, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1="..BabbleFaction["Alliance"]};
+					{ 11, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1="..BabbleFaction["Horde"]};
+					{ 11, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1="..BabbleFaction["Alliance"]};
 				};
-				{ 11, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
+				{ 12, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },--new with 4.2
+				{ 13, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
 				{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds="..BabbleFaction["Sha'tari Skyguard"]};
 				{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="..BabbleFaction["The Kalu'ak"]};
@@ -4984,22 +4987,25 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
-				{ 3, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
-				{ 4, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
-				{ 5, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 6, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 7, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 8, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 9, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 10, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
-				{ 11, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 12, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
-				{ 13, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
+				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },--new with 4.2
+				{ 3, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};--new with 4.2
+				{ 4, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
+				{ 5, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
+				{ 6, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 7, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 8, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 9, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 10, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 11, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 12, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 13, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
+				{ 14, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
 				{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
 				{ 17, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
-				{ 18, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
-				{ 19, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
+				{ 18, 70909, "", "=q4=Alliance War Steed", "#ACHIEVEMENTID:5823#, =ec1="..BabbleFaction["Alliance"]},--new with 4.2
+				{ 19, 70910, "", "=q4=Horde War Wolf", "#ACHIEVEMENTID:5824#, =ec1="..BabbleFaction["Horde"]},--new with 4.2
+				{ 20, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
+				{ 21, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
 			};
 		};
 		info = {
@@ -5135,7 +5141,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 27, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "=ds="..AL["Season 6"]};
 				{ 28, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "=ds="..AL["Season 7"]};
 				{ 29, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "=ds="..AL["Season 8"]};
-				{ 30, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "=ds="..AL["Season 9"]};
+				{ 30, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "=ds="..AL["Season 9"]};--new with 4.2
 			};
 		};
 		info = {
@@ -5473,17 +5479,18 @@ local moduleName = "AtlasLootCataclysm"
 				{ 30, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
 			};
 			{
-				{ 1, 70909, "", "=q4=Alliance War Steed", "=ds=" },--New Alliance PvP Mount
-				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },--Meta Reward
-				{ 3, 70910, "", "=q4=Horde War Wolf", "=ds=" },--New Horde PvP Mount
+				{ 1, 70909, "", "=q4=Alliance War Steed", "=ds=" },--New Alliance PvP Mount, already sorted
+				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },--Meta Reward, already sorted
+				{ 3, 70910, "", "=q4=Horde War Wolf", "=ds=" },--New Horde PvP Mount, already sorted
 				{ 4, 69226, "", "=q4=Green Fire Hawk Mount", "=ds=" },--Unknown
 				{ 5, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=" },--Unknown
-				{ 16, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },--Legendary guild reward
-				{ 17, 70908, "", "=q1=Feline Familiar", "=ds=" },
-				{ 18, 70160, "", "=q3=Fire Lasher", "=ds=" },
-				{ 19, 70140, "", "=q3=Hyjal Bear Cub", "=ds=" },
-				{ 20, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5875#" },
-				{ 21, 71076, "", "=q1=Creepy Crate", "=ds=" },
+				{ 6, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "=ds="..AL["Season 9"]};--already sorted
+				{ 16, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },--Legendary guild reward, already sorted
+				{ 17, 70908, "", "=q1=Feline Familiar", "=ds=" },--possibly Hallow's End reward
+				{ 18, 70160, "", "=q3=Crimson Lasher", "=ds=" },---Molten Front Daily reward, already sorted
+				{ 19, 70140, "", "=q3=Hyjal Bear Cub", "=ds=" },--Unknown
+				{ 20, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5875#" },--already sorted
+				{ 21, 71076, "", "=q1=Creepy Crate", "=ds=" },--Unknown
 			};
 		};
 		info = {
@@ -5884,6 +5891,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 24, 70126, "", "=q4=Nemesis Shell Band", "=ds=#s13#"};
 				{ 25, 70124, "", "=q4=Spirit Fragment Band", "=ds=#s13#"};
 				{ 27, 70112, "", "=q4=Globe of Moonlight", "=ds=#s15#"};
+				{ 29, 70160, "", "=q3=Crimson Lasher", "=ds=#e13#" },
 			};
 		};
 		info = {

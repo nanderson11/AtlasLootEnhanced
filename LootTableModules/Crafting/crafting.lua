@@ -2951,7 +2951,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringScope"] = {
 		["Normal"] = {
 			{
-				{ 1, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#p5# (515)"};
+				{ 1, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#sr# 515"};
 				{ 2, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
 				{ 3, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 4, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
@@ -3122,7 +3122,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringWeapon"] = {
 		["Normal"] = {
 			{
-				{ 1, "s100687", "71077", "=q4=Extreme-Impact Hole Puncher", "=ds=#p5# (525)"};
+				{ 1, "s100687", "71077", "=q4=Extreme-Impact Hole Puncher", "=ds=#sr# 525"};
 				{ 2, "s84431", "59364", "=q3=Overpowered Chicken Splitter", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
 				{ 3, "s84432", "59367", "=q3=Kickback 5000", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
 				{ 4, "s84417", "59599", "=q3=Volatile Thunderstick", "=ds=#sr# 495", "=ds="..AL["Trainer"]};

@@ -196,6 +196,19 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
 
+		["TheFirelands"] = {
+			["Bosses"] = {
+				{ "FirelandsBethtilac" },
+				{ "FirelandsRhyolith" },
+				{ "FirelandsAlysrazor" },
+				{ "FirelandsShannox" },
+				{ "FirelandsBaleroc" },
+				{ "FirelandsStaghelm" },
+				{ "FirelandsRagnaros" },
+			},
+			["Info"] = { "The Firelands", "AtlasLootCataclysm" },
+		},
+
 		["ThroneOfTheFourWinds"] = {
 			["Bosses"] = {
 				{ "TFWConclave", 2 },
