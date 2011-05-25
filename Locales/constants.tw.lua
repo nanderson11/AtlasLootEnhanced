@@ -1061,7 +1061,7 @@ if AL then
 	AL["Dinner Suit Box"] = "晚宴套裝盒";
 	AL["Bag of Heart Candies"] = "心願糖果袋";
 	AL["Hidden Stash"] = "隱密藏匿物";
-	AL["The Cache of Madness"] = "瘋狂之緣"; -- to be confirmed, should it be "狂性儲納所"?
+	AL["The Cache of Madness"] = "瘋狂之緣";
 
 	--Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";
