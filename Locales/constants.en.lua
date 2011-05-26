@@ -302,10 +302,8 @@ if AL then
 	AL["Tier 3 Set"] = true;
 	AL["Tier 4/5/6 Set"] = true;
 	AL["Tier 7/8 Set"] = true;
-	AL["Tier 8 Set"] = true;
 	AL["Tier 9 Set"] = true;
 	AL["Tier 10 Set"] = true;
-	AL["Tier 11 Set"] = true;
 	AL["Tier 11/12 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Transformation Items"] = true;

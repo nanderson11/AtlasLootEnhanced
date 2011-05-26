@@ -587,6 +587,27 @@ AtlasLoot_TextParsing = {
 	{ "#t12s9_2#", BabbleItemSet["Earthen Battleplate"] },
 	{ "#t12s10_1#", BabbleItemSet["Magma Plated Battlegear"] },
 	{ "#t12s10_2#", BabbleItemSet["Magma Plated Battlearmor"] },
+--[[
+	-- Tier 12 Sets (DO NOT ADD THIS UNTIL NAMES HAVE BEEN ADDED TO THE LIB)
+	{ "#t12s1_1#", BabbleItemSet["Obsidian Arborweave Vestments"] },
+	{ "#t12s1_2#", BabbleItemSet["Obsidian Arborweave Battlegarb"] },
+	{ "#t12s1_3#", BabbleItemSet["Obsidian Arborweave Regalia"] },
+	{ "#t12s2#", BabbleItemSet["Flamewaker's Battlegear"] },
+	{ "#t12s3#", BabbleItemSet["Firehawk Robes of Conflagration"] },
+	{ "#t12s4_1#", BabbleItemSet["Regalia of Immolation"] },
+	{ "#t12s4_2#", BabbleItemSet["Battlearmor of Immolation"] },
+	{ "#t12s4_3#", BabbleItemSet["Battleplate of Immolation"] },
+	{ "#t12s5_1#", BabbleItemSet["Regalia of the Cleansing Flame"] },
+	{ "#t12s5_2#", BabbleItemSet["Vestments of the Cleansing Flame"] },
+	{ "#t12s6#", BabbleItemSet["Vestments of the Dark Phoenix"] },
+	{ "#t12s7_1#", BabbleItemSet["Volcanic Vestments"] },
+	{ "#t12s7_2#", BabbleItemSet["Volcanic Battlegear"] },
+	{ "#t12s7_3#", BabbleItemSet["Volcanic Regalia"] },
+	{ "#t12s8#", BabbleItemSet["Balespider's Burning Vestments"] },
+	{ "#t12s9_1#", BabbleItemSet["Molten Giant Warplate"] },
+	{ "#t12s9_2#", BabbleItemSet["Molten Giant Battleplate"] },
+	{ "#t12s10_1#", BabbleItemSet["Elementium Deathplate Battlegear"] },
+	{ "#t12s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },--]]
 
 	-- Arathi Basin Sets - Alliance
 	{ "#absa1#", BabbleItemSet["The Highlander's Intent"] },

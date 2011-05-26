@@ -288,10 +288,8 @@ if AL then
 	AL["Tier 3 Set"] = "Conjunto 3";
 	AL["Tier 4/5/6 Set"] = "Conjunto 4/5/6";
 	AL["Tier 7/8 Set"] = "Conjunto 7/8";
-	AL["Tier 8 Set"] = "Conjunto 8";
 	AL["Tier 9 Set"] = "Conjunto 9";
 	AL["Tier 10 Set"] = "Conjunto 10";
-	AL["Tier 11 Set"] = "Conjunto 11";
 	AL["TCG Items"] = "Objetos TCG"; -- Trading Card Game Items
 	AL["Transformation Items"] = "Objetos de transformación";
 

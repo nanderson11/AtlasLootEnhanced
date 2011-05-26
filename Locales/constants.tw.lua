@@ -301,10 +301,8 @@ if AL then
 	AL["Tier 3 Set"] = "T3 套裝";
 	AL["Tier 4/5/6 Set"] = "T4/T5/T6 套裝";
 	AL["Tier 7/8 Set"] = "T7/T8 套裝";
-	AL["Tier 8 Set"] = "T8 套裝";
 	AL["Tier 9 Set"] = "T9 套裝";
 	AL["Tier 10 Set"] = "T10 套裝";
-	AL["Tier 11 Set"] = "T11 套裝";
 	AL["Tier 11/12 Set"] = "T11/T12 套裝";
 	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
 	AL["Transformation Items"] = "變形物品";

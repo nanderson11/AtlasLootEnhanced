@@ -301,10 +301,8 @@ if AL then
 	AL["Tier 3 Set"] = "Комплект Тира 3";
 	AL["Tier 4/5/6 Set"] = "Комплекты Тира 4/5/6";
 	AL["Tier 7/8 Set"] = "Комплекты Тира 7/8";
-	AL["Tier 8 Set"] = "Комплект Тира 8";
 	AL["Tier 9 Set"] = "Комплект Тира 9";
 	AL["Tier 10 Set"] = "Комплект Тира 10";
-	AL["Tier 11 Set"] = "Комплект Тира 11";
 	AL["TCG Items"] = "Предметы TCG";
 	AL["Transformation Items"] = "Трансформ. предметы";
 

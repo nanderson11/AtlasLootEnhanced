@@ -297,10 +297,8 @@ if AL then
 	AL["Tier 3 Set"] = "等级3套装";
 	AL["Tier 4/5/6 Set"] = "等级4/5/6套装";
 	AL["Tier 7/8 Set"] = "等级7/8套装";
-	AL["Tier 8 Set"] = "等级8套装";
 	AL["Tier 9 Set"] = "等级9套装";
 	AL["Tier 10 Set"] = "等级10套装";
-	AL["Tier 11 Set"] = "等级11套装";
 	AL["TCG Items"] = "Upper Deck 集换卡游戏物品";
 	AL["Transformation Items"] = "变形物品";
 
