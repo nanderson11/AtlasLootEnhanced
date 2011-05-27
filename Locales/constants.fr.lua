@@ -304,6 +304,7 @@ if AL then
 	--AL["Tier 7/8 Set"] = true;
 	--AL["Tier 9 Set"] = true;
 	--AL["Tier 10 Set"] = true;
+	--AL["Tier 11/12 Set"] = true;
 	AL["TCG Items"] = "Objets des cartes à jouer"; -- Trading Card Game Items
 	AL["Transformation Items"] = "Objets de transformation";
 
