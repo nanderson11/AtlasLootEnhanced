@@ -567,6 +567,7 @@ AtlasLoot_TextParsing = {
 	{ "#t11s10_1#", BabbleItemSet["Magma Plated Battlegear"] },
 	{ "#t11s10_2#", BabbleItemSet["Magma Plated Battlearmor"] },
 
+--[[ To be removed since sets have been migrated to use LIB
 	-- Tier 12 Sets (NAMES ARE MISSING, JUST PLACEHOLDER)
 	{ "#t12s1_1#", BabbleItemSet["Stormrider's Vestments"] },
 	{ "#t12s1_2#", BabbleItemSet["Stormrider's Battlegarb"] },
@@ -587,8 +588,8 @@ AtlasLoot_TextParsing = {
 	{ "#t12s9_2#", BabbleItemSet["Earthen Battleplate"] },
 	{ "#t12s10_1#", BabbleItemSet["Magma Plated Battlegear"] },
 	{ "#t12s10_2#", BabbleItemSet["Magma Plated Battlearmor"] },
---[[
-	-- Tier 12 Sets (DO NOT ADD THIS UNTIL NAMES HAVE BEEN ADDED TO THE LIB)
+]]
+	-- Tier 12 Sets
 	{ "#t12s1_1#", BabbleItemSet["Obsidian Arborweave Vestments"] },
 	{ "#t12s1_2#", BabbleItemSet["Obsidian Arborweave Battlegarb"] },
 	{ "#t12s1_3#", BabbleItemSet["Obsidian Arborweave Regalia"] },
@@ -607,7 +608,7 @@ AtlasLoot_TextParsing = {
 	{ "#t12s9_1#", BabbleItemSet["Molten Giant Warplate"] },
 	{ "#t12s9_2#", BabbleItemSet["Molten Giant Battleplate"] },
 	{ "#t12s10_1#", BabbleItemSet["Elementium Deathplate Battlegear"] },
-	{ "#t12s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },--]]
+	{ "#t12s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },
 
 	-- Arathi Basin Sets - Alliance
 	{ "#absa1#", BabbleItemSet["The Highlander's Intent"] },
