@@ -996,6 +996,10 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = true;
 	AL["The Behemoth"] = true;
 	AL["Master Elemental Shaper Krixix"] = true;
+	AL["Zen'Vorka"] = true;
+	AL["Ayla Shadowstorm"] = true;
+	AL["Damek Bloombeard"] = true;
+	AL["Varlan Highbough"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;

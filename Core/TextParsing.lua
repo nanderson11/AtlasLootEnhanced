@@ -567,28 +567,6 @@ AtlasLoot_TextParsing = {
 	{ "#t11s10_1#", BabbleItemSet["Magma Plated Battlegear"] },
 	{ "#t11s10_2#", BabbleItemSet["Magma Plated Battlearmor"] },
 
---[[ To be removed since sets have been migrated to use LIB
-	-- Tier 12 Sets (NAMES ARE MISSING, JUST PLACEHOLDER)
-	{ "#t12s1_1#", BabbleItemSet["Stormrider's Vestments"] },
-	{ "#t12s1_2#", BabbleItemSet["Stormrider's Battlegarb"] },
-	{ "#t12s1_3#", BabbleItemSet["Stormrider's Regalia"] },
-	{ "#t12s2#", BabbleItemSet["Lightning-Charged Battlegear"] },
-	{ "#t12s3#", BabbleItemSet["Firelord's Vestments"] },
-	{ "#t12s4_1#", BabbleItemSet["Reinforced Sapphirium Regalia"] },
-	{ "#t12s4_2#", BabbleItemSet["Reinforced Sapphirium Battlearmor"] },
-	{ "#t12s4_3#", BabbleItemSet["Reinforced Sapphirium Battleplate"] },
-	{ "#t12s5_1#", BabbleItemSet["Mercurial Regalia"] },
-	{ "#t12s5_2#", BabbleItemSet["Mercurial Vestments"] },
-	{ "#t12s6#", BabbleItemSet["Wind Dancer's Regalia"] },
-	{ "#t12s7_1#", BabbleItemSet["Vestments of the Raging Elements"] },
-	{ "#t12s7_2#", BabbleItemSet["Battlegear of the Raging Elements"] },
-	{ "#t12s7_3#", BabbleItemSet["Regalia of the Raging Elements"] },
-	{ "#t12s8#", BabbleItemSet["Shadowflame Regalia"] },
-	{ "#t12s9_1#", BabbleItemSet["Earthen Warplate"] },
-	{ "#t12s9_2#", BabbleItemSet["Earthen Battleplate"] },
-	{ "#t12s10_1#", BabbleItemSet["Magma Plated Battlegear"] },
-	{ "#t12s10_2#", BabbleItemSet["Magma Plated Battlearmor"] },
-]]
 	-- Tier 12 Sets
 	{ "#t12s1_1#", BabbleItemSet["Obsidian Arborweave Vestments"] },
 	{ "#t12s1_2#", BabbleItemSet["Obsidian Arborweave Battlegarb"] },
@@ -778,6 +756,7 @@ AtlasLoot_TextParsing = {
 	{ "#clogistics#", "|TInterface\\Icons\\INV_Jewelry_Necklace_16:0|t" },
 	{ "#cremulos#", "|TInterface\\Icons\\INV_Jewelry_Necklace_14:0|t" },
 	{ "#ccenarius#", "|TInterface\\Icons\\INV_Jewelry_Necklace_12:0|t" },
+	{ "#motwt#", "|TInterface\\Icons\\inv_misc_markoftheworldtree:0|t" },
 	{ "#zandalar#", "|TInterface\\Icons\\INV_Misc_Coin_08:0|t" },
 	{ "#glowcap#", "|TInterface\\Icons\\INV_Mushroom_02:0|t" },
 	{ "#ogrilashard#", "|TInterface\\Icons\\INV_Misc_Apexis_Shard:0|t" },

@@ -2670,7 +2670,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 71358, "", "=q4=Firehawk Gloves", "=ds=#s9#, #a1#"};
 				{ 2, 71357, "", "=q4=Girdle of Flame", "=ds=#s10#, #a1#"};
 				{ 3, 71356, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
-				{ 4, 70921, "", "=q4=Spaulders of Pure Flame", "=ds=#s1#, #a3#"};
+				{ 4, 70921, "", "=q4=Spaulders of Pure Flame", "=ds=#s3#, #a4#"};
 				{ 6, 71354, "", "=q4=Choker of the Firelord", "=ds=#s2#"};
 				{ 7, 68994, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
 				{ 8, 68925, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
@@ -2678,7 +2678,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 71355, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
 				{ 17, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
 				{ 18, 71353, "", "=q4=Arathar, the Wings of Flame", "=ds=#w2#"};
-				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=" },
+				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
 			};
 		};
 		["Heroic"] = {
@@ -2686,7 +2686,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 71614, "", "=q4=Firehawk Gloves", "=ds=#s9#, #a1#"};
 				{ 2, 71613, "", "=q4=Girdle of Flame", "=ds=#s10#, #a1#"};
 				{ 3, 71616, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
-				{ 4, 71612, "", "=q4=Spaulders of Pure Flame", "=ds=#s1#, #a3#"};
+				{ 4, 71612, "", "=q4=Spaulders of Pure Flame", "=ds=#s3#, #a4#"};
 				{ 6, 71610, "", "=q4=Choker of the Firelord", "=ds=#s2#"};
 				{ 7, 69150, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
 				{ 8, 69110, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
@@ -2694,11 +2694,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 71615, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
 				{ 17, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
 				{ 18, 71611, "", "=q4=Arathar, the Wings of Flame", "=ds=#w2#"};
-				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=" },
+				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
 			};
 		};
 		info = {
-			name = "Ragnaros",
+			name = BabbleBoss["Ragnaros"],
 			module = moduleName, instance = "TheFirelands",
 		};
 	};
@@ -4880,55 +4880,56 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsMerchant"] = {
 		["Normal"] = {
 			{
-				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..BabbleZone["Icecrown"]};
+				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
 				{ 2, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
-				{ 3, 70160, "", "=q3=Crimson Lasher", "=ds=" },---Molten Front Daily reward, new with 4.2
-				{ 4, 44970, "", "=q3=Dun Morogh Cub", "=ds="..BabbleZone["Icecrown"]};
-				{ 5, 44973, "", "=q3=Durotar Scorpion", "=ds="..BabbleZone["Icecrown"]};
-				{ 6, 44974, "", "=q3=Elwynn Lamb", "=ds="..BabbleZone["Icecrown"]};
-				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds="..BabbleZone["Icecrown"]};
+				{ 3, 70160, "", "=q3=Crimson Lasher", "=ds=Molten Front" },---Molten Front Daily reward, new with 4.2
+				{ 4, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
+				{ 5, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
+				{ 6, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
+				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
 				{ 8, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
-				{ 9, 45002, "", "=q3=Mechanopeep", "=ds="..BabbleZone["Icecrown"]};
-				{ 10, 44980, "", "=q3=Mulgore Hatchling", "=ds="..BabbleZone["Icecrown"]};
-				{ 11, 45606, "", "=q3=Sen'jin Fetish", "=ds="..BabbleZone["Icecrown"]};
-				{ 12, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..BabbleZone["Icecrown"]};
-				{ 13, 44971, "", "=q3=Tirisfal Batling", "=ds="..BabbleZone["Icecrown"]};
-				{ 14, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
-				{ 15, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
-				{ 16, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 17, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 18, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 19, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 20, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
-				{ 21, 46398, "", "=q1=Calico Cat", "=ds="..BabbleZone["Dalaran"]};
-				{ 22, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 23, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 24, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 25, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
-				{ 26, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 27, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
-				{ 28, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
-				{ 29, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
-				{ 30, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
+				{ 9, 70140, "", "=q3=Hyjal Bear Cub", "=ds=Molten Front" },---Molten Front Daily reward, new with 4.2
+				{ 10, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
+				{ 11, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
+				{ 12, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
+				{ 13, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
+				{ 14, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
+				{ 15, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
+				{ 16, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
+				{ 17, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 18, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 19, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 20, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 21, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
+				{ 22, 46398, "", "=q1=Calico Cat", "=ds="..BabbleZone["Dalaran"]};
+				{ 23, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 24, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 25, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 26, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
+				{ 27, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 28, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
+				{ 29, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
+				{ 30, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
 			};
 			{
-				{ 1, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 2, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 3, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 4, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
-				{ 5, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
-				{ 6, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
-				{ 7, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
-				{ 8, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
-				{ 9, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
-				{ 10, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 11, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
-				{ 12, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 13, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 14, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 15, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
-				{ 16, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 17, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 1, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
+				{ 2, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 3, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 4, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 5, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
+				{ 6, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
+				{ 7, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
+				{ 8, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
+				{ 9, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
+				{ 10, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
+				{ 11, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 12, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
+				{ 13, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 14, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 15, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 16, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
+				{ 17, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
+				{ 18, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
 			};
 		};
 		info = {
@@ -6023,7 +6024,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 71665, "", "=q4=Flametalon of Alysrazor", "=ds=#s14#" },--Unknown
 				{ 2, 69226, "", "=q4=Green Fire Hawk Mount", "=ds=" },--Unknown
 				{ 16, 70908, "", "=q1=Feline Familiar", "=ds=" },--possibly Hallow's End reward
-				{ 17, 70140, "", "=q3=Hyjal Bear Cub", "=ds=" },--Unknown
+				--Unknown
 				{ 18, 71076, "", "=q1=Creepy Crate", "=ds=" },--Unknown
 			};
 		};
@@ -6036,30 +6037,71 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["MoltenFront"] = {
 		["Normal"] = {
 			{
-				{ 1, 70118, "", "=q4=Widow's Clutches", "=ds=#s9#, #a1#"};
-				{ 2, 70122, "", "=q4=Aviana's Grips", "=ds=#s9#, #a2#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Zen'Vorka"], ""};
+				{ 2, 70108, "", "=q4=Pyrelord Greaves", "=ds=#s12#, #a4#"};
+				{ 3, 70105, "", "=q4=Matoclaw's Band", "=ds=#s13#"};
+				{ 17, 70107, "", "=q4=Fireheart Necklace", "=ds=#s2#"};
+				{ 18, 70106, "", "=q4=Nightweaver's Amulet", "=ds=#s2#"};
+				{ 5, 71087, "", "=q2=Gilneas Writ of Commendation", "=ds=30 #motwt#"};
+				{ 6, 70145, "", "=q2=Darnassus Writ of Commendation", "=ds=30 #motwt#"};
+				{ 7, 70146, "", "=q2=Exodar Writ of Commendation", "=ds=30 #motwt#"};
+				{ 8, 70147, "", "=q2=Gnomeregan Writ of Commendation", "=ds=30 #motwt#"};
+				{ 9, 70148, "", "=q2=Ironforge Writ of Commendation", "=ds=30 #motwt#"};
+				{ 10, 70152, "", "=q2=Stormwind Writ of Commendation", "=ds=30 #motwt#"};
+				{ 20, 71088, "", "=q2=Bilgewater Writ of Commendation", "=ds=30 #motwt#"};
+				{ 21, 70149, "", "=q2=Orgrimmar Writ of Commendation", "=ds=30 #motwt#"};
+				{ 22, 70154, "", "=q2=Undercity Writ of Commendation", "=ds=30 #motwt#"};
+				{ 23, 70153, "", "=q2=Thunder Bluff Writ of Commendation", "=ds=30 #motwt#"};
+				{ 24, 70150, "", "=q2=Sen'jin Writ of Commendation", "=ds=30 #motwt#"};
+				{ 25, 70151, "", "=q2=Silvermoon Writ of Commendation", "=ds=30 #motwt#"};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Ayla Shadowstorm"], "=q1=#m4#: #QUESTID:29279#"};
+				{ 2, 70110, "", "=q4=Band of Glittering Lights", "=ds=#s13#"};
+				{ 3, 70113, "", "=q4=Moon Blessed Band", "=ds=#s13#"};
+				{ 4, 70142, "", "=q4=Moonwell Chalice", "=ds=#s14#"};
+				{ 5, 70143, "", "=q4=Moonwell Phial", "=ds=#s14#"};
+				{ 6, 70112, "", "=q4=Globe of Moonlight", "=ds=#s15#"};
+				{ 7, 70111, "", "=q4=Relic of Elune's Light", "=ds=#s16#"};
+				{ 8, 70109, "", "=q4=Relic of Elune's Shadow", "=ds=#s16#"};
+				{ 9, 70175, "", "=q3=Pattern: Triple-Reinforced Mining Bag", "=ds=#p7# (500)"},
+				{ 10, 70174, "", "=q3=Pattern: Royal Scribe's Satchel", "=ds=#p7# (510)"},
+				{ 11, 70176, "", "=q3=Pattern: Luxurious Silk Gem Bag", "=ds=#p8# (515)"},
+				{ 12, 70160, "", "=q3=Crimson Lasher", "=ds=#e13#"},
+				{ 13, 70160, "", "=q3=Mushroom Chair", "=ds=#m20#"},
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Varlan Highbough"], "=q1=#m4#: #QUESTID:29283#"};
+				{ 17, 70122, "", "=q4=Aviana's Grips", "=ds=#s9#, #a2#"};		
+				{ 18, 70123, "", "=q4=Lancer's Greaves", "=ds=#s12#, #a3#"};
+				{ 19, 70127, "", "=q4=Lylagar Horn Ring", "=ds=#s13#"};
+				{ 20, 70126, "", "=q4=Nemesis Shell Band", "=ds=#s13#"};
+				{ 21, 70124, "", "=q4=Spirit Fragment Band", "=ds=#s13#"};
+				{ 22, 70141, "", "=q4=Dwyer's Caber", "=ds=#s15#"};
+				{ 23, 70125, "", "=q4=Relic of Lo'Gosh", "=ds=#s16#"};
+				{ 24, 70128, "", "=q4=Relic of Tortolla", "=ds=#s16#"};
+				{ 25, 70140, "", "=q3=Hyjal Bear Cub", "=ds=#e13#"},
+				{ 26, 70159, "", "=q3=Mylune's Call", "=ds=#m20#"},
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Damek Bloombeard"], "=q1=#m4#: #QUESTID:29281#"};
+				{ 2, 70118, "", "=q4=Widow's Clutches", "=ds=#s9#, #a1#"};
 				{ 3, 70114, "", "=q4=Fireplume Girdle", "=ds=#s10#, #a2#"};
 				{ 4, 70115, "", "=q4=Fiery Treads", "=ds=#s12#, #a3#"};
-				{ 5, 70123, "", "=q4=Lancer's Greaves", "=ds=#s12#, #a3#"};
+				{ 5, 70121, "", "=q4=Ricket's Gun Show", "=ds=#s8#, #a4#"};
 				{ 6, 70116, "", "=q4=Gauntlets of Living Obsidium", "=ds=#s9#, #a4#"};
 				{ 7, 70117, "", "=q4=Belt of Living Obsidium", "=ds=#s10#, #a4#"};
 				{ 8, 70120, "", "=q4=Rickety Belt", "=ds=#s10#, #a4#"};
-				{ 9, 70108, "", "=q4=Pyrelord Greaves", "=ds=#s12#, #a4#"};
-				{ 11, 70111, "", "=q4=Relic of Elune's Light", "=ds=#s16#"};
-				{ 12, 70109, "", "=q4=Relic of Elune's Shadow", "=ds=#s16#"};
-				{ 13, 70125, "", "=q4=Relic of Lo'Gosh", "=ds=#s16#"};
-				{ 14, 70128, "", "=q4=Relic of Tortolla", "=ds=#s16#"};
-				{ 16, 70107, "", "=q4=Fireheart Necklace", "=ds=#s2#"};
-				{ 17, 70106, "", "=q4=Nightweaver's Amulet", "=ds=#s2#"};
-				{ 19, 70110, "", "=q4=Band of Glittering Lights", "=ds=#s13#"};
-				{ 20, 70127, "", "=q4=Lylagar Horn Ring", "=ds=#s13#"};
-				{ 21, 70105, "", "=q4=Matoclaw's Band", "=ds=#s13#"};
-				{ 22, 70119, "", "=q4=Meteorite Ring", "=ds=#s13#"};
-				{ 23, 70113, "", "=q4=Moon Blessed Band", "=ds=#s13#"};
-				{ 24, 70126, "", "=q4=Nemesis Shell Band", "=ds=#s13#"};
-				{ 25, 70124, "", "=q4=Spirit Fragment Band", "=ds=#s13#"};
-				{ 27, 70112, "", "=q4=Globe of Moonlight", "=ds=#s15#"};
-				{ 29, 70160, "", "=q3=Crimson Lasher", "=ds=#e13#" },
+				{ 9, 70119, "", "=q4=Meteorite Ring", "=ds=#s13#"};
+				{ 10, 70144, "", "=q4=Ricket's Magnetic Fireball", "=ds=#s14#"};
+				{ 17, 70166, "", "=q3=Plans: Brainsplinter", "=ds=#p2# (525)"};
+				{ 18, 70169, "", "=q3=Plans: Elementium-Edged Scalper", "=ds=#p2# (525)"};
+				{ 19, 70168, "", "=q3=Plans: Lightforged Elementium Hammer", "=ds=#p2# (525)"};
+				{ 20, 70172, "", "=q3=Plans: Masterwork Elementium Deathblade", "=ds=#p2# (525)"};
+				{ 21, 70167, "", "=q3=Plans: Masterwork Elementium Spellblade", "=ds=#p2# (525)"};
+				{ 22, 70170, "", "=q3=Plans: Pyrium Spellward", "=ds=#p2# (525)"};
+				{ 23, 70171, "", "=q3=Plans: Unbreakable Guardian", "=ds=#p2# (525)"};
+				{ 24, 70173, "", "=q3=Plans: Witch-Hunter's Harvester", "=ds=#p2# (525)"};
+				{ 25, 70177, "", "=q3=Schematic: Flintlocke's Woodchucker", "=ds=#p5# (515)"};
+				{ 26, 71078, "", "=q3=Schematic: Extreme-Impact Hole Puncher", "=ds=#p5# (525)"};
 			};
 		};
 		info = {
