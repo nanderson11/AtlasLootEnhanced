@@ -9,6 +9,7 @@ v6.04.00 (? ?, 2011)
 Compatible with Patch 4.2.
 Added support for Atlas 1.20.0.
 Added Firelands Raid loot Normal and Heroic.
+Added new Baradin Hold boss.
 Added new faction: Avengers of Hyjal.
 Added Tier 12 Raid Set.
 Added Season 10 PvP Items.

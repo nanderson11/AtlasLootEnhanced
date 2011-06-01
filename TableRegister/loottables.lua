@@ -192,6 +192,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BaradinsWardens", 1, hide = true },
 				{ "HellscreamsReach", 2, hide = true },
 				{ "ARGALOTH", 4 },
+				{ "OCCUTHAR" },
 			},
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
