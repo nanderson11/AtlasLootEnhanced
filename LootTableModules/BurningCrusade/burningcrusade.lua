@@ -5513,7 +5513,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 13, 27839, "", "=q3=Legplates of the Righteous", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
 				{ 16, 0, "INV_Helmet_08", "=q6=#ds3s12#", ""};
 				{ 17, 28225, "", "=q3=Doomplate Warhelm", "=ds="..BabbleBoss["Epoch Hunter"].." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 18, 27771, "", "=q3=Doomplate Shouldergards", "=ds="..BabbleBoss["The Black Stalker"].." (#j3#)"};
+				{ 18, 27771, "", "=q3=Doomplate Shoulderguards", "=ds="..BabbleBoss["The Black Stalker"].." (#j3#)"};
 				{ 19, 28403, "", "=q3=Doomplate Chestguard", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
 				{ 20, 27497, "", "=q3=Doomplate Gauntlets", "=ds="..BabbleBoss["Keli'dan the Breaker"].." ("..BabbleZone["The Blood Furnace"]..") (#j3#)"};
 				{ 21, 27870, "", "=q3=Doomplate Legguards", "=ds="..BabbleBoss["Exarch Maladaar"].." ("..BabbleZone["Auchenai Crypts"]..") (#j3#)"};

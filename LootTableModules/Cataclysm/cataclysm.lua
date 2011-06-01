@@ -1827,9 +1827,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
 				{ 21, 60443, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#", ""};
 				{ 22, 60445, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#", ""};
-				{ 23, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-				{ 24, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#", ""};
-				{ 25, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#", ""};
+				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 25, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#", ""};
+				{ 26, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#", ""};
 			};
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
@@ -4975,19 +4975,19 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 2, 60847, "", "=q4=Crawling Claw", "=q2=#p25#"};
 				{ 3, 64372, "", "=q3=Clockwork Gnome", "=q2=#p25#"};
-				{ 4, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
-				{ 5, 67282, "", "=q3=Elementium Geode", "=q2=#p23#"};
-				{ 6, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
-				{ 7, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
-				{ 8, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
-				{ 9, 69821, "", "=q3=Pterrordax Hatchling", "=q2=#p25#"};
+				{ 4, 67282, "", "=q3=Elementium Geode", "=q2=#p23#"};
+				{ 5, 67274, "", "=q3=Enchanted Lantern", "=q2=#p4#"};
+				{ 6, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
+				{ 7, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
+				{ 8, 69821, "", "=q3=Pterrordax Hatchling", "=q2=#p25#"};
 				{ 10, 69824, "", "=q3=Voodoo Figurine", "=q2=#p25#"};
-				{ 17, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
-				{ 18, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
-				{ 19, 11826, "", "=q1=Lil' Smoky", "=q2=#p5#"};
-				{ 20, 4401, "", "=q1=Mechanical Squirrel Box", "=q2=#p5#"};
-				{ 21, 11825, "", "=q1=Pet Bombling", "=q2=#p5#"};
-				{ 22, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2=#p5#"};
+				{ 17, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
+				{ 18, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
+				{ 19, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
+				{ 20, 11826, "", "=q1=Lil' Smoky", "=q2=#p5#"};
+				{ 21, 4401, "", "=q1=Mechanical Squirrel Box", "=q2=#p5#"};
+				{ 22, 11825, "", "=q1=Pet Bombling", "=q2=#p5#"};
+				{ 23, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2=#p5#"};
 			};
 		};
 		info = {
@@ -5020,7 +5020,7 @@ local moduleName = "AtlasLootCataclysm"
 					{ 12, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1="..BabbleFaction["Horde"]};
 					{ 12, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1="..BabbleFaction["Alliance"]};
 				};
-				{ 13, 71387, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5877#" },--new with 4.2
+				{ 13, 71387, "", "=q1=Brilliant Kaliri", "#ACHIEVEMENTID:5877#" },--new with 4.2
 				{ 14, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },--new with 4.2
 				{ 15, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};

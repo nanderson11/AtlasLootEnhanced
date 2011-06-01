@@ -542,8 +542,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 4, 20391, "", "=q1=Gnome Male Mask", "=ds=#s1#"};
 				{ 5, 49210, "", "=q1=Goblin Male Mask", "=ds=#s1#"};
 				{ 6, 20566, "", "=q1=Human Male Mask", "=ds=#s1#"};
-				{ 7, 20564, "", "=q1=Night Male Elf Mask", "=ds=#s1#"};
-				{ 8, 34002, "", "=q1=Blood Male Elf Mask", "=ds=#s1#"};
+				{ 7, 20564, "", "=q1=Night Elf Male Mask", "=ds=#s1#"};
+				{ 8, 34002, "", "=q1=Blood Elf Male Mask", "=ds=#s1#"};
 				{ 9, 20570, "", "=q1=Orc Male Mask", "=ds=#s1#"};
 				{ 10, 20572, "", "=q1=Tauren Male Mask", "=ds=#s1#"};
 				{ 11, 20568, "", "=q1=Troll Male Mask", "=ds=#s1#"};

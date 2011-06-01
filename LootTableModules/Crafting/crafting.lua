@@ -2951,7 +2951,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringScope"] = {
 		["Normal"] = {
 			{
-				{ 1, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#sr# 515"};
+				{ 1, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#sr# 515", "=ds=Molten Front"};
 				{ 2, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
 				{ 3, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 4, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
@@ -3122,7 +3122,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringWeapon"] = {
 		["Normal"] = {
 			{
-				{ 1, "s100687", "71077", "=q4=Extreme-Impact Hole Puncher", "=ds=#sr# 525"};
+				{ 1, "s100687", "71077", "=q4=Extreme-Impact Hole Puncher", "=ds=#sr# 525", "=ds=Molten Front"};
 				{ 2, "s84431", "59364", "=q3=Overpowered Chicken Splitter", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
 				{ 3, "s84432", "59367", "=q3=Kickback 5000", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
 				{ 4, "s84417", "59599", "=q3=Volatile Thunderstick", "=ds=#sr# 495", "=ds="..AL["Trainer"]};
@@ -5507,46 +5507,48 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherDrumsBagsMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s69386", "49633", "=q1=Drums of Forgotten Kings", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
-				{ 2, "s69388", "49634", "=q1=Drums of the Wild", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
-				{ 3, "s50971", "38347", "=q3=Mammoth Mining Bag", "=ds=#sr# 415", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Honored"] };
-				{ 4, "s60643", "44446", "=q3=Pack of Endless Pockets", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
-				{ 5, "s50970", "38399", "=q3=Trapper's Traveling Pack", "=ds=#sr# 415", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Revered"] };
-				{ 6, "s35538", "29532", "=q2=Drums of Panic", "=ds=#sr# 370", "=ds="..BabbleFaction["Keepers of Time"].." - "..BabbleFaction["Honored"] };
-				{ 7, "s35543", "29529", "=q3=Drums of Battle", "=ds=#sr# 365", "=ds="..BabbleFaction["The Sha'tar"].." - "..BabbleFaction["Honored"] };
-				{ 8, "s44359", "34105", "=q3=Quiver of a Thousand Feathers", "=ds=#sr# 360" };
-				{ 9, "s45117", "34490", "=q3=Bag of Many Hides", "=ds=#sr# 350", "=ds="..AL["Drop"]..": "..BabbleZone["Terokkar Forest"] };
-				{ 10, "s32461", "25653", "=q3=Riding Crop", "=ds=#sr# 350", "=ds="..AL["Vendor"]..": "..BabbleZone["Old Hillsbrad Foothills"] };
+				{ 1, "s100583", "70136", "=q3=Royal Scribe's Satchel", "=ds=#sr# 510", "=ds=Molten Front"};
+				{ 2, "s100586", "70137", "=q3=Triple-Reinforced Mining Bag", "=ds=#sr# 500", "=ds=Molten Front"};
+				{ 3, "s69386", "49633", "=q1=Drums of Forgotten Kings", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
+				{ 4, "s69388", "49634", "=q1=Drums of the Wild", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
+				{ 5, "s50971", "38347", "=q3=Mammoth Mining Bag", "=ds=#sr# 415", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Honored"] };
+				{ 6, "s60643", "44446", "=q3=Pack of Endless Pockets", "=ds=#sr# 415", "=ds="..AL["Trainer"] };
+				{ 7, "s50970", "38399", "=q3=Trapper's Traveling Pack", "=ds=#sr# 415", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Revered"] };
+				{ 8, "s35538", "29532", "=q2=Drums of Panic", "=ds=#sr# 370", "=ds="..BabbleFaction["Keepers of Time"].." - "..BabbleFaction["Honored"] };
+				{ 9, "s35543", "29529", "=q3=Drums of Battle", "=ds=#sr# 365", "=ds="..BabbleFaction["The Sha'tar"].." - "..BabbleFaction["Honored"] };
+				{ 10, "s44359", "34105", "=q3=Quiver of a Thousand Feathers", "=ds=#sr# 360" };
+				{ 11, "s45117", "34490", "=q3=Bag of Many Hides", "=ds=#sr# 350", "=ds="..AL["Drop"]..": "..BabbleZone["Terokkar Forest"] };
+				{ 16, "s32461", "25653", "=q3=Riding Crop", "=ds=#sr# 350", "=ds="..AL["Vendor"]..": "..BabbleZone["Old Hillsbrad Foothills"] };
 				{
-					{ 16, "s35539", "29531", "=q2=Drums of Restoration", "=ds=#sr# 350", "=ds="..BabbleFaction["The Mag'har"].." - "..BabbleFaction["Honored"] };
-					{ 16, "s35539", "29531", "=q2=Drums of Restoration", "=ds=#sr# 350", "=ds="..BabbleFaction["Kurenai"].." - "..BabbleFaction["Honored"] };
+					{ 17, "s35539", "29531", "=q2=Drums of Restoration", "=ds=#sr# 350", "=ds="..BabbleFaction["The Mag'har"].." - "..BabbleFaction["Honored"] };
+					{ 17, "s35539", "29531", "=q2=Drums of Restoration", "=ds=#sr# 350", "=ds="..BabbleFaction["Kurenai"].." - "..BabbleFaction["Honored"] };
 				};
 				{
-					{ 17, "s35544", "29530", "=q2=Drums of Speed", "=ds=#sr# 345", "=ds="..BabbleFaction["The Mag'har"].." - "..BabbleFaction["Honored"] };
-					{ 17, "s35544", "29530", "=q2=Drums of Speed", "=ds=#sr# 345", "=ds="..BabbleFaction["Kurenai"].." - "..BabbleFaction["Honored"] };
+					{ 18, "s35544", "29530", "=q2=Drums of Speed", "=ds=#sr# 345", "=ds="..BabbleFaction["The Mag'har"].." - "..BabbleFaction["Honored"] };
+					{ 18, "s35544", "29530", "=q2=Drums of Speed", "=ds=#sr# 345", "=ds="..BabbleFaction["Kurenai"].." - "..BabbleFaction["Honored"] };
 				};
-				{ 18, "s35540", "29528", "=q2=Drums of War", "=ds=#sr# 340", "=ds="..AL["Trainer"] };
+				{ 19, "s35540", "29528", "=q2=Drums of War", "=ds=#sr# 340", "=ds="..AL["Trainer"] };
 				{
-					{ 19, "s35530", "29540", "=q2=Reinforced Mining Bag", "=ds=#sr# 325", "=ds="..BabbleFaction["The Mag'har"].." - "..BabbleFaction["Honored"] };
-					{ 19, "s35530", "29540", "=q2=Reinforced Mining Bag", "=ds=#sr# 325", "=ds="..BabbleFaction["Kurenai"].." - "..BabbleFaction["Honored"] };
+					{ 20, "s35530", "29540", "=q2=Reinforced Mining Bag", "=ds=#sr# 325", "=ds="..BabbleFaction["The Mag'har"].." - "..BabbleFaction["Honored"] };
+					{ 20, "s35530", "29540", "=q2=Reinforced Mining Bag", "=ds=#sr# 325", "=ds="..BabbleFaction["Kurenai"].." - "..BabbleFaction["Honored"] };
 				};
-				{ 20, "s45100", "34482", "=q2=Leatherworker's Satchel", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
+				{ 21, "s45100", "34482", "=q2=Leatherworker's Satchel", "=ds=#sr# 300", "=ds="..AL["Trainer"] };
 				{
-					{ 21, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300", "=ds="..AL["Vendor"].." - "..BabbleZone["Silvermoon City"] };
-					{ 21, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300", "=ds="..AL["Vendor"].." - "..BabbleZone["The Exodar"] };
-				};
-				{
-					{ 22, "s44953", "34086", "=q1=Winter Boots", "=ds=#sr# 285", "=ds="..AL["Feast of Winter Veil"].." "..AL["Vendor"]..": "..BabbleZone["Orgrimmar"] };
-					{ 22, "s44953", "34086", "=q1=Winter Boots", "=ds=#sr# 285", "=ds="..AL["Feast of Winter Veil"].." "..AL["Vendor"]..": "..BabbleZone["Ironforge"] };
-				};
-				{ 23, "s22815", "18258", "=q2=Gordok Ogre Suit", "=ds=#sr# 275", "=ds="..AL["Old Quest Reward"] };
-				{
-					{ 24, "s23190", "18662", "=q1=Heavy Leather Ball", "=ds=#sr# 150", "=ds="..AL["Vendor"]..": "..BabbleZone["Orgrimmar"] };
-					{ 24, "s23190", "18662", "=q1=Heavy Leather Ball", "=ds=#sr# 150", "=ds="..AL["Vendor"]..": "..BabbleZone["Ironforge"] };
+					{ 22, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300", "=ds="..AL["Vendor"].." - "..BabbleZone["Silvermoon City"] };
+					{ 22, "s32482", "25679", "=q1=Comfortable Insoles", "=ds=#sr# 300", "=ds="..AL["Vendor"].." - "..BabbleZone["The Exodar"] };
 				};
 				{
-					{ 25, "s5244", "5081", "=q1=Kodo Hide Bag", "=ds=#sr# 40", "=ds=#QUESTID:769#" };
-					{ 25, "", "", "", "" };
+					{ 23, "s44953", "34086", "=q1=Winter Boots", "=ds=#sr# 285", "=ds="..AL["Feast of Winter Veil"].." "..AL["Vendor"]..": "..BabbleZone["Orgrimmar"] };
+					{ 23, "s44953", "34086", "=q1=Winter Boots", "=ds=#sr# 285", "=ds="..AL["Feast of Winter Veil"].." "..AL["Vendor"]..": "..BabbleZone["Ironforge"] };
+				};
+				{ 24, "s22815", "18258", "=q2=Gordok Ogre Suit", "=ds=#sr# 275", "=ds="..AL["Old Quest Reward"] };
+				{
+					{ 25, "s23190", "18662", "=q1=Heavy Leather Ball", "=ds=#sr# 150", "=ds="..AL["Vendor"]..": "..BabbleZone["Orgrimmar"] };
+					{ 25, "s23190", "18662", "=q1=Heavy Leather Ball", "=ds=#sr# 150", "=ds="..AL["Vendor"]..": "..BabbleZone["Ironforge"] };
+				};
+				{
+					{ 26, "s5244", "5081", "=q1=Kodo Hide Bag", "=ds=#sr# 40", "=ds=#QUESTID:769#" };
+					{ 26, "", "", "", "" };
 				};
 			};
 		};
@@ -6181,44 +6183,45 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, "s75308", "54444", "=q3=Illusionary Bag", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 2, "s75268", "54446", "=q2=Hyjal Expedition Bag", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
-				{ 3, "s75264", "54443", "=q2=Embersilk Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				{ 4, "s75265", "54445", "=q3=Otherworldly Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				{ 5, "s56007", "41599", "=q2=Frostweave Bag", "=ds=#sr# 410", "=ds="..AL["Trainer"] };
-				{ 6, "s56005", "41600", "=q3=Glacial Bag", "=ds=#sr# 445", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Exalted"] };
-				{ 7, "s56006", "41598", "=q3=Mysterious Bag", "=ds=#sr# 440", "=ds="..BabbleFaction["The Wyrmrest Accord"].." - "..BabbleFaction["Revered"] };
-				{ 8, "s56004", "41597", "=q3=Abyssal Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["Knights of the Ebon Blade"].." - "..BabbleFaction["Revered"] };
-				{ 9, "s63924", "45773", "=q3=Emerald Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Revered"] };
-				{ 10, "s26759", "21872", "=q3=Ebon Shadowbag",  "=ds=#sr# 375", "=ds="..AL["Vendor"] };
-				{ 11, "s50194", "38225", "=q3=Mycah's Botanical Bag", "=ds=#sr# 375", "=ds="..BabbleFaction["Sporeggar"].." - "..BabbleFaction["Revered"] };
-				{ 12, "s26763", "21876", "=q3=Primal Mooncloth Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
-				{ 13, "s26755", "21858", "=q3=Spellfire Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
-				{ 14, "s31459", "24270", "=q2=Bag of Jewels", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
-				{ 15, "s26749", "21843", "=q2=Imbued Netherweave Bag", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
-				{ 16, "s26746", "21841", "=q2=Netherweave Bag", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
-				{ 17, "s26087", "21342", "=q4=Core Felcloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Molten Core"] };
-				{ 18, "s18455", "14156", "=q3=Bottomless Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
-				{ 19, "s27660", "22249", "=q2=Big Bag of Enchantment", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Dire Maul"] };
-				{ 20, "s18445", "14155", "=q2=Mooncloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
-				{ 21, "s27725", "22252", "=q2=Satchel of Cenarius", "=ds=#sr# 300", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Revered"] };
-				{ 22, "s26086", "21341", "=q3=Felcloth Bag", "=ds=#sr# 280", "=ds="..AL["Drop"]..": "..BabbleZone["Scholomance"] };
-				{ 23, "s27659", "22248", "=q2=Enchanted Runecloth Bag", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Silithus"]};
-				{ 24, "s27724", "22251", "=q2=Cenarion Herb Bag", "=ds=#sr# 275", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Friendly"] };
-				{ 25, "s26085", "21340", "=q2=Soul Pouch", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 26, "s27658", "22246", "=q2=Enchanted Mageweave Pouch", "=ds=#sr# 225", "=ds="..AL["Vendor"]..""};
-				{ 27, "s18405", "14046", "=q1=Runecloth Bag", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Winterspring"]};
-				{ 28, "s12079", "10051", "=q1=Red Mageweave Bag", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
-				{ 29, "s12065", "10050", "=q1=Mageweave Bag", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
-				{ 30, "s6695", "5765", "=q1=Black Silk Pack", "=ds=#sr# 185", "=ds="..AL["Drop"]};
+				{ 2, "s100585", "70138", "=q3=Luxurious Silk Gem Bag", "=ds=#sr# 515", "=ds=Molten Front"};
+				{ 3, "s75268", "54446", "=q2=Hyjal Expedition Bag", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
+				{ 4, "s75264", "54443", "=q2=Embersilk Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 5, "s75265", "54445", "=q3=Otherworldly Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 6, "s56007", "41599", "=q2=Frostweave Bag", "=ds=#sr# 410", "=ds="..AL["Trainer"] };
+				{ 7, "s56005", "41600", "=q3=Glacial Bag", "=ds=#sr# 445", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Exalted"] };
+				{ 8, "s56006", "41598", "=q3=Mysterious Bag", "=ds=#sr# 440", "=ds="..BabbleFaction["The Wyrmrest Accord"].." - "..BabbleFaction["Revered"] };
+				{ 9, "s56004", "41597", "=q3=Abyssal Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["Knights of the Ebon Blade"].." - "..BabbleFaction["Revered"] };
+				{ 10, "s63924", "45773", "=q3=Emerald Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Revered"] };
+				{ 11, "s26759", "21872", "=q3=Ebon Shadowbag",  "=ds=#sr# 375", "=ds="..AL["Vendor"] };
+				{ 12, "s50194", "38225", "=q3=Mycah's Botanical Bag", "=ds=#sr# 375", "=ds="..BabbleFaction["Sporeggar"].." - "..BabbleFaction["Revered"] };
+				{ 13, "s26763", "21876", "=q3=Primal Mooncloth Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
+				{ 14, "s26755", "21858", "=q3=Spellfire Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
+				{ 15, "s31459", "24270", "=q2=Bag of Jewels", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
+				{ 16, "s26749", "21843", "=q2=Imbued Netherweave Bag", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
+				{ 17, "s26746", "21841", "=q2=Netherweave Bag", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
+				{ 18, "s26087", "21342", "=q4=Core Felcloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Molten Core"] };
+				{ 19, "s18455", "14156", "=q3=Bottomless Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
+				{ 20, "s27660", "22249", "=q2=Big Bag of Enchantment", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Dire Maul"] };
+				{ 21, "s18445", "14155", "=q2=Mooncloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
+				{ 22, "s27725", "22252", "=q2=Satchel of Cenarius", "=ds=#sr# 300", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Revered"] };
+				{ 23, "s26086", "21341", "=q3=Felcloth Bag", "=ds=#sr# 280", "=ds="..AL["Drop"]..": "..BabbleZone["Scholomance"] };
+				{ 24, "s27659", "22248", "=q2=Enchanted Runecloth Bag", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Silithus"]};
+				{ 25, "s27724", "22251", "=q2=Cenarion Herb Bag", "=ds=#sr# 275", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Friendly"] };
+				{ 26, "s26085", "21340", "=q2=Soul Pouch", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 27, "s27658", "22246", "=q2=Enchanted Mageweave Pouch", "=ds=#sr# 225", "=ds="..AL["Vendor"]..""};
+				{ 28, "s18405", "14046", "=q1=Runecloth Bag", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Winterspring"]};
+				{ 29, "s12079", "10051", "=q1=Red Mageweave Bag", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
+				{ 30, "s12065", "10050", "=q1=Mageweave Bag", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s6693", "5764", "=q1=Green Silk Pack", "=ds=#sr# 175", "=ds="..AL["Drop"]};
-				{ 2, "s3813", "4245", "=q1=Small Silk Pack", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
-				{ 3, "s6688", "5763", "=q1=Red Woolen Bag", "=ds=#sr# 115", "=ds="..AL["Vendor"] };
-				{ 4, "s3758", "4241", "=q1=Green Woolen Bag", "=ds=#sr# 95", "=ds="..AL["Drop"]};
-				{ 5, "s3757", "4240", "=q1=Woolen Bag", "=ds=#sr# 80", "=ds="..AL["Trainer"] };
-				{ 6, "s6686", "5762", "=q1=Red Linen Bag", "=ds=#sr# 70", "=ds="..AL["Vendor"] };
-				{ 7, "s3755", "4238", "=q1=Linen Bag", "=ds=#sr# 45", "=ds="..AL["Trainer"] };
+				{ 1, "s6695", "5765", "=q1=Black Silk Pack", "=ds=#sr# 185", "=ds="..AL["Drop"]};
+				{ 2, "s6693", "5764", "=q1=Green Silk Pack", "=ds=#sr# 175", "=ds="..AL["Drop"]};
+				{ 3, "s3813", "4245", "=q1=Small Silk Pack", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
+				{ 4, "s6688", "5763", "=q1=Red Woolen Bag", "=ds=#sr# 115", "=ds="..AL["Vendor"] };
+				{ 5, "s3758", "4241", "=q1=Green Woolen Bag", "=ds=#sr# 95", "=ds="..AL["Drop"]};
+				{ 6, "s3757", "4240", "=q1=Woolen Bag", "=ds=#sr# 80", "=ds="..AL["Trainer"] };
+				{ 7, "s6686", "5762", "=q1=Red Linen Bag", "=ds=#sr# 70", "=ds="..AL["Vendor"] };
+				{ 8, "s3755", "4238", "=q1=Linen Bag", "=ds=#sr# 45", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
