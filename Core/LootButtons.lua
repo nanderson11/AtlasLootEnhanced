@@ -334,13 +334,13 @@ do
 		if not itemTextureNew then
 			itemTextureNew = "Interface\\Icons\\INV_Misc_QuestionMark"
 		end
-		
 		-- ########################
 		-- itemName
 		-- ########################
 		if itemNameNew then
 			_, _, _, itemQuality = GetItemQualityColor(itemQuality)
 			tempText = itemQuality..string.gsub(itemNameNew, 1, 4)
+			tempText = "|c"..tempText
 		elseif itemName then
 			tempText = AtlasLoot:FixText(itemName)
 		else
