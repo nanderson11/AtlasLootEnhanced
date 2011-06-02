@@ -995,6 +995,10 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = "『駱駝囤積者』多姆斯";
 	AL["The Behemoth"] = "貝希摩斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
+--	AL["Zen'Vorka"] = true;
+--	AL["Ayla Shadowstorm"] = true;
+--	AL["Damek Bloombeard"] = true;
+--	AL["Varlan Highbough"] = true;
 
 	--Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
