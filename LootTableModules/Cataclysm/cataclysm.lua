@@ -2461,7 +2461,7 @@ local moduleName = "AtlasLootCataclysm"
 		----------------------
 		--- The Firelands ----
 		----------------------
----TRINKETS NEED TO BE CHECKED. NOT SURE ABOUT IT.
+
 	AtlasLoot_Data["FirelandsBethtilac"] = {
 		["Normal"] = {
 			{
@@ -2647,7 +2647,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 71323, "", "=q4=Tome of Grim Binding", "=ds=#s15#"};
 				{ 16, 71312, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
 				{ 17, 70915, "", "=q4=Shard of Torment", "=ds=#w8#"};
-				{ 18, 0, "", "=q4=TO BE DISCOVERED", "=ds="};
 			};
 		};
 		["Heroic"] = {
@@ -2664,7 +2663,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 71462, "", "=q4=Tome of Grim Binding", "=ds=#s15#"};
 				{ 16, 71454, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
 				{ 17, 71460, "", "=q4=Shard of Torment", "=ds=#w8#"};
-				{ 18, 0, "", "=q4=TO BE DISCOVERED", "=ds="};
 			};
 		};
 		info = {
@@ -2684,7 +2682,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 70920, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
 				{ 7, 71351, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
 				{ 9, 71348, "", "=q4=Flowform Choker", "=ds=#s2#"};
-				{ 10, 68927, "", "=q4=Hungerer", "=ds=#s14#" };
+				{ 10, 68927, "", "=q4=The Hungerer", "=ds=#s14#" };
 				{ 11, 68926, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
 				{ 16, 69897, "", "=q4=Fandral's Flaming Spire", "=ds=#w9#"};
 				{ 17, 71347, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
@@ -2700,7 +2698,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 71470, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
 				{ 7, 71475, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
 				{ 9, 71472, "", "=q4=Flowform Choker", "=ds=#s2#"};
-				{ 10, 69112, "", "=q4=Hungerer", "=ds=#s14#" };
+				{ 10, 69112, "", "=q4=The Hungerer", "=ds=#s14#" };
 				{ 11, 69111, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
 				{ 16, 71466, "", "=q4=Fandral's Flaming Spire", "=ds=#w9#"};
 				{ 17, 71473, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
@@ -2725,7 +2723,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 68995, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
 				{ 16, 71355, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
 				{ 17, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
-				{ 18, 71353, "", "=q4=Arathar, the Wings of Flame", "=ds=#w2#"};
+				{ 18, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
 				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
 			};
 		};
@@ -2741,12 +2739,67 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 69167, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
 				{ 16, 71615, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
 				{ 17, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
-				{ 18, 71611, "", "=q4=Arathar, the Wings of Flame", "=ds=#w2#"};
+				{ 18, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
 				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
 			};
 		};
 		info = {
 			name = BabbleBoss["Ragnaros"],
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 71640, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
+				{ 2, 71365, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
+				{ 4, 70929, "", "=q4=Firebound Gorget", "=ds=#s2#"};
+				{ 5, 71367, "", "=q4=Stalwart Ember Seal", "=ds=#s13#"};
+				{ 6, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
+				{ 7, 68915, "", "=q4=Scales of Life", "=ds=#s14#" },
+				{ 16, 71359, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
+				{ 17, 71362, "", "=q4=Blackcleave Chopper", "=ds=#h1#, #w1#"};
+				{ 18, 71361, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
+				{ 19, 71360, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
+				{ 20, 71366, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "TheFirelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsFirestone"] = {
+		["Normal"] = {
+			{
+				{ 1, 71641, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
+				{ 2, 71561, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
+				{ 4, 71563, "", "=q4=Firebound Gorget", "=ds=#s2#"};
+				{ 5, 71564, "", "=q4=Stalwart Ember Seal", "=ds=#s13#"};
+				{ 6, 69113, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
+				{ 7, 69109, "", "=q4=Scales of Life", "=ds=#s14#" },
+				{ 9, 71560, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
+				{ 10, 71562, "", "=q4=Blackcleave Chopper", "=ds=#h1#, #w1#"};
+				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
+				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
+				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
+    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
+    			{ 17, 71147, "", "=q4=Doomflame Fetish", "=ds=#s16#"},
+    			{ 18, 71149, "", "=q4=Firebinder Relic", "=ds=#s16#"},
+    			{ 19, 71146, "", "=q4=Hardheart Relic", "=ds=#s16#"},
+    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
+    			{ 22, 71150, "", "=q4=Phoenix-Feather Wand", "=ds=#w12#"},
+    			{ 23, 71151, "", "=q4=Glowing Ember Wand", "=ds=#w12#"},
+    			{ 25, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#"},
+    			{ 26, 71154, "", "=q4=Giantslicer", "=ds=#w11#"},
+    			{ 27, 71218, "", "=q4=Deflecting Star", "=ds=#w11#"},
+    			{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
+			};
+		};
+		info = {
+			name = "Firestone Vendor",
 			module = moduleName, instance = "TheFirelands",
 		};
 	};
@@ -4814,25 +4867,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["TabardsCardGame"] = {
-		["Normal"] = {
-			{
-				{ 1, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#, =q1=#m24#"};
-				{ 2, 23705, "", "=q4=Tabard of Flame", "=ds=#s7#, =q1=#m24#"};
-				{ 3, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#, =q1=#m24#"};
-				{ 4, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#, =q1=#m24#"};
-				{ 5, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#, =q1=#m24#"};
-				{ 6, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#, =q1=#m24#"};
-				{ 7, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#, =q1=#m24#"};
-				{ 8, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#, =q1=#m24#"};
-			};
-		};
-		info = {
-			name = AL["Card Game Tabards"],
-			module = moduleName, menu = "TABARDMENU",
-		};
-	}
-
 	AtlasLoot_Data["TabardsRemoved"] = {
 		["Normal"] = {
 			{
@@ -4840,10 +4874,19 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#, =q1=#m4#"};
 				{ 3, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
 				{ 4, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
-				{ 17, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="..AL["Season 6"]};
-				{ 18, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="..AL["Season 7"]};
-				{ 19, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds="..AL["Season 8"]};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
+				{ 7, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="..AL["Season 6"]};
+				{ 8, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="..AL["Season 7"]};
+				{ 9, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds="..AL["Season 8"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Tabards"], ""};
+				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#, =q1=#m24#"};
+				{ 18, 23705, "", "=q4=Tabard of Flame", "=ds=#s7#, =q1=#m24#"};
+				{ 19, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#, =q1=#m24#"};
+				{ 20, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#, =q1=#m24#"};
+				{ 21, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#, =q1=#m24#"};
+				{ 22, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#, =q1=#m24#"};
+				{ 23, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#, =q1=#m24#"};
+				{ 24, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#, =q1=#m24#"};
 			};
 		};
 		info = {
@@ -6084,12 +6127,6 @@ local moduleName = "AtlasLootCataclysm"
 
 	AtlasLoot_Data["NewItems41"] = {
 		["Normal"] = {
-			{
-				{ 2, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
-				{ 11, 68915, "", "=q4=Scales of Life", "=ds=#s14#" },
-				{ 17, 69113, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
-				{ 26, 69109, "", "=q4=Scales of Life", "=ds=#s14#" },
-			};
 			{
 				{ 1, 71665, "", "=q4=Flametalon of Alysrazor", "=ds=#s14#" },--Unknown
 				{ 2, 69226, "", "=q4=Green Fire Hawk Mount", "=ds=" },--Unknown

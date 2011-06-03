@@ -206,6 +206,8 @@ AtlasLoot_LootTableRegister = {
 				{ "FirelandsBaleroc" },
 				{ "FirelandsStaghelm" },
 				{ "FirelandsRagnaros" },
+				{ "FirelandsTrash" },
+				{ "FirelandsFirestone" },
 			},
 			["Info"] = { "The Firelands", "AtlasLootCataclysm" },
 		},

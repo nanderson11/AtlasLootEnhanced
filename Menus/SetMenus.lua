@@ -170,10 +170,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "TabardsAlliance", "achievement_pvp_a_16", "=ds="..AL["Alliance Tabards"], ""};
 				{ 3, "TabardsNeutralFaction", "inv_chest_cloth_30", "=ds="..AL["Neutral Faction Tabards"], ""};
-				{ 4, "TabardsCardGame", "inv_misc_tabardpvp_02", "=ds="..AL["Card Game Tabards"], ""};
+				{ 4, "TabardsRemoved", "INV_Jewelry_Ring_15", "=ds="..AL["Unobtainable Tabards"], ""};
 				{ 17, "TabardsHorde", "achievement_pvp_h_16", "=ds="..AL["Horde Tabards"], ""};
 				{ 18, "TabardsAchievementQuestRareMisc", "inv_shirt_guildtabard_01", "=ds="..AL["Achievement & Quest Reward Tabards"], ""};
-				{ 19, "TabardsRemoved", "INV_Jewelry_Ring_15", "=ds="..AL["Unobtainable Tabards"], ""};
 			};
 		};
 		info = {
@@ -598,8 +597,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["PATCH42MENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "NewItems41", "spell_fire_rune", "=ds=Trinkets"};
-				{ 2, "NewItems41#2", "spell_deathknight_classicon", "=ds=Mounts/Pets"};
+				{ 2, "NewItems41", "spell_deathknight_classicon", "=ds=Mounts/Pets"};
 				{ 4, "PVP85Weapons3", "spell_fire_rune", "=ds=PvP Weapons"};
 				{ 5, "PVP85Weapons4", "spell_fire_rune", "=ds=PvP Weapons"};
 				{ 5, "PVP85Accessories2", "spell_fire_rune", "=ds=PvP Accessories"};
