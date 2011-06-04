@@ -9254,24 +9254,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 28, 41744, "", "=q3=Design: Impassive Skyflare Diamond", "=ds=#p12# (420)", "38 #honor#"};
 				extraText = " - "..AL["PVP Gems/Enchants/Jewelcrafting Designs"];
 			};
-			{
-				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "2175 #honor#"};
-				{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "2175 #honor#"};
-				{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "2175 #honor#"};
-				{ 4, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "2175 #honor#"};
-				{ 5, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "2175 #honor#"};
-				{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "2175 #honor#"};
-				{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "2175 #honor#"};
-				{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "2725 #honor#"};
-				{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "2725 #honor#"};
-				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "2175 #honor#"};
-				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "2175 #honor#"};
-				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "3500 #honor#"};
-				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "2725 #honor#"};
-				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "3500 #honor#"};
-				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "3500 #honor#"};
-				extraText = " - "..AL["Heirloom"];
-			};
 		};
 		info = {
 			name = BabbleZone["Wintergrasp"],

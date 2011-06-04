@@ -4552,60 +4552,44 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["PVP70Accessories"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 28235, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 2, 28237, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 3, 28238, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 4, 28236, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 5, 30349, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 6, 28234, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 7, 30351, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 8, 30348, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 9, 30350, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
-				{ 11, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 12, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 13, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
-				{ 14, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
-				{ 15, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 1 #honor#"};
+				{ 1, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "25 #honor#"};
+				{ 2, 28118, "", "=q4=Brilliant Ornate Ruby", "=ds=", "25 #honor#"};
+				{ 3, 28362, "", "=q4=Delicate Ornate Ruby", "=ds=", "25 #honor#"};
+				{ 4, 28363, "", "=q4=Deadly Ornate Topaz", "=ds=", "25 #honor#"};
+				{ 5, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "25 #honor#"};
+				{ 7, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 8, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 9, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 10, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 11, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 1 #honor#"};
 				{ 16, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "140 #honor#"};
 				{ 17, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "120 #honor#"};
-				{ 19, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "25 #honor#"};
-				{ 20, 28118, "", "=q4=Brilliant Ornate Ruby", "=ds=", "25 #honor#"};
-				{ 21, 28362, "", "=q4=Delicate Ornate Ruby", "=ds=", "25 #honor#"};
-				{ 22, 28363, "", "=q4=Deadly Ornate Topaz", "=ds=", "25 #honor#"};
-				{ 23, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "25 #honor#"};
-				{ 26, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 27, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 28, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
-				{ 29, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 18, 69861, "", "=q3=Medallion of the Alliance", "=ds=", "100 #honor#"};
+				{ 22, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 23, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 24, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 25, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
 			};
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 28241, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 2, 28243, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 3, 28239, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 4, 28242, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 5, 30346, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 6, 28240, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 7, 30345, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 8, 30343, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 9, 30344, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
-				{ 11, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 12, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 13, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
-				{ 14, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
-				{ 15, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 1 #honor#"};
+				{ 1, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "25 #honor#"};
+				{ 2, 28118, "", "=q4=Brilliant Ornate Ruby", "=ds=", "25 #honor#"};
+				{ 3, 28362, "", "=q4=Delicate Ornate Ruby", "=ds=", "25 #honor#"};
+				{ 4, 28363, "", "=q4=Deadly Ornate Topaz", "=ds=", "25 #honor#"};
+				{ 5, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "25 #honor#"};
+				{ 7, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 8, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 9, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 10, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 11, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 1 #honor#"};
 				{ 16, 37865, "", "=q4=Medallion of the Horde", "=ds=", "140 #honor#"};
 				{ 17, 24551, "", "=q4=Talisman of the Horde", "=ds=", "120 #honor#"};
-				{ 19, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "25 #honor#"};
-				{ 20, 28118, "", "=q4=Brilliant Ornate Ruby", "=ds=", "25 #honor#"};
-				{ 21, 28362, "", "=q4=Delicate Ornate Ruby", "=ds=", "25 #honor#"};
-				{ 22, 28363, "", "=q4=Deadly Ornate Topaz", "=ds=", "25 #honor#"};
-				{ 23, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "25 #honor#"};
-				{ 26, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 27, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
-				{ 28, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
-				{ 29, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 18, 69862, "", "=q3=Medallion of the Horde", "=ds=", "100 #honor#"};
+				{ 22, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 23, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "39 #honor#"};
+				{ 24, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
+				{ 25, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "39 #honor#"};
 			};
 		};
 		info = {
@@ -6241,7 +6225,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 21, 34923, "", "=q4=Waistguard of Reparation", "=ds=#s10#", "390 #justice#", ""};	
 			};
 			{
-				{ 1, 33501, "", "=q4=Bloodthirster's WarGreaves", "=ds=#s11#, #a4#", "390 #justice#", ""};
+				{ 1, 33501, "", "=q4=Bloodthirster's Wargreaves", "=ds=#s11#, #a4#", "390 #justice#", ""};
 				{ 2, 34922, "", "=q4=Greaves of Pacification", "=ds=#s11#", "520 #justice#", ""};
 				{ 3, 33518, "", "=q4=High Justicar's Legplates", "=ds=#s11#, #a4#", "390 #justice#", ""};
 				{ 4, 34946, "", "=q4=Inscribed Legplates of the Aldor", "=ds=#s11#", "520 #justice#", ""};
@@ -6486,7 +6470,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 31340, "", "=q4=Will of Edward the Odd", "=ds=#s5#, #a1#", "", ""};
 				{ 3, 31343, "", "=q4=Kamaei's Cerulean Skirt", "=ds=#s11#, #a1#", "", ""};
 				{ 4, 31333, "", "=q4=The Night Watchman", "=ds=#s1#, #a2#", "", ""};
-				{ 5, 31335, "", "=q4=Pants of Living Growth", "=ds=#s11#, #a2#", "", ""};
+				{ 5, 31335, "", "=q4=Kilt of Living Growth", "=ds=#s11#, #a2#", "", ""};
 				{ 6, 31330, "", "=q4=Lightning Crown", "=ds=#s1#, #a3#", "", ""};
 				{ 7, 31328, "", "=q4=Leggings of Beast Mastery", "=ds=#s11#, #a3#", "", ""};
 				{ 8, 31320, "", "=q4=Chestguard of Exile", "=ds=#s5#, #a4#", "", ""};

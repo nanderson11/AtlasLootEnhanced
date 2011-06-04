@@ -219,8 +219,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 4, "LakeWintergrasp#4", "INV_Helmet_138", "=ds="..BabbleInventory["Mail"], ""};
 				{ 5, "LakeWintergrasp#5", "inv_helmet_134", "=ds="..BabbleInventory["Plate"], ""};
 				{ 17, "LakeWintergrasp", "inv_misc_rune_11", "=ds="..AL["Accessories"], ""};
-				{ 18, "LakeWintergrasp#7", "inv_sword_19", "=ds="..AL["Heirloom"], ""};
-				{ 19, "LakeWintergrasp#6", "inv_jewelcrafting_icediamond_02", "=ds="..AL["PVP Gems/Enchants/Jewelcrafting Designs"], ""};
+				{ 18, "LakeWintergrasp#6", "inv_jewelcrafting_icediamond_02", "=ds="..AL["PVP Gems/Enchants/Jewelcrafting Designs"], ""};
 			};
 		};
 		info = {

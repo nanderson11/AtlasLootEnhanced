@@ -1495,19 +1495,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 68608, "", "=q4=Dragonwreck Throwing Axe", "=ds=#w11#", ""};
 			};
 		};
-		--[[ Commented out, as the heroic trash mobs drop normal loot
-		["Heroic"] = {
-			{
-				{ 1, 65097, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
-				{ 2, 65100, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
-				{ 3, 65101, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
-				{ 5, 65104, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
-				{ 16, 65103, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
-				{ 17, 65102, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
-				{ 18, 65098, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
-			};
-		};
-		]]--
 		info = {
 			name = "trash",
 			module = moduleName, instance = "TheBastionOfTwilight",
@@ -1783,22 +1770,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
 			};
 		};
-		--[[ Commented out, as the heroic trash mobs drop normal loot
-		["Heroic"] = {
-			{
-				{ 1, 65010, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
-				{ 2, 65008, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
-				{ 3, 65009, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
-				{ 4, 65011, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
-				{ 5, 65012, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
-				{ 16, 65014, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
-				{ 17, 65013, "", "=q4=Maldo's Sword Cane", "=ds=#h3#, #w10#", ""};
-				{ 18, 65006, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 19, 65005, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
-				{ 20, 65016, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
-			};
-		};
-		]]--
 		info = {
 			name = "trash",
 			module = moduleName, instance = "BlackwingDescent",
@@ -1957,7 +1928,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 60534, "", "=q4=Vicious Gladiator's Sabatons of Meditation", "=ds=", "1650 #conquest#"};
 				{ 5, 60569, "", "=q4=Vicious Gladiator's Armbands of Prowess", "=ds=", "1250 #conquest#"};
 				{ 6, 60536, "", "=q4=Vicious Gladiator's Waistguard of Cruelty", "=ds=", "1650 #conquest#"};
-				{ 7, 60567, "", "=q4=Vicious Gladiator's Sabatons of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 7, 60567, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
 				{ 9, 60559, "", "=q4=Vicious Gladiator's Wristguards of Alacrity", "=ds=", "1250 #conquest#"};
 				{ 10, 60555, "", "=q4=Vicious Gladiator's Links of Cruelty", "=ds=", "1650 #conquest#"};
 				{ 11, 60557, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
@@ -1973,7 +1944,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 24, 60520, "", "=q4=Vicious Gladiator's Bracers of Prowess", "=ds=", "1250 #conquest#"};
 				{ 25, 60505, "", "=q4=Vicious Gladiator's Clasp of Cruelty", "=ds=", "1650 #conquest#"};
 				{ 26, 60516, "", "=q4=Vicious Gladiator's Greaves of Alacrity", "=ds=", "1650 #conquest#"};
-				{ 28, 60512, "", "=q4=Vicious Gladiator's Armplates of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 28, 60512, "", "=q4=Vicious Gladiator's Armplates of Alacrity", "=ds=", "1250 #conquest#"};
 				{ 29, 60508, "", "=q4=Vicious Gladiator's Girdle of Cruelty", "=ds=", "1650 #conquest#"};
 				{ 30, 60509, "", "=q4=Vicious Gladiator's Warboots of Cruelty", "=ds=", "1650 #conquest#"};
 			};
@@ -2036,6 +2007,82 @@ local moduleName = "AtlasLootCataclysm"
 
 	AtlasLoot_Data["BHOccuthar"] = {
 		["Normal"] = {
+			{
+				{ 1, 70363, "", "=q4=Ruthless Gladiator's Cuffs of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 2, 70362, "", "=q4=Ruthless Gladiator's Cord of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 3, 70364, "", "=q4=Ruthless Gladiator's Treads of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 5, 70366, "", "=q4=Ruthless Gladiator's Cuffs of Meditation", "=ds=", "1250 #conquest#"};
+				{ 6, 70368, "", "=q4=Ruthless Gladiator's Cord of Meditation", "=ds=", "1650 #conquest#"};
+				{ 7, 70367, "", "=q4=Ruthless Gladiator's Treads of Meditation", "=ds=", "1650 #conquest#"};
+				{ 9, 70365, "", "=q4=Ruthless Gladiator's Cuffs of Prowess", "=ds=", "1250 #conquest#"};
+				{ 10, 70360, "", "=q4=Ruthless Gladiator's Cord of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 11, 70361, "", "=q4=Ruthless Gladiator's Treads of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 16, 70350, "", "=q4=Ruthless Gladiator's Armwraps of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 17, 70349, "", "=q4=Ruthless Gladiator's Waistband of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 18, 70348, "", "=q4=Ruthless Gladiator's Boots of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 20, 70352, "", "=q4=Ruthless Gladiator's Armwraps of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 21, 70347, "", "=q4=Ruthless Gladiator's Waistband of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 22, 70351, "", "=q4=Ruthless Gladiator's Boots of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 24, 70359, "", "=q4=Ruthless Gladiator's Bindings of Prowess", "=ds=", "1250 #conquest#"};
+				{ 25, 70346, "", "=q4=Ruthless Gladiator's Belt of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 26, 70358, "", "=q4=Ruthless Gladiator's Footguards of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 28, 70345, "", "=q4=Ruthless Gladiator's Bindings of Meditation", "=ds=", "1250 #conquest#"};
+				{ 29, 70343, "", "=q4=Ruthless Gladiator's Belt of Meditation", "=ds=", "1650 #conquest#"};
+				{ 30, 70344, "", "=q4=Ruthless Gladiator's Footguards of Meditation", "=ds=", "1650 #conquest#"};
+			};
+			{
+				{ 1, 70330, "", "=q4=Ruthless Gladiator's Armbands of Meditation", "=ds=", "1250 #conquest#"};
+				{ 2, 70328, "", "=q4=Ruthless Gladiator's Waistguard of Meditation", "=ds=", "1650 #conquest#"};
+				{ 3, 70329, "", "=q4=Ruthless Gladiator's Sabatons of Meditation", "=ds=", "1650 #conquest#"};
+				{ 5, 70342, "", "=q4=Ruthless Gladiator's Armbands of Prowess", "=ds=", "1250 #conquest#"};
+				{ 6, 70331, "", "=q4=Ruthless Gladiator's Waistguard of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 7, 70341, "", "=q4=Ruthless Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 9, 70338, "", "=q4=Ruthless Gladiator's Wristguards of Alacrity", "=ds=", "1250 #conquest#"};
+				{ 10, 70336, "", "=q4=Ruthless Gladiator's Links of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 11, 70337, "", "=q4=Ruthless Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 13, 70340, "", "=q4=Ruthless Gladiator's Wristguards of Accuracy", "=ds=", "1250 #conquest#"};
+				{ 14, 70339, "", "=q4=Ruthless Gladiator's Links of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 15, 70335, "", "=q4=Ruthless Gladiator's Sabatons of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 16, 70334, "", "=q4=Ruthless Gladiator's Bracers of Meditation", "=ds=", "1250 #conquest#"};
+				{ 17, 70332, "", "=q4=Ruthless Gladiator's Clasp of Meditation", "=ds=", "1650 #conquest#"};
+				{ 18, 70333, "", "=q4=Ruthless Gladiator's Greaves of Meditation", "=ds=", "1650 #conquest#"};
+				{ 20, 70327, "", "=q4=Ruthless Gladiator's Armplates of Proficiency", "=ds=", "1250 #conquest#"};
+				{ 21, 70326, "", "=q4=Ruthless Gladiator's Girdle of Prowess", "=ds=", "1650 #conquest#"};
+				{ 22, 70323, "", "=q4=Ruthless Gladiator's Warboots of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 24, 70325, "", "=q4=Ruthless Gladiator's Bracers of Prowess", "=ds=", "1250 #conquest#"};
+				{ 25, 70319, "", "=q4=Ruthless Gladiator's Clasp of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 26, 70324, "", "=q4=Ruthless Gladiator's Greaves of Alacrity", "=ds=", "1650 #conquest#"};
+				{ 28, 70322, "", "=q4=Ruthless Gladiator's Armplates of Alacrity", "=ds=", "1250 #conquest#"};
+				{ 29, 70320, "", "=q4=Ruthless Gladiator's Girdle of Cruelty", "=ds=", "1650 #conquest#"};
+				{ 30, 70321, "", "=q4=Ruthless Gladiator's Warboots of Cruelty", "=ds=", "1650 #conquest#"};
+			};
+			{
+				{ 1, 70386, "", "=q4=Ruthless Gladiator's Cape of Cruelty", "=ds=#s4#", "1250 #conquest#" },
+				{ 2, 70385, "", "=q4=Ruthless Gladiator's Cape of Prowess", "=ds=#s4#", "1250 #conquest#" },
+				{ 3, 70383, "", "=q4=Ruthless Gladiator's Cloak of Alacrity", "=ds=#s4#", "1250 #conquest#" },
+				{ 4, 70384, "", "=q4=Ruthless Gladiator's Cloak of Prowess", "=ds=#s4#", "1250 #conquest#" },
+				{ 5, 70387, "", "=q4=Ruthless Gladiator's Drape of Diffusion", "=ds=#s4#", "1250 #conquest#" },
+				{ 6, 70389, "", "=q4=Ruthless Gladiator's Drape of Meditation", "=ds=#s4#", "1250 #conquest#" },
+				{ 7, 70388, "", "=q4=Ruthless Gladiator's Drape of Prowess", "=ds=#s4#", "1250 #conquest#" },
+				{ 9, 70370, "", "=q4=Ruthless Gladiator's Band of Accuracy", "=ds=#s13#", "1250 #conquest#"};
+				{ 10, 70369, "", "=q4=Ruthless Gladiator's Band of Cruelty", "=ds=#s13#", "1250 #conquest#"};
+				{ 11, 70371, "", "=q4=Ruthless Gladiator's Band of Dominance", "=ds=#s13#", "1250 #conquest#"};
+				{ 12, 70373, "", "=q4=Ruthless Gladiator's Signet of Accuracy", "=ds=#s13#", "1250 #conquest#"};
+				{ 13, 70372, "", "=q4=Ruthless Gladiator's Signet of Cruelty", "=ds=#s13#", "1250 #conquest#"};
+				{ 14, 70374, "", "=q4=Ruthless Gladiator's Ring of Accuracy", "=ds=#s13#", "1250 #conquest#"};
+				{ 15, 70375, "", "=q4=Ruthless Gladiator's Ring of Cruelty", "=ds=#s13#", "1250 #conquest#"};
+				{ 16, 70382, "", "=q4=Ruthless Gladiator's Choker of Accuracy", "=ds=#s2#", "1250 #conquest#" },
+				{ 17, 70381, "", "=q4=Ruthless Gladiator's Choker of Proficiency", "=ds=#s2#", "1250 #conquest#" },
+				{ 18, 70380, "", "=q4=Ruthless Gladiator's Necklace of Proficiency", "=ds=#s2#", "1250 #conquest#" },
+				{ 19, 70379, "", "=q4=Ruthless Gladiator's Necklace of Prowess", "=ds=#s2#", "1250 #conquest#" },
+				{ 20, 70377, "", "=q4=Ruthless Gladiator's Pendant of Alacrity", "=ds=#s2#", "1250 #conquest#" },
+				{ 21, 70376, "", "=q4=Ruthless Gladiator's Pendant of Diffusion", "=ds=#s2#", "1250 #conquest#" },
+				{ 22, 70378, "", "=q4=Ruthless Gladiator's Pendant of Meditation", "=ds=#s2#", "1250 #conquest#" },
+				{ 24, 70408, "", "=q4=Ruthless Gladiator's Relic of Conquest", "=ds=#s16#", "700 #conquest#" },
+				{ 25, 70405, "", "=q4=Ruthless Gladiator's Relic of Dominance", "=ds=#s16#", "700 #conquest#" },
+				{ 26, 70406, "", "=q4=Ruthless Gladiator's Relic of Salvation", "=ds=#s16#", "700 #conquest#" },
+				{ 27, 70407, "", "=q4=Ruthless Gladiator's Relic of Triumph", "=ds=#s16#", "700 #conquest#" },
+			};
 			{
 				{ 2, 70399, "", "=q4=Ruthless Gladiator's Badge of Conquest", "=ds=#s14#", "1650 #conquest#" },
 				{ 3, 70401, "", "=q4=Ruthless Gladiator's Badge of Dominance", "=ds=#s14#", "1650 #conquest#" },
@@ -3767,7 +3814,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 60534, "", "=q4=Vicious Gladiator's Sabatons of Meditation", "=ds=", "1650 #conquest#"};
 				{ 5, 60569, "", "=q4=Vicious Gladiator's Armbands of Prowess", "=ds=", "1250 #conquest#"};
 				{ 6, 60536, "", "=q4=Vicious Gladiator's Waistguard of Cruelty", "=ds=", "1650 #conquest#"};
-				{ 7, 60567, "", "=q4=Vicious Gladiator's Sabatons of Accuracy", "=ds=", "1650 #conquest#"};
+				{ 7, 60567, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
 				{ 9, 60559, "", "=q4=Vicious Gladiator's Wristguards of Alacrity", "=ds=", "1250 #conquest#"};
 				{ 10, 60555, "", "=q4=Vicious Gladiator's Links of Cruelty", "=ds=", "1650 #conquest#"};
 				{ 11, 60557, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "1650 #conquest#"};
@@ -3939,7 +3986,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 70213, "", "=q4=Ruthless Gladiator's Decapitator", "=ds=#h2#, #w1#", "3400 #conquest#" },
 				{ 22, 70224, "", "=q4=Ruthless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "3400 #conquest#" },
 				{ 24, 70225, "", "=q4=Ruthless Gladiator's Pike", "=ds=#w7#", "3400 #conquest#" },
-				{ 26, 70266, "", "=q4=Ruthless Gladiator's Battle Staff", "=ds=#w7#", "3400 #conquest#" },
+				{ 26, 70226, "", "=q4=Ruthless Gladiator's Battle Staff", "=ds=#w7#", "3400 #conquest#" },
 				{ 27, 70227, "", "=q4=Ruthless Gladiator's Energy Staff", "=ds=#w7#", "3400 #conquest#" },
 				{ 28, 70228, "", "=q4=Ruthless Gladiator's Staff", "=ds=#w7#", "3400 #conquest#" },
 			};

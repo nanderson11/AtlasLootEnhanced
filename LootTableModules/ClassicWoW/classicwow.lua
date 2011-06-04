@@ -5922,7 +5922,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 21118, "", "=q3=Talisman of Arathor", "=ds=", "35 #honor#", ""};
 				{ 13, 21117, "", "=q3=Talisman of Arathor", "=ds=", "45 #honor#", ""};
 				{ 14, 20071, "", "=q3=Talisman of Arathor", "=ds=", "55 #honor#", ""};
-				{ 17, 0, "INV_BannerPVP_02", "=q6="..AL["Level 60 Rewards"], "=q5=#b5#" };
+				{ 17, 0, "INV_BannerPVP_02", "=q6="..AL["Level 60 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 18, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "85 #honor#", ""};
 				{ 19, 20070, "", "=q4=Sageclaw", "=ds=", "130 #honor#", ""};
 				{ 20, 20069, "", "=q4=Ironbark Staff", "=ds=", "185 #honor#", ""};
@@ -5942,7 +5942,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 21120, "", "=q3=Defiler's Talisman", "=ds=", "35 #honor#", ""};
 				{ 13, 21115, "", "=q3=Defiler's Talisman", "=ds=", "45 #honor#", ""};
 				{ 14, 20072, "", "=q3=Defiler's Talisman", "=ds=", "55 #honor#", ""};
-				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Level 60 Rewards"], "=q5=#b6#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Level 60 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
 				{ 17, 20068, "", "=q4=Deathguard's Cloak", "=ds=", "85 #honor#", ""};
 				{ 25, 20214, "", "=q4=Mindfang", "=ds=", "130 #honor#", ""};
 				{ 26, 20220, "", "=q4=Ironbark Staff", "=ds=", "185 #honor#", ""};
@@ -5957,7 +5957,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AB4049"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b5#"};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 2, 20097, "", "=q3=Highlander's Cloth Girdle", "=ds=", "70 #honor#", ""};
 				{ 3, 20094, "", "=q3=Highlander's Cloth Boots", "=ds=", "70 #honor#", ""};
 				{ 4, 20115, "", "=q3=Highlander's Leather Girdle", "=ds=", "70 #honor#", ""};
@@ -5984,7 +5984,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5=#b6#"};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
 				{ 2, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "70 #honor#", ""};
 				{ 3, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "70 #honor#", ""};
 				{ 4, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "70 #honor#", ""};
@@ -6018,14 +6018,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AB2039"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b5#"};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "45 #honor#", ""};
 				{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "45 #honor#", ""};
 				{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "45 #honor#", ""};
 				{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
 				{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "45 #honor#", ""};
 				{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "45 #honor#", ""};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b5#" };
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 17, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "45 #honor#", ""};
 				{ 18, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "45 #honor#", ""};
 				{ 19, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "45 #honor#", ""};
@@ -6044,14 +6044,14 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5=#b6#"};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
 				{ 2, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "45 #honor#", ""};
 				{ 3, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "45 #honor#", ""};
 				{ 4, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "45 #honor#", ""};
 				{ 5, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "45 #honor#", ""};
 				{ 6, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "45 #honor#", ""};
 				{ 7, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "45 #honor#", ""};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5=#b6#" };
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
 				{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "45 #honor#", ""};
 				{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "45 #honor#", ""};
 				{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "45 #honor#", ""};
