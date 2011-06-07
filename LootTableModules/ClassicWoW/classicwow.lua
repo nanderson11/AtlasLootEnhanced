@@ -4613,6 +4613,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], AL["Rare"]};
 				{ 21, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
 				{ 22, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
+				{ 24, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"]};
+				{ 25, 10413, "", "=q3=Gloves of the Fang", "=ds=#s9#", "=q2="..AL["Druid of the Fang"], "1.20%"};
 			};
 		};
 		info = {
@@ -6871,16 +6873,10 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["MiscFactions"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Misc_Head_Centaur_01", "=q6="..BabbleFaction["Magram Clan Centaur"], "=q5=#r2#"};
-				{ 2, 6789, "", "=q2=Ceremonial Centaur Blanket", "=q1=#m4#: =ds=#s4#"};
-				{ 3, 6788, "", "=q2=Magram Hunter's Belt", "=q1=#m4#: =ds=#s10#, #a2#"};
 				{ 5, 0, "ability_warrior_rallyingcry", "=q6="..BabbleFaction["The League of Arathor"], "=q5=#r5#, =q1="..BabbleFaction["Alliance"]};
 				{ 6, 20132, "", "=q1=Arathor Battle Tabard", "=q1=#m4#: =ds=#s7#"};
 				{ 8, 0, "Ability_Mount_PinkTiger", "=q6="..BabbleFaction["Wintersaber Trainers"], "=q5=#r5#"};
 				{ 9, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#"};
-				{ 16, 0, "INV_Misc_Head_Centaur_01", "=q6="..BabbleFaction["Gelkis Clan Centaur"], "=q5=#r2#"};
-				{ 17, 6773, "", "=q2=Gelkis Marauder Chain", "=q1=#m4#: =ds=#s5#, #a3#"};
-				{ 18, 6774, "", "=q2=Uthek's Finger", "=q1=#m4#: =ds=#s15#"};
 				{ 20, 0, "spell_shadow_psychichorrors", "=q6="..BabbleFaction["The Defilers"], "=q5=#r5#, =q1="..BabbleFaction["Horde"]};
 				{ 21, 20131, "", "=q1=Battle Tabard of the Defilers", "=q1=#m4#: =ds=#s7#"};
 			};

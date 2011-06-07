@@ -87,15 +87,11 @@ local moduleName = "AtlasLootWotLK"
 		------------
 		--- Keys ---
 		------------
-
+--To be removed as soon as Atlas and loottables.lua is adjusted.
 	AtlasLoot_Data["WrathKeys"] = {
 		["Normal"] = {
 			{
-				{ 1, 44582, "", "=q4=Key to the Focusing Iris", "=ds=#e9#"};
-				{ 2, 44581, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#e9#"};
-				{ 3, 45796, "", "=q1=Celestial Planetarium Key", "=ds=#e9#"};
-				{ 4, 45798, "", "=q1=Heroic Celestial Planetarium Key", "=ds=#e9#"};
-				{ 5, 42482, "", "=q1=The Violet Hold Key", "=ds=#e9#"};
+
 			};
 		};
 		info = {
@@ -3935,8 +3931,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 39398, "", "=q4=Massive Skeletal Ribcage", "=ds=#s5#, #a4#", "", "19%"};
 				{ 16, 39401, "", "=q4=Circle of Death", "=ds=#s13#", "", "19%"};
 				{ 17, 39407, "", "=q4=Circle of Life", "=ds=#s13#", "", "18%"};
-				{ 19, 44569, "", "=q4=Key to the Focusing Iris", "=ds=#m2#", "", "91%"};
-				{ 20, 44582, "", "=q4=Key to the Focusing Iris", "=q1=#m4#: =ds=#e9#"};
 			};
 		};
 		["25Man"] = {
@@ -3952,8 +3946,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 40365, "", "=q4=Breastplate of Frozen Pain", "=ds=#s5#, #a4#", "", "19%"};
 				{ 10, 40363, "", "=q4=Bone-Inlaid Legguards", "=ds=#s11#, #a4#", "", "18%"};
 				{ 12, 40368, "", "=q4=Murder", "=ds=#h1#, #w4#", "", "19%"};
-				{ 14, 44577, "", "=q4=Heroic Key to the Focusing Iris", "=ds=#m2#", "", "92%"};
-				{ 15, 44581, "", "=q4=Heroic Key to the Focusing Iris", "=q1=#m4#: =ds=#e9#"};
 				{ 16, 40378, "", "=q4=Ceaseless Pity", "=ds=#s2#", "", "19%"};
 				{ 17, 40374, "", "=q4=Cosmic Lights", "=ds=#s2#", "", "19%"};
 				{ 18, 40369, "", "=q4=Icy Blast Amulet", "=ds=#s2#", "", "18%"};

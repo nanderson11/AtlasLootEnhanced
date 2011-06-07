@@ -1070,7 +1070,7 @@ AtlasLoot_LootTableRegister = {
 
 		["DireMaulWest"] = {
 			["Bosses"] = {
-				{ "OldKeys", 1, hide = true },
+				{ "OldKeys", 1 },
 				{ "DMWTendrisWarpwood", 4 },
 				{ "DMWMagisterKalendris", 5 },
 				{ "DMWIllyannaRavenoak", 6 },

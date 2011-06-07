@@ -79,21 +79,10 @@ local moduleName = "AtlasLootBurningCrusade"
 		------------
 		--- Keys ---
 		------------
-
+--To be removed as soon as Atlas and loottables.lua is adjusted.
 	AtlasLoot_Data["BCKeys"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 2, 30622, "", "=q1=Flamewrought Key", "=ds=#e9# =ec1=#m7#"};
-				{ 3, 30637, "", "=q1=Flamewrought Key", "=ds=#e9# =ec1=#m6#"};
-				{ 4, 30623, "", "=q1=Reservoir Key", "=ds=#e9#"};
-				{ 5, 30633, "", "=q1=Auchenai Key", "=ds=#e9#"};
-				{ 6, 30635, "", "=q1=Key of Time", "=ds=#e9#"};
-				{ 7, 30634, "", "=q1=Warpforged Key", "=ds=#e9#"};
-				{ 16, 0, "INV_Box_01", "=q6=#j2#", ""};
-				{ 17, 24490, "", "=q1=The Master's Key", "=ds=#e9#"};
-				{ 19, 0, "INV_Box_01", "=q6=#m20#", ""};
-				{ 20, 32092, "", "=q3=The Eye of Haramad", "=ds=#m27#"};
 			};
 		};
 		info = {
@@ -3403,7 +3392,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 26, 28632, "", "=q1=Plans: Adamantite Weightstone", "=ds=#p2# (350)"};
 				{ 27, 25526, "", "=q1=Plans: Greater Rune of Warding", "=ds=#p2# (350)"};
 				{ 28, 29720, "", "=q1=Pattern: Clefthide Leg Armor", "=ds=#p7# (335)"};
-				{ 29, 30623, "", "=q1=Reservoir Key", "=ds=#e9#"};
 			};
 			{
 				{ 1, 0, "INV_Misc_Ammo_Arrow_02", "=q6=#r4#", ""};
@@ -3457,7 +3445,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 22, 25870, "", "=q1=Recipe: Transmute Skyfire Diamond", "=ds=#p1# (350)"};
 				{ 23, 22905, "", "=q1=Recipe: Elixir of Major Agility", "=ds=#p1# (330)"};
 				{ 24, 29719, "", "=q1=Pattern: Cobrahide Leg Armor", "=ds=#p7# (335)"};
-				{ 25, 30622, "", "=q1=Flamewrought Key", "=ds=#e9#"};
 			};
 			{
 				{ 1, 0, "INV_BannerPVP_02", "=q6=#r4#", ""};
@@ -3466,7 +3453,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 24180, "", "=q3=Design: Dawnstone Crab", "=ds=#p12# (370)"};
 				{ 5, 29189, "", "=q2=Arcanum of Renewal", "=ds=#s1# #e17#"};
 				{ 6, 22547, "", "=q1=Formula: Enchant Chest - Exceptional Stats", "=ds=#p4# (345)"};
-				{ 7, 34218, "", "=q1=Pattern: Netherscale Ammo Pouch", "=ds=#p7# (350)"};
 				{ 16, 0, "INV_BannerPVP_02", "=q6=#r5#", ""};
 				{ 17, 29153, "", "=q4=Blade of the Archmage", "=ds=#h3#, #w10#"};
 				{ 18, 29156, "", "=q4=Honor's Call", "=ds=#h1#, #w10#"};
@@ -3497,21 +3483,20 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 5, 25910, "", "=q1=Design: Enigmatic Skyfire Diamond", "=ds=#p12# (365)"};
 				{ 6, 33160, "", "=q1=Design: Facet of Eternity", "=ds=#p12# (360)"};
 				{ 7, 29713, "", "=q1=Pattern: Drums of Panic", "=ds=#p7# (370)"};
-				{ 8, 30635, "", "=q1=Key of Time", "=ds=#e9#"};
-				{ 16, 0, "Ability_Warrior_VictoryRush", "=q6=#r4#", ""};
-				{ 17, 29184, "", "=q3=Timewarden's Leggings", "=ds=#s11#, #a4#"};
-				{ 18, 29185, "", "=q3=Continuum Blade", "=ds=#h3#, #w10#"};
-				{ 19, 24181, "", "=q3=Design: Living Ruby Serpent", "=ds=#p12# (370)"};
-				{ 20, 24174, "", "=q3=Design: Pendant of Frozen Flame", "=ds=#p12# (360)"};
-				{ 21, 29186, "", "=q2=Arcanum of the Defender", "=ds=#s1# #e17#"};
-				{ 22, 33158, "", "=q1=Design: Stone of Blades", "=ds=#p12# (360)"};
-				{ 24, 0, "Ability_Warrior_VictoryRush", "=q6=#r5#", ""};
-				{ 25, 29183, "", "=q4=Bindings of the Timewalker", "=ds=#s8#, #a1#"};
-				{ 26, 29181, "", "=q4=Timelapse Shard", "=ds=#s14#"};
-				{ 27, 29182, "", "=q4=Riftmaker", "=ds=#h1#, #w4#"};
-				{ 28, 33152, "", "=q3=Formula: Enchant Gloves - Superior Agility", "=ds=#p4# (300)"};
-				{ 29, 31355, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)"};
-				{ 30, 31777, "", "=q1=Keepers of Time Tabard", "=ds=#s7#"};
+				{ 9, 0, "Ability_Warrior_VictoryRush", "=q6=#r4#", ""};
+				{ 10, 29184, "", "=q3=Timewarden's Leggings", "=ds=#s11#, #a4#"};
+				{ 11, 29185, "", "=q3=Continuum Blade", "=ds=#h3#, #w10#"};
+				{ 12, 24181, "", "=q3=Design: Living Ruby Serpent", "=ds=#p12# (370)"};
+				{ 13, 24174, "", "=q3=Design: Pendant of Frozen Flame", "=ds=#p12# (360)"};
+				{ 14, 29186, "", "=q2=Arcanum of the Defender", "=ds=#s1# #e17#"};
+				{ 15, 33158, "", "=q1=Design: Stone of Blades", "=ds=#p12# (360)"};
+				{ 16, 0, "Ability_Warrior_VictoryRush", "=q6=#r5#", ""};
+				{ 17, 29183, "", "=q4=Bindings of the Timewalker", "=ds=#s8#, #a1#"};
+				{ 18, 29181, "", "=q4=Timelapse Shard", "=ds=#s14#"};
+				{ 19, 29182, "", "=q4=Riftmaker", "=ds=#h1#, #w4#"};
+				{ 20, 33152, "", "=q3=Formula: Enchant Gloves - Superior Agility", "=ds=#p4# (300)"};
+				{ 21, 31355, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)"};
+				{ 22, 31777, "", "=q1=Keepers of Time Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
@@ -3584,7 +3569,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 17, 29199, "", "=q2=Arcanum of Shadow Warding", "=ds=#s1# #e17#"};
 				{ 18, 22538, "", "=q1=Formula: Enchant Ring - Stats", "=ds=#p4# (375)"};
 				{ 19, 30833, "", "=q1=Pattern: Cloak of Arcane Evasion", "=ds=#p8# (350)"};
-				{ 20, 30633, "", "=q1=Auchenai Key", "=ds=#e9#"};
 				{ 22, 0, "Ability_Rogue_MasterOfSubtlety", "=q6=#r5#", ""};
 				{ 23, 30834, "", "=q4=Shapeshifter's Signet", "=ds=#s13#"};
 				{ 24, 30832, "", "=q4=Gavel of Unearthed Secrets", "=ds=#h3#, #w6#"};
@@ -4190,7 +4174,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 22, 29232, "", "=q1=Recipe: Transmute Skyfire Diamond", "=ds=#p1# (350)"};
 				{ 23, 24001, "", "=q1=Recipe: Elixir of Major Agility", "=ds=#p1# (330)"};
 				{ 24, 31361, "", "=q1=Pattern: Cobrahide Leg Armor", "=ds=#p7# (335)"};
-				{ 25, 30637, "", "=q1=Flamewrought Key", "=ds=#e9#"};
 			};
 			{
 				{ 1, 0, "INV_BannerPVP_01", "=q6=#r4#", ""};
@@ -4199,7 +4182,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 31358, "", "=q3=Design: Dawnstone Crab", "=ds=#p12# (370)"};
 				{ 5, 29190, "", "=q2=Arcanum of Renewal", "=ds=#s1# #e17#"};
 				{ 6, 24003, "", "=q1=Formula: Enchant Chest - Exceptional Stats", "=ds=#p4# (345)"};
-				{ 7, 34201, "", "=q1=Pattern: Netherscale Ammo Pouch", "=ds=#p7# (350)"};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#r5#", ""};
 				{ 17, 29155, "", "=q4=Stormcaller", "=ds=#h3#, #w10#"};
 				{ 18, 29165, "", "=q4=Warbringer", "=ds=#h1#, #w1#"};

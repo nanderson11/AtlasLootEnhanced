@@ -2512,17 +2512,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["FirelandsBethtilac"] = {
 		["Normal"] = {
 			{
-				{ 1, 71041, "", "=q4=Spiderwoven Robes", "=ds=#s5#, #a1#"};
+				{ 1, 71041, "", "=q4=Robes of Smoldering Devastation", "=ds=#s5#, #a1#"};
 				{ 2, 71040, "", "=q4=Cowl of the Clicking Menace", "=ds=#s1#, #a2#"};
 				{ 3, 71044, "", "=q4=Cindersilk Gloves", "=ds=#s9#, #a2#"};
 				{ 4, 71031, "", "=q4=Cinderweb Leggings", "=ds=#s11#, #a2#"};
-				{ 5, 71030, "", "=q4=Seared Chitin Shoulders", "=ds=#s3#, #a3#"};
+				{ 5, 71030, "", "=q4=Flickering Shoulders", "=ds=#s3#, #a3#"};
 				{ 6, 71042, "", "=q4=Thoracic Flame Kilt", "=ds=#s11#, #a3#"};
 				{ 7, 71043, "", "=q4=Spaulders of Manifold Eyes", "=ds=#s3#, #a4#"};
-				{ 8, 70914, "", "=q4=Flamescarred Carapace", "=ds=#s5#, #a4#"};
-				{ 9, 71029, "", "=q4=Spiderstompers", "=ds=#s12#, #a4#"};
+				{ 8, 70914, "", "=q4=Carapace of Imbibed Flame", "=ds=#s5#, #a4#"};
+				{ 9, 71029, "", "=q4=Arachnaflame Treads", "=ds=#s12#, #a4#"};
 				{ 11, 71032, "", "=q4=Widow's Kiss", "=ds=#s13#"};
-				{ 12, 68981, "", "=q4=Gift of the Greatfather", "=ds=#s14#" },
+				{ 12, 68981, "", "=q4=Spidersilk Spindle", "=ds=#s14#" },
 				{ 16, 70922, "", "=q4=Mandible of Beth'tilac", "=ds=#h1#, #w10#"};
 				{ 17, 71039, "", "=q4=Funeral Pyre", "=ds=#w9#"};
 				{ 18, 71038, "", "=q4=Ward of the Red Widow", "=ds=#w8#"};
@@ -2530,17 +2530,17 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		["Heroic"] = {
 			{
-				{ 1, 71407, "", "=q4=Spiderwoven Robes", "=ds=#s5#, #a1#"};
+				{ 1, 71407, "", "=q4=Robes of Smoldering Devastation", "=ds=#s5#, #a1#"};
 				{ 2, 71411, "", "=q4=Cowl of the Clicking Menace", "=ds=#s1#, #a2#"};
 				{ 3, 71410, "", "=q4=Cindersilk Gloves", "=ds=#s9#, #a2#"};
 				{ 4, 71402, "", "=q4=Cinderweb Leggings", "=ds=#s11#, #a2#"};
-				{ 5, 71403, "", "=q4=Seared Chitin Shoulders", "=ds=#s3#, #a3#"};
+				{ 5, 71403, "", "=q4=Flickering Shoulders", "=ds=#s3#, #a3#"};
 				{ 6, 71412, "", "=q4=Thoracic Flame Kilt", "=ds=#s11#, #a3#"};
 				{ 7, 71413, "", "=q4=Spaulders of Manifold Eyes", "=ds=#s3#, #a4#"};
-				{ 8, 71405, "", "=q4=Flamescarred Carapace", "=ds=#s5#, #a4#"};
-				{ 9, 71404, "", "=q4=Spiderstompers", "=ds=#s12#, #a4#"};
+				{ 8, 71405, "", "=q4=Carapace of Imbibed Flame", "=ds=#s5#, #a4#"};
+				{ 9, 71404, "", "=q4=Arachnaflame Treads", "=ds=#s12#, #a4#"};
 				{ 11, 71401, "", "=q4=Widow's Kiss", "=ds=#s13#"};
-				{ 12, 69138, "", "=q4=Gift of the Greatfather", "=ds=#s14#" },
+				{ 12, 69138, "", "=q4=Spidersilk Spindle", "=ds=#s14#" },
 				{ 16, 71406, "", "=q4=Mandible of Beth'tilac", "=ds=#h1#, #w10#"};
 				{ 17, 71409, "", "=q4=Funeral Pyre", "=ds=#w9#"};
 				{ 18, 71408, "", "=q4=Ward of the Red Widow", "=ds=#w8#"};
@@ -2556,16 +2556,16 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 70992, "", "=q4=Dreadfire Drape", "=ds=#s4#"};
-				{ 2, 71011, "", "=q4=Vision of Flickering Flame", "=ds=#s1#, #a1#"};
-				{ 3, 71003, "", "=q4=Vision of the Flaming Skull", "=ds=#s1#, #a2#"};
-				{ 4, 71010, "", "=q4=Incendic Robes", "=ds=#s5#, #a2#"};
+				{ 2, 71011, "", "=q4=Flickering Cowl", "=ds=#s1#, #a1#"};
+				{ 3, 71003, "", "=q4=Hood of Rampant Disdain", "=ds=#s1#, #a2#"};
+				{ 4, 71010, "", "=q4=Incendic Chestguard", "=ds=#s5#, #a2#"};
 				{ 5, 71005, "", "=q4=Flaming Core Chestguard", "=ds=#s5#, #a3#"};
-				{ 6, 71009, "", "=q4=Cauterizing Wristbands", "=ds=#s8#, #a3#"};
+				{ 6, 71009, "", "=q4=Lava Line Wristbands", "=ds=#s8#, #a3#"};
 				{ 7, 71004, "", "=q4=Earthcrack Bracers", "=ds=#s8#, #a4#"};
 				{ 8, 70993, "", "=q4=Fireskin Gauntlets", "=ds=#s9#, #a4#"};
 				{ 9, 71007, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
 				{ 10, 70912, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
-				{ 16, 71012, "", "=q4=Heartstone of Ryolith", "=ds=#s2#"};
+				{ 16, 71012, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
 				{ 18, 71006, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
 				{ 19, 70991, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
 			};
@@ -2573,16 +2573,16 @@ local moduleName = "AtlasLootCataclysm"
 		["Heroic"] = {
 			{
 				{ 1, 71415, "", "=q4=Dreadfire Drape", "=ds=#s4#"};
-				{ 2, 71421, "", "=q4=Vision of Flickering Flame", "=ds=#s1#, #a1#"};
-				{ 3, 71416, "", "=q4=Vision of the Flaming Skull", "=ds=#s1#, #a2#"};
-				{ 4, 71424, "", "=q4=Incendic Robes", "=ds=#s5#, #a2#"};
+				{ 2, 71421, "", "=q4=Flickering Cowl", "=ds=#s1#, #a1#"};
+				{ 3, 71416, "", "=q4=Hood of Rampant Disdain", "=ds=#s1#, #a2#"};
+				{ 4, 71424, "", "=q4=Incendic Chestguard", "=ds=#s5#, #a2#"};
 				{ 5, 71417, "", "=q4=Flaming Core Chestguard", "=ds=#s5#, #a3#"};
-				{ 6, 71425, "", "=q4=Cauterizing Wristbands", "=ds=#s8#, #a3#"};
+				{ 6, 71425, "", "=q4=Lava Line Wristbands", "=ds=#s8#, #a3#"};
 				{ 7, 71418, "", "=q4=Earthcrack Bracers", "=ds=#s8#, #a4#"};
 				{ 8, 71419, "", "=q4=Fireskin Gauntlets", "=ds=#s9#, #a4#"};
 				{ 9, 71426, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
 				{ 10, 71420, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
-				{ 16, 71423, "", "=q4=Heartstone of Ryolith", "=ds=#s2#"};
+				{ 16, 71423, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
 				{ 18, 71422, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
 				{ 19, 71414, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
 			};
@@ -2596,37 +2596,37 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["FirelandsAlysrazor"] = {
 		["Normal"] = {
 			{
-				{ 1, 70990, "", "=q4=Lightwing Cloak", "=ds=#s4#"};
-				{ 2, 70989, "", "=q4=Leggings of Airy Flame", "=ds=#s11#, #a1#"};
+				{ 1, 70990, "", "=q4=Wings of Flame", "=ds=#s4#"};
+				{ 2, 70989, "", "=q4=Leggings of Billowing Fire", "=ds=#s11#, #a1#"};
 				{ 3, 70735, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#"};
 				{ 4, 70987, "", "=q4=Phoenix-Down Treads", "=ds=#s12#, #a2#"};
 				{ 5, 70985, "", "=q4=Craterflame Spaulders", "=ds=#s3#, #a3#"};
-				{ 6, 70986, "", "=q4=Egg-Clutch Gauntlets", "=ds=#s9#, #a3#"};
-				{ 7, 70736, "", "=q4=Fireflight Leggings", "=ds=#s11#, #a3#"};
-				{ 8, 70734, "", "=q4=Nestheart Greathelm", "=ds=#s1#, #a4#"};
+				{ 6, 70986, "", "=q4=Clawshaper Gauntlets", "=ds=#s9#, #a3#"};
+				{ 7, 70736, "", "=q4=Moltenfeather Leggings", "=ds=#s11#, #a3#"};
+				{ 8, 70734, "", "=q4=Greathelm of the Voracious Maw", "=ds=#s1#, #a4#"};
 				{ 9, 70737, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
 				{ 10, 70988, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
-				{ 11, 70739, "", "=q4=Flightflame Legplates", "=ds=#s11#, #a4#"};
+				{ 11, 70739, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
 				{ 16, 70738, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
-				{ 17, 68983, "", "=q4=Eye of Awareness", "=ds=#s14#" },
+				{ 17, 68983, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
 				{ 19, 70733, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 71434, "", "=q4=Lightwing Cloak", "=ds=#s4#"};
-				{ 2, 71435, "", "=q4=Leggings of Airy Flame", "=ds=#s11#, #a1#"};
+				{ 1, 71434, "", "=q4=Wings of Flame", "=ds=#s4#"};
+				{ 2, 71435, "", "=q4=Leggings of Billowing Fire", "=ds=#s11#, #a1#"};
 				{ 3, 71428, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#"};
 				{ 4, 71436, "", "=q4=Phoenix-Down Treads", "=ds=#s12#, #a2#"};
 				{ 5, 71438, "", "=q4=Craterflame Spaulders", "=ds=#s3#, #a3#"};
-				{ 6, 71437, "", "=q4=Egg-Clutch Gauntlets", "=ds=#s9#, #a3#"};
-				{ 7, 71429, "", "=q4=Fireflight Leggings", "=ds=#s11#, #a3#"};
-				{ 8, 71430, "", "=q4=Nestheart Greathelm", "=ds=#s1#, #a4#"};
+				{ 6, 71437, "", "=q4=Clawshaper Gauntlets", "=ds=#s9#, #a3#"};
+				{ 7, 71429, "", "=q4=Moltenfeather Leggings", "=ds=#s11#, #a3#"};
+				{ 8, 71430, "", "=q4=Greathelm of the Voracious Maw", "=ds=#s1#, #a4#"};
 				{ 9, 71432, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
 				{ 10, 71439, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
-				{ 11, 71431, "", "=q4=Flightflame Legplates", "=ds=#s11#, #a4#"};
+				{ 11, 71431, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
 				{ 16, 71433, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
-				{ 17, 69149, "", "=q4=Eye of Awareness", "=ds=#s14#" },
+				{ 17, 69149, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
 				{ 19, 71427, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
 			};
 		};
@@ -2639,7 +2639,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["FirelandsShannox"] = {
 		["Normal"] = {
 			{
-				{ 1, 71023, "", "=q4=Emberskip Sandals", "=ds=#s12#, #a1#"};
+				{ 1, 71023, "", "=q4=Coalwalker Sandals", "=ds=#s12#, #a1#"};
 				{ 2, 71025, "", "=q4=Flickering Shoulderpads", "=ds=#s3#, #a2#"};
 				{ 3, 71020, "", "=q4=Gloves of Dissolving Smoke", "=ds=#s9#, #a2#"};
 				{ 4, 71018, "", "=q4=Scalp of the Bandit Prince", "=ds=#s1#, #a3#"};
@@ -2649,15 +2649,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 71028, "", "=q4=Legplates of Absolute Control", "=ds=#s11#, #a4#"};
 				{ 9, 70913, "", "=q4=Legplates of Frenzied Devotion", "=ds=#s11#, #a4#"};
 				{ 11, 71019, "", "=q4=Necklace of Fetishes", "=ds=#s2#"};
-				{ 12, 71024, "", "=q4=Heartspear Ring", "=ds=#s13#"};
-				{ 13, 71022, "", "=q4=Flamewrought Abalone Shell", "=ds=#s15#"};
+				{ 12, 71024, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
+				{ 13, 71022, "", "=q4=Goblet of Anger", "=ds=#s15#"};
 				{ 16, 71014, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
 				{ 17, 71013, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 71447, "", "=q4=Emberskip Sandals", "=ds=#s12#, #a1#"};
+				{ 1, 71447, "", "=q4=Coalwalker Sandals", "=ds=#s12#, #a1#"};
 				{ 2, 71450, "", "=q4=Flickering Shoulderpads", "=ds=#s3#, #a2#"};
 				{ 3, 71440, "", "=q4=Gloves of Dissolving Smoke", "=ds=#s9#, #a2#"};
 				{ 4, 71442, "", "=q4=Scalp of the Bandit Prince", "=ds=#s1#, #a3#"};
@@ -2667,8 +2667,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 71453, "", "=q4=Legplates of Absolute Control", "=ds=#s11#, #a4#"};
 				{ 9, 71444, "", "=q4=Legplates of Frenzied Devotion", "=ds=#s11#, #a4#"};
 				{ 11, 71446, "", "=q4=Necklace of Fetishes", "=ds=#s2#"};
-				{ 12, 71449, "", "=q4=Heartspear Ring", "=ds=#s13#"};
-				{ 13, 71448, "", "=q4=Flamewrought Abalone Shell", "=ds=#s15#"};
+				{ 12, 71449, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
+				{ 13, 71448, "", "=q4=Goblet of Anger", "=ds=#s15#"};
 				{ 16, 71445, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
 				{ 17, 71441, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
 			};
@@ -2684,14 +2684,14 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 71343, "", "=q4=Mantle of Closed Doors", "=ds=#s3#, #a1#"};
 				{ 2, 71345, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#"};
-				{ 3, 71314, "", "=q4=Demon Lord's Wing", "=ds=#s5#, #a2#"};
+				{ 3, 71314, "", "=q4=Breastplate of the Incendiary Soul", "=ds=#s5#, #a2#"};
 				{ 4, 71341, "", "=q4=Glowing Wing Bracers", "=ds=#s8#, #a2#"};
 				{ 5, 71340, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#"};
 				{ 6, 71342, "", "=q4=Casque of Flame", "=ds=#s1#, #a4#"};
 				{ 7, 70916, "", "=q4=Helm of Blazing Glory", "=ds=#s1#, #a4#"};
 				{ 8, 70917, "", "=q4=Flickering Handguards", "=ds=#s9#, #a4#"};
 				{ 10, 68982, "", "=q4=Necromantic Focus", "=ds=#s14#" },
-				{ 11, 71323, "", "=q4=Tome of Grim Binding", "=ds=#s15#"};
+				{ 11, 71323, "", "=q4=Molten Scream", "=ds=#s15#"};
 				{ 16, 71312, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
 				{ 17, 70915, "", "=q4=Shard of Torment", "=ds=#w8#"};
 			};
@@ -2700,14 +2700,14 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 71461, "", "=q4=Mantle of Closed Doors", "=ds=#s3#, #a1#"};
 				{ 2, 71456, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#"};
-				{ 3, 71455, "", "=q4=Demon Lord's Wing", "=ds=#s5#, #a2#"};
+				{ 3, 71455, "", "=q4=Breastplate of the Incendiary Soul", "=ds=#s5#, #a2#"};
 				{ 4, 71463, "", "=q4=Glowing Wing Bracers", "=ds=#s8#, #a2#"};
 				{ 5, 71464, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#"};
 				{ 6, 71465, "", "=q4=Casque of Flame", "=ds=#s1#, #a4#"};
 				{ 7, 71459, "", "=q4=Helm of Blazing Glory", "=ds=#s1#, #a4#"};
 				{ 8, 71458, "", "=q4=Flickering Handguards", "=ds=#s9#, #a4#"};
 				{ 10, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
-				{ 11, 71462, "", "=q4=Tome of Grim Binding", "=ds=#s15#"};
+				{ 11, 71462, "", "=q4=Molten Scream", "=ds=#s15#"};
 				{ 16, 71454, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
 				{ 17, 71460, "", "=q4=Shard of Torment", "=ds=#w8#"};
 			};
@@ -2721,33 +2721,33 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["FirelandsStaghelm"] = {
 		["Normal"] = {
 			{
-				{ 1, 71350, "", "=q4=Wristwraps of Demarcation", "=ds=#s8#, #a1#"};
+				{ 1, 71350, "", "=q4=Wristwraps of Arrogant Doom", "=ds=#s8#, #a1#"};
 				{ 2, 71349, "", "=q4=Firecat Leggings", "=ds=#s11#, #a2#"};
-				{ 3, 71313, "", "=q4=Sandals of the Flaming Scorpion", "=ds=#s12#, #a2#"};
+				{ 3, 71313, "", "=q4=Sandals of Leaping Coals", "=ds=#s12#, #a2#"};
 				{ 4, 71346, "", "=q4=Grips of Unerring Precision", "=ds=#s9#, #a3#"};
-				{ 5, 71344, "", "=q4=Carapace of Shifting Visions", "=ds=#s5#, #a4#"};
+				{ 5, 71344, "", "=q4=Breastplate of Shifting Visions", "=ds=#s5#, #a4#"};
 				{ 6, 70920, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
 				{ 7, 71351, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
 				{ 9, 71348, "", "=q4=Flowform Choker", "=ds=#s2#"};
 				{ 10, 68927, "", "=q4=The Hungerer", "=ds=#s14#" };
 				{ 11, 68926, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
-				{ 16, 69897, "", "=q4=Fandral's Flaming Spire", "=ds=#w9#"};
+				{ 16, 69897, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
 				{ 17, 71347, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 71471, "", "=q4=Wristwraps of Demarcation", "=ds=#s8#, #a1#"};
+				{ 1, 71471, "", "=q4=Wristwraps of Arrogant Doom", "=ds=#s8#, #a1#"};
 				{ 2, 71474, "", "=q4=Firecat Leggings", "=ds=#s11#, #a2#"};
-				{ 3, 71467, "", "=q4=Sandals of the Flaming Scorpion", "=ds=#s12#, #a2#"};
+				{ 3, 71467, "", "=q4=Sandals of Leaping Coals", "=ds=#s12#, #a2#"};
 				{ 4, 71468, "", "=q4=Grips of Unerring Precision", "=ds=#s9#, #a3#"};
-				{ 5, 71469, "", "=q4=Carapace of Shifting Visions", "=ds=#s5#, #a4#"};
+				{ 5, 71469, "", "=q4=Breastplate of Shifting Visions", "=ds=#s5#, #a4#"};
 				{ 6, 71470, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
 				{ 7, 71475, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
 				{ 9, 71472, "", "=q4=Flowform Choker", "=ds=#s2#"};
 				{ 10, 69112, "", "=q4=The Hungerer", "=ds=#s14#" };
 				{ 11, 69111, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
-				{ 16, 71466, "", "=q4=Fandral's Flaming Spire", "=ds=#w9#"};
+				{ 16, 71466, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
 				{ 17, 71473, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
 			};
 		};
@@ -2760,34 +2760,36 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["FirelandsRagnaros"] = {
 		["Normal"] = {
 			{
-				{ 1, 71358, "", "=q4=Firehawk Gloves", "=ds=#s9#, #a1#"};
-				{ 2, 71357, "", "=q4=Girdle of Flame", "=ds=#s10#, #a1#"};
+				{ 1, 71358, "", "=q4=Fingers of Incineration", "=ds=#s9#, #a1#"};
+				{ 2, 71357, "", "=q4=Majordomo's Chain of Office", "=ds=#s10#, #a1#"};
 				{ 3, 71356, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
-				{ 4, 70921, "", "=q4=Spaulders of Pure Flame", "=ds=#s3#, #a4#"};
-				{ 6, 71354, "", "=q4=Choker of the Firelord", "=ds=#s2#"};
+				{ 4, 70921, "", "=q4=Pauldrons of Roaring Flame", "=ds=#s3#, #a4#"};
+				{ 6, 71354, "", "=q4=Choker of the Vanquished Lord", "=ds=#s2#"};
 				{ 7, 68994, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
 				{ 8, 68925, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
 				{ 9, 68995, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
-				{ 16, 71355, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 16, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
 				{ 17, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
-				{ 18, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
-				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
+				{ 18, 71798, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
+				{ 19, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
+				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 71614, "", "=q4=Firehawk Gloves", "=ds=#s9#, #a1#"};
-				{ 2, 71613, "", "=q4=Girdle of Flame", "=ds=#s10#, #a1#"};
+				{ 1, 71614, "", "=q4=Fingers of Incineration", "=ds=#s9#, #a1#"};
+				{ 2, 71613, "", "=q4=Majordomo's Chain of Office", "=ds=#s10#, #a1#"};
 				{ 3, 71616, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
-				{ 4, 71612, "", "=q4=Spaulders of Pure Flame", "=ds=#s3#, #a4#"};
-				{ 6, 71610, "", "=q4=Choker of the Firelord", "=ds=#s2#"};
+				{ 4, 71612, "", "=q4=Pauldrons of Roaring Flame", "=ds=#s3#, #a4#"};
+				{ 6, 71610, "", "=q4=Choker of the Vanquished Lord", "=ds=#s2#"};
 				{ 7, 69150, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
 				{ 8, 69110, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
 				{ 9, 69167, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
-				{ 16, 71615, "", "=q4=Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 16, 71615, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
 				{ 17, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
-				{ 18, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
-				{ 20, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
+				{ 18, 71797, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
+				{ 19, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
+				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
 			};
 		};
 		info = {
@@ -2802,11 +2804,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 71640, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
 				{ 2, 71365, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
 				{ 4, 70929, "", "=q4=Firebound Gorget", "=ds=#s2#"};
-				{ 5, 71367, "", "=q4=Stalwart Ember Seal", "=ds=#s13#"};
+				{ 5, 71367, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
 				{ 6, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
 				{ 7, 68915, "", "=q4=Scales of Life", "=ds=#s14#" },
 				{ 16, 71359, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
-				{ 17, 71362, "", "=q4=Blackcleave Chopper", "=ds=#h1#, #w1#"};
+				{ 17, 71362, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
 				{ 18, 71361, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 19, 71360, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
 				{ 20, 71366, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
@@ -2824,11 +2826,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 71641, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
 				{ 2, 71561, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
 				{ 4, 71563, "", "=q4=Firebound Gorget", "=ds=#s2#"};
-				{ 5, 71564, "", "=q4=Stalwart Ember Seal", "=ds=#s13#"};
+				{ 5, 71564, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
 				{ 6, 69113, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
 				{ 7, 69109, "", "=q4=Scales of Life", "=ds=#s14#" },
 				{ 9, 71560, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
-				{ 10, 71562, "", "=q4=Blackcleave Chopper", "=ds=#h1#, #w1#"};
+				{ 10, 71562, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
 				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
 				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
@@ -2873,10 +2875,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 71249, "", "=q4=Firescar Sash", "=ds=#s10#, #a2#"};
 				{ 19, 71131, "", "=q4=Flamebinding Girdle", "=ds=#s10#, #a2#"};
 				{ 20, 71255, "", "=q4=Firearrow Belt", "=ds=#s10#, #a3#"};
-				{ 21, 71254, "", "=q4=Girdle of the Flaming Foothold", "=ds=#s10#, #a3#"};
+				{ 21, 71254, "", "=q4=Firemend Cinch", "=ds=#s10#, #a3#"};
 				{ 22, 71250, "", "=q4=Cinch of the Flaming Ember", "=ds=#s10#, #a4#"};
 				{ 23, 70933, "", "=q4=Girdle of the Indomitable Flame", "=ds=#s10#, #a4#"};
-				{ 24, 71253, "", "=q4=Searing Slice Girdle", "=ds=#s10#, #a4#"};
+				{ 24, 71253, "", "=q4=Belt of the Seven Seals", "=ds=#s10#, #a4#"};
 			};
 			{
 				{ 1, 0, "inv_neck_hyjaldaily_04", "=q6=#r4#", ""};
@@ -5142,7 +5144,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 60955, "", "=q3=Fossilized Hatchling", "=q2=#p25#"};
 				{ 7, 67275, "", "=q3=Magic Lamp", "=q2=#p4#"};
 				{ 8, 69821, "", "=q3=Pterrordax Hatchling", "=q2=#p25#"};
-				{ 10, 69824, "", "=q3=Voodoo Figurine", "=q2=#p25#"};
+				{ 9, 69824, "", "=q3=Voodoo Figurine", "=q2=#p25#"};
 				{ 17, 60216, "", "=q3=De-Weaponized Mechanical Companion", "=q2=#p5#"};
 				{ 18, 59597, "", "=q3=Personal World Destroyer", "=q2=#p5#"};
 				{ 19, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
@@ -6138,9 +6140,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 7, 71260, "", "=q4=Bracers of Imperious Truths", "=ds=#s8#, #a4#", "1250 #valor#" },
    			 	{ 8, 70937, "", "=q4=Bracers of Regal Force", "=ds=#s8#, #a4#", "1250 #valor#" },
     			{ 9, 71261, "", "=q4=Gigantiform Bracers", "=ds=#s8#, #a4#", "1250 #valor#" },
-    			{ 11, 71213, "", "=q4=Firemind Necklace", "=ds=#s2#", "1250 #valor#" },
+    			{ 11, 71213, "", "=q4=Amulet of Burning Brilliance", "=ds=#s2#", "1250 #valor#" },
     			{ 12, 71214, "", "=q4=Firemind Pendant", "=ds=#s2#", "1250 #valor#" },
-    			{ 13, 71129, "", "=q4=Flamesign Necklace", "=ds=#s2#", "1250 #valor#" },
+    			{ 13, 71129, "", "=q4=Necklace of Smoke Signals", "=ds=#s2#", "1250 #valor#" },
     			{ 14, 71212, "", "=q4=Stoneheart Choker", "=ds=#s2#", "1250 #valor#" },
     			{ 15, 70935, "", "=q4=Stoneheart Necklace", "=ds=#s2#", "1250 #valor#" },
     			{ 16, 71210, "", "=q4=Crystalline Brimstone Ring", "=ds=#s13#", "1250 #valor#" },
@@ -6222,7 +6224,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 70174, "", "=q3=Pattern: Royal Scribe's Satchel", "=ds=#p7# (510)"},
 				{ 11, 70176, "", "=q3=Pattern: Luxurious Silk Gem Bag", "=ds=#p8# (515)"},
 				{ 12, 70160, "", "=q3=Crimson Lasher", "=ds=#e13#"},
-				{ 13, 70160, "", "=q3=Mushroom Chair", "=ds=#m20#"},
+				{ 13, 70161, "", "=q3=Mushroom Chair", "=ds=#m20#"},
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Varlan Highbough"], "=q1=#m4#: #QUESTID:29283#"};
 				{ 17, 70122, "", "=q4=Aviana's Grips", "=ds=#s9#, #a2#"};		
 				{ 18, 70123, "", "=q4=Lancer's Greaves", "=ds=#s12#, #a3#"};
