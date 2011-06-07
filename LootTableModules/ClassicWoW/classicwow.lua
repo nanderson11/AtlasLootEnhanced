@@ -3739,23 +3739,6 @@ local moduleName = "AtlasLootClassicWoW"
 		--- Stratholme - Crusader's Square ---
 		--------------------------------------
 
-	AtlasLoot_Data["STRATStratholmeCourier"] = {
-		["Normal"] = {
-			{
-				{ 1, 13304, "", "=q1=Festival Lane Postbox Key", "=ds=#e9#", "", "45.19%"};
-				{ 2, 13303, "", "=q1=Crusaders' Square Postbox Key", "=ds=#e9#", "", "43.46%"};
-				{ 3, 13307, "", "=q1=Fras Siabi's Postbox Key", "=ds=#e9#", "", "42.88%"};
-				{ 4, 13305, "", "=q1=Elders' Square Postbox Key", "=ds=#e9#", "", "36.87%"};
-				{ 5, 13302, "", "=q1=Market Row Postbox Key", "=ds=#e9#", "", "35.58%"};
-				{ 6, 13306, "", "=q1=King's Square Postbox Key", "=ds=#e9#", "", "37.69%"};
-			}
-		};
-		info = {
-			name = AL["Keys"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
 	AtlasLoot_Data["STRATTheUnforgiven"] = {
 		["Normal"] = {
 			{

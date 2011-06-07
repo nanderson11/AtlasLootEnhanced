@@ -8,7 +8,6 @@ local moduleName = "AtlasLootWotLK"
 
 -- Index
 --- Dungeons & Raids
----- Keys
 ---- Utgarde Keep
 ---- The Nexus
 ---- Azjol-Nerub
@@ -84,23 +83,7 @@ local moduleName = "AtlasLootWotLK"
 	--- Dungeons & Raids ---
 	------------------------
 
-		------------
-		--- Keys ---
-		------------
---To be removed as soon as Atlas and loottables.lua is adjusted.
-	AtlasLoot_Data["WrathKeys"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = AL["Keys"],
-			module = moduleName, NextPrevDisable = true,
-		};
-	};
-
-		--------------------
+	--------------------
 		--- Utgarde Keep ---
 		--------------------
 

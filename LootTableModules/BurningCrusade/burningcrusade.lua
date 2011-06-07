@@ -8,7 +8,6 @@ local moduleName = "AtlasLootBurningCrusade"
 
 -- Index
 --- Dungeons & Raids
----- Keys
 ---- Auchindoun: Auchenai Crypts
 ---- Auchindoun: Mana-Tombs
 ---- Auchindoun: Sethekk Halls
@@ -75,21 +74,6 @@ local moduleName = "AtlasLootBurningCrusade"
 	------------------------
 	--- Dungeons & Raids ---
 	------------------------
-
-		------------
-		--- Keys ---
-		------------
---To be removed as soon as Atlas and loottables.lua is adjusted.
-	AtlasLoot_Data["BCKeys"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AL["Keys"],
-			module = moduleName, NextPrevDisable = true,
-		};
-	};
 
 		-----------------------------------
 		--- Auchindoun: Auchenai Crypts ---
@@ -3072,10 +3056,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 28252, "", "=q3=Bloodfyre Robes of Annihilation", "=ds=#s5#, #a1#", "", "22.53%"};
 				{ 5, 28251, "", "=q3=Boots of the Glade-Keeper", "=ds=#s12#, #a2#", "", "18.74%"};
 				{ 6, 28248, "", "=q3=Totem of the Void", "=ds=#s16#", "", "19.58%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Gatewatcher Gyro-Kill"], ""};
-				{ 17, 30436, "", "=q1=Jagged Blue Crystal", "=ds=#e9#", "", "100%"};
-				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Gatewatcher Iron-Hand"], ""};
-				{ 20, 30437, "", "=q1=Jagged Red Crystal", "=ds=#e9#", "", "100%"};
 			};
 		};
 		info = {
@@ -4086,14 +4066,13 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 19, 28273, "", "=q2=Formula: Enchant Gloves - Major Healing", "=ds=#p4# (350)"};
 				{ 20, 33155, "", "=q1=Design: Kailee's Rose", "=ds=#p12# (360)"};
 				{ 21, 29717, "", "=q1=Pattern: Drums of Battle", "=ds=#p7# (365)"};
-				{ 22, 30634, "", "=q1=Warpforged Key", "=ds=#e9#"};
-				{ 24, 0, "Spell_Nature_LightningOverload", "=q6=#r5#", ""};
-				{ 25, 29177, "", "=q4=A'dal's Command", "=ds=#s13#"};
-				{ 26, 29175, "", "=q4=Gavel of Pure Light", "=ds=#h3#, #w6#"};
-				{ 27, 29176, "", "=q4=Crest of the Sha'tar", "=ds=#w8#"};
-				{ 28, 33153, "", "=q3=Formula: Enchant Gloves - Threat", "=ds=#p4# (300)"};
-				{ 29, 31354, "", "=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)"};
-				{ 30, 31781, "", "=q1=Sha'tar Tabard", "=ds=#s7#"};
+				{ 23, 0, "Spell_Nature_LightningOverload", "=q6=#r5#", ""};
+				{ 24, 29177, "", "=q4=A'dal's Command", "=ds=#s13#"};
+				{ 25, 29175, "", "=q4=Gavel of Pure Light", "=ds=#h3#, #w6#"};
+				{ 26, 29176, "", "=q4=Crest of the Sha'tar", "=ds=#w8#"};
+				{ 27, 33153, "", "=q3=Formula: Enchant Gloves - Threat", "=ds=#p4# (300)"};
+				{ 28, 31354, "", "=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)"};
+				{ 29, 31781, "", "=q1=Sha'tar Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
