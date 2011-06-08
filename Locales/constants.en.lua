@@ -197,6 +197,8 @@ if AL then
 	AL["Location"] = true;
 	AL["ilvl 359"] = true;
 	AL["ilvl 372"] = true;
+	AL["ilvl 378"] = true;
+	AL["ilvl 391"] = true;
 
 	-- #######################################
 	-- UI things END
@@ -512,6 +514,7 @@ if AL then
 	AL["Season 7"] = true;
 	AL["Season 8"] = true;
 	AL["Season 9"] = true;
+	AL["Season 10"] = true;
 	AL["Fire"] = true;
 	AL["Water"] = true;
 	AL["Wind"] = true;
