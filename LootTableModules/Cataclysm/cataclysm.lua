@@ -2638,7 +2638,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Beth'tilac",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2679,7 +2679,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Lord Rhyolith",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2722,7 +2722,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Alysrazor",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2765,7 +2765,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Shannox",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2804,7 +2804,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Baleroc",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2843,7 +2843,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "Staghelm",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2884,7 +2884,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleBoss["Ragnaros"],
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2906,7 +2906,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = "trash",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 
@@ -2924,22 +2924,22 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
 				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
-    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
-    			{ 17, 71147, "", "=q4=Doomflame Fetish", "=ds=#s16#"},
-    			{ 18, 71149, "", "=q4=Firebinder Relic", "=ds=#s16#"},
-    			{ 19, 71146, "", "=q4=Hardheart Relic", "=ds=#s16#"},
-    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
-    			{ 22, 71150, "", "=q4=Phoenix-Feather Wand", "=ds=#w12#"},
-    			{ 23, 71151, "", "=q4=Glowing Ember Wand", "=ds=#w12#"},
-    			{ 25, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#"},
-    			{ 26, 71154, "", "=q4=Giantslicer", "=ds=#w11#"},
-    			{ 27, 71218, "", "=q4=Deflecting Star", "=ds=#w11#"},
-    			{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
+    				{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
+    				{ 17, 71147, "", "=q4=Doomflame Fetish", "=ds=#s16#"},
+    				{ 18, 71149, "", "=q4=Firebinder Relic", "=ds=#s16#"},
+    				{ 19, 71146, "", "=q4=Hardheart Relic", "=ds=#s16#"},
+    				{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
+    				{ 22, 71150, "", "=q4=Phoenix-Feather Wand", "=ds=#w12#"},
+    				{ 23, 71151, "", "=q4=Glowing Ember Wand", "=ds=#w12#"},
+    				{ 25, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#"},
+    				{ 26, 71154, "", "=q4=Giantslicer", "=ds=#w11#"},
+    				{ 27, 71218, "", "=q4=Deflecting Star", "=ds=#w11#"},
+    				{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
 			};
 		};
 		info = {
 			name = "Firestone Vendor",
-			module = moduleName, instance = "TheFirelands",
+			module = moduleName, instance = "Firelands",
 		};
 	};
 

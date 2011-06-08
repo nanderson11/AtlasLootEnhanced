@@ -192,22 +192,22 @@ AtlasLoot_LootTableRegister = {
 				{ "BaradinsWardens", 1, hide = true },
 				{ "HellscreamsReach", 2, hide = true },
 				{ "ARGALOTH", 4 },
-				{ "OCCUTHAR" },
+				{ "OCCUTHAR", 5 },
 			},
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold" },
 		},
 
-		["TheFirelands"] = {
+		["Firelands"] = {
 			["Bosses"] = {
-				{ "FirelandsBethtilac" },
-				{ "FirelandsRhyolith" },
-				{ "FirelandsAlysrazor" },
-				{ "FirelandsShannox" },
-				{ "FirelandsBaleroc" },
-				{ "FirelandsStaghelm" },
-				{ "FirelandsRagnaros" },
-				{ "FirelandsTrash" },
-				{ "FirelandsFirestone" },
+				{ "FirelandsBethtilac", 2 },
+				{ "FirelandsRhyolith", 3 },
+				{ "FirelandsAlysrazor", 4 },
+				{ "FirelandsShannox", 5 },
+				{ "FirelandsBaleroc", 6 },
+				{ "FirelandsStaghelm", 7 },
+				{ "FirelandsRagnaros", 8 },
+				{ "FirelandsTrash", 10 },
+				{ "FirelandsFirestone", 11 },
 			},
 			["Info"] = { "The Firelands", "AtlasLootCataclysm" },
 		},
@@ -1358,7 +1358,7 @@ AtlasLoot_LootTableRegister = {
 
 		["AlteracValleyNorth"] = {
 			["Bosses"] = {
-				{ "AlteracFactions", 1 },
+				{ "MiscFactions", 1 },
 				{ "AVMisc", 48 },
 				{ "AVBlue", 49 },
 			},
@@ -1367,7 +1367,7 @@ AtlasLoot_LootTableRegister = {
 
 		["AlteracValleySouth"] = {
 			["Bosses"] = {
-				{ "AlteracFactions", 1 },
+				{ "MiscFactions", 1 },
 				{ "AVMisc", 31 },
 				{ "AVBlue", 32 },
 			},
