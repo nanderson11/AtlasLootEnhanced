@@ -197,6 +197,8 @@ if AL then
 	AL["Location"] = "Quelle";
 	AL["ilvl 359"] = "Gegenstandsstufe 359";
 	AL["ilvl 372"] = "Gegenstandsstufe 372";
+	AL["ilvl 378"] = "Gegenstandsstufe 378";
+	AL["ilvl 391"] = "Gegenstandsstufe 391";
 
 	-- #######################################
 	-- UI things END
@@ -512,6 +514,7 @@ if AL then
 	AL["Season 7"] = "7. Saison";
 	AL["Season 8"] = "8. Saison";
 	AL["Season 9"] = "9. Saison";
+	AL["Season 10"] = "10. Saison";
 	AL["Fire"] = "Feuer";
 	AL["Water"] = "Wasser";
 	AL["Wind"] = "Wind";
