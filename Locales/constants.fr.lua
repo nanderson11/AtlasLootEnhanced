@@ -197,6 +197,8 @@ if AL then
 	AL["Location"] = "Lieu";
 	--AL["ilvl 359"] = true;
 	--AL["ilvl 372"] = true;
+	--AL["ilvl 378"] = true;
+	--AL["ilvl 391"] = true;
 
 	-- #######################################
 	-- UI things END
@@ -512,6 +514,7 @@ if AL then
 	AL["Season 7"] = "Saison 7";
 	AL["Season 8"] = "Saison 8";
 	AL["Season 9"] = "Saison 9";
+	AL["Season 10"] = "Saison 10";
 	AL["Fire"] = "Feu";
 	AL["Water"] = "Eau";
 	AL["Wind"] = "Vent";
@@ -996,6 +999,10 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = "Dormus le Collectionneur de dromadaires";
 	AL["The Behemoth"] = "Le Béhémoth";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
+	--AL["Zen'Vorka"] = true; -- à traduire
+	--AL["Ayla Shadowstorm"] = true; -- à traduire
+	--AL["Damek Bloombeard"] = true; -- à traduire
+	--AL["Varlan Highbough"] = true; -- à traduire
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
@@ -1006,10 +1013,10 @@ if AL then
 	--AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
-	--AL["Ring of Law"] = true;
-	--AL["Monument of Franclorn Forgewright"] = true;
-	--AL["The Grim Guzzler"] = true;
-	--AL["Summoner's Tomb"] = true;
+	--AL["Ring of Law"] = true; -- à traduire
+	AL["Monument of Franclorn Forgewright"] = "Monument de Franclorn Le Forgebusier";
+	--AL["The Grim Guzzler"] = true; -- à traduire
+	--AL["Summoner's Tomb"] = true; -- à traduire
 	AL["The Secret Safe"] = "Coffre à relique";
 	AL["The Vault"] = "La Chambre forte";
 	AL["Ogre Tannin Basket"] = "Panier Ogre de tannin";
