@@ -23,6 +23,11 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	-- compare frame
+	-- AL["Name"] = true;
+	AL["ItemLvl"] = "Gegenstandsstufe";
+	-- AL["Normal"] = true;
+	AL["%d items"] = "%d Gegenstände";
 
 	-- Loader
 	AL["Load AtlasLoot"] = "AtlasLoot laden";
@@ -92,6 +97,7 @@ if AL then
 	AL["Show price and slot if possible"] = "Preis und Slot anzeigen wenn möglich";
 	AL["Use GameTooltip"] = "Spiel-ToolTip verwenden";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Statt dem angepassten AtlasLoot-ToolTip den normalen Spiel-ToolTip verwenden";
+	-- AL["%d / %d ( Bank: %d )"] = true;
 	-- Unsafe Item
 	AL["Item Unavailable"] = "Item nicht verfügbar";
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070ddItemID: %d |r\nDieses Item ist unsicher.  Sobald Sie dieses Item im Spiel gesehen haben, besteht nicht mehr die Gefahr eines Verbindungsabbruchs.\n\nSie können die Abfrage mit einem Rechtsklick erzwingen.  Dies kann zu einem Verbindungsabbruch führen.";
@@ -999,6 +1005,10 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = "Dormus der Kameltreiber";
 	AL["The Behemoth"] = "Das Ungetüm";
 	AL["Master Elemental Shaper Krixix"] = "Meisterelementarformer Krixix";
+	-- AL["Zen'Vorka"] = true;
+	-- AL["Ayla Shadowstorm"] = true;
+	-- AL["Damek Bloombeard"] = true;
+	-- AL["Varlan Highbough"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
