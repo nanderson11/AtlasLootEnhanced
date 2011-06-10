@@ -6320,6 +6320,26 @@ local moduleName = "AtlasLootCataclysm"
 		-----------------
 		--- 4.2 Stuff ---
 		-----------------
+	AtlasLoot_Data["TestPage"] = {
+		["Normal"] = {
+			{
+				{ 1, 58190, "", "=q4=Floating Web", "=ds=#s4#", "#VALOR:1250#" },
+				{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "#JUSTICE:2200#" },
+				{ 3, 64723, "", "=q3=Bloodthirsty Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
+				
+				
+				{ 5, 33966, "", "=q1=Brewfest Slippers", "#ITEMID:37829#"};--"100 #brewfest#"};
+				{ 6, 33966, "", "=q1=Brewfest Slippers", "", "#BREWFEST:100#"};--"100 #brewfest#"};
+				--{ 12, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
+			};
+		};
+		info = {
+			name = "TestPage",
+			module = moduleName,
+			switchText = {"Test1", "Test2"}
+		};
+	}	
+	
 
 	AtlasLoot_Data["NewItems41"] = {
 		["Normal"] = {
@@ -6412,3 +6432,5 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "SETMENU",
 		};
 	}
+	
+	

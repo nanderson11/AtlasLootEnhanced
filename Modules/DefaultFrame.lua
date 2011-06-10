@@ -29,6 +29,7 @@ local dbDefaults = {
 		DefaultFrameLocked = false,
 		module = "AtlasLootCataclysm",
 		instance = "BlackrockCaverns",
+		point = {"CENTER", UIParent, "CENTER"}
 	},
 }
 
@@ -98,6 +99,7 @@ end
 function DefaultFrame:ResetCom()
 	DefaultFrame.Frame:SetPoint("CENTER", UIParent, "CENTER")
 end
+
 -- FRAME
 do
 
@@ -108,7 +110,12 @@ do
 			end
 		end
 	end
-
+	
+	local function onDragStop(self)
+		self:StopMovingOrSizing()
+		db.point = { AtlasLootItemsFrame:GetPoint() }
+	end
+	
 	local function setFrameLvl(self)
 		self:SetFrameLevel( self:GetParent():GetFrameLevel() + 1 )
 		--self:SetToplevel(true)
@@ -166,6 +173,7 @@ do
 			AtlasLoot.AtlasLootPanel:Show();
 		end 
 		AtlasLoot.AtlasInfoFrame:Show()
+		AtlasLootItemsFrame:Show()
 	end
 	
 	local function onEnter()
@@ -183,7 +191,7 @@ do
 		local Frame = self.Frame
 		Frame:ClearAllPoints()
 		Frame:SetParent(UIParent)
-		Frame:SetPoint("CENTER", UIParent, "CENTER")
+		Frame:SetPoint(unpack(db.point))
 		--Frame:SetFrameStrata("HIGH")
 		Frame:SetWidth(921)
 		Frame:SetHeight(601)
@@ -192,10 +200,10 @@ do
 		Frame:RegisterForDrag("LeftButton")
 		Frame:RegisterForDrag("LeftButton", "RightButton")
 		Frame:SetScript("OnMouseDown", onDragStart)
-		Frame:SetScript("OnMouseUp", Frame.StopMovingOrSizing)
+		Frame:SetScript("OnMouseUp", onDragStop)
 		Frame:SetScript("OnShow", onShow)
-		Frame:SetScript("OnEnter", onEnter)
-		Frame:SetScript("OnLeave", onLeave)
+		--Frame:SetScript("OnEnter", onEnter)
+		--Frame:SetScript("OnLeave", onLeave)
 		Frame:SetToplevel(true)
 		Frame:SetClampedToScreen(true)
 		
@@ -357,17 +365,49 @@ function DefaultFrame:InstanceSelect_Initialize(level)
 	if level == 1 or not level then
 		if instances[db.module] then
 			for k,v in ipairs(instances[db.module]) do
-				if k == 1 and db.instance == "" then
-					db.instance = v
+				if not v[2] then
+					if k == 1 and db.instance == "" then
+						db.instance = v[1]
+					end
+					info.text = AtlasLoot_LootTableRegister["Instances"][v[1]]["Info"][1]
+					info.value = v[1]
+					info.func = DefaultFrame.InstanceSelect_OnClick
+					if DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
+						info.hasArrow = true
+					end
+					info.checked = nil
+					UIDropDownMenu_AddButton(info, level)
 				end
-				info.text = AtlasLoot_LootTableRegister["Instances"][v]["Info"][1]
-				info.value = v
-				info.func = DefaultFrame.InstanceSelect_OnClick
-				if DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
-					info.hasArrow = true
+			end
+			
+			info.text = ""
+			info.value = nil
+			info.func = nil
+			info.checked = nil
+			info.notCheckable = true
+			info.isTitle = true
+			info.justifyH = "CENTER"
+			UIDropDownMenu_AddButton(info, level)
+			
+			info.text = "--- "..RAIDS.." ---"
+			UIDropDownMenu_AddButton(info, level)
+			
+			info.notCheckable = false
+			info.isTitle = false
+			info.disabled = false
+			info.justifyH = nil
+			
+			for k,v in ipairs(instances[db.module]) do
+				if v[2] then
+					info.text = AtlasLoot_LootTableRegister["Instances"][v[1]]["Info"][1]
+					info.value = v[1]
+					info.func = DefaultFrame.InstanceSelect_OnClick
+					if DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
+						info.hasArrow = true
+					end
+					info.checked = nil
+					UIDropDownMenu_AddButton(info, level)
 				end
-				info.checked = nil
-				UIDropDownMenu_AddButton(info, level)
 			end
 		end
 	elseif level == 2 and DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
@@ -405,9 +445,6 @@ function DefaultFrame:SetInstanceTable()
 	curInstance = curInstance["Bosses"]
 	if not curInstance then return end
 	scrollCurLines = #curInstance
-	
-
-
 
 	if DEFAULTFRAME_STYLE_NUM_DUMMY == 1 then
 		DefaultFrame.Frame.InstanceName:SetText(iniName)
@@ -507,10 +544,10 @@ do
 		for ini,iniTab in SortTable(AtlasLoot_LootTableRegister["Instances"]) do
 			if iniTab["Info"] and iniTab["Info"][2] and type(iniTab["Info"][2]) == "table" then
 				for k,v in ipairs(iniTab["Info"][2]) do
-					instances[ v ][#instances[ v ] + 1] = ini
+					instances[ v ][#instances[ v ] + 1] = {ini, iniTab["Info"].raid}
 				end
 			elseif iniTab["Info"] and instances[ iniTab["Info"][2] ] then
-				instances[ iniTab["Info"][2] ][#instances[ iniTab["Info"][2] ] + 1] = ini
+				instances[ iniTab["Info"][2] ][#instances[ iniTab["Info"][2] ] + 1] = {ini, iniTab["Info"].raid}
 			end
 		end
 	end

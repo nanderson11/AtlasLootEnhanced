@@ -98,7 +98,7 @@ end
 -- AtlasLoot:ItemsFrameOnCloseButton:
 -- Called when the close button on the item frame is clicked
 function AtlasLoot:ItemsFrameOnCloseButton()
-	--Set no loot table as currently selected
+	--[[Set no loot table as currently selected
 	AtlasLootItemsFrame.activeBoss = nil;
 	--Fix the boss buttons so the correct icons are displayed
     if AtlasFrame and AtlasFrame:IsVisible() then
@@ -114,6 +114,7 @@ function AtlasLoot:ItemsFrameOnCloseButton()
 	--Hide the item frame
 	AtlasLoot:ClearLootPageItems()
 	AtlasLoot:ClearLootPage()
+	]]--
 	AtlasLootItemsFrame:Hide();
 end
 
@@ -182,91 +183,4 @@ function AtlasLoot:BackButton_OnClick()
 	if self.lootpage then
 		AtlasLoot:ShowLootPage(self.lootpage)
 	end
-end
-
------------------------------
--- Query All function
------------------------------
-do 
-
-	local queryAllTimerFrame = CreateFrame("Frame")
-	local queryAllAnimationGroup = queryAllTimerFrame:CreateAnimationGroup()
-	local queryAllAnimation = queryAllAnimationGroup:CreateAnimation("Animation")
-	local queryAllScanTooltip = CreateFrame("GAMETOOLTIP","AtlasLootQueryAllScanTooltip",nil,"GameTooltipTemplate");
-	local queryAllButtonIndex = 0
-	local queryAllItemID = 0
-	queryAllAnimation:SetDuration(7)
-	queryAllAnimationGroup:SetLooping("NONE")
-	queryAllScanTooltip:SetOwner(UIParent, "ANCHOR_NONE");
-	
-	-- Querys the itemButton
-	-- buttonIndex 
-	local function QueryItem(buttonIndex)
-		if not buttonIndex or buttonIndex > 30 then return end
-		local queryitem 
-		if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info then
-			queryitem = AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info[2]
-		end
-		if not queryitem then
-			QueryNextItem()
-			return
-		elseif (queryitem) and (queryitem ~= nil) and (queryitem ~= "") and (queryitem ~= 0) and (string.sub(queryitem, 1, 1) ~= "s") then
-			queryAllItemID = queryitem
-			queryAllScanTooltip:SetHyperlink("item:"..queryitem..":0:0:0:0:0:0:0")
-		end
-	end
-
-	local function QueryNextItem()
-		if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex] then AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].Frame.QueryIcon:Hide() end
-		queryAllButtonIndex = queryAllButtonIndex + 1
-		if queryAllButtonIndex > 30 then
-			AtlasLoot:StopQuery()
-			AtlasLoot:RefreshLootPage()
-		else
-			local queryitem 
-			if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info then
-				queryitem = AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info[2]
-			end
-			if not queryitem then
-				QueryNextItem()
-			elseif queryitem and queryitem == 0 or queryitem and GetItemInfo(queryitem) then
-				QueryNextItem()
-			else
-				if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex] then AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].Frame.QueryIcon:Show() end
-				QueryItem(queryAllButtonIndex)
-			end
-		end
-	end
-
-	local function OnTooltipSetItem()
-		if not queryAllItemID then QueryNextItem() return end
-		if GetItemInfo(queryAllItemID) then
-			if queryAllAnimationGroup:IsPlaying() then
-				queryAllAnimationGroup:Stop()
-			end
-			AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex]:Refresh()
-			QueryNextItem()
-		else
-			queryAllAnimationGroup:Play()
-		end
-	end
-	
-	queryAllAnimationGroup:SetScript("OnFinished", QueryNextItem)
-	queryAllScanTooltip:SetScript('OnTooltipSetItem', OnTooltipSetItem)
-	
-	--- Starts to Query the lootpage
-	-- Querys all valid items on the current loot page.
-	-- @usage AtlasLoot_QueryLootPage()
-	function AtlasLoot:QueryLootPage()
-		queryAllButtonIndex = 0
-		QueryNextItem()
-	end
-	
-	--- Stops the Query of all items
-	-- @usage AtlasLoot:StopQuery()
-	function AtlasLoot:StopQuery()
-		if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex] then AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].Frame.QueryIcon:Hide() end
-		queryAllAnimationGroup:Stop()
-	end	
-
 end

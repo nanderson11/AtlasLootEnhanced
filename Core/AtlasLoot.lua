@@ -983,16 +983,24 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Switch:Show()
 	elseif self.ItemFrame.Switch.changePoint then
 		if AtlasLoot.db.profile.ShowLootTablePrice then
-			if moduleName == "AtlasLootCrafting" then
-				self.ItemFrame.Switch:SetText(AL["Skill"])
+			if AtlasLoot_Data[dataID].info.switchText and AtlasLoot_Data[dataID].info.switchText[1] then
+				self.ItemFrame.Switch:SetText(AtlasLoot_Data[dataID].info.switchText[1])
 			else
-				self.ItemFrame.Switch:SetText(AL["Show Slot"])
+				if moduleName == "AtlasLootCrafting" then
+					self.ItemFrame.Switch:SetText(AL["Skill"])
+				else
+					self.ItemFrame.Switch:SetText(AL["Show Slot"])
+				end
 			end
 		else
-			if moduleName == "AtlasLootCrafting" then
-				self.ItemFrame.Switch:SetText(AL["Location"])
+			if AtlasLoot_Data[dataID].info.switchText and AtlasLoot_Data[dataID].info.switchText[2] then
+				self.ItemFrame.Switch:SetText(AtlasLoot_Data[dataID].info.switchText[2])
 			else
-				self.ItemFrame.Switch:SetText(AL["Show Price"])
+				if moduleName == "AtlasLootCrafting" then
+					self.ItemFrame.Switch:SetText(AL["Location"])
+				else
+					self.ItemFrame.Switch:SetText(AL["Show Price"])
+				end
 			end
 		end
 		self.ItemFrame.Switch:Show()

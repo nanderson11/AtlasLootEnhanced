@@ -12,6 +12,24 @@ local ParseTooltip_Enabled = false
 
 local AltasLootItemButton = {}
 
+local CURRENCY_PRICE = {
+	-- http://www.wowhead.com/currencies
+	["DALARANJW"] = 61,		-- Dalaran Jewelcrafter's Token
+	["DALARANCK"] = 81,		-- Dalaran Cooking Award
+	["CHAMPSEAL"] = 241,	-- Champion's Seal
+	["ILLLJW"] = 361,		-- Illustrious Jewelcrafter's Token
+	["CONQUEST"] = 390, 	-- Conquest Points
+	["TOLBARAD"] = 391,		-- Tol Barad Commendation
+	["HONOR"] = 392,		-- Honor Points	
+	["JUSTICE"] = 395,		-- Justice Points
+	["VALOR"] = 396,		-- Valor Points
+	["CHEFAWARD"] = 402,	-- Chef's Award
+	
+	-- Custom currencys
+	["BREWFEST"] = { itemID = 37829 },
+}
+
+
 -- AtlasLoot:CreateItemButton
 do
 	local mt = {__index = AltasLootItemButton}
@@ -183,8 +201,26 @@ do
 	local questIcon = "Interface\\MINIMAP\\TRACKING\\TrivialQuests"
 	local achievementIcon = "Interface\\ACHIEVEMENTFRAME\\UI-Achievement-TinyShield"
 	
-	local function GetAchievementOrQuestText(text)
-		local tempText, isQuest, isAchievement = nil, nil, nil
+	local function GetExtraPriceLink(text)
+		local price, isPrice = nil, nil
+		if text then
+			for k,v in pairs(CURRENCY_PRICE) do
+				if string.find(text, "#"..k..":%d+#") then
+					_,_,price = string.find(text, "#"..k..":(%d+)#")
+					if type(v) == "number" then
+						isPrice = v
+					elseif v["itemID"] then
+						isPrice = k
+					end
+					break
+				end
+			end
+		end	
+		return price, isPrice
+	end 
+	
+	local function GetExtraTextLink(text)
+		local tempText, isQuest, isAchievement, isItem = nil, nil, nil, nil
 		if text and string.find(text, "#QUESTID:%d+#") then
 			_,_,isQuest = string.find(text, "#QUESTID:(%d+)#")
 			tempText = AtlasLoot:GetQuestName(isQuest)
@@ -199,33 +235,26 @@ do
 			end
 			tempText = "|cff1eff00"..tempText
 			tempText = gsub(text, "#ACHIEVEMENTID:%d+#", tempText)
+		elseif text and string.find(text, "#ITEMID:%d+#") then
+			_,_,isItem = string.find(text, "#ITEMID:(%d+)#")
+			local itemQuality
+			tempText, _, itemQuality = GetItemInfo(isItem)
+			if tempText then
+				local _, _, _, itemQuality = GetItemQualityColor(itemQuality)
+				tempText = "|c"..itemQuality..tempText
+			else
+				tempText = "|cffFFFFFF".._G["UNKNOWN"]
+			end
 		end
 		
-		return tempText, isQuest, isAchievement
+		return tempText, isQuest, isAchievement, isItem
 	end
 	
 	-- Create and returns the editet extra Text
 	local function GetItemExtraText(itemID, extraText, price, itemName)
-		local tempText, isQuest, isAchievement = nil, nil, nil
-		--[[
-		if extraText and string.find(extraText, "#QUESTID:%d+#") then
-			_,_,isQuest = string.find(extraText, "#QUESTID:(%d+)#")
-			tempText = AtlasLoot:GetQuestName(isQuest)
-			tempText = "|cffFFFFFF"..tempText
-			tempText = gsub(extraText, "#QUESTID:%d+#", tempText)
-		elseif extraText and string.find(extraText, "#ACHIEVEMENTID:%d+#") then
-			_,_,isAchievement = string.find(extraText, "#ACHIEVEMENTID:(%d+)#")
-			if GetAchievementLink(isAchievement) then
-				tempText = select(2,GetAchievementInfo(isAchievement))
-			else
-				tempText = "ID:"..isAchievement.." not found"
-			end
-			tempText = "|cff1eff00"..tempText
-			tempText = gsub(extraText, "#ACHIEVEMENTID:%d+#", tempText)
-		end
-		]]
-		tempText, isQuest, isAchievement = GetAchievementOrQuestText(extraText)
-		local tempPrice = GetAchievementOrQuestText(price)
+		local tempText, isQuest, isAchievement, isItem = GetExtraTextLink(extraText)
+		local tempPrice, isPrice = GetExtraPriceLink(price)
+
 		if not tempText and extraText and price and price ~= "" then
 			-- lengh < 70  = standart
 			-- this adds the ItemPrice to the Extratext if its not to long
@@ -248,7 +277,11 @@ do
 					if itemName then
 						extraText = AtlasLoot:GetItemEquipInfo(itemID)
 					else
-						extraText = price
+						if tempPrice then
+							extraText = tempPrice
+						else
+							extraText = price
+						end
 					end
 				end
 				if price == "=ds=" or price == "" then
@@ -257,17 +290,22 @@ do
 
 				if AtlasLoot.db.profile.ShowLootTablePrice then
 					if tempPrice then
-						tempText, isQuest, isAchievement = GetAchievementOrQuestText(price)
+						--tempPrice, isPrice = GetExtraPriceLink(price)
+						tempText = tempPrice
 					else
-						tempText = price
+						tempText, isQuest, isAchievement, isItem = GetExtraTextLink(price)
+						if not tempText then
+							tempText = price
+						end
 					end
 				else
 					tempText = extraText
+					isPrice = nil
 				end
 			end
 		elseif not tempText and price and price ~= "" then
 			--if tempPrice then
-			--	price, isQuest, isAchievement = GetAchievementOrQuestText(extraText)
+			--	price, isQuest, isAchievement = GetExtraTextLink(extraText)
 			--end
 			--tempText = price
 		elseif not tempText and extraText then
@@ -277,16 +315,19 @@ do
 		end
 		
 		tempText = AtlasLoot:FixText(tempText)
-		return tempText or "", isQuest, isAchievement
+		return tempText or "", isQuest, isAchievement, isItem, isPrice
 	end
 
 	local function Setup_ItemExtraText(self, itemID, extraText, itemPrice, itemNameNew)
-		local tempText, isQuest, isAchievement = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
+		local tempText, isQuest, isAchievement, isItem, isPrice = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
 		
 		if isQuest then
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
+			self.Frame.QA.achievementID = nil
 			self.Frame.QA.questID = isQuest
+			self.Frame.QA.itemID = nil
+			self.Frame.QA.price = nil
 			self.Frame.QA.ExtraIcon:SetTexture(questIcon)
 			self.Frame.QA.ExtraIcon:SetWidth(10)
 			self.Frame.QA.ExtraIcon:SetHeight(10)	
@@ -296,12 +337,50 @@ do
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
 			self.Frame.QA.achievementID = isAchievement
+			self.Frame.QA.questID = nil
+			self.Frame.QA.itemID = nil
+			self.Frame.QA.price = nil
 			self.Frame.QA.ExtraIcon:SetTexture(achievementIcon)
 			self.Frame.QA.ExtraIcon:SetWidth(20)
 			self.Frame.QA.ExtraIcon:SetHeight(20)	
 			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -1)
-			self.Frame.QA.ExtraText:SetText(tempText)		
+			self.Frame.QA.ExtraText:SetText(tempText)	
+		elseif isItem then
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.achievementID = nil
+			self.Frame.QA.questID = nil
+			self.Frame.QA.itemID = isItem
+			self.Frame.QA.price = nil
+			self.Frame.QA.ExtraIcon:SetTexture(GetItemIcon(isItem))
+			self.Frame.QA.ExtraIcon:SetWidth(12)
+			self.Frame.QA.ExtraIcon:SetHeight(12)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -2)
+			self.Frame.QA.ExtraText:SetText(tempText)
+		elseif isPrice then
+			local icon
+			if type(isPrice) == "number" then
+				icon = select(3, GetCurrencyInfo(isPrice))
+				icon = "Interface\\Icons\\"..icon
+			else
+				icon = GetItemIcon(CURRENCY_PRICE[isPrice].itemID)
+			end
+			self.Frame.Extra:Hide()
+			self.Frame.QA:Show()
+			self.Frame.QA.achievementID = nil
+			self.Frame.QA.questID = nil
+			self.Frame.QA.itemID = nil
+			self.Frame.QA.price = {isPrice, tempText}
+			self.Frame.QA.ExtraIcon:SetTexture(icon)
+			self.Frame.QA.ExtraIcon:SetWidth(12)
+			self.Frame.QA.ExtraIcon:SetHeight(12)	
+			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -2)
+			self.Frame.QA.ExtraText:SetText(tempText)
 		else
+			self.Frame.QA.achievementID = nil
+			self.Frame.QA.questID = nil
+			self.Frame.QA.itemID = nil
+			self.Frame.QA.price = nil
 			self.Frame.QA:Hide()
 			self.Frame.Extra:SetText(tempText)
 			self.Frame.Extra:Show()		
@@ -704,6 +783,8 @@ function AtlasLoot:QAItemOnEnter()
 	
 	local questID = self.questID
 	local achievementID = self.achievementID
+	local itemID = self.itemID
+	local price = self.price
 	
 	if questID then
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
@@ -713,8 +794,41 @@ function AtlasLoot:QAItemOnEnter()
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 		AtlasLootTooltip:SetHyperlink(GetAchievementLink(achievementID))
 		AtlasLootTooltip:Show();
+	elseif itemID then
+		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
+		AtlasLootTooltip:SetHyperlink("item:"..itemID..":0:0:0");
+		AtlasLootTooltip:Show();
+	elseif price then
+		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
+		if type(price[1]) == "number" then
+			local name, currentAmount, _, _, _, totalMax = GetCurrencyInfo(price[1])
+			AtlasLootTooltip:AddLine(name);
+			if currentAmount >= tonumber(price[2]) then
+				AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[2]);
+			else
+				AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[2]);
+			end
+		else
+			local count = GetItemCount(CURRENCY_PRICE[price[1]].itemID)
+			local countAll = GetItemCount(CURRENCY_PRICE[price[1]].itemID, true)
+			local color = "\n"
+			if countAll >= tonumber(price[2]) then
+				color = color..GREEN
+			else
+				color = color..RED
+			end
+			AtlasLootTooltip:SetHyperlink("item:"..CURRENCY_PRICE[price[1]].itemID..":0:0:0")
+			if countAll == count then
+				AtlasLootTooltip:AddLine(color..count.." / "..price[2])
+			else
+				AtlasLootTooltip:AddLine(color..string.format(AL["%d / %d ( Bank: %d )"], countAll, price[2], countAll - count))
+			end
+		end
+		AtlasLootTooltip:Show();
 	end
 end
+
+
 
 function AtlasLoot:QAItemOnLeave()
 	AtlasLootTooltip:Hide()
@@ -725,15 +839,23 @@ end
 
 function AtlasLoot:QAItemOnClick(arg1)
 	if IsShiftKeyDown() then
-		local questID = self.questID
-		local achievementID = self.achievementID
 		local link
-		if questID then
-			link = "|cffffff00|Hquest:"..questID.."|h["..AtlasLoot:GetQuestName(questID).."]|h|r"
+		if self.questID then
+			link = "|cffffff00|Hquest:"..self.questID.."|h["..AtlasLoot:GetQuestName(self.questID).."]|h|r"
 			--/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hquest:2969:47\124h[Freedom for All Creatures]\124h\124r");
 			--http://www.wowpedia.org/QuestLink
-		elseif achievementID then
-			link = GetAchievementLink(achievementID)
+		elseif self.achievementID then
+			link = GetAchievementLink(self.achievementID)
+		elseif self.itemID then
+			_, link = GetItemInfo(self.itemID)
+		elseif self.price then
+			if type(self.price[1]) == "number" then
+				link = GetCurrencyInfo(self.price[1])
+				link = self.price[2].." x "..link
+			else
+				_, link = GetItemInfo(CURRENCY_PRICE[self.price[1]].itemID)
+				link = self.price[2].." x "..link
+			end
 		end
 		if link then
 			--if ChatFrameEditBox and ChatFrameEditBox:IsVisible() then
