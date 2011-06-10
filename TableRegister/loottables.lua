@@ -582,11 +582,11 @@ AtlasLoot_LootTableRegister = {
 		["AuchManaTombs"] = {
 			["Bosses"] = {
 				{ "Consortium", 1, hide = true },
-				{ "AuchManaPandemonius", 3 },
-				{ "AuchManaTavarok", 5 },
-				{ "AuchManaNexusPrince", 6 },
-				{ "AuchManaYor", 7 },
-				{ "AuchTrash", 12 },
+				{ "AuchManaPandemonius", 4 },
+				{ "AuchManaTavarok", 6 },
+				{ "AuchManaNexusPrince", 7 },
+				{ "AuchManaYor", 8 },
+				{ "AuchTrash", 13 },
 			},
 			["Info"] = { BabbleZone["Mana-Tombs"], "AtlasLootBurningCrusade" },
 		},
