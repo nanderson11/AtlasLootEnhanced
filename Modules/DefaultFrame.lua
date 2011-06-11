@@ -361,13 +361,15 @@ end
 function DefaultFrame:InstanceSelect_Initialize(level)
 	--if not level then return end
 	local info = self.info
+	local first = true
 	wipe(info)
 	if level == 1 or not level then
 		if instances[db.module] then
 			for k,v in ipairs(instances[db.module]) do
 				if not v[2] then
-					if k == 1 and db.instance == "" then
+					if first and db.instance == "" then
 						db.instance = v[1]
+						first = false
 					end
 					info.text = AtlasLoot_LootTableRegister["Instances"][v[1]]["Info"][1]
 					info.value = v[1]

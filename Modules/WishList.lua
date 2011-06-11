@@ -267,6 +267,7 @@ do
 				db.defaultWishlist = value
 				return db.defaultWishlist
 			end,
+			width = "full",
 		}
 		options.args.Own.args.addWishlist = {
 			type = "execute",
@@ -788,7 +789,11 @@ function WishList:GetWishListIcon(wishlist)
 	else
 		return nil
 	end
-	return self.ownWishLists[wishlist]["info"]["icon"] or "Interface\\Icons\\INV_Misc_QuestionMark"
+	if self.ownWishLists[wishlist] then
+		return self.ownWishLists[wishlist]["info"]["icon"] or "Interface\\Icons\\INV_Misc_QuestionMark"
+	else
+		return "Interface\\Icons\\INV_Misc_QuestionMark"
+	end
 end
 
 function AtlasLoot:GetItemOnWishlistIconString(itemID)

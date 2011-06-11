@@ -52,7 +52,6 @@ AtlasLoot_LootTableRegister = {
 ---------------------------
 
 	---- Dungeons
-	
 		["BlackrockCaverns"] = {
 			["Bosses"] = {
 				{ "BlackrockCavernsRomogg", 2 },

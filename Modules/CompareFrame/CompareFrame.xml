@@ -80,6 +80,11 @@
 				</Texture>
 			</Layer>
 		</Layers>
+		<Scripts>
+			<OnClick>
+				AtlasLoot:CFSortButtonOnClick(self, button)
+			</OnClick>
+		</Scripts>
 		<ButtonText name="$parentText">
 			<Anchors>
 				<Anchor point="LEFT">

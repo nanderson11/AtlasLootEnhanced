@@ -35,33 +35,70 @@ local STATS_LIST = {
 }
 
 local SORT_FUNC = {
-	["name"] = function(table, revert)
+	--["none"] = ipairs,
+	["name"] = function(self, sortBy, tab, revert)
 		local a = {}
-		for n in pairs(table) do a[#a +1] = n end
-		table.sort(a)
+		for k,v in ipairs(tab) do a[k] = {GetItemInfo(v), v} end
 		if revert then
-			local i = #a+1
-			return function()
-				i = i - 1
-				return a[i], t[a[i]]
-			end
+			table.sort(a, function(x,y) return (x[1] > y[1]) end)
 		else
-			local i = 0
-			return function()
-				i = i + 1
-				return a[i], t[a[i]]
-			end
+			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+		end
+
+		local i = 0
+		return function()
+			i = i + 1
+			return a[i], i
 		end
 	end,
-	["rarity"] = function(table, revert)
-		
+	["rarity"] = function(self, sortBy, tab, revert)
+		local a = {}
+		for k,v in ipairs(tab) do a[k] = {select(3, GetItemInfo(v)), v} end
+		if revert then
+			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+		else
+			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+		end
+
+		local i = 0
+		return function()
+			i = i + 1
+			return a[i], i
+		end
 	end,
-	["itemlvl"] = function(table, revert)
-		
-	end,	
+	["itemlvl"] = function(self, sortBy, tab, revert)
+		local a = {}
+		for k,v in ipairs(tab) do a[k] = {select(4, GetItemInfo(v)), v} end
+		if revert then
+			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+		else
+			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+		end
+
+		local i = 0
+		return function()
+			i = i + 1
+			return a[i], i
+		end
+	end,
+	["stats"] = function(self, sortBy, tab, revert)
+		local a = {}
+		for k,v in ipairs(tab) do a[k] = { GetItemStats(select(2, GetItemInfo(v)),nil)["ITEM_MOD_"..sortBy.."_SHORT"] or 0, v} end
+		if revert then
+			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+		else
+			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+		end
+
+		local i = 0
+		return function()
+			i = i + 1
+			return a[i], i
+		end	
+	end,
 }
 for k,v in pairs(STATS_LIST) do
-	SORT_FUNC[k] = SORT_FUNC["itemlvl"]
+	SORT_FUNC[k] = SORT_FUNC["stats"]
 end
 
 local STATS_SORT_LIST = {
@@ -90,6 +127,9 @@ local STATS_EXTRA_SORT_LIST = {
 	["DEATHKNIGHT"] = { "STAMINA", "STRENGTH", "AGILITY" },
 }
 
+local CURRENT_SORT = {"none", false}
+
+--/run AtlasLoot:CompareFrame_Create() AtlasLoot:CompareFrame_LoadInstance("BlackrockCaverns")
 function AtlasLoot:CompareFrame_LoadInstance(ini)
 	if not ini then return end
 	local bossTable, infoTable
@@ -163,17 +203,82 @@ function AtlasLoot:CompareFrame_LoadInstance(ini)
 	AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
 	AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
 end
--- #####################################################
--- Main(Sub) Filter
-local function SortItems(sortBy,revert)
+--[[
+										{
+											0, -- [1]
+											56442, -- [2]
+											"", -- [3]
+											"=q3=Cursed Skardyn Vest", -- [4]
+											"=ds=#s5#, #a2#", -- [5]
+											"GBUmbriss#Heroic", -- [6]
+										}, -- [1]
+]]--
+
+function AtlasLoot:CompareFrame_LoadWishList(itemTab, tableName)
+	if not tab then return end
+	tableName = tableName or UNKNOWN
 	
+	LIST_MAINFILTERS = {}
+	LIST_SUBFILTERS = {}
+	LIST_SUBSUBFILTERS = {}
+	LIST_ITEMS = {}
+	NUM_ITEMS_IN_LIST = 0
+	
+	for _,item in ipairs(itemTab) do
+		
+		
+		
+	end
+	
+	AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
+	AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
 end
--- Main(Sub) Filter
+-- #####################################################
+-- Itemlist Sort
+local function SortItems(itemTable, sortBy, revert)
+	local itemIDs = {}
+	if sortBy == "none" then
+		return itemTable
+	end
+	for v,k in SORT_FUNC[sortBy](SORT_FUNC, sortBy, itemTable, revert) do
+		itemIDs[k] = v[2]
+	end
+	return itemIDs
+end
+-- Itemlist Sort
 -- #####################################################
 
 
 -- #####################################################
 -- Main(Sub) Filter
+
+local function MainFilterButton_SetType(button, type, text, isLast)
+	local normalText = _G[button:GetName().."NormalText"];
+	local normalTexture = _G[button:GetName().."NormalTexture"];
+	local line = _G[button:GetName().."Lines"];
+	if ( type == "main" ) then
+		button:SetText(text);
+		normalText:SetPoint("LEFT", button, "LEFT", 4, 0);
+		normalTexture:SetAlpha(1.0);	
+		line:Hide();
+	elseif ( type == "sub" ) then
+		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE);
+		normalText:SetPoint("LEFT", button, "LEFT", 12, 0);
+		normalTexture:SetAlpha(0.4);
+		line:Hide();
+	elseif ( type == "subsub" ) then
+		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE);
+		normalText:SetPoint("LEFT", button, "LEFT", 20, 0);
+		normalTexture:SetAlpha(0.0);	
+		if ( isLast ) then
+			line:SetTexCoord(0.4375, 0.875, 0, 0.625);
+		else
+			line:SetTexCoord(0, 0.4375, 0, 0.625);
+		end
+		line:Show();
+	end
+	button.type = type; 
+end
 
 function AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
 	AtlasLoot:CompareFrame_UpdateMainFilterList()
@@ -233,34 +338,6 @@ function AtlasLoot:CompareFrame_UpdateMainFilterList()
 			button:Hide();
 		end
 	end
-end
-
-local function MainFilterButton_SetType(button, type, text, isLast)
-	local normalText = _G[button:GetName().."NormalText"];
-	local normalTexture = _G[button:GetName().."NormalTexture"];
-	local line = _G[button:GetName().."Lines"];
-	if ( type == "main" ) then
-		button:SetText(text);
-		normalText:SetPoint("LEFT", button, "LEFT", 4, 0);
-		normalTexture:SetAlpha(1.0);	
-		line:Hide();
-	elseif ( type == "sub" ) then
-		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE);
-		normalText:SetPoint("LEFT", button, "LEFT", 12, 0);
-		normalTexture:SetAlpha(0.4);
-		line:Hide();
-	elseif ( type == "subsub" ) then
-		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE);
-		normalText:SetPoint("LEFT", button, "LEFT", 20, 0);
-		normalTexture:SetAlpha(0.0);	
-		if ( isLast ) then
-			line:SetTexCoord(0.4375, 0.875, 0, 0.625);
-		else
-			line:SetTexCoord(0, 0.4375, 0, 0.625);
-		end
-		line:Show();
-	end
-	button.type = type; 
 end
 
 function AtlasLoot:CompareFrame_UpdateSubFilterList(index)
@@ -332,7 +409,20 @@ end
 
 -- #####################################################
 -- ItemList
-function AtlasLoot:CompareFrame_UpdateItemListScrollFrame()
+
+local lastListInfo = {}
+local saved_ItemList = {}
+function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy)
+	sortBy = sortBy or "none"
+	if sortBy ~= "SKIP" then
+		if CURRENT_SORT[1] == sortBy then
+			CURRENT_SORT[2] = not CURRENT_SORT[2]
+		else
+			CURRENT_SORT[1] = sortBy
+			CURRENT_SORT[2] = false
+		end
+	end
+	
 	local offset = FauxScrollFrame_GetOffset(AtlasLootCompareFrame_ScrollFrameItemFrame)
 	local index, button;
 	local curMainFilter = AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex
@@ -340,40 +430,59 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame()
 	local curSubSubFilter = AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex
 	local numItems = 0
 	local itemSave = {}
-	local itemIDs = {}
-	if curMainFilter then
-		if curSubFilter then
-			if curSubSubFilter then
-				itemIDs = LIST_ITEMS[curMainFilter][curSubFilter][curSubSubFilter]
+	local itemIDs_temp = nil
+	
+	if ( curMainFilter and lastListInfo[1] ~= curMainFilter ) or ( curSubFilter and lastListInfo[2] ~= curSubFilter ) or ( curSubSubFilter and lastListInfo[3] ~= curSubSubFilter ) then
+		lastListInfo[1] = curMainFilter
+		lastListInfo[2] = curSubFilter
+		lastListInfo[3] = curSubSubFilter
+		itemIDs_temp = {}
+		
+		if curMainFilter then
+			if curSubFilter then
+				if curSubSubFilter then
+					itemIDs_temp = LIST_ITEMS[curMainFilter][curSubFilter][curSubSubFilter]
+				else
+					for k,v in ipairs(LIST_ITEMS[curMainFilter][curSubFilter]) do
+						for _,item in ipairs(v) do
+							if not itemSave[item] then
+								itemSave[item] = true
+								AtlasLootTooltip:SetHyperlink("item:"..item..":0:0:0:0:0:0:0")
+								itemIDs_temp[#itemIDs_temp+1] = item
+							end
+						end
+					end
+				end
 			else
-				for k,v in ipairs(LIST_ITEMS[curMainFilter][curSubFilter]) do
-					for _,item in ipairs(v) do
-						if not itemSave[item] then
-							itemSave[item] = true
-							itemIDs[#itemIDs+1] = item
+				for k,v in  ipairs(LIST_ITEMS[curMainFilter]) do
+					for _,itemList in ipairs(v) do
+						for _,item in ipairs(itemList) do
+							if not itemSave[item] then
+								itemSave[item] = true
+								AtlasLootTooltip:SetHyperlink("item:"..item..":0:0:0:0:0:0:0")
+								itemIDs_temp[#itemIDs_temp+1] = item
+							end
 						end
 					end
 				end
 			end
-		else
-			for k,v in ipairs(LIST_ITEMS[curMainFilter]) do
-				for _,itemList in ipairs(v) do
-					for _,item in ipairs(itemList) do
-						if not itemSave[item] then
-							itemSave[item] = true
-							itemIDs[#itemIDs+1] = item
-						end
-					end
-				end
-			end
+			itemSave = nil
 		end
-		itemSave = nil
+		for i=1,8 do
+			_G[FRAME_NAME.."_ScrollFrameItemFrame_Item"..i]:Hide()
+		end
 	end
-	for i=1,8 do
-		_G[FRAME_NAME.."_ScrollFrameItemFrame_Item"..i]:Hide()
+	if sortBy ~= "SKIP" then
+		if itemIDs_temp then
+			saved_ItemList = SortItems(itemIDs_temp, CURRENT_SORT[1],CURRENT_SORT[2])
+		else
+			saved_ItemList = SortItems(saved_ItemList, CURRENT_SORT[1],CURRENT_SORT[2])
+		end
+		AtlasLoot:CFSortButton_UpdateArrows()
 	end
 	
-	numItems = #itemIDs
+	numItems = #saved_ItemList
+	
 	if numItems > 0 then
 		for i=1,NUM_ITEMS_TO_DISPLAY do
 				index = offset + i
@@ -394,7 +503,7 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame()
 					buttonHighlight:SetWidth(562);
 				end
 				
-				button:SetItemID(itemIDs[index])
+				button:SetItemID(saved_ItemList[index])
 			else
 				button:Hide()
 				button:SetItemID(nil)
@@ -458,9 +567,6 @@ end
 local function SetItemID(self, itemID)
 	if not itemID then
 		self.itemID = nil
-		self.stats = nil
-		self.name = nil
-		self.itemLvl = nil
 		return
 	end
 	self.itemID = itemID
@@ -478,14 +584,12 @@ local function SetItemID(self, itemID)
 	self.Name:SetText(color..itemName or "???")
 	self.ItemLvl:SetText(itemLevel or "???")
 	
-	self.name = itemName
-	self.itemLvl = itemLevel
 	if itemLink then
-		self.stats = GetItemStats(itemLink)
+		stats = GetItemStats(itemLink)
 		for k,v in ipairs(STATS_SORT_LIST[englishClass]) do
 			if self["ITEM_MOD_"..v.."_SHORT"] then
-				if stats["ITEM_MOD_"..v.."_SHORT"] then
-					self["ITEM_MOD_"..v.."_SHORT"]:SetText(self.stats["ITEM_MOD_"..v.."_SHORT"])
+				if stats and stats["ITEM_MOD_"..v.."_SHORT"] then
+					self["ITEM_MOD_"..v.."_SHORT"]:SetText(stats["ITEM_MOD_"..v.."_SHORT"])
 				else
 					self["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
 				end
@@ -633,7 +737,29 @@ local function onVerticalScrollMainFilter(self, offset)
 end
 
 local function onVerticalScrollItemFrame(self, offset)
-	FauxScrollFrame_OnVerticalScroll(self, offset, 37, AtlasLoot.CompareFrame_UpdateItemListScrollFrame)
+	FauxScrollFrame_OnVerticalScroll(self, offset, 37, function() AtlasLoot:CompareFrame_UpdateItemListScrollFrame("SKIP") end)
+end
+
+-- SortButton functions
+function AtlasLoot:CFSortButton_UpdateArrows()
+	for k,v in ipairs(AtlasLoot.CompareFrame.SortButtons) do
+		if v.SortType == CURRENT_SORT[1] then
+			if CURRENT_SORT[2] then
+				_G[v:GetName().."Arrow"]:Show();
+				_G[v:GetName().."Arrow"]:SetTexCoord(0, 0.5625, 1.0, 0);
+			else
+				_G[v:GetName().."Arrow"]:Show();
+				_G[v:GetName().."Arrow"]:SetTexCoord(0, 0.5625, 0, 1.0);
+			end
+		else
+			-- hide sort arrows for non-primary column
+			_G[v:GetName().."Arrow"]:Hide();
+		end
+	end
+end
+
+function AtlasLoot:CFSortButtonOnClick(self)
+	AtlasLoot:CompareFrame_UpdateItemListScrollFrame(self.SortType)
 end
 
 function AtlasLoot:CompareFrame_Create()

@@ -81,7 +81,6 @@ local AtlasLootDBDefaults = {
         EquipCompare = false,
 		Opaque = false,
         ItemIDs = false,
-        ItemSpam = false,
         MiniMapButton = {
 			hide = false,
 		},

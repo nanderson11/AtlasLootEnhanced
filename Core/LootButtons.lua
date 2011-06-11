@@ -56,7 +56,8 @@ do
 				Frame = {},
 				item = false,
 				spell = false,
-				tableLink = false,				
+				tableLink = false,		
+				type = "ItemIcon",
 			},
 			mt
 		)
@@ -163,6 +164,265 @@ do
 
 		return itemButton	
 	end
+	
+	-- AtlasLoot:CreateCompareFrameItemButton(nil, nil, "TestIt")
+	--{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "#JUSTICE:2200#" },
+	--button:SetItem(58155, "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", nil, nil, nil)
+	-- /run button=AtlasLoot:CreateCompareFrameItemButton(nil, nil, "TestIt")button:SetItem(58155, "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", nil, "#JUSTICE:2200#", nil)
+	function AtlasLoot:CreateCompareFrameItemButton(parent, point, name, statsList)
+		parent = parent or UIParent
+		if not point or type(point) ~= "table" then point = {"CENTER", parent, "CENTER"} end--point = {"TOPLEFT", parent, "TOPLEFT", 0, 0} end
+		if not name or name == "" then
+			--error("AtlasLoot:CreateItemButton: Enter a name.", 2)
+			return
+		end
+
+		-- Set the metaTable
+		local itemButton = setmetatable(
+			{
+				Frame = {},
+				item = false,
+				spell = false,
+				tableLink = false,
+				type = "CompareFrameItemButton",
+				statsList = statsList,
+			},
+			mt
+		)
+		
+		local sortMaxLength = 625
+		local sortCurLenght = 0
+	
+		
+		-- ########################
+		-- Create the itemFrame
+		-- ########################
+			
+		-- MainFrame <frame>
+		itemButton.Frame = CreateFrame("Button", name, parent)
+		itemButton.Frame:SetWidth(sortMaxLength)
+		itemButton.Frame:SetHeight(37)
+		itemButton.Frame:SetPoint(unpack(point));
+		itemButton.Frame:RegisterForClicks("LeftButtonDown", "RightButtonDown")	
+		itemButton.SetPoint = itemButton.Frame.SetPoint
+		
+		-- Menu icon <texture>
+		itemButton.Frame.MenuIcon = itemButton.Frame:CreateTexture(name.."_MenuIcon", "ARTWORK")
+		itemButton.Frame.MenuIcon:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT", 3, -3)
+		itemButton.Frame.MenuIcon:SetHeight(32)
+		itemButton.Frame.MenuIcon:SetWidth(32)
+		itemButton.Frame.MenuIcon:Hide()
+		
+		-- Menu IconBorder <texture>
+		itemButton.Frame.MenuIconBorder = itemButton.Frame:CreateTexture(nil, "OVERLAY")
+		itemButton.Frame.MenuIconBorder:SetPoint("TOPLEFT", itemButton.Frame.MenuIcon, "TOPLEFT", -5, 5)
+		itemButton.Frame.MenuIconBorder:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
+		itemButton.Frame.MenuIconBorder:SetHeight(64)
+		itemButton.Frame.MenuIconBorder:SetWidth(64)
+		itemButton.Frame.MenuIconBorder:Hide()
+			
+		-- Query Icon <texture>
+		itemButton.Frame.QueryIcon = itemButton.Frame:CreateTexture(name.."_QueryIcon", "OVERLAY")
+		itemButton.Frame.QueryIcon:SetPoint("TOPLEFT", itemButton.Frame.Icon, "TOPLEFT", 0, 0)
+		itemButton.Frame.QueryIcon:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\arrow")
+		itemButton.Frame.QueryIcon:SetHeight(25)
+		itemButton.Frame.QueryIcon:SetWidth(25)
+		itemButton.Frame.QueryIcon:Hide()		
+			
+		-- ItemName <FontString>
+		itemButton.Frame.Name = itemButton.Frame:CreateFontString(name.."_Name", "ARTWORK", "GameFontNormal")
+		itemButton.Frame.Name:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT", 35, 0)
+		itemButton.Frame.Name:SetJustifyH("LEFT")
+		itemButton.Frame.Name:SetText("NAME")
+		itemButton.Frame.Name:SetWidth(177)
+		itemButton.Frame.Name:SetHeight(15)
+		sortMaxLength = (sortMaxLength - 169) - 43
+			
+		-- ExtraText <FontString>		
+		itemButton.Frame.Extra = itemButton.Frame:CreateFontString(name.."_Extra", "ARTWORK", "GameFontNormalSmall")
+		itemButton.Frame.Extra:SetPoint("TOPLEFT", itemButton.Frame.Name, "BOTTOMLEFT", 0, -1)
+		itemButton.Frame.Extra:SetJustifyH("LEFT")
+		itemButton.Frame.Extra:SetText("EXTRA")
+		itemButton.Frame.Extra:SetWidth(177)
+		itemButton.Frame.Extra:SetHeight(10)
+		
+		-- Extra text for Quests/Achievements
+		itemButton.Frame.QA = CreateFrame("Button", name.."_QA", itemButton.Frame)
+		itemButton.Frame.QA:SetWidth(177)
+		itemButton.Frame.QA:SetHeight(14)
+		itemButton.Frame.QA:SetPoint("TOPLEFT", itemButton.Frame.Name, "BOTTOMLEFT", 0, -1)
+		itemButton.Frame.QA:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+		itemButton.Frame.QA:RegisterForClicks("LeftButtonDown", "RightButtonDown")	
+		
+		itemButton.Frame.QA.ExtraIcon = itemButton.Frame.QA:CreateTexture(name.."_QAExtraIcon", "OVERLAY")
+		itemButton.Frame.QA.ExtraIcon:SetPoint("TOPLEFT", itemButton.Frame.QA, "TOPLEFT", 0, -1)
+		itemButton.Frame.QA.ExtraIcon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
+		itemButton.Frame.QA.ExtraIcon:SetHeight(10)
+		itemButton.Frame.QA.ExtraIcon:SetWidth(10)
+		
+		--- text
+		itemButton.Frame.QA.ExtraText = itemButton.Frame.QA:CreateFontString(name.."_QAExtraText", "ARTWORK", "GameFontNormalSmall")
+		itemButton.Frame.QA.ExtraText:SetPoint("TOPLEFT", itemButton.Frame.QA, "TOPLEFT", 12, -1)
+		itemButton.Frame.QA.ExtraText:SetJustifyH("LEFT")
+		itemButton.Frame.QA.ExtraText:SetText("TEST")
+		itemButton.Frame.QA.ExtraText:SetWidth(165)
+		itemButton.Frame.QA.ExtraText:SetHeight(10)
+		
+		itemButton.Frame.QA:SetScript("OnEnter", AtlasLoot.QAItemOnEnter)
+		itemButton.Frame.QA:SetScript("OnLeave", AtlasLoot.QAItemOnLeave)
+		itemButton.Frame.QA:SetScript("OnClick", AtlasLoot.QAItemOnClick)
+		
+		-- ############
+		-- LAYER
+		local left = itemButton.Frame:CreateTexture(nil, "BACKGROUND")
+		left:SetPoint("LEFT", itemButton.Frame, "LEFT", 34, 2)	
+		left:SetWidth(10)
+		left:SetHeight(32)
+		left:SetTexture("Interface\\AuctionFrame\\UI-AuctionItemNameFrame")
+		left:SetTexCoord(0, 0.078125, 0, 1.0)
+		
+		local right = itemButton.Frame:CreateTexture(nil, "BACKGROUND")
+		right:SetPoint("RIGHT", itemButton.Frame, "RIGHT", 0, 2)	
+		right:SetWidth(10)
+		right:SetHeight(32)
+		right:SetTexture("Interface\\AuctionFrame\\UI-AuctionItemNameFrame")
+		right:SetTexCoord(0.75, 0.828125, 0, 1.0)
+	
+		local center = itemButton.Frame:CreateTexture(nil, "BACKGROUND")
+		center:SetPoint("LEFT", left, "RIGHT", 0, 0)	
+		center:SetPoint("RIGHT", right, "LEFT", 0, 0)
+		center:SetWidth(10)
+		center:SetHeight(32)
+		center:SetTexture("Interface\\AuctionFrame\\UI-AuctionItemNameFrame")
+		center:SetTexCoord(0.078125, 0.75, 0, 1.0)
+		
+		-- #########
+		-- ITEM ICON
+		local itemButtonButton = CreateFrame("BUTTON", "_ItemButtonButton", itemButton.Frame)
+		itemButtonButton:SetWidth(32)
+		itemButtonButton:SetHeight(32)
+		itemButtonButton:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT", 0, 0)
+		itemButtonButton.par = itemButton
+		itemButtonButton.GetName = function()
+			return name
+		end
+		
+		itemButton.Frame.Icon = itemButton.Frame:CreateTexture(nil, "BORDER")
+		itemButton.Frame.Icon:SetPoint("TOPLEFT", itemButtonButton, "TOPLEFT", 0, 0)	
+		itemButton.Frame.Icon:SetWidth(32)
+		itemButton.Frame.Icon:SetHeight(32)
+		itemButton.Frame.Icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
+		
+		--itemButton.Frame.Icon:SetScript("OnEnter", itemButtonOnEnter)
+		--itemButton.Frame.Icon:SetScript("OnLeave", itemButtonOnLeave)
+		--itemButton.Frame.Icon:SetScript("OnClick", itemButtonOnClick)
+		
+		local normalTextureFrame = itemButton.Frame:CreateTexture(nil, "BORDER")
+		normalTextureFrame:SetPoint("CENTER", itemButtonButton, "CENTER", 0, 0)	
+		normalTextureFrame:SetWidth(60)
+		normalTextureFrame:SetHeight(60)
+		normalTextureFrame:SetTexture("Interface\\Buttons\\UI-Quickslot2")
+		
+		itemButtonButton:SetNormalTexture(normalTextureFrame)
+		itemButtonButton:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square", "ADD")
+		itemButtonButton:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")	
+		-- ITEM ICON
+		-- #########
+		
+		
+		local highlightTextureMainFrame = itemButton.Frame:CreateTexture(name.."_Highlight", "BORDER")
+		highlightTextureMainFrame:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT", 33, 0)	
+		highlightTextureMainFrame:SetWidth(597-33)
+		highlightTextureMainFrame:SetHeight(32)
+		highlightTextureMainFrame:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		highlightTextureMainFrame:SetTexCoord(0, 1.0, 0, 0.578125)
+		highlightTextureMainFrame:Hide()
+		
+		itemButton.Frame:SetHighlightTexture(highlightTextureMainFrame, "ADD")
+		-- LAYER
+		-- ############
+		
+		-- ############
+		-- STATS
+		itemButton.Frame.Stats = {}
+		
+		-- ItemLvl <FontString>
+		itemButton.Frame.Stats[1] = itemButton.Frame:CreateFontString(name.."_ItemLvl", "BACKGROUND", "GameFontHighlightSmall")
+		itemButton.Frame.Stats[1]:SetPoint("TOPLEFT", itemButton.Frame.Name, "TOPRIGHT", 0, 0)
+		itemButton.Frame.Stats[1]:SetWidth(61)
+		itemButton.Frame.Stats[1]:SetHeight(32)
+		itemButton.Frame.Stats[1]:SetText("LVL")
+		sortMaxLength = sortMaxLength - 61
+		
+		if statsList then
+			sortCurLenght = sortMaxLength / #statsList
+			local num = 1
+			for k,v in ipairs(statsList) do
+				itemButton.Frame.Stats[k+num] = itemButton.Frame:CreateFontString(name.."_"..statsList[k], "BACKGROUND", "GameFontHighlightSmall")
+				itemButton.Frame.Stats[k+num]:SetPoint("LEFT", itemButton.Frame.Stats[k+num-1], "RIGHT", 0, 0)
+				itemButton.Frame.Stats[k+num]:SetWidth(sortCurLenght)
+				itemButton.Frame.Stats[k+num]:SetHeight(32)
+				itemButton.Frame.Stats[k+num]:SetText(v)
+				
+				itemButton["ITEM_MOD_"..v.."_SHORT"] = itemButton.Frame.Stats[k+num]
+			end
+		end
+		-- STATS
+		-- ############
+		
+		-- Unsafe <texture>
+		itemButton.Frame.Unsafe = itemButton.Frame:CreateTexture(name.."_Unsafe", "BACKGROUND")
+		itemButton.Frame.Unsafe:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT", -1, -1)
+		itemButton.Frame.Unsafe:SetHeight(34)
+		itemButton.Frame.Unsafe:SetWidth(27)
+		itemButton.Frame.Unsafe:SetTexture(1,0,0,1)
+		itemButton.Frame.Unsafe:Hide()		
+			
+		-- itemButton Scripts
+		itemButtonButton:SetScript("OnEnter", AtlasLoot.ItemOnEnter)
+		itemButtonButton:SetScript("OnLeave", AtlasLoot.ItemOnLeave)
+		itemButton.Frame:SetScript("OnClick", AtlasLoot.ItemOnClick)
+		itemButtonButton:SetScript("OnClick", AtlasLoot.ItemOnClick)
+		itemButton.Frame:SetScript("OnShow", function() itemButton.Frame:SetFrameLevel( (itemButton.Frame:GetParent()):GetFrameLevel() + 1 ) end)
+		itemButton.Frame:SetScript("OnEvent", AtlasLoot.ItemOnEvent)
+		itemButton.Frame.par = itemButton
+		-- Hide the button
+		--itemButton.Frame:Hide()
+		
+		itemButton.Frame.oriSetWidth = itemButton.Frame.SetWidth
+		local cur = 0
+		function itemButton.Frame:SetWidth(width)
+			if width == cur then
+				-- Do nothing
+			elseif width == 597 then
+				itemButton.Frame.Name:SetWidth( 177 - 25 )
+				itemButton.Frame.Extra:SetWidth( 177 - 25 )
+				itemButton.Frame.QA:SetWidth( 177 - 25 )
+				itemButton.Frame.QA.ExtraText:SetWidth( 165 - 25 )
+				local fixVaule = 349 / #statsList
+				for i=2,#itemButton.Frame.Stats do
+					itemButton.Frame.Stats[i]:SetWidth(fixVaule)
+				end
+				cur = width
+				itemButton.Frame:oriSetWidth(width)
+			elseif width == 625 then
+				itemButton.Frame.Name:SetWidth( 177 )
+				itemButton.Frame.Extra:SetWidth( 177 )
+				itemButton.Frame.QA:SetWidth( 177 )
+				itemButton.Frame.QA.ExtraText:SetWidth( 165 )
+				local fixVaule = 353 / #statsList
+				for i=2,#itemButton.Frame.Stats do
+					itemButton.Frame.Stats[i]:SetWidth(fixVaule)
+				end
+				cur = width
+				itemButton.Frame:oriSetWidth(width)
+			end
+		end
+
+		return itemButton
+	end
+	
+	
 end
 
 --- Sets the type of the button
@@ -386,6 +646,7 @@ do
 			self.Frame.Extra:Show()		
 		end
 	end
+	
 	--- Sets a item to the button
 	-- @param itemID The item ID
 	-- @param itemName The item name, self is only used if the item name is not in the cache. Set to nil and not in cache it will use UNKNOWN
@@ -434,6 +695,24 @@ do
 		end
 		self.Frame.Name:SetText(wishlist..tempText)
 		tempText = ""
+		
+		-- ########################
+		-- itemStats
+		-- ########################
+		if itemLink and self.type == "CompareFrameItemButton" and self.statsList then
+			self.Frame.Stats[1]:SetText(itemLevel)
+			local stats = GetItemStats(itemLink)
+			for k,v in ipairs(self.statsList) do
+				if self["ITEM_MOD_"..v.."_SHORT"] then
+					if stats and stats["ITEM_MOD_"..v.."_SHORT"] then
+						self["ITEM_MOD_"..v.."_SHORT"]:SetText(stats["ITEM_MOD_"..v.."_SHORT"])
+					else
+						self["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
+					end
+				end
+			end
+		end
+		--"CompareFrameItemButton"
 
 		-- ########################
 		-- extraText and itemPrice

@@ -46,7 +46,6 @@ if AL then
 	AL["Safe Chat Links"] = true;
 	AL["Comparison TT"] = true;
 	AL["Show Comparison Tooltips"] = true;
-	AL["Supress item query text"] = true;
 	AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = true;
 	AL["Treat Crafted Items:"] = true;
