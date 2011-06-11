@@ -605,6 +605,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 6, "PVP85Accessories2", "spell_fire_rune", "=ds=PvP Accessories"};
 				{ 7, "PVP85Trinkets2", "spell_fire_rune", "=ds=PvP Trinkets"};
 				{ 8, "ValorPoints378", "inv_misc_cape_cataclysm_tank_d_01", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 9, "TestPage", "spell_fire_rune", "=ds=TestPage"};
 			};
 		};
 		info = {
