@@ -96,8 +96,21 @@ local AtlasLootDBDefaults = {
         LootBrowserScale = 1.0,
 		LootBrowserAlpha = 1.0,
 		LootBrowserAlphaOnLeave = false,
-        SearchOn = {
-            All = true,
+        SearchModule = {
+        	["*"] = false,
+        },
+        CompareFrame = {
+        	showBaseSort = true,
+        	showExtraSort = true,
+        	lastSortType = "BASE",
+        	ownSortLists = {
+        		["*"] = {
+        			["*"] = false,
+        		}
+        	},
+        	statsColor = {
+        		["*"] = { r = 1.0, g = 1.0, b = 1.0 }
+        	},
         },
         AtlasType = "Release",
 		modules = { ["*"] = true },
@@ -184,6 +197,7 @@ function AtlasLoot:OnLoaderLoad()
 	if self.DevToolsInitialize then
 		self:DevToolsInitialize()
 	end
+	self:CompareFrame_Create()
 
 
 	--#########

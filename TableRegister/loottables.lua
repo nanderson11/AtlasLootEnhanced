@@ -193,7 +193,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ARGALOTH", 4 },
 				{ "OCCUTHAR", 5 },
 			},
-			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold", raid = true },
+			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold", raid = true, disableCompare = true },
 		},
 
 		["Firelands"] = {
@@ -558,7 +558,7 @@ AtlasLoot_LootTableRegister = {
 				{ "KORALON", 4 },
 				{ "TORAVON", 5 },
 			},
-			["Info"] = { BabbleZone["Vault of Archavon"], "AtlasLootWotLK", mapname = "VaultofArchavon", raid = true },
+			["Info"] = { BabbleZone["Vault of Archavon"], "AtlasLootWotLK", mapname = "VaultofArchavon", raid = true, disableCompare = true },
 		},
 
 --------------------

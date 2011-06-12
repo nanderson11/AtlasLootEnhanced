@@ -24,10 +24,44 @@ if AL then
 	-- UI things
 	-- #########
 	-- compare frame
+	AL["Compare Frame"] = true;
+	AL["Show in Compare Frame"] = true;
 	AL["Name"] = true;
 	AL["ItemLvl"] = true;
 	AL["Normal"] = true;
 	AL["%d items"] = true;
+	AL["All"] = true;
+	AL["Stats"] = true;
+	AL["Show \"Base Stats list\""] = true;
+	AL["Show \"Extra Stats list\""] = true;
+	AL["Base Stats list"] = true;
+	AL["Extra Stats list"] = true;	
+	AL["Add Stats list"] = true;
+	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = true;
+	AL["Delete Stats list"] = true;
+	AL["Stats color"] = true;
+	AL["Stats list name:"] = true;
+	
+	-- Stats short
+	AL["iLvl"] = true;	-- Item lvl
+	AL["str"] = true;	-- Strength
+	AL["agi"] = true;	-- Agility
+	AL["sta"] = true;	-- Stamina
+	AL["int"] = true;	-- Intellect
+	AL["spi"] = true;	-- Spirit
+	AL["Crit"] = true;	-- Crit Rating
+	AL["Dodge"] = true;	-- Dodge Rating
+	AL["Exp"] = true;	-- Expertise Rating
+	AL["Hit"] = true;	-- Hit Rating
+	AL["Haste"] = true;	-- Haste Rating
+	AL["Parry"] = true;	-- Parry Rating
+	AL["Spell"] = true;	-- Spell Power
+	AL["Resi"] = true;	-- Resilience Rating
+	
+	-- Stats
+	AL["Resilience Rating"] = true;
+	AL["Base Stats"] = true;
+	AL["Extra Stats"] = true;
 
 	-- Loader
 	AL["Load AtlasLoot"] = true;

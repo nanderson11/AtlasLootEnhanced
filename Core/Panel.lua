@@ -208,6 +208,10 @@ do
 		end
 	end
 	
+	local function showLastSearchResult()
+		AtlasLoot:CompareFrame_Search(AtlasLoot.db.profile.LastSearch, AtlasLoot.db.profile.SearchModule)
+	end
+	
 	local function CreateLootTableButton(frame, info)
 		if not info then return end
 		if not info.text then info.text = info.saveName end
@@ -402,7 +406,7 @@ do
 		
 		local SearchFrame = ButtonListLines["SearchFrame"]
 		
-		SearchFrame.SearchBox = CreateFrame("EditBox", "AtlasLootSearch_Box", SearchFrame, "InputBoxTemplate")
+		SearchFrame.SearchBox = CreateFrame("EditBox", "AtlasLootPanelSearch_Box", SearchFrame, "InputBoxTemplate")
 		SearchFrame.SearchBox:SetPoint("TOPLEFT", SearchFrame, "TOPLEFT")
 		SearchFrame.SearchBox:SetWidth(250)
 		SearchFrame.SearchBox:SetHeight(35)
@@ -410,22 +414,24 @@ do
 		SearchFrame.SearchBox:SetTextInsets(0, 8, 0, 0)
 		SearchFrame.SearchBox:SetMaxLetters(100)
 		SearchFrame.SearchBox:SetScript("OnEnterPressed",function(self) 
-								AtlasLoot:Search(self:GetText())
-								self:ClearFocus()
+								AtlasLoot:CompareFrame_Search(SearchFrame.SearchBox:GetText(), AtlasLoot.db.profile.SearchModule)
+								SearchFrame.SearchBox:ClearFocus()
 							end)
 		searchFrameWidth = searchFrameWidth + SearchFrame.SearchBox:GetWidth()
 		
-		SearchFrame.Search = CreateFrame("Button","AtlasLootSearch_SearchButton",SearchFrame,"UIPanelButtonTemplate2")
+		SearchFrame.Search = CreateFrame("Button","AtlasLootPanelSearch_SearchButton",SearchFrame,"UIPanelButtonTemplate2")
 		SearchFrame.Search:SetText(AL["Search"])
 		SearchFrame.Search:SetWidth(69)
 		SearchFrame.Search:SetHeight(20)
 		SearchFrame.Search:SetPoint("LEFT", SearchFrame.SearchBox, "RIGHT", 0, 0)
 		SearchFrame.Search:SetScript("OnClick",function() 
-								AtlasLoot:Search(SearchFrame.SearchBox:GetText())
+								AtlasLoot:CompareFrame_Search(SearchFrame.SearchBox:GetText(), AtlasLoot.db.profile.SearchModule)
 								SearchFrame.SearchBox:ClearFocus()
 							end)
 		searchFrameWidth = searchFrameWidth + SearchFrame.Search:GetWidth()
-							
+					
+		
+		SearchFrame.SearchSelectModule = AtlasLoot:CreateSearchModuleDropDown(SearchFrame, {"LEFT", SearchFrame.Search, "RIGHT", 0, 0}, "AtlasLootPanelSearch_SelectModuel")
 		--[[				
 		SearchFrame.SearchOptions = CreateFrame("Button",nil,SearchFrame)
 		SearchFrame.SearchOptions:SetWidth(28)
@@ -439,23 +445,23 @@ do
 		SearchFrame.SearchOptions:SetScript("OnClick", AtlasLoot.ShowSearchOptions)
 		]]--
 		
-		SearchFrame.Clear = CreateFrame("Button","AtlasLootSearch_ClearButton",SearchFrame,"UIPanelButtonTemplate2")
+		SearchFrame.Clear = CreateFrame("Button","AtlasLootPanelSearch_ClearButton",SearchFrame,"UIPanelButtonTemplate2")
 		SearchFrame.Clear:SetText(AL["Clear"])
 		SearchFrame.Clear:SetWidth(58)
 		SearchFrame.Clear:SetHeight(20)
-		SearchFrame.Clear:SetPoint("LEFT", SearchFrame.Search, "RIGHT", 0, 0)
+		SearchFrame.Clear:SetPoint("LEFT", SearchFrame.SearchSelectModule, "RIGHT", 0, 0)
 		SearchFrame.Clear:SetScript("OnClick",function() 
 								SearchFrame.SearchBox:SetText("")
 								SearchFrame.SearchBox:ClearFocus()
 							end)
 		searchFrameWidth = searchFrameWidth + SearchFrame.Clear:GetWidth()
 							
-		SearchFrame.LastResult = CreateFrame("Button","AtlasLootSearch_LastResultButton",SearchFrame,"UIPanelButtonTemplate2")
+		SearchFrame.LastResult = CreateFrame("Button","AtlasLootPanelSearch_LastResultButton",SearchFrame,"UIPanelButtonTemplate2")
 		SearchFrame.LastResult:SetText(AL["Last Result"])
 		SearchFrame.LastResult:SetWidth(120)
 		SearchFrame.LastResult:SetHeight(20)
 		SearchFrame.LastResult:SetPoint("LEFT", SearchFrame.Clear, "RIGHT", 0, 0)
-		SearchFrame.LastResult:SetScript("OnClick", AtlasLoot.ShowSearchResult)	
+		SearchFrame.LastResult:SetScript("OnClick", showLastSearchResult)	
 		searchFrameWidth = searchFrameWidth + SearchFrame.LastResult:GetWidth()
 		
 		ButtonListLines["SearchFrame"]:SetWidth(searchFrameWidth)

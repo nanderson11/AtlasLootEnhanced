@@ -87,9 +87,9 @@
 		</Scripts>
 		<ButtonText name="$parentText">
 			<Anchors>
-				<Anchor point="LEFT">
+				<Anchor point="CENTER">
 					<Offset>
-						<AbsDimension x="8" y="0"/>
+						<AbsDimension x="0" y="0"/>
 					</Offset>
 				</Anchor>
 			</Anchors>

@@ -32,9 +32,10 @@ local FilterTableNames = {
 	["WeaponsRanged"] = AL["Ranged weapons"],
 	["Other"] = AL["Other"],
 	["ItemSlot"] = AL["Itemslot"],
+	["Stats"] = AL["Stats"],
 }
 
-local FilterSort = {"Armor", "Other", "ItemSlot", "WeaponsMeele", "WeaponsMeeleTwoHand", "WeaponsRanged"}
+local FilterSort = {"Armor", "Other", "ItemSlot", "WeaponsMeele", "WeaponsMeeleTwoHand", "WeaponsRanged", "Stats"}
 local FilterTable = {
 	["Armor"] = {
 		"#a1#",				-- Cloth
@@ -98,20 +99,119 @@ local FilterTable = {
 		"#s11#",			-- Legs
 		"#s12#", 			-- Feet
 	},
+	["Stats"] = {
+		"STAMINA",
+		"AGILITY",	
+		"STRENGTH",
+		"INTELLECT",
+		"SPIRIT",		
+		"CRIT_RATING",
+		"DODGE_RATING",	
+		"EXPERTISE_RATING",
+		"HIT_RATING",
+		"HASTE_RATING",
+		"PARRY_RATING",
+		"SPELL_POWER",	
+		"RESILIENCE_RATING",
+	},
 }
-local FilterTableNamesSlots = {}
+local FilterTableNamesSlots = {
+	["STRENGTH"] = AL["Strength"],
+ 	["AGILITY"] = AL["Agility"],
+	["STAMINA"] = AL["Stamina"],
+	["INTELLECT"] = AL["Intellect"],
+	["SPIRIT"] = AL["Spirit"],
+	["CRIT_RATING"] = AL["Crit Rating"],
+	["DODGE_RATING"] = AL["Dodge Rating"],
+	["EXPERTISE_RATING"] = AL["Expertise Rating"],
+	["HIT_RATING"] = AL["Hit Rating"],
+	["HASTE_RATING"] = AL["Haste Rating"],
+	["PARRY_RATING"] = AL["Parry Rating"],
+	["SPELL_POWER"] = AL["Spell Power"],
+	["RESILIENCE_RATING"] = AL["Resilience Rating"],
+}
 
 local ClassHides = {
-	["DRUID"] = {["Armor"] = {false,true,false,false},["WeaponsMeele"] = {true,true,true,true,false,true,false,false,false},["WeaponsMeeleTwoHand"] = {true,false,false},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,true}},
-	["MAGE"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Other"] = {true,true,true,true,false}},
-	["PALADIN"] = {["Armor"] = {false,false,false,true},["WeaponsMeele"] = {true,false,true,false,true,true,true,true,false},["WeaponsMeeleTwoHand"] = {true,false,true},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,true}},
-	["PRIEST"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,true,true,false,false,false,false,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Other"] = {true,true,true,true,false}},
-	["ROGUE"] = {["Armor"] = {false,true,false,false},["WeaponsMeele"] = {true,true,true,false,true,false,false,true,true},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {false,true,true,true,true},["Other"] = {true,true,true,true,false}},
-	["HUNTER"] = {["Armor"] = {false,false,true,false},["WeaponsMeele"] = {false,true,false,true,true,true,false,true,true},["WeaponsMeeleTwoHand"] = {false,true,true},["WeaponsRanged"] = {false,true,true,true,false},["Other"] = {true,true,true,true,false}},
-	["SHAMAN"] = {["Armor"] = {false,false,true,false},["WeaponsMeele"] = {true,true,true,true,true,false,true,false,true},["WeaponsMeeleTwoHand"] = {true,true,false},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,true}},
-	["WARLOCK"] = {["Armor"] = {true,false,false,false},["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},["WeaponsMeeleTwoHand"] = {false,false,false},["WeaponsRanged"] = {true,false,false,false,false},["Other"] = {true,true,true,true,false}},
-	["WARRIOR"] = {["Armor"] = {false,false,false,true},["WeaponsMeele"] = {true,true,true,true,true,true,true,true,true},["WeaponsMeeleTwoHand"] = {true,true,true},["WeaponsRanged"] = {false,true,true,true,true},["Other"] = {true,true,true,true,false}},
-	["DEATHKNIGHT"] = {["Armor"] = {false,false,false,true},["WeaponsMeele"] = {true,false,true,false,true,true,false,true,false},["WeaponsMeeleTwoHand"] = {true,true,true},["WeaponsRanged"] = {false,false,false,false,false},["Other"] = {true,true,true,true,true}}
+	["DRUID"] = {
+		["Armor"] = {false,true,false,false},
+		["WeaponsMeele"] = {true,true,true,true,false,true,false,false,false},
+		["WeaponsMeeleTwoHand"] = {true,false,false},
+		["WeaponsRanged"] = {false,false,false,false,false},
+		["Other"] = {true,true,true,true,true},
+		["Stats"] = {true,true,false,true,true,true,false,true,true,false,true,false}
+	},
+	["MAGE"] = {
+		["Armor"] = {true,false,false,false},
+		["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},
+		["WeaponsMeeleTwoHand"] = {false,false,false},
+		["WeaponsRanged"] = {true,false,false,false,false},
+		["Other"] = {true,true,true,true,false},
+		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false}
+	},
+	["PALADIN"] = {
+		["Armor"] = {false,false,false,true},
+		["WeaponsMeele"] = {true,false,true,false,true,true,true,true,false},
+		["WeaponsMeeleTwoHand"] = {true,false,true},
+		["WeaponsRanged"] = {false,false,false,false,false},
+		["Other"] = {true,true,true,true,true},
+		["Stats"] = {true,false,true,true,true,true,true,true,true,true,true,true,false}
+	},
+	["PRIEST"] = {
+		["Armor"] = {true,false,false,false},
+		["WeaponsMeele"] = {true,true,true,true,false,false,false,false,false},
+		["WeaponsMeeleTwoHand"] = {false,false,false},
+		["WeaponsRanged"] = {true,false,false,false,false},
+		["Other"] = {true,true,true,true,false},
+		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false}
+	},
+	["ROGUE"] = {
+		["Armor"] = {false,true,false,false},
+		["WeaponsMeele"] = {true,true,true,false,true,false,false,true,true},
+		["WeaponsMeeleTwoHand"] = {false,false,false},
+		["WeaponsRanged"] = {false,true,true,true,true},
+		["Other"] = {true,true,true,true,false},
+		["Stats"] = {true,true,false,false,false,true,true,true,true,true,true,false,false}
+	},
+	["HUNTER"] = {
+		["Armor"] = {false,false,true,false},
+		["WeaponsMeele"] = {false,true,false,true,true,true,false,true,true},
+		["WeaponsMeeleTwoHand"] = {false,true,true},
+		["WeaponsRanged"] = {false,true,true,true,false},
+		["Other"] = {true,true,true,true,false},
+		["Stats"] = {true,true,false,false,false,true,false,false,true,true,false,false,false,false}
+	},
+	["SHAMAN"] = {
+		["Armor"] = {false,false,true,false},
+		["WeaponsMeele"] = {true,true,true,true,true,false,true,false,true},
+		["WeaponsMeeleTwoHand"] = {true,true,false},
+		["WeaponsRanged"] = {false,false,false,false,false},
+		["Other"] = {true,true,true,true,true},
+		["Stats"] = {true,true,false,true,true,true,false,true,true,true,false,true,false}
+	},
+	["WARLOCK"] = {
+		["Armor"] = {true,false,false,false},
+		["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},
+		["WeaponsMeeleTwoHand"] = {false,false,false},
+		["WeaponsRanged"] = {true,false,false,false,false},
+		["Other"] = {true,true,true,true,false},
+		["Stats"] = {true,false,false,true,false,true,false,false,true,true,false,true,false}
+	},
+	["WARRIOR"] = {
+		["Armor"] = {false,false,false,true},
+		["WeaponsMeele"] = {true,true,true,true,true,true,true,true,true},
+		["WeaponsMeeleTwoHand"] = {true,true,true},
+		["WeaponsRanged"] = {false,true,true,true,true},
+		["Other"] = {true,true,true,true,false},
+		["Stats"] = {true,false,true,false,false,true,true,true,true,true,true,false,false}
+	},
+	["DEATHKNIGHT"] = {
+		["Armor"] = {false,false,false,true},
+		["WeaponsMeele"] = {true,false,true,false,true,true,false,true,false},
+		["WeaponsMeeleTwoHand"] = {true,true,true},
+		["WeaponsRanged"] = {false,false,false,false,false},
+		["Other"] = {true,true,true,true,true},
+		["Stats"] = {true,false,true,false,false,true,true,true,true,true,true,false,false}
+	}
 }
 
 local getOptions
@@ -290,8 +390,12 @@ function Filter:OnInitialize()
 	for _, filterTable in pairs(FilterTable) do
 		for _, slot in ipairs(filterTable) do
 			for _,v in ipairs(AtlasLoot_TextParsing) do
-				if slot == v[1] then
-					FilterTableNamesSlots[slot] = v[2]
+				if filterTable == "Stats" then
+					break
+				else
+					if slot == v[1] then
+						FilterTableNamesSlots[slot] = v[2]
+					end
 				end
 			end
 		end
@@ -348,6 +452,7 @@ function Filter:FilterBySlot(lootTable)
 	local count = 0
 	local leatherworking = GetSpellInfo(2108)
 	local posSet = false
+	local stats, itemLink
 	
 	for _,v in ipairs(lootTable) do
 	
@@ -356,6 +461,12 @@ function Filter:FilterBySlot(lootTable)
 		end
 		local xgo = true
 		local extraText = v[5] --AtlasLoot_FixText(v[5])
+		_, itemLink = GetItemInfo(v[2])
+		if itemLink then
+			stats = GetItemStats(itemLink)
+		else
+			stats = nil
+		end
 		oldItemPos = oldItemPos or 0
 		curItemPos = v[1]
 		if not newItemPos then
@@ -365,15 +476,21 @@ function Filter:FilterBySlot(lootTable)
 		end
 		local countOld = curItemPos - count
 
-		if extraText and extraText ~= "" then
+		if extraText and extraText ~= "" or stats then
 			for _,k in ipairs(FilterSort) do
 				if type(FilterTable[k]) == "table" then
 					for i,j in ipairs(FilterTable[k]) do
-						local Slotname = j
-						if (k ~= "WeaponsMeeleTwoHand" and not strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false) then
-							xgo = false
-						elseif k == "WeaponsMeeleTwoHand" and strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false then
-							xgo = false
+						if k == "Stats" then
+							if stats and stats["ITEM_MOD_"..j.."_SHORT"] and not db.filterSlots[k][j] then
+								xgo = false
+							end
+						else
+							local Slotname = j
+							if (k ~= "WeaponsMeeleTwoHand" and not strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false) then
+								xgo = false
+							elseif k == "WeaponsMeeleTwoHand" and strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false then
+								xgo = false
+							end
 						end
 					end
 				end
@@ -428,5 +545,56 @@ function Filter:FilterButtonOnClick(arg1)
 			db.enable = true
 		end
 		AtlasLoot:ShowLootPage(dataID)
+	end
+end
+
+
+local itemLink, stats, extraText
+function AtlasLoot:FilterItemByItemTable(itemTable)
+	if not itemTable then return end
+	_, itemLink = GetItemInfo(itemTable[2])
+	if not itemLink then return true end
+	stats = GetItemStats(itemLink)
+	extraText = itemTable[5]
+	
+	if extraText and extraText ~= "" or stats then
+		for _,k in ipairs(FilterSort) do
+			if type(FilterTable[k]) == "table" then
+				for i,j in ipairs(FilterTable[k]) do
+					if k == "Stats" then
+						if stats and stats["ITEM_MOD_"..j.."_SHORT"] and not db.filterSlots[k][j] then
+							return false
+						end
+					else
+						local Slotname = j
+						if (k ~= "WeaponsMeeleTwoHand" and not strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false) then
+							return false
+						elseif k == "WeaponsMeeleTwoHand" and strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false then
+							return false
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	return true
+end
+
+
+function AtlasLoot:FilterGetEnabled()
+	return db.enable
+end	
+	
+function AtlasLoot:FilterButtonOnClick(arg1)
+	if arg1 == "LeftButton" and IsShiftKeyDown() then
+		AtlasLoot:OpenModuleOptions(MODULENAME)
+		self:SetChecked(db.enable)
+	else
+		if db.enable then
+			db.enable = false
+		else
+			db.enable = true
+		end
 	end
 end

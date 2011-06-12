@@ -113,7 +113,8 @@ do
 	
 	local function onDragStop(self)
 		self:StopMovingOrSizing()
-		db.point = { AtlasLootItemsFrame:GetPoint() }
+		local a,b,c,d,e = AtlasLootItemsFrame:GetPoint()
+		db.point = { a, nil, c, d, e }
 	end
 	
 	local function setFrameLvl(self)
@@ -182,6 +183,12 @@ do
 	
 	local function onLeave()
 		AtlasLoot:DefaultFrame_RefreshAlpha(true)
+	end
+	
+	local function onCompareFrameClick()
+		if db.instance then
+			AtlasLoot:CompareFrame_LoadInstance( db.instance ) 
+		end 
 	end
 
 	function DefaultFrame:CreateDefaultFrame()
@@ -294,6 +301,13 @@ do
 		Frame.ScrollFrame:SetScript("OnShow", scrollBarUpdate)
 		
 		Frame.ScrollFrame.Buttons = {}
+		
+		Frame.CompareFrame = CreateFrame("Button", frameName.."_CompareFrame", Frame, "UIPanelButtonTemplate2")
+		Frame.CompareFrame:SetWidth(200)
+		Frame.CompareFrame:SetHeight(20)
+		Frame.CompareFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 545, -560)
+		Frame.CompareFrame:SetText(AL["Show in Compare Frame"])
+		Frame.CompareFrame:SetScript("OnClick", onCompareFrameClick)
 		
 		Frame.ModuleSelect = CreateFrame("Frame", frameName.."_ModuleSelect", Frame, "UIDropDownMenuTemplate")
 		Frame.ModuleSelect:SetPoint("TOPLEFT", Frame, "TOPLEFT", 60, -50)
@@ -444,6 +458,11 @@ function DefaultFrame:SetInstanceTable()
 		DefaultFrame:DropDownRefresh()
 	end
 	local iniName = curInstance["Info"][1]
+	if curInstance["Info"] and curInstance["Info"].disableCompare then
+		self.Frame.CompareFrame:Hide()
+	else
+		self.Frame.CompareFrame:Show()
+	end
 	curInstance = curInstance["Bosses"]
 	if not curInstance then return end
 	scrollCurLines = #curInstance
