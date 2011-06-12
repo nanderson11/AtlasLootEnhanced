@@ -24,10 +24,44 @@ if AL then
 	-- UI things
 	-- #########
 	-- compare frame
+	AL["Compare Frame"] = "Vergleichsfenster";
+	AL["Show in Compare Frame"] = "Im Vergleichsfenster anzeigen";
 	-- AL["Name"] = true;
 	AL["ItemLvl"] = "Gegenstandsstufe";
 	-- AL["Normal"] = true;
 	AL["%d items"] = "%d Gegenstände";
+	AL["All"] = "Alle";
+	AL["Stats"] = "Werte";
+	AL["Show \"Base Stats list\""] = "\"Liste der Grundwerte\" anzeigen";
+	AL["Show \"Extra Stats list\""] = "\"Liste der weiteren Werte\" anzeigen";
+	AL["Base Stats list"] = "Liste der Grundwerte";
+	AL["Extra Stats list"] = "Liste der weiteren Werte";
+	AL["Add Stats list"] = "Werteliste hinzufügen";
+	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "Möchten Sie die Sortierliste |cff1eff00%s|r wirklich löschen?";
+	AL["Delete Stats list"] = "Werteliste löschen";
+	AL["Stats color"] = "Wertefarbe";
+	AL["Stats list name:"] = "Wertelistenname";
+	
+	-- Stats short
+	-- AL["iLvl"] = true;	-- Item lvl
+	-- AL["str"] = true;	-- Strength
+	-- AL["agi"] = true;	-- Agility
+	-- AL["sta"] = true;	-- Stamina
+	-- AL["int"] = true;	-- Intellect
+	-- AL["spi"] = true;	-- Spirit
+	-- AL["Crit"] = true;	-- Crit Rating
+	-- AL["Dodge"] = true;	-- Dodge Rating
+	-- AL["Exp"] = true;	-- Expertise Rating
+	-- AL["Hit"] = true;	-- Hit Rating
+	-- AL["Haste"] = true;	-- Haste Rating
+	-- AL["Parry"] = true;	-- Parry Rating
+	-- AL["Spell"] = true;	-- Spell Power
+	-- AL["Resi"] = true;	-- Resilience Rating
+	
+	-- Stats
+	AL["Resilience Rating"] = "Abhärtungswertung";
+	AL["Base Stats"] = "Grundwerte";
+	AL["Extra Stats"] = "Weitere Werte";
 
 	-- Loader
 	AL["Load AtlasLoot"] = "AtlasLoot laden";
