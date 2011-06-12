@@ -41,7 +41,6 @@ if AL then
 	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
 	AL["Comparison TT"] = "Bulles d'aides";
 	AL["Show Comparison Tooltips"] = "Afficher les bulles d'aides comparatives";
-	AL["Supress item query text"] = "Supprimer la requête serveur sur l'objet";
 	--AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = "Fond de liste opaque";
 	AL["Treat Crafted Items:"] = "Traiter les objets fabriqués :";

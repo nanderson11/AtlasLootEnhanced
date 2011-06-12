@@ -38,7 +38,6 @@ if AL then
 	AL["Safe Chat Links"] = "使用安全物品连接";
 	AL["Comparison TT"] = "装备对比";
 	AL["Show Comparison Tooltips"] = "显示装备对比";
-	AL["Supress item query text"] = "关闭物品文字查询";
 	AL["Opaque"] = "不透明";
 	AL["Make Loot Table Opaque"] = "禁用掉落表格背景透明";
 	AL["Treat Crafted Items:"] = "交易技能呈现方式：";

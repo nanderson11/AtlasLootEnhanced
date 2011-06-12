@@ -2353,7 +2353,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18307, "", "=q3=Riptide Shoes", "=ds=#s12#, #a1#", "", "21.33%"};
 				{ 2, 18322, "", "=q3=Waterspout Boots", "=ds=#s12#, #a2#", "", "16.42%"};
-				{ 3, 18305, "", "=q3=Breakwater Legguards", "=ds=#s11#, #a4#", "", "22.75%"};
+				{ 3, 18305, "", "=q3=Breakwater Legguards", "=ds=#s11#, #a3#", "", "22.75%"};
 				{ 4, 18317, "", "=q3=Tempest Talisman", "=ds=#s2#", "", "16.44%"};
 				{ 5, 18324, "", "=q3=Waveslicer", "=ds=#h2#, #w1#", "", "8.46%"};
 				{ 7, 18299, "", "=q1=Hydrospawn Essence", "=ds=#m3#"};
@@ -2370,8 +2370,8 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 18306, "", "=q3=Gloves of Shadowy Mist", "=ds=#s9#, #a1#", "", "21.40%"};
 				{ 2, 18308, "", "=q3=Clever Hat", "=ds=#s1#, #a2#", "", "23.73%"};
-				{ 3, 18319, "", "=q3=Fervent Helm", "=ds=#s1#, #a3#", "", "7.88%"};
-				{ 4, 18313, "", "=q3=Helm of Awareness", "=ds=#s1#, #a4#", "", "17.87%"};
+				{ 3, 18319, "", "=q3=Fervent Helm", "=ds=#s1#, #a2#", "", "7.88%"};
+				{ 4, 18313, "", "=q3=Helm of Awareness", "=ds=#s1#, #a3#", "", "17.87%"};
 				{ 5, 18323, "", "=q3=Satyr's Bow", "=ds=#w2#", "", "17.24%"};
 			};
 		};
@@ -2387,9 +2387,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 18328, "", "=q3=Shadewood Cloak", "=ds=#s4#", "", "15.36%"};
 				{ 2, 18327, "", "=q3=Whipvine Cord", "=ds=#s10#, #a1#", "", "16.53%"};
 				{ 3, 18309, "", "=q3=Gloves of Restoration", "=ds=#s9#, #a2#", "", "14.05%"};
-				{ 4, 18318, "", "=q3=Merciful Greaves", "=ds=#s12#, #a3#", "", "14.88%"};
-				{ 5, 18312, "", "=q3=Energized Chestplate", "=ds=#s5#, #a4#", "", "16.08%"};
-				{ 6, 18326, "", "=q3=Razor Gauntlets", "=ds=#s9#, #a4#", "", "18.62%"};
+				{ 4, 18318, "", "=q3=Merciful Greaves", "=ds=#s12#, #a2#", "", "14.88%"};
+				{ 5, 18312, "", "=q3=Energized Chestplate", "=ds=#s5#, #a3#", "", "16.08%"};
+				{ 6, 18326, "", "=q3=Razor Gauntlets", "=ds=#s9#, #a3#", "", "18.62%"};
 				{ 8, 0, "INV_Box_01", "=q6="..AL["Felvine Shard"], ""};
 				{ 9, 18501, "", "=q1=Felvine Shard", "=ds=#m3#"};
 				{ 16, 18315, "", "=q3=Ring of Demonic Potency", "=ds=#s13#", "", "15.40%"};
@@ -2844,7 +2844,7 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Noxxion"], ""};
-				{ 2, 17746, "", "=q3=Noxxion's Shackles", "=ds=#s8#, #a4#", "", "32.50%"};
+				{ 2, 17746, "", "=q3=Noxxion's Shackles", "=ds=#s8#, #a3#", "", "32.50%"};
 				{ 3, 17744, "", "=q3=Heart of Noxxion", "=ds=#s14#", "", "30.35%"};
 				{ 4, 17745, "", "=q3=Noxious Shooter", "=ds=#w12#", "", "17.53%"};
 				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorlash"], ""};
@@ -2873,7 +2873,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 17738, "", "=q3=Claw of Celebras", "=ds=#h4#, #w13#", "", "28.22%"};
 				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Landslide"], ""};
 				{ 7, 17736, "", "=q3=Rockgrip Gauntlets", "=ds=#s9#, #a3#", "", "23.09%"};
-				{ 8, 17734, "", "=q3=Helm of the Mountain", "=ds=#s1#, #a4#", "", "20.87%"};
+				{ 8, 17734, "", "=q3=Helm of the Mountain", "=ds=#s1#, #a3#", "", "20.87%"};
 				{ 9, 17737, "", "=q3=Cloud Stone", "=ds=#s15#", "", "19.99%"};
 				{ 10, 17943, "", "=q3=Fist of Stone", "=ds=#h1#, #w6#", "", "16.58%"};
 				{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Rotgrip"], ""};
@@ -2884,7 +2884,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 17780, "", "=q4=Blade of Eternal Darkness", "=ds=#h1#, #w4#", "", "0.20%"};
 				{ 18, 17715, "", "=q3=Eye of Theradras", "=ds=#s1#, #a1#", "", "13.47%"};
 				{ 19, 17714, "", "=q3=Bracers of the Stone Princess", "=ds=#s8#, #a3#", "", "20.06%"};
-				{ 20, 17711, "", "=q3=Elemental Rockridge Leggings", "=ds=#s11#, #a4#", "", "14.96%"};
+				{ 20, 17711, "", "=q3=Elemental Rockridge Leggings", "=ds=#s11#, #a3#", "", "14.96%"};
 				{ 21, 17707, "", "=q3=Gemshard Heart", "=ds=#s2#", "", "15.30%"};
 				{ 22, 17713, "", "=q3=Blackstone Ring", "=ds=#s13#", "", "18.92%"};
 				{ 23, 17710, "", "=q3=Charstone Dirk", "=ds=#h1#, #w4#", "", "14.24%"};
@@ -4397,16 +4397,14 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Baelog"], ""};
 				{ 2, 9401, "", "=q3=Nordic Longshank", "=ds=#h1#, #w10#", "", "8.89%"};
 				{ 3, 9400, "", "=q3=Baelog's Shortbow", "=ds=#w2#", "", "46.52%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Eric \"The Swift\""], ""};
-				{ 7, 9394, "", "=q3=Horned Viking Helmet", "=ds=#s1#, #a4#", "", "4.05%"};
-				{ 8, 9398, "", "=q3=Worn Running Boots", "=ds=#s12#, #a2#", "", "45.09%"};
-				{ 9, 2459, "", "=q1=Swiftness Potion", "=ds=#e2#"};
-				{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Olaf"], ""};
-				{ 12, 9404, "", "=q3=Olaf's All Purpose Shield", "=ds=#w8#", "", "11.33%"};
-				{ 13, 9403, "", "=q3=Battered Viking Shield", "=ds=#w8#", "", "69.85%"};
-				{ 14, 1177, "", "=q1=Oil of Olaf", "=ds=#e2#", "", "76.54%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Baelog's Chest"], ""};
-				--new loot for the Chest in 4.1. Needs to be checked once it goes live!!
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Eric \"The Swift\""], ""};
+				{ 6, 9394, "", "=q3=Horned Viking Helmet", "=ds=#s1#, #a3#", "", "4.05%"};
+				{ 7, 9398, "", "=q3=Worn Running Boots", "=ds=#s12#, #a2#", "", "45.09%"};
+				{ 8, 2459, "", "=q1=Swiftness Potion", "=ds=#e2#"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Olaf"], ""};
+				{ 17, 9404, "", "=q3=Olaf's All Purpose Shield", "=ds=#w8#", "", "11.33%"};
+				{ 18, 9403, "", "=q3=Battered Viking Shield", "=ds=#w8#", "", "69.85%"};
+				{ 19, 1177, "", "=q1=Oil of Olaf", "=ds=#e2#", "", "76.54%"};
 			}
 		};
 		info = {
@@ -4421,7 +4419,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 9390, "", "=q3=Revelosh's Gloves", "=ds=#s9#, #a1#", "", "20.08%"};
 				{ 2, 9389, "", "=q3=Revelosh's Spaulders", "=ds=#s3#, #a2#", "", "18.77%"};
 				{ 3, 9388, "", "=q3=Revelosh's Armguards", "=ds=#s8#, #a3#", "", "19.84%"};
-				{ 4, 9387, "", "=q3=Revelosh's Boots", "=ds=#s12#, #a4#", "", "20.53%"};
+				{ 4, 9387, "", "=q3=Revelosh's Boots", "=ds=#s12#, #a3#", "", "20.53%"};
 			}
 		};
 		info = {
@@ -4459,8 +4457,8 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["UldAncientStoneKeeper"] = {
 		["Normal"] = {
 			{
-				{ 1, 9411, "", "=q3=Rockshard Pauldrons", "=ds=#s3#, #a3#", "", "43.41%"};
-				{ 2, 9410, "", "=q3=Cragfists", "=ds=#s9#, #a4#", "", "41.61%"};
+				{ 1, 9411, "", "=q3=Rockshard Pauldrons", "=ds=#s3#, #a2#", "", "43.41%"};
+				{ 2, 9410, "", "=q3=Cragfists", "=ds=#s9#, #a3#", "", "41.61%"};
 				{ 4, 62055, "", "=q1=Titan Power Core", "=ds=#m3#", "", "100%"};
 			}
 		};
@@ -4520,11 +4518,11 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 9431, "", "=q3=Papal Fez", "=ds=#s1#, #a1#", "", "0.01%"};
 				{ 3, 9429, "", "=q3=Miner's Hat of the Deep", "=ds=#s1#, #a1#", "", "0.01%"};
 				{ 4, 9420, "", "=q3=Adventurer's Pith Helmet", "=ds=#s1#, #a2#", "", "0.01%"};
-				{ 5, 9406, "", "=q3=Spirewind Fetter", "=ds=#s5#, #a2#", "", "0.01%"};
-				{ 6, 9428, "", "=q3=Unearthed Bands", "=ds=#s8#, #a2#", "", "0.01%"};
-				{ 7, 9430, "", "=q3=Spaulders of a Lost Age", "=ds=#s3#, #a3#", "", "0.00%"};
+				{ 5, 9430, "", "=q3=Spaulders of a Lost Age", "=ds=#s3#, #a2#", "", "0.00%"};
+				{ 6, 9406, "", "=q3=Spirewind Fetter", "=ds=#s5#, #a2#", "", "0.01%"};
+				{ 7, 9428, "", "=q3=Unearthed Bands", "=ds=#s8#, #a2#", "", "0.01%"};
 				{ 8, 9396, "", "=q3=Legguards of the Vault", "=ds=#s11#, #a3#"};
-				{ 9, 9432, "", "=q3=Skullplate Bracers", "=ds=#s8#, #a4#", "", "0.01%"};
+				{ 9, 9432, "", "=q3=Skullplate Bracers", "=ds=#s8#, #a3#", "", "0.01%"};
 				{ 10, 9393, "", "=q3=Beacon of Hope", "=ds=#s15#", "", "0.01%"};
 				{ 16, 9384, "", "=q3=Stonevault Shiv", "=ds=#h1#, #w4#", "", "0.01%"};
 				{ 17, 9392, "", "=q3=Annealed Blade", "=ds=#h1#, #w10#", "", "0.01%"};

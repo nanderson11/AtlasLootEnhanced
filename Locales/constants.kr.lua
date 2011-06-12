@@ -35,7 +35,6 @@ if AL then
 	AL["Safe Chat Links"] = "안전한 대화창 링크";
 	AL["Comparison TT"] = true;
 	AL["Show Comparison Tooltips"] = "비교 툴팁 표시";
-	AL["Supress item query text"] = "아이템 서버 요청 메시지 줄임";
 	AL["Opaque"] = "불투명도";
 	AL["Make Loot Table Opaque"] = "배경 불투명하게 표시";
 	AL["Treat Crafted Items:"] = true;

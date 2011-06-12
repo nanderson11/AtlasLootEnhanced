@@ -17,6 +17,8 @@ Added Molten Fire Daily Rewards.
 Added various new mounts and companions.
 Added various new crafting recipes.
 Updated Brewfest and Hallows' End boss loot.
+Added an option to filter by slots.
+Added an option to use the search only for selected modules.
 Added viewable currencies to the item description.
 Dungeons and Raids are now seperated in the loot browser.
 The loot browser now remembers the last opened page.

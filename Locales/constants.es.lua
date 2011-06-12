@@ -29,7 +29,6 @@ if AL then
 	AL["Safe Chat Links"] = "Enlaces seguros en el chat";
 	AL["Comparison TT"] = "Comparaciones";
 	AL["Show Comparison Tooltips"] = "Mostrar bocadillos comparar";
-	AL["Supress item query text"] = "Suprimir texto petición objetos";
 	AL["Opaque"] = "Opaco";
 	AL["Make Loot Table Opaque"] = "Hacer opaca tabla botines";
 	AL["Treat Crafted Items:"] = "Tratar objetos creados";

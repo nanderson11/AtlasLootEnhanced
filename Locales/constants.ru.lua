@@ -40,7 +40,6 @@ if AL then
 	AL["Safe Chat Links"] = "Безопасные ссылки";
 	AL["Comparison TT"] = "Сравнительные подсказки";
 	AL["Show Comparison Tooltips"] = "Показывать сравнительные подсказки";
-	AL["Supress item query text"] = "Подавлять спам при запросах";
 	AL["Opaque"] = "Матовое";
 	AL["Make Loot Table Opaque"] = "Матовое окно трофеев";
 	AL["Treat Crafted Items:"] = "Обзор изготов. предметов:";

@@ -40,7 +40,6 @@ if AL then
 	AL["Safe Chat Links"] = "安全物品連結";
 	AL["Comparison TT"] = "比較結果提示";
 	AL["Show Comparison Tooltips"] = "顯示物品比較結果的提示訊息";
-	AL["Supress item query text"] = "關閉物品查詢文字";
 	AL["Opaque"] = "不透明";
 	AL["Make Loot Table Opaque"] = "使物品掉落表不透明";
 	AL["Treat Crafted Items:"] = "交易技能呈現方式:";
