@@ -46,7 +46,6 @@ if AL then
 	AL["Safe Chat Links"] = "Sichere Chatlinks";
 	AL["Comparison TT"] = "Vergleiche Item";
 	AL["Show Comparison Tooltips"] = "Zeige eigenes Item zum Vergleich";
-	AL["Supress item query text"] = "Meldung der Serverabfrage verstecken";
 	AL["Opaque"] = "Undurchsichtig";
 	AL["Make Loot Table Opaque"] = "Schwarzer Hintergrund";
 	AL["Treat Crafted Items:"] = "Herstellbare Gegenstände behandeln";
@@ -1006,9 +1005,9 @@ if AL then
 	AL["The Behemoth"] = "Das Ungetüm";
 	AL["Master Elemental Shaper Krixix"] = "Meisterelementarformer Krixix";
 	-- AL["Zen'Vorka"] = true;
-	-- AL["Ayla Shadowstorm"] = true;
-	-- AL["Damek Bloombeard"] = true;
-	-- AL["Varlan Highbough"] = true;
+	AL["Ayla Shadowstorm"] = "Ayla Schattensturm";
+	AL["Damek Bloombeard"] = "Damek Blühbart";
+	AL["Varlan Highbough"] = "Varlan Hochblatt";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
