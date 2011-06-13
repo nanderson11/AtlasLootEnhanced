@@ -2940,7 +2940,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Firestone Vendor",
+			name = AL["Firestone Vendor"],
 			module = moduleName, instance = "Firelands",
 		};
 	};

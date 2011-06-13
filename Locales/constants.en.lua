@@ -1042,6 +1042,7 @@ if AL then
 	AL["Ayla Shadowstorm"] = true;
 	AL["Damek Bloombeard"] = true;
 	AL["Varlan Highbough"] = true;
+	AL["Firestone Vendor"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
