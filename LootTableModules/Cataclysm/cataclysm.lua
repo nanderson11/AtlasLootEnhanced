@@ -2844,7 +2844,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Staghelm",
+			name = "Majordomo Staghelm",
 			module = moduleName, instance = "Firelands",
 		};
 	};
