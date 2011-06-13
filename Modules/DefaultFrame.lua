@@ -405,7 +405,7 @@ function DefaultFrame:InstanceSelect_Initialize(level)
 			info.justifyH = "CENTER"
 			UIDropDownMenu_AddButton(info, level)
 			
-			info.text = "--- "..RAIDS.." ---"
+			info.text = "--- "..tostring(RAIDS or "RAIDS").." ---"
 			UIDropDownMenu_AddButton(info, level)
 			
 			info.notCheckable = false

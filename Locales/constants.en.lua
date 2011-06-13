@@ -41,6 +41,8 @@ if AL then
 	AL["Delete Stats list"] = true;
 	AL["Stats color"] = true;
 	AL["Stats list name:"] = true;
+	AL["Select Stats list"] = true;
+	AL["You cant set more then %d item stats."] = true;
 	
 	-- Stats short
 	AL["iLvl"] = true;	-- Item lvl
@@ -57,6 +59,7 @@ if AL then
 	AL["Parry"] = true;	-- Parry Rating
 	AL["Spell"] = true;	-- Spell Power
 	AL["Resi"] = true;	-- Resilience Rating
+	AL["Mast"] = true;	-- Mastery
 	
 	-- Stats
 	AL["Resilience Rating"] = true;
@@ -173,6 +176,9 @@ if AL then
 	AL["Table Sort"] = true;
 	AL["Table Sort:"] = true;
 	AL["Item Sort:"] = true;
+	AL["Show own wishlists"] = true;
+	AL["Show all wishlists"] = true;
+	AL["%d items"] = true;
 
 	-- Filter
 	AL["Filter"] = true;

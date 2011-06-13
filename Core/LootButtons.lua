@@ -207,6 +207,7 @@ do
 		itemButton.Frame:SetPoint(unpack(point));
 		itemButton.Frame:RegisterForClicks("LeftButtonDown", "RightButtonDown")	
 		itemButton.SetPoint = itemButton.Frame.SetPoint
+		itemButton.Frame.par = itemButton
 		
 		-- Menu icon <texture>
 		itemButton.Frame.MenuIcon = itemButton.Frame:CreateTexture(name.."_MenuIcon", "ARTWORK")
@@ -232,7 +233,7 @@ do
 		itemButton.Frame.QueryIcon:Hide()		
 			
 		-- ItemName <FontString>
-		itemButton.Frame.Name = itemButton.Frame:CreateFontString(name.."_Name", "ARTWORK", "GameFontNormal")
+		itemButton.Frame.Name = itemButton.Frame:CreateFontString(name.."_Name", "BACKGROUND", "GameFontNormal")
 		itemButton.Frame.Name:SetPoint("TOPLEFT", itemButton.Frame, "TOPLEFT", 35, 0)
 		itemButton.Frame.Name:SetJustifyH("LEFT")
 		itemButton.Frame.Name:SetText("NAME")
@@ -241,7 +242,7 @@ do
 		sortMaxLength = (sortMaxLength - 169) - 43
 			
 		-- ExtraText <FontString>		
-		itemButton.Frame.Extra = itemButton.Frame:CreateFontString(name.."_Extra", "ARTWORK", "GameFontNormalSmall")
+		itemButton.Frame.Extra = itemButton.Frame:CreateFontString(name.."_Extra", "BACKGROUND", "GameFontNormalSmall")
 		itemButton.Frame.Extra:SetPoint("TOPLEFT", itemButton.Frame.Name, "BOTTOMLEFT", 0, -1)
 		itemButton.Frame.Extra:SetJustifyH("LEFT")
 		itemButton.Frame.Extra:SetText("EXTRA")
@@ -401,9 +402,9 @@ do
 				itemButton.Frame.Extra:SetWidth( 177 - 25 )
 				itemButton.Frame.QA:SetWidth( 177 - 25 )
 				itemButton.Frame.QA.ExtraText:SetWidth( 164 - 25 )
-				local fixVaule = 409 / #statsList
-				for i=1,#itemButton.Frame.Stats do
-					itemButton.Frame.Stats[i]:SetWidth(fixVaule)
+				local fixVaule = 409 / #self.par.statsList
+				for i=1,#self.Stats do
+					self.Stats[i]:SetWidth(fixVaule)
 				end
 				cur = width
 				itemButton.Frame:oriSetWidth(width)
@@ -412,9 +413,9 @@ do
 				itemButton.Frame.Extra:SetWidth( 177 )
 				itemButton.Frame.QA:SetWidth( 177 )
 				itemButton.Frame.QA.ExtraText:SetWidth( 164 )
-				local fixVaule = 413 / #statsList
-				for i=1,#itemButton.Frame.Stats do
-					itemButton.Frame.Stats[i]:SetWidth(fixVaule)
+				local fixVaule = 413 / #self.par.statsList
+				for i=1,#self.Stats do
+					self.Stats[i]:SetWidth(fixVaule)
 				end
 				cur = width
 				itemButton.Frame:oriSetWidth(width)
@@ -690,11 +691,14 @@ do
 		else
 			tempText = _G["UNKNOWN"]
 		end
-		local wishlist
-		if AtlasLoot.GetItemOnWishlistIconString then
+		local wishlist = ""
+		if self.itemType and self.itemType[1] == "wishlist" then
+		
+		else
 			wishlist = AtlasLoot:GetItemOnWishlistIconString(itemID)
 			wishlist = wishlist or ""
 		end
+		
 		self.Frame.Name:SetText(wishlist..tempText)
 		tempText = ""
 		
@@ -791,6 +795,35 @@ do
 		end
 		self.Frame.Name:SetText(tempText)
 		tempText = ""
+		local wishlist = ""
+		if self.itemType and self.itemType[1] == "wishlist" then
+		
+		else
+			wishlist = AtlasLoot:GetItemOnWishlistIconString(spellID)
+			wishlist = wishlist or ""
+		end
+		self.Frame.Name:SetText(wishlist..tempText)
+		tempText = ""
+		
+		-- ########################
+		-- itemStats
+		-- ########################
+		local _, itemLink, _, itemLevel = GetItemInfo(itemID)
+		if itemLink and self.type == "CompareFrameItemButton" and self.statsList then
+			--self.Frame.Stats[1]:SetText(itemLevel)
+			local stats = GetItemStats(itemLink)
+			for k,v in ipairs(self.statsList) do
+				if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
+					if v == "ITEMLVL" then
+						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(itemLevel)
+					elseif stats and stats["ITEM_MOD_"..v.."_SHORT"] then
+						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(stats["ITEM_MOD_"..v.."_SHORT"])
+					else
+						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
+					end
+				end
+			end
+		end
 		
 		-- ########################
 		-- extraText and itemPrice
@@ -912,23 +945,35 @@ do
 	end
 end
 
+-- Update item stats font colors
+function AltasLootItemButton:UpdateStatsColor()
+	--AtlasLoot.db.profile.CompareFrame.statsColor[v]
+	for k,v in ipairs(self.statsList) do
+		if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
+			self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetTextColor(AtlasLoot.db.profile.CompareFrame.statsColor[v].r, AtlasLoot.db.profile.CompareFrame.statsColor[v].g, AtlasLoot.db.profile.CompareFrame.statsColor[v].b)
+		end
+	end
+end
+
 -- Update the stats table
 function AltasLootItemButton:UpdateStatsList(statsList, refresh)
 	if not statsList or self.type ~= "CompareFrameItemButton" then return end
 	-- Reset all links
 	wipe(self.Stats)
 	
+	local wasShown = self.Frame:IsShown()
+	
 	self.statsList = statsList
 	
 	for k,v in ipairs(self.Frame.Stats) do
-		self.Frame.Stats[k]:Hide()
+		v:Hide()
 	end
 	
-	for k,v in ipairs(statsList) do
+	for k,v in ipairs(self.statsList) do
 		if self.Frame.Stats[k] then
 			self.Frame.Stats[k]:Show()
 		else
-			self.Frame.Stats[k] = itemButton.Frame:CreateFontString(self.name.."_Stats"..k, "BACKGROUND", "GameFontHighlightSmall")
+			self.Frame.Stats[k] = self.Frame:CreateFontString(self.name.."_Stats"..k, "BACKGROUND", "GameFontHighlightSmall")
 			if k == 1 then
 				self.Frame.Stats[k]:SetPoint("TOPLEFT", self.Frame.Name, "TOPRIGHT", 0, 0)
 			else
@@ -941,9 +986,10 @@ function AltasLootItemButton:UpdateStatsList(statsList, refresh)
 		self.Stats["ITEM_MOD_"..v.."_SHORT"] = self.Frame.Stats[k]
 	end
 	self.Frame:SetWidth(true)
-	if refresh then
+	if wasShown and refresh then
 		self:Refresh()
 	end
+	self:UpdateStatsColor()
 end	
 
 --- Sets a link to the button
@@ -1019,7 +1065,7 @@ function AltasLootItemButton:Clear()
 	self.Frame.Extra:SetText("")
 	self.info = nil
 	self.cutomLvl = nil
-	self.itemType = nil
+	--self.itemType = nil					-- vlt später was überlegen..
 	self.tableLinkFunc = nil
 	self.Frame:Hide()
 end
