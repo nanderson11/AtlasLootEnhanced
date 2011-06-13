@@ -23,6 +23,45 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	-- compare frame
+	AL["Compare Frame"] = "Frame comparative";
+	AL["Show in Compare Frame"] = "Afficher dans la frame comparative";
+	AL["Name"] = "Nom";
+	AL["ItemLvl"] = "Niveau d'objet";
+	--AL["Normal"] = true;
+	AL["%d items"] = "%d objets";
+	AL["All"] = "Tous";
+	--AL["Stats"] = true;
+	--AL["Show \"Base Stats list\""] = true;
+	--AL["Show \"Extra Stats list\""] = true;
+	--AL["Base Stats list"] = true;
+	--AL["Extra Stats list"] = true;	
+	AL["Add Stats list"] = "Ajouter une liste de stats";
+	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "Êtes-vous sûr de vouloir supprimer la liste  |cff1eff00%s|r ?";
+	AL["Delete Stats list"] = "Supprimer la liste de stats";
+	AL["Stats color"] = "Couleur des stats";
+	--AL["Stats list name:"] = true;
+	
+	-- Stats short
+	--AL["iLvl"] = true;	-- Item lvl
+	AL["str"] = "résist";	-- Strength
+	--AL["agi"] = true;	-- Agility
+	AL["sta"] = "endu";	-- Stamina
+	AL["int"] = "intel";	-- Intellect
+	AL["spi"] = "esp";	-- Spirit
+	--AL["Crit"] = true;	-- Crit Rating
+	AL["Dodge"] = "Esquive";	-- Dodge Rating
+	--AL["Exp"] = true;	-- Expertise Rating
+	AL["Hit"] = "Toucher";	-- Hit Rating
+	AL["Haste"] = "Hâte";	-- Haste Rating
+	AL["Parry"] = "Parade";	-- Parry Rating
+	AL["Spell"] = "Sort";	-- Spell Power
+	AL["Resi"] = "Rési";	-- Resilience Rating
+	
+	-- Stats
+	AL["Resilience Rating"] = "Score de résilience";
+	--AL["Base Stats"] = true;
+	--AL["Extra Stats"] = true;
 
 	-- Loader
 	AL["Load AtlasLoot"] = "Charger AtlasLoot";
@@ -39,8 +78,8 @@ if AL then
 	AL["Show itemIDs"] = "Afficher les IDs des objets";
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
 	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
-	AL["Comparison TT"] = "Bulles d'aides";
-	AL["Show Comparison Tooltips"] = "Afficher les bulles d'aides comparatives";
+	AL["Comparison TT"] = "Info-bulles comparatives";
+	AL["Show Comparison Tooltips"] = "Afficher les info-bulles comparatives";
 	--AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = "Fond de liste opaque";
 	AL["Treat Crafted Items:"] = "Traiter les objets fabriqués :";
@@ -89,8 +128,9 @@ if AL then
 	--AL["DKP"] = true;
 	AL["Priority:"] = "Priorité :";
 	AL["Show price and slot if possible"] = "Voir le prix et le slot, si possible";
-	--AL["Use GameTooltip"] = true; -- à traduire
-	--AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true; -- à traduire
+	AL["Use GameTooltip"] = "Utilisez l'info-bulle du jeu";
+	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Utilisez l'info-bulle standard du jeu au lieu de celle personnalisée d'AtlasLoot";
+	AL["%d / %d ( Bank: %d )"] = "%d / %d ( Banque : %d)";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "Objet indisponible";
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070ddItemID: %d |r\nCet objet n'est pas fiable.  Pour regarder cet objet sans risque de déconnection, vous devez déjà l'avoir vu au moins une fois dans le jeu.\n\nVous pouvez faire un Clic-Droit pour tenter d'interroger le serveur.  Vous pouvez être déconnecté.";
@@ -236,11 +276,11 @@ if AL then
 	
 	-- Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'Atlasloot";
-	AL["Default Tooltips"] = "Bulles d'aide par défault";
-	AL["Lootlink Tooltips"] = "Bulles d'aide Lootlink";
-	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dBulles d'aide Lootlink";
-	AL["ItemSync Tooltips"] = "Bulles d'aide ItemSync";
-	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dBulles d'aide ItemSync";
+	AL["Default Tooltips"] = "Info-bulles par défault";
+	AL["Lootlink Tooltips"] = "Info-bulles de Lootlink";
+	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dInfo-bulles de Lootlink";
+	AL["ItemSync Tooltips"] = "Info-bulles d'ItemSync";
+	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dInfo-bulles d'ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
 	AL["Show itemIDs at all times"] = "Toujours afficher l'ID sur les objets";
@@ -1002,6 +1042,7 @@ if AL then
 	--AL["Ayla Shadowstorm"] = true; -- à traduire
 	--AL["Damek Bloombeard"] = true; -- à traduire
 	--AL["Varlan Highbough"] = true; -- à traduire
+	--AL["Firestone Vendor"] = true; -- à traduire
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
