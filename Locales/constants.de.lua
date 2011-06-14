@@ -41,6 +41,8 @@ if AL then
 	AL["Delete Stats list"] = "Werteliste löschen";
 	AL["Stats color"] = "Wertefarbe";
 	AL["Stats list name:"] = "Wertelistenname";
+	AL["Select Stats list"] = "Werteliste auswählen";
+	AL["You cant set more then %d item stats."] = "Sie können nicht mehr als %d Gegenstandswerte festlegen.";
 	
 	-- Stats short
 	-- AL["iLvl"] = true;	-- Item lvl
@@ -57,6 +59,7 @@ if AL then
 	-- AL["Parry"] = true;	-- Parry Rating
 	-- AL["Spell"] = true;	-- Spell Power
 	-- AL["Resi"] = true;	-- Resilience Rating
+	-- AL["Mast"] = true;	-- Mastery
 	
 	-- Stats
 	AL["Resilience Rating"] = "Abhärtungswertung";
@@ -173,6 +176,8 @@ if AL then
 	AL["Table Sort"] = "Beute sortieren";
 	AL["Table Sort:"] = "Beute sortieren:";
 	AL["Item Sort:"] = "Items sortieren:";
+	AL["Show own wishlists"] = "Eigene Wunschzettel anzeigen";
+	AL["Show all wishlists"] = "Alle Wunschzettel anzeigen";
 
 	-- Filter
 	-- AL["Filter"] = true;

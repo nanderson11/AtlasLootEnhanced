@@ -178,7 +178,6 @@ if AL then
 	AL["Item Sort:"] = true;
 	AL["Show own wishlists"] = true;
 	AL["Show all wishlists"] = true;
-	AL["%d items"] = true;
 
 	-- Filter
 	AL["Filter"] = true;
