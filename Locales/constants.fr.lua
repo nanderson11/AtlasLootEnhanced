@@ -41,7 +41,9 @@ if AL then
 	AL["Delete Stats list"] = "Supprimer la liste de stats";
 	AL["Stats color"] = "Couleur des stats";
 	--AL["Stats list name:"] = true;
-	
+	--AL["Select Stats list"] = true;
+	--AL["You cant set more then %d item stats."] = true;
+
 	-- Stats short
 	--AL["iLvl"] = true;	-- Item lvl
 	AL["str"] = "résist";	-- Strength
@@ -57,7 +59,8 @@ if AL then
 	AL["Parry"] = "Parade";	-- Parry Rating
 	AL["Spell"] = "Sort";	-- Spell Power
 	AL["Resi"] = "Rési";	-- Resilience Rating
-	
+	AL["Maitrise"] = "Maîtrise";	-- Mastery
+
 	-- Stats
 	AL["Resilience Rating"] = "Score de résilience";
 	--AL["Base Stats"] = true;
@@ -173,6 +176,8 @@ if AL then
 	AL["Table Sort"] = "Tri des tables";
 	AL["Table Sort:"] = "Tri des tables :";
 	AL["Item Sort:"] = "Tri des objets :";
+	--AL["Show own wishlists"] = true; -- à traduire
+	AL["Show all wishlists"] = "Afficher toutes les listes de souhaits";
 
 	-- Filter
 	AL["Filter"] = "Filtre";
