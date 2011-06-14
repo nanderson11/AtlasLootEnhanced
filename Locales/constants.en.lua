@@ -43,7 +43,7 @@ if AL then
 	AL["Stats list name:"] = true;
 	AL["Select Stats list"] = true;
 	AL["You cant set more then %d item stats."] = true;
-	
+
 	-- Stats short
 	AL["iLvl"] = true;	-- Item lvl
 	AL["str"] = true;	-- Strength
@@ -60,7 +60,7 @@ if AL then
 	AL["Spell"] = true;	-- Spell Power
 	AL["Resi"] = true;	-- Resilience Rating
 	AL["Mast"] = true;	-- Mastery
-	
+
 	-- Stats
 	AL["Resilience Rating"] = true;
 	AL["Base Stats"] = true;
@@ -151,7 +151,7 @@ if AL then
 	AL["Item Slot"] = true;
 	AL["Item Quality"] = true;
 
-	-- Wishlist 
+	-- Wishlist
 	AL["Wishlist"] = true;
 	AL["Wishlists"] = true;
 	AL["Own"] = true;

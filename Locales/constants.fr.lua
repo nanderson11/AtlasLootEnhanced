@@ -59,7 +59,7 @@ if AL then
 	AL["Parry"] = "Parade";	-- Parry Rating
 	AL["Spell"] = "Sort";	-- Spell Power
 	AL["Resi"] = "Rési";	-- Resilience Rating
-	AL["Maitrise"] = "Maîtrise";	-- Mastery
+	AL["Mast"] = "Maîtrise";	-- Mastery
 
 	-- Stats
 	AL["Resilience Rating"] = "Score de résilience";
@@ -278,7 +278,7 @@ if AL then
 	AL["Hide Text"] = "Masquer le texte";
 	AL["Hide Icon"] = "Masquer l'icône";
 	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
-	
+
 	-- Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'Atlasloot";
 	AL["Default Tooltips"] = "Info-bulles par défault";
@@ -438,7 +438,7 @@ if AL then
 	AL["Transformation Item"] = "Objet de transformation";
 	AL["Keys"] = "Clés";
 
-	--Extra inventory stuff
+	-- Extra inventory stuff
 	AL["Cloak"] = "Cape";
 
 	-- Alchemy
@@ -1143,7 +1143,7 @@ if AL then
 	-- Need a big dataset for searching
 	AL["Loading available tables for searching"] = "Chargement des tables disponibles pour la recherche";
 
- 	-- All Available modules loaded
+	-- All Available modules loaded
 	AL["All Available Modules Loaded"] = "Tous les modules disponibles sont chargés.";
 
 	-- First time user
