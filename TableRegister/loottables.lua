@@ -148,13 +148,13 @@ AtlasLoot_LootTableRegister = {
 
 		["ZulGurub"] = {
 			["Bosses"] = {
-				{ "ZGVenoxis", 15 },
-				{ "ZGMandokir", 20 },
-				{ "ZGMadness", 24 },
-				{ "ZGKilnara", 31 },
-				{ "ZGZanzil", 32 },
-				{ "ZGJindo", 36 },
-				{ "ZGTrash", 38 },
+				{ "ZGVenoxis", 17 },
+				{ "ZGMandokir", 22 },
+				{ "ZGMadness", 26 },
+				{ "ZGKilnara", 34 },
+				{ "ZGZanzil", 36 },
+				{ "ZGJindo", 40 },
+				{ "ZGTrash", 42 },
 			},
 			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm" },
 		},
