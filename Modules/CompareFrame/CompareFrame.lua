@@ -13,9 +13,9 @@ local ORANGE = "|cffFF8400";
 local FRAME_NAME = "AtlasLootCompareFrame"
 -- Formatierte liste für scroll frame
 local OPEN_MAINFILTER_LIST = {}
--- Speichert Main buttons (ipairs)
+-- Speichert Main buttons (NAMEN) (ipairs)
 local LIST_MAINFILTERS = {}
--- Speichert Sub liste
+-- Speichert Sub liste (NAMEN)
 local LIST_SUBFILTERS = {}
 local LIST_SUBSUBFILTERS = {}
 -- Speichert liste aller items
@@ -451,7 +451,7 @@ function AtlasLoot:CompareFrame_LoadInstance(ini)
 										-- dataId speichern
 										ITEM_DEATAIL[item[2]].dataID = dataID
 										-- heroic, normal, ...
-										ITEM_DEATAIL[item[2]].tableType = ltType
+										ITEM_DEATAIL[item[2]].tableType = "Heroic"
 										NUM_ITEMS_IN_LIST = NUM_ITEMS_IN_LIST + 1
 									end
 								end
@@ -761,8 +761,13 @@ function AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, 
 			end 
 		end
 	end
-	
+	local frameWasShown = AtlasLoot.CompareFrame:IsShown()
 	AtlasLoot:CompareFrame_CompleteTable(itemCache, wishlistName)
+	if refresh and frameWasShown then
+		
+	elseif refresh and not frameWasShown then
+		AtlasLoot.CompareFrame:Hide()
+	end	
 end	
 
 --function AtlasLoot:CompareFrame_WishlistSelect_UpdateList()
@@ -952,14 +957,91 @@ function AtlasLoot:CompareFrame_RemoveItemFromList(itemID, listID)
 		if itemID and ITEM_DEATAIL[itemID] then
 			ITEM_DEATAIL[itemID] = "REMOVED"
 			NUM_ITEMS_IN_LIST = NUM_ITEMS_IN_LIST - 1
-			AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
-			AtlasLoot:CompareFrame_UpdateItemListScrollFrame("RESORT", true)
+			if NUM_ITEMS_IN_LIST == 0 then 
+				AtlasLoot:CompareFrame_Clear()
+			else
+				AtlasLoot:CompareFrame_CleanUpTable()
+				AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
+			end
 		end
 	end
 end
 
 function AtlasLoot:CompareFrame_CleanUpTable()
 	-- alle items und spalten die gemarkt sind entfernen 
+	local mainNum, subNum, subsubNum, itemNum, item, k, v
+	local remove = {}
+		
+	for mainNum in ipairs(LIST_MAINFILTERS) do
+		for subNum in ipairs(LIST_SUBFILTERS[mainNum]) do
+			for subsubNum in ipairs(LIST_SUBSUBFILTERS[mainNum][subNum]) do
+				for itemNum, itemID in ipairs(LIST_ITEMS[mainNum][subNum][subsubNum]) do
+					if ITEM_DEATAIL[itemID] == "REMOVED" then
+						--table.remove(LIST_ITEMS[mainNum][subNum][subsubNum], itemNum)
+						table.insert(remove, {mainNum, subNum, subsubNum, itemNum })
+					end
+				end
+			end
+		end
+	end
+	--local curMainFilter = AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex
+	--local curSubFilter = AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex
+	--local curSubSubFilter = AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex
+	for k,v in ipairs(remove) do
+		if #v == 4 then
+			table.remove(LIST_ITEMS[v[1]][v[2]][v[3]], v[4])
+			if #LIST_ITEMS[v[1]][v[2]][v[3]] <= 0 then
+				
+				table.remove(LIST_ITEMS[v[1]][v[2]], v[3])
+				table.remove(LIST_SUBSUBFILTERS[v[1]][v[2]], v[3])
+			end
+			if #LIST_ITEMS[v[1]][v[2]] <= 0 then
+				table.remove(LIST_ITEMS[v[1]], v[2])
+				table.remove(LIST_SUBFILTERS[v[1]], v[2])
+				table.remove(LIST_SUBSUBFILTERS[v[1]], v[2])
+			end
+			if #LIST_ITEMS[v[1]] <= 0 then
+				table.remove(LIST_MAINFILTERS, v[1])
+			end
+			
+			if AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex == v[1] and not LIST_ITEMS[v[1]] then
+				if ( v[1] - 1 ) > 0 and #LIST_ITEMS[v[1] - 1] then
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex = v[1] - 1
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex = nil
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = nil
+				else
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex = nil
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex = nil
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = nil
+				end
+			elseif AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex == v[2] and not LIST_ITEMS[v[1]][v[2]] then
+				if ( v[2] - 1 ) > 0 and #LIST_ITEMS[v[1]][v[2]-1] then
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex = v[1]
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex = v[2] - 1
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = nil
+				else
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex = v[1]
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex = nil
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = nil
+				end
+			elseif AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex == v[3] and not LIST_ITEMS[v[1]][v[2]][v[3]] then
+				if ( v[3] - 1 ) > 0 and #LIST_ITEMS[v[1]][v[2]][v[3]-1] then
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex = v[1]
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex = v[2]
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = v[3] - 1
+				else
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedClassIndex = v[1]
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedSubclassIndex = v[2]
+					AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = nil
+				end
+			end
+		end
+	end
+	if #LIST_ITEMS <= 0 then
+			return AtlasLoot:CompareFrame_Clear()	
+	end
+	AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
+	AtlasLoot:CompareFrame_UpdateItemListScrollFrame("RESORT", true)
 end
 
 local lastListInfo = {}

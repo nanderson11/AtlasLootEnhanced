@@ -894,12 +894,12 @@ function WishList:ButtonTemp_AddItemToWishList()
 		if self.itemType and self.itemType[1] == "wishlist" then--SetItemType({"wishlist", dataID, heroic,})
 			self:DeleteItemFromWishList()
 		elseif self.itemType then
-			curItem = { self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[3].."#"..self.itemType[3], self:GetChatLink() }
+			curItem = { self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[2].."#"..self.itemType[3], self:GetChatLink() }
 			if (db.defaultWishlist and Wishlists_Info.defaultWishlist) then
 				if self.info[2] == nil then 
-					WishList:AddItemToWishList(self.info[1], self.info[5], self.info[3], self.info[4], self.itemType[3].."#"..self.itemType[3], self:GetChatLink())
+					WishList:AddItemToWishList(self.info[1], self.info[5], self.info[3], self.info[4], self.itemType[2].."#"..self.itemType[3], self:GetChatLink())
 				else
-					WishList:AddItemToWishList(self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[3].."#"..self.itemType[3], self:GetChatLink())
+					WishList:AddItemToWishList(self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[2].."#"..self.itemType[3], self:GetChatLink())
 				end
 			else
 				ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.WishListDropDownMenu, self.Frame:GetName(), 0, 0)
@@ -926,31 +926,6 @@ function WishList:ButtonTemp_AddItemToWishList()
 			ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.WishListDropDownMenu, self.Frame:GetName(), 0, 0)
 		end
 	end
-	--[[
-	local heroicCheckNumber = AtlasLoot:CheckHeroic()
-	if self.itemType and string.find(self.itemType, MODULENAME) then
-		self:DeleteItemFromWishList()
-	else
-		local dataID = AtlasLoot:FormatDataID(AtlasLoot.ItemFrame.dataID)
-		if heroicCheckNumber and heroicCheckNumber < self.buttonID then
-			lootTableType = "Heroic"
-		else
-			lootTableType = AtlasLoot.ItemFrame.lootTableType
-		end
-		curItem = { self.info[1], self.info[2], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink() }
-		if (db.defaultWishlist and Wishlists_Info.defaultWishlist) or Wishlists_Info.numWishlists <= 1 then
-			WishList:RefreshCurWishlist(1)
-			if self.info[2] == nil then 
-				WishList:AddItemToWishList(self.info[1], self.info[5], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink())
-			else
-				WishList:AddItemToWishList(self.info[1], self.info[2], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink())
-			end
-			
-		else
-			ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.WishListDropDownMenu, self.Frame:GetName(), 0, 0)
-		end
-	end
-	]]--
 end
 
 function WishList:DeleteItemFromWishList(wishlistIndex, spellID, itemID, chatLink)
@@ -1370,53 +1345,3 @@ end
 
 -- Compare Frame
 -- #####################################################
---[[
-	self.allWishLists = self.db.global.data['Normal']--[self.realm][self.char]
-	self.sharedWishLists = self.db.global.data['Shared'][self.realm][self.char]
-	self.ownWishLists
-
-if not AtlasLoot_Data[MODULENAME.."MenuList"] then AtlasLoot_Data[MODULENAME.."MenuList"] = {} end
-	wipe(AtlasLoot_Data[MODULENAME.."MenuList"])
-	if self.Info.numWishlists < 2 then
-		self:ShowWishlist(1)
-	elseif db.defaultWishlist then
-		self:ShowWishlist(self.Info.defaultWishlist)
-	else
-		AtlasLoot_Data[MODULENAME.."MenuList"].info = {
-			name = AL["Wishlists"],
-		}
-		AtlasLoot_Data[MODULENAME.."MenuList"]["Normal"] = {}
-		local lootpage = AtlasLoot_Data[MODULENAME.."MenuList"]["Normal"]
-		local menuCount, pageCount = 1, 1
-		for wishlistNum,wishlist in ipairs(self.ownWishLists) do
-			--{ menuCount, "CraftedWeapons", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
-			if not lootpage[pageCount] then lootpage[pageCount] = {} end
-			lootpage[pageCount][#lootpage[pageCount] + 1] = { menuCount, MODULENAME.."#"..wishlistNum, wishlist.info.icon, wishlist.info.name, "", tableLinkFunc = WishList.ShowWishlist}
-			menuCount = menuCount + 1
-			if menuCount > 30 then
-				menuCount = 1
-				pageCount = pageCount + 1
-			end
-		end
-		AtlasLoot:ShowLootPage(MODULENAME.."MenuList")
-	end
-]]--
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
