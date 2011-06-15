@@ -505,6 +505,8 @@ function AtlasLoot:CompareFrame_Clear()
 	AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
 	AtlasLoot.CompareFrame:Show()
 	AtlasLoot:CompareFrame_Filter_OnClick(AtlasLoot.CompareFrame.MainFilterButtons[1])	
+
+
 end
 
 function AtlasLoot:CompareFrame_CompleteTable(itemCache, allName)
@@ -1103,6 +1105,9 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 					end
 				end
 			else
+				if not LIST_ITEMS[curMainFilter] then
+					return AtlasLoot:CompareFrame_Clear()
+				end
 				for k,v in  ipairs(LIST_ITEMS[curMainFilter]) do
 					for _,itemList in ipairs(v) do
 						for _,item in ipairs(itemList) do
