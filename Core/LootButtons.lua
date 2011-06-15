@@ -360,7 +360,7 @@ do
 				end
 				itemButton.Frame.Stats[k]:SetWidth(sortCurLenght)
 				itemButton.Frame.Stats[k]:SetHeight(32)
-				itemButton.Frame.Stats[k]:SetText(v)
+				itemButton.Frame.Stats[k]:SetText(0)
 				
 				itemButton.Stats["ITEM_MOD_"..v.."_SHORT"] = itemButton.Frame.Stats[k]
 			end
@@ -782,7 +782,6 @@ do
 			spellTextureNew = GetItemIcon(itemID)
 		end
 		self:SetButtonType(false, true, nil)
-		
 		-- ########################
 		-- spellName
 		-- ########################
@@ -793,8 +792,7 @@ do
 		else
 			tempText = _G["UNKNOWN"]
 		end
-		self.Frame.Name:SetText(tempText)
-		tempText = ""
+		--self.Frame.Name:SetText(tempText)
 		local wishlist = ""
 		if self.itemType and self.itemType[1] == "wishlist" then
 		
@@ -821,6 +819,12 @@ do
 					else
 						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
 					end
+				end
+			end
+		elseif self.type == "CompareFrameItemButton" then
+			for k,v in ipairs(self.statsList) do
+				if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
+					self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
 				end
 			end
 		end
@@ -981,7 +985,7 @@ function AltasLootItemButton:UpdateStatsList(statsList, refresh)
 			end
 			self.Frame.Stats[k]:SetWidth(100)
 			self.Frame.Stats[k]:SetHeight(32)
-			self.Frame.Stats[k]:SetText(v)
+			self.Frame.Stats[k]:SetText(0)
 		end
 		self.Stats["ITEM_MOD_"..v.."_SHORT"] = self.Frame.Stats[k]
 	end

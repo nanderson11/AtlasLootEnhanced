@@ -546,8 +546,13 @@ end
 
 local itemLink, stats, extraText
 function AtlasLoot:FilterItemByItemTable(itemTable)
-	if not itemTable then return end
-	_, itemLink = GetItemInfo(itemTable[2])
+	if not itemTable or type(itemTable) ~= "table" then return end
+	
+	if type(itemTable[2]) == "string" then
+		_, itemLink = GetItemInfo(tonumber(itemTable[3]))
+	else
+		_, itemLink = GetItemInfo(tonumber(itemTable[2]))
+	end
 	if not itemLink then return true end
 	stats = GetItemStats(itemLink)
 	extraText = itemTable[5]

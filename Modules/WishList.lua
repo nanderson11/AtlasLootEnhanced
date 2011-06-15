@@ -11,7 +11,6 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 local MODULENAME = "WishList"
 WishList = AtlasLoot:NewModule(MODULENAME)
-LootTableSort = AtlasLoot:AddLootTableSort(MODULENAME)
 
 local WISHLIST_INFO_ALL = {}
 
@@ -174,7 +173,6 @@ do
 			},
 		
 		}
-		retTab.wlSort = LootTableSort:GetOptionsTable(30)
 		
 		return retTab
 	end
@@ -358,7 +356,7 @@ function WishList:OnInitialize()
 	
 	AtlasLoot:PanelAddButton("Wishlist", {
 		text = AL["Wishlist"],
-		func = function() WishList:ShowWishListList() end,
+		func = function() WishList:ShowWishlist(nil) end,
 		order = 60,
 		disabled = true,
 	})
@@ -616,10 +614,17 @@ function WishList:CheckHeroic()
 end
 
 function WishList:ShowWishlist(wishlist)
-	wishlist = tonumber(string.match(wishlist, "#(%d+)")) or wishlist
-	WishList:RefreshCurWishlist(wishlist)
-	LootTableSort:SetConfigTable(WishList.ownWishLists[wishlist].info.tableSort)
-	LootTableSort:ShowSortedTable(WishList:GetWishlistNameByID(wishlist), WishList.ownWishLists[wishlist][1], MODULENAME.."#"..wishlist)
+	if wishlist and self.ownWishLists[wishlist] then
+		AtlasLoot:CompareFrame_LoadWishList(self.ownWishLists[wishlist][1], wishlist, self.ownWishLists[wishlist].info.name)
+	else
+		if not AtlasLoot.CompareFrame:IsShown() then
+			AtlasLoot.CompareFrame:Show()
+		end
+		if not AtlasLoot.CompareFrame.Wishlist:IsShown() then
+			AtlasLoot.CompareFrame.Wishlist:Show()
+			WishList:CompareFrame_WishlistSelect_UpdateList()
+		end
+	end
 end
 
 -- /al wishlist, /atlasloot wishlist
@@ -629,10 +634,7 @@ function WishList:SlashCommand(msg, ...)
 	if wishlistName then
 		WishList:OpenWishlist(wishlistName)
 	else
-		if AtlasLootDefaultFrame then
-			AtlasLootDefaultFrame:Show()
-			WishList:ShowWishListList()
-		end
+		WishList:ShowWishlist(nil)
 	end
 end
 
@@ -808,7 +810,7 @@ function WishList:SearchWishlist(name)
 	name = string.lower(name) or ""
 	local found
 	for k,v in ipairs(WishList.ownWishLists) do
-		if string.lower(WishList.ownWishLists[k].info.name) == name then
+		if string.lower(WishList.ownWishLists[k].info.name) == name or tonumber(name) == k then
 			found = k
 		end
 	end
@@ -816,21 +818,19 @@ function WishList:SearchWishlist(name)
 end
 
 function WishList:OpenWishlist(nameOrId)
-	if AtlasLootDefaultFrame then
-		if type(nameOrId) == "string" then
-			nameOrId = self:SearchWishlist(nameOrId)
-		end
-		if nameOrId then
-			AtlasLootDefaultFrame:Show()
-			WishList:ShowWishlist(nameOrId)
-		end
-		
+	if type(nameOrId) == "string" then
+		nameOrId = self:SearchWishlist(nameOrId)
 	end
+		
+	WishList:ShowWishlist(nameOrId)
+	
 end
 -- ###################################
 -- Add/delete Item
 -- ###################################
 local curItem 
+--{server, name, wishlist, wishlistname}
+local lastShownCompareFrame = nil
 -- DropDown Menu
 do
 	local function AddItem(self, arg1, arg2, checked)
@@ -880,6 +880,10 @@ function WishList:AddItemToWishList(spellID, itemID, itemName, extraText, dataID
 		print(chatLink..AL[" already in the WishList!"])
 	end
 	self:RefreshItemIdList()
+	AtlasLoot:CompareFrame_UpdateItemListScrollFrame("SKIP")
+	if lastShownCompareFrame then
+		AtlasLoot:CompareFrame_LoadWishList(WishList.allWishLists[lastShownCompareFrame[1]][lastShownCompareFrame[2]][lastShownCompareFrame[3]][1], lastShownCompareFrame[3], lastShownCompareFrame[4], lastShownCompareFrame[3])
+	end
 end
 
 -- Item on click function
@@ -887,7 +891,7 @@ function WishList:ButtonTemp_AddItemToWishList()
 	if not self.info or not AtlasLoot:GetModuleEnabled(MODULENAME) then return end
 	
 	if self.type == "CompareFrameItemButton" then
-		if self.itemType and self.itemType[1] == "whislist" then--SetItemType({"wishlist", dataID, heroic,})
+		if self.itemType and self.itemType[1] == "wishlist" then--SetItemType({"wishlist", dataID, heroic,})
 			self:DeleteItemFromWishList()
 		elseif self.itemType then
 			curItem = { self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[3].."#"..self.itemType[3], self:GetChatLink() }
@@ -902,8 +906,10 @@ function WishList:ButtonTemp_AddItemToWishList()
 			end
 		end
 	else
-		local dataID = AtlasLoot:FormatDataID(AtlasLoot.ItemFrame.dataID)
+		local dataID, instancePage = AtlasLoot:FormatDataID(AtlasLoot.ItemFrame.dataID)
 		local lootTableType
+		local heroicCheckNumber = AtlasLoot:CheckHeroic()
+		
 		if heroicCheckNumber and heroicCheckNumber < self.buttonID then
 			lootTableType = "Heroic"
 		else
@@ -920,7 +926,6 @@ function WishList:ButtonTemp_AddItemToWishList()
 			ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.WishListDropDownMenu, self.Frame:GetName(), 0, 0)
 		end
 	end
-	
 	--[[
 	local heroicCheckNumber = AtlasLoot:CheckHeroic()
 	if self.itemType and string.find(self.itemType, MODULENAME) then
@@ -956,14 +961,21 @@ function WishList:DeleteItemFromWishList(wishlistIndex, spellID, itemID, chatLin
 		end
 	end
 	print(chatLink..AL[" deleted from the WishList."])
-	WishList:ShowWishlist(wishlistIndex)
+	self:RefreshItemIdList()
+	if spellID and spellID ~= "" then
+		AtlasLoot:CompareFrame_RemoveItemFromList("s"..spellID, wishlistIndex)
+	else
+		AtlasLoot:CompareFrame_RemoveItemFromList(itemID, wishlistIndex)
+	end
+	--WishList:ShowWishlist(wishlistIndex)
+	--AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, refresh)
 end
 
 -- Item on click function
 function WishList:ButtonTemp_DeleteItemFromWishList()
 	if not self.info or not AtlasLoot:GetModuleEnabled(MODULENAME) then return end
 	if self.type == "CompareFrameItemButton" then
-		WishList:DeleteItemFromWishList(string.match(self.itemType, "#(%d+)"), self.info[1], self.info[2], self:GetChatLink())
+		WishList:DeleteItemFromWishList(self.itemType[4], self.info[1], self.info[2], self:GetChatLink())
 	end
 end
 
@@ -1072,6 +1084,7 @@ end
 
 function WishList.CompareFrame_Item_OnClick(self)
 	AtlasLoot.CompareFrame.Wishlist:Hide()
+	lastShownCompareFrame = { self.playerTab[2], self.playerTab[1], self.wishlist, self.wishlistName }
 	AtlasLoot:CompareFrame_LoadWishList(WishList.allWishLists[self.playerTab[2]][self.playerTab[1]][self.wishlist][1], self.wishlist, self.wishlistName)
 end
 

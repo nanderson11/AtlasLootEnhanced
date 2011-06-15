@@ -10,7 +10,6 @@
     <Script file="AtlasIntegration.lua"/>
 	<Script file="Panel.lua"/>
 	<Script file="QuickLooks.lua"/>
-	<Script file="LootTableSort.lua"/>
 	
     <Script file="Search.lua"/>
 	

@@ -620,6 +620,18 @@ do
 		["25Man"] = { "25ManHeroic", "Normal", "Heroic" },
 		["25ManHeroic"] = { "25Man", "Heroic", "Normal" },
 	}
+	
+	function AtlasLoot:GetLootTableTypeFromDataID(dataID)
+		if dataID then
+			for k,v in ipairs(lootTableTypes) do
+				if string.match(dataID, "#"..v) then
+					--local _,_,newLootTableType = string.match(dataID, "#"..v)
+					return v
+				end
+			end
+			return "Normal"
+		end
+	end
 
 	--- Gets the current LootTableType
 	-- @param dataID the name of the AtlasLootTable
@@ -1151,7 +1163,6 @@ do
 	end
 end
 
-
 --- Set the Position of the ItemFrame
 -- @param pFrame can be a string with the name from a registered pFrame ( AtlasLoot:RegisterPFrame ) or a table
 -- @usage
@@ -1188,8 +1199,6 @@ function AtlasLoot:SetItemInfoFrame(pFrame)
 	end
 	AtlasLootItemsFrame:Show();
 end
-
-
 
 --- Gets current parent of ItemFrame
 -- Only works if the frame is registered with AtlasLoot:RegisterPFrame
@@ -1317,7 +1326,6 @@ do
 end
 
 function AtlasLoot:CheckHeroic(itemTable)
-	local heroic
 	local checkName = {
 		"|cffFF0000"..AL["Heroic Mode"],
 		"=q6=#j3#",
@@ -1327,7 +1335,7 @@ function AtlasLoot:CheckHeroic(itemTable)
 		for itemNum,item in ipairs(itemTable) do
 			for k,v in ipairs(checkName) do
 				if item[4] == v then
-					heroic = itemNum
+					return itemNum
 				end
 			end
 		end
@@ -1335,12 +1343,11 @@ function AtlasLoot:CheckHeroic(itemTable)
 		for itemNum,item in ipairs(AtlasLoot.ItemFrame.ItemButtons) do
 			for k,v in ipairs(checkName) do
 				if item.Frame.Name:GetText() == v then
-					heroic = itemNum
+					return itemNum
 				end
 			end
 		end
 	end
-	return heroic
 end
 
 

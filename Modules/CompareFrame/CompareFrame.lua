@@ -63,11 +63,17 @@ local SORT_FUNC = {
 	--["none"] = ipairs,
 	["name"] = function(self, sortBy, tab, revert)
 		local a = {}
-		for k,v in ipairs(tab) do a[k] = {GetItemInfo(v), v} end
+		for k,v in ipairs(tab) do 
+			if type(v) == "string" then
+				a[k] = { v, GetItemInfo(tonumber(ITEM_DEATAIL[v][3])) } 
+			else
+				a[k] = { v, GetItemInfo(v) } 
+			end
+		end
 		if revert then
-			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+			table.sort(a, function(x,y) return (x[2] > y[2]) end)
 		else
-			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+			table.sort(a, function(x,y) return (x[2] < y[2]) end)
 		end
 
 		local i = 0
@@ -78,11 +84,17 @@ local SORT_FUNC = {
 	end,
 	["rarity"] = function(self, sortBy, tab, revert)
 		local a = {}
-		for k,v in ipairs(tab) do a[k] = {select(3, GetItemInfo(v)), v} end
+		for k,v in ipairs(tab) do 
+			if type(v) == "string" then
+				a[k] = { v, select(3, GetItemInfo(tonumber(ITEM_DEATAIL[v][3]))) } 
+			else
+				a[k] = { v, select(3, GetItemInfo(v)) } 
+			end
+		end
 		if revert then
-			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+			table.sort(a, function(x,y) return (x[2] > y[2]) end)
 		else
-			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+			table.sort(a, function(x,y) return (x[2] < y[2]) end)
 		end
 
 		local i = 0
@@ -94,11 +106,19 @@ local SORT_FUNC = {
 	["ITEMLVL"] = function(self, sortBy, tab, revert)
 		local a = {}
 		local itemLvl
-		for k,v in ipairs(tab) do itemLvl = select(4, GetItemInfo(v)) a[k] = {itemLvl, v} end
+		for k,v in ipairs(tab) do 
+			if type(v) == "string" then
+				itemLvl = select(4, GetItemInfo(ITEM_DEATAIL[v][3])) 
+				a[k] = { v, itemLvl } 
+			else
+				itemLvl = select(4, GetItemInfo(v)) 
+				a[k] = { v, itemLvl } 
+			end
+		end
 		if revert then
-			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+			table.sort(a, function(x,y) return (x[2] > y[2]) end)
 		else
-			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+			table.sort(a, function(x,y) return (x[2] < y[2]) end)
 		end
 
 		local i = 0
@@ -109,11 +129,17 @@ local SORT_FUNC = {
 	end,
 	["stats"] = function(self, sortBy, tab, revert)
 		local a = {}
-		for k,v in ipairs(tab) do a[k] = { GetItemStats(select(2, GetItemInfo(v)),nil)["ITEM_MOD_"..sortBy.."_SHORT"] or 0, v} end
+		for k,v in ipairs(tab) do 
+			if type(v) == "string" then
+				a[k] = { v, GetItemStats(select(2, GetItemInfo(tonumber(ITEM_DEATAIL[v][3]))),nil)["ITEM_MOD_"..sortBy.."_SHORT"] or 0 } 
+			else
+				a[k] = { v, GetItemStats(select(2, GetItemInfo(v)),nil)["ITEM_MOD_"..sortBy.."_SHORT"] or 0 } 
+			end
+		end
 		if revert then
-			table.sort(a, function(x,y) return (x[1] > y[1]) end)
+			table.sort(a, function(x,y) return (x[2] > y[2]) end)
 		else
-			table.sort(a, function(x,y) return (x[1] < y[1]) end)
+			table.sort(a, function(x,y) return (x[2] < y[2]) end)
 		end
 
 		local i = 0
@@ -144,6 +170,7 @@ local STATS_SORT_LIST = {
 		"EXPERTISE_RATING",
 		"HIT_RATING",
 		"HASTE_RATING",
+		"MASTERY_RATING",
 		"PARRY_RATING",
 		"SPELL_POWER",	
 		"RESILIENCE_RATING",
@@ -160,19 +187,6 @@ local STATS_SORT_LIST = {
 	["WARRIOR"] = { "STAMINA", "STRENGTH", "AGILITY" },
 	["DEATHKNIGHT"] = { "STAMINA", "STRENGTH", "AGILITY" },
 	]]--
-}
-
-local STATS_EXTRA_SORT_LIST = {
-	["DRUID"] = { "STAMINA", "AGILITY", "INTELLECT", "SPIRIT" },
-	["MAGE"] = { "STAMINA", "INTELLECT", "SPIRIT" },
-	["PALADIN"] = { "STAMINA", "STRENGTH", "INTELLECT", "SPIRIT" },
-	["PRIEST"] = { "STAMINA", "INTELLECT", "SPIRIT" },
-	["ROGUE"] = { "STAMINA", "AGILITY", "INTELLECT", "SPIRIT" },
-	["HUNTER"] = { "STAMINA", "AGILITY" },
-	["SHAMAN"] = { "STAMINA", "AGILITY", "INTELLECT", "SPIRIT" },
-	["WARLOCK"] = { "STAMINA", "INTELLECT", "SPIRIT" },
-	["WARRIOR"] = { "STAMINA", "STRENGTH", "AGILITY" },
-	["DEATHKNIGHT"] = { "STAMINA", "STRENGTH", "AGILITY" },
 }
 
 local CURRENT_SORT = {"none", false}
@@ -581,13 +595,14 @@ function AtlasLoot:CompareFrame_Search(text, modulesToSearch)
 		AtlasLoot:CompareFrame_Clear()
 		return 
 	end
-	CURRENT_SHOWN = "SEARCH"
-	CURRENT_ITEM_LIST_TYPE = "compareframe"
+	AtlasLoot.CompareFrame.SearchFrame.SearchBox:SetText(text)
 	if not AtlasLoot.CompareFrame then AtlasLoot:CompareFrame_Create() end
 	modulesToSearch = modulesToSearch or "all"
 	
 	text = strtrim(text);
 	if text == "" then return end
+	CURRENT_SHOWN = "SEARCH"
+	CURRENT_ITEM_LIST_TYPE = "compareframe"
 
 	AtlasLoot.db.profile.LastSearch = text
 	--/run AtlasLoot:CompareFrame_Search("test", {"AtlasLootCataclysm"})
@@ -674,18 +689,17 @@ end
 -- ###########################################
 -- Wishlist
 local function GetItemPrice(dataID, tableType, itemID )
-	if not itemTable or not itemID then return end
-	if itemTable and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID][tableType] then
-	
+	if not itemID then return end
+	if tableType and dataID and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID][tableType] then
 		for tabIndex, tab in ipairs(AtlasLoot_Data[dataID][tableType]) do
 			for itemIndex, item in ipairs(tab) do
-				if item[2] == itemID or item[3] == itemID then
+				if tonumber(item[2]) == itemID or tonumber(item[3]) == itemID then
 					return item[6]
 				end
 			end
 		end
 	end
-	return ""
+	return nil
 end
 
 function AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, refresh)
@@ -696,7 +710,7 @@ function AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, 
 	else
 		CURRENT_SHOWN = wishlistID
 	end
-	if not itemTab then 
+	if not itemTab or #itemTab <= 0 then 
 		AtlasLoot:CompareFrame_Clear()
 		return 
 	end
@@ -720,15 +734,31 @@ function AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, 
 	--{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "#JUSTICE:2200#" },
 	
 	local tableType, dataID
-	for _,item in ipairs(itemTab) do
+	for itemNum,item in ipairs(itemTab) do
 		if type(item[3]) == "number" then
-			
-		else
 			dataID = AtlasLoot:FormatDataID(item[6])
-			tableType = AtlasLoot:GetLootTableType(item[6])
+			tableType = AtlasLoot:GetLootTableTypeFromDataID(item[6])
 			_, iniName = AtlasLoot:GetTableInfo(dataID)
 			
-			table.insert(itemCache, { dataID, tableType, iniName, item = { 0, item[2], "", item[4], item[5], GetItemPrice(dataID,tableType,item[2])} })
+			if dataID and tableType and iniName then
+				table.insert(itemCache, { dataID, tableType, iniName, item = { 0, "s"..item[3], item[2], item[4], item[5], GetItemPrice(dataID,tableType,item[2])} })
+			else
+				-- Verbugtes item
+				--table.remove(itemTab, itemNum)
+				--return AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, refresh)
+			end 	
+		else
+			dataID = AtlasLoot:FormatDataID(item[6])
+			tableType = AtlasLoot:GetLootTableTypeFromDataID(item[6])
+			_, iniName = AtlasLoot:GetTableInfo(dataID)
+			
+			if dataID and tableType and iniName then
+				table.insert(itemCache, { dataID, tableType, iniName, item = { 0, item[2], "", item[4], item[5], GetItemPrice(dataID,tableType,item[2])} })
+			else
+				-- Verbugtes item
+				--table.remove(itemTab, itemNum)
+				--return AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, refresh)
+			end 
 		end
 	end
 	
@@ -749,7 +779,7 @@ local function SortItems(itemTable, sortBy, revert)
 		return itemTable
 	end
 	for v,k in SORT_FUNC[sortBy](SORT_FUNC, sortBy, itemTable, revert) do
-		itemIDs[k] = v[2]
+		itemIDs[k] = v[1]
 	end
 	return itemIDs
 end
@@ -907,7 +937,7 @@ function AtlasLoot:CompareFrame_Filter_OnClick(self, button)
 		AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtype = self:GetText();
 		AtlasLootCompareFrame_ScrollFrameMainFilter.selectedInvtypeIndex = self.index;
 	end
-	AtlasLoot:CompareFrame_UpdateItemListScrollFrame(nil, true)
+	AtlasLoot:CompareFrame_UpdateItemListScrollFrame("RESORT", true)
 	AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
 end
 
@@ -917,11 +947,26 @@ end
 -- #####################################################
 -- ItemList
 
+function AtlasLoot:CompareFrame_RemoveItemFromList(itemID, listID)
+	if not listID or listID == CURRENT_SHOWN then
+		if itemID and ITEM_DEATAIL[itemID] then
+			ITEM_DEATAIL[itemID] = "REMOVED"
+			NUM_ITEMS_IN_LIST = NUM_ITEMS_IN_LIST - 1
+			AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
+			AtlasLoot:CompareFrame_UpdateItemListScrollFrame("RESORT", true)
+		end
+	end
+end
+
+function AtlasLoot:CompareFrame_CleanUpTable()
+	-- alle items und spalten die gemarkt sind entfernen 
+end
+
 local lastListInfo = {}
 local saved_ItemList = {}
 function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 	sortBy = sortBy or "none"
-	if sortBy ~= "SKIP" then
+	if sortBy ~= "SKIP" and sortBy ~= "RESORT" then
 		if CURRENT_SORT[1] == sortBy then
 			CURRENT_SORT[2] = not CURRENT_SORT[2]
 		else
@@ -950,20 +995,27 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 				if curSubSubFilter then
 				if AtlasLoot:FilterGetEnabled() then
 					for k,v in ipairs(LIST_ITEMS[curMainFilter][curSubFilter][curSubSubFilter]) do
-						if AtlasLoot:FilterItemByItemTable(ITEM_DEATAIL[v]) then
+						if ITEM_DEATAIL[v] ~= "REMOVED" and AtlasLoot:FilterItemByItemTable(ITEM_DEATAIL[v]) then
 							itemIDs_temp[#itemIDs_temp + 1] = v
 						end
 					end
 				else
-					itemIDs_temp = LIST_ITEMS[curMainFilter][curSubFilter][curSubSubFilter]
+					for k,v in ipairs(LIST_ITEMS[curMainFilter][curSubFilter][curSubSubFilter]) do
+						if ITEM_DEATAIL[v] ~= "REMOVED" then
+							itemIDs_temp[#itemIDs_temp + 1] = v
+						end
+					end
+					--itemIDs_temp = LIST_ITEMS[curMainFilter][curSubFilter][curSubSubFilter]
 				end
 				else
 					for k,v in ipairs(LIST_ITEMS[curMainFilter][curSubFilter]) do
 						for _,item in ipairs(v) do
-							if not itemSave[item] and ( ( AtlasLoot:FilterItemByItemTable(ITEM_DEATAIL[item]) and AtlasLoot:FilterGetEnabled() ) or not AtlasLoot:FilterGetEnabled() ) then
-								itemSave[item] = true
-								AtlasLootTooltip:SetHyperlink("item:"..item..":0:0:0:0:0:0:0")
-								itemIDs_temp[#itemIDs_temp+1] = item
+							if ITEM_DEATAIL[item] ~= "REMOVED" then
+								if not itemSave[item] and ( ( AtlasLoot:FilterGetEnabled() and AtlasLoot:FilterItemByItemTable(ITEM_DEATAIL[item]) ) or not AtlasLoot:FilterGetEnabled() ) then
+									itemSave[item] = true
+									AtlasLootTooltip:SetHyperlink("item:"..item..":0:0:0:0:0:0:0")
+									itemIDs_temp[#itemIDs_temp+1] = item
+								end
 							end
 						end
 					end
@@ -972,10 +1024,12 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 				for k,v in  ipairs(LIST_ITEMS[curMainFilter]) do
 					for _,itemList in ipairs(v) do
 						for _,item in ipairs(itemList) do
-							if not itemSave[item] and ( ( AtlasLoot:FilterItemByItemTable(ITEM_DEATAIL[item]) and AtlasLoot:FilterGetEnabled() ) or not AtlasLoot:FilterGetEnabled() ) then
-								itemSave[item] = true
-								AtlasLootTooltip:SetHyperlink("item:"..item..":0:0:0:0:0:0:0")
-								itemIDs_temp[#itemIDs_temp+1] = item
+							if ITEM_DEATAIL[item] ~= "REMOVED" then
+								if not itemSave[item] and ( ( AtlasLoot:FilterGetEnabled() and AtlasLoot:FilterItemByItemTable(ITEM_DEATAIL[item]) ) or not AtlasLoot:FilterGetEnabled() ) then
+									itemSave[item] = true
+									AtlasLootTooltip:SetHyperlink("item:"..item..":0:0:0:0:0:0:0")
+									itemIDs_temp[#itemIDs_temp+1] = item
+								end
 							end
 						end
 					end
@@ -987,7 +1041,7 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 			_G[FRAME_NAME.."_ScrollFrameItemFrame_Item"..i]:Hide()
 		end
 	end
-	if sortBy ~= "SKIP" then
+	if sortBy ~= "SKIP" or sortBy == "RESORT" then
 		if itemIDs_temp then
 			saved_ItemList = SortItems(itemIDs_temp, CURRENT_SORT[1],CURRENT_SORT[2])
 		else
@@ -1008,8 +1062,12 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 				button:Show();
 				
 				buttonName = FRAME_NAME.."_ScrollFrameItemFrame_Item"..i
-				button.par:SetItemType({CURRENT_ITEM_LIST_TYPE, ITEM_DEATAIL[saved_ItemList[index]].dataID, ITEM_DEATAIL[saved_ItemList[index]].tableType})
-			
+				
+				if CURRENT_ITEM_LIST_TYPE and ITEM_DEATAIL and saved_ItemList and saved_ItemList[index] and ITEM_DEATAIL[saved_ItemList[index]] then
+					button.par:SetItemType({CURRENT_ITEM_LIST_TYPE, ITEM_DEATAIL[saved_ItemList[index]].dataID, ITEM_DEATAIL[saved_ItemList[index]].tableType, CURRENT_SHOWN})
+				else
+					button.par:SetItemType({CURRENT_ITEM_LIST_TYPE, nil, nil, CURRENT_SHOWN})
+				end
 				
 				-- Resize button if there isn't a scrollbar
 				buttonHighlight = _G[FRAME_NAME.."_ScrollFrameItemFrame_Item"..i.."_Highlight"];
@@ -1023,10 +1081,18 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 					AtlasLoot:CompareFrame_SetStatsSortListWidth(597)
 				end
 				--ITEM_DEATAIL		
-				--function AltasLootItemButton:SetItem(itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate)
+				--AltasLootItemButton:SetItem(itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate)
+				--AltasLootItemButton:SetSpell(spellID, itemID, spellName, extraText, spellTexture, itemPrice)
 				--{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "#JUSTICE:2200#" },
 				if ITEM_DEATAIL[saved_ItemList[index]] then
-					button.par:SetItem(saved_ItemList[index], ITEM_DEATAIL[saved_ItemList[index]][4], ITEM_DEATAIL[saved_ItemList[index]][5], nil, ITEM_DEATAIL[saved_ItemList[index]][6])
+					if type(saved_ItemList[index]) == "string" then
+						local _,_,spellID = string.find(ITEM_DEATAIL[saved_ItemList[index]][2], "s(%d+)")
+						if spellID then
+							button.par:SetSpell(tonumber(spellID), tonumber(ITEM_DEATAIL[saved_ItemList[index]][3]), ITEM_DEATAIL[saved_ItemList[index]][4], ITEM_DEATAIL[saved_ItemList[index]][5], nil, ITEM_DEATAIL[saved_ItemList[index]][6])
+						end
+					else
+						button.par:SetItem(saved_ItemList[index], ITEM_DEATAIL[saved_ItemList[index]][4], ITEM_DEATAIL[saved_ItemList[index]][5], nil, ITEM_DEATAIL[saved_ItemList[index]][6])
+					end
 				else
 					button.par:SetItem(saved_ItemList[index])
 				end
@@ -1242,19 +1308,19 @@ function AtlasLoot:CompareFrame_SetStatsSortListWidth(width)
 	if width == curWidthSortButtons then
 		-- Do nothing
 	elseif width == 597 then
-		AtlasLoot.CompareFrame.SortButtons[1]:SetWidth(112-12.5)
-		AtlasLoot.CompareFrame.SortButtons[2]:SetWidth(112-12.5)
+		AtlasLoot.CompareFrame.SortButtons[1]:SetWidth(111.5-12.5)
+		AtlasLoot.CompareFrame.SortButtons[2]:SetWidth(111.5-12.5)
 		local statsSort = #AtlasLoot:CompareFrame_GetStatsSortList()
-		local fixVaule = 417 / statsSort
+		local fixVaule = (409 + (statsSort*2)) / statsSort --417 / statsSort
 		for i=3, statsSort+2 do
 			AtlasLoot.CompareFrame.SortButtons[i]:SetWidth(fixVaule)
 		end
 		curWidthSortButtons = width
 	elseif width == 625 then
-		AtlasLoot.CompareFrame.SortButtons[1]:SetWidth(112)
-		AtlasLoot.CompareFrame.SortButtons[2]:SetWidth(112)
+		AtlasLoot.CompareFrame.SortButtons[1]:SetWidth(111.5)
+		AtlasLoot.CompareFrame.SortButtons[2]:SetWidth(111.5)
 		local statsSort = #AtlasLoot:CompareFrame_GetStatsSortList()
-		local fixVaule = 421 / statsSort
+		local fixVaule = (413 + (statsSort*2)) / statsSort --421 / statsSort
 		for i=3, statsSort+2 do
 			AtlasLoot.CompareFrame.SortButtons[i]:SetWidth(fixVaule)
 		end
@@ -1391,20 +1457,20 @@ function AtlasLoot:CompareFrame_Create()
 	-- Name
 	Frame.SortButtons[1] = CreateFrame("BUTTON", FRAME_NAME.."SortButton_Name", Frame, "AtlasLootCFSortButtonTemplate")
 	Frame.SortButtons[1]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 186, -82)
-	Frame.SortButtons[1]:SetWidth(112)
+	Frame.SortButtons[1]:SetWidth(110.5)
 	Frame.SortButtons[1]:SetHeight(19)
 	Frame.SortButtons[1]:SetText(AL["Name"])
 	Frame.SortButtons[1].SortType = "name"
-	sortMaxLength = sortMaxLength - 112
+	sortMaxLength = sortMaxLength - 111.5
 	
 	-- RARITY
 	Frame.SortButtons[2] = CreateFrame("BUTTON", FRAME_NAME.."SortButton_Rarity", Frame, "AtlasLootCFSortButtonTemplate")
 	Frame.SortButtons[2]:SetPoint("LEFT", Frame.SortButtons[1], "RIGHT", -2, 0)
-	Frame.SortButtons[2]:SetWidth(112)
+	Frame.SortButtons[2]:SetWidth(110.5)
 	Frame.SortButtons[2]:SetHeight(19)
 	Frame.SortButtons[2]:SetText(RARITY)
 	Frame.SortButtons[2].SortType = "rarity"
-	sortMaxLength = sortMaxLength - 112
+	sortMaxLength = sortMaxLength - 111.5
 	
 	-- Item level
 	--Frame.SortButtons[3] = CreateFrame("BUTTON", FRAME_NAME.."SortButton_ItemLvl", Frame, "AtlasLootCFSortButtonTemplate")
