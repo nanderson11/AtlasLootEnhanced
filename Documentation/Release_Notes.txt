@@ -12,12 +12,14 @@ Added Firelands Raid loot Normal and Heroic.
 Added new Baradin Hold boss.
 Added new faction: Avengers of Hyjal.
 Added Tier 12 Raid Set.
-Added Season 10 PvP Items.
+Added Season 10 PvP Set.
 Added Molten Fire Daily Rewards.
 Added various new mounts and companions.
 Added various new crafting recipes.
 Updated Brewfest and Hallows' End boss loot.
-Added an option to filter by slots.
+Added a CompareFrame window to compare all items of an instance.
+Added a new Wishlist interface.
+Added an option to filter by stats.
 Added an option to use the search only for selected modules.
 Added viewable currencies to the item description.
 Dungeons and Raids are now seperated in the loot browser.

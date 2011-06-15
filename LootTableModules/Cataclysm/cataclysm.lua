@@ -3001,42 +3001,42 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_baradinwardens", "=q6=#r1#", ""};
-				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s1# #e17#", "80 #tolbarad#"};
-				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s1# #e17#", "80 #tolbarad#"};
-				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s1# #e17#", "80 #tolbarad#"};
-				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s3# #e17#", "40 #tolbarad#"};
-				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s3# #e17#", "40 #tolbarad#"};
-				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s3# #e17#", "40 #tolbarad#"};
+				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
+				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
+				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
+				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
 				{ 9, 0, "inv_misc_tabard_baradinwardens", "=q6=#r2#", ""};
-				{ 10, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "10 #tolbarad#"};
-				{ 11, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#", "5 #tolbarad#"};
-				{ 12, 63144, "", "=q1=Baradin's Wardens Healing Potion", "=ds=#e2#", "2 #tolbarad#"};
-				{ 13, 63145, "", "=q1=Baradin's Wardens Mana Potion", "=ds=#e2#", "2 #tolbarad#"};
+				{ 10, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 11, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
+				{ 12, 63144, "", "=q1=Baradin's Wardens Healing Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 13, 63145, "", "=q1=Baradin's Wardens Mana Potion", "=ds=#e2#", "#TOLBARAD:2#"};
 				{ 16, 0, "inv_misc_tabard_baradinwardens", "=q6=#r3#", ""};
-				{ 17, 63379, "", "=q3=Baradin's Wardens Tabard", "=ds=#s7#", "40 #tolbarad#"};
-				{ 18, 65175, "", "=q3=Baradin Footman's Tags", "=ds=#s14#", "40 #tolbarad#"};
-				{ 19, 63355, "", "=q3=Rustberg Gull", "=ds=#e13#", "50 #tolbarad#"};
-				{ 20, 63141, "", "=q3=Tol Barad Searchlight", "=ds=", "40 #tolbarad#"};
+				{ 17, 63379, "", "=q3=Baradin's Wardens Tabard", "=ds=#s7#", "#TOLBARAD:40#"};
+				{ 18, 65175, "", "=q3=Baradin Footman's Tags", "=ds=#s14#", "#TOLBARAD:40#"};
+				{ 19, 63355, "", "=q3=Rustberg Gull", "=ds=#e13#", "#TOLBARAD:50#"};
+				{ 20, 63141, "", "=q3=Tol Barad Searchlight", "=ds=", "#TOLBARAD:40#"};
 			};
 			{
 				{ 1, 0, "inv_misc_tabard_baradinwardens", "=q6=#r4#", ""};
-				{ 2, 62475, "", "=q3=Dagger of Restless Nights", "=ds=#h1#, #w4#", "85 #tolbarad#"};
-				{ 3, 62473, "", "=q3=Blade of the Fearless", "=ds=#h2#, #w10#", "85 #tolbarad#"};
-				{ 4, 62476, "", "=q3=Ravening Slicer", "=ds=#h1#, #w1#", "85 #tolbarad#"};
-				{ 5, 68739, "", "=q3=Darkheart Hacker", "=ds=#h1#, #w1#", "85 #tolbarad#"};
-				{ 6, 62478, "", "=q3=Shimmering Morningstar", "=ds=#h3#, #w6#", "85 #tolbarad#"};
-				{ 7, 62474, "", "=q3=Spear of Trailing Shadows", "=ds=#w7#", "85 #tolbarad#"};
-				{ 8, 62477, "", "=q3=Insidious Staff", "=ds=#w9#", "85 #tolbarad#"};
-				{ 9, 62479, "", "=q3=Sky Piercer", "=ds=#w3#", "85 #tolbarad#"};
-				{ 10, 63377, "", "=q3=Baradin's Wardens Battle Standard", "=ds=#e14#", "50 #tolbarad#"};
+				{ 2, 62475, "", "=q3=Dagger of Restless Nights", "=ds=#h1#, #w4#", "#TOLBARAD:85#"};
+				{ 3, 62473, "", "=q3=Blade of the Fearless", "=ds=#h2#, #w10#", "#TOLBARAD:85#"};
+				{ 4, 62476, "", "=q3=Ravening Slicer", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
+				{ 5, 68739, "", "=q3=Darkheart Hacker", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
+				{ 6, 62478, "", "=q3=Shimmering Morningstar", "=ds=#h3#, #w6#", "#TOLBARAD:85#"};
+				{ 7, 62474, "", "=q3=Spear of Trailing Shadows", "=ds=#w7#", "#TOLBARAD:85#"};
+				{ 8, 62477, "", "=q3=Insidious Staff", "=ds=#w9#", "#TOLBARAD:85#"};
+				{ 9, 62479, "", "=q3=Sky Piercer", "=ds=#w3#", "#TOLBARAD:85#"};
+				{ 10, 63377, "", "=q3=Baradin's Wardens Battle Standard", "=ds=#e14#", "#TOLBARAD:50#"};
 				{ 16, 0, "inv_misc_tabard_baradinwardens", "=q6=#r5#", ""};
-				{ 17, 62469, "", "=q4=Impatience of Youth", "=ds=#s14#", "125 #tolbarad#"};
-				{ 18, 62472, "", "=q4=Mandala of Stirring Patterns", "=ds=#s14#", "125 #tolbarad#"};
-				{ 19, 62471, "", "=q4=Mirror of Broken Images", "=ds=#s14#", "125 #tolbarad#"};
-				{ 20, 62470, "", "=q4=Stump of Time", "=ds=#s14#", "125 #tolbarad#"};
-				{ 21, 62468, "", "=q4=Unsolvable Riddle", "=ds=#s14#", "125 #tolbarad#"};
-				{ 22, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#", "165 #tolbarad#"};
-				{ 23, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#", "200 #tolbarad#"};
+				{ 17, 62469, "", "=q4=Impatience of Youth", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 18, 62472, "", "=q4=Mandala of Stirring Patterns", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 19, 62471, "", "=q4=Mirror of Broken Images", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 20, 62470, "", "=q4=Stump of Time", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 21, 62468, "", "=q4=Unsolvable Riddle", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 22, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#", "#TOLBARAD:165#"};
+				{ 23, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#", "#TOLBARAD:200#"};
 			};
 		};
 		info = {
@@ -3085,36 +3085,43 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["HellscreamsReach"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
-				{ 2, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "10 #tolbarad#"};
-				{ 3, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#", "5 #tolbarad#"};
-				{ 4, 64994, "", "=q1=Hellscream's Reach Healing Potion", "=ds=#e2#", "2 #tolbarad#"};
-				{ 5, 64993, "", "=q1=Hellscream's Reach Mana Potion", "=ds=#e2#", "2 #tolbarad#"};
-				{ 7, 0, "inv_misc_tabard_hellscream", "=q6=#r3#", ""};
-				{ 8, 63378, "", "=q3=Hellscream's Reach Tabard", "=ds=#s7#", "40 #tolbarad#"};
-				{ 9, 65176, "", "=q3=Baradin Grunt's Talisman", "=ds=#s14#", "40 #tolbarad#"};
-				{ 10, 64996, "", "=q3=Rustberg Gull", "=ds=#e13#", "50 #tolbarad#"};
-				{ 11, 64997, "", "=q3=Tol Barad Searchlight", "=ds=", "40 #tolbarad#"};
-				{ 16, 0, "inv_misc_tabard_hellscream", "=q6=#r4#", ""};
-				{ 17, 62456, "", "=q3=Dagger of Restless Nights", "=ds=#h1#, #w4#", "85 #tolbarad#"};
-				{ 18, 62454, "", "=q3=Blade of the Fearless", "=ds=#h2#, #w10#", "85 #tolbarad#"};
-				{ 19, 62457, "", "=q3=Ravening Slicer", "=ds=#h1#, #w1#", "85 #tolbarad#"};
-				{ 20, 68740, "", "=q3=Darkheart Hacker", "=ds=#h1#, #w1#", "85 #tolbarad#"};
-				{ 21, 62459, "", "=q3=Shimmering Morningstar", "=ds=#h3#, #w6#", "85 #tolbarad#"};
-				{ 22, 62455, "", "=q3=Spear of Trailing Shadows", "=ds=#w7#", "85 #tolbarad#"};
-				{ 23, 62458, "", "=q3=Insidious Staff", "=ds=#w9#", "85 #tolbarad#"};
-				{ 24, 62460, "", "=q3=Sky Piercer", "=ds=#w3#", "85 #tolbarad#"};
-				{ 25, 63376, "", "=q3=Hellscream's Reach Battle Standard", "=ds=#e14#", "50 #tolbarad#"};
+				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r1#", ""};
+				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
+				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
+				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
+				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 9, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
+				{ 10, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 11, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
+				{ 12, 64994, "", "=q1=Hellscream's Reach Healing Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 13, 64993, "", "=q1=Hellscream's Reach Mana Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 16, 0, "inv_misc_tabard_hellscream", "=q6=#r3#", ""};
+				{ 17, 63378, "", "=q3=Hellscream's Reach Tabard", "=ds=#s7#", "#TOLBARAD:40#"};
+				{ 18, 65176, "", "=q3=Baradin Grunt's Talisman", "=ds=#s14#", "#TOLBARAD:40#"};
+				{ 19, 64996, "", "=q3=Rustberg Gull", "=ds=#e13#", "#TOLBARAD:50#"};
+				{ 20, 64997, "", "=q3=Tol Barad Searchlight", "=ds=", "#TOLBARAD:40#"};
 			};
 			{
-				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r5#", ""};
-				{ 2, 62464, "", "=q4=Impatience of Youth", "=ds=#s14#", "125 #tolbarad#"};
-				{ 3, 62467, "", "=q4=Mandala of Stirring Patterns", "=ds=#s14#", "125 #tolbarad#"};
-				{ 4, 62466, "", "=q4=Mirror of Broken Images", "=ds=#s14#", "125 #tolbarad#"};
-				{ 5, 62465, "", "=q4=Stump of Time", "=ds=#s14#", "125 #tolbarad#"};
-				{ 6, 62463, "", "=q4=Unsolvable Riddle", "=ds=#s14#", "125 #tolbarad#"};
-				{ 7, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#", "165 #tolbarad#"};
-				{ 8, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#", "200 #tolbarad#"};
+				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r4#", ""};
+				{ 2, 62456, "", "=q3=Dagger of Restless Nights", "=ds=#h1#, #w4#", "#TOLBARAD:85#"};
+				{ 3, 62454, "", "=q3=Blade of the Fearless", "=ds=#h2#, #w10#", "#TOLBARAD:85#"};
+				{ 4, 62457, "", "=q3=Ravening Slicer", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
+				{ 5, 68740, "", "=q3=Darkheart Hacker", "=ds=#h1#, #w1#", "#TOLBARAD:85#"};
+				{ 6, 62459, "", "=q3=Shimmering Morningstar", "=ds=#h3#, #w6#", "#TOLBARAD:85#"};
+				{ 7, 62455, "", "=q3=Spear of Trailing Shadows", "=ds=#w7#", "#TOLBARAD:85#"};
+				{ 8, 62458, "", "=q3=Insidious Staff", "=ds=#w9#", "#TOLBARAD:85#"};
+				{ 9, 62460, "", "=q3=Sky Piercer", "=ds=#w3#", "#TOLBARAD:85#"};
+				{ 10, 63376, "", "=q3=Hellscream's Reach Battle Standard", "=ds=#e14#", "#TOLBARAD:50#"};
+				{ 16, 0, "inv_misc_tabard_hellscream", "=q6=#r5#", ""};
+				{ 17, 62464, "", "=q4=Impatience of Youth", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 18, 62467, "", "=q4=Mandala of Stirring Patterns", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 19, 62466, "", "=q4=Mirror of Broken Images", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 20, 62465, "", "=q4=Stump of Time", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 21, 62463, "", "=q4=Unsolvable Riddle", "=ds=#s14#", "#TOLBARAD:125#"};
+				{ 22, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#", "#TOLBARAD:165#"};
+				{ 23, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#", "#TOLBARAD:200#"};
 			};
 		};
 		info = {
@@ -3370,18 +3377,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 9"]};
-				{ 2, 60444, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60447, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60446, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60443, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60445, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "ability_racial_bearform", "=q6=#arenas1_1#", ""};
-				{ 9, 64728, "", "=q3=Bloodthirsty Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64731, "", "=q3=Bloodthirsty Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64730, "", "=q3=Bloodthirsty Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
-				{ 12, 64727, "", "=q3=Bloodthirsty Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 13, 64729, "", "=q3=Bloodthirsty Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 10"]};
+				{ 2, 70280, "", "=q4=Ruthless Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70283, "", "=q4=Ruthless Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70282, "", "=q4=Ruthless Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70279, "", "=q4=Ruthless Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70281, "", "=q4=Ruthless Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 10"]};
+				{ 9, 70551, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70554, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70553, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
+				{ 12, 70550, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
+				{ 13, 70552, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 9"]};
+				{ 17, 60444, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60447, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60446, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60443, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60445, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "ability_racial_bearform", "=q6=#arenas1_1#", ""};
+				{ 24, 64728, "", "=q3=Bloodthirsty Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64731, "", "=q3=Bloodthirsty Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64730, "", "=q3=Bloodthirsty Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
+				{ 27, 64727, "", "=q3=Bloodthirsty Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
+				{ 28, 64729, "", "=q3=Bloodthirsty Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3393,18 +3412,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 9"]};
-				{ 2, 60449, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60452, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60451, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", ""};
-				{ 9, 64765, "", "=q3=Bloodthirsty Gladiator's Kodohide Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64768, "", "=q3=Bloodthirsty Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64767, "", "=q3=Bloodthirsty Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
-				{ 12, 64764, "", "=q3=Bloodthirsty Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 13, 64766, "", "=q3=Bloodthirsty Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 10"]};
+				{ 2, 70285, "", "=q4=Ruthless Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70288, "", "=q4=Ruthless Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70287, "", "=q4=Ruthless Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70284, "", "=q4=Ruthless Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70286, "", "=q4=Ruthless Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 10"]};
+				{ 9, 70581, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70584, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70583, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
+				{ 12, 70580, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
+				{ 13, 70582, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 9"]};
+				{ 17, 60449, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60452, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60451, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", ""};
+				{ 24, 64765, "", "=q3=Bloodthirsty Gladiator's Kodohide Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64768, "", "=q3=Bloodthirsty Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64767, "", "=q3=Bloodthirsty Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
+				{ 27, 64764, "", "=q3=Bloodthirsty Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
+				{ 28, 64766, "", "=q3=Bloodthirsty Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3416,18 +3447,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Hunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 9"]};
-				{ 2, 60425, "", "=q4=Vicious Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60427, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60423, "", "=q4=Vicious Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60424, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60426, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", ""};
-				{ 9, 64710, "", "=q3=Bloodthirsty Gladiator's Chain Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64712, "", "=q3=Bloodthirsty Gladiator's Chain Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64708, "", "=q3=Bloodthirsty Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
-				{ 12, 64709, "", "=q3=Bloodthirsty Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 13, 64711, "", "=q3=Bloodthirsty Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 10"]};
+				{ 2, 70261, "", "=q4=Ruthless Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70263, "", "=q4=Ruthless Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70259, "", "=q4=Ruthless Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70260, "", "=q4=Ruthless Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70262, "", "=q4=Ruthless Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 10"]};
+				{ 9, 70535, "", "=q4=Vicious Gladiator's Chain Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70537, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70533, "", "=q4=Vicious Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
+				{ 12, 70534, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 13, 70536, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 9"]};
+				{ 17, 60425, "", "=q4=Vicious Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60427, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60423, "", "=q4=Vicious Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60424, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60426, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "inv_weapon_bow_07", "=q6=#arenas2#", ""};
+				{ 24, 64710, "", "=q3=Bloodthirsty Gladiator's Chain Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64712, "", "=q3=Bloodthirsty Gladiator's Chain Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64708, "", "=q3=Bloodthirsty Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
+				{ 27, 64709, "", "=q3=Bloodthirsty Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 28, 64711, "", "=q3=Bloodthirsty Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3439,18 +3482,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 9"]};
-				{ 2, 60464, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60467, "", "=q4=Vicious Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60466, "", "=q4=Vicious Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60463, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60465, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", ""};
-				{ 9, 64854, "", "=q3=Bloodthirsty Gladiator's Silk Cowl", "=ds=", "#HONOR:2200#"};
-				{ 10, 64853, "", "=q3=Bloodthirsty Gladiator's Silk Amice", "=ds=", "#HONOR:1650#"};
-				{ 11, 64856, "", "=q3=Bloodthirsty Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
-				{ 12, 64855, "", "=q3=Bloodthirsty Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
-				{ 13, 64857, "", "=q3=Bloodthirsty Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 10"]};
+				{ 2, 70300, "", "=q4=Ruthless Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70303, "", "=q4=Ruthless Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70302, "", "=q4=Ruthless Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70299, "", "=q4=Ruthless Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70301, "", "=q4=Ruthless Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 10"]};
+				{ 9, 70656, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds=", "#HONOR:2200#"};
+				{ 10, 70655, "", "=q4=Vicious Gladiator's Silk Amice", "=ds=", "#HONOR:1650#"};
+				{ 11, 70658, "", "=q4=Vicious Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
+				{ 12, 70657, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
+				{ 13, 70659, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 9"]};
+				{ 17, 60464, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60467, "", "=q4=Vicious Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60466, "", "=q4=Vicious Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60463, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60465, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "inv_staff_13", "=q6=#arenas3#", ""};
+				{ 24, 64854, "", "=q3=Bloodthirsty Gladiator's Silk Cowl", "=ds=", "#HONOR:2200#"};
+				{ 25, 64853, "", "=q3=Bloodthirsty Gladiator's Silk Amice", "=ds=", "#HONOR:1650#"};
+				{ 26, 64856, "", "=q3=Bloodthirsty Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
+				{ 27, 64855, "", "=q3=Bloodthirsty Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
+				{ 28, 64857, "", "=q3=Bloodthirsty Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3462,18 +3517,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 9"]};
-				{ 2, 60415, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60417, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60413, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60414, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60416, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
-				{ 9, 64845, "", "=q3=Bloodthirsty Gladiator's Scaled Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64847, "", "=q3=Bloodthirsty Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64843, "", "=q3=Bloodthirsty Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 12, 64844, "", "=q3=Bloodthirsty Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 13, 64846, "", "=q3=Bloodthirsty Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 10"]};
+				{ 2, 70251, "", "=q4=Ruthless Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70253, "", "=q4=Ruthless Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70249, "", "=q4=Ruthless Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70250, "", "=q4=Ruthless Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70252, "", "=q4=Ruthless Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 10"]};
+				{ 9, 70650, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70652, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70648, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
+				{ 12, 70649, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 13, 70651, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 9"]};
+				{ 17, 60415, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60417, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60413, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60414, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60416, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
+				{ 24, 64845, "", "=q3=Bloodthirsty Gladiator's Scaled Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64847, "", "=q3=Bloodthirsty Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64843, "", "=q3=Bloodthirsty Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
+				{ 27, 64844, "", "=q3=Bloodthirsty Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 28, 64846, "", "=q3=Bloodthirsty Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3486,17 +3553,29 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]};
-				{ 2, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
-				{ 9, 64804, "", "=q3=Bloodthirsty Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
-				{ 10, 64806, "", "=q3=Bloodthirsty Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64802, "", "=q3=Bloodthirsty Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
-				{ 12, 64803, "", "=q3=Bloodthirsty Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
-				{ 13, 64805, "", "=q3=Bloodthirsty Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
+				{ 2, 70355, "", "=q4=Ruthless Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70357, "", "=q4=Ruthless Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70353, "", "=q4=Ruthless Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70354, "", "=q4=Ruthless Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70356, "", "=q4=Ruthless Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]};
+				{ 9, 70617, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
+				{ 10, 70619, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70615, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
+				{ 12, 70616, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
+				{ 13, 70618, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]};
+				{ 17, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", ""};
+				{ 24, 64804, "", "=q3=Bloodthirsty Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
+				{ 25, 64806, "", "=q3=Bloodthirsty Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64802, "", "=q3=Bloodthirsty Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
+				{ 27, 64803, "", "=q3=Bloodthirsty Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
+				{ 28, 64805, "", "=q3=Bloodthirsty Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3508,18 +3587,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 9"]};
-				{ 2, 60474, "", "=q4=Vicious Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60477, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60473, "", "=q4=Vicious Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60476, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60475, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", ""};
-				{ 9, 64839, "", "=q3=Bloodthirsty Gladiator's Satin Hood", "=ds=", "#HONOR:2200#"};
-				{ 10, 64841, "", "=q3=Bloodthirsty Gladiator's Satin Mantle", "=ds=", "#HONOR:1650#"};
-				{ 11, 64842, "", "=q3=Bloodthirsty Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
-				{ 12, 64838, "", "=q3=Bloodthirsty Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
-				{ 13, 64840, "", "=q3=Bloodthirsty Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 10"]};
+				{ 2, 70310, "", "=q4=Ruthless Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70313, "", "=q4=Ruthless Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70312, "", "=q4=Ruthless Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70309, "", "=q4=Ruthless Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70311, "", "=q4=Ruthless Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 10"]};
+				{ 9, 70644, "", "=q4=Vicious Gladiator's Satin Hood", "=ds=", "#HONOR:2200#"};
+				{ 10, 70646, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds=", "#HONOR:1650#"};
+				{ 11, 70647, "", "=q4=Vicious Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
+				{ 12, 70643, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
+				{ 13, 70645, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 9"]};
+				{ 17, 60474, "", "=q4=Vicious Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60477, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60473, "", "=q4=Vicious Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60476, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60475, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", ""};
+				{ 24, 64839, "", "=q3=Bloodthirsty Gladiator's Satin Hood", "=ds=", "#HONOR:2200#"};
+				{ 25, 64841, "", "=q3=Bloodthirsty Gladiator's Satin Mantle", "=ds=", "#HONOR:1650#"};
+				{ 26, 64842, "", "=q3=Bloodthirsty Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
+				{ 27, 64838, "", "=q3=Bloodthirsty Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
+				{ 28, 64840, "", "=q3=Bloodthirsty Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3531,18 +3622,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 9"]};
-				{ 2, 60469, "", "=q4=Vicious Gladiator's Mooncloth Hood", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60472, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60471, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60468, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60470, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", ""};
-				{ 9, 64796, "", "=q3=Bloodthirsty Gladiator's Mooncloth Hood", "=ds=", "#HONOR:2200#"};
-				{ 10, 64798, "", "=q3=Bloodthirsty Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
-				{ 11, 64799, "", "=q3=Bloodthirsty Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
-				{ 12, 64795, "", "=q3=Bloodthirsty Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
-				{ 13, 64797, "", "=q3=Bloodthirsty Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 10"]};
+				{ 2, 70305, "", "=q4=Ruthless Gladiator's Mooncloth Hood", "=ds=", "#HONOR:2200#"};
+				{ 3, 70308, "", "=q4=Ruthless Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
+				{ 4, 70307, "", "=q4=Ruthless Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
+				{ 5, 70304, "", "=q4=Ruthless Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
+				{ 6, 70306, "", "=q4=Ruthless Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
+				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 10"]};
+				{ 9, 70609, "", "=q4=Vicious Gladiator's Mooncloth Hood", "=ds=", "#HONOR:2200#"};
+				{ 10, 70611, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
+				{ 11, 70612, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
+				{ 12, 70608, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
+				{ 13, 70610, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 9"]};
+				{ 17, 60469, "", "=q4=Vicious Gladiator's Mooncloth Hood", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60472, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60471, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60468, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60470, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", ""};
+				{ 24, 64796, "", "=q3=Bloodthirsty Gladiator's Mooncloth Hood", "=ds=", "#HONOR:2200#"};
+				{ 25, 64798, "", "=q3=Bloodthirsty Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
+				{ 26, 64799, "", "=q3=Bloodthirsty Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
+				{ 27, 64795, "", "=q3=Bloodthirsty Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
+				{ 28, 64797, "", "=q3=Bloodthirsty Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3554,18 +3657,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Rogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 9"]};
-				{ 2, 60460, "", "=q4=Vicious Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60462, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60458, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60459, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60461, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", ""};
-				{ 9, 64770, "", "=q3=Bloodthirsty Gladiator's Leather Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64772, "", "=q3=Bloodthirsty Gladiator's Leather Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64773, "", "=q3=Bloodthirsty Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
-				{ 12, 64769, "", "=q3=Bloodthirsty Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
-				{ 13, 64771, "", "=q3=Bloodthirsty Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 10"]};
+				{ 2, 70296, "", "=q4=Ruthless Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70298, "", "=q4=Ruthless Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70294, "", "=q4=Ruthless Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70295, "", "=q4=Ruthless Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70297, "", "=q4=Ruthless Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 10"]};
+				{ 9, 70586, "", "=q4=Vicious Gladiator's Leather Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70588, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70589, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
+				{ 12, 70585, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
+				{ 13, 70587, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 9"]};
+				{ 17, 60460, "", "=q4=Vicious Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60462, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60458, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60459, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60461, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "inv_throwingknife_04", "=q6=#arenas6#", ""};
+				{ 24, 64770, "", "=q3=Bloodthirsty Gladiator's Leather Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64772, "", "=q3=Bloodthirsty Gladiator's Leather Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64773, "", "=q3=Bloodthirsty Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
+				{ 27, 64769, "", "=q3=Bloodthirsty Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
+				{ 28, 64771, "", "=q3=Bloodthirsty Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3577,18 +3692,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 9"]};
-				{ 2, 60440, "", "=q4=Vicious Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60442, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60438, "", "=q4=Vicious Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60439, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60441, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
-				{ 9, 64786, "", "=q3=Bloodthirsty Gladiator's Mail Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64788, "", "=q3=Bloodthirsty Gladiator's Mail Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64784, "", "=q3=Bloodthirsty Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
-				{ 12, 64785, "", "=q3=Bloodthirsty Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 13, 64787, "", "=q3=Bloodthirsty Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 10"]};
+				{ 2, 70276, "", "=q4=Ruthless Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70278, "", "=q4=Ruthless Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70274, "", "=q4=Ruthless Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70275, "", "=q4=Ruthless Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70277, "", "=q4=Ruthless Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 10"]};
+				{ 9, 70599, "", "=q4=Vicious Gladiator's Mail Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70601, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70597, "", "=q4=Vicious Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
+				{ 12, 70598, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 13, 70600, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 9"]};
+				{ 17, 60440, "", "=q4=Vicious Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60442, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60438, "", "=q4=Vicious Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60439, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60441, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
+				{ 24, 64786, "", "=q3=Bloodthirsty Gladiator's Mail Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64788, "", "=q3=Bloodthirsty Gladiator's Mail Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64784, "", "=q3=Bloodthirsty Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
+				{ 27, 64785, "", "=q3=Bloodthirsty Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 28, 64787, "", "=q3=Bloodthirsty Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3600,18 +3727,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 9"]};
-				{ 2, 60435, "", "=q4=Vicious Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60437, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60433, "", "=q4=Vicious Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60434, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60436, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", ""};
-				{ 9, 64778, "", "=q3=Bloodthirsty Gladiator's Linked Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64780, "", "=q3=Bloodthirsty Gladiator's Linked Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64776, "", "=q3=Bloodthirsty Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
-				{ 12, 64777, "", "=q3=Bloodthirsty Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 13, 64779, "", "=q3=Bloodthirsty Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 10"]};
+				{ 2, 70271, "", "=q4=Ruthless Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70273, "", "=q4=Ruthless Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70269, "", "=q4=Ruthless Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70270, "", "=q4=Ruthless Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70272, "", "=q4=Ruthless Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 10"]};
+				{ 9, 70592, "", "=q4=Vicious Gladiator's Linked Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70594, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70590, "", "=q4=Vicious Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
+				{ 12, 70591, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 13, 70593, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 9"]};
+				{ 17, 60435, "", "=q4=Vicious Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60437, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60433, "", "=q4=Vicious Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60434, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60436, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", ""};
+				{ 24, 64778, "", "=q3=Bloodthirsty Gladiator's Linked Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64780, "", "=q3=Bloodthirsty Gladiator's Linked Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64776, "", "=q3=Bloodthirsty Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
+				{ 27, 64777, "", "=q3=Bloodthirsty Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 28, 64779, "", "=q3=Bloodthirsty Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3623,18 +3762,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 9"]};
-				{ 2, 60430, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60432, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60428, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60429, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60431, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", ""};
-				{ 9, 64829, "", "=q3=Bloodthirsty Gladiator's Ringmail Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64831, "", "=q3=Bloodthirsty Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64827, "", "=q3=Bloodthirsty Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
-				{ 12, 64828, "", "=q3=Bloodthirsty Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 13, 64830, "", "=q3=Bloodthirsty Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 10"]};
+				{ 2, 70266, "", "=q4=Ruthless Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70268, "", "=q4=Ruthless Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70264, "", "=q4=Ruthless Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70265, "", "=q4=Ruthless Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70267, "", "=q4=Ruthless Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 10"]};
+				{ 9, 70634, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70636, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70632, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
+				{ 12, 70633, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 13, 70635, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 9"]};
+				{ 17, 60430, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60432, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60428, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60429, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60431, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", ""};
+				{ 24, 64829, "", "=q3=Bloodthirsty Gladiator's Ringmail Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64831, "", "=q3=Bloodthirsty Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64827, "", "=q3=Bloodthirsty Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
+				{ 27, 64828, "", "=q3=Bloodthirsty Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 28, 64830, "", "=q3=Bloodthirsty Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3646,18 +3797,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 9"]};
-				{ 2, 60479, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60482, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60481, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60478, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60480, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", ""};
-				{ 9, 64746, "", "=q3=Bloodthirsty Gladiator's Felweave Cowl", "=ds=", "#HONOR:2200#"};
-				{ 10, 64745, "", "=q3=Bloodthirsty Gladiator's Felweave Amice", "=ds=", "#HONOR:1650#"};
-				{ 11, 64748, "", "=q3=Bloodthirsty Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
-				{ 12, 64747, "", "=q3=Bloodthirsty Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
-				{ 13, 64749, "", "=q3=Bloodthirsty Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 10"]};
+				{ 2, 70315, "", "=q4=Ruthless Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70318, "", "=q4=Ruthless Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70317, "", "=q4=Ruthless Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70314, "", "=q4=Ruthless Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70316, "", "=q4=Ruthless Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 10"]};
+				{ 9, 70567, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds=", "#HONOR:2200#"};
+				{ 10, 70566, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds=", "#HONOR:1650#"};
+				{ 11, 70569, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
+				{ 12, 70568, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
+				{ 13, 70570, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 9"]};
+				{ 17, 60479, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60482, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60481, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60478, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60480, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", ""};
+				{ 24, 64746, "", "=q3=Bloodthirsty Gladiator's Felweave Cowl", "=ds=", "#HONOR:2200#"};
+				{ 25, 64745, "", "=q3=Bloodthirsty Gladiator's Felweave Amice", "=ds=", "#HONOR:1650#"};
+				{ 26, 64748, "", "=q3=Bloodthirsty Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
+				{ 27, 64747, "", "=q3=Bloodthirsty Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
+				{ 28, 64749, "", "=q3=Bloodthirsty Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -3669,18 +3832,30 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warrior"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 9"]};
-				{ 2, 60420, "", "=q4=Vicious Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 60422, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 60418, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 60419, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 60421, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", ""};
-				{ 9, 64813, "", "=q3=Bloodthirsty Gladiator's Plate Helm", "=ds=", "#HONOR:2200#"};
-				{ 10, 64815, "", "=q3=Bloodthirsty Gladiator's Plate Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 11, 64811, "", "=q3=Bloodthirsty Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 12, 64812, "", "=q3=Bloodthirsty Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 13, 64814, "", "=q3=Bloodthirsty Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
+				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 10"]};
+				{ 2, 70256, "", "=q4=Vicious Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 3, 70258, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
+				{ 4, 70254, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 5, 70255, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70257, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 10"]};
+				{ 9, 70625, "", "=q4=Vicious Gladiator's Plate Helm", "=ds=", "#HONOR:2200#"};
+				{ 10, 70627, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds=", "#HONOR:1650#"};
+				{ 11, 70623, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
+				{ 12, 70624, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 13, 70626, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 9"]};
+				{ 17, 60420, "", "=q4=Vicious Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 60422, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
+				{ 19, 60418, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 20, 60419, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 60421, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 23, 0, "ability_warrior_savageblow", "=q6=#arenas9#", ""};
+				{ 24, 64813, "", "=q3=Bloodthirsty Gladiator's Plate Helm", "=ds=", "#HONOR:2200#"};
+				{ 25, 64815, "", "=q3=Bloodthirsty Gladiator's Plate Shoulders", "=ds=", "#HONOR:1650#"};
+				{ 26, 64811, "", "=q3=Bloodthirsty Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
+				{ 27, 64812, "", "=q3=Bloodthirsty Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
+				{ 28, 64814, "", "=q3=Bloodthirsty Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
 			};
 		};
 		info = {
@@ -4245,14 +4420,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#HONOR:1000#" },
 				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#HONOR:1000#" },
 				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 17, 52722, "", "=q4=Maelstrom Crystal", "#HONOR:3750#" },
-				{ 18, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "#HONOR:1500#" },
-				{ 19, 53010, "", "=q1=Embersilk Cloth", "#HONOR:1250#" },
-				{ 20, 52185, "", "=q1=Elementium Ore", "#HONOR:1000#" },
-				{ 21, 52721, "", "=q3=Heavenly Shard", "#HONOR:600#" },
-				{ 22, 52719, "", "=q2=Greater Celestial Essence", "#HONOR:400#" },
-				{ 23, 52976, "", "=q1=Savage Leather", "#HONOR:375#" },
-				{ 24, 52555, "", "=q1=Hypnotic Dust", "#HONOR:100#" },
+				{ 17, 52722, "", "=q4=Maelstrom Crystal", "", "#HONOR:3750#" },
+				{ 18, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#HONOR:1500#" },
+				{ 19, 53010, "", "=q1=Embersilk Cloth", "", "#HONOR:1250#" },
+				{ 20, 52185, "", "=q1=Elementium Ore", "", "#HONOR:1000#" },
+				{ 21, 52721, "", "=q3=Heavenly Shard", "", "#HONOR:600#" },
+				{ 22, 52719, "", "=q2=Greater Celestial Essence", "", "#HONOR:400#" },
+				{ 23, 52976, "", "=q1=Savage Leather", "", "#HONOR:375#" },
+				{ 24, 52555, "", "=q1=Hypnotic Dust", "", "#HONOR:100#" },
 			};
 		};
 		info = {
@@ -5287,18 +5462,22 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
 				{ 5, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
 				{ 6, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 7, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: #QUESTID:7946#"};
-				{ 8, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
-				{ 10, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
-				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 12, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
-				{ 13, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
-				{ 14, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
-				{ 15, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
-				{ 16, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
-				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
-				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{
+					{ 7, 72045, "", "=q1=Horde Balloon", "=q1=#m4#: #QUESTID:29401#"};
+					{ 7, 72042, "", "=q1=Alliance Balloon", "=q1=#m4#: #QUESTID:29412#"};
+				};
+				{ 8, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: #QUESTID:7946#"};
+				{ 9, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 10, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
+				{ 11, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
+				{ 12, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 13, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
+				{ 14, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
+				{ 15, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
+				{ 16, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
+				{ 17, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
+				{ 18, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 19, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
@@ -6251,35 +6430,35 @@ local moduleName = "AtlasLootCataclysm"
 				extraText = ": "..AL["Other"]
 			};
 			{
-				{ 1, 58190, "", "=q4=Floating Web", "=ds=#s4#", "#HONOR:1250#" },
-				{ 2, 58192, "", "=q4=Gray Hair Cloak", "=ds=#s4#", "#HONOR:1250#" },
-				{ 3, 58193, "", "=q4=Haunt of Flies", "=ds=#s4#", "#HONOR:1250#" },
-				{ 4, 58194, "", "=q4=Heavenly Breeze", "=ds=#s4#", "#HONOR:1250#" },
-				{ 5, 58191, "", "=q4=Viewless Wings", "=ds=#s4#", "#HONOR:1250#" },
-				{ 7, 58486, "", "=q4=Slippers of Moving Waters", "=ds=#s12#, #a1#", "#HONOR:1650#" },
-				{ 8, 58485, "", "=q4=Melodious Slippers", "=ds=#s12#, #a1#", "#HONOR:1650#" },
-				{ 9, 58484, "", "=q4=Fading Violet Sandals", "=ds=#s12#, #a2#", "#HONOR:1650#" },
-				{ 10, 58482, "", "=q4=Treads of Fleeting Joy", "=ds=#s12#, #a2#", "#HONOR:1650#" },
-				{ 11, 58481, "", "=q4=Boots of the Perilous Seas", "=ds=#s12#, #a3#", "#HONOR:1650#" },
-				{ 12, 58199, "", "=q4=Moccasins of Verdurous Glooms", "=ds=#s12#, #a3#", "#HONOR:1650#" },
-				{ 13, 58198, "", "=q4=Eternal Pathfinders", "=ds=#s12#, #a4#", "#HONOR:1650#" },
-				{ 14, 58197, "", "=q4=Rock Furrow Boots", "=ds=#s12#, #a4#", "#HONOR:1650#" },
-				{ 15, 58195, "", "=q4=Woe Breeder's Boots", "=ds=#s12#, #a4#", "#HONOR:1650#" },
-				{ 16, 58185, "", "=q4=Band of Bees", "=ds=#s13#", "#HONOR:1250#" },
-				{ 17, 58188, "", "=q4=Band of Secret Names", "=ds=#s13#", "#HONOR:1250#" },
-				{ 18, 68812, "", "=q4=Hornet-Sting Band", "=ds=#s13#", "#HONOR:1250#" },
-				{ 19, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "#HONOR:1250#" },
-				{ 20, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "#HONOR:1250#" },
-				{ 21, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "#HONOR:1650#" },
-				{ 22, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "#HONOR:1650#" },
-				{ 23, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "#HONOR:1650#" },
-				{ 24, 58180, "", "=q4=License to Slay", "=ds=#s14#", "#HONOR:1650#" },
-				{ 25, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "#HONOR:1650#" },
-				{ 26, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "#HONOR:700#" },
-				{ 27, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "#HONOR:700#" },
-				{ 28, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "#HONOR:700#" },
-				{ 29, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "#HONOR:700#" },
-				{ 30, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "#HONOR:700#" },
+				{ 1, 58190, "", "=q4=Floating Web", "=ds=#s4#", "#JUSTICE:1250#" },
+				{ 2, 58192, "", "=q4=Gray Hair Cloak", "=ds=#s4#", "#JUSTICE:1250#" },
+				{ 3, 58193, "", "=q4=Haunt of Flies", "=ds=#s4#", "#JUSTICE:1250#" },
+				{ 4, 58194, "", "=q4=Heavenly Breeze", "=ds=#s4#", "#JUSTICE:1250#" },
+				{ 5, 58191, "", "=q4=Viewless Wings", "=ds=#s4#", "#JUSTICE:1250#" },
+				{ 7, 58486, "", "=q4=Slippers of Moving Waters", "=ds=#s12#, #a1#", "#JUSTICE:1650#" },
+				{ 8, 58485, "", "=q4=Melodious Slippers", "=ds=#s12#, #a1#", "#JUSTICE:1650#" },
+				{ 9, 58484, "", "=q4=Fading Violet Sandals", "=ds=#s12#, #a2#", "#JUSTICE:1650#" },
+				{ 10, 58482, "", "=q4=Treads of Fleeting Joy", "=ds=#s12#, #a2#", "#JUSTICE:1650#" },
+				{ 11, 58481, "", "=q4=Boots of the Perilous Seas", "=ds=#s12#, #a3#", "#JUSTICE:1650#" },
+				{ 12, 58199, "", "=q4=Moccasins of Verdurous Glooms", "=ds=#s12#, #a3#", "#JUSTICE:1650#" },
+				{ 13, 58198, "", "=q4=Eternal Pathfinders", "=ds=#s12#, #a4#", "#JUSTICE:1650#" },
+				{ 14, 58197, "", "=q4=Rock Furrow Boots", "=ds=#s12#, #a4#", "#JUSTICE:1650#" },
+				{ 15, 58195, "", "=q4=Woe Breeder's Boots", "=ds=#s12#, #a4#", "#JUSTICE:1650#" },
+				{ 16, 58185, "", "=q4=Band of Bees", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 17, 58188, "", "=q4=Band of Secret Names", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 18, 68812, "", "=q4=Hornet-Sting Band", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 19, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 20, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 21, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 22, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 23, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 24, 58180, "", "=q4=License to Slay", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 25, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 26, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 27, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 28, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 29, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 30, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "#JUSTICE:700#" },
 				extraText = ": "..AL["ilvl 359"]
 			};
 		};

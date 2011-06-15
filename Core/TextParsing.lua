@@ -738,8 +738,6 @@ AtlasLoot_TextParsing = {
 
 	-- Currency Icons - PvE
 	{ "#trophyofthecrusade#", "|TInterface\\Icons\\INV_Misc_Trophy_Argent:0|t" },
-	{ "#justice#", "|TInterface\\Icons\\pvecurrency-justice:0|t"},
-	{ "#valor#", "|TInterface\\Icons\\pvecurrency-valor:0|t"},
 
 	-- Currency Icons - Events
 	{ "#darkmoon#", "|TInterface\\Icons\\INV_Misc_Ticket_Darkmoon_01:0|t" },

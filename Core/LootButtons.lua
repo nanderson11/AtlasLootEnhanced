@@ -27,6 +27,9 @@ local CURRENCY_PRICE = {
 	
 	-- Custom currencys
 	["BREWFEST"] = { itemID = 37829 },
+	["NOBLEGARDEN"] = { itemID = 44791 },
+	["CHAMPWRIT"] = { itemID = 46114 },
+	["VALENTINEDAY"] = { itemID = 49927 },
 }
 
 
