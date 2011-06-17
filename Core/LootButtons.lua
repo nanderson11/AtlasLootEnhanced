@@ -511,6 +511,7 @@ do
 			else
 				tempText = "|cffFFFFFF".._G["UNKNOWN"]
 			end
+			tempText = gsub(text, "#ITEMID:%d+#", tempText)
 		end
 		
 		return tempText, isQuest, isAchievement, isItem
@@ -529,10 +530,10 @@ do
 					if itemName then
 						extraText = AtlasLoot:GetItemEquipInfo(itemID)
 					else
-						extraText = price
+						extraText = tempPrice or price
 					end
 				end
-				local dummyText = AtlasLoot:FixText(extraText).." / "..price
+				local dummyText = tostring(tempPrice or price).." / "..AtlasLoot:FixText(extraText)
 				local lengh = string.len(dummyText)
 				if lengh < 50 then
 					tempText = dummyText
@@ -581,6 +582,10 @@ do
 		end
 		
 		tempText = AtlasLoot:FixText(tempText)
+
+		if isPrice then
+			isPrice = {tempPrice, isPrice}
+		end
 		return tempText or "", isQuest, isAchievement, isItem, isPrice
 	end
 
@@ -625,18 +630,18 @@ do
 			self.Frame.QA.ExtraText:SetText(tempText)
 		elseif isPrice then
 			local icon
-			if type(isPrice) == "number" then
-				icon = select(3, GetCurrencyInfo(isPrice))
+			if type(isPrice[2]) == "number" then
+				icon = select(3, GetCurrencyInfo(isPrice[2]))
 				icon = "Interface\\Icons\\"..icon
 			else
-				icon = GetItemIcon(CURRENCY_PRICE[isPrice].itemID)
+				icon = GetItemIcon(CURRENCY_PRICE[isPrice[2]].itemID)
 			end
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
 			self.Frame.QA.achievementID = nil
 			self.Frame.QA.questID = nil
 			self.Frame.QA.itemID = nil
-			self.Frame.QA.price = {isPrice, tempText}
+			self.Frame.QA.price = {isPrice[2], isPrice[1]}
 			self.Frame.QA.ExtraIcon:SetTexture(icon)
 			self.Frame.QA.ExtraIcon:SetWidth(12)
 			self.Frame.QA.ExtraIcon:SetHeight(12)	
