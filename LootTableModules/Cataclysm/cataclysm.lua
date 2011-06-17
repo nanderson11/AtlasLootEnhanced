@@ -31,7 +31,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- The Earthen Ring
 ---- The Guardians of Hyjal
 ---- Therazane
----- Wildhammer Clan¡
+---- Wildhammer Clan
 --- PvP
 ---- PvP Armor Sets
 ---- Level 85 - Accessories
