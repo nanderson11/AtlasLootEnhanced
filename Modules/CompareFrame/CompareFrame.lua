@@ -534,6 +534,9 @@ function AtlasLoot:CompareFrame_CompleteTable(itemCache, allName)
 			end
 			i = iniIndex[v[3]]
 			if not iniIndex[v[1]] then
+				if not LIST_SUBFILTERS[i] then LIST_SUBFILTERS[i] = {} end
+				if not LIST_SUBSUBFILTERS[i] then LIST_SUBSUBFILTERS[i] = {} end
+				if not LIST_ITEMS[i] then LIST_ITEMS[i] = {} end
 				j = #LIST_SUBFILTERS[i] + 1
 				iniIndex[v[1]] = j
 				LIST_SUBFILTERS[i][j] = AtlasLoot:GetTableInfo(v[1])
@@ -542,6 +545,8 @@ function AtlasLoot:CompareFrame_CompleteTable(itemCache, allName)
 			end
 			j = iniIndex[v[1]]
 			if not iniIndex[v[1]..v[2]] then
+				if not LIST_SUBSUBFILTERS[i][j] then LIST_SUBSUBFILTERS[i][j] = {} end
+				if not LIST_ITEMS[i][j] then LIST_ITEMS[i][j] = {} end
 				typNum = #LIST_SUBSUBFILTERS[i][j] + 1
 				iniIndex[v[1]..v[2]] = typNum
 				if v[2] == "Normal" then
