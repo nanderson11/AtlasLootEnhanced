@@ -1175,7 +1175,7 @@ function AtlasLoot:QAItemOnEnter()
 		if type(price[1]) == "number" then
 			local name, currentAmount = GetCurrencyInfo(price[1])
 			AtlasLootTooltip:AddLine(name);
-			if currentAmount and price[2] and currentAmount >= tonumber(price[2]) then
+			if currentAmount and tonumber(price[2]) and currentAmount >= tonumber(price[2]) then
 				AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[2]);
 			else
 				AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[2]);
@@ -1184,7 +1184,7 @@ function AtlasLoot:QAItemOnEnter()
 			local count = GetItemCount(CURRENCY_PRICE[price[1]].itemID)
 			local countAll = GetItemCount(CURRENCY_PRICE[price[1]].itemID, true)
 			local color = "\n"
-			if countAll and price[2] and countAll >= tonumber(price[2]) then
+			if countAll and tonumber(price[2]) and countAll >= tonumber(price[2]) then
 				color = color..GREEN
 			else
 				color = color..RED
