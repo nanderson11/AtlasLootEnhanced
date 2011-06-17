@@ -34,7 +34,7 @@ local NUM_ITEMS_TO_DISPLAY = 8
 
 local NUM_ITEMS_IN_LIST = 0
 
--- Um splatz zu sparen auch abkürzungen speichern
+-- Um platz zu sparen auch abkürzungen speichern
 --for k,v in pairs(GetItemStats("item:56319")) do print(k.." = "..v) end
 local STATS_LIST = {
 	["ITEMLVL"] = { AL["iLvl"], AL["ItemLvl"] },
@@ -622,7 +622,7 @@ function AtlasLoot:CompareFrame_Search(text, modulesToSearch)
 			if type(k) == "string" and v == true then
 				searchModules[k] = true
 				AtlasLoot:LoadModule(k)
-			else
+			elseif type(k) == "number" and type(v) == "string" then
 				searchModules[v] = true
 				AtlasLoot:LoadModule(v)
 			end
@@ -787,6 +787,7 @@ end
 -- Itemlist Sort
 local function SortItems(itemTable, sortBy, revert)
 	local itemIDs = {}
+	local k,v
 	if sortBy == "none" then
 		return itemTable
 	end

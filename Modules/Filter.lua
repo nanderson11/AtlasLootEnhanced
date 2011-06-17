@@ -317,9 +317,10 @@ do
 			}
 			
 			local orderNumber = 50
+			local tab, i
 			for _,tabName in pairs(FilterSort) do
-				local tab = FilterTable[tabName]
-				local i = 1
+				tab = FilterTable[tabName]
+				i = 1
 				if tabName == "WeaponsMeeleTwoHand" then
 					i = 100
 					options.args["WeaponsMeele"].args.nllockb = {
@@ -449,13 +450,14 @@ function Filter:FilterBySlot(lootTable)
 	local posSet = false
 	local stats, itemLink
 	
+	local xgo, extraText, countOld, Slotname
 	for _,v in ipairs(lootTable) do
 	
 		if type(v[2]) == "string" then 
 			return lootTable 
 		end
-		local xgo = true
-		local extraText = v[5] --AtlasLoot_FixText(v[5])
+		xgo = true
+		extraText = v[5] --AtlasLoot_FixText(v[5])
 		_, itemLink = GetItemInfo(v[2])
 		if itemLink then
 			stats = GetItemStats(itemLink)
@@ -469,7 +471,7 @@ function Filter:FilterBySlot(lootTable)
 		else
 			newItemPos = curItemPos - count
 		end
-		local countOld = curItemPos - count
+		countOld = curItemPos - count
 
 		if extraText and extraText ~= "" or stats then
 			for _,k in ipairs(FilterSort) do
@@ -480,7 +482,7 @@ function Filter:FilterBySlot(lootTable)
 								xgo = false
 							end
 						else
-							local Slotname = j
+							Slotname = j
 							if (k ~= "WeaponsMeeleTwoHand" and not strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false) then
 								xgo = false
 							elseif k == "WeaponsMeeleTwoHand" and strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false then
@@ -558,6 +560,7 @@ function AtlasLoot:FilterItemByItemTable(itemTable)
 	extraText = itemTable[5]
 	
 	if extraText and extraText ~= "" or stats then
+		local Slotname
 		for _,k in ipairs(FilterSort) do
 			if type(FilterTable[k]) == "table" then
 				for i,j in ipairs(FilterTable[k]) do
@@ -566,7 +569,7 @@ function AtlasLoot:FilterItemByItemTable(itemTable)
 							return false
 						end
 					else
-						local Slotname = j
+						Slotname = j
 						if (k ~= "WeaponsMeeleTwoHand" and not strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false) then
 							return false
 						elseif k == "WeaponsMeeleTwoHand" and strfind(extraText, "#h2#") and strfind(extraText, Slotname) and db.filterSlots[k][j] == false then

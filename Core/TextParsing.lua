@@ -781,11 +781,11 @@ AtlasLoot_TextParsing = {
 --------------------------------------------------------------------------------
 function AtlasLoot:FixText(text)
 	if not text or text == "" then return "" end
-	for k,_ in pairs(AtlasLoot_TextParsing) do
+	for k in ipairs(AtlasLoot_TextParsing) do
 		text = gsub(text, AtlasLoot_TextParsing[k][1], AtlasLoot_TextParsing[k][2]);
 	end
 
-    englishFaction, _ = UnitFactionGroup("player")
+    englishFaction = UnitFactionGroup("player")
     if englishFaction == "Horde" then
 		text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-horde:0|t");
 		text = gsub(text, "#conquest#", "|TInterface\\Icons\\pvpcurrency-conquest-horde:0|t");
@@ -805,7 +805,7 @@ function AtlasLoot:FixTextBack(text)
 	if not text or text == "" then return "" end
 	
 	text = gsub(text, "Miscellaneous", "#m20#");
-	for k,_ in pairs(AtlasLoot_TextParsing) do
+	for k in ipairs(AtlasLoot_TextParsing) do
 		text = gsub(text, AtlasLoot_TextParsing[k][2], AtlasLoot_TextParsing[k][1]);
 	end
 

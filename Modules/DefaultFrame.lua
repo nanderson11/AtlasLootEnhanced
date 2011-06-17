@@ -491,9 +491,10 @@ function DefaultFrame:SetInstanceTable()
 		end
 
 		local buttonNum = 1
+		local bossname
 		for k,v in ipairs(curInstance) do
 			if AtlasLoot:FormatDataID(v[1]) and not v.hide then
-				local bossname = AtlasLoot:GetTableInfo(v[1])
+				bossname = AtlasLoot:GetTableInfo(v[1])
 				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Text:SetText(bossname)
 				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:Show()
 				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Loot:Show()

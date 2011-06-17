@@ -31,7 +31,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- The Earthen Ring
 ---- The Guardians of Hyjal
 ---- Therazane
----- Wildhammer Clan
+---- Wildhammer Clan¡
 --- PvP
 ---- PvP Armor Sets
 ---- Level 85 - Accessories
@@ -6521,7 +6521,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 58190, "", "=q4=Floating Web", "=ds=#s4#", "#VALOR:1250#" },
-				{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "#JUSTICE:2200#" },
+				{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "Test / #JUSTICE:2200#" },
 				{ 3, 64723, "", "=q3=Bloodthirsty Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
 				
 				

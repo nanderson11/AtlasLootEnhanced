@@ -1085,6 +1085,7 @@ do
 		
 		local itemCount = 1
 		local pageCount = 1
+		local bossName, instanceName, spellID, itemID
 		for instance, instanceTab in SortTable(itemCache) do
 			for _,iniType in ipairs(lootTableTypes) do
 				if instanceTab[iniType] then
@@ -1095,7 +1096,7 @@ do
 						if not AtlasLoot_Data["FormatedList"]["Normal"][pageCount] then AtlasLoot_Data["FormatedList"]["Normal"][pageCount] = {} end
 					end
 					
-					local bossName, instanceName = AtlasLoot:GetTableInfo(instance)
+					bossName, instanceName = AtlasLoot:GetTableInfo(instance)
 					if itemCount ~= 1 and itemCount ~= 16 then itemCount = itemCount + 1 end
 					table.insert( AtlasLoot_Data["FormatedList"]["Normal"][pageCount], { itemCount, instance, "INV_Box_01", "=q6="..bossName.." ("..iniType..")", "=q5="..instanceName } )
 					itemCount = itemCount + 1
@@ -1108,8 +1109,8 @@ do
 							if not AtlasLoot_Data["FormatedList"]["Normal"][pageCount] then AtlasLoot_Data["FormatedList"]["Normal"][pageCount] = {} end
 						end
 						
-						local spellID = item[2]
-						local itemID = ""
+						spellID = item[2]
+						itemID = ""
 						if item[2] and item[2] ~= "" and item[2] > 0 and item[3] ~= "" then
 							spellID = "s"..item[2]
 							itemID = item[3]
@@ -1134,8 +1135,7 @@ do
 	local function hideOtherFramesOnShow(self)
 		for k,v in pairs(pFrameRegister) do
 			if k ~= self.AtlasLootRegisterName and v[2] then
-				local frame = _G[v[2]]
-				frame:Hide()
+				_G[v[2]]:Hide()
 			end
 		end
 	end

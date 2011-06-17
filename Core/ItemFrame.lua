@@ -43,11 +43,12 @@ function AtlasLoot:SetItemTable(tab)
 	self:ClearLootPageItems()
 	if not tab or type(tab) ~= "table" or not #tab then return end
 	local cPoint = false
+	local itemButtonNum, texture, num1, spellNumber
 	for k,v in ipairs(tab) do
 		if v and type(v) == "table" then
-			local itemButtonNum = v[1]
+			itemButtonNum = v[1]
 			if self.ItemFrame.ItemButtons[itemButtonNum] then
-				local texture = nil
+				texture = nil
 				if v[3] == "?" then
 					texture = "?"
 				elseif type(v[3]) == "string" and v[3] ~= "" and not tonumber(v[3]) then
@@ -64,11 +65,11 @@ function AtlasLoot:SetItemTable(tab)
 				if v[6] and v[6] ~= "" and v[6] ~= "=ds=" then--and v[5] and v[5] ~= "" and v[5] ~= "=ds="  then
 					cPoint = true
 				end
-				local num1 = string.find(v[2], "s(%d+)")
+				num1 = string.find(v[2], "s(%d+)")
 				if v[2] == 0 or v[2] == "" then
 					self.ItemFrame.ItemButtons[itemButtonNum]:SetDummy(v[4], v[5], texture)
 				elseif type(v[2]) == "string" and num1 and num1 == 1 then--and string.find(v[2], "s(%d+)") then
-					local _,_,spellNumber = string.find(v[2], "s(%d+)")
+					_,_,spellNumber = string.find(v[2], "s(%d+)")
 					if self.db.profile.CraftingLink == 1 then
 						self.ItemFrame.ItemButtons[itemButtonNum]:SetSpell(tonumber(spellNumber), tonumber(v[3]), v[4], v[5], texture, v[6])
 					else

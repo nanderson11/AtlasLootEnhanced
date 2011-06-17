@@ -809,25 +809,27 @@ do
 		-- ########################
 		-- itemStats
 		-- ########################
-		local _, itemLink, _, itemLevel = GetItemInfo(itemID)
-		if itemLink and self.type == "CompareFrameItemButton" and self.statsList then
-			--self.Frame.Stats[1]:SetText(itemLevel)
-			local stats = GetItemStats(itemLink)
-			for k,v in ipairs(self.statsList) do
-				if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
-					if v == "ITEMLVL" then
-						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(itemLevel)
-					elseif stats and stats["ITEM_MOD_"..v.."_SHORT"] then
-						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(stats["ITEM_MOD_"..v.."_SHORT"])
-					else
-						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
+		if itemID and type(itemID) == "number" and itemID ~= 0 then
+			local _, itemLink, _, itemLevel = GetItemInfo(itemID)
+			if itemLink and self.type == "CompareFrameItemButton" and self.statsList then
+				--self.Frame.Stats[1]:SetText(itemLevel)
+				local stats = GetItemStats(itemLink)
+				for k,v in ipairs(self.statsList) do
+					if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
+						if v == "ITEMLVL" then
+							self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(itemLevel)
+						elseif stats and stats["ITEM_MOD_"..v.."_SHORT"] then
+							self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(stats["ITEM_MOD_"..v.."_SHORT"])
+						else
+							self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
+						end
 					end
 				end
-			end
-		elseif self.type == "CompareFrameItemButton" then
-			for k,v in ipairs(self.statsList) do
-				if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
-					self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
+			elseif self.type == "CompareFrameItemButton" then
+				for k,v in ipairs(self.statsList) do
+					if self.Stats["ITEM_MOD_"..v.."_SHORT"] then
+						self.Stats["ITEM_MOD_"..v.."_SHORT"]:SetText(0)
+					end
 				end
 			end
 		end
@@ -1171,9 +1173,9 @@ function AtlasLoot:QAItemOnEnter()
 	elseif price then
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 		if type(price[1]) == "number" then
-			local name, currentAmount, _, _, _, totalMax = GetCurrencyInfo(price[1])
+			local name, currentAmount = GetCurrencyInfo(price[1])
 			AtlasLootTooltip:AddLine(name);
-			if currentAmount >= tonumber(price[2]) then
+			if currentAmount and price[2] and currentAmount >= tonumber(price[2]) then
 				AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[2]);
 			else
 				AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[2]);
@@ -1182,7 +1184,7 @@ function AtlasLoot:QAItemOnEnter()
 			local count = GetItemCount(CURRENCY_PRICE[price[1]].itemID)
 			local countAll = GetItemCount(CURRENCY_PRICE[price[1]].itemID, true)
 			local color = "\n"
-			if countAll >= tonumber(price[2]) then
+			ifcountAll and price[2] and countAll >= tonumber(price[2]) then
 				color = color..GREEN
 			else
 				color = color..RED

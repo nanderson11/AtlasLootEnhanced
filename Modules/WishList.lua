@@ -789,8 +789,9 @@ function AtlasLoot:GetItemOnWishlistIconString(itemID)
 	if not itemID then return end
 	if WishList.Info.IdSave[itemID] then
 		local retstring = ""
+		local icon
 		for k,v in ipairs(WishList.Info.IdSave[itemID]) do
-			local icon = WishList:GetWishListIcon(v)
+			icon = WishList:GetWishListIcon(v)
 			if icon then
 				retstring = retstring.."|T"..icon..":0|t"
 			end
