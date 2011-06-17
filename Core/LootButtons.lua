@@ -1184,7 +1184,7 @@ function AtlasLoot:QAItemOnEnter()
 			local count = GetItemCount(CURRENCY_PRICE[price[1]].itemID)
 			local countAll = GetItemCount(CURRENCY_PRICE[price[1]].itemID, true)
 			local color = "\n"
-			ifcountAll and price[2] and countAll >= tonumber(price[2]) then
+			if countAll and price[2] and countAll >= tonumber(price[2]) then
 				color = color..GREEN
 			else
 				color = color..RED
