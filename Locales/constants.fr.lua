@@ -452,7 +452,7 @@ if AL then
 	AL["Guild"] = "Guilde";
 
 	-- Blacksmithing
-	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Catalysm"
+	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Cataclysme"
 	AL["Armor Enhancements"] = "Améliorations d'armure";
 	AL["Weapon Enhancements"] = "Améliorations d'arme";
 
@@ -466,7 +466,7 @@ if AL then
 	AL["Enchant Shield"] = "Enchantement Bouclier";
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
-	AL["Cataclysm Vendor Sold Formulas"] = "Vendeur de formules à Catalysm";
+	AL["Cataclysm Vendor Sold Formulas"] = "Vendeur de formules à Cataclysme";
 
 	-- Engineering
 	AL["Tinker"] = "Objets bricolés";
@@ -497,7 +497,7 @@ if AL then
 	AL["Cloth Armor"] = "Armure en tissu";
 	AL["Shirts"] = "Chemises";
 	AL["Bags"] = "Sacs";
-	AL["Cataclysm Vendor Sold Patterns"] = "Vendeur de patrons à Cataclysm";
+	AL["Cataclysm Vendor Sold Patterns"] = "Vendeur de patrons à Cataclysme";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "Classes :";
@@ -590,9 +590,9 @@ if AL then
 	AL["Specializations"] = "Spécialisations";
 
 	-- Loot Table Names
-	--AL["Level 30-39"] = true;
-	--AL["Level 40-49"] = true;
-	--AL["Level 50-60"] = true;
+	AL["Level 30-39"] = "Niveau 30-39";
+	AL["Level 40-49"] = "Niveau 40-49";
+	AL["Level 50-60"] = "Niveau 50-60";
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
