@@ -305,10 +305,8 @@ if AL then
 	AL["PvP Weapons"] = "PvP 무기";
 	AL["PvP Non-Set Epics"] = "PvP 영웅 아이템";
 	AL["PvP Reputation Sets"] = true;
-	AL["Arena PvP Weapons"] = "투기장 무기";
 	AL["PvP Misc"] = true;
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
-	AL["PvP Class Items"] = true;
 	AL["NOT AVAILABLE ANYMORE"] = true;
 
 	-- World Events
@@ -509,8 +507,6 @@ if AL then
 	AL["Heirloom"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = "장신구류";
-	AL["Low Level"] = true;
-	AL["High Level"] = true;
 	AL["Rare"] = "희귀";
 
 	-- Loot Table Names

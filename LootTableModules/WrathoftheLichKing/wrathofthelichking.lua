@@ -62,8 +62,6 @@ local moduleName = "AtlasLootWotLK"
 ---- Armor Sets
 ---- Level 80 Epic Non-Sets
 ---- Level 80 PVP Weapons
----- PvP Class Items
----- PvP Miscellaneous
 ---- World PvP - Wintergrasp
 ---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
@@ -8668,6 +8666,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 51358, "", "=q4=Wrathful Gladiator's Band of Triumph", "=ds=#s13#", "#HONOR:725#"};
 				{ 12, 51377, "", "=q4=Medallion of the Alliance", "=ds=#s14#", "#HONOR:945#"};
 				{ 13, 51378, "", "=q4=Medallion of the Horde", "=ds=#s14#", "#HONOR:945#"};
+				{ 15, 44957, "", "=q4=Greater Inscription of the Gladiator", "=ds=#s3# #e17#", "#HONOR:165#" };
 				{ 16, 51335, "", "=q4=Wrathful Gladiator's Pendant of Ascendancy", "=ds=#s2#", "#HONOR:725#"};
 				{ 17, 51349, "", "=q4=Wrathful Gladiator's Pendant of Deliverance", "=ds=#s2#", "#HONOR:725#"};
 				{ 18, 51331, "", "=q4=Wrathful Gladiator's Pendant of Dominance", "=ds=#s2#", "#HONOR:725#"};
@@ -8792,6 +8791,18 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=", "#HONOR:630#"};
 				extraText = ": "..BabbleInventory["Plate"];
 			};
+			{
+				{ 2, 51429, "", "=q4=Wrathful Gladiator's Idol of Resolve", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 3, 51437, "", "=q4=Wrathful Gladiator's Idol of Steadfastness", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 4, 51423, "", "=q4=Wrathful Gladiator's Idol of Tenacity", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 6, 51478, "", "=q4=Wrathful Gladiator's Libram of Fortitude", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 7, 51472, "", "=q4=Wrathful Gladiator's Libram of Justice", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 17, 51507, "", "=q4=Wrathful Gladiator's Totem of Indomitability", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 18, 51513, "", "=q4=Wrathful Gladiator's Totem of Survival", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 19, 51501, "", "=q4=Wrathful Gladiator's Totem of the Third Wind", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				{ 21, 51417, "", "=q4=Wrathful Gladiator's Sigil of Strife", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
+				extraText = ": "..BabbleInventory["Relic"];
+			};
 		};
 		info = {
 			name = AL["PvP Non-Set Epics"],
@@ -8806,147 +8817,52 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["PVP80Weapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
+				{ 1, 51530, "", "=q4=Wrathful Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:760#"};
 				{ 2, 51523, "", "=q4=Wrathful Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:1785#"};
-				{ 3, 51530, "", "=q4=Wrathful Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:760#"};
-				{ 4, 51443, "", "=q4=Wrathful Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:760#"};
+				{ 3, 51443, "", "=q4=Wrathful Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:760#"};
 				{ 5, 51406, "", "=q4=Wrathful Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", "#HONOR:1830#"};
 				{ 6, 51397, "", "=q4=Wrathful Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:1830#"};
 				{ 7, 51517, "", "=q4=Wrathful Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:1785#"};
 				{ 8, 51527, "", "=q4=Wrathful Gladiator's Mutilator", "=ds=#h4#, #w4#", "#HONOR:760#"};
 				{ 9, 51441, "", "=q4=Wrathful Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:760#"};
-				{ 10, 51521, "", "=q4=Wrathful Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:1785#"};
-				{ 11, 51447, "", "=q4=Wrathful Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:760#"};
-				{ 12, 51392, "", "=q4=Wrathful Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:2550#"};
-				{ 13, 51515, "", "=q4=Wrathful Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:1785#"};
-				{ 14, 51525, "", "=q4=Wrathful Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:760#"};
-				{ 15, 51439, "", "=q4=Wrathful Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:760#"};
---[[				{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
-				{ 17, 51524, "", "=q4=Wrathful Gladiator's Grasp", "=ds=#h3#, #w13#", "#HONOR:2745# #reqrating# 2200"};
-				{ 18, 51529, "", "=q4=Wrathful Gladiator's Left Claw", "=ds=#h4#, #w13#", "#HONOR:1140# #reqrating# 2200"};
-				{ 19, 51444, "", "=q4=Wrathful Gladiator's Left Razor", "=ds=#h4#, #w13#", "#HONOR:1140# #reqrating# 2200"};
-				{ 20, 51398, "", "=q4=Wrathful Gladiator's Blade of Celerity", "=ds=#h3#, #w4#", "#HONOR:3235# #reqrating# 2200"};
-				{ 21, 51399, "", "=q4=Wrathful Gladiator's Mageblade", "=ds=#h3#, #w4#", "#HONOR:3235# #reqrating# 2200"};
-				{ 22, 51518, "", "=q4=Wrathful Gladiator's Spike", "=ds=#h1#, #w4#", "#HONOR:2745# #reqrating# 2200"};
-				{ 23, 51442, "", "=q4=Wrathful Gladiator's Dirk", "=ds=#h4#, #w4#", "#HONOR:1140# #reqrating# 2200"};
-				{ 24, 51528, "", "=q4=Wrathful Gladiator's Eviscerator", "=ds=#h4#, #w4#", "#HONOR:1140# #reqrating# 2200"};
-				{ 25, 51522, "", "=q4=Wrathful Gladiator's Longblade", "=ds=#h1#, #w10#", "#HONOR:2745# #reqrating# 2200"};
-				{ 26, 51448, "", "=q4=Wrathful Gladiator's Swiftblade", "=ds=#h4#, #w10#", "#HONOR:1140# #reqrating# 2200"};
-				{ 27, 51393, "", "=q4=Wrathful Gladiator's Claymore", "=ds=#h2#, #w10#", "#HONOR:3825# #reqrating# 2200"};
-				{ 28, 51516, "", "=q4=Wrathful Gladiator's Handaxe", "=ds=#h1#, #w1#", "#HONOR:2745# #reqrating# 2200"};
-				{ 29, 51440, "", "=q4=Wrathful Gladiator's Dicer", "=ds=#h4#, #w1#", "#HONOR:1140# #reqrating# 2200"};
-				{ 30, 51526, "", "=q4=Wrathful Gladiator's Splitter", "=ds=#h4#, #w1#", "#HONOR:1140# #reqrating# 2200"};--]]
+				{ 11, 51521, "", "=q4=Wrathful Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:1785#"};
+				{ 12, 51447, "", "=q4=Wrathful Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:760#"};
+				{ 16, 51515, "", "=q4=Wrathful Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:1785#"};
+				{ 17, 51525, "", "=q4=Wrathful Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:760#"};
+				{ 18, 51439, "", "=q4=Wrathful Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:760#"};
+				{ 20, 51453, "", "=q4=Wrathful Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:1830#"};
+				{ 21, 51519, "", "=q4=Wrathful Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:1785#"};
+				{ 22, 51445, "", "=q4=Wrathful Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:760#"};
+				{ 24, 51392, "", "=q4=Wrathful Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:2550#"};
+				{ 25, 51388, "", "=q4=Wrathful Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:2550#"};
+				{ 26, 51390, "", "=q4=Wrathful Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:2550#"};
+				{ 28, 51480, "", "=q4=Wrathful Gladiator's Pike", "=ds=#w7#", "#HONOR:2550#"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Low Level"], ""};
-				{ 2, 51388, "", "=q4=Wrathful Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:2550#"};
-				{ 3, 51453, "", "=q4=Wrathful Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:1830#"};
-				{ 4, 51519, "", "=q4=Wrathful Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:1785#"};
-				{ 5, 51445, "", "=q4=Wrathful Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:760#"};
-				{ 6, 51390, "", "=q4=Wrathful Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:2550#"};
-				{ 7, 51480, "", "=q4=Wrathful Gladiator's Pike", "=ds=#w7#", "#HONOR:2550#"};
-				{ 8, 51404, "", "=q4=Wrathful Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:2550#"};
-				{ 9, 51456, "", "=q4=Wrathful Gladiator's Energy Staff", "=ds=#w9#", "#HONOR:2550#"};
-				{ 10, 51402, "", "=q4=Wrathful Gladiator's Focus Staff", "=ds=#w9#", "#HONOR:2550#"};
-				{ 11, 51431, "", "=q4=Wrathful Gladiator's Staff", "=ds=#w9#", "#HONOR:2550#"};
-				{ 12, 51400, "", "=q4=Wrathful Gladiator's War Staff", "=ds=#w9#", "#HONOR:2550#"};
-				{ 13, 51394, "", "=q4=Wrathful Gladiator's Longbow", "=ds=#w2#", "#HONOR:2550#"};
-				{ 14, 51411, "", "=q4=Wrathful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:2550#"};
-				{ 15, 51449, "", "=q4=Wrathful Gladiator's Rifle", "=ds=#w5#", "#HONOR:2550#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["High Level"], ""};
-				{ 17, 51389, "", "=q4=Wrathful Gladiator's Sunderer", "=ds=#h2#, #w1#", "#HONOR:3825# #reqrating# 2200"};
-				{ 18, 51454, "", "=q4=Wrathful Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:3235# #reqrating# 2200"};
-				{ 19, 51520, "", "=q4=Wrathful Gladiator's Truncheon", "=ds=#h1#, #w6#", "#HONOR:2745# #reqrating# 2200"};
-				{ 20, 51446, "", "=q4=Wrathful Gladiator's Punisher", "=ds=#h4#, #w6#", "#HONOR:1140# #reqrating# 2200"};
-				{ 21, 51391, "", "=q4=Wrathful Gladiator's Crusher", "=ds=#h2#, #w6#", "#HONOR:3825# #reqrating# 2200"};
-				{ 22, 51481, "", "=q4=Wrathful Gladiator's Halberd", "=ds=#w7#", "#HONOR:3825# #reqrating# 2200"};
-				{ 23, 51403, "", "=q4=Wrathful Gladiator's Acute Staff", "=ds=#w9#", "#HONOR:3825# #reqrating# 2200"};
-				{ 24, 51401, "", "=q4=Wrathful Gladiator's Combat Staff", "=ds=#w9#", "#HONOR:3825# #reqrating# 2200"};
-				{ 25, 51432, "", "=q4=Wrathful Gladiator's Greatstaff", "=ds=#w9#", "#HONOR:3825# #reqrating# 2200"};
-				{ 26, 51457, "", "=q4=Wrathful Gladiator's Light Staff", "=ds=#w9#", "#HONOR:3825# #reqrating# 2200"};
-				{ 27, 51405, "", "=q4=Wrathful Gladiator's Skirmish Staff", "=ds=#w9#", "#HONOR:3825# #reqrating# 2200"};
-				{ 28, 51395, "", "=q4=Wrathful Gladiator's Recurve", "=ds=#w2#", "#HONOR:3825# #reqrating# 2200"};
-				{ 29, 51412, "", "=q4=Wrathful Gladiator's Repeater", "=ds=#w3#", "#HONOR:3825# #reqrating# 2200"};
-				{ 30, 51450, "", "=q4=Wrathful Gladiator's Shotgun", "=ds=#w5#", "#HONOR:3825# #reqrating# 2200"};
-			};
-			{
-				{ 1, 51452, "", "=q4=Wrathful Gladiator's Barrier", "=ds=#w8#", "#HONOR:190#"};
-				{ 2, 51455, "", "=q4=Wrathful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:190#"};
-				{ 3, 51533, "", "=q4=Wrathful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:190#"};
-				{ 4, 51535, "", "=q4=Wrathful Gladiator's War Edge", "=ds=#w11#", "#HONOR:260#"};
-				{ 5, 51532, "", "=q4=Wrathful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:260#"};
-				{ 6, 51531, "", "=q4=Wrathful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:260#"};
-				{ 7, 51410, "", "=q4=Wrathful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:260#"};
-				{ 8, 51451, "", "=q4=Wrathful Gladiator's Wand of Alacrity", "=ds=#w12#", "#HONOR:260#"};
-				{ 9, 51407, "", "=q4=Wrathful Gladiator's Compendium", "=ds=#s15#", "#HONOR:190#"};
-				{ 10, 51396, "", "=q4=Wrathful Gladiator's Endgame", "=ds=#s15#", "#HONOR:190#"};
-				{ 11, 51408, "", "=q4=Wrathful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:190#"};
-				{ 12, 51409, "", "=q4=Wrathful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:190#"};
+				{ 1, 51394, "", "=q4=Wrathful Gladiator's Longbow", "=ds=#w2#", "#HONOR:2550#"};
+				{ 2, 51411, "", "=q4=Wrathful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:2550#"};
+				{ 3, 51449, "", "=q4=Wrathful Gladiator's Rifle", "=ds=#w5#", "#HONOR:2550#"};
+				{ 5, 51404, "", "=q4=Wrathful Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:2550#"};
+				{ 6, 51456, "", "=q4=Wrathful Gladiator's Energy Staff", "=ds=#w9#", "#HONOR:2550#"};
+				{ 7, 51402, "", "=q4=Wrathful Gladiator's Focus Staff", "=ds=#w9#", "#HONOR:2550#"};
+				{ 8, 51431, "", "=q4=Wrathful Gladiator's Staff", "=ds=#w9#", "#HONOR:2550#"};
+				{ 9, 51400, "", "=q4=Wrathful Gladiator's War Staff", "=ds=#w9#", "#HONOR:2550#"};
+				{ 11, 51452, "", "=q4=Wrathful Gladiator's Barrier", "=ds=#w8#", "#HONOR:190#"};
+				{ 12, 51455, "", "=q4=Wrathful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:190#"};
+				{ 13, 51533, "", "=q4=Wrathful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:190#"};
+				{ 16, 51535, "", "=q4=Wrathful Gladiator's War Edge", "=ds=#w11#", "#HONOR:260#"};
+				{ 18, 51532, "", "=q4=Wrathful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:260#"};
+				{ 19, 51531, "", "=q4=Wrathful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:260#"};
+				{ 20, 51410, "", "=q4=Wrathful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:260#"};
+				{ 21, 51451, "", "=q4=Wrathful Gladiator's Wand of Alacrity", "=ds=#w12#", "#HONOR:260#"};
+				{ 23, 51407, "", "=q4=Wrathful Gladiator's Compendium", "=ds=#s15#", "#HONOR:190#"};
+				{ 24, 51396, "", "=q4=Wrathful Gladiator's Endgame", "=ds=#s15#", "#HONOR:190#"};
+				{ 25, 51408, "", "=q4=Wrathful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:190#"};
+				{ 26, 51409, "", "=q4=Wrathful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:190#"};
 			};
 		};
 		info = {
 			name = AL["PvP Weapons"], "=q5="..AL["Level 80"],
-			module = moduleName, menu = "PVPMENU",
-		};
-	}
-
-		-----------------------
-		--- PvP Class Items ---
-		-----------------------
-
-	AtlasLoot_Data["PVP80ClassItems"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Idols"], ""};
-				{ 2, 51429, "", "=q4=Wrathful Gladiator's Idol of Resolve", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 3, 51437, "", "=q4=Wrathful Gladiator's Idol of Steadfastness", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 4, 51423, "", "=q4=Wrathful Gladiator's Idol of Tenacity", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleInventory["Librams"], ""};
-				{ 7, 51478, "", "=q4=Wrathful Gladiator's Libram of Fortitude", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 8, 51472, "", "=q4=Wrathful Gladiator's Libram of Justice", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Totems"], ""};
-				{ 17, 51507, "", "=q4=Wrathful Gladiator's Totem of Indomitability", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 18, 51513, "", "=q4=Wrathful Gladiator's Totem of Survival", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 19, 51501, "", "=q4=Wrathful Gladiator's Totem of the Third Wind", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleInventory["Sigils"], ""};
-				{ 22, 51417, "", "=q4=Wrathful Gladiator's Sigil of Strife", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-			};
-		};
-		info = {
-			name = AL["PvP Class Items"],
-			module = moduleName, menu = "PVP80NONSETEPICS",
-		};
-	}
-
-		-------------------------
-		--- PvP Miscellaneous ---
-		-------------------------
-
-	AtlasLoot_Data["PVP80Misc"] = {
-		["Normal"] = {
-			{
-				{ 1, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds=#s7#", "#HONOR:450# #reqrating# 2300" };
-				{ 2, 44957, "", "=q4=Greater Inscription of the Gladiator", "=ds=#s3# #e17#", "#HONOR:165#" };
-				{ 4, 36931, "", "=q4=Ametrine", "=ds=#e7#", "#HONOR:165#" };
-				{ 5, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "#HONOR:165#" };
-				{ 6, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "#HONOR:165#" };
-				{ 7, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "#HONOR:165#" };
-				{ 8, 36922, "", "=q4=King's Amber", "=ds=#e7#", "#HONOR:165#" };
-				{ 9, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "#HONOR:165#" };
-				{ 16, 41565, "", "=q2=Design: Lucent Huge Citrine", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 17, 41575, "", "=q2=Design: Mysterious Shadow Crystal", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 18, 41559, "", "=q2=Design: Mystic Sun Crystal", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 19, 41570, "", "=q2=Design: Radiant Dark Jade", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 20, 41566, "", "=q2=Design: Resplendent Huge Citrine", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 21, 41569, "", "=q2=Design: Shattered Dark Jade", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 22, 41572, "", "=q2=Design: Steady Dark Jade", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 23, 41560, "", "=q2=Design: Stormy Chalcedony", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 24, 41571, "", "=q2=Design: Turbid Dark Jade", "=ds=#p12# (350)", "#HONOR:100#"};
-				{ 25, 41563, "", "=q2=Design: Willful Huge Citrine", "=ds=#p12# (350)", "#HONOR:100#"};
-			};
-		};
-		info = {
-			name = AL["PvP Misc"],
 			module = moduleName, menu = "PVPMENU",
 		};
 	}

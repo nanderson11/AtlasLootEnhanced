@@ -312,10 +312,8 @@ if AL then
 	AL["PvP Weapons"] = "PvP Оружие";
 	AL["PvP Non-Set Epics"] = "PvP Превосходные не из комплектов";
 	AL["PvP Reputation Sets"] = "PvP комплекты за репутацию";
-	AL["Arena PvP Weapons"] = "PvP Оружие с арены";
 	AL["PvP Misc"] = "PvP ювелирные эскизы";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
-	AL["PvP Class Items"] = "PvP предметы";
 	AL["PvP Trinkets"] = "PvP аксессуары";
 	AL["NOT AVAILABLE ANYMORE"] = "Больше не доступно";
 
@@ -537,8 +535,6 @@ if AL then
 	AL["Heirloom"] = "Фамильные";
 	AL["Weapons"] = "Оружия";
 	AL["Accessories"] = "Аксессуары";
-	AL["Low Level"] = "Низкого уровня";
-	AL["High Level"] = "Высокого уровня";
 	AL["Rare"] = "Редкий";
 	AL["Specializations"] = "Специализации";
 

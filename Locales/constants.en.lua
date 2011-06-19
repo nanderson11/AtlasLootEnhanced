@@ -361,10 +361,8 @@ if AL then
 	AL["PvP Weapons"] = true;
 	AL["PvP Non-Set Epics"] = true;
 	AL["PvP Reputation Sets"] = true;
-	AL["Arena PvP Weapons"] = true;
 	AL["PvP Misc"] = true;
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
-	AL["PvP Class Items"] = true;
 	AL["PvP Trinkets"] = true;
 	AL["NOT AVAILABLE ANYMORE"] = true;
 
@@ -588,8 +586,6 @@ if AL then
 	AL["Heirloom"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
-	AL["Low Level"] = true;
-	AL["High Level"] = true;
 	AL["Rare"] = true;
 	AL["Specializations"] = true;
 

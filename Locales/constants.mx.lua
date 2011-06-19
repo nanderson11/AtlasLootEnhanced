@@ -437,7 +437,6 @@ if AL then
 	AL["PvP Accessories"] = "Accesorios JcJ";
 	AL["PvP Non-Set Epics"] = "Épicos JcJ No-Conjuntos";
 	AL["PvP Reputation Sets"] = "Conjuntos JcJ por reputación";
-	AL["Arena PvP Weapons"] = "Armas de Arenas JcJ";
 	AL["Arathi Basin Sets"] = "Conjuntos de Cuenca de Arathi";
 	AL["Tribute Run"] = "Homenaje de carrera";
 	AL["Dire Maul Books"] = "Libros de La Masacre";

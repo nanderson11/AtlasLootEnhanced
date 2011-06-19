@@ -2927,9 +2927,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
 				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
     			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
-    			{ 17, 71147, "", "=q4=Doomflame Fetish", "=ds=#s16#"},
-    			{ 18, 71149, "", "=q4=Firebinder Relic", "=ds=#s16#"},
-    			{ 19, 71146, "", "=q4=Hardheart Relic", "=ds=#s16#"},
+    			{ 17, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#"},
+    			{ 18, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#"},
+    			{ 19, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#"},
     			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
     			{ 22, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
     			{ 23, 71151, "", "=q4=Trail of Embers", "=ds=#w12#"},
@@ -4244,9 +4244,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 61326, "", "=q4=Vicious Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
 				{ 22, 61339, "", "=q4=Vicious Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
 				{ 24, 61340, "", "=q4=Vicious Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 26, 61341, "", "=q4=Vicious Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 27, 61342, "", "=q4=Vicious Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 28, 61343, "", "=q4=Vicious Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 26, 61341, "", "=q4=Vicious Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 27, 61342, "", "=q4=Vicious Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 28, 61343, "", "=q4=Vicious Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3400#" },
 			};
 			{
 				{ 1, 61360, "", "=q4=Vicious Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950#" },
@@ -4268,7 +4268,7 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
-
+-- to be removed when Season 10 starts
 	AtlasLoot_Data["PVP85Weapons2"] = {
 		["Normal"] = {
 			{
@@ -6495,9 +6495,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 19, 71211, "", "=q4=Soothing Brimstone Circle", "=ds=#s13#", "#VALOR:1250#" },
     			{ 20, 71209, "", "=q4=Splintered Brimstone Seal", "=ds=#s13#", "#VALOR:1250#" },
     			{ 22, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#", "#VALOR:700#" },
-    			{ 23, 71147, "", "=q4=Doomflame Fetish", "=ds=#s16#", "#VALOR:700#" },
-    			{ 24, 71149, "", "=q4=Firebinder Relic", "=ds=#s16#", "#VALOR:700#" },
-    			{ 25, 71146, "", "=q4=Hardheart Relic", "=ds=#s16#", "#VALOR:700#" },
+    			{ 23, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#", "#VALOR:700#" },
+    			{ 24, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#", "#VALOR:700#" },
+    			{ 25, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#", "#VALOR:700#" },
     			{ 26, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#", "#VALOR:700#" },
 			};
 			{
@@ -6523,11 +6523,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 58190, "", "=q4=Floating Web", "=ds=#s4#", "#VALOR:1250#" },
 				{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "Test / #JUSTICE:2200#" },
 				{ 3, 64723, "", "=q3=Bloodthirsty Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
-				
-				
 				{ 5, 33966, "", "=q1=Brewfest Slippers", "#ITEMID:37829#"};--"100 #brewfest#"};
 				{ 6, 33966, "", "=q1=Brewfest Slippers", "", "#BREWFEST:100#"};--"100 #brewfest#"};
-				--{ 12, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
 			};
 		};
 		info = {

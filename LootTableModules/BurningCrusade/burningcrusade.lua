@@ -4511,69 +4511,16 @@ local moduleName = "AtlasLootBurningCrusade"
 		----------------------------------
 
 	AtlasLoot_Data["PVP70Accessories"] = {
-		["Normal_A"] = {
-			{
-				{ 1, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "#HONOR:25#"};
-				{ 2, 28118, "", "=q4=Brilliant Ornate Ruby", "=ds=", "#HONOR:25#"};
-				{ 3, 28362, "", "=q4=Delicate Ornate Ruby", "=ds=", "#HONOR:25#"};
-				{ 4, 28363, "", "=q4=Deadly Ornate Topaz", "=ds=", "#HONOR:25#"};
-				{ 5, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "#HONOR:25#"};
-				{ 7, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 8, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 9, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-				{ 10, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-				{ 11, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 1 #honor#"};
-				{ 16, 37864, "", "=q4=Medallion of the Alliance", "=ds=", "#HONOR:140#"};
-				{ 17, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "#HONOR:120#"};
-				{ 18, 69861, "", "=q3=Medallion of the Alliance", "=ds=", "#HONOR:100#"};
-				{ 22, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 23, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 24, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-				{ 25, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-			};
-		};
-		["Normal_H"] = {
-			{
-				{ 1, 28119, "", "=q4=Smooth Ornate Dawnstone", "=ds=", "#HONOR:25#"};
-				{ 2, 28118, "", "=q4=Brilliant Ornate Ruby", "=ds=", "#HONOR:25#"};
-				{ 3, 28362, "", "=q4=Delicate Ornate Ruby", "=ds=", "#HONOR:25#"};
-				{ 4, 28363, "", "=q4=Deadly Ornate Topaz", "=ds=", "#HONOR:25#"};
-				{ 5, 28123, "", "=q4=Potent Ornate Topaz", "=ds=", "#HONOR:25#"};
-				{ 7, 31853, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 8, 31839, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 9, 31855, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-				{ 10, 31841, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-				{ 11, 32453, "", "=q1=Star's Tears", "=ds=", "1 #gold# 1 #honor#"};
-				{ 16, 37865, "", "=q4=Medallion of the Horde", "=ds=", "#HONOR:140#"};
-				{ 17, 24551, "", "=q4=Talisman of the Horde", "=ds=", "#HONOR:120#"};
-				{ 18, 69862, "", "=q3=Medallion of the Horde", "=ds=", "#HONOR:100#"};
-				{ 22, 31838, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 23, 31852, "", "=q1=Major Combat Healing Potion", "=ds=", "#HONOR:39#"};
-				{ 24, 31840, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-				{ 25, 31854, "", "=q1=Major Combat Mana Potion", "=ds=", "#HONOR:39#"};
-			};
-		};
-		info = {
-			name = AL["PvP Accessories"].." "..AL["Level 70"],
-			module = moduleName, menu = "PVPMENU3",
-		};
-	}
-
-	AtlasLoot_Data["PVP70Accessories2"] = {
 		["Normal"] = {
 			{
-				{ 1, 28378, "", "=q4=Sergeant's Heavy Cape", "=ds=", "#HONOR:75#"};
-				{ 2, 28377, "", "=q4=Sergeant's Heavy Cloak", "=ds=", "#HONOR:75#"};
-				{ 4, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=", "#HONOR:90#"};
-				{ 5, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "#HONOR:90#"};
-				{ 6, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "#HONOR:90#"};
-				{ 7, 44429, "", "=q4=Volanthius Shroud", "=ds=", "#HONOR:90#"};
-				{ 9, 41588, "", "=q4=Battlemaster's Aggression", "=ds=", "#HONOR:140#"};
-				{ 10, 41587, "", "=q4=Battlemaster's Celerity", "=ds=", "#HONOR:140#"};
-				{ 11, 41590, "", "=q4=Battlemaster's Courage", "=ds=", "#HONOR:140#"};
-				{ 12, 41589, "", "=q4=Battlemaster's Resolve", "=ds=", "#HONOR:140#"};
-				{ 14, 28247, "", "=q3=Band of Dominance", "=ds=", "#HONOR:50#"};
-				{ 15, 28246, "", "=q3=Band of Triumph", "=ds=", "#HONOR:50#"};
+				{ 1, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=", "#HONOR:90#"};
+				{ 2, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "#HONOR:90#"};
+				{ 3, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "#HONOR:90#"};
+				{ 4, 44429, "", "=q4=Volanthius Shroud", "=ds=", "#HONOR:90#"};
+				{ 6, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "#HONOR:120#"};
+				{ 7, 69861, "", "=q3=Medallion of the Alliance", "=ds=", "#HONOR:100#"};
+				{ 9, 24551, "", "=q4=Talisman of the Horde", "=ds=", "#HONOR:120#"};
+				{ 10, 69862, "", "=q3=Medallion of the Horde", "=ds=", "#HONOR:100#"};
 				{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "#HONOR:90#"};
 				{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "#HONOR:90#"};
 				{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "#HONOR:90#"};
@@ -4584,10 +4531,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 24, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "#HONOR:75#"};
 				{ 25, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "#HONOR:75#"};
 				{ 26, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "#HONOR:75#"};
-				{ 27, 33853, "", "=q4=Vindicator's Band of Dominance", "=ds=", "#HONOR:50#"};
-				{ 28, 33918, "", "=q4=Vindicator's Band of Salvation", "=ds=", "#HONOR:50#"};
-				{ 29, 35320, "", "=q4=Vindicator's Band of Subjugation", "=ds=", "#HONOR:50#"};
-				{ 30, 33919, "", "=q4=Vindicator's Band of Triumph", "=ds=", "#HONOR:50#"};
 			};
 		};
 		info = {

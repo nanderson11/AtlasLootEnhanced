@@ -247,35 +247,34 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Brewfest"] = {
 		["Normal"] = {
 			{
-				{ 1, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "100 #brewfest#"};
-				{ 2, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "100 #brewfest#"};
-				{ 3, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
-				{ 4, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
-				{ 5, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
-				{ 6, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#", "50 #brewfest#"};
-				{ 7, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#", "200 #brewfest#"};
-				{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#", "200 #brewfest#"};
-				{ 9, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#", "100 #brewfest#"};
-				{ 10, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#", "100 #brewfest#"};
-				{ 12, 37829, "", "=q2=Brewfest Prize Token", "=ds=#m17#"};
-				{ 16, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "100 #brewfest#"};
-				{ 17, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "100 #brewfest#"};
+				{ 1, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
+				{ 2, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
+				{ 3, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 4, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 5, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 6, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 7, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#", "#BREWFEST:200#"};
+				{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#", "#BREWFEST:200#"};
+				{ 9, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#", "#BREWFEST:100#"};
+				{ 10, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#", "#BREWFEST:100#"};
+				{ 16, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "#BREWFEST:100#"};
+				{ 17, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
 				{ 18, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
-				{ 19, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#", "200 #brewfest#"};
-				{ 21, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "20 #brewfest#"};
-				{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#", "2 #brewfest#"};
+				{ 19, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#", "#BREWFEST:200#"};
+				{ 21, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "#BREWFEST:20#"};
+				{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#", "#BREWFEST:2#"};
 				{
-					{ 23, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#", "5 #brewfest#"};
-					{ 23, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#", "5 #brewfest#"};
+					{ 23, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#", "#BREWFEST:5#"};
+					{ 23, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#", "#BREWFEST:5#"};
 				};
 			};
 			{
 			--[[{ 1, 56836, "", "=q3=?? Brewfest Stein", "=ec1=2011 =q1=#m34#: =ds=#h1#"};]]--Not confirmed yet
-				{ 1, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009,2010 =q1=#m34#: =ds=#h1#"};
-				{ 2, 33016, "", "=q3=Blue Brewfest Stein", "=ec1=2008 =q1=#m34#: =ds=#h1#"};
-				{ 3, 32912, "", "=q3=Yellow Brewfest Stein", "=ec1=2007 =q1=#m34#: =ds=#h1#"};
-				{ 4, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m34#: =ds=#s15#"};
-				{ 6, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m34#: =ds=#e26#"};
+				{ 1, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009,2010 =q1=#m4#: =ds=#h1#"};
+				{ 2, 33016, "", "=q3=Blue Brewfest Stein", "=ec1=2008 =q1=#m4#: =ds=#h1#"};
+				{ 3, 32912, "", "=q3=Yellow Brewfest Stein", "=ec1=2007 =q1=#m4#: =ds=#h1#"};
+				{ 4, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
+				{ 6, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
 				{ 16, 33929, "", "=q1=Brewfest Brew", "=ds=#e4#"};
 				{ 17, 34063, "", "=q1=Dried Sausage", "=ds=#e3#"};
 				{ 18, 33024, "", "=q1=Pickled Sausage", "=ds=#e3#"};
@@ -405,8 +404,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 5, 46690, "", "=q1=Candy Skull", "=ds=#m20#, 5 #copper#"};
 				{ 6, 46711, "", "=q1=Spirit Candle", "=ds=#m20#, 30 #copper#"};
 				{ 7, 46718, "", "=q1=Orange Marigold", "=ds=#m20#, 10 #copper#"};
-				{ 9, 46710, "", "=q1=Recipe: Bread of the Dead", "=ds=#p3# (1), 20 #silver#"};
-				{ 10, 46691, "", "=q1=Bread of the Dead", "=ds=#e3#"};
+				{ 16, 46710, "", "=q1=Recipe: Bread of the Dead", "=ds=#p3# (1), 20 #silver#"};
+				{ 17, 46691, "", "=q1=Bread of the Dead", "=ds=#e3#"};
 			};
 		};
 		info = {
@@ -632,7 +631,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 24, 49916, "", "=q1=Lovely Charm Bracelet", "=ds=#m17#"};
 			};
 			{
-				{ 1, 0, "INV_Box_02", "=q6="..AL["Lovely Dress Box"], ""};
+				{ 1, 0, "INV_Box_02", "=q6="..AL["Lovely Dress Box"], "#ACHIEVEMENTID:1694#"};
 				{ 2, 22279, "", "=q1=Lovely Black Dress", "=ds=#s5#"};
 				{ 3, 22276, "", "=q1=Lovely Red Dress", "=ds=#s5#"};
 				{ 4, 22278, "", "=q1=Lovely Blue Dress", "=ds=#s5#"};
@@ -641,12 +640,12 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 22277, "", "=q1=Red Dinner Suit", "=q1=#m4#: =ds=#s5#"};
 				{ 9, 22281, "", "=q1=Blue Dinner Suit", "=q1=#m4#: =ds=#s5#"};
 				{ 10, 22282, "", "=q1=Purple Dinner Suit", "=q1=#m4#: =ds=#s5#"};	
-				{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6="..AL["Box of Chocolates"], ""};
+				{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6="..AL["Box of Chocolates"], "#ACHIEVEMENTID:1702#"};
 				{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
 				{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
 				{ 19, 22236, "", "=q1=Buttermilk Delight", "=ds=#e3#"};
 				{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};		
-				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], ""};
+				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], "#ACHIEVEMENTID:1696#"};
 				{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 24, 21817, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 25, 21818, "", "=q1=Heart Candy", "=ds=#m20#"};

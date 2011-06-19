@@ -361,10 +361,8 @@ if AL then
 	AL["PvP Weapons"] = "PvP-Waffen";
 	AL["PvP Non-Set Epics"] = "PvP Nicht-Set Epics";
 	AL["PvP Reputation Sets"] = "PvP-Rufbelohnungen";
-	AL["Arena PvP Weapons"] = "PvP-Waffen (Arena)";
 	AL["PvP Misc"] = "PvP (Sonstiges)";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Edelsteine/Verzauberungen/Rezepte";
-	AL["PvP Class Items"] = "PvP Klassengegenstände";
 	AL["PvP Trinkets"] = "PvP Schmuckstücke";
 	AL["NOT AVAILABLE ANYMORE"] = "NICHT MEHR VERFÜGBAR";
 
@@ -588,8 +586,6 @@ if AL then
 	AL["Heirloom"] = "Erbstücke";
 	AL["Weapons"] = "Waffen";
 	AL["Accessories"] = "Zubehör";
-	AL["Low Level"] = "Niedrigstufig";
-	AL["High Level"] = "Hochstufig";
 	AL["Rare"] = "Selten";
 	AL["Specializations"] = "Spezialisierungen";
 

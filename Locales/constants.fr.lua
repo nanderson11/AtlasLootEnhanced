@@ -361,10 +361,8 @@ if AL then
 	AL["PvP Weapons"] = "Armes JcJ";
 	AL["PvP Non-Set Epics"] = "Hors sets épiques JcJ";
 	AL["PvP Reputation Sets"] = "Sets réputation JcJ";
-	AL["Arena PvP Weapons"] = "Armes d'arène JcJ";
 	AL["PvP Misc"] = "Objets divers JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes / Enchantements / Dessins de Joaillerie JcJ";
-	AL["PvP Class Items"] = "Objets JcJ de classe";
 	AL["PvP Trinkets"] = "Bijoux JcJ";
 	AL["NOT AVAILABLE ANYMORE"] = "N'EST PLUS DISPONIBLE";
 
@@ -588,8 +586,6 @@ if AL then
 	AL["Heirloom"] = "Héritage";
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
-	AL["Low Level"] = "Bas niveau";
-	AL["High Level"] = "Haut niveau";
 	--AL["Rare"] = true;
 	AL["Specializations"] = "Spécialisations";
 

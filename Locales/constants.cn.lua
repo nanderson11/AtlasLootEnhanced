@@ -308,10 +308,8 @@ if AL then
 	AL["PvP Weapons"] = "PvP 武器";
 	AL["PvP Non-Set Epics"] = "PvP 非套装史诗级部件";
 	AL["PvP Reputation Sets"] = "PvP 声望套装";
-	AL["Arena PvP Weapons"] = "竞技场 PvP 武器";
 	AL["PvP Misc"] = "PvP 其它";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 宝石/附魔/珠宝设计";
-	AL["PvP Class Items"] = "PvP 职业物品";
 	AL["PvP Trinkets"] = "PvP 饰品";
 	AL["NOT AVAILABLE ANYMORE"] = "*不再可用*";
 
@@ -533,8 +531,6 @@ if AL then
 	AL["Heirloom"] = "传家宝";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "附件";
-	AL["Low Level"] = "低等级";
-	AL["High Level"] = "高等级";
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
 

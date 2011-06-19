@@ -299,10 +299,8 @@ if AL then
 	AL["PvP Weapons"] = "Armas JcJ";
 	AL["PvP Non-Set Epics"] = "Épicos JcJ No-Conjuntos";
 	AL["PvP Reputation Sets"] = "Conjuntos JcJ por reputación"
-	AL["Arena PvP Weapons"] = "Armas de Arenas JcJ";
 	AL["PvP Misc"] = "Diseños Joyería JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Diseños Gemas/Encantamientos/Joyería JcJ";
-	AL["PvP Class Items"] = "Objetos de clase JcJ";
 	--AL["NOT AVAILABLE ANYMORE"] = true;
 
 	-- World Events
@@ -503,8 +501,6 @@ if AL then
 	AL["Heirloom"] = "Reliquia";
 	AL["Weapons"] = "Armas";
 	AL["Accessories"] = "Accesorios";
-	AL["Low Level"] = "Nivel bajo";
-	AL["High Level"] = "Nivel alto";
 	AL["Rare"] = "Raras";
 
 	-- Loot Table Names
