@@ -34,12 +34,54 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	}
 
 	AtlasLoot_Data["ARGENTMENU"] = {
-		["Normal"] = {
+		["Normal_A"] = {
 			{
-				{ 2, "ArgentTournament", "inv_misc_tournaments_tabard_human", "=ds="..BabbleInventory["Tabards"].." / "..AL["Banner"], ""};
-				{ 3, "ArgentTournament#2", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"].." / "..AL["Weapons"], ""};
-				{ 17, "ArgentTournament#3", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"].." / "..BabbleInventory["Mounts"], ""};
+				{ 2, "ArgentTournament", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"].." / "..AL["Weapons"], ""};
+				{ 17, "ArgentTournament#2", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"].." / "..BabbleInventory["Mounts"], ""};
 				{ 18, "ATHeirlooms", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
+				{ 5, 45714, "", "=q2=Darnassus Commendation Badge",  "", "=ds=#CHAMPWRIT:1#"};
+				{ 6, 45715, "", "=q2=Exodar Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 7, 45716, "", "=q2=Gnomeregan Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 9, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 10, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 11, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 12, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 13, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 14, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 15, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 20, 45717, "", "=q2=Ironforge Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 21, 45718, "", "=q2=Stormwind Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 24, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 25, 45021, "", "=q1=Darnassus Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 26, 45020, "", "=q1=Exodar Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 27, 45019, "", "=q1=Gnomeregan Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 28, 45018, "", "=q1=Ironforge Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 29, 45011, "", "=q1=Stormwind Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 2, "ArgentTournament", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"].." / "..AL["Weapons"], ""};
+				{ 17, "ArgentTournament#2", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"].." / "..BabbleInventory["Mounts"], ""};
+				{ 18, "ATHeirlooms", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
+				{ 5, 45719, "", "=q2=Orgrimmar Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 6, 45723, "", "=q2=Undercity Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 7, 45722, "", "=q2=Thunder Bluff Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 9, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 10, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 11, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 12, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 13, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 14, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 15, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
+				{ 20, 45720, "", "=q2=Sen'jin Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 21, 45721, "", "=q2=Silvermoon Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
+				{ 24, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 25, 45014, "", "=q1=Orgrimmar Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 26, 45016, "", "=q1=Undercity Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 27, 45013, "", "=q1=Thunder Bluff Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 28, 45015, "", "=q1=Sen'jin Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
+				{ 29, 45017, "", "=q1=Silvermoon City Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
 			};
 		};
 		info = {

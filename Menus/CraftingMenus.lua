@@ -79,9 +79,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 5, "AlchemyCauldron", "inv_misc_cauldron_fire", "=ds="..AL["Cauldrons"], "" };
 				{ 7, "AlchemyPotion", "inv_alchemy_elixir_02", "=ds="..AL["Potions"], "" };
 				{ 16, "AlchemyOtherElixir", "inv_potion_112", "=ds="..AL["Other Elixirs"], "" };				
-				{ 18, "AlchemyOil", "inv_potion_07", "=ds="..AL["Oils"], "" };
-				{ 20, "AlchemyTransmute", "inv_elemental_eternal_air", "=ds="..AL["Transmutes"], "" };				
-				{ 21, "AlchemyMisc", "spell_holy_aspiration", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 19, "AlchemyTransmute", "inv_elemental_eternal_air", "=ds="..AL["Transmutes"], "" };				
+				{ 20, "AlchemyMisc", "spell_holy_aspiration", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 22, "AlchemyOil", "inv_potion_07", "=ds="..AL["Oils"], "" };
 			};
 		};
 		info = {

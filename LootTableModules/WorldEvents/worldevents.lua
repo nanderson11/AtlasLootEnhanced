@@ -41,27 +41,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ArgentTournament"] = {
 		["Normal_A"] = {
 			{
-				{ 2, 45714, "", "=q2=Darnassus Commendation Badge",  "", "=ds=#CHAMPWRIT:1#"};
-				{ 3, 45715, "", "=q2=Exodar Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 4, 45716, "", "=q2=Gnomeregan Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 5, 45717, "", "=q2=Ironforge Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 6, 45718, "", "=q2=Stormwind Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 8, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-				{ 9, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 10, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 17, 45021, "", "=q1=Darnassus Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 18, 45020, "", "=q1=Exodar Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 19, 45019, "", "=q1=Gnomeregan Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 20, 45018, "", "=q1=Ironforge Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 21, 45011, "", "=q1=Stormwind Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 22, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 23, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 24, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 25, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 26, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 27, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-			};
-			{
 				{ 2, 45156, "", "=q3=Sash of Shattering Hearts", "=ds=#s10#, #a1#", "#CHAMPSEAL:10#" };
 				{ 3, 45181, "", "=q3=Wrap of the Everliving Tree", "=ds=#s10#, #a2#", "#CHAMPSEAL:10#" };
 				{ 4, 45159, "", "=q3=Treads of Nimble Evasion", "=ds=#s12#, #a2#", "#CHAMPSEAL:10#" };
@@ -119,27 +98,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		["Normal_H"] = {
-			{
-				{ 2, 45719, "", "=q2=Orgrimmar Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 3, 45723, "", "=q2=Undercity Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 4, 45722, "", "=q2=Thunder Bluff Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 5, 45720, "", "=q2=Sen'jin Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 6, 45721, "", "=q2=Silvermoon Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
-				{ 8, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-				{ 9, 46843, "", "=q1=Argent Crusader's Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 10, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 17, 45014, "", "=q1=Orgrimmar Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 18, 45016, "", "=q1=Undercity Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 19, 45013, "", "=q1=Thunder Bluff Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 20, 45015, "", "=q1=Sen'jin Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 21, 45017, "", "=q1=Silvermoon City Banner", "=ds=#e14#", "#CHAMPSEAL:15#"};
-				{ 22, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 23, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 24, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 25, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 26, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-				{ 27, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#", "#CHAMPSEAL:50#"};
-			};
 			{
 				{ 2, 45209, "", "=q3=Sash of Trumpeted Pride", "=ds=#s10#, #a1#", "#CHAMPSEAL:10#" };
 				{ 3, 45211, "", "=q3=Waistguard of Equine Fury", "=ds=#s10#, #a2#", "#CHAMPSEAL:10#" };
