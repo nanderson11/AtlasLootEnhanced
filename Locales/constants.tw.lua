@@ -22,6 +22,48 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	-- compare frame
+	AL["Compare Frame"] = "比較視窗";
+	AL["Show in Compare Frame"] = "在比較視窗顯示";
+	AL["Name"] = "名稱";
+	AL["ItemLvl"] = "物品等級";
+	AL["Normal"] = "普通";
+	AL["%d items"] = "%d 物品";
+	AL["All"] = "全部";
+	AL["Stats"] = "屬性";
+	AL["Show \"Base Stats list\""] = "顯示 \"基本屬性列表\"";
+	AL["Show \"Extra Stats list\""] = "顯示 \"附加屬性列表\"";
+	AL["Base Stats list"] = "基本屬性列表";
+	AL["Extra Stats list"] = "附加屬性列表";	
+	AL["Add Stats list"] = "新增屬性列表";
+	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "你確定要刪除列表排序|cff1eff00%s|r?";
+	AL["Delete Stats list"] = "刪除屬性列表";
+	AL["Stats color"] = "屬性顏色";
+	AL["Stats list name:"] = "屬性列表名稱:";
+	AL["Select Stats list"] = "選擇屬性列表";
+--	AL["You cant set more then %d item stats."] = true;
+
+	-- Stats short
+	AL["iLvl"] = "iLvl";	-- Item lvl
+	AL["str"] = "力";	-- Strength
+	AL["agi"] = "敏";	-- Agility
+	AL["sta"] = "耐";	-- Stamina
+	AL["int"] = "智";	-- Intellect
+	AL["spi"] = "精";	-- Spirit
+	AL["Crit"] = "致命";	-- Crit Rating
+	AL["Dodge"] = "閃躲";	-- Dodge Rating
+	AL["Exp"] = "熟練";	-- Expertise Rating
+	AL["Hit"] = "命中";	-- Hit Rating
+	AL["Haste"] = "加速";	-- Haste Rating
+	AL["Parry"] = "招架";	-- Parry Rating
+	AL["Spell"] = "法能";	-- Spell Power
+	AL["Resi"] = "韌性";	-- Resilience Rating
+	AL["Mast"] = "精通";	-- Mastery
+
+	-- Stats
+	AL["Resilience Rating"] = "韌性等級";
+	AL["Base Stats"] = "基本屬性";
+	AL["Extra Stats"] = "附加屬性";
 
 	-- Loader
 	AL["Load AtlasLoot"] = "載入 AtlasLoot";
@@ -90,6 +132,7 @@ if AL then
 	AL["Show price and slot if possible"] = "盡可能顯示價格與部位資訊";
 	AL["Use GameTooltip"] = "使用內建提示訊息";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用遊戲內建提示訊息, 而不使用 AtlasLoot 提示訊息";
+	AL["%d / %d ( Bank: %d )"] = "%d / %d ( 銀行: %d )";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "物品資訊目前無法取得";
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "這個物品 (ID: %d) 並不安全. 如要安全的檢視這個物品並且避免斷線, 你必須在當前的伺服器中曾見過該物品. \n\n你仍可以按下滑鼠右鍵向伺服器查詢, 然而你有可能會斷線..";
@@ -132,6 +175,8 @@ if AL then
 	AL["Table Sort"] = "表格排序";
 	AL["Table Sort:"] = "表格排序: ";
 	AL["Item Sort:"] = "物品排序: ";
+	AL["Show own wishlists"] = "顯示自己願望清單";
+	AL["Show all wishlists"] = "顯示全部願望清單";
 
 	-- Filter
 	AL["Filter"] = "篩選";
@@ -195,6 +240,8 @@ if AL then
 	AL["Location"] = "位置";
 	AL["ilvl 359"] = "ilvl 359";
 	AL["ilvl 372"] = "ilvl 372";
+	AL["ilvl 378"] = "ilvl 378";
+	AL["ilvl 391"] = "ilvl 391";
 
 	-- #######################################
 	-- UI things END
@@ -508,6 +555,7 @@ if AL then
 	AL["Season 7"] = "第七季";
 	AL["Season 8"] = "第八季";
 	AL["Season 9"] = "第九季";
+	AL["Season 10"] = "第十季";
 	AL["Fire"] = "赤紅";
 	AL["Water"] = "碧藍";
 	AL["Wind"] = "蒼白";
@@ -990,10 +1038,11 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = "『駱駝囤積者』多姆斯";
 	AL["The Behemoth"] = "貝希摩斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
---	AL["Zen'Vorka"] = true;
---	AL["Ayla Shadowstorm"] = true;
---	AL["Damek Bloombeard"] = true;
---	AL["Varlan Highbough"] = true;
+	AL["Zen'Vorka"] = "贊沃卡";
+	AL["Ayla Shadowstorm"] = "埃拉·暗影風暴";
+	AL["Damek Bloombeard"] = "達密克·濃鬚";
+	AL["Varlan Highbough"] = "瓦蘭·高枝";
+--	AL["Firestone Vendor"] = true;
 
 	--Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
