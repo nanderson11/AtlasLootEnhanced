@@ -478,7 +478,10 @@ function DefaultFrame:SetInstanceTable()
 	end
 	if curInstance["Info"] and curInstance["Info"].EncounterJournalID then
 		self.Frame.EncounterJournal.info = { curInstance["Info"].EncounterJournalID, nil }
-		AtlasLoot:EncounterJournal_ButtonsRefresh()
+		AtlasLoot:EncounterJournal_ButtonsRefresh()	
+	else
+		self.Frame.EncounterJournal.info = nil
+		AtlasLoot:EncounterJournal_ButtonsRefresh()	
 	end
 	curInstance = curInstance["Bosses"]
 	if not curInstance then return end
