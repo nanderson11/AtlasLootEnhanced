@@ -479,6 +479,10 @@ function AtlasLoot:CompareFrame_LoadInstance(ini)
 	AtlasLoot.CompareFrame:Show()
 	AtlasLoot:CompareFrame_Filter_OnClick(AtlasLoot.CompareFrame.MainFilterButtons[1])
 	
+	if infoTable.EncounterJournalID then
+		AtlasLoot.CompareFrame.EncounterJournal.info = { infoTable.EncounterJournalID, nil }
+		AtlasLoot:EncounterJournal_ButtonsRefresh()
+	end
 end
 --[[
 										{
@@ -506,7 +510,8 @@ function AtlasLoot:CompareFrame_Clear()
 	AtlasLoot.CompareFrame:Show()
 	AtlasLoot:CompareFrame_Filter_OnClick(AtlasLoot.CompareFrame.MainFilterButtons[1])	
 
-
+	AtlasLoot.CompareFrame.EncounterJournal.info = nil
+	AtlasLoot:EncounterJournal_ButtonsRefresh()
 end
 
 function AtlasLoot:CompareFrame_CompleteTable(itemCache, allName)

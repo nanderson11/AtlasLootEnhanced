@@ -401,6 +401,30 @@ function AtlasLoot:DevTool_CreateFrame()
 
 end
 
+function AtlasLoot:GetEJDetails(bool)
+	local iniIndex = 1
+	local iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
+	self.db.profile.EJINFO = self.db.profile.EJINFO or {}	
+	local bossIndex, bossName, bossID
+	while iniID do
+		EJ_SelectInstance(iniID)
+		bossIndex = 1
+		bossName, _, bossID = EJ_GetEncounterInfoByIndex(bossIndex)
+		--print(iniName, " = ", iniID)#
+		self.db.profile.EJINFO[iniID] = {[iniName] = true}
+		while bossName and bossIndex < 50 do
+			--print("	", bossName, " = ", bossID)
+			self.db.profile.EJINFO[iniID][bossID] = bossName
+			bossIndex = bossIndex + 1
+			bossName, _, bossID = EJ_GetEncounterInfoByIndex(bossIndex)
+		end
+		iniIndex = iniIndex + 1
+        iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
+	end
+end
+
+
+
 local atlasSupportRemoved = false
 function AtlasLoot:ReduceMemoryUsage()
 	for iniName, iniTable in pairs(AtlasLoot_Data) do

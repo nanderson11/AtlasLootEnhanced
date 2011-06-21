@@ -309,6 +309,19 @@ do
 		Frame.CompareFrame:SetText(AL["Show in Compare Frame"])
 		Frame.CompareFrame:SetScript("OnClick", onCompareFrameClick)
 		
+		Frame.EncounterJournal = CreateFrame("Button", frameName.."_EncounterJournal", Frame)
+		Frame.EncounterJournal:SetWidth(25)
+		Frame.EncounterJournal:SetHeight(25)
+		Frame.EncounterJournal:SetNormalTexture("Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
+		Frame.EncounterJournal:SetPushedTexture("Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
+		Frame.EncounterJournal:SetDisabledTexture("Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
+		Frame.EncounterJournal:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+		--Frame.EncounterJournal:SetFrameStrata("HIGH")
+		Frame.EncounterJournal:SetPoint("LEFT", Frame.CompareFrame, "RIGHT", 0, 0)
+		--Frame.EncounterJournal:SetScript("OnClick", encounterJournal_OnClick)
+		Frame.EncounterJournal:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
+		Frame:Hide()
+		
 		Frame.ModuleSelect = CreateFrame("Frame", frameName.."_ModuleSelect", Frame, "UIDropDownMenuTemplate")
 		Frame.ModuleSelect:SetPoint("TOPLEFT", Frame, "TOPLEFT", 60, -50)
 		Frame.ModuleSelect.info = {}
@@ -462,6 +475,10 @@ function DefaultFrame:SetInstanceTable()
 		self.Frame.CompareFrame:Hide()
 	else
 		self.Frame.CompareFrame:Show()
+	end
+	if curInstance["Info"] and curInstance["Info"].EncounterJournalID then
+		self.Frame.EncounterJournal.info = { curInstance["Info"].EncounterJournalID, nil }
+		AtlasLoot:EncounterJournal_ButtonsRefresh()
 	end
 	curInstance = curInstance["Bosses"]
 	if not curInstance then return end

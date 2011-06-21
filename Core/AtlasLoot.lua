@@ -198,6 +198,7 @@ function AtlasLoot:OnLoaderLoad()
 		self:DevToolsInitialize()
 	end
 	self:CompareFrame_Create()
+	self:EncounterJournal_Initialize()
 
 
 	--#########
@@ -1030,6 +1031,9 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		end
 		self.ItemFrame.Switch:Show()
 	end
+	
+	AtlasLoot.ItemFrame.EncounterJournal.info = dataID
+	AtlasLoot:EncounterJournal_ButtonsRefresh()
 	
 	if string.find(dataID, "SortedTable") then
 		self.ItemFrame.QuickLooks:Hide()
