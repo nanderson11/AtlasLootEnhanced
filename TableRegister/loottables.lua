@@ -198,17 +198,17 @@ AtlasLoot_LootTableRegister = {
 
 		["Firelands"] = {
 			["Bosses"] = {
-				{ "FirelandsBethtilac", 2 },
-				{ "FirelandsRhyolith", 3 },
-				{ "FirelandsAlysrazor", 4 },
-				{ "FirelandsShannox", 5 },
-				{ "FirelandsBaleroc", 6 },
-				{ "FirelandsStaghelm", 7 },
-				{ "FirelandsRagnaros", 8 },
-				{ "FirelandsTrash", 10 },
-				{ "FirelandsFirestone", 11 },
+				{ "FirelandsBethtilac", 3 },
+				{ "FirelandsRhyolith", 4 },
+				{ "FirelandsAlysrazor", 5 },
+				{ "FirelandsShannox", 6 },
+				{ "FirelandsBaleroc", 7 },
+				{ "FirelandsStaghelm", 8 },
+				{ "FirelandsRagnaros", 9 },
+				{ "FirelandsTrash", 12 },
+				{ "FirelandsFirestone", 13 },
 			},
-			["Info"] = { "The Firelands", "AtlasLootCataclysm", raid = true },
+			["Info"] = { "The Firelands", "AtlasLootCataclysm", mapname = "Firelands", raid = true },
 		},
 
 		["ThroneOfTheFourWinds"] = {
