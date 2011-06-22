@@ -6377,7 +6377,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 50415, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
 				{ 18, 49976, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
 				{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -6398,7 +6398,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 50709, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
 				{ 18, 50616, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
 				{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		info = {
@@ -6458,7 +6458,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
 				{ 18, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
 				{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -6479,7 +6479,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 50648, "", "=q4=Nibelung", "=ds=#w9#"};
 				{ 18, 50638, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
 				{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		info = {
@@ -6533,7 +6533,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 50002, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
 				{ 9, 50010, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
 				{ 11, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 12, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 12, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 50005, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
 				{ 17, 50008, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
 				{ 18, 49999, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
@@ -6554,7 +6554,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 50659, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
 				{ 9, 50667, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
 				{ 11, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 12, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 12, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 50658, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
 				{ 17, 50664, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
 				{ 18, 50657, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
@@ -6613,7 +6613,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
 				{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
 				{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -6627,7 +6627,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
 				{ 5, 50672, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
 				{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -6699,7 +6699,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 50040, "", "=q4=Distant Land", "=ds=#w9#"};
 				{ 22, 50226, "", "=q4=Festergut's Acidic Blood", "=ds=#m3#"};
 				{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 25, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 25, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -6721,7 +6721,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 50692, "", "=q4=Black Bruise", "=ds=#h3#, #w13#"};
 				{ 20, 50695, "", "=q4=Distant Land", "=ds=#w9#"};
 				{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 23, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 23, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		info = {
@@ -6782,7 +6782,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 50033, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#"};
 				{ 20, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#"};
 				{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 23, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 23, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -6804,7 +6804,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 50684, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#"};
 				{ 20, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#"};
 				{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 23, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 23, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		info = {
@@ -6857,7 +6857,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 50179, "", "=q4=Last Word", "=ds=#h1#, #w6#"};
 				{ 5, 50068, "", "=q4=Rigormortis", "=ds=#h1#, #w10#"};
 				{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -6871,7 +6871,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 50708, "", "=q4=Last Word", "=ds=#h1#, #w6#"};
 				{ 5, 50704, "", "=q4=Rigormortis", "=ds=#h1#, #w10#"};
 				{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -6941,7 +6941,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 50184, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#"};
 				{ 21, 49919, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#"};
 				{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -6962,7 +6962,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 50710, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#"};
 				{ 21, 50603, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#"};
 				{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		info = {
@@ -7016,7 +7016,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 50181, "", "=q4=Dying Light", "=ds=#w9#"};
 				{ 6, 50065, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
 				{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 9, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 9, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -7031,7 +7031,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 50725, "", "=q4=Dying Light", "=ds=#w9#"};
 				{ 6, 50729, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
 				{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 9, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 9, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -7101,7 +7101,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 50183, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
 				{ 21, 50472, "", "=q4=Nightmare Ender", "=ds=#w12#"};
 				{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -7122,7 +7122,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 50621, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
 				{ 21, 50631, "", "=q4=Nightmare Ender", "=ds=#w12#"};
 				{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 24, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		info = {
@@ -7175,7 +7175,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 50361, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
 				{ 5, 50423, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
 				{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -7189,7 +7189,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 50364, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
 				{ 5, 50635, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
 				{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 8, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -7236,7 +7236,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-				{ 20, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25Man"] = {
@@ -7254,7 +7254,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
 				{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 21, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 			};
 		};
 		["25ManHeroic"] = {
@@ -7270,7 +7270,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 50733, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#"};
 				{ 10, 50818, "", "=q4=Invincible's Reins", "=ds=#e12#"};
 				{ 12, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-				{ 13, 49908, "", "=q4=Primordial Saronite", "=ds=#e8#"};
+				{ 13, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
 				{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
 				{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
 				{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
@@ -11349,8 +11349,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "#JUSTICE:348#"};
 				{ 6, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "#JUSTICE:348#"};
 				{ 7, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "#JUSTICE:348#"};
-				{ 9, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "2175 #justice#"};
-				{ 10, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "2175 #justice#"};
+				{ 9, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "#JUSTICE:2175#"};
+				{ 10, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "#JUSTICE:2175#"};
 				{ 16, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "#JUSTICE:220#" };
 				{ 17, 36922, "", "=q4=King's Amber", "=ds=#e7#", "#JUSTICE:220#" };
 				{ 18, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "#JUSTICE:220#" };
