@@ -309,6 +309,9 @@ function AtlasLoot:AtlasRefreshHook()
 				AtlasLoot.AtlasLines[i] = AtlasLoot:CreateSelectBossLineButton(AtlasFrame, {"TOPLEFT", "AtlasBossLine"..(i-1), "BOTTOMLEFT"}, "AtlasBossLine"..i)
 			end
 			AtlasLoot.AtlasLines[i]:SetScript("OnClick", AtlasLoot.Boss_OnClick)
+			-- added by arith on June 27, 2011
+			-- the Control key with mouse hover to each bose line need to be added back
+			AtlasLoot.AtlasLines[i]:SetScript("OnUpdate", AtlasEntryTemplate_OnUpdate)
 		else
 			AtlasLoot.AtlasLines[i].Loot:Hide()
 			AtlasLoot.AtlasLines[i].Selected:Hide()
