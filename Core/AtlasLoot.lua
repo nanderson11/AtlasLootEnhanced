@@ -1034,6 +1034,11 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	
 	AtlasLoot.ItemFrame.EncounterJournal.info = dataID
 	AtlasLoot:EncounterJournal_ButtonsRefresh()
+	if AtlasLoot.ItemFrame.CloseButton:IsShown() then
+		AtlasLoot.ItemFrame.EncounterJournal:SetPoint("RIGHT", AtlasLoot.ItemFrame.CloseButton, "LEFT", 0, 0)
+	else
+		AtlasLoot.ItemFrame.EncounterJournal:SetPoint("TOPRIGHT", AtlasLoot.ItemFrame, "TOPRIGHT", -5, -5)
+	end
 	
 	if string.find(dataID, "SortedTable") then
 		self.ItemFrame.QuickLooks:Hide()

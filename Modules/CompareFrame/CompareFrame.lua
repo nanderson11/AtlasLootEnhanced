@@ -1140,6 +1140,7 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 		end
 	end
 	if sortBy ~= "SKIP" or sortBy == "RESORT" then
+		--wipe(saved_ItemList)
 		if itemIDs_temp then
 			saved_ItemList = SortItems(itemIDs_temp, CURRENT_SORT[1],CURRENT_SORT[2])
 		else
@@ -1696,7 +1697,7 @@ function AtlasLoot:CompareFrame_Create()
 	
 	Frame.ScrollFrameItemFrame = CreateFrame("ScrollFrame", FRAME_NAME.."_ScrollFrameItemFrame", Frame, "FauxScrollFrameTemplate")
 	Frame.ScrollFrameItemFrame:SetPoint("TOPRIGHT", Frame, "TOPRIGHT", -39, -105)	
-	Frame.ScrollFrameItemFrame:SetWidth(465)
+	Frame.ScrollFrameItemFrame:SetWidth(605)
 	Frame.ScrollFrameItemFrame:SetHeight(306)
 	Frame.ScrollFrameItemFrame:SetScript("OnVerticalScroll", onVerticalScrollItemFrame)
 	--Frame.ScrollFrameItemFrame:SetScript("OnShow", onUpdate)

@@ -187,6 +187,7 @@ do
 	
 	local function onCompareFrameClick()
 		if db.instance then
+			if AtlasLoot.CompareFrame:IsShown() then AtlasLoot.CompareFrame:Hide() end
 			AtlasLoot:CompareFrame_LoadInstance( db.instance ) 
 		end 
 	end
@@ -309,17 +310,8 @@ do
 		Frame.CompareFrame:SetText(AL["Show in Compare Frame"])
 		Frame.CompareFrame:SetScript("OnClick", onCompareFrameClick)
 		
-		Frame.EncounterJournal = CreateFrame("Button", frameName.."_EncounterJournal", Frame)
-		Frame.EncounterJournal:SetWidth(25)
-		Frame.EncounterJournal:SetHeight(25)
-		Frame.EncounterJournal:SetNormalTexture("Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
-		Frame.EncounterJournal:SetPushedTexture("Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
-		Frame.EncounterJournal:SetDisabledTexture("Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
-		Frame.EncounterJournal:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
-		--Frame.EncounterJournal:SetFrameStrata("HIGH")
+		Frame.EncounterJournal = AtlasLoot:EncounterJournal_CreateButton(frameName.."_EncounterJournal", Frame)
 		Frame.EncounterJournal:SetPoint("LEFT", Frame.CompareFrame, "RIGHT", 0, 0)
-		--Frame.EncounterJournal:SetScript("OnClick", encounterJournal_OnClick)
-		Frame.EncounterJournal:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
 		Frame:Hide()
 		
 		Frame.ModuleSelect = CreateFrame("Frame", frameName.."_ModuleSelect", Frame, "UIDropDownMenuTemplate")

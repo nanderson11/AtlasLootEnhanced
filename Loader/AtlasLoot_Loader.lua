@@ -86,7 +86,7 @@ end
 -- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCataclysm, AtlasLootCrafting, AtlasLootWorldEvents, all
 -- @usage AtlasLoot:LoadModule(module)
 function AtlasLoot:LoadModule(module)
-	if not module then return end
+	if not module or type(module) ~= "string" then return end
 	if allLoaded then return true end
 	local loadedRET,reasonRET = true, ""
 	if module == "AtlasLoot" or not atlasLootIsLoaded then
@@ -178,7 +178,14 @@ function AtlasLoot:CheckDataID(dataID)
 	else
 		local tLocation = self:GetTableLoaction(dataID)
 		if tLocation and AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2] then
-			return self:LoadModule(AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2])
+			if type(AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2]) == "table" then
+				for k,v in ipairs(AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2]) do
+					self:LoadModule(v)
+				end
+				return true
+			else
+				return self:LoadModule(AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"][2])
+			end
 		else
 			return false, "MISSING"
 		end
@@ -202,6 +209,9 @@ end
 
 --@debug@ 
 function AtlasLoot:CheckModule(module)
+	return true
+end
+function AtlasLoot:LoadModule(module)
 	return true
 end
 --@end-debug@

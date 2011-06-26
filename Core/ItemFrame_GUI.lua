@@ -30,7 +30,6 @@ function AtlasLoot:CreateItemFrame()
 	Frame.CloseButton:SetScript("OnShow",function(self) self:SetFrameLevel( self:GetParent():GetFrameLevel() + 1 ) end)
 	Frame.CloseButton:Hide()
 	
-	--"Interface\\EncounterJournal\\UI-EJ-PortraitIcon"
 	---------------
 	-- loot frame
 	---------------

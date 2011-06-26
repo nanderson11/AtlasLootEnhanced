@@ -387,6 +387,7 @@ do
 		itemButton.Frame:SetScript("OnShow", function() itemButton.Frame:SetFrameLevel( (itemButton.Frame:GetParent()):GetFrameLevel() + 1 ) end)
 		itemButton.Frame:SetScript("OnEvent", AtlasLoot.ItemOnEvent)
 		itemButton.Frame.par = itemButton
+		itemButton.itemButtonButton = itemButtonButton
 		-- Hide the button
 		--itemButton.Frame:Hide()
 		

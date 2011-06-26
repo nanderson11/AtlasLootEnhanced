@@ -351,6 +351,7 @@ function WishList:OnInitialize()
 	for i in ipairs(AtlasLoot.CompareFrame.ItemButtons) do
 		if AtlasLoot.CompareFrame.ItemButtons[i] then
 			AtlasLoot.CompareFrame.ItemButtons[i].Frame:HookScript("OnClick", WishList.ButtonOnClick)
+			AtlasLoot.CompareFrame.ItemButtons[i].itemButtonButton:HookScript("OnClick", WishList.ButtonOnClick)
 		end
 	end	
 	
@@ -618,6 +619,9 @@ function WishList:ShowWishlist(wishlist)
 		AtlasLoot:CompareFrame_LoadWishList(self.ownWishLists[wishlist][1], wishlist, self.ownWishLists[wishlist].info.name)
 	else
 		if not AtlasLoot.CompareFrame:IsShown() then
+			AtlasLoot.CompareFrame:Show()
+		else
+			AtlasLoot.CompareFrame:Hide()
 			AtlasLoot.CompareFrame:Show()
 		end
 		if not AtlasLoot.CompareFrame.Wishlist:IsShown() then
