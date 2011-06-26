@@ -84,6 +84,12 @@ function AtlasLoot:AtlasInitialize()
 		--Instead of hooking, replace the scrollbar driver function 
 		Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
 		AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
+		
+		-- ENCOUNTER JOURNAL BUTTON
+		AtlasFrame.EncounterJournal = AtlasLoot:EncounterJournal_CreateButton("AtlasFrame_EncounterJournal", AtlasFrame)
+		AtlasFrame.EncounterJournal:SetPoint("TOPRIGHT", AtlasFrame, "TOPRIGHT", -18, -155)
+		AtlasFrame.EncounterJournal:SetFrameStrata("DIALOG")
+		--AtlasFrame.EncounterJournal:Hide()
 	else
 		if ATLAS_VERSION and ATLASLOOT_MIN_ATLAS ~= AtlasLoot.db.profile.LastMinAtlasVersion then
 			AtlasLoot.db.profile.LastMinAtlasVersion = ATLASLOOT_MIN_ATLAS
@@ -372,6 +378,13 @@ function AtlasLoot:AtlasScrollBar_Update()
 				contentTable = k
 				break
 			end
+		end
+		if AtlasLoot_LootTableRegister[contentTable] and AtlasLoot_LootTableRegister[contentTable][zoneID] and AtlasLoot_LootTableRegister[contentTable][zoneID]["Info"] and AtlasLoot_LootTableRegister[contentTable][zoneID]["Info"].EncounterJournalID then
+			AtlasFrame.EncounterJournal.info = { AtlasLoot_LootTableRegister[contentTable][zoneID]["Info"].EncounterJournalID, nil }
+			AtlasLoot:EncounterJournal_ButtonsRefresh()	
+		else
+			AtlasFrame.EncounterJournal.info = nil
+			AtlasLoot:EncounterJournal_ButtonsRefresh()	
 		end
         --Make note of how far in the scroll frame we are
         for line=1,ATLAS_NUM_LINES do
