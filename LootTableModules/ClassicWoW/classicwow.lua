@@ -3611,7 +3611,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Baron Ashbury"],
+			name = AtlasLoot:EJ_GetBossName("Baron Ashbury", 96),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3633,7 +3633,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Baron Silverlaine"],
+			name = AtlasLoot:EJ_GetBossName("Baron Silverlaine", 97),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3655,7 +3655,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Commander Springvale"],
+			name = AtlasLoot:EJ_GetBossName("Commander Springvale", 98),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3679,7 +3679,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Walden"],
+			name = AtlasLoot:EJ_GetBossName("Lord Walden", 99),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -3708,7 +3708,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Godfrey"],
+			name = AtlasLoot:EJ_GetBossName("Lord Godfrey", 100),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -4107,7 +4107,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Glubtok"],
+			name = AtlasLoot:EJ_GetBossName("Glubtok", 89),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4129,7 +4129,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Helix Gearbreaker"],
+			name = AtlasLoot:EJ_GetBossName("Helix Gearbreaker", 90),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4148,7 +4148,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Foe Reaper 5000"],
+			name = AtlasLoot:EJ_GetBossName("Foe Reaper 5000", 91),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4167,7 +4167,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Admiral Ripsnarl"],
+			name = AtlasLoot:EJ_GetBossName("Admiral Ripsnarl", 92),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4190,7 +4190,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["\"Captain\" Cookie"],
+			name = AtlasLoot:EJ_GetBossName("\"Captain\" Cookie", 93),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -4212,7 +4212,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Vanessa VanCleef"],
+			name = AtlasLoot:EJ_GetBossName("Vanessa VanCleef", 95),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};

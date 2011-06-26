@@ -58,7 +58,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BlackrockCavernsCorla", 3, EncounterJournalID = 106 },
 				{ "BlackrockCavernsSteelbender", 4, EncounterJournalID = 107 },
 				{ "BlackrockCavernsBeauty", 5, EncounterJournalID = 108 },
-				{ "BlackrockCavernsLordObsidius", 6, EncounterJournalID = 108 },
+				{ "BlackrockCavernsLordObsidius", 6, EncounterJournalID = 109 },
 				{ "BlackrockCavernsTrash", 11 },
 			},
 			["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns", EncounterJournalID = 66 },
@@ -68,7 +68,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "ToTNazjar", 5, EncounterJournalID = 101 },
 				{ "ToTUlthok",  6, EncounterJournalID = 102 },
-				{ "ToTStonespeaker", 7, EncounterJournalID = 103 },
+				{ "ToTMindbender", 7, EncounterJournalID = 103 },
 				{ "ToTOzumat", 8, EncounterJournalID = 104 },
 				{ "ToTTrash", 12 },
 			},
@@ -134,14 +134,14 @@ AtlasLoot_LootTableRegister = {
 
 		["ZulAman"] = {
 			["Bosses"] = {
-				{ "ZA85AkilZon", 9, EncounterJournalID = 186 },
-				{ "ZA85Nalorakk", 6, EncounterJournalID = 187 },
+				{ "ZA85AkilZon", 6, EncounterJournalID = 186 },
+				{ "ZA85Nalorakk", 8, EncounterJournalID = 187 },
 				{ "ZA85JanAlai", 11, EncounterJournalID = 188 },
 				{ "ZA85Halazzi", 13, EncounterJournalID = 189 },
 				{ "ZA85Malacrass", 15, EncounterJournalID = 190 },
 				{ "ZA85Daakara", 24, EncounterJournalID = 191 },
-				{ "ZA85TimedChest", 37 },
-				{ "ZA85Trash", 38 },
+				{ "ZA85TimedChest", 40 },
+				{ "ZA85Trash", 41 },
 			},
 			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm", EncounterJournalID = 77 },
 		},
@@ -150,7 +150,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "ZGVenoxis", 17, EncounterJournalID = 175 },
 				{ "ZGMandokir", 22, EncounterJournalID = 176 },
-				{ "ZGMadness", 26, EncounterJournalID = { 178, 179, 180 } },
+				{ "ZGMadness", 26, EncounterJournalID = { 177, 178, 179, 180 } },
 				{ "ZGKilnara", 34, EncounterJournalID = 181 },
 				{ "ZGZanzil", 36, EncounterJournalID = 184 },
 				{ "ZGJindo", 40, EncounterJournalID = 185 },

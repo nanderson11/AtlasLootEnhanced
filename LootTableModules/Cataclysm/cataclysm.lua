@@ -16,12 +16,13 @@ local moduleName = "AtlasLootCataclysm"
 ---- Halls of Origination
 ---- The Deadmines
 ---- Shadowfang Keep
+---- Zul'Aman
+---- Zul'Gurub
 ---- Bastion of Twilight
 ---- Blackwing Descent
 ---- Baradin Hold
----- Zul'Aman
----- Zul'Gurub
 ---- The Firelands
+---- Throne of the Four Winds
 --- Factions
 ---- Avengers of Hyjal
 ---- Baradin's Wardens
@@ -78,7 +79,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Rom'ogg Bonecrusher"],
+			name = AtlasLoot:EJ_GetBossName("Rom'ogg Bonecrusher", 105),
 			module = moduleName, instance = "BlackrockCaverns",
 		};
 	};
@@ -101,7 +102,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Corla, Herald of Twilight"],
+			name = AtlasLoot:EJ_GetBossName("Corla, Herald of Twilight", 106),
 			module = moduleName, instance = "BlackrockCaverns",
 		};
 	};
@@ -124,7 +125,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Karsh Steelbender"],
+			name = AtlasLoot:EJ_GetBossName("Karsh Steelbender", 107),
 			module = moduleName, instance = "BlackrockCaverns",
 		};
 	};
@@ -147,7 +148,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Beauty"],
+			name = AtlasLoot:EJ_GetBossName("Beauty", 108),
 			module = moduleName, instance = "BlackrockCaverns",
 		};
 	};
@@ -180,7 +181,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ascendant Lord Obsidius"],
+			name = AtlasLoot:EJ_GetBossName("Ascendant Lord Obsidius", 109),
 			module = moduleName, instance = "BlackrockCaverns",
 		};
 	};
@@ -221,7 +222,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lady Naz'jar"],
+			name = AtlasLoot:EJ_GetBossName("Lady Naz'jar", 101),
 			module = moduleName, instance = "ThroneOfTheTides",
 		};
 	};
@@ -244,12 +245,12 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Commander Ulthok"],
+			name = AtlasLoot:EJ_GetBossName("Commander Ulthok", 102),
 			module = moduleName, instance = "ThroneOfTheTides",
 		};
 	};
 
-	AtlasLoot_Data["ToTStonespeaker"] = {
+	AtlasLoot_Data["ToTMindbender"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
@@ -267,7 +268,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Erunak Stonespeaker"].." & "..BabbleBoss["Mindbender Ghur'sha"],
+			name = BabbleBoss["Erunak Stonespeaker"].." & "..AtlasLoot:EJ_GetBossName("Mindbender Ghur'sha", 103),
 			module = moduleName, instance = "ThroneOfTheTides",
 		};
 	};
@@ -300,7 +301,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ozumat"],
+			name = AtlasLoot:EJ_GetBossName("Ozumat", 104),
 			module = moduleName, instance = "ThroneOfTheTides",
 		};
 	};
@@ -341,7 +342,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Corborus"],
+			name = AtlasLoot:EJ_GetBossName("Corborus", 110),
 			module = moduleName, instance = "TheStonecore",
 		};
 	};
@@ -366,7 +367,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Slabhide"],
+			name = AtlasLoot:EJ_GetBossName("Slabhide", 111),
 			module = moduleName, instance = "TheStonecore",
 		};
 	};
@@ -389,7 +390,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ozruk"],
+			name = AtlasLoot:EJ_GetBossName("Ozruk", 112),
 			module = moduleName, instance = "TheStonecore",
 		};
 	};
@@ -422,7 +423,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["High Priestess Azil"],
+			name = AtlasLoot:EJ_GetBossName("High Priestess Azil", 113),
 			module = moduleName, instance = "TheStonecore",
 		};
 	};
@@ -463,7 +464,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Grand Vizier Ertan"],
+			name = AtlasLoot:EJ_GetBossName("Grand Vizier Ertan", 114),
 			module = moduleName, instance = "TheVortexPinnacle",
 		};
 	};
@@ -488,7 +489,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Altairus"],
+			name = AtlasLoot:EJ_GetBossName("Altairus", 115),
 			module = moduleName, instance = "TheVortexPinnacle",
 		};
 	};
@@ -523,7 +524,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Asaad"],
+			name = AtlasLoot:EJ_GetBossName("Asaad", 116),
 			module = moduleName, instance = "TheVortexPinnacle",
 		};
 	};
@@ -563,7 +564,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["General Husam"],
+			name = AtlasLoot:EJ_GetBossName("General Husam", 117),
 			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
@@ -586,7 +587,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lockmaw"],
+			name = AtlasLoot:EJ_GetBossName("Lockmaw", 118),
 			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
@@ -609,7 +610,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["High Prophet Barim"],
+			name = AtlasLoot:EJ_GetBossName("High Prophet Barim", 119),
 			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
@@ -642,7 +643,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Siamat, Lord of South Wind"],
+			name = AtlasLoot:EJ_GetBossName("Siamat, Lord of South Wind", 122),
 			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
@@ -683,7 +684,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["General Umbriss"],
+			name = AtlasLoot:EJ_GetBossName("General Umbriss", 131),
 			module = moduleName, instance = "GrimBatol",
 		};
 	};
@@ -706,7 +707,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Forgemaster Throngus"],
+			name = AtlasLoot:EJ_GetBossName("Forgemaster Throngus", 132),
 			module = moduleName, instance = "GrimBatol",
 		};
 	};
@@ -729,7 +730,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Drahga Shodowburner"].." & "..BabbleBoss["Valiona"],
+			name = AtlasLoot:EJ_GetBossName("Drahga Shodowburner", 133).." & "..BabbleBoss["Valiona"],
 			module = moduleName, instance = "GrimBatol",
 		};
 	};
@@ -762,7 +763,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Erudax"],
+			name = AtlasLoot:EJ_GetBossName("Erudax", 134),
 			module = moduleName, instance = "GrimBatol",
 		};
 	};
@@ -803,7 +804,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Temple Guardian Anhuur"],
+			name = AtlasLoot:EJ_GetBossName("Temple Guardian Anhuur", 124),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};
@@ -826,7 +827,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Earthrager Ptah"],
+			name = AtlasLoot:EJ_GetBossName("Earthrager Ptah", 125),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};
@@ -849,7 +850,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Anraphet"],
+			name = AtlasLoot:EJ_GetBossName("Anraphet", 126),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};
@@ -872,7 +873,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Isiset"],
+			name = AtlasLoot:EJ_GetBossName("Isiset", 127),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};
@@ -895,7 +896,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ammunae"],
+			name = AtlasLoot:EJ_GetBossName("Ammunae", 128),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};
@@ -918,7 +919,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Setesh"],
+			name = AtlasLoot:EJ_GetBossName("Setesh", 129),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};
@@ -951,7 +952,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Rajh"],
+			name = AtlasLoot:EJ_GetBossName("Rajh", 130),
 			module = moduleName, instance = "HallsOfOrigination",
 		};
 	};	
@@ -991,7 +992,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Glubtok"],
+			name = AtlasLoot:EJ_GetBossName("Glubtok", 89),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1013,7 +1014,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Helix Gearbreaker"],
+			name = AtlasLoot:EJ_GetBossName("Helix Gearbreaker", 90),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1032,7 +1033,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Foe Reaper 5000"],
+			name = AtlasLoot:EJ_GetBossName("Foe Reaper 5000", 91),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1051,7 +1052,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Admiral Ripsnarl"],
+			name = AtlasLoot:EJ_GetBossName("Admiral Ripsnarl", 92),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1074,7 +1075,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["\"Captain\" Cookie"],
+			name = AtlasLoot:EJ_GetBossName("\"Captain\" Cookie", 93),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1096,7 +1097,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Vanessa VanCleef"],
+			name = AtlasLoot:EJ_GetBossName("Vanessa VanCleef", 95),
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};
@@ -1136,7 +1137,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Baron Ashbury"],
+			name = AtlasLoot:EJ_GetBossName("Baron Ashbury", 96),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1158,7 +1159,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Baron Silverlaine"],
+			name = AtlasLoot:EJ_GetBossName("Baron Silverlaine", 97),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1180,7 +1181,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Commander Springvale"],
+			name = AtlasLoot:EJ_GetBossName("Commander Springvale", 98),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1204,7 +1205,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Walden"],
+			name = AtlasLoot:EJ_GetBossName("Lord Walden", 99),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1233,7 +1234,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Godfrey"],
+			name = AtlasLoot:EJ_GetBossName("Lord Godfrey", 100),
 			module = moduleName, instance = "ShadowfangKeep",
 		};
 	};
@@ -1256,6 +1257,288 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = AL["Trash Mobs"],
 			module = moduleName, instance = "ShadowfangKeep",
+		};
+	};
+
+		----------------
+		--- Zul'Aman ---
+		----------------
+
+	AtlasLoot_Data["ZA85AkilZon"] = {
+		["Normal"] = {
+			{
+				{ 1, 69550, "", "=q4=Leggings of Ancient Magics", "=ds=#s11#, #a1#"};
+				{ 2, 69551, "", "=q4=Feathers of Akil'zon", "=ds=#s3#, #a2#"};
+				{ 3, 69549, "", "=q4=Wristguards of the Predator", "=ds=#s8#, #a3#"};
+				{ 4, 69552, "", "=q4=Bracers of Hidden Purpose", "=ds=#s8#, #a4#"};
+				{ 5, 69553, "", "=q4=Talonguard Band", "=ds=#s13#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Akil'zon", 186),
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Nalorakk"] = {
+		["Normal"] = {
+			{
+				{ 1, 69555, "", "=q4=Boots of the Ursine", "=ds=#s12#, #a1#"};
+				{ 2, 69556, "", "=q4=Armbands of the Bear Spirit", "=ds=#s8#, #a2#"};
+				{ 3, 69554, "", "=q4=Pauldrons of Nalorakk", "=ds=#s3#, #a3#"};
+				{ 4, 69558, "", "=q4=Spiritshield Mask", "=ds=#s1#, #a4#"};
+				{ 5, 69557, "", "=q4=Jungle Striders", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Nalorakk", 187),
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85JanAlai"] = {
+		["Normal"] = {
+			{
+				{ 1, 69560, "", "=q4=Jan'alai's Spaulders", "=ds=#s3#, #a1#"};
+				{ 2, 69559, "", "=q4=Amani'shi Bracers", "=ds=#s8#, #a2#"};
+				{ 3, 69561, "", "=q4=Hawkscale Waistguard", "=ds=#s10#, #a3#"};
+				{ 4, 69562, "", "=q4=Boots of Bad Mojo", "=ds=#s12#, #a4#"};
+				{ 5, 69563, "", "=q4=Ring of the Numberless Brood", "=ds=#s13#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Jan'alai", 188),
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Halazzi"] = {
+		["Normal"] = {
+			{
+				{ 1, 69567, "", "=q4=Wristwraps of Departed Spirits", "=ds=#s8#, #a1#"};
+				{ 2, 69564, "", "=q4=The Savager's Mask", "=ds=#s1#, #a2#"};
+				{ 3, 69565, "", "=q4=Breastplate of Primal Fury", "=ds=#s5#, #a3#"};
+				{ 4, 69568, "", "=q4=Shadowmender Wristguards", "=ds=#s8#, #a3#"};
+				{ 5, 69566, "", "=q4=Shimmerclaw Band", "=ds=#s13#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Halazzi", 189),
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Malacrass"] = {
+		["Normal"] = {
+			{
+				{ 1, 69572, "", "=q4=Hex Lord's Bloody Cloak", "=ds=#s4#"};
+				{ 2, 69569, "", "=q4=Shadowtooth Trollskin Breastplate", "=ds=#s5#, #a2#"};
+				{ 3, 69570, "", "=q4=Waistband of Hexes", "=ds=#s10#, #a3#"};
+				{ 4, 69573, "", "=q4=Pauldrons of Sacrifice", "=ds=#s3#, #a4#"};
+				{ 5, 69571, "", "=q4=Soul Drain Signet", "=ds=#s13#"};
+				{ 6, 69762, "", "=q4=Miniature Voodoo Mask", "=ds=#s14#"};
+				{ 8, 69264, "", "=q1=The Hex Lord's Fetish", "=ds=#m3#"};
+				{ 16, 70080, "", "=q4=Reforged Heartless", "=ds=#h1#, #w10#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Hex Lord Malacrass", 190),
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Daakara"] = {
+		["Normal"] = {
+			{
+				{ 1, 69577, "", "=q4=Collar of Bones", "=ds=#s1#, #a1#"};
+				{ 2, 69578, "", "=q4=Hexing Robes", "=ds=#s5#, #a1#"};
+				{ 3, 69579, "", "=q4=Amani Headdress", "=ds=#s1#, #a2#"};
+				{ 4, 69574, "", "=q4=Tusked Shoulderpads", "=ds=#s3#, #a2#"};
+				{ 5, 69576, "", "=q4=Headdress of Sharpened Vision", "=ds=#s1#, #a3#"};
+				{ 6, 69580, "", "=q4=Mask of Restless Spirits", "=ds=#s1#, #a3#"};
+				{ 7, 69582, "", "=q4=Skullpiercer Pauldrons", "=ds=#s3#, #a4#"};
+				{ 8, 69583, "", "=q4=Legguards of the Unforgiving", "=ds=#s11#, #a4#"};
+				{ 16, 69581, "", "=q4=Amani Scepter of Rites", "=ds=#h3#, #w6#"};
+				{ 17, 69575, "", "=q4=Mace of the Sacrificed", "=ds=#h1#, #w6#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Daakara", 191),
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85TimedChest"] = {
+		["Normal"] = {
+			{
+				{ 1, 69584, "", "=q4=Recovered Cloak of Frostheim", "=ds=#s4#"};
+				{ 2, 69585, "", "=q4=Wristwraps of Madness", "=ds=#s8#, #a1#"};
+				{ 3, 69589, "", "=q4=Leggings of Dancing Blades", "=ds=#s11#, #a2#"};
+				{ 4, 69586, "", "=q4=Two-Toed Boots", "=ds=#s12#, #a2#"};
+				{ 5, 69590, "", "=q4=Mojo-Mender's Gloves", "=ds=#s9#, #a3#"};
+				{ 6, 69593, "", "=q4=Battleplate of the Amani Empire", "=ds=#s5#, #a4#"};
+				{ 7, 69587, "", "=q4=Chestplate of Hubris", "=ds=#s5#, #a4#"};
+				{ 8, 69588, "", "=q4=Skullcrusher Warboots", "=ds=#s12#, #a4#"};
+				{ 16, 69591, "", "=q4=Voodoo Hexblade", "=ds=#h3#, #w4#"};
+				{ 17, 69592, "", "=q4=Reforged Trollbane", "=ds=#h2#, #w1#"};
+				{ 19, 69747, "", "=q4=Amani Battle Bear", "=ds=#e26#", ""};
+			};
+		};
+		info = {
+			name = AL["Timed Reward Chest"],
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+	AtlasLoot_Data["ZA85Trash"] = {
+		["Normal"] = {
+			{
+				{ 1, 69797, "", "=q4=Charmbinder Grips", "=ds=#s9#, #a1#"};
+				{ 2, 69801, "", "=q4=Amani Armguards", "=ds=#s8#, #a4#"};
+				{ 4, 69802, "", "=q4=Band of the Gurubashi Berserker", "=ds=#s13#"};
+				{ 5, 69799, "", "=q4=Quickfinger Ring", "=ds=#s13#"};
+				{ 16, 33993, "", "=q3=Mojo", "=ds=#e13#"};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "ZulAman",
+		};
+	};
+
+		------------------
+		--- Zul'Gurub ----
+		------------------
+
+	AtlasLoot_Data["ZGVenoxis"] = {
+		["Normal"] = {
+			{
+				{ 1, 69601, "", "=q4=Serpentine Leggings", "=ds=#s11#, #a1#", ""};
+				{ 2, 69600, "", "=q4=Belt of Slithering Serpents", "=ds=#s10#, #a2#", ""};
+				{ 3, 69603, "", "=q4=Breastplate of Serenity", "=ds=#s5#, #a3#", ""};
+				{ 4, 69604, "", "=q4=Coils of Hate", "=ds=#s10#, #a4#", ""};
+				{ 5, 69602, "", "=q4=Signet of Venoxis", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("High Priest Venoxis", 175),
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGMandokir"] = {
+		["Normal"] = {
+			{
+				{ 1, 69606, "", "=q4=Hakkari Loa Drape", "=ds=#s4#", ""};
+				{ 2, 69608, "", "=q4=Deathcharged Wristguards", "=ds=#s8#, #a4#", ""};
+				{ 3, 69605, "", "=q4=Amulet of the Watcher", "=ds=#s2#", ""};
+				{ 4, 69609, "", "=q4=Bloodlord's Protector", "=ds=#h1#, #w10#", ""};
+				{ 5, 69607, "", "=q4=Touch of Discord", "=ds=#w12#", ""};
+				{ 7, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Bloodlord Mandokir", 176),
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGMadness"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
+				{ 2, 69634, "", "=q4=Fasc's Preserved Boots", "=ds=#s12#, #a2#", ""};
+				{ 3, 69635, "", "=q4=Amulet of Protection", "=ds=#s2#", ""};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
+				{ 6, 69636, "", "=q4=Thekal's Claws", "=ds=#h3#, #w13#", ""};
+				{ 7, 69637, "", "=q4=Gurubashi Destroyer", "=ds=#w5#", ""};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
+				{ 10, 69638, "", "=q4=Arlokk's Claws", "=ds=#h4#, #w13#", ""};
+				{ 11, 69639, "", "=q4=Renataki's Soul Slicer", "=ds=#h1#, #w10#", ""};
+				{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+				{ 14, 69640, "", "=q4=Kilt of Forgotten Rites", "=ds=#s11#, #a3#", ""};
+				{ 15, 69641, "", "=q4=Troll Skull Chestplate", "=ds=#s5#, #a4#", ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};
+				{ 17, 69630, "", "=q4=Handguards of the Tormented", "=ds=#s9#, #a3#", ""};
+				{ 18, 69633, "", "=q4=Plunderer's Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 19, 69632, "", "=q4=Lost Bag of Whammies", "=ds=#s15#", ""};
+				{ 20, 69631, "", "=q4=Zulian Voodoo Stick", "=ds=#w12#", ""};
+				{ 21, 69647, "", "=q1=Mysterious Gurubashi Bijou", "=ds=#m3#", ""};
+			};
+		};
+		info = {
+			name = AL["The Cache of Madness"],
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGKilnara"] = {
+		["Normal"] = {
+			{
+				{ 1, 69612, "", "=q4=Claw-Fringe Mantle", "=ds=#s3#, #a1#", ""};
+				{ 2, 69611, "", "=q4=Sash of Anguish", "=ds=#s10#, #a1#", ""};
+				{ 3, 69613, "", "=q4=Leggings of the Pride", "=ds=#s11#, #a2#", ""};
+				{ 4, 69614, "", "=q4=Roaring Mask of Bethekk", "=ds=#s1#, #a4#", ""};
+				{ 5, 69610, "", "=q4=Arlokk's Signet", "=ds=#s13#", ""};
+				{ 7, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("High Priestess Kilnara", 181),
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGZanzil"] = {
+		["Normal"] = {
+			{
+				{ 1, 69616, "", "=q4=Spiritbinder Spaulders", "=ds=#s3#, #a3#", ""};
+				{ 2, 69615, "", "=q4=Zombie Walker Legguards", "=ds=#s11#, #a3#", ""};
+				{ 3, 69617, "", "=q4=Plumed Medicine Helm", "=ds=#s1#, #a4#", ""};
+				{ 4, 69619, "", "=q4=Bone Plate Handguards", "=ds=#s9#, #a4#", ""};
+				{ 5, 69618, "", "=q4=Zulian Slasher", "=ds=#h1#, #w10#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Zanzil", 184),
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGJindo"] = {
+		["Normal"] = {
+			{
+				{ 1, 69622, "", "=q4=The Hexxer's Headdress", "=ds=#s1#, #a1#", ""};
+				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
+				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
+				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
+				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h2#, #w6#", ""};
+				{ 7, 69626, "", "=q4=Jin'do's Verdict", "=ds=#w9#", ""};
+				{ 8, 69624, "", "=q4=Legacy of Arlokk", "=ds=#w9#", ""};
+				{ 16, 69629, "", "=q4=Shield of the Blood God", "=ds=#w8#", ""};
+				{ 17, 69627, "", "=q4=Zulian Ward", "=ds=#w8#", ""};
+				{ 18, 69625, "", "=q4=Mandokir's Tribute", "=ds=#w2#", ""};
+				{ 20, 69774, "", "=q1=Zul'Gurub Stone", "=ds=#m3#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Jin'do the Godbreaker", 185),
+			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+	AtlasLoot_Data["ZGTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 69800, "", "=q4=Spiritguard Drape", "=ds=#s4#"};
+				{ 2, 69796, "", "=q4=Spiritcaller Cloak", "=ds=#s4#"};
+				{ 3, 69798, "", "=q4=Knotted Handwraps", "=ds=#s9#, #a2#"};
+				{ 5, 69803, "", "=q4=Gurubashi Punisher", "=ds=#h1#, #w6#"};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "ZulGurub",
 		};
 	};
 
@@ -1300,7 +1583,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Halfus Wyrmbreaker"],
+			name = AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156),
 			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
@@ -1339,7 +1622,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Valiona and Theralion"],
+			name = AtlasLoot:EJ_GetBossName("Valiona and Theralion", 157),
 			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
@@ -1378,7 +1661,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ascendant Council"],
+			name = AtlasLoot:EJ_GetBossName("Ascendant Council", 158),
 			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
@@ -1425,7 +1708,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Cho'gall"],
+			name = AtlasLoot:EJ_GetBossName("Cho'gall", 167),
 			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
@@ -1449,7 +1732,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Sinestra"],
+			name = AtlasLoot:EJ_GetBossName("Sinestra", 168),
 			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
@@ -1515,7 +1798,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Magmaw"],
+			name = AtlasLoot:EJ_GetBossName("Magmaw", 170),
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
@@ -1554,7 +1837,46 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Omnotron Defense System"],
+			name = AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169),
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDChimaeron"] = {
+		["Normal"] = {
+			{
+				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
+				{ 2, 59234, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
+				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 4, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 5, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 6, 59355, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 7, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 8, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 16, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 17, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 19, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65065, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
+				{ 2, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
+				{ 3, 65021, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 4, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 5, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 6, 65028, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 7, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 8, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 9, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 16, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 17, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 19, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Chimaeron", 172),
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
@@ -1596,7 +1918,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Maloriak"],
+			name = AtlasLoot:EJ_GetBossName("Maloriak", 173),
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
@@ -1635,46 +1957,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Atramedes"],
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDChimaeron"] = {
-		["Normal"] = {
-			{
-				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
-				{ 2, 59234, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
-				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
-				{ 4, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
-				{ 5, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
-				{ 6, 59355, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
-				{ 7, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
-				{ 8, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 16, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 17, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 19, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65065, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
-				{ 2, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
-				{ 3, 65021, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
-				{ 4, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
-				{ 5, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
-				{ 6, 65028, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
-				{ 7, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
-				{ 8, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 9, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 16, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 17, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 19, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["Chimaeron"],
+			name = AtlasLoot:EJ_GetBossName("Atramedes", 171),
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
@@ -1721,7 +2004,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Nefarian"],
+			name = AtlasLoot:EJ_GetBossName("Nefarian", 174),
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
@@ -1973,7 +2256,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Argaloth"],
+			name = AtlasLoot:EJ_GetBossName("Argaloth", 139),
 			module = moduleName, menu = "ARGALOTH", instance = "BaradinHold",
 		};
 	};
@@ -2198,11 +2481,361 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Occu'thar",
+			name = AtlasLoot:EJ_GetBossName("Occu'thar", 140),
 			module = moduleName, menu = "OCCUTHAR", instance = "BaradinHold",
 		};
 	};
-		
+
+		----------------------
+		--- The Firelands ----
+		----------------------
+
+	AtlasLoot_Data["FirelandsBethtilac"] = {
+		["Normal"] = {
+			{
+				{ 1, 71041, "", "=q4=Robes of Smoldering Devastation", "=ds=#s5#, #a1#"};
+				{ 2, 71040, "", "=q4=Cowl of the Clicking Menace", "=ds=#s1#, #a2#"};
+				{ 3, 71044, "", "=q4=Cindersilk Gloves", "=ds=#s9#, #a2#"};
+				{ 4, 71031, "", "=q4=Cinderweb Leggings", "=ds=#s11#, #a2#"};
+				{ 5, 71030, "", "=q4=Flickering Shoulders", "=ds=#s3#, #a3#"};
+				{ 6, 71042, "", "=q4=Thoracic Flame Kilt", "=ds=#s11#, #a3#"};
+				{ 7, 71043, "", "=q4=Spaulders of Manifold Eyes", "=ds=#s3#, #a4#"};
+				{ 8, 70914, "", "=q4=Carapace of Imbibed Flame", "=ds=#s5#, #a4#"};
+				{ 9, 71029, "", "=q4=Arachnaflame Treads", "=ds=#s12#, #a4#"};
+				{ 11, 71032, "", "=q4=Widow's Kiss", "=ds=#s13#"};
+				{ 12, 68981, "", "=q4=Spidersilk Spindle", "=ds=#s14#" },
+				{ 16, 70922, "", "=q4=Mandible of Beth'tilac", "=ds=#h1#, #w10#"};
+				{ 17, 71039, "", "=q4=Funeral Pyre", "=ds=#w9#"};
+				{ 18, 71038, "", "=q4=Ward of the Red Widow", "=ds=#w8#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71407, "", "=q4=Robes of Smoldering Devastation", "=ds=#s5#, #a1#"};
+				{ 2, 71411, "", "=q4=Cowl of the Clicking Menace", "=ds=#s1#, #a2#"};
+				{ 3, 71410, "", "=q4=Cindersilk Gloves", "=ds=#s9#, #a2#"};
+				{ 4, 71402, "", "=q4=Cinderweb Leggings", "=ds=#s11#, #a2#"};
+				{ 5, 71403, "", "=q4=Flickering Shoulders", "=ds=#s3#, #a3#"};
+				{ 6, 71412, "", "=q4=Thoracic Flame Kilt", "=ds=#s11#, #a3#"};
+				{ 7, 71413, "", "=q4=Spaulders of Manifold Eyes", "=ds=#s3#, #a4#"};
+				{ 8, 71405, "", "=q4=Carapace of Imbibed Flame", "=ds=#s5#, #a4#"};
+				{ 9, 71404, "", "=q4=Arachnaflame Treads", "=ds=#s12#, #a4#"};
+				{ 11, 71401, "", "=q4=Widow's Kiss", "=ds=#s13#"};
+				{ 12, 69138, "", "=q4=Spidersilk Spindle", "=ds=#s14#" },
+				{ 16, 71406, "", "=q4=Mandible of Beth'tilac", "=ds=#h1#, #w10#"};
+				{ 17, 71409, "", "=q4=Funeral Pyre", "=ds=#w9#"};
+				{ 18, 71408, "", "=q4=Ward of the Red Widow", "=ds=#w8#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Beth'tilac", 192),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsRhyolith"] = {
+		["Normal"] = {
+			{
+				{ 1, 70992, "", "=q4=Dreadfire Drape", "=ds=#s4#"};
+				{ 2, 71011, "", "=q4=Flickering Cowl", "=ds=#s1#, #a1#"};
+				{ 3, 71003, "", "=q4=Hood of Rampant Disdain", "=ds=#s1#, #a2#"};
+				{ 4, 71010, "", "=q4=Incendic Chestguard", "=ds=#s5#, #a2#"};
+				{ 5, 71005, "", "=q4=Flaming Core Chestguard", "=ds=#s5#, #a3#"};
+				{ 6, 71009, "", "=q4=Lava Line Wristbands", "=ds=#s8#, #a3#"};
+				{ 7, 71004, "", "=q4=Earthcrack Bracers", "=ds=#s8#, #a4#"};
+				{ 8, 70993, "", "=q4=Fireskin Gauntlets", "=ds=#s9#, #a4#"};
+				{ 9, 71007, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
+				{ 10, 70912, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
+				{ 16, 71012, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
+				{ 18, 71006, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
+				{ 19, 70991, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71415, "", "=q4=Dreadfire Drape", "=ds=#s4#"};
+				{ 2, 71421, "", "=q4=Flickering Cowl", "=ds=#s1#, #a1#"};
+				{ 3, 71416, "", "=q4=Hood of Rampant Disdain", "=ds=#s1#, #a2#"};
+				{ 4, 71424, "", "=q4=Incendic Chestguard", "=ds=#s5#, #a2#"};
+				{ 5, 71417, "", "=q4=Flaming Core Chestguard", "=ds=#s5#, #a3#"};
+				{ 6, 71425, "", "=q4=Lava Line Wristbands", "=ds=#s8#, #a3#"};
+				{ 7, 71418, "", "=q4=Earthcrack Bracers", "=ds=#s8#, #a4#"};
+				{ 8, 71419, "", "=q4=Fireskin Gauntlets", "=ds=#s9#, #a4#"};
+				{ 9, 71426, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
+				{ 10, 71420, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
+				{ 16, 71423, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
+				{ 18, 71422, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
+				{ 19, 71414, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Lord Rhyolith", 193),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsAlysrazor"] = {
+		["Normal"] = {
+			{
+				{ 1, 70990, "", "=q4=Wings of Flame", "=ds=#s4#"};
+				{ 2, 70989, "", "=q4=Leggings of Billowing Fire", "=ds=#s11#, #a1#"};
+				{ 3, 70735, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#"};
+				{ 4, 70987, "", "=q4=Phoenix-Down Treads", "=ds=#s12#, #a2#"};
+				{ 5, 70985, "", "=q4=Craterflame Spaulders", "=ds=#s3#, #a3#"};
+				{ 6, 70986, "", "=q4=Clawshaper Gauntlets", "=ds=#s9#, #a3#"};
+				{ 7, 70736, "", "=q4=Moltenfeather Leggings", "=ds=#s11#, #a3#"};
+				{ 8, 70734, "", "=q4=Greathelm of the Voracious Maw", "=ds=#s1#, #a4#"};
+				{ 9, 70737, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
+				{ 10, 70988, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
+				{ 11, 70739, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
+				{ 16, 70738, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
+				{ 17, 68983, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
+				{ 19, 70733, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71434, "", "=q4=Wings of Flame", "=ds=#s4#"};
+				{ 2, 71435, "", "=q4=Leggings of Billowing Fire", "=ds=#s11#, #a1#"};
+				{ 3, 71428, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#"};
+				{ 4, 71436, "", "=q4=Phoenix-Down Treads", "=ds=#s12#, #a2#"};
+				{ 5, 71438, "", "=q4=Craterflame Spaulders", "=ds=#s3#, #a3#"};
+				{ 6, 71437, "", "=q4=Clawshaper Gauntlets", "=ds=#s9#, #a3#"};
+				{ 7, 71429, "", "=q4=Moltenfeather Leggings", "=ds=#s11#, #a3#"};
+				{ 8, 71430, "", "=q4=Greathelm of the Voracious Maw", "=ds=#s1#, #a4#"};
+				{ 9, 71432, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
+				{ 10, 71439, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
+				{ 11, 71431, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
+				{ 16, 71433, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
+				{ 17, 69149, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
+				{ 19, 71427, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Alysrazor", 194),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsShannox"] = {
+		["Normal"] = {
+			{
+				{ 1, 71023, "", "=q4=Coalwalker Sandals", "=ds=#s12#, #a1#"};
+				{ 2, 71025, "", "=q4=Flickering Shoulderpads", "=ds=#s3#, #a2#"};
+				{ 3, 71020, "", "=q4=Gloves of Dissolving Smoke", "=ds=#s9#, #a2#"};
+				{ 4, 71018, "", "=q4=Scalp of the Bandit Prince", "=ds=#s1#, #a3#"};
+				{ 5, 71027, "", "=q4=Treads of Implicit Obedience", "=ds=#s12#, #a3#"};
+				{ 6, 71026, "", "=q4=Bracers of the Dread Hunter", "=ds=#s8#, #a4#"};
+				{ 7, 71021, "", "=q4=Uncrushable Belt of Fury", "=ds=#s10#, #a4#"};
+				{ 8, 71028, "", "=q4=Legplates of Absolute Control", "=ds=#s11#, #a4#"};
+				{ 9, 70913, "", "=q4=Legplates of Frenzied Devotion", "=ds=#s11#, #a4#"};
+				{ 11, 71019, "", "=q4=Necklace of Fetishes", "=ds=#s2#"};
+				{ 12, 71024, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
+				{ 13, 71022, "", "=q4=Goblet of Anger", "=ds=#s15#"};
+				{ 16, 71014, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
+				{ 17, 71013, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71447, "", "=q4=Coalwalker Sandals", "=ds=#s12#, #a1#"};
+				{ 2, 71450, "", "=q4=Flickering Shoulderpads", "=ds=#s3#, #a2#"};
+				{ 3, 71440, "", "=q4=Gloves of Dissolving Smoke", "=ds=#s9#, #a2#"};
+				{ 4, 71442, "", "=q4=Scalp of the Bandit Prince", "=ds=#s1#, #a3#"};
+				{ 5, 71451, "", "=q4=Treads of Implicit Obedience", "=ds=#s12#, #a3#"};
+				{ 6, 71452, "", "=q4=Bracers of the Dread Hunter", "=ds=#s8#, #a4#"};
+				{ 7, 71443, "", "=q4=Uncrushable Belt of Fury", "=ds=#s10#, #a4#"};
+				{ 8, 71453, "", "=q4=Legplates of Absolute Control", "=ds=#s11#, #a4#"};
+				{ 9, 71444, "", "=q4=Legplates of Frenzied Devotion", "=ds=#s11#, #a4#"};
+				{ 11, 71446, "", "=q4=Necklace of Fetishes", "=ds=#s2#"};
+				{ 12, 71449, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
+				{ 13, 71448, "", "=q4=Goblet of Anger", "=ds=#s15#"};
+				{ 16, 71445, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
+				{ 17, 71441, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Shannox", 195),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsBaleroc"] = {
+		["Normal"] = {
+			{
+				{ 1, 71343, "", "=q4=Mantle of Closed Doors", "=ds=#s3#, #a1#"};
+				{ 2, 71345, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#"};
+				{ 3, 71314, "", "=q4=Breastplate of the Incendiary Soul", "=ds=#s5#, #a2#"};
+				{ 4, 71341, "", "=q4=Glowing Wing Bracers", "=ds=#s8#, #a2#"};
+				{ 5, 71340, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#"};
+				{ 6, 71315, "", "=q4=Decimation Treads", "=ds=#s12#, #a3#"};
+				{ 7, 71342, "", "=q4=Casque of Flame", "=ds=#s1#, #a4#"};
+				{ 8, 70916, "", "=q4=Helm of Blazing Glory", "=ds=#s1#, #a4#"};
+				{ 9, 70917, "", "=q4=Flickering Handguards", "=ds=#s9#, #a4#"};
+				{ 11, 68982, "", "=q4=Necromantic Focus", "=ds=#s14#" },
+				{ 12, 71323, "", "=q4=Molten Scream", "=ds=#s15#"};
+				{ 16, 71312, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
+				{ 17, 70915, "", "=q4=Shard of Torment", "=ds=#w8#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71461, "", "=q4=Mantle of Closed Doors", "=ds=#s3#, #a1#"};
+				{ 2, 71456, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#"};
+				{ 3, 71455, "", "=q4=Breastplate of the Incendiary Soul", "=ds=#s5#, #a2#"};
+				{ 4, 71463, "", "=q4=Glowing Wing Bracers", "=ds=#s8#, #a2#"};
+				{ 5, 71464, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#"};
+				{ 6, 71457, "", "=q4=Decimation Treads", "=ds=#s12#, #a3#"};
+				{ 7, 71465, "", "=q4=Casque of Flame", "=ds=#s1#, #a4#"};
+				{ 8, 71459, "", "=q4=Helm of Blazing Glory", "=ds=#s1#, #a4#"};
+				{ 9, 71458, "", "=q4=Flickering Handguards", "=ds=#s9#, #a4#"};
+				{ 11, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
+				{ 12, 71462, "", "=q4=Molten Scream", "=ds=#s15#"};
+				{ 16, 71454, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
+				{ 17, 71460, "", "=q4=Shard of Torment", "=ds=#w8#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Baleroc, the Gatekeeper", 196),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsStaghelm"] = {
+		["Normal"] = {
+			{
+				{ 1, 71350, "", "=q4=Wristwraps of Arrogant Doom", "=ds=#s8#, #a1#"};
+				{ 2, 71349, "", "=q4=Firecat Leggings", "=ds=#s11#, #a2#"};
+				{ 3, 71313, "", "=q4=Sandals of Leaping Coals", "=ds=#s12#, #a2#"};
+				{ 4, 71346, "", "=q4=Grips of Unerring Precision", "=ds=#s9#, #a3#"};
+				{ 5, 71344, "", "=q4=Breastplate of Shifting Visions", "=ds=#s5#, #a4#"};
+				{ 6, 70920, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
+				{ 7, 71351, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
+				{ 9, 71348, "", "=q4=Flowform Choker", "=ds=#s2#"};
+				{ 10, 68927, "", "=q4=The Hungerer", "=ds=#s14#" };
+				{ 11, 68926, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
+				{ 16, 69897, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
+				{ 17, 71347, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71471, "", "=q4=Wristwraps of Arrogant Doom", "=ds=#s8#, #a1#"};
+				{ 2, 71474, "", "=q4=Firecat Leggings", "=ds=#s11#, #a2#"};
+				{ 3, 71467, "", "=q4=Sandals of Leaping Coals", "=ds=#s12#, #a2#"};
+				{ 4, 71468, "", "=q4=Grips of Unerring Precision", "=ds=#s9#, #a3#"};
+				{ 5, 71469, "", "=q4=Breastplate of Shifting Visions", "=ds=#s5#, #a4#"};
+				{ 6, 71470, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
+				{ 7, 71475, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
+				{ 9, 71472, "", "=q4=Flowform Choker", "=ds=#s2#"};
+				{ 10, 69112, "", "=q4=The Hungerer", "=ds=#s14#" };
+				{ 11, 69111, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
+				{ 16, 71466, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
+				{ 17, 71473, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsRagnaros"] = {
+		["Normal"] = {
+			{
+				{ 1, 71358, "", "=q4=Fingers of Incineration", "=ds=#s9#, #a1#"};
+				{ 2, 71357, "", "=q4=Majordomo's Chain of Office", "=ds=#s10#, #a1#"};
+				{ 3, 71356, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
+				{ 4, 70921, "", "=q4=Pauldrons of Roaring Flame", "=ds=#s3#, #a4#"};
+				{ 6, 71354, "", "=q4=Choker of the Vanquished Lord", "=ds=#s2#"};
+				{ 7, 68994, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
+				{ 8, 68925, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
+				{ 9, 68995, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
+				{ 16, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 17, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
+				{ 18, 71798, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
+				{ 19, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
+				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 71614, "", "=q4=Fingers of Incineration", "=ds=#s9#, #a1#"};
+				{ 2, 71613, "", "=q4=Majordomo's Chain of Office", "=ds=#s10#, #a1#"};
+				{ 3, 71616, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
+				{ 4, 71612, "", "=q4=Pauldrons of Roaring Flame", "=ds=#s3#, #a4#"};
+				{ 6, 71610, "", "=q4=Choker of the Vanquished Lord", "=ds=#s2#"};
+				{ 7, 69150, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
+				{ 8, 69110, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
+				{ 9, 69167, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
+				{ 16, 71615, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
+				{ 17, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
+				{ 18, 71797, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
+				{ 19, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
+				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ragnaros", 198),
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 71640, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
+				{ 2, 71365, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
+				{ 4, 70929, "", "=q4=Firebound Gorget", "=ds=#s2#"};
+				{ 5, 71367, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
+				{ 6, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
+				{ 7, 68915, "", "=q4=Scales of Life", "=ds=#s14#" },
+				{ 16, 71359, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
+				{ 17, 71362, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
+				{ 18, 71361, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
+				{ 19, 71360, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
+				{ 20, 71366, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
+	AtlasLoot_Data["FirelandsFirestone"] = {
+		["Normal"] = {
+			{
+				{ 1, 71641, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
+				{ 2, 71561, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
+				{ 4, 71563, "", "=q4=Firebound Gorget", "=ds=#s2#"};
+				{ 5, 71564, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
+				{ 6, 69113, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
+				{ 7, 69109, "", "=q4=Scales of Life", "=ds=#s14#" },
+				{ 9, 71560, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
+				{ 10, 71562, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
+				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
+				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
+				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
+    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
+    			{ 17, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#"},
+    			{ 18, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#"},
+    			{ 19, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#"},
+    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
+    			{ 22, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
+    			{ 23, 71151, "", "=q4=Trail of Embers", "=ds=#w12#"},
+    			{ 25, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#"},
+    			{ 26, 71154, "", "=q4=Giantslicer", "=ds=#w11#"},
+    			{ 27, 71218, "", "=q4=Deflecting Star", "=ds=#w11#"},
+    			{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
+			};
+		};
+		info = {
+			name = AL["Firestone Vendor"],
+			module = moduleName, instance = "Firelands",
+		};
+	};
+
 		---------------------------------
 		--- Throne of the Four Winds ----
 		---------------------------------
@@ -2239,7 +2872,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Conclave of Wind"],
+			name = AtlasLoot:EJ_GetBossName("Conclave of Wind", 154),
 			module = moduleName, instance = "ThroneOfTheFourWinds",
 		};
 	};
@@ -2307,641 +2940,8 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = BabbleBoss["Al'Akir"],
+			name = AtlasLoot:EJ_GetBossName("Al'Akir", 155),
 			module = moduleName, instance = "ThroneOfTheFourWinds",
-		};
-	};
-
-		----------------
-		--- Zul'Aman ---
-		----------------
-
-	AtlasLoot_Data["ZA85AkilZon"] = {
-		["Normal"] = {
-			{
-				{ 1, 69550, "", "=q4=Leggings of Ancient Magics", "=ds=#s11#, #a1#"};
-				{ 2, 69551, "", "=q4=Feathers of Akil'zon", "=ds=#s3#, #a2#"};
-				{ 3, 69549, "", "=q4=Wristguards of the Predator", "=ds=#s8#, #a3#"};
-				{ 4, 69552, "", "=q4=Bracers of Hidden Purpose", "=ds=#s8#, #a4#"};
-				{ 5, 69553, "", "=q4=Talonguard Band", "=ds=#s13#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Akil'zon"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85Nalorakk"] = {
-		["Normal"] = {
-			{
-				{ 1, 69555, "", "=q4=Boots of the Ursine", "=ds=#s12#, #a1#"};
-				{ 2, 69556, "", "=q4=Armbands of the Bear Spirit", "=ds=#s8#, #a2#"};
-				{ 3, 69554, "", "=q4=Pauldrons of Nalorakk", "=ds=#s3#, #a3#"};
-				{ 4, 69558, "", "=q4=Spiritshield Mask", "=ds=#s1#, #a4#"};
-				{ 5, 69557, "", "=q4=Jungle Striders", "=ds=#s11#, #a4#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Nalorakk"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85JanAlai"] = {
-		["Normal"] = {
-			{
-				{ 1, 69560, "", "=q4=Jan'alai's Spaulders", "=ds=#s3#, #a1#"};
-				{ 2, 69559, "", "=q4=Amani'shi Bracers", "=ds=#s8#, #a2#"};
-				{ 3, 69561, "", "=q4=Hawkscale Waistguard", "=ds=#s10#, #a3#"};
-				{ 4, 69562, "", "=q4=Boots of Bad Mojo", "=ds=#s12#, #a4#"};
-				{ 5, 69563, "", "=q4=Ring of the Numberless Brood", "=ds=#s13#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Jan'alai"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85Halazzi"] = {
-		["Normal"] = {
-			{
-				{ 1, 69567, "", "=q4=Wristwraps of Departed Spirits", "=ds=#s8#, #a1#"};
-				{ 2, 69564, "", "=q4=The Savager's Mask", "=ds=#s1#, #a2#"};
-				{ 3, 69565, "", "=q4=Breastplate of Primal Fury", "=ds=#s5#, #a3#"};
-				{ 4, 69568, "", "=q4=Shadowmender Wristguards", "=ds=#s8#, #a3#"};
-				{ 5, 69566, "", "=q4=Shimmerclaw Band", "=ds=#s13#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Halazzi"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85Malacrass"] = {
-		["Normal"] = {
-			{
-				{ 1, 69572, "", "=q4=Hex Lord's Bloody Cloak", "=ds=#s4#"};
-				{ 2, 69569, "", "=q4=Shadowtooth Trollskin Breastplate", "=ds=#s5#, #a2#"};
-				{ 3, 69570, "", "=q4=Waistband of Hexes", "=ds=#s10#, #a3#"};
-				{ 4, 69573, "", "=q4=Pauldrons of Sacrifice", "=ds=#s3#, #a4#"};
-				{ 5, 69571, "", "=q4=Soul Drain Signet", "=ds=#s13#"};
-				{ 6, 69762, "", "=q4=Miniature Voodoo Mask", "=ds=#s14#"};
-				{ 8, 69264, "", "=q1=The Hex Lord's Fetish", "=ds=#m3#"};
-				{ 16, 70080, "", "=q4=Reforged Heartless", "=ds=#h1#, #w10#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Hex Lord Malacrass"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85Daakara"] = {
-		["Normal"] = {
-			{
-				{ 1, 69577, "", "=q4=Collar of Bones", "=ds=#s1#, #a1#"};
-				{ 2, 69578, "", "=q4=Hexing Robes", "=ds=#s5#, #a1#"};
-				{ 3, 69579, "", "=q4=Amani Headdress", "=ds=#s1#, #a2#"};
-				{ 4, 69574, "", "=q4=Tusked Shoulderpads", "=ds=#s3#, #a2#"};
-				{ 5, 69576, "", "=q4=Headdress of Sharpened Vision", "=ds=#s1#, #a3#"};
-				{ 6, 69580, "", "=q4=Mask of Restless Spirits", "=ds=#s1#, #a3#"};
-				{ 7, 69582, "", "=q4=Skullpiercer Pauldrons", "=ds=#s3#, #a4#"};
-				{ 8, 69583, "", "=q4=Legguards of the Unforgiving", "=ds=#s11#, #a4#"};
-				{ 16, 69581, "", "=q4=Amani Scepter of Rites", "=ds=#h3#, #w6#"};
-				{ 17, 69575, "", "=q4=Mace of the Sacrificed", "=ds=#h1#, #w6#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Daakara"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85TimedChest"] = {
-		["Normal"] = {
-			{
-				{ 1, 69584, "", "=q4=Recovered Cloak of Frostheim", "=ds=#s4#"};
-				{ 2, 69585, "", "=q4=Wristwraps of Madness", "=ds=#s8#, #a1#"};
-				{ 3, 69589, "", "=q4=Leggings of Dancing Blades", "=ds=#s11#, #a2#"};
-				{ 4, 69586, "", "=q4=Two-Toed Boots", "=ds=#s12#, #a2#"};
-				{ 5, 69590, "", "=q4=Mojo-Mender's Gloves", "=ds=#s9#, #a3#"};
-				{ 6, 69593, "", "=q4=Battleplate of the Amani Empire", "=ds=#s5#, #a4#"};
-				{ 7, 69587, "", "=q4=Chestplate of Hubris", "=ds=#s5#, #a4#"};
-				{ 8, 69588, "", "=q4=Skullcrusher Warboots", "=ds=#s12#, #a4#"};
-				{ 16, 69591, "", "=q4=Voodoo Hexblade", "=ds=#h3#, #w4#"};
-				{ 17, 69592, "", "=q4=Reforged Trollbane", "=ds=#h2#, #w1#"};
-				{ 19, 69747, "", "=q4=Amani Battle Bear", "=ds=#e26#", ""};
-			};
-		};
-		info = {
-			name = AL["Timed Reward Chest"],
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-	AtlasLoot_Data["ZA85Trash"] = {
-		["Normal"] = {
-			{
-				{ 1, 69797, "", "=q4=Charmbinder Grips", "=ds=#s9#, #a1#"};
-				{ 2, 69801, "", "=q4=Amani Armguards", "=ds=#s8#, #a4#"};
-				{ 4, 69802, "", "=q4=Band of the Gurubashi Berserker", "=ds=#s13#"};
-				{ 5, 69799, "", "=q4=Quickfinger Ring", "=ds=#s13#"};
-				{ 16, 33993, "", "=q3=Mojo", "=ds=#e13#"};
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "ZulAman",
-		};
-	};
-
-
-		------------------
-		--- Zul'Gurub ----
-		------------------
-
-	AtlasLoot_Data["ZGVenoxis"] = {
-		["Normal"] = {
-			{
-				{ 1, 69601, "", "=q4=Serpentine Leggings", "=ds=#s11#, #a1#", ""};
-				{ 2, 69600, "", "=q4=Belt of Slithering Serpents", "=ds=#s10#, #a2#", ""};
-				{ 3, 69603, "", "=q4=Breastplate of Serenity", "=ds=#s5#, #a3#", ""};
-				{ 4, 69604, "", "=q4=Coils of Hate", "=ds=#s10#, #a4#", ""};
-				{ 5, 69602, "", "=q4=Signet of Venoxis", "=ds=#s13#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["High Priest Venoxis"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGMandokir"] = {
-		["Normal"] = {
-			{
-				{ 1, 69606, "", "=q4=Hakkari Loa Drape", "=ds=#s4#", ""};
-				{ 2, 69608, "", "=q4=Deathcharged Wristguards", "=ds=#s8#, #a4#", ""};
-				{ 3, 69605, "", "=q4=Amulet of the Watcher", "=ds=#s2#", ""};
-				{ 4, 69609, "", "=q4=Bloodlord's Protector", "=ds=#h1#, #w10#", ""};
-				{ 5, 69607, "", "=q4=Touch of Discord", "=ds=#w12#", ""};
-				{ 7, 68823, "", "=q4=Armored Razzashi Raptor", "=ds=#e26#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["Bloodlord Mandokir"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGMadness"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
-				{ 2, 69634, "", "=q4=Fasc's Preserved Boots", "=ds=#s12#, #a2#", ""};
-				{ 3, 69635, "", "=q4=Amulet of Protection", "=ds=#s2#", ""};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
-				{ 6, 69636, "", "=q4=Thekal's Claws", "=ds=#h3#, #w13#", ""};
-				{ 7, 69637, "", "=q4=Gurubashi Destroyer", "=ds=#w5#", ""};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
-				{ 10, 69638, "", "=q4=Arlokk's Claws", "=ds=#h4#, #w13#", ""};
-				{ 11, 69639, "", "=q4=Renataki's Soul Slicer", "=ds=#h1#, #w10#", ""};
-				{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
-				{ 14, 69640, "", "=q4=Kilt of Forgotten Rites", "=ds=#s11#, #a3#", ""};
-				{ 15, 69641, "", "=q4=Troll Skull Chestplate", "=ds=#s5#, #a4#", ""};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};
-				{ 17, 69630, "", "=q4=Handguards of the Tormented", "=ds=#s9#, #a3#", ""};
-				{ 18, 69633, "", "=q4=Plunderer's Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 19, 69632, "", "=q4=Lost Bag of Whammies", "=ds=#s15#", ""};
-				{ 20, 69631, "", "=q4=Zulian Voodoo Stick", "=ds=#w12#", ""};
-				{ 21, 69647, "", "=q1=Mysterious Gurubashi Bijou", "=ds=#m3#", ""};
-			};
-		};
-		info = {
-			name = AL["The Cache of Madness"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGKilnara"] = {
-		["Normal"] = {
-			{
-				{ 1, 69612, "", "=q4=Claw-Fringe Mantle", "=ds=#s3#, #a1#", ""};
-				{ 2, 69611, "", "=q4=Sash of Anguish", "=ds=#s10#, #a1#", ""};
-				{ 3, 69613, "", "=q4=Leggings of the Pride", "=ds=#s11#, #a2#", ""};
-				{ 4, 69614, "", "=q4=Roaring Mask of Bethekk", "=ds=#s1#, #a4#", ""};
-				{ 5, 69610, "", "=q4=Arlokk's Signet", "=ds=#s13#", ""};
-				{ 7, 68824, "", "=q4=Swift Zulian Panther", "=ds=#e26#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["High Priestess Kilnara"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGZanzil"] = {
-		["Normal"] = {
-			{
-				{ 1, 69616, "", "=q4=Spiritbinder Spaulders", "=ds=#s3#, #a3#", ""};
-				{ 2, 69615, "", "=q4=Zombie Walker Legguards", "=ds=#s11#, #a3#", ""};
-				{ 3, 69617, "", "=q4=Plumed Medicine Helm", "=ds=#s1#, #a4#", ""};
-				{ 4, 69619, "", "=q4=Bone Plate Handguards", "=ds=#s9#, #a4#", ""};
-				{ 5, 69618, "", "=q4=Zulian Slasher", "=ds=#h1#, #w10#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["Zanzil"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGJindo"] = {
-		["Normal"] = {
-			{
-				{ 1, 69622, "", "=q4=The Hexxer's Headdress", "=ds=#s1#, #a1#", ""};
-				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
-				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
-				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
-				{ 6, 69628, "", "=q4=Jeklik's Smasher", "=ds=#h2#, #w6#", ""};
-				{ 7, 69626, "", "=q4=Jin'do's Verdict", "=ds=#w9#", ""};
-				{ 8, 69624, "", "=q4=Legacy of Arlokk", "=ds=#w9#", ""};
-				{ 16, 69629, "", "=q4=Shield of the Blood God", "=ds=#w8#", ""};
-				{ 17, 69627, "", "=q4=Zulian Ward", "=ds=#w8#", ""};
-				{ 18, 69625, "", "=q4=Mandokir's Tribute", "=ds=#w2#", ""};
-				{ 20, 69774, "", "=q1=Zul'Gurub Stone", "=ds=#m3#", ""};
-			};
-		};
-		info = {
-			name = BabbleBoss["Jin'do the Godbreaker"],
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-	AtlasLoot_Data["ZGTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 69800, "", "=q4=Spiritguard Drape", "=ds=#s4#"};
-				{ 2, 69796, "", "=q4=Spiritcaller Cloak", "=ds=#s4#"};
-				{ 3, 69798, "", "=q4=Knotted Handwraps", "=ds=#s9#, #a2#"};
-				{ 5, 69803, "", "=q4=Gurubashi Punisher", "=ds=#h1#, #w6#"};
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-		----------------------
-		--- The Firelands ----
-		----------------------
-
-	AtlasLoot_Data["FirelandsBethtilac"] = {
-		["Normal"] = {
-			{
-				{ 1, 71041, "", "=q4=Robes of Smoldering Devastation", "=ds=#s5#, #a1#"};
-				{ 2, 71040, "", "=q4=Cowl of the Clicking Menace", "=ds=#s1#, #a2#"};
-				{ 3, 71044, "", "=q4=Cindersilk Gloves", "=ds=#s9#, #a2#"};
-				{ 4, 71031, "", "=q4=Cinderweb Leggings", "=ds=#s11#, #a2#"};
-				{ 5, 71030, "", "=q4=Flickering Shoulders", "=ds=#s3#, #a3#"};
-				{ 6, 71042, "", "=q4=Thoracic Flame Kilt", "=ds=#s11#, #a3#"};
-				{ 7, 71043, "", "=q4=Spaulders of Manifold Eyes", "=ds=#s3#, #a4#"};
-				{ 8, 70914, "", "=q4=Carapace of Imbibed Flame", "=ds=#s5#, #a4#"};
-				{ 9, 71029, "", "=q4=Arachnaflame Treads", "=ds=#s12#, #a4#"};
-				{ 11, 71032, "", "=q4=Widow's Kiss", "=ds=#s13#"};
-				{ 12, 68981, "", "=q4=Spidersilk Spindle", "=ds=#s14#" },
-				{ 16, 70922, "", "=q4=Mandible of Beth'tilac", "=ds=#h1#, #w10#"};
-				{ 17, 71039, "", "=q4=Funeral Pyre", "=ds=#w9#"};
-				{ 18, 71038, "", "=q4=Ward of the Red Widow", "=ds=#w8#"};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71407, "", "=q4=Robes of Smoldering Devastation", "=ds=#s5#, #a1#"};
-				{ 2, 71411, "", "=q4=Cowl of the Clicking Menace", "=ds=#s1#, #a2#"};
-				{ 3, 71410, "", "=q4=Cindersilk Gloves", "=ds=#s9#, #a2#"};
-				{ 4, 71402, "", "=q4=Cinderweb Leggings", "=ds=#s11#, #a2#"};
-				{ 5, 71403, "", "=q4=Flickering Shoulders", "=ds=#s3#, #a3#"};
-				{ 6, 71412, "", "=q4=Thoracic Flame Kilt", "=ds=#s11#, #a3#"};
-				{ 7, 71413, "", "=q4=Spaulders of Manifold Eyes", "=ds=#s3#, #a4#"};
-				{ 8, 71405, "", "=q4=Carapace of Imbibed Flame", "=ds=#s5#, #a4#"};
-				{ 9, 71404, "", "=q4=Arachnaflame Treads", "=ds=#s12#, #a4#"};
-				{ 11, 71401, "", "=q4=Widow's Kiss", "=ds=#s13#"};
-				{ 12, 69138, "", "=q4=Spidersilk Spindle", "=ds=#s14#" },
-				{ 16, 71406, "", "=q4=Mandible of Beth'tilac", "=ds=#h1#, #w10#"};
-				{ 17, 71409, "", "=q4=Funeral Pyre", "=ds=#w9#"};
-				{ 18, 71408, "", "=q4=Ward of the Red Widow", "=ds=#w8#"};
-			};
-		};
-		info = {
-			name = "Beth'tilac",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsRhyolith"] = {
-		["Normal"] = {
-			{
-				{ 1, 70992, "", "=q4=Dreadfire Drape", "=ds=#s4#"};
-				{ 2, 71011, "", "=q4=Flickering Cowl", "=ds=#s1#, #a1#"};
-				{ 3, 71003, "", "=q4=Hood of Rampant Disdain", "=ds=#s1#, #a2#"};
-				{ 4, 71010, "", "=q4=Incendic Chestguard", "=ds=#s5#, #a2#"};
-				{ 5, 71005, "", "=q4=Flaming Core Chestguard", "=ds=#s5#, #a3#"};
-				{ 6, 71009, "", "=q4=Lava Line Wristbands", "=ds=#s8#, #a3#"};
-				{ 7, 71004, "", "=q4=Earthcrack Bracers", "=ds=#s8#, #a4#"};
-				{ 8, 70993, "", "=q4=Fireskin Gauntlets", "=ds=#s9#, #a4#"};
-				{ 9, 71007, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
-				{ 10, 70912, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
-				{ 16, 71012, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
-				{ 18, 71006, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
-				{ 19, 70991, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71415, "", "=q4=Dreadfire Drape", "=ds=#s4#"};
-				{ 2, 71421, "", "=q4=Flickering Cowl", "=ds=#s1#, #a1#"};
-				{ 3, 71416, "", "=q4=Hood of Rampant Disdain", "=ds=#s1#, #a2#"};
-				{ 4, 71424, "", "=q4=Incendic Chestguard", "=ds=#s5#, #a2#"};
-				{ 5, 71417, "", "=q4=Flaming Core Chestguard", "=ds=#s5#, #a3#"};
-				{ 6, 71425, "", "=q4=Lava Line Wristbands", "=ds=#s8#, #a3#"};
-				{ 7, 71418, "", "=q4=Earthcrack Bracers", "=ds=#s8#, #a4#"};
-				{ 8, 71419, "", "=q4=Fireskin Gauntlets", "=ds=#s9#, #a4#"};
-				{ 9, 71426, "", "=q4=Grips of the Raging Giant", "=ds=#s9#, #a4#"};
-				{ 10, 71420, "", "=q4=Cracked Obsidian Stompers", "=ds=#s12#, #a4#"};
-				{ 16, 71423, "", "=q4=Heartstone of Rhyolith", "=ds=#s2#"};
-				{ 18, 71422, "", "=q4=Volcanospike", "=ds=#h3#, #w10#"};
-				{ 19, 71414, "", "=q4=Arbalest of Erupting Fury", "=ds=#w3#"};
-			};
-		};
-		info = {
-			name = "Lord Rhyolith",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsAlysrazor"] = {
-		["Normal"] = {
-			{
-				{ 1, 70990, "", "=q4=Wings of Flame", "=ds=#s4#"};
-				{ 2, 70989, "", "=q4=Leggings of Billowing Fire", "=ds=#s11#, #a1#"};
-				{ 3, 70735, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#"};
-				{ 4, 70987, "", "=q4=Phoenix-Down Treads", "=ds=#s12#, #a2#"};
-				{ 5, 70985, "", "=q4=Craterflame Spaulders", "=ds=#s3#, #a3#"};
-				{ 6, 70986, "", "=q4=Clawshaper Gauntlets", "=ds=#s9#, #a3#"};
-				{ 7, 70736, "", "=q4=Moltenfeather Leggings", "=ds=#s11#, #a3#"};
-				{ 8, 70734, "", "=q4=Greathelm of the Voracious Maw", "=ds=#s1#, #a4#"};
-				{ 9, 70737, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
-				{ 10, 70988, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
-				{ 11, 70739, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
-				{ 16, 70738, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
-				{ 17, 68983, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
-				{ 19, 70733, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71434, "", "=q4=Wings of Flame", "=ds=#s4#"};
-				{ 2, 71435, "", "=q4=Leggings of Billowing Fire", "=ds=#s11#, #a1#"};
-				{ 3, 71428, "", "=q4=Flickering Wristbands", "=ds=#s8#, #a2#"};
-				{ 4, 71436, "", "=q4=Phoenix-Down Treads", "=ds=#s12#, #a2#"};
-				{ 5, 71438, "", "=q4=Craterflame Spaulders", "=ds=#s3#, #a3#"};
-				{ 6, 71437, "", "=q4=Clawshaper Gauntlets", "=ds=#s9#, #a3#"};
-				{ 7, 71429, "", "=q4=Moltenfeather Leggings", "=ds=#s11#, #a3#"};
-				{ 8, 71430, "", "=q4=Greathelm of the Voracious Maw", "=ds=#s1#, #a4#"};
-				{ 9, 71432, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
-				{ 10, 71439, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
-				{ 11, 71431, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
-				{ 16, 71433, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
-				{ 17, 69149, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
-				{ 19, 71427, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
-			};
-		};
-		info = {
-			name = "Alysrazor",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsShannox"] = {
-		["Normal"] = {
-			{
-				{ 1, 71023, "", "=q4=Coalwalker Sandals", "=ds=#s12#, #a1#"};
-				{ 2, 71025, "", "=q4=Flickering Shoulderpads", "=ds=#s3#, #a2#"};
-				{ 3, 71020, "", "=q4=Gloves of Dissolving Smoke", "=ds=#s9#, #a2#"};
-				{ 4, 71018, "", "=q4=Scalp of the Bandit Prince", "=ds=#s1#, #a3#"};
-				{ 5, 71027, "", "=q4=Treads of Implicit Obedience", "=ds=#s12#, #a3#"};
-				{ 6, 71026, "", "=q4=Bracers of the Dread Hunter", "=ds=#s8#, #a4#"};
-				{ 7, 71021, "", "=q4=Uncrushable Belt of Fury", "=ds=#s10#, #a4#"};
-				{ 8, 71028, "", "=q4=Legplates of Absolute Control", "=ds=#s11#, #a4#"};
-				{ 9, 70913, "", "=q4=Legplates of Frenzied Devotion", "=ds=#s11#, #a4#"};
-				{ 11, 71019, "", "=q4=Necklace of Fetishes", "=ds=#s2#"};
-				{ 12, 71024, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
-				{ 13, 71022, "", "=q4=Goblet of Anger", "=ds=#s15#"};
-				{ 16, 71014, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
-				{ 17, 71013, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71447, "", "=q4=Coalwalker Sandals", "=ds=#s12#, #a1#"};
-				{ 2, 71450, "", "=q4=Flickering Shoulderpads", "=ds=#s3#, #a2#"};
-				{ 3, 71440, "", "=q4=Gloves of Dissolving Smoke", "=ds=#s9#, #a2#"};
-				{ 4, 71442, "", "=q4=Scalp of the Bandit Prince", "=ds=#s1#, #a3#"};
-				{ 5, 71451, "", "=q4=Treads of Implicit Obedience", "=ds=#s12#, #a3#"};
-				{ 6, 71452, "", "=q4=Bracers of the Dread Hunter", "=ds=#s8#, #a4#"};
-				{ 7, 71443, "", "=q4=Uncrushable Belt of Fury", "=ds=#s10#, #a4#"};
-				{ 8, 71453, "", "=q4=Legplates of Absolute Control", "=ds=#s11#, #a4#"};
-				{ 9, 71444, "", "=q4=Legplates of Frenzied Devotion", "=ds=#s11#, #a4#"};
-				{ 11, 71446, "", "=q4=Necklace of Fetishes", "=ds=#s2#"};
-				{ 12, 71449, "", "=q4=Crystal Prison Band", "=ds=#s13#"};
-				{ 13, 71448, "", "=q4=Goblet of Anger", "=ds=#s15#"};
-				{ 16, 71445, "", "=q4=Skullstealer Greataxe", "=ds=#h2#, #w1#"};
-				{ 17, 71441, "", "=q4=Feeding Frenzy", "=ds=#h4#, #w4#"};
-			};
-		};
-		info = {
-			name = "Shannox",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsBaleroc"] = {
-		["Normal"] = {
-			{
-				{ 1, 71343, "", "=q4=Mantle of Closed Doors", "=ds=#s3#, #a1#"};
-				{ 2, 71345, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#"};
-				{ 3, 71314, "", "=q4=Breastplate of the Incendiary Soul", "=ds=#s5#, #a2#"};
-				{ 4, 71341, "", "=q4=Glowing Wing Bracers", "=ds=#s8#, #a2#"};
-				{ 5, 71340, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#"};
-				{ 6, 71315, "", "=q4=Decimation Treads", "=ds=#s12#, #a3#"};
-				{ 7, 71342, "", "=q4=Casque of Flame", "=ds=#s1#, #a4#"};
-				{ 8, 70916, "", "=q4=Helm of Blazing Glory", "=ds=#s1#, #a4#"};
-				{ 9, 70917, "", "=q4=Flickering Handguards", "=ds=#s9#, #a4#"};
-				{ 11, 68982, "", "=q4=Necromantic Focus", "=ds=#s14#" },
-				{ 12, 71323, "", "=q4=Molten Scream", "=ds=#s15#"};
-				{ 16, 71312, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
-				{ 17, 70915, "", "=q4=Shard of Torment", "=ds=#w8#"};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71461, "", "=q4=Mantle of Closed Doors", "=ds=#s3#, #a1#"};
-				{ 2, 71456, "", "=q4=Shoulderpads of the Forgotten Gate", "=ds=#s3#, #a2#"};
-				{ 3, 71455, "", "=q4=Breastplate of the Incendiary Soul", "=ds=#s5#, #a2#"};
-				{ 4, 71463, "", "=q4=Glowing Wing Bracers", "=ds=#s8#, #a2#"};
-				{ 5, 71464, "", "=q4=Gatekeeper's Embrace", "=ds=#s5#, #a3#"};
-				{ 6, 71457, "", "=q4=Decimation Treads", "=ds=#s12#, #a3#"};
-				{ 7, 71465, "", "=q4=Casque of Flame", "=ds=#s1#, #a4#"};
-				{ 8, 71459, "", "=q4=Helm of Blazing Glory", "=ds=#s1#, #a4#"};
-				{ 9, 71458, "", "=q4=Flickering Handguards", "=ds=#s9#, #a4#"};
-				{ 11, 69139, "", "=q4=Necromantic Focus", "=ds=#s14#" },
-				{ 12, 71462, "", "=q4=Molten Scream", "=ds=#s15#"};
-				{ 16, 71454, "", "=q4=Gatecrasher", "=ds=#h1#, #w1#"};
-				{ 17, 71460, "", "=q4=Shard of Torment", "=ds=#w8#"};
-			};
-		};
-		info = {
-			name = "Baleroc",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsStaghelm"] = {
-		["Normal"] = {
-			{
-				{ 1, 71350, "", "=q4=Wristwraps of Arrogant Doom", "=ds=#s8#, #a1#"};
-				{ 2, 71349, "", "=q4=Firecat Leggings", "=ds=#s11#, #a2#"};
-				{ 3, 71313, "", "=q4=Sandals of Leaping Coals", "=ds=#s12#, #a2#"};
-				{ 4, 71346, "", "=q4=Grips of Unerring Precision", "=ds=#s9#, #a3#"};
-				{ 5, 71344, "", "=q4=Breastplate of Shifting Visions", "=ds=#s5#, #a4#"};
-				{ 6, 70920, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
-				{ 7, 71351, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
-				{ 9, 71348, "", "=q4=Flowform Choker", "=ds=#s2#"};
-				{ 10, 68927, "", "=q4=The Hungerer", "=ds=#s14#" };
-				{ 11, 68926, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
-				{ 16, 69897, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
-				{ 17, 71347, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71471, "", "=q4=Wristwraps of Arrogant Doom", "=ds=#s8#, #a1#"};
-				{ 2, 71474, "", "=q4=Firecat Leggings", "=ds=#s11#, #a2#"};
-				{ 3, 71467, "", "=q4=Sandals of Leaping Coals", "=ds=#s12#, #a2#"};
-				{ 4, 71468, "", "=q4=Grips of Unerring Precision", "=ds=#s9#, #a3#"};
-				{ 5, 71469, "", "=q4=Breastplate of Shifting Visions", "=ds=#s5#, #a4#"};
-				{ 6, 71470, "", "=q4=Bracers of the Fiery Path", "=ds=#s8#, #a4#"};
-				{ 7, 71475, "", "=q4=Treads of the Penitent Man", "=ds=#s12#, #a4#"};
-				{ 9, 71472, "", "=q4=Flowform Choker", "=ds=#s2#"};
-				{ 10, 69112, "", "=q4=The Hungerer", "=ds=#s14#" };
-				{ 11, 69111, "", "=q4=Jaws of Defeat", "=ds=#s14#" },
-				{ 16, 71466, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
-				{ 17, 71473, "", "=q4=Stinger of the Flaming Scorpion", "=ds=#w12#"};
-			};
-		};
-		info = {
-			name = "Majordomo Staghelm",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsRagnaros"] = {
-		["Normal"] = {
-			{
-				{ 1, 71358, "", "=q4=Fingers of Incineration", "=ds=#s9#, #a1#"};
-				{ 2, 71357, "", "=q4=Majordomo's Chain of Office", "=ds=#s10#, #a1#"};
-				{ 3, 71356, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
-				{ 4, 70921, "", "=q4=Pauldrons of Roaring Flame", "=ds=#s3#, #a4#"};
-				{ 6, 71354, "", "=q4=Choker of the Vanquished Lord", "=ds=#s2#"};
-				{ 7, 68994, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
-				{ 8, 68925, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
-				{ 9, 68995, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
-				{ 16, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
-				{ 17, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
-				{ 18, 71798, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
-				{ 19, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
-				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 71614, "", "=q4=Fingers of Incineration", "=ds=#s9#, #a1#"};
-				{ 2, 71613, "", "=q4=Majordomo's Chain of Office", "=ds=#s10#, #a1#"};
-				{ 3, 71616, "", "=q4=Crown of Flame", "=ds=#s1#, #a3#"};
-				{ 4, 71612, "", "=q4=Pauldrons of Roaring Flame", "=ds=#s3#, #a4#"};
-				{ 6, 71610, "", "=q4=Choker of the Vanquished Lord", "=ds=#s2#"};
-				{ 7, 69150, "", "=q4=Matrix Restabilizer", "=ds=#s14#" };
-				{ 8, 69110, "", "=q4=Variable Pulse Lightning Capacitor", "=ds=#s14#" };
-				{ 9, 69167, "", "=q4=Vessel of Acceleration", "=ds=#s14#" };
-				{ 16, 71615, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
-				{ 17, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
-				{ 18, 71797, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
-				{ 19, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
-				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=ds=#e27#" },
-			};
-		};
-		info = {
-			name = BabbleBoss["Ragnaros"],
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 71640, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
-				{ 2, 71365, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
-				{ 4, 70929, "", "=q4=Firebound Gorget", "=ds=#s2#"};
-				{ 5, 71367, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
-				{ 6, 68972, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
-				{ 7, 68915, "", "=q4=Scales of Life", "=ds=#s14#" },
-				{ 16, 71359, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
-				{ 17, 71362, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
-				{ 18, 71361, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
-				{ 19, 71360, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
-				{ 20, 71366, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "Firelands",
-		};
-	};
-
-	AtlasLoot_Data["FirelandsFirestone"] = {
-		["Normal"] = {
-			{
-				{ 1, 71641, "", "=q4=Riplimb's Lost Collar", "=ds=#s10#, #a2#"};
-				{ 2, 71561, "", "=q4=Hide-Bound Chains", "=ds=#s8#, #a3#"};
-				{ 4, 71563, "", "=q4=Firebound Gorget", "=ds=#s2#"};
-				{ 5, 71564, "", "=q4=Theck's Emberseal", "=ds=#s13#"};
-				{ 6, 69113, "", "=q4=Apparatus of Khaz'goroth", "=ds=#s14#" },
-				{ 7, 69109, "", "=q4=Scales of Life", "=ds=#s14#" },
-				{ 9, 71560, "", "=q4=Chelley's Sterilized Scalpel", "=ds=#h3#, #w4#"};
-				{ 10, 71562, "", "=q4=Obsidium Cleaver", "=ds=#h1#, #w1#"};
-				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
-				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
-				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
-    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
-    			{ 17, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#"},
-    			{ 18, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#"},
-    			{ 19, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#"},
-    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
-    			{ 22, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
-    			{ 23, 71151, "", "=q4=Trail of Embers", "=ds=#w12#"},
-    			{ 25, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#"},
-    			{ 26, 71154, "", "=q4=Giantslicer", "=ds=#w11#"},
-    			{ 27, 71218, "", "=q4=Deflecting Star", "=ds=#w11#"},
-    			{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
-			};
-		};
-		info = {
-			name = AL["Firestone Vendor"],
-			module = moduleName, instance = "Firelands",
 		};
 	};
 

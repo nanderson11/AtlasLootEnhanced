@@ -1498,7 +1498,7 @@ function AtlasLoot:CompareFrame_Create()
 	Frame.Title = Frame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
 	Frame.Title:SetPoint("TOP", Frame, "TOP", 0, -18)
 	Frame.Title:SetJustifyH("CENTER")
-	Frame.Title:SetText(AL["AtlasLoot"].." Compare Window")
+	Frame.Title:SetText(AL["AtlasLoot"].." "..AL["Compare Frame"])
 	
 	Frame.NumItems = Frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
 	Frame.NumItems:SetPoint("TOPLEFT", Frame, "TOPLEFT", 25, -415)
