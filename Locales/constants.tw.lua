@@ -41,10 +41,10 @@ if AL then
 	AL["Stats color"] = "屬性顏色";
 	AL["Stats list name:"] = "屬性列表名稱:";
 	AL["Select Stats list"] = "選擇屬性列表";
---	AL["You cant set more then %d item stats."] = true;
+	AL["You cant set more then %d item stats."] = "您可以設定多達 %d 個物品狀態.";
 
 	-- Stats short
-	AL["iLvl"] = "iLvl";	-- Item lvl
+	AL["iLvl"] = "等級";	-- Item lvl
 	AL["str"] = "力";	-- Strength
 	AL["agi"] = "敏";	-- Agility
 	AL["sta"] = "耐";	-- Stamina
@@ -635,8 +635,8 @@ if AL then
 	AL["Special"] = "特殊";
 	AL["Feasts"] = "宴類";
 	AL["Speed"] = "速度";
---	AL["Rod"] = true; -- where did it be used?
---	AL["Oil"] = true; -- where did it be used?
+	AL["Rod"] = "棒類/杖類"; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
+	AL["Oil"] = "油類"; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
 	AL["Dwarf"] = "矮人";
 	AL["Draenei"] = "德萊尼";
 	AL["Night Elf"] = "夜精靈";
@@ -1042,7 +1042,7 @@ if AL then
 	AL["Ayla Shadowstorm"] = "埃拉·暗影風暴";
 	AL["Damek Bloombeard"] = "達密克·濃鬚";
 	AL["Varlan Highbough"] = "瓦蘭·高枝";
---	AL["Firestone Vendor"] = true;
+	AL["Firestone Vendor"] = "火石商人";
 
 	--Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
