@@ -141,6 +141,9 @@ function AtlasLoot:Atlas_OnShow()
 	pFrame = AtlasFrame;
 end
 
+local function AL_GameTooltip_Hide()
+	GameTooltip:Hide();
+end
 
 -- Replacement for Atlas_Refresh, required as the template for the boss buttons in Atlas is insufficient
 -- Called whenever the state of Atlas changes
@@ -312,6 +315,7 @@ function AtlasLoot:AtlasRefreshHook()
 			-- added by arith on June 27, 2011
 			-- the Control key with mouse hover to each bose line need to be added back
 			AtlasLoot.AtlasLines[i]:SetScript("OnUpdate", AtlasEntryTemplate_OnUpdate)
+			AtlasLoot.AtlasLines[i]:SetScript("OnLeave", AL_GameTooltip_Hide)
 		else
 			AtlasLoot.AtlasLines[i].Loot:Hide()
 			AtlasLoot.AtlasLines[i].Selected:Hide()
