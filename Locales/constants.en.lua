@@ -636,8 +636,8 @@ if AL then
 	AL["Special"] = true;
 	AL["Feasts"] = true;
 	AL["Speed"] = true;
-	AL["Rod"] = true;
-	AL["Oil"] = true;
+	AL["Rod"] = true; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
+	AL["Oil"] = true; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
 	AL["Dwarf"] = true;
 	AL["Draenei"] = true;
 	AL["Night Elf"] = true;
