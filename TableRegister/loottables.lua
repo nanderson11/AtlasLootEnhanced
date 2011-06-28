@@ -208,7 +208,7 @@ AtlasLoot_LootTableRegister = {
 				{ "FirelandsTrash", 12 },
 				{ "FirelandsFirestone", 13 },
 			},
-			["Info"] = { "The Firelands", "AtlasLootCataclysm", mapname = "Firelands", raid = true, EncounterJournalID = 78 },
+			["Info"] = { BabbleZone["Firelands"], "AtlasLootCataclysm", mapname = "Firelands", raid = true, EncounterJournalID = 78 },
 		},
 
 		["ThroneOfTheFourWinds"] = {
