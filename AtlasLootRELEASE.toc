@@ -41,5 +41,6 @@ Add_Ons\Addons.xml
 Menus\Menus.xml
 Core\AtlasLoot.xml
 Modules\Modules.xml
+Modules\CompareFrame\CompareFrame.xml
 
 modules.xml
