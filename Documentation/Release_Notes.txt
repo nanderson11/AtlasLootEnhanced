@@ -1,10 +1,15 @@
-﻿AtlasLoot Enhanced
+AtlasLoot Enhanced
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
 -Hegarol
 
 Patch Notes
+v6.04.01 (? ??, 2011)
+Added Season 10 stuff.
+Added some missing 4.2 Crafting stuff.
+Minor fixes and additions.
+
 v6.04.00 (June 28, 2011)
 Compatible with Patch 4.2.
 Added support for Atlas 1.20.0.
