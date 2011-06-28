@@ -8,6 +8,8 @@ back to the English translation.
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
 
+--Table holding all loot tables is initialised here as it loads early
+--AtlasLoot_Data = {};
 
 	-- Create the library instance
 	local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -20,6 +22,48 @@ if AL then
 	-- #########
 	-- UI things
 	-- #########
+	-- compare frame
+	AL["Compare Frame"] = "比较窗口";
+	AL["Show in Compare Frame"] = "在比较窗口显示";
+	AL["Name"] = "名称";
+	AL["ItemLvl"] = "物品等级";
+	AL["Normal"] = "普通";
+	AL["%d items"] = "%d 物品";
+	AL["All"] = "全部";
+	AL["Stats"] = "属性";
+	AL["Show \"Base Stats list\""] = "显示 \"基本属性列表\"";
+	AL["Show \"Extra Stats list\""] = "显示 \"附加属性列表\"";
+	AL["Base Stats list"] = "基本属性列表";
+	AL["Extra Stats list"] = "附加属性列表";	
+	AL["Add Stats list"] = "新增属性列表";
+	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "你确定要删除列表排序|cff1eff00%s|r?";
+	AL["Delete Stats list"] = "删除属性列表";
+	AL["Stats color"] = "属性颜色";
+	AL["Stats list name:"] = "属性列表名称:";
+	AL["Select Stats list"] = "选择属性列表";
+	AL["You cant set more then %d item stats."] = "您可以设定多达 %d 个物品状态.";
+
+	-- Stats short
+	AL["iLvl"] = "等级";	-- Item lvl
+	AL["str"] = "力";	-- Strength
+	AL["agi"] = "敏";	-- Agility
+	AL["sta"] = "耐";	-- Stamina
+	AL["int"] = "智";	-- Intellect
+	AL["spi"] = "精";	-- Spirit
+	AL["Crit"] = "致命";	-- Crit Rating
+	AL["Dodge"] = "闪躲";	-- Dodge Rating
+	AL["Exp"] = "熟练";	-- Expertise Rating
+	AL["Hit"] = "命中";	-- Hit Rating
+	AL["Haste"] = "加速";	-- Haste Rating
+	AL["Parry"] = "招架";	-- Parry Rating
+	AL["Spell"] = "法能";	-- Spell Power
+	AL["Resi"] = "韧性";	-- Resilience Rating
+	AL["Mast"] = "精通";	-- Mastery
+
+	-- Stats
+	AL["Resilience Rating"] = "韧性等级";
+	AL["Base Stats"] = "基本属性";
+	AL["Extra Stats"] = "附加属性";
 
 	-- Loader
 	AL["Load AtlasLoot"] = "加载 AtlasLoot";
@@ -130,6 +174,8 @@ if AL then
 	AL["Table Sort"] = "表格排序";
 	AL["Table Sort:"] = "表格排序：";
 	AL["Item Sort:"] = "物品排序：";
+	AL["Show own wishlists"] = "显示自己愿望清单";
+	AL["Show all wishlists"] = "显示全部愿望清单";
 
 	-- Filter
 	AL["Filter"] = "筛选";
@@ -191,6 +237,10 @@ if AL then
 	AL["Show Price"] = "显示价格";
 	AL["Skill"] = "技能";
 	AL["Location"] = "位置";
+	AL["ilvl 359"] = "ilvl 359";
+	AL["ilvl 372"] = "ilvl 372";
+	AL["ilvl 378"] = "ilvl 378";
+	AL["ilvl 391"] = "ilvl 391";
 
 	-- #######################################
 	-- UI things END
@@ -298,6 +348,7 @@ if AL then
 	AL["Tier 7/8 Set"] = "等级7/8套装";
 	AL["Tier 9 Set"] = "等级9套装";
 	AL["Tier 10 Set"] = "等级10套装";
+	AL["Tier 11/12 Set"] = "等级11/12套装";
 	AL["TCG Items"] = "Upper Deck 集换卡游戏物品";
 	AL["Transformation Items"] = "变形物品";
 
@@ -478,17 +529,18 @@ if AL then
 	AL["Dungeon Set 2"] = "地下城套装2";
 	AL["Dungeon Set 1/2"] = "地下城套装1/2";
 	AL["Dungeon Set 3"] = "地下城套装3";
-	AL["Tier 1"] = "等级1";
-	AL["Tier 2"] = "等级2";
-	AL["Tier 3"] = "等级3";
-	AL["Tier 4"] = "等级4";
-	AL["Tier 5"] = "等级5";
-	AL["Tier 6"] = "等级6";
-	AL["Tier 7"] = "等级7";
-	AL["Tier 8"] = "等级8";
-	AL["Tier 9"] = "等级9";
-	AL["Tier 10"] = "等级10";
-	AL["Tier 11"] = "等级11";
+	AL["Tier 1"] = "T1";
+	AL["Tier 2"] = "T2";
+	AL["Tier 3"] = "T3";
+	AL["Tier 4"] = "T4";
+	AL["Tier 5"] = "T5";
+	AL["Tier 6"] = "T6";
+	AL["Tier 7"] = "T7";
+	AL["Tier 8"] = "T8";
+	AL["Tier 9"] = "T9";
+	AL["Tier 10"] = "T10";
+	AL["Tier 11"] = "T11";
+	AL["Tier 12"] = "T12";
 	AL["10 Man"] = "10人";
 	AL["10/25 Man"] = "10/25人";
 	AL["Epic Set"] = "史诗套装";
@@ -502,6 +554,7 @@ if AL then
 	AL["Season 7"] = "第7季";
 	AL["Season 8"] = "第8季";
 	AL["Season 9"] = "第9季";
+	AL["Season 10"] = "第10季";
 	AL["Fire"] = "火";
 	AL["Water"] = "水";
 	AL["Wind"] = "风";
@@ -596,6 +649,7 @@ if AL then
 	AL["Resilience"] = "韧性";
 	AL["Professions"] = "专业技能";
 	AL["Damage"] = "伤害";
+--	AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
 	AL["AQ20 Class Sets"] = "安其拉废墟职业套装";
@@ -748,6 +802,12 @@ if AL then
 	AL["Mottled Drake"] = "Mottled Drake";
 	AL["Grim Campfire"] = "Grim Campfire";
 	AL["Landro's Lil' XT"] = "Landro's Lil' XT";
+
+	-- Fourteenth set
+--	AL["War of the Elements"] = true;
+
+	-- Fifteenth set
+--	AL["Twilight of the Dragons"] = true;
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "旧 PvP 奖励";
@@ -977,6 +1037,11 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = "Dormus the Camel-Hoarder";
 	AL["The Behemoth"] = "贝哈默斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
+--	AL["Zen'Vorka"] = true;
+--	AL["Ayla Shadowstorm"] = true;
+--	AL["Damek Bloombeard"] = true;
+--	AL["Varlan Highbough"] = true;
+--	AL["Firestone Vendor"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";

@@ -8,15 +8,16 @@ back to the English translation.
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
 
---Table holding all loot tables is initialised here as it loads early
---AtlasLoot_Data = {};
+	-- Table holding all loot tables is initialised here as it loads early
+--	AtlasLoot_Data = {};
+--	AtlasLoot_TableNames = {};
 
---Create the library instance
-local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+	-- Create the library instance
+	local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 
-local AL = AceLocale:NewLocale("AtlasLoot", "zhTW", false);
+	local AL = AceLocale:NewLocale("AtlasLoot", "zhTW", false);
 
---Register translations
+-- Register translations
 if AL then
 
 	-- #########
@@ -247,7 +248,7 @@ if AL then
 	-- UI things END
 	-- #######################################
 
-	--Text strings for UI objects
+	-- Text strings for UI objects
 	AL["AtlasLoot"] = "AtlasLoot";
 	AL["Select Loot Table"] = "選擇物品表格";
 	AL["Select Sub-Table"] = "選擇子表格";
@@ -278,7 +279,7 @@ if AL then
 	AL["Hide Icon"] = "隱藏圖示";
 	AL["Minimap Button Options"] = "小地圖按鍵選項";
 
-	--Text for Options Panel
+	-- Text for Options Panel
 	AL["Atlasloot Options"] = "Atlasloot 選項";
 	AL["Default Tooltips"] = "預設提示";
 	AL["Lootlink Tooltips"] = "Lootlink 提示";
@@ -308,17 +309,17 @@ if AL then
 	AL["You don't have any module selected to search on!"] = "沒有任何模組被選取以進行搜尋！";
 	AL["Panel"] = "面板";
 
-	--Slash commands
+	-- Slash commands
 	AL["reset"] = "重設";
 	AL["options"] = "選項";
 	AL["Reset complete!"] = "重設完成";
 
-	--AtlasLoot Panel - Search
+	-- AtlasLoot Panel - Search
 	AL["Clear"] = "清除";
 	AL["Last Result"] = "上次的結果";
 	AL["Search"] = "搜尋";
 
-	--Crafting Menu
+	-- Crafting Menu
 	AL["Crafting Daily Quests"] = "交易技能每日任務";
 	AL["Cooking Daily"] = "烹飪每日任務";
 	AL["Fishing Daily"] = "釣魚每日任務";
@@ -328,7 +329,7 @@ if AL then
 	AL["Dragon's Eye"] = "龍瞳石";
 	AL["Chimera's Eye"] = "奇美拉之瞳";
 
-	--Sets/Collections Menu
+	-- Sets/Collections Menu
 	AL["Sets"] = "套裝";
 	AL["Set"] = "套裝";
 	AL["Justice Points"] = "英雄點數";
@@ -353,7 +354,7 @@ if AL then
 	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
 	AL["Transformation Items"] = "變形物品";
 
-	--PvP Menu
+	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套裝";
 	AL["PvP Accessories"] = "PvP 配件";
 	AL["PvP Armor Sets"] = "PvP 套裝";
@@ -365,7 +366,7 @@ if AL then
 	AL["PvP Trinkets"] = "PvP 飾品";
 	AL["NOT AVAILABLE ANYMORE"] = "再也無法使用";
 
-	--World Events
+	-- World Events
 	AL["Abyssal Council"] = "深淵議會";
 	AL["Argent Tournament"] = "銀白聯賽";
 	AL["Bash'ir Landing Skyguard Raid"] = "貝許爾平臺空防";
@@ -386,7 +387,7 @@ if AL then
 	AL["Stranglethorn Fishing Extravaganza"] = "荊棘谷釣魚大賽";
 	AL["Kalu'ak Fishing Derby"] = "卡魯耶克釣魚大賽";
 
-	--Minimap Button
+	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00左鍵|r 瀏覽物品掉落表";
 	AL["|cffff0000Right-Click|r View Options"] = "|cffff0000右鍵|r 檢視選項";
 	AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Shift點擊|r 檢視選項";
@@ -424,7 +425,7 @@ if AL then
 	AL["Please set a default Wishlist."] = "請設定一個預設的願望清單。";
 	AL["Set as default Wishlist"] = "設為預設的願望清單";
 
-	--Misc Inventory related words
+	-- Misc Inventory related words
 	AL["Scope"] = "瞄準鏡";
 	AL["Darkmoon Faire Card"] = "暗月卡";
 	AL["Banner"] = "軍旗";
@@ -435,10 +436,10 @@ if AL then
 	AL["Transformation Item"] = "變形物品";
 	AL["Keys"] = "鑰匙";
 
-	--Extra inventory stuff
+	-- Extra inventory stuff
 	AL["Cloak"] = "披風";
 
-	--Alchemy
+	-- Alchemy
 	AL["Battle Elixirs"] = "作戰藥劑";
 	AL["Cauldron"] = "大鍋";
 	AL["Cauldrons"] = "大鍋";
@@ -455,7 +456,7 @@ if AL then
 	AL["Armor Enhancements"] = "護甲附魔";
 	AL["Weapon Enhancements"] = "武器附魔";
 
-	--Enchanting
+	-- Enchanting
 	AL["Enchant Boots"] = "附魔靴子";
 	AL["Enchant Bracer"] = "附魔護腕";
 	AL["Enchant Chest"] = "附魔胸甲";
@@ -470,7 +471,7 @@ if AL then
 	-- Engineering
 	AL["Tinker"] = "工程師專屬";
 
-	--Inscription
+	-- Inscription
 	AL["Glyph"] = "雕紋";
 	AL["Prime Glyph"] = "主要雕紋";
 	AL["Major Glyph"] = "極效雕紋";
@@ -485,20 +486,20 @@ if AL then
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕紋精通之書";
 
-	--Leatherworking
+	-- Leatherworking
 	AL["Leather Armor"] = "皮甲護甲";
 	AL["Mail Armor"] = "鎖甲護甲";
 	AL["Cloaks"] = "披風";
 	AL["Item Enhancements"] = "物品附魔";
 	AL["Drums, Bags and Misc."] = "戰鼓、背包與其他物品";
 
-	--Tailoring
+	-- Tailoring
 	AL["Cloth Armor"] = "護甲";
 	AL["Shirts"] = "襯衣";
 	AL["Bags"] = "容器";
 	AL["Cataclysm Vendor Sold Patterns"] = "浩劫與重生商人販售的圖樣";
 
-	--Labels for loot descriptions
+	-- Labels for loot descriptions
 	AL["Classes:"] = "職業: ";
 	AL["This Item Begins a Quest"] = "該物品將觸發一個任務";
 	AL["Quest Item"] = "任務物品";
@@ -520,7 +521,7 @@ if AL then
 	AL["Daily Reward"] = "每日獎勵";
 	AL["No Longer Available"] = "已不存在.";
 
-	--Minor Labels for loot table descriptions
+	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "原始的魔獸世界";
 	AL["Burning Crusade"] = "燃燒的遠征";
 	AL["Wrath of the Lich King"] = "巫妖王之怒";
@@ -567,7 +568,7 @@ if AL then
 	AL["Frost Resistance Gear"] = "冰霜抗性裝備";
 	AL["Shadow Resistance Gear"] = "暗影抗性裝備";
 
-	--Labels for loot table sections
+	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "更多的英雄物品";
 	AL["Heroic Mode"] = "英雄模式";
 	AL["Normal Mode"] = "普通模式";
@@ -588,7 +589,7 @@ if AL then
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "專業"; -- needs review
 
-	--Loot Table Names
+	-- Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";
 	AL["Level 40-49"] = "等級 40～49";
 	AL["Level 50-60"] = "等級 50～60";
@@ -687,7 +688,7 @@ if AL then
 	AL["Rare Companions"] = "稀有夥伴";
 	AL["Unobtainable Companions"] = "無法取得的夥伴";
 
-	--Mounts
+	-- Mounts
 	AL["Alliance Flying Mounts"] = "聯盟飛行坐騎";
 	AL["Alliance Mounts"] = "聯盟坐騎";
 	AL["Horde Flying Mounts"] = "部落飛行坐騎";
@@ -722,7 +723,7 @@ if AL then
 	AL["Level 80 Trinkets"] = "等級 80 飾品";
 	AL["Level 85 Trinkets"] = "等級 85 飾品";
 
-	--Card Game Decks and descriptions
+	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "可換取的物品";
 	AL["UDE Items"] = "兌換商品";
 
@@ -810,7 +811,7 @@ if AL then
 	-- Fifteenth set
 	AL["Twilight of the Dragons"] = "暮光之龍";
 
-	--Battleground Brackets
+	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "舊 PvP 獎勵";
 	AL["BG/Open PvP Rewards"] = "燃燒遠征開放 PvP 獎勵";
 	AL["Misc. Rewards"] = "雜項獎勵";
@@ -822,12 +823,12 @@ if AL then
 	AL["Level 50-59 Rewards"] = "等級 50～59 獎勵";
 	AL["Level 60 Rewards"] = "等級 60 獎勵";
 
-	--Brood of Nozdormu Paths
+	-- Brood of Nozdormu Paths
 	AL["Path of the Conqueror"] = "征服者之路";
 	AL["Path of the Invoker"] = "祈求者之路";
 	AL["Path of the Protector"] = "保護者之路";
 
-	--Violet Eye Paths
+	-- Violet Eye Paths
 	AL["Path of the Violet Protector"] = "紫羅蘭保衛者之路";
 	AL["Path of the Violet Mage"] = "紫蘿蘭法師之路";
 	AL["Path of the Violet Assassin"] = "紫羅蘭刺客之路";
@@ -839,29 +840,29 @@ if AL then
 	AL["Path of Vengeance"] = "復仇之路";
 	AL["Path of Wisdom"] = "智慧之路";
 
-	--AQ Opening Event
+	-- AQ Opening Event
 	AL["Red Scepter Shard"] = "紅色權杖碎片";
 	AL["Blue Scepter Shard"] = "藍色權杖碎片";
 	AL["Green Scepter Shard"] = "綠色權杖碎片";
 	AL["Scepter of the Shifting Sands"] = "流沙權杖";
 
-	--World PvP
+	-- World PvP
 	AL["Hellfire Fortifications"] = "地獄火防禦堡壘";
 	AL["Twin Spire Ruins"] = "雙塔廢墟";
 	AL["Spirit Towers"] = "精神哨塔";
 	AL["Halaa"] = "哈剌";
 	AL["Venture Bay"] = "風險海灣";
 
-	--Karazhan Opera Event Headings
+	-- Karazhan Opera Event Headings
 	AL["Wizard of Oz"] = "綠野仙蹤";
 	AL["Red Riding Hood"] = "小紅帽";
 
-	--Karazhan Animal Boss Types
+	-- Karazhan Animal Boss Types
 	AL["Spider"] = "蜘蛛";
 	AL["Darkhound"] = "黑暗犬";
 	AL["Bat"] = "蝙蝠";
 
-	--AQ20 Tokens
+	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = "其拉華麗刀柄";
 	AL["Qiraji Martial Drape"] = "其拉軍用披風";
 	AL["Qiraji Magisterial Ring"] = "其拉將領戒指";
@@ -869,7 +870,7 @@ if AL then
 	AL["Qiraji Regal Drape"] = "其拉帝王披風";
 	AL["Qiraji Spiked Hilt"] = "其拉尖刺刀柄";
 
-	--AQ40 Tokens
+	-- AQ40 Tokens
 	AL["Qiraji Bindings of Dominance"] = "其拉統御腕輪";
 	AL["Qiraji Bindings of Command"] = "其拉命令腕輪";
 	AL["Vek'nilash's Circlet"] = "維克尼拉斯的頭飾";
@@ -879,7 +880,7 @@ if AL then
 	AL["Husk of the Old God"] = "上古之神的外殼";
 	AL["Carapace of the Old God"] = "上古之神的甲殼";
 
-	--Recipe origin strings
+	-- Recipe origin strings
 	AL["Trainer"] = "訓練師";
 	AL["Discovery"] = "探索";
 	AL["World Drop"] = "世界掉落";
@@ -918,7 +919,7 @@ if AL then
 	AL["Tanking"] = "防禦型";
 	AL["DPS"] = "傷害型";
 
-	--NPCs missing from BabbleBoss
+	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "小怪";
 	AL["Dungeon Set 2 Summonable"] = "T0.5 召喚王";
 	AL["Theldren"] = "瑟爾倫";
@@ -1044,15 +1045,15 @@ if AL then
 	AL["Varlan Highbough"] = "瓦蘭·高枝";
 	AL["Firestone Vendor"] = "火石商人";
 
-	--Zones
+	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
 	AL["Crusader's Square"] = "十字軍廣場";
 	AL["The Gauntlet"] = "街巷";
 
-	--Shortcuts for Bossname files
+	-- Shortcuts for Bossname files
 	AL["Avatar"] = "馬丁瑞德的化身";  -- Avatar of the Martyred
 
-	--Chests, etc
+	-- Chests, etc
 	AL["Ring of Law"] = "秩序競技場";
 	AL["Monument of Franclorn Forgewright"] = "弗蘭克羅恩·鑄鐵的紀念碑";
 	AL["The Grim Guzzler"] = "黑鐵酒吧";
@@ -1109,7 +1110,7 @@ if AL then
 	AL["Hidden Stash"] = "隱密藏匿物";
 	AL["The Cache of Madness"] = "瘋狂之緣";
 
-	--Error Messages and warnings
+	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";
 	AL["WishList Full!"] = "願望清單已滿";
 	AL["No match found for"] = "找不到符合於";
@@ -1117,42 +1118,42 @@ if AL then
 	AL["Server queried for "] = "從伺服器查詢物品";
 	AL[".  Right click on any other item to refresh the loot page."] = "的資訊. 右鍵點選其他物品以更新這一個物品頁面";
 
-	--Incomplete Table Registry error message
+	-- Incomplete Table Registry error message
 	AL[" not listed in loot table registry, please report this message to the AtlasLoot forums at http://www.atlasloot.net"] = "並未列於物品掉落註冊表，請至 AtlasLoot 論壇回報問題：http://www.atlasloot.net";
 
-	--LoD Module disabled or missing
+	-- LoD Module disabled or missing
 	AL[" is unavailable, the following load on demand module is required: "] = "無法取得，需要以下的動態載入模組：";
 
-	--LoD Module load sequence could not be completed
+	-- LoD Module load sequence could not be completed
 	AL["Status of the following module could not be determined: "] = "以下模組的狀態無法被確認：";
 
-	--LoD Module required has loaded, but loot table is missing
+	-- LoD Module required has loaded, but loot table is missing
 	AL[" could not be accessed, the following module may be out of date: "] = "無法被存取，以下的模組可能版本已過於老舊：";
 
-	--LoD module not defined
+	-- LoD module not defined
 	AL["Loot module returned as nil!"] = "找不到可動態載入的模組";
 
-	--LoD module loaded successfully
+	-- LoD module loaded successfully
 	AL["sucessfully loaded."] = "載入成功";
 
-	--Need a big dataset for searching
+	-- Need a big dataset for searching
 	AL["Loading available tables for searching"] = "載入搜尋所需的資料表";
 
-	--All Available modules loaded
+	-- All Available modules loaded
 	AL["All Available Modules Loaded"] = "所有的模組已載入";
 
-	--First time user
+	-- First time user
 	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "歡迎使用 Atlasloot Enhanced。請花一些時間設定您的偏好選項。";
 	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "歡迎使用 AtlasLoot Enhanced. 請花一點時間來設定訊息提示和連結的喜好. 輸入 /atlasloot 可以再次設定喜好選項";
 	AL["Setup"] = "設定";
 
-	--Old Atlas Detected
+	-- Old Atlas Detected
 	AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "您現在的 Atlas 插件版本並不完全支援此版本的 Atlasloot, Atlas 的最新版本為 (";
 	AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = "). 依 Atlas 版本的變化, AtlasLoot 也許會出現偶然的錯誤, 請儘快前往 http://www.atlasmod.com 更新";
 	AL["OK"] = "OK";
 	AL["Incompatible Atlas Detected"] = "偵測到不相容的 Atlas 版本";
 
-	--Unsafe item tooltip
+	-- Unsafe item tooltip
 	AL["Unsafe Item"] = "不安全的物品";
 	AL["This item is not available on your server or your battlegroup yet."] = "這件物品目前在您的伺服器或是戰場群組中無法取得";
 	AL["You can right-click to attempt to query the server.  You may be disconnected."] = "你可以按下滑鼠右鍵來嘗試向伺服器查詢該物品的資訊, 然而你將可能因此斷線.";
