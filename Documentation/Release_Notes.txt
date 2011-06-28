@@ -16,7 +16,8 @@ Added Season 10 PvP Set.
 Added Molten Fire Daily Rewards.
 Added various new mounts and companions.
 Added various new crafting recipes.
-Updated Alchemy section. (Thanks to Auràya @ EU-Arygos)
+Updated Alchemy section (Thanks to Auràya @ EU-Arygos).
+Updated Crafting section with Molten Front rewards.
 Updated Brewfest and Hallows' End boss loot.
 Added links for bosses and instances between AtlasLoot and DungeonJournal.
 Added a CompareFrame window to compare all items of an instance.
