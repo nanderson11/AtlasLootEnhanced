@@ -5,6 +5,13 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.04.02 (July 06, 2011)
+Added Firelands Patterns and Shared Boss loot.
+Added Tier 12 token drop locations.
+Adjusted PvP prices.
+Fixed some Wishlist related bugs.
+Minor fixes and additions.
+
 v6.04.01 (June 28, 2011)
 Updated Cooking, Enchanting & Jewelcrafting.
 Fixed a bug that prevented AtlasLoot from working.

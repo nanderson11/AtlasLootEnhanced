@@ -520,6 +520,7 @@ if AL then
 	AL["Collector's Edition"] = true;
 	AL["Daily Reward"] = true;
 	AL["No Longer Available"] = true;
+	AL["Shared Boss Loot"] = true;
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = true;
@@ -667,6 +668,7 @@ if AL then
 	AL["Ulduar Formula/Patterns/Plans"] = true;
 	AL["Trial of the Crusader Patterns/Plans"] = true;
 	AL["BRD Blacksmithing Plans"] = true;
+	AL["Firelands Patterns/Plans"] = true;
 
 	-- General titles
 	AL["Achievement"] = true;
