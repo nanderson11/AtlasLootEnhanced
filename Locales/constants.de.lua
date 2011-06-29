@@ -520,6 +520,7 @@ if AL then
 	-- AL["Collector's Edition"] = true;
 	AL["Daily Reward"] = "Tägliche Belohnung";
 	AL["No Longer Available"] = "Nicht mehr erhältlich";
+	AL["Shared Boss Loot"] = "Geteilter Bossloot";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "Klassisch";
@@ -667,6 +668,7 @@ if AL then
 	AL["Ulduar Formula/Patterns/Plans"] = "Ulduar Formeln/Muster/Pläne";
 	AL["Trial of the Crusader Patterns/Plans"] = "Prüfung des Kreuzfahrers Muster/Pläne";
 	AL["BRD Blacksmithing Plans"] = "Schwarzfelstiefen Schmiedepläne";
+	AL["Firelands Patterns/Plans"] = "Feuerlande Muster/Pläne";
 
 	-- General titles
 	AL["Achievement"] = "Erfolg";

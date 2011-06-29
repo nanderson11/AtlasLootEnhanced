@@ -1215,12 +1215,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s99439", "69936", "=q4=Fists of Fury", "=ds=#s9#, #a4# / =q1=#sk# 525"};
-				{ 2, "s99440", "69937", "=q4=Eternal Elementium Handguards", "=ds=#s9#, #a4# / =q1=#sk# 525"};	
-				{ 3, "s99441", "69938", "=q4=Holy Flame Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 525"};
-				{ 4, "s99452", "69946", "=q4=Warboots of Mighty Lords", "=ds=#s12#, #a4# / =q1=#sk# 525"};
-				{ 5, "s99453", "69947", "=q4=Mirrored Boots", "=ds=#s12#, #a4# / =q1=#sk# 525"};
-				{ 6, "s99454", "69948", "=q4=Emberforged Elementium Boots", "=ds=#s12#, #a4# / =q1=#sk# 525"};
+				{ 1, "s99439", "69936", "=q4=Fists of Fury", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 2, "s99440", "69937", "=q4=Eternal Elementium Handguards", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 3, "s99441", "69938", "=q4=Holy Flame Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 4, "s99452", "69946", "=q4=Warboots of Mighty Lords", "=ds=#s12#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 5, "s99453", "69947", "=q4=Mirrored Boots", "=ds=#s12#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 6, "s99454", "69948", "=q4=Emberforged Elementium Boots", "=ds=#s12#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 7, "s76464", "55078", "=q3=Bloodied Pyrium Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
 				{ 8, "s76463", "55077", "=q3=Bloodied Pyrium Helm", "=ds=#s1#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
 				{ 9, "s76462", "55076", "=q3=Bloodied Pyrium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
@@ -5188,10 +5188,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherLeatherArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s99446", "69942", "=q4=Clutches of Evil", "=ds=#sr# 525"};
-				{ 2, "s99447", "69943", "=q4=Heavenly Gloves of the Moon", "=ds=#sr# 525"};
-				{ 3, "s99458", "69952", "=q4=Ethereal Footfalls", "=ds=#sr# 525"};
-				{ 4, "s99457", "69951", "=q4=Treads of the Craft", "=ds=#sr# 525"};
+				{ 1, "s99446", "69942", "=q4=Clutches of Evil", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 2, "s99447", "69943", "=q4=Heavenly Gloves of the Moon", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 3, "s99458", "69952", "=q4=Ethereal Footfalls", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 4, "s99457", "69951", "=q4=Treads of the Craft", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 5, "s78488", "56562", "=q4=Assassin's Chestplate", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 6, "s78461", "56537", "=q4=Belt of Nefarious Whispers", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 7, "s78487", "56561", "=q4=Chestguard of Nature's Fury", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
@@ -5436,10 +5436,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherMailArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s99443", "69939", "=q4=Dragonfire Gloves", "=ds=#sr# 525"};
-				{ 2, "s99445", "69941", "=q4=Gloves of Unforgiving Flame", "=ds=#sr# 525"};
-				{ 3, "s99455", "69949", "=q4=Earthen Scale Sabatons", "=ds=#sr# 525"};
-				{ 4, "s99456", "69950", "=q4=Footwraps of Quenched Fire", "=ds=#sr# 525"};
+				{ 1, "s99443", "69939", "=q4=Dragonfire Gloves", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 2, "s99445", "69941", "=q4=Gloves of Unforgiving Flame", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 3, "s99455", "69949", "=q4=Earthen Scale Sabatons", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 4, "s99456", "69950", "=q4=Footwraps of Quenched Fire", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 5, "s78463", "56539", "=q4=Corded Viper Belt", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 6, "s78490", "56564", "=q4=Dragonkiller Tunic", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 7, "s78462", "56538", "=q4=Stormleather Sash", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
@@ -6221,10 +6221,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TailoringArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s99449", "69945", "=q4=Don Tayo's Inferno Mittens", "=ds=#sr# 525"};
-				{ 2, "s99448", "69944", "=q4=Grips of Altered Reality", "=ds=#sr# 525"};
-				{ 3, "s99460", "69954", "=q4=Boots of the Black Flame", "=ds=#sr# 525"};
-				{ 4, "s99459", "69953", "=q4=Endless Dream Walkers", "=ds=#sr# 525"};
+				{ 1, "s99449", "69945", "=q4=Don Tayo's Inferno Mittens", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 2, "s99448", "69944", "=q4=Grips of Altered Reality", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 3, "s99460", "69954", "=q4=Boots of the Black Flame", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
+				{ 4, "s99459", "69953", "=q4=Endless Dream Walkers", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 5, "s75301", "54506", "=q4=Flame-Ascended Pantaloons", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
 				{ 6, "s75298", "54504", "=q4=Belt of the Depths", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
 				{ 7, "s75300", "54505", "=q4=Breeches of Mended Nightmares", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
