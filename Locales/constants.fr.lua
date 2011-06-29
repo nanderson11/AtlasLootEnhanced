@@ -520,6 +520,7 @@ if AL then
 	AL["Collector's Edition"] = "Edition Collector";
 	AL["Daily Reward"] = "Récompense journalière";
 	AL["No Longer Available"] = "N'est plus disponible";
+	AL["Shared Boss Loot"] = "Partager les loots des boss";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "WoW classique";
@@ -636,8 +637,8 @@ if AL then
 	AL["Special"] = "Spécial";
 	AL["Feasts"] = "Festins";
 	AL["Speed"] = "Vitesse";
-	AL["Rod"] = "Bâtonnet";
-	AL["Oil"] = "Huile";
+	AL["Rod"] = "Bâtonnet"; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
+	AL["Oil"] = "Huile";-- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
 	AL["Dwarf"] = "Nain";
 	AL["Draenei"] = "Draeneï";
 	AL["Night Elf"] = "Elfe de la nuit";
@@ -667,6 +668,7 @@ if AL then
 	AL["Ulduar Formula/Patterns/Plans"] = "Formules / Patrons / Plans d'Ulduar";
 	AL["Trial of the Crusader Patterns/Plans"] = "Patrons / Plans de L'épreuve du croisé";
 	AL["BRD Blacksmithing Plans"] = "Plans de forge de BRD";
+	AL["Firelands Patterns/Plans"] = "Plans / Patrons des terres de Feu";
 
 	-- General titles
 	AL["Achievement"] = "Haut fait";
