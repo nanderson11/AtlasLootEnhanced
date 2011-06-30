@@ -3065,7 +3065,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Avengers of Hyjal",
+			name = BabbleFaction["Avengers of Hyjal"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5378,16 +5378,16 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
 				{ 2, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
-				{ 3, 70160, "", "=q3=Crimson Lasher", "=ds="..AL["Molten Front"]},
+				{ 3, 70160, "", "=q3=Crimson Lasher", "=ds="..BabbleZone["Molten Front"]},
 				{ 4, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
 				{ 5, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
 				{ 6, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
 				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
 				{ 8, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
-				{ 9, 70140, "", "=q3=Hyjal Bear Cub", "=ds="..AL["Molten Front"]},
+				{ 9, 70140, "", "=q3=Hyjal Bear Cub", "=ds="..BabbleZone["Molten Front"]},
 				{ 10, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
 				{ 11, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
-				{ 12, 34955, "", "=q3=Scorched Stone", "=ds="..AL["Molten Front"]};
+				{ 12, 34955, "", "=q3=Scorched Stone", "=ds="..BabbleZone["Molten Front"]};
 				{ 13, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
 				{ 14, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
 				{ 15, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
@@ -6526,18 +6526,18 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 70105, "", "=q4=Matoclaw's Band", "=ds=#s13#"};
 				{ 17, 70107, "", "=q4=Fireheart Necklace", "=ds=#s2#"};
 				{ 18, 70106, "", "=q4=Nightweaver's Amulet", "=ds=#s2#"};
-				{ 5, 71087, "", "=q2=Gilneas Writ of Commendation", "=ds=30 #motwt#"};
-				{ 6, 70145, "", "=q2=Darnassus Writ of Commendation", "=ds=30 #motwt#"};
-				{ 7, 70146, "", "=q2=Exodar Writ of Commendation", "=ds=30 #motwt#"};
-				{ 8, 70147, "", "=q2=Gnomeregan Writ of Commendation", "=ds=30 #motwt#"};
-				{ 9, 70148, "", "=q2=Ironforge Writ of Commendation", "=ds=30 #motwt#"};
-				{ 10, 70152, "", "=q2=Stormwind Writ of Commendation", "=ds=30 #motwt#"};
-				{ 20, 71088, "", "=q2=Bilgewater Writ of Commendation", "=ds=30 #motwt#"};
-				{ 21, 70149, "", "=q2=Orgrimmar Writ of Commendation", "=ds=30 #motwt#"};
-				{ 22, 70154, "", "=q2=Undercity Writ of Commendation", "=ds=30 #motwt#"};
-				{ 23, 70153, "", "=q2=Thunder Bluff Writ of Commendation", "=ds=30 #motwt#"};
-				{ 24, 70150, "", "=q2=Sen'jin Writ of Commendation", "=ds=30 #motwt#"};
-				{ 25, 70151, "", "=q2=Silvermoon Writ of Commendation", "=ds=30 #motwt#"};
+				{ 5, 71087, "", "=q2=Gilneas Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 6, 70145, "", "=q2=Darnassus Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 7, 70146, "", "=q2=Exodar Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 8, 70147, "", "=q2=Gnomeregan Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 9, 70148, "", "=q2=Ironforge Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 10, 70152, "", "=q2=Stormwind Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 20, 71088, "", "=q2=Bilgewater Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 21, 70149, "", "=q2=Orgrimmar Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 22, 70154, "", "=q2=Undercity Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 23, 70153, "", "=q2=Thunder Bluff Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 24, 70150, "", "=q2=Sen'jin Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 25, 70151, "", "=q2=Silvermoon Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Ayla Shadowstorm"], "=q1=#m4#: #QUESTID:29279#"};
@@ -6589,7 +6589,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Molten Front"].." "..AL["Rewards"],
+			name = BabbleZone["Molten Front"].." "..AL["Rewards"],
 			module = moduleName, menu = "SETMENU",
 		};
 	}

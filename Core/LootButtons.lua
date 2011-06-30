@@ -1,4 +1,4 @@
-local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
+﻿local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot")
 local GREY = "|cff999999"
 local RED = "|cffff0000"
@@ -24,6 +24,7 @@ local CURRENCY_PRICE = {
 	["JUSTICE"] = 395,		-- Justice Points
 	["VALOR"] = 396,		-- Valor Points
 	["CHEFAWARD"] = 402,	-- Chef's Award
+	["WORLDTREE"] = 416,	-- Mark of the World Tree
 	
 	-- Custom currencys
 	["BREWFEST"] = { itemID = 37829 },

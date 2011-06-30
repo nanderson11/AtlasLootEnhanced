@@ -1051,7 +1051,6 @@ if AL then
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
 	AL["Crusader's Square"] = "Kreuzzüglerpass";
 	AL["The Gauntlet"] = "Der Spießrutenlauf";
-	AL["Molten Front"] = "Geschmolzene Front";
 
 	-- Shortcuts for Bossname files
 	-- AL["Avatar"] = true; Avatar of the Martyred
