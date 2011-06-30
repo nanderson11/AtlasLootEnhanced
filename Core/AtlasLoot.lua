@@ -192,7 +192,7 @@ function AtlasLoot:OnLoaderLoad()
 			end
 		end
 	end
-	if not AtlasLootDB.showWarning then
+	if AtlasLootDB and not AtlasLootDB.showWarning then
 		StaticPopup_Show("ATLASLOOT_SAVED_VARIABLES")
 		AtlasLootDB.showWarning = true
 	end
