@@ -198,7 +198,7 @@ AtlasLoot_LootTableRegister = {
 
 		["Firelands"] = {
 			["Bosses"] = {
-				{ "AvengersHyjal", 1, hide = true },
+				{ "AvengersHyjal", {1,4}, hide = true },
 				{ "FirelandsBethtilac", 6, EncounterJournalID = 192 },
 				{ "FirelandsRhyolith", 7, EncounterJournalID = 193 },
 				{ "FirelandsAlysrazor", 8, EncounterJournalID = 194 },
