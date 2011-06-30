@@ -246,6 +246,7 @@ function AtlasLoot:OnLoaderLoad()
         --LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
    -- end    
    loaded = true
+   AtlasLootDB.showWarning = true
 end
 
 do
