@@ -173,6 +173,14 @@ local loaded = false
 -- Initialize all things like Gui, slash commands, saved variables
 function AtlasLoot:OnLoaderLoad()
 	if loaded then return end
+	if AtlasLootDB and AtlasLootDB["namespaces"] and AtlasLootDB["namespaces"]["DefaultFrame"] then
+		for k,v in pairs(AtlasLootDB["namespaces"]["DefaultFrame"]) do
+			if v["point"] then
+				v["point"] = nil
+			end
+		end
+	end
+	
     self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
     self.db:RegisterDefaults(AtlasLootDBDefaults);
 	self.chardb = LibStub("AceDB-3.0"):New("AtlasLootCharDB")

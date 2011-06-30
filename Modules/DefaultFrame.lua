@@ -29,7 +29,8 @@ local dbDefaults = {
 		DefaultFrameLocked = false,
 		module = "AtlasLootCataclysm",
 		instance = "BlackrockCaverns",
-		point = {"CENTER", UIParent, "CENTER"}
+		point = nil,
+		NEWpoint = {"CENTER"}
 	},
 }
 
@@ -114,7 +115,7 @@ do
 	local function onDragStop(self)
 		self:StopMovingOrSizing()
 		local a,b,c,d,e = AtlasLootItemsFrame:GetPoint()
-		db.point = { a, nil, c, d, e }
+		db.NEWpoint = { a, nil, c, d, e }
 	end
 	
 	local function setFrameLvl(self)
@@ -199,7 +200,7 @@ do
 		local Frame = self.Frame
 		Frame:ClearAllPoints()
 		Frame:SetParent(UIParent)
-		Frame:SetPoint(unpack(db.point))
+		Frame:SetPoint(unpack(db.NEWpoint))
 		--Frame:SetFrameStrata("HIGH")
 		Frame:SetWidth(921)
 		Frame:SetHeight(601)
