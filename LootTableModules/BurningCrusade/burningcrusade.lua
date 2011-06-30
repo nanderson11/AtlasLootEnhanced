@@ -6005,7 +6005,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 8, 34938, "", "=q4=Enslaved Doomguard Soulgrips", "=ds=#s9#", "#JUSTICE:390#", ""};
 				{ 9, 33587, "", "=q4=Light-Blessed Bonds", "=ds=#s9#", "#JUSTICE:312#", ""};
 				{ 10, 33586, "", "=q4=Studious Wraps", "=ds=#s9#", "#JUSTICE:312#", ""};
-				{ 11, 33291, "", "=q4=Voodoo-woven Belt", "=ds=#s10#", "#JUSTICE:312#", ""};
+				{ 11, 33291, "", "=q4=Voodoo-Woven Belt", "=ds=#s10#", "#JUSTICE:312#", ""};
 				{ 16, 33585, "", "=q4=Achromic Trousers of the Naaru", "=ds=#s11#", "#JUSTICE:390#", ""};
 				{ 17, 34925, "", "=q4=Adorned Supernal Legwraps", "=ds=#s11#", "#JUSTICE:520#", ""};
 				{ 18, 34937, "", "=q4=Corrupted Soulcloth Pantaloons", "=ds=#s11#", "#JUSTICE:520#", ""};

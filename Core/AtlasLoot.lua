@@ -153,7 +153,7 @@ StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
 
 --Popup Box for the bug with saved variables >.<
 StaticPopupDialogs["ATLASLOOT_SAVED_VARIABLES"] = {
-	text = "AtlasLoot should now work fine with Patch 4.2 again. If you still got problems please delete the file AtlasLoot.lua in your WoW folder: WTF/Account/AccountName/SavedVariables while logged out of the game.",
+	text = "AtlasLoot should now work fine with Patch 4.2. If you still got problems please delete the file AtlasLoot.lua in your WoW folder: WTF/Account/AccountName/SavedVariables while logged out of the game.",
 	button1 = AL["OK"],
 	OnAccept = function()
 		

@@ -20,7 +20,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 12, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
 				{ 13, "TransformationItems", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
 				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
-				{ 17, "MoltenFront", "inv_jewelry_ring_65", "=ds=Molten Front Daily Rewards", ""};
+				{ 17, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..AL["Molten Front"].." "..AL["Rewards"], ""};
 				{ 18, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
 				{ 20, "Heirloom", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"]};
 				{ 21, "Heirloom#3", "inv_helmet_04", "=ds="..AL["Heirloom"], "=q5="..AL["Level 85"]};
@@ -30,7 +30,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 26, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 27, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 28, "T1112SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11/12 Set"], "=q5="..AL["Cataclysm"]};
---				{ 30, "PATCH42MENU", "inv_helm_robe_raidmage_i_01", "Patch 4.2 Items" };
 			};
 		};
 		info = {

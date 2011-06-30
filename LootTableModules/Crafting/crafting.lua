@@ -1449,14 +1449,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingWeaponCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s99652", "70155", "=q4=Brainsplinter", "=ds=#h1#, #w4# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 2, "s99655", "70158", "=q4=Elementium-Edged Scalper", "=ds=#h1#, #w1# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 3, "s99654", "70157", "=q4=Lightforged Elementium Hammer", "=ds=#h3#, #w6# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 4, "s99658", "70164", "=q4=Masterwork Elementium Deathblade", "=ds=#h2#, #w10# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 5, "s99653", "70156", "=q4=Masterwork Elementium Spellblade", "=ds=#h3#, #w4# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 6, "s99656", "70162", "=q4=Pyrium Spellward", "=ds=#h1#, #w10# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 7, "s99657", "70163", "=q4=Unbreakable Guardian", "=ds=#h1#, #w10# / =q1=#sk# 525", "=ds=Molten Front"};
-				{ 8, "s99660", "70165", "=q4=Witch-Hunter's Harvester", "=ds=#h2#, #w7# / =q1=#sk# 525", "=ds=Molten Front"};
+				{ 1, "s99652", "70155", "=q4=Brainsplinter", "=ds=#h1#, #w4# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 2, "s99655", "70158", "=q4=Elementium-Edged Scalper", "=ds=#h1#, #w1# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 3, "s99654", "70157", "=q4=Lightforged Elementium Hammer", "=ds=#h3#, #w6# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 4, "s99658", "70164", "=q4=Masterwork Elementium Deathblade", "=ds=#h2#, #w10# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 5, "s99653", "70156", "=q4=Masterwork Elementium Spellblade", "=ds=#h3#, #w4# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 6, "s99656", "70162", "=q4=Pyrium Spellward", "=ds=#h1#, #w10# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 7, "s99657", "70163", "=q4=Unbreakable Guardian", "=ds=#h1#, #w10# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
+				{ 8, "s99660", "70165", "=q4=Witch-Hunter's Harvester", "=ds=#h2#, #w7# / =q1=#sk# 525", "=ds="..AL["Molten Front"]};
 				{ 9, "s76454", "55069", "=q4=Elementium Earthguard", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
 				{ 10, "s76455", "55070", "=q4=Elementium Stormshield", "=ds=#w8# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
 				{ 11, "s76451", "55066", "=q3=Elementium Poleaxe", "=ds=#w7# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
@@ -2963,7 +2963,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EngineeringScope"] = {
 		["Normal"] = {
 			{
-				{ 1, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#sr# 515", "=ds=Molten Front"};
+				{ 1, "s100587", "70139", "=q3=Flintlocke's Woodchucker", "=ds=#sr# 515", "=ds="..AL["Molten Front"]};
 				{ 2, "s84428", "59594", "=q3=Gnomish X-Ray Scope", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
 				{ 3, "s84410", "59596", "=q3=Safety Catch Removal Kit", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 4, "s84408", "59595", "=q3=R19 Threatfinder", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
@@ -5594,8 +5594,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherDrumsBagsMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s100583", "70136", "=q3=Royal Scribe's Satchel", "=ds=#sr# 510", "=ds=Molten Front"};
-				{ 2, "s100586", "70137", "=q3=Triple-Reinforced Mining Bag", "=ds=#sr# 500", "=ds=Molten Front"};
+				{ 1, "s100583", "70136", "=q3=Royal Scribe's Satchel", "=ds=#sr# 510", "=ds="..AL["Molten Front"]};
+				{ 2, "s100586", "70137", "=q3=Triple-Reinforced Mining Bag", "=ds=#sr# 500", "=ds="..AL["Molten Front"]};
 				{ 3, "s69386", "49633", "=q1=Drums of Forgotten Kings", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 4, "s69388", "49634", "=q1=Drums of the Wild", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 5, "s50971", "38347", "=q3=Mammoth Mining Bag", "=ds=#sr# 415", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Honored"] };
@@ -6275,7 +6275,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, "s75308", "54444", "=q3=Illusionary Bag", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 2, "s100585", "70138", "=q3=Luxurious Silk Gem Bag", "=ds=#sr# 515", "=ds=Molten Front"};
+				{ 2, "s100585", "70138", "=q3=Luxurious Silk Gem Bag", "=ds=#sr# 515", "=ds="..AL["Molten Front"]};
 				{ 3, "s75268", "54446", "=q2=Hyjal Expedition Bag", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
 				{ 4, "s75264", "54443", "=q2=Embersilk Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
 				{ 5, "s75265", "54445", "=q3=Otherworldly Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
