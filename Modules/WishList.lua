@@ -135,7 +135,6 @@ do
 				name = AL["Wishlist name:"],
 				order = 10,
 				get = function(info) 
-					LootTableSort:SetConfigTable(wlInfo.tableSort)
 					return wlInfo.name 
 				end,
 				set = function(info, value)
