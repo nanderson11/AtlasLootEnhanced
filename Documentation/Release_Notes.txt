@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.04.03 (June 30, 2011)
+Small Database fix.
+
 v6.04.02 (June 30, 2011)
 Added Firelands Patterns and Shared Boss loot.
 Added Tier 12 token drop locations.
