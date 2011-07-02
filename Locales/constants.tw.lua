@@ -520,6 +520,7 @@ if AL then
 	AL["Collector's Edition"] = "典藏版";
 	AL["Daily Reward"] = "每日獎勵";
 	AL["No Longer Available"] = "已不存在.";
+	AL["Shared Boss Loot"] = "共享首領掉落列表";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "原始的魔獸世界";
@@ -651,7 +652,7 @@ if AL then
 	AL["Resilience"] = "韌性";
 	AL["Professions"] = "專業技能";
 	AL["Damage"] = "傷害";
---	AL["Proc"] = true;
+	AL["Proc"] = "特效";
 
 	-- Extra Text in Boss lists
 	AL["AQ20 Class Sets"] = "AQ20 職業套裝";
@@ -667,6 +668,7 @@ if AL then
 	AL["Ulduar Formula/Patterns/Plans"] = "奧杜亞公式/圖樣/設計圖";
 	AL["Trial of the Crusader Patterns/Plans"] = "十字軍試煉圖樣/設計圖";
 	AL["BRD Blacksmithing Plans"] = "黑石深淵黑帖鍛造圖樣";
+	AL["Firelands Patterns/Plans"] = "火源之界圖樣/設計圖";
 
 	-- General titles
 	AL["Achievement"] = "成就";
