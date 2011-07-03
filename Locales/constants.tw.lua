@@ -239,10 +239,10 @@ if AL then
 	AL["Show Price"] = "顯示價格";
 	AL["Skill"] = "技能";
 	AL["Location"] = "位置";
-	AL["ilvl 359"] = "ilvl 359";
-	AL["ilvl 372"] = "ilvl 372";
-	AL["ilvl 378"] = "ilvl 378";
-	AL["ilvl 391"] = "ilvl 391";
+	AL["ilvl 359"] = "等級 359";
+	AL["ilvl 372"] = "等級 372";
+	AL["ilvl 378"] = "等級 378";
+	AL["ilvl 391"] = "等級 391";
 
 	-- #######################################
 	-- UI things END
