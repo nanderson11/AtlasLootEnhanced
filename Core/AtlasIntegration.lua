@@ -85,11 +85,13 @@ function AtlasLoot:AtlasInitialize()
 		Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
 		AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
 		
+		--[[ Comment out as Atlas now has its own integration
 		-- ENCOUNTER JOURNAL BUTTON
 		AtlasFrame.EncounterJournal = AtlasLoot:EncounterJournal_CreateButton("AtlasFrame_EncounterJournal", AtlasFrame)
 		AtlasFrame.EncounterJournal:SetPoint("TOPRIGHT", AtlasFrame, "TOPRIGHT", -18, -155)
 		AtlasFrame.EncounterJournal:SetFrameStrata("DIALOG")
 		--AtlasFrame.EncounterJournal:Hide()
+		]]
 	else
 		if ATLAS_VERSION and ATLASLOOT_MIN_ATLAS ~= AtlasLoot.db.profile.LastMinAtlasVersion then
 			AtlasLoot.db.profile.LastMinAtlasVersion = ATLASLOOT_MIN_ATLAS
@@ -211,8 +213,14 @@ function AtlasLoot:AtlasRefreshHook()
 	AtlasText_MinLevel_Text:SetText(tML);
 	AtlasText_PlayerLimit_Text:SetText(tPL);
 	
-	Atlastextbase = base;
+	-- Check if Journal Encounter Instance is available
+	if ( base.JournalInstanceID ) then
+		Atlas_JournalEncounter_InstanceButton:Show();
+	else
+		Atlas_JournalEncounter_InstanceButton:Hide();
+	end
 
+	Atlastextbase = base;
 	
 	-- Check Tables
 	local contentTable = "Instances"
@@ -385,6 +393,7 @@ function AtlasLoot:AtlasScrollBar_Update()
 				break
 			end
 		end
+--[[ Comment out as now Atlas has its own EJ integration
 		if AtlasLoot_LootTableRegister[contentTable] and AtlasLoot_LootTableRegister[contentTable][zoneID] and AtlasLoot_LootTableRegister[contentTable][zoneID]["Info"] and AtlasLoot_LootTableRegister[contentTable][zoneID]["Info"].EncounterJournalID then
 			AtlasFrame.EncounterJournal.info = { AtlasLoot_LootTableRegister[contentTable][zoneID]["Info"].EncounterJournalID, nil }
 			AtlasLoot:EncounterJournal_ButtonsRefresh()	
@@ -392,6 +401,7 @@ function AtlasLoot:AtlasScrollBar_Update()
 			AtlasFrame.EncounterJournal.info = nil
 			AtlasLoot:EncounterJournal_ButtonsRefresh()	
 		end
+]]
 		--Make note of how far in the scroll frame we are
 		for line=1,ATLAS_NUM_LINES do
 			lineplusoffset = line + FauxScrollFrame_GetOffset(AtlasScrollBar);
