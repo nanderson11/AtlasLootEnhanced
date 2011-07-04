@@ -520,7 +520,7 @@ if AL then
 	AL["Collector's Edition"] = "Edition Collector";
 	AL["Daily Reward"] = "Récompense journalière";
 	AL["No Longer Available"] = "N'est plus disponible";
-	AL["Shared Boss Loot"] = "Partager les loots des boss";
+	AL["Shared Boss Loot"] = "Loots partager sur les boss";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "WoW classique";
