@@ -85,13 +85,6 @@ function AtlasLoot:AtlasInitialize()
 		Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
 		AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
 		
-		--[[ Comment out as Atlas now has its own integration
-		-- ENCOUNTER JOURNAL BUTTON
-		AtlasFrame.EncounterJournal = AtlasLoot:EncounterJournal_CreateButton("AtlasFrame_EncounterJournal", AtlasFrame)
-		AtlasFrame.EncounterJournal:SetPoint("TOPRIGHT", AtlasFrame, "TOPRIGHT", -18, -155)
-		AtlasFrame.EncounterJournal:SetFrameStrata("DIALOG")
-		--AtlasFrame.EncounterJournal:Hide()
-		]]
 	else
 		if ATLAS_VERSION and ATLASLOOT_MIN_ATLAS ~= AtlasLoot.db.profile.LastMinAtlasVersion then
 			AtlasLoot.db.profile.LastMinAtlasVersion = ATLASLOOT_MIN_ATLAS
