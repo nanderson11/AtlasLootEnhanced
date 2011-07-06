@@ -2588,6 +2588,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 70737, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
 				{ 10, 70988, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
 				{ 11, 70739, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
+				{ 13, 71665, "", "=q4=Flametalon of Alysrazor", "=ds=#e27#" },
 				{ 16, 70738, "", "=q4=Alysrazor's Band", "=ds=#s13#"};
 				{ 17, 68983, "", "=q4=Eye of Blazing Power", "=ds=#s14#" },
 				{ 19, 70733, "", "=q4=Alysra's Razor", "=ds=#h1#, #w4#"};
@@ -2606,6 +2607,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 71432, "", "=q4=Spaulders of Recurring Flame", "=ds=#s3#, #a4#"};
 				{ 10, 71439, "", "=q4=Clutch of the Firemother", "=ds=#s5#, #a4#"};
 				{ 11, 71431, "", "=q4=Lavaworm Legplates", "=ds=#s11#, #a4#"};
+				{ 13, 71665, "", "=q4=Flametalon of Alysrazor", "=ds=#e27#" },
 				{ 16, 71679, "", "=q4=Chest of the Fiery Conqueror", "=ds=#e15#, #m38# - #j4#"};
 				{ 17, 71686, "", "=q4=Chest of the Fiery Protector", "=ds=#e15#, #m38# - #j4#"};
 				{ 18, 71672, "", "=q4=Chest of the Fiery Vanquisher", "=ds=#e15#, #m38# - #j4#"};
@@ -3396,12 +3398,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70558, "", "=q4=Vicious Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 12, 70559, "", "=q4=Vicious Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70561, "", "=q4=Vicious Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 9"]};
-				{ 17, 60410, "", "=q4=Vicious Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60412, "", "=q4=Vicious Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60408, "", "=q4=Vicious Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 20, 60409, "", "=q4=Vicious Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 60411, "", "=q4=Vicious Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60410, "", "=q4=Vicious Gladiator's Dreadplate Helm", "=ds="};
+				{ 18, 60412, "", "=q4=Vicious Gladiator's Dreadplate Shoulders", "=ds="};
+				{ 19, 60408, "", "=q4=Vicious Gladiator's Dreadplate Chestpiece", "=ds="};
+				{ 20, 60409, "", "=q4=Vicious Gladiator's Dreadplate Gauntlets", "=ds="};
+				{ 21, 60411, "", "=q4=Vicious Gladiator's Dreadplate Legguards", "=ds="};
 				{ 23, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q1=#m36#"};
 				{ 24, 64737, "", "=q3=Bloodthirsty Gladiator's Dreadplate Helm", "=ds="};
 				{ 25, 64739, "", "=q3=Bloodthirsty Gladiator's Dreadplate Shoulders", "=ds="};
@@ -3431,12 +3433,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70674, "", "=q4=Vicious Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2200#"};
 				{ 12, 70671, "", "=q4=Vicious Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70673, "", "=q4=Vicious Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 9"]};
-				{ 17, 60454, "", "=q4=Vicious Gladiator's Wyrmhide Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60457, "", "=q4=Vicious Gladiator's Wyrmhide Spaulders", "=ds=", "#v:1650#"};
-				{ 19, 60456, "", "=q4=Vicious Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2200#"};
-				{ 20, 60453, "", "=q4=Vicious Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60455, "", "=q4=Vicious Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60454, "", "=q4=Vicious Gladiator's Wyrmhide Helm", "=ds="};
+				{ 18, 60457, "", "=q4=Vicious Gladiator's Wyrmhide Spaulders", "=ds="};
+				{ 19, 60456, "", "=q4=Vicious Gladiator's Wyrmhide Robes", "=ds="};
+				{ 20, 60453, "", "=q4=Vicious Gladiator's Wyrmhide Gloves", "=ds="};
+				{ 21, 60455, "", "=q4=Vicious Gladiator's Wyrmhide Legguards", "=ds="};
 				{ 23, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q1=#m36#"};
 				{ 24, 64875, "", "=q3=Bloodthirsty Gladiator's Wyrmhide Helm", "=ds="};
 				{ 25, 64878, "", "=q3=Bloodthirsty Gladiator's Wyrmhide Spaulders", "=ds="};
@@ -3466,12 +3468,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70553, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
 				{ 12, 70550, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70552, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 9"]};
-				{ 17, 60444, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60447, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60446, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
-				{ 20, 60443, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60445, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60444, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds="};
+				{ 18, 60447, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds="};
+				{ 19, 60446, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds="};
+				{ 20, 60443, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds="};
+				{ 21, 60445, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds="};
 				{ 23, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q1=#m36#"};
 				{ 24, 64728, "", "=q3=Bloodthirsty Gladiator's Dragonhide Helm", "=ds="};
 				{ 25, 64731, "", "=q3=Bloodthirsty Gladiator's Dragonhide Spaulders", "=ds="};
@@ -3501,12 +3503,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70583, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
 				{ 12, 70580, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70582, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 9"]};
-				{ 17, 60449, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60452, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60451, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
-				{ 20, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60449, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds="};
+				{ 18, 60452, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds="};
+				{ 19, 60451, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds="};
+				{ 20, 60448, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds="};
+				{ 21, 60450, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds="};
 				{ 23, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q1=#m36#"};
 				{ 24, 64765, "", "=q3=Bloodthirsty Gladiator's Kodohide Helm", "=ds="};
 				{ 25, 64768, "", "=q3=Bloodthirsty Gladiator's Kodohide Spaulders", "=ds="};
@@ -3536,12 +3538,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70533, "", "=q4=Vicious Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70534, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70536, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 9"]};
-				{ 17, 60425, "", "=q4=Vicious Gladiator's Chain Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60427, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60423, "", "=q4=Vicious Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 60424, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 60426, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60425, "", "=q4=Vicious Gladiator's Chain Helm", "=ds="};
+				{ 18, 60427, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds="};
+				{ 19, 60423, "", "=q4=Vicious Gladiator's Chain Armor", "=ds="};
+				{ 20, 60424, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds="};
+				{ 21, 60426, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds="};
 				{ 23, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q1=#m36#"};
 				{ 24, 64710, "", "=q3=Bloodthirsty Gladiator's Chain Helm", "=ds="};
 				{ 25, 64712, "", "=q3=Bloodthirsty Gladiator's Chain Spaulders", "=ds="};
@@ -3571,12 +3573,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70658, "", "=q4=Vicious Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
 				{ 12, 70657, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
 				{ 13, 70659, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 9"]};
-				{ 17, 60464, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds=", "#HONOR:2200#"};
-				{ 18, 60467, "", "=q4=Vicious Gladiator's Silk Amice", "=ds=", "#HONOR:1650#"};
-				{ 19, 60466, "", "=q4=Vicious Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
-				{ 20, 60463, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
-				{ 21, 60465, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60464, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds="};
+				{ 18, 60467, "", "=q4=Vicious Gladiator's Silk Amice", "=ds="};
+				{ 19, 60466, "", "=q4=Vicious Gladiator's Silk Robe", "=ds="};
+				{ 20, 60463, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds="};
+				{ 21, 60465, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds="};
 				{ 23, 0, "inv_staff_13", "=q6=#arenas3#", "=q1=#m36#"};
 				{ 24, 64854, "", "=q3=Bloodthirsty Gladiator's Silk Cowl", "=ds="};
 				{ 25, 64853, "", "=q3=Bloodthirsty Gladiator's Silk Amice", "=ds="};
@@ -3606,12 +3608,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70648, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 12, 70649, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70651, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 9"]};
-				{ 17, 60415, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60417, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60413, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 20, 60414, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 60416, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60415, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds="};
+				{ 18, 60417, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds="};
+				{ 19, 60413, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds="};
+				{ 20, 60414, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds="};
+				{ 21, 60416, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds="};
 				{ 23, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q1=#m36#"};
 				{ 24, 64845, "", "=q3=Bloodthirsty Gladiator's Scaled Helm", "=ds="};
 				{ 25, 64847, "", "=q3=Bloodthirsty Gladiator's Scaled Shoulders", "=ds="};
@@ -3629,24 +3631,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 10"]};
 				{ 2, 70355, "", "=q4=Ruthless Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70357, "", "=q4=Ruthless Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70353, "", "=q4=Ruthless Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
 				{ 5, 70354, "", "=q4=Ruthless Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
 				{ 6, 70356, "", "=q4=Ruthless Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
-				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 10"]};
 				{ 9, 70617, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
 				{ 10, 70619, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 11, 70615, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
 				{ 12, 70616, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70618, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]};
-				{ 17, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
-				{ 18, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
-				{ 20, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds="};
+				{ 18, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds="};
+				{ 19, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds="};
+				{ 20, 60602, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds="};
+				{ 21, 60604, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds="};
 				{ 23, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_2#", "=q1=#m36#"};
 				{ 24, 64804, "", "=q3=Bloodthirsty Gladiator's Ornamented Headcover", "=ds="};
 				{ 25, 64806, "", "=q3=Bloodthirsty Gladiator's Ornamented Spaulders", "=ds="};
@@ -3676,12 +3678,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70647, "", "=q4=Vicious Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
 				{ 12, 70643, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70645, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 9"]};
-				{ 17, 60474, "", "=q4=Vicious Gladiator's Satin Hood", "=ds=", "#HONOR:2200#"};
-				{ 18, 60477, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds=", "#HONOR:1650#"};
-				{ 19, 60473, "", "=q4=Vicious Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
-				{ 20, 60476, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60475, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60474, "", "=q4=Vicious Gladiator's Satin Hood", "=ds="};
+				{ 18, 60477, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds="};
+				{ 19, 60473, "", "=q4=Vicious Gladiator's Satin Robe", "=ds="};
+				{ 20, 60476, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds="};
+				{ 21, 60475, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds="};
 				{ 23, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q1=#m36#"};
 				{ 24, 64839, "", "=q3=Bloodthirsty Gladiator's Satin Hood", "=ds="};
 				{ 25, 64841, "", "=q3=Bloodthirsty Gladiator's Satin Mantle", "=ds="};
@@ -3711,12 +3713,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70612, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
 				{ 12, 70608, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70610, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 9"]};
-				{ 17, 60469, "", "=q4=Vicious Gladiator's Mooncloth Hood", "=ds=", "#HONOR:2200#"};
-				{ 18, 60472, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
-				{ 19, 60471, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
-				{ 20, 60468, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60470, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60469, "", "=q4=Vicious Gladiator's Mooncloth Hood", "=ds="};
+				{ 18, 60472, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds="};
+				{ 19, 60471, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds="};
+				{ 20, 60468, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds="};
+				{ 21, 60470, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds="};
 				{ 23, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q1=#m36#"};
 				{ 24, 64796, "", "=q3=Bloodthirsty Gladiator's Mooncloth Hood", "=ds="};
 				{ 25, 64798, "", "=q3=Bloodthirsty Gladiator's Mooncloth Mantle", "=ds="};
@@ -3746,12 +3748,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70589, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
 				{ 12, 70585, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70587, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 9"]};
-				{ 17, 60460, "", "=q4=Vicious Gladiator's Leather Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60462, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60458, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
-				{ 20, 60459, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 60461, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60460, "", "=q4=Vicious Gladiator's Leather Helm", "=ds="};
+				{ 18, 60462, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds="};
+				{ 19, 60458, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds="};
+				{ 20, 60459, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds="};
+				{ 21, 60461, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds="};
 				{ 23, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q1=#m36#"};
 				{ 24, 64770, "", "=q3=Bloodthirsty Gladiator's Leather Helm", "=ds="};
 				{ 25, 64772, "", "=q3=Bloodthirsty Gladiator's Leather Spaulders", "=ds="};
@@ -3781,12 +3783,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70597, "", "=q4=Vicious Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70598, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70600, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 9"]};
-				{ 17, 60440, "", "=q4=Vicious Gladiator's Mail Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60442, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60438, "", "=q4=Vicious Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 60439, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=", "#v:1650#"};
-				{ 21, 60441, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60440, "", "=q4=Vicious Gladiator's Mail Helm", "=ds="};
+				{ 18, 60442, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds="};
+				{ 19, 60438, "", "=q4=Vicious Gladiator's Mail Armor", "=ds="};
+				{ 20, 60439, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds="};
+				{ 21, 60441, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds="};
 				{ 23, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q1=#m36#"};
 				{ 24, 64786, "", "=q3=Bloodthirsty Gladiator's Mail Helm", "=ds="};
 				{ 25, 64788, "", "=q3=Bloodthirsty Gladiator's Mail Spaulders", "=ds="};
@@ -3816,12 +3818,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70590, "", "=q4=Vicious Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70591, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70593, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 9"]};
-				{ 17, 60435, "", "=q4=Vicious Gladiator's Linked Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60437, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60433, "", "=q4=Vicious Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 60434, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 60436, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60435, "", "=q4=Vicious Gladiator's Linked Helm", "=ds="};
+				{ 18, 60437, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds="};
+				{ 19, 60433, "", "=q4=Vicious Gladiator's Linked Armor", "=ds="};
+				{ 20, 60434, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds="};
+				{ 21, 60436, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds="};
 				{ 23, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q1=#m36#"};
 				{ 24, 64778, "", "=q3=Bloodthirsty Gladiator's Linked Helm", "=ds="};
 				{ 25, 64780, "", "=q3=Bloodthirsty Gladiator's Linked Spaulders", "=ds="};
@@ -3851,12 +3853,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70632, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70633, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70635, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 9"]};
-				{ 17, 60430, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60432, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60428, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 60429, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 60431, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60430, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds="};
+				{ 18, 60432, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds="};
+				{ 19, 60428, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds="};
+				{ 20, 60429, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds="};
+				{ 21, 60431, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds="};
 				{ 23, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q1=#m36#"};
 				{ 24, 64829, "", "=q3=Bloodthirsty Gladiator's Ringmail Helm", "=ds="};
 				{ 25, 64831, "", "=q3=Bloodthirsty Gladiator's Ringmail Spaulders", "=ds="};
@@ -3886,12 +3888,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70569, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
 				{ 12, 70568, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
 				{ 13, 70570, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 9"]};
-				{ 17, 60479, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds=", "#HONOR:2200#"};
-				{ 18, 60482, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds=", "#HONOR:1650#"};
-				{ 19, 60481, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
-				{ 20, 60478, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
-				{ 21, 60480, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60479, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds="};
+				{ 18, 60482, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds="};
+				{ 19, 60481, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds="};
+				{ 20, 60478, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds="};
+				{ 21, 60480, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds="};
 				{ 23, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q1=#m36#"};
 				{ 24, 64746, "", "=q3=Bloodthirsty Gladiator's Felweave Cowl", "=ds="};
 				{ 25, 64745, "", "=q3=Bloodthirsty Gladiator's Felweave Amice", "=ds="};
@@ -3921,12 +3923,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70623, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 12, 70624, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70626, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 9"]};
-				{ 17, 60420, "", "=q4=Vicious Gladiator's Plate Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 60422, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 60418, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 20, 60419, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 60421, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
+				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 17, 60420, "", "=q4=Vicious Gladiator's Plate Helm", "=ds="};
+				{ 18, 60422, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds="};
+				{ 19, 60418, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds="};
+				{ 20, 60419, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds="};
+				{ 21, 60421, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds="};
 				{ 23, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q1=#m36#"};
 				{ 24, 64813, "", "=q3=Bloodthirsty Gladiator's Plate Helm", "=ds="};
 				{ 25, 64815, "", "=q3=Bloodthirsty Gladiator's Plate Shoulders", "=ds="};
@@ -3944,44 +3946,8 @@ local moduleName = "AtlasLootCataclysm"
 		------------------------------
 		--- Level 85 - Accessories ---
 		------------------------------
---Season 9 - to be removed when Season 10 starts
+
 	AtlasLoot_Data["PVP85Accessories"] = {
-		["Normal"] = {
-			{
-				{ 1, 60783, "", "=q4=Vicious Gladiator's Cape of Cruelty", "=ds=#s4#", "#HONOR:1250#" },
-				{ 2, 60779, "", "=q4=Vicious Gladiator's Cape of Prowess", "=ds=#s4#", "#HONOR:1250#" },
-				{ 3, 60776, "", "=q4=Vicious Gladiator's Cloak of Alacrity", "=ds=#s4#", "#HONOR:1250#" },
-				{ 4, 60778, "", "=q4=Vicious Gladiator's Cloak of Prowess", "=ds=#s4#", "#HONOR:1250#" },
-				{ 5, 60786, "", "=q4=Vicious Gladiator's Drape of Diffusion", "=ds=#s4#", "#HONOR:1250#" },
-				{ 6, 60788, "", "=q4=Vicious Gladiator's Drape of Meditation", "=ds=#s4#", "#HONOR:1250#" },
-				{ 7, 60787, "", "=q4=Vicious Gladiator's Drape of Prowess", "=ds=#s4#", "#HONOR:1250#" },
-				{ 9, 60647, "", "=q4=Vicious Gladiator's Band of Accuracy", "=ds=#s13#", "#HONOR:1250#"};
-				{ 10, 60645, "", "=q4=Vicious Gladiator's Band of Cruelty", "=ds=#s13#", "#HONOR:1250#"};
-				{ 11, 60649, "", "=q4=Vicious Gladiator's Band of Dominance", "=ds=#s13#", "#HONOR:1250#"};
-				{ 12, 60651, "", "=q4=Vicious Gladiator's Signet of Accuracy", "=ds=#s13#", "#HONOR:1250#"};
-				{ 13, 60650, "", "=q4=Vicious Gladiator's Signet of Cruelty", "=ds=#s13#", "#HONOR:1250#"};
-				{ 14, 60658, "", "=q4=Vicious Gladiator's Ring of Accuracy", "=ds=#s13#", "#HONOR:1250#"};
-				{ 15, 60659, "", "=q4=Vicious Gladiator's Ring of Cruelty", "=ds=#s13#", "#HONOR:1250#"};
-				{ 16, 60673, "", "=q4=Vicious Gladiator's Choker of Accuracy", "=ds=#s2#", "#HONOR:1250#" },
-				{ 17, 60670, "", "=q4=Vicious Gladiator's Choker of Proficiency", "=ds=#s2#", "#HONOR:1250#" },
-				{ 18, 60669, "", "=q4=Vicious Gladiator's Necklace of Proficiency", "=ds=#s2#", "#HONOR:1250#" },
-				{ 19, 60668, "", "=q4=Vicious Gladiator's Necklace of Prowess", "=ds=#s2#", "#HONOR:1250#" },
-				{ 20, 60662, "", "=q4=Vicious Gladiator's Pendant of Alacrity", "=ds=#s2#", "#HONOR:1250#" },
-				{ 21, 60661, "", "=q4=Vicious Gladiator's Pendant of Diffusion", "=ds=#s2#", "#HONOR:1250#" },
-				{ 22, 60664, "", "=q4=Vicious Gladiator's Pendant of Meditation", "=ds=#s2#", "#HONOR:1250#" },
-				{ 24, 61391, "", "=q4=Vicious Gladiator's Relic of Conquest", "=ds=#s16#", "#HONOR:700#" },
-				{ 25, 61388, "", "=q4=Vicious Gladiator's Relic of Dominance", "=ds=#s16#", "#HONOR:700#" },
-				{ 26, 61389, "", "=q4=Vicious Gladiator's Relic of Salvation", "=ds=#s16#", "#HONOR:700#" },
-				{ 27, 61390, "", "=q4=Vicious Gladiator's Relic of Triumph", "=ds=#s16#", "#HONOR:700#" },
-			};
-		};
-		info = {
-			name = AL["PvP Accessories"],
-			module = moduleName, menu = "PVPMENU",
-		};
-	}
---Season 10
-	AtlasLoot_Data["PVP85Accessories2"] = {
 		["Normal"] = {
 			{
 				{ 1, 70386, "", "=q4=Ruthless Gladiator's Cape of Cruelty", "=ds=#s4#", "#CONQUEST:1250#" },
@@ -4047,40 +4013,8 @@ local moduleName = "AtlasLootCataclysm"
 		---------------------------
 		--- Level 85 - Trinkets ---
 		---------------------------
---Season 9 - to be removed when Season 10 starts
+
 	AtlasLoot_Data["PVP85Trinkets"] = {
-		["Normal"] = {
-			{
-				{ 1, 61033, "", "=q4=Vicious Gladiator's Badge of HONOR", "=ds=#s14#", "#HONOR:1650#" },
-				{ 2, 61035, "", "=q4=Vicious Gladiator's Badge of Dominance", "=ds=#s14#", "#HONOR:1650#" },
-				{ 3, 61034, "", "=q4=Vicious Gladiator's Badge of Victory", "=ds=#s14#", "#HONOR:1650#" },
-				{ 5, 61026, "", "=q4=Vicious Gladiator's Emblem of Cruelty", "=ds=#s14#", "#HONOR:1650#" },
-				{ 6, 61031, "", "=q4=Vicious Gladiator's Emblem of Meditation", "=ds=#s14#", "#HONOR:1650#" },
-				{ 7, 61032, "", "=q4=Vicious Gladiator's Emblem of Tenacity", "=ds=#s14#", "#HONOR:1650#" },
-				{
-					{ 9, 60801, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "#HONOR:1650#" },
-					{ 9, 60794, "", "=q4=Vicious Gladiator's Medallion of Cruelty", "=ds=#s14#", "#HONOR:1650#" },
-				};
-				{
-					{ 10, 60806, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "#HONOR:1650#" },
-					{ 10, 60799, "", "=q4=Vicious Gladiator's Medallion of Meditation", "=ds=#s14#", "#HONOR:1650#" },
-				};
-				{
-					{ 11, 60807, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "#HONOR:1650#" },
-					{ 11, 60800, "", "=q4=Vicious Gladiator's Medallion of Tenacity", "=ds=#s14#", "#HONOR:1650#" },
-				};
-				{ 13, 61047, "", "=q4=Vicious Gladiator's Insignia of HONOR", "=ds=#s14#", "#HONOR:1650#" },
-				{ 14, 61045, "", "=q4=Vicious Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1650#" },
-				{ 15, 61046, "", "=q4=Vicious Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1650#" },
-			};
-		};
-		info = {
-			name = AL["PvP Trinkets"],
-			module = moduleName, menu = "PVPMENU",
-		};
-	}
---Season 10
-	AtlasLoot_Data["PVP85Trinkets2"] = {
 		["Normal"] = {
 			{
 				{ 1, 70399, "", "=q4=Ruthless Gladiator's Badge of Conquest", "=ds=#s14#", "#CONQUEST:1650#" },
@@ -4140,60 +4074,105 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85NonSet"] = {
 		["Normal"] = {
 			{
-				{ 1, 60628, "", "=q4=Vicious Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 2, 60626, "", "=q4=Vicious Gladiator's Cord of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 3, 60630, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 5, 60635, "", "=q4=Vicious Gladiator's Cuffs of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 6, 60637, "", "=q4=Vicious Gladiator's Cord of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 7, 60636, "", "=q4=Vicious Gladiator's Treads of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 9, 60634, "", "=q4=Vicious Gladiator's Cuffs of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 10, 60612, "", "=q4=Vicious Gladiator's Cord of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 11, 60613, "", "=q4=Vicious Gladiator's Treads of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 1, 70363, "", "=q4=Ruthless Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 2, 70362, "", "=q4=Ruthless Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1650#"};
+				{ 3, 70364, "", "=q4=Ruthless Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 70366, "", "=q4=Ruthless Gladiator's Cuffs of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 6, 70368, "", "=q4=Ruthless Gladiator's Cord of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 7, 70367, "", "=q4=Ruthless Gladiator's Treads of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 9, 70365, "", "=q4=Ruthless Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 10, 70360, "", "=q4=Ruthless Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 11, 70361, "", "=q4=Ruthless Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 16, 70547, "", "=q4=Vicious Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 17, 70544, "", "=q4=Vicious Gladiator's Cord of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 18, 70660, "", "=q4=Vicious Gladiator's Treads of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 20, 70548, "", "=q4=Vicious Gladiator's Cuffs of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 21, 70546, "", "=q4=Vicious Gladiator's Cord of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 22, 70662, "", "=q4=Vicious Gladiator's Treads of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 24, 70549, "", "=q4=Vicious Gladiator's Cuffs of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 25, 70545, "", "=q4=Vicious Gladiator's Cord of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 70661, "", "=q4=Vicious Gladiator's Treads of Cruelty", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
-				{ 1, 60591, "", "=q4=Vicious Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 2, 60589, "", "=q4=Vicious Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 3, 60587, "", "=q4=Vicious Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 5, 60594, "", "=q4=Vicious Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 6, 60586, "", "=q4=Vicious Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 7, 60593, "", "=q4=Vicious Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 9, 60611, "", "=q4=Vicious Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 10, 60583, "", "=q4=Vicious Gladiator's Belt of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 11, 60607, "", "=q4=Vicious Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 13, 60582, "", "=q4=Vicious Gladiator's Bindings of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 14, 60580, "", "=q4=Vicious Gladiator's Belt of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 15, 60581, "", "=q4=Vicious Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 1, 70350, "", "=q4=Ruthless Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 2, 70349, "", "=q4=Ruthless Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1650#"};
+				{ 3, 70348, "", "=q4=Ruthless Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 70352, "", "=q4=Ruthless Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 6, 70347, "", "=q4=Ruthless Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 7, 70351, "", "=q4=Ruthless Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 9, 70359, "", "=q4=Ruthless Gladiator's Bindings of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 10, 70346, "", "=q4=Ruthless Gladiator's Belt of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 11, 70358, "", "=q4=Ruthless Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 13, 70345, "", "=q4=Ruthless Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 14, 70343, "", "=q4=Ruthless Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 15, 70344, "", "=q4=Ruthless Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 16, 70515, "", "=q4=Vicious Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 17, 70663, "", "=q4=Vicious Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 18, 70528, "", "=q4=Vicious Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 20, 70516, "", "=q4=Vicious Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 21, 70664, "", "=q4=Vicious Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 22, 70527, "", "=q4=Vicious Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 24, 70526, "", "=q4=Vicious Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 25, 70523, "", "=q4=Vicious Gladiator's Belt of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 70571, "", "=q4=Vicious Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 28, 70525, "", "=q4=Vicious Gladiator's Bindings of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 29, 70524, "", "=q4=Vicious Gladiator's Belt of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 30, 70572, "", "=q4=Vicious Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 1, 60535, "", "=q4=Vicious Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 2, 60533, "", "=q4=Vicious Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 3, 60534, "", "=q4=Vicious Gladiator's Sabatons of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 5, 60569, "", "=q4=Vicious Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 6, 60536, "", "=q4=Vicious Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 7, 60567, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 9, 60559, "", "=q4=Vicious Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
-				{ 10, 60555, "", "=q4=Vicious Gladiator's Links of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 11, 60557, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 13, 60565, "", "=q4=Vicious Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 14, 60564, "", "=q4=Vicious Gladiator's Links of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 15, 60554, "", "=q4=Vicious Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 1, 70330, "", "=q4=Ruthless Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 2, 70328, "", "=q4=Ruthless Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 3, 70329, "", "=q4=Ruthless Gladiator's Sabatons of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 70342, "", "=q4=Ruthless Gladiator's Armbands of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 6, 70331, "", "=q4=Ruthless Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 7, 70341, "", "=q4=Ruthless Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 9, 70338, "", "=q4=Ruthless Gladiator's Wristguards of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 10, 70336, "", "=q4=Ruthless Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 11, 70337, "", "=q4=Ruthless Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 13, 70340, "", "=q4=Ruthless Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 14, 70339, "", "=q4=Ruthless Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1650#"};
+				{ 15, 70335, "", "=q4=Ruthless Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 16, 70511, "", "=q4=Vicious Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 17, 70666, "", "=q4=Vicious Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 18, 70642, "", "=q4=Vicious Gladiator's Sabatons of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 20, 70512, "", "=q4=Vicious Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 21, 70665, "", "=q4=Vicious Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 22, 70640, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 24, 70670, "", "=q4=Vicious Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 25, 70596, "", "=q4=Vicious Gladiator's Links of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 70639, "", "=q4=Vicious Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 28, 70669, "", "=q4=Vicious Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 29, 70595, "", "=q4=Vicious Gladiator's Links of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 30, 70641, "", "=q4=Vicious Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Mail"]
 			};
 			{
-				{ 1, 60541, "", "=q4=Vicious Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 2, 60539, "", "=q4=Vicious Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 3, 60540, "", "=q4=Vicious Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 5, 60523, "", "=q4=Vicious Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
-				{ 6, 60521, "", "=q4=Vicious Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1650#"};
-				{ 7, 60513, "", "=q4=Vicious Gladiator's Warboots of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 9, 60520, "", "=q4=Vicious Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 10, 60505, "", "=q4=Vicious Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 11, 60516, "", "=q4=Vicious Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 13, 60512, "", "=q4=Vicious Gladiator's Armplates of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 14, 60508, "", "=q4=Vicious Gladiator's Girdle of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 15, 60509, "", "=q4=Vicious Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 1, 70334, "", "=q4=Ruthless Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 2, 70332, "", "=q4=Ruthless Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 3, 70333, "", "=q4=Ruthless Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 70327, "", "=q4=Ruthless Gladiator's Armplates of Proficiency", "=ds=", "#CONQUEST:1250#"};
+				{ 6, 70326, "", "=q4=Ruthless Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1650#"};
+				{ 7, 70323, "", "=q4=Ruthless Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 9, 70325, "", "=q4=Ruthless Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 10, 70319, "", "=q4=Ruthless Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 11, 70324, "", "=q4=Ruthless Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 13, 70322, "", "=q4=Ruthless Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 14, 70320, "", "=q4=Ruthless Gladiator's Girdle of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 15, 70321, "", "=q4=Ruthless Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 16, 70529, "", "=q4=Vicious Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 17, 70541, "", "=q4=Vicious Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 18, 70576, "", "=q4=Vicious Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 20, 70514, "", "=q4=Vicious Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
+				{ 21, 70574, "", "=q4=Vicious Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1650#"};
+				{ 22, 70667, "", "=q4=Vicious Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 24, 70530, "", "=q4=Vicious Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 25, 70540, "", "=q4=Vicious Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 70575, "", "=q4=Vicious Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 28, 70513, "", "=q4=Vicious Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 29, 70573, "", "=q4=Vicious Gladiator's Girdle of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 30, 70668, "", "=q4=Vicious Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 		};
@@ -4252,54 +4231,9 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
---[[ to be removed when Season 10 starts
-	AtlasLoot_Data["PVP85Weapons2"] = {
-		["Normal"] = {
-			{
-				{ 2, 67455, "", "=q4=Vicious Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 1, 67458, "", "=q4=Vicious Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 4, 67456, "", "=q4=Vicious Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 3, 67459, "", "=q4=Vicious Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 8, 67457, "", "=q4=Vicious Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 7, 67472, "", "=q4=Vicious Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 6, 67460, "", "=q4=Vicious Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 10, 67468, "", "=q4=Vicious Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 11, 67469, "", "=q4=Vicious Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 13, 67474, "", "=q4=Vicious Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 14, 67473, "", "=q4=Vicious Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 17, 67454, "", "=q4=Vicious Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 16, 67470, "", "=q4=Vicious Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 18, 67471, "", "=q4=Vicious Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 20, 67447, "", "=q4=Vicious Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 21, 67453, "", "=q4=Vicious Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 22, 67452, "", "=q4=Vicious Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 24, 67451, "", "=q4=Vicious Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 26, 67450, "", "=q4=Vicious Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 27, 67449, "", "=q4=Vicious Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 28, 67448, "", "=q4=Vicious Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-			};
-			{
-				{ 1, 67476, "", "=q4=Vicious Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 2, 67475, "", "=q4=Vicious Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 3, 67477, "", "=q4=Vicious Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 5, 67466, "", "=q4=Vicious Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 6, 67467, "", "=q4=Vicious Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 8, 67461, "", "=q4=Vicious Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 9, 67462, "", "=q4=Vicious Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 10, 67463, "", "=q4=Vicious Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 16, 67464, "", "=q4=Vicious Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 17, 67465, "", "=q4=Vicious Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 19, 67478, "", "=q4=Vicious Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 20, 67479, "", "=q4=Vicious Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" }
-			};
-		};
-		info = {
-			name = AL["PvP Weapons"], "=q5="..AL["Level 85"].." - "..AL["ilvl 372"],
-			module = moduleName, menu = "PVPMENU",
-		};
-	}--]]
+
 --Season 10
-	AtlasLoot_Data["PVP85Weapons3"] = {
+	AtlasLoot_Data["PVP85Weapons2"] = {
 		["Normal"] = {
 			{
 				{ 2, 70220, "", "=q4=Ruthless Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
@@ -4345,7 +4279,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["PVP85Weapons4"] = {
+	AtlasLoot_Data["PVP85Weapons3"] = {
 		["Normal"] = {
 			{
 				{ 2, 70186, "", "=q4=Ruthless Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
@@ -5967,10 +5901,10 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["MountsRare"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 2, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
-				{ 3, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
-				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
+				{ 1, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
+				{ 2, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
+				{ 3, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
+				{ 4, 71665, "", "=q4=Flametalon of Alysrazor", "=ds=#e27#" },
 				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
 				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
 				{ 7, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
@@ -5993,12 +5927,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
 				{ 22, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
 				{ 23, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
-				{ 25, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"], ""};
-				{ 26, 67151, "", "=q4=Reins of Poseidus", "=q2=", ""};
-				{ 27, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
-				{ 28, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 29, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 30, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 25, 67151, "", "=q4=Reins of Poseidus", "=q2=", ""};
+				{ 26, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
+				{ 27, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 28, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 29, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {
@@ -6011,8 +5944,8 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1="..BabbleFaction["Alliance"]};
-				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },--new with 4.2
-				{ 3, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};--new with 4.2
+				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },
+				{ 3, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
 				{ 4, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1="..BabbleFaction["Horde"]};
 				{ 5, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
 				{ 6, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
@@ -6026,8 +5959,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 14, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
 				{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1="..BabbleFaction["Alliance"]};
 				{ 17, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1="..BabbleFaction["Horde"]};
-				{ 18, 70909, "", "=q4=Alliance War Steed", "#ACHIEVEMENTID:5823#, =ec1="..BabbleFaction["Alliance"]},--new with 4.2
-				{ 19, 70910, "", "=q4=Horde War Wolf", "#ACHIEVEMENTID:5824#, =ec1="..BabbleFaction["Horde"]},--new with 4.2
+				{ 18, 70909, "", "=q4=Vicious War Steed", "#ACHIEVEMENTID:5823#, =ec1="..BabbleFaction["Alliance"]},
+				{ 19, 70910, "", "=q4=Vicious War Wolf", "#ACHIEVEMENTID:5824#, =ec1="..BabbleFaction["Horde"]},
 				{ 20, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1="..BabbleFaction["Alliance"]};
 				{ 21, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1="..BabbleFaction["Horde"]};
 			};
@@ -6462,7 +6395,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 1, 71265, "", "=q4=Emberflame Bracers", "=ds=#s8#, #a1#", "#VALOR:1250#" },
     			{ 2, 71266, "", "=q4=Firesoul Wristguards", "=ds=#s8#, #a1#", "#VALOR:1250#" },
     			{ 3, 71130, "", "=q4=Flamebinder Bracers", "=ds=#s8#, #a2#", "#VALOR:1250#" },
-    			{ 4, 71262, "", "=q4=Scorchskull Bindings", "=ds=#s8#, #a2#", "#VALOR:1250#" },
+    			{ 4, 71262, "", "=q4=Smolderskull Bindings", "=ds=#s8#, #a2#", "#VALOR:1250#" },
     			{ 5, 71264, "", "=q4=Bracers of Forked Lightning", "=ds=#s8#, #a3#", "#VALOR:1250#" },
     			{ 6, 71263, "", "=q4=Bracers of Misting Ash", "=ds=#s8#, #a3#", "#VALOR:1250#" },
     			{ 7, 71260, "", "=q4=Bracers of Imperious Truths", "=ds=#s8#, #a4#", "#VALOR:1250#" },
