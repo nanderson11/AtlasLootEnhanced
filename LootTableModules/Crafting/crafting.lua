@@ -2264,7 +2264,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dodge Rating"], ""};
-				{ 2, "s74429", "Spell_Holy_GreaterHeal", "=ds=Enchant Bracer - Dodge", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
+				{ 2, "s74229", "Spell_Holy_GreaterHeal", "=ds=Enchant Bracer - Dodge", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
 				{ 3, "s13931", "inv_enchant_formulagood_01", "=ds=Enchant Bracers - Deflection", "=ds=#sr# 235", "=ds="..AL["Vendor"]};
 				{ 4, "s13646", "inv_enchant_formulagood_01", "=ds=Enchant Bracers - Lesser Deflection", "=ds=#sr# 170", "=ds="..AL["Vendor"]};
 				{ 5, "s7428", "Spell_Holy_GreaterHeal", "=ds=Enchant Bracers - Minor Deflection", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
