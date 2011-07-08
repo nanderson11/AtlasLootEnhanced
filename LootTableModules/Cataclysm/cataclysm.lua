@@ -3143,7 +3143,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62410, "", "=q3=Grinning Fang Helm", "=ds=#s1#, #a4#"};
 				{ 13, 62408, "", "=q3=Gauntlets of Rattling Bones", "=ds=#s9#, #a4#"};
 				{ 14, 62415, "", "=q3=Band of Lamentation", "=ds=#s13#"};
-				{ 15, 62368, "", "=q7=Arcanum of the Dragonmaw", "=ds=#s1# #e17#", ""};
+				{ 15, 68763, "", "=q7=Arcanum of the Dragonmaw", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_dragonmawclan", "=q6=#r5#", ""};
 				{ 17, 62417, "", "=q4=Liar's Handwraps", "=ds=#s9#, #a2#"};
 				{ 18, 62420, "", "=q4=Withered Dream Belt", "=ds=#s10#, #a2#"};
@@ -3228,7 +3228,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62446, "", "=q3=Quicksand Belt", "=ds=#s10#, #a2#", ""};
 				{ 13, 62445, "", "=q3=Sash of Prophecy", "=ds=#s10#, #a3#", ""};
 				{ 14, 62440, "", "=q3=Red Rock Band", "=ds=#s13#", ""};
-				{ 15, 62369, "", "=q7=Arcanum of the Ramkahen", "=ds=#s1# #e17#", ""};
+				{ 15, 68721, "", "=q7=Arcanum of the Ramkahen", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_tolvir", "=q6=#r5#", ""};
 				{ 17, 62450, "", "=q4=Desert Walker Sandals", "=ds=#s12#, #a1#", ""};
 				{ 18, 62449, "", "=q4=Sandguard Bracers", "=ds=#s8#, #a4#", ""};
@@ -3263,7 +3263,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62361, "", "=q3=Softwind Cape", "=ds=#s4#", ""};
 				{ 13, 62358, "", "=q3=Leggings of Clutching Roots", "=ds=#s11#, #a2#", ""};
 				{ 14, 62359, "", "=q3=Peacemaker's Breastplate", "=ds=#s5#, #a4#", ""};
-				{ 15, 62366, "", "=q7=Arcanum of the Earthen Ring", "=ds=#s1# #e17#"};
+				{ 15, 68718, "", "=q7=Arcanum of the Earthen Ring", "=ds=#s1# #e17#"};
 				{ 16, 0, "inv_misc_tabard_earthenring", "=q6=#r5#", ""};
 				{ 17, 62364, "", "=q4=Flamebloom Gloves", "=ds=#s9#, #a1#", ""};
 				{ 18, 62363, "", "=q4=Earthmender's Boots", "=ds=#s12#, #a3#", ""};
@@ -3296,7 +3296,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62380, "", "=q3=Wilderness Legguards", "=ds=#s11#, #a3#"};
 				{ 13, 62382, "", "=q3=Waywatcher's Boots", "=ds=#s12#, #a4#"};
 				{ 14, 62378, "", "=q3=Acorn of the Daughter Tree", "=ds=#s2#"};
-				{ 15, 62367, "", "=q7=Arcanum of Hyjal", "=ds=#s1# #e17#"};
+				{ 15, 68765, "", "=q7=Arcanum of Hyjal", "=ds=#s1# #e17#"};
 				{ 16, 0, "inv_misc_tabard_guardiansofhyjal", "=q6=#r5#", ""};
 				{ 17, 62383, "", "=q4=Wrap of the Great Turtle", "=ds=#s4#"};
 				{ 18, 62386, "", "=q4=Cord of the Raven Queen", "=ds=#s10#, #a1#"};
@@ -3361,7 +3361,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62428, "", "=q3=Crown of Wings", "=ds=#s1#, #a4#"};
 				{ 13, 62430, "", "=q3=Gryphon Talon Gauntlets", "=ds=#s9#, #a4#"};
 				{ 14, 62427, "", "=q3=Band of Singing Grass", "=ds=#s13#"};
-				{ 15, 62422, "", "=q7=Arcanum of the Wildhammer", "=ds=#s1# #e17#", ""};
+				{ 15, 68767, "", "=q7=Arcanum of the Wildhammer", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_wildhammerclan", "=q6=#r5#", ""};
 				{ 17, 62433, "", "=q4=Stormbolt Gloves", "=ds=#s9#, #a2#"};
 				{ 18, 62431, "", "=q4=Belt of the Untamed", "=ds=#s10#, #a2#"};
