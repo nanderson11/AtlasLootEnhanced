@@ -17,4 +17,3 @@
 ## LoadOnDemand: 1
 
 classicwow.lua
-localization.lua

@@ -16,4 +16,3 @@
 ## LoadOnDemand: 1
 
 worldevents.lua
-localization.lua

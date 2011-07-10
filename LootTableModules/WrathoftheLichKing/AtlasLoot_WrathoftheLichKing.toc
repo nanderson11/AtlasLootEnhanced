@@ -15,4 +15,3 @@
 ## LoadOnDemand: 1
 
 wrathofthelichking.lua
-localization.lua

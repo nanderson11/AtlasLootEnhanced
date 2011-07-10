@@ -17,4 +17,3 @@
 ## LoadOnDemand: 1
 
 burningcrusade.lua
-localization.lua
