@@ -72,7 +72,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 7, 45002, "", "=q3=Mechanopeep", "=ds=#e13#", "#CHAMPSEAL:40#"};
 				{ 8, 46820, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "#CHAMPSEAL:40#"};
 				{ 10, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "1#CHAMPSEAL:50#"};
+				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "#CHAMPSEAL:50#"};
 				{ 17, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 18, 45590, "", "=q4=Exodar Elekk", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 19, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
@@ -87,14 +87,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 1, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=ec1=#m7#"};
 				{ 2, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#", "#CHAMPSEAL:100#"};
-				{ 3, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#", "1#CHAMPSEAL:50#"};
+				{ 3, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#", "#CHAMPSEAL:50#"};
 				{ 5, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
 				{ 6, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 7, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
-				{ 8, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "1#CHAMPSEAL:50#"};
+				{ 8, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "#CHAMPSEAL:50#"};
 				{ 16, 0, "inv_misc_tabardpvp_02", "=q6="..BabbleFaction["The Sunreavers"], "=ec1=#m6#"};
 				{ 17, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
-				{ 18, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "1#CHAMPSEAL:50#"};
+				{ 18, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "#CHAMPSEAL:50#"};
 			};
 		};
 		["Normal_H"] = {
@@ -130,7 +130,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "#CHAMPSEAL:40#"};
 				{ 8, 46821, "", "=q3=Shimmering Wyrmling", "=ds=#e13#", "#CHAMPSEAL:40#"};
 				{ 10, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
-				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "1#CHAMPSEAL:50#"};
+				{ 11, 47541, "", "=q3=Argent Pony Bridle", "=ds=", "#CHAMPSEAL:50#"};
 				{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e26#", "#CHAMPSEAL:100#"};
@@ -145,14 +145,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 			{
 				{ 2, 0, "inv_misc_tabardpvp_01", "=q6="..BabbleFaction["The Silver Covenant"], "=ec1=#m7#"};
 				{ 3, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#", "#CHAMPSEAL:100#"};
-				{ 4, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#", "1#CHAMPSEAL:50#"};
+				{ 4, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#", "#CHAMPSEAL:50#"};
 				{ 6, 0, "INV_Jewelry_Talisman_08", "=q6="..BabbleFaction["Argent Crusade"], "" };
 				{ 7, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 8, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
-				{ 9, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "1#CHAMPSEAL:50#"};
+				{ 9, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "#CHAMPSEAL:50#"};
 				{ 17, 0, "inv_misc_tabardpvp_02", "=q6="..BabbleFaction["The Sunreavers"], "=ec1=#m6#"};
 				{ 18, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
-				{ 19, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "1#CHAMPSEAL:50#"};
+				{ 19, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#", "#CHAMPSEAL:50#"};
 			};
 		};
 		info = {

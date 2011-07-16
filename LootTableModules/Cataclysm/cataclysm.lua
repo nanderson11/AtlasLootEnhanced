@@ -6465,6 +6465,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 70147, "", "=q2=Gnomeregan Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
 				{ 9, 70148, "", "=q2=Ironforge Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
 				{ 10, 70152, "", "=q2=Stormwind Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
+				{ 12, 71631, "", "=q2=Zen'Vorka's Cache", "=ds=", "#WORLDTREE:30#"};
 				{ 20, 71088, "", "=q2=Bilgewater Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
 				{ 21, 70149, "", "=q2=Orgrimmar Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
 				{ 22, 70154, "", "=q2=Undercity Writ of Commendation", "=ds=", "#WORLDTREE:30#"};
