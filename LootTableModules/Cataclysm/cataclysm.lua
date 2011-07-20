@@ -3080,12 +3080,12 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_baradinwardens", "=q6=#r1#", ""};
-				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
-				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
-				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
-				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
-				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
-				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
+				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
+				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
+				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
+				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
+				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
 				{ 9, 0, "inv_misc_tabard_baradinwardens", "=q6=#r2#", ""};
 				{ 10, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
 				{ 11, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
@@ -3165,12 +3165,12 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_misc_tabard_hellscream", "=q6=#r1#", ""};
-				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
-				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
-				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:80#"};
-				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
-				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
-				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:40#"};
+				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
+				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
+				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
+				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
+				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
+				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
 				{ 9, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
 				{ 10, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
 				{ 11, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
