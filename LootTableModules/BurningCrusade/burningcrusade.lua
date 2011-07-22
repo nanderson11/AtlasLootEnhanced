@@ -4294,24 +4294,24 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["Terokkar"] = {
 		["Normal"] = {
 			{
-				{ 1, 28553, "", "=q4=Band of the Exorcist", "=ds=#s13#", "50 #spiritshard#", ""};
-				{ 2, 28557, "", "=q3=Quickened Starfire Diamond", "=ds=#e7#", "8 #spiritshard#", ""};
-				{ 3, 28759, "", "=q3=Exorcist's Dreadweave Hood", "=ds=#a1# #s1#", "18 #spiritshard#", ""};
-				{ 4, 28574, "", "=q3=Exorcist's Dragonhide Helm", "=ds=#a2# #s1#", "18 #spiritshard#", ""};
-				{ 5, 28575, "", "=q3=Exorcist's Wyrmhide Helm", "=ds=#a2# #s1#", "18 #spiritshard#", ""};
-				{ 6, 28577, "", "=q3=Exorcist's Linked Helm", "=ds=#a3# #s1#", "18 #spiritshard#", ""};
-				{ 7, 28560, "", "=q3=Exorcist's Lamellar Helm", "=ds=#a4# #s1#", "18 #spiritshard#", ""};
-				{ 8, 28761, "", "=q3=Exorcist's Scaled Helm", "=ds=#a4# #s1#", "18 #spiritshard#", ""};
-				{ 10, 32947, "", "=q1=Auchenai Healing Potion", "=ds=#e2#", "2 #spiritshard#", ""};
+				{ 1, 28553, "", "=q4=Band of the Exorcist", "=ds=#s13#", "#SPIRITSHARD:50#"};
+				{ 2, 28557, "", "=q3=Quickened Starfire Diamond", "=ds=#e7#", "#SPIRITSHARD:8#"};
+				{ 3, 28759, "", "=q3=Exorcist's Dreadweave Hood", "=ds=#a1# #s1#", "#SPIRITSHARD:18#"};
+				{ 4, 28574, "", "=q3=Exorcist's Dragonhide Helm", "=ds=#a2# #s1#", "#SPIRITSHARD:18#"};
+				{ 5, 28575, "", "=q3=Exorcist's Wyrmhide Helm", "=ds=#a2# #s1#", "#SPIRITSHARD:18#"};
+				{ 6, 28577, "", "=q3=Exorcist's Linked Helm", "=ds=#a3# #s1#", "#SPIRITSHARD:18#"};
+				{ 7, 28560, "", "=q3=Exorcist's Lamellar Helm", "=ds=#a4# #s1#", "#SPIRITSHARD:18#"};
+				{ 8, 28761, "", "=q3=Exorcist's Scaled Helm", "=ds=#a4# #s1#", "#SPIRITSHARD:18#"};
+				{ 10, 32947, "", "=q1=Auchenai Healing Potion", "=ds=#e2#", "#SPIRITSHARD:2#"};
 				{ 12, 28558, "", "=q1=Spirit Shard", "=ds=#m17#"};
-				{ 16, 28555, "", "=q4=Seal of the Exorcist", "=ds=#s13#", "50 #spiritshard#", ""};
-				{ 17, 28556, "", "=q3=Swift Windfire Diamond", "=ds=#e7#", "8 #spiritshard#", ""};
-				{ 18, 28760, "", "=q3=Exorcist's Silk Hood", "=ds=#a1# #s1#", "18 #spiritshard#", ""};
-				{ 19, 28561, "", "=q3=Exorcist's Leather Helm", "=ds=#a2# #s1#", "18 #spiritshard#", ""};
-				{ 20, 28576, "", "=q3=Exorcist's Chain Helm", "=ds=#a3# #s1#", "18 #spiritshard#", ""};
-				{ 21, 28758, "", "=q3=Exorcist's Mail Helm", "=ds=#a3# #s1#", "18 #spiritshard#", ""};
-				{ 22, 28559, "", "=q3=Exorcist's Plate Helm", "=ds=#a4# #s1#", "18 #spiritshard#", ""};
-				{ 25, 32948, "", "=q1=Auchenai Mana Potion", "=ds=#e2#", "2 #spiritshard#", ""};
+				{ 16, 28555, "", "=q4=Seal of the Exorcist", "=ds=#s13#", "#SPIRITSHARD:50#"};
+				{ 17, 28556, "", "=q3=Swift Windfire Diamond", "=ds=#e7#", "#SPIRITSHARD:8#"};
+				{ 18, 28760, "", "=q3=Exorcist's Silk Hood", "=ds=#a1# #s1#", "#SPIRITSHARD:18#"};
+				{ 19, 28561, "", "=q3=Exorcist's Leather Helm", "=ds=#a2# #s1#", "#SPIRITSHARD:18#"};
+				{ 20, 28576, "", "=q3=Exorcist's Chain Helm", "=ds=#a3# #s1#", "#SPIRITSHARD:18#"};
+				{ 21, 28758, "", "=q3=Exorcist's Mail Helm", "=ds=#a3# #s1#", "#SPIRITSHARD:18#"};
+				{ 22, 28559, "", "=q3=Exorcist's Plate Helm", "=ds=#a4# #s1#", "#SPIRITSHARD:18#"};
+				{ 25, 32948, "", "=q1=Auchenai Mana Potion", "=ds=#e2#", "#SPIRITSHARD:2#"};
 			};
 		};
 		info = {

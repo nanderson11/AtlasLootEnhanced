@@ -728,44 +728,30 @@ AtlasLoot_TextParsing = {
 	{ "#copper#", "|TInterface\\AddOns\\AtlasLoot\\Images\\bronze:0|t" },
 
 	-- Currency Icons - PvP
-	{ "#arena#", "|TInterface\\PVPFrame\\PVP-ArenaPoints-Icon:0|t" },
 	{ "#markthrallmar#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t" },
 	{ "#markhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t" },
 	{ "#halaabattle#", "|TInterface\\Icons\\INV_Misc_Rune_08:0|t" },
 	{ "#halaaresearch#", "|TInterface\\Icons\\INV_Misc_Rune_09:0|t" },
-	{ "#spiritshard#", "|TInterface\\Icons\\INV_Jewelry_FrostwolfTrinket_04:0|t" },
-	{ "#wintergrasp#", "|TInterface\\Icons\\INV_Misc_Platnumdisks:0|t" },
-	{ "#tolbarad#", "|TInterface\\Icons\\achievement_zone_tolbarad:0|t" },
 
 	-- Currency Icons - PvE
 	{ "#trophyofthecrusade#", "|TInterface\\Icons\\INV_Misc_Trophy_Argent:0|t" },
 
 	-- Currency Icons - Events
 	{ "#darkmoon#", "|TInterface\\Icons\\INV_Misc_Ticket_Darkmoon_01:0|t" },
-	{ "#noblegarden#", "|TInterface\\Icons\\Achievement_Noblegarden_Chocolate_Egg:0|t" },
-	{ "#brewfest#", "|TInterface\\Icons\\INV_Misc_Coin_01:0|t" },
-	{ "#valentineday#", "|TInterface\\Icons\\inv_valentinescard01:0|t"},
 	{ "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t"},
 
 	-- Currency Icons - Factions
 	{ "#ccombat#", "|TInterface\\Icons\\INV_Jewelry_Talisman_06:0|t" },
-	{ "#champseal#", "|TInterface\\Icons\\Ability_Paladin_ArtofWar:0|t" },
-	{ "#champwrit#", "|TInterface\\Icons\\INV_Scroll_11:0|t" },
 	{ "#ctactical#", "|TInterface\\Icons\\INV_Jewelry_Amulet_02:0|t" },
 	{ "#clogistics#", "|TInterface\\Icons\\INV_Jewelry_Necklace_16:0|t" },
 	{ "#cremulos#", "|TInterface\\Icons\\INV_Jewelry_Necklace_14:0|t" },
 	{ "#ccenarius#", "|TInterface\\Icons\\INV_Jewelry_Necklace_12:0|t" },
-	{ "#motwt#", "|TInterface\\Icons\\inv_misc_markoftheworldtree:0|t" },
-	{ "#zandalar#", "|TInterface\\Icons\\INV_Misc_Coin_08:0|t" },
 	{ "#glowcap#", "|TInterface\\Icons\\INV_Mushroom_02:0|t" },
 	{ "#ogrilashard#", "|TInterface\\Icons\\INV_Misc_Apexis_Shard:0|t" },
 	{ "#ogrilacrystal#", "|TInterface\\Icons\\INV_Misc_Apexis_Crystal:0|t" },
 	{ "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t" },
-	{ "#fireflower#", "|TInterface\\Icons\\INV_SummerFest_FireFlower:0|t" },
 
 	-- Currency Icons - Crafting Recipes
-	{ "#cookingaward#", "|TInterface\\Icons\\inv_misc_ribbon_01:0|t"},
-	{ "#chefaward#", "|TInterface\\Icons\\achievement_profession_chefhat:0|t"},
 	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},
 	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},
 	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},
@@ -788,14 +774,8 @@ function AtlasLoot:FixText(text)
 
     englishFaction = UnitFactionGroup("player")
     if englishFaction == "Horde" then
-		text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-horde:0|t");
-		text = gsub(text, "#conquest#", "|TInterface\\Icons\\pvpcurrency-conquest-horde:0|t");
-		text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:0|t");
 		text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
     else
-		text = gsub(text, "#honor#", "|TInterface\\Icons\\pvpcurrency-honor-alliance:0|t");
-		text = gsub(text, "#conquest#", "|TInterface\\Icons\\pvpcurrency-conquest-alliance:0|t");
-		text = gsub(text, "#factionoutlandPvP#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Alliance:0|t");
 		text = gsub(text, "#markthrallmarhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");
     end
 

@@ -701,22 +701,22 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["MidsummerFestival"] = {
 		["Normal"] = {
 			{
-				{ 1, 34686, "", "=q3=Brazier of Dancing Flames", "350 #fireflower#"};
-				{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#, 350 #fireflower#"};
+				{ 1, 34686, "", "=q3=Brazier of Dancing Flames", "", "#MIDSUMMER:350#"};
+				{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#", "", "#MIDSUMMER:350#"};
 				{ 4, 23379, "", "=q2=Cinder Bracers", "=ds=#e22#"};
-				{ 6, 23246, "", "=q1=Fiery Festival Brew", "2 #fireflower#"};
-				{ 7, 23435, "", "=q1=Elderberry Pie", "5 #fireflower#"};
-				{ 8, 23327, "", "=q1=Fire-Toasted Bun", "5 #fireflower#"};
-				{ 9, 23326, "", "=q1=Midsummer Sausage", "5 #fireflower#"};
-				{ 10, 23211, "", "=q1=Toasted Smorc", "5 #fireflower#"};
-				{ 11, 34684, "", "=q1=Handful of Summer Petals", "2 #fireflower#"};
-				{ 12, 23215, "", "=q1=Bag of Smorc Ingredients", "5 #fireflower#"};
-				{ 13, 34599, "", "=q1=Juggling Torch", "5 #fireflower#"};
+				{ 6, 23246, "", "=q1=Fiery Festival Brew", "", "#MIDSUMMER:2#"};
+				{ 7, 23435, "", "=q1=Elderberry Pie", "", "#MIDSUMMER:5#"};
+				{ 8, 23327, "", "=q1=Fire-Toasted Bun", "", "#MIDSUMMER:5#"};
+				{ 9, 23326, "", "=q1=Midsummer Sausage", "", "#MIDSUMMER:5#"};
+				{ 10, 23211, "", "=q1=Toasted Smorc", "", "#MIDSUMMER:5#"};
+				{ 11, 34684, "", "=q1=Handful of Summer Petals", "", "#MIDSUMMER:2#"};
+				{ 12, 23215, "", "=q1=Bag of Smorc Ingredients", "", "#MIDSUMMER:5#"};
+				{ 13, 34599, "", "=q1=Juggling Torch", "", "#MIDSUMMER:5#"};
 				{ 15, 23247, "", "=q1=Burning Blossom", "=ds=#m17#"};
 				{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#, #m4#"};
-				{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#, 100 #fireflower#"};
-				{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#, 100 #fireflower#"};
-				{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#, 200 #fireflower#"};
+				{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#", "#MIDSUMMER:100#"};
+				{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#", "#MIDSUMMER:100#"};
+				{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#", "#MIDSUMMER:200#"};
 			};
 		};
 		info = {

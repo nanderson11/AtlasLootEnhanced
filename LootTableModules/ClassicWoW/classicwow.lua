@@ -5803,8 +5803,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26#", "#HONOR:2000#"};
 				{ 4, 19045, "", "=q3=Stormpike Battle Standard", "=ds=#e14#", "#HONOR:500#"};
 				{ 5, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#", "#HONOR:2678#"};
-				{ 7, 17348, "", "=q1=Major Healing Draught", "=ds=#e2#", "10 #silver# 8 #honor#"};
-				{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# 1 #honor#"};
+				{ 7, 17348, "", "=q1=Major Healing Draught", "=ds=#e2#", "10 #silver# #HONOR:8#"};
+				{ 8, 17349, "", "=q1=Superior Healing Draught", "=ds=#e2#", "5 #silver# #HONOR:1#"};
 				{ 9, 19301, "", "=q1=Alterac Manna Biscuit", "=ds=#e3#", "70 #silver#"};
 				{ 10, 19307, "", "=q1=Alterac Heavy Runecloth Bandage", "=ds=#e5#", "80 #silver#"};
 				{ 17, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5="..BabbleFaction["Frostwolf Clan"]};
@@ -5848,7 +5848,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 24, 19310, "", "=q4=Tome of the Ice Lord", "=ds=#s15#", "#HONOR:50#"};
 				{ 25, 19324, "", "=q4=The Lobotomizer", "=ds=#h1#, #w4#", "#HONOR:165#"};
 				{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "#HONOR:50#"};
-				{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "250 #honor#"};
+				{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "#HONOR:250#"};
 			};
 		};
 		["Normal_H"] = {
@@ -5876,7 +5876,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 24, 19310, "", "=q4=Tome of the Ice Lord", "=ds=#s15#", "#HONOR:50#"};
 				{ 25, 19324, "", "=q4=The Lobotomizer", "=ds=#h1#, #w4#", "#HONOR:165#"};
 				{ 26, 19321, "", "=q4=The Immovable Object", "=ds=#w8#", "#HONOR:50#"};
-				{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "250 #honor#"};
+				{ 27, 19323, "", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#", "#HONOR:250#"};
 			};
 		};
 		info = {
@@ -5892,8 +5892,8 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["ABMisc"] = {
 		["Normal_A"] = {
 			{
-				{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #honor#", ""};
-				{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
+				{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
 				{ 4, 20225, "", "=q1=Highlander's Enriched Ration", "=ds=", "18 #silver#", ""};
 				{ 5, 20227, "", "=q1=Highlander's Iron Ration", "=ds=", "13,5 #silver#", ""};
 				{ 6, 20226, "", "=q1=Highlander's Field Ration", "=ds=", "9 #silver#", ""};
@@ -5912,8 +5912,8 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #honor#", ""};
-				{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 2, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
+				{ 3, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
 				{ 4, 20222, "", "=q1=Defiler's Enriched Ration", "=ds=", "18 #silver#", ""};
 				{ 5, 20224, "", "=q1=Defiler's Iron Ration", "=ds=", "15 #silver#", ""};
 				{ 6, 20223, "", "=q1=Defiler's Field Ration", "=ds=", "9 #silver#", ""};
@@ -6140,15 +6140,15 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5="..BabbleFaction["Silverwing Sentinels"]};
 				{ 2, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "#HONOR:2059#", ""};
-				{ 5, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# 1 #honor#", ""};
-				{ 6, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 5, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# #HONOR:1#", ""};
+				{ 6, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
 				{ 7, 19060, "", "=q1=Warsong Gulch Enriched Ration", "=ds=", "20 #silver#", ""};
 				{ 8, 19062, "", "=q1=Warsong Gulch Field Ration", "=ds=", "10 #silver#", ""};
 				{ 9, 19067, "", "=q1=Warsong Gulch Mageweave Bandage", "=ds=", "15 #silver#", ""};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5="..BabbleFaction["Warsong Outriders"]};
 				{ 17, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "#HONOR:2059#", ""};
-				{ 20, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# 1 #honor#", ""};
-				{ 21, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 1 #honor#", ""};
+				{ 20, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# #HONOR:1#", ""};
+				{ 21, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# #HONOR:1#", ""};
 				{ 22, 19061, "", "=q1=Warsong Gulch Iron Ration", "=ds=", "15 #silver#", ""};
 				{ 23, 19066, "", "=q1=Warsong Gulch Runecloth Bandage", "=ds=", "20 #silver#", ""};
 				{ 24, 19068, "", "=q1=Warsong Gulch Silk Bandage", "=ds=", "10 #silver#", ""};
@@ -6228,48 +6228,48 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 20443, "", "=q3=Sentinel's Blade", "=ds=", "#HONOR:70#", ""};
 				{ 2, 19549, "", "=q3=Sentinel's Blade", "=ds=", "#HONOR:85#", ""};
-				{ 3, 19548, "", "=q3=Sentinel's Blade", "=ds=", "110 #honor#", ""};
-				{ 4, 19547, "", "=q3=Sentinel's Blade", "=ds=", "135 #honor#", ""};
-				{ 5, 19546, "", "=q3=Sentinel's Blade", "=ds=", "170 #honor#", ""};
+				{ 3, 19548, "", "=q3=Sentinel's Blade", "=ds=", "#HONOR:110#", ""};
+				{ 4, 19547, "", "=q3=Sentinel's Blade", "=ds=", "#HONOR:135#", ""};
+				{ 5, 19546, "", "=q3=Sentinel's Blade", "=ds=", "#HONOR:170#", ""};
 				{ 7, 20440, "", "=q3=Protector's Sword", "=ds=", "#HONOR:70#", ""};
 				{ 8, 19557, "", "=q3=Protector's Sword", "=ds=", "#HONOR:85#", ""};
-				{ 9, 19556, "", "=q3=Protector's Sword", "=ds=", "110 #honor#", ""};
-				{ 10, 19555, "", "=q3=Protector's Sword", "=ds=", "135 #honor#", ""};
-				{ 11, 19554, "", "=q3=Protector's Sword", "=ds=", "170 #honor#", ""};
+				{ 9, 19556, "", "=q3=Protector's Sword", "=ds=", "#HONOR:110#", ""};
+				{ 10, 19555, "", "=q3=Protector's Sword", "=ds=", "#HONOR:135#", ""};
+				{ 11, 19554, "", "=q3=Protector's Sword", "=ds=", "#HONOR:170#", ""};
 				{ 16, 20434, "", "=q3=Lorekeeper's Staff", "=ds=", "#HONOR:100#", ""};
 				{ 17, 19573, "", "=q3=Lorekeeper's Staff", "=ds=", "#HONOR:125#", ""};
-				{ 18, 19572, "", "=q3=Lorekeeper's Staff", "=ds=", "155 #honor#", ""};
-				{ 19, 19571, "", "=q3=Lorekeeper's Staff", "=ds=", "195 #honor#", ""};
-				{ 20, 19570, "", "=q3=Lorekeeper's Staff", "=ds=", "245 #honor#", ""};
+				{ 18, 19572, "", "=q3=Lorekeeper's Staff", "=ds=", "#HONOR:155#", ""};
+				{ 19, 19571, "", "=q3=Lorekeeper's Staff", "=ds=", "#HONOR:195#", ""};
+				{ 20, 19570, "", "=q3=Lorekeeper's Staff", "=ds=", "#HONOR:245#", ""};
 				{ 22, 20438, "", "=q3=Outrunner's Bow", "=ds=", "#HONOR:70#", ""};
 				{ 23, 19565, "", "=q3=Outrunner's Bow", "=ds=", "#HONOR:85#", ""};
-				{ 24, 19564, "", "=q3=Outrunner's Bow", "=ds=", "110 #honor#", ""};
-				{ 25, 19563, "", "=q3=Outrunner's Bow", "=ds=", "135 #honor#", ""};
-				{ 26, 19562, "", "=q3=Outrunner's Bow", "=ds=", "170 #honor#", ""};
+				{ 24, 19564, "", "=q3=Outrunner's Bow", "=ds=", "#HONOR:110#", ""};
+				{ 25, 19563, "", "=q3=Outrunner's Bow", "=ds=", "#HONOR:135#", ""};
+				{ 26, 19562, "", "=q3=Outrunner's Bow", "=ds=", "#HONOR:170#", ""};
 			};
 		};
 		["Normal_H"] = {
 			{
 				{ 1, 20441, "", "=q3=Scout's Blade", "=ds=", "#HONOR:70#", ""};
 				{ 2, 19545, "", "=q3=Scout's Blade", "=ds=", "#HONOR:85#", ""};
-				{ 3, 19544, "", "=q3=Scout's Blade", "=ds=", "110 #honor#", ""};
-				{ 4, 19543, "", "=q3=Scout's Blade", "=ds=", "135 #honor#", ""};
-				{ 5, 19542, "", "=q3=Scout's Blade", "=ds=", "170 #honor#", ""};
+				{ 3, 19544, "", "=q3=Scout's Blade", "=ds=", "#HONOR:110#", ""};
+				{ 4, 19543, "", "=q3=Scout's Blade", "=ds=", "#HONOR:135#", ""};
+				{ 5, 19542, "", "=q3=Scout's Blade", "=ds=", "#HONOR:170#", ""};
 				{ 7, 20430, "", "=q3=Legionnaire's Sword", "=ds=", "#HONOR:70#", ""};
 				{ 8, 19553, "", "=q3=Legionnaire's Sword", "=ds=", "#HONOR:85#", ""};
-				{ 9, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "110 #honor#", ""};
-				{ 10, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "135 #honor#", ""};
-				{ 11, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "170 #honor#", ""};
+				{ 9, 19552, "", "=q3=Legionnaire's Sword", "=ds=", "#HONOR:110#", ""};
+				{ 10, 19551, "", "=q3=Legionnaire's Sword", "=ds=", "#HONOR:135#", ""};
+				{ 11, 19550, "", "=q3=Legionnaire's Sword", "=ds=", "#HONOR:170#", ""};
 				{ 16, 20425, "", "=q3=Advisor's Gnarled Staff", "=ds=", "#HONOR:100#", ""};
 				{ 17, 19569, "", "=q3=Advisor's Gnarled Staff", "=ds=", "#HONOR:125#", ""};
-				{ 18, 19568, "", "=q3=Advisor's Gnarled Staff", "=ds=", "155 #honor#", ""};
-				{ 19, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "195 #honor#", ""};
-				{ 20, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "245 #honor#", ""};
+				{ 18, 19568, "", "=q3=Advisor's Gnarled Staff", "=ds=", "#HONOR:155#", ""};
+				{ 19, 19567, "", "=q3=Advisor's Gnarled Staff", "=ds=", "#HONOR:195#", ""};
+				{ 20, 19566, "", "=q3=Advisor's Gnarled Staff", "=ds=", "#HONOR:245#", ""};
 				{ 22, 20437, "", "=q3=Outrider's Bow", "=ds=", "#HONOR:70#", ""};
 				{ 23, 19561, "", "=q3=Outrider's Bow", "=ds=", "#HONOR:85#", ""};
-				{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "110 #honor#", ""};
-				{ 25, 19559, "", "=q3=Outrider's Bow", "=ds=", "135 #honor#", ""};
-				{ 26, 19558, "", "=q3=Outrider's Bow", "=ds=", "170 #honor#", ""};
+				{ 24, 19560, "", "=q3=Outrider's Bow", "=ds=", "#HONOR:110#", ""};
+				{ 25, 19559, "", "=q3=Outrider's Bow", "=ds=", "#HONOR:135#", ""};
+				{ 26, 19558, "", "=q3=Outrider's Bow", "=ds=", "#HONOR:170#", ""};
 			};
 		};
 		info = {
@@ -6771,9 +6771,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 16, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "#HONOR:50#", ""};
 				{ 17, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "#HONOR:100#", ""};
 				{ 18, 18606, "", "=q1=Alliance Battle Standard", "=ds=#e14#", "#HONOR:500#", ""};
-				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
-				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
-				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #honor#", ""};
+				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# #HONOR:1#", ""};
+				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# #HONOR:1#", ""};
+				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# #HONOR:1#", ""};
 			};
 			{
 				{ 1, 18457, "", "=q3=Sergeant Major's Silk Cuffs", "=ds=#s8#, #a1#", "#HONOR:45#", ""};
@@ -6813,9 +6813,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 16, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "#HONOR:50#", ""};
 				{ 17, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "#HONOR:100#", ""};
 				{ 18, 18607, "", "=q1=Horde Battle Standard", "=ds=#e14#", "#HONOR:500#", ""};
-				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
-				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 1 #honor#", ""};
-				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# 1 #honor#", ""};
+				{ 20, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# #HONOR:1#", ""};
+				{ 21, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# #HONOR:1#", ""};
+				{ 22, 32455, "", "=q1=Star's Lament", "=ds=#e4#", "12 #silver# #HONOR:1#", ""};
 			};
 			{
 				{ 1, 18437, "", "=q3=First Sergeant's Silk Cuffs", "=ds=#s8#, #a1#", "#HONOR:45#", ""};
@@ -7487,55 +7487,3 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
-
---[[ Removed
-		----------------------
-		--- Zandalar Tribe ---
-		----------------------
-
-	AtlasLoot_Data["Zandalar"] = {
-		["Normal"] = {
-			{
-				{ 1, 19858, "", "=q2=Zandalar Honor Token", "=ds=#m17#"};
-				{ 3, 0, "inv_bijou_green", "=q6=#r2#", ""};
-				{ 4, 20012, "", "=q1=Recipe: Greater Dreamless Sleep", "=ds=#p1# (275)"};
-				{ 5, 19778, "", "=q1=Plans: Bloodsoul Gauntlets", "=ds=#p2# (300)"};
-				{ 6, 19781, "", "=q1=Plans: Darksoul Shoulders", "=ds=#p2# (300)"};
-				{ 7, 20757, "", "=q1=Formula: Brilliant Mana Oil", "=ds=#p4# (300)"};
-				{ 8, 20001, "", "=q1=Schematic: Bloodvine Lens", "=ds=#p5# (300)"};
-				{ 9, 19771, "", "=q1=Pattern: Primal Batskin Bracers", "=ds=#p7# (300)"};
-				{ 10, 19766, "", "=q1=Pattern: Bloodvine Boots", "=ds=#p8# (300)"};
-				{ 16, 0, "inv_bijou_green", "=q6=#r3#", ""};
-				{ 17, 20014, "", "=q1=Recipe: Mighty Troll's Blood Elixir", "=ds=#p1# (290)"};
-				{ 18, 19777, "", "=q1=Plans: Bloodsoul Shoulders", "=ds=#p2# (300)"};
-				{ 19, 19780, "", "=q1=Plans: Darksoul Leggings", "=ds=#p2# (300)"};
-				{ 20, 20756, "", "=q1=Formula: Brilliant Wizard Oil", "=ds=#p4# (300)"};
-				{ 21, 20000, "", "=q1=Schematic: Bloodvine Goggles", "=ds=#p5# (300)"};
-				{ 22, 19773, "", "=q1=Pattern: Blood Tiger Shoulders", "=ds=#p7# (300)"};
-				{ 23, 19770, "", "=q1=Pattern: Primal Batskin Gloves", "=ds=#p7# (300)"};
-				{ 24, 19765, "", "=q1=Pattern: Bloodvine Leggings", "=ds=#p8# (300)"};
-				{ 25, 20031, "", "=q1=Essence Mango", "=ds=#e3#", "1 #zandalar#", ""};
-			};
-			{
-				{ 1, 0, "inv_bijou_green", "=q6=#r4#", ""};
-				{ 2, 20080, "", "=q2=Sheen of Zanza", "=ds=#e2#", "3 #zandalar#", ""};
-				{ 3, 20079, "", "=q2=Spirit of Zanza", "=ds=#e2#", "3 #zandalar#", ""};
-				{ 4, 20081, "", "=q2=Swiftness of Zanza", "=ds=#e2#", "3 #zandalar#", ""};
-				{ 5, 20011, "", "=q1=Recipe: Mageblood Elixir", "=ds=#p1# (275)"};
-				{ 6, 19776, "", "=q1=Plans: Bloodsoul Breastplate", "=ds=#p2# (300)"};
-				{ 7, 19779, "", "=q1=Plans: Darksoul Breastplate", "=ds=#p2# (300)"};
-				{ 8, 19772, "", "=q1=Pattern: Blood Tiger Breastplate", "=ds=#p7# (300)"};
-				{ 9, 19769, "", "=q1=Pattern: Primal Batskin Jerkin", "=ds=#p7# (300)"};
-				{ 10, 19764, "", "=q1=Pattern: Bloodvine Vest", "=ds=#p8# (300)"};
-				{ 16, 0, "inv_bijou_green", "=q6=#r5#", ""};
-				{ 17, 20077, "", "=q3=Zandalar Signet of Might", "=ds=#s3# #e17#", "15 #zandalar#", ""};
-				{ 18, 20076, "", "=q3=Zandalar Signet of Mojo", "=ds=#s3# #e17#", "15 #zandalar#", ""};
-				{ 19, 20078, "", "=q3=Zandalar Signet of Serenity", "=ds=#s3# #e17#", "15 #zandalar#", ""};
-				{ 20, 20013, "", "=q1=Recipe: Living Action Potion", "=ds=#p1# (285)"};
-			};
-		};
-		info = {
-			name = BabbleFaction["Zandalar Tribe"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
-		};
-	}]]--

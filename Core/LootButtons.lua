@@ -27,6 +27,8 @@ local CURRENCY_PRICE = {
 	["WORLDTREE"] = 416,	-- Mark of the World Tree
 	
 	-- Custom currencys
+	["MIDSUMMER"] = { itemID = 23247 },
+	["SPIRITSHARD"] = { itemID = 28558 },
 	["BREWFEST"] = { itemID = 37829 },
 	["NOBLEGARDEN"] = { itemID = 44791 },
 	["CHAMPWRIT"] = { itemID = 46114 },
