@@ -5437,7 +5437,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
 				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
 				{ 3, 54810, "", "=q3=Celestial Dragon", "#ACHIEVEMENTID:5875#" },--new with 4.2
-				{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5125#"};
+				{
+					{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5892#, =ec1="..BabbleFaction["Horde"]};
+					{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5812#, =ec1="..BabbleFaction["Alliance"]};
+				};
 				{
 					{ 5, 65364, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Horde"]};
 					{ 5, 65363, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1="..BabbleFaction["Alliance"]};
