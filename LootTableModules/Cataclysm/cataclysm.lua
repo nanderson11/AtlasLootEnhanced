@@ -5568,23 +5568,24 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
 				{ 9, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
 				{ 10, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
-				{ 11, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
-				{ 12, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
-				{ 13, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-				{ 14, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
-				{ 15, 39656, "", "=q3=Tyrael's Hilt", "#ACHIEVEMENTID:414#"};
-				{ 17, 13582, "", "=q3=Zergling Leash", "#ACHIEVEMENTID:664#"};
-				{ 19, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
-				{ 20, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
-				{ 21, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
-				{ 22, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
-				{ 23, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 24, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
-				{ 25, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
-				{ 26, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
-				{ 27, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
-				{ 28, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
-				{ 29, 68841, "", "=q1=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
+				{ 11, 71726, "", "=q3=Murky's Little Soulstone", "BlizzCon 2011"};--will be replaced with the achievement once its known.
+				{ 12, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
+				{ 13, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
+				{ 14, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
+				{ 15, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
+				{ 17, 39656, "", "=q3=Tyrael's Hilt", "#ACHIEVEMENTID:414#"};
+				{ 18, 13582, "", "=q3=Zergling Leash", "#ACHIEVEMENTID:664#"};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
+				{ 21, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
+				{ 22, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
+				{ 23, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
+				{ 24, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
+				{ 25, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
+				{ 26, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 27, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
+				{ 28, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
+				{ 29, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
+				{ 30, 68841, "", "=q1=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
 			};
 		};
 		info = {
