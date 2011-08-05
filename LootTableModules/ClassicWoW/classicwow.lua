@@ -2485,8 +2485,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "11.79%"};
 				{ 7, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "11.02%"};
 				{ 8, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "9.07%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Fengus's Chest"], ""};
-				{ 17, 18266, "", "=q1=Gordok Courtyard Key", "=ds=#e9#", "", "100%"};
 			};
 		};
 		info = {
@@ -2823,7 +2821,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 23, 9486, "", "=q3=Supercharger Battle Axe", "=ds=#h2#, #w1#", "", "0.02%"};
 				{ 24, 9488, "", "=q3=Oscillating Power Hammer", "=ds=#h1#, #w6#", "", "0.02%"};
 				{ 25, 9487, "", "=q3=Hi-Tech Supergun", "=ds=#w5#", "", "0.01%"};
-				{ 26, 11827, "", "=q2=Schematic: Lil'Smoky", "=ds=#p5# (205)", "", ""};
+				{ 26, 11827, "", "=q2=Schematic: Lil' Smoky", "=ds=#p5# (205)", "", ""};
 				{ 27, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#", "", "1.41%"};
 				{ 28, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2#", "", "9.38%"};
 				{ 29, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13#"};
@@ -3049,8 +3047,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 7718, "", "=q3=Herod's Shoulder", "=ds=#s3#, #a3#", "", "30.82%"};
 				{ 4, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "", "12.75%"};
 				{ 5, 7717, "", "=q3=Ravager", "=ds=#h2#, #w1#", "", "12.86%"};
-				{ 7, 0, "INV_Box_01", "=q6="..AL["Scarlet Trainee"], ""};
-				{ 8, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.4%"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Scarlet Trainee"], ""};
+				{ 17, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.4%"};
 			};
 		};
 		info = {
@@ -4336,7 +4334,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 10847, "", "=q4=Dragon's Call", "=ds=#h1#, #w10#", "", "0.18%"};
 				{ 3, 10833, "", "=q3=Horns of Eranikus", "=ds=#s1#, #a3#", "", "25.66%"};
-				{ 4, 10829, "", "=q3=Dragon's Eye", "=ds=#s2#", "", "27.02%"};
+				{ 4, 10829, "", "=q3=The Dragon's Eye", "=ds=#s2#", "", "27.02%"};
 				{ 5, 10828, "", "=q3=Dire Nail", "=ds=#h1#, #w4#", "", "10.91%"};
 				{ 6, 10837, "", "=q3=Tooth of Eranikus", "=ds=#h1#, #w1#", "", "10.05%"};
 				{ 7, 10835, "", "=q3=Crest of Supremacy", "=ds=#w8#", "", "19.17%"};

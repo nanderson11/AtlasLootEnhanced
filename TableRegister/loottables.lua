@@ -945,7 +945,7 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackrockMountainEnt"] = {
 			["Bosses"] = {
-				{ "BlackrockMountainEntLoot", {12,13,14} },
+				{ "BlackrockMountainEntLoot", {12,13,14}, hide = true },
 			},
 			["Info"] = { BabbleZone["Blackrock Mountain"], "AtlasLootClassicWoW" },
 		},
@@ -1050,7 +1050,7 @@ AtlasLoot_LootTableRegister = {
 
 		["DireMaulWest"] = {
 			["Bosses"] = {
-				{ "OldKeys", 1 },
+				{ "OldKeys", 1, hide = true },
 				{ "DMWTendrisWarpwood", 4 },
 				{ "DMWMagisterKalendris", 5 },
 				{ "DMWIllyannaRavenoak", 6 },
