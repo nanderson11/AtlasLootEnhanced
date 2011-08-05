@@ -1046,6 +1046,7 @@ if AL then
 	AL["Damek Bloombeard"] = "Damek Blühbart";
 	AL["Varlan Highbough"] = "Varlan Hochblatt";
 	AL["Firestone Vendor"] = "Händler für Feuersteine";
+	-- AL["Poseidus"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
