@@ -1042,10 +1042,11 @@ if AL then
 	AL["The Behemoth"] = "Le Béhémoth";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
 	--AL["Zen'Vorka"] = true; -- à traduire
-	--AL["Ayla Shadowstorm"] = true; -- à traduire
-	--AL["Damek Bloombeard"] = true; -- à traduire
-	--AL["Varlan Highbough"] = true; -- à traduire
-	--AL["Firestone Vendor"] = true; -- à traduire
+	AL["Ayla Shadowstorm"] = "Ayla Ombretempête";
+	AL["Damek Bloombeard"] = "Damek Barbe-en-Fleur";
+	AL["Varlan Highbough"] = "Varlan Hautebranche";
+	AL["Firestone Vendor"] = "Vendeur des Terres de Feu";
+	--AL["Poseidus"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
