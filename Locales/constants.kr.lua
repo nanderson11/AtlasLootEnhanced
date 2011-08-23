@@ -279,11 +279,6 @@ if AL then
 	AL["Set"] = true;
 	AL["Justice Points"] = true;
 	AL["Valor Points"] = true;
-	AL["Emblem Rewards"] = true; --should be removed
-	AL["Emblem of Valor"] = true; --should be removed
-	AL["Emblem of Heroism"] = true; --should be removed
-	AL["Emblem of Conquest"] = true; --should be removed
-	AL["Emblem of Triumph"] = true; --should be removed
 	AL["Emblem of Frost"] = true; --should be removed
 	AL["BoE World Epics"] = true;
 	AL["Legendary Items"] = "전설 아이템";
@@ -307,7 +302,6 @@ if AL then
 	AL["PvP Reputation Sets"] = true;
 	AL["PvP Misc"] = true;
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
-	AL["NOT AVAILABLE ANYMORE"] = true;
 
 	-- World Events
 	AL["Abyssal Council"] = true;

@@ -334,12 +334,6 @@ if AL then
 	AL["Set"] = "套裝";
 	AL["Justice Points"] = "英雄點數";
 	AL["Valor Points"] = "勇氣點數";
-	AL["Emblem Rewards"] = "紋章獎勵"; --should be removed
-	AL["Emblem of Valor"] = "勇氣紋章"; --should be removed
-	AL["Emblem of Heroism"] = "英雄紋章"; --should be removed
-	AL["Emblem of Conquest"] = "征服紋章"; --should be removed
-	AL["Emblem of Triumph"] = "凱旋紋章"; --should be removed
-	AL["Emblem of Frost"] = "冰霜紋章"; --should be removed
 	AL["BoE World Epics"] = "裝綁世界掉落紫裝";
 	AL["Legendary Items"] = "傳說物品";
 	AL["Misc Sets"] = "其他套裝";
@@ -364,7 +358,6 @@ if AL then
 	AL["PvP Misc"] = "PvP 珠寶設計設計圖";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 珠寶/附魔設計圖";
 	AL["PvP Trinkets"] = "PvP 飾品";
-	AL["NOT AVAILABLE ANYMORE"] = "再也無法使用";
 
 	-- World Events
 	AL["Abyssal Council"] = "深淵議會";

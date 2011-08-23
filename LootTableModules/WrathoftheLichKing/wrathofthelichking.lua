@@ -11361,7 +11361,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Emblem of Heroism"].." - "..AL["Rewards"],
+			name = AL["ilvl 200"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU",
 		};
 	}
@@ -11420,7 +11420,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Emblem of Valor"].." - "..AL["Rewards"],
+			name = AL["ilvl 213"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU",
 		};
 	}
@@ -11484,7 +11484,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Emblem of Conquest"].." - "..AL["Rewards"],
+			name = AL["ilvl 226"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU",
 		};
 	}
@@ -11539,7 +11539,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Emblem of Triumph"].." - "..AL["Rewards"],
+			name = AL["ilvl 245"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU", instance = "EmblemofTriumph",
 		};
 	}
@@ -11574,7 +11574,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Emblem of Triumph"].." - "..AL["Rewards"],
+			name = AL["ilvl 245"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU", instance = "EmblemofTriumph",
 		};
 	}
@@ -11640,7 +11640,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Emblem of Frost"].." - "..AL["Rewards"],
+			name = AL["ilvl 264"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU",
 		};
 	}

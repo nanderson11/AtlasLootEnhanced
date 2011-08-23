@@ -332,12 +332,6 @@ if AL then
 	AL["Set"] = "套装";
 	AL["Justice Points"] = "Justice Points";
 	AL["Valor Points"] = "Valor Points";
-	AL["Emblem Rewards"] = "纹章奖励"; --should be removed
-	AL["Emblem of Valor"] = "勇气纹章";
-	AL["Emblem of Heroism"] = "英雄纹章";
-	AL["Emblem of Conquest"] = "征服纹章";
-	AL["Emblem of Triumph"] = "凯旋纹章";
-	AL["Emblem of Frost"] = "寒冰纹章";
 	AL["BoE World Epics"] = "世界掉落的史诗装备";
 	AL["Legendary Items"] = "传奇物品";
 	AL["Misc Sets"] = "其它套装";
@@ -362,7 +356,6 @@ if AL then
 	AL["PvP Misc"] = "PvP 其它";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP 宝石/附魔/珠宝设计";
 	AL["PvP Trinkets"] = "PvP 饰品";
-	AL["NOT AVAILABLE ANYMORE"] = "*不再可用*";
 
 	-- World Events
 	AL["Abyssal Council"] = "深渊议会";

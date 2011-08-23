@@ -286,12 +286,6 @@ if AL then
 	AL["Set"] = "Комплект";
 	AL["Justice Points"] = "Очки справедливости";
 	AL["Valor Points"] = "Очки доблести";
-	AL["Emblem Rewards"] = "Награды за знаки";
-	AL["Emblem of Valor"] = "Эмблема доблести";
-	AL["Emblem of Heroism"] = "Эмблема героизма";
-	AL["Emblem of Conquest"] = "Эмблема завоевания";
-	AL["Emblem of Triumph"] = "Эмблема триумфа";
-	AL["Emblem of Frost"] = "Эмблема льда";
 	AL["BoE World Epics"] = "Мировые превосходные ПпП";
 	AL["Legendary Items"] = "Легендарные предметы";
 	AL["Misc Sets"] = "Различные комплекты";
@@ -315,7 +309,6 @@ if AL then
 	AL["PvP Misc"] = "PvP ювелирные эскизы";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Самоцветы/Чары/Ювелирные эскизы";
 	AL["PvP Trinkets"] = "PvP аксессуары";
-	AL["NOT AVAILABLE ANYMORE"] = "Больше не доступно";
 
 	-- World Events
 	AL["Abyssal Council"] = "Совет Бездны";

@@ -334,12 +334,6 @@ if AL then
 	-- AL["Set"] = true;
 	AL["Justice Points"] = "Gerechtigkeitspunkte";
 	AL["Valor Points"] = "Tapferkeitspunkte";
-	AL["Emblem Rewards"] = "Belohnungen für Embleme";
-	AL["Emblem of Valor"] = "Emblem der Ehre";
-	AL["Emblem of Heroism"] = "Emblem des Heldentums";
-	AL["Emblem of Conquest"] = "Emblem der Eroberung";
-	AL["Emblem of Triumph"] = "Emblem des Triumphs";
-	AL["Emblem of Frost"] = "Emblem des Frosts";
 	AL["BoE World Epics"] = "Epische Weltdrops (BoE)";
 	AL["Legendary Items"] = "Legendäre Gegenstände";
 	AL["Misc Sets"] = "Sets (Sonstige)";
@@ -364,7 +358,6 @@ if AL then
 	AL["PvP Misc"] = "PvP (Sonstiges)";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "PvP Edelsteine/Verzauberungen/Rezepte";
 	AL["PvP Trinkets"] = "PvP Schmuckstücke";
-	AL["NOT AVAILABLE ANYMORE"] = "NICHT MEHR VERFÜGBAR";
 
 	-- World Events
 	AL["Abyssal Council"] = "Abyssischer Rat";

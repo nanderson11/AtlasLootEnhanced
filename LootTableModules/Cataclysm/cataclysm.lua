@@ -3386,7 +3386,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DeathKnight"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70246, "", "=q4=Ruthless Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70248, "", "=q4=Ruthless Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70244, "", "=q4=Ruthless Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2200#"};
@@ -3421,7 +3421,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidBalance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70290, "", "=q4=Ruthless Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70293, "", "=q4=Ruthless Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70292, "", "=q4=Ruthless Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2200#"};
@@ -3456,7 +3456,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70280, "", "=q4=Ruthless Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70283, "", "=q4=Ruthless Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70282, "", "=q4=Ruthless Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
@@ -3491,7 +3491,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70285, "", "=q4=Ruthless Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70288, "", "=q4=Ruthless Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70287, "", "=q4=Ruthless Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
@@ -3526,7 +3526,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Hunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70261, "", "=q4=Ruthless Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70263, "", "=q4=Ruthless Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70259, "", "=q4=Ruthless Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
@@ -3561,7 +3561,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70300, "", "=q4=Ruthless Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70303, "", "=q4=Ruthless Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70302, "", "=q4=Ruthless Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
@@ -3596,7 +3596,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70251, "", "=q4=Ruthless Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70253, "", "=q4=Ruthless Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70249, "", "=q4=Ruthless Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
@@ -3631,7 +3631,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70355, "", "=q4=Ruthless Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70357, "", "=q4=Ruthless Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70353, "", "=q4=Ruthless Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
@@ -3666,7 +3666,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70310, "", "=q4=Ruthless Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70313, "", "=q4=Ruthless Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70312, "", "=q4=Ruthless Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
@@ -3701,7 +3701,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70305, "", "=q4=Ruthless Gladiator's Mooncloth Hood", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70308, "", "=q4=Ruthless Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70307, "", "=q4=Ruthless Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
@@ -3736,7 +3736,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Rogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70296, "", "=q4=Ruthless Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70298, "", "=q4=Ruthless Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70294, "", "=q4=Ruthless Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
@@ -3771,7 +3771,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70276, "", "=q4=Ruthless Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70278, "", "=q4=Ruthless Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70274, "", "=q4=Ruthless Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
@@ -3806,7 +3806,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70271, "", "=q4=Ruthless Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70273, "", "=q4=Ruthless Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70269, "", "=q4=Ruthless Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
@@ -3841,7 +3841,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70266, "", "=q4=Ruthless Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70268, "", "=q4=Ruthless Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70264, "", "=q4=Ruthless Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
@@ -3876,7 +3876,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70315, "", "=q4=Ruthless Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70318, "", "=q4=Ruthless Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70317, "", "=q4=Ruthless Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
@@ -3911,7 +3911,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warrior"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 10"]};
+				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
 				{ 2, 70256, "", "=q4=Ruthless Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 70258, "", "=q4=Ruthless Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 70254, "", "=q4=Ruthless Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};

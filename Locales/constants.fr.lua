@@ -334,12 +334,6 @@ if AL then
 	--AL["Set"] = true;
 	AL["Justice Points"] = "Point de justice";
 	AL["Valor Points"] = "Point de vaillance";
-	AL["Emblem Rewards"] = "Récompenses des emblèmes"; --should be removed
-	AL["Emblem of Valor"] = "Emblème de vaillance"; --should be removed
-	AL["Emblem of Heroism"] = "Emblème d'héroïsme"; --should be removed
-	AL["Emblem of Conquest"] = "Emblème de conquête"; --should be removed
-	AL["Emblem of Triumph"] = "Emblème de triomphe"; --should be removed
-	AL["Emblem of Frost"] = "Emblème de givre"; --should be removed
 	AL["BoE World Epics"] = "LqÉ Épiques mondial";
 	AL["Legendary Items"] = "Objets légendaires";
 	AL["Misc Sets"] = "Sets divers";
@@ -364,7 +358,6 @@ if AL then
 	AL["PvP Misc"] = "Objets divers JcJ";
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = "Gemmes / Enchantements / Dessins de Joaillerie JcJ";
 	AL["PvP Trinkets"] = "Bijoux JcJ";
-	AL["NOT AVAILABLE ANYMORE"] = "N'EST PLUS DISPONIBLE";
 
 	-- World Events
 	AL["Abyssal Council"] = "Conseil abyssal";

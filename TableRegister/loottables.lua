@@ -1692,7 +1692,7 @@ AtlasLoot_LootTableRegister = {
 				{ "EmblemofTriumph" },
 				{ "EmblemofTriumph2" },
 			},
-			["Info"] = { AL["Emblem of Triumph"].." - "..AL["Rewards"], "AtlasLootWotLK"},
+			["Info"] = { AL["ilvl 245"].." - "..AL["Rewards"], "AtlasLootWotLK"},
 		},
 	},	
 }

@@ -57,23 +57,23 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["WOTLKEMBLEMMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..AL["Emblem of Frost"], "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
-				{ 4, "EmblemofTriumph", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph"], "=q5="..BabbleInventory["Armor"]};
-				{ 5, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph"], "=q5="..AL["Accessories"].." & "..AL["Weapons"]};
-				{ 7, "EmblemofConquest", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest"], "=q5="..BabbleInventory["Armor"]};
-				{ 9, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor"], "=q5="..BabbleInventory["Armor"]};
-				{ 11, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism"], "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
-				{ 12, "EmblemofHeroism#3", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism"], "=q5="..BabbleInventory["Miscellaneous"]};
+				{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..AL["ilvl 264"], "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
+				{ 4, "EmblemofTriumph", "spell_holy_summonchampion", "=ds="..AL["ilvl 245"], "=q5="..BabbleInventory["Armor"]};
+				{ 5, "EmblemofTriumph2", "spell_holy_summonchampion", "=ds="..AL["ilvl 245"], "=q5="..AL["Accessories"].." & "..AL["Weapons"]};
+				{ 7, "EmblemofConquest", "Spell_Holy_ChampionsGrace", "=ds="..AL["ilvl 226"], "=q5="..BabbleInventory["Armor"]};
+				{ 9, "EmblemofValor", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["ilvl 213"], "=q5="..BabbleInventory["Armor"]};
+				{ 11, "EmblemofHeroism", "Spell_Holy_ProclaimChampion", "=ds="..AL["ilvl 200"], "=q5="..BabbleInventory["Armor"].." & "..AL["Weapons"]};
+				{ 12, "EmblemofHeroism#3", "Spell_Holy_ProclaimChampion", "=ds="..AL["ilvl 200"], "=q5="..BabbleInventory["Miscellaneous"]};
 				{ 14, "PVP80SET", "INV_Boots_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 80"]};
 				{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Set"], "=q5="..AL["10/25 Man"]};
 				{ 19, "T9SET", "spell_holy_summonchampion", "=ds="..AL["Tier 9 Set"], "=q5="..AL["10/25 Man"]};
-				{ 22, "EmblemofConquest#2", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest"], "=q5="..AL["Accessories"]};
-				{ 24, "EmblemofValor#2", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["Emblem of Valor"], "=q5="..AL["Accessories"]};
-				{ 26, "EmblemofHeroism#2", "Spell_Holy_ProclaimChampion", "=ds="..AL["Emblem of Heroism"], "=q5="..AL["Accessories"]};
+				{ 22, "EmblemofConquest#2", "Spell_Holy_ChampionsGrace", "=ds="..AL["ilvl 226"], "=q5="..AL["Accessories"]};
+				{ 24, "EmblemofValor#2", "Spell_Holy_ProclaimChampion_02", "=ds="..AL["ilvl 213"], "=q5="..AL["Accessories"]};
+				{ 26, "EmblemofHeroism#2", "Spell_Holy_ProclaimChampion", "=ds="..AL["ilvl 200"], "=q5="..AL["Accessories"]};
 			};
 		};
 		info = {
-			name = AL["Emblem Rewards"],
+			name = AL["Justice Points"].." "..AL["Rewards"],
 			menu = "SETMENU",
 		};
 	}
@@ -149,12 +149,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "PetsMerchant", "spell_nature_polymorph", "=ds="..AL["Merchant Sold Companions"], ""};
 				{ 3, "PetsCrafted", "inv_drink_19", "=ds="..AL["Crafted Companions"], ""};
 				{ 4, "PetsRare", "spell_shaman_hex", "=ds="..AL["Rare Companions"], ""};
-				{ 5, "PetsPromotionalCardGame", "inv_netherwhelp", "=ds="..AL["Promotional & Card Game"], ""};
-				{ 6, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
+				{ 5, "PetsPromotional", "inv_netherwhelp", "=ds="..AL["Promotional Companions"], ""};
+				{ 6, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Companion Store"], ""};
+				{ 7, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
 				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
 				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement & Faction Reward"], ""};
 				{ 19, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
-				{ 20, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Companion Store"], ""};
+				{ 20, "PetsCardGame", "inv_netherwhelp", "=ds="..AL["Card Game Companions"], ""};
 				{ 21, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};
 			};
 		};
