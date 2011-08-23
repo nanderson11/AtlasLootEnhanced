@@ -239,6 +239,11 @@ if AL then
 	AL["Show Price"] = "Preis anzeigen";
 	AL["Skill"] = "Fertigkeit";
 	AL["Location"] = "Quelle";
+	AL["ilvl 200"] = "Gegenstandsstufe 200";
+	AL["ilvl 213"] = "Gegenstandsstufe 213";
+	AL["ilvl 226"] = "Gegenstandsstufe 226";
+	AL["ilvl 245"] = "Gegenstandsstufe 245";
+	AL["ilvl 264"] = "Gegenstandsstufe 264";
 	AL["ilvl 359"] = "Gegenstandsstufe 359";
 	AL["ilvl 372"] = "Gegenstandsstufe 372";
 	AL["ilvl 378"] = "Gegenstandsstufe 378";

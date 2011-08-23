@@ -239,11 +239,11 @@ if AL then
 	AL["Show Price"] = true;
 	AL["Skill"] = true;
 	AL["Location"] = true;
-	AL["ilvl 264"] = true;
-	AL["ilvl 245"] = true;
-	AL["ilvl 226"] = true;
-	AL["ilvl 213"] = true;
 	AL["ilvl 200"] = true;
+	AL["ilvl 213"] = true;
+	AL["ilvl 226"] = true;
+	AL["ilvl 245"] = true;
+	AL["ilvl 264"] = true;
 	AL["ilvl 359"] = true;
 	AL["ilvl 372"] = true;
 	AL["ilvl 378"] = true;
