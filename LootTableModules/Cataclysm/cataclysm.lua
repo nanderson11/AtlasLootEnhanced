@@ -5377,8 +5377,8 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{
-					{ 1, 45022, "", "=q3=Argent Gruntling", "=ds=#e13# =ec1=#m6#"};
-					{ 1, 44998, "", "=q3=Argent Squire", "=ds=#e13# =ec1=#m7#"};
+					{ 1, 45022, "=q3=Argent Gruntling", "=ds="..AL["Argent Tournament"]};
+					{ 1, 44998, "=q3=Argent Squire", "=ds="..AL["Argent Tournament"]};
 				};
 				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
 				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
@@ -5398,9 +5398,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 14, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
 				{ 15, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
 				{ 16, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
-				{ 17, 11474, "", "=q1=Sprite Darter Egg", "=q1=#m4#: #QUESTID:4298#"};
-				{ 18, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
-				{ 19, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
@@ -5509,15 +5508,16 @@ local moduleName = "AtlasLootCataclysm"
 				{ 15, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
 				{ 17, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
 				{ 18, 48126, "", "=q1=Razzashi Hatchling", "=ds="..BabbleZone["Northern Stranglethorn"].." / "..BabbleZone["The Cape of Stranglethorn"]};
-				{ 19, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
-				{ 20, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
-				{ 21, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
-				{ 23, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 24, 68673, "", "=q3=Smolderweb Egg", "=q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 25, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 26, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
-				{ 27, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 28, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+				{ 19, 11474, "", "=q1=Sprite Darter Egg", "=ds="..BabbleZone["Feralas"]};
+				{ 20, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
+				{ 21, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
+				{ 22, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
+				{ 24, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
+				{ 25, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
+				{ 26, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 27, 68673, "", "=q3=Smolderweb Egg", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 28, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 29, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
 			};
 		};
 		info = {
@@ -5550,7 +5550,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
 				{ 24, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
 				{ 25, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 26, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
+				{ 27, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
 			};
 		};
 		info = {
@@ -5559,10 +5559,9 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["PetsPromotionalCardGame"] = {
+	AtlasLoot_Data["PetsPromotional"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
 				{ 2, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
 				{ 3, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
 				{ 4, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};
@@ -5572,28 +5571,38 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
 				{ 9, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
 				{ 10, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
-				{ 11, 71726, "", "=q3=Murky's Little Soulstone", "BlizzCon 2011"};--will be replaced with the achievement once its known.
-				{ 12, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
-				{ 13, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
-				{ 14, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
-				{ 15, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
-				{ 17, 39656, "", "=q3=Tyrael's Hilt", "#ACHIEVEMENTID:414#"};
-				{ 18, 13582, "", "=q3=Zergling Leash", "#ACHIEVEMENTID:664#"};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
-				{ 21, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
-				{ 22, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
-				{ 23, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
-				{ 24, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 25, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
-				{ 26, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
-				{ 27, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
-				{ 28, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
-				{ 29, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
-				{ 30, 68841, "", "=q1=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
+				{ 17, 71726, "", "=q3=Murky's Little Soulstone", "BlizzCon 2011"};--will be replaced with the achievement once its known.
+				{ 18, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
+				{ 19, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
+				{ 20, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
+				{ 21, 67418, "", "=q3=Smoldering Murloc Egg", "#ACHIEVEMENTID:5378#"};
+				{ 22, 39656, "", "=q3=Tyrael's Hilt", "#ACHIEVEMENTID:414#"};
+				{ 23, 13582, "", "=q3=Zergling Leash", "#ACHIEVEMENTID:664#"};
 			};
 		};
 		info = {
-			name = AL["Promotional Companions"].." / "..AL["Card Game Companions"],
+			name = AL["Promotional Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsCardGame"] = {
+		["Normal"] = {
+			{
+				{ 2, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
+				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
+				{ 4, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
+				{ 5, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
+				{ 6, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
+				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 18, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
+				{ 19, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
+				{ 20, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
+				{ 21, 68841, "", "=q1=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
+			};
+		};
+		info = {
+			name = AL["Card Game Companions"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -5912,7 +5921,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
 				{ 2, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
 				{ 3, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
-				{ 4, 71665, "", "=q4=Flametalon of Alysrazor", "=ds=#e27#" },
+				{ 4, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..BabbleBoss["Alysrazor"]..", =q1="..BabbleZone["Firelands"]},
 				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
 				{ 6, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
 				{ 7, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
@@ -5930,16 +5939,17 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..BabbleZone["Onyxia's Lair"], ""};
 				{ 17, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
 				{ 18, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 19, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
-				{ 20, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
-				{ 21, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
-				{ 22, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
-				{ 23, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
-				{ 25, 67151, "", "=q4=Reins of Poseidus", "=q2=", ""};
-				{ 26, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
-				{ 27, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
-				{ 28, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
-				{ 29, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 19, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..BabbleZone["Firelands"]},
+				{ 20, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
+				{ 21, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 22, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 23, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 24, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
+				{ 26, 67151, "", "=q4=Reins of Poseidus", "=q2="..AL["Poseidus"]..", =q1="..BabbleZone["Vashj'ir"]};
+				{ 27, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
+				{ 28, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
+				{ 29, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 30, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {

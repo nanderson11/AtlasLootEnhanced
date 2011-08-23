@@ -1625,7 +1625,8 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsAchievementFaction" },
 				{ "PetsRare" },
 				{ "PetsEvent" },
-				{ "PetsPromotionalCardGame" },
+				{ "PetsPromotional" },
+				{ "PetsCardGame" },
 				{ "PetsPetStore" },
 				{ "PetsRemoved" },
 				{ "PetsAccessories" },
@@ -1643,6 +1644,17 @@ AtlasLoot_LootTableRegister = {
 				{ "WorldEpics3039" },
 			},
 			["Info"] = { AL["BoE World Epics"], "AtlasLootWotLK"},
+		},
+
+		["Tabards"] = {
+			["Bosses"] = {
+				{ "TabardsAlliance" },
+				{ "TabardsHorde" },
+				{ "TabardsNeutralFaction" },
+				{ "TabardsAchievementQuestRareMisc" },
+				{ "TabardsRemoved" },
+			},
+			["Info"] = { BabbleInventory["Tabards"], "AtlasLootCataclysm"},
 		},
 	},
 
