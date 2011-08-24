@@ -2896,16 +2896,16 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
 				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
-    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
-    			{ 17, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#"},
-    			{ 18, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#"},
-    			{ 19, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#"},
-    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#"},
-    			{ 22, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
-    			{ 23, 71151, "", "=q4=Trail of Embers", "=ds=#w12#"},
-    			{ 25, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#"},
-    			{ 26, 71154, "", "=q4=Giantslicer", "=ds=#w11#"},
-    			{ 27, 71218, "", "=q4=Deflecting Star", "=ds=#w11#"},
+    			{ 16, 71590, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
+    			{ 17, 71587, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#"},
+    			{ 18, 71577, "", "=q4=Singed Plume of Aviana", "=ds=#s16#"},
+    			{ 19, 71567, "", "=q4=Covenant of the Flame", "=ds=#s16#"},
+    			{ 20, 71580, "", "=q4=Soulflame Vial", "=ds=#s16#"},
+    			{ 22, 71579, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
+    			{ 23, 71575, "", "=q4=Trail of Embers", "=ds=#w12#"},
+    			{ 25, 71568, "", "=q4=Morningstar Shard", "=ds=#w11#"},
+    			{ 26, 71593, "", "=q4=Giantslicer", "=ds=#w11#"},
+    			{ 27, 71592, "", "=q4=Deflecting Star", "=ds=#w11#"},
     			{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
 			};
 		};
