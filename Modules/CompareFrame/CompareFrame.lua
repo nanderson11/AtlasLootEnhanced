@@ -34,6 +34,39 @@ local NUM_ITEMS_TO_DISPLAY = 8
 
 local NUM_ITEMS_IN_LIST = 0
 
+-- Liste der Slots
+-- Zahlen bestimmen position beim sortieren
+local SLOT_LIST = {
+	["INVTYPE_AMMO"] = 0,
+	["INVTYPE_HEAD"] = 1,
+	["INVTYPE_NECK"] = 2,
+	["INVTYPE_SHOULDER"] = 3,
+	["INVTYPE_BODY"] = 4,
+	["INVTYPE_CHEST"] = 5,
+	["INVTYPE_ROBE"] = 6,
+	["INVTYPE_WAIST"] = 7,
+	["INVTYPE_LEGS"] = 8,
+	["INVTYPE_FEET"] = 9,
+	["INVTYPE_WRIST"] = 10,
+	["INVTYPE_HAND"] = 11,
+	["INVTYPE_FINGER"] = 12,
+	["INVTYPE_TRINKET"] = 13,
+	["INVTYPE_CLOAK"] = 14,
+	["INVTYPE_WEAPON"] = 15,
+	["INVTYPE_SHIELD"] = 16,
+	["INVTYPE_2HWEAPON"] = 17,
+	["INVTYPE_WEAPONMAINHAND"] = 18,
+	["INVTYPE_WEAPONOFFHAND"] = 19,
+	["INVTYPE_HOLDABLE"] = 20,
+	["INVTYPE_RANGED"] = 21,
+	["INVTYPE_THROWN"] = 22,
+	["INVTYPE_RANGEDRIGHT"] = 23,
+	["INVTYPE_RELIC"] = 24,
+	["INVTYPE_TABARD"] = 25,
+	["INVTYPE_BAG"] = 26,
+	["INVTYPE_QUIVER"] = 27,
+}
+
 -- Um platz zu sparen auch abkürzungen speichern
 --for k,v in pairs(GetItemStats("item:56319")) do print(k.." = "..v) end
 local STATS_LIST = {
@@ -90,6 +123,35 @@ local SORT_FUNC = {
 			else
 				a[k] = { v, select(3, GetItemInfo(v)) } 
 			end
+		end
+		if revert then
+			table.sort(a, function(x,y) return (x[2] > y[2]) end)
+		else
+			table.sort(a, function(x,y) return (x[2] < y[2]) end)
+		end
+
+		local i = 0
+		return function()
+			i = i + 1
+			return a[i], i
+		end
+	end,
+	["slot"] = function(self, sortBy, tab, revert)
+		local a = {}
+		local slotInfo
+		for k,v in ipairs(tab) do 
+			if type(v) == "string" then
+				slotInfo = select(9, GetItemInfo(ITEM_DEATAIL[v][3])) 
+			else
+				slotInfo = select(9, GetItemInfo(v)) 
+			end
+			if not slotInfo or slotInfo == "" then
+				slotInfo = 0
+			else
+				slotInfo = SLOT_LIST[slotInfo]
+			end
+			
+			a[k] = { v, slotInfo } 
 		end
 		if revert then
 			table.sort(a, function(x,y) return (x[2] > y[2]) end)
@@ -440,6 +502,13 @@ function AtlasLoot:CompareFrame_LoadInstance(ini)
 										ITEM_DEATAIL[item[2]].dataID = dataID
 										-- heroic, normal, ...
 										ITEM_DEATAIL[item[2]].tableType = ltType
+										
+										if ltType == "Normal" then
+											ITEM_DEATAIL[item[2]].location = string.format("%s - %s", infoTable[1] or "?", LIST_SUBFILTERS[i][j] or "?")
+										else
+											ITEM_DEATAIL[item[2]].location = string.format("%s - %s ( %s )", infoTable[1] or "?", LIST_SUBFILTERS[i][j] or "?", LIST_SUBSUBFILTERS[i][j][ typNum ] or "?")
+										end
+										
 										NUM_ITEMS_IN_LIST = NUM_ITEMS_IN_LIST + 1
 									end
 								end
@@ -452,6 +521,9 @@ function AtlasLoot:CompareFrame_LoadInstance(ini)
 										ITEM_DEATAIL[item[2]].dataID = dataID
 										-- heroic, normal, ...
 										ITEM_DEATAIL[item[2]].tableType = "Heroic"
+										
+										ITEM_DEATAIL[item[2]].location = string.format("%s - %s ( %s )", infoTable[1] or "?", LIST_SUBFILTERS[i][j] or "?", AtlasLoot:GetLocInstanceType("Heroic") or "?")
+
 										NUM_ITEMS_IN_LIST = NUM_ITEMS_IN_LIST + 1
 									end
 								end
@@ -584,11 +656,31 @@ function AtlasLoot:CompareFrame_CompleteTable(itemCache, allName)
 			ITEM_DEATAIL[v.item[2]].dataID = v.dataID
 			-- heroic, normal, ...
 			ITEM_DEATAIL[v.item[2]].tableType = v.tableType
+			-- location
+			if v[2]== "Normal" then
+				ITEM_DEATAIL[v.item[2]].location = string.format("%s - %s", v[3] or "?", AtlasLoot:GetTableInfo(v[1] or "?"))
+				--ITEM_DEATAIL[item[2]].location = v[3].." - "..AtlasLoot:GetTableInfo(v[1])
+			else
+				ITEM_DEATAIL[v.item[2]].location = string.format("%s - %s ( %s )", v[3] or "?", AtlasLoot:GetTableInfo(v[1]) or "?", AtlasLoot:GetLocInstanceType(v[2]) or "?")
+				--ITEM_DEATAIL[item[2]].location = v[3].." - "..AtlasLoot:GetTableInfo(v[1]).." ( "..LIST_SUBSUBFILTERS[i][j][ v.tableType ].." )"
+			end
 			
 			LIST_ITEMS[iAll][jAll][typNumAll][ #LIST_ITEMS[iAll][jAll][typNumAll] + 1 ] = v.item[2]
 			
 			NUM_ITEMS_IN_LIST = NUM_ITEMS_IN_LIST + 1
 		end
+		-- Update item count
+		local count = 0
+		for iniNum,ini in ipairs(LIST_MAINFILTERS) do
+			count = 0
+			for bossNum,boss in ipairs(LIST_ITEMS[iniNum]) do
+				for typeNum, ltType in ipairs(boss) do
+					count = count + #ltType
+				end
+			end
+			LIST_MAINFILTERS[iniNum] = string.format("%s (%d)", ini, count)
+		end
+		
 		--AtlasLoot:CompareFrame_CleanUpTable()
 		AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
 		AtlasLoot.CompareFrame.NumItems:SetText(string.format(AL["%d items"], NUM_ITEMS_IN_LIST))
@@ -622,7 +714,17 @@ function AtlasLoot:CompareFrame_Search(text, modulesToSearch)
 	local searchModules = {}
 	if modulesToSearch == "all" then
 		AtlasLoot:LoadModule("all")
-	else
+	elseif modulesToSearch == "save" then
+		--AtlasLoot.db.profile.SearchModule
+		if AtlasLoot.Modules then
+			for k,v in ipairs(AtlasLoot.Modules) do
+				if AtlasLoot.db.profile.SearchModule[ v[1] ] then
+					searchModules[v[1]] = true
+					AtlasLoot:LoadModule(v[1])
+				end
+			end
+		end
+	elseif type(modulesToSearch) == "table" then
 		for k,v in pairs(modulesToSearch) do
 			if type(k) == "string" and v == true then
 				searchModules[k] = true
@@ -722,6 +824,7 @@ function AtlasLoot:CompareFrame_LoadWishList(itemTab, wishlistID, wishlistName, 
 	else
 		CURRENT_SHOWN = wishlistID
 	end
+
 	if not itemTab or #itemTab <= 0 then 
 		AtlasLoot:CompareFrame_Clear()
 		return 
@@ -959,6 +1062,16 @@ function AtlasLoot:CompareFrame_Filter_OnClick(self, button)
 	AtlasLoot:CompareFrame_UpdateMainFilterScrollFrame()
 end
 
+function AtlasLoot:CompareFrame_Filter_OnEnter(self, button)
+	if self:GetText() then
+		--GameTooltip:Hide()
+		GameTooltip:ClearLines();
+		GameTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 5);
+		GameTooltip:AddLine(self:GetText())
+		GameTooltip:Show()	
+	end
+end
+
 -- Main Filter
 -- #####################################################
 
@@ -1190,7 +1303,8 @@ function AtlasLoot:CompareFrame_UpdateItemListScrollFrame(sortBy, refresh)
 							button.par:SetSpell(tonumber(spellID), tonumber(ITEM_DEATAIL[saved_ItemList[index]][3]), ITEM_DEATAIL[saved_ItemList[index]][4], ITEM_DEATAIL[saved_ItemList[index]][5], nil, ITEM_DEATAIL[saved_ItemList[index]][6])
 						end
 					else
-						button.par:SetItem(saved_ItemList[index], ITEM_DEATAIL[saved_ItemList[index]][4], ITEM_DEATAIL[saved_ItemList[index]][5], nil, ITEM_DEATAIL[saved_ItemList[index]][6])
+--
+						button.par:SetItem(saved_ItemList[index], ITEM_DEATAIL[saved_ItemList[index]][4], ITEM_DEATAIL[saved_ItemList[index]][5], nil, ITEM_DEATAIL[saved_ItemList[index]][6], nil, ITEM_DEATAIL[saved_ItemList[index]].location)
 					end
 				else
 					button.par:SetItem(saved_ItemList[index])
@@ -1567,8 +1681,8 @@ function AtlasLoot:CompareFrame_Create()
 	Frame.SortButtons[2]:SetPoint("LEFT", Frame.SortButtons[1], "RIGHT", -2, 0)
 	Frame.SortButtons[2]:SetWidth(110.5)
 	Frame.SortButtons[2]:SetHeight(19)
-	Frame.SortButtons[2]:SetText(RARITY)
-	Frame.SortButtons[2].SortType = "rarity"
+	Frame.SortButtons[2]:SetText(AL["Slot"])
+	Frame.SortButtons[2].SortType = "slot"
 	sortMaxLength = sortMaxLength - 111.5
 	
 	-- Item level
@@ -1613,7 +1727,7 @@ function AtlasLoot:CompareFrame_Create()
 	SearchFrame.SearchBox:SetTextInsets(0, 8, 0, 0)
 	SearchFrame.SearchBox:SetMaxLetters(100)
 	SearchFrame.SearchBox:SetScript("OnEnterPressed",function(self) 
-							AtlasLoot:CompareFrame_Search(SearchFrame.SearchBox:GetText(), AtlasLoot.db.profile.SearchModule)
+							AtlasLoot:CompareFrame_Search(SearchFrame.SearchBox:GetText(), "save")
 							SearchFrame.SearchBox:ClearFocus()
 						end)
 	
@@ -1623,7 +1737,7 @@ function AtlasLoot:CompareFrame_Create()
 	SearchFrame.Search:SetHeight(20)
 	SearchFrame.Search:SetPoint("LEFT", SearchFrame.SearchBox, "RIGHT", 0, 0)
 	SearchFrame.Search:SetScript("OnClick",function() 
-							AtlasLoot:CompareFrame_Search(SearchFrame.SearchBox:GetText(), AtlasLoot.db.profile.SearchModule)
+							AtlasLoot:CompareFrame_Search(SearchFrame.SearchBox:GetText(), "save")
 							SearchFrame.SearchBox:ClearFocus()
 						end)
 						

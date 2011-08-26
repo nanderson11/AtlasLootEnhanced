@@ -26,6 +26,14 @@
 			<OnClick>
 				AtlasLoot:CompareFrame_Filter_OnClick(self, button)
 			</OnClick>
+			<OnEnter>
+				AtlasLoot:CompareFrame_Filter_OnEnter(self, button)
+			</OnEnter>
+			<OnLeave>
+				if(GameTooltip:IsVisible()) then
+					GameTooltip:Hide();
+				end
+			</OnLeave>
 		</Scripts>
 		<NormalTexture name="$parentNormalTexture" urgency="5" file="Interface\AuctionFrame\UI-AuctionFrame-FilterBg">
 			<TexCoords left="0" right="0.53125" top="0" bottom="0.625"/>

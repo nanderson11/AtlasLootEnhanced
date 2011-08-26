@@ -97,7 +97,7 @@ local AtlasLootDBDefaults = {
 		LootBrowserAlpha = 1.0,
 		LootBrowserAlphaOnLeave = false,
         SearchModule = {
-        	["*"] = false,
+        	["*"] = true,
         },
         CompareFrame = {
         	showBaseSort = true,

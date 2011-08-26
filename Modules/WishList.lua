@@ -388,9 +388,6 @@ local function MoveTable(t, tt)
 	tt = tt or {}
 	local i, v = next(t, nil)
 	while i do
-		if type(v)=="table" then 
-			v=CopyTable(v)
-		end 
 		tt[i] = v
 		t[i] = nil
 		i, v = next(t, i)
@@ -899,7 +896,8 @@ function WishList:ButtonTemp_AddItemToWishList()
 			self:DeleteItemFromWishList()
 		elseif self.itemType then
 			curItem = { self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[2].."#"..self.itemType[3], self:GetChatLink() }
-			if (db.defaultWishlist and Wishlists_Info.defaultWishlist) then
+			if (db.defaultWishlist and Wishlists_Info.defaultWishlist) or #WishList.ownWishLists == 1 then
+				if #WishList.ownWishLists == 1 then WishList:RefreshCurWishlist(1) end
 				if self.info[2] == nil then 
 					WishList:AddItemToWishList(self.info[1], self.info[5], self.info[3], self.info[4], self.itemType[2].."#"..self.itemType[3], self:GetChatLink())
 				else
@@ -920,7 +918,8 @@ function WishList:ButtonTemp_AddItemToWishList()
 			lootTableType = AtlasLoot.ItemFrame.lootTableType
 		end
 		curItem = { self.info[1], self.info[2], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink() }
-		if (db.defaultWishlist and Wishlists_Info.defaultWishlist) then
+		if (db.defaultWishlist and Wishlists_Info.defaultWishlist) or #WishList.ownWishLists == 1 then
+			if #WishList.ownWishLists == 1 then WishList:RefreshCurWishlist(1) end
 			if self.info[2] == nil then 
 				WishList:AddItemToWishList(self.info[1], self.info[5], self.info[3], self.info[4], dataID.."#"..lootTableType, self:GetChatLink())
 			else
@@ -965,8 +964,8 @@ local function wishlistButtonOnClick()
 	if AtlasLoot.CompareFrame.Wishlist:IsShown() then
 		AtlasLoot.CompareFrame.Wishlist:Hide()
 	else
-		AtlasLoot.CompareFrame.Wishlist:Show()
 		WishList:CompareFrame_WishlistSelect_UpdateList()
+		AtlasLoot.CompareFrame.Wishlist:Show()
 	end
 end
 
@@ -975,6 +974,7 @@ local function onVerticalScrollWishlistFrame(self, offset)
 end
 
 function WishList:CompareFrame_WishlistSelect_UpdateList()
+	self = WishList
 	local wishlistTab = {}
 	local name, server
 	local numWishLists = 0
@@ -1039,7 +1039,7 @@ function WishList:CompareFrame_WishlistSelect_UpdateList()
 			button = AtlasLoot.CompareFrame.Wishlist.ScrollFrame.Buttons[i]
 			index = offset + i
 			
-			if i <= numWishLists then
+			if index <= numWishLists then
 				button:Show()
 				button.playerTab = { name, server }
 				button.wishlist = index
@@ -1047,7 +1047,7 @@ function WishList:CompareFrame_WishlistSelect_UpdateList()
 				
 				button.name:SetText(wishlistTab[index].info.name)
 				button.desc:SetText(string.format(AL["%d items"], #wishlistTab[index][1]))
-				button.type:SetText(name.." - "..server)
+				button.type:SetText(string.format("%s - %s", name or "?", server or "?"))
 				button.icon:SetTexture(wishlistTab[index].info.icon or "Interface\\Icons\\INV_Misc_QuestionMark")
 			
 			else
@@ -1064,7 +1064,11 @@ end
 function WishList.CompareFrame_Item_OnClick(self)
 	AtlasLoot.CompareFrame.Wishlist:Hide()
 	lastShownCompareFrame = { self.playerTab[2], self.playerTab[1], self.wishlist, self.wishlistName }
-	AtlasLoot:CompareFrame_LoadWishList(WishList.allWishLists[self.playerTab[2]][self.playerTab[1]][self.wishlist][1], self.wishlist, self.wishlistName)
+	if self.playerTab[2] and self.playerTab[2] == WishList.realm and self.playerTab[1] and self.playerTab[1] == WishList.char then
+		AtlasLoot:CompareFrame_LoadWishList(WishList.ownWishLists[self.wishlist][1], self.wishlist, self.wishlistName)
+	else
+		AtlasLoot:CompareFrame_LoadWishList(WishList.allWishLists[self.playerTab[2]][self.playerTab[1]][self.wishlist][1], self.wishlist, self.wishlistName)
+	end
 end
 
 function WishList:CompareFrame_DropDownRefresh()

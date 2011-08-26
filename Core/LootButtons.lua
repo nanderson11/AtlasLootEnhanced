@@ -473,20 +473,26 @@ do
 	
 	local function GetExtraPriceLink(text)
 		local price, isPrice = nil, nil
+		local tab = nil
+		local newPrice = text
 		if text then
 			for k,v in pairs(CURRENCY_PRICE) do
 				if string.find(text, "#"..k..":%d+#") then
 					_,_,price = string.find(text, "#"..k..":(%d+)#")
+					newPrice = gsub(newPrice, "#"..k..":%d+#", "")
 					if type(v) == "number" then
 						isPrice = v
 					elseif v["itemID"] then
 						isPrice = k
 					end
-					break
+					if not tab then tab = {} end
+					table.insert(tab, {tonumber(price), isPrice})
+					--break
 				end
 			end
 		end	
-		return price, isPrice
+		if tab and #tab <= 0 then tab = nil end
+		return tab, newPrice
 	end 
 	
 	local function GetExtraTextLink(text)
@@ -524,8 +530,11 @@ do
 	-- Create and returns the editet extra Text
 	local function GetItemExtraText(itemID, extraText, price, itemName)
 		local tempText, isQuest, isAchievement, isItem = GetExtraTextLink(extraText)
-		local tempPrice, isPrice = GetExtraPriceLink(price)
-
+		local priceTab, newPrice = GetExtraPriceLink(price)
+		local extraTextNew = extraText
+		if itemName and ( not extraText or extraText == "" or extraText == "=ds=" ) then
+			extraText = AtlasLoot:GetItemEquipInfo(itemID)
+		end
 		if not tempText and extraText and price and price ~= "" then
 			-- lengh < 70  = standart
 			-- this adds the ItemPrice to the Extratext if its not to long
@@ -534,10 +543,17 @@ do
 					if itemName then
 						extraText = AtlasLoot:GetItemEquipInfo(itemID)
 					else
-						extraText = tempPrice or price
+						--extraText = tempPrice or price
+						for k,v in ipairs(priceTab) do
+							extraText = extraText..tostring(v[1] or v[2])
+						end
 					end
 				end
-				local dummyText = tostring(tempPrice or price).." / "..AtlasLoot:FixText(extraText)
+				local dummyText
+				for k,v in ipairs(priceTab) do
+					dummyText = dummyText..tostring(v[1] or v[2])
+				end
+				dummyText = dummyText.." / "..AtlasLoot:FixText(extraText)
 				local lengh = string.len(dummyText)
 				if lengh < 50 then
 					tempText = dummyText
@@ -548,10 +564,8 @@ do
 					if itemName then
 						extraText = AtlasLoot:GetItemEquipInfo(itemID)
 					else
-						if tempPrice then
-							extraText = tempPrice
-						else
-							extraText = price
+						for k,v in ipairs(priceTab) do
+							extraText = extraText..", "..tostring(v[2] or price)
 						end
 					end
 				end
@@ -560,9 +574,17 @@ do
 				end
 
 				if AtlasLoot.db.profile.ShowLootTablePrice then
-					if tempPrice then
+					if priceTab then
 						--tempPrice, isPrice = GetExtraPriceLink(price)
-						tempText = tempPrice
+						local extraText2 = ""
+						for k,v in ipairs(priceTab) do
+							extraText2 = extraText2..v[1]
+						end
+						if newPrice and newPrice ~= "" then
+							tempText = extraText2..", "..newPrice
+						else
+							tempText = extraText2
+						end
 					else
 						tempText, isQuest, isAchievement, isItem = GetExtraTextLink(price)
 						if not tempText then
@@ -571,8 +593,11 @@ do
 					end
 				else
 					tempText = extraText
-					isPrice = nil
+					priceTab = nil
 				end
+			end
+			if not tempText or tempText == "" then
+				tempText = extraText
 			end
 		elseif not tempText and price and price ~= "" then
 			--if tempPrice then
@@ -583,18 +608,17 @@ do
 			tempText = extraText
 		elseif not tempText and not extraText and itemName then
 			tempText = AtlasLoot:GetItemEquipInfo(itemID)
+		else
+			tempText = extraText
 		end
 		
 		tempText = AtlasLoot:FixText(tempText)
 
-		if isPrice then
-			isPrice = {tempPrice, isPrice}
-		end
-		return tempText or "", isQuest, isAchievement, isItem, isPrice
+		return tempText or "", isQuest, isAchievement, isItem, priceTab
 	end
 
 	local function Setup_ItemExtraText(self, itemID, extraText, itemPrice, itemNameNew)
-		local tempText, isQuest, isAchievement, isItem, isPrice = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
+		local tempText, isQuest, isAchievement, isItem, priceTab = GetItemExtraText(itemID, extraText, itemPrice, itemNameNew)
 		
 		if isQuest then
 			self.Frame.Extra:Hide()
@@ -632,20 +656,26 @@ do
 			self.Frame.QA.ExtraIcon:SetHeight(12)	
 			self.Frame.QA.ExtraText:SetPoint("TOPLEFT", self.Frame.QA, "TOPLEFT", 12, -2)
 			self.Frame.QA.ExtraText:SetText(tempText)
-		elseif isPrice then
+		elseif priceTab then
 			local icon
-			if type(isPrice[2]) == "number" then
-				icon = select(3, GetCurrencyInfo(isPrice[2]))
+			--if type(isPrice[2]) == "number" then
+			--	icon = select(3, GetCurrencyInfo(isPrice[2]))
+			--	icon = "Interface\\Icons\\"..icon
+			--else
+			--	icon = GetItemIcon(CURRENCY_PRICE[isPrice[2]].itemID)
+			--end
+			if type(priceTab[1][2]) == "number" then
+				icon = select(3, GetCurrencyInfo(priceTab[1][2]))
 				icon = "Interface\\Icons\\"..icon
 			else
-				icon = GetItemIcon(CURRENCY_PRICE[isPrice[2]].itemID)
+				icon = GetItemIcon(CURRENCY_PRICE[priceTab[1][2]].itemID)
 			end
 			self.Frame.Extra:Hide()
 			self.Frame.QA:Show()
 			self.Frame.QA.achievementID = nil
 			self.Frame.QA.questID = nil
 			self.Frame.QA.itemID = nil
-			self.Frame.QA.price = {isPrice[2], isPrice[1]}
+			self.Frame.QA.price = priceTab
 			self.Frame.QA.ExtraIcon:SetTexture(icon)
 			self.Frame.QA.ExtraIcon:SetWidth(12)
 			self.Frame.QA.ExtraIcon:SetHeight(12)	
@@ -670,7 +700,8 @@ do
 	-- @param itemPrice The item price (Arena, PVP, ...). Set self will hide the extra text if its to long
 	-- @param itemDroprate The droprate of the item. Only a number value automatic adds "%"
 	-- @usage AltasLootItemButton:SetItem(45038, "=q5=Fragment of Val'anyr", "=ds=#m3#", nil, nil, "40%")
-	function AltasLootItemButton:SetItem(itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate)
+	-- @param tooltipAdd adds a extra text too the tooltip
+	function AltasLootItemButton:SetItem(itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate, tooltipAdd)
 		self:Clear()
 		if not itemID or type(itemID) ~= "number" then
 			self:SetDummy(itemName, extraText, itemTexture)
@@ -678,7 +709,7 @@ do
 			return
 		end
 		if not self.info then
-			self.info = { nil, itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate }
+			self.info = { nil, itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate, tooltipAdd }
 		end
 		
 		self:SetButtonType(true, false, nil)
@@ -777,7 +808,8 @@ do
 	-- @param itemTexture Sets a texture for the spell icon. Set to nil and it will use the icon from the spell ID
 	-- @param itemPrice The item price (Arena, PVP, ...). Set self will hide the extraText if its to long
 	-- @usage AltasLootItemButton:SetSpell(60403, 44323, "=q3=Indestructible Alchemist Stone", "=ds="..AL["Trainer"], nil, nil)
-	function AltasLootItemButton:SetSpell(spellID, itemID, spellName, extraText, spellTexture, itemPrice)
+	-- @param tooltipAdd adds a extra text too the tooltip
+	function AltasLootItemButton:SetSpell(spellID, itemID, spellName, extraText, spellTexture, itemPrice, tooltipAdd)
 		self:Clear()
 		if not spellID or type(spellID) ~= "number" then
 			self:SetDummy(spellName, extraText, spellTexture)
@@ -785,7 +817,7 @@ do
 			return
 		end
 		if not self.info then
-			self.info = { spellID, itemID, spellName, extraText, spellTexture, itemPrice, nil }
+			self.info = { spellID, itemID, spellName, extraText, spellTexture, itemPrice, nil, tooltipAdd }
 		end
 		self.Frame:Show()
 		local tempText = ""
@@ -872,7 +904,8 @@ do
 	-- @param tabName The name of the table. Set to nil an it use the tableName
 	-- @param tabExtraText The small text under the table name.
 	-- @param iconTexture path to icon texture
-	function AltasLootItemButton:SetMenu(linkTab, tabName, tabExtraText, iconTexture, tableLinkFunc)
+	-- @param tooltipAdd adds a extra text too the tooltip
+	function AltasLootItemButton:SetMenu(linkTab, tabName, tabExtraText, iconTexture, tableLinkFunc, tooltipAdd)
 		self:Clear()
 		self.tableLinkFunc = tableLinkFunc
 		self:SetLink(linkTab)
@@ -882,7 +915,7 @@ do
 			return
 		end
 		if not self.info then
-			self.info = { nil, nil, tabName, tabExtraText, iconTexture, nil, nil }
+			self.info = { nil, nil, tabName, tabExtraText, iconTexture, nil, nil, tooltipAdd }
 		end
 		self:SetButtonType(false, false, linkTab)
 		self.Frame:Show()
@@ -1165,7 +1198,7 @@ function AtlasLoot:QAItemOnEnter()
 	local questID = self.questID
 	local achievementID = self.achievementID
 	local itemID = self.itemID
-	local price = self.price
+	--local price = self.price
 	
 	if questID then
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
@@ -1179,30 +1212,32 @@ function AtlasLoot:QAItemOnEnter()
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 		AtlasLootTooltip:SetHyperlink("item:"..itemID..":0:0:0");
 		AtlasLootTooltip:Show();
-	elseif price then
+	elseif self.price then
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
-		if type(price[1]) == "number" then
-			local name, currentAmount = GetCurrencyInfo(price[1])
-			AtlasLootTooltip:AddLine(name);
-			if currentAmount and tonumber(price[2]) and currentAmount >= tonumber(price[2]) then
-				AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[2]);
-			else
-				AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[2]);
-			end
-		else
-			local count = GetItemCount(CURRENCY_PRICE[price[1]].itemID)
-			local countAll = GetItemCount(CURRENCY_PRICE[price[1]].itemID, true)
-			local color = "\n"
-			if countAll and tonumber(price[2]) and countAll >= tonumber(price[2]) then
-				color = color..GREEN
-			else
-				color = color..RED
-			end
-			AtlasLootTooltip:SetHyperlink("item:"..CURRENCY_PRICE[price[1]].itemID..":0:0:0")
-			if countAll == count then
-				AtlasLootTooltip:AddLine(color..count.." / "..price[2])
-			else
-				AtlasLootTooltip:AddLine(color..string.format(AL["%d / %d ( Bank: %d )"], countAll, price[2], countAll - count))
+		for k,price in ipairs(self.price) do
+			if type(price[2]) == "number" then
+				local name, currentAmount = GetCurrencyInfo(price[2])
+				AtlasLootTooltip:AddLine(name);
+				if currentAmount and tonumber(price[1]) and currentAmount >= tonumber(price[1]) then
+					AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[1]);
+				else
+				AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[1]);
+				end
+			elseif CURRENCY_PRICE[price[2]] then
+				local count = GetItemCount(CURRENCY_PRICE[price[2]].itemID)
+				local countAll = GetItemCount(CURRENCY_PRICE[price[2]].itemID, true)
+				local color = "\n"
+				if countAll and tonumber(price[1]) and countAll >= tonumber(price[1]) then
+					color = color..GREEN
+				else
+					color = color..RED
+				end
+				AtlasLootTooltip:SetHyperlink("item:"..CURRENCY_PRICE[price[2]].itemID..":0:0:0")
+				if countAll == count then
+					AtlasLootTooltip:AddLine(color..count.." / "..price[1])
+				else
+					AtlasLootTooltip:AddLine(color..string.format(AL["%d / %d ( Bank: %d )"], countAll, price[1], countAll - count))
+				end
 			end
 		end
 		AtlasLootTooltip:Show();
@@ -1218,7 +1253,8 @@ end
 
 function AtlasLoot:QAItemOnClick(arg1)
 	if IsShiftKeyDown() then
-		local link
+		local link = ""
+		local linkTmp = ""
 		if self.questID then
 			link = "|cffffff00|Hquest:"..self.questID.."|h["..AtlasLoot:GetQuestName(self.questID).."]|h|r"
 			--/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hquest:2969:47\124h[Freedom for All Creatures]\124h\124r");
@@ -1228,12 +1264,16 @@ function AtlasLoot:QAItemOnClick(arg1)
 		elseif self.itemID then
 			_, link = GetItemInfo(self.itemID)
 		elseif self.price then
-			if type(self.price[1]) == "number" then
-				link = GetCurrencyInfo(self.price[1])
-				link = self.price[2].." x "..link
-			else
-				_, link = GetItemInfo(CURRENCY_PRICE[self.price[1]].itemID)
-				link = self.price[2].." x "..link
+			for k,v in ipairs(self.price) do
+				if type(v[2]) == "number" then
+					linkTmp = GetCurrencyInfo(v[2])
+					linkTmp = v[1].." x "..linkTmp
+				elseif CURRENCY_PRICE[v[1]] then
+					_, linkTmp = GetItemInfo(CURRENCY_PRICE[v[2]].itemID)
+					linkTmp = v[1].." x "..linkTmp
+				end
+				link = linkTmp
+				linkTmp = ""
 			end
 		end
 		if link then
@@ -1299,7 +1339,7 @@ do
 		local spellID = self.par.info[1]
 		local itemID = self.par.info[2]
 		local droprate = self.par.info[7]
-		
+		local tooltipAdd = self.par.info[8]
 		
 		if itemID and not spellID then
 			if(itemID ~= nil) then
@@ -1334,6 +1374,10 @@ do
 					end
 					
 					AtlasLoot:AddTextToTooltip(AtlasLootTooltip, self.par.info)
+					if( tooltipAdd ~= nil and tooltipAdd ~= "" ) then
+						AtlasLootTooltip:AddLine(" ", 1, 1, 0);
+						AtlasLootTooltip:AddLine(tooltipAdd, 1, 1, 0);
+					end
 					
 					AtlasLootTooltip:Show();
 					if((AtlasLoot.db.profile.EquipCompare and ((not EquipCompare_RegisterTooltip) or (not EquipCompare_Enabled)))) or IsShiftKeyDown() then

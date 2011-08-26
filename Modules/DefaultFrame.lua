@@ -79,6 +79,7 @@ function DefaultFrame:OnInitialize()
 	
 	self:CreateDefaultFrame()
 	self:CreateInstanceTab()
+	self.Frame:SetPoint(unpack(db.NEWpoint))
 	tinsert(UISpecialFrames, frameName)
 	--AtlasLoot:RegisterModuleOptions(MODULENAME, getOptions, MODULENAME)
 	AtlasLoot:RegisterPFrame(frameName, { "TOPLEFT", frameName, "TOPLEFT", "18", "-84" })

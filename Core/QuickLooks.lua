@@ -221,7 +221,11 @@ function AtlasLoot:SetQuickLook(num)
 	AtlasLoot.db.profile.QuickLooks[num].lootPage = AtlasLoot.ItemFrame.dataID
 	AtlasLoot.db.profile.QuickLooks[num].lootPageType = AtlasLoot.db.profile.LootTableType
 	AtlasLoot.db.profile.QuickLooks[num].savedName = AtlasLoot:GetQuickLookName(num)
-	AtlasLoot.db.profile.QuickLooks[num].module = AtlasLoot_Data[ AtlasLoot.ItemFrame.dataID ].info.module
+	if AtlasLoot_Data[ AtlasLoot.ItemFrame.dataID ] then
+		AtlasLoot.db.profile.QuickLooks[num].module = AtlasLoot_Data[ AtlasLoot.ItemFrame.dataID ].info.module
+	else
+		AtlasLoot.db.profile.QuickLooks[num].module = nil
+	end
 	
 	AtlasLoot:RefreshAtlasLootPanel()
 end

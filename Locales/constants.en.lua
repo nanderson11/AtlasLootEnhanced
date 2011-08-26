@@ -43,6 +43,7 @@ if AL then
 	AL["Stats list name:"] = true;
 	AL["Select Stats list"] = true;
 	AL["You cant set more then %d item stats."] = true;
+	AL["Slot"] = true;
 
 	-- Stats short
 	AL["iLvl"] = true;	-- Item lvl
