@@ -8,8 +8,8 @@ back to the English translation.
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
 
---Table holding all loot tables is initialised here as it loads early
---AtlasLoot_Data = {};
+	-- Table holding all loot tables is initialised here as it loads early
+--	AtlasLoot_Data = {};
 
 	-- Create the library instance
 	local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -50,11 +50,11 @@ if AL then
 	AL["sta"] = "耐";	-- Stamina
 	AL["int"] = "智";	-- Intellect
 	AL["spi"] = "精";	-- Spirit
-	AL["Crit"] = "致命";	-- Crit Rating
-	AL["Dodge"] = "闪躲";	-- Dodge Rating
-	AL["Exp"] = "熟练";	-- Expertise Rating
+	AL["Crit"] = "暴击";	-- Crit Rating
+	AL["Dodge"] = "躲闪";	-- Dodge Rating
+	AL["Exp"] = "精准";	-- Expertise Rating
 	AL["Hit"] = "命中";	-- Hit Rating
-	AL["Haste"] = "加速";	-- Haste Rating
+	AL["Haste"] = "急速";	-- Haste Rating
 	AL["Parry"] = "招架";	-- Parry Rating
 	AL["Spell"] = "法能";	-- Spell Power
 	AL["Resi"] = "韧性";	-- Resilience Rating
@@ -132,6 +132,7 @@ if AL then
 	AL["Show price and slot if possible"] = "显示可用价格与部位";
 	AL["Use GameTooltip"] = "使用游戏内提示";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用标准游戏内提示而不使用 AtlasLoot 提示";
+	AL["%d / %d ( Bank: %d )"] = "%d / %d ( 银行: %d )";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "物品不可用";
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070dd物品 ID：%d |r\n此物品不安全。如想不掉线的情况下查看此物品，需要在游戏中见过此物品。\n\n可以尝试右击向服务器查询。可能会断开连接。";
@@ -149,7 +150,7 @@ if AL then
 	AL["Item Slot"] = "物品部位";
 	AL["Item Quality"] = "物品品质";
 
-	-- Wishlist 
+	-- Wishlist
 	AL["Wishlist"] = "愿望列表";
 	AL["Wishlists"] = "愿望列表";
 	AL["Own"] = "已拥有";
@@ -237,10 +238,15 @@ if AL then
 	AL["Show Price"] = "显示价格";
 	AL["Skill"] = "技能";
 	AL["Location"] = "位置";
-	AL["ilvl 359"] = "ilvl 359";
-	AL["ilvl 372"] = "ilvl 372";
-	AL["ilvl 378"] = "ilvl 378";
-	AL["ilvl 391"] = "ilvl 391";
+	AL["ilvl 200"] = "等级200";
+	AL["ilvl 213"] = "等级213";
+	AL["ilvl 226"] = "等级226";
+	AL["ilvl 245"] = "等级245";
+	AL["ilvl 264"] = "等级264";
+	AL["ilvl 359"] = "等级359";
+	AL["ilvl 372"] = "等级372";
+	AL["ilvl 378"] = "等级378";
+	AL["ilvl 391"] = "等级391";
 
 	-- #######################################
 	-- UI things END
@@ -325,13 +331,13 @@ if AL then
 	AL["Crafted Sets"] = "制造的套装";
 	AL["Crafted Epic Weapons"] = "制造的史诗武器";
 	AL["Dragon's Eye"] = "龙眼石";
-	AL["Chimera's Eye"] = "Chimera's Eye";
+	AL["Chimera's Eye"] = "奇美拉之眼";
 
 	-- Sets/Collections Menu
 	AL["Sets"] = "套装";
 	AL["Set"] = "套装";
-	AL["Justice Points"] = "Justice Points";
-	AL["Valor Points"] = "Valor Points";
+	AL["Justice Points"] = "正义点数";
+	AL["Valor Points"] = "勇气点数";
 	AL["BoE World Epics"] = "世界掉落的史诗装备";
 	AL["Legendary Items"] = "传奇物品";
 	AL["Misc Sets"] = "其它套装";
@@ -511,6 +517,7 @@ if AL then
 	AL["Collector's Edition"] = "典藏版";
 	AL["Daily Reward"] = "日常奖励";
 	AL["No Longer Available"] = "已绝版";
+	AL["Shared Boss Loot"] = "共享首领掉落";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "经典旧世";
@@ -522,18 +529,18 @@ if AL then
 	AL["Dungeon Set 2"] = "地下城套装2";
 	AL["Dungeon Set 1/2"] = "地下城套装1/2";
 	AL["Dungeon Set 3"] = "地下城套装3";
-	AL["Tier 1"] = "T1";
-	AL["Tier 2"] = "T2";
-	AL["Tier 3"] = "T3";
-	AL["Tier 4"] = "T4";
-	AL["Tier 5"] = "T5";
-	AL["Tier 6"] = "T6";
-	AL["Tier 7"] = "T7";
-	AL["Tier 8"] = "T8";
-	AL["Tier 9"] = "T9";
-	AL["Tier 10"] = "T10";
-	AL["Tier 11"] = "T11";
-	AL["Tier 12"] = "T12";
+	AL["Tier 1"] = "等级1";
+	AL["Tier 2"] = "等级2";
+	AL["Tier 3"] = "等级3";
+	AL["Tier 4"] = "等级4";
+	AL["Tier 5"] = "等级5";
+	AL["Tier 6"] = "等级6";
+	AL["Tier 7"] = "等级7";
+	AL["Tier 8"] = "等级8";
+	AL["Tier 9"] = "等级9";
+	AL["Tier 10"] = "等级10";
+	AL["Tier 11"] = "等级11";
+	AL["Tier 12"] = "等级12";
 	AL["10 Man"] = "10人";
 	AL["10/25 Man"] = "10/25人";
 	AL["Epic Set"] = "史诗套装";
@@ -642,7 +649,7 @@ if AL then
 	AL["Resilience"] = "韧性";
 	AL["Professions"] = "专业技能";
 	AL["Damage"] = "伤害";
---	AL["Proc"] = true;
+	AL["Proc"] = "特效";
 
 	-- Extra Text in Boss lists
 	AL["AQ20 Class Sets"] = "安其拉废墟职业套装";
@@ -658,6 +665,7 @@ if AL then
 	AL["Ulduar Formula/Patterns/Plans"] = "奥杜尔公式/图样/设计图";
 	AL["Trial of the Crusader Patterns/Plans"] = "十字军的试炼图样/设计图";
 	AL["BRD Blacksmithing Plans"] = "黑石深渊锻造设计图";
+	AL["Firelands Patterns/Plans"] = "火焰之地图样/设计图";
 
 	-- General titles
 	AL["Achievement"] = "成就";
@@ -792,15 +800,15 @@ if AL then
 
 	-- Thirtheenth set
 	AL["Worldbreaker"] = "世界击碎者";
-	AL["Mottled Drake"] = "Mottled Drake";
-	AL["Grim Campfire"] = "Grim Campfire";
-	AL["Landro's Lil' XT"] = "Landro's Lil' XT";
+	AL["Mottled Drake"] = "斑纹幼龙";
+	AL["Grim Campfire"] = "幽暗的营火";
+	AL["Landro's Lil' XT"] = "兰铎的小拆";
 
 	-- Fourteenth set
---	AL["War of the Elements"] = true;
+	AL["War of the Elements"] = "元素之战";
 
 	-- Fifteenth set
---	AL["Twilight of the Dragons"] = true;
+	AL["Twilight of the Dragons"] = "暮光之龙";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "旧 PvP 奖励";
@@ -1024,10 +1032,10 @@ if AL then
 	AL["Razzashi Raptor"] = "拉扎什迅猛龙";
 	AL["Deviate Ravager/Deviate Guardian"] = "变异破坏者/变异守护者";
 	AL["Servant's Quarter Animal Bosses"] = "仆役宿舍动物首领";
-	AL["Jadefang"] = "Jadefang";
-	AL["Aeonaxx"] = "Aeonaxx";
-	AL["Prince Sarsarun"] = "Prince Sarsarun";
-	AL["Dormus the Camel-Hoarder"] = "Dormus the Camel-Hoarder";
+	AL["Jadefang"] = "玉牙页岩蛛";
+	AL["Aeonaxx"] = "奥伊纳克斯";
+	AL["Prince Sarsarun"] = "萨尔萨隆王子";
+	AL["Dormus the Camel-Hoarder"] = "骆驼驭手多尔穆斯";
 	AL["The Behemoth"] = "贝哈默斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
 --	AL["Zen'Vorka"] = true;
@@ -1035,6 +1043,7 @@ if AL then
 --	AL["Damek Bloombeard"] = true;
 --	AL["Varlan Highbough"] = true;
 --	AL["Firestone Vendor"] = true;
+	AL["Poseidus"] = "波塞冬斯";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
@@ -1098,7 +1107,8 @@ if AL then
 	AL["Lovely Dress Box"] = "可爱的裙装盒";
 	AL["Dinner Suit Box"] = "晚宴礼服箱";
 	AL["Bag of Heart Candies"] = "一袋糖果";
-	AL["Hidden Stash"] = "Hidden Stash";
+	AL["Hidden Stash"] = "藏匿物";
+	AL["The Cache of Madness"] = "疯狂之缘";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 发生错误！";
