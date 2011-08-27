@@ -43,6 +43,7 @@ if AL then
 	--AL["Stats list name:"] = true;
 	--AL["Select Stats list"] = true;
 	--AL["You cant set more then %d item stats."] = true;
+	--AL["Slot"] = true;
 
 	-- Stats short
 	--AL["iLvl"] = true;	-- Item lvl
@@ -239,6 +240,11 @@ if AL then
 	AL["Show Price"] = "Afficher le prix";
 	AL["Skill"] = "Talent";
 	AL["Location"] = "Lieu";
+	--AL["ilvl 200"] = true;
+	--AL["ilvl 213"] = true;
+	--AL["ilvl 226"] = true;
+	--AL["ilvl 245"] = true;
+	--AL["ilvl 264"] = true;
 	--AL["ilvl 359"] = true;
 	--AL["ilvl 372"] = true;
 	--AL["ilvl 378"] = true;
