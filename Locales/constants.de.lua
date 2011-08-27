@@ -43,6 +43,7 @@ if AL then
 	AL["Stats list name:"] = "Wertelistenname";
 	AL["Select Stats list"] = "Werteliste auswählen";
 	AL["You cant set more then %d item stats."] = "Sie können nicht mehr als %d Gegenstandswerte festlegen.";
+	-- AL["Slot"] = true;
 
 	-- Stats short
 	-- AL["iLvl"] = true;	-- Item lvl
