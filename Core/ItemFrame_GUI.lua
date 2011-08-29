@@ -10,6 +10,11 @@ local PURPLE = "|cff9F3FFF"
 local BLUE = "|cff0070dd"
 local ORANGE = "|cffFF8400"
 
+local function onShow(self)
+	if self:GetParent():GetFrameStrata() ~= self:GetFrameStrata() then
+		self:SetFrameStrata(self:GetParent():GetFrameStrata())
+	end
+end
 
 function AtlasLoot:CreateItemFrame()
 	if AtlasLoot.ItemFrame then return end
@@ -23,11 +28,12 @@ function AtlasLoot:CreateItemFrame()
 	Frame:SetWidth(510)
 	Frame:SetHeight(510)
 	Frame:SetScript("OnHide", self.ItemsFrameOnCloseButton)
+	Frame:SetScript("OnShow", onShow)	
 		
 	Frame.CloseButton = CreateFrame("Button","AtlasLootItemsFrame_CloseButton",Frame,"UIPanelCloseButton")
 	Frame.CloseButton:SetPoint("TOPRIGHT", Frame, "TOPRIGHT", -5, -5)
 	Frame.CloseButton:SetScript("OnClick", AtlasLoot.ItemsFrameOnCloseButton)
-	Frame.CloseButton:SetScript("OnShow",function(self) self:SetFrameLevel( self:GetParent():GetFrameLevel() + 1 ) end)
+	--Frame.CloseButton:SetScript("OnShow",function(self) self:SetFrameLevel( self:GetParent():GetFrameLevel() + 1 ) end)
 	Frame.CloseButton:Hide()
 	
 	---------------

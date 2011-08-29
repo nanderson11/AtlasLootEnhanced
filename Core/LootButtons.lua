@@ -563,7 +563,7 @@ do
 				if extraText == "=ds=" or extraText == "" then
 					if itemName then
 						extraText = AtlasLoot:GetItemEquipInfo(itemID)
-					else
+					elseif priceTab then
 						for k,v in ipairs(priceTab) do
 							extraText = extraText..", "..tostring(v[2] or price)
 						end
