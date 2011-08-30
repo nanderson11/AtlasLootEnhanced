@@ -730,7 +730,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Drahga Shodowburner", 133).." & "..BabbleBoss["Valiona"],
+			name = AtlasLoot:EJ_GetBossName("Drahga Shadowburner", 133).." & "..BabbleBoss["Valiona"],
 			module = moduleName, instance = "GrimBatol",
 		};
 	};

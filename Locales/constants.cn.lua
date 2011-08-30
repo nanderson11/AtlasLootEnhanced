@@ -10,6 +10,7 @@ The AL["text"] = true; shortcut can ONLY be used for English (the root translati
 
 	-- Table holding all loot tables is initialised here as it loads early
 --	AtlasLoot_Data = {};
+--	AtlasLoot_TableNames = {};
 
 	-- Create the library instance
 	local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -42,6 +43,7 @@ if AL then
 	AL["Stats list name:"] = "属性列表名称:";
 	AL["Select Stats list"] = "选择属性列表";
 	AL["You cant set more then %d item stats."] = "您可以设定多达 %d 个物品状态.";
+	AL["Slot"] = "空位";
 
 	-- Stats short
 	AL["iLvl"] = "等级";	-- Item lvl
@@ -640,8 +642,8 @@ if AL then
 	AL["Draenei"] = "德莱尼";
 	AL["Night Elf"] = "暗夜精灵";
 	AL["Fossil"] = "化石";
-	AL["Nerubian"] = "尼鲁布";
-	AL["Vrykul"] = "维库";
+	AL["Nerubian"] = "蛛魔";
+	AL["Vrykul"] = "维库人";
 	AL["Troll"] = "巨魔";
 	AL["Tol'vir"] = "托维尔";
 	AL["Orc"] = "兽人";

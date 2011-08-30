@@ -43,6 +43,7 @@ if AL then
 	AL["Stats list name:"] = "屬性列表名稱:";
 	AL["Select Stats list"] = "選擇屬性列表";
 	AL["You cant set more then %d item stats."] = "您可以設定多達 %d 個物品狀態.";
+	AL["Slot"] = "空位";
 
 	-- Stats short
 	AL["iLvl"] = "等級";	-- Item lvl
@@ -151,7 +152,7 @@ if AL then
 	AL["Item Slot"] = "物品部位";
 	AL["Item Quality"] = "物品等級";
 
-	-- Wishlist 
+	-- Wishlist
 	AL["Wishlist"] = "裝備願望清單";
 	AL["Wishlists"] = "裝備願望清單";
 	AL["Own"] = "已擁有";
@@ -239,6 +240,11 @@ if AL then
 	AL["Show Price"] = "顯示價格";
 	AL["Skill"] = "技能";
 	AL["Location"] = "位置";
+	AL["ilvl 200"] = "等級 200";
+	AL["ilvl 213"] = "等級 213";
+	AL["ilvl 226"] = "等級 226";
+	AL["ilvl 245"] = "等級 245";
+	AL["ilvl 264"] = "等級 264";
 	AL["ilvl 359"] = "等級 359";
 	AL["ilvl 372"] = "等級 372";
 	AL["ilvl 378"] = "等級 378";
@@ -1039,6 +1045,7 @@ if AL then
 	AL["Damek Bloombeard"] = "達密克·濃鬚";
 	AL["Varlan Highbough"] = "瓦蘭·高枝";
 	AL["Firestone Vendor"] = "火石商人";
+	AL["Poseidus"] = "波賽達斯";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
