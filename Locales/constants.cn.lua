@@ -519,7 +519,7 @@ if AL then
 	AL["Collector's Edition"] = "典藏版";
 	AL["Daily Reward"] = "日常奖励";
 	AL["No Longer Available"] = "已绝版";
-	AL["Shared Boss Loot"] = "共享首领掉落";
+	AL["Shared Boss Loot"] = "首领共享掉落";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "经典旧世";
@@ -636,8 +636,8 @@ if AL then
 	AL["Special"] = "特殊";
 	AL["Feasts"] = "宴席";
 	AL["Speed"] = "速度";
-	AL["Rod"] = "鱼钩";
-	AL["Oil"] = "之油";
+	AL["Rod"] = "附魔棒";
+	AL["Oil"] = "附魔油";
 	AL["Dwarf"] = "矮人";
 	AL["Draenei"] = "德莱尼";
 	AL["Night Elf"] = "暗夜精灵";
