@@ -555,8 +555,10 @@ do
 						dummyText = dummyText..tostring(v[1] or v[2])
 					end
 				end
-				if dummyText and dummyText ~= "" then
-					dummyText = dummyText.." / "..AtlasLoot:FixText(extraText)
+				if dummyText and string.trim(dummyText) ~= "" then
+					if extraText and extraText ~= "" and extraText ~= "=ds=" then
+						dummyText = dummyText.." / "..AtlasLoot:FixText(extraText)
+					end
 				else
 					dummyText = AtlasLoot:FixText(extraText)
 				end
@@ -615,7 +617,7 @@ do
 		elseif not tempText and not extraText and itemName then
 			tempText = AtlasLoot:GetItemEquipInfo(itemID)
 		else
-			tempText = extraText
+			--tempText = extraText
 		end
 		
 		tempText = AtlasLoot:FixText(tempText)
