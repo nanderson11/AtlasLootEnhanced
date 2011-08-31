@@ -217,7 +217,7 @@ AtlasLoot_LootTableRegister = {
 		["ThroneOfTheFourWinds"] = {
 			["Bosses"] = {
 				{ "TFWConclave", 2, EncounterJournalID = 154 },
-				{ "TFWAlAkir", 3, EncounterJournalID = 155 },
+				{ "TFWAlAkir", 6, EncounterJournalID = 155 },
 			},
 			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm", mapname = "Throneofthefourwinds", raid = true, EncounterJournalID = 74 },
 		},
