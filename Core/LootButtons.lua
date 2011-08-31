@@ -542,18 +542,24 @@ do
 				if extraText == "=ds=" or extraText == "" then
 					if itemName then
 						extraText = AtlasLoot:GetItemEquipInfo(itemID)
-					else
+					elseif priceTab then
 						--extraText = tempPrice or price
 						for k,v in ipairs(priceTab) do
 							extraText = extraText..tostring(v[1] or v[2])
 						end
 					end
 				end
-				local dummyText
-				for k,v in ipairs(priceTab) do
-					dummyText = dummyText..tostring(v[1] or v[2])
+				local dummyText = ""
+				if priceTab then
+					for k,v in ipairs(priceTab) do
+						dummyText = dummyText..tostring(v[1] or v[2])
+					end
 				end
-				dummyText = dummyText.." / "..AtlasLoot:FixText(extraText)
+				if dummyText and dummyText ~= "" then
+					dummyText = dummyText.." / "..AtlasLoot:FixText(extraText)
+				else
+					dummyText = AtlasLoot:FixText(extraText)
+				end
 				local lengh = string.len(dummyText)
 				if lengh < 50 then
 					tempText = dummyText
