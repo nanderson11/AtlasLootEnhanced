@@ -678,6 +678,7 @@ if AL then
 	AL["Achievement & Faction Reward"] = "Erfolgs & Fraktionsbelohnungen";
 	AL["Card Game Companions"] = "Kartenspiel-Haustiere";
 	AL["Companion Accessories"] = "Haustierzubehör";
+	AL["Blizzard Store"] = "Blizzard Shop";
 	AL["Crafted Companions"] = "Hergestellte Haustiere";
 	AL["Dungeon/Raid"] = "Instanz/Schlachtzug";
 	AL["Faction"] = "Fraktion";
