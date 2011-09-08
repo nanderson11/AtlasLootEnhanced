@@ -2334,11 +2334,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 71276, "", "=q4=Gloves of the Cleansing Flame", "=ds=#s9#, #a1#", "#VALOR:1650#"};
 				{ 7, 71278, "", "=q4=Leggings of the Cleansing Flame", "=ds=#s11#, #a1#", "#VALOR:2200#"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
-				{ 17, 70309, "", "=q4=Ruthless Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 18, 70311, "", "=q4=Ruthless Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 17, 70304, "", "=q4=Ruthless Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 70306, "", "=q4=Ruthless Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
 				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-				{ 21, 70304, "", "=q4=Ruthless Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 22, 70306, "", "=q4=Ruthless Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 21, 70309, "", "=q4=Ruthless Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 70311, "", "=q4=Ruthless Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
@@ -5642,7 +5642,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Companion Store"],
+			name = AL["Blizzard Store"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -6032,7 +6032,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Companion Store"], ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 21, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
 				{ 22, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
 			};

@@ -560,7 +560,6 @@ if AL then
 	AL["Achievement & Faction Reward Companions"] = "Mascotas de recompensa por logro y facción";
 	AL["Card Game Companions"] = "Mascotas por cartas del juego";
 	AL["Companion Accessories"] = "Accesorios para mascotas";
-	AL["Companion Store"] = "Tienda de mascotas";
 	AL["Crafted Companions"] = "Mascotas creadas";
 	AL["Dungeon/Raid"] = "Mazmorra/Banda";
 	AL["Faction"] = "Facción";

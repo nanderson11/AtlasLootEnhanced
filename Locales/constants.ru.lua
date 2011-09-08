@@ -618,7 +618,6 @@ if AL then
 	AL["Achievement & Faction Reward"] = "Награды за достижения и фракции";
 	AL["Card Game Companions"] = "Спутники с игровых карт";
 	AL["Companion Accessories"] = "Аксессуары спутников";
-	AL["Companion Store"] = "Магазин спутников";
 	AL["Crafted Companions"] = "Созданные спутники";
 	AL["Dungeon/Raid"] = "Подземелье/Рейд";
 	AL["Faction"] = "Фракция";

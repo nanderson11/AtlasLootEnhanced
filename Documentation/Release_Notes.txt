@@ -5,11 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.04.04 (July ??, 2011)
+v6.04.04 (September 11, 2011)
 Added support for Atlas 1.20.1.
 Added Season 10 items.
-Many Wishlist improvements
-Minor fixes and additions.
+Added various Wishlist improvements.
+Fixed a bug that prevented the search from working.
+Many minor fixes, additions and translations.
 
 v6.04.03 (June 30, 2011)
 Small Database fix.

@@ -678,7 +678,6 @@ if AL then
 	AL["Achievement & Faction Reward"] = "成就和阵营奖励";
 	AL["Card Game Companions"] = "集换卡奖励小伙伴";
 	AL["Companion Accessories"] = "小伙伴附件";
-	AL["Companion Store"] = "宠物商店";
 	AL["Crafted Companions"] = "制作的小伙伴";
 	AL["Dungeon/Raid"] = "副本/团队";
 	AL["Faction"] = "阵营";

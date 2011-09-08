@@ -678,7 +678,7 @@ if AL then
 	AL["Achievement & Faction Reward"] = true;
 	AL["Card Game Companions"] = true;
 	AL["Companion Accessories"] = true;
-	AL["Companion Store"] = true;
+	AL["Blizzard Store"] = true;
 	AL["Crafted Companions"] = true;
 	AL["Dungeon/Raid"] = true;
 	AL["Faction"] = true;

@@ -678,7 +678,6 @@ if AL then
 	AL["Achievement & Faction Reward"] = "Haut fait & récompense de faction";
 	AL["Card Game Companions"] = "Mascottes des jeux de cartes";
 	AL["Companion Accessories"] = "Accessoires pour mascottes";
-	AL["Companion Store"] = "Mascottes de la boutique Blizzard";
 	AL["Crafted Companions"] = "Mascottes de l'artisanat";
 	AL["Dungeon/Raid"] = "Donjon / Raid";
 	--AL["Faction"] = true;
