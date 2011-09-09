@@ -94,6 +94,7 @@ if AL then
 	AL["Profiles"] = "Profile";
 	-- AL["Item Buttons"] = true;
 	AL["Loot Table"] = "Beuteverzeichnis";
+	AL["Enable mouse on item descriptions"] = "Beschreibungstooltips beim Hovern am Mauszeiger einblenden";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";
