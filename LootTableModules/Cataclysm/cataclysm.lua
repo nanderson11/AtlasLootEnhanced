@@ -42,6 +42,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Level 85 - Misc
 --- Sets & Collections
 ---- Tier 11/12 Sets (T11/12)
+---- Tier 13 Sets (T13)
 ---- Legendaries
 ---- Tabards
 ---- Trading Card Game Items
@@ -5026,6 +5027,56 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "T1112SET",
 		};
 	}
+--[[
+		--------------------------
+		--- Tier 13 Sets (T13) ---
+		--------------------------
+
+	AtlasLoot_Data["T13WarriorFury"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
+				{ 3, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
+				{ 4, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#", "#VALOR:2200#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
+				{ 10, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
+				{ 11, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
+				{ 12, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 13, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13WarriorProtection"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
+				{ 3, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 4, 0, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#", "#VALOR:2200#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
+				{ 10, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 11, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
+				{ 12, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
+				{ 13, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
+			module = moduleName, menu = "T13SET",
+		};
+	}]]--
 
 		-------------------
 		--- Legendaries ---
@@ -5219,8 +5270,8 @@ local moduleName = "AtlasLootCataclysm"
 			{
 --[[			{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
 				{ 2, 0, "", "=q4=Wasteland Tallstrider", "=ds=#e26#" },
-				{ 3, 0, "", "=q3=Seestar", "=ds=" },
-				{ 4, 0, "", "=q1=Fish", "=ds=#e13#" },--]] -- next TCG set (octobre)
+				{ 3, 0, "", "=q3=Throwing Starfish", "=ds=" },
+				{ 4, 0, "", "=q1=Bloat the Bubble Fish", "=ds=#e13#" },--]] -- next TCG set (octobre)
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
 				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
 				{ 3, 69227, "", "=q3=Fool's Gold", "=ds=" },
@@ -5628,7 +5679,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsPetStore"] = {
 		["Normal"] = {
 			{
-				{ 2, 70099, "", "=q3=Cenarion Hatchling", "=ds=#e13#"};
+				{ 2, 70099, "", "=q4=Cenarion Hatchling", "=ds=#e13#"};
 				{ 3, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
 				{ 4, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
 				{ 5, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
