@@ -117,6 +117,7 @@ local dbDefaults = {
 		defaultWishlist = false,
 		useCharDB = false,
 		lastWishlistType = "OWN",
+		wishListSelectDropDown = false,
 	},
 }
 
@@ -833,6 +834,7 @@ local curItem
 --{server, name, wishlist, wishlistname}
 local lastShownCompareFrame = nil
 -- DropDown Menu
+-- Add item
 do
 	local function AddItem(self, arg1, arg2, checked)
 		if arg1 then
@@ -959,13 +961,80 @@ end
 
 -- #####################################################
 -- Compare Frame
+--[[
+local function showWishlistSelectDropDown_OnClick(self, arg1, arg2)
 
-local function wishlistButtonOnClick()
-	if AtlasLoot.CompareFrame.Wishlist:IsShown() then
-		AtlasLoot.CompareFrame.Wishlist:Hide()
+end
+
+local WishlistSelectDropDownInfo = {}
+function WishList:SelectWishlist_DropDownInit(level)
+	if not level then return end
+	wipe(WishlistSelectDropDownInfo)
+	if level == 1 then
+		WishlistSelectDropDownInfo.text 		 = AL["Own"]
+		WishlistSelectDropDownInfo.hasArrow 	 = true
+		WishlistSelectDropDownInfo.notCheckable  = true
+		UIDropDownMenu_AddButton(WishlistSelectDropDownInfo, level)
+
+
+
+AL["Own"] = true;
+	AL["Other"] = true;
+
+		WishlistSelectDropDownInfo.text         = "|cffff0000"..CLOSE
+		WishlistSelectDropDownInfo.func         = function() CloseDropDownMenus() end
+		WishlistSelectDropDownInfo.checked      = nil
+		WishlistSelectDropDownInfo.notCheckable = 1
+		UIDropDownMenu_AddButton(WishlistSelectDropDownInfo, level)
+	end
+end
+
+do
+	-- AtlasLoot:QuickLooks_DropDownInit(level)
+	-- Initialize the dropdown menu
+	local QuickLooks_DropDownInfo = {}
+	function AtlasLoot:QuickLooks_DropDownInit(level)
+		if not level then return end
+		wipe(QuickLooks_DropDownInfo)
+		if level == 1 then
+			for i = 1,AtlasLoot.db.profile.NumQuickLooks do
+				if not AtlasLoot.db.profile.QuickLooks[i].locked then
+					QuickLooks_DropDownInfo.text 		 = AtlasLoot:GetQuickLookName(i)
+					QuickLooks_DropDownInfo.arg1 		 = i
+					QuickLooks_DropDownInfo.func 		 = AtlasLoot.SetQuickLook
+					QuickLooks_DropDownInfo.checked		 = nil
+					QuickLooks_DropDownInfo.notCheckable = 1
+					UIDropDownMenu_AddButton(QuickLooks_DropDownInfo, level)
+				end
+			end
+			QuickLooks_DropDownInfo.text         = "|cffff0000"..CLOSE
+			QuickLooks_DropDownInfo.func         = function() CloseDropDownMenus() end
+			QuickLooks_DropDownInfo.checked      = nil
+			QuickLooks_DropDownInfo.notCheckable = 1
+			UIDropDownMenu_AddButton(QuickLooks_DropDownInfo, level)
+		end
+
+	end
+end
+
+-- AtlasLoot:ShowQuickLooks()
+-- Shows the DropDown for setting Quicklooks
+function AtlasLoot:ShowQuickLooks()
+	ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.QuickLooksDropDownMenu, self:GetName(), 0, 0)
+end
+]]--
+
+
+local function wishlistButtonOnClick(self, button)
+	if not wishListSelectDropDown then
+		if AtlasLoot.CompareFrame.Wishlist:IsShown() then
+			AtlasLoot.CompareFrame.Wishlist:Hide()
+		else
+			WishList:CompareFrame_WishlistSelect_UpdateList()
+			AtlasLoot.CompareFrame.Wishlist:Show()
+		end
 	else
-		WishList:CompareFrame_WishlistSelect_UpdateList()
-		AtlasLoot.CompareFrame.Wishlist:Show()
+		
 	end
 end
 

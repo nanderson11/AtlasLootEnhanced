@@ -94,6 +94,7 @@ if AL then
 	AL["Profiles"] = true;
 	AL["Item Buttons"] = true;
 	AL["Loot Table"] = true;
+	AL["Enable mouse on item descriptions"] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;

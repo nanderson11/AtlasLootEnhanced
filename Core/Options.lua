@@ -122,6 +122,15 @@ do
 										set = setOpt,
 										width = "full",
 									},
+									EnableMouseOverDesc = {
+										type = "toggle",
+										name = AL["Enable mouse on item descriptions"],
+										--desc = ,
+										order = 70,
+										get = getOpt,
+										set = setOpt,
+										width = "full",
+									},
 								},
 							},
 							

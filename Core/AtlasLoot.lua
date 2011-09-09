@@ -124,6 +124,7 @@ local AtlasLootDBDefaults = {
 		ShowPriceAndDesc = false,
 		UseGameTooltip = false,
 		LastMinAtlasVersion = 0,
+		EnableMouseOverDesc = true,
     }
 }
 

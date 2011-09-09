@@ -698,6 +698,11 @@ do
 			self.Frame.Extra:SetText(tempText)
 			self.Frame.Extra:Show()		
 		end
+		if self.Frame.QA:IsShown() and AtlasLoot.db.profile.EnableMouseOverDesc then
+			self.Frame.QA:EnableMouse(true)
+		else
+			self.Frame.QA:EnableMouse(false)
+		end
 	end
 	
 	--- Sets a item to the button
@@ -1273,11 +1278,11 @@ function AtlasLoot:QAItemOnClick(arg1)
 			_, link = GetItemInfo(self.itemID)
 		elseif self.price then
 			for k,v in ipairs(self.price) do
-				if type(v[2]) == "number" then
-					linkTmp = GetCurrencyInfo(v[2])
-					linkTmp = v[1].." x "..linkTmp
-				elseif CURRENCY_PRICE[v[1]] then
+				if CURRENCY_PRICE[v[2]] then
 					_, linkTmp = GetItemInfo(CURRENCY_PRICE[v[2]].itemID)
+					linkTmp = v[1].." x "..linkTmp
+				elseif type(v[2]) == "number" then
+					linkTmp = GetCurrencyInfo(v[2])
 					linkTmp = v[1].." x "..linkTmp
 				end
 				link = linkTmp
