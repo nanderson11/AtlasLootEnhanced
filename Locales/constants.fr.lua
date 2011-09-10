@@ -94,6 +94,7 @@ if AL then
 	--AL["Profiles"] = true;
 	--AL["Item Buttons"] = true; -- à traduire
 	AL["Loot Table"] = "Table de loot";
+	AL["Enable mouse on item descriptions"] = "Activer la souris sur la description de l'objet";
 
 	-- Default Frame
 	AL["Default Frame"] = "Frame par défaut";
@@ -678,6 +679,7 @@ if AL then
 	AL["Achievement & Faction Reward"] = "Haut fait & récompense de faction";
 	AL["Card Game Companions"] = "Mascottes des jeux de cartes";
 	AL["Companion Accessories"] = "Accessoires pour mascottes";
+	AL["Blizzard Store"] = "Boutique Blizzard";
 	AL["Crafted Companions"] = "Mascottes de l'artisanat";
 	AL["Dungeon/Raid"] = "Donjon / Raid";
 	--AL["Faction"] = true;
