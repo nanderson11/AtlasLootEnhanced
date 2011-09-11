@@ -324,6 +324,27 @@ do
 	
 end
 	
+-- change later..	
+local function wishlistButtonOnClick(self, button)
+	if db.defaultWishlist and Wishlists_Info.defaultWishlist then
+		WishList:ShowWishlist(Wishlists_Info.defaultWishlist)
+	else
+		if not db.wishListSelectDropDown then
+			if not AtlasLoot.CompareFrame.Wishlist:IsShown() then
+				AtlasLoot.CompareFrame:Show()
+			end
+			if AtlasLoot.CompareFrame.Wishlist:IsShown() then
+				AtlasLoot.CompareFrame.Wishlist:Hide()
+			else
+				WishList:CompareFrame_WishlistSelect_UpdateList()
+				AtlasLoot.CompareFrame.Wishlist:Show()
+			end
+		else
+			
+		end
+	end
+end
+
 function WishList:OnInitialize()
 	if not AtlasLoot.db then AtlasLoot:OnLoaderLoad() end
 	self.db = AtlasLoot.db:RegisterNamespace(MODULENAME, dbDefaults)
@@ -357,7 +378,7 @@ function WishList:OnInitialize()
 	
 	AtlasLoot:PanelAddButton("Wishlist", {
 		text = AL["Wishlist"],
-		func = function() WishList:ShowWishlist(nil) end,
+		func = function() wishlistButtonOnClick() end,
 		order = 60,
 		disabled = true,
 	})
@@ -1023,20 +1044,6 @@ function AtlasLoot:ShowQuickLooks()
 	ToggleDropDownMenu(1, nil, AtlasLoot.ItemFrame.QuickLooksDropDownMenu, self:GetName(), 0, 0)
 end
 ]]--
-
-
-local function wishlistButtonOnClick(self, button)
-	if not wishListSelectDropDown then
-		if AtlasLoot.CompareFrame.Wishlist:IsShown() then
-			AtlasLoot.CompareFrame.Wishlist:Hide()
-		else
-			WishList:CompareFrame_WishlistSelect_UpdateList()
-			AtlasLoot.CompareFrame.Wishlist:Show()
-		end
-	else
-		
-	end
-end
 
 local function onVerticalScrollWishlistFrame(self, offset)
 	FauxScrollFrame_OnVerticalScroll(self, offset, 46, WishList.CompareFrame_WishlistSelect_UpdateList)
