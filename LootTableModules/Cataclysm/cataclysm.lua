@@ -5041,7 +5041,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 0, "", "=q4=Faceless Shroud Robes", "=ds=#s5#, #a1#", "#VALOR:2200#"};
 				{ 5, 0, "", "=q4=Faceless Shroud Handwraps", "=ds=#s9#, #a1#", "#VALOR:1650#"};
 				{ 6, 0, "", "=q4=Faceless Shroud Leggings", "=ds=#s11#, #a1#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 9, 0, "", "=q4=Faceless Shroud Hood", "=ds=#s1#, #a1#"};
 				{ 10, 0, "", "=q4=Faceless Shroud Mantle", "=ds=#s3#, #a1#"};
 				{ 11, 0, "", "=q4=Faceless Shroud Robes", "=ds=#s5#, #a1#"};

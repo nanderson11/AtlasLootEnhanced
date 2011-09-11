@@ -352,6 +352,7 @@ if AL then
 	AL["Tier 9 Set"] = true;
 	AL["Tier 10 Set"] = true;
 	AL["Tier 11/12 Set"] = true;
+	AL["Tier 13 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Transformation Items"] = true;
 
@@ -384,8 +385,9 @@ if AL then
 	AL["Noblegarden"] = true;
 	AL["Pilgrim's Bounty"] = true;
 	AL["Skettis"] = true;
-	AL["Stranglethorn Fishing Extravaganza"] = true;
+	AL["Stranglethorn Fishing Extravaganza"] = true
 	AL["Kalu'ak Fishing Derby"] = true;
+	AL["Fishing Contests"] = true;
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = true;

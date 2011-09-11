@@ -603,7 +603,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
 				{ 19, 22236, "", "=q1=Buttermilk Delight", "=ds=#e3#"};
 				{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};		
-				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], "#ACHIEVEMENTID:1696#"};
+				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], "#ACHIEVEMENTID:1701#"};
 				{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 24, 21817, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 25, 21818, "", "=q1=Heart Candy", "=ds=#m20#"};
@@ -990,22 +990,25 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["FishingExtravaganza"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["First Prize"], "=q1="..AL["Master Angler"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["First Prize"], "=q1="..AL["Stranglethorn Fishing Extravaganza"]};
 				{ 2, 19970, "", "=q3=Arcanite Fishing Pole", "=ds=#e20#"};
 				{ 3, 19979, "", "=q3=Hook of the Master Angler", "=ds=#s14#"};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Rare Fish"], ""};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Rare Fish"], "=q1="..AL["Stranglethorn Fishing Extravaganza"]};
 				{ 6, 19805, "", "=q2=Keefer's Angelfish", "=ds=#e21#", "", ""};
 				{ 7, 19803, "", "=q2=Brownell's Blue Striped Racer", "=ds=#e21#", "", ""};
 				{ 8, 19806, "", "=q2=Dezian Queenfish", "=ds=#e21#", "", ""};
 				{ 9, 19808, "", "=q2=Rockhide Strongfish", "=ds=#h1#, #w6#", "", ""};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Rare Fish Rewards"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["First Prize"], "=q1="..AL["Kalu'ak Fishing Derby"]};
+				{ 17, 50287, "", "=q3=Boots of the Bay", "=ds=#s12#"};
+				{ 18, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#"};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Rare Fish Rewards"], "=q1="..AL["Stranglethorn Fishing Extravaganza"]};
 				{ 21, 19972, "", "=q2=Lucky Fishing Hat", "=ds=#s1#, #a1#"};
 				{ 22, 19969, "", "=q2=Nat Pagle's Extreme Anglin' Boots", "=ds=#s12#, #a1#"};
 				{ 23, 19971, "", "=q2=High Test Eternium Fishing Line", "=ds=#e20# #e17#"};
 			};
 		};
 		info = {
-			name = AL["Stranglethorn Fishing Extravaganza"],
+			name = AL["Fishing Contests"],
 			module = moduleName, menu = "WORLDEVENTMENU"
 		};
 	};
