@@ -5032,6 +5032,29 @@ local moduleName = "AtlasLootCataclysm"
 		--- Tier 13 Sets (T13) ---
 		--------------------------
 
+	AtlasLoot_Data["T13Warlock"] = {
+		["Normal"] = {
+			{				
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Faceless Shroud Hood", "=ds=#s1#, #a1#"};
+				{ 3, 0, "", "=q4=Faceless Shroud Mantle", "=ds=#s3#, #a1#"};
+				{ 4, 0, "", "=q4=Faceless Shroud Robes", "=ds=#s5#, #a1#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Faceless Shroud Handwraps", "=ds=#s9#, #a1#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Faceless Shroud Leggings", "=ds=#s11#, #a1#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Faceless Shroud Hood", "=ds=#s1#, #a1#"};
+				{ 10, 0, "", "=q4=Faceless Shroud Mantle", "=ds=#s3#, #a1#"};
+				{ 11, 0, "", "=q4=Faceless Shroud Robes", "=ds=#s5#, #a1#"};
+				{ 12, 0, "", "=q4=Faceless Shroud Handwraps", "=ds=#s9#, #a1#"};
+				{ 13, 0, "", "=q4=Faceless Shroud Leggings", "=ds=#s11#, #a1#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
 	AtlasLoot_Data["T13WarriorFury"] = {
 		["Normal"] = {
 			{

@@ -9,6 +9,7 @@ v6.04.04 (September 11, 2011)
 Added support for Atlas 1.20.1.
 Added Season 10 items.
 Added various Wishlist improvements.
+Added an option to disable mouse-over on item descriptions.
 Fixed a bug that prevented the search from working.
 Many minor fixes, additions and translations.
 
