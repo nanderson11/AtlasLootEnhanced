@@ -114,7 +114,7 @@ local dbDefaults = {
 		},
 	},
 	profile = {
-		defaultWishlist = false,
+		defaultWishlist = true,
 		useCharDB = false,
 		lastWishlistType = "OWN",
 		wishListSelectDropDown = false,
