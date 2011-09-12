@@ -32,17 +32,17 @@ if AL then
 	AL["%d items"] = "%d objets";
 	AL["All"] = "Tous";
 	--AL["Stats"] = true;
-	--AL["Show \"Base Stats list\""] = true;
-	--AL["Show \"Extra Stats list\""] = true;
-	--AL["Base Stats list"] = true;
-	--AL["Extra Stats list"] = true;	
-	AL["Add Stats list"] = "Ajouter une liste de stats";
-	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "Êtes-vous sûr de vouloir supprimer la liste  |cff1eff00%s|r ?";
-	AL["Delete Stats list"] = "Supprimer la liste de stats";
-	AL["Stats color"] = "Couleur des stats";
-	--AL["Stats list name:"] = true;
-	--AL["Select Stats list"] = true;
-	--AL["You cant set more then %d item stats."] = true;
+	AL["Show \"Base Stats list\""] = "Afficher les statistiques de bases";
+	AL["Show \"Extra Stats list\""] = "Afficher les statistiques avancées";
+	AL["Base Stats list"] = "Liste des statistiques de bases";
+	AL["Extra Stats list"] = "Liste des statistiques avancées";
+	AL["Add Stats list"] = "Ajouter une liste de statistiques";
+	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "Êtes-vous sûr de vouloir supprimer la liste |cff1eff00%s|r ?";
+	AL["Delete Stats list"] = "Supprimer la liste de statistiques";
+	AL["Stats color"] = "Couleur des statistiques";
+	AL["Stats list name:"] = "Nom de la liste de statistiques";
+	AL["Select Stats list"] = "Sélectionnez la liste de statistiques";
+	AL["You cant set more then %d item stats."] = "Vous ne pouvez pas définir plus de %d statistiques différentes.";
 	--AL["Slot"] = true;
 
 	-- Stats short
@@ -64,8 +64,8 @@ if AL then
 
 	-- Stats
 	AL["Resilience Rating"] = "Score de résilience";
-	--AL["Base Stats"] = true;
-	--AL["Extra Stats"] = true;
+	AL["Base Stats"] = "Statistiques de bases";
+	AL["Extra Stats"] = "Statistiques avancées";
 
 	-- Loader
 	AL["Load AtlasLoot"] = "Charger AtlasLoot";
@@ -178,7 +178,7 @@ if AL then
 	AL["Table Sort"] = "Tri des tables";
 	AL["Table Sort:"] = "Tri des tables :";
 	AL["Item Sort:"] = "Tri des objets :";
-	--AL["Show own wishlists"] = true; -- à traduire
+	AL["Show own wishlists"] = "Afficher mes listes de souhaits";
 	AL["Show all wishlists"] = "Afficher toutes les listes de souhaits";
 
 	-- Filter
@@ -352,6 +352,7 @@ if AL then
 	--AL["Tier 9 Set"] = true;
 	--AL["Tier 10 Set"] = true;
 	--AL["Tier 11/12 Set"] = true;
+	--AL["Tier 13 Set"] = true;
 	AL["TCG Items"] = "Objets des cartes à jouer"; -- Trading Card Game Items
 	AL["Transformation Items"] = "Objets de transformation";
 
@@ -386,6 +387,7 @@ if AL then
 	--AL["Skettis"] = true,
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
 	AL["Kalu'ak Fishing Derby"] = "Tournoi de pêche kalu'ak";
+	AL["Fishing Contests"] = "Concours de pêche";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcours des Listes d'Objets";
@@ -759,13 +761,13 @@ if AL then
 	AL["Personal Weather Machine"] = "Machine météorologique gobeline";
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Biscuit pour familier à l'ancienne de papa Humme";
 
-	-- Sixth set -- à traduire
+	-- Sixth set
 	AL["Hunt for Illidan"] = "La Traque d'Illidan";
 	--AL["The Footsteps of Illidan"] = true;
 	--AL["Disco Inferno!"] = true;
 	AL["Ethereal Plunderer"] = "Pilleur éthérien";
 
-	-- Seventh set -- à traduire
+	-- Seventh set
 	AL["Drums of War"] = "Tambours de Guerre";
 	--AL["The Red Bearon"] = true;
 	--AL["Owned!"] = true;
@@ -777,19 +779,19 @@ if AL then
 	AL["Center of Attention"] = "Chemise violette épique";
 	AL["Foam Sword Rack"] = "Râtelier d'épées en mousse";
 
-	-- Ninth set -- à traduire
+	-- Ninth set
 	--AL["Fields of Honor"] = true;
 	--AL["Path of Cenarius"] = true;
 	--AL["Pinata"] = true;
 	--AL["El Pollo Grande"] = true;
 
-	-- Tenth set -- à traduire
+	-- Tenth set
 	--AL["Scourgewar"] = true;
 	--AL["Tiny"] = true;
 	--AL["Tuskarr Kite"] = true;
 	--AL["Spectral Kitten"] = true;
 
-	-- Eleventh set -- à traduire
+	-- Eleventh set
 	--AL["Wrathgate"] = true;
 	--AL["Statue Generator"] = true;
 	AL["Landro's Gift"] = "Cadeau de Landro";
@@ -810,7 +812,7 @@ if AL then
 	-- Fourteenth set
 	AL["War of the Elements"] = "Gardien des éléments";
 
-	-- Fifteenth set -- à traduire
+	-- Fifteenth set
 	--AL["Twilight of the Dragons"] = true;
 
 	-- Battleground Brackets
@@ -1034,19 +1036,19 @@ if AL then
 	AL["Time-Lost Proto Drake"] = "Rênes de proto-drake perdu dans le temps";
 	AL["Razzashi Raptor"] = "Raptor Razzashi";
 	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
-	--AL["Servant's Quarter Animal Bosses"] = true; -- à traduire
+	AL["Servant's Quarter Animal Bosses"] = "Quartiers des serviteurs (Boss animal)";
 	AL["Jadefang"] = "Jadecroc";
 	--AL["Aeonaxx"] = true;
 	--AL["Prince Sarsarun"] = true;
 	AL["Dormus the Camel-Hoarder"] = "Dormus le Collectionneur de dromadaires";
 	AL["The Behemoth"] = "Le Béhémoth";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
-	--AL["Zen'Vorka"] = true; -- à traduire
+	--AL["Zen'Vorka"] = true;
 	AL["Ayla Shadowstorm"] = "Ayla Ombretempête";
 	AL["Damek Bloombeard"] = "Damek Barbe-en-Fleur";
 	AL["Varlan Highbough"] = "Varlan Hautebranche";
 	AL["Firestone Vendor"] = "Vendeur des Terres de Feu";
-	--AL["Poseidus"] = true;
+	AL["Poseidus"] = "Poséidus";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
@@ -1057,10 +1059,10 @@ if AL then
 	--AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
-	--AL["Ring of Law"] = true; -- à traduire
+	AL["Ring of Law"] = "Cercle de la loi";
 	AL["Monument of Franclorn Forgewright"] = "Monument de Franclorn Le Forgebusier";
-	--AL["The Grim Guzzler"] = true; -- à traduire
-	--AL["Summoner's Tomb"] = true; -- à traduire
+	AL["The Grim Guzzler"] = "Le Sinistre écluseur";
+	AL["Summoner's Tomb"] = "La tombe des invocateurs";
 	AL["The Secret Safe"] = "Coffre à relique";
 	AL["The Vault"] = "La Chambre forte";
 	AL["Ogre Tannin Basket"] = "Panier Ogre de tannin";
@@ -1111,7 +1113,7 @@ if AL then
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
 	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";
 	AL["Hidden Stash"] = "Fortune cachée";
-	--AL["The Cache of Madness"] = true; -- à traduire
+	AL["The Cache of Madness"] = "L'antre de la Folie";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
