@@ -352,6 +352,7 @@ if AL then
 	-- AL["Tier 9 Set"] = true;
 	-- AL["Tier 10 Set"] = true;
 	-- AL["Tier 11/12 Set"] = true;
+	-- AL["Tier 13 Set"] = true;
 	AL["TCG Items"] = "TCG Gegenstände";
 	AL["Transformation Items"] = "Transformations-Gegenstände";
 
@@ -386,6 +387,7 @@ if AL then
 	-- AL["Skettis"] = true;
 	AL["Stranglethorn Fishing Extravaganza"] = "Anglerwettbewerb im Schlingendorntal";
 	AL["Kalu'ak Fishing Derby"] = "Angelwettstreit der Kalu'ak";
+	AL["Fishing Contests"] = "Angelwettbewerbe";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";

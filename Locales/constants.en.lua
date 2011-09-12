@@ -385,7 +385,7 @@ if AL then
 	AL["Noblegarden"] = true;
 	AL["Pilgrim's Bounty"] = true;
 	AL["Skettis"] = true;
-	AL["Stranglethorn Fishing Extravaganza"] = true
+	AL["Stranglethorn Fishing Extravaganza"] = true;
 	AL["Kalu'ak Fishing Derby"] = true;
 	AL["Fishing Contests"] = true;
 
