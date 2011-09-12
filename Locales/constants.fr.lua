@@ -82,8 +82,8 @@ if AL then
 	AL["Show itemIDs"] = "Afficher les IDs des objets";
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
 	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
-	AL["Comparison TT"] = "Info-bulles comparatives";
-	AL["Show Comparison Tooltips"] = "Afficher les info-bulles comparatives";
+	AL["Comparison TT"] = "Infobulles comparatives";
+	AL["Show Comparison Tooltips"] = "Afficher les infobulles comparatives";
 	--AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = "Fond de liste opaque";
 	AL["Treat Crafted Items:"] = "Traiter les objets fabriqués :";
@@ -133,8 +133,8 @@ if AL then
 	--AL["DKP"] = true;
 	AL["Priority:"] = "Priorité :";
 	AL["Show price and slot if possible"] = "Voir le prix et le slot, si possible";
-	AL["Use GameTooltip"] = "Utilisez l'info-bulle du jeu";
-	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Utilisez l'info-bulle standard du jeu au lieu de celle personnalisée d'AtlasLoot";
+	AL["Use GameTooltip"] = "Utilisez l'infobulle du jeu";
+	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Utilisez l'infobulle standard du jeu au lieu de celle personnalisée d'AtlasLoot";
 	AL["%d / %d ( Bank: %d )"] = "%d / %d ( Banque : %d)";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "Objet indisponible";
@@ -288,11 +288,11 @@ if AL then
 
 	-- Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'Atlasloot";
-	AL["Default Tooltips"] = "Info-bulles par défault";
-	AL["Lootlink Tooltips"] = "Info-bulles de Lootlink";
-	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dInfo-bulles de Lootlink";
-	AL["ItemSync Tooltips"] = "Info-bulles d'ItemSync";
-	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dInfo-bulles d'ItemSync";
+	AL["Default Tooltips"] = "Infobulles par défault";
+	AL["Lootlink Tooltips"] = "Infobulles de Lootlink";
+	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dInfobulles de Lootlink";
+	AL["ItemSync Tooltips"] = "Infobulles d'ItemSync";
+	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dInfobulles d'ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
 	AL["Show itemIDs at all times"] = "Toujours afficher l'ID sur les objets";
@@ -1149,7 +1149,7 @@ if AL then
 
 	-- First time user
 	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = "Bienvenue dans AtlasLoot Enhanced. Veuillez prendre un moment pour définir vos préférences.";
-	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Bienvenue dans AtlasLoot Enhaced. S'il vous plaît, prenez un moment pour définir vos préférences pour les info-bulles et les liens dans la fenêtre de chat.\n\nLes options peuvent être activées à tout moment en tapant '/atlasloot'.";
+	AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences for tooltips and links in the chat window.\n\n  This options screen can be reached again at any later time by typing '/atlasloot'."] = "Bienvenue dans AtlasLoot Enhaced. S'il vous plaît, prenez un moment pour définir vos préférences pour les infobulles et les liens dans la fenêtre de chat.\n\nLes options peuvent être activées à tout moment en tapant '/atlasloot'.";
 	AL["Setup"] = "Installation";
 
 	-- Old Atlas Detected
