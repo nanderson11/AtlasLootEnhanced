@@ -94,6 +94,7 @@ if AL then
 	AL["Profiles"] = "配置文件";
 	AL["Item Buttons"] = "物品按钮";
 	AL["Loot Table"] = "掉落列表";
+	AL["Enable mouse on item descriptions"] = "启用鼠标指向物品属性";
 
 	-- Default Frame
 	AL["Default Frame"] = "默认框体";
@@ -351,6 +352,7 @@ if AL then
 	AL["Tier 9 Set"] = "等级9套装";
 	AL["Tier 10 Set"] = "等级10套装";
 	AL["Tier 11/12 Set"] = "等级11/12套装";
+	AL["Tier 13 Set"] = "等级13套装";
 	AL["TCG Items"] = "Upper Deck 集换卡游戏物品";
 	AL["Transformation Items"] = "变形物品";
 
@@ -385,6 +387,7 @@ if AL then
 	AL["Skettis"] = "斯克提斯";
 	AL["Stranglethorn Fishing Extravaganza"] = "荆棘谷钓鱼大赛";
 	AL["Kalu'ak Fishing Derby"] = "卡亚鲁克钓鱼大赛";
+	AL["Fishing Contests"] = "钓鱼大赛";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00单击|r浏览掉落表格";
@@ -678,6 +681,7 @@ if AL then
 	AL["Achievement & Faction Reward"] = "成就和阵营奖励";
 	AL["Card Game Companions"] = "集换卡奖励小伙伴";
 	AL["Companion Accessories"] = "小伙伴附件";
+	AL["Blizzard Store"] = "暴雪商店";
 	AL["Crafted Companions"] = "制作的小伙伴";
 	AL["Dungeon/Raid"] = "副本/团队";
 	AL["Faction"] = "阵营";
