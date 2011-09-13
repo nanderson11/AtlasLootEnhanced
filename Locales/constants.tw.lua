@@ -681,6 +681,7 @@ if AL then
 	AL["Achievement & Faction Reward"] = "成就/聲望獎勵";
 	AL["Card Game Companions"] = "卡牌遊戲獎勵夥伴";
 	AL["Companion Accessories"] = "夥伴飾品";
+	AL["Blizzard Store"] = "暴雪商城";
 	AL["Crafted Companions"] = "製作的夥伴";
 	AL["Dungeon/Raid"] = "副本/團隊";
 	AL["Faction"] = "陣營";
