@@ -546,6 +546,7 @@ if AL then
 	-- AL["Tier 10"] = true;
 	-- AL["Tier 11"] = true;
 	-- AL["Tier 12"] = true;
+	-- AL["Tier 13"] = true;
 	AL["10 Man"] = "10 Spieler";
 	AL["10/25 Man"] = "10/25 Spieler";
 	AL["Epic Set"] = "Episches Set";
@@ -560,6 +561,7 @@ if AL then
 	AL["Season 8"] = "Saison 8";
 	AL["Season 9"] = "Saison 9";
 	AL["Season 10"] = "Saison 10";
+	AL["Season 11"] = "Saison 11";
 	AL["Fire"] = "Feuer";
 	AL["Water"] = "Wasser";
 	AL["Wind"] = "Wind";
@@ -641,6 +643,8 @@ if AL then
 	AL["Speed"] = "Tempo";
 	AL["Rod"] = "Rute";
 	AL["Oil"] = "Öl";
+	AL["Culture"] = "Volk";
+	AL["Description"] = "Beschreibung";
 	AL["Dwarf"] = "Zwerge";
 	-- AL["Draenei"] = true;
 	AL["Night Elf"] = "Nachtelfen";
