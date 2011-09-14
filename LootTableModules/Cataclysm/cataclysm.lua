@@ -3399,7 +3399,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70558, "", "=q4=Vicious Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 12, 70559, "", "=q4=Vicious Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70561, "", "=q4=Vicious Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60410, "", "=q4=Vicious Gladiator's Dreadplate Helm", "=ds="};
 				{ 18, 60412, "", "=q4=Vicious Gladiator's Dreadplate Shoulders", "=ds="};
 				{ 19, 60408, "", "=q4=Vicious Gladiator's Dreadplate Chestpiece", "=ds="};
@@ -3434,7 +3434,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70674, "", "=q4=Vicious Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2200#"};
 				{ 12, 70671, "", "=q4=Vicious Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70673, "", "=q4=Vicious Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60454, "", "=q4=Vicious Gladiator's Wyrmhide Helm", "=ds="};
 				{ 18, 60457, "", "=q4=Vicious Gladiator's Wyrmhide Spaulders", "=ds="};
 				{ 19, 60456, "", "=q4=Vicious Gladiator's Wyrmhide Robes", "=ds="};
@@ -3469,7 +3469,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70553, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
 				{ 12, 70550, "", "=q4=Vicious Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70552, "", "=q4=Vicious Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60444, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds="};
 				{ 18, 60447, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds="};
 				{ 19, 60446, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds="};
@@ -3504,7 +3504,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70583, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
 				{ 12, 70580, "", "=q4=Vicious Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70582, "", "=q4=Vicious Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60449, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds="};
 				{ 18, 60452, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds="};
 				{ 19, 60451, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds="};
@@ -3539,7 +3539,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70533, "", "=q4=Vicious Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70534, "", "=q4=Vicious Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70536, "", "=q4=Vicious Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60425, "", "=q4=Vicious Gladiator's Chain Helm", "=ds="};
 				{ 18, 60427, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds="};
 				{ 19, 60423, "", "=q4=Vicious Gladiator's Chain Armor", "=ds="};
@@ -3574,7 +3574,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70658, "", "=q4=Vicious Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
 				{ 12, 70657, "", "=q4=Vicious Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
 				{ 13, 70659, "", "=q4=Vicious Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60464, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds="};
 				{ 18, 60467, "", "=q4=Vicious Gladiator's Silk Amice", "=ds="};
 				{ 19, 60466, "", "=q4=Vicious Gladiator's Silk Robe", "=ds="};
@@ -3609,7 +3609,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70648, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 12, 70649, "", "=q4=Vicious Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70651, "", "=q4=Vicious Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60415, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds="};
 				{ 18, 60417, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds="};
 				{ 19, 60413, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds="};
@@ -3644,7 +3644,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70615, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
 				{ 12, 70616, "", "=q4=Vicious Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70618, "", "=q4=Vicious Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds="};
 				{ 18, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds="};
 				{ 19, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds="};
@@ -3679,7 +3679,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70647, "", "=q4=Vicious Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
 				{ 12, 70643, "", "=q4=Vicious Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70645, "", "=q4=Vicious Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60474, "", "=q4=Vicious Gladiator's Satin Hood", "=ds="};
 				{ 18, 60477, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds="};
 				{ 19, 60473, "", "=q4=Vicious Gladiator's Satin Robe", "=ds="};
@@ -3714,7 +3714,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70612, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
 				{ 12, 70608, "", "=q4=Vicious Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70610, "", "=q4=Vicious Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60469, "", "=q4=Vicious Gladiator's Mooncloth Hood", "=ds="};
 				{ 18, 60472, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds="};
 				{ 19, 60471, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds="};
@@ -3749,7 +3749,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70589, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
 				{ 12, 70585, "", "=q4=Vicious Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
 				{ 13, 70587, "", "=q4=Vicious Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60460, "", "=q4=Vicious Gladiator's Leather Helm", "=ds="};
 				{ 18, 60462, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds="};
 				{ 19, 60458, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds="};
@@ -3784,7 +3784,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70597, "", "=q4=Vicious Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70598, "", "=q4=Vicious Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70600, "", "=q4=Vicious Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60440, "", "=q4=Vicious Gladiator's Mail Helm", "=ds="};
 				{ 18, 60442, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds="};
 				{ 19, 60438, "", "=q4=Vicious Gladiator's Mail Armor", "=ds="};
@@ -3819,7 +3819,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70590, "", "=q4=Vicious Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70591, "", "=q4=Vicious Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70593, "", "=q4=Vicious Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60435, "", "=q4=Vicious Gladiator's Linked Helm", "=ds="};
 				{ 18, 60437, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds="};
 				{ 19, 60433, "", "=q4=Vicious Gladiator's Linked Armor", "=ds="};
@@ -3854,7 +3854,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70632, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
 				{ 12, 70633, "", "=q4=Vicious Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70635, "", "=q4=Vicious Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60430, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds="};
 				{ 18, 60432, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds="};
 				{ 19, 60428, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds="};
@@ -3889,7 +3889,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70569, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
 				{ 12, 70568, "", "=q4=Vicious Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
 				{ 13, 70570, "", "=q4=Vicious Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60479, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds="};
 				{ 18, 60482, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds="};
 				{ 19, 60481, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds="};
@@ -3924,7 +3924,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 70623, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 12, 70624, "", "=q4=Vicious Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 13, 70626, "", "=q4=Vicious Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
-				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..BabbleBoss["Argaloth"]};
+				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
 				{ 17, 60420, "", "=q4=Vicious Gladiator's Plate Helm", "=ds="};
 				{ 18, 60422, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds="};
 				{ 19, 60418, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds="};
@@ -5027,10 +5027,79 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "T1112SET",
 		};
 	}
---[[
+
 		--------------------------
 		--- Tier 13 Sets (T13) ---
 		--------------------------
+
+	AtlasLoot_Data["T13DruidRestoration"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Deep Earth Hood", "=ds=#s1#, #a2#"};
+				{ 3, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
+				{ 4, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Deep Earth Hood", "=ds=#s1#, #a2#"};
+				{ 10, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
+				{ 11, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
+				{ 12, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
+				{ 13, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13DruidFeral"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
+				{ 3, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
+				{ 4, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
+				{ 10, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
+				{ 11, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
+				{ 12, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
+				{ 13, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13DruidBalance"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
+				{ 3, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
+				{ 4, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
+				{ 10, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
+				{ 11, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
+				{ 12, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
+				{ 13, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
 
 	AtlasLoot_Data["T13Warlock"] = {
 		["Normal"] = {
@@ -5099,7 +5168,7 @@ local moduleName = "AtlasLootCataclysm"
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
 			module = moduleName, menu = "T13SET",
 		};
-	}]]--
+	}
 
 		-------------------
 		--- Legendaries ---
@@ -5148,7 +5217,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 31774, "", "=q1=Kurenai Tabard", "=ds=#s7#"};
 				{ 9, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
 				{ 10, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
-				{ 11, 65908, "", "=q1=Tabard of the Wildhammer Clan", "=ds=#s7#"};
 				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["PvP Tabards"], ""};
 				{ 17, 15196, "", "=q1=Private's Tabard", "=ds=#s7#"};
 				{ 18, 15198, "", "=q1=Knight's Colors", "=ds=#s7#"};
@@ -5173,10 +5241,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
 				{ 6, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#"};
 				{ 7, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#"};
-				{ 8, 65909, "", "=q1=Tabard of the Dragonmaw Clan", "=ds=#s7#"};
-				{ 9, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#"};
-				{ 10, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
-				{ 11, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
+				{ 8, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#"};
+				{ 9, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
+				{ 10, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
 				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["PvP Tabards"], ""};
 				{ 17, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#"};
 				{ 18, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#"};
@@ -5187,37 +5254,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Horde Tabards"],
-			module = moduleName, menu = "TABARDMENU",
-		};
-	}
-
-	AtlasLoot_Data["TabardsNeutralFaction"] = {
-		["Normal"] = {
-			{
-				{ 1, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
-				{ 2, 31779, "", "=q1=Aldor Tabard", "=ds=#s7#"};
-				{ 3, 31804, "", "=q1=Cenarion Expedition Tabard", "=ds=#s7#"};
-				{ 4, 31776, "", "=q1=Consortium Tabard", "=ds=#s7#"};
-				{ 5, 31777, "", "=q1=Keepers of Time Tabard", "=ds=#s7#"};
-				{ 6, 31778, "", "=q1=Lower City Tabard", "=ds=#s7#"};
-				{ 7, 32828, "", "=q1=Ogri'la Tabard", "=ds=#s7#"};
-				{ 8, 31781, "", "=q1=Sha'tar Tabard", "=ds=#s7#"};
-				{ 9, 31775, "", "=q1=Sporeggar Tabard", "=ds=#s7#"};
-				{ 10, 31780, "", "=q1=Scryers Tabard", "=ds=#s7#"};
-				{ 11, 32445, "", "=q1=Skyguard Tabard", "=ds=#s7#"};
-				{ 12, 65904, "", "=q1=Tabard of Ramkahen", "=ds=#s7#"};
-				{ 13, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
-				{ 14, 65905, "", "=q1=Tabard of the Earthen Ring", "=ds=#s7#"};
-				{ 15, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
-				{ 16, 65906, "", "=q1=Tabard of the Guardians of Hyjal", "=ds=#s7#"};
-				{ 17, 43157, "", "=q1=Tabard of the Kirin Tor", "=ds=#s7#"};
-				{ 18, 35221, "", "=q1=Tabard of the Shattered Sun", "=ds=#s7#"};
-				{ 19, 43156, "", "=q1=Tabard of the Wyrmrest Accord", "=ds=#s7#"};
-				{ 20, 65907, "", "=q1=Tabard of Therazane", "=ds=#s7#"};
-			};
-		};
-		info = {
-			name = AL["Neutral Faction Tabards"],
 			module = moduleName, menu = "TABARDMENU",
 		};
 	}
@@ -5291,88 +5327,90 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["CardGame"] = {
 		["Normal"] = {
 			{
---[[			{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
 				{ 2, 0, "", "=q4=Wasteland Tallstrider", "=ds=#e26#" },
 				{ 3, 0, "", "=q3=Throwing Starfish", "=ds=" },
-				{ 4, 0, "", "=q1=Bloat the Bubble Fish", "=ds=#e13#" },--]] -- next TCG set (octobre)
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
-				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
-				{ 3, 69227, "", "=q3=Fool's Gold", "=ds=" },
-				{ 4, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
-				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
-				{ 8, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
-				{ 9, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
-				{ 12, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
-				{ 13, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
-				{ 14, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
-				{ 17, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
-				{ 18, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
-				{ 19, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
-				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
-				{ 22, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
-				{ 23, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
-				{ 24, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
-				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
-				{ 27, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
-				{ 28, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
-				{ 29, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
-				{ 30, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
+				{ 4, 0, "", "=q1=Bloat the Bubble Fish", "=ds=#e13#" },
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
+				{ 7, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
+				{ 8, 69227, "", "=q3=Fool's Gold", "=ds=" },
+				{ 9, 68841, "", "=q1=Nightsaber Cub", "=ds=#e13#" },
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
+				{ 12, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 13, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
+				{ 14, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
+				{ 17, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
+				{ 18, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
+				{ 19, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
+				{ 22, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
+				{ 23, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
+				{ 24, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
+				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
+				{ 27, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
+				{ 28, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
+				{ 29, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
-				{ 2, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
-				{ 3, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
-				{ 4, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
-				{ 7, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
-				{ 8, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
-				{ 9, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
-				{ 12, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
-				{ 13, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
-				{ 14, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
-				{ 17, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
-				{ 18, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
-				{ 19, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
-				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
-				{ 22, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
-				{ 23, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
-				{ 24, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
-				{ 25, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
-				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
-				{ 28, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
-				{ 29, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
-				{ 30, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
+				{ 2, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
+				{ 3, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
+				{ 4, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
+				{ 5, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
+				{ 7, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
+				{ 8, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
+				{ 9, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
+				{ 10, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
+				{ 12, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
+				{ 13, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
+				{ 14, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
+				{ 15, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
+				{ 17, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
+				{ 18, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
+				{ 19, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
+				{ 22, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
+				{ 23, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
+				{ 24, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
+				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 27, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
+				{ 28, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 29, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 30, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fires of Outland"]};
-				{ 2, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
-				{ 3, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
-				{ 4, 33223, "", "=q3=Fishing Chair", "=ds="..AL["Gone Fishin'"]};
-				{ 5, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds="..AL["Goblin Gumbo"]};
-				{ 7, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Through The Dark Portal"]};
-				{ 8, 32588, "", "=q3=Banana Charm", "=ds="..AL["King Mukla"]};
-				{ 9, 32566, "", "=q3=Picnic Basket", "=ds="..AL["Rest and Relaxation"]};
-				{ 10, 32542, "", "=q3=Imp in a Ball", "=ds="..AL["Fortune Telling"]};
-				{ 12, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Heroes of Azeroth"]};
-				{ 13, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
-				{ 14, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
-				{ 15, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
-				{ 16, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
-				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
-				{ 18, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
-				{ 19, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
-				{ 20, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
-				{ 21, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
-				{ 22, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
-				{ 23, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
-				{ 24, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#"};
-				{ 25, 49704, "", "=q4=Carved Ogre Idol", "=ds="};
-				{ 26, 49703, "", "=q4=Perpetual Purple Firework", "=ds="};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
+				{ 2, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
+				{ 3, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
+				{ 4, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fires of Outland"]};
+				{ 7, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
+				{ 8, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
+				{ 9, 33223, "", "=q3=Fishing Chair", "=ds="..AL["Gone Fishin'"]};
+				{ 10, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds="..AL["Goblin Gumbo"]};
+				{ 12, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Through The Dark Portal"]};
+				{ 13, 32588, "", "=q3=Banana Charm", "=ds="..AL["King Mukla"]};
+				{ 14, 32566, "", "=q3=Picnic Basket", "=ds="..AL["Rest and Relaxation"]};
+				{ 15, 32542, "", "=q3=Imp in a Ball", "=ds="..AL["Fortune Telling"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Heroes of Azeroth"]};
+				{ 17, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
+				{ 18, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
+				{ 19, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
+				{ 2, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
+				{ 3, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
+				{ 4, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
+				{ 5, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
+				{ 6, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
+				{ 17, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
+				{ 18, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
+				{ 19, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#"};
+				{ 20, 49704, "", "=q4=Carved Ogre Idol", "=ds="};
+				{ 21, 49703, "", "=q4=Perpetual Purple Firework", "=ds="};
 			};
 		};
 		info = {

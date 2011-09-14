@@ -1088,37 +1088,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 		};
 	};
 
-	AtlasLoot_Data["HighCouncil"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Skaldrenox"], "=q1=#j19#"};
-				{ 2, 20682, "", "=q4=Elemental Focus Band", "=ds=#s13#", "", "22.83%"};
-				{ 3, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 4, 20681, "", "=q3=Abyssal Leather Bracers", "=ds=#s8#, #a2#", "", "24.70%"};
-				{ 5, 20680, "", "=q3=Abyssal Mail Pauldrons", "=ds=#s3#, #a3#", "", "24.21%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Skwol"], "=q1=#j20#"};
-				{ 8, 20685, "", "=q4=Wavefront Necklace", "=ds=#s2#", "", "24.48%"};
-				{ 9, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 10, 20684, "", "=q3=Abyssal Mail Armguards", "=ds=#s8#, #a3#", "", "27.68%"};
-				{ 11, 20683, "", "=q3=Abyssal Plate Epaulets", "=ds=#s3#, #a4#", "", "21.52%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["High Marshal Whirlaxis"], "=q1=#j21#"};
-				{ 17, 20691, "", "=q4=Windshear Cape", "=ds=#s4#", "", "22.08%"};
-				{ 18, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 19, 20690, "", "=q3=Abyssal Cloth Wristbands", "=ds=#s8#, #a1#", "", "23.60%"};
-				{ 20, 20689, "", "=q3=Abyssal Leather Shoulders", "=ds=#s3#, #a3#", "", "23.40%"};
-				{ 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Baron Kazum"], "=q1=#j22#"};
-				{ 23, 20688, "", "=q4=Earthen Guard", "=ds=#w8#", "", "20.64%"};
-				{ 24, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
-				{ 25, 20686, "", "=q3=Abyssal Cloth Amice", "=ds=#s3#, #a1#", "", "23.96%"};
-				{ 26, 20687, "", "=q3=Abyssal Plate Vambraces", "=ds=#s8#, #a4#", "", "23.66%"};
-			};
-		};
-		info = {
-			name = AL["Abyssal Council"].." - "..AL["High Council"],
-			module = moduleName, menu = "ABYSSALMENU"
-		};
-	};
-
 		-----------------------
 		--- Ethereum Prison ---
 		-----------------------

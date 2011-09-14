@@ -714,7 +714,6 @@ if AL then
 	AL["Alliance Tabards"] = "Allianz Wappenröcke";
 	AL["Card Game Tabards"] = "Kartenspiel Wappenröcke";
 	AL["Horde Tabards"] = "Horde Wappenröcke";
-	AL["Neutral Faction Tabards"] = "Fraktionsneutrale Wappenröcke";
 	AL["PvP Tabards"] = "PvP Wappenröcke";
 	AL["Unobtainable Tabards"] = "Nicht mehr erhältlich";
 

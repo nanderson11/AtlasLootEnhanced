@@ -1,4 +1,5 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
@@ -117,9 +118,28 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["ABYSSALMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "Templars", "INV_Jewelry_Talisman_05", "=ds="..AL["Abyssal Council"].." - "..AL["Templars"], ""};
-				{ 3, "HighCouncil", "INV_Staff_13", "=ds="..AL["Abyssal Council"].." - "..AL["High Council"], ""};
-				{ 17, "Dukes", "INV_Jewelry_Ring_36", "=ds="..AL["Abyssal Council"].." - "..AL["Dukes"], ""};
+				{ 1, "Templars", "INV_Jewelry_Talisman_05", "=ds="..AL["Abyssal Council"].." - "..AL["Templars"], ""};
+				{ 3, 0, "INV_Box_01", "=q6="..BabbleBoss["Prince Skaldrenox"], "=q1=#j19#"};
+				{ 4, 20682, "", "=q4=Elemental Focus Band", "=ds=#s13#", "", "22.83%"};
+				{ 5, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
+				{ 6, 20681, "", "=q3=Abyssal Leather Bracers", "=ds=#s8#, #a2#", "", "24.70%"};
+				{ 7, 20680, "", "=q3=Abyssal Mail Pauldrons", "=ds=#s3#, #a3#", "", "24.21%"};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Skwol"], "=q1=#j20#"};
+				{ 10, 20685, "", "=q4=Wavefront Necklace", "=ds=#s2#", "", "24.48%"};
+				{ 11, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
+				{ 12, 20684, "", "=q3=Abyssal Mail Armguards", "=ds=#s8#, #a3#", "", "27.68%"};
+				{ 13, 20683, "", "=q3=Abyssal Plate Epaulets", "=ds=#s3#, #a4#", "", "21.52%"};
+				{ 14, 20687, "", "=q3=Abyssal Plate Vambraces", "=ds=#s8#, #a4#", "", "23.66%"};
+				{ 16, "Dukes", "INV_Jewelry_Ring_36", "=ds="..AL["Abyssal Council"].." - "..AL["Dukes"], ""};
+				{ 18, 0, "INV_Box_01", "=q6="..BabbleBoss["High Marshal Whirlaxis"], "=q1=#j21#"};
+				{ 19, 20691, "", "=q4=Windshear Cape", "=ds=#s4#", "", "22.08%"};
+				{ 20, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
+				{ 21, 20690, "", "=q3=Abyssal Cloth Wristbands", "=ds=#s8#, #a1#", "", "23.60%"};
+				{ 22, 20689, "", "=q3=Abyssal Leather Shoulders", "=ds=#s3#, #a3#", "", "23.40%"};
+				{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Baron Kazum"], "=q1=#j22#"};
+				{ 25, 20688, "", "=q4=Earthen Guard", "=ds=#w8#", "", "20.64%"};
+				{ 26, 20515, "", "=q4=Abyssal Scepter", "=ds=#m3#", "", "100%"};
+				{ 27, 20686, "", "=q3=Abyssal Cloth Amice", "=ds=#s3#, #a1#", "", "23.96%"};
 			};
 		};
 		info = {

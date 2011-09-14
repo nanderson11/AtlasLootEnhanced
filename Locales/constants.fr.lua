@@ -714,7 +714,6 @@ if AL then
 	AL["Alliance Tabards"] = "Tabards de l'Alliance";
 	AL["Card Game Tabards"] = "Tabards du jeu de cartes";
 	AL["Horde Tabards"] = "Tabards de la Horde";
-	AL["Neutral Faction Tabards"] = "Tabards de factions neutres";
 	AL["PvP Tabards"] = "Tabards JcJ";
 	AL["Unobtainable Tabards"] = "Tabards imposssibles à obtenir";
 

@@ -714,7 +714,6 @@ if AL then
 	AL["Alliance Tabards"] = "聯盟外袍";
 	AL["Card Game Tabards"] = "卡牌遊戲獎勵外袍";
 	AL["Horde Tabards"] = "部落外袍";
-	AL["Neutral Faction Tabards"] = "中立陣營外袍";
 	AL["PvP Tabards"] = "PvP 外袍";
 	AL["Unobtainable Tabards"] = "無法取得的外袍";
 

@@ -590,9 +590,9 @@ AtlasLoot_TextParsing = {
 	{ "#t12s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },
 
 	-- Tier 13 Sets
-	{ "#t13s1_1#", BabbleItemSet["Obsidian Arborweave Vestments"] },
-	{ "#t13s1_2#", BabbleItemSet["Obsidian Arborweave Battlegarb"] },
-	{ "#t13s1_3#", BabbleItemSet["Obsidian Arborweave Regalia"] },
+	{ "#t13s1_1#", "Deep Earth Vestments" },--done
+	{ "#t13s1_2#", "Deep Earth Battlegarb" },--done
+	{ "#t13s1_3#", "Deep Earth Regalia" },--done
 	{ "#t13s2#", BabbleItemSet["Flamewaker's Battlegear"] },
 	{ "#t13s3#", BabbleItemSet["Firehawk Robes of Conflagration"] },
 	{ "#t13s4_1#", BabbleItemSet["Regalia of Immolation"] },

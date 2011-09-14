@@ -546,6 +546,7 @@ if AL then
 	AL["Tier 10"] = true;
 	AL["Tier 11"] = true;
 	AL["Tier 12"] = true;
+	AL["Tier 13"] = true;
 	AL["10 Man"] = true;
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;
@@ -560,6 +561,7 @@ if AL then
 	AL["Season 8"] = true;
 	AL["Season 9"] = true;
 	AL["Season 10"] = true;
+	AL["Season 11"] = true;
 	AL["Fire"] = true;
 	AL["Water"] = true;
 	AL["Wind"] = true;
@@ -641,6 +643,8 @@ if AL then
 	AL["Speed"] = true;
 	AL["Rod"] = true; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
 	AL["Oil"] = true; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
+	AL["Culture"] = true;
+	AL["Description"] = true;
 	AL["Dwarf"] = true;
 	AL["Draenei"] = true;
 	AL["Night Elf"] = true;
@@ -714,7 +718,6 @@ if AL then
 	AL["Alliance Tabards"] = true;
 	AL["Card Game Tabards"] = true;
 	AL["Horde Tabards"] = true;
-	AL["Neutral Faction Tabards"] = true;
 	AL["PvP Tabards"] = true;
 	AL["Unobtainable Tabards"] = true;
 

@@ -600,7 +600,6 @@ if AL then
 	AL["Alliance Tabards"] = true;
 	AL["Card Game Tabards"] = true;
 	AL["Horde Tabards"] = true;
-	AL["Neutral Faction Tabards"] = true;
 	AL["PvP Tabards"] = true;
 	AL["Unobtainable Tabards"] = true;
 

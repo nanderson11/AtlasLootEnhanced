@@ -650,7 +650,6 @@ if AL then
 	AL["Alliance Tabards"] = "Накидки альянса";
 	AL["Card Game Tabards"] = "Накидки с игровых карт";
 	AL["Horde Tabards"] = "Накидки орды";
-	AL["Neutral Faction Tabards"] = "Накидки нейтральных фракций";
 	AL["PvP Tabards"] = "PvP накидки";
 	AL["Unobtainable Tabards"] = "Недоступные накидки";
 
