@@ -546,10 +546,11 @@ if AL then
 	--AL["Tier 10"] = true;
 	--AL["Tier 11"] = true;
 	--AL["Tier 12"] = true;
+	--AL["Tier 13"] = true;
 	AL["10 Man"] = "10 Joueurs";
 	AL["10/25 Man"] = "10 / 25 Joueurs";
 	AL["Epic Set"] = "Set épique";
-	AL["Rare Set"] = "Set supérieur";
+	AL["Rare Set"] = "Set rare";
 	AL["Season 1"] = "Saison 1";
 	AL["Season 2"] = "Saison 2";
 	AL["Season 3"] = "Saison 3";
@@ -560,6 +561,7 @@ if AL then
 	AL["Season 8"] = "Saison 8";
 	AL["Season 9"] = "Saison 9";
 	AL["Season 10"] = "Saison 10";
+	AL["Season 11"] = "Saison 11";
 	AL["Fire"] = "Feu";
 	AL["Water"] = "Eau";
 	AL["Wind"] = "Vent";
@@ -641,6 +643,8 @@ if AL then
 	AL["Speed"] = "Vitesse";
 	AL["Rod"] = "Bâtonnet"; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
 	AL["Oil"] = "Huile";-- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
+	--AL["Culture"] = true;
+	--AL["Description"] = true;
 	AL["Dwarf"] = "Nain";
 	AL["Draenei"] = "Draeneï";
 	AL["Night Elf"] = "Elfe de la nuit";
@@ -657,9 +661,9 @@ if AL then
 	--AL["Proc"] = true;
 
 	-- Extra Text in Boss lists
-	AL["AQ20 Class Sets"] = "Sets de Classe AQ20";
+	AL["AQ20 Class Sets"] = "Sets de classe AQ20";
 	AL["AQ Enchants"] = "Enchantements AQ";
-	AL["AQ40 Class Sets"] = "Sets de Classe AQ40";
+	AL["AQ40 Class Sets"] = "Sets de classe AQ40";
 	AL["AQ Opening Quest Chain"] = "Quêtes d'ouverture d'AQ";
 	AL["Tribute Run"] = "Tribut du Roi";
 	AL["Dire Maul Books"] = "Livres de Hache Tripes";
