@@ -135,7 +135,7 @@ if AL then
 	AL["Show price and slot if possible"] = "显示可用价格与部位";
 	AL["Use GameTooltip"] = "使用游戏内提示";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用标准游戏内提示而不使用 AtlasLoot 提示";
-	AL["%d / %d ( Bank: %d )"] = "%d / %d ( 银行: %d )";
+	AL["%d / %d ( Bank: %d )"] = "%d / %d ( 银行：%d )";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "物品不可用";
 	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070dd物品 ID：%d |r\n此物品不安全。如想不掉线的情况下查看此物品，需要在游戏中见过此物品。\n\n可以尝试右击向服务器查询。可能会断开连接。";
@@ -497,8 +497,8 @@ if AL then
 
 	-- Tailoring
 	AL["Cloth Armor"] = "布甲";
-	AL["Shirts"] = "衬衫";
-	AL["Bags"] = "包";
+	AL["Shirts"] = "衬衣";
+	AL["Bags"] = "容器";
 	AL["Cataclysm Vendor Sold Patterns"] = "大地的裂变商人出售图样";
 
 	-- Labels for loot descriptions
@@ -546,6 +546,7 @@ if AL then
 	AL["Tier 10"] = "等级10";
 	AL["Tier 11"] = "等级11";
 	AL["Tier 12"] = "等级12";
+	AL["Tier 13"] = "等级13";
 	AL["10 Man"] = "10人";
 	AL["10/25 Man"] = "10/25人";
 	AL["Epic Set"] = "史诗套装";
@@ -560,6 +561,7 @@ if AL then
 	AL["Season 8"] = "第8季";
 	AL["Season 9"] = "第9季";
 	AL["Season 10"] = "第10季";
+	AL["Season 11"] = "第11季";
 	AL["Fire"] = "火";
 	AL["Water"] = "水";
 	AL["Wind"] = "风";
@@ -641,6 +643,8 @@ if AL then
 	AL["Speed"] = "速度";
 	AL["Rod"] = "附魔棒";
 	AL["Oil"] = "附魔油";
+	AL["Culture"] = "文化";
+	AL["Description"] = "描述";
 	AL["Dwarf"] = "矮人";
 	AL["Draenei"] = "德莱尼";
 	AL["Night Elf"] = "暗夜精灵";

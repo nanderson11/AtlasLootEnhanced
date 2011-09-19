@@ -99,7 +99,7 @@ if AL then
 	-- Default Frame
 	AL["Default Frame"] = "預設框架";
 	AL["Scale:"] = "大小：";
-	AL["Alpha:"] = "透明度";
+	AL["Alpha:"] = "透明度：";
 	AL["Only change alpha on leave frame"] = "只改變離開框架的透明度";
 
 	-- Bindings
@@ -128,7 +128,7 @@ if AL then
 
 	-- LootButtons
 	-- Tooltips
-	AL["ItemID:"] = "物品 ID:";
+	AL["ItemID:"] = "物品 ID：";
 	AL["Drop Rate: "] = "掉落機率：";
 	AL["DKP"] = "DKP";
 	AL["Priority:"] = "優先權：";
@@ -546,6 +546,7 @@ if AL then
 	AL["Tier 10"] = "T10";
 	AL["Tier 11"] = "T11";
 	AL["Tier 12"] = "T12";
+	AL["Tier 13"] = "T13";
 	AL["10 Man"] = "10 人";
 	AL["10/25 Man"] = "10/25 人";
 	AL["Epic Set"] = "PvP 史詩套裝";
@@ -560,6 +561,7 @@ if AL then
 	AL["Season 8"] = "第八季";
 	AL["Season 9"] = "第九季";
 	AL["Season 10"] = "第十季";
+	AL["Season 11"] = "第十一季";
 	AL["Fire"] = "赤紅";
 	AL["Water"] = "碧藍";
 	AL["Wind"] = "蒼白";
@@ -590,7 +592,7 @@ if AL then
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Rare"] = "稀有";
-	AL["Specializations"] = "專業"; -- needs review
+	AL["Specializations"] = "特殊";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";
@@ -641,6 +643,8 @@ if AL then
 	AL["Speed"] = "速度";
 	AL["Rod"] = "棒類/杖類"; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
 	AL["Oil"] = "油類"; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
+	AL["Culture"] = "文化";
+	AL["Description"] = "描述";
 	AL["Dwarf"] = "矮人";
 	AL["Draenei"] = "德萊尼";
 	AL["Night Elf"] = "夜精靈";
