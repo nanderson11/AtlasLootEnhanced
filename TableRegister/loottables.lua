@@ -159,6 +159,27 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm", EncounterJournalID = 76 },
 		},
 
+		["Endtime"] = {
+			["Bosses"] = {
+				{ "EndtimeTrash" },
+			},
+			["Info"] = { "Endtime", "AtlasLootCataclysm" },
+		},
+
+		["WellofEternity"] = {
+			["Bosses"] = {
+				{ "WoETrash" },
+			},
+			["Info"] = { "Well of Eternity", "AtlasLootCataclysm" },
+		},
+
+		["HourofTwilight"] = {
+			["Bosses"] = {
+				{ "HoTTrash" },
+			},
+			["Info"] = { "Hour of Twilight", "AtlasLootCataclysm" },
+		},
+
 	---- Raids
 
 		["TheBastionOfTwilight"] = {
@@ -256,7 +277,7 @@ AtlasLoot_LootTableRegister = {
 				{ "CoTStratholmeMeathook", 5 },
 				{ "CoTStratholmeSalramm", 6 },
 				{ "CoTStratholmeEpoch", 7 },
-				{ "CoTStratholmeInfiniteCorruptor", 8 },
+				{ "CoTStratholmeTrash", 8, hide = true },
 				{ "CoTStratholmeMalGanis", 10 },
 				{ "CoTStratholmeTrash", 14 },
 			},
@@ -1650,7 +1671,6 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "TabardsAlliance" },
 				{ "TabardsHorde" },
-				{ "TabardsNeutralFaction" },
 				{ "TabardsAchievementQuestRareMisc" },
 				{ "TabardsRemoved" },
 			},
@@ -1659,14 +1679,6 @@ AtlasLoot_LootTableRegister = {
 	},
 
 	["PVP"] = {
-		["PvP70Accessories"] = {
-			["Bosses"] = {
-				{ "PvP70Accessories" },
-				{ "PvP70Accessories2" },
-			},
-			["Info"] = { AL["PvP Accessories"].." "..AL["Level 70"], "AtlasLootBurningCrusade"},
-		},
-
 		["AlteracValley"] = {
 			["Bosses"] = {
 				{ "AVMisc" },

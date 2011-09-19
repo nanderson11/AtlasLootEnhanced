@@ -1165,18 +1165,6 @@ local moduleName = "AtlasLootWotLK"
 		};
 	};
 
-	AtlasLoot_Data["CoTStratholmeInfiniteCorruptor"] = {
-		["Heroic"] = {
-			{
-				{ 1, 43951, "", "=q4=Reins of the Bronze Drake", "=ds=#e27#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Infinite Corruptor"],
-			module = moduleName, instance = "CoTOldStratholme",
-		};
-	};
-
 	AtlasLoot_Data["CoTStratholmeMalGanis"] = {
 		["Normal"] = {
 			{
@@ -1214,6 +1202,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 1, 37117, "", "=q3=King's Square Bracers", "=ds=#s8#, #a2#", "", "1%"};
 				{ 2, 37116, "", "=q3=Epaulets of Market Row", "=ds=#s3#, #a3#", "", "1%"};
 				{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#", "", "1%"};
+				{ 16, 0, "inv_box_04", "=q6="..BabbleBoss["Infinite Corruptor"], "#ACHIEVEMENTID:1817#"};
+				{ 17, 43951, "", "=q4=Reins of the Bronze Drake", "=ds=#e27#", "", "100%"};
 			}
 		};	
 		info = {

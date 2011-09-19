@@ -508,7 +508,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 32242, "", "=q4=Boots of Oceanic Fury", "=ds=#s12#, #a3#", "", "6%"};
 				{ 7, 32232, "", "=q4=Eternium Shell Bracers", "=ds=#s8#, #a4#", "", "16%"};
 				{ 8, 32243, "", "=q4=Pearl Inlaid Boots", "=ds=#s12#, #a4#", "", "10%"};
-				{ 9, 32245, "", "=q4=Tide-stomper's Greaves", "=ds=#s12#, #a4#", "", "7%"};
+				{ 9, 32245, "", "=q4=Tide-Stomper's Greaves", "=ds=#s12#, #a4#", "", "7%"};
 				{ 16, 32238, "", "=q4=Ring of Calming Waves", "=ds=#s13#", "", "16%"};
 				{ 17, 32247, "", "=q4=Ring of Captured Storms", "=ds=#s13#", "", "16%"};
 				{ 19, 32237, "", "=q4=The Maelstrom's Fury", "=ds=#h3#, #w4#", "", "15%"};
@@ -3192,7 +3192,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 29984, "", "=q4=Girdle of Zaetar", "=ds=#s10#, #a2#", "", "13%"};
 				{ 3, 29985, "", "=q4=Void Reaver Greaves", "=ds=#s11#, #a3#", "", "14%"};
 				{ 4, 29983, "", "=q4=Fel-Steel Warhelm", "=ds=#s1#, #a4#", "", "12%"};
-				{ 5, 32515, "", "=q4=Wristgaurds of Determination", "=ds=#s8#, #a4#", "", "13%"};
+				{ 5, 32515, "", "=q4=Wristguards of Determination", "=ds=#s8#, #a4#", "", "13%"};
 				{ 6, 30619, "", "=q4=Fel Reaver's Piston", "=ds=#s14#", "", "13%"};
 				{ 7, 30450, "", "=q4=Warp-Spring Coil", "=ds=#s14#, =q1=#m1# =ds=#c6#", "", "12%"};
 				{ 16, 30248, "", "=q4=Pauldrons of the Vanquished Champion", "=ds=#m22# #e15#", "", "61%"};
@@ -3220,7 +3220,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 16, 30446, "", "=q4=Solarian's Sapphire", "=ds=#s14#, =q1=#m1# =ds=#c9#", "", "21%"};
 				{ 17, 30449, "", "=q4=Void Star Talisman", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "22%"};
 				{ 18, 29962, "", "=q4=Heartrazor", "=ds=#h1#, #w4#", "", "23%"};
-				{ 19, 29981, "", "=q4=Etherium Life-Staff", "=ds=#w9#", "", "21%"};
+				{ 19, 29981, "", "=q4=Ethereum Life-Staff", "=ds=#w9#", "", "21%"};
 				{ 20, 29982, "", "=q4=Wand of the Forgotten Star", "=ds=#w12#", "", "18%"};
 			};
 		};
@@ -3251,7 +3251,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 20, 32458, "", "=q4=Ashes of Al'ar", "=ds=#e27#", "", "2%"};
 				{ 22, 32405, "", "=q4=Verdant Sphere", "=ds=#m2#", "", "100%"};
 				{ 23, 30018, "", "=q4=Lord Sanguinar's Claim", "=q1=#m4#: =ds=#s2#"};
-				{ 24, 30017, "", "=q4=Telonicus's Pendant of Mayhem", "=q1=#m4#: =ds=#s2#"};
+				{ 24, 30017, "", "=q4=Telonicus' Pendant of Mayhem", "=q1=#m4#: =ds=#s2#"};
 				{ 25, 30007, "", "=q4=The Darkener's Grasp", "=q1=#m4#: =ds=#s2#"};
 				{ 26, 30015, "", "=q4=The Sun King's Talisman", "=q1=#m4#: =ds=#s2#"};
 				{ 28, 29905, "", "=q1=Kael's Vial Remnant", "=ds=#m3#", "", "37%"};
@@ -3756,15 +3756,14 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Mushroom_10", "=q6=#r2#", ""};
-				{ 2, 27689, "", "=q1=Recipe: Sporeling Snack", "=ds=#p3# (310)", "2 #glowcap#", ""};
-				{ 3, 30156, "", "=q1=Recipe: Clam Bar", "=ds=#p3# (300)", "1 #glowcap#", ""};
-				{ 4, 25548, "", "=q1=Tallstalk Mushroom", "=ds=#e3#", "1 #glowcap#", ""};
-				{ 5, 24539, "", "=q1=Marsh Lichen", "=ds=#e3#", "2 #glowcap#", ""};
-				{ 7, 0, "INV_Mushroom_10", "=q6=#r3#", ""};
-				{ 8, 25827, "", "=q3=Muck-Covered Drape", "=ds=#s4#", "25 #glowcap#", ""};
-				{ 9, 25828, "", "=q3=Petrified Lichen Guard", "=ds=#w8#", "15 #glowcap#", ""};
-				{ 10, 25550, "", "=q1=Redcap Toadstool", "=ds=#e3#", "1 #glowcap#", ""};
-				{ 12, 24245, "", "=q1=Glowcap", "=ds=#m17#", "", ""};
+				{ 2, 30156, "", "=q1=Recipe: Clam Bar", "=ds=#p3# (300)", "1 #glowcap#", ""};
+				{ 3, 25548, "", "=q1=Tallstalk Mushroom", "=ds=#e3#", "1 #glowcap#", ""};
+				{ 4, 24539, "", "=q1=Marsh Lichen", "=ds=#e3#", "2 #glowcap#", ""};
+				{ 6, 0, "INV_Mushroom_10", "=q6=#r3#", ""};
+				{ 7, 25827, "", "=q3=Muck-Covered Drape", "=ds=#s4#", "25 #glowcap#", ""};
+				{ 8, 25828, "", "=q3=Petrified Lichen Guard", "=ds=#w8#", "15 #glowcap#", ""};
+				{ 9, 25550, "", "=q1=Redcap Toadstool", "=ds=#e3#", "1 #glowcap#", ""};
+				{ 11, 24245, "", "=q1=Glowcap", "=ds=#m17#", "", ""};
 				{ 16, 0, "INV_Mushroom_10", "=q6=#r4#", ""};
 				{ 17, 29150, "", "=q3=Hardened Stone Shard", "=ds=#h1#, #w4#", "45 #glowcap#", ""};
 				{ 18, 29149, "", "=q3=Sporeling's Firestick", "=ds=#w12#", "20 #glowcap#", ""};

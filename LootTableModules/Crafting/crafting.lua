@@ -569,7 +569,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ARCHAEOLOGY,
-			switchText = {AL["Culture"], AL["Skill"]},
+			switchText = {AL["Culture"], AL["Slot"]},
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -597,7 +597,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ARCHAEOLOGY,
-			switchText = {AL["Culture"], AL["Skill"]},
+			switchText = {AL["Culture"], AL["Slot"]},
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};
@@ -616,7 +616,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ARCHAEOLOGY,
-			switchText = {AL["Culture"], AL["Skill"]},
+			switchText = {AL["Culture"], AL["Slot"]},
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
 	};

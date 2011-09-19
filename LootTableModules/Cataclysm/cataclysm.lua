@@ -18,6 +18,9 @@ local moduleName = "AtlasLootCataclysm"
 ---- Shadowfang Keep
 ---- Zul'Aman
 ---- Zul'Gurub
+---- Endtime
+---- Well of Eternity
+---- Hour of Twilight
 ---- Bastion of Twilight
 ---- Blackwing Descent
 ---- Baradin Hold
@@ -71,7 +74,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55776, "", "=q3=Skullcracker Ring", "=ds=#s13#", ""};
 				{ 5, 55777, "", "=q3=Torturer's Mercy", "=ds=#h3#, #w6#", ""};
 				{ 6, 55778, "", "=q3=Shield of the Iron Maiden", "=ds=#w8#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5281#"};
 				{ 17, 56311, "", "=q3=Inquisition Robes", "=ds=#s5#, #a1#", ""};
 				{ 18, 56313, "", "=q3=Manacles of Pain", "=ds=#s8#, #a3#", ""};
 				{ 19, 56310, "", "=q3=Skullcracker Ring", "=ds=#s13#", ""};
@@ -94,7 +97,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55265, "", "=q3=Signet of Transformation", "=ds=#s13#", ""};
 				{ 5, 55266, "", "=q3=Grace of the Herald", "=ds=#s14#", ""};
 				{ 6, 55267, "", "=q3=Corla's Baton", "=ds=#w12#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5282#"};
 				{ 17, 56297, "", "=q3=Armbands of Change", "=ds=#s8#, #a2#", ""};
 				{ 18, 56298, "", "=q3=Renouncer's Cowl", "=ds=#s1#, #a3#", ""};
 				{ 19, 56299, "", "=q3=Signet of Transformation", "=ds=#s13#", ""};
@@ -117,7 +120,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55268, "", "=q3=Bracers of Cooled Anger", "=ds=#s8#, #a4#", ""};
 				{ 5, 55271, "", "=q3=Quicksilver Amulet", "=ds=#s2#", ""};
 				{ 6, 55272, "", "=q3=Steelbender's Masterpiece", "=ds=#h1#, #w4#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5283#"};
 				{ 17, 56304, "", "=q3=Burned Gatherings", "=ds=#s4#", ""};
 				{ 18, 56303, "", "=q3=Heat Wave Leggings", "=ds=#s11#, #a3#", ""};
 				{ 19, 56301, "", "=q3=Bracers of Cooled Anger", "=ds=#s8#, #a4#", ""};
@@ -168,7 +171,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 55783, "", "=q3=Sandshift Relic", "=ds=#s16#", ""};
 				{ 10, 55782, "", "=q3=Amber Messenger", "=ds=#w2#", ""};
 				{ 11, 55788, "", "=q3=Crepuscular Shield", "=ds=#w8#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5284#"};
 				{ 17, 56315, "", "=q3=Twitching Shadows", "=ds=#s4#", ""};
 				{ 18, 56324, "", "=q3=Kyrstel Mantle", "=ds=#s3#, #a1#", ""};
 				{ 19, 56321, "", "=q3=Willowy Crown", "=ds=#s1#, #a2#", ""};
@@ -214,7 +217,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55195, "", "=q3=Wrasse Handwraps", "=ds=#s9#, #a3#", ""};
 				{ 5, 55201, "", "=q3=Entwined Nereis", "=ds=#s13#", ""};
 				{ 6, 55203, "", "=q3=Lightning Whelk Axe", "=ds=#h1#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5285#"};
 				{ 17, 56267, "", "=q3=Periwinkle Cloak", "=ds=#s4#", ""};
 				{ 18, 56269, "", "=q3=Aurelian Mitre", "=ds=#s1#, #a1#", ""};
 				{ 19, 56268, "", "=q3=Wrasse Handwraps", "=ds=#s9#, #a3#", ""};
@@ -288,7 +291,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 55256, "", "=q3=Sea Star", "=ds=#s14#", ""};
 				{ 10, 55259, "", "=q3=Bioluminescent Lamp", "=ds=#s15#", ""};
 				{ 11, 55252, "", "=q3=Whitefin Axe", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5286#"};
 				{ 17, 56286, "", "=q3=Mnemiopsis Gloves", "=ds=#s9#, #a1#", ""};
 				{ 18, 56281, "", "=q3=Wentletrap Vest", "=ds=#s5#, #a3#", ""};
 				{ 19, 56291, "", "=q3=Abalone Plate Armor", "=ds=#s5#, #a4#", ""};
@@ -410,7 +413,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 55821, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
 				{ 10, 55813, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
 				{ 11, 55815, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5287#"};
 				{ 17, 56348, "", "=q3=Slippers of the Twilight Prophet", "=ds=#s12#, #a1#", ""};
 				{ 18, 56344, "", "=q3=Helm of Numberless Shadows", "=ds=#s1#, #a2#", ""};
 				{ 19, 56352, "", "=q3=Cowl of the Unseen World", "=ds=#s1#, #a3#", ""};
@@ -510,7 +513,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 55852, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
 				{ 11, 55846, "", "=q3=Lightningflash", "=ds=#w5#", ""};
 				{ 12, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5288#"};
 				{ 17, 56369, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
 				{ 18, 56371, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
 				{ 19, 56375, "", "=q3=Leggings of Iridescent Clouds", "=ds=#s11#, #a1#", ""};
@@ -579,7 +582,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55869, "", "=q3=Veneficial Band", "=ds=#s13#"};
 				{ 5, 55868, "", "=q3=Heart of Solace", "=ds=#s14#"};
 				{ 6, 55870, "", "=q3=Barim's Main Gauche", "=ds=#h1#, #w4#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5291#"};
 				{ 17, 56389, "", "=q3=Sand Silk Wristband", "=ds=#s8#, #a1#"};
 				{ 18, 56392, "", "=q3=Sand Dune Belt", "=ds=#s10#, #a4#"};
 				{ 19, 56391, "", "=q3=Veneficial Band", "=ds=#s13#"};
@@ -602,7 +605,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55864, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
 				{ 5, 55863, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
 				{ 6, 55865, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5290#"};
 				{ 17, 56386, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
 				{ 18, 56387, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
 				{ 19, 56385, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
@@ -630,7 +633,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 55879, "", "=q3=Sorrowsong", "=ds=#s14#"};
 				{ 10, 55875, "", "=q3=Hammer of Sparks", "=ds=#h1#, #w6#"};
 				{ 11, 55880, "", "=q3=Zora's Ward", "=ds=#w8#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5292#"};
 				{ 17, 56397, "", "=q3=Geordan's Cloak", "=ds=#s4#"};
 				{ 18, 56399, "", "=q3=Mantle of Master Cho", "=ds=#s3#, #a1#"};
 				{ 19, 56403, "", "=q3=Evelyn's Belt", "=ds=#s10#, #a1#"};
@@ -1540,6 +1543,51 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = "trash",
 			module = moduleName, instance = "ZulGurub",
+		};
+	};
+
+		---------------
+		--- Endtime ---
+		---------------
+
+	AtlasLoot_Data["EndtimeTrash"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "Endtime",
+		};
+	};
+
+		------------------------
+		--- Well of Eternity ---
+		------------------------
+
+	AtlasLoot_Data["WoETrash"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "WellofEternity",
+		};
+	};
+
+		------------------------
+		--- Hour of Twilight ---
+		------------------------
+
+	AtlasLoot_Data["HoTTrash"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "HourofTwilight",
 		};
 	};
 
@@ -5097,6 +5145,98 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13Mage"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Timelord Hood", "=ds=#s1#, #a1#"};
+				{ 3, 0, "", "=q4=Timelord Mantle", "=ds=#s3#, #a1#"};
+				{ 4, 0, "", "=q4=Timelord Robes", "=ds=#s5#, #a1#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Timelord Gloves", "=ds=#s9#, #a1#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Timelord Leggings", "=ds=#s11#, #a1#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Timelord Hood", "=ds=#s1#, #a1#"};
+				{ 10, 0, "", "=q4=Timelord Mantle", "=ds=#s3#, #a1#"};
+				{ 11, 0, "", "=q4=Timelord Robes", "=ds=#s5#, #a1#"};
+				{ 12, 0, "", "=q4=Timelord Gloves", "=ds=#s9#, #a1#"};
+				{ 13, 0, "", "=q4=Timelord Leggings", "=ds=#s11#, #a1#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13ShamanElemental"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
+				{ 3, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
+				{ 4, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
+				{ 10, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
+				{ 11, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
+				{ 12, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 13, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+				
+	AtlasLoot_Data["T13ShamanEnhancement"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
+				{ 3, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 4, 0, "", "=q4=Spiritwalker's Culrass", "=ds=#s5#, #a3#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
+				{ 10, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 11, 0, "", "=q4=Spiritwalker's Culrass", "=ds=#s5#, #a3#"};
+				{ 12, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
+				{ 13, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+				
+	AtlasLoot_Data["T13ShamanRestoration"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"]};
+				{ 2, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
+				{ 3, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
+				{ 4, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#", "#VALOR:2200#"};
+				{ 5, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#", "#VALOR:1650#"};
+				{ 6, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#", "#VALOR:2200#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 9, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
+				{ 10, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
+				{ 11, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 12, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
+				{ 13, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
 			module = moduleName, menu = "T13SET",
 		};
 	}
