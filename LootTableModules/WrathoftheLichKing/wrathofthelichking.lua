@@ -732,13 +732,13 @@ local moduleName = "AtlasLootWotLK"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#", "", "1%"};
-				{ 3, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#", "", "1%"};
+				{ 3, 35653, "", "=q3=Girdle of the Mystical Prison", "=ds=#s10#, #a4#", "", "1%"};
 				{ 4, 35652, "", "=q3=Incessant Torch", "=ds=#w12#", "", "1%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 35654, "", "=q3=Bindings of the Bastille", "=ds=#s8#, #a1#", "", "1%"};
 				{ 18, 37890, "", "=q3=Chain Gang Legguards", "=ds=#s11#, #a2#", "", "1%"};
 				{ 19, 37891, "", "=q3=Cast Iron Shackles", "=ds=#s8#, #a4#", "", "1%"};
-				{ 20, 35653, "", "=q3=Dungeon Girdle", "=ds=#s10#, #a4#", "", "1%"};
+				{ 20, 35653, "", "=q3=Girdle of the Mystical Prison", "=ds=#s10#, #a4#", "", "1%"};
 				{ 21, 37889, "", "=q3=Prison Manifest", "=ds=#s15#", "", "1%"};
 				{ 22, 35652, "", "=q3=Incessant Torch", "=ds=#w12#", "", "1%"};
 			};

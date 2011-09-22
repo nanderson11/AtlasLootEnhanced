@@ -24,8 +24,9 @@ local moduleName = "AtlasLootCataclysm"
 ---- Bastion of Twilight
 ---- Blackwing Descent
 ---- Baradin Hold
----- The Firelands
 ---- Throne of the Four Winds
+---- The Firelands
+---- The Dragon Soul
 --- Factions
 ---- Avengers of Hyjal
 ---- Baradin's Wardens
@@ -56,6 +57,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Heirloom Items
 ---- Justice Points Items
 ---- Valor Points Items
+---- Molten Front Rewards
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -1550,6 +1552,50 @@ local moduleName = "AtlasLootCataclysm"
 		--- Endtime ---
 		---------------
 
+	AtlasLoot_Data["EndtimeSylvanas"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Echo of Sylvanas",
+			module = moduleName, instance = "Endtime",
+		};
+	};
+
+	AtlasLoot_Data["EndtimeTyrande"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Echo of Tyrande",
+			module = moduleName, instance = "Endtime",
+		};
+	};
+
+	AtlasLoot_Data["EndtimeJaina"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Echo of Jaina",
+			module = moduleName, instance = "Endtime",
+		};
+	};
+
+	AtlasLoot_Data["EndtimeBaine"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Echo of Baine",
+			module = moduleName, instance = "Endtime",
+		};
+	};
+
 	AtlasLoot_Data["EndtimeTrash"] = {
 		["Normal"] = {
 			{
@@ -1565,6 +1611,39 @@ local moduleName = "AtlasLootCataclysm"
 		--- Well of Eternity ---
 		------------------------
 
+	AtlasLoot_Data["WoEPerotharn"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Peroth'arn",
+			module = moduleName, instance = "WellofEternity",
+		};
+	};
+
+	AtlasLoot_Data["WoEAzshara"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Azshara",
+			module = moduleName, instance = "WellofEternity",
+		};
+	};
+
+	AtlasLoot_Data["WoEMannoroth"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Mannoroth",
+			module = moduleName, instance = "WellofEternity",
+		};
+	};
+
 	AtlasLoot_Data["WoETrash"] = {
 		["Normal"] = {
 			{
@@ -1579,6 +1658,39 @@ local moduleName = "AtlasLootCataclysm"
 		------------------------
 		--- Hour of Twilight ---
 		------------------------
+
+	AtlasLoot_Data["HoTArcurion"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Arcurion",
+			module = moduleName, instance = "HourofTwilight",
+		};
+	};
+
+	AtlasLoot_Data["HoTDawnslayer"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Dawnslayer",
+			module = moduleName, instance = "HourofTwilight",
+		};
+	};
+
+	AtlasLoot_Data["HoTBenedictus"] = {
+		["Normal"] = {
+			{
+			};
+		};
+		info = {
+			name = "Benedictus",
+			module = moduleName, instance = "HourofTwilight",
+		};
+	};
 
 	AtlasLoot_Data["HoTTrash"] = {
 		["Normal"] = {
@@ -2535,6 +2647,115 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+		---------------------------------
+		--- Throne of the Four Winds ----
+		---------------------------------
+
+	AtlasLoot_Data["TFWConclave"] = {
+		["Normal"] = {
+			{
+				{ 1, 63498, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
+				{ 2, 63497, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
+				{ 3, 63493, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
+				{ 4, 63496, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 63492, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
+				{ 6, 63490, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
+				{ 7, 63495, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 63491, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
+				{ 16, 63488, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
+				{ 17, 63489, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
+				{ 18, 63494, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65376, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
+				{ 2, 65374, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
+				{ 3, 65371, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
+				{ 4, 65377, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 65368, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
+				{ 6, 65369, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
+				{ 7, 65375, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 65370, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
+				{ 16, 65367, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
+				{ 17, 65372, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
+				{ 18, 65373, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Conclave of Wind", 154),
+			module = moduleName, instance = "ThroneOfTheFourWinds",
+		};
+	};
+
+	AtlasLoot_Data["TFWAlAkir"] = {
+		["Normal"] = {
+			{
+				{ 1, 69834, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
+				{ 2, 69831, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
+				{ 3, 69833, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
+				{ 4, 69835, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
+				{ 5, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 7, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 8, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 9, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 19, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 20, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 21, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 23, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 24, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 25, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 26, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 27, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 29, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 69879, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
+				{ 2, 69884, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
+				{ 3, 69878, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
+				{ 4, 69881, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
+				{ 5, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 7, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 8, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 9, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
+				{ 17, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 19, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 21, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 22, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 24, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 25, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 26, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 27, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 28, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 30, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Al'Akir", 155),
+			module = moduleName, instance = "ThroneOfTheFourWinds",
+		};
+	};
+
 		----------------------
 		--- The Firelands ----
 		----------------------
@@ -2964,112 +3185,138 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		---------------------------------
-		--- Throne of the Four Winds ----
-		---------------------------------
+		------------------------
+		--- The Dragon Soul ----
+		------------------------
 
-	AtlasLoot_Data["TFWConclave"] = {
+	AtlasLoot_Data["DragonSoulMorchok"] = {
 		["Normal"] = {
 			{
-				{ 1, 63498, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
-				{ 2, 63497, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
-				{ 3, 63493, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
-				{ 4, 63496, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
-				{ 5, 63492, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
-				{ 6, 63490, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
-				{ 7, 63495, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
-				{ 8, 63491, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
-				{ 16, 63488, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
-				{ 17, 63489, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
-				{ 18, 63494, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 65376, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
-				{ 2, 65374, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
-				{ 3, 65371, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
-				{ 4, 65377, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
-				{ 5, 65368, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
-				{ 6, 65369, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
-				{ 7, 65375, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
-				{ 8, 65370, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
-				{ 16, 65367, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
-				{ 17, 65372, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
-				{ 18, 65373, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Conclave of Wind", 154),
-			module = moduleName, instance = "ThroneOfTheFourWinds",
+			name = "Morchok",
+			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
 
-	AtlasLoot_Data["TFWAlAkir"] = {
+	AtlasLoot_Data["DragonSoulZonozz"] = {
 		["Normal"] = {
 			{
-				{ 1, 69834, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
-				{ 2, 69831, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
-				{ 3, 69833, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
-				{ 4, 69835, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
-				{ 5, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
-				{ 6, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
-				{ 7, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
-				{ 8, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
-				{ 9, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
-				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
-				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
-				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
-				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
-				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
-				{ 19, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
-				{ 20, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
-				{ 21, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
-				{ 23, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
-				{ 24, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
-				{ 25, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
-				{ 26, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
-				{ 27, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 29, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 69879, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
-				{ 2, 69884, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
-				{ 3, 69878, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
-				{ 4, 69881, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
-				{ 5, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
-				{ 6, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
-				{ 7, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
-				{ 8, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
-				{ 9, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
-				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
-				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
-				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
-				{ 17, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 19, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 21, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 22, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 24, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
-				{ 25, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
-				{ 26, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
-				{ 27, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
-				{ 28, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 30, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Al'Akir", 155),
-			module = moduleName, instance = "ThroneOfTheFourWinds",
+			name = "Warlord Zon'ozz",
+			module = moduleName, instance = "TheDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulYorsahj"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Yor'sahj the Unsleeping",
+			module = moduleName, instance = "TheDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulHagara"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Hagara the Binder",
+			module = moduleName, instance = "TheDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulUltraxion"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Ultraxion",
+			module = moduleName, instance = "TheDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulBlackhorn"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Warmaster Blackhorn",
+			module = moduleName, instance = "TheDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulDeathwing"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Deathwing",
+			module = moduleName, instance = "TheDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulTrash"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
 
@@ -5083,18 +5330,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Deep Earth Hood", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
-				{ 4, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
+				{ 5, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
+				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Deep Earth Hood", "=ds=#s1#, #a2#"};
 				{ 10, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
 				{ 11, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
 				{ 12, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
 				{ 13, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Deep Earth Hood", "=ds=#s1#, #a2#"};
+				{ 18, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
+				{ 19, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
+				{ 20, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
+				{ 21, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -5106,18 +5359,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
-				{ 4, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
+				{ 5, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
+				{ 6, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
 				{ 10, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
 				{ 11, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
 				{ 12, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
 				{ 13, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
+				{ 18, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
+				{ 19, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
+				{ 20, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
+				{ 21, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -5129,18 +5388,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DruidBalance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
-				{ 4, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
+				{ 5, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
+				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
 				{ 10, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
 				{ 11, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
 				{ 12, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
 				{ 13, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
+				{ 18, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
+				{ 19, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
+				{ 20, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
+				{ 21, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
 			};
 		};
 		info = {
@@ -5152,18 +5417,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Timelord Hood", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Timelord Mantle", "=ds=#s3#, #a1#"};
-				{ 4, 0, "", "=q4=Timelord Robes", "=ds=#s5#, #a1#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Timelord Gloves", "=ds=#s9#, #a1#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Timelord Leggings", "=ds=#s11#, #a1#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Timelord Robes", "=ds=#s5#, #a1#"};
+				{ 5, 0, "", "=q4=Timelord Gloves", "=ds=#s9#, #a1#"};
+				{ 6, 0, "", "=q4=Timelord Leggings", "=ds=#s11#, #a1#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Timelord Hood", "=ds=#s1#, #a1#"};
 				{ 10, 0, "", "=q4=Timelord Mantle", "=ds=#s3#, #a1#"};
 				{ 11, 0, "", "=q4=Timelord Robes", "=ds=#s5#, #a1#"};
 				{ 12, 0, "", "=q4=Timelord Gloves", "=ds=#s9#, #a1#"};
 				{ 13, 0, "", "=q4=Timelord Leggings", "=ds=#s11#, #a1#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Timelord Hood", "=ds=#s1#, #a1#"};
+				{ 18, 0, "", "=q4=Timelord Mantle", "=ds=#s3#, #a1#"};
+				{ 19, 0, "", "=q4=Timelord Robes", "=ds=#s5#, #a1#"};
+				{ 20, 0, "", "=q4=Timelord Gloves", "=ds=#s9#, #a1#"};
+				{ 21, 0, "", "=q4=Timelord Leggings", "=ds=#s11#, #a1#"};
 			};
 		};
 		info = {
@@ -5172,21 +5443,114 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
+	AtlasLoot_Data["T13PaladinHoly"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 2, 0, "", "=q4=Radian Glory Headguard", "=ds=#s1#, #a4#"};
+				{ 3, 0, "", "=q4=Radian Glory Mantle", "=ds=#s3#, #a4#"};
+				{ 4, 0, "", "=q4=Radian Glory Breastplate", "=ds=#s5#, #a4#"};
+				{ 5, 0, "", "=q4=Radian Glory Gloves", "=ds=#s9#, #a4#"};
+				{ 6, 0, "", "=q4=Radian Glory Greaves", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 9, 0, "", "=q4=Radian Glory Headguard", "=ds=#s1#, #a4#"};
+				{ 10, 0, "", "=q4=Radian Glory Mantle", "=ds=#s3#, #a4#"};
+				{ 11, 0, "", "=q4=Radian Glory Breastplate", "=ds=#s5#, #a4#"};
+				{ 12, 0, "", "=q4=Radian Glory Gloves", "=ds=#s9#, #a4#"};
+				{ 13, 0, "", "=q4=Radian Glory Greaves", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Radian Glory Headguard", "=ds=#s1#, #a4#"};
+				{ 18, 0, "", "=q4=Radian Glory Mantle", "=ds=#s3#, #a4#"};
+				{ 19, 0, "", "=q4=Radian Glory Breastplate", "=ds=#s5#, #a4#"};
+				{ 20, 0, "", "=q4=Radian Glory Gloves", "=ds=#s9#, #a4#"};
+				{ 21, 0, "", "=q4=Radian Glory Greaves", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13PaladinProtection"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 2, 0, "", "=q4=Radian Glory Faceguard", "=ds=#s1#, #a4#"};
+				{ 3, 0, "", "=q4=Radian Glory Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 4, 0, "", "=q4=Radian Glory Chestguard", "=ds=#s5#, #a4#"};
+				{ 5, 0, "", "=q4=Radian Glory Handguards", "=ds=#s9#, #a4#"};
+				{ 6, 0, "", "=q4=Radian Glory Legguards", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 9, 0, "", "=q4=Radian Glory Faceguard", "=ds=#s1#, #a4#"};
+				{ 10, 0, "", "=q4=Radian Glory Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 11, 0, "", "=q4=Radian Glory Chestguard", "=ds=#s5#, #a4#"};
+				{ 12, 0, "", "=q4=Radian Glory Handguards", "=ds=#s9#, #a4#"};
+				{ 13, 0, "", "=q4=Radian Glory Legguards", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Radian Glory Faceguard", "=ds=#s1#, #a4#"};
+				{ 18, 0, "", "=q4=Radian Glory Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 19, 0, "", "=q4=Radian Glory Chestguard", "=ds=#s5#, #a4#"};
+				{ 20, 0, "", "=q4=Radian Glory Handguards", "=ds=#s9#, #a4#"};
+				{ 21, 0, "", "=q4=Radian Glory Legguards", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
+	AtlasLoot_Data["T13PaladinRetribution"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 2, 0, "", "=q4=Radian Glory Helmet", "=ds=#s1#, #a4#"};
+				{ 3, 0, "", "=q4=Radian Glory Pauldrons", "=ds=#s3#, #a4#"};
+				{ 4, 0, "", "=q4=Radian Glory Battleplate", "=ds=#s5#, #a4#"};
+				{ 5, 0, "", "=q4=Radian Glory Gauntlets", "=ds=#s9#, #a4#"};
+				{ 6, 0, "", "=q4=Radian Glory Legplates", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 9, 0, "", "=q4=Radian Glory Helmet", "=ds=#s1#, #a4#"};
+				{ 10, 0, "", "=q4=Radian Glory Pauldrons", "=ds=#s3#, #a4#"};
+				{ 11, 0, "", "=q4=Radian Glory Battleplate", "=ds=#s5#, #a4#"};
+				{ 12, 0, "", "=q4=Radian Glory Gauntlets", "=ds=#s9#, #a4#"};
+				{ 13, 0, "", "=q4=Radian Glory Legplates", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Radian Glory Helmet", "=ds=#s1#, #a4#"};
+				{ 18, 0, "", "=q4=Radian Glory Pauldrons", "=ds=#s3#, #a4#"};
+				{ 19, 0, "", "=q4=Radian Glory Battleplate", "=ds=#s5#, #a4#"};
+				{ 20, 0, "", "=q4=Radian Glory Gauntlets", "=ds=#s9#, #a4#"};
+				{ 21, 0, "", "=q4=Radian Glory Legplates", "=ds=#s11#, #a4#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
 	AtlasLoot_Data["T13ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
-				{ 4, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
+				{ 5, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 6, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
 				{ 10, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
 				{ 11, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
 				{ 12, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
 				{ 13, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
+				{ 18, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
+				{ 19, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
+				{ 20, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 21, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -5198,18 +5562,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 4, 0, "", "=q4=Spiritwalker's Culrass", "=ds=#s5#, #a3#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Spiritwalker's Culrass", "=ds=#s5#, #a3#"};
+				{ 5, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
+				{ 6, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
 				{ 10, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
 				{ 11, 0, "", "=q4=Spiritwalker's Culrass", "=ds=#s5#, #a3#"};
 				{ 12, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
 				{ 13, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
+				{ 18, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 19, 0, "", "=q4=Spiritwalker's Culrass", "=ds=#s5#, #a3#"};
+				{ 20, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
+				{ 21, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -5221,18 +5591,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
-				{ 4, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 5, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
+				{ 6, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
 				{ 10, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
 				{ 11, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
 				{ 12, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
 				{ 13, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
+				{ 18, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
+				{ 19, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 20, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
+				{ 21, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -5243,19 +5619,25 @@ local moduleName = "AtlasLootCataclysm"
 
 	AtlasLoot_Data["T13Warlock"] = {
 		["Normal"] = {
-			{				
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"]};
-				{ 2, 0, "", "=q4=Faceless Shroud Hood", "=ds=#s1#, #a1#"};
-				{ 3, 0, "", "=q4=Faceless Shroud Mantle", "=ds=#s3#, #a1#"};
-				{ 4, 0, "", "=q4=Faceless Shroud Robes", "=ds=#s5#, #a1#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Faceless Shroud Handwraps", "=ds=#s9#, #a1#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Faceless Shroud Leggings", "=ds=#s11#, #a1#", "#VALOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 9, 0, "", "=q4=Faceless Shroud Hood", "=ds=#s1#, #a1#"};
-				{ 10, 0, "", "=q4=Faceless Shroud Mantle", "=ds=#s3#, #a1#"};
-				{ 11, 0, "", "=q4=Faceless Shroud Robes", "=ds=#s5#, #a1#"};
-				{ 12, 0, "", "=q4=Faceless Shroud Handwraps", "=ds=#s9#, #a1#"};
-				{ 13, 0, "", "=q4=Faceless Shroud Leggings", "=ds=#s11#, #a1#"};
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 2, 0, "", "=q4=Faceless Hood", "=ds=#s1#, #a1#"};
+				{ 3, 0, "", "=q4=Faceless Mantle", "=ds=#s3#, #a1#"};
+				{ 4, 0, "", "=q4=Faceless Robes", "=ds=#s5#, #a1#"};
+				{ 5, 0, "", "=q4=Faceless Handwraps", "=ds=#s9#, #a1#"};
+				{ 6, 0, "", "=q4=Faceless Leggings", "=ds=#s11#, #a1#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 9, 0, "", "=q4=Faceless Hood", "=ds=#s1#, #a1#"};
+				{ 10, 0, "", "=q4=Faceless Mantle", "=ds=#s3#, #a1#"};
+				{ 11, 0, "", "=q4=Faceless Robes", "=ds=#s5#, #a1#"};
+				{ 12, 0, "", "=q4=Faceless Handwraps", "=ds=#s9#, #a1#"};
+				{ 13, 0, "", "=q4=Faceless Leggings", "=ds=#s11#, #a1#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Faceless Hood", "=ds=#s1#, #a1#"};
+				{ 18, 0, "", "=q4=Faceless Mantle", "=ds=#s3#, #a1#"};
+				{ 19, 0, "", "=q4=Faceless Robes", "=ds=#s5#, #a1#"};
+				{ 20, 0, "", "=q4=Faceless Handwraps", "=ds=#s9#, #a1#"};
+				{ 21, 0, "", "=q4=Faceless Leggings", "=ds=#s11#, #a1#"};
 			};
 		};
 		info = {
@@ -5267,18 +5649,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorFury"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
-				{ 4, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#", "#VALOR:2200#"};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
+				{ 5, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 6, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
 				{ 10, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
 				{ 11, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
 				{ 12, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 13, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
+				{ 18, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
+				{ 19, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
+				{ 20, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 21, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -5290,18 +5678,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"]};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
-				{ 4, 0, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#", "#VALOR:2200#"};
-				{ 5, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#", "#VALOR:1650#"};
-				{ 6, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#", "#VALOR:2200#"};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 4, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
+				{ 5, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
+				{ 6, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 10, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
-				{ 11, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
+				{ 11, 0, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#"};
 				{ 12, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
 				{ 13, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
+				{ 18, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
+				{ 19, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
+				{ 20, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
+				{ 21, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
 			};
 		};
 		info = {
@@ -5933,6 +6327,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 47100, "", "=q3=Reins of the Striped Dawnsaber", "=ds=#e26#"};
 				{ 7, 8631, "", "=q3=Reins of the Striped Frostsaber", "=ds=#e26#"};
 				{ 8, 8629, "", "=q3=Reins of the Striped Nightsaber", "=ds=#e26#"};
+				{ 10, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Gilneas"].." #j30#", "=ec1=#m7#"};
+				{ 11, 0, "", "=q4=Placeholder", "=ds=#e26#"};
+				{ 12, 0, "", "=q3=Placeholder", "=ds=#e26#"};
 				{ 16, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"].." #j30#", "=ec1=#m7#"};
 				{ 17, 18772, "", "=q4=Swift Green Mechanostrider", "=ds=#e26#"};
 				{ 18, 18773, "", "=q4=Swift White Mechanostrider", "=ds=#e26#"};
@@ -6701,25 +7098,9 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-		-----------------
-		--- 4.2 Stuff ---
-		-----------------
-	AtlasLoot_Data["TestPage"] = {
-		["Normal"] = {
-			{
-				{ 1, 58190, "", "=q4=Floating Web", "=ds=#s4#", "#VALOR:1250#" },
-				{ 2, 58155, "", "=q3=Cowl of Pleasant Gloom", "=ds=#s1#, #a1#", "Test / #JUSTICE:2200#" },
-				{ 3, 64723, "", "=q3=Bloodthirsty Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 5, 33966, "", "=q1=Brewfest Slippers", "#ITEMID:37829#"};--"100 #brewfest#"};
-				{ 6, 33966, "", "=q1=Brewfest Slippers", "", "#BREWFEST:100#"};--"100 #brewfest#"};
-			};
-		};
-		info = {
-			name = "TestPage",
-			module = moduleName,
-			switchText = {"Test1", "Test2"}
-		};
-	}
+		--------------------
+		--- Molten Front ---
+		--------------------
 
 	AtlasLoot_Data["MoltenFront"] = {
 		["Normal"] = {
@@ -6797,5 +7178,3 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "SETMENU",
 		};
 	}
-	
-	

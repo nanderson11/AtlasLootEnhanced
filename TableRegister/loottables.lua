@@ -161,6 +161,10 @@ AtlasLoot_LootTableRegister = {
 
 		["Endtime"] = {
 			["Bosses"] = {
+				{ "EndtimeSylvanas" },
+				{ "EndtimeTyrande" },
+				{ "EndtimeJaina" },
+				{ "EndtimeBaine" },
 				{ "EndtimeTrash" },
 			},
 			["Info"] = { "Endtime", "AtlasLootCataclysm" },
@@ -168,6 +172,9 @@ AtlasLoot_LootTableRegister = {
 
 		["WellofEternity"] = {
 			["Bosses"] = {
+				{ "WoEPerotharn" },
+				{ "WoEAzshara" },
+				{ "WoEMannoroth" },
 				{ "WoETrash" },
 			},
 			["Info"] = { "Well of Eternity", "AtlasLootCataclysm" },
@@ -175,6 +182,9 @@ AtlasLoot_LootTableRegister = {
 
 		["HourofTwilight"] = {
 			["Bosses"] = {
+				{ "HoTArcurion" },
+				{ "HoTDawnslayer" },
+				{ "HoTBenedictus" },
 				{ "HoTTrash" },
 			},
 			["Info"] = { "Hour of Twilight", "AtlasLootCataclysm" },
@@ -217,6 +227,14 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold", raid = true, disableCompare = true, EncounterJournalID = 75 },
 		},
 
+		["ThroneOfTheFourWinds"] = {
+			["Bosses"] = {
+				{ "TFWConclave", 2, EncounterJournalID = 154 },
+				{ "TFWAlAkir", 6, EncounterJournalID = 155 },
+			},
+			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm", mapname = "Throneofthefourwinds", raid = true, EncounterJournalID = 74 },
+		},
+
 		["Firelands"] = {
 			["Bosses"] = {
 				{ "AvengersHyjal", {1,4}, hide = true },
@@ -235,12 +253,18 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Firelands"], "AtlasLootCataclysm", mapname = "Firelands", raid = true, EncounterJournalID = 78 },
 		},
 
-		["ThroneOfTheFourWinds"] = {
+		["TheDragonSoul"] = {
 			["Bosses"] = {
-				{ "TFWConclave", 2, EncounterJournalID = 154 },
-				{ "TFWAlAkir", 6, EncounterJournalID = 155 },
+				{ "DragonSoulMorchok" },
+				{ "DragonSoulZonozz" },
+				{ "DragonSoulYorsahj" },
+				{ "DragonSoulHagara" },
+				{ "DragonSoulUltraxion" },
+				{ "DragonSoulBlackhorn" },
+				{ "DragonSoulDeathwing" },
+				{ "DragonSoulTrash" },
 			},
-			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm", mapname = "Throneofthefourwinds", raid = true, EncounterJournalID = 74 },
+			["Info"] = { "The Dragon Soul", "AtlasLootCataclysm", raid = true },
 		},
 
 -----------------------

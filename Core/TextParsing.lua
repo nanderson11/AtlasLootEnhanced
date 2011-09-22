@@ -594,17 +594,17 @@ AtlasLoot_TextParsing = {
 	{ "#t13s1_2#", "Deep Earth Battlegarb" },--done
 	{ "#t13s1_3#", "Deep Earth Regalia" },--done
 	{ "#t13s2#", BabbleItemSet["Flamewaker's Battlegear"] },
-	{ "#t13s3#", BabbleItemSet["Firehawk Robes of Conflagration"] },
+	{ "#t13s3#", "Timelord Regalia" },--done
 	{ "#t13s4_1#", BabbleItemSet["Regalia of Immolation"] },
 	{ "#t13s4_2#", BabbleItemSet["Battlearmor of Immolation"] },
 	{ "#t13s4_3#", BabbleItemSet["Battleplate of Immolation"] },
 	{ "#t13s5_1#", BabbleItemSet["Regalia of the Cleansing Flame"] },
 	{ "#t13s5_2#", BabbleItemSet["Vestments of the Cleansing Flame"] },
 	{ "#t13s6#", BabbleItemSet["Vestments of the Dark Phoenix"] },
-	{ "#t13s7_1#", BabbleItemSet["Volcanic Vestments"] },
-	{ "#t13s7_2#", BabbleItemSet["Volcanic Battlegear"] },
-	{ "#t13s7_3#", BabbleItemSet["Volcanic Regalia"] },
-	{ "#t13s8#", BabbleItemSet["Balespider's Burning Vestments"] },
+	{ "#t13s7_1#", "Spiritwalker's Vestments" },--done
+	{ "#t13s7_2#", "Spiritwalker's Battlegear" },--done
+	{ "#t13s7_3#", "Spiritwalker's Regalia" },--done
+	{ "#t13s8#", "Faceless Shroud" },--done
 	{ "#t13s9_1#", BabbleItemSet["Molten Giant Warplate"] },
 	{ "#t13s9_2#", BabbleItemSet["Molten Giant Battleplate"] },
 	{ "#t13s10_1#", BabbleItemSet["Elementium Deathplate Battlegear"] },
