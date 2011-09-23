@@ -363,6 +363,28 @@ local function InstanceInfoFrame(container)
 end
 
 -- ######################################################
+-- ######################################################
+
+local function ItemScanFrame(container)
+	local editbox2 = AceGUI:Create("EditBox")
+
+	local editbox = AceGUI:Create("EditBox")
+	editbox:SetLabel("ItemID / ItemName:")
+	editbox:SetWidth(200)
+	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
+		
+		editbox2:SetText(lootTableString)
+	end)
+	container:AddChild(editbox)
+
+	local desc = AceGUI:Create("Label")
+	desc:SetText("")
+	--desc:SetFullWidth(true)
+	
+	
+end
+
+-- ######################################################
 
 
 -- Callback function for OnGroupSelected
@@ -374,6 +396,8 @@ local function SelectGroup(container, event, group)
 		TextParsingFrame(container)
 	elseif group == "tab3" then
 		InstanceInfoFrame(container)
+	elseif group == "tab4" then
+		ItemScanFrame(container)
    end
 end
 

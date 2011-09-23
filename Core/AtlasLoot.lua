@@ -261,6 +261,9 @@ do
 
 	function AtlasLoot:OnProfileChanged(event, database, newProfileKey)
 	   self:RefreshAtlasLootPanel()
+	   for k,v in ipairs(refreshProfile) do
+	   		v()
+	   end
 	end
 
 end

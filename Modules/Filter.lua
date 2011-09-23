@@ -400,7 +400,7 @@ function Filter:OnInitialize()
 end
 
 function Filter:OnProfileChanged()
-	db = self.db.profile 
+	db = Filter.db.profile
 end
 
 function Filter:OnEnable()
