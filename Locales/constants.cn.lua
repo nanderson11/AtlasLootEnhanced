@@ -94,7 +94,7 @@ if AL then
 	AL["Profiles"] = "配置文件";
 	AL["Item Buttons"] = "物品按钮";
 	AL["Loot Table"] = "掉落列表";
-	AL["Enable mouse on item descriptions"] = "启用鼠标指向物品属性";
+	AL["Enable mouse on item descriptions"] = "启用物品对应的任务或成就的鼠标提示";
 
 	-- Default Frame
 	AL["Default Frame"] = "默认框体";
@@ -1046,11 +1046,11 @@ if AL then
 	AL["Dormus the Camel-Hoarder"] = "骆驼驭手多尔穆斯";
 	AL["The Behemoth"] = "贝哈默斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
---	AL["Zen'Vorka"] = true;
---	AL["Ayla Shadowstorm"] = true;
---	AL["Damek Bloombeard"] = true;
---	AL["Varlan Highbough"] = true;
---	AL["Firestone Vendor"] = true;
+	AL["Zen'Vorka"] = "赞沃卡";
+	AL["Ayla Shadowstorm"] = "艾拉·影暴";
+	AL["Damek Bloombeard"] = "达默克·冲炉";
+	AL["Varlan Highbough"] = "瓦尔兰·高枝";
+	AL["Firestone Vendor"] = "火石结晶商人";
 	AL["Poseidus"] = "波塞冬斯";
 
 	-- Zones
