@@ -250,6 +250,8 @@ if AL then
 	AL["ilvl 372"] = "Gegenstandsstufe 372";
 	AL["ilvl 378"] = "Gegenstandsstufe 378";
 	AL["ilvl 391"] = "Gegenstandsstufe 391";
+	AL["ilvl 397"] = "Gegenstandsstufe 397";
+	AL["ilvl 410"] = "Gegenstandsstufe 410";
 
 	-- #######################################
 	-- UI things END
@@ -817,6 +819,12 @@ if AL then
 
 	-- Fifteenth set
 	AL["Twilight of the Dragons"] = "Zwielicht der Drachen";
+
+	-- Seventeenth set
+	AL["Crown of Heaven"] = "Krone des Himmels";
+
+	-- Eighteenth set
+	AL["Tomb of the Forgotten"] = "Gruft der Vergessenen";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
