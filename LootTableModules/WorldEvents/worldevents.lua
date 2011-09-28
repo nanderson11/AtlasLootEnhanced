@@ -416,10 +416,11 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 4, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
 				{ 5, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
 				{ 7, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], ""};
-				{ 8, 46709, "", "=q3=MiniZep Controller", "=ec1=2010 =ds=#e22#"};
-				{ 9, 46725, "", "=q3=Red Rider Air Rifle", "=ec1=2009 =ds=#m20#"};
-				{ 10, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "=ec1=2008 =ds=#e22#"};
-				{ 11, 34425, "", "=q3=Clockwork Rocket Bot", "=ec1=2007 =ds=#e13#"};
+				{ 8, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};
+				{ 9, 46709, "", "=q3=MiniZep Controller", "#ACHIEVEMENTID:6060#"};
+				{ 10, 46725, "", "=q3=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
+				{ 11, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
+				{ 12, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
 				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Ticking Present"], ""};
 				{ 17, 21325, "", "=q2=Mechanical Greench", "=ds=#e22#"};
 				{ 18, 21213, "", "=q2=Preserved Holly", "=ds=#m20#"};

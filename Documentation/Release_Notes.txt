@@ -5,8 +5,13 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.00
-Patch 4.3 stuff
+v6.05.00_BETA_14372
+Compatible with Patch 4.3.
+Added Season 11 items.
+Added Tier 13 Raid Set (ilvl 397).
+Added new Companions.
+Added new Mounts.
+Added new TCG loot from "Throne of the Tides".
 Added Spells to the Archaeology section.
 Many minor fixes, additions and translations.
 

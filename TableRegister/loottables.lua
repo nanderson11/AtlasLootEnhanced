@@ -161,10 +161,11 @@ AtlasLoot_LootTableRegister = {
 
 		["Endtime"] = {
 			["Bosses"] = {
-				{ "EndtimeSylvanas", 0, EncounterJournalID = 323 },
-				{ "EndtimeTyrande", 0, EncounterJournalID = 289 }, -- "Murozond" ??
-				{ "EndtimeJaina", 0, EncounterJournalID = 285 },
 				{ "EndtimeBaine", 0, EncounterJournalID = 340 },
+				{ "EndtimeJaina", 0, EncounterJournalID = 285 },
+				{ "EndtimeSylvanas", 0, EncounterJournalID = 323 },
+				{ "EndtimeTyrande", 0 },
+				{ "EndtimeMurozond", 0, EncounterJournalID = 289 },
 				{ "EndtimeTrash" },
 			},
 			["Info"] = { "Endtime", "AtlasLootCataclysm", EncounterJournalID = 184 },

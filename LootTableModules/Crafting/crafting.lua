@@ -3817,6 +3817,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s58317", "43342", "=q1=Glyph of Fading", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 11, "s58318", "43371", "=q1=Glyph of Fortitude", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 12, "s58319", "43370", "=q1=Glyph of Levitate", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
+				{ 13, "s107907", "77101", "=q1=Glyph of Shadow", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 25, "s58320", "43373", "=q1=Glyph of Shackle Undead", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 26, "s58321", "43372", "=q1=Glyph of Shadow Protection", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
 				{ 27, "s58322", "43374", "=q1=Glyph of Shadowfiend", "=ds=#sr# 75", "=ds="..GetSpellInfo(61288) };
