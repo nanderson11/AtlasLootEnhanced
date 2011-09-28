@@ -4058,11 +4058,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelRed"] ={
 		["Normal"] = {
 			{
-				{ 1, "s73335", "52206", "=q3=Bold Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 2, "s73338", "52207", "=q3=Brilliant Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 3, "s73336", "52212", "=q3=Delicate Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 4, "s73337", "52216", "=q3=Flashing Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 5, "s73339", "52230", "=q3=Precise Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 1, "s101799", "71883", "=q4=Bold Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 2, "s101797", "71881", "=q4=Brilliant Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 3, "s101795", "71879", "=q4=Delicate Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 4, "s101798", "71882", "=q4=Flashing Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 5, "s101796", "71880", "=q4=Precise Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 7, "s73335", "52206", "=q3=Bold Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 8, "s73338", "52207", "=q3=Brilliant Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 9, "s73336", "52212", "=q3=Delicate Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 10, "s73337", "52216", "=q3=Flashing Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 11, "s73339", "52230", "=q3=Precise Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 16, "s73222", "52081", "=q2=Bold Carnelian", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
 				{ 17, "s73225", "52084", "=q2=Brilliant Carnelian", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
 				{ 18, "s73223", "52082", "=q2=Delicate Carnelian", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
@@ -4112,14 +4117,18 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelBlue"] = {
 		["Normal"] = {
 			{
-				{ 1, "s73344", "52235", "=q3=Rigid Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 2, "s73340", "52242", "=q3=Solid Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 3, "s73341", "52244", "=q3=Sparkling Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 4, "s73343", "52246", "=q3=Stormy Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 6, "s73230", "52089", "=q2=Rigid Zephyrite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 7, "s73227", "52086", "=q2=Solid Zephyrite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 8, "s73228", "52087", "=q2=Sparkling Zephyrite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 9, "s73229", "52088", "=q2=Stormy Zephyrite", "=ds=#sr# 425", "=ds="..AL["World Drop"] };
+				{ 1, "s101735", "71817", "=q4=Rigid Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 2, "s101742", "71820", "=q4=Solid Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 3, "s101741", "71819", "=q4=Sparkling Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 4, "s101740", "71818", "=q4=Stormy Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 6, "s73344", "52235", "=q3=Rigid Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 7, "s73340", "52242", "=q3=Solid Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 8, "s73341", "52244", "=q3=Sparkling Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 9, "s73343", "52246", "=q3=Stormy Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 11, "s73230", "52089", "=q2=Rigid Zephyrite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 12, "s73227", "52086", "=q2=Solid Zephyrite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 13, "s73228", "52087", "=q2=Sparkling Zephyrite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 14, "s73229", "52088", "=q2=Stormy Zephyrite", "=ds=#sr# 425", "=ds="..AL["World Drop"] };
 				{ 16, "s66501", "40125", "=q4=Rigid Majestic Zircon", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 17, "s66497", "40119", "=q4=Solid Majestic Zircon", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 18, "s66498", "40120", "=q4=Sparkling Majestic Zircon", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
@@ -4158,42 +4167,47 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelYellow"] = {
 		["Normal"] = {
 			{
-				{ 1, "s73349", "52219", "=q3=Fractured Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 2, "s73347", "52226", "=q3=Mystic Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 3, "s73348", "52232", "=q3=Quick Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 4, "s73346", "52241", "=q3=Smooth Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 5, "s73345", "52247", "=q3=Subtle Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 7, "s73239", "52094", "=q2=Fractured Alicite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 8, "s73234", "52093", "=q2=Quick Alicite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 9, "s73232", "52091", "=q2=Smooth Alicite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 10, "s73231", "52090", "=q2=Subtle Alicite", "=ds=#sr# 425", "=ds="..AL["World Drop"] };
-				{ 16, "s66505", "40127", "=q4=Mystic King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 17, "s66506", "40128", "=q4=Quick King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 18, "s66502", "40124", "=q4=Smooth King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 19, "s66504", "40126", "=q4=Subtle King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 21, "s53960", "40016", "=q3=Mystic Autumn's Glow", "=ds=#sr# 390", "=ds="..BabbleZone["Wintergrasp"] };
-				{ 22, "s53961", "40017", "=q3=Quick Autumn's Glow", "=ds=#sr# 390", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 23, "s53957", "40013", "=q3=Smooth Autumn's Glow", "=ds=#sr# 390", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Exalted"] };
-				{ 24, "s53959", "40015", "=q3=Subtle Autumn's Glow", "=ds=#sr# 390", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
-				{ 26, "s53857", "39917", "=q2=Mystic Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
-				{ 27, "s53856", "39918", "=q2=Quick Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 28, "s53853", "39914", "=q2=Smooth Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 29, "s53855", "39916", "=q2=Subtle Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 1, "s101803", "71877", "=q4=Fractured Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 2, "s101804", "71878", "=q4=Mystic Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 3, "s101802", "71876", "=q4=Quick Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 4, "s101800", "71874", "=q4=Smooth Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 5, "s101801", "71875", "=q4=Subtle Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 7, "s73349", "52219", "=q3=Fractured Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 8, "s73347", "52226", "=q3=Mystic Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 9, "s73348", "52232", "=q3=Quick Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 10, "s73346", "52241", "=q3=Smooth Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 11, "s73345", "52247", "=q3=Subtle Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
+				{ 16, "s73239", "52094", "=q2=Fractured Alicite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 17, "s73234", "52093", "=q2=Quick Alicite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 18, "s73232", "52091", "=q2=Smooth Alicite", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 19, "s73231", "52090", "=q2=Subtle Alicite", "=ds=#sr# 425", "=ds="..AL["World Drop"] };
 			};
 			{
-				{ 1, "s39724", "32209", "=q4=Mystic Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
-				{ 2, "s47056", "35761", "=q4=Quick Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
-				{ 3, "s39720", "32205", "=q4=Smooth Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
-				{ 4, "s39723", "32208", "=q4=Subtle Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
-				{ 5, "s42592", "33140", "=q4=Blood of Amber", "=ds=#sr# 360", "=ds="..AL["Vendor"] };
-				{ 6, "s42593", "33144", "=q4=Facet of Eternity", "=ds=#sr# 360", "=ds="..AL["Vendor"] };
-				{ 7, "s42591", "33143", "=q4=Stone of Blades", "=ds=#sr# 360", "=ds="..AL["Vendor"] };
-				{ 9, "s31101", "24053", "=q3=Mystic Dawnstone", "=ds=#sr# 350", "=ds=#sr# "..AL["Vendor"]..": "..BabbleZone["Nagrand"] };
-				{ 10, "s46403", "35315", "=q3=Quick Dawnstone", "=ds=#sr# 350", "=ds=#sr# "..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
-				{ 11, "s31097", "24048", "=q3=Smooth Dawnstone", "=ds=#sr# 350", "=ds="..AL["World Drop"] };
-				{ 12, "s31100", "24052", "=q3=Subtle Dawnstone", "=ds=#sr# 350", "=ds="..AL["World Drop"] };
-				{ 14, "s34069", "28290", "=q2=Smooth Golden Draenite", "=ds=#sr# 325", "=ds=#sr# "..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
-				{ 15, "s28947", "23115", "=q2=Subtle Golden Draenite", "=ds=#sr# 315", "=ds="..AL["Vendor"] };
+				{ 1, "s66505", "40127", "=q4=Mystic King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 2, "s66506", "40128", "=q4=Quick King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 3, "s66502", "40124", "=q4=Smooth King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 4, "s66504", "40126", "=q4=Subtle King's Amber", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 6, "s53960", "40016", "=q3=Mystic Autumn's Glow", "=ds=#sr# 390", "=ds="..BabbleZone["Wintergrasp"] };
+				{ 7, "s53961", "40017", "=q3=Quick Autumn's Glow", "=ds=#sr# 390", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 8, "s53957", "40013", "=q3=Smooth Autumn's Glow", "=ds=#sr# 390", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Exalted"] };
+				{ 9, "s53959", "40015", "=q3=Subtle Autumn's Glow", "=ds=#sr# 390", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 11, "s53857", "39917", "=q2=Mystic Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Vendor"] };
+				{ 12, "s53856", "39918", "=q2=Quick Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 13, "s53853", "39914", "=q2=Smooth Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 14, "s53855", "39916", "=q2=Subtle Sun Crystal", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 16, "s39724", "32209", "=q4=Mystic Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
+				{ 17, "s47056", "35761", "=q4=Quick Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
+				{ 18, "s39720", "32205", "=q4=Smooth Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
+				{ 19, "s39723", "32208", "=q4=Subtle Lionseye", "=ds=#sr# 375", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
+				{ 20, "s42592", "33140", "=q4=Blood of Amber", "=ds=#sr# 360", "=ds="..AL["Vendor"] };
+				{ 21, "s42593", "33144", "=q4=Facet of Eternity", "=ds=#sr# 360", "=ds="..AL["Vendor"] };
+				{ 22, "s42591", "33143", "=q4=Stone of Blades", "=ds=#sr# 360", "=ds="..AL["Vendor"] };
+				{ 24, "s31101", "24053", "=q3=Mystic Dawnstone", "=ds=#sr# 350", "=ds=#sr# "..AL["Vendor"]..": "..BabbleZone["Nagrand"] };
+				{ 25, "s46403", "35315", "=q3=Quick Dawnstone", "=ds=#sr# 350", "=ds=#sr# "..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
+				{ 26, "s31097", "24048", "=q3=Smooth Dawnstone", "=ds=#sr# 350", "=ds="..AL["World Drop"] };
+				{ 27, "s31100", "24052", "=q3=Subtle Dawnstone", "=ds=#sr# 350", "=ds="..AL["World Drop"] };
+				{ 29, "s34069", "28290", "=q2=Smooth Golden Draenite", "=ds=#sr# 325", "=ds=#sr# "..AL["Vendor"]..": "..BabbleZone["Shattrath City"] };
+				{ 30, "s28947", "23115", "=q2=Subtle Golden Draenite", "=ds=#sr# 315", "=ds="..AL["Vendor"] };
 			};
 		};
 		info = {
@@ -4605,11 +4619,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelTrinket"] = {
 		["Normal"] = {
 			{
-				{ 1, "s73640", "52199", "=q3=Figurine - Demon Panther", "=ds=#sr# 475", "=ds=#QUESTID:25047#" };
-				{ 2, "s73643", "52354", "=q3=Figurine - Dream Owl", "=ds=#sr# 475", "=ds=#QUESTID:28777#" };
-				{ 3, "s73641", "52352", "=q3=Figurine - Earthen Guardian", "=ds=#sr# 475", "=ds=#QUESTID:28776#" };
-				{ 4, "s73642", "52353", "=q3=Figurine - Jeweled Serpent", "=ds=#sr# 475", "=ds=#QUESTID:28775#" };
-				{ 5, "s73639", "52351", "=q3=Figurine - King of Boars", "=ds=#sr# 475", "=ds=#QUESTID:28778#" };
+				--{ 1, "s73640", "52199", "=q3=Figurine - Demon Panther", "=ds=#sr# 475", "=ds=#QUESTID:25047#" };
+				--{ 2, "s73643", "52354", "=q3=Figurine - Dream Owl", "=ds=#sr# 475", "=ds=#QUESTID:28777#" };
+				--{ 3, "s73641", "52352", "=q3=Figurine - Earthen Guardian", "=ds=#sr# 475", "=ds=#QUESTID:28776#" };
+				--{ 4, "s73642", "52353", "=q3=Figurine - Jeweled Serpent", "=ds=#sr# 475", "=ds=#QUESTID:28775#" };
+				--{ 5, "s73639", "52351", "=q3=Figurine - King of Boars", "=ds=#sr# 475", "=ds=#QUESTID:28778#" };
 				{ 7, "s56203", "42418", "=q3=Figurine - Emerald Boar", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
 				{ 8, "s59759", "44063", "=q3=Figurine - Monarch Crab", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
 				{ 9, "s56199", "42341", "=q3=Figurine - Ruby Hare", "=ds=#sr# 400", "=ds="..AL["Trainer"] };
