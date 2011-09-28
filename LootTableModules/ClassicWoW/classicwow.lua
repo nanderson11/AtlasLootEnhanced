@@ -4015,7 +4015,7 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%"};
-				{ 2, 13335, "", "=q4=Deathcharger's Reins", "=ds=#e26#", "", "0.10%"};
+				{ 2, 13335, "", "=q4=Deathcharger's Reins", "=ds=#e26#", "", "1%"};
 				{ 4, 13340, "", "=q3=Cape of the Black Baron", "=ds=#s4#", "", "8.75%"};
 				{ 5, 22412, "", "=q3=Thuzadin Mantle", "=ds=#s3#, #a1#", "", "4.16%"};
 				{ 6, 13346, "", "=q3=Robes of the Exalted", "=ds=#s5#, #a1#", "", "11.51%"};

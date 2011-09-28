@@ -53,6 +53,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Companions
 ---- Mounts
 ---- Transformation Items
+---- Bags
 ---- BoE World Epics
 ---- Heirloom Items
 ---- Justice Points Items
@@ -5530,6 +5531,35 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
+	AtlasLoot_Data["T13Rogue"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 2, 0, "", "=q4=Blackfang Helmet", "=ds=#s1#, #a2#"};
+				{ 3, 0, "", "=q4=Blackfang Spaulders", "=ds=#s3#, #a2#"};
+				{ 4, 0, "", "=q4=Blackfang Tunic", "=ds=#s5#, #a2#"};
+				{ 5, 0, "", "=q4=Blackfang Gloves", "=ds=#s9#, #a2#"};
+				{ 6, 0, "", "=q4=Blackfang Legguards", "=ds=#s11#, #a2#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 9, 0, "", "=q4=Blackfang Helmet", "=ds=#s1#, #a2#"};
+				{ 10, 0, "", "=q4=Blackfang Spaulders", "=ds=#s3#, #a2#"};
+				{ 11, 0, "", "=q4=Blackfang Tunic", "=ds=#s5#, #a2#"};
+				{ 12, 0, "", "=q4=Blackfang Gloves", "=ds=#s9#, #a2#"};
+				{ 13, 0, "", "=q4=Blackfang Legguards", "=ds=#s11#, #a2#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Blackfang Helmet", "=ds=#s1#, #a2#"};
+				{ 18, 0, "", "=q4=Blackfang Spaulders", "=ds=#s3#, #a2#"};
+				{ 19, 0, "", "=q4=Blackfang Tunic", "=ds=#s5#, #a2#"};
+				{ 20, 0, "", "=q4=Blackfang Gloves", "=ds=#s9#, #a2#"};
+				{ 21, 0, "", "=q4=Blackfang Legguards", "=ds=#s11#, #a2#"};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			module = moduleName, menu = "T13SET",
+		};
+	}
+
 	AtlasLoot_Data["T13ShamanElemental"] = {
 		["Normal"] = {
 			{
@@ -5864,7 +5894,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
 				{ 2, 0, "", "=q4=Wasteland Tallstrider", "=ds=#e26#" },
 				{ 3, 0, "", "=q3=Throwing Starfish", "=ds=" },
-				{ 4, 0, "", "=q1=Bloat the Bubble Fish", "=ds=#e13#" },
+				{ 4, 0, "", "=q3=Bloat the Bubble Fish", "=ds=#e13#" },
 				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
 				{ 7, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
 				{ 8, 69227, "", "=q3=Fool's Gold", "=ds=" },
@@ -6239,7 +6269,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
 				{ 4, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
 				{ 5, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 6, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
+				{ 6, 0, "", "=q3=Bloat the Bubble Fish", "=q2="..AL["Card Game Item"]},
+				{ 7, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
 				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
 				{ 18, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
 				{ 19, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
@@ -6327,7 +6358,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 47100, "", "=q3=Reins of the Striped Dawnsaber", "=ds=#e26#"};
 				{ 7, 8631, "", "=q3=Reins of the Striped Frostsaber", "=ds=#e26#"};
 				{ 8, 8629, "", "=q3=Reins of the Striped Nightsaber", "=ds=#e26#"};
-				{ 10, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Gilneas"].." #j30#", "=ec1=#m7#"};
+				{ 10, 0, "inv_misc_tabard_gilneas", "=q6="..BabbleFaction["Gilneas"].." #j30#", "=ec1=#m7#"};
 				{ 11, 0, "", "=q4=Placeholder", "=ds=#e26#"};
 				{ 12, 0, "", "=q3=Placeholder", "=ds=#e26#"};
 				{ 16, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"].." #j30#", "=ec1=#m7#"};
@@ -6674,10 +6705,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
 				{ 6, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
 				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
-				{ 8, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
-				{ 9, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
-				{ 10, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
-				{ 11, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
+				{ 8, 0, "", "=q4=Wasteland Tallstrider", "=ds=#e26#" },
+				{ 9, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
+				{ 10, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
+				{ 11, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
+				{ 12, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
@@ -6804,6 +6836,43 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = AL["Transformation Items"],
 			module = moduleName, menu = "SETMENU",
+		};
+	}
+
+		------------
+		--- Bags ---
+		------------
+-- THIS SECTION IS UNDER HEAVY CONSTRUCTION
+	AtlasLoot_Data["Bags"] = {
+		["Normal"] = {
+			{
+				{ 1, 54444, "", "=q3=Illusionary Bag", "=ds=", "Tailoring"};
+				{ 2, 18714, "", "=q4=Ancient Sinew Wrapped Lamina", "=ds=", "Not available"};
+				{ 3, 51809, "", "=q4=Portable Hole", "=ds=", "Vendor, 3000g"};
+				{ 4, 69748, "", "=q3=Tattered Hexcloth Bag", "=ds=", "Zul Aman"};
+				{ 5, 38082, "", "=q4='Gigantique' Bag", "=ds=", "Vendor, 1200g"};
+				{ 6, 43345, "", "=q4=Dragon Hide Bag", "=ds=", "Sartharion"};
+				{ 7, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=", "Onyxia"};
+				{ 8, 50316, "", "=q4=Papa's Brand New Bag", "=ds=", "The Forge of Souls"};
+				{ 9, 41957, "", "=q3=Abyssal Bag", "=ds=", "Tailoring"};
+				{ 10, 41600, "", "=q3=Glacial Bag", "=ds=", "Tailoring"};
+				{ 11, 54443, "", "=q2=Embersilk Bag", "=ds=", "Tailoring"};
+				{ 12, 50317, "", "=q4=Papa's New Bag", "=ds=", "The Forge of Souls"};
+				{ 13, 34845, "", "=q4=Pit Lord's Satchel", "=ds=", "Magtheridon"};
+				{ 16, 44447, "", "=q3=Dragonscale Ammo Pouch", "=ds=", "Not available"};
+				{ 17, 21872, "", "=q3=Ebon Shadowbag", "=ds=", "Tailoring"};
+				{ 18, 44448, "", "=q3=Nerubian Reinforced Quiver", "=ds=", "Not available"};
+				{ 19, 34106, "", "=q3=Netherscale Ammo Pouch", "=ds=", "Not available"};
+				{ 20, 21876, "", "=q3=Primal Mooncloth Bag", "=ds=", "Tailoring"};
+				{ 21, 34105, "", "=q3=Quiver of a Thousand Feathers", "=ds=", "Leatherworking"};
+				{ 22, 35516, "", "=q3=Sun Touched Satchel", "=ds=", "Magister's Terrace"};
+				{ 23, 34067, "", "=q3=Tattered Hexcloth Sack", "=ds=", "Not available"};
+				{ 24, 41599, "", "=q2=Frostweave Bag", "=ds=", "Tailoring"};
+			};
+		};
+		info = {
+			name = "Bags",
+			module = moduleName,
 		};
 	}
 

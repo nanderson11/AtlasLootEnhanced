@@ -555,16 +555,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyArmorAndWeapons"] = {
 		["Normal"] = {
 			{
-				{ 2, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
-				{ 3, 64644, "", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
-				{ 4, 64904, "", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
-				{ 5, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
-				{ 17, 64885, "", "=q4=Scimitar of the Sirocco", "=ds="..AL["Tol'vir"], "=ds=#h1#, #w10#"};
-				{ 18, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
-				{ 19, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
-				{ 20, 64880, "", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
-				{ 21, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
-				{ 22, 69764, "", "=q4=Extinct Turtle Shell", "=ds="..AL["Fossil"], "=ds=#w8#"};
+				{ 2, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
+				{ 3, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
+				{ 4, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
+				{ 5, "s91757", "64645", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
+				{ 17, "s92163", "64885", "=q4=Scimitar of the Sirocco", "=ds="..AL["Tol'vir"], "=ds=#h1#, #w10#"};
+				{ 18, "s90608", "64377", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
+				{ 19, "s90997", "64460", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
+				{ 20, "s92139", "64880", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
+				{ 21, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
+				{ 22, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds="..AL["Fossil"], "=ds=#w8#"};
 			};
 		};
 		info = {
@@ -578,21 +578,21 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 2, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds="..AL["Tol'vir"], "=ds=#p1# (525)"};
-				{ 3, 64481, "", "=q4=Blessing of the Old God", "=ds="..AL["Fossil"]};
-				{ 4, 64646, "", "=q4=Bones of Transformation", "=ds="..AL["Night Elf"]};
-				{ 5, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="..AL["Tol'vir"]};
-				{ 6, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds="..AL["Fossil"]};
-				{ 7, 64651, "", "=q4=Wisp Amulet", "=ds="..AL["Night Elf"]};
-				{ 17, 69776, "", "=q3=Ancient Amber", "=ds="..AL["Fossil"], "=ds="};
-				{ 18, 64456, "", "=q3=Arrival of the Naaru", "=ds="..AL["Draenei"]};
-				{ 19, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds="..AL["Dwarf"]};
-				{ 20, 64361, "", "=q3=Druid and Priest Statue Set", "=ds="..AL["Night Elf"]};
-				{ 21, 69777, "", "=q3=Haunted War Drum", "=ds="..AL["Troll"]};
-				{ 22, 64358, "", "=q3=Highborne Soul Mirror", "=ds="..AL["Night Elf"]};
-				{ 23, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds="..AL["Night Elf"]};
-				{ 24, 64488, "", "=q3=The Innkeeper's Daughter", "=ds="..AL["Dwarf"]};
-				{ 25, 64457, "", "=q3=The Last Relic of Argus", "=ds="..AL["Draenei"]};
-				{ 26, 69775, "", "=q3=Vrykul Drinking Horn", "=ds="..AL["Vrykul"]};
+				{ 3, "s91214", "64481", "=q4=Blessing of the Old God", "=ds="..AL["Fossil"]};
+				{ 4, "s91761", "64646", "=q4=Bones of Transformation", "=ds="..AL["Night Elf"]};
+				{ 5, "s92145", "64881", "=q4=Pendant of the Scarab Storm", "=ds="..AL["Tol'vir"]};
+				{ 6, "s91215", "64482", "=q4=Puzzle Box of Yogg-Saron", "=ds="..AL["Fossil"]};
+				{ 7, "s91773", "64651", "=q4=Wisp Amulet", "=ds="..AL["Night Elf"]};
+				{ 17, "s98560", "69776", "=q3=Ancient Amber", "=ds="..AL["Fossil"], "=ds="};
+				{ 18, "s90983", "64456", "=q3=Arrival of the Naaru", "=ds="..AL["Draenei"]};
+				{ 19, "s90553", "64373", "=q3=Chalice of the Mountain Kings", "=ds="..AL["Dwarf"]};
+				{ 20, "s90493", "64361", "=q3=Druid and Priest Statue Set", "=ds="..AL["Night Elf"]};
+				{ 21, "s98556", "69777", "=q3=Haunted War Drum", "=ds="..AL["Troll"]};
+				{ 22, "s90464", "64358", "=q3=Highborne Soul Mirror", "=ds="..AL["Night Elf"]};
+				{ 23, "s90614", "64383", "=q3=Kaldorei Wind Chimes", "=ds="..AL["Night Elf"]};
+				{ 24, "s91226", "64488", "=q3=The Innkeeper's Daughter", "=ds="..AL["Dwarf"]};
+				{ 25, "s90984", "64457", "=q3=The Last Relic of Argus", "=ds="..AL["Draenei"]};
+				{ 26, "s98569", "69775", "=q3=Vrykul Drinking Horn", "=ds="..AL["Vrykul"]};
 			};
 		};
 		info = {
@@ -605,13 +605,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyPetMount"] = {
 		["Normal"] = {
 			{
-				{ 2, 60847, "", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
-				{ 3, 64372, "", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
-				{ 4, 60955, "", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
-				{ 5, 69821, "", "=q3=Pterrordax Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
-				{ 6, 69824, "", "=q3=Voodoo Figurine", "=ds="..AL["Troll"], "=ds=#e13#"};
-				{ 17, 60954, "", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
-				{ 18, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
+				{ 2, "s92137", "60847", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
+				{ 3, "s90521", "64372", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
+				{ 4, "s89693", "60955", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
+				{ 5, "s9858", "69821", "=q3=Pterrordax Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
+				{ 6, "s98588", "69824", "=q3=Voodoo Figurine", "=ds="..AL["Troll"], "=ds=#e13#"};
+				{ 17, "s90619", "60954", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
+				{ 18, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
 			};
 		};
 		info = {
@@ -624,39 +624,39 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyDwarf"] = {
 		["Normal"] = {
 			{
-				{ 1, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#sr# 450", "=ds=#w9#"};
-				{ 3, 64372, "", "=q3=Clockwork Gnome", "=ds=#sr# 225", "=ds=#e13#"};
-				{ 4, 64373, "", "=q3=Chalice of the Mountain Kings", "=ds=#sr# 150"};
-				{ 5, 64488, "", "=q3=The Innkeeper's Daughter", "=ds=#sr# 150"};
-				{ 7, 63113, "", "=q0=Belt Buckle with Anvilmar Crest", "=ds=#sr# 1"};
-				{ 8, 64339, "", "=q0=Bodacious Door Knocker", "=ds=#sr# 1"};
-				{ 9, 63112, "", "=q0=Bone Gaming Dice", "=ds=#sr# 1"};
-				{ 10, 64340, "", "=q0=Boot Heel with Scrollwork", "=ds=#sr# 1"};
-				{ 11, 63409, "", "=q0=Ceramic Funeral Urn", "=ds=#sr# 1"};
-				{ 12, 64362, "", "=q0=Dented Shield of Horuz Killcrow", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
-				{ 13, 66054, "", "=q0=Dwarven Baby Socks", "=ds=#sr# 1"};
-				{ 14, 64342, "", "=q0=Golden Chamber Pot", "=ds=#sr# 1"};
-				{ 15, 64344, "", "=q0=Ironstar's Petrified Shield", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
-				{ 16, 64368, "", "=q0=Mithril Chain of Angerforge", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
-				{ 17, 63414, "", "=q0=Moltenfist's Jeweled Goblet", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
-				{ 18, 64337, "", "=q0=Notched Sword of Tunadil the Redeemer", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
-				{ 19, 63408, "", "=q0=Pewter Drinking Cup", "=ds=#sr# 1"};
-				{ 20, 64659, "", "=q0=Pipe of Franclorn Forgewright", "=ds=#sr# 1"};
-				{ 21, 64487, "", "=q0=Scepter of Bronzebeard", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
-				{ 22, 64367, "", "=q0=Scepter of Charlga Razorflank", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
-				{ 23, 64366, "", "=q0=Scorched Staff of Shadow Priest Anund", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
-				{ 24, 64483, "", "=q0=Silver Kris of Korl", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
-				{ 25, 63411, "", "=q0=Silver Neck Torc", "=ds=#sr# 1"};
-				{ 26, 64371, "", "=q0=Skull Staff of Shadowforge", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
-				{ 27, 64485, "", "=q0=Spiked Gauntlets of Anvilrage", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
-				{ 28, 63410, "", "=q0=Stone Gryphon", "=ds=#sr# 1"};
-				{ 29, 64484, "", "=q0=Warmaul of Burningeye", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
-				{ 30, 64343, "", "=q0=Winged Helm of Corehammer", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 1, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#sr# 450", "=ds=#w9#"};
+				{ 3, "s90521", "64372", "=q3=Clockwork Gnome", "=ds=#sr# 225", "=ds=#e13#"};
+				{ 4, "s90553", "64373", "=q3=Chalice of the Mountain Kings", "=ds=#sr# 150"};
+				{ 5, "s91226", "64488", "=q3=The Innkeeper's Daughter", "=ds=#sr# 150"};
+				{ 7, "s88910", "63113", "=q0=Belt Buckle with Anvilmar Crest", "=ds=#sr# 1"};
+				{ 8, "s90411", "64339", "=q0=Bodacious Door Knocker", "=ds=#sr# 1"};
+				{ 9, "s86866", "63112", "=q0=Bone Gaming Dice", "=ds=#sr# 1"};
+				{ 10, "s90412", "64340", "=q0=Boot Heel with Scrollwork", "=ds=#sr# 1"};
+				{ 11, "s86864", "63409", "=q0=Ceramic Funeral Urn", "=ds=#sr# 1"};
+				{ 12, "s90504", "64362", "=q0=Dented Shield of Horuz Killcrow", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
+				{ 13, "s93440", "66054", "=q0=Dwarven Baby Socks", "=ds=#sr# 1"};
+				{ 14, "s90413", "64342", "=q0=Golden Chamber Pot", "=ds=#sr# 1"};
+				{ 15, "s90419", "64344", "=q0=Ironstar's Petrified Shield", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 16, "s90518", "64368", "=q0=Mithril Chain of Angerforge", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 17, "s89717", "63414", "=q0=Moltenfist's Jeweled Goblet", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 18, "s90410", "64337", "=q0=Notched Sword of Tunadil the Redeemer", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
+				{ 19, "s86857", "63408", "=q0=Pewter Drinking Cup", "=ds=#sr# 1"};
+				{ 20, "s91793", "64659", "=q0=Pipe of Franclorn Forgewright", "=ds=#sr# 1"};
+				{ 21, "s91225", "64487", "=q0=Scepter of Bronzebeard", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
+				{ 22, "s90509", "64367", "=q0=Scepter of Charlga Razorflank", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
+				{ 23, "s90506", "64366", "=q0=Scorched Staff of Shadow Priest Anund", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
+				{ 24, "s91219", "64483", "=q0=Silver Kris of Korl", "=ds=#sr# 1", "#ACHIEVEMENTID:5193#"};
+				{ 25, "s88181", "63411", "=q0=Silver Neck Torc", "=ds=#sr# 1"};
+				{ 26, "s90519", "64371", "=q0=Skull Staff of Shadowforge", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 27, "s91223", "64485", "=q0=Spiked Gauntlets of Anvilrage", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 28, "s88180", "63410", "=q0=Stone Gryphon", "=ds=#sr# 1"};
+				{ 29, "s91221", "64484", "=q0=Warmaul of Burningeye", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
+				{ 30, "s90415", "64343", "=q0=Winged Helm of Corehammer", "=ds=#sr# 1", "#ACHIEVEMENTID:4859#"};
 			};
 			{
-				{ 1, 63111, "", "=q0=Wooden Whistle", "=ds=#sr# 1"};
-				{ 2, 64486, "", "=q0=Word of Empress Zoe", "=ds=#sr# 1"};
-				{ 3, 63110, "", "=q0=Worn Hunting Knife", "=ds=#sr# 1"};
+				{ 1, "s88909", "63111", "=q0=Wooden Whistle", "=ds=#sr# 1"};
+				{ 2, "s91224", "64486", "=q0=Word of Empress Zoe", "=ds=#sr# 1"};
+				{ 3, "s86865", "63110", "=q0=Worn Hunting Knife", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -669,31 +669,31 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyNightElf"] = {
 		["Normal"] = {
 			{
-				{ 1, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#sr# 450", "=ds=#s14#"};
-				{ 2, 64646, "", "=q4=Bones of Transformation", "=ds=#sr# 450", "=ds="};
-				{ 3, 64651, "", "=q4=Wisp Amulet", "=ds=#sr# 450"};
-				{ 4, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds=#sr# 225", "=ds=#s5#, #a1#"};
-				{ 6, 64647, "", "=q0=Carcanet of the Hundred Magi", "=ds=#sr# 450"};
-				{ 7, 64648, "", "=q0=Silver Scroll Case", "=ds=#sr# 450", "#ACHIEVEMENTID:5191#"};
-				{ 8, 64650, "", "=q0=Umbra Crescent", "=ds=#sr# 450"};
-				{ 9, 64379, "", "=q0=Chest of Tiny Glass Animals", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 10, 63407, "", "=q0=Cloak Clasp with Antlers", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 11, 63525, "", "=q0=Coin from Eldre'Thalas", "=ds=#sr# 1"};
-				{ 12, 64381, "", "=q0=Cracked Crystal Vial", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 13, 64357, "", "=q0=Delicate Music Box", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 14, 63528, "", "=q0=Green Dragon Ring", "=ds=#sr# 1"};
-				{ 16, 64383, "", "=q3=Kaldorei Wind Chimes", "=ds=#sr# 250"};
-				{ 17, 64361, "", "=q3=Druid and Priest Statue Set", "=ds=#sr# 150"};
-				{ 18, 64358, "", "=q3=Highborne Soul Mirror", "=ds=#sr# 150"};
-				{ 21, 64356, "", "=q0=Hairpin of Silver and Malachite", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 22, 63129, "", "=q0=Highborne Pyxis", "=ds=#sr# 1"};
-				{ 23, 63130, "", "=q0=Inlaid Ivory Comb", "=ds=#sr# 1"};
-				{ 24, 64354, "", "=q0=Kaldorei Amphora", "=ds=#sr# 1"};
-				{ 25, 66055, "", "=q0=Necklace with Elune Pendant", "=ds=#sr# 1"};
-				{ 26, 63131, "", "=q0=Scandalous Silk Nightgown", "=ds=#sr# 1"};
-				{ 27, 64382, "", "=q0=Scepter of Xavius", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
-				{ 28, 63526, "", "=q0=Shattered Glaive", "=ds=#sr# 1"};
-				{ 29, 64378, "", "=q0=String of Small Pink Pearls", "=ds=#sr# 1"};
+				{ 1, "s91757", "64645", "=q4=Tyrande's Favorite Doll", "=ds=#sr# 450", "=ds=#s14#"};
+				{ 2, "s91761", "64646", "=q4=Bones of Transformation", "=ds=#sr# 450", "=ds="};
+				{ 3, "s91773", "64651", "=q4=Wisp Amulet", "=ds=#sr# 450"};
+				{ 4, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds=#sr# 225", "=ds=#s5#, #a1#"};
+				{ 6, "s91762", "64647", "=q0=Carcanet of the Hundred Magi", "=ds=#sr# 450"};
+				{ 7, "s91766", "64648", "=q0=Silver Scroll Case", "=ds=#sr# 450", "#ACHIEVEMENTID:5191#"};
+				{ 8, "s91769", "64650", "=q0=Umbra Crescent", "=ds=#sr# 450"};
+				{ 9, "s90610", "64379", "=q0=Chest of Tiny Glass Animals", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 10, "s89696", "63407", "=q0=Cloak Clasp with Antlers", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 11, "s89893", "63525", "=q0=Coin from Eldre'Thalas", "=ds=#sr# 1"};
+				{ 12, "s90611", "64381", "=q0=Cracked Crystal Vial", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 13, "s90458", "64357", "=q0=Delicate Music Box", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 14, "s89896", "63528", "=q0=Green Dragon Ring", "=ds=#sr# 1"};
+				{ 16, "s90614", "64383", "=q3=Kaldorei Wind Chimes", "=ds=#sr# 250"};
+				{ 17, "s90493", "64361", "=q3=Druid and Priest Statue Set", "=ds=#sr# 150"};
+				{ 18, "s90464", "64358", "=q3=Highborne Soul Mirror", "=ds=#sr# 150"};
+				{ 21, "s90453", "64356", "=q0=Hairpin of Silver and Malachite", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 22, "s89009", "63129", "=q0=Highborne Pyxis", "=ds=#sr# 1"};
+				{ 23, "s89012", "63130", "=q0=Inlaid Ivory Comb", "=ds=#sr# 1"};
+				{ 24, "s90451", "64354", "=q0=Kaldorei Amphora", "=ds=#sr# 1"};
+				{ 25, "s93441", "66055", "=q0=Necklace with Elune Pendant", "=ds=#sr# 1"};
+				{ 26, "s89014", "63131", "=q0=Scandalous Silk Nightgown", "=ds=#sr# 1"};
+				{ 27, "s90612", "64382", "=q0=Scepter of Xavius", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
+				{ 28, "s89894", "63526", "=q0=Shattered Glaive", "=ds=#sr# 1"};
+				{ 29, "s90609", "64378", "=q0=String of Small Pink Pearls", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -706,23 +706,23 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyFossil"] = {
 		["Normal"] = {
 			{
-				{ 2, 69764, "", "=q4=Extinct Turtle Shell", "=ds=#sr# 150", "=ds=#w8#"};
-				{ 3, 60954, "", "=q4=Fossilized Raptor", "=ds=#sr# 150", "=ds=#e26#"};
-				{ 6, 64473, "", "=q0=Imprint of a Kraken Tentacle", "=ds=#sr# 300"};
-				{ 7, 64468, "", "=q0=Proto-Drake Skeleton", "=ds=#sr# 300"};
-				{ 8, 64355, "", "=q0=Ancient Shark Jaws", "=ds=#sr# 1"};
-				{ 9, 63121, "", "=q0=Beautiful Preserved Fern", "=ds=#sr# 1"};
-				{ 10, 63109, "", "=q0=Black Trilobite", "=ds=#sr# 1"};
-				{ 11, 64349, "", "=q0=Devilsaur Tooth", "=ds=#sr# 1"};
-				{ 17, 69821, "", "=q3=Pterrordax Hatchling", "=ds=#sr# 120", "=ds=#e13#"};
-				{ 18, 69776, "", "=q3=Ancient Amber", "=ds=#sr# 100", "=ds="};
-				{ 19, 60955, "", "=q3=Fossilized Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
-				{ 21, 64385, "", "=q0=Feathered Raptor Arm", "=ds=#sr# 1"};
-				{ 22, 64350, "", "=q0=Insect in Amber", "=ds=#sr# 1"};
-				{ 23, 66056, "", "=q0=Shard of Petrified Wood", "=ds=#sr# 1"};
-				{ 24, 66057, "", "=q0=Strange Velvet Worm", "=ds=#sr# 1"};
-				{ 25, 63527, "", "=q0=Twisted Ammonite Shell", "=ds=#sr# 1"};
-				{ 26, 64387, "", "=q0=Vicious Ancient Fish", "=ds=#sr# 1"};
+				{ 2, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds=#sr# 150", "=ds=#w8#"};
+				{ 3, "s90619", "60954", "=q4=Fossilized Raptor", "=ds=#sr# 150", "=ds=#e26#"};
+				{ 6, "s91132", "64473", "=q0=Imprint of a Kraken Tentacle", "=ds=#sr# 300"};
+				{ 7, "s91089", "64468", "=q0=Proto-Drake Skeleton", "=ds=#sr# 300"};
+				{ 8, "s90452", "64355", "=q0=Ancient Shark Jaws", "=ds=#sr# 1"};
+				{ 9, "s88930", "63121", "=q0=Beautiful Preserved Fern", "=ds=#sr# 1"};
+				{ 10, "s88929", "63109", "=q0=Black Trilobite", "=ds=#sr# 1"};
+				{ 11, "s90432", "64349", "=q0=Devilsaur Tooth", "=ds=#sr# 1"};
+				{ 17, "s98582", "69821", "=q3=Pterrordax Hatchling", "=ds=#sr# 120", "=ds=#e13#"};
+				{ 18, "s98560", "69776", "=q3=Ancient Amber", "=ds=#sr# 100", "=ds="};
+				{ 19, "s89693", "60955", "=q3=Fossilized Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
+				{ 21, "s90617", "64385", "=q0=Feathered Raptor Arm", "=ds=#sr# 1"};
+				{ 22, "s90433", "64350", "=q0=Insect in Amber", "=ds=#sr# 1"};
+				{ 23, "s93442", "66056", "=q0=Shard of Petrified Wood", "=ds=#sr# 1"};
+				{ 24, "s93443", "66057", "=q0=Strange Velvet Worm", "=ds=#sr# 1"};
+				{ 25, "s89895", "63527", "=q0=Twisted Ammonite Shell", "=ds=#sr# 1"};
+				{ 26, "s90618", "64387", "=q0=Vicious Ancient Fish", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -735,23 +735,23 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyTroll"] = {
 		["Normal"] = {
 			{
-				{ 2, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#sr# 450", "=ds=#h2#, #w10#"};
-				{ 5, 64348, "", "=q0=Atal'ai Scepter", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
-				{ 6, 64346, "", "=q0=Bracelet of Jade and Coins", "=ds=#sr# 1"};
-				{ 7, 63524, "", "=q0=Cinnabar Bijou", "=ds=#sr# 1"};
-				{ 8, 64375, "", "=q0=Drakkari Sacrificial Knife", "=ds=#sr# 1"};
-				{ 9, 63523, "", "=q0=Eerie Smolderthorn Idol", "=ds=#sr# 1"};
-				{ 10, 63413, "", "=q0=Feathered Gold Earring", "=ds=#sr# 1"};
-				{ 11, 63120, "", "=q0=Fetish of Hir'eek", "=ds=#sr# 1"};
-				{ 17, 69824, "", "=q3=Voodoo Figurine", "=ds=#sr# 100", "=ds=#e13#"};
-				{ 18, 69777, "", "=q3=Haunted War Drum", "=ds=#sr# 100"};
-				{ 20, 66058, "", "=q0=Fine Bloodscalp Dinnerware", "=ds=#sr# 1"};
-				{ 21, 64347, "", "=q0=Gahz'rilla Figurine", "=ds=#sr# 1"};
-				{ 22, 63412, "", "=q0=Jade Asp with Ruby Eyes", "=ds=#sr# 1"};
-				{ 23, 63118, "", "=q0=Lizard Foot Charm", "=ds=#sr# 1"};
-				{ 24, 64345, "", "=q0=Skull-Shaped Planter", "=ds=#sr# 1"};
-				{ 25, 64374, "", "=q0=Tooth with Gold Filling", "=ds=#sr# 1"};
-				{ 26, 63115, "", "=q0=Zandalari Voodoo Doll", "=ds=#sr# 1"};
+				{ 2, "s90608", "64377", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#sr# 450", "=ds=#h2#, #w10#"};
+				{ 5, "s90429", "64348", "=q0=Atal'ai Scepter", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
+				{ 6, "s90421", "64346", "=q0=Bracelet of Jade and Coins", "=ds=#sr# 1"};
+				{ 7, "s89891", "63524", "=q0=Cinnabar Bijou", "=ds=#sr# 1"};
+				{ 8, "s90581", "64375", "=q0=Drakkari Sacrificial Knife", "=ds=#sr# 1"};
+				{ 9, "s89890", "63523", "=q0=Eerie Smolderthorn Idol", "=ds=#sr# 1"};
+				{ 10, "s89711", "63413", "=q0=Feathered Gold Earring", "=ds=#sr# 1"};
+				{ 11, "s88907", "63120", "=q0=Fetish of Hir'eek", "=ds=#sr# 1"};
+				{ 17, "s98588", "69824", "=q3=Voodoo Figurine", "=ds=#sr# 100", "=ds=#e13#"};
+				{ 18, "s98556", "69777", "=q3=Haunted War Drum", "=ds=#sr# 100"};
+				{ 20, "s93444", "66058", "=q0=Fine Bloodscalp Dinnerware", "=ds=#sr# 1"};
+				{ 21, "s90423", "64347", "=q0=Gahz'rilla Figurine", "=ds=#sr# 1"};
+				{ 22, "s89701", "63412", "=q0=Jade Asp with Ruby Eyes", "=ds=#sr# 1"};
+				{ 23, "s88908", "63118", "=q0=Lizard Foot Charm", "=ds=#sr# 1"};
+				{ 24, "s90420", "64345", "=q0=Skull-Shaped Planter", "=ds=#sr# 1"};
+				{ 25, "s90558", "64374", "=q0=Tooth with Gold Filling", "=ds=#sr# 1"};
+				{ 26, "s88262", "63115", "=q0=Zandalari Voodoo Doll", "=ds=#sr# 1"};
 			};
 		};
 		info = {
@@ -764,16 +764,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyOrc"] = {
 		["Normal"] = {
 			{
-				{ 2, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
-				{ 4, 64436, "", "=q0=Fiendish Whip", "=ds=#sr# 300"};
-				{ 5, 64421, "", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
-				{ 6, 64418, "", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 7, 64417, "", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 8, 64419, "", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 19, 64420, "", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
-				{ 20, 64438, "", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
-				{ 21, 64437, "", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
-				{ 22, 64389, "", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 2, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
+				{ 4, "s90831", "64436", "=q0=Fiendish Whip", "=ds=#sr# 300"};
+				{ 5, "s90734", "64421", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
+				{ 6, "s90728", "64418", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 7, "s90720", "64417", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 8, "s90730", "64419", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 19, "s90732", "64420", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
+				{ 20, "s90833", "64438", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
+				{ 21, "s90832", "64437", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
+				{ 22, "s90622", "64389", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
 			};
 		};
 		info = {
@@ -786,16 +786,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyDraenei"] = {
 		["Normal"] = {
 			{
-				{ 2, 64456, "", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
-				{ 4, 64440, "", "=q0=Anklet with Golden Bells", "=ds=#sr# 300"};
-				{ 5, 64453, "", "=q0=Baroque Sword Scabbard", "=ds=#sr# 300"};
-				{ 6, 64442, "", "=q0=Carved Harp of Exotic Wood", "=ds=#sr# 300"};
-				{ 7, 64455, "", "=q0=Dignified Portrait", "=ds=#sr# 300"};
-				{ 17, 64457, "", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
-				{ 19, 64454, "", "=q0=Fine Crystal Candelabra", "=ds=#sr# 300"};
-				{ 20, 64458, "", "=q0=Plated Elekk Goad", "=ds=#sr# 300"};
-				{ 21, 64444, "", "=q0=Scepter of the Nathrezim", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#"};
-				{ 22, 64443, "", "=q0=Strange Silver Paperweight", "=ds=#sr# 300"};
+				{ 2, "s90983", "64456", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
+				{ 4, "s90853", "64440", "=q0=Anklet with Golden Bells", "=ds=#sr# 300"};
+				{ 5, "s90968", "64453", "=q0=Baroque Sword Scabbard", "=ds=#sr# 300"};
+				{ 6, "s90860", "64442", "=q0=Carved Harp of Exotic Wood", "=ds=#sr# 300"};
+				{ 7, "s90975", "64455", "=q0=Dignified Portrait", "=ds=#sr# 300"};
+				{ 17, "s90984", "64457", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
+				{ 19, "s90974", "64454", "=q0=Fine Crystal Candelabra", "=ds=#sr# 300"};
+				{ 20, "s90987", "64458", "=q0=Plated Elekk Goad", "=ds=#sr# 300"};
+				{ 21, "s90864", "64444", "=q0=Scepter of the Nathrezim", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#"};
+				{ 22, "s90861", "64443", "=q0=Strange Silver Paperweight", "=ds=#sr# 300"};
 			};
 		};
 		info = {
@@ -808,13 +808,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyVrykul"] = {
 		["Normal"] = {
 			{
-				{ 2, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 375", "=ds=#h1#, #w1#" };
-				{ 4, 64464, "", "=q0=Fanged Cloak Pin", "=ds=#sr# 375"};
-				{ 5, 64462, "", "=q0=Flint Striker", "=ds=#sr# 375"};
-				{ 6, 64459, "", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 375"};
-				{ 17, 69775, "", "=q3=Vrykul Drinking Horn", "=ds=#sr# 100" };
-				{ 19, 64461, "", "=q0=Scramseax", "=ds=#sr# 375"};
-				{ 20, 64467, "", "=q0=Thorned Necklace", "=ds=#sr# 375"};
+				{ 2, "s90997", "64460", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 375", "=ds=#h1#, #w1#" };
+				{ 4, "s91014", "64464", "=q0=Fanged Cloak Pin", "=ds=#sr# 375"};
+				{ 5, "s91012", "64462", "=q0=Flint Striker", "=ds=#sr# 375"};
+				{ 6, "s90988", "64459", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 375"};
+				{ 17, "s98569", "69775", "=q3=Vrykul Drinking Horn", "=ds=#sr# 100" };
+				{ 19, "s91008", "64461", "=q0=Scramseax", "=ds=#sr# 375"};
+				{ 20, "s91084", "64467", "=q0=Thorned Necklace", "=ds=#sr# 375"};
 			};
 		};
 		info = {
@@ -827,15 +827,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyNerubian"] = {
 		["Normal"] = {
 			{
-				{ 2, 64481, "", "=q4=Blessing of the Old God", "=ds=#sr# 375"};
-				{ 4, 64479, "", "=q0=Ewer of Jormungar Blood", "=ds=#sr# 375"};
-				{ 5, 64477, "", "=q0=Gruesome Heart Box", "=ds=#sr# 375"};
-				{ 6, 64476, "", "=q0=Infested Ruby Ring", "=ds=#sr# 375"};
-				{ 7, 64475, "", "=q0=Scepter of Nezar'Azret", "=ds=#sr# 375", "#ACHIEVEMENTID:4858#"};
-				{ 17, 64482, "", "=q4=Puzzle Box of Yogg-Saron", "=ds=#sr# 375"};
-				{ 19, 64478, "", "=q0=Six-Clawed Cornice", "=ds=#sr# 375"};
-				{ 20, 64474, "", "=q0=Spidery Sundial", "=ds=#sr# 375"};
-				{ 21, 64480, "", "=q0=Vizier's Scrawled Streamer", "=ds=#sr# 375"};
+				{ 2, "s91214", "64481", "=q4=Blessing of the Old God", "=ds=#sr# 375"};
+				{ 4, "s91209", "64479", "=q0=Ewer of Jormungar Blood", "=ds=#sr# 375"};
+				{ 5, "s91191", "64477", "=q0=Gruesome Heart Box", "=ds=#sr# 375"};
+				{ 6, "s91188", "64476", "=q0=Infested Ruby Ring", "=ds=#sr# 375"};
+				{ 7, "s91170", "64475", "=q0=Scepter of Nezar'Azret", "=ds=#sr# 375", "#ACHIEVEMENTID:4858#"};
+				{ 17, "s91215", "64482", "=q4=Puzzle Box of Yogg-Saron", "=ds=#sr# 375"};
+				{ 19, "s91197", "64478", "=q0=Six-Clawed Cornice", "=ds=#sr# 375"};
+				{ 20, "s91133", "64474", "=q0=Spidery Sundial", "=ds=#sr# 375"};
+				{ 21, "s91211", "64480", "=q0=Vizier's Scrawled Streamer", "=ds=#sr# 375"};
 			};
 		};
 		info = {
@@ -849,19 +849,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds=#sr# 450", "=ds=#p1# (525)"};
-				{ 2, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#sr# 450", "=ds=#s13#"};
-				{ 3, 64885, "", "=q4=Scimitar of the Sirocco", "=ds=#sr# 450", "=ds=#h1#, #w10#"};
-				{ 4, 64880, "", "=q4=Staff of Ammunae", "=ds=#sr# 450", "=ds=#w9#"};
-				{ 6, 64657, "", "=q1=Canopic Jar", "=ds=#sr# 450"};
-				{ 7, 64652, "", "=q0=Castle of Sand", "=ds=#sr# 450"};
-				{ 8, 64653, "", "=q0=Cat Statue with Emerald Eyes", "=ds=#sr# 450"};
-				{ 9, 64656, "", "=q0=Engraved Scimitar Hilt", "=ds=#sr# 450"};
-				{ 16, 60847, "", "=q4=Crawling Claw", "=ds=#sr# 450", "=ds=#e13#"};
-				{ 17, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#sr# 450", "=ds=#e12#"};
-				{ 18, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds=#sr# 450", "=ds="};
-				{ 21, 64658, "", "=q0=Sketch of a Desert Palace", "=ds=#sr# 450"};
-				{ 22, 64654, "", "=q0=Soapstone Scarab Necklace", "=ds=#sr# 450"};
-				{ 23, 64655, "", "=q0=Tiny Oasis Mosaic", "=ds=#sr# 450"};
+				{ 2, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds=#sr# 450", "=ds=#s13#"};
+				{ 3, "s92163", "64885", "=q4=Scimitar of the Sirocco", "=ds=#sr# 450", "=ds=#h1#, #w10#"};
+				{ 4, "s92139", "64880", "=q4=Staff of Ammunae", "=ds=#sr# 450", "=ds=#w9#"};
+				{ 6, "s91790", "64657", "=q1=Canopic Jar", "=ds=#sr# 450"};
+				{ 7, "s91775", "64652", "=q0=Castle of Sand", "=ds=#sr# 450"};
+				{ 8, "s91779", "64653", "=q0=Cat Statue with Emerald Eyes", "=ds=#sr# 450"};
+				{ 9, "s91785", "64656", "=q0=Engraved Scimitar Hilt", "=ds=#sr# 450"};
+				{ 16, "s92137", "60847", "=q4=Crawling Claw", "=ds=#sr# 450", "=ds=#e13#"};
+				{ 17, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds=#sr# 450", "=ds=#e12#"};
+				{ 18, "s92145", "64881", "=q4=Pendant of the Scarab Storm", "=ds=#sr# 450", "=ds="};
+				{ 21, "s91792", "64658", "=q0=Sketch of a Desert Palace", "=ds=#sr# 450"};
+				{ 22, "s91780", "64654", "=q0=Soapstone Scarab Necklace", "=ds=#sr# 450"};
+				{ 23, "s91782", "64655", "=q0=Tiny Oasis Mosaic", "=ds=#sr# 450"};
 			};
 		};
 		info = {

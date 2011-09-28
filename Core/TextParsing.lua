@@ -600,7 +600,7 @@ AtlasLoot_TextParsing = {
 	{ "#t13s4_3#", BabbleItemSet["Battleplate of Immolation"] },
 	{ "#t13s5_1#", BabbleItemSet["Regalia of the Cleansing Flame"] },
 	{ "#t13s5_2#", BabbleItemSet["Vestments of the Cleansing Flame"] },
-	{ "#t13s6#", BabbleItemSet["Vestments of the Dark Phoenix"] },
+	{ "#t13s6#", "Blackfang Battleweave" },--done
 	{ "#t13s7_1#", "Spiritwalker's Vestments" },--done
 	{ "#t13s7_2#", "Spiritwalker's Battlegear" },--done
 	{ "#t13s7_3#", "Spiritwalker's Regalia" },--done
