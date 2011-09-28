@@ -161,33 +161,33 @@ AtlasLoot_LootTableRegister = {
 
 		["Endtime"] = {
 			["Bosses"] = {
-				{ "EndtimeSylvanas" },
-				{ "EndtimeTyrande" },
-				{ "EndtimeJaina" },
-				{ "EndtimeBaine" },
+				{ "EndtimeSylvanas", 0, EncounterJournalID = 323 },
+				{ "EndtimeTyrande", 0, EncounterJournalID = 289 }, -- "Murozond" ??
+				{ "EndtimeJaina", 0, EncounterJournalID = 285 },
+				{ "EndtimeBaine", 0, EncounterJournalID = 340 },
 				{ "EndtimeTrash" },
 			},
-			["Info"] = { "Endtime", "AtlasLootCataclysm" },
+			["Info"] = { "Endtime", "AtlasLootCataclysm", EncounterJournalID = 184 },
 		},
 
 		["WellofEternity"] = {
 			["Bosses"] = {
-				{ "WoEPerotharn" },
-				{ "WoEAzshara" },
-				{ "WoEMannoroth" },
+				{ "WoEPerotharn", 0, EncounterJournalID = 290 },
+				{ "WoEAzshara", 0, EncounterJournalID = 291 },
+				{ "WoEMannoroth", 0, EncounterJournalID = 292 },
 				{ "WoETrash" },
 			},
-			["Info"] = { "Well of Eternity", "AtlasLootCataclysm" },
+			["Info"] = { "Well of Eternity", "AtlasLootCataclysm", EncounterJournalID = 185 },
 		},
 
 		["HourofTwilight"] = {
 			["Bosses"] = {
-				{ "HoTArcurion" },
-				{ "HoTDawnslayer" },
-				{ "HoTBenedictus" },
+				{ "HoTArcurion", 0, EncounterJournalID = 341 },
+				{ "HoTDawnslayer", 0, EncounterJournalID = 342 },
+				{ "HoTBenedictus", 0, EncounterJournalID = 322 },
 				{ "HoTTrash" },
 			},
-			["Info"] = { "Hour of Twilight", "AtlasLootCataclysm" },
+			["Info"] = { "Hour of Twilight", "AtlasLootCataclysm", EncounterJournalID = 186 },
 		},
 
 	---- Raids
@@ -255,16 +255,16 @@ AtlasLoot_LootTableRegister = {
 
 		["TheDragonSoul"] = {
 			["Bosses"] = {
-				{ "DragonSoulMorchok" },
-				{ "DragonSoulZonozz" },
-				{ "DragonSoulYorsahj" },
-				{ "DragonSoulHagara" },
-				{ "DragonSoulUltraxion" },
-				{ "DragonSoulBlackhorn" },
-				{ "DragonSoulDeathwing" },
+				{ "DragonSoulMorchok", 0, EncounterJournalID = 311 },
+				{ "DragonSoulZonozz", 0, EncounterJournalID = 324 },
+				{ "DragonSoulYorsahj", 0, EncounterJournalID = 325 },
+				{ "DragonSoulHagara", 0, EncounterJournalID = 317 },
+				{ "DragonSoulUltraxion", 0, EncounterJournalID = 331 },
+				{ "DragonSoulBlackhorn", 0, EncounterJournalID = 332 },
+				{ "DragonSoulDeathwing", 0, EncounterJournalID = 318 },
 				{ "DragonSoulTrash" },
 			},
-			["Info"] = { "The Dragon Soul", "AtlasLootCataclysm", raid = true },
+			["Info"] = { "The Dragon Soul", "AtlasLootCataclysm", raid = true, EncounterJournalID = 187 },
 		},
 
 -----------------------

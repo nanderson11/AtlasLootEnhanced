@@ -1559,7 +1559,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Echo of Sylvanas",
+			name = AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323),
 			module = moduleName, instance = "Endtime",
 		};
 	};
@@ -1570,7 +1570,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Echo of Tyrande",
+			name = AtlasLoot:EJ_GetBossName("Murozond", 289),
 			module = moduleName, instance = "Endtime",
 		};
 	};
@@ -1581,7 +1581,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Echo of Jaina",
+			name = AtlasLoot:EJ_GetBossName("Echo of Jaina", 285),
 			module = moduleName, instance = "Endtime",
 		};
 	};
@@ -1592,7 +1592,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Echo of Baine",
+			name = AtlasLoot:EJ_GetBossName("Echo of Baine", 340),
 			module = moduleName, instance = "Endtime",
 		};
 	};
@@ -1611,14 +1611,14 @@ local moduleName = "AtlasLootCataclysm"
 		------------------------
 		--- Well of Eternity ---
 		------------------------
-
+				
 	AtlasLoot_Data["WoEPerotharn"] = {
 		["Normal"] = {
 			{
 			};
 		};
 		info = {
-			name = "Peroth'arn",
+			name = AtlasLoot:EJ_GetBossName("Peroth'arn", 290),
 			module = moduleName, instance = "WellofEternity",
 		};
 	};
@@ -1629,7 +1629,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Azshara",
+			name = AtlasLoot:EJ_GetBossName("Queen Azshara", 291),
 			module = moduleName, instance = "WellofEternity",
 		};
 	};
@@ -1640,7 +1640,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Mannoroth",
+			name = AtlasLoot:EJ_GetBossName("Mannoroth and Varo'then", 292),
 			module = moduleName, instance = "WellofEternity",
 		};
 	};
@@ -1666,7 +1666,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Arcurion",
+			name = AtlasLoot:EJ_GetBossName("Arcurion", 322),
 			module = moduleName, instance = "HourofTwilight",
 		};
 	};
@@ -1677,7 +1677,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Dawnslayer",
+			name = AtlasLoot:EJ_GetBossName("Asira Dawnslayer", 342),
 			module = moduleName, instance = "HourofTwilight",
 		};
 	};
@@ -1688,7 +1688,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Benedictus",
+			name = AtlasLoot:EJ_GetBossName("Archbishop Benedictus", 341),
 			module = moduleName, instance = "HourofTwilight",
 		};
 	};
@@ -3202,7 +3202,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Morchok",
+			name = AtlasLoot:EJ_GetBossName("Morchok", 311),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
@@ -3219,7 +3219,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Warlord Zon'ozz",
+			name = AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
@@ -3236,7 +3236,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Yor'sahj the Unsleeping",
+			name = AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
@@ -3253,7 +3253,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Hagara the Binder",
+			name = AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
@@ -3270,7 +3270,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Ultraxion",
+			name = AtlasLoot:EJ_GetBossName("Ultraxion", 331),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
@@ -3287,7 +3287,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Warmaster Blackhorn",
+			name = AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};
@@ -3304,7 +3304,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = "Deathwing",
+			name = AtlasLoot:EJ_GetBossName("Spine of Deathwing", 318),
 			module = moduleName, instance = "TheDragonSoul",
 		};
 	};

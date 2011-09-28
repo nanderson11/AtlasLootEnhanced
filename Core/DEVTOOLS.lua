@@ -115,11 +115,6 @@ function getItemPrice(strg, newPrice, newPriceIcon)
 	return retStrg
 end
 
-local function startVendorScan(tab)
-	itemUpdated = 0
-	-- itemTexture, itemValue, itemLink = GetMerchantItemCostItem(index, itemIndex)
-	-- numItems = GetMerchantNumItems();
-	-- itemID = string.match(itemLink, "item:(%d+):")
 	local qualityTab = {
 		--"=q0=",
 		"=q1=",
@@ -130,6 +125,12 @@ local function startVendorScan(tab)
 		"=q6=",
 		"=q7=",
 	}
+	
+local function startVendorScan(tab)
+	itemUpdated = 0
+	-- itemTexture, itemValue, itemLink = GetMerchantItemCostItem(index, itemIndex)
+	-- numItems = GetMerchantNumItems();
+	-- itemID = string.match(itemLink, "item:(%d+):")
 
 	if MerchantFrame:IsShown() then
 		if tab then
@@ -385,6 +386,54 @@ local function ItemScanFrame(container)
 end
 
 -- ######################################################
+-- ######################################################
+function startEJScan()
+	local num = EJ_GetNumLoot()
+	local rettab = {
+		[1] = {}
+	}
+	for i = 1, num do
+		local name, icon, slot, armorType, itemID, link = EJ_GetLootInfoByIndex(i)
+		
+		local _,_,quality = GetItemInfo(itemID)
+		quality = qualityTab[quality]
+		
+		local desc = AtlasLoot:FixTextBack(AtlasLoot:GetItemEquipInfo(itemID))
+		rettab[1][i] = {i, itemID, "", quality..name, "=ds="..desc }
+	end
+	
+	return rettab
+end
+
+local function EJScan(container)
+	local lootTable, lootTableString
+  
+	local multiEditbox = AceGUI:Create("MultiLineEditBox")
+
+	local desc = AceGUI:Create("Label")
+	desc:SetText("")
+	--desc:SetFullWidth(true)
+	
+	local button = AceGUI:Create("Button")
+	button:SetText("Start Scan")
+	button:SetCallback("OnClick", function() 
+		lootTableString = startEJScan()
+		lootTableString = returnItemTableString(lootTableString)
+		multiEditbox:SetText(lootTableString)
+	end)
+	button:SetWidth(200)
+	container:AddChild(button)
+
+	container:AddChild(desc)
+	
+	multiEditbox:SetLabel("LootTable:")
+	multiEditbox:SetFullWidth(true)
+	multiEditbox:SetFullHeight(true)
+	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
+	container:AddChild(multiEditbox)
+end
+
+-- ######################################################
 
 
 -- Callback function for OnGroupSelected
@@ -397,6 +446,8 @@ local function SelectGroup(container, event, group)
 	elseif group == "tab3" then
 		InstanceInfoFrame(container)
 	elseif group == "tab4" then
+		EJScan(container)
+	elseif group == "tab5" then
 		ItemScanFrame(container)
    end
 end
@@ -414,7 +465,7 @@ function AtlasLoot:DevTool_CreateFrame()
 	local tab =  AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
-	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}})
+	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}, {text="EJ Scan", value="tab4"}})
 	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)
@@ -446,8 +497,6 @@ function AtlasLoot:GetEJDetails(bool)
         iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
 	end
 end
-
-
 
 local atlasSupportRemoved = false
 function AtlasLoot:ReduceMemoryUsage()
