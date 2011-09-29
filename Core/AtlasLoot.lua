@@ -1351,13 +1351,13 @@ do
 		AtlasLootScanTooltip:SetHyperlink("quest:"..questID);
 		AtlasLootScanTooltip:Show()
 		
-		local lastTime = GetTime()
-		while not questName or questName == "" do
+		--local lastTime = GetTime()
+		--while not questName or questName == "" do
 			questName = _G["AtlasLootScanTooltipTextLeft1"]:GetText()
-			if (GetTime() - lastTime) > 0.05 then
-				break
-			end
-		end
+			--if (GetTime() - lastTime) > 0.05 then
+				--break
+			--end
+		--end
 		
 		AtlasLootScanTooltip:Hide()
 		
