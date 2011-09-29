@@ -51,6 +51,9 @@ end
 
 local function encounterJournal_OnClick(self)
 	if self.info then
+		if not IsAddOnLoaded("Blizzard_EncounterJournal") then
+			LoadAddOn("Blizzard_EncounterJournal")
+		end
 		EncounterJournal_ListInstances()
 		if self.info[1] then
 			EncounterJournal_DisplayInstance(self.info[1])
