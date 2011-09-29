@@ -250,6 +250,8 @@ if AL then
 	--AL["ilvl 372"] = true;
 	--AL["ilvl 378"] = true;
 	--AL["ilvl 391"] = true;
+	--AL["ilvl 397"] = true;
+	--AL["ilvl 410"] = true;
 
 	-- #######################################
 	-- UI things END
@@ -817,6 +819,12 @@ if AL then
 
 	-- Fifteenth set
 	--AL["Twilight of the Dragons"] = true;
+
+	-- Seventeenth set
+	--AL["Crown of Heaven"] = true;
+
+	-- Eighteenth set
+	--AL["Tomb of the Forgotten"] = true;
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
