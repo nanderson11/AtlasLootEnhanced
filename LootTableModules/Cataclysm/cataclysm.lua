@@ -7096,7 +7096,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
 				{ 21, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
 				{ 22, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
-				{ 23, 46398, "", "=q1=Calico Cat", "=ds="..BabbleZone["Dalaran"]};
+				{ 23, 46398, "", "=q1=Cat Carrier (Calico Cat)", "=ds="..BabbleZone["Dalaran"]};
 				{ 24, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
 				{ 25, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
 				{ 26, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
@@ -7350,17 +7350,21 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsCardGame"] = {
 		["Normal"] = {
 			{
+
+
 				{ 2, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
 				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
 				{ 4, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
 				{ 5, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 6, 71624, "", "=q3=Purple Puffer", "=q2="..AL["Card Game Item"]},
+				{ 6, 72134, "", "=q3=Grell Moss", "=q2="..AL["Card Game Item"]};
 				{ 7, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
-				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 8, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
+				{ 17, 71624, "", "=q3=Purple Puffer", "=q2="..AL["Card Game Item"]},
 				{ 18, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
-				{ 19, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
-				{ 20, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
-				{ 21, 68841, "", "=q1=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
+				{ 19, 72153, "", "=q3=Sand Scarab", "=q2="..AL["Card Game Item"]};
+				{ 20, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
+				{ 21, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
+				{ 22, 68841, "", "=q3=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
 			};
 		};
 		info = {
@@ -7895,7 +7899,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 8, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#, =ec1="..BabbleFaction["Horde"]};
 				{ 9, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
 				{ 10, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
-				--{ 12, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};--diabled as it causes a dc on 4.3
+				{ 12, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};--diabled as it causes a dc on 4.3
 				{ 13, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
 				{ 14, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};

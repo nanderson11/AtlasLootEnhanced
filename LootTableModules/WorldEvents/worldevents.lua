@@ -703,7 +703,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 34686, "", "=q3=Brazier of Dancing Flames", "", "#MIDSUMMER:350#"};
-				{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#", "", "#MIDSUMMER:350#"};
+				{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#", "#MIDSUMMER:350#"};
 				{ 4, 23379, "", "=q2=Cinder Bracers", "=ds=#e22#"};
 				{ 6, 23246, "", "=q1=Fiery Festival Brew", "", "#MIDSUMMER:2#"};
 				{ 7, 23435, "", "=q1=Elderberry Pie", "", "#MIDSUMMER:5#"};
@@ -715,9 +715,10 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 13, 34599, "", "=q1=Juggling Torch", "", "#MIDSUMMER:5#"};
 				{ 15, 23247, "", "=q1=Burning Blossom", "=ds=#m17#"};
 				{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#, #m4#"};
-				{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#", "#MIDSUMMER:100#"};
-				{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#", "#MIDSUMMER:100#"};
-				{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#", "#MIDSUMMER:200#"};
+				{ 17, 74278, "", "=q1=Helm of the Fire Festival", "=ds=#s1#"};
+				{ 18, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#", "#MIDSUMMER:100#"};
+				{ 19, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#", "#MIDSUMMER:100#"};
+				{ 20, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#", "#MIDSUMMER:200#"};
 			};
 		};
 		info = {
@@ -764,10 +765,12 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
 				{ 9, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
 				{ 17, 44803, "", "=q1=Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
-				{ 18, 19028, "", "=q1=Elegant Dress", "=ds=#s5#", "#NOBLEGARDEN:50#"};
-				{ 19, 44800, "", "=q1=Spring Robes", "=ds=#s5#", "#NOBLEGARDEN:50#"};
-				{ 20, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#", "#NOBLEGARDEN:25#"};
-				{ 21, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#", "#NOBLEGARDEN:25#"};
+				{ 18, 74282, "", "=q1=Black Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
+				{ 19, 74283, "", "=q1=Pink Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
+				{ 20, 19028, "", "=q1=Elegant Dress", "=ds=#s5#", "#NOBLEGARDEN:50#"};
+				{ 21, 44800, "", "=q1=Spring Robes", "=ds=#s5#", "#NOBLEGARDEN:50#"};
+				{ 22, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#", "#NOBLEGARDEN:25#"};
+				{ 23, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#", "#NOBLEGARDEN:25#"};
 			};
 		};
 		info = {
