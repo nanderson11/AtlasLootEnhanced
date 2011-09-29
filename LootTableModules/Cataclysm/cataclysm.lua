@@ -8,25 +8,25 @@ local moduleName = "AtlasLootCataclysm"
 -- Index
 --- Dungeons & Raids
 ---- Blackrock Caverns
----- Throne of the Tides
----- The Stonecore
----- Vortex Pinnacle
----- Lost City of Tol'vir
+---- Caverns of Time: Endtime
+---- Caverns of Time: Hour of Twilight
+---- Caverns of Time: Well of Eternity
 ---- Grim Batol
 ---- Halls of Origination
----- The Deadmines
+---- Lost City of Tol'vir
 ---- Shadowfang Keep
+---- The Deadmines
+---- The Stonecore
+---- The Vortex Pinnacle
+---- Throne of the Tides
 ---- Zul'Aman
 ---- Zul'Gurub
----- Endtime
----- Well of Eternity
----- Hour of Twilight
----- Bastion of Twilight
----- Blackwing Descent
 ---- Baradin Hold
+---- Blackwing Descent
+---- Caverns of Time: Dragon Soul
+---- Firelands
+---- The Bastion of Twilight
 ---- Throne of the Four Winds
----- The Firelands
----- The Dragon Soul
 --- Factions
 ---- Avengers of Hyjal
 ---- Baradin's Wardens
@@ -207,465 +207,197 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		---------------------------
-		--- Throne of the Tides ---
-		---------------------------
+		--------------------------------
+		--- Caverns of Time: Endtime ---
+		--------------------------------
 
-	AtlasLoot_Data["ToTNazjar"] = {
+	AtlasLoot_Data["EndtimeBaine"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55202, "", "=q3=Periwinkle Cloak", "=ds=#s4#", ""};
-				{ 3, 55198, "", "=q3=Aurelian Mitre", "=ds=#s1#, #a1#", ""};
-				{ 4, 55195, "", "=q3=Wrasse Handwraps", "=ds=#s9#, #a3#", ""};
-				{ 5, 55201, "", "=q3=Entwined Nereis", "=ds=#s13#", ""};
-				{ 6, 55203, "", "=q3=Lightning Whelk Axe", "=ds=#h1#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5285#"};
-				{ 17, 56267, "", "=q3=Periwinkle Cloak", "=ds=#s4#", ""};
-				{ 18, 56269, "", "=q3=Aurelian Mitre", "=ds=#s1#, #a1#", ""};
-				{ 19, 56268, "", "=q3=Wrasse Handwraps", "=ds=#s9#, #a3#", ""};
-				{ 20, 56270, "", "=q3=Entwined Nereis", "=ds=#s13#", ""};
-				{ 21, 56266, "", "=q3=Lightning Whelk Axe", "=ds=#h1#, #w1#", ""};
+    			{ 1, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+    			{ 2, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 3, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 4, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
+    			{ 5, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
+    			{ 16, 72814, "", "=q4=Axe of the Tauren Chieftains", "=ds=#h2#, #w1#" },
+    			{ 17, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Lady Naz'jar", 101),
-			module = moduleName, instance = "ThroneOfTheTides",
+			name = AtlasLoot:EJ_GetBossName("Echo of Baine", 340),
+			module = moduleName, instance = "CoTEndTime",
 		};
 	};
 
-	AtlasLoot_Data["ToTUlthok"] = {
+	AtlasLoot_Data["EndtimeJaina"] = {
 		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55206, "", "=q3=Eagle Ray Cloak", "=ds=#s4#", ""};
-				{ 3, 55204, "", "=q3=Caridean Epaulettes", "=ds=#s3#, #a2#", ""};
-				{ 4, 55205, "", "=q3=Chromis Chestpiece", "=ds=#s5#, #a3#", ""};
-				{ 5, 55207, "", "=q3=Harp Shell Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 6, 55228, "", "=q3=Cerith Spire Staff", "=ds=#w9#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56275, "", "=q3=Eagle Ray Cloak", "=ds=#s4#", ""};
-				{ 18, 56273, "", "=q3=Caridean Epaulettes", "=ds=#s3#, #a2#", ""};
-				{ 19, 56274, "", "=q3=Chromis Chestpiece", "=ds=#s5#, #a3#", ""};
-				{ 20, 56272, "", "=q3=Harp Shell Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 21, 56271, "", "=q3=Cerith Spire Staff", "=ds=#w9#", ""};
+			{    			
+    			{ 1, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+    			{ 2, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+   			{ 3, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 4, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
+    			{ 16, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
+    			{ 17, 72808, "", "=q4=Jaina's Staff", "=ds=#w9#" },
+    			{ 18, 72809, "", "=q4=Ward of Incantations", "=ds=#w8#" },
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Commander Ulthok", 102),
-			module = moduleName, instance = "ThroneOfTheTides",
+			name = AtlasLoot:EJ_GetBossName("Echo of Jaina", 285),
+			module = moduleName, instance = "CoTEndTime",
 		};
 	};
 
-	AtlasLoot_Data["ToTMindbender"] = {
+	AtlasLoot_Data["EndtimeSylvanas"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55236, "", "=q3=Anthia's Ring", "=ds=#s13#", ""};
-				{ 3, 55235, "", "=q3=Decapod Slippers", "=ds=#s12#, #a2#", ""};
-				{ 4, 55229, "", "=q3=Anomuran Helm", "=ds=#s1#, #a4#", ""};
-				{ 5, 55237, "", "=q3=Porcelain Crab", "=ds=#s14#", ""};
-				{ 6, 55248, "", "=q3=Conch of Thundering Waves", "=ds=#s16#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56276, "", "=q3=Anthia's Ring", "=ds=#s13#", ""};
-				{ 18, 56277, "", "=q3=Decapod Slippers", "=ds=#s12#, #a2#", ""};
-				{ 19, 56278, "", "=q3=Anomuran Helm", "=ds=#s1#, #a4#", ""};
-				{ 20, 56280, "", "=q3=Porcelain Crab", "=ds=#s14#", ""};
-				{ 21, 56279, "", "=q3=Conch of Thundering Waves", "=ds=#s16#", ""};
+    			{ 1, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
+    			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
+    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 4, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 5, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 6, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+    			{ 16, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
 			};
 		};
 		info = {
-			name = BabbleBoss["Erunak Stonespeaker"].." & "..AtlasLoot:EJ_GetBossName("Mindbender Ghur'sha", 103),
-			module = moduleName, instance = "ThroneOfTheTides",
+			name = AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323),
+			module = moduleName, instance = "CoTEndTime",
 		};
 	};
 
-	AtlasLoot_Data["ToTOzumat"] = {
+	AtlasLoot_Data["EndtimeTyrande"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55255, "", "=q3=Mnemiopsis Gloves", "=ds=#s9#, #a1#", ""};
-				{ 3, 55253, "", "=q3=Wentletrap Vest", "=ds=#s5#, #a3#", ""};
-				{ 4, 55254, "", "=q3=Abalone Plate Armor", "=ds=#s5#, #a4#", ""};
-				{ 5, 55249, "", "=q3=Triton Legplates", "=ds=#s11#, #a4#", ""};
-				{ 6, 55258, "", "=q3=Pipefish Cord", "=ds=#s2#", ""};
-				{ 7, 55250, "", "=q3=Nautilus Ring", "=ds=#s13#", ""};
-				{ 8, 55251, "", "=q3=Might of the Ocean", "=ds=#s14#", ""};
-				{ 9, 55256, "", "=q3=Sea Star", "=ds=#s14#", ""};
-				{ 10, 55259, "", "=q3=Bioluminescent Lamp", "=ds=#s15#", ""};
-				{ 11, 55252, "", "=q3=Whitefin Axe", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5286#"};
-				{ 17, 56286, "", "=q3=Mnemiopsis Gloves", "=ds=#s9#, #a1#", ""};
-				{ 18, 56281, "", "=q3=Wentletrap Vest", "=ds=#s5#, #a3#", ""};
-				{ 19, 56291, "", "=q3=Abalone Plate Armor", "=ds=#s5#, #a4#", ""};
-				{ 20, 56283, "", "=q3=Triton Legplates", "=ds=#s11#, #a4#", ""};
-				{ 21, 56288, "", "=q3=Pipefish Cord", "=ds=#s2#", ""};
-				{ 22, 56282, "", "=q3=Nautilus Ring", "=ds=#s13#", ""};
-				{ 23, 56285, "", "=q3=Might of the Ocean", "=ds=#s14#", ""};
-				{ 24, 56290, "", "=q3=Sea Star", "=ds=#s14#", ""};
-				{ 25, 56289, "", "=q3=Bioluminescent Lamp", "=ds=#s15#", ""};
-				{ 26, 56284, "", "=q3=Whitefin Axe", "=ds=#h2#, #w1#", ""};
+    			{ 1, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
+    			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
+    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 4, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 5, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 6, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+    			{ 16, 72812, "", "=q4=Crescent Moon", "=ds=#h1#, #w1#" },
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Ozumat", 104),
-			module = moduleName, instance = "ThroneOfTheTides",
+			name = AtlasLoot:EJ_GetBossName("Echo of Tyrande", 283),
+			module = moduleName, instance = "CoTEndTime",
 		};
 	};
 
-	AtlasLoot_Data["ToTTrash"] = {
+	AtlasLoot_Data["EndtimeMurozond"] = {
 		["Normal"] = {
 			{
-				{ 2, 55260, "", "=q3=Alpheus Legguards", "=ds=#s11#, #a4#", ""};
-				{ 17, 55262, "", "=q3=Barnacle Pendant", "=ds=#s2#", ""};
-				{ 18, 55261, "", "=q3=Ring of the Great Whale", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Murozond", 289),
+			module = moduleName, instance = "CoTEndTime",
+		};
+	};
+
+	AtlasLoot_Data["EndtimeTrash"] = {
+		["Normal"] = {
+			{
 			};
 		};
 		info = {
 			name = "trash",
-			module = moduleName, instance = "ThroneOfTheTides",
+			module = moduleName, instance = "CoTEndTime",
 		};
 	};
 
-		---------------------
-		--- The Stonecore ---
-		---------------------
+		-----------------------------------------
+		--- Caverns of Time: Hour of Twilight ---
+		-----------------------------------------
 
-	AtlasLoot_Data["StonecoreCorborus"] = {
+	AtlasLoot_Data["HoTArcurion"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55793, "", "=q3=Dolomite Adorned Gloves", "=ds=#s9#, #a1#", ""};
-				{ 3, 55792, "", "=q3=Cinnabar Shoulders", "=ds=#s3#, #a4#", ""};
-				{ 4, 55794, "", "=q3=Phosphorescent Ring", "=ds=#s13#", ""};
-				{ 5, 55795, "", "=q3=Key to the Endless Chamber", "=ds=#s14#", ""};
-				{ 6, 55796, "", "=q3=Fist of Pained Senses", "=ds=#h3#, #w13#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56331, "", "=q3=Dolomite Adorned Gloves", "=ds=#s9#, #a1#", ""};
-				{ 18, 56330, "", "=q3=Cinnabar Shoulders", "=ds=#s3#, #a4#", ""};
-				{ 19, 56332, "", "=q3=Phosphorescent Ring", "=ds=#s13#", ""};
-				{ 20, 56328, "", "=q3=Key to the Endless Chamber", "=ds=#s14#", ""};
-				{ 21, 56329, "", "=q3=Fist of Pained Senses", "=ds=#h3#, #w13#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Corborus", 110),
-			module = moduleName, instance = "TheStonecore",
+			name = AtlasLoot:EJ_GetBossName("Arcurion", 322),
+			module = moduleName, instance = "CoTHourOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["StonecoreSlabhide"] = {
+	AtlasLoot_Data["HoTDawnslayer"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
-				{ 3, 55798, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
-				{ 4, 55797, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
-				{ 5, 55799, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
-				{ 6, 55800, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
-				{ 7, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
-				{ 18, 56334, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
-				{ 19, 56336, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
-				{ 20, 56333, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
-				{ 21, 56337, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
-				{ 22, 56335, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Slabhide", 111),
-			module = moduleName, instance = "TheStonecore",
+			name = AtlasLoot:EJ_GetBossName("Asira Dawnslayer", 342),
+			module = moduleName, instance = "CoTHourOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["StonecoreOzruk"] = {
+	AtlasLoot_Data["HoTBenedictus"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55802, "", "=q3=Elementium Scale Bracers", "=ds=#s8#, #a3#", ""};
-				{ 3, 55803, "", "=q3=Belt of the Ringworm", "=ds=#s10#, #a4#", ""};
-				{ 4, 55804, "", "=q3=Pendant of the Lightless Grotto", "=ds=#s2#", ""};
-				{ 5, 55810, "", "=q3=Tendrils of Burrowing Dark", "=ds=#s14#", ""};
-				{ 6, 55811, "", "=q3=Sword of the Bottomless Pit", "=ds=#h2#, #w10#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56340, "", "=q3=Elementium Scale Bracers", "=ds=#s8#, #a3#", ""};
-				{ 18, 56341, "", "=q3=Belt of the Ringworm", "=ds=#s10#, #a4#", ""};
-				{ 19, 56338, "", "=q3=Pendant of the Lightless Grotto", "=ds=#s2#", ""};
-				{ 20, 56339, "", "=q3=Tendrils of Burrowing Dark", "=ds=#s14#", ""};
-				{ 21, 56342, "", "=q3=Sword of the Bottomless Pit", "=ds=#h2#, #w10#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Ozruk", 112),
-			module = moduleName, instance = "TheStonecore",
+			name = AtlasLoot:EJ_GetBossName("Archbishop Benedictus", 341),
+			module = moduleName, instance = "CoTHourOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["StonecoreAzil"] = {
+	AtlasLoot_Data["HoTTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55817, "", "=q3=Slippers of the Twilight Prophet", "=ds=#s12#, #a1#", ""};
-				{ 3, 55812, "", "=q3=Helm of Numberless Shadows", "=ds=#s1#, #a2#", ""};
-				{ 4, 55818, "", "=q3=Cowl of the Unseen World", "=ds=#s1#, #a3#", ""};
-				{ 5, 55816, "", "=q3=Leaden Despair", "=ds=#s14#", ""};
-				{ 6, 55814, "", "=q3=Magnetite Mirror", "=ds=#s14#", ""};
-				{ 7, 55819, "", "=q3=Tear of Blood", "=ds=#s14#", ""};
-				{ 8, 55820, "", "=q3=Prophet's Scepter", "=ds=#s15#", ""};
-				{ 9, 55821, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
-				{ 10, 55813, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
-				{ 11, 55815, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5287#"};
-				{ 17, 56348, "", "=q3=Slippers of the Twilight Prophet", "=ds=#s12#, #a1#", ""};
-				{ 18, 56344, "", "=q3=Helm of Numberless Shadows", "=ds=#s1#, #a2#", ""};
-				{ 19, 56352, "", "=q3=Cowl of the Unseen World", "=ds=#s1#, #a3#", ""};
-				{ 20, 56347, "", "=q3=Leaden Despair", "=ds=#s14#", ""};
-				{ 21, 56345, "", "=q3=Magnetite Mirror", "=ds=#s14#", ""};
-				{ 22, 56351, "", "=q3=Tear of Blood", "=ds=#s14#", ""};
-				{ 23, 56349, "", "=q3=Prophet's Scepter", "=ds=#s15#", ""};
-				{ 24, 56350, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
-				{ 25, 56346, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
-				{ 26, 56343, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("High Priestess Azil", 113),
-			module = moduleName, instance = "TheStonecore",
-		};
-	};
-
-	AtlasLoot_Data["StonecoreTrash"] = {
-		["Normal"] = {
-			{
-				{ 2, 55824, "", "=q3=Skin of Stone", "=ds=#s4#", ""};
-				{ 17, 55822, "", "=q3=Heavy Geode Mace", "=ds=#h1#, #w6#", ""};
-				{ 18, 55823, "", "=q3=Wand of Dark Worship", "=ds=#w12#", ""};
 			};
 		};
 		info = {
 			name = "trash",
-			module = moduleName, instance = "TheStonecore",
+			module = moduleName, instance = "CoTHourOfTwilight",
 		};
 	};
 
-		-------------------------
-		--- Vortex Pinnacle -----
-		-------------------------
-
-	AtlasLoot_Data["VPErtan"] = {
+		-----------------------------------------
+		--- Caverns of Time: Well of Eternity ---
+		-----------------------------------------
+				
+	AtlasLoot_Data["WoEPerotharn"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55830, "", "=q3=Stratosphere Belt", "=ds=#s10#, #a1#", ""};
-				{ 3, 55832, "", "=q3=Fallen Snow Shoulderguards", "=ds=#s3#, #a3#", ""};
-				{ 4, 55831, "", "=q3=Headcover of Fog", "=ds=#s1#, #a4#", ""};
-				{ 5, 55833, "", "=q3=Red Sky Pendant", "=ds=#s2#", ""};
-				{ 6, 55834, "", "=q3=Biting Wind", "=ds=#h3#, #w4#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56356, "", "=q3=Stratosphere Belt", "=ds=#s10#, #a1#", ""};
-				{ 18, 56359, "", "=q3=Fallen Snow Shoulderguards", "=ds=#s3#, #a3#", ""};
-				{ 19, 56358, "", "=q3=Headcover of Fog", "=ds=#s1#, #a4#", ""};
-				{ 20, 56360, "", "=q3=Red Sky Pendant", "=ds=#s2#", ""};
-				{ 21, 56357, "", "=q3=Biting Wind", "=ds=#h3#, #w4#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Grand Vizier Ertan", 114),
-			module = moduleName, instance = "TheVortexPinnacle",
+			name = AtlasLoot:EJ_GetBossName("Peroth'arn", 290),
+			module = moduleName, instance = "CoTWellOfEternity",
 		};
 	};
 
-	AtlasLoot_Data["VPAltairus"] = {
+	AtlasLoot_Data["WoEAzshara"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
-				{ 3, 55838, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
-				{ 4, 55835, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
-				{ 5, 55840, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
-				{ 6, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
-				{ 7, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
-				{ 18, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
-				{ 19, 56363, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
-				{ 20, 56362, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
-				{ 21, 56365, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
-				{ 22, 56364, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Altairus", 115),
-			module = moduleName, instance = "TheVortexPinnacle",
+			name = AtlasLoot:EJ_GetBossName("Queen Azshara", 291),
+			module = moduleName, instance = "CoTWellOfEternity",
 		};
 	};
 
-	AtlasLoot_Data["VPAsaad"] = {
+	AtlasLoot_Data["WoEMannoroth"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55847, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
-				{ 3, 55850, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
-				{ 4, 55849, "", "=q3=Leggings of Iridescent Clouds", "=ds=#s11#, #a1#", ""};
-				{ 5, 55844, "", "=q3=Gloves of Haze", "=ds=#s9#, #a2#", ""};
-				{ 6, 55848, "", "=q3=Lunar Halo", "=ds=#s1#, #a4#", ""};
-				{ 7, 55842, "", "=q3=Legguards of Winnowing Wind", "=ds=#s11#, #a4#", ""};
-				{ 8, 55851, "", "=q3=Ring of Frozen Rain", "=ds=#s13#", ""};
-				{ 9, 55845, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
-				{ 10, 55852, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
-				{ 11, 55846, "", "=q3=Lightningflash", "=ds=#w5#", ""};
-				{ 12, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5288#"};
-				{ 17, 56369, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
-				{ 18, 56371, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
-				{ 19, 56375, "", "=q3=Leggings of Iridescent Clouds", "=ds=#s11#, #a1#", ""};
-				{ 20, 56368, "", "=q3=Gloves of Haze", "=ds=#s9#, #a2#", ""};
-				{ 21, 56374, "", "=q3=Lunar Halo", "=ds=#s1#, #a4#", ""};
-				{ 22, 56367, "", "=q3=Legguards of Winnowing Wind", "=ds=#s11#, #a4#", ""};
-				{ 23, 56373, "", "=q3=Ring of Frozen Rain", "=ds=#s13#", ""};
-				{ 24, 56370, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
-				{ 25, 56372, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
-				{ 26, 56366, "", "=q3=Lightningflash", "=ds=#w5#", ""};
-				{ 27, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Asaad", 116),
-			module = moduleName, instance = "TheVortexPinnacle",
+			name = AtlasLoot:EJ_GetBossName("Mannoroth and Varo'then", 292),
+			module = moduleName, instance = "CoTWellOfEternity",
 		};
 	};
 
-	AtlasLoot_Data["VPTrash"] = {
+	AtlasLoot_Data["WoETrash"] = {
 		["Normal"] = {
 			{
-				{ 2, 55855, "", "=q3=Darksky Treads", "=ds=#s12#, #a4#", ""};
-				{ 17, 55854, "", "=q3=Rainsong", "=ds=#s14#", ""};
 			};
 		};
 		info = {
 			name = "trash",
-			module = moduleName, instance = "TheVortexPinnacle",
-		};
-	};
-
-		----------------------------
-		--- Lost City of Tol'vir ---
-		----------------------------
-
-	AtlasLoot_Data["LostCityHusam"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55858, "", "=q3=Kaleki Cloak", "=ds=#s4#"};
-				{ 3, 55857, "", "=q3=Ionic Gloves", "=ds=#s9#, #a3#"};
-				{ 4, 55856, "", "=q3=Greaves of Wu the Elder", "=ds=#s12#, #a4#"};
-				{ 5, 55859, "", "=q3=Spirit Creeper Ring", "=ds=#s13#"};
-				{ 6, 55860, "", "=q3=Seliza's Spear", "=ds=#w7#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 56379, "", "=q3=Kaleki Cloak", "=ds=#s4#"};
-				{ 18, 56383, "", "=q3=Ionic Gloves", "=ds=#s9#, #a3#"};
-				{ 19, 56381, "", "=q3=Greaves of Wu the Elder", "=ds=#s12#, #a4#"};
-				{ 20, 56380, "", "=q3=Spirit Creeper Ring", "=ds=#s13#"};
-				{ 21, 56382, "", "=q3=Seliza's Spear", "=ds=#w7#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("General Husam", 117),
-			module = moduleName, instance = "LostCityOfTolvir",
-		};
-	};
-
-	AtlasLoot_Data["LostCityLockmaw"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55866, "", "=q3=Sand Silk Wristband", "=ds=#s8#, #a1#"};
-				{ 3, 55867, "", "=q3=Sand Dune Belt", "=ds=#s10#, #a4#"};
-				{ 4, 55869, "", "=q3=Veneficial Band", "=ds=#s13#"};
-				{ 5, 55868, "", "=q3=Heart of Solace", "=ds=#s14#"};
-				{ 6, 55870, "", "=q3=Barim's Main Gauche", "=ds=#h1#, #w4#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5291#"};
-				{ 17, 56389, "", "=q3=Sand Silk Wristband", "=ds=#s8#, #a1#"};
-				{ 18, 56392, "", "=q3=Sand Dune Belt", "=ds=#s10#, #a4#"};
-				{ 19, 56391, "", "=q3=Veneficial Band", "=ds=#s13#"};
-				{ 20, 56393, "", "=q3=Heart of Solace", "=ds=#s14#"};
-				{ 21, 56390, "", "=q3=Barim's Main Gauche", "=ds=#h1#, #w4#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Lockmaw", 118),
-			module = moduleName, instance = "LostCityOfTolvir",
-		};
-	};
-
-	AtlasLoot_Data["LostCityBarim"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55861, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
-				{ 3, 55862, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
-				{ 4, 55864, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
-				{ 5, 55863, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
-				{ 6, 55865, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5290#"};
-				{ 17, 56386, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
-				{ 18, 56387, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
-				{ 19, 56385, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
-				{ 20, 56388, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
-				{ 21, 56384, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("High Prophet Barim", 119),
-			module = moduleName, instance = "LostCityOfTolvir",
-		};
-	};
-
-	AtlasLoot_Data["LostCitySiamat"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 55872, "", "=q3=Geordan's Cloak", "=ds=#s4#"};
-				{ 3, 55876, "", "=q3=Mantle of Master Cho", "=ds=#s3#, #a1#"};
-				{ 4, 55878, "", "=q3=Evelyn's Belt", "=ds=#s10#, #a1#"};
-				{ 5, 55877, "", "=q3=Leggings of the Path", "=ds=#s11#, #a2#"};
-				{ 6, 55871, "", "=q3=Crafty's Gaiters", "=ds=#s12#, #a2#"};
-				{ 7, 55873, "", "=q3=Ring of Three Lights", "=ds=#s13#"};
-				{ 8, 55874, "", "=q3=Tia's Grace", "=ds=#s14#"};
-				{ 9, 55879, "", "=q3=Sorrowsong", "=ds=#s14#"};
-				{ 10, 55875, "", "=q3=Hammer of Sparks", "=ds=#h1#, #w6#"};
-				{ 11, 55880, "", "=q3=Zora's Ward", "=ds=#w8#"};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5292#"};
-				{ 17, 56397, "", "=q3=Geordan's Cloak", "=ds=#s4#"};
-				{ 18, 56399, "", "=q3=Mantle of Master Cho", "=ds=#s3#, #a1#"};
-				{ 19, 56403, "", "=q3=Evelyn's Belt", "=ds=#s10#, #a1#"};
-				{ 20, 56401, "", "=q3=Leggings of the Path", "=ds=#s11#, #a2#"};
-				{ 21, 56395, "", "=q3=Crafty's Gaiters", "=ds=#s12#, #a2#"};
-				{ 22, 56398, "", "=q3=Ring of Three Lights", "=ds=#s13#"};
-				{ 23, 56394, "", "=q3=Tia's Grace", "=ds=#s14#"};
-				{ 24, 56400, "", "=q3=Sorrowsong", "=ds=#s14#"};
-				{ 25, 56396, "", "=q3=Hammer of Sparks", "=ds=#h1#, #w6#"};
-				{ 26, 56402, "", "=q3=Zora's Ward", "=ds=#w8#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Siamat, Lord of South Wind", 122),
-			module = moduleName, instance = "LostCityOfTolvir",
-		};
-	};
-
-	AtlasLoot_Data["LostCityTrash"] = {
-		["Normal"] = {
-			{
-				{ 2, 55882, "", "=q3=Oasis Bracers", "=ds=#s8#, #a2#"};
-				{ 17, 55884, "", "=q3=Mirage Ring", "=ds=#s13#"};
-				{ 18, 55881, "", "=q3=Impetuous Query", "=ds=#s14#"};
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "LostCityOfTolvir",
+			module = moduleName, instance = "CoTWellOfEternity",
 		};
 	};
 
@@ -978,149 +710,123 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+		----------------------------
+		--- Lost City of Tol'vir ---
+		----------------------------
 
-		---------------------
-		--- The Deadmines ---
-		---------------------
-
-	AtlasLoot_Data["DeadminesGlubtok"] = {
+	AtlasLoot_Data["LostCityHusam"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", ""};
-				{ 3, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
-				{ 4, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
+				{ 2, 55858, "", "=q3=Kaleki Cloak", "=ds=#s4#"};
+				{ 3, 55857, "", "=q3=Ionic Gloves", "=ds=#s9#, #a3#"};
+				{ 4, 55856, "", "=q3=Greaves of Wu the Elder", "=ds=#s12#, #a4#"};
+				{ 5, 55859, "", "=q3=Spirit Creeper Ring", "=ds=#s13#"};
+				{ 6, 55860, "", "=q3=Seliza's Spear", "=ds=#w7#"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
-				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};
-				{ 19, 63471, "", "=q3=Vest of the Curious Visitor", "=ds=#s5#, #a2#", ""};
-				{ 20, 63470, "", "=q3=Missing Diplomat's Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 21, 65163, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
+				{ 17, 56379, "", "=q3=Kaleki Cloak", "=ds=#s4#"};
+				{ 18, 56383, "", "=q3=Ionic Gloves", "=ds=#s9#, #a3#"};
+				{ 19, 56381, "", "=q3=Greaves of Wu the Elder", "=ds=#s12#, #a4#"};
+				{ 20, 56380, "", "=q3=Spirit Creeper Ring", "=ds=#s13#"};
+				{ 21, 56382, "", "=q3=Seliza's Spear", "=ds=#w7#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Glubtok", 89),
-			module = moduleName, instance = "TheDeadminesEaI",
+			name = AtlasLoot:EJ_GetBossName("General Husam", 117),
+			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
 
-	AtlasLoot_Data["DeadminesGearbreaker"] = {
+	AtlasLoot_Data["LostCityLockmaw"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5199, "", "=q3=Smelting Pants", "=ds=#s11#, #a2#", "" };
-				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
-				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
-				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
-				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
-				{ 19, 63476, "", "=q3=Gearbreaker's Bindings", "=ds=#s8#, #a4#", ""};
-				{ 20, 63474, "", "=q3=Gear-Marked Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 21, 65164, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", ""};
+				{ 2, 55866, "", "=q3=Sand Silk Wristband", "=ds=#s8#, #a1#"};
+				{ 3, 55867, "", "=q3=Sand Dune Belt", "=ds=#s10#, #a4#"};
+				{ 4, 55869, "", "=q3=Veneficial Band", "=ds=#s13#"};
+				{ 5, 55868, "", "=q3=Heart of Solace", "=ds=#s14#"};
+				{ 6, 55870, "", "=q3=Barim's Main Gauche", "=ds=#h1#, #w4#"};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5291#"};
+				{ 17, 56389, "", "=q3=Sand Silk Wristband", "=ds=#s8#, #a1#"};
+				{ 18, 56392, "", "=q3=Sand Dune Belt", "=ds=#s10#, #a4#"};
+				{ 19, 56391, "", "=q3=Veneficial Band", "=ds=#s13#"};
+				{ 20, 56393, "", "=q3=Heart of Solace", "=ds=#s14#"};
+				{ 21, 56390, "", "=q3=Barim's Main Gauche", "=ds=#h1#, #w4#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Helix Gearbreaker", 90),
-			module = moduleName, instance = "TheDeadminesEaI",
+			name = AtlasLoot:EJ_GetBossName("Lockmaw", 118),
+			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
 
-	AtlasLoot_Data["DeadminesFoeReaper"] = {
+	AtlasLoot_Data["LostCityBarim"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 1937, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", "", };
-				{ 3, 5187, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
-				{ 4, 5201, "", "=q3=Emberstone Staff", "=ds=#w9#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65166, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", ""};
-				{ 18, 65165, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
-				{ 19, 65167, "", "=q3=Emberstone Staff", "=ds=#w9#", ""};
+				{ 2, 55861, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
+				{ 3, 55862, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
+				{ 4, 55864, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
+				{ 5, 55863, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
+				{ 6, 55865, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5290#"};
+				{ 17, 56386, "", "=q3=Balkar's Waders", "=ds=#s11#, #a3#"};
+				{ 18, 56387, "", "=q3=Greaves of Wu the Younger", "=ds=#s12#, #a4#"};
+				{ 19, 56385, "", "=q3=Tauntka's Necklace", "=ds=#s2#"};
+				{ 20, 56388, "", "=q3=Ring of the Darkest Day", "=ds=#s13#"};
+				{ 21, 56384, "", "=q3=Resonant Kris", "=ds=#h1#, #w10#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Foe Reaper 5000", 91),
-			module = moduleName, instance = "TheDeadminesEaI",
+			name = AtlasLoot:EJ_GetBossName("High Prophet Barim", 119),
+			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
 
-	AtlasLoot_Data["DeadminesRipsnarl"] = {
+	AtlasLoot_Data["LostCitySiamat"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", "", };
-				{ 3, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
-				{ 4, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65169, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", ""};
-				{ 18, 65170, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
-				{ 19, 65168, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
+				{ 2, 55872, "", "=q3=Geordan's Cloak", "=ds=#s4#"};
+				{ 3, 55876, "", "=q3=Mantle of Master Cho", "=ds=#s3#, #a1#"};
+				{ 4, 55878, "", "=q3=Evelyn's Belt", "=ds=#s10#, #a1#"};
+				{ 5, 55877, "", "=q3=Leggings of the Path", "=ds=#s11#, #a2#"};
+				{ 6, 55871, "", "=q3=Crafty's Gaiters", "=ds=#s12#, #a2#"};
+				{ 7, 55873, "", "=q3=Ring of Three Lights", "=ds=#s13#"};
+				{ 8, 55874, "", "=q3=Tia's Grace", "=ds=#s14#"};
+				{ 9, 55879, "", "=q3=Sorrowsong", "=ds=#s14#"};
+				{ 10, 55875, "", "=q3=Hammer of Sparks", "=ds=#h1#, #w6#"};
+				{ 11, 55880, "", "=q3=Zora's Ward", "=ds=#w8#"};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5292#"};
+				{ 17, 56397, "", "=q3=Geordan's Cloak", "=ds=#s4#"};
+				{ 18, 56399, "", "=q3=Mantle of Master Cho", "=ds=#s3#, #a1#"};
+				{ 19, 56403, "", "=q3=Evelyn's Belt", "=ds=#s10#, #a1#"};
+				{ 20, 56401, "", "=q3=Leggings of the Path", "=ds=#s11#, #a2#"};
+				{ 21, 56395, "", "=q3=Crafty's Gaiters", "=ds=#s12#, #a2#"};
+				{ 22, 56398, "", "=q3=Ring of Three Lights", "=ds=#s13#"};
+				{ 23, 56394, "", "=q3=Tia's Grace", "=ds=#s14#"};
+				{ 24, 56400, "", "=q3=Sorrowsong", "=ds=#s14#"};
+				{ 25, 56396, "", "=q3=Hammer of Sparks", "=ds=#h1#, #w6#"};
+				{ 26, 56402, "", "=q3=Zora's Ward", "=ds=#w8#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Admiral Ripsnarl", 92),
-			module = moduleName, instance = "TheDeadminesEaI",
+			name = AtlasLoot:EJ_GetBossName("Siamat, Lord of South Wind", 122),
+			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
 
-	AtlasLoot_Data["DeadminesCookie"] = {
+	AtlasLoot_Data["LostCityTrash"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "" };
-				{ 3, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "" };
-				{ 4, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
-				{ 5, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", };
-				{ 6, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65177, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", ""};
-				{ 18, 65174, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", ""};
-				{ 19, 65173, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
-				{ 20, 65171, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", ""};
-				{ 21, 65172, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", ""};
+				{ 2, 55882, "", "=q3=Oasis Bracers", "=ds=#s8#, #a2#"};
+				{ 17, 55884, "", "=q3=Mirage Ring", "=ds=#s13#"};
+				{ 18, 55881, "", "=q3=Impetuous Query", "=ds=#s14#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("\"Captain\" Cookie", 93),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesVanessa"] = {
-		["Heroic"] = {
-			{
-				{ 1, 63484, "", "=q3=Armbands of Exiled Architects", "=ds=#s8#, #a1#", "" };
-				{ 2, 63482, "", "=q3=Daughter's Hands", "=ds=#s9#, #a1#", "" };
-				{ 3, 63485, "", "=q3=Cowl of Rebellion", "=ds=#s1#, #a2#", "" };
-				{ 4, 65178, "", "=q3=VanCleef's Boots", "=ds=#s12#, #a2#", "" };
-				{ 5, 63479, "", "=q3=Bracers of Some Consequence", "=ds=#s8#, #a3#", "" };
-				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
-				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
-				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
-				{ 16, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
-				{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
-				{ 19, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Vanessa VanCleef", 95),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 1930, "", "=q3=Stonemason Cloak", "=ds=#s4#", "", "0.01%"};
-				{ 3, 1951, "", "=q3=Blackwater Cutlass", "=ds=#h1#, #w10#", "", "0.01%"};
-				{ 4, 1926, "", "=q3=Weighted Sap", "=ds=#h1#, #w6#", "", "0.01%"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "TheDeadminesEaI",
+			name = "trash",
+			module = moduleName, instance = "LostCityOfTolvir",
 		};
 	};
 
@@ -1267,11 +973,498 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+		---------------------
+		--- The Deadmines ---
+		---------------------
+
+	AtlasLoot_Data["DeadminesGlubtok"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", ""};
+				{ 3, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
+				{ 4, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
+				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};
+				{ 19, 63471, "", "=q3=Vest of the Curious Visitor", "=ds=#s5#, #a2#", ""};
+				{ 20, 63470, "", "=q3=Missing Diplomat's Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 21, 65163, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Glubtok", 89),
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesGearbreaker"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 5199, "", "=q3=Smelting Pants", "=ds=#s11#, #a2#", "" };
+				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
+				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
+				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
+				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
+				{ 19, 63476, "", "=q3=Gearbreaker's Bindings", "=ds=#s8#, #a4#", ""};
+				{ 20, 63474, "", "=q3=Gear-Marked Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 21, 65164, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Helix Gearbreaker", 90),
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesFoeReaper"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1937, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", "", };
+				{ 3, 5187, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
+				{ 4, 5201, "", "=q3=Emberstone Staff", "=ds=#w9#", "" };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 65166, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", ""};
+				{ 18, 65165, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
+				{ 19, 65167, "", "=q3=Emberstone Staff", "=ds=#w9#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Foe Reaper 5000", 91),
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesRipsnarl"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", "", };
+				{ 3, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
+				{ 4, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 65169, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", ""};
+				{ 18, 65170, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
+				{ 19, 65168, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Admiral Ripsnarl", 92),
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesCookie"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "" };
+				{ 3, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "" };
+				{ 4, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
+				{ 5, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", };
+				{ 6, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", };
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 65177, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", ""};
+				{ 18, 65174, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", ""};
+				{ 19, 65173, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
+				{ 20, 65171, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", ""};
+				{ 21, 65172, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("\"Captain\" Cookie", 93),
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesVanessa"] = {
+		["Heroic"] = {
+			{
+				{ 1, 63484, "", "=q3=Armbands of Exiled Architects", "=ds=#s8#, #a1#", "" };
+				{ 2, 63482, "", "=q3=Daughter's Hands", "=ds=#s9#, #a1#", "" };
+				{ 3, 63485, "", "=q3=Cowl of Rebellion", "=ds=#s1#, #a2#", "" };
+				{ 4, 65178, "", "=q3=VanCleef's Boots", "=ds=#s12#, #a2#", "" };
+				{ 5, 63479, "", "=q3=Bracers of Some Consequence", "=ds=#s8#, #a3#", "" };
+				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
+				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
+				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
+				{ 16, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
+				{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
+				{ 19, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Vanessa VanCleef", 95),
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+	AtlasLoot_Data["DeadminesTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 1930, "", "=q3=Stonemason Cloak", "=ds=#s4#", "", "0.01%"};
+				{ 3, 1951, "", "=q3=Blackwater Cutlass", "=ds=#h1#, #w10#", "", "0.01%"};
+				{ 4, 1926, "", "=q3=Weighted Sap", "=ds=#h1#, #w6#", "", "0.01%"};
+			};
+		};
+		info = {
+			name = AL["Trash Mobs"],
+			module = moduleName, instance = "TheDeadminesEaI",
+		};
+	};
+
+		---------------------
+		--- The Stonecore ---
+		---------------------
+
+	AtlasLoot_Data["StonecoreCorborus"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55793, "", "=q3=Dolomite Adorned Gloves", "=ds=#s9#, #a1#", ""};
+				{ 3, 55792, "", "=q3=Cinnabar Shoulders", "=ds=#s3#, #a4#", ""};
+				{ 4, 55794, "", "=q3=Phosphorescent Ring", "=ds=#s13#", ""};
+				{ 5, 55795, "", "=q3=Key to the Endless Chamber", "=ds=#s14#", ""};
+				{ 6, 55796, "", "=q3=Fist of Pained Senses", "=ds=#h3#, #w13#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 56331, "", "=q3=Dolomite Adorned Gloves", "=ds=#s9#, #a1#", ""};
+				{ 18, 56330, "", "=q3=Cinnabar Shoulders", "=ds=#s3#, #a4#", ""};
+				{ 19, 56332, "", "=q3=Phosphorescent Ring", "=ds=#s13#", ""};
+				{ 20, 56328, "", "=q3=Key to the Endless Chamber", "=ds=#s14#", ""};
+				{ 21, 56329, "", "=q3=Fist of Pained Senses", "=ds=#h3#, #w13#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Corborus", 110),
+			module = moduleName, instance = "TheStonecore",
+		};
+	};
+
+	AtlasLoot_Data["StonecoreSlabhide"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
+				{ 3, 55798, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
+				{ 4, 55797, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
+				{ 5, 55799, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
+				{ 6, 55800, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
+				{ 7, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
+				{ 18, 56334, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
+				{ 19, 56336, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
+				{ 20, 56333, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
+				{ 21, 56337, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
+				{ 22, 56335, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Slabhide", 111),
+			module = moduleName, instance = "TheStonecore",
+		};
+	};
+
+	AtlasLoot_Data["StonecoreOzruk"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55802, "", "=q3=Elementium Scale Bracers", "=ds=#s8#, #a3#", ""};
+				{ 3, 55803, "", "=q3=Belt of the Ringworm", "=ds=#s10#, #a4#", ""};
+				{ 4, 55804, "", "=q3=Pendant of the Lightless Grotto", "=ds=#s2#", ""};
+				{ 5, 55810, "", "=q3=Tendrils of Burrowing Dark", "=ds=#s14#", ""};
+				{ 6, 55811, "", "=q3=Sword of the Bottomless Pit", "=ds=#h2#, #w10#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 56340, "", "=q3=Elementium Scale Bracers", "=ds=#s8#, #a3#", ""};
+				{ 18, 56341, "", "=q3=Belt of the Ringworm", "=ds=#s10#, #a4#", ""};
+				{ 19, 56338, "", "=q3=Pendant of the Lightless Grotto", "=ds=#s2#", ""};
+				{ 20, 56339, "", "=q3=Tendrils of Burrowing Dark", "=ds=#s14#", ""};
+				{ 21, 56342, "", "=q3=Sword of the Bottomless Pit", "=ds=#h2#, #w10#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ozruk", 112),
+			module = moduleName, instance = "TheStonecore",
+		};
+	};
+
+	AtlasLoot_Data["StonecoreAzil"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55817, "", "=q3=Slippers of the Twilight Prophet", "=ds=#s12#, #a1#", ""};
+				{ 3, 55812, "", "=q3=Helm of Numberless Shadows", "=ds=#s1#, #a2#", ""};
+				{ 4, 55818, "", "=q3=Cowl of the Unseen World", "=ds=#s1#, #a3#", ""};
+				{ 5, 55816, "", "=q3=Leaden Despair", "=ds=#s14#", ""};
+				{ 6, 55814, "", "=q3=Magnetite Mirror", "=ds=#s14#", ""};
+				{ 7, 55819, "", "=q3=Tear of Blood", "=ds=#s14#", ""};
+				{ 8, 55820, "", "=q3=Prophet's Scepter", "=ds=#s15#", ""};
+				{ 9, 55821, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
+				{ 10, 55813, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
+				{ 11, 55815, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5287#"};
+				{ 17, 56348, "", "=q3=Slippers of the Twilight Prophet", "=ds=#s12#, #a1#", ""};
+				{ 18, 56344, "", "=q3=Helm of Numberless Shadows", "=ds=#s1#, #a2#", ""};
+				{ 19, 56352, "", "=q3=Cowl of the Unseen World", "=ds=#s1#, #a3#", ""};
+				{ 20, 56347, "", "=q3=Leaden Despair", "=ds=#s14#", ""};
+				{ 21, 56345, "", "=q3=Magnetite Mirror", "=ds=#s14#", ""};
+				{ 22, 56351, "", "=q3=Tear of Blood", "=ds=#s14#", ""};
+				{ 23, 56349, "", "=q3=Prophet's Scepter", "=ds=#s15#", ""};
+				{ 24, 56350, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
+				{ 25, 56346, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
+				{ 26, 56343, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("High Priestess Azil", 113),
+			module = moduleName, instance = "TheStonecore",
+		};
+	};
+
+	AtlasLoot_Data["StonecoreTrash"] = {
+		["Normal"] = {
+			{
+				{ 2, 55824, "", "=q3=Skin of Stone", "=ds=#s4#", ""};
+				{ 17, 55822, "", "=q3=Heavy Geode Mace", "=ds=#h1#, #w6#", ""};
+				{ 18, 55823, "", "=q3=Wand of Dark Worship", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "TheStonecore",
+		};
+	};
+
+		-------------------------
+		--- The Vortex Pinnacle -----
+		-------------------------
+
+	AtlasLoot_Data["VPErtan"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55830, "", "=q3=Stratosphere Belt", "=ds=#s10#, #a1#", ""};
+				{ 3, 55832, "", "=q3=Fallen Snow Shoulderguards", "=ds=#s3#, #a3#", ""};
+				{ 4, 55831, "", "=q3=Headcover of Fog", "=ds=#s1#, #a4#", ""};
+				{ 5, 55833, "", "=q3=Red Sky Pendant", "=ds=#s2#", ""};
+				{ 6, 55834, "", "=q3=Biting Wind", "=ds=#h3#, #w4#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 56356, "", "=q3=Stratosphere Belt", "=ds=#s10#, #a1#", ""};
+				{ 18, 56359, "", "=q3=Fallen Snow Shoulderguards", "=ds=#s3#, #a3#", ""};
+				{ 19, 56358, "", "=q3=Headcover of Fog", "=ds=#s1#, #a4#", ""};
+				{ 20, 56360, "", "=q3=Red Sky Pendant", "=ds=#s2#", ""};
+				{ 21, 56357, "", "=q3=Biting Wind", "=ds=#h3#, #w4#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Grand Vizier Ertan", 114),
+			module = moduleName, instance = "TheVortexPinnacle",
+		};
+	};
+
+	AtlasLoot_Data["VPAltairus"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
+				{ 3, 55838, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
+				{ 4, 55835, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 55840, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
+				{ 6, 55839, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
+				{ 7, 55841, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 63040, "", "=q4=Reins of the Drake of the North Wind", "=ds=#e27#", "", "1%"};
+				{ 18, 56361, "", "=q3=Mantle of Bestilled Winds", "=ds=#s3#, #a2#", ""};
+				{ 19, 56363, "", "=q3=Hail-Strung Belt", "=ds=#s10#, #a3#", ""};
+				{ 20, 56362, "", "=q3=Amulet of Tender Breath", "=ds=#s2#", ""};
+				{ 21, 56365, "", "=q3=Skyshard Ring", "=ds=#s13#", ""};
+				{ 22, 56364, "", "=q3=Axe of the Eclipse", "=ds=#h1#, #w1#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Altairus", 115),
+			module = moduleName, instance = "TheVortexPinnacle",
+		};
+	};
+
+	AtlasLoot_Data["VPAsaad"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55847, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
+				{ 3, 55850, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
+				{ 4, 55849, "", "=q3=Leggings of Iridescent Clouds", "=ds=#s11#, #a1#", ""};
+				{ 5, 55844, "", "=q3=Gloves of Haze", "=ds=#s9#, #a2#", ""};
+				{ 6, 55848, "", "=q3=Lunar Halo", "=ds=#s1#, #a4#", ""};
+				{ 7, 55842, "", "=q3=Legguards of Winnowing Wind", "=ds=#s11#, #a4#", ""};
+				{ 8, 55851, "", "=q3=Ring of Frozen Rain", "=ds=#s13#", ""};
+				{ 9, 55845, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
+				{ 10, 55852, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
+				{ 11, 55846, "", "=q3=Lightningflash", "=ds=#w5#", ""};
+				{ 12, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5288#"};
+				{ 17, 56369, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
+				{ 18, 56371, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
+				{ 19, 56375, "", "=q3=Leggings of Iridescent Clouds", "=ds=#s11#, #a1#", ""};
+				{ 20, 56368, "", "=q3=Gloves of Haze", "=ds=#s9#, #a2#", ""};
+				{ 21, 56374, "", "=q3=Lunar Halo", "=ds=#s1#, #a4#", ""};
+				{ 22, 56367, "", "=q3=Legguards of Winnowing Wind", "=ds=#s11#, #a4#", ""};
+				{ 23, 56373, "", "=q3=Ring of Frozen Rain", "=ds=#s13#", ""};
+				{ 24, 56370, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
+				{ 25, 56372, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
+				{ 26, 56366, "", "=q3=Lightningflash", "=ds=#w5#", ""};
+				{ 27, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Asaad", 116),
+			module = moduleName, instance = "TheVortexPinnacle",
+		};
+	};
+
+	AtlasLoot_Data["VPTrash"] = {
+		["Normal"] = {
+			{
+				{ 2, 55855, "", "=q3=Darksky Treads", "=ds=#s12#, #a4#", ""};
+				{ 17, 55854, "", "=q3=Rainsong", "=ds=#s14#", ""};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "TheVortexPinnacle",
+		};
+	};
+
+		---------------------------
+		--- Throne of the Tides ---
+		---------------------------
+
+	AtlasLoot_Data["ToTNazjar"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55202, "", "=q3=Periwinkle Cloak", "=ds=#s4#", ""};
+				{ 3, 55198, "", "=q3=Aurelian Mitre", "=ds=#s1#, #a1#", ""};
+				{ 4, 55195, "", "=q3=Wrasse Handwraps", "=ds=#s9#, #a3#", ""};
+				{ 5, 55201, "", "=q3=Entwined Nereis", "=ds=#s13#", ""};
+				{ 6, 55203, "", "=q3=Lightning Whelk Axe", "=ds=#h1#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5285#"};
+				{ 17, 56267, "", "=q3=Periwinkle Cloak", "=ds=#s4#", ""};
+				{ 18, 56269, "", "=q3=Aurelian Mitre", "=ds=#s1#, #a1#", ""};
+				{ 19, 56268, "", "=q3=Wrasse Handwraps", "=ds=#s9#, #a3#", ""};
+				{ 20, 56270, "", "=q3=Entwined Nereis", "=ds=#s13#", ""};
+				{ 21, 56266, "", "=q3=Lightning Whelk Axe", "=ds=#h1#, #w1#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Lady Naz'jar", 101),
+			module = moduleName, instance = "ThroneOfTheTides",
+		};
+	};
+
+	AtlasLoot_Data["ToTUlthok"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55206, "", "=q3=Eagle Ray Cloak", "=ds=#s4#", ""};
+				{ 3, 55204, "", "=q3=Caridean Epaulettes", "=ds=#s3#, #a2#", ""};
+				{ 4, 55205, "", "=q3=Chromis Chestpiece", "=ds=#s5#, #a3#", ""};
+				{ 5, 55207, "", "=q3=Harp Shell Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 6, 55228, "", "=q3=Cerith Spire Staff", "=ds=#w9#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 56275, "", "=q3=Eagle Ray Cloak", "=ds=#s4#", ""};
+				{ 18, 56273, "", "=q3=Caridean Epaulettes", "=ds=#s3#, #a2#", ""};
+				{ 19, 56274, "", "=q3=Chromis Chestpiece", "=ds=#s5#, #a3#", ""};
+				{ 20, 56272, "", "=q3=Harp Shell Pauldrons", "=ds=#s3#, #a4#", ""};
+				{ 21, 56271, "", "=q3=Cerith Spire Staff", "=ds=#w9#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Commander Ulthok", 102),
+			module = moduleName, instance = "ThroneOfTheTides",
+		};
+	};
+
+	AtlasLoot_Data["ToTMindbender"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55236, "", "=q3=Anthia's Ring", "=ds=#s13#", ""};
+				{ 3, 55235, "", "=q3=Decapod Slippers", "=ds=#s12#, #a2#", ""};
+				{ 4, 55229, "", "=q3=Anomuran Helm", "=ds=#s1#, #a4#", ""};
+				{ 5, 55237, "", "=q3=Porcelain Crab", "=ds=#s14#", ""};
+				{ 6, 55248, "", "=q3=Conch of Thundering Waves", "=ds=#s16#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 56276, "", "=q3=Anthia's Ring", "=ds=#s13#", ""};
+				{ 18, 56277, "", "=q3=Decapod Slippers", "=ds=#s12#, #a2#", ""};
+				{ 19, 56278, "", "=q3=Anomuran Helm", "=ds=#s1#, #a4#", ""};
+				{ 20, 56280, "", "=q3=Porcelain Crab", "=ds=#s14#", ""};
+				{ 21, 56279, "", "=q3=Conch of Thundering Waves", "=ds=#s16#", ""};
+			};
+		};
+		info = {
+			name = BabbleBoss["Erunak Stonespeaker"].." & "..AtlasLoot:EJ_GetBossName("Mindbender Ghur'sha", 103),
+			module = moduleName, instance = "ThroneOfTheTides",
+		};
+	};
+
+	AtlasLoot_Data["ToTOzumat"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 55255, "", "=q3=Mnemiopsis Gloves", "=ds=#s9#, #a1#", ""};
+				{ 3, 55253, "", "=q3=Wentletrap Vest", "=ds=#s5#, #a3#", ""};
+				{ 4, 55254, "", "=q3=Abalone Plate Armor", "=ds=#s5#, #a4#", ""};
+				{ 5, 55249, "", "=q3=Triton Legplates", "=ds=#s11#, #a4#", ""};
+				{ 6, 55258, "", "=q3=Pipefish Cord", "=ds=#s2#", ""};
+				{ 7, 55250, "", "=q3=Nautilus Ring", "=ds=#s13#", ""};
+				{ 8, 55251, "", "=q3=Might of the Ocean", "=ds=#s14#", ""};
+				{ 9, 55256, "", "=q3=Sea Star", "=ds=#s14#", ""};
+				{ 10, 55259, "", "=q3=Bioluminescent Lamp", "=ds=#s15#", ""};
+				{ 11, 55252, "", "=q3=Whitefin Axe", "=ds=#h2#, #w1#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5286#"};
+				{ 17, 56286, "", "=q3=Mnemiopsis Gloves", "=ds=#s9#, #a1#", ""};
+				{ 18, 56281, "", "=q3=Wentletrap Vest", "=ds=#s5#, #a3#", ""};
+				{ 19, 56291, "", "=q3=Abalone Plate Armor", "=ds=#s5#, #a4#", ""};
+				{ 20, 56283, "", "=q3=Triton Legplates", "=ds=#s11#, #a4#", ""};
+				{ 21, 56288, "", "=q3=Pipefish Cord", "=ds=#s2#", ""};
+				{ 22, 56282, "", "=q3=Nautilus Ring", "=ds=#s13#", ""};
+				{ 23, 56285, "", "=q3=Might of the Ocean", "=ds=#s14#", ""};
+				{ 24, 56290, "", "=q3=Sea Star", "=ds=#s14#", ""};
+				{ 25, 56289, "", "=q3=Bioluminescent Lamp", "=ds=#s15#", ""};
+				{ 26, 56284, "", "=q3=Whitefin Axe", "=ds=#h2#, #w1#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ozumat", 104),
+			module = moduleName, instance = "ThroneOfTheTides",
+		};
+	};
+
+	AtlasLoot_Data["ToTTrash"] = {
+		["Normal"] = {
+			{
+				{ 2, 55260, "", "=q3=Alpheus Legguards", "=ds=#s11#, #a4#", ""};
+				{ 17, 55262, "", "=q3=Barnacle Pendant", "=ds=#s2#", ""};
+				{ 18, 55261, "", "=q3=Ring of the Great Whale", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "ThroneOfTheTides",
+		};
+	};
+
 		----------------
 		--- Zul'Aman ---
 		----------------
 
-	AtlasLoot_Data["ZA85AkilZon"] = {
+	AtlasLoot_Data["ZAAkilZon"] = {
 		["Normal"] = {
 			{
 				{ 1, 69550, "", "=q4=Leggings of Ancient Magics", "=ds=#s11#, #a1#"};
@@ -1287,7 +1480,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85Nalorakk"] = {
+	AtlasLoot_Data["ZANalorakk"] = {
 		["Normal"] = {
 			{
 				{ 1, 69555, "", "=q4=Boots of the Ursine", "=ds=#s12#, #a1#"};
@@ -1303,7 +1496,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85JanAlai"] = {
+	AtlasLoot_Data["ZAJanAlai"] = {
 		["Normal"] = {
 			{
 				{ 1, 69560, "", "=q4=Jan'alai's Spaulders", "=ds=#s3#, #a1#"};
@@ -1319,7 +1512,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85Halazzi"] = {
+	AtlasLoot_Data["ZAHalazzi"] = {
 		["Normal"] = {
 			{
 				{ 1, 69567, "", "=q4=Wristwraps of Departed Spirits", "=ds=#s8#, #a1#"};
@@ -1335,7 +1528,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85Malacrass"] = {
+	AtlasLoot_Data["ZAMalacrass"] = {
 		["Normal"] = {
 			{
 				{ 1, 69572, "", "=q4=Hex Lord's Bloody Cloak", "=ds=#s4#"};
@@ -1354,7 +1547,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85Daakara"] = {
+	AtlasLoot_Data["ZADaakara"] = {
 		["Normal"] = {
 			{
 				{ 1, 69577, "", "=q4=Collar of Bones", "=ds=#s1#, #a1#"};
@@ -1375,7 +1568,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85TimedChest"] = {
+	AtlasLoot_Data["ZATimedChest"] = {
 		["Normal"] = {
 			{
 				{ 1, 69584, "", "=q4=Recovered Cloak of Frostheim", "=ds=#s4#"};
@@ -1397,7 +1590,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ZA85Trash"] = {
+	AtlasLoot_Data["ZATrash"] = {
 		["Normal"] = {
 			{
 				{ 1, 69797, "", "=q4=Charmbinder Grips", "=ds=#s9#, #a1#"};
@@ -1546,690 +1739,6 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = "trash",
 			module = moduleName, instance = "ZulGurub",
-		};
-	};
-
-		---------------
-		--- Endtime ---
-		---------------
-
-	AtlasLoot_Data["EndtimeBaine"] = {
-		["Normal"] = {
-			{
-    			{ 1, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 2, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-    			{ 3, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 4, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 5, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
-    			{ 16, 72814, "", "=q4=Axe of the Tauren Chieftains", "=ds=#h2#, #w1#" },
-    			{ 17, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Baine", 340),
-			module = moduleName, instance = "Endtime",
-		};
-	};
-
-	AtlasLoot_Data["EndtimeJaina"] = {
-		["Normal"] = {
-			{    			
-    			{ 1, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 2, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-   				{ 3, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 4, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 16, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
-    			{ 17, 72808, "", "=q4=Jaina's Staff", "=ds=#w9#" },
-    			{ 18, 72809, "", "=q4=Ward of Incantations", "=ds=#w8#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Jaina", 285),
-			module = moduleName, instance = "Endtime",
-		};
-	};
-
-	AtlasLoot_Data["EndtimeSylvanas"] = {
-		["Normal"] = {
-			{
-    			{ 1, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
-    			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 4, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 5, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 6, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 16, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323),
-			module = moduleName, instance = "Endtime",
-		};
-	};
-
-	AtlasLoot_Data["EndtimeTyrande"] = {
-		["Normal"] = {
-			{
-    			{ 1, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
-    			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 4, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 5, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 6, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 16, 72812, "", "=q4=Crescent Moon", "=ds=#h1#, #w1#" },
-			};
-		};
-		info = {
-			name = "Echo of Tyrande",
-			module = moduleName, instance = "Endtime",
-		};
-	};
-
-	AtlasLoot_Data["EndtimeMurozond"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Murozond", 289),
-			module = moduleName, instance = "Endtime",
-		};
-	};
-
-	AtlasLoot_Data["EndtimeTrash"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "Endtime",
-		};
-	};
-
-		------------------------
-		--- Well of Eternity ---
-		------------------------
-				
-	AtlasLoot_Data["WoEPerotharn"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Peroth'arn", 290),
-			module = moduleName, instance = "WellofEternity",
-		};
-	};
-
-	AtlasLoot_Data["WoEAzshara"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Queen Azshara", 291),
-			module = moduleName, instance = "WellofEternity",
-		};
-	};
-
-	AtlasLoot_Data["WoEMannoroth"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Mannoroth and Varo'then", 292),
-			module = moduleName, instance = "WellofEternity",
-		};
-	};
-
-	AtlasLoot_Data["WoETrash"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "WellofEternity",
-		};
-	};
-
-		------------------------
-		--- Hour of Twilight ---
-		------------------------
-
-	AtlasLoot_Data["HoTArcurion"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Arcurion", 322),
-			module = moduleName, instance = "HourofTwilight",
-		};
-	};
-
-	AtlasLoot_Data["HoTDawnslayer"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Asira Dawnslayer", 342),
-			module = moduleName, instance = "HourofTwilight",
-		};
-	};
-
-	AtlasLoot_Data["HoTBenedictus"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Archbishop Benedictus", 341),
-			module = moduleName, instance = "HourofTwilight",
-		};
-	};
-
-	AtlasLoot_Data["HoTTrash"] = {
-		["Normal"] = {
-			{
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "HourofTwilight",
-		};
-	};
-
-		-------------------------------
-		--- The Bastion of Twilight ---
-		-------------------------------
-
-	AtlasLoot_Data["BoTWyrmbreaker"] = {
-		["Normal"] = {
-			{
-				{ 1, 59482, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
-				{ 2, 59475, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
-				{ 3, 59469, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
-				{ 4, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
-				{ 5, 59472, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
-				{ 6, 59471, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
-				{ 7, 59470, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
-				{ 8, 59476, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
-				{ 16, 59483, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
-				{ 17, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
-				{ 18, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
-				{ 20, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65135, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
-				{ 2, 65138, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
-				{ 3, 65144, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
-				{ 4, 65136, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
-				{ 5, 65141, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
-				{ 6, 65142, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
-				{ 7, 65143, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
-				{ 8, 65137, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
-				{ 10, 65134, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
-				{ 11, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
-				{ 12, 65133, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
-				{ 16, 67423, "", "=q4=Chest of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 17, 67424, "", "=q4=Chest of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 67425, "", "=q4=Chest of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65139, "", "=q4=Malevolence", "=ds=#w9#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156),
-			module = moduleName, instance = "TheBastionOfTwilight",
-		};
-	};
-
-	AtlasLoot_Data["BoTValionaTheralion"] = {
-		["Normal"] = {
-			{
-				{ 1, 59516, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
-				{ 2, 63534, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
-				{ 3, 63535, "", "=q4=Waistguard of Hatred", "=ds=#s10#, #a3#", ""};
-				{ 4, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
-				{ 6, 59517, "", "=q4=Necklace of Strife", "=ds=#s2#", ""};
-				{ 7, 59512, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
-				{ 8, 59518, "", "=q4=Ring of Rivalry", "=ds=#s13#", ""};
-				{ 9, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
-				{ 10, 59515, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
-				{ 16, 63533, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
-				{ 17, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
-				{ 18, 63532, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65108, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
-				{ 2, 65093, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
-				{ 3, 65092, "", "=q4=Waistguard of Hatred", "=ds=#s10#, #a3#", ""};
-				{ 4, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
-				{ 6, 65107, "", "=q4=Necklace of Strife", "=ds=#s2#", ""};
-				{ 7, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
-				{ 8, 65106, "", "=q4=Ring of Rivalry", "=ds=#s13#", ""};
-				{ 9, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
-				{ 10, 65109, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
-				{ 16, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
-				{ 17, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
-				{ 18, 65095, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Valiona and Theralion", 157),
-			module = moduleName, instance = "TheBastionOfTwilight",
-		};
-	};
-
-	AtlasLoot_Data["BoTCouncil"] = {
-		["Normal"] = {
-			{
-				{ 1, 59507, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
-				{ 2, 59508, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", ""};
-				{ 3, 59511, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
-				{ 4, 59502, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
-				{ 5, 59504, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
-				{ 6, 59510, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
-				{ 7, 59509, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
-				{ 8, 59505, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-				{ 9, 59503, "", "=q4=Terrastra's Legguards", "=ds=#s11#, #a4#", ""};
-				{ 16, 59506, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
-				{ 17, 59514, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
-				{ 18, 59513, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65117, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
-				{ 2, 65116, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", ""};
-				{ 3, 65113, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
-				{ 4, 65122, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
-				{ 5, 65120, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
-				{ 6, 65114, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
-				{ 7, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
-				{ 8, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
-				{ 9, 65121, "", "=q4=Terrastra's Legguards", "=ds=#s11#, #a4#", ""};
-				{ 16, 65118, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
-				{ 17, 65110, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
-				{ 18, 65111, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Ascendant Council", 158),
-			module = moduleName, instance = "TheBastionOfTwilight",
-		};
-	};
-
-	AtlasLoot_Data["BoTChogall"] = {
-		["Normal"] = {
-			{
-				{ 1, 59498, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
-				{ 2, 59490, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
-				{ 3, 59495, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
-				{ 4, 59485, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
-				{ 5, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s11#, #a3#", ""};
-				{ 6, 59487, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
-				{ 7, 59486, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
-				{ 8, 59497, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
-				{ 10, 59501, "", "=q4=Signet of the Fifth Circle", "=ds=#s13#", ""};
-				{ 11, 59500, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
-				{ 16, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
-				{ 17, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
-				{ 18, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
-				{ 20, 59494, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
-				{ 21, 59330, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
-				{ 22, 63680, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65126, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
-				{ 2, 65129, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
-				{ 3, 65128, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
-				{ 4, 65132, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
-				{ 5, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s11#, #a3#", ""};
-				{ 6, 65130, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
-				{ 7, 65131, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
-				{ 8, 65127, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
-				{ 10, 65123, "", "=q4=Signet of the Fifth Circle", "=ds=#s13#", ""};
-				{ 11, 65124, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
-				{ 16, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 17, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 68600, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
-				{ 21, 65145, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
-				{ 22, 65090, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Cho'gall", 167),
-			module = moduleName, instance = "TheBastionOfTwilight",
-		};
-	};
-
-	AtlasLoot_Data["BoTSinestra"] = {
-		["Heroic"] = {
-			{
-				{ 1, 60232, "", "=q4=Shroud of Endless Grief", "=ds=#s4#", ""};
-				{ 2, 60237, "", "=q4=Crown of the Twilight Queen", "=ds=#s1#, #a1#", ""};
-				{ 3, 60238, "", "=q4=Bracers of the Dark Mother", "=ds=#s8#, #a1#", ""};
-				{ 4, 60231, "", "=q4=Belt of the Fallen Brood", "=ds=#s10#, #a2#", ""};
-				{ 5, 60236, "", "=q4=Nightmare Rider's Boots", "=ds=#s12#, #a2#", ""};
-				{ 6, 60230, "", "=q4=Twilight Scale Leggings", "=ds=#s11#, #a3#", ""};
-				{ 7, 60235, "", "=q4=Boots of Az'galada", "=ds=#s12#, #a3#", ""};
-				{ 8, 60234, "", "=q4=Bindings of Bleak Betrayal", "=ds=#s8#, #a4#", ""};
-				{ 9, 60228, "", "=q4=Bracers of the Mat'redor", "=ds=#s8#, #a4#", ""};
-				{ 10, 60229, "", "=q4=War-Torn Crushers", "=ds=#s12#, #a4#", ""};
-				{ 16, 60227, "", "=q4=Caelestrasz's Will", "=ds=#s2#", ""};
-				{ 17, 60226, "", "=q4=Dargonax's Signet", "=ds=#s13#", ""};
-				{ 18, 60233, "", "=q4=Shard of Woe", "=ds=#s14#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Sinestra", 168),
-			module = moduleName, instance = "TheBastionOfTwilight",
-		};
-	};
-
-	AtlasLoot_Data["BoTTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
-				{ 2, 60202, "", "=q4=Tsanga's Helm", "=ds=#s1#, #a2#", ""};
-				{ 3, 60201, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
-				{ 4, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
-				{ 6, 59520, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
-				{ 16, 59521, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
-				{ 17, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
-				{ 18, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
-				{ 19, 68608, "", "=q4=Dragonwreck Throwing Axe", "=ds=#w11#", ""};
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "TheBastionOfTwilight",
-		};
-	};
-
-		--------------------------
-		--- Blackwing Descent ----
-		--------------------------
-
-	AtlasLoot_Data["BDMagmaw"] = {
-		["Normal"] = {
-			{
-				{ 1, 59452, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
-				{ 2, 59336, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
-				{ 3, 59335, "", "=q4=Scorched Wormling Vest", "=ds=#s5#, #a2#", ""};
-				{ 4, 59329, "", "=q4=Parasitic Bands", "=ds=#s8#, #a2#", ""};
-				{ 5, 59334, "", "=q4=Lifecycle Waistguard", "=ds=#s10#, #a3#", ""};
-				{ 6, 59331, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
-				{ 7, 59340, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
-				{ 8, 59328, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
-				{ 10, 59332, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
-				{ 16, 59333, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
-				{ 17, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
-				{ 18, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65020, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
-				{ 2, 65044, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
-				{ 3, 65045, "", "=q4=Scorched Wormling Vest", "=ds=#s5#, #a2#", ""};
-				{ 4, 65050, "", "=q4=Parasitic Bands", "=ds=#s8#, #a2#", ""};
-				{ 5, 65046, "", "=q4=Lifecycle Waistguard", "=ds=#s10#, #a3#", ""};
-				{ 6, 65049, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
-				{ 7, 65042, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
-				{ 8, 65051, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
-				{ 10, 65048, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
-				{ 16, 67429, "", "=q4=Gauntlets of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 17, 67430, "", "=q4=Gauntlets of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 67431, "", "=q4=Gauntlets of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65047, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
-				{ 21, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
-				{ 22, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Magmaw", 170),
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDOmnotron"] = {
-		["Normal"] = {
-			{
-				{ 1, 59219, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
-				{ 2, 59217, "", "=q4=X-Tron Duct Tape", "=ds=#s10#, #a1#", ""};
-				{ 3, 59218, "", "=q4=Passive Resistor Spaulders", "=ds=#s3#, #a2#", ""};
-				{ 4, 59120, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", ""};
-				{ 5, 63540, "", "=q4=Circuit Design Breastplate", "=ds=#s5#, #a3#", ""};
-				{ 6, 59119, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", ""};
-				{ 7, 59118, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
-				{ 8, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
-				{ 9, 59216, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
-				{ 16, 59220, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
-				{ 17, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
-				{ 19, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65077, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
-				{ 2, 65079, "", "=q4=X-Tron Duct Tape", "=ds=#s10#, #a1#", ""};
-				{ 3, 65078, "", "=q4=Passive Resistor Spaulders", "=ds=#s3#, #a2#", ""};
-				{ 4, 65083, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", ""};
-				{ 5, 65004, "", "=q4=Circuit Design Breastplate", "=ds=#s5#, #a3#", ""};
-				{ 6, 65084, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", ""};
-				{ 7, 65085, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
-				{ 8, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
-				{ 9, 65080, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
-				{ 16, 65076, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
-				{ 17, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
-				{ 19, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169),
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDChimaeron"] = {
-		["Normal"] = {
-			{
-				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
-				{ 2, 59234, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
-				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
-				{ 4, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
-				{ 5, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
-				{ 6, 59355, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
-				{ 7, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
-				{ 8, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 16, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 17, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 19, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65065, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
-				{ 2, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
-				{ 3, 65021, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
-				{ 4, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
-				{ 5, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
-				{ 6, 65028, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
-				{ 7, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
-				{ 8, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
-				{ 9, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
-				{ 16, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
-				{ 17, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
-				{ 19, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Chimaeron", 172),
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDMaloriak"] = {
-		["Normal"] = {
-			{
-				{ 1, 59348, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
-				{ 2, 59349, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
-				{ 3, 59351, "", "=q4=Legwraps of the Greatest Son", "=ds=#s11#, #a1#", ""};
-				{ 4, 59343, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
-				{ 5, 59353, "", "=q4=Leggings of Consuming Flames", "=ds=#s11#, #a2#", ""};
-				{ 6, 59346, "", "=q4=Tunic of Failed Experiments", "=ds=#s5#, #a3#", ""};
-				{ 7, 59350, "", "=q4=Treads of Flawless Creation", "=ds=#s12#, #a3#", ""};
-				{ 8, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
-				{ 9, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 10, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 16, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
-				{ 18, 59347, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65035, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
-				{ 2, 65034, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
-				{ 3, 65032, "", "=q4=Legwraps of the Greatest Son", "=ds=#s11#, #a1#", ""};
-				{ 4, 65039, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
-				{ 5, 65030, "", "=q4=Leggings of Consuming Flames", "=ds=#s11#, #a2#", ""};
-				{ 6, 65037, "", "=q4=Tunic of Failed Experiments", "=ds=#s5#, #a3#", ""};
-				{ 7, 65033, "", "=q4=Treads of Flawless Creation", "=ds=#s12#, #a3#", ""};
-				{ 8, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
-				{ 9, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 10, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
-				{ 16, 67428, "", "=q4=Leggings of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 17, 67427, "", "=q4=Leggings of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 67426, "", "=q4=Leggings of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
-				{ 22, 65036, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Maloriak", 173),
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDAtramedes"] = {
-		["Normal"] = {
-			{
-				{ 1, 59325, "", "=q4=Mantle of Roaring Flames", "=ds=#s3#, #a1#", ""};
-				{ 2, 59322, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
-				{ 3, 59312, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
-				{ 4, 59318, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", ""};
-				{ 5, 59324, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
-				{ 6, 59315, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
-				{ 7, 59316, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
-				{ 8, 59317, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
-				{ 16, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
-				{ 17, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
-				{ 18, 59320, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
-				{ 19, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65054, "", "=q4=Mantle of Roaring Flames", "=ds=#s3#, #a1#", ""};
-				{ 2, 65056, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
-				{ 3, 65066, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
-				{ 4, 65060, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", ""};
-				{ 5, 65055, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
-				{ 6, 65063, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
-				{ 7, 65062, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
-				{ 8, 65061, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
-				{ 16, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
-				{ 17, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
-				{ 18, 65058, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
-				{ 19, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Atramedes", 171),
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDNefarian"] = {
-		["Normal"] = {
-			{
-				{ 1, 59457, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
-				{ 2, 59337, "", "=q4=Mantle of Nefarius", "=ds=#s3#, #a1#", ""};
-				{ 3, 59454, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
-				{ 4, 59321, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
-				{ 5, 59222, "", "=q4=Spaulders of the Scarred Lady", "=ds=#s3#, #a3#", ""};
-				{ 6, 59356, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", ""};
-				{ 7, 59450, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
-				{ 9, 59442, "", "=q4=Rage of Ages", "=ds=#s2#", ""};
-				{ 10, 59441, "", "=q4=Prestor's Talisman of Machination", "=ds=#s14#", ""};
-				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
-				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
-				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
-				{ 20, 59443, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
-				{ 21, 63679, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
-				{ 22, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
-				{ 23, 59444, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 65018, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
-				{ 2, 65043, "", "=q4=Mantle of Nefarius", "=ds=#s3#, #a1#", ""};
-				{ 3, 65019, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
-				{ 4, 65057, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
-				{ 5, 65074, "", "=q4=Spaulders of the Scarred Lady", "=ds=#s3#, #a3#", ""};
-				{ 6, 65027, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", ""};
-				{ 7, 65022, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
-				{ 9, 65025, "", "=q4=Rage of Ages", "=ds=#s2#", ""};
-				{ 10, 65026, "", "=q4=Prestor's Talisman of Machination", "=ds=#s14#", ""};
-				{ 16, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 17, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65024, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
-				{ 21, 65003, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
-				{ 22, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
-				{ 23, 65023, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Nefarian", 174),
-			module = moduleName, instance = "BlackwingDescent",
-		};
-	};
-
-	AtlasLoot_Data["BDTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 59466, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
-				{ 2, 59468, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
-				{ 3, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
-				{ 4, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
-				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
-				{ 7, 59461, "", "=q4=Fury of Angerforge", "=ds=#s14#", ""};
-				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
-				{ 17, 59463, "", "=q4=Maldo's Sword Cane", "=ds=#h3#, #w10#", ""};
-				{ 18, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
-				{ 19, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
-				{ 20, 68601, "", "=q4=Scaleslicer", "=ds=#h1#, #w4#", ""};
-				{ 21, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
-			};
-		};
-		info = {
-			name = "trash",
-			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
 
@@ -2696,117 +2205,435 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		---------------------------------
-		--- Throne of the Four Winds ----
-		---------------------------------
+		--------------------------
+		--- Blackwing Descent ----
+		--------------------------
 
-	AtlasLoot_Data["TFWConclave"] = {
+	AtlasLoot_Data["BDMagmaw"] = {
 		["Normal"] = {
 			{
-				{ 1, 63498, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
-				{ 2, 63497, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
-				{ 3, 63493, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
-				{ 4, 63496, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
-				{ 5, 63492, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
-				{ 6, 63490, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
-				{ 7, 63495, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
-				{ 8, 63491, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
-				{ 16, 63488, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
-				{ 17, 63489, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
-				{ 18, 63494, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+				{ 1, 59452, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
+				{ 2, 59336, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
+				{ 3, 59335, "", "=q4=Scorched Wormling Vest", "=ds=#s5#, #a2#", ""};
+				{ 4, 59329, "", "=q4=Parasitic Bands", "=ds=#s8#, #a2#", ""};
+				{ 5, 59334, "", "=q4=Lifecycle Waistguard", "=ds=#s10#, #a3#", ""};
+				{ 6, 59331, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
+				{ 7, 59340, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
+				{ 8, 59328, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
+				{ 10, 59332, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
+				{ 16, 59333, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
+				{ 17, 59492, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
+				{ 18, 59341, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 65376, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
-				{ 2, 65374, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
-				{ 3, 65371, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
-				{ 4, 65377, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
-				{ 5, 65368, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
-				{ 6, 65369, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
-				{ 7, 65375, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
-				{ 8, 65370, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
-				{ 16, 65367, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
-				{ 17, 65372, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
-				{ 18, 65373, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+				{ 1, 65020, "", "=q4=Crown of Burning Waters", "=ds=#s1#, #a1#", ""};
+				{ 2, 65044, "", "=q4=Flame Pillar Leggings", "=ds=#s11#, #a1#", ""};
+				{ 3, 65045, "", "=q4=Scorched Wormling Vest", "=ds=#s5#, #a2#", ""};
+				{ 4, 65050, "", "=q4=Parasitic Bands", "=ds=#s8#, #a2#", ""};
+				{ 5, 65046, "", "=q4=Lifecycle Waistguard", "=ds=#s10#, #a3#", ""};
+				{ 6, 65049, "", "=q4=Leggings of Lethal Force", "=ds=#s11#, #a3#", ""};
+				{ 7, 65042, "", "=q4=Breastplate of Avenging Flame", "=ds=#s5#, #a4#", ""};
+				{ 8, 65051, "", "=q4=Molten Tantrum Boots", "=ds=#s12#, #a4#", ""};
+				{ 10, 65048, "", "=q4=Symbiotic Worm", "=ds=#s14#", ""};
+				{ 16, 67429, "", "=q4=Gauntlets of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 17, 67430, "", "=q4=Gauntlets of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 67431, "", "=q4=Gauntlets of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65047, "", "=q4=Lava Spine", "=ds=#h1#, #w10#", ""};
+				{ 21, 65007, "", "=q4=Akirus the Worm-Breaker", "=ds=#h2#, #w6#", ""};
+				{ 22, 65041, "", "=q4=Incineratus", "=ds=#h3#, #w4#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Conclave of Wind", 154),
-			module = moduleName, instance = "ThroneOfTheFourWinds",
+			name = AtlasLoot:EJ_GetBossName("Magmaw", 170),
+			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
 
-	AtlasLoot_Data["TFWAlAkir"] = {
+	AtlasLoot_Data["BDOmnotron"] = {
 		["Normal"] = {
 			{
-				{ 1, 69834, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
-				{ 2, 69831, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
-				{ 3, 69833, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
-				{ 4, 69835, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
-				{ 5, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
-				{ 6, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
-				{ 7, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
-				{ 8, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
-				{ 9, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
-				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
-				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
-				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
-				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
-				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
-				{ 19, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
-				{ 20, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
-				{ 21, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
-				{ 23, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
-				{ 24, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
-				{ 25, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
-				{ 26, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
-				{ 27, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 29, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 1, 59219, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 59217, "", "=q4=X-Tron Duct Tape", "=ds=#s10#, #a1#", ""};
+				{ 3, 59218, "", "=q4=Passive Resistor Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 4, 59120, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 5, 63540, "", "=q4=Circuit Design Breastplate", "=ds=#s5#, #a3#", ""};
+				{ 6, 59119, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 7, 59118, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
+				{ 8, 59117, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+				{ 9, 59216, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
+				{ 16, 59220, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
+				{ 17, 59121, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
+				{ 19, 59122, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 69879, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
-				{ 2, 69884, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
-				{ 3, 69878, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
-				{ 4, 69881, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
-				{ 5, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
-				{ 6, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
-				{ 7, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
-				{ 8, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
-				{ 9, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
-				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
-				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
-				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
-				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
-				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
-				{ 17, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 18, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 19, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 20, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
-				{ 21, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
-				{ 22, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
-				{ 24, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
-				{ 25, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
-				{ 26, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
-				{ 27, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
-				{ 28, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
-				{ 30, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+				{ 1, 65077, "", "=q4=Power Generator Hood", "=ds=#s1#, #a1#", ""};
+				{ 2, 65079, "", "=q4=X-Tron Duct Tape", "=ds=#s10#, #a1#", ""};
+				{ 3, 65078, "", "=q4=Passive Resistor Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 4, 65083, "", "=q4=Poison Protocol Pauldrons", "=ds=#s3#, #a2#", ""};
+				{ 5, 65004, "", "=q4=Circuit Design Breastplate", "=ds=#s5#, #a3#", ""};
+				{ 6, 65084, "", "=q4=Voltage Source Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 7, 65085, "", "=q4=Electron Inductor Coils", "=ds=#s8#, #a4#", ""};
+				{ 8, 65086, "", "=q4=Jumbotron Power Belt", "=ds=#s10#, #a4#", ""};
+				{ 9, 65080, "", "=q4=Life Force Chargers", "=ds=#s12#, #a4#", ""};
+				{ 16, 65076, "", "=q4=Security Measure Alpha", "=ds=#s13#", ""};
+				{ 17, 65082, "", "=q4=Lightning Conductor Band", "=ds=#s13#", ""};
+				{ 19, 65081, "", "=q4=Organic Lifeform Inverter", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Al'Akir", 155),
-			module = moduleName, instance = "ThroneOfTheFourWinds",
+			name = AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169),
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDChimaeron"] = {
+		["Normal"] = {
+			{
+				{ 1, 59313, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
+				{ 2, 59234, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
+				{ 3, 59451, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 4, 59223, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 5, 59310, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 6, 59355, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 7, 59311, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 8, 59225, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 9, 59221, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 16, 59233, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 17, 59224, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 19, 59314, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65065, "", "=q4=Brackish Gloves", "=ds=#s9#, #a1#", ""};
+				{ 2, 65069, "", "=q4=Einhorn's Galoshes", "=ds=#s12#, #a1#", ""};
+				{ 3, 65021, "", "=q4=Manacles of the Sleeping Beast", "=ds=#s8#, #a2#", ""};
+				{ 4, 65073, "", "=q4=Double Attack Handguards", "=ds=#s9#, #a2#", ""};
+				{ 5, 65068, "", "=q4=Chaos Beast Bracers", "=ds=#s8#, #a3#", ""};
+				{ 6, 65028, "", "=q4=Chimaeron Armguards", "=ds=#s8#, #a3#", ""};
+				{ 7, 65067, "", "=q4=Burden of Mortality", "=ds=#s3#, #a4#", ""};
+				{ 8, 65071, "", "=q4=Plated Fists of Provocation", "=ds=#s9#, #a4#", ""};
+				{ 9, 65075, "", "=q4=Massacre Treads", "=ds=#s12#, #a4#", ""};
+				{ 16, 65070, "", "=q4=Bile-O-Tron Nut", "=ds=#s13#", ""};
+				{ 17, 65072, "", "=q4=Heart of Rage", "=ds=#s14#", ""};
+				{ 19, 65064, "", "=q4=Finkle's Mixer Upper", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Chimaeron", 172),
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDMaloriak"] = {
+		["Normal"] = {
+			{
+				{ 1, 59348, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
+				{ 2, 59349, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
+				{ 3, 59351, "", "=q4=Legwraps of the Greatest Son", "=ds=#s11#, #a1#", ""};
+				{ 4, 59343, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 5, 59353, "", "=q4=Leggings of Consuming Flames", "=ds=#s11#, #a2#", ""};
+				{ 6, 59346, "", "=q4=Tunic of Failed Experiments", "=ds=#s5#, #a3#", ""};
+				{ 7, 59350, "", "=q4=Treads of Flawless Creation", "=ds=#s12#, #a3#", ""};
+				{ 8, 59344, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
+				{ 9, 59352, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 10, 59342, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
+				{ 16, 59354, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 18, 59347, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65035, "", "=q4=Cloak of Biting Chill", "=ds=#s4#", ""};
+				{ 2, 65034, "", "=q4=Belt of Arcane Storms", "=ds=#s10#, #a1#", ""};
+				{ 3, 65032, "", "=q4=Legwraps of the Greatest Son", "=ds=#s11#, #a1#", ""};
+				{ 4, 65039, "", "=q4=Aberration's Leggings", "=ds=#s11#, #a2#", ""};
+				{ 5, 65030, "", "=q4=Leggings of Consuming Flames", "=ds=#s11#, #a2#", ""};
+				{ 6, 65037, "", "=q4=Tunic of Failed Experiments", "=ds=#s5#, #a3#", ""};
+				{ 7, 65033, "", "=q4=Treads of Flawless Creation", "=ds=#s12#, #a3#", ""};
+				{ 8, 65038, "", "=q4=Dragon Bone Warhelm", "=ds=#s1#, #a4#", ""};
+				{ 9, 65031, "", "=q4=Flash Freeze Gauntlets", "=ds=#s9#, #a4#", ""};
+				{ 10, 65040, "", "=q4=Belt of Absolute Zero", "=ds=#s10#, #a4#", ""};
+				{ 16, 67428, "", "=q4=Leggings of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 17, 67427, "", "=q4=Leggings of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 67426, "", "=q4=Leggings of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65029, "", "=q4=Jar of Ancient Remedies", "=ds=#s14#", ""};
+				{ 22, 65036, "", "=q4=Mace of Acrid Death", "=ds=#h1#, #w6#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Maloriak", 173),
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDAtramedes"] = {
+		["Normal"] = {
+			{
+				{ 1, 59325, "", "=q4=Mantle of Roaring Flames", "=ds=#s3#, #a1#", ""};
+				{ 2, 59322, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
+				{ 3, 59312, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
+				{ 4, 59318, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", ""};
+				{ 5, 59324, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
+				{ 6, 59315, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
+				{ 7, 59316, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
+				{ 8, 59317, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
+				{ 16, 59319, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 17, 59326, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 18, 59320, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
+				{ 19, 59327, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65054, "", "=q4=Mantle of Roaring Flames", "=ds=#s3#, #a1#", ""};
+				{ 2, 65056, "", "=q4=Bracers of the Burningeye", "=ds=#s8#, #a1#", ""};
+				{ 3, 65066, "", "=q4=Helm of the Blind Seer", "=ds=#s1#, #a2#", ""};
+				{ 4, 65060, "", "=q4=Sark of the Unwatched", "=ds=#s5#, #a2#", ""};
+				{ 5, 65055, "", "=q4=Gloves of Cacophony", "=ds=#s9#, #a3#", ""};
+				{ 6, 65063, "", "=q4=Boots of Vertigo", "=ds=#s12#, #a3#", ""};
+				{ 7, 65062, "", "=q4=Battleplate of Ancient Kings", "=ds=#s5#, #a4#", ""};
+				{ 8, 65061, "", "=q4=Legguards of the Unseeing", "=ds=#s11#, #a4#", ""};
+				{ 16, 65059, "", "=q4=Ironstar Amulet", "=ds=#s2#", ""};
+				{ 17, 65053, "", "=q4=Bell of Enraging Resonance", "=ds=#s14#", ""};
+				{ 18, 65058, "", "=q4=Themios the Darkbringer", "=ds=#w2#", ""};
+				{ 19, 65052, "", "=q4=Kingdom's Heart", "=ds=#w8#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Atramedes", 171),
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDNefarian"] = {
+		["Normal"] = {
+			{
+				{ 1, 59457, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
+				{ 2, 59337, "", "=q4=Mantle of Nefarius", "=ds=#s3#, #a1#", ""};
+				{ 3, 59454, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
+				{ 4, 59321, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
+				{ 5, 59222, "", "=q4=Spaulders of the Scarred Lady", "=ds=#s3#, #a3#", ""};
+				{ 6, 59356, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", ""};
+				{ 7, 59450, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
+				{ 9, 59442, "", "=q4=Rage of Ages", "=ds=#s2#", ""};
+				{ 10, 59441, "", "=q4=Prestor's Talisman of Machination", "=ds=#s14#", ""};
+				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 20, 59443, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
+				{ 21, 63679, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
+				{ 22, 59459, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 23, 59444, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65018, "", "=q4=Shadow of Dread", "=ds=#s4#", ""};
+				{ 2, 65043, "", "=q4=Mantle of Nefarius", "=ds=#s3#, #a1#", ""};
+				{ 3, 65019, "", "=q4=Shadowblaze Robes", "=ds=#s5#, #a1#", ""};
+				{ 4, 65057, "", "=q4=Belt of the Nightmare", "=ds=#s10#, #a2#", ""};
+				{ 5, 65074, "", "=q4=Spaulders of the Scarred Lady", "=ds=#s3#, #a3#", ""};
+				{ 6, 65027, "", "=q4=Pauldrons of the Apocalypse", "=ds=#s3#, #a4#", ""};
+				{ 7, 65022, "", "=q4=Belt of the Blackhand", "=ds=#s10#, #a4#", ""};
+				{ 9, 65025, "", "=q4=Rage of Ages", "=ds=#s2#", ""};
+				{ 10, 65026, "", "=q4=Prestor's Talisman of Machination", "=ds=#s14#", ""};
+				{ 16, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 17, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65024, "", "=q4=Crul'korak, the Lightning's Arc", "=ds=#h1#, #w1#", ""};
+				{ 21, 65003, "", "=q4=Reclaimed Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", ""};
+				{ 22, 65017, "", "=q4=Andoros, Fist of the Dragon King", "=ds=#h3#, #w6#", ""};
+				{ 23, 65023, "", "=q4=Akmin-Kurai, Dominion's Shield", "=ds=#w8#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Nefarian", 174),
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+	AtlasLoot_Data["BDTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 59466, "", "=q4=Ironstar's Impenetrable Cover", "=ds=#s4#", ""};
+				{ 2, 59468, "", "=q4=Shadowforge's Lightbound Smock", "=ds=#s5#, #a1#", ""};
+				{ 3, 59467, "", "=q4=Hide of Chromaggus", "=ds=#s3#, #a2#", ""};
+				{ 4, 59465, "", "=q4=Corehammer's Riveted Girdle", "=ds=#s10#, #a4#", ""};
+				{ 5, 59464, "", "=q4=Treads of Savage Beatings", "=ds=#s12#, #a4#", ""};
+				{ 7, 59461, "", "=q4=Fury of Angerforge", "=ds=#s14#", ""};
+				{ 16, 59462, "", "=q4=Maimgor's Bite", "=ds=#h4#, #w1#", ""};
+				{ 17, 59463, "", "=q4=Maldo's Sword Cane", "=ds=#h3#, #w10#", ""};
+				{ 18, 63537, "", "=q4=Claws of Torment", "=ds=#h3#, #w13#", ""};
+				{ 19, 63538, "", "=q4=Claws of Agony", "=ds=#h4#, #w13#", ""};
+				{ 20, 68601, "", "=q4=Scaleslicer", "=ds=#h1#, #w4#", ""};
+				{ 21, 59460, "", "=q4=Theresa's Booklight", "=ds=#w12#", ""};
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "BlackwingDescent",
+		};
+	};
+
+		-------------------------------------
+		--- Caverns of Time: Dragon Soul ----
+		-------------------------------------
+
+	AtlasLoot_Data["DragonSoulMorchok"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Morchok", 311),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulZonozz"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulYorsahj"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulHagara"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulUltraxion"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ultraxion", 331),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulBlackhorn"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulDeathwingSpine"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Spine of Deathwing", 318),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulDeathwingMadness"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333),
+			module = moduleName, instance = "CoTDragonSoul",
+		};
+	};
+
+	AtlasLoot_Data["DragonSoulTrash"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "CoTDragonSoul",
 		};
 	};
 
 		----------------------
-		--- The Firelands ----
+		--- Firelands ----
 		----------------------
 
 	AtlasLoot_Data["FirelandsBethtilac"] = {
@@ -3234,138 +3061,327 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		------------------------
-		--- The Dragon Soul ----
-		------------------------
+		-------------------------------
+		--- The Bastion of Twilight ---
+		-------------------------------
 
-	AtlasLoot_Data["DragonSoulMorchok"] = {
+	AtlasLoot_Data["BoTWyrmbreaker"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 59482, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
+				{ 2, 59475, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
+				{ 3, 59469, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
+				{ 4, 59481, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
+				{ 5, 59472, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 6, 59471, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
+				{ 7, 59470, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
+				{ 8, 59476, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
+				{ 16, 59483, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
+				{ 17, 59473, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
+				{ 18, 59484, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 20, 59474, "", "=q4=Malevolence", "=ds=#w9#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 65135, "", "=q4=Robes of the Burning Acolyte", "=ds=#s5#, #a1#", ""};
+				{ 2, 65138, "", "=q4=Bracers of the Bronze Flight", "=ds=#s8#, #a1#", ""};
+				{ 3, 65144, "", "=q4=Storm Rider's Boots", "=ds=#s12#, #a2#", ""};
+				{ 4, 65136, "", "=q4=Helm of the Nether Scion", "=ds=#s1#, #a3#", ""};
+				{ 5, 65141, "", "=q4=Proto-Handler's Gauntlets", "=ds=#s9#, #a3#", ""};
+				{ 6, 65142, "", "=q4=Pauldrons of the Great Ettin", "=ds=#s3#, #a4#", ""};
+				{ 7, 65143, "", "=q4=Bracers of Impossible Strength", "=ds=#s8#, #a4#", ""};
+				{ 8, 65137, "", "=q4=Legguards of the Emerald Brood", "=ds=#s11#, #a4#", ""};
+				{ 10, 65134, "", "=q4=Wyrmbreaker's Amulet", "=ds=#s2#", ""};
+				{ 11, 65140, "", "=q4=Essence of the Cyclone", "=ds=#s14#", ""};
+				{ 12, 65133, "", "=q4=Book of Binding Will", "=ds=#s15#", ""};
+				{ 16, 67423, "", "=q4=Chest of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 17, 67424, "", "=q4=Chest of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 67425, "", "=q4=Chest of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65139, "", "=q4=Malevolence", "=ds=#w9#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Morchok", 311),
-			module = moduleName, instance = "TheDragonSoul",
+			name = AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156),
+			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["DragonSoulZonozz"] = {
+	AtlasLoot_Data["BoTValionaTheralion"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 59516, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
+				{ 2, 63534, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
+				{ 3, 63535, "", "=q4=Waistguard of Hatred", "=ds=#s10#, #a3#", ""};
+				{ 4, 63531, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
+				{ 6, 59517, "", "=q4=Necklace of Strife", "=ds=#s2#", ""};
+				{ 7, 59512, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
+				{ 8, 59518, "", "=q4=Ring of Rivalry", "=ds=#s13#", ""};
+				{ 9, 59519, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 10, 59515, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
+				{ 16, 63533, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
+				{ 17, 63536, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 18, 63532, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 65108, "", "=q4=Drape of the Twins", "=ds=#s4#", ""};
+				{ 2, 65093, "", "=q4=Helm of Eldritch Authority", "=ds=#s1#, #a1#", ""};
+				{ 3, 65092, "", "=q4=Waistguard of Hatred", "=ds=#s10#, #a3#", ""};
+				{ 4, 65096, "", "=q4=Daybreaker Helm", "=ds=#s1#, #a4#", ""};
+				{ 6, 65107, "", "=q4=Necklace of Strife", "=ds=#s2#", ""};
+				{ 7, 65112, "", "=q4=Valiona's Medallion", "=ds=#s2#", ""};
+				{ 8, 65106, "", "=q4=Ring of Rivalry", "=ds=#s13#", ""};
+				{ 9, 65105, "", "=q4=Theralion's Mirror", "=ds=#s14#", ""};
+				{ 10, 65109, "", "=q4=Vial of Stolen Memories", "=ds=#s14#", ""};
+				{ 16, 65094, "", "=q4=Fang of Twilight", "=ds=#h1#, #w10#", ""};
+				{ 17, 65091, "", "=q4=Blade of the Witching Hour", "=ds=#h3#, #w4#", ""};
+				{ 18, 65095, "", "=q4=Dragonheart Piercer", "=ds=#w3#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324),
-			module = moduleName, instance = "TheDragonSoul",
+			name = AtlasLoot:EJ_GetBossName("Valiona and Theralion", 157),
+			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["DragonSoulYorsahj"] = {
+	AtlasLoot_Data["BoTCouncil"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 59507, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
+				{ 2, 59508, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", ""};
+				{ 3, 59511, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
+				{ 4, 59502, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
+				{ 5, 59504, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
+				{ 6, 59510, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
+				{ 7, 59509, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
+				{ 8, 59505, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
+				{ 9, 59503, "", "=q4=Terrastra's Legguards", "=ds=#s11#, #a4#", ""};
+				{ 16, 59506, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
+				{ 17, 59514, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+				{ 18, 59513, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 65117, "", "=q4=Glittering Epidermis", "=ds=#s4#", ""};
+				{ 2, 65116, "", "=q4=Treads of Liquid Ice", "=ds=#s12#, #a1#", ""};
+				{ 3, 65113, "", "=q4=Hydrolance Gloves", "=ds=#s9#, #a2#", ""};
+				{ 4, 65122, "", "=q4=Dispersing Belt", "=ds=#s10#, #a2#", ""};
+				{ 5, 65120, "", "=q4=Arion's Crown", "=ds=#s1#, #a3#", ""};
+				{ 6, 65114, "", "=q4=Feludius' Mantle", "=ds=#s3#, #a3#", ""};
+				{ 7, 65115, "", "=q4=Glaciated Helm", "=ds=#s1#, #a4#", ""};
+				{ 8, 65119, "", "=q4=Gravitational Pull", "=ds=#s9#, #a4#", ""};
+				{ 9, 65121, "", "=q4=Terrastra's Legguards", "=ds=#s11#, #a4#", ""};
+				{ 16, 65118, "", "=q4=Crushing Weight", "=ds=#s14#", ""};
+				{ 17, 65110, "", "=q4=Heart of Ignacious", "=ds=#s14#", ""};
+				{ 18, 65111, "", "=q4=Scepter of Ice", "=ds=#s15#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325),
-			module = moduleName, instance = "TheDragonSoul",
+			name = AtlasLoot:EJ_GetBossName("Ascendant Council", 158),
+			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["DragonSoulHagara"] = {
+	AtlasLoot_Data["BoTChogall"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 59498, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
+				{ 2, 59490, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
+				{ 3, 59495, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
+				{ 4, 59485, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
+				{ 5, 59499, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s11#, #a3#", ""};
+				{ 6, 59487, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
+				{ 7, 59486, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 8, 59497, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
+				{ 10, 59501, "", "=q4=Signet of the Fifth Circle", "=ds=#s13#", ""};
+				{ 11, 59500, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+				{ 16, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 20, 59494, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
+				{ 21, 59330, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
+				{ 22, 63680, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 1, 65126, "", "=q4=Hands of the Twilight Council", "=ds=#s9#, #a1#", ""};
+				{ 2, 65129, "", "=q4=Membrane of C'Thun", "=ds=#s1#, #a2#", ""};
+				{ 3, 65128, "", "=q4=Treads of Hideous Transformation", "=ds=#s12#, #a2#", ""};
+				{ 4, 65132, "", "=q4=Coil of Ten-Thousand Screams", "=ds=#s10#, #a3#", ""};
+				{ 5, 65125, "", "=q4=Kilt of the Forgotten Battle", "=ds=#s11#, #a3#", ""};
+				{ 6, 65130, "", "=q4=Helm of Maddening Whispers", "=ds=#s1#, #a4#", ""};
+				{ 7, 65131, "", "=q4=Battleplate of the Apocalypse", "=ds=#s5#, #a4#", ""};
+				{ 8, 65127, "", "=q4=Shackles of the End of Days", "=ds=#s8#, #a4#", ""};
+				{ 10, 65123, "", "=q4=Signet of the Fifth Circle", "=ds=#s13#", ""};
+				{ 11, 65124, "", "=q4=Fall of Mortality", "=ds=#s14#", ""};
+				{ 16, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 17, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 68600, "", "=q4=Uhn'agh Fash, the Darkest Betrayal", "=ds=#h1#, #w4#", ""};
+				{ 21, 65145, "", "=q4=Shalug'doom, the Axe of Unmaking", "=ds=#h2#, #w1#", ""};
+				{ 22, 65090, "", "=q4=Twilight's Hammer", "=ds=#h3#, #w6#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317),
-			module = moduleName, instance = "TheDragonSoul",
+			name = AtlasLoot:EJ_GetBossName("Cho'gall", 167),
+			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["DragonSoulUltraxion"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
+	AtlasLoot_Data["BoTSinestra"] = {
 		["Heroic"] = {
 			{
-
+				{ 1, 60232, "", "=q4=Shroud of Endless Grief", "=ds=#s4#", ""};
+				{ 2, 60237, "", "=q4=Crown of the Twilight Queen", "=ds=#s1#, #a1#", ""};
+				{ 3, 60238, "", "=q4=Bracers of the Dark Mother", "=ds=#s8#, #a1#", ""};
+				{ 4, 60231, "", "=q4=Belt of the Fallen Brood", "=ds=#s10#, #a2#", ""};
+				{ 5, 60236, "", "=q4=Nightmare Rider's Boots", "=ds=#s12#, #a2#", ""};
+				{ 6, 60230, "", "=q4=Twilight Scale Leggings", "=ds=#s11#, #a3#", ""};
+				{ 7, 60235, "", "=q4=Boots of Az'galada", "=ds=#s12#, #a3#", ""};
+				{ 8, 60234, "", "=q4=Bindings of Bleak Betrayal", "=ds=#s8#, #a4#", ""};
+				{ 9, 60228, "", "=q4=Bracers of the Mat'redor", "=ds=#s8#, #a4#", ""};
+				{ 10, 60229, "", "=q4=War-Torn Crushers", "=ds=#s12#, #a4#", ""};
+				{ 16, 60227, "", "=q4=Caelestrasz's Will", "=ds=#s2#", ""};
+				{ 17, 60226, "", "=q4=Dargonax's Signet", "=ds=#s13#", ""};
+				{ 18, 60233, "", "=q4=Shard of Woe", "=ds=#s14#", ""};
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Ultraxion", 331),
-			module = moduleName, instance = "TheDragonSoul",
+			name = AtlasLoot:EJ_GetBossName("Sinestra", 168),
+			module = moduleName, instance = "TheBastionOfTwilight",
 		};
 	};
 
-	AtlasLoot_Data["DragonSoulBlackhorn"] = {
+	AtlasLoot_Data["BoTTrash"] = {
 		["Normal"] = {
 			{
-
-			};
-		};
-		["Heroic"] = {
-			{
-
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332),
-			module = moduleName, instance = "TheDragonSoul",
-		};
-	};
-
-	AtlasLoot_Data["DragonSoulDeathwing"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		["Heroic"] = {
-			{
-
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Spine of Deathwing", 318),
-			module = moduleName, instance = "TheDragonSoul",
-		};
-	};
-
-	AtlasLoot_Data["DragonSoulTrash"] = {
-		["Normal"] = {
-			{
-
+				{ 1, 60211, "", "=q4=Bracers of the Dark Pool", "=ds=#s8#, #a1#", ""};
+				{ 2, 60202, "", "=q4=Tsanga's Helm", "=ds=#s1#, #a2#", ""};
+				{ 3, 60201, "", "=q4=Phase-Twister Leggings", "=ds=#s11#, #a3#", ""};
+				{ 4, 59901, "", "=q4=Heaving Plates of Protection", "=ds=#s3#, #a4#", ""};
+				{ 6, 59520, "", "=q4=Unheeded Warning", "=ds=#s14#", ""};
+				{ 16, 59521, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
+				{ 17, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
+				{ 18, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
+				{ 19, 68608, "", "=q4=Dragonwreck Throwing Axe", "=ds=#w11#", ""};
 			};
 		};
 		info = {
 			name = "trash",
-			module = moduleName, instance = "TheDragonSoul",
+			module = moduleName, instance = "TheBastionOfTwilight",
+		};
+	};
+
+		---------------------------------
+		--- Throne of the Four Winds ----
+		---------------------------------
+
+	AtlasLoot_Data["TFWConclave"] = {
+		["Normal"] = {
+			{
+				{ 1, 63498, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
+				{ 2, 63497, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
+				{ 3, 63493, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
+				{ 4, 63496, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 63492, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
+				{ 6, 63490, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
+				{ 7, 63495, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 63491, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
+				{ 16, 63488, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
+				{ 17, 63489, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
+				{ 18, 63494, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 65376, "", "=q4=Soul Breath Belt", "=ds=#s10#, #a1#", ""};
+				{ 2, 65374, "", "=q4=Gale Rouser Belt", "=ds=#s10#, #a2#", ""};
+				{ 3, 65371, "", "=q4=Wind Stalker Belt", "=ds=#s10#, #a2#", ""};
+				{ 4, 65377, "", "=q4=Lightning Well Belt", "=ds=#s10#, #a3#", ""};
+				{ 5, 65368, "", "=q4=Star Chaser Belt", "=ds=#s10#, #a3#", ""};
+				{ 6, 65369, "", "=q4=Sky Strider Belt", "=ds=#s10#, #a4#", ""};
+				{ 7, 65375, "", "=q4=Tempest Keeper Belt", "=ds=#s10#, #a4#", ""};
+				{ 8, 65370, "", "=q4=Thunder Wall Belt", "=ds=#s10#, #a4#", ""};
+				{ 16, 65367, "", "=q4=Mistral Circle", "=ds=#s13#", ""};
+				{ 17, 65372, "", "=q4=Permafrost Signet", "=ds=#s13#", ""};
+				{ 18, 65373, "", "=q4=Planetary Band", "=ds=#s13#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Conclave of Wind", 154),
+			module = moduleName, instance = "ThroneOfTheFourWinds",
+		};
+	};
+
+	AtlasLoot_Data["TFWAlAkir"] = {
+		["Normal"] = {
+			{
+				{ 1, 69834, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
+				{ 2, 69831, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
+				{ 3, 69833, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
+				{ 4, 69835, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
+				{ 5, 63507, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 63506, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 7, 63503, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 8, 63505, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 9, 63502, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 10, 63500, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 11, 63504, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 12, 63501, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 14, 68127, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 15, 68128, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 16, 63683, "", "=q4=Helm of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 17, 63684, "", "=q4=Helm of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 18, 63682, "", "=q4=Helm of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 19, 64315, "", "=q4=Mantle of the Forlorn Conqueror", "=ds=#e15#, #m37#"};
+				{ 20, 64316, "", "=q4=Mantle of the Forlorn Protector", "=ds=#e15#, #m37#"};
+				{ 21, 64314, "", "=q4=Mantle of the Forlorn Vanquisher", "=ds=#e15#, #m37#"};
+				{ 23, 69829, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 24, 69827, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 25, 69828, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 26, 69830, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 27, 63499, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 29, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 69879, "", "=q4=Cloudburst Cloak", "=ds=#s4#", ""};
+				{ 2, 69884, "", "=q4=Mistral Drape", "=ds=#s4#", ""};
+				{ 3, 69878, "", "=q4=Permafrost Cape", "=ds=#s4#", ""};
+				{ 4, 69881, "", "=q4=Planetary Drape", "=ds=#s4#", ""};
+				{ 5, 65383, "", "=q4=Soul Breath Leggings", "=ds=#s11#, #a1#", ""};
+				{ 6, 65384, "", "=q4=Gale Rouser Leggings", "=ds=#s11#, #a2#", ""};
+				{ 7, 65381, "", "=q4=Wind Stalker Leggings", "=ds=#s11#, #a2#", ""};
+				{ 8, 65386, "", "=q4=Lightning Well Legguards", "=ds=#s11#, #a3#", ""};
+				{ 9, 65378, "", "=q4=Star Chaser Legguards", "=ds=#s11#, #a3#", ""};
+				{ 10, 65379, "", "=q4=Sky Strider Greaves", "=ds=#s11#, #a4#", ""};
+				{ 11, 65385, "", "=q4=Tempest Keeper Leggings", "=ds=#s11#, #a4#", ""};
+				{ 12, 65380, "", "=q4=Thunder Wall Greaves", "=ds=#s11#, #a4#", ""};
+				{ 14, 68132, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 15, 68131, "", "=q4=Stormwake, the Tempest's Reach", "=ds=#h3#, #w10#", ""};
+				{ 16, 66998, "", "=q4=Essence of the Forlorn", "=ds=#e15#, #m37#"};
+				{ 17, 65001, "", "=q4=Crown of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 18, 65000, "", "=q4=Crown of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 19, 65002, "", "=q4=Crown of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 20, 65088, "", "=q4=Shoulders of the Forlorn Conqueror", "=ds=#e15#, #m37# - #j4#"};
+				{ 21, 65087, "", "=q4=Shoulders of the Forlorn Protector", "=ds=#e15#, #m37# - #j4#"};
+				{ 22, 65089, "", "=q4=Shoulders of the Forlorn Vanquisher", "=ds=#e15#, #m37# - #j4#"};
+				{ 24, 69885, "", "=q4=Cloudburst Necklace", "=ds=#s2#", ""};
+				{ 25, 69880, "", "=q4=Mistral Pendant", "=ds=#s2#", ""};
+				{ 26, 69883, "", "=q4=Permafrost Choker", "=ds=#s2#", ""};
+				{ 27, 69882, "", "=q4=Planetary Amulet", "=ds=#s2#", ""};
+				{ 28, 65382, "", "=q4=Cloudburst Ring", "=ds=#s13#", ""};
+				{ 30, 63041, "", "=q4=Reins of the Drake of the South Wind", "=ds=#e27#", ""};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Al'Akir", 155),
+			module = moduleName, instance = "ThroneOfTheFourWinds",
 		};
 	};
 
