@@ -94,7 +94,7 @@ if AL then
 	AL["Profiles"] = "配置文件";
 	AL["Item Buttons"] = "物品按钮";
 	AL["Loot Table"] = "掉落列表";
-	AL["Enable mouse on item descriptions"] = "启用物品对应的任务或成就的鼠标提示";
+	AL["Enable mouse on item descriptions"] = "启用鼠标指向物品属性";
 
 	-- Default Frame
 	AL["Default Frame"] = "默认框体";
@@ -250,6 +250,8 @@ if AL then
 	AL["ilvl 372"] = "等级372";
 	AL["ilvl 378"] = "等级378";
 	AL["ilvl 391"] = "等级391";
+	AL["ilvl 397"] = "等级397";
+	AL["ilvl 410"] = "等级410";
 
 	-- #######################################
 	-- UI things END
@@ -817,6 +819,12 @@ if AL then
 
 	-- Fifteenth set
 	AL["Twilight of the Dragons"] = "暮光之龙";
+
+	-- Seventeenth set
+	AL["Crown of Heaven"] = "天堂之冠 - PH";
+
+	-- Eighteenth set
+	AL["Tomb of the Forgotten"] = "墓之遗忘 - PH";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "旧 PvP 奖励";

@@ -250,6 +250,8 @@ if AL then
 	AL["ilvl 372"] = "等級 372";
 	AL["ilvl 378"] = "等級 378";
 	AL["ilvl 391"] = "等級 391";
+	AL["ilvl 397"] = "等級 397";
+	AL["ilvl 410"] = "等級 410";
 
 	-- #######################################
 	-- UI things END
@@ -817,6 +819,12 @@ if AL then
 
 	-- Fifteenth set
 	AL["Twilight of the Dragons"] = "暮光之龍";
+
+	-- Seventeenth set
+	AL["Crown of Heaven"] = "Crown of Heaven";
+
+	-- Eighteenth set
+	AL["Tomb of the Forgotten"] = "Tomb of the Forgotten";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "舊 PvP 獎勵";
