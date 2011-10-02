@@ -5,23 +5,25 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.00_BETA-14??? (October ??, 2011)
+v6.05.00_BETA-14??? (Oct ??, 2011)
 Added extra menu to access 4.3 stuff (Beta-only)
 Compatible with Patch 4.3.
+Added support for Atlas 1.21.0.
 Added known loot for Endtime.
+Added new Baradin Hold boss (PvE not yet known).
 Added Season 11 items.
 Added Tier 13 Raid Set (ilvl 397).
 Added new Companions.
 Added new Mounts.
 Added new TCG loot from Throne of the Tides.
-Added new TCG loot from Crown of Heaven (To be released February 2012).
-Added new TCG loot from Tomb of the Forgotten (To be released May 2012).
+Added new TCG loot from Crown of Heaven (not yet released).
+Added new TCG loot from Tomb of the Forgotten (not yet released).
 Added Jewelcrafting section with epic gems.
 Added new items to other professions.
 Added Spells to the Archaeology section.
 Many minor fixes, additions and translations.
 
-v6.04.04 (September 11, 2011)
+v6.04.04 (Sep 11, 2011)
 Added support for Atlas 1.20.1.
 Added Season 10 items.
 Added various Wishlist improvements.

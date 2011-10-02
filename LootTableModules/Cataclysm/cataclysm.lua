@@ -414,7 +414,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 56114, "", "=q3=Umbriss Band", "=ds=#s13#", ""};
 				{ 5, 56115, "", "=q3=Skardyn's Grace", "=ds=#s14#", ""};
 				{ 6, 56116, "", "=q3=Modgud's Blade", "=ds=#h3#, #w4#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5297#"};
 				{ 17, 56442, "", "=q3=Cursed Skardyn Vest", "=ds=#s5#, #a2#", ""};
 				{ 18, 56443, "", "=q3=Wildhammer Riding Helm", "=ds=#s1#, #a3#", ""};
 				{ 19, 56444, "", "=q3=Umbriss Band", "=ds=#s13#", ""};
@@ -488,7 +488,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 56130, "", "=q3=Mace of Transformed Bone", "=ds=#h1#, #w6#", ""};
 				{ 10, 56131, "", "=q3=Wild Hammer", "=ds=#h2#, #w6#", ""};
 				{ 11, 56137, "", "=q3=Staff of Siphoned Essences", "=ds=#w9#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5298#"};
 				{ 17, 56460, "", "=q3=Crown of Enfeebled Bodies", "=ds=#s1#, #a1#", ""};
 				{ 18, 56455, "", "=q3=Vest of Misshapen Hides", "=ds=#s5#, #a2#", ""};
 				{ 19, 56464, "", "=q3=Bracers of Umbral Mending", "=ds=#s8#, #a4#", ""};
@@ -534,7 +534,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 55887, "", "=q3=Belt of Petrified Tears", "=ds=#s10#, #a3#", ""};
 				{ 5, 55888, "", "=q3=Darkhowl Amulet", "=ds=#s2#", ""};
 				{ 6, 55889, "", "=q3=Anhuur's Hymnal", "=ds=#s14#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5293#"};
 				{ 17, 56409, "", "=q3=Poison Fang Bracers", "=ds=#s8#, #a2#", ""};
 				{ 18, 56408, "", "=q3=Awakening Footfalls", "=ds=#s12#, #a2#", ""};
 				{ 19, 56410, "", "=q3=Belt of Petrified Tears", "=ds=#s10#, #a3#", ""};
@@ -557,7 +557,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 56095, "", "=q3=Mouth of the Earth", "=ds=#s2#", ""};
 				{ 5, 56097, "", "=q3=Soul Releaser", "=ds=#w9#", ""};
 				{ 6, 56096, "", "=q3=Bulwark of the Primordial Mound", "=ds=#w8#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5294#"};
 				{ 17, 56423, "", "=q3=Underworld Cord", "=ds=#s10#, #a2#", ""};
 				{ 18, 56425, "", "=q3=Breastplate of the Risen Land", "=ds=#s5#, #a4#", ""};
 				{ 19, 56422, "", "=q3=Mouth of the Earth", "=ds=#s2#", ""};
@@ -677,7 +677,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 56100, "", "=q3=Right Eye of Rajh", "=ds=#s14#", ""};
 				{ 10, 56108, "", "=q3=Blade of the Burning Sun", "=ds=#h3#, #w10#", ""};
 				{ 11, 56101, "", "=q3=Sun Strike", "=ds=#h1#, #w10#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5295#"};
 				{ 17, 56434, "", "=q3=Solar Wind Cloak", "=ds=#s4#", ""};
 				{ 18, 56436, "", "=q3=Hekatic Slippers", "=ds=#s12#, #a1#", ""};
 				{ 19, 56429, "", "=q3=Red Beam Cord", "=ds=#s10# #a2#", ""};
@@ -841,7 +841,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#" };
 				{ 3, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#" };
 				{ 4, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5503#"};
 				{ 17, 63433, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#" };
 				{ 18, 63437, "", "=q3=Baron Ashbury's Cuffs", "=ds=#s8#, #a1#" };
 				{ 19, 63435, "", "=q3=Boots of the Predator", "=ds=#s12#, #a2#" };
@@ -885,7 +885,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 6320, "", "=q3=Commander's Crest", "=ds=#w8#" };
 				{ 5, 60879, "", "=q1=Commander's Holy Symbol", "=ds=#m3#, =q1=#m1# =ds=#c4#, =ds=#c5#", "", "100%" };
 				{ 6, 60880, "", "=q1=Springvale's Sharpening Stone", "=ds=#m3#, =q1=#m1# =ds=#c6#", "", "100%" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5504#"};
 				{ 17, 63448, "", "=q3=Springvale's Cloak", "=ds=#s4#" };
 				{ 18, 63449, "", "=q3=Thieving Spaulders", "=ds=#s3#, #a2#" };
 				{ 19, 63447, "", "=q3=Breastplate of the Stilled Heart", "=ds=#s5#, #a3#" };
@@ -933,7 +933,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#" };
 				{ 7, 60877, "", "=q1=Godfrey's Crystal Scope", "=ds=#m3#, =q1=#m1# =ds=#c2#", "", "100%" };
 				{ 8, 60882, "", "=q1=Tenebrous Orb", "=ds=#m3#, =q1=#m1# =ds=#c8#", "", "100%" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5505#"};
 				{ 17, 63465, "", "=q3=Mantle of Loss", "=ds=#s3#, #a1#" };
 				{ 18, 63463, "", "=q3=Mantle of the Eastern Lords", "=ds=#s3#, #a1#" };
 				{ 19, 63459, "", "=q3=Worgen Hunter's Helm", "=ds=#s1#, #a3#" };
@@ -1006,7 +1006,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
 				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
 				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5367#"};
 				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
 				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
 				{ 19, 63476, "", "=q3=Gearbreaker's Bindings", "=ds=#s8#, #a4#", ""};
@@ -1027,7 +1027,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 1937, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", "", };
 				{ 3, 5187, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
 				{ 4, 5201, "", "=q3=Emberstone Staff", "=ds=#w9#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5368#"};
 				{ 17, 65166, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", ""};
 				{ 18, 65165, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
 				{ 19, 65167, "", "=q3=Emberstone Staff", "=ds=#w9#", ""};
@@ -1046,7 +1046,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", "", };
 				{ 3, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
 				{ 4, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5369#"};
 				{ 17, 65169, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", ""};
 				{ 18, 65170, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
 				{ 19, 65168, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
@@ -1067,7 +1067,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
 				{ 5, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", };
 				{ 6, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5370#"};
 				{ 17, 65177, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", ""};
 				{ 18, 65174, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", ""};
 				{ 19, 65173, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
@@ -2198,6 +2198,184 @@ local moduleName = "AtlasLootCataclysm"
 
 	AtlasLoot_Data["BHAlizabal"] = {
 		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 5, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+				{ 9, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 17, 73596, "", "=q4=Cataclysmic Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 73599, "", "=q4=Cataclysmic Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+				{ 21, 73612, "", "=q4=Cataclysmic Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 22, 73615, "", "=q4=Cataclysmic Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 25, 73604, "", "=q4=Cataclysmic Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
+				{ 26, 73607, "", "=q4=Cataclysmic Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 5, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 9, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 13, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 16, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 17, 73573, "", "=q4=Cataclysmic Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 73576, "", "=q4=Cataclysmic Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 21, 73584, "", "=q4=Cataclysmic Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 22, 73583, "", "=q4=Cataclysmic Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 24, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 25, 73527, "", "=q4=Cataclysmic Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
+				{ 26, 73526, "", "=q4=Cataclysmic Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 28, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 29, 73484, "", "=q4=Cataclysmic Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
+				{ 30, 73487, "", "=q4=Cataclysmic Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 17, 73560, "", "=q4=Cataclysmic Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 73559, "", "=q4=Cataclysmic Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 21, 73571, "", "=q4=Cataclysmic Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 22, 73570, "", "=q4=Cataclysmic Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 5, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 17, 73546, "", "=q4=Cataclysmic Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 73549, "", "=q4=Cataclysmic Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 21, 73541, "", "=q4=Cataclysmic Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
+				{ 22, 73544, "", "=q4=Cataclysmic Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 5, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 9, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 17, 73506, "", "=q4=Cataclysmic Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 73505, "", "=q4=Cataclysmic Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 21, 73512, "", "=q4=Cataclysmic Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 22, 73511, "", "=q4=Cataclysmic Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 24, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 25, 73517, "", "=q4=Cataclysmic Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
+				{ 26, 73516, "", "=q4=Cataclysmic Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
+				{ 17, 73620, "", "=q4=Cataclysmic Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 18, 73619, "", "=q4=Cataclysmic Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 73482, "", "=q4=Cataclysmic Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
+				{ 26, 73481, "", "=q4=Cataclysmic Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 73633, "", "=q4=Cataclysmic Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 2, 73638, "", "=q4=Cataclysmic Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1650#"};
+				{ 3, 73635, "", "=q4=Cataclysmic Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 73631, "", "=q4=Cataclysmic Gladiator's Cuffs of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 6, 73637, "", "=q4=Cataclysmic Gladiator's Cord of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 7, 73634, "", "=q4=Cataclysmic Gladiator's Treads of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 9, 73632, "", "=q4=Cataclysmic Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 10, 73639, "", "=q4=Cataclysmic Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 11, 73636, "", "=q4=Cataclysmic Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 16, 73528, "", "=q4=Cataclysmic Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 73532, "", "=q4=Cataclysmic Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73531, "", "=q4=Cataclysmic Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 73529, "", "=q4=Cataclysmic Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 73533, "", "=q4=Cataclysmic Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73530, "", "=q4=Cataclysmic Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 24, 73600, "", "=q4=Cataclysmic Gladiator's Bindings of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 73602, "", "=q4=Cataclysmic Gladiator's Belt of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 26, 73601, "", "=q4=Cataclysmic Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 28, 73608, "", "=q4=Cataclysmic Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 29, 73610, "", "=q4=Cataclysmic Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 30, 73609, "", "=q4=Cataclysmic Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 73518, "", "=q4=Cataclysmic Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 2, 73522, "", "=q4=Cataclysmic Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 3, 73520, "", "=q4=Cataclysmic Gladiator's Sabatons of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 73519, "", "=q4=Cataclysmic Gladiator's Armbands of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 6, 73507, "", "=q4=Cataclysmic Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 7, 73677, "", "=q4=Cataclysmic Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 9, 73586, "", "=q4=Cataclysmic Gladiator's Wristguards of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 10, 73590, "", "=q4=Cataclysmic Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 11, 73587, "", "=q4=Cataclysmic Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 13, 73585, "", "=q4=Cataclysmic Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 14, 73589, "", "=q4=Cataclysmic Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1650#"};
+				{ 15, 73588, "", "=q4=Cataclysmic Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 16, 73561, "", "=q4=Cataclysmic Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 73565, "", "=q4=Cataclysmic Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73563, "", "=q4=Cataclysmic Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 73551, "", "=q4=Cataclysmic Gladiator's Armplates of Proficiency", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 73554, "", "=q4=Cataclysmic Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73552, "", "=q4=Cataclysmic Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 24, 73562, "", "=q4=Cataclysmic Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 73566, "", "=q4=Cataclysmic Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 26, 73564, "", "=q4=Cataclysmic Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 28, 73550, "", "=q4=Cataclysmic Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 29, 73555, "", "=q4=Cataclysmic Gladiator's Girdle of Cruelty", "=ds=", "#CONQUEST:1650#"};
+				{ 30, 73553, "", "=q4=Cataclysmic Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1650#"};
+			};
+			{
+				{ 1, 73647, "", "=q4=Cataclysmic Gladiator's Cape of Cruelty", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 2, 73646, "", "=q4=Cataclysmic Gladiator's Cape of Prowess", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 3, 73495, "", "=q4=Cataclysmic Gladiator's Cloak of Alacrity", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 4, 73494, "", "=q4=Cataclysmic Gladiator's Cloak of Prowess", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 5, 73629, "", "=q4=Cataclysmic Gladiator's Drape of Diffusion", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 6, 73628, "", "=q4=Cataclysmic Gladiator's Drape of Meditation", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 7, 73630, "", "=q4=Cataclysmic Gladiator's Drape of Prowess", "=ds=#s4#", "#CONQUEST:1250#" },
+				{ 9, 73622, "", "=q4=Cataclysmic Gladiator's Band of Accuracy", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 10, 73623, "", "=q4=Cataclysmic Gladiator's Band of Cruelty", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 11, 73621, "", "=q4=Cataclysmic Gladiator's Band of Dominance", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 12, 73488, "", "=q4=Cataclysmic Gladiator's Signet of Accuracy", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 13, 73489, "", "=q4=Cataclysmic Gladiator's Signet of Cruelty", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 14, 73640, "", "=q4=Cataclysmic Gladiator's Ring of Accuracy", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 15, 73641, "", "=q4=Cataclysmic Gladiator's Ring of Cruelty", "=ds=#s13#", "#CONQUEST:1250#"};
+				{ 16, 73492, "", "=q4=Cataclysmic Gladiator's Choker of Accuracy", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 17, 73493, "", "=q4=Cataclysmic Gladiator's Choker of Proficiency", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 18, 73645, "", "=q4=Cataclysmic Gladiator's Necklace of Proficiency", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 19, 73644, "", "=q4=Cataclysmic Gladiator's Necklace of Prowess", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 20, 73627, "", "=q4=Cataclysmic Gladiator's Pendant of Alacrity", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 21, 73626, "", "=q4=Cataclysmic Gladiator's Pendant of Diffusion", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 22, 73625, "", "=q4=Cataclysmic Gladiator's Pendant of Meditation", "=ds=#s2#", "#CONQUEST:1250#" },
+				{ 24, 73490, "", "=q4=Cataclysmic Gladiator's Relic of Conquest", "=ds=#s16#", "#CONQUEST:700#" },
+				{ 25, 73624, "", "=q4=Cataclysmic Gladiator's Relic of Dominance", "=ds=#s16#", "#CONQUEST:700#" },
+				{ 26, 73594, "", "=q4=Cataclysmic Gladiator's Relic of Salvation", "=ds=#s16#", "#CONQUEST:700#" },
+				{ 27, 73642, "", "=q4=Cataclysmic Gladiator's Relic of Triumph", "=ds=#s16#", "#CONQUEST:700#" },
+			};
+			{
+				{ 2, 73648, "", "=q4=Cataclysmic Gladiator's Badge of Conquest", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 3, 73498, "", "=q4=Cataclysmic Gladiator's Badge of Dominance", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 4, 73496, "", "=q4=Cataclysmic Gladiator's Badge of Victory", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 6, 73593, "", "=q4=Cataclysmic Gladiator's Emblem of Cruelty", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 7, 73591, "", "=q4=Cataclysmic Gladiator's Emblem of Meditation", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 8, 73592, "", "=q4=Cataclysmic Gladiator's Emblem of Tenacity", "=ds=#s14#", "#CONQUEST:1650#" },
+				{
+					{ 17, 73538, "", "=q4=Cataclysmic Gladiator's Medallion of Cruelty", "=ds=#s14#", "#CONQUEST:1650#" },
+					{ 17, 73539, "", "=q4=Cataclysmic Gladiator's Medallion of Cruelty", "=ds=#s14#", "#CONQUEST:1650#" },
+				};
+				{
+					{ 18, 73534, "", "=q4=Cataclysmic Gladiator's Medallion of Meditation", "=ds=#s14#", "#CONQUEST:1650#" },
+					{ 18, 73535, "", "=q4=Cataclysmic Gladiator's Medallion of Meditation", "=ds=#s14#", "#CONQUEST:1650#" },
+				};
+				{
+					{ 19, 73537, "", "=q4=Cataclysmic Gladiator's Medallion of Tenacity", "=ds=#s14#", "#CONQUEST:1650#" },
+					{ 19, 73536, "", "=q4=Cataclysmic Gladiator's Medallion of Tenacity", "=ds=#s14#", "#CONQUEST:1650#" },
+				};
+				{ 21, 73643, "", "=q4=Cataclysmic Gladiator's Insignia of Conquest", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 22, 73497, "", "=q4=Cataclysmic Gladiator's Insignia of Dominance", "=ds=#s14#", "#CONQUEST:1650#" },
+				{ 23, 73491, "", "=q4=Cataclysmic Gladiator's Insignia of Victory", "=ds=#s14#", "#CONQUEST:1650#" },
+			};
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339),
