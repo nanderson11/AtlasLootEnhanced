@@ -1245,30 +1245,30 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s99452", "69946", "=q4=Warboots of Mighty Lords", "=ds=#s12#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 11, "s99453", "69947", "=q4=Mirrored Boots", "=ds=#s12#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 12, "s99454", "69948", "=q4=Emberforged Elementium Boots", "=ds=#s12#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
-				{ 13, "s76464", "55078", "=q3=Bloodied Pyrium Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
-				{ 14, "s76463", "55077", "=q3=Bloodied Pyrium Helm", "=ds=#s1#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
-				{ 15, "s76462", "55076", "=q3=Bloodied Pyrium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
-				{ 16, "s76472", "55086", "=q3=Ornate Pyrium Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
-				{ 17, "s76471", "55085", "=q3=Ornate Pyrium Helm", "=ds=#s1#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
-				{ 18, "s76470", "55084", "=q3=Ornate Pyrium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
-				{ 19, "s76461", "55075", "=q3=Bloodied Pyrium Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
-				{ 20, "s76469", "55083", "=q3=Ornate Pyrium Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
+				{ 13, "s76464", "75135", "=q3=Vicious Pyrium Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
+				{ 14, "s76463", "75126", "=q3=Vicious Pyrium Helm", "=ds=#s1#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
+				{ 15, "s76462", "75136", "=q3=Vicious Pyrium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
+				{ 16, "s76472", "75128", "=q3=Vicious Ornate Pyrium Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
+				{ 17, "s76471", "75129", "=q3=Vicious Ornate Pyrium Helm", "=ds=#s1#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
+				{ 18, "s76470", "75133", "=q3=Vicious Ornate Pyrium Legguards", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Vendor"]};
+				{ 19, "s76461", "75119", "=q3=Vicious Pyrium Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
+				{ 20, "s76469", "75134", "=q3=Vicious Ornate Pyrium Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 520", "=ds="..AL["Vendor"]};
 				{ 21, "s76445", "55060", "=q4=Elementium Deathplate", "=ds=#s5#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
 				{ 22, "s76443", "55058", "=q4=Hardened Elementium Hauberk", "=ds=#s5#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
 				{ 23, "s76447", "55062", "=q4=Light Elementium Chestguard", "=ds=#s5#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
-				{ 24, "s76459", "55074", "=q3=Bloodied Pyrium Boots", "=ds=#s12#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
-				{ 25, "s76468", "55082", "=q3=Ornate Pyrium Boots", "=ds=#s12#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
+				{ 24, "s76459", "75120", "=q3=Vicious Pyrium Boots", "=ds=#s12#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
+				{ 25, "s76468", "75132", "=q3=Vicious Ornate Pyrium Boots", "=ds=#s12#, #a4# / =q1=#sk# 515", "=ds="..AL["Vendor"]};
 				{ 26, "s76446", "55061", "=q4=Elementium Girdle of Pain", "=ds=#s10#, #a4# / =q1=#sk# 510", "=ds="..AL["Vendor"]};
 				{ 27, "s76444", "55059", "=q4=Hardened Elementium Girdle", "=ds=#s10#, #a4# / =q1=#sk# 500", "=ds="..AL["Vendor"]};
 				{ 28, "s76448", "55063", "=q4=Light Elementium Belt", "=ds=#s10#, #a4# / =q1=#sk# 510", "=ds="..AL["Vendor"]};
-				{ 29, "s76458", "55073", "=q3=Bloodied Pyrium Belt", "=ds=#s10#, #a4# / =q1=#sk# 510", "=ds="..AL["Vendor"]};
-				{ 30, "s76467", "55081", "=q3=Ornate Pyrium Belt", "=ds=#s10#, #a4# / =q1=#sk# 510", "=ds="..AL["Vendor"]};
+				{ 29, "s76458", "75123", "=q3=Vicious Pyrium Belt", "=ds=#s10#, #a4# / =q1=#sk# 510", "=ds="..AL["Vendor"]};
+				{ 30, "s76467", "75118", "=q3=Vicious Ornate Pyrium Belt", "=ds=#s10#, #a4# / =q1=#sk# 510", "=ds="..AL["Vendor"]};
 			};
 			{
-				{ 1, "s76457", "55072", "=q3=Bloodied Pyrium Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 505", "=ds="..AL["Vendor"]};
-				{ 2, "s76466", "55080", "=q3=Ornate Pyrium Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 505", "=ds="..AL["Vendor"]};
-				{ 3, "s76456", "55071", "=q3=Bloodied Pyrium Bracers", "=ds=#s8#, #a4# / =q1=#sk# 500", "=ds="..AL["Vendor"]};
-				{ 4, "s76465", "55079", "=q3=Ornate Pyrium Bracers", "=ds=#s8#, #a4# / =q1=#sk# 500", "=ds="..AL["Vendor"]};
+				{ 1, "s76457", "75122", "=q3=Vicious Pyrium Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 505", "=ds="..AL["Vendor"]};
+				{ 2, "s76466", "75121", "=q3=Vicious Ornate Pyrium Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 505", "=ds="..AL["Vendor"]};
+				{ 3, "s76456", "75124", "=q3=Vicious Pyrium Bracers", "=ds=#s8#, #a4# / =q1=#sk# 500", "=ds="..AL["Vendor"]};
+				{ 4, "s76465", "75125", "=q3=Vicious Ornate Pyrium Bracers", "=ds=#s8#, #a4# / =q1=#sk# 500", "=ds="..AL["Vendor"]};
 				{ 5, "s76270", "55032", "=q3=Redsteel Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 500", "=ds="..AL["Trainer"] };
 				{ 6, "s76261", "55024", "=q2=Hardened Obsidium Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 500", "=ds="..AL["Trainer"]};
 				{ 7, "s76289", "55040", "=q2=Stormforged Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 500", "=ds="..AL["Trainer"]};
@@ -1328,53 +1328,54 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 21, "s16971", "12775", "=q2=Huge Thorium Battleaxe", "=ds=#h2#, #w1# / #sk# 280", "=ds="..AL["Trainer"]};
 				{ 22, "s15294", "11607", "=q3=Dark Iron Sunderer", "=ds=#h2#, #w1# / #sk# 275", "=ds="..AL["Drop"]..": "..BabbleZone["Blackrock Depths"]};
 				{ 23, "s16969", "12773", "=q2=Ornate Thorium Handaxe", "=ds=#h1#, #w1# / #sk# 275", "=ds="..AL["Trainer"]};
-				{ 24, "s15292", "11608", "=q3=Dark Iron Pulverizer", "=ds=#h2#, #w6# / #sk# 265", "=ds="..AL["Drop"]..": "..BabbleZone["Blackrock Depths"]};
-				{ 25, "s10013", "7947", "=q2=Ebon Shiv", "=ds=#h1#, #w4# / #sk# 255", "=ds="..AL["Vendor"]..": "..BabbleZone["Western Plaguelands"]};
-				{ 26, "s10009", "7946", "=q2=Runed Mithril Hammer", "=ds=#h1#, #w6# / #sk# 245", "=ds="..AL["World Drop"]};
-				{ 27, "s10005", "7944", "=q2=Dazzling Mithril Rapier", "=ds=#h1#, #w10# / #sk# 240", "=ds="..AL["World Drop"]};
-				{ 28, "s10001", "7945", "=q2=Big Black Mace", "=ds=#h1#, #w6# / #sk# 230", "=ds="..AL["Trainer"]};
-				{ 29, "s9997", "7943", "=q2=Wicked Mithril Blade", "=ds=#h1#, #w10# / #sk# 225", "=ds="..AL["World Drop"]};
-				{ 30, "s9995", "7942", "=q2=Blue Glittering Axe", "=ds=#h1#, #w1# / #sk# 220", "=ds="..AL["World Drop"]};
+				{ 24, "s10007", "7961", "=q3=Phantom Blade", "=ds=#h1#, #w10# / #sk# 270"};
+				{ 25, "s15292", "11608", "=q3=Dark Iron Pulverizer", "=ds=#h2#, #w6# / #sk# 265", "=ds="..AL["Drop"]..": "..BabbleZone["Blackrock Depths"]};
+				{ 26, "s10013", "7947", "=q2=Ebon Shiv", "=ds=#h1#, #w4# / #sk# 255", "=ds="..AL["Vendor"]..": "..BabbleZone["Western Plaguelands"]};
+				{ 27, "s10009", "7946", "=q2=Runed Mithril Hammer", "=ds=#h1#, #w6# / #sk# 245", "=ds="..AL["World Drop"]};
+				{ 28, "s10005", "7944", "=q2=Dazzling Mithril Rapier", "=ds=#h1#, #w10# / #sk# 240", "=ds="..AL["World Drop"]};
+				{ 29, "s10001", "7945", "=q2=Big Black Mace", "=ds=#h1#, #w6# / #sk# 230", "=ds="..AL["Trainer"]};
+				{ 30, "s9997", "7943", "=q2=Wicked Mithril Blade", "=ds=#h1#, #w10# / #sk# 225", "=ds="..AL["World Drop"]};
 			};
 			{
-				{ 1, "s9993", "7941", "=q2=Heavy Mithril Axe", "=ds=#h1#, #w1# / #sk# 210", "=ds="..AL["Trainer"]};
-				{ 2, "s3497", "3854", "=q2=Frost Tiger Blade", "=ds=#h2#, #w10# / #sk# 200", "=ds="..AL["World Drop"]};
-				{ 3, "s3500", "3856", "=q2=Shadow Crescent Axe", "=ds=#h2#, #w1# / #sk# 200", "=ds="..AL["World Drop"]};
-				{ 4, "s34981", "29202", "=q2=Whirling Steel Axes", "=ds=#w11# / #sk# 200", "=ds="..AL["Trainer"]};
-				{ 5, "s21913", "17704", "=q2=Edge of Winter", "=ds=#h1#, #w1# / #sk# 190", "=ds="..AL["Feast of Winter Veil"]};
-				{ 6, "s15973", "12260", "=q2=Searing Golden Blade", "=ds=#h3#, #w4# / #sk# 190", "=ds="..AL["World Drop"]};
-				{ 7, "s3498", "3855", "=q2=Massive Iron Axe", "=ds=#h2#, #w1# / #sk# 185", "=ds="..AL["Vendor"]..": "..BabbleZone["Northern Stranglethorn"]};
-				{ 8, "s15972", "12259", "=q2=Glinting Steel Dagger", "=ds=#h1#, #w4# / #sk# 180", "=ds="..AL["Trainer"]};
-				{ 9, "s3496", "3853", "=q2=Moonsteel Broadsword", "=ds=#h2#, #w10# / #sk# 180", "=ds="..AL["Vendor"]..": "..BabbleZone["Booty Bay"]};
-				{ 10, "s3493", "3850", "=q2=Jade Serpentblade", "=ds=#h1#, #w10# / #sk# 175", "=ds="..AL["World Drop"]};
-				{ 11, "s3495", "3852", "=q2=Golden Iron Destroyer", "=ds=#h2#, #w6# / #sk# 170", "=ds="..AL["World Drop"]};
-				{ 12, "s3492", "3849", "=q2=Hardened Iron Shortsword", "=ds=#h1#, #w10# / #sk# 160", "=ds="..AL["Vendor"]};
-				{ 13, "s3494", "3851", "=q2=Solid Iron Maul", "=ds=#h2#, #w6# / #sk# 155", "=ds="..AL["Vendor"]};
-				{ 14, "s3297", "3492", "=q2=Mighty Iron Hammer", "=ds=#h1#, #w6# / #sk# 145", "=ds="..AL["World Drop"]};
-				{ 15, "s6518", "5541", "=q2=Iridescent Hammer", "=ds=#h1#, #w6# / #sk# 140", "=ds="..AL["World Drop"]};
-				{ 16, "s9987", "7958", "=q2=Bronze Battle Axe", "=ds=#h2#, #w1# / #sk# 135", "=ds="..AL["Trainer"]};
-				{ 17, "s9986", "7957", "=q2=Bronze Greatsword", "=ds=#h2#, #w10 / #sk# 130", "=ds="..AL["Trainer"]};
-				{ 18, "s3296", "3491", "=q2=Heavy Bronze Mace", "=ds=#h1#, #w6# / #sk# 130", "=ds="..AL["Trainer"]};
-				{ 19, "s9985", "7956", "=q2=Bronze Warhammer", "=ds=#h2#, #w6# / #sk# 125", "=ds="..AL["Trainer"]};
-				{ 20, "s3295", "3490", "=q2=Deadly Bronze Poniard", "=ds=#h1#, #w4# / #sk# 125", "=ds="..AL["World Drop"]};
-				{ 21, "s2742", "2850", "=q2=Bronze Shortsword", "=ds=#h3#, #w10# / #sk# 120", "=ds="..AL["Trainer"]};
-				{ 22, "s2741", "2849", "=q2=Bronze Axe", "=ds=#h3#, #w1# / #sk# 115", "=ds="..AL["Trainer"]};
-				{ 23, "s2740", "2848", "=q2=Bronze Mace", "=ds=#h3#, #w6# / #sk# 110", "=ds="..AL["Trainer"]};
-				{ 24, "s6517", "5540", "=q2=Pearl-Handled Dagger", "=ds=#h1#, #w4# / #sk# 110", "=ds="..AL["Trainer"]};
-				{ 25, "s3491", "3848", "=q2=Big Bronze Knife", "=ds=#h1#, #w4# / #sk# 105", "=ds="..AL["Trainer"]};
-				{ 26, "s34979", "29201", "=q2=Thick Bronze Darts", "=ds=#w11# / #sk# 100", "=ds="..AL["Trainer"]};
-				{ 27, "s3292", "3487", "=q2=Heavy Copper Broadsword", "=ds=#h2#, #w10# / #sk# 95", "=ds="..AL["Trainer"]};
-				{ 28, "s3294", "3489", "=q2=Thick War Axe", "=ds=#h1#, #w1# / #sk# 70", "=ds="..AL["Trainer"]};
-				{ 29, "s7408", "6214", "=q2=Heavy Copper Maul", "=ds=#h2#, #w6# / #sk# 65", "=ds="..AL["Trainer"]};
-				{ 30, "s3293", "3488", "=q2=Copper Battle Axe", "=ds=#h2#, #w1# / #sk# 35", "=ds="..AL["Trainer"]};
+				{ 1, "s9995", "7942", "=q2=Blue Glittering Axe", "=ds=#h1#, #w1# / #sk# 220", "=ds="..AL["World Drop"]};
+				{ 2, "s9993", "7941", "=q2=Heavy Mithril Axe", "=ds=#h1#, #w1# / #sk# 210", "=ds="..AL["Trainer"]};
+				{ 3, "s3497", "3854", "=q2=Frost Tiger Blade", "=ds=#h2#, #w10# / #sk# 200", "=ds="..AL["World Drop"]};
+				{ 4, "s3500", "3856", "=q2=Shadow Crescent Axe", "=ds=#h2#, #w1# / #sk# 200", "=ds="..AL["World Drop"]};
+				{ 5, "s34981", "29202", "=q2=Whirling Steel Axes", "=ds=#w11# / #sk# 200", "=ds="..AL["Trainer"]};
+				{ 6, "s21913", "17704", "=q2=Edge of Winter", "=ds=#h1#, #w1# / #sk# 190", "=ds="..AL["Feast of Winter Veil"]};
+				{ 7, "s15973", "12260", "=q2=Searing Golden Blade", "=ds=#h3#, #w4# / #sk# 190", "=ds="..AL["World Drop"]};
+				{ 8, "s3498", "3855", "=q2=Massive Iron Axe", "=ds=#h2#, #w1# / #sk# 185", "=ds="..AL["Vendor"]..": "..BabbleZone["Northern Stranglethorn"]};
+				{ 9, "s15972", "12259", "=q2=Glinting Steel Dagger", "=ds=#h1#, #w4# / #sk# 180", "=ds="..AL["Trainer"]};
+				{ 10, "s3496", "3853", "=q2=Moonsteel Broadsword", "=ds=#h2#, #w10# / #sk# 180", "=ds="..AL["Vendor"]..": "..BabbleZone["Booty Bay"]};
+				{ 11, "s3493", "3850", "=q2=Jade Serpentblade", "=ds=#h1#, #w10# / #sk# 175", "=ds="..AL["World Drop"]};
+				{ 12, "s3495", "3852", "=q2=Golden Iron Destroyer", "=ds=#h2#, #w6# / #sk# 170", "=ds="..AL["World Drop"]};
+				{ 13, "s3492", "3849", "=q2=Hardened Iron Shortsword", "=ds=#h1#, #w10# / #sk# 160", "=ds="..AL["Vendor"]};
+				{ 14, "s3494", "3851", "=q2=Solid Iron Maul", "=ds=#h2#, #w6# / #sk# 155", "=ds="..AL["Vendor"]};
+				{ 15, "s3297", "3492", "=q2=Mighty Iron Hammer", "=ds=#h1#, #w6# / #sk# 145", "=ds="..AL["World Drop"]};
+				{ 16, "s6518", "5541", "=q2=Iridescent Hammer", "=ds=#h1#, #w6# / #sk# 140", "=ds="..AL["World Drop"]};
+				{ 17, "s9987", "7958", "=q2=Bronze Battle Axe", "=ds=#h2#, #w1# / #sk# 135", "=ds="..AL["Trainer"]};
+				{ 18, "s9986", "7957", "=q2=Bronze Greatsword", "=ds=#h2#, #w10 / #sk# 130", "=ds="..AL["Trainer"]};
+				{ 19, "s3296", "3491", "=q2=Heavy Bronze Mace", "=ds=#h1#, #w6# / #sk# 130", "=ds="..AL["Trainer"]};
+				{ 20, "s9985", "7956", "=q2=Bronze Warhammer", "=ds=#h2#, #w6# / #sk# 125", "=ds="..AL["Trainer"]};
+				{ 21, "s3295", "3490", "=q2=Deadly Bronze Poniard", "=ds=#h1#, #w4# / #sk# 125", "=ds="..AL["World Drop"]};
+				{ 22, "s2742", "2850", "=q2=Bronze Shortsword", "=ds=#h3#, #w10# / #sk# 120", "=ds="..AL["Trainer"]};
+				{ 23, "s2741", "2849", "=q2=Bronze Axe", "=ds=#h3#, #w1# / #sk# 115", "=ds="..AL["Trainer"]};
+				{ 24, "s2740", "2848", "=q2=Bronze Mace", "=ds=#h3#, #w6# / #sk# 110", "=ds="..AL["Trainer"]};
+				{ 25, "s6517", "5540", "=q2=Pearl-Handled Dagger", "=ds=#h1#, #w4# / #sk# 110", "=ds="..AL["Trainer"]};
+				{ 26, "s3491", "3848", "=q2=Big Bronze Knife", "=ds=#h1#, #w4# / #sk# 105", "=ds="..AL["Trainer"]};
+				{ 27, "s34979", "29201", "=q2=Thick Bronze Darts", "=ds=#w11# / #sk# 100", "=ds="..AL["Trainer"]};
+				{ 28, "s3292", "3487", "=q2=Heavy Copper Broadsword", "=ds=#h2#, #w10# / #sk# 95", "=ds="..AL["Trainer"]};
+				{ 29, "s3294", "3489", "=q2=Thick War Axe", "=ds=#h1#, #w1# / #sk# 70", "=ds="..AL["Trainer"]};
+				{ 30, "s7408", "6214", "=q2=Heavy Copper Maul", "=ds=#h2#, #w6# / #sk# 65", "=ds="..AL["Trainer"]};
 			};
 			{
-				{ 1, "s43549", "33791", "=q2=Heavy Copper Longsword", "=ds=#h1#, #w10# / #sk# 35", "=ds=#QUESTID:1578#"};
-				{ 2, "s9983", "7955", "=q1=Copper Claymore", "=ds=#h2#, #w10# / #sk# 30", "=ds="..AL["Trainer"]};
-				{ 3, "s8880", "7166", "=q1=Copper Dagger", "=ds=#h1#, #w4# / #sk# 30", "=ds="..AL["Trainer"]};
-				{ 4, "s2739", "2847", "=q1=Copper Shortsword", "=ds=#h3#, #w10# / #sk# 25", "=ds="..AL["Trainer"]};
-				{ 5, "s2738", "2845", "=q1=Copper Axe", "=ds=#h3#, #w1# / #sk# 20", "=ds="..AL["Trainer"]};
-				{ 6, "s2737", "2844", "=q1=Copper Mace", "=ds=#h3#, #w6# / #sk# 15", "=ds="..AL["Trainer"]};
+				{ 1, "s3293", "3488", "=q2=Copper Battle Axe", "=ds=#h2#, #w1# / #sk# 35", "=ds="..AL["Trainer"]};
+				{ 2, "s43549", "33791", "=q2=Heavy Copper Longsword", "=ds=#h1#, #w10# / #sk# 35", "=ds=#QUESTID:1578#"};
+				{ 3, "s9983", "7955", "=q1=Copper Claymore", "=ds=#h2#, #w10# / #sk# 30", "=ds="..AL["Trainer"]};
+				{ 4, "s8880", "7166", "=q1=Copper Dagger", "=ds=#h1#, #w4# / #sk# 30", "=ds="..AL["Trainer"]};
+				{ 5, "s2739", "2847", "=q1=Copper Shortsword", "=ds=#h3#, #w10# / #sk# 25", "=ds="..AL["Trainer"]};
+				{ 6, "s2738", "2845", "=q1=Copper Axe", "=ds=#h3#, #w1# / #sk# 20", "=ds="..AL["Trainer"]};
+				{ 7, "s2737", "2844", "=q1=Copper Mace", "=ds=#h3#, #w6# / #sk# 15", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -1711,42 +1712,42 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingCataVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 66117, "", "=q1=Plans: Bloodied Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 2, 66125, "", "=q1=Plans: Ornate Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
+				{ 1, 66117, "", "=q1=Plans: Vicious Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
+				{ 2, 66125, "", "=q1=Plans: Vicious Ornate Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
 				{ 3, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 4, 66118, "", "=q1=Plans: Bloodied Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
-				{ 5, 66126, "", "=q1=Plans: Ornate Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
-				{ 6, 66119, "", "=q1=Plans: Bloodied Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
+				{ 4, 66118, "", "=q1=Plans: Vicious Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
+				{ 5, 66126, "", "=q1=Plans: Vicious Ornate Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
+				{ 6, 66119, "", "=q1=Plans: Vicious Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
 				{ 7, 66107, "", "=q1=Plans: Elementium Girdle of Pain", "=ds=#p2# (510)", "20 #elementiumbar#" },
 				{ 8, 66105, "", "=q1=Plans: Hardened Elementium Girdle", "=ds=#p2# (510)", "20 #elementiumbar#" },
 				{ 9, 66109, "", "=q1=Plans: Light Elementium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 10, 66127, "", "=q1=Plans: Ornate Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 11, 66120, "", "=q1=Plans: Bloodied Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 10, 66127, "", "=q1=Plans: Vicious Ornate Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
+				{ 11, 66120, "", "=q1=Plans: Vicious Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
 				{ 12, 67603, "", "=q1=Plans: Elementium Gutslicer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
 				{ 13, 66113, "", "=q1=Plans: Elementium Bonesplitter", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
 				{ 14, 66106, "", "=q1=Plans: Elementium Deathplate", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
 				{ 15, 66111, "", "=q1=Plans: Elementium Hammer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
 				{ 16, 66104, "", "=q1=Plans: Hardened Elementium Hauberk", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
 				{ 17, 66108, "", "=q1=Plans: Light Elementium Chestguard", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 18, 66128, "", "=q1=Plans: Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 19, 66121, "", "=q1=Plans: Bloodied Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 18, 66128, "", "=q1=Plans: Vicious Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
+				{ 19, 66121, "", "=q1=Plans: Vicious Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 20, 66115, "", "=q1=Plans: Elementium Earthguard", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 21, 66112, "", "=q1=Plans: Elementium Poleaxe", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 22, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 23, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 24, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 25, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
-				{ 26, 66129, "", "=q1=Plans: Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
+				{ 26, 66129, "", "=q1=Plans: Vicious Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 27, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
-				{ 28, 66124, "", "=q1=Plans: Bloodied Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 29, 66123, "", "=q1=Plans: Bloodied Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 30, 66122, "", "=q1=Plans: Bloodied Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 28, 66124, "", "=q1=Plans: Vicious Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 29, 66123, "", "=q1=Plans: Vicious Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 30, 66122, "", "=q1=Plans: Vicious Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
 			};
 			{
 				{ 1, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 2, 66132, "", "=q1=Plans: Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 3, 66131, "", "=q1=Plans: Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 4, 66130, "", "=q1=Plans: Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 2, 66132, "", "=q1=Plans: Vicious Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 3, 66131, "", "=q1=Plans: Vicious Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 4, 66130, "", "=q1=Plans: Vicious Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
 				{ 5, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
 			};
 		};
@@ -1801,10 +1802,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 5, "s36125", "30071", "=q3=Light Earthforged Blade", "=ds=#h1#, #w10#"};
 				{ 6, "s36128", "30073", "=q3=Light Emberforged Hammer", "=ds=#h1#, #w6#"};
 				{ 7, "s36126", "30072", "=q3=Light Skyforged Axe", "=ds=#h1#, #w1#"};
-				{ 8, "s10007", "7961", "=q3=Phantom Blade", "=ds=#h1#, #w10#"};
-				{ 9, "s10003", "7954", "=q3=The Shatterer", "=ds=#h1#, #w6#"};
-				{ 10, "s10015", "7960", "=q3=Truesilver Champion", "=ds=#h2#, #w10#"};
-				{ 11, "s16984", "12792", "=q2=Volcanic Hammer", "=ds=#h1#, #w6#"};
+				{ 8, "s10003", "7954", "=q3=The Shatterer", "=ds=#h1#, #w6#"};
+				{ 9, "s10015", "7960", "=q3=Truesilver Champion", "=ds=#h2#, #w10#"};
+				{ 10, "s16984", "12792", "=q2=Volcanic Hammer", "=ds=#h1#, #w6#"};
 			};
 		};
 		info = {
@@ -3406,9 +3406,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Relics"], "" };
-				{ 2, "s99547", "70077", "=q3=Vicious Charm of Triumph", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
-				{ 3, "s99548", "70078", "=q3=Vicious Eyeball of Dominance", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
-				{ 4, "s99549", "70079", "=q3=Vicious Jawbone of Conquest", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 2, "s99547", "75079", "=q3=Vicious Charm of Triumph", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 3, "s99548", "75066", "=q3=Vicious Eyeball of Dominance", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 4, "s99549", "75069", "=q3=Vicious Jawbone of Conquest", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
 				{ 6, "s86650", "62243", "=q3=Notched Jawbone", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
 				{ 7, "s86653", "62245", "=q3=Silver Inlaid Leaf", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
 				{ 8, "s86652", "62244", "=q3=Tattooed Eyeball", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
@@ -4744,9 +4744,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, "s73503", "52320", "=q3=Elementium Moebius Band", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 4, "s98921", "69852", "=q3=Punisher's Band", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 5, "s73502", "52319", "=q3=Ring of Warring Elements", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 6, "s99540", "70072", "=q3=Vicious Amberjewel Band", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
-				{ 7, "s99541", "70073", "=q3=Vicious Ruby Signet", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
-				{ 8, "s99539", "70071", "=q3=Vicious Sapphire Ring", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 6, "s99540", "75068", "=q3=Vicious Amberjewel Band", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 7, "s99541", "75071", "=q3=Vicious Ruby Signet", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 8, "s99539", "75067", "=q3=Vicious Sapphire Ring", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
 				{ 9, "s73495", "52308", "=q2=Hessonite Band", "=ds=#sr# 450", "=ds="..AL["Trainer"] };
 				{ 10, "s56497", "42643", "=q4=Titanium Earthguard Ring", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 11, "s56496", "42642", "=q4=Titanium Impact Band", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
@@ -4838,13 +4838,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelNeck"] = {
 		["Normal"] = {
 			{
-				{ 1, "s99543", "70075", "=q3=Vicious Amberjewel Pendant", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
-				{ 2, "s99544", "70076", "=q3=Vicious Ruby Choker", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
-				{ 3, "s99542", "70074", "=q3=Vicious Sapphire Necklace", "=ds=#sr# 525", "=ds="..AL["Trainer"] };
-				{ 4, "s73521", "52350", "=q3=Brazen Elementium Medallion", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 5, "s73506", "52323", "=q3=Elementium Guardian", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 6, "s73504", "52321", "=q3=Entwined Elementium Choker", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 7, "s73505", "52322", "=q3=Eye of Many Deaths", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 1, "s73521", "52350", "=q3=Brazen Elementium Medallion", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 2, "s73506", "52323", "=q3=Elementium Guardian", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 3, "s73504", "52321", "=q3=Entwined Elementium Choker", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 4, "s73505", "52322", "=q3=Eye of Many Deaths", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 5, "s99543", "75075", "=q3=Vicious Amberjewel Pendant", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 6, "s99544", "75078", "=q3=Vicious Ruby Choker", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 7, "s99542", "75074", "=q3=Vicious Sapphire Necklace", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
 				{ 8, "s73497", "52309", "=q2=Nightstone Choker", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
 				{ 9, "s56500", "42646", "=q4=Titanium Earthguard Chain", "=ds=#sr# 440", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 10, "s56499", "42645", "=q4=Titanium Impact Choker", "=ds=#sr# 440", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
@@ -4903,34 +4903,36 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s73478", "52304", "=q3=Fire Prism", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 2, "s73621", "52493", "=q3=The Perforator", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
-				{ 3, "s73627", "52487", "=q3=Jeweler's Amber Monocle", "=ds=#sr# 460", "=ds="..AL["World Drop"] };
-				{ 4, "s73620", "52492", "=q2=Carnelian Spikes", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
-				{ 5, "s73626", "52486", "=q3=Jeweler's Sapphire Monocle", "=ds=#sr# 455", "=ds="..AL["World Drop"] };
-				{ 6, "s73625", "52485", "=q3=Jeweler's Ruby Monocle", "=ds=#sr# 450", "=ds="..AL["World Drop"] };
-				{ 7, "s62242", "44943", "=q3=Icy Prism", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
-				{ 8, "s31078", "24123", "=q4=Circlet of Arcane Might", "=ds=#sr# 370", "=ds="..BabbleZone["Old Hillsbrad Foothills"] };
-				{ 9, "s31077", "24122", "=q4=Coronet of the Verdant Flame", "=ds=#sr# 370", "=ds="..BabbleZone["The Botanica"] };
-				{ 10, "s41418", "32776", "=q3=Crown of the Sea Witch", "=ds=#sr# 365", "=ds="..AL["Trainer"] };
-				{ 11, "s47280", "35945", "=q3=Brilliant Glass", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 12, "s56208", "42421", "=q2=Shadow Jade Focusing Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 13, "s56206", "42420", "=q2=Shadow Crystal Focusing Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 14, "s56205", "41367", "=q2=Dark Jade Focusing Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
-				{ 15, "s38068", "31079", "=q3=Mercurial Adamantite", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
-				{ 16, "s26906", "21774", "=q3=Emerald Crown of Destruction", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Silithus"] };
-				{ 17, "s26878", "20969", "=q3=Ruby Crown of Restoration", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Arathi Highlands"] };
-				{ 18, "s26880", "21752", "=q1=Thorium Setting", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
-				{ 19, "s32809", "25883", "=q1=Dense Stone Statue", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
-				{ 20, "s32808", "25882", "=q1=Solid Stone Statue", "=ds=#sr# 175", "=ds="..AL["Trainer"]};
-				{ 21, "s25615", "20963", "=q1=Mithril Filigree", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
-				{ 22, "s25612", "20954", "=q2=Heavy Iron Knuckles", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
-				{ 23, "s25321", "20832", "=q3=Moonsoul Crown", "=ds=#sr# 120", "=ds="..AL["Trainer"]};
-				{ 24, "s32807", "25881", "=q1=Heavy Stone Statue", "=ds=#sr# 110", "=ds="..AL["Trainer"]};
-				{ 25, "s25278", "20817", "=q1=Bronze Setting", "=ds=#sr# 50", "=ds="..AL["Trainer"]};
-				{ 26, "s32801", "25880", "=q1=Coarse Stone Statue", "=ds=#sr# 50", "=ds="..AL["Trainer"]};
-				{ 27, "s25255", "20816", "=q1=Delicate Copper Wire", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
-				{ 28, "s32259", "25498", "=q1=Rough Stone Statue", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 1, "s73623", "52489", "=q3=Rhinestone Sunglasses", "=ds=#sr# 525", "=ds="..AL["World Drop"] };
+				{ 2, "s73478", "52304", "=q3=Fire Prism", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 3, "s73621", "52493", "=q3=The Perforator", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
+				{ 4, "s73627", "52487", "=q3=Jeweler's Amber Monocle", "=ds=#sr# 460", "=ds="..AL["World Drop"] };
+				{ 5, "s73620", "52492", "=q2=Carnelian Spikes", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
+				{ 6, "s73626", "52486", "=q3=Jeweler's Sapphire Monocle", "=ds=#sr# 455", "=ds="..AL["World Drop"] };
+				{ 7, "s73625", "52485", "=q3=Jeweler's Ruby Monocle", "=ds=#sr# 450", "=ds="..AL["World Drop"] };
+				{ 8, "s73622", "52490", "=q1=Stardust", "=ds=#sr# 435", "=ds="..AL["Trainer"] };
+				{ 9, "s62242", "44943", "=q3=Icy Prism", "=ds=#sr# 425", "=ds="..AL["Trainer"] };
+				{ 10, "s31078", "24123", "=q4=Circlet of Arcane Might", "=ds=#sr# 370", "=ds="..BabbleZone["Old Hillsbrad Foothills"] };
+				{ 11, "s31077", "24122", "=q4=Coronet of the Verdant Flame", "=ds=#sr# 370", "=ds="..BabbleZone["The Botanica"] };
+				{ 12, "s41418", "32776", "=q3=Crown of the Sea Witch", "=ds=#sr# 365", "=ds="..AL["Trainer"] };
+				{ 13, "s47280", "35945", "=q3=Brilliant Glass", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 14, "s56208", "42421", "=q2=Shadow Jade Focusing Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 15, "s56206", "42420", "=q2=Shadow Crystal Focusing Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 16, "s56205", "41367", "=q2=Dark Jade Focusing Lens", "=ds=#sr# 350", "=ds="..AL["Trainer"] };
+				{ 17, "s38068", "31079", "=q3=Mercurial Adamantite", "=ds=#sr# 325", "=ds="..AL["Trainer"] };
+				{ 18, "s26906", "21774", "=q3=Emerald Crown of Destruction", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Silithus"] };
+				{ 19, "s26878", "20969", "=q3=Ruby Crown of Restoration", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Arathi Highlands"] };
+				{ 20, "s26880", "21752", "=q1=Thorium Setting", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
+				{ 21, "s32809", "25883", "=q1=Dense Stone Statue", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
+				{ 22, "s32808", "25882", "=q1=Solid Stone Statue", "=ds=#sr# 175", "=ds="..AL["Trainer"]};
+				{ 23, "s25615", "20963", "=q1=Mithril Filigree", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 24, "s25612", "20954", "=q2=Heavy Iron Knuckles", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
+				{ 25, "s25321", "20832", "=q3=Moonsoul Crown", "=ds=#sr# 120", "=ds="..AL["Trainer"]};
+				{ 26, "s32807", "25881", "=q1=Heavy Stone Statue", "=ds=#sr# 110", "=ds="..AL["Trainer"]};
+				{ 27, "s25278", "20817", "=q1=Bronze Setting", "=ds=#sr# 50", "=ds="..AL["Trainer"]};
+				{ 28, "s32801", "25880", "=q1=Coarse Stone Statue", "=ds=#sr# 50", "=ds="..AL["Trainer"]};
+				{ 29, "s25255", "20816", "=q1=Delicate Copper Wire", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 30, "s32259", "25498", "=q1=Rough Stone Statue", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -5296,22 +5298,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s78461", "56537", "=q4=Belt of Nefarious Whispers", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 11, "s78487", "56561", "=q4=Chestguard of Nature's Fury", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 12, "s78460", "56536", "=q4=Lightning Lash", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 13, "s78481", "56554", "=q3=Bloodied Leather Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 14, "s78482", "56555", "=q3=Bloodied Leather Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 15, "s78480", "56553", "=q3=Bloodied Wyrmhide Helm", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 16, "s78479", "56552", "=q3=Bloodied Wyrmhide Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 17, "s78468", "56542", "=q3=Bloodied Leather Belt", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 18, "s78469", "56543", "=q3=Bloodied Leather Helm", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 19, "s78467", "56541", "=q3=Bloodied Wyrmhide Chest", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 20, "s78464", "56540", "=q3=Bloodied Wyrmhide Shoulders", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 21, "s78454", "56530", "=q3=Bloodied Leather Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 22, "s78455", "56531", "=q3=Bloodied Leather Shoulders", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 23, "s78453", "56529", "=q3=Bloodied Wyrmhide Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 24, "s78452", "56528", "=q3=Bloodied Wyrmhide Gloves", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 25, "s78446", "56522", "=q3=Bloodied Leather Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
-				{ 26, "s78447", "56523", "=q3=Bloodied Leather Gloves", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
-				{ 27, "s78445", "56521", "=q3=Bloodied Wyrmhide Belt", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
-				{ 28, "s78444", "56520", "=q3=Bloodied Wyrmhide Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 13, "s78481", "75103", "=q3=Vicious Leather Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 14, "s78482", "75112", "=q3=Vicious Leather Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 15, "s78480", "75111", "=q3=Vicious Wyrmhide Helm", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 16, "s78479", "75080", "=q3=Vicious Wyrmhide Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 17, "s78468", "75127", "=q3=Vicious Leather Belt", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 18, "s78469", "75105", "=q3=Vicious Leather Helm", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 19, "s78467", "75107", "=q3=Vicious Wyrmhide Chest", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 20, "s78464", "75099", "=q3=Vicious Wyrmhide Shoulders", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 21, "s78454", "75130", "=q3=Vicious Leather Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 22, "s78455", "75113", "=q3=Vicious Leather Shoulders", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 23, "s78453", "75101", "=q3=Vicious Wyrmhide Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 24, "s78452", "75109", "=q3=Vicious Wyrmhide Gloves", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 25, "s78446", "75131", "=q3=Vicious Leather Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 26, "s78447", "75104", "=q3=Vicious Leather Gloves", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 27, "s78445", "75117", "=q3=Vicious Wyrmhide Belt", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 28, "s78444", "75106", "=q3=Vicious Wyrmhide Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
 				{ 29, "s78424", "56505", "=q2=Darkbrand Helm", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
 				{ 30, "s78433", "56513", "=q3=Darkbrand Leggings", "=ds=#sr# 485", "=ds="..AL["Trainer"] };
 			};
@@ -5548,22 +5550,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s78490", "56564", "=q4=Dragonkiller Tunic", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 11, "s78462", "56538", "=q4=Stormleather Sash", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 12, "s78489", "56563", "=q4=Twilight Scale Chestguard", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 13, "s78486", "56559", "=q3=Bloodied Dragonscale Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 14, "s78485", "56558", "=q3=Bloodied Dragonscale Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 15, "s78483", "56556", "=q3=Bloodied Scale Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 16, "s78484", "56557", "=q3=Bloodied Scale Helm", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 17, "s78473", "56546", "=q3=Bloodied Dragonscale Belt", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 18, "s78474", "56547", "=q3=Bloodied Dragonscale Helm", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 19, "s78471", "56545", "=q3=Bloodied Scale Legs", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 20, "s78470", "56544", "=q3=Bloodied Scale Shoulders", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
-				{ 21, "s78458", "56534", "=q3=Bloodied Dragonscale Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 22, "s78459", "56535", "=q3=Bloodied Dragonscale Gloves", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 23, "s78457", "56533", "=q3=Bloodied Scale Belt", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 24, "s78456", "56532", "=q3=Bloodied Scale Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
-				{ 25, "s78450", "56526", "=q3=Bloodied Dragonscale Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
-				{ 26, "s78451", "56527", "=q3=Bloodied Dragonscale Shoulders", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
-				{ 27, "s78448", "56524", "=q3=Bloodied Scale Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
-				{ 28, "s78449", "56525", "=q3=Bloodied Scale Gloves", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 13, "s78486", "75115", "=q3=Vicious Dragonscale Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 14, "s78485", "75108", "=q3=Vicious Dragonscale Legs", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 15, "s78483", "75084", "=q3=Vicious Charscale Chest", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 16, "s78484", "75090", "=q3=Vicious Charscale Helm", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 17, "s78473", "75100", "=q3=Vicious Dragonscale Belt", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 18, "s78474", "75102", "=q3=Vicious Dragonscale Helm", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 19, "s78471", "75097", "=q3=Vicious Charscale Legs", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 20, "s78470", "75061", "=q3=Vicious Charscale Shoulders", "=ds=#sr# 520", "=ds="..AL["Vendor"] };
+				{ 21, "s78458", "75110", "=q3=Vicious Dragonscale Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 22, "s78459", "75081", "=q3=Vicious Dragonscale Gloves", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 23, "s78457", "75083", "=q3=Vicious Charscale Belt", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 24, "s78456", "75092", "=q3=Vicious Charscale Boots", "=ds=#sr# 515", "=ds="..AL["Vendor"] };
+				{ 25, "s78450", "75114", "=q3=Vicious Dragonscale Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 26, "s78451", "75116", "=q3=Vicious Dragonscale Shoulders", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 27, "s78448", "75094", "=q3=Vicious Charscale Bracers", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
+				{ 28, "s78449", "75085", "=q3=Vicious Charscale Gloves", "=ds=#sr# 510", "=ds="..AL["Vendor"] };
 				{ 29, "s78423", "56504", "=q3=Tsunami Chestguard", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
 				{ 30, "s78432", "56512", "=q2=Tsunami Helm", "=ds=#sr# 485", "=ds="..AL["Trainer"] };
 			};
@@ -5587,8 +5589,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, "s78475", "56549", "=q3=Razor-Edged Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 2, "s78476", "56548", "=q3=Twilight Dragonscale Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 3, "s99536", "70068", "=q3=Vicious Fur Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 4, "s99535", "70069", "=q3=Vicious Hide Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 3, "s99536", "75076", "=q3=Vicious Fur Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 4, "s99535", "75077", "=q3=Vicious Hide Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
 				{ 5, "s78438", "56518", "=q3=Cloak of Beasts", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
 				{ 6, "s78439", "56519", "=q3=Cloak of War", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
 				{ 7, "s78405", "56489", "=q2=Hardened Scale Cloak", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
@@ -5851,42 +5853,42 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 52980, "", "=q3=Pristine Hide", "=ds=#e8#", "10 #heavysavageleather#" },
-				{ 2, 67054, "", "=q1=Pattern: Bloodied Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 3, 67055, "", "=q1=Pattern: Bloodied Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 4, 67046, "", "=q1=Pattern: Bloodied Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 5, 67048, "", "=q1=Pattern: Bloodied Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 6, 67049, "", "=q1=Pattern: Bloodied Scale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 7, 67053, "", "=q1=Pattern: Bloodied Scale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 8, 67044, "", "=q1=Pattern: Bloodied Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 9, 67042, "", "=q1=Pattern: Bloodied Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 10, 67065, "", "=q1=Pattern: Bloodied Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 11, 67066, "", "=q1=Pattern: Bloodied Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 12, 67060, "", "=q1=Pattern: Bloodied Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 13, 67062, "", "=q1=Pattern: Bloodied Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 14, 67064, "", "=q1=Pattern: Bloodied Scale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 15, 67063, "", "=q1=Pattern: Bloodied Scale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 16, 67058, "", "=q1=Pattern: Bloodied Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 17, 67056, "", "=q1=Pattern: Bloodied Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 18, 67080, "", "=q1=Pattern: Bloodied Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 19, 67081, "", "=q1=Pattern: Bloodied Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 20, 67076, "", "=q1=Pattern: Bloodied Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 21, 67077, "", "=q1=Pattern: Bloodied Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 22, 67079, "", "=q1=Pattern: Bloodied Scale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 23, 67078, "", "=q1=Pattern: Bloodied Scale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 24, 67075, "", "=q1=Pattern: Bloodied Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 25, 67074, "", "=q1=Pattern: Bloodied Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 2, 67054, "", "=q1=Pattern: Vicious Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 3, 67055, "", "=q1=Pattern: Vicious Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 4, 67046, "", "=q1=Pattern: Vicious Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 5, 67048, "", "=q1=Pattern: Vicious Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 6, 67049, "", "=q1=Pattern: Vicious Charscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 7, 67053, "", "=q1=Pattern: Vicious Charscale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 8, 67044, "", "=q1=Pattern: Vicious Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 9, 67042, "", "=q1=Pattern: Vicious Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
+				{ 10, 67065, "", "=q1=Pattern: Vicious Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 11, 67066, "", "=q1=Pattern: Vicious Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 12, 67060, "", "=q1=Pattern: Vicious Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 13, 67062, "", "=q1=Pattern: Vicious Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 14, 67064, "", "=q1=Pattern: Vicious Charscale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 15, 67063, "", "=q1=Pattern: Vicious Charscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 16, 67058, "", "=q1=Pattern: Vicious Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 17, 67056, "", "=q1=Pattern: Vicious Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
+				{ 18, 67080, "", "=q1=Pattern: Vicious Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 19, 67081, "", "=q1=Pattern: Vicious Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 20, 67076, "", "=q1=Pattern: Vicious Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 21, 67077, "", "=q1=Pattern: Vicious Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 22, 67079, "", "=q1=Pattern: Vicious Charscale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 23, 67078, "", "=q1=Pattern: Vicious Charscale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 24, 67075, "", "=q1=Pattern: Vicious Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
+				{ 25, 67074, "", "=q1=Pattern: Vicious Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
 				{ 26, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 27, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 28, 67093, "", "=q1=Pattern: Bloodied Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 29, 67092, "", "=q1=Pattern: Bloodied Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 30, 67087, "", "=q1=Pattern: Bloodied Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 28, 67093, "", "=q1=Pattern: Vicious Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 29, 67092, "", "=q1=Pattern: Vicious Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 30, 67087, "", "=q1=Pattern: Vicious Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 			};
 			{
-				{ 1, 67089, "", "=q1=Pattern: Bloodied Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 2, 67090, "", "=q1=Pattern: Bloodied Scale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 3, 67091, "", "=q1=Pattern: Bloodied Scale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 4, 67086, "", "=q1=Pattern: Bloodied Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 5, 67085, "", "=q1=Pattern: Bloodied Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 1, 67089, "", "=q1=Pattern: Vicious Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 2, 67090, "", "=q1=Pattern: Vicious Charscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 3, 67091, "", "=q1=Pattern: Vicious Charscale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 4, 67086, "", "=q1=Pattern: Vicious Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 5, 67085, "", "=q1=Pattern: Vicious Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
 				{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
@@ -6087,71 +6089,72 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 1, "s8784", "7065", "=q2=Green Silk Armor", "=ds=#sr# 165", "=ds="..AL["Drop"] };
 				{ 2, "s3859", "4324", "=q2=Azure Silk Vest", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
-				{ 3, "s6692", "5770", "=q2=Robes of Arcana", "=ds=#sr# 150", "=ds="..AL["Drop"]..": "..BabbleZone["Thousand Needles"]};
-				{ 4, "s8782", "7049", "=q2=Truefaith Gloves", "=ds=#sr# 150", "=ds="..AL["Drop"] };
-				{ 5, "s3854", "4319", "=q2=Azure Silk Gloves", "=ds=#sr# 145", "=ds="..AL["Vendor"] };
-				{ 6, "s8780", "7047", "=q2=Hands of Darkness", "=ds=#sr# 145", "=ds="..AL["Drop"] };
-				{ 7, "s8758", "7046", "=q2=Azure Silk Pants", "=ds=#sr# 140", "=ds="..AL["Trainer"] };
-				{ 8, "s3856", "4321", "=q2=Spider Silk Slippers", "=ds=#sr# 140", "=ds="..AL["Drop"] };
-				{ 9, "s6690", "5766", "=q2=Lesser Wizard's Robe", "=ds=#sr# 135", "=ds="..AL["Trainer"] };
-				{ 10, "s3852", "4318", "=q2=Gloves of Meditation", "=ds=#sr# 130", "=ds="..AL["Trainer"] };
-				{ 11, "s3868", "4331", "=q2=Phoenix Gloves", "=ds=#sr# 125", "=ds="..AL["Drop"] };
-				{ 12, "s3851", "4317", "=q2=Phoenix Pants", "=ds=#sr# 125", "=ds="..AL["Drop"] };
-				{ 13, "s12047", "10048", "=q2=Colorful Kilt", "=ds=#sr# 120", "=ds="..AL["Drop"] };
-				{ 14, "s7643", "6264", "=q2=Greater Adept's Robe", "=ds=#sr# 115", "=ds="..AL["Vendor"] };
-				{ 15, "s3850", "4316", "=q2=Heavy Woolen Pants", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
-				{ 16, "s2403", "2585", "=q2=Gray Woolen Robe", "=ds=#sr# 105", "=ds="..AL["Drop"] };
-				{ 17, "s7639", "6263", "=q2=Blue Overalls", "=ds=#sr# 100", "=ds="..AL["Vendor"] };
-				{ 18, "s3844", "4311", "=q2=Heavy Woolen Cloak", "=ds=#sr# 100", "=ds="..AL["Drop"] };
-				{ 19, "s3847", "4313", "=q2=Red Woolen Boots", "=ds=#sr# 95", "=ds="..AL["Drop"] };
-				{ 20, "s2401", "2583", "=q2=Woolen Boots", "=ds=#sr# 95", "=ds="..AL["Trainer"] };
-				{ 21, "s6521", "5542", "=q2=Pearl-clasped Cloak", "=ds=#sr# 90", "=ds="..AL["Trainer"] };
-				{ 22, "s3843", "4310", "=q2=Heavy Woolen Gloves", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
-				{ 23, "s3845", "4312", "=q2=Soft-soled Linen Boots", "=ds=#sr# 80", "=ds="..AL["Trainer"] };
-				{ 24, "s2395", "2578", "=q2=Barbaric Linen Vest", "=ds=#sr# 70", "=ds="..AL["Trainer"] };
-				{ 25, "s7633", "6242", "=q2=Blue Linen Robe", "=ds=#sr# 70", "=ds="..AL["Vendor"] };
-				{ 26, "s3842", "4309", "=q2=Handstitched Linen Britches", "=ds=#sr# 70", "=ds="..AL["Trainer"] };
-				{ 27, "s7630", "6240", "=q2=Blue Linen Vest", "=ds=#sr# 55", "=ds="..AL["Vendor"] };
-				{ 28, "s7629", "6239", "=q2=Red Linen Vest", "=ds=#sr# 55", "=ds="..AL["Drop"] };
-				{ 29, "s2389", "2572", "=q2=Red Linen Robe", "=ds=#sr# 40", "=ds="..AL["Drop"] };
-				{ 30, "s7623", "6238", "=q2=Brown Linen Robe", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
+				{ 3, "s102171", "72101", "=q2=Black Silk Vest", "=ds=#sr# 150", "=ds="..AL["Drop"] };
+				{ 4, "s6692", "5770", "=q2=Robes of Arcana", "=ds=#sr# 150", "=ds="..AL["Drop"]..": "..BabbleZone["Thousand Needles"]};
+				{ 5, "s8782", "7049", "=q2=Truefaith Gloves", "=ds=#sr# 150", "=ds="..AL["Drop"] };
+				{ 6, "s3854", "4319", "=q2=Azure Silk Gloves", "=ds=#sr# 145", "=ds="..AL["Vendor"] };
+				{ 7, "s8780", "7047", "=q2=Hands of Darkness", "=ds=#sr# 145", "=ds="..AL["Drop"] };
+				{ 8, "s8758", "7046", "=q2=Azure Silk Pants", "=ds=#sr# 140", "=ds="..AL["Trainer"] };
+				{ 9, "s3856", "4321", "=q2=Spider Silk Slippers", "=ds=#sr# 140", "=ds="..AL["Drop"] };
+				{ 10, "s6690", "5766", "=q2=Lesser Wizard's Robe", "=ds=#sr# 135", "=ds="..AL["Trainer"] };
+				{ 11, "s3852", "4318", "=q2=Gloves of Meditation", "=ds=#sr# 130", "=ds="..AL["Trainer"] };
+				{ 12, "s3868", "4331", "=q2=Phoenix Gloves", "=ds=#sr# 125", "=ds="..AL["Drop"] };
+				{ 13, "s3851", "4317", "=q2=Phoenix Pants", "=ds=#sr# 125", "=ds="..AL["Drop"] };
+				{ 14, "s12047", "10048", "=q2=Colorful Kilt", "=ds=#sr# 120", "=ds="..AL["Drop"] };
+				{ 15, "s7643", "6264", "=q2=Greater Adept's Robe", "=ds=#sr# 115", "=ds="..AL["Vendor"] };
+				{ 16, "s3850", "4316", "=q2=Heavy Woolen Pants", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
+				{ 17, "s2403", "2585", "=q2=Gray Woolen Robe", "=ds=#sr# 105", "=ds="..AL["Drop"] };
+				{ 18, "s7639", "6263", "=q2=Blue Overalls", "=ds=#sr# 100", "=ds="..AL["Vendor"] };
+				{ 19, "s3844", "4311", "=q2=Heavy Woolen Cloak", "=ds=#sr# 100", "=ds="..AL["Drop"] };
+				{ 20, "s3847", "4313", "=q2=Red Woolen Boots", "=ds=#sr# 95", "=ds="..AL["Drop"] };
+				{ 21, "s2401", "2583", "=q2=Woolen Boots", "=ds=#sr# 95", "=ds="..AL["Trainer"] };
+				{ 22, "s6521", "5542", "=q2=Pearl-clasped Cloak", "=ds=#sr# 90", "=ds="..AL["Trainer"] };
+				{ 23, "s3843", "4310", "=q2=Heavy Woolen Gloves", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 24, "s3845", "4312", "=q2=Soft-soled Linen Boots", "=ds=#sr# 80", "=ds="..AL["Trainer"] };
+				{ 25, "s2395", "2578", "=q2=Barbaric Linen Vest", "=ds=#sr# 70", "=ds="..AL["Trainer"] };
+				{ 26, "s7633", "6242", "=q2=Blue Linen Robe", "=ds=#sr# 70", "=ds="..AL["Vendor"] };
+				{ 27, "s3842", "4309", "=q2=Handstitched Linen Britches", "=ds=#sr# 70", "=ds="..AL["Trainer"] };
+				{ 28, "s7630", "6240", "=q2=Blue Linen Vest", "=ds=#sr# 55", "=ds="..AL["Vendor"] };
+				{ 29, "s7629", "6239", "=q2=Red Linen Vest", "=ds=#sr# 55", "=ds="..AL["Drop"] };
+				{ 30, "s2389", "2572", "=q2=Red Linen Robe", "=ds=#sr# 40", "=ds="..AL["Drop"] };
 			};
 			{
-				{ 1, "s7624", "6241", "=q2=White Linen Robe", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
-				{ 2, "s49677", "6836", "=q1=Dress Shoes", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 3, "s50644", "38277", "=q1=Haliscan Jacket", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 4, "s50647", "38278", "=q1=Haliscan Pantaloons", "=ds=#sr# 245", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 5, "s26403", "21154", "=q1=Festival Dress", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Moonglade"]};
-				{ 6, "s26407", "21542", "=q1=Festive Red Pant Suit", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Moonglade"]};
-				{ 7, "s12093", "10036", "=q1=Tuxedo Jacket", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
-				{ 8, "s44950", "34087", "=q1=Green Winter Clothes", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
-				{ 9, "s44958", "34085", "=q1=Red Winter Clothes", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
-				{ 10, "s12091", "10040", "=q1=White Wedding Dress", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
-				{ 11, "s12089", "10035", "=q1=Tuxedo Pants", "=ds=#sr# 245", "=ds="..AL["Vendor"] };
-				{ 12, "s12077", "10053", "=q1=Simple Black Dress", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
-				{ 13, "s8799", "7062", "=q1=Crimson Silk Pantaloons", "=ds=#sr# 195", "=ds="..AL["Trainer"] };
-				{ 14, "s8791", "7058", "=q1=Crimson Silk Vest", "=ds=#sr# 185", "=ds="..AL["Trainer"] };
-				{ 15, "s8762", "7050", "=q1=Silk Headband", "=ds=#sr# 160", "=ds="..AL["Trainer"] };
-				{ 16, "s8760", "7048", "=q1=Azure Silk Hood", "=ds=#sr# 145", "=ds="..AL["Trainer"] };
-				{ 17, "s3849", "4315", "=q1=Reinforced Woolen Shoulders", "=ds=#sr# 120", "=ds="..AL["Drop"] };
-				{ 18, "s3848", "4314", "=q1=Double-stitched Woolen Shoulders", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
-				{ 19, "s8467", "6787", "=q1=White Woolen Dress", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
-				{ 20, "s2399", "2582", "=q1=Green Woolen Vest", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
-				{ 21, "s12046", "10047", "=q1=Simple Kilt", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
-				{ 22, "s2402", "2584", "=q1=Woolen Cape", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
-				{ 23, "s2386", "2569", "=q1=Linen Boots", "=ds=#sr# 65", "=ds="..AL["Trainer"] };
-				{ 24, "s3841", "4308", "=q1=Green Linen Bracers", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
-				{ 25, "s2397", "2580", "=q1=Reinforced Linen Cape", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
-				{ 26, "s8465", "6786", "=q1=Simple Dress", "=ds=#sr# 40", "=ds="..AL["Trainer"] };
-				{ 27, "s3840", "4307", "=q1=Heavy Linen Gloves", "=ds=#sr# 35", "=ds="..AL["Trainer"] };
-				{ 28, "s3914", "4343", "=q1=Brown Linen Pants", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
-				{ 29, "s12045", "10046", "=q1=Simple Linen Boots", "=ds=#sr# 20", "=ds="..AL["Trainer"] };
-				{ 30, "s8776", "7026", "=q1=Linen Belt", "=ds=#sr# 15", "=ds="..AL["Trainer"] };
+				{ 1, "s7623", "6238", "=q2=Brown Linen Robe", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
+				{ 2, "s7624", "6241", "=q2=White Linen Robe", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
+				{ 3, "s49677", "6836", "=q1=Dress Shoes", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 4, "s50644", "38277", "=q1=Haliscan Jacket", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 5, "s50647", "38278", "=q1=Haliscan Pantaloons", "=ds=#sr# 245", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 6, "s26403", "21154", "=q1=Festival Dress", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Moonglade"]};
+				{ 7, "s26407", "21542", "=q1=Festive Red Pant Suit", "=ds=#sr# 250", "=ds="..AL["Vendor"]..": "..BabbleZone["Moonglade"]};
+				{ 8, "s12093", "10036", "=q1=Tuxedo Jacket", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
+				{ 9, "s44950", "34087", "=q1=Green Winter Clothes", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
+				{ 10, "s44958", "34085", "=q1=Red Winter Clothes", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
+				{ 11, "s12091", "10040", "=q1=White Wedding Dress", "=ds=#sr# 250", "=ds="..AL["Vendor"] };
+				{ 12, "s12089", "10035", "=q1=Tuxedo Pants", "=ds=#sr# 245", "=ds="..AL["Vendor"] };
+				{ 13, "s12077", "10053", "=q1=Simple Black Dress", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
+				{ 14, "s8799", "7062", "=q1=Crimson Silk Pantaloons", "=ds=#sr# 195", "=ds="..AL["Trainer"] };
+				{ 15, "s8791", "7058", "=q1=Crimson Silk Vest", "=ds=#sr# 185", "=ds="..AL["Trainer"] };
+				{ 16, "s8762", "7050", "=q1=Silk Headband", "=ds=#sr# 160", "=ds="..AL["Trainer"] };
+				{ 17, "s8760", "7048", "=q1=Azure Silk Hood", "=ds=#sr# 145", "=ds="..AL["Trainer"] };
+				{ 18, "s3849", "4315", "=q1=Reinforced Woolen Shoulders", "=ds=#sr# 120", "=ds="..AL["Drop"] };
+				{ 19, "s3848", "4314", "=q1=Double-stitched Woolen Shoulders", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
+				{ 20, "s8467", "6787", "=q1=White Woolen Dress", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
+				{ 21, "s2399", "2582", "=q1=Green Woolen Vest", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 22, "s12046", "10047", "=q1=Simple Kilt", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 23, "s2402", "2584", "=q1=Woolen Cape", "=ds=#sr# 75", "=ds="..AL["Trainer"] };
+				{ 24, "s2386", "2569", "=q1=Linen Boots", "=ds=#sr# 65", "=ds="..AL["Trainer"] };
+				{ 25, "s3841", "4308", "=q1=Green Linen Bracers", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
+				{ 26, "s2397", "2580", "=q1=Reinforced Linen Cape", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
+				{ 27, "s8465", "6786", "=q1=Simple Dress", "=ds=#sr# 40", "=ds="..AL["Trainer"] };
+				{ 28, "s3840", "4307", "=q1=Heavy Linen Gloves", "=ds=#sr# 35", "=ds="..AL["Trainer"] };
+				{ 29, "s3914", "4343", "=q1=Brown Linen Pants", "=ds=#sr# 30", "=ds="..AL["Trainer"] };
+				{ 30, "s12045", "10046", "=q1=Simple Linen Boots", "=ds=#sr# 20", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s2385", "2568", "=q1=Brown Linen Vest", "=ds=#sr# 10", "=ds="..AL["Trainer"] };
-				{ 2, "s2387", "2570", "=q1=Linen Cloak", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
-				{ 3, "s12044", "10045", "=q1=Simple Linen Pants", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				{ 1, "s8776", "7026", "=q1=Linen Belt", "=ds=#sr# 15", "=ds="..AL["Trainer"] };
+				{ 2, "s2385", "2568", "=q1=Brown Linen Vest", "=ds=#sr# 10", "=ds="..AL["Trainer"] };
+				{ 3, "s2387", "2570", "=q1=Linen Cloak", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				{ 4, "s12044", "10045", "=q1=Simple Linen Pants", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -6337,41 +6340,42 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s75298", "54504", "=q4=Belt of the Depths", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
 				{ 11, "s75300", "54505", "=q4=Breeches of Mended Nightmares", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
 				{ 12, "s75299", "54503", "=q4=Dreamless Belt", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 13, "s75307", "54498", "=q3=Vicious Embersilk Pants", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 14, "s75306", "54496", "=q3=Vicious Embersilk Cowl", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 15, "s75305", "54495", "=q3=Vicious Embersilk Robe", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 16, "s75304", "54493", "=q3=Vicious Fireweave Cowl", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 17, "s75303", "54494", "=q3=Vicious Fireweave Robe", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 18, "s75302", "54491", "=q3=Vicious Fireweave Pants", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 19, "s75296", "54492", "=q3=Vicious Fireweave Gloves", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
-				{ 20, "s75294", "54490", "=q3=Vicious Fireweave Boots", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
-				{ 21, "s75295", "54497", "=q3=Vicious Embersilk Gloves", "=ds=#sr# 515", "=ds="..AL["Trainer"] }; 
-				{ 22, "s75292", "54487", "=q3=Vicious Fireweave Shoulders", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 23, "s75269", "54489", "=q3=Vicious Fireweave Belt", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 24, "s75293", "54500", "=q3=Vicious Embersilk Belt", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 25, "s75291", "54502", "=q3=Vicious Embersilk Shoulders", "=ds=#sr# 505", "=ds="..AL["Trainer"] };
-				{ 26, "s75270", "54501", "=q3=Vicious Embersilk Bracers", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 27, "s75290", "70054", "=q3=Vicious Fireweave Bracers", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 28, "s99537", "70070", "=q3=Vicious Embersilk Cape", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
-				{ 29, "s75266", "54485", "=q3=Spiritmend Cowl", "=ds=#sr# 485", "=ds="..AL["Trainer"] };
-				{ 30, "s75267", "54486", "=q2=Spiritmend Robe", "=ds=#sr# 485", "=ds="..AL["Trainer"] };
+				{ 13, "s75307", "75072", "=q3=Vicious Embersilk Pants", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 14, "s75306", "75073", "=q3=Vicious Embersilk Cowl", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 15, "s75305", "75093", "=q3=Vicious Embersilk Robe", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 16, "s75304", "75062", "=q3=Vicious Fireweave Cowl", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 17, "s75303", "75088", "=q3=Vicious Fireweave Robe", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 18, "s75302", "75082", "=q3=Vicious Fireweave Pants", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 19, "s75297", "75095", "=q3=Vicious Embersilk Boots", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 20, "s75296", "75063", "=q3=Vicious Fireweave Gloves", "=ds=#sr# 520", "=ds="..AL["Trainer"] };
+				{ 21, "s75294", "75087", "=q3=Vicious Fireweave Boots", "=ds=#sr# 515", "=ds="..AL["Trainer"] };
+				{ 22, "s75295", "75070", "=q3=Vicious Embersilk Gloves", "=ds=#sr# 515", "=ds="..AL["Trainer"] }; 
+				{ 23, "s75292", "75091", "=q3=Vicious Fireweave Shoulders", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 24, "s75269", "75086", "=q3=Vicious Fireweave Belt", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 25, "s75293", "75096", "=q3=Vicious Embersilk Belt", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 26, "s75291", "75064", "=q3=Vicious Embersilk Shoulders", "=ds=#sr# 505", "=ds="..AL["Trainer"] };
+				{ 27, "s75270", "75098", "=q3=Vicious Embersilk Bracers", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 28, "s75290", "75089", "=q3=Vicious Fireweave Bracers", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 29, "s99537", "75065", "=q3=Vicious Embersilk Cape", "=ds=#sr# 500", "=ds="..AL["Trainer"] };
+				{ 30, "s75266", "54485", "=q3=Spiritmend Cowl", "=ds=#sr# 485", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s75263", "54483", "=q2=Spiritmend Leggings", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				{ 2, "s75262", "54484", "=q2=Spiritmend Gloves", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				{ 3, "s75261", "54482", "=q2=Spiritmend Boots", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
-				{ 4, "s75260", "54479", "=q3=Spiritmend Shoulders", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
-				{ 5, "s75259", "54480", "=q2=Spiritmend Bracers", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
-				{ 6, "s75258", "54481", "=q2=Spiritmend Belt", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
-				{ 7, "s75256", "54476", "=q2=Deathsilk Cowl", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
-				{ 8, "s75257", "54475", "=q3=Deathsilk Robe", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
-				{ 9, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
-				{ 10, "s75254", "54472", "=q2=Deathsilk Leggings", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
-				{ 11, "s75251", "54474", "=q2=Deathsilk Shoulders", "=ds=#sr# 455", "=ds="..AL["Trainer"] };
-				{ 12, "s75252", "54477", "=q2=Deathsilk Boots", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
-				{ 13, "s75249", "54473", "=q2=Deathsilk Bracers", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
-				{ 14, "s75248", "54471", "=q2=Deathsilk Belt", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
-				{ 15, "s75288", "54441", "=q1=Black Embersilk Gown", "=ds=#sr# 500", "=ds="..AL["Vendor"]};
+				{ 1, "s75267", "54486", "=q2=Spiritmend Robe", "=ds=#sr# 485", "=ds="..AL["Trainer"] };
+				{ 2, "s75263", "54483", "=q2=Spiritmend Leggings", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 3, "s75262", "54484", "=q2=Spiritmend Gloves", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 4, "s75261", "54482", "=q2=Spiritmend Boots", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 5, "s75260", "54479", "=q3=Spiritmend Shoulders", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
+				{ 6, "s75259", "54480", "=q2=Spiritmend Bracers", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
+				{ 7, "s75258", "54481", "=q2=Spiritmend Belt", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
+				{ 8, "s75256", "54476", "=q2=Deathsilk Cowl", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
+				{ 9, "s75257", "54475", "=q3=Deathsilk Robe", "=ds=#sr# 465", "=ds="..AL["Trainer"] };
+				{ 10, "s75253", "54478", "=q3=Deathsilk Gloves", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
+				{ 11, "s75254", "54472", "=q2=Deathsilk Leggings", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
+				{ 12, "s75251", "54474", "=q2=Deathsilk Shoulders", "=ds=#sr# 455", "=ds="..AL["Trainer"] };
+				{ 13, "s75252", "54477", "=q2=Deathsilk Boots", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 14, "s75249", "54473", "=q2=Deathsilk Bracers", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 15, "s75248", "54471", "=q2=Deathsilk Belt", "=ds=#sr# 445", "=ds="..AL["Trainer"] };
+				{ 16, "s75288", "54441", "=q1=Black Embersilk Gown", "=ds=#sr# 500", "=ds="..AL["Vendor"]};
 			};
 		};
 		info = {
@@ -6603,12 +6607,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 1, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkboltl#" },
-				{ 2, 54593, "", "=q3=Pattern: Emberfire Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 3, 54594, "", "=q3=Pattern: Emberfire Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 4, 54595, "", "=q3=Pattern: Emberfire Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 5, 54596, "", "=q3=Pattern: Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 6, 54597, "", "=q3=Pattern: Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 7, 54598, "", "=q3=Pattern: Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 2, 54593, "", "=q3=Pattern: Vicious Embersilk Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 3, 54594, "", "=q3=Pattern: Vicious Embersilk Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 4, 54595, "", "=q3=Pattern: Vicious Embersilk Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 5, 54596, "", "=q3=Pattern: Vicious Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 6, 54597, "", "=q3=Pattern: Vicious Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 7, 54598, "", "=q3=Pattern: Vicious Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
 				{ 8, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
 				{ 9, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
 				{ 10, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" },
