@@ -8,7 +8,7 @@ local moduleName = "AtlasLootCataclysm"
 -- Index
 --- Dungeons & Raids
 ---- Blackrock Caverns
----- Caverns of Time: Endtime
+---- Caverns of Time: End Time
 ---- Caverns of Time: Hour of Twilight
 ---- Caverns of Time: Well of Eternity
 ---- Grim Batol
@@ -207,18 +207,23 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-		--------------------------------
-		--- Caverns of Time: Endtime ---
-		--------------------------------
+		---------------------------------
+		--- Caverns of Time: End Time ---
+		---------------------------------
 
 	AtlasLoot_Data["EndtimeBaine"] = {
 		["Normal"] = {
 			{
-    			{ 1, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 2, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-    			{ 3, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 4, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 5, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
+				{ 1, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
+    			{ 2, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 4, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 5, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 6, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 7, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+    			{ 8, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 9, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
+    			{ 10, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
     			{ 16, 72814, "", "=q4=Axe of the Tauren Chieftains", "=ds=#h2#, #w1#" },
     			{ 17, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
 			};
@@ -231,11 +236,16 @@ local moduleName = "AtlasLootCataclysm"
 
 	AtlasLoot_Data["EndtimeJaina"] = {
 		["Normal"] = {
-			{    			
-    			{ 1, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 2, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-   			{ 3, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 4, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
+			{
+				{ 1, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
+    			{ 2, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 4, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 5, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 6, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 7, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+   				{ 8, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 9, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
     			{ 16, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
     			{ 17, 72808, "", "=q4=Jaina's Staff", "=ds=#w9#" },
     			{ 18, 72809, "", "=q4=Ward of Incantations", "=ds=#w8#" },
@@ -252,29 +262,39 @@ local moduleName = "AtlasLootCataclysm"
 			{
     			{ 1, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
     			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 4, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 5, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 6, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 16, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
+    			{ 3, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+    			{ 4, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 5, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 6, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 7, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 8, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+    			{ 9, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 10, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
+    			{ 16, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
+    			{ 17, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
 			};
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323),
 			module = moduleName, instance = "CoTEndTime",
 		};
-	};
+	};    
 
 	AtlasLoot_Data["EndtimeTyrande"] = {
 		["Normal"] = {
 			{
-    			{ 1, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
-    			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 4, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 5, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 6, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+				{ 1, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
+				{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
+				{ 3, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+				{ 4, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 5, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 6, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 7, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 8, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+    			{ 9, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 10, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
     			{ 16, 72812, "", "=q4=Crescent Moon", "=ds=#h1#, #w1#" },
+    			{ 17, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
 			};
 		};
 		info = {
@@ -286,6 +306,18 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["EndtimeMurozond"] = {
 		["Normal"] = {
 			{
+    			{ 1, 72825, "", "=q4=Mantle of Time", "=ds=#s3#, #a1#" },
+    			{ 2, 72826, "", "=q4=Robes of Fate", "=ds=#s5#, #a1#" },
+    			{ 3, 72823, "", "=q4=Timeway Headgear", "=ds=#s1#, #a2#" },
+    			{ 4, 72824, "", "=q4=Distortion Chestguard", "=ds=#s5#, #a2#" },
+    			{ 5, 72816, "", "=q4=Twisted Greaves", "=ds=#s11#, #a3#" },
+    			{ 6, 72820, "", "=q4=Crown of Epochs", "=ds=#s1#, #a4#" },
+    			{ 7, 72821, "", "=q4=Temporal Pauldrons", "=ds=#s3#, #a4#" },
+    			{ 8, 72818, "", "=q4=Breastplate of Tarnished Bronze", "=ds=#s5#, #a4#" },
+    			{ 9, 72817, "", "=q4=Time Altered Legguards", "=ds=#s11#, #a4#" },
+    			{ 10, 72819, "", "=q4=Chrono Boots", "=ds=#s12#, #a4#" },
+    			{ 16, 72897, "", "=q4=Arrow of Time", "=ds=#s14#" },
+    			{ 18, 72822, "", "=q4=Jagged Edge of Time", "=ds=#h1#, #w4#" },
 			};
 		};
 		info = {
@@ -312,6 +344,12 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["HoTArcurion"] = {
 		["Normal"] = {
 			{
+    			{ 1, 72854, "", "=q4=Iceward Cloak", "=ds=#s4#" },
+    			{ 2, 72851, "", "=q4=Chillbane Belt", "=ds=#s10#, #a1#" },
+    			{ 3, 76150, "", "=q4=Evergreen Wristbands", "=ds=#s8#, #a2#" },
+    			{ 4, 72849, "", "=q4=Boots of the Treacherous Path", "=ds=#s12#, #a2#" },
+    			{ 5, 72850, "", "=q4=Surestride Boots", "=ds=#s12#, #a3#" },
+    			{ 6, 72853, "", "=q4=Arcurion Legguards", "=ds=#s11#, #a4#" },
 			};
 		};
 		info = {
@@ -323,6 +361,12 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["HoTDawnslayer"] = {
 		["Normal"] = {
 			{
+    			{ 1, 76151, "", "=q4=Cloak of Subtle Light", "=ds=#s4#" },
+    			{ 2, 72857, "", "=q4=Leggings of Blinding Speed", "=ds=#s11#, #a2#" },
+    			{ 3, 72859, "", "=q4=Dawnslayer Helm", "=ds=#s1#, #a3#" },
+    			{ 4, 72856, "", "=q4=Pauldrons of Midnight Whispers", "=ds=#s3#, #a3#" },
+    			{ 16, 72855, "", "=q4=Corrupted Carapace", "=ds=#w8#" },
+   				{ 17, 72860, "", "=q4=Mandible of the Old Ones", "=ds=#w4#" },
 			};
 		};
 		info = {
@@ -334,6 +378,18 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["HoTBenedictus"] = {
 		["Normal"] = {
 			{
+				{ 1, 72865, "", "=q4=Mantle of False Virtue", "=ds=#s3#, #a1#" },
+				{ 2, 72868, "", "=q4=Desecrated Shoulderguards", "=ds=#s3#, #a2#" },
+    			{ 3, 72870, "", "=q4=Betrayer's Pauldrons", "=ds=#s3#, #a3#" },
+    			{ 4, 72864, "", "=q4=Pauldrons of Conviction", "=ds=#s3#, #a4#" },
+    			{ 5, 72861, "", "=q4=Pauldrons of the Dragonblight", "=ds=#s3#, #a4#" },
+    			{ 7, 72901, "", "=q4=Rosary of Light", "=ds=#s14#" },
+    			{ 8, 72900, "", "=q4=Veil of Darkness", "=ds=#s14#" },
+    			{ 16, 72867, "", "=q4=Clattering Claw", "=ds=#h1#, #w13#" },
+    			{ 17, 72862, "", "=q4=Fanged Tentacle", "=ds=#h1#, #w4#" },
+    			{ 18, 72866, "", "=q4=Treachery's Bite", "=ds=#h1#, #w10#" },
+    			{ 19, 72863, "", "=q4=Stalk of Corruption", "=ds=#w9#" },
+    			{ 20, 72869, "", "=q4=Dragonsmaw Blaster", "=ds=#w5#" },
 			};
 		};
 		info = {
@@ -360,6 +416,12 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WoEPerotharn"] = {
 		["Normal"] = {
 			{
+    			{ 1, 72830, "", "=q4=Peroth'arn's Belt", "=ds=#s10#, #a2#" },
+    			{ 2, 72832, "", "=q4=Girdle of the Queen's Blade", "=ds=#s10#, #a4#" },
+    			{ 4, 72831, "", "=q4=Horned Band", "=ds=#s13#" },
+    			{ 5, 72829, "", "=q4=Orb of the First Satyrs", "=ds=#s15#" },
+    			{ 16, 72828, "", "=q4=Trickster's Edge", "=ds=#h1#, #w1#" },
+    			{ 17, 72827, "", "=q4=Gavel of Peroth'arn", "=ds=#h1#, #w6#" },
 			};
 		};
 		info = {
@@ -371,6 +433,13 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WoEAzshara"] = {
 		["Normal"] = {
 			{
+    			
+    			{ 1, 72838, "", "=q4=Cloak of the Highborne", "=ds=#s4#"},
+    			{ 2, 72836, "", "=q4=Slippers of Wizardry", "=ds=#s12#, #a1#" },
+    			{ 3, 72835, "", "=q4=Puppet String Leggings", "=ds=#s11#, #a2#" },
+    			{ 4, 72834, "", "=q4=Breastplate of the Queen's Guard", "=ds=#s5#, #a3#" },
+    			{ 16, 72837, "", "=q4=Queen's Boon", "=ds=#s13#" },
+    			{ 18, 72833, "", "=q4=Scepter of Azshara", "=ds=#h1#, #w6#" },
 			};
 		};
 		info = {
@@ -382,6 +451,18 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WoEMannoroth"] = {
 		["Normal"] = {
 			{
+    			{ 1, 72839, "", "=q4=Varo'then's Cowl", "=ds=#s1#, #a1#" },
+    			{ 2, 72847, "", "=q4=Helm of Thorns", "=ds=#s1#, #a2#" },
+    			{ 3, 72840, "", "=q4=Spaulders of the Well", "=ds=#s3#, #a2#" },
+    			{ 4, 72841, "", "=q4=Demonsbane Breastplate", "=ds=#s5#, #a3#" },
+    			{ 5, 72848, "", "=q4=Legguards of the Legion", "=ds=#s11#, #a3#" },
+    			{ 6, 72842, "", "=q4=Annihilan Helm", "=ds=#s1#, #a4#" },
+    			{ 7, 72843, "", "=q4=Helm of Power", "=ds=#s1#, #a4#" },
+    			{ 16, 72845, "", "=q4=Mannroth's Signet", "=ds=#s13#" },
+    			{ 17, 72899, "", "=q4=Heart of the Pit Lord", "=ds=#s14#" },
+    			{ 18, 72898, "", "=q4=Light of Lights", "=ds=#s14#" },
+    			{ 20, 72844, "", "=q4=Hammer of Destruction", "=ds=#h2#, #w6#" },
+    			{ 21, 72846, "", "=q4=Thornwood Staff", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -2200,82 +2281,120 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 2, 77018, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
+				{ 3, 77020, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
 				{ 5, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+				{ 6, 77014, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
+				{ 7, 77016, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
 				{ 9, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 11, 76749, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
+				{ 12, 76751, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#"};
 				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
-				{ 17, 73596, "", "=q4=Cataclysmic Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 18, 73599, "", "=q4=Cataclysmic Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 17, 73599, "", "=q4=Cataclysmic Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73597, "", "=q4=Cataclysmic Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2200#"};
 				{ 20, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
-				{ 21, 73612, "", "=q4=Cataclysmic Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 22, 73615, "", "=q4=Cataclysmic Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 73615, "", "=q4=Cataclysmic Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73613, "", "=q4=Cataclysmic Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2200#"};
 				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-				{ 25, 73604, "", "=q4=Cataclysmic Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 26, 73607, "", "=q4=Cataclysmic Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 25, 73607, "", "=q4=Cataclysmic Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 26, 73605, "", "=q4=Cataclysmic Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 2, 76212, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#"};
+				{ 3, 76214, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#"};
 				{ 5, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 6, 77029, "", "=q4=Wrymstalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 7, 77031, "", "=q4=Wrymstalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 9, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 10, 77024, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#"};
+				{ 11, 77026, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#"};
 				{ 13, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 14, 76343, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
+				{ 15, 76341, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
 				{ 16, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 17, 73573, "", "=q4=Cataclysmic Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 18, 73576, "", "=q4=Cataclysmic Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 17, 73576, "", "=q4=Cataclysmic Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73574, "", "=q4=Cataclysmic Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
 				{ 20, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-				{ 21, 73584, "", "=q4=Cataclysmic Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 22, 73583, "", "=q4=Cataclysmic Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 73583, "", "=q4=Cataclysmic Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73581, "", "=q4=Cataclysmic Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2200#"};
 				{ 24, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 25, 73527, "", "=q4=Cataclysmic Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 26, 73526, "", "=q4=Cataclysmic Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 25, 73526, "", "=q4=Cataclysmic Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 26, 73524, "", "=q4=Cataclysmic Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2200#"};
 				{ 28, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 29, 73484, "", "=q4=Cataclysmic Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
-				{ 30, 73487, "", "=q4=Cataclysmic Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 29, 73487, "", "=q4=Cataclysmic Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
+				{ 30, 73485, "", "=q4=Cataclysmic Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 2, 76766, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#"};
+				{ 3, 76768, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#"};
 				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 6, 76875, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#"};
+				{ 7, 76877, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#"};
 				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 10, 77004, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#"};
+				{ 11, 77006, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 17, 73560, "", "=q4=Cataclysmic Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
-				{ 18, 73559, "", "=q4=Cataclysmic Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 17, 73559, "", "=q4=Cataclysmic Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73557, "", "=q4=Cataclysmic Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
 				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 21, 73571, "", "=q4=Cataclysmic Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 22, 73570, "", "=q4=Cataclysmic Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 73570, "", "=q4=Cataclysmic Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73568, "", "=q4=Cataclysmic Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 2, 76357, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
+				{ 3, 76359, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
 				{ 5, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 6, 76348, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
+				{ 7, 76346, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
-				{ 17, 73546, "", "=q4=Cataclysmic Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 18, 73549, "", "=q4=Cataclysmic Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 17, 73549, "", "=q4=Cataclysmic Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73547, "", "=q4=Cataclysmic Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
 				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-				{ 21, 73541, "", "=q4=Cataclysmic Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 22, 73544, "", "=q4=Cataclysmic Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 73544, "", "=q4=Cataclysmic Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73542, "", "=q4=Cataclysmic Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 2, 77038, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 3, 77036, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
 				{ 5, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 6, 77041, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
+				{ 7, 77043, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 9, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 10, 76757, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
+				{ 11, 76759, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
-				{ 17, 73506, "", "=q4=Cataclysmic Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 18, 73505, "", "=q4=Cataclysmic Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 17, 73505, "", "=q4=Cataclysmic Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73503, "", "=q4=Cataclysmic Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2200#"};
 				{ 20, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
-				{ 21, 73512, "", "=q4=Cataclysmic Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 22, 73511, "", "=q4=Cataclysmic Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 21, 73511, "", "=q4=Cataclysmic Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 22, 73509, "", "=q4=Cataclysmic Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2200#"};
 				{ 24, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
-				{ 25, 73517, "", "=q4=Cataclysmic Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 26, 73516, "", "=q4=Cataclysmic Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 25, 73516, "", "=q4=Cataclysmic Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 26, 73514, "", "=q4=Cataclysmic Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+				{ 2, 76975, "", "=q4=Necrotic Boneplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 3, 76977, "", "=q4=Necrotic Boneplate Greaves", "=ds=#s11#, #a4#"};
 				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+				{ 6, 77009, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#"};
+				{ 7, 77011, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#"};
 				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 76985, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 11, 76986, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
 				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 14, 76989, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
+				{ 15, 76991, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
-				{ 17, 73620, "", "=q4=Cataclysmic Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 18, 73619, "", "=q4=Cataclysmic Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 17, 73619, "", "=q4=Cataclysmic Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 18, 73617, "", "=q4=Cataclysmic Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2200#"};
 				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
-				{ 25, 73482, "", "=q4=Cataclysmic Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 26, 73481, "", "=q4=Cataclysmic Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 25, 73481, "", "=q4=Cataclysmic Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
+				{ 26, 73479, "", "=q4=Cataclysmic Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2200#"};
 			};
 			{
 				{ 1, 73633, "", "=q4=Cataclysmic Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
