@@ -739,9 +739,9 @@ do
 		if itemNameNew then
 			_, _, _, itemQuality = GetItemQualityColor(itemQuality)
 			tempText = itemQuality..string.gsub(itemNameNew, 1, 4)
-			if select(4, GetBuildInfo()) == 40200 then
+			--if select(4, GetBuildInfo()) == 40200 then
 				tempText = "|c"..tempText
-			end
+			--end
 		elseif itemName then
 			tempText = AtlasLoot:FixText(itemName)
 		else

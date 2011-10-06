@@ -23,6 +23,11 @@ function AtlasLoot_GetLocaleLibBabble(typ)
 	local rettab = {}
 	local tab = LibStub(typ):GetBaseLookupTable()
 	local loctab = LibStub(typ):GetUnstrictLookupTable()
+	if not tab or not loctab then
+		return setmetatable(rettab, {
+			__index = function(a,b) return typ.." ERROR" end
+		})
+	end
 	for k,v in pairs(loctab) do
 		rettab[k] = v;
 	end
