@@ -590,25 +590,25 @@ AtlasLoot_TextParsing = {
 	{ "#t12s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },
 
 	-- Tier 13 Sets
-	{ "#t13s1_1#", "Deep Earth Vestments" },--done
-	{ "#t13s1_2#", "Deep Earth Battlegarb" },--done
-	{ "#t13s1_3#", "Deep Earth Regalia" },--done
-	{ "#t13s2#", BabbleItemSet["Flamewaker's Battlegear"] },
-	{ "#t13s3#", "Timelord Regalia" },--done
-	{ "#t13s4_1#", BabbleItemSet["Regalia of Immolation"] },
-	{ "#t13s4_2#", BabbleItemSet["Battlearmor of Immolation"] },
-	{ "#t13s4_3#", BabbleItemSet["Battleplate of Immolation"] },
-	{ "#t13s5_1#", BabbleItemSet["Regalia of the Cleansing Flame"] },
-	{ "#t13s5_2#", BabbleItemSet["Vestments of the Cleansing Flame"] },
-	{ "#t13s6#", "Blackfang Battleweave" },--done
-	{ "#t13s7_1#", "Spiritwalker's Vestments" },--done
-	{ "#t13s7_2#", "Spiritwalker's Battlegear" },--done
-	{ "#t13s7_3#", "Spiritwalker's Regalia" },--done
-	{ "#t13s8#", "Faceless Shroud" },--done
-	{ "#t13s9_1#", BabbleItemSet["Molten Giant Warplate"] },
-	{ "#t13s9_2#", BabbleItemSet["Molten Giant Battleplate"] },
-	{ "#t13s10_1#", BabbleItemSet["Elementium Deathplate Battlegear"] },
-	{ "#t13s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },
+	{ "#t13s1_1#", BabbleItemSet["Deep Earth Vestments"] },			--done, Druid
+	{ "#t13s1_2#", BabbleItemSet["Deep Earth Battlegarb"] },		--done, Druid
+	{ "#t13s1_3#", BabbleItemSet["Deep Earth Regalia"] },			--done, Druid
+	{ "#t13s2#", BabbleItemSet["Wyrmstalker Battlegear"] }, 		--Hunter
+	{ "#t13s3#", BabbleItemSet["Timelord's Regalia"] },			--done, Mage
+	{ "#t13s4_1#", BabbleItemSet["Regalia of Radiant Glory"] },		--Paladin
+	{ "#t13s4_2#", BabbleItemSet["Armor of Radiant Glory"] },		--Paladin
+	{ "#t13s4_3#", BabbleItemSet["Battleplate of Radiant Glory"] },		--Paladin
+	{ "#t13s5#", BabbleItemSet["Vestments of the Faceless Shroud"] },	--Warlock
+	{ "#t13s6#", BabbleItemSet["Blackfang Battleweave"] },			--done, Rouge
+	{ "#t13s7_1#", BabbleItemSet["Spiritwalker's Vestments"] },		--done, Shaman
+	{ "#t13s7_2#", BabbleItemSet["Spiritwalker's Battlegear"] },		--done, Shaman
+	{ "#t13s7_3#", BabbleItemSet["Spiritwalker's Regalia"] },		--done, Shaman
+	{ "#t13s8_1#", BabbleItemSet["Regalia of Dying Light"] },		--Priest
+	{ "#t13s8_2#", BabbleItemSet["Vestments of Dying Light"] },		--Priest
+	{ "#t13s9_1#", BabbleItemSet["Necrotic Boneplate Battlegear"] },	--Death Knight
+	{ "#t13s9_2#", BabbleItemSet["Necrotic Boneplate Armor"] },		--Death Knight
+	{ "#t13s10_1#", BabbleItemSet["Colossal Dragonplate Battlegear"] },	--Warrior
+	{ "#t13s10_2#", BabbleItemSet["Colossal Dragonplate Armor"] },		--Warrior
 
 	-- Arathi Basin Sets - Alliance
 	{ "#absa1#", BabbleItemSet["The Highlander's Intent"] },

@@ -6604,19 +6604,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DeathKnightTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#"};
-				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 77010, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 10, 77012, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 11, 77008, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#"};
 				{ 12, 77009, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#"};
 				{ 13, 77011, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#"};
-				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 18, 0, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 19, 0, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#"};
@@ -6778,19 +6778,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#"};
-				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76767, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 10, 76769, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 11, 76765, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 12, 76766, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 13, 76768, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#"};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 18, 0, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 19, 0, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#"};
@@ -6807,19 +6807,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PaladinProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#"};
-				{ 8, 0, "spell_holy_devotionaura", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 77005, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 10, 77007, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 11, 77003, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 12, 77004, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 13, 77006, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#"};
-				{ 16, 0, "spell_holy_devotionaura", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 18, 0, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 19, 0, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#"};
@@ -6836,19 +6836,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#"};
-				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76876, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 10, 76878, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 11, 76874, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 12, 76875, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 13, 76877, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#"};
-				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 18, 0, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 19, 0, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#"};
@@ -6865,19 +6865,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76347, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 10, 76344, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 11, 76345, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 12, 76348, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 13, 76346, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
@@ -6894,19 +6894,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t13s8_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t13s8_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76358, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 10, 76361, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 11, 76360, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 12, 76357, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
 				{ 13, 76359, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t13s8_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
@@ -7039,19 +7039,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s5#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s5#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76342, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 10, 76339, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 11, 76340, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 12, 76343, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 13, 76341, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s5#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
@@ -7068,19 +7068,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorFury"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76983, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
 				{ 10, 76987, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
 				{ 11, 76984, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
 				{ 12, 76985, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 13, 76986, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
 				{ 18, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
 				{ 19, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
@@ -7097,19 +7097,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76990, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 10, 76992, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 11, 76988, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#"};
 				{ 12, 76989, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
 				{ 13, 76991, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 18, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 19, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
