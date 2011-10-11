@@ -590,25 +590,25 @@ AtlasLoot_TextParsing = {
 	{ "#t12s10_2#", BabbleItemSet["Elementium Deathplate Battlearmor"] },
 
 	-- Tier 13 Sets
-	{ "#t13s1_1#", BabbleItemSet["Deep Earth Vestments"] },			--done, Druid
-	{ "#t13s1_2#", BabbleItemSet["Deep Earth Battlegarb"] },		--done, Druid
-	{ "#t13s1_3#", BabbleItemSet["Deep Earth Regalia"] },			--done, Druid
-	{ "#t13s2#", BabbleItemSet["Wyrmstalker Battlegear"] }, 		--Hunter
-	{ "#t13s3#", BabbleItemSet["Timelord's Regalia"] },			--done, Mage
-	{ "#t13s4_1#", BabbleItemSet["Regalia of Radiant Glory"] },		--Paladin
-	{ "#t13s4_2#", BabbleItemSet["Armor of Radiant Glory"] },		--Paladin
-	{ "#t13s4_3#", BabbleItemSet["Battleplate of Radiant Glory"] },		--Paladin
-	{ "#t13s5#", BabbleItemSet["Vestments of the Faceless Shroud"] },	--Warlock
-	{ "#t13s6#", BabbleItemSet["Blackfang Battleweave"] },			--done, Rouge
-	{ "#t13s7_1#", BabbleItemSet["Spiritwalker's Vestments"] },		--done, Shaman
-	{ "#t13s7_2#", BabbleItemSet["Spiritwalker's Battlegear"] },		--done, Shaman
-	{ "#t13s7_3#", BabbleItemSet["Spiritwalker's Regalia"] },		--done, Shaman
-	{ "#t13s8_1#", BabbleItemSet["Regalia of Dying Light"] },		--Priest
-	{ "#t13s8_2#", BabbleItemSet["Vestments of Dying Light"] },		--Priest
-	{ "#t13s9_1#", BabbleItemSet["Necrotic Boneplate Battlegear"] },	--Death Knight
-	{ "#t13s9_2#", BabbleItemSet["Necrotic Boneplate Armor"] },		--Death Knight
-	{ "#t13s10_1#", BabbleItemSet["Colossal Dragonplate Battlegear"] },	--Warrior
-	{ "#t13s10_2#", BabbleItemSet["Colossal Dragonplate Armor"] },		--Warrior
+	{ "#t13s1_1#", BabbleItemSet["Deep Earth Vestments"] },
+	{ "#t13s1_2#", BabbleItemSet["Deep Earth Battlegarb"] },
+	{ "#t13s1_3#", BabbleItemSet["Deep Earth Regalia"] },
+	{ "#t13s2#", BabbleItemSet["Wyrmstalker Battlegear"] },
+	{ "#t13s3#", BabbleItemSet["Timelord's Regalia"] },
+	{ "#t13s4_1#", BabbleItemSet["Regalia of Radiant Glory"] },
+	{ "#t13s4_2#", BabbleItemSet["Armor of Radiant Glory"] },
+	{ "#t13s4_3#", BabbleItemSet["Battleplate of Radiant Glory"] },
+	{ "#t13s5_1#", BabbleItemSet["Regalia of Dying Light"] },
+	{ "#t13s5_2#", BabbleItemSet["Vestments of Dying Light"] },
+	{ "#t13s6#", BabbleItemSet["Blackfang Battleweave"] },
+	{ "#t13s7_1#", BabbleItemSet["Spiritwalker's Vestments"] },
+	{ "#t13s7_2#", BabbleItemSet["Spiritwalker's Battlegear"] },
+	{ "#t13s7_3#", BabbleItemSet["Spiritwalker's Regalia"] },
+	{ "#t13s8#", BabbleItemSet["Vestments of the Faceless Shroud"] },
+	{ "#t13s9_1#", BabbleItemSet["Necrotic Boneplate Battlegear"] },
+	{ "#t13s9_2#", BabbleItemSet["Necrotic Boneplate Armor"] },
+	{ "#t13s10_1#", BabbleItemSet["Colossal Dragonplate Battlegear"] },
+	{ "#t13s10_2#", BabbleItemSet["Colossal Dragonplate Armor"] },
 
 	-- Arathi Basin Sets - Alliance
 	{ "#absa1#", BabbleItemSet["The Highlander's Intent"] },

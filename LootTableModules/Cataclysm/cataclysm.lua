@@ -2304,8 +2304,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 76212, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#"};
 				{ 3, 76214, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#"};
 				{ 5, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-				{ 6, 77029, "", "=q4=Wrymstalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 7, 77031, "", "=q4=Wrymstalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 6, 77029, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 7, 77031, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 9, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 				{ 10, 77024, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#"};
 				{ 11, 77026, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#"};
@@ -6721,23 +6721,23 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
-				{ 2, 0, "", "=q4=Wrymstalker's Headguard", "=ds=#s1#, #a3#"};
-				{ 3, 0, "", "=q4=Wrymstalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 4, 0, "", "=q4=Wrymstalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 5, 0, "", "=q4=Wrymstalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 6, 0, "", "=q4=Wrymstalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 2, 0, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 3, 0, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 4, 0, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 5, 0, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 6, 0, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77030, "", "=q4=Wrymstalker's Headguard", "=ds=#s1#, #a3#"};
-				{ 10, 77032, "", "=q4=Wrymstalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 11, 77028, "", "=q4=Wrymstalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 12, 77029, "", "=q4=Wrymstalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 13, 77031, "", "=q4=Wrymstalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 9, 77030, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 10, 77032, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 11, 77028, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 12, 77029, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 13, 77031, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Wrymstalker's Headguard", "=ds=#s1#, #a3#"};
-				{ 18, 0, "", "=q4=Wrymstalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 19, 0, "", "=q4=Wrymstalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 20, 0, "", "=q4=Wrymstalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 21, 0, "", "=q4=Wrymstalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 17, 0, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#"};
+				{ 18, 0, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#"};
+				{ 19, 0, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#"};
+				{ 20, 0, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 21, 0, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
 			};
 		};
 		info = {
@@ -6865,19 +6865,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76347, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 10, 76344, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 11, 76345, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 12, 76348, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 13, 76346, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t13s8_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
@@ -6894,19 +6894,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t13s8_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
 				{ 2, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t13s8_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
 				{ 9, 76358, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 10, 76361, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 11, 76360, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 12, 76357, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
 				{ 13, 76359, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t13s8_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
 				{ 17, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
@@ -7039,24 +7039,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s5#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
-				{ 2, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
-				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 5, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
-				{ 6, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s5#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76342, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
-				{ 10, 76339, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 11, 76340, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 12, 76343, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
-				{ 13, 76341, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s5#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
-				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 20, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
-				{ 21, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 2, 0, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#"};
+				{ 3, 0, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#"};
+				{ 4, 0, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#"};
+				{ 5, 0, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
+				{ 6, 0, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
+				{ 9, 76342, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#"};
+				{ 10, 76339, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#"};
+				{ 11, 76340, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#"};
+				{ 12, 76343, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
+				{ 13, 76341, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
+				{ 17, 0, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#"};
+				{ 18, 0, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#"};
+				{ 19, 0, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#"};
+				{ 20, 0, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
+				{ 21, 0, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
 			};
 		};
 		info = {
@@ -7709,8 +7709,9 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 2, 70099, "", "=q4=Cenarion Hatchling", "=ds=#e13#"};
 				{ 3, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 4, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 5, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 4, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
+				{ 5, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 6, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
 				{ 17, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
 				{
 					{ 18, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
