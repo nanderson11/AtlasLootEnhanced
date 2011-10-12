@@ -73,7 +73,7 @@ AtlasLoot_LootTableRegister = {
 				{ "EndtimeMurozond", 6, EncounterJournalID = 289 },
 				{ "EndtimeTrash", 8 },
 			},
-			["Info"] = { "End Time", "AtlasLootCataclysm", EncounterJournalID = 184 },
+			["Info"] = { BabbleZone["End Time"], "AtlasLootCataclysm", EncounterJournalID = 184 },
 		},
 
 		["CoTHourOfTwilight"] = {
@@ -83,7 +83,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HoTBenedictus", 4, EncounterJournalID = 341 },
 				{ "HoTTrash", 6 },
 			},
-			["Info"] = { "Hour of Twilight", "AtlasLootCataclysm", EncounterJournalID = 186 },
+			["Info"] = { BabbleZone["Hour of Twilight"], "AtlasLootCataclysm", EncounterJournalID = 186 },
 		},
 
 		["CoTWellOfEternity"] = {
@@ -93,7 +93,7 @@ AtlasLoot_LootTableRegister = {
 				{ "WoEMannoroth", 4, EncounterJournalID = 292 },
 				{ "WoETrash", 6 },
 			},
-			["Info"] = { "Well of Eternity", "AtlasLootCataclysm", EncounterJournalID = 185 },
+			["Info"] = { BabbleZone["Well of Eternity"], "AtlasLootCataclysm", EncounterJournalID = 185 },
 		},
 
 		["GrimBatol"] = {
@@ -239,7 +239,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["CoTDragonSoulD"] = {
 			},
-			["Info"] = { "Dragon Soul", "AtlasLootCataclysm", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC", "CoTDragonSoulD" }, raid = true, EncounterJournalID = 187 },
+			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC", "CoTDragonSoulD" }, raid = true, EncounterJournalID = 187 },
 		},
 
 		["Firelands"] = {
