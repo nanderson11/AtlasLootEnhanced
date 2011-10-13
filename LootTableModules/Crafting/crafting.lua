@@ -1233,12 +1233,12 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101931", "71992", "=q4=Bracers of Destructive Strength", "=ds=#s8#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 2, "s101932", "71993", "=q4=Titanguard Wristplates", "=ds=#s8#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 3, "s101929", "71991", "=q4=Soul Redeemer Bracers", "=ds=#s8#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 4, "s101925", "71983", "=q4=Unstoppable Destroyer's Legplates", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 5, "s101928", "71984", "=q4=Foundations of Courage", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 6, "s101924", "71982", "=q4=Pyrium Legplates of Purified Evil", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
+				{ 1, "s101931", "71992", "=q4=Bracers of Destructive Strength", "=ds=#s8#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 2, "s101932", "71993", "=q4=Titanguard Wristplates", "=ds=#s8#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 3, "s101929", "71991", "=q4=Soul Redeemer Bracers", "=ds=#s8#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 4, "s101925", "71983", "=q4=Unstoppable Destroyer's Legplates", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 5, "s101928", "71984", "=q4=Foundations of Courage", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 6, "s101924", "71982", "=q4=Pyrium Legplates of Purified Evil", "=ds=#s11#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
 				{ 7, "s99439", "69936", "=q4=Fists of Fury", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 8, "s99440", "69937", "=q4=Eternal Elementium Handguards", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 9, "s99441", "69938", "=q4=Holy Flame Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
@@ -4071,11 +4071,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelRed"] ={
 		["Normal"] = {
 			{
-				{ 1, "s101799", "71883", "=q4=Bold Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 2, "s101797", "71881", "=q4=Brilliant Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 3, "s101795", "71879", "=q4=Delicate Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 4, "s101798", "71882", "=q4=Flashing Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 5, "s101796", "71880", "=q4=Precise Queen's Garnet", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 1, "s101799", "71883", "=q4=Bold Queen's Garnet", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 2, "s101797", "71881", "=q4=Brilliant Queen's Garnet", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 3, "s101795", "71879", "=q4=Delicate Queen's Garnet", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 4, "s101798", "71882", "=q4=Flashing Queen's Garnet", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 5, "s101796", "71880", "=q4=Precise Queen's Garnet", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 				{ 7, "s73335", "52206", "=q3=Bold Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 8, "s73338", "52207", "=q3=Brilliant Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 9, "s73336", "52212", "=q3=Delicate Inferno Ruby", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
@@ -4130,10 +4130,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelBlue"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101735", "71817", "=q4=Rigid Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 2, "s101742", "71820", "=q4=Solid Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 3, "s101741", "71819", "=q4=Sparkling Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 4, "s101740", "71818", "=q4=Stormy Deepholm Iolite", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 1, "s101735", "71817", "=q4=Rigid Deepholm Iolite", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 2, "s101742", "71820", "=q4=Solid Deepholm Iolite", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 3, "s101741", "71819", "=q4=Sparkling Deepholm Iolite", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 4, "s101740", "71818", "=q4=Stormy Deepholm Iolite", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 				{ 6, "s73344", "52235", "=q3=Rigid Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 7, "s73340", "52242", "=q3=Solid Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 8, "s73341", "52244", "=q3=Sparkling Ocean Sapphire", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
@@ -4180,11 +4180,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelYellow"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101803", "71877", "=q4=Fractured Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 2, "s101804", "71878", "=q4=Mystic Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 3, "s101802", "71876", "=q4=Quick Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 4, "s101800", "71874", "=q4=Smooth Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 5, "s101801", "71875", "=q4=Subtle Lightstone", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 1, "s101803", "71877", "=q4=Fractured Lightstone", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 2, "s101804", "71878", "=q4=Mystic Lightstone", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 3, "s101802", "71876", "=q4=Quick Lightstone", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 4, "s101800", "71874", "=q4=Smooth Lightstone", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 5, "s101801", "71875", "=q4=Subtle Lightstone", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 				{ 7, "s73349", "52219", "=q3=Fractured Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 8, "s73347", "52226", "=q3=Mystic Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 9, "s73348", "52232", "=q3=Quick Amberjewel", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
@@ -4232,24 +4232,24 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelGreen"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101749", "71828", "=q4=Balanced Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 2, "s101754", "71833", "=q4=Energized Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 3, "s101757", "71836", "=q4=Forceful Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 4, "s101747", "71826", "=q4=Infused Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 5, "s101755", "71834", "=q4=Jagged Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 6, "s101745", "71824", "=q4=Lightning Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 7, "s101743", "71822", "=q4=Misty Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 8, "s101758", "71837", "=q4=Nimble Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 9, "s101744", "71823", "=q4=Piercing Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 16, "s101759", "71838", "=q4=Puissant Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 17, "s101752", "71831", "=q4=Radiant Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 18, "s101756", "71835", "=q4=Regal Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 19, "s101746", "71825", "=q4=Sensei's Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 20, "s101753", "71832", "=q4=Shattered Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 21, "s101760", "71839", "=q4=Steady Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 22, "s101751", "71830", "=q4=Turbid Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 23, "s101750", "71829", "=q4=Vivid Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 24, "s101748", "71827", "=q4=Zen Elven Peridot", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 1, "s101749", "71828", "=q4=Balanced Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 2, "s101754", "71833", "=q4=Energized Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 3, "s101757", "71836", "=q4=Forceful Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 4, "s101747", "71826", "=q4=Infused Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 5, "s101755", "71834", "=q4=Jagged Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 6, "s101745", "71824", "=q4=Lightning Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 7, "s101743", "71822", "=q4=Misty Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 8, "s101758", "71837", "=q4=Nimble Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 9, "s101744", "71823", "=q4=Piercing Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 16, "s101759", "71838", "=q4=Puissant Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 17, "s101752", "71831", "=q4=Radiant Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 18, "s101756", "71835", "=q4=Regal Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 19, "s101746", "71825", "=q4=Sensei's Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 20, "s101753", "71832", "=q4=Shattered Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 21, "s101760", "71839", "=q4=Steady Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 22, "s101751", "71830", "=q4=Turbid Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 23, "s101750", "71829", "=q4=Vivid Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 24, "s101748", "71827", "=q4=Zen Elven Peridot", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 			};
 			{
 				{ 1, "s73380", "52218", "=q3=Forceful Dream Emerald", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
@@ -4337,28 +4337,28 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelOrange"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101773", "71852", "=q4=Adept Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 2, "s101775", "71854", "=q4=Artful Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 3, "s101768", "71847", "=q4=Champion's Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 4, "s101762", "71841", "=q4=Crafty Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 5, "s101761", "71840", "=q4=Deadly Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 6, "s101769", "71848", "=q4=Deft Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 7, "s101772", "71851", "=q4=Fierce Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 8, "s101776", "71855", "=q4=Fine Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 9, "s101764", "71843", "=q4=Inscribed Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 10, "s101774", "71853", "=q4=Keen Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 11, "s101778", "71857", "=q4=Lucent Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 16, "s101765", "71844", "=q4=Polished Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 17, "s101763", "71842", "=q4=Potent Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 18, "s101771", "71850", "=q4=Reckless Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 19, "s101766", "71845", "=q4=Resolute Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 20, "s101782", "71861", "=q4=Resplendent Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 21, "s101777", "71856", "=q4=Skillful Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 22, "s101781", "71860", "=q4=Splendid Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 23, "s101767", "71846", "=q4=Stalwart Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 24, "s101779", "71858", "=q4=Tenuous Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 25, "s101770", "71849", "=q4=Wicked Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 26, "s101780", "71859", "=q4=Willful Lava Coral", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 1, "s101773", "71852", "=q4=Adept Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 2, "s101775", "71854", "=q4=Artful Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 3, "s101768", "71847", "=q4=Champion's Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 4, "s101762", "71841", "=q4=Crafty Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 5, "s101761", "71840", "=q4=Deadly Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 6, "s101769", "71848", "=q4=Deft Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 7, "s101772", "71851", "=q4=Fierce Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 8, "s101776", "71855", "=q4=Fine Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 9, "s101764", "71843", "=q4=Inscribed Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 10, "s101774", "71853", "=q4=Keen Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 11, "s101778", "71857", "=q4=Lucent Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 16, "s101765", "71844", "=q4=Polished Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 17, "s101763", "71842", "=q4=Potent Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 18, "s101771", "71850", "=q4=Reckless Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 19, "s101766", "71845", "=q4=Resolute Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 20, "s101782", "71861", "=q4=Resplendent Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 21, "s101777", "71856", "=q4=Skillful Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 22, "s101781", "71860", "=q4=Splendid Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 23, "s101767", "71846", "=q4=Stalwart Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 24, "s101779", "71858", "=q4=Tenuous Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 25, "s101770", "71849", "=q4=Wicked Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 26, "s101780", "71859", "=q4=Willful Lava Coral", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 			};
 			{
 				{ 1, "s73371", "52204", "=q3=Adept Ember Topaz", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
@@ -4452,24 +4452,24 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["JewelPurple"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101784", "71863", "=q4=Accurate Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 2, "s101793", "71872", "=q4=Defender's Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 3, "s101787", "71866", "=q4=Etched Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 4, "s101783", "71862", "=q4=Glinting Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 5, "s101791", "71870", "=q4=Guardian's Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 6, "s101788", "71867", "=q4=Mysterious Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 1, "s101784", "71863", "=q4=Accurate Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 2, "s101793", "71872", "=q4=Defender's Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 3, "s101787", "71866", "=q4=Etched Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 4, "s101783", "71862", "=q4=Glinting Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 5, "s101791", "71870", "=q4=Guardian's Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 6, "s101788", "71867", "=q4=Mysterious Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 				{ 8, "s73360", "52203", "=q3=Accurate Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 9, "s73352", "52210", "=q3=Defender's Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 10, "s73356", "52213", "=q3=Etched Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 11, "s73357", "52220", "=q3=Glinting Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 12, "s73354", "52221", "=q3=Guardian's Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 13, "s73355", "52236", "=q3=Purified Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
-				{ 16, "s101789", "71868", "=q4=Purified Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 17, "s101786", "71865", "=q4=Retaliating Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 18, "s101790", "71869", "=q4=Shifting Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 19, "s101794", "71873", "=q4=Sovereign Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 20, "s101792", "71871", "=q4=Timeless Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
-				{ 21, "s101785", "71864", "=q4=Veiled Shadow Spinel", "=ds=#sr# 525", "=ds=Dragon Soul" };
+				{ 16, "s101789", "71868", "=q4=Purified Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 17, "s101786", "71865", "=q4=Retaliating Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 18, "s101790", "71869", "=q4=Shifting Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 19, "s101794", "71873", "=q4=Sovereign Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 20, "s101792", "71871", "=q4=Timeless Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
+				{ 21, "s101785", "71864", "=q4=Veiled Shadow Spinel", "=ds=#sr# 525", "=ds="..BabbleZone["Dragon Soul"] };
 				{ 23, "s73358", "52234", "=q3=Retaliating Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 24, "s73351", "52238", "=q3=Shifting Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
 				{ 25, "s73350", "52243", "=q3=Souvereign Demonseye", "=ds=#sr# 465", "=ds="..AL["Vendor"] };
@@ -5286,10 +5286,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherLeatherArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101940", "71994", "=q4=Bladeshadow Wristguards", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 2, "s101937", "71995", "=q4=Bracers of Flowing Serenity", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 3, "s101935", "71985", "=q4=Bladeshadow Leggings", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 4, "s101933", "71986", "=q4=Leggings of Nature's Champion", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
+				{ 1, "s101940", "71994", "=q4=Bladeshadow Wristguards", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 2, "s101937", "71995", "=q4=Bracers of Flowing Serenity", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 3, "s101935", "71985", "=q4=Bladeshadow Leggings", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 4, "s101933", "71986", "=q4=Leggings of Nature's Champion", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
 				{ 5, "s99446", "69942", "=q4=Clutches of Evil", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 6, "s99447", "69943", "=q4=Heavenly Gloves of the Moon", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 7, "s99458", "69952", "=q4=Ethereal Footfalls", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
@@ -5538,10 +5538,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherMailArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101941", "71996", "=q4=Bracers of the Hunter-Killer", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 2, "s101939", "71997", "=q4=Thundering Deathscale Wristguards", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 3, "s101936", "71987", "=q4=Rended Earth Leggings", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 4, "s101934", "71988", "=q4=Deathscale Leggings of the Storm", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
+				{ 1, "s101941", "71996", "=q4=Bracers of the Hunter-Killer", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 2, "s101939", "71997", "=q4=Thundering Deathscale Wristguards", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 3, "s101936", "71987", "=q4=Rended Earth Leggings", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 4, "s101934", "71988", "=q4=Deathscale Leggings of the Storm", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
 				{ 5, "s99443", "69939", "=q4=Dragonfire Gloves", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 6, "s99445", "69941", "=q4=Gloves of Unforgiving Flame", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 7, "s99455", "69949", "=q4=Earthen Scale Sabatons", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
@@ -6328,10 +6328,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TailoringArmorCata"] = {
 		["Normal"] = {
 			{
-				{ 1, "s101923", "71989", "=q4=Bracers of Unconquered Power", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 2, "s101922", "71990", "=q4=Dreamwraps of the Light", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 3, "s101921", "71980", "=q4=Lavaquake Legwraps", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
-				{ 4, "s101920", "71981", "=q4=World Mender's Pants", "=ds=#sr# 525", "=ds="..AL["Drop"]..": Dragon Soul"};
+				{ 1, "s101923", "71989", "=q4=Bracers of Unconquered Power", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 2, "s101922", "71990", "=q4=Dreamwraps of the Light", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 3, "s101921", "71980", "=q4=Lavaquake Legwraps", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
+				{ 4, "s101920", "71981", "=q4=World Mender's Pants", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Dragon Soul"]};
 				{ 5, "s99449", "69945", "=q4=Don Tayo's Inferno Mittens", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 6, "s99448", "69944", "=q4=Grips of Altered Reality", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
 				{ 7, "s99460", "69954", "=q4=Boots of the Black Flame", "=ds=#sr# 525", "=ds="..AL["Drop"]..": "..BabbleZone["Firelands"]};
