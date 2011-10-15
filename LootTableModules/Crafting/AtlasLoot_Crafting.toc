@@ -1,5 +1,6 @@
 ﻿## Interface: 40300
 ## Title: AtlasLoot_Crafting
+## Title-deDE: AtlasLoot |cFF0099FF[Berufe]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[交易技能]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 商業技能
 ## Notes: AtlasLoot loot tables of Crafting Items
