@@ -153,26 +153,7 @@ function AtlasLoot:AtlasRefreshHook()
 		base[k] = v;
 	end
 	
-	--Display the newly selected texture
-	AtlasMap:ClearAllPoints();
-	AtlasMap:SetWidth(512);
-	AtlasMap:SetHeight(512);
-	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
-	for k,v in pairs(Atlas_CoreMapsKey) do
-		if(zoneID == v) then
-			AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
-			break;
-		else
-			for ka,va in pairs(ATLAS_PLUGINS) do
-				for kb,vb in pairs(ATLAS_PLUGINS[ka]) do
-					if (zoneID == vb) then
-						AtlasMap:SetTexture("Interface\\AddOns\\"..ka.."\\Images\\"..zoneID);
-						break;
-					end
-				end
-			end
-		end
-	end
+	Atlas_MapRefresh();
 	
 	--Setup info panel above boss listing
 	local tName = base.ZoneName[1];
