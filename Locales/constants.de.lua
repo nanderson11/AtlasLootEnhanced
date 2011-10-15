@@ -202,7 +202,7 @@ if AL then
 	AL["Factions"] = "Fraktionen";
 	AL["Load Modules"] = "Module laden";
 	AL["PvP Rewards"] = "PvP Belohnungen";
-	AL["World Events"] = "Weltevents";
+	AL["World Events"] = "Weltereignisse";
 
 	-- QuickLooks
 	AL["QuickLook"] = "Lesezeichen";
