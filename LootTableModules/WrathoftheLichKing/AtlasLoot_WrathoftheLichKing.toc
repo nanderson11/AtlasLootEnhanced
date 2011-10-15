@@ -1,5 +1,6 @@
 ﻿## Interface: 40300
 ## Title: AtlasLoot_WrathoftheLichKing
+## Title-deDE: AtlasLoot |cFF0099FF[WLK-Instanzen]|r
 ## Title-zhCN: AtlasLoot |cFF0099FF[巫妖王之怒]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 巫妖王之怒
 ## Notes: AtlasLoot loot tables from the Wrath of the Lich King
