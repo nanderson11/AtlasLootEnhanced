@@ -595,6 +595,7 @@ if AL then
 	AL["Accessories"] = true;
 	AL["Rare"] = true;
 	AL["Specializations"] = true;
+	AL["Raid Finder"] = true;
 
 	-- Loot Table Names
 	AL["Level 30-39"] = true;

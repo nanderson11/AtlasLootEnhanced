@@ -2310,8 +2310,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 10, 77024, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#"};
 				{ 11, 77026, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#"};
 				{ 13, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 14, 76343, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
-				{ 15, 76341, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
+				{ 14, 76343, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
+				{ 15, 76341, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
 				{ 16, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 				{ 17, 73576, "", "=q4=Cataclysmic Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
 				{ 18, 73574, "", "=q4=Cataclysmic Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
@@ -2399,7 +2399,7 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 73633, "", "=q4=Cataclysmic Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 2, 73638, "", "=q4=Cataclysmic Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1650#"};
-				{ 3, 73635, "", "=q4=Cataclysmic Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 3 , 73635, "", "=q4=Cataclysmic Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1650#"};
 				{ 5, 73631, "", "=q4=Cataclysmic Gladiator's Cuffs of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 6, 73637, "", "=q4=Cataclysmic Gladiator's Cord of Meditation", "=ds=", "#CONQUEST:1650#"};
 				{ 7, 73634, "", "=q4=Cataclysmic Gladiator's Treads of Meditation", "=ds=", "#CONQUEST:1650#"};
@@ -2784,7 +2784,18 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulMorchok"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77267, "", "=q4=Horrific Mantle", "=ds=#s3#, #a1#" },
+    			{ 2, 77263, "", "=q4=Horrific Robe", "=ds=#s5#, #a1#" },
+    			{ 3, 77271, "", "=q4=Horrific Spaulders", "=ds=#s3#, #a2#" },
+    			{ 4, 77261, "", "=q4=Horrific Serene Bracers", "=ds=#s8#, #a2#" },
+    			{ 5, 77269, "", "=q4=Horrific Skinners", "=ds=#s9#, #a3#" },
+    			{ 6, 77266, "", "=q4=Horrific Cinch", "=ds=#s10#, #a3#" },
+    			{ 7, 77268, "", "=q4=Horrific Pauldrons", "=ds=#s3#, #a4#" },
+    			{ 8, 77270, "", "=q4=Horrific Bracers", "=ds=#s8#, #a4#" },
+    			{ 9, 77265, "", "=q4=Horrific Boots", "=ds=#s12#, #a4#" },
+    			{ 16, 77262, "", "=q4=Horrific Pendant", "=ds=#s2#" },
+    			{ 18, 77214, "", "=q4=Horrific Gavel", "=ds=#h1#, #w6#" },
+    			{ 19, 77212, "", "=q4=Horrific Cleaver", "=ds=#h1#, #w1#" },
 			};
 		};
 		["Heroic"] = {
@@ -2801,7 +2812,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulZonozz"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77255, "", "=q4=Horrific Chain", "=ds=#s10#, #a1#" },
+    			{ 2, 77260, "", "=q4=Horrific Girdle", "=ds=#s10#, #a2#" },
+    			{ 3, 77257, "", "=q4=Horrific Wristguards", "=ds=#s8#, #a3#" },
+    			{ 4, 77258, "", "=q4=Horrific Wristplates", "=ds=#s8#, #a4#" },
+    			{ 5, 77259, "", "=q4=Horrific Warboots", "=ds=#s12#, #a4#" },
+    			{ 7, 77204, "", "=q4=Horrific Quintessence", "=ds=#s14#" },
+				{ 16, 78183, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
+				{ 17, 78178, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m38#"};
+				{ 18, 78173, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+    			{ 20, 77215, "", "=q4=Horrific Arbalest", "=ds=#w3#" },
+    			{ 21, 77216, "", "=q4=Horrific Stinger", "=ds=#w12#" },
 			};
 		};
 		["Heroic"] = {
@@ -2818,7 +2839,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulYorsahj"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77254, "", "=q4=Horrific Treads", "=ds=#s12#, #a2#" },
+    			{ 2, 77252, "", "=q4=Horrific Footwraps", "=ds=#s12#, #a3#" },
+    			{ 3, 77253, "", "=q4=Horrific Bracers", "=ds=#s8#, #a4#" },
+    			{ 5, 77203, "", "=q4=Horrific Rune", "=ds=#s14#" },
+    			{ 6, 77206, "", "=q4=Horrific Stay", "=ds=#s14#" },
+				{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
+				{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m38#"};
+				{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+    			{ 20, 77217, "", "=q4=Horrific Greataxe", "=ds=#h2#, #w1#" },
+    			{ 21, 77218, "", "=q4=Horrific Scythe", "=ds=#w9#" },
+    			{ 22, 77219, "", "=q4=Horrific Scalpel", "=ds=#w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -2835,7 +2866,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulHagara"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77249, "", "=q4=Horrific Dreamwraps", "=ds=#s8#, #a1#" },
+    			{ 2, 77248, "", "=q4=Horrific Sash", "=ds=#s10#, #a2#" },
+    			{ 3, 77251, "", "=q4=Horrific Sabatons", "=ds=#s12#, #a3#" },
+    			{ 4, 77250, "", "=q4=Horrific Cinch", "=ds=#s10#, #a4#" },
+    			{ 6, 78012, "", "=q4=Horrific Curl", "=ds=#s13#" },
+    			{ 7, 78011, "", "=q4=Horrific Loop", "=ds=#s13#" },
+				{ 16, 78180, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
+				{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m38#"};
+				{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+    			{ 20, 77221, "", "=q4=Horrific Spirestaff", "=ds=#w9#" },
+    			{ 21, 77220, "", "=q4=Horrific Razor", "=ds=#w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -2852,7 +2893,18 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulUltraxion"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77243, "", "=q4=Horrific Footfalls", "=ds=#s12#, #a2#" },
+    			{ 2, 77242, "", "=q4=Horrific Mantle", "=ds=#s3#, #a3#" },
+    			{ 3, 77247, "", "=q4=Horrific Bracers", "=ds=#s8#, #a3#" },
+    			{ 4, 77244, "", "=q4=Horrific Belt", "=ds=#s10#, #a4#" },
+    			{ 5, 77246, "", "=q4=Horrific Stompers", "=ds=#s12#, #a4#" },
+    			{ 7, 78013, "", "=q4=Horrific Bandsaw", "=ds=#s13#" },
+    			{ 8, 77205, "", "=q4=Horrificish Essence", "=ds=#s14#" },
+    			{ 9, 77245, "", "=q4=Horrific Offhand", "=ds=#s15#" },
+				{ 16, 78184, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
+				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m38#"};
+				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+    			{ 20, 77223, "", "=q4=Horrific Bonecrusher", "=ds=#h1#, #w6#" },
 			};
 		};
 		["Heroic"] = {
@@ -2869,7 +2921,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulBlackhorn"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77234, "", "=q4=Horrific Slippers", "=ds=#s12#, #a1#" },
+    			{ 2, 77240, "", "=q4=Horrific Wristguards", "=ds=#s8#, #a2#" },
+    			{ 3, 77241, "", "=q4=Horrific Belt", "=ds=#s10#, #a3#" },
+    			{ 4, 77239, "", "=q4=Horrific Girdle", "=ds=#s10#, #a4#" },
+    			{ 6, 77202, "", "=q4=Horrific Seed", "=ds=#s14#" },
+				{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
+				{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m38#"};
+				{ 18, 78172, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+    			{ 20, 77224, "", "=q4=Horrific Greatmace", "=ds=#h2#, #w6#" },
+    			{ 21, 77225, "", "=q4=Horrific Heartstaff", "=ds=#w9#" },
+    			{ 22, 77226, "", "=q4=Horrific Shield", "=ds=#w8#" },
 			};
 		};
 		["Heroic"] = {
@@ -2886,12 +2948,25 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulDeathwingSpine"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77238, "", "=q4=Horrific Treads", "=ds=#s12#, #a2#" },
+    			{ 2, 77237, "", "=q4=Horrific Cinch", "=ds=#s10#, #a3#" },
+    			{ 3, 77236, "", "=q4=Horrific Pauldrons", "=ds=#s3#, #a4#" },
+    			{ 4, 77235, "", "=q4=Horrific Woundbinders", "=ds=#s9#, #a4#" },
+    			{ 6, 77227, "", "=q4=Horrific Redoubt", "=ds=#w8#" },
+    			{ 16, 77200, "", "=q4=Horrific Essence the Third", "=ds=#s14#" },
+    			{ 17, 77199, "", "=q4=Horrific Quintessence the Third", "=ds=#s14#" },
+    			{ 18, 77198, "", "=q4=Horrific Rune the Third", "=ds=#s14#" },
+    			{ 19, 77197, "", "=q4=Horrific Seed the Third", "=ds=#s14#" },
+    			{ 20, 77201, "", "=q4=Horrific Stay the Third", "=ds=#s14#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 16, 77997, "", "=q4=Horrific Essence the Third", "=ds=#s14#" },
+    			{ 17, 77996, "", "=q4=Horrific Quintessence the Third", "=ds=#s14#" },
+    			{ 18, 77995, "", "=q4=Horrific Rune the Third", "=ds=#s14#" },
+    			{ 19, 77994, "", "=q4=Horrific Seed the Third", "=ds=#s14#" },
+    			{ 20, 77998, "", "=q4=Horrific Stay the Third", "=ds=#s14#" },
 			};
 		};
 		info = {
@@ -2903,7 +2978,15 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulDeathwingMadness"] = {
 		["Normal"] = {
 			{
-
+    			{ 1, 77195, "", "=q4=Horrific Sacrificial Knife", "=ds=#h3#, #w4#" },
+    			{ 2, 77189, "", "=q4=Horrific Dagger", "=ds=#h1#, #w4#" },
+    			{ 3, 77193, "", "=q4=Horrific Deflecting Sword", "=ds=#h1#, #w10#" },
+    			{ 4, 77191, "", "=q4=Horrific Greatsword", "=ds=#h2#, #w10#" },
+    			{ 5, 77188, "", "=q4=Horrific Axe", "=ds=#h1#, #w1#" },
+    			{ 6, 77196, "", "=q4=Horrific Mace", "=ds=#h1#, #w6#" },
+    			{ 16, 77194, "", "=q4=Horrific Polearm", "=ds=#w7#" },
+    			{ 17, 77190, "", "=q4=Horrific Staff", "=ds=#w9#" },
+    			{ 18, 77192, "", "=q4=Horrific Gun", "=ds=#w5#" },
 			};
 		};
 		["Heroic"] = {
@@ -3216,7 +3299,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 71682, "", "=q4=Helm of the Fiery Protector", "=ds=#e15#, #m38#"};
 				{ 18, 71668, "", "=q4=Helm of the Fiery Vanquisher", "=ds=#e15#, #m38#"};
 				{ 20, 71355, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
-				{ 21, 71352, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
+				{ 21, 71352, "", "=q4=Sulfuras, the Extinguished Hand", "=ds=#h2#, #w6#"};
 				{ 22, 71798, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
 				{ 23, 71353, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
 			};
@@ -3236,7 +3319,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 71684, "", "=q4=Crown of the Fiery Protector", "=ds=#e15#, #m38# - #j4#"};
 				{ 18, 71670, "", "=q4=Crown of the Fiery Vanquisher", "=ds=#e15#, #m38# - #j4#"};
 				{ 20, 71615, "", "=q4=Ko'gun, Hammer of the Firelord", "=ds=#h3#, #w6#"};
-				{ 21, 70723, "", "=q4=Sulfuras, The Extinguished Hand", "=ds=#h2#, #w6#"};
+				{ 21, 70723, "", "=q4=Sulfuras, the Extinguished Hand", "=ds=#h2#, #w6#"};
 				{ 22, 71797, "", "=q4=Sho'ravon, Greatstaff of Annihilation", "=ds=#w9#"};
 				{ 23, 71611, "", "=q4=Arathar, the Eye of Flame", "=ds=#w2#"};
 			};
@@ -6575,24 +6658,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DeathKnightDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Necrotic Boneplate Helmet", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Necrotic Boneplate Pauldrons", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Necrotic Boneplate Breastplate", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Necrotic Boneplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Necrotic Boneplate Greaves", "=ds=#s11#, #a4#"};
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76976, "", "=q4=Necrotic Boneplate Helmet", "=ds=#s1#, #a4#"};
-				{ 10, 76978, "", "=q4=Necrotic Boneplate Pauldrons", "=ds=#s3#, #a4#"};
-				{ 11, 76974, "", "=q4=Necrotic Boneplate Breastplate", "=ds=#s5#, #a4#"};
-				{ 12, 76975, "", "=q4=Necrotic Boneplate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 13, 76977, "", "=q4=Necrotic Boneplate Greaves", "=ds=#s11#, #a4#"};
+				{ 9, 76976, "", "=q4=Necrotic Boneplate Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76978, "", "=q4=Necrotic Boneplate Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76974, "", "=q4=Necrotic Boneplate Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76975, "", "=q4=Necrotic Boneplate Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76977, "", "=q4=Necrotic Boneplate Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t13s9_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Necrotic Boneplate Helmet", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Necrotic Boneplate Pauldrons", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Necrotic Boneplate Breastplate", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Necrotic Boneplate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Necrotic Boneplate Greaves", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Necrotic Boneplate Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Necrotic Boneplate Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Necrotic Boneplate Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Necrotic Boneplate Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Necrotic Boneplate Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6604,24 +6687,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DeathKnightTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#"};
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77010, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#"};
-				{ 10, 77012, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#"};
-				{ 11, 77008, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#"};
-				{ 12, 77009, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#"};
-				{ 13, 77011, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#"};
+				{ 9, 77010, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77012, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77008, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77009, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77011, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t13s9_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Necrotic Boneplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Necrotic Boneplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Necrotic Boneplate Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Necrotic Boneplate Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Necrotic Boneplate Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6633,24 +6716,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Deep Earth Helm", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
 				{ 4, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
 				{ 5, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
 				{ 6, 0, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76750, "", "=q4=Deep Earth Helm", "=ds=#s1#, #a2#"};
-				{ 10, 76753, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
-				{ 11, 76752, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
-				{ 12, 76749, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
-				{ 13, 76751, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#"};
+				{ 9, 76750, "", "=q4=Deep Earth Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76753, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76752, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76749, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76751, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#t13s1_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Deep Earth Helm", "=ds=#s1#, #a2#"};
-				{ 18, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#"};
-				{ 19, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#"};
-				{ 20, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
-				{ 21, 0, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#"};
+				{ 17, 0, "", "=q4=Deep Earth Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Deep Earth Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Deep Earth Robes", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6662,24 +6745,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "ability_racial_bearform", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
 				{ 4, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
 				{ 5, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
 				{ 6, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77015, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
-				{ 10, 77017, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
-				{ 11, 77013, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
-				{ 12, 77014, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
-				{ 13, 77016, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
+				{ 9, 77015, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77017, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77013, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77014, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77016, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "ability_racial_bearform", "=q6=#t13s1_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#"};
-				{ 18, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#"};
-				{ 19, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#"};
-				{ 20, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
-				{ 21, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
+				{ 17, 0, "", "=q4=Deep Earth Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Deep Earth Raiment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6691,24 +6774,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13DruidBalance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_nature_starfall", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
 				{ 4, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
 				{ 5, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
 				{ 6, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77019, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
-				{ 10, 77022, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
-				{ 11, 77021, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
-				{ 12, 77018, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
-				{ 13, 77020, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+				{ 9, 77019, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77022, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77021, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77018, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77020, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_nature_starfall", "=q6=#t13s1_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#"};
-				{ 18, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#"};
-				{ 19, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#"};
-				{ 20, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#"};
-				{ 21, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#"};
+				{ 17, 0, "", "=q4=Deep Earth Cover", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Deep Earth Shoulderwraps", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Deep Earth Vestment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Deep Earth Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Deep Earth Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6720,24 +6803,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Hunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#"};
 				{ 4, 0, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#"};
 				{ 5, 0, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
 				{ 6, 0, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77030, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#"};
-				{ 10, 77032, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 11, 77028, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 12, 77029, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 13, 77031, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 9, 77030, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77032, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77028, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77029, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77031, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t13s2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#"};
-				{ 18, 0, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 19, 0, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 20, 0, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 21, 0, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 17, 0, "", "=q4=Wyrmstalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Wyrmstalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Wyrmstalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Wyrmstalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Wyrmstalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6749,24 +6832,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "inv_staff_13", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Time Lord's Hood", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Time Lord's Mantle", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Time Lord's Robes", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#"};
 				{ 8, 0, "inv_staff_13", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76213, "", "=q4=Time Lord's Hood", "=ds=#s1#, #a1#"};
-				{ 10, 76216, "", "=q4=Time Lord's Mantle", "=ds=#s3#, #a1#"};
-				{ 11, 76215, "", "=q4=Time Lord's Robes", "=ds=#s5#, #a1#"};
-				{ 12, 76212, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#"};
-				{ 13, 76214, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#"};
+				{ 9, 76213, "", "=q4=Time Lord's Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76216, "", "=q4=Time Lord's Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76215, "", "=q4=Time Lord's Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76212, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76214, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "inv_staff_13", "=q6=#t13s3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Time Lord's Hood", "=ds=#s1#, #a1#"};
-				{ 18, 0, "", "=q4=Time Lord's Mantle", "=ds=#s3#, #a1#"};
-				{ 19, 0, "", "=q4=Time Lord's Robes", "=ds=#s5#, #a1#"};
-				{ 20, 0, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#"};
-				{ 21, 0, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#"};
+				{ 17, 0, "", "=q4=Time Lord's Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Time Lord's Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Time Lord's Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Time Lord's Gloves", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Time Lord's Leggings", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6778,24 +6861,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76767, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#"};
-				{ 10, 76769, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#"};
-				{ 11, 76765, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#"};
-				{ 12, 76766, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#"};
-				{ 13, 76768, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#"};
+				{ 9, 76767, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76769, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76765, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76766, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76768, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t13s4_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Headguard of Radiant Glory", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Mantle of Radiant Glory", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Breastplate of Radiant Glory", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Gloves of Radiant Glory", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Greaves of Radiant Glory", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6807,24 +6890,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PaladinProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#"};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77005, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#"};
-				{ 10, 77007, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#"};
-				{ 11, 77003, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#"};
-				{ 12, 77004, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#"};
-				{ 13, 77006, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#"};
+				{ 9, 77005, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77007, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77003, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77004, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77006, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_holy_devotionaura", "=q6=#t13s4_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Faceguard of Radiant Glory", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Shoulderguards of Radiant Glory", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Chestguard of Radiant Glory", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Handguards of Radiant Glory", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Legguards of Radiant Glory", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6836,24 +6919,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76876, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#"};
-				{ 10, 76878, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#"};
-				{ 11, 76874, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#"};
-				{ 12, 76875, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#"};
-				{ 13, 76877, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#"};
+				{ 9, 76876, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76878, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76874, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76875, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76877, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t13s4_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Helmet of Radiant Glory", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Pauldrons of Radiant Glory", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Battleplate of Radiant Glory", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Gauntlets of Radiant Glory", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Legplates of Radiant Glory", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6865,24 +6948,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76347, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
-				{ 10, 76344, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 11, 76345, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 12, 76348, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
-				{ 13, 76346, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
+				{ 9, 76347, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76344, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76345, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76348, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76346, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t13s5_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#"};
-				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 20, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#"};
-				{ 21, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#"};
+				{ 17, 0, "", "=q4=Hood of Dying Light", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Gloves of Dying Light", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Leggings of Dying Light", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6894,24 +6977,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76358, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
-				{ 10, 76361, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 11, 76360, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 12, 76357, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
-				{ 13, 76359, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
+				{ 9, 76358, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76361, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76360, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76357, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76359, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t13s5_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#"};
-				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#"};
-				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#"};
-				{ 20, 0, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#"};
-				{ 21, 0, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#"};
+				{ 17, 0, "", "=q4=Cowl of Dying Light", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Mantle of Dying Light", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Robes of Dying Light", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Handwraps of Dying Light", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Legwraps of Dying Light", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6923,24 +7006,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Rogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Blackfang Battleweave Helmet", "=ds=#s1#, #a2#"};
 				{ 3, 0, "", "=q4=Blackfang Battleweave Spaulders", "=ds=#s3#, #a2#"};
 				{ 4, 0, "", "=q4=Blackfang Battleweave Tunic", "=ds=#s5#, #a2#"};
 				{ 5, 0, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#"};
 				{ 6, 0, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77025, "", "=q4=Blackfang Battleweave Helmet", "=ds=#s1#, #a2#"};
-				{ 10, 77027, "", "=q4=Blackfang Battleweave Spaulders", "=ds=#s3#, #a2#"};
-				{ 11, 77023, "", "=q4=Blackfang Battleweave Tunic", "=ds=#s5#, #a2#"};
-				{ 12, 77024, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#"};
-				{ 13, 77026, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#"};
+				{ 9, 77025, "", "=q4=Blackfang Battleweave Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77027, "", "=q4=Blackfang Battleweave Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77023, "", "=q4=Blackfang Battleweave Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77024, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77026, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t13s6#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Blackfang Battleweave Helmet", "=ds=#s1#, #a2#"};
-				{ 18, 0, "", "=q4=Blackfang Battleweave Spaulders", "=ds=#s3#, #a2#"};
-				{ 19, 0, "", "=q4=Blackfang Battleweave Tunic", "=ds=#s5#, #a2#"};
-				{ 20, 0, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#"};
-				{ 21, 0, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#"};
+				{ 17, 0, "", "=q4=Blackfang Battleweave Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Blackfang Battleweave Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Blackfang Battleweave Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Blackfang Battleweave Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Blackfang Battleweave Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6952,24 +7035,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
 				{ 4, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
 				{ 5, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
 				{ 6, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77037, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
-				{ 10, 77035, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
-				{ 11, 77039, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
-				{ 12, 77038, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 13, 77036, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
+				{ 9, 77037, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77035, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77039, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77038, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77036, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t13s7_3#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#"};
-				{ 18, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#"};
-				{ 19, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#"};
-				{ 20, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#"};
-				{ 21, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#"};
+				{ 17, 0, "", "=q4=Spiritwalker's Headpiece", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Spiritwalker's Shoulderwraps", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Spiritwalker's Hauberk", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Spiritwalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Spiritwalker's Kilt", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -6981,24 +7064,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
 				{ 4, 0, "", "=q4=Spiritwalker's Cuirass", "=ds=#s5#, #a3#"};
 				{ 5, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
 				{ 6, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 77042, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
-				{ 10, 77044, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 11, 77040, "", "=q4=Spiritwalker's Cuirass", "=ds=#s5#, #a3#"};
-				{ 12, 77041, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
-				{ 13, 77043, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 9, 77042, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 77044, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 77040, "", "=q4=Spiritwalker's Cuirass", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 77041, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 77043, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t13s7_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#"};
-				{ 18, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#"};
-				{ 19, 0, "", "=q4=Spiritwalker's Cuirass", "=ds=#s5#, #a3#"};
-				{ 20, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#"};
-				{ 21, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 17, 0, "", "=q4=Spiritwalker's Helmet", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Spiritwalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Spiritwalker's Cuirass", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Spiritwalker's Grips", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Spiritwalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -7010,24 +7093,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
 				{ 3, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
 				{ 4, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
 				{ 5, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
 				{ 6, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76758, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
-				{ 10, 76760, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
-				{ 11, 76756, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 12, 76757, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
-				{ 13, 76759, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
+				{ 9, 76758, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76760, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76756, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76757, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76759, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t13s7_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#"};
-				{ 18, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#"};
-				{ 19, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#"};
-				{ 20, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#"};
-				{ 21, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#"};
+				{ 17, 0, "", "=q4=Spiritwalker's Faceguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Spiritwalker's Mantle", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Spiritwalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Spiritwalker's Handwraps", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Spiritwalker's Legwraps", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -7039,24 +7122,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#"};
 				{ 3, 0, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#"};
 				{ 4, 0, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#"};
 				{ 5, 0, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
 				{ 6, 0, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76342, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#"};
-				{ 10, 76339, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#"};
-				{ 11, 76340, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#"};
-				{ 12, 76343, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
-				{ 13, 76341, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
+				{ 9, 76342, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76339, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76340, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76343, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76341, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t13s8#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#"};
-				{ 18, 0, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#"};
-				{ 19, 0, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#"};
-				{ 20, 0, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#"};
-				{ 21, 0, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#"};
+				{ 17, 0, "", "=q4=Hood of the Faceless Shroud", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Mantle of the Faceless Shroud", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Robes of the Faceless Shroud", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Gloves of the Faceless Shroud", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Leggings of the Faceless Shroud", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -7068,24 +7151,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorFury"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76983, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
-				{ 10, 76987, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
-				{ 11, 76984, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
-				{ 12, 76985, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 13, 76986, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 76983, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76987, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76984, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76985, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76986, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s10_1#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Colossal Dragonplate Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Colossal Dragonplate Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Colossal Dragonplate Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Colossal Dragonplate Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Colossal Dragonplate Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -7097,24 +7180,24 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["T13WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - Looking for Raid"};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - "..AL["Raid Finder"]};
 				{ 2, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
 				{ 3, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
 				{ 4, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
 				{ 5, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
 				{ 6, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - "..AL["Normal"]};
-				{ 9, 76990, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
-				{ 10, 76992, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
-				{ 11, 76988, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#"};
-				{ 12, 76989, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
-				{ 13, 76991, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
+				{ 9, 76990, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 10, 76992, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 11, 76988, "", "=q4=Colossal Dragonplate Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 12, 76989, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 13, 76991, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t13s10_2#", "=q5="..AL["Tier 13"].." - "..AL["Heroic"]};
-				{ 17, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#"};
-				{ 18, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#"};
-				{ 19, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#"};
-				{ 20, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#"};
-				{ 21, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#"};
+				{ 17, 0, "", "=q4=Colossal Dragonplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Warmaster Blackhorn", 332)};
+				{ 18, 0, "", "=q4=Colossal Dragonplate Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Hagara the Stormbinder", 317)};
+				{ 19, 0, "", "=q4=Colossal Dragonplate Chestguards", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Ultraxion", 331)};
+				{ 20, 0, "", "=q4=Colossal Dragonplate Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Warlord Zon'ozz", 324)};
+				{ 21, 0, "", "=q4=Colossal Dragonplate Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Yor'sahj the Unsleeping", 325)};
 			};
 		};
 		info = {
@@ -7131,8 +7214,8 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#", "" };
-				{ 2, 71084, "", "=q4=Branch of Nordrassil", "=ds=#w9#", "" };
-				{ 3, 71085, "", "=q4=Runestaff of Nordrassil", "=ds=#w9#", "" };
+				{ 2, 71085, "", "=q4=Runestaff of Nordrassil", "=ds=#w9#", "" };
+				{ 3, 71084, "", "=q4=Branch of Nordrassil", "=ds=#w9#", "" };
 				{ 5, 49623, "", "=q5=Shadowmourne", "=ds=#h2#, #w1#", "" };
 				{ 6, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3#, #w6#", "" };
 				{ 8, 34334, "", "=q5=Thori'dal, the Stars' Fury", "=ds=#w2#"};
@@ -7450,8 +7533,8 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{
-					{ 1, 45022, "=q3=Argent Gruntling", "=ds="..AL["Argent Tournament"]};
-					{ 1, 44998, "=q3=Argent Squire", "=ds="..AL["Argent Tournament"]};
+					{ 1, 45022, "", "=q3=Argent Gruntling", "=ds="..AL["Argent Tournament"]};
+					{ 1, 44998, "", "=q3=Argent Squire", "=ds="..AL["Argent Tournament"]};
 				};
 				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
 				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};

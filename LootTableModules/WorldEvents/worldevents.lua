@@ -228,9 +228,9 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 			{
 			    { 1, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
-				{ 2, 37892, "", "=q3=Green Brewfest Stein", "=ec1=2009,2010 =q1=#m4#: =ds=#h1#"};
-				{ 3, 33016, "", "=q3=Blue Brewfest Stein", "=ec1=2008 =q1=#m4#: =ds=#h1#"};
-				{ 4, 32912, "", "=q3=Yellow Brewfest Stein", "=ec1=2007 =q1=#m4#: =ds=#h1#"};
+				{ 2, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
+				{ 3, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
+				{ 4, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
 				{ 5, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
 				{ 7, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
 				{ 16, 33929, "", "=q1=Brewfest Brew", "=ds=#e4#"};
