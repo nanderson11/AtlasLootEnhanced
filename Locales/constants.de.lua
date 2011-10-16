@@ -595,6 +595,7 @@ if AL then
 	AL["Accessories"] = "Zubehör";
 	AL["Rare"] = "Selten";
 	AL["Specializations"] = "Spezialisierungen";
+	AL["Raid Finder"] = "Schlachtzugsbrowser";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";

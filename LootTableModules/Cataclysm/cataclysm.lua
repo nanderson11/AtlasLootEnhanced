@@ -2794,7 +2794,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 8, 77270, "", "=q4=Horrific Bracers", "=ds=#s8#, #a4#" },
     			{ 9, 77265, "", "=q4=Horrific Boots", "=ds=#s12#, #a4#" },
     			{ 16, 77262, "", "=q4=Horrific Pendant", "=ds=#s2#" },
-    			{ 18, 77214, "", "=q4=Horrific Gavel", "=ds=#h1#, #w6#" },
+    			{ 18, 77214, "", "=q4=Horrific Gavel", "=ds=#h3#, #w6#" },
     			{ 19, 77212, "", "=q4=Horrific Cleaver", "=ds=#h1#, #w1#" },
 			};
 		};
@@ -2818,9 +2818,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 4, 77258, "", "=q4=Horrific Wristplates", "=ds=#s8#, #a4#" },
     			{ 5, 77259, "", "=q4=Horrific Warboots", "=ds=#s12#, #a4#" },
     			{ 7, 77204, "", "=q4=Horrific Quintessence", "=ds=#s14#" },
-				{ 16, 78183, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
-				{ 17, 78178, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m38#"};
-				{ 18, 78173, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+				{ 16, 78183, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+				{ 17, 78178, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
+				{ 18, 78173, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77215, "", "=q4=Horrific Arbalest", "=ds=#w3#" },
     			{ 21, 77216, "", "=q4=Horrific Stinger", "=ds=#w12#" },
 			};
@@ -2844,12 +2844,12 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 77253, "", "=q4=Horrific Bracers", "=ds=#s8#, #a4#" },
     			{ 5, 77203, "", "=q4=Horrific Rune", "=ds=#s14#" },
     			{ 6, 77206, "", "=q4=Horrific Stay", "=ds=#s14#" },
-				{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
-				{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m38#"};
-				{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+				{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+				{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
+				{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77217, "", "=q4=Horrific Greataxe", "=ds=#h2#, #w1#" },
     			{ 21, 77218, "", "=q4=Horrific Scythe", "=ds=#w9#" },
-    			{ 22, 77219, "", "=q4=Horrific Scalpel", "=ds=#w4#" },
+    			{ 22, 77219, "", "=q4=Horrific Scalpel", "=ds=#h3#, #w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -2872,11 +2872,11 @@ local moduleName = "AtlasLootCataclysm"
     			{ 4, 77250, "", "=q4=Horrific Cinch", "=ds=#s10#, #a4#" },
     			{ 6, 78012, "", "=q4=Horrific Curl", "=ds=#s13#" },
     			{ 7, 78011, "", "=q4=Horrific Loop", "=ds=#s13#" },
-				{ 16, 78180, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
-				{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m38#"};
-				{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+				{ 16, 78180, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+				{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
+				{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77221, "", "=q4=Horrific Spirestaff", "=ds=#w9#" },
-    			{ 21, 77220, "", "=q4=Horrific Razor", "=ds=#w4#" },
+    			{ 21, 77220, "", "=q4=Horrific Razor", "=ds=#h1#, =ds=#w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -2901,9 +2901,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 7, 78013, "", "=q4=Horrific Bandsaw", "=ds=#s13#" },
     			{ 8, 77205, "", "=q4=Horrificish Essence", "=ds=#s14#" },
     			{ 9, 77245, "", "=q4=Horrific Offhand", "=ds=#s15#" },
-				{ 16, 78184, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
-				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m38#"};
-				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+				{ 16, 78184, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
+				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77223, "", "=q4=Horrific Bonecrusher", "=ds=#h1#, #w6#" },
 			};
 		};
@@ -2926,9 +2926,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 77241, "", "=q4=Horrific Belt", "=ds=#s10#, #a3#" },
     			{ 4, 77239, "", "=q4=Horrific Girdle", "=ds=#s10#, #a4#" },
     			{ 6, 77202, "", "=q4=Horrific Seed", "=ds=#s14#" },
-				{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m38#"};
-				{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m38#"};
-				{ 18, 78172, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m38#"};
+				{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+				{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
+				{ 18, 78172, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77224, "", "=q4=Horrific Greatmace", "=ds=#h2#, #w6#" },
     			{ 21, 77225, "", "=q4=Horrific Heartstaff", "=ds=#w9#" },
     			{ 22, 77226, "", "=q4=Horrific Shield", "=ds=#w8#" },
@@ -2983,7 +2983,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 77193, "", "=q4=Horrific Deflecting Sword", "=ds=#h1#, #w10#" },
     			{ 4, 77191, "", "=q4=Horrific Greatsword", "=ds=#h2#, #w10#" },
     			{ 5, 77188, "", "=q4=Horrific Axe", "=ds=#h1#, #w1#" },
-    			{ 6, 77196, "", "=q4=Horrific Mace", "=ds=#h1#, #w6#" },
+    			{ 6, 77196, "", "=q4=Horrific Mace", "=ds=#h3#, #w6#" },
     			{ 16, 77194, "", "=q4=Horrific Polearm", "=ds=#w7#" },
     			{ 17, 77190, "", "=q4=Horrific Staff", "=ds=#w9#" },
     			{ 18, 77192, "", "=q4=Horrific Gun", "=ds=#w5#" },
