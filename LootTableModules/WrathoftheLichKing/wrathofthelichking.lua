@@ -263,8 +263,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#", "", "20%"};
 				{ 23, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#", "", "20%"};
 				{ 24, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "20%"};
-				{ 25, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "9%"};
-				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 25, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -334,8 +333,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 23, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#", "", "20%"};
 				{ 24, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "19%"};
 				{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "21%"};
-				{ 26, 41796, "", "=q3=Design: Glinting Twilight Opal", "=ds=#p12# (390)", "", "12%"};
-				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {
@@ -950,8 +948,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 23, 37658, "", "=q3=Sun-Emblazoned Chestplate", "=ds=#s5#, #a4#", "", "19%"};
 				{ 24, 37657, "", "=q3=Spark of Life", "=ds=#s14#", "", "19%"};
 				{ 25, 37660, "", "=q3=Forge Ember", "=ds=#s14#", "", "18%"};
-				{ 26, 41792, "", "=q3=Design: Deft Monarch Topaz", "=ds=#p12# (390)", "", "15%"};
-				{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+				{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 			};
 		};
 		info = {

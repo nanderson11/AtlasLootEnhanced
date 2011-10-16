@@ -25,6 +25,7 @@ local CURRENCY_PRICE = {
 	["VALOR"] = 396,		-- Valor Points
 	["CHEFAWARD"] = 402,	-- Chef's Award
 	["WORLDTREE"] = 416,	-- Mark of the World Tree
+	["CATAJW"] = 361,	-- Illustrious Jewelcrafter's Token
 	
 	-- Custom currencys
 	["MIDSUMMER"] = { itemID = 23247 },

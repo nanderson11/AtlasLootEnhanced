@@ -366,7 +366,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 72859, "", "=q4=Dawnslayer Helm", "=ds=#s1#, #a3#" },
     			{ 4, 72856, "", "=q4=Pauldrons of Midnight Whispers", "=ds=#s3#, #a3#" },
     			{ 16, 72855, "", "=q4=Corrupted Carapace", "=ds=#w8#" },
-   				{ 17, 72860, "", "=q4=Mandible of the Old Ones", "=ds=#w4#" },
+   			{ 17, 72860, "", "=q4=Mandible of the Old Ones", "=ds=#h4#, #w4#" },
 			};
 		};
 		info = {
