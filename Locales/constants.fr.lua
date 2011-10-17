@@ -595,6 +595,7 @@ if AL then
 	AL["Accessories"] = "Accessoires";
 	--AL["Rare"] = true;
 	AL["Specializations"] = "Spécialisations";
+	AL["Raid Finder"] = "Recherche de raid";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Niveau 30-39";
@@ -603,6 +604,7 @@ if AL then
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
+	AL["Food and Drinks"] = "Nourriture et boissons";
 
 	-- Profession descriptions
 	--AL["Buff"] = true;
