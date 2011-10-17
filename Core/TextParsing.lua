@@ -791,7 +791,7 @@ AtlasLoot_TextParsing = {
 function AtlasLoot:FixText(text)
 	if not text or text == "" then return "" end
 	for k in ipairs(AtlasLoot_TextParsing) do
-		text = gsub(text, AtlasLoot_TextParsing[k][1], AtlasLoot_TextParsing[k][2]);
+		text = gsub(text, AtlasLoot_TextParsing[k][1], tostring(AtlasLoot_TextParsing[k][2]));
 	end
 
     englishFaction = UnitFactionGroup("player")
