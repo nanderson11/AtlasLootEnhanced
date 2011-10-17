@@ -604,6 +604,7 @@ if AL then
 	AL["Summon"] = "Beschwörbar";
 	AL["Random"] = "Zufällig";
 	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
+	AL["Food and Drinks"] = "Speisen und Getränke";
 
 	-- Profession descriptions
 	-- AL["Buff"] = true;
