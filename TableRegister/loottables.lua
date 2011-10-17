@@ -1540,15 +1540,6 @@ AtlasLoot_LootTableRegister = {
 
 	["WorldEvents"] = {
 
-		["Brewfest"] = {
-			["Bosses"] = {
-				{ "Brewfest" },
-				{ "BrewoftheMonthClub" },
-				{ "CorenDirebrew" },
-			},
-			["Info"] = { AL["Brewfest"], "AtlasLootWorldEvents"},
-		},
-
 		["Halloween"] = {
 			["Bosses"] = {
 				{ "Halloween" },

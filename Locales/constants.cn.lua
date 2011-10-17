@@ -1025,11 +1025,6 @@ if AL then
 	AL["Templars"] = "圣殿骑士";
 	AL["Dukes"] = "公爵";
 	AL["High Council"] = "议会高层";
-	AL["Barleybrew Brewery"] = "麦酒佳酿";
-	AL["Thunderbrew Brewery"] = "雷酒佳酿";
-	AL["Gordok Brewery"] = "戈多克佳酿";
-	AL["Drohn's Distillery"] = "德罗恩的佳酿";
-	AL["T'chali's Voodoo Brewery"] = "塔卡里的佳酿";
 	AL["Scarshield Quartermaster"] = "裂盾军需官";
 	AL["Father Flame"] = "烈焰之父";
 	AL["Thomas Yance"] = "托马斯·杨斯";

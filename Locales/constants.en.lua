@@ -604,6 +604,7 @@ if AL then
 	AL["Summon"] = true;
 	AL["Random"] = true;
 	AL["Brew of the Month Club"] = true;
+	AL["Food and Drinks"] = true;
 
 	-- Profession descriptions
 	AL["Buff"] = true;
@@ -1026,11 +1027,6 @@ if AL then
 	AL["Templars"] = true;
 	AL["Dukes"] = true;
 	AL["High Council"] = true;
-	AL["Barleybrew Brewery"] = true;
-	AL["Thunderbrew Brewery"] = true;
-	AL["Gordok Brewery"] = true;
-	AL["Drohn's Distillery"] = true;
-	AL["T'chali's Voodoo Brewery"] = true;
 	AL["Scarshield Quartermaster"] = true;
 	AL["Father Flame"] = true;
 	AL["Thomas Yance"] = true;

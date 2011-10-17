@@ -890,11 +890,6 @@ if AL then
 	AL["Templars"] = true;
 	AL["Dukes"] = true;
 	AL["High Council"] = true;
-	AL["Barleybrew Brewery"] = true;
-	AL["Thunderbrew Brewery"] = true;
-	AL["Gordok Brewery"] = true;
-	AL["Drohn's Distillery"] = true;
-	AL["T'chali's Voodoo Brewery"] = true;
 	AL["Scarshield Quartermaster"] = true;
 	AL["Father Flame"] = true;
 	AL["Thomas Yance"] = true;

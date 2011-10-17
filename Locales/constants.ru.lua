@@ -949,11 +949,6 @@ if AL then
 	AL["Templars"] = "Храмовники";
 	AL["Dukes"] = "Герцоги";
 	AL["High Council"] = "Верховный советник";
-	AL["Barleybrew Brewery"] = "Ячменевское Тчали";
-	AL["Thunderbrew Brewery"] = "Грозовар Тчали";
-	AL["Gordok Brewery"] = "Гордок Тчали";
-	AL["Drohn's Distillery"] = "Винокурня Дрона";
-	AL["T'chali's Voodoo Brewery"] = "Пивоваренного завода Тчали Вуду";
 	AL["Scarshield Quartermaster"] = "Интендант из легиона Изрубленного Щита";
 	AL["Father Flame"] = "Огонь отцов";
 	AL["Thomas Yance"] = "Томас Янс";

@@ -205,94 +205,53 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Brewfest"] = {
 		["Normal"] = {
 			{
-				{ 1, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
-				{ 2, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
-				{ 3, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
-				{ 4, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
-				{ 5, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
-				{ 6, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
-				{ 7, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#", "#BREWFEST:200#"};
-				{ 8, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#", "#BREWFEST:200#"};
-				{ 9, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#", "#BREWFEST:100#"};
-				{ 10, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#", "#BREWFEST:100#"};
-				{ 16, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "#BREWFEST:100#"};
-				{ 17, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
-				{ 18, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
-				{ 19, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#", "#BREWFEST:200#"};
-				{ 21, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "#BREWFEST:20#"};
-				{ 22, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#", "#BREWFEST:2#"};
-				{
-					{ 23, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#", "#BREWFEST:5#"};
-					{ 23, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#", "#BREWFEST:5#"};
-				};
+				{ 1, 33030, "", "=q1=Barleybrew Clear", "=ds=#e4#"};
+				{ 2, 33028, "", "=q1=Barleybrew Light", "=ds=#e4#"};
+				{ 3, 33029, "", "=q1=Barleybrew Dark", "=ds=#e4#"};
+				{ 5, 33031, "", "=q1=Thunder 45", "=ds=#e4#"};
+				{ 6, 33032, "", "=q1=Thunderbrew Ale", "=ds=#e4#"};
+				{ 7, 33033, "", "=q1=Thunderbrew Stout", "=ds=#e4#"};
+				{ 9, 33034, "", "=q1=Gordok Grog", "=ds=#e4#"};
+				{ 10, 33036, "", "=q1=Mudder's Milk", "=ds=#e4#"};
+				{ 11, 33035, "", "=q1=Ogre Mead", "=ds=#e4#"};
+				{ 13, 34017, "", "=q1=Small Step Brew", "=ds=#e4#"};
+				{ 14, 34018, "", "=q1=Long Stride Brew", "=ds=#e4#"};
+				{ 15, 34019, "", "=q1=Path of Brew", "=ds=#e4#"};
+				{ 16, 34020, "", "=q1=Jungle River Water", "=ds=#e4#"};
+				{ 17, 34021, "", "=q1=Brewdoo Magic", "=ds=#e4#"};
+				{ 18, 34022, "", "=q1=Stout Shrunken Head", "=ds=#e4#"};
+				{ 20, 33929, "", "=q1=Brewfest Brew", "=ds=#e4#"};
+				{ 22, 34063, "", "=q1=Dried Sausage", "=ds=#e3#"};
+				{ 23, 33024, "", "=q1=Pickled Sausage", "=ds=#e3#"};
+				{ 24, 38428, "", "=q1=Rock-Salted Pretzel", "=ds=#e3#"};
+				{ 25, 33023, "", "=q1=Savory Sausage", "=ds=#e3#"};
+				{ 26, 34065, "", "=q1=Spiced Onion Cheese", "=ds=#e3#"};
+				{ 27, 33025, "", "=q1=Spicy Smoked Sausage", "=ds=#e3#"};
+				{ 28, 34064, "", "=q1=Succulent Sausage", "=ds=#e3#"};
+				{ 29, 33043, "", "=q1=The Essential Brewfest Pretzel", "=ds=#e3#"};
+				{ 30, 33026, "", "=q1=The Golden Link", "=ds=#e3#"};
+				extraText = ": "..AL["Food and Drinks"];
 			};
 			{
-			    { 1, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
-				{ 2, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
-				{ 3, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
-				{ 4, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
-				{ 5, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
-				{ 7, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
-				{ 16, 33929, "", "=q1=Brewfest Brew", "=ds=#e4#"};
-				{ 17, 34063, "", "=q1=Dried Sausage", "=ds=#e3#"};
-				{ 18, 33024, "", "=q1=Pickled Sausage", "=ds=#e3#"};
-				{ 19, 38428, "", "=q1=Rock-Salted Pretzel", "=ds=#e3#"};
-				{ 20, 33023, "", "=q1=Savory Sausage", "=ds=#e3#"};
-				{ 21, 34065, "", "=q1=Spiced Onion Cheese", "=ds=#e3#"};
-				{ 22, 33025, "", "=q1=Spicy Smoked Sausage", "=ds=#e3#"};
-				{ 23, 34064, "", "=q1=Succulent Sausage", "=ds=#e3#"};
-				{ 24, 33043, "", "=q1=The Essential Brewfest Pretzel", "=ds=#e3#"};
-				{ 25, 33026, "", "=q1=The Golden Link", "=ds=#e3#"};
-			};
-			{
-				{ 1, 0, "INV_Cask_04", "=q6="..AL["Barleybrew Brewery"], ""};
-				{ 2, 33030, "", "=q1=Barleybrew Clear", "=ds=#e4#"};
-				{ 3, 33028, "", "=q1=Barleybrew Light", "=ds=#e4#"};
-				{ 4, 33029, "", "=q1=Barleybrew Dark", "=ds=#e4#"};
-				{ 6, 0, "INV_Cask_04", "=q6="..AL["Thunderbrew Brewery"], ""};
-				{ 7, 33031, "", "=q1=Thunder 45", "=ds=#e4#"};
-				{ 8, 33032, "", "=q1=Thunderbrew Ale", "=ds=#e4#"};
-				{ 9, 33033, "", "=q1=Thunderbrew Stout", "=ds=#e4#"};
-				{ 11, 0, "INV_Cask_04", "=q6="..AL["Gordok Brewery"], ""};
-				{ 12, 33034, "", "=q1=Gordok Grog", "=ds=#e4#"};
-				{ 13, 33036, "", "=q1=Mudder's Milk", "=ds=#e4#"};
-				{ 14, 33035, "", "=q1=Ogre Mead", "=ds=#e4#"};
-				{ 16, 0, "INV_Cask_04", "=q6="..AL["Drohn's Distillery"], ""};
-				{ 17, 34017, "", "=q1=Small Step Brew", "=ds=#e4#"};
-				{ 18, 34018, "", "=q1=Long Stride Brew", "=ds=#e4#"};
-				{ 19, 34019, "", "=q1=Path of Brew", "=ds=#e4#"};
-				{ 21, 0, "INV_Cask_04", "=q6="..AL["T'chali's Voodoo Brewery"], ""};
-				{ 22, 34020, "", "=q1=Jungle River Water", "=ds=#e4#"};
-				{ 23, 34021, "", "=q1=Brewdoo Magic", "=ds=#e4#"};
-				{ 24, 34022, "", "=q1=Stout Shrunken Head", "=ds=#e4#"};
+				{ 1, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#", "#BREWFEST:200#"};
+				{ 3, 37488, "", "=q1=Wild Winter Pilsner", "=ds=#month1#"};
+				{ 4, 37489, "", "=q1=Izzard's Ever Flavor", "=ds=#month2#"};
+				{ 5, 37490, "", "=q1=Aromatic Honey Brew", "=ds=#month3#"};
+				{ 6, 37491, "", "=q1=Metok's Bubble Bock", "=ds=#month4#"};
+				{ 7, 37492, "", "=q1=Springtime Stout", "=ds=#month5#"};
+				{ 8, 37493, "", "=q1=Blackrock Lager", "=ds=#month6#"};
+				{ 18, 37494, "", "=q1=Stranglethorn Brew", "=ds=#month7#"};
+				{ 19, 37495, "", "=q1=Draenic Pale Ale", "=ds=#month8#"};
+				{ 20, 37496, "", "=q1=Binary Brew", "=ds=#month9#"};
+				{ 21, 37497, "", "=q1=Autumnal Acorn Ale", "=ds=#month10#"};
+				{ 22, 37498, "", "=q1=Bartlett's Bitter Brew", "=ds=#month11#"};
+				{ 23, 37499, "", "=q1=Lord of Frost's Private Label", "=ds=#month12#"};
+				extraText = ": "..AL["Brew of the Month Club"];
 			};
 		};
 		info = {
 			name = AL["Brewfest"],
-			module = moduleName, menu = "WORLDEVENTMENU", instance = "Brewfest",
-		};
-	};
-
-	AtlasLoot_Data["BrewoftheMonthClub"] = {
-		["Normal"] = {
-			{
-				{ 1, 37488, "", "=q1=Wild Winter Pilsner", "=ds=#month1#"};
-				{ 2, 37489, "", "=q1=Izzard's Ever Flavor", "=ds=#month2#"};
-				{ 3, 37490, "", "=q1=Aromatic Honey Brew", "=ds=#month3#"};
-				{ 4, 37491, "", "=q1=Metok's Bubble Bock", "=ds=#month4#"};
-				{ 5, 37492, "", "=q1=Springtime Stout", "=ds=#month5#"};
-				{ 6, 37493, "", "=q1=Blackrock Lager", "=ds=#month6#"};
-				{ 16, 37494, "", "=q1=Stranglethorn Brew", "=ds=#month7#"};
-				{ 17, 37495, "", "=q1=Draenic Pale Ale", "=ds=#month8#"};
-				{ 18, 37496, "", "=q1=Binary Brew", "=ds=#month9#"};
-				{ 19, 37497, "", "=q1=Autumnal Acorn Ale", "=ds=#month10#"};
-				{ 20, 37498, "", "=q1=Bartlett's Bitter Brew", "=ds=#month11#"};
-				{ 21, 37499, "", "=q1=Lord of Frost's Private Label", "=ds=#month12#"};
-			};
-		};
-		info = {
-			name = AL["Brew of the Month Club"],
-			module = moduleName, menu = "WORLDEVENTMENU", instance = "Brewfest",
+			module = moduleName, menu = "BREWFESTMENU",
 		};
 	};
 
@@ -316,7 +275,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 		};
 		info = {
 			name = BabbleBoss["Coren Direbrew"],
-			module = moduleName, menu = "WORLDEVENTMENU", instance = "Brewfest",
+			module = moduleName, menu = "BREWFESTMENU",
 		};
 	};
 

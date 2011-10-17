@@ -1026,12 +1026,6 @@ if AL then
 	AL["Templars"] = "Templer";
 	AL["Dukes"] = "Fürsten";
 	-- AL["High Council"] = true;
-	AL["Barleybrew Brewery"] = "Gerstenbräu";
-	AL["Thunderbrew Brewery"] = "Donnerbräu";
-	AL["Gordok Brewery"] = "Gordokbrauerei";
-	AL["Drohn's Distillery"] = "Brauerei Drohn";
-	AL["T'chali's Voodoo Brewery"] = "T'chalis Voodoobrauerei";
-	AL["Scarshield Quartermaster"] = "Rüstmeister der Schmetterschilde";
 	AL["Father Flame"] = "Vater Flamme";
 	AL["Thomas Yance"] = "Thomas Yance";
 	AL["Knot Thimblejack"] = "Knot Zwingschraub";

@@ -9,7 +9,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 1, "ARGENTMENU", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], "=q5="..BabbleZone["Icecrown"]};
-				{ 3, "Brewfest", "achievement_worldevent_brewmaster", "=ds="..AL["Brewfest"], "=q5="..AL["Various Locations"]};
+				{ 3, "BREWFESTMENU", "achievement_worldevent_brewmaster", "=ds="..AL["Brewfest"], "=q5="..AL["Various Locations"]};
 				{ 4, "DayoftheDead", "inv_misc_bone_humanskull_02", "=ds="..AL["Day of the Dead"], "=q5="..AL["Various Locations"]};
 				{ 5, "Halloween", "achievement_halloween_witch_01", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
 				{ 6, "Valentineday", "achievement_worldevent_valentine", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};
@@ -87,6 +87,47 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Argent Tournament"],
+			menu = "WORLDEVENTMENU",
+		};
+	}
+
+	AtlasLoot_Data["BREWFESTMENU"] = {
+		["Normal"] = {
+			{
+				{ 1, "Brewfest", "inv_holiday_beerfestpretzel01", "=ds="..AL["Food and Drinks"], ""};
+				{ 2, "Brewfest#2", "inv_holiday_brewfestbuff_01", "=ds="..AL["Brew of the Month Club"], ""};
+				{ 16, "CorenDirebrew", "inv_misc_head_dwarf_01", "=ds="..BabbleBoss["Coren Direbrew"], ""};
+			    { 4, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
+				{ 5, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
+				{ 6, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
+				{ 7, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
+				{ 8, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
+				{ 9, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
+				{ 11, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "#BREWFEST:100#"};
+				{ 12, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
+				{ 13, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
+				{ 14, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "#BREWFEST:20#"};
+				{
+					{ 19, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
+					{ 19, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
+				};
+				{ 20, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 21, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 22, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 23, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 24, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#", "#BREWFEST:200#"};
+				{ 25, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#", "#BREWFEST:200#"};
+				{ 26, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#", "#BREWFEST:100#"};
+				{ 27, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#", "#BREWFEST:100#"};
+				{ 29, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#", "#BREWFEST:2#"};
+				{
+					{ 30, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ec1=#m6# =ds=#m20#", "#BREWFEST:5#"};
+					{ 30, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ec1=#m7# =ds=#m20#", "#BREWFEST:5#"};
+				};
+			};
+		};
+		info = {
+			name = AL["Brewfest"],
 			menu = "WORLDEVENTMENU",
 		};
 	}

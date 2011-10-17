@@ -889,11 +889,6 @@ if AL then
 	AL["Templars"] = "Templarios";
 	AL["Dukes"] = "Duques";
 	AL["High Council"] = "Consejero mayor";
-	AL["Barleybrew Brewery"] = "Cervecería Cebadiz"; --Comprobar
-	AL["Thunderbrew Brewery"] = "Cervecería Cebatruenos"; --Comprobar
-	AL["Gordok Brewery"] = "Cervecería Gordok"; --Comprobar
-	AL["Drohn's Distillery"] = "Destilería de Drohn";
-	AL["T'chali's Voodoo Brewery"] = "Cervecería Voodoo de T'chali";
 	AL["Scarshield Quartermaster"] = "Intendente del Escudo del Estigma";
 	AL["Father Flame"] = "Padre llama";
 	--AL["Thomas Yance"] = true,
