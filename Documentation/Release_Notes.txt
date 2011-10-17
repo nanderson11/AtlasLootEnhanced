@@ -5,7 +5,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.00_BETA-14849 (Oct 16, 2011)
+v6.05.00_BETA2-14849 (Oct 17, 2011)
 Added extra menu to access 4.3 stuff (Beta-only)
 Compatible with Patch 4.3.
 Added support for Atlas 1.21.0.

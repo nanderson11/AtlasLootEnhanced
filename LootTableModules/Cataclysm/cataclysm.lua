@@ -2876,7 +2876,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77221, "", "=q4=Horrific Spirestaff", "=ds=#w9#" },
-    			{ 21, 77220, "", "=q4=Horrific Razor", "=ds=#h1#, =ds=#w4#" },
+    			{ 21, 77220, "", "=q4=Horrific Razor", "=ds=#h1#, #w4#" },
 			};
 		};
 		["Heroic"] = {
