@@ -812,7 +812,7 @@ if AL then
 	AL["War of the Elements"] = "Krieg der Elemente";
 
 	-- Fifteenth set
-	AL["Twilight of the Dragons"] = "Zwielicht der Drachen";
+	AL["Twilight of the Dragons"] = "Drachendämmerung";
 
 	-- Seventeenth set
 	AL["Crown of Heaven"] = "Krone des Himmels";
@@ -1019,6 +1019,7 @@ if AL then
 	AL["Templars"] = "Templer";
 	AL["Dukes"] = "Fürsten";
 	-- AL["High Council"] = true;
+	AL["Scarshield Quartermaster"] = "Rüstmeister der Schmetterschilde";
 	AL["Father Flame"] = "Vater Flamme";
 	AL["Thomas Yance"] = "Thomas Yance";
 	AL["Knot Thimblejack"] = "Knot Zwingschraub";
@@ -1107,6 +1108,9 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "Reife eklige Flasche";
 	AL["Cracked Egg"] = "Zerbrochene Eierschale";
 	AL["Small Spice Bag"] = "Kleines Gewürzsäckchen";
+	AL["Handful of Treats"] = "Eine Handvoll Süßigkeiten";
+	AL["Consumable Wands & Masks"] = "Verbrauchbare Stäbe & Masken";
+	AL["Permanent Masks"] = "Dauerhafte Masken";
 	AL["Lovely Dress Box"] = "Karton 'Reizendes Kleid'";
 	AL["Dinner Suit Box"] = "Karton 'Abendanzug'";
 	AL["Bag of Heart Candies"] = "Tüte mit Zuckerherzen";
