@@ -553,14 +553,6 @@ if AL then
 	AL["10/25 Man"] = "10/25 人";
 	AL["Epic Set"] = "PvP 史詩套裝";
 	AL["Rare Set"] = "PvP 稀有套裝";
-	AL["Season 1"] = "第一季";
-	AL["Season 2"] = "第二季";
-	AL["Season 3"] = "第三季";
-	AL["Season 4"] = "第四季";
-	AL["Season 5"] = "第五季";
-	AL["Season 6"] = "第六季";
-	AL["Season 7"] = "第七季";
-	AL["Season 8"] = "第八季";
 	AL["Season 9"] = "第九季";
 	AL["Season 10"] = "第十季";
 	AL["Season 11"] = "第十一季";
@@ -1114,7 +1106,6 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "熟成的噁心罐子";
 	AL["Cracked Egg"] = "破損的蛋";
 	AL["Small Spice Bag"] = "小香料包";
-	AL["Handful of Candy"] = "一把糖果";
 	AL["Lovely Dress Box"] = "可愛的裙裝盒";
 	AL["Dinner Suit Box"] = "晚宴套裝盒";
 	AL["Bag of Heart Candies"] = "心願糖果袋";

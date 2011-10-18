@@ -553,14 +553,6 @@ if AL then
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;
 	AL["Rare Set"] = true;
-	AL["Season 1"] = true;
-	AL["Season 2"] = true;
-	AL["Season 3"] = true;
-	AL["Season 4"] = true;
-	AL["Season 5"] = true;
-	AL["Season 6"] = true;
-	AL["Season 7"] = true;
-	AL["Season 8"] = true;
 	AL["Season 9"] = true;
 	AL["Season 10"] = true;
 	AL["Season 11"] = true;
@@ -1116,7 +1108,9 @@ if AL then
 	AL["Ripe Disgusting Jar"] = true;
 	AL["Cracked Egg"] = true;
 	AL["Small Spice Bag"] = true;
-	AL["Handful of Candy"] = true;
+	AL["Handful of Treats"] = true;
+	AL["Consumable Wands & Masks"] = true;
+	AL["Permanent Masks"] = true;
 	AL["Lovely Dress Box"] = true;
 	AL["Dinner Suit Box"] = true;
 	AL["Bag of Heart Candies"] = true;

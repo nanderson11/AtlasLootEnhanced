@@ -1540,14 +1540,6 @@ AtlasLoot_LootTableRegister = {
 
 	["WorldEvents"] = {
 
-		["Halloween"] = {
-			["Bosses"] = {
-				{ "Halloween" },
-				{ "HeadlessHorseman" },
-			},
-			["Info"] = { AL["Hallow's End"], "AtlasLootWorldEvents"},
-		},
-
 		["MidsummerFestival"] = {
 			["Bosses"] = {
 				{ "MidsummerFestival" },

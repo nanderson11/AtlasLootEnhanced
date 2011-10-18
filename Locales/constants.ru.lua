@@ -490,15 +490,9 @@ if AL then
 	AL["10/25 Man"] = "10/25 Чел";
 	AL["Epic Set"] = "Превосходные комплекты";
 	AL["Rare Set"] = "Редкие комплекты";
-	AL["Season 1"] = "Сезон 1";
-	AL["Season 2"] = "Сезон 2";
-	AL["Season 3"] = "Сезон 3";
-	AL["Season 4"] = "Сезон 4";
-	AL["Season 5"] = "Сезон 5";
-	AL["Season 6"] = "Сезон 6";
-	AL["Season 7"] = "Сезон 7";
-	AL["Season 8"] = "Сезон 8";
 	AL["Season 9"] = "Сезон 9";
+	AL["Season 10"] = "Сезон 10";
+	AL["Season 11"] = "Сезон 11";
 	AL["Fire"] = "Огонь";
 	AL["Water"] = "Вода";
 	AL["Wind"] = "Ветер";
@@ -1032,7 +1026,6 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "Совершенно омерзительный кувшин";
 	AL["Cracked Egg"] = "Треснутое яйцо";
 	AL["Small Spice Bag"] = "Маленький мешочек со специями";
-	AL["Handful of Candy"] = "Пригоршня конфет";
 	AL["Lovely Dress Box"] = "Коробка с красивым платьем";
 	AL["Dinner Suit Box"] = "Коробка с вечерним костюмом";
 	AL["Bag of Heart Candies"] = "Пакетик с леденцами-сердечками";

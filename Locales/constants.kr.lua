@@ -463,15 +463,9 @@ if AL then
 	AL["10/25 Man"] = "10/25 인";
 	AL["Epic Set"] = "영웅 세트";
 	AL["Rare Set"] = "희귀 세트";
-	AL["Season 1"] = "시즌 1";
-	AL["Season 2"] = "시즌 2";
-	AL["Season 3"] = "시즌 3";
-	AL["Season 4"] = "시즌 4";
-	AL["Season 5"] = "시즌 5";
-	AL["Season 6"] = "시즌 6";
-	AL["Season 7"] = "시즌 7";
-	AL["Season 8"] = "시즌 8";
 	AL["Season 9"] = "시즌 9";
+	AL["Season 10"] = "시즌 10";
+	AL["Season 11"] = "시즌 11";
 	AL["Fire"] = true;
 	AL["Water"] = true;
 	AL["Wind"] = true;
@@ -971,7 +965,6 @@ if AL then
 	AL["Ripe Disgusting Jar"] = true;
 	AL["Cracked Egg"] = true;
 	AL["Small Spice Bag"] = true;
-	AL["Handful of Candy"] = true;
 	AL["Lovely Dress Box"] = true;
 	AL["Dinner Suit Box"] = true;
 	AL["Bag of Heart Candies"] = true;

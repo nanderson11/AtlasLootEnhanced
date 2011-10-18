@@ -415,63 +415,53 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Halloween"] = {
 		["Normal"] = {
 			{
-				{ 1, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1# =q2="..AL["Various Locations"]};
-				{ 2, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
-				{ 4, 33189, "", "=q2=Rickety Magic Broom", "=ds=#e12#", "", ""};
-				{ 6, 18633, "", "=q1=Styleen's Sour Suckerpop", "=ds=#e3#"};
-				{ 7, 18632, "", "=q1=Moonbrook Riot Taffy", "=ds=#e3#"};
-				{ 8, 18635, "", "=q1=Bellara's Nutterbar", "=ds=#e3#"};
-				{ 9, 20557, "", "=q1=Hallow's End Pumpkin Treat", "=ds=#m20#"};
-				{ 11, 0, "inv_gauntlets_06", "=q6="..AL["Handful of Candy"], ""};
-				{ 12, 37585, "", "=q1=Chewy Fel Taffy", "=ds=#m20#"};
-				{ 13, 37583, "", "=q1=G.N.E.R.D.S.", "=ds=#m20#"};
-				{ 14, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#"};
-				{ 15, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#"};
-				{ 16, 0, "INV_Misc_Bag_11", "=q6="..AL["Treat Bag"], ""};
-				{ 17, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
-				{ 18, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#"};
-				{ 19, 20410, "", "=q1=Hallowed Wand - Bat", "=ds=#m20#"};
-				{ 20, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds=#m20#"};
-				{ 21, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds=#m20#"};
-				{ 22, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds=#m20#"};
-				{ 23, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds=#m20#"};
-				{ 24, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#m20#"};
-				{ 25, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#m20#"};
-				{ 26, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#m20#"};
-				{ 27, 20389, "", "=q1=Candy Corn", "=ds=#e3#"};
-				{ 28, 20388, "", "=q1=Lollipop", "=ds=#e3#"};
-				{ 29, 20390, "", "=q1=Candy Bar", "=ds=#e3#"};
+				{ 2, 69188, "", "=q1=Murloc Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 3, 69190, "", "=q1=Naga Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 4, 69193, "", "=q1=Ogre Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 5, 69195, "", "=q1=Vrykul Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 7, 20410, "", "=q1=Hallowed Wand - Bat", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 8, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 9, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 10, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 17, 69187, "", "=q1=Murloc Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 18, 69189, "", "=q1=Naga Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 19, 69192, "", "=q1=Ogre Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 20, 69194, "", "=q1=Vrykul Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
+				{ 22, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 23, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 24, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 25, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#m20#", "#HALLOWSEND:2#"};
 			};
 			{
-				{ 2, 34003, "", "=q1=Draenei Male Mask", "=ds=#s1#"};
-				{ 3, 20561, "", "=q1=Dwarf Male Mask", "=ds=#s1#"};
-				{ 4, 20391, "", "=q1=Gnome Male Mask", "=ds=#s1#"};
-				{ 5, 49210, "", "=q1=Goblin Male Mask", "=ds=#s1#"};
-				{ 6, 20566, "", "=q1=Human Male Mask", "=ds=#s1#"};
-				{ 7, 20564, "", "=q1=Night Elf Male Mask", "=ds=#s1#"};
-				{ 8, 34002, "", "=q1=Blood Elf Male Mask", "=ds=#s1#"};
-				{ 9, 20570, "", "=q1=Orc Male Mask", "=ds=#s1#"};
-				{ 10, 20572, "", "=q1=Tauren Male Mask", "=ds=#s1#"};
-				{ 11, 20568, "", "=q1=Troll Male Mask", "=ds=#s1#"};
-				{ 12, 20573, "", "=q1=Undead Male Mask", "=ds=#s1#"};
-				{ 13, 49216, "", "=q1=Worfen Male Mask", "=ds=#s1#"};
-				{ 17, 34001, "", "=q1=Draenei Female Mask", "=ds=#s1#"};
-				{ 18, 20562, "", "=q1=Dwarf Female Mask", "=ds=#s1#"};
-				{ 19, 20392, "", "=q1=Gnome Female Mask", "=ds=#s1#"};
-				{ 20, 49212, "", "=q1=Goblin Female Mask", "=ds=#s1#"};
-				{ 21, 20565, "", "=q1=Human Female Mask", "=ds=#s1#"};
-				{ 22, 20563, "", "=q1=Night Elf Female Mask", "=ds=#s1#"};
-				{ 23, 34000, "", "=q1=Blood Elf Female Mask", "=ds=#s1#"};
-				{ 24, 20569, "", "=q1=Orc Female Mask", "=ds=#s1#"};
-				{ 25, 20571, "", "=q1=Tauren Female Mask", "=ds=#s1#"};
-				{ 26, 20567, "", "=q1=Troll Female Mask", "=ds=#s1#"};
-				{ 27, 20574, "", "=q1=Undead Female Mask", "=ds=#s1#"};
-				{ 28, 49215, "", "=q1=Worfen Female Mask", "=ds=#s1#"};
+				{ 2, 34003, "", "=q1=Draenei Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 3, 20561, "", "=q1=Dwarf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 4, 20391, "", "=q1=Gnome Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 5, 49210, "", "=q1=Goblin Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 6, 20566, "", "=q1=Human Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 7, 20564, "", "=q1=Night Elf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 8, 34002, "", "=q1=Blood Elf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 9, 20570, "", "=q1=Orc Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 10, 20572, "", "=q1=Tauren Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 11, 20568, "", "=q1=Troll Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 12, 20573, "", "=q1=Undead Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 13, 49216, "", "=q1=Worgen Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 17, 34001, "", "=q1=Draenei Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 18, 20562, "", "=q1=Dwarf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 19, 20392, "", "=q1=Gnome Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 20, 49212, "", "=q1=Goblin Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 21, 20565, "", "=q1=Human Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 22, 20563, "", "=q1=Night Elf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 23, 34000, "", "=q1=Blood Elf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 24, 20569, "", "=q1=Orc Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 25, 20571, "", "=q1=Tauren Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 26, 20567, "", "=q1=Troll Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 27, 20574, "", "=q1=Undead Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 28, 49215, "", "=q1=Worgen Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 			};
 		};
 		info = {
 			name = AL["Hallow's End"],
-			module = moduleName, menu = "WORLDEVENTMENU", instance = "Halloween",
+			module = moduleName, menu = "HALLOWSENDMENU",
 		};
 	};
 
@@ -495,7 +485,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 		};
 		info = {
 			name = BabbleBoss["Headless Horseman"],
-			module = moduleName, menu = "WORLDEVENTMENU", instance = "Halloween",
+			module = moduleName, menu = "HALLOWSENDMENU",
 		};
 	};
 

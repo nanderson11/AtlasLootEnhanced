@@ -11,7 +11,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 1, "ARGENTMENU", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], "=q5="..BabbleZone["Icecrown"]};
 				{ 3, "BREWFESTMENU", "achievement_worldevent_brewmaster", "=ds="..AL["Brewfest"], "=q5="..AL["Various Locations"]};
 				{ 4, "DayoftheDead", "inv_misc_bone_humanskull_02", "=ds="..AL["Day of the Dead"], "=q5="..AL["Various Locations"]};
-				{ 5, "Halloween", "achievement_halloween_witch_01", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
+				{ 5, "HALLOWSENDMENU", "achievement_halloween_witch_01", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
 				{ 6, "Valentineday", "achievement_worldevent_valentine", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};
 				{ 7, "MidsummerFestival", "inv_summerfest_symbol_high", "=ds="..AL["Midsummer Fire Festival"], "=q5="..AL["Various Locations"]};
 				{ 8, "PilgrimsBounty", "inv_thanksgiving_turkey", "=ds="..AL["Pilgrim's Bounty"], "=q5="..AL["Various Locations"]};
@@ -128,6 +128,37 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Brewfest"],
+			menu = "WORLDEVENTMENU",
+		};
+	}
+
+	AtlasLoot_Data["HALLOWSENDMENU"] = {
+		["Normal"] = {
+			{
+				{ 1, "Halloween", "achievement_halloween_ghost_01", "=ds="..AL["Consumable Wands & Masks"], ""};
+				{ 2, "Halloween#2", "inv_mask_04", "=ds="..AL["Permanent Masks"], ""};
+				{ 16, "HeadlessHorseman", "inv_misc_food_59", "=ds="..BabbleBoss["Headless Horseman"], ""};
+				{ 4, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1# =q2="..AL["Various Locations"]};
+				{ 5, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
+				{ 7, 37011, "", "=q3=Magic Broom", "=ds=#e12#", "#HALLOWSEND:150#"};
+				{ 8, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "#HALLOWSEND:150#"};
+				{ 9, 37011, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
+				{ 10, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
+				{ 11, 70908, "", "=q1=Feline Familiar", "=ds=#e13#", "#HALLOWSEND:150#"};
+				{ 12, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 14, 71076, "", "=q1=Creepy Crate", "=ds=#m4#, #e13#"};
+				{ 19, 33189, "", "=q2=Rickety Magic Broom", "=ds=#e12#"};
+				{ 20, 20516, "", "=q1=Bobbing Apple", "=ds=#e3#"};
+				{ 22, 0, "inv_gauntlets_06", "=q6="..AL["Handful of Treats"], ""};
+				{ 23, 37585, "", "=q1=Chewy Fel Taffy", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 24, 37583, "", "=q1=G.N.E.R.D.S.", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 25, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 26, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 27, 37606, "", "=q1=Penny Pouch", "=ds=#e1#"};
+			};
+		};
+		info = {
+			name = AL["Hallow's End"],
 			menu = "WORLDEVENTMENU",
 		};
 	}

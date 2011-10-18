@@ -553,14 +553,6 @@ if AL then
 	AL["10/25 Man"] = "10 / 25 Joueurs";
 	AL["Epic Set"] = "Set épique";
 	AL["Rare Set"] = "Set rare";
-	AL["Season 1"] = "Saison 1";
-	AL["Season 2"] = "Saison 2";
-	AL["Season 3"] = "Saison 3";
-	AL["Season 4"] = "Saison 4";
-	AL["Season 5"] = "Saison 5";
-	AL["Season 6"] = "Saison 6";
-	AL["Season 7"] = "Saison 7";
-	AL["Season 8"] = "Saison 8";
 	AL["Season 9"] = "Saison 9";
 	AL["Season 10"] = "Saison 10";
 	AL["Season 11"] = "Saison 11";
@@ -1116,7 +1108,6 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "Jarre dégoûtante mûre";
 	AL["Cracked Egg"] = "Oeuf brisé";
 	AL["Small Spice Bag"] = "Petit sac d'épices";
-	AL["Handful of Candy"] = "Poignée de bonbons";
 	AL["Lovely Dress Box"] = "Boîte de robe ravissante";
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
 	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";

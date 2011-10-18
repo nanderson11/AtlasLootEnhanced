@@ -4691,7 +4691,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DeathKnight2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73618, "", "=q4=Cataclysmic Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73616, "", "=q4=Cataclysmic Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73620, "", "=q4=Cataclysmic Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2200#"};
@@ -4726,7 +4726,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidBalance2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73598, "", "=q4=Cataclysmic Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73595, "", "=q4=Cataclysmic Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73596, "", "=q4=Cataclysmic Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2200#"};
@@ -4761,7 +4761,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidFeral2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73614, "", "=q4=Cataclysmic Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73611, "", "=q4=Cataclysmic Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73612, "", "=q4=Cataclysmic Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
@@ -4796,7 +4796,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidRestoration2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73606, "", "=q4=Cataclysmic Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73603, "", "=q4=Cataclysmic Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73604, "", "=q4=Cataclysmic Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
@@ -4831,7 +4831,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Hunter2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73582, "", "=q4=Cataclysmic Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73580, "", "=q4=Cataclysmic Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73584, "", "=q4=Cataclysmic Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
@@ -4866,7 +4866,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Mage2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73575, "", "=q4=Cataclysmic Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73572, "", "=q4=Cataclysmic Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73573, "", "=q4=Cataclysmic Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
@@ -4901,7 +4901,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinRetribution2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73569, "", "=q4=Cataclysmic Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73567, "", "=q4=Cataclysmic Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73571, "", "=q4=Cataclysmic Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
@@ -4936,7 +4936,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinHoly2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73558, "", "=q4=Cataclysmic Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73556, "", "=q4=Cataclysmic Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73560, "", "=q4=Cataclysmic Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
@@ -4971,7 +4971,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestShadow2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73543, "", "=q4=Cataclysmic Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73540, "", "=q4=Cataclysmic Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73541, "", "=q4=Cataclysmic Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
@@ -5006,7 +5006,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestHoly2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73548, "", "=q4=Cataclysmic Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73545, "", "=q4=Cataclysmic Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73546, "", "=q4=Cataclysmic Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
@@ -5041,7 +5041,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Rogue2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73525, "", "=q4=Cataclysmic Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73523, "", "=q4=Cataclysmic Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73527, "", "=q4=Cataclysmic Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
@@ -5076,7 +5076,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanElemental2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73504, "", "=q4=Cataclysmic Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73502, "", "=q4=Cataclysmic Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73506, "", "=q4=Cataclysmic Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
@@ -5111,7 +5111,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanEnhancement2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73510, "", "=q4=Cataclysmic Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73508, "", "=q4=Cataclysmic Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73512, "", "=q4=Cataclysmic Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
@@ -5146,7 +5146,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanRestoration2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73515, "", "=q4=Cataclysmic Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73513, "", "=q4=Cataclysmic Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73517, "", "=q4=Cataclysmic Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
@@ -5181,7 +5181,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warlock2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73486, "", "=q4=Cataclysmic Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73483, "", "=q4=Cataclysmic Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73484, "", "=q4=Cataclysmic Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
@@ -5216,7 +5216,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warrior2"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Occu'thar"]};
+				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 11"]..", Alizabal"};
 				{ 2, 73480, "", "=q4=Cataclysmic Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
 				{ 3, 73478, "", "=q4=Cataclysmic Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
 				{ 4, 73482, "", "=q4=Cataclysmic Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
@@ -7336,9 +7336,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
 				{ 4, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
-				{ 7, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="..AL["Season 6"]};
-				{ 8, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="..AL["Season 7"]};
-				{ 9, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds="..AL["Season 8"]};
+				{ 7, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="};
+				{ 8, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="};
+				{ 9, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds="};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Tabards"], ""};
 				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#, =q1=#m24#"};
 				{ 18, 23705, "", "=q4=Tabard of Flame", "=ds=#s7#, =q1=#m24#"};
@@ -7697,7 +7697,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
 				{ 12, 66073, "", "=q1=Snail Shell", "=ds="..AL["Children's Week"]};
 				{ 13, 23002, "", "=q1=Turtle Box", "=ds="..AL["Children's Week"]};
-				{ 15, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
+				{ 15, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
 				{ 16, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
 				{ 17, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
 				{ 18, 21305, "", "=q1=Red Helper Box", "=ds="..AL["Feast of Winter Veil"]};
@@ -7706,7 +7706,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
 				{ 24, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
 				{ 25, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 27, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
+				{ 27, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
+				{ 28, 71076, "", "=q1=Creepy Crate", "=ds="..AL["Hallow's End"]};
+				{ 29, 70908, "", "=q1=Feline Familiar", "=ds="..AL["Hallow's End"]};
 			};
 		};
 		info = {
@@ -8209,21 +8211,24 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
+
 	AtlasLoot_Data["MountsCardGamePromotional"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
 				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
 				{ 3, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#"};
-				{ 4, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
-				{ 5, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
-				{ 6, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
-				{ 7, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
-				{ 8, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
-				{ 9, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
-				{ 10, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
-				{ 11, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
-				{ 12, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
+				{ 4, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
+				{ 5, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
+				{ 6, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
+				{ 7, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
+				{ 8, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 9, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
+				{ 10, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },
+				{ 11, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
+				{ 12, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
+				{ 13, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
+				{ 14, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
 				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
 				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
@@ -8288,27 +8293,27 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 33809, "", "=q4=Amani War Bear", "=q1="..BabbleZone["Zul'Aman"], ""};
-				{ 2, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#", "", "0.43%"};
-				{ 3, 19902, "", "=q4=Swift Zulian Tiger", "#ACHIEVEMENTID:880#", "", " 0.70%"};
+				{ 2, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#"};
+				{ 3, 19902, "", "=q4=Swift Zulian Tiger", "#ACHIEVEMENTID:880#"};
 				{ 5, 49098, "", "=q4=Crusader's Black Warhorse", "#ACHIEVEMENTID:4079#, =ec1="..BabbleFaction["Horde"]};
 				{ 6, 49096, "", "=q4=Crusader's White Warhorse", "#ACHIEVEMENTID:4156#, =ec1="..BabbleFaction["Alliance"]};
 				{ 7, 49044, "", "=q4=Swift Alliance Steed", "#ACHIEVEMENTID:3810#, =ec1="..BabbleFaction["Alliance"]};
 				{ 8, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#, =ec1="..BabbleFaction["Horde"]};
 				{ 9, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
 				{ 10, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
-				{ 12, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};--diabled as it causes a dc on 4.3
+				{ 12, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
 				{ 13, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
 				{ 14, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
-				{ 17, 30609, "", "=q4=Swift Nether Drake", "=ds="..AL["Season 1"]};
-				{ 18, 34092, "", "=q4=Merciless Nether Drake", "=ds="..AL["Season 2"]};
-				{ 19, 37676, "", "=q4=Vengeful Nether Drake", "=ds="..AL["Season 3"]};
-				{ 20, 43516, "", "=q4=Brutal Nether Drake", "=ds="..AL["Season 4"]};
-				{ 21, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "=ds="..AL["Season 5"]};
-				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "=ds="..AL["Season 6"]};
-				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "=ds="..AL["Season 7"]};
-				{ 24, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "=ds="..AL["Season 8"]};
-				{ 25, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "=ds="..AL["Season 9"]};
+				{ 17, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#"};
+				{ 18, 34092, "", "=q4=Merciless Nether Drake", "#ACHIEVEMENTID:887#"};
+				{ 19, 37676, "", "=q4=Vengeful Nether Drake", "#ACHIEVEMENTID:888#"};
+				{ 20, 43516, "", "=q4=Brutal Nether Drake", "#ACHIEVEMENTID:2316#"};
+				{ 21, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3096#"};
+				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3756#"};
+				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3757#"};
+				{ 24, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "#ACHIEVEMENTID:4600#"};
+				{ 25, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "#ACHIEVEMENTID:6003#"};
 				{ 26, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "=ds="..AL["Season 10"]};
 			};
 		};
