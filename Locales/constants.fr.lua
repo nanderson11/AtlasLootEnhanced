@@ -1108,6 +1108,9 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "Jarre dégoûtante mûre";
 	AL["Cracked Egg"] = "Oeuf brisé";
 	AL["Small Spice Bag"] = "Petit sac d'épices";
+	AL["Handful of Treats"] = "Poignée de sucreries";
+	AL["Consumable Wands & Masks"] = "Baguettes et masques";
+	AL["Permanent Masks"] = "Masques permanent";
 	AL["Lovely Dress Box"] = "Boîte de robe ravissante";
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
 	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";
