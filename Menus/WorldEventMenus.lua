@@ -142,7 +142,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 5, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
 				{ 7, 37011, "", "=q3=Magic Broom", "=ds=#e12#", "#HALLOWSEND:150#"};
 				{ 8, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "#HALLOWSEND:150#"};
-				{ 9, 37011, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
+				{ 9, 70722, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
 				{ 10, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
 				{ 11, 70908, "", "=q1=Feline Familiar", "=ds=#e13#", "#HALLOWSEND:150#"};
 				{ 12, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};

@@ -211,94 +211,37 @@ local moduleName = "AtlasLootCataclysm"
 		--- Caverns of Time: End Time ---
 		---------------------------------
 
-	AtlasLoot_Data["EndtimeBaine"] = {
+	AtlasLoot_Data["EndtimeEchoes"] = {
 		["Normal"] = {
 			{
-				{ 1, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 2, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 4, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-    			{ 5, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 6, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 7, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 8, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 9, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 10, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
-    			{ 16, 72814, "", "=q4=Axe of the Tauren Chieftains", "=ds=#h2#, #w1#" },
-    			{ 17, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Baine", 340),
-			module = moduleName, instance = "CoTEndTime",
-		};
-	};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Baine", 340), ""};
+    			{ 2, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
+    			{ 3, 72814, "", "=q4=Axe of the Tauren Chieftains", "=ds=#h2#, #w1#" },
+    			{ 5, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Jaina", 285), ""};
+    			{ 6, 72808, "", "=q4=Jaina's Staff", "=ds=#w9#" },
+    			{ 7, 72809, "", "=q4=Ward of Incantations", "=ds=#w8#" },
+    			{ 9, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323), ""};
+    			{ 10, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
+    			{ 11, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
+    			{ 13, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Tyrande", 283), ""};
+    			{ 14, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
+    			{ 15, 72812, "", "=q4=Crescent Moon", "=ds=#h1#, #w1#" },
+    			{ 16, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};
+				{ 17, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
+    			{ 18, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
+    			{ 19, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
+    			{ 20, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 21, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+    			{ 22, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
+    			{ 23, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
+    			{ 24, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 25, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
+    			{ 26, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
 
-	AtlasLoot_Data["EndtimeJaina"] = {
-		["Normal"] = {
-			{
-				{ 1, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 2, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 3, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 4, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-    			{ 5, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 6, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 7, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-   				{ 8, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 9, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 16, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
-    			{ 17, 72808, "", "=q4=Jaina's Staff", "=ds=#w9#" },
-    			{ 18, 72809, "", "=q4=Ward of Incantations", "=ds=#w8#" },
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Jaina", 285),
-			module = moduleName, instance = "CoTEndTime",
-		};
-	};
-
-	AtlasLoot_Data["EndtimeSylvanas"] = {
-		["Normal"] = {
-			{
-    			{ 1, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
-    			{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-    			{ 3, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-    			{ 4, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 5, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-    			{ 6, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 7, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 8, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 9, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 10, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 16, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
-    			{ 17, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323),
-			module = moduleName, instance = "CoTEndTime",
-		};
-	};    
-
-	AtlasLoot_Data["EndtimeTyrande"] = {
-		["Normal"] = {
-			{
-				{ 1, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
-				{ 2, 72802, "", "=q4=Time Traveler's Leggings", "=ds=#s11#, #a1#" },
-				{ 3, 72805, "", "=q4=Gloves of the Hollow", "=ds=#s9#, #a2#" },
-				{ 4, 72798, "", "=q4=Cord of Lost Hope", "=ds=#s10#, #a2#" },
-    			{ 5, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
-    			{ 6, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
-    			{ 7, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
-    			{ 8, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 9, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
-    			{ 10, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
-    			{ 16, 72812, "", "=q4=Crescent Moon", "=ds=#h1#, #w1#" },
-    			{ 17, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Echo of Tyrande", 283),
+			name = "Echoes",
 			module = moduleName, instance = "CoTEndTime",
 		};
 	};
@@ -325,10 +268,13 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTEndTime",
 		};
 	};
-
+--Unconfirmed! Loot table guessed!
 	AtlasLoot_Data["EndtimeTrash"] = {
 		["Normal"] = {
 			{
+				{ 2, 76154, "", "=q4=Breastplate of Despair", "=ds=#s5#, #a4#" },
+				{ 3, 76156, "", "=q4=Bindings of the End Times", "=ds=#s8#, #a4#" },
+				{ 17, 76155, "", "=q4=Thorns of the Dying Day", "=ds=#w11#" },
 			};
 		};
 		info = {
@@ -366,7 +312,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 72859, "", "=q4=Dawnslayer Helm", "=ds=#s1#, #a3#" },
     			{ 4, 72856, "", "=q4=Pauldrons of Midnight Whispers", "=ds=#s3#, #a3#" },
     			{ 16, 72855, "", "=q4=Corrupted Carapace", "=ds=#w8#" },
-   			{ 17, 72860, "", "=q4=Mandible of the Old Ones", "=ds=#h4#, #w4#" },
+   				{ 17, 72860, "", "=q4=Mandible of the Old Ones", "=ds=#h4#, #w4#" },
 			};
 		};
 		info = {
@@ -397,10 +343,13 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTHourOfTwilight",
 		};
 	};
-
+--Unconfirmed! Loot table guessed!
 	AtlasLoot_Data["HoTTrash"] = {
 		["Normal"] = {
 			{
+				{ 2, 76160, "", "=q4=Drapes of the Dragonshrine", "=ds=#s4#" },
+				{ 3, 76161, "", "=q4=Gauntlets of the Twilight Hour", "=ds=#s9#, #a3#" },
+				{ 17, 76162, "", "=q4=Twilight Amulet", "=ds=#s2#" },
 			};
 		};
 		info = {
@@ -458,7 +407,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 5, 72848, "", "=q4=Legguards of the Legion", "=ds=#s11#, #a3#" },
     			{ 6, 72842, "", "=q4=Annihilan Helm", "=ds=#s1#, #a4#" },
     			{ 7, 72843, "", "=q4=Helm of Power", "=ds=#s1#, #a4#" },
-    			{ 16, 72845, "", "=q4=Mannroth's Signet", "=ds=#s13#" },
+    			{ 16, 72845, "", "=q4=Mannoroth's Signet", "=ds=#s13#" },
     			{ 17, 72899, "", "=q4=Heart of the Pit Lord", "=ds=#s14#" },
     			{ 18, 72898, "", "=q4=Light of Lights", "=ds=#s14#" },
     			{ 20, 72844, "", "=q4=Hammer of Destruction", "=ds=#h2#, #w6#" },
@@ -470,10 +419,13 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTWellOfEternity",
 		};
 	};
-
+--Unconfirmed! Loot table guessed!
 	AtlasLoot_Data["WoETrash"] = {
 		["Normal"] = {
 			{
+				{ 2, 76159, "", "=q4=Legion Bindings", "=ds=#s8#, #a1#" },
+				{ 3, 76158, "", "=q4=Courtier's Slippers", "=ds=#s12#, #a1#" },
+				{ 4, 76157, "", "=q4=Waterworn Handguards", "=ds=#s8#, #a2#" },
 			};
 		};
 		info = {
@@ -1789,7 +1741,7 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["ZGJindo"] = {
 		["Normal"] = {
 			{
-				{ 1, 69622, "", "=q4=The Hexxer's Headdress", "=ds=#s1#, #a1#", ""};
+				{ 1, 69622, "", "=q4=The Hexxer's Mask", "=ds=#s1#, #a1#", ""};
 				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
 				{ 4, 69621, "", "=q4=Twinblade of the Hakkari", "=ds=#h1#, #w4#", ""};
 				{ 5, 69620, "", "=q4=Twinblade of the Hakkari", "=ds=#h4#, #w4#", ""};
