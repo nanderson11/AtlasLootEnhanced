@@ -8182,11 +8182,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 13, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
 				{ 14, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
-				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
-				{ 21, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
-				{ 22, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
+				{ 17, 0, "", "=q4=Tyrael's Charger", "Annual Pass"};
+				{ 18, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 19, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 21, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 22, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
+				{ 23, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
 			};
 		};
 		info = {

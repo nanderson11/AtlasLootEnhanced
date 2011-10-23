@@ -608,25 +608,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["ArchaeologyPetMount"] = {
-		["Normal"] = {
-			{
-				{ 2, "s92137", "60847", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
-				{ 3, "s90521", "64372", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
-				{ 4, "s89693", "60955", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
-				{ 5, "s98582", "69821", "=q3=Pterrordax Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
-				{ 6, "s98588", "69824", "=q3=Voodoo Figurine", "=ds="..AL["Troll"], "=ds=#e13#"};
-				{ 17, "s90619", "60954", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
-				{ 18, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY,
-			switchText = {AL["Culture"], AL["Slot"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
 	AtlasLoot_Data["ArchaeologyDwarf"] = {
 		["Normal"] = {
 			{
@@ -2138,23 +2119,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 22, "s88030", "62657", "=q1=Lurker Lunch", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
 				{ 24, 0, "INV_Box_01", "=q6="..AL["Parry Rating"], ""};
 				{ 25, "s88034", "62668", "=q1=Blackbelly Sushi", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-			};
-		};
-		info = {
-			name = COOKING,
-			module = moduleName, menu = "COOKINGMENU"
-		};
-	};
-
-	AtlasLoot_Data["CookingFeasts"] = {
-		["Normal"] = {
-			{
-				{ 1, "s88036", "62290", "=q1=Seafood Magnifique Feast", "=ds=#sr# 525", "#ACHIEVEMENTID:5036#"};
-				{ 2, "s88011", "62289", "=q1=Broiled Dragon Feast", "=ds=#sr# 500", "#ACHIEVEMENTID:5467#"};
-				{ 3, "s57423", "43015", "=q1=Fish Feast", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 4, "s58527", "43478", "=q1=Gigantic Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 5, "s58528", "43480", "=q1=Small Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 6, "s45554", "34753", "=q1=Great Feast", "=ds=#sr# 375", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
