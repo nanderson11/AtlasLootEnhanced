@@ -63,10 +63,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		["Normal_H"] = {
 			{
-				{ 2, "ArgentTournament", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"].." / "..AL["Weapons"], ""};
+				{ 2, "ATArmor", "inv_boots_plate_09", "=ds="..BabbleInventory["Armor"].." / "..AL["Weapons"], ""};
 				{ 3, "ATHeirlooms", "inv_jewelry_talisman_01", "=ds="..AL["Heirloom"], ""};
-				{ 17, "ArgentTournament#2", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"]};
-				{ 18, "ArgentTournament#2", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Mounts"]};
+				{ 17, "ATPets", "achievement_reputation_argentchampion", "=ds="..BabbleInventory["Companions"]};
+				{ 18, "ATMounts", "ability_mount_warhippogryph", "=ds="..BabbleInventory["Mounts"]};
 				{ 5, 45719, "", "=q2=Orgrimmar Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
 				{ 6, 45723, "", "=q2=Undercity Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
 				{ 7, 45722, "", "=q2=Thunder Bluff Commendation Badge", "",  "=ds=#CHAMPWRIT:1#"};
