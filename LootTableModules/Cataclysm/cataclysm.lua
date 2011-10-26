@@ -2734,25 +2734,52 @@ local moduleName = "AtlasLootCataclysm"
 		-------------------------------------
 
 	AtlasLoot_Data["DragonSoulMorchok"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78381, "", "=q4=Mosswrought Shoulderguards", "=ds=#s3#, #a1#" },
+    			{ 2, 78380, "", "=q4=Robe of Glowing Stone", "=ds=#s5#, #a1#" },
+    			{ 3, 78375, "", "=q4=Underdweller's Spaulders", "=ds=#s3#, #a2#" },
+    			{ 4, 78384, "", "=q4=Mycosynth Wristguards", "=ds=#s8#, #a2#" },
+    			{ 5, 78376, "", "=q4=Sporebeard Gauntlets", "=ds=#s9#, #a3#" },
+    			{ 6, 78385, "", "=q4=Girdle of Shattered Stone", "=ds=#s10#, #a3#" },
+    			{ 7, 78378, "", "=q4=Brackenshell Shoulderplates", "=ds=#s3#, #a4#" },
+    			{ 8, 78377, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
+    			{ 9, 78386, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
+    			{ 16, 78382, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
+    			{ 18, 78383, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
+    			{ 19, 78379, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77267, "", "=q4=Horrific Mantle", "=ds=#s3#, #a1#" },
-    			{ 2, 77263, "", "=q4=Horrific Robe", "=ds=#s5#, #a1#" },
-    			{ 3, 77271, "", "=q4=Horrific Spaulders", "=ds=#s3#, #a2#" },
-    			{ 4, 77261, "", "=q4=Horrific Serene Bracers", "=ds=#s8#, #a2#" },
-    			{ 5, 77269, "", "=q4=Horrific Skinners", "=ds=#s9#, #a3#" },
-    			{ 6, 77266, "", "=q4=Horrific Cinch", "=ds=#s10#, #a3#" },
-    			{ 7, 77268, "", "=q4=Horrific Pauldrons", "=ds=#s3#, #a4#" },
-    			{ 8, 77270, "", "=q4=Horrific Bracers", "=ds=#s8#, #a4#" },
-    			{ 9, 77265, "", "=q4=Horrific Boots", "=ds=#s12#, #a4#" },
-    			{ 16, 77262, "", "=q4=Horrific Pendant", "=ds=#s2#" },
-    			{ 18, 77214, "", "=q4=Horrific Gavel", "=ds=#h3#, #w6#" },
-    			{ 19, 77212, "", "=q4=Horrific Cleaver", "=ds=#h1#, #w1#" },
+    			{ 1, 77267, "", "=q4=Mosswrought Shoulderguards", "=ds=#s3#, #a1#" },
+    			{ 2, 77263, "", "=q4=Robe of Glowing Stone", "=ds=#s5#, #a1#" },
+    			{ 3, 77271, "", "=q4=Underdweller's Spaulders", "=ds=#s3#, #a2#" },
+    			{ 4, 77261, "", "=q4=Mycosynth Wristguards", "=ds=#s8#, #a2#" },
+    			{ 5, 77269, "", "=q4=Sporebeard Gauntlets", "=ds=#s9#, #a3#" },
+    			{ 6, 77266, "", "=q4=Girdle of Shattered Stone", "=ds=#s10#, #a3#" },
+    			{ 7, 77268, "", "=q4=Brackenshell Shoulderplates", "=ds=#s3#, #a4#" },
+    			{ 8, 77270, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
+    			{ 9, 77265, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
+    			{ 16, 77262, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
+    			{ 18, 77214, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
+    			{ 19, 77212, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78366, "", "=q4=Mosswrought Shoulderguards", "=ds=#s3#, #a1#" },
+    			{ 2, 78365, "", "=q4=Robe of Glowing Stone", "=ds=#s5#, #a1#" },
+    			{ 3, 78368, "", "=q4=Underdweller's Spaulders", "=ds=#s3#, #a2#" },
+    			{ 4, 78372, "", "=q4=Mycosynth Wristguards", "=ds=#s8#, #a2#" },
+    			{ 5, 78362, "", "=q4=Sporebeard Gauntlets", "=ds=#s9#, #a3#" },
+    			{ 6, 78370, "", "=q4=Girdle of Shattered Stone", "=ds=#s10#, #a3#" },
+    			{ 7, 78367, "", "=q4=Brackenshell Shoulderplates", "=ds=#s3#, #a4#" },
+    			{ 8, 78373, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
+    			{ 9, 78361, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
+    			{ 16, 78364, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
+    			{ 18, 78363, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
+    			{ 19, 78371, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
 			};
 		};
 		info = {
@@ -2762,24 +2789,49 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulZonozz"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78398, "", "=q4=Cord of the Slain Champion", "=ds=#s10#, #a1#" },
+    			{ 2, 78395, "", "=q4=Belt of Flayed Skin", "=ds=#s10#, #a2#" },
+    			{ 3, 78400, "", "=q4=Grotesquely Writhing Bracers", "=ds=#s8#, #a3#" },
+    			{ 4, 78397, "", "=q4=Graveheart Bracers", "=ds=#s8#, #a4#" },
+    			{ 5, 78396, "", "=q4=Treads of Crushed Flesh", "=ds=#s12#, #a4#" },
+    			{ 7, 77969, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
+			{ 16, 78866, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78867, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78865, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78394, "", "=q4=Horrifying Horn Arbalest", "=ds=#w3#" },
+    			{ 21, 78399, "", "=q4=Finger of Zon'ozz", "=ds=#w12#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77255, "", "=q4=Horrific Chain", "=ds=#s10#, #a1#" },
-    			{ 2, 77260, "", "=q4=Horrific Girdle", "=ds=#s10#, #a2#" },
-    			{ 3, 77257, "", "=q4=Horrific Wristguards", "=ds=#s8#, #a3#" },
-    			{ 4, 77258, "", "=q4=Horrific Wristplates", "=ds=#s8#, #a4#" },
-    			{ 5, 77259, "", "=q4=Horrific Warboots", "=ds=#s12#, #a4#" },
-    			{ 7, 77204, "", "=q4=Horrific Quintessence", "=ds=#s14#" },
-				{ 16, 78183, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
-				{ 17, 78178, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
-				{ 18, 78173, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 77215, "", "=q4=Horrific Arbalest", "=ds=#w3#" },
-    			{ 21, 77216, "", "=q4=Horrific Stinger", "=ds=#w12#" },
+    			{ 1, 77255, "", "=q4=Cord of the Slain Champion", "=ds=#s10#, #a1#" },
+    			{ 2, 77260, "", "=q4=Belt of Flayed Skin", "=ds=#s10#, #a2#" },
+    			{ 3, 77257, "", "=q4=Grotesquely Writhing Bracers", "=ds=#s8#, #a3#" },
+    			{ 4, 77258, "", "=q4=Graveheart Bracers", "=ds=#s8#, #a4#" },
+    			{ 5, 77259, "", "=q4=Treads of Crushed Flesh", "=ds=#s12#, #a4#" },
+    			{ 7, 77204, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
+			{ 16, 78183, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78178, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78173, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 77215, "", "=q4=Horrifying Horn Arbalest", "=ds=#w3#" },
+    			{ 21, 77216, "", "=q4=Finger of Zon'ozz", "=ds=#w12#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78391, "", "=q4=Cord of the Slain Champion", "=ds=#s10#, #a1#" },
+    			{ 2, 78388, "", "=q4=Belt of Flayed Skin", "=ds=#s10#, #a2#" },
+    			{ 3, 78393, "", "=q4=Grotesquely Writhing Bracers", "=ds=#s8#, #a3#" },
+    			{ 4, 78390, "", "=q4=Graveheart Bracers", "=ds=#s8#, #a4#" },
+    			{ 5, 78389, "", "=q4=Treads of Crushed Flesh", "=ds=#s12#, #a4#" },
+    			{ 7, 77989, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
+			{ 16, 78853, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78854, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78855, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78387, "", "=q4=Horrifying Horn Arbalest", "=ds=#w3#" },
+    			{ 21, 78392, "", "=q4=Finger of Zon'ozz", "=ds=#w12#" },
 			};
 		};
 		info = {
@@ -2789,24 +2841,49 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulYorsahj"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78408, "", "=q4=Interrogator's Bloody Footpads", "=ds=#s12#, #a2#" },
+    			{ 2, 78411, "", "=q4=Mindstrainer Treads", "=ds=#s12#, #a3#" },
+    			{ 3, 78412, "", "=q4=Heartblood Wristplates", "=ds=#s8#, #a4#" },
+    			{ 5, 77971, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+    			{ 6, 77970, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
+			{ 16, 78872, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78873, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78871, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78409, "", "=q4=Experimental Specimen Slicer", "=ds=#h2#, #w1#" },
+    			{ 21, 78407, "", "=q4=Spire of Coagulated Globules", "=ds=#w9#" },
+    			{ 22, 78410, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h3#, #w4#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77254, "", "=q4=Horrific Treads", "=ds=#s12#, #a2#" },
-    			{ 2, 77252, "", "=q4=Horrific Footwraps", "=ds=#s12#, #a3#" },
-    			{ 3, 77253, "", "=q4=Horrific Bracers", "=ds=#s8#, #a4#" },
-    			{ 5, 77203, "", "=q4=Horrific Rune", "=ds=#s14#" },
-    			{ 6, 77206, "", "=q4=Horrific Stay", "=ds=#s14#" },
-				{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
-				{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
-				{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 77217, "", "=q4=Horrific Greataxe", "=ds=#h2#, #w1#" },
-    			{ 21, 77218, "", "=q4=Horrific Scythe", "=ds=#w9#" },
-    			{ 22, 77219, "", "=q4=Horrific Scalpel", "=ds=#h3#, #w4#" },
+    			{ 1, 77254, "", "=q4=Interrogator's Bloody Footpads", "=ds=#s12#, #a2#" },
+    			{ 2, 77252, "", "=q4=Mindstrainer Treads", "=ds=#s12#, #a3#" },
+    			{ 3, 77253, "", "=q4=Heartblood Wristplates", "=ds=#s8#, #a4#" },
+    			{ 5, 77203, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+    			{ 6, 77206, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
+			{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 77217, "", "=q4=Experimental Specimen Slicer", "=ds=#h2#, #w1#" },
+    			{ 21, 77218, "", "=q4=Spire of Coagulated Globules", "=ds=#w9#" },
+    			{ 22, 77219, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h3#, #w4#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78402, "", "=q4=Interrogator's Bloody Footpads", "=ds=#s12#, #a2#" },
+    			{ 2, 78405, "", "=q4=Mindstrainer Treads", "=ds=#s12#, #a3#" },
+    			{ 3, 78406, "", "=q4=Heartblood Wristplates", "=ds=#s8#, #a4#" },
+    			{ 5, 77991, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+    			{ 6, 77990, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
+			{ 16, 78856, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78857, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78858, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78403, "", "=q4=Experimental Specimen Slicer", "=ds=#h2#, #w1#" },
+    			{ 21, 78401, "", "=q4=Spire of Coagulated Globules", "=ds=#w9#" },
+    			{ 22, 78404, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h3#, #w4#" },
 			};
 		};
 		info = {
@@ -2816,24 +2893,49 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulHagara"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78425, "", "=q4=Bracers of the Banished", "=ds=#s8#, #a1#" },
+    			{ 2, 78428, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
+    			{ 3, 78423, "", "=q4=Treads of Dormant Dreams", "=ds=#s12#, #a3#" },
+    			{ 4, 78424, "", "=q4=Runescriven Demon Collar", "=ds=#s10#, #a4#" },
+    			{ 6, 78427, "", "=q4=Ring of the Riven", "=ds=#s13#" },
+    			{ 7, 78421, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
+			{ 16, 78875, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78876, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78874, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78426, "", "=q4=Lightning Rod", "=ds=#w9#" },
+    			{ 21, 78422, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77249, "", "=q4=Horrific Dreamwraps", "=ds=#s8#, #a1#" },
-    			{ 2, 77248, "", "=q4=Horrific Sash", "=ds=#s10#, #a2#" },
-    			{ 3, 77251, "", "=q4=Horrific Sabatons", "=ds=#s12#, #a3#" },
-    			{ 4, 77250, "", "=q4=Horrific Cinch", "=ds=#s10#, #a4#" },
-    			{ 6, 78012, "", "=q4=Horrific Curl", "=ds=#s13#" },
-    			{ 7, 78011, "", "=q4=Horrific Loop", "=ds=#s13#" },
-				{ 16, 78180, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
-				{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
-				{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 77221, "", "=q4=Horrific Spirestaff", "=ds=#w9#" },
-    			{ 21, 77220, "", "=q4=Horrific Razor", "=ds=#h1#, #w4#" },
+    			{ 1, 77249, "", "=q4=Bracers of the Banished", "=ds=#s8#, #a1#" },
+    			{ 2, 77248, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
+    			{ 3, 77251, "", "=q4=Treads of Dormant Dreams", "=ds=#s12#, #a3#" },
+    			{ 4, 77250, "", "=q4=Runescriven Demon Collar", "=ds=#s10#, #a4#" },
+    			{ 6, 78012, "", "=q4=Ring of the Riven", "=ds=#s13#" },
+    			{ 7, 78011, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
+			{ 16, 78180, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 77221, "", "=q4=Lightning Rod", "=ds=#w9#" },
+    			{ 21, 77220, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78417, "", "=q4=Bracers of the Banished", "=ds=#s8#, #a1#" },
+    			{ 2, 78420, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
+    			{ 3, 78415, "", "=q4=Treads of Dormant Dreams", "=ds=#s12#, #a3#" },
+    			{ 4, 78416, "", "=q4=Runescriven Demon Collar", "=ds=#s10#, #a4#" },
+    			{ 6, 78419, "", "=q4=Ring of the Riven", "=ds=#s13#" },
+    			{ 7, 78413, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
+			{ 16, 78859, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78860, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78861, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78418, "", "=q4=Lightning Rod", "=ds=#w9#" },
+    			{ 21, 78414, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		info = {
@@ -2843,25 +2945,52 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulUltraxion"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78442, "", "=q4=Treads of Sordid Screams", "=ds=#s12#, #a2#" },
+    			{ 2, 78443, "", "=q4=Imperfect Specimens 27 and 28", "=ds=#s3#, #a3#" },
+    			{ 3, 78438, "", "=q4=Bracers of Looming Darkness", "=ds=#s8#, #a3#" },
+    			{ 4, 78444, "", "=q4=Dragonfracture Belt", "=ds=#s10#, #a4#" },
+    			{ 5, 78439, "", "=q4=Stillheart Warboots", "=ds=#s12#, #a4#" },
+    			{ 7, 78440, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
+    			{ 8, 77972, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
+    			{ 9, 78441, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
+			{ 16, 78863, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78864, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78862, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78437, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77243, "", "=q4=Horrific Footfalls", "=ds=#s12#, #a2#" },
-    			{ 2, 77242, "", "=q4=Horrific Mantle", "=ds=#s3#, #a3#" },
-    			{ 3, 77247, "", "=q4=Horrific Bracers", "=ds=#s8#, #a3#" },
-    			{ 4, 77244, "", "=q4=Horrific Belt", "=ds=#s10#, #a4#" },
-    			{ 5, 77246, "", "=q4=Horrific Stompers", "=ds=#s12#, #a4#" },
-    			{ 7, 78013, "", "=q4=Horrific Bandsaw", "=ds=#s13#" },
-    			{ 8, 77205, "", "=q4=Horrificish Essence", "=ds=#s14#" },
-    			{ 9, 77245, "", "=q4=Horrific Offhand", "=ds=#s15#" },
-				{ 16, 78184, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
-				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
-				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 77223, "", "=q4=Horrific Bonecrusher", "=ds=#h1#, #w6#" },
+    			{ 1, 77243, "", "=q4=Treads of Sordid Screams", "=ds=#s12#, #a2#" },
+    			{ 2, 77242, "", "=q4=Imperfect Specimens 27 and 28", "=ds=#s3#, #a3#" },
+    			{ 3, 77247, "", "=q4=Bracers of Looming Darkness", "=ds=#s8#, #a3#" },
+    			{ 4, 77244, "", "=q4=Dragonfracture Belt", "=ds=#s10#, #a4#" },
+    			{ 5, 77246, "", "=q4=Stillheart Warboots", "=ds=#s12#, #a4#" },
+    			{ 7, 78013, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
+    			{ 8, 77205, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
+    			{ 9, 77245, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
+			{ 16, 78184, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 77223, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78434, "", "=q4=Treads of Sordid Screams", "=ds=#s12#, #a2#" },
+    			{ 2, 78435, "", "=q4=Imperfect Specimens 27 and 28", "=ds=#s3#, #a3#" },
+    			{ 3, 78430, "", "=q4=Bracers of Looming Darkness", "=ds=#s8#, #a3#" },
+    			{ 4, 78436, "", "=q4=Dragonfracture Belt", "=ds=#s10#, #a4#" },
+    			{ 5, 78431, "", "=q4=Stillheart Warboots", "=ds=#s12#, #a4#" },
+    			{ 7, 78432, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
+    			{ 8, 77992, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
+    			{ 9, 78433, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
+			{ 16, 78847, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78848, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78849, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78429, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
 			};
 		};
 		info = {
@@ -2871,24 +3000,49 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulBlackhorn"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78457, "", "=q4=Janglespur Jackboots", "=ds=#s12#, #a1#" },
+    			{ 2, 78454, "", "=q4=Shadow Wing Armbands", "=ds=#s8#, #a2#" },
+    			{ 3, 78455, "", "=q4=Belt of the Beloved Companion", "=ds=#s10#, #a3#" },
+    			{ 4, 78460, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
+    			{ 6, 77973, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
+			{ 16, 78869, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78870, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78868, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78453, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
+    			{ 21, 78459, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
+    			{ 22, 78456, "", "=q4=Blackthorn's Mighty Bulwark", "=ds=#w8#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77234, "", "=q4=Horrific Slippers", "=ds=#s12#, #a1#" },
-    			{ 2, 77240, "", "=q4=Horrific Wristguards", "=ds=#s8#, #a2#" },
-    			{ 3, 77241, "", "=q4=Horrific Belt", "=ds=#s10#, #a3#" },
-    			{ 4, 77239, "", "=q4=Horrific Girdle", "=ds=#s10#, #a4#" },
-    			{ 6, 77202, "", "=q4=Horrific Seed", "=ds=#s14#" },
-				{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
-				{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
-				{ 18, 78172, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 77224, "", "=q4=Horrific Greatmace", "=ds=#h2#, #w6#" },
-    			{ 21, 77225, "", "=q4=Horrific Heartstaff", "=ds=#w9#" },
-    			{ 22, 77226, "", "=q4=Horrific Shield", "=ds=#w8#" },
+    			{ 1, 77234, "", "=q4=Janglespur Jackboots", "=ds=#s12#, #a1#" },
+    			{ 2, 77240, "", "=q4=Shadow Wing Armbands", "=ds=#s8#, #a2#" },
+    			{ 3, 77241, "", "=q4=Belt of the Beloved Companion", "=ds=#s10#, #a3#" },
+    			{ 4, 77239, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
+    			{ 6, 77202, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
+			{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78172, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 77224, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
+    			{ 21, 77225, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
+    			{ 22, 77226, "", "=q4=Blackthorn's Mighty Bulwark", "=ds=#w8#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78449, "", "=q4=Janglespur Jackboots", "=ds=#s12#, #a1#" },
+    			{ 2, 78446, "", "=q4=Shadow Wing Armbands", "=ds=#s8#, #a2#" },
+    			{ 3, 78447, "", "=q4=Belt of the Beloved Companion", "=ds=#s10#, #a3#" },
+    			{ 4, 78452, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
+    			{ 6, 77993, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
+			{ 16, 78850, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
+			{ 17, 78851, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
+			{ 18, 78852, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78445, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
+    			{ 21, 78451, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
+    			{ 22, 78448, "", "=q4=Blackthorn's Mighty Bulwark", "=ds=#w8#" },
 			};
 		};
 		info = {
@@ -2898,27 +3052,49 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulDeathwingSpine"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78466, "", "=q4=Gloves of Liquid Smoke", "=ds=#s9#, #a1#" },
+    			{ 2, 78467, "", "=q4=Molten Blood Footpads", "=ds=#s12#, #a2#" },
+    			{ 3, 78468, "", "=q4=Belt of Shattered Elementium", "=ds=#s10#, #a3#" },
+    			{ 4, 78470, "", "=q4=Backbreaker Spaulders", "=ds=#s3#, #a4#" },
+    			{ 5, 78469, "", "=q4=Gauntlets of the Golden Thorn", "=ds=#s9#, #a4#" },
+    			{ 7, 78458, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },--itemlevel too low
+    			{ 16, 77977, "", "=q4=Eye of Unmaking", "=ds=#s14#" },
+    			{ 17, 77976, "", "=q4=Heart of Unliving", "=ds=#s14#" },
+    			{ 18, 77975, "", "=q4=Will of Unbinding", "=ds=#s14#" },
+    			{ 19, 77974, "", "=q4=Wrath of Unchaining", "=ds=#s14#" },
+    			{ 20, 77978, "", "=q4=Resolve of Undying", "=ds=#s14#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77238, "", "=q4=Horrific Treads", "=ds=#s12#, #a2#" },
-    			{ 2, 77237, "", "=q4=Horrific Cinch", "=ds=#s10#, #a3#" },
-    			{ 3, 77236, "", "=q4=Horrific Pauldrons", "=ds=#s3#, #a4#" },
-    			{ 4, 77235, "", "=q4=Horrific Woundbinders", "=ds=#s9#, #a4#" },
-    			{ 6, 77227, "", "=q4=Horrific Redoubt", "=ds=#w8#" },
-    			{ 16, 77200, "", "=q4=Horrific Essence the Third", "=ds=#s14#" },
-    			{ 17, 77199, "", "=q4=Horrific Quintessence the Third", "=ds=#s14#" },
-    			{ 18, 77198, "", "=q4=Horrific Rune the Third", "=ds=#s14#" },
-    			{ 19, 77197, "", "=q4=Horrific Seed the Third", "=ds=#s14#" },
-    			{ 20, 77201, "", "=q4=Horrific Stay the Third", "=ds=#s14#" },
+    			{ 1, 78357, "", "=q4=Gloves of Liquid Smoke", "=ds=#s9#, #a1#" },
+    			{ 2, 77238, "", "=q4=Molten Blood Footpads", "=ds=#s12#, #a2#" },
+    			{ 3, 77237, "", "=q4=Belt of Shattered Elementium", "=ds=#s10#, #a3#" },
+    			{ 4, 77236, "", "=q4=Backbreaker Spaulders", "=ds=#s3#, #a4#" },
+    			{ 5, 77235, "", "=q4=Gauntlets of the Golden Thorn", "=ds=#s9#, #a4#" },
+    			{ 7, 77227, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },--itemlevel too low
+    			{ 16, 77200, "", "=q4=Eye of Unmaking", "=ds=#s14#" },
+    			{ 17, 77199, "", "=q4=Heart of Unliving", "=ds=#s14#" },
+    			{ 18, 77198, "", "=q4=Will of Unbinding", "=ds=#s14#" },
+    			{ 19, 77197, "", "=q4=Wrath of Unchaining", "=ds=#s14#" },
+    			{ 20, 77201, "", "=q4=Resolve of Undying", "=ds=#s14#" },
 			};
 		};
 		["Heroic"] = {
 			{
-    			{ 16, 77997, "", "=q4=Horrific Essence the Third", "=ds=#s14#" },
-    			{ 17, 77996, "", "=q4=Horrific Quintessence the Third", "=ds=#s14#" },
-    			{ 18, 77995, "", "=q4=Horrific Rune the Third", "=ds=#s14#" },
-    			{ 19, 77994, "", "=q4=Horrific Seed the Third", "=ds=#s14#" },
-    			{ 20, 77998, "", "=q4=Horrific Stay the Third", "=ds=#s14#" },
+    			{ 1, 78461, "", "=q4=Gloves of Liquid Smoke", "=ds=#s9#, #a1#" },
+    			{ 2, 78462, "", "=q4=Molten Blood Footpads", "=ds=#s12#, #a2#" },
+    			{ 3, 78463, "", "=q4=Belt of Shattered Elementium", "=ds=#s10#, #a3#" },
+    			{ 4, 78465, "", "=q4=Backbreaker Spaulders", "=ds=#s3#, #a4#" },
+    			{ 5, 78464, "", "=q4=Gauntlets of the Golden Thorn", "=ds=#s9#, #a4#" },
+    			{ 7, 78450, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },--itemlevel too low
+    			{ 16, 77997, "", "=q4=Eye of Unmaking", "=ds=#s14#" },
+    			{ 17, 77996, "", "=q4=Heart of Unliving", "=ds=#s14#" },
+    			{ 18, 77995, "", "=q4=Will of Unbinding", "=ds=#s14#" },
+    			{ 19, 77994, "", "=q4=Wrath of Unchaining", "=ds=#s14#" },
+    			{ 20, 77998, "", "=q4=Resolve of Undying", "=ds=#s14#" },
 			};
 		};
 		info = {
@@ -2928,22 +3104,43 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulDeathwingMadness"] = {
+--[[		["RaidFinder"] = {
+			{
+    			{ 1, 78484, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
+    			{ 2, 78483, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
+    			{ 3, 78488, "", "=q4=Souldrinker", "=ds=#h1#, #w10#" },
+    			{ 4, 78487, "", "=q4=Gurthalak, Voice of the Deeps", "=ds=#h2#, #w10#" },
+    			{ 5, 78481, "", "=q4=No'Kaled, the Elements of Death", "=ds=#h1#, #w1#" },
+    			{ 6, 78485, "", "=q4=Maw of the Dragonlord", "=ds=#h3#, #w6#" },
+    			{ 16, 78482, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
+    			{ 17, 78486, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
+    			{ 18, 78480, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
+			};
+		};--]]
 		["Normal"] = {
 			{
-    			{ 1, 77195, "", "=q4=Horrific Sacrificial Knife", "=ds=#h3#, #w4#" },
-    			{ 2, 77189, "", "=q4=Horrific Dagger", "=ds=#h1#, #w4#" },
-    			{ 3, 77193, "", "=q4=Horrific Deflecting Sword", "=ds=#h1#, #w10#" },
-    			{ 4, 77191, "", "=q4=Horrific Greatsword", "=ds=#h2#, #w10#" },
-    			{ 5, 77188, "", "=q4=Horrific Axe", "=ds=#h1#, #w1#" },
-    			{ 6, 77196, "", "=q4=Horrific Mace", "=ds=#h3#, #w6#" },
-    			{ 16, 77194, "", "=q4=Horrific Polearm", "=ds=#w7#" },
-    			{ 17, 77190, "", "=q4=Horrific Staff", "=ds=#w9#" },
-    			{ 18, 77192, "", "=q4=Horrific Gun", "=ds=#w5#" },
+    			{ 1, 77195, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
+    			{ 2, 77189, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
+    			{ 3, 77193, "", "=q4=Souldrinker", "=ds=#h1#, #w10#" },
+    			{ 4, 77191, "", "=q4=Gurthalak, Voice of the Deeps", "=ds=#h2#, #w10#" },
+    			{ 5, 77188, "", "=q4=No'Kaled, the Elements of Death", "=ds=#h1#, #w1#" },
+    			{ 6, 77196, "", "=q4=Maw of the Dragonlord", "=ds=#h3#, #w6#" },
+    			{ 16, 77194, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
+    			{ 17, 77190, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
+    			{ 18, 78359, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
 			};
 		};
 		["Heroic"] = {
 			{
-
+    			{ 1, 78475, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
+    			{ 2, 78474, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
+    			{ 3, 78479, "", "=q4=Souldrinker", "=ds=#h1#, #w10#" },
+    			{ 4, 78478, "", "=q4=Gurthalak, Voice of the Deeps", "=ds=#h2#, #w10#" },
+    			{ 5, 78472, "", "=q4=No'Kaled, the Elements of Death", "=ds=#h1#, #w1#" },
+    			{ 6, 78476, "", "=q4=Maw of the Dragonlord", "=ds=#h3#, #w6#" },
+    			{ 16, 78473, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
+    			{ 17, 78477, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
+    			{ 18, 78471, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
 			};
 		};
 		info = {
