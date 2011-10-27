@@ -2923,7 +2923,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Commander Sarannis"],
-			module = moduleName, instance = "TempestKeepArcatraz",
+			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
 
@@ -2945,7 +2945,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["High Botanist Freywinn"],
-			module = moduleName, instance = "TempestKeepArcatraz",
+			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
 
@@ -2966,7 +2966,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Thorngrin the Tender"],
-			module = moduleName, instance = "TempestKeepArcatraz",
+			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
 
@@ -2986,7 +2986,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Laj"],
-			module = moduleName, instance = "TempestKeepArcatraz",
+			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
 
@@ -3039,7 +3039,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Warp Splinter"],
-			module = moduleName, instance = "TempestKeepArcatraz",
+			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
 

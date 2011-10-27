@@ -2733,6 +2733,7 @@ local moduleName = "AtlasLootCataclysm"
 		--- Caverns of Time: Dragon Soul ----
 		-------------------------------------
 
+
 	AtlasLoot_Data["DragonSoulMorchok"] = {
 --[[		["RaidFinder"] = {
 			{
@@ -8000,6 +8001,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 75040, "", "=q1=Flimsy Darkmoon Balloon", "=ds=#e13#"};--Darkmoon Faire??
 				{ 21, 75041, "", "=q1=Flimsy Green Balloon", "=ds=#e13#"};--unknown source
 				{ 22, 75042, "", "=q1=Flimsy Yellow Balloon", "=ds=#e13#"};--unknown source
+				{ 23, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};--unknown source
 			};
 		};
 		info = {
@@ -8489,9 +8491,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 76889, "", "=q4=Spectral Gryphon", "=ds=#e26#" },--unknown source
 				{ 12, 76755, "", "=q4=Space Charger", "=ds=#e26#" },--unknown source
 				{ 13, 73766, "", "=q4=Darkmoon Dancing Bear", "=ds=#e26#" },--unknown source
-				{ 14, 77067, "", "=q4=Placeholder", "=ds=#e26#" },--unknown source
+				{ 14, 77067, "", "=q4=Reins of the Blazing Drake", "=ds=#e26#" },--unknown source
 				{ 15, 77068, "", "=q4=Placeholder", "=ds=#e26#" },--unknown source
-				{ 16, 77069, "", "=q4=Placeholder", "=ds=#e26#" },--unknown source
+				{ 16, 77069, "", "=q4=Life-Binder's Handmaiden", "=ds=#e26#" },--unknown source
+				{ 17, 78924, "", "=q4=Heart of the Aspects", "=ds=#e26#" },--unknown source
+				{ 18, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },--unknown source
 			};
 		};
 		info = {
@@ -8795,33 +8799,33 @@ local moduleName = "AtlasLootCataclysm"
 			};
 			{
 	  			{ 2, 71213, "", "=q4=Amulet of Burning Brilliance", "=ds=#s2#", "#JUSTICE:1250#" },
-    				{ 3, 71214, "", "=q4=Firemind Pendant", "=ds=#s2#", "#JUSTICE:1250#" },
-    				{ 4, 71129, "", "=q4=Necklace of Smoke Signals", "=ds=#s2#", "#JUSTICE:1250#" },
-    				{ 5, 71212, "", "=q4=Stoneheart Choker", "=ds=#s2#", "#JUSTICE:1250#" },
-    				{ 6, 70935, "", "=q4=Stoneheart Necklace", "=ds=#s2#", "#JUSTICE:1250#" },
-    				{ 17, 71210, "", "=q4=Crystalline Brimstone Ring", "=ds=#s13#", "#JUSTICE:1250#" },
-    				{ 18, 70940, "", "=q4=Deflecting Brimstone Band", "=ds=#s13#", "#JUSTICE:1250#" },
-    				{ 19, 71208, "", "=q4=Serrated Brimstone Signet", "=ds=#s13#", "#JUSTICE:1250#" },
-    				{ 20, 71211, "", "=q4=Soothing Brimstone Circle", "=ds=#s13#", "#JUSTICE:1250#" },
-    				{ 21, 71209, "", "=q4=Splintered Brimstone Seal", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 3, 71214, "", "=q4=Firemind Pendant", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 4, 71129, "", "=q4=Necklace of Smoke Signals", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 5, 71212, "", "=q4=Stoneheart Choker", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 6, 70935, "", "=q4=Stoneheart Necklace", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 17, 71210, "", "=q4=Crystalline Brimstone Ring", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 18, 70940, "", "=q4=Deflecting Brimstone Band", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 19, 71208, "", "=q4=Serrated Brimstone Signet", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 20, 71211, "", "=q4=Soothing Brimstone Circle", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 21, 71209, "", "=q4=Splintered Brimstone Seal", "=ds=#s13#", "#JUSTICE:1250#" },
 				extraText = ": "..AL["Accessories"];
 			};
 			{
-    				{ 2, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#", "#JUSTICE:700#" },
-    				{ 3, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#", "#JUSTICE:700#" },
-    				{ 4, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#", "#JUSTICE:700#" },
-    				{ 5, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#", "#JUSTICE:700#" },
-    				{ 6, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 2, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 3, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 4, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 5, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 6, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#", "#JUSTICE:700#" },
 				{ 8, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "#JUSTICE:700#" },
 				{ 9, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "#JUSTICE:700#" },
 				{ 10, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "#JUSTICE:700#" },
 				{ 11, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "#JUSTICE:700#" },
 				{ 12, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "#JUSTICE:700#" },
 				{ 17, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#", "#JUSTICE:700#" },
-    				{ 18, 71151, "", "=q4=Trail of Embers", "=ds=#w12#", "#JUSTICE:700#" },
-    				{ 19, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#", "#JUSTICE:700#" },
-    				{ 20, 71154, "", "=q4=Giantslicer", "=ds=#w11#", "#JUSTICE:700#" },
-    				{ 21, 71218, "", "=q4=Deflecting Star", "=ds=#w11#", "#JUSTICE:700#" },
+    			{ 18, 71151, "", "=q4=Trail of Embers", "=ds=#w12#", "#JUSTICE:700#" },
+    			{ 19, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#", "#JUSTICE:700#" },
+    			{ 20, 71154, "", "=q4=Giantslicer", "=ds=#w11#", "#JUSTICE:700#" },
+    			{ 21, 71218, "", "=q4=Deflecting Star", "=ds=#w11#", "#JUSTICE:700#" },
 				{ 23, 57929, "", "=q3=Dawnblaze Blade", "=ds=#h4#, #w10#", "#JUSTICE:950#" },
 				{ 24, 57928, "", "=q3=Windslicer", "=ds=#h4#, #w1#", "#JUSTICE:950#" },
 				{ 25, 57927, "", "=q3=Throat Slasher", "=ds=#h4#, #w4#", "#JUSTICE:950#" },
@@ -8843,64 +8847,67 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["ValorPoints"] = {
 		["Normal"] = {
 			{
-    			{ 1, 77147, "", "=q4=Hood of Hidden Flesh", "=ds=#s1#, #a1#", "#VALOR:2200#" },
-    			{ 2, 77146, "", "=q4=Soulgaze Cowl", "=ds=#s1#, #a1#", "#VALOR:2200#" },
-    			{ 3, 77149, "", "=q4=Helmet of Perpetual Rebirth", "=ds=#s1#, #a2#", "#VALOR:2200#" },
-    			{ 4, 77148, "", "=q4=Nocturnal Gaze", "=ds=#s1#, #a2#", "#VALOR:2200#" },
-    			{ 5, 77151, "", "=q4=Wolfdream Circlet", "=ds=#s1#, #a3#", "#VALOR:2200#" },
-    			{ 6, 77150, "", "=q4=Zeherah's Dragonskull Crown", "=ds=#s1#, #a3#", "#VALOR:2200#" },
-    			{ 7, 77153, "", "=q4=Glowing Wings of Hope", "=ds=#s1#, #a4#", "#VALOR:2200#" },
-    			{ 8, 77156, "", "=q4=Jaw of Repudiation", "=ds=#s1#, #a4#", "#VALOR:2200#" },
-    			{ 9, 77155, "", "=q4=Visage of Petrification", "=ds=#s1#, #a4#", "#VALOR:2200#" },
-    			{ 16, 77121, "", "=q4=Lightwarper Vestments", "=ds=#s5#, #a1#", "#VALOR:2200#" },
-    			{ 17, 77122, "", "=q4=Robes of Searing Shadow", "=ds=#s5#, #a1#", "#VALOR:2200#" },
-    			{ 18, 77127, "", "=q4=Decaying Herbalist's Robes", "=ds=#s5#, #a2#", "#VALOR:2200#" },
-    			{ 19, 77126, "", "=q4=Shadowbinder Chestguard", "=ds=#s5#, #a2#", "#VALOR:2200#" },
-    			{ 20, 77124, "", "=q4=Dragonflayer Vest", "=ds=#s5#, #a3#", "#VALOR:2200#" },
-    			{ 21, 77125, "", "=q4=Ghostworld Chestguard", "=ds=#s5#, #a3#", "#VALOR:2200#" },
-    			{ 22, 77119, "", "=q4=Bones of the Damned", "=ds=#s5#, #a4#", "#VALOR:2200#" },
-    			{ 23, 77120, "", "=q4=Chestplate of the Unshakable Titan", "=ds=#s5#, #a4#", "#VALOR:2200#" },
-    			{ 24, 77123, "", "=q4=Shining Carapace of Glory", "=ds=#s5#, #a4#", "#VALOR:2200#" },
+				{ 2, 77147, "", "=q4=Hood of Hidden Flesh", "=ds=#s1#, #a1#", "#VALOR:2200#" },
+    			{ 3, 77122, "", "=q4=Robes of Searing Shadow", "=ds=#s5#, #a1#", "#VALOR:2200#" },
+    			{ 4, 77324, "", "=q4=Chronoboost Bracers", "=ds=#s8#, #a1#", "#VALOR:1250#" },
+    			{ 5, 77159, "", "=q4=Clockwinder's Immaculate Gloves", "=ds=#s9#, #a1#", "#VALOR:1650#" },
+    			{ 6, 77179, "", "=q4=Tentacular Belt", "=ds=#s10#, #a1#", "#VALOR:1650#" },
+    			{ 7, 77176, "", "=q4=Kavan's Forsaken Treads", "=ds=#s12#, #a1#", "#VALOR:1650#" },
+    			{ 9, 77146, "", "=q4=Soulgaze Cowl", "=ds=#s1#, #a1#", "#VALOR:2200#" },
+    			{ 10, 77121, "", "=q4=Lightwarper Vestments", "=ds=#s5#, #a1#", "#VALOR:2200#" },
     			{ 11, 77323, "", "=q4=Bracers of the Black Dream", "=ds=#s8#, #a1#", "#VALOR:1250#" },
-    			{ 12, 77324, "", "=q4=Chronoboost Bracers", "=ds=#s8#, #a1#", "#VALOR:1250#" },
-    			{ 13, 77322, "", "=q4=Bracers of Manifold Pockets", "=ds=#s8#, #a2#", "#VALOR:1250#" },
-    			{ 14, 77320, "", "=q4=Luminescent Bracers", "=ds=#s8#, #a2#", "#VALOR:1250#" },
-    			{ 26, 77319, "", "=q4=Bracers of the Spectral Wolf", "=ds=#s8#, #a3#", "#VALOR:1250#" },
-    			{ 27, 77321, "", "=q4=Dragonbelly Bracers", "=ds=#s8#, #a3#", "#VALOR:1250#" },
-    			{ 28, 77318, "", "=q4=Bracers of Unrelenting Excellence", "=ds=#s8#, #a4#", "#VALOR:1250#" },
-    			{ 29, 77316, "", "=q4=Flashing Bracers of Warmth", "=ds=#s8#, #a4#", "#VALOR:1250#" },
-    			{ 30, 77317, "", "=q4=Heartcrusher Wristplates", "=ds=#s8#, #a4#", "#VALOR:1250#" },
-			extraText = ": "..BabbleInventory["Armor"];
+    			{ 12, 77157, "", "=q4=The Hands of Gilly", "=ds=#s9#, #a1#", "#VALOR:1650#" },
+    			{ 13, 77187, "", "=q4=Vestal's Irrepressible Girdle", "=ds=#s10#, #a1#", "#VALOR:1650#" },
+    			{ 14, 77177, "", "=q4=Splinterfoot Sandals", "=ds=#s12#, #a1#", "#VALOR:1650#" },
+    			{ 17, 77149, "", "=q4=Helmet of Perpetual Rebirth", "=ds=#s1#, #a2#", "#VALOR:2200#" },
+    			{ 18, 77127, "", "=q4=Decaying Herbalist's Robes", "=ds=#s5#, #a2#", "#VALOR:2200#" },
+    			{ 19, 77320, "", "=q4=Luminescent Bracers", "=ds=#s8#, #a2#", "#VALOR:1250#" },
+    			{ 20, 77160, "", "=q4=Fungus-Born Gloves", "=ds=#s9#, #a2#", "#VALOR:1650#" },
+    			{ 21, 77181, "", "=q4=Belt of Universal Curing", "=ds=#s10#, #a2#", "#VALOR:1650#" },
+    			{ 22, 77172, "", "=q4=Boots of Fungoid Growth", "=ds=#s12#, #a2#", "#VALOR:1650#" },
+    			{ 24, 77148, "", "=q4=Nocturnal Gaze", "=ds=#s1#, #a2#", "#VALOR:2200#" },
+    			{ 25, 77126, "", "=q4=Shadowbinder Chestguard", "=ds=#s5#, #a2#", "#VALOR:2200#" },
+    			{ 26, 77322, "", "=q4=Bracers of Manifold Pockets", "=ds=#s8#, #a2#", "#VALOR:1250#" },
+    			{ 27, 77161, "", "=q4=Lightfinger Handwraps", "=ds=#s9#, #a2#", "#VALOR:1650#" },
+    			{ 28, 77180, "", "=q4=Belt of Hidden Keys", "=ds=#s10#, #a2#", "#VALOR:1650#" },
+    			{ 29, 77173, "", "=q4=Rooftop Griptoes", "=ds=#s12#, #a2#", "#VALOR:1650#" },
+				extraText = ": "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
 			};
 			{
-    			{ 1, 77159, "", "=q4=Clockwinder's Immaculate Gloves", "=ds=#s9#, #a1#", "#VALOR:1650#" },
-    			{ 2, 77157, "", "=q4=The Hands of Gilly", "=ds=#s9#, #a1#", "#VALOR:1650#" },
-    			{ 3, 77160, "", "=q4=Fungus-Born Gloves", "=ds=#s9#, #a2#", "#VALOR:1650#" },
-    			{ 4, 77161, "", "=q4=Lightfinger Handwraps", "=ds=#s9#, #a2#", "#VALOR:1650#" },
-    			{ 5, 77162, "", "=q4=Arrowflick Gauntlets", "=ds=#s9#, #a3#", "#VALOR:1650#" },
-    			{ 6, 77163, "", "=q4=Gloves of Ghostly Dreams", "=ds=#s9#, #a3#", "#VALOR:1650#" },
-    			{ 7, 77166, "", "=q4=Gauntlets of Feathery Blows", "=ds=#s9#, #a4#", "#VALOR:1650#" },
-    			{ 8, 77164, "", "=q4=Gleaming Grips of Mending", "=ds=#s9#, #a4#", "#VALOR:1650#" },
-    			{ 9, 77165, "", "=q4=Grimfist Crushers", "=ds=#s9#, #a4#", "#VALOR:1650#" },
-    			{ 16, 77179, "", "=q4=Tentacular Belt", "=ds=#s10#, #a1#", "#VALOR:1650#" },
-    			{ 17, 77187, "", "=q4=Vestal's Irrepressible Girdle", "=ds=#s10#, #a1#", "#VALOR:1650#" },
-    			{ 18, 77180, "", "=q4=Belt of Hidden Keys", "=ds=#s10#, #a2#", "#VALOR:1650#" },
-    			{ 19, 77181, "", "=q4=Belt of Universal Curing", "=ds=#s10#, #a2#", "#VALOR:1650#" },
-    			{ 20, 77182, "", "=q4=Cord of Dragon Sinew", "=ds=#s10#, #a3#", "#VALOR:1650#" },
-    			{ 21, 77183, "", "=q4=Girdle of Shamanic Fury", "=ds=#s10#, #a3#", "#VALOR:1650#" },
-    			{ 22, 77184, "", "=q4=Blinding Girdle of Truth", "=ds=#s10#, #a4#", "#VALOR:1650#" },
-    			{ 23, 77185, "", "=q4=Demonbone Waistguard", "=ds=#s10#, #a4#", "#VALOR:1650#" },
-    			{ 24, 77186, "", "=q4=Forgesmelter Waistplate", "=ds=#s10#, #a4#", "#VALOR:1650#" },
-    			{ 11, 77176, "", "=q4=Kavan's Forsaken Treads", "=ds=#s12#, #a1#", "#VALOR:1650#" },
-    			{ 12, 77177, "", "=q4=Splinterfoot Sandals", "=ds=#s12#, #a1#", "#VALOR:1650#" },
-    			{ 13, 77172, "", "=q4=Boots of Fungoid Growth", "=ds=#s12#, #a2#", "#VALOR:1650#" },
-    			{ 14, 77173, "", "=q4=Rooftop Griptoes", "=ds=#s12#, #a2#", "#VALOR:1650#" },
-    			{ 26, 77175, "", "=q4=Boneshard Boots", "=ds=#s12#, #a3#", "#VALOR:1650#" },
-    			{ 27, 77174, "", "=q4=Sabatons of the Graceful Spirit", "=ds=#s12#, #a3#", "#VALOR:1650#" },
-    			{ 28, 77171, "", "=q4=Bladeshatter Treads", "=ds=#s12#, #a4#", "#VALOR:1650#" },
-    			{ 29, 77170, "", "=q4=Kneebreaker Boots", "=ds=#s12#, #a4#", "#VALOR:1650#" },
-    			{ 30, 77169, "", "=q4=Silver Sabatons of Fury", "=ds=#s12#, #a4#", "#VALOR:1650#" },
-			extraText = ": "..BabbleInventory["Armor"];
+    			{ 2, 77151, "", "=q4=Wolfdream Circlet", "=ds=#s1#, #a3#", "#VALOR:2200#" },
+    			{ 3, 77125, "", "=q4=Ghostworld Chestguard", "=ds=#s5#, #a3#", "#VALOR:2200#" },
+    			{ 4, 77319, "", "=q4=Bracers of the Spectral Wolf", "=ds=#s8#, #a3#", "#VALOR:1250#" },
+    			{ 5, 77163, "", "=q4=Gloves of Ghostly Dreams", "=ds=#s9#, #a3#", "#VALOR:1650#" },
+    			{ 6, 77183, "", "=q4=Girdle of Shamanic Fury", "=ds=#s10#, #a3#", "#VALOR:1650#" },
+    			{ 7, 77174, "", "=q4=Sabatons of the Graceful Spirit", "=ds=#s12#, #a3#", "#VALOR:1650#" },
+    			{ 17, 77150, "", "=q4=Zeherah's Dragonskull Crown", "=ds=#s1#, #a3#", "#VALOR:2200#" },
+    			{ 18, 77124, "", "=q4=Dragonflayer Vest", "=ds=#s5#, #a3#", "#VALOR:2200#" },
+    			{ 19, 77321, "", "=q4=Dragonbelly Bracers", "=ds=#s8#, #a3#", "#VALOR:1250#" },
+    			{ 20, 77162, "", "=q4=Arrowflick Gauntlets", "=ds=#s9#, #a3#", "#VALOR:1650#" },
+    			{ 21, 77182, "", "=q4=Cord of Dragon Sinew", "=ds=#s10#, #a3#", "#VALOR:1650#" },
+    			{ 22, 77175, "", "=q4=Boneshard Boots", "=ds=#s12#, #a3#", "#VALOR:1650#" },
+				extraText = ": "..BabbleInventory["Mail"];
+			};
+			{
+    			{ 2, 77153, "", "=q4=Glowing Wings of Hope", "=ds=#s1#, #a4#", "#VALOR:2200#" },
+    			{ 3, 77123, "", "=q4=Shining Carapace of Glory", "=ds=#s5#, #a4#", "#VALOR:2200#" },
+    			{ 4, 77316, "", "=q4=Flashing Bracers of Warmth", "=ds=#s8#, #a4#", "#VALOR:1250#" },
+    			{ 5, 77164, "", "=q4=Gleaming Grips of Mending", "=ds=#s9#, #a4#", "#VALOR:1650#" },
+    			{ 6, 77184, "", "=q4=Blinding Girdle of Truth", "=ds=#s10#, #a4#", "#VALOR:1650#" },
+    			{ 7, 77169, "", "=q4=Silver Sabatons of Fury", "=ds=#s12#, #a4#", "#VALOR:1650#" },
+    			{ 9, 77155, "", "=q4=Visage of Petrification", "=ds=#s1#, #a4#", "#VALOR:2200#" },
+    			{ 10, 77119, "", "=q4=Bones of the Damned", "=ds=#s5#, #a4#", "#VALOR:2200#" },
+    			{ 11, 77317, "", "=q4=Heartcrusher Wristplates", "=ds=#s8#, #a4#", "#VALOR:1250#" },
+    			{ 12, 77165, "", "=q4=Grimfist Crushers", "=ds=#s9#, #a4#", "#VALOR:1650#" },
+    			{ 13, 77185, "", "=q4=Demonbone Waistguard", "=ds=#s10#, #a4#", "#VALOR:1650#" },
+    			{ 14, 77170, "", "=q4=Kneebreaker Boots", "=ds=#s12#, #a4#", "#VALOR:1650#" },
+    			{ 17, 77156, "", "=q4=Jaw of Repudiation", "=ds=#s1#, #a4#", "#VALOR:2200#" },
+    			{ 18, 77120, "", "=q4=Chestplate of the Unshakable Titan", "=ds=#s5#, #a4#", "#VALOR:2200#" },
+    			{ 19, 77318, "", "=q4=Bracers of Unrelenting Excellence", "=ds=#s8#, #a4#", "#VALOR:1250#" },
+    			{ 20, 77166, "", "=q4=Gauntlets of Feathery Blows", "=ds=#s9#, #a4#", "#VALOR:1650#" },
+    			{ 21, 77186, "", "=q4=Forgesmelter Waistplate", "=ds=#s10#, #a4#", "#VALOR:1650#" },
+    			{ 22, 77171, "", "=q4=Bladeshatter Treads", "=ds=#s12#, #a4#", "#VALOR:1650#" },
+				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
     			{ 1, 77091, "", "=q4=Cameo of Terrible Memories", "=ds=#s2#", "#VALOR:1250#" },
@@ -8923,7 +8930,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 24, 77113, "", "=q4=Kiroptyric Sigil", "=ds=#s14#", "#VALOR:1650#" },
     			{ 25, 77115, "", "=q4=Reflection of the Light", "=ds=#s14#", "#VALOR:1650#" },
     			{ 26, 77116, "", "=q4=Rotting Skull", "=ds=#s14#", "#VALOR:1650#" },
-			extraText = ": "..AL["Accessories"];
+				extraText = ": "..AL["Accessories"];
 			};
 			{
     			{ 1, 77081, "", "=q4=Gutripper Shard", "=ds=#s16#", "#VALOR:700#" },
@@ -8931,12 +8938,12 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 77082, "", "=q4=Mindbender Lens", "=ds=#s16#", "#VALOR:700#" },
     			{ 4, 77080, "", "=q4=Ripfang Relic", "=ds=#s16#", "#VALOR:700#" },
     			{ 5, 77084, "", "=q4=Stoutheart Talisman", "=ds=#s16#", "#VALOR:700#" },
-			{ 16, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
+				{ 16, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
     			{ 17, 77078, "", "=q4=Scintillating Rods", "=ds=#w12#", "#VALOR:700#" },
     			{ 18, 77087, "", "=q4=Darting Chakram", "=ds=#w11#", "#VALOR:700#" },
     			{ 19, 77085, "", "=q4=Unexpected Backup", "=ds=#w11#", "#VALOR:700#" },
     			{ 20, 77086, "", "=q4=Windslicer Boomerang", "=ds=#w11#", "#VALOR:700#" },
-			extraText = ": "..AL["Weapons"];
+				extraText = ": "..AL["Weapons"];
 			};
 		};
 		info = {
