@@ -15,6 +15,7 @@ Added loot for Hours of Twilight.
 Added loot for Well of Eternity.
 Added loot for Dragon Soul. (Raid Finder loot not yet viewable)
 Added new Baradin Hold boss.
+Added new Valor Points items.
 Added Season 11 items.
 Added Tier 13 Raid Set.
 Added new Companions.

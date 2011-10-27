@@ -8910,16 +8910,19 @@ local moduleName = "AtlasLootCataclysm"
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
-    			{ 1, 77091, "", "=q4=Cameo of Terrible Memories", "=ds=#s2#", "#VALOR:1250#" },
-    			{ 2, 77092, "", "=q4=Guardspike Choker", "=ds=#s2#", "#VALOR:1250#" },
-    			{ 3, 77090, "", "=q4=Necklace of Black Dragon's Teeth", "=ds=#s2#", "#VALOR:1250#" },
-    			{ 4, 77088, "", "=q4=Opal of the Secret Order", "=ds=#s2#", "#VALOR:1250#" },
-    			{ 5, 77089, "", "=q4=Threadlinked Chain", "=ds=#s2#", "#VALOR:1250#" },
-    			{ 7, 77095, "", "=q4=Batwing Cloak", "=ds=#s4#", "#VALOR:1250#" },
-    			{ 8, 77097, "", "=q4=Dreamcrusher Drape", "=ds=#s4#", "#VALOR:1250#" },
-    			{ 9, 77099, "", "=q4=Indefatigable Greatcloak", "=ds=#s4#", "#VALOR:1250#" },
-    			{ 10, 77098, "", "=q4=Nanoprecise Cape", "=ds=#s4#", "#VALOR:1250#" },
-    			{ 11, 77096, "", "=q4=Woundlicker Cover", "=ds=#s4#", "#VALOR:1250#" },
+    			{ 1, 77095, "", "=q4=Batwing Cloak", "=ds=#s4#", "#VALOR:1250#" },
+    			{ 2, 77097, "", "=q4=Dreamcrusher Drape", "=ds=#s4#", "#VALOR:1250#" },
+    			{ 3, 77099, "", "=q4=Indefatigable Greatcloak", "=ds=#s4#", "#VALOR:1250#" },
+    			{ 4, 77098, "", "=q4=Nanoprecise Cape", "=ds=#s4#", "#VALOR:1250#" },
+    			{ 5, 77096, "", "=q4=Woundlicker Cover", "=ds=#s4#", "#VALOR:1250#" },
+    			{ 7, 77091, "", "=q4=Cameo of Terrible Memories", "=ds=#s2#", "#VALOR:1250#" },
+    			{ 8, 77092, "", "=q4=Guardspike Choker", "=ds=#s2#", "#VALOR:1250#" },
+    			{ 9, 77090, "", "=q4=Necklace of Black Dragon's Teeth", "=ds=#s2#", "#VALOR:1250#" },
+    			{ 10, 77088, "", "=q4=Opal of the Secret Order", "=ds=#s2#", "#VALOR:1250#" },
+    			{ 11, 77089, "", "=q4=Threadlinked Chain", "=ds=#s2#", "#VALOR:1250#" },
+    			{ 13, 77081, "", "=q4=Gutripper Shard", "=ds=#s16#", "#VALOR:700#" },
+    			{ 14, 77083, "", "=q4=Lightning Spirit in a Bottle", "=ds=#s16#", "#VALOR:700#" },
+    			{ 15, 77082, "", "=q4=Mindbender Lens", "=ds=#s16#", "#VALOR:700#" },
     			{ 16, 77109, "", "=q4=Band of Reconstruction", "=ds=#s13#", "#VALOR:1250#" },
     			{ 17, 77111, "", "=q4=Emergency Descent Loop", "=ds=#s13#", "#VALOR:1250#" },
     			{ 18, 77110, "", "=q4=Ring of Torn Flesh", "=ds=#s13#", "#VALOR:1250#" },
@@ -8930,25 +8933,14 @@ local moduleName = "AtlasLootCataclysm"
     			{ 24, 77113, "", "=q4=Kiroptyric Sigil", "=ds=#s14#", "#VALOR:1650#" },
     			{ 25, 77115, "", "=q4=Reflection of the Light", "=ds=#s14#", "#VALOR:1650#" },
     			{ 26, 77116, "", "=q4=Rotting Skull", "=ds=#s14#", "#VALOR:1650#" },
+    			{ 28, 77080, "", "=q4=Ripfang Relic", "=ds=#s16#", "#VALOR:700#" },
+    			{ 29, 77084, "", "=q4=Stoutheart Talisman", "=ds=#s16#", "#VALOR:700#" },
 				extraText = ": "..AL["Accessories"];
-			};
-			{
-    			{ 1, 77081, "", "=q4=Gutripper Shard", "=ds=#s16#", "#VALOR:700#" },
-    			{ 2, 77083, "", "=q4=Lightning Spirit in a Bottle", "=ds=#s16#", "#VALOR:700#" },
-    			{ 3, 77082, "", "=q4=Mindbender Lens", "=ds=#s16#", "#VALOR:700#" },
-    			{ 4, 77080, "", "=q4=Ripfang Relic", "=ds=#s16#", "#VALOR:700#" },
-    			{ 5, 77084, "", "=q4=Stoutheart Talisman", "=ds=#s16#", "#VALOR:700#" },
-				{ 16, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
-    			{ 17, 77078, "", "=q4=Scintillating Rods", "=ds=#w12#", "#VALOR:700#" },
-    			{ 18, 77087, "", "=q4=Darting Chakram", "=ds=#w11#", "#VALOR:700#" },
-    			{ 19, 77085, "", "=q4=Unexpected Backup", "=ds=#w11#", "#VALOR:700#" },
-    			{ 20, 77086, "", "=q4=Windslicer Boomerang", "=ds=#w11#", "#VALOR:700#" },
-				extraText = ": "..AL["Weapons"];
 			};
 		};
 		info = {
 			name = AL["Valor Points"],
-			module = moduleName, menu = "SETMENU",
+			module = moduleName, menu = "VALORPOINTSMENU",
 		};
 	}
 
