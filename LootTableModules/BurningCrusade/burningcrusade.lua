@@ -6282,7 +6282,6 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["HardModeWeapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#z31#", ""};
 				{ 2, 29275, "", "=q4=Searing Sunblade", "=ds=#h4#, #w4#", "#JUSTICE:260#", ""};
 				{ 3, 33192, "", "=q4=Carved Witch Doctor's Stick", "=ds=#w12#", "#JUSTICE:130#", ""};
 				{ 4, 29266, "", "=q4=Azure-Shield of Coldarra", "=ds=#w8#", "#JUSTICE:172#", ""};
@@ -6296,7 +6295,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 12, 29271, "", "=q4=Talisman of Kalecgos", "=ds=#s15#", "#JUSTICE:130#", ""};
 				{ 13, 29274, "", "=q4=Tears of Heaven", "=ds=#s15#", "#JUSTICE:130#", ""};
 				{ 14, 33325, "", "=q4=Voodoo Shaker", "=ds=#s15#", "#JUSTICE:182#", ""};
-				{ 16, 0, "INV_Box_01", "=q6=#z32#", ""};
 				{ 17, 34893, "", "=q4=Vanir's Right Fist of Brutality", "=ds=#h3#, #w13#", "#JUSTICE:546#", ""};
 				{ 18, 34951, "", "=q4=Vanir's Left Fist of Brutality", "=ds=#h4#, #w13#", "#JUSTICE:234#", ""};
 				{ 19, 34950, "", "=q4=Vanir's Left Fist of Savagery", "=ds=#h4#, #w13#", "#JUSTICE:234#", ""};
@@ -6319,20 +6317,19 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["HardModeAccessories"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#z31#", ""};
-				{ 2, 33296, "", "=q4=Brooch of Deftness", "=ds=#s2#", "#JUSTICE:182#", ""};
-				{ 3, 29381, "", "=q4=Choker of Vile Intent", "=ds=#s2#", "#JUSTICE:130#", ""};
-				{ 4, 29374, "", "=q4=Necklace of Eternal Hope", "=ds=#s2#", "#JUSTICE:130#", ""};
-				{ 5, 29368, "", "=q4=Manasurge Pendant", "=ds=#s2#", "#JUSTICE:130#", ""};
-				{ 6, 29386, "", "=q4=Necklace of the Juggernaut", "=ds=#s2#", "#JUSTICE:130#", ""};
-				{ 7, 29373, "", "=q4=Band of Halos", "=ds=#s13#", "#JUSTICE:130#", ""};
-				{ 8, 29379, "", "=q4=Ring of Arathi Warlords", "=ds=#s13#", "#JUSTICE:130#", ""};
-				{ 9, 29367, "", "=q4=Ring of Cryptic Dreams", "=ds=#s13#", "#JUSTICE:130#", ""};
-				{ 10, 29384, "", "=q4=Ring of Unyielding Force", "=ds=#s13#", "#JUSTICE:130#", ""};
-				{ 12, 23572, "", "=q3=Primal Nether", "=ds=#e8#", "#JUSTICE:52#", ""};
-				{ 13, 32227, "", "=q4=Crimson Spinel", "=ds=#e7#", "#JUSTICE:78#", ""};
-				{ 14, 32229, "", "=q4=Lionseye", "=ds=#e7#", "#JUSTICE:78#", ""};
-				{ 15, 32249, "", "=q4=Seaspray Emerald", "=ds=#e7#", "#JUSTICE:78#", ""};
+				{ 1, 33296, "", "=q4=Brooch of Deftness", "=ds=#s2#", "#JUSTICE:182#", ""};
+				{ 2, 29381, "", "=q4=Choker of Vile Intent", "=ds=#s2#", "#JUSTICE:130#", ""};
+				{ 3, 29374, "", "=q4=Necklace of Eternal Hope", "=ds=#s2#", "#JUSTICE:130#", ""};
+				{ 4, 29368, "", "=q4=Manasurge Pendant", "=ds=#s2#", "#JUSTICE:130#", ""};
+				{ 5, 29386, "", "=q4=Necklace of the Juggernaut", "=ds=#s2#", "#JUSTICE:130#", ""};
+				{ 6, 29373, "", "=q4=Band of Halos", "=ds=#s13#", "#JUSTICE:130#", ""};
+				{ 7, 29379, "", "=q4=Ring of Arathi Warlords", "=ds=#s13#", "#JUSTICE:130#", ""};
+				{ 8, 29367, "", "=q4=Ring of Cryptic Dreams", "=ds=#s13#", "#JUSTICE:130#", ""};
+				{ 9, 29384, "", "=q4=Ring of Unyielding Force", "=ds=#s13#", "#JUSTICE:130#", ""};
+				{ 11, 23572, "", "=q3=Primal Nether", "=ds=#e8#", "#JUSTICE:52#", ""};
+				{ 12, 32227, "", "=q4=Crimson Spinel", "=ds=#e7#", "#JUSTICE:78#", ""};
+				{ 13, 32229, "", "=q4=Lionseye", "=ds=#e7#", "#JUSTICE:78#", ""};
+				{ 14, 32249, "", "=q4=Seaspray Emerald", "=ds=#e7#", "#JUSTICE:78#", ""};
 				{ 16, 35326, "", "=q4=Battlemaster's Alacrity", "=ds=#s14#", "#JUSTICE:390#", ""};
 				{ 17, 34049, "", "=q4=Battlemaster's Audacity", "=ds=#s14#", "#JUSTICE:390#", ""};
 				{ 18, 34163, "", "=q4=Battlemaster's Cruelty", "=ds=#s14#", "#JUSTICE:390#", ""};
@@ -6343,17 +6340,17 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 23, 29376, "", "=q4=Essence of the Martyr", "=ds=#s14#", "213 #justice#", ""};
 				{ 24, 29387, "", "=q4=Gnomeregan Auto-Dodger 600", "=ds=#s14#", "213 #justice#", ""};
 				{ 25, 29370, "", "=q4=Icon of the Silver Crescent", "=ds=#s14#", "213 #justice#", ""};
-				{ 27, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", "#JUSTICE:78#", ""};
-				{ 28, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e7#", "#JUSTICE:78#", ""};
-				{ 29, 32231, "", "=q4=Pyrestone", "=ds=#e7#", "#JUSTICE:78#", ""};
-				{ 30, 32230, "", "=q4=Shadowsong Amethyst", "=ds=#e7#", "#JUSTICE:78#", ""};
+				{ 27, 34887, "", "=q4=Angelista's Revenge", "=ds=#s13#", "#JUSTICE:312#", ""};
+				{ 28, 34890, "", "=q4=Anveena's Touch", "=ds=#s13#", "#JUSTICE:312#", ""};
+				{ 29, 34889, "", "=q4=Fused Nethergon Band", "=ds=#s13#", "#JUSTICE:312#", ""};
+				{ 30, 34888, "", "=q4=Ring of the Stalwart Protector", "=ds=#s13#", "#JUSTICE:312#", ""};
+
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#z32#", ""};
-				{ 2, 34887, "", "=q4=Angelista's Revenge", "=ds=#s13#", "#JUSTICE:312#", ""};
-				{ 3, 34890, "", "=q4=Anveena's Touch", "=ds=#s13#", "#JUSTICE:312#", ""};
-				{ 4, 34889, "", "=q4=Fused Nethergon Band", "=ds=#s13#", "#JUSTICE:312#", ""};
-				{ 5, 34888, "", "=q4=Ring of the Stalwart Protector", "=ds=#s13#", "#JUSTICE:312#", ""};
+				{ 2, 30183, "", "=q4=Nether Vortex", "=ds=#e8#", "#JUSTICE:78#", ""};
+				{ 3, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e7#", "#JUSTICE:78#", ""};
+				{ 4, 32231, "", "=q4=Pyrestone", "=ds=#e7#", "#JUSTICE:78#", ""};
+				{ 5, 32230, "", "=q4=Shadowsong Amethyst", "=ds=#e7#", "#JUSTICE:78#", ""};
 			};
 		};
 		info = {
