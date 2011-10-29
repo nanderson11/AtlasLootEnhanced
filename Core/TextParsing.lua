@@ -595,7 +595,7 @@ AtlasLoot_TextParsing = {
 	{ "#t13s1_2#", BabbleItemSet["Deep Earth Battlegarb"] },
 	{ "#t13s1_3#", BabbleItemSet["Deep Earth Regalia"] },
 	{ "#t13s2#", BabbleItemSet["Wyrmstalker Battlegear"] },
-	{ "#t13s3#", BabbleItemSet["Timelord's Regalia"] },
+	{ "#t13s3#", BabbleItemSet["Time Lord's Regalia"] },
 	{ "#t13s4_1#", BabbleItemSet["Regalia of Radiant Glory"] },
 	{ "#t13s4_2#", BabbleItemSet["Armor of Radiant Glory"] },
 	{ "#t13s4_3#", BabbleItemSet["Battleplate of Radiant Glory"] },
