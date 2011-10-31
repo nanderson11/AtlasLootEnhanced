@@ -234,7 +234,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 21, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
     			{ 22, 72801, "", "=q4=Breastplate of Sorrow", "=ds=#s5#, #a4#" },
     			{ 23, 72800, "", "=q4=Gauntlets of Temporal Interference", "=ds=#s9#, #a4#" },
-    			{ 24, 72803, "", "=q4=Girdle of Heroes", "=ds=#s10#, #a4#" },
+    			{ 24, 72803, "", "=q4=Girdle of Lost Heroes", "=ds=#s10#, #a4#" },
     			{ 25, 72807, "", "=q4=Waistguard of Lost Time", "=ds=#s10#, #a4#" },
     			{ 26, 72804, "", "=q4=Dragonshrine Scepter", "=ds=#h1#, #w6#" },
 
@@ -252,8 +252,8 @@ local moduleName = "AtlasLootCataclysm"
     			{ 1, 72825, "", "=q4=Mantle of Time", "=ds=#s3#, #a1#" },
     			{ 2, 72826, "", "=q4=Robes of Fate", "=ds=#s5#, #a1#" },
     			{ 3, 72823, "", "=q4=Timeway Headgear", "=ds=#s1#, #a2#" },
-    			{ 4, 72824, "", "=q4=Distortion Chestguard", "=ds=#s5#, #a2#" },
-    			{ 5, 72816, "", "=q4=Twisted Greaves", "=ds=#s11#, #a3#" },
+    			{ 4, 72824, "", "=q4=Time Twisted Tunic", "=ds=#s5#, #a2#" },
+    			{ 5, 72816, "", "=q4=Distorted Greaves", "=ds=#s11#, #a3#" },
     			{ 6, 72820, "", "=q4=Crown of Epochs", "=ds=#s1#, #a4#" },
     			{ 7, 72821, "", "=q4=Temporal Pauldrons", "=ds=#s3#, #a4#" },
     			{ 8, 72818, "", "=q4=Breastplate of Tarnished Bronze", "=ds=#s5#, #a4#" },
@@ -296,6 +296,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 4, 72849, "", "=q4=Boots of the Treacherous Path", "=ds=#s12#, #a2#" },
     			{ 5, 72850, "", "=q4=Surestride Boots", "=ds=#s12#, #a3#" },
     			{ 6, 72853, "", "=q4=Arcurion Legguards", "=ds=#s11#, #a4#" },
+    			{ 8, 77957, "", "=q1=Urgent Twilight Missive", "=ds=#m2#" },
 			};
 		};
 		info = {
@@ -366,7 +367,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
     			{ 1, 72830, "", "=q4=Peroth'arn's Belt", "=ds=#s10#, #a2#" },
-    			{ 2, 72832, "", "=q4=Girdle of the Queen's Blade", "=ds=#s10#, #a4#" },
+    			{ 2, 72832, "", "=q4=Girdle of the Queen's Champion", "=ds=#s10#, #a4#" },
     			{ 4, 72831, "", "=q4=Horned Band", "=ds=#s13#" },
     			{ 5, 72829, "", "=q4=Orb of the First Satyrs", "=ds=#s15#" },
     			{ 16, 72828, "", "=q4=Trickster's Edge", "=ds=#h1#, #w1#" },
@@ -383,9 +384,9 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
     			
-    			{ 1, 72838, "", "=q4=Cloak of the Highborne", "=ds=#s4#"},
+    			{ 1, 72838, "", "=q4=Cloak of the Royal Protector", "=ds=#s4#"},
     			{ 2, 72836, "", "=q4=Slippers of Wizardry", "=ds=#s12#, #a1#" },
-    			{ 3, 72835, "", "=q4=Puppet String Leggings", "=ds=#s11#, #a2#" },
+    			{ 3, 72835, "", "=q4=Puppeteteer's Pantaloons", "=ds=#s11#, #a2#" },
     			{ 4, 72834, "", "=q4=Breastplate of the Queen's Guard", "=ds=#s5#, #a3#" },
     			{ 16, 72837, "", "=q4=Queen's Boon", "=ds=#s13#" },
     			{ 18, 72833, "", "=q4=Scepter of Azshara", "=ds=#h1#, #w6#" },
@@ -400,17 +401,17 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WoEMannoroth"] = {
 		["Normal"] = {
 			{
-    			{ 1, 72839, "", "=q4=Varo'then's Cowl", "=ds=#s1#, #a1#" },
+    			{ 1, 72839, "", "=q4=Cowl of Highborne Sorcerors", "=ds=#s1#, #a1#" },
     			{ 2, 72847, "", "=q4=Helm of Thorns", "=ds=#s1#, #a2#" },
-    			{ 3, 72840, "", "=q4=Spaulders of the Well", "=ds=#s3#, #a2#" },
-    			{ 4, 72841, "", "=q4=Demonsbane Breastplate", "=ds=#s5#, #a3#" },
+    			{ 3, 72840, "", "=q4=Spaulders of Eternity", "=ds=#s3#, #a2#" },
+    			{ 4, 72841, "", "=q4=Demonsbane Chestguard", "=ds=#s5#, #a3#" },
     			{ 5, 72848, "", "=q4=Legguards of the Legion", "=ds=#s11#, #a3#" },
     			{ 6, 72842, "", "=q4=Annihilan Helm", "=ds=#s1#, #a4#" },
     			{ 7, 72843, "", "=q4=Helm of Power", "=ds=#s1#, #a4#" },
     			{ 16, 72845, "", "=q4=Mannoroth's Signet", "=ds=#s13#" },
-    			{ 17, 72899, "", "=q4=Heart of the Pit Lord", "=ds=#s14#" },
-    			{ 18, 72898, "", "=q4=Light of Lights", "=ds=#s14#" },
-    			{ 20, 72844, "", "=q4=Hammer of Destruction", "=ds=#h2#, #w6#" },
+    			{ 17, 72899, "", "=q4=Varo'then's Brooch", "=ds=#s14#" },
+    			{ 18, 72898, "", "=q4=Foul Gift of the Demon Lord", "=ds=#s14#" },
+    			{ 20, 72844, "", "=q4=Pit Lord's Destroyer", "=ds=#h2#, #w6#" },
     			{ 21, 72846, "", "=q4=Thornwood Staff", "=ds=#w9#" },
 			};
 		};
