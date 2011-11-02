@@ -240,9 +240,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 3, "WOTLKSets", "inv_misc_monsterscales_15", "=ds="..AL["Wrath of the Lich King"].." "..AL["Sets"], ""};
 				{ 5, "AQ20Sets", "achievement_boss_ossiriantheunscarred", "=ds="..BabbleZone["Ruins of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
 				{ 7, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon Set 1/2"], "=q5="..AL["No Longer Available"]};
+				{ 9, "DS4Cloth", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Cloth"]};
+				{ 10, "DS4Mail", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Mail"]};
 				{ 17, "TBCSets", "INV_Weapon_Glave_01", "=ds="..AL["Burning Crusade"].." "..AL["Sets"], ""};
 				{ 20, "AQ40Sets", "achievement_boss_cthun", "=ds="..BabbleZone["Temple of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
 				{ 22, "DS3SET", "INV_Helmet_15", "=ds="..AL["Dungeon Set 3"], "=q5="..AL["Burning Crusade"]};
+				{ 24, "DS4Leather", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Leather"]};
+				{ 25, "DS4Plate", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Plate"]};
 			};
 		};
 		info = {

@@ -45,6 +45,7 @@ local moduleName = "AtlasLootCataclysm"
 ---- Level 85 - Weapons
 ---- Level 85 - Misc
 --- Sets & Collections
+---- Dungeon Set 4 (D4)
 ---- Tier 11/12 Sets (T11/12)
 ---- Tier 13 Sets (T13)
 ---- Legendaries
@@ -253,7 +254,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 2, 72826, "", "=q4=Robes of Fate", "=ds=#s5#, #a1#" },
     			{ 3, 72823, "", "=q4=Timeway Headgear", "=ds=#s1#, #a2#" },
     			{ 4, 72824, "", "=q4=Time Twisted Tunic", "=ds=#s5#, #a2#" },
-    			{ 5, 72816, "", "=q4=Distorted Greaves", "=ds=#s11#, #a3#" },
+    			{ 5, 72816, "", "=q4=Distortion Greaves", "=ds=#s11#, #a3#" },
     			{ 6, 72820, "", "=q4=Crown of Epochs", "=ds=#s1#, #a4#" },
     			{ 7, 72821, "", "=q4=Temporal Pauldrons", "=ds=#s3#, #a4#" },
     			{ 8, 72818, "", "=q4=Breastplate of Tarnished Bronze", "=ds=#s5#, #a4#" },
@@ -424,9 +425,9 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["WoETrash"] = {
 		["Normal"] = {
 			{
-				{ 2, 76159, "", "=q4=Legion Bindings", "=ds=#s8#, #a1#" },
-				{ 3, 76158, "", "=q4=Courtier's Slippers", "=ds=#s12#, #a1#" },
-				{ 4, 76157, "", "=q4=Waterworn Handguards", "=ds=#s8#, #a2#" },
+				{ 2, 76158, "", "=q4=Courtier's Slippers", "=ds=#s12#, #a1#" },
+				{ 3, 76157, "", "=q4=Waterworn Handguards", "=ds=#s8#, #a2#" },
+				{ 4, 76159, "", "=q4=Legion Bindings", "=ds=#s8#, #a3#" },
 			};
 		};
 		info = {
@@ -3022,7 +3023,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 4, 78452, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
     			{ 6, 78445, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
     			{ 7, 78451, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
-    			{ 8, 78448, "", "=q4=Blackthorn's Mighty Bulwark", "=ds=#w8#" },
+    			{ 8, 78448, "", "=q4=Blackhorn's Mighty Bulwark", "=ds=#w8#" },
     			{ 9, 78450, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },
     			{ 16, 78850, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78851, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
@@ -6190,6 +6191,72 @@ local moduleName = "AtlasLootCataclysm"
 	--- Sets & Collections ---
 	--------------------------
 
+		--------------------------
+		--- Dungeon Set 4 (D4) ---
+		--------------------------
+
+	AtlasLoot_Data["DS4Cloth"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AL["Dungeon Set 4"].." - "..BabbleInventory["Cloth"],
+			module = moduleName, menu = "SETSMISCMENU",
+		};
+	}
+
+	AtlasLoot_Data["DS4Leather"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AL["Dungeon Set 4"].." - "..BabbleInventory["Leather"],
+			module = moduleName, menu = "SETSMISCMENU",
+		};
+	}
+
+	AtlasLoot_Data["DS4Mail"] = {
+		["Normal"] = {
+			{
+    			{ 1, 72859, "", "=q4=Dawnslayer Helm", "=ds=#s1#, #a3#" },
+    			{ 2, 72870, "", "=q4=Betrayer's Pauldrons", "=ds=#s3#, #a3#" },
+    			{ 3, 72834, "", "=q4=Breastplate of the Queen's Guard", "=ds=#s5#, #a3#" },
+    			{ 4, 76159, "", "=q4=Legion Bindings", "=ds=#s8#, #a3#" },
+    			{ 5, 72875, "", "=q4=Time Twister's Gauntlets", "=ds=#s9#, #a3#" },
+    			{ 6, 72887, "", "=q4=Cinch of the World Shaman", "=ds=#s10#, #a3#" },
+    			{ 7, 72848, "", "=q4=Legguards of the Legion", "=ds=#s11#, #a3#" },
+    			{ 8, 72799, "", "=q4=Dead End Boots", "=ds=#s12#, #a3#" },
+				{ 16, 72806, "", "=q4=Echoing Headguard", "=ds=#s1#, #a3#" },
+    			{ 17, 72856, "", "=q4=Pauldrons of Midnight Whispers", "=ds=#s3#, #a3#" },
+    			{ 18, 72841, "", "=q4=Demonsbane Chestguard", "=ds=#s5#, #a3#" },
+    			{ 20, 76161, "", "=q4=Gauntlets of the Twilight Hour", "=ds=#s9#, #a3#" },
+    			{ 21, 72877, "", "=q4=Chain of the Demon Hunter", "=ds=#s10#, #a3#" },
+    			{ 22, 72816, "", "=q4=Distortion Greaves", "=ds=#s11#, #a3#" },
+    			{ 23, 72850, "", "=q4=Surestride Boots", "=ds=#s12#, #a3#" },
+			};
+		};
+		info = {
+			name = AL["Dungeon Set 4"].." - "..BabbleInventory["Mail"],
+			module = moduleName, menu = "SETSMISCMENU",
+		};
+	}
+
+	AtlasLoot_Data["DS4Plate"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AL["Dungeon Set 4"].." - "..BabbleInventory["Plate"],
+			module = moduleName, menu = "SETSMISCMENU",
+		};
+	}
+
 		--------------------------------
 		--- Tier 11/12 Sets (T11/12) ---
 		--------------------------------
@@ -7938,7 +8005,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
 				{ 10, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
 				{ 17, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
-				{ 18, 71726, "", "=q3=Murky's Little Soulstone", "BlizzCon 2011"};--will be replaced with the achievement once its known.
+				{ 18, 71726, "", "=q3=Murky's Little Soulstone", "#ACHIEVEMENTID:6185#"};
 				{ 19, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
 				{ 20, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
 				{ 21, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
@@ -8550,7 +8617,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 76755, "", "=q4=Tyrael's Charger", "=ds=#e26#" },--Annual Pass
 				{ 13, 73766, "", "=q4=Darkmoon Dancing Bear", "=ds=#e26#" },--unknown source
 				{ 14, 77067, "", "=q4=Reins of the Blazing Drake", "=ds=#e26#" },--Deathwing
-				{ 15, 77068, "", "=q4=Placeholder", "=ds=#e26#" },--unknown source
+				{ 15, 77068, "", "=q4=Reins of the Twilight Harbinger", "=ds=#e26#" },--unknown source
 				{ 16, 77069, "", "=q4=Life-Binder's Handmaiden", "=ds=#e26#" },--Deathwing heroic
 				{ 17, 78924, "", "=q4=Heart of the Aspects", "=ds=#e26#" },--unknown source
 				{ 18, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },--unknown source
