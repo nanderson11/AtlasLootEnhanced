@@ -532,10 +532,11 @@ if AL then
 	--AL["Wrath of the Lich King"] = true;
 	AL["Cataclysm"] = "Cataclysme";
 	AL["Entrance"] = "Entrée";
-	AL["Dungeon Set 1"] = "Set donjon 1";
-	AL["Dungeon Set 2"] = "Set donjon 2";
-	AL["Dungeon Set 1/2"] = "Set donion 1/2";
-	AL["Dungeon Set 3"]  = "Set donjon 3";
+	AL["Dungeon Set 1"] = "Set de donjon 1";
+	AL["Dungeon Set 2"] = "Set de donjon 2";
+	AL["Dungeon Set 1/2"] = "Set de donion 1/2";
+	AL["Dungeon Set 3"]  = "Set de donjon 3";
+	AL["Dungeon Set 4"] = "Set de donjon 4";
 	--AL["Tier 1"] = true;
 	--AL["Tier 2"] = true;
 	--AL["Tier 3"] = true;
