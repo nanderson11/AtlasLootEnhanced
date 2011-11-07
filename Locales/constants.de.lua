@@ -535,6 +535,7 @@ if AL then
 	-- AL["Dungeon Set 1"] = true;
 	-- AL["Dungeon Set 2"] = true;
 	-- AL["Dungeon Set 1/2"] = true;
+	AL["Replica"] = "Nachbildungen";
 	-- AL["Dungeon Set 3"] = true;
 	-- AL["Dungeon Set 4"] = true;
 	-- AL["Tier 1"] = true;
