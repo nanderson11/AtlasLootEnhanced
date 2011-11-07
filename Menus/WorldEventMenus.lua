@@ -168,19 +168,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["DARKMOONMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, 62046, "", "=q4=Earthquake Deck", "=ds=#m2#"};
-				{ 3, 62048, "", "=q4=Darkmoon Card: Earthquake", "=q1=#m4#: =ds=#s14#"};
-				{ 5, 62045, "", "=q4=Hurricane Deck", "=ds=#m2#"};
-				{ 6, 62049, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 7, 62051, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 9, 62044, "", "=q4=Tsunami Deck", "=ds=#m2#"};
-				{ 10, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
-				{ 12, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
-				{ 13, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
-				{ 17, "Darkmoon", "INV_Misc_Ticket_Darkmoon_01", "=ds="..AL["Darkmoon Faire Rewards"], ""};
-				{ 18, "Darkmoon#2", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};
-				{ 19, "Darkmoon#3", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Level 60 & 70 Trinkets"], ""};
-				{ 20, "Darkmoon#4", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 80 Trinkets"], ""};
+				{ 2, "DarkmoonD1D2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=ec1=#j8# - #j9#"};
+				{ 3, "DarkmoonD1D2#2", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=ec1=#j8# - #j9#"};
+				{ 4, "DarkmoonD1D2#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=ec1=#j8# - #j9#"};
+				{ 5, "DarkmoonD1D2#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=ec1=#j8# - #j9#"};
+				{ 6, "DarkmoonD1D2#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=ec1=#j8# - #j9#"};
+				{ 7, "DarkmoonD1D2#6", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=ec1=#j8# - #j9#"};
+				{ 8, "DarkmoonD1D2#7", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=ec1=#j8# - #j9#"};
+				{ 9, "DarkmoonD1D2#8", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=ec1=#j8# - #j9#"};
+				{ 10, "DarkmoonD1D2#9", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=ec1=#j8# - #j9#"};
+				{ 17, "DarkmoonDeck#4", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 85 Trinkets"], ""};
+				{ 18, "DarkmoonDeck#3", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 80 Trinkets"], ""};
+				{ 19, "DarkmoonDeck#2", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Level 60 & 70 Trinkets"], ""};
+				{ 20, "DarkmoonDeck", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};
 			};
 		};
 		info = {

@@ -159,6 +159,8 @@ AtlasLoot_TextParsing = {
 	{ "#j4#", AL["Heroic"] },
 	{ "#j6#", AL["Dungeon Set 1"] },
 	{ "#j7#", AL["Dungeon Set 2"] },
+	{ "#j8#", AL["Dungeon Set 1/2"] },
+	{ "#j9#", AL["Replica"] },
 	{ "#j11#", AL["Fire Resistance Gear"] },
 	{ "#j12#", AL["Arcane Resistance Gear"] },
 	{ "#j13#", AL["Nature Resistance Gear"] },

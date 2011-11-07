@@ -26,6 +26,7 @@ local CURRENCY_PRICE = {
 	["CHEFAWARD"] = 402,	-- Chef's Award
 	["WORLDTREE"] = 416,	-- Mark of the World Tree
 	["CATAJW"] = 361,	-- Illustrious Jewelcrafter's Token
+	["DARKMOON"] = 515,	-- Darkmoon Prize Ticket
 	
 	-- Custom currencys
 	["MIDSUMMER"] = { itemID = 23247 },

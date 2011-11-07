@@ -294,7 +294,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 1, 72854, "", "=q4=Iceward Cloak", "=ds=#s4#" },
     			{ 2, 72851, "", "=q4=Chillbane Belt", "=ds=#s10#, #a1#" },
     			{ 3, 76150, "", "=q4=Evergreen Wristbands", "=ds=#s8#, #a2#" },
-    			{ 4, 72849, "", "=q4=Boots of the Treacherous Path", "=ds=#s12#, #a2#" },
+    			{ 4, 72849, "", "=q4=Wayfinder Boots", "=ds=#s12#, #a2#" },
     			{ 5, 72850, "", "=q4=Surestride Boots", "=ds=#s12#, #a3#" },
     			{ 6, 72853, "", "=q4=Arcurion Legguards", "=ds=#s11#, #a4#" },
     			{ 8, 77957, "", "=q1=Urgent Twilight Missive", "=ds=#m2#" },
@@ -387,7 +387,7 @@ local moduleName = "AtlasLootCataclysm"
     			
     			{ 1, 72838, "", "=q4=Cloak of the Royal Protector", "=ds=#s4#"},
     			{ 2, 72836, "", "=q4=Slippers of Wizardry", "=ds=#s12#, #a1#" },
-    			{ 3, 72835, "", "=q4=Puppeteteer's Pantaloons", "=ds=#s11#, #a2#" },
+    			{ 3, 72835, "", "=q4=Puppeteer's Pantaloons", "=ds=#s11#, #a2#" },
     			{ 4, 72834, "", "=q4=Breastplate of the Queen's Guard", "=ds=#s5#, #a3#" },
     			{ 16, 72837, "", "=q4=Queen's Boon", "=ds=#s13#" },
     			{ 18, 72833, "", "=q4=Scepter of Azshara", "=ds=#h1#, #w6#" },
@@ -2993,7 +2993,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 4, 78460, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
     			{ 6, 78453, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
     			{ 7, 78459, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
-    			{ 8, 78456, "", "=q4=Blackthorn's Mighty Bulwark", "=ds=#w8#" },
+    			{ 8, 78456, "", "=q4=Blackhorn's Mighty Bulwark", "=ds=#w8#" },
     			{ 9, 78458, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },
 				{ 16, 78869, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78870, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
@@ -3008,7 +3008,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 4, 77239, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
     			{ 6, 77224, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
     			{ 7, 77225, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
-    			{ 8, 77226, "", "=q4=Blackthorn's Mighty Bulwark", "=ds=#w8#" },
+    			{ 8, 77226, "", "=q4=Blackhorn's Mighty Bulwark", "=ds=#w8#" },
     			{ 9, 77227, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },
     			{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
@@ -7745,36 +7745,26 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsMerchant"] = {
 		["Normal"] = {
 			{
-				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
-				{ 2, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
-				{ 3, 70160, "", "=q3=Crimson Lasher", "=ds="..BabbleZone["Molten Front"]},
-				{ 4, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
-				{ 5, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
-				{ 6, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
-				{ 7, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
-				{ 8, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
-				{ 9, 70140, "", "=q3=Hyjal Bear Cub", "=ds="..BabbleZone["Molten Front"]},
-				{ 10, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
-				{ 11, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
-				{ 12, 34955, "", "=q3=Scorched Stone", "=ds="..BabbleZone["Molten Front"]};
-				{ 13, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
-				{ 14, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
-				{ 15, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
-				{ 16, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
-				{ 17, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
-				{ 18, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 19, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 20, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 21, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 22, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
-				{ 23, 46398, "", "=q1=Cat Carrier (Calico Cat)", "=ds="..BabbleZone["Dalaran"]};
-				{ 24, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 25, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 26, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 27, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
-				{ 28, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 29, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
-				{ 30, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
+				{ 1, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
+				{ 2, 70160, "", "=q3=Crimson Lasher", "=ds="..BabbleZone["Molten Front"]},
+				{ 3, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
+				{ 4, 70140, "", "=q3=Hyjal Bear Cub", "=ds="..BabbleZone["Molten Front"]},
+				{ 5, 34955, "", "=q3=Scorched Stone", "=ds="..BabbleZone["Molten Front"]};
+				{ 6, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
+				{ 7, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
+				{ 8, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 9, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 10, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 11, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 12, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
+				{ 13, 46398, "", "=q1=Cat Carrier (Calico Cat)", "=ds="..BabbleZone["Dalaran"]};
+				{ 14, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 15, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 16, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 17, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
+				{ 18, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 19, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
+				{ 20, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
 			};
 			{
 				{ 1, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
@@ -7926,29 +7916,30 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
 				{ 3, 64403, "", "=q3=Fox Kit", "=ds="..BabbleZone["Tol Barad Peninsula"]};
 				{ 4, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
-				{ 5, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Winterspring"]};
-				{ 6, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
-				{ 7, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
-				{ 8, 10822, "", "=q1=Dark Whelpling", "=ds="..BabbleZone["Wetlands"].." / "..BabbleZone["Badlands"].." / "..BabbleZone["Burning Steppes"]};
-				{ 9, 48112, "", "=q1=Darting Hatchling", "=ds="..BabbleZone["Dustwallow Marsh"]};
-				{ 10, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#"};
-				{ 11, 48116, "", "=q1=Gundrak Hatchling", "=ds="..BabbleZone["Zul'Drak"]};
-				{ 12, 48118, "", "=q1=Leaping Hatchling", "=ds="..BabbleZone["Northern Barrens"]};
-				{ 13, 27445, "", "=q1=Magical Crawdad Box", "=ds="..BabbleZone["Terokkar Forest"]};
-				{ 14, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
-				{ 15, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
-				{ 17, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
-				{ 18, 48126, "", "=q1=Razzashi Hatchling", "=ds="..BabbleZone["Northern Stranglethorn"].." / "..BabbleZone["The Cape of Stranglethorn"]};
-				{ 19, 11474, "", "=q1=Sprite Darter Egg", "=ds="..BabbleZone["Feralas"]};
-				{ 20, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
-				{ 21, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
-				{ 22, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 25, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
-				{ 26, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 27, 68673, "", "=q3=Smolderweb Egg", "=q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 28, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 29, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+				{ 5, 73953, "", "=q3=Sea Pony", "=ds=#p24# - Darkmoon Faire Isle"};
+				{ 6, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Winterspring"]};
+				{ 7, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
+				{ 8, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
+				{ 9, 10822, "", "=q1=Dark Whelpling", "=ds="..BabbleZone["Wetlands"].." / "..BabbleZone["Badlands"].." / "..BabbleZone["Burning Steppes"]};
+				{ 10, 48112, "", "=q1=Darting Hatchling", "=ds="..BabbleZone["Dustwallow Marsh"]};
+				{ 11, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#"};
+				{ 12, 48116, "", "=q1=Gundrak Hatchling", "=ds="..BabbleZone["Zul'Drak"]};
+				{ 13, 48118, "", "=q1=Leaping Hatchling", "=ds="..BabbleZone["Northern Barrens"]};
+				{ 14, 27445, "", "=q1=Magical Crawdad Box", "=ds="..BabbleZone["Terokkar Forest"]};
+				{ 15, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
+				{ 17, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
+				{ 18, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
+				{ 19, 48126, "", "=q1=Razzashi Hatchling", "=ds="..BabbleZone["Northern Stranglethorn"].." / "..BabbleZone["The Cape of Stranglethorn"]};
+				{ 20, 11474, "", "=q1=Sprite Darter Egg", "=ds="..BabbleZone["Feralas"]};
+				{ 21, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
+				{ 22, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
+				{ 23, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
+				{ 25, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
+				{ 26, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
+				{ 27, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 28, 68673, "", "=q3=Smolderweb Egg", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 29, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 30, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
 			};
 		};
 		info = {
@@ -7984,6 +7975,28 @@ local moduleName = "AtlasLootCataclysm"
 				{ 27, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
 				{ 28, 71076, "", "=q1=Creepy Crate", "=ds="..AL["Hallow's End"]};
 				{ 29, 70908, "", "=q1=Feline Familiar", "=ds="..AL["Hallow's End"]};
+			};
+			{
+				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
+				{ 2, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
+				{ 3, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
+				{ 4, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
+				{ 5, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
+				{ 6, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
+				{ 7, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
+				{ 8, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
+				{ 9, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
+				{ 10, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
+				{ 12, 74611, "", "=q3=Festival Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 13, 74610, "", "=q3=Lunar Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 16, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 17, 73764, "", "=q3=Darkmoon Monkey", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 18, 73765, "", "=q3=Darkmoon Turtle", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 19, 73762, "", "=q3=Darkmoon Balloon", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 20, 73903, "", "=q3=Darkmoon Tonk", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 21, 73905, "", "=q3=Darkmoon Zeppelin", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 22, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 23, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
 			};
 		};
 		info = {
@@ -8109,24 +8122,21 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["Pets43"] = {
 		["Normal"] = {
 			{
-				{ 1, 74981, "", "=q3=Darkmoon Cub", "=ds=#e13#"};--Darkmoon Faire??
-				{ 2, 73764, "", "=q3=Darkmoon Monkey", "=ds=#e13#"};--Darkmoon Faire??
-				{ 3, 73765, "", "=q3=Darkmoon Turtle", "=ds=#e13#"};--Darkmoon Faire??
-				{ 4, 73762, "", "=q1=Darkmoon Balloon", "=ds=#e13#"};--Darkmoon Faire??
-				{ 5, 73903, "", "=q1=Darkmoon Tonk", "=ds=#e13#"};--Darkmoon Faire??
-				{ 6, 73905, "", "=q1=Darkmoon Zeppelin", "=ds=#e13#"};--Darkmoon Faire??
-				{ 8, 74611, "", "=q3=Festival Lantern", "=ds=#e13#"};--Lunar Festival Horde??
-				{ 9, 74610, "", "=q3=Lunar Lantern", "=ds=#e13#"};--Lunar Festival Alliance??
-				{ 11, 76062, "", "=q3=Fetish Shaman's Spear", "=ds=#e13#"};--DIII CE Pet
-				{ 12, 72134, "", "=q3=Grell Moss", "=ds=#e13#"};--TCG
-				{ 13, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};--unknown source
-				{ 16, 71624, "", "=q3=Purple Puffer", "=ds=#e13#"};--TCG
-				{ 17, 72153, "", "=q3=Sand Scarab", "=ds=#e13#"};--TCG
-				{ 18, 73953, "", "=q3=Sea Pony", "=ds=#e13#"};--unknown source
-				{ 20, 75040, "", "=q1=Flimsy Darkmoon Balloon", "=ds=#e13#"};--Darkmoon Faire??
-				{ 21, 75041, "", "=q1=Flimsy Green Balloon", "=ds=#e13#"};--unknown source
-				{ 22, 75042, "", "=q1=Flimsy Yellow Balloon", "=ds=#e13#"};--unknown source
-				{ 23, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};--unknown source
+				{ 1, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 2, 73764, "", "=q3=Darkmoon Monkey", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 3, 73765, "", "=q3=Darkmoon Turtle", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 4, 73762, "", "=q1=Darkmoon Balloon", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 5, 73903, "", "=q1=Darkmoon Tonk", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 6, 73905, "", "=q1=Darkmoon Zeppelin", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 8, 74611, "", "=q3=Festival Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 9, 74610, "", "=q3=Lunar Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 11, 76062, "", "=q3=Fetish Shaman's Spear", "Diablo III Collectors Edition"};
+				{ 16, 72134, "", "=q3=Grell Moss", "=ds="..AL["TCG Items"]};
+				{ 17, 71624, "", "=q3=Purple Puffer", "=ds="..AL["TCG Items"]};
+				{ 18, 72153, "", "=q3=Sand Scarab", "=ds="..AL["TCG Items"]};
+				{ 20, 73953, "", "=q3=Sea Pony", "Fishing: Darkmoon Faire Isle"};
+				--[[{ 13, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
+				{ 23, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};]]--
 			};
 		};
 		info = {

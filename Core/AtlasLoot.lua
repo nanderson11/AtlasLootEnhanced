@@ -20,7 +20,7 @@ ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSIO
 ATLASLOOT_VERSION_NUM = VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES
 
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
-ATLASLOOT_MIN_ATLAS = "1.20.0"
+ATLASLOOT_MIN_ATLAS = "1.21.0"
 ATLASLOOT_CURRENT_ATLAS = {"1.21.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.22.0", "1.21.1"};
 
