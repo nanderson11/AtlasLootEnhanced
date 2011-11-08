@@ -535,6 +535,7 @@ if AL then
 	AL["Dungeon Set 1"] = "Set de donjon 1";
 	AL["Dungeon Set 2"] = "Set de donjon 2";
 	AL["Dungeon Set 1/2"] = "Set de donion 1/2";
+	AL["Replica"] = "Réplique";
 	AL["Dungeon Set 3"]  = "Set de donjon 3";
 	AL["Dungeon Set 4"] = "Set de donjon 4";
 	--AL["Tier 1"] = true;
