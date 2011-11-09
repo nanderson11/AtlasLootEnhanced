@@ -4300,10 +4300,10 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["STHazzasandMorphaz"] = {
+	AtlasLoot_Data["STDragons"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazzas"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};
 				{ 2, 12465, "", "=q3=Nightfall Drape", "=ds=#s4#", "", "4.48%"};
 				{ 3, 12466, "", "=q3=Dawnspire Cord", "=ds=#s10#, #a1#", "", "4.46%"};
 				{ 4, 12464, "", "=q3=Bloodfire Talons", "=ds=#s9#, #a2#", "", "5.00%"};
@@ -4312,19 +4312,10 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 10797, "", "=q3=Firebreather", "=ds=#h1#, #w10#", "", "4.50%"};
 				{ 8, 12463, "", "=q3=Drakefang Butcher", "=ds=#h2#, #w10#", "", "4.58%"};
 				{ 9, 12243, "", "=q3=Smoldering Claw", "=ds=#w7#", "", "4.56%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Morphaz"], ""};
-				{ 17, 12465, "", "=q3=Nightfall Drape", "=ds=#s4#", "", "4.29%"};
-				{ 18, 12466, "", "=q3=Dawnspire Cord", "=ds=#s10#, #a1#", "", "4.12%"};
-				{ 19, 12464, "", "=q3=Bloodfire Talons", "=ds=#s9#, #a2#", "", "4.21%"};
-				{ 20, 10795, "", "=q3=Drakeclaw Band", "=ds=#s13#", "", "4.07%"};
-				{ 21, 10796, "", "=q3=Drakestone", "=ds=#s15#", "", "4.18%"};
-				{ 22, 10797, "", "=q3=Firebreather", "=ds=#h1#, #w10#", "", "4.24%"};
-				{ 23, 12463, "", "=q3=Drakefang Butcher", "=ds=#h2#, #w10#", "", "4.35%"};
-				{ 24, 12243, "", "=q3=Smoldering Claw", "=ds=#w7#", "", "4.09%"};
 			};
 		};
 		info = {
-			name = BabbleBoss["Hazzas"].." & "..BabbleBoss["Morphaz"],
+			name = BabbleBoss["Dreamscythe"]..", "..BabbleBoss["Weaver"]..", "..BabbleBoss["Hazzas"].." & "..BabbleBoss["Morphaz"],
 			module = moduleName, instance = "TheSunkenTemple",
 		};
 	};
