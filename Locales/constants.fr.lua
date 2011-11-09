@@ -1,6 +1,6 @@
 ﻿-- $Id$
 --[[
-constants.fr.lua --- Traduction frFR par Trasher. Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
+constants.fr.lua --- Traduction frFR par Trasher (Tchoupie / Nerz'hul-EU). Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -672,7 +672,8 @@ if AL then
 	AL["Ulduar Formula/Patterns/Plans"] = "Formules / Patrons / Plans d'Ulduar";
 	AL["Trial of the Crusader Patterns/Plans"] = "Patrons / Plans de L'épreuve du croisé";
 	AL["BRD Blacksmithing Plans"] = "Plans de forge de BRD";
-	AL["Firelands Patterns/Plans"] = "Plans / Patrons des terres de Feu";
+	AL["Firelands Patterns/Plans"] = "Plans / Patrons des Terres de Feu";
+	AL["Dragon Soul Patterns/Plans"] = "Plans / Patrons de La Fin des temps";
 
 	-- General titles
 	AL["Achievement"] = "Haut fait";
