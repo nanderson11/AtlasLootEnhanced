@@ -220,13 +220,13 @@ AtlasLoot_LootTableRegister = {
 		["CoTDragonSoulA"] = "CoTDragonSoul",
 		["CoTDragonSoulB"] = "CoTDragonSoul",
 		["CoTDragonSoulC"] = "CoTDragonSoul",
-		["CoTDragonSoulD"] = "CoTDragonSoul",
 		["CoTDragonSoul"] = {
 			["CoTDragonSoulA"] = {
 				{ "DragonSoulMorchok", 2, EncounterJournalID = 311 },
 				{ "DragonSoulUltraxion", 3, EncounterJournalID = 331, hide = true },
 				{ "DragonSoulShared", 5, hide = true },
 				{ "DragonSoulTrash", 6, hide = true },
+				{ "DragonSoulPatterns", 7, hide = true },
 			},
 			["CoTDragonSoulB"] = {
 				{ "DragonSoulZonozz", 1, EncounterJournalID = 324 },
@@ -240,17 +240,12 @@ AtlasLoot_LootTableRegister = {
 			["CoTDragonSoulC"] = {
 				{ "DragonSoulBlackhorn", 1, EncounterJournalID = 332 },
 				{ "DragonSoulDeathwingSpine", 2, EncounterJournalID = 318 },
-				{ "DragonSoulShared", 4, hide = true },
-				{ "DragonSoulTrash", 5, hide = true },
-				{ "DragonSoulPatterns", 6, hide = true },
+				{ "DragonSoulDeathwingMadness", 3, EncounterJournalID = 333 },
+				{ "DragonSoulShared", 5 },
+				{ "DragonSoulTrash", 6 },
+				{ "DragonSoulPatterns", 7 },
 			},
-			["CoTDragonSoulD"] = {
-				{ "DragonSoulDeathwingMadness", 1, EncounterJournalID = 333 },
-				{ "DragonSoulShared", 3 },
-				{ "DragonSoulTrash", 4 },
-				{ "DragonSoulPatterns", 5 },
-			},
-			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC", "CoTDragonSoulD" }, raid = true, EncounterJournalID = 187 },
+			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC" }, raid = true, EncounterJournalID = 187 },
 		},
 
 		["Firelands"] = {

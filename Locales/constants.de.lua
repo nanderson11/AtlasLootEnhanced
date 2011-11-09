@@ -673,6 +673,7 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = "Prüfung des Kreuzfahrers Muster/Pläne";
 	AL["BRD Blacksmithing Plans"] = "Schwarzfelstiefen Schmiedepläne";
 	AL["Firelands Patterns/Plans"] = "Feuerlande Muster/Pläne";
+	AL["Dragon Soul Patterns/Plans"] = "Drachenseele Muster/Pläne";
 
 	-- General titles
 	AL["Achievement"] = "Erfolg";
