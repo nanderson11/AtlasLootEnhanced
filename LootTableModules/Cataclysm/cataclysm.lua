@@ -3221,6 +3221,35 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
+	AtlasLoot_Data["DragonSoulPatterns"] = {
+		["Normal"] = {
+			{
+				{ 1, 72004, "", "=q4=Pattern: Bracers of Unconquered Power", "=ds=#p8# (525)"};
+				{ 2, 72003, "", "=q4=Pattern: Dreamwraps of the Light", "=ds=#p8# (525)"};
+				{ 3, 72002, "", "=q4=Pattern: Lavaquake Legwraps", "=ds=#p8# (525)"};
+				{ 4, 72000, "", "=q4=Pattern: World Mender's Pants", "=ds=#p8# (525)"};
+				{ 6, 72006, "", "=q4=Pattern: Bladeshadow Leggings", "=ds=#p7# (525)"};
+				{ 7, 72010, "", "=q4=Pattern: Bladeshadow Wristguards", "=ds=#p7# (525)"};
+				{ 8, 72008, "", "=q4=Pattern: Bracers of Flowing Serenity", "=ds=#p7# (525)"};
+				{ 9, 72011, "", "=q4=Pattern: Bracers of the Hunter-Killer", "=ds=#p7# (525)"};
+				{ 10, 72005, "", "=q4=Pattern: Deathscale Leggings", "=ds=#p7# (525)"};
+				{ 11, 71999, "", "=q4=Pattern: Leggings of Nature's Champion", "=ds=#p7# (525)"};
+				{ 12, 72007, "", "=q4=Pattern: Rended Earth Leggings", "=ds=#p7# (525)"};
+				{ 13, 72009, "", "=q4=Pattern: Thundering Deathscale Wristguards", "=ds=#p7# (525)"};
+				{ 16, 72015, "", "=q4=Plans: Bracers of Destructive Strength", "=ds=#p2# (525)"};
+				{ 17, 72013, "", "=q4=Plans: Foundations of Courage", "=ds=#p2# (525)"};
+				{ 18, 72001, "", "=q4=Plans: Pyrium Legplates of Purified Evil", "=ds=#p2# (525)"};
+				{ 19, 72014, "", "=q4=Plans: Soul Redeemer Bracers", "=ds=#p2# (525)"};
+				{ 20, 72016, "", "=q4=Plans: Titanguard Wristplates", "=ds=#p2# (525)"};
+				{ 21, 72012, "", "=q4=Plans: Unstoppable Destroyer's Legplates", "=ds=#p2# (525)"};
+			};
+		};
+		info = {
+			name = AL["Dragon Soul Patterns/Plans"],
+			module = moduleName, instance = "DragonSoul",
+		};
+	};
+
 		----------------------
 		--- Firelands ----
 		----------------------
@@ -7765,27 +7794,25 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
 				{ 19, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
 				{ 20, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
+				{ 21, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
+				{ 22, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
+				{ 23, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 24, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 25, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 26, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
+				{ 27, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
+				{ 28, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
+				{ 29, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
+				{ 30, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
 			};
 			{
-				{ 1, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
-				{ 2, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
-				{ 3, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 4, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 5, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 6, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
-				{ 7, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
-				{ 8, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
-				{ 9, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
-				{ 10, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
-				{ 11, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
-				{ 12, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 13, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
-				{ 14, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 15, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 16, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 17, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
-				{ 18, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleZone["Darkmoon Faire"]};
-				{ 19, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 1, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
+				{ 2, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 3, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
+				{ 4, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 5, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 6, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
+				{ 7, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
 			};
 		};
 		info = {
@@ -7810,17 +7837,16 @@ local moduleName = "AtlasLootCataclysm"
 					{ 7, 72045, "", "=q1=Horde Balloon", "=q1=#m4#: #QUESTID:29401#"};
 					{ 7, 72042, "", "=q1=Alliance Balloon", "=q1=#m4#: #QUESTID:29412#"};
 				};
-				{ 8, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: #QUESTID:7946#"};
-				{ 9, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 10, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
-				{ 11, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
-				{ 12, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 13, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
-				{ 14, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
-				{ 15, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
-				{ 16, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
-				{ 17, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
-				{ 18, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{ 8, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 9, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
+				{ 10, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
+				{ 11, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 12, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
+				{ 13, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
+				{ 14, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
+				{ 15, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
+				{ 16, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 17, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
@@ -7997,6 +8023,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 73905, "", "=q3=Darkmoon Zeppelin", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 22, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 23, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 24, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleFaction["Darkmoon Faire"]};
 			};
 		};
 		info = {
@@ -8359,7 +8386,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Neutral Faction Mounts"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8393,7 +8420,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["PvP Mounts"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8436,7 +8463,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Rare Mounts"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8467,7 +8494,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Achievement Reward"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8481,10 +8508,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 5, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
 				{ 7, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
 				{ 8, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 9, 34061, "", "=q4=Turbo-Charged Flying Machine Control", "=ds=#e27# =q2=#p5#"};
+				{ 9, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
 				{ 10, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
 				{ 11, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 12, 34060, "", "=q3=Flying Machine Control", "=ds=#e27# =q2=#p5#"};
+				{ 12, 34060, "", "=q3=Flying Machine", "=ds=#e27# =q2=#p5#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
 				{ 17, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q1=#m4#: #QUESTID:24915#"};
 				{ 18, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
@@ -8493,7 +8520,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Quest Reward"].." / "..AL["Crafted Mounts"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8526,7 +8553,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Promotional Mounts"].." / "..AL["Card Game Mounts"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8534,30 +8561,30 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
-				{ 2, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e26#", "100 #champseal#"};
-				{ 3, 45590, "", "=q4=Exodar Elekk", "=ds=#e26#", "100 #champseal#"};
-				{ 4, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e26#", "100 #champseal#"};
-				{ 5, 45586, "", "=q4=Ironforge Ram", "=ds=#e26#", "100 #champseal#"};
-				{ 6, 45125, "", "=q4=Stormwind Steed", "=ds=#e26#", "100 #champseal#"};
-				{ 8, 46745, "", "=q4=Great Red Elekk", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 9, 46752, "", "=q4=Swift Gray Steed", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 10, 46744, "", "=q4=Swift Moonsaber", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 11, 46748, "", "=q4=Swift Violet Ram", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 12, 46747, "", "=q4=Turbostrider", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 14, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "100 #champseal#"};
-				{ 15, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "100 #champseal#"};
+				{ 2, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 3, 45590, "", "=q4=Exodar Elekk", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 4, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 5, 45586, "", "=q4=Ironforge Ram", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 6, 45125, "", "=q4=Stormwind Steed", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 8, 46745, "", "=q4=Great Red Elekk", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 9, 46752, "", "=q4=Swift Gray Steed", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 10, 46744, "", "=q4=Swift Moonsaber", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 11, 46748, "", "=q4=Swift Violet Ram", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 12, 46747, "", "=q4=Turbostrider", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 14, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 15, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
 				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
-				{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e26#", "100 #champseal#"};
-				{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e26#", "100 #champseal#"};
-				{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e26#", "100 #champseal#"};
-				{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e26#", "100 #champseal#"};
-				{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e26#", "100 #champseal#"};
-				{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e26#", "500 #gold# 5 #champseal#"};
-				{ 29, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "150 #champseal#"};
+				{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 29, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "#CHAMPSEAL:150#"};
 				extraText = " - "..AL["Argent Tournament"]
 			};
 			{
@@ -8572,7 +8599,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["World Events"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8606,7 +8633,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Unobtainable Mounts"],
-			module = moduleName, menu = "MOUNTMENU",
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
 
@@ -8753,32 +8780,32 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["Heirloom"] = {
 		["Normal"] = {
 			{
-				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 6, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 7, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 9, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 10, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 11, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 12, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 13, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 14, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# / 60 #champseal#"};
-				{ 15, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# / 60 #champseal#"};
+				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 6, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 7, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 9, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 10, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 11, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 12, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 13, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 14, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
+				{ 15, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
 				{ 16, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
-				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725#  / 75 #champseal#"};
-				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725#  / 75 #champseal#"};
-				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175#  / 60 #champseal#"};
-				{ 22, 69893, "", "=q7=Blooksoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / 60 #champseal#"};
-				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / 60 #champseal#"};
-				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# / 95 #champseal#"};
-				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# / 75 #champseal#"};
-				{ 26, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# / 75 #champseal#"};
-				{ 27, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# / 95 #champseal#"};
-				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# / 95 #champseal#"};
-				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# / 95 #champseal#"};
+				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75#"};
+				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75#"};
+				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
+				{ 22, 69893, "", "=q7=Blooksoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
+				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
+				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
+				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# / #CHAMPSEAL:75#"};
+				{ 26, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# / #CHAMPSEAL:75#"};
+				{ 27, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
+				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
+				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
 			};
 			{
 				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:2175#"};
@@ -8913,59 +8940,60 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 58193, "", "=q4=Haunt of Flies", "=ds=#s4#", "#JUSTICE:1250#" },
 				{ 4, 58194, "", "=q4=Heavenly Breeze", "=ds=#s4#", "#JUSTICE:1250#" },
 				{ 5, 58191, "", "=q4=Viewless Wings", "=ds=#s4#", "#JUSTICE:1250#" },
-				{ 7, 57931, "", "=q3=Amulet of Dull Dreaming", "=ds=#s2#", "#JUSTICE:1250#" },
-				{ 8, 57934, "", "=q3=Celadon Pendant", "=ds=#s2#", "#JUSTICE:1250#" },
-				{ 9, 57930, "", "=q3=Pendant of Quiet Breath", "=ds=#s2#", "#JUSTICE:1250#" },
-				{ 10, 57933, "", "=q3=String of Beaded Bubbles", "=ds=#s2#", "#JUSTICE:1250#" },
-				{ 11, 57932, "", "=q3=The Lustrous Eye", "=ds=#s2#", "#JUSTICE:1250#" },
+				{ 7, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 8, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 9, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 10, 58180, "", "=q4=License to Slay", "=ds=#s14#", "#JUSTICE:1650#" },
+				{ 11, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "#JUSTICE:1650#" },
 				{ 13, 57924, "", "=q3=Apple-Bent Bough", "=ds=#s15#", "#JUSTICE:950#" },
 				{ 14, 57923, "", "=q3=Hermit's Lamp", "=ds=#s15#", "#JUSTICE:950#" },
-				{ 16, 58185, "", "=q4=Band of Bees", "=ds=#s13#", "#JUSTICE:1250#" },
-				{ 17, 58188, "", "=q4=Band of Secret Names", "=ds=#s13#", "#JUSTICE:1250#" },
-				{ 18, 68812, "", "=q4=Hornet-Sting Band", "=ds=#s13#", "#JUSTICE:1250#" },
-				{ 19, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "#JUSTICE:1250#" },
-				{ 20, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "#JUSTICE:1250#" },
-				{ 22, 58184, "", "=q4=Core of Ripeness", "=ds=#s14#", "#JUSTICE:1650#" },
-				{ 23, 58182, "", "=q4=Bedrock Talisman", "=ds=#s14#", "#JUSTICE:1650#" },
-				{ 24, 58181, "", "=q4=Fluid Death", "=ds=#s14#", "#JUSTICE:1650#" },
-				{ 25, 58180, "", "=q4=License to Slay", "=ds=#s14#", "#JUSTICE:1650#" },
-				{ 26, 58183, "", "=q4=Soul Casket", "=ds=#s14#", "#JUSTICE:1650#" },
+	  			{ 16, 71213, "", "=q4=Amulet of Burning Brilliance", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 17, 71214, "", "=q4=Firemind Pendant", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 18, 71129, "", "=q4=Necklace of Smoke Signals", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 19, 71212, "", "=q4=Stoneheart Choker", "=ds=#s2#", "#JUSTICE:1250#" },
+    			{ 20, 70935, "", "=q4=Stoneheart Necklace", "=ds=#s2#", "#JUSTICE:1250#" },
+				{ 22, 57931, "", "=q3=Amulet of Dull Dreaming", "=ds=#s2#", "#JUSTICE:1250#" },
+				{ 23, 57934, "", "=q3=Celadon Pendant", "=ds=#s2#", "#JUSTICE:1250#" },
+				{ 24, 57930, "", "=q3=Pendant of Quiet Breath", "=ds=#s2#", "#JUSTICE:1250#" },
+				{ 25, 57933, "", "=q3=String of Beaded Bubbles", "=ds=#s2#", "#JUSTICE:1250#" },
+				{ 26, 57932, "", "=q3=The Lustrous Eye", "=ds=#s2#", "#JUSTICE:1250#" },
 				extraText = ": "..AL["Accessories"];
 			};
 			{
-	  			{ 2, 71213, "", "=q4=Amulet of Burning Brilliance", "=ds=#s2#", "#JUSTICE:1250#" },
-    			{ 3, 71214, "", "=q4=Firemind Pendant", "=ds=#s2#", "#JUSTICE:1250#" },
-    			{ 4, 71129, "", "=q4=Necklace of Smoke Signals", "=ds=#s2#", "#JUSTICE:1250#" },
-    			{ 5, 71212, "", "=q4=Stoneheart Choker", "=ds=#s2#", "#JUSTICE:1250#" },
-    			{ 6, 70935, "", "=q4=Stoneheart Necklace", "=ds=#s2#", "#JUSTICE:1250#" },
-    			{ 17, 71210, "", "=q4=Crystalline Brimstone Ring", "=ds=#s13#", "#JUSTICE:1250#" },
-    			{ 18, 70940, "", "=q4=Deflecting Brimstone Band", "=ds=#s13#", "#JUSTICE:1250#" },
-    			{ 19, 71208, "", "=q4=Serrated Brimstone Signet", "=ds=#s13#", "#JUSTICE:1250#" },
-    			{ 20, 71211, "", "=q4=Soothing Brimstone Circle", "=ds=#s13#", "#JUSTICE:1250#" },
-    			{ 21, 71209, "", "=q4=Splintered Brimstone Seal", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 1, 71210, "", "=q4=Crystalline Brimstone Ring", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 2, 70940, "", "=q4=Deflecting Brimstone Band", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 3, 71208, "", "=q4=Serrated Brimstone Signet", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 4, 71211, "", "=q4=Soothing Brimstone Circle", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 5, 71209, "", "=q4=Splintered Brimstone Seal", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 7, 58185, "", "=q4=Band of Bees", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 8, 58188, "", "=q4=Band of Secret Names", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 9, 68812, "", "=q4=Hornet-Sting Band", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 10, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "#JUSTICE:1250#" },
+				{ 11, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "#JUSTICE:1250#" },
+    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 17, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 18, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 19, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#", "#JUSTICE:700#" },
+    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 22, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 23, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 24, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 25, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 26, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "#JUSTICE:700#" },
 				extraText = ": "..AL["Accessories"];
 			};
 			{
-    			{ 2, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 3, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 4, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 5, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 6, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 8, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 9, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 10, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 11, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 12, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 17, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#", "#JUSTICE:700#" },
-    			{ 18, 71151, "", "=q4=Trail of Embers", "=ds=#w12#", "#JUSTICE:700#" },
-    			{ 19, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#", "#JUSTICE:700#" },
-    			{ 20, 71154, "", "=q4=Giantslicer", "=ds=#w11#", "#JUSTICE:700#" },
-    			{ 21, 71218, "", "=q4=Deflecting Star", "=ds=#w11#", "#JUSTICE:700#" },
-				{ 23, 57929, "", "=q3=Dawnblaze Blade", "=ds=#h4#, #w10#", "#JUSTICE:950#" },
-				{ 24, 57928, "", "=q3=Windslicer", "=ds=#h4#, #w1#", "#JUSTICE:950#" },
-				{ 25, 57927, "", "=q3=Throat Slasher", "=ds=#h4#, #w4#", "#JUSTICE:950#" },
-				{ 26, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#w8#", "#JUSTICE:950#" },
-				{ 27, 57925, "", "=q3=Shield of the Mists", "=ds=#w8#", "#JUSTICE:950#" },
+
+				{ 2, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#", "#JUSTICE:700#" },
+    			{ 3, 71151, "", "=q4=Trail of Embers", "=ds=#w12#", "#JUSTICE:700#" },
+    			{ 4, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#", "#JUSTICE:700#" },
+    			{ 5, 71154, "", "=q4=Giantslicer", "=ds=#w11#", "#JUSTICE:700#" },
+    			{ 6, 71218, "", "=q4=Deflecting Star", "=ds=#w11#", "#JUSTICE:700#" },
+				{ 17, 57929, "", "=q3=Dawnblaze Blade", "=ds=#h4#, #w10#", "#JUSTICE:950#" },
+				{ 18, 57928, "", "=q3=Windslicer", "=ds=#h4#, #w1#", "#JUSTICE:950#" },
+				{ 19, 57927, "", "=q3=Throat Slasher", "=ds=#h4#, #w4#", "#JUSTICE:950#" },
+				{ 20, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#w8#", "#JUSTICE:950#" },
+				{ 21, 57925, "", "=q3=Shield of the Mists", "=ds=#w8#", "#JUSTICE:950#" },
 				extraText = ": "..AL["Weapons"];
 			};
 		};

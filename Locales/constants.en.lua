@@ -673,6 +673,7 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = true;
 	AL["BRD Blacksmithing Plans"] = true;
 	AL["Firelands Patterns/Plans"] = true;
+	AL["Dragon Soul Patterns/Plans"] = true;
 
 	-- General titles
 	AL["Achievement"] = true;

@@ -235,17 +235,20 @@ AtlasLoot_LootTableRegister = {
 				{ "DragonSoulUltraxion", EncounterJournalID = 331 },
 				{ "DragonSoulShared", 5, hide = true },
 				{ "DragonSoulTrash", 6, hide = true },
+				{ "DragonSoulPatterns", 7, hide = true },
 			},
 			["CoTDragonSoulC"] = {
 				{ "DragonSoulBlackhorn", 1, EncounterJournalID = 332 },
 				{ "DragonSoulDeathwingSpine", 2, EncounterJournalID = 318 },
 				{ "DragonSoulShared", 4, hide = true },
 				{ "DragonSoulTrash", 5, hide = true },
+				{ "DragonSoulPatterns", 6, hide = true },
 			},
 			["CoTDragonSoulD"] = {
 				{ "DragonSoulDeathwingMadness", 1, EncounterJournalID = 333 },
 				{ "DragonSoulShared", 3 },
 				{ "DragonSoulTrash", 4 },
+				{ "DragonSoulPatterns", 5 },
 			},
 			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC", "CoTDragonSoulD" }, raid = true, EncounterJournalID = 187 },
 		},
@@ -1681,6 +1684,20 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsAccessories" },
 			},
 			["Info"] = { BabbleInventory["Companions"], "AtlasLootCataclysm"},
+		},
+
+		["Mounts"] = {
+			["Bosses"] = {
+				{ "MountsFaction" },
+				{ "MountsPvP" },
+				{ "MountsRare" },
+				{ "MountsAchievement" },
+				{ "MountsCraftQuest" },
+				{ "MountsCardGamePromotional" },
+				{ "MountsEvent" },
+				{ "MountsRemoved" },
+			},
+			["Info"] = { BabbleInventory["Mounts"], "AtlasLootCataclysm"},
 		},
 
 		["WorldEpics"] = {

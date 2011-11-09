@@ -1121,22 +1121,30 @@ local moduleName = "AtlasLoot_WorldEvents"
 				extraText = ": "..AL["Darkmoon Faire Rewards"];
 			};]]--
 			{
-				{ 1, 37163, "", "=q2=Rogues Deck", "=ds=#m2#"};
-				{ 2, 38318, "", "=q2=Darkmoon Robe", "=q1=#m4#: =ds=#s5#, #a1#"};
-				{ 3, 39509, "", "=q2=Darkmoon Vest", "=q1=#m4#: =ds=#s5#, #a2#"};
-				{ 4, 39507, "", "=q2=Darkmoon Chain Shirt", "=q1=#m4#: =ds=#s5#, #a3#"};
-				{ 6, 37164, "", "=q3=Swords Deck", "=ds=#m2#"};
-				{ 7, 39894, "", "=q3=Darkcloth Shoulders", "=q1=#m4#: =ds=#s3#, #a1#"};
-				{ 8, 39895, "", "=q3=Cloaked Shoulderpads", "=q1=#m4#: =ds=#s3#, #a2#"};
-				{ 9, 39897, "", "=q3=Azure Shoulderguards", "=q1=#m4#: =ds=#s3#, #a3#"};
-				{ 16, 44148, "", "=q3=Mages Deck", "=ds=#m2#"};
-				{ 17, 44215, "", "=q3=Darkmoon Necklace", "=q1=#m4#: =ds=#s2#"};
-				{ 18, 44213, "", "=q3=Darkmoon Pendant", "=q1=#m4#: =ds=#s2#"};
-				{ 21, 44158, "", "=q3=Demons Deck", "=ds=#m2#"};
-				{ 22, 44217, "", "=q3=Darkmoon Dirk", "=q1=#m4#: =ds=#h1#, #w4#"};
-				{ 23, 44218, "", "=q3=Darkmoon Executioner", "=q1=#m4#: =ds=#h2#, #w1#"};
-				{ 24, 44219, "", "=q3=Darkmoon Magestaff", "=q1=#m4#: =ds=#w9#"};
-				extraText = ": "..AL["Low Level Decks"];
+				{ 2, 62046, "", "=q4=Earthquake Deck", "=ds=#m2#"};
+				{ 3, 62048, "", "=q4=Darkmoon Card: Earthquake", "=q1=#m4#: =ds=#s14#"};
+				{ 5, 62045, "", "=q4=Hurricane Deck", "=ds=#m2#"};
+				{ 6, 62049, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
+				{ 7, 62051, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
+				{ 17, 62044, "", "=q4=Tsunami Deck", "=ds=#m2#"};
+				{ 18, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
+				{ 20, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
+				{ 21, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
+				extraText = ": "..AL["Level 85 Trinkets"];
+			};
+			{
+				{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
+				{ 2, 42989, "", "=q4=Darkmoon Card: Berserker!", "=q1=#m4#: =ds=#s14#"};
+				{ 4, 44259, "", "=q4=Prisms Deck", "=ds=#m2#"};
+				{ 5, 42988, "", "=q4=Darkmoon Card: Illusion", "=q1=#m4#: =ds=#s14#"};
+				{ 7, 44294, "", "=q4=Undeath Deck", "=ds=#m2#"};
+				{ 8, 42990, "", "=q4=Darkmoon Card: Death", "=q1=#m4#: =ds=#s14#"};
+				{ 16, 44326, "", "=q4=Nobles Deck", "=ds=#m2#"};
+				{ 17, 44253, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+				{ 18, 42987, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+				{ 19, 44254, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+				{ 20, 44255, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
+				extraText = ": "..AL["Level 80 Trinkets"];
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 60 Trinkets"], ""};
@@ -1160,30 +1168,22 @@ local moduleName = "AtlasLoot_WorldEvents"
 				extraText = ": "..AL["Level 60 & 70 Trinkets"];
 			};
 			{
-				{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
-				{ 2, 42989, "", "=q4=Darkmoon Card: Berserker!", "=q1=#m4#: =ds=#s14#"};
-				{ 4, 44259, "", "=q4=Prisms Deck", "=ds=#m2#"};
-				{ 5, 42988, "", "=q4=Darkmoon Card: Illusion", "=q1=#m4#: =ds=#s14#"};
-				{ 7, 44294, "", "=q4=Undeath Deck", "=ds=#m2#"};
-				{ 8, 42990, "", "=q4=Darkmoon Card: Death", "=q1=#m4#: =ds=#s14#"};
-				{ 16, 44326, "", "=q4=Nobles Deck", "=ds=#m2#"};
-				{ 17, 44253, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
-				{ 18, 42987, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
-				{ 19, 44254, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
-				{ 20, 44255, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
-				extraText = ": "..AL["Level 80 Trinkets"];
-			};
-			{
-				{ 2, 62046, "", "=q4=Earthquake Deck", "=ds=#m2#"};
-				{ 3, 62048, "", "=q4=Darkmoon Card: Earthquake", "=q1=#m4#: =ds=#s14#"};
-				{ 5, 62045, "", "=q4=Hurricane Deck", "=ds=#m2#"};
-				{ 6, 62049, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 7, 62051, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 17, 62044, "", "=q4=Tsunami Deck", "=ds=#m2#"};
-				{ 18, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
-				{ 20, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
-				{ 21, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
-				extraText = ": "..AL["Level 85 Trinkets"];
+				{ 1, 37163, "", "=q2=Rogues Deck", "=ds=#m2#"};
+				{ 2, 38318, "", "=q2=Darkmoon Robe", "=q1=#m4#: =ds=#s5#, #a1#"};
+				{ 3, 39509, "", "=q2=Darkmoon Vest", "=q1=#m4#: =ds=#s5#, #a2#"};
+				{ 4, 39507, "", "=q2=Darkmoon Chain Shirt", "=q1=#m4#: =ds=#s5#, #a3#"};
+				{ 6, 37164, "", "=q3=Swords Deck", "=ds=#m2#"};
+				{ 7, 39894, "", "=q3=Darkcloth Shoulders", "=q1=#m4#: =ds=#s3#, #a1#"};
+				{ 8, 39895, "", "=q3=Cloaked Shoulderpads", "=q1=#m4#: =ds=#s3#, #a2#"};
+				{ 9, 39897, "", "=q3=Azure Shoulderguards", "=q1=#m4#: =ds=#s3#, #a3#"};
+				{ 16, 44148, "", "=q3=Mages Deck", "=ds=#m2#"};
+				{ 17, 44215, "", "=q3=Darkmoon Necklace", "=q1=#m4#: =ds=#s2#"};
+				{ 18, 44213, "", "=q3=Darkmoon Pendant", "=q1=#m4#: =ds=#s2#"};
+				{ 21, 44158, "", "=q3=Demons Deck", "=ds=#m2#"};
+				{ 22, 44217, "", "=q3=Darkmoon Dirk", "=q1=#m4#: =ds=#h1#, #w4#"};
+				{ 23, 44218, "", "=q3=Darkmoon Executioner", "=q1=#m4#: =ds=#h2#, #w1#"};
+				{ 24, 44219, "", "=q3=Darkmoon Magestaff", "=q1=#m4#: =ds=#w9#"};
+				extraText = ": "..AL["Low Level Decks"];
 			};
 		};
 		info = {
