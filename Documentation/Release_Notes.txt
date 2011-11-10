@@ -5,9 +5,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.00_BETA-14966 (Nov ??, 2011)
+v6.05.00_BETA-14976 (Nov ??, 2011)
 Note: This version does NOT work with Atlas 1.20.1!
-Added extra menu to access 4.3 stuff (Beta-only)
 Compatible with Patch 4.3.
 Added support for Atlas 1.21.0.
 Added loot for Endtime.

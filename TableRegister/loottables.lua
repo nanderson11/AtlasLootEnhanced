@@ -1348,7 +1348,7 @@ AtlasLoot_LootTableRegister = {
 		["TheDeadmines"] = "TheDeadminesEaI",
 		["TheDeadminesEaI"] = {
 			["TheDeadminesEnt"] = {
-				{ "DeadminesEntrance", {4,5}, hide = true },
+				{ "DeadminesTrash", {4,5}, hide = true },
 			},
 			["TheDeadmines"] = {
 				{ "DeadminesGlubtok", 3, EncounterJournalID = 89 },

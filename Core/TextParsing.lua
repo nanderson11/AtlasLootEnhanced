@@ -761,7 +761,6 @@ AtlasLoot_TextParsing = {
 	{ "#trophyofthecrusade#", "|TInterface\\Icons\\INV_Misc_Trophy_Argent:0|t" },
 
 	-- Currency Icons - Events
-	{ "#darkmoon#", "|TInterface\\Icons\\INV_Misc_Ticket_Darkmoon_01:0|t" },
 	{ "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t"},
 
 	-- Currency Icons - Factions

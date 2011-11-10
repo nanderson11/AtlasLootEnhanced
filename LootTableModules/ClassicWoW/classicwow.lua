@@ -33,7 +33,6 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Shadowfang Keep
 ---- Stratholme - Crusader's Square
 ---- Stratholme - The Gauntlet
----- The Deadmines: Entrance
 ---- The Deadmines
 ---- The Stockade
 ---- The Sunken Temple
@@ -4064,27 +4063,6 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-		--------------------------------
-		--- The Deadmines: Entrance ---
-		--------------------------------
-
-	AtlasLoot_Data["DeadminesEntrance"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Marisa du'Paige"], "=ec1=#j28#"};
-				{ 2, 3019, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
-				{ 3, 4660, "", "=q3=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
-				{ 17, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
-				{ 18, 3902, "", "=q3=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
-			};
-		};
-		info = {
-			name = BabbleZone["The Deadmines"].." - "..AL["Entrance"],
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
 		---------------------
 		--- The Deadmines ---
 		---------------------
@@ -4222,6 +4200,12 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 1930, "", "=q3=Stonemason Cloak", "=ds=#s4#", "", "0.01%"};
 				{ 3, 1951, "", "=q3=Blackwater Cutlass", "=ds=#h1#, #w10#", "", "0.01%"};
 				{ 4, 1926, "", "=q3=Weighted Sap", "=ds=#h1#, #w6#", "", "0.01%"};
+				{ 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Marisa du'Paige"], "=ec1=#j28#"};
+				{ 18, 3019, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
+				{ 19, 4660, "", "=q3=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
+				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
+				{ 22, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
+				{ 23, 3902, "", "=q3=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
 			};
 		};
 		info = {

@@ -1145,6 +1145,12 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 1930, "", "=q3=Stonemason Cloak", "=ds=#s4#", "", "0.01%"};
 				{ 3, 1951, "", "=q3=Blackwater Cutlass", "=ds=#h1#, #w10#", "", "0.01%"};
 				{ 4, 1926, "", "=q3=Weighted Sap", "=ds=#h1#, #w6#", "", "0.01%"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Marisa du'Paige"], "=ec1=#j28#"};
+				{ 17, 3019, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
+				{ 18, 4660, "", "=q3=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
+				{ 21, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
+				{ 22, 3902, "", "=q3=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
 			};
 		};
 		info = {
@@ -2802,6 +2808,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 78400, "", "=q4=Grotesquely Writhing Bracers", "=ds=#s8#, #a3#" },
     			{ 4, 78397, "", "=q4=Graveheart Bracers", "=ds=#s8#, #a4#" },
     			{ 5, 78396, "", "=q4=Treads of Crushed Flesh", "=ds=#s12#, #a4#" },
+    			{ 7, 77969, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
 				{ 16, 78866, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78867, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78865, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2816,6 +2823,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 77257, "", "=q4=Grotesquely Writhing Bracers", "=ds=#s8#, #a3#" },
     			{ 4, 77258, "", "=q4=Graveheart Bracers", "=ds=#s8#, #a4#" },
     			{ 5, 77259, "", "=q4=Treads of Crushed Flesh", "=ds=#s12#, #a4#" },
+				{ 7, 77204, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
 				{ 16, 78183, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78178, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78173, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2830,6 +2838,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 78393, "", "=q4=Grotesquely Writhing Bracers", "=ds=#s8#, #a3#" },
     			{ 4, 78390, "", "=q4=Graveheart Bracers", "=ds=#s8#, #a4#" },
     			{ 5, 78389, "", "=q4=Treads of Crushed Flesh", "=ds=#s12#, #a4#" },
+				{ 7, 77989, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
 				{ 16, 78853, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78854, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78855, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2855,6 +2864,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78872, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78873, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78871, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+				{ 20, 77971, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+				{ 21, 77970, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
 			};
 		};--]]
 		["Normal"] = {
@@ -2868,6 +2879,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78181, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78176, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78171, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+				{ 20, 77203, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+				{ 21, 77206, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
 			};
 		};
 		["Heroic"] = {
@@ -2881,6 +2894,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78856, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78857, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78858, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+				{ 20, 77991, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+				{ 21, 77990, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
 			};
 		};
 		info = {
@@ -2896,11 +2911,13 @@ local moduleName = "AtlasLootCataclysm"
     			{ 2, 78428, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
     			{ 3, 78423, "", "=q4=Treads of Dormant Dreams", "=ds=#s12#, #a3#" },
     			{ 4, 78424, "", "=q4=Runescriven Demon Collar", "=ds=#s10#, #a4#" },
-    			{ 6, 78426, "", "=q4=Lightning Rod", "=ds=#w9#" },
-    			{ 7, 78422, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
+				{ 6, 78427, "", "=q4=Ring of the Riven", "=ds=#s13#" },
+				{ 7, 78421, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
 				{ 16, 78875, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78876, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78874, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78426, "", "=q4=Lightning Rod", "=ds=#w9#" },
+    			{ 21, 78422, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
 			};
 		};--]]
 		["Normal"] = {
@@ -2909,11 +2926,13 @@ local moduleName = "AtlasLootCataclysm"
     			{ 2, 77248, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
     			{ 3, 77251, "", "=q4=Treads of Dormant Dreams", "=ds=#s12#, #a3#" },
     			{ 4, 77250, "", "=q4=Runescriven Demon Collar", "=ds=#s10#, #a4#" },
-    			{ 6, 77221, "", "=q4=Lightning Rod", "=ds=#w9#" },
-    			{ 7, 77220, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
+				{ 6, 78012, "", "=q4=Ring of the Riven", "=ds=#s13#" },
+				{ 7, 78011, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
 				{ 16, 78180, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78175, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78170, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 77221, "", "=q4=Lightning Rod", "=ds=#w9#" },
+    			{ 21, 77220, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -2922,11 +2941,13 @@ local moduleName = "AtlasLootCataclysm"
     			{ 2, 78420, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
     			{ 3, 78415, "", "=q4=Treads of Dormant Dreams", "=ds=#s12#, #a3#" },
     			{ 4, 78416, "", "=q4=Runescriven Demon Collar", "=ds=#s10#, #a4#" },
-    			{ 6, 78418, "", "=q4=Lightning Rod", "=ds=#w9#" },
-    			{ 7, 78414, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
+				{ 6, 78419, "", "=q4=Ring of the Riven", "=ds=#s13#" },
+				{ 7, 78413, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
 				{ 16, 78859, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78860, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78861, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+    			{ 20, 78418, "", "=q4=Lightning Rod", "=ds=#w9#" },
+    			{ 21, 78414, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },		
 			};
 		};
 		info = {
@@ -2943,7 +2964,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 78438, "", "=q4=Bracers of Looming Darkness", "=ds=#s8#, #a3#" },
     			{ 4, 78444, "", "=q4=Dragonfracture Belt", "=ds=#s10#, #a4#" },
     			{ 5, 78439, "", "=q4=Stillheart Warboots", "=ds=#s12#, #a4#" },
-    			{ 7, 78441, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
+				{ 7, 78440, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
+				{ 8, 77972, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
+    			{ 9, 78441, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
 				{ 16, 78863, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78864, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78862, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2957,7 +2980,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 77247, "", "=q4=Bracers of Looming Darkness", "=ds=#s8#, #a3#" },
     			{ 4, 77244, "", "=q4=Dragonfracture Belt", "=ds=#s10#, #a4#" },
     			{ 5, 77246, "", "=q4=Stillheart Warboots", "=ds=#s12#, #a4#" },
-    			{ 7, 77245, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
+				{ 7, 78013, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
+				{ 8, 77205, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
+    			{ 9, 77245, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
 				{ 16, 78184, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2971,7 +2996,9 @@ local moduleName = "AtlasLootCataclysm"
     			{ 3, 78430, "", "=q4=Bracers of Looming Darkness", "=ds=#s8#, #a3#" },
     			{ 4, 78436, "", "=q4=Dragonfracture Belt", "=ds=#s10#, #a4#" },
     			{ 5, 78431, "", "=q4=Stillheart Warboots", "=ds=#s12#, #a4#" },
-    			{ 7, 78433, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
+				{ 7, 78432, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
+				{ 8, 77992, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
+    			{ 9, 78433, "", "=q4=Ledger of Revolting Rituals", "=ds=#s15#" },
 				{ 16, 78847, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78848, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78849, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
@@ -2998,6 +3025,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78869, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78870, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78868, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+				{ 20, 77973, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
 			};
 		};--]]
 		["Normal"] = {
@@ -3013,6 +3041,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 16, 78182, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78177, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78172, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+				{ 20, 77202, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
 			};
 		};
 		["Heroic"] = {
@@ -3028,6 +3057,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 16, 78850, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78851, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78852, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
+				{ 20, 77993, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
 			};
 		};
 		info = {
@@ -3132,75 +3162,51 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTDragonSoul",
 		};
 	};
--- section is not final. All items could be assigned to specific bosses!
+
 	AtlasLoot_Data["DragonSoulShared"] = {
 		--[[["RaidFinder"] = {
 			{
 				{ 2, 78497, "", "=q4=Breathstealer Band", "=ds=#s13#" },
-				{ 3, 78440, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
-				{ 4, 78498, "", "=q4=Hardheart Ring", "=ds=#s13#" },
-				{ 5, 78495, "", "=q4=Infinite Loop", "=ds=#s13#" },
-				{ 6, 78427, "", "=q4=Ring of the Riven", "=ds=#s13#" },
-				{ 7, 78494, "", "=q4=Seal of Primordial Shadow", "=ds=#s13#" },
-				{ 8, 78421, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
-				{ 9, 78496, "", "=q4=Signet of Suturing", "=ds=#s13#" },
-				{ 11, 52078, "", "=q3=Chaos Orb", "=ds=#e8#" },
+				{ 3, 78498, "", "=q4=Hardheart Ring", "=ds=#s13#" },
+				{ 4, 78495, "", "=q4=Infinite Loop", "=ds=#s13#" },
+				{ 5, 78494, "", "=q4=Seal of Primordial Shadow", "=ds=#s13#" },
+				{ 6, 78496, "", "=q4=Signet of Suturing", "=ds=#s13#" },
+				{ 8, 52078, "", "=q3=Chaos Orb", "=ds=#e8#" },
 				{ 17, 77982, "", "=q4=Bone-Link Fetish", "=ds=#s14#" },
-				{ 18, 77972, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
-				{ 19, 77980, "", "=q4=Cunning of the Cruel", "=ds=#s14#" },
-				{ 20, 77983, "", "=q4=Indomitable Pride", "=ds=#s14#" },
-				{ 21, 77971, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
-    			{ 22, 77969, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
-				{ 23, 77973, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
-				{ 24, 77970, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
-				{ 25, 77979, "", "=q4=Vial of Shadows", "=ds=#s14#" },
-				{ 26, 77981, "", "=q4=Windward Heart", "=ds=#s14#" },
+				{ 18, 77980, "", "=q4=Cunning of the Cruel", "=ds=#s14#" },
+				{ 19, 77983, "", "=q4=Indomitable Pride", "=ds=#s14#" },
+				{ 20, 77979, "", "=q4=Vial of Shadows", "=ds=#s14#" },
+				{ 21, 77981, "", "=q4=Windward Heart", "=ds=#s14#" },
 			};
 		};--]]
 		["Normal"] = {
 			{
 				{ 2, 77230, "", "=q4=Breathstealer Band", "=ds=#s13#" },
-				{ 3, 78013, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
-				{ 4, 77232, "", "=q4=Hardheart Ring", "=ds=#s13#" },
-				{ 5, 77228, "", "=q4=Infinite Loop", "=ds=#s13#" },
-				{ 6, 78012, "", "=q4=Ring of the Riven", "=ds=#s13#" },
-				{ 7, 77231, "", "=q4=Seal of Primordial Shadow", "=ds=#s13#" },
-				{ 8, 78011, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
-				{ 9, 77229, "", "=q4=Signet of Suturing", "=ds=#s13#" },
-				{ 11, 71998, "", "=q4=Essence of Destruction", "=ds=#e8#" },
+				{ 3, 77232, "", "=q4=Hardheart Ring", "=ds=#s13#" },
+				{ 4, 77228, "", "=q4=Infinite Loop", "=ds=#s13#" },
+				{ 5, 77231, "", "=q4=Seal of Primordial Shadow", "=ds=#s13#" },
+				{ 6, 77229, "", "=q4=Signet of Suturing", "=ds=#s13#" },
+				{ 8, 71998, "", "=q4=Essence of Destruction", "=ds=#e8#" },
 				{ 17, 77210, "", "=q4=Bone-Link Fetish", "=ds=#s14#" },
-				{ 18, 77205, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
-				{ 19, 77208, "", "=q4=Cunning of the Cruel", "=ds=#s14#" },
-				{ 20, 77211, "", "=q4=Indomitable Pride", "=ds=#s14#" },
-				{ 21, 77203, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
-				{ 22, 77204, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
-				{ 23, 77202, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
-				{ 24, 77206, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
-				{ 25, 77207, "", "=q4=Vial of Shadows", "=ds=#s14#" },
-				{ 26, 77209, "", "=q4=Windward Heart", "=ds=#s14#" },
+				{ 18, 77208, "", "=q4=Cunning of the Cruel", "=ds=#s14#" },
+				{ 19, 77211, "", "=q4=Indomitable Pride", "=ds=#s14#" },
+				{ 20, 77207, "", "=q4=Vial of Shadows", "=ds=#s14#" },
+				{ 21, 77209, "", "=q4=Windward Heart", "=ds=#s14#" },
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 2, 78492, "", "=q4=Breathstealer Band", "=ds=#s13#" },
-				{ 3, 78432, "", "=q4=Curled Twilight Claw", "=ds=#s13#" },
-				{ 4, 78493, "", "=q4=Hardheart Ring", "=ds=#s13#" },
-				{ 5, 78490, "", "=q4=Infinite Loop", "=ds=#s13#" },
-				{ 6, 78419, "", "=q4=Ring of the Riven", "=ds=#s13#" },
-				{ 7, 78489, "", "=q4=Seal of Primordial Shadow", "=ds=#s13#" },
-				{ 8, 78413, "", "=q4=Signet of Grasping Mouths", "=ds=#s13#" },
-				{ 9, 78491, "", "=q4=Signet of Suturing", "=ds=#s13#" },
-				{ 11, 71998, "", "=q4=Essence of Destruction", "=ds=#e8#" },
+				{ 3, 78493, "", "=q4=Hardheart Ring", "=ds=#s13#" },
+				{ 4, 78490, "", "=q4=Infinite Loop", "=ds=#s13#" },
+				{ 5, 78489, "", "=q4=Seal of Primordial Shadow", "=ds=#s13#" },
+				{ 6, 78491, "", "=q4=Signet of Suturing", "=ds=#s13#" },
+				{ 8, 71998, "", "=q4=Essence of Destruction", "=ds=#e8#" },
 				{ 17, 78002, "", "=q4=Bone-Link Fetish", "=ds=#s14#" },
-				{ 18, 77992, "", "=q4=Creche of the Final Dragon", "=ds=#s14#" },
-				{ 19, 78000, "", "=q4=Cunning of the Cruel", "=ds=#s14#" },
-				{ 20, 78003, "", "=q4=Indomitable Pride", "=ds=#s14#" },
-				{ 21, 77991, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
-				{ 22, 77989, "", "=q4=Seal of the Seven Signs", "=ds=#s14#" },
-				{ 23, 77993, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
-				{ 24, 77990, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
-				{ 25, 77999, "", "=q4=Vial of Shadows", "=ds=#s14#" },
-				{ 26, 78001, "", "=q4=Windward Heart", "=ds=#s14#" },
+				{ 18, 78000, "", "=q4=Cunning of the Cruel", "=ds=#s14#" },
+				{ 19, 78003, "", "=q4=Indomitable Pride", "=ds=#s14#" },
+				{ 20, 77999, "", "=q4=Vial of Shadows", "=ds=#s14#" },
+				{ 21, 78001, "", "=q4=Windward Heart", "=ds=#s14#" },
 			};
 		};
 		info = {
