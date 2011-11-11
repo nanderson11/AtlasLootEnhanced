@@ -535,7 +535,9 @@ if AL then
 	AL["Dungeon Set 1"] = "副本套裝 1";
 	AL["Dungeon Set 2"] = "副本套裝 2";
 	AL["Dungeon Set 1/2"] = "副本套裝 1/2";
+	AL["Replica"] = "複製品";
 	AL["Dungeon Set 3"] = "副本套裝 3";
+	AL["Dungeon Set 4"] = "副本套裝 4";
 	AL["Tier 1"] = "T1";
 	AL["Tier 2"] = "T2";
 	AL["Tier 3"] = "T3";
@@ -587,6 +589,7 @@ if AL then
 	AL["Accessories"] = "配件";
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
+	AL["Raid Finder"] = "團隊搜尋器";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";
@@ -595,6 +598,7 @@ if AL then
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
 	AL["Brew of the Month Club"] = "每月啤酒俱樂部";
+	AL["Food and Drinks"] = "食物和飲料";
 
 	-- Profession descriptions
 	AL["Buff"] = "增益";
@@ -669,6 +673,7 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = "十字軍試煉圖樣/設計圖";
 	AL["BRD Blacksmithing Plans"] = "黑石深淵黑帖鍛造圖樣";
 	AL["Firelands Patterns/Plans"] = "火源之界圖樣/設計圖";
+	AL["Dragon Soul Patterns/Plans"] = "巨龍之魂圖樣/設計圖";
 
 	-- General titles
 	AL["Achievement"] = "成就";
@@ -786,7 +791,7 @@ if AL then
 	AL["Scourgewar"] = "天譴戰爭"; -- confirmed
 	AL["Tiny"] = "迷你坐騎"; -- confirmed
 	AL["Tuskarr Kite"] = "巨牙海民風箏"; -- confirmed
-	--AL["Spectral Kitten"] = true;
+	AL["Spectral Kitten"] = "鬼靈貓";
 
 	-- Eleventh set
 	AL["Wrathgate"] = "憤怒之門"; -- confirmed
@@ -813,7 +818,7 @@ if AL then
 	AL["Twilight of the Dragons"] = "暮光之龍";
 
 	-- Seventeenth set
-	AL["Crown of Heaven"] = "Crown of Heaven";
+	AL["Crown of Heaven"] = "天堂之冠";
 
 	-- Eighteenth set
 	AL["Tomb of the Forgotten"] = "Tomb of the Forgotten";
@@ -1106,6 +1111,9 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "熟成的噁心罐子";
 	AL["Cracked Egg"] = "破損的蛋";
 	AL["Small Spice Bag"] = "小香料包";
+	AL["Handful of Treats"] = "一把糖果";
+	AL["Consumable Wands & Masks"] = "可消耗的魔杖與面具";
+	AL["Permanent Masks"] = "永久的面具";
 	AL["Lovely Dress Box"] = "可愛的裙裝盒";
 	AL["Dinner Suit Box"] = "晚宴套裝盒";
 	AL["Bag of Heart Candies"] = "心願糖果袋";
