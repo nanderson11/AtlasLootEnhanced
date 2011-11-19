@@ -119,17 +119,17 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 9, 27523, "", "=q3=Exarch's Diamond Band", "=ds=#s13#", "", "13.33%"};
 				{ 10, 27872, "", "=q3=The Harvester of Souls", "=ds=#h1#, #w1#", "", "11.67%"};
 				{ 12, 33836, "", "=q1=The Exarch's Soul Gem", "=ds=#m3#", "", "100%"};
-				{ 16, 30587, "", "=q4=Champion's Fire Opal", "=ds=#e7#", "", "11.67%"};
-				{ 17, 30588, "", "=q4=Potent Fire Opal", "=ds=#e7#", "", "1.67%"};
-				{ 18, 30586, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "11.67%"};
-				{ 20, 27870, "", "=q3=Doomplate Legguards", "=ds=#s11#, #a4# (D3)", "", "3.33%"};
-				{ 22, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 23, 27411, "", "=q3=Slippers of Serenity", "=ds=#s12#, #a1#", "", "8.14%"};
-				{ 24, 27415, "", "=q3=Darkguard Face Mask", "=ds=#s1#, #a2#", "", "11.44%"};
-				{ 25, 27414, "", "=q3=Mok'Nathal Beast-Mask", "=ds=#s1#, #a3#", "", "11.27%"};
-				{ 26, 27413, "", "=q3=Ring of the Exarchs", "=ds=#s13#", "", "10.42%"};
-				{ 27, 27416, "", "=q3=Fetish of the Fallen", "=ds=#s14#", "", "12.81%"};
-				{ 28, 27412, "", "=q3=Ironstaff of Regeneration", "=ds=#w9#", "", "11.95%"};
+				{ 17, 30587, "", "=q4=Champion's Fire Opal", "=ds=#e7#", "", "11.67%"};
+				{ 18, 30588, "", "=q4=Potent Fire Opal", "=ds=#e7#", "", "1.67%"};
+				{ 19, 30586, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "11.67%"};
+				{ 21, 27870, "", "=q3=Doomplate Legguards", "=ds=#s11#, #a4# (D3)", "", "3.33%"};
+				{ 23, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 24, 27411, "", "=q3=Slippers of Serenity", "=ds=#s12#, #a1#", "", "8.14%"};
+				{ 25, 27415, "", "=q3=Darkguard Face Mask", "=ds=#s1#, #a2#", "", "11.44%"};
+				{ 26, 27414, "", "=q3=Mok'Nathal Beast-Mask", "=ds=#s1#, #a3#", "", "11.27%"};
+				{ 27, 27413, "", "=q3=Ring of the Exarchs", "=ds=#s13#", "", "10.42%"};
+				{ 28, 27416, "", "=q3=Fetish of the Fallen", "=ds=#s14#", "", "12.81%"};
+				{ 29, 27412, "", "=q3=Ironstaff of Regeneration", "=ds=#w9#", "", "11.95%"};
 			};
 		};
 		info = {
