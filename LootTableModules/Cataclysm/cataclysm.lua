@@ -2801,7 +2801,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulZonozz"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78398, "", "=q4=Cord of the Slain Champion", "=ds=#s10#, #a1#" },
     			{ 2, 78395, "", "=q4=Belt of Flayed Skin", "=ds=#s10#, #a2#" },
@@ -2815,7 +2815,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 20, 78394, "", "=q4=Horrifying Horn Arbalest", "=ds=#w3#" },
     			{ 21, 78399, "", "=q4=Finger of Zon'ozz", "=ds=#w12#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77255, "", "=q4=Cord of the Slain Champion", "=ds=#s10#, #a1#" },
@@ -2853,7 +2853,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulYorsahj"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78408, "", "=q4=Interrogator's Bloody Footpads", "=ds=#s12#, #a2#" },
     			{ 2, 78411, "", "=q4=Mindstrainer Treads", "=ds=#s12#, #a3#" },
@@ -2867,7 +2867,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 77971, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
 				{ 21, 77970, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77254, "", "=q4=Interrogator's Bloody Footpads", "=ds=#s12#, #a2#" },
@@ -2905,7 +2905,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulHagara"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78425, "", "=q4=Bracers of the Banished", "=ds=#s8#, #a1#" },
     			{ 2, 78428, "", "=q4=Girdle of the Grotesque", "=ds=#s10#, #a2#" },
@@ -2919,7 +2919,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 20, 78426, "", "=q4=Lightning Rod", "=ds=#w9#" },
     			{ 21, 78422, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77249, "", "=q4=Bracers of the Banished", "=ds=#s8#, #a1#" },
@@ -2957,7 +2957,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulUltraxion"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78442, "", "=q4=Treads of Sordid Screams", "=ds=#s12#, #a2#" },
     			{ 2, 78443, "", "=q4=Imperfect Specimens 27 and 28", "=ds=#s3#, #a3#" },
@@ -2972,7 +2972,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 78862, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 78437, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77243, "", "=q4=Treads of Sordid Screams", "=ds=#s12#, #a2#" },
@@ -3012,7 +3012,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulBlackhorn"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78457, "", "=q4=Janglespur Jackboots", "=ds=#s12#, #a1#" },
     			{ 2, 78454, "", "=q4=Shadow Wing Armbands", "=ds=#s8#, #a2#" },
@@ -3027,7 +3027,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 78868, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
 				{ 20, 77973, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77234, "", "=q4=Janglespur Jackboots", "=ds=#s12#, #a1#" },
@@ -3067,7 +3067,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulDeathwingSpine"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78466, "", "=q4=Gloves of Liquid Smoke", "=ds=#s9#, #a1#" },
     			{ 2, 78467, "", "=q4=Molten Blood Footpads", "=ds=#s12#, #a2#" },
@@ -3080,7 +3080,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 19, 77974, "", "=q4=Wrath of Unchaining", "=ds=#s14#" },
     			{ 20, 77978, "", "=q4=Resolve of Undying", "=ds=#s14#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 78357, "", "=q4=Gloves of Liquid Smoke", "=ds=#s9#, #a1#" },
@@ -3116,7 +3116,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulDeathwingMadness"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78484, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
     			{ 2, 78483, "", "=q4=Blade of the Unmaker", "=ds=#h1#, #w4#" },
@@ -3128,7 +3128,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 17, 78486, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
     			{ 18, 78480, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77195, "", "=q4=Rathrak, the Poisonous Mind", "=ds=#h3#, #w4#" },
@@ -3164,7 +3164,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["DragonSoulShared"] = {
-		--[[["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
 				{ 2, 78497, "", "=q4=Breathstealer Band", "=ds=#s13#" },
 				{ 3, 78498, "", "=q4=Hardheart Ring", "=ds=#s13#" },
@@ -3178,7 +3178,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 77979, "", "=q4=Vial of Shadows", "=ds=#s14#" },
 				{ 21, 77981, "", "=q4=Windward Heart", "=ds=#s14#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
 				{ 2, 77230, "", "=q4=Breathstealer Band", "=ds=#s13#" },

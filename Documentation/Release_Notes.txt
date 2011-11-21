@@ -12,7 +12,7 @@ Added support for Atlas 1.21.0.
 Added loot for Endtime.
 Added loot for Hours of Twilight.
 Added loot for Well of Eternity.
-Added loot for Dragon Soul. (Raid Finder loot not yet viewable)
+Added loot for Dragon Soul.
 Added new Baradin Hold boss.
 Added new Valor Points items.
 Added Season 11 items.
@@ -28,6 +28,7 @@ Added new TCG loot from Tomb of the Forgotten (not yet released).
 Added new epic gems to the Jewelcrafting section.
 Added new items to other professions.
 Added Spells to the Archaeology section.
+Added linkable currencies.
 Many minor fixes, additions and translations.
 
 v6.04.04 (Sep 11, 2011)
