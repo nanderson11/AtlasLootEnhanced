@@ -1286,6 +1286,8 @@ function AtlasLoot:QAItemOnClick(arg1)
 					linkTmp = v[1].." x "..linkTmp
 				elseif type(v[2]) == "number" then
 					linkTmp = GetCurrencyInfo(v[2])
+					--SendChatMessage("\124cff00aa00\124Hcurrency:396\124h[Valor Points]\124h\124r")
+					linkTmp = string.format("|cff00aa00|Hcurrency:%d|h[%s]|h|r", v[2], linkTmp)
 					linkTmp = v[1].." x "..linkTmp
 				end
 				link = linkTmp

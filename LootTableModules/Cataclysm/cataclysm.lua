@@ -2743,7 +2743,7 @@ local moduleName = "AtlasLootCataclysm"
 
 
 	AtlasLoot_Data["DragonSoulMorchok"] = {
---[[		["RaidFinder"] = {
+		["RaidFinder"] = {
 			{
     			{ 1, 78381, "", "=q4=Mosswrought Shoulderguards", "=ds=#s3#, #a1#" },
     			{ 2, 78380, "", "=q4=Robe of Glowing Stone", "=ds=#s5#, #a1#" },
@@ -2759,7 +2759,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 19, 78379, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
     			{ 20, 78374, "", "=q4=Razor Saronite Chip", "=ds=#w11#" },
 			};
-		};--]]
+		};
 		["Normal"] = {
 			{
     			{ 1, 77267, "", "=q4=Mosswrought Shoulderguards", "=ds=#s3#, #a1#" },

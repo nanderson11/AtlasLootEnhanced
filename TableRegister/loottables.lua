@@ -654,7 +654,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AuchManaYor", 8 },
 				{ "AuchTrash", 13 },
 			},
-			["Info"] = { BabbleZone["Mana-Tombs"], "AtlasLootBurningCrusade" },
+			["Info"] = { BabbleZone["Mana-Tombs"], "AtlasLootBurningCrusade", mapname = "ManaTombs1" },
 		},
 
 		["AuchSethekkHalls"] = {
@@ -679,7 +679,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AuchTrash", 9, hide = true },
 				{ "AuchTrash", 12 },
 			},
-			["Info"] = { BabbleZone["Shadow Labyrinth"], "AtlasLootBurningCrusade" },
+			["Info"] = { BabbleZone["Shadow Labyrinth"], "AtlasLootBurningCrusade", mapname = "ShadowLabyrinth1" },
 		},
 
 		["CoTOldHillsbrad"] = {
