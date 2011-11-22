@@ -25,8 +25,8 @@ local CURRENCY_PRICE = {
 	["VALOR"] = 396,		-- Valor Points
 	["CHEFAWARD"] = 402,	-- Chef's Award
 	["WORLDTREE"] = 416,	-- Mark of the World Tree
-	["CATAJW"] = 361,	-- Illustrious Jewelcrafter's Token
-	["DARKMOON"] = 515,	-- Darkmoon Prize Ticket
+	["CATAJW"] = 361,		-- Illustrious Jewelcrafter's Token
+	["DARKMOON"] = 515,		-- Darkmoon Prize Ticket
 	
 	-- Custom currencys
 	["MIDSUMMER"] = { itemID = 23247 },
@@ -593,11 +593,11 @@ do
 							if k == 1 then
 								extraText2 = extraText2..v[1]
 							else
-								if type(priceTab[1][2]) == "number" then
-									icon = select(3, GetCurrencyInfo(priceTab[1][2]))
+								if type(v[2]) == "number" then
+									icon = select(3, GetCurrencyInfo(v[2]))
 									icon = "Interface\\Icons\\"..icon
 								else
-									icon = GetItemIcon(CURRENCY_PRICE[priceTab[1][2]].itemID)
+									icon = GetItemIcon(CURRENCY_PRICE[v[2]].itemID)
 								end
 								extraText2 = extraText2..", |T"..icon..":15:15|t"..v[1]
 							end	
@@ -1301,7 +1301,11 @@ function AtlasLoot:QAItemOnClick(arg1)
 					linkTmp = string.format("|cff00aa00|Hcurrency:%d|h[%s]|h|r", v[2], linkTmp)
 					linkTmp = v[1].." x "..linkTmp
 				end
-				link = linkTmp
+				if k == 1 then
+					link = link..linkTmp
+				else
+					link = link..", "..linkTmp
+				end
 				linkTmp = ""
 			end
 		end

@@ -98,9 +98,9 @@ local SORT_FUNC = {
 		local a = {}
 		for k,v in ipairs(tab) do 
 			if type(v) == "string" then
-				a[k] = { v, GetItemInfo(tonumber(ITEM_DEATAIL[v][3])) } 
+				a[k] = { v, GetItemInfo(tonumber(ITEM_DEATAIL[v][3])) or "" } 
 			else
-				a[k] = { v, GetItemInfo(v) } 
+				a[k] = { v, GetItemInfo(v) or "" } 
 			end
 		end
 		if revert then
@@ -151,7 +151,7 @@ local SORT_FUNC = {
 				slotInfo = SLOT_LIST[slotInfo]
 			end
 			
-			a[k] = { v, slotInfo } 
+			a[k] = { v, slotInfo or "" } 
 		end
 		if revert then
 			table.sort(a, function(x,y) return (x[2] > y[2]) end)
@@ -171,10 +171,10 @@ local SORT_FUNC = {
 		for k,v in ipairs(tab) do 
 			if type(v) == "string" then
 				itemLvl = select(4, GetItemInfo(ITEM_DEATAIL[v][3])) 
-				a[k] = { v, itemLvl } 
+				a[k] = { v, itemLvl or 0 } 
 			else
 				itemLvl = select(4, GetItemInfo(v)) 
-				a[k] = { v, itemLvl } 
+				a[k] = { v, itemLvl or 0 } 
 			end
 		end
 		if revert then
@@ -653,9 +653,9 @@ function AtlasLoot:CompareFrame_CompleteTable(itemCache, allName)
 			LIST_ITEMS[i][j][ typNum ][ #LIST_ITEMS[i][j][ typNum ] + 1 ] = v.item[2]
 			ITEM_DEATAIL[v.item[2]] = v.item
 			-- dataId speichern
-			ITEM_DEATAIL[v.item[2]].dataID = v.dataID
+			ITEM_DEATAIL[v.item[2]].dataID = v[1]
 			-- heroic, normal, ...
-			ITEM_DEATAIL[v.item[2]].tableType = v.tableType
+			ITEM_DEATAIL[v.item[2]].tableType = v[2]
 			-- location
 			if v[2]== "Normal" then
 				ITEM_DEATAIL[v.item[2]].location = string.format("%s - %s", v[3] or "?", AtlasLoot:GetTableInfo(v[1] or "?"))

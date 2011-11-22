@@ -917,7 +917,7 @@ function WishList:ButtonTemp_AddItemToWishList()
 	if self.type == "CompareFrameItemButton" then
 		if self.itemType and self.itemType[1] == "wishlist" then--SetItemType({"wishlist", dataID, heroic,})
 			self:DeleteItemFromWishList()
-		elseif self.itemType then
+		elseif self.info and self.itemType and self.GetChatLink then
 			curItem = { self.info[1], self.info[2], self.info[3], self.info[4], self.itemType[2].."#"..self.itemType[3], self:GetChatLink() }
 			if (db.defaultWishlist and Wishlists_Info.defaultWishlist) or #WishList.ownWishLists == 1 then
 				if #WishList.ownWishLists == 1 then WishList:RefreshCurWishlist(1) end
