@@ -38,13 +38,205 @@ local moduleName = "AtlasLootMistsofPandaria"
 		--- Scholomance ---
 		-------------------
 
+	AtlasLoot_Data["ScholoRas"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = BabbleBoss["Ras Frostwhisper"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoJandice"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = BabbleBoss["Jandice Barov"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoKirtonos"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = BabbleBoss["Kirtonos the Herald"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoRattlegore"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = BabbleBoss["Rattlegore"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoGandling"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = BabbleBoss["Darkmaster Gandling"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoTrash"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = AL["Trash Mobs"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
 		----------------------------------
 		--- Scarlet Monestary - Wing 1 ---
 		----------------------------------
 
+	AtlasLoot_Data["SMGraveThalnos"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["Bloodmage Thalnos"], instance = "SMGraveyard",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMGraveTBD"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "Unknown", instance = "SMGraveyard",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMGraveFairbanks"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["High Inquisitor Fairbanks"], instance = "SMGraveyard",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMGraveMograine"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["Scarlet Commander Mograine"], instance = "SMGraveyard",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMGraveWhitemane"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["High Inquisitor Whitemane"], instance = "SMGraveyard",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMGraveTrash"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "trash", instance = "SMGraveyard",
+			module = moduleName,
+		};
+	};
+
 		----------------------------------
 		--- Scarlet Monestary - Wing 2 ---
 		----------------------------------
+
+	AtlasLoot_Data["SMArmoryLoksey"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["Houndmaster Loksey"], instance = "SMArmory",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMArmoryHerod"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["Herod"], instance = "SMArmory",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMArmoryDoan"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = BabbleBoss["Arcanist Doan"], instance = "SMArmory",
+			module = moduleName,
+		};
+	};
+
+	AtlasLoot_Data["SMArmoryTrash"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "trash", instance = "SMArmory",
+			module = moduleName,
+		};
+	};
 
 		------------------------
 		--- Mogu'Shan Palace ---

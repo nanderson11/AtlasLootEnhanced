@@ -2247,8 +2247,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 77014, "", "=q4=Deep Earth Grips", "=ds=#s9#, #a2#"};
 				{ 7, 77016, "", "=q4=Deep Earth Legguards", "=ds=#s11#, #a2#"};
 				{ 9, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-				{ 11, 76749, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
-				{ 12, 76751, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#"};
+				{ 10, 76749, "", "=q4=Deep Earth Handwraps", "=ds=#s9#, #a2#"};
+				{ 11, 76751, "", "=q4=Deep Earth Legwraps", "=ds=#s11#, #a2#"};
 				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
 				{ 17, 73599, "", "=q4=Cataclysmic Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1650#"};
 				{ 18, 73597, "", "=q4=Cataclysmic Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2200#"};
@@ -8804,7 +8804,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75#"};
 				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75#"};
 				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
-				{ 22, 69893, "", "=q7=Blooksoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
+				{ 22, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
 				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
 				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
 				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# / #CHAMPSEAL:75#"};

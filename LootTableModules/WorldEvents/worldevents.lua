@@ -183,13 +183,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#CHAMPSEAL:75#"};
 				{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#CHAMPSEAL:75#"};
 				{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#CHAMPSEAL:60#"};
-				{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#CHAMPSEAL:60#"};
-				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#CHAMPSEAL:95#"};
-				{ 22, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#CHAMPSEAL:75#"};
-				{ 23, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#CHAMPSEAL:75#"};
-				{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#CHAMPSEAL:95#"};
-				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#CHAMPSEAL:95#"};
-				{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#CHAMPSEAL:95#"};
+				{ 20, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#CHAMPSEAL:60#"};
+				{ 21, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#CHAMPSEAL:60#"};
+				{ 22, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#CHAMPSEAL:95#"};
+				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#CHAMPSEAL:75#"};
+				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#CHAMPSEAL:75#"};
+				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#CHAMPSEAL:95#"};
+				{ 26, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#CHAMPSEAL:95#"};
+				{ 27, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#CHAMPSEAL:95#"};
 			};
 		};
 		info = {
