@@ -155,23 +155,18 @@ function AtlasLoot:HeroicModeToggle()
 		AtlasLoot:SetLootTableType("25ManHeroic", dataID)
 	elseif AtlasLoot.db.profile.LootTableType == "25ManHeroic" then
 		AtlasLoot:SetLootTableType("25Man", dataID)
+	elseif AtlasLoot.db.profile.LootTableType == "RaidFinder" then
+		AtlasLoot:SetLootTableType("Heroic", dataID)
 	end
 end
 
-local lastLootTableType
 function AtlasLoot:RaidFinderToggle()
 	local dataID = AtlasLoot.ItemFrame.dataID
 	
 	if AtlasLoot.db.profile.LootTableType ~= "RaidFinder" then
-		lastLootTableType = AtlasLoot.db.profile.LootTableType
 		AtlasLoot:SetLootTableType("RaidFinder", dataID)
 	else
-		if lastLootTableType then
-			AtlasLoot:SetLootTableType(lastLootTableType, dataID)
-		else
-			AtlasLoot:SetLootTableType("Normal", dataID)
-		end
-		lastLootTableType = nil
+		AtlasLoot:SetLootTableType("Normal", dataID)
 	end
 end
 

@@ -27,7 +27,7 @@ local ITEM_LIST_MAX_SORTS = 8
 -- Anzahl an items in Wishlist
 local NUM_ITEMS_IN_WISHLIST = 0
 
-local lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
+local lootTableTypes = AtlasLoot.lootTableTypes
 
 local NUM_MAINFILTERS_TO_DISPLAY = 15
 local NUM_ITEMS_TO_DISPLAY = 8
@@ -692,7 +692,6 @@ end
 
 -- #####################################################
 -- Search
-local lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
 
 function AtlasLoot:CompareFrame_Search(text, modulesToSearch)
 	if not text then 

@@ -588,14 +588,25 @@ do
 					if priceTab then
 						--tempPrice, isPrice = GetExtraPriceLink(price)
 						local extraText2 = ""
+						local icon
 						for k,v in ipairs(priceTab) do
-							extraText2 = extraText2..v[1]
+							if k == 1 then
+								extraText2 = extraText2..v[1]
+							else
+								if type(priceTab[1][2]) == "number" then
+									icon = select(3, GetCurrencyInfo(priceTab[1][2]))
+									icon = "Interface\\Icons\\"..icon
+								else
+									icon = GetItemIcon(CURRENCY_PRICE[priceTab[1][2]].itemID)
+								end
+								extraText2 = extraText2..", |T"..icon..":15:15|t"..v[1]
+							end	
 						end
-						if newPrice and newPrice ~= "" then
-							tempText = extraText2..", "..newPrice
-						else
+						--if newPrice and newPrice ~= "" then
+							--tempText = extraText2..", "..newPrice
+						--else
 							tempText = extraText2
-						end
+						--end
 					else
 						tempText, isQuest, isAchievement, isItem = GetExtraTextLink(price)
 						if not tempText then

@@ -164,6 +164,8 @@ StaticPopupDialogs["ATLASLOOT_SAVED_VARIABLES"] = {
 	hideOnEscape = 1
 };
 
+AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder"}
+
 local function CopyTable(t)
 	local new = {}
 	local i, v = next(t, nil)
@@ -647,7 +649,7 @@ end
 
 -- Heroic check
 do
-	local lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder"}
+	local lootTableTypes = AtlasLoot.lootTableTypes
 	local lootTableTypesCheck = {
 		["Normal"] = { "Heroic", "25Man", "25ManHeroic", "RaidFinder" },
 		["Heroic"] = { "Normal", "25ManHeroic", "25Man", "RaidFinder" },
@@ -1016,6 +1018,11 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.RaidFinder:Show()
 		self.ItemFrame.RaidFinder:SetChecked(true)
 		self.ItemFrame.RaidFinder:Enable()
+		if AtlasLoot_Data[dataID]["Heroic"] then
+			self.ItemFrame.Heroic:Show()
+			self.ItemFrame.Heroic:SetChecked(false)
+			self.ItemFrame.Heroic:Enable()
+		end
 	elseif lootTableType == "Heroic" and AtlasLoot_Data[dataID]["Heroic"] then
 		self.ItemFrame.Heroic:Show()
 		self.ItemFrame.Heroic:SetChecked(true)
