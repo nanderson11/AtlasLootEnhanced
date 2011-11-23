@@ -155,42 +155,6 @@ function AtlasLoot:AtlasRefreshHook()
 	
 	Atlas_MapRefresh();
 	
-	--Setup info panel above boss listing
-	local tName = base.ZoneName[1];
-	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
-		local _RED = "|cffcc3333";
-		tName = tName.._RED.." ["..base.Acronym.."]";
-	end
-	AtlasText_ZoneName_Text:SetText(tName);
-	
-	local tLoc = "";
-	local tLR = "";
-	local tML = "";
-	local tPL = "";
-	if ( base.Location ) then
-		tLoc = ATLAS_STRING_LOCATION..": "..base.Location[1];
-	end
-	if ( base.LevelRange ) then
-		tLR = ATLAS_STRING_LEVELRANGE..": "..base.LevelRange;
-	end
-	if ( base.MinLevel ) then
-		tML = ATLAS_STRING_MINLEVEL..": "..base.MinLevel;
-	end
-	if ( base.PlayerLimit ) then
-		tPL = ATLAS_STRING_PLAYERLIMIT..": "..base.PlayerLimit;
-	end
-	AtlasText_Location_Text:SetText(tLoc);
-	AtlasText_LevelRange_Text:SetText(tLR);
-	AtlasText_MinLevel_Text:SetText(tML);
-	AtlasText_PlayerLimit_Text:SetText(tPL);
-	
-	-- Check if Journal Encounter Instance is available
-	if ( base.JournalInstanceID ) then
-		Atlas_JournalEncounter_InstanceButton:Show();
-	else
-		Atlas_JournalEncounter_InstanceButton:Hide();
-	end
-
 	Atlastextbase = base;
 	
 	-- Check Tables
