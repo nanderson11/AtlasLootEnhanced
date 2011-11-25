@@ -5,10 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.00_RC (Nov 22, 2011)
-Note: This version does NOT work with Atlas 1.20.1!
+v6.05.00 (Nov 29, 2011)
 Compatible with Patch 4.3.
-Added support for Atlas 1.21.0. (Currently in Beta)
+Added support for Atlas 1.21.0.
 Added loot for Endtime.
 Added loot for Hours of Twilight.
 Added loot for Well of Eternity.
@@ -16,8 +15,7 @@ Added loot for Dragon Soul.
 Added new Baradin Hold boss.
 Added new Valor Points items.
 Added Tier 13 Raid Set.
-Added new Companions.
-Added new Mounts.
+Added new Mounts and Companions.
 Revamped Darkmoon Faire section.
 Updated Hallow's End.
 Added new TCG loot from Throne of the Tides.
@@ -27,7 +25,7 @@ Added new epic gems to the Jewelcrafting section.
 Added new items to other professions.
 Added Spells to the Archaeology section.
 Added linkable currencies.
-Fixed a bug that prevented search results to be added to a wishlist.
+Fixed a bug that prevented search results from being added to the wishlist.
 Many minor fixes, additions and translations.
 
 v6.04.04 (Sep 11, 2011)
