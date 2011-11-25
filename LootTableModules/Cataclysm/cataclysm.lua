@@ -7527,8 +7527,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
 				{ 3, 77947, "", "=q4=The Sleeper", "=ds=#h3#, #w4#", "" };
 				{ 4, 77948, "", "=q4=The Dreamer", "=ds=#h4#, #w4#", "" };
-				{ 5, 77946, "", "=q4=Vengeance", "=ds=#h3#, #w4#", "" };
-				{ 6, 77945, "", "=q4=Fear", "=ds=#h4#, #w4#", "" };
+				{ 5, 77945, "", "=q4=Fear", "=ds=#h3#, #w4#", "" };
+				{ 6, 77946, "", "=q4=Vengeance", "=ds=#h4#, #w4#", "" };
 				{ 8, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#", "" };
 				{ 9, 71085, "", "=q4=Runestaff of Nordrassil", "=ds=#w9#", "" };
 				{ 10, 71084, "", "=q4=Branch of Nordrassil", "=ds=#w9#", "" };

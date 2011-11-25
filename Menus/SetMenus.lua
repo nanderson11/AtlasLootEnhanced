@@ -236,17 +236,26 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETSMISCMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "SETSCLASSIC", "INV_Sword_43", "=ds="..AL["Classic WoW"].." "..AL["Sets"], ""};
-				{ 3, "WOTLKSets", "inv_misc_monsterscales_15", "=ds="..AL["Wrath of the Lich King"].." "..AL["Sets"], ""};
-				{ 5, "AQ20Sets", "achievement_boss_ossiriantheunscarred", "=ds="..BabbleZone["Ruins of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
-				{ 7, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon Set 1/2"], "=q5="..AL["No Longer Available"]};
-				--{ 9, "DS4Cloth", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Cloth"]};
-				--{ 10, "DS4Mail", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Mail"]};
-				{ 17, "TBCSets", "INV_Weapon_Glave_01", "=ds="..AL["Burning Crusade"].." "..AL["Sets"], ""};
-				{ 20, "AQ40Sets", "achievement_boss_cthun", "=ds="..BabbleZone["Temple of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
-				{ 22, "DS3SET", "INV_Helmet_15", "=ds="..AL["Dungeon Set 3"], "=q5="..AL["Burning Crusade"]};
-				--{ 24, "DS4Leather", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Leather"]};
-				--{ 25, "DS4Plate", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Plate"]};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Jaws of Retribution"], "=q1="..BabbleZone["Dragon Soul"]};
+				{ 2, 77945, "", "=q4=Fear", "=ds=#h3#, #w4#", "" };
+				{ 3, 77946, "", "=q4=Vengeance", "=ds=#h4#, #w4#", "" };
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["Maw of Oblivion"], "=q1="..BabbleZone["Dragon Soul"]};
+				{ 6, 77947, "", "=q4=The Sleeper", "=ds=#h3#, #w4#", "" };
+				{ 7, 77948, "", "=q4=The Dreamer", "=ds=#h4#, #w4#", "" };
+				{ 9, "AQ20Sets", "achievement_boss_ossiriantheunscarred", "=ds="..BabbleZone["Ruins of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
+				{ 11, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon Set 1/2"], "=q5="..AL["No Longer Available"]};
+				--{ 13, "DS4Cloth", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Cloth"]};
+				--{ 14, "DS4Mail", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Mail"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleItemSet["Fangs of the Father"], "=q1="..BabbleZone["Dragon Soul"]};
+				{ 17, 77949, "", "=q5=Golad, Twilight of Aspects", "=ds=#h3#, #w4#", "" };
+				{ 18, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
+				{ 20, "SETSCLASSIC", "INV_Sword_43", "=ds="..AL["Classic WoW"].." "..AL["Sets"], ""};
+				{ 21, "TBCSets", "INV_Weapon_Glave_01", "=ds="..AL["Burning Crusade"].." "..AL["Sets"], ""};
+				{ 22, "WOTLKSets", "inv_misc_monsterscales_15", "=ds="..AL["Wrath of the Lich King"].." "..AL["Sets"], ""};
+				{ 24, "AQ40Sets", "achievement_boss_cthun", "=ds="..BabbleZone["Temple of Ahn'Qiraj"].." "..AL["Set"], "=q5="..AL["Classic WoW"]};
+				{ 26, "DS3SET", "INV_Helmet_15", "=ds="..AL["Dungeon Set 3"], "=q5="..AL["Burning Crusade"]};
+				--{ 28, "DS4Leather", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Leather"]};
+				--{ 29, "DS4Plate", "INV_Helmet_15", "=ds="..AL["Dungeon Set 4"], "=q5="..BabbleInventory["Plate"]};
 			};
 		};
 		info = {
