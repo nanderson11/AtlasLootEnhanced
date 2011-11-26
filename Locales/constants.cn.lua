@@ -535,7 +535,9 @@ if AL then
 	AL["Dungeon Set 1"] = "地下城套装1";
 	AL["Dungeon Set 2"] = "地下城套装2";
 	AL["Dungeon Set 1/2"] = "地下城套装1/2";
+	AL["Replica"] = "复制品";
 	AL["Dungeon Set 3"] = "地下城套装3";
+	AL["Dungeon Set 4"] = "地下城套装4";
 	AL["Tier 1"] = "等级1";
 	AL["Tier 2"] = "等级2";
 	AL["Tier 3"] = "等级3";
@@ -587,6 +589,7 @@ if AL then
 	AL["Accessories"] = "附件";
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
+	AL["Raid Finder"] = "团队搜寻器";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等级30-39";
@@ -595,6 +598,7 @@ if AL then
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
 	AL["Brew of the Month Club"] = "每月啤酒俱乐部";
+	AL["Food and Drinks"] = "食物和饮料";
 
 	-- Profession descriptions
 	AL["Buff"] = "增益";
@@ -669,6 +673,7 @@ if AL then
 	AL["Trial of the Crusader Patterns/Plans"] = "十字军的试炼图样/设计图";
 	AL["BRD Blacksmithing Plans"] = "黑石深渊锻造设计图";
 	AL["Firelands Patterns/Plans"] = "火焰之地图样/设计图";
+	AL["Dragon Soul Patterns/Plans"] = "巨龙之魂图样/设计图";
 
 	-- General titles
 	AL["Achievement"] = "成就";
@@ -1106,6 +1111,9 @@ if AL then
 	AL["Ripe Disgusting Jar"] = "酿好的恶心罐装酒";
 	AL["Cracked Egg"] = "裂开的卵";
 	AL["Small Spice Bag"] = "小香料袋";
+	AL["Handful of Treats"] = "一把糖果";
+	AL["Consumable Wands & Masks"] = "可消耗的魔杖与面具";
+	AL["Permanent Masks"] = "永久的面具";
 	AL["Lovely Dress Box"] = "可爱的裙装盒";
 	AL["Dinner Suit Box"] = "晚宴礼服箱";
 	AL["Bag of Heart Candies"] = "一袋糖果";
