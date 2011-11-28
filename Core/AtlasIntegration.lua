@@ -16,7 +16,7 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 
 StaticPopupDialogs["ATLASLOOT_INCOMPATIBLE_ATLAS"] = {
-	text = "Please note that AtlasLoot v6 is only compatible with Atlas 1.18.0. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled.",
+	text = "Please note that AtlasLoot v6.05.00 is only compatible with Atlas 1.21.0. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled.",
 	button1 = AL["OK"],
 	OnAccept = function()
 		
