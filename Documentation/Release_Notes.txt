@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.05.01 (Dec 06, 2011)
+Added Season 11 items.
+
 v6.05.00 (Nov 29, 2011)
 Compatible with Patch 4.3.
 Added support for Atlas 1.21.0.
