@@ -1,4 +1,4 @@
-AtlasLoot Enhanced
+﻿AtlasLoot Enhanced
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
@@ -7,6 +7,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v6.05.01 (Dec 06, 2011)
 Added Season 11 items.
+Updated Transformation Items.
+Added missing mounts to Rare Mounts section.
 
 v6.05.00 (Nov 29, 2011)
 Compatible with Patch 4.3.

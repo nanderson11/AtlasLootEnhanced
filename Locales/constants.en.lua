@@ -356,7 +356,6 @@ if AL then
 	AL["Tier 11/12 Set"] = true;
 	AL["Tier 13 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
-	AL["Transformation Items"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = true;
@@ -720,6 +719,12 @@ if AL then
 	AL["PvP Tabards"] = true;
 	AL["Unobtainable Tabards"] = true;
 
+	-- Transformation Items
+	AL["Transformation Items"] = true;
+	AL["Additional Effects Transformation Items"] = true;
+	AL["Consumable Transformation Items"] = true;
+	AL["Non-consumed Transformation Items"] = true;
+	
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = true;
 	AL["Low Level Decks"] = true;
@@ -1052,7 +1057,8 @@ if AL then
 	AL["Varlan Highbough"] = true;
 	AL["Firestone Vendor"] = true;
 	AL["Poseidus"] = true;
-
+	AL["Burgy Blackheart"] = true;
+	
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
 	AL["Crusader's Square"] = true;

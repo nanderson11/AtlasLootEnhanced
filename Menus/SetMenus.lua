@@ -18,7 +18,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 9, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
 				{ 10, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..BabbleInventory["Companions"], ""};
 				{ 11, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
-				{ 12, "TransformationItems", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
+				{ 12, "TRANSFORMATIONMENU", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
 				{ 13, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 16, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], ""};
 				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
@@ -232,7 +232,21 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			menu = "SETMENU",
 		};
 	}
-
+	
+	AtlasLoot_Data["TRANSFORMATIONMENU"] = {
+		["Normal"] = {
+			{
+				{ 2, "TransformationNonconsumedItems", "inv_misc_orb_02", "=ds="..AL["Non-consumed Transformation Items"], ""};
+				{ 4, "TransformationAdditionalEffects", "stave_2h_tarecgosa_e_01stagefinal", "=ds="..AL["Additional Effects Transformation Items"]};
+				{ 17, "TransformationConsumableItems", "inv_misc_monsterhead_04", "=ds="..AL["Consumable Transformation Items"], ""};
+			};
+		};
+		info = {
+			name = AL["Transformation Items"],
+			menu = "SETMENU",
+		};
+	}	
+	
 	AtlasLoot_Data["SETSMISCMENU"] = {
 		["Normal"] = {
 			{

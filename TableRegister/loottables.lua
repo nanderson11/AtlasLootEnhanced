@@ -1695,6 +1695,25 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleInventory["Mounts"], "AtlasLootCataclysm"},
 		},
 
+		["Tabards"] = {
+			["Bosses"] = {
+				{ "TabardsAlliance" },
+				{ "TabardsHorde" },
+				{ "TabardsAchievementQuestRareMisc" },
+				{ "TabardsRemoved" },
+			},
+			["Info"] = { BabbleInventory["Tabards"], "AtlasLootCataclysm"},
+		},
+		
+		["TransformationItems"] = {
+			["Bosses"] = {
+				{ "TransformationNonconsumedItems" },
+				{ "TransformationConsumableItems" },
+				{ "TransformationAdditionalEffects" },
+			},
+			["Info"] = { AL["Transformation Items"], "AtlasLootCataclysm"},
+		},
+		
 		["WorldEpics"] = {
 			["Bosses"] = {
 				{ "WorldEpics85" },
@@ -1705,16 +1724,6 @@ AtlasLoot_LootTableRegister = {
 				{ "WorldEpics3039" },
 			},
 			["Info"] = { AL["BoE World Epics"], "AtlasLootWotLK"},
-		},
-
-		["Tabards"] = {
-			["Bosses"] = {
-				{ "TabardsAlliance" },
-				{ "TabardsHorde" },
-				{ "TabardsAchievementQuestRareMisc" },
-				{ "TabardsRemoved" },
-			},
-			["Info"] = { BabbleInventory["Tabards"], "AtlasLootCataclysm"},
 		},
 	},
 
