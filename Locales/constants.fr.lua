@@ -356,7 +356,6 @@ if AL then
 	--AL["Tier 11/12 Set"] = true;
 	--AL["Tier 13 Set"] = true;
 	AL["TCG Items"] = "Objets des cartes à jouer"; -- Trading Card Game Items
-	AL["Transformation Items"] = "Objets de transformation";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
@@ -720,6 +719,13 @@ if AL then
 	AL["PvP Tabards"] = "Tabards JcJ";
 	AL["Unobtainable Tabards"] = "Tabards imposssibles à obtenir";
 
+
+	-- Transformation Items
+	AL["Transformation Items"] = "Objets de transformation";
+	AL["Additional Effects Transformation Items"] = "Effets supplémentaires pour les objets de transformation";
+	AL["Consumable Transformation Items"] = "Objets consommables de transformation";
+	AL["Non-consumed Transformation Items"] = "Objets non-consommables de transformation";
+
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Récompenses Foire de Sombrelune";
 	AL["Low Level Decks"] = "Cartes bas level";
@@ -1052,6 +1058,7 @@ if AL then
 	AL["Varlan Highbough"] = "Varlan Hautebranche";
 	AL["Firestone Vendor"] = "Vendeur des Terres de Feu";
 	AL["Poseidus"] = "Poséidus";
+	AL["Burgy Blackheart"] = "Burgy Cœur-Noir";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
