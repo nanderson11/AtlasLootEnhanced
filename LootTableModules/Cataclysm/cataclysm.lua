@@ -269,7 +269,7 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTEndTime",
 		};
 	};
---Unconfirmed! Loot table guessed!
+
 	AtlasLoot_Data["EndtimeTrash"] = {
 		["Normal"] = {
 			{
@@ -345,7 +345,7 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTHourOfTwilight",
 		};
 	};
---Unconfirmed! Loot table guessed!
+
 	AtlasLoot_Data["HoTTrash"] = {
 		["Normal"] = {
 			{
@@ -421,7 +421,7 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, instance = "CoTWellOfEternity",
 		};
 	};
---Unconfirmed! Loot table guessed!
+
 	AtlasLoot_Data["WoETrash"] = {
 		["Normal"] = {
 			{
@@ -3218,7 +3218,15 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["DragonSoulTrash"] = {
 		["Normal"] = {
 			{
-
+				{ 2, 78879, "", "=q4=Sash of Relentless Truth", "=ds=#s10#, #a1#" },
+				{ 3, 78884, "", "=q4=Girdle of Fungal Dreams", "=ds=#s10#, #a2#" },
+				{ 4, 78882, "", "=q4=Nightblind Cinch", "=ds=#s10#, #a2#" },
+				{ 5, 78886, "", "=q4=Belt of Ghostly Graces", "=ds=#s10#, #a3#" },
+				{ 6, 78885, "", "=q4=Dragoncarver Belt", "=ds=#s10#, #a3#" },
+				{ 7, 78887, "", "=q4=Girdle of Soulful Mending", "=ds=#s10#, #a4#" },
+				{ 8, 78888, "", "=q4=Waistguard of Bleeding Bone", "=ds=#s10#, #a4#" },
+				{ 9, 78889, "", "=q4=Waistplate of the Desecreated Future", "=ds=#s10#, #a4#" },
+				{ 17, 77938, "", "=q4=Dragonfire Orb", "=ds=#s15#" },
 			};
 		};
 		info = {
@@ -7163,7 +7171,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
 				{ 3, 64403, "", "=q3=Fox Kit", "=ds="..BabbleZone["Tol Barad Peninsula"]};
 				{ 4, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
-				{ 5, 73953, "", "=q3=Sea Pony", "=q2=Fishing: Darkmoon Island"};
+				{ 5, 73953, "", "=q3=Sea Pony", "=q2=#p24#, =q1="..BabbleZone["Darkmoon Island"]};
 				{ 6, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Winterspring"]};
 				{ 7, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
 				{ 8, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
@@ -7366,7 +7374,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["Pets43"] = {
+--[[	AtlasLoot_Data["Pets43"] = {
 		["Normal"] = {
 			{
 				{ 1, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
@@ -7382,15 +7390,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 71624, "", "=q3=Purple Puffer", "=ds="..AL["TCG Items"]};
 				{ 18, 72153, "", "=q3=Sand Scarab", "=ds="..AL["TCG Items"]};
 				{ 20, 73953, "", "=q3=Sea Pony", "=q2=Fishing: Darkmoon Island"};
-				--[[{ 13, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
-				{ 23, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};]]--
+				{ 13, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
+				{ 23, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};
 			};
 		};
 		info = {
 			name = "Patch 4.3 Companions",
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
-	}
+	}]]--
 
 		--------------
 		--- Mounts ---
@@ -7862,7 +7870,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["Mounts43"] = {
+--[[	AtlasLoot_Data["Mounts43"] = {
 		["Normal"] = {
 			{
 				{ 1, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "=ds="..AL["Season 10"]};--S10
@@ -7889,7 +7897,7 @@ local moduleName = "AtlasLootCataclysm"
 			name = "Patch 4.3 Mounts",
 			module = moduleName, menu = "MOUNTMENU",
 		};
-	}
+	}--]]
 
 		----------------------------
 		--- Transformation Items ---
@@ -7932,7 +7940,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-		AtlasLoot_Data["TransformationConsumableItems"] = {
+	AtlasLoot_Data["TransformationConsumableItems"] = {
 		["Normal"] = {
 			{
 				{ 1, 38320, "", "=q1=Dire Brew", "=ds="..BabbleZone["Blackrock Depths"]};
@@ -7952,7 +7960,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 	
-			AtlasLoot_Data["TransformationAdditionalEffects"] = {
+	AtlasLoot_Data["TransformationAdditionalEffects"] = {
 		["Normal"] = {
 			{
 				{ 1, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#"};
