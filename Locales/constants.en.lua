@@ -724,7 +724,7 @@ if AL then
 	AL["Additional Effects Transformation Items"] = true;
 	AL["Consumable Transformation Items"] = true;
 	AL["Non-consumed Transformation Items"] = true;
-	
+
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = true;
 	AL["Low Level Decks"] = true;

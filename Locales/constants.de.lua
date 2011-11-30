@@ -356,7 +356,6 @@ if AL then
 	-- AL["Tier 11/12 Set"] = true;
 	-- AL["Tier 13 Set"] = true;
 	AL["TCG Items"] = "TCG Gegenstände";
-	AL["Transformation Items"] = "Transformations-Gegenstände";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Arathibecken (Sets)";
@@ -719,6 +718,12 @@ if AL then
 	AL["Horde Tabards"] = "Horde Wappenröcke";
 	AL["PvP Tabards"] = "PvP Wappenröcke";
 	AL["Unobtainable Tabards"] = "Nicht mehr erhältlich";
+
+	-- Transformation Items
+	AL["Transformation Items"] = "Transformations-Gegenstände";
+	AL["Additional Effects Transformation Items"] = "Mit zusätzlichen Effekten";
+	AL["Consumable Transformation Items"] = "Verbrauchbar";
+	AL["Non-consumed Transformation Items"] = "Nicht verbrauchbar";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Dunkelmond-Jahrmarkt Belohnungen";
