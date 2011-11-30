@@ -66,11 +66,11 @@ AtlasLoot_LootTableRegister = {
 
 		["CoTEndTime"] = {
 			["Bosses"] = {
-				{ "EndtimeEchoes", 4, EncounterJournalID = 340 },
-				{ "EndtimeEchoes", 5, EncounterJournalID = 285, hide = true },
-				{ "EndtimeEchoes", 6, EncounterJournalID = 323, hide = true },
-				{ "EndtimeEchoes", 7, EncounterJournalID = 283, hide = true },
-				{ "EndtimeMurozond", 8, EncounterJournalID = 289 },
+				{ "EndtimeEchoes", 3, EncounterJournalID = 340 },
+				{ "EndtimeEchoes", 4, EncounterJournalID = 285, hide = true },
+				{ "EndtimeEchoes", 5, EncounterJournalID = 323, hide = true },
+				{ "EndtimeEchoes", 6, EncounterJournalID = 283, hide = true },
+				{ "EndtimeMurozond", 7, EncounterJournalID = 289 },
 				{ "EndtimeTrash", 10 },
 			},
 			["Info"] = { BabbleZone["End Time"], "AtlasLootCataclysm", EncounterJournalID = 184 },
@@ -78,20 +78,20 @@ AtlasLoot_LootTableRegister = {
 
 		["CoTHourOfTwilight"] = {
 			["Bosses"] = {
-				{ "HoTArcurion", 2, EncounterJournalID = 322 },
-				{ "HoTDawnslayer", 3, EncounterJournalID = 342 },
-				{ "HoTBenedictus", 4, EncounterJournalID = 341 },
-				{ "HoTTrash", 6 },
+				{ "HoTArcurion", 3, EncounterJournalID = 322 },
+				{ "HoTDawnslayer", 4, EncounterJournalID = 342 },
+				{ "HoTBenedictus", 5, EncounterJournalID = 341 },
+				{ "HoTTrash", 8 },
 			},
 			["Info"] = { BabbleZone["Hour of Twilight"], "AtlasLootCataclysm", EncounterJournalID = 186 },
 		},
 
 		["CoTWellOfEternity"] = {
 			["Bosses"] = {
-				{ "WoEPerotharn", 2, EncounterJournalID = 290 },
-				{ "WoEAzshara", 3, EncounterJournalID = 291 },
-				{ "WoEMannoroth", 4, EncounterJournalID = 292 },
-				{ "WoETrash", 6 },
+				{ "WoEPerotharn", 3, EncounterJournalID = 290 },
+				{ "WoEAzshara", 4, EncounterJournalID = 291 },
+				{ "WoEMannoroth", 5, EncounterJournalID = 292 },
+				{ "WoETrash", 8 },
 			},
 			["Info"] = { BabbleZone["Well of Eternity"], "AtlasLootCataclysm", EncounterJournalID = 185 },
 		},
