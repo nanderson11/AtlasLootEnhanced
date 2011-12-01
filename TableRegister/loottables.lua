@@ -73,7 +73,7 @@ AtlasLoot_LootTableRegister = {
 				{ "EndtimeMurozond", 7, EncounterJournalID = 289 },
 				{ "EndtimeTrash", 10 },
 			},
-			["Info"] = { BabbleZone["End Time"], "AtlasLootCataclysm", EncounterJournalID = 184 },
+			["Info"] = { BabbleZone["End Time"], "AtlasLootCataclysm", mapname = "EndTime", EncounterJournalID = 184 },
 		},
 
 		["CoTHourOfTwilight"] = {
@@ -83,7 +83,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HoTBenedictus", 5, EncounterJournalID = 341 },
 				{ "HoTTrash", 8 },
 			},
-			["Info"] = { BabbleZone["Hour of Twilight"], "AtlasLootCataclysm", EncounterJournalID = 186 },
+			["Info"] = { BabbleZone["Hour of Twilight"], "AtlasLootCataclysm", mapname = "HourofTwilight", EncounterJournalID = 186 },
 		},
 
 		["CoTWellOfEternity"] = {
@@ -93,7 +93,7 @@ AtlasLoot_LootTableRegister = {
 				{ "WoEMannoroth", 5, EncounterJournalID = 292 },
 				{ "WoETrash", 8 },
 			},
-			["Info"] = { BabbleZone["Well of Eternity"], "AtlasLootCataclysm", EncounterJournalID = 185 },
+			["Info"] = { BabbleZone["Well of Eternity"], "AtlasLootCataclysm", mapname = "WellOfEternity", EncounterJournalID = 185 },
 		},
 
 		["GrimBatol"] = {
@@ -175,7 +175,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ZATimedChest", 40 },
 				{ "ZATrash", 41 },
 			},
-			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm", EncounterJournalID = 77 },
+			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm", mapname = "ZulAman", EncounterJournalID = 77 },
 		},
 
 		["ZulGurub"] = {
@@ -188,7 +188,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ZGJindo", 40, EncounterJournalID = 185 },
 				{ "ZGTrash", 42 },
 			},
-			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm", EncounterJournalID = 76 },
+			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm", mapname = "ZulGurub", EncounterJournalID = 76 },
 		},
 
 	---- Raids
@@ -245,7 +245,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DragonSoulTrash", 6 },
 				{ "DragonSoulPatterns", 7 },
 			},
-			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC" }, raid = true, EncounterJournalID = 187 },
+			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", mapname = "DragonSoul" sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC" }, raid = true, EncounterJournalID = 187 },
 		},
 
 		["Firelands"] = {

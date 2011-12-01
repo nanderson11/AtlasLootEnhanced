@@ -446,9 +446,10 @@ do
 	local lastButton = 1
 	local newIcon, selectedIcon = ""
 	local curInfo
+	local MACRO_ICON_FILENAMES = {}
 
 	local function onVerticalScroll(self)
-		local numMacroIcons = GetNumMacroIcons()
+		local numMacroIcons = #MACRO_ICON_FILENAMES
 		local wlIcon, wlButton
 		local index
 		local offset = FauxScrollFrame_GetOffset(AL_WishList_IconSelect)
@@ -458,7 +459,8 @@ do
 			wlIcon = _G["AL_WishList_Button_"..i.."Icon"]
 			wlButton = _G["AL_WishList_Button_"..i]
 			index = (offset * 5) + i;
-			texture = GetMacroIconInfo(index);
+			--texture = GetMacroIconInfo(index);
+			texture = "INTERFACE\\ICONS\\"..MACRO_ICON_FILENAMES[index]
 			
 			if ( index <= numMacroIcons ) then
 				wlIcon:SetTexture(texture);
@@ -491,7 +493,7 @@ do
 	end
 
 	local function SelectTexture(selectedIcon)
-		newIcon = GetMacroIconInfo(selectedIcon)
+		newIcon = "INTERFACE\\ICONS\\"..MACRO_ICON_FILENAMES[selectedIcon]
 		WishList.IconSelect.selectedIcon = selectedIcon
 		WishList.IconSelect.selectedIconTexture = nil
 		
@@ -609,7 +611,13 @@ do
 		end)
 		
 		IconSelect:SetScript("OnShow", onVerticalScroll) 
+		
+		MACRO_ICON_FILENAMES[1] = "INV_MISC_QUESTIONMARK"
+		GetMacroIcons( MACRO_ICON_FILENAMES );
+  		GetMacroItemIcons( MACRO_ICON_FILENAMES );
+  
 		onVerticalScroll()
+
 	end
 
 end
