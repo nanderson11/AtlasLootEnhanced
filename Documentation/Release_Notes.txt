@@ -11,7 +11,8 @@ Added Season 11 items.
 Added new prices for Season 1-3 sets.
 Added some missing mounts.
 Updated Transformation Items.
-Some Minor additions.
+Added autoselect for missing cataclysm instances. 
+Some minor fixes and additions.
 
 v6.05.00 (Nov 29, 2011)
 Compatible with Patch 4.3.

@@ -245,7 +245,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DragonSoulTrash", 6 },
 				{ "DragonSoulPatterns", 7 },
 			},
-			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", mapname = "DragonSoul" sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC" }, raid = true, EncounterJournalID = 187 },
+			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", mapname = "DragonSoul", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC" }, raid = true, EncounterJournalID = 187 },
 		},
 
 		["Firelands"] = {
