@@ -209,7 +209,7 @@ do
 	end
 	
 	local function showLastSearchResult()
-		AtlasLoot:CompareFrame_Search(AtlasLoot.db.profile.LastSearch, AtlasLoot.db.profile.SearchModule)
+		AtlasLoot:CompareFrame_Search(AtlasLoot.db.profile.LastSearch, "save")
 	end
 	
 	local function CreateLootTableButton(frame, info)
