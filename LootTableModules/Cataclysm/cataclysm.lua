@@ -5178,92 +5178,46 @@ local moduleName = "AtlasLootCataclysm"
 		--------------------------
 		--- Level 85 - Weapons ---
 		--------------------------
---Season 9
-	AtlasLoot_Data["PVP85Weapons"] = {
-		["Normal"] = {
-			{
-				{ 2, 61333, "", "=q4=Vicious Gladiator's Right Render", "=ds=#h3#, #w13#", "#HONOR:2450#" },
-				{ 1, 61332, "", "=q4=Vicious Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:950#" },
-				{ 4, 61330, "", "=q4=Vicious Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:2450#" },
-				{ 3, 61331, "", "=q4=Vicious Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:950#" },
-				{ 8, 61329, "", "=q4=Vicious Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:2450#" },
-				{ 7, 61327, "", "=q4=Vicious Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:2450#" },
-				{ 6, 61328, "", "=q4=Vicious Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:950#" },
-				{ 10, 61345, "", "=q4=Vicious Gladiator's Quickblade", "=ds=#h1#, #w10#", "#HONOR:2450#" },
-				{ 11, 61344, "", "=q4=Vicious Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:2450#" },
-				{ 13, 61324, "", "=q4=Vicious Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:2450#" },
-				{ 14, 61325, "", "=q4=Vicious Gladiator's Hacker", "=ds=#h1#, #w1#", "#HONOR:2450#" },
-				{ 17, 61338, "", "=q4=Vicious Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:2450#" },
-				{ 16, 61336, "", "=q4=Vicious Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#HONOR:2450#" },
-				{ 18, 61335, "", "=q4=Vicious Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:2450#" },
-				{ 20, 61346, "", "=q4=Vicious Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:3400#" },
-				{ 21, 61326, "", "=q4=Vicious Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:3400#" },
-				{ 22, 61339, "", "=q4=Vicious Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:3400#" },
-				{ 24, 61340, "", "=q4=Vicious Gladiator's Pike", "=ds=#w7#", "#HONOR:3400#" },
-				{ 26, 61341, "", "=q4=Vicious Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:3400#" },
-				{ 27, 61342, "", "=q4=Vicious Gladiator's Energy Staff", "=ds=#w9#", "#HONOR:3400#" },
-				{ 28, 61343, "", "=q4=Vicious Gladiator's Staff", "=ds=#w9#", "#HONOR:3400#" },
-			};
-			{
-				{ 1, 61360, "", "=q4=Vicious Gladiator's Barrier", "=ds=#w8#", "#HONOR:950#" },
-				{ 2, 61361, "", "=q4=Vicious Gladiator's Redoubt", "=ds=#w8#", "#HONOR:950#" },
-				{ 3, 61359, "", "=q4=Vicious Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:950#" },
-				{ 5, 61348, "", "=q4=Vicious Gladiator's Hatchet", "=ds=#w11#", "#HONOR:700#" },
-				{ 6, 61347, "", "=q4=Vicious Gladiator's War Edge", "=ds=#w11#", "#HONOR:700#" },
-				{ 8, 61353, "", "=q4=Vicious Gladiator's Longbow", "=ds=#w2#", "#HONOR:3400#" },
-				{ 9, 61355, "", "=q4=Vicious Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:3400#" },
-				{ 10, 61354, "", "=q4=Vicious Gladiator's Rifle", "=ds=#w5#", "#HONOR:3400#" },
-				{ 16, 61351, "", "=q4=Vicious Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:700#" },
-				{ 17, 61350, "", "=q4=Vicious Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:700#" },
-				{ 19, 61358, "", "=q4=Vicious Gladiator's Reprieve", "=ds=#s15#", "#HONOR:950#" },
-				{ 20, 61357, "", "=q4=Vicious Gladiator's Endgame", "=ds=#s15#", "#HONOR:950#" }
-			};
-		};
-		info = {
-			name = AL["PvP Weapons"], "=q5="..AL["Level 85"].." - "..AL["ilvl 359"],
-			module = moduleName, menu = "PVPMENU",
-		};
-	}
 
 --Season 10
 	AtlasLoot_Data["PVP85Weapons2"] = {
 		["Normal"] = {
 			{
-				{ 2, 70220, "", "=q4=Ruthless Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
-				{ 1, 70219, "", "=q4=Ruthless Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950#" },
-				{ 4, 70217, "", "=q4=Ruthless Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
-				{ 3, 70218, "", "=q4=Ruthless Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950#" },
-				{ 8, 70216, "", "=q4=Ruthless Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450#" },
-				{ 7, 70214, "", "=q4=Ruthless Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450#" },
-				{ 6, 70215, "", "=q4=Ruthless Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950#" },
-				{ 10, 70230, "", "=q4=Ruthless Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450#" },
-				{ 11, 70229, "", "=q4=Ruthless Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450#" },
-				{ 13, 70211, "", "=q4=Ruthless Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450#" },
-				{ 14, 70212, "", "=q4=Ruthless Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450#" },
-				{ 17, 70223, "", "=q4=Ruthless Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450#" },
-				{ 16, 70222, "", "=q4=Ruthless Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450#" },
-				{ 18, 70221, "", "=q4=Ruthless Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450#" },
-				{ 20, 70231, "", "=q4=Ruthless Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
-				{ 21, 70213, "", "=q4=Ruthless Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
-				{ 22, 70224, "", "=q4=Ruthless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
-				{ 24, 70225, "", "=q4=Ruthless Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 26, 70226, "", "=q4=Ruthless Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 27, 70227, "", "=q4=Ruthless Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 28, 70228, "", "=q4=Ruthless Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 2, 70220, "", "=q4=Ruthless Gladiator's Right Render", "=ds=#h3#, #w13#", "#HONOR:2450#" },
+				{ 1, 70219, "", "=q4=Ruthless Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:950#" },
+				{ 4, 70217, "", "=q4=Ruthless Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:2450#" },
+				{ 3, 70218, "", "=q4=Ruthless Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:950#" },
+				{ 8, 70216, "", "=q4=Ruthless Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:2450#" },
+				{ 7, 70214, "", "=q4=Ruthless Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:2450#" },
+				{ 6, 70215, "", "=q4=Ruthless Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:950#" },
+				{ 10, 70230, "", "=q4=Ruthless Gladiator's Quickblade", "=ds=#h1#, #w10#", "#HONOR:2450#" },
+				{ 11, 70229, "", "=q4=Ruthless Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:2450#" },
+				{ 13, 70211, "", "=q4=Ruthless Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:2450#" },
+				{ 14, 70212, "", "=q4=Ruthless Gladiator's Hacker", "=ds=#h1#, #w1#", "#HONOR:2450#" },
+				{ 17, 70223, "", "=q4=Ruthless Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:2450#" },
+				{ 16, 70222, "", "=q4=Ruthless Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#HONOR:2450#" },
+				{ 18, 70221, "", "=q4=Ruthless Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:2450#" },
+				{ 20, 70231, "", "=q4=Ruthless Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:3400#" },
+				{ 21, 70213, "", "=q4=Ruthless Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:3400#" },
+				{ 22, 70224, "", "=q4=Ruthless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:3400#" },
+				{ 24, 70225, "", "=q4=Ruthless Gladiator's Pike", "=ds=#w7#", "#HONOR:3400#" },
+				{ 26, 70226, "", "=q4=Ruthless Gladiator's Battle Staff", "=ds=#w7#", "#HONOR:3400#" },
+				{ 27, 70227, "", "=q4=Ruthless Gladiator's Energy Staff", "=ds=#w7#", "#HONOR:3400#" },
+				{ 28, 70228, "", "=q4=Ruthless Gladiator's Staff", "=ds=#w7#", "#HONOR:3400#" },
 			};
 			{
-				{ 1, 70242, "", "=q4=Ruthless Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 2, 70243, "", "=q4=Ruthless Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 3, 70241, "", "=q4=Ruthless Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 5, 70233, "", "=q4=Ruthless Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700#" },
-				{ 6, 70232, "", "=q4=Ruthless Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700#" },
-				{ 8, 70236, "", "=q4=Ruthless Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
-				{ 9, 70238, "", "=q4=Ruthless Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
-				{ 10, 70237, "", "=q4=Ruthless Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
-				{ 16, 70235, "", "=q4=Ruthless Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 17, 70234, "", "=q4=Ruthless Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 19, 70240, "", "=q4=Ruthless Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950#" },
-				{ 20, 70239, "", "=q4=Ruthless Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950#" }
+				{ 1, 70242, "", "=q4=Ruthless Gladiator's Barrier", "=ds=#w8#", "#HONOR:950#" },
+				{ 2, 70243, "", "=q4=Ruthless Gladiator's Redoubt", "=ds=#w8#", "#HONOR:950#" },
+				{ 3, 70241, "", "=q4=Ruthless Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:950#" },
+				{ 5, 70233, "", "=q4=Ruthless Gladiator's Hatchet", "=ds=#w11#", "#HONOR:700#" },
+				{ 6, 70232, "", "=q4=Ruthless Gladiator's War Edge", "=ds=#w11#", "#HONOR:700#" },
+				{ 8, 70236, "", "=q4=Ruthless Gladiator's Longbow", "=ds=#w2#", "#HONOR:3400#" },
+				{ 9, 70238, "", "=q4=Ruthless Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:3400#" },
+				{ 10, 70237, "", "=q4=Ruthless Gladiator's Rifle", "=ds=#w5#", "#HONOR:3400#" },
+				{ 16, 70235, "", "=q4=Ruthless Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:700#" },
+				{ 17, 70234, "", "=q4=Ruthless Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:700#" },
+				{ 19, 70240, "", "=q4=Ruthless Gladiator's Reprieve", "=ds=#s15#", "#HONOR:950#" },
+				{ 20, 70239, "", "=q4=Ruthless Gladiator's Endgame", "=ds=#s15#", "#HONOR:950#" }
 			};
 		};
 		info = {
@@ -5272,90 +5226,45 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["PVP85Weapons3"] = {
-		["Normal"] = {
-			{
-				{ 2, 70186, "", "=q4=Ruthless Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 1, 70189, "", "=q4=Ruthless Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 4, 70187, "", "=q4=Ruthless Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 3, 70190, "", "=q4=Ruthless Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 8, 70188, "", "=q4=Ruthless Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 7, 70203, "", "=q4=Ruthless Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 6, 70191, "", "=q4=Ruthless Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 10, 70199, "", "=q4=Ruthless Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 11, 70200, "", "=q4=Ruthless Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 13, 70205, "", "=q4=Ruthless Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 14, 70204, "", "=q4=Ruthless Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 17, 70185, "", "=q4=Ruthless Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 16, 70201, "", "=q4=Ruthless Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 18, 70202, "", "=q4=Ruthless Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 20, 70178, "", "=q4=Ruthless Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 21, 70184, "", "=q4=Ruthless Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 22, 70183, "", "=q4=Ruthless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 24, 70182, "", "=q4=Ruthless Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 26, 70181, "", "=q4=Ruthless Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 27, 70180, "", "=q4=Ruthless Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 28, 70179, "", "=q4=Ruthless Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-			};
-			{
-				{ 1, 70207, "", "=q4=Ruthless Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 2, 70206, "", "=q4=Ruthless Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 3, 70208, "", "=q4=Ruthless Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 5, 70197, "", "=q4=Ruthless Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 6, 70198, "", "=q4=Ruthless Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 8, 70192, "", "=q4=Ruthless Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 9, 70193, "", "=q4=Ruthless Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 10, 70194, "", "=q4=Ruthless Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 16, 70195, "", "=q4=Ruthless Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 17, 70196, "", "=q4=Ruthless Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 19, 70209, "", "=q4=Ruthless Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 20, 70210, "", "=q4=Ruthless Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" }
-			};
-		};
-		info = {
-			name = AL["PvP Weapons"], "=q5="..AL["Level 85"].." - "..AL["ilvl 391"],
-			module = moduleName, menu = "PVPMENU",
-		};
-	}
 -- Season 11
 	AtlasLoot_Data["PVP85Weapons4"] = {
 		["Normal"] = {
 			{
-				{ 2, 73419, "", "=q4=Cataclysmic Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
-				{ 1, 73418, "", "=q4=Cataclysmic Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950#" },
-				{ 4, 73421, "", "=q4=Cataclysmic Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
-				{ 3, 73420, "", "=q4=Cataclysmic Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950#" },
-				{ 8, 73434, "", "=q4=Cataclysmic Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450#" },
-				{ 7, 73422, "", "=q4=Cataclysmic Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450#" },
-				{ 6, 73428, "", "=q4=Cataclysmic Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950#" },
-				{ 10, 73439, "", "=q4=Cataclysmic Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450#" },
-				{ 11, 73414, "", "=q4=Cataclysmic Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450#" },
-				{ 13, 73441, "", "=q4=Cataclysmic Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450#" },
-				{ 14, 73416, "", "=q4=Cataclysmic Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450#" },
-				{ 17, 73426, "", "=q4=Cataclysmic Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450#" },
-				{ 16, 73415, "", "=q4=Cataclysmic Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450#" },
-				{ 18, 73440, "", "=q4=Cataclysmic Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450#" },
-				{ 20, 73442, "", "=q4=Cataclysmic Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
-				{ 21, 73444, "", "=q4=Cataclysmic Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
-				{ 22, 73443, "", "=q4=Cataclysmic Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
-				{ 24, 73423, "", "=q4=Cataclysmic Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 26, 73433, "", "=q4=Cataclysmic Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 27, 73424, "", "=q4=Cataclysmic Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 28, 73429, "", "=q4=Cataclysmic Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 2, 73452, "", "=q4=Cataclysmic Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
+				{ 1, 73451, "", "=q4=Cataclysmic Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950#" },
+				{ 4, 73454, "", "=q4=Cataclysmic Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450#" },
+				{ 3, 73453, "", "=q4=Cataclysmic Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950#" },
+				{ 8, 73467, "", "=q4=Cataclysmic Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450#" },
+				{ 7, 73455, "", "=q4=Cataclysmic Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450#" },
+				{ 6, 73461, "", "=q4=Cataclysmic Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950#" },
+				{ 10, 73472, "", "=q4=Cataclysmic Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450#" },
+				{ 11, 73447, "", "=q4=Cataclysmic Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450#" },
+				{ 13, 73474, "", "=q4=Cataclysmic Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450#" },
+				{ 14, 73449, "", "=q4=Cataclysmic Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450#" },
+				{ 17, 73459, "", "=q4=Cataclysmic Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450#" },
+				{ 16, 73448, "", "=q4=Cataclysmic Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450#" },
+				{ 18, 73473, "", "=q4=Cataclysmic Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450#" },
+				{ 20, 73475, "", "=q4=Cataclysmic Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
+				{ 21, 73477, "", "=q4=Cataclysmic Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
+				{ 22, 73476, "", "=q4=Cataclysmic Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
+				{ 24, 73456, "", "=q4=Cataclysmic Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 26, 73466, "", "=q4=Cataclysmic Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 27, 73457, "", "=q4=Cataclysmic Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 28, 73462, "", "=q4=Cataclysmic Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400#" },
 			};
 			{
-				{ 1, 73435, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 2, 73425, "", "=q4=Cataclysmic Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 3, 73413, "", "=q4=Cataclysmic Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 5, 73438, "", "=q4=Cataclysmic Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700#" },
-				{ 6, 73412, "", "=q4=Cataclysmic Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700#" },
-				{ 8, 73437, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
-				{ 9, 73430, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
-				{ 10, 73427, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
-				{ 16, 73417, "", "=q4=Cataclysmic Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 17, 73431, "", "=q4=Cataclysmic Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 19, 73432, "", "=q4=Cataclysmic Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950#" },
-				{ 20, 73436, "", "=q4=Cataclysmic Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950#" }
+				{ 1, 73468, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950#" },
+				{ 2, 73458, "", "=q4=Cataclysmic Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950#" },
+				{ 3, 73446, "", "=q4=Cataclysmic Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950#" },
+				{ 5, 73471, "", "=q4=Cataclysmic Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700#" },
+				{ 6, 73445, "", "=q4=Cataclysmic Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700#" },
+				{ 8, 73470, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
+				{ 9, 73463, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
+				{ 10, 73460, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
+				{ 16, 73450, "", "=q4=Cataclysmic Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
+				{ 17, 73464, "", "=q4=Cataclysmic Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
+				{ 19, 73465, "", "=q4=Cataclysmic Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950#" },
+				{ 20, 73469, "", "=q4=Cataclysmic Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950#" }
 			};
 		};
 		info = {
@@ -5363,45 +5272,45 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "PVPMENU",
 		};
 	}
--- Season 11
+
 	AtlasLoot_Data["PVP85Weapons5"] = {
 		["Normal"] = {
 			{
-				{ 2, 73452, "", "=q4=Cataclysmic Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 1, 73451, "", "=q4=Cataclysmic Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 4, 73454, "", "=q4=Cataclysmic Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 3, 73453, "", "=q4=Cataclysmic Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 8, 73467, "", "=q4=Cataclysmic Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 7, 73455, "", "=q4=Cataclysmic Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 6, 73461, "", "=q4=Cataclysmic Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 10, 73472, "", "=q4=Cataclysmic Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 11, 73447, "", "=q4=Cataclysmic Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 13, 73474, "", "=q4=Cataclysmic Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 14, 73449, "", "=q4=Cataclysmic Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 17, 73459, "", "=q4=Cataclysmic Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 16, 73448, "", "=q4=Cataclysmic Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 18, 73473, "", "=q4=Cataclysmic Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
-				{ 20, 73475, "", "=q4=Cataclysmic Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 21, 73477, "", "=q4=Cataclysmic Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 22, 73476, "", "=q4=Cataclysmic Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 24, 73456, "", "=q4=Cataclysmic Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 26, 73466, "", "=q4=Cataclysmic Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 27, 73457, "", "=q4=Cataclysmic Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 28, 73462, "", "=q4=Cataclysmic Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 2, 73419, "", "=q4=Cataclysmic Gladiator's Right Render", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 1, 73418, "", "=q4=Cataclysmic Gladiator's Left Render", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 4, 73421, "", "=q4=Cataclysmic Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 3, 73420, "", "=q4=Cataclysmic Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 8, 73434, "", "=q4=Cataclysmic Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 7, 73422, "", "=q4=Cataclysmic Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 6, 73428, "", "=q4=Cataclysmic Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 10, 73439, "", "=q4=Cataclysmic Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 11, 73414, "", "=q4=Cataclysmic Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 13, 73441, "", "=q4=Cataclysmic Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 14, 73416, "", "=q4=Cataclysmic Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 17, 73426, "", "=q4=Cataclysmic Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 16, 73415, "", "=q4=Cataclysmic Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 18, 73440, "", "=q4=Cataclysmic Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2450# #reqrating# 2200" },
+				{ 20, 73442, "", "=q4=Cataclysmic Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 21, 73444, "", "=q4=Cataclysmic Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 22, 73443, "", "=q4=Cataclysmic Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 24, 73423, "", "=q4=Cataclysmic Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 26, 73433, "", "=q4=Cataclysmic Gladiator's Battle Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 27, 73424, "", "=q4=Cataclysmic Gladiator's Energy Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 28, 73429, "", "=q4=Cataclysmic Gladiator's Staff", "=ds=#w7#", "#CONQUEST:3400# #reqrating# 2200" },
 			};
 			{
-				{ 1, 73468, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 2, 73458, "", "=q4=Cataclysmic Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 3, 73446, "", "=q4=Cataclysmic Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 5, 73471, "", "=q4=Cataclysmic Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 6, 73445, "", "=q4=Cataclysmic Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 8, 73470, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 9, 73463, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 10, 73460, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 16, 73450, "", "=q4=Cataclysmic Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 17, 73464, "", "=q4=Cataclysmic Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 19, 73465, "", "=q4=Cataclysmic Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 20, 73469, "", "=q4=Cataclysmic Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" }
+				{ 1, 73435, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 2, 73425, "", "=q4=Cataclysmic Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 3, 73413, "", "=q4=Cataclysmic Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 5, 73438, "", "=q4=Cataclysmic Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
+				{ 6, 73412, "", "=q4=Cataclysmic Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
+				{ 8, 73437, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 9, 73430, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 10, 73427, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 16, 73417, "", "=q4=Cataclysmic Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
+				{ 17, 73431, "", "=q4=Cataclysmic Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
+				{ 19, 73432, "", "=q4=Cataclysmic Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" },
+				{ 20, 73436, "", "=q4=Cataclysmic Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" }
 			};
 		};
 		info = {

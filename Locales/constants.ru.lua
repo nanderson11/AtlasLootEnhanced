@@ -193,8 +193,6 @@ if AL then
 	AL["Show Price"] = "Цена";
 	AL["Skill"] = "Навык";
 	AL["Location"] = "Место";
-	AL["ilvl 359"] = "ilvl 359";
-	AL["ilvl 372"] = "ilvl 372";
 
 	-- #######################################
 	-- UI things END

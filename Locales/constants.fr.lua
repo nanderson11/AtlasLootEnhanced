@@ -246,10 +246,7 @@ if AL then
 	--AL["ilvl 226"] = true;
 	--AL["ilvl 245"] = true;
 	--AL["ilvl 264"] = true;
-	--AL["ilvl 359"] = true;
-	--AL["ilvl 372"] = true;
 	--AL["ilvl 378"] = true;
-	--AL["ilvl 391"] = true;
 	--AL["ilvl 397"] = true;
 	--AL["ilvl 410"] = true;
 
