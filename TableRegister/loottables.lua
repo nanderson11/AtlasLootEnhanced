@@ -66,10 +66,7 @@ AtlasLoot_LootTableRegister = {
 
 		["CoTEndTime"] = {
 			["Bosses"] = {
-				{ "EndtimeEchoes", 3, EncounterJournalID = 340 },
-				{ "EndtimeEchoes", 4, EncounterJournalID = 285, hide = true },
-				{ "EndtimeEchoes", 5, EncounterJournalID = 323, hide = true },
-				{ "EndtimeEchoes", 6, EncounterJournalID = 283, hide = true },
+				{ "EndtimeEchoes", {3,4,5,6}, EncounterJournalID = 340 },
 				{ "EndtimeMurozond", 7, EncounterJournalID = 289 },
 				{ "EndtimeTrash", 10 },
 			},
