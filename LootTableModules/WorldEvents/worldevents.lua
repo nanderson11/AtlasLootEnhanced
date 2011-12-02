@@ -394,6 +394,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 22, 17722, "", "=q2=Pattern: Gloves of the Greatfather", "=ds=#p7# (190)"};
 				{ 23, 17709, "", "=q1=Recipe: Elixir of Frost Power", "=ds=#p1# (190)"};
 				{ 24, 17724, "", "=q1=Pattern: Green Holiday Shirt", "=ds=#p8# (190)"};
+				{ 26, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Stolen Present"], "#QUESTID:7043#"};
+				{ 27, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
 			};
 			{
 				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Festive Gift"], ""};
@@ -523,18 +525,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Valentineday"] = {
 		["Normal"] = {
 			{
-				{ 1, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "#VALENTINEDAY:10#"};
-				{ 2, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
-				{ 3, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
-				{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "#VALENTINEDAY:2#"};
-				{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:5#"};
-				{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
-				{ 7, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "#VALENTINEDAY:2#"};
-				{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "#VALENTINEDAY:10#"};
-				{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
-				{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
-				{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "#VALENTINEDAY:5#"};
-				{ 12, 22261, "", "=q1=Love Fool", "=ds=#e22#", "#VALENTINEDAY:10#"};
+				{ 1, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#" },
+				{ 2, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "#VALENTINEDAY:10#"};
+				{ 3, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
+				{ 4, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
+				{ 5, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "#VALENTINEDAY:2#"};
+				{ 6, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:5#"};
+				{ 7, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
+				{ 8, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "#VALENTINEDAY:2#"};
+				{ 9, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "#VALENTINEDAY:10#"};
+				{ 10, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
+				{ 11, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
+				{ 12, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "#VALENTINEDAY:5#"};
+				{ 13, 22261, "", "=q1=Love Fool", "=ds=#e22#", "#VALENTINEDAY:10#"};
 				{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
 				{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
 				{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
@@ -711,13 +714,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Noblegarden"] = {
 		["Normal"] = {
 			{
-				{ 2, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "#NOBLEGARDEN:100#"};
-				{ 3, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "#NOBLEGARDEN:100#"};
-				{ 4, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "#NOBLEGARDEN:50#"};
-				{ 5, 44792, "", "=q1=Blossoming Branch", "=ds=", "#NOBLEGARDEN:10#"};
-				{ 6, 44818, "", "=q1=Noblegarden Egg", "=ds=", "#NOBLEGARDEN:5#"};
-				{ 8, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
-				{ 9, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
+				{ 2, 72145, "", "=q4=Swift Springstrider", "=ds=#e26#", "#NOBLEGARDEN:270#"},
+				{ 3, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "#NOBLEGARDEN:100#"};
+				{ 4, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "#NOBLEGARDEN:100#"};
+				{ 5, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "#NOBLEGARDEN:50#"};
+				{ 6, 44792, "", "=q1=Blossoming Branch", "=ds=", "#NOBLEGARDEN:10#"};
+				{ 7, 44818, "", "=q1=Noblegarden Egg", "=ds=", "#NOBLEGARDEN:5#"};
+				{ 9, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
+				{ 10, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
 				{ 17, 44803, "", "=q1=Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
 				{ 18, 74282, "", "=q1=Black Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
 				{ 19, 74283, "", "=q1=Pink Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};

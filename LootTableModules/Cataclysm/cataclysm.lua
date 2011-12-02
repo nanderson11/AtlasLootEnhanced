@@ -2987,6 +2987,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77223, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
+    			{ 22, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },
 			};
 		};
 		["Heroic"] = {
@@ -3003,6 +3004,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 78848, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78849, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 78429, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
+    			{ 22, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },
 			};
 		};
 		info = {
@@ -3225,7 +3227,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 78885, "", "=q4=Dragoncarver Belt", "=ds=#s10#, #a3#" },
 				{ 7, 78887, "", "=q4=Girdle of Soulful Mending", "=ds=#s10#, #a4#" },
 				{ 8, 78888, "", "=q4=Waistguard of Bleeding Bone", "=ds=#s10#, #a4#" },
-				{ 9, 78889, "", "=q4=Waistplate of the Desecreated Future", "=ds=#s10#, #a4#" },
+				{ 9, 78889, "", "=q4=Waistplate of the Desecrated Future", "=ds=#s10#, #a4#" },
 				{ 17, 77938, "", "=q4=Dragonfire Orb", "=ds=#s15#" },
 			};
 		};
@@ -7128,31 +7130,32 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 66073, "", "=q1=Snail Shell", "=ds="..AL["Children's Week"]};
 				{ 13, 23002, "", "=q1=Turtle Box", "=ds="..AL["Children's Week"]};
 				{ 15, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
-				{ 16, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
-				{ 17, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
-				{ 18, 21305, "", "=q1=Red Helper Box", "=ds="..AL["Feast of Winter Veil"]};
-				{ 19, 21309, "", "=q1=Snowman Kit", "=ds="..AL["Feast of Winter Veil"]};
-				{ 21, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Love is in the Air"]};
-				{ 22, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
-				{ 24, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 25, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 27, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
-				{ 28, 71076, "", "=q1=Creepy Crate", "=ds="..AL["Hallow's End"]};
-				{ 29, 70908, "", "=q1=Feline Familiar", "=ds="..AL["Hallow's End"]};
+				{ 16, 73797, "", "=q3=Lump of Coal", "=ds="..AL["Feast of Winter Veil"]};
+				{ 17, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
+				{ 18, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
+				{ 19, 21305, "", "=q1=Red Helper Box", "=ds="..AL["Feast of Winter Veil"]};
+				{ 20, 21309, "", "=q1=Snowman Kit", "=ds="..AL["Feast of Winter Veil"]};
+				{ 22, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Love is in the Air"]};
+				{ 23, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
+				{ 25, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 26, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 28, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
+				{ 29, 71076, "", "=q1=Creepy Crate", "=ds="..AL["Hallow's End"]};
+				{ 30, 70908, "", "=q1=Feline Familiar", "=ds="..AL["Hallow's End"]};
 			};
 			{
-				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
-				{ 2, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
-				{ 3, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
-				{ 4, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
-				{ 5, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
-				{ 6, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
-				{ 7, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
-				{ 8, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
-				{ 9, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
-				{ 10, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
-				{ 12, 74611, "", "=q3=Festival Lantern", "=ds="..AL["Lunar Festival"]};
-				{ 13, 74610, "", "=q3=Lunar Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 1, 74611, "", "=q3=Festival Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 2, 74610, "", "=q3=Lunar Lantern", "=ds="..AL["Lunar Festival"]};
+				{ 4, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
+				{ 5, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
+				{ 6, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
+				{ 7, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
+				{ 8, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
+				{ 9, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
+				{ 10, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
+				{ 11, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
+				{ 12, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
+				{ 13, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
 				{ 16, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 17, 73764, "", "=q3=Darkmoon Monkey", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 18, 73765, "", "=q3=Darkmoon Turtle", "=ds="..BabbleFaction["Darkmoon Faire"]};
@@ -7568,32 +7571,31 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 68823, "", "=q4=Armored Razzashi Raptor", "=q2="..BabbleBoss["Bloodlord Mandokir"]..", =q1="..BabbleZone["Zul'Gurub"]};	
 				{ 3, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
 				{ 4, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
-				{ 5, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
-				{ 6, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..BabbleBoss["Alysrazor"]..", =q1="..BabbleZone["Firelands"]},
-				{ 7, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-				{ 8, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
-				{ 9, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
-				{ 10, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
-				{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
-				{ 12, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
-				{ 13, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
-				{ 14, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#, =q1="..BabbleZone["The Culling of Stratholme"], ""};
-				{ 15, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
-				{ 16, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
+				{ 5, 78919, "", "=q4=Experiment 12-B", "=q2="..BabbleBoss["Ultraxion"]..", =q1="..BabbleZone["Dragon Soul"]},
+				{ 6, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
+				{ 7, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..BabbleBoss["Alysrazor"]..", =q1="..BabbleZone["Firelands"]},
+				{ 8, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
+				{ 9, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..BabbleBoss["Madness of Deathwing"]..", =q1="..BabbleZone["Dragon Soul"]},
+				{ 10, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
+				{ 11, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 12, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..BabbleBoss["Madness of Deathwing"]..", =q1="..BabbleZone["Dragon Soul"]},
+				{ 13, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 14, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
+				{ 15, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
+				{ 16, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
+				{ 17, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#, =q1="..BabbleZone["The Culling of Stratholme"], ""};
+				{ 18, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
+				{ 19, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
 				{
-					{ 17, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m6#", "", ""};
-					{ 17, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m7#", "", ""};
+					{ 20, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m6#", "", ""};
+					{ 20, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m7#", "", ""};
 				};
-				{ 18, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..BabbleZone["Onyxia's Lair"], ""};
-				{ 19, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
-				{ 20, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 21, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..BabbleZone["Firelands"]},
-				{ 22, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
-				{ 23, 68824, "", "=q4=Swift Zulian Panther", "=q2="..BabbleBoss["High Priestess Kilnara"]..", =q1="..BabbleZone["Zul'Gurub"]};				
-				{ 24, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
-				{ 25, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
-				{ 26, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
-				{ 27, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
+				{ 21, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..BabbleZone["Onyxia's Lair"], ""};
+				{ 22, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
+				{ 23, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
+				{ 24, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..BabbleZone["Firelands"]},
+				{ 25, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
+				{ 26, 68824, "", "=q4=Swift Zulian Panther", "=q2="..BabbleBoss["High Priestess Kilnara"]..", =q1="..BabbleZone["Zul'Gurub"]};				
 			};
 			{				
 				{ 1, 67151, "", "=q4=Reins of Poseidus", "=q2="..AL["Poseidus"]..", =q1="..BabbleZone["Vashj'ir"]};
@@ -7601,6 +7603,10 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
 				{ 4, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
 				{ 5, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 16, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 17, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 18, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 19, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
 			};
 		};
 		info = {
@@ -7737,6 +7743,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 37012, "", "=q4=The Horseman's Reins", "#ACHIEVEMENTID:980#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Love is in the Air"], ""};
 				{ 17, 50250, "", "=q4=Big Love Rocket", "#ACHIEVEMENTID:4627#"};
+				{ 18, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#" },
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Noblegarden"], ""};
+				{ 21, 72145, "", "=q4=Swift Springstrider", "=ds=#e26#", "#NOBLEGARDEN:270#"},
 			};
 		};
 		info = {
