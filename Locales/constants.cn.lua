@@ -168,8 +168,8 @@ if AL then
 	AL[" already in the WishList!"] = " 已在愿望列表内！";
 	AL[" deleted from the WishList."] = " 已从愿望列表删除。";
 	AL["Are you sure you want to delete Wishlist |cff1eff00%s|r?"] = "确定要输出愿望列表|cff1eff00%s|r？";
-	AL["default"] = "default";
-	AL[" |cff999999<default>"] = " |cff999999<default>";
+	AL["default"] = "默认";
+	AL[" |cff999999<default>"] = " |cff999999<默认>";
 	AL["Use as default wishlist"] = "将其设为默认愿望列表";
 	AL["Add Wishlist"] = "新增愿望列表";
 	AL["Always use default Wishlist"] = "永远使用默认愿望列表";
@@ -214,7 +214,7 @@ if AL then
 	AL["Show unused QuickLooks in the Panel"] = "在面板显示未使用的快捷浏览";
 	AL["Shows unused QuickLooks as grey buttons in the AtlasLoot Panel"] = "在 AtlasLoot 面板以灰色按钮显示未使用的快捷浏览";
 	-- Single options
-	AL["unused"] = "unused";
+	AL["unused"] = "未使用";
 	AL["QuickLook name:"] = "快捷浏览名称：";
 	AL["Use Boss name"] = "使用首领名称";
 	AL["Use Instance name"] = "使用副本名称";
@@ -246,7 +246,10 @@ if AL then
 	AL["ilvl 226"] = "等级226";
 	AL["ilvl 245"] = "等级245";
 	AL["ilvl 264"] = "等级264";
+	AL["ilvl 359"] = "等级359";
+	AL["ilvl 372"] = "等级372";
 	AL["ilvl 378"] = "等级378";
+	AL["ilvl 391"] = "等级391";
 	AL["ilvl 397"] = "等级397";
 	AL["ilvl 410"] = "等级410";
 
@@ -586,7 +589,7 @@ if AL then
 	AL["Accessories"] = "附件";
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
-	AL["Raid Finder"] = "团队搜寻器";
+	AL["Raid Finder"] = "团队查找器";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等级30-39";
@@ -594,8 +597,8 @@ if AL then
 	AL["Level 50-60"] = "等级50-60";
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
-	AL["Brew of the Month Club"] = "每月啤酒俱乐部";
-	AL["Food and Drinks"] = "食物和饮料";
+	AL["Brew of the Month Club"] = "本月美酒俱乐部";
+	AL["Food and Drinks"] = "食物与饮料";
 
 	-- Profession descriptions
 	AL["Buff"] = "增益";
@@ -738,7 +741,7 @@ if AL then
 
 	-- Second set
 	AL["Through The Dark Portal"] = "跨越黑暗之门";
-	AL["King Mukla"] = "穆克拉";
+	AL["King Mukla"] = "国王穆克拉";
 	AL["Rest and Relaxation"] = "休息与放松";
 	AL["Fortune Telling"] = "预言";
 
@@ -781,7 +784,7 @@ if AL then
 	-- Ninth set
 	AL["Fields of Honor"] = "荣耀战场";
 	AL["Path of Cenarius"] = "塞纳留斯之路";
-	AL["Pinata"] = "食人魔皮纳塔";
+	AL["Pinata"] = "皮纳塔";
 	AL["El Pollo Grande"] = "魔法公鸡";
 
 	-- Tenth set
@@ -803,7 +806,7 @@ if AL then
 	AL["Paint Bomb"] = "彩弹";
 
 	-- Thirtheenth set
-	AL["Worldbreaker"] = "世界击碎者";
+	AL["Worldbreaker"] = "灭世者";
 	AL["Mottled Drake"] = "斑纹幼龙";
 	AL["Grim Campfire"] = "幽暗的营火";
 	AL["Landro's Lil' XT"] = "兰铎的小拆";
@@ -812,7 +815,7 @@ if AL then
 	AL["War of the Elements"] = "元素之战";
 
 	-- Fifteenth set
-	AL["Twilight of the Dragons"] = "暮光之龙";
+	AL["Twilight of the Dragons"] = "龙之暮光";
 
 	-- Seventeenth set
 	AL["Crown of Heaven"] = "天堂之冠 - PH";
