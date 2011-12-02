@@ -602,11 +602,11 @@ do
 								extraText2 = extraText2..", |T"..icon..":15:15|t"..v[1]
 							end	
 						end
-						--if newPrice and newPrice ~= "" then
-							--tempText = extraText2..", "..newPrice
-						--else
+						if newPrice and newPrice ~= "" then
+							tempText = extraText2..", "..newPrice
+						else
 							tempText = extraText2
-						--end
+						end
 					else
 						tempText, isQuest, isAchievement, isItem = GetExtraTextLink(price)
 						if not tempText then
