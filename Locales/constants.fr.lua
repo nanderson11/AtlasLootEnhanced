@@ -674,6 +674,8 @@ if AL then
 	-- General titles
 	AL["Achievement"] = "Haut fait";
 	AL["Promotional & Card Game"] = "Promotionnel & Jeu de cartes";
+	AL["Dungeon"] = "Donjon";
+	AL["Outdoor"] = "Plein air";
 
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = "Haut fait & mascottes de récompenses de factions";
