@@ -1682,7 +1682,9 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "MountsFaction" },
 				{ "MountsPvP" },
-				{ "MountsRare" },
+				{ "MountsRareDungeon" },
+				{ "MountsRareRaid" },				
+				{ "MountsRareOutdoor" },				
 				{ "MountsAchievement" },
 				{ "MountsCraftQuest" },
 				{ "MountsCardGamePromotional" },

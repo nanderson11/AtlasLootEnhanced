@@ -674,7 +674,9 @@ if AL then
 	-- General titles
 	AL["Achievement"] = true;
 	AL["Promotional & Card Game"] = true;
-
+	AL["Dungeon"] = true;
+	AL["Outdoor"] = true;
+	
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = true;
 	AL["Achievement & Faction Reward"] = true;

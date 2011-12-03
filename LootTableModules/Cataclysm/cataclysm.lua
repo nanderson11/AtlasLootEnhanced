@@ -7564,53 +7564,73 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-	AtlasLoot_Data["MountsRare"] = {
+	AtlasLoot_Data["MountsRareDungeon"] = {
 		["Normal"] = {
 			{
 				{ 1, 69747, "", "=q4=Amani Battle Bear", "=q1="..BabbleZone["Zul'Aman"]};
-				{ 2, 68823, "", "=q4=Armored Razzashi Raptor", "=q2="..BabbleBoss["Bloodlord Mandokir"]..", =q1="..BabbleZone["Zul'Gurub"]};	
-				{ 3, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
-				{ 4, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
-				{ 5, 78919, "", "=q4=Experiment 12-B", "=q2="..BabbleBoss["Ultraxion"]..", =q1="..BabbleZone["Dragon Soul"]},
-				{ 6, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
-				{ 7, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..BabbleBoss["Alysrazor"]..", =q1="..BabbleZone["Firelands"]},
-				{ 8, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#, =q1="..BabbleZone["Icecrown Citadel"], "", ""};
-				{ 9, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..BabbleBoss["Madness of Deathwing"]..", =q1="..BabbleZone["Dragon Soul"]},
-				{ 10, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
-				{ 11, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
-				{ 12, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..BabbleBoss["Madness of Deathwing"]..", =q1="..BabbleZone["Dragon Soul"]},
-				{ 13, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
-				{ 14, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
-				{ 15, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
-				{ 16, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
-				{ 17, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#, =q1="..BabbleZone["The Culling of Stratholme"], ""};
-				{ 18, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
-				{ 19, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
-				{
-					{ 20, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m6#", "", ""};
-					{ 20, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m7#", "", ""};
-				};
-				{ 21, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..BabbleZone["Onyxia's Lair"], ""};
-				{ 22, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
-				{ 23, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
-				{ 24, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..BabbleZone["Firelands"]},
-				{ 25, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
-				{ 26, 68824, "", "=q4=Swift Zulian Panther", "=q2="..BabbleBoss["High Priestess Kilnara"]..", =q1="..BabbleZone["Zul'Gurub"]};				
+				{ 2, 68823, "", "=q4=Armored Razzashi Raptor", "=q2="..BabbleBoss["Bloodlord Mandokir"]..", =q1="..BabbleZone["Zul'Gurub"]};
+				{ 3, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
+				{ 4, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
+				{ 5, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#"};
+				{ 6, 63040, "", "=q4=Reins of the Drake of the North Wind", "=q2="..BabbleBoss["Altairus"]..", =q1="..BabbleZone["The Vortex Pinnacle"]};
+				{ 7, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
+				{ 8, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..BabbleZone["The Stonecore"]};
+				{ 9, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
+				{ 10, 68824, "", "=q4=Swift Zulian Panther", "=q2="..BabbleBoss["High Priestess Kilnara"]..", =q1="..BabbleZone["Zul'Gurub"]};
 			};
-			{				
+		};
+		info = {
+			name = AL["Rare Mounts"]..": "..AL["Dungeon"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+	
+	AtlasLoot_Data["MountsRareRaid"] = {
+		["Normal"] = {
+			{
+				{ 1, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
+				{ 2, 78919, "", "=q4=Experiment 12-B", "=q2="..BabbleBoss["Ultraxion"]..", =q1="..BabbleZone["Dragon Soul"]},
+				{ 3, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
+				{ 4, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..BabbleBoss["Alysrazor"]..", =q1="..BabbleZone["Firelands"]},
+				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#"};
+				{ 6, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..BabbleBoss["Madness of Deathwing"]..", =q1="..BabbleZone["Dragon Soul"]},
+				{ 7, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
+				{ 8, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 9, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..BabbleBoss["Madness of Deathwing"]..", =q1="..BabbleZone["Dragon Soul"]},
+				{ 10, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
+				{ 12, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
+				{ 13, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..BabbleBoss["Al'Akir"]..", =q1="..BabbleZone["Throne of the Four Winds"]};
+				{
+					{ 14, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m6#", "", ""};
+					{ 14, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m7#", "", ""};
+				};
+				{ 15, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..BabbleZone["Onyxia's Lair"], ""};
+				{ 16, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..BabbleZone["Firelands"]},
+				{ 18, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 19, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 20, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 21, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
+			};
+		};
+		info = {
+			name = AL["Rare Mounts"]..": "..AL["Raid"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+	
+	AtlasLoot_Data["MountsRareOutdoor"] = {
+		["Normal"] = {
+			{	
 				{ 1, 67151, "", "=q4=Reins of Poseidus", "=q2="..AL["Poseidus"]..", =q1="..BabbleZone["Vashj'ir"]};
 				{ 2, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
 				{ 3, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..BabbleZone["Deepholm"]};
 				{ 4, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
 				{ 5, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
-				{ 16, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
-				{ 17, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
-				{ 18, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
-				{ 19, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
 			};
 		};
 		info = {
-			name = AL["Rare Mounts"],
+			name = AL["Rare Mounts"]..": "..AL["Outdoor"],
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}

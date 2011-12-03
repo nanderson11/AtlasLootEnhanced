@@ -10,6 +10,7 @@ Added missing trash loot for Dragon Soul.
 Added Season 11 items.
 Added new prices for Season 1-3 sets.
 Added some missing mounts.
+Rare Mounts split into 3 pages for easier navigation: Dungeon, Raid and Outdoor.
 Updated Transformation Items.
 Added autoselect for missing cataclysm instances. 
 Some minor fixes and additions.
