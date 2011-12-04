@@ -353,7 +353,6 @@ if AL then
 	AL["Tier 11/12 Set"] = "T11/T12 套裝";
 	AL["Tier 13 Set"] = "T13 套裝";
 	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
-	AL["Transformation Items"] = "變形物品";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套裝";
@@ -419,7 +418,7 @@ if AL then
 	AL[" seconds before you can send a new Wishlist to "] = " 秒後才可以將願望清單傳送給";
 	AL["Cancel"] = "取消";
 	AL["Delete Wishlist %s?"] = "是否刪除 '%s' 願望清單?";
-	AL["%s sends you a Wishlist. Accept?"] = "%s傳送了一個願望清單給你，是否接受?";
+	AL["%s sends you a Wishlist. Accept?"] = "%s 傳送了一個願望清單給你，是否接受?";
 	AL[" tried to send you a Wishlist. Rejected because you are in combat."] = "嘗試傳送一個願望清單給你，因你正在戰鬥中而系統自動拒絕了。";
 	AL[" rejects your Wishlist."] = "拒絕了你的願望清單";
 	AL["You can't send Wishlists to yourself"] = "你不能將願望清單傳送給自己。";
@@ -675,6 +674,8 @@ if AL then
 	-- General titles
 	AL["Achievement"] = "成就";
 	AL["Promotional & Card Game"] = "促銷活動和卡牌遊戲";
+	AL["Dungeon"] = "副本";
+	AL["Outdoor"] = "野外";
 
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = "成就/聲望獎勵夥伴";
@@ -716,6 +717,12 @@ if AL then
 	AL["Horde Tabards"] = "部落外袍";
 	AL["PvP Tabards"] = "PvP 外袍";
 	AL["Unobtainable Tabards"] = "無法取得的外袍";
+
+	-- Transformation Items
+	AL["Transformation Items"] = "變形物品";
+	AL["Additional Effects Transformation Items"] = "具額外效果的變形物品";
+	AL["Consumable Transformation Items"] = "消耗性變形物品";
+	AL["Non-consumed Transformation Items"] = "非消耗性變形物品";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月馬戲團獎勵";
@@ -1049,6 +1056,7 @@ if AL then
 	AL["Varlan Highbough"] = "瓦蘭·高枝";
 	AL["Firestone Vendor"] = "火石商人";
 	AL["Poseidus"] = "波賽達斯";
+	AL["Burgy Blackheart"] = "伯吉·黑心";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
@@ -1116,6 +1124,7 @@ if AL then
 	AL["Bag of Heart Candies"] = "心願糖果袋";
 	AL["Hidden Stash"] = "隱密藏匿物";
 	AL["The Cache of Madness"] = "瘋狂之緣";
+	AL["Stolen Present"] = "失竊的禮物";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";

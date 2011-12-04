@@ -353,7 +353,6 @@ if AL then
 	AL["Tier 11/12 Set"] = "等级11/12套装";
 	AL["Tier 13 Set"] = "等级13套装";
 	AL["TCG Items"] = "Upper Deck 集换卡游戏物品";
-	AL["Transformation Items"] = "变形物品";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";
@@ -675,6 +674,8 @@ if AL then
 	-- General titles
 	AL["Achievement"] = "成就";
 	AL["Promotional & Card Game"] = "促销和集换卡游戏";
+	AL["Dungeon"] = "副本";
+	AL["Outdoor"] = "野外";
 
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = "成就和阵营奖励小伙伴";
@@ -716,6 +717,12 @@ if AL then
 	AL["Horde Tabards"] = "部落战袍";
 	AL["PvP Tabards"] = "PvP 战袍";
 	AL["Unobtainable Tabards"] = "已绝版战袍";
+
+	-- Transformation Items
+	AL["Transformation Items"] = "变形物品";
+	AL["Additional Effects Transformation Items"] = "具额外效果的变形物品";
+	AL["Consumable Transformation Items"] = "消耗性变形物品";
+	AL["Non-consumed Transformation Items"] = "非消耗性变形物品";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月马戏团奖励";
@@ -1049,6 +1056,7 @@ if AL then
 	AL["Varlan Highbough"] = "瓦尔兰·高枝";
 	AL["Firestone Vendor"] = "火石结晶商人";
 	AL["Poseidus"] = "波塞冬斯";
+	AL["Burgy Blackheart"] = "布尔吉·黑心";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
@@ -1116,6 +1124,7 @@ if AL then
 	AL["Bag of Heart Candies"] = "一袋糖果";
 	AL["Hidden Stash"] = "藏匿物";
 	AL["The Cache of Madness"] = "疯狂之缘";
+	AL["Stolen Present"] = "被窃的礼物";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 发生错误！";
