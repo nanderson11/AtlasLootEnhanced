@@ -47,11 +47,11 @@ if AL then
 
 	-- Stats short
 	AL["iLvl"] = "等級";	-- Item lvl
-	AL["str"] = "力";	-- Strength
-	AL["agi"] = "敏";	-- Agility
-	AL["sta"] = "耐";	-- Stamina
-	AL["int"] = "智";	-- Intellect
-	AL["spi"] = "精";	-- Spirit
+	AL["str"] = "力量";	-- Strength
+	AL["agi"] = "敏捷";	-- Agility
+	AL["sta"] = "耐力";	-- Stamina
+	AL["int"] = "智力";	-- Intellect
+	AL["spi"] = "精力";	-- Spirit
 	AL["Crit"] = "致命";	-- Crit Rating
 	AL["Dodge"] = "閃躲";	-- Dodge Rating
 	AL["Exp"] = "熟練";	-- Expertise Rating
