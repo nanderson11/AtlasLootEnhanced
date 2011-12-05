@@ -2503,7 +2503,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s27944", "Spell_Holy_GreaterHeal", "=ds=Enchant Shield - Tough Shield", "=ds=#sr# 310", "=ds="..AL["Trainer"]};
 				{ 11, "s20016", "inv_enchant_formulagood_01", "=ds=Enchant Shield - Vitality", "=ds=#sr# 280", "=ds="..AL["Trainer"]};
 				{ 12, "s13933", "inv_enchant_formulagood_01", "=ds=Enchant Shield - Frost Resistance", "=ds=#sr# 235", "=ds="..AL["World Drop"]};
-				{ 13, "s13689", "inv_enchant_formulagood_01", "=ds=Enchant Shield - Lesser Block", "=ds=#sr# 195", "=ds="..AL["World Drop"]};
+				{ 13, "s13689", "inv_enchant_formulagood_01", "=ds=Enchant Shield - Lesser Parry", "=ds=#sr# 195", "=ds="..AL["World Drop"]};
 				{ 14, "s13464", "inv_enchant_formulagood_01", "=ds=Enchant Shield - Lesser Protection", "=ds=#sr# 115", "=ds="..AL["World Drop"]};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Stamina"], ""};
 				{ 17, "s34009", "inv_misc_note_01", "=ds=Enchant Shield - Major Stamina", "=ds=#sr# 325", "=ds="..AL["Vendor"]};

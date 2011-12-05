@@ -2987,7 +2987,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 78179, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78174, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 77223, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
-    			{ 22, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },
+    			{ 22, 78919, "", "=q4=Experiment 12-B", "=ds=#e27#" },
 			};
 		};
 		["Heroic"] = {
@@ -3004,7 +3004,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 78848, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78849, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
     			{ 20, 78429, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
-    			{ 22, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },
+    			{ 22, 78919, "", "=q4=Experiment 12-B", "=ds=#e27#" },
 			};
 		};
 		info = {
@@ -3142,7 +3142,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 16, 77194, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
     			{ 17, 77190, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
     			{ 18, 78359, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
-    			{ 20, 77067, "", "=q4=Reins of the Blazing Drake", "=ds=#e26#" },
+    			{ 20, 77067, "", "=q4=Reins of the Blazing Drake", "=ds=#e27#" },
 			};
 		};
 		["Heroic"] = {
@@ -3156,7 +3156,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 16, 78473, "", "=q4=Kiril, Fury of Beasts", "=ds=#w7#" },
     			{ 17, 78477, "", "=q4=Ti'tahk, the Steps of Time", "=ds=#w9#" },
     			{ 18, 78471, "", "=q4=Vishanka, Jaws of the Earth", "=ds=#w2#" },
-    			{ 20, 77069, "", "=q4=Life-Binder's Handmaiden", "=ds=#e26#" },
+    			{ 20, 77069, "", "=q4=Life-Binder's Handmaiden", "=ds=#e27#" },
 			};
 		};
 		info = {

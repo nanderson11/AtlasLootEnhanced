@@ -19,7 +19,7 @@ AtlasLoot.AddonInfo = {
 	authors = {
 		["Hegarol"] = {
 			email = "hegarol@atlasloot.net",
-			ingame = {"Hegarol@Dun Morogh"},
+			ingame = {"Hegarol@Dun Morogh", "Areghol@Dun Morogh"},
 		},
 		["Lag"] = {
 			email = "lag@atlasloot.net",
