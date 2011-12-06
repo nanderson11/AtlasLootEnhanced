@@ -12,6 +12,7 @@ Added new prices for Season 1-3 sets.
 Added some missing mounts and revamped rare mounts section.
 Updated Transformation Items.
 Added autoselect for missing cataclysm instances. 
+Added ptBR translation (Thanks Reiyr).
 Some minor fixes and additions.
 
 v6.05.00 (Nov 29, 2011)
