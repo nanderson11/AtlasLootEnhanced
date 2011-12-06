@@ -3227,7 +3227,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 78887, "", "=q4=Girdle of Soulful Mending", "=ds=#s10#, #a4#" },
 				{ 8, 78888, "", "=q4=Waistguard of Bleeding Bone", "=ds=#s10#, #a4#" },
 				{ 9, 78889, "", "=q4=Waistplate of the Desecrated Future", "=ds=#s10#, #a4#" },
-				{ 17, 77938, "", "=q4=Dragonfire Orb", "=ds=#s15#" },
+				{ 17, 77192, "", "=q4=Ruinblaster Shotgun", "=ds=#w5#" },
+				{ 19, 77938, "", "=q4=Dragonfire Orb", "=ds=#s15#" },
 			};
 		};
 		info = {

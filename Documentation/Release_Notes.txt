@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.05.02 (Dec ??, 2011)
+Small fixes and additions.
+
 v6.05.01 (Dec 06, 2011)
 Added missing trash loot for Dragon Soul.
 Added Season 11 items.
