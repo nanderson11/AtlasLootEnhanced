@@ -5328,20 +5328,35 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Misc"] = {
 		["Normal"] = {
 			{
-				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#HONOR:2000#" },
-				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#HONOR:2000#" },
-				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#HONOR:2000#" },
-				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 17, 52722, "", "=q4=Maelstrom Crystal", "", "#HONOR:3750#" },
-				{ 18, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#HONOR:1500#" },
-				{ 19, 53010, "", "=q1=Embersilk Cloth", "", "#HONOR:1250#" },
-				{ 20, 52185, "", "=q1=Elementium Ore", "", "#HONOR:1000#" },
-				{ 21, 52721, "", "=q3=Heavenly Shard", "", "#HONOR:600#" },
-				{ 22, 52719, "", "=q2=Greater Celestial Essence", "", "#HONOR:400#" },
-				{ 23, 52976, "", "=q1=Savage Leather", "", "#HONOR:375#" },
-				{ 24, 52555, "", "=q1=Hypnotic Dust", "", "#HONOR:100#" },
+				{ 1, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#HONOR:2000#" },
+				{ 2, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#HONOR:2000#" },
+				{ 3, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#HONOR:2000#" },
+				{ 4, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#HONOR:1000#" },
+				{ 5, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#HONOR:1000#" },
+				{ 6, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#HONOR:1000#" },
+				{ 8, 52722, "", "=q4=Maelstrom Crystal", "", "#HONOR:3750#" },
+				{ 9, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#HONOR:1500#" },
+				{ 10, 53010, "", "=q1=Embersilk Cloth", "", "#HONOR:1250#" },
+				{ 11, 52185, "", "=q1=Elementium Ore", "", "#HONOR:1000#" },
+				{ 12, 52721, "", "=q3=Heavenly Shard", "", "#HONOR:600#" },
+				{ 13, 52719, "", "=q2=Greater Celestial Essence", "", "#HONOR:400#" },
+				{ 14, 52976, "", "=q1=Savage Leather", "", "#HONOR:375#" },
+				{ 15, 52555, "", "=q1=Hypnotic Dust", "", "#HONOR:100#" },
+    			{ 16, 77140, "", "=q4=Stormy Deepholm Iolite", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 17, 77130, "", "=q4=Balanced Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 18, 77131, "", "=q4=Infused Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 19, 77154, "", "=q4=Radiant Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 20, 77137, "", "=q4=Shattered Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 21, 77139, "", "=q4=Steady Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 22, 77142, "", "=q4=Turbid Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 23, 77143, "", "=q4=Vivid Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 24, 77132, "", "=q4=Lucent Lava Coral", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 25, 77136, "", "=q4=Resplendent Lava Coral", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 26, 77138, "", "=q4=Splendid Lava Coral", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 27, 77141, "", "=q4=Tenuous Lava Coral", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 28, 77144, "", "=q4=Willful Lava Coral", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 29, 77133, "", "=q4=Mysterious Shadow Spinel", "=ds=#e7#", "#CONQUEST:750#" },
+    			{ 30, 77134, "", "=q4=Mystic Lightstone", "=ds=#e7#", "#CONQUEST:750#" },
 			};
 		};
 		info = {
@@ -7220,32 +7235,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
---[[	AtlasLoot_Data["Pets43"] = {
-		["Normal"] = {
-			{
-				{ 1, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 2, 73764, "", "=q3=Darkmoon Monkey", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 3, 73765, "", "=q3=Darkmoon Turtle", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 4, 73762, "", "=q1=Darkmoon Balloon", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 5, 73903, "", "=q1=Darkmoon Tonk", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 6, 73905, "", "=q1=Darkmoon Zeppelin", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 8, 74611, "", "=q3=Festival Lantern", "=ds="..AL["Lunar Festival"]};
-				{ 9, 74610, "", "=q3=Lunar Lantern", "=ds="..AL["Lunar Festival"]};
-				{ 11, 76062, "", "=q3=Fetish Shaman's Spear", "Diablo III Collectors Edition"};
-				{ 16, 72134, "", "=q3=Grell Moss", "=ds="..AL["TCG Items"]};
-				{ 17, 71624, "", "=q3=Purple Puffer", "=ds="..AL["TCG Items"]};
-				{ 18, 72153, "", "=q3=Sand Scarab", "=ds="..AL["TCG Items"]};
-				{ 20, 73953, "", "=q3=Sea Pony", "=q2=Fishing: Darkmoon Island"};
-				{ 13, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
-				{ 23, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};
-			};
-		};
-		info = {
-			name = "Patch 4.3 Companions",
-			module = moduleName, menu = "PETMENU", instance = "Pets",
-		};
-	}]]--
-
 		--------------
 		--- Mounts ---
 		--------------
@@ -7732,35 +7721,6 @@ local moduleName = "AtlasLootCataclysm"
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
-
---[[	AtlasLoot_Data["Mounts43"] = {
-		["Normal"] = {
-			{
-				{ 1, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "=ds="..AL["Season 10"]};--S10
-				{ 2, 73839, "", "=q4=Swift Mountain Horse", "=ds=#e26#"};--Worgen
-				{ 3, 73838, "", "=q3=Mountain Horse", "=ds=#e26#"};--Worgen
-				{ 4, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },--TCG
-				{ 5, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },--TCG
-				{ 6, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },--TCG
-				{ 7, 72140, "", "=q4=Swift Forest Strider", "=ds=#e26#" },--unknown source
-				{ 8, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#" },--unknown source
-				{ 9, 72145, "", "=q4=Swift Springstrider", "=ds=#e26#" },--unknown source
-				{ 10, 76902, "", "=q4=Spectral Wind Rider", "=ds=#e26#" },--unknown source
-				{ 11, 76889, "", "=q4=Spectral Gryphon", "=ds=#e26#" },--unknown source
-				{ 12, 76755, "", "=q4=Tyrael's Charger", "=ds=#e26#" },--Annual Pass
-				{ 13, 73766, "", "=q4=Darkmoon Dancing Bear", "=ds=#e26#" },--unknown source
-				{ 14, 77067, "", "=q4=Reins of the Blazing Drake", "=ds=#e26#" },--Deathwing
-				{ 15, 77068, "", "=q4=Reins of the Twilight Harbinger", "=ds=#e26#" },--unknown source
-				{ 16, 77069, "", "=q4=Life-Binder's Handmaiden", "=ds=#e26#" },--Deathwing heroic
-				{ 17, 78924, "", "=q4=Heart of the Aspects", "=ds=#e26#" },--unknown source
-				{ 18, 78919, "", "=q4=Experiment 12-B", "=ds=#e26#" },--unknown source
-			};
-		};
-		info = {
-			name = "Patch 4.3 Mounts",
-			module = moduleName, menu = "MOUNTMENU",
-		};
-	}--]]
 
 		----------------------------
 		--- Transformation Items ---
