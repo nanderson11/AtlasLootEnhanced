@@ -152,11 +152,17 @@ function AtlasLoot:LoadModule(module)
 	return loadedRET,reasonRET
 end
 
+local slashCalled = false
 -- This only loads the AtlasLoot Core
 -- After first call this function is replaced
 function AtlasLoot:SlashCommand(msg)
-	self:LoadModule("AtlasLoot")
-	self:SlashCommand(msg)
+	if slashCalled then
+		slashCalled = false
+	else
+		self:LoadModule("AtlasLoot")
+		self:SlashCommand(msg)
+		slashCalled = true
+	end
 end
 
 -- Create the Slashs /al and /atlasloot

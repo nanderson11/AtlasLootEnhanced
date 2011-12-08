@@ -115,7 +115,7 @@ do
 	
 	local function onDragStop(self)
 		self:StopMovingOrSizing()
-		local a,b,c,d,e = AtlasLootItemsFrame:GetPoint()
+		local a,b,c,d,e = self:GetPoint()
 		db.NEWpoint = { a, nil, c, d, e }
 	end
 	
