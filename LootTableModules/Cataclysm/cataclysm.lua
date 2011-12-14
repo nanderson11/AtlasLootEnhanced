@@ -6757,7 +6757,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
 				{ 12, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
 				{ 13, 71624, "", "=q3=Purple Puffer", "=ds=#e13#"},
-				{ 14, 71627, "", "=q1=Throwing Starfish", "=ds=" },
+				{ 14, 71628, "", "=q3=Sack of Starfish", "=ds=" },
 				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
 				{ 17, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
 				{ 18, 69227, "", "=q3=Fool's Gold", "=ds=" },
