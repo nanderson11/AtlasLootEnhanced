@@ -60,10 +60,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 3, "PVP60SET", "INV_Axe_02", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 60"]};
 				{ 5, "PVP70Accessories", "inv_jewelry_ring_60", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 70"]};
 				{ 6, "PVP70RepSET", "INV_Axe_02", "=ds="..AL["PvP Reputation Sets"], "=q5="..AL["Level 70"]};
-				{ 7, "PVP70SET", "inv_gauntlets_29", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 70"]};
+				{ 8, "PVPGladiatorWeapons", "inv_weapon_hand_13", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 70"].." - "..AL["Gladiator"]};
+				{ 9, "PVPMercilessWeapons", "inv_staff_53", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 70"].." - "..AL["Merciless"]};
 				{ 17, "PVP60Weapons", "INV_Weapon_Bow_08", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 60"]};
 				{ 20, "PVP70NonSet", "inv_belt_13", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 70"]};
-				{ 21, "PVP70Weapons", "INV_Weapon_Crossbow_10", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 70"]};
+				{ 21, "PVP70SET", "inv_gauntlets_29", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 70"]};
+				{ 23, "PVPVengefulWeapons", "inv_weapon_shortblade_62", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 70"].." - "..AL["Vengeful"]};
+				{ 24, "PVP70Weapons", "INV_Weapon_Crossbow_10", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 70"].." - "..AL["Brutal"]};
 			};
 		};
 		info = {

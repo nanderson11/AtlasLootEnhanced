@@ -234,7 +234,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 30535, "", "=q4=Forestwalker Kilt", "=ds=#s11#, #a2#", "", "27.27%"};
 				{ 3, 29352, "", "=q4=Cobalt Band of Tyrigosa", "=ds=#s13#", "", "0.21%"};
 				{ 4, 32082, "", "=q4=The Fel Barrier", "=ds=#w8#"};
-				{ 6, 27831, "", "=q3=Mantle of the Unforgiven", "=ds=#s3#, #a1#", "", "9.20%"};
+				{ 6, 27831, "", "=q3=Mantle of the Unforgiven", "=ds=#s3#, #a2#", "", "9.20%"};
 				{ 7, 27843, "", "=q3=Glyph-Lined Sash", "=ds=#s10#, #a1#", "", "10.80%"};
 				{ 8, 27827, "", "=q3=Lucid Dream Bracers", "=ds=#s8#, #a2#"};
 				{ 9, 27835, "", "=q3=Stillwater Girdle", "=ds=#s10#, #a3#", "", "6.06%"};
@@ -5277,7 +5277,130 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"].." "..AL["Level 70"],
+			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Brutal"],
+			module = moduleName, menu = "PVPMENU3",
+		};
+	}
+
+	AtlasLoot_Data["PVPGladiatorWeapons"] = {
+		["Normal"] = {
+			{
+    			{ 1, 28313, "", "=q4=Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
+    			{ 2, 28314, "", "=q4=Gladiator's Left Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
+    			{ 3, 28297, "", "=q4=Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
+    			{ 4, 28312, "", "=q4=Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
+    			{ 5, 28310, "", "=q4=Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
+    			{ 6, 28295, "", "=q4=Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
+    			{ 7, 28307, "", "=q4=Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
+    			{ 8, 24550, "", "=q4=Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
+    			{ 9, 28308, "", "=q4=Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
+    			{ 10, 28309, "", "=q4=Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
+    			{ 11, 28298, "", "=q4=Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+    			{ 12, 32450, "", "=q4=Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
+    			{ 13, 32451, "", "=q4=Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
+    			{ 14, 28305, "", "=q4=Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
+    			{ 15, 28302, "", "=q4=Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
+    			{ 16, 28299, "", "=q4=Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+    			{ 17, 28476, "", "=q4=Gladiator's Maul", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+    			{ 18, 28300, "", "=q4=Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
+    			{ 19, 24557, "", "=q4=Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
+    			{ 20, 28358, "", "=q4=Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
+    			{ 21, 28319, "", "=q4=Gladiator's War Edge", "=ds=#w11#", "#HONOR:750#" },
+    			{ 22, 28294, "", "=q4=Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
+    			{ 23, 28320, "", "=q4=Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+    			{ 25, 28346, "", "=q4=Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+    			{ 26, 32452, "", "=q4=Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Gladiator"],
+			module = moduleName, menu = "PVPMENU3",
+		};
+	}
+
+	AtlasLoot_Data["PVPMercilessWeapons"] = {
+		["Normal"] = {
+			{
+    			{ 1, 32028, "", "=q4=Merciless Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
+    			{ 2, 32003, "", "=q4=Merciless Gladiator's Left Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
+    			{ 3, 32053, "", "=q4=Merciless Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
+    			{ 4, 32044, "", "=q4=Merciless Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
+    			{ 5, 32046, "", "=q4=Merciless Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
+    			{ 6, 32052, "", "=q4=Merciless Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
+    			{ 7, 32027, "", "=q4=Merciless Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
+    			{ 8, 31984, "", "=q4=Merciless Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
+    			{ 9, 31965, "", "=q4=Merciless Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
+    			{ 10, 31985, "", "=q4=Merciless Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
+    			{ 11, 31966, "", "=q4=Merciless Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+    			{ 12, 32963, "", "=q4=Merciless Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
+    			{ 13, 32964, "", "=q4=Merciless Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
+    			{ 14, 32026, "", "=q4=Merciless Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
+    			{ 15, 31958, "", "=q4=Merciless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
+    			{ 16, 31959, "", "=q4=Merciless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+    			{ 17, 32014, "", "=q4=Merciless Gladiator's Maul", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+    			{ 18, 32025, "", "=q4=Merciless Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
+    			{ 19, 32055, "", "=q4=Merciless Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
+    			{ 20, 33313, "", "=q4=Merciless Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
+    			{ 21, 32045, "", "=q4=Merciless Gladiator's Shield Wall", "=ds=#w8#s", "#HONOR:750#" },
+    			{ 22, 32054, "", "=q4=Merciless Gladiator's War Edge", "=ds=#w11#", "#HONOR:750#" },
+    			{ 23, 31986, "", "=q4=Merciless Gladiator's Crossbow of the Phoenix", "=ds=#w3#", "#HONOR:750#" },
+    			{ 24, 32962, "", "=q4=Merciless Gladiator's Touch of Defeat", "=ds=#w12#, Weapon", "#HONOR:750#" },
+    			{ 26, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+    			{ 27, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Merciless"],
+			module = moduleName, menu = "PVPMENU3",
+		};
+	}
+
+	AtlasLoot_Data["PVPVengefulWeapons"] = {
+		["Normal"] = {
+			{
+    			{ 1, 33737, "", "=q4=Vengeful Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
+    			{ 2, 33705, "", "=q4=Vengeful Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:750#" },
+    			{ 3, 34016, "", "=q4=Vengeful Gladiator's Left Render", "=ds=#h4#, #w13#, Weapon", "#HONOR:750#" },
+    			{ 4, 33763, "", "=q4=Vengeful Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
+    			{ 5, 33754, "", "=q4=Vengeful Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
+    			{ 6, 33801, "", "=q4=Vengeful Gladiator's Mutilator", "=ds=#h4#, #w4#", "#HONOR:750#" },
+    			{ 7, 33756, "", "=q4=Vengeful Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
+    			{ 8, 33762, "", "=q4=Vengeful Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
+    			{ 9, 33734, "", "=q4=Vengeful Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
+    			{ 10, 33688, "", "=q4=Vengeful Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
+    			{ 11, 33669, "", "=q4=Vengeful Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
+    			{ 12, 34015, "", "=q4=Vengeful Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:750#" },
+    			{ 13, 33689, "", "=q4=Vengeful Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
+    			{ 14, 33670, "", "=q4=Vengeful Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+    			{ 15, 34014, "", "=q4=Vengeful Gladiator's Waraxe", "=ds=#h3#, #w1#", "#HONOR:1500#" },
+    			{ 16, 33687, "", "=q4=Vengeful Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
+    			{ 17, 33743, "", "=q4=Vengeful Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
+    			{ 18, 33733, "", "=q4=Vengeful Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
+    			{ 19, 33662, "", "=q4=Vengeful Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
+    			{ 20, 33663, "", "=q4=Vengeful Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+    			{ 21, 33727, "", "=q4=Vengeful Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
+    			{ 22, 34540, "", "=q4=Vengeful Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:1500#" },
+    			{ 23, 33716, "", "=q4=Vengeful Gladiator's Staff", "=ds=#w9#", "#HONOR:1500#" },
+    			{ 24, 33766, "", "=q4=Vengeful Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
+			};
+			{
+    			{ 1, 33661, "", "=q4=Vengeful Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
+    			{ 2, 33735, "", "=q4=Vengeful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:750#" },
+    			{ 3, 33755, "", "=q4=Vengeful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
+    			{ 4, 33765, "", "=q4=Vengeful Gladiator's War Edge", "=ds=#w11#", "#HONOR:750#" },
+    			{ 5, 34529, "", "=q4=Vengeful Gladiator's Longbow", "=ds=#w2#", "#HONOR:750#" },
+    			{ 6, 33006, "", "=q4=Vengeful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
+    			{ 7, 34530, "", "=q4=Vengeful Gladiator's Rifle", "=ds=#w5#", "#HONOR:750#" },
+    			{ 8, 34059, "", "=q4=Vengeful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:750#" },
+    			{ 9, 34066, "", "=q4=Vengeful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:750#" },
+    			{ 10, 33764, "", "=q4=Vengeful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+    			{ 16, 33681, "", "=q4=Vengeful Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+    			{ 17, 34033, "", "=q4=Vengeful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:750#" },
+    			{ 18, 33736, "", "=q4=Vengeful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Vengeful"],
 			module = moduleName, menu = "PVPMENU3",
 		};
 	}

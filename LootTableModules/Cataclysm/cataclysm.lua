@@ -220,7 +220,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 5, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Jaina", 285), ""};
     			{ 6, 72808, "", "=q4=Jaina's Staff", "=ds=#w9#" },
     			{ 7, 72809, "", "=q4=Ward of Incantations", "=ds=#w8#" },
-    			{ 9, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323), ""};
+    			{ 9, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323), "#ACHIEVEMENTID:6130#"};
     			{ 10, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
     			{ 11, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
     			{ 13, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Tyrande", 283), ""};
@@ -2754,9 +2754,7 @@ local moduleName = "AtlasLootCataclysm"
     			{ 8, 78377, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
     			{ 9, 78386, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
     			{ 16, 78382, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
-    			{ 18, 78383, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
-    			{ 19, 78379, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
-    			{ 20, 78374, "", "=q4=Razor Saronite Chip", "=ds=#w11#" },
+    			{ 18, 78374, "", "=q4=Razor Saronite Chip", "=ds=#w11#" },
 			};
 		};
 		["Normal"] = {
@@ -2811,8 +2809,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78866, "", "=q4=Gauntlets of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78867, "", "=q4=Gauntlets of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78865, "", "=q4=Gauntlets of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 78394, "", "=q4=Horrifying Horn Arbalest", "=ds=#w3#" },
-    			{ 21, 78399, "", "=q4=Finger of Zon'ozz", "=ds=#w12#" },
+    			{ 20, 78399, "", "=q4=Finger of Zon'ozz", "=ds=#w12#" },
 			};
 		};
 		["Normal"] = {
@@ -2857,14 +2854,11 @@ local moduleName = "AtlasLootCataclysm"
     			{ 1, 78408, "", "=q4=Interrogator's Bloody Footpads", "=ds=#s12#, #a2#" },
     			{ 2, 78411, "", "=q4=Mindstrainer Treads", "=ds=#s12#, #a3#" },
     			{ 3, 78412, "", "=q4=Heartblood Wristplates", "=ds=#s8#, #a4#" },
-    			{ 5, 78409, "", "=q4=Experimental Specimen Slicer", "=ds=#h2#, #w1#" },
-    			{ 6, 78407, "", "=q4=Spire of Coagulated Globules", "=ds=#w9#" },
-    			{ 7, 78410, "", "=q4=Scalpel of Unrelenting Agony", "=ds=#h3#, #w4#" },
+				{ 5, 77971, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
+				{ 6, 77970, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
 				{ 16, 78872, "", "=q4=Leggings of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78873, "", "=q4=Leggings of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78871, "", "=q4=Leggings of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-				{ 20, 77971, "", "=q4=Insignia of the Corrupted Mind", "=ds=#s14#" },
-				{ 21, 77970, "", "=q4=Soulshifter Vortex", "=ds=#s14#" },
 			};
 		};
 		["Normal"] = {
@@ -2915,8 +2909,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78875, "", "=q4=Shoulders of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78876, "", "=q4=Shoulders of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78874, "", "=q4=Shoulders of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 78426, "", "=q4=Lightning Rod", "=ds=#w9#" },
-    			{ 21, 78422, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
+    			{ 20, 78422, "", "=q4=Electrowing Dagger", "=ds=#h1#, #w4#" },
 			};
 		};
 		["Normal"] = {
@@ -2969,7 +2962,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 78863, "", "=q4=Chest of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78864, "", "=q4=Chest of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78862, "", "=q4=Chest of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-    			{ 20, 78437, "", "=q4=Morningstar of Heroic Will", "=ds=#h1#, #w6#" },
 			};
 		};
 		["Normal"] = {
@@ -3019,14 +3011,12 @@ local moduleName = "AtlasLootCataclysm"
     			{ 2, 78454, "", "=q4=Shadow Wing Armbands", "=ds=#s8#, #a2#" },
     			{ 3, 78455, "", "=q4=Belt of the Beloved Companion", "=ds=#s10#, #a3#" },
     			{ 4, 78460, "", "=q4=Goriona's Collar", "=ds=#s10#, #a4#" },
-    			{ 6, 78453, "", "=q4=Ataraxis, Cudgel of the Warmaster", "=ds=#h2#, #w6#" },
-    			{ 7, 78459, "", "=q4=Visage of the Destroyer", "=ds=#w9#" },
-    			{ 8, 78456, "", "=q4=Blackhorn's Mighty Bulwark", "=ds=#w8#" },
-    			{ 9, 78458, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },
+				{ 6, 77973, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
 				{ 16, 78869, "", "=q4=Crown of the Corrupted Conqueror", "=ds=#e15#, #m39#"};
 				{ 17, 78870, "", "=q4=Crown of the Corrupted Protector", "=ds=#e15#, #m39#"};
 				{ 18, 78868, "", "=q4=Crown of the Corrupted Vanquisher", "=ds=#e15#, #m39#"};
-				{ 20, 77973, "", "=q4=Starcatcher Compass", "=ds=#s14#" },
+    			{ 20, 78456, "", "=q4=Blackhorn's Mighty Bulwark", "=ds=#w8#" },
+    			{ 21, 78458, "", "=q4=Timepiece of the Bronze Flight", "=ds=#w8#" },
 			};
 		};
 		["Normal"] = {

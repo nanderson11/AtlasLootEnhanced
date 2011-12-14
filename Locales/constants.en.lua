@@ -249,6 +249,10 @@ if AL then
 	AL["ilvl 378"] = true;
 	AL["ilvl 397"] = true;
 	AL["ilvl 410"] = true;
+	AL["Gladiator"] = true;
+	AL["Vengeful"] = true;
+	AL["Merciless"] = true;
+	AL["Brutal"] = true;
 
 	-- #######################################
 	-- UI things END
