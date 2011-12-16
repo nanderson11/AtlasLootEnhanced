@@ -1828,7 +1828,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["The Maker"],
-			module = moduleName, instance = "HCHellfireRamparts",
+			module = moduleName, instance = "HCBloodFurnace",
 		};
 	};
 
@@ -1854,7 +1854,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Broggok"],
-			module = moduleName, instance = "HCHellfireRamparts",
+			module = moduleName, instance = "HCBloodFurnace",
 		};
 	};
 
@@ -1894,7 +1894,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = BabbleBoss["Keli'dan the Breaker"],
-			module = moduleName, instance = "HCHellfireRamparts",
+			module = moduleName, instance = "HCBloodFurnace",
 		};
 	};
 
