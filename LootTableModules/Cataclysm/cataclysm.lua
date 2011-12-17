@@ -212,7 +212,7 @@ local moduleName = "AtlasLootCataclysm"
 		---------------------------------
 
 	AtlasLoot_Data["EndtimeEchoes"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Baine", 340), ""};
     			{ 2, 72815, "", "=q4=Bloodhoof Legguards", "=ds=#s11#, #a4#" },
@@ -247,7 +247,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["EndtimeMurozond"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
     			{ 1, 72825, "", "=q4=Mantle of Time", "=ds=#s3#, #a1#" },
     			{ 2, 72826, "", "=q4=Robes of Fate", "=ds=#s5#, #a1#" },
@@ -270,7 +270,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["EndtimeTrash"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 2, 76154, "", "=q4=Breastplate of Despair", "=ds=#s5#, #a4#" },
 				{ 3, 76156, "", "=q4=Bindings of the End Times", "=ds=#s8#, #a4#" },
@@ -288,7 +288,7 @@ local moduleName = "AtlasLootCataclysm"
 		-----------------------------------------
 
 	AtlasLoot_Data["HoTArcurion"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
     			{ 1, 72854, "", "=q4=Iceward Cloak", "=ds=#s4#" },
     			{ 2, 72851, "", "=q4=Chillbane Belt", "=ds=#s10#, #a1#" },
@@ -306,7 +306,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["HoTDawnslayer"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
     			{ 1, 76151, "", "=q4=Cloak of Subtle Light", "=ds=#s4#" },
     			{ 2, 72857, "", "=q4=Leggings of Blinding Speed", "=ds=#s11#, #a2#" },
@@ -323,7 +323,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["HoTBenedictus"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 72865, "", "=q4=Mantle of False Virtue", "=ds=#s3#, #a1#" },
 				{ 2, 72868, "", "=q4=Desecrated Shoulderguards", "=ds=#s3#, #a2#" },
@@ -346,7 +346,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["HoTTrash"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 2, 76160, "", "=q4=Drapes of the Dragonshrine", "=ds=#s4#" },
 				{ 3, 76161, "", "=q4=Gauntlets of the Twilight Hour", "=ds=#s9#, #a3#" },
@@ -364,7 +364,7 @@ local moduleName = "AtlasLootCataclysm"
 		-----------------------------------------
 				
 	AtlasLoot_Data["WoEPerotharn"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
     			{ 1, 72830, "", "=q4=Peroth'arn's Belt", "=ds=#s10#, #a2#" },
     			{ 2, 72832, "", "=q4=Girdle of the Queen's Champion", "=ds=#s10#, #a4#" },
@@ -381,7 +381,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["WoEAzshara"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
     			
     			{ 1, 72838, "", "=q4=Cloak of the Royal Protector", "=ds=#s4#"},
@@ -399,7 +399,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["WoEMannoroth"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
     			{ 1, 72839, "", "=q4=Cowl of Highborne Sorcerors", "=ds=#s1#, #a1#" },
     			{ 2, 72847, "", "=q4=Helm of Thorns", "=ds=#s1#, #a2#" },
@@ -422,7 +422,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["WoETrash"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 2, 76158, "", "=q4=Courtier's Slippers", "=ds=#s12#, #a1#" },
 				{ 3, 76157, "", "=q4=Waterworn Handguards", "=ds=#s8#, #a2#" },
@@ -1505,7 +1505,7 @@ local moduleName = "AtlasLootCataclysm"
 		----------------
 
 	AtlasLoot_Data["ZAAkilZon"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69550, "", "=q4=Leggings of Ancient Magics", "=ds=#s11#, #a1#"};
 				{ 2, 69551, "", "=q4=Feathers of Akil'zon", "=ds=#s3#, #a2#"};
@@ -1521,7 +1521,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZANalorakk"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69555, "", "=q4=Boots of the Ursine", "=ds=#s12#, #a1#"};
 				{ 2, 69556, "", "=q4=Armbands of the Bear Spirit", "=ds=#s8#, #a2#"};
@@ -1537,7 +1537,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZAJanAlai"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69560, "", "=q4=Jan'alai's Spaulders", "=ds=#s3#, #a1#"};
 				{ 2, 69559, "", "=q4=Amani'shi Bracers", "=ds=#s8#, #a2#"};
@@ -1553,7 +1553,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZAHalazzi"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69567, "", "=q4=Wristwraps of Departed Spirits", "=ds=#s8#, #a1#"};
 				{ 2, 69564, "", "=q4=The Savager's Mask", "=ds=#s1#, #a2#"};
@@ -1569,7 +1569,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZAMalacrass"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69572, "", "=q4=Hex Lord's Bloody Cloak", "=ds=#s4#"};
 				{ 2, 69569, "", "=q4=Shadowtooth Trollskin Breastplate", "=ds=#s5#, #a2#"};
@@ -1588,7 +1588,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZADaakara"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69577, "", "=q4=Collar of Bones", "=ds=#s1#, #a1#"};
 				{ 2, 69578, "", "=q4=Hexing Robes", "=ds=#s5#, #a1#"};
@@ -1609,7 +1609,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZATimedChest"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69584, "", "=q4=Recovered Cloak of Frostheim", "=ds=#s4#"};
 				{ 2, 69585, "", "=q4=Wristwraps of Madness", "=ds=#s8#, #a1#"};
@@ -1631,7 +1631,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZATrash"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69797, "", "=q4=Charmbinder Grips", "=ds=#s9#, #a1#"};
 				{ 2, 69801, "", "=q4=Amani Armguards", "=ds=#s8#, #a4#"};
@@ -1651,7 +1651,7 @@ local moduleName = "AtlasLootCataclysm"
 		------------------
 
 	AtlasLoot_Data["ZGVenoxis"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69601, "", "=q4=Serpentine Leggings", "=ds=#s11#, #a1#", ""};
 				{ 2, 69600, "", "=q4=Belt of Slithering Serpents", "=ds=#s10#, #a2#", ""};
@@ -1667,7 +1667,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZGMandokir"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69606, "", "=q4=Hakkari Loa Drape", "=ds=#s4#", ""};
 				{ 2, 69608, "", "=q4=Deathcharged Wristguards", "=ds=#s8#, #a4#", ""};
@@ -1684,7 +1684,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZGMadness"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
 				{ 2, 69634, "", "=q4=Fasc's Preserved Boots", "=ds=#s12#, #a2#", ""};
@@ -1713,7 +1713,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZGKilnara"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69612, "", "=q4=Claw-Fringe Mantle", "=ds=#s3#, #a1#", ""};
 				{ 2, 69611, "", "=q4=Sash of Anguish", "=ds=#s10#, #a1#", ""};
@@ -1730,7 +1730,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZGZanzil"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69616, "", "=q4=Spiritbinder Spaulders", "=ds=#s3#, #a3#", ""};
 				{ 2, 69615, "", "=q4=Zombie Walker Legguards", "=ds=#s11#, #a3#", ""};
@@ -1746,7 +1746,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZGJindo"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69622, "", "=q4=The Hexxer's Mask", "=ds=#s1#, #a1#", ""};
 				{ 2, 69623, "", "=q4=Vestments of the Soulflayer", "=ds=#s5#, #a2#", ""};
@@ -1768,7 +1768,7 @@ local moduleName = "AtlasLootCataclysm"
 	};
 
 	AtlasLoot_Data["ZGTrash"] = {
-		["Normal"] = {
+		["Heroic"] = {
 			{
 				{ 1, 69800, "", "=q4=Spiritguard Drape", "=ds=#s4#"};
 				{ 2, 69796, "", "=q4=Spiritcaller Cloak", "=ds=#s4#"};
@@ -5171,7 +5171,6 @@ local moduleName = "AtlasLootCataclysm"
 		--- Level 85 - Weapons ---
 		--------------------------
 
---Season 10
 	AtlasLoot_Data["PVP85Weapons2"] = {
 		["Normal"] = {
 			{
@@ -5218,7 +5217,6 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
--- Season 11
 	AtlasLoot_Data["PVP85Weapons4"] = {
 		["Normal"] = {
 			{
@@ -7119,7 +7117,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
 				{ 3, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
 				{ 4, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};
-				{ 5, 76062, "", "=q3=Fetish Shaman's Spear", "Diablo III Collectors Edition"};--will be replaced with the achievement once its known.
+				{ 5, 76062, "", "=q3=Fetish Shaman's Spear", "Diablo III Collectors Edition"};
 				{ 6, 39286, "", "=q3=Frosty's Collar", "#ACHIEVEMENTID:683#"};
 				{ 7, 46802, "", "=q3=Heavy Murloc Egg", "#ACHIEVEMENTID:3536#"};
 				{ 8, 62540, "", "=q3=Lil' Deathwing", "#ACHIEVEMENTID:5377#"};
@@ -7168,10 +7166,9 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsRemoved"] = {
 		["Normal"] = {
 			{
-				{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
-				{ 3, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
-				{ 4, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
-				{ 5, 38658, "", "=q3=Vampiric Batling", "#ACHIEVEMENTID:2456#, =q1="..BabbleZone["Karazhan"]};
+				{ 2, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
+				{ 3, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
+				{ 4, 38658, "", "=q3=Vampiric Batling", "#ACHIEVEMENTID:2456#, =q1="..BabbleZone["Karazhan"]};
 				{ 17, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
 				{ 18, 44819, "", "=q1=Baby Blizzard Bear", "#ACHIEVEMENTID:2398#"};
 				{ 19, 49362, "", "=q1=Onyxian Whelpling", "#ACHIEVEMENTID:4400#"};
