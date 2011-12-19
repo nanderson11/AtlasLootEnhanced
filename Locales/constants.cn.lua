@@ -249,6 +249,10 @@ if AL then
 	AL["ilvl 378"] = "等级378";
 	AL["ilvl 397"] = "等级397";
 	AL["ilvl 410"] = "等级410";
+	AL["Gladiator"] = "角斗士";
+	AL["Vengeful"] = "复仇";
+	AL["Merciless"] = "残酷";
+	AL["Brutal"] = "野蛮";
 
 	-- #######################################
 	-- UI things END
@@ -352,7 +356,7 @@ if AL then
 	AL["Tier 10 Set"] = "等级10套装";
 	AL["Tier 11/12 Set"] = "等级11/12套装";
 	AL["Tier 13 Set"] = "等级13套装";
-	AL["TCG Items"] = "Upper Deck 集换卡游戏物品";
+	AL["TCG Items"] = "集换式卡牌物品";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";
@@ -780,13 +784,13 @@ if AL then
 	AL["Slashdance"] = "跳舞";
 
 	-- Eighth set
-	AL["Blood of Gladiators"] = "鲜血竞技场";
+	AL["Blood of Gladiators"] = "竞技场之血";
 	AL["Sandbox Tiger"] = "摇摇虎";
 	AL["Center of Attention"] = "众人瞩目";
 	AL["Foam Sword Rack"] = "泡沫塑料剑架";
 
 	-- Ninth set
-	AL["Fields of Honor"] = "荣耀战场";
+	AL["Fields of Honor"] = "荣誉战场";
 	AL["Path of Cenarius"] = "塞纳留斯之路";
 	AL["Pinata"] = "皮纳塔";
 	AL["El Pollo Grande"] = "魔法公鸡";
@@ -804,13 +808,13 @@ if AL then
 	AL["Blazing Hippogryph"] = "炽焰角鹰兽";
 
 	-- Twelvth set
-	AL["Icecrown"] = "冰冠冰川";
+	AL["Icecrown"] = "寒冰皇冠";
 	AL["Wooly White Rhino"] = "白毛犀牛";
 	AL["Ethereal Portal"] = "传送石";
 	AL["Paint Bomb"] = "彩弹";
 
 	-- Thirtheenth set
-	AL["Worldbreaker"] = "灭世者";
+	AL["Worldbreaker"] = "世界击碎者";
 	AL["Mottled Drake"] = "斑纹幼龙";
 	AL["Grim Campfire"] = "幽暗的营火";
 	AL["Landro's Lil' XT"] = "兰铎的小拆";

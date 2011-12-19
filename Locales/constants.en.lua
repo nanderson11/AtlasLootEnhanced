@@ -1061,7 +1061,7 @@ if AL then
 	AL["Firestone Vendor"] = true;
 	AL["Poseidus"] = true;
 	AL["Burgy Blackheart"] = true;
-	
+
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
 	AL["Crusader's Square"] = true;
