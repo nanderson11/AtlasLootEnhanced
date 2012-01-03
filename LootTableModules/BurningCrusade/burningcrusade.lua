@@ -3012,7 +3012,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		["Heroic"] = {
 			{
-				{ 1, 29258, "", "=q4=Boots of Ethereal Manipulation", "=ds=#s11#, #a1#"};
+				{ 1, 29258, "", "=q4=Boots of Ethereal Manipulation", "=ds=#s12#, #a1#"};
 				{ 2, 29262, "", "=q4=Boots of the Endless Hunt", "=ds=#s12#, #a3#", "", "4.00%"};
 				{ 3, 32072, "", "=q4=Gauntlets of Dissension", "=ds=#s9#, #a4#"};
 				{ 4, 29359, "", "=q4=Feral Staff of Lashing", "=ds=#w9#"};

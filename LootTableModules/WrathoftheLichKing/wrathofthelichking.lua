@@ -4348,7 +4348,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 45331, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#", "", "19%"};
 				{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2941#"};
 				{ 20, 45455, "", "=q4=Belt of the Crystal Tree", "=ds=#s10#, #a2#", "", "19%"};
-				{ 21, 45447, "", "=q4=Watchful Eye", "=ds=#s2#", "", "18%"};
+				{ 21, 45447, "", "=q4=Watchful Eye of Fate", "=ds=#s2#", "", "18%"};
 				{ 22, 45456, "", "=q4=Loop of the Agile", "=ds=#s13#", "", "16%"};
 				{ 23, 45449, "", "=q4=The Masticator", "=ds=#h3#, #w13#", "", "18%"};
 				{ 24, 45448, "", "=q4=Perilous Bite", "=ds=#h1#, #w4#", "", "17%"};

@@ -309,7 +309,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 20865, "", "=q2=Ivory Scarab", "=ds=#e15#", "", "0.93%"};
 				{ 22, 20860, "", "=q2=Silver Scarab", "=ds=#e15#", "", "1.82%"};
 				{ 23, 20858, "", "=q2=Stone Scarab", "=ds=#e15#", "", "0.86%"};
-				{ 25, 21761, "", "=q1=Scarab Coffer Key", "=ds=#e9#", "", "7.27%"};
 			};
 		};
 		info = {
