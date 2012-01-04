@@ -772,7 +772,7 @@ if AL then
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "Papa Hummels altmodischer Tierkuchen";
 
 	-- Sixth set
-	AL["Hunt for Illidan"] = "Die Jagd nach Illidan";
+	AL["Hunt for Illidan"] = "Die Jagd auf Illidan";
 	AL["The Footsteps of Illidan"] = "Die Fußspuren von Illidan";
 	AL["Disco Inferno!"] = "Disko-Inferno";
 	AL["Ethereal Plunderer"] = "Astraler Brandschatzer";
@@ -826,10 +826,13 @@ if AL then
 	AL["Twilight of the Dragons"] = "Drachendämmerung";
 
 	-- Seventeenth set
-	AL["Crown of Heaven"] = "Krone des Himmels";
+	AL["Crown of Heaven"] = "Krone der Himmel";
 
 	-- Eighteenth set
 	AL["Tomb of the Forgotten"] = "Gruft der Vergessenen";
+
+	-- Nineteenth set
+	AL["War of the Ancients"] = "Krieg der Ahnen";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
