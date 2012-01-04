@@ -831,6 +831,9 @@ if AL then
 	-- Eighteenth set
 	AL["Tomb of the Forgotten"] = true;
 
+	-- Nineteenth set
+	AL["War of the Ancients"] = true;
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = true;
 	AL["BG/Open PvP Rewards"] = true;

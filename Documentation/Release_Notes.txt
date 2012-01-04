@@ -5,7 +5,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.03 (? ??, 201?)
+v6.05.03 (Jan ??, 2012)
+Added new TCG loot from War of the Ancients (not yet released).
 Updated Winter Veil.
 Some minor fixes and translations.
 
