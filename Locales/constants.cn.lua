@@ -748,19 +748,19 @@ if AL then
 	AL["Saltwater Snapjaw"] = "海水钳嘴龟";
 
 	-- Second set
-	AL["Through The Dark Portal"] = "跨越黑暗之门";
+	AL["Through The Dark Portal"] = "穿越黑暗之门";
 	AL["King Mukla"] = "国王穆克拉";
 	AL["Rest and Relaxation"] = "休息与放松";
 	AL["Fortune Telling"] = "预言";
 
 	-- Third set
-	AL["Fires of Outland"] = "外域之门";
+	AL["Fires of Outland"] = "外域之火";
 	AL["Spectral Tiger"] = "幽灵虎";
 	AL["Gone Fishin'"] = "去钓鱼";
 	AL["Goblin Gumbo"] = "地精泡泡";
 
 	-- Fourth set
-	AL["March of the Legion"] = "燃烧军团的进攻";
+	AL["March of the Legion"] = "军团的远征";
 	AL["Kiting"] = "风筝";
 	AL["Robotic Homing Chicken"] = "机械自动导航小鸡";
 	AL["Paper Airplane"] = "纸飞机";
@@ -772,7 +772,7 @@ if AL then
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "赫墨尔老爹的老式宠物饼干";
 
 	-- Sixth set
-	AL["Hunt for Illidan"] = "追捕伊利丹";
+	AL["Hunt for Illidan"] = "猎杀伊利丹";
 	AL["The Footsteps of Illidan"] = "伊利丹的足迹";
 	AL["Disco Inferno!"] = "迪斯科地狱！";
 	AL["Ethereal Plunderer"] = "虚灵掠夺者";
@@ -784,13 +784,13 @@ if AL then
 	AL["Slashdance"] = "跳舞";
 
 	-- Eighth set
-	AL["Blood of Gladiators"] = "竞技场之血";
+	AL["Blood of Gladiators"] = "角斗士之血";
 	AL["Sandbox Tiger"] = "摇摇虎";
 	AL["Center of Attention"] = "众人瞩目";
 	AL["Foam Sword Rack"] = "泡沫塑料剑架";
 
 	-- Ninth set
-	AL["Fields of Honor"] = "荣誉战场";
+	AL["Fields of Honor"] = "荣耀之地";
 	AL["Path of Cenarius"] = "塞纳留斯之路";
 	AL["Pinata"] = "皮纳塔";
 	AL["El Pollo Grande"] = "魔法公鸡";
@@ -802,19 +802,19 @@ if AL then
 	AL["Spectral Kitten"] = "幽灵虎宝宝";
 
 	-- Eleventh set
-	AL["Wrathgate"] = "愤怒之门";
+	AL["Wrathgate"] = "天谴之门";
 	AL["Statue Generator"] = "雕像生成器";
 	AL["Landro's Gift"] = "兰德鲁的礼物";
 	AL["Blazing Hippogryph"] = "炽焰角鹰兽";
 
 	-- Twelvth set
-	AL["Icecrown"] = "寒冰皇冠";
+	AL["Icecrown"] = "冰冠冰川";
 	AL["Wooly White Rhino"] = "白毛犀牛";
 	AL["Ethereal Portal"] = "传送石";
 	AL["Paint Bomb"] = "彩弹";
 
 	-- Thirtheenth set
-	AL["Worldbreaker"] = "世界击碎者";
+	AL["Worldbreaker"] = "灭世者";
 	AL["Mottled Drake"] = "斑纹幼龙";
 	AL["Grim Campfire"] = "幽暗的营火";
 	AL["Landro's Lil' XT"] = "兰铎的小拆";
@@ -823,13 +823,16 @@ if AL then
 	AL["War of the Elements"] = "元素之战";
 
 	-- Fifteenth set
-	AL["Twilight of the Dragons"] = "龙之暮光";
+	AL["Twilight of the Dragons"] = "巨龙暮光";
 
 	-- Seventeenth set
-	AL["Crown of Heaven"] = "天堂之冠 - PH";
+	AL["Crown of Heaven"] = "苍穹之冠";
 
 	-- Eighteenth set
-	AL["Tomb of the Forgotten"] = "墓之遗忘 - PH";
+	AL["Tomb of the Forgotten"] = "被遗忘者的墓冢";
+
+	-- Nineteenth set
+	AL["War of the Ancients"] = "时间行者：远古之战";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "旧 PvP 奖励";
