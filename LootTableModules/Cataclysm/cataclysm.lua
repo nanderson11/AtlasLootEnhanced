@@ -425,7 +425,7 @@ local moduleName = "AtlasLootCataclysm"
 		["Heroic"] = {
 			{
 				{ 2, 76158, "", "=q4=Courtier's Slippers", "=ds=#s12#, #a1#" },
-				{ 3, 76157, "", "=q4=Waterworn Handguards", "=ds=#s8#, #a2#" },
+				{ 3, 76157, "", "=q4=Waterworn Handguards", "=ds=#s9#, #a2#" },
 				{ 4, 76159, "", "=q4=Legion Bindings", "=ds=#s8#, #a3#" },
 			};
 		};
