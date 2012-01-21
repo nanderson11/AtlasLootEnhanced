@@ -1,119 +1,164 @@
+local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
+
 AtlasLoot_BossTooltipMatch = {}
+
+-------------------------------------------------------------------
+-- These matches uses unit IDs and need no further localizations
+-------------------------------------------------------------------
 
 -----------------------
 -- Cataclysm Raids
 -----------------------
-AtlasLoot_BossTooltipMatch["Elementium Fragment"] = "Madness of Deathwing"
-AtlasLoot_BossTooltipMatch["Greater Cache of the Aspects"] = "Spine of Deathwing"
-AtlasLoot_BossTooltipMatch["Lesser Cache of the Aspects"] = "Ultraxion"
-AtlasLoot_BossTooltipMatch["Cache of the Fire Lord"] = "Ragnaros"
-AtlasLoot_BossTooltipMatch["Baleroc"] = "Baleroc, the Gatekeeper"
-AtlasLoot_BossTooltipMatch["Valiona"] = "Theralion and Valiona"
-AtlasLoot_BossTooltipMatch["Theralion"] = "Theralion and Valiona"
-AtlasLoot_BossTooltipMatch["Elementium Monstrosity"] = "Ascendant Council"
-AtlasLoot_BossTooltipMatch["Feludius"] = "Ascendant Council"
-AtlasLoot_BossTooltipMatch["Ignacious"] = "Ascendant Council"
-AtlasLoot_BossTooltipMatch["Arcanotron"] = "Omnotron Defense System"
-AtlasLoot_BossTooltipMatch["Electron"] = "Omnotron Defense System"
-AtlasLoot_BossTooltipMatch["Magmatron"] = "Omnotron Defense System"
-AtlasLoot_BossTooltipMatch["Toxitron"] = "Omnotron Defense System"
-AtlasLoot_BossTooltipMatch["Nefarian"] = "Nefarian's End"
-AtlasLoot_BossTooltipMatch["Heart of Wind"] = "Al'Akir"
-AtlasLoot_BossTooltipMatch["Anshal"] = "The Conclave of Wind"
-AtlasLoot_BossTooltipMatch["Nezir"] = "The Conclave of Wind"
-AtlasLoot_BossTooltipMatch["Rohash"] = "The Conclave of Wind"
+AtlasLoot_BossTooltipMatch[53494]					= AtlasLoot:EJ_GetBossName("Baleroc, the Gatekeeper", 196)
+AtlasLoot_BossTooltipMatch[45992]					= AtlasLoot:EJ_GetBossName("Valiona and Theralion", 157)
+AtlasLoot_BossTooltipMatch[45993]					= AtlasLoot:EJ_GetBossName("Valiona and Theralion", 157)
+AtlasLoot_BossTooltipMatch[43735]					= AtlasLoot:EJ_GetBossName("Ascendant Council", 158)
+AtlasLoot_BossTooltipMatch[43687]					= AtlasLoot:EJ_GetBossName("Ascendant Council", 158)
+AtlasLoot_BossTooltipMatch[43686]					= AtlasLoot:EJ_GetBossName("Ascendant Council", 158)
+AtlasLoot_BossTooltipMatch[41376]					= AtlasLoot:EJ_GetBossName("Nefarian", 174)
+AtlasLoot_BossTooltipMatch[42166]					= AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169)
+AtlasLoot_BossTooltipMatch[42179]					= AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169)
+AtlasLoot_BossTooltipMatch[42178]					= AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169)
+AtlasLoot_BossTooltipMatch[42180]					= AtlasLoot:EJ_GetBossName("Omnotron Defense System", 169)
+AtlasLoot_BossTooltipMatch[45870]					= AtlasLoot:EJ_GetBossName("Conclave of Wind", 154)
+AtlasLoot_BossTooltipMatch[45871]					= AtlasLoot:EJ_GetBossName("Conclave of Wind", 154)
+AtlasLoot_BossTooltipMatch[45872]					= AtlasLoot:EJ_GetBossName("Conclave of Wind", 154)
 
 -----------------------
 -- Cataclysm Dungeons
 -----------------------
-AtlasLoot_BossTooltipMatch["Minor Cache of the Aspects"] = "Mannoroth and Varo'then"
-AtlasLoot_BossTooltipMatch["Royal Cache"] = "Queen Azshara"
-AtlasLoot_BossTooltipMatch["Murozond's Temporal Cache"] = "Murozond"
-AtlasLoot_BossTooltipMatch["Drahga Shadowburner"] = "Drahga Shadowburner & Valiona"
-AtlasLoot_BossTooltipMatch["Neptulon's Cache"] = "Ozumat"
-AtlasLoot_BossTooltipMatch["Mindbender Ghur'sha"] = "Erunak Stonespeaker & Mindbender Ghur'sha"
-AtlasLoot_BossTooltipMatch["Erunak Stonespeaker"] = "Erunak Stonespeaker & Mindbender Ghur'sha"
+AtlasLoot_BossTooltipMatch[40319]					= AtlasLoot:EJ_GetBossName("Drahga Shadowburner", 133).." & "..BabbleBoss["Valiona"]
+AtlasLoot_BossTooltipMatch[40788]					= BabbleBoss["Erunak Stonespeaker"].." & "..AtlasLoot:EJ_GetBossName("Mindbender Ghur'sha", 103)
+AtlasLoot_BossTooltipMatch[40825]					= BabbleBoss["Erunak Stonespeaker"].." & "..AtlasLoot:EJ_GetBossName("Mindbender Ghur'sha", 103)
 
 -----------------------
 -- Wrath Raids
 -----------------------
-AtlasLoot_BossTooltipMatch["Cache of the Dreamwalker"] = "Valithria Dreamwalker"
-AtlasLoot_BossTooltipMatch["Prince Valanar"] = "Blood Prince Council"
-AtlasLoot_BossTooltipMatch["Prince Keleseth"] = "Blood Prince Council"
-AtlasLoot_BossTooltipMatch["Prince Taldaram"] = "Blood Prince Council"
-AtlasLoot_BossTooltipMatch["Deathbringer's Cache"] = "Deathbringer Saurfang"
-AtlasLoot_BossTooltipMatch["Gunship Armory"] = "Icecrown Gunship Battle"
-AtlasLoot_BossTooltipMatch["Champions' Cache"] = "Faction Champions"
-AtlasLoot_BossTooltipMatch["Gormok the Impaler"] = "The Beasts of Northrend"
-AtlasLoot_BossTooltipMatch["Icehowl"] = "The Beasts of Northrend"
-AtlasLoot_BossTooltipMatch["Fjola"] = "The Twin Val'kyr"
-AtlasLoot_BossTooltipMatch["Eydis"] = "The Twin Val'kyr"
-AtlasLoot_BossTooltipMatch["Gift of the Observer"] = "Algalon the Observer"
-AtlasLoot_BossTooltipMatch["Cache of Innovation"] = "Mimiron"
-AtlasLoot_BossTooltipMatch["Freya's Gift"] = "Freya"
-AtlasLoot_BossTooltipMatch["Cache of Storms"] = "Thorim"
-AtlasLoot_BossTooltipMatch["Cache of Winter"] = "Hodir"
-AtlasLoot_BossTooltipMatch["Cache of Living Stone"] = "Kologarn"
-AtlasLoot_BossTooltipMatch["Stormcaller Brundir"] = "The Iron Council"
-AtlasLoot_BossTooltipMatch["Runemaster Molgeim"] = "The Iron Council"
-AtlasLoot_BossTooltipMatch["Steelbreaker"] = "The Iron Council"
-AtlasLoot_BossTooltipMatch["Alexstrasza's Gift"] = "Malygos"
-AtlasLoot_BossTooltipMatch["Four Horsemen Chest"] = "The Four Horsemen"
-AtlasLoot_BossTooltipMatch["Thane Korth'azz"] = "The Four Horsemen"
-AtlasLoot_BossTooltipMatch["Lady Blaumeux"] = "The Four Horsemen"
-AtlasLoot_BossTooltipMatch["Baron Rivendare"] = "The Four Horsemen"
-AtlasLoot_BossTooltipMatch["Sir Zeliek"] = "The Four Horsemen"
+AtlasLoot_BossTooltipMatch[37970]					= BabbleBoss["Blood Prince Council"]
+AtlasLoot_BossTooltipMatch[37972]					= BabbleBoss["Blood Prince Council"]
+AtlasLoot_BossTooltipMatch[37973]					= BabbleBoss["Blood Prince Council"]
+AtlasLoot_BossTooltipMatch[34496]					= BabbleBoss["The Twin Val'kyr"]
+AtlasLoot_BossTooltipMatch[34497]					= BabbleBoss["The Twin Val'kyr"]
+AtlasLoot_BossTooltipMatch[34796]					= BabbleBoss["The Beasts of Northrend"]
+AtlasLoot_BossTooltipMatch[34797]					= BabbleBoss["The Beasts of Northrend"]
+AtlasLoot_BossTooltipMatch[32857]					= BabbleBoss["The Iron Council"]
+AtlasLoot_BossTooltipMatch[32927]					= BabbleBoss["The Iron Council"]
+AtlasLoot_BossTooltipMatch[32867]					= BabbleBoss["The Iron Council"]
+AtlasLoot_BossTooltipMatch[16063]					= BabbleBoss["The Four Horsemen"]
+AtlasLoot_BossTooltipMatch[16064]					= BabbleBoss["The Four Horsemen"]
+AtlasLoot_BossTooltipMatch[16065]					= BabbleBoss["The Four Horsemen"]
+AtlasLoot_BossTooltipMatch[30549]					= BabbleBoss["The Four Horsemen"]
 
 -----------------------
 -- Wrath Dungeons
 -----------------------
-AtlasLoot_BossTooltipMatch["The Captain's Chest"] = "The Lich King"
-AtlasLoot_BossTooltipMatch["Krick"] = "Krick and Ick"
-AtlasLoot_BossTooltipMatch["Ick"] = "Krick and Ick"
-AtlasLoot_BossTooltipMatch["Champion's Cache"] = "Faction Champions"
-AtlasLoot_BossTooltipMatch["Eadric's Cache"] = "Eadric the Pure"
-AtlasLoot_BossTooltipMatch["Confessor's Cache"] = "Argent Confessor Paletress"
-AtlasLoot_BossTooltipMatch["Cache of Eregos"] = "Ley-Guardian Eregos"
-AtlasLoot_BossTooltipMatch["Drakkari Elemental"] = "Drakkari Colossus"
-AtlasLoot_BossTooltipMatch["Tribunal Chest"] = "Tribunal of the Ages"
-AtlasLoot_BossTooltipMatch["Commander Kolurg"] = "Commander Kolurg / Commander Stoutbeard"
-AtlasLoot_BossTooltipMatch["Commander Stoutbeard"] = "Commander Kolurg / Commander Stoutbeard"
-AtlasLoot_BossTooltipMatch["Skarvald the Constructor"] = "Skarvald the Constructor / Dalronn the Controller"
-AtlasLoot_BossTooltipMatch["Dalronn the Controller"] = "Skarvald the Constructor / Dalronn the Controller"
-AtlasLoot_BossTooltipMatch["Dark Runed Chest"] = "Mal'Ganis"
+AtlasLoot_BossTooltipMatch[36477]					= BabbleBoss["Krick and Ick"]
+AtlasLoot_BossTooltipMatch[36476]					= BabbleBoss["Krick and Ick"]
+AtlasLoot_BossTooltipMatch[29573]					= BabbleBoss["Drakkari Colossus"]
+AtlasLoot_BossTooltipMatch[26798]					= BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"]
+AtlasLoot_BossTooltipMatch[26796]					= BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"]
+AtlasLoot_BossTooltipMatch[24200]					= BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"]
+AtlasLoot_BossTooltipMatch[24201]					= BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"]
 
 -----------------------
 -- BC Raids
 -----------------------
-AtlasLoot_BossTooltipMatch["Alythess"] = "The Eredar Twins"
-AtlasLoot_BossTooltipMatch["Sacrolash"] = "The Eredar Twins"
-AtlasLoot_BossTooltipMatch["Gathios the Shatterer"] = "The Illidari Council"
-AtlasLoot_BossTooltipMatch["High Nethermancer Zerevor"] = "The Illidari Council"
-AtlasLoot_BossTooltipMatch["Lady Malande"] = "The Illidari Council"
-AtlasLoot_BossTooltipMatch["Veras Darkshadow"] = "The Illidari Council"
-AtlasLoot_BossTooltipMatch["Essence of Anger"] = "Reliquary of Souls"
-AtlasLoot_BossTooltipMatch["Dust Covered Chest"] = "Chess Event"
-AtlasLoot_BossTooltipMatch["Midnight"] = "Attumen the Huntsman"
+AtlasLoot_BossTooltipMatch[25166]					= BabbleBoss["The Eredar Twins"]
+AtlasLoot_BossTooltipMatch[25165]					= BabbleBoss["The Eredar Twins"]
+AtlasLoot_BossTooltipMatch[22952]					= BabbleBoss["The Illidari Council"]
+AtlasLoot_BossTooltipMatch[22951]					= BabbleBoss["The Illidari Council"]
+AtlasLoot_BossTooltipMatch[22950]					= BabbleBoss["The Illidari Council"]
+AtlasLoot_BossTooltipMatch[22949]					= BabbleBoss["The Illidari Council"]
+AtlasLoot_BossTooltipMatch[23420]					= BabbleBoss["Reliquary of Souls"]
+AtlasLoot_BossTooltipMatch[16151]					= BabbleBoss["Attumen the Huntsman"]
 
 -----------------------
 -- BC Dungeons
 -----------------------
-AtlasLoot_BossTooltipMatch["Reinforced Fel Iron Chest"] = "Vazruden"
-AtlasLoot_BossTooltipMatch["Cache of the Legion"] = "Cache of the Legion"
 
 -----------------------
 -- Classic Raids
 -----------------------
-AtlasLoot_BossTooltipMatch["Vek'lor"] = "The Twin Emperors"
-AtlasLoot_BossTooltipMatch["Vek'nilash"] = "The Twin Emperors"
-AtlasLoot_BossTooltipMatch["Yauj"] = "The Bug Family"
-AtlasLoot_BossTooltipMatch["Vem"] = "The Bug Family"
-AtlasLoot_BossTooltipMatch["Kri"] = "The Bug Family"
-AtlasLoot_BossTooltipMatch["Cache of the Firelord"] = "Majordomo Executus"
+AtlasLoot_BossTooltipMatch[15276]					= BabbleBoss["The Twin Emperors"]
+AtlasLoot_BossTooltipMatch[15275]					= BabbleBoss["The Twin Emperors"]
+AtlasLoot_BossTooltipMatch[15544]					= BabbleBoss["The Bug Family"]
+AtlasLoot_BossTooltipMatch[15543]					= BabbleBoss["The Bug Family"]
+AtlasLoot_BossTooltipMatch[15511]					= BabbleBoss["The Bug Family"]
 
 -----------------------
 -- Classic Dungeons
 -----------------------
-AtlasLoot_BossTooltipMatch["Gordok Tribute"] = "DM North Tribute Chest"
-AtlasLoot_BossTooltipMatch["Chest of The Seven"] = "Summoner's Tomb"
-AtlasLoot_BossTooltipMatch["Secret Safe"] = "The Vault"
+
+
+
+---------------------------------------------------------------
+-- These matches uses Object Names and need to be translated
+---------------------------------------------------------------
+
+-----------------------
+-- Cataclysm Raids
+-----------------------
+AtlasLoot_BossTooltipMatch["Elementium Fragment"]		= AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)
+AtlasLoot_BossTooltipMatch["Greater Cache of the Aspects"]	= AtlasLoot:EJ_GetBossName("Spine of Deathwing", 318)
+AtlasLoot_BossTooltipMatch["Lesser Cache of the Aspects"]	= AtlasLoot:EJ_GetBossName("Ultraxion", 331)
+AtlasLoot_BossTooltipMatch["Cache of the Fire Lord"]		= AtlasLoot:EJ_GetBossName("Ragnaros", 198)
+AtlasLoot_BossTooltipMatch["Heart of Wind"]			= AtlasLoot:EJ_GetBossName("Al'Akir", 155)
+
+-----------------------
+-- Cataclysm Dungeons
+-----------------------
+AtlasLoot_BossTooltipMatch["Minor Cache of the Aspects"]	= AtlasLoot:EJ_GetBossName("Mannoroth and Varo'then", 292)
+AtlasLoot_BossTooltipMatch["Royal Cache"]				= AtlasLoot:EJ_GetBossName("Queen Azshara", 291)
+AtlasLoot_BossTooltipMatch["Murozond's Temporal Cache"]	= AtlasLoot:EJ_GetBossName("Murozond", 289)
+AtlasLoot_BossTooltipMatch["Neptulon's Cache"]			= AtlasLoot:EJ_GetBossName("Ozumat", 104)
+
+-----------------------
+-- Wrath Raids
+-----------------------
+AtlasLoot_BossTooltipMatch["Cache of the Dreamwalker"]	= BabbleBoss["Valithria Dreamwalker"]
+AtlasLoot_BossTooltipMatch["Deathbringer's Cache"]		= BabbleBoss["Deathbringer Saurfang"]
+AtlasLoot_BossTooltipMatch["Gunship Armory"]			= BabbleBoss["Icecrown Gunship Battle"]
+AtlasLoot_BossTooltipMatch["Champions' Cache"]			= BabbleBoss["Faction Champions"]
+AtlasLoot_BossTooltipMatch["Gift of the Observer"]		= BabbleBoss["Algalon the Observer"]
+AtlasLoot_BossTooltipMatch["Cache of Innovation"]		= BabbleBoss["Mimiron"]
+AtlasLoot_BossTooltipMatch["Freya's Gift"]			= BabbleBoss["Freya"]
+AtlasLoot_BossTooltipMatch["Cache of Storms"]			= BabbleBoss["Thorim"]
+AtlasLoot_BossTooltipMatch["Cache of Winter"]			= BabbleBoss["Hodir"]
+AtlasLoot_BossTooltipMatch["Cache of Living Stone"]		= BabbleBoss["Kologarn"]
+AtlasLoot_BossTooltipMatch["Alexstrasza's Gift"]		= BabbleBoss["Malygos"]
+AtlasLoot_BossTooltipMatch["Four Horsemen Chest"]		= BabbleBoss["The Four Horsemen"]
+
+-----------------------
+-- Wrath Dungeons
+-----------------------
+AtlasLoot_BossTooltipMatch["The Captain's Chest"]		= BabbleBoss["The Lich King"]
+AtlasLoot_BossTooltipMatch["Eadric's Cache"]			= BabbleBoss["Eadric the Pure"]
+AtlasLoot_BossTooltipMatch["Confessor's Cache"]			= BabbleBoss["Argent Confessor Paletress"]
+AtlasLoot_BossTooltipMatch["Champion's Cache"]			= BabbleBoss["Faction Champions"]
+AtlasLoot_BossTooltipMatch["Cache of Eregos"]			= BabbleBoss["Ley-Guardian Eregos"]
+AtlasLoot_BossTooltipMatch["Tribunal Chest"]			= BabbleBoss["The Tribunal of Ages"]
+AtlasLoot_BossTooltipMatch["Dark Runed Chest"]			= BabbleBoss["Mal'Ganis"]
+
+-----------------------
+-- BC Raids
+-----------------------
+AtlasLoot_BossTooltipMatch["Dust Covered Chest"]		= BabbleBoss["Chess Event"]
+
+-----------------------
+-- BC Dungeons
+-----------------------
+AtlasLoot_BossTooltipMatch["Reinforced Fel Iron Chest"]	= BabbleBoss["Vazruden"]
+AtlasLoot_BossTooltipMatch["Cache of the Legion"]		= BabbleBoss["Cache of the Legion"]
+
+-----------------------
+-- Classic Raids
+-----------------------
+AtlasLoot_BossTooltipMatch["Cache of the Firelord"]		= BabbleBoss["Majordomo Executus"]
+
+-----------------------
+-- Classic Dungeons
+-----------------------
+AtlasLoot_BossTooltipMatch["Gordok Tribute"]			= AL["DM North Tribute Chest"]
+AtlasLoot_BossTooltipMatch["Chest of The Seven"]		= AL["Summoner's Tomb"]
+AtlasLoot_BossTooltipMatch["Secret Safe"]				= AL["The Vault"]

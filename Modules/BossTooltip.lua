@@ -1,11 +1,17 @@
 function AtlasLoot_hook(tooltip)
 	if not ALtooltipName then
 		ALtooltipName = tooltip:GetUnit()
+		local ALGUID = UnitGUID("mouseover")
+		if ALGUID then
+			ALunitID = tonumber((ALGUID):sub(-12, -9), 16)
+		end
 	end
 
 	if not UnitIsPlayer(ALtooltipName) and not UnitAffectingCombat("player") and AtlasLoot_Data and AtlasLoot.db.profile.ShowBossTooltip then
 
-		if AtlasLoot_BossTooltipMatch[ALtooltipName] then
+		if AtlasLoot_BossTooltipMatch[ALunitID] then
+			ALtooltipName = AtlasLoot_BossTooltipMatch[ALunitID]
+		elseif AtlasLoot_BossTooltipMatch[ALtooltipName] then
 			ALtooltipName = AtlasLoot_BossTooltipMatch[ALtooltipName]
 		end
 
