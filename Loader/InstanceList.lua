@@ -1,4 +1,5 @@
-﻿--[[
+﻿-- $Id$
+--[[
 Atlasloot Enhanced
 Author Hegarol
 Loot browser associating loot with instance bosses

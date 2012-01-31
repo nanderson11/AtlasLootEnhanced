@@ -1,4 +1,5 @@
-﻿--[[
+﻿-- $Id$
+--[[
 AtlasLoot_GetLocaleLibBabble(typ)
 Get english translations for non translated things. (Combines Locatet and English table)
 Only Useable with LibBabble

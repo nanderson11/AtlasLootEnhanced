@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 Atlasloot Enhanced
 Author Hegarol

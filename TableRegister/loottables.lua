@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 loottables.en.lua
 This file assigns a title to every loot table.  The primary use of this table

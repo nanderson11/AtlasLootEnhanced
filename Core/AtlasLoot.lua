@@ -1,10 +1,9 @@
+-- $Id$
 --[[
 Atlasloot Enhanced
 Author Hegarol
 Loot browser associating loot with instance bosses
 Can be integrated with Atlas (http://www.atlasmod.com)
-
-Functions:
 ]]
 local addonname = ...
 local AtlasLoot = _G.AtlasLoot

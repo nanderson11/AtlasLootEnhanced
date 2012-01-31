@@ -1,3 +1,4 @@
+-- $Id$
 function AtlasLoot_hook(tooltip)
 	if not ALtooltipName then
 		ALtooltipName = tooltip:GetUnit()

@@ -61,6 +61,7 @@ ignore:
 	- Loader/Libs/LibDataBroker-1.1
 	- save.txt
 	- AtlasLoot.toc
+	
 	- LootTableModules/MistsofPandoria
 	
 move-folders:

@@ -1,4 +1,5 @@
-﻿local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
+﻿-- $Id$
+local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 

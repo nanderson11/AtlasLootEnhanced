@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 Atlasloot Enhanced
 Author Hegarol
@@ -834,6 +835,14 @@ end
 
 function AtlasLoot:Wishlist_GetWishlistName(id)
 	return "TEST"--WishList:GetWishlistNameByID(id)
+end
+
+function AtlasLoot:Wishlist_GetItemListFromBoss(bossName)
+	if bossName and type(bossName) == "string" and bossName ~= "" then
+		
+		
+		
+	end
 end
 --- Searchs a wishlist
 -- @param name the wishlist name you want to search

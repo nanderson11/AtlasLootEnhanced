@@ -1,3 +1,4 @@
+-- $Id$
 local AtlasLoot = _G.AtlasLoot
 --Invoke libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");

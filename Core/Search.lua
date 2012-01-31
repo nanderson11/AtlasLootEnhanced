@@ -1,3 +1,4 @@
+-- $Id$
 local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 local GREY = "|cff999999";

@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 self file contains all the Atlas specific functions
 ]]
