@@ -2369,7 +2369,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 73528, "", "=q4=Cataclysmic Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 17, 73532, "", "=q4=Cataclysmic Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1650#"};
 				{ 18, 73531, "", "=q4=Cataclysmic Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 20, 73529, "", "=q4=Cataclysmic Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 20, 73529, "", "=q4=Cataclysmic Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1250#"};
 				{ 21, 73533, "", "=q4=Cataclysmic Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1650#"};
 				{ 22, 73530, "", "=q4=Cataclysmic Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1650#"};
 				{ 24, 73600, "", "=q4=Cataclysmic Gladiator's Bindings of Prowess", "=ds=", "#CONQUEST:1250#"};
@@ -5084,7 +5084,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 73528, "", "=q4=Cataclysmic Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 2, 73532, "", "=q4=Cataclysmic Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1650#"};
 				{ 3, 73531, "", "=q4=Cataclysmic Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 5, 73529, "", "=q4=Cataclysmic Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1650#"};
+				{ 5, 73529, "", "=q4=Cataclysmic Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1250#"};
 				{ 6, 73533, "", "=q4=Cataclysmic Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1650#"};
 				{ 7, 73530, "", "=q4=Cataclysmic Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1650#"};
 				{ 9, 73600, "", "=q4=Cataclysmic Gladiator's Bindings of Prowess", "=ds=", "#CONQUEST:1250#"};
@@ -5096,7 +5096,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 72421, "", "=q4=Ruthless Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
 				{ 17, 72417, "", "=q4=Ruthless Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1650#"};
 				{ 18, 72418, "", "=q4=Ruthless Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 20, 72420, "", "=q4=Ruthless Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 20, 72420, "", "=q4=Ruthless Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1250#"};
 				{ 21, 72416, "", "=q4=Ruthless Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1650#"};
 				{ 22, 72419, "", "=q4=Ruthless Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1650#"};
 				{ 24, 72352, "", "=q4=Ruthless Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
