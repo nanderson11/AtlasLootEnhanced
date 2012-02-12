@@ -531,7 +531,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Valentineday"] = {
 		["Normal"] = {
 			{
-				{ 1, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#" },
+				{ 1, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#"};
 				{ 2, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "#VALENTINEDAY:10#"};
 				{ 3, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
 				{ 4, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
