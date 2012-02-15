@@ -7624,7 +7624,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 19, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 21, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 22, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
-				{ 23, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
+				{ 23, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
+				{ 24, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
 			};
 		};
 		info = {
