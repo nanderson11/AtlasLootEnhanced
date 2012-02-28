@@ -245,11 +245,11 @@ function AtlasLoot:OnLoaderLoad()
 		--AtlasLoot:LoadModule("all")
 	--end
 	collectgarbage("collect")
-    --if LibStub:GetLibrary("LibAboutPanel", true) then
-        --LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
-   -- end    
-   loaded = true
-   if AtlasLootDB then
+    if LibStub:GetLibrary("LibAboutPanel", true) then
+    	LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
+	end    
+   	loaded = true
+   	if AtlasLootDB then
 		AtlasLootDB.showWarning = true
 	end
 end
