@@ -44,6 +44,7 @@ if AL then
 	AL["Select Stats list"] = true;
 	AL["You cant set more then %d item stats."] = true;
 	AL["Slot"] = true;
+	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = true;
 
 	-- Stats short
 	AL["iLvl"] = true;	-- Item lvl
