@@ -180,7 +180,7 @@ function AtlasLoot:Toggle10Man25Man()
 		AtlasLoot.db.profile.ShowLootTablePrice = not AtlasLoot.db.profile.ShowLootTablePrice
 		AtlasLoot:ShowLootPage(dataID)
 	else
-		if AtlasLoot.db.profile.LootTableType == "Normal" then
+		if AtlasLoot.db.profile.LootTableType == "Normal" or AtlasLoot.db.profile.LootTableType == "RaidFinder" then
 			AtlasLoot:SetLootTableType("25Man", dataID)
 		elseif AtlasLoot.db.profile.LootTableType == "Heroic" then
 			AtlasLoot:SetLootTableType("25ManHeroic", dataID)
