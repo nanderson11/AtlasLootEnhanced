@@ -7675,7 +7675,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 17, 50250, "", "=q4=Big Love Rocket", "#ACHIEVEMENTID:4627#"};
 				{ 18, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#" },
 				{ 20, 0, "INV_Box_01", "=q6="..AL["Noblegarden"], ""};
-				{ 21, 72145, "", "=q4=Swift Springstrider", "=ds=#e26#", "#NOBLEGARDEN:270#"},
+				{ 21, 72145, "", "=q4=Swift Springstrider", "=ds=#e26#", "#NOBLEGARDEN:500#"},
 			};
 		};
 		info = {
