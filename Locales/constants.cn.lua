@@ -44,6 +44,7 @@ if AL then
 	AL["Select Stats list"] = "选择属性列表";
 	AL["You cant set more then %d item stats."] = "您可以设定多达 %d 个物品状态.";
 	AL["Slot"] = "空位";
+	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = "AtlasLoot 已检测到愿望列表存在一些损坏的物品。现在可以运行自动检查修复它。请注意，这可能需要一会儿。";
 
 	-- Stats short
 	AL["iLvl"] = "等级";	-- Item lvl
