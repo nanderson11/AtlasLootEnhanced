@@ -7620,13 +7620,15 @@ local moduleName = "AtlasLootCataclysm"
 				{ 14, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
 				{ 15, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 17, 76755, "", "=q4=Tyrael's Charger", "Annual Pass"};
-				{ 18, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
-				{ 19, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
-				{ 21, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
-				{ 22, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
-				{ 23, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
-				{ 24, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
+				{ 17, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
+				{ 18, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
+				{ 19, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
+				{ 20, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 21, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 23, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 24, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
+				{ 25, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
+				{ 26, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
 			};
 		};
 		info = {

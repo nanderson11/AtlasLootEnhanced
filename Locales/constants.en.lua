@@ -1133,6 +1133,8 @@ if AL then
 	AL["Hidden Stash"] = true;
 	AL["The Cache of Madness"] = true;
 	AL["Stolen Present"] = true;
+	AL["Annual Pass"] = true;
+	AL["Scroll of Resurrection"] = true;
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = true;

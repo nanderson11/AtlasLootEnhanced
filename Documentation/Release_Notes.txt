@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v6.05.05 (??? ??, 2012)
+TBD
+
 v6.05.04 (Mar 05, 2012)
 Added an About page.
 Added an Auto-Fix for corrupted Wishlists.
