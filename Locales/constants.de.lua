@@ -1064,6 +1064,7 @@ if AL then
 	AL["Varlan Highbough"] = "Varlan Hochblatt";
 	AL["Firestone Vendor"] = "Händler für Feuersteine";
 	-- AL["Poseidus"] = true;
+	AL["Burgy Blackheart"] = "Bürgi Schwarzherz";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
@@ -1132,6 +1133,8 @@ if AL then
 	AL["Hidden Stash"] = "Gebunkerte Güter";
 	AL["The Cache of Madness"] = "Der Hort des Wahnsinns";
 	AL["Stolen Present"] = "Gestohlenes Geschenk";
+	AL["Annual Pass"] = "Jahrespass";
+	AL["Scroll of Resurrection"] = "Rolle der Auferstehung";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot Fehler!";
