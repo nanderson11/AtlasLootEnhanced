@@ -1131,6 +1131,8 @@ if AL then
 	AL["Hidden Stash"] = "Fortune cachée";
 	AL["The Cache of Madness"] = "L'antre de la Folie";
 	AL["Stolen Present"] = "Cadeau volé";
+	AL["Annual Pass"] = "Pass annuel";
+	AL["Scroll of Resurrection"] = "Sort de résurrection";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
