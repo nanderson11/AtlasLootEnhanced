@@ -1133,6 +1133,8 @@ if AL then
 	AL["Hidden Stash"] = "隱密藏匿物";
 	AL["The Cache of Madness"] = "瘋狂之緣";
 	AL["Stolen Present"] = "失竊的禮物";
+	AL["Annual Pass"] = "年卡";
+	AL["Scroll of Resurrection"] = "重返榮耀";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";
