@@ -54,6 +54,9 @@ externals:
     Libs/LibBabble-Zone-3.0: 
 		url: svn://svn.wowace.com/wow/libbabble-zone-3-0/mainline/trunk
 		tag: latest
+    Libs/LibStrataFix: 
+		url: svn://svn.wowace.com/wow/libstratafix/mainline/trunk
+		tag: latest
 	Libs/LibAboutPanel: 
 		url: git://git.curseforge.net/wow/libaboutpanel/mainline.git
 		tag: latest
