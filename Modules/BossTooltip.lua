@@ -37,7 +37,7 @@ function AtlasLoot_hook(tooltip)
 								if ALmaxPlayers == 25 then
 									for i=1,25 do
 										local _, ALrealm = UnitName("raid"..i)
-										if ALrealm then
+										if ALrealm and ALrealm~="" then
 											ALinstanceDifficulty = "RaidFinder"
 											break
 										end
