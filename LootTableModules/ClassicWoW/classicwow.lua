@@ -2924,6 +2924,22 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
+	AtlasLoot_Data["RagefireChasmMoPLoot"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=Adarogg", ""};
+				{ 6, 0, "INV_Box_01", "=q6=Koranthal", ""};
+				{ 16, 0, "INV_Box_01", "=q6=Magnaw", ""};
+				{ 17, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#"};
+				{ 21, 0, "INV_Box_01", "=q6=Gordoth", ""};
+			};
+		};
+		info = {
+			name = BabbleZone["Ragefire Chasm"],
+			module = moduleName, instance = "RagefireChasm",
+		};
+	};
+
 		----------------------
 		--- Razorfen Downs ---
 		----------------------

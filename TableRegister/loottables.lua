@@ -48,6 +48,21 @@ local SPELLFIRE = GetSpellInfo(26797);
 AtlasLoot_LootTableRegister = {
 	["Instances"] = {
 
+-----------------------------------
+--- Mists of Pandaria Instances ---
+-----------------------------------
+
+	---- Dungeons
+		["StormstoutBrewery"] = {
+			["Bosses"] = {
+				{ "BreweryOokOok" },
+				{ "BreweryHoptallus" },
+				{ "BreweryYanZhu" },
+				{ "BreweryTrash" },
+			},
+			["Info"] = { "Stormstout Brewery", "AtlasLootMoP" },
+		},
+
 ---------------------------
 --- Cataclysm Instances ---
 ---------------------------

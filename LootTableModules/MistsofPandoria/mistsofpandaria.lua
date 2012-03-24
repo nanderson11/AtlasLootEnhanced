@@ -4,12 +4,13 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
-local moduleName = "AtlasLootMistsofPandaria"
+local moduleName = "AtlasLootMoP"
 
 -- Index
 --- Dungeons & Raids
----- Temple of the Jade Serpent
 ---- Stormstout Brewery
+---- Temple of the Jade Serpent
+---- Gate of the Setting Sun
 ---- Shado-pan Monastery
 ---- Scholomance
 ---- Scarlet Monestary - Wing 1
@@ -23,13 +24,100 @@ local moduleName = "AtlasLootMistsofPandaria"
 	--- Dungeons & Raids ---
 	------------------------
 
+		--------------------------
+		--- Stormstout Brewery ---
+		--------------------------
+
+	AtlasLoot_Data["BreweryOokOok"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80897, "", "=q3=Placeholder", "=ds=#s8#, #a1#", ""};
+				{ 3, 80896, "", "=q3=Placeholder", "=ds=#s5#, #a2#", ""};
+				{ 4, 80892, "", "=q3=Placeholder", "=ds=#h1#, #w10#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6089#"};
+				{ 17, 81134, "", "=q4=Placeholder", "=ds=#s12#, #a4#", ""};
+				{ 18, 81064, "", "=q3=Placeholder", "=ds=#s8#, #a1#", ""};
+				{ 19, 81133, "", "=q3=Placeholder", "=ds=#s14#", ""};
+				{ 20, 81064, "", "=q3=Placeholder", "=ds=#s8#, #a1#", ""};
+				{ 21, 81061, "", "=q3=Placeholder", "=ds=#h1#, #w10#", ""};
+			}
+		};
+		info = {
+			name = "Ook-Ook",
+			module = moduleName, instance = "StormstoutBrewery",
+		};
+	};
+
+	AtlasLoot_Data["BreweryHoptallus"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80898, "", "=q3=Placeholder", "=ds=#s11#, #a3#", ""};
+				{ 3, 80899, "", "=q3=Placeholder", "=ds=#s8#, #a4#", ""};
+				{ 4, 80893, "", "=q3=Placeholder", "=ds=#s15#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81136, "", "=q3=Placeholder", "=ds=#s4#", ""};
+				{ 18, 81135, "", "=q3=Placeholder", "=ds=#s10#, #a2#", ""};
+				{ 19, 81077, "", "=q3=Placeholder", "=ds=#s11#, #a3#", ""};
+				{ 20, 81065, "", "=q3=Placeholder", "=ds=#s8#, #a4#", ""};
+				{ 21, 81076, "", "=q3=Placeholder", "=ds=#s15#", ""};
+			}
+		};
+		info = {
+			name = "Hoptallus",
+			module = moduleName, instance = "StormstoutBrewery",
+		};
+	};
+
+	AtlasLoot_Data["BreweryYanZhu"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80903, "", "=q3=Placeholder", "=ds=#s10#, #a1#", ""};
+				{ 3, 80900, "", "=q3=Placeholder", "=ds=#s3#, #a2#", ""};
+				{ 4, 80902, "", "=q3=Placeholder", "=ds=#s5#, #a3#", ""};
+				{ 5, 80901, "", "=q3=Placeholder", "=ds=#s11#, #a4#", ""};
+				{ 6, 80894, "", "=q3=Placeholder", "=ds=#h1#, #w6#", ""};
+				{ 7, 80895, "", "=q3=Placeholder", "=ds=#w5#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81059, "", "=q3=Placeholder", "=ds=#s10#, #a1#", ""};
+				{ 18, 81068, "", "=q3=Placeholder", "=ds=#s3#, #a2#", ""};
+				{ 19, 81081, "", "=q3=Placeholder", "=ds=#s5#, #a3#", ""};
+				{ 20, 81078, "", "=q3=Placeholder", "=ds=#s11#, #a4#", ""};
+				{ 21, 81141, "", "=q3=Placeholder", "=ds=#s13#", ""};
+				{ 22, 81139, "", "=q3=Placeholder", "=ds=#s13#", ""};
+				{ 23, 81138, "", "=q3=Placeholder", "=ds=#s14#", ""};
+				{ 24, 81062, "", "=q3=Placeholder", "=ds=#h1#, #w6#", ""};
+				{ 25, 81140, "", "=q3=Placeholder", "=ds=#w9#", ""};
+				{ 26, 81066, "", "=q3=Placeholder", "=ds=#w5#", ""};
+			}
+		};
+		info = {
+			name = "Yan-Zhu",
+			module = moduleName, instance = "StormstoutBrewery",
+		};
+	};
+
+	AtlasLoot_Data["StormstoutBreweryTrash"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "StormstoutBrewery",
+		};
+	};
+
 		------------------------------
 		--- Temple of Jade Serpent ---
 		------------------------------
 
-		--------------------------
-		--- Stormstour Brewery ---
-		--------------------------
+		---------------------------------
+		--- Gates of the Setting Sun ---
+		---------------------------------
 
 		---------------------------
 		--- Shado-pan Monastery ---
@@ -39,14 +127,14 @@ local moduleName = "AtlasLootMistsofPandaria"
 		--- Scholomance ---
 		-------------------
 
-	AtlasLoot_Data["ScholoRas"] = {
+	AtlasLoot_Data["ScholoChillheart"] = {
 		["Normal"] = {
 			{
 
 			}
 		};
 		info = {
-			name = BabbleBoss["Ras Frostwhisper"],
+			name = "Instructor Chillheart",
 			module = moduleName, instance = "Scholomance",
 		};
 	};
@@ -54,23 +142,11 @@ local moduleName = "AtlasLootMistsofPandaria"
 	AtlasLoot_Data["ScholoJandice"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 22394, "", "=q3=Staff of Metanoia", "=ds=#w9#"};
 			}
 		};
 		info = {
 			name = BabbleBoss["Jandice Barov"],
-			module = moduleName, instance = "Scholomance",
-		};
-	};
-
-	AtlasLoot_Data["ScholoKirtonos"] = {
-		["Normal"] = {
-			{
-
-			}
-		};
-		info = {
-			name = BabbleBoss["Kirtonos the Herald"],
 			module = moduleName, instance = "Scholomance",
 		};
 	};
@@ -83,6 +159,30 @@ local moduleName = "AtlasLootMistsofPandaria"
 		};
 		info = {
 			name = BabbleBoss["Rattlegore"],
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoLillianVoss"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = "Lillian Voss",
+			module = moduleName, instance = "Scholomance",
+		};
+	};
+
+	AtlasLoot_Data["ScholoSlate"] = {
+		["Normal"] = {
+			{
+
+			}
+		};
+		info = {
+			name = "Professor Slate",
 			module = moduleName, instance = "Scholomance",
 		};
 	};

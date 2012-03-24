@@ -7229,6 +7229,18 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
+	AtlasLoot_Data["PetsMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "=ds="};
+			};
+		};
+		info = {
+			name = "MoP companions",
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
 		--------------
 		--- Mounts ---
 		--------------
@@ -7716,6 +7728,22 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = AL["Unobtainable Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, 82765, "", "=q4=Dragon Turtle Egg", "=ds="};
+				{ 2, 81559, "", "=q4=Kite String", "=ds="};
+				{ 3, 82453, "", "=q4=Onyx Panther", "=ds="};
+				{ 4, 79802, "", "=q4=Reins of the Jade Serpent", "=ds="};
+				{ 5, 81354, "", "=q4=Water Strider Larva", "=ds="};
+			};
+		};
+		info = {
+			name = "MoP mounts",
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
