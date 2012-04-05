@@ -170,6 +170,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 5, 25943, "", "=q3=Creepjacker", "=ds=#h3#, #w13#", "", "14.22%"};
 				{ 6, 28166, "", "=q3=Shield of the Void", "=ds=#w8#", "", "10.81%"};
 				{ 7, 25939, "", "=q3=Voidfire Wand", "=ds=#w12#", "", "13.04%"};
+				{ 9, 72126, "", "=q1=Pandemonius' Essence", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30584, "", "=q4=Inscribed Fire Opal", "=ds=#e7#", "", "0.08%"};
 				{ 18, 30585, "", "=q4=Polished Fire Opal", "=ds=#e7#", "", "6.06%"};
@@ -198,6 +199,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 5, 25952, "", "=q3=Scimitar of the Nexus-Stalkers", "=ds=#h1#, #w10#", "", "12.12%"};
 				{ 6, 25944, "", "=q3=Shaarde the Greater", "=ds=#h2#, #w10#", "", "9.35%"};
 				{ 7, 25950, "", "=q3=Staff of Polarities", "=ds=#w9#", "", "9.91%"};
+				{ 9, 72127, "", "=q1=Tavarok's Heart", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30584, "", "=q4=Inscribed Fire Opal", "=ds=#e7#", "", "0.08%"};
 				{ 18, 30585, "", "=q4=Polished Fire Opal", "=ds=#e7#", "", "6.06%"};
@@ -1170,6 +1172,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 24378, "", "=q3=Coilfang Hammer of Renewal", "=ds=#h3#, #w6#", "", "9.66%"};
 				{ 5, 24380, "", "=q3=Calming Spore Reed", "=ds=#w12#", "", "10.26%"};
 				{ 6, 24381, "", "=q3=Coilfang Needler", "=ds=#w3#", "", "10.05%"};
+				{ 8, 72118, "", "=q1=The Invader's Claw", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30604, "", "=q4=Resplendent Fire Opal", "=ds=#e7#", "", "22.49%"};
 				{ 18, 30605, "", "=q4=Nimble Chrysoprase", "=ds=#e7#", "", "9.39%"};
@@ -1196,6 +1199,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 3, 24366, "", "=q3=Scorpid-Sting Mantle", "=ds=#s3#, #a3#", "", "11.72%"};
 				{ 4, 24363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#", "", "9.54%"};
 				{ 5, 24364, "", "=q3=Azureplate Greaves", "=ds=#s11#, #a4#", "", "9.98%"};
+				{ 7, 72119, "", "=q1=The Slave Master's Eye", "=ds=#m3#", "", "100%"};
 			};
 		};
 		["Heroic"] = {
