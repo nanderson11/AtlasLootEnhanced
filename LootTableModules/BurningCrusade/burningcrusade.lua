@@ -1820,6 +1820,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 24385, "", "=q3=Pendant of Battle-Lust", "=ds=#s2#", "", "15.43%"};
 				{ 5, 24386, "", "=q3=Libram of Saints Departed", "=ds=#s16#", "", "14.78%"};
 				{ 6, 24384, "", "=q3=Diamond-Core Sledgemace", "=ds=#h3#, #w6#", "", "12.90%"};
+				{ 8, 73200, "", "=q1=Fel Infusion Rod", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30601, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "18.18%"};
 				{ 18, 30600, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "9.85%"};
@@ -1958,7 +1959,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 27868, "", "=q3=Runesong Dagger", "=ds=#h3#, #w4#", "", "15.32%"};
 				{ 5, 27524, "", "=q3=Firemaul of Destruction", "=ds=#h2#, #w6#", "", "17.95%"};
 				{ 6, 27526, "", "=q3=Skyfire Hawk-Bow", "=ds=#w2#", "", "17.31%"};
-				{ 8, 30829, "", "=q1=Tear of the Earthmother", "=ds=#m3#", "", "100%"};
+				{ 8, 72597, "", "=q1=O'mrogg's Warcloth", "=ds=#m3#", "", "100%"};
+				{ 9, 30829, "", "=q1=Tear of the Earthmother", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30548, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "0.16%"};
 				{ 18, 30547, "", "=q4=Reckless Fire Opal", "=ds=#e7#", "", "0.19%"};
@@ -2434,6 +2436,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 5, 34704, "", "=q3=Band of Arcane Alacrity", "=ds=#s13#", "", "18%"};
 				{ 6, 34706, "", "=q3=Band of Determination", "=ds=#s13#", "", "5%"};
 				{ 7, 34703, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "", "16%"};
+				{ 9, 73084, "", "=q1=Volatile Essence", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 34607, "", "=q4=Fel-Tinged Mantle", "=ds=#s3#, #a1#", "", "20%"};
 				{ 18, 34605, "", "=q4=Breastplate of Fierce Survival", "=ds=#s5#, #a4#", "", "19%"};
