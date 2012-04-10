@@ -2986,6 +2986,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 28338, "", "=q3=Devil-Stitched Leggings", "=ds=#s11#, #a1#", "", "18.71%"};
 				{ 5, 28340, "", "=q3=Mantle of Autumn", "=ds=#s3#, #a2#", "", "17.19%"};
 				{ 6, 28339, "", "=q3=Boots of the Shifting Sands", "=ds=#s12#, #a2#", "", "19.07%"};
+				{ 8, 72706, "", "=q1=Rapidly Evolving Frond", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30574, "", "=q4=Shifting Tanzanite", "=ds=#e7#", "", "8.00%"};
 				{ 18, 30572, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "8.00%"};
@@ -3064,6 +3065,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 28252, "", "=q3=Bloodfyre Robes of Annihilation", "=ds=#s5#, #a1#", "", "22.53%"};
 				{ 5, 28251, "", "=q3=Boots of the Glade-Keeper", "=ds=#s12#, #a2#", "", "18.74%"};
 				{ 6, 28248, "", "=q3=Totem of the Void", "=ds=#s16#", "", "19.58%"};
+				{ 8, 72663, "", "=q1=Blinding Fury", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
