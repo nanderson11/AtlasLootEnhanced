@@ -4098,12 +4098,13 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 40489, "", "=q4=Greatstaff of the Nexus", "=ds=#w9#", "", "12%"};
 				{ 9, 40497, "", "=q4=Black Ice", "=ds=#w7#", "", "10%"};
 				{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#", "", "11%"};
-				{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e27#", "", "1%"};
 				{ 16, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
 				{ 17, 44658, "", "=q4=Chain of the Ancient Wyrm", "=q1=#m4#: =ds=#s2#"};
 				{ 18, 44660, "", "=q4=Drakescale Collar", "=q1=#m4#: =ds=#s2#"};
 				{ 19, 44659, "", "=q4=Pendant of the Dragonsworn", "=q1=#m4#: =ds=#s2#"};
 				{ 20, 44657, "", "=q4=Torque of the Red Dragonflight", "=q1=#m4#: =ds=#s2#"};
+				{ 22, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e27#", "", "1%"};
+				{ 23, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e27#", "", "1%"};
 			};
 		};
 		["25Man"] = {

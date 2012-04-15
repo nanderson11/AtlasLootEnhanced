@@ -7201,7 +7201,8 @@ local moduleName = "AtlasLootCataclysm"
 					{ 18, 68618, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
 				};
 				{ 19, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
-				{ 20, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
+				{ 20, 78916, "", "=q3=Soul of the Aspects", "=ds=#e13#"};
+				{ 21, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
 			};
 		};
 		info = {
@@ -7233,6 +7234,8 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "=ds="};
+				{ 1, 82775, "", "=q4=Sapphire Cub", "=ds="};
+				{ 1, 82774, "", "=q4=Jade Owl", "=ds="};
 			};
 		};
 		info = {
@@ -7737,8 +7740,8 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 1, 82765, "", "=q4=Dragon Turtle Egg", "=ds="};
 				{ 2, 81559, "", "=q4=Kite String", "=ds="};
-				{ 3, 82453, "", "=q4=Onyx Panther", "=ds="};
-				{ 4, 79802, "", "=q4=Reins of the Jade Serpent", "=ds="};
+				{ 3, 82453, "", "=q4=Onyx Panther", "=ds="};--Jewelcrafting mount??
+				{ 4, 79802, "", "=q4=Reins of the Jade Serpent", "=ds="};--Pandaren mount??
 				{ 5, 81354, "", "=q4=Water Strider Larva", "=ds="};
 			};
 		};
