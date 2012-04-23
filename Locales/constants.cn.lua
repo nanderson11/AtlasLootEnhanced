@@ -1,4 +1,4 @@
-﻿-- $Id$
+-- $Id$
 --[[
 constants.cn.lua
 This file defines an AceLocale table for all the various text strings needed

@@ -28,6 +28,7 @@ WishList.Info = Wishlists_Info
 do
 	--StaticPopup_Show ("ATLASLOOT_SEND_WISHLIST",AtlasLootWishList["Own"][tab2][tabname]["info"][1]);
 	StaticPopupDialogs["ATLASLOOT_SEND_WISHLIST"] = {
+		preferredIndex = 3,
 		text = AL["Send Wishlist (%s) to"],
 		button1 = AL["Send"],
 		button2 = CANCEL,

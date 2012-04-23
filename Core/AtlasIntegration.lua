@@ -27,7 +27,7 @@ StaticPopupDialogs["ATLASLOOT_INCOMPATIBLE_ATLAS"] = {
 	hideOnEscape = 1
 };
 
--- self function sets up the Atlas specific XML objects
+-- This function sets up the Atlas specific XML objects
 function AtlasLoot:SetupForAtlas()
 	if not AtlasFrame then return end
 	--Anchor the loot table to the Atlas frame

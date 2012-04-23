@@ -1,4 +1,4 @@
-﻿-- $Id$
+-- $Id$
 --[[
 constants.de.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -7,7 +7,6 @@ back to the English translation.
 
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
-
 	-- Table holding all loot tables is initialised here as it loads early
 	--AtlasLoot_Data = {};
 	--AtlasLoot_TableNames = {};

@@ -1,4 +1,4 @@
-﻿-- $Id$
+-- $Id$
 --[[
 constants.es.lua --- Traduction ES por maqjav
 This file defines an AceLocale table for all the various text strings needed

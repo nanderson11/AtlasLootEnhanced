@@ -258,6 +258,7 @@ local CURRENT_ITEM_LIST_TYPE
 -- #####################################################
 -- Options
 StaticPopupDialogs["ATLASLOOT_COMPAREFRAME_ITEMSTATSERROR"] = {
+			preferredIndex = 3,
 			text = string.format(AL["You cant set more then %d item stats."], NUM_ITEMS_TO_DISPLAY),
 			button1 = OKAY,
 			timeout = 0,
