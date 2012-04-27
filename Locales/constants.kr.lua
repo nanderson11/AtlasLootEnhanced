@@ -555,7 +555,6 @@ if AL then
 
 	-- General titles
 	AL["Achievement"] = true;
-	AL["Promotional & Card Game"] = true;
 
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = true;

@@ -678,7 +678,6 @@ if AL then
 
 	-- General titles
 	AL["Achievement"] = true;
-	AL["Promotional & Card Game"] = true;
 	AL["Dungeon"] = true;
 	AL["Outdoor"] = true;
 
@@ -1135,6 +1134,7 @@ if AL then
 	AL["Stolen Present"] = true;
 	AL["Annual Pass"] = true;
 	AL["Scroll of Resurrection"] = true;
+	AL["Recruit-A-Friend"] = true;
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = true;

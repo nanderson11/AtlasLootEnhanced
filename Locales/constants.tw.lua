@@ -678,7 +678,6 @@ if AL then
 
 	-- General titles
 	AL["Achievement"] = "成就";
-	AL["Promotional & Card Game"] = "促銷活動和卡牌遊戲";
 	AL["Dungeon"] = "副本";
 	AL["Outdoor"] = "野外";
 

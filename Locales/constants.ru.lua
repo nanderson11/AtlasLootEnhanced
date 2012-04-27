@@ -603,7 +603,6 @@ if AL then
 
 	-- General titles
 	AL["Achievement"] = "Достижение";
-	AL["Promotional & Card Game"] = "Поощрительные и карточные игры";
 	
 	-- Companions
 	AL["Achievement & Faction Reward Companions"] = "Спутники за достижения и фракции";

@@ -547,7 +547,6 @@ if AL then
 	AL["BRD Blacksmithing Plans"] = "Planos de herrero BRD";
 	-- General titles
 	AL["Achievement"] = "Logro";
-	AL["Promotional & Card Game"] = "Cartas del juego promocionales";
 
 	-- Companions
 	AL["Achievement"] = "Logro";

@@ -7615,39 +7615,51 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	}
 
-
-	AtlasLoot_Data["MountsCardGamePromotional"] = {
+	AtlasLoot_Data["MountsCardGame"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
 				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
 				{ 3, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#"};
-				{ 4, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
-				{ 5, 79771, "", "=q4=Feldrake", "=ds=#e26#" },
-				{ 6, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
-				{ 7, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
-				{ 8, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
-				{ 9, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
-				{ 10, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
-				{ 11, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },
-				{ 12, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
-				{ 13, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
-				{ 14, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
-				{ 15, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 17, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
-				{ 18, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
-				{ 19, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
-				{ 20, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
-				{ 21, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
-				{ 23, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
-				{ 24, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
-				{ 25, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
-				{ 26, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
+				{ 4, 54069, "", "=q4=Blazing Hippogryph", "=ds=#e27#" };
+				{ 5, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
+				{ 6, 79771, "", "=q4=Feldrake", "=ds=#e26#" },
+				{ 7, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
+				{ 8, 68008, "", "=q4=Mottled Drake", "=ds=#e27#" };
+				{ 9, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
+				{ 10, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
+				{ 11, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 12, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
+				{ 13, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },
+				{ 14, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
+				{ 15, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
+				{ 17, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
+				{ 18, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
 			};
 		};
 		info = {
-			name = AL["Promotional Mounts"].." / "..AL["Card Game Mounts"],
+			name = AL["Card Game Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsPromotional"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
+				{ 2, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
+				{ 3, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
+				{ 4, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
+				{ 5, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
+				{ 6, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 7, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 17, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
+				{ 18, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
+				{ 19, 69846, "", "=q4=Winged Guardian", "=ds=#e12#"};
+			};
+		};
+		info = {
+			name = AL["Promotional Mounts"],
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}

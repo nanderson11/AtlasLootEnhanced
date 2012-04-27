@@ -677,7 +677,6 @@ if AL then
 
 	-- General titles
 	AL["Achievement"] = "Erfolg";
-	AL["Promotional & Card Game"] = "Promotion & Kartenspiel";
 	-- AL["Dungeon"] = true;
 	AL["Outdoor"] = "Außenwelt";
 
