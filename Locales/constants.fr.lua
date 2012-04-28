@@ -1132,6 +1132,7 @@ if AL then
 	AL["Stolen Present"] = "Cadeau volé";
 	AL["Annual Pass"] = "Pass annuel";
 	AL["Scroll of Resurrection"] = "Sort de résurrection";
+	AL["Recruit-A-Friend"] = "Parrainer un ami";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Erreur AtlasLoot !";
