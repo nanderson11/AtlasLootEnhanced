@@ -285,6 +285,30 @@ local moduleName = "AtlasLoot_WorldEvents"
 		};
 	};
 
+--[[	AtlasLoot_Data["CorenDirebrewMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, 87573, "", "=q4=Thousand-Year Pickled Egg", "=ds=#s14#"};
+				{ 2, 87575, "", "=q4=Bubbliest Brightbrew Charm", "=ds=#s14#"};
+				{ 3, 87576, "", "=q4=Bitterest Balebrew Charm", "=ds=#s14#"};
+				{ 4, 87571, "", "=q4=Brawler's Statue", "=ds=#s14#"};
+				{ 5, 87574, "", "=q4=Coren's Cold Chromium Coaster", "=ds=#s14#"};
+				{ 6, 87572, "", "=q4=Mithril Wristwatch", "=ds=#s14#"};
+				{ 8, 38281, "", "=q1=Direbrew's Dire Brew", "=ds=#m2#"};
+				{ 16, 54535, "", "=q3=Keg-Shaped Treasure Chest", "=q5="..AL["Daily Reward"]};
+				{ 17, 71331, "", "=q4=Direbrew's Bloodied Shanker", "=ds=#h1#, #w4#"};
+				{ 18, 71332, "", "=q4=Tremendous Tankard O' Terror", "=ds=#h1#, #w6#"};
+				{ 19, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e26#"};
+				{ 20, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e26#"};
+				{ 22, 37863, "", "=q3=Direbrew's Remote", "=ds="};
+			};
+		};
+		info = {
+			name = BabbleBoss["Coren Direbrew"],
+			module = moduleName, menu = "BREWFESTMENU",
+		};
+	};]]--
+
 		-----------------------
 		--- Children's Week ---
 		-----------------------

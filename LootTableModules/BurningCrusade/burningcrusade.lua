@@ -166,11 +166,10 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 25941, "", "=q3=Boots of the Outlander", "=ds=#s12#, #a3#", "", "10.55%"};
 				{ 3, 25942, "", "=q3=Faith Bearer's Gauntlets", "=ds=#s9#, #a4#", "", "11.41%"};
-				{ 4, 25940, "", "=q3=Idol of the Claw", "=ds=#s16#", "", "12.18%"};
-				{ 5, 25943, "", "=q3=Creepjacker", "=ds=#h3#, #w13#", "", "14.22%"};
-				{ 6, 28166, "", "=q3=Shield of the Void", "=ds=#w8#", "", "10.81%"};
-				{ 7, 25939, "", "=q3=Voidfire Wand", "=ds=#w12#", "", "13.04%"};
-				{ 9, 72126, "", "=q1=Pandemonius' Essence", "=ds=#m3#", "", "100%"};
+				{ 4, 25943, "", "=q3=Creepjacker", "=ds=#h3#, #w13#", "", "14.22%"};
+				{ 5, 28166, "", "=q3=Shield of the Void", "=ds=#w8#", "", "10.81%"};
+				{ 6, 25939, "", "=q3=Voidfire Wand", "=ds=#w12#", "", "13.04%"};
+				{ 8, 72126, "", "=q1=Pandemonius' Essence", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30584, "", "=q4=Inscribed Fire Opal", "=ds=#e7#", "", "0.08%"};
 				{ 18, 30585, "", "=q4=Polished Fire Opal", "=ds=#e7#", "", "6.06%"};
@@ -178,9 +177,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 21, 27816, "", "=q3=Mindrage Pauldrons", "=ds=#s3#, #a1#", "", "13.95%"};
 				{ 22, 27818, "", "=q3=Starry Robes of the Crescent", "=ds=#s5#, #a2#", "", "11.63%"};
 				{ 23, 27813, "", "=q3=Boots of the Colossus", "=ds=#s12#, #a4#", "", "13.95%"};
-				{ 24, 27815, "", "=q3=Totem of the Astral Winds", "=ds=#s16#", "", "2.33%"};
-				{ 25, 27814, "", "=q3=Twinblade of Mastery", "=ds=#h1#, #w4#", "", "6.98%"};
-				{ 26, 27817, "", "=q3=Starbolt Longbow", "=ds=#w2#", "", "9.30%"};
+				{ 24, 27814, "", "=q3=Twinblade of Mastery", "=ds=#h1#, #w4#", "", "6.98%"};
+				{ 25, 27817, "", "=q3=Starbolt Longbow", "=ds=#w2#", "", "9.30%"};
 			};
 		};
 		info = {
@@ -298,10 +296,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 27914, "", "=q3=Moonstrider Boots", "=ds=#s12#, #a2#", "", "12.26%"};
 				{ 3, 27915, "", "=q3=Sky-Hunter Swift Boots", "=ds=#s12#, #a3#", "", "11.74%"};
 				{ 4, 27918, "", "=q3=Bands of Syth", "=ds=#s8#, #a4#", "", "11.81%"};
-				{ 5, 27917, "", "=q3=Libram of the Eternal Rest", "=ds=#s16#", "", "14.12%"};
-				{ 6, 27916, "", "=q3=Sethekk Feather-Darts", "=ds=#w11#", "", "11.34%"};
-				{ 8, 24160, "", "=q3=Design: Khorium Inferno Band", "=ds=#p12# (355)", "", "0.29%"};
-				{ 10, 27633, "", "=q1=Terokk's Mask", "=ds=#m3#", "", "100%"};
+				{ 6, 24160, "", "=q3=Design: Khorium Inferno Band", "=ds=#p12# (355)", "", "0.29%"};
+				{ 8, 27633, "", "=q1=Terokk's Mask", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30553, "", "=q4=Glinting Tanzanite", "=ds=#e7#", "", "15.73%"};
 				{ 18, 30554, "", "=q4=Stalwart Fire Opal", "=ds=#e7#", "", "10.11%"};
@@ -377,9 +373,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 27889, "", "=q3=Jaedenfire Gloves of Annihilation", "=ds=#s9#, #a1#", "", "13.58%"};
 				{ 2, 27888, "", "=q3=Dream-Wing Helm", "=ds=#s1#, #a3#", "", "11.81%"};
 				{ 3, 27884, "", "=q3=Ornate Boots of the Sanctified", "=ds=#s12#, #a4#", "", "13.15%"};
-				{ 4, 27886, "", "=q3=Idol of the Emerald Queen", "=ds=#s16#", "", "12.94%"};
-				{ 5, 27887, "", "=q3=Platinum Shield of the Valorous", "=ds=#w8#", "", "10.88%"};
-				{ 6, 27885, "", "=q3=Soul-Wand of the Aldor", "=ds=#w12#", "", "13.34%"};
+				{ 4, 27887, "", "=q3=Platinum Shield of the Valorous", "=ds=#w8#", "", "10.88%"};
+				{ 5, 27885, "", "=q3=Soul-Wand of the Aldor", "=ds=#w12#", "", "13.34%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30563, "", "=q4=Regal Chrysoprase", "=ds=#e7#", "", "16.67%"};
 				{ 18, 30559, "", "=q4=Etched Tanzanite", "=ds=#e7#", "", "17.85%"};
@@ -536,7 +531,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 32250, "", "=q4=Pauldrons of Abyssal Fury", "=ds=#s3#, #a4#", "", "16%"};
 				{ 8, 32260, "", "=q4=Choker of Endless Nightmares", "=ds=#s2#", "", "17%"};
 				{ 9, 32261, "", "=q4=Band of the Abyssal Lord", "=ds=#s13#", "", "14%"};
-				{ 10, 32257, "", "=q4=Idol of the White Stag", "=ds=#s16#", "", "15%"};
 				{ 16, 32254, "", "=q4=The Brutalizer", "=ds=#h1#, #w1#", "", "15%"};
 				{ 17, 32262, "", "=q4=Syphon of the Nathrezim", "=ds=#h1#, #w6#", "", "16%"};
 				{ 18, 32255, "", "=q4=Felstone Bulwark", "=ds=#w8#", "", "15%"};
@@ -585,10 +579,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 6, 32510, "", "=q4=Softstep Boots of Tracking", "=ds=#s12#, #a3#", "", "15%"};
 				{ 7, 32280, "", "=q4=Gauntlets of Enforcement", "=ds=#s9#, #a4#", "", "15%"};
 				{ 8, 32512, "", "=q4=Girdle of Lordaeron's Fallen", "=ds=#s10#, #a4#", "", "19%"};
-				{ 16, 32330, "", "=q4=Totem of Ancestral Guidance", "=ds=#s16#", "", "13%"};
-				{ 18, 32348, "", "=q4=Soul Cleaver", "=ds=#h2#, #w1#", "", "19%"};
-				{ 19, 32326, "", "=q4=Twisted Blades of Zarak", "=ds=#w11#", "", "11%"};
-				{ 20, 32325, "", "=q4=Rifle of the Stoic Guardian", "=ds=#w5#", "", "14%"};
+				{ 16, 32348, "", "=q4=Soul Cleaver", "=ds=#h2#, #w1#", "", "19%"};
+				{ 17, 32325, "", "=q4=Rifle of the Stoic Guardian", "=ds=#w5#", "", "14%"};
 			};
 		};
 		info = {
@@ -652,8 +644,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 32366, "", "=q4=Shadowmaster's Boots", "=ds=#s12#, #a2#", "", "15%"};
 				{ 3, 32365, "", "=q4=Heartshatter Breastplate", "=ds=#s5#, #a4#", "", "15%"};
 				{ 4, 32370, "", "=q4=Nadina's Pendant of Purity", "=ds=#s2#", "", "15%"};
-				{ 5, 32368, "", "=q4=Tome of the Lightbringer", "=ds=#s16#", "", "15%"};
-				{ 6, 32369, "", "=q4=Blade of Savagery", "=ds=#h1#, #w10#", "", "15%"};
+				{ 5, 32369, "", "=q4=Blade of Savagery", "=ds=#h1#, #w10#", "", "15%"};
 				{ 16, 31101, "", "=q4=Pauldrons of the Forgotten Conqueror", "=ds=#m23# #e15#", "", "76%"};
 				{ 17, 31103, "", "=q4=Pauldrons of the Forgotten Protector", "=ds=#m23# #e15#", "", "80%"};
 				{ 18, 31102, "", "=q4=Pauldrons of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "77%"};
@@ -1152,9 +1143,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 22, 27545, "", "=q3=Mennu's Scaled Leggings", "=ds=#s11#, #a2#", "", "8.50%"};
 				{ 23, 27541, "", "=q3=Archery Belt of the Broken", "=ds=#s10#, #a3#", "", "12.75%"};
 				{ 24, 27546, "", "=q3=Traitor's Noose", "=ds=#s2#", "", "13.75%"};
-				{ 25, 27544, "", "=q3=Totem of Spontaneous Regrowth", "=ds=#s16#", "", "12.25%"};
-				{ 26, 27543, "", "=q3=Starlight Dagger", "=ds=#h3#, #w4#", "", "20.00%"};
-				{ 28, 29674, "", "=q2=Pattern: Nature Armor Kit", "=ds=#p7# (340)", "", "0.80%"};
+				{ 25, 27543, "", "=q3=Starlight Dagger", "=ds=#h3#, #w4#", "", "20.00%"};
+				{ 27, 29674, "", "=q2=Pattern: Nature Armor Kit", "=ds=#p7# (340)", "", "0.80%"};
 			};
 		};
 		info = {
@@ -1342,8 +1332,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 24450, "", "=q3=Manaspark Gloves", "=ds=#s9#, #a1#", "", "11.72%"};
 				{ 3, 24452, "", "=q3=Starlight Gauntlets", "=ds=#s9#, #a2#", "", "12.35%"};
 				{ 4, 24451, "", "=q3=Lykul Bloodbands", "=ds=#s8#, #a3#", "", "11.75%"};
-				{ 5, 24413, "", "=q3=Totem of the Thunderhead", "=ds=#s16#", "", "12.86%"};
-				{ 6, 27631, "", "=q3=Needle Shrike", "=ds=#w11#", "", "11.60%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30606, "", "=q4=Lightning Chrysoprase", "=ds=#e7#", "", "17.89%"};
 				{ 18, 30607, "", "=q4=Splendid Fire Opal", "=ds=#e7#", "", "6.50%"};
@@ -1352,8 +1340,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 22, 27745, "", "=q3=Hungarhide Gauntlets", "=ds=#s9#, #a3#", "", "13.79%"};
 				{ 23, 27743, "", "=q3=Girdle of Living Flame", "=ds=#s10#, #a3#", "", "13.79%"};
 				{ 24, 27748, "", "=q3=Cassock of the Loyal", "=ds=#s11#, #a4#", "", "7.39%"};
-				{ 25, 27744, "", "=q3=Idol of Ursoc", "=ds=#s16#", "", "16.26%"};
-				{ 26, 27747, "", "=q3=Boggspine Knuckles", "=ds=#h4#, #w13#", "", "12.81%"};
+				{ 25, 27747, "", "=q3=Boggspine Knuckles", "=ds=#h4#, #w13#", "", "12.81%"};
 			};
 		};
 		info = {
@@ -1478,7 +1465,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 18, 30664, "", "=q4=Living Root of the Wildheart", "=ds=#s14#, =q1=#m1# =ds=#c1#", "", "18%"};
 				{ 19, 30629, "", "=q4=Scarab of Displacement", "=ds=#s14#", "", "21%"};
 				{ 20, 30049, "", "=q4=Fathomstone", "=ds=#s15#", "", "19%"};
-				{ 21, 30051, "", "=q4=Idol of the Crescent Goddess", "=ds=#s16#", "", "11%"};
 			};
 		};
 		info = {
@@ -1501,7 +1487,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 17, 30061, "", "=q4=Ancestral Ring of Conquest", "=ds=#s13#", "", "20%"};
 				{ 18, 33054, "", "=q4=The Seal of Danzalar", "=ds=#s13#", "", "14%"};
 				{ 19, 30665, "", "=q4=Earring of Soulful Meditation", "=ds=#s14#, =q1=#m1# =ds=#c5#", "", "18%"};
-				{ 20, 30063, "", "=q4=Libram of Absolute Truth", "=ds=#s16#", "", "17%"};
 				{ 21, 30058, "", "=q4=Mallet of the Tides", "=ds=#h1#, #w6#", "", "20%"};
 			};
 		};
@@ -1608,17 +1593,15 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 30027, "", "=q4=Boots of Courage Unending", "=ds=#s12#, #a4#", "", "3%"};
 				{ 2, 30022, "", "=q4=Pendant of the Perilous", "=ds=#s2#", "", "3%"};
 				{ 3, 30620, "", "=q4=Spyglass of the Hidden Fleet", "=ds=#s14#", "", "4%"};
-				{ 4, 30023, "", "=q4=Totem of the Maelstrom", "=ds=#s16#", "", "3%"};
 				{ 5, 30021, "", "=q4=Wildfury Greatstaff", "=ds=#w9#", "", "3%"};
-				{ 6, 30025, "", "=q4=Serpentshrine Shuriken", "=ds=#w11#", "", "3%"};
-				{ 8, 30324, "", "=q4=Plans: Red Havoc Boots", "=ds=#p2# (375)", "", "1%"};
-				{ 9, 30322, "", "=q4=Plans: Red Belt of Battle", "=ds=#p2# (375)", "", "2%"};
-				{ 10, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "2%"};
-				{ 11, 30321, "", "=q4=Plans: Belt of the Guardian", "=ds=#p2# (375)", "", "2%"};
-				{ 12, 30280, "", "=q4=Pattern: Belt of Blasting", "=ds=#p8# (375)", "", "1%"};
-				{ 13, 30282, "", "=q4=Pattern: Boots of Blasting", "=ds=#p8# (375)", "", "1%"};
-				{ 14, 30283, "", "=q4=Pattern: Boots of the Long Road", "=ds=#p8# (375)", "", "2%"};
-				{ 15, 30281, "", "=q4=Pattern: Belt of the Long Road", "=ds=#p8# (375)", "", "1%"};
+				{ 7, 30324, "", "=q4=Plans: Red Havoc Boots", "=ds=#p2# (375)", "", "1%"};
+				{ 8, 30322, "", "=q4=Plans: Red Belt of Battle", "=ds=#p2# (375)", "", "2%"};
+				{ 9, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "2%"};
+				{ 10, 30321, "", "=q4=Plans: Belt of the Guardian", "=ds=#p2# (375)", "", "2%"};
+				{ 11, 30280, "", "=q4=Pattern: Belt of Blasting", "=ds=#p8# (375)", "", "1%"};
+				{ 12, 30282, "", "=q4=Pattern: Boots of Blasting", "=ds=#p8# (375)", "", "1%"};
+				{ 13, 30283, "", "=q4=Pattern: Boots of the Long Road", "=ds=#p8# (375)", "", "2%"};
+				{ 14, 30281, "", "=q4=Pattern: Belt of the Long Road", "=ds=#p8# (375)", "", "1%"};
 				{ 16, 30308, "", "=q4=Pattern: Hurricane Boots", "=ds=#p7# (375)", "", "1%"};
 				{ 17, 30304, "", "=q4=Pattern: Monsoon Belt", "=ds=#p7# (375)", "", "1%"};
 				{ 18, 30305, "", "=q4=Pattern: Boots of Natural Grace", "=ds=#p7# (375)", "", "2%"};
@@ -1679,7 +1662,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 20, 28802, "", "=q4=Bloodmaw Magus-Blade", "=ds=#h3#, #w10#", "", "9.23%"};
 				{ 21, 28794, "", "=q4=Axe of the Gronn Lords", "=ds=#h2#, #w1#", "", "6.73%"};
 				{ 22, 28825, "", "=q4=Aldori Legacy Defender", "=ds=#w8#", "", "2.99%"};
-				{ 23, 28826, "", "=q4=Shuriken of Negation", "=ds=#w11#", "", "16.21%"};
 			};
 		};
 		info = {
@@ -1818,9 +1800,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 24388, "", "=q3=Girdle of the Gale Storm", "=ds=#s10#, #a3#", "", "15.84%"};
 				{ 3, 24387, "", "=q3=Ironblade Gauntlets", "=ds=#s9#, #a4#", "", "13.27%"};
 				{ 4, 24385, "", "=q3=Pendant of Battle-Lust", "=ds=#s2#", "", "15.43%"};
-				{ 5, 24386, "", "=q3=Libram of Saints Departed", "=ds=#s16#", "", "14.78%"};
-				{ 6, 24384, "", "=q3=Diamond-Core Sledgemace", "=ds=#h3#, #w6#", "", "12.90%"};
-				{ 8, 73200, "", "=q1=Fel Infusion Rod", "=ds=#m3#", "", "100%"};
+				{ 5, 24384, "", "=q3=Diamond-Core Sledgemace", "=ds=#h3#, #w6#", "", "12.90%"};
+				{ 7, 73200, "", "=q1=Fel Infusion Rod", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 30601, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "18.18%"};
 				{ 18, 30600, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "9.85%"};
@@ -1829,7 +1810,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 22, 27488, "", "=q3=Mage-Collar of the Firestorm", "=ds=#s1#, #a1#", "", "16.67%"};
 				{ 23, 27483, "", "=q3=Moon-Touched Bands", "=ds=#s8#, #a2#", "", "25.00%"};
 				{ 24, 27487, "", "=q3=Bloodlord Legplates", "=ds=#s11#, #a4#", "", "9.26%"};
-				{ 25, 27484, "", "=q3=Libram of Avengement", "=ds=#s16#", "", "14.81%"};
 			};
 		};
 		info = {
@@ -1916,8 +1896,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 27517, "", "=q3=Bands of Nethekurse", "=ds=#s8#, #a1#", "", "17.52%"};
 				{ 5, 27521, "", "=q3=Telaari Hunting Girdle", "=ds=#s10#, #a3#", "", "16.50%"};
 				{ 6, 27520, "", "=q3=Greathelm of the Unbreakable", "=ds=#s1#, #a4#", "", "16.47%"};
-				{ 7, 27518, "", "=q3=Ivory Idol of the Moongoddess", "=ds=#s16#", "", "17.42%"};
-				{ 9, 23735, "", "=q1=Grand Warlock's Amulet", "=ds=#m3#", "", "100%"};
+				{ 8, 23735, "", "=q1=Grand Warlock's Amulet", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 24312, "", "=q4=Pattern: Spellstrike Hood", "=ds=#p8# (375)", "", "0.47%"};
 				{ 18, 30548, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "0.16%"};
@@ -2137,7 +2116,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 16, 28530, "", "=q4=Brooch of Unquenchable Fury", "=ds=#s2#", "", "12.25%"};
 				{ 17, 28528, "", "=q4=Moroes' Lucky Pocket Watch", "=ds=#s14#", "", "12.05%"};
 				{ 18, 28525, "", "=q4=Signet of Unshakable Faith", "=ds=#s15#", "", "14.54%"};
-				{ 19, 28568, "", "=q4=Idol of the Avian Heart", "=ds=#s16#", "", "14.08%"};
 				{ 20, 28524, "", "=q4=Emerald Ripper", "=ds=#h1#, #w4#", "", "12.90%"};
 				{ 22, 22559, "", "=q3=Formula: Enchant Weapon - Mongoose", "=ds=#p4# (375)", "", "1.05%"};
 			};
@@ -2161,7 +2139,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 8, 28512, "", "=q4=Bracers of Justice", "=ds=#s8#, #a4#", "", "15%"};
 				{ 9, 28518, "", "=q4=Iron Gauntlets of the Maiden", "=ds=#s9#, #a4#", "", "12.63%"};
 				{ 16, 28516, "", "=q4=Barbed Choker of Discipline", "=ds=#s2#", "", "11.48%"};
-				{ 17, 28523, "", "=q4=Totem of Healing Rains", "=ds=#s16#", "", "14.58%"};
 				{ 18, 28522, "", "=q4=Shard of the Virtuous", "=ds=#h3#, #w6#", "", "10.69%"};
 			};
 		};
@@ -2180,22 +2157,21 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 28589, "", "=q4=Beastmaw Pauldrons", "=ds=#s3#, #a3#", "", "12.54%"};
 				{ 5, 28593, "", "=q4=Eternium Greathelm", "=ds=#s1#, #a4#", "", "11.53%"};
 				{ 6, 28590, "", "=q4=Ribbon of Sacrifice", "=ds=#s14#", "", "18.41%"};
-				{ 7, 28592, "", "=q4=Libram of Souls Redeemed", "=ds=#s16#", "", "8.38%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["The Crone"], "=q5="..AL["Wizard of Oz"]};
-				{ 10, 28586, "", "=q4=Wicked Witch's Hat", "=ds=#s1#, #a1#", "", "20.12%"};
-				{ 11, 28585, "", "=q4=Ruby Slippers", "=ds=#s12#, #a1#", "", "25.39%"};
-				{ 12, 28587, "", "=q4=Legacy", "=ds=#h2#, #w1#", "", "20.43%"};
-				{ 13, 28588, "", "=q4=Blue Diamond Witchwand", "=ds=#w12#", "", "17.96%"};
+				{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["The Crone"], "=q5="..AL["Wizard of Oz"]};
+				{ 9, 28586, "", "=q4=Wicked Witch's Hat", "=ds=#s1#, #a1#", "", "20.12%"};
+				{ 10, 28585, "", "=q4=Ruby Slippers", "=ds=#s12#, #a1#", "", "25.39%"};
+				{ 11, 28587, "", "=q4=Legacy", "=ds=#h2#, #w1#", "", "20.43%"};
+				{ 12, 28588, "", "=q4=Blue Diamond Witchwand", "=ds=#w12#", "", "17.96%"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Romulo & Julianne"], "=q5="..BabbleBoss["Romulo & Julianne"]};
 				{ 17, 28578, "", "=q4=Masquerade Gown", "=ds=#s5#, #a1#", "", "22.73%"};
 				{ 18, 28579, "", "=q4=Romulo's Poison Vial", "=ds=#s14#", "", "29.54%"};
 				{ 19, 28572, "", "=q4=Blade of the Unrequited", "=ds=#h1#, #w4#", "", "13.52%"};
 				{ 20, 28573, "", "=q4=Despair", "=ds=#h2#, #w10#", "", "30.07%"};
-				{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["The Big Bad Wolf"], "=q5="..AL["Red Riding Hood"]};
-				{ 25, 28582, "", "=q4=Red Riding Hood's Cloak", "=ds=#s4#", "", "12.85%"};
-				{ 26, 28583, "", "=q4=Big Bad Wolf's Head", "=ds=#s1#, #a3#", "", "16.37%"};
-				{ 27, 28584, "", "=q4=Big Bad Wolf's Paw", "=ds=#h3#, #w13#", "", "16.12%"};
-				{ 28, 28581, "", "=q4=Wolfslayer Sniper Rifle", "=ds=#w5#", "", "22.42%"};
+				{ 23, 0, "INV_Box_01", "=q6="..BabbleBoss["The Big Bad Wolf"], "=q5="..AL["Red Riding Hood"]};
+				{ 24, 28582, "", "=q4=Red Riding Hood's Cloak", "=ds=#s4#", "", "12.85%"};
+				{ 25, 28583, "", "=q4=Big Bad Wolf's Head", "=ds=#s1#, #a3#", "", "16.37%"};
+				{ 26, 28584, "", "=q4=Big Bad Wolf's Paw", "=ds=#h3#, #w13#", "", "16.12%"};
+				{ 27, 28581, "", "=q4=Wolfslayer Sniper Rifle", "=ds=#w5#", "", "22.42%"};
 			};
 		};
 		info = {
@@ -2238,8 +2214,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 17, 28785, "", "=q4=The Lightning Capacitor", "=ds=#s14#", "", "10.75%"};
 				{ 18, 28657, "", "=q4=Fool's Bane", "=ds=#h1#, #w6#", "", "14.63%"};
 				{ 19, 28658, "", "=q4=Terestian's Stranglestaff", "=ds=#w9#", "", "7.46%"};
-				{ 20, 28659, "", "=q4=Xavian Stiletto", "=ds=#w11#", "", "13.43%"};
-				{ 22, 22561, "", "=q3=Formula: Enchant Weapon - Soulfrost", "=ds=#p4# (375)", "", "0.30%"};
+				{ 21, 22561, "", "=q3=Formula: Enchant Weapon - Soulfrost", "=ds=#p4# (375)", "", "0.30%"};
 			};
 		};
 		info = {
@@ -2416,8 +2391,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 17, 34602, "", "=q4=Eversong Cuffs", "=ds=#s8#, #a2#", "", "20%"};
 				{ 18, 34601, "", "=q4=Shoulderplates of Everlasting Pain", "=ds=#s3#, #a4#", "", "21%"};
 				{ 19, 34604, "", "=q4=Jaded Crystal Dagger", "=ds=#h3#, #w4#", "", "21%"};
-				{ 20, 34603, "", "=q4=Distracting Blades", "=ds=#w11#", "", "21%"};
-				{ 22, 35275, "", "=q3=Orb of the Sin'dorei", "=ds=#e25#", "", "2%"};
+				{ 21, 35275, "", "=q3=Orb of the Sin'dorei", "=ds=#e25#", "", "2%"};
 			};
 		};
 		info = {
@@ -2460,8 +2434,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 4, 34791, "", "=q3=Gauntlets of the Tranquil Waves", "=ds=#s9#, #a3#", "", "16%"};
 				{ 5, 34789, "", "=q3=Bracers of Slaughter", "=ds=#s8#, #a4#", "", "17%"};
 				{ 6, 34790, "", "=q3=Battle-Mace of the High Priestess", "=ds=#h3#, #w6#", "", "16%"};
-				{ 7, 34783, "", "=q3=Nightstrike", "=ds=#w11#", "", "17%"};
-				{ 9, 35756, "", "=q3=Formula: Enchant Cloak - Steelweave", "=ds=#p4# (375)", "", "14%"};
+				{ 8, 35756, "", "=q3=Formula: Enchant Cloak - Steelweave", "=ds=#p4# (375)", "", "14%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 34473, "", "=q4=Commendation of Kael'thas", "=ds=#s14#", "", "19%"};
 				{ 18, 34472, "", "=q4=Shard of Contempt", "=ds=#s14#", "", "19%"};
@@ -2765,11 +2738,10 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 5, 35733, "", "=q4=Ring of Harmonic Beauty", "=ds=#s13#", "", "8%"};
 				{ 6, 34183, "", "=q4=Shivering Felspine", "=ds=#h2#, #w7#", "", "1%"};
 				{ 7, 34346, "", "=q4=Mounting Vengeance", "=ds=#h4#, #w13#", "", "2%"};
-				{ 8, 34349, "", "=q4=Blade of Life's Inevitability", "=ds=#w11#", "", "2%"};
-				{ 9, 34348, "", "=q4=Wand of Cleansing Light", "=ds=#w12#", "", "4%"};
-				{ 10, 34347, "", "=q4=Wand of the Demonsoul", "=ds=#w12#", "", "2%"};
-				{ 12, 35273, "", "=q3=Study of Advanced Smelting", "=ds=#p23# (375)", "", "3%"};
-				{ 14, 34664, "", "=q3=Sunmote", "=ds=#m20#", "", "66%"};
+				{ 8, 34348, "", "=q4=Wand of Cleansing Light", "=ds=#w12#", "", "4%"};
+				{ 9, 34347, "", "=q4=Wand of the Demonsoul", "=ds=#w12#", "", "2%"};
+				{ 11, 35273, "", "=q3=Study of Advanced Smelting", "=ds=#p23# (375)", "", "3%"};
+				{ 13, 34664, "", "=q3=Sunmote", "=ds=#m20#", "", "66%"};
 				{ 16, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e7#", "", "12%"};
 				{ 17, 32231, "", "=q4=Pyrestone", "=ds=#e7#", "", "8%"};
 				{ 18, 32229, "", "=q4=Lionseye", "=ds=#e7#", "", "6%"};
@@ -2799,7 +2771,6 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 28374, "", "=q3=Mana-Sphere Shoulderguards", "=ds=#s3#, #a1#", "", "20.35%"};
 				{ 3, 28384, "", "=q3=Outland Striders", "=ds=#s12#, #a3#", "", "19.52%"};
 				{ 4, 28375, "", "=q3=Rubium War-Girdle", "=ds=#s10#, #a4#", "", "14.38%"};
-				{ 5, 28372, "", "=q3=Idol of Feral Shadows", "=ds=#s16#", "", "15.80%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30582, "", "=q4=Deadly Fire Opal", "=ds=#e7#", "", "0.18%"};
 				{ 18, 30575, "", "=q4=Nimble Chrysoprase", "=ds=#e7#", "", "0.18%"};
@@ -2920,9 +2891,8 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 28301, "", "=q3=Syrannis' Mystic Sheen", "=ds=#s4#", "", "28.54%"};
 				{ 2, 28304, "", "=q3=Prismatic Mittens of Mending", "=ds=#s9#, #a1#", "", "32.46%"};
 				{ 3, 28306, "", "=q3=Towering Mantle of the Hunt", "=ds=#s3#, #a3#", "", "30.68%"};
-				{ 4, 28296, "", "=q3=Libram of the Lightbringer", "=ds=#s16#", "", "34.10%"};
-				{ 5, 28311, "", "=q3=Revenger", "=ds=#h1#, #w10#", "", "26.25%"};
-				{ 7, 28769, "", "=q1=The Keystone", "=ds=#m3#", "", "100%"};
+				{ 4, 28311, "", "=q3=Revenger", "=ds=#h1#, #w10#", "", "26.25%"};
+				{ 6, 28769, "", "=q1=The Keystone", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30574, "", "=q4=Shifting Tanzanite", "=ds=#e7#", "", "8.00%"};
 				{ 18, 30572, "", "=q4=Purified Tanzanite", "=ds=#e7#", "", "8.00%"};
@@ -3064,8 +3034,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 3, 28250, "", "=q3=Vestia's Pauldrons of Inner Grace", "=ds=#s3#, #a1#", "", "17.89%"};
 				{ 4, 28252, "", "=q3=Bloodfyre Robes of Annihilation", "=ds=#s5#, #a1#", "", "22.53%"};
 				{ 5, 28251, "", "=q3=Boots of the Glade-Keeper", "=ds=#s12#, #a2#", "", "18.74%"};
-				{ 6, 28248, "", "=q3=Totem of the Void", "=ds=#s16#", "", "19.58%"};
-				{ 8, 72663, "", "=q1=Blinding Fury", "=ds=#m3#", "", "100%"};
+				{ 7, 72663, "", "=q1=Blinding Fury", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -3102,8 +3071,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 2, 28259, "", "=q3=Cosmic Lifeband", "=ds=#s13#", "", "18.06%"};
 				{ 3, 28260, "", "=q3=Manual of the Nethermancer", "=ds=#s15#", "", "15.61%"};
 				{ 4, 28263, "", "=q3=Stellaris", "=ds=#h1#, #w1#", "", "15.58%"};
-				{ 5, 28258, "", "=q3=Nethershrike", "=ds=#w11#", "", "15.88%"};
-				{ 7, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1=#n93#"};
+				{ 6, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1=#n93#"};
 				{ 16, 0, "INV_Box_01", "=q6=#j27#", ""};
 				{ 17, 30565, "", "=q4=Jagged Chrysoprase", "=ds=#e7#", "", "18.72%"};
 				{ 18, 30566, "", "=q4=Defender's Tanzanite", "=ds=#e7#", "", "8.87%"};
@@ -4283,11 +4251,7 @@ local moduleName = "AtlasLootBurningCrusade"
 					{ 25, 30570, "", "=q2=Arkadian Claymore", "=ds=#h2#, #w10#"};
 					{ 25, 30597, "", "=q2=Halaani Claymore", "=ds=#h2#, #w10#"};
 				};
-				{
-					{ 26, 30568, "", "=q2=The Sharp Cookie", "=ds=#w11#"};
-					{ 26, 30599, "", "=q2=Avenging Blades", "=ds=#w11#"};
-				};
-				{ 27, 30615, "", "=q1=Halaani Whiskey", "=ds=#e4#"};
+				{ 26, 30615, "", "=q1=Halaani Whiskey", "=ds=#e4#"};
 			};
 		};
 		info = {
@@ -4336,17 +4300,13 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["Zangarmarsh"] = {
 		["Normal"] = {
 			{
-				{ 1, 27990, "", "=q3=Idol of Savagery", "=ds=#s16#", "15 #markthrallmarhhold#", ""};
-				{ 2, 27984, "", "=q3=Totem of Impact", "=ds=#s16#", "15 #markthrallmarhhold#", ""};
-				{ 3, 27922, "", "=q3=Mark of Defiance", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
-				{ 4, 27929, "", "=q3=Terminal Edge", "=ds=#w11#", "15 #markthrallmarhhold#", ""};
-				{ 5, 27939, "", "=q3=Incendic Rod", "=ds=#w12#", "15 #markthrallmarhhold#", ""};
-				{ 7, 24579, "", "=q1=Mark of Honor Hold", "=ds=#m17#"};
-				{ 16, 27983, "", "=q3=Libram of Zeal", "=ds=#s16#", "15 #markthrallmarhhold#", ""};
-				{ 17, 27920, "", "=q3=Mark of Conquest", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
-				{ 18, 27927, "", "=q3=Mark of Vindication", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
-				{ 19, 27930, "", "=q3=Splintermark", "=ds=#w2#", "15 #markthrallmarhhold#", ""};
-				{ 22, 24581, "", "=q1=Mark of Thrallmar", "=ds=#m17#"};
+				{ 1, 27922, "", "=q3=Mark of Defiance", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
+				{ 2, 27939, "", "=q3=Incendic Rod", "=ds=#w12#", "15 #markthrallmarhhold#", ""};
+				{ 4, 24579, "", "=q1=Mark of Honor Hold", "=ds=#m17#"};
+				{ 16, 27920, "", "=q3=Mark of Conquest", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
+				{ 17, 27927, "", "=q3=Mark of Vindication", "=ds=#s14#", "30 #markthrallmarhhold#", ""};
+				{ 18, 27930, "", "=q3=Splintermark", "=ds=#w2#", "15 #markthrallmarhhold#", ""};
+				{ 20, 24581, "", "=q1=Mark of Thrallmar", "=ds=#m17#"};
 			};
 		};
 		info = {
@@ -5265,25 +5225,15 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 1, 34986, "", "=q4=Brutal Gladiator's Barrier", "=ds=#w8#", "#HONOR:175#", ""};
 				{ 2, 35073, "", "=q4=Brutal Gladiator's Redoubt", "=ds=#w8#", "#HONOR:175#", ""};
 				{ 3, 35094, "", "=q4=Brutal Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:175#", ""};
-				{ 4, 35108, "", "=q4=Brutal Gladiator's War Edge", "=ds=#w11#", "#HONOR:95#", ""};
-				{ 5, 35047, "", "=q4=Brutal Gladiator's Longbow", "=ds=#w2#", "#HONOR:350#", ""};
-				{ 6, 35018, "", "=q4=Brutal Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:350#", ""};
-				{ 7, 35075, "", "=q4=Brutal Gladiator's Rifle", "=ds=#w5#", "#HONOR:350#", ""};
-				{ 8, 34985, "", "=q4=Brutal Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:95#", ""};
-				{ 9, 35065, "", "=q4=Brutal Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:95#", ""};
-				{ 10, 35107, "", "=q4=Brutal Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:95#", ""};
-				{ 11, 35008, "", "=q4=Brutal Gladiator's Endgame", "=ds=#s15#", "#HONOR:105#", ""};
-				{ 12, 35016, "", "=q4=Brutal Gladiator's Grimoire", "=ds=#s15#", "#HONOR:105#", ""};
-				{ 13, 35074, "", "=q4=Brutal Gladiator's Reprieve", "=ds=#s15#", "#HONOR:105#", ""};
-				{ 16, 35019, "", "=q4=Brutal Gladiator's Idol of Resolve", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 17, 35020, "", "=q4=Brutal Gladiator's Idol of Steadfastness", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 18, 35021, "", "=q4=Brutal Gladiator's Idol of Tenacity", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 19, 35039, "", "=q4=Brutal Gladiator's Libram of Fortitude", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 20, 35040, "", "=q4=Brutal Gladiator's Libram of Justice", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 21, 35041, "", "=q4=Brutal Gladiator's Libram of Vengeance", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 22, 35104, "", "=q4=Brutal Gladiator's Totem of Indomitability", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 23, 35105, "", "=q4=Brutal Gladiator's Totem of Survival", "=ds=#s16#", "#HONOR:95#", ""};
-				{ 24, 35106, "", "=q4=Brutal Gladiator's Totem of the Third Wind", "=ds=#s16#", "#HONOR:95#", ""};
+				{ 4, 35047, "", "=q4=Brutal Gladiator's Longbow", "=ds=#w2#", "#HONOR:350#", ""};
+				{ 5, 35018, "", "=q4=Brutal Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:350#", ""};
+				{ 6, 35075, "", "=q4=Brutal Gladiator's Rifle", "=ds=#w5#", "#HONOR:350#", ""};
+				{ 16, 34985, "", "=q4=Brutal Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:95#", ""};
+				{ 17, 35065, "", "=q4=Brutal Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:95#", ""};
+				{ 18, 35107, "", "=q4=Brutal Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:95#", ""};
+				{ 19, 35008, "", "=q4=Brutal Gladiator's Endgame", "=ds=#s15#", "#HONOR:105#", ""};
+				{ 20, 35016, "", "=q4=Brutal Gladiator's Grimoire", "=ds=#s15#", "#HONOR:105#", ""};
+				{ 21, 35074, "", "=q4=Brutal Gladiator's Reprieve", "=ds=#s15#", "#HONOR:105#", ""};
 			};
 		};
 		info = {
@@ -5315,11 +5265,10 @@ local moduleName = "AtlasLootBurningCrusade"
     			{ 18, 28300, "", "=q4=Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
     			{ 19, 24557, "", "=q4=Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
     			{ 20, 28358, "", "=q4=Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
-    			{ 21, 28319, "", "=q4=Gladiator's War Edge", "=ds=#w11#", "#HONOR:750#" },
-    			{ 22, 28294, "", "=q4=Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
-    			{ 23, 28320, "", "=q4=Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
-    			{ 25, 28346, "", "=q4=Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
-    			{ 26, 32452, "", "=q4=Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+    			{ 21, 28294, "", "=q4=Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
+    			{ 22, 28320, "", "=q4=Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+    			{ 24, 28346, "", "=q4=Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+    			{ 25, 32452, "", "=q4=Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
 			};
 		};
 		info = {
@@ -5352,11 +5301,10 @@ local moduleName = "AtlasLootBurningCrusade"
     			{ 19, 32055, "", "=q4=Merciless Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
     			{ 20, 33313, "", "=q4=Merciless Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
     			{ 21, 32045, "", "=q4=Merciless Gladiator's Shield Wall", "=ds=#w8#s", "#HONOR:750#" },
-    			{ 22, 32054, "", "=q4=Merciless Gladiator's War Edge", "=ds=#w11#", "#HONOR:750#" },
-    			{ 23, 31986, "", "=q4=Merciless Gladiator's Crossbow of the Phoenix", "=ds=#w3#", "#HONOR:750#" },
-    			{ 24, 32962, "", "=q4=Merciless Gladiator's Touch of Defeat", "=ds=#w12#, Weapon", "#HONOR:750#" },
-    			{ 26, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
-    			{ 27, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+    			{ 22, 31986, "", "=q4=Merciless Gladiator's Crossbow of the Phoenix", "=ds=#w3#", "#HONOR:750#" },
+    			{ 23, 32962, "", "=q4=Merciless Gladiator's Touch of Defeat", "=ds=#w12#, Weapon", "#HONOR:750#" },
+    			{ 25, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+    			{ 26, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
 			};
 		};
 		info = {
@@ -5397,13 +5345,12 @@ local moduleName = "AtlasLootBurningCrusade"
     			{ 1, 33661, "", "=q4=Vengeful Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
     			{ 2, 33735, "", "=q4=Vengeful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:750#" },
     			{ 3, 33755, "", "=q4=Vengeful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
-    			{ 4, 33765, "", "=q4=Vengeful Gladiator's War Edge", "=ds=#w11#", "#HONOR:750#" },
-    			{ 5, 34529, "", "=q4=Vengeful Gladiator's Longbow", "=ds=#w2#", "#HONOR:750#" },
-    			{ 6, 33006, "", "=q4=Vengeful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
-    			{ 7, 34530, "", "=q4=Vengeful Gladiator's Rifle", "=ds=#w5#", "#HONOR:750#" },
-    			{ 8, 34059, "", "=q4=Vengeful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:750#" },
-    			{ 9, 34066, "", "=q4=Vengeful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:750#" },
-    			{ 10, 33764, "", "=q4=Vengeful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+    			{ 4, 34529, "", "=q4=Vengeful Gladiator's Longbow", "=ds=#w2#", "#HONOR:750#" },
+    			{ 5, 33006, "", "=q4=Vengeful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
+    			{ 6, 34530, "", "=q4=Vengeful Gladiator's Rifle", "=ds=#w5#", "#HONOR:750#" },
+    			{ 7, 34059, "", "=q4=Vengeful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:750#" },
+    			{ 8, 34066, "", "=q4=Vengeful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:750#" },
+    			{ 9, 33764, "", "=q4=Vengeful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
     			{ 16, 33681, "", "=q4=Vengeful Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
     			{ 17, 34033, "", "=q4=Vengeful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:750#" },
     			{ 18, 33736, "", "=q4=Vengeful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
@@ -6331,29 +6278,6 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 	}
 
-	AtlasLoot_Data["HardModeRelic"] = {
-		["Normal"] = {
-			{
-				{ 1, 29390, "", "=q4=Everbloom Idol", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 2, 33508, "", "=q4=Idol of Budding Life", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 3, 33509, "", "=q4=Idol of Terror", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 4, 33510, "", "=q4=Idol of the Unseen Moon", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 6, 33506, "", "=q4=Skycall Totem", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 7, 33507, "", "=q4=Stonebreaker's Totem", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 8, 33505, "", "=q4=Totem of Living Water", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 9, 29389, "", "=q4=Totem of the Pulsing Earth", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 16, 33503, "", "=q4=Libram of Divine Judgement", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 17, 33504, "", "=q4=Libram of Divine Purpose", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 18, 33502, "", "=q4=Libram of Mending", "=ds=#s16#", "#JUSTICE:104#", ""};
-				{ 19, 29388, "", "=q4=Libram of Repentance", "=ds=#s16#", "#JUSTICE:104#", ""};
-			};
-		};
-		info = {
-			name = AL["Justice Points"].." - ".. BabbleInventory["Relic"],
-			module = moduleName, menu = "70TOKENMENU",
-		};
-	}
-
 	AtlasLoot_Data["HardModeArena"] = {
 		["Normal"] = {
 			{
@@ -6519,8 +6443,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 20, 31342, "", "=q4=The Ancient Scepter of Sue-Min", "=ds=#h3#, #w6#", "", ""};
 				{ 21, 31322, "", "=q4=The Hammer of Destiny", "=ds=#h2#, #w6#", "", ""};
 				{ 22, 31334, "", "=q4=Staff of Natural Fury", "=ds=#w9#", "", ""};
-				{ 23, 34622, "", "=q4=Spinesever", "=ds=#w11#", "", ""};
-				{ 24, 31323, "", "=q4=Don Santos' Famous Hunting Rifle", "=ds=#w5#", "", ""};
+				{ 23, 31323, "", "=q4=Don Santos' Famous Hunting Rifle", "=ds=#w5#", "", ""};
 			};
 		};
 		info = {

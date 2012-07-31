@@ -347,6 +347,53 @@ local moduleName = "AtlasLootMoP"
 	--- Factions ---
 	----------------
 
+		------------------------
+		--- The Tillers ---
+		------------------------
+
+	AtlasLoot_Data["Anglers"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "trade_engineering", "=q6=#r4#", ""};
+
+				{ 16, 0, "trade_engineering", "=q6=#r5#", ""};
+			};
+		};
+		info = {
+			name = "The Anglers",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+	AtlasLoot_Data["Tillers"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "trade_engineering", "=q6=#r4#", ""};
+				{ 2, 89869, "", "=q3=Pandaren Scarecrow", "=ds="};
+				{ 3, 85268, "", "=q2=Spring Blossom Sapling", "=ds="};
+				{ 4, 85269, "", "=q2=Winter Blossom Sapling", "=ds="};
+				{ 5, 85216, "", "=q1=Enigma Seed", "=ds="};
+				{ 6, 85217, "", "=q1=Magebulb Seed", "=ds="};
+				{ 7, 89202, "", "=q1=Raptorleaf Seed", "=ds="};
+				{ 8, 85215, "", "=q1=Snakeroot Seed", "=ds="};
+				{ 9, 89233, "", "=q1=Songbell Seed", "=ds="};
+				{ 16, 0, "trade_engineering", "=q6=#r5#", ""};
+				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e12#"};
+				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e12#"};
+				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e12#"};
+				{ 20, 90175, "", "=q3=Gin-Ji Knife Set", "=ds=#m20#"};
+				{ 21, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
+				{ 22, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)"};
+				{ 23, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)"};
+				{ 24, 89197, "", "=q1=Windshear Cactus Seed", "=ds="};
+			};
+		};
+		info = {
+			name = "The Tillers",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
 	-----------
 	--- PvP ---
 	-----------

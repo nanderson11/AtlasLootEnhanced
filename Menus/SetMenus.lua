@@ -32,7 +32,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 26, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
 				{ 27, "T1112SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11/12 Set"], "=q5="..AL["Cataclysm"]};
 				{ 28, "T13SET", "inv_shoulder_plate_raiddeathknight_j_01", "=ds="..AL["Tier 13 Set"], "=q5="..AL["Cataclysm"]};
-				--{ 30, "43MENU", "inv_misc_monsterscales_15", "=ds=Patch 4.3 Stuff", ""};
 			};
 		};
 		info = {
@@ -46,13 +45,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "ValorPoints", "inv_helmet_robe_raidwarlock_k_01", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "ValorPoints#2", "inv_chest_mail_raidhunter_k_01", "=ds="..BabbleInventory["Mail"], ""};
 				{ 5, "ValorPoints#4", "inv_qiraj_jewelengraved", "=ds="..AL["Accessories"], ""};
-    			{ 7, 77087, "", "=q4=Darting Chakram", "=ds=#w11#", "#VALOR:700#" },
-    			{ 8, 77085, "", "=q4=Unexpected Backup", "=ds=#w11#", "#VALOR:700#" },
-    			{ 9, 77086, "", "=q4=Windslicer Boomerang", "=ds=#w11#", "#VALOR:700#" },
+				{ 7, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
 				{ 17, "ValorPoints", "inv_gauntlets_leather_raidrogue_k_01", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "ValorPoints#3", "plate_raiddeathknight_k_01_belt", "=ds="..BabbleInventory["Plate"], ""};
-				{ 22, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
-    			{ 23, 77078, "", "=q4=Scintillating Rods", "=ds=#w12#", "#VALOR:700#" },
+    			{ 22, 77078, "", "=q4=Scintillating Rods", "=ds=#w12#", "#VALOR:700#" },
 			};
 		};
 		info = {
@@ -73,7 +69,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 10, 52185, "", "=q1=Elementium Ore", "", "#JUSTICE:1000#" },
 				{ 17, "JusticePoints#2", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "JusticePoints#4", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
-				{ 20, "JusticePoints#7", "inv_misc_greateressence", "=ds="..AL["Weapons"], ""};
 				{ 22, 52721, "", "=q3=Heavenly Shard", "", "#JUSTICE:600#" },
 				{ 23, 52719, "", "=q2=Greater Celestial Essence", "", "#JUSTICE:400#" },
 				{ 24, 52976, "", "=q1=Savage Leather", "", "#JUSTICE:375#" },
@@ -116,13 +111,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "HardModeCloth", "inv_pants_cloth_15", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "HardModeMail", "inv_pants_mail_26", "=ds="..BabbleInventory["Mail"], ""};
 				{ 4, "HardModeResist", "inv_chest_cloth_18", "=ds="..AL["Fire Resistance Gear"], ""};
-				{ 6, "HardModeRelic", "spell_nature_sentinal", "=ds="..BabbleInventory["Relic"], ""};
-				{ 8, "HardModeWeapons", "inv_shield_33", "=ds="..AL["Weapons"], ""};
+				{ 6, "HardModeWeapons", "inv_shield_33", "=ds="..AL["Weapons"], ""};
+				{ 8, "HardModeAccessories", "inv_valentineperfumebottle", "=ds="..AL["Accessories"], ""};
 				{ 17, "HardModeLeather", "inv_shoulder_83", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "HardModePlate", "inv_belt_27", "=ds="..BabbleInventory["Plate"], ""};
 				{ 19, "HardModeCloaks", "inv_misc_cape_06", "=ds="..BabbleInventory["Back"], ""};
 				{ 21, "HardModeArena", "inv_bracer_07", "=ds="..AL["PvP Rewards"], ""};
-				{ 23, "HardModeAccessories", "inv_valentineperfumebottle", "=ds="..AL["Accessories"], ""};
 			};
 		};
 		info = {

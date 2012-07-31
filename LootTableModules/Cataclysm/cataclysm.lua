@@ -172,9 +172,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 55784, "", "=q3=Clutches of Dying Light", "=ds=#s9#, #a4#", ""};
 				{ 7, 55781, "", "=q3=Carrier Wave Pendant", "=ds=#s2#", ""};
 				{ 8, 55787, "", "=q3=Witching Hourglass", "=ds=#s14#", ""};
-				{ 9, 55783, "", "=q3=Sandshift Relic", "=ds=#s16#", ""};
-				{ 10, 55782, "", "=q3=Amber Messenger", "=ds=#w2#", ""};
-				{ 11, 55788, "", "=q3=Crepuscular Shield", "=ds=#w8#", ""};
+				{ 9, 55782, "", "=q3=Amber Messenger", "=ds=#w2#", ""};
+				{ 10, 55788, "", "=q3=Crepuscular Shield", "=ds=#w8#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5284#"};
 				{ 17, 56315, "", "=q3=Twitching Shadows", "=ds=#s4#", ""};
 				{ 18, 56324, "", "=q3=Kyrstel Mantle", "=ds=#s3#, #a1#", ""};
@@ -183,9 +182,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 56323, "", "=q3=Clutches of Dying Light", "=ds=#s9#, #a4#", ""};
 				{ 22, 56319, "", "=q3=Carrier Wave Pendant", "=ds=#s2#", ""};
 				{ 23, 56320, "", "=q3=Witching Hourglass", "=ds=#s14#", ""};
-				{ 24, 56316, "", "=q3=Sandshift Relic", "=ds=#s16#", ""};
-				{ 25, 56317, "", "=q3=Amber Messenger", "=ds=#w2#", ""};
-				{ 26, 56322, "", "=q3=Crepuscular Shield", "=ds=#w8#", ""};
+				{ 24, 56317, "", "=q3=Amber Messenger", "=ds=#w2#", ""};
+				{ 25, 56322, "", "=q3=Crepuscular Shield", "=ds=#w8#", ""};
 			};
 		};
 		info = {
@@ -275,7 +273,6 @@ local moduleName = "AtlasLootCataclysm"
 			{
 				{ 2, 76154, "", "=q4=Breastplate of Despair", "=ds=#s5#, #a4#" },
 				{ 3, 76156, "", "=q4=Bindings of the End Times", "=ds=#s8#, #a4#" },
-				{ 17, 76155, "", "=q4=Thorns of the Dying Day", "=ds=#w11#" },
 			};
 		};
 		info = {
@@ -660,13 +657,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 55997, "", "=q3=Bloodpetal Mantle", "=ds=#s3#, #a3#", ""};
 				{ 4, 55999, "", "=q3=Seedling Pod", "=ds=#s2#", ""};
 				{ 5, 56000, "", "=q3=Band of Life Energy", "=ds=#s13#", ""};
-				{ 6, 56001, "", "=q3=Slashing Thorns", "=ds=#w11#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56417, "", "=q3=Robes of Rampant Growth", "=ds=#s5#, #a1#", ""};
 				{ 18, 56419, "", "=q3=Bloodpetal Mantle", "=ds=#s3#, #a3#", ""};
 				{ 19, 56421, "", "=q3=Seedling Pod", "=ds=#s2#", ""};
 				{ 20, 56418, "", "=q3=Band of Life Energy", "=ds=#s13#", ""};
-				{ 21, 56420, "", "=q3=Slashing Thorns", "=ds=#w11#", ""};
 			};
 		};
 		info = {
@@ -976,9 +971,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 63458, "", "=q3=Lord Walden's Breastplate", "=ds=#s5#, #a4#" };
 				{ 22, 63457, "", "=q3=Shackles of Undeath", "=ds=#s8#, #a4#" };
 				{ 23, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
-				{ 24, 63460, "", "=q3=Relic of Arathor", "=ds=#s16#" };
-				{ 25, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
-				{ 26, 63461, "", "=q3=Staff of Isolation", "=ds=#w9#" };
+				{ 24, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
+				{ 25, 63461, "", "=q3=Staff of Isolation", "=ds=#w9#" };
 			};
 		};
 		info = {
@@ -1127,9 +1121,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
 				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
 				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
-				{ 16, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
-				{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
-				{ 19, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
+				{ 16, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
 			};
 		};
 		info = {
@@ -1194,15 +1186,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 55798, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
 				{ 4, 55797, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
 				{ 5, 55799, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
-				{ 6, 55800, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
-				{ 7, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
+				{ 6, 55801, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=ds=#e27#", "", "1%"};
 				{ 18, 56334, "", "=q3=Deep Delving Gloves", "=ds=#s9#, #a2#", ""};
 				{ 19, 56336, "", "=q3=Hematite Plate Gloves", "=ds=#s9#, #a4#", ""};
 				{ 20, 56333, "", "=q3=Rose Quartz Band", "=ds=#s13#", ""};
-				{ 21, 56337, "", "=q3=Stalagmite Dragon", "=ds=#s16#", ""};
-				{ 22, 56335, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
+				{ 21, 56335, "", "=q3=Quicksilver Blade", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -1245,9 +1235,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 55814, "", "=q3=Magnetite Mirror", "=ds=#s14#", ""};
 				{ 7, 55819, "", "=q3=Tear of Blood", "=ds=#s14#", ""};
 				{ 8, 55820, "", "=q3=Prophet's Scepter", "=ds=#s15#", ""};
-				{ 9, 55821, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
-				{ 10, 55813, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
-				{ 11, 55815, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
+				{ 9, 55813, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
+				{ 10, 55815, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5287#"};
 				{ 17, 56348, "", "=q3=Slippers of the Twilight Prophet", "=ds=#s12#, #a1#", ""};
 				{ 18, 56344, "", "=q3=Helm of Numberless Shadows", "=ds=#s1#, #a2#", ""};
@@ -1256,9 +1245,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 56345, "", "=q3=Magnetite Mirror", "=ds=#s14#", ""};
 				{ 22, 56351, "", "=q3=Tear of Blood", "=ds=#s14#", ""};
 				{ 23, 56349, "", "=q3=Prophet's Scepter", "=ds=#s15#", ""};
-				{ 24, 56350, "", "=q3=Book of Dark Prophecies", "=ds=#s16#", ""};
-				{ 25, 56346, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
-				{ 26, 56343, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
+				{ 24, 56346, "", "=q3=Elementium Fang", "=ds=#h1#, #w10#", ""};
+				{ 25, 56343, "", "=q3=Darkling Staff", "=ds=#w9#", ""};
 			};
 		};
 		info = {
@@ -1345,9 +1333,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 7, 55842, "", "=q3=Legguards of Winnowing Wind", "=ds=#s11#, #a4#", ""};
 				{ 8, 55851, "", "=q3=Ring of Frozen Rain", "=ds=#s13#", ""};
 				{ 9, 55845, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
-				{ 10, 55852, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
-				{ 11, 55846, "", "=q3=Lightningflash", "=ds=#w5#", ""};
-				{ 12, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
+				{ 10, 55846, "", "=q3=Lightningflash", "=ds=#w5#", ""};
+				{ 11, 55853, "", "=q3=Thundercall", "=ds=#w5#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:5288#"};
 				{ 17, 56369, "", "=q3=Billowing Cape", "=ds=#s4#", ""};
 				{ 18, 56371, "", "=q3=Shadow of Perfect Bliss", "=ds=#s4#", ""};
@@ -1357,9 +1344,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 56367, "", "=q3=Legguards of Winnowing Wind", "=ds=#s11#, #a4#", ""};
 				{ 23, 56373, "", "=q3=Ring of Frozen Rain", "=ds=#s13#", ""};
 				{ 24, 56370, "", "=q3=Heart of Thunder", "=ds=#s14#", ""};
-				{ 25, 56372, "", "=q3=Captured Lightning", "=ds=#s16#", ""};
-				{ 26, 56366, "", "=q3=Lightningflash", "=ds=#w5#", ""};
-				{ 27, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};
+				{ 25, 56366, "", "=q3=Lightningflash", "=ds=#w5#", ""};
+				{ 26, 56376, "", "=q3=Thundercall", "=ds=#w5#", ""};
 			};
 		};
 		info = {
@@ -1439,13 +1425,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 3, 55235, "", "=q3=Decapod Slippers", "=ds=#s12#, #a2#", ""};
 				{ 4, 55229, "", "=q3=Anomuran Helm", "=ds=#s1#, #a4#", ""};
 				{ 5, 55237, "", "=q3=Porcelain Crab", "=ds=#s14#", ""};
-				{ 6, 55248, "", "=q3=Conch of Thundering Waves", "=ds=#s16#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 56276, "", "=q3=Anthia's Ring", "=ds=#s13#", ""};
 				{ 18, 56277, "", "=q3=Decapod Slippers", "=ds=#s12#, #a2#", ""};
 				{ 19, 56278, "", "=q3=Anomuran Helm", "=ds=#s1#, #a4#", ""};
 				{ 20, 56280, "", "=q3=Porcelain Crab", "=ds=#s14#", ""};
-				{ 21, 56279, "", "=q3=Conch of Thundering Waves", "=ds=#s16#", ""};
 			};
 		};
 		info = {
@@ -1977,10 +1961,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 60662, "", "=q4=Vicious Gladiator's Pendant of Alacrity", "=ds=#s2#",  },
 				{ 21, 60661, "", "=q4=Vicious Gladiator's Pendant of Diffusion", "=ds=#s2#",  },
 				{ 22, 60664, "", "=q4=Vicious Gladiator's Pendant of Meditation", "=ds=#s2#",  },
-				{ 24, 61391, "", "=q4=Vicious Gladiator's Relic of Conquest", "=ds=#s16#",  },
-				{ 25, 61388, "", "=q4=Vicious Gladiator's Relic of Dominance", "=ds=#s16#",  },
-				{ 26, 61389, "", "=q4=Vicious Gladiator's Relic of Salvation", "=ds=#s16#",  },
-				{ 27, 61390, "", "=q4=Vicious Gladiator's Relic of Triumph", "=ds=#s16#",  },
 			};
 			{
 				{ 2, 61033, "", "=q4=Vicious Gladiator's Badge of Conquest", "=ds=#s14#",  },
@@ -2202,10 +2182,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 70377, "", "=q4=Ruthless Gladiator's Pendant of Alacrity", "=ds=#s2#", "#CONQUEST:1250#" },
 				{ 21, 70376, "", "=q4=Ruthless Gladiator's Pendant of Diffusion", "=ds=#s2#", "#CONQUEST:1250#" },
 				{ 22, 70378, "", "=q4=Ruthless Gladiator's Pendant of Meditation", "=ds=#s2#", "#CONQUEST:1250#" },
-				{ 24, 70408, "", "=q4=Ruthless Gladiator's Relic of Conquest", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 25, 70405, "", "=q4=Ruthless Gladiator's Relic of Dominance", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 26, 70406, "", "=q4=Ruthless Gladiator's Relic of Salvation", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 27, 70407, "", "=q4=Ruthless Gladiator's Relic of Triumph", "=ds=#s16#", "#CONQUEST:700#" },
 			};
 			{
 				{ 2, 70399, "", "=q4=Ruthless Gladiator's Badge of Conquest", "=ds=#s14#", "#CONQUEST:1650#" },
@@ -2427,10 +2403,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 73627, "", "=q4=Cataclysmic Gladiator's Pendant of Alacrity", "=ds=#s2#", "#CONQUEST:1250#" },
 				{ 21, 73626, "", "=q4=Cataclysmic Gladiator's Pendant of Diffusion", "=ds=#s2#", "#CONQUEST:1250#" },
 				{ 22, 73625, "", "=q4=Cataclysmic Gladiator's Pendant of Meditation", "=ds=#s2#", "#CONQUEST:1250#" },
-				{ 24, 73490, "", "=q4=Cataclysmic Gladiator's Relic of Conquest", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 25, 73624, "", "=q4=Cataclysmic Gladiator's Relic of Dominance", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 26, 73594, "", "=q4=Cataclysmic Gladiator's Relic of Salvation", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 27, 73642, "", "=q4=Cataclysmic Gladiator's Relic of Triumph", "=ds=#s16#", "#CONQUEST:700#" },
 			};
 			{
 				{ 2, 73648, "", "=q4=Cataclysmic Gladiator's Badge of Conquest", "=ds=#s14#", "#CONQUEST:1650#" },
@@ -2755,7 +2727,6 @@ local moduleName = "AtlasLootCataclysm"
     			{ 8, 78377, "", "=q4=Rockhide Bracers", "=ds=#s8#, #a4#" },
     			{ 9, 78386, "", "=q4=Pillarfoot Greaves", "=ds=#s12#, #a4#" },
     			{ 16, 78382, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
-    			{ 18, 78374, "", "=q4=Razor Saronite Chip", "=ds=#w11#" },
 			};
 		};
 		["Normal"] = {
@@ -2772,7 +2743,6 @@ local moduleName = "AtlasLootCataclysm"
     			{ 16, 77262, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
     			{ 18, 77214, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
     			{ 19, 77212, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
-    			{ 20, 77213, "", "=q4=Razor Saronite Chip", "=ds=#w11#" },
 			};
 		};
 		["Heroic"] = {
@@ -2789,7 +2759,6 @@ local moduleName = "AtlasLootCataclysm"
     			{ 16, 78364, "", "=q4=Petrified Fungal Heart", "=ds=#s2#" },
     			{ 18, 78363, "", "=q4=Vagaries of Time", "=ds=#h3#, #w6#" },
     			{ 19, 78371, "", "=q4=Hand of Morchok", "=ds=#h1#, #w1#" },
-    			{ 20, 78369, "", "=q4=Razor Saronite Chip", "=ds=#w11#" },
 			};
 		};
 		info = {
@@ -3668,17 +3637,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 11, 71557, "", "=q4=Ranseur of Hatred", "=ds=#w7#"};
 				{ 12, 71559, "", "=q4=Spire of Scarlet Pain", "=ds=#w9#"};
 				{ 13, 71558, "", "=q4=Lava Bolt Crossbow", "=ds=#w3#"};
-    			{ 16, 71590, "", "=q4=Deathclutch Figurine", "=ds=#s16#"},
-    			{ 17, 71587, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#"},
-    			{ 18, 71577, "", "=q4=Singed Plume of Aviana", "=ds=#s16#"},
-    			{ 19, 71567, "", "=q4=Covenant of the Flame", "=ds=#s16#"},
-    			{ 20, 71580, "", "=q4=Soulflame Vial", "=ds=#s16#"},
-    			{ 22, 71579, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
-    			{ 23, 71575, "", "=q4=Trail of Embers", "=ds=#w12#"},
-    			{ 25, 71568, "", "=q4=Morningstar Shard", "=ds=#w11#"},
-    			{ 26, 71593, "", "=q4=Giantslicer", "=ds=#w11#"},
-    			{ 27, 71592, "", "=q4=Deflecting Star", "=ds=#w11#"},
-    			{ 30, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
+    			{ 16, 71579, "", "=q4=Scorchvine Wand", "=ds=#w12#"},
+    			{ 17, 71575, "", "=q4=Trail of Embers", "=ds=#w12#"},
+    			{ 19, 71617, "", "=q4=Crystallized Firestone", "=ds=#m17#"},
 			};
 		};
 		info = {
@@ -3893,7 +3854,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 16, 59521, "", "=q4=Soul Blade", "=ds=#h1#, #w10#", ""};
 				{ 17, 59525, "", "=q4=Chelley's Staff of Dark Mending", "=ds=#w9#", ""};
 				{ 18, 60210, "", "=q4=Crossfire Carbine", "=ds=#w5#", ""};
-				{ 19, 68608, "", "=q4=Dragonwreck Throwing Axe", "=ds=#w11#", ""};
 			};
 		};
 		info = {
@@ -4070,14 +4030,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
 				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
 				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
-				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
-				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
-				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
-				{ 9, 0, "inv_misc_tabard_baradinwardens", "=q6=#r2#", ""};
-				{ 10, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
-				{ 11, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
-				{ 12, 63144, "", "=q1=Baradin's Wardens Healing Potion", "=ds=#e2#", "#TOLBARAD:2#"};
-				{ 13, 63145, "", "=q1=Baradin's Wardens Mana Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 6, 0, "inv_misc_tabard_baradinwardens", "=q6=#r2#", ""};
+				{ 7, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 8, 63391, "", "=q1=Baradin's Wardens Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
+				{ 9, 63144, "", "=q1=Baradin's Wardens Healing Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 10, 63145, "", "=q1=Baradin's Wardens Mana Potion", "=ds=#e2#", "#TOLBARAD:2#"};
 				{ 16, 0, "inv_misc_tabard_baradinwardens", "=q6=#r3#", ""};
 				{ 17, 63379, "", "=q3=Baradin's Wardens Tabard", "=ds=#s7#", "#TOLBARAD:40#"};
 				{ 18, 65175, "", "=q3=Baradin Footman's Tags", "=ds=#s14#", "#TOLBARAD:40#"};
@@ -4130,7 +4087,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62410, "", "=q3=Grinning Fang Helm", "=ds=#s1#, #a4#"};
 				{ 13, 62408, "", "=q3=Gauntlets of Rattling Bones", "=ds=#s9#, #a4#"};
 				{ 14, 62415, "", "=q3=Band of Lamentation", "=ds=#s13#"};
-				{ 15, 68763, "", "=q7=Arcanum of the Dragonmaw", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_dragonmawclan", "=q6=#r5#", ""};
 				{ 17, 62417, "", "=q4=Liar's Handwraps", "=ds=#s9#, #a2#"};
 				{ 18, 62420, "", "=q4=Withered Dream Belt", "=ds=#s10#, #a2#"};
@@ -4155,14 +4111,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
 				{ 3, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
 				{ 4, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#TOLBARAD:80#"};
-				{ 5, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
-				{ 6, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
-				{ 7, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#TOLBARAD:40#"};
-				{ 9, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
-				{ 10, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
-				{ 11, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
-				{ 12, 64994, "", "=q1=Hellscream's Reach Healing Potion", "=ds=#e2#", "#TOLBARAD:2#"};
-				{ 13, 64993, "", "=q1=Hellscream's Reach Mana Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 6, 0, "inv_misc_tabard_hellscream", "=q6=#r2#", ""};
+				{ 7, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 8, 64995, "", "=q1=Hellscream's Reach Bandage", "=ds=#e5#", "#TOLBARAD:5#"};
+				{ 9, 64994, "", "=q1=Hellscream's Reach Healing Potion", "=ds=#e2#", "#TOLBARAD:2#"};
+				{ 10, 64993, "", "=q1=Hellscream's Reach Mana Potion", "=ds=#e2#", "#TOLBARAD:2#"};
 				{ 16, 0, "inv_misc_tabard_hellscream", "=q6=#r3#", ""};
 				{ 17, 63378, "", "=q3=Hellscream's Reach Tabard", "=ds=#s7#", "#TOLBARAD:40#"};
 				{ 18, 65176, "", "=q3=Baradin Grunt's Talisman", "=ds=#s14#", "#TOLBARAD:40#"};
@@ -4215,7 +4168,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62446, "", "=q3=Quicksand Belt", "=ds=#s10#, #a2#", ""};
 				{ 13, 62445, "", "=q3=Sash of Prophecy", "=ds=#s10#, #a3#", ""};
 				{ 14, 62440, "", "=q3=Red Rock Band", "=ds=#s13#", ""};
-				{ 15, 68721, "", "=q7=Arcanum of the Ramkahen", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_tolvir", "=q6=#r5#", ""};
 				{ 17, 62450, "", "=q4=Desert Walker Sandals", "=ds=#s12#, #a1#", ""};
 				{ 18, 62449, "", "=q4=Sandguard Bracers", "=ds=#s8#, #a4#", ""};
@@ -4250,7 +4202,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62361, "", "=q3=Softwind Cape", "=ds=#s4#", ""};
 				{ 13, 62358, "", "=q3=Leggings of Clutching Roots", "=ds=#s11#, #a2#", ""};
 				{ 14, 62359, "", "=q3=Peacemaker's Breastplate", "=ds=#s5#, #a4#", ""};
-				{ 15, 68718, "", "=q7=Arcanum of the Earthen Ring", "=ds=#s1# #e17#"};
 				{ 16, 0, "inv_misc_tabard_earthenring", "=q6=#r5#", ""};
 				{ 17, 62364, "", "=q4=Flamebloom Gloves", "=ds=#s9#, #a1#", ""};
 				{ 18, 62363, "", "=q4=Earthmender's Boots", "=ds=#s12#, #a3#", ""};
@@ -4283,7 +4234,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62380, "", "=q3=Wilderness Legguards", "=ds=#s11#, #a3#"};
 				{ 13, 62382, "", "=q3=Waywatcher's Boots", "=ds=#s12#, #a4#"};
 				{ 14, 62378, "", "=q3=Acorn of the Daughter Tree", "=ds=#s2#"};
-				{ 15, 68765, "", "=q7=Arcanum of Hyjal", "=ds=#s1# #e17#"};
 				{ 16, 0, "inv_misc_tabard_guardiansofhyjal", "=q6=#r5#", ""};
 				{ 17, 62383, "", "=q4=Wrap of the Great Turtle", "=ds=#s4#"};
 				{ 18, 62386, "", "=q4=Cord of the Raven Queen", "=ds=#s10#, #a1#"};
@@ -4348,7 +4298,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 12, 62428, "", "=q3=Crown of Wings", "=ds=#s1#, #a4#"};
 				{ 13, 62430, "", "=q3=Gryphon Talon Gauntlets", "=ds=#s9#, #a4#"};
 				{ 14, 62427, "", "=q3=Band of Singing Grass", "=ds=#s13#"};
-				{ 15, 68767, "", "=q7=Arcanum of the Wildhammer", "=ds=#s1# #e17#", ""};
 				{ 16, 0, "inv_misc_tabard_wildhammerclan", "=q6=#r5#", ""};
 				{ 17, 62433, "", "=q4=Stormbolt Gloves", "=ds=#s9#, #a2#"};
 				{ 18, 62431, "", "=q4=Belt of the Untamed", "=ds=#s10#, #a2#"};
@@ -4958,10 +4907,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 73627, "", "=q4=Cataclysmic Gladiator's Pendant of Alacrity", "=ds=#s2#", "#CONQUEST:1250#" },
 				{ 21, 73626, "", "=q4=Cataclysmic Gladiator's Pendant of Diffusion", "=ds=#s2#", "#CONQUEST:1250#" },
 				{ 22, 73625, "", "=q4=Cataclysmic Gladiator's Pendant of Meditation", "=ds=#s2#", "#CONQUEST:1250#" },
-				{ 24, 73490, "", "=q4=Cataclysmic Gladiator's Relic of Conquest", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 25, 73624, "", "=q4=Cataclysmic Gladiator's Relic of Dominance", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 26, 73594, "", "=q4=Cataclysmic Gladiator's Relic of Salvation", "=ds=#s16#", "#CONQUEST:700#" },
-				{ 27, 73642, "", "=q4=Cataclysmic Gladiator's Relic of Triumph", "=ds=#s16#", "#CONQUEST:700#" },
 			};
 			{
 				{ 1, 72305, "", "=q4=Ruthless Gladiator's Cape of Cruelty", "=ds=#s4#", "#HONOR:1250#" },
@@ -4985,10 +4930,6 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 72325, "", "=q4=Ruthless Gladiator's Pendant of Alacrity", "=ds=#s2#", "#HONOR:1250#" },
 				{ 21, 72326, "", "=q4=Ruthless Gladiator's Pendant of Diffusion", "=ds=#s2#", "#HONOR:1250#" },
 				{ 22, 72327, "", "=q4=Ruthless Gladiator's Pendant of Meditation", "=ds=#s2#", "#HONOR:1250#" },
-				{ 24, 72456, "", "=q4=Ruthless Gladiator's Relic of Conquest", "=ds=#s16#", "#HONOR:700#" },
-				{ 25, 72328, "", "=q4=Ruthless Gladiator's Relic of Dominance", "=ds=#s16#", "#HONOR:700#" },
-				{ 26, 72358, "", "=q4=Ruthless Gladiator's Relic of Salvation", "=ds=#s16#", "#HONOR:700#" },
-				{ 27, 72310, "", "=q4=Ruthless Gladiator's Relic of Triumph", "=ds=#s16#", "#HONOR:700#" },
 			};
 		};
 		info = {
@@ -5202,10 +5143,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 70242, "", "=q4=Ruthless Gladiator's Barrier", "=ds=#w8#", "#HONOR:950#" },
 				{ 2, 70243, "", "=q4=Ruthless Gladiator's Redoubt", "=ds=#w8#", "#HONOR:950#" },
 				{ 3, 70241, "", "=q4=Ruthless Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:950#" },
-				{ 5, 70233, "", "=q4=Ruthless Gladiator's Hatchet", "=ds=#w11#", "#HONOR:700#" },
-				{ 6, 70232, "", "=q4=Ruthless Gladiator's War Edge", "=ds=#w11#", "#HONOR:700#" },
-				{ 8, 70236, "", "=q4=Ruthless Gladiator's Longbow", "=ds=#w2#", "#HONOR:3400#" },
-				{ 9, 70238, "", "=q4=Ruthless Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:3400#" },
+				{ 5, 70236, "", "=q4=Ruthless Gladiator's Longbow", "=ds=#w2#", "#HONOR:3400#" },
+				{ 6, 70238, "", "=q4=Ruthless Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:3400#" },
 				{ 10, 70237, "", "=q4=Ruthless Gladiator's Rifle", "=ds=#w5#", "#HONOR:3400#" },
 				{ 16, 70235, "", "=q4=Ruthless Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:700#" },
 				{ 17, 70234, "", "=q4=Ruthless Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:700#" },
@@ -5248,10 +5187,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 73468, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950#" },
 				{ 2, 73458, "", "=q4=Cataclysmic Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950#" },
 				{ 3, 73446, "", "=q4=Cataclysmic Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950#" },
-				{ 5, 73471, "", "=q4=Cataclysmic Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700#" },
-				{ 6, 73445, "", "=q4=Cataclysmic Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700#" },
-				{ 8, 73470, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
-				{ 9, 73463, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
+				{ 5, 73470, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
+				{ 6, 73463, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
 				{ 10, 73460, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
 				{ 16, 73450, "", "=q4=Cataclysmic Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
 				{ 17, 73464, "", "=q4=Cataclysmic Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
@@ -5294,11 +5231,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 73435, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
 				{ 2, 73425, "", "=q4=Cataclysmic Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
 				{ 3, 73413, "", "=q4=Cataclysmic Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:950# #reqrating# 2200" },
-				{ 5, 73438, "", "=q4=Cataclysmic Gladiator's Hatchet", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 6, 73412, "", "=q4=Cataclysmic Gladiator's War Edge", "=ds=#w11#", "#CONQUEST:700# #reqrating# 2200" },
-				{ 8, 73437, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 9, 73430, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400# #reqrating# 2200" },
-				{ 10, 73427, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 5, 73437, "", "=q4=Cataclysmic Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 6, 73430, "", "=q4=Cataclysmic Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400# #reqrating# 2200" },
+				{ 7, 73427, "", "=q4=Cataclysmic Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400# #reqrating# 2200" },
 				{ 16, 73417, "", "=q4=Cataclysmic Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
 				{ 17, 73431, "", "=q4=Cataclysmic Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700# #reqrating# 2200" },
 				{ 19, 73432, "", "=q4=Cataclysmic Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:950# #reqrating# 2200" },
@@ -5321,17 +5256,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 1, 68774, "", "=q4=Greater Inscription of Vicious Agility", "=ds=#s3# #e17#", "#HONOR:2000#" },
 				{ 2, 68772, "", "=q4=Greater Inscription of Vicious Intellect", "=ds=#s3# #e17#", "#HONOR:2000#" },
 				{ 3, 68773, "", "=q4=Greater Inscription of Vicious Strength", "=ds=#s3# #e17#", "#HONOR:2000#" },
-				{ 4, 68769, "", "=q3=Arcanum of Vicious Agility", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 5, 68770, "", "=q3=Arcanum of Vicious Intellect", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 6, 68768, "", "=q3=Arcanum of Vicious Strength", "=ds=#s1# #e17#", "#HONOR:1000#" },
-				{ 8, 52722, "", "=q4=Maelstrom Crystal", "", "#HONOR:3750#" },
-				{ 9, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#HONOR:1500#" },
-				{ 10, 53010, "", "=q1=Embersilk Cloth", "", "#HONOR:1250#" },
-				{ 11, 52185, "", "=q1=Elementium Ore", "", "#HONOR:1000#" },
-				{ 12, 52721, "", "=q3=Heavenly Shard", "", "#HONOR:600#" },
-				{ 13, 52719, "", "=q2=Greater Celestial Essence", "", "#HONOR:400#" },
-				{ 14, 52976, "", "=q1=Savage Leather", "", "#HONOR:375#" },
-				{ 15, 52555, "", "=q1=Hypnotic Dust", "", "#HONOR:100#" },
+				{ 5, 52722, "", "=q4=Maelstrom Crystal", "", "#HONOR:3750#" },
+				{ 6, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#HONOR:1500#" },
+				{ 7, 53010, "", "=q1=Embersilk Cloth", "", "#HONOR:1250#" },
+				{ 8, 52185, "", "=q1=Elementium Ore", "", "#HONOR:1000#" },
+				{ 9, 52721, "", "=q3=Heavenly Shard", "", "#HONOR:600#" },
+				{ 10, 52719, "", "=q2=Greater Celestial Essence", "", "#HONOR:400#" },
+				{ 11, 52976, "", "=q1=Savage Leather", "", "#HONOR:375#" },
+				{ 12, 52555, "", "=q1=Hypnotic Dust", "", "#HONOR:100#" },
     			{ 16, 77140, "", "=q4=Stormy Deepholm Iolite", "=ds=#e7#", "#CONQUEST:750#" },
     			{ 17, 77130, "", "=q4=Balanced Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
     			{ 18, 77131, "", "=q4=Infused Elven Peridot", "=ds=#e7#", "#CONQUEST:750#" },
@@ -7123,12 +7055,13 @@ local moduleName = "AtlasLootCataclysm"
 				{ 2, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
 				{ 3, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
 				{ 4, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};
-				{ 5, 76062, "", "=q3=Fetish Shaman's Spear", "Diablo III Collectors Edition"};
+				{ 5, 76062, "", "=q3=Fetish Shaman's Spear", "#ACHIEVEMENTID:7412#"};
 				{ 6, 39286, "", "=q3=Frosty's Collar", "#ACHIEVEMENTID:683#"};
 				{ 7, 46802, "", "=q3=Heavy Murloc Egg", "#ACHIEVEMENTID:3536#"};
 				{ 8, 62540, "", "=q3=Lil' Deathwing", "#ACHIEVEMENTID:5377#"};
-				{ 9, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
-				{ 10, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
+				{ 9, 85871, "", "=q3=Lucky Quilen Cub", "=q2=MoP"..AL["Collector's Edition"]};
+				{ 10, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
+				{ 11, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
 				{ 17, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
 				{ 18, 71726, "", "=q3=Murky's Little Soulstone", "#ACHIEVEMENTID:6185#"};
 				{ 19, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
@@ -8112,31 +8045,14 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 68812, "", "=q4=Hornet-Sting Band", "=ds=#s13#", "#JUSTICE:1250#" },
 				{ 10, 58187, "", "=q4=Ring of the Battle Anthem", "=ds=#s13#", "#JUSTICE:1250#" },
 				{ 11, 58189, "", "=q4=Twined Band of Flowers", "=ds=#s13#", "#JUSTICE:1250#" },
-    			{ 16, 70939, "", "=q4=Deathclutch Figurine", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 17, 71147, "", "=q4=Relic of the Elemental Lords", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 18, 71149, "", "=q4=Singed Plume of Aviana", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 19, 71146, "", "=q4=Covenant of the Flame", "=ds=#s16#", "#JUSTICE:700#" },
-    			{ 20, 71148, "", "=q4=Soulflame Vial", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 22, 64674, "", "=q4=Relic of Aggramar", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 23, 64673, "", "=q4=Relic of Eonar", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 24, 64671, "", "=q4=Relic of Golganneth", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 25, 64676, "", "=q4=Relic of Khaz'goroth", "=ds=#s16#", "#JUSTICE:700#" },
-				{ 26, 64672, "", "=q4=Relic of Norgannon", "=ds=#s16#", "#JUSTICE:700#" },
+				{ 16, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#", "#JUSTICE:700#" },
+    			{ 17, 71151, "", "=q4=Trail of Embers", "=ds=#w12#", "#JUSTICE:700#" },
+				{ 19, 57929, "", "=q3=Dawnblaze Blade", "=ds=#h4#, #w10#", "#JUSTICE:950#" },
+				{ 20, 57928, "", "=q3=Windslicer", "=ds=#h4#, #w1#", "#JUSTICE:950#" },
+				{ 21, 57927, "", "=q3=Throat Slasher", "=ds=#h4#, #w4#", "#JUSTICE:950#" },
+				{ 22, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#w8#", "#JUSTICE:950#" },
+				{ 23, 57925, "", "=q3=Shield of the Mists", "=ds=#w8#", "#JUSTICE:950#" },
 				extraText = ": "..AL["Accessories"];
-			};
-			{
-
-				{ 2, 71150, "", "=q4=Scorchvine Wand", "=ds=#w12#", "#JUSTICE:700#" },
-    			{ 3, 71151, "", "=q4=Trail of Embers", "=ds=#w12#", "#JUSTICE:700#" },
-    			{ 4, 71152, "", "=q4=Morningstar Shard", "=ds=#w11#", "#JUSTICE:700#" },
-    			{ 5, 71154, "", "=q4=Giantslicer", "=ds=#w11#", "#JUSTICE:700#" },
-    			{ 6, 71218, "", "=q4=Deflecting Star", "=ds=#w11#", "#JUSTICE:700#" },
-				{ 17, 57929, "", "=q3=Dawnblaze Blade", "=ds=#h4#, #w10#", "#JUSTICE:950#" },
-				{ 18, 57928, "", "=q3=Windslicer", "=ds=#h4#, #w1#", "#JUSTICE:950#" },
-				{ 19, 57927, "", "=q3=Throat Slasher", "=ds=#h4#, #w4#", "#JUSTICE:950#" },
-				{ 20, 57926, "", "=q3=Shield of the Four Grey Towers", "=ds=#w8#", "#JUSTICE:950#" },
-				{ 21, 57925, "", "=q3=Shield of the Mists", "=ds=#w8#", "#JUSTICE:950#" },
-				extraText = ": "..AL["Weapons"];
 			};
 		};
 		info = {
@@ -8225,9 +8141,6 @@ local moduleName = "AtlasLootCataclysm"
     			{ 9, 77090, "", "=q4=Necklace of Black Dragon's Teeth", "=ds=#s2#", "#VALOR:1250#" },
     			{ 10, 77088, "", "=q4=Opal of the Secret Order", "=ds=#s2#", "#VALOR:1250#" },
     			{ 11, 77089, "", "=q4=Threadlinked Chain", "=ds=#s2#", "#VALOR:1250#" },
-    			{ 13, 77081, "", "=q4=Gutripper Shard", "=ds=#s16#", "#VALOR:700#" },
-    			{ 14, 77083, "", "=q4=Lightning Spirit in a Bottle", "=ds=#s16#", "#VALOR:700#" },
-    			{ 15, 77082, "", "=q4=Mindbender Lens", "=ds=#s16#", "#VALOR:700#" },
     			{ 16, 77109, "", "=q4=Band of Reconstruction", "=ds=#s13#", "#VALOR:1250#" },
     			{ 17, 77111, "", "=q4=Emergency Descent Loop", "=ds=#s13#", "#VALOR:1250#" },
     			{ 18, 77110, "", "=q4=Ring of Torn Flesh", "=ds=#s13#", "#VALOR:1250#" },
@@ -8238,8 +8151,6 @@ local moduleName = "AtlasLootCataclysm"
     			{ 24, 77113, "", "=q4=Kiroptyric Sigil", "=ds=#s14#", "#VALOR:1650#" },
     			{ 25, 77115, "", "=q4=Reflection of the Light", "=ds=#s14#", "#VALOR:1650#" },
     			{ 26, 77116, "", "=q4=Rotting Skull", "=ds=#s14#", "#VALOR:1650#" },
-    			{ 28, 77080, "", "=q4=Ripfang Relic", "=ds=#s16#", "#VALOR:700#" },
-    			{ 29, 77084, "", "=q4=Stoutheart Talisman", "=ds=#s16#", "#VALOR:700#" },
 				extraText = ": "..AL["Accessories"];
 			};
 		};
@@ -8282,13 +8193,11 @@ local moduleName = "AtlasLootCataclysm"
 				{ 4, 70142, "", "=q4=Moonwell Chalice", "=ds=#s14#"};
 				{ 5, 70143, "", "=q4=Moonwell Phial", "=ds=#s14#"};
 				{ 6, 70112, "", "=q4=Globe of Moonlight", "=ds=#s15#"};
-				{ 7, 70111, "", "=q4=Relic of Elune's Light", "=ds=#s16#"};
-				{ 8, 70109, "", "=q4=Relic of Elune's Shadow", "=ds=#s16#"};
-				{ 9, 70175, "", "=q3=Pattern: Triple-Reinforced Mining Bag", "=ds=#p7# (500)"},
-				{ 10, 70174, "", "=q3=Pattern: Royal Scribe's Satchel", "=ds=#p7# (510)"},
-				{ 11, 70176, "", "=q3=Pattern: Luxurious Silk Gem Bag", "=ds=#p8# (515)"},
-				{ 12, 70160, "", "=q3=Crimson Lasher", "=ds=#e13#"},
-				{ 13, 70161, "", "=q3=Mushroom Chair", "=ds=#m20#"},
+				{ 7, 70175, "", "=q3=Pattern: Triple-Reinforced Mining Bag", "=ds=#p7# (500)"},
+				{ 8, 70174, "", "=q3=Pattern: Royal Scribe's Satchel", "=ds=#p7# (510)"},
+				{ 9, 70176, "", "=q3=Pattern: Luxurious Silk Gem Bag", "=ds=#p8# (515)"},
+				{ 10, 70160, "", "=q3=Crimson Lasher", "=ds=#e13#"},
+				{ 11, 70161, "", "=q3=Mushroom Chair", "=ds=#m20#"},
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Varlan Highbough"], "=q1=#m4#: #QUESTID:29283#"};
 				{ 17, 70122, "", "=q4=Aviana's Grips", "=ds=#s9#, #a2#"};		
 				{ 18, 70123, "", "=q4=Lancer's Greaves", "=ds=#s12#, #a3#"};
@@ -8296,10 +8205,8 @@ local moduleName = "AtlasLootCataclysm"
 				{ 20, 70126, "", "=q4=Nemesis Shell Band", "=ds=#s13#"};
 				{ 21, 70124, "", "=q4=Spirit Fragment Band", "=ds=#s13#"};
 				{ 22, 70141, "", "=q4=Dwyer's Caber", "=ds=#s14#"};
-				{ 23, 70125, "", "=q4=Relic of Lo'Gosh", "=ds=#s16#"};
-				{ 24, 70128, "", "=q4=Relic of Tortolla", "=ds=#s16#"};
-				{ 25, 70140, "", "=q3=Hyjal Bear Cub", "=ds=#e13#"},
-				{ 26, 70159, "", "=q3=Mylune's Call", "=ds=#m20#"},
+				{ 23, 70140, "", "=q3=Hyjal Bear Cub", "=ds=#e13#"},
+				{ 24, 70159, "", "=q3=Mylune's Call", "=ds=#m20#"},
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Damek Bloombeard"], "=q1=#m4#: #QUESTID:29281#"};

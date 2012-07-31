@@ -992,7 +992,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 36982, "", "=q3=Mantle of Electrical Charges", "=ds=#s3#, #a1#", "", "22%"};
 				{ 3, 36979, "", "=q3=Bjarngrim Family Signet", "=ds=#s13#", "", "22%"};
 				{ 4, 36980, "", "=q3=Hewn Sparring Quarterstaff", "=ds=#w9#", "", "22%"};
-				{ 5, 36981, "", "=q3=Hardened Vrykul Throwing Axe", "=ds=#w11#", "", "23%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 37825, "", "=q3=Traditionally Dyed Handguards", "=ds=#s9#, #a1#", "", "21%"};
 				{ 18, 37818, "", "=q3=Patroller's War-Kilt", "=ds=#s11#, #a3#", "", "21%"};
@@ -1324,7 +1323,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 37587, "", "=q3=Ymirjar Physician's Robe", "=ds=#s5#, #a2#", "", "1%"};
 				{ 18, 37590, "", "=q3=Bands of Fading Light", "=ds=#s8#, #a4#", "", "1%"};
-				{ 19, 37410, "", "=q3=Tracker's Balanced Knives", "=ds=#w11#", "", "1%"};
 			};
 		};
 		info = {
@@ -3269,8 +3267,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "11%"};
 				{ 23, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
 				{ 24, 40273, "", "=q4=Surplus Limb", "=ds=#s15#", "", "9%"};
-				{ 25, 40267, "", "=q4=Totem of Hex", "=ds=#s16#", "", "9%"};
-				{ 26, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#", "", "19%"};
 			};
 		};
 		info = {
@@ -3400,16 +3396,15 @@ local moduleName = "AtlasLootWotLK"
 			};
 			{
 				{ 1, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#", "", "1%"};
-				{ 2, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#", "", "9%"};
-				{ 4, 40281, "", "=q4=Twilight Mist", "=ds=#h1#, #w4#", "", "19%"};
-				{ 5, 39714, "", "=q4=Webbed Death", "=ds=#h1#, #w4#", "", "24%"};
-				{ 6, 39730, "", "=q4=Widow's Fury", "=ds=#h1#, #w10#", "", "9%"};
-				{ 7, 40343, "", "=q4=Armageddon", "=ds=#h2#, #w10#", "", "1%"};
-				{ 8, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#", "", "19%"};
-				{ 9, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#", "", "9%"};
-				{ 10, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#", "", "24%"};
-				{ 11, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "19%"};
-				{ 12, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "1%"};
+				{ 3, 40281, "", "=q4=Twilight Mist", "=ds=#h1#, #w4#", "", "19%"};
+				{ 4, 39714, "", "=q4=Webbed Death", "=ds=#h1#, #w4#", "", "24%"};
+				{ 5, 39730, "", "=q4=Widow's Fury", "=ds=#h1#, #w10#", "", "9%"};
+				{ 6, 40343, "", "=q4=Armageddon", "=ds=#h2#, #w10#", "", "1%"};
+				{ 7, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#", "", "19%"};
+				{ 8, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#", "", "9%"};
+				{ 9, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#", "", "24%"};
+				{ 10, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "19%"};
+				{ 11, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "1%"};
 				{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "", "57%"};
 				{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "", "58%"};
 				{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
@@ -3554,8 +3549,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "11%"};
 				{ 23, 40108, "", "=q4=Seized Beauty", "=ds=#s13#", "", "11%"};
 				{ 24, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
-				{ 25, 39757, "", "=q4=Idol of Worship", "=ds=#s16#", "", "9%"};
-				{ 26, 39728, "", "=q4=Totem of Misery", "=ds=#s16#", "", "9%"};
 			};
 		};
 		info = {
@@ -3655,8 +3648,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 21, 40075, "", "=q4=Ruthlessness", "=ds=#s13#", "", "11%"};
 				{ 22, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "11%"};
 				{ 23, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
-				{ 24, 40321, "", "=q4=Idol of the Shooting Star", "=ds=#s16#", "", "9%"};
-				{ 25, 40322, "", "=q4=Totem of Dueling", "=ds=#s16#", "", "9%"};
 			};
 		};
 		info = {
@@ -3701,11 +3692,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 40257, "", "=q4=Defender's Code", "=ds=#s14#", "", "11%"};
 				{ 19, 40255, "", "=q4=Dying Curse", "=ds=#s14#", "", "11%"};
 				{ 20, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#", "", "11%"};
-				{ 21, 40256, "", "=q4=Grim Toll", "=ds=#s14#", "", "11%"};
-				{ 22, 40342, "", "=q4=Idol of Awakening", "=ds=#s16#", "", "9%"};
-				{ 23, 40337, "", "=q4=Libram of Resurgence", "=ds=#s16#", "", "19%"};
-				{ 25, 40336, "", "=q4=Life and Death", "=ds=#h3#, #w10#", "", "19%"};
-				{ 26, 40335, "", "=q4=Touch of Horror", "=ds=#w12#", "", "9%"};
+				{ 22, 40336, "", "=q4=Life and Death", "=ds=#h3#, #w10#", "", "19%"};
+				{ 23, 40335, "", "=q4=Touch of Horror", "=ds=#w12#", "", "9%"};
 			};
 		};
 		info = {
@@ -3781,18 +3769,16 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 40185, "", "=q4=Shoulderguards of Opportunity", "=ds=#s3#, #a4#", "", "9%"};
 				{ 10, 40188, "", "=q4=Gauntlets of the Disobediant", "=ds=#s9#, #a4#", "", "9%"};
 				{ 11, 40187, "", "=q4=Poignant Sabatons", "=ds=#s12#, #a4#", "", "9%"};
-				{ 12, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#", "", "11%"};
-				{ 13, 40065, "", "=q4=Fool's Trial", "=ds=#s2#", "", "11%"};
-				{ 14, 40069, "", "=q4=Heritage", "=ds=#s2#", "", "11%"};
-				{ 15, 40064, "", "=q4=Thunderstorm Amulet", "=ds=#s2#", "", "11%"};
-				{ 16, 40080, "", "=q4=Lost Jewel", "=ds=#s13#", "", "11%"};
-				{ 17, 40075, "", "=q4=Ruthlessness", "=ds=#s13#", "", "11%"};
-				{ 18, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "11%"};
-				{ 19, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
-				{ 20, 40192, "", "=q4=Accursed Spine", "=ds=#s15#", "", "9%"};
-				{ 21, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#", "", "9%"};
-				{ 23, 40189, "", "=q4=Angry Dread", "=ds=#h1#, #w6#", "", "19%"};
-				{ 24, 40190, "", "=q4=Spinning Fate", "=ds=#w11#", "", "9%"};
+				{ 13, 40189, "", "=q4=Angry Dread", "=ds=#h1#, #w6#", "", "19%"};
+				{ 16, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#", "", "11%"};
+				{ 17, 40065, "", "=q4=Fool's Trial", "=ds=#s2#", "", "11%"};
+				{ 18, 40069, "", "=q4=Heritage", "=ds=#s2#", "", "11%"};
+				{ 19, 40064, "", "=q4=Thunderstorm Amulet", "=ds=#s2#", "", "11%"};
+				{ 20, 40080, "", "=q4=Lost Jewel", "=ds=#s13#", "", "11%"};
+				{ 21, 40075, "", "=q4=Ruthlessness", "=ds=#s13#", "", "11%"};
+				{ 22, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "11%"};
+				{ 23, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
+				{ 24, 40192, "", "=q4=Accursed Spine", "=ds=#s15#", "", "9%"};
 			};
 		};
 		info = {
@@ -3830,7 +3816,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 40235, "", "=q4=Helm of Pilgrimage", "=ds=#s1#, #a3#", "", "10%"};
 				{ 11, 40209, "", "=q4=Bindings of the Decrepit", "=ds=#s8#, #a3#", "", "9%"};
 				{ 12, 40201, "", "=q4=Leggings of Colossal Strides", "=ds=#s11#, #a3#", "", "9%"};
-				{ 13, 40237, "", "=q4=Eruption-Scared Boots", "=ds=#s12#, #a3#", "", "10%"};
+				{ 13, 40237, "", "=q4=Eruption-Scarred Boots", "=ds=#s12#, #a3#", "", "10%"};
 				{ 14, 40203, "", "=q4=Breastplate of Tormented Rage", "=ds=#s5#, #a4#", "", "18%"};
 				{ 15, 40210, "", "=q4=Chestguard of Bitter Charms", "=ds=#s5#, #a4#", "", "9%"};
 				{ 16, 40204, "", "=q4=Legguards of the Apostle", "=ds=#s11#, #a4#", "", "9%"};
@@ -3839,9 +3825,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 20, 40255, "", "=q4=Dying Curse", "=ds=#s14#", "", "11%"};
 				{ 21, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#", "", "11%"};
 				{ 22, 40256, "", "=q4=Grim Toll", "=ds=#s14#", "", "11%"};
-				{ 23, 40207, "", "=q4=Sigil of Awareness", "=ds=#s16#", "", "9%"};
-				{ 25, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#", "", "10%"};
-				{ 26, 40233, "", "=q4=The Undeath Carrier", "=ds=#w9#", "", "9%"};
+				{ 24, 40208, "", "=q4=Cryptfiend's Bite", "=ds=#w7#", "", "10%"};
+				{ 25, 40233, "", "=q4=The Undeath Carrier", "=ds=#w9#", "", "9%"};
 			};
 		};
 		info = {
@@ -4165,7 +4150,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 45300, "", "=q4=Mantle of Fiery Vengeance", "=ds=#s3#, #a3#"};
 				{ 23, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#", "", "0.25%"};
 				{ 24, 45297, "", "=q4=Shimmering Seal", "=ds=#s13#", "", "0.11%"};
-				{ 25, 45296, "", "=q4=Twirling Blades", "=ds=#w11#", "", "0.36%"};
 			};
 		};
 		["25Man"] = {
@@ -4181,18 +4165,16 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 45113, "", "=q4=Glowing Ring of Reclamation", "=ds=#s13#", "", "19%"};
 				{ 11, 45106, "", "=q4=Strength of the Automaton", "=ds=#s13#", "", "16%"};
 				{ 12, 45112, "", "=q4=The Leviathan's Coil", "=ds=#s13#", "", "19%"};
-				{ 13, 45115, "", "=q4=Overcharged Fuel Rod", "=ds=#s15#", "", "18%"};
-				{ 14, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#", "", "18%"};
+				{ 13, 45115, "", "=q4=Leviathan Fueling Manual", "=ds=#s15#", "", "18%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#", "", "18%"};
-				{ 20, 45086, "", "=q4=Rising Sun", "=ds=#w11#", "", "18%"};
-				{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3057#"};
-				{ 23, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#", "", "0.27%"};
-				{ 24, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
-				{ 25, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
-				{ 26, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
-				{ 27, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};
+				{ 21, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3057#"};
+				{ 22, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#", "", "0.27%"};
+				{ 23, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
+				{ 24, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
+				{ 25, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
+				{ 26, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};
 			};
 		};
 		info = {
@@ -4228,8 +4210,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 45140, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
 				{ 9, 45139, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
 				{ 11, 45148, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
-				{ 12, 45510, "", "=q4=Libram of Discord", "=ds=#s16#", "", "19%"};
-				{ 13, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#", "", "19%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
@@ -4271,7 +4251,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 45157, "", "=q4=Cindershard Ring", "=ds=#s13#", "", "20%"};
 				{ 11, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#", "", "20%"};
 				{ 12, 45158, "", "=q4=Heart of Iron", "=ds=#s14#", "", "19%"};
-				{ 13, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#", "", "21%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#", "", "19%"};
@@ -4318,8 +4297,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 45248, "", "=q4=Clockwork Legplates", "=ds=#s11#, #a4#", "", "19%"};
 				{ 10, 45250, "", "=q4=Crazed Construct Ring", "=ds=#s13#", "", "18%"};
 				{ 11, 45247, "", "=q4=Signet of the Earthshaker", "=ds=#s13#", "", "20%"};
-				{ 12, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#s16#", "", "20%"};
-				{ 13, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#", "", "20%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45246, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#", "", "19%"};
@@ -4425,7 +4402,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 11, 45262, "", "=q4=Necklace of Unerring Mettle", "=ds=#s2#", "", "18%"};
 				{ 12, 45263, "", "=q4=Wrathstone", "=ds=#s14#", "", "18%"};
 				{ 13, 45271, "", "=q4=Ironmender", "=ds=#s15#", "", "17%"};
-				{ 14, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#s16#", "", "17%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "18%"};
@@ -4522,7 +4498,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 45434, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#", "", "20%"};
 				{ 11, 45326, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#", "", "19%"};
 				{ 12, 45438, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#", "", "19%"};
-				{ 13, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#", "", "20%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#", "", "20%"};
@@ -4765,8 +4740,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 45503, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#", "", "20%"};
 				{ 11, 45515, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#", "", "21%"};
 				{ 12, 45507, "", "=q4=The General's Heart", "=ds=#s14#", "", "20%"};
-				{ 13, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#", "", "17%"};
-				{ 14, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#", "", "19%"};
 				{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
 				{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
 				{ 19, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "20%"};
@@ -4872,7 +4845,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 45540, "", "=q4=Bladebearer's Signet", "=ds=#s13#", "", "2%"};
 				{ 10, 45539, "", "=q4=Pendant of Focused Energies", "=ds=#s2#", "", "6%"};
 				{ 11, 45538, "", "=q4=Titanstone Pendant", "=ds=#s2#", "", "3%"};
-				{ 12, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#", "", "6%"};
 				{ 16, 45605, "", "=q4=Daschal's Bite", "=ds=#h1# #w4#", "", "2%"};
 			};
 		};
@@ -6046,9 +6018,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 50194, "", "=q4=Weeping Gauntlets", "=ds=#s9#, #a4#"};
 				{ 20, 50196, "", "=q4=Love's Prisoner", "=ds=#s2#"};
 				{ 21, 50191, "", "=q4=Nighttime", "=ds=#h1#, #w1#"};
-				{ 22, 50169, "", "=q4=Papa's Brand New Knife", "=ds=#w11#"};
-				{ 24, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#"};
-				{ 25, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
+				{ 23, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#"};
+				{ 24, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
 			};
 		};
 		info = {
@@ -6737,7 +6708,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 51003, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#"};
 				{ 17, 51004, "", "=q4=Lockjaw", "=ds=#h3#, #w6#"};
 				{ 18, 50998, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#"};
-				{ 19, 50999, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#"};
 			};
 		};
 		["Heroic"] = {
@@ -6753,7 +6723,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 51876, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#"};
 				{ 17, 51875, "", "=q4=Lockjaw", "=ds=#h3#, #w6#"};
 				{ 18, 51881, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#"};
-				{ 19, 51880, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#"};
 			};
 		};
 		["25Man"] = {
@@ -7395,13 +7364,12 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 38465, "", "=q3=Vanguard Soldier's Dagger", "=ds=#h1#, #w4#"};
 				{ 5, 38455, "", "=q3=Hammer of the Alliance Vanguard", "=ds=#h1#, #w6#"};
 				{ 6, 38463, "", "=q3=Lordaeron's Resolve", "=ds=#w8#"};
-				{ 7, 38453, "", "=q3=Shield of the Lion-hearted", "=ds=#w8#"};
-				{ 8, 38457, "", "=q3=Sawed-off Hand Cannon", "=ds=#w5#"};
+				{ 7, 38453, "", "=q3=Shield of the Lion-Hearted", "=ds=#w8#"};
+				{ 8, 38457, "", "=q3=Sawed-Off Hand Cannon", "=ds=#w5#"};
 				{ 9, 38464, "", "=q3=Gnomish Magician's Quill", "=ds=#w12#"};
 				{ 17, 0, "INV_Shield_36", "=q6=#r5#", ""};
 				{ 18, 44503, "", "=q4=Schematic: Mekgineer's Chopper", "=ds=#p5# (450)"};
 				{ 19, 44937, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
-				{ 20, 44701, "", "=q7=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
 			};
 		};
 		info = {
@@ -7426,18 +7394,16 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 44245, "", "=q3=Zombie Sweeper Shotgun", "=ds=#w5#"};
 				{ 9, 44214, "", "=q3=Purifying Torch", "=ds=#w12#"};
 				{ 10, 41726, "", "=q3=Design: Guardian's Twilight Opal", "=ds=#p12# (390)"};
-				{ 11, 44150, "", "=q3=Arcanum of the Stalwart Protector", "=ds=#s1# #e17#"};
 				{ 16, 0, "INV_Jewelry_Talisman_08", "=q6=#r3#", ""};
 				{ 17, 44216, "", "=q3=Cloak of Holy Extermination", "=ds=#s4#"};
 				{ 18, 44240, "", "=q3=Special Issue Legplates", "=ds=#s11#, #a4#"};
 				{ 19, 44239, "", "=q3=Standard Issue Legguards", "=ds=#s11#, #a4#"};
-				{ 20, 44139, "", "=q7=Arcanum of the Fleeing Shadow", "=ds=#s1# #e17#"};
-				{ 22, 0, "INV_Jewelry_Talisman_08", "=q6=#r5#", ""};
-				{ 23, 44297, "", "=q4=Boots of the Neverending Path", "=ds=#s12#, #a2#"};
-				{ 24, 44295, "", "=q4=Polished Regimental Hauberk", "=ds=#s5#, #a3#"};
-				{ 25, 44296, "", "=q4=Helm of Purified Thoughts", "=ds=#s1#, #a4#"};
-				{ 26, 44283, "", "=q4=Signet of Hopeful Light", "=ds=#s13#"};
-				{ 27, 42187, "", "=q1=Pattern: Brilliant Spellthread", "=ds=#p8# (430)"};
+				{ 21, 0, "INV_Jewelry_Talisman_08", "=q6=#r5#", ""};
+				{ 22, 44297, "", "=q4=Boots of the Neverending Path", "=ds=#s12#, #a2#"};
+				{ 23, 44295, "", "=q4=Polished Regimental Hauberk", "=ds=#s5#, #a3#"};
+				{ 24, 44296, "", "=q4=Helm of Purified Thoughts", "=ds=#s1#, #a4#"};
+				{ 25, 44283, "", "=q4=Signet of Hopeful Light", "=ds=#s13#"};
+				{ 26, 42187, "", "=q1=Pattern: Brilliant Spellthread", "=ds=#p8# (430)"};
 			};
 		};
 		info = {
@@ -7489,9 +7455,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 10, 44120, "", "=q3=Giant-Sized Gauntlets", "=ds=#s9#, #a4#"};
 				{ 11, 44121, "", "=q3=Sparkly Shiny Gloves", "=ds=#s9#, #a4#"};
 				{ 12, 44123, "", "=q3=Discarded Titanium Legplates", "=ds=#s11#, #a4#"};
-				{ 13, 44118, "", "=q3=Stolen Vrykul Harpoon", "=ds=#w11#"};
-				{ 14, 41723, "", "=q3=Design: Jagged Forest Emerald", "=ds=#p12# 390"};
-				{ 15, 44717, "", "=q1=Disgusting Jar", "=ds="};
+				{ 13, 41723, "", "=q3=Design: Jagged Forest Emerald", "=ds=#p12# 390"};
+				{ 14, 44717, "", "=q1=Disgusting Jar", "=ds="};
 				{ 16, 0, "INV_Misc_Rune_14", "=q6=#r5#", ""};
 				{ 17, 44073, "", "=q1=Frenzyheart Insignia of Fury", "=ds=#s14#"};
 				{ 19, 0, "INV_Potion_139", "=q6="..AL["Ripe Disgusting Jar"], ""};
@@ -7526,7 +7491,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
 				{ 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5# (450)"};
 				{ 19, 44938, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
-				{ 20, 44702, "", "=q7=Arcanum of the Savage Gladiator", "=ds=#s1# #e17#"};
 			};
 		};
 		info = {
@@ -7549,20 +7513,18 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 44170, "", "=q3=Helm of the Majestic Stag", "=ds=#s1#, #a2#"};
 				{ 7, 44171, "", "=q3=Spaulders of Grounded Lightning", "=ds=#s3#, #a3#"};
 				{ 8, 44166, "", "=q3=Lightblade Rivener", "=ds=#h1#, #w4#"};
-				{ 9, 44141, "", "=q3=Arcanum of the Flame's Soul", "=ds=#s1# #e17#"};
-				{ 16, 0, "Spell_Fire_MasterOfElements", "=q6=#r4#", ""};
-				{ 17, 44179, "", "=q3=Mind-Expanding Leggings", "=ds=#s11#, #a2#"};
-				{ 18, 44176, "", "=q3=Girdle of the Warrior Magi", "=ds=#s10#, #a4#"};
-				{ 19, 44173, "", "=q3=Flameheart Spell Scalpel", "=ds=#h3#, #w4#"};
-				{ 20, 44174, "", "=q3=Stave of Shrouded Mysteries", "=ds=#w9#"};
-				{ 21, 44159, "", "=q7=Arcanum of Burning Mysteries", "=ds=#s1# #e17#"};
-				{ 23, 0, "Spell_Fire_MasterOfElements", "=q6=#r5#", ""};
-				{ 24, 44180, "", "=q4=Robes of Crackling Flame", "=ds=#s5#, #a1#"};
-				{ 25, 44181, "", "=q4=Ghostflicker Waistband", "=ds=#s10#, #a2#"};
-				{ 26, 44182, "", "=q4=Boots of Twinkling Stars", "=ds=#s12#, #a3#"};
-				{ 27, 44183, "", "=q4=Fireproven Gauntlets", "=ds=#s9#, #a4#"};
-				{ 28, 41718, "", "=q3=Design: Brilliant Scarlet Ruby", "=ds=#p12# (390)"};
-				{ 29, 42188, "", "=q1=Pattern: Sapphire Spellthread", "=ds=#p8# (430)"};
+				{ 10, 0, "Spell_Fire_MasterOfElements", "=q6=#r4#", ""};
+				{ 11, 44179, "", "=q3=Mind-Expanding Leggings", "=ds=#s11#, #a2#"};
+				{ 12, 44176, "", "=q3=Girdle of the Warrior Magi", "=ds=#s10#, #a4#"};
+				{ 13, 44173, "", "=q3=Flameheart Spell Scalpel", "=ds=#h3#, #w4#"};
+				{ 14, 44174, "", "=q3=Stave of Shrouded Mysteries", "=ds=#w9#"};
+				{ 16, 0, "Spell_Fire_MasterOfElements", "=q6=#r5#", ""};
+				{ 17, 44180, "", "=q4=Robes of Crackling Flame", "=ds=#s5#, #a1#"};
+				{ 18, 44181, "", "=q4=Ghostflicker Waistband", "=ds=#s10#, #a2#"};
+				{ 19, 44182, "", "=q4=Boots of Twinkling Stars", "=ds=#s12#, #a3#"};
+				{ 20, 44183, "", "=q4=Fireproven Gauntlets", "=ds=#s9#, #a4#"};
+				{ 21, 41718, "", "=q3=Design: Brilliant Scarlet Ruby", "=ds=#p12# (390)"};
+				{ 22, 42188, "", "=q1=Pattern: Sapphire Spellthread", "=ds=#p8# (430)"};
 			};
 		};
 		info = {
@@ -7588,19 +7550,17 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 44250, "", "=q3=Reaper of Dark Souls", "=ds=#h1#, #w10#"};
 				{ 10, 44249, "", "=q3=Runeblade of Demonstrable Power", "=ds=#h2#, #w10#"};
 				{ 11, 41721, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)"};
-				{ 12, 44149, "", "=q7=Arcanum of Torment", "=ds=#s1# #e17#"};
-				{ 13, 42183, "", "=q1=Pattern: Abyssal Bag", "=ds=#p8# (435)"};
+				{ 12, 42183, "", "=q1=Pattern: Abyssal Bag", "=ds=#p8# (435)"};
 				{ 16, 0, "INV_Weapon_Hand_01", "=q6=#r3#", ""};
 				{ 17, 44242, "", "=q3=Dark Soldier Cape", "=ds=#s4#"};
 				{ 18, 44243, "", "=q3=Toxin-Tempered Sabatons", "=ds=#s12#, #a4#"};
 				{ 19, 44241, "", "=q3=Unholy Persuader", "=ds=#h4#, #w13#"};
-				{ 20, 44138, "", "=q3=Arcanum of Toxic Warding", "=ds=#s1# #e17#"};
-				{ 22, 0, "INV_Weapon_Hand_01", "=q6=#r5#", ""};
-				{ 23, 44302, "", "=q4=Belt of Dark Mending", "=ds=#s10#, #a1#"};
-				{ 24, 44303, "", "=q4=Darkheart Chestguard", "=ds=#s5#, #a2#"};
-				{ 25, 44305, "", "=q4=Kilt of Dark Mercy", "=ds=#s11#, #a3#"};
-				{ 26, 44306, "", "=q4=Death-Inured Sabatons", "=ds=#s12#, #a4#"};
-				{ 27, 41725, "", "=q3=Design: Timeless Twilight Opal", "=ds=#p12# (390)"};
+				{ 21, 0, "INV_Weapon_Hand_01", "=q6=#r5#", ""};
+				{ 22, 44302, "", "=q4=Belt of Dark Mending", "=ds=#s10#, #a1#"};
+				{ 23, 44303, "", "=q4=Darkheart Chestguard", "=ds=#s5#, #a2#"};
+				{ 24, 44305, "", "=q4=Kilt of Dark Mercy", "=ds=#s11#, #a3#"};
+				{ 25, 44306, "", "=q4=Death-Inured Sabatons", "=ds=#s12#, #a4#"};
+				{ 26, 41725, "", "=q3=Design: Timeless Twilight Opal", "=ds=#p12# (390)"};
 			};
 		};
 		info = {
@@ -7685,8 +7645,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 11, 44060, "", "=q3=Cuttlefish Tooth Ringmail", "=ds=#s5#, #a3#"};
 				{ 12, 44057, "", "=q3=Ivory-Reinforced Chestguard", "=ds=#s5#, #a4#"};
 				{ 13, 44058, "", "=q3=Whalebone Carapace", "=ds=#s5#, #a4#"};
-				{ 14, 44511, "", "=q3=Pattern: Dragonscale Ammo Pouch", "=ds=#p7# (415)"};
-				{ 15, 41574, "", "=q2=Design: Defender's Shadow Crystal", "=ds=#p12# (350)"};
+				{ 14, 41574, "", "=q2=Design: Defender's Shadow Crystal", "=ds=#p12# (350)"};
 				{ 16, 0, "INV_Fishingpole_03", "=q6=#r4#", ""};
 				{ 17, 44051, "", "=q3=Traditional Flensing Knife", "=ds=#h1#, #w4#"};
 				{ 18, 44052, "", "=q3=Totemic Purification Rod", "=ds=#h3#, #w6#"};
@@ -7754,31 +7713,30 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 44190, "", "=q3=Spaulders of Frozen Knives", "=ds=#s3#, #a2#"};
 				{ 3, 44189, "", "=q3=Giant Ring Belt", "=ds=#s10#, #a3#"};
 				{ 4, 44510, "", "=q3=Pattern: Mammoth Mining Bag", "=ds=#p7# (415)"};
-				{ 5, 44137, "", "=q3=Arcanum of the Frosty Soul", "=ds=#s1# #e17#"};
-				{ 6, 44131, "", "=q3=Lesser Inscription of the Axe", "=ds=#s3# #e17#"};
-				{ 7, 44130, "", "=q3=Lesser Inscription of the Crag", "=ds=#s3# #e17#"};
-				{ 8, 44132, "", "=q3=Lesser Inscription of the Pinnacle", "=ds=#s3# #e17#"};
-				{ 9, 44129, "", "=q3=Lesser Inscription of the Storm", "=ds=#s3# #e17#"};
-				{ 16, 0, "Spell_Holy_DivinePurpose", "=q6=#r4#", ""};
+				{ 5, 44131, "", "=q3=Lesser Inscription of the Axe", "=ds=#s3# #e17#"};
+				{ 6, 44130, "", "=q3=Lesser Inscription of the Crag", "=ds=#s3# #e17#"};
+				{ 7, 44132, "", "=q3=Lesser Inscription of the Pinnacle", "=ds=#s3# #e17#"};
+				{ 8, 44129, "", "=q3=Lesser Inscription of the Storm", "=ds=#s3# #e17#"};
+				{ 10, 0, "Spell_Holy_DivinePurpose", "=q6=#r4#", ""};
 				{
-					{ 17, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26# =ec1=#m6#"};
-					{ 17, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26# =ec1=#m7#"};
+					{ 11, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26# =ec1=#m6#"};
+					{ 11, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26# =ec1=#m7#"};
 				};
-				{ 18, 44194, "", "=q3=Giant-Friend Kilt", "=ds=#s11#, #a2#" };
-				{ 19, 44195, "", "=q3=Spaulders of the Giant Lords", "=ds=#s3#, #a4#"};
-				{ 20, 44193, "", "=q3=Broken Stalactite", "=ds=#h1#, #w4#"};
-				{ 21, 44192, "", "=q3=Stalactite Chopper", "=ds=#h1#, #w1#"};
-				{ 23, 0, "Spell_Holy_DivinePurpose", "=q6=#r5#", ""};
+				{ 12, 44194, "", "=q3=Giant-Friend Kilt", "=ds=#s11#, #a2#" };
+				{ 13, 44195, "", "=q3=Spaulders of the Giant Lords", "=ds=#s3#, #a4#"};
+				{ 14, 44193, "", "=q3=Broken Stalactite", "=ds=#h1#, #w4#"};
+				{ 15, 44192, "", "=q3=Stalactite Chopper", "=ds=#h1#, #w1#"};
+				{ 16, 0, "Spell_Holy_DivinePurpose", "=q6=#r5#", ""};
 				{
-					{ 24, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26# =ec1=#m6#"};
-					{ 24, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26# =ec1=#m7#"};
+					{ 17, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26# =ec1=#m6#"};
+					{ 17, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26# =ec1=#m7#"};
 				};
-				{ 25, 44133, "", "=q7=Greater Inscription of the Axe", "=ds=#s3# #e17#"};
-				{ 26, 44134, "", "=q7=Greater Inscription of the Crag", "=ds=#s3# #e17#"};
-				{ 27, 44136, "", "=q7=Greater Inscription of the Pinnacle", "=ds=#s3# #e17#"};
-				{ 28, 44135, "", "=q7=Greater Inscription of the Storm ", "=ds=#s3# #e17#"};
-				{ 29, 41720, "", "=q3=Design: Smooth Autumn's Glow", "=ds=#p12# (390)"};
-				{ 30, 42184, "", "=q1=Pattern: Glacial Bag", "=ds=#p8# (445)"};
+				{ 18, 44133, "", "=q7=Greater Inscription of the Axe", "=ds=#s3# #e17#"};
+				{ 19, 44134, "", "=q7=Greater Inscription of the Crag", "=ds=#s3# #e17#"};
+				{ 20, 44136, "", "=q7=Greater Inscription of the Pinnacle", "=ds=#s3# #e17#"};
+				{ 21, 44135, "", "=q7=Greater Inscription of the Storm ", "=ds=#s3# #e17#"};
+				{ 22, 41720, "", "=q3=Design: Smooth Autumn's Glow", "=ds=#p12# (390)"};
+				{ 23, 42184, "", "=q1=Pattern: Glacial Bag", "=ds=#p8# (445)"};
 			};
 		};
 		info = {
@@ -7801,21 +7759,19 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 44196, "", "=q3=Sash of the Wizened Wyrm", "=ds=#s10#, #a1#"};
 				{ 7, 44197, "", "=q3=Bracers of Accorded Courtesy", "=ds=#s8#, #a4#"};
 				{ 8, 44187, "", "=q3=Fang of Truth", "=ds=#h1#, #w10#"};
-				{ 9, 44140, "", "=q3=Arcanum of the Eclipsed Moon", "=ds=#s1# #e17#"};
-				{ 16, 0, "Ability_Druid_Eclipse", "=q6=#r4#", ""};
-				{ 17, 44200, "", "=q3=Ancestral Sinew Wristguards", "=ds=#s8#, #a1#"};
-				{ 18, 44198, "", "=q3=Breastplate of the Solemn Council", "=ds=#s5#, #a4#"};
-				{ 19, 44201, "", "=q3=Sabatons of Draconic Vigor", "=ds=#s12#, #a4#"};
-				{ 20, 44199, "", "=q3=Gavel of the Brewing Storm", "=ds=#h3#, #w6#"};
-				{ 21, 44152, "", "=q7=Arcanum of Blissful Mending", "=ds=#s1# #e17#"};
-				{ 22, 42185, "", "=q1=Pattern: Mysterious Bag", "=ds=#p8# (440)"};
-				{ 24, 0, "Ability_Druid_Eclipse", "=q6=#r5#", ""};
-				{ 25, 44202, "", "=q4=Sandals of Crimson Fury", "=ds=#s12#, #a1#"};
-				{ 26, 44203, "", "=q4=Dragonfriend Bracers", "=ds=#s8#, #a2#"};
-				{ 27, 44204, "", "=q4=Grips of Fierce Pronouncements", "=ds=#s9#, #a3#"};
-				{ 28, 44205, "", "=q4=Legplates of Bloody Reprisal", "=ds=#s11#, #a4#"};
-				{ 29, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#"};
-				{ 30, 41722, "", "=q3=Design: Stalwart Monarch Topaz", "=ds=#p12# (390)"};
+				{ 10, 0, "Ability_Druid_Eclipse", "=q6=#r4#", ""};
+				{ 11, 44200, "", "=q3=Ancestral Sinew Wristguards", "=ds=#s8#, #a1#"};
+				{ 12, 44198, "", "=q3=Breastplate of the Solemn Council", "=ds=#s5#, #a4#"};
+				{ 13, 44201, "", "=q3=Sabatons of Draconic Vigor", "=ds=#s12#, #a4#"};
+				{ 14, 44199, "", "=q3=Gavel of the Brewing Storm", "=ds=#h3#, #w6#"};
+				{ 15, 42185, "", "=q1=Pattern: Mysterious Bag", "=ds=#p8# (440)"};
+				{ 16, 0, "Ability_Druid_Eclipse", "=q6=#r5#", ""};
+				{ 17, 44202, "", "=q4=Sandals of Crimson Fury", "=ds=#s12#, #a1#"};
+				{ 18, 44203, "", "=q4=Dragonfriend Bracers", "=ds=#s8#, #a2#"};
+				{ 19, 44204, "", "=q4=Grips of Fierce Pronouncements", "=ds=#s9#, #a3#"};
+				{ 20, 44205, "", "=q4=Legplates of Bloody Reprisal", "=ds=#s11#, #a4#"};
+				{ 21, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#"};
+				{ 22, 41722, "", "=q3=Design: Stalwart Monarch Topaz", "=ds=#p12# (390)"};
 			};
 		};
 		info = {
@@ -8784,18 +8740,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 40884, "", "=q4=Relentless Gladiator's Greaves of Triumph", "=ds=", "#HONOR:630#"};
 				extraText = ": "..BabbleInventory["Plate"];
 			};
-			{
-				{ 2, 51429, "", "=q4=Wrathful Gladiator's Idol of Resolve", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 3, 51437, "", "=q4=Wrathful Gladiator's Idol of Steadfastness", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 4, 51423, "", "=q4=Wrathful Gladiator's Idol of Tenacity", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 6, 51478, "", "=q4=Wrathful Gladiator's Libram of Fortitude", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 7, 51472, "", "=q4=Wrathful Gladiator's Libram of Justice", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 17, 51507, "", "=q4=Wrathful Gladiator's Totem of Indomitability", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 18, 51513, "", "=q4=Wrathful Gladiator's Totem of Survival", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 19, 51501, "", "=q4=Wrathful Gladiator's Totem of the Third Wind", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				{ 21, 51417, "", "=q4=Wrathful Gladiator's Sigil of Strife", "=ds=#s16#", "#HONOR:260# #reqrating# 1700"};
-				extraText = ": "..BabbleInventory["Relic"];
-			};
 		};
 		info = {
 			name = AL["PvP Non-Set Epics"],
@@ -8843,15 +8787,14 @@ local moduleName = "AtlasLootWotLK"
 				{ 11, 51452, "", "=q4=Wrathful Gladiator's Barrier", "=ds=#w8#", "#HONOR:190#"};
 				{ 12, 51455, "", "=q4=Wrathful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:190#"};
 				{ 13, 51533, "", "=q4=Wrathful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:190#"};
-				{ 16, 51535, "", "=q4=Wrathful Gladiator's War Edge", "=ds=#w11#", "#HONOR:260#"};
-				{ 18, 51532, "", "=q4=Wrathful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:260#"};
-				{ 19, 51531, "", "=q4=Wrathful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:260#"};
-				{ 20, 51410, "", "=q4=Wrathful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:260#"};
-				{ 21, 51451, "", "=q4=Wrathful Gladiator's Wand of Alacrity", "=ds=#w12#", "#HONOR:260#"};
-				{ 23, 51407, "", "=q4=Wrathful Gladiator's Compendium", "=ds=#s15#", "#HONOR:190#"};
-				{ 24, 51396, "", "=q4=Wrathful Gladiator's Endgame", "=ds=#s15#", "#HONOR:190#"};
-				{ 25, 51408, "", "=q4=Wrathful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:190#"};
-				{ 26, 51409, "", "=q4=Wrathful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:190#"};
+				{ 16, 51532, "", "=q4=Wrathful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:260#"};
+				{ 17, 51531, "", "=q4=Wrathful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:260#"};
+				{ 18, 51410, "", "=q4=Wrathful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:260#"};
+				{ 19, 51451, "", "=q4=Wrathful Gladiator's Wand of Alacrity", "=ds=#w12#", "#HONOR:260#"};
+				{ 21, 51407, "", "=q4=Wrathful Gladiator's Compendium", "=ds=#s15#", "#HONOR:190#"};
+				{ 22, 51396, "", "=q4=Wrathful Gladiator's Endgame", "=ds=#s15#", "#HONOR:190#"};
+				{ 23, 51408, "", "=q4=Wrathful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:190#"};
+				{ 24, 51409, "", "=q4=Wrathful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:190#"};
 			};
 		};
 		info = {
@@ -9016,20 +8959,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 38353, "", "=q3=Venture Bay Buccaneer's Cape", "=ds=#s4#", "#HONOR:150#"};
 				{ 4, 38358, "", "=q3=Arcane Revitalizer", "=ds=#s14#", "#HONOR:210#"};
 				{ 5, 38359, "", "=q3=Goblin Repetition Reducer", "=ds=#s14#", "#HONOR:210#"};
-				{ 6, 38357, "", "=q3=Sharpened Throwing Gizmo", "=ds=#w11#", "#HONOR:90#"};
-				{ 7, 38356, "", "=q3=Venture Battle Wand", "=ds=#w12#", "#HONOR:90#"};
-				{ 8, 38360, "", "=q3=Idol of Arcane Terror", "=ds=#s16#", "#HONOR:90#"};
-				{ 9, 38365, "", "=q3=Idol of Perspicacious Attacks", "=ds=#s16#", "#HONOR:90#"};
-				{ 10, 38366, "", "=q3=Idol of Pure Thoughts", "=ds=#s16#", "#HONOR:90#"};
-				{ 11, 38364, "", "=q3=Venture Co. Libram of Mostly Holy Deeds", "=ds=#s16#", "#HONOR:90#"};
-				{ 12, 38363, "", "=q3=Venture Co. Libram of Protection", "=ds=#s16#", "#HONOR:90#"};
-				{ 13, 38362, "", "=q3=Venture Co. Libram of Retribution", "=ds=#s16#", "#HONOR:90#"};
-				{ 16, 38368, "", "=q3=Totem of the Bay", "=ds=#s16#", "#HONOR:90#"};
-				{ 17, 38367, "", "=q3=Venture Co. Flame Slicer", "=ds=#s16#", "#HONOR:90#"};
-				{ 18, 38361, "", "=q3=Venture Co. Lightning Rod", "=ds=#s16#", "#HONOR:90#"};
-				{ 19, 40875, "", "=q3=Sigil of Arthritic Binding", "=ds=#s16#", "#HONOR:90#"};
-				{ 20, 40822, "", "=q3=Sigil of the Frozen Conscience", "=ds=#s16#", "#HONOR:90#"};
-				{ 21, 40867, "", "=q3=Sigil of the Wild Buck", "=ds=#s16#", "#HONOR:90#"};
+				{ 6, 38356, "", "=q3=Venture Battle Wand", "=ds=#w12#", "#HONOR:90#"};
 			};
 		};
 		info = {
@@ -11280,7 +11210,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 18, 44311, "", "=q4=Avool's Sword of Jin", "=ds=#h1#, #w10#"};
 				{ 19, 43611, "", "=q4=Krol Cleaver", "=ds=#h1#, #w10#"};
 				{ 20, 44313, "", "=q4=Zom's Crackling Bulwark", "=ds=#w8#"};
-				{ 21, 43612, "", "=q4=Spineslicer", "=ds=#w11#"};
 			};
 		};
 		info = {
@@ -11310,47 +11239,33 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 40704, "", "=q4=Pride", "=ds=#h4#, #w13#", "#JUSTICE:550#"};
 				{ 20, 40702, "", "=q4=Rolfsen's Ripper", "=ds=#h4#, #w4#", "#JUSTICE:550#"};
 				{ 21, 40703, "", "=q4=Grasscutter", "=ds=#h4#, #w10#", "#JUSTICE:550#"};
-				{ 22, 40716, "", "=q4=Lillehoff's Winged Blades", "=ds=#w11#", "#JUSTICE:174#"};
-				{ 23, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "#JUSTICE:348#"};
-				{ 24, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "#JUSTICE:348#"};
+				{ 22, 40701, "", "=q4=Crygil's Discarded Plate Panel", "=ds=#w8#", "#JUSTICE:348#"};
+				{ 23, 40700, "", "=q4=Protective Barricade of the Light", "=ds=#w8#", "#JUSTICE:348#"};
 			};
 			{
-				{ 1, 40711, "", "=q4=Idol of Lush Moss", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 2, 40712, "", "=q4=Idol of Steadfast Renewal", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 3, 40713, "", "=q4=Idol of the Ravenous Beast", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 5, 40707, "", "=q4=Libram of Obstruction", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 6, 40706, "", "=q4=Libram of Reciprocation", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 7, 40705, "", "=q4=Libram of Renewal", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 9, 40715, "", "=q4=Sigil of Haunted Dreams", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 10, 40714, "", "=q4=Sigil of the Unfaltering Knight", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 12, 40709, "", "=q4=Totem of Forest Growth", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 13, 40710, "", "=q4=Totem of Splintering", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 14, 40708, "", "=q4=Totem of the Elemental Plane", "=ds=#s16#", "#JUSTICE:163#"};
-				{ 16, 40679, "", "=q4=Chained Military Gorget", "=ds=#s2#", "#JUSTICE:290#"};
-				{ 17, 40680, "", "=q4=Encircling Burnished Gold Chains", "=ds=#s2#", "#JUSTICE:290#"};
-				{ 18, 40681, "", "=q4=Lattice Choker of Light", "=ds=#s2#", "#JUSTICE:290#"};
-				{ 19, 40678, "", "=q4=Pendant of the Outcast Hero", "=ds=#s2#", "#JUSTICE:290#"};
-				{ 21, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "#JUSTICE:348#"};
-				{ 22, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "#JUSTICE:348#"};
-				{ 23, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "#JUSTICE:348#"};
-				{ 24, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "#JUSTICE:348#"};
-			};
-			{
-				{ 1, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "#JUSTICE:550#"};
-				{ 2, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "#JUSTICE:550#"};
-				{ 3, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "#JUSTICE:550#"};
-				{ 5, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "#JUSTICE:348#"};
-				{ 6, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "#JUSTICE:348#"};
-				{ 7, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "#JUSTICE:348#"};
-				{ 9, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "#JUSTICE:2175#"};
-				{ 10, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "#JUSTICE:2175#"};
-				{ 16, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "#JUSTICE:220#" };
-				{ 17, 36922, "", "=q4=King's Amber", "=ds=#e7#", "#JUSTICE:220#" };
-				{ 18, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "#JUSTICE:220#" };
-				{ 19, 36931, "", "=q4=Ametrine", "=ds=#e7#", "#JUSTICE:110#" };
-				{ 20, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "#JUSTICE:110#" };
-				{ 21, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "#JUSTICE:110#" };
-				{ 23, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "#JUSTICE:110#"};
+				{ 1, 40679, "", "=q4=Chained Military Gorget", "=ds=#s2#", "#JUSTICE:290#"};
+				{ 2, 40680, "", "=q4=Encircling Burnished Gold Chains", "=ds=#s2#", "#JUSTICE:290#"};
+				{ 3, 40681, "", "=q4=Lattice Choker of Light", "=ds=#s2#", "#JUSTICE:290#"};
+				{ 4, 40678, "", "=q4=Pendant of the Outcast Hero", "=ds=#s2#", "#JUSTICE:290#"};
+				{ 6, 40684, "", "=q4=Mirror of Truth", "=ds=#s14#", "#JUSTICE:348#"};
+				{ 7, 40682, "", "=q4=Sundial of the Exiled", "=ds=#s14#", "#JUSTICE:348#"};
+				{ 8, 40685, "", "=q4=The Egg of Mortal Essence", "=ds=#s14#", "#JUSTICE:348#"};
+				{ 9, 40683, "", "=q4=Valor Medal of the First War", "=ds=#s14#", "#JUSTICE:348#"};
+				{ 11, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "#JUSTICE:2175#"};
+				{ 12, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#", "#JUSTICE:2175#"};
+				{ 14, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "#JUSTICE:110#"};
+				{ 16, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "#JUSTICE:550#"};
+				{ 17, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "#JUSTICE:550#"};
+				{ 18, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "#JUSTICE:550#"};
+				{ 20, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "#JUSTICE:348#"};
+				{ 21, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "#JUSTICE:348#"};
+				{ 22, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "#JUSTICE:348#"};
+				{ 24, 36919, "", "=q4=Cardinal Ruby", "=ds=#e7#", "#JUSTICE:220#" };
+				{ 25, 36922, "", "=q4=King's Amber", "=ds=#e7#", "#JUSTICE:220#" };
+				{ 26, 36925, "", "=q4=Majestic Zircon", "=ds=#e7#", "#JUSTICE:220#" };
+				{ 27, 36931, "", "=q4=Ametrine", "=ds=#e7#", "#JUSTICE:110#" };
+				{ 28, 36928, "", "=q4=Dreadstone", "=ds=#e7#", "#JUSTICE:110#" };
+				{ 29, 36934, "", "=q4=Eye of Zul", "=ds=#e7#", "#JUSTICE:110#" };
 			};
 		};
 		info = {
@@ -11394,16 +11309,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 40720, "", "=q4=Renewal of Life", "=ds=#s13#", "#JUSTICE:347#"};
 				{ 3, 40717, "", "=q4=Ring of Invincibility", "=ds=#s13#", "#JUSTICE:347#"};
 				{ 4, 40718, "", "=q4=Signet of the Impregnable Fortress", "=ds=#s13#", "#JUSTICE:347#"};
-				{ 6, 40342, "", "=q4=Idol of Awakening", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 7, 40321, "", "=q4=Idol of the Shooting Star", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 8, 39757, "", "=q4=Idol of Worship", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 9, 40191, "", "=q4=Libram of Radiance", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 10, 40337, "", "=q4=Libram of Resurgence", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 11, 40268, "", "=q4=Libram of Tolerance", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 12, 40207, "", "=q4=Sigil of Awareness", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 13, 40322, "", "=q4=Totem of Dueling", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 14, 40267, "", "=q4=Totem of Hex", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 15, 39728, "", "=q4=Totem of Misery", "=ds=#s16#", "#JUSTICE:347#" };
 				{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "#JUSTICE:417#"};
 				{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "#JUSTICE:417#"};
 				{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "#JUSTICE:417#"};
@@ -11456,24 +11361,13 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 45823, "", "=q4=Frozen Tear of Elune", "=ds=#s2#", "#JUSTICE:405#" };
 				{ 4, 45821, "", "=q4=Shard of the Crystal Forest", "=ds=#s2#", "#JUSTICE:405#" };
 				{ 5, 45819, "", "=q4=Spiked Battleguard Choker", "=ds=#s2#", "#JUSTICE:405#" };
-				{ 7, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "#JUSTICE:770#" };
-				{ 8, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "#JUSTICE:770#" };
-				{ 9, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "#JUSTICE:770#" };
-				{ 11, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "#JUSTICE:770#" };
-				{ 12, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "#JUSTICE:770#" };
-				{ 13, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "#JUSTICE:770#" };
-				{ 16, 45509, "", "=q4=Idol of the Corruptor", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 17, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 18, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 19, 45510, "", "=q4=Libram of Discord", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 20, 45436, "", "=q4=Libram of the Resolute", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 21, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 22, 45144, "", "=q4=Sigil of Deflection", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 23, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 24, 45114, "", "=q4=Steamcaller's Totem", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 25, 45255, "", "=q4=Thunderfall Totem", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 26, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#s16#", "#JUSTICE:405#" };
-				{ 28, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "#JUSTICE:186#" };
+				{ 7, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "#JUSTICE:186#" };
+				{ 16, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=", "#JUSTICE:770#" };
+				{ 17, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=", "#JUSTICE:770#" };
+				{ 18, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=", "#JUSTICE:770#" };
+				{ 20, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=", "#JUSTICE:770#" };
+				{ 21, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=", "#JUSTICE:770#" };
+				{ 22, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=", "#JUSTICE:770#" };
 			};
 		};
 		info = {
@@ -11549,21 +11443,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 47734, "", "=q4=Mark of Supremacy", "=ds=#s14#", "#JUSTICE:591#" };
 				{ 9, 48722, "", "=q4=Shard of the Crystal Heart", "=ds=#s14#", "#JUSTICE:591#" };
 				{ 10, 48724, "", "=q4=Talisman of Resurgence", "=ds=#s14#", "#JUSTICE:591#" };
-				{ 12, 47659, "", "=q4=Crimson Star", "=ds=#w11#", "#JUSTICE:295#" };
-				{ 13, 47660, "", "=q4=Blades of the Sable Cross", "=ds=#w11#", "#JUSTICE:295#" };
-				{ 14, 47658, "", "=q4=Brimstone Igniter", "=ds=#w12#", "#JUSTICE:295#" };	
-				{ 16, 47671, "", "=q4=Idol of Flaring Growth", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 17, 47670, "", "=q4=Idol of Lunar Fury", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 18, 47668, "", "=q4=Idol of Mutilation", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 19, 47664, "", "=q4=Libram of Defiance", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 20, 47661, "", "=q4=Libram of Valiance", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 21, 47662, "", "=q4=Libram of Veracity", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 22, 47672, "", "=q4=Sigil of Insolence", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 23, 47673, "", "=q4=Sigil of Virulence", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 24, 47665, "", "=q4=Totem of Calming Tides", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 25, 47666, "", "=q4=Totem of Electrifying Wind", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 26, 47667, "", "=q4=Totem of Quaking Earth", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 28, 47556, "", "=q3=Crusader Orb", "=ds=#e6#", "#JUSTICE:226#"};
+				{ 16, 47658, "", "=q4=Brimstone Igniter", "=ds=#w12#", "#JUSTICE:295#" };	
+				{ 18, 47556, "", "=q3=Crusader Orb", "=ds=#e6#", "#JUSTICE:226#"};
 			};
 		};
 		info = {
@@ -11613,23 +11494,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 50470, "", "=q4=Recovered Scarlet Onslaught Cape", "=ds=#s4#", "#JUSTICE:579#" };
 				{ 4, 50466, "", "=q4=Sentinel's Winter Cloak", "=ds=#s4#", "#JUSTICE:579#" };
 				{ 5, 50469, "", "=q4=Volde's Cloak of the Night Sky", "=ds=#s4#", "#JUSTICE:579#" };
-				{ 7, 50356, "", "=q4=Corroded Skeleton Key", "=ds=#s14#", "#JUSTICE:695#" };
-				{ 8, 50355, "", "=q4=Herkuml War Token", "=ds=#s14#", "#JUSTICE:695#" };
-				{ 9, 50357, "", "=q4=Maghia's Misguided Quill", "=ds=#s14#", "#JUSTICE:695#" };
-				{ 10, 50358, "", "=q4=Purified Lunar Dust", "=ds=#s14#", "#JUSTICE:695#" };
-				{ 12, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "#JUSTICE:347#" };
-				{ 16, 50456, "", "=q4=Idol of the Crying Moon", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 17, 50457, "", "=q4=Idol of the Lunar Eclipse", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 18, 50454, "", "=q4=Idol of the Black Willow", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 19, 50460, "", "=q4=Libram of Blinding Light", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 20, 50461, "", "=q4=Libram of the Eternal Tower", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 21, 50455, "", "=q4=Libram of Three Truths", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 22, 50462, "", "=q4=Sigil of the Bone Gryphon", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 23, 50459, "", "=q4=Sigil of the Hanged Man", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 24, 50458, "", "=q4=Bizuri's Totem of Shattered Ice", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 25, 50463, "", "=q4=Totem of the Avalanche", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 26, 50464, "", "=q4=Totem of the Surging Sea", "=ds=#s16#", "#JUSTICE:347#" };
-				{ 28, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "#JUSTICE:266#" };
+				{ 16, 50356, "", "=q4=Corroded Skeleton Key", "=ds=#s14#", "#JUSTICE:695#" };
+				{ 17, 50355, "", "=q4=Herkuml War Token", "=ds=#s14#", "#JUSTICE:695#" };
+				{ 18, 50357, "", "=q4=Maghia's Misguided Quill", "=ds=#s14#", "#JUSTICE:695#" };
+				{ 19, 50358, "", "=q4=Purified Lunar Dust", "=ds=#s14#", "#JUSTICE:695#" };
+				{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "#JUSTICE:266#" };
 			};
 		};
 		info = {
