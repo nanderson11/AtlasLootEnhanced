@@ -1509,7 +1509,7 @@ function WishList:CreateCompareFrameWishListSelect()
 	
 	-- Wishlist frame
 	-- ###########################################
-	Frame.WishlistButton = CreateFrame("Button","AtlasLootCompareFrame_WishlistButton",Frame,"UIPanelButtonTemplate2")
+	Frame.WishlistButton = CreateFrame("Button","AtlasLootCompareFrame_WishlistButton",Frame,"UIPanelButtonTemplate")
 	Frame.WishlistButton:SetText(AL["Wishlist"])
 	Frame.WishlistButton:SetWidth(160)
 	Frame.WishlistButton:SetHeight(22)

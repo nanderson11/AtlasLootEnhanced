@@ -28,7 +28,7 @@ function AtlasLoot:CreateAtlasInfoFrame()
 	Frame.Info:SetWidth(Frame.Info:GetStringWidth() < 180 and Frame.Info:GetStringWidth()+5 or 180)
 	Frame.Info:SetHeight(10)
 
-	Frame.Button = CreateFrame("Button","AtlasLoot_AtlasInfoFrame_ToggleALButton",Frame,"UIPanelButtonTemplate2")
+	Frame.Button = CreateFrame("Button","AtlasLoot_AtlasInfoFrame_ToggleALButton",Frame,"UIPanelButtonTemplate")
 	Frame.Button:SetText(AL["Toggle AL Panel"])
 	Frame.Button:SetWidth(Frame.Button:GetTextWidth() + 30)
 	Frame.Button:SetHeight(20)

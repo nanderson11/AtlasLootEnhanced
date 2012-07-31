@@ -1,10 +1,10 @@
 ﻿## Interface: 50001
-## Title: AtlasLoot_Cataclysm
-## Title-deDE: AtlasLoot |cFF0099FF[Cataclysm]|r
+## Title: AtlasLoot_MistsofPandoria
+## Title-deDE: AtlasLoot |cFF0099FF[MoP]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 浩劫與重生
 ## Title-zhCN: AtlasLoot |cFF0099FF[大灾变]|r
-## Notes: AtlasLoot loot tables from Cataclysm
-## Notes-deDE: AtlasLoot Beuteverzeichnisse für Cataclysm
+## Notes: AtlasLoot loot tables from MoP
+## Notes-deDE: AtlasLoot Beuteverzeichnisse für MoP
 ## Notes-zhTW: AtlasLoot 浩劫與重生資料片物品掉落資料庫
 ## Notes-zhCN: AtlasLoot Enhanced 的《大灾变》副本掉落信息
 ## Author: Hegarol	
@@ -16,4 +16,4 @@
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
 
-cataclysm.lua
+mistsofpandaria.lua

@@ -65,7 +65,7 @@ function AtlasLoot:CreateItemFrame()
 		Frame.ItemButtons[i].buttonID = i
 	end
 
-	Frame.Switch = CreateFrame("Button","AtlasLoot10Man25ManSwitch",Frame,"UIPanelButtonTemplate2")
+	Frame.Switch = CreateFrame("Button","AtlasLoot10Man25ManSwitch",Frame,"UIPanelButtonTemplate")
 	Frame.Switch:SetWidth(160)
 	Frame.Switch:SetHeight(23)
 	Frame.Switch:SetPoint("BOTTOM", Frame, "BOTTOM", -120, 4)
@@ -94,7 +94,7 @@ function AtlasLoot:CreateItemFrame()
 	Frame.RaidFinder:SetScript("OnClick", AtlasLoot.RaidFinderToggle)
 	Frame.RaidFinder:Hide()
 	
-	Frame.Back = CreateFrame("Button","AtlasLootItemsFrame_BACK",Frame,"UIPanelButtonTemplate2")
+	Frame.Back = CreateFrame("Button","AtlasLootItemsFrame_BACK",Frame,"UIPanelButtonTemplate")
 	Frame.Back:SetWidth(80)
 	Frame.Back:SetText(AL["Back"])
 	Frame.Back:SetPoint("BOTTOM", Frame, "BOTTOM", 0, 4)
@@ -139,7 +139,7 @@ function AtlasLoot:CreateItemFrame()
 	Frame.PrevBack:SetWidth(30)
 	Frame.Prev:Hide()
 	
-	Frame.ServerQuery = CreateFrame("Button","AtlasLootServerQueryButton",Frame,"UIPanelButtonTemplate2")
+	Frame.ServerQuery = CreateFrame("Button","AtlasLootServerQueryButton",Frame,"UIPanelButtonTemplate")
 	Frame.ServerQuery:SetWidth(160)
 	Frame.ServerQuery:SetHeight(23)
 	Frame.ServerQuery:SetPoint("BOTTOM", Frame, "BOTTOM", 120, 4)

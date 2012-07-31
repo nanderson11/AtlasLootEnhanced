@@ -306,7 +306,7 @@ do
 		
 		Frame.ScrollFrame.Buttons = {}
 		
-		Frame.CompareFrame = CreateFrame("Button", frameName.."_CompareFrame", Frame, "UIPanelButtonTemplate2")
+		Frame.CompareFrame = CreateFrame("Button", frameName.."_CompareFrame", Frame, "UIPanelButtonTemplate")
 		Frame.CompareFrame:SetWidth(200)
 		Frame.CompareFrame:SetHeight(20)
 		Frame.CompareFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 545, -560)

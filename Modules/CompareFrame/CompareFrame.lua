@@ -1752,7 +1752,7 @@ function AtlasLoot:CompareFrame_Create()
 							SearchFrame.SearchBox:ClearFocus()
 						end)
 	
-	SearchFrame.Search = CreateFrame("Button","AtlasLootCompareFrameSearch_SearchButton",Frame,"UIPanelButtonTemplate2")
+	SearchFrame.Search = CreateFrame("Button","AtlasLootCompareFrameSearch_SearchButton",Frame,"UIPanelButtonTemplate")
 	SearchFrame.Search:SetText(AL["Search"])
 	SearchFrame.Search:SetWidth(69)
 	SearchFrame.Search:SetHeight(20)
@@ -1762,7 +1762,7 @@ function AtlasLoot:CompareFrame_Create()
 							SearchFrame.SearchBox:ClearFocus()
 						end)
 						
-	SearchFrame.Clear = CreateFrame("Button","AtlasLootCompareFrameSearch_ClearButton",Frame,"UIPanelButtonTemplate2")
+	SearchFrame.Clear = CreateFrame("Button","AtlasLootCompareFrameSearch_ClearButton",Frame,"UIPanelButtonTemplate")
 	SearchFrame.Clear:SetText(AL["Clear"])
 	SearchFrame.Clear:SetWidth(80)
 	SearchFrame.Clear:SetHeight(22)
@@ -1814,7 +1814,7 @@ function AtlasLoot:CompareFrame_Create()
 	
 	-- ############################################
 	-- 3er button Leiste#
-	Frame.Close2 = CreateFrame("Button","AtlasLootCompareFrame_CloseButton2",Frame,"UIPanelButtonTemplate2")
+	Frame.Close2 = CreateFrame("Button","AtlasLootCompareFrame_CloseButton2",Frame,"UIPanelButtonTemplate")
 	Frame.Close2:SetText(CLOSE)
 	Frame.Close2:SetWidth(80)
 	Frame.Close2:SetHeight(22)
