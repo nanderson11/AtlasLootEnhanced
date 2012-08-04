@@ -14,6 +14,7 @@ local moduleName = "AtlasLootMoP"
 ---- Shado-pan Monastery
 ---- Scholomance
 ---- Scarlet Halls
+---- Scarlet Monastery
 ---- Mogu'Shan Palace
 --- Factions
 --- PvP
@@ -129,11 +130,22 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ScholoChillheart"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88336, "", "=q3=Icewrath Belt", "=ds=#s10#, #a2#" },
+				{ 3, 88337, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
+				{ 4, 88338, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
+				{ 5, 88335, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
+    			{ 6, 88339, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
+    			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+    			{ 17, 82823, "", "=q3=Icewrath Belt", "=ds=#s10#, #a2#" },
+    			{ 18, 82820, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
+    			{ 19, 82821, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
+    			{ 20, 81566, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
+    			{ 21, 82822, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
 			}
 		};
 		info = {
-			name = "Instructor Chillheart",
+			name = AtlasLoot:EJ_GetBossName("Instructor Chillheart", 659),
 			module = moduleName, instance = "Scholomance",
 		};
 	};
@@ -141,11 +153,22 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ScholoJandice"] = {
 		["Normal"] = {
 			{
-				{ 1, 22394, "", "=q3=Staff of Metanoia", "=ds=#w9#"};
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88349, "", "=q3=Phantasmal Drape", "=ds=#s4#" },
+				{ 3, 88345, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 4, 88347, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
+				{ 5, 88348, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
+    			{ 6, 88346, "", "=q3=Metanoia Shield", "=ds=#w8#" },
+    			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+    			{ 17, 82850, "", "=q3=Phantasmal Drape", "=ds=#s4#, #a1#" },
+    			{ 18, 82848, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
+    			{ 19, 82851, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
+    			{ 20, 82852, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
+    			{ 21, 82847, "", "=q3=Metanoia Shield", "=ds=#w8#" },
 			}
 		};
 		info = {
-			name = BabbleBoss["Jandice Barov"],
+			name = AtlasLoot:EJ_GetBossName("Jandice Barov", 663),
 			module = moduleName, instance = "Scholomance",
 		};
 	};
@@ -153,35 +176,45 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ScholoRattlegore"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88340, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 88342, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
+				{ 4, 88343, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
+    			{ 5, 88344, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
+    			{ 6, 88341, "", "=q3=Necromantic Wand", "=ds=#w12#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82825, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
+				{ 18, 82827, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
+				{ 19, 82828, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
+    			{ 20, 82824, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
+    			{ 21, 82826, "", "=q3=Necromantic Wand", "=ds=#w12#" },
 			}
 		};
 		info = {
-			name = BabbleBoss["Rattlegore"],
+			name = AtlasLoot:EJ_GetBossName("Rattlegore", 665),
 			module = moduleName, instance = "Scholomance",
 		};
 	};
 
-	AtlasLoot_Data["ScholoLillianVoss"] = {
+	AtlasLoot_Data["ScholoVoss"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88350, "", "=q3=Leggings of Unleashed Anguish", "=ds=#s11#, #a1#" },
+				{ 3, 88351, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
+				{ 4, 88352, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
+    			{ 5, 88353, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
+    			{ 6, 88354, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82854, "", "=q3=Leggings of Unleashed Anguish", "=ds=#s11#, #a1#" },
+    			{ 18, 82853, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
+        		{ 19, 82855, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
+    			{ 20, 82856, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
+    			{ 21, 81567, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
 			}
 		};
 		info = {
-			name = "Lillian Voss",
-			module = moduleName, instance = "Scholomance",
-		};
-	};
-
-	AtlasLoot_Data["ScholoSlate"] = {
-		["Normal"] = {
-			{
-
-			}
-		};
-		info = {
-			name = "Professor Slate",
+			name = AtlasLoot:EJ_GetBossName("Lilian Voss", 666),
 			module = moduleName, instance = "Scholomance",
 		};
 	};
@@ -189,11 +222,29 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ScholoGandling"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88359, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
+				{ 3, 88356, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
+				{ 4, 88361, "", "=q3=Gloves of Explosive Pain", "=ds=#s9#, #a3#" },
+    			{ 5, 88362, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
+    			{ 6, 88357, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
+    			{ 7, 88358, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
+    			{ 8, 88360, "", "=q3=Price of Progress", "=ds=#s14#" },
+    			{ 9, 88355, "", "=q3=Searing Words", "=ds=#s14#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82859, "", "=q4=Headmaster's Will", "=ds=#w9#" },
+				{ 18, 82861, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
+				{ 19, 82858, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
+				{ 20, 82860, "", "=q3=Gloves of Explosive Pain", "=ds=#s9#, #a3#" },
+    			{ 21, 82862, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
+    			{ 22, 82857, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
+    			{ 23, 81268, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
+    			{ 24, 81266, "", "=q3=Price of Progress", "=ds=#s14#" },
+    			{ 25, 81267, "", "=q3=Searing Words", "=ds=#s14#" },
 			}
 		};
 		info = {
-			name = BabbleBoss["Darkmaster Gandling"],
+			name = AtlasLoot:EJ_GetBossName("Darkmaster Gandling", 684),
 			module = moduleName, instance = "Scholomance",
 		};
 	};
@@ -314,6 +365,90 @@ local moduleName = "AtlasLootMoP"
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Flameweaver Kogler", 656),
 			module = moduleName, instance = "ScarletHalls",
+		};
+	};
+
+		-------------------------
+		--- Scarlet Monastery ---
+		-------------------------
+
+	AtlasLoot_Data["SMThalnos"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88288, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
+   				{ 3, 88284, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
+    			{ 4, 88286, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
+    			{ 5, 88287, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
+    			{ 6, 88285, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81571, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
+    			{ 18, 81569, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
+    			{ 19, 81570, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
+    			{ 20, 81572, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
+    			{ 21, 81560, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Thalnos the Soulrender", 688),
+			module = moduleName, instance = "ScarletMonastery",
+		};
+	};
+
+	AtlasLoot_Data["SMKorloff"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88290, "", "=q3=Scorched Earth Cloak", "=ds=#s4#, #a1#" },
+				{ 3, 88291, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
+				{ 4, 88292, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
+				{ 5, 88293, "", "=q3=Firefinger Ring", "=ds=#s13#" },
+    			{ 6, 88289, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81575, "", "=q3=Scorched Earth Cloak", "=ds=#s4#, #a1#" },
+				{ 18, 81573, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
+				{ 19, 81574, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
+				{ 20, 81561, "", "=q3=Firefinger Ring", "=ds=#s13#" },
+    			{ 21, 81576, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Brother Korloff", 671),
+			module = moduleName, instance = "ScarletMonastery",
+		};
+	};
+
+	AtlasLoot_Data["SMWhitemane"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88299, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
+				{ 3, 88298, "", "=q3=Leggings of Hallowed Fire", "=ds=#s11#, #a1#" },
+    			{ 4, 88302, "", "=q3=Incarnadine Scarlet Spaulders", "=ds=#s3#, #a2#" },
+    			{ 5, 88295, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
+				{ 6, 88303, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
+				{ 7, 88296, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
+				{ 8, 88300, "", "=q3=Triune Signet", "=ds=#s13#" },
+				{ 9, 88294, "", "=q3=Flashing Steel Talisman", "=ds=#s14#" },
+				{ 10, 88297, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
+    			{ 11, 88301, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 87551, "", "=q4=Helios, Durand's Soul of Purity", "=ds=#s2#" },
+				{ 18, 81692, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
+				{ 19, 81689, "", "=q3=Leggings of Hallowed Fire", "=ds=#s11#, #a1#" },
+				{ 20, 81690, "", "=q3=Incarnadine Scarlet Spaulders", "=ds=#s3#, #a2#" },
+				{ 21, 81688, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
+				{ 22, 81578, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
+				{ 23, 81687, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
+				{ 24, 81562, "", "=q3=Triune Signet", "=ds=Finger, #m20#" },
+    			{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#, #m20#" },
+    			{ 26, 81577, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
+    			{ 27, 81691, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("High Inquisitor Whitemane", 674),
+			module = moduleName, instance = "ScarletMonastery",
 		};
 	};
 

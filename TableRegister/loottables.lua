@@ -1305,65 +1305,25 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { "Scarlet Halls", {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "Scarlett Halls" },
 		},
 
-		["SMArmory"] = {
+		["ScarletMonastery"] = {
 			["Bosses"] = {
-				{ "SMArmoryLoot", 4 },
-				{ "SMTrash", 7 },
-				{ "VWOWSets#1", 8, hide = true },
+				{ "SMThalnos", EncounterJournalID = 688 },
+				{ "SMKorloff", EncounterJournalID = 671 },
+				{ "SMWhitemane", EncounterJournalID = 674 },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
-		},
-
-		["SMCathedral"] = {
-			["Bosses"] = {
-				{ "SMCathedralLoot", {2,3,4} },
-				{ "SMTrash", 9 },
-				{ "VWOWSets#1", 10, hide = true },
-			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Cathedral"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
-		},
-
-		["SMLibrary"] = {
-			["Bosses"] = {
-				{ "SMLibraryLoot", {2,3} },
-				{ "SMTrash", 9 },
-				{ "VWOWSets#1", 10, hide = true },
-			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Library"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
-		},
-
-		["SMGraveyard"] = {
-			["Bosses"] = {
-				{ "SMGraveyardLoot", {2,4} },
-				{ "HeadlessHorseman", 5, hide = true },
-				{ "SMTrash", 10 },
-				{ "VWOWSets#1", 11, hide = true },
-			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Graveyard"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { BabbleZone["Scarlet Monastery"], {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "ScarletMonastery" },
 		},
 
 		["Scholomance"] = {
 			["Bosses"] = {
-				{ "OldKeys", {1,2}, hide = true },
-				{ "SCHOLOKirtonostheHerald", 9 },
-				{ "SCHOLOJandiceBarov", 10 },
-				{ "SCHOLORattlegore", 11 },
-				{ "SCHOLODeathKnight", 12 },
-				{ "SCHOLORasFrostwhisper", 13 },
-				{ "SCHOLOLorekeeperPolkelt", 14 },
-				{ "SCHOLODoctorTheolenKrastinov", 15 },
-				{ "SCHOLOInstructorMalicia", 16 },
-				{ "SCHOLOLadyIlluciaBarov", 17 },
-				{ "SCHOLOLordAlexeiBarov", 18 },
-				{ "SCHOLOQuestItems", {19,25,27,28}, hide = true },
-				{ "SCHOLOTheRavenian", 20 },
-				{ "SCHOLODarkmasterGandling", 21 },
-				{ "SCHOLOMardukVectus", {22,23} },
-				{ "SCHOLOBloodStewardofKirtonos", 24 },
-				{ "SCHOLOTrash", 30 },
-				{ "VWOWScholo", 31, hide = true },
+				{ "ScholoChillheart", EncounterJournalID = 659 },
+				{ "ScholoJandice", EncounterJournalID = 663 },
+				{ "ScholoRattlegore", EncounterJournalID = 665 },
+				{ "ScholoVoss", EncounterJournalID = 666 },
+				{ "ScholoGandling", EncounterJournalID = 684 },
+				{ "ScholoTrash", },
 			},
-			["Info"] = { BabbleZone["Scholomance"], "AtlasLootClassicWoW", mapname = "Scholomance" },
+			["Info"] = { BabbleZone["Scholomance"], {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "Scholomance" },
 		},
 
 		["TheDeadminesEnt"] = "TheDeadminesEaI",
