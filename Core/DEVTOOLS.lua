@@ -497,6 +497,9 @@ function AtlasLoot:GetEJDetails(bool)
 		iniIndex = iniIndex + 1
         iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)
 	end
+	if bool == false or bool == nil then
+		AtlasLoot:GetEJDetails(true)
+	end
 end
 
 local atlasSupportRemoved = false
