@@ -1296,6 +1296,15 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Gnomeregan"], "AtlasLootClassicWoW", mapname = "Gnomeregan" },
 		},
 
+		["ScarletHalls"] = {
+			["Bosses"] = {
+				{ "SHBraun", EncounterJournalID = 660 },
+				{ "SHHarlan", EncounterJournalID = 654 },
+				{ "SHKoegler", EncounterJournalID = 656 },
+			},
+			["Info"] = { "Scarlet Halls", {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "Scarlett Halls" },
+		},
+
 		["SMArmory"] = {
 			["Bosses"] = {
 				{ "SMArmoryLoot", 4 },

@@ -29,6 +29,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Ragefire Chasm
 ---- Razorfen Downs
 ---- Razorfen Kraul
+---- Scarlet Halls
 ---- Scarlet Monastery
 ---- Scholomance
 ---- Shadowfang Keep
@@ -2891,7 +2892,7 @@ local moduleName = "AtlasLootClassicWoW"
 		--- Ragefire Chasm ---
 		----------------------
 
-	AtlasLoot_Data["RagefireChasmLoot"] = {
+	AtlasLoot_Data["RagefireChasmLootPreMoP"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Oggleflint"], ""};
@@ -2917,14 +2918,25 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["RagefireChasmMoPLoot"] = {
+	AtlasLoot_Data["RagefireChasm"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=Adarogg", ""};
-				{ 6, 0, "INV_Box_01", "=q6=Koranthal", ""};
+    			{ 3, 82772, "", "=q3=Snarlmouth Leggings", "=ds=#s11#, #a1#" },
+    			{ 4, 82879, "", "=q3=Collarspike Bracers", "=ds=#s8#, #a3#" },
+				{ 5, 82880, "", "=q3=Hand of Adarogg", "=ds=#h1#, #w4#", "", "" };
+				{ 7, 0, "INV_Box_01", "=q6=Koranthal", ""};
+				{ 8, 82282, "", "=q3=Dark Ritual Cape", "=ds=#s4#", "" };
+				{ 9, 82881, "", "=q3=Cuffs of Black Elements", "=ds=#s8#, #a1#", "" };
+				{ 10, 82877, "", "=q3=Grasp of the Broken Totem", "=ds=#s5#, #a2#" },
 				{ 16, 0, "INV_Box_01", "=q6=Magnaw", ""};
-				{ 17, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#"};
+				{ 17, 82878, "", "=q3=Fireworm Robes", "=ds=#s5#, #a1#" },
+				{ 18, 82884, "", "=q3=Chitonous Bracers", "=ds=#s8#, #a2#", "" };
+				{ 19, 82885, "", "=q3=Flameseared Carapace", "=ds=#s5#, #a3#", "" };
 				{ 21, 0, "INV_Box_01", "=q6=Gordoth", ""};
+				{ 22, 82886, "", "=q3=Gorewalker Treads", "=ds=#s12#, #a3#", "" };
+				{ 23, 82883, "", "=q3=Bloodcursed Felblade", "=ds=#h1#, #w10#" };
+				{ 24, 82888, "", "=q3=Heartboiler Staff", "=ds=#w9#", "" };
 			};
 		};
 		info = {
@@ -2932,6 +2944,7 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "RagefireChasm",
 		};
 	};
+				
 
 		----------------------
 		--- Razorfen Downs ---
@@ -3043,140 +3056,118 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
+		---------------------
+		--- Scarlet Halls ---
+		---------------------
+
+	AtlasLoot_Data["SHBraun"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88266, "", "=q3=Hound Trainer's Gloves", "=ds=#s9#, #a2#" },
+				{ 3, 88268, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
+				{ 4, 88267, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
+				{ 5, 88265, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
+   				{ 6, 88264, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81695, "", "=q3=Hound Trainer's Gloves", "=ds=#s9#, #a2#" },
+				{ 18, 81696, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
+				{ 19, 81694, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
+				{ 20, 81563, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
+    			{ 21, 81693, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Houndmaster Braun", 660),
+			module = moduleName, instance = "ScarletHalls",
+		};
+	};
+
+	AtlasLoot_Data["SHHarlan"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88269, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+   				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 19, 81698, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 20, 81568, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+				{ 21, 81697, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Armsmaster Harlan", 654),
+			module = moduleName, instance = "ScarletHalls",
+		};
+	};
+
+	AtlasLoot_Data["SHHarlan"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88269, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+   				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 19, 81698, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 20, 81568, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+				{ 21, 81697, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Armsmaster Harlan", 654),
+			module = moduleName, instance = "ScarletHalls",
+		};
+	};
+
+	AtlasLoot_Data["SHKoegler"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88279, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
+				{ 3, 88282, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
+				{ 4, 88276, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
+    			{ 5, 88283, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+    			{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+    			{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+    			{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+    			{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+    			{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+    			{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 87550, "", "=q4=Vithrak, Gaze of the Deadman", "=ds=#s13#" },
+    			{ 18, 82817, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
+    			{ 19, 82818, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
+    			{ 20, 82815, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
+    			{ 21, 82819, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+    			{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+    			{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+    			{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+    			{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+    			{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+    			{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Flameweaver Kogler", 656),
+			module = moduleName, instance = "ScarletHalls",
+		};
+	};
+
 		-------------------------
 		--- Scarlet Monastery ---
 		-------------------------
 
-	AtlasLoot_Data["SMArmoryLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Herod"], ""};
-				{ 2, 7719, "", "=q3=Raging Berserker's Helm", "=ds=#s1#, #a3#", "", "30.62%"};
-				{ 3, 7718, "", "=q3=Herod's Shoulder", "=ds=#s3#, #a3#", "", "30.82%"};
-				{ 4, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "", "12.75%"};
-				{ 5, 7717, "", "=q3=Ravager", "=ds=#h2#, #w1#", "", "12.86%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Scarlet Trainee"], ""};
-				{ 17, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.4%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"],
-			module = moduleName,
-		};
-	};
 
-	AtlasLoot_Data["SMCathedralLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["High Inquisitor Fairbanks"], ""};
-				{ 2, 19507, "", "=q3=Inquisitor's Shawl", "=ds=#s3#, #a1#", "", "15.94%"};
-				{ 3, 19508, "", "=q3=Branded Leather Bracers", "=ds=#s8#, #a2#", "", "16.17%"};
-				{ 4, 19509, "", "=q3=Dusty Mail Boots", "=ds=#s12#, #a3#", "", "17.24%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Scarlet Commander Mograine"], ""};
-				{ 7, 7724, "", "=q3=Gauntlets of Divinity", "=ds=#s9#, #a3#", "", "17.49%"};
-				{ 8, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "", "12.95%"};
-				{ 9, 7723, "", "=q3=Mograine's Might", "=ds=#h2#, #w6#", "", "17.13%"};
-				{ 10, 7726, "", "=q3=Aegis of the Scarlet Commander", "=ds=#w8#", "", "38.37%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["High Inquisitor Whitemane"], ""};
-				{ 17, 7720, "", "=q3=Whitemane's Chapeau", "=ds=#s1#, #a1#", "", "34.01%"};
-				{ 18, 7722, "", "=q3=Triune Amulet", "=ds=#s2#", "", "33.23%"};
-				{ 19, 7721, "", "=q3=Hand of Righteousness", "=ds=#h3#, #w6#", "", "18.32%"};
-				{ 20, 20976, "", "=q2=Design: Citrine Pendant of Golden Healing", "=ds=#p12# (190)", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Cathedral"],
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMGraveyardLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Interrogator Vishas"], ""};
-				{ 2, 7683, "", "=q3=Bloody Brass Knuckles", "=ds=#h1#, #w13#", "", "66.1%"};
-				{ 3, 7682, "", "=q3=Torturing Poker", "=ds=#h1#, #w4#", "", "5.56%"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Bloodmage Thalnos"], ""};
-				{ 6, 7684, "", "=q3=Bloodmage Mantle", "=ds=#s3#, #a1#", "", "48.46%"};
-				{ 7, 7685, "", "=q3=Orb of the Forgotten Seer", "=ds=#s15#", "", "47.07%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Ironspine"], ""};
-				{ 10, 7688, "", "=q3=Ironspine's Ribcage", "=ds=#s5#, #a3#", "", "32.91%"};
-				{ 11, 7686, "", "=q3=Ironspine's Eye", "=ds=#s13#", "", "40.08%"};
-				{ 12, 7687, "", "=q3=Ironspine's Fist", "=ds=#h1#, #w6#", "", "20.34%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Azshir the Sleepless"], ""};
-				{ 17, 7709, "", "=q3=Blighted Leggings", "=ds=#s11#, #a1#", "", "31.19%"};
-				{ 18, 7731, "", "=q3=Ghostshard Talisman", "=ds=#s2#", "", "32.71%"};
-				{ 19, 7708, "", "=q3=Necrotic Wand", "=ds=#w12#", "", "30.72%"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Fallen Champion"], ""};
-				{ 22, 7691, "", "=q3=Embalmed Shroud", "=ds=#s1#, #a1#", "", "38.58%"};
-				{ 23, 7690, "", "=q3=Ebon Vise", "=ds=#s9#, #a2#", "", "37.83%"};
-				{ 24, 7689, "", "=q3=Morbid Dawn", "=ds=#h2#, #w10#", "", "19.15%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Graveyard"],
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMLibraryLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Houndmaster Loksey"], ""};
-				{ 2, 7756, "", "=q3=Dog Training Gloves", "=ds=#s9#, #a2#", "", "53.66%"};
-				{ 3, 7710, "", "=q3=Loksey's Training Stick", "=ds=#w9#", "", "13.96%"};
-				{ 4, 3456, "", "=q3=Dog Whistle", "=ds=#e13#", "", "21.33%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Arcanist Doan"], ""};
-				{ 17, 34227, "", "=q4=Deadman's Hand", "=ds=#s13#", "", ""};
-				{ 18, 7712, "", "=q3=Mantle of Doan", "=ds=#s3#, #a1#", "", "41.96%"};
-				{ 19, 7711, "", "=q3=Robe of Doan", "=ds=#s5#, #a1#", "", "42.86%"};
-				{ 20, 7714, "", "=q3=Hypnotic Blade", "=ds=#h3#, #w4#", "", "39.91%"};
-				{ 21, 7713, "", "=q3=Illusionary Rod", "=ds=#w9#", "", "38.44%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Library"],
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 7728, "", "=q3=Beguiler Robes", "=ds=#s5#, #a1#", "", "0.01%"};
-				{ 2, 7755, "", "=q3=Flintrock Shoulders", "=ds=#s3#, #a2#", "", "0.00%"};
-				{ 3, 7727, "", "=q3=Watchman Pauldrons", "=ds=#s3#, #a2#", "", "0.01%"};
-				{ 4, 7760, "", "=q3=Warchief Kilt", "=ds=#s11#, #a2#", "", "0.00%"};
-				{ 5, 7754, "", "=q3=Harbinger Boots", "=ds=#s12#, #a2#", "", "0.01%"};
-				{ 6, 5819, "", "=q3=Sunblaze Coif", "=ds=#s1#, #a3#", "", "0.01%"};
-				{ 7, 7759, "", "=q3=Archon Chestpiece", "=ds=#s5#, #a3#", "", "0.00%"};
-				{ 8, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#, #a3#", "", "0.3%"};
-				{ 9, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#, #a3#", "", "0.1%"};
-				{ 10, 2262, "", "=q3=Mark of Kern", "=ds=#s13#", "", "0.01%"};
-				{ 11, 1992, "", "=q3=Swampchill Fetish", "=ds=#s15#", "", "0.00%"};
-				{ 13, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#, #a3#", "", "1.6%"};
-				{ 14, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#, #a3#", "", "1.7%"};
-				{ 15, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#, #a3#", "", "1.6%"};
-				{ 16, 5756, "", "=q3=Sliverblade", "=ds=#h1#, #w4#", "", "0.01%"};
-				{ 17, 8225, "", "=q3=Tainted Pierce", "=ds=#h1#, #w10#", "", "0.01%"};
-				{ 18, 8226, "", "=q3=The Butcher", "=ds=#h1#, #w10#", "", "0.01%"};
-				{ 19, 7786, "", "=q3=Headsplitter", "=ds=#h1#, #w1#", "", "0.01%"};
-				{ 20, 7761, "", "=q3=Steelclaw Reaver", "=ds=#h1#, #w1#", "", "0.01%"};
-				{ 21, 7753, "", "=q3=Bloodspiller", "=ds=#h2#, #w1#", "", "0.01%"};
-				{ 22, 7752, "", "=q3=Dreamslayer", "=ds=#h1#, #w6#", "", "0.01%"};
-				{ 23, 7736, "", "=q3=Fight Club", "=ds=#h1#, #w6#", "", "0.00%"};
-				{ 24, 7730, "", "=q3=Cobalt Crusher", "=ds=#h2#, #w6#", "", "0.01%"};
-				{ 25, 7758, "", "=q3=Ruthless Shiv", "=ds=#w7#", "", "0.00%"};
-				{ 26, 7757, "", "=q3=Windweaver Staff", "=ds=#w9#", "", "0.01%"};
-				{ 27, 7787, "", "=q3=Resplendent Guardian", "=ds=#w8#", "", "0.01%"};
-				{ 28, 7729, "", "=q3=Chesterfall Musket", "=ds=#w5#", "", "0.01%"};
-			}
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, NextPrevDisable = true,
-		};
-	};
 
 		-------------------
 		--- Scholomance ---

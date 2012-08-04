@@ -7166,9 +7166,10 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PetsMoP"] = {
 		["Normal"] = {
 			{
-				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "=ds="};
-				{ 1, 82775, "", "=q4=Sapphire Cub", "=ds="};
-				{ 1, 82774, "", "=q4=Jade Owl", "=ds="};
+				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "=ds="};--new darkmoon pet
+				{ 1, 82775, "", "=q4=Sapphire Cub", "=ds="};--jc pet
+				{ 1, 82774, "", "=q4=Jade Owl", "=ds="};--jc pet
+				{ 1, 89587, "", "=q4=Porcupette", "=ds="};--Quest item
 			};
 		};
 		info = {

@@ -13,8 +13,7 @@ local moduleName = "AtlasLootMoP"
 ---- Gate of the Setting Sun
 ---- Shado-pan Monastery
 ---- Scholomance
----- Scarlet Monestary - Wing 1
----- Scarlet Monestary - Wing 2
+---- Scarlet Halls
 ---- Mogu'Shan Palace
 --- Factions
 --- PvP
@@ -211,131 +210,110 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
-		----------------------------------
-		--- Scarlet Monestary - Wing 1 ---
-		----------------------------------
+		---------------------
+		--- Scarlet Halls ---
+		---------------------
 
-	AtlasLoot_Data["SMGraveThalnos"] = {
+	AtlasLoot_Data["SHBraun"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88266, "", "=q3=Hound Trainer's Gloves", "=ds=#s9#, #a2#" },
+				{ 3, 88268, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
+				{ 4, 88267, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
+				{ 5, 88265, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
+   				{ 6, 88264, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81695, "", "=q3=Hound Trainer's Gloves", "=ds=#s9#, #a2#" },
+				{ 18, 81696, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
+				{ 19, 81694, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
+				{ 20, 81563, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
+    			{ 21, 81693, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
 			};
 		};
 		info = {
-			name = BabbleBoss["Bloodmage Thalnos"], instance = "SMGraveyard",
-			module = moduleName,
+			name = AtlasLoot:EJ_GetBossName("Houndmaster Braun", 660),
+			module = moduleName, instance = "ScarletHalls",
 		};
 	};
 
-	AtlasLoot_Data["SMGraveTBD"] = {
+	AtlasLoot_Data["SHHarlan"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88269, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+   				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 19, 81698, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 20, 81568, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+				{ 21, 81697, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
 			};
 		};
 		info = {
-			name = "Unknown", instance = "SMGraveyard",
-			module = moduleName,
+			name = AtlasLoot:EJ_GetBossName("Armsmaster Harlan", 654),
+			module = moduleName, instance = "ScarletHalls",
 		};
 	};
 
-	AtlasLoot_Data["SMGraveFairbanks"] = {
+	AtlasLoot_Data["SHHarlan"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88269, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+   				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
+				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
+				{ 19, 81698, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
+				{ 20, 81568, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
+				{ 21, 81697, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
 			};
 		};
 		info = {
-			name = BabbleBoss["High Inquisitor Fairbanks"], instance = "SMGraveyard",
-			module = moduleName,
+			name = AtlasLoot:EJ_GetBossName("Armsmaster Harlan", 654),
+			module = moduleName, instance = "ScarletHalls",
 		};
 	};
 
-	AtlasLoot_Data["SMGraveMograine"] = {
+	AtlasLoot_Data["SHKoegler"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 88279, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
+				{ 3, 88282, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
+				{ 4, 88276, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
+    			{ 5, 88283, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+    			{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+    			{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+    			{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+    			{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+    			{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+    			{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 87550, "", "=q4=Vithrak, Gaze of the Deadman", "=ds=#s13#" },
+    			{ 18, 82817, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
+    			{ 19, 82818, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
+    			{ 20, 82815, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
+    			{ 21, 82819, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+    			{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+    			{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+    			{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+    			{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+    			{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+    			{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
 			};
 		};
 		info = {
-			name = BabbleBoss["Scarlet Commander Mograine"], instance = "SMGraveyard",
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMGraveWhitemane"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = BabbleBoss["High Inquisitor Whitemane"], instance = "SMGraveyard",
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMGraveTrash"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = "trash", instance = "SMGraveyard",
-			module = moduleName,
-		};
-	};
-
-		----------------------------------
-		--- Scarlet Monestary - Wing 2 ---
-		----------------------------------
-
-	AtlasLoot_Data["SMArmoryLoksey"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = BabbleBoss["Houndmaster Loksey"], instance = "SMArmory",
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMArmoryHerod"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = BabbleBoss["Herod"], instance = "SMArmory",
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMArmoryDoan"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = BabbleBoss["Arcanist Doan"], instance = "SMArmory",
-			module = moduleName,
-		};
-	};
-
-	AtlasLoot_Data["SMArmoryTrash"] = {
-		["Normal"] = {
-			{
-
-			};
-		};
-		info = {
-			name = "trash", instance = "SMArmory",
-			module = moduleName,
+			name = AtlasLoot:EJ_GetBossName("Flameweaver Kogler", 656),
+			module = moduleName, instance = "ScarletHalls",
 		};
 	};
 
@@ -361,6 +339,22 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = "The Anglers",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+	AtlasLoot_Data["GoldenLotus"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "trade_engineering", "=q6=#r3#", ""};
+				{ 2, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s16#"};
+				{ 1, 0, "trade_engineering", "=q6=#r4#", ""};
+
+				{ 16, 0, "trade_engineering", "=q6=#r5#", ""};
+			};
+		};
+		info = {
+			name = "Golden Lotus",
 			module = moduleName, menu = "REPMENU",
 		};
 	}
