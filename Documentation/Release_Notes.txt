@@ -5,8 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v6.05.05 (??? ??, 2012)
-Minor additions and translations.
+v7.00.00 (??? ??, 2012)
+Added loot for MoP instances.
+Added new MoP factions.
+Updated Coren Direbrew loot.
+Removed all relics and thrown weapons.
+Many minor additions, fixes and translations.
 
 v6.05.04 (Mar 05, 2012)
 Added an About page.

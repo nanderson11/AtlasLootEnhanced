@@ -8,8 +8,8 @@ local moduleName = "AtlasLootMoP"
 
 -- Index
 --- Dungeons & Raids
----- Stormstout Brewery
 ---- Temple of the Jade Serpent
+---- Stormstout Brewery
 ---- Gate of the Setting Sun
 ---- Shado-pan Monastery
 ---- Scholomance
@@ -23,6 +23,103 @@ local moduleName = "AtlasLootMoP"
 	------------------------
 	--- Dungeons & Raids ---
 	------------------------
+
+		------------------------------
+		--- Temple of Jade Serpent ---
+		------------------------------
+
+	AtlasLoot_Data["TJSMari"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80862, "", "=q3=Treads of Corrupted Water", "=ds=#s12#, #a2#" },
+    			{ 3, 80860, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
+    			{ 4, 80861, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81123, "", "=q3=Wind-Soaked Drape", "=ds=#s4#" },
+				{ 18, 81072, "", "=q3=Treads of Corrupted Water", "=ds=#s12#, #a2#" },
+    			{ 19, 81075, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
+    			{ 20, 81083, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
+    			{ 21, 81124, "", "=q3=Crystallized Droplet", "=ds=#s13#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Wise Mari", 672),
+			module = moduleName, instance = "TempleOfTheJadeSerpent",
+		};
+	};
+
+	AtlasLoot_Data["TJSStonestep"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+    			{ 1, 80864, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
+    			{ 2, 80865, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
+    			{ 3, 80863, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+    			{ 17, 81058, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
+    			{ 18, 81126, "", "=q3=Leggings of Whispered Dreams", "=ds=#s11#, #a2#" },
+    			{ 19, 81060, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
+    			{ 20, 81073, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
+    			{ 21, 81125, "", "=q3=Windswept Pages", "=ds=#s14#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Lorewalker Stonestep", 664),
+			module = moduleName, instance = "TempleOfTheJadeSerpent",
+		};
+	};
+
+	AtlasLoot_Data["TJSFlameheart"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80866, "", "=q3=Cape of Entanglement", "=ds=#s4#" },
+				{ 3, 80867, "", "=q3=Serpentstrike Shoulderpads", "=ds=#s3#, #a4#" },
+    			{ 4, 80872, "", "=q3=Firebelcher Hand Cannon", "=ds=#w5#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81084, "", "=q3=Cape of Entanglement", "=ds=#s4#" },
+				{ 18, 81127, "", "=q3=Flameheart Sandals", "=ds=#s12#, #a1#" },
+				{ 19, 81070, "", "=q3=Serpentstrike Shoulderpads", "=ds=#s3#, #a4#" },
+				{ 20, 81128, "", "=q3=Signet of Dancing Jade", "=ds=#s13#" },
+    			{ 21, 81067, "", "=q3=Firebelcher Hand Cannon", "=ds=#w5#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Liu Flameheart", 673),
+			module = moduleName, instance = "TempleOfTheJadeSerpent",
+		};
+	};
+
+	AtlasLoot_Data["TJSShaDoubt"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80868, "", "=q3=Doubtridden Shoulderguards", "=ds=#s3#, #a2#" },
+				{ 3, 80870, "", "=q3=Robes of Despair", "=ds=#s5#, #a2#" },
+				{ 4, 80871, "", "=q3=Neverdare Shoulders", "=ds=#s3#, #a3#" },
+				{ 5, 80869, "", "=q3=Hopecrusher Gauntlets", "=ds=#s9#, #a3#" },
+				{ 6, 80873, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
+    			{ 7, 80874, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h1#, #w6#" },
+				{ 18, 81129, "", "=q3=Cloak of Failing Will", "=ds=#s4#" },
+				{ 19, 81132, "", "=q3=Paralyzing Gloves", "=ds=#s9#, #a1#" },
+				{ 20, 81071, "", "=q3=Doubtridden Shoulderguards", "=ds=#s3#, #a2#" },
+				{ 21, 81082, "", "=q3=Robes of Despair", "=ds=#s5#, #a2#" },
+				{ 22, 81069, "", "=q3=Neverdare Shoulders", "=ds=#s3#, #a3#" },
+				{ 23, 81074, "", "=q3=Hopecrusher Gauntlets", "=ds=#s9#, #a3#" },
+				{ 24, 81130, "", "=q3=Binding of Broken Dreams", "=ds=#s10#, #a4#" },
+				{ 25, 81131, "", "=q3=Mindbreaker Pendant", "=ds=#s2#" },
+				{ 26, 81063, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
+    			{ 27, 81079, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Sha of Doubt", 685),
+			module = moduleName, instance = "TempleOfTheJadeSerpent",
+		};
+	};
 
 		--------------------------
 		--- Stormstout Brewery ---
@@ -110,10 +207,6 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, instance = "StormstoutBrewery",
 		};
 	};
-
-		------------------------------
-		--- Temple of Jade Serpent ---
-		------------------------------
 
 		---------------------------------
 		--- Gates of the Setting Sun ---

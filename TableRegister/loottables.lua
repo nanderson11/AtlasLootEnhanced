@@ -53,6 +53,17 @@ AtlasLoot_LootTableRegister = {
 -----------------------------------
 
 	---- Dungeons
+
+		["JadeSerpent"] = {
+			["Bosses"] = {
+				{ "TJSMari", EncounterJournalID = 672 },
+				{ "TJSStonestep", EncounterJournalID = 664 },
+				{ "TJSFlameheart", EncounterJournalID = 673 },
+				{ "TJSShaDoubt", EncounterJournalID = 685 },
+			},
+			["Info"] = { "Temple of the Jade Serpent", "AtlasLootMoP", mapname = "Temple of the Jade Serpent", EncounterJournalID = 313 },
+		},
+
 		["StormstoutBrewery"] = {
 			["Bosses"] = {
 				{ "BreweryOokOok" },
@@ -379,13 +390,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Pit of Saron"], "AtlasLootWotLK", mapname = "PitofSaron", EncounterJournalID = 278 },
 		},
-				[274] = {
-					[593] = "Drakkari Colossus",
-					[592] = "Slad'ran",
-					[594] = "Moorabi",
-					[596] = "Gal'darah",
-					["Gundrak"] = true,
-				},
+
 		["Gundrak"] = {
 			["Bosses"] = {
 				{ "GundrakSladran", 3, EncounterJournalID = 592 },
