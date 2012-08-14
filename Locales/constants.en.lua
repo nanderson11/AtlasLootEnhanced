@@ -247,9 +247,7 @@ if AL then
 	AL["ilvl 226"] = true;
 	AL["ilvl 245"] = true;
 	AL["ilvl 264"] = true;
-	AL["ilvl 378"] = true;
 	AL["ilvl 397"] = true;
-	AL["ilvl 410"] = true;
 	AL["Gladiator"] = true;
 	AL["Vengeful"] = true;
 	AL["Merciless"] = true;
@@ -270,6 +268,7 @@ if AL then
 	AL["Level 70"] = true;
 	AL["Level 80"] = true;
 	AL["Level 85"] = true;
+	AL["Level 90"] = true;
 	AL["|cffff0000(unsafe)"] = true;
 	AL["Misc"] = true;
 	AL["Rewards"] = true;
@@ -357,6 +356,7 @@ if AL then
 	AL["Tier 10 Set"] = true;
 	AL["Tier 11/12 Set"] = true;
 	AL["Tier 13 Set"] = true;
+	AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 
 	-- PvP Menu
@@ -942,6 +942,9 @@ if AL then
 	AL["Destruction"] = true;
 	AL["Tanking"] = true;
 	AL["DPS"] = true;
+	AL["Mistweaver"] = true;
+	AL["Brewmaster"] = true;
+	AL["Windwalker"] = true;
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = true;

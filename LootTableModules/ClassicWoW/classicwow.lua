@@ -2924,7 +2924,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=Adarogg", ""};
     			{ 2, 82772, "", "=q3=Snarlmouth Leggings", "=ds=#s11#, #a1#" },
     			{ 3, 82879, "", "=q3=Collarspike Bracers", "=ds=#s8#, #a3#" },
-				{ 4, 82880, "", "=q3=Hand of Adarogg", "=ds=#h1#, #w4#", "", "" };
+				{ 4, 82880, "", "=q3=Fang of Adarogg", "=ds=#h1#, #w4#", "", "" };
 				{ 6, 0, "INV_Box_01", "=q6=Koranthal", ""};
 				{ 7, 82882, "", "=q3=Dark Ritual Cape", "=ds=#s4#", "" };
 				{ 8, 82881, "", "=q3=Cuffs of Black Elements", "=ds=#s8#, #a1#", "" };

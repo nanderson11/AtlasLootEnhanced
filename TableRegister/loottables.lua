@@ -61,7 +61,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TJSFlameheart", EncounterJournalID = 673 },
 				{ "TJSShaDoubt", EncounterJournalID = 685 },
 			},
-			["Info"] = { "Temple of the Jade Serpent", "AtlasLootMoP", mapname = "Temple of the Jade Serpent", EncounterJournalID = 313 },
+			["Info"] = { BabbleZone["Temple of the Jade Serpent"], "AtlasLootMoP", mapname = "Temple of the Jade Serpent", EncounterJournalID = 313 },
 		},
 
 		["StormstoutBrewery"] = {
@@ -71,7 +71,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BreweryYanZhu" },
 				{ "BreweryTrash" },
 			},
-			["Info"] = { "Stormstout Brewery", "AtlasLootMoP" },
+			["Info"] = { BabbleZone["Stormstout Brewery"], "AtlasLootMoP" },
 		},
 
 ---------------------------

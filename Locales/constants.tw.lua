@@ -247,9 +247,7 @@ if AL then
 	AL["ilvl 226"] = "等級 226";
 	AL["ilvl 245"] = "等級 245";
 	AL["ilvl 264"] = "等級 264";
-	AL["ilvl 378"] = "等級 378";
 	AL["ilvl 397"] = "等級 397";
-	AL["ilvl 410"] = "等級 410";
 	AL["Gladiator"] = "鬥士";
 	AL["Vengeful"] = "復仇";
 	AL["Merciless"] = "殘忍";

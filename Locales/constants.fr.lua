@@ -247,9 +247,7 @@ if AL then
 	--AL["ilvl 226"] = true;
 	--AL["ilvl 245"] = true;
 	--AL["ilvl 264"] = true;
-	--AL["ilvl 378"] = true;
 	--AL["ilvl 397"] = true;
-	--AL["ilvl 410"] = true;
 	AL["Gladiator"] = "Gladiateur";
 	AL["Vengeful"] = "Vengeur";
 	AL["Merciless"] = "Impitoyable";

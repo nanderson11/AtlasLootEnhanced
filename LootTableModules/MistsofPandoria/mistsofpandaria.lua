@@ -53,9 +53,9 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-    			{ 1, 80864, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
-    			{ 2, 80865, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
-    			{ 3, 80863, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
+    			{ 2, 80864, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
+    			{ 3, 80865, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
+    			{ 4, 80863, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
     			{ 17, 81058, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
     			{ 18, 81126, "", "=q3=Leggings of Whispered Dreams", "=ds=#s11#, #a2#" },
@@ -96,7 +96,7 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 80868, "", "=q3=Doubtridden Shoulderguards", "=ds=#s3#, #a2#" },
-				{ 3, 80870, "", "=q3=Robes of Despair", "=ds=#s5#, #a2#" },
+				{ 3, 80870, "", "=q3=Chestguard of Despair", "=ds=#s5#, #a2#" },
 				{ 4, 80871, "", "=q3=Neverdare Shoulders", "=ds=#s3#, #a3#" },
 				{ 5, 80869, "", "=q3=Hopecrusher Gauntlets", "=ds=#s9#, #a3#" },
 				{ 6, 80873, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
@@ -106,7 +106,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 81129, "", "=q3=Cloak of Failing Will", "=ds=#s4#" },
 				{ 19, 81132, "", "=q3=Paralyzing Gloves", "=ds=#s9#, #a1#" },
 				{ 20, 81071, "", "=q3=Doubtridden Shoulderguards", "=ds=#s3#, #a2#" },
-				{ 21, 81082, "", "=q3=Robes of Despair", "=ds=#s5#, #a2#" },
+				{ 21, 81082, "", "=q3=Chestguard of Despair", "=ds=#s5#, #a2#" },
 				{ 22, 81069, "", "=q3=Neverdare Shoulders", "=ds=#s3#, #a3#" },
 				{ 23, 81074, "", "=q3=Hopecrusher Gauntlets", "=ds=#s9#, #a3#" },
 				{ 24, 81130, "", "=q3=Binding of Broken Dreams", "=ds=#s10#, #a4#" },
