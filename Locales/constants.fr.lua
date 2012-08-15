@@ -268,6 +268,7 @@ if AL then
 	AL["Level 70"] = "Niveau 70";
 	AL["Level 80"] = "Niveau 80";
 	AL["Level 85"] = "Niveau 85";
+	AL["Level 90"] = "Niveau 90";
 	AL["|cffff0000(unsafe)"] = "|cffff0000(invalide)";
 	AL["Misc"] = "Divers";
 	AL["Rewards"] = "Récompenses";
@@ -289,7 +290,7 @@ if AL then
 	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
 
 	-- Text for Options Panel
-	AL["Atlasloot Options"] = "Options d'Atlasloot";
+	AL["Atlasloot Options"] = "Options d'AtlasLoot";
 	AL["Default Tooltips"] = "Infobulles par défault";
 	AL["Lootlink Tooltips"] = "Infobulles de Lootlink";
 	AL["|cff9d9d9dLootlink Tooltips|r"] = "|cff9d9d9dInfobulles de Lootlink";
@@ -297,7 +298,7 @@ if AL then
 	AL["|cff9d9d9dItemSync Tooltips|r"] = "|cff9d9d9dInfobulles d'ItemSync";
 	AL["Use EquipCompare"] = "Utiliser EquipCompare";
 	AL["|cff9d9d9dUse EquipCompare|r"] = "|cff9d9d9dUtiliser EquipCompare";
-	AL["Show itemIDs at all times"] = "Toujours afficher l'ID sur les objets";
+	AL["Show itemIDs at all times"] = "Toujours afficher l'ID des objets";
 	AL["Hide AtlasLoot Panel"] = "Masquer le panneau d'AtlasLoot";
 	AL["Show Basic Minimap Button"] = "Afficher le bouton sur la mini-carte";
 	AL["|cff9d9d9dShow Basic Minimap Button|r"] = "|cff9d9d9dAfficher le bouton sur la mini-carte|r";
@@ -307,9 +308,9 @@ if AL then
 	AL["Button Position: "] = "Position du boutton :";
 	AL["Button Radius: "] = "Rayon du boutton";
 	AL["Done"] = "Fait";
-	AL["FuBar Toggle"] = "Active ou non FuBar";
+	AL["FuBar Toggle"] = "Activer ou non FuBar";
 	AL["Search Result: %s"] = "Résultat(s) de la recherche : %s";
-	AL["Search on"] = "Recherche activé";
+	AL["Search on"] = "Recherche activée";
 	AL["All modules"] = "Tous les modules";
 	AL["If checked, AtlasLoot will load and search across all the modules."] = "Si coché, AtlasLoot chargera et recherchera dans tous les modules.";
 	AL["Search options"] = "Options de la recherche";
@@ -355,6 +356,7 @@ if AL then
 	--AL["Tier 10 Set"] = true;
 	--AL["Tier 11/12 Set"] = true;
 	--AL["Tier 13 Set"] = true;
+	--AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = "Objets des cartes à jouer"; -- Trading Card Game Items
 
 	-- PvP Menu
