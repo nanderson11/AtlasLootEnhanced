@@ -60,7 +60,7 @@ local function returnItemTableString(tab)
 		end
 		for itemNum, item in ipairs(siteTab) do
 			local temp = ""
-			lootTableString = lootTableString.."    { "
+			lootTableString = lootTableString.."\t\t{ "
 			for id, entry in ipairs(item) do
 				local trim = ", "
 				if id == #item then
