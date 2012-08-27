@@ -10,17 +10,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "VALORPOINTSMENU", "inv_misc_cape_cataclysm_tank_d_01", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
-				{ 2, "JUSTICEPOINTSMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
-				{ 4, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 5, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
-				{ 7, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-				{ 8, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
-				{ 9, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
-				{ 10, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..BabbleInventory["Companions"], ""};
-				{ 11, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
-				{ 12, "TRANSFORMATIONMENU", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
-				{ 13, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
+				--{ 1, "VALORPOINTSMENU", "inv_misc_cape_cataclysm_tank_d_01", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 1, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 2, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 3, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
+				{ 5, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+				{ 6, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
+				{ 7, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
+				{ 8, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..BabbleInventory["Companions"], ""};
+				{ 9, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
+				{ 10, "TRANSFORMATIONMENU", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
+				{ 11, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 16, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], ""};
 				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
 				{ 19, "Heirloom", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"]};
@@ -39,7 +39,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["VALORPOINTSMENU"] = {
+--[[	AtlasLoot_Data["VALORPOINTSMENU"] = {
 		["Normal"] = {
 			{
 				{ 2, "ValorPoints", "inv_helmet_robe_raidwarlock_k_01", "=ds="..BabbleInventory["Cloth"], ""};
@@ -55,20 +55,21 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			name = AL["Valor Points"].." "..AL["Rewards"],
 			menu = "SETMENU",
 		};
-	}
+	}--]]
 
-	AtlasLoot_Data["JUSTICEPOINTSMENU"] = {
+	AtlasLoot_Data["JPCATAMENU"] = {
 		["Normal"] = {
 			{
 				{ 2, "JusticePoints", "inv_chest_robe_dungeonrobe_c_04", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "JusticePoints#3", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "JusticePoints#5", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
+				{ 5, "JusticePoints#6", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
 				{ 7, 52722, "", "=q4=Maelstrom Crystal", "", "#JUSTICE:3750#" },
 				{ 8, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#JUSTICE:1500#" },
 				{ 9, 53010, "", "=q1=Embersilk Cloth", "", "#JUSTICE:1250#" },
 				{ 10, 52185, "", "=q1=Elementium Ore", "", "#JUSTICE:1000#" },
 				{ 17, "JusticePoints#2", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "JusticePoints#4", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
+				{ 20, "JusticePoints#8", "inv_wand_1h_firelandsraid_d_01", "=ds="..AL["Weapons"], ""};
 				{ 22, 52721, "", "=q3=Heavenly Shard", "", "#JUSTICE:600#" },
 				{ 23, 52719, "", "=q2=Greater Celestial Essence", "", "#JUSTICE:400#" },
 				{ 24, 52976, "", "=q1=Savage Leather", "", "#JUSTICE:375#" },

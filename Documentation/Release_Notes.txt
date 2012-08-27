@@ -5,10 +5,11 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.00.00 (??? ??, 2012)
-Added loot for MoP instances.
-Added new MoP factions.
-Updated Coren Direbrew loot.
+v7.00.00 (Aug 28, 2012)
+Compatible with Patch 5.0.4.
+Added loot for revamped Ragefire Chasm, Scarlet Monastery and Scholomance.
+Added various preparations for Mists of Pandaria.
+Added Dungeon Journal to Classic, BC and WotLK instances.
 Removed all relics and thrown weapons.
 Many minor additions, fixes and translations.
 
