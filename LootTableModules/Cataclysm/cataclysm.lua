@@ -6766,9 +6766,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 6, 39286, "", "=q3=Frosty's Collar", "#ACHIEVEMENTID:683#"};
 				{ 7, 46802, "", "=q3=Heavy Murloc Egg", "#ACHIEVEMENTID:3536#"};
 				{ 8, 62540, "", "=q3=Lil' Deathwing", "#ACHIEVEMENTID:5377#"};
-				--{ 9, 85871, "", "=q3=Lucky Quilen Cub", "=q2=MoP"..AL["Collector's Edition"]};
-				{ 9, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
-				{ 10, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
+				{ 9, 85871, "", "=q3=Lucky Quilen Cub", "#ACHIEVEMENTID:6848#"};
+				{ 10, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
+				{ 11, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
 				{ 17, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
 				{ 18, 71726, "", "=q3=Murky's Little Soulstone", "#ACHIEVEMENTID:6185#"};
 				{ 19, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
@@ -7287,12 +7287,13 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
-				{ 2, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
-				{ 3, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
-				{ 4, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
-				{ 5, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
-				{ 6, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
-				{ 7, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 2, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
+				{ 3, 76889, "", "=q4=Spectral Gryphon", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m7#"};
+				{ 4, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
+				{ 5, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
+				{ 6, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
+				{ 7, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 8, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 17, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
 				{ 18, 78924, "", "=q4=Heart of the Aspects", "=ds=#e12#"};
