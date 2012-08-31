@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v7.??.?? (?? ??, 2012)
+Updated Engineering, First Aid and Mining with MoP recipes.
+Minor fixes and additions.
+
 v7.00.01 (Aug 29, 2012)
 Fixed a nasty bug with AtlasLoot_Loader.
 Minor additions.
