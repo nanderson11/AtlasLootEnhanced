@@ -264,30 +264,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["CorenDirebrew"] = {
 		["Normal"] = {
 			{
-				{ 1, 71336, "", "=q4=Petrified Pickled Egg", "=ds=#s14#"};
-				{ 2, 71334, "", "=q4=Bubblier Brightbrew Charm", "=ds=#s14#"};
-				{ 3, 71333, "", "=q4=Bitterer Balebrew Charm", "=ds=#s14#"};
-				{ 4, 71338, "", "=q4=Brawler's Trophy", "=ds=#s14#"};
-				{ 5, 71335, "", "=q4=Coren's Chilled Chromium Coaster", "=ds=#s14#"};
-				{ 6, 71337, "", "=q4=Mithril Stopwatch", "=ds=#s14#"};
-				{ 8, 38281, "", "=q1=Direbrew's Dire Brew", "=ds=#m2#"};
-				{ 16, 54535, "", "=q3=Keg-Shaped Treasure Chest", "=q5="..AL["Daily Reward"]};
-				{ 17, 71331, "", "=q4=Direbrew's Bloodied Shanker", "=ds=#h1#, #w4#"};
-				{ 18, 71332, "", "=q4=Tremendous Tankard O' Terror", "=ds=#h1#, #w6#"};
-				{ 19, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e26#"};
-				{ 20, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e26#"};
-				{ 22, 37863, "", "=q3=Direbrew's Remote", "=ds="};
-			};
-		};
-		info = {
-			name = BabbleBoss["Coren Direbrew"],
-			module = moduleName, menu = "BREWFESTMENU",
-		};
-	};
-
---[[	AtlasLoot_Data["CorenDirebrewMoP"] = {
-		["Normal"] = {
-			{
 				{ 1, 87573, "", "=q4=Thousand-Year Pickled Egg", "=ds=#s14#"};
 				{ 2, 87575, "", "=q4=Bubbliest Brightbrew Charm", "=ds=#s14#"};
 				{ 3, 87576, "", "=q4=Bitterest Balebrew Charm", "=ds=#s14#"};
@@ -307,7 +283,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			name = BabbleBoss["Coren Direbrew"],
 			module = moduleName, menu = "BREWFESTMENU",
 		};
-	};]]--
+	};
 
 		-----------------------
 		--- Children's Week ---
@@ -505,15 +481,15 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["HeadlessHorseman"] = {
 		["Normal"] = {
 			{
-				{ 1, 71327, "", "=q4=Band of Ghoulish Glee", "=ds=#s13#"};
-				{ 2, 71330, "", "=q4=Seal of the Petrified Pumpkin", "=ds=#s13#"};
-				{ 3, 71328, "", "=q4=The Horseman's Signet", "=ds=#s13#"};
-				{ 4, 71329, "", "=q4=Wicked Witch's Ring", "=ds=#s13#"};
+				{ 1, 88167, "", "=q4=Band of the Petrified Pumpkin", "=ds=#s13#"};
+				{ 2, 88168, "", "=q4=Seal of Ghoulish Glee", "=ds=#s13#"};
+				{ 3, 88169, "", "=q4=The Horseman's Ring", "=ds=#s13#"};
+				{ 4, 88166, "", "=q4=Wicked Witch's Signet", "=ds=#s13#"};
 				{ 6, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#", "", "100%"};
 				{ 7, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
 				{ 16, 54516, "", "=q3=Loot-Filled Pumpkin", "=q5="..AL["Daily Reward"]};
-				{ 17, 71326, "", "=q4=The Horseman's Horrific Helmet", "=ds=#s1#, #a4#"};
-				{ 18, 71325, "", "=q4=The Horseman's Sinister Saber", "=ds=#h3#, #w10#"};
+				{ 17, 87569, "", "=q4=The Horseman's Horrific Hood", "=ds=#s1#, #a4#"};
+				{ 18, 87570, "", "=q4=The Horseman's Sinister Slicer", "=ds=#h3#, #w10#"};
 				{ 19, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#"};
 				{ 20, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
 				{ 21, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};

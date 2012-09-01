@@ -77,7 +77,6 @@ AtlasLoot_TextParsing = {
 	{ "#s13#", BabbleInventory["Ring"] },
 	{ "#s14#", BabbleInventory["Trinket"] },
 	{ "#s15#", BabbleInventory["Held in Off-Hand"] },
-	{ "#s16#", BabbleInventory["Relic"] },
 
 	-- Weapon Weilding
 	{ "#h1#", BabbleInventory["One-Hand"] },
@@ -96,7 +95,6 @@ AtlasLoot_TextParsing = {
 	{ "#w8#", BabbleInventory["Shield"] },
 	{ "#w9#", BabbleInventory["Staff"] },
 	{ "#w10#", BabbleInventory["Sword"] },
-	{ "#w11#", BabbleInventory["Thrown"] },
 	{ "#w12#", BabbleInventory["Wand"] },
 	{ "#w13#", BabbleInventory["Fist Weapon"] },
 
