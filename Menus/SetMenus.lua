@@ -182,10 +182,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 6, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Blizzard Store"], ""};
 				{ 7, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
 				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
-				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement & Faction Reward"], ""};
+				{ 18, "PetsAchievementFaction", "spell_shaman_hex", "=ds="..AL["Achievement Reward"], ""};
 				{ 19, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
 				{ 20, "PetsCardGame", "inv_netherwhelp", "=ds="..AL["Card Game Companions"], ""};
-				{ 21, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};
+				{ 21, "PetsFaction", "spell_shaman_hex", "=ds="..AL["Faction Companions"], ""};
+				{ 22, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};
 			};
 		};
 		info = {

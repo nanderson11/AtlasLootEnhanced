@@ -680,8 +680,6 @@ if AL then
 	AL["Outdoor"] = "野外";
 
 	-- Companions
-	AL["Achievement & Faction Reward Companions"] = "成就/聲望獎勵夥伴";
-	AL["Achievement & Faction Reward"] = "成就/聲望獎勵";
 	AL["Card Game Companions"] = "卡牌遊戲獎勵夥伴";
 	AL["Companion Accessories"] = "夥伴飾品";
 	AL["Blizzard Store"] = "暴雪商城";

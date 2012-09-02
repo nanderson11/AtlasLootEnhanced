@@ -557,8 +557,6 @@ if AL then
 	AL["Achievement"] = true;
 
 	-- Companions
-	AL["Achievement & Faction Reward Companions"] = true;
-	AL["Achievement & Faction Reward"] = true;
 	AL["Card Game Companions"] = true;
 	AL["Companion Accessories"] = true;
 	AL["Crafted Companions"] = true;

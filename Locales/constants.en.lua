@@ -683,8 +683,8 @@ if AL then
 	AL["Outdoor"] = true;
 
 	-- Companions
-	AL["Achievement & Faction Reward Companions"] = true;
-	AL["Achievement & Faction Reward"] = true;
+	AL["Achievement Companions"] = true;
+	AL["Faction Companions"] = true;
 	AL["Card Game Companions"] = true;
 	AL["Companion Accessories"] = true;
 	AL["Blizzard Store"] = true;

@@ -679,8 +679,6 @@ if AL then
 	AL["Outdoor"] = "Außenwelt";
 
 	-- Companions
-	AL["Achievement & Faction Reward Companions"] = "Erfolgs & Fraktionsbelohnungen";
-	AL["Achievement & Faction Reward"] = "Erfolgs & Fraktionsbelohnungen";
 	AL["Card Game Companions"] = "Kartenspiel-Haustiere";
 	AL["Companion Accessories"] = "Haustierzubehör";
 	AL["Blizzard Store"] = "Blizzard Shop";

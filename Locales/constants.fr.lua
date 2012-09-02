@@ -683,8 +683,6 @@ if AL then
 	AL["Outdoor"] = "Plein air";
 
 	-- Companions
-	AL["Achievement & Faction Reward Companions"] = "Haut fait & mascottes de récompenses de factions";
-	AL["Achievement & Faction Reward"] = "Haut fait & récompense de faction";
 	AL["Card Game Companions"] = "Mascottes des jeux de cartes";
 	AL["Companion Accessories"] = "Accessoires pour mascottes";
 	AL["Blizzard Store"] = "Boutique Blizzard";
