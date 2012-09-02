@@ -961,35 +961,35 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 2, 63398, "", "=q3=Armadillo Pup", "#ACHIEVEMENTID:5144#"};
-				{ 3, 54810, "", "=q3=Celestial Dragon", "#ACHIEVEMENTID:5875#" },
+				{ 3, 71387, "", "=q3=Brilliant Kaliri", "#ACHIEVEMENTID:5877#" },
+				{ 4, 54810, "", "=q3=Celestial Dragon", "#ACHIEVEMENTID:5875#" },
 				{
-					{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5892#, =ec1=#m6#"};
-					{ 4, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5812#, =ec1=#m7#"};
+					{ 5, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5892#, =ec1=#m6#"};
+					{ 5, 63138, "", "=q3=Dark Phoenix Hatchling", "#ACHIEVEMENTID:5812#, =ec1=#m7#"};
 				};
 				{
-					{ 5, 65364, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1=#m6#"};
-					{ 5, 65363, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1=#m7#"};
+					{ 6, 65364, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1=#m6#"};
+					{ 6, 65363, "", "=q3=Guild Herald", "#ACHIEVEMENTID:5201#, =ec1=#m7#"};
 				};
 				{
-					{ 6, 65362, "", "=q3=Guild Page", "#ACHIEVEMENTID:5179#, =ec1=#m6#"};
-					{ 6, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1=#m7#"};
+					{ 7, 65362, "", "=q3=Guild Page", "#ACHIEVEMENTID:5179#, =ec1=#m6#"};
+					{ 7, 65361, "", "=q3=Guild Page", "#ACHIEVEMENTID:5031#, =ec1=#m7#"};
 				};
-				{ 7, 85578, "", "=q3=Feral Vermling", "#ACHIEVEMENTID:7500#"};
-				{ 8, 86562, "", "=q3=Hopling", "#ACHIEVEMENTID:6402#"};
-				{ 9, 89686, "", "=q3=Jade Tentacle", "#ACHIEVEMENTID:7521#"};
-				{ 10, 44738, "", "=q3=Kirin Tor Familiar", "#ACHIEVEMENTID:1956#"};
-				{ 11, 44841, "", "=q3=Little Fawn's Salt Lick", "#ACHIEVEMENTID:2516#"};
-				{ 12, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5876#" },
-				{ 13, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
-				{ 14, 88147, "", "=q3=Singing Cricket Cage", "#ACHIEVEMENTID:6582#"};
-				{ 15, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
-				{ 17, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
+				{ 8, 85578, "", "=q3=Feral Vermling", "#ACHIEVEMENTID:7500#"};
+				{ 9, 86562, "", "=q3=Hopling", "#ACHIEVEMENTID:6402#"};
+				{ 10, 89686, "", "=q3=Jade Tentacle", "#ACHIEVEMENTID:7521#"};
+				{ 11, 44738, "", "=q3=Kirin Tor Familiar", "#ACHIEVEMENTID:1956#"};
+				{ 12, 44841, "", "=q3=Little Fawn's Salt Lick", "#ACHIEVEMENTID:2516#"};
+				{ 13, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5876#" },
+				{ 14, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
+				{ 15, 88147, "", "=q3=Singing Cricket Cage", "#ACHIEVEMENTID:6582#"};
+				{ 17, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
+				{ 18, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
 				{
-					{ 18, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
-					{ 18, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
+					{ 19, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
+					{ 19, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
 				};
-				{ 19, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
-				{ 20, 71387, "", "=q1=Brilliant Kaliri", "#ACHIEVEMENTID:5877#" },
+				{ 20, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
 				{ 21, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },
 				{ 22, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 			};
@@ -1119,7 +1119,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 73762, "", "=q3=Darkmoon Balloon", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 17, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 18, 73764, "", "=q3=Darkmoon Monkey", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 19, 80008, "", "=q3=Darkmoon Rabbit", "=ds="..AL["Drop"].." - "..BabbleFaction["Darkmoon Faire"]};
+				{ 19, 80008, "", "=q3=Darkmoon Rabbit", "#ACHIEVEMENTID:6332#"};
 				{ 20, 73903, "", "=q3=Darkmoon Tonk", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 21, 73765, "", "=q3=Darkmoon Turtle", "=ds="..BabbleFaction["Darkmoon Faire"]};
 				{ 22, 73905, "", "=q3=Darkmoon Zeppelin", "=ds="..BabbleFaction["Darkmoon Faire"]};
@@ -1138,7 +1138,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsPromotional"] = {
 		["Normal"] = {
 			{
-				{ 2, 20371, "", "=q3=Baneling", "=q2=Heart of the Swarm"..AL["Collector's Edition"]};
+				{ 2, 90177, "", "=q3=Baneling", "=q2=Heart of the Swarm "..AL["Collector's Edition"]};
 				{ 3, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
 				{ 4, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
 				{ 5, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};

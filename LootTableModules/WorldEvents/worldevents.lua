@@ -341,7 +341,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 		--- Feast of Winter Veil ---
 		----------------------------
 
-	AtlasLoot_Data["Winterviel"] = {
+	AtlasLoot_Data["Winterveil"] = {
 		["Normal"] = {
 			{
 				{ 1, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};

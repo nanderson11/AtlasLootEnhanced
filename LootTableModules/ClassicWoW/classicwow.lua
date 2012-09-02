@@ -2892,32 +2892,6 @@ local moduleName = "AtlasLootClassicWoW"
 		--- Ragefire Chasm ---
 		----------------------
 
---	AtlasLoot_Data["RagefireChasmLootPreMoP"] = {
---		["Normal"] = {
---			{
---				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Oggleflint"], ""};
---				{ 2, 68194, "", "=q3=Oggleflint's Inspirer", "=ds=#h1#, #w6#", "", ""};
---				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Taragaman the Hungerer"], ""};
---				{ 5, 14149, "", "=q3=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
---				{ 6, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
---				{ 7, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
---				{ 8, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
---				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
---				{ 17, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
---				{ 18, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
---				{ 19, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
---				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
---				{ 22, 68195, "", "=q3=Bazzalan's Blade", "=ds=#h1#, #w10#", "", "" };
---				{ 24, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
---				{ 25, 60499, "", "=q1=Searing Binding", "=ds=#m3#", "", "100%"};
---			};
---		};
---		info = {
---			name = BabbleZone["Ragefire Chasm"],
---			module = moduleName, instance = "RagefireChasm",
---		};
---	};
-
 	AtlasLoot_Data["RagefireChasmLoot"] = {
 		["Normal"] = {
 			{

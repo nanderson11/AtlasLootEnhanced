@@ -654,6 +654,8 @@ if AL then
 	AL["Troll"] = true;
 	AL["Tol'vir"] = true;
 	AL["Orc"] = true;
+	AL["Pandaren"] = true;
+	AL["Mogu"] = true;
 	AL["Stats"] = true;
 	AL["Resilience"] = true;
 	AL["Professions"] = true;

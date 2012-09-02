@@ -859,6 +859,30 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["ArchaeologyPandaren"] = {
+		["Normal"] = {
+			{
+				{ 2, "s113981", "89685", "=q3=Spear of Xuen", "=ds=#sr# ??", "=ds=#w7#"};
+				{ 4, "s113977", "", "=q1=Apothecary Tins", "=ds=#sr# ??"};
+				{ 5, "s113975", "", "=q1=Carved Bronze Mirror", "=ds=#sr# ??"};
+				{ 6, "s113974", "", "=q1=Empty Keg of Brewfather Xin Wo Yin", "=ds=#sr# ??"};
+				{ 7, "s113976", "", "=q1=Gold-Inlaid Porcelain Funerary Figurine", "=ds=#sr# ??"};
+				{ 8, "s113971", "", "=q1=Pandaren Game Board", "=ds=#sr# ??"};
+				{ 17, "s113980", "89684", "=q3=Umbrella of Chi-Ji", "=ds=#sr# ??", "=ds=#s15#"};
+				{ 19, "s113968", "", "=q1=Pandaren Tea Set", "=ds=#sr# ??"};
+				{ 20, "s113978", "", "=q1=Pearl of Yu'lon", "=ds=#sr# ??"};
+				{ 21, "s113979", "", "=q1=Standard of Niuzao", "=ds=#sr# ??"};
+				{ 22, "s113972", "", "=q1=Twin Stein Set of Brewfather Quan Tou Kuo", "=ds=#sr# ??"};
+				{ 23, "s113973", "", "=q1=Walking Cane of Brewfather Ren Yun", "=ds=#sr# ??"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Pandaren"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
 		---------------------
 		--- Blacksmithing ---
 		---------------------
