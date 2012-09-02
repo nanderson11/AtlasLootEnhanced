@@ -68,7 +68,6 @@ ignore:
 	- Libs/LibAboutPanel
 	- save.txt
 	- AtlasLoot.toc
-	- LootTableModules/MistsofPandoria
 	
 move-folders:
 	AtlasLoot/AtlasLootRELEASE.toc: AtlasLoot/AtlasLoot.toc
@@ -81,3 +80,4 @@ move-folders:
 	AtlasLoot/LootTableModules/ClassicWoW: AtlasLoot_ClassicWoW
 	AtlasLoot/LootTableModules/WorldEvents: AtlasLoot_WorldEvents
 	AtlasLoot/LootTableModules/WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
+	AtlasLoot/LootTableModules/MistsofPandoria: AtlasLoot_MistsofPandoria

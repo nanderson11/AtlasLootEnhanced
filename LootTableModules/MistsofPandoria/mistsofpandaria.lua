@@ -554,15 +554,32 @@ local moduleName = "AtlasLootMoP"
 	----------------
 
 		------------------------
-		--- The Tillers ---
+		--- The Anglers ---
 		------------------------
 
 	AtlasLoot_Data["Anglers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "trade_engineering", "=q6=#r4#", ""};
-
-				{ 16, 0, "trade_engineering", "=q6=#r5#", ""};
+				{ 1, 0, "achievement_faction_anglers", "=q6=#r2#", ""};
+				{ 2, 85505, "", "=q2=Recipe: Krasarang Fritters", "=ds=#p3# (525)"};
+				{ 3, 85502, "", "=q2=Recipe: Viseclaw Soup", "=ds=#p3# (525)"};
+				{ 5, 0, "achievement_faction_anglers", "=q6=#r3#", ""};
+				{ 6, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#"};
+				{ 7, 85500, "", "=q3=Anglers Fishing Raft", "=ds=#p24# (525)"};
+				{ 8, 84660, "", "=q2=Pandaren Fishing Pole", "=ds=#e20#"};
+				{ 10, 0, "achievement_faction_anglers", "=q6=#r4#", ""};
+				{ 11, 84661, "", "=q3=Dragon Fishing Pole", "=ds=#e20#"};
+				{ 12, 88535, "", "=q3=Sharpened Tuskarr Spear", "=ds=#h1#"};
+				{ 16, 0, "achievement_faction_anglers", "=q6=#r5#", ""};
+				{ 17, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e12#"};
+				{ 18, 87791, "", "=q4=Reins of the Crimson Water Strider", "=ds=#e12#"};
+				{ 19, 87794, "", "=q4=Reins of the Golden Water Strider", "=ds=#e12#"};
+				{ 20, 87793, "", "=q4=Reins of the Jade Water Strider", "=ds=#e12#"};
+				{ 21, 87792, "", "=q4=Reins of the Orange Water Strider", "=ds=#e12#"};
+				{ 22, 89401, "", "=q3=Anglers Tabard", "=ds=#s7#"};
+				{ 24, 0, "inv_box_04", "=q6=Nat Pagle", ""};
+				{ 25, 88563, "", "=q7=Nat's Fishing Journal", "=ds=#r4#"};
+				{ 26, 88710, "", "=q4=Nat's Hat", "=ds=#r5#"};
 			};
 		};
 		info = {
@@ -587,10 +604,26 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+	AtlasLoot_Data["Lorewalkers"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "achievement_faction_lorewalkers", "=q6=#r5#", ""};
+				{ 3, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#"};
+				{ 4, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#"};
+				{ 5, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
+				{ 6, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
+			};
+		};
+		info = {
+			name = "The Lorewalkers",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
 	AtlasLoot_Data["Tillers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "trade_engineering", "=q6=#r4#", ""};
+				{ 1, 0, "achievement_faction_tillers", "=q6=#r4#", ""};
 				{ 2, 89869, "", "=q3=Pandaren Scarecrow", "=ds="};
 				{ 3, 85268, "", "=q2=Spring Blossom Sapling", "=ds="};
 				{ 4, 85269, "", "=q2=Winter Blossom Sapling", "=ds="};
@@ -599,7 +632,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 89202, "", "=q1=Raptorleaf Seed", "=ds="};
 				{ 8, 85215, "", "=q1=Snakeroot Seed", "=ds="};
 				{ 9, 89233, "", "=q1=Songbell Seed", "=ds="};
-				{ 16, 0, "trade_engineering", "=q6=#r5#", ""};
+				{ 16, 0, "achievement_faction_tillers", "=q6=#r5#", ""};
 				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e12#"};
 				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e12#"};
 				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e12#"};

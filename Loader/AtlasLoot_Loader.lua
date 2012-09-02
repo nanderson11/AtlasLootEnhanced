@@ -20,7 +20,7 @@ AtlasLoot.Modules = {
 	{"AtlasLootBurningCrusade", "AtlasLoot_BurningCrusade", false, "", AL["Burning Crusade"] },
 	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
 	{"AtlasLootCataclysm", "AtlasLoot_Cataclysm", false, "", AL["Cataclysm"] },
-	--{"AtlasLootMoP", "AtlasLoot_MistsofPandoria", false, "", AL["Mists of Pandoria"] },
+	{"AtlasLootMoP", "AtlasLoot_MistsofPandoria", false, "", AL["Mists of Pandoria"] },
 	{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
 	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
 }
