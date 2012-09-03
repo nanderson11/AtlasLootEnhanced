@@ -5,11 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.??.?? (?? ??, 2012)
+v7.01.00 (?? ??, 2012)
+Added all new dungeon loot: Temple of the Jade Serpent, Stormstout Brewery, Mogu'Shan Palace, Shado-pan Monastery, Siege of Niuzao Temple, Gate of the Setting Sun
 Added unique Mists of Pandaria companions.
 Updated Engineering, First Aid and Mining with MoP recipes.
 Updated loot tables for Coren Direbrew (Brewfest) and Headless Horsemen (Hallow's End).
-Minor fixes and additions.
+Minor fixes, additions and translations.
 
 v7.00.01 (Aug 29, 2012)
 Fixed a nasty bug with AtlasLoot_Loader.

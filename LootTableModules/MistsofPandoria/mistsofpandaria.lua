@@ -10,12 +10,13 @@ local moduleName = "AtlasLootMoP"
 --- Dungeons & Raids
 ---- Temple of the Jade Serpent
 ---- Stormstout Brewery
----- Gate of the Setting Sun
+---- Mogu'Shan Palace
 ---- Shado-pan Monastery
+---- Gate of the Setting Sun
+---- Siege of Niuzao Temple
 ---- Scholomance
 ---- Scarlet Halls
 ---- Scarlet Monastery
----- Mogu'Shan Palace
 --- Factions
 --- PvP
 --- Sets & Collections
@@ -89,7 +90,7 @@ local moduleName = "AtlasLootMoP"
 			}
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Liu Flameheart", 673),
+			name = AtlasLoot:EJ_GetBossName("Liu Flameheart", 658),
 			module = moduleName, instance = "TempleOfTheJadeSerpent",
 		};
 	};
@@ -119,7 +120,7 @@ local moduleName = "AtlasLootMoP"
 			}
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Sha of Doubt", 685),
+			name = AtlasLoot:EJ_GetBossName("Sha of Doubt", 335),
 			module = moduleName, instance = "TempleOfTheJadeSerpent",
 		};
 	};
@@ -132,19 +133,19 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 80897, "", "=q3=Placeholder", "=ds=#s8#, #a1#", ""};
-				{ 3, 80896, "", "=q3=Placeholder", "=ds=#s5#, #a2#", ""};
-				{ 4, 80892, "", "=q3=Placeholder", "=ds=#h1#, #w10#", ""};
+				{ 2, 80897, "", "=q3=Bracers of Displaced Air", "=ds=#s8#, #a1#", ""};
+				{ 3, 80896, "", "=q3=Nimbletoe Chestguard", "=ds=#s5#, #a2#", ""};
+				{ 4, 80892, "", "=q3=Ook's Hozen Slicer", "=ds=#h1#, #w10#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6089#"};
-				{ 17, 81134, "", "=q4=Placeholder", "=ds=#s12#, #a4#", ""};
-				{ 18, 81064, "", "=q3=Placeholder", "=ds=#s8#, #a1#", ""};
-				{ 19, 81133, "", "=q3=Placeholder", "=ds=#s14#", ""};
-				{ 20, 81064, "", "=q3=Placeholder", "=ds=#s8#, #a1#", ""};
-				{ 21, 81061, "", "=q3=Placeholder", "=ds=#h1#, #w10#", ""};
+				{ 17, 81064, "", "=q3=Bracers of Displaced Air", "=ds=#s8#, #a1#", ""};
+				{ 18, 81080, "", "=q3=Nimbletoe Chestguard", "=ds=#s8#, #a1#", ""};
+				{ 19, 81134, "", "=q4=Barreldodger Boots", "=ds=#s12#, #a4#", ""};
+				{ 20, 81133, "", "=q3=Empty Fruit Barrel", "=ds=#s14#", ""};
+				{ 21, 81061, "", "=q3=Ook's Hozen Slicer", "=ds=#h1#, #w10#", ""};
 			}
 		};
 		info = {
-			name = "Ook-Ook",
+			name = AtlasLoot:EJ_GetBossName("Ook-Ook", 668),
 			module = moduleName, instance = "StormstoutBrewery",
 		};
 	};
@@ -153,19 +154,19 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 80898, "", "=q3=Placeholder", "=ds=#s11#, #a3#", ""};
-				{ 3, 80899, "", "=q3=Placeholder", "=ds=#s8#, #a4#", ""};
-				{ 4, 80893, "", "=q3=Placeholder", "=ds=#s15#", ""};
+				{ 2, 80898, "", "=q3=Hopping Mad Leggings", "=ds=#s11#, #a3#", ""};
+				{ 3, 80899, "", "=q3=Bubble-Breaker Bracers", "=ds=#s8#, #a4#", ""};
+				{ 4, 80893, "", "=q3=Bottle of Potent Potables", "=ds=#s15#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 81136, "", "=q3=Placeholder", "=ds=#s4#", ""};
-				{ 18, 81135, "", "=q3=Placeholder", "=ds=#s10#, #a2#", ""};
-				{ 19, 81077, "", "=q3=Placeholder", "=ds=#s11#, #a3#", ""};
-				{ 20, 81065, "", "=q3=Placeholder", "=ds=#s8#, #a4#", ""};
-				{ 21, 81076, "", "=q3=Placeholder", "=ds=#s15#", ""};
+				{ 17, 81136, "", "=q3=Cloak of Hidden Flasks", "=ds=#s4#", ""};
+				{ 18, 81135, "", "=q3=Belt of Brazen Inebriation", "=ds=#s10#, #a2#", ""};
+				{ 19, 81077, "", "=q3=Hopping Mad Leggings", "=ds=#s11#, #a3#", ""};
+				{ 20, 81065, "", "=q3=Bubble-Breaker Bracers", "=ds=#s8#, #a4#", ""};
+				{ 21, 81076, "", "=q3=Bottle of Potent Potables", "=ds=#s15#", ""};
 			}
 		};
 		info = {
-			name = "Hoptallus",
+			name = AtlasLoot:EJ_GetBossName("Hoptallus", 669),
 			module = moduleName, instance = "StormstoutBrewery",
 		};
 	};
@@ -174,40 +175,208 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 80903, "", "=q3=Placeholder", "=ds=#s10#, #a1#", ""};
-				{ 3, 80900, "", "=q3=Placeholder", "=ds=#s3#, #a2#", ""};
-				{ 4, 80902, "", "=q3=Placeholder", "=ds=#s5#, #a3#", ""};
-				{ 5, 80901, "", "=q3=Placeholder", "=ds=#s11#, #a4#", ""};
-				{ 6, 80894, "", "=q3=Placeholder", "=ds=#h1#, #w6#", ""};
-				{ 7, 80895, "", "=q3=Placeholder", "=ds=#w5#", ""};
+				{ 2, 80903, "", "=q3=Fermenting Belt", "=ds=#s10#, #a1#", ""};
+				{ 3, 80900, "", "=q3=Fizzy Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 4, 80902, "", "=q3=Uncasked Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 5, 80901, "", "=q3=Sudsy Legplates", "=ds=#s11#, #a4#", ""};
+				{ 6, 80894, "", "=q3=Gao's Keg Tapper", "=ds=#h1#, #w6#", ""};
+				{ 7, 80895, "", "=q3=Yan-Zhu's Pressure Valve", "=ds=#w5#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 81059, "", "=q3=Placeholder", "=ds=#s10#, #a1#", ""};
-				{ 18, 81068, "", "=q3=Placeholder", "=ds=#s3#, #a2#", ""};
-				{ 19, 81081, "", "=q3=Placeholder", "=ds=#s5#, #a3#", ""};
-				{ 20, 81078, "", "=q3=Placeholder", "=ds=#s11#, #a4#", ""};
-				{ 21, 81141, "", "=q3=Placeholder", "=ds=#s13#", ""};
-				{ 22, 81139, "", "=q3=Placeholder", "=ds=#s13#", ""};
-				{ 23, 81138, "", "=q3=Placeholder", "=ds=#s14#", ""};
-				{ 24, 81062, "", "=q3=Placeholder", "=ds=#h1#, #w6#", ""};
-				{ 25, 81140, "", "=q3=Placeholder", "=ds=#w9#", ""};
-				{ 26, 81066, "", "=q3=Placeholder", "=ds=#w5#", ""};
+				{ 17, 81059, "", "=q3=Fermenting Belt", "=ds=#s10#, #a1#", ""};
+				{ 18, 81068, "", "=q3=Fizzy Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 19, 81081, "", "=q3=Uncasked Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 20, 81078, "", "=q3=Sudsy Legplates", "=ds=#s11#, #a4#", ""};
+				{ 21, 81141, "", "=q3=Alemental Seal", "=ds=#s13#", ""};
+				{ 22, 81139, "", "=q3=Lime-Rimmed Signet", "=ds=#s13#", ""};
+				{ 23, 81138, "", "=q3=Carbonic Carbuncle", "=ds=#s14#", ""};
+				{ 24, 81062, "", "=q3=Gao's Keg Tapper", "=ds=#h1#, #w6#", ""};
+				{ 25, 81140, "", "=q3=Wort Sitrring Rod", "=ds=#w9#", ""};
+				{ 26, 81066, "", "=q3=Yan-Zhu's Pressure Valve", "=ds=#w5#", ""};
 			}
 		};
 		info = {
-			name = "Yan-Zhu",
+			name = AtlasLoot:EJ_GetBossName("Yan-Zhu the Uncasked", 670),
 			module = moduleName, instance = "StormstoutBrewery",
 		};
 	};
 
-	AtlasLoot_Data["StormstoutBreweryTrash"] = {
+		------------------------
+		--- Mogu'Shan Palace ---
+		------------------------
+
+	AtlasLoot_Data["MoguShanTrialKing"] = {
 		["Normal"] = {
 			{
-
-			};
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 85178, "", "=q3=Conflagrating Gloves", "=ds=#s9#, #a1#" },
+				{ 3, 85176, "", "=q3=Hurricane Belt", "=ds=#s10#, #a2#" },
+				{ 4, 85175, "", "=q3=Crest of the Clan Lords", "=ds=#s1#, #a3#" },
+				{ 5, 85179, "", "=q3=Meteoric Greathelm", "=ds=#s1#, #a4#" },
+				{ 6, 85177, "", "=q3=Whirling Dervish Choker", "=ds=#s2#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81240, "", "=q3=Conflagrating Gloves", "=ds=#s9#, #a1#" },
+				{ 18, 81238, "", "=q3=Hurricane Belt", "=ds=#s10#, #a2#" },
+				{ 19, 81237, "", "=q3=Crest of the Clan Lords", "=ds=#s1#, #a3#" },
+				{ 20, 81241, "", "=q3=Meteoric Greathelm", "=ds=#s1#, #a4#" },
+				{ 21, 81239, "", "=q3=Whirling Dervish Choker", "=ds=#s2#" },
+			}
 		};
 		info = {
-			name = "trash",
-			module = moduleName, instance = "StormstoutBrewery",
+			name = AtlasLoot:EJ_GetBossName("Trial of the King", 708),
+			module = moduleName, instance = "MoguShanPalace",
+		};
+	};
+
+	AtlasLoot_Data["MoguShanGekkan"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 85182, "", "=q3=Cloak of Cleansing Flame", "=ds=#s4#, #a1#" },
+				{ 3, 85184, "", "=q3=Hexxer's Lethargic Gloves", "=ds=#s9#, #a3#" },
+				{ 4, 85180, "", "=q3=Glintrok Sollerets", "=ds=#s12#, #a4#" },
+				{ 5, 85181, "", "=q3=Iron Protector Talisman", "=ds=#s14#" },
+				{ 6, 85183, "", "=q3=Claws of Gekkan", "=ds=#h1#, #w13#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81244, "", "=q3=Cloak of Cleansing Flame", "=ds=#s4#, #a1#" },
+				{ 18, 81246, "", "=q3=Hexxer's Lethargic Gloves", "=ds=#s9#, #a3#" },
+				{ 19, 81242, "", "=q3=Glintrok Sollerets", "=ds=#s12#, #a4#" },
+				{ 20, 81243, "", "=q3=Iron Protector Talisman", "=ds=#s14#" },
+				{ 21, 81245, "", "=q3=Claws of Gekkan", "=ds=#w13#s, Weapon" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Gekkan", 690),
+			module = moduleName, instance = "MoguShanPalace",
+		};
+	};
+
+	AtlasLoot_Data["MoguShanXin"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 85194, "", "=q3=Regal Silk Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 3, 85192, "", "=q3=Soulbinder Treads", "=ds=#s12#, #a1#" },
+				{ 4, 85187, "", "=q3=Boots of Plummeting Death", "=ds=#s12#, #a2#" },
+				{ 5, 85189, "", "=q3=Groundshaker Bracers", "=ds=#s8#, #a3#" },
+				{ 6, 85193, "", "=q3=Mind's Eye Breastplate", "=ds=#s5#, #a4#" },
+				{ 7, 85186, "", "=q3=Axebreaker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 8, 85191, "", "=q3=Mindcapture Pendant", "=ds=#s2#" },
+				{ 9, 85188, "", "=q3=Blade Trap Signet", "=ds=#s13#" },
+				{ 10, 85190, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#" },
+				{ 11, 85185, "", "=q3=Ghostheart", "=ds=#w7#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81257, "", "=q3=Regal Silk Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 18, 81255, "", "=q3=Soulbinder Treads", "=ds=#s12#, #a1#" },
+				{ 19, 81249, "", "=q3=Boots of Plummeting Death", "=ds=#s12#, #a2#" },
+				{ 20, 81252, "", "=q3=Groundshaker Bracers", "=ds=#s8#, #a3#" },
+				{ 21, 81256, "", "=q3=Mind's Eye Breastplate", "=ds=#s5#, #a4#" },
+				{ 22, 81248, "", "=q3=Axebreaker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 23, 81254, "", "=q3=Mindcapture Pendant", "=ds=#s2#" },
+				{ 24, 81251, "", "=q3=Blade Trap Signet", "=ds=#s13#" },
+				{ 25, 81253, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#" },
+				{ 26, 81247, "", "=q3=Ghostheart", "=ds=#w7#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Xin the Weaponmaster", 698),
+			module = moduleName, instance = "MoguShanPalace",
+		};
+	};
+
+		---------------------------
+		--- Shado-pan Monastery ---
+		---------------------------
+
+	AtlasLoot_Data["ShadoPanCloudstrike"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80909, "", "=q3=Azure Serpent Chestguard", "=ds=#s5#, #a3#" },
+				{ 3, 80910, "", "=q3=Leggings of the Charging Soul", "=ds=#s11#, #a3#" },
+				{ 4, 80908, "", "=q3=Sparkbreath Girdle", "=ds=#s10#, #a4#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81179, "", "=q3=Star Summoner Bracers", "=ds=#s8#, #a2#" },
+				{ 18, 81110, "", "=q3=Azure Serpent Chestguard", "=ds=#s5#, #a3#" },
+				{ 19, 81092, "", "=q3=Leggings of the Charging Soul", "=ds=#s11#, #a3#" },
+				{ 20, 81086, "", "=q3=Sparkbreath Girdle", "=ds=#s10#, #a4#" },
+				{ 21, 81180, "", "=q3=Cloudstrike Pendant", "=ds=#s2#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Gu Cloudstrike", 673),
+			module = moduleName, instance = "ShadoPanMonastery",
+		};
+	};
+
+	AtlasLoot_Data["ShadoPanSnowdrift"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80912, "", "=q3=Gauntlets of Resolute Fury", "=ds=#s9#, #a4#" },
+				{ 3, 80911, "", "=q3=Quivering Heart Girdle", "=ds=#s10#, #a4#" },
+				{ 4, 80937, "", "=q3=Snowdrift's Bladed Staff", "=ds=#w9#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81101, "", "=q3=Gauntlets of Resolute Fury", "=ds=#s9#, #a4#" },
+				{ 18, 81087, "", "=q3=Quivering Heart Girdle", "=ds=#s10#, #a4#" },
+				{ 19, 81182, "", "=q3=Eye of the Tornado", "=ds=#s13#" },
+				{ 20, 81181, "", "=q3=Heart of Fire", "=ds=#s14#" },
+				{ 21, 81108, "", "=q3=Snowdrift's Bladed Staff", "=ds=#w9#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Master Snowdrift", 657),
+			module = moduleName, instance = "ShadoPanMonastery",
+		};
+	};
+
+	AtlasLoot_Data["ShadoPanShaViolence"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80913, "", "=q3=Gloves of Enraged Slaughter", "=ds=#s9#, #a1#" },
+				{ 3, 80915, "", "=q3=Spike-Soled Stompers", "=ds=#s12#, #a4#" },
+				{ 4, 80883, "", "=q3=Crescent of Ichor", "=ds=#h1#, #w1#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 81102, "", "=q3=Gloves of Enraged Slaughter", "=ds=#s9#, #a1#" },
+				{ 18, 81185, "", "=q3=Bladed Smoke Bracers", "=ds=#s8#, #a3#" },
+				{ 19, 81113, "", "=q3=Spike-Soled Stompers", "=ds=#s12#, #a4#" },
+				{ 20, 81184, "", "=q3=Necklace of Disorientation", "=ds=#s2#" },
+				{ 21, 81089, "", "=q3=Crescent of Ichor", "=ds=#h1#, #w1#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Sha of Violence", 685),
+			module = moduleName, instance = "ShadoPanMonastery",
+		};
+	};
+
+	AtlasLoot_Data["ShadoPanTaranZhu"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
+				{ 2, 80919, "", "=q3=Darkbinder Leggings", "=ds=#s11#, #a2#" },
+				{ 3, 80916, "", "=q3=Shadowspine Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 4, 80917, "", "=q3=Blastwalker Footguards", "=ds=#s12#, #a3#" },
+				{ 5, 80918, "", "=q3=Mindbinder Plate Gloves", "=ds=#s9#, #a4#" },
+				{ 6, 80936, "", "=q3=Warmace of Taran Zhu", "=ds=#h2#, #w6#" },
+				{ 7, 80935, "", "=q3=Shield of Blind Hate", "=ds=#w8#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 87543, "", "=q4=Ka'eng, Breath of the Shadow", "=ds=#h1#, #w13#" },
+				{ 18, 81188, "", "=q3=Robes of Fevered Dreams", "=ds=#s5#, #a1#" },
+				{ 19, 81093, "", "=q3=Darkbinder Leggings", "=ds=#s11#, #a2#" },
+				{ 20, 81099, "", "=q3=Shadowspine Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 22, 81114, "", "=q3=Blastwalker Footguards", "=ds=#s12#, #a3#" },
+				{ 23, 81187, "", "=q3=Hateshatter Chestplate", "=ds=#s5#, #a4#" },
+				{ 24, 81103, "", "=q3=Mindbinder Plate Gloves", "=ds=#s9#, #a4#" },
+				{ 25, 81189, "", "=q3=Ring of Malice", "=ds=#s13#" },
+				{ 26, 81186, "", "=q3=Seal of Hateful Meditation", "=ds=#s13#" },
+				{ 27, 81107, "", "=q3=Warmace of Taran Zhu", "=ds=#h2#, #w6#" },
+				{ 28, 81096, "", "=q3=Shield of Blind Hate", "=ds=#w8#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Taran Zhu", 686),
+			module = moduleName, instance = "ShadoPanMonastery",
 		};
 	};
 
@@ -215,9 +384,149 @@ local moduleName = "AtlasLootMoP"
 		--- Gates of the Setting Sun ---
 		---------------------------------
 
-		---------------------------
-		--- Shado-pan Monastery ---
-		---------------------------
+	AtlasLoot_Data["GotSSKiptilak"] = {
+		["Normal"] = {
+			{
+				{ 1, 81104, "", "=q3=Fallout-Filtering Hood", "=ds=#s1#, #a1#" },
+				{ 2, 81090, "", "=q3=Saboteur's Stabilizing Bracers", "=ds=#s8#, #a2#" },
+				{ 3, 81190, "", "=q3=Grenadier's Belt", "=ds=#s10#, #a4#" },
+				{ 4, 81095, "", "=q3=Pendant of Precise Timing", "=ds=#s2#" },
+				{ 5, 81191, "", "=q3=Pulled Grenade Pin", "=ds=#s13#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Saboteur Kip'tilak", 655),
+			module = moduleName, instance = "GateoftheSettingSun",
+		};
+	};
+
+	AtlasLoot_Data["GotSSGadok"] = {
+		["Normal"] = {
+			{
+				{ 1, 81229, "", "=q3=Bomber's Precision Gloves", "=ds=#s9#, #a1#" },
+				{ 2, 81111, "", "=q3=Airstream Treads", "=ds=#s12#, #a2#" },
+				{ 3, 81085, "", "=q3=Impaler's Girdle", "=ds=#s10#, #a3#" },
+				{ 4, 81098, "", "=q3=Acid-Scarred Spaulders", "=ds=#s3#, #a4#" },
+				{ 5, 81192, "", "=q3=Vision of the Predator", "=ds=#s14#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Striker Ga'dok", 675),
+			module = moduleName, instance = "GateoftheSettingSun",
+		};
+	};
+
+	AtlasLoot_Data["GotSSRimok"] = {
+		["Normal"] = {
+			{	
+				{ 1, 81106, "", "=q3=Leggings of the Frenzy", "=ds=#s11#, #a1#" },
+				{ 2, 81105, "", "=q3=Swarmcall Helm", "=ds=#s1#, #a3#" },
+				{ 3, 81230, "", "=q3=Ri'mok's Shattered Scale", "=ds=#s8#, #a4#" },
+				{ 4, 81232, "", "=q3=Viscous Ring", "=ds=#s13#" },
+				{ 5, 81088, "", "=q3=Mantid Trochanter", "=ds=#h1#, #w4#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Commander Ri'mok", 676),
+			module = moduleName, instance = "GateoftheSettingSun",
+		};
+	};
+
+	AtlasLoot_Data["GotSSRaigonn"] = {
+		["Normal"] = {
+			{
+				{ 1, 87546, "", "=q4=Klatith, Fangs of the Swarm", "=ds=#w2#" },
+				{ 3, 81234, "", "=q3=Drape of the Screeching Swarm", "=ds=#s4#, #a1#" },
+				{ 4, 81235, "", "=q3=Shoulders of Engulfing Winds", "=ds=#s3#, #a1#" },
+				{ 5, 81236, "", "=q3=Frenzyswarm Bracers", "=ds=#s8#, #a1#" },
+				{ 6, 81091, "", "=q3=Wall-Breaker Legguards", "=ds=#s11#, #a2#" },
+				{ 7, 81112, "", "=q3=Treads of Fixation", "=ds=#s12#, #a3#" },
+				{ 8, 81109, "", "=q3=Swarmbringer Chestguard", "=ds=#s5#, #a4#" },
+				{ 9, 81100, "", "=q3=Hive Protector's Gauntlets", "=ds=#s9#, #a4#" },
+				{ 18, 81094, "", "=q3=Carapace Breaker", "=ds=#h1#, #w6#" },
+				{ 19, 81233, "", "=q3=Impervious Carapace", "=ds=#w8#" },
+				{ 20, 81097, "", "=q3=Shield of the Protectorate", "=ds=#w8#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Raigonn", 649),
+			module = moduleName, instance = "GateoftheSettingSun",
+		};
+	};
+
+		------------------------------
+		--- Siege of Niuzao Temple ---
+		------------------------------
+
+	AtlasLoot_Data["NTJinbak"] = {
+		["Normal"] = {
+			{
+				{ 1, 81262, "", "=q3=Hood of Viridian Residue", "=ds=#s1#, #a2#" },
+				{ 2, 81272, "", "=q3=Girdle of Soothing Detonation", "=ds=#s10#, #a4#" },
+				{ 3, 81270, "", "=q3=Sap-Encrusted Legplates", "=ds=#s11#, #a4#" },
+				{ 4, 81271, "", "=q3=Engraved Amber Pendant", "=ds=#s2#" },
+				{ 5, 81263, "", "=q3=Flashfrozen Resin Globule", "=ds=#s14#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Vizier Jin'bak", 693),
+			module = moduleName, instance = "NiuzaoTemple",
+		};
+	};
+
+	AtlasLoot_Data["NTVojak"] = {
+		["Normal"] = {
+			{
+				{ 1, 81276, "", "=q3=Bombardment Bracers", "=ds=#s8#, #a1#" },
+				{ 2, 81275, "", "=q3=Chestwrap of Arcing Flame", "=ds=#s5#, #a2#" },
+				{ 3, 81277, "", "=q3=Archer's Precision Grips", "=ds=#s9#, #a3#" },
+				{ 4, 81274, "", "=q3=Sightfinder Helm", "=ds=#s1#, #a4#" },
+				{ 5, 81273, "", "=q3=Siege-Captain's Scimitar", "=ds=#h1#, #w10#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Commander Vo'jak", 783),
+			module = moduleName, instance = "NiuzaoTemple",
+		};
+	};
+
+	AtlasLoot_Data["NTPavalak"] = {
+		["Normal"] = {
+			{
+				{ 1, 81282, "", "=q3=Aerial Bombardment Cloak", "=ds=#s4#, #a1#" },
+				{ 2, 81281, "", "=q3=Breezebinder Handwraps", "=ds=#s9#, #a1#" },
+				{ 3, 81280, "", "=q3=Siegeworn Bracers", "=ds=#s8#, #a4#" },
+				{ 4, 81264, "", "=q3=Vial of Ichorous Blood", "=ds=#s14#" },
+				{ 5, 81279, "", "=q3=Tempestuous Longbow", "=ds=#w2#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("General Pa'valak", 692),
+			module = moduleName, instance = "NiuzaoTemple",
+		};
+	};
+
+	AtlasLoot_Data["NTNeronok"] = {
+		["Normal"] = {
+			{
+				{ 1, 87547, "", "=q4=Tolakesh, Horn of the Black Ox", "=ds=#h1#, #w4#" },
+				{ 3, 81289, "", "=q3=Breezeswept Hood", "=ds=#s1#, #a1#" },
+				{ 4, 81291, "", "=q3=Whisperwind Spaulders", "=ds=#s3#, #a1#" },
+				{ 5, 81283, "", "=q3=Windblast Helm", "=ds=#s1#, #a2#" },
+				{ 6, 81285, "", "=q3=Galedodger Chestguard", "=ds=#s5#, #a3#" },
+				{ 7, 81290, "", "=q3=Belt of Totemic Binding", "=ds=#s10#, #a3#" },
+				{ 8, 81292, "", "=q3=Airbender Sandals", "=ds=#s12#, #a3#" },
+				{ 9, 81287, "", "=q3=Spaulders of Immovable Stone", "=ds=#s3#, #a4#" },
+				{ 10, 81284, "", "=q3=Anchoring Sabatons", "=ds=#s12#, #a4#" },
+				{ 18, 81286, "", "=q3=Ner'onok's Razor Katar", "=ds=#h1#, #w13#" },
+				{ 19, 81288, "", "=q3=Gustwalker Staff", "=ds=#w9#" },
+			}
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Wing Leader Ner'onok", 727),
+			module = moduleName, instance = "NiuzaoTemple",
+		};
+	};
 
 		-------------------
 		--- Scholomance ---
@@ -548,10 +857,6 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
-		------------------------
-		--- Mogu'Shan Palace ---
-		------------------------
-
 	----------------
 	--- Factions ---
 	----------------
@@ -689,40 +994,6 @@ local moduleName = "AtlasLootMoP"
 			menu = "PVPMENU",
 		};
 	}
-
-	AtlasLoot_Data["T14SET"] = {
-		["Normal"] = {
-			{
-				{ 1, "T14Mage", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 2, "T14Warlock", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 4, "T14DruidBalance", "spell_nature_starfall", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
-				{ 5, "T14DruidFeral", "ability_racial_bearform", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
-				{ 6, "T14DruidRestoration", "spell_nature_healingtouch", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-				{ 8, "T14Hunter", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-				{ 10, "T14ShamanElemental", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
-				{ 11, "T14ShamanEnhancement", "spell_nature_lightningshield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
-				{ 12, "T14ShamanRestoration", "spell_nature_magicimmunity", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
-				{ 14, "T14DeathKnightDPS", "spell_deathknight_frostpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
-				{ 15, "T14DeathKnightTank", "spell_deathknight_bloodpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
-				{ 16, "T14PriestHoly", "spell_holy_guardianspirit", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
-				{ 17, "T14PriestShadow", "spell_shadow_shadowwordpain", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-				{ 19, "T14MonkBrewmaster", "spell_nature_starfall", "=ds=Monk", "=q5="..AL["Brewmaster"]};
-				{ 20, "T14MonkMistweaver", "ability_racial_bearform", "=ds=Monk", "=q5="..AL["Mistweaver"]};
-				{ 21, "T14MonkWindwalker", "spell_nature_healingtouch", "=ds=Monk", "=q5="..AL["Windwalker"]};
-				{ 23, "T14Rogue", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 25, "T14PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 26, "T14PaladinProtection", "spell_holy_devotionaura", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
-				{ 27, "T14PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 29, "T14WarriorFury", "ability_warrior_innerrage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
-				{ 30, "T14WarriorProtection", "ability_warrior_defensivestance", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
-			};
-		};
-		info = {
-			name = AL["Tier 14 Set"],
-			menu = "SETMENU",
-		};
-	}
-
 
 		-------------------------------
 		--- Trading Card Game Items ---

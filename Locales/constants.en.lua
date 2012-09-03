@@ -532,7 +532,7 @@ if AL then
 	AL["Burning Crusade"] = true;
 	AL["Wrath of the Lich King"] = true;
 	AL["Cataclysm"] = true;
-	AL["Mists of Pandoria"] = true;
+	AL["Mists of Pandaria"] = true;
 	AL["Entrance"] = true;
 	AL["Dungeon Set 1"] = true;
 	AL["Dungeon Set 2"] = true;

@@ -1,5 +1,5 @@
 ﻿## Interface: 50001
-## Title: AtlasLoot_MistsofPandoria
+## Title: AtlasLoot_MistsofPandaria
 ## Title-deDE: AtlasLoot |cFF0099FF[MoP]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 浩劫與重生
 ## Title-zhCN: AtlasLoot |cFF0099FF[大灾变]|r
