@@ -579,7 +579,7 @@ if AL then
 	AL["Hard Mode"] = "Mode difficile";
 	AL["Bonus Loot"] = "Bonus de loot";
 	AL["Arena Reward"] = "Récompense d'arène";
-	AL["Achievement Reward"] = "Récompense des hauts faits";
+	AL["Achievement Reward"] = "Récompenses des hauts faits";
 	--AL["Phase 1"] = true;
 	--AL["Phase 2"] = true;
 	--AL["Phase 3"] = true;
@@ -654,6 +654,8 @@ if AL then
 	--AL["Troll"] = true;
 	--AL["Tol'vir"] = true;
 	--AL["Orc"] = true;
+	--AL["Pandaren"] = true;
+	--AL["Mogu"] = true;
 	--AL["Stats"] = true;
 	AL["Resilience"] = "Résilience";
 	--AL["Professions"] = true;
@@ -683,7 +685,9 @@ if AL then
 	AL["Outdoor"] = "Plein air";
 
 	-- Companions
-	AL["Card Game Companions"] = "Mascottes des jeux de cartes";
+	AL["Achievement Companions"] = "Mascottes des hauts faits";
+	AL["Faction Companions"] = "Mascottes des factions";
+	AL["Card Game Companions"] = "Mascottes du jeu de cartes";
 	AL["Companion Accessories"] = "Accessoires pour mascottes";
 	AL["Blizzard Store"] = "Boutique Blizzard";
 	AL["Crafted Companions"] = "Mascottes de l'artisanat";
@@ -694,7 +698,7 @@ if AL then
 	AL["Promotional Companions"] = "Mascottes promotionnelles";
 	AL["Quest Reward Companions"] = "Mascottes des récompenses de quêtes";
 	AL["Rare Companions"] = "Mascottes rares";
-	AL["Unobtainable Companions"] = "Mascottes impossible à obtenir";
+	AL["Unobtainable Companions"] = "Mascottes impossibles à obtenir";
 
 	-- Mounts
 	AL["Alliance Flying Mounts"] = "Montures volantes de l'Alliance";
@@ -704,7 +708,7 @@ if AL then
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";
 	AL["Event Mounts"] = "Montures d'événements";
-	AL["Neutral Faction Mounts"] = "Montures de factions neutres";
+	AL["Neutral Faction Mounts"] = "Montures des factions neutres";
 	AL["PvP Mounts"] = "Montures JcJ";
 	AL["Alliance PvP Mounts"] = "Montures JcJ de l'Alliance";
 	AL["Horde PvP Mounts"] = "Montures JcJ de la Horde";
@@ -714,13 +718,12 @@ if AL then
 	AL["Unobtainable Mounts"] = "Montures impossibles à obtenir";
 
 	-- Tabards
-	AL["Achievement & Quest Reward Tabards"] = "Tabards de hauts faits & récompenses de quêtes";
+	AL["Achievement & Quest Reward Tabards"] = "Tabards des hauts faits & récompenses de quêtes";
 	AL["Alliance Tabards"] = "Tabards de l'Alliance";
 	AL["Card Game Tabards"] = "Tabards du jeu de cartes";
 	AL["Horde Tabards"] = "Tabards de la Horde";
 	AL["PvP Tabards"] = "Tabards JcJ";
 	AL["Unobtainable Tabards"] = "Tabards imposssibles à obtenir";
-
 
 	-- Transformation Items
 	AL["Transformation Items"] = "Objets de transformation";
@@ -738,7 +741,7 @@ if AL then
 	AL["Level 85 Trinkets"] = "Bijoux niveau 85";
 
 	-- Card Game Decks and descriptions
-	AL["Loot Card Items"] = "Objets des cartes à jouer";
+	AL["Loot Card Items"] = "Objets du jeu de cartes";
 	AL["UDE Items"] = "Objets (points UDE)";
 
 	-- First set
@@ -830,6 +833,9 @@ if AL then
 
 	-- Eighteenth set
 	--AL["Tomb of the Forgotten"] = true;
+
+	-- Nineteenth set
+	--AL["War of the Ancients"] = true;
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
@@ -938,6 +944,9 @@ if AL then
 	--AL["Destruction"] = true;
 	--AL["Tanking"] = true;
 	--AL["DPS"] = true;
+	AL["Mistweaver"] = "Tisse-brume";
+	AL["Brewmaster"] = "Maître brasseur";
+	AL["Windwalker"] = "Marche-vent";
 
 	-- NPCs missing from BabbleBoss
 	--AL["Trash Mobs"] = true,
