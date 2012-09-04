@@ -532,7 +532,7 @@ if AL then
 	--AL["Burning Crusade"] = true;
 	--AL["Wrath of the Lich King"] = true;
 	AL["Cataclysm"] = "Cataclysme";
-	--AL["Mists of Pandoria"] = true;
+	--AL["Mists of Pandaria"] = true;
 	AL["Entrance"] = "Entrée";
 	AL["Dungeon Set 1"] = "Set de donjon 1";
 	AL["Dungeon Set 2"] = "Set de donjon 2";
