@@ -694,9 +694,7 @@ if AL then
 	AL["Unobtainable Companions"] = "無法取得的夥伴";
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = "聯盟飛行坐騎";
 	AL["Alliance Mounts"] = "聯盟坐騎";
-	AL["Horde Flying Mounts"] = "部落飛行坐騎";
 	AL["Horde Mounts"] = "部落坐騎";
 	AL["Card Game Mounts"] = "卡牌遊戲獎勵坐騎";
 	AL["Crafted Mounts"] = "製作的坐騎";

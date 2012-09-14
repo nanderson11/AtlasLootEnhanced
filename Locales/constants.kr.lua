@@ -570,9 +570,7 @@ if AL then
 	AL["Unobtainable Companions"] = true;
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = true;
 	AL["Alliance Mounts"] = true;
-	AL["Horde Flying Mounts"] = true;
 	AL["Horde Mounts"] = true;
 	AL["Card Game Mounts"] = true;
 	AL["Crafted Mounts"] = true;

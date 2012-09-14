@@ -618,9 +618,7 @@ if AL then
 	AL["Unobtainable Companions"] = "Недоступные спутники";
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = "Летающий транспорт Альянса";
 	AL["Alliance Mounts"] = "Транспорт Альянса";
-	AL["Horde Flying Mounts"] = "Летающий транспорт Орды";
 	AL["Horde Mounts"] = "Транспорт Орды";
 	AL["Card Game Mounts"] = "Транспорт с игральных карт";
 	AL["Crafted Mounts"] = "Созданный транспорт";

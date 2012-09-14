@@ -693,9 +693,7 @@ if AL then
 	AL["Unobtainable Companions"] = "Nicht mehr erhältlich";
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = "Allianz Flugreittiere";
 	AL["Alliance Mounts"] = "Allianz Reittiere";
-	AL["Horde Flying Mounts"] = "Horde Flugreittiere";
 	AL["Horde Mounts"] = "Horde Reittiere";
 	AL["Card Game Mounts"] = "Kartenspielreittiere";
 	AL["Crafted Mounts"] = "Herstellbar";

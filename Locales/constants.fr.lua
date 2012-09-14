@@ -701,9 +701,7 @@ if AL then
 	AL["Unobtainable Companions"] = "Mascottes impossibles à obtenir";
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = "Montures volantes de l'Alliance";
 	AL["Alliance Mounts"] = "Montures de l'Alliance";
-	AL["Horde Flying Mounts"] = "Montures volantes de la Horde";
 	AL["Horde Mounts"] = "Montures de la Horde";
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";

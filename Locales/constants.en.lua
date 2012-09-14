@@ -553,6 +553,7 @@ if AL then
 	AL["Tier 11"] = true;
 	AL["Tier 12"] = true;
 	AL["Tier 13"] = true;
+	AL["Tier 14"] = true;
 	AL["10 Man"] = true;
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;
@@ -701,10 +702,9 @@ if AL then
 	AL["Unobtainable Companions"] = true;
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = true;
 	AL["Alliance Mounts"] = true;
-	AL["Horde Flying Mounts"] = true;
 	AL["Horde Mounts"] = true;
+	AL["Flying Mounts"] = true;
 	AL["Card Game Mounts"] = true;
 	AL["Crafted Mounts"] = true;
 	AL["Event Mounts"] = true;

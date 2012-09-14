@@ -694,9 +694,7 @@ if AL then
 	AL["Unobtainable Companions"] = "已绝版小伙伴";
 
 	-- Mounts
-	AL["Alliance Flying Mounts"] = "联盟飞行坐骑";
 	AL["Alliance Mounts"] = "联盟坐骑";
-	AL["Horde Flying Mounts"] = "部落飞行坐骑";
 	AL["Horde Mounts"] = "部落坐骑";
 	AL["Card Game Mounts"] = "集换卡游戏坐骑";
 	AL["Crafted Mounts"] = "制造的坐骑";

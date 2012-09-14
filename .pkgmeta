@@ -80,4 +80,4 @@ move-folders:
 	AtlasLoot/LootTableModules/ClassicWoW: AtlasLoot_ClassicWoW
 	AtlasLoot/LootTableModules/WorldEvents: AtlasLoot_WorldEvents
 	AtlasLoot/LootTableModules/WrathoftheLichKing: AtlasLoot_WrathoftheLichKing
-	AtlasLoot/LootTableModules/MistsofPandoria: AtlasLoot_MistsofPandoria
+	AtlasLoot/LootTableModules/MistsofPandaria: AtlasLoot_MistsofPandaria
