@@ -930,6 +930,34 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+	AtlasLoot_Data["OrderCloudSerpent"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_faction_serpentriders", "=q6=#r3#", ""};
+				{ 2, 83845, "", "=q1=Design: Jade Panther", "=ds=#p12# (600)"};
+				{ 3, 83830, "", "=q1=Design: Sunstone Panther", "=ds=#p12# (600)"};
+				{ 5, 0, "achievement_faction_serpentriders", "=q6=#r4#", ""};
+				{ 6, 83931, "", "=q1=Design: Ruby Panther", "=ds=#p12# (600)"};
+				{ 7, 83932, "", "=q1=Design: Sapphire Panther", "=ds=#p12# (600)"};
+				{ 8, 89222, "", "=q1=Cloud Ring", "=ds=#m20#"};
+				{ 9, 89225, "", "=q1=Finish Line", "=ds=#m20#"};
+				{ 10, 89227, "", "=q1=Floating Finish Line", "=ds=#m20#"};
+				{ 11, 89224, "", "=q1=Floating Racing Flag", "=ds=#m20#"};
+				{ 12, 89223, "", "=q1=Racing Flag", "=ds=#m20#"};
+				{ 16, 0, "achievement_faction_serpentriders", "=q6=#r5#", ""};
+				{ 17, 85430, "", "=q4=Reins of the Azure Cloud Serpent", "=ds=#e27#"};
+				{ 18, 85429, "", "=q4=Reins of the Golden Cloud Serpent", "=ds=#e27#"};
+				{ 19, 79802, "", "=q4=Reins of the Jade Cloud Serpent", "=ds=#e27#"};
+				{ 20, 89796, "", "=q3=Order of the Cloud Serpent Tabard", "=ds=#s7#"};
+				{ 21, 83877, "", "=q1=Design: Jeweled Onyx Panther", "=ds=#p12# (600)"};
+			};
+		};
+		info = {
+			name = "Order of the Cloud Serpent",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
 	AtlasLoot_Data["Tillers"] = {
 		["Normal"] = {
 			{
@@ -943,9 +971,9 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 85215, "", "=q1=Snakeroot Seed", "=ds="};
 				{ 9, 89233, "", "=q1=Songbell Seed", "=ds="};
 				{ 16, 0, "achievement_faction_tillers", "=q6=#r5#", ""};
-				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e12#"};
-				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e12#"};
-				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e12#"};
+				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
+				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
+				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
 				{ 20, 90175, "", "=q3=Gin-Ji Knife Set", "=ds=#m20#"};
 				{ 21, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
 				{ 22, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)"};
@@ -2390,6 +2418,27 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["MountsFaction"] = {
 		["Normal"] = {
 			{
+				{ 1, 0, "INV_Box_01", "=q6=Order of the Cloud Serpent #j30#"};
+				{ 2, 85430, "", "=q4=Reins of the Azure Cloud Serpent", "=ds=#e27#"};
+				{ 3, 85429, "", "=q4=Reins of the Golden Cloud Serpent", "=ds=#e27#"};
+				{ 4, 79802, "", "=q4=Reins of the Jade Cloud Serpent", "=ds=#e27#"};
+				{ 6, 0, "INV_Box_01", "=q6=The Anglers #j30#"};
+				{ 7, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e12#"};
+				{ 8, 87791, "", "=q4=Reins of the Crimson Water Strider", "=ds=#e12#"};
+				{ 9, 87794, "", "=q4=Reins of the Golden Water Strider", "=ds=#e12#"};
+				{ 10, 87793, "", "=q4=Reins of the Jade Water Strider", "=ds=#e12#"};
+				{ 11, 87792, "", "=q4=Reins of the Orange Water Strider", "=ds=#e12#"};
+				{ 16, 0, "INV_Box_01", "=q6=The Tillers #j30#"};
+				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
+				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
+				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
+				{ 21, 0, "INV_Box_01", "=q6=The Lorewalkers #j30#"};
+				{ 22, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#"};
+				{ 24, 0, "INV_Box_01", "=q6="..BabbleFaction["Ramkahen"].." #j30#", "=q1="..BabbleZone["Uldum"]};
+				{ 25, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
+				{ 26, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
+			};
+			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Netherwing"].." #j30#", "=q1="..BabbleZone["Shadowmoon Valley"]};
 				{ 2, 32858, "", "=q4=Reins of the Azure Netherwing Drake", "=ds=#e27#"};
 				{ 3, 32859, "", "=q4=Reins of the Cobalt Netherwing Drake", "=ds=#e27#"};
@@ -2418,11 +2467,6 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#"};
 				{ 26, 0, "INV_Box_01", "=q6="..BabbleFaction["The Oracles"].." #j30#", "=q1="..BabbleZone["Sholazar Basin"]};
 				{ 27, 44707, "", "=q4=Reins of the Green Proto-Drake", "=q2="..AL["Mysterious Egg"], ""};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Ramkahen"].." #j30#", "=q1="..BabbleZone["Uldum"]};
-				{ 2, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
-				{ 3, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
 			};
 		};
 		info = {
@@ -2542,10 +2586,11 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
 				{ 11, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
 				{ 12, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 13, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
+				{ 13, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
 				{ 14, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
 				{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
 				{ 17, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
+				{ 17, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
 				{ 18, 70909, "", "=q4=Vicious War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"},
 				{ 19, 70910, "", "=q4=Vicious War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"},
 				{ 20, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};

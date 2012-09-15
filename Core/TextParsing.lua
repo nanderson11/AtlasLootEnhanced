@@ -19,6 +19,7 @@ AtlasLoot_TextParsing = {
 	{ "#c8#", LOCALIZED_CLASS_NAMES_MALE["WARLOCK"] },
 	{ "#c9#", LOCALIZED_CLASS_NAMES_MALE["WARRIOR"] },
 	{ "#c10#", LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"] },
+	{ "#c11#", LOCALIZED_CLASS_NAMES_MALE["MONK"] },
 
 	-- Professions
 	{ "#p1#", GetSpellInfo(2259) },		-- Alchemy
