@@ -13,6 +13,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 6, "Anglers", "achievement_faction_anglers", "=ds=The Anglers", ""};
 				{ 7, "Lorewalkers", "achievement_faction_lorewalkers", "=ds=The Lorewalkers", ""};
 				{ 8, "OrderCloudSerpent", "achievement_faction_serpentriders", "=ds=Order of the Cloud Serpent", ""};
+				{ 9, "AugustCelestials", "achievement_faction_celestials", "=ds=August Celestials", ""};
+				{ 10, "GoldenLotus", "achievement_faction_goldenlotus", "=ds=Golden Lotus", ""};
+				{ 11, "ShadoPan", "achievement_faction_shadopan", "=ds=Shado-Pan", ""};
 				{ 17, "REPMENU_BURNINGCRUSADE", "INV_Misc_Ribbon_01", "=ds="..AL["Burning Crusade"], ""};
 				{ 18, "REPMENU_CATACLYSM", "inv_neck_hyjaldaily_04", "=ds="..AL["Cataclysm"], ""};
 				

@@ -901,15 +901,36 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["GoldenLotus"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "trade_engineering", "=q6=#r3#", ""};
-				{ 2, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s16#"};
-				{ 1, 0, "trade_engineering", "=q6=#r4#", ""};
-
-				{ 16, 0, "trade_engineering", "=q6=#r5#", ""};
+				{ 1, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
+				{ 2, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
+				{ 3, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
+				{ 4, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
+				{ 5, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
 			name = "Golden Lotus",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+	AtlasLoot_Data["AugustCelestials"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_faction_celestials", "=q6=#r3#", ""};
+				{ 2, 89124, "", "=q2=Celestial Offering", "=ds=#m20#"};
+				{ 4, 0, "achievement_faction_celestials", "=q6=#r4#", ""};
+				{ 5, 84561, "", "=q3=Formula: Enchant Bracer - Exceptional Strength", "=ds=#p4# (600)"};
+				{ 6, 84557, "", "=q3=Formula: Enchant Bracer - Greater Agility", "=ds=#p4# (600)"};
+				{ 7, 84559, "", "=q3=Formula: Enchant Bracer - Super Intellect", "=ds=#p4# (600)"};
+				{ 9, 0, "achievement_faction_celestials", "=q6=#r5#", ""};
+				{ 10, 89304, "", "=q4=Reins of the Thundering August Cloud Serpent", "=ds=#e27#"};
+				{ 11, 89799, "", "=q3=August Celestials Tabard", "=ds=#s7#"};
+				{ 12, 86377, "", "=q1=Pattern: Royal Satchel", "=ds=#p8# (600)"};
+			};
+		};
+		info = {
+			name = "August Celestials",
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -954,6 +975,35 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = "Order of the Cloud Serpent",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+	AtlasLoot_Data["ShadoPan"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_faction_shadopan", "=q6=#r3#", ""};
+				{ 2, 88995, "", "=q3=Shado-Pan Dragon Gun", "=ds=#s14#"};
+				{ 3, 89302, "", "=q1=Stack of Bamboo", "=ds=#e18#"};
+				{ 4, 89303, "", "=q1=Stack of Stone Blocks", "=ds=#e18#"};
+				{ 5, 89301, "", "=q1=Stack of Wooden Boards", "=ds=#e18#"};
+				{ 7, 0, "achievement_faction_shadopan", "=q6=#r4#", ""};
+				{ 8, 84584, "", "=q3=Formula: Enchant Weapon - Dancing Steel", "=ds=#p4# (600)"};
+				{ 9, 84583, "", "=q3=Formula: Enchant Weapon - Jade Spirit", "=ds=#p4# (600)"};
+				{ 10, 84580, "", "=q3=Formula: Enchant Weapon - River's Song", "=ds=#p4# (600)"};
+				{ 16, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
+				{ 17, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#"};
+				{ 18, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#"};
+				{ 19, 89306, "", "=q4=Reins of the Red Shado-Pan Riding Tiger", "=ds=#e26#"};
+				{ 20, 89801, "", "=q3=Replica Shado-Pan Helmet", "=ds=#s1#, #a1#"};
+				{ 21, 90844, "", "=q3=Replica Shado-Pan Helmet", "=ds=#s1#, #a2#"};
+				{ 22, 90845, "", "=q3=Replica Shado-Pan Helmet", "=ds=#s1#, #a3#"};
+				{ 23, 90846, "", "=q3=Replica Shado-Pan Helmet", "=ds=#s1#, #a4#"};
+				{ 24, 89800, "", "=q3=Shado-Pan Tabard", "=ds=#s7#"};
+			};
+		};
+		info = {
+			name = "Shado-Pan",
 			module = moduleName, menu = "REPMENU",
 		};
 	}

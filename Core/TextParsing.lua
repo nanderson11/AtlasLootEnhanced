@@ -117,6 +117,7 @@ AtlasLoot_TextParsing = {
 	{ "#e15#", AL["Token"] },
 	{ "#e16#", AL["Darkmoon Faire Card"] },
 	{ "#e17#", BabbleInventory["Enchant"] },
+	{ "#e18#", BabbleInventory["Consumable"] },
 	{ "#e20#", BabbleInventory["Fishing Pole"] },
 	{ "#e21#", BabbleInventory["Fish"] },
 	{ "#e22#", AL["Combat Pet"] },
