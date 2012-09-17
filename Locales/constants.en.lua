@@ -716,6 +716,7 @@ if AL then
 	AL["Promotional Mounts"] = true;
 	AL["Rare Mounts"] = true;
 	AL["Unobtainable Mounts"] = true;
+	AL["New Mounts"] = true;
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = true;
