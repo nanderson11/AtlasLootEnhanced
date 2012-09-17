@@ -1416,6 +1416,17 @@ function AtlasLoot:CheckHeroic(itemTable)
 	end
 end
 
+function AtlasLoot:GetMapNameByID(id)
+	if not id then 
+		return "NIL Map ID"
+	end
+	local name = GetMapNameByID(id)
+	if name then 
+		return name
+	else
+		return "No MapName found for ID "..id
+	end
+end 
 
 
 

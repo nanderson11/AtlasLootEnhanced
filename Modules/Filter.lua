@@ -5,6 +5,7 @@ Author Hegarol
 Loot browser associating loot with instance bosses
 Can be integrated with Atlas (http://www.atlasmod.com)
 ]]
+local _
 local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")

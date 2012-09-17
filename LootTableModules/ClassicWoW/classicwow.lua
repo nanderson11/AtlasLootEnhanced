@@ -708,7 +708,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Blackfathom Deeps"],
+			name = AtlasLoot:GetMapNameByID(688),
 			module = moduleName, instance = "BlackfathomDeeps",
 		};
 	};
@@ -1105,7 +1105,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Blackrock Depths"].." - "..AL["Quest Item"],
+			name = AtlasLoot:GetMapNameByID(688).." - "..AL["Quest Item"],
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};

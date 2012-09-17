@@ -477,6 +477,13 @@ function AtlasLoot:DevTool_CreateFrame()
 
 end
 
+function AtlasLoot:GetMapIds()
+	self.db.profile.MAPIDS = self.db.profile.MAPIDS or {}	
+	for i = 1,1000 do
+		self.db.profile.MAPIDS[i] = GetMapNameByID(i)
+	end
+end
+
 function AtlasLoot:GetEJDetails(bool)
 	local iniIndex = 1
 	local iniID, iniName = EJ_GetInstanceByIndex(iniIndex, bool)

@@ -1,4 +1,5 @@
 -- $Id$
+local _
 local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 -- Player faction
