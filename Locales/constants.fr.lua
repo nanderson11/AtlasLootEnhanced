@@ -703,6 +703,7 @@ if AL then
 	-- Mounts
 	AL["Alliance Mounts"] = "Montures de l'Alliance";
 	AL["Horde Mounts"] = "Montures de la Horde";
+	AL["Flying Mounts"] = "Montures volantes";
 	AL["Card Game Mounts"] = "Montures du jeu de cartes";
 	AL["Crafted Mounts"] = "Montures frabiquées";
 	AL["Event Mounts"] = "Montures d'événements";
