@@ -1901,46 +1901,52 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsMerchant"] = {
 		["Normal"] = {
 			{
-				{ 1, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
-				{ 2, 70160, "", "=q3=Crimson Lasher", "=ds="..BabbleZone["Molten Front"]},
-				{ 3, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
-				{ 4, 70140, "", "=q3=Hyjal Bear Cub", "=ds="..BabbleZone["Molten Front"]},
-				{ 5, 34955, "", "=q3=Scorched Stone", "=ds="..BabbleZone["Molten Front"]};
-				{ 6, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
-				{ 7, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
-				{ 8, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 9, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 10, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 11, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
-				{ 12, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
-				{ 13, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 14, 46398, "", "=q1=Cat Carrier (Calico Cat)", "=ds="..BabbleZone["Dalaran"]};
-				{ 15, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 16, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 17, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
-				{ 18, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
-				{ 19, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
-				{ 20, 10393, "", "=q1=Undercity Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
-				{ 21, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
-				{ 22, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
-				{ 23, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 24, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
-				{ 25, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
-				{ 26, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
-				{ 27, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
-				{ 28, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
-				{ 29, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
-				{ 30, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
+				{
+					{ 1, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
+					{ 1, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
+				};
+				{ 2, 70160, "", "=q3=Crimson Lasher", "=ds="..AtlasLoot:GetMapNameByID(795)},
+				{ 3, 39973, "", "=q3=Ghostly Skull", "=ds="..AtlasLoot:GetMapNameByID(504)};
+				{ 4, 70140, "", "=q3=Hyjal Bear Cub", "=ds="..AtlasLoot:GetMapNameByID(795)},
+				{ 5, 34955, "", "=q3=Scorched Stone", "=ds="..AtlasLoot:GetMapNameByID(795)};
+				{ 6, 44822, "", "=q1=Albino Snake", "=ds="..AtlasLoot:GetMapNameByID(504)};
+				{ 7, 11023, "", "=q1=Ancona Chicken", "=ds="..AtlasLoot:GetMapNameByID(61)};
+				{ 8, 10360, "", "=q1=Black Kingsnake", "=ds="..AtlasLoot:GetMapNameByID(321)};
+				{ 9, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..AtlasLoot:GetMapNameByID(479)};
+				{ 10, 29901, "", "=q1=Blue Moth Egg", "=ds="..AtlasLoot:GetMapNameByID(471)};
+				{ 11, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..AtlasLoot:GetMapNameByID(479)};
+				{ 12, 10361, "", "=q1=Brown Snake", "=ds="..AtlasLoot:GetMapNameByID(321)};
+				{ 13, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..AtlasLoot:GetMapNameByID(30)};
+				{ 14, 46398, "", "=q1=Cat Carrier (Calico Cat)", "=ds="..AtlasLoot:GetMapNameByID(504)};
+				{ 15, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..AtlasLoot:GetMapNameByID(30)};
+				{ 16, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..AtlasLoot:GetMapNameByID(30)};
+				{ 17, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..AtlasLoot:GetMapNameByID(479)};
+				{ 18, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..AtlasLoot:GetMapNameByID(30)};
+				{ 19, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..AtlasLoot:GetMapNameByID(301)};
+				{ 20, 10392, "", "=q1=Crimson Snake", "=ds="..AtlasLoot:GetMapNameByID(479).." / "..AtlasLoot:GetMapNameByID(321)};
+				{ 21, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..AtlasLoot:GetMapNameByID(462)};
+				{ 22, 8500, "", "=q1=Great Horned Owl", "=ds="..AtlasLoot:GetMapNameByID(381)};
+				{ 23, 8501, "", "=q1=Hawk Owl", "=ds="..AtlasLoot:GetMapNameByID(381)};
+				{ 24, 29363, "", "=q1=Mana Wyrmling", "=ds="..AtlasLoot:GetMapNameByID(479)};
+				{ 25, 48120, "", "=q1=Obsidian Hatchling", "=ds="..AtlasLoot:GetMapNameByID(504)};
+				{ 26, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
+				{ 27, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..AtlasLoot:GetMapNameByID(756)};
+				{ 28, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..AtlasLoot:GetMapNameByID(479).." / "..BabbleZone["Booty Bay"]};
+				{ 29, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..AtlasLoot:GetMapNameByID(362)};
+				{ 30, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..AtlasLoot:GetMapNameByID(27)};
 			};
 			{
-				{ 1, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
-				{ 2, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 3, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
-				{ 4, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
-				{ 5, 46767, "", "=q1=Warbot Ignition Key", "=ds="..BabbleZone["Dalaran"]};
-				{ 6, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
-				{ 7, 69239, "", "=q1=Winterspring Cub", "=ds="..BabbleZone["Winterspring"]};
-				{ 8, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 1, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..AtlasLoot:GetMapNameByID(480)};
+				{ 2, 29902, "", "=q1=Red Moth Egg", "=ds="..AtlasLoot:GetMapNameByID(479)};
+				{ 3, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..AtlasLoot:GetMapNameByID(480)};
+				{ 4, 10393, "", "=q1=Undercity Cockroach", "=ds="..AtlasLoot:GetMapNameByID(479).." / "..AtlasLoot:GetMapNameByID(382)};
+				{
+					{ 5, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
+					{ 5, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
+				};
+				{ 6, 29904, "", "=q1=White Moth Egg", "=ds="..AtlasLoot:GetMapNameByID(471)};
+				{ 7, 69239, "", "=q1=Winterspring Cub", "=ds="..AtlasLoot:GetMapNameByID(281)};
+				{ 8, 29903, "", "=q1=Yellow Moth Egg", "=ds="..AtlasLoot:GetMapNameByID(471)};
 			};
 		};
 		info = {
@@ -1952,31 +1958,27 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsQuest"] = {
 		["Normal"] = {
 			{
+				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 4, 89587, "", "=q3=Porcupette", "=ds=Pet Battle Quests" };
+				{ 5, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 6, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
+				{ 7, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
 				{
-					{ 2, 45022, "", "=q3=Argent Gruntling", "=ds="..AL["Argent Tournament"]};
-					{ 2, 44998, "", "=q3=Argent Squire", "=ds="..AL["Argent Tournament"]};
+					{ 8, 72045, "", "=q1=Horde Balloon", "=q1=#m4#: #QUESTID:29401#"};
+					{ 8, 72042, "", "=q1=Alliance Balloon", "=q1=#m4#: #QUESTID:29412#"};
 				};
-				{ 3, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 4, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 5, 89587, "", "=q3=Porcupette", "=ds=Pet Battle Quests" };
-				{ 6, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 7, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
-				{ 8, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
-				{
-					{ 9, 72045, "", "=q1=Horde Balloon", "=q1=#m4#: #QUESTID:29401#"};
-					{ 9, 72042, "", "=q1=Alliance Balloon", "=q1=#m4#: #QUESTID:29412#"};
-				};
-				{ 10, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 11, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
-				{ 12, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
-				{ 13, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
-				{ 14, 84105, "", "=q1=Fishy", "=q1=#m4#" };
-				{ 15, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
-				{ 17, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
-				{ 18, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
-				{ 19, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
-				{ 20, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
-				{ 21, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
+				{ 9, 65661, "", "=q1=Blue Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 10, 66067, "", "=q1=Brazie's Sunflower Seeds", "=q1=#m4#: #QUESTID:28748#"};
+				{ 11, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
+				{ 12, 65662, "", "=q1=Gold Mini Jouster", "=q1=#m4#: #QUESTID:25560#"};
+				{ 13, 84105, "", "=q1=Fishy", "=q1=#m4#: #QUESTID:29905#" };
+				{ 14, 69251, "", "=q1=Lashtail Hatchling", "=q1=#m4#: #QUESTID:29208#"};
+				{ 15, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
+				{ 17, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
+				{ 18, 68833, "", "=q1=Panther Cub", "=q1=#m4#: #QUESTID:29267#"};
+				{ 19, 66080, "", "=q1=Tiny Flamefly", "=q1=#m4#: #QUESTID:28415#"};
+				{ 20, 46325, "", "=q1=Withers", "=q1=#m4#: #QUESTID:13570#"};
 			};
 		};
 		info = {
@@ -2068,7 +2070,7 @@ local moduleName = "AtlasLootMoP"
 				};
 				{ 3, 38628, "", "=q3=Nether Ray Fry", "=ds="..BabbleFaction["Sha'tari Skyguard"]};
 				{ 4, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="..BabbleFaction["The Kalu'ak"]};
-				{ 5, 85222, "", "=q3=Red Cricket", "=ds=Sho"};
+				{ 5, 85222, "", "=q3=Red Cricket", "=ds="..BabbleFaction["Sho"]};
 				{
 					{ 6, 64996, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Hellscream's Reach"].."  =ec1=#m6#"};
 					{ 6, 63355, "", "=q3=Rustberg Gull", "=ds="..BabbleFaction["Baradin's Wardens"].."  =ec1=#m7#"};
@@ -2077,7 +2079,7 @@ local moduleName = "AtlasLootMoP"
 					{ 7, 46821, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Sunreavers"].."  =ec1=#m6#"};
 					{ 7, 46820, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Silver Covenant"].."  =ec1=#m7#"};
 				};
-				{ 8, 85447, "", "=q3=Tiny Goldfish", "=ds=The Anglers"};
+				{ 8, 85447, "", "=q3=Tiny Goldfish", "=ds="..BabbleFaction["The Anglers"]};
 				{ 9, 34478, "", "=q3=Tiny Sporebat", "=ds="..BabbleFaction["Sporeggar"]};
 				{ 10, 39898, "", "=q1=Cobra Hatchling", "=ds="..BabbleFaction["The Oracles"]};
 				{ 11, 44721, "", "=q1=Proto-Drake Whelp", "=ds="..BabbleFaction["The Oracles"]};
@@ -2095,36 +2097,36 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["World Drop"], ""};
-				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
-				{ 3, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
-				{ 4, 86564, "", "=q3=Imbued Jade Fragment", "=ds=Dread Wastes" };
-				{ 5, 86563, "", "=q3=Hollow Reed", "=ds=Dread Wastes"};
+				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..AtlasLoot:GetMapNameByID(689)};
+				{ 3, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..AtlasLoot:GetMapNameByID(504)};
+				{ 4, 86564, "", "=q3=Imbued Jade Fragment", "=q2=Karr the Darkener, =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 5, 86563, "", "=q3=Hollow Reed", "=q2=Nalash Verdantis, =q1="..AtlasLoot:GetMapNameByID(858)};
 				{ 6, 73953, "", "=q3=Sea Pony", "=q2=#p24#, =q1="..BabbleZone["Darkmoon Island"]};
-				{ 7, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Winterspring"]};
-				{ 8, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
-				{ 9, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
-				{ 10, 10822, "", "=q1=Dark Whelpling", "=ds="..BabbleZone["Wetlands"].." / "..BabbleZone["Badlands"].." / "..BabbleZone["Burning Steppes"]};
-				{ 11, 48112, "", "=q1=Darting Hatchling", "=ds="..BabbleZone["Dustwallow Marsh"]};
+				{ 7, 34535, "", "=q1=Azure Whelpling", "=ds="..AtlasLoot:GetMapNameByID(281)};
+				{ 8, 29960, "", "=q1=Captured Firefly", "=ds="..AtlasLoot:GetMapNameByID(467)};
+				{ 9, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..AtlasLoot:GetMapNameByID(21)};
+				{ 10, 10822, "", "=q1=Dark Whelpling", "=ds="..AtlasLoot:GetMapNameByID(40).." / "..AtlasLoot:GetMapNameByID(17).." / "..AtlasLoot:GetMapNameByID(29)};
+				{ 11, 48112, "", "=q1=Darting Hatchling", "=ds="..AtlasLoot:GetMapNameByID(141)};
 				{ 12, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#"};
-				{ 13, 48116, "", "=q1=Gundrak Hatchling", "=ds="..BabbleZone["Zul'Drak"]};
-				{ 14, 48118, "", "=q1=Leaping Hatchling", "=ds="..BabbleZone["Northern Barrens"]};
-				{ 15, 27445, "", "=q1=Magical Crawdad Box", "=ds="..BabbleZone["Terokkar Forest"]};
-				{ 17, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..BabbleZone["Eastern Plaguelands"]};
-				{ 18, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
-				{ 19, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
-				{ 20, 48126, "", "=q1=Razzashi Hatchling", "=ds="..BabbleZone["Northern Stranglethorn"].." / "..BabbleZone["The Cape of Stranglethorn"]};
-				{ 21, 11474, "", "=q1=Sprite Darter Egg", "=ds="..BabbleZone["Feralas"]};
-				{ 22, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
-				{ 23, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
-				{ 24, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..BabbleZone["Deepholm"]};	
+				{ 13, 48116, "", "=q1=Gundrak Hatchling", "=ds="..AtlasLoot:GetMapNameByID(496)};
+				{ 14, 48118, "", "=q1=Leaping Hatchling", "=ds="..AtlasLoot:GetMapNameByID(11)};
+				{ 15, 27445, "", "=q1=Magical Crawdad Box", "=ds="..AtlasLoot:GetMapNameByID(478)};
+				{ 17, 66076, "", "=q1=Mr. Grubbs", "=q2="..AL["Hidden Stash"]..", =q1="..AtlasLoot:GetMapNameByID(23)};
+				{ 18, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..AtlasLoot:GetMapNameByID(201)};
+				{ 19, 48124, "", "=q1=Razormaw Hatchling", "=ds="..AtlasLoot:GetMapNameByID(40)};
+				{ 20, 48126, "", "=q1=Razzashi Hatchling", "=ds="..AtlasLoot:GetMapNameByID(690)};
+				{ 21, 11474, "", "=q1=Sprite Darter Egg", "=ds="..AtlasLoot:GetMapNameByID(121)};
+				{ 22, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..AtlasLoot:GetMapNameByID(40)};
+				{ 23, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..AtlasLoot:GetMapNameByID(121)};
+				{ 24, 64494, "", "=q1=Tiny Shale Spider", "=q2="..AL["Jadefang"]..", =q1="..AtlasLoot:GetMapNameByID(640)};	
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 2, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
-				{ 3, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
-				{ 4, 68673, "", "=q3=Smolderweb Egg", "=q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 5, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 6, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+				{ 2, 33993, "", "=q3=Mojo", "=q1="..AtlasLoot:GetMapNameByID(781)};
+				{ 3, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
+				{ 4, 68673, "", "=q3=Smolderweb Egg", "=q2="..BabbleBoss["Mother Smolderweb"]..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 5, 12264, "", "=q3=Worg Carrier", "=q2="..BabbleBoss["Quartermaster Zigris"]..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 6, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..AtlasLoot:GetMapNameByID(749)};
 			};
 		};
 		info = {
@@ -2136,55 +2138,97 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsEvent"] = {
 		["Normal"] = {
 			{
-				{ 1, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds="..AL["Brewfest"]};
-				{ 2, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="..AL["Brewfest"]};
-				{ 4, 46545, "", "=q3=Curious Oracle Hatchling", "=ds="..AL["Children's Week"]};
-				{ 5, 46544, "", "=q3=Curious Wolvar Pup", "=ds="..AL["Children's Week"]};
-				{ 6, 32616, "", "=q3=Egbert's Egg", "=ds="..AL["Children's Week"]};
-				{ 7, 32622, "", "=q3=Elekk Training Collar", "=ds="..AL["Children's Week"]};
-				{ 8, 69648, "", "=q3=Legs", "=ds="..AL["Children's Week"]};
-				{ 9, 23007, "", "=q1=Piglet's Collar", "=ds="..AL["Children's Week"]};
-				{ 10, 23015, "", "=q1=Rat Cage", "=ds="..AL["Children's Week"]};
-				{ 11, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
-				{ 12, 66073, "", "=q1=Snail Shell", "=ds="..AL["Children's Week"]};
-				{ 13, 23002, "", "=q1=Turtle Box", "=ds="..AL["Children's Week"]};
-				{ 15, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
-				{ 16, 73797, "", "=q3=Lump of Coal", "=ds="..AL["Feast of Winter Veil"]};
-				{ 17, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
-				{ 18, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
-				{ 19, 21305, "", "=q1=Red Helper Box", "=ds="..AL["Feast of Winter Veil"]};
-				{ 20, 21309, "", "=q1=Snowman Kit", "=ds="..AL["Feast of Winter Veil"]};
-				{ 22, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Love is in the Air"]};
-				{ 23, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
-				{ 25, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 26, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
-				{ 28, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
-				{ 29, 71076, "", "=q1=Creepy Crate", "=ds="..AL["Hallow's End"]};
-				{ 30, 70908, "", "=q1=Feline Familiar", "=ds="..AL["Hallow's End"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Brewfest"], ""};
+				{ 2, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
+				{ 3, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Children's Week"], ""};
+				{ 6, 46545, "", "=q3=Curious Oracle Hatchling", "=q1=#m4#: #QUESTID:13959#"};
+				{ 7, 46544, "", "=q3=Curious Wolvar Pup", "=q1=#m4#: #QUESTID:13960#"};
+				{
+					{ 8, 32616, "", "=q3=Egbert's Egg", "=q1=#m4#: #QUESTID:10967#"};
+					{ 8, 32616, "", "=q3=Egbert's Egg", "=q1=#m4#: #QUESTID:10966#"};
+				};
+				{
+					{ 9, 32622, "", "=q3=Elekk Training Collar", "=q1=#m4#: #QUESTID:10967#"};
+					{ 9, 32622, "", "=q3=Elekk Training Collar", "=q1=#m4#: #QUESTID:10966#"};
+				};
+				{
+					{ 10, 69648, "", "=q3=Legs", "=q1=#m4#: #QUESTID:10967#"};
+					{ 10, 69648, "", "=q3=Legs", "=q1=#m4#: #QUESTID:10966#"};
+				};
+				{
+					{ 11, 32617, "", "=q3=Sleepy Willy", "=q1=#m4#: #QUESTID:10967#"};
+					{ 11, 32617, "", "=q3=Sleepy Willy", "=q1=#m4#: #QUESTID:10966#"};
+				};
+				{
+					{ 12, 23007, "", "=q1=Piglet's Collar", "=q1=#m4#: #QUESTID:171#"};
+					{ 12, 23007, "", "=q1=Piglet's Collar", "=q1=#m4#: #QUESTID:171#"};
+				};
+				{
+					{ 13, 23015, "", "=q1=Rat Cage", "=q1=#m4#: #QUESTID:171#"};
+					{ 13, 23015, "", "=q1=Rat Cage", "=q1=#m4#: #QUESTID:171#"};
+				};
+
+				{
+					{ 14, 66073, "", "=q1=Snail Shell", "=q1=#m4#: #QUESTID:171#"};
+					{ 14, 66073, "", "=q1=Snail Shell", "=q1=#m4#: #QUESTID:171#"};
+				};
+				{
+					{ 15, 23002, "", "=q1=Turtle Box", "=q1=#m4#: #QUESTID:171#"};
+					{ 15, 23002, "", "=q1=Turtle Box", "=q1=#m4#: #QUESTID:171#"};
+				};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Noblegarden"], ""};
+				{ 17, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "#NOBLEGARDEN:100#"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Feast of Winter Veil"], ""};
+				{ 20, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
+				{ 21, 21301, "", "=q1=Green Helper Box", "=ds=#e13#"};
+				{ 22, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
+				{ 23, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
+				{ 24, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
+				{ 26, 0, "INV_Box_01", "=q6="..AL["Love is in the Air"], ""};
+				{ 27, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Daily Reward"]};
+				{ 28, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
 			};
 			{
-				{ 1, 74611, "", "=q3=Festival Lantern", "=ds="..AL["Lunar Festival"]};
-				{ 2, 74610, "", "=q3=Lunar Lantern", "=ds="..AL["Lunar Festival"]};
-				{ 4, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
-				{ 5, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
-				{ 6, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
-				{ 7, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
-				{ 8, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
-				{ 9, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
-				{ 10, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
-				{ 11, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
-				{ 12, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
-				{ 13, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
-				{ 16, 80008, "", "=q3=Darkmoon Rabbit", "#ACHIEVEMENTID:6332#"};
-				{ 17, 73762, "", "=q3=Darkmoon Balloon", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 18, 74981, "", "=q3=Darkmoon Cub", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 19, 73764, "", "=q3=Darkmoon Monkey", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 20, 73903, "", "=q3=Darkmoon Tonk", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 21, 73765, "", "=q3=Darkmoon Turtle", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 22, 73905, "", "=q3=Darkmoon Zeppelin", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 23, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 24, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
-				{ 25, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Midsummer Fire Festival"], ""};
+				{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#", "#MIDSUMMER:350#"};
+				{ 3, 53641, "", "=q3=Ice Chip", "=ds="..AL["Daily Reward"]};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Hallow's End"], ""};
+				{ 6, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150# / =ds="..AL["Daily Reward"]};
+				{
+					{ 7, 71076, "", "=q1=Creepy Crate", "=q1=#m4#: #QUESTID:29429#"};
+					{ 7, 71076, "", "=q1=Creepy Crate", "=q1=#m4#: #QUESTID:29413#"};
+				};
+				{ 8, 70908, "", "=q1=Feline Familiar", "=ds=#e13#", "#HALLOWSEND:150#"};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["Lunar Festival"], ""};
+				{ 11, 74611, "", "=q3=Festival Lantern", "=ds=#e13#", "#LUNARFESTIVAL:50#"};
+				{ 12, 74610, "", "=q3=Lunar Lantern", "=ds=#e13#", "#LUNARFESTIVAL:50#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Argent Tournament"], ""};
+				{ 17, 45022, "", "=q3=Argent Gruntling", "=ds=#e13#", "=ds=#m4#, =ec1=#m6#"};
+				{ 18, 44998, "", "=q3=Argent Squire", "=ds=#e13#", "=ds=#m4#, =ec1=#m7#"};
+				{ 19, 44984, "", "=q3=Ammen Vale Lashling", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 20, 44970, "", "=q3=Dun Morogh Cub", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 21, 44973, "", "=q3=Durotar Scorpion", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 22, 44974, "", "=q3=Elwynn Lamb", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 23, 44982, "", "=q3=Enchanted Broom", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 24, 45002, "", "=q3=Mechanopeep", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 25, 44980, "", "=q3=Mulgore Hatchling", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 26, 45606, "", "=q3=Sen'jin Fetish", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 27, 44965, "", "=q3=Teldrassil Sproutling", "=ds=#e13#", "#CHAMPSEAL:40#"};
+				{ 28, 44971, "", "=q3=Tirisfal Batling", "=ds=#e13#", "#CHAMPSEAL:40#"};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Darkmoon Faire"], ""};
+				{ 2, 80008, "", "=q4=Darkmoon Rabbit", "#ACHIEVEMENTID:6332#"};
+				{ 3, 73762, "", "=q3=Darkmoon Balloon", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 4, 74981, "", "=q3=Darkmoon Cub", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 5, 73764, "", "=q3=Darkmoon Monkey", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 6, 73903, "", "=q3=Darkmoon Tonk", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 7, 73765, "", "=q3=Darkmoon Turtle", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 8, 73905, "", "=q3=Darkmoon Zeppelin", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 10, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 11, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "#DARKMOON:90#"};
 			};
 		};
 		info = {
@@ -2196,7 +2240,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsPromotional"] = {
 		["Normal"] = {
 			{
-				{ 2, 90177, "", "=q3=Baneling", "=q2=Heart of the Swarm "..AL["Collector's Edition"]};
+				{ 2, 90177, "", "=q3=Baneling", "#ACHIEVEMENTID:7842#"};
 				{ 3, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
 				{ 4, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
 				{ 5, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};
@@ -2295,10 +2339,14 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 38291, "", "=q3=Ethereal Mutagen", "=ds="};
 				{ 4, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="};
 				{ 5, 37431, "", "=q2=Fetch Ball", "=ds="};
-				{ 17, 43626, "", "=q2=Happy Pet Snack", "=ds="};
+				{ 6, 43626, "", "=q2=Happy Pet Snack", "=ds="};
+				{ 7, 89906, "", "=q2=Magical Mini-Treat", "=ds="};
+				{ 17, 71153, "", "=q2=Magical Pet Biscuit", "=ds="};				
 				{ 18, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
-				{ 19, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
-				{ 20, 37460, "", "=q1=Rope Pet Leash", "=ds="};
+				{ 19, 89139, "", "=q1=Chain Pet Leash", "=ds="};
+				{ 20, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
+				{ 21, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
+				{ 22, 37460, "", "=q1=Rope Pet Leash", "=ds="};
 			};
 		};
 		info = {
@@ -2307,18 +2355,41 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
-	AtlasLoot_Data["PetsMoP"] = {
+	AtlasLoot_Data["PetsNEW"] = {
 		["Normal"] = {
 			{
-				{ 17, 88148, "", "=q1=Jade Crane Chick", "=q2=" };---NEEDS TO BE CHECKED
-				{ 17, 85220, "", "=q3=Terrible Turnip", "=q2=" };---NEEDS TO BE CHECKED
-				{ 17, 90173, "", "=q3=Pandaren Water Spirit", "=q2=" };---NEEDS TO BE CHECKED
-				{ 17, 0, "", "=q3=Gilnean Raven", "=q2=" };---NEEDS TO BE CHECKED
-				{ 17, 0, "", "=q3=Shore Crawler", "=q2=" };---NEEDS TO BE CHECKED
+				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "#ACHIEVEMENTID:6332#"};
+				{ 2, 90177, "", "=q3=Baneling", "#ACHIEVEMENTID:7842#"};
+				{ 3, 82774, "", "=q3=Jade Owl", "=q2=#p12#"};
+				{ 4, 85871, "", "=q3=Lucky Quilen Cub", "#ACHIEVEMENTID:6848#"};
+				{ 5, 87526, "", "=q3=Mechanical Pandaren Dragonling", "=q2=#p5#" };
+				{ 6, 89587, "", "=q3=Porcupette", "=ds=Pet Battle Quests" };
+				{ 7, 85222, "", "=q3=Red Cricket", "=ds="..BabbleFaction["Sho"]};
+				{ 8, 82775, "", "=q3=Sapphire Cub", "=q2=#p12#"};
+				{ 9, 85578, "", "=q3=Feral Vermling", "#ACHIEVEMENTID:7500#"};
+				{ 10, 86562, "", "=q3=Hopling", "#ACHIEVEMENTID:6402#"};
+				{ 11, 89686, "", "=q3=Jade Tentacle", "#ACHIEVEMENTID:7521#"};
+				{ 12, 88147, "", "=q3=Singing Cricket Cage", "#ACHIEVEMENTID:6582#"};
+				{ 13, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
+				{ 14, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
+				{ 15, 85447, "", "=q3=Tiny Goldfish", "=ds="..BabbleFaction["The Anglers"]};
+				{ 16, 89368, "", "=q1=Chi-ji Kite", "=q2=#p26#"};
+				{ 17, 84105, "", "=q1=Fishy", "=q1=#m4#: #QUESTID:29905#" };
+				{ 18, 89367, "", "=q1=Yu'lon Kite", "=q2=#p26#"};
+					{ 19, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
+					{ 19, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
+				{ 21, 89906, "", "=q2=Magical Mini-Treat", "=ds="};	
+				{ 22, 89139, "", "=q1=Chain Pet Leash", "=ds="};
+				{ 23, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};				
+				{ 25, 88148, "", "=q1=Jade Crane Chick", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 26, 85220, "", "=q3=Terrible Turnip", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 27, 90173, "", "=q3=Pandaren Water Spirit", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 28, 0, "", "=q3=Gilnean Raven", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 29, 0, "", "=q3=Shore Crawler", "=ds=Unknown" };---NEEDS TO BE CHECKED
 			};
 		};
 		info = {
-			name = "MoP companions",
+			name = AL["New Companions"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}

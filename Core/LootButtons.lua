@@ -16,30 +16,31 @@ local AltasLootItemButton = {}
 
 local CURRENCY_PRICE = {
 	-- http://www.wowhead.com/currencies
-	["DALARANJW"] = 61,		-- Dalaran Jewelcrafter's Token
-	["DALARANCK"] = 81,		-- Dalaran Cooking Award
-	["CHAMPSEAL"] = 241,	-- Champion's Seal
-	["ILLLJW"] = 361,		-- Illustrious Jewelcrafter's Token
-	["CONQUEST"] = 390, 	-- Conquest Points
-	["TOLBARAD"] = 391,		-- Tol Barad Commendation
-	["HONOR"] = 392,		-- Honor Points	
-	["JUSTICE"] = 395,		-- Justice Points
-	["VALOR"] = 396,		-- Valor Points
 	["CHEFAWARD"] = 402,	-- Chef's Award
-	["WORLDTREE"] = 416,	-- Mark of the World Tree
-	["CATAJW"] = 361,		-- Illustrious Jewelcrafter's Token
+	["CHAMPSEAL"] = 241,	-- Champion's Seal
+	["CONQUEST"] = 390, 	-- Conquest Points
+	["DALARANCK"] = 81,		-- Dalaran Cooking Award
+	["DALARANJW"] = 61,		-- Dalaran Jewelcrafter's Token
 	["DARKMOON"] = 515,		-- Darkmoon Prize Ticket
-	
-	-- Custom currencys
-	["MIDSUMMER"] = { itemID = 23247 },
-	["SPIRITSHARD"] = { itemID = 28558 },
-	["HALLOWSEND"] = { itemID = 33226 },
-	["BREWFEST"] = { itemID = 37829 },
-	["NOBLEGARDEN"] = { itemID = 44791 },
-	["CHAMPWRIT"] = { itemID = 46114 },
-	["VALENTINEDAY"] = { itemID = 49927 },
-}
+	["HONOR"] = 392,		-- Honor Points
+	["ILLLJW"] = 361,		-- Illustrious Jewelcrafter's Token -- why duplicate?
+	["CATAJW"] = 361,		-- Illustrious Jewelcrafter's Token -- why duplicate?
+	["IRONPAW"] = 402,      -- Ironpaw Token
+	["JUSTICE"] = 395,		-- Justice Points
+	["TOLBARAD"] = 391,		-- Tol Barad Commendation
+	["VALOR"] = 396,		-- Valor Points
+	["WORLDTREE"] = 416,	-- Mark of the World Tree
 
+	-- Custom currencys
+	["BREWFEST"] = { itemID = 37829 },        -- Brewfest
+	["CHAMPWRIT"] = { itemID = 46114 },       -- What is this?
+	["HALLOWSEND"] = { itemID = 33226 },      -- Hallow's End
+	["LUNARFESTIVAL"] = { itemID = 21100 },   -- Lunar Festival
+	["MIDSUMMER"] = { itemID = 23247 },       -- Midsummer Fire Festival
+	["NOBLEGARDEN"] = { itemID = 44791 },	  -- Noblegarden
+	["SPIRITSHARD"] = { itemID = 28558 },     -- World PvP - Terokkar Forest: Bone Wastes
+	["VALENTINEDAY"] = { itemID = 49927 },    -- Love is in the Air
+}
 
 -- AtlasLoot:CreateItemButton
 do

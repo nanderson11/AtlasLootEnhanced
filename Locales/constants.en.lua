@@ -700,6 +700,7 @@ if AL then
 	AL["Quest Reward Companions"] = true;
 	AL["Rare Companions"] = true;
 	AL["Unobtainable Companions"] = true;
+	AL["New Companions"] = true;
 
 	-- Mounts
 	AL["Alliance Mounts"] = true;

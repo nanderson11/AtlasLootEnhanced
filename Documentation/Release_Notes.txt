@@ -8,7 +8,7 @@ Patch Notes
 v7.01.00 and the release of Mists of Pandaria! (Sep 20, 2012) 
 Added all new dungeon loot: Temple of the Jade Serpent, Stormstout Brewery, Mogu'Shan Palace, Shado-pan Monastery, Siege of Niuzao Temple, Gate of the Setting Sun
 Added Tier 14 Raid Set.
-Added unique Mists of Pandaria companions.
+Added new Mists of Pandaria companions and accessories.
 Added all new Mists of Pandaria mounts.
 Updated Engineering, First Aid and Mining with MoP recipes.
 Updated loot tables for Coren Direbrew (Brewfest) and Headless Horsemen (Hallow's End).
