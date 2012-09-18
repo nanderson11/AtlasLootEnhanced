@@ -204,7 +204,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 1, "TabardsAlliance", "achievement_pvp_a_16", "=ds="..AL["Alliance Tabards"], ""};
-				{ 2, "TabardsNeutralFaction", "INV_Jewelry_Ring_15", "=ds="..AL["Neutral Faction Tabards"], ""};
+				{ 2, "TabardsNeutralFaction", "inv_misc_tabard_tolvir", "=ds="..AL["Neutral Faction Tabards"], ""};
 				{ 3, "TabardsRemoved", "INV_Jewelry_Ring_15", "=ds="..AL["Unobtainable Tabards"], ""};
 				{ 5, 0, "INV_Box_01", "=q6="..AL["Mists of Pandaria"], ""};
 				{ 6, 89401, "", "=q3=Anglers Tabard", "=ds=#s7#"};
