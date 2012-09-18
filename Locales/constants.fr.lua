@@ -557,6 +557,9 @@ if AL then
 	AL["10/25 Man"] = "10 / 25 Joueurs";
 	AL["Epic Set"] = "Set épique";
 	AL["Rare Set"] = "Set rare";
+	AL["Season 6"] = "Saison 6";
+	AL["Season 7"] = "Saison 7";
+	AL["Season 8"] = "Saison 8";
 	AL["Season 9"] = "Saison 9";
 	AL["Season 10"] = "Saison 10";
 	AL["Season 11"] = "Saison 11";
@@ -699,6 +702,7 @@ if AL then
 	AL["Quest Reward Companions"] = "Mascottes des récompenses de quêtes";
 	AL["Rare Companions"] = "Mascottes rares";
 	AL["Unobtainable Companions"] = "Mascottes impossibles à obtenir";
+	AL["New Companions"] = "Nouvelles mascottes";
 
 	-- Mounts
 	AL["Alliance Mounts"] = "Montures de l'Alliance";
@@ -715,14 +719,16 @@ if AL then
 	AL["Promotional Mounts"] = "Montures promotionnelles";
 	AL["Rare Mounts"] = "Montures rares";
 	AL["Unobtainable Mounts"] = "Montures impossibles à obtenir";
+	AL["New Mounts"] = "Nouvelles montures";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "Tabards des hauts faits & récompenses de quêtes";
 	AL["Alliance Tabards"] = "Tabards de l'Alliance";
 	AL["Card Game Tabards"] = "Tabards du jeu de cartes";
 	AL["Horde Tabards"] = "Tabards de la Horde";
+	AL["Neutral Faction Tabards"] = "Tabards des factions neutres";
 	AL["PvP Tabards"] = "Tabards JcJ";
-	AL["Unobtainable Tabards"] = "Tabards imposssibles à obtenir";
+	AL["Unobtainable Tabards"] = "Tabards impossibles à obtenir";
 
 	-- Transformation Items
 	AL["Transformation Items"] = "Objets de transformation";
