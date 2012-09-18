@@ -558,6 +558,9 @@ if AL then
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;
 	AL["Rare Set"] = true;
+	AL["Season 6"] = true;
+	AL["Season 7"] = true;
+	AL["Season 8"] = true;
 	AL["Season 9"] = true;
 	AL["Season 10"] = true;
 	AL["Season 11"] = true;
@@ -724,6 +727,7 @@ if AL then
 	AL["Alliance Tabards"] = true;
 	AL["Card Game Tabards"] = true;
 	AL["Horde Tabards"] = true;
+	AL["Neutral Faction Tabards"] = true;
 	AL["PvP Tabards"] = true;
 	AL["Unobtainable Tabards"] = true;
 

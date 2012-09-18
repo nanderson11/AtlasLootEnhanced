@@ -204,31 +204,24 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 1, "TabardsAlliance", "achievement_pvp_a_16", "=ds="..AL["Alliance Tabards"], ""};
-				{ 2, "TabardsRemoved", "INV_Jewelry_Ring_15", "=ds="..AL["Unobtainable Tabards"], ""};
-				{ 4, 65904, "", "=q1=Tabard of Ramkahen", "=ds=#s7#"};
-				{ 5, 65909, "", "=q1=Tabard of the Dragonmaw Clan", "=ds=#s7#"};
-				{ 6, 65905, "", "=q1=Tabard of the Earthen Ring", "=ds=#s7#"};
-				{ 7, 65906, "", "=q1=Tabard of the Guardians of Hyjal", "=ds=#s7#"};
-				{ 8, 65907, "", "=q1=Tabard of Therazane", "=ds=#s7#"};
-				{ 9, 65908, "", "=q1=Tabard of the Wildhammer Clan", "=ds=#s7#"};
-				{ 11, 46874, "", "=q3=Argent Crusader's Tabard", "=ds=#s7#"};
-				{ 12, 43154, "", "=q1=Tabard of the Argent Crusade", "=ds=#s7#"};
-				{ 13, 43155, "", "=q1=Tabard of the Ebon Blade", "=ds=#s7#"};
-				{ 14, 43157, "", "=q1=Tabard of the Kirin Tor", "=ds=#s7#"};
-				{ 15, 43156, "", "=q1=Tabard of the Wyrmrest Accord", "=ds=#s7#"};
+				{ 2, "TabardsNeutralFaction", "INV_Jewelry_Ring_15", "=ds="..AL["Neutral Faction Tabards"], ""};
+				{ 3, "TabardsRemoved", "INV_Jewelry_Ring_15", "=ds="..AL["Unobtainable Tabards"], ""};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Mists of Pandaria"], ""};
+				{ 6, 89401, "", "=q3=Anglers Tabard", "=ds=#s7#"};
+				{ 7, 89799, "", "=q3=August Celestials Tabard", "=ds=#s7#"};
+				{ 8, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
+				{ 9, 89798, "", "=q3=Klaxxi Tabard", "=ds=#s7#"};
+				{ 10, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#"};
+				{ 11, 89796, "", "=q3=Order of the Cloud Serpent Tabard", "=ds=#s7#"};
+				{ 12, 89800, "", "=q3=Shado-Pan Tabard", "=ds=#s7#"};
+				{ 13, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
+				{ 14, 89796, "", "=q3=Order of the Cloud Serpent Tabard", "=ds=#s7#"};
 				{ 16, "TabardsHorde", "achievement_pvp_h_16", "=ds="..AL["Horde Tabards"], ""};
-				{ 17, "TabardsAchievementQuestRareMisc", "inv_shirt_guildtabard_01", "=ds="..AL["Achievement & Quest Reward Tabards"], ""};
-				{ 19, 31779, "", "=q1=Aldor Tabard", "=ds=#s7#"};
-				{ 20, 31804, "", "=q1=Cenarion Expedition Tabard", "=ds=#s7#"};
-				{ 21, 31776, "", "=q1=Consortium Tabard", "=ds=#s7#"};
-				{ 22, 31777, "", "=q1=Keepers of Time Tabard", "=ds=#s7#"};
-				{ 23, 31778, "", "=q1=Lower City Tabard", "=ds=#s7#"};
-				{ 24, 32828, "", "=q1=Ogri'la Tabard", "=ds=#s7#"};
-				{ 25, 31781, "", "=q1=Sha'tar Tabard", "=ds=#s7#"};
-				{ 26, 31775, "", "=q1=Sporeggar Tabard", "=ds=#s7#"};
-				{ 27, 31780, "", "=q1=Scryers Tabard", "=ds=#s7#"};
-				{ 28, 32445, "", "=q1=Skyguard Tabard", "=ds=#s7#"};
-				{ 29, 35221, "", "=q1=Tabard of the Shattered Sun", "=ds=#s7#"};
+				{ 17, "TabardsAchievementQuestRare", "inv_shirt_guildtabard_01", "=ds="..AL["Achievement & Quest Reward Tabards"], ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
+				{ 21, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
+				{ 22, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
+				{ 23, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {

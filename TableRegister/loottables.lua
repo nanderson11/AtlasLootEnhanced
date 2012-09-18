@@ -1732,7 +1732,8 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "TabardsAlliance" },
 				{ "TabardsHorde" },
-				{ "TabardsAchievementQuestRareMisc" },
+				{ "TabardsNeutralFaction" },
+				{ "TabardsAchievementQuestRare" },
 				{ "TabardsRemoved" },
 			},
 			["Info"] = { BabbleInventory["Tabards"], "AtlasLootCataclysm"},
