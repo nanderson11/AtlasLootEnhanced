@@ -881,11 +881,26 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["GoldenLotus"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
-				{ 2, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
-				{ 3, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
-				{ 4, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
-				{ 5, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
+				{ 1, 0, "achievement_faction_goldenlotus", "=q6=#r3#", ""};
+				{ 2, 89642, "", "=q3=Bracers of Eternal Resolve", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
+				{ 3, 89643, "", "=q3=Tranquility Bindings", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
+				{ 4, 89653, "", "=q3=Surehand Grips", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
+				{ 5, 89652, "", "=q3=Wandering Friar's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
+				{ 6, 89663, "", "=q3=Leggings of Twisted Vines", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
+				{ 7, 89662, "", "=q3=Snowpack Waders", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
+				{ 8, 89648, "", "=q3=Bracers of Inner Light", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
+				{ 9, 89649, "", "=q3=Serrated Forearm Guards", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
+				{ 10, 89527, "", "=q3=Amulet of Swirling Mists", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 11, 89531, "", "=q3=Gorget of Usurped Kings", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 12, 89528, "", "=q3=Necklace of Jade Pearls", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 13, 89529, "", "=q3=Pendant of Endless Inquisition", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 14, 89530, "", "=q3=Triumphant Conqueror's Chain", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 15, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s14#", "#JUSTICE:1750#"};
+				{ 16, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
+				{ 17, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
+				{ 18, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
+				{ 19, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
+				{ 20, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
