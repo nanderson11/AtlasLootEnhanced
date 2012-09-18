@@ -2243,9 +2243,9 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 73903, "", "=q3=Darkmoon Tonk", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 7, 73765, "", "=q3=Darkmoon Turtle", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 8, 73905, "", "=q3=Darkmoon Zeppelin", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 10, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 11, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 9, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "=q1=#m4#: #QUESTID:7946#"};
+				{ 10, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "1 #gold#"};
+				{ 11, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "1 #gold#"};
 			};
 		};
 		info = {
