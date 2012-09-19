@@ -2460,7 +2460,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 2414, "", "=q3=Pinto Bridle", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "inv_misc_tournaments_tabard_human", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
 				{ 2, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 3, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
 				{ 4, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
@@ -2559,7 +2559,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 13331, "", "=q3=Red Skeletal Horse", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "inv_misc_tournaments_tabard_orc", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
 				{ 2, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 3, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
 				{ 4, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
