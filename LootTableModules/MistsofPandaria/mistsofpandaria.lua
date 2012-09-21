@@ -1654,7 +1654,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "T14SET",
 		};
 	}
-				
+
 	AtlasLoot_Data["T14ShamanEnhancement"] = {
 		["Normal"] = {
 			{
@@ -1683,7 +1683,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "T14SET",
 		};
 	}
-				
+
 	AtlasLoot_Data["T14ShamanRestoration"] = {
 		["Normal"] = {
 			{
@@ -2185,7 +2185,6 @@ local moduleName = "AtlasLootMoP"
 					{ 13, 23015, "", "=q1=Rat Cage", "=q1=#m4#: #QUESTID:171#"};
 					{ 13, 23015, "", "=q1=Rat Cage", "=q1=#m4#: #QUESTID:171#"};
 				};
-
 				{
 					{ 14, 66073, "", "=q1=Snail Shell", "=q1=#m4#: #QUESTID:171#"};
 					{ 14, 66073, "", "=q1=Snail Shell", "=q1=#m4#: #QUESTID:171#"};
@@ -2358,12 +2357,13 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 37431, "", "=q2=Fetch Ball", "=ds="};
 				{ 6, 43626, "", "=q2=Happy Pet Snack", "=ds="};
 				{ 7, 89906, "", "=q2=Magical Mini-Treat", "=ds="};
-				{ 17, 71153, "", "=q2=Magical Pet Biscuit", "=ds="};				
+				{ 17, 71153, "", "=q2=Magical Pet Biscuit", "=ds="};
 				{ 18, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
 				{ 19, 89139, "", "=q1=Chain Pet Leash", "=ds="};
-				{ 20, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
-				{ 21, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
-				{ 22, 37460, "", "=q1=Rope Pet Leash", "=ds="};
+				{ 20, 89222, "", "=q1=Cloud Ring", "=ds="};
+				{ 21, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
+				{ 22, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
+				{ 23, 37460, "", "=q1=Rope Pet Leash", "=ds="};
 			};
 		};
 		info = {
@@ -2397,12 +2397,13 @@ local moduleName = "AtlasLootMoP"
 					{ 19, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
 				{ 21, 89906, "", "=q2=Magical Mini-Treat", "=ds="};	
 				{ 22, 89139, "", "=q1=Chain Pet Leash", "=ds="};
-				{ 23, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};				
-				{ 25, 88148, "", "=q1=Jade Crane Chick", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 26, 85220, "", "=q3=Terrible Turnip", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 27, 90173, "", "=q3=Pandaren Water Spirit", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 28, 0, "", "=q3=Gilnean Raven", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 29, 0, "", "=q3=Shore Crawler", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 23, 89222, "", "=q1=Cloud Ring", "=ds="};
+				{ 24, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
+				{ 26, 88148, "", "=q1=Jade Crane Chick", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 27, 85220, "", "=q3=Terrible Turnip", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 28, 90173, "", "=q3=Pandaren Water Spirit", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 29, 0, "", "=q3=Gilnean Raven", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 30, 0, "", "=q3=Shore Crawler", "=ds=Unknown" };---NEEDS TO BE CHECKED
 			};
 		};
 		info = {
@@ -2748,7 +2749,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
-	
+
 	AtlasLoot_Data["MountsRareRaid"] = {
 		["Normal"] = {
 			{
@@ -3299,7 +3300,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "TRANSFORMATIONMENU",
 		};
 	}
-	
+
 	AtlasLoot_Data["TransformationAdditionalEffects"] = {
 		["Normal"] = {
 			{
