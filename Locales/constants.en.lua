@@ -72,6 +72,9 @@ if AL then
 	AL["Load AtlasLoot"] = true;
 	AL["Module \"%s\" is disabled."] = true;
 	AL["Module \"%s\" is missing."] = true;
+	
+	-- MiniMap-Button
+	AL["Click to open"] = true;
 
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = true;

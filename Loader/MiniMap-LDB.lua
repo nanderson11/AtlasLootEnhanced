@@ -14,6 +14,10 @@ local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasL
     type = "launcher",
 	text = AL["AtlasLoot"],
     icon = "Interface\\Icons\\INV_Box_01",
+	OnTooltipShow = function(tooltip)
+		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
+		tooltip:AddLine(AL["Click to open"]);
+	end
 })
 
 local MiniMapIcon = LibStub("LibDBIcon-1.0")

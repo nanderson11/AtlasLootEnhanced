@@ -69,7 +69,7 @@ local FilterTable = {
 		"#w2#",				-- Bow
 		"#w3#",				-- Crossbow
 		"#w5#",				-- Gun
-		"#w11#",			-- Thrown
+		-- "#w11#",			-- Thrown 	--REMOVED
 	},
 	
 	["Other"] = {
@@ -77,7 +77,7 @@ local FilterTable = {
 		"#s14#",			-- Trinket
 		"#s2#",				-- Neck
 		"#s4#",				-- Back
-		"#s16#",			-- Relic
+		-- "#s16#",			-- Relic 	--REMOVED
 	},
 
 	["ItemSlot"] = {
@@ -218,7 +218,7 @@ do
 	local function SortTable(t, slot)
 		if slot == "WeaponsMeele" or slot == "WeaponsRanged" or slot == "WeaponsMeeleTwoHand" then
 			local a,b = {}, {}
-			for m,n in ipairs(t) do a[#a + 1] = FilterTableNamesSlots[n] b[FilterTableNamesSlots[n]] = m end
+			for m,n in ipairs(t) do a[#a + 1] = FilterTableNamesSlots[n];b[FilterTableNamesSlots[n]] = m end
 			table.sort(a)
 			local i = 0
 			return function()
