@@ -16,7 +16,7 @@ local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasL
     icon = "Interface\\Icons\\INV_Box_01",
 	OnTooltipShow = function(tooltip)
 		tooltip:AddLine("|cff00FF00"..AL["AtlasLoot"].."|r");
-		tooltip:AddLine(AL["Click to open"]);
+		tooltip:AddLine(AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "]);
 	end
 })
 
