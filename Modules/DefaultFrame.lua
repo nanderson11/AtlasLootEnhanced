@@ -223,19 +223,19 @@ do
 		Frame.CloseButton:SetScript("OnShow", setFrameLvl)
 		
 		Frame.LockButton = CreateFrame("Button", frameName.."_LockButton",Frame,"OptionsButtonTemplate")
-		Frame.LockButton:SetWidth(32)
-		Frame.LockButton:SetHeight(32)
-		Frame.LockButton:SetPoint("RIGHT", Frame.CloseButton, "LEFT", 10, 0)
+		Frame.LockButton:SetWidth(25)
+		Frame.LockButton:SetHeight(25)
+		Frame.LockButton:SetPoint("RIGHT", Frame.CloseButton, "LEFT", 5, 0)
 		Frame.LockButton:SetScript("OnClick", toggleLock)
 		
 		Frame.LockButton.NormalTexture = Frame:CreateTexture(frameName.."_NormalTexture", "ARTWORK")
-		Frame.LockButton.NormalTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")	
+		Frame.LockButton.NormalTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT", -3, 3)	
 		
 		Frame.LockButton.PushedTexture = Frame:CreateTexture(frameName.."_PushedTexture", "ARTWORK")
-		Frame.LockButton.PushedTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")
+		Frame.LockButton.PushedTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT", -3, 3)
 
 		Frame.LockButton.HighlightTexture = Frame:CreateTexture(frameName.."_HighlightTexture", "ARTWORK")
-		Frame.LockButton.HighlightTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")
+		Frame.LockButton.HighlightTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT", -3, 3)
 		Frame.LockButton.HighlightTexture:SetTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Highlight")
 		
 		Frame.LockButton:SetNormalTexture(Frame.LockButton.NormalTexture)
