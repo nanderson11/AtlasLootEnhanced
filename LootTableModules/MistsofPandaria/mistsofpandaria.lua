@@ -30,7 +30,7 @@ local moduleName = "AtlasLootMoP"
 --- PvP
 --- Sets & Collections
 ---- Tier 14 Sets (T14)
----- Trading Card Game Mounts
+---- Trading Card Game Items
 ---- Companions
 ---- Mounts
 ---- Tabards
@@ -2286,20 +2286,20 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsCardGame"] = {
 		["Normal"] = {
 			{
-				{ 2, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
-				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
-				{ 4, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
-				{ 5, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
-				{ 6, 79744, "", "=q3=Eye of the Legion", "=q2="..AL["Card Game Item"]};
-				{ 7, 72134, "", "=q3=Grell Moss", "=q2="..AL["Card Game Item"]};
-				{ 8, 68840, "", "=q3=Landro's Lichling", "=q2="..AL["Card Game Item"]},
-				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=q2="..AL["Card Game Item"]};
-				{ 18, 71624, "", "=q3=Purple Puffer", "=q2="..AL["Card Game Item"]},
-				{ 19, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
-				{ 20, 72153, "", "=q3=Sand Scarab", "=q2="..AL["Card Game Item"]};
-				{ 21, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
-				{ 22, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
-				{ 23, 68841, "", "=q3=Nightsaber Cub", "=q2="..AL["Card Game Item"]},
+				{ 2, 34493, "", "=q4=Dragon Kite", "=ds=#e13#", "=q1="..AL["March of the Legion"]};
+				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=ds=#e13#", "=q1="..AL["Heroes of Azeroth"]};
+				{ 4, 49287, "", "=q4=Tuskarr Kite", "=ds=#e13#", "=q1="..AL["Scourgewar"]};
+				{ 5, 32588, "", "=q3=Banana Charm", "=ds=#e13#", "=q1="..AL["Through The Dark Portal"]};
+				{ 6, 79744, "", "=q3=Eye of the Legion", "=ds=#e13#", "=q1="..AL["War of the Ancients"]};
+				{ 7, 72134, "", "=q3=Grell Moss", "=ds=#e13#", "=q1="..AL["Crown of Heaven"]};
+				{ 8, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#", "=q1="..AL["War of the Elements"]};
+				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=ds=#e13#", "=q1="..AL["Worldbreaker"]};
+				{ 18, 71624, "", "=q3=Purple Puffer", "=ds=#e13#", "=q1="..BabbleZone["Throne of the Tides"]};
+				{ 19, 34492, "", "=q3=Rocket Chicken", "=ds=#e13#", "=q1="..AL["March of the Legion"]};
+				{ 20, 72153, "", "=q3=Sand Scarab", "=ds=#e13#", "=q1="..AL["Tomb of the Forgotten"]};
+				{ 21, 38050, "", "=q3=Soul-Trader Beacon", "=ds=#e13#", "=q1="..AL["Hunt for Illidan"]};
+				{ 22, 49343, "", "=q3=Spectral Tiger Cub", "=ds=#e13#", "=q1="..AL["Scourgewar"]};
+				{ 23, 68841, "", "=q3=Nightsaber Cub", "=ds=#e13#", "=q1="..AL["Twilight of the Dragons"]};
 			};
 		};
 		info = {
@@ -2375,35 +2375,49 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsNEW"] = {
 		["Normal"] = {
 			{
-				{ 1, 80008, "", "=q4=Darkmoon Rabbit", "#ACHIEVEMENTID:6332#"};
-				{ 2, 90177, "", "=q3=Baneling", "#ACHIEVEMENTID:7842#"};
-				{ 3, 82774, "", "=q3=Jade Owl", "=q2=#p12#"};
-				{ 4, 85871, "", "=q3=Lucky Quilen Cub", "#ACHIEVEMENTID:6848#"};
-				{ 5, 87526, "", "=q3=Mechanical Pandaren Dragonling", "=q2=#p5#" };
-				{ 6, 89587, "", "=q3=Porcupette", "=ds=Pet Battle Quests" };
-				{ 7, 85222, "", "=q3=Red Cricket", "=ds="..BabbleFaction["Sho"]};
-				{ 8, 82775, "", "=q3=Sapphire Cub", "=q2=#p12#"};
-				{ 9, 85578, "", "=q3=Feral Vermling", "#ACHIEVEMENTID:7500#"};
-				{ 10, 86562, "", "=q3=Hopling", "#ACHIEVEMENTID:6402#"};
-				{ 11, 89686, "", "=q3=Jade Tentacle", "#ACHIEVEMENTID:7521#"};
-				{ 12, 88147, "", "=q3=Singing Cricket Cage", "#ACHIEVEMENTID:6582#"};
-				{ 13, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
-				{ 14, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
-				{ 15, 85447, "", "=q3=Tiny Goldfish", "=ds="..BabbleFaction["The Anglers"]};
-				{ 16, 89368, "", "=q1=Chi-ji Kite", "=q2=#p26#"};
-				{ 17, 84105, "", "=q1=Fishy", "=q1=#m4#: #QUESTID:29905#" };
-				{ 18, 89367, "", "=q1=Yu'lon Kite", "=q2=#p26#"};
-					{ 19, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
-					{ 19, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
-				{ 21, 89906, "", "=q2=Magical Mini-Treat", "=ds="};	
-				{ 22, 89139, "", "=q1=Chain Pet Leash", "=ds="};
-				{ 23, 89222, "", "=q1=Cloud Ring", "=ds="};
-				{ 24, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
-				{ 26, 88148, "", "=q1=Jade Crane Chick", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 27, 85220, "", "=q3=Terrible Turnip", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 28, 90173, "", "=q3=Pandaren Water Spirit", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 29, 0, "", "=q3=Gilnean Raven", "=ds=Unknown" };---NEEDS TO BE CHECKED
-				{ 30, 0, "", "=q3=Shore Crawler", "=ds=Unknown" };---NEEDS TO BE CHECKED
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
+				{ 2, 80008, "", "=q4=Darkmoon Rabbit", "#ACHIEVEMENTID:6332#"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Achievement Companions"], ""};
+				{ 5, 90177, "", "=q3=Baneling", "#ACHIEVEMENTID:7842#"};
+				{ 6, 85871, "", "=q3=Lucky Quilen Cub", "#ACHIEVEMENTID:6848#"};
+				{ 7, 85578, "", "=q3=Feral Vermling", "#ACHIEVEMENTID:7500#"};
+				{ 8, 86562, "", "=q3=Hopling", "#ACHIEVEMENTID:6402#"};
+				{ 9, 89686, "", "=q3=Jade Tentacle", "#ACHIEVEMENTID:7521#"};
+				{ 10, 88147, "", "=q3=Singing Cricket Cage", "#ACHIEVEMENTID:6582#"};
+				{ 11, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
+				{ 12, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
+				{ 14, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
+				{ 15, 79744, "", "=q3=Eye of the Legion", "=ds=#e13#", "=q1="..AL["War of the Ancients"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
+				{ 17, 85222, "", "=q3=Red Cricket", "=ds="..BabbleFaction["Sho"]};
+				{ 18, 85447, "", "=q3=Tiny Goldfish", "=ds="..BabbleFaction["The Anglers"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
+				{ 21, 82774, "", "=q3=Jade Owl", "=q2=#p12#"};
+				{ 22, 87526, "", "=q3=Mechanical Pandaren Dragonling", "=q2=#p5#" };
+				{ 23, 82775, "", "=q3=Sapphire Cub", "=q2=#p12#"};
+				{ 24, 89368, "", "=q1=Chi-ji Kite", "=q2=#p26#"};
+				{ 25, 89367, "", "=q1=Yu'lon Kite", "=q2=#p26#"};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
+				{ 28, 89587, "", "=q3=Porcupette", "=ds=Pet Battle Quests" };
+				{ 29, 84105, "", "=q1=Fishy", "=q1=#m4#: #QUESTID:29905#" };
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Merchant Sold Companions"], ""};
+				{
+					{ 2, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
+					{ 2, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
+				};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
+				{ 5, 89906, "", "=q2=Magical Mini-Treat", "=ds="};	
+				{ 6, 89139, "", "=q1=Chain Pet Leash", "=ds="};
+				{ 7, 89222, "", "=q1=Cloud Ring", "=ds="};
+				{ 8, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
+				{ 16, 0, "INV_Box_01", "=q6=Unknown", ""};
+				{ 17, 88148, "", "=q1=Jade Crane Chick", "=ds=#e13#" };---NEEDS TO BE CHECKED
+				{ 18, 85220, "", "=q3=Terrible Turnip", "=ds=#e13#" };---NEEDS TO BE CHECKED
+				{ 19, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#" };---NEEDS TO BE CHECKED
+				{ 20, 0, "", "=q3=Gilnean Raven", "=ds=#e13#" };---NEEDS TO BE CHECKED
+				{ 21, 0, "", "=q3=Shore Crawler", "=ds=#e13#" };---NEEDS TO BE CHECKED
 			};
 		};
 		info = {
@@ -2497,16 +2511,20 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 31836, "", "=q4=Reins of the White Riding Talbuk", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..BabbleZone["Dalaran"], "=ec1=#m7#"};
-				{ 2, 44225, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
-				{ 3, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
-				{ 4, 44235, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
-				{ 5, 44689, "", "=q4=Armored Snowy Gryphon", "=ds=#e27#"};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Wintersaber Trainers"].." #j30#", "=ec1=#m7#"};
-				{ 17, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#"};
-				{ 19, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["The Silver Covenant"].." #j30#", "=ec1=#m7#"};
-				{ 20, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#"};
-				{ 21, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#"};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Baradin's Wardens"], "=ec1=#m7#"};
+				{ 2, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};
+				{ 3, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
+				{ 5, 0, "INV_BannerPVP_02", "=q6="..BabbleZone["Dalaran"], "=ec1=#m7#"};
+				{ 6, 44225, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
+				{ 7, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
+				{ 8, 44235, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
+				{ 9, 44689, "", "=q4=Armored Snowy Gryphon", "=ds=#e27#"};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["The Silver Covenant"].." #j30#", "=ec1=#m7#"};
+				{ 17, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#"};
+				{ 18, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#"};
+				{ 20, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Wintersaber Trainers"].." #j30#", "=ec1=#m7#"};
+				{ 21, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#"};
+
 			};
 		};
 		info = {
@@ -2596,16 +2614,19 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 31835, "", "=q4=Reins of the White Riding Talbuk", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "INV_BannerPVP_01", "=q6="..BabbleZone["Dalaran"], "=ec1=#m6#"};
-				{ 2, 44226, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
-				{ 3, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
-				{ 4, 44234, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
-				{ 5, 44690, "", "=q4=Armored Blue Wind Rider", "=ds=#e27#"};
-				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Quest Reward"].." #j30#", "=ec1=#m6#"};
-				{ 17, 46102, "", "=q4=Whistle of the Venomhide Ravasaur", "=ds=#e26#"};
-				{ 19, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["The Sunreavers"].." #j30#", "=ec1=#m6#"};
-				{ 20, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#"};
-				{ 21, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#"};
+				{ 1, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["Hellscream's Reach"], "=ec1=#m6#"};
+				{ 2, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};
+				{ 3, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
+				{ 5, 0, "INV_BannerPVP_01", "=q6="..BabbleZone["Dalaran"], "=ec1=#m6#"};
+				{ 6, 44226, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
+				{ 7, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
+				{ 8, 44234, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
+				{ 9, 44690, "", "=q4=Armored Blue Wind Rider", "=ds=#e27#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["The Sunreavers"].." #j30#", "=ec1=#m6#"};
+				{ 17, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#"};
+				{ 18, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#"};
+				{ 20, 0, "INV_BannerPVP_01", "=q6="..AL["Quest Reward"].." #j30#", "=ec1=#m6#"};
+				{ 21, 46102, "", "=q4=Whistle of the Venomhide Ravasaur", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -2647,9 +2668,13 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
 				{ 3, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
 				{ 4, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleFaction["Ramkahen"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(720)};
-				{ 7, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
-				{ 8, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
+				{ 7, 84101, "", "=q4=Reins of the Grand Expedition Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 8, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 9, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 11, 0, "INV_Box_01", "=q6="..BabbleFaction["Ramkahen"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(720)};
+				{ 12, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
+				{ 13, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Sons of Hodir"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(495)};
 				{
 					{ 17, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#"};
@@ -2699,8 +2724,6 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e26# =ec1=#m7#"};
 				{ 7, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26# =ec1=#m7#"};
 				{ 8, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m7#"};
-				{ 9, 64998, "", "=q4=Reins of the Spectral Steed", "=ds=#e12#"};
-				{ 10, 63039, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 				{ 12, 0, "INV_Box_01", "=q6="..AL["Halaa PvP Mounts"], "=q1="..AtlasLoot:GetMapNameByID(477)};
 				{ 13, 28915, "", "=q4=Reins of the Dark Riding Talbuk", "=ds=#e26#"};
 				{ 14, 29228, "", "=q4=Reins of the Dark War Talbuk", "=ds=#e26#"};
@@ -2712,8 +2735,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e26# =ec1=#m6#"};
 				{ 22, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26# =ec1=#m6#"};
 				{ 23, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m6#"};
-				{ 24, 64999, "", "=q4=Reins of the Spectral Wolf", "=ds=#e12#"};
-				{ 25, 65356, "", "=q4=Reins of the Drake of the West Wind", "=ds=#e27#"};
 			};
 		};
 		info = {
@@ -2736,12 +2757,14 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 63043, "", "=q4=Reins of the Vitreous Stone Drake", "=q2="..BabbleBoss["Slabhide"]..", =q1="..AtlasLoot:GetMapNameByID(768)};
 				{ 10, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
 				{ 11, 68824, "", "=q4=Swift Zulian Panther", "=q2="..BabbleBoss["High Priestess Kilnara"]..", =q1="..AtlasLoot:GetMapNameByID(793)};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Outdoor"], ""};				
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Outdoor"], ""};
 				{ 17, 67151, "", "=q4=Reins of Poseidus", "=q2="..AL["Poseidus"]..", =q1="..AtlasLoot:GetMapNameByID(613)};
 				{ 18, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
-				{ 19, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
-				{ 20, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
-				{ 21, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 19, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..BabbleBoss["Sha of Anger"].." =q1="..AtlasLoot:GetMapNameByID(809), ""};
+				{ 20, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
+				{ 21, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
+				{ 22, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..BabbleBoss["Salyis's Warband"]..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
+				{ 23, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {
@@ -2792,22 +2815,28 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
 				{ 4, 44842, "", "=q4=Red Dragonhawk", "#ACHIEVEMENTID:2537#, =ec1=#m6#"};
 				{ 5, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
-				{ 6, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 7, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 8, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 9, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 10, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 11, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
-				{ 12, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 13, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
-				{ 14, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{ 16, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
-				{ 17, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
-				{ 17, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
-				{ 18, 70909, "", "=q4=Vicious War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"},
-				{ 19, 70910, "", "=q4=Vicious War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"},
-				{ 20, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
-				{ 21, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
+				{ 6, 90710, "", "=q4=Reins of the Ashen Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 7, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 8, 87769, "", "=q4=Reins of the Crimson Cloud Serpent", "#ACHIEVEMENTID:6927#"};
+				{ 9, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 10, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 11, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 12, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 13, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
+				{ 14, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 15, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 16, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 17, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 18, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
+				{ 19, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 20, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
+				{ 21, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
+				{ 23, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
+				{ 24, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
+				{ 25, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
+				{ 26, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
+				{ 27, 70909, "", "=q4=Vicious War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"},
+				{ 28, 70910, "", "=q4=Vicious War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"},
 			};
 		};
 		info = {
@@ -2839,8 +2868,9 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 34060, "", "=q3=Flying Machine", "=ds=#e27# =q2=#p5#"};
 				{ 22, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
 				{ 23, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q1=#m4#: #QUESTID:24915#"};
-				{ 24, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
-				{ 25, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
+				{ 24, 87768, "", "=q4=Reins of the Onyx Cloud Serpent", "=q1=#m4#: #QUESTID:31277#"};
+				{ 25, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
+				{ 26, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
 			};
 		};
 		info = {
@@ -2852,22 +2882,22 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["MountsCardGame"] = {
 		["Normal"] = {
 			{
-				{ 2, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
-				{ 3, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#"};
-				{ 4, 54069, "", "=q4=Blazing Hippogryph", "=ds=#e27#" };
-				{ 5, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
-				{ 6, 79771, "", "=q4=Feldrake", "=ds=#e26#" },
-				{ 7, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
-				{ 8, 68008, "", "=q4=Mottled Drake", "=ds=#e27#" };
-				{ 9, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
-				{ 10, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
-				{ 11, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
-				{ 12, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
-				{ 13, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },
-				{ 14, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
-				{ 15, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
-				{ 17, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
-				{ 18, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
+				{ 1, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#", "=q1="..AL["Twilight of the Dragons"]},
+				{ 2, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#", "=q1="..AL["Drums of War"]};
+				{ 3, 54069, "", "=q4=Blazing Hippogryph", "=ds=#e27#", "=q1="..AL["Wrathgate"]};
+				{ 4, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#", "=q1="..AL["Crown of Heaven"]},
+				{ 5, 79771, "", "=q4=Feldrake", "=ds=#e26#", "=q1="..AL["War of the Ancients"]},
+				{ 6, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#", "=q1="..AL["Fields of Honor"]};
+				{ 7, 68008, "", "=q4=Mottled Drake", "=ds=#e27#", "=q1="..AL["Worldbreaker"]};
+				{ 8, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
+				{ 9, 23720, "", "=q4=Riding Turtle", "=ds=#e26#", "=q1="..AL["Heroes of Azeroth"]};
+				{ 10, 69228, "", "=q4=Savage Raptor", "=ds=#e26#", "=q1="..AL["War of the Elements"]},
+				{ 11, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#", "=q1="..BabbleZone["Throne of the Tides"]},
+				{ 12, 72575, "", "=q4=White Riding Camel", "=ds=#e26#", "=q1="..AL["Tomb of the Forgotten"]},
+				{ 13, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#", "=q1="..AL["Icecrown"]};
+				{ 14, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 16, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
+				{ 17, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
 			};
 		};
 		info = {
@@ -2885,7 +2915,6 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 76902, "", "=q4=Spectral Wind Rider", "=q2="..AL["Scroll of Resurrection"].."  =ec1=#m6#"};
 				{ 5, 76755, "", "=q4=Tyrael's Charger", "=q2="..AL["Annual Pass"]};
 				{ 6, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
-				{ 7, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
 				{ 8, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 17, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
@@ -2965,7 +2994,8 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
 				{ 12, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
 				{ 13, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
-				{ 14, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
+				{ 14, 54860, "", "=q4=X-53 Touring Rocket", "#ACHIEVEMENTID:4832#"};
+				{ 15, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
 				{ 17, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#"};
 				{ 18, 34092, "", "=q4=Merciless Nether Drake", "#ACHIEVEMENTID:887#"};
@@ -3046,15 +3076,16 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"]};
 				{ 2, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
-				{ 3, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"]};
-				{ 6, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=q2=Elegon, =q1="..AtlasLoot:GetMapNameByID(896), ""};
-				{ 7, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2=Sha of Anger, =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 8, 89783, "", "=q4=Son of Galleon's Saddle", "=q2=Salyis's Warband, =q1="..AtlasLoot:GetMapNameByID(807), ""};	
-				{ 10, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
-				{ 11, 84101, "", "=q4=Reins of the Grand Expedition Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
-				{ 12, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
-				{ 13, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 3, 79771, "", "=q4=Feldrake", "=ds=#e26#", "=q1="..AL["War of the Ancients"] },
+				{ 4, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"]};
+				{ 7, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=q2="..BabbleBoss["Elegon"]..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
+				{ 8, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..BabbleBoss["Sha of Anger"].." =q1="..AtlasLoot:GetMapNameByID(809), ""};
+				{ 9, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..BabbleBoss["Salyis's Warband"]..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
+				{ 11, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
+				{ 12, 84101, "", "=q4=Reins of the Grand Expedition Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 13, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 14, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2=Sold by Uncle Bigpocket, =q1="..AtlasLoot:GetMapNameByID(809)};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"]};
 				{ 17, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e26# =q2=#p12#"};
 				{ 18, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
