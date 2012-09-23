@@ -72,6 +72,9 @@ if AL then
 	AL["Load AtlasLoot"] = "加载 AtlasLoot";
 	AL["Module \"%s\" is disabled."] = "\"%s\"模块已禁用。";
 	AL["Module \"%s\" is missing."] = "\"%s\"模组缺失。";
+	
+	-- MiniMap-Button
+	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000点击：|cffFFFFFF打开 AtlasLoot\n|cffFF0000Shift+点击：|cffFFFFFF打开 AtlasLoot 选项";
 
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu 已经没有任何用处。\n请将其从 AddOns 文件夹移除。";
@@ -268,6 +271,7 @@ if AL then
 	AL["Level 70"] = "等级70";
 	AL["Level 80"] = "等级80";
 	AL["Level 85"] = "等级85";
+	AL["Level 90"] = "等级90";
 	AL["|cffff0000(unsafe)"] = "|cffff0000（不安全）";
 	AL["Misc"] = "其它";
 	AL["Rewards"] = "奖励";
@@ -355,6 +359,7 @@ if AL then
 	AL["Tier 10 Set"] = "等级10套装";
 	AL["Tier 11/12 Set"] = "等级11/12套装";
 	AL["Tier 13 Set"] = "等级13套装";
+	AL["Tier 14 Set"] = "等级14套装";
 	AL["TCG Items"] = "集换式卡牌物品";
 
 	-- PvP Menu
@@ -530,6 +535,7 @@ if AL then
 	AL["Burning Crusade"] = "燃烧的远征";
 	AL["Wrath of the Lich King"] = "巫妖王之怒";
 	AL["Cataclysm"] = "大地的裂变";
+	AL["Mists of Pandaria"] = "熊猫人之谜";
 	AL["Entrance"] = "入口";
 	AL["Dungeon Set 1"] = "地下城套装1";
 	AL["Dungeon Set 2"] = "地下城套装2";
@@ -550,10 +556,14 @@ if AL then
 	AL["Tier 11"] = "等级11";
 	AL["Tier 12"] = "等级12";
 	AL["Tier 13"] = "等级13";
+	AL["Tier 14"] = "等级14";
 	AL["10 Man"] = "10人";
 	AL["10/25 Man"] = "10/25人";
 	AL["Epic Set"] = "史诗套装";
 	AL["Rare Set"] = "精良套装";
+	AL["Season 6"] = "第6季";
+	AL["Season 7"] = "第7季";
+	AL["Season 8"] = "第8季";
 	AL["Season 9"] = "第9季";
 	AL["Season 10"] = "第10季";
 	AL["Season 11"] = "第11季";
@@ -651,6 +661,8 @@ if AL then
 	AL["Troll"] = "巨魔";
 	AL["Tol'vir"] = "托维尔";
 	AL["Orc"] = "兽人";
+	AL["Pandaren"] = "熊猫人";
+	AL["Mogu"] = "魔古族";
 	AL["Stats"] = "属性";
 	AL["Resilience"] = "韧性";
 	AL["Professions"] = "专业技能";
@@ -680,6 +692,8 @@ if AL then
 	AL["Outdoor"] = "野外";
 
 	-- Companions
+	AL["Achievement Companions"] = "成就小伙伴";
+	AL["Faction Companions"] = "阵营小伙伴";
 	AL["Card Game Companions"] = "集换卡奖励小伙伴";
 	AL["Companion Accessories"] = "小伙伴附件";
 	AL["Blizzard Store"] = "暴雪商店";
@@ -692,10 +706,12 @@ if AL then
 	AL["Quest Reward Companions"] = "任务奖励小伙伴";
 	AL["Rare Companions"] = "稀有小伙伴";
 	AL["Unobtainable Companions"] = "已绝版小伙伴";
+	AL["New Companions"] = "新小伙伴";
 
 	-- Mounts
 	AL["Alliance Mounts"] = "联盟坐骑";
 	AL["Horde Mounts"] = "部落坐骑";
+	AL["Flying Mounts"] = "飞行坐骑";
 	AL["Card Game Mounts"] = "集换卡游戏坐骑";
 	AL["Crafted Mounts"] = "制造的坐骑";
 	AL["Event Mounts"] = "世界事件坐骑";
@@ -707,12 +723,14 @@ if AL then
 	AL["Promotional Mounts"] = "促销坐骑";
 	AL["Rare Mounts"] = "稀有坐骑";
 	AL["Unobtainable Mounts"] = "已绝版坐骑";
+	AL["New Mounts"] = "新坐骑";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "成就/任务奖励战袍";
 	AL["Alliance Tabards"] = "联盟战袍";
 	AL["Card Game Tabards"] = "集换卡战袍";
 	AL["Horde Tabards"] = "部落战袍";
+	AL["Neutral Faction Tabards"] = "中立阵营战袍";
 	AL["PvP Tabards"] = "PvP 战袍";
 	AL["Unobtainable Tabards"] = "已绝版战袍";
 
@@ -935,6 +953,9 @@ if AL then
 	AL["Destruction"] = "毁灭";
 	AL["Tanking"] = "坦克";
 	AL["DPS"] = "DPS";
+	AL["Mistweaver"] = "织雾";
+	AL["Brewmaster"] = "酿酒";
+	AL["Windwalker"] = "风行";
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "普通怪物";
@@ -1128,6 +1149,7 @@ if AL then
 	AL["Stolen Present"] = "被窃的礼物";
 	AL["Annual Pass"] = "年卡";
 	AL["Scroll of Resurrection"] = "复活卷轴";
+	AL["Recruit-A-Friend"] = "战友招募";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 发生错误！";
