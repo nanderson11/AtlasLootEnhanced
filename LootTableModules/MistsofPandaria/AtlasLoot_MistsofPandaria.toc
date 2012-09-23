@@ -1,12 +1,12 @@
 ﻿## Interface: 50001
 ## Title: AtlasLoot_MistsofPandaria
 ## Title-deDE: AtlasLoot |cFF0099FF[MoP]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[熊猫人之谜]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 潘達利亞之謎
-## Title-zhCN: AtlasLoot |cFF0099FF[大灾变]|r
 ## Notes: AtlasLoot loot tables from MoP
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für MoP
+## Notes-zhCN: AtlasLoot Enhanced 的《熊猫人之谜》副本掉落信息
 ## Notes-zhTW: AtlasLoot 潘達利亞之謎資料片物品掉落資料庫
-## Notes-zhCN: AtlasLoot Enhanced 的《大灾变》副本掉落信息
 ## Author: Hegarol	
 ## Version: @project-version@
 ## X-eMail: manager@atlasloot.net

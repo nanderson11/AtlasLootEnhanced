@@ -1,11 +1,11 @@
 ﻿## Interface: 50001
 ## Title: AtlasLoot_WorldEvents
 ## Title-deDE: AtlasLoot |cFF0099FF[Weltereignisse]|r
-## Title-zhCN: AtlasLoot |cFF0099FF[户外首领]|r
+## Title-zhCN: AtlasLoot |cFF0099FF[世界事件]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 世界事件
 ## Notes: AtlasLoot loot tables from world events
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Weltereignisse
-## Notes-zhCN: AtlasLoot Enhanced 的户外首领掉落信息
+## Notes-zhCN: AtlasLoot 世界事件的物品表
 ## Notes-zhTW: AtlasLoot 世界事件物品掉落資料庫
 ## Author: Hegarol	
 ## Version: @project-version@
