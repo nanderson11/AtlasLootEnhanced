@@ -18,15 +18,14 @@ local moduleName = "AtlasLootMoP"
 ---- Scarlet Halls
 ---- Scarlet Monastery
 --- Factions
----- Golden Lotus
----- Order of the Cloud Serpent
----- Shado-Pan
 ---- The Anglers
 ---- The August Celestials
+---- Golden Lotus
+---- The Klaxxi
 ---- The Lorewalkers
+---- Order of the Cloud Serpent
+---- Shado-Pan
 ---- The Tillers
-----
-----
 --- PvP
 --- Sets & Collections
 ---- Tier 14 Sets (T14)
@@ -874,41 +873,6 @@ local moduleName = "AtlasLootMoP"
 	--- Factions ---
 	----------------
 
-		--------------------
-		--- Golden Lotus ---
-		--------------------
-
-	AtlasLoot_Data["GoldenLotus"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "achievement_faction_goldenlotus", "=q6=#r3#", ""};
-				{ 2, 89642, "", "=q3=Bracers of Eternal Resolve", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
-				{ 3, 89643, "", "=q3=Tranquility Bindings", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
-				{ 4, 89653, "", "=q3=Surehand Grips", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
-				{ 5, 89652, "", "=q3=Wandering Friar's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
-				{ 6, 89663, "", "=q3=Leggings of Twisted Vines", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
-				{ 7, 89662, "", "=q3=Snowpack Waders", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
-				{ 8, 89648, "", "=q3=Bracers of Inner Light", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
-				{ 9, 89649, "", "=q3=Serrated Forearm Guards", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
-				{ 10, 89527, "", "=q3=Amulet of Swirling Mists", "=ds=#s2#", "#JUSTICE:1250#"};
-				{ 11, 89531, "", "=q3=Gorget of Usurped Kings", "=ds=#s2#", "#JUSTICE:1250#"};
-				{ 12, 89528, "", "=q3=Necklace of Jade Pearls", "=ds=#s2#", "#JUSTICE:1250#"};
-				{ 13, 89529, "", "=q3=Pendant of Endless Inquisition", "=ds=#s2#", "#JUSTICE:1250#"};
-				{ 14, 89530, "", "=q3=Triumphant Conqueror's Chain", "=ds=#s2#", "#JUSTICE:1250#"};
-				{ 15, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s14#", "#JUSTICE:1750#"};
-				{ 16, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
-				{ 17, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
-				{ 18, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
-				{ 19, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
-				{ 20, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
-			};
-		};
-		info = {
-			name = BabbleFaction["Golden Lotus"],
-			module = moduleName, menu = "REPMENU",
-		};
-	}
-
 		----------------------------------
 		--- Order of the Cloud Serpent ---
 		----------------------------------
@@ -1034,22 +998,69 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
-		-----------------------
-		--- The Lorewalkers ---
-		-----------------------
+		------------------
+		--- The Klaxxi ---
+		------------------
 
-	AtlasLoot_Data["Lorewalkers"] = {
+	AtlasLoot_Data["Klaxxi"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "achievement_faction_lorewalkers", "=q6=#r5#", ""};
-				{ 3, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#"};
-				{ 4, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#"};
-				{ 5, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
-				{ 6, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
+				{ 1, 0, "achievement_faction_klaxxi", "=q6=#r3#", ""};
+				{ 2, 83791, "", "=q1=Plans: Breastplate of Ancient Steel", "=ds=#p2# (600)"};
+				{ 3, 83792, "", "=q1=Plans: Gauntlets of Ancient Steel", "=ds=#p2# (600)"};
+				{ 4, 90531, "", "=q1=Plans: Ghost Iron Shield Spike", "=ds=#p2# (600)"};
+				{ 5, 83787, "", "=q1=Plans: Ghost Reaver's Breastplate", "=ds=#p2# (600)"};
+				{ 6, 83788, "", "=q1=Plans: Ghost Reaver's Gauntlets", "=ds=#p2# (600)"};
+				{ 7, 84196, "", "=q1=Plans: Living Steel Belt Buckle", "=ds=#p2# (600)"};
+				{ 8, 83789, "", "=q1=Plans: Living Steel Breastplate", "=ds=#p2# (600)"};
+				{ 9, 83790, "", "=q1=Plans: Living Steel Gauntlets", "=ds=#p2# (600)"};
+				{ 10, 90532, "", "=q1=Plans: Living Steel Weapon Chain", "=ds=#p2# (600)"};
+				{ 11, 84197, "", "=q1=Plans: Masterwork Forgewire Axe", "=ds=#p2# (600)"};
+				{ 12, 84198, "", "=q1=Plans: Masterwork Ghost Shard", "=ds=#p2# (600)"};
+				{ 13, 84200, "", "=q1=Plans: Masterwork Ghost-Forged Blade", "=ds=#p2# (600)"};
+				{ 14, 84217, "", "=q1=Plans: Masterwork Phantasmal Hammer", "=ds=#p2# (600)"};
+				{ 15, 84218, "", "=q1=Plans: Masterwork Spiritblade Decimator", "=ds=#p2# (600)"};
+				{ 16, 0, "achievement_faction_klaxxi", "=q6=#r5#", ""};
+				{ 17, 85262, "", "=q4=Reins of the Amber Scorpion", "=ds=#e26#"};
+				{ 18, 89393, "", "=q3=Amber Slicer of Klaxxi-vess", "=ds=#h1#, #w4#"};
+				{ 19, 89392, "", "=q3=Amber Spine of Klaxxi-vess", "=ds=#h1#, #w4#"};
+				{ 20, 89396, "", "=q3=Amber Espada of Klaxxi-vess", "=ds=#h1#, #w10#"};
+				{ 21, 89397, "", "=q3=Amber Saber of Klaxxi-vess", "=ds=#h1#, #w10#"};
+				{ 22, 89398, "", "=q3=Amber Flammard of Klaxxi-vess", "=ds=#h2#, #w10#"};
+				{ 23, 89400, "", "=q3=Amber Sledge of Klaxxi-vess", "=ds=#h1#, #w6#"};
+				{ 24, 89394, "", "=q3=Amber Spear of Klaxxi-vess", "=ds=#w7#"};
+				{ 25, 89395, "", "=q3=Amber Scythe of Klaxxi-vess", "=ds=#w9#"};
+				{ 26, 89399, "", "=q3=Amber Sprayer of Klaxxi-vess", "=ds=#w5#"};
+				{ 27, 89798, "", "=q3=Klaxxi Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
-			name = BabbleFaction["The Lorewalkers"],
+			name = BabbleFaction["The Klaxxi"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		--------------------------------------
+		--- The Lorewalkers / Golden Lotus ---
+		--------------------------------------
+
+	AtlasLoot_Data["LorewalkersGoldenLotus"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "achievement_faction_goldenlotus", "=q6=#r5#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 3, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
+				{ 4, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
+				{ 5, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
+				{ 6, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
+				{ 17, 0, "achievement_faction_lorewalkers", "=q6=#r5#", "=ds="..BabbleFaction["The Lorewalkers"]};
+				{ 18, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#"};
+				{ 19, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#"};
+				{ 20, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
+				{ 21, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
+			};
+		};
+		info = {
+			name = BabbleFaction["Golden Lotus"].." / "..BabbleFaction["The Lorewalkers"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -1350,7 +1361,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 85374, "", "=q4=Mantle of the Burning Scroll", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85375, "", "=q4=Robes of the Burning Scroll", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85378, "", "=q4=Gloves of the Burning Scroll", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
-				{ 13, 85377, "", "=q4=Leggings of the Burning Scroll", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 13, 85376, "", "=q4=Leggings of the Burning Scroll", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
 				{ 16, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
 				{ 17, 87008, "", "=q4=Hood of the Burning Scroll", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87011, "", "=q4=Mantle of the Burning Scroll", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
@@ -1777,7 +1788,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
 				{ 2, 86666, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86664, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
-				{ 4, 86668, "", "=q4=Chestguards of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 4, 86668, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86667, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86665, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
@@ -1789,7 +1800,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
 				{ 17, 87199, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87201, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
-				{ 19, 87197, "", "=q4=Chestguards of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 19, 87197, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 20, 87198, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 21, 87200, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
 			};
@@ -2475,7 +2486,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 2414, "", "=q3=Pinto Bridle", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "inv_misc_tournaments_tabard_human", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "inv_misc_tournaments_tabard_human", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#"};
 				{ 2, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 3, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
 				{ 4, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
@@ -2578,7 +2589,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 13331, "", "=q3=Red Skeletal Horse", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "inv_misc_tournaments_tabard_orc", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "inv_misc_tournaments_tabard_orc", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#"};
 				{ 2, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 3, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
 				{ 4, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
@@ -2638,33 +2649,33 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["MountsFaction"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Order of the Cloud Serpent"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Order of the Cloud Serpent"].." #j30#"};
 				{ 2, 85430, "", "=q4=Reins of the Azure Cloud Serpent", "=ds=#e27#"};
 				{ 3, 85429, "", "=q4=Reins of the Golden Cloud Serpent", "=ds=#e27#"};
 				{ 4, 79802, "", "=q4=Reins of the Jade Cloud Serpent", "=ds=#e27#"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleFaction["The August Celestials"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 6, 0, "INV_Box_01", "=q6="..BabbleFaction["The August Celestials"].." #j30#"};
 				{ 7, 89304, "", "=q4=Reins of the Thundering August Cloud Serpent", "=ds=#e27#"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["The Lorewalkers"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["The Lorewalkers"].." #j30#"};
 				{ 10, 89363, "", "=q4=Disc of the Red Flying Cloud", "=ds=#e27#"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleFaction["Golden Lotus"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 12, 0, "INV_Box_01", "=q6="..BabbleFaction["Golden Lotus"].." #j30#"};
 				{ 13, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
 				{ 14, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
 				{ 15, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Klaxxi"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Klaxxi"].." #j30#"};
 				{ 17, 85262, "", "=q4=Reins of the Amber Scorpion", "=ds=#e26#"};
-				{ 19, 0, "INV_Box_01", "=q6="..BabbleFaction["The Anglers"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 19, 0, "INV_Box_01", "=q6="..BabbleFaction["The Anglers"].." #j30#"};
 				{ 20, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e26#"};
 				{ 21, 87791, "", "=q4=Reins of the Crimson Water Strider", "=ds=#e26#"};
 				{ 22, 87794, "", "=q4=Reins of the Golden Water Strider", "=ds=#e26#"};
 				{ 23, 87793, "", "=q4=Reins of the Jade Water Strider", "=ds=#e26#"};
 				{ 24, 87792, "", "=q4=Reins of the Orange Water Strider", "=ds=#e26#"};
-				{ 26, 0, "INV_Box_01", "=q6="..BabbleFaction["Shado-Pan"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 26, 0, "INV_Box_01", "=q6="..BabbleFaction["Shado-Pan"].." #j30#"};
 				{ 27, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#"};
 				{ 28, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#"};
 				{ 29, 89306, "", "=q4=Reins of the Red Shado-Pan Riding Tiger", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["The Tillers"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["The Tillers"].." #j30#"};
 				{ 2, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
 				{ 3, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
 				{ 4, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
@@ -3007,7 +3018,7 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "#ACHIEVEMENTID:4600#"};
 				{ 25, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "#ACHIEVEMENTID:6003#"};
 				{ 26, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "#ACHIEVEMENTID:6322#"};
-				{ 27, 0, "", "=q4=Cataclysmic Gladiator's Twilight Drake", "#ACHIEVEMENTID:6741#"};
+				{ 27, 85785, "", "=q4=Cataclysmic Gladiator's Twilight Drake", "#ACHIEVEMENTID:6741#"};
 			};
 		};
 		info = {
@@ -3019,21 +3030,21 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["MountsNEW"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Order of the Cloud Serpent"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Order of the Cloud Serpent"].." #j30#"};
 				{ 2, 85430, "", "=q4=Reins of the Azure Cloud Serpent", "=ds=#e27#"};
 				{ 3, 85429, "", "=q4=Reins of the Golden Cloud Serpent", "=ds=#e27#"};
 				{ 4, 79802, "", "=q4=Reins of the Jade Cloud Serpent", "=ds=#e27#"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleFaction["The August Celestials"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 6, 0, "INV_Box_01", "=q6="..BabbleFaction["The August Celestials"].." #j30#"};
 				{ 7, 89304, "", "=q4=Reins of the Thundering August Cloud Serpent", "=ds=#e27#"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["The Lorewalkers"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["The Lorewalkers"].." #j30#"};
 				{ 10, 89363, "", "=q4=Disc of the Red Flying Cloud", "=ds=#e27#"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleFaction["Golden Lotus"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 12, 0, "INV_Box_01", "=q6="..BabbleFaction["Golden Lotus"].." #j30#"};
 				{ 13, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
 				{ 14, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
 				{ 15, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
 				{
-					{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
-					{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+					{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#"};
+					{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#"};
 				};
 				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
@@ -3046,21 +3057,21 @@ local moduleName = "AtlasLootMoP"
 				{ 25, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
 				{ 26, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
 				{ 27, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
-				{ 29, 0, "INV_Box_01", "=q6="..BabbleFaction["The Klaxxi"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 29, 0, "INV_Box_01", "=q6="..BabbleFaction["The Klaxxi"].." #j30#"};
 				{ 30, 85262, "", "=q4=Reins of the Amber Scorpion", "=ds=#e26#"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["The Anglers"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["The Anglers"].." #j30#"};
 				{ 2, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e26#"};
 				{ 3, 87791, "", "=q4=Reins of the Crimson Water Strider", "=ds=#e26#"};
 				{ 4, 87794, "", "=q4=Reins of the Golden Water Strider", "=ds=#e26#"};
 				{ 5, 87793, "", "=q4=Reins of the Jade Water Strider", "=ds=#e26#"};
 				{ 6, 87792, "", "=q4=Reins of the Orange Water Strider", "=ds=#e26#"};
-				{ 8, 0, "INV_Box_01", "=q6="..BabbleFaction["Shado-Pan"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 8, 0, "INV_Box_01", "=q6="..BabbleFaction["Shado-Pan"].." #j30#"};
 				{ 9, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#"};
 				{ 10, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#"};
 				{ 11, 89306, "", "=q4=Reins of the Red Shado-Pan Riding Tiger", "=ds=#e26#"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Tillers"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(862)};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Tillers"].." #j30#"};
 				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
 				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
 				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
@@ -3246,15 +3257,15 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 36941, "", "=q3=Competitor's Tabard", "#ACHIEVEMENTID:1636#"};
-				{ 1, 89196, "", "=q3=Theramore Tabard", "#ACHIEVEMENTID:7467#"};
-				{ 10, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#"};
-				{ 2, 22999, "", "=q1=Tabard of the Argent Dawn", "#ACHIEVEMENTID:2116#"};
-				{ 3, 28788, "", "=q1=Tabard of the Protector", "#ACHIEVEMENTID:2079#"};
-				{ 4, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
-				{ 6, 0, "achievement_featsofstrength_gladiator_10", "=q6="..AL["Arena Reward"], ""};
-				{ 7, 45983, "", "=q4=Furious Gladiator's Tabard", "=q5="..AL["Season 6"]};
-				{ 8, 49086, "", "=q4=Relentless Gladiator's Tabard", "=q5="..AL["Season 7"]};
-				{ 9, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=q5="..AL["Season 8"]};
+				{ 2, 89196, "", "=q3=Theramore Tabard", "#ACHIEVEMENTID:7467#"};
+				{ 3, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#"};
+				{ 4, 22999, "", "=q1=Tabard of the Argent Dawn", "#ACHIEVEMENTID:2116#"};
+				{ 5, 28788, "", "=q1=Tabard of the Protector", "#ACHIEVEMENTID:2079#"};
+				{ 6, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
+				{ 8, 0, "achievement_featsofstrength_gladiator_10", "=q6="..AL["Arena Reward"], ""};
+				{ 9, 45983, "", "=q4=Furious Gladiator's Tabard", "=q5="..AL["Season 6"]};
+				{ 10, 49086, "", "=q4=Relentless Gladiator's Tabard", "=q5="..AL["Season 7"]};
+				{ 11, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=q5="..AL["Season 8"]};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Tabards"], ""};
 				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#, =q1=#m24#"};
 				{ 18, 23705, "", "=q4=Tabard of Flame", "=ds=#s7#, =q1=#m24#"};
@@ -3425,5 +3436,100 @@ local moduleName = "AtlasLootMoP"
 		info = {
 			name = AL["Heirloom"],
 			module = moduleName, menu = "SETMENU",
+		};
+	}
+
+		----------------------------
+		--- Justice Points Items ---
+		----------------------------
+
+	AtlasLoot_Data["JusticePointsMoP"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 3, 89673, "", "=q3=Robe of Eternal Dynasty", "=ds=#s5#, #a1#", "#JUSTICE:2250#"};
+				{ 4, 89672, "", "=q3=Robe of Quiet Meditation", "=ds=#s5#, #a1#", "#JUSTICE:2250#"};
+				{ 6, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 7, 89642, "", "=q3=Bracers of Eternal Resolve", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
+				{ 8, 89643, "", "=q3=Tranquility Bindings", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
+				{ 17, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 18, 89650, "", "=q3=Emperor's Riding Gloves", "=ds=#s9#, #a1#", "#JUSTICE:1750#"};
+				{ 19, 89651, "", "=q3=Krompf's Fine-Tuning Gloves", "=ds=#s9#, #a1#", "#JUSTICE:1750#"};
+				{ 21, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 22, 89659, "", "=q3=Leggings of Unfinished Conquest", "=ds=#s11#, #a1#", "#JUSTICE:2250#"};
+				{ 23, 89658, "", "=q3=Subversive Leggings", "=ds=#s11#, #a1#", "#JUSTICE:2250#"};
+				extraText = ": "..BabbleInventory["Cloth"];
+			};
+			{
+				{ 2, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 3, 89667, "", "=q3=Refurbished Zandalari Vestment", "=ds=#s5#, #a2#", "#JUSTICE:2250#"};
+				{ 4, 89666, "", "=q3=Vestment of the Ascendant Tribe", "=ds=#s5#, #a2#", "#JUSTICE:2250#"};
+				{ 6, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 7, 89645, "", "=q3=Cruel Mercy Bracers", "=ds=#s8#, #a2#", "#JUSTICE:1250#"};
+				{ 8, 89644, "", "=q3=Sudden Insight Bracers", "=ds=#s8#, #a2#", "#JUSTICE:1250#"};
+				{ 17, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 18, 89653, "", "=q3=Surehand Grips", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
+				{ 19, 89652, "", "=q3=Wandering Friar's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
+				{ 21, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 22, 89660, "", "=q3=Brambleguard Leggings", "=ds=#s11#, #a2#", "#JUSTICE:2250#"};
+				{ 23, 89661, "", "=q3=Tough Mushanhide Leggings", "=ds=#s11#, #a2#", "#JUSTICE:2250#"};
+				extraText = ": "..BabbleInventory["Leather"];
+			};
+			{
+				{ 2, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 3, 89668, "", "=q3=Mountain Stream Ringmail", "=ds=#s5#, #a3#", "#JUSTICE:2250#"};
+				{ 4, 89669, "", "=q3=Undergrowth Stalker Chestpiece", "=ds=#s5#, #a3#", "#JUSTICE:2250#"};
+				{ 6, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 7, 89647, "", "=q3=Entombed Traitor's Wristguards", "=ds=#s8#, #a3#", "#JUSTICE:1250#"};
+				{ 8, 89646, "", "=q3=Runoff Wristguards", "=ds=#s8#, #a3#", "#JUSTICE:1250#"};
+				{ 17, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 18, 89655, "", "=q3=Brushcutter's Gloves", "=ds=#s9#, #a3#", "#JUSTICE:1750#"};
+				{ 19, 89654, "", "=q3=Gloves of Forgotten Wisdom", "=ds=#s9#, #a3#", "#JUSTICE:1750#"};
+				{ 21, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 22, 89663, "", "=q3=Leggings of Twisted Vines", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
+				{ 23, 89662, "", "=q3=Snowpack Waders", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
+				extraText = ": "..BabbleInventory["Mail"];
+			};
+			{
+				{ 2, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 3, 89671, "", "=q3=Chestplate of the Stone Lion", "=ds=#s5#, #a4#", "#JUSTICE:2250#"};
+				{ 4, 89670, "", "=q3=Inner Serenity Chestplate", "=ds=#s5#, #a4#", "#JUSTICE:2250#"};
+				{ 6, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 7, 89648, "", "=q3=Bracers of Inner Light", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
+				{ 8, 89649, "", "=q3=Serrated Forearm Guards", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
+				{ 17, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 18, 89656, "", "=q3=Gauntlets of Restraint", "=ds=#s9#, #a4#", "#JUSTICE:1750#"};
+				{ 19, 89657, "", "=q3=Wall Breaker Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:1750#"};
+				{ 21, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 22, 89665, "", "=q3=Leggings of Ponderous Advance", "=ds=#s11#, #a4#", "#JUSTICE:2250#"};
+				{ 23, 89664, "", "=q3=Valiant's Shinguards", "=ds=#s11#, #a4#", "#JUSTICE:2250#"};
+				extraText = ": "..BabbleInventory["Plate"];
+			};
+			{
+				{ 1, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 2, 89532, "", "=q3=Bladesong Cloak", "=ds=#s4#", "#JUSTICE:1250#"};
+				{ 3, 89533, "", "=q3=Cloak of Ancient Curses", "=ds=#s4#", "#JUSTICE:1250#"};
+				{ 4, 89537, "", "=q3=Cloak of the Silent Mountain", "=ds=#s4#", "#JUSTICE:1250#"};
+				{ 5, 89534, "", "=q3=Pressed Flower Cloak", "=ds=#s4#", "#JUSTICE:1250#"};
+				{ 6, 89535, "", "=q3=Ribracker's Cloak", "=ds=#s4#", "#JUSTICE:1250#"};
+				{ 8, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 9, 89527, "", "=q3=Amulet of Swirling Mists", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 10, 89531, "", "=q3=Gorget of Usurped Kings", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 11, 89528, "", "=q3=Necklace of Jade Pearls", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 12, 89529, "", "=q3=Pendant of Endless Inquisition", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 13, 89530, "", "=q3=Triumphant Conqueror's Chain", "=ds=#s2#", "#JUSTICE:1250#"};
+				{ 14, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s14#", "#JUSTICE:1750#"};
+				{ 16, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 17, 89523, "", "=q3=Etched Golden Loop", "=ds=#s13#", "#JUSTICE:1250#"};
+				{ 18, 89522, "", "=q3=Mark of the Dancing Crane", "=ds=#s13#", "#JUSTICE:1250#"};
+				{ 19, 89526, "", "=q3=Signet of the Slumbering Emperor", "=ds=#s13#", "#JUSTICE:1250#"};
+				{ 20, 89524, "", "=q3=Sorcerer-King's Seal", "=ds=#s13#", "#JUSTICE:1250#"};
+				{ 21, 89525, "", "=q3=Thunderstone Ring", "=ds=#s13#", "#JUSTICE:1250#"};
+				extraText = ": "..AL["Accessories"];
+			};
+		};
+		info = {
+			name = AL["Justice Points"],
+			module = moduleName, menu = "JPMOPMENU",
 		};
 	}

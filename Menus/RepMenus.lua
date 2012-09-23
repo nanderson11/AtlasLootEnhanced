@@ -9,16 +9,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "REPMENU_ORIGINALWOW", "INV_Helmet_66", "=ds="..AL["Classic WoW"], ""};
 				{ 3, "REPMENU_WOTLK", "achievement_reputation_kirintor", "=ds="..AL["Wrath of the Lich King"], ""};
-				{ 5, "GoldenLotus", "achievement_faction_goldenlotus", "=ds="..BabbleFaction["Golden Lotus"], ""};
-				{ 6, "OrderCloudSerpent", "achievement_faction_serpentriders", "=ds="..BabbleFaction["Order of the Cloud Serpent"], ""};
-				{ 7, "ShadoPan", "achievement_faction_shadopan", "=ds="..BabbleFaction["Shado-Pan"], ""};
-				{ 8, "Anglers", "achievement_faction_anglers", "=ds="..BabbleFaction["The Anglers"], ""};
-				{ 9, "AugustCelestials", "achievement_faction_celestials", "=ds="..BabbleFaction["The August Celestials"], ""};
-				{ 10, "Lorewalkers", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["The Lorewalkers"], ""};
-				{ 11, "Tillers", "achievement_faction_tillers", "=ds="..BabbleFaction["The Tillers"], ""};
+				{ 5, "Anglers", "achievement_faction_anglers", "=ds="..BabbleFaction["The Anglers"], ""};
+				{ 6, "LorewalkersGoldenLotus", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["Golden Lotus"].." / "..BabbleFaction["The Lorewalkers"], ""};
+				{ 7, "OrderCloudSerpent", "achievement_faction_serpentriders", "=ds="..BabbleFaction["Order of the Cloud Serpent"], ""};
+				{ 8, "Tillers", "achievement_faction_tillers", "=ds="..BabbleFaction["The Tillers"], ""};
+				{ 10, "JPMOPMENU", "inv_glove_mail_reputation_c_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 17, "REPMENU_BURNINGCRUSADE", "INV_Misc_Ribbon_01", "=ds="..AL["Burning Crusade"], ""};
 				{ 18, "REPMENU_CATACLYSM", "inv_neck_hyjaldaily_04", "=ds="..AL["Cataclysm"], ""};
-				
+				{ 20, "AugustCelestials", "achievement_faction_celestials", "=ds="..BabbleFaction["The August Celestials"], ""};
+				{ 21, "Klaxxi", "achievement_faction_klaxxi", "=ds="..BabbleFaction["The Klaxxi"], ""};
+				{ 22, "ShadoPan", "achievement_faction_shadopan", "=ds="..BabbleFaction["Shado-Pan"], ""};
 			};
 		};
 		info = {

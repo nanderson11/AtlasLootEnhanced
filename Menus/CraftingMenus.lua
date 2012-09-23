@@ -285,14 +285,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 20, "ArchaeologyTroll", "trade_archaeology_troll_tablet", "=ds="..AL["Troll"], "" };
 				{ 21, "ArchaeologyVrykul", "trade_archaeology_vrykul_runestick", "=ds="..AL["Vrykul"], "" };
 				{ 8, "ArchaeologyArmorAndWeapons", "trade_archaeology_ancientorcshamanheaddress", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], "" };
-				{ 24, "ArchaeologyMisc", "trade_archaeology_theinnkeepersdaughter", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 23, "ArchaeologyMisc", "trade_archaeology_theinnkeepersdaughter", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 10, "s92137", "60847", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
 				{ 11, "s90521", "64372", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
 				{ 12, "s89693", "60955", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
 				{ 13, "s98582", "69821", "=q3=Pterrordax Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
 				{ 14, "s98588", "69824", "=q3=Voodoo Figurine", "=ds="..AL["Troll"], "=ds=#e13#"};
-				{ 26, "s90619", "60954", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
-				{ 27, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
+				{ 25, "s90619", "60954", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
+				{ 26, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
 			};
 		};
 		info = {

@@ -5,8 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.01.00 and the release of Mists of Pandaria! (Sep 20, 2012) 
-Added all new dungeon loot: Temple of the Jade Serpent, Stormstout Brewery, Mogu'Shan Palace, Shado-pan Monastery, Siege of Niuzao Temple, Gate of the Setting Sun
+v7.01.00 (Sep 23, 2012)
+Added dungeon loot: Temple of the Jade Serpent, Stormstout Brewery, Mogu'Shan Palace, Shado-pan Monastery, Siege of Niuzao Temple, Gate of the Setting Sun.
+Added new factions: The Anglers, The August Celestials, Golden Lotus, The Lorewalkers, The Klaxxi, Order of the Cloud Serpent. Shado-Pan, The Tillers.
+Added Mists of Pandaria Justice Points items.
 Added Tier 14 Raid Set.
 Added new Mists of Pandaria companions and accessories.
 Added new Mists of Pandaria mounts.
@@ -14,7 +16,6 @@ Added new Mists of Pandaria tabards.
 Updated Engineering, First Aid and Mining with MoP recipes.
 Updated loot tables for Coren Direbrew (Brewfest) and Headless Horsemen (Hallow's End).
 Many minor fixes, additions and translations.
-
 
 v7.00.01 (Aug 29, 2012)
 Fixed a nasty bug with AtlasLoot_Loader.
