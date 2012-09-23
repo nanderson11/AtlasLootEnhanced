@@ -5,7 +5,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 世界事件
 ## Notes: AtlasLoot loot tables from world events
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Weltereignisse
-## Notes-zhCN: AtlasLoot 世界事件的物品表
+## Notes-zhCN: AtlasLoot 世界事件物品信息
 ## Notes-zhTW: AtlasLoot 世界事件物品掉落資料庫
 ## Author: Hegarol	
 ## Version: @project-version@

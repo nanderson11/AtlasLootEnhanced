@@ -5,7 +5,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 艾澤拉斯世界
 ## Notes: AtlasLoot loot tables from pre-Burning Crusade
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Classic-WoW
-## Notes-zhCN: AtlasLoot Enhanced 的《经典旧世》副本掉落信息
+## Notes-zhCN: AtlasLoot 《经典旧世》物品信息
 ## Notes-zhTW: AtlasLoot 艾澤拉斯舊世界的物品掉落資料庫
 ## Author: Hegarol	
 ## Version: @project-version@

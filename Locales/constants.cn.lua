@@ -90,7 +90,7 @@ if AL then
 	AL["Show Comparison Tooltips"] = "显示装备对比";
 	AL["Opaque"] = "不透明";
 	AL["Make Loot Table Opaque"] = "禁用掉落表格背景透明";
-	AL["Treat Crafted Items:"] = "交易技能呈现方式：";
+	AL["Treat Crafted Items:"] = "商业技能呈现方式：";
 	AL["As Crafting Spells"] = "商业技能";
 	AL["As Items"] = "物品";
 	AL["Reset"] = "重置";
@@ -697,7 +697,7 @@ if AL then
 	AL["Card Game Companions"] = "集换卡奖励小伙伴";
 	AL["Companion Accessories"] = "小伙伴附件";
 	AL["Blizzard Store"] = "暴雪商店";
-	AL["Crafted Companions"] = "制作的小伙伴";
+	AL["Crafted Companions"] = "制造的小伙伴";
 	AL["Dungeon/Raid"] = "副本/团队";
 	AL["Faction"] = "阵营";
 	AL["Merchant Sold Companions"] = "商人出售的小伙伴";

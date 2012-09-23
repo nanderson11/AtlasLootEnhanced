@@ -5,7 +5,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlasLoot 浩劫與重生
 ## Notes: AtlasLoot loot tables from Cataclysm
 ## Notes-deDE: AtlasLoot Beuteverzeichnisse für Cataclysm
-## Notes-zhCN: AtlasLoot Enhanced 的《大地的裂变》副本掉落信息
+## Notes-zhCN: AtlasLoot 《大地的裂变》物品信息
 ## Notes-zhTW: AtlasLoot 浩劫與重生資料片物品掉落資料庫
 ## Author: Hegarol	
 ## Version: @project-version@
