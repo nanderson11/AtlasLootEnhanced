@@ -108,8 +108,8 @@ do
 									},
 									ShowBossTooltip = {
 										type = "toggle",
-										name = "Show Boss Tooltip", --AL["Show Boss Tooltip"],
-										desc = "Show wishlist items in bosses tooltip", --AL["Show wishlist items in bosses tooltip"],
+										name = AL["Show Boss Tooltip"],
+										desc = AL["Show wishlist items in bosses tooltip"],
 										order = 45,
 										get = getOpt,
 										set = setOpt,

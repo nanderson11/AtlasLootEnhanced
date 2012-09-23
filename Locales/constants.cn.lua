@@ -87,6 +87,7 @@ if AL then
 	AL["Show Droprates"] = "显示掉落率";
 	AL["Safe Chat Links"] = "使用安全物品连接";
 	AL["Comparison TT"] = "装备对比";
+	AL["Show Boss Tooltip"] = "显示首领提示";
 	AL["Show Comparison Tooltips"] = "显示装备对比";
 	AL["Opaque"] = "不透明";
 	AL["Make Loot Table Opaque"] = "禁用掉落表格背景透明";
@@ -137,6 +138,7 @@ if AL then
 	AL["DKP"] = "DKP";
 	AL["Priority:"] = "优先：";
 	AL["Show price and slot if possible"] = "显示可用价格与部位";
+	AL["Show wishlist items in bosses tooltip"] = "在首领提示显示愿望列表物品";
 	AL["Use GameTooltip"] = "使用游戏内提示";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用标准游戏内提示而不使用 AtlasLoot 提示";
 	AL["%d / %d ( Bank: %d )"] = "%d / %d ( 银行：%d )";

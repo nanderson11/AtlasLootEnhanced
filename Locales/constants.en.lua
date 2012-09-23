@@ -87,6 +87,7 @@ if AL then
 	AL["Show Droprates"] = true;
 	AL["Safe Chat Links"] = true;
 	AL["Comparison TT"] = true;
+	AL["Show Boss Tooltip"] = true;
 	AL["Show Comparison Tooltips"] = true;
 	AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = true;
@@ -137,6 +138,7 @@ if AL then
 	AL["DKP"] = true;
 	AL["Priority:"] = true;
 	AL["Show price and slot if possible"] = true;
+	AL["Show wishlist items in bosses tooltip"] = true;
 	AL["Use GameTooltip"] = true;
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = true;
 	AL["%d / %d ( Bank: %d )"] = true;
