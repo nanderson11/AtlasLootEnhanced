@@ -73,6 +73,8 @@ if AL then
 	AL["Module \"%s\" is disabled."] = "Le module \"%s\" est désactivé.";
 	AL["Module \"%s\" is missing."] = "Le module \"%s\" est manquant.";
 
+	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000Clic: |cffFFFFFFOuvrir AtlasLoot\n|cffFF0000Maj+Clic: |cffFFFFFFOuvrir les options d'AtlasLoot";
+
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu n'est plus utilisé.\nVeuillez le supprimer de votre dossier AddOns.";
 
@@ -84,6 +86,7 @@ if AL then
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
 	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
 	AL["Comparison TT"] = "Infobulles comparatives";
+	AL["Show Boss Tooltip"] = "Afficher les infosbulles des boss";
 	AL["Show Comparison Tooltips"] = "Afficher les infobulles comparatives";
 	--AL["Opaque"] = true;
 	AL["Make Loot Table Opaque"] = "Fond de liste opaque";
@@ -133,9 +136,10 @@ if AL then
 	AL["Drop Rate: "] = "Chance de tomber : ";
 	--AL["DKP"] = true;
 	AL["Priority:"] = "Priorité :";
-	AL["Show price and slot if possible"] = "Voir le prix et le slot, si possible";
-	AL["Use GameTooltip"] = "Utilisez l'infobulle du jeu";
-	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Utilisez l'infobulle standard du jeu au lieu de celle personnalisée d'AtlasLoot";
+	AL["Show price and slot if possible"] = "Afficher le prix et le slot, si possible";
+	AL["Show wishlist items in bosses tooltip"] = "Affiche les objets de la liste de souhaits dans les infosbulles des boss";
+	AL["Use GameTooltip"] = "Utiliser l'infobulle du jeu";
+	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "Utiliser l'infobulle standard du jeu au lieu de celle personnalisée d'AtlasLoot";
 	AL["%d / %d ( Bank: %d )"] = "%d / %d ( Banque : %d)";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "Objet indisponible";
