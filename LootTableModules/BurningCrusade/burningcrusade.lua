@@ -2677,7 +2677,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 25, 34329, "", "=q4=Crux of the Apocalypse", "=ds=#h1#, #w4#", "", "16%"};
 				{ 26, 34247, "", "=q4=Apolyon, the Soul-Render", "=ds=#h2#, #w10#", "", "17%"};
 				{ 27, 34335, "", "=q4=Hammer of Sanctification", "=ds=#h3#, #w6#", "", "20%"};
-				{ 28, 34331, "", "=q4=Hand of the Deceiver", "=ds=#h3#, #w13#", "", "17%"};
+				{ 28, 34331, "", "=q4=Hand of the Deceiver", "=ds=#h1#, #w13#", "", "17%"};
 				{ 29, 34336, "", "=q4=Sunflare", "=ds=#h3#, #w4#", "", "18%"};
 				{ 30, 34337, "", "=q4=Golden Staff of the Sin'dorei", "=ds=#w9#", "", "14%"};
 			};

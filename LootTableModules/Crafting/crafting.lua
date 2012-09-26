@@ -562,16 +562,19 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ArchaeologyArmorAndWeapons"] = {
 		["Normal"] = {
 			{
-				{ 2, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
-				{ 3, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
-				{ 4, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
-				{ 5, "s91757", "64645", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
-				{ 17, "s92163", "64885", "=q4=Scimitar of the Sirocco", "=ds="..AL["Tol'vir"], "=ds=#h1#, #w10#"};
-				{ 18, "s90608", "64377", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
-				{ 19, "s90997", "64460", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
-				{ 20, "s92139", "64880", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
-				{ 21, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
-				{ 22, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds="..AL["Fossil"], "=ds=#w8#"};
+				{ 2, "s92163", "64885", "=q4=Scimitar of the Sirocco", "=ds="..AL["Tol'vir"], "=ds=#h1#, #w10#"};
+				{ 3, "s90608", "64377", "=q4=Zin'rokh, Destroyer of Worlds", "=ds="..AL["Troll"], "=ds=#h2#, #w10#"};
+				{ 4, "s90997", "64460", "=q4=Nifflevar Bearded Axe", "=ds="..AL["Vrykul"], "=ds=#h1#, #w1#"};
+				{ 5, "s92139", "64880", "=q4=Staff of Ammunae", "=ds="..AL["Tol'vir"], "=ds=#w9#"};
+				{ 6, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
+				{ 7, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds="..AL["Fossil"], "=ds=#w8#"};
+				{ 8, "s113981", "89685", "=q3=Spear of Xuen", "=ds="..AL["Pandaren"], "=ds=#w7#"};
+				{ 17, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
+				{ 18, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
+				{ 19, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
+				{ 20, "s91757", "64645", "=q4=Tyrande's Favorite Doll", "=ds="..AL["Night Elf"], "=ds=#s14#"};
+				{ 21, "s113992", "89611", "=q3=Quilen Statuette", "=ds="..AL["Mogu"], "=ds=#s14#"};
+				{ 22, "s113980", "89684", "=q3=Umbrella of Chi-Ji", "=ds="..AL["Pandaren"], "=ds=#s15#"};
 			};
 		};
 		info = {
@@ -878,6 +881,29 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ARCHAEOLOGY..": "..AL["Pandaren"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyMogu"] = {
+		["Normal"] = {
+			{
+				{ 2, "s113993", "89614", "=q3=Anatomical Dummy", "=ds=#sr# ??", "=ds=#m20#"};
+				{ 4, "s113983", "", "=q1=Cracked Mogu Runestone", "=ds=#sr# ??"};
+				{ 5, "s113982", "", "=q1=Manacles of Rebellion", "=ds=#sr# ??"};
+				{ 6, "s113985", "", "=q1=Petrified Bone Whip", "=ds=#sr# ??"};
+				{ 7, "s113986", "", "=q1=Thunder King Insignia", "=ds=#sr# ??"};
+				{ 8, "s113991", "", "=q1=Worn Monument Ledger", "=ds=#sr# ??"};
+				{ 17, "s113992", "89611", "=q3=Quilen Statuette", "=ds=#sr# ??", "=ds=#s14#"};
+				{ 19, "s113988", "", "=q1=Iron Amulet", "=ds=#sr# ??"};
+				{ 20, "s113990", "", "=q1=Mogu Coin", "=ds=#sr# ??"};
+				{ 21, "s113984", "", "=q1=Terracotta Arm", "=ds=#sr# ??"};
+				{ 22, "s113989", "", "=q1=Warlord's Branding Iron", "=ds=#sr# ??"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Mogu"],
 			switchText = {AL["Skill"], AL["Description"]},
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};
