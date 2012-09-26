@@ -6,7 +6,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
-v7.01.02 (Sep 27, 2012)
+v7.01.01 (Sep 26, 2012)
 Fixed a nasty bug that prevented some menus to work.
 Updated Archaeology with new Mists of Pandaria artifacts.
 Minor fixes and additions.
