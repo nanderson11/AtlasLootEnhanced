@@ -9,16 +9,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "REPMENU_ORIGINALWOW", "INV_Helmet_66", "=ds="..AL["Classic WoW"], ""};
 				{ 3, "REPMENU_WOTLK", "achievement_reputation_kirintor", "=ds="..AL["Wrath of the Lich King"], ""};
-				{ 5, "Anglers", "achievement_faction_anglers", "=ds="..BabbleFaction["The Anglers"], ""};
-				{ 6, "LorewalkersGoldenLotus", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["Golden Lotus"].." / "..BabbleFaction["The Lorewalkers"], ""};
-				{ 7, "OrderCloudSerpent", "achievement_faction_serpentriders", "=ds="..BabbleFaction["Order of the Cloud Serpent"], ""};
-				{ 8, "Tillers", "achievement_faction_tillers", "=ds="..BabbleFaction["The Tillers"], ""};
+				{ 5, "Anglers", "achievement_faction_anglers", "=ds="..BabbleFaction["The Anglers"], "=q5="..BabbleZone["Krasarang Wilds"]};
+				{ 6, "LorewalkersGoldenLotus", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["Golden Lotus"].." / "..BabbleFaction["The Lorewalkers"], "=q5="..BabbleZone["Vale of Eternal Blossoms"]};
+				{ 7, "OrderCloudSerpent", "achievement_faction_serpentriders", "=ds="..BabbleFaction["Order of the Cloud Serpent"], "=q5="..BabbleZone["The Jade Forest"]};
+				{ 8, "Tillers", "achievement_faction_tillers", "=ds="..BabbleFaction["The Tillers"], "=q5="..BabbleZone["Valley of the Four Winds"]};
 				{ 10, "JPMOPMENU", "inv_glove_mail_reputation_c_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 17, "REPMENU_BURNINGCRUSADE", "INV_Misc_Ribbon_01", "=ds="..AL["Burning Crusade"], ""};
 				{ 18, "REPMENU_CATACLYSM", "inv_neck_hyjaldaily_04", "=ds="..AL["Cataclysm"], ""};
-				{ 20, "AugustCelestials", "achievement_faction_celestials", "=ds="..BabbleFaction["The August Celestials"], ""};
-				{ 21, "Klaxxi", "achievement_faction_klaxxi", "=ds="..BabbleFaction["The Klaxxi"], ""};
-				{ 22, "ShadoPan", "achievement_faction_shadopan", "=ds="..BabbleFaction["Shado-Pan"], ""};
+				{ 20, "AugustCelestials", "achievement_faction_celestials", "=ds="..BabbleFaction["The August Celestials"], "=q5="..BabbleZone["Krasarang Wilds"].." / "..BabbleZone["Townlong Steppes"]};
+				{ 21, "Klaxxi", "achievement_faction_klaxxi", "=ds="..BabbleFaction["The Klaxxi"], "=q5="..BabbleZone["Dread Wastes"]};
+				{ 22, "ShadoPan", "achievement_faction_shadopan", "=ds="..BabbleFaction["Shado-Pan"], "=q5="..BabbleZone["Townlong Steppes"]};
 			};
 		};
 		info = {

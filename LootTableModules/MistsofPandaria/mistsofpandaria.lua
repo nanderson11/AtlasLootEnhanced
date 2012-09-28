@@ -17,6 +17,7 @@ local moduleName = "AtlasLootMoP"
 ---- Scholomance
 ---- Scarlet Halls
 ---- Scarlet Monastery
+---- Terrace of Endless Spring
 ---- Pandaria World Bosses
 --- Factions
 ---- The Anglers
@@ -50,14 +51,14 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 80862, "", "=q3=Treads of Corrupted Water", "=ds=#s12#, #a2#" },
-    			{ 3, 80860, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
-    			{ 4, 80861, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
+				{ 3, 80860, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
+				{ 4, 80861, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81123, "", "=q3=Wind-Soaked Drape", "=ds=#s4#" },
 				{ 18, 81072, "", "=q3=Treads of Corrupted Water", "=ds=#s12#, #a2#" },
-    			{ 19, 81075, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
-    			{ 20, 81083, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
-    			{ 21, 81124, "", "=q3=Crystallized Droplet", "=ds=#s13#" },
+				{ 19, 81075, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
+				{ 20, 81083, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
+				{ 21, 81124, "", "=q3=Crystallized Droplet", "=ds=#s13#" },
 			}
 		};
 		info = {
@@ -70,15 +71,15 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-    			{ 2, 80864, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
-    			{ 3, 80865, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
-    			{ 4, 80863, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
+				{ 2, 80864, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
+				{ 3, 80865, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
+				{ 4, 80863, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-    			{ 17, 81058, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
-    			{ 18, 81126, "", "=q3=Leggings of Whispered Dreams", "=ds=#s11#, #a2#" },
-    			{ 19, 81060, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
-    			{ 20, 81073, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
-    			{ 21, 81125, "", "=q3=Windswept Pages", "=ds=#s14#" },
+				{ 17, 81058, "", "=q3=Girdle of Endemic Anger", "=ds=#s10#, #a1#" },
+				{ 18, 81126, "", "=q3=Leggings of Whispered Dreams", "=ds=#s11#, #a2#" },
+				{ 19, 81060, "", "=q3=Sunheart Waistband", "=ds=#s10#, #a3#" },
+				{ 20, 81073, "", "=q3=Stonestep Boots", "=ds=#s12#, #a4#" },
+				{ 21, 81125, "", "=q3=Windswept Pages", "=ds=#s14#" },
 			}
 		};
 		info = {
@@ -93,13 +94,13 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 80866, "", "=q3=Cape of Entanglement", "=ds=#s4#" },
 				{ 3, 80867, "", "=q3=Serpentstrike Shoulderpads", "=ds=#s3#, #a4#" },
-    			{ 4, 80872, "", "=q3=Firebelcher Hand Cannon", "=ds=#w5#" },
+				{ 4, 80872, "", "=q3=Firebelcher Hand Cannon", "=ds=#w5#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81084, "", "=q3=Cape of Entanglement", "=ds=#s4#" },
 				{ 18, 81127, "", "=q3=Flameheart Sandals", "=ds=#s12#, #a1#" },
 				{ 19, 81070, "", "=q3=Serpentstrike Shoulderpads", "=ds=#s3#, #a4#" },
 				{ 20, 81128, "", "=q3=Signet of Dancing Jade", "=ds=#s13#" },
-    			{ 21, 81067, "", "=q3=Firebelcher Hand Cannon", "=ds=#w5#" },
+				{ 21, 81067, "", "=q3=Firebelcher Hand Cannon", "=ds=#w5#" },
 			}
 		};
 		info = {
@@ -117,7 +118,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 80871, "", "=q3=Neverdare Shoulders", "=ds=#s3#, #a3#" },
 				{ 5, 80869, "", "=q3=Hopecrusher Gauntlets", "=ds=#s9#, #a3#" },
 				{ 6, 80873, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
-    			{ 7, 80874, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
+				{ 7, 80874, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h1#, #w6#" },
 				{ 18, 81129, "", "=q3=Cloak of Failing Will", "=ds=#s4#" },
@@ -129,7 +130,7 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 81130, "", "=q3=Binding of Broken Dreams", "=ds=#s10#, #a4#" },
 				{ 25, 81131, "", "=q3=Mindbreaker Pendant", "=ds=#s2#" },
 				{ 26, 81063, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
-    			{ 27, 81079, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
+				{ 27, 81079, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
 			}
 		};
 		info = {
@@ -554,13 +555,13 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 88337, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
 				{ 4, 88338, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
 				{ 5, 88335, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
-    			{ 6, 88339, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
-    			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-    			{ 17, 82823, "", "=q3=Icewrath Belt", "=ds=#s10#, #a2#" },
-    			{ 18, 82820, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
-    			{ 19, 82821, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
-    			{ 20, 81566, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
-    			{ 21, 82822, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
+				{ 6, 88339, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82823, "", "=q3=Icewrath Belt", "=ds=#s10#, #a2#" },
+				{ 18, 82820, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
+				{ 19, 82821, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
+				{ 20, 81566, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
+				{ 21, 82822, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
 			}
 		};
 		info = {
@@ -577,13 +578,13 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 88345, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
 				{ 4, 88347, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
 				{ 5, 88348, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
-    			{ 6, 88346, "", "=q3=Metanoia Shield", "=ds=#w8#" },
-    			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-    			{ 17, 82850, "", "=q3=Phantasmal Drape", "=ds=#s4#, #a1#" },
-    			{ 18, 82848, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
-    			{ 19, 82851, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
-    			{ 20, 82852, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
-    			{ 21, 82847, "", "=q3=Metanoia Shield", "=ds=#w8#" },
+				{ 6, 88346, "", "=q3=Metanoia Shield", "=ds=#w8#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82850, "", "=q3=Phantasmal Drape", "=ds=#s4#, #a1#" },
+				{ 18, 82848, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 19, 82851, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
+				{ 20, 82852, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
+				{ 21, 82847, "", "=q3=Metanoia Shield", "=ds=#w8#" },
 			}
 		};
 		info = {
@@ -599,14 +600,14 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 88340, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
 				{ 3, 88342, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
 				{ 4, 88343, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
-    			{ 5, 88344, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
-    			{ 6, 88341, "", "=q3=Necromantic Wand", "=ds=#w12#" },
+				{ 5, 88344, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
+				{ 6, 88341, "", "=q3=Necromantic Wand", "=ds=#w12#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 82825, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
 				{ 18, 82827, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
 				{ 19, 82828, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
-    			{ 20, 82824, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
-    			{ 21, 82826, "", "=q3=Necromantic Wand", "=ds=#w12#" },
+				{ 20, 82824, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
+				{ 21, 82826, "", "=q3=Necromantic Wand", "=ds=#w12#" },
 			}
 		};
 		info = {
@@ -622,14 +623,14 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 88350, "", "=q3=Leggings of Unleashed Anguish", "=ds=#s11#, #a1#" },
 				{ 3, 88351, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
 				{ 4, 88352, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
-    			{ 5, 88353, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 6, 88354, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
+				{ 5, 88353, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
+				{ 6, 88354, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 82854, "", "=q3=Leggings of Unleashed Anguish", "=ds=#s11#, #a1#" },
-    			{ 18, 82853, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
-        		{ 19, 82855, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
-    			{ 20, 82856, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 21, 81567, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
+				{ 18, 82853, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
+				{ 19, 82855, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
+				{ 20, 82856, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
+				{ 21, 81567, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
 			}
 		};
 		info = {
@@ -645,21 +646,21 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 88359, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
 				{ 3, 88356, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
 				{ 4, 88361, "", "=q3=Gloves of Explosive Pain", "=ds=#s9#, #a3#" },
-    			{ 5, 88362, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
-    			{ 6, 88357, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
-    			{ 7, 88358, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
-    			{ 8, 88360, "", "=q3=Price of Progress", "=ds=#s14#" },
-    			{ 9, 88355, "", "=q3=Searing Words", "=ds=#s14#" },
+				{ 5, 88362, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
+				{ 6, 88357, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
+				{ 7, 88358, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
+				{ 8, 88360, "", "=q3=Price of Progress", "=ds=#s14#" },
+				{ 9, 88355, "", "=q3=Searing Words", "=ds=#s14#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 82859, "", "=q4=Headmaster's Will", "=ds=#w9#" },
 				{ 18, 82861, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
 				{ 19, 82858, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
 				{ 20, 82860, "", "=q3=Gloves of Explosive Pain", "=ds=#s9#, #a3#" },
-    			{ 21, 82862, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
-    			{ 22, 82857, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
-    			{ 23, 81268, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
-    			{ 24, 81266, "", "=q3=Price of Progress", "=ds=#s14#" },
-    			{ 25, 81267, "", "=q3=Searing Words", "=ds=#s14#" },
+				{ 21, 82862, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
+				{ 22, 82857, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
+				{ 23, 81268, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
+				{ 24, 81266, "", "=q3=Price of Progress", "=ds=#s14#" },
+				{ 25, 81267, "", "=q3=Searing Words", "=ds=#s14#" },
 			}
 		};
 		info = {
@@ -692,13 +693,13 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 88268, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
 				{ 4, 88267, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
 				{ 5, 88265, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
-   				{ 6, 88264, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
+				{ 6, 88264, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81695, "", "=q3=Hound Trainer's Gloves", "=ds=#s9#, #a2#" },
 				{ 18, 81696, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
 				{ 19, 81694, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
 				{ 20, 81563, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
-    			{ 21, 81693, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
+				{ 21, 81693, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
 			};
 		};
 		info = {
@@ -715,7 +716,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
 				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
 				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
-   				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
 				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
@@ -738,7 +739,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
 				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
 				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
-   				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
+				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
 				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
@@ -760,25 +761,25 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 88279, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
 				{ 3, 88282, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
 				{ 4, 88276, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
-    			{ 5, 88283, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
-    			{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
-    			{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
-    			{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
-    			{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
-    			{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
-    			{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+				{ 5, 88283, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+				{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+				{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+				{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+				{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+				{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+				{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 87550, "", "=q4=Vithrak, Gaze of the Deadman", "=ds=#s13#" },
-    			{ 18, 82817, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
-    			{ 19, 82818, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
-    			{ 20, 82815, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
-    			{ 21, 82819, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
-    			{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
-    			{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
-    			{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
-    			{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
-    			{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
-    			{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+				{ 18, 82817, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
+				{ 19, 82818, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
+				{ 20, 82815, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
+				{ 21, 82819, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+				{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+				{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+				{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+				{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+				{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+				{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
 			};
 		};
 		info = {
@@ -796,16 +797,16 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 88288, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
-   				{ 3, 88284, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 88286, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
-    			{ 5, 88287, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
-    			{ 6, 88285, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
+				{ 3, 88284, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
+				{ 4, 88286, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
+				{ 5, 88287, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
+				{ 6, 88285, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81571, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
-    			{ 18, 81569, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 81570, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
-    			{ 20, 81572, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
-    			{ 21, 81560, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
+				{ 18, 81569, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
+				{ 19, 81570, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
+				{ 20, 81572, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
+				{ 21, 81560, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
 			};
 		};
 		info = {
@@ -822,13 +823,13 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 88291, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
 				{ 4, 88292, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
 				{ 5, 88293, "", "=q3=Firefinger Ring", "=ds=#s13#" },
-    			{ 6, 88289, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
+				{ 6, 88289, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81575, "", "=q3=Scorched Earth Cloak", "=ds=#s4#, #a1#" },
 				{ 18, 81573, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
 				{ 19, 81574, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
 				{ 20, 81561, "", "=q3=Firefinger Ring", "=ds=#s13#" },
-    			{ 21, 81576, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
+				{ 21, 81576, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -843,14 +844,14 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 88299, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
 				{ 3, 88298, "", "=q3=Leggings of Hallowed Fire", "=ds=#s11#, #a1#" },
-    			{ 4, 88302, "", "=q3=Incarnadine Scarlet Spaulders", "=ds=#s3#, #a2#" },
-    			{ 5, 88295, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
+				{ 4, 88302, "", "=q3=Incarnadine Scarlet Spaulders", "=ds=#s3#, #a2#" },
+				{ 5, 88295, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
 				{ 6, 88303, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
 				{ 7, 88296, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
 				{ 8, 88300, "", "=q3=Triune Signet", "=ds=#s13#" },
 				{ 9, 88294, "", "=q3=Flashing Steel Talisman", "=ds=#s14#" },
 				{ 10, 88297, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
-    			{ 11, 88301, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
+				{ 11, 88301, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 87551, "", "=q4=Helios, Durand's Soul of Purity", "=ds=#s2#" },
 				{ 18, 81692, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
@@ -860,9 +861,9 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 81578, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
 				{ 23, 81687, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
 				{ 24, 81562, "", "=q3=Triune Signet", "=ds=Finger, #m20#" },
-    			{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#, #m20#" },
-    			{ 26, 81577, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
-    			{ 27, 81691, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
+				{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#, #m20#" },
+				{ 26, 81577, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
+				{ 27, 81691, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -1133,6 +1134,293 @@ local moduleName = "AtlasLootMoP"
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Salyis's Warband", 725),
 			module = moduleName, instance = "Pandaria",
+		};
+	};
+
+		---------------------------------
+		--- Terrace of Endless Spring ---
+		---------------------------------
+
+	AtlasLoot_Data["ToESProtectors"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86874, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
+				{ 2, 86875, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
+				{ 3, 86878, "", "=q4=Asani's Uncleansed Sandals", "=ds=#s12#, #a2#" },
+				{ 4, 86877, "", "=q4=Lightning Prisoner's Boots", "=ds=#s12#, #a3#" },
+				{ 5, 86876, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
+				{ 6, 86868, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
+				{ 7, 86870, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
+				{ 16, 86872, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
+				{ 17, 86871, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
+				{ 18, 86869, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
+				{ 19, 86873, "", "=q4=Watersoul Signet", "=ds=#s13#" },
+				{ 21, 86909, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86316, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
+				{ 2, 86317, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
+				{ 3, 86320, "", "=q4=Asani's Uncleansed Sandals", "=ds=#s12#, #a2#" },
+				{ 4, 86319, "", "=q4=Lightning Prisoner's Boots", "=ds=#s12#, #a3#" },
+				{ 5, 86318, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
+				{ 6, 86230, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
+				{ 7, 86232, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
+				{ 8, 86234, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
+				{ 9, 86233, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
+				{ 10, 86231, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
+				{ 11, 86315, "", "=q4=Watersoul Signet", "=ds=#s13#" },
+				{ 12, 86390, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
+				{ 17, 90526, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
+				{ 18, 90524, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
+				{ 19, 90528, "", "=q4=Asani's Uncleansed Sandals", "=ds=#s12#, #a2#" },
+				{ 20, 90518, "", "=q4=Legguards of Failing Purification", "=ds=#s11#, #a2#" },
+				{ 21, 90519, "", "=q4=Waterborne Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 22, 90529, "", "=q4=Lightning Prisoner's Boots", "=ds=#s12#, #a3#" },
+				{ 23, 90530, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
+				{ 24, 90520, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
+				{ 25, 90521, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
+				{ 26, 90523, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
+				{ 27, 90522, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
+				{ 28, 90517, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
+				{ 29, 90525, "", "=q4=Watersoul Signet", "=ds=#s13#" },
+				{ 30, 90527, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87150, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
+				{ 2, 87149, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
+				{ 3, 87153, "", "=q4=Asani's Uncleansed Sandals", "=ds=#s12#, #a2#" },
+				{ 4, 87154, "", "=q4=Lightning Prisoner's Boots", "=ds=#s12#, #a3#" },
+				{ 5, 87155, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
+				{ 6, 87145, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
+				{ 7, 87146, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
+				{ 8, 87148, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
+				{ 9, 87147, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
+				{ 10, 87144, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
+				{ 11, 87151, "", "=q4=Watersoul Signet", "=ds=#s13#" },
+				{ 12, 87152, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
+				{ 17, 90512, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
+				{ 18, 90510, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
+				{ 19, 90514, "", "=q4=Asani's Uncleansed Sandals", "=ds=#s12#, #a2#" },
+				{ 20, 90504, "", "=q4=Legguards of Failing Purification", "=ds=#s11#, #a2#" },
+				{ 21, 90505, "", "=q4=Waterborne Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 22, 90515, "", "=q4=Lightning Prisoner's Boots", "=ds=#s12#, #a3#" },
+				{ 23, 90516, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
+				{ 24, 90506, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
+				{ 25, 90507, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
+				{ 26, 90509, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
+				{ 27, 90508, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
+				{ 28, 90503, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
+				{ 29, 90511, "", "=q4=Watersoul Signet", "=ds=#s13#" },
+				{ 30, 90513, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683),
+			module = moduleName, instance = "TerraceofEndlessSpring",
+		};
+	};
+
+	AtlasLoot_Data["ToESTsulong"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86883, "", "=q4=Daybreak Drape", "=ds=#s4#, #a1#" },
+				{ 2, 86884, "", "=q4=Belt of Embodied Terror", "=ds=#s10#, #a1#" },
+				{ 3, 86895, "", "=q4=Healer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 4, 86896, "", "=q4=Invoker's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 5, 86897, "", "=q4=Sorcerer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 6, 86888, "", "=q4=Sandals of the Blackest Night", "=ds=#s12#, #a1#" },
+				{ 7, 86899, "", "=q4=Stalker's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 8, 86898, "", "=q4=Weaver's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 9, 86882, "", "=q4=Sunwrought Mail Hauberk", "=ds=#s5#, #a3#" },
+				{ 10, 86900, "", "=q4=Binder's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 11, 86901, "", "=q4=Ranger's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 12, 86902, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 13, 86904, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 14, 86903, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 15, 86887, "", "=q4=Sollerets of Instability", "=ds=#s12#, #a4#" },
+				{ 16, 86880, "", "=q4=Dread Shadow Ring", "=ds=#s13#" },
+				{ 17, 86885, "", "=q4=Spirits of the Sun", "=ds=#s14#" },
+				{ 18, 86881, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
+				{ 20, 86886, "", "=q3=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
+				{ 21, 86879, "", "=q3=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86325, "", "=q4=Daybreak Drape", "=ds=#s4#, #a1#" },
+				{ 2, 86326, "", "=q4=Belt of Embodied Terror", "=ds=#s10#, #a1#" },
+				{ 3, 86337, "", "=q4=Healer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 4, 86338, "", "=q4=Invoker's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 5, 86339, "", "=q4=Sorcerer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 6, 86330, "", "=q4=Sandals of the Blackest Night", "=ds=#s12#, #a1#" },
+				{ 7, 86341, "", "=q4=Stalker's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 8, 86340, "", "=q4=Weaver's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 9, 86324, "", "=q4=Sunwrought Mail Hauberk", "=ds=#s5#, #a3#" },
+				{ 10, 86342, "", "=q4=Binder's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 11, 86343, "", "=q4=Ranger's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 12, 86383, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 13, 86385, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 14, 86384, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 15, 86329, "", "=q4=Sollerets of Instability", "=ds=#s12#, #a4#" },
+				{ 16, 86322, "", "=q4=Dread Shadow Ring", "=ds=#s13#" },
+				{ 17, 86327, "", "=q4=Spirits of the Sun", "=ds=#s14#" },
+				{ 18, 86323, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
+				{ 20, 86328, "", "=q3=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
+				{ 21, 86321, "", "=q3=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87159, "", "=q4=Daybreak Drape", "=ds=#s4#, #a1#" },
+				{ 2, 87161, "", "=q4=Belt of Embodied Terror", "=ds=#s10#, #a1#" },
+				{ 3, 87178, "", "=q4=Healer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 4, 87177, "", "=q4=Invoker's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 5, 87179, "", "=q4=Sorcerer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 6, 87162, "", "=q4=Sandals of the Blackest Night", "=ds=#s12#, #a1#" },
+				{ 7, 87180, "", "=q4=Stalker's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 8, 87181, "", "=q4=Weaver's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 9, 87157, "", "=q4=Sunwrought Mail Hauberk", "=ds=#s5#, #a3#" },
+				{ 10, 87183, "", "=q4=Binder's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 11, 87182, "", "=q4=Ranger's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 12, 87184, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 13, 87186, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 14, 87185, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 15, 87165, "", "=q4=Sollerets of Instability", "=ds=#s12#, #a4#" },
+				{ 16, 87158, "", "=q4=Dread Shadow Ring", "=ds=#s13#" },
+				{ 17, 87163, "", "=q4=Spirits of the Sun", "=ds=#s14#" },
+				{ 18, 87160, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
+				{ 20, 87164, "", "=q3=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
+				{ 21, 87156, "", "=q3=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Tsulong", 742),
+			module = moduleName, instance = "TerraceofEndlessSpring",
+		};
+	};
+
+	AtlasLoot_Data["ToESLeiShi"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86892, "", "=q4=Robes of the Unknown Fear", "=ds=#s5#, #a1#" },
+				{ 2, 86895, "", "=q4=Healer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 3, 86896, "", "=q4=Invoker's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 4, 86897, "", "=q4=Sorcerer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 5, 86899, "", "=q4=Stalker's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 6, 86898, "", "=q4=Weaver's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 7, 86900, "", "=q4=Binder's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 8, 86901, "", "=q4=Ranger's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 9, 86891, "", "=q4=Cuirass of the Animated Protector", "=ds=#s5#, #a4#" },
+				{ 10, 86902, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 11, 86904, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 12, 86903, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 16, 89277, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89278, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89276, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86894, "", "=q4=Darkmist Vortex", "=ds=#s14#" },
+				{ 21, 86890, "", "=q4=Terror in the Mists", "=ds=#s14#" },
+				{ 23, 86910, "", "=q3=Spiritsever", "=ds=#h1#, #w4#" },
+				{ 24, 86893, "", "=q3=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
+				{ 25, 86889, "", "=q3=Taoren, the Soul Burner", "=ds=#w5#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86334, "", "=q4=Robes of the Unknown Fear", "=ds=#s5#, #a1#" },
+				{ 2, 86337, "", "=q4=Healer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 3, 86338, "", "=q4=Invoker's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 4, 86339, "", "=q4=Sorcerer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 5, 86341, "", "=q4=Stalker's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 6, 86340, "", "=q4=Weaver's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 7, 86342, "", "=q4=Binder's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 8, 86343, "", "=q4=Ranger's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 9, 86333, "", "=q4=Cuirass of the Animated Protector", "=ds=#s5#, #a4#" },
+				{ 10, 86383, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 11, 86385, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 12, 86384, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 16, 89246, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89247, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89248, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86336, "", "=q4=Darkmist Vortex", "=ds=#s14#" },
+				{ 21, 86332, "", "=q4=Terror in the Mists", "=ds=#s14#" },
+				{ 23, 86391, "", "=q3=Spiritsever", "=ds=#h1#, #w4#" },
+				{ 24, 86335, "", "=q3=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
+				{ 25, 86331, "", "=q3=Taoren, the Soul Burner", "=ds=#w5#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87169, "", "=q4=Robes of the Unknown Fear", "=ds=#s5#, #a1#" },
+				{ 2, 87178, "", "=q4=Healer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 3, 87177, "", "=q4=Invoker's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 4, 87179, "", "=q4=Sorcerer's Belt of Final Winter", "=ds=#s10#, #a1#" },
+				{ 5, 87180, "", "=q4=Stalker's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 6, 87181, "", "=q4=Weaver's Cord of Eternal Autumn", "=ds=#s10#, #a2#" },
+				{ 7, 87183, "", "=q4=Binder's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 8, 87182, "", "=q4=Ranger's Chain of Unending Summer", "=ds=#s10#, #a3#" },
+				{ 9, 87171, "", "=q4=Cuirass of the Animated Protector", "=ds=#s5#, #a4#" },
+				{ 10, 87184, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 11, 87186, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 12, 87185, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 16, 89262, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89263, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89261, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 87172, "", "=q4=Darkmist Vortex", "=ds=#s14#" },
+				{ 21, 87167, "", "=q4=Terror in the Mists", "=ds=#s14#" },
+				{ 23, 87166, "", "=q3=Spiritsever", "=ds=#h1#, #w4#" },
+				{ 24, 87170, "", "=q3=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
+				{ 25, 87168, "", "=q3=Taoren, the Soul Burner", "=ds=#w5#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Lei Shi", 729),
+			module = moduleName, instance = "TerraceofEndlessSpring",
+		};
+	};
+
+	AtlasLoot_Data["ToESShaofFear"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86908, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				{ 3, 86907, "", "=q4=Essence of Terror", "=ds=#s14#" },
+				{ 5, 86906, "", "=q3=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 6, 86905, "", "=q3=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 16, 89274, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89275, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89273, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86389, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				{ 3, 86388, "", "=q4=Essence of Terror", "=ds=#s14#" },
+				{ 5, 86387, "", "=q3=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 6, 86386, "", "=q3=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 16, 89235, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89236, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89234, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87174, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				{ 3, 87175, "", "=q4=Essence of Terror", "=ds=#s14#" },
+				{ 5, 87173, "", "=q3=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 6, 87176, "", "=q3=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 16, 89259, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89260, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89258, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Sha of Fear", 709),
+			module = moduleName, instance = "TerraceofEndlessSpring",
 		};
 	};
 

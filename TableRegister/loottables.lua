@@ -130,6 +130,16 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { AL["Pandaria World Bosses"], "AtlasLootMoP", mapname = "Pandaria", raid = true, EncounterJournalID = 322 },
 		},
 
+		["TerraceofEndlessSpring"] = {
+			["Bosses"] = {
+				{ "ToESProtectors", 2, EncounterJournalID = 683 },
+				{ "ToESTsulong", 6, EncounterJournalID = 742 },
+				{ "ToESLeiShi", 7, EncounterJournalID = 729 },
+				{ "ToESShaofFear", 8, EncounterJournalID = 709 },
+			},
+			["Info"] = { BabbleZone["Terrace of Endless Spring"], "AtlasLootMoP", mapname = "TerraceofEndlessSpring", raid = true, EncounterJournalID = 320 },
+		},
+
 ---------------------------
 --- Cataclysm Instances ---
 ---------------------------
