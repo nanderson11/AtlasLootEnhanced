@@ -498,7 +498,7 @@ local moduleName = "AtlasLootMoP"
 			}
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Commander Vo'jak", 783),
+			name = AtlasLoot:EJ_GetBossName("Commander Vo'jak", 738),
 			module = moduleName, instance = "SiegeofNiuzaoTemple",
 		};
 	};
