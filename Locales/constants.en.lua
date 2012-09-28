@@ -601,6 +601,7 @@ if AL then
 	AL["Rare"] = true;
 	AL["Specializations"] = true;
 	AL["Raid Finder"] = true;
+	AL["Pandaria World Bosses"] = true;
 
 	-- Loot Table Names
 	AL["Level 30-39"] = true;

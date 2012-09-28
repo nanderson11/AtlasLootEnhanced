@@ -75,8 +75,8 @@ AtlasLoot_LootTableRegister = {
 		["MoguShanPalace"] = {
 			["Bosses"] = {
 				{ "MoguShanTrialKing", 3, EncounterJournalID = 708 },
-				{ "MoguShanGekkan", 4, EncounterJournalID = 690 },
-				{ "MoguShanXin", 5, EncounterJournalID = 698 },
+				{ "MoguShanGekkan", 7, EncounterJournalID = 690 },
+				{ "MoguShanXin", 8, EncounterJournalID = 698 },
 			},
 			["Info"] = { BabbleZone["Mogu'Shan Palace"], "AtlasLootMoP", mapname = "Mogu'Shan Palace", EncounterJournalID = 321 },
 		},
@@ -86,7 +86,7 @@ AtlasLoot_LootTableRegister = {
 		["ShadoPanMonastery"] = {
 			["ShadoPanMonasteryA"] = {
 				{ "ShadoPanCloudstrike", 2, EncounterJournalID = 673 },
-				{ "ShadoPanTaranZhu", 3, EncounterJournalID = 686, hide = true },
+				{ "ShadoPanTaranZhu", 4, EncounterJournalID = 686, hide = true },
 			},
 			["ShadoPanMonasteryB"] = {
 				{ "ShadoPanSnowdrift", 3, EncounterJournalID = 657 },
@@ -118,6 +118,16 @@ AtlasLoot_LootTableRegister = {
 				{ "NTNeronok", 4, EncounterJournalID = 727 },
 			},
 			["Info"] = { BabbleZone["Siege of Niuzao Temple"], "AtlasLootMoP", mapname = "Siege of Niuzao Temple", sortOrder = { "SiegeofNiuzaoTempleA", "SiegeofNiuzaoTempleB" }, EncounterJournalID = 324 },
+		},
+
+	---- Raids
+
+		["Pandaria"] = {
+			["Bosses"] = {
+				{ "SHAOFANGER", 1, EncounterJournalID = 691 },
+				{ "SalyisWarband", 2, EncounterJournalID = 725 },
+			},
+			["Info"] = { AL["Pandaria World Bosses"], "AtlasLootMoP", mapname = "Pandaria", raid = true, EncounterJournalID = 322 },
 		},
 
 ---------------------------

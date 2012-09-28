@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.de.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -600,6 +600,7 @@ if AL then
 	AL["Rare"] = "Selten";
 	AL["Specializations"] = "Spezialisierungen";
 	AL["Raid Finder"] = "Schlachtzugsbrowser";
+	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";
