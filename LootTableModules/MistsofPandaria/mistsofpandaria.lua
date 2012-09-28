@@ -194,16 +194,17 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 80894, "", "=q3=Gao's Keg Tapper", "=ds=#h1#, #w6#", ""};
 				{ 7, 80895, "", "=q3=Yan-Zhu's Pressure Valve", "=ds=#w5#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 81059, "", "=q3=Fermenting Belt", "=ds=#s10#, #a1#", ""};
-				{ 18, 81068, "", "=q3=Fizzy Spaulders", "=ds=#s3#, #a2#", ""};
-				{ 19, 81081, "", "=q3=Uncasked Chestguard", "=ds=#s5#, #a3#", ""};
-				{ 20, 81078, "", "=q3=Sudsy Legplates", "=ds=#s11#, #a4#", ""};
-				{ 21, 81141, "", "=q3=Alemental Seal", "=ds=#s13#", ""};
-				{ 22, 81139, "", "=q3=Lime-Rimmed Signet", "=ds=#s13#", ""};
-				{ 23, 81138, "", "=q3=Carbonic Carbuncle", "=ds=#s14#", ""};
-				{ 24, 81062, "", "=q3=Gao's Keg Tapper", "=ds=#h1#, #w6#", ""};
-				{ 25, 81140, "", "=q3=Wort Sitrring Rod", "=ds=#w9#", ""};
-				{ 26, 81066, "", "=q3=Yan-Zhu's Pressure Valve", "=ds=#w5#", ""};
+				{ 17, 87545, "", "=q3=Inelava, Spirit of Inebriation", "=ds=#h1#, #w1#", ""};
+				{ 18, 81059, "", "=q3=Fermenting Belt", "=ds=#s10#, #a1#", ""};
+				{ 19, 81068, "", "=q3=Fizzy Spaulders", "=ds=#s3#, #a2#", ""};
+				{ 20, 81081, "", "=q3=Uncasked Chestguard", "=ds=#s5#, #a3#", ""};
+				{ 21, 81078, "", "=q3=Sudsy Legplates", "=ds=#s11#, #a4#", ""};
+				{ 22, 81141, "", "=q3=Alemental Seal", "=ds=#s13#", ""};
+				{ 23, 81139, "", "=q3=Lime-Rimmed Signet", "=ds=#s13#", ""};
+				{ 24, 81138, "", "=q3=Carbonic Carbuncle", "=ds=#s14#", ""};
+				{ 25, 81062, "", "=q3=Gao's Keg Tapper", "=ds=#h1#, #w6#", ""};
+				{ 26, 81140, "", "=q3=Wort Sitrring Rod", "=ds=#w9#", ""};
+				{ 27, 81066, "", "=q3=Yan-Zhu's Pressure Valve", "=ds=#w5#", ""};
 			}
 		};
 		info = {
@@ -482,7 +483,7 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Vizier Jin'bak", 693),
-			module = moduleName, instance = "NiuzaoTemple",
+			module = moduleName, instance = "SiegeofNiuzaoTemple",
 		};
 	};
 
@@ -498,7 +499,7 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Commander Vo'jak", 783),
-			module = moduleName, instance = "NiuzaoTemple",
+			module = moduleName, instance = "SiegeofNiuzaoTemple",
 		};
 	};
 
@@ -514,7 +515,7 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("General Pa'valak", 692),
-			module = moduleName, instance = "NiuzaoTemple",
+			module = moduleName, instance = "SiegeofNiuzaoTemple",
 		};
 	};
 
@@ -536,7 +537,7 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Wing Leader Ner'onok", 727),
-			module = moduleName, instance = "NiuzaoTemple",
+			module = moduleName, instance = "SiegeofNiuzaoTemple",
 		};
 	};
 

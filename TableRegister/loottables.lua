@@ -55,60 +55,69 @@ AtlasLoot_LootTableRegister = {
 	---- Dungeons
 		["TempleOfTheJadeSerpent"] = {
 			["Bosses"] = {
-				{ "TJSMari", EncounterJournalID = 672 },
-				{ "TJSStonestep", EncounterJournalID = 664 },
-				{ "TJSFlameheart", EncounterJournalID = 658 },
-				{ "TJSShaDoubt", EncounterJournalID = 335 },
+				{ "TJSMari", 2, EncounterJournalID = 672 },
+				{ "TJSStonestep", 3, EncounterJournalID = 664 },
+				{ "TJSFlameheart", 4, EncounterJournalID = 658 },
+				{ "TJSShaDoubt", 5, EncounterJournalID = 335 },
 			},
 			["Info"] = { BabbleZone["Temple of the Jade Serpent"], "AtlasLootMoP", mapname = "Temple of the Jade Serpent", EncounterJournalID = 313 },
 		},
 
 		["StormstoutBrewery"] = {
 			["Bosses"] = {
-				{ "BreweryOokOok", EncounterJournalID = 668 },
-				{ "BreweryHoptallus", EncounterJournalID = 669 },
-				{ "BreweryYanZhu", EncounterJournalID = 670 },
+				{ "BreweryOokOok", 3, EncounterJournalID = 668 },
+				{ "BreweryHoptallus", 4, EncounterJournalID = 669 },
+				{ "BreweryYanZhu", 5, EncounterJournalID = 670 },
 			},
 			["Info"] = { BabbleZone["Stormstout Brewery"], "AtlasLootMoP", mapname = "Stormstout Brewery", EncounterJournalID = 302 },
 		},
 
 		["MoguShanPalace"] = {
 			["Bosses"] = {
-				{ "MoguShanTrialKing", EncounterJournalID = 708 },
-				{ "MoguShanGekkan", EncounterJournalID = 690 },
-				{ "MoguShanXin", EncounterJournalID = 698 },
+				{ "MoguShanTrialKing", 3, EncounterJournalID = 708 },
+				{ "MoguShanGekkan", 4, EncounterJournalID = 690 },
+				{ "MoguShanXin", 5, EncounterJournalID = 698 },
 			},
 			["Info"] = { BabbleZone["Mogu'Shan Palace"], "AtlasLootMoP", mapname = "Mogu'Shan Palace", EncounterJournalID = 321 },
 		},
 
+		["ShadoPanMonasteryA"] = "ShadoPanMonastery",
+		["ShadoPanMonasteryB"] = "ShadoPanMonastery",
 		["ShadoPanMonastery"] = {
-			["Bosses"] = {
-				{ "ShadoPanCloudstrike", EncounterJournalID = 673 },
-				{ "ShadoPanSnowdrift", EncounterJournalID = 657 },
-				{ "ShadoPanShaViolence", EncounterJournalID = 685 },
+			["ShadoPanMonasteryA"] = {
+				{ "ShadoPanCloudstrike", 2, EncounterJournalID = 673 },
+				{ "ShadoPanTaranZhu", 3, EncounterJournalID = 686, hide = true },
+			},
+			["ShadoPanMonasteryB"] = {
+				{ "ShadoPanSnowdrift", 3, EncounterJournalID = 657 },
+				{ "ShadoPanShaViolence", 4, EncounterJournalID = 685 },
 				{ "ShadoPanTaranZhu", EncounterJournalID = 686 },
 			},
-			["Info"] = { BabbleZone["Shado-pan Monastery"], "AtlasLootMoP", mapname = "Shado-Pan Monastery", EncounterJournalID = 312 },
+			["Info"] = { BabbleZone["Shado-pan Monastery"], "AtlasLootMoP", mapname = "Shado-Pan Monastery", sortOrder = { "ShadoPanMonasteryA", "ShadoPanMonasteryB" }, EncounterJournalID = 312 },
 		},
 
 		["GateoftheSettingSun"] = {
 			["Bosses"] = {
-				{ "GotSSKiptilak", EncounterJournalID = 655 },
-				{ "GotSSGadok", EncounterJournalID = 675 },
-				{ "GotSSRimok", EncounterJournalID = 676 },
-				{ "GotSSRaigonn", EncounterJournalID = 649 },
+				{ "GotSSKiptilak", 2, EncounterJournalID = 655 },
+				{ "GotSSGadok", 3, EncounterJournalID = 675 },
+				{ "GotSSRimok", 4, EncounterJournalID = 676 },
+				{ "GotSSRaigonn", 5, EncounterJournalID = 649 },
 			},
 			["Info"] = { BabbleZone["Gate of the Setting Sun"], "AtlasLootMoP", mapname = "Gate of the Setting Sun", EncounterJournalID = 303 },
 		},
 
-		["NiuzaoTemple"] = {
-			["Bosses"] = {
-				{ "NTJinbak", EncounterJournalID = 693 },
-				{ "NTVojak", EncounterJournalID = 738 },
-				{ "NTPavalak", EncounterJournalID = 692 },
-				{ "NTNeronok", EncounterJournalID = 727 },
+		["SiegeofNiuzaoTempleA"] = "SiegeofNiuzaoTemple",
+		["SiegeofNiuzaoTempleB"] = "SiegeofNiuzaoTemple",
+		["SiegeofNiuzaoTemple"] = {
+			["SiegeofNiuzaoTempleA"] = {
+				{ "NTJinbak", 3, EncounterJournalID = 693 },
 			},
-			["Info"] = { BabbleZone["Siege of Niuzao Temple"], "AtlasLootMoP", mapname = "Siege of Niuzao Temple", EncounterJournalID = 324 },
+			["SiegeofNiuzaoTempleB"] = {
+				{ "NTVojak", 2, EncounterJournalID = 738 },
+				{ "NTPavalak", 3, EncounterJournalID = 692 },
+				{ "NTNeronok", 4, EncounterJournalID = 727 },
+			},
+			["Info"] = { BabbleZone["Siege of Niuzao Temple"], "AtlasLootMoP", mapname = "Siege of Niuzao Temple", sortOrder = { "SiegeofNiuzaoTempleA", "SiegeofNiuzaoTempleB" }, EncounterJournalID = 324 },
 		},
 
 ---------------------------
@@ -1344,30 +1353,30 @@ AtlasLoot_LootTableRegister = {
 
 		["ScarletHalls"] = {
 			["Bosses"] = {
-				{ "SHBraun", EncounterJournalID = 660 },
-				{ "SHHarlan", EncounterJournalID = 654 },
-				{ "SHKoegler", EncounterJournalID = 656 },
+				{ "SHBraun", 6, EncounterJournalID = 660 },
+				{ "SHHarlan", 7, EncounterJournalID = 654 },
+				{ "SHKoegler", 8, EncounterJournalID = 656 },
 			},
 			["Info"] = { BabbleZone["Scarlet Halls"], {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "ScarletHalls", EncounterJournalID = 311 },
 		},
 
 		["ScarletMonastery"] = {
 			["Bosses"] = {
-				{ "SMThalnos", EncounterJournalID = 688 },
-				{ "SMKorloff", EncounterJournalID = 671 },
-				{ "SMWhitemane", EncounterJournalID = 674 },
+				{ "SMThalnos", 3, EncounterJournalID = 688 },
+				{ "SMKorloff", 4, EncounterJournalID = 671 },
+				{ "SMWhitemane", 5, EncounterJournalID = 674 },
 			},
 			["Info"] = { BabbleZone["Scarlet Monastery"], {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "ScarletMonastery", EncounterJournalID = 316 },
 		},
 
 		["Scholomance"] = {
 			["Bosses"] = {
-				{ "ScholoChillheart", EncounterJournalID = 659 },
-				{ "ScholoJandice", EncounterJournalID = 663 },
-				{ "ScholoRattlegore", EncounterJournalID = 665 },
-				{ "ScholoVoss", EncounterJournalID = 666 },
-				{ "ScholoGandling", EncounterJournalID = 684 },
-				{ "ScholoTrash", },
+				{ "ScholoChillheart", 3, EncounterJournalID = 659 },
+				{ "ScholoJandice", 5, EncounterJournalID = 663 },
+				{ "ScholoRattlegore", 6, EncounterJournalID = 665 },
+				{ "ScholoVoss", 7, EncounterJournalID = 666 },
+				{ "ScholoGandling", 11, EncounterJournalID = 684 },
+				{ "ScholoTrash", 18 },
 			},
 			["Info"] = { BabbleZone["Scholomance"], {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "Scholomance", EncounterJournalID = 246 },
 		},

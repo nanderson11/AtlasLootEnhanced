@@ -891,15 +891,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 			{
 				{ 2, "s113993", "89614", "=q3=Anatomical Dummy", "=ds=#sr# ??", "=ds=#m20#"};
 				{ 4, "s113983", "", "=q1=Cracked Mogu Runestone", "=ds=#sr# ??"};
-				{ 5, "s113982", "", "=q1=Manacles of Rebellion", "=ds=#sr# ??"};
-				{ 6, "s113985", "", "=q1=Petrified Bone Whip", "=ds=#sr# ??"};
-				{ 7, "s113986", "", "=q1=Thunder King Insignia", "=ds=#sr# ??"};
-				{ 8, "s113991", "", "=q1=Worn Monument Ledger", "=ds=#sr# ??"};
+				{ 5, "s113987", "", "=q1=Edicts of the Thunder King", "=ds=#sr# ??"};
+				{ 6, "s113988", "", "=q1=Iron Amulet", "=ds=#sr# ??"};
+				{ 7, "s113982", "", "=q1=Manacles of Rebellion", "=ds=#sr# ??"};
+				{ 8, "s113990", "", "=q1=Mogu Coin", "=ds=#sr# ??"};
 				{ 17, "s113992", "89611", "=q3=Quilen Statuette", "=ds=#sr# ??", "=ds=#s14#"};
-				{ 19, "s113988", "", "=q1=Iron Amulet", "=ds=#sr# ??"};
-				{ 20, "s113990", "", "=q1=Mogu Coin", "=ds=#sr# ??"};
-				{ 21, "s113984", "", "=q1=Terracotta Arm", "=ds=#sr# ??"};
+				{ 19, "s113985", "", "=q1=Petrified Bone Whip", "=ds=#sr# ??"};
+				{ 20, "s113984", "", "=q1=Terracotta Arm", "=ds=#sr# ??"};
+				{ 21, "s113986", "", "=q1=Thunder King Insignia", "=ds=#sr# ??"};
 				{ 22, "s113989", "", "=q1=Warlord's Branding Iron", "=ds=#sr# ??"};
+				{ 23, "s113991", "", "=q1=Worn Monument Ledger", "=ds=#sr# ??"};
 			};
 		};
 		info = {
