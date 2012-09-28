@@ -572,11 +572,11 @@ if AL then
 	AL["Wind"] = "Vent";
 	AL["Earth"] = "Terre";
 	AL["Master Angler"] = "Meilleur pêcheur";
-	AL["Fire Resistance Gear"] = "Equipements de Résistance au Feu";
-	AL["Arcane Resistance Gear"] = "Equipements de Résistance aux Arcanes";
-	AL["Nature Resistance Gear"] = "Equipements de Résistance à la Nature";
-	AL["Frost Resistance Gear"] = "Equipements de Résistance au Froid";
-	AL["Shadow Resistance Gear"] = "Equipements de Résistance à l'Ombre";
+	AL["Fire Resistance Gear"] = "Équipements de Résistance au Feu";
+	AL["Arcane Resistance Gear"] = "Équipements de Résistance aux Arcanes";
+	AL["Nature Resistance Gear"] = "Équipements de Résistance à la Nature";
+	AL["Frost Resistance Gear"] = "Équipements de Résistance au Froid";
+	AL["Shadow Resistance Gear"] = "Équipements de Résistance à l'Ombre";
 
 	-- Labels for loot table sections
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
@@ -599,6 +599,8 @@ if AL then
 	--AL["Rare"] = true;
 	AL["Specializations"] = "Spécialisations";
 	AL["Raid Finder"] = "Recherche de raid";
+	AL["Pandaria World Bosses"] = "World Boss de Pandarie";
+	--AL["Elite"] = true;
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Niveau 30-39";
