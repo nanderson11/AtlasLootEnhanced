@@ -122,6 +122,30 @@ AtlasLoot_LootTableRegister = {
 
 	---- Raids
 
+		["HeartofFear"] = {
+			["Bosses"] = {
+				{ "HoFZorlok", 3, EncounterJournalID = 745 },
+				{ "HoFTayak", 4, EncounterJournalID = 744 },
+				{ "HoFGaralon", 5, EncounterJournalID = 713 },
+				{ "HoFMeljarak", 6, EncounterJournalID = 741 },
+				{ "HoFUnsok", 7, EncounterJournalID = 737 },
+				{ "HoFShekzeer", 9, EncounterJournalID = 743 },
+			},
+			["Info"] = { BabbleZone["Heart of Fear"], "AtlasLootMoP", mapname = "HeartofFear", raid = true, EncounterJournalID = 330 },
+		},
+
+		["MoguShanVaults"] = {
+			["Bosses"] = {
+				{ "MSVTheStoneGuard", 3, EncounterJournalID = 679 },
+				{ "MSVFeng", 8, EncounterJournalID = 689 },
+				{ "MSVGarajal", 9, EncounterJournalID = 682 },
+				{ "MSVSpiritKings", 10, EncounterJournalID = 687 },
+				{ "MSVElegon", 15, EncounterJournalID = 726 },
+				{ "MSVWilloftheEmperor", 16, EncounterJournalID = 677 },
+			},
+			["Info"] = { BabbleZone["Mogu'shan Vaults"], "AtlasLootMoP", mapname = "MoguShanVaults", raid = true, EncounterJournalID = 317 },
+		},
+
 		["Pandaria"] = {
 			["Bosses"] = {
 				{ "SHAOFANGER", 1, EncounterJournalID = 691 },

@@ -17,8 +17,10 @@ local moduleName = "AtlasLootMoP"
 ---- Scholomance
 ---- Scarlet Halls
 ---- Scarlet Monastery
----- Terrace of Endless Spring
+---- Heart of Fear
+---- Mogu'Shan Vaults
 ---- Pandaria World Bosses
+---- Terrace of Endless Spring
 --- Factions
 ---- The Anglers
 ---- The August Celestials
@@ -872,6 +874,452 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
+		---------------------
+		--- Heart of Fear ---
+		---------------------
+
+	AtlasLoot_Data["HoFZorlok"] = {
+		["RaidFinder"] = {
+			{
+			};
+		};
+		["Normal"] = {
+			{
+			};
+		};
+		["Heroic"] = {
+			{
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Imperial Vizier Zor'lok", 745),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+	AtlasLoot_Data["HoFTayak"] = {
+		["RaidFinder"] = {
+			{
+			};
+		};
+		["Normal"] = {
+			{
+			};
+		};
+		["Heroic"] = {
+			{
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Blade Lord Ta'yak", 744),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+	AtlasLoot_Data["HoFGaralon"] = {
+		["RaidFinder"] = {
+			{
+			};
+		};
+		["Normal"] = {
+			{
+			};
+		};
+		["Heroic"] = {
+			{
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Garalon", 713),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+	AtlasLoot_Data["HoFMeljarak"] = {
+		["RaidFinder"] = {
+			{
+			};
+		};
+		["Normal"] = {
+			{
+			};
+		};
+		["Heroic"] = {
+			{
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+	AtlasLoot_Data["HoFUnsok"] = {
+		["RaidFinder"] = {
+			{
+			};
+		};
+		["Normal"] = {
+			{
+			};
+		};
+		["Heroic"] = {
+			{
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+	AtlasLoot_Data["HoFShekzeer"] = {
+		["RaidFinder"] = {
+			{
+			};
+		};
+		["Normal"] = {
+			{
+			};
+		};
+		["Heroic"] = {
+			{
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+		------------------------
+		--- Mogu'Shan Vaults ---
+		------------------------
+
+	AtlasLoot_Data["MSVTheStoneGuard"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86748, "", "=q4=Cape of Three Lanterns", "=ds=#s4#, #a1#" },
+				{ 2, 86747, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
+				{ 3, 86746, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
+				{ 4, 86743, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
+				{ 5, 86745, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
+				{ 6, 86740, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
+				{ 7, 86793, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
+				{ 8, 86744, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
+				{ 9, 86742, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
+				{ 16, 86739, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
+				{ 18, 86741, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 85979, "", "=q4=Cape of Three Lanterns", "=ds=#s4#, #a1#" },
+				{ 2, 85978, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
+				{ 3, 85977, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
+				{ 4, 85926, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
+				{ 5, 85976, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
+				{ 6, 85923, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
+				{ 7, 86134, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
+				{ 8, 85975, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
+				{ 9, 85925, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
+				{ 16, 85922, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
+				{ 18, 85924, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87018, "", "=q4=Cape of Three Lanterns", "=ds=#s4#, #a1#" },
+				{ 2, 87017, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
+				{ 3, 87019, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
+				{ 4, 87013, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
+				{ 5, 87020, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
+				{ 6, 87014, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
+				{ 7, 87060, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
+				{ 8, 87021, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
+				{ 9, 87015, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
+				{ 16, 87016, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
+				{ 18, 87012, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("The Stone Guard", 679),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
+	AtlasLoot_Data["MSVFeng"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86782, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#, #a1#" },
+				{ 2, 86753, "", "=q4=Cloak of Peacock Feathers", "=ds=#s4#, #a1#" },
+				{ 3, 86758, "", "=q4=Imperial Ghostbinder's Robes", "=ds=#s5#, #a1#" },
+				{ 4, 86757, "", "=q4=Hood of Cursed Dreams", "=ds=#s1#, #a2#" },
+				{ 5, 86750, "", "=q4=Tomb Raider's Girdle", "=ds=#s10#, #a2#" },
+				{ 6, 86755, "", "=q4=Chain of Shadow", "=ds=#s10#, #a3#" },
+				{ 7, 86749, "", "=q4=Wildfire Worldwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 86752, "", "=q4=Nullification Greathelm", "=ds=#s1#, #a4#" },
+				{ 9, 86751, "", "=q4=Bracers of Six Oxen", "=ds=#s8#, #a4#" },
+				{ 10, 86756, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
+				{ 16, 86754, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
+				{ 18, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86082, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#, #a1#" },
+				{ 2, 85985, "", "=q4=Cloak of Peacock Feathers", "=ds=#s4#, #a1#" },
+				{ 3, 85990, "", "=q4=Imperial Ghostbinder's Robes", "=ds=#s5#, #a1#" },
+				{ 4, 85989, "", "=q4=Hood of Cursed Dreams", "=ds=#s1#, #a2#" },
+				{ 5, 85982, "", "=q4=Tomb Raider's Girdle", "=ds=#s10#, #a2#" },
+				{ 6, 85987, "", "=q4=Chain of Shadow", "=ds=#s10#, #a3#" },
+				{ 7, 85980, "", "=q4=Wildfire Worldwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 85984, "", "=q4=Nullification Greathelm", "=ds=#s1#, #a4#" },
+				{ 9, 85983, "", "=q4=Bracers of Six Oxen", "=ds=#s8#, #a4#" },
+				{ 10, 85988, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
+				{ 16, 85986, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
+				{ 18, 89424, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87044, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#, #a1#" },
+				{ 2, 87026, "", "=q4=Cloak of Peacock Feathers", "=ds=#s4#, #a1#" },
+				{ 3, 87027, "", "=q4=Imperial Ghostbinder's Robes", "=ds=#s5#, #a1#" },
+				{ 4, 87029, "", "=q4=Hood of Cursed Dreams", "=ds=#s1#, #a2#" },
+				{ 5, 87022, "", "=q4=Tomb Raider's Girdle", "=ds=#s10#, #a2#" },
+				{ 6, 87030, "", "=q4=Chain of Shadow", "=ds=#s10#, #a3#" },
+				{ 7, 87023, "", "=q4=Wildfire Worldwalkers", "=ds=#s12#, #a3#" },
+				{ 8, 87024, "", "=q4=Nullification Greathelm", "=ds=#s1#, #a4#" },
+				{ 9, 87025, "", "=q4=Bracers of Six Oxen", "=ds=#s8#, #a4#" },
+				{ 10, 87031, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
+				{ 16, 87028, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
+				{ 18, 89425, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Feng the Accursed", 689),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
+	AtlasLoot_Data["MSVGarajal"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86770, "", "=q4=Shadowsummoner Spaulders", "=ds=#s3#, #a1#" },
+				{ 2, 86765, "", "=q4=Sandals of the Severed Soul", "=ds=#s12#, #a1#" },
+				{ 3, 86763, "", "=q4=Netherrealm Shoulderpads", "=ds=#s3#, #a2#" },
+				{ 4, 86768, "", "=q4=Spaulders of the Divided Mind", "=ds=#s3#, #a2#" },
+				{ 5, 86761, "", "=q4=Fetters of Death", "=ds=#s10#, #a3#" },
+				{ 6, 86769, "", "=q4=Leggings of Imprisoned Will", "=ds=#s11#, #a3#" },
+				{ 7, 86766, "", "=q4=Bindings of Ancient Spirits", "=ds=#s8#, #a4#" },
+				{ 8, 86760, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
+				{ 16, 86759, "", "=q4=Soulgrasp Choker", "=ds=#s2#" },
+				{ 17, 86767, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
+				{ 19, 86762, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
+				{ 20, 86764, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86041, "", "=q4=Shadowsummoner Spaulders", "=ds=#s3#, #a1#" },
+				{ 2, 85997, "", "=q4=Sandals of the Severed Soul", "=ds=#s12#, #a1#" },
+				{ 3, 85995, "", "=q4=Netherrealm Shoulderpads", "=ds=#s3#, #a2#" },
+				{ 4, 86039, "", "=q4=Spaulders of the Divided Mind", "=ds=#s3#, #a2#" },
+				{ 5, 85993, "", "=q4=Fetters of Death", "=ds=#s10#, #a3#" },
+				{ 6, 86040, "", "=q4=Leggings of Imprisoned Will", "=ds=#s11#, #a3#" },
+				{ 7, 86027, "", "=q4=Bindings of Ancient Spirits", "=ds=#s8#, #a4#" },
+				{ 8, 85992, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
+				{ 16, 85991, "", "=q4=Soulgrasp Choker", "=ds=#s2#" },
+				{ 17, 86038, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
+				{ 19, 85994, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
+				{ 20, 85996, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87038, "", "=q4=Shadowsummoner Spaulders", "=ds=#s3#, #a1#" },
+				{ 2, 87037, "", "=q4=Sandals of the Severed Soul", "=ds=#s12#, #a1#" },
+				{ 3, 87033, "", "=q4=Netherrealm Shoulderpads", "=ds=#s3#, #a2#" },
+				{ 4, 87041, "", "=q4=Spaulders of the Divided Mind", "=ds=#s3#, #a2#" },
+				{ 5, 87034, "", "=q4=Fetters of Death", "=ds=#s10#, #a3#" },
+				{ 6, 87042, "", "=q4=Leggings of Imprisoned Will", "=ds=#s11#, #a3#" },
+				{ 7, 87043, "", "=q4=Bindings of Ancient Spirits", "=ds=#s8#, #a4#" },
+				{ 8, 87035, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
+				{ 16, 87036, "", "=q4=Soulgrasp Choker", "=ds=#s2#" },
+				{ 17, 87040, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
+				{ 19, 87032, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
+				{ 20, 87039, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Gara'jal the Spiritbinder", 682),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
+	AtlasLoot_Data["MSVSpiritKings"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86782, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#, #a1#" },
+				{ 2, 86788, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
+				{ 3, 86787, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
+				{ 4, 86786, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
+				{ 5, 86781, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
+				{ 6, 86784, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
+				{ 7, 86780, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
+				{ 8, 86779, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
+				{ 9, 86785, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
+				{ 16, 86776, "", "=q4=Amulet of the Hidden Kings", "=ds=#s2#" },
+				{ 17, 86783, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
+				{ 19, 86777, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
+				{ 20, 86778, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86082, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#, #a1#" },
+				{ 2, 86129, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
+				{ 3, 86128, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
+				{ 4, 86127, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
+				{ 5, 86081, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
+				{ 6, 86084, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
+				{ 7, 86080, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
+				{ 8, 86076, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
+				{ 9, 86086, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
+				{ 16, 86047, "", "=q4=Amulet of the Hidden Kings", "=ds=#s2#" },
+				{ 17, 86083, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
+				{ 19, 86071, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
+				{ 20, 86075, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87044, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#, #a1#" },
+				{ 2, 87051, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
+				{ 3, 87052, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
+				{ 4, 87054, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
+				{ 5, 87047, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
+				{ 6, 87055, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
+				{ 7, 87049, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
+				{ 8, 87048, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
+				{ 9, 87056, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
+				{ 16, 87045, "", "=q4=Amulet of the Hidden Kings", "=ds=#s2#" },
+				{ 17, 87053, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
+				{ 19, 87046, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
+				{ 20, 87050, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("The Spirit Kings", 687),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
+	AtlasLoot_Data["MSVElegon"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86798, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
+				{ 2, 86795, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
+				{ 3, 86797, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
+				{ 4, 86800, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
+				{ 5, 86794, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 86791, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
+				{ 17, 86792, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
+				{ 18, 86790, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
+				{ 20, 86789, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
+				{ 21, 86799, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
+				{ 22, 86796, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86139, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
+				{ 2, 86136, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
+				{ 3, 86138, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
+				{ 4, 86141, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
+				{ 5, 86135, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 86132, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
+				{ 17, 86133, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
+				{ 18, 86131, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
+				{ 20, 86130, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
+				{ 21, 86140, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
+				{ 22, 86137, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87064, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
+				{ 2, 87058, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
+				{ 3, 87067, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
+				{ 4, 87068, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
+				{ 5, 87059, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 87057, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
+				{ 17, 87065, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
+				{ 18, 87063, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
+				{ 20, 87062, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
+				{ 21, 87061, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
+				{ 22, 87066, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Elegon", 726),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
+	AtlasLoot_Data["MSVWilloftheEmperor"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86809, "", "=q4=Hood of Focused Energy", "=ds=#s1#, #a1#" },
+				{ 2, 86804, "", "=q4=Crown of Opportunistic Strikes", "=ds=#s1#, #a2#" },
+				{ 3, 86808, "", "=q4=Magnetized Leggings", "=ds=#s11#, #a2#" },
+				{ 4, 87826, "", "=q4=Grips of Terra Cotta", "=ds=#s9#, #a3#" },
+				{ 5, 86807, "", "=q4=Spaulders of the Emperor's Rage", "=ds=#s3#, #a4#" },
+				{ 6, 86803, "", "=q4=Jang-xi's Devastating Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 86810, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
+				{ 17, 86802, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
+				{ 18, 86805, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
+				{ 20, 86806, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
+				{ 21, 86801, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86151, "", "=q4=Hood of Focused Energy", "=ds=#s1#, #a1#" },
+				{ 2, 86146, "", "=q4=Crown of Opportunistic Strikes", "=ds=#s1#, #a2#" },
+				{ 3, 86150, "", "=q4=Magnetized Leggings", "=ds=#s11#, #a2#" },
+				{ 4, 87827, "", "=q4=Grips of Terra Cotta", "=ds=#s9#, #a3#" },
+				{ 5, 86149, "", "=q4=Spaulders of the Emperor's Rage", "=ds=#s3#, #a4#" },
+				{ 6, 86145, "", "=q4=Jang-xi's Devastating Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 86152, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
+				{ 17, 86144, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
+				{ 18, 86147, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
+				{ 20, 86148, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
+				{ 21, 86142, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 87073, "", "=q4=Hood of Focused Energy", "=ds=#s1#, #a1#" },
+				{ 2, 87070, "", "=q4=Crown of Opportunistic Strikes", "=ds=#s1#, #a2#" },
+				{ 3, 87077, "", "=q4=Magnetized Leggings", "=ds=#s11#, #a2#" },
+				{ 4, 87825, "", "=q4=Grips of Terra Cotta", "=ds=#s9#, #a3#" },
+				{ 5, 87078, "", "=q4=Spaulders of the Emperor's Rage", "=ds=#s3#, #a4#" },
+				{ 6, 87071, "", "=q4=Jang-xi's Devastating Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 87076, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
+				{ 17, 87072, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
+				{ 18, 87075, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
+				{ 20, 87074, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
+				{ 21, 87069, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Will of the Emperor", 677),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
 		-----------------------------
 		--- Pandaria World Bosses ---
 		-----------------------------
@@ -1155,7 +1603,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86871, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 18, 86869, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 19, 86873, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 21, 86909, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 21, 86909, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
 			};
 		};
 		["Normal"] = {
@@ -1171,7 +1619,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86233, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 10, 86231, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 86315, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 12, 86390, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 12, 86390, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90526, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
 				{ 18, 90524, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
@@ -1186,7 +1634,7 @@ local moduleName = "AtlasLootMoP"
 				{ 27, 90522, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 28, 90517, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 29, 90525, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 30, 90527, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 30, 90527, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
 			};
 		};
 		["Heroic"] = {
@@ -1202,7 +1650,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 87147, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 10, 87144, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 87151, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 12, 87152, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 12, 87152, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90512, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#, #a1#" },
 				{ 18, 90510, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
@@ -1217,7 +1665,7 @@ local moduleName = "AtlasLootMoP"
 				{ 27, 90508, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 28, 90503, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 29, 90511, "", "=q4=Watersoul Signet", "=ds=#s13#" },
-				{ 30, 90513, "", "=q3=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 30, 90513, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
 			};
 		};
 		info = {
@@ -1247,8 +1695,8 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86880, "", "=q4=Dread Shadow Ring", "=ds=#s13#" },
 				{ 17, 86885, "", "=q4=Spirits of the Sun", "=ds=#s14#" },
 				{ 18, 86881, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
-				{ 20, 86886, "", "=q3=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
-				{ 21, 86879, "", "=q3=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+				{ 20, 86886, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
+				{ 21, 86879, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
 			};
 		};
 		["Normal"] = {
@@ -1271,8 +1719,8 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86322, "", "=q4=Dread Shadow Ring", "=ds=#s13#" },
 				{ 17, 86327, "", "=q4=Spirits of the Sun", "=ds=#s14#" },
 				{ 18, 86323, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
-				{ 20, 86328, "", "=q3=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
-				{ 21, 86321, "", "=q3=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+				{ 20, 86328, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
+				{ 21, 86321, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
 			};
 		};
 		["Heroic"] = {
@@ -1295,8 +1743,8 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 87158, "", "=q4=Dread Shadow Ring", "=ds=#s13#" },
 				{ 17, 87163, "", "=q4=Spirits of the Sun", "=ds=#s14#" },
 				{ 18, 87160, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
-				{ 20, 87164, "", "=q3=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
-				{ 21, 87156, "", "=q3=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+				{ 20, 87164, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
+				{ 21, 87156, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -1325,9 +1773,9 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89276, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86894, "", "=q4=Darkmist Vortex", "=ds=#s14#" },
 				{ 21, 86890, "", "=q4=Terror in the Mists", "=ds=#s14#" },
-				{ 23, 86910, "", "=q3=Spiritsever", "=ds=#h1#, #w4#" },
-				{ 24, 86893, "", "=q3=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
-				{ 25, 86889, "", "=q3=Taoren, the Soul Burner", "=ds=#w5#" },
+				{ 23, 86910, "", "=q4=Spiritsever", "=ds=#h1#, #w4#" },
+				{ 24, 86893, "", "=q4=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
+				{ 25, 86889, "", "=q4=Taoren, the Soul Burner", "=ds=#w5#" },
 			};
 		};
 		["Normal"] = {
@@ -1349,9 +1797,9 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89248, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86336, "", "=q4=Darkmist Vortex", "=ds=#s14#" },
 				{ 21, 86332, "", "=q4=Terror in the Mists", "=ds=#s14#" },
-				{ 23, 86391, "", "=q3=Spiritsever", "=ds=#h1#, #w4#" },
-				{ 24, 86335, "", "=q3=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
-				{ 25, 86331, "", "=q3=Taoren, the Soul Burner", "=ds=#w5#" },
+				{ 23, 86391, "", "=q4=Spiritsever", "=ds=#h1#, #w4#" },
+				{ 24, 86335, "", "=q4=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
+				{ 25, 86331, "", "=q4=Taoren, the Soul Burner", "=ds=#w5#" },
 			};
 		};
 		["Heroic"] = {
@@ -1373,9 +1821,9 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89261, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 87172, "", "=q4=Darkmist Vortex", "=ds=#s14#" },
 				{ 21, 87167, "", "=q4=Terror in the Mists", "=ds=#s14#" },
-				{ 23, 87166, "", "=q3=Spiritsever", "=ds=#h1#, #w4#" },
-				{ 24, 87170, "", "=q3=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
-				{ 25, 87168, "", "=q3=Taoren, the Soul Burner", "=ds=#w5#" },
+				{ 23, 87166, "", "=q4=Spiritsever", "=ds=#h1#, #w4#" },
+				{ 24, 87170, "", "=q4=Jin'ya, Orb of the Waterspeaker", "=ds=#w9#" },
+				{ 25, 87168, "", "=q4=Taoren, the Soul Burner", "=ds=#w5#" },
 			};
 		};
 		info = {
@@ -1389,8 +1837,8 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 86908, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
 				{ 3, 86907, "", "=q4=Essence of Terror", "=ds=#s14#" },
-				{ 5, 86906, "", "=q3=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
-				{ 6, 86905, "", "=q3=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 5, 86906, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 6, 86905, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 16, 89274, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89275, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89273, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -1400,8 +1848,8 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 86389, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
 				{ 3, 86388, "", "=q4=Essence of Terror", "=ds=#s14#" },
-				{ 5, 86387, "", "=q3=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
-				{ 6, 86386, "", "=q3=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 5, 86387, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 6, 86386, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 16, 89235, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89236, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89234, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -1411,8 +1859,8 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 87174, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
 				{ 3, 87175, "", "=q4=Essence of Terror", "=ds=#s14#" },
-				{ 5, 87173, "", "=q3=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
-				{ 6, 87176, "", "=q3=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 5, 87173, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 6, 87176, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 16, 89259, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89260, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89258, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
