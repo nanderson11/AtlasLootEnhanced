@@ -881,14 +881,47 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HoFZorlok"] = {
 		["RaidFinder"] = {
 			{
+				{ 1, 86812, "", "=q4=Hisek's Chrysanthemum Cape", "=ds=#s4#, #a1#" },
+				{ 2, 86815, "", "=q4=Attenuating Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 86819, "", "=q4=Gloves of Grasping Claws", "=ds=#s9#, #a1#" },
+				{ 4, 86817, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
+				{ 5, 86811, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
+				{ 6, 86818, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
+				{ 7, 87823, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 86816, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
+				{ 9, 86854, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 86814, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
+				{ 17, 86813, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 			};
 		};
 		["Normal"] = {
 			{
+				{ 1, 86154, "", "=q4=Hisek's Chrysanthemum Cape", "=ds=#s4#, #a1#" },
+				{ 2, 86157, "", "=q4=Attenuating Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 86161, "", "=q4=Gloves of Grasping Claws", "=ds=#s9#, #a1#" },
+				{ 4, 86159, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
+				{ 5, 86153, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
+				{ 6, 86160, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
+				{ 7, 87824, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 86158, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
+				{ 9, 86203, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 86156, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
+				{ 17, 86155, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 86945, "", "=q4=Hisek's Chrysanthemum Cape", "=ds=#s4#, #a1#" },
+				{ 2, 86948, "", "=q4=Attenuating Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 86947, "", "=q4=Gloves of Grasping Claws", "=ds=#s9#, #a1#" },
+				{ 4, 86950, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
+				{ 5, 86943, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
+				{ 6, 86951, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
+				{ 7, 87822, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
+				{ 8, 86952, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
+				{ 9, 86944, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 86949, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
+				{ 17, 86946, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 			};
 		};
 		info = {
@@ -900,14 +933,47 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HoFTayak"] = {
 		["RaidFinder"] = {
 			{
+				{ 1, 86827, "", "=q4=Drape of Gathering Clouds", "=ds=#s4#, #a1#" },
+				{ 2, 86828, "", "=q4=Twisting Wind Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 86825, "", "=q4=Boots of the Blowing Wind", "=ds=#s12#, #a1#" },
+				{ 4, 86821, "", "=q4=Bracers of Unseen Strikes", "=ds=#s8#, #a2#" },
+				{ 5, 86826, "", "=q4=Bracers of Tempestuous Fury", "=ds=#s8#, #a3#" },
+				{ 6, 90739, "", "=q4=Kaz'tik's Stormseizer Gauntlets", "=ds=#s9#, #a3#" },
+				{ 7, 86823, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
+				{ 8, 86822, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
+				{ 16, 86824, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
+				{ 17, 86820, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
+				{ 19, 86829, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
 			{
+				{ 1, 86169, "", "=q4=Drape of Gathering Clouds", "=ds=#s4#, #a1#" },
+				{ 2, 86170, "", "=q4=Twisting Wind Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 86167, "", "=q4=Boots of the Blowing Wind", "=ds=#s12#, #a1#" },
+				{ 4, 86163, "", "=q4=Bracers of Unseen Strikes", "=ds=#s8#, #a2#" },
+				{ 5, 86168, "", "=q4=Bracers of Tempestuous Fury", "=ds=#s8#, #a3#" },
+				{ 6, 90738, "", "=q4=Kaz'tik's Stormseizer Gauntlets", "=ds=#s9#, #a3#" },
+				{ 7, 86165, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
+				{ 8, 86164, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
+				{ 16, 86166, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
+				{ 17, 86162, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
+				{ 19, 86171, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 86961, "", "=q4=Drape of Gathering Clouds", "=ds=#s4#, #a1#" },
+				{ 2, 86958, "", "=q4=Twisting Wind Bracers", "=ds=#s8#, #a1#" },
+				{ 3, 86959, "", "=q4=Boots of the Blowing Wind", "=ds=#s12#, #a1#" },
+				{ 4, 86954, "", "=q4=Bracers of Unseen Strikes", "=ds=#s8#, #a2#" },
+				{ 5, 86962, "", "=q4=Bracers of Tempestuous Fury", "=ds=#s8#, #a3#" },
+				{ 6, 90740, "", "=q4=Kaz'tik's Stormseizer Gauntlets", "=ds=#s9#, #a3#" },
+				{ 7, 86956, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
+				{ 8, 86955, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
+				{ 16, 86953, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
+				{ 17, 86957, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
+				{ 19, 86960, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
 			};
 		};
 		info = {
@@ -919,14 +985,47 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HoFGaralon"] = {
 		["RaidFinder"] = {
 			{
+				{ 1, 86831, "", "=q4=Legbreaker Greatcloak", "=ds=#s4#, #a1#" },
+				{ 2, 86840, "", "=q4=Stormwake Mistcloak", "=ds=#s4#, #a1#" },
+				{ 3, 86839, "", "=q4=Xaril's Hood of Intoxicating Vapors", "=ds=#s1#, #a1#" },
+				{ 4, 86836, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
+				{ 5, 86838, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
+				{ 6, 86834, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 86833, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
+				{ 8, 86832, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
+				{ 9, 86837, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
+				{ 16, 86835, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
+				{ 17, 86830, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
 			};
 		};
 		["Normal"] = {
 			{
+				{ 1, 86173, "", "=q4=Legbreaker Greatcloak", "=ds=#s4#, #a1#" },
+				{ 2, 86182, "", "=q4=Stormwake Mistcloak", "=ds=#s4#, #a1#" },
+				{ 3, 86181, "", "=q4=Xaril's Hood of Intoxicating Vapors", "=ds=#s1#, #a1#" },
+				{ 4, 86178, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
+				{ 5, 86180, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
+				{ 6, 86176, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 86175, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
+				{ 8, 86174, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
+				{ 9, 86179, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
+				{ 16, 86177, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
+				{ 17, 86172, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 86963, "", "=q4=Legbreaker Greatcloak", "=ds=#s4#, #a1#" },
+				{ 2, 86971, "", "=q4=Stormwake Mistcloak", "=ds=#s4#, #a1#" },
+				{ 3, 86970, "", "=q4=Xaril's Hood of Intoxicating Vapors", "=ds=#s1#, #a1#" },
+				{ 4, 86969, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
+				{ 5, 86972, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
+				{ 6, 86964, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
+				{ 7, 86965, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
+				{ 8, 86966, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
+				{ 9, 86973, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
+				{ 16, 86967, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
+				{ 17, 86968, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
 			};
 		};
 		info = {
@@ -938,14 +1037,44 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HoFMeljarak"] = {
 		["RaidFinder"] = {
 			{
+				{ 1, 86853, "", "=q4=Cloak of Raining Blades", "=ds=#s4#, #a1#" },
+				{ 2, 86911, "", "=q4=Robes of Torn Nightmares", "=ds=#s5#, #a1#" },
+				{ 3, 86912, "", "=q4=Clutches of Dying Hope", "=ds=#s9#, #a2#" },
+				{ 4, 86855, "", "=q4=Wingslasher Pauldrons", "=ds=#s3#, #a3#" },
+				{ 5, 86852, "", "=q4=Impaling Treads", "=ds=#s12#, #a4#" },
+				{ 16, 89271, "", "=q4=Gauntlets of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89272, "", "=q4=Gauntlets of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89270, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86856, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
+				{ 21, 86851, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
 			};
 		};
 		["Normal"] = {
 			{
+				{ 1, 86202, "", "=q4=Cloak of Raining Blades", "=ds=#s4#, #a1#" },
+				{ 2, 86513, "", "=q4=Robes of Torn Nightmares", "=ds=#s5#, #a1#" },
+				{ 3, 86514, "", "=q4=Clutches of Dying Hope", "=ds=#s9#, #a2#" },
+				{ 4, 86204, "", "=q4=Wingslasher Pauldrons", "=ds=#s3#, #a3#" },
+				{ 5, 86201, "", "=q4=Impaling Treads", "=ds=#s12#, #a4#" },
+				{ 16, 89240, "", "=q4=Gauntlets of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89241, "", "=q4=Gauntlets of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89242, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86205, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
+				{ 21, 86200, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 86980, "", "=q4=Cloak of Raining Blades", "=ds=#s4#, #a1#" },
+				{ 2, 86975, "", "=q4=Robes of Torn Nightmares", "=ds=#s5#, #a1#" },
+				{ 3, 86977, "", "=q4=Clutches of Dying Hope", "=ds=#s9#, #a2#" },
+				{ 4, 86978, "", "=q4=Wingslasher Pauldrons", "=ds=#s3#, #a3#" },
+				{ 5, 86979, "", "=q4=Impaling Treads", "=ds=#s12#, #a4#" },
+				{ 16, 89256, "", "=q4=Gauntlets of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89257, "", "=q4=Gauntlets of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89255, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86976, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
+				{ 21, 86974, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
 			};
 		};
 		info = {
@@ -957,14 +1086,44 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HoFUnsok"] = {
 		["RaidFinder"] = {
 			{
+				{ 1, 86857, "", "=q4=Belt of Malleable Amber", "=ds=#s10#, #a1#" },
+				{ 2, 86859, "", "=q4=Treads of Deadly Secretions", "=ds=#s12#, #a2#" },
+				{ 3, 86861, "", "=q4=Monstrous Stompers", "=ds=#s12#, #a3#" },
+				{ 4, 86860, "", "=q4=Shoulderpads of Misshapen Life", "=ds=#s3#, #a4#" },
+				{ 16, 89268, "", "=q4=Leggings of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89269, "", "=q4=Leggings of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89267, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86858, "", "=q4=Seal of the Profane", "=ds=#s13#" },
+				{ 22, 86862, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
+				{ 23, 86863, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
 			};
 		};
 		["Normal"] = {
 			{
+				{ 1, 86210, "", "=q4=Belt of Malleable Amber", "=ds=#s10#, #a1#" },
+				{ 2, 86212, "", "=q4=Treads of Deadly Secretions", "=ds=#s12#, #a2#" },
+				{ 3, 86214, "", "=q4=Monstrous Stompers", "=ds=#s12#, #a3#" },
+				{ 4, 86213, "", "=q4=Shoulderpads of Misshapen Life", "=ds=#s3#, #a4#" },
+				{ 16, 89243, "", "=q4=Leggings of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89244, "", "=q4=Leggings of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89245, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86211, "", "=q4=Seal of the Profane", "=ds=#s13#" },
+				{ 22, 86217, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
+				{ 23, 86219, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 86981, "", "=q4=Belt of Malleable Amber", "=ds=#s10#, #a1#" },
+				{ 2, 86984, "", "=q4=Treads of Deadly Secretions", "=ds=#s12#, #a2#" },
+				{ 3, 86985, "", "=q4=Monstrous Stompers", "=ds=#s12#, #a3#" },
+				{ 4, 86986, "", "=q4=Shoulderpads of Misshapen Life", "=ds=#s3#, #a4#" },
+				{ 16, 89253, "", "=q4=Leggings of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89254, "", "=q4=Leggings of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89252, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 86982, "", "=q4=Seal of the Profane", "=ds=#s13#" },
+				{ 22, 86983, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
+				{ 23, 86987, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
 			};
 		};
 		info = {
@@ -976,14 +1135,35 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HoFShekzeer"] = {
 		["RaidFinder"] = {
 			{
+				{ 1, 86867, "", "=q4=Leggings of Shadow Infestation", "=ds=#s11#, #a1#" },
+				{ 2, 86866, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
+				{ 4, 86865, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
+				{ 5, 86864, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 16, 89265, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89266, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89264, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 			};
 		};
 		["Normal"] = {
 			{
+				{ 1, 86229, "", "=q4=Leggings of Shadow Infestation", "=ds=#s11#, #a1#" },
+				{ 2, 86228, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
+				{ 4, 86227, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
+				{ 5, 86226, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 16, 89237, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89238, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89239, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 			};
 		};
 		["Heroic"] = {
 			{
+				{ 1, 86989, "", "=q4=Leggings of Shadow Infestation", "=ds=#s11#, #a1#" },
+				{ 2, 86991, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
+				{ 4, 86990, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
+				{ 5, 86988, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 16, 89250, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
+				{ 17, 89251, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
+				{ 18, 89249, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 			};
 		};
 		info = {
@@ -1219,47 +1399,56 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["MSVElegon"] = {
 		["RaidFinder"] = {
 			{
-				{ 1, 86798, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
-				{ 2, 86795, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
-				{ 3, 86797, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
-				{ 4, 86800, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
-				{ 5, 86794, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
-				{ 16, 86791, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
-				{ 17, 86792, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
-				{ 18, 86790, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
-				{ 20, 86789, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
-				{ 21, 86799, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
-				{ 22, 86796, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
+				{ 1, 89973, "", "=q4=Galaxyfire Girdle", "=ds=#s10#, #a1#" },
+				{ 2, 86798, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
+				{ 3, 86795, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
+				{ 4, 86797, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
+				{ 5, 86800, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
+				{ 6, 89974, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
+				{ 7, 86794, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 89972, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
+				{ 17, 86791, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
+				{ 18, 86792, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
+				{ 19, 86790, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
+				{ 21, 86789, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
+				{ 22, 86799, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
+				{ 23, 86796, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
 			};
 		};
 		["Normal"] = {
 			{
-				{ 1, 86139, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
-				{ 2, 86136, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
-				{ 3, 86138, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
-				{ 4, 86141, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
-				{ 5, 86135, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
-				{ 16, 86132, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
-				{ 17, 86133, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
-				{ 18, 86131, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
-				{ 20, 86130, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
-				{ 21, 86140, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
-				{ 22, 86137, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
+				{ 1, 89822, "", "=q4=Galaxyfire Girdle", "=ds=#s10#, #a1#" },
+				{ 2, 86139, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
+				{ 3, 86136, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
+				{ 4, 86138, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
+				{ 5, 86141, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
+				{ 6, 89821, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
+				{ 7, 86135, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 89824, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
+				{ 17, 86132, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
+				{ 18, 86133, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
+				{ 19, 86131, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
+				{ 21, 86130, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
+				{ 22, 86140, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
+				{ 23, 86137, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
 			};
 		};
 		["Heroic"] = {
 			{
-				{ 1, 87064, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
-				{ 2, 87058, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
-				{ 3, 87067, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
-				{ 4, 87068, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
-				{ 5, 87059, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
-				{ 16, 87057, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
-				{ 17, 87065, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
-				{ 18, 87063, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
-				{ 20, 87062, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
-				{ 21, 87061, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
-				{ 22, 87066, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
+				{ 1, 89938, "", "=q4=Galaxyfire Girdle", "=ds=#s10#, #a1#" },
+				{ 2, 87064, "", "=q4=Orbital Belt", "=ds=#s10#, #a1#" },
+				{ 3, 87058, "", "=q4=Chestguard of Total Annihilation", "=ds=#s5#, #a2#" },
+				{ 4, 87067, "", "=q4=Phasewalker Striders", "=ds=#s12#, #a2#" },
+				{ 5, 87068, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
+				{ 6, 89939, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
+				{ 7, 87059, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 89937, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
+				{ 17, 87057, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
+				{ 18, 87065, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
+				{ 19, 87063, "", "=q4=Vial of Dragon's Blood", "=ds=#s14#" },
+				{ 21, 87062, "", "=q4=Elegion, the Fanged Crescent", "=ds=#h1#, #w1#" },
+				{ 22, 87061, "", "=q4=Starshatter", "=ds=#h2#, #w10#" },
+				{ 23, 87066, "", "=q4=Torch of the Celestial Spark", "=ds=#w12#" },
 			};
 		};
 		info = {
