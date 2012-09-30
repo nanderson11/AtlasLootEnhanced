@@ -1418,7 +1418,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ScholoChillheart", 3, EncounterJournalID = 659 },
 				{ "ScholoJandice", 5, EncounterJournalID = 663 },
 				{ "ScholoRattlegore", 6, EncounterJournalID = 665 },
-				{ "ScholoVoss", 7, EncounterJournalID = 666 },
+				{ "ScholoVoss", {7, 16}, EncounterJournalID = 666 },
 				{ "ScholoGandling", 11, EncounterJournalID = 684 },
 				{ "ScholoTrash", 18 },
 			},
