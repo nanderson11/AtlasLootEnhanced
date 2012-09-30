@@ -601,6 +601,8 @@ if AL then
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
 	AL["Raid Finder"] = "团队查找器";
+	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
+	AL["Elite"] = "精英";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等级30-39";
