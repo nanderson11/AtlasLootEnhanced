@@ -890,11 +890,11 @@ AtlasLoot_LootTableRegister = {
 		["MagistersTerrace"] = {
 			["Bosses"] = {
 				{ "SunOffensive", 1, hide = true },
-				{ "SMTFireheart", 4, EncounterJournalID = 530 },
-				{ "SMTVexallus", 6, EncounterJournalID = 531 },
-				{ "SMTDelrissa", 7, EncounterJournalID = 532 },
-				{ "SMTKaelthas", 18, EncounterJournalID = 533 },
-				{ "SMTTrash", 23 },
+				{ "SMTFireheart", 5, EncounterJournalID = 530 },
+				{ "SMTVexallus", 7, EncounterJournalID = 531 },
+				{ "SMTDelrissa", 8, EncounterJournalID = 532 },
+				{ "SMTKaelthas", 19, EncounterJournalID = 533 },
+				{ "SMTTrash", 24 },
 			},
 			["Info"] = { BabbleZone["Magisters' Terrace"], "AtlasLootBurningCrusade", EncounterJournalID = 249 },
 		},
