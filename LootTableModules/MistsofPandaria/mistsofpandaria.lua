@@ -122,7 +122,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 80873, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
 				{ 7, 80874, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h1#, #w6#" },
+				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h3#, #w6#" },
 				{ 18, 81129, "", "=q3=Cloak of Failing Will", "=ds=#s4#" },
 				{ 19, 81132, "", "=q3=Paralyzing Gloves", "=ds=#s9#, #a1#" },
 				{ 20, 81071, "", "=q3=Doubtridden Shoulderguards", "=ds=#s3#, #a2#" },
@@ -154,7 +154,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 80892, "", "=q3=Ook's Hozen Slicer", "=ds=#h1#, #w10#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6089#"};
 				{ 17, 81064, "", "=q3=Bracers of Displaced Air", "=ds=#s8#, #a1#", ""};
-				{ 18, 81080, "", "=q3=Nimbletoe Chestguard", "=ds=#s8#, #a1#", ""};
+				{ 18, 81080, "", "=q3=Nimbletoe Chestguard", "=ds=#s5#, #a2#", ""};
 				{ 19, 81134, "", "=q4=Barreldodger Boots", "=ds=#s12#, #a4#", ""};
 				{ 20, 81133, "", "=q3=Empty Fruit Barrel", "=ds=#s14#", ""};
 				{ 21, 81061, "", "=q3=Ook's Hozen Slicer", "=ds=#h1#, #w10#", ""};
