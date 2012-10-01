@@ -198,7 +198,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 80894, "", "=q3=Gao's Keg Tapper", "=ds=#h1#, #w6#", ""};
 				{ 7, 80895, "", "=q3=Yan-Zhu's Pressure Valve", "=ds=#w5#", ""};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 87545, "", "=q3=Inelava, Spirit of Inebriation", "=ds=#h1#, #w1#", ""};
+				{ 17, 87545, "", "=q4=Inelava, Spirit of Inebriation", "=ds=#h1#, #w1#", ""};
 				{ 18, 81059, "", "=q3=Fermenting Belt", "=ds=#s10#, #a1#", ""};
 				{ 19, 81068, "", "=q3=Fizzy Spaulders", "=ds=#s3#, #a2#", ""};
 				{ 20, 81081, "", "=q3=Uncasked Chestguard", "=ds=#s5#, #a3#", ""};

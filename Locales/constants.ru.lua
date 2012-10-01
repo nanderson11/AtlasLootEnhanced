@@ -970,17 +970,12 @@ if AL then
 	AL["Avatar"] = "Аватара"; -- Avatar of the Martyred
 
 	-- Chests, etc
-	AL["Ring of Law"] = "Зал Правосудия";
-	AL["Monument of Franclorn Forgewright"] = "Монумент Франклорну Искуснику";
 	AL["The Grim Guzzler"] = "Угрюмый обжора";
-	AL["Summoner's Tomb"] = "Гробница Заклинателей";
 	AL["The Secret Safe"] = "Секретность";
 	AL["The Vault"] = "Чертог";
 	AL["Ogre Tannin Basket"] = "Огрский дубильный чан";
-	AL["Fengus's Chest"] = "Сундук Фенгуса";
 	AL["Unfinished Painting"] = "Незаконченная картина";
 	AL["Felvine Shard"] = "Сквернит";
-	AL["Baelog's Chest"] = "Сундук Бейлога";
 	AL["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
 	AL["Fathom Core"] = "Глубинный сердечник";
 	AL["Gift of Adoration"] = "Дар обожания";

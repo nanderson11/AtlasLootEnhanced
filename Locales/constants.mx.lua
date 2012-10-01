@@ -608,10 +608,8 @@ if AL then
 	AL["The Secret Safe"] = "El secreto seguro";
 	AL["The Vault"] = "La caja fuerte";
 	AL["Ogre Tannin Basket"] = "Cesta de Ogro Tanino";
-	AL["Fengus's Chest"] = "Cofre de Fengus";
 	AL["Unfinished Painting"] = "Pintura sin terminar"; --Comprobar
 	AL["Felvine Shard"] = "Fragmento de gangrevid";
-	AL["Baelog's Chest"] = "Cofre de Baelog";
 	AL["Lorgalis Manuscript"] = "Manuscrito de Lorgalis";
 	AL["Fathom Core"] = "Núcleo de las profundidades";
 	AL["Gift of Adoration"] = "Ofrenda de adoración";

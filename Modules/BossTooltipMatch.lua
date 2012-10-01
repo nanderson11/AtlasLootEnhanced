@@ -167,5 +167,5 @@ AtlasLoot_BossTooltipMatch["Cache of the Firelord"]		= BabbleBoss["Majordomo Exe
 -- Classic Dungeons
 -----------------------
 AtlasLoot_BossTooltipMatch["Gordok Tribute"]			= AL["DM North Tribute Chest"]
-AtlasLoot_BossTooltipMatch["Chest of The Seven"]		= AL["Summoner's Tomb"]
+AtlasLoot_BossTooltipMatch["Chest of The Seven"]		= AtlasLoot:EJ_GetBossName("The Seven", 385)
 AtlasLoot_BossTooltipMatch["Secret Safe"]				= AL["The Vault"]

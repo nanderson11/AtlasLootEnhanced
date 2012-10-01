@@ -1093,17 +1093,12 @@ if AL then
 	AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
-	AL["Ring of Law"] = true;
-	AL["Monument of Franclorn Forgewright"] = true;
 	AL["The Grim Guzzler"] = true;
-	AL["Summoner's Tomb"] = true;
 	AL["The Secret Safe"] = true;
 	AL["The Vault"] = true;
 	AL["Ogre Tannin Basket"] = true;
-	AL["Fengus's Chest"] = true;
 	AL["Unfinished Painting"] = true;
 	AL["Felvine Shard"] = true;
-	AL["Baelog's Chest"] = true;
 	AL["Lorgalis Manuscript"] = true;
 	AL["Fathom Core"] = true;
 	AL["Gift of Adoration"] = true;

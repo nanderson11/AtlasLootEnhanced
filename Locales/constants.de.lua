@@ -1092,17 +1092,12 @@ if AL then
 	-- AL["Avatar"] = true; Avatar of the Martyred
 
 	-- Chests, etc
-	AL["Ring of Law"] = "Ring des Gesetzes";
-	AL["Monument of Franclorn Forgewright"] = "Denkmal für Franclorn Schmiedevater";
 	AL["The Grim Guzzler"] = "Zum Grimmigen Säufer";
-	AL["Summoner's Tomb"] = "Grab des Beschwörers";
 	AL["The Secret Safe"] = "Geheimsafe";
 	AL["The Vault"] = "Der Tresor";
 	AL["Ogre Tannin Basket"] = "Gerbekorb der Oger";
-	AL["Fengus's Chest"] = "Fengus Truhe";
 	AL["Unfinished Painting"] = "Unvollendetes Gemälde";
 	AL["Felvine Shard"] = "Teufelsrankensplitter";
-	AL["Baelog's Chest"] = "Baelogs Truhe";
 	AL["Lorgalis Manuscript"] = "Manuskript von Lorgalis";
 	AL["Fathom Core"] = "Tiefenkern";
 	AL["Gift of Adoration"] = "Geschenke der Verehrung";

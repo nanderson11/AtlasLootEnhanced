@@ -661,14 +661,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Blackfathom"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Ghamoo-ra"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Ghamoo-ra", 368), ""};
 				{ 2, 6908, "", "=q3=Ghamoo-Ra's Bind", "=ds=#s10#, #a1#", "", "50%"};
 				{ 3, 6907, "", "=q3=Tortoise Armor", "=ds=#s5#, #a3#", "", "50%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Lady Sarevess"], ""};
+				{ 6, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lady Sarevess", 436), ""};
 				{ 7, 888, "", "=q3=Naga Battle Gloves", "=ds=#s9#, #a2#", "", "33%"};
 				{ 8, 11121, "", "=q3=Darkwater Talwar", "=ds=#h1#, #w10#", "", "33%"};
 				{ 9, 3078, "", "=q3=Naga Heartpiercer", "=ds=#w2#", "", "33%"};
-				{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Gelihast"], ""};
+				{ 11, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Gelihast", 426), ""};
 				{ 12, 6906, "", "=q3=Algae Fists", "=ds=#s9#, #a3#", "", "50%"};
 				{ 13, 6905, "", "=q3=Reef Axe", "=ds=#h2#, #w1#", "", "50%"};
 				{ 14, 1470, "", "=q1=Murloc Skin Bag", "=ds=#e1#", "", "12%"};
@@ -676,22 +676,22 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 16782, "", "=q2=Strange Water Globe", "=ds=#m2# (#m6#)", "", "100%"};
 				{ 18, 16886, "", "=q3=Outlaw Sabre", "=q1=#m4#: =ds=#h1#, #w10#"};
 				{ 19, 16887, "", "=q3=Witch's Finger", "=q1=#m4#: =ds=#s15#"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Twilight Lord Kelris"], ""};
+				{ 21, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Twilight Lord Kelris", 437), ""};
 				{ 22, 6903, "", "=q3=Gaze Dreamer Pants", "=ds=#s11#, #a1#", "", "50%"};
 				{ 23, 1155, "", "=q3=Rod of the Sleepwalker", "=ds=#w9#", "", "50%"};
 				{ 24, 5881, "", "=q1=Head of Kelris", "=ds=#m3#", "", "100%"};
-				{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Old Serra'kis"], ""};
+				{ 26, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Old Serra'kis", 447), ""};
 				{ 27, 6901, "", "=q3=Glowing Thresher Cape", "=ds=#s4#", "", "33%"};
 				{ 28, 6902, "", "=q3=Bands of Serra'kis", "=ds=#s8#, #a2#", "", "33%"};
 				{ 29, 6904, "", "=q3=Bite of Serra'kis", "=ds=#h1#, #w4#", "", "33%"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Aku'mai"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Aku'mai", 444), ""};
 				{ 2, 6910, "", "=q3=Leech Pants", "=ds=#s11#, #a1#", "", "33%"};
 				{ 3, 6911, "", "=q3=Moss Cinch", "=ds=#s10#, #a2#", "", "33%"};
 				{ 4, 6909, "", "=q3=Strike of the Hydra", "=ds=#h2#, #w10#", "", "33%"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Quest Item"], ""};
-				{ 7, 5359, "", "=q1=Lorgalis Manuscript", "=ds=#m3#", "", "100%"};
+				{ 7, 5359, "", "=q1="..AL["Lorgalis Manuscript], "=ds=#m3#", "", "100%"};
 				{ 8, 16762, "", "=q1=Fathom Core", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
 				{ 17, 1486, "", "=q3=Tree Bark Jacket", "=ds=#s5#, #a1#"};
@@ -727,7 +727,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["High Interrogator Gerstahn"],
+			name = AtlasLoot:EJ_GetBossName("High Interrogator Gerstahn", 369),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -743,7 +743,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Roccor"],
+			name = AtlasLoot:EJ_GetBossName("Lord Roccor", 370),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -758,7 +758,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Houndmaster Grebmar"],
+			name = AtlasLoot:EJ_GetBossName("Houndmaster Grebmar", 371),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -773,7 +773,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Bael'Gar"],
+			name = AtlasLoot:EJ_GetBossName("Bael'Gar", 377),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -789,7 +789,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lord Incendius"],
+			name = AtlasLoot:EJ_GetBossName("Lord Incendius", 374),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -805,7 +805,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Fineous Darkvire"],
+			name = AtlasLoot:EJ_GetBossName("Fineous Darkvire", 376),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -842,7 +842,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Warder Stilgiss"],
+			name = AtlasLoot:EJ_GetBossName("Warder Stilgiss", 375),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -873,7 +873,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Pyromancer Loregrain"],
+			name = AtlasLoot:EJ_GetBossName("Pyromancer Loregrain", 373),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -909,7 +909,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AL["Ring of Law"],
+			name = AtlasLoot:EJ_GetBossName("Ring of Law", 372),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -926,7 +926,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["General Angerforge"],
+			name = AtlasLoot:EJ_GetBossName("General Angerforge", 378),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -943,7 +943,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Golem Lord Argelmach"],
+			name = AtlasLoot:EJ_GetBossName("Golem Lord Argelmach", 379),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -964,20 +964,20 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["BRDGuzzler"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Hurley Blackbreath"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Hurley Blackbreath", 380), ""};
 				{ 2, 11735, "", "=q3=Ragefury Eyepatch", "=ds=#s1#, #a2#", "", "10%"};
 				{ 3, 18043, "", "=q3=Coal Miner Boots", "=ds=#s12#, #a2#", "", "30%"};
 				{ 4, 22275, "", "=q3=Firemoss Boots", "=ds=#s12#, #a2#", "", "30%"};
 				{ 5, 18044, "", "=q3=Hurley's Tankard", "=ds=#h1#, #w6#", "", "30%"};
 				{ 6, 11312, "", "=q1=Lost Thunderbrew Recipe", "=ds=#m3#"};
-				{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Phalanx"], ""};
+				{ 8, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Phalanx", 381), ""};
 				{ 9, 22212, "", "=q3=Golem Fitted Pauldrons", "=ds=#s3#, #a3#", "", "26.04%"};
 				{ 10, 11745, "", "=q3=Fists of Phalanx", "=ds=#s9#, #a4#", "", "29.79%"};
 				{ 11, 11744, "", "=q3=Bloodfist", "=ds=#h1#, #w13#", "", "28.48%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Ribbly Screwspigot"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Ribbly Screwspigot", 382), ""};
 				{ 17, 11612, "", "=q3=Plans: Dark Iron Plate", "=ds=#p2# (285)", "", "50%"};
 				{ 18, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#e1#", "", "50%"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Plugger Spazzring"], ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Plugger Spazzring", 383), ""};
 				{ 21, 12793, "", "=q3=Mixologist's Tunic", "=ds=#s5#, #a2#", "", "30%"};
 				{ 22, 12791, "", "=q3=Barman Shanker", "=ds=#h1#, #w4#", "", "10%"};
 				{ 23, 13483, "", "=q2=Recipe: Transmute Fire to Earth", "=ds=#p1# (275)"};
@@ -1004,7 +1004,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ambassador Flamelash"],
+			name = AtlasLoot:EJ_GetBossName("Ambassador Flamelash", 384),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1024,7 +1024,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AL["Summoner's Tomb"],
+			name = AtlasLoot:EJ_GetBossName("The Seven", 385),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1038,7 +1038,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Magmus"],
+			name = AtlasLoot:EJ_GetBossName("Magmus", 386),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1061,7 +1061,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Emperor Dagran Thaurissan"],
+			name = AtlasLoot:EJ_GetBossName("Emperor Dagran Thaurissan", 387),
 			module = moduleName, instance = "BlackrockDepths",
 		};
 	};
@@ -1208,7 +1208,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Highlord Omokk"],
+			name = AtlasLoot:EJ_GetBossName("Highlord Omokk", 388),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1251,7 +1251,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Shadow Hunter Vosh'gajin"],
+			name = AtlasLoot:EJ_GetBossName("Shadow Hunter Vosh'gajin", 389),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1266,7 +1266,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["War Master Voone"],
+			name = AtlasLoot:EJ_GetBossName("War Master Voone", 390),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1297,7 +1297,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Mother Smolderweb"],
+			name = AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1328,7 +1328,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Urok Doomhowl"].." ("..AL["Summon"]..")",
+			name = AtlasLoot:EJ_GetBossName("Urok Doomhowl", 392).." ("..AL["Summon"]..")",
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1345,7 +1345,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Quartermaster Zigris"],
+			name = AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1359,7 +1359,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Gizrul the Slavener"],
+			name = AtlasLoot:EJ_GetBossName("Gizrul the Slavener", 395),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1374,7 +1374,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Halycon"],
+			name = AtlasLoot:EJ_GetBossName("Halycon", 394),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1406,7 +1406,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Overlord Wyrmthalak"],
+			name = AtlasLoot:EJ_GetBossName("Overlord Wyrmthalak", 396),
 			module = moduleName, instance = "BlackrockSpireLower",
 		};
 	};
@@ -1456,7 +1456,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Pyroguard Emberseer"],
+			name = AtlasLoot:EJ_GetBossName("Pyroguard Emberseer", 397),
 			module = moduleName, instance = "BlackrockSpireUpper",
 		};
 	};
@@ -1473,7 +1473,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Solakar Flamewreath"],
+			name = AtlasLoot:EJ_GetBossName("Solakar Flamewreath", 398),
 			module = moduleName, instance = "BlackrockSpireUpper",
 		};
 	};
@@ -1517,7 +1517,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Warchief Rend Blackhand"],
+			name = AtlasLoot:EJ_GetBossName("Warchief Rend Blackhand", 399),
 			module = moduleName, instance = "BlackrockSpireUpper",
 		};
 	};
@@ -1554,7 +1554,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Beast"],
+			name = AtlasLoot:EJ_GetBossName("The Beast", 400),
 			module = moduleName, instance = "BlackrockSpireUpper",
 		};
 	};
@@ -1577,7 +1577,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["General Drakkisath"],
+			name = AtlasLoot:EJ_GetBossName("General Drakkisath", 401),
 			module = moduleName, instance = "BlackrockSpireUpper",
 		};
 	};
@@ -2161,20 +2161,13 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 18811, "", "=q4=Fireproof Cloak", "=ds=#s4#", "", "15.12%"};
 				{ 2, 18808, "", "=q4=Gloves of the Hypnotic Flame", "=ds=#s9#, #a1#", "", "15.36%"};
 				{ 3, 18809, "", "=q4=Sash of Whispered Secrets", "=ds=#s10#, #a1#", "", "15.93%"};
-               	{ 4, 19139, "", "=q4=Fireguard Shoulders", "=ds=#s3#, #a2#", "", "15.87%"};
+				{ 4, 19139, "", "=q4=Fireguard Shoulders", "=ds=#s3#, #a2#", "", "15.87%"};
 				{ 5, 18810, "", "=q4=Wild Growth Spaulders", "=ds=#s3#, #a2#", "", "16.91%"};
 				{ 6, 18812, "", "=q4=Wristguards of True Flight", "=ds=#s8#, #a3#", "", "18.04%"};
 				{ 7, 18806, "", "=q4=Core Forged Greaves", "=ds=#s12#, #a4#", "", "16.53%"};
 				{ 8, 19140, "", "=q4=Cauterizing Band", "=ds=#s13#", "", "15.10%"};
 				{ 9, 18805, "", "=q4=Core Hound Tooth", "=ds=#h1#, #w4#", "", "16.06%"};
 				{ 10, 18803, "", "=q4=Finkle's Lava Dredger", "=ds=#h2#, #w6#", "", "12.43%"};
---[[			{ 16, 18703, "", "=q4=Ancient Petrified Leaf", "=ds=#m2# =q1=(#c2#)", "", "35.25%"};
-				{ 17, 18715, "", "=q4=Lok'delar, Stave of the Ancient Keepers", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c2#"};
-				{ 18, 18713, "", "=q4=Rhok'delar, Longbow of the Ancient Keepers", "=q1=#m4#: =ds=#w2#, =q1=#m1# =ds=#c2#"};
-				{ 19, 18714, "", "=q4=Ancient Sinew Wrapped Lamina", "=q1=#m4#: =ds=#e1#, =q1=#m1# =ds=#c2#"};
-				{ 21, 18646, "", "=q4=The Eye of Divinity", "=ds=#m2# =q1=(#c5#)", "", "28.30%"};
-				{ 22, 18608, "", "=q4=Benediction", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#"};
-				{ 23, 18609, "", "=q4=Anathema", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#"};--]]
 			};
 		};
 		info = {
@@ -2325,7 +2318,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["DMELethtendrisPimgib"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lethtendris"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lethtendris", 404), ""};
 				{ 2, 18325, "", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "", "24.67%"};
 				{ 3, 18302, "", "=q3=Band of Vigor", "=ds=#s13#", "", "29.30%"};
 				{ 4, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "7.30%"};
@@ -2336,7 +2329,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lethtendris"].." & "..BabbleBoss["Pimgib"],
+			name = AtlasLoot:EJ_GetBossName("Lethtendris", 404).." & "..BabbleBoss["Pimgib"],
 			module = moduleName, instance = "DireMaulEast",
 		};
 	};
@@ -2353,7 +2346,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Hydrospawn"],
+			name = AtlasLoot:EJ_GetBossName("Hydrospawn", 403),
 			module = moduleName, instance = "DireMaulEast",
 		};
 	};
@@ -2369,7 +2362,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Zevrim Thornhoof"],
+			name = AtlasLoot:EJ_GetBossName("Zevrim Thornhoof", 402),
 			module = moduleName, instance = "DireMaulEast",
 		};
 	};
@@ -2392,7 +2385,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Alzzin the Wildshaper"],
+			name = AtlasLoot:EJ_GetBossName("Alzzin the Wildshaper", 405),
 			module = moduleName, instance = "DireMaulEast",
 		};
 	};
@@ -2448,7 +2441,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Guard Mol'dar"],
+			name = AtlasLoot:EJ_GetBossName("Guard Mol'dar", 411),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2462,7 +2455,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Stomper Kreeg"],
+			name = AtlasLoot:EJ_GetBossName("Stomper Kreeg", 412),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2481,7 +2474,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Guard Fengus"],
+			name = AtlasLoot:EJ_GetBossName("Guard Fengus", 413),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2505,7 +2498,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Guard Slip'kik"],
+			name = AtlasLoot:EJ_GetBossName("Guard Slip'kik", 414),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2555,7 +2548,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Captain Kromcrush"],
+			name = AtlasLoot:EJ_GetBossName("Captain Kromcrush", 415),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2577,7 +2570,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["King Gordok"],
+			name = AtlasLoot:EJ_GetBossName("King Gordok", 417),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2592,7 +2585,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Cho'Rush the Observer"],
+			name = AtlasLoot:EJ_GetBossName("Cho'Rush the Observer", 416),
 			module = moduleName, instance = "DireMaulNorth",
 		};
 	};
@@ -2643,7 +2636,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Tendris Warpwood"],
+			name = AtlasLoot:EJ_GetBossName("Tendris Warpwood", 406),
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
@@ -2660,7 +2653,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Magister Kalendris"],
+			name = AtlasLoot:EJ_GetBossName("Magister Kalendris", 408),
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
@@ -2675,7 +2668,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Illyanna Ravenoak"],
+			name = AtlasLoot:EJ_GetBossName("Illyanna Ravenoak", 407),
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
@@ -2696,7 +2689,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Immol'thar"],
+			name = AtlasLoot:EJ_GetBossName("Immol'thar", 409),
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
@@ -2732,7 +2725,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Prince Tortheldrin"],
+			name = AtlasLoot:EJ_GetBossName("Prince Tortheldrin", 410),
 			module = moduleName, instance = "DireMaulWest",
 		};
 	};
@@ -2775,17 +2768,17 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["GnomereganLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Grubbis"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Grubbis", 419), ""};
 				{ 2, 9445, "", "=q3=Grubbis Paws", "=ds=#s9#, #a3#", "", "9.22%"};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Viscous Fallout"], ""};
+				{ 4, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Viscous Fallout", 420), ""};
 				{ 5, 9454, "", "=q3=Acidic Walkers", "=ds=#s12#, #a1#", "", "54.02%"};
 				{ 6, 9453, "", "=q3=Toxic Revenger", "=ds=#h1#, #w4#", "", "19.05%"};
 				{ 7, 9452, "", "=q3=Hydrocane", "=ds=#w9#", "", "18.25%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Electrocutioner 6000"], ""};
+				{ 9, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Electrocutioner 6000", 421), ""};
 				{ 10, 9448, "", "=q3=Spidertank Oilrag", "=ds=#s8#, #a1#", "", "28.37%"};
 				{ 11, 9447, "", "=q3=Electrocutioner Lagnut", "=ds=#s13#", "", "28.44%"};
 				{ 12, 9446, "", "=q3=Electrocutioner Leg", "=ds=#h1#, #w10#", "", "13.19%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Crowd Pummeler 9-60"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Crowd Pummeler 9-60", 418), ""};
 				{ 17, 9450, "", "=q3=Gnomebot Operating Boots", "=ds=#s12#, #a2#", "", "60.45%"};
 				{ 18, 9449, "", "=q3=Manual Crowd Pummeler", "=ds=#h2#, #w6#", "", "33.14%"};
 				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Dark Iron Ambassador"], ""};
@@ -2794,7 +2787,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 23, 9456, "", "=q3=Glass Shooter", "=ds=#w5#", "", "38.01%"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Mekgineer Thermaplugg"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Mekgineer Thermaplugg", 422), ""};
 				{ 2, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "=ds=#s1#, #a1#", "", "7.65%"};
 				{ 3, 9461, "", "=q3=Charged Gear", "=ds=#s13#", "", "28.49%"};
 				{ 4, 9459, "", "=q3=Thermaplugg's Left Arm", "=ds=#h2#, #w1#", "", "18.05%"};
@@ -2834,16 +2827,16 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["MaraudonLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Noxxion"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Noxxion", 423), ""};
 				{ 2, 17746, "", "=q3=Noxxion's Shackles", "=ds=#s8#, #a3#", "", "32.50%"};
 				{ 3, 17744, "", "=q3=Heart of Noxxion", "=ds=#s14#", "", "30.35%"};
 				{ 4, 17745, "", "=q3=Noxious Shooter", "=ds=#w12#", "", "17.53%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorlash"], ""};
+				{ 6, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Razorlash", 424), ""};
 				{ 7, 17750, "", "=q3=Chloromesh Girdle", "=ds=#s10#, #a1#", "", "22.93%"};
 				{ 8, 17748, "", "=q3=Vinerot Sandals", "=ds=#s12#, #a1#", "", "20.60%"};
 				{ 9, 17749, "", "=q3=Phytoskin Spaulders", "=ds=#s3#, #a2#", "", "22.09%"};
 				{ 10, 17751, "", "=q3=Brusslehide Leggings", "=ds=#s11#, #a2#", "", "21.65%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Vyletongue"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lord Vyletongue", 427), ""};
 				{ 17, 17755, "", "=q3=Satyrmane Sash", "=ds=#s10#, #a1#", "", "25.71%"};
 				{ 18, 17754, "", "=q3=Infernal Trickster Leggings", "=ds=#s11#, #a3#", "", "28.09%"};
 				{ 19, 17752, "", "=q3=Satyr's Lash", "=ds=#h1#, #w4#", "", "23.14%"};
@@ -2851,27 +2844,27 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 17741, "", "=q3=Nature's Embrace", "=ds=#s5#, #a1#", "", "30.34%"};
 				{ 23, 17742, "", "=q3=Fungus Shroud Armor", "=ds=#s5#, #a2#", "", "31.37%"};
 				{ 24, 17767, "", "=q3=Bloomsprout Headpiece", "=ds=#s1#, #a3#", "", "28.32%"};
-				{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Tinkerer Gizlock"], ""};
+				{ 26, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Tinkerer Gizlock", 425), ""};
 				{ 27, 17719, "", "=q3=Inventor's Focal Sword", "=ds=#h1#, #w10#", "", "27.44%"};
 				{ 28, 17718, "", "=q3=Gizlock's Hypertech Buckler", "=ds=#w8#", "", "30.61%"};
 				{ 29, 17717, "", "=q3=Megashot Rifle", "=ds=#w5#", "", "27.23%"};
 
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Celebras the Cursed"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Celebras the Cursed", 428), ""};
 				{ 2, 17739, "", "=q3=Grovekeeper's Drape", "=ds=#s4#", "", "30.32%"};
 				{ 3, 17740, "", "=q3=Soothsayer's Headdress", "=ds=#s1#, #a2#", "", "28.59%"};
 				{ 4, 17738, "", "=q3=Claw of Celebras", "=ds=#h4#, #w13#", "", "28.22%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Landslide"], ""};
+				{ 6, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Landslide", 429), ""};
 				{ 7, 17736, "", "=q3=Rockgrip Gauntlets", "=ds=#s9#, #a3#", "", "23.09%"};
 				{ 8, 17734, "", "=q3=Helm of the Mountain", "=ds=#s1#, #a3#", "", "20.87%"};
 				{ 9, 17737, "", "=q3=Cloud Stone", "=ds=#s15#", "", "19.99%"};
 				{ 10, 17943, "", "=q3=Fist of Stone", "=ds=#h1#, #w6#", "", "16.58%"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Rotgrip"], ""};
+				{ 12, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Rotgrip", 430), ""};
 				{ 13, 17732, "", "=q3=Rotgrip Mantle", "=ds=#s3#, #a1#", "", "25.73%"};
 				{ 14, 17728, "", "=q3=Albino Crocscale Boots", "=ds=#s12#, #a2#", "", "26.20%"};
 				{ 15, 17730, "", "=q3=Gatorbite Axe", "=ds=#h2#, #w1#", "", "19.21%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Princess Theradras"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Princess Theradras", 431), ""};
 				{ 17, 17780, "", "=q4=Blade of Eternal Darkness", "=ds=#h1#, #w4#", "", "0.20%"};
 				{ 18, 17715, "", "=q3=Eye of Theradras", "=ds=#s1#, #a1#", "", "13.47%"};
 				{ 19, 17714, "", "=q3=Bracers of the Stone Princess", "=ds=#s8#, #a3#", "", "20.06%"};
@@ -2895,19 +2888,19 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["RagefireChasmLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=Adarogg", ""};
-    			{ 2, 82772, "", "=q3=Snarlmouth Leggings", "=ds=#s11#, #a1#" },
-    			{ 3, 82879, "", "=q3=Collarspike Bracers", "=ds=#s8#, #a3#" },
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Adarogg", 694), ""};
+				{ 2, 82772, "", "=q3=Snarlmouth Leggings", "=ds=#s11#, #a1#" },
+				{ 3, 82879, "", "=q3=Collarspike Bracers", "=ds=#s8#, #a3#" },
 				{ 4, 82880, "", "=q3=Fang of Adarogg", "=ds=#h1#, #w4#", "", "" };
-				{ 6, 0, "INV_Box_01", "=q6=Koranthal", ""};
+				{ 6, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Dark Shaman Koranthal", 695), ""};
 				{ 7, 82882, "", "=q3=Dark Ritual Cape", "=ds=#s4#", "" };
 				{ 8, 82881, "", "=q3=Cuffs of Black Elements", "=ds=#s8#, #a1#", "" };
 				{ 9, 82877, "", "=q3=Grasp of the Broken Totem", "=ds=#s5#, #a2#" },
-				{ 16, 0, "INV_Box_01", "=q6=Magnaw", ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Slagmaw", 696), ""};
 				{ 17, 82878, "", "=q3=Fireworm Robes", "=ds=#s5#, #a1#" },
 				{ 18, 82884, "", "=q3=Chitonous Bracers", "=ds=#s8#, #a2#", "" };
 				{ 19, 82885, "", "=q3=Flameseared Carapace", "=ds=#s5#, #a3#", "" };
-				{ 21, 0, "INV_Box_01", "=q6=Gordoth", ""};
+				{ 21, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lava Guard Gordoth", 697), ""};
 				{ 22, 82886, "", "=q3=Gorewalker Treads", "=ds=#s12#, #a3#", "" };
 				{ 23, 82883, "", "=q3=Bloodcursed Felblade", "=ds=#h1#, #w10#" };
 				{ 24, 82888, "", "=q3=Heartboiler Staff", "=ds=#w9#", "" };
@@ -2927,18 +2920,18 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["RazorfenDownsLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Tuten'kash"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Tuten'kash", 432), ""};
 				{ 2, 10776, "", "=q3=Silky Spider Cape", "=ds=#s4#", "", "28.64%"};
 				{ 3, 10777, "", "=q3=Arachnid Gloves", "=ds=#s9#, #a2#", "", "28.95%"};
 				{ 4, 10775, "", "=q3=Carapace of Tuten'kash", "=ds=#s5#, #a4#", "", "24.87%"};
 				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Henry Stern"], ""};
 				{ 7, 3831, "", "=q2=Recipe: Major Troll's Blood Elixir", "=ds=#p1# (180)"};
 				{ 8, "s13028", "10841", "=q1=Goldthorn Tea", "=ds=#p3# (175)"};
-				{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Mordresh Fire Eye"], ""};
+				{ 10, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Mordresh Fire Eye", 433), ""};
 				{ 11, 10771, "", "=q3=Deathmage Sash", "=ds=#s10#, #a1#", "", "27.92%"};
 				{ 12, 10769, "", "=q3=Glowing Eye of Mordresh", "=ds=#s2#", "", "29.11%"};
 				{ 13, 10770, "", "=q3=Mordresh's Lifeless Skull", "=ds=#s15#", "", "29.59%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Glutton"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Glutton", 434), ""};
 				{ 17, 10774, "", "=q3=Fleshhide Shoulders", "=ds=#s3#, #a2#", "", "42.15%"};
 				{ 18, 10772, "", "=q3=Glutton's Cleaver", "=ds=#h1#, #w1#", "", "44.22%"};
 				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Ragglesnout"], ""};
@@ -2947,7 +2940,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 23, 10767, "", "=q3=Savage Boar's Guard", "=ds=#w8#", "", "35.14%"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Amnennar the Coldbringer"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Amnennar the Coldbringer", 435), ""};
 				{ 2, 10762, "", "=q3=Robes of the Lich", "=ds=#s5#, #a1#", "", "29.52%"};
 				{ 3, 10765, "", "=q3=Bonefingers", "=ds=#s9#, #a2#"};
 				{ 4, 10764, "", "=q3=Deathchill Armor", "=ds=#s5#, #a3#", "", "24.24%"};
@@ -2983,18 +2976,18 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["RazorfenKraulLoot"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Aggem Thorncurse"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Aggem Thorncurse", 439), ""};
 				{ 2, 6681, "", "=q3=Thornspike", "=ds=#h1#, #w4#", "", "57,12%"};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Death Speaker Jargba"], ""};
+				{ 4, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Death Speaker Jargba", 438), ""};
 				{ 5, 6685, "", "=q3=Death Speaker Mantle", "=ds=#s3#, #a1#", "", "40.42%"};
 				{ 6, 6682, "", "=q3=Death Speaker Robes", "=ds=#s5#, #a1#", "", "40.52%"};
 				{ 7, 2816, "", "=q3=Death Speaker Scepter", "=ds=#h3#, #w6#", "", "7.72%"};
 				{ 9, 0, "INV_Box_01", "=q6="..AL["Razorfen Spearhide"], ""};
 				{ 10, 6679, "", "=q3=Armor Piercer", "=ds=#w7#", "", "43%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Overlord Ramtusk"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Overlord Ramtusk", 440), ""};
 				{ 17, 6686, "", "=q3=Tusken Helm", "=ds=#s1#, #a3#", "", "57.14%"};
 				{ 18, 6687, "", "=q3=Corpsemaker", "=ds=#h2#, #w1#", "", "27.79%"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Agathelos the Raging"], ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Agathelos the Raging", 441), ""};
 				{ 21, 6690, "", "=q3=Ferine Leggings", "=ds=#s11#, #a2#", "", "49.21%"};
 				{ 22, 6691, "", "=q3=Swinetusk Shank", "=ds=#h1#, #w4#", "", "24.85%"};
 				{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Blind Hunter"], ""};
@@ -3003,7 +2996,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 27, 6696, "", "=q3=Nightstalker Bow", "=ds=#w2#", "", "25.12%"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Charlga Razorflank"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Charlga Razorflank", 442), ""};
 				{ 2, 6693, "", "=q3=Agamaggan's Clutch", "=ds=#s13#", "", "32.15%"};
 				{ 3, 6692, "", "=q3=Pronged Reaver", "=ds=#h1#, #w1#", "", "15.43%"};
 				{ 4, 6694, "", "=q3=Heart of Agamaggan", "=ds=#w8#", "", "30.24%"};
@@ -3048,7 +3041,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 18, 81696, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
 				{ 19, 81694, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
 				{ 20, 81563, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
-    			{ 21, 81693, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
+				{ 21, 81693, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
 			};
 		};
 		info = {
@@ -3110,25 +3103,25 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 88279, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
 				{ 3, 88282, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
 				{ 4, 88276, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
-    			{ 5, 88283, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
-    			{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
-    			{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
-    			{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
-    			{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
-    			{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
-    			{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+				{ 5, 88283, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+				{ 6, 88277, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+				{ 7, 88275, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+				{ 8, 88281, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+				{ 9, 88280, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+				{ 10, 88274, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+				{ 11, 88278, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 87550, "", "=q4=Vithrak, Gaze of the Deadman", "=ds=#s13#" },
-    			{ 18, 82817, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
-    			{ 19, 82818, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
-    			{ 20, 82815, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
-    			{ 21, 82819, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
-    			{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
-    			{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
-    			{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
-    			{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
-    			{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
-    			{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
+				{ 18, 82817, "", "=q3=Robes of Koegler", "=ds=#s5#, #a1#" },
+ 				{ 19, 82818, "", "=q3=Vellum-Ripper Gloves", "=ds=#s9#, #a2#" },
+				{ 20, 82815, "", "=q3=Bindburner Belt", "=ds=#s10#, #a3#" },
+				{ 21, 82819, "", "=q3=Bradbury's Entropic Legguards", "=ds=#s11#, #a3#" },
+				{ 22, 82812, "", "=q3=Pyretic Legguards", "=ds=#s11#, #a4#" },
+				{ 23, 81564, "", "=q3=Scorched Scarlet Key", "=ds=#s2#" },
+				{ 24, 81565, "", "=q3=Temperature-Sensing Necklace", "=ds=#s2#" },
+				{ 25, 82816, "", "=q3=Melted Hypnotic Blade", "=ds=#h3#, #w4#" },
+				{ 26, 82813, "", "=q3=Koegler's Ritual Knife", "=ds=#h1#, #w4#" },
+				{ 27, 82814, "", "=q3=Mograine's Immaculate Might", "=ds=#h2#, #w6#" },
 			};
 		};
 		info = {
@@ -3147,15 +3140,15 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 88288, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
    				{ 3, 88284, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 88286, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
-    			{ 5, 88287, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
-    			{ 6, 88285, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
+				{ 4, 88286, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
+				{ 5, 88287, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
+				{ 6, 88285, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81571, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
-    			{ 18, 81569, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 81570, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
-    			{ 20, 81572, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
-    			{ 21, 81560, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
+				{ 18, 81569, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
+				{ 19, 81570, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
+				{ 20, 81572, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
+				{ 21, 81560, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
 			};
 		};
 		info = {
@@ -3172,13 +3165,13 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 88291, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
 				{ 4, 88292, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
 				{ 5, 88293, "", "=q3=Firefinger Ring", "=ds=#s13#" },
-    			{ 6, 88289, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
+				{ 6, 88289, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 81575, "", "=q3=Scorched Earth Cloak", "=ds=#s4#, #a1#" },
 				{ 18, 81573, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
 				{ 19, 81574, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
 				{ 20, 81561, "", "=q3=Firefinger Ring", "=ds=#s13#" },
-    			{ 21, 81576, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
+				{ 21, 81576, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -3193,14 +3186,14 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 88299, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
 				{ 3, 88298, "", "=q3=Leggings of Hallowed Fire", "=ds=#s11#, #a1#" },
-    			{ 4, 88302, "", "=q3=Incarnadine Scarlet Spaulders", "=ds=#s3#, #a2#" },
-    			{ 5, 88295, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
+				{ 4, 88302, "", "=q3=Incarnadine Scarlet Spaulders", "=ds=#s3#, #a2#" },
+				{ 5, 88295, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
 				{ 6, 88303, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
 				{ 7, 88296, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
 				{ 8, 88300, "", "=q3=Triune Signet", "=ds=#s13#" },
 				{ 9, 88294, "", "=q3=Flashing Steel Talisman", "=ds=#s14#" },
 				{ 10, 88297, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
-    			{ 11, 88301, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
+				{ 11, 88301, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 87551, "", "=q4=Helios, Durand's Soul of Purity", "=ds=#s2#" },
 				{ 18, 81692, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
@@ -3210,9 +3203,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 81578, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
 				{ 23, 81687, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
 				{ 24, 81562, "", "=q3=Triune Signet", "=ds=Finger, #m20#" },
-    			{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#, #m20#" },
-    			{ 26, 81577, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
-    			{ 27, 81691, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
+				{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#, #m20#" },
+				{ 26, 81577, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
+				{ 27, 81691, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
 			};
 		};
 		info = {
@@ -3233,13 +3226,13 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 88337, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
 				{ 4, 88338, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
 				{ 5, 88335, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
-    			{ 6, 88339, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
-    			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-    			{ 17, 82823, "", "=q3=Icewrath Belt", "=ds=#s10#, #a2#" },
-    			{ 18, 82820, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
-    			{ 19, 82821, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
-    			{ 20, 81566, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
-    			{ 21, 82822, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
+				{ 6, 88339, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82823, "", "=q3=Icewrath Belt", "=ds=#s10#, #a2#" },
+				{ 18, 82820, "", "=q3=Shadow Puppet Bracers", "=ds=#s8#, #a3#" },
+				{ 19, 82821, "", "=q3=Breastplate of Wracking Souls", "=ds=#s5#, #a4#" },
+				{ 20, 81566, "", "=q3=Anarchist's Pendant", "=ds=#s2#" },
+				{ 21, 82822, "", "=q3=Gravetouch Greatsword", "=ds=#h2#, #w10#" },
 			}
 		};
 		info = {
@@ -3256,13 +3249,13 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 88345, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
 				{ 4, 88347, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
 				{ 5, 88348, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
-    			{ 6, 88346, "", "=q3=Metanoia Shield", "=ds=#w8#" },
-    			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-    			{ 17, 82850, "", "=q3=Phantasmal Drape", "=ds=#s4#, #a1#" },
-    			{ 18, 82848, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
-    			{ 19, 82851, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
-    			{ 20, 82852, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
-    			{ 21, 82847, "", "=q3=Metanoia Shield", "=ds=#w8#" },
+				{ 6, 88346, "", "=q3=Metanoia Shield", "=ds=#w8#" },
+				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 17, 82850, "", "=q3=Phantasmal Drape", "=ds=#s4#, #a1#" },
+				{ 18, 82848, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
+				{ 19, 82851, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
+				{ 20, 82852, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
+				{ 21, 82847, "", "=q3=Metanoia Shield", "=ds=#w8#" },
 			}
 		};
 		info = {
@@ -3278,14 +3271,14 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 88340, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
 				{ 3, 88342, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
 				{ 4, 88343, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
-    			{ 5, 88344, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
-    			{ 6, 88341, "", "=q3=Necromantic Wand", "=ds=#w12#" },
+				{ 5, 88344, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
+				{ 6, 88341, "", "=q3=Necromantic Wand", "=ds=#w12#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 82825, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
 				{ 18, 82827, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
 				{ 19, 82828, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
-    			{ 20, 82824, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
-    			{ 21, 82826, "", "=q3=Necromantic Wand", "=ds=#w12#" },
+				{ 20, 82824, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
+				{ 21, 82826, "", "=q3=Necromantic Wand", "=ds=#w12#" },
 			}
 		};
 		info = {
@@ -3301,14 +3294,14 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 88350, "", "=q3=Leggings of Unleashed Anguish", "=ds=#s11#, #a1#" },
 				{ 3, 88351, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
 				{ 4, 88352, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
-    			{ 5, 88353, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 6, 88354, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
+				{ 5, 88353, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
+				{ 6, 88354, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 82854, "", "=q3=Leggings of Unleashed Anguish", "=ds=#s11#, #a1#" },
-    			{ 18, 82853, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
-        		{ 19, 82855, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
-    			{ 20, 82856, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 21, 81567, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
+				{ 18, 82853, "", "=q3=Soulburner Crown", "=ds=#s1#, #a2#" },
+				{ 19, 82855, "", "=q3=Shivbreaker Vest", "=ds=#s5#, #a3#" },
+				{ 20, 82856, "", "=q3=Dark Blaze Gauntlets", "=ds=#s9#, #a4#" },
+				{ 21, 81567, "", "=q3=Necklace of the Dark Blaze", "=ds=#s2#" },
 			}
 		};
 		info = {
@@ -3324,21 +3317,21 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 88359, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
 				{ 3, 88356, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
 				{ 4, 88361, "", "=q3=Gloves of Explosive Pain", "=ds=#s9#, #a3#" },
-    			{ 5, 88362, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
-    			{ 6, 88357, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
-    			{ 7, 88358, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
-    			{ 8, 88360, "", "=q3=Price of Progress", "=ds=#s14#" },
-    			{ 9, 88355, "", "=q3=Searing Words", "=ds=#s14#" },
+				{ 5, 88362, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
+				{ 6, 88357, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
+				{ 7, 88358, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
+				{ 8, 88360, "", "=q3=Price of Progress", "=ds=#s14#" },
+				{ 9, 88355, "", "=q3=Searing Words", "=ds=#s14#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 82859, "", "=q4=Headmaster's Will", "=ds=Staves, Weapon" },
 				{ 18, 82861, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
 				{ 19, 82858, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
 				{ 20, 82860, "", "=q3=Gloves of Explosive Pain", "=ds=#s9#, #a3#" },
-    			{ 21, 82862, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
-    			{ 22, 82857, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
-    			{ 23, 81268, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
-    			{ 24, 81266, "", "=q3=Price of Progress", "=ds=#s14#" },
-    			{ 25, 81267, "", "=q3=Searing Words", "=ds=#s14#" },
+				{ 21, 82862, "", "=q3=Shoulderguards of Painful Lessons", "=ds=#s3#, #a4#" },
+				{ 22, 82857, "", "=q3=Vigorsteel Spaulders", "=ds=#s3#, #a4#" },
+				{ 23, 81268, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
+				{ 24, 81266, "", "=q3=Price of Progress", "=ds=#s14#" },
+				{ 25, 81267, "", "=q3=Searing Words", "=ds=#s14#" },
 			}
 		};
 		info = {
@@ -3515,7 +3508,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["The Unforgiven"],
+			name = AtlasLoot:EJ_GetBossName("The Unforgiven", 450),
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -3530,7 +3523,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Timmy the Cruel"],
+			name = AtlasLoot:EJ_GetBossName("Timmy the Cruel", 445),
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -3552,7 +3545,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Willey Hopebreaker"],
+			name = AtlasLoot:EJ_GetBossName("Willey Hopebreaker", 446),
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -3570,7 +3563,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Instructor Galford"],
+			name = AtlasLoot:EJ_GetBossName("Instructor Galford", 448),
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -3594,7 +3587,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Balnazzar"],
+			name = AtlasLoot:EJ_GetBossName("Balnazzar", 449),
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
@@ -3699,7 +3692,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Baroness Anastari"],
+			name = AtlasLoot:EJ_GetBossName("Baroness Anastari", 451),
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -3719,7 +3712,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Nerub'enkan"],
+			name = AtlasLoot:EJ_GetBossName("Nerub'enkan", 452),
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -3741,7 +3734,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Maleki the Pallid"],
+			name = AtlasLoot:EJ_GetBossName("Maleki the Pallid", 453),
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -3757,7 +3750,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Magistrate Barthilas"],
+			name = AtlasLoot:EJ_GetBossName("Magistrate Barthilas", 454),
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -3774,7 +3767,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Ramstein the Gorger"],
+			name = AtlasLoot:EJ_GetBossName("Ramstein the Gorger", 455),
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -3799,7 +3792,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Lord Aurius Rivendare"],
+			name = AtlasLoot:EJ_GetBossName("Lord Aurius Rivendare", 456),
 			module = moduleName, instance = "StratholmeGauntlet",
 		};
 	};
@@ -3988,15 +3981,15 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Stockade"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Randolph Moloch"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Randolph Moloch", 466), ""};
 				{ 2, 63345, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", ""};
 				{ 3, 63344, "", "=q3=Standard Issue Prisoner Shoes", "=ds=#s12#, #a2#", ""};
 				{ 4, 63346, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", ""};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Hogger"], ""};
+				{ 6, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Hogger", 464), ""};
 				{ 7, 2168, "", "=q3=Corpse Rompers", "=ds=#s12#, #a1#", ""};
 				{ 8, 1934, "", "=q3=Hogger's Trousers", "=ds=#s11#, #a2#", ""};
 				{ 9, 1959, "", "=q3=Cold Iron Pick", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Overheat"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lord Overheat", 465), ""};
 				{ 17, 1929, "", "=q3=Silk-Threaded Trousers", "=ds=#s11#, #a1#", ""};
 				{ 18, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", ""};
 				{ 19, 4676, "", "=q3=Skeletal Gauntlets", "=ds=#s9#, #a3#", ""};
@@ -4026,7 +4019,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Avatar of Hakkar"],
+			name = AtlasLoot:EJ_GetBossName("Avatar of Hakkar", 457),
 			module = moduleName, instance = "TheSunkenTemple",
 		};
 	};
@@ -4034,7 +4027,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["STJammalanandOgom"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Jammal'an the Prophet"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Jammal'an the Prophet", 458), ""};
 				{ 2, 10806, "", "=q3=Vestments of the Atal'ai Prophet", "=ds=#s5#, #a1#", "", "24.13%"};
 				{ 3, 10808, "", "=q3=Gloves of the Atal'ai Prophet", "=ds=#s9#, #a1#", "", "26.74%"};
 				{ 4, 10807, "", "=q3=Kilt of the Atal'ai Prophet", "=ds=#s11#, #a1#", "", "23.00%"};
@@ -4046,7 +4039,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Jammal'an the Prophet"].." & "..BabbleBoss["Ogom the Wretched"],
+			name = AtlasLoot:EJ_GetBossName("Jammal'an the Prophet", 458).." & "..BabbleBoss["Ogom the Wretched"],
 			module = moduleName, instance = "TheSunkenTemple",
 		};
 	};
@@ -4084,7 +4077,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Shade of Eranikus"],
+			name = AtlasLoot:EJ_GetBossName("Shade of Eranikus", 463),
 			module = moduleName, instance = "TheSunkenTemple",
 		};
 	};
@@ -4163,7 +4156,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Revelosh"],
+			name = AtlasLoot:EJ_GetBossName("Revelosh", 467),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4177,7 +4170,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Ironaya"],
+			name = AtlasLoot:EJ_GetBossName("Ironaya", 469),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4189,7 +4182,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Obsidian Sentinel"],
+			name = AtlasLoot:EJ_GetBossName("Obsidian Sentinel", 748),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4203,7 +4196,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Ancient Stone Keeper"],
+			name = AtlasLoot:EJ_GetBossName("Ancient Stone Keeper", 470),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4218,7 +4211,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Galgann Firehammer"],
+			name = AtlasLoot:EJ_GetBossName("Galgann Firehammer", 471),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4232,7 +4225,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Grimlok"],
+			name = AtlasLoot:EJ_GetBossName("Grimlok", 472),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4246,7 +4239,7 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Archaedas"],
+			name = AtlasLoot:EJ_GetBossName("Archaedas", 473),
 			module = moduleName, instance = "Uldaman",
 		};
 	};
@@ -4298,36 +4291,36 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], "#j28#, "..AL["Rare"]};
 				{ 6, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
 				{ 7, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Lady Anacondra"], ""};
+				{ 9, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lady Anacondra", 474), ""};
 				{ 10, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "58.61%"};
 				{ 11, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "8.63%"};
 				{ 12, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "", "6.61%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Pythas"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lord Pythas", 476), ""};
 				{ 17, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "52.06%"};
 				{ 18, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "28.24%"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Cobrahn"], ""};
+				{ 20, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lord Cobrahn", 475), ""};
 				{ 21, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "51.73%"};
 				{ 22, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "16.03%"};
 				{ 23, 6460, "", "=q3=Cobrahn's Grasp", "=ds=#s10#, #a3#", "", "16.20%"};
-				{ 25, 0, "INV_Box_01", "=q6="..BabbleBoss["Skum"], ""};
+				{ 25, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Skum", 478), ""};
 				{ 26, 6449, "", "=q3=Glowing Lizardscale Cloak", "=ds=#s4#", "", "38.24%"};
 				{ 27, 6448, "", "=q3=Tail Spike", "=ds=#h1#, #w4#", "", "39.24%"};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Serpentis"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Lord Serpentis", 479), ""};
 				{ 2, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "20.96%"};
 				{ 3, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, #a2#", "", "19.07%"};
 				{ 4, 6459, "", "=q3=Savage Trodders", "=ds=#s12#, #a3#", "", "24.39%"};
 				{ 5, 6469, "", "=q3=Venomstrike", "=ds=#w2#", "", "16.63%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Verdan the Everliving"], ""};
+				{ 7, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Verdan the Everliving", 480), ""};
 				{ 8, 6629, "", "=q3=Sporid Cape", "=ds=#s4#", "", "16.65%"};
 				{ 9, 6631, "", "=q3=Living Root", "=ds=#w9#", "", "34.47%"};
 				{ 10, 6630, "", "=q3=Seedcloud Buckler", "=ds=#w8#", "", "35.38%"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Mutanus the Devourer"], ""};
+				{ 12, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Mutanus the Devourer", 481), ""};
 				{ 13, 6461, "", "=q3=Slime-Encrusted Pads", "=ds=#s3#, #a1#", "", "22.96%"};
 				{ 14, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "18.33%"};
 				{ 15, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "21.99%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Kresh"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Kresh", 477), ""};
 				{ 17, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "9.17%"};
 				{ 18, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "63.66%"};
 				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], AL["Rare"]};
@@ -4371,7 +4364,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Shadowpriest Sezz'ziz"],
+			name = AtlasLoot:EJ_GetBossName("Nekrum Gutchewer and Shadow Priest Sezz'ziz", 487),
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4388,7 +4381,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Chief Ukorz Sandscalp"],
+			name = AtlasLoot:EJ_GetBossName("Chief Ukorz Sandscalp", 489),
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4401,7 +4394,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Witch Doctor Zum'rah"],
+			name = AtlasLoot:EJ_GetBossName("Witch Doctor Zum'rah", 486),
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4417,7 +4410,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Antu'sul"],
+			name = AtlasLoot:EJ_GetBossName("Antu'sul", 484),
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};
@@ -4429,7 +4422,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleBoss["Hydromancer Velratha"],
+			name = AtlasLoot:EJ_GetBossName("Hydromancer Velratha", 482),
 			module = moduleName, instance = "ZulFarrak",
 		};
 	};

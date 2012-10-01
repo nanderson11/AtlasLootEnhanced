@@ -914,17 +914,12 @@ if AL then
 	--AL["Avatar"] = true,	
 
 	--Chests, etc
-	--AL["Ring of Law"] = true; FALTA
-	AL["Monument of Franclorn Forgewright"] = "Monumento a Franclorn Forjador";
 	AL["The Grim Guzzler"] = "o Tragapenas";
-	AL["Summoner's Tomb"] = "A Tumba dos Convocadores"; --Comprobar
 	AL["The Secret Safe"] = "O Cofre Seguro";
 	AL["The Vault"] = "A Câmara";
 	AL["Ogre Tannin Basket"] = "Cesta de Ogro Tanino";
-	AL["Fengus's Chest"] = "Baú de Fengus";
 	AL["Unfinished Painting"] = "Pintura Interminada"; --Comprobar
 	AL["Felvine Shard"] = "Fragmento de Vinhavil";
-	AL["Baelog's Chest"] = "Baú de Baelog";
 	AL["Lorgalis Manuscript"] = "Manuscrito de Lorgalis";
 	AL["Fathom Core"] = "Núcleo das Profundezas";
 	AL["Gift of Adoration"] = "Presente de adoração";

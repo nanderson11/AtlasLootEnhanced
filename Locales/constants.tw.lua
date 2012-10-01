@@ -1068,17 +1068,12 @@ if AL then
 	AL["Avatar"] = "馬丁瑞德的化身";  -- Avatar of the Martyred
 
 	-- Chests, etc
-	AL["Ring of Law"] = "秩序競技場";
-	AL["Monument of Franclorn Forgewright"] = "弗蘭克羅恩·鑄鐵的紀念碑";
 	AL["The Grim Guzzler"] = "黑鐵酒吧";
-	AL["Summoner's Tomb"] = "召喚師之墓";
 	AL["The Secret Safe"] = "隱密的保險箱";
 	AL["The Vault"] = "寶窟";
 	AL["Ogre Tannin Basket"] = "巨魔鞣酸籃";
-	AL["Fengus's Chest"] = "衛兵芬古斯的箱子";
 	AL["Unfinished Painting"] = "未完成的畫作";
 	AL["Felvine Shard"] = "魔藤碎片";
-	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
 	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
 	AL["Fathom Core"] = "深淵之核";
 	AL["Gift of Adoration"] = "愛慕之禮";

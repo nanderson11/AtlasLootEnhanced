@@ -911,17 +911,12 @@ if AL then
 	AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
-	AL["Ring of Law"] = true;
-	AL["Monument of Franclorn Forgewright"] = true;
 	AL["The Grim Guzzler"] = true;
-	AL["Summoner's Tomb"] = true;
 	AL["The Secret Safe"] = "검은 금고";
 	AL["The Vault"] = "검은 금고";
 	AL["Ogre Tannin Basket"] = "오우거 타닌 바구니";
-	AL["Fengus's Chest"] = "펜쿠스의 궤짝";
 	AL["Unfinished Painting"] = "완성되지 않은 그림";
 	AL["Felvine Shard"] = "악령덩쿨 조각";
-	AL["Baelog's Chest"] = "밸로그의 궤짝";
 	AL["Lorgalis Manuscript"] = "로르갈리스 초본";
 	AL["Fathom Core"] = "심연의 핵";
 	AL["Gift of Adoration"] = true;
