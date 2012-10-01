@@ -73,6 +73,9 @@ if AL then
 	AL["Module \"%s\" is disabled."] = "\"%s\" 模組已停用.";
 	AL["Module \"%s\" is missing."] = "找不到 \"%s\" 模組.";
 
+	-- MiniMap-Button
+	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000右鍵: |cffFFFFFF開啟 AtlasLoot\n|cffFF0000Shift + 右鍵: |cffFFFFFF開啟 AtlasLoot 選項";
+
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu 已不再包含在 AtlasLoot 裡, \n請將其從 Addons 目錄移除.";
 
@@ -84,6 +87,7 @@ if AL then
 	AL["Show Droprates"] = "顯示掉落率";
 	AL["Safe Chat Links"] = "安全物品連結";
 	AL["Comparison TT"] = "比較結果提示";
+	AL["Show Boss Tooltip"] = "顯示首領提示";
 	AL["Show Comparison Tooltips"] = "顯示物品比較結果的提示訊息";
 	AL["Opaque"] = "不透明";
 	AL["Make Loot Table Opaque"] = "使物品掉落表不透明";
@@ -134,6 +138,7 @@ if AL then
 	AL["DKP"] = "DKP";
 	AL["Priority:"] = "優先權：";
 	AL["Show price and slot if possible"] = "盡可能顯示價格與部位資訊";
+	AL["Show wishlist items in bosses tooltip"] = "在首領提示訊息中顯示願望清單中物品";
 	AL["Use GameTooltip"] = "使用內建提示訊息";
 	AL["Use the standard GameTooltip instead of the custom AtlasLoot tooltip"] = "使用遊戲內建提示訊息, 而不使用 AtlasLoot 提示訊息";
 	AL["%d / %d ( Bank: %d )"] = "%d / %d ( 銀行：%d )";
@@ -268,6 +273,7 @@ if AL then
 	AL["Level 70"] = "70 級";
 	AL["Level 80"] = "80 級";
 	AL["Level 85"] = "85 級";
+	AL["Level 90"] = "90 級";
 	AL["|cffff0000(unsafe)"] = "|cffff0000(不安全)";
 	AL["Misc"] = "雜項";
 	AL["Rewards"] = "獎勵";
@@ -355,6 +361,7 @@ if AL then
 	AL["Tier 10 Set"] = "T10 套裝";
 	AL["Tier 11/12 Set"] = "T11/T12 套裝";
 	AL["Tier 13 Set"] = "T13 套裝";
+	AL["Tier 14 Set"] = "T14 套裝";
 	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
 
 	-- PvP Menu
@@ -530,6 +537,7 @@ if AL then
 	AL["Burning Crusade"] = "燃燒的遠征";
 	AL["Wrath of the Lich King"] = "巫妖王之怒";
 	AL["Cataclysm"] = "浩劫與重生";
+	AL["Mists of Pandaria"] = "潘達利亞之謎";
 	AL["Entrance"] = "入口";
 	AL["Dungeon Set 1"] = "副本套裝 1";
 	AL["Dungeon Set 2"] = "副本套裝 2";
@@ -550,10 +558,14 @@ if AL then
 	AL["Tier 11"] = "T11";
 	AL["Tier 12"] = "T12";
 	AL["Tier 13"] = "T13";
+	AL["Tier 14"] = "T14";
 	AL["10 Man"] = "10 人";
 	AL["10/25 Man"] = "10/25 人";
 	AL["Epic Set"] = "PvP 史詩套裝";
 	AL["Rare Set"] = "PvP 稀有套裝";
+	AL["Season 6"] = "第六季";
+	AL["Season 7"] = "第七季";
+	AL["Season 8"] = "第八季";
 	AL["Season 9"] = "第九季";
 	AL["Season 10"] = "第十季";
 	AL["Season 11"] = "第十一季";
@@ -589,6 +601,8 @@ if AL then
 	AL["Rare"] = "稀有";
 	AL["Specializations"] = "特殊";
 	AL["Raid Finder"] = "團隊搜尋器";
+	AL["Pandaria World Bosses"] = "潘達利亞世界首領";
+	AL["Elite"] = "菁英";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";
@@ -651,6 +665,8 @@ if AL then
 	AL["Troll"] = "食人妖";
 	AL["Tol'vir"] = "托維爾";
 	AL["Orc"] = "獸人";
+	AL["Pandaren"] = "熊貓人";
+	AL["Mogu"] = "魔古";
 	AL["Stats"] = "屬性";
 	AL["Resilience"] = "韌性";
 	AL["Professions"] = "專業技能";
@@ -680,6 +696,8 @@ if AL then
 	AL["Outdoor"] = "野外";
 
 	-- Companions
+	AL["Achievement Companions"] = "成就夥伴";
+	AL["Faction Companions"] = "陣營夥伴";
 	AL["Card Game Companions"] = "卡牌遊戲獎勵夥伴";
 	AL["Companion Accessories"] = "夥伴飾品";
 	AL["Blizzard Store"] = "暴雪商城";
@@ -692,10 +710,12 @@ if AL then
 	AL["Quest Reward Companions"] = "任務獎勵夥伴";
 	AL["Rare Companions"] = "稀有夥伴";
 	AL["Unobtainable Companions"] = "無法取得的夥伴";
+	AL["New Companions"] = "新的夥伴";
 
 	-- Mounts
 	AL["Alliance Mounts"] = "聯盟坐騎";
 	AL["Horde Mounts"] = "部落坐騎";
+	AL["Flying Mounts"] = "飛行坐騎";
 	AL["Card Game Mounts"] = "卡牌遊戲獎勵坐騎";
 	AL["Crafted Mounts"] = "製作的坐騎";
 	AL["Event Mounts"] = "事件獎勵坐騎";
@@ -707,12 +727,14 @@ if AL then
 	AL["Promotional Mounts"] = "促銷活動坐騎";
 	AL["Rare Mounts"] = "稀有坐騎";
 	AL["Unobtainable Mounts"] = "無法取得的坐騎";
+	AL["New Mounts"] = "新的坐騎";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "成就/任務獎勵外袍";
 	AL["Alliance Tabards"] = "聯盟外袍";
 	AL["Card Game Tabards"] = "卡牌遊戲獎勵外袍";
 	AL["Horde Tabards"] = "部落外袍";
+	AL["Neutral Faction Tabards"] = "中立陣營外袍";
 	AL["PvP Tabards"] = "PvP 外袍";
 	AL["Unobtainable Tabards"] = "無法取得的外袍";
 
@@ -935,6 +957,9 @@ if AL then
 	AL["Destruction"] = "毀滅";
 	AL["Tanking"] = "防禦型";
 	AL["DPS"] = "傷害型";
+	AL["Mistweaver"] = "織霧";
+	AL["Brewmaster"] = "釀酒";
+	AL["Windwalker"] = "御風";
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "小怪";
@@ -1123,6 +1148,7 @@ if AL then
 	AL["Stolen Present"] = "失竊的禮物";
 	AL["Annual Pass"] = "年卡";
 	AL["Scroll of Resurrection"] = "重返榮耀";
+	AL["Recruit-A-Friend"] = "號召好友";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";
