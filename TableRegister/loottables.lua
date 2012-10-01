@@ -407,23 +407,23 @@ AtlasLoot_LootTableRegister = {
 	---- Dungeons
 		["AhnKahet"] = {
 			["Bosses"] = {
-				{ "AhnkahetNadox", 3, EncounterJournalID = 580 },
-				{ "AhnkahetTaldaram", 4, EncounterJournalID = 581 },
-				{ "AhnkahetAmanitar", 5 },
-				{ "AhnkahetJedoga", 6, EncounterJournalID = 582 },
-				{ "AhnkahetVolazj", 7, EncounterJournalID = 584 },
-				{ "AhnkahetTrash", 10 },
+				{ "AhnkahetNadox", 4, EncounterJournalID = 580 },
+				{ "AhnkahetTaldaram", 5, EncounterJournalID = 581 },
+				{ "AhnkahetAmanitar", 6 },
+				{ "AhnkahetJedoga", 7, EncounterJournalID = 582 },
+				{ "AhnkahetVolazj", 8, EncounterJournalID = 584 },
+				{ "AhnkahetTrash", 11 },
 			},
 			["Info"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK", mapname = "Ahnkahet", EncounterJournalID = 271 },
 		},
 
 		["AzjolNerub"] = {
 			["Bosses"] = {
-				{ "AzjolNerubKrikthir", 4, EncounterJournalID = 585 },
-				{ "AzjolNerubHadronox", 8, EncounterJournalID = 586 },
-				{ "AzjolNerubAnubarak", 9, EncounterJournalID = 587 },
-				{ "LunarFestival", 10, hide = true },
-				{ "AzjolNerubTrash", 12 },
+				{ "AzjolNerubKrikthir", 5, EncounterJournalID = 585 },
+				{ "AzjolNerubHadronox", 9, EncounterJournalID = 586 },
+				{ "AzjolNerubAnubarak", 10, EncounterJournalID = 587 },
+				{ "LunarFestival", 11, hide = true },
+				{ "AzjolNerubTrash", 13 },
 			},
 			["Info"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK", mapname = "AzjolNerub", EncounterJournalID = 272 },
 		},
@@ -442,12 +442,12 @@ AtlasLoot_LootTableRegister = {
 		
 		["DrakTharonKeep"] = {
 			["Bosses"] = {
-				{ "DrakTharonKeepTrollgore", 3, EncounterJournalID = 588 },
-				{ "DrakTharonKeepNovos", 4, EncounterJournalID = 589 },
-				{ "DrakTharonKeepKingDred", 5, EncounterJournalID = 590 },
-				{ "DrakTharonKeepTharonja", 6, EncounterJournalID = 591 },
-				{ "LunarFestival", 8, hide = true },
-				{ "DrakTharonKeepTrash", 11 },
+				{ "DrakTharonKeepTrollgore", 5, EncounterJournalID = 588 },
+				{ "DrakTharonKeepNovos", 6, EncounterJournalID = 589 },
+				{ "DrakTharonKeepKingDred", 7, EncounterJournalID = 590 },
+				{ "DrakTharonKeepTharonja", 8, EncounterJournalID = 591 },
+				{ "LunarFestival", 9, hide = true },
+				{ "DrakTharonKeepTrash", 12 },
 			},
 			["Info"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK", mapname = "DrakTharonKeep", EncounterJournalID = 273 },
 		},
@@ -483,25 +483,25 @@ AtlasLoot_LootTableRegister = {
 
 		["Gundrak"] = {
 			["Bosses"] = {
-				{ "GundrakSladran", 3, EncounterJournalID = 592 },
-				{ "GundrakColossus", 4, EncounterJournalID = 593 },
-				{ "GundrakMoorabi", 5, EncounterJournalID = 594 },
-				{ "GundrakEck", 6 },
-				{ "GundrakGaldarah", 7, EncounterJournalID = 596 },
-				{ "LunarFestival", 8, hide = true },
-				{ "GundrakTrash", 10 },
+				{ "GundrakSladran", 4, EncounterJournalID = 592 },
+				{ "GundrakColossus", 5, EncounterJournalID = 593 },
+				{ "GundrakMoorabi", 6, EncounterJournalID = 594 },
+				{ "GundrakEck", 7 },
+				{ "GundrakGaldarah", 8, EncounterJournalID = 596 },
+				{ "LunarFestival", 9, hide = true },
+				{ "GundrakTrash", 11 },
 			},
 			["Info"] = { BabbleZone["Gundrak"], "AtlasLootWotLK", mapname = "Gundrak", EncounterJournalID = 274 },
 		},
 
 		["TheNexus"] = {
 			["Bosses"] = {
-				{ "TheNexusKolurgStoutbeard", {2,3} },
-				{ "TheNexusTelestra", 5, EncounterJournalID = 618 },
-				{ "TheNexusAnomalus", 6, EncounterJournalID = 619 },
-				{ "TheNexusOrmorok", 7, EncounterJournalID = 620 },
-				{ "TheNexusKeristrasza", 8, EncounterJournalID = 621 },
-				{ "LunarFestival", 9, hide = true },
+				{ "TheNexusKolurgStoutbeard", {4,5} },
+				{ "TheNexusTelestra", 7, EncounterJournalID = 618 },
+				{ "TheNexusAnomalus", 8, EncounterJournalID = 619 },
+				{ "TheNexusOrmorok", 9, EncounterJournalID = 620 },
+				{ "TheNexusKeristrasza", 10, EncounterJournalID = 621 },
+				{ "LunarFestival", 11, hide = true },
 			},
 			["Info"] = { BabbleZone["The Nexus"], "AtlasLootWotLK", mapname = "TheNexus", EncounterJournalID = 281 },
 		},
@@ -509,10 +509,10 @@ AtlasLoot_LootTableRegister = {
 		["TheOculus"] = {
 			["Bosses"] = {
 				{ "OcuDrakos", 3, EncounterJournalID = 622 },
-				{ "OcuCloudstrider", 4, EncounterJournalID = 623 },
-				{ "OcuUrom", 5, EncounterJournalID = 624 },
-				{ "OcuEregos", {6,8}, EncounterJournalID = 625 },
-				{ "OcuTrash", 10 },
+				{ "OcuCloudstrider", 7, EncounterJournalID = 623 },
+				{ "OcuUrom", 8, EncounterJournalID = 624 },
+				{ "OcuEregos", {9,11}, EncounterJournalID = 625 },
+				{ "OcuTrash", 13 },
 			},
 			["Info"] = { BabbleZone["The Oculus"], "AtlasLootWotLK", mapname = "Nexus80", EncounterJournalID = 282 },
 		},
@@ -529,31 +529,31 @@ AtlasLoot_LootTableRegister = {
 
 		["UlduarHallsofStone"] = {
 			["Bosses"] = {
-				{ "HallsofStoneKrystallus", 2, EncounterJournalID = 604 },
-				{ "HallsofStoneMaiden", 3, EncounterJournalID = 605 },
-				{ "HallsofStoneTribunal", {4,5}, EncounterJournalID = 606 },
-				{ "HallsofStoneSjonnir", 6, EncounterJournalID = 607 },
-				{ "LunarFestival", 7, hide = true },
-				{ "HallsofStoneTrash", 10 },
+				{ "HallsofStoneKrystallus", 3, EncounterJournalID = 604 },
+				{ "HallsofStoneMaiden", 4, EncounterJournalID = 605 },
+				{ "HallsofStoneTribunal", {5,6}, EncounterJournalID = 606 },
+				{ "HallsofStoneSjonnir", 7, EncounterJournalID = 607 },
+				{ "LunarFestival", 8, hide = true },
+				{ "HallsofStoneTrash", 11 },
 			},
 			["Info"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK", mapname = "Ulduar77", EncounterJournalID = 277 },
 		},
 
 		["UlduarHallsofLightning"] = {
 			["Bosses"] = {
-				{ "HallsofLightningBjarngrim", 2, EncounterJournalID = 597 },
-				{ "HallsofLightningVolkhan", 3, EncounterJournalID = 598 },
-				{ "HallsofLightningIonar", 4, EncounterJournalID = 599 },
-				{ "HallsofLightningLoken", 5, EncounterJournalID = 600 },
-				{ "HallsofLightningTrash", 7 },
+				{ "HallsofLightningBjarngrim", 3, EncounterJournalID = 597 },
+				{ "HallsofLightningVolkhan", 4, EncounterJournalID = 598 },
+				{ "HallsofLightningIonar", 5, EncounterJournalID = 599 },
+				{ "HallsofLightningLoken", 6, EncounterJournalID = 600 },
+				{ "HallsofLightningTrash", 8 },
 			},
 			["Info"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK", mapname = "HallsofLightning", EncounterJournalID = 275 },
 		},
 
 		["UtgardeKeep"] = {
 			["Bosses"] = {
-				{ "UtgardeKeepKeleseth", 4, EncounterJournalID = 638 },
-				{ "UtgardeKeepSkarvald", {5,6}, EncounterJournalID = 639 },
+				{ "UtgardeKeepKeleseth", 5, EncounterJournalID = 638 },
+				{ "UtgardeKeepSkarvald", 6, EncounterJournalID = 639 },
 				{ "UtgardeKeepIngvar", 7, EncounterJournalID = 640 },
 				{ "LunarFestival", 8, hide = true },
 				{ "UtgardeKeepTrash", 10 },
@@ -563,26 +563,26 @@ AtlasLoot_LootTableRegister = {
 
 		["UtgardePinnacle"] = {
 			["Bosses"] = {
-				{ "UPSorrowgrave", 3, EncounterJournalID = 641 },
-				{ "UPPalehoof", 4, EncounterJournalID = 642 },
-				{ "UPSkadi", 5, EncounterJournalID = 643 },
-				{ "UPYmiron", 6, EncounterJournalID = 644 },
-				{ "LunarFestival", 7, hide = true },
-				{ "UPTrash", 9 },
+				{ "UPSorrowgrave", 4, EncounterJournalID = 641 },
+				{ "UPPalehoof", 5, EncounterJournalID = 642 },
+				{ "UPSkadi", 6, EncounterJournalID = 643 },
+				{ "UPYmiron", 7, EncounterJournalID = 644 },
+				{ "LunarFestival", 8, hide = true },
+				{ "UPTrash", 10 },
 			},
 			["Info"] = { BabbleZone["Utgarde Pinnacle"], "AtlasLootWotLK", mapname = "UtgardePinnacle", EncounterJournalID = 286 },
 		},
 
 		["VioletHold"] = {
 			["Bosses"] = {
-				{ "VioletHoldErekem", 2, EncounterJournalID = 626 },
-				{ "VioletHoldZuramat", 3, EncounterJournalID = 631 },
-				{ "VioletHoldXevozz", 4, EncounterJournalID = 629 },
-				{ "VioletHoldIchoron", 5, EncounterJournalID = 628 },
-				{ "VioletHoldMoragg", 6, EncounterJournalID = 627 },
-				{ "VioletHoldLavanthor", 7, EncounterJournalID = 630 },
-				{ "VioletHoldCyanigosa", 8, EncounterJournalID = 632 },
-				{ "VioletHoldTrash", 10 },
+				{ "VioletHoldErekem", 3, EncounterJournalID = 626 },
+				{ "VioletHoldZuramat", 4, EncounterJournalID = 631 },
+				{ "VioletHoldXevozz", 5, EncounterJournalID = 629 },
+				{ "VioletHoldIchoron", 6, EncounterJournalID = 628 },
+				{ "VioletHoldMoragg", 7, EncounterJournalID = 627 },
+				{ "VioletHoldLavanthor", 8, EncounterJournalID = 630 },
+				{ "VioletHoldCyanigosa", 9, EncounterJournalID = 632 },
+				{ "VioletHoldTrash", 11 },
 			},
 			["Info"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK", mapname = "VioletHold", EncounterJournalID = 283 },
 		},
