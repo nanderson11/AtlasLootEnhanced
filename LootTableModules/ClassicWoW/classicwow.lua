@@ -691,7 +691,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 6911, "", "=q3=Moss Cinch", "=ds=#s10#, #a2#", "", "33%"};
 				{ 4, 6909, "", "=q3=Strike of the Hydra", "=ds=#h2#, #w10#", "", "33%"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Quest Item"], ""};
-				{ 7, 5359, "", "=q1="..AL["Lorgalis Manuscript], "=ds=#m3#", "", "100%"};
+				{ 7, 5359, "", "=q1="..AL["Lorgalis Manuscript"], "=ds=#m3#", "", "100%"};
 				{ 8, 16762, "", "=q1=Fathom Core", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
 				{ 17, 1486, "", "=q3=Tree Bark Jacket", "=ds=#s5#, #a1#"};
