@@ -1244,8 +1244,8 @@ AtlasLoot_LootTableRegister = {
 		["Maraudon"] = {
 			["Bosses"] = {
 				{ "MaraudonLoot#1", {4,5,6,7,12} },
-				{ "MaraudonLoot#2", {8,9,10,11}, hide = true }, 
-				{ "LunarFestival", 13, hide = true },
+				{ "MaraudonLoot#2", {8,10,11,12}, hide = true }, 
+				{ "LunarFestival", 14, hide = true },
 			},
 			["Info"] = { BabbleZone["Maraudon"], "AtlasLootClassicWoW", mapname = "Maraudon", EncounterJournalID = 232 },
 		},
