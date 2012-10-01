@@ -820,10 +820,10 @@ AtlasLoot_LootTableRegister = {
 		["CFRTheSlavePens"] = {
 			["Bosses"] = {
 				{ "CExpedition", 1, hide = true },
-				{ "CFRSlaveMennu", 3, EncounterJournalID = 570 },
-				{ "CFRSlaveRokmar", 4, EncounterJournalID = 571 },
-				{ "CFRSlaveQuagmirran", 5, EncounterJournalID = 572 },
-				{ "LordAhune", 6, hide = true },
+				{ "CFRSlaveMennu", 5, EncounterJournalID = 570 },
+				{ "CFRSlaveRokmar", 6, EncounterJournalID = 571 },
+				{ "CFRSlaveQuagmirran", 7, EncounterJournalID = 572 },
+				{ "LordAhune", 8, hide = true },
 			},
 			["Info"] = { BabbleZone["The Slave Pens"], "AtlasLootBurningCrusade", EncounterJournalID = 260 },
 		},
@@ -831,11 +831,11 @@ AtlasLoot_LootTableRegister = {
 		["CFRTheSteamvault"] = {
 			["Bosses"] = {
 				{ "CExpedition", 1, hide = true },
-				{ "CFRSteamThespia", 3, EncounterJournalID = 573 },
-				{ "CFRSteamSteamrigger", 5, EncounterJournalID = 574 },
-				{ "CFRSteamWarlord", 7, EncounterJournalID = 575 },
-				{ "CFRSteamTrash", 9, hide = true },
-				{ "CFRSteamTrash", 11 },
+				{ "CFRSteamThespia", 6, EncounterJournalID = 573 },
+				{ "CFRSteamSteamrigger", 8, EncounterJournalID = 574 },
+				{ "CFRSteamWarlord", 10, EncounterJournalID = 575 },
+				{ "CFRSteamTrash", 12, hide = true },
+				{ "CFRSteamTrash", 14 },
 			},
 			["Info"] = { BabbleZone["The Steamvault"], "AtlasLootBurningCrusade", EncounterJournalID = 261 },
 		},
@@ -843,10 +843,10 @@ AtlasLoot_LootTableRegister = {
 		["CFRTheUnderbog"] = {
 			["Bosses"] = {
 				{ "CExpedition", 1, hide = true },
-				{ "CFRUnderHungarfen", 3, EncounterJournalID = 576 },
-				{ "CFRUnderGhazan", 5, EncounterJournalID = 577 },
-				{ "CFRUnderSwamplord", 6, EncounterJournalID = 578 },
-				{ "CFRUnderStalker", 8, EncounterJournalID = 579 },
+				{ "CFRUnderHungarfen", 6, EncounterJournalID = 576 },
+				{ "CFRUnderGhazan", 8, EncounterJournalID = 577 },
+				{ "CFRUnderSwamplord", 9, EncounterJournalID = 578 },
+				{ "CFRUnderStalker", 11, EncounterJournalID = 579 },
 			},
 			["Info"] = { BabbleZone["The Underbog"], "AtlasLootBurningCrusade", EncounterJournalID = 262 },
 		},
