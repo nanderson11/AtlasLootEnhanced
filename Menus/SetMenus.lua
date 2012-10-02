@@ -10,17 +10,18 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "JPMOPMENU", "inv_glove_mail_reputation_c_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 3, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
-				{ 4, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 5, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
-				{ 7, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-				{ 8, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
-				{ 9, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
-				{ 10, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..BabbleInventory["Companions"], ""};
-				{ 11, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
-				{ 12, "TRANSFORMATIONMENU", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
-				{ 13, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
+				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 2, "JPMOPMENU", "inv_glove_mail_reputation_c_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 4, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 5, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 6, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
+				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
+				{ 10, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
+				{ 11, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..BabbleInventory["Companions"], ""};
+				{ 12, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
+				{ 13, "TRANSFORMATIONMENU", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
+				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 16, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], ""};
 				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
 				{ 19, "Heirloom", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"]};
@@ -40,23 +41,21 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
---[[	AtlasLoot_Data["VALORPOINTSMENU"] = {
+	AtlasLoot_Data["VPMOPMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "ValorPoints", "inv_helmet_robe_raidwarlock_k_01", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "ValorPoints#2", "inv_chest_mail_raidhunter_k_01", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "ValorPoints#4", "inv_qiraj_jewelengraved", "=ds="..AL["Accessories"], ""};
-				{ 7, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
-				{ 17, "ValorPoints", "inv_gauntlets_leather_raidrogue_k_01", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "ValorPoints#3", "plate_raiddeathknight_k_01_belt", "=ds="..BabbleInventory["Plate"], ""};
-    			{ 22, 77078, "", "=q4=Scintillating Rods", "=ds=#w12#", "#VALOR:700#" },
+				{ 2, "ValorPointsMoP", "inv_helmet_cloth_reputation_c_01", "=ds="..BabbleInventory["Cloth"], ""};
+				{ 3, "ValorPointsMoP#3", "inv_helm_mail_reputation_c_01", "=ds="..BabbleInventory["Mail"], ""};
+				{ 5, "ValorPointsMoP#5", "inv_cape_pandaria_c_01", "=ds="..AL["Accessories"], ""};
+				{ 17, "ValorPointsMoP#2", "inv_helm_leather_reputation_c_01", "=ds="..BabbleInventory["Leather"], ""};
+				{ 18, "ValorPointsMoP#4", "inv_helmet_plate_reputation_c_01", "=ds="..BabbleInventory["Plate"], ""};
 			};
 		};
 		info = {
 			name = AL["Valor Points"].." "..AL["Rewards"],
 			menu = "SETMENU",
 		};
-	}--]]
+	}
 
 	AtlasLoot_Data["JPMOPMENU"] = {
 		["Normal"] = {

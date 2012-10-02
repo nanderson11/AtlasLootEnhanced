@@ -39,6 +39,8 @@ local moduleName = "AtlasLootMoP"
 ---- Tabards
 ---- Transformation Items
 ---- Heirloom Items
+---- Justice Points Items
+---- Valor Points Items
 
 	------------------------
 	--- Dungeons & Raids ---
@@ -155,7 +157,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6089#"};
 				{ 17, 81064, "", "=q3=Bracers of Displaced Air", "=ds=#s8#, #a1#", ""};
 				{ 18, 81080, "", "=q3=Nimbletoe Chestguard", "=ds=#s5#, #a2#", ""};
-				{ 19, 81134, "", "=q4=Barreldodger Boots", "=ds=#s12#, #a4#", ""};
+				{ 19, 81134, "", "=q3=Barreldodger Boots", "=ds=#s12#, #a4#", ""};
 				{ 20, 81133, "", "=q3=Empty Fruit Barrel", "=ds=#s14#", ""};
 				{ 21, 81061, "", "=q3=Ook's Hozen Slicer", "=ds=#h1#, #w10#", ""};
 			}
@@ -4638,90 +4640,211 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["JusticePointsMoP"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 2, 0, "achievement_faction_shadopan", "=q6="..BabbleFaction["Shado-Pan"], "=ds="};
 				{ 3, 89673, "", "=q3=Robe of Eternal Dynasty", "=ds=#s5#, #a1#", "#JUSTICE:2250#"};
 				{ 4, 89672, "", "=q3=Robe of Quiet Meditation", "=ds=#s5#, #a1#", "#JUSTICE:2250#"};
-				{ 6, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 6, 0, "achievement_faction_goldenlotus", "=q6="..BabbleFaction["Golden Lotus"], "=ds="};
 				{ 7, 89642, "", "=q3=Bracers of Eternal Resolve", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
 				{ 8, 89643, "", "=q3=Tranquility Bindings", "=ds=#s8#, #a1#", "#JUSTICE:1250#"};
-				{ 17, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 17, 0, "achievement_faction_klaxxi", "=q6="..BabbleFaction["The Klaxxi"], "=ds="};
 				{ 18, 89650, "", "=q3=Emperor's Riding Gloves", "=ds=#s9#, #a1#", "#JUSTICE:1750#"};
 				{ 19, 89651, "", "=q3=Krompf's Fine-Tuning Gloves", "=ds=#s9#, #a1#", "#JUSTICE:1750#"};
-				{ 21, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 21, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["The August Celestials"], "=ds="};
 				{ 22, 89659, "", "=q3=Leggings of Unfinished Conquest", "=ds=#s11#, #a1#", "#JUSTICE:2250#"};
 				{ 23, 89658, "", "=q3=Subversive Leggings", "=ds=#s11#, #a1#", "#JUSTICE:2250#"};
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
-				{ 2, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 2, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["The August Celestials"], "=ds="};
 				{ 3, 89667, "", "=q3=Refurbished Zandalari Vestment", "=ds=#s5#, #a2#", "#JUSTICE:2250#"};
 				{ 4, 89666, "", "=q3=Vestment of the Ascendant Tribe", "=ds=#s5#, #a2#", "#JUSTICE:2250#"};
-				{ 6, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 6, 0, "achievement_faction_klaxxi", "=q6="..BabbleFaction["The Klaxxi"], "=ds="};
 				{ 7, 89645, "", "=q3=Cruel Mercy Bracers", "=ds=#s8#, #a2#", "#JUSTICE:1250#"};
 				{ 8, 89644, "", "=q3=Sudden Insight Bracers", "=ds=#s8#, #a2#", "#JUSTICE:1250#"};
-				{ 17, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 17, 0, "achievement_faction_goldenlotus", "=q6="..BabbleFaction["Golden Lotus"], "=ds="};
 				{ 18, 89653, "", "=q3=Surehand Grips", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
 				{ 19, 89652, "", "=q3=Wandering Friar's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:1750#"};
-				{ 21, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 21, 0, "achievement_faction_shadopan", "=q6="..BabbleFaction["Shado-Pan"], "=ds="};
 				{ 22, 89660, "", "=q3=Brambleguard Leggings", "=ds=#s11#, #a2#", "#JUSTICE:2250#"};
 				{ 23, 89661, "", "=q3=Tough Mushanhide Leggings", "=ds=#s11#, #a2#", "#JUSTICE:2250#"};
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 2, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 2, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["The August Celestials"], "=ds="};
 				{ 3, 89668, "", "=q3=Mountain Stream Ringmail", "=ds=#s5#, #a3#", "#JUSTICE:2250#"};
 				{ 4, 89669, "", "=q3=Undergrowth Stalker Chestpiece", "=ds=#s5#, #a3#", "#JUSTICE:2250#"};
-				{ 6, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 6, 0, "achievement_faction_klaxxi", "=q6="..BabbleFaction["The Klaxxi"], "=ds="};
 				{ 7, 89647, "", "=q3=Entombed Traitor's Wristguards", "=ds=#s8#, #a3#", "#JUSTICE:1250#"};
 				{ 8, 89646, "", "=q3=Runoff Wristguards", "=ds=#s8#, #a3#", "#JUSTICE:1250#"};
-				{ 17, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 17, 0, "achievement_faction_shadopan", "=q6="..BabbleFaction["Shado-Pan"], "=ds="};
 				{ 18, 89655, "", "=q3=Brushcutter's Gloves", "=ds=#s9#, #a3#", "#JUSTICE:1750#"};
 				{ 19, 89654, "", "=q3=Gloves of Forgotten Wisdom", "=ds=#s9#, #a3#", "#JUSTICE:1750#"};
-				{ 21, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 21, 0, "achievement_faction_goldenlotus", "=q6="..BabbleFaction["Golden Lotus"], "=ds="};
 				{ 22, 89663, "", "=q3=Leggings of Twisted Vines", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
 				{ 23, 89662, "", "=q3=Snowpack Waders", "=ds=#s11#, #a3#", "#JUSTICE:2250#"};
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
-				{ 2, 0, "achievement_faction_klaxxi", "=q6=#r3#", "=ds="..BabbleFaction["The Klaxxi"]};
+				{ 2, 0, "achievement_faction_klaxxi", "=q6="..BabbleFaction["The Klaxxi"], "=ds="};
 				{ 3, 89671, "", "=q3=Chestplate of the Stone Lion", "=ds=#s5#, #a4#", "#JUSTICE:2250#"};
 				{ 4, 89670, "", "=q3=Inner Serenity Chestplate", "=ds=#s5#, #a4#", "#JUSTICE:2250#"};
-				{ 6, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 6, 0, "achievement_faction_goldenlotus", "=q6="..BabbleFaction["Golden Lotus"], "=ds="};
 				{ 7, 89648, "", "=q3=Bracers of Inner Light", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
 				{ 8, 89649, "", "=q3=Serrated Forearm Guards", "=ds=#s8#, #a4#", "#JUSTICE:1250#"};
-				{ 17, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 17, 0, "achievement_faction_shadopan", "=q6="..BabbleFaction["Shado-Pan"], "=ds="};
 				{ 18, 89656, "", "=q3=Gauntlets of Restraint", "=ds=#s9#, #a4#", "#JUSTICE:1750#"};
 				{ 19, 89657, "", "=q3=Wall Breaker Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:1750#"};
-				{ 21, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 21, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["The August Celestials"], "=ds="};
 				{ 22, 89665, "", "=q3=Leggings of Ponderous Advance", "=ds=#s11#, #a4#", "#JUSTICE:2250#"};
 				{ 23, 89664, "", "=q3=Valiant's Shinguards", "=ds=#s11#, #a4#", "#JUSTICE:2250#"};
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
-				{ 1, 0, "achievement_faction_celestials", "=q6=#r3#", "=ds="..BabbleFaction["The August Celestials"]};
+				{ 1, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["The August Celestials"], "=ds="};
 				{ 2, 89532, "", "=q3=Bladesong Cloak", "=ds=#s4#", "#JUSTICE:1250#"};
 				{ 3, 89533, "", "=q3=Cloak of Ancient Curses", "=ds=#s4#", "#JUSTICE:1250#"};
 				{ 4, 89537, "", "=q3=Cloak of the Silent Mountain", "=ds=#s4#", "#JUSTICE:1250#"};
 				{ 5, 89534, "", "=q3=Pressed Flower Cloak", "=ds=#s4#", "#JUSTICE:1250#"};
 				{ 6, 89535, "", "=q3=Ribracker's Cloak", "=ds=#s4#", "#JUSTICE:1250#"};
-				{ 8, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 8, 0, "achievement_faction_goldenlotus", "=q6="..BabbleFaction["Golden Lotus"], "=ds="};
 				{ 9, 89527, "", "=q3=Amulet of Swirling Mists", "=ds=#s2#", "#JUSTICE:1250#"};
 				{ 10, 89531, "", "=q3=Gorget of Usurped Kings", "=ds=#s2#", "#JUSTICE:1250#"};
 				{ 11, 89528, "", "=q3=Necklace of Jade Pearls", "=ds=#s2#", "#JUSTICE:1250#"};
 				{ 12, 89529, "", "=q3=Pendant of Endless Inquisition", "=ds=#s2#", "#JUSTICE:1250#"};
 				{ 13, 89530, "", "=q3=Triumphant Conqueror's Chain", "=ds=#s2#", "#JUSTICE:1250#"};
 				{ 14, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s14#", "#JUSTICE:1750#"};
-				{ 16, 0, "achievement_faction_shadopan", "=q6=#r3#", "=ds="..BabbleFaction["Shado-Pan"]};
+				{ 16, 0, "achievement_faction_shadopan", "=q6="..BabbleFaction["Shado-Pan"], "=ds="};
 				{ 17, 89523, "", "=q3=Etched Golden Loop", "=ds=#s13#", "#JUSTICE:1250#"};
 				{ 18, 89522, "", "=q3=Mark of the Dancing Crane", "=ds=#s13#", "#JUSTICE:1250#"};
 				{ 19, 89526, "", "=q3=Signet of the Slumbering Emperor", "=ds=#s13#", "#JUSTICE:1250#"};
 				{ 20, 89524, "", "=q3=Sorcerer-King's Seal", "=ds=#s13#", "#JUSTICE:1250#"};
 				{ 21, 89525, "", "=q3=Thunderstone Ring", "=ds=#s13#", "#JUSTICE:1250#"};
+				{ 22, 88995, "", "=q3=Shado-Pan Dragon Gun", "=ds=#s14#", "#JUSTICE:1750#"};
 				extraText = ": "..AL["Accessories"];
 			};
 		};
 		info = {
 			name = AL["Justice Points"],
 			module = moduleName, menu = "JPMOPMENU",
+		};
+	}
+
+		--------------------------
+		--- Valor Points Items ---
+		--------------------------
+
+	AtlasLoot_Data["ValorPointsMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, 89337, "", "=q4=Firecracker Corona", "=ds=#s1#, #a1#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 2, 89340, "", "=q4=Mantle of the Golden Sun", "=ds=#s3#, #a1#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 3, 89433, "", "=q4=Vestments of Thundering Skies", "=ds=#s5#, #a1#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 4, 88893, "", "=q4=Minh's Beaten Bracers", "=ds=#s8#, #a1#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 5, 88742, "", "=q4=Sunspeaker's Flared Gloves", "=ds=#s9#, #a1#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 6, 89062, "", "=q4=Klaxxi Lash of the Orator", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 7, 89088, "", "=q4=Leggings of the Poisoned Soul", "=ds=#s11#, #a1#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 8, 88878, "", "=q4=Void Flame Slippers", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 16, 89338, "", "=q4=Yalia's Cowl", "=ds=#s1#, #a1#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 17, 89339, "", "=q4=Tenderheart Shoulders", "=ds=#s3#, #a1#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 18, 89434, "", "=q4=Robe of the Five Sisters", "=ds=#s5#, #a1#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 19, 88892, "", "=q4=Bracers of Inlaid Jade", "=ds=#s8#, #a1#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 20, 88741, "", "=q4=Gloves of Red Feathers", "=ds=#s9#, #a1#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 21, 89063, "", "=q4=Klaxxi Lash of the Seeker", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 22, 89087, "", "=q4=Poisoncrafter's Kilt", "=ds=#s11#, #a1#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 23, 88877, "", "=q4=Storm-Sing Sandals", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				extraText = ": "..BabbleInventory["Cloth"];
+			};
+			{
+				{ 1, 89300, "", "=q4=Red Smoke Bandana", "=ds=#s1#, #a2#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 2, 89341, "", "=q4=Imperion Spaulders", "=ds=#s3#, #a2#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 3, 89431, "", "=q4=Softfoot Silentwrap", "=ds=#s5#, #a2#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 4, 88884, "", "=q4=Quillpaw Family Bracers", "=ds=#s8#, #a2#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 5, 88744, "", "=q4=Fingers of the Loneliest Monk", "=ds=#s9#, #a2#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 6, 89060, "", "=q4=Klaxxi Lash of the Borrower", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"], },
+				{ 7, 89090, "", "=q4=Dreadsworn Slayer Legs", "=ds=#s11#, #a2#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"], },
+				{ 8, 88868, "", "=q4=Tukka-Tuk's Hairy Boots", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 16, 89308, "", "=q4=Snowdrift Helm", "=ds=#s1#, #a2#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 17, 89342, "", "=q4=Whitepetal Shouldergarb", "=ds=#s3#, #a2#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 18, 89432, "", "=q4=Mistfall Robes", "=ds=#s5#, #a2#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 19, 88885, "", "=q4=Clever Ashyo's Armbands", "=ds=#s8#, #a2#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 20, 88743, "", "=q4=Ogo's Elder Gloves", "=ds=#s9#, #a2#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 21, 89061, "", "=q4=Klaxxi Lash of the Harbinger", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"], },
+				{ 22, 89089, "", "=q4=Wind-Reaver Greaves", "=ds=#s11#, #a2#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"], },
+				{ 23, 88876, "", "=q4=Boots of the High Adept", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				extraText = ": "..BabbleInventory["Leather"];
+			};
+			{
+				{ 1, 89291, "", "=q4=Hawkmaster's Headguard", "=ds=#s1#, #a3#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 2, 89344, "", "=q4=Windwalker Spaulders", "=ds=#s3#, #a3#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 3, 89430, "", "=q4=Breastplate of the Golden Pagoda", "=ds=#s5#, #a3#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 4, 88882, "", "=q4=Tiger-Striped Wristguards", "=ds=#s8#, #a3#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 5, 88745, "", "=q4=Sentinel Commander's Gauntlets", "=ds=#s9#, #a3#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 6, 89058, "", "=q4=Klaxxi Lash of the Winnower", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 7, 89092, "", "=q4=Locust Swarm Legguards", "=ds=#s11#, #a3#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 8, 88866, "", "=q4=Steps of the War Serpent", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 16, 89296, "", "=q4=Nightwatcher's Helm", "=ds=#s1#, #a3#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 17, 89343, "", "=q4=Mindbender Shoulders", "=ds=#s3#, #a3#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 18, 89429, "", "=q4=Robes of the Setting Sun", "=ds=#s5#, #a3#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 19, 88883, "", "=q4=Brewmaster Chani's Bracers", "=ds=#s8#, #a3#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 20, 88748, "", "=q4=Ravenmane's Gloves", "=ds=#s9#, #a3#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 21, 89059, "", "=q4=Klaxxi Lash of the Precursor", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 22, 89091, "", "=q4=Swarmkeeper's Leggings", "=ds=#s11#, #a3#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 23, 88867, "", "=q4=Sandals of the Elder Sage", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				extraText = ": "..BabbleInventory["Mail"];
+			};
+			{
+				{ 1, 89280, "", "=q4=Voice Amplyifying Greathelm", "=ds=#s1#, #a4#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },
+				{ 2, 89345, "", "=q4=Stonetoe Spaulders", "=ds=#s3#, #a4#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 3, 89420, "", "=q4=Dawnblade's Chestguard", "=ds=#s5#, #a4#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 4, 88879, "", "=q4=Braided Black and White Bracer", "=ds=#s8#, #a4#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 5, 88747, "", "=q4=Streetfighter's Iron Knuckles", "=ds=#s9#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 6, 89055, "", "=q4=Klaxxi Lash of the Rescinder", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 7, 89095, "", "=q4=Legguards of the Unscathed", "=ds=#s11#, #a4#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 8, 88862, "", "=q4=Tankiss Warstompers", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 10, 89096, "", "=q4=Six Pool's Open Helm", "=ds=#s1#, #a4#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },	
+				{ 11, 89346, "", "=q4=Shoulders of Autumnlight", "=ds=#s3#, #a4#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 12, 89421, "", "=q4=Cuirass of the Twin Monoliths", "=ds=#s5#, #a4#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 13, 88881, "", "=q4=Fallen Sentinel Bracers", "=ds=#s8#, #a4#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 16, 89216, "", "=q4=Yi's Least Favorite Helmet", "=ds=#s1#, #a4#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"] },	
+				{ 17, 89347, "", "=q4=Paleblade Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"] },
+				{ 18, 89423, "", "=q4=Battleguard of Guo-Lai", "=ds=#s5#, #a4#", "#VALOR:2250#"..BabbleFaction["Golden Lotus"] },
+				{ 19, 88880, "", "=q4=Battle Shadow Bracers", "=ds=#s8#, #a4#", "#VALOR:1250#"..BabbleFaction["The August Celestials"] },
+				{ 20, 88746, "", "=q4=Gloves of the Overwhelming Swarm", "=ds=#s9#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 21, 89056, "", "=q4=Klaxxi Lash of the Consumer", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 22, 89093, "", "=q4=Kovok's Riven Legguards", "=ds=#s11#, #a4#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 23, 88864, "", "=q4=Yu'lon Guardian Boots", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 25, 88749, "", "=q4=Gauntlets of Jade Sutras", "=ds=#s9#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				{ 26, 89057, "", "=q4=Klaxxi Lash of the Doubter", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["The Klaxxi"] },
+				{ 27, 89094, "", "=q4=Ambersmith Legplates", "=ds=#s11#, #a4#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"] },
+				{ 28, 88865, "", "=q4=Bramblestaff Boots", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"] },
+				extraText = ": "..BabbleInventory["Plate"];
+			};
+			{
+				{ 1, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"] },
+				{ 2, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"] },
+				{ 3, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"] },
+				{ 4, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"] },
+				{ 5, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"] },
+				{ 7, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"] },
+				{ 8, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"] },
+				{ 9, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"] },
+				{ 10, 89066, "", "=q4=Paragon's Pale Pendant", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"] },
+				{ 11, 89068, "", "=q4=Wire of the Wakener", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"] },
+				{ 16, 89070, "", "=q4=Anji's Keepsake", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"] },
+				{ 17, 89071, "", "=q4=Alani's Inflexible Ring", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"] },
+				{ 18, 89073, "", "=q4=Leven's Circle of Hope", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"] },
+				{ 19, 89069, "", "=q4=Ring of the Golden Stair", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"] },
+				{ 20, 89072, "", "=q4=Simple Harmonius Ring", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"] },
+				{ 22, 89081, "", "=q4=Blossom of Pure Snow", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"] },
+				{ 23, 89082, "", "=q4=Hawkmaster's Talon", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"] },
+				{ 24, 89083, "", "=q4=Iron Belly Wok", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"] },
+				{ 25, 89079, "", "=q4=Lao-Chin's Liquid Courage", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"] },
+				{ 26, 89080, "", "=q4=Scroll of Revered Ancestors", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"] },
+				extraText = ": "..AL["Accessories"];
+			};
+		};
+		info = {
+			name = AL["Valor Points"],
+			module = moduleName, menu = "VPMOPMENU",
 		};
 	}
