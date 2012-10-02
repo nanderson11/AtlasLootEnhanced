@@ -81,7 +81,7 @@ if AL then
 	-- Options
 	--AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = "Charger les modules de loot au démarrage";
-	AL["Minimap Button"] = "Afficher le boutton sur la mini-carte";
+	AL["Minimap Button"] = "Afficher le bouton sur la mini-carte";
 	AL["Show itemIDs"] = "Afficher les IDs des objets";
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
 	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
@@ -291,7 +291,7 @@ if AL then
 	AL["Right"] = "Droite";
 	AL["Hide Text"] = "Masquer le texte";
 	AL["Hide Icon"] = "Masquer l'icône";
-	AL["Minimap Button Options"] = "Options du boutton de la mini-carte";
+	AL["Minimap Button Options"] = "Options du bouton de la mini-carte";
 
 	-- Text for Options Panel
 	AL["Atlasloot Options"] = "Options d'AtlasLoot";
@@ -309,8 +309,8 @@ if AL then
 	AL["Set Minimap Button Position"] = "Position du bouton sur la mini-carte";
 	AL["Notify on LoD Module Load"] = "M'informer quand un module est chargé";
 	AL["Loot Browser Scale: "] = "Échelle du navigateur de loot : ";
-	AL["Button Position: "] = "Position du boutton :";
-	AL["Button Radius: "] = "Rayon du boutton";
+	AL["Button Position: "] = "Position du bouton :";
+	AL["Button Radius: "] = "Rayon du bouton";
 	AL["Done"] = "Fait";
 	AL["FuBar Toggle"] = "Activer ou non FuBar";
 	AL["Search Result: %s"] = "Résultat(s) de la recherche : %s";
