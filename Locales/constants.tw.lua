@@ -462,6 +462,7 @@ if AL then
 	AL["Guild"] = "公會";
 
 	-- Blacksmithing
+	AL["Mists of Pandaria Vendor Sold Plans"] = "潘達利亞之謎供應商出售設計圖";
 	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商出售設計圖";
 	AL["Armor Enhancements"] = "護甲附魔";
 	AL["Weapon Enhancements"] = "武器附魔";
@@ -516,7 +517,8 @@ if AL then
 	AL["Old Quest Item"] = "舊任務物品";
 	AL["Quest Reward"] = "任務獎勵";
 	AL["Old Quest Reward"] = "舊任務獎勵";
-	AL["Shared"] = "隨機掉落";
+	AL["Pet Battle Quests"] = "寵物戰鬥任務";
+	AL["Shared"] = "共享";
 	AL["Right Half"] = "右半部份";
 	AL["Left Half"] = "左半部份";
 	AL["Currency"] = "貨幣";
@@ -1083,11 +1085,13 @@ if AL then
 	AL["Firestone Vendor"] = "火石商人";
 	AL["Poseidus"] = "波賽達斯";
 	AL["Burgy Blackheart"] = "伯吉·黑心";
+	AL["Battle Pet Trainer"] = "寵物戰鬥訓練師";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
 	AL["Crusader's Square"] = "十字軍廣場";
 	AL["The Gauntlet"] = "街巷";
+	AL["Halfhill Farm"] = "半山農場";
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = "馬丁瑞德的化身";  -- Avatar of the Martyred
@@ -1146,6 +1150,10 @@ if AL then
 	AL["Hidden Stash"] = "隱密藏匿物";
 	AL["The Cache of Madness"] = "瘋狂之緣";
 	AL["Stolen Present"] = "失竊的禮物";
+	AL["Oozing Bag"] = "沾滿淤泥的袋子";
+	AL["Ominous Seed"] = "不祥種子";
+
+	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
 	AL["Scroll of Resurrection"] = "重返榮耀";
 	AL["Recruit-A-Friend"] = "號召好友";

@@ -462,6 +462,7 @@ if AL then
 	AL["Guild"] = "公会";
 
 	-- Blacksmithing
+	AL["Mists of Pandaria Vendor Sold Plans"] = "熊猫人之谜商人出售图纸";
 	AL["Cataclysm Vendor Sold Plans"] = "大地的裂变商人出售图纸";
 	AL["Armor Enhancements"] = "护甲强化";
 	AL["Weapon Enhancements"] = "武器强化";
@@ -516,10 +517,11 @@ if AL then
 	AL["Old Quest Item"] = "旧任务物品";
 	AL["Quest Reward"] = "任务奖励";
 	AL["Old Quest Reward"] = "旧任务奖励";
-	AL["Shared"] = "已分享";
+	AL["Pet Battle Quests"] = "宠物对战任务";
+	AL["Shared"] = "共享";
 	AL["Right Half"] = "右半部分";
 	AL["Left Half"] = "左半部分";
-	AL["Currency"] = "购买";
+	AL["Currency"] = "货币";
 	AL["Used to summon boss"] = "用以召唤首领";
 	AL["Tradable for sunmote + item above"] = "太阳之尘与上面物品兑换";
 	AL["Card Game Item"] = "集换卡游戏物品";
@@ -1083,11 +1085,13 @@ if AL then
 	AL["Firestone Vendor"] = "火石结晶商人";
 	AL["Poseidus"] = "波塞冬斯";
 	AL["Burgy Blackheart"] = "布尔吉·黑心";
+	AL["Battle Pet Trainer"] = "宠物对战训练师";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
 	AL["Crusader's Square"] = "十字军广场";
 	AL["The Gauntlet"] = "街巷";
+	AL["Halfhill Farm"] = "半山农场";
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = "殉难者的化身";
@@ -1146,6 +1150,10 @@ if AL then
 	AL["Hidden Stash"] = "藏匿物";
 	AL["The Cache of Madness"] = "疯狂之缘";
 	AL["Stolen Present"] = "被窃的礼物";
+	AL["Oozing Bag"] = "沾满淤泥的袋子";
+	AL["Ominous Seed"] = "不祥之种";
+
+	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
 	AL["Scroll of Resurrection"] = "复活卷轴";
 	AL["Recruit-A-Friend"] = "战友招募";
