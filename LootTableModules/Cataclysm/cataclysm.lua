@@ -2676,7 +2676,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Nefarian", 174),
+			name = AtlasLoot:EJ_GetBossName("Nefarian's End", 174),
 			module = moduleName, instance = "BlackwingDescent",
 		};
 	};
@@ -4319,19 +4319,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DeathKnight"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73618, "", "=q4=Cataclysmic Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73616, "", "=q4=Cataclysmic Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73620, "", "=q4=Cataclysmic Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 5, 73619, "", "=q4=Cataclysmic Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73617, "", "=q4=Cataclysmic Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70246, "", "=q4=Ruthless Gladiator's Dreadplate Helm", "=ds="};
 				{ 10, 70248, "", "=q4=Ruthless Gladiator's Dreadplate Shoulders", "=ds="};
 				{ 11, 70244, "", "=q4=Ruthless Gladiator's Dreadplate Chestpiece", "=ds="};
 				{ 12, 70245, "", "=q4=Ruthless Gladiator's Dreadplate Gauntlets", "=ds="};
 				{ 13, 70247, "", "=q4=Ruthless Gladiator's Dreadplate Legguards", "=ds="};
-				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60410, "", "=q4=Vicious Gladiator's Dreadplate Helm", "=ds="};
 				{ 18, 60412, "", "=q4=Vicious Gladiator's Dreadplate Shoulders", "=ds="};
 				{ 19, 60408, "", "=q4=Vicious Gladiator's Dreadplate Chestpiece", "=ds="};
@@ -4348,19 +4348,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidBalance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73598, "", "=q4=Cataclysmic Gladiator's Wyrmhide Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73595, "", "=q4=Cataclysmic Gladiator's Wyrmhide Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73596, "", "=q4=Cataclysmic Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2200#"};
 				{ 5, 73599, "", "=q4=Cataclysmic Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73597, "", "=q4=Cataclysmic Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70290, "", "=q4=Ruthless Gladiator's Wyrmhide Helm", "=ds="};
 				{ 10, 70293, "", "=q4=Ruthless Gladiator's Wyrmhide Spaulders", "=ds="};
 				{ 11, 70292, "", "=q4=Ruthless Gladiator's Wyrmhide Robes", "=ds="};
 				{ 12, 70289, "", "=q4=Ruthless Gladiator's Wyrmhide Gloves", "=ds="};
 				{ 13, 70291, "", "=q4=Ruthless Gladiator's Wyrmhide Legguards", "=ds="};
-				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60454, "", "=q4=Vicious Gladiator's Wyrmhide Helm", "=ds="};
 				{ 18, 60457, "", "=q4=Vicious Gladiator's Wyrmhide Spaulders", "=ds="};
 				{ 19, 60456, "", "=q4=Vicious Gladiator's Wyrmhide Robes", "=ds="};
@@ -4377,19 +4377,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73614, "", "=q4=Cataclysmic Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73611, "", "=q4=Cataclysmic Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73612, "", "=q4=Cataclysmic Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
 				{ 5, 73615, "", "=q4=Cataclysmic Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73613, "", "=q4=Cataclysmic Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70280, "", "=q4=Ruthless Gladiator's Dragonhide Helm", "=ds="};
 				{ 10, 70283, "", "=q4=Ruthless Gladiator's Dragonhide Spaulders", "=ds="};
 				{ 11, 70282, "", "=q4=Ruthless Gladiator's Dragonhide Robes", "=ds="};
 				{ 12, 70279, "", "=q4=Ruthless Gladiator's Dragonhide Gloves", "=ds="};
 				{ 13, 70281, "", "=q4=Ruthless Gladiator's Dragonhide Legguards", "=ds="};
-				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60444, "", "=q4=Vicious Gladiator's Dragonhide Helm", "=ds="};
 				{ 18, 60447, "", "=q4=Vicious Gladiator's Dragonhide Spaulders", "=ds="};
 				{ 19, 60446, "", "=q4=Vicious Gladiator's Dragonhide Robes", "=ds="};
@@ -4406,19 +4406,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73606, "", "=q4=Cataclysmic Gladiator's Kodohide Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73603, "", "=q4=Cataclysmic Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73604, "", "=q4=Cataclysmic Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
 				{ 5, 73607, "", "=q4=Cataclysmic Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73605, "", "=q4=Cataclysmic Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70285, "", "=q4=Ruthless Gladiator's Kodohide Helm", "=ds="};
 				{ 10, 70288, "", "=q4=Ruthless Gladiator's Kodohide Spaulders", "=ds="};
 				{ 11, 70287, "", "=q4=Ruthless Gladiator's Kodohide Robes", "=ds="};
 				{ 12, 70284, "", "=q4=Ruthless Gladiator's Kodohide Gloves", "=ds="};
 				{ 13, 70286, "", "=q4=Ruthless Gladiator's Kodohide Legguards", "=ds="};
-				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60449, "", "=q4=Vicious Gladiator's Kodohide Helm", "=ds="};
 				{ 18, 60452, "", "=q4=Vicious Gladiator's Kodohide Spaulders", "=ds="};
 				{ 19, 60451, "", "=q4=Vicious Gladiator's Kodohide Robes", "=ds="};
@@ -4435,19 +4435,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Hunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73582, "", "=q4=Cataclysmic Gladiator's Chain Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73580, "", "=q4=Cataclysmic Gladiator's Chain Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73584, "", "=q4=Cataclysmic Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
 				{ 5, 73583, "", "=q4=Cataclysmic Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73581, "", "=q4=Cataclysmic Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70261, "", "=q4=Ruthless Gladiator's Chain Helm", "=ds="};
 				{ 10, 70263, "", "=q4=Ruthless Gladiator's Chain Spaulders", "=ds="};
 				{ 11, 70259, "", "=q4=Ruthless Gladiator's Chain Armor", "=ds="};
 				{ 12, 70260, "", "=q4=Ruthless Gladiator's Chain Gauntlets", "=ds="};
 				{ 13, 70262, "", "=q4=Ruthless Gladiator's Chain Leggings", "=ds="};
-				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60425, "", "=q4=Vicious Gladiator's Chain Helm", "=ds="};
 				{ 18, 60427, "", "=q4=Vicious Gladiator's Chain Spaulders", "=ds="};
 				{ 19, 60423, "", "=q4=Vicious Gladiator's Chain Armor", "=ds="};
@@ -4464,19 +4464,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73575, "", "=q4=Cataclysmic Gladiator's Silk Cowl", "=ds=", "#HONOR:2200#"};
 				{ 3, 73572, "", "=q4=Cataclysmic Gladiator's Silk Amice", "=ds=", "#HONOR:1650#"};
 				{ 4, 73573, "", "=q4=Cataclysmic Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
 				{ 5, 73576, "", "=q4=Cataclysmic Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
 				{ 6, 73574, "", "=q4=Cataclysmic Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70300, "", "=q4=Ruthless Gladiator's Silk Cowl", "=ds="};
 				{ 10, 70303, "", "=q4=Ruthless Gladiator's Silk Amice", "=ds="};
 				{ 11, 70302, "", "=q4=Ruthless Gladiator's Silk Robe", "=ds="};
 				{ 12, 70299, "", "=q4=Ruthless Gladiator's Silk Handguards", "=ds="};
 				{ 13, 70301, "", "=q4=Ruthless Gladiator's Silk Trousers", "=ds="};
-				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60464, "", "=q4=Vicious Gladiator's Silk Cowl", "=ds="};
 				{ 18, 60467, "", "=q4=Vicious Gladiator's Silk Amice", "=ds="};
 				{ 19, 60466, "", "=q4=Vicious Gladiator's Silk Robe", "=ds="};
@@ -4493,19 +4493,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73569, "", "=q4=Cataclysmic Gladiator's Scaled Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73567, "", "=q4=Cataclysmic Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73571, "", "=q4=Cataclysmic Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 5, 73570, "", "=q4=Cataclysmic Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73568, "", "=q4=Cataclysmic Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70251, "", "=q4=Ruthless Gladiator's Scaled Helm", "=ds="};
 				{ 10, 70253, "", "=q4=Ruthless Gladiator's Scaled Shoulders", "=ds="};
 				{ 11, 70249, "", "=q4=Ruthless Gladiator's Scaled Chestpiece", "=ds="};
 				{ 12, 70250, "", "=q4=Ruthless Gladiator's Scaled Gauntlets", "=ds="};
 				{ 13, 70252, "", "=q4=Ruthless Gladiator's Scaled Legguards", "=ds="};
-				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60415, "", "=q4=Vicious Gladiator's Scaled Helm", "=ds="};
 				{ 18, 60417, "", "=q4=Vicious Gladiator's Scaled Shoulders", "=ds="};
 				{ 19, 60413, "", "=q4=Vicious Gladiator's Scaled Chestpiece", "=ds="};
@@ -4522,19 +4522,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73558, "", "=q4=Cataclysmic Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
 				{ 3, 73556, "", "=q4=Cataclysmic Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73560, "", "=q4=Cataclysmic Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
 				{ 5, 73559, "", "=q4=Cataclysmic Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73557, "", "=q4=Cataclysmic Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70355, "", "=q4=Ruthless Gladiator's Ornamented Headcover", "=ds="};
 				{ 10, 70357, "", "=q4=Ruthless Gladiator's Ornamented Spaulders", "=ds="};
 				{ 11, 70353, "", "=q4=Ruthless Gladiator's Ornamented Chestguard", "=ds="};
 				{ 12, 70354, "", "=q4=Ruthless Gladiator's Ornamented Gloves", "=ds="};
 				{ 13, 70356, "", "=q4=Ruthless Gladiator's Ornamented Legplates", "=ds="};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60603, "", "=q4=Vicious Gladiator's Ornamented Headcover", "=ds="};
 				{ 18, 60605, "", "=q4=Vicious Gladiator's Ornamented Spaulders", "=ds="};
 				{ 19, 60601, "", "=q4=Vicious Gladiator's Ornamented Chestguard", "=ds="};
@@ -4551,19 +4551,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73543, "", "=q4=Cataclysmic Gladiator's Satin Hood", "=ds=", "#HONOR:2200#"};
 				{ 3, 73540, "", "=q4=Cataclysmic Gladiator's Satin Mantle", "=ds=", "#HONOR:1650#"};
 				{ 4, 73541, "", "=q4=Cataclysmic Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
 				{ 5, 73544, "", "=q4=Cataclysmic Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73542, "", "=q4=Cataclysmic Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70310, "", "=q4=Ruthless Gladiator's Satin Hood", "=ds="};
 				{ 10, 70313, "", "=q4=Ruthless Gladiator's Satin Mantle", "=ds="};
 				{ 11, 70312, "", "=q4=Ruthless Gladiator's Satin Robe", "=ds="};
 				{ 12, 70309, "", "=q4=Ruthless Gladiator's Satin Gloves", "=ds="};
 				{ 13, 70311, "", "=q4=Ruthless Gladiator's Satin Leggings", "=ds="};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60474, "", "=q4=Vicious Gladiator's Satin Hood", "=ds="};
 				{ 18, 60477, "", "=q4=Vicious Gladiator's Satin Mantle", "=ds="};
 				{ 19, 60473, "", "=q4=Vicious Gladiator's Satin Robe", "=ds="};
@@ -4580,19 +4580,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73548, "", "=q4=Cataclysmic Gladiator's Mooncloth Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73545, "", "=q4=Cataclysmic Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
 				{ 4, 73546, "", "=q4=Cataclysmic Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
 				{ 5, 73549, "", "=q4=Cataclysmic Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73547, "", "=q4=Cataclysmic Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70305, "", "=q4=Ruthless Gladiator's Mooncloth Helm", "=ds="};
 				{ 10, 70308, "", "=q4=Ruthless Gladiator's Mooncloth Mantle", "=ds="};
 				{ 11, 70307, "", "=q4=Ruthless Gladiator's Mooncloth Robe", "=ds="};
 				{ 12, 70304, "", "=q4=Ruthless Gladiator's Mooncloth Gloves", "=ds="};
 				{ 13, 70306, "", "=q4=Ruthless Gladiator's Mooncloth Leggings", "=ds="};
-				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60469, "", "=q4=Vicious Gladiator's Mooncloth Helm", "=ds="};
 				{ 18, 60472, "", "=q4=Vicious Gladiator's Mooncloth Mantle", "=ds="};
 				{ 19, 60471, "", "=q4=Vicious Gladiator's Mooncloth Robe", "=ds="};
@@ -4609,19 +4609,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Rogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73525, "", "=q4=Cataclysmic Gladiator's Leather Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73523, "", "=q4=Cataclysmic Gladiator's Leather Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73527, "", "=q4=Cataclysmic Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
 				{ 5, 73526, "", "=q4=Cataclysmic Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
 				{ 6, 73524, "", "=q4=Cataclysmic Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70296, "", "=q4=Ruthless Gladiator's Leather Helm", "=ds="};
 				{ 10, 70298, "", "=q4=Ruthless Gladiator's Leather Spaulders", "=ds="};
 				{ 11, 70294, "", "=q4=Ruthless Gladiator's Leather Tunic", "=ds="};
 				{ 12, 70295, "", "=q4=Ruthless Gladiator's Leather Gloves", "=ds="};
 				{ 13, 70297, "", "=q4=Ruthless Gladiator's Leather Legguards", "=ds="};
-				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60460, "", "=q4=Vicious Gladiator's Leather Helm", "=ds="};
 				{ 18, 60462, "", "=q4=Vicious Gladiator's Leather Spaulders", "=ds="};
 				{ 19, 60458, "", "=q4=Vicious Gladiator's Leather Tunic", "=ds="};
@@ -4638,19 +4638,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73504, "", "=q4=Cataclysmic Gladiator's Mail Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73502, "", "=q4=Cataclysmic Gladiator's Mail Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73506, "", "=q4=Cataclysmic Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
 				{ 5, 73505, "", "=q4=Cataclysmic Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73503, "", "=q4=Cataclysmic Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70276, "", "=q4=Ruthless Gladiator's Mail Helm", "=ds="};
 				{ 10, 70278, "", "=q4=Ruthless Gladiator's Mail Spaulders", "=ds="};
 				{ 11, 70274, "", "=q4=Ruthless Gladiator's Mail Armor", "=ds="};
 				{ 12, 70275, "", "=q4=Ruthless Gladiator's Mail Gauntlets", "=ds="};
 				{ 13, 70277, "", "=q4=Ruthless Gladiator's Mail Leggings", "=ds="};
-				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60440, "", "=q4=Vicious Gladiator's Mail Helm", "=ds="};
 				{ 18, 60442, "", "=q4=Vicious Gladiator's Mail Spaulders", "=ds="};
 				{ 19, 60438, "", "=q4=Vicious Gladiator's Mail Armor", "=ds="};
@@ -4667,19 +4667,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73510, "", "=q4=Cataclysmic Gladiator's Linked Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73508, "", "=q4=Cataclysmic Gladiator's Linked Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73512, "", "=q4=Cataclysmic Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
 				{ 5, 73511, "", "=q4=Cataclysmic Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73509, "", "=q4=Cataclysmic Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70271, "", "=q4=Ruthless Gladiator's Linked Helm", "=ds="};
 				{ 10, 70273, "", "=q4=Ruthless Gladiator's Linked Spaulders", "=ds="};
 				{ 11, 70269, "", "=q4=Ruthless Gladiator's Linked Armor", "=ds="};
 				{ 12, 70270, "", "=q4=Ruthless Gladiator's Linked Gauntlets", "=ds="};
 				{ 13, 70272, "", "=q4=Ruthless Gladiator's Linked Leggings", "=ds="};
-				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60435, "", "=q4=Vicious Gladiator's Linked Helm", "=ds="};
 				{ 18, 60437, "", "=q4=Vicious Gladiator's Linked Spaulders", "=ds="};
 				{ 19, 60433, "", "=q4=Vicious Gladiator's Linked Armor", "=ds="};
@@ -4696,19 +4696,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73515, "", "=q4=Cataclysmic Gladiator's Ringmail Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73513, "", "=q4=Cataclysmic Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73517, "", "=q4=Cataclysmic Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
 				{ 5, 73516, "", "=q4=Cataclysmic Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73514, "", "=q4=Cataclysmic Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70266, "", "=q4=Ruthless Gladiator's Ringmail Helm", "=ds="};
 				{ 10, 70268, "", "=q4=Ruthless Gladiator's Ringmail Spaulders", "=ds="};
 				{ 11, 70264, "", "=q4=Ruthless Gladiator's Ringmail Armor", "=ds="};
 				{ 12, 70265, "", "=q4=Ruthless Gladiator's Ringmail Gauntlets", "=ds="};
 				{ 13, 70267, "", "=q4=Ruthless Gladiator's Ringmail Leggings", "=ds="};
-				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60430, "", "=q4=Vicious Gladiator's Ringmail Helm", "=ds="};
 				{ 18, 60432, "", "=q4=Vicious Gladiator's Ringmail Spaulders", "=ds="};
 				{ 19, 60428, "", "=q4=Vicious Gladiator's Ringmail Armor", "=ds="};
@@ -4725,19 +4725,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73486, "", "=q4=Cataclysmic Gladiator's Felweave Cowl", "=ds=", "#HONOR:2200#"};
 				{ 3, 73483, "", "=q4=Cataclysmic Gladiator's Felweave Amice", "=ds=", "#HONOR:1650#"};
 				{ 4, 73484, "", "=q4=Cataclysmic Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
 				{ 5, 73487, "", "=q4=Cataclysmic Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
 				{ 6, 73485, "", "=q4=Cataclysmic Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70315, "", "=q4=Ruthless Gladiator's Felweave Cowl", "=ds="};
 				{ 10, 70318, "", "=q4=Ruthless Gladiator's Felweave Amice", "=ds="};
 				{ 11, 70317, "", "=q4=Ruthless Gladiator's Felweave Raiment", "=ds="};
 				{ 12, 70314, "", "=q4=Ruthless Gladiator's Felweave Handguards", "=ds="};
 				{ 13, 70316, "", "=q4=Ruthless Gladiator's Felweave Trousers", "=ds="};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60479, "", "=q4=Vicious Gladiator's Felweave Cowl", "=ds="};
 				{ 18, 60482, "", "=q4=Vicious Gladiator's Felweave Amice", "=ds="};
 				{ 19, 60481, "", "=q4=Vicious Gladiator's Felweave Raiment", "=ds="};
@@ -4754,19 +4754,19 @@ local moduleName = "AtlasLootCataclysm"
 	AtlasLoot_Data["PVP85Warrior"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 11"]..", "..BabbleBoss["Alizabal"]};
+				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 11"]..", "..AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339)};
 				{ 2, 73480, "", "=q4=Cataclysmic Gladiator's Plate Helm", "=ds=", "#HONOR:2200#"};
 				{ 3, 73478, "", "=q4=Cataclysmic Gladiator's Plate Shoulders", "=ds=", "#HONOR:1650#"};
 				{ 4, 73482, "", "=q4=Cataclysmic Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
 				{ 5, 73481, "", "=q4=Cataclysmic Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
 				{ 6, 73479, "", "=q4=Cataclysmic Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
-				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 10"]..", "..BabbleBoss["Occu'thar"]};
+				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 10"]..", "..AtlasLoot:EJ_GetBossName("Occu'thar", 140)};
 				{ 9, 70256, "", "=q4=Ruthless Gladiator's Plate Helm", "=ds="};
 				{ 10, 70258, "", "=q4=Ruthless Gladiator's Plate Shoulders", "=ds="};
 				{ 11, 70254, "", "=q4=Ruthless Gladiator's Plate Chestpiece", "=ds="};
 				{ 12, 70255, "", "=q4=Ruthless Gladiator's Plate Gauntlets", "=ds="};
 				{ 13, 70257, "", "=q4=Ruthless Gladiator's Plate Legguards", "=ds="};
-				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 9"]..", "..BabbleBoss["Argaloth"]};
+				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="..AL["Season 9"]..", "..AtlasLoot:EJ_GetBossName("Argaloth", 139)};
 				{ 17, 60420, "", "=q4=Vicious Gladiator's Plate Helm", "=ds="};
 				{ 18, 60422, "", "=q4=Vicious Gladiator's Plate Shoulders", "=ds="};
 				{ 19, 60418, "", "=q4=Vicious Gladiator's Plate Chestpiece", "=ds="};
@@ -5004,17 +5004,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60341, "", "=q4=Magma Plated Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60343, "", "=q4=Magma Plated Pauldrons", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60341, "", "=q4=Magma Plated Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60343, "", "=q4=Magma Plated Pauldrons", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60339, "", "=q4=Magma Plated Battleplate", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60340, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60342, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t11s10_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65181, "", "=q4=Magma Plated Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65183, "", "=q4=Magma Plated Pauldrons", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65179, "", "=q4=Magma Plated Battleplate", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65180, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65182, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65181, "", "=q4=Magma Plated Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65183, "", "=q4=Magma Plated Pauldrons", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65179, "", "=q4=Magma Plated Battleplate", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65180, "", "=q4=Magma Plated Gauntlets", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65182, "", "=q4=Magma Plated Legplates", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t12s10_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 71060, "", "=q4=Elementium Deathplate Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71062, "", "=q4=Elementium Deathplate Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5039,17 +5039,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60351, "", "=q4=Magma Plated Faceguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60353, "", "=q4=Magma Plated Shoulderguards", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60351, "", "=q4=Magma Plated Faceguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60353, "", "=q4=Magma Plated Shoulderguards", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60349, "", "=q4=Magma Plated Chestguard", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60350, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60352, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t11s10_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65186, "", "=q4=Magma Plated Faceguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65188, "", "=q4=Magma Plated Shoulderguards", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65184, "", "=q4=Magma Plated Chestguard", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65185, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65187, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65186, "", "=q4=Magma Plated Faceguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65188, "", "=q4=Magma Plated Shoulderguards", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65184, "", "=q4=Magma Plated Chestguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65185, "", "=q4=Magma Plated Handguards", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65187, "", "=q4=Magma Plated Legguards", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t12s10_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 70954, "", "=q4=Elementium Deathplate Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 70951, "", "=q4=Elementium Deathplate Shouldergards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5074,17 +5074,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t11s1_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60277, "", "=q4=Stormrider's Helm", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60279, "", "=q4=Stormrider's Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60277, "", "=q4=Stormrider's Helm", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60279, "", "=q4=Stormrider's Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60276, "", "=q4=Stormrider's Robes", "=ds=#s5#, #a2#", "#JUSTICE:2200#"};
 				{ 5, 60280, "", "=q4=Stormrider's Handwraps", "=ds=#s9#, #a2#", "#JUSTICE:1650#"};
 				{ 6, 60278, "", "=q4=Stormrider's Legwraps", "=ds=#s11#, #a2#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t11s1_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65195, "", "=q4=Stormrider's Helm", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65198, "", "=q4=Stormrider's Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65197, "", "=q4=Stormrider's Robes", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65194, "", "=q4=Stormrider's Handwraps", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65196, "", "=q4=Stormrider's Legwraps", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65195, "", "=q4=Stormrider's Helm", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65198, "", "=q4=Stormrider's Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65197, "", "=q4=Stormrider's Robes", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65194, "", "=q4=Stormrider's Handwraps", "=ds=#s9#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65196, "", "=q4=Stormrider's Legwraps", "=ds=#s11#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#t12s1_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 71103, "", "=q4=Obsidian Arborweave Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71106, "", "=q4=Obsidian Arborweave Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5109,17 +5109,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60286, "", "=q4=Stormrider's Headpiece", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60289, "", "=q4=Stormrider's Spaulders", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60286, "", "=q4=Stormrider's Headpiece", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60289, "", "=q4=Stormrider's Spaulders", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60287, "", "=q4=Stormrider's Raiment", "=ds=#s5#, #a2#", "#JUSTICE:2200#"};
 				{ 5, 60290, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", "#JUSTICE:1650#"};
 				{ 6, 60288, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", "#JUSTICE:2200#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#t11s1_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65190, "", "=q4=Stormrider's Headpiece", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65193, "", "=q4=Stormrider's Spaulders", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65192, "", "=q4=Stormrider's Raiment", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65189, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65191, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65190, "", "=q4=Stormrider's Headpiece", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65193, "", "=q4=Stormrider's Spaulders", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65192, "", "=q4=Stormrider's Raiment", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65189, "", "=q4=Stormrider's Grips", "=ds=#s9#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65191, "", "=q4=Stormrider's Legguards", "=ds=#s11#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "ability_racial_bearform", "=q6=#t12s1_2#", "=q5="..AL["Tier 12"]};
 				{ 17, 71098, "", "=q4=Obsidian Arborweave Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71101, "", "=q4=Obsidian Arborweave Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5144,17 +5144,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60282, "", "=q4=Stormrider's Cover", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60284, "", "=q4=Stormrider's Shoulderwraps", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60282, "", "=q4=Stormrider's Cover", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60284, "", "=q4=Stormrider's Shoulderwraps", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60281, "", "=q4=Stormrider's Vestment", "=ds=#s5#, #a2#", "#JUSTICE:2200#"};
 				{ 5, 60285, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:1650#"};
 				{ 6, 60283, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t11s1_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65200, "", "=q4=Stormrider's Cover", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65203, "", "=q4=Stormrider's Shoulderwraps", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65202, "", "=q4=Stormrider's Vestment", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65199, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65201, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65200, "", "=q4=Stormrider's Cover", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65203, "", "=q4=Stormrider's Shoulderwraps", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65202, "", "=q4=Stormrider's Vestment", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65199, "", "=q4=Stormrider's Gloves", "=ds=#s9#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65201, "", "=q4=Stormrider's Leggings", "=ds=#s11#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_nature_starfall", "=q6=#t12s1_3#", "=q5="..AL["Tier 12"]};
 				{ 17, 71108, "", "=q4=Obsidian Arborweave Cover", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71111, "", "=q4=Obsidian Arborweave Shoulderwraps", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5179,17 +5179,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t11s2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60303, "", "=q4=Lightning-Charged Headguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60306, "", "=q4=Lightning-Charged Spaulders", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60303, "", "=q4=Lightning-Charged Headguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60306, "", "=q4=Lightning-Charged Spaulders", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60304, "", "=q4=Lightning-Charged Tunic", "=ds=#s5#, #a3#", "#JUSTICE:2200#"};
 				{ 5, 60307, "", "=q4=Lightning-Charged Gloves", "=ds=#s9#, #a3#", "#JUSTICE:1650#"};
 				{ 6, 60305, "", "=q4=Lightning-Charged Legguards", "=ds=#s11#, #a3#", "#JUSTICE:2200#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t11s2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65206, "", "=q4=Lightning-Charged Headguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65208, "", "=q4=Lightning-Charged Spaulders", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65204, "", "=q4=Lightning-Charged Tunic", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65205, "", "=q4=Lightning-Charged Gloves", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65207, "", "=q4=Lightning-Charged Legguards", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65206, "", "=q4=Lightning-Charged Headguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65208, "", "=q4=Lightning-Charged Spaulders", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65204, "", "=q4=Lightning-Charged Tunic", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65205, "", "=q4=Lightning-Charged Gloves", "=ds=#s9#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65207, "", "=q4=Lightning-Charged Legguards", "=ds=#s11#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t12s2#", "=q5="..AL["Tier 12"]};
 				{ 17, 71051, "", "=q4=Flamewaker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71053, "", "=q4=Flamewaker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5214,17 +5214,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t11s3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60243, "", "=q4=Firelord's Hood", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60246, "", "=q4=Firelord's Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60243, "", "=q4=Firelord's Hood", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60246, "", "=q4=Firelord's Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60244, "", "=q4=Firelord's Robes", "=ds=#s5#, #a1#", "#JUSTICE:2200#"};
 				{ 5, 60247, "", "=q4=Firelord's Gloves", "=ds=#s9#, #a1#", "#JUSTICE:1650#"};
 				{ 6, 60245, "", "=q4=Firelord's Leggings", "=ds=#s11#, #a1#", "#JUSTICE:2200#"};
 				{ 8, 0, "inv_staff_13", "=q6=#t11s3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65210, "", "=q4=Firelord's Hood", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65213, "", "=q4=Firelord's Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65212, "", "=q4=Firelord's Robes", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65209, "", "=q4=Firelord's Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65211, "", "=q4=Firelord's Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65210, "", "=q4=Firelord's Hood", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65213, "", "=q4=Firelord's Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65212, "", "=q4=Firelord's Robes", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65209, "", "=q4=Firelord's Gloves", "=ds=#s9#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65211, "", "=q4=Firelord's Leggings", "=ds=#s11#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "inv_staff_13", "=q6=#t12s3#", "=q5="..AL["Tier 12"]};
 				{ 17, 71287, "", "=q4=Firehawk Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71290, "", "=q4=Firehawk Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5249,17 +5249,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t11s4_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60359, "", "=q4=Reinforced Sapphirium Headguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60362, "", "=q4=Reinforced Sapphirium Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60359, "", "=q4=Reinforced Sapphirium Headguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60362, "", "=q4=Reinforced Sapphirium Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60360, "", "=q4=Reinforced Sapphirium Breastplate", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60363, "", "=q4=Reinforced Sapphirium Gloves", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60361, "", "=q4=Reinforced Sapphirium Greaves", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t11s4_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65221, "", "=q4=Reinforced Sapphirium Headguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65223, "", "=q4=Reinforced Sapphirium Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65219, "", "=q4=Reinforced Sapphirium Breastplate", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65220, "", "=q4=Reinforced Sapphirium Gloves", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65222, "", "=q4=Reinforced Sapphirium Greaves", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65221, "", "=q4=Reinforced Sapphirium Headguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65223, "", "=q4=Reinforced Sapphirium Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65219, "", "=q4=Reinforced Sapphirium Breastplate", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65220, "", "=q4=Reinforced Sapphirium Gloves", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65222, "", "=q4=Reinforced Sapphirium Greaves", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t12s4_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 71093, "", "=q4=Immolation Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71095, "", "=q4=Immolation Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5284,17 +5284,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t11s4_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60356, "", "=q4=Reinforced Sapphirium Faceguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60358, "", "=q4=Reinforced Sapphirium Shoulderguards", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60356, "", "=q4=Reinforced Sapphirium Faceguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60358, "", "=q4=Reinforced Sapphirium Shoulderguards", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60354, "", "=q4=Reinforced Sapphirium Chestguard", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60355, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60357, "", "=q4=Reinforced Sapphirium Legguards", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t11s4_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65226, "", "=q4=Reinforced Sapphirium Faceguard", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65228, "", "=q4=Reinforced Sapphirium Shoulderguards", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65224, "", "=q4=Reinforced Sapphirium Chestguard", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65225, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65227, "", "=q4=Reinforced Sapphirium Legguards", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65226, "", "=q4=Reinforced Sapphirium Faceguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65228, "", "=q4=Reinforced Sapphirium Shoulderguards", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65224, "", "=q4=Reinforced Sapphirium Chestguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65225, "", "=q4=Reinforced Sapphirium Handguards", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65227, "", "=q4=Reinforced Sapphirium Legguards", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_holy_devotionaura", "=q6=#t12s4_2#", "=q5="..AL["Tier 12"]};
 				{ 17, 70948, "", "=q4=Immolation Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 70946, "", "=q4=Immolation Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5319,17 +5319,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t11s4_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60346, "", "=q4=Reinforced Sapphirium Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60348, "", "=q4=Reinforced Sapphirium Pauldrons", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60346, "", "=q4=Reinforced Sapphirium Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60348, "", "=q4=Reinforced Sapphirium Pauldrons", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60344, "", "=q4=Reinforced Sapphirium Battleplate", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60345, "", "=q4=Reinforced Sapphirium Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60347, "", "=q4=Reinforced Sapphirium Legplates", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t11s4_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65216, "", "=q4=Reinforced Sapphirium Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65218, "", "=q4=Reinforced Sapphirium Pauldrons", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65214, "", "=q4=Reinforced Sapphirium Battleplate", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65215, "", "=q4=Reinforced Sapphirium Gauntlets", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65217, "", "=q4=Reinforced Sapphirium Legplates", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65216, "", "=q4=Reinforced Sapphirium Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65218, "", "=q4=Reinforced Sapphirium Pauldrons", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65214, "", "=q4=Reinforced Sapphirium Battleplate", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65215, "", "=q4=Reinforced Sapphirium Gauntlets", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65217, "", "=q4=Reinforced Sapphirium Legplates", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t12s4_3#", "=q5="..AL["Tier 12"]};
 				{ 17, 71065, "", "=q4=Immolation Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71067, "", "=q4=Immolation Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5354,17 +5354,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t11s5_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60256, "", "=q4=Mercurial Hood", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60253, "", "=q4=Mercurial Shoulderwraps", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60256, "", "=q4=Mercurial Hood", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60253, "", "=q4=Mercurial Shoulderwraps", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60254, "", "=q4=Mercurial Vestment", "=ds=#s5#, #a1#", "#JUSTICE:2200#"};
 				{ 5, 60257, "", "=q4=Mercurial Gloves", "=ds=#s9#, #a1#", "#JUSTICE:1650#"};
 				{ 6, 60255, "", "=q4=Mercurial Leggings", "=ds=#s11#, #a1#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t11s5_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65235, "", "=q4=Mercurial Hood", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65238, "", "=q4=Mercurial Shoulderwraps", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65237, "", "=q4=Mercurial Vestment", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65234, "", "=q4=Mercurial Gloves", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65236, "", "=q4=Mercurial Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65235, "", "=q4=Mercurial Hood", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65238, "", "=q4=Mercurial Shoulderwraps", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65237, "", "=q4=Mercurial Vestment", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65234, "", "=q4=Mercurial Gloves", "=ds=#s9#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65236, "", "=q4=Mercurial Leggings", "=ds=#s11#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t12s5_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 71277, "", "=q4=Hood of the Cleansing Flame", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71280, "", "=q4=Shoulderwraps of the Cleansing Flame", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5389,17 +5389,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t11s5_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60258, "", "=q4=Mercurial Cowl", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60262, "", "=q4=Mercurial Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60258, "", "=q4=Mercurial Cowl", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60262, "", "=q4=Mercurial Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60259, "", "=q4=Mercurial Robes", "=ds=#s5#, #a1#", "#JUSTICE:2200#"};
 				{ 5, 60275, "", "=q4=Mercurial Handwraps", "=ds=#s9#, #a1#", "#JUSTICE:1650#"};
 				{ 6, 60261, "", "=q4=Mercurial Legwraps", "=ds=#s11#, #a1#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t11s5_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65230, "", "=q4=Mercurial Cowl", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65233, "", "=q4=Mercurial Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65232, "", "=q4=Mercurial Robes", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65229, "", "=q4=Mercurial Handwraps", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65231, "", "=q4=Mercurial Legwraps", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65230, "", "=q4=Mercurial Cowl", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65233, "", "=q4=Mercurial Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65232, "", "=q4=Mercurial Robes", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65229, "", "=q4=Mercurial Handwraps", "=ds=#s9#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65231, "", "=q4=Mercurial Legwraps", "=ds=#s11#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t12s5_2#", "=q5="..AL["Tier 12"]};
 				{ 17, 71272, "", "=q4=Cowl of the Cleansing Flame", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71275, "", "=q4=Mantle of the Cleansing Flame", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5424,17 +5424,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t11s6#", "=q5="..AL["Tier 11"]};
-				{ 2, 60299, "", "=q4=Wind Dancer's Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60302, "", "=q4=Wind Dancer's Spaulders", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60299, "", "=q4=Wind Dancer's Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60302, "", "=q4=Wind Dancer's Spaulders", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60301, "", "=q4=Wind Dancer's Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2200#"};
 				{ 5, 60298, "", "=q4=Wind Dancer's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:1650#"};
 				{ 6, 60300, "", "=q4=Wind Dancer's Legguards", "=ds=#s11#, #a2#", "#JUSTICE:2200#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t11s6#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65241, "", "=q4=Wind Dancer's Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65243, "", "=q4=Wind Dancer's Spaulders", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65239, "", "=q4=Wind Dancer's Tunic", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65240, "", "=q4=Wind Dancer's Gloves", "=ds=#s9#, #a2#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65242, "", "=q4=Wind Dancer's Legguards", "=ds=#s11#, #a2#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65241, "", "=q4=Wind Dancer's Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65243, "", "=q4=Wind Dancer's Spaulders", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65239, "", "=q4=Wind Dancer's Tunic", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65240, "", "=q4=Wind Dancer's Gloves", "=ds=#s9#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65242, "", "=q4=Wind Dancer's Legguards", "=ds=#s11#, #a2#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t12s6#", "=q5="..AL["Tier 12"]};
 				{ 17, 71047, "", "=q4=Dark Phoenix Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71049, "", "=q4=Dark Phoenix Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5459,17 +5459,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t11s7_3#", "=q5="..AL["Tier 11"]};
-				{ 2, 60315, "", "=q4=Headpiece of the Raging Elements", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60317, "", "=q4=Shoulderwraps of the Raging Elements", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60315, "", "=q4=Headpiece of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60317, "", "=q4=Shoulderwraps of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60313, "", "=q4=Hauberk of the Raging Elements", "=ds=#s5#, #a3#", "#JUSTICE:2200#"};
 				{ 5, 60314, "", "=q4=Gloves of the Raging Elements", "=ds=#s9#, #a3#", "#JUSTICE:1650#"};
 				{ 6, 60316, "", "=q4=Kilt of the Raging Elements", "=ds=#s11#, #a3#", "#JUSTICE:2200#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t11s7_3#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65256, "", "=q4=Headpiece of the Raging Elements", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65258, "", "=q4=Shoulderwraps of the Raging Elements", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65254, "", "=q4=Hauberk of the Raging Elements", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65255, "", "=q4=Gloves of the Raging Elements", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65257, "", "=q4=Kilt of the Raging Elements", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65256, "", "=q4=Headpiece of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65258, "", "=q4=Shoulderwraps of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65254, "", "=q4=Hauberk of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65255, "", "=q4=Gloves of the Raging Elements", "=ds=#s9#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65257, "", "=q4=Kilt of the Raging Elements", "=ds=#s11#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t12s7_3#", "=q5="..AL["Tier 12"]};
 				{ 17, 71293, "", "=q4=Erupting Volcanic Headpiece", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71295, "", "=q4=Erupting Volcanic Shoulderwraps", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5494,17 +5494,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t11s7_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60320, "", "=q4=Helmet of the Raging Elements", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60322, "", "=q4=Spaulders of the Raging Elements", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60320, "", "=q4=Helmet of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60322, "", "=q4=Spaulders of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60318, "", "=q4=Culrass of the Raging Elements", "=ds=#s5#, #a3#", "#JUSTICE:2200#"};
 				{ 5, 60319, "", "=q4=Grips of the Raging Elements", "=ds=#s9#, #a3#", "#JUSTICE:1650#"};
 				{ 6, 60321, "", "=q4=Legguards of the Raging Elements", "=ds=#s11#, #a3#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t11s7_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65251, "", "=q4=Helmet of the Raging Elements", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65253, "", "=q4=Spaulders of the Raging Elements", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65249, "", "=q4=Culrass of the Raging Elements", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65250, "", "=q4=Grips of the Raging Elements", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65252, "", "=q4=Legguards of the Raging Elements", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65251, "", "=q4=Helmet of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65253, "", "=q4=Spaulders of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65249, "", "=q4=Culrass of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65250, "", "=q4=Grips of the Raging Elements", "=ds=#s9#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65252, "", "=q4=Legguards of the Raging Elements", "=ds=#s11#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t12s7_2#", "=q5="..AL["Tier 12"]};
 				{ 17, 71303, "", "=q4=Erupting Volcanic Helmet", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71305, "", "=q4=Erupting Volcanic Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5529,17 +5529,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t11s7_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60308, "", "=q4=Faceguard of the Raging Elements", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60311, "", "=q4=Mantle of the Raging Elements", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60308, "", "=q4=Faceguard of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60311, "", "=q4=Mantle of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60309, "", "=q4=Tunic of the Raging Elements", "=ds=#s5#, #a3#", "#JUSTICE:2200#"};
 				{ 5, 60312, "", "=q4=Handwraps of the Raging Elements", "=ds=#s9#, #a3#", "#JUSTICE:1650#"};
 				{ 6, 60310, "", "=q4=Legwraps of the Raging Elements", "=ds=#s11#, #a3#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t11s7_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65246, "", "=q4=Faceguard of the Raging Elements", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65248, "", "=q4=Mantle of the Raging Elements", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65244, "", "=q4=Tunic of the Raging Elements", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65245, "", "=q4=Handwraps of the Raging Elements", "=ds=#s9#, #a3#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65247, "", "=q4=Legwraps of the Raging Elements", "=ds=#s11#, #a3#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65246, "", "=q4=Faceguard of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65248, "", "=q4=Mantle of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65244, "", "=q4=Tunic of the Raging Elements", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65245, "", "=q4=Handwraps of the Raging Elements", "=ds=#s9#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65247, "", "=q4=Legwraps of the Raging Elements", "=ds=#s11#, #a3#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t12s7_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 71298, "", "=q4=Erupting Volcanic Faceguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71300, "", "=q4=Erupting Volcanic Mantle", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5564,17 +5564,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 11"]};
-				{ 2, 60249, "", "=q4=Shadowflame Hood", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60252, "", "=q4=Shadowflame Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60249, "", "=q4=Shadowflame Hood", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60252, "", "=q4=Shadowflame Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60251, "", "=q4=Shadowflame Robes", "=ds=#s5#, #a1#", "#JUSTICE:2200#"};
 				{ 5, 60248, "", "=q4=Shadowflame Handwraps", "=ds=#s9#, #a1#", "#JUSTICE:1650#"};
 				{ 6, 60250, "", "=q4=Shadowflame Leggings", "=ds=#s11#, #a1#", "#JUSTICE:2200#"};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t11s8#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65260, "", "=q4=Shadowflame Hood", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65263, "", "=q4=Shadowflame Mantle", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65262, "", "=q4=Shadowflame Robes", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65259, "", "=q4=Shadowflame Handwraps", "=ds=#s9#, #a1#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65261, "", "=q4=Shadowflame Leggings", "=ds=#s11#, #a1#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65260, "", "=q4=Shadowflame Hood", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65263, "", "=q4=Shadowflame Mantle", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65262, "", "=q4=Shadowflame Robes", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65259, "", "=q4=Shadowflame Handwraps", "=ds=#s9#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65261, "", "=q4=Shadowflame Leggings", "=ds=#s11#, #a1#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t12s8#", "=q5="..AL["Tier 12"]};
 				{ 17, 71282, "", "=q4=Balespider's Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71285, "", "=q4=Balespider's Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5599,17 +5599,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t11s9_1#", "=q5="..AL["Tier 11"]};
-				{ 2, 60325, "", "=q4=Earthen Helmet", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60327, "", "=q4=Earthen Pauldrons", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60325, "", "=q4=Earthen Helmet", "=ds=#s1#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60327, "", "=q4=Earthen Pauldrons", "=ds=#s3#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60323, "", "=q4=Earthen Battleplate", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60326, "", "=q4=Earthen Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60324, "", "=q4=Earthen Legplates", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t11s9_1#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65266, "", "=q4=Earthen Helmet", "", "=ds="..BabbleBoss["Nefarian"]};
-				{ 10, 65268, "", "=q4=Earthen Pauldrons", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65264, "", "=q4=Earthen Battleplate", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65265, "", "=q4=Earthen Gauntlets", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65267, "", "=q4=Earthen Legplates", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65266, "", "=q4=Earthen Helmet", "", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 10, 65268, "", "=q4=Earthen Pauldrons", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65264, "", "=q4=Earthen Battleplate", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65265, "", "=q4=Earthen Gauntlets", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65267, "", "=q4=Earthen Legplates", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t12s9_1#", "=q5="..AL["Tier 12"]};
 				{ 17, 71070, "", "=q4=Helmet of the Molten Giant", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 71072, "", "=q4=Pauldrons of the Molten Giant", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};
@@ -5634,17 +5634,17 @@ local moduleName = "AtlasLootCataclysm"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t11s9_2#", "=q5="..AL["Tier 11"]};
-				{ 2, 60328, "", "=q4=Earthen Faceguard", "=ds=#s1#, #a4#", "=ds="..BabbleBoss["Nefarian"]};
-				{ 3, 60331, "", "=q4=Earthen Shoulderguards", "=ds=#s3#, #a4#", "=ds="..BabbleBoss["Cho'gall"]};
+				{ 2, 60328, "", "=q4=Earthen Faceguard", "=ds=#s1#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174)};
+				{ 3, 60331, "", "=q4=Earthen Shoulderguards", "=ds=#s3#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
 				{ 4, 60329, "", "=q4=Earthen Chestguard", "=ds=#s5#, #a4#", "#JUSTICE:2200#"};
 				{ 5, 60332, "", "=q4=Earthen Handguards", "=ds=#s9#, #a4#", "#JUSTICE:1650#"};
 				{ 6, 60330, "", "=q4=Earthen Legguards", "=ds=#s11#, #a4#", "#JUSTICE:2200#"};
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t11s9_2#", "=q5="..AL["Tier 11"].." - "..AL["Heroic"]};
-				{ 9, 65271, "", "=q4=Earthen Faceguard", "=ds="..BabbleBoss["Nefarian"], ""};
-				{ 10, 65273, "", "=q4=Earthen Shoulderguards", "", "=ds="..BabbleBoss["Cho'gall"]};
-				{ 11, 65269, "", "=q4=Earthen Chestguard", "", "=ds="..BabbleBoss["Halfus Wyrmbreaker"]};
-				{ 12, 65270, "", "=q4=Earthen Handguards", "=ds=#s9#, #a4#", "=ds="..BabbleBoss["Magmaw"]};
-				{ 13, 65272, "", "=q4=Earthen Legguards", "=ds=#s11#, #a4#", "=ds="..BabbleBoss["Maloriak"]};
+				{ 9, 65271, "", "=q4=Earthen Faceguard", "=ds="..AtlasLoot:EJ_GetBossName("Nefarian's End", 174), ""};
+				{ 10, 65273, "", "=q4=Earthen Shoulderguards", "", "=ds="..AtlasLoot:EJ_GetBossName("Cho'gall", 167)};
+				{ 11, 65269, "", "=q4=Earthen Chestguard", "", "=ds="..AtlasLoot:EJ_GetBossName("Halfus Wyrmbreaker", 156)};
+				{ 12, 65270, "", "=q4=Earthen Handguards", "=ds=#s9#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Magmaw", 170)};
+				{ 13, 65272, "", "=q4=Earthen Legguards", "=ds=#s11#, #a4#", "=ds="..AtlasLoot:EJ_GetBossName("Maloriak", 173)};
 				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t12s9_2#", "=q5="..AL["Tier 12"]};
 				{ 17, 70944, "", "=q4=Faceguard of the Molten Giant", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Ragnaros", 198)};
 				{ 18, 70941, "", "=q4=Shoulderguards of the Molten Giant", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Majordomo Staghelm", 197)};

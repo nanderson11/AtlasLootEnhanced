@@ -81,7 +81,7 @@ local moduleName = "AtlasLootWotLK"
 	--- Dungeons & Raids ---
 	------------------------
 
-	--------------------
+		--------------------
 		--- Utgarde Keep ---
 		--------------------
 
@@ -100,7 +100,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Prince Keleseth"],
+			name = AtlasLoot:EJ_GetBossName("Prince Keleseth", 638),
 			module = moduleName, instance = "UtgardeKeep",
 		};
 	};
@@ -120,7 +120,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"],
+			name = AtlasLoot:EJ_GetBossName("Skarvold & Dalronn", 639),
 			module = moduleName, instance = "UtgardeKeep",
 		};
 	};
@@ -147,7 +147,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ingvar the Plunderer"],
+			name = AtlasLoot:EJ_GetBossName("Ingvar the Plunderer", 640),
 			module = moduleName, instance = "UtgardeKeep",
 		};
 	};
@@ -188,7 +188,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ormorok the Tree-Shaper"],
+			name = AtlasLoot:EJ_GetBossName("Ormorok the Tree-Shaper", 620),
 			module = moduleName, instance = "TheNexus",
 		};
 	};
@@ -208,7 +208,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Anomalus"],
+			name = AtlasLoot:EJ_GetBossName("Anomalus", 619),
 			module = moduleName, instance = "TheNexus",
 		};
 	};
@@ -228,7 +228,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Grand Magus Telestra"],
+			name = AtlasLoot:EJ_GetBossName("Grand Magus Telestra", 618),
 			module = moduleName, instance = "TheNexus",
 		};
 	};
@@ -243,7 +243,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"],
+			name = AtlasLoot:EJ_GetBossName("Frozen Commander", 617),
 			module = moduleName, instance = "TheNexus",
 		};
 	};
@@ -268,7 +268,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Keristrasza"],
+			name = AtlasLoot:EJ_GetBossName("Keristrasza", 621),
 			module = moduleName, instance = "TheNexus",
 		};
 	};
@@ -293,7 +293,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Krik'thir the Gatewatcher"],
+			name = AtlasLoot:EJ_GetBossName("Krik'thir the Gatewatcher", 585),
 			module = moduleName, instance = "AzjolNerub",
 		};
 	};
@@ -313,7 +313,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Hadronox"],
+			name = AtlasLoot:EJ_GetBossName("Hadronox", 586),
 			module = moduleName, instance = "AzjolNerub",
 		};
 	};
@@ -339,7 +339,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Anub'arak"],
+			name = AtlasLoot:EJ_GetBossName("Anub'arak", 587),
 			module = moduleName, instance = "AzjolNerub",
 		};
 	};
@@ -378,7 +378,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Elder Nadox"],
+			name = AtlasLoot:EJ_GetBossName("Elder Nadox", 580),
 			module = moduleName, instance = "AhnKahet",
 		};
 	};
@@ -398,7 +398,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Prince Taldaram"],
+			name = AtlasLoot:EJ_GetBossName("Prince Taldaram", 581),
 			module = moduleName, instance = "AhnKahet",
 		};
 	};
@@ -413,7 +413,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Amanitar"],
+			name = AtlasLoot:EJ_GetBossName("Amanitar", 583),
 			module = moduleName, instance = "AhnKahet",
 		};
 	};
@@ -433,7 +433,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Jedoga Shadowseeker"],
+			name = AtlasLoot:EJ_GetBossName("Jedoga Shadowseeker", 582),
 			module = moduleName, instance = "AhnKahet",
 		};
 	};
@@ -459,7 +459,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Herald Volazj"],
+			name = AtlasLoot:EJ_GetBossName("Herald Volazj", 584),
 			module = moduleName, instance = "AhnKahet",
 		};
 	};
@@ -500,7 +500,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Trollgore"],
+			name = AtlasLoot:EJ_GetBossName("Trollgore", 588),
 			module = moduleName, instance = "DrakTharonKeep",
 		};
 	};
@@ -519,7 +519,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Novos the Summoner"],
+			name = AtlasLoot:EJ_GetBossName("Novos the Summoner", 589),
 			module = moduleName, instance = "DrakTharonKeep",
 		};
 	};
@@ -540,7 +540,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["King Dred"],
+			name = AtlasLoot:EJ_GetBossName("King Dred", 590),
 			module = moduleName, instance = "DrakTharonKeep",
 		};
 	};
@@ -566,7 +566,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Prophet Tharon'ja"],
+			name = AtlasLoot:EJ_GetBossName("The Prophet Tharon'ja", 591),
 			module = moduleName, instance = "DrakTharonKeep",
 		};
 	};
@@ -607,7 +607,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Erekem"],
+			name = AtlasLoot:EJ_GetBossName("Erekem", 626),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -625,7 +625,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Zuramat the Obliterator"],
+			name = AtlasLoot:EJ_GetBossName("Zuramat the Obliterator", 631),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -643,7 +643,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Xevozz"],
+			name = AtlasLoot:EJ_GetBossName("Xevozz", 629),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -661,7 +661,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ichoron"],
+			name = AtlasLoot:EJ_GetBossName("Ichoron", 628),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -679,7 +679,7 @@ local moduleName = "AtlasLootWotLK"
 			};	
 		};
 		info = {
-			name = BabbleBoss["Moragg"],
+			name = AtlasLoot:EJ_GetBossName("Moragg", 627),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -697,7 +697,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lavanthor"],
+			name = AtlasLoot:EJ_GetBossName("Lavanthor", 630),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -723,7 +723,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Cyanigosa"],
+			name = AtlasLoot:EJ_GetBossName("Cyanigosa", 632),
 			module = moduleName, instance = "VioletHold",
 		};
 	};
@@ -769,7 +769,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Slad'ran"],
+			name = AtlasLoot:EJ_GetBossName("Slad'ran", 592),
 			module = moduleName, instance = "Gundrak",
 		};
 	};
@@ -790,7 +790,7 @@ local moduleName = "AtlasLootWotLK"
 			}
 		};
 		info = {
-			name = BabbleBoss["Drakkari Colossus"],
+			name = AtlasLoot:EJ_GetBossName("Drakkari Colossus", 593),
 			module = moduleName, instance = "Gundrak",
 		};
 	};
@@ -810,7 +810,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Moorabi"],
+			name = AtlasLoot:EJ_GetBossName("Moorabi", 594),
 			module = moduleName, instance = "Gundrak",
 		};
 	};
@@ -825,7 +825,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Eck the Ferocious"],
+			name = AtlasLoot:EJ_GetBossName("Eck the Ferocious", 595),
 			module = moduleName, instance = "Gundrak",
 		};
 	};
@@ -850,7 +850,7 @@ local moduleName = "AtlasLootWotLK"
 			}
 		};
 		info = {
-			name = BabbleBoss["Gal'darah"],
+			name = AtlasLoot:EJ_GetBossName("Gal'darah", 596),
 			module = moduleName, instance = "Gundrak",
 		};
 	};
@@ -893,7 +893,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Maiden of Grief"],
+			name = AtlasLoot:EJ_GetBossName("Maiden of Grief", 605),
 			module = moduleName, instance = "UlduarHallsofStone",
 		};
 	};
@@ -912,7 +912,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Krystallus"],
+			name = AtlasLoot:EJ_GetBossName("Krystallus", 604),
 			module = moduleName, instance = "UlduarHallsofStone",
 		};
 	};
@@ -932,7 +932,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Tribunal of Ages"],
+			name = AtlasLoot:EJ_GetBossName("Tribunal of Ages", 606),
 			module = moduleName, instance = "UlduarHallsofStone",
 		};
 	};
@@ -957,7 +957,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Sjonnir The Ironshaper"],
+			name = AtlasLoot:EJ_GetBossName("Sjonnir The Ironshaper", 607),
 			module = moduleName, instance = "UlduarHallsofStone",
 		};
 	};
@@ -1000,7 +1000,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["General Bjarngrim"],
+			name = AtlasLoot:EJ_GetBossName("General Bjarngrim", 597),
 			module = moduleName, instance = "UlduarHallsofLightning",
 		};
 	};
@@ -1021,7 +1021,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Volkhan"],
+			name = AtlasLoot:EJ_GetBossName("Volkhan", 598),
 			module = moduleName, instance = "UlduarHallsofLightning",
 		};
 	};
@@ -1042,7 +1042,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ionar"],
+			name = AtlasLoot:EJ_GetBossName("Ionar", 599),
 			module = moduleName, instance = "UlduarHallsofLightning",
 		};
 	};
@@ -1075,7 +1075,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Loken"],
+			name = AtlasLoot:EJ_GetBossName("Loken", 600),
 			module = moduleName, instance = "UlduarHallsofLightning",
 		};
 	};
@@ -1119,7 +1119,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Meathook"],
+			name = AtlasLoot:EJ_GetBossName("Meathook", 611),
 			module = moduleName, instance = "CoTOldStratholme",
 		};
 	};
@@ -1140,7 +1140,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Salramm the Fleshcrafter"],
+			name = AtlasLoot:EJ_GetBossName("Salramm the Fleshcrafter", 612),
 			module = moduleName, instance = "CoTOldStratholme",
 		};
 	};
@@ -1161,7 +1161,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Chrono-Lord Epoch"],
+			name = AtlasLoot:EJ_GetBossName("Chrono-Lord Epoch", 613),
 			module = moduleName, instance = "CoTOldStratholme",
 		};
 	};
@@ -1192,7 +1192,7 @@ local moduleName = "AtlasLootWotLK"
 			}
 		};
 		info = {
-			name = BabbleBoss["Mal'Ganis"],
+			name = AtlasLoot:EJ_GetBossName("Mal'Ganis", 614),
 			module = moduleName, instance = "CoTOldStratholme",
 		};
 	};
@@ -1233,7 +1233,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Svala Sorrowgrave"],
+			name = AtlasLoot:EJ_GetBossName("Svala Sorrowgrave", 641),
 			module = moduleName, instance = "UtgardePinnacle",
 		};
 	};
@@ -1254,7 +1254,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Gortok Palehoof"],
+			name = AtlasLoot:EJ_GetBossName("Gortok Palehoof", 642),
 			module = moduleName, instance = "UtgardePinnacle",
 		};
 	};
@@ -1276,7 +1276,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Skadi the Ruthless"],
+			name = AtlasLoot:EJ_GetBossName("Skadi the Ruthless", 643),
 			module = moduleName, instance = "UtgardePinnacle",
 		};
 	};
@@ -1308,7 +1308,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["King Ymiron"],
+			name = AtlasLoot:EJ_GetBossName("King Ymiron", 644),
 			module = moduleName, instance = "UtgardePinnacle",
 		};
 	};
@@ -1351,7 +1351,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Drakos the Interrogator"],
+			name = AtlasLoot:EJ_GetBossName("Drakos the Interrogator", 622),
 			module = moduleName, instance = "TheOculus",
 		};
 	};
@@ -1372,7 +1372,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Varos Cloudstrider"],
+			name = AtlasLoot:EJ_GetBossName("Varos Cloudstrider", 623),
 			module = moduleName, instance = "TheOculus",
 		};
 	};
@@ -1393,7 +1393,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Mage-Lord Urom"],
+			name = AtlasLoot:EJ_GetBossName("Mage-Lord Urom", 624),
 			module = moduleName, instance = "TheOculus",
 		};
 	};
@@ -1425,7 +1425,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ley-Guardian Eregos"],
+			name = AtlasLoot:EJ_GetBossName("Ley-Guardian Eregos", 625),
 			module = moduleName, instance = "TheOculus",
 		};
 	};
@@ -4948,7 +4948,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Argent Confessor Paletress"],
+			name = AtlasLoot:EJ_GetBossName("Argent Confessor Paletress", 636),
 			module = moduleName, instance = "TrialOfTheChampion",
 		};
 	}
@@ -4986,7 +4986,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Eadric the Pure"],
+			name = AtlasLoot:EJ_GetBossName("Eadric the Pure", 635),
 			module = moduleName, instance = "TrialOfTheChampion",
 		};
 	}
@@ -5028,7 +5028,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Black Knight"],
+			name = AtlasLoot:EJ_GetBossName("The Black Knight", 637),
 			module = moduleName, instance = "TrialOfTheChampion",
 		};
 	}
@@ -6023,7 +6023,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Bronjahm"],
+			name = AtlasLoot:EJ_GetBossName("Bronjahm", 615),
 			module = moduleName, instance = "FHTheForgeOfSouls",
 		};
 	}
@@ -6062,7 +6062,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Devourer of Souls"],
+			name = AtlasLoot:EJ_GetBossName("Devourer of Souls", 616),
 			module = moduleName, instance = "FHTheForgeOfSouls",
 		};
 	}
@@ -6091,7 +6091,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Forgemaster Garfrost"],
+			name = AtlasLoot:EJ_GetBossName("Forgemaster Garfrost", 608),
 			module = moduleName, instance = "FHPitOfSaron",
 		};
 	}
@@ -6116,7 +6116,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Krick and Ick"],
+			name = AtlasLoot:EJ_GetBossName("Ick & Krick", 609),
 			module = moduleName, instance = "FHPitOfSaron",
 		};
 	}
@@ -6155,7 +6155,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Scourgelord Tyrannus"],
+			name = AtlasLoot:EJ_GetBossName("Scourgelord Tyrannus", 610),
 			module = moduleName, instance = "FHPitOfSaron",
 		};
 	}
@@ -6184,7 +6184,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Falric"],
+			name = AtlasLoot:EJ_GetBossName("Falric", 601),
 			module = moduleName, instance = "FHHallsOfReflection",
 		};
 	}
@@ -6209,7 +6209,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Marwyn"],
+			name = AtlasLoot:EJ_GetBossName("Marwyn", 602),
 			module = moduleName, instance = "FHHallsOfReflection",
 		};
 	}
@@ -6248,7 +6248,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Lich King"],
+			name = AtlasLoot:EJ_GetBossName("Escape from Arthas", 603),
 			module = moduleName, instance = "FHHallsOfReflection",
 		};
 	}

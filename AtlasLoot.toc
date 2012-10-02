@@ -34,8 +34,8 @@ Loader\core.xml
 
 TableRegister\TableRegister.xml
 Add_Ons\Addons.xml
-Menus\Menus.xml
 Core\AtlasLoot.xml
+Menus\Menus.xml
 Modules\Modules.xml
 Modules\CompareFrame\CompareFrame.xml
 

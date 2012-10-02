@@ -720,7 +720,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = BabbleBoss["Argaloth"],
+			name = AtlasLoot:EJ_GetBossName("Argaloth", 139),
 		};
 	}
 
@@ -744,7 +744,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = BabbleBoss["Occu'thar"],
+			name = AtlasLoot:EJ_GetBossName("Occu'thar", 140),
 		};
 	}
 
@@ -768,7 +768,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = BabbleBoss["Alizabal"],
+			name = AtlasLoot:EJ_GetBossName("Alizabal, Mistress of Hate", 339),
 		};
 	}
 
@@ -821,6 +821,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = BabbleBoss["Sha of Anger"],
+			name = AtlasLoot:EJ_GetBossName("Sha of Anger", 691),
 		};
 	}

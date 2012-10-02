@@ -102,7 +102,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Shirrak the Dead Watcher"],
+			name = AtlasLoot:EJ_GetBossName("Shirrak the Dead Watcher", 523),
 			module = moduleName, instance = "AuchAuchenaiCrypts",
 		};
 	};
@@ -134,7 +134,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Exarch Maladaar"],
+			name = AtlasLoot:EJ_GetBossName("Exarch Maladaar", 524),
 			module = moduleName, instance = "AuchAuchenaiCrypts",
 		};
 	};
@@ -182,7 +182,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Pandemonius"],
+			name = AtlasLoot:EJ_GetBossName("Pandemonius", 534),
 			module = moduleName, instance = "AuchManaTombs",
 		};
 	};
@@ -211,7 +211,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Tavarok"],
+			name = AtlasLoot:EJ_GetBossName("Tavarok", 535),
 			module = moduleName, instance = "AuchManaTombs",
 		};
 	};
@@ -256,7 +256,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Nexus-Prince Shaffar"],
+			name = AtlasLoot:EJ_GetBossName("Nexus-Prince Shaffar", 537),
 			module = moduleName, instance = "AuchManaTombs",
 		};
 	};
@@ -280,7 +280,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Yor"],
+			name = AtlasLoot:EJ_GetBossName("Yor", 536),
 			module = moduleName, instance = "AuchManaTombs",
 		};
 	};
@@ -306,7 +306,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Darkweaver Syth"],
+			name = AtlasLoot:EJ_GetBossName("Darkweaver Syth", 541),
 			module = moduleName, instance = "AuchSethekkHalls",
 		};
 	};
@@ -326,7 +326,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Anzu"],
+			name = AtlasLoot:EJ_GetBossName("Anzu", 542),
 			module = moduleName, instance = "AuchSethekkHalls",
 		};
 	};
@@ -358,7 +358,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Talon King Ikiss"],
+			name = AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543),
 			module = moduleName, instance = "AuchSethekkHalls",
 		};
 	};
@@ -382,7 +382,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ambassador Hellmaw"],
+			name = AtlasLoot:EJ_GetBossName("Ambassador Hellmaw", 544),
 			module = moduleName, instance = "AuchShadowLabyrinth",
 		};
 	};
@@ -405,7 +405,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Blackheart the Inciter"],
+			name = AtlasLoot:EJ_GetBossName("Blackheart the Inciter", 545),
 			module = moduleName, instance = "AuchShadowLabyrinth",
 		};
 	};
@@ -426,7 +426,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Grandmaster Vorpil"],
+			name = AtlasLoot:EJ_GetBossName("Grandmaster Vorpil", 546),
 			module = moduleName, instance = "AuchShadowLabyrinth",
 		};
 	};
@@ -460,7 +460,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Murmur"],
+			name = AtlasLoot:EJ_GetBossName("Murmur", 547),
 			module = moduleName, instance = "AuchShadowLabyrinth",
 		};
 	};
@@ -791,7 +791,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Lieutenant Drake"],
+			name = AtlasLoot:EJ_GetBossName("Lieutenant Drake", 538),
 			module = moduleName, instance = "CoTOldHillsbrad",
 		};
 	};
@@ -819,7 +819,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Captain Skarloc"],
+			name = AtlasLoot:EJ_GetBossName("Captain Skarloc", 539),
 			module = moduleName, instance = "CoTOldHillsbrad",
 		};
 	};
@@ -863,7 +863,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Epoch Hunter"],
+			name = AtlasLoot:EJ_GetBossName("Epoch Hunter", 540),
 			module = moduleName, instance = "CoTOldHillsbrad",
 		};
 	};
@@ -912,7 +912,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Chrono Lord Deja"],
+			name = AtlasLoot:EJ_GetBossName("Chrono Lord Deja", 552),
 			module = moduleName, instance = "CoTBlackMorass",
 		};
 	};
@@ -933,7 +933,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Temporus"],
+			name = AtlasLoot:EJ_GetBossName("Temporus", 553),
 			module = moduleName, instance = "CoTBlackMorass",
 		};
 	};
@@ -965,7 +965,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Aeonus"],
+			name = AtlasLoot:EJ_GetBossName("Aeonus", 554),
 			module = moduleName, instance = "CoTBlackMorass",
 		};
 	};
@@ -1148,7 +1148,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Mennu the Betrayer"],
+			name = AtlasLoot:EJ_GetBossName("Mennu the Betrayer", 570),
 			module = moduleName, instance = "CFRTheSlavePens",
 		};
 	};
@@ -1176,7 +1176,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Rokmar the Crackler"],
+			name = AtlasLoot:EJ_GetBossName("Rokmar the Crackler", 571),
 			module = moduleName, instance = "CFRTheSlavePens",
 		};
 	};
@@ -1218,7 +1218,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Quagmirran"],
+			name = AtlasLoot:EJ_GetBossName("Quagmirran", 572),
 			module = moduleName, instance = "CFRTheSlavePens",
 		};
 	};
@@ -1244,7 +1244,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Hydromancer Thespia"],
+			name = AtlasLoot:EJ_GetBossName("Hydromancer Thespia", 573),
 			module = moduleName, instance = "CFRTheSteamvault",
 		};
 	};
@@ -1265,7 +1265,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Mekgineer Steamrigger"],
+			name = AtlasLoot:EJ_GetBossName("Mekgineer Steamrigger", 574),
 			module = moduleName, instance = "CFRTheSteamvault",
 		};
 	};
@@ -1299,7 +1299,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Warlord Kalithresh"],
+			name = AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575),
 			module = moduleName, instance = "CFRTheSteamvault",
 		};
 	};
@@ -1344,7 +1344,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Hungarfen"],
+			name = AtlasLoot:EJ_GetBossName("Hungarfen", 576),
 			module = moduleName, instance = "CFRTheUnderbog",
 		};
 	};
@@ -1371,7 +1371,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Ghaz'an"],
+			name = AtlasLoot:EJ_GetBossName("Ghaz'an", 577),
 			module = moduleName, instance = "CFRTheUnderbog",
 		};
 	};
@@ -1398,7 +1398,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Swamplord Musel'ek"],
+			name = AtlasLoot:EJ_GetBossName("Swamplord Musel'ek", 578),
 			module = moduleName, instance = "CFRTheUnderbog",
 		};
 	};
@@ -1440,7 +1440,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Black Stalker"],
+			name = AtlasLoot:EJ_GetBossName("The Black Stalker", 579),
 			module = moduleName, instance = "CFRTheUnderbog",
 		};
 	};
@@ -1697,7 +1697,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Watchkeeper Gargolmar"],
+			name = AtlasLoot:EJ_GetBossName("Watchkeeper Gargolmar", 527),
 			module = moduleName, instance = "HCHellfireRamparts",
 		};
 	};
@@ -1734,7 +1734,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Omor the Unscarred"],
+			name = AtlasLoot:EJ_GetBossName("Omor the Unscarred", 528),
 			module = moduleName, instance = "HCHellfireRamparts",
 		};
 	};
@@ -1752,7 +1752,7 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 8, 24151, "", "=q3=Mok'Nathal Clan Ring", "=ds=#s13#", "", "15.45%"};
 				{ 9, 24044, "", "=q3=Hellreaver", "=ds=#w7#", "", "13.91%"};
 				{ 10, 24155, "", "=q3=Ursol's Claw", "=ds=#w9#", "", "16.21%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Vazruden"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Vazruden the Herald", 529), ""};
 				{ 17, 23892, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%"};
 				{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Nazan"], ""};
 				{ 20, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%"};
@@ -1777,14 +1777,14 @@ local moduleName = "AtlasLootBurningCrusade"
 				{ 18, 30592, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "8.64%"};
 				{ 20, 27453, "", "=q3=Averinn's Ring of Slaying", "=ds=#s13#", "", "14.20%"};
 				{ 21, 27460, "", "=q3=Reavers' Ring", "=ds=#s13#", "", "17.90%"};
-				{ 23, 0, "inv_box_04", "=q6="..BabbleBoss["Vazruden"], ""};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot:EJ_GetBossName("Vazruden the Herald", 529), ""};
 				{ 24, 23892, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%"};
 				{ 26, 0, "inv_box_04", "=q6="..BabbleBoss["Nazan"], ""};
 				{ 27, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
-			name = BabbleBoss["Vazruden"],
+			name = AtlasLoot:EJ_GetBossName("Vazruden the Herald", 529),
 			module = moduleName, instance = "HCHellfireRamparts",
 		};
 	};
@@ -1813,7 +1813,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["The Maker"],
+			name = AtlasLoot:EJ_GetBossName("The Maker", 555),
 			module = moduleName, instance = "HCBloodFurnace",
 		};
 	};
@@ -1839,7 +1839,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Broggok"],
+			name = AtlasLoot:EJ_GetBossName("Broggok", 556),
 			module = moduleName, instance = "HCBloodFurnace",
 		};
 	};
@@ -1879,7 +1879,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Keli'dan the Breaker"],
+			name = AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557),
 			module = moduleName, instance = "HCBloodFurnace",
 		};
 	};
@@ -1906,7 +1906,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Grand Warlock Nethekurse"],
+			name = AtlasLoot:EJ_GetBossName("Grand Warlock Nethekurse", 566),
 			module = moduleName, instance = "HCTheShatteredHalls",
 		};
 	};
@@ -1925,7 +1925,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Blood Guard Porung"],
+			name = AtlasLoot:EJ_GetBossName("Blood Guard Porung", 728),
 			module = moduleName, instance = "HCTheShatteredHalls",
 		};
 	};
@@ -1947,7 +1947,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Warbringer O'mrogg"],
+			name = AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568),
 			module = moduleName, instance = "HCTheShatteredHalls",
 		};
 	};
@@ -1980,7 +1980,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Warchief Kargath Bladefist"],
+			name = AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569),
 			module = moduleName, instance = "HCTheShatteredHalls",
 		};
 	};
@@ -2395,7 +2395,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Selin Fireheart"],
+			name = AtlasLoot:EJ_GetBossName("Selin Fireheart", 530),
 			module = moduleName, instance = "MagistersTerrace",
 		};
 	};
@@ -2420,7 +2420,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Vexallus"],
+			name = AtlasLoot:EJ_GetBossName("Vexallus", 531),
 			module = moduleName, instance = "MagistersTerrace",
 		};
 	};
@@ -2444,7 +2444,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Priestess Delrissa"], 
+			name = AtlasLoot:EJ_GetBossName("Priestess Delrissa", 532), 
 			module = moduleName, instance = "MagistersTerrace",
 		};
 	};
@@ -2484,7 +2484,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Kael'thas Sunstrider"],
+			name = AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533),
 			module = moduleName, instance = "MagistersTerrace",
 		};
 	};
@@ -2778,7 +2778,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Zereketh the Unbound"],
+			name = AtlasLoot:EJ_GetBossName("Zereketh the Unbound", 548),
 			module = moduleName, instance = "TempestKeepArcatraz",
 		};
 	};
@@ -2798,7 +2798,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Wrath-Scryer Soccothrates"],
+			name = AtlasLoot:EJ_GetBossName("Wrath-Scryer Soccothrates", 550),
 			module = moduleName, instance = "TempestKeepArcatraz",
 		};
 	};
@@ -2819,7 +2819,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Dalliah the Doomsayer"],
+			name = AtlasLoot:EJ_GetBossName("Dalliah the Doomsayer", 549),
 			module = moduleName, instance = "TempestKeepArcatraz",
 		};
 	};
@@ -2851,7 +2851,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Harbinger Skyriss"],
+			name = AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551),
 			module = moduleName, instance = "TempestKeepArcatraz",
 		};
 	};
@@ -2900,7 +2900,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Commander Sarannis"],
+			name = AtlasLoot:EJ_GetBossName("Commander Sarannis", 558),
 			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
@@ -2922,7 +2922,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["High Botanist Freywinn"],
+			name = AtlasLoot:EJ_GetBossName("High Botanist Freywinn", 559),
 			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
@@ -2943,7 +2943,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Thorngrin the Tender"],
+			name = AtlasLoot:EJ_GetBossName("Thorngrin the Tender", 560),
 			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
@@ -2964,7 +2964,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Laj"],
+			name = AtlasLoot:EJ_GetBossName("Laj", 561),
 			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
@@ -3017,7 +3017,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Warp Splinter"],
+			name = AtlasLoot:EJ_GetBossName("Warp Splinter", 562),
 			module = moduleName, instance = "TempestKeepBotanica",
 		};
 	};
@@ -3059,7 +3059,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Mechano-Lord Capacitus"],
+			name = AtlasLoot:EJ_GetBossName("Mechano-Lord Capacitus", 563),
 			module = moduleName, instance = "TempestKeepMechanar",
 		};
 	};
@@ -3079,7 +3079,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Nethermancer Sepethrea"],
+			name = AtlasLoot:EJ_GetBossName("Nethermancer Sepethrea", 564),
 			module = moduleName, instance = "TempestKeepMechanar",
 		};
 	};
@@ -3130,7 +3130,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = BabbleBoss["Pathaleon the Calculator"],
+			name = AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565),
 			module = moduleName, instance = "TempestKeepMechanar",
 		};
 	};
@@ -5374,29 +5374,29 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_InnerFire", "=q6=#ds3s1#", ""};
-				{ 2, 28413, "", "=q3=Hallowed Crown", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
-				{ 3, 27775, "", "=q3=Hallowed Pauldrons", "=ds="..BabbleBoss["Grandmaster Vorpil"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
-				{ 4, 28230, "", "=q3=Hallowed Garments", "=ds="..BabbleBoss["Murmur"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
-				{ 5, 27536, "", "=q3=Hallowed Handwraps", "=ds="..BabbleBoss["Warchief Kargath Bladefist"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 6, 27875, "", "=q3=Hallowed Trousers", "=ds="..BabbleBoss["Talon King Ikiss"].." ("..BabbleZone["Sethekk Halls"]..")"};
+				{ 2, 28413, "", "=q3=Hallowed Crown", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..BabbleZone["The Arcatraz"]..")"};
+				{ 3, 27775, "", "=q3=Hallowed Pauldrons", "=ds="..AtlasLoot:EJ_GetBossName("Grandmaster Vorpil", 546).." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 4, 28230, "", "=q3=Hallowed Garments", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 5, 27536, "", "=q3=Hallowed Handwraps", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 6, 27875, "", "=q3=Hallowed Trousers", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..BabbleZone["Sethekk Halls"]..")"};
 				{ 8, 0, "INV_Elemental_Mote_Nether", "=q6=#ds3s3#", ""};
-				{ 9, 28193, "", "=q3=Mana-Etched Crown", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
-				{ 10, 27796, "", "=q3=Mana-Etched Spaulders", "=ds="..BabbleBoss["Quagmirran"].." (#j3#)"};
-				{ 11, 28191, "", "=q3=Mana-Etched Vestments", "=ds="..BabbleBoss["Epoch Hunter"].." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 12, 27465, "", "=q3=Mana-Etched Gloves", "=ds="..BabbleBoss["Omor the Unscarred"].." ("..BabbleZone["Hellfire Ramparts"]..") (#j3#)"};
-				{ 13, 27907, "", "=q3=Mana-Etched Pantaloons", "=ds="..BabbleBoss["The Black Stalker"].." (#j3#)"};
+				{ 9, 28193, "", "=q3=Mana-Etched Crown", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")"};
+				{ 10, 27796, "", "=q3=Mana-Etched Spaulders", "=ds="..AtlasLoot:EJ_GetBossName("Quagmirran", 572).." (#j3#)"};
+				{ 11, 28191, "", "=q3=Mana-Etched Vestments", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 12, 27465, "", "=q3=Mana-Etched Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Omor the Unscarred", 528).." ("..BabbleZone["Hellfire Ramparts"]..") (#j3#)"};
+				{ 13, 27907, "", "=q3=Mana-Etched Pantaloons", "=ds="..AtlasLoot:EJ_GetBossName("The Black Stalker", 579).." (#j3#)"};
 				{ 16, 0, "Ability_Creature_Cursed_04", "=q6=#ds3s2#", ""};
-				{ 17, 28278, "", "=q3=Incanter's Cowl", "=ds="..BabbleBoss["Pathaleon the Calculator"].." ("..BabbleZone["The Mechanar"]..")"};
-				{ 18, 27738, "", "=q3=Incanter's Pauldrons", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
-				{ 19, 28229, "", "=q3=Incanter's Robe", "=ds="..BabbleBoss["Warp Splinter"].." ("..BabbleZone["The Botanica"]..")"};
-				{ 20, 27508, "", "=q3=Incanter's Gloves", "=ds="..BabbleBoss["Hydromancer Thespia"].." ("..BabbleZone["The Steamvault"]..")"}; 
-				{ 21, 27838, "", "=q3=Incanter's Trousers", "=ds="..BabbleBoss["Talon King Ikiss"].." ("..BabbleZone["Sethekk Halls"]..")"};
+				{ 17, 28278, "", "=q3=Incanter's Cowl", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..BabbleZone["The Mechanar"]..")"};
+				{ 18, 27738, "", "=q3=Incanter's Pauldrons", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
+				{ 19, 28229, "", "=q3=Incanter's Robe", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..BabbleZone["The Botanica"]..")"};
+				{ 20, 27508, "", "=q3=Incanter's Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Hydromancer Thespia", 573).." ("..BabbleZone["The Steamvault"]..")"}; 
+				{ 21, 27838, "", "=q3=Incanter's Trousers", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..BabbleZone["Sethekk Halls"]..")"};
 				{ 23, 0, "Ability_Creature_Cursed_03", "=q6=#ds3s4#", ""};
-				{ 24, 28415, "", "=q3=Hood of Oblivion", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
-				{ 25, 27778, "", "=q3=Spaulders of Oblivion", "=ds="..BabbleBoss["Murmur"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
-				{ 26, 28232, "", "=q3=Robe of Oblivion", "=ds="..BabbleBoss["Murmur"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
-				{ 27, 27537, "", "=q3=Gloves of Oblivion", "=ds="..BabbleBoss["Warchief Kargath Bladefist"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 28, 27948, "", "=q3=Trousers of Oblivion", "=ds="..BabbleBoss["Talon King Ikiss"].." ("..BabbleZone["Sethekk Halls"]..")"};
+				{ 24, 28415, "", "=q3=Hood of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..BabbleZone["The Arcatraz"]..")"};
+				{ 25, 27778, "", "=q3=Spaulders of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 26, 28232, "", "=q3=Robe of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 27, 27537, "", "=q3=Gloves of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 28, 27948, "", "=q3=Trousers of Oblivion", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..BabbleZone["Sethekk Halls"]..")"};
 			};
 		};
 		info = {
@@ -5409,23 +5409,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Ability_Rogue_SinisterCalling", "=q6=#ds3s5#", ""};
-				{ 2, 28414, "", "=q3=Helm of Assassination", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
-				{ 3, 27776, "", "=q3=Shoulderpads of Assassination", "=ds="..BabbleBoss["Talon King Ikiss"].." ("..BabbleZone["Sethekk Halls"]..")"};
-				{ 4, 28204, "", "=q3=Tunic of Assassination", "=ds="..BabbleBoss["Pathaleon the Calculator"].." ("..BabbleZone["The Mechanar"]..")"};
-				{ 5, 27509, "", "=q3=Handgrips of Assassination", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
-				{ 6, 27908, "", "=q3=Leggings of Assassination", "=ds="..BabbleBoss["Murmur"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 2, 28414, "", "=q3=Helm of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..BabbleZone["The Arcatraz"]..")"};
+				{ 3, 27776, "", "=q3=Shoulderpads of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..BabbleZone["Sethekk Halls"]..")"};
+				{ 4, 28204, "", "=q3=Tunic of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..BabbleZone["The Mechanar"]..")"};
+				{ 5, 27509, "", "=q3=Handgrips of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")"};
+				{ 6, 27908, "", "=q3=Leggings of Assassination", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..BabbleZone["Shadow Labyrinth"]..")"};
 				{ 8, 0, "Ability_Hunter_RapidKilling", "=q6=#ds3s7#", ""};
-				{ 9, 28224, "", "=q3=Wastewalker Helm", "=ds="..BabbleBoss["Epoch Hunter"].." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 9, 28224, "", "=q3=Wastewalker Helm", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
 				{ 10, 27797, "", "=q3=Wastewalker Shoulderpads", "=ds="..AL["Avatar"].." ("..BabbleZone["Auchenai Crypts"]..") (#j3#)"};
-				{ 11, 28264, "", "=q3=Wastewalker Tunic", "=ds="..BabbleBoss["Keli'dan the Breaker"].." ("..BabbleZone["The Blood Furnace"]..") (#j3#)"};
-				{ 12, 27531, "", "=q3=Wastewalker Gloves", "=ds="..BabbleBoss["Warchief Kargath Bladefist"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 13, 27837, "", "=q3=Wastewalker Leggings", "=ds="..BabbleBoss["Nexus-Prince Shaffar"].." ("..BabbleZone["Mana-Tombs"]..") (#j3#)"};
+				{ 11, 28264, "", "=q3=Wastewalker Tunic", "=ds="..AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557).." ("..BabbleZone["The Blood Furnace"]..") (#j3#)"};
+				{ 12, 27531, "", "=q3=Wastewalker Gloves", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 13, 27837, "", "=q3=Wastewalker Leggings", "=ds="..AtlasLoot:EJ_GetBossName("Nexus-Prince Shaffar", 537).." ("..BabbleZone["Mana-Tombs"]..") (#j3#)"};
 				{ 16, 0, "Spell_Holy_SealOfRighteousness", "=q6=#ds3s6#", ""};
-				{ 17, 28348, "", "=q3=Moonglade Cowl", "=ds="..BabbleBoss["Warp Splinter"].." ("..BabbleZone["The Botanica"]..")"};
-				{ 18, 27737, "", "=q3=Moonglade Shoulders", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
-				{ 19, 28202, "", "=q3=Moonglade Robe", "=ds="..BabbleBoss["Pathaleon the Calculator"].." ("..BabbleZone["The Mechanar"]..")"};
-				{ 20, 27468, "", "=q3=Moonglade Handwraps", "=ds="..BabbleBoss["Blackheart the Inciter"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
-				{ 21, 27873, "", "=q3=Moonglade Pants", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
+				{ 17, 28348, "", "=q3=Moonglade Cowl", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..BabbleZone["The Botanica"]..")"};
+				{ 18, 27737, "", "=q3=Moonglade Shoulders", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
+				{ 19, 28202, "", "=q3=Moonglade Robe", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..BabbleZone["The Mechanar"]..")"};
+				{ 20, 27468, "", "=q3=Moonglade Handwraps", "=ds="..AtlasLoot:EJ_GetBossName("Blackheart the Inciter", 545).." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 21, 27873, "", "=q3=Moonglade Pants", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")"};
 			};
 		};
 		info = {
@@ -5438,23 +5438,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Ability_Hunter_Pet_Wolf", "=q6=#ds3s8#", ""};
-				{ 2, 28275, "", "=q3=Beast Lord Helm", "=ds="..BabbleBoss["Pathaleon the Calculator"].." ("..BabbleZone["The Mechanar"]..")"};
-				{ 3, 27801, "", "=q3=Beast Lord Mantle", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
-				{ 4, 28228, "", "=q3=Beast Lord Curiass", "=ds="..BabbleBoss["Warp Splinter"].." ("..BabbleZone["The Botanica"]..")"};
-				{ 5, 27474, "", "=q3=Beast Lord Handguards", "=ds="..BabbleBoss["Warchief Kargath Bladefist"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 6, 27874, "", "=q3=Beast Lord Leggings", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
+				{ 2, 28275, "", "=q3=Beast Lord Helm", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..BabbleZone["The Mechanar"]..")"};
+				{ 3, 27801, "", "=q3=Beast Lord Mantle", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
+				{ 4, 28228, "", "=q3=Beast Lord Curiass", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..BabbleZone["The Botanica"]..")"};
+				{ 5, 27474, "", "=q3=Beast Lord Handguards", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 6, 27874, "", "=q3=Beast Lord Leggings", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
 				{ 8, 0, "INV_Helmet_70", "=q6=#ds3s10#", ""};
-				{ 9, 28349, "", "=q3=Tidefury Helm", "=ds="..BabbleBoss["Warp Splinter"].." ("..BabbleZone["The Botanica"]..")"};
-				{ 10, 27802, "", "=q3=Tidefury Shoulderguards", "=ds="..BabbleBoss["Warbringer O'mrogg"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 11, 28231, "", "=q3=Tidefury Chestpiece", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
-				{ 12, 27510, "", "=q3=Tidefury Gauntlets", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
-				{ 13, 27909, "", "=q3=Tidefury Kilt", "=ds="..BabbleBoss["Murmur"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 9, 28349, "", "=q3=Tidefury Helm", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..BabbleZone["The Botanica"]..")"};
+				{ 10, 27802, "", "=q3=Tidefury Shoulderguards", "=ds="..AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 11, 28231, "", "=q3=Tidefury Chestpiece", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..BabbleZone["The Arcatraz"]..")"};
+				{ 12, 27510, "", "=q3=Tidefury Gauntlets", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
+				{ 13, 27909, "", "=q3=Tidefury Kilt", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..BabbleZone["Shadow Labyrinth"]..")"};
 				{ 16, 0, "Ability_FiegnDead", "=q6=#ds3s9#", ""};
-				{ 17, 28192, "", "=q3=Helm of Desolation", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
-				{ 18, 27713, "", "=q3=Pauldrons of Desolation", "=ds="..BabbleBoss["Quagmirran"].." (#j3#)"};
-				{ 19, 28401, "", "=q3=Hauberk of Desolation", "=ds="..BabbleBoss["Epoch Hunter"].." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 20, 27528, "", "=q3=Gauntlets of Desolation", "=ds="..BabbleBoss["Warchief Kargath Bladefist"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 21, 27936, "", "=q3=Greaves of Desolation", "=ds="..BabbleBoss["Talon King Ikiss"].." ("..BabbleZone["Sethekk Halls"]..")"};
+				{ 17, 28192, "", "=q3=Helm of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")"};
+				{ 18, 27713, "", "=q3=Pauldrons of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Quagmirran", 572).." (#j3#)"};
+				{ 19, 28401, "", "=q3=Hauberk of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 20, 27528, "", "=q3=Gauntlets of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Warchief Kargath Bladefist", 569).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 21, 27936, "", "=q3=Greaves of Desolation", "=ds="..AtlasLoot:EJ_GetBossName("Talon King Ikiss", 543).." ("..BabbleZone["Sethekk Halls"]..")"};
 			};
 		};
 		info = {
@@ -5467,23 +5467,23 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Fire_EnchantWeapon", "=q6=#ds3s11#", ""};
-				{ 2, 28350, "", "=q3=Warhelm of the Bold", "=ds="..BabbleBoss["Warp Splinter"].." ("..BabbleZone["The Botanica"]..")"};
-				{ 3, 27803, "", "=q3=Shoulderguards of the Bold", "=ds="..BabbleBoss["Murmur"].." ("..BabbleZone["Shadow Labyrinth"]..")"};
-				{ 4, 28205, "", "=q3=Breastplate of the Bold", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
-				{ 5, 27475, "", "=q3=Gauntlets of the Bold", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
-				{ 6, 27977, "", "=q3=Legplates of the Bold", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
+				{ 2, 28350, "", "=q3=Warhelm of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Warp Splinter", 562).." ("..BabbleZone["The Botanica"]..")"};
+				{ 3, 27803, "", "=q3=Shoulderguards of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Murmur", 547).." ("..BabbleZone["Shadow Labyrinth"]..")"};
+				{ 4, 28205, "", "=q3=Breastplate of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..BabbleZone["The Arcatraz"]..")"};
+				{ 5, 27475, "", "=q3=Gauntlets of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
+				{ 6, 27977, "", "=q3=Legplates of the Bold", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")"};
 				{ 8, 0, "INV_Hammer_02", "=q6=#ds3s13#", ""};
-				{ 9, 28285, "", "=q3=Helm of the Righteous", "=ds="..BabbleBoss["Pathaleon the Calculator"].." ("..BabbleZone["The Mechanar"]..")"};
-				{ 10, 27739, "", "=q3=Spaulders of the Righteous", "=ds="..BabbleBoss["Laj"].." ("..BabbleZone["The Botanica"]..")"};
-				{ 11, 28203, "", "=q3=Breastplate of the Righteous", "=ds="..BabbleBoss["Warlord Kalithresh"].." ("..BabbleZone["The Steamvault"]..")"};
-				{ 12, 27535, "", "=q3=Gauntlets of the Righteous", "=ds="..BabbleBoss["Warbringer O'mrogg"].." ("..BabbleZone["The Shattered Halls"]..")"};
-				{ 13, 27839, "", "=q3=Legplates of the Righteous", "=ds="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")"};
+				{ 9, 28285, "", "=q3=Helm of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Pathaleon the Calculator", 565).." ("..BabbleZone["The Mechanar"]..")"};
+				{ 10, 27739, "", "=q3=Spaulders of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Laj", 561).." ("..BabbleZone["The Botanica"]..")"};
+				{ 11, 28203, "", "=q3=Breastplate of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Warlord Kalithresh", 575).." ("..BabbleZone["The Steamvault"]..")"};
+				{ 12, 27535, "", "=q3=Gauntlets of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Warbringer O'mrogg", 568).." ("..BabbleZone["The Shattered Halls"]..")"};
+				{ 13, 27839, "", "=q3=Legplates of the Righteous", "=ds="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")"};
 				{ 16, 0, "INV_Helmet_08", "=q6=#ds3s12#", ""};
-				{ 17, 28225, "", "=q3=Doomplate Warhelm", "=ds="..BabbleBoss["Epoch Hunter"].." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
-				{ 18, 27771, "", "=q3=Doomplate Shoulderguards", "=ds="..BabbleBoss["The Black Stalker"].." (#j3#)"};
-				{ 19, 28403, "", "=q3=Doomplate Chestguard", "=ds="..BabbleBoss["Harbinger Skyriss"].." ("..BabbleZone["The Arcatraz"]..")"};
-				{ 20, 27497, "", "=q3=Doomplate Gauntlets", "=ds="..BabbleBoss["Keli'dan the Breaker"].." ("..BabbleZone["The Blood Furnace"]..") (#j3#)"};
-				{ 21, 27870, "", "=q3=Doomplate Legguards", "=ds="..BabbleBoss["Exarch Maladaar"].." ("..BabbleZone["Auchenai Crypts"]..") (#j3#)"};
+				{ 17, 28225, "", "=q3=Doomplate Warhelm", "=ds="..AtlasLoot:EJ_GetBossName("Epoch Hunter", 540).." ("..BabbleZone["Old Hillsbrad Foothills"]..") (#j3#)"};
+				{ 18, 27771, "", "=q3=Doomplate Shoulderguards", "=ds="..AtlasLoot:EJ_GetBossName("The Black Stalker", 579).." (#j3#)"};
+				{ 19, 28403, "", "=q3=Doomplate Chestguard", "=ds="..AtlasLoot:EJ_GetBossName("Harbinger Skyriss", 551).." ("..BabbleZone["The Arcatraz"]..")"};
+				{ 20, 27497, "", "=q3=Doomplate Gauntlets", "=ds="..AtlasLoot:EJ_GetBossName("Keli'dan the Breaker", 557).." ("..BabbleZone["The Blood Furnace"]..") (#j3#)"};
+				{ 21, 27870, "", "=q3=Doomplate Legguards", "=ds="..AtlasLoot:EJ_GetBossName("Exarch Maladaar", 524).." ("..BabbleZone["Auchenai Crypts"]..") (#j3#)"};
 			};
 		};
 		info = {
@@ -6048,8 +6048,8 @@ local moduleName = "AtlasLootBurningCrusade"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleItemSet["Latro's Flurry"], "=q1="..AL["Various Locations"]};
-				{ 2, 34703, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "=q2="..BabbleBoss["Vexallus"].." ("..BabbleZone["Magisters' Terrace"]..")", "", ""};
-				{ 3, 28189, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "=q2="..BabbleBoss["Aeonus"].." ("..BabbleZone["The Black Morass"]..")", "", ""};
+				{ 2, 34703, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "=q2="..AtlasLoot:EJ_GetBossName("Vexallus", 531).." ("..BabbleZone["Magisters' Terrace"]..")", "", ""};
+				{ 3, 28189, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "=q2="..AtlasLoot:EJ_GetBossName("Aeonus", 554).." ("..BabbleZone["The Black Morass"]..")", "", ""};
 				{ 5, 0, "INV_Box_01", "=q6="..BabbleItemSet["The Twin Stars"], "=q1="..AL["World Drop"]};
 				{ 6, 31338, "", "=q4=Charlotte's Ivy", "=ds=#s2#", "", "0.01%"};
 				{ 7, 31339, "", "=q4=Lola's Eve", "=ds=#s13#", "", "0.01%"};

@@ -60,13 +60,13 @@ AtlasLoot_BossTooltipMatch[30549]					= BabbleBoss["The Four Horsemen"]
 -----------------------
 -- Wrath Dungeons
 -----------------------
-AtlasLoot_BossTooltipMatch[36477]					= BabbleBoss["Krick and Ick"]
-AtlasLoot_BossTooltipMatch[36476]					= BabbleBoss["Krick and Ick"]
-AtlasLoot_BossTooltipMatch[29573]					= BabbleBoss["Drakkari Colossus"]
-AtlasLoot_BossTooltipMatch[26798]					= BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"]
-AtlasLoot_BossTooltipMatch[26796]					= BabbleBoss["Commander Kolurg"].." / "..BabbleBoss["Commander Stoutbeard"]
-AtlasLoot_BossTooltipMatch[24200]					= BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"]
-AtlasLoot_BossTooltipMatch[24201]					= BabbleBoss["Skarvald the Constructor"].." / "..BabbleBoss["Dalronn the Controller"]
+AtlasLoot_BossTooltipMatch[36477]					= AtlasLoot:EJ_GetBossName("Ick & Krick", 609)
+AtlasLoot_BossTooltipMatch[36476]					= AtlasLoot:EJ_GetBossName("Ick & Krick", 609)
+AtlasLoot_BossTooltipMatch[29573]					= AtlasLoot:EJ_GetBossName("Drakkari Colossus", 593)
+AtlasLoot_BossTooltipMatch[26798]					= AtlasLoot:EJ_GetBossName("Frozen Commander", 617)
+AtlasLoot_BossTooltipMatch[26796]					= AtlasLoot:EJ_GetBossName("Frozen Commander", 617)
+AtlasLoot_BossTooltipMatch[24200]					= AtlasLoot:EJ_GetBossName("Skarvold & Dalronn", 639)
+AtlasLoot_BossTooltipMatch[24201]					= AtlasLoot:EJ_GetBossName("Skarvold & Dalronn", 639)
 
 -----------------------
 -- BC Raids
@@ -116,14 +116,14 @@ AtlasLoot_BossTooltipMatch["Heart of Wind"]			= AtlasLoot:EJ_GetBossName("Al'Aki
 -- Cataclysm Dungeons
 -----------------------
 AtlasLoot_BossTooltipMatch["Minor Cache of the Aspects"]	= AtlasLoot:EJ_GetBossName("Mannoroth and Varo'then", 292)
-AtlasLoot_BossTooltipMatch["Royal Cache"]				= AtlasLoot:EJ_GetBossName("Queen Azshara", 291)
-AtlasLoot_BossTooltipMatch["Murozond's Temporal Cache"]	= AtlasLoot:EJ_GetBossName("Murozond", 289)
+AtlasLoot_BossTooltipMatch["Royal Cache"]			= AtlasLoot:EJ_GetBossName("Queen Azshara", 291)
+AtlasLoot_BossTooltipMatch["Murozond's Temporal Cache"]		= AtlasLoot:EJ_GetBossName("Murozond", 289)
 AtlasLoot_BossTooltipMatch["Neptulon's Cache"]			= AtlasLoot:EJ_GetBossName("Ozumat", 104)
 
 -----------------------
 -- Wrath Raids
 -----------------------
-AtlasLoot_BossTooltipMatch["Cache of the Dreamwalker"]	= BabbleBoss["Valithria Dreamwalker"]
+AtlasLoot_BossTooltipMatch["Cache of the Dreamwalker"]		= BabbleBoss["Valithria Dreamwalker"]
 AtlasLoot_BossTooltipMatch["Deathbringer's Cache"]		= BabbleBoss["Deathbringer Saurfang"]
 AtlasLoot_BossTooltipMatch["Gunship Armory"]			= BabbleBoss["Icecrown Gunship Battle"]
 AtlasLoot_BossTooltipMatch["Champions' Cache"]			= BabbleBoss["Faction Champions"]
@@ -143,9 +143,9 @@ AtlasLoot_BossTooltipMatch["The Captain's Chest"]		= BabbleBoss["The Lich King"]
 AtlasLoot_BossTooltipMatch["Eadric's Cache"]			= BabbleBoss["Eadric the Pure"]
 AtlasLoot_BossTooltipMatch["Confessor's Cache"]			= BabbleBoss["Argent Confessor Paletress"]
 AtlasLoot_BossTooltipMatch["Champion's Cache"]			= BabbleBoss["Faction Champions"]
-AtlasLoot_BossTooltipMatch["Cache of Eregos"]			= BabbleBoss["Ley-Guardian Eregos"]
-AtlasLoot_BossTooltipMatch["Tribunal Chest"]			= BabbleBoss["The Tribunal of Ages"]
-AtlasLoot_BossTooltipMatch["Dark Runed Chest"]			= BabbleBoss["Mal'Ganis"]
+AtlasLoot_BossTooltipMatch["Cache of Eregos"]			= AtlasLoot:EJ_GetBossName("Ley-Guardian Eregos", 625)
+AtlasLoot_BossTooltipMatch["Tribunal Chest"]			= AtlasLoot:EJ_GetBossName("Tribunal of Ages", 606)
+AtlasLoot_BossTooltipMatch["Dark Runed Chest"]			= AtlasLoot:EJ_GetBossName("Mal'Ganis", 614)
 
 -----------------------
 -- BC Raids
@@ -155,7 +155,7 @@ AtlasLoot_BossTooltipMatch["Dust Covered Chest"]		= BabbleBoss["Chess Event"]
 -----------------------
 -- BC Dungeons
 -----------------------
-AtlasLoot_BossTooltipMatch["Reinforced Fel Iron Chest"]	= BabbleBoss["Vazruden"]
+AtlasLoot_BossTooltipMatch["Reinforced Fel Iron Chest"]		= AtlasLoot:EJ_GetBossName("Vazruden the Herald", 529)
 AtlasLoot_BossTooltipMatch["Cache of the Legion"]		= BabbleBoss["Cache of the Legion"]
 
 -----------------------
@@ -168,4 +168,4 @@ AtlasLoot_BossTooltipMatch["Cache of the Firelord"]		= BabbleBoss["Majordomo Exe
 -----------------------
 AtlasLoot_BossTooltipMatch["Gordok Tribute"]			= AL["DM North Tribute Chest"]
 AtlasLoot_BossTooltipMatch["Chest of The Seven"]		= AtlasLoot:EJ_GetBossName("The Seven", 385)
-AtlasLoot_BossTooltipMatch["Secret Safe"]				= AL["The Vault"]
+AtlasLoot_BossTooltipMatch["Secret Safe"]			= AL["The Vault"]
