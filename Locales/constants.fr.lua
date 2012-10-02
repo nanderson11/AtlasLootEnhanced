@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.fr.lua --- Traduction frFR par TrAsHeR (Tchoupie @ Nerz'hul-EU). Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
 This file defines an AceLocale table for all the various text strings needed
@@ -472,7 +472,7 @@ if AL then
 	AL["Enchant Cloak"] = "Enchantement Cape";
 	AL["Enchant Gloves"] = "Enchantement Gants";
 	AL["Enchant Ring"] = "Enchantement Anneau";
-	AL["Enchant Shield"] = "Enchantement Bouclier";
+	AL["Enchant Shield & Off-Hand"] = "Enchantement Bouclier";
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
 	AL["Cataclysm Vendor Sold Formulas"] = "Vendeur de formules à Cataclysme";
@@ -489,8 +489,7 @@ if AL then
 	AL["Recall"] = "Rappel";
 	AL["Scrolls"] = "Parchemins";
 	AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
-	AL["Relics/Shoulder Enchants"] = "Reliques / Enchantements d'épaule";
-	AL["Relics"] = "Reliques";
+	AL["Staffs/Shoulder Enchants"] = "Reliques / Enchantements d'épaule";
 	AL["Shoulder Enchants"] = "Enchantements d'épaule";
 	AL["Reagents"] = "Réactifs";
 	AL["Book of Glyph Mastery"] = "Livre de la maîtrise des glyphes";
@@ -632,8 +631,6 @@ if AL then
 	AL["Parry Rating"] = "Score de parade";
 	AL["Other Ratings"] = "Autres scores";
 	AL["Ratings"] = "Scores";
-	AL["Resistance"] = "Résistance";
-	AL["Specific Resistance"] = "Résistance spécifique";
 	AL["Damage Absorption"] = "Absorption des dégâts";
 	AL["Health / Second"] = "Vie / seconde"
 	AL["Mana / Second"] = "Mana / seconde";
@@ -650,7 +647,6 @@ if AL then
 	AL["Special"] = "Spécial";
 	AL["Feasts"] = "Festins";
 	AL["Speed"] = "Vitesse";
-	AL["Rod"] = "Bâtonnet"; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
 	AL["Oil"] = "Huile";-- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
 	--AL["Culture"] = true;
 	--AL["Description"] = true;

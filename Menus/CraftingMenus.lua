@@ -133,10 +133,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, "EnchantingMisc", "inv_rod_enchantedadamantite", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 10, "EnchantingCataVendor", "inv_enchant_formulasuperior_01", "=ds="..AL["Cataclysm Vendor Sold Formulas"], "=q5="..AtlasLoot:GetMapNameByID(700)};
 				{ 17, "EnchantingRing", "inv_misc_note_01", "=ds="..AL["Enchant Ring"], "" };
-				{ 18, "EnchantingShield", "Spell_Holy_GreaterHeal", "=ds="..AL["Enchant Shield"], "" };
-				{ 19, "Enchanting2HWeapon", "Trade_Engraving", "=ds="..AL["Enchant 2H Weapon"], "" };
-				{ 20, "EnchantingStaff", "Trade_Engraving", "=ds="..BabbleInventory["Staff"], "" };
-				{ 21, "EnchantingWeapon", "Trade_Engraving", "=ds="..AL["Enchant Weapon"], "" };
+				{ 18, "EnchantingShieldOffHand", "Spell_Holy_GreaterHeal", "=ds="..AL["Enchant Shield & Off-Hand"], "" };
+				{ 19, "EnchantingWeapon", "Trade_Engraving", "=ds="..AL["Enchant Weapon"], "" };
+				{ 20, "Enchanting2HWeapon", "Trade_Engraving", "=ds="..AL["Enchant 2H Weapon"], "" };
 			};
 		};
 		info = {
@@ -176,7 +175,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["INSCRIPTIONMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "Inscription_RelicsEnchants", "inv_misc_mastersinscription", "=ds="..AL["Relics/Shoulder Enchants"], "" };
+				{ 2, "Inscription_StaffsEnchants", "inv_misc_mastersinscription", "=ds="..AL["Staffs/Shoulder Enchants"], "" };
 				{ 17, "Inscription_OffHand", "inv_misc_book_16", "=ds="..AL["Off-Hand Items"], "" };
 				{ 3, "Inscription_Scrolls", "inv_scroll_15", "=ds="..AL["Scrolls"].."/"..AL["Darkmoon Faire Card"], "" };
 				{ 18, "Inscription_Misc", "INV_Inscription_Tradeskill01", "=ds="..BabbleInventory["Miscellaneous"], "" };

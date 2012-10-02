@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = true;
 	AL["Enchant Gloves"] = true;
 	AL["Enchant Ring"] = true;
-	AL["Enchant Shield"] = true;
+	AL["Enchant Shield & Off-Hand"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
 	AL["Cataclysm Vendor Sold Formulas"] = true;
@@ -491,8 +491,7 @@ if AL then
 	AL["Recall"] = true;
 	AL["Scrolls"] = true;
 	AL["Off-Hand Items"] = true;
-	AL["Relics/Shoulder Enchants"] = true;
-	AL["Relics"] = true;
+	AL["Staffs/Shoulder Enchants"] = true;
 	AL["Shoulder Enchants"] = true;
 	AL["Reagents"] = true;
 	AL["Book of Glyph Mastery"] = true;
@@ -636,8 +635,6 @@ if AL then
 	AL["Parry Rating"] = true;
 	AL["Other Ratings"] = true;
 	AL["Ratings"] = true;
-	AL["Resistance"] = true;
-	AL["Specific Resistance"] = true;
 	AL["Damage Absorption"] = true;
 	AL["Health / Second"] = true;
 	AL["Mana / Second"] = true;
@@ -654,7 +651,6 @@ if AL then
 	AL["Special"] = true;
 	AL["Feasts"] = true;
 	AL["Speed"] = true;
-	AL["Rod"] = true; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
 	AL["Oil"] = true; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
 	AL["Culture"] = true;
 	AL["Description"] = true;

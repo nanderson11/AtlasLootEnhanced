@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.cn.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = "附魔披风";
 	AL["Enchant Gloves"] = "附魔手套";
 	AL["Enchant Ring"] = "附魔戒指";
-	AL["Enchant Shield"] = "附魔盾牌";
+	AL["Enchant Shield & Off-Hand"] = "附魔盾牌";
 	AL["Enchant 2H Weapon"] = "附魔双手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "大地的裂变商人出售公式";
@@ -491,8 +491,7 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷轴";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Relics/Shoulder Enchants"] = "圣物/肩膀附魔";
-	AL["Relics"] = "圣物";
+	AL["Staffs/Shoulder Enchants"] = "圣物/肩膀附魔";
 	AL["Shoulder Enchants"] = "肩膀附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕文精通之书";
@@ -636,8 +635,6 @@ if AL then
 	AL["Parry Rating"] = "招架等级";
 	AL["Other Ratings"] = "其它等级";
 	AL["Ratings"] = "等级";
-	AL["Resistance"] = "抗性";
-	AL["Specific Resistance"] = "抗性类别";
 	AL["Damage Absorption"] = "吸收伤害";
 	AL["Health / Second"] = "每秒恢复生命";
 	AL["Mana / Second"] = "每秒恢复法力";
@@ -654,7 +651,6 @@ if AL then
 	AL["Special"] = "特殊";
 	AL["Feasts"] = "宴席";
 	AL["Speed"] = "速度";
-	AL["Rod"] = "附魔棒";
 	AL["Oil"] = "附魔油";
 	AL["Culture"] = "文化";
 	AL["Description"] = "描述";

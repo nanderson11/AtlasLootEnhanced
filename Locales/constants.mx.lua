@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.es.lua --- Traduction ES por maqjav
 This file defines an AceLocale table for all the various text strings needed
@@ -221,7 +221,7 @@ if AL then
 	AL["Enchant Cloak"] = "Encantamiento Capa";
 	AL["Enchant Gloves"] = "Encantamiento Guantes";
 	AL["Enchant Ring"] = "Encantamiento Anillo";
-	AL["Enchant Shield"] = "Encantamiento Escudo";
+	AL["Enchant Shield & Off-Hand"] = "Encantamiento Escudo";
 	AL["Enchant 2H Weapon"] = "Encantamiento Arma 2 Manos";
 	AL["Enchant Weapon"] = "Encantamiento Arma";
 

@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.en.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -392,7 +392,7 @@ if AL then
 	AL["Enchant Cloak"] = true;
 	AL["Enchant Gloves"] = true;
 	AL["Enchant Ring"] = true;
-	AL["Enchant Shield"] = true;
+	AL["Enchant Shield & Off-Hand"] = true;
 	AL["Enchant 2H Weapon"] = true;
 	AL["Enchant Weapon"] = true;
 	AL["Cataclysm Vendor Sold Formulas"] = true;
@@ -523,7 +523,6 @@ if AL then
 	AL["Mastery Rating"] = true;
 	AL["Parry Rating"] = true;
 	AL["Other Ratings"] = true;
-	AL["Resistance"] = true;
 	AL["Health / Second"] = true;
 	AL["Mana / Second"] = true;
 	AL["Tracking"] = true;

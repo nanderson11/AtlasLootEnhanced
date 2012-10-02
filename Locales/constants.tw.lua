@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 constants.tw.lua
 This file defines an AceLocale table for all the various text strings needed
@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = "附魔披風";
 	AL["Enchant Gloves"] = "附魔手套";
 	AL["Enchant Ring"] = "附魔戒指";
-	AL["Enchant Shield"] = "附魔盾牌";
+	AL["Enchant Shield & Off-Hand"] = "附魔盾牌";
 	AL["Enchant 2H Weapon"] = "附魔雙手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "浩劫與重生供應商出售公式";
@@ -491,8 +491,7 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷軸";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Relics/Shoulder Enchants"] = "聖物/肩部附魔";
-	AL["Relics"] = "聖物";
+	AL["Staffs/Shoulder Enchants"] = "聖物/肩部附魔";
 	AL["Shoulder Enchants"] = "肩部附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕紋精通之書";
@@ -636,8 +635,6 @@ if AL then
 	AL["Parry Rating"] = "招架等級";
 	AL["Other Ratings"] = "其他等級";
 	AL["Ratings"] = "等級";
-	AL["Resistance"] = "抗性";
-	AL["Specific Resistance"] = "抗性類別";
 	AL["Damage Absorption"] = "吸收傷害";
 	AL["Health / Second"] = "每秒恢復生命";
 	AL["Mana / Second"] = "每秒恢復法力";
@@ -654,7 +651,6 @@ if AL then
 	AL["Special"] = "特殊";
 	AL["Feasts"] = "宴類";
 	AL["Speed"] = "速度";
-	AL["Rod"] = "棒類/杖類"; -- Used in categorizing Enchating Misc, ex: Runed Elementium Rod, Runed Fel Iron Rod. "Rod" is used as a category name
 	AL["Oil"] = "油類"; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
 	AL["Culture"] = "文化";
 	AL["Description"] = "描述";

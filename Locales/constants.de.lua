@@ -461,6 +461,7 @@ if AL then
 	AL["Guild"] = "Gilde";
 
 	-- Blacksmithing
+	AL["Mists of Pandaria Vendor Sold Plans"] = "MoP - Vom Händler verkaufte Pläne";
 	AL["Cataclysm Vendor Sold Plans"] = "Cataclysm - Vom Händler verkaufte Pläne";
 	AL["Armor Enhancements"] = "Rüstungsverbesserungen";
 	AL["Weapon Enhancements"] = "Waffenverbesserungen";
@@ -472,7 +473,7 @@ if AL then
 	AL["Enchant Cloak"] = "Umhang verzaubern";
 	AL["Enchant Gloves"] = "Handschuhe verzaubern";
 	AL["Enchant Ring"] = "Ring verzaubern";
-	AL["Enchant Shield"] = "Schild verzaubern";
+	AL["Enchant Shield & Off-Hand"] = "Schild & Nebenhand verzaubern";
 	AL["Enchant 2H Weapon"] = "2H Waffe verzaubern";
 	AL["Enchant Weapon"] = "Waffe verzaubern";
 	AL["Cataclysm Vendor Sold Formulas"] = "Cataclysm - Vom Händler verkaufte Formeln";
@@ -489,8 +490,7 @@ if AL then
 	AL["Recall"] = "Rückruf";
 	AL["Scrolls"] = "Rollen";
 	AL["Off-Hand Items"] = "Nebenhand-Gegenstände";
-	AL["Relics/Shoulder Enchants"] = "Relikte/Schulterverzauberungen";
-	AL["Relics"] = "Relikte";
+	AL["Staffs/Shoulder Enchants"] = "Stäbe/Schulterverzauberungen";
 	AL["Shoulder Enchants"] = "Schulterverzauberungen";
 	AL["Reagents"] = "Reagenzien";
 	AL["Book of Glyph Mastery"] = "Buch der Glyphenbeherrschung";
@@ -515,6 +515,7 @@ if AL then
 	AL["Old Quest Item"] = "Alter Questgegenstand";
 	AL["Quest Reward"] = "Questbelohnung";
 	AL["Old Quest Reward"] = "Alte Questbelohnung";
+	AL["Pet Battle Quests"] = "Haustierkampf-Quest";
 	AL["Shared"] = "geteilter Loot";
 	AL["Right Half"] = "Rechte Hälfte";
 	AL["Left Half"] = "Linke Hälfte";
@@ -633,8 +634,6 @@ if AL then
 	AL["Parry Rating"] = "Parierwertung";
 	AL["Other Ratings"] = "Andere Wertungen";
 	AL["Ratings"] = "Wertungen";
-	AL["Resistance"] = "Widerstand";
-	AL["Specific Resistance"] = "Spezieller Widerstand";
 	AL["Damage Absorption"] = "Schadenssbsorption";
 	AL["Health / Second"] = "Gesundheit / Sekunde";
 	AL["Mana / Second"] = "Mana / Sekunde";
@@ -651,7 +650,6 @@ if AL then
 	AL["Special"] = "Speziell";
 	AL["Feasts"] = "Festmähler";
 	AL["Speed"] = "Tempo";
-	AL["Rod"] = "Rute";
 	AL["Oil"] = "Öl";
 	AL["Culture"] = "Volk";
 	AL["Description"] = "Beschreibung";
@@ -1082,11 +1080,13 @@ if AL then
 	AL["Firestone Vendor"] = "Händler für Feuersteine";
 	-- AL["Poseidus"] = true;
 	AL["Burgy Blackheart"] = "Bürgi Schwarzherz";
+	AL["Battle Pet Trainer"] = "Kampfhaustiertrainer";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
 	AL["Crusader's Square"] = "Kreuzzüglerpass";
 	AL["The Gauntlet"] = "Der Spießrutenlauf";
+	AL["Halfhill Farm"] = "Halbhügel Farm";
 
 	-- Shortcuts for Bossname files
 	-- AL["Avatar"] = true; Avatar of the Martyred
@@ -1145,6 +1145,10 @@ if AL then
 	AL["Hidden Stash"] = "Gebunkerte Güter";
 	AL["The Cache of Madness"] = "Der Hort des Wahnsinns";
 	AL["Stolen Present"] = "Gestohlenes Geschenk";
+	AL["Oozing Bag"] = "Schlammiger Beutel";
+	AL["Ominous Seed"] = "Ominöser Samen";
+
+	-- Blizzard Promotions
 	AL["Annual Pass"] = "Jahrespass";
 	AL["Scroll of Resurrection"] = "Rolle der Auferstehung";
 	AL["Recruit-A-Friend"] = "Werbt einen Freund";
