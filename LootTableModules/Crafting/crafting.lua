@@ -1771,10 +1771,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 24, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
 				{ 25, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
 				{ 26, 66129, "", "=q1=Plans: Vicious Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 27, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
-				{ 28, 66124, "", "=q1=Plans: Vicious Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 29, 66123, "", "=q1=Plans: Vicious Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 30, 66122, "", "=q1=Plans: Vicious Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 27, 66124, "", "=q1=Plans: Vicious Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 28, 66123, "", "=q1=Plans: Vicious Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 29, 66122, "", "=q1=Plans: Vicious Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
 			};
 			{
 				{ 1, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
@@ -1782,6 +1781,43 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, 66131, "", "=q1=Plans: Vicious Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
 				{ 4, 66130, "", "=q1=Plans: Vicious Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
 				{ 5, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
+			};
+		};
+		info = {
+			name = BLACKSMITHING..": "..AL["Cataclysm Vendor Sold Plans"],
+			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
+		};
+	};
+
+	AtlasLoot_Data["SmithingMoPVendor"] = {
+		["Normal"] = {
+			{
+				{ 1, 84163, "", "=q1=Plans: Contender's Revenant Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 2, 84165, "", "=q1=Plans: Contender's Revenant Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 3, 84161, "", "=q1=Plans: Contender's Revenant Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 4, 84160, "", "=q1=Plans: Contender's Revenant Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 5, 84162, "", "=q1=Plans: Contender's Revenant Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 6, 84158, "", "=q1=Plans: Contender's Revenant Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 7, 84164, "", "=q1=Plans: Contender's Revenant Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 8, 84159, "", "=q1=Plans: Contender's Revenant Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 9, 84171, "", "=q1=Plans: Contender's Spirit Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 10, 84173, "", "=q1=Plans: Contender's Spirit Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 11, 84169, "", "=q1=Plans: Contender's Spirit Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 12, 84168, "", "=q1=Plans: Contender's Spirit Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 13, 84170, "", "=q1=Plans: Contender's Spirit Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 14, 84166, "", "=q1=Plans: Contender's Spirit Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 15, 84172, "", "=q1=Plans: Contender's Spirit Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 16, 84167, "", "=q1=Plans: Contender's Spirit Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 17, 84224, "", "=q1=Plans: Masterwork Spiritguard Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 18, 84227, "", "=q1=Plans: Masterwork Spiritguard Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 19, 84222, "", "=q1=Plans: Masterwork Spiritguard Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 20, 84221, "", "=q1=Plans: Masterwork Spiritguard Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 21, 84223, "", "=q1=Plans: Masterwork Spiritguard Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 22, 84219, "", "=q1=Plans: Masterwork Spiritguard Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 23, 84225, "", "=q1=Plans: Masterwork Spiritguard Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 24, 84220, "", "=q1=Plans: Masterwork Spiritguard Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 25, 84208, "", "=q1=Plans: Masterwork Lighsteel Shield", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 26, 84226, "", "=q1=Plans: Masterwork Spiritguard Shield", "=ds=#p2# (575)", "1 #spiritofharmony#" },
 			};
 		};
 		info = {
@@ -6672,15 +6708,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TailoringCataVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkboltl#" },
-				{ 2, 54593, "", "=q3=Pattern: Vicious Embersilk Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 3, 54594, "", "=q3=Pattern: Vicious Embersilk Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 4, 54595, "", "=q3=Pattern: Vicious Embersilk Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 5, 54596, "", "=q3=Pattern: Vicious Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 6, 54597, "", "=q3=Pattern: Vicious Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 7, 54598, "", "=q3=Pattern: Vicious Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 8, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
-				{ 9, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkboltl#" },
+				{ 1, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkbolt#" },
+				{ 2, 54593, "", "=q3=Pattern: Vicious Embersilk Cowl", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 3, 54594, "", "=q3=Pattern: Vicious Embersilk Pants", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 4, 54595, "", "=q3=Pattern: Vicious Embersilk Robe", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 5, 54596, "", "=q3=Pattern: Vicious Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 6, 54597, "", "=q3=Pattern: Vicious Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 7, 54598, "", "=q3=Pattern: Vicious Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 8, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkbolt#" },
+				{ 9, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkbolt#" },
 				{ 10, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" },
 				{ 11, 54603, "", "=q3=Pattern: Breeches of Mended Nightmares", "=ds=#p8# (525)", "1 #dreamcloth#" },
 				{ 12, 54602, "", "=q3=Pattern: Dreamless Belt", "=ds=#p8# (525)", "1 #dreamcloth#" },

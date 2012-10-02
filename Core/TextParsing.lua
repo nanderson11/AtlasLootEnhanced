@@ -802,15 +802,16 @@ AtlasLoot_TextParsing = {
 	{ "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t" },
 
 	-- Currency Icons - Crafting Recipes
-	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},
-	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},
-	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},
-	{ "#heavenlyshard#", "|TInterface\\Icons\\inv_misc_largeshard_superior:0|t"},
-	{ "#hypnoticdust#", "|TInterface\\Icons\\inv_enchant_dust:0|t"},
-	{ "#maelstromcrystal#", "|TInterface\\Icons\\inv_misc_crystalepic:0|t"},
-	{ "#embersilkboltl#", "|TInterface\\Icons\\inv_misc_emberweavecloth_01:0|t"},
-	{ "#dreamcloth#", "|TInterface\\Icons\\inv_chest_cloth_57:0|t"},
-	{ "#heavysavageleather#", "|TInterface\\Icons\\item_savageleatherhide:0|t"},
+	{ "#spiritofharmony#", "|TInterface\\Icons\\inv_elemental_spiritofharmony_2:0|t"},		-- Spirit of Harmony (SmithingMoPVendor)
+	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},						-- Elementium Bar (SmithingCataVendor)
+	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},			-- Hardened Elementium Bar (SmithingCataVendor)
+	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},						-- Pyrium Bar (SmithingCataVendor)
+	{ "#heavenlyshard#", "|TInterface\\Icons\\inv_misc_largeshard_superior:0|t"},			-- Heavenly Shard (EnchantingCataVendor)
+	{ "#hypnoticdust#", "|TInterface\\Icons\\inv_enchant_dust:0|t"},						-- Hypnotic Dust (EnchantingCataVendor)
+	{ "#maelstromcrystal#", "|TInterface\\Icons\\inv_misc_crystalepic:0|t"},				-- Maelstrom Crystal (EnchantingCataVendor)
+	{ "#embersilkbolt#", "|TInterface\\Icons\\inv_misc_emberweavecloth_01:0|t"},			-- Bolt of Embersilk Cloth (TailoringCataVendor)
+	{ "#dreamcloth#", "|TInterface\\Icons\\inv_chest_cloth_57:0|t"},						-- Dream Cloth (TailoringCataVendor)
+	{ "#heavysavageleather#", "|TInterface\\Icons\\item_savageleatherhide:0|t"},			-- Heavy Savage Leather (LeatherworkingCataVendor)
 }
 
 --------------------------------------------------------------------------------

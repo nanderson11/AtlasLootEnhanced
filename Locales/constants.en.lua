@@ -462,6 +462,7 @@ if AL then
 	AL["Guild"] = true;
 
 	-- Blacksmithing
+	AL["Mists of Pandaria Vendor Sold Plans"] = true;
 	AL["Cataclysm Vendor Sold Plans"] = true;
 	AL["Armor Enhancements"] = true;
 	AL["Weapon Enhancements"] = true;
@@ -516,6 +517,7 @@ if AL then
 	AL["Old Quest Item"] = true;
 	AL["Quest Reward"] = true;
 	AL["Old Quest Reward"] = true;
+	AL["Pet Battle Quests"] = true;
 	AL["Shared"] = true;
 	AL["Right Half"] = true;
 	AL["Left Half"] = true;
@@ -1083,11 +1085,13 @@ if AL then
 	AL["Firestone Vendor"] = true;
 	AL["Poseidus"] = true;
 	AL["Burgy Blackheart"] = true;
+	AL["Battle Pet Trainer"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
 	AL["Crusader's Square"] = true;
 	AL["The Gauntlet"] = true;
+	AL["Halfhill Farm"] = true;
 
 	-- Shortcuts for Bossname files
 	AL["Avatar"] = true; -- Avatar of the Martyred
@@ -1146,6 +1150,10 @@ if AL then
 	AL["Hidden Stash"] = true;
 	AL["The Cache of Madness"] = true;
 	AL["Stolen Present"] = true;
+	AL["Oozing Bag"] = true;
+	AL["Ominous Seed"] = true;
+
+	-- Blizzard Promotions
 	AL["Annual Pass"] = true;
 	AL["Scroll of Resurrection"] = true;
 	AL["Recruit-A-Friend"] = true;

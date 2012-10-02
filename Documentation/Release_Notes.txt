@@ -6,6 +6,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 
+v7.02.00 (?, 2012)
+Added new vendor sold blacksmihting plans.
+Added drop location for more new pets.
+
 v7.01.01 (Sep 26, 2012)
 Fixed a nasty bug that prevented some menus to work.
 Updated Archaeology with new Mists of Pandaria artifacts.
