@@ -9,6 +9,7 @@ local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
+--local _ = nil
 local MODULENAME = "DefaultFrame"
 local DefaultFrame = AtlasLoot:NewModule(MODULENAME)
 
@@ -79,6 +80,7 @@ function DefaultFrame:OnInitialize()
 	db = self.db.profile
 	
 	self:CreateDefaultFrame()
+	--self:Helper()
 	self:CreateInstanceTab()
 	self.Frame:SetPoint(unpack(db.NEWpoint))
 	tinsert(UISpecialFrames, frameName)
@@ -86,7 +88,8 @@ function DefaultFrame:OnInitialize()
 	AtlasLoot:RegisterPFrame(frameName, { "TOPLEFT", frameName, "TOPLEFT", "18", "-84" })
 	AtlasLoot:AddResetCommand(DefaultFrame.ResetCom, "DefaultFrame", "frames")
 	--DefaultFrame:SetInstanceTable()
-	DefaultFrame:DropDownRefresh()
+	-- Call this later or it conflict with blizzard raids frames?
+	--DefaultFrame:DropDownRefresh()
 	AtlasLoot.ShowFrame_MiniMap = DefaultFrame.MiniMap_OnClick_Replace
 	AtlasLoot:DefaultFrame_RefreshScale()
 end
@@ -163,6 +166,7 @@ do
 		FauxScrollFrame_OnVerticalScroll(self, offset, 15, scrollBarUpdate); 
 	end
 	
+	local DropDownRefresh = false
 	local function onShow()
 		AtlasLoot.AtlasLootPanel:SetParent(_G[frameName])
 		AtlasLoot.AtlasLootPanel:SetPoint("TOP", frameName, "BOTTOM", 0, 9)
@@ -176,6 +180,15 @@ do
 		else
 			AtlasLoot.AtlasLootPanel:Show();
 		end 
+		
+		AtlasLoot:DefaultFrame_RefreshScale()
+		AtlasLoot:DefaultFrame_RefreshAlpha()
+		
+		if not DropDownRefresh then
+			DefaultFrame:DropDownRefresh()
+			DropDownRefresh = true
+		end
+		
 		AtlasLoot.AtlasInfoFrame:Show()
 		AtlasLootItemsFrame:Show()
 	end
@@ -241,6 +254,7 @@ do
 		Frame.LockButton:SetNormalTexture(Frame.LockButton.NormalTexture)
 		Frame.LockButton:SetPushedTexture(Frame.LockButton.PushedTexture)
 		Frame.LockButton:SetHighlightTexture(Frame.LockButton.HighlightTexture, "ADD")
+
 		updateLock()
 		
 		
@@ -683,3 +697,29 @@ function AtlasLoot:DefaultFrame_SetInstance(module, instance, iniBoss)
 		DefaultFrame:SetBoss(iniBoss)
 	end
 end
+
+--[[
+-----------------------------------------------------------------
+-- HelpPlate
+-- 13 down 46x46
+-- frameName
+--	"18", "-84"
+local DefaultFrame_HelpPlate = {
+	FramePos = { x = 0,          y = -35 },
+	FrameSize = { width = 921, height = 566 },
+	[1] = { ButtonPos = { x = 520,	y = -514.5 },  HighLightBox = { x = 545, y = -527, width = 200, height = 20 },	 ToolTipDir = "DOWN",  ToolTipText = "CompareFrame" },
+	[2] = { ButtonPos = { x = 745,	y = -511.5 },  HighLightBox = { x = 745, y = -524, width = 23, height = 23 },	 ToolTipDir = "RIGHT",  ToolTipText = "EJ" },
+	[3] = { ButtonPos = { x = 701,	y = -311.5 },  HighLightBox = { x = 540, y = -147, width = 368, height = 375 },	 ToolTipDir = "UP",  ToolTipText = "Boss Select" },
+	[4] = { ButtonPos = { x = 250,	y = -237 },  HighLightBox = { x = 18, y = -49, width = 510, height = 450 },	 ToolTipDir = "UP",  ToolTipText = "ItemFrame" },
+	[5] = { ButtonPos = { x = 162,	y = -497 },  HighLightBox = { x = 185, y = -507, width = 155, height = 25 },	 ToolTipDir = "LEFT",  ToolTipText = "QuickLoot" },
+	[6] = { ButtonPos = { x = 397,	y = -497 },  HighLightBox = { x = 340, y = -507, width = 80, height = 25 },	 ToolTipDir = "RIGHT",  ToolTipText = "Filter" },
+	[7] = { ButtonPos = { x = 157,	y = -1 },  HighLightBox = { x = 70, y = -1, width = 220, height = 45 },	 ToolTipDir = "DOWN",  ToolTipText = "Module select" },
+	[8] = { ButtonPos = { x = 395,	y = -1 },  HighLightBox = { x = 308, y = -1, width = 220, height = 45 },	 ToolTipDir = "DOWN",  ToolTipText = "Instance select" },
+}
+local Helper = LibStub("LibHelpPlate")
+function DefaultFrame:Helper()
+	self.Frame.HelpPlate = Helper:Create(self.Frame, DefaultFrame_HelpPlate)
+	self.Frame.HelpPlate:SetPoint("TOPLEFT", self.Frame, "TOPLEFT", 53, 10)
+	
+end
+]]--
