@@ -4797,9 +4797,9 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3756#"};
 				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3757#"};
 				{ 24, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "#ACHIEVEMENTID:4600#"};
-				{ 25, 71339, "", "=q4=Dreadful Gladiator's Twilight Drake", "#ACHIEVEMENTID:6003#"};
-				{ 26, 71954, "", "=q4=Malevolent Gladiator's Twilight Drake", "#ACHIEVEMENTID:6322#"};
-				{ 27, 85785, "", "=q4=Malevolent Gladiator's Twilight Drake", "#ACHIEVEMENTID:6741#"};
+				{ 25, 71339, "", "=q4=Vicious Gladiator's Twilight Drake", "#ACHIEVEMENTID:6003#"};
+				{ 26, 71954, "", "=q4=Ruthless Gladiator's Twilight Drake", "#ACHIEVEMENTID:6322#"};
+				{ 27, 85785, "", "=q4=Cataclysmic Gladiator's Twilight Drake", "#ACHIEVEMENTID:6741#"};
 			};
 		};
 		info = {
