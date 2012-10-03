@@ -771,33 +771,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["PVP85SET2"] = {
-		["Normal"] = {
-			{
-				{ 2, "PVP85DeathKnight2", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
-				{ 4, "PVP85DruidBalance2", "spell_nature_starfall", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
-				{ 5, "PVP85DruidFeral2", "ability_racial_bearform", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
-				{ 6, "PVP85DruidRestoration2", "spell_nature_healingtouch", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
-				{ 8, "PVP85Hunter2", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-				{ 10, "PVP85Mage2", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 12, "PVP85PaladinHoly2", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
-				{ 13, "PVP85PaladinRetribution2", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
-				{ 17, "PVP85PriestHoly2", "spell_holy_powerwordshield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Discipline"]};
-				{ 18, "PVP85PriestShadow2", "spell_shadow_shadowwordpain", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
-				{ 20, "PVP85Rogue2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 22, "PVP85ShamanElemental2", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
-				{ 23, "PVP85ShamanEnhancement2", "spell_nature_lightningshield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
-				{ 24, "PVP85ShamanRestoration2", "spell_nature_magicimmunity", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
-				{ 26, "PVP85Warlock2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 28, "PVP85Warrior2", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-			};
-		};
-		info = {
-			name = AL["PvP Armor Sets"]..": "..AL["Level 85"],
-			menu = "PVPMENU",
-		};
-	}
-
 	AtlasLoot_Data["SHAOFANGER"] = {
 		["Normal"] = {
 			{
@@ -816,7 +789,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 20, "ShaofAnger#2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 				{ 21, "ShaofAnger#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
 				{ 24, "ShaofAnger#9", "inv_bracer_mail_pvphunter_c_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
-				{ 27, 90839, "", "=q4=Cache of Sha-Touched Gold" },
+				{ 27, 90839, "", "=q4=Cache of Sha-Touched Gold", "=ds=#m20#"  },
 			};
 		};
 		info = {

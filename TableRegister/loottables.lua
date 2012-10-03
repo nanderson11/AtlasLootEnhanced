@@ -1419,7 +1419,6 @@ AtlasLoot_LootTableRegister = {
 				{ "ScholoRattlegore", 6, EncounterJournalID = 665 },
 				{ "ScholoVoss", {7, 15}, EncounterJournalID = 666 },
 				{ "ScholoGandling", 10, EncounterJournalID = 684 },
-				{ "ScholoTrash", 18 },
 			},
 			["Info"] = { BabbleZone["Scholomance"], {"AtlasLootClassicWoW", "AtlasLootMoP"}, mapname = "Scholomance", EncounterJournalID = 246 },
 		},

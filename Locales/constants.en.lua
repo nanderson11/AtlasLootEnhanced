@@ -570,6 +570,7 @@ if AL then
 	AL["Season 9"] = true;
 	AL["Season 10"] = true;
 	AL["Season 11"] = true;
+	AL["Season 12"] = true;
 	AL["Fire"] = true;
 	AL["Water"] = true;
 	AL["Wind"] = true;
