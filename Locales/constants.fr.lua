@@ -461,6 +461,7 @@ if AL then
 	AL["Guild"] = "Guilde";
 
 	-- Blacksmithing
+	AL["Mists of Pandaria Vendor Sold Plans"] = "Vendeur de plans à Mist of Pandoria";
 	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Cataclysme"
 	AL["Armor Enhancements"] = "Améliorations d'armure";
 	AL["Weapon Enhancements"] = "Améliorations d'arme";
@@ -472,7 +473,7 @@ if AL then
 	AL["Enchant Cloak"] = "Enchantement Cape";
 	AL["Enchant Gloves"] = "Enchantement Gants";
 	AL["Enchant Ring"] = "Enchantement Anneau";
-	AL["Enchant Shield & Off-Hand"] = "Enchantement Bouclier";
+	AL["Enchant Shield & Off-Hand"] = "Enchantement Bouclier & Main gauche";
 	AL["Enchant 2H Weapon"] = "Enchantement Arme à deux mains";
 	AL["Enchant Weapon"] = "Enchantement Arme";
 	AL["Cataclysm Vendor Sold Formulas"] = "Vendeur de formules à Cataclysme";
@@ -488,8 +489,8 @@ if AL then
 	AL["Runescrolls"] = "Parchemins";
 	AL["Recall"] = "Rappel";
 	AL["Scrolls"] = "Parchemins";
-	AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
-	AL["Staves/Shoulder Enchants"] = "Reliques / Enchantements d'épaule";
+	AL["Off-Hand Items"] = "Objets tenu en main gauche";
+	AL["Staves/Shoulder Enchants"] = "Enchantements Bâtons / épaules";
 	AL["Shoulder Enchants"] = "Enchantements d'épaule";
 	AL["Reagents"] = "Réactifs";
 	AL["Book of Glyph Mastery"] = "Livre de la maîtrise des glyphes";
@@ -514,6 +515,7 @@ if AL then
 	AL["Old Quest Item"] = "Ancien objet de quête";
 	AL["Quest Reward"] = "Récompense de quête";
 	AL["Old Quest Reward"] = "Ancienne récompense de quête";
+	AL["Pet Battle Quests"] = "Mascottes de combat des quêtes";
 	AL["Shared"] = "Partagé";
 	AL["Right Half"] = "Moitié droite";
 	AL["Left Half"] = "Moitié gauche";
@@ -1077,11 +1079,13 @@ if AL then
 	AL["Firestone Vendor"] = "Vendeur des Terres de Feu";
 	AL["Poseidus"] = "Poséidus";
 	AL["Burgy Blackheart"] = "Burgy Cœur-Noir";
+	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
 	AL["Crusader's Square"] = "Place des Croisés";
 	AL["The Gauntlet"] = "Le Défi";
+	AL["Halfhill Farm"] = "Marché de Micolline";
 
 	-- Shortcuts for Bossname files
 	--AL["Avatar"] = true; -- Avatar of the Martyred
@@ -1140,6 +1144,10 @@ if AL then
 	AL["Hidden Stash"] = "Fortune cachée";
 	AL["The Cache of Madness"] = "L'antre de la Folie";
 	AL["Stolen Present"] = "Cadeau volé";
+	AL["Oozing Bag"] = "Sac vaseux";
+	AL["Ominous Seed"] = "Graine inquiétante";
+
+	-- Blizzard Promotions
 	AL["Annual Pass"] = "Pass annuel";
 	AL["Scroll of Resurrection"] = "Sort de résurrection";
 	AL["Recruit-A-Friend"] = "Parrainer un ami";
