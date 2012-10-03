@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = "附魔披风";
 	AL["Enchant Gloves"] = "附魔手套";
 	AL["Enchant Ring"] = "附魔戒指";
-	AL["Enchant Shield & Off-Hand"] = "附魔盾牌";
+	AL["Enchant Shield & Off-Hand"] = "附魔盾牌/副手";
 	AL["Enchant 2H Weapon"] = "附魔双手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "大地的裂变商人出售公式";
@@ -491,7 +491,7 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷轴";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Staves/Shoulder Enchants"] = "圣物/肩膀附魔";
+	AL["Staves/Shoulder Enchants"] = "法杖/肩膀附魔";
 	AL["Shoulder Enchants"] = "肩膀附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕文精通之书";
