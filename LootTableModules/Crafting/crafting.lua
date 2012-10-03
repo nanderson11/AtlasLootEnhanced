@@ -3477,7 +3477,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 	
-	AtlasLoot_Data["Inscription_StaffsEnchants"] = {
+	AtlasLoot_Data["Inscription_StavesEnchants"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleInventory["Staff"], "" };
@@ -3497,7 +3497,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = INSCRIPTION..": "..AL["Staffs/Shoulder Enchants"],
+			name = INSCRIPTION..": "..AL["Staves/Shoulder Enchants"],
 			module = moduleName, menu = "INSCRIPTIONMENU"
 		};
 	};

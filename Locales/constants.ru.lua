@@ -422,7 +422,7 @@ if AL then
 	AL["Recall"] = "Возвраты";
 	AL["Scrolls"] = "Свитки";
 	AL["Off-Hand Items"] = "Предметы в левую руку";
-	AL["Staffs/Shoulder Enchants"] = "Реликвии";
+	AL["Staves/Shoulder Enchants"] = "Реликвии";
 	AL["Shoulder Enchants"] = "Наложения на плечи";
 	AL["Reagents"] = "Реагенты";
 	AL["Book of Glyph Mastery"] = "Книга познания символов";

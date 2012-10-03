@@ -489,7 +489,7 @@ if AL then
 	AL["Recall"] = "Rappel";
 	AL["Scrolls"] = "Parchemins";
 	AL["Off-Hand Items"] = "Objets Tenu(e) en main gauche";
-	AL["Staffs/Shoulder Enchants"] = "Reliques / Enchantements d'épaule";
+	AL["Staves/Shoulder Enchants"] = "Reliques / Enchantements d'épaule";
 	AL["Shoulder Enchants"] = "Enchantements d'épaule";
 	AL["Reagents"] = "Réactifs";
 	AL["Book of Glyph Mastery"] = "Livre de la maîtrise des glyphes";

@@ -175,7 +175,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["INSCRIPTIONMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "Inscription_StaffsEnchants", "inv_misc_mastersinscription", "=ds="..AL["Staffs/Shoulder Enchants"], "" };
+				{ 2, "Inscription_StavesEnchants", "inv_misc_mastersinscription", "=ds="..AL["Staves/Shoulder Enchants"], "" };
 				{ 17, "Inscription_OffHand", "inv_misc_book_16", "=ds="..AL["Off-Hand Items"], "" };
 				{ 3, "Inscription_Scrolls", "inv_scroll_15", "=ds="..AL["Scrolls"].."/"..AL["Darkmoon Faire Card"], "" };
 				{ 18, "Inscription_Misc", "INV_Inscription_Tradeskill01", "=ds="..BabbleInventory["Miscellaneous"], "" };
