@@ -570,6 +570,7 @@ if AL then
 	AL["Season 9"] = "第九季";
 	AL["Season 10"] = "第十季";
 	AL["Season 11"] = "第十一季";
+	AL["Season 12"] = "第十二季";
 	AL["Fire"] = "赤紅";
 	AL["Water"] = "碧藍";
 	AL["Wind"] = "蒼白";
