@@ -7,6 +7,7 @@ back to the English translation.
 
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
 ]]
+
 	-- Table holding all loot tables is initialised here as it loads early
 	--AtlasLoot_Data = {};
 	--AtlasLoot_TableNames = {};
@@ -569,6 +570,7 @@ if AL then
 	AL["Season 9"] = "Saison 9";
 	AL["Season 10"] = "Saison 10";
 	AL["Season 11"] = "Saison 11";
+	AL["Season 12"] = "Saison 12";
 	AL["Fire"] = "Feuer";
 	AL["Water"] = "Wasser";
 	AL["Wind"] = "Wind";

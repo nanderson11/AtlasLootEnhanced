@@ -9,6 +9,7 @@ v7.02.00 (Oct 03, 2012)
 Compatible with Atlas 1.22.
 Added all of Mists of Pandaria raid loot (thanks Dynaletik).
 Added PvP Season 12 items.
+Updated Alchemy with Mists of Pandaria recipes.
 Updated Enchanting with Mists of Pandaria recipes.
 Added new vendor sold blacksmithing plans.
 Many minor fixes, additions and translations.
