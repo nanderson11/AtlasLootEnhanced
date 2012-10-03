@@ -11,8 +11,8 @@ Added all of Mists of Pandaria raid loot (thanks Dynaletik).
 Added Mists of Pandaria Valor Points items.
 Added PvP Season 12 items.
 Updated Alchemy with Mists of Pandaria recipes.
+Updated Blacksmithing with Mists of Pandaria vendor sold plans.
 Updated Enchanting with Mists of Pandaria recipes.
-Added new vendor sold blacksmithing plans.
 Many minor fixes, additions and translations.
 
 v7.01.01 (Sep 26, 2012)
