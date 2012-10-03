@@ -738,6 +738,8 @@ AtlasLoot_TextParsing = {
 	{ "#arenas8_2#", BabbleItemSet["Gladiator's Felshroud"] },
 	{ "#arenas9#", BabbleItemSet["Gladiator's Battlegear"] },
 	{ "#arenas10#", BabbleItemSet["Gladiator's Desecration"] },
+	{ "#arenas11_1#", BabbleItemSet["Gladiator's Ironskin"] },
+	{ "#arenas11_2#", BabbleItemSet["Gladiator's Copperskin"] },
 
 	-- Crafting
 	{ "#sr#", AL["Skill Required:"] },

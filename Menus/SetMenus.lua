@@ -61,10 +61,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 2, "JusticePointsMoP", "inv_chest_robe_dungeonrobe_c_04", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "JusticePointsMoP#3", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "JusticePointsMoP#5", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
-				{ 17, "JusticePointsMoP#2", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "JusticePointsMoP#4", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
+				{ 3, "JusticePointsMoP#2", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
+				{ 5, "JusticePointsMoP#3", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
+				{ 17, "JusticePointsMoP", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
+				{ 18, "JusticePointsMoP#2", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
 			};
 		};
 		info = {
@@ -780,15 +780,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 5, "ShaofAnger#2", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 				{ 6, "ShaofAnger#3", "class_monk", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], ""};
 				{ 7, "ShaofAnger#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-				{ 9, "ShaofAnger#8", "inv_bracer_mail_pvphunter_c_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"]};
-				{ 10, "ShaofAnger#10", "inv_jewelry_ring_80", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
+				{ 9, "ShaofAnger#8", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"]};
+				{ 10, "ShaofAnger#10", "inv_misc_pvp_ringc2", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
 				{ 12, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=ds=#e27#" },
 				{ 17, "ShaofAnger#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
 				{ 18, "ShaofAnger#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 				{ 19, "ShaofAnger#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
 				{ 20, "ShaofAnger#2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 				{ 21, "ShaofAnger#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-				{ 24, "ShaofAnger#9", "inv_bracer_mail_pvphunter_c_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
+				{ 24, "ShaofAnger#9", "inv_bracer_plate_pvppaladin_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
 				{ 27, 90839, "", "=q4=Cache of Sha-Touched Gold", "=ds=#m20#"  },
 			};
 		};
