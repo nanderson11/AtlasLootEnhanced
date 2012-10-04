@@ -98,10 +98,10 @@ AtlasLoot_LootTableRegister = {
 
 		["GateoftheSettingSun"] = {
 			["Bosses"] = {
-				{ "GotSSKiptilak", 2, EncounterJournalID = 655 },
-				{ "GotSSGadok", 3, EncounterJournalID = 675 },
-				{ "GotSSRimok", 4, EncounterJournalID = 676 },
-				{ "GotSSRaigonn", 5, EncounterJournalID = 649 },
+				{ "GotSSKiptilak", 3, EncounterJournalID = 655 },
+				{ "GotSSGadok", 4, EncounterJournalID = 675 },
+				{ "GotSSRimok", 5, EncounterJournalID = 676 },
+				{ "GotSSRaigonn", 6, EncounterJournalID = 649 },
 			},
 			["Info"] = { BabbleZone["Gate of the Setting Sun"], "AtlasLootMoP", mapname = "Gate of the Setting Sun", EncounterJournalID = 303 },
 		},
