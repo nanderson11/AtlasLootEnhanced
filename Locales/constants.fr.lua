@@ -568,6 +568,7 @@ if AL then
 	AL["Season 9"] = "Saison 9";
 	AL["Season 10"] = "Saison 10";
 	AL["Season 11"] = "Saison 11";
+	AL["Season 12"] = "Saison 12";
 	AL["Fire"] = "Feu";
 	AL["Water"] = "Eau";
 	AL["Wind"] = "Vent";
