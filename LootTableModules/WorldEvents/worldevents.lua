@@ -489,7 +489,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 7, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
 				{ 16, 54516, "", "=q3=Loot-Filled Pumpkin", "=q5="..AL["Daily Reward"]};
 				{ 17, 87569, "", "=q4=The Horseman's Horrific Hood", "=ds=#s1#, #a4#"};
-				{ 18, 87570, "", "=q4=The Horseman's Sinister Slicer", "=ds=#h3#, #w10#"};
+				{ 18, 87570, "", "=q4=The Horseman's Sinister Slicer", "=ds=#h1#, #w10#"};
 				{ 19, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#"};
 				{ 20, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
 				{ 21, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};
