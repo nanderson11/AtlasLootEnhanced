@@ -67,6 +67,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- Hammersmith
 ----- Swordsmith
 ----- Cataclysm Vendor Sold Plans
+----- Mists of Pandaria Vendor Sold Plans
 ---- Cooking
 ---- Enchanting
 ----- Boots

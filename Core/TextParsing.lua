@@ -799,6 +799,7 @@ AtlasLoot_TextParsing = {
 	{ "#cremulos#", "|TInterface\\Icons\\INV_Jewelry_Necklace_14:0|t" },
 	{ "#ccenarius#", "|TInterface\\Icons\\INV_Jewelry_Necklace_12:0|t" },
 	{ "#glowcap#", "|TInterface\\Icons\\INV_Mushroom_02:0|t" },
+	{ "#kyparite#", "|TInterface\\Icons\\inv_ore_manticyte:0|t" },							-- Kyparite (Klaxxi)
 	{ "#ogrilashard#", "|TInterface\\Icons\\INV_Misc_Apexis_Shard:0|t" },
 	{ "#ogrilacrystal#", "|TInterface\\Icons\\INV_Misc_Apexis_Crystal:0|t" },
 	{ "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t" },
