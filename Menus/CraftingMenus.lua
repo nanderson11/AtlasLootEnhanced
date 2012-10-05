@@ -413,9 +413,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 		["Normal"] = {
 			{
 				{ 2, "CookingDaily#1", "inv_misc_food_meat_cooked_09", "=ds="..AtlasLoot:GetMapNameByID(807), "=q5="..AL["Mists of Pandaria"] };
-				{ 3, "CookingDaily#2", "inv_misc_food_12", "=ds="..AtlasLoot:GetMapNameByID(504), "=q5="..AL["Wrath of the Lich King"] };
-				{ 17, "CookingDaily#1", "inv_misc_food_meat_cooked_09", "=ds="..AtlasLoot:GetMapNameByID(301).." / "..AtlasLoot:GetMapNameByID(321), "=q5="..AL["Cataclysm"] };
-				{ 18, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..AtlasLoot:GetMapNameByID(481), "=q5="..AL["Burning Crusade"] };
+				{ 3, "CookingDaily#5", "inv_misc_food_12", "=ds="..AtlasLoot:GetMapNameByID(504), "=q5="..AL["Wrath of the Lich King"] };
+				{ 17, "CookingDaily#3", "inv_misc_food_meat_cooked_09", "=ds="..AtlasLoot:GetMapNameByID(301).." / "..AtlasLoot:GetMapNameByID(321), "=q5="..AL["Cataclysm"] };
+				{ 18, "CookingDaily#7", "inv_misc_cauldron_arcane", "=ds="..AtlasLoot:GetMapNameByID(481), "=q5="..AL["Burning Crusade"] };
 			};
 		};
 		info = {
