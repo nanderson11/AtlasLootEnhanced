@@ -5330,7 +5330,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Leather Armor"],
+			name = LEATHERWORKING..": "..AL["Leather Armor"].." - "..AL["Classic WoW"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5396,7 +5396,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Leather Armor"],
+			name = LEATHERWORKING..": "..AL["Leather Armor"].." - "..AL["Burning Crusade"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5479,7 +5479,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Leather Armor"],
+			name = LEATHERWORKING..": "..AL["Leather Armor"].." - "..AL["Wrath of the Lich King"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5528,7 +5528,52 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Leather Armor"],
+			name = LEATHERWORKING..": "..AL["Leather Armor"].." - "..AL["Cataclysm"],
+			module = moduleName, menu = "LEATHERWORKINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["LeatherLeatherArmorMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, "s124638", "85788", "=q4=Chestguard of Nemeses", "=ds=#s5#, #a2# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 2, "s124640", "85829", "=q4=Nightfire Robe", "=ds=#s5#, #a2# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 3, "s124641", "85827", "=q4=Liferuned Leather Gloves", "=ds=#s9#, #a2# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 4, "s124639", "85828", "=q4=Murderer's Gloves", "=ds=#s9#, #a2# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 5, "s124619", "85823", "=q4=Greyshadow Chestguard", "=ds=#s5#, #a2# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 6, "s124621", "85850", "=q4=Wildblood Vest", "=ds=#s5#, #a2# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 7, "s124620", "85824", "=q4=Greyshadow Gloves", "=ds=#s9#, #a2# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 8, "s124622", "85849", "=q4=Wildblood Gloves", "=ds=#s9#, #a2# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 9, "s124603", "85802", "=q3=Contender's Leather Helm", "=ds=#s1#, #a2# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 10, "s124605", "85800", "=q3=Contender's Leather Chestguard", "=ds=#s5#, #a2# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 11, "s124587", "85818", "=q3=Contender's Wyrmhide Helm", "=ds=#s1#, #a2# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 12, "s124589", "85816", "=q3=Contender's Wyrmhide Chestguard", "=ds=#s5#, #a2# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 13, "s124604", "85804", "=q3=Contender's Leather Shoulders", "=ds=#s3#, #a2# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 14, "s124588", "85820", "=q3=Contender's Wyrmhide Shoulders", "=ds=#s3#, #a2# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 15, "s124606", "85801", "=q3=Contender's Leather Gloves", "=ds=#s9#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 16, "s124610", "85797", "=q3=Contender's Leather Belt", "=ds=#s10#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 17, "s124607", "85803", "=q3=Contender's Leather Leggings", "=ds=#s11#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 18, "s124609", "85798", "=q3=Contender's Leather Boots", "=ds=#s12#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 19, "s124590", "85817", "=q3=Contender's Wyrmhide Gloves", "=ds=#s9#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 20, "s124594", "85813", "=q3=Contender's Wyrmhide Belt", "=ds=#s10#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 21, "s124591", "85819", "=q3=Contender's Wyrmhide Leggings", "=ds=#s11#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 22, "s124593", "85814", "=q3=Contender's Wyrmhide Boots", "=ds=#s12#, #a2# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 23, "s124573", "85835", "=q2=Misthide Chestguard", "=ds=#s5#, #a2# / =q1=#sk# 560", "=ds="..AL["Trainer"]};
+				{ 24, "s124608", "85799", "=q3=Contender's Leather Bracers", "=ds=#s8#, #a2# / =q1=#sk# 555", "=ds="..AL["Vendor"]};
+				{ 25, "s124592", "85815", "=q3=Contender's Wyrmhide Bracers", "=ds=#s8#, #a2# / =q1=#sk# 555", "=ds="..AL["Vendor"]};
+				{ 26, "s124571", "85837", "=q2=Misthide Helm", "=ds=#s1#, #a2# / =q1=#sk# 555", "=ds="..AL["Trainer"]};
+				{ 27, "s124575", "85838", "=q2=Misthide Leggings", "=ds=#s11#, #a2# / =q1=#sk# 550", "=ds="..AL["Trainer"]};
+				{ 28, "s124574", "85836", "=q2=Misthide Gloves", "=ds=#s9#, #a2# / =q1=#sk# 545", "=ds="..AL["Trainer"]};
+				{ 29, "s124572", "85839", "=q2=Misthide Shoulders", "=ds=#s3#, #a2# / =q1=#sk# 540", "=ds="..AL["Trainer"]};
+				{ 30, "s124578", "85832", "=q2=Misthide Belt", "=ds=#s10#, #a2# / =q1=#sk# 535", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, "s124576", "85834", "=q2=Misthide Bracers", "=ds=#s8#, #a2# / =q1=#sk# 530", "=ds="..AL["Trainer"]};
+				{ 2, "s124577", "85833", "=q2=Misthide Boots", "=ds=#s12#, #a2# / =q1=#sk# 525", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = LEATHERWORKING..": "..AL["Leather Armor"].." - "..AL["Mists of Pandaria"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5586,7 +5631,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Mail Armor"],
+			name = LEATHERWORKING..": "..AL["Mail Armor"].." - "..AL["Classic WoW"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5650,7 +5695,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Mail Armor"],
+			name = LEATHERWORKING..": "..AL["Mail Armor"].." - "..AL["Burning Crusade"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5731,7 +5776,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Mail Armor"],
+			name = LEATHERWORKING..": "..AL["Mail Armor"].." - "..AL["Wrath of the Lich King"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5780,7 +5825,52 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = LEATHERWORKING..": "..AL["Mail Armor"],
+			name = LEATHERWORKING..": "..AL["Mail Armor"].." - "..AL["Cataclysm"],
+			module = moduleName, menu = "LEATHERWORKINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["LeatherMailArmorMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, "s124644", "85830", "=q4=Raiment of Blood and Bone", "=ds=#s5#, #a3# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 2, "s124642", "85840", "=q4=Stormbreaker Chestguard", "=ds=#s5#, #a3# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 3, "s124643", "85821", "=q4=Fists of Lightning", "=ds=#s9#, #a3# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 4, "s124645", "85831", "=q4=Raven Lord's Gloves", "=ds=#s9#, #a3# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 5, "s124625", "85787", "=q4=Chestguard of Earthen Harmony", "=ds=#s5#, #a3# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 6, "s124623", "85826", "=q4=Lifekeeper's Robe", "=ds=#s5#, #a3# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 7, "s124626", "85822", "=q4=Gloves of Earthen Harmony", "=ds=#s9#, #a3# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 8, "s124624", "85825", "=q4=Lifekeeper's Gloves", "=ds=#s9#, #a3# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 9, "s124611", "85794", "=q3=Contender's Dragonscale Helm", "=ds=#s1#, #a3# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 10, "s124613", "85792", "=q3=Contender's Dragonscale Chestguard", "=ds=#s5#, #a3# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 11, "s124595", "85810", "=q3=Contender's Scale Helm", "=ds=#s1#, #a3# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 12, "s124597", "85808", "=q3=Contender's Scale Chestguard", "=ds=#s5#, #a3# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 13, "s124612", "85796", "=q3=Contender's Dragonscale Shoulders", "=ds=#s3#, #a3# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 14, "s124596", "85812", "=q3=Contender's Scale Shoulders", "=ds=#s3#, #a3# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 15, "s124614", "85793", "=q3=Contender's Dragonscale Gloves", "=ds=#s9#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 16, "s124618", "85789", "=q3=Contender's Dragonscale Belt", "=ds=#s10#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 17, "s124615", "85795", "=q3=Contender's Dragonscale Leggings", "=ds=#s11#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 18, "s124617", "85790", "=q3=Contender's Dragonscale Boots", "=ds=#s12#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 19, "s124598", "85809", "=q3=Contender's Scale Gloves", "=ds=#s9#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 20, "s124602", "85805", "=q3=Contender's Scale Belt", "=ds=#s10#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 21, "s124599", "85811", "=q3=Contender's Scale Leggings", "=ds=#s11#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 22, "s124601", "85806", "=q3=Contender's Scale Boots", "=ds=#s12#, #a3# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 23, "s124583", "85847", "=q2=Stormscale Leggings", "=ds=#s11#, #a3# / =q1=#sk# 560", "=ds="..AL["Trainer"]};
+				{ 24, "s124616", "85791", "=q3=Contender's Dragonscale Bracers", "=ds=#s8#, #a3# / =q1=#sk# 555", "=ds="..AL["Vendor"]};
+				{ 25, "s124600", "85807", "=q3=Contender's Scale Bracers", "=ds=#s8#, #a3# / =q1=#sk# 555", "=ds="..AL["Vendor"]};
+				{ 26, "s124581", "85844", "=q2=Stormscale Chestguard", "=ds=#s5#, #a3# / =q1=#sk# 555", "=ds="..AL["Trainer"]};
+				{ 27, "s124579", "85846", "=q2=Stormscale Helm", "=ds=#s1#, #a3# / =q1=#sk# 550", "=ds="..AL["Trainer"]};
+				{ 28, "s124580", "85848", "=q2=Stormscale Shoulders", "=ds=#s3#, #a3# / =q1=#sk# 545", "=ds="..AL["Trainer"]};
+				{ 29, "s124582", "85845", "=q2=Stormscale Gloves", "=ds=#s9#, #a3# / =q1=#sk# 540", "=ds="..AL["Trainer"]};
+				{ 30, "s124585", "85842", "=q2=Stormscale Boots", "=ds=#s12#, #a3# / =q1=#sk# 535", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, "s124586", "85841", "=q2=Stormscale Belt", "=ds=#s10#, #a3# / =q1=#sk# 530", "=ds="..AL["Trainer"]};
+				{ 2, "s124584", "85843", "=q2=Stormscale Bracers", "=ds=#s8#, #a3# / =q1=#sk# 525", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = LEATHERWORKING..": "..AL["Mail Armor"].." - "..AL["Mists of Pandaria"],
 			module = moduleName, menu = "LEATHERWORKINGMENU"
 		};
 	};
@@ -5788,38 +5878,41 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherCloaks"] = {
 		["Normal"] = {
 			{
-				{ 1, "s78475", "56549", "=q3=Razor-Edged Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 2, "s78476", "56548", "=q3=Twilight Dragonscale Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
-				{ 3, "s99536", "75076", "=q3=Vicious Fur Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 4, "s99535", "75077", "=q3=Vicious Hide Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
-				{ 5, "s78438", "56518", "=q3=Cloak of Beasts", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
-				{ 6, "s78439", "56519", "=q3=Cloak of War", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
-				{ 7, "s78405", "56489", "=q2=Hardened Scale Cloak", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
-				{ 8, "s78380", "56480", "=q2=Savage Cloak", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
-				{ 9, "s60637", "43566", "=q4=Ice Striker's Cloak", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
-				{ 10, "s55199", "41238", "=q3=Cloak of Tormented Skies", "=ds=#sr# 395", "=ds="..AL["Trainer"] };
-				{ 11, "s60631", "38441", "=q3=Cloak of Harsh Winds", "=ds=#sr# 380", "=ds="..AL["Trainer"] };	
-				{ 12, "s42546", "33122", "=q4=Cloak of Darkness", "=ds=#sr# 360", "=ds="..BabbleFaction["The Violet Eye"].." - "..BabbleFaction["Exalted"] };
-				{ 13, "s22926", "18509", "=q4=Chromatic Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"] };
-				{ 14, "s22928", "18511", "=q4=Shifting Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"] };
+				{ 1, "s124637", "85852", "=q3=Quick Strike Cloak", "=ds=#sr# 560", "=ds="..AL["Trainer"] };
+				{ 2, "s124635", "85851", "=q2=Cloak of the Mists", "=ds=#sr# 555", "=ds="..AL["Trainer"] };
+				{ 3, "s124636", "85853", "=q3=Stormscale Drape", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 4, "s78475", "56549", "=q3=Razor-Edged Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 5, "s78476", "56548", "=q3=Twilight Dragonscale Cloak", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
+				{ 6, "s99536", "75076", "=q3=Vicious Fur Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 7, "s99535", "75077", "=q3=Vicious Hide Cloak", "=ds=#sr# 510", "=ds="..AL["Trainer"] };
+				{ 8, "s78438", "56518", "=q3=Cloak of Beasts", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
+				{ 9, "s78439", "56519", "=q3=Cloak of War", "=ds=#sr# 495", "=ds="..AL["Trainer"] };
+				{ 10, "s78405", "56489", "=q2=Hardened Scale Cloak", "=ds=#sr# 470", "=ds="..AL["Trainer"] };
+				{ 11, "s78380", "56480", "=q2=Savage Cloak", "=ds=#sr# 460", "=ds="..AL["Trainer"] };
+				{ 12, "s60637", "43566", "=q4=Ice Striker's Cloak", "=ds=#sr# 440", "=ds="..AL["Trainer"] };
+				{ 13, "s55199", "41238", "=q3=Cloak of Tormented Skies", "=ds=#sr# 395", "=ds="..AL["Trainer"] };
+				{ 14, "s60631", "38441", "=q3=Cloak of Harsh Winds", "=ds=#sr# 380", "=ds="..AL["Trainer"] };	
+				{ 15, "s42546", "33122", "=q4=Cloak of Darkness", "=ds=#sr# 360", "=ds="..BabbleFaction["The Violet Eye"].." - "..BabbleFaction["Exalted"] };
+				{ 16, "s22926", "18509", "=q4=Chromatic Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"] };
+				{ 17, "s22928", "18511", "=q4=Shifting Cloak", "=ds=#sr# 300", "=ds="..BabbleZone["Dire Maul"] };
 				{
-					{ 16, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7493#" };
-					{ 16, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7497#" };
+					{ 18, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7493#" };
+					{ 18, "s19093", "15138", "=q3=Onyxia Scale Cloak", "=ds=#sr# 300", "=ds=#QUESTID:7497#" };
 				};
 				{
-					{ 17, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2860#" };
-					{ 17, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2853#" };
+					{ 19, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2860#" };
+					{ 19, "s10574", "8215", "=q2=Wild Leather Cloak", "=ds=#sr# 250", "=ds=#QUESTID:2853#" };
 				};
-				{ 18, "s10562", "8216", "=q2=Big Voodoo Cloak", "=ds=#sr# 240", "=ds="..AL["World Drop"] };
-				{ 19, "s7153", "5965", "=q2=Guardian Cloak", "=ds=#sr# 185", "=ds="..AL["World Drop"] };
-				{ 20, "s9198", "7377", "=q2=Frost Leather Cloak", "=ds=#sr# 180", "=ds="..AL["Trainer"] };
-				{ 21, "s3760", "3719", "=q2=Hillman's Cloak", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
-				{ 22, "s2168", "2316", "=q2=Dark Leather Cloak", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
-				{ 23, "s9070", "7283", "=q2=Black Whelp Cloak", "=ds=#sr# 100", "=ds="..AL["Vendor"]..": "..BabbleZone["Redridge Mountains"] };
-				{ 24, "s7953", "6466", "=q2=Deviate Scale Cloak", "=ds=#sr# 90", "=ds="..AL["Vendor"]..": "..BabbleZone["Northern Barrens"] };
-				{ 25, "s2159", "2308", "=q2=Fine Leather Cloak", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
-				{ 26, "s2162", "2310", "=q2=Embossed Leather Cloak", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
-				{ 27, "s9058", "7276", "=q1=Handstitched Leather Cloak", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
+				{ 20, "s10562", "8216", "=q2=Big Voodoo Cloak", "=ds=#sr# 240", "=ds="..AL["World Drop"] };
+				{ 21, "s7153", "5965", "=q2=Guardian Cloak", "=ds=#sr# 185", "=ds="..AL["World Drop"] };
+				{ 22, "s9198", "7377", "=q2=Frost Leather Cloak", "=ds=#sr# 180", "=ds="..AL["Trainer"] };
+				{ 23, "s3760", "3719", "=q2=Hillman's Cloak", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
+				{ 24, "s2168", "2316", "=q2=Dark Leather Cloak", "=ds=#sr# 110", "=ds="..AL["Trainer"] };
+				{ 25, "s9070", "7283", "=q2=Black Whelp Cloak", "=ds=#sr# 100", "=ds="..AL["Vendor"]..": "..BabbleZone["Redridge Mountains"] };
+				{ 26, "s7953", "6466", "=q2=Deviate Scale Cloak", "=ds=#sr# 90", "=ds="..AL["Vendor"]..": "..BabbleZone["Northern Barrens"] };
+				{ 27, "s2159", "2308", "=q2=Fine Leather Cloak", "=ds=#sr# 85", "=ds="..AL["Trainer"] };
+				{ 28, "s2162", "2310", "=q2=Embossed Leather Cloak", "=ds=#sr# 60", "=ds="..AL["Trainer"] };
+				{ 29, "s9058", "7276", "=q1=Handstitched Leather Cloak", "=ds=#sr# 1", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
