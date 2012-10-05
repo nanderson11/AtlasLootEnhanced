@@ -1358,6 +1358,63 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["SmithingArmorMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, "s126854", "87403", "=q4=Chestplate of Limitless Faith", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 2, "s126852", "87402", "=q4=Ornate Battleplate of the Master", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 3, "s126850", "87405", "=q4=Unyielding Bloodplate", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 4, "s126853", "87407", "=q4=Bloodforged Warfists", "=ds=#s9#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 5, "s126851", "87406", "=q4=Gauntlets of Battle Command", "=ds=#s9#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 6, "s126855", "87404", "=q4=Gauntlets of Unbound Devotion", "=ds=#s9#, #a4# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 7, "s122653", "82979", "=q4=Breastplate of Ancient Steel", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 8, "s122649", "82975", "=q4=Ghost Reaver's Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 9, "s122651", "82977", "=q4=Living Steel Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 600", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 10, "s122654", "82980", "=q4=Gauntlets of Ancient Steel", "=ds=#s9#, #a4# / =q1=#sk# 600", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 11, "s122650", "82976", "=q4=Ghost Reaver's Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 600", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 12, "s122652", "82978", "=q4=Living Steel Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 600", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 13, "s122616", "82943", "=q3=Contender's Revenant Helm", "=ds=#s1#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 14, "s122617", "82944", "=q3=Contender's Revenant Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 15, "s122618", "82945", "=q3=Contender's Revenant Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 16, "s122621", "82948", "=q3=Contender's Revenant Bracers", "=ds=#s8#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 17, "s122619", "82946", "=q3=Contender's Revenant Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 18, "s122623", "82950", "=q3=Contender's Revenant Belt", "=ds=#s10#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 19, "s122620", "82947", "=q3=Contender's Revenant Legplates", "=ds=#s11#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 20, "s122622", "82949", "=q3=Contender's Revenant Boots", "=ds=#s12#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 21, "s122624", "82951", "=q3=Contender's Spirit Helm", "=ds=#s1#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 22, "s122625", "82952", "=q3=Contender's Spirit Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 23, "s122626", "82953", "=q3=Contender's Spirit Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 24, "s122629", "82956", "=q3=Contender's Spirit Bracers", "=ds=#s8#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 25, "s122627", "82954", "=q3=Contender's Spirit Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 26, "s122631", "82958", "=q3=Contender's Spirit Belt", "=ds=#s10#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 27, "s122628", "82955", "=q3=Contender's Spirit Legplates", "=ds=#s11#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 28, "s122630", "82957", "=q3=Contender's Spirit Boots", "=ds=#s12#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 29, "s122592", "82919", "=q3=Masterwork Spiritguard Helm", "=ds=#s1#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 30, "s122593", "82920", "=q3=Masterwork Spiritguard Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+			};
+			{
+				{ 1, "s122594", "82921", "=q3=Masterwork Spiritguard Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 2, "s122597", "82924", "=q3=Masterwork Spiritguard Bracers", "=ds=#s8#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 3, "s122595", "82922", "=q3=Masterwork Spiritguard Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 4, "s122599", "82926", "=q3=Masterwork Spiritguard Belt", "=ds=#s10#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 5, "s122596", "82923", "=q3=Masterwork Spiritguard Legplates", "=ds=#s11#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 6, "s122598", "82925", "=q3=Masterwork Spiritguard Boots", "=ds=#s12#, #a4# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 7, "s122576", "82903", "=q2=Ghost-Forged Helm", "=ds=#s1#, #a4# / =q1=#sk# 550", "=ds="..AL["Trainer"]};
+				{ 8, "s122578", "82905", "=q2=Ghost-Forged Breastplate", "=ds=#s5#, #a4# / =q1=#sk# 550", "=ds="..AL["Trainer"]};
+				{ 9, "s122577", "82904", "=q2=Ghost-Forged Shoulders", "=ds=#s3#, #a4# / =q1=#sk# 540", "=ds="..AL["Trainer"]};
+				{ 10, "s122580", "82907", "=q2=Ghost-Forged Legplates", "=ds=#s11#, #a4# / =q1=#sk# 530", "=ds="..AL["Trainer"]};
+				{ 11, "s122582", "82909", "=q2=Ghost-Forged Boots", "=ds=#s12#, #a4# / =q1=#sk# 530", "=ds="..AL["Trainer"]};
+				{ 12, "s122579", "82906", "=q2=Ghost-Forged Gauntlets", "=ds=#s9#, #a4# / =q1=#sk# 525", "=ds="..AL["Trainer"]};
+				{ 13, "s122583", "82910", "=q2=Ghost-Forged Belt", "=ds=#s10#, #a4# / =q1=#sk# 525", "=ds="..AL["Trainer"]};
+				{ 14, "s122581", "82908", "=q2=Ghost-Forged Bracers", "=ds=#s8#, #a4# / =q1=#sk# 500", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = BLACKSMITHING..": "..BabbleInventory["Armor"].." - "..AL["Mists of Pandaria"],
+			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
+		};
+	};
+
 	AtlasLoot_Data["SmithingWeaponOld"] = {
 		["Normal"] = {
 			{
@@ -1553,6 +1610,31 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = BLACKSMITHING..": "..BabbleInventory["Weapon"].." - "..AL["Cataclysm"],
+			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
+		};
+	};
+
+	AtlasLoot_Data["SmithingWeaponMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, "s122644", "82970", "=q3=Masterwork Forgewire Axe", "=ds=#h3#, #w1# / =ds=#sr# 575", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 2, "s122648", "82974", "=q3=Masterwork Ghost Shard", "=ds=#h1#, #w4# / =ds=#sr# 575", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 3, "s122645", "82971", "=q3=Masterwork Ghost-Forged Blade", "=ds=#h1#, #w10# / =ds=#sr# 575", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 4, "s122646", "82972", "=q3=Masterwork Phantasmal Hammer", "=ds=#h1#, #w6# / =ds=#sr# 575", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 5, "s122647", "82973", "=q3=Masterwork Spiritblade Decimator", "=ds=#h2#, #w1# / =ds=#sr# 575", "=ds="..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"]};
+				{ 6, "s122642", "82968", "=q3=Masterwork Lightsteel Shield", "=ds=#w8# / =ds=#sr# 575", "=ds="..AL["Vendor"]};
+				{ 7, "s122643", "82969", "=q3=Masterwork Spiritguard Shield", "=ds=#w8# / =ds=#sr# 575", "=ds="..AL["Vendor"]};
+				{ 8, "s122641", "82967", "=q3=Ghost Shard", "=ds=#h1#, #w4# / =ds=#sr# 565", "=ds="..AL["Trainer"]};
+				{ 9, "s122640", "82966", "=q3=Spiritblade Decimator", "=ds=#h2#, #w1# / =ds=#sr# 565", "=ds="..AL["Trainer"]};
+				{ 10, "s122639", "82965", "=q3=Phantasmal Hammer", "=ds=#h1#, #w6# / =ds=#sr# 560", "=ds="..AL["Trainer"]};
+				{ 11, "s122637", "82963", "=q3=Forgewire Axe", "=ds=#h3#, #w1# / =ds=#sr# 545", "=ds="..AL["Trainer"]};
+				{ 12, "s122638", "82964", "=q3=Ghost-Forged Blade", "=ds=#h1#, #w10# / =ds=#sr# 545", "=ds="..AL["Trainer"]};
+				{ 13, "s122636", "82962", "=q2=Spiritguard Shield", "=ds=#w8# / =ds=#sr# 545", "=ds="..AL["Trainer"]};
+				{ 14, "s122635", "82961", "=q2=Lightsteel Shield", "=ds=#w8# / =ds=#sr# 540", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = BLACKSMITHING..": "..BabbleInventory["Weapon"].." - "..AL["Mists of Pandaria"],
 			module = moduleName, menu = "SMITHINGMENU", instance = "Blacksmithing",
 		};
 	};
