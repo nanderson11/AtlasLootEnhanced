@@ -6357,7 +6357,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = TAILORING..": "..AL["Cloth Armor"],
+			name = TAILORING..": "..AL["Cloth Armor"].." - "..AL["Classic WoW"],
 			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};
@@ -6437,7 +6437,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = TAILORING..": "..AL["Cloth Armor"],
+			name = TAILORING..": "..AL["Cloth Armor"].." - "..AL["Burning Crusade"],
 			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};
@@ -6519,7 +6519,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = TAILORING..": "..AL["Cloth Armor"],
+			name = TAILORING..": "..AL["Cloth Armor"].." - "..AL["Wrath of the Lich King"],
 			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};
@@ -6578,7 +6578,52 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = TAILORING..": " ..AL["Cloth Armor"],
+			name = TAILORING..": " ..AL["Cloth Armor"].." - "..AL["Cataclysm"],
+			module = moduleName, menu = "TAILORINGMENU",
+		};
+	};
+
+	AtlasLoot_Data["TailoringArmorMoP"] = {
+		["Normal"] = {
+			{
+				{ 1, "s125560", "86312", "=q4=Legacy of the Emperor", "=ds=#s5#, #a1# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 2, "s125558", "86311", "=q4=Robe of Eternal Rule", "=ds=#s5#, #a1# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 3, "s125559", "86313", "=q4=Imperial Silk Gloves", "=ds=#s9#, #a1# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 4, "s125561", "86314", "=q4=Touch of the Light", "=ds=#s9#, #a1# / =q1=#sk# 600", "=ds="..AL["Drop"]..": "..AtlasLoot:GetMapNameByID(896)};
+				{ 5, "s125549", "82439", "=q4=Robes of Creation", "=ds=#s5#, #a1# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 6, "s125547", "82437", "=q4=Spelltwister's Grand Robe", "=ds=#s5#, #a1# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 7, "s125550", "82440", "=q4=Gloves of Creation", "=ds=#s9#, #a1# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 8, "s125548", "82438", "=q4=Spelltwister's Gloves", "=ds=#s9#, #a1# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
+				{ 9, "s125539", "82429", "=q3=Contender's Satin Cowl", "=ds=#s1#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 10, "s125541", "82431", "=q3=Contender's Satin Rainment", "=ds=#s5#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 11, "s125531", "82421", "=q3=Contender's Silk Cowl", "=ds=#s1#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 12, "s125533", "82423", "=q3=Contender's Silk Rainment", "=ds=#s5#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 13, "s125540", "82430", "=q3=Contender's Satin Amice", "=ds=#s3#, #a1# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 14, "s125532", "82422", "=q3=Contender's Silk Amice", "=ds=#s3#, #a1# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
+				{ 15, "s125542", "82432", "=q3=Contender's Satin Handwraps", "=ds=#s9#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 16, "s125546", "82436", "=q3=Contender's Satin Belt", "=ds=#s10#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 17, "s125543", "82433", "=q3=Contender's Satin Pants", "=ds=#s11#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 18, "s125545", "82435", "=q3=Contender's Satin Footwraps", "=ds=#s12#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 19, "s125534", "82424", "=q3=Contender's Silk Handwraps", "=ds=#s9#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 20, "s125538", "82428", "=q3=Contender's Silk Belt", "=ds=#s10#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 21, "s125535", "82425", "=q3=Contender's Silk Pants", "=ds=#s11#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 22, "s125537", "82427", "=q3=Contender's Silk Footwraps", "=ds=#s12#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
+				{ 23, "s125544", "82434", "=q3=Contender's Satin Cuffs", "=ds=#s8#, #a1# / =q1=#sk# 555", "=ds="..AL["Vendor"]};
+				{ 24, "s125536", "82426", "=q3=Contender's Silk Cuffs", "=ds=#s8#, #a1# / =q1=#sk# 555", "=ds="..AL["Vendor"]};
+				{ 25, "s125523", "82397", "=q2=Windwool Hood", "=ds=#s1#, #a1# / =q1=#sk# 555", "=ds="..AL["Trainer"]};
+				{ 26, "s125525", "82399", "=q2=Windwool Tunic", "=ds=#s5#, #a1# / =q1=#sk# 555", "=ds="..AL["Trainer"]};
+				{ 27, "s125527", "82401", "=q2=Windwool Pants", "=ds=#s11#, #a1# / =q1=#sk# 545", "=ds="..AL["Trainer"]};
+				{ 28, "s125529", "82403", "=q2=Windwool Boots", "=ds=#s12#, #a1# / =q1=#sk# 545", "=ds="..AL["Trainer"]};
+				{ 29, "s125524", "82398", "=q2=Windwool Shoulders", "=ds=#s3#, #a1# / =q1=#sk# 535", "=ds="..AL["Trainer"]};
+				{ 30, "s125530", "82404", "=q2=Windwool Belt", "=ds=#s10#, #a1# / =q1=#sk# 535", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, "s125528", "82402", "=q2=Windwool Bracers", "=ds=#s8#, #a1# / =q1=#sk# 525", "=ds="..AL["Trainer"]};
+				{ 2, "s125526", "82400", "=q2=Windwool Gloves", "=ds=#s9#, #a1# / =q1=#sk# 525", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = TAILORING..": " ..AL["Cloth Armor"].." - "..AL["Mists of Pandaria"],
 			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};
@@ -6586,46 +6631,47 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TailoringBags"] = {
 		["Normal"] = {
 			{
-				{ 1, "s75308", "54444", "=q3=Illusionary Bag", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 2, "s100585", "70138", "=q3=Luxurious Silk Gem Bag", "=ds=#sr# 515", "=ds="..BabbleZone["Molten Front"]};
-				{ 3, "s75268", "54446", "=q2=Hyjal Expedition Bag", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
-				{ 4, "s75264", "54443", "=q2=Embersilk Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				{ 5, "s75265", "54445", "=q3=Otherworldly Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
-				{ 6, "s56007", "41599", "=q2=Frostweave Bag", "=ds=#sr# 410", "=ds="..AL["Trainer"] };
-				{ 7, "s56005", "41600", "=q3=Glacial Bag", "=ds=#sr# 445", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Exalted"] };
-				{ 8, "s56006", "41598", "=q3=Mysterious Bag", "=ds=#sr# 440", "=ds="..BabbleFaction["The Wyrmrest Accord"].." - "..BabbleFaction["Revered"] };
-				{ 9, "s56004", "41597", "=q3=Abyssal Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["Knights of the Ebon Blade"].." - "..BabbleFaction["Revered"] };
-				{ 10, "s63924", "45773", "=q3=Emerald Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Revered"] };
-				{ 11, "s26759", "21872", "=q3=Ebon Shadowbag",  "=ds=#sr# 375", "=ds="..AL["Vendor"] };
-				{ 12, "s50194", "38225", "=q3=Mycah's Botanical Bag", "=ds=#sr# 375", "=ds="..BabbleFaction["Sporeggar"].." - "..BabbleFaction["Revered"] };
-				{ 13, "s26763", "21876", "=q3=Primal Mooncloth Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
-				{ 14, "s26755", "21858", "=q3=Spellfire Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
-				{ 15, "s31459", "24270", "=q2=Bag of Jewels", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
-				{ 16, "s26749", "21843", "=q2=Imbued Netherweave Bag", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
-				{ 17, "s26746", "21841", "=q2=Netherweave Bag", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
-				{ 18, "s26087", "21342", "=q4=Core Felcloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Molten Core"] };
-				{ 19, "s18455", "14156", "=q3=Bottomless Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
-				{ 20, "s27660", "22249", "=q2=Big Bag of Enchantment", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Dire Maul"] };
-				{ 21, "s18445", "14155", "=q2=Mooncloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
-				{ 22, "s27725", "22252", "=q2=Satchel of Cenarius", "=ds=#sr# 300", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Revered"] };
-				{ 23, "s26086", "21341", "=q3=Felcloth Bag", "=ds=#sr# 280", "=ds="..AL["Drop"]..": "..BabbleZone["Scholomance"] };
-				{ 24, "s27659", "22248", "=q2=Enchanted Runecloth Bag", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Silithus"]};
-				{ 25, "s27724", "22251", "=q2=Cenarion Herb Bag", "=ds=#sr# 275", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Friendly"] };
-				{ 26, "s26085", "21340", "=q2=Soul Pouch", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 27, "s27658", "22246", "=q2=Enchanted Mageweave Pouch", "=ds=#sr# 225", "=ds="..AL["Vendor"]..""};
-				{ 28, "s18405", "14046", "=q1=Runecloth Bag", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Winterspring"]};
-				{ 29, "s12079", "10051", "=q1=Red Mageweave Bag", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
-				{ 30, "s12065", "10050", "=q1=Mageweave Bag", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 1, "s125556", "82446", "=q4=Royal Satchel", "=ds=#sr# 600", "=ds="..BabbleFaction["The August Celestials"].." - "..BabbleFaction["Exalted"] };
+				{ 2, "s75308", "54444", "=q3=Illusionary Bag", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 3, "s100585", "70138", "=q3=Luxurious Silk Gem Bag", "=ds=#sr# 515", "=ds="..BabbleZone["Molten Front"]};
+				{ 4, "s75268", "54446", "=q2=Hyjal Expedition Bag", "=ds=#sr# 490", "=ds="..AL["Trainer"] };
+				{ 5, "s75264", "54443", "=q2=Embersilk Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 6, "s75265", "54445", "=q3=Otherworldly Bag", "=ds=#sr# 480", "=ds="..AL["Trainer"] };
+				{ 7, "s56007", "41599", "=q2=Frostweave Bag", "=ds=#sr# 410", "=ds="..AL["Trainer"] };
+				{ 8, "s56005", "41600", "=q3=Glacial Bag", "=ds=#sr# 445", "=ds="..BabbleFaction["The Sons of Hodir"].." - "..BabbleFaction["Exalted"] };
+				{ 9, "s56006", "41598", "=q3=Mysterious Bag", "=ds=#sr# 440", "=ds="..BabbleFaction["The Wyrmrest Accord"].." - "..BabbleFaction["Revered"] };
+				{ 10, "s56004", "41597", "=q3=Abyssal Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["Knights of the Ebon Blade"].." - "..BabbleFaction["Revered"] };
+				{ 11, "s63924", "45773", "=q3=Emerald Bag", "=ds=#sr# 435", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Revered"] };
+				{ 12, "s26759", "21872", "=q3=Ebon Shadowbag",  "=ds=#sr# 375", "=ds="..AL["Vendor"] };
+				{ 13, "s50194", "38225", "=q3=Mycah's Botanical Bag", "=ds=#sr# 375", "=ds="..BabbleFaction["Sporeggar"].." - "..BabbleFaction["Revered"] };
+				{ 14, "s26763", "21876", "=q3=Primal Mooncloth Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
+				{ 15, "s26755", "21858", "=q3=Spellfire Bag", "=ds=#sr# 375", "=ds="..AL["Vendor"] };
+				{ 16, "s31459", "24270", "=q2=Bag of Jewels", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
+				{ 17, "s26749", "21843", "=q2=Imbued Netherweave Bag", "=ds=#sr# 340", "=ds="..AL["Vendor"] };
+				{ 18, "s26746", "21841", "=q2=Netherweave Bag", "=ds=#sr# 315", "=ds="..AL["Trainer"] };
+				{ 19, "s26087", "21342", "=q4=Core Felcloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Molten Core"] };
+				{ 20, "s18455", "14156", "=q3=Bottomless Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
+				{ 21, "s27660", "22249", "=q2=Big Bag of Enchantment", "=ds=#sr# 300", "=ds="..AL["Drop"]..": "..BabbleZone["Dire Maul"] };
+				{ 22, "s18445", "14155", "=q2=Mooncloth Bag", "=ds=#sr# 300", "=ds="..AL["Drop"]};
+				{ 23, "s27725", "22252", "=q2=Satchel of Cenarius", "=ds=#sr# 300", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Revered"] };
+				{ 24, "s26086", "21341", "=q3=Felcloth Bag", "=ds=#sr# 280", "=ds="..AL["Drop"]..": "..BabbleZone["Scholomance"] };
+				{ 25, "s27659", "22248", "=q2=Enchanted Runecloth Bag", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Silithus"]};
+				{ 26, "s27724", "22251", "=q2=Cenarion Herb Bag", "=ds=#sr# 275", "=ds="..BabbleFaction["Cenarion Circle"].." - "..BabbleFaction["Friendly"] };
+				{ 27, "s26085", "21340", "=q2=Soul Pouch", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 28, "s27658", "22246", "=q2=Enchanted Mageweave Pouch", "=ds=#sr# 225", "=ds="..AL["Vendor"]..""};
+				{ 29, "s18405", "14046", "=q1=Runecloth Bag", "=ds=#sr# 260", "=ds="..AL["Vendor"]..": "..BabbleZone["Winterspring"]};
+				{ 30, "s12079", "10051", "=q1=Red Mageweave Bag", "=ds=#sr# 235", "=ds="..AL["Trainer"] };
 			};
 			{
-				{ 1, "s6695", "5765", "=q1=Black Silk Pack", "=ds=#sr# 185", "=ds="..AL["Drop"]};
-				{ 2, "s6693", "5764", "=q1=Green Silk Pack", "=ds=#sr# 175", "=ds="..AL["Drop"]};
-				{ 3, "s3813", "4245", "=q1=Small Silk Pack", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
-				{ 4, "s6688", "5763", "=q1=Red Woolen Bag", "=ds=#sr# 115", "=ds="..AL["Vendor"] };
-				{ 5, "s3758", "4241", "=q1=Green Woolen Bag", "=ds=#sr# 95", "=ds="..AL["Drop"]};
-				{ 6, "s3757", "4240", "=q1=Woolen Bag", "=ds=#sr# 80", "=ds="..AL["Trainer"] };
-				{ 7, "s6686", "5762", "=q1=Red Linen Bag", "=ds=#sr# 70", "=ds="..AL["Vendor"] };
-				{ 8, "s3755", "4238", "=q1=Linen Bag", "=ds=#sr# 45", "=ds="..AL["Trainer"] };
+				{ 1, "s12065", "10050", "=q1=Mageweave Bag", "=ds=#sr# 225", "=ds="..AL["Trainer"] };
+				{ 2, "s6695", "5765", "=q1=Black Silk Pack", "=ds=#sr# 185", "=ds="..AL["Drop"]};
+				{ 3, "s6693", "5764", "=q1=Green Silk Pack", "=ds=#sr# 175", "=ds="..AL["Drop"]};
+				{ 4, "s3813", "4245", "=q1=Small Silk Pack", "=ds=#sr# 150", "=ds="..AL["Trainer"] };
+				{ 5, "s6688", "5763", "=q1=Red Woolen Bag", "=ds=#sr# 115", "=ds="..AL["Vendor"] };
+				{ 6, "s3758", "4241", "=q1=Green Woolen Bag", "=ds=#sr# 95", "=ds="..AL["Drop"]};
+				{ 7, "s3757", "4240", "=q1=Woolen Bag", "=ds=#sr# 80", "=ds="..AL["Trainer"] };
+				{ 8, "s6686", "5762", "=q1=Red Linen Bag", "=ds=#sr# 70", "=ds="..AL["Vendor"] };
+				{ 9, "s3755", "4238", "=q1=Linen Bag", "=ds=#sr# 45", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
@@ -6655,7 +6701,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 16, "s125555", "82445", "=q3=Greater Cerulean Spellthread", "=ds=#sr# 575", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"] };
 				{ 17, "s125554", "82444", "=q3=Greater Pearlescent Spellthread", "=ds=#sr# 575", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"] };
 				{ 18, "s125553", "82443", "=q2=Cerulean Spellthread", "=ds=#sr# 540", "=ds="..AL["Trainer"] };
-				{ 19, "s125552", "82442", "=q2=Pearlescent Spellthread", "=ds=#sr# 540", "=ds="..AL["Trainer"] };
+				{ 19, "s125552", "82442", "=q2=Pearlescent Spellthread", "=ds=#sr# 530", "=ds="..AL["Trainer"] };
 				{ 21, "s75309", "54448", "=q4=Powerful Enchanted Spellthread", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 22, "s75310", "54450", "=q4=Powerful Ghostly Spellthread", "=ds=#sr# 525", "=ds="..AL["Vendor"] };
 				{ 23, "s75255", "54449", "=q3=Ghostly Spellthread", "=ds=#sr# 450", "=ds="..AL["Trainer"] };

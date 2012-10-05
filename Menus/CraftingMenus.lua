@@ -252,19 +252,20 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TAILORINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "TailoringArmorCata", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Cataclysm"] };
-				{ 3, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 4, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
-				{ 5, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
-				{ 7, "TailoringItemEnhancement", "inv_misc_thread_01", "=ds="..AL["Item Enhancements"], "" };
-				{ 9, "Mooncloth", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
-				{ 10, "Shadoweave", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
-				{ 12, "TailoringCataVendor", "inv_scroll_05", "=ds="..AL["Cataclysm Vendor Sold Plans"], "=q5="..AtlasLoot:GetMapNameByID(700)};
-				{ 17, "TailoringBags", "inv_misc_bag_enchantedrunecloth", "=ds="..AL["Bags"], "" };
-				{ 18, "TailoringMisc", "ability_mount_magnificentflyingcarpet", "=ds="..BabbleInventory["Miscellaneous"], "" };
-				{ 19, "TailoringShirts", "inv_shirt_white_01", "=ds="..AL["Shirts"], "" };
-				{ 20, "TailoringCloth", "inv_fabric_netherweave_bolt", "=ds="..BabbleInventory["Cloth"], "" };
-				{ 24, "Spellfire", "Trade_Tailoring", "=ds="..GetSpellInfo(26797), "" };
+				{ 2, "TailoringArmorMoP", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Mists of Pandaria"] };
+				{ 3, "TailoringArmorCata", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Cataclysm"] };
+				{ 4, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 5, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
+				{ 6, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
+				{ 8, "Mooncloth", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
+				{ 9, "Shadoweave", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
+				{ 11, "TailoringCataVendor", "inv_scroll_05", "=ds="..AL["Cataclysm Vendor Sold Plans"], "=q5="..AtlasLoot:GetMapNameByID(700)};
+				{ 17, "TailoringItemEnhancement", "inv_misc_thread_01", "=ds="..AL["Item Enhancements"], "" };
+				{ 18, "TailoringBags", "inv_misc_bag_enchantedrunecloth", "=ds="..AL["Bags"], "" };
+				{ 19, "TailoringMisc", "ability_mount_magnificentflyingcarpet", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 20, "TailoringShirts", "inv_shirt_white_01", "=ds="..AL["Shirts"], "" };
+				{ 21, "TailoringCloth", "inv_fabric_netherweave_bolt", "=ds="..BabbleInventory["Cloth"], "" };
+				{ 23, "Spellfire", "Trade_Tailoring", "=ds="..GetSpellInfo(26797), "" };
 			};
 		};
 		info = {
