@@ -412,13 +412,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["COOKINGDAILYMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "CookingDaily#1", "inv_misc_food_meat_cooked_09", "=ds="..BabbleZone["Stormwind"] .." / "..BabbleZone["Orgrimmar"], "=q5="..AL["Cataclysm"] };
-				{ 4, 62786, "", "=q1=Cocoa Beans", "=ds=#e8#", "10 #silver#"};
-				{ 5, 65513, "", "=q1=Crate of Tasty Meat", "=ds=#m20#", "#CHEFAWARD:2#"};
-				{ 8, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
-				{ 17, "CookingDaily#2", "inv_misc_food_12", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 19, 46349, "", "=q3=Chef's Hat", "=ds=#s1#", "#DALARANCK:100#"};
-				{ 20, 43007, "", "=q1=Northern Spices", "=ds=#e8#", "#DALARANCK:1#"};
+				{ 2, "CookingDaily#1", "inv_misc_food_meat_cooked_09", "=ds="..AtlasLoot:GetMapNameByID(807), "=q5="..AL["Mists of Pandaria"] };
+				{ 3, "CookingDaily#2", "inv_misc_food_12", "=ds="..AtlasLoot:GetMapNameByID(504), "=q5="..AL["Wrath of the Lich King"] };
+				{ 17, "CookingDaily#1", "inv_misc_food_meat_cooked_09", "=ds="..AtlasLoot:GetMapNameByID(301).." / "..AtlasLoot:GetMapNameByID(321), "=q5="..AL["Cataclysm"] };
+				{ 18, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..AtlasLoot:GetMapNameByID(481), "=q5="..AL["Burning Crusade"] };
 			};
 		};
 		info = {

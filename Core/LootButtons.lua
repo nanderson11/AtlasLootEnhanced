@@ -18,28 +18,28 @@ local CURRENCY_PRICE = {
 	-- http://www.wowhead.com/currencies
 	["CHEFAWARD"] = 402,	-- Chef's Award
 	["CHAMPSEAL"] = 241,	-- Champion's Seal
-	["CONQUEST"] = 390, 	-- Conquest Points
-	["DALARANCK"] = 81,		-- Dalaran Cooking Award
+	["CONQUEST"] = 390,		-- Conquest Points
 	["DALARANJW"] = 61,		-- Dalaran Jewelcrafter's Token
 	["DARKMOON"] = 515,		-- Darkmoon Prize Ticket
+	["EPICUREAN"] = 81,		-- Epicurean's Award (CookingDaily)
 	["HONOR"] = 392,		-- Honor Points
 	["ILLLJW"] = 361,		-- Illustrious Jewelcrafter's Token -- why duplicate?
 	["CATAJW"] = 361,		-- Illustrious Jewelcrafter's Token -- why duplicate?
-	["IRONPAW"] = 402,      -- Ironpaw Token
+	["IRONPAW"] = 402,		-- Ironpaw Token (CookingDaily)
 	["JUSTICE"] = 395,		-- Justice Points
 	["TOLBARAD"] = 391,		-- Tol Barad Commendation
 	["VALOR"] = 396,		-- Valor Points
 	["WORLDTREE"] = 416,	-- Mark of the World Tree
 
 	-- Custom currencys
-	["BREWFEST"] = { itemID = 37829 },        -- Brewfest
-	["CHAMPWRIT"] = { itemID = 46114 },       -- What is this?
-	["HALLOWSEND"] = { itemID = 33226 },      -- Hallow's End
-	["LUNARFESTIVAL"] = { itemID = 21100 },   -- Lunar Festival
-	["MIDSUMMER"] = { itemID = 23247 },       -- Midsummer Fire Festival
-	["NOBLEGARDEN"] = { itemID = 44791 },	  -- Noblegarden
-	["SPIRITSHARD"] = { itemID = 28558 },     -- World PvP - Terokkar Forest: Bone Wastes
-	["VALENTINEDAY"] = { itemID = 49927 },    -- Love is in the Air
+	["BREWFEST"] = { itemID = 37829 },			-- Brewfest
+	["CHAMPWRIT"] = { itemID = 46114 },			-- What is this?
+	["HALLOWSEND"] = { itemID = 33226 },		-- Hallow's End
+	["LUNARFESTIVAL"] = { itemID = 21100 },		-- Lunar Festival
+	["MIDSUMMER"] = { itemID = 23247 },			-- Midsummer Fire Festival
+	["NOBLEGARDEN"] = { itemID = 44791 },		-- Noblegarden
+	["SPIRITSHARD"] = { itemID = 28558 },		-- World PvP - Terokkar Forest: Bone Wastes
+	["VALENTINEDAY"] = { itemID = 49927 },		-- Love is in the Air
 }
 
 -- AtlasLoot:CreateItemButton

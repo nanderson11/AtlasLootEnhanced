@@ -605,7 +605,8 @@ if AL then
 	AL["Raid Finder"] = true;
 	AL["Pandaria World Bosses"] = true;
 	AL["Elite"] = true;
-
+	AL["Vegetables"] = true;
+	
 	-- Loot Table Names
 	AL["Level 30-39"] = true;
 	AL["Level 40-49"] = true;

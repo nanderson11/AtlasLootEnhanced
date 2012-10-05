@@ -126,6 +126,10 @@ AtlasLoot_TextParsing = {
 	{ "#e25#", AL["Transformation Item"] },
 	{ "#e26#", BabbleInventory["Ground Mount"] },
 	{ "#e27#", BabbleInventory["Flying Mount"] },
+	--{ "#e28#", BabbleInventory["Aquatic Mount"] }, -- Saved for later
+	--{ "#e29#", BabbleInventory["Aquatic Mount"] }, -- Saved for later
+	{ "#e30#", BabbleInventory["Meat"] },
+	{ "#e31#", BabbleInventory["Vegetables"] },
 
 	-- Labels for Loot Descriptions
 	{ "#m1#", AL["Classes:"] },
