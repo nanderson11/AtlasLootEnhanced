@@ -605,6 +605,7 @@ if AL then
 	AL["Raid Finder"] = "Schlachtzugsbrowser";
 	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
 	-- AL["Elite"] = true;
+	AL["Vegetables"] = "Gemüse";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";
