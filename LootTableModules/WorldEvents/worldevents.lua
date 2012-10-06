@@ -211,6 +211,34 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Brewfest"] = {
 		["Normal"] = {
 			{
+				{ 1, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
+				{ 2, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "#BREWFEST:200#"};
+				{ 3, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "#BREWFEST:100#"};
+				{ 4, 71137, "", "=q3=Brewfest Keg Pony", "=ds=#m20#", "#BREWFEST:200#"};
+				{ 5, 90427, "", "=q3=Pandaren Brewpack", "=ds=#m20#", "#BREWFEST:100#"};
+				{ 6, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "#BREWFEST:20#"};
+				{ 7, 90426, "", "=q1=Brewhelm", "=ds=#m20#", "#BREWFEST:2#"};
+				{ 8, 37750, "", "=q1=Fresh Brewfest Hops", "=ds=#m20#", "#BREWFEST:2#"};
+				{
+					{ 9, 39477, "", "=q1=Fresh Dwarven Brewfest Hops", "=ds=#m20# =ec1=#m6#", "#BREWFEST:5#"};
+					{ 9, 39476, "", "=q1=Fresh Goblin Brewfest Hops", "=ds=#m20# =ec1=#m7#", "#BREWFEST:5#"};
+				};
+				{ 10, 37599, "", "=q1=\"Brew of the Month\" Club Membership Form", "=ds=#m2#", "#BREWFEST:200#"};
+				{
+					{ 16, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
+					{ 16, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
+				};
+				{ 17, 33968, "", "=q1=Blue Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 18, 33864, "", "=q1=Brown Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 19, 33967, "", "=q1=Green Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 20, 33969, "", "=q1=Purple Brewfest Hat", "=ds=#s1#", "#BREWFEST:50#"};
+				{ 21, 33863, "", "=q1=Brewfest Dress", "=ds=#s5#", "#BREWFEST:200#"};
+				{ 22, 33862, "", "=q1=Brewfest Regalia", "=ds=#s5#", "#BREWFEST:200#"};
+				{ 23, 33868, "", "=q1=Brewfest Boots", "=ds=#s12#", "#BREWFEST:100#"};
+				{ 24, 33966, "", "=q1=Brewfest Slippers", "=ds=#s12#", "#BREWFEST:100#"};
+				extraText = ": "..AL["Vendor"];
+			};
+			{
 				{ 1, 33030, "", "=q1=Barleybrew Clear", "=ds=#e4#"};
 				{ 2, 33028, "", "=q1=Barleybrew Light", "=ds=#e4#"};
 				{ 3, 33029, "", "=q1=Barleybrew Dark", "=ds=#e4#"};
@@ -276,7 +304,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 18, 71332, "", "=q4=Tremendous Tankard O' Terror", "=ds=#h1#, #w6#"};
 				{ 19, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e26#"};
 				{ 20, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e26#"};
-				{ 22, 37863, "", "=q3=Direbrew's Remote", "=ds="};
+				{ 22, 37863, "", "=q3=Direbrew's Remote", "=ds=#m20#"};
 			};
 		};
 		info = {
