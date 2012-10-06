@@ -2140,14 +2140,13 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "achievement_faction_shadopan", "=q6=#r3#", ""};
-				{ 2, 88995, "", "=q3=Shado-Pan Dragon Gun", "=ds=#s14#"};
-				{ 3, 89302, "", "=q1=Stack of Bamboo", "=ds=#e18#"};
-				{ 4, 89303, "", "=q1=Stack of Stone Blocks", "=ds=#e18#"};
-				{ 5, 89301, "", "=q1=Stack of Wooden Boards", "=ds=#e18#"};
-				{ 7, 0, "achievement_faction_shadopan", "=q6=#r4#", ""};
-				{ 8, 84584, "", "=q3=Formula: Enchant Weapon - Dancing Steel", "=ds=#p4# (600)"};
-				{ 9, 84583, "", "=q3=Formula: Enchant Weapon - Jade Spirit", "=ds=#p4# (600)"};
-				{ 10, 84580, "", "=q3=Formula: Enchant Weapon - River's Song", "=ds=#p4# (600)"};
+				{ 2, 89302, "", "=q1=Stack of Bamboo", "=ds=#e18#"};
+				{ 3, 89303, "", "=q1=Stack of Stone Blocks", "=ds=#e18#"};
+				{ 4, 89301, "", "=q1=Stack of Wooden Boards", "=ds=#e18#"};
+				{ 6, 0, "achievement_faction_shadopan", "=q6=#r4#", ""};
+				{ 7, 84584, "", "=q3=Formula: Enchant Weapon - Dancing Steel", "=ds=#p4# (600)"};
+				{ 8, 84583, "", "=q3=Formula: Enchant Weapon - Jade Spirit", "=ds=#p4# (600)"};
+				{ 9, 84580, "", "=q3=Formula: Enchant Weapon - River's Song", "=ds=#p4# (600)"};
 				{ 16, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
 				{ 17, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#"};
 				{ 18, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#"};
@@ -2177,9 +2176,9 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 85502, "", "=q2=Recipe: Viseclaw Soup", "=ds=#p3# (525)"};
 				{ 5, 0, "achievement_faction_anglers", "=q6=#r3#", ""};
 				{ 6, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#"};
-				{ 7, 85500, "", "=q3=Anglers Fishing Raft", "=ds=#p24# (525)"};
-				{ 8, 84660, "", "=q2=Pandaren Fishing Pole", "=ds=#e20#"};
-				{ 10, 0, "achievement_faction_anglers", "=q6=#r4#", ""};
+				{ 7, 84660, "", "=q2=Pandaren Fishing Pole", "=ds=#e20#"};
+				{ 9, 0, "achievement_faction_anglers", "=q6=#r4#", ""};
+				{ 10, 85500, "", "=q3=Anglers Fishing Raft", "=ds=#p24# (525)"};
 				{ 11, 84661, "", "=q3=Dragon Fishing Pole", "=ds=#e20#"};
 				{ 12, 88535, "", "=q3=Sharpened Tuskarr Spear", "=ds=#h1#"};
 				{ 16, 0, "achievement_faction_anglers", "=q6=#r5#", ""};
@@ -2215,8 +2214,9 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 84559, "", "=q3=Formula: Enchant Bracer - Super Intellect", "=ds=#p4# (600)"};
 				{ 9, 0, "achievement_faction_celestials", "=q6=#r5#", ""};
 				{ 10, 89304, "", "=q4=Reins of the Thundering August Cloud Serpent", "=ds=#e27#"};
-				{ 11, 89799, "", "=q3=August Celestials Tabard", "=ds=#s7#"};
-				{ 12, 86377, "", "=q1=Pattern: Royal Satchel", "=ds=#p8# (600)"};
+				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#"};
+				{ 12, 89799, "", "=q3=August Celestials Tabard", "=ds=#s7#"};
+				{ 13, 86377, "", "=q1=Pattern: Royal Satchel", "=ds=#p8# (600)"};
 			};
 		};
 		info = {
@@ -2275,16 +2275,34 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["LorewalkersGoldenLotus"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "achievement_faction_goldenlotus", "=q6=#r5#", "=ds="..BabbleFaction["Golden Lotus"]};
-				{ 3, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
-				{ 4, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
-				{ 5, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
-				{ 6, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
-				{ 17, 0, "achievement_faction_lorewalkers", "=q6=#r5#", "=ds="..BabbleFaction["The Lorewalkers"]};
-				{ 18, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#"};
-				{ 19, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#"};
-				{ 20, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
-				{ 21, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
+				{ 1, 0, "achievement_faction_goldenlotus", "=q6=#r3#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 2, 86235, "", "=q1=Pattern: Angerhide Leg Armor", "=ds=#p7# (575)"};
+				{ 3, 86276, "", "=q1=Pattern: Ironscale Leg Armor", "=ds=#p7# (575)"};
+				{ 4, 86295, "", "=q1=Pattern: Shadowleather Leg Armor", "=ds=#p7# (575)"};
+				{ 5, 86274, "", "=q1=Pattern: Greyshadow Chestguard", "=ds=#p7# (600)"};
+				{ 6, 86309, "", "=q1=Pattern: Wildblood Vest", "=ds=#p7# (600)"};
+				{ 7, 86275, "", "=q1=Pattern: Greyshadow Gloves", "=ds=#p7# (600)"};
+				{ 8, 86308, "", "=q1=Pattern: Wildblood Gloves", "=ds=#p7# (600)"};
+				{ 9, 86237, "", "=q1=Pattern: Chestguard of Earthen Harmony", "=ds=#p7# (600)"};
+				{ 10, 86278, "", "=q1=Pattern: Lifekeeper's Robe", "=ds=#p7# (600)"};
+				{ 11, 86273, "", "=q1=Pattern: Gloves of Earthen Harmony", "=ds=#p7# (600)"};
+				{ 12, 86277, "", "=q1=Pattern: Lifekeeper's Gloves", "=ds=#p7# (600)"};
+				{ 13, 86376, "", "=q1=Pattern: Greater Cerulean Spellthread", "=ds=#p8# (575)"};
+				{ 14, 86375, "", "=q1=Pattern: Greater Pearlescent Spellthread", "=ds=#p8# (575)"};
+				{ 15, 86370, "", "=q1=Pattern: Robes of Creation", "=ds=#p8# (600)"};
+				{ 16, 86368, "", "=q1=Pattern: Spelltwister's Grand Robe", "=ds=#p8# (600)"};
+				{ 17, 86371, "", "=q1=Pattern: Gloves of Creation", "=ds=#p8# (600)"};
+				{ 18, 86369, "", "=q1=Pattern: Spelltwister's Gloves", "=ds=#p8# (600)"};
+				{ 20, 0, "achievement_faction_goldenlotus", "=q6=#r5#", "=ds="..BabbleFaction["Golden Lotus"]};
+				{ 21, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
+				{ 22, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
+				{ 23, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
+				{ 24, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
+				{ 26, 0, "achievement_faction_lorewalkers", "=q6=#r5#", "=ds="..BabbleFaction["The Lorewalkers"]};
+				{ 27, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#"};
+				{ 28, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#"};
+				{ 29, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
+				{ 30, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
 			};
 		};
 		info = {
@@ -2303,21 +2321,22 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "achievement_faction_tillers", "=q6=#r4#", ""};
 				{ 2, 89869, "", "=q3=Pandaren Scarecrow", "=ds="};
 				{ 3, 85268, "", "=q2=Spring Blossom Sapling", "=ds="};
-				{ 4, 85269, "", "=q2=Winter Blossom Sapling", "=ds="};
-				{ 5, 85216, "", "=q1=Enigma Seed", "=ds="};
-				{ 6, 85217, "", "=q1=Magebulb Seed", "=ds="};
-				{ 7, 89202, "", "=q1=Raptorleaf Seed", "=ds="};
-				{ 8, 85215, "", "=q1=Snakeroot Seed", "=ds="};
-				{ 9, 89233, "", "=q1=Songbell Seed", "=ds="};
+				{ 4, 85216, "", "=q1=Enigma Seed", "=ds="};
+				{ 5, 85217, "", "=q1=Magebulb Seed", "=ds="};
+				{ 6, 89202, "", "=q1=Raptorleaf Seed", "=ds="};
+				{ 7, 85215, "", "=q1=Snakeroot Seed", "=ds="};
+				{ 8, 89233, "", "=q1=Songbell Seed", "=ds="};
+				{ 9, 89197, "", "=q1=Windshear Cactus Seed", "=ds="};
 				{ 16, 0, "achievement_faction_tillers", "=q6=#r5#", ""};
 				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
 				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
 				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
 				{ 20, 90175, "", "=q3=Gin-Ji Knife Set", "=ds=#m20#"};
-				{ 21, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
-				{ 22, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)"};
-				{ 23, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)"};
-				{ 24, 89197, "", "=q1=Windshear Cactus Seed", "=ds="};
+				{ 21, 80914, "", "=q3=Morning Glory", "=ds=#m20#"};
+				{ 22, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
+				{ 23, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)"};
+				{ 24, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)"};
+				{ 25, 85269, "", "=q2=Winter Blossom Sapling", "=ds="};
 			};
 		};
 		info = {
