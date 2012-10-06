@@ -72,7 +72,7 @@ if AL then
 	AL["Load AtlasLoot"] = "AtlasLoot laden";
 	AL["Module \"%s\" is disabled."] = "Modul \"%s\" ist deaktiviert.";
 	AL["Module \"%s\" is missing."] = "Modul \"%s\" fehlt.";
-	
+
 	-- MiniMap-Button
 	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000Klicken: |cffFFFFFFAtlasLoot öffnen\n|cffFF0000Shift+Klicken: |cffFFFFFFAtlasLoot-Optionen öffnen";
 

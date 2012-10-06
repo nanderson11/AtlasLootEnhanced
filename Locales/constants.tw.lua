@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = "附魔披風";
 	AL["Enchant Gloves"] = "附魔手套";
 	AL["Enchant Ring"] = "附魔戒指";
-	AL["Enchant Shield & Off-Hand"] = "附魔盾牌";
+	AL["Enchant Shield & Off-Hand"] = "附魔盾牌/副手";
 	AL["Enchant 2H Weapon"] = "附魔雙手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "浩劫與重生供應商出售公式";
@@ -491,7 +491,7 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷軸";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Staves/Shoulder Enchants"] = "聖物/肩部附魔";
+	AL["Staves/Shoulder Enchants"] = "法杖/肩部附魔";
 	AL["Shoulder Enchants"] = "肩部附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕紋精通之書";
@@ -570,6 +570,7 @@ if AL then
 	AL["Season 9"] = "第九季";
 	AL["Season 10"] = "第十季";
 	AL["Season 11"] = "第十一季";
+	AL["Season 12"] = "第十二季";
 	AL["Fire"] = "赤紅";
 	AL["Water"] = "碧藍";
 	AL["Wind"] = "蒼白";
@@ -604,6 +605,7 @@ if AL then
 	AL["Raid Finder"] = "團隊搜尋器";
 	AL["Pandaria World Bosses"] = "潘達利亞世界首領";
 	AL["Elite"] = "菁英";
+	AL["Vegetables"] = "蔬菜";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等級 30～39";

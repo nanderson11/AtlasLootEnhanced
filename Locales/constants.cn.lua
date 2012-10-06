@@ -72,7 +72,7 @@ if AL then
 	AL["Load AtlasLoot"] = "加载 AtlasLoot";
 	AL["Module \"%s\" is disabled."] = "\"%s\"模块已禁用。";
 	AL["Module \"%s\" is missing."] = "\"%s\"模组缺失。";
-	
+
 	-- MiniMap-Button
 	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000点击：|cffFFFFFF打开 AtlasLoot\n|cffFF0000Shift+点击：|cffFFFFFF打开 AtlasLoot 选项";
 
@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = "附魔披风";
 	AL["Enchant Gloves"] = "附魔手套";
 	AL["Enchant Ring"] = "附魔戒指";
-	AL["Enchant Shield & Off-Hand"] = "附魔盾牌";
+	AL["Enchant Shield & Off-Hand"] = "附魔盾牌/副手";
 	AL["Enchant 2H Weapon"] = "附魔双手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "大地的裂变商人出售公式";
@@ -491,7 +491,7 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷轴";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Staves/Shoulder Enchants"] = "圣物/肩膀附魔";
+	AL["Staves/Shoulder Enchants"] = "法杖/肩膀附魔";
 	AL["Shoulder Enchants"] = "肩膀附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕文精通之书";
@@ -570,6 +570,7 @@ if AL then
 	AL["Season 9"] = "第9季";
 	AL["Season 10"] = "第10季";
 	AL["Season 11"] = "第11季";
+	AL["Season 12"] = "第12季";
 	AL["Fire"] = "火";
 	AL["Water"] = "水";
 	AL["Wind"] = "风";
@@ -604,6 +605,7 @@ if AL then
 	AL["Raid Finder"] = "团队查找器";
 	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
 	AL["Elite"] = "精锐";
+	AL["Vegetables"] = "蔬菜";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "等级30-39";
@@ -679,7 +681,7 @@ if AL then
 	AL["Tribute Run"] = "贡品";
 	AL["Dire Maul Books"] = "厄运之槌书籍";
 	AL["Random Boss Loot"] = "首领随机掉落";
-	AL["Formula/Patterns/Plans"] = "图样/设计图";
+	AL["Formula/Patterns/Plans"] = "公式/图样/设计图";
 	AL["BRD Blacksmithing Plans"] = "黑石深渊锻造设计图";
 	AL["Patterns/Plans"] = "图样/设计图";
 
