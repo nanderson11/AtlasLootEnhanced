@@ -1500,6 +1500,35 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
+	AtlasLoot_Data["MoguShanVaultsPatterns"] = {
+		["Normal"] = {
+			{
+				{ 1, 86381, "", "=q4=Pattern: Legacy of the Emperor", "=ds=#p8# (600)"};
+				{ 2, 86379, "", "=q4=Pattern: Robe of Eternal Rule", "=ds=#p8# (600)"};
+				{ 3, 86380, "", "=q4=Pattern: Imperial Silk Gloves", "=ds=#p8# (600)"};
+				{ 4, 86382, "", "=q4=Pattern: Touch of the Light", "=ds=#p8# (600)"};
+				{ 6, 86238, "", "=q4=Pattern: Chestguard of Nemeses", "=ds=#p7# (600)"};
+				{ 7, 86281, "", "=q4=Pattern: Nightfire Robe", "=ds=#p7# (600)"};
+				{ 8, 86279, "", "=q4=Pattern: Liferuned Leather Gloves", "=ds=#p7# (600)"};
+				{ 9, 86280, "", "=q4=Pattern: Murderer's Gloves", "=ds=#p7# (600)"};
+				{ 10, 86283, "", "=q4=Pattern: Raiment of Blood and Bone", "=ds=#p7# (600)"};
+				{ 11, 86297, "", "=q4=Pattern: Stormbreaker Chestguard", "=ds=#p7# (600)"};
+				{ 12, 86272, "", "=q4=Pattern: Fists of Lightning", "=ds=#p7# (600)"};
+				{ 13, 86284, "", "=q4=Pattern: Raven Lord's Gloves", "=ds=#p7# (600)"};
+				{ 16, 87412, "", "=q4=Plans: Chestplate of Limitless Faith", "=ds=#p2# (600)"};
+				{ 17, 87410, "", "=q4=Plans: Ornate Battleplate of the Master", "=ds=#p2# (600)"};
+				{ 18, 87408, "", "=q4=Plans: Unyielding Bloodplate", "=ds=#p2# (600)"};
+				{ 19, 87411, "", "=q4=Plans: Bloodforged Warfists", "=ds=#p2# (600)"};
+				{ 20, 87409, "", "=q4=Plans: Gauntlets of Battle Command", "=ds=#p2# (600)"};
+				{ 21, 87413, "", "=q4=Plans: Gauntlets of Unbound Devotion", "=ds=#p2# (600)"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(896).. " "..AL["Patterns/Plans"],
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
 		-----------------------------
 		--- Pandaria World Bosses ---
 		-----------------------------

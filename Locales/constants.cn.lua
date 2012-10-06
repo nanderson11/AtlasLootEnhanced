@@ -474,7 +474,7 @@ if AL then
 	AL["Enchant Cloak"] = "附魔披风";
 	AL["Enchant Gloves"] = "附魔手套";
 	AL["Enchant Ring"] = "附魔戒指";
-	AL["Enchant Shield & Off-Hand"] = "附魔盾牌/副手";
+	AL["Enchant Shield & Off-Hand"] = "附魔盾牌";
 	AL["Enchant 2H Weapon"] = "附魔双手武器";
 	AL["Enchant Weapon"] = "附魔武器";
 	AL["Cataclysm Vendor Sold Formulas"] = "大地的裂变商人出售公式";
@@ -491,7 +491,7 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷轴";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Staves/Shoulder Enchants"] = "法杖/肩膀附魔";
+	AL["Staves/Shoulder Enchants"] = "圣物/肩膀附魔";
 	AL["Shoulder Enchants"] = "肩膀附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕文精通之书";
@@ -570,7 +570,6 @@ if AL then
 	AL["Season 9"] = "第9季";
 	AL["Season 10"] = "第10季";
 	AL["Season 11"] = "第11季";
-	AL["Season 12"] = "第12季";
 	AL["Fire"] = "火";
 	AL["Water"] = "水";
 	AL["Wind"] = "风";
@@ -680,14 +679,9 @@ if AL then
 	AL["Tribute Run"] = "贡品";
 	AL["Dire Maul Books"] = "厄运之槌书籍";
 	AL["Random Boss Loot"] = "首领随机掉落";
-	AL["BT Patterns/Plans"] = "黑暗神殿图样/设计图";
-	AL["Hyjal Summit Designs"] = "海加尔峰图纸";
-	AL["SP Patterns/Plans"] = "太阳之井高地图样/设计图";
-	AL["Ulduar Formula/Patterns/Plans"] = "奥杜尔公式/图样/设计图";
-	AL["Trial of the Crusader Patterns/Plans"] = "十字军的试炼图样/设计图";
+	AL["Formula/Patterns/Plans"] = "图样/设计图";
 	AL["BRD Blacksmithing Plans"] = "黑石深渊锻造设计图";
-	AL["Firelands Patterns/Plans"] = "火焰之地图样/设计图";
-	AL["Dragon Soul Patterns/Plans"] = "巨龙之魂图样/设计图";
+	AL["Patterns/Plans"] = "图样/设计图";
 
 	-- General titles
 	AL["Achievement"] = "成就";

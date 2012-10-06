@@ -681,14 +681,9 @@ if AL then
 	AL["Tribute Run"] = true;
 	AL["Dire Maul Books"] = true;
 	AL["Random Boss Loot"] = true;
-	AL["BT Patterns/Plans"] = true;
-	AL["Hyjal Summit Designs"] = true;
-	AL["SP Patterns/Plans"] = true;
-	AL["Ulduar Formula/Patterns/Plans"] = true;
-	AL["Trial of the Crusader Patterns/Plans"] = true;
+	AL["Formula/Patterns/Plans"] = true;
 	AL["BRD Blacksmithing Plans"] = true;
-	AL["Firelands Patterns/Plans"] = true;
-	AL["Dragon Soul Patterns/Plans"] = true;
+	AL["Patterns/Plans"] = true;
 
 	-- General titles
 	AL["Achievement"] = true;

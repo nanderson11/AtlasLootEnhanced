@@ -142,6 +142,8 @@ AtlasLoot_LootTableRegister = {
 				{ "MSVSpiritKings", 10, EncounterJournalID = 687 },
 				{ "MSVElegon", 15, EncounterJournalID = 726 },
 				{ "MSVWilloftheEmperor", 16, EncounterJournalID = 677 },
+				{ "MoguShanVaultsPatterns", 20 },
+	
 			},
 			["Info"] = { BabbleZone["Mogu'shan Vaults"], "AtlasLootMoP", mapname = "MoguShanVaults", raid = true, EncounterJournalID = 317 },
 		},
@@ -338,9 +340,9 @@ AtlasLoot_LootTableRegister = {
 			["CoTDragonSoulA"] = {
 				{ "DragonSoulMorchok", 3, EncounterJournalID = 311 },
 				{ "DragonSoulUltraxion", 4, EncounterJournalID = 331, hide = true },
-				{ "DragonSoulShared", 6, hide = true },
-				{ "DragonSoulTrash", 7, hide = true },
-				{ "DragonSoulPatterns", 8, hide = true },
+				{ "DragonSoulShared", 8, hide = true },
+				{ "DragonSoulTrash", 9, hide = true },
+				{ "DragonSoulPatterns", 10, hide = true },
 			},
 			["CoTDragonSoulB"] = {
 				{ "DragonSoulZonozz", 2, EncounterJournalID = 324 },

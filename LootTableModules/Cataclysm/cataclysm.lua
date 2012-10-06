@@ -3216,7 +3216,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Dragon Soul Patterns/Plans"],
+			name = AtlasLoot:GetMapNameByID(824).. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "DragonSoul",
 		};
 	};
@@ -3612,7 +3612,7 @@ local moduleName = "AtlasLootCataclysm"
 			};
 		};
 		info = {
-			name = AL["Firelands Patterns/Plans"],
+			name = AtlasLoot:GetMapNameByID(800).. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "Firelands",
 		};
 	};

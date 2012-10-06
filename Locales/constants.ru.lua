@@ -590,12 +590,9 @@ if AL then
 	AL["Tribute Run"] = "Заход почести";
 	AL["Dire Maul Books"] = "Книги Забытого Города";
 	AL["Random Boss Loot"] = "Трофеи случайных боссов";
-	AL["BT Patterns/Plans"] = "ЧХ - Выкройки/Чертежы";
-	AL["Hyjal Summit Designs"] = "Вершина Хиджала - эскизы";
-	AL["SP Patterns/Plans"] = "SP Выкройки/Чертежы";
-	AL["Ulduar Formula/Patterns/Plans"] = "Ульдуар - формулы/выкройки/чертежы";
-	AL["Trial of the Crusader Patterns/Plans"] = "Испытание крестоносца - выкройки/чертежы";
+	AL["Formula/Patterns/Plans"] = "формулы/выкройки/чертежы";
 	AL["BRD Blacksmithing Plans"] = "ГЧГ - Чертежи для кузнецов";
+	AL["Patterns/Plans"] = "выкройки/чертежы";
 
 	-- General titles
 	AL["Achievement"] = "Достижение";

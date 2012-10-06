@@ -545,12 +545,9 @@ if AL then
 	AL["Tribute Run"] = "공물함";
 	AL["Dire Maul Books"] = "혈투의 전장 직업 책";
 	AL["Random Boss Loot"] = "렌덤 보스 드랍";
-	AL["BT Patterns/Plans"] = true;
-	AL["Hyjal Summit Designs"] = true;
-	AL["SP Patterns/Plans"] = true;
-	AL["Ulduar Formula/Patterns/Plans"] = true;
-	AL["Trial of the Crusader Patterns/Plans"] = true;
+	AL["Formula/Patterns/Plans"] = true;
 	AL["BRD Blacksmithing Plans"] = true;
+	AL["Patterns/Plans"] = true;
 
 	-- General titles
 	AL["Achievement"] = true;

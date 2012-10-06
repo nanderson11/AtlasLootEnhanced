@@ -678,14 +678,9 @@ if AL then
 	AL["Tribute Run"] = "Tribut du Roi";
 	AL["Dire Maul Books"] = "Livres de Hache Tripes";
 	AL["Random Boss Loot"] = "Objets aléatoires des boss";
-	AL["BT Patterns/Plans"] = "Patrons / Plans du Temple Noir";
-	AL["Hyjal Summit Designs"] = "Dessins du Sommet d'Hyjal";
-	AL["SP Patterns/Plans"] = "Patrons / Plans du Plateau du Puits de soleil";
-	AL["Ulduar Formula/Patterns/Plans"] = "Formules / Patrons / Plans d'Ulduar";
-	AL["Trial of the Crusader Patterns/Plans"] = "Patrons / Plans de L'épreuve du croisé";
+	AL["Formula/Patterns/Plans"] = "Formules / Patrons / Plans";
 	AL["BRD Blacksmithing Plans"] = "Plans de forge de BRD";
-	AL["Firelands Patterns/Plans"] = "Plans / Patrons des Terres de Feu";
-	AL["Dragon Soul Patterns/Plans"] = "Plans / Patrons de La Fin des temps";
+	AL["Patterns/Plans"] = "Plans / Patrons";
 
 	-- General titles
 	AL["Achievement"] = "Haut fait";

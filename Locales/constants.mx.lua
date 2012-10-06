@@ -454,9 +454,7 @@ if AL then
 	AL["Level 30-39"] = "Niveles 30-39";
 	AL["Level 40-49"] = "Niveles 40-49";
 	AL["Level 50-60"] = "Niveles 50-60";
-	AL["BT Patterns/Plans"] = "Recetas/Planos del Templo Oscuro";
-	AL["Hyjal Summit Designs"] = "Diseños de la Cumbre de Hyjal";
-	AL["SP Patterns/Plans"] = "Recinto de Esclavos Recetas/Planos";
+	AL["Patterns/Plans"] = "Recetas/Planos";
 	AL["Additional Heroic Loot"] = "Botin heróico adicional";
 
 	--Pets

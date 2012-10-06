@@ -760,7 +760,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["BT Patterns/Plans"],
+			name = AtlasLoot:GetMapNameByID(796).. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "BlackTemple",
 		};
 	};
@@ -2723,7 +2723,7 @@ local moduleName = "AtlasLootBurningCrusade"
 			};
 		};
 		info = {
-			name = AL["SP Patterns/Plans"],
+			name = AtlasLoot:GetMapNameByID(789).. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "SunwellPlateau",
 		};
 	};

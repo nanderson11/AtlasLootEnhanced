@@ -4880,7 +4880,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Ulduar Formula/Patterns/Plans"],
+			name = AtlasLoot:GetMapNameByID(529).. " "..AL["Formula/Patterns/Plans"],
 			module = moduleName, instance = "Ulduar",
 		};
 	}
@@ -5884,7 +5884,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["Trial of the Crusader Patterns/Plans"],
+			name = AtlasLoot:GetMapNameByID(543).. " "..AL["Patterns/Plans"],
 			module = moduleName, instance = "TrialOfTheCrusader",
 		};
 	}
