@@ -230,7 +230,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 11, 89796, "", "=q3=Order of the Cloud Serpent Tabard", "=ds=#s7#"};
 				{ 12, 89800, "", "=q3=Shado-Pan Tabard", "=ds=#s7#"};
 				{ 13, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
-				{ 14, 89796, "", "=q3=Order of the Cloud Serpent Tabard", "=ds=#s7#"};
+				{ 14, 86468, "", "=q7=Apron", "=ds=#s7#"};
 				{ 16, "TabardsHorde", "achievement_pvp_h_16", "=ds="..AL["Horde Tabards"], ""};
 				{ 17, "TabardsAchievementQuestRare", "inv_shirt_guildtabard_01", "=ds="..AL["Achievement & Quest Reward Tabards"], ""};
 				{ 20, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
