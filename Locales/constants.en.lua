@@ -343,6 +343,7 @@ if AL then
 	AL["Crafted Epic Weapons"] = true;
 	AL["Dragon's Eye"] = true;
 	AL["Chimera's Eye"] = true;
+	AL["Serpent's Eye"] = true;
 
 	-- Sets/Collections Menu
 	AL["Sets"] = true;
@@ -1145,6 +1146,7 @@ if AL then
 	AL["Stolen Present"] = true;
 	AL["Oozing Bag"] = true;
 	AL["Ominous Seed"] = true;
+	AL["Treasures of the Vale"] = true;
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = true;

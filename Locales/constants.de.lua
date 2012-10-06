@@ -343,6 +343,7 @@ if AL then
 	AL["Crafted Epic Weapons"] = "Herstellbare epische Waffen";
 	AL["Dragon's Eye"] = "Drachenauge";
 	AL["Chimera's Eye"] = "Schimärenauge";
+	AL["Serpent's Eye"] = "Serpentin";
 
 	-- Sets/Collections Menu
 	-- AL["Sets"] = true;
@@ -1145,6 +1146,7 @@ if AL then
 	AL["Stolen Present"] = "Gestohlenes Geschenk";
 	AL["Oozing Bag"] = "Schlammiger Beutel";
 	AL["Ominous Seed"] = "Ominöser Samen";
+	AL["Treasures of the Vale"] = "Schätze des Tals";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Jahrespass";
