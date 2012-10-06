@@ -603,6 +603,7 @@ if AL then
 	AL["Raid Finder"] = "Recherche de raid";
 	AL["Pandaria World Bosses"] = "World Boss de Pandarie";
 	--AL["Elite"] = true;
+	AL["Vegetables"] = "Légumes";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Niveau 30-39";
