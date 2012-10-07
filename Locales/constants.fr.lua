@@ -482,8 +482,6 @@ if AL then
 	AL["Tinker"] = "Objets bricolés";
 
 	-- Inscription
-	AL["Glyph"] = "Glyphe";
-	AL["Prime Glyph"] = "Glyphe primordial";
 	AL["Major Glyph"] = "Glyphe majeur";
 	AL["Minor Glyph"] = "Glyphe mineur";
 	AL["Runescrolls"] = "Parchemins";

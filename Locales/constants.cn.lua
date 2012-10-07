@@ -484,8 +484,6 @@ if AL then
 	AL["Tinker"] = "工程学专属";
 
 	-- Inscription
-	AL["Glyph"] = "雕文";
-	AL["Prime Glyph"] = "主要雕纹";
 	AL["Major Glyph"] = "大型雕文";
 	AL["Minor Glyph"] = "小型雕文";
 	AL["Runescrolls"] = "符文卷轴";

@@ -414,8 +414,6 @@ if AL then
 	AL["Tinker"] = "Конструирование";
 
 	-- Inscription
-	AL["Glyph"] = "Символ";
-	AL["Prime Glyph"] = "Основной символ";
 	AL["Major Glyph"] = "Большой символ";
 	AL["Minor Glyph"] = "Малый символ";
 	AL["Runescrolls"] = "Рунические свитки";

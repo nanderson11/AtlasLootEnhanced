@@ -484,8 +484,6 @@ if AL then
 	AL["Tinker"] = "工程師專屬";
 
 	-- Inscription
-	AL["Glyph"] = "雕紋";
-	AL["Prime Glyph"] = "主要雕紋";
 	AL["Major Glyph"] = "極效雕紋";
 	AL["Minor Glyph"] = "初階雕紋";
 	AL["Runescrolls"] = "符文卷軸";

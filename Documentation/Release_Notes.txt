@@ -9,6 +9,7 @@ v7.02.01 (Oct ??, 2012)
 Added Ironpaw cooking award items.
 Added Level 90 World BoE Items.
 Updated Blacksmithing with Mists of Pandaria recipes.
+Updated Inscription with Mists of Pandaria recipes.
 Updated Jewelcrafting with Mists of Pandaria recipes.
 Updated Leatherworking with Mists of Pandaria recipes.
 Updated Tailoring with Mists of Pandaria recipes.

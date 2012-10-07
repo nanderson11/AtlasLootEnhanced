@@ -484,8 +484,6 @@ if AL then
 	AL["Tinker"] = "Basteln";
 
 	-- Inscription
-	AL["Glyph"] = "Glyphe";
-	AL["Prime Glyph"] = "Primärglyphe";
 	AL["Major Glyph"] = "Erhebliche Glyphe";
 	AL["Minor Glyph"] = "Geringe Glyphe";
 	AL["Runescrolls"] = "Runenschriftrollen";
