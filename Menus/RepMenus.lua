@@ -10,7 +10,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "REPMENU_ORIGINALWOW", "INV_Helmet_66", "=ds="..AL["Classic WoW"], ""};
 				{ 3, "REPMENU_WOTLK", "achievement_reputation_kirintor", "=ds="..AL["Wrath of the Lich King"], ""};
 				{ 5, "Anglers", "achievement_faction_anglers", "=ds="..BabbleFaction["The Anglers"], "=q5="..BabbleZone["Krasarang Wilds"]};
-				{ 6, "GoldenLotus", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["Golden Lotus"], "=q5="..BabbleZone["Vale of Eternal Blossoms"]};
+				{ 6, "GoldenLotus", "achievement_faction_goldenlotus", "=ds="..BabbleFaction["Golden Lotus"], "=q5="..BabbleZone["Vale of Eternal Blossoms"]};
 				{ 7, "Lorewalkers", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["The Lorewalkers"], "=q5="..BabbleZone["Vale of Eternal Blossoms"]};
 				{ 8, "ShadoPan", "achievement_faction_shadopan", "=ds="..BabbleFaction["Shado-Pan"], "=q5="..BabbleZone["Townlong Steppes"]};
 				{ 10, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
