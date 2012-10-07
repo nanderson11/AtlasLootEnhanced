@@ -1803,6 +1803,7 @@ AtlasLoot_LootTableRegister = {
 		
 		["WorldEpics"] = {
 			["Bosses"] = {
+				{ "WorldEpics90" },
 				{ "WorldEpics85" },
 				{ "WorldEpics80" },
 				{ "WorldEpics70" },

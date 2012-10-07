@@ -40,6 +40,7 @@ local moduleName = "AtlasLootMoP"
 ---- Tabards
 ---- Transformation Items
 ---- Heirloom Items
+---- BoE World Epics
 ---- Justice Points Items
 ---- Valor Points Items
 
@@ -5358,6 +5359,45 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+		-----------------------
+		--- BoE World Epics ---
+		-----------------------
+
+	AtlasLoot_Data["WorldEpics90"] = {
+		["Normal"] = {
+			{
+
+
+				{ 1, 90580, "", "=q4=Cristof's Crushing Cloak", "=ds=#s4#"};
+				{ 2, 90589, "", "=q4=Dirl's Drafty Drape", "=ds=#s4#"};
+				{ 3, 90586, "", "=q4=Dory's Pageantry", "=ds=#s4#"};
+				{ 4, 90573, "", "=q4=Wang's Unshakable Smile", "=ds=#s1#, #a1#"};
+				{ 5, 90587, "", "=q4=Natli's Fireheart Robe", "=ds=#s5#, #a1#"};
+				{ 6, 90574, "", "=q4=Etoshia's Elegant Gloves", "=ds=#s9#, #a1#"};
+				{ 7, 90588, "", "=q4=Rittsyn's Ruinblasters", "=ds=#s9#, #a1#"};
+				{ 8, 90585, "", "=q4=Vulajin's Vicious Breastplate", "=ds=#s5#, #a2#"};
+				{ 9, 90572, "", "=q4=Kilt of Pandaren Promises", "=ds=#s11#, #a3#"};
+				{ 10, 90570, "", "=q4=Legguards of Sleeting Arrows", "=ds=#s11#, #a3#"};
+				{ 11, 87695, "", "=q4=Treads of Edward the Odd", "=ds=#s12#, #a3#"};
+				{ 12, 90576, "", "=q4=Spaulders of the Scorned", "=ds=#s3#, #a4#"};
+				{ 13, 90577, "", "=q4=Boblet's Bouncing Hauberk", "=ds=#s5#, #a4#"};
+				{ 14, 90579, "", "=q4=Legplates of Durable Dreams", "=ds=#s11#, #a4#"};
+				{ 16, 90582, "", "=q4=Buc-Zakai Memento", "=ds=#s2#"};
+				{ 17, 90583, "", "=q4=Don Guerrero's Glorious Choker", "=ds=#s2#"};
+				{ 18, 90590, "", "=q4=Dorian's Necklace of Burgeoning Dreams", "=ds=#s2#"};
+				{ 20, 90581, "", "=q4=Jan-Ho's Unwavering Seal", "=ds=#s13#"};
+				{ 21, 90584, "", "=q4=Perculia's Peculiar Signet", "=ds=#s13#"};
+				{ 22, 90591, "", "=q4=Ring of the Shipwrecked Prince", "=ds=#s13#"};
+				{ 24, 90571, "", "=q4=Scroll of Whispered Secrets", "=ds=#s15#"};
+				{ 25, 90575, "", "=q4=Sutiru's Brazen Bulwark", "=ds=#w8#"};
+			};
+		};
+		info = {
+			name = AL["BoE World Epics"].." "..AL["Level 90"],
+			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
+		};
+	}
+
 		----------------------------
 		--- Justice Points Items ---
 		----------------------------
@@ -5520,11 +5560,11 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 			{
-				{ 1, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
-				{ 2, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
-				{ 3, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
-				{ 4, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
-				{ 5, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#, #a1#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
+				{ 1, 89076, "", "=q4=Blackguard Cape", "=ds=#s4#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
+				{ 2, 89077, "", "=q4=Cloak of Snow Blossoms", "=ds=#s4#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
+				{ 3, 89074, "", "=q4=Cloak of the Dark Disciple", "=ds=#s4#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
+				{ 4, 89078, "", "=q4=Sagewhisper's Wrap", "=ds=#s4#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
+				{ 5, 89075, "", "=q4=Yi's Cloak of Courage", "=ds=#s4#", "#VALOR:1250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Honored"] },
 				{ 7, 89065, "", "=q4=Choker of the Klaxxi'va", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"] },
 				{ 8, 89064, "", "=q4=Bloodseeker's Solitaire", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"] },
 				{ 9, 89067, "", "=q4=Links of the Lucid", "=ds=#s2#", "#VALOR:1250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Honored"] },
