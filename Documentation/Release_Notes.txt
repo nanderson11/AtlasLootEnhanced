@@ -5,17 +5,18 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.02.01 (Oct ??, 2012)
+v7.02.01 (Oct 10, 2012)
 Added Ironpaw cooking award items.
+Added some missing faction rewards.
+Added missing raid items.
 Added Level 90 World BoE Items.
 Updated Blacksmithing with Mists of Pandaria recipes.
 Updated Inscription with Mists of Pandaria recipes.
 Updated Jewelcrafting with Mists of Pandaria recipes.
 Updated Leatherworking with Mists of Pandaria recipes.
 Updated Tailoring with Mists of Pandaria recipes.
-Updated some faction rewards.
 Brewfest vendor updated.
-Minor fixes and additions.
+Ton of minor fixes, additions and translations.
 
 v7.02.00 (Oct 03, 2012)
 Compatible with Atlas 1.22.

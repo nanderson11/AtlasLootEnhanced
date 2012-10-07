@@ -1172,14 +1172,17 @@ local moduleName = "AtlasLootMoP"
 		["RaidFinder"] = {
 			{
 				{ 1, 86748, "", "=q4=Cape of Three Lanterns", "=ds=#s4#" },
-				{ 2, 86747, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
-				{ 3, 86746, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
-				{ 4, 86743, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
-				{ 5, 86745, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
-				{ 6, 86740, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
-				{ 7, 86793, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
-				{ 8, 86744, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
-				{ 9, 86742, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
+				{ 2, 89966, "", "=q4=Claws of Amethyst", "=ds=#s9#, #a1#" },
+				{ 3, 89965, "", "=q4=Ruby-Linked Girdle", "=ds=#s10#, #a1#" },
+				{ 4, 86747, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
+				{ 5, 86746, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
+				{ 6, 86743, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
+				{ 7, 86745, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
+				{ 8, 89964, "", "=q4=Stonefang Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 86740, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
+				{ 10, 86793, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
+				{ 11, 86744, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
+				{ 12, 86742, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 86739, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 86741, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
 			};
@@ -1206,14 +1209,17 @@ local moduleName = "AtlasLootMoP"
 		["Heroic"] = {
 			{
 				{ 1, 87018, "", "=q4=Cape of Three Lanterns", "=ds=#s4#" },
-				{ 2, 87017, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
-				{ 3, 87019, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
-				{ 4, 87013, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
-				{ 5, 87020, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
-				{ 6, 87014, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
-				{ 7, 87060, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
-				{ 8, 87021, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
-				{ 9, 87015, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
+				{ 2, 89931, "", "=q4=Claws of Amethyst", "=ds=#s9#, #a1#" },
+				{ 3, 89930, "", "=q4=Ruby-Linked Girdle", "=ds=#s10#, #a1#" },
+				{ 4, 87017, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
+				{ 5, 87019, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
+				{ 6, 87013, "", "=q4=Stoneflesh Leggings", "=ds=#s11#, #a2#" },
+				{ 7, 87020, "", "=q4=Sixteen-Fanged Crown", "=ds=#s1#, #a3#" },
+				{ 8, 89926, "", "=q4=Stonefang Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 87014, "", "=q4=Stonemaw Armguards", "=ds=#s8#, #a3#" },
+				{ 10, 87060, "", "=q4=Star-Stealer Waistguard", "=ds=#s10#, #a4#" },
+				{ 11, 87021, "", "=q4=Heavenly Jade Greatboots", "=ds=#s12#, #a4#" },
+				{ 12, 87015, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 87016, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 87012, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
 			};
@@ -1238,7 +1244,10 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86751, "", "=q4=Bracers of Six Oxen", "=ds=#s8#, #a4#" },
 				{ 10, 86756, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
 				{ 16, 86754, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
-				{ 18, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+				{ 17, 89967, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
+
+				{ 18, 89968, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
+				{ 20, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
 			};
 		};
 		["Normal"] = {
@@ -1292,7 +1301,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86761, "", "=q4=Fetters of Death", "=ds=#s10#, #a3#" },
 				{ 6, 86769, "", "=q4=Leggings of Imprisoned Will", "=ds=#s11#, #a3#" },
 				{ 7, 86766, "", "=q4=Bindings of Ancient Spirits", "=ds=#s8#, #a4#" },
-				{ 8, 86760, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
+				{ 9, 89969, "", "=q4=Bonded Soul Bracers", "=ds=#s8#, #a4#" },
+				{ 10, 86760, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
 				{ 16, 86759, "", "=q4=Soulgrasp Choker", "=ds=#s2#" },
 				{ 17, 86767, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 86762, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
@@ -1325,7 +1335,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 87034, "", "=q4=Fetters of Death", "=ds=#s10#, #a3#" },
 				{ 6, 87042, "", "=q4=Leggings of Imprisoned Will", "=ds=#s11#, #a3#" },
 				{ 7, 87043, "", "=q4=Bindings of Ancient Spirits", "=ds=#s8#, #a4#" },
-				{ 8, 87035, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
+				{ 8, 89934, "", "=q4=Bonded Soul Bracers", "=ds=#s8#, #a4#" },
+				{ 9, 87035, "", "=q4=Sollerets of Spirit Splitting", "=ds=#s12#, #a4#" },
 				{ 16, 87036, "", "=q4=Soulgrasp Choker", "=ds=#s2#" },
 				{ 17, 87040, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 87032, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
@@ -1342,14 +1353,16 @@ local moduleName = "AtlasLootMoP"
 		["RaidFinder"] = {
 			{
 				{ 1, 86782, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#" },
-				{ 2, 86788, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
-				{ 3, 86787, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
-				{ 4, 86786, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
-				{ 5, 86781, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
-				{ 6, 86784, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
-				{ 7, 86780, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
-				{ 8, 86779, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
-				{ 9, 86785, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
+				{ 2, 89971, "", "=q4=Mindshard Drape", "=ds=#s4#" },
+				{ 3, 86788, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
+				{ 4, 86787, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
+				{ 5, 86786, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
+				{ 6, 89970, "", "=q4=Bracers of Violent Meditation", "=ds=#s8#, #a2#" },
+				{ 7, 86781, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
+				{ 8, 86784, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
+				{ 9, 86780, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
+				{ 10, 86779, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
+				{ 11, 86785, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
 				{ 16, 86776, "", "=q4=Amulet of the Hidden Kings", "=ds=#s2#" },
 				{ 17, 86783, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 86777, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
@@ -1379,14 +1392,15 @@ local moduleName = "AtlasLootMoP"
 		["Heroic"] = {
 			{
 				{ 1, 87044, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#" },
-				{ 2, 87051, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
-				{ 3, 87052, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
-				{ 4, 87054, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
-				{ 5, 87047, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
-				{ 6, 87055, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
-				{ 7, 87049, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
-				{ 8, 87048, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
-				{ 9, 87056, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
+				{ 2, 89936, "", "=q4=Mindshard Drape", "=ds=#s4#" },
+				{ 3, 87051, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
+				{ 4, 87052, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
+				{ 5, 87054, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
+				{ 6, 87047, "", "=q4=Subetai's Pillaging Leggings", "=ds=#s11#, #a3#" },
+				{ 7, 87055, "", "=q4=Meng's Treads of Insanity", "=ds=#s12#, #a3#" },
+				{ 8, 87049, "", "=q4=Shoulderguards of the Unflanked", "=ds=#s3#, #a4#" },
+				{ 9, 87048, "", "=q4=Breastplate of the Kings' Guard", "=ds=#s5#, #a4#" },
+				{ 10, 87056, "", "=q4=Girdle of Delirious Visions", "=ds=#s10#, #a4#" },
 				{ 16, 87045, "", "=q4=Amulet of the Hidden Kings", "=ds=#s2#" },
 				{ 17, 87053, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 87046, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
@@ -1467,6 +1481,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 86804, "", "=q4=Crown of Opportunistic Strikes", "=ds=#s1#, #a2#" },
 				{ 3, 86808, "", "=q4=Magnetized Leggings", "=ds=#s11#, #a2#" },
 				{ 4, 87826, "", "=q4=Grips of Terra Cotta", "=ds=#s9#, #a3#" },
+				{ 5, 89977, "", "=q4=Enameled Grips of Solemnity", "=ds=#s9#, #a3#" },
 				{ 5, 86807, "", "=q4=Spaulders of the Emperor's Rage", "=ds=#s3#, #a4#" },
 				{ 6, 86803, "", "=q4=Jang-xi's Devastating Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86810, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
@@ -2184,14 +2199,14 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 86376, "", "=q1=Pattern: Greater Cerulean Spellthread", "=ds=#p8# (575)"};
 				{ 14, 86375, "", "=q1=Pattern: Greater Pearlescent Spellthread", "=ds=#p8# (575)"};
 				{ 15, 86370, "", "=q1=Pattern: Robes of Creation", "=ds=#p8# (600)"};
-				{ 16, 86368, "", "=q1=Pattern: Spelltwister's Grand Robe", "=ds=#p8# (600)"};
-				{ 17, 86371, "", "=q1=Pattern: Gloves of Creation", "=ds=#p8# (600)"};
-				{ 18, 86369, "", "=q1=Pattern: Spelltwister's Gloves", "=ds=#p8# (600)"};
-				{ 20, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
-				{ 21, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
-				{ 22, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
-				{ 23, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
-				{ 24, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
+				{ 17, 86368, "", "=q1=Pattern: Spelltwister's Grand Robe", "=ds=#p8# (600)"};
+				{ 18, 86371, "", "=q1=Pattern: Gloves of Creation", "=ds=#p8# (600)"};
+				{ 19, 86369, "", "=q1=Pattern: Spelltwister's Gloves", "=ds=#p8# (600)"};
+				{ 21, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
+				{ 22, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#"};
+				{ 23, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#"};
+				{ 24, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#"};
+				{ 25, 89797, "", "=q3=Golden Lotus Tabard", "=ds=#s7#"};
 			};
 		};
 		info = {
@@ -2348,7 +2363,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
 				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
 				{ 20, 90175, "", "=q3=Gin-Ji Knife Set", "=ds=#m20#"};
-				{ 21, 80914, "", "=q3=Morning Glory", "=ds=#m20#"};
+				{ 21, 80914, "", "=q3=Mourning Glory", "=ds=#m20#"};
 				{ 22, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
 				{ 23, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)"};
 				{ 24, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)"};
