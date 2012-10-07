@@ -585,11 +585,8 @@ if AL then
 	--Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Recompensas Feria de la Luna Negra";
 	AL["Low Level Decks"] = "Bajaras de bajo nivel";
-	AL["Level 60 Trinkets"] = "Abaloríos nivel 60";
-	AL["Level 70 Trinkets"] = "Abaloríos nivel 70";
 	AL["Level 60 & 70 Trinkets"] = "Abaloríos nivel 60 y 70";
-	AL["Level 80 Trinkets"] = "Abaloríos nivel 80";
-	AL["Level 85 Trinkets"] = "Abaloríos nivel 85";
+	AL["Trinkets"] = "Abaloríos";
 
 	--Card Game Decks and descriptions
 	AL["Loot Card Items"] = "Objetos (juegos de cartas)";

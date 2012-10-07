@@ -591,11 +591,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = true;
 	AL["Low Level Decks"] = true;
-	AL["Level 60 Trinkets"] = true;
-	AL["Level 70 Trinkets"] = true;
 	AL["Level 60 & 70 Trinkets"] = true;
-	AL["Level 80 Trinkets"] = true;
-	AL["Level 85 Trinkets"] = true;
+	AL["Trinkets"] = true;
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = true;

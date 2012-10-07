@@ -742,11 +742,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月馬戲團獎勵";
 	AL["Low Level Decks"] = "低階套牌";
-	AL["Level 60 Trinkets"] = "等級 60 飾品";
-	AL["Level 70 Trinkets"] = "等級 70 飾品";
 	AL["Level 60 & 70 Trinkets"] = "等級 60/70 飾品";
-	AL["Level 80 Trinkets"] = "等級 80 飾品";
-	AL["Level 85 Trinkets"] = "等級 85 飾品";
+	AL["Trinkets"] = "飾品";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "可換取的物品";

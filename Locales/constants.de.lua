@@ -743,11 +743,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Dunkelmond-Jahrmarkt Belohnungen";
 	AL["Low Level Decks"] = "Niedrigstufige Decks";
-	AL["Level 60 Trinkets"] = "Stufe 60 Schmuckstücke";
-	AL["Level 70 Trinkets"] = "Stufe 70 Schmuckstücke";
 	AL["Level 60 & 70 Trinkets"] = "Stufe 60 & 70 Schmuckstücke";
-	AL["Level 80 Trinkets"] = "Stufe 80 Schmuckstücke";
-	AL["Level 85 Trinkets"] = "Stufe 85 Schmuckstücke";
+	AL["Trinkets"] = "Schmuckstücke";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "Beutekarten Gegenstände";

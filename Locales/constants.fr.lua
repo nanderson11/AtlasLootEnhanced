@@ -740,11 +740,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Récompenses Foire de Sombrelune";
 	AL["Low Level Decks"] = "Cartes bas level";
-	AL["Level 60 Trinkets"] = "Bijoux niveau 60";
-	AL["Level 70 Trinkets"] = "Bijoux niveau 70";
 	AL["Level 60 & 70 Trinkets"] = "Bijoux niveau 60 & 70";
-	AL["Level 80 Trinkets"] = "Bijoux niveau 80";
-	AL["Level 85 Trinkets"] = "Bijoux niveau 85";
+	AL["Trinkets"] = "Bijoux";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "Objets du jeu de cartes";

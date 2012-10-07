@@ -742,11 +742,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月马戏团奖励";
 	AL["Low Level Decks"] = "低级卡片";
-	AL["Level 60 Trinkets"] = "等级60饰品";
-	AL["Level 70 Trinkets"] = "等级70饰品";
 	AL["Level 60 & 70 Trinkets"] = "等级60/70饰品";
-	AL["Level 80 Trinkets"] = "等级80饰品";
-	AL["Level 85 Trinkets"] = "等级85饰品";
+	AL["Trinkets"] = "饰品";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "集换卡物品";

@@ -636,11 +636,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Награды Ярмарки Новолуния";
 	AL["Low Level Decks"] = "Низко уровневые колоды";
-	AL["Level 60 Trinkets"] = "Аксессуары на 60урв";
-	AL["Level 70 Trinkets"] = "Аксессуары на 70урв";
 	AL["Level 60 & 70 Trinkets"] = "Аксессуары на 60/70 урв";
-	AL["Level 80 Trinkets"] = "Аксессуары на 80 урв";
-	AL["Level 85 Trinkets"] = "Аксессуары на 85 урв";
+	AL["Trinkets"] = "Аксессуары";
 
 	-- Card Game Decks and descriptions
 	AL["Loot Card Items"] = "Предметы с карт";

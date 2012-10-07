@@ -293,11 +293,8 @@ if AL then
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Recompensas Feria de la Luna Negra";
 	AL["Low Level Decks"] = "Bajaras de bajo nivel";
-	--AL["Level 60 Trinkets"] = true;
-	--AL["Level 70 Trinkets"] = true;
 	--AL["Level 60 & 70 Trinkets"] = true;
-	--AL["Level 80 Trinkets"] = true;
-	--AL["Level 85 Trinkets"] = true;
+	--AL["Trinkets"] = true;
 
 	--Argent Tournament
 	AL["Argent Tournament"] = "Torneo Argenta";

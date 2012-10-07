@@ -891,12 +891,12 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 11, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
 				{ 12, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
 				{ 13, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
-    			{ 17, 77158, "", "=q2=Darkmoon 'Tiger'", "=ds=#m20#" },
+				{ 17, 77158, "", "=q2=Darkmoon 'Tiger'", "=ds=#m20#" },
 				{ 18, 78340, "", "=q1=Cloak of the Darkmoon Faire", "=ds=#s4#, #a1#" },
 				{ 19, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#" },
 				{ 20, 77256, "", "=q1=Darkmoon 'Sword'", "=ds=#h2#, #w10#" },
 				{ 21, 78341, "", "=q1=Darkmoon Hammer", "=ds=#h2#, #w6#" },
-    			{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#" },
+				{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#" },
 			};
 			{
 				{ 2, 19223, "", "=q1=Darkmoon Dog", "=ds=#e3#"};
@@ -953,183 +953,183 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_maul", "=q6=#t0s1#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78238, "", "=q3=Replica Wildheart Cowl", "=ds=#s1#, #a2#" },
-    			{ 3, 78239, "", "=q3=Replica Wildheart Spaulders", "=ds=#s3#, #a2#" },
-    			{ 4, 78242, "", "=q3=Replica Wildheart Vest", "=ds=#s5#, #a2#" },
-    			{ 5, 78240, "", "=q3=Replica Wildheart Bracers", "=ds=#s8#, #a2#" },
-    			{ 6, 78241, "", "=q3=Replica Wildheart Gloves", "=ds=#s9#, #a2#" },
-    			{ 7, 78244, "", "=q3=Replica Wildheart Belt", "=ds=#s10#, #a2#" },
-    			{ 8, 78245, "", "=q3=Replica Wildheart Kilt", "=ds=#s11#, #a2#" },
-    			{ 9, 78243, "", "=q3=Replica Wildheart Boots", "=ds=#s12#, #a2#" },
+				{ 2, 78238, "", "=q3=Replica Wildheart Cowl", "=ds=#s1#, #a2#" },
+				{ 3, 78239, "", "=q3=Replica Wildheart Spaulders", "=ds=#s3#, #a2#" },
+				{ 4, 78242, "", "=q3=Replica Wildheart Vest", "=ds=#s5#, #a2#" },
+				{ 5, 78240, "", "=q3=Replica Wildheart Bracers", "=ds=#s8#, #a2#" },
+				{ 6, 78241, "", "=q3=Replica Wildheart Gloves", "=ds=#s9#, #a2#" },
+				{ 7, 78244, "", "=q3=Replica Wildheart Belt", "=ds=#s10#, #a2#" },
+				{ 8, 78245, "", "=q3=Replica Wildheart Kilt", "=ds=#s11#, #a2#" },
+				{ 9, 78243, "", "=q3=Replica Wildheart Boots", "=ds=#s12#, #a2#" },
 				{ 16, 0, "ability_druid_maul", "=q6=#t05s1#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78249, "", "=q4=Replica Feralheart Cowl", "=ds=#s1#, #a2#" },
-    			{ 18, 78247, "", "=q3=Replica Feralheart Spaulders", "=ds=#s3#, #a2#" },
-    			{ 19, 78252, "", "=q4=Replica Feralheart Vest", "=ds=#s5#, #a2#" },
-    			{ 20, 78253, "", "=q3=Replica Feralheart Bracers", "=ds=#s8#, #a2#" },
-    			{ 21, 78248, "", "=q4=Replica Feralheart Gloves", "=ds=#s9#, #a2#" },
-    			{ 22, 78246, "", "=q3=Replica Feralheart Belt", "=ds=#s10#, #a2#" },
-    			{ 23, 78250, "", "=q3=Replica Feralheart Kilt", "=ds=#s11#, #a2#" },
-    			{ 24, 78251, "", "=q4=Replica Feralheart Boots", "=ds=#s12#, #a2#" },
+				{ 17, 78249, "", "=q4=Replica Feralheart Cowl", "=ds=#s1#, #a2#" },
+				{ 18, 78247, "", "=q3=Replica Feralheart Spaulders", "=ds=#s3#, #a2#" },
+				{ 19, 78252, "", "=q4=Replica Feralheart Vest", "=ds=#s5#, #a2#" },
+				{ 20, 78253, "", "=q3=Replica Feralheart Bracers", "=ds=#s8#, #a2#" },
+				{ 21, 78248, "", "=q4=Replica Feralheart Gloves", "=ds=#s9#, #a2#" },
+				{ 22, 78246, "", "=q3=Replica Feralheart Belt", "=ds=#s10#, #a2#" },
+				{ 23, 78250, "", "=q3=Replica Feralheart Kilt", "=ds=#s11#, #a2#" },
+				{ 24, 78251, "", "=q4=Replica Feralheart Boots", "=ds=#s12#, #a2#" },
 			};
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t0s2#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78275, "", "=q3=Replica Beaststalker's Cap", "=ds=#s1#, #a3#" },
-    			{ 3, 78273, "", "=q3=Replica Beaststalker's Mantle", "=ds=#s3#, #a3#" },
-    			{ 4, 78270, "", "=q3=Replica Beaststalker's Tunic", "=ds=#s5#, #a3#" },
-    			{ 5, 78277, "", "=q3=Replica Beaststalker's Bindings", "=ds=#s8#, #a3#" },
-    			{ 6, 78271, "", "=q3=Replica Beaststalker's Gloves", "=ds=#s9#, #a3#" },
-    			{ 7, 78274, "", "=q3=Replica Beaststalker's Belt", "=ds=#s10#, #a3#" },
-    			{ 8, 78276, "", "=q3=Replica Beaststalker's Pants", "=ds=#s11#, #a3#" },
-    			{ 9, 78272, "", "=q3=Replica Beaststalker's Boots", "=ds=#s12#, #a3#" },
+				{ 2, 78275, "", "=q3=Replica Beaststalker's Cap", "=ds=#s1#, #a3#" },
+				{ 3, 78273, "", "=q3=Replica Beaststalker's Mantle", "=ds=#s3#, #a3#" },
+				{ 4, 78270, "", "=q3=Replica Beaststalker's Tunic", "=ds=#s5#, #a3#" },
+				{ 5, 78277, "", "=q3=Replica Beaststalker's Bindings", "=ds=#s8#, #a3#" },
+				{ 6, 78271, "", "=q3=Replica Beaststalker's Gloves", "=ds=#s9#, #a3#" },
+				{ 7, 78274, "", "=q3=Replica Beaststalker's Belt", "=ds=#s10#, #a3#" },
+				{ 8, 78276, "", "=q3=Replica Beaststalker's Pants", "=ds=#s11#, #a3#" },
+				{ 9, 78272, "", "=q3=Replica Beaststalker's Boots", "=ds=#s12#, #a3#" },
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t05s2#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78284, "", "=q4=Replica Beastmaster's Cap", "=ds=#s1#, #a3#" },
-    			{ 18, 78281, "", "=q3=Replica Beastmaster's Mantle", "=ds=#s3#, #a3#" },
-    			{ 19, 78282, "", "=q4=Replica Beastmaster's Tunic", "=ds=#s5#, #a3#" },
-    			{ 20, 78283, "", "=q3=Replica Beastmaster's Bindings", "=ds=#s8#, #a3#" },
-    			{ 21, 78278, "", "=q4=Replica Beastmaster's Gloves", "=ds=#s9#, #a3#" },
-    			{ 22, 78285, "", "=q3=Replica Beastmaster's Belt", "=ds=#s10#, #a3#" },
-    			{ 23, 78280, "", "=q3=Replica Beastmaster's Pants", "=ds=#s11#, #a3#" },
-    			{ 24, 78279, "", "=q4=Replica Beastmaster's Boots", "=ds=#s12#, #a3#" },
+				{ 17, 78284, "", "=q4=Replica Beastmaster's Cap", "=ds=#s1#, #a3#" },
+				{ 18, 78281, "", "=q3=Replica Beastmaster's Mantle", "=ds=#s3#, #a3#" },
+				{ 19, 78282, "", "=q4=Replica Beastmaster's Tunic", "=ds=#s5#, #a3#" },
+				{ 20, 78283, "", "=q3=Replica Beastmaster's Bindings", "=ds=#s8#, #a3#" },
+				{ 21, 78278, "", "=q4=Replica Beastmaster's Gloves", "=ds=#s9#, #a3#" },
+				{ 22, 78285, "", "=q3=Replica Beastmaster's Belt", "=ds=#s10#, #a3#" },
+				{ 23, 78280, "", "=q3=Replica Beastmaster's Pants", "=ds=#s11#, #a3#" },
+				{ 24, 78279, "", "=q4=Replica Beastmaster's Boots", "=ds=#s12#, #a3#" },
 			};
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t0s3#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78188, "", "=q3=Replica Magister's Crown", "=ds=#s1#, #a1#" },
-    			{ 3, 78191, "", "=q3=Replica Magister's Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 78190, "", "=q3=Replica Magister's Robes", "=ds=#s5#, #a1#" },
-    			{ 5, 78193, "", "=q3=Replica Magister's Bindings", "=ds=#s8#, #a1#" },
-    			{ 6, 78187, "", "=q3=Replica Magister's Gloves", "=ds=#s9#, #a1#" },
-    			{ 7, 78192, "", "=q3=Replica Magister's Belt", "=ds=#s10#, #a1#" },
-    			{ 8, 78189, "", "=q3=Replica Magister's Leggings", "=ds=#s11#, #a1#" },
-    			{ 9, 78186, "", "=q3=Replica Magister's Boots", "=ds=#s12#, #a1#" },
+				{ 2, 78188, "", "=q3=Replica Magister's Crown", "=ds=#s1#, #a1#" },
+				{ 3, 78191, "", "=q3=Replica Magister's Mantle", "=ds=#s3#, #a1#" },
+				{ 4, 78190, "", "=q3=Replica Magister's Robes", "=ds=#s5#, #a1#" },
+				{ 5, 78193, "", "=q3=Replica Magister's Bindings", "=ds=#s8#, #a1#" },
+				{ 6, 78187, "", "=q3=Replica Magister's Gloves", "=ds=#s9#, #a1#" },
+				{ 7, 78192, "", "=q3=Replica Magister's Belt", "=ds=#s10#, #a1#" },
+				{ 8, 78189, "", "=q3=Replica Magister's Leggings", "=ds=#s11#, #a1#" },
+				{ 9, 78186, "", "=q3=Replica Magister's Boots", "=ds=#s12#, #a1#" },
 				{ 16, 0, "inv_staff_13", "=q6=#t05s3#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78198, "", "=q4=Replica Sorcerer's Crown", "=ds=#s1#, #a1#" },
-    			{ 18, 78201, "", "=q3=Replica Sorcerer's Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 78200, "", "=q4=Replica Sorcerer's Robes", "=ds=#s5#, #a1#" },
-    			{ 20, 78203, "", "=q3=Replica Sorcerer's Bindings", "=ds=#s8#, #a1#" },
-    			{ 21, 78197, "", "=q4=Replica Sorcerer's Gloves", "=ds=#s9#, #a1#" },
-    			{ 22, 78202, "", "=q3=Replica Sorcerer's Belt", "=ds=#s10#, #a1#" },
-    			{ 23, 78199, "", "=q3=Replica Sorcerer's Leggings", "=ds=#s11#, #a1#" },
-    			{ 24, 78196, "", "=q4=Replica Sorcerer's Boots", "=ds=#s12#, #a1#" },
+				{ 17, 78198, "", "=q4=Replica Sorcerer's Crown", "=ds=#s1#, #a1#" },
+				{ 18, 78201, "", "=q3=Replica Sorcerer's Mantle", "=ds=#s3#, #a1#" },
+				{ 19, 78200, "", "=q4=Replica Sorcerer's Robes", "=ds=#s5#, #a1#" },
+				{ 20, 78203, "", "=q3=Replica Sorcerer's Bindings", "=ds=#s8#, #a1#" },
+				{ 21, 78197, "", "=q4=Replica Sorcerer's Gloves", "=ds=#s9#, #a1#" },
+				{ 22, 78202, "", "=q3=Replica Sorcerer's Belt", "=ds=#s10#, #a1#" },
+				{ 23, 78199, "", "=q3=Replica Sorcerer's Leggings", "=ds=#s11#, #a1#" },
+				{ 24, 78196, "", "=q4=Replica Sorcerer's Boots", "=ds=#s12#, #a1#" },
 			};
 			{
 				{ 1, 0, "ability_thunderbolt", "=q6=#t0s4#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78307, "", "=q3=Replica Lightforge Helm", "=ds=#s1#, #a4#" },
-    			{ 3, 78308, "", "=q3=Replica Lightforge Spaulders", "=ds=#s3#, #a4#" },
-    			{ 4, 78306, "", "=q3=Replica Lightforge Breastplate", "=ds=#s5#, #a4#" },
-    			{ 5, 78304, "", "=q3=Replica Lightforge Bracers", "=ds=#s8#, #a4#" },
-    			{ 6, 78303, "", "=q3=Replica Lightforge Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 7, 78302, "", "=q3=Replica Lightforge Belt", "=ds=#s10#, #a4#" },
-    			{ 8, 78305, "", "=q3=Replica Lightforge Legplates", "=ds=#s11#, #a4#" },
-    			{ 9, 78309, "", "=q3=Replica Lightforge Boots", "=ds=#s12#, #a4#" },
+				{ 2, 78307, "", "=q3=Replica Lightforge Helm", "=ds=#s1#, #a4#" },
+				{ 3, 78308, "", "=q3=Replica Lightforge Spaulders", "=ds=#s3#, #a4#" },
+				{ 4, 78306, "", "=q3=Replica Lightforge Breastplate", "=ds=#s5#, #a4#" },
+				{ 5, 78304, "", "=q3=Replica Lightforge Bracers", "=ds=#s8#, #a4#" },
+				{ 6, 78303, "", "=q3=Replica Lightforge Gauntlets", "=ds=#s9#, #a4#" },
+				{ 7, 78302, "", "=q3=Replica Lightforge Belt", "=ds=#s10#, #a4#" },
+				{ 8, 78305, "", "=q3=Replica Lightforge Legplates", "=ds=#s11#, #a4#" },
+				{ 9, 78309, "", "=q3=Replica Lightforge Boots", "=ds=#s12#, #a4#" },
 				{ 16, 0, "ability_thunderbolt", "=q6=#t05s4#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78312, "", "=q4=Replica Soulforge Helm", "=ds=#s1#, #a4#" },
-    			{ 18, 78316, "", "=q3=Replica Soulforge Spaulders", "=ds=#s3#, #a4#" },
-    			{ 19, 78313, "", "=q4=Replica Soulforge Breastplate", "=ds=#s5#, #a4#" },
-    			{ 20, 78317, "", "=q3=Replica Soulforge Bracers", "=ds=#s8#, #a4#" },
-    			{ 21, 78314, "", "=q4=Replica Soulforge Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 22, 78311, "", "=q3=Replica Soulforge Belt", "=ds=#s10#, #a4#" },
-    			{ 23, 78315, "", "=q3=Replica Soulforge Legplates", "=ds=#s11#, #a4#" },
-    			{ 24, 78310, "", "=q4=Replica Soulforge Boots", "=ds=#s12#, #a4#" },
+				{ 17, 78312, "", "=q4=Replica Soulforge Helm", "=ds=#s1#, #a4#" },
+				{ 18, 78316, "", "=q3=Replica Soulforge Spaulders", "=ds=#s3#, #a4#" },
+				{ 19, 78313, "", "=q4=Replica Soulforge Breastplate", "=ds=#s5#, #a4#" },
+				{ 20, 78317, "", "=q3=Replica Soulforge Bracers", "=ds=#s8#, #a4#" },
+				{ 21, 78314, "", "=q4=Replica Soulforge Gauntlets", "=ds=#s9#, #a4#" },
+				{ 22, 78311, "", "=q3=Replica Soulforge Belt", "=ds=#s10#, #a4#" },
+				{ 23, 78315, "", "=q3=Replica Soulforge Legplates", "=ds=#s11#, #a4#" },
+				{ 24, 78310, "", "=q4=Replica Soulforge Boots", "=ds=#s12#, #a4#" },
 			};
 			{
 				{ 1, 0, "inv_staff_30", "=q6=#t0s5#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78205, "", "=q3=Replica Devout Crown", "=ds=#s1#, #a1#" },
-    			{ 3, 78204, "", "=q3=Replica Devout Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 78209, "", "=q3=Replica Devout Robe", "=ds=#s5#, #a1#" },
-    			{ 5, 78211, "", "=q3=Replica Devout Bracers", "=ds=#s8#, #a1#" },
-    			{ 6, 78208, "", "=q3=Replica Devout Gloves", "=ds=#s9#, #a1#" },
-    			{ 7, 78207, "", "=q3=Replica Devout Belt", "=ds=#s10#, #a1#" },
-    			{ 8, 78206, "", "=q3=Replica Devout Skirt", "=ds=#s11#, #a1#" },
-    			{ 9, 78210, "", "=q3=Replica Devout Sandals", "=ds=#s12#, #a1#" },
+				{ 2, 78205, "", "=q3=Replica Devout Crown", "=ds=#s1#, #a1#" },
+				{ 3, 78204, "", "=q3=Replica Devout Mantle", "=ds=#s3#, #a1#" },
+				{ 4, 78209, "", "=q3=Replica Devout Robe", "=ds=#s5#, #a1#" },
+				{ 5, 78211, "", "=q3=Replica Devout Bracers", "=ds=#s8#, #a1#" },
+				{ 6, 78208, "", "=q3=Replica Devout Gloves", "=ds=#s9#, #a1#" },
+				{ 7, 78207, "", "=q3=Replica Devout Belt", "=ds=#s10#, #a1#" },
+				{ 8, 78206, "", "=q3=Replica Devout Skirt", "=ds=#s11#, #a1#" },
+				{ 9, 78210, "", "=q3=Replica Devout Sandals", "=ds=#s12#, #a1#" },
 				{ 16, 0, "inv_staff_30", "=q6=#t05s5#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78216, "", "=q4=Replica Virtuous Crown", "=ds=#s1#, #a1#" },
-    			{ 18, 78213, "", "=q3=Replica Virtuous Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 78212, "", "=q4=Replica Virtuous Robe", "=ds=#s5#, #a1#" },
-    			{ 20, 78215, "", "=q3=Replica Virtuous Bracers", "=ds=#s8#, #a1#" },
-    			{ 21, 78217, "", "=q4=Replica Virtuous Gloves", "=ds=#s9#, #a1#" },
-    			{ 22, 78218, "", "=q3=Replica Virtuous Belt", "=ds=#s10#, #a1#" },
-    			{ 23, 78214, "", "=q3=Replica Virtuous Skirt", "=ds=#s11#, #a1#" },
-    			{ 24, 78219, "", "=q4=Replica Virtuous Sandals", "=ds=#s12#, #a1#" },
+				{ 17, 78216, "", "=q4=Replica Virtuous Crown", "=ds=#s1#, #a1#" },
+				{ 18, 78213, "", "=q3=Replica Virtuous Mantle", "=ds=#s3#, #a1#" },
+				{ 19, 78212, "", "=q4=Replica Virtuous Robe", "=ds=#s5#, #a1#" },
+				{ 20, 78215, "", "=q3=Replica Virtuous Bracers", "=ds=#s8#, #a1#" },
+				{ 21, 78217, "", "=q4=Replica Virtuous Gloves", "=ds=#s9#, #a1#" },
+				{ 22, 78218, "", "=q3=Replica Virtuous Belt", "=ds=#s10#, #a1#" },
+				{ 23, 78214, "", "=q3=Replica Virtuous Skirt", "=ds=#s11#, #a1#" },
+				{ 24, 78219, "", "=q4=Replica Virtuous Sandals", "=ds=#s12#, #a1#" },
 			};
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t0s6#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78260, "", "=q3=Replica Shadowcraft Cap", "=ds=#s1#, #a2#" },
-    			{ 3, 78261, "", "=q3=Replica Shadowcraft Spaulders", "=ds=#s3#, #a2#" },
-    			{ 4, 78254, "", "=q3=Replica Shadowcraft Tunic", "=ds=#s5#, #a2#" },
-    			{ 5, 78255, "", "=q3=Replica Shadowcraft Bracers", "=ds=#s8#, #a2#" },
-    			{ 6, 78257, "", "=q3=Replica Shadowcraft Gloves", "=ds=#s9#, #a2#" },
-    			{ 7, 78259, "", "=q3=Replica Shadowcraft Belt", "=ds=#s10#, #a2#" },
-    			{ 8, 78258, "", "=q3=Replica Shadowcraft Pants", "=ds=#s11#, #a2#" },
-    			{ 9, 78256, "", "=q3=Replica Shadowcraft Boots", "=ds=#s12#, #a2#" },
+				{ 2, 78260, "", "=q3=Replica Shadowcraft Cap", "=ds=#s1#, #a2#" },
+				{ 3, 78261, "", "=q3=Replica Shadowcraft Spaulders", "=ds=#s3#, #a2#" },
+				{ 4, 78254, "", "=q3=Replica Shadowcraft Tunic", "=ds=#s5#, #a2#" },
+				{ 5, 78255, "", "=q3=Replica Shadowcraft Bracers", "=ds=#s8#, #a2#" },
+				{ 6, 78257, "", "=q3=Replica Shadowcraft Gloves", "=ds=#s9#, #a2#" },
+				{ 7, 78259, "", "=q3=Replica Shadowcraft Belt", "=ds=#s10#, #a2#" },
+				{ 8, 78258, "", "=q3=Replica Shadowcraft Pants", "=ds=#s11#, #a2#" },
+				{ 9, 78256, "", "=q3=Replica Shadowcraft Boots", "=ds=#s12#, #a2#" },
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t05s6#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78263, "", "=q4=Replica Darkmantle Cap", "=ds=#s1#, #a2#" },
-    			{ 18, 78267, "", "=q3=Replica Darkmantle Spaulders", "=ds=#s3#, #a2#" },
-    			{ 19, 78269, "", "=q4=Replica Darkmantle Tunic", "=ds=#s5#, #a2#" },
-    			{ 20, 78264, "", "=q3=Replica Darkmantle Bracers", "=ds=#s8#, #a2#" },
-    			{ 21, 78266, "", "=q4=Replica Darkmantle Gloves", "=ds=#s9#, #a2#" },
-    			{ 22, 78265, "", "=q3=Replica Darkmantle Belt", "=ds=#s10#, #a2#" },
-    			{ 23, 78268, "", "=q3=Replica Darkmantle Pants", "=ds=#s11#, #a2#" },
-    			{ 24, 78262, "", "=q4=Replica Darkmantle Boots", "=ds=#s12#, #a2#" },
+				{ 17, 78263, "", "=q4=Replica Darkmantle Cap", "=ds=#s1#, #a2#" },
+				{ 18, 78267, "", "=q3=Replica Darkmantle Spaulders", "=ds=#s3#, #a2#" },
+				{ 19, 78269, "", "=q4=Replica Darkmantle Tunic", "=ds=#s5#, #a2#" },
+				{ 20, 78264, "", "=q3=Replica Darkmantle Bracers", "=ds=#s8#, #a2#" },
+				{ 21, 78266, "", "=q4=Replica Darkmantle Gloves", "=ds=#s9#, #a2#" },
+				{ 22, 78265, "", "=q3=Replica Darkmantle Belt", "=ds=#s10#, #a2#" },
+				{ 23, 78268, "", "=q3=Replica Darkmantle Pants", "=ds=#s11#, #a2#" },
+				{ 24, 78262, "", "=q4=Replica Darkmantle Boots", "=ds=#s12#, #a2#" },
 			};
 			{
 				{ 1, 0, "spell_nature_bloodlust", "=q6=#t0s7#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78286, "", "=q3=Replica Coif of Elements", "=ds=#s1#, #a3#" },
-    			{ 3, 78288, "", "=q3=Replica Pauldrons of Elements", "=ds=#s3#, #a3#" },
-    			{ 4, 78290, "", "=q3=Replica Vest of Elements", "=ds=#s5#, #a3#" },
-    			{ 5, 78289, "", "=q3=Replica Bindings of Elements", "=ds=#s8#, #a3#" },
-    			{ 6, 78291, "", "=q3=Replica Gauntlets of Elements", "=ds=#s9#, #a3#" },
-    			{ 7, 78293, "", "=q3=Replica Cord of Elements", "=ds=#s10#, #a3#" },
-    			{ 8, 78287, "", "=q3=Replica Kilt of Elements", "=ds=#s11#, #a3#" },
-    			{ 9, 78292, "", "=q3=Replica Boots of Elements", "=ds=#s12#, #a3#" },
+				{ 2, 78286, "", "=q3=Replica Coif of Elements", "=ds=#s1#, #a3#" },
+				{ 3, 78288, "", "=q3=Replica Pauldrons of Elements", "=ds=#s3#, #a3#" },
+				{ 4, 78290, "", "=q3=Replica Vest of Elements", "=ds=#s5#, #a3#" },
+				{ 5, 78289, "", "=q3=Replica Bindings of Elements", "=ds=#s8#, #a3#" },
+				{ 6, 78291, "", "=q3=Replica Gauntlets of Elements", "=ds=#s9#, #a3#" },
+				{ 7, 78293, "", "=q3=Replica Cord of Elements", "=ds=#s10#, #a3#" },
+				{ 8, 78287, "", "=q3=Replica Kilt of Elements", "=ds=#s11#, #a3#" },
+				{ 9, 78292, "", "=q3=Replica Boots of Elements", "=ds=#s12#, #a3#" },
 				{ 16, 0, "spell_nature_bloodlust", "=q6=#t05s7#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78294, "", "=q4=Replica Coif of The Five Thunders", "=ds=#s1#, #a3#" },
-    			{ 18, 78299, "", "=q3=Replica Pauldrons of The Five Thunders", "=ds=#s3#, #a3#" },
-    			{ 19, 78300, "", "=q4=Replica Vest of The Five Thunders", "=ds=#s5#, #a3#" },
-    			{ 20, 78296, "", "=q3=Replica Bindings of The Five Thunders", "=ds=#s8#, #a3#" },
-    			{ 21, 78295, "", "=q4=Replica Gauntlets of The Five Thunders", "=ds=#s9#, #a3#" },
-    			{ 22, 78297, "", "=q3=Replica Cord of The Five Thunders", "=ds=#s10#, #a3#" },
-    			{ 23, 78301, "", "=q3=Replica Kilt of The Five Thunders", "=ds=#s11#, #a3#" },
-    			{ 24, 78298, "", "=q4=Replica Boots of The Five Thunders", "=ds=#s12#, #a3#" },
+				{ 17, 78294, "", "=q4=Replica Coif of The Five Thunders", "=ds=#s1#, #a3#" },
+				{ 18, 78299, "", "=q3=Replica Pauldrons of The Five Thunders", "=ds=#s3#, #a3#" },
+				{ 19, 78300, "", "=q4=Replica Vest of The Five Thunders", "=ds=#s5#, #a3#" },
+				{ 20, 78296, "", "=q3=Replica Bindings of The Five Thunders", "=ds=#s8#, #a3#" },
+				{ 21, 78295, "", "=q4=Replica Gauntlets of The Five Thunders", "=ds=#s9#, #a3#" },
+				{ 22, 78297, "", "=q3=Replica Cord of The Five Thunders", "=ds=#s10#, #a3#" },
+				{ 23, 78301, "", "=q3=Replica Kilt of The Five Thunders", "=ds=#s11#, #a3#" },
+				{ 24, 78298, "", "=q4=Replica Boots of The Five Thunders", "=ds=#s12#, #a3#" },
 			};
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t0s8#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78227, "", "=q3=Replica Dreadmist Mask", "=ds=#s1#, #a1#" },
-    			{ 3, 78226, "", "=q3=Replica Dreadmist Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 78225, "", "=q3=Replica Dreadmist Robe", "=ds=#s5#, #a1#" },
-    			{ 5, 78229, "", "=q3=Replica Dreadmist Bracers", "=ds=#s8#, #a1#" },
-    			{ 6, 78223, "", "=q3=Replica Dreadmist Wraps", "=ds=#s9#, #a1#" },
-    			{ 7, 78222, "", "=q3=Replica Dreadmist Belt", "=ds=#s10#, #a1#" },
-    			{ 8, 78228, "", "=q3=Replica Dreadmist Leggings", "=ds=#s11#, #a1#" },
-    			{ 9, 78224, "", "=q3=Replica Dreadmist Sandals", "=ds=#s12#, #a1#" },
+				{ 2, 78227, "", "=q3=Replica Dreadmist Mask", "=ds=#s1#, #a1#" },
+				{ 3, 78226, "", "=q3=Replica Dreadmist Mantle", "=ds=#s3#, #a1#" },
+				{ 4, 78225, "", "=q3=Replica Dreadmist Robe", "=ds=#s5#, #a1#" },
+				{ 5, 78229, "", "=q3=Replica Dreadmist Bracers", "=ds=#s8#, #a1#" },
+				{ 6, 78223, "", "=q3=Replica Dreadmist Wraps", "=ds=#s9#, #a1#" },
+				{ 7, 78222, "", "=q3=Replica Dreadmist Belt", "=ds=#s10#, #a1#" },
+				{ 8, 78228, "", "=q3=Replica Dreadmist Leggings", "=ds=#s11#, #a1#" },
+				{ 9, 78224, "", "=q3=Replica Dreadmist Sandals", "=ds=#s12#, #a1#" },
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t05s8#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78230, "", "=q4=Replica Deathmist Mask", "=ds=#s1#, #a1#" },
-    			{ 18, 78234, "", "=q3=Replica Deathmist Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 78237, "", "=q4=Replica Deathmist Robe", "=ds=#s5#, #a1#" },
-    			{ 20, 78232, "", "=q3=Replica Deathmist Bracers", "=ds=#s8#, #a1#" },
-    			{ 21, 78236, "", "=q4=Replica Deathmist Wraps", "=ds=#s9#, #a1#" },
-    			{ 22, 78233, "", "=q3=Replica Deathmist Belt", "=ds=#s10#, #a1#" },
-    			{ 23, 78231, "", "=q3=Replica Deathmist Leggings", "=ds=#s11#, #a1#" },
-    			{ 24, 78235, "", "=q4=Replica Deathmist Sandals", "=ds=#s12#, #a1#" },
+				{ 17, 78230, "", "=q4=Replica Deathmist Mask", "=ds=#s1#, #a1#" },
+				{ 18, 78234, "", "=q3=Replica Deathmist Mantle", "=ds=#s3#, #a1#" },
+				{ 19, 78237, "", "=q4=Replica Deathmist Robe", "=ds=#s5#, #a1#" },
+				{ 20, 78232, "", "=q3=Replica Deathmist Bracers", "=ds=#s8#, #a1#" },
+				{ 21, 78236, "", "=q4=Replica Deathmist Wraps", "=ds=#s9#, #a1#" },
+				{ 22, 78233, "", "=q3=Replica Deathmist Belt", "=ds=#s10#, #a1#" },
+				{ 23, 78231, "", "=q3=Replica Deathmist Leggings", "=ds=#s11#, #a1#" },
+				{ 24, 78235, "", "=q4=Replica Deathmist Sandals", "=ds=#s12#, #a1#" },
 			};
 			{
 				{ 1, 0, "inv_sword_27", "=q6=#t0s9#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78322, "", "=q3=Replica Helm of Valor", "=ds=#s1#, #a4#" },
-    			{ 3, 78325, "", "=q3=Replica Spaulders of Valor", "=ds=#s3#, #a4#" },
-    			{ 4, 78323, "", "=q3=Replica Breastplate of Valor", "=ds=#s5#, #a4#" },
-    			{ 5, 78321, "", "=q3=Replica Bracers of Valor", "=ds=#s8#, #a4#" },
-    			{ 6, 78320, "", "=q3=Replica Gauntlets of Valor", "=ds=#s9#, #a4#" },
-    			{ 7, 78319, "", "=q3=Replica Belt of Valor", "=ds=#s10#, #a4#" },
-    			{ 8, 78324, "", "=q3=Replica Legplates of Valor", "=ds=#s11#, #a4#" },
-    			{ 9, 78318, "", "=q3=Replica Boots of Valor", "=ds=#s12#, #a4#" },
+				{ 2, 78322, "", "=q3=Replica Helm of Valor", "=ds=#s1#, #a4#" },
+				{ 3, 78325, "", "=q3=Replica Spaulders of Valor", "=ds=#s3#, #a4#" },
+				{ 4, 78323, "", "=q3=Replica Breastplate of Valor", "=ds=#s5#, #a4#" },
+				{ 5, 78321, "", "=q3=Replica Bracers of Valor", "=ds=#s8#, #a4#" },
+				{ 6, 78320, "", "=q3=Replica Gauntlets of Valor", "=ds=#s9#, #a4#" },
+				{ 7, 78319, "", "=q3=Replica Belt of Valor", "=ds=#s10#, #a4#" },
+				{ 8, 78324, "", "=q3=Replica Legplates of Valor", "=ds=#s11#, #a4#" },
+				{ 9, 78318, "", "=q3=Replica Boots of Valor", "=ds=#s12#, #a4#" },
 				{ 16, 0, "inv_sword_27", "=q6=#t05s9#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78330, "", "=q4=Replica Helm of Heroism", "=ds=#s1#, #a4#" },
-    			{ 18, 78332, "", "=q3=Replica Spaulders of Heroism", "=ds=#s3#, #a4#" },
-    			{ 19, 78328, "", "=q4=Replica Breastplate of Heroism", "=ds=#s5#, #a4#" },
-    			{ 20, 78327, "", "=q3=Replica Bracers of Heroism", "=ds=#s8#, #a4#" },
-    			{ 21, 78329, "", "=q4=Replica Gauntlets of Heroism", "=ds=#s9#, #a4#" },
-    			{ 22, 78333, "", "=q3=Replica Belt of Heroism", "=ds=#s10#, #a4#" },
-    			{ 23, 78331, "", "=q3=Replica Legplates of Heroism", "=ds=#s11#, #a4#" },
-    			{ 24, 78326, "", "=q4=Replica Boots of Heroism", "=ds=#s12#, #a4#" },
+				{ 17, 78330, "", "=q4=Replica Helm of Heroism", "=ds=#s1#, #a4#" },
+				{ 18, 78332, "", "=q3=Replica Spaulders of Heroism", "=ds=#s3#, #a4#" },
+				{ 19, 78328, "", "=q4=Replica Breastplate of Heroism", "=ds=#s5#, #a4#" },
+				{ 20, 78327, "", "=q3=Replica Bracers of Heroism", "=ds=#s8#, #a4#" },
+				{ 21, 78329, "", "=q4=Replica Gauntlets of Heroism", "=ds=#s9#, #a4#" },
+				{ 22, 78333, "", "=q3=Replica Belt of Heroism", "=ds=#s10#, #a4#" },
+				{ 23, 78331, "", "=q3=Replica Legplates of Heroism", "=ds=#s11#, #a4#" },
+				{ 24, 78326, "", "=q4=Replica Boots of Heroism", "=ds=#s12#, #a4#" },
 			};
 		};
 		info = {
@@ -1160,6 +1160,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 				extraText = ": "..AL["Darkmoon Faire Rewards"];
 			};]]--
 			{
+				{ 2, 79325, "", "=q4=Crane Deck", "=ds=#m2#"};
+				{ 3, 79330, "", "=q4=Relic of Chi Ji", "=q1=#m4#: =ds=#s14#"};
+				{ 5, 79324, "", "=q4=Ox Deck", "=ds=#m2#"};
+				{ 6, 79329, "", "=q4=Relic of Niuzao", "=q1=#m4#: =ds=#s14#"};
+				{ 17, 79326, "", "=q4=Serpent Deck", "=ds=#m2#"};
+				{ 18, 79331, "", "=q4=Relic of Yu'lon", "=q1=#m4#: =ds=#s14#"};
+				{ 20, 79323, "", "=q4=Tiger Deck", "=ds=#m2#"};
+				{ 21, 79327, "", "=q4=Relic of Xuen", "=q1=#m4#: =ds=#s14#"};
+				{ 22, 79328, "", "=q4=Relic of Xuen", "=q1=#m4#: =ds=#s14#"};
+				extraText = ": "..AL["Level 90"].." "..AL["Trinkets"];
+			};
+			{
 				{ 2, 62046, "", "=q4=Earthquake Deck", "=ds=#m2#"};
 				{ 3, 62048, "", "=q4=Darkmoon Card: Earthquake", "=q1=#m4#: =ds=#s14#"};
 				{ 5, 62045, "", "=q4=Hurricane Deck", "=ds=#m2#"};
@@ -1169,7 +1181,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 18, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
 				{ 20, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
 				{ 21, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
-				extraText = ": "..AL["Level 85 Trinkets"];
+				extraText = ": "..AL["Level 85"].." "..AL["Trinkets"];
 			};
 			{
 				{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
@@ -1183,10 +1195,10 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 18, 42987, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
 				{ 19, 44254, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
 				{ 20, 44255, "", "=q4=Darkmoon Card: Greatness", "=q1=#m4#: =ds=#s14#"};
-				extraText = ": "..AL["Level 80 Trinkets"];
+				extraText = ": "..AL["Level 80"].." "..AL["Trinkets"];
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 60 Trinkets"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 60"].." "..AL["Trinkets"], ""};
 				{ 2, 19228, "", "=q4=Beasts Deck", "=ds=#m2#"};
 				{ 3, 19288, "", "=q4=Darkmoon Card: Blue Dragon", "=q1=#m4#: =ds=#s14#"};
 				{ 5, 19267, "", "=q4=Elementals Deck", "=ds=#m2#"};
@@ -1195,7 +1207,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 9, 19290, "", "=q4=Darkmoon Card: Twisting Nether", "=q1=#m4#: =ds=#s14#"};
 				{ 11, 19257, "", "=q4=Warlords Deck", "=ds=#m2#"};
 				{ 12, 19287, "", "=q4=Darkmoon Card: Heroism", "=q1=#m4#: =ds=#s14#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Level 70 Trinkets"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Level 70"].." "..AL["Trinkets"], ""};
 				{ 17, 31890, "", "=q4=Blessings Deck", "=ds=#m2#"};
 				{ 18, 31856, "", "=q4=Darkmoon Card: Crusade", "=q1=#m4#: =ds=#s14#"};
 				{ 20, 31907, "", "=q4=Furies Deck", "=ds=#m2#"};
