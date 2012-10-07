@@ -48,11 +48,11 @@ if AL then
 
 	-- Stats short
 	AL["iLvl"] = "等级";	-- Item lvl
-	AL["str"] = "力";	-- Strength
-	AL["agi"] = "敏";	-- Agility
-	AL["sta"] = "耐";	-- Stamina
-	AL["int"] = "智";	-- Intellect
-	AL["spi"] = "精";	-- Spirit
+	AL["str"] = "力量";	-- Strength
+	AL["agi"] = "敏捷";	-- Agility
+	AL["sta"] = "耐力";	-- Stamina
+	AL["int"] = "智力";	-- Intellect
+	AL["spi"] = "精神";	-- Spirit
 	AL["Crit"] = "暴击";	-- Crit Rating
 	AL["Dodge"] = "躲闪";	-- Dodge Rating
 	AL["Exp"] = "精准";	-- Expertise Rating
@@ -343,6 +343,7 @@ if AL then
 	AL["Crafted Epic Weapons"] = "制造的史诗武器";
 	AL["Dragon's Eye"] = "龙眼石";
 	AL["Chimera's Eye"] = "奇美拉之眼";
+	AL["Serpent's Eye"] = "蛟眼石";
 
 	-- Sets/Collections Menu
 	AL["Sets"] = "套装";
@@ -1141,6 +1142,7 @@ if AL then
 	AL["Stolen Present"] = "被窃的礼物";
 	AL["Oozing Bag"] = "沾满淤泥的袋子";
 	AL["Ominous Seed"] = "不祥之种";
+	AL["Treasures of the Vale"] = "锦绣谷宝藏";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";

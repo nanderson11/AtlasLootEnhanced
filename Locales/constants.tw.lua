@@ -325,9 +325,9 @@ if AL then
 	AL["Panel"] = "面板";
 
 	-- Slash commands
-	AL["reset"] = "重設";
-	AL["options"] = "選項";
-	AL["Reset complete!"] = "重設完成";
+	AL["reset"] = "reset";
+	AL["options"] = "options";
+	AL["Reset complete!"] = "重設完成！";
 
 	-- AtlasLoot Panel - Search
 	AL["Clear"] = "清除";
@@ -343,6 +343,7 @@ if AL then
 	AL["Crafted Epic Weapons"] = "交易技能史詩武器";
 	AL["Dragon's Eye"] = "龍瞳石";
 	AL["Chimera's Eye"] = "奇美拉之瞳";
+	AL["Serpent's Eye"] = "蛟龍之瞳";
 
 	-- Sets/Collections Menu
 	AL["Sets"] = "套裝";
@@ -1141,6 +1142,7 @@ if AL then
 	AL["Stolen Present"] = "失竊的禮物";
 	AL["Oozing Bag"] = "沾滿淤泥的袋子";
 	AL["Ominous Seed"] = "不祥種子";
+	AL["Treasures of the Vale"] = "谷之寶藏";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
