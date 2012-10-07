@@ -177,20 +177,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["INSCRIPTIONMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "Inscription_StavesEnchants", "inv_misc_mastersinscription", "=ds="..AL["Staves/Shoulder Enchants"], "" };
+				{ 2, "Inscription_Scrolls", "inv_scroll_15", "=ds="..AL["Darkmoon Faire Card"].."/"..AL["Scrolls"], "" };
+				{ 3, "Inscription_Enchants", "inv_misc_mastersinscription", "=ds="..AL["Shoulder Enchants"], "" };
+				{ 4, "Inscription_Reagents", "inv_inscription_ink_starlight", "=ds="..AL["Reagents"], "" };
+				{ 6, "Inscription_DeathKnight", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Glyph"] };
+				{ 7, "Inscription_Hunter", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Glyph"] };
+				{ 8, "Inscription_Paladin", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Glyph"] };
+				{ 9, "Inscription_Rogue", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Glyph"] };
+				{ 10, "Inscription_Warlock", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Glyph"] };
 				{ 17, "Inscription_OffHand", "inv_misc_book_16", "=ds="..AL["Off-Hand Items"], "" };
-				{ 3, "Inscription_Scrolls", "inv_scroll_15", "=ds="..AL["Scrolls"].."/"..AL["Darkmoon Faire Card"], "" };
-				{ 18, "Inscription_Misc", "INV_Inscription_Tradeskill01", "=ds="..BabbleInventory["Miscellaneous"], "" };
-				{ 5, "Inscription_DeathKnight", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Glyph"] };
-				{ 20, "Inscription_Druid", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Glyph"] };
-				{ 6, "Inscription_Hunter", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Glyph"] };
-				{ 21, "Inscription_Mage", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Glyph"] };
-				{ 7, "Inscription_Paladin", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Glyph"] };
-				{ 22, "Inscription_Priest", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Glyph"] };
-				{ 8, "Inscription_Rogue", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Glyph"] };
-				{ 23, "Inscription_Shaman", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Glyph"] };
-				{ 9, "Inscription_Warlock", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Glyph"] };
-				{ 24, "Inscription_Warrior", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Glyph"] };
+				{ 18, "Inscription_Staves", "inv_staff_2h_pandariatradeskill_c_05", "=ds="..BabbleInventory["Staves"], "" };
+				{ 19, "Inscription_Misc", "inv_inscription_crane", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 21, "Inscription_Druid", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Glyph"] };
+				{ 22, "Inscription_Mage", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Glyph"] };
+				{ 23, "Inscription_Priest", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Glyph"] };
+				{ 24, "Inscription_Shaman", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Glyph"] };
+				{ 25, "Inscription_Warrior", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Glyph"] };
 			};
 		};
 		info = {

@@ -491,7 +491,6 @@ if AL then
 	AL["Recall"] = "召回";
 	AL["Scrolls"] = "卷軸";
 	AL["Off-Hand Items"] = "副手物品";
-	AL["Staves/Shoulder Enchants"] = "法杖/肩部附魔";
 	AL["Shoulder Enchants"] = "肩部附魔";
 	AL["Reagents"] = "材料";
 	AL["Book of Glyph Mastery"] = "雕紋精通之書";

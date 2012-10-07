@@ -492,7 +492,6 @@ if AL then
 	AL["Recall"] = true;
 	AL["Scrolls"] = true;
 	AL["Off-Hand Items"] = true;
-	AL["Staves/Shoulder Enchants"] = true;
 	AL["Shoulder Enchants"] = true;
 	AL["Reagents"] = true;
 	AL["Book of Glyph Mastery"] = true;
