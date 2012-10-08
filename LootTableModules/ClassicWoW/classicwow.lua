@@ -69,6 +69,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Exodar
 ---- Gilneas
 ---- Gnomeregan
+---- Huojin Pandaren
 ---- Ironforge
 ---- Orgrimmar
 ---- Silvermoon City
@@ -76,6 +77,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Thorium Brotherhood
 ---- Thunder Bluff
 ---- Timbermaw Hold
+---- Tushui Pandaren
 ---- Zandalar Tribe
 ---- Undercity
 
@@ -6959,6 +6961,35 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	}
 
+		-----------------------
+		--- Huojin Pandaren ---
+		-----------------------
+
+	AtlasLoot_Data["HuojinPandaren"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r1#"};
+				{ 2, 83080, "", "=q1=Huojin Tabard", "=ds=#s7#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r5#"};
+				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
+				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
+				{ 19, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
+				{ 20, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#"};
+				{ 21, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#"};
+				{ 22, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#"};
+				{ 23, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#"};
+				{ 24, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#"};
+				{ 25, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
+				{ 26, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
+				{ 27, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
+			};
+		};
+		info = {
+			name = BabbleFaction["Huojin Pandaren"],
+			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+		};
+	}
+
 		-----------------
 		--- Ironforge ---
 		-----------------
@@ -7188,6 +7219,35 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Timbermaw Hold"],
+			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+		};
+	}
+
+		-----------------------
+		--- Tushui Pandaren ---
+		-----------------------
+
+	AtlasLoot_Data["TushuiPandaren"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r1#"};
+				{ 2, 83079, "", "=q1=Tushui Tabard", "=ds=#s7#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r5#"};
+				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
+				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
+				{ 19, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
+				{ 20, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#"};
+				{ 21, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#"};
+				{ 22, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#"};
+				{ 23, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#"};
+				{ 24, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#"};
+				{ 25, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
+				{ 26, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
+				{ 27, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
+			};
+		};
+		info = {
+			name = BabbleFaction["Tushui Pandaren"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
