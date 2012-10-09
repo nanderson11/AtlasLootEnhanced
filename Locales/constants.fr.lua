@@ -466,6 +466,15 @@ if AL then
 	AL["Armor Enhancements"] = "Améliorations d'armure";
 	AL["Weapon Enhancements"] = "Améliorations d'arme";
 
+	-- Cooking
+	AL["Banquets/Feasts"] = "Banquets / Festins";
+	AL["Way of the Brew"] = "Maître du brassage";
+	AL["Way of the Grill"] = "Maître du grill";
+	AL["Way of the Oven"] = "Maître du four";
+	AL["Way of the Pot"] = "Maître de la marmite";
+	AL["Way of the Steamer"] = "Maître du cuit-vapeur";
+	AL["Way of the Wok"] = "Maître du wok";
+
 	-- Enchanting
 	AL["Enchant Boots"] = "Enchantement Bottes";
 	AL["Enchant Bracer"] = "Enchantement Bracelets";
@@ -614,6 +623,7 @@ if AL then
 	-- Profession descriptions
 	--AL["Buff"] = true;
 	AL["Agility"] = "Agilité";
+	AL["Attributes"] = "Attributs";
 	AL["Intellect"] = "Intelligence";
 	AL["Strength"] = "Force";
 	AL["Spirit"] = "Esprit";
