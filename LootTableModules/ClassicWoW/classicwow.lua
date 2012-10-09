@@ -6974,14 +6974,15 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
 				{ 19, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
-				{ 20, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#"};
-				{ 21, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#"};
-				{ 22, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#"};
-				{ 23, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#"};
-				{ 24, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#"};
-				{ 25, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
-				{ 26, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
-				{ 27, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
+				{ 20, 82765, "", "=q4=Reins of the Green Dragon Turtle", "=ds=#e26#"};
+				{ 21, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#"};
+				{ 22, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#"};
+				{ 23, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#"};
+				{ 24, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#"};
+				{ 25, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#"};
+				{ 26, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
+				{ 27, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
+				{ 28, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7236,14 +7237,15 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
 				{ 19, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#"};
-				{ 20, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#"};
-				{ 21, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#"};
-				{ 22, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#"};
-				{ 23, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#"};
-				{ 24, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#"};
-				{ 25, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
-				{ 26, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
-				{ 27, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
+				{ 20, 82765, "", "=q4=Reins of the Green Dragon Turtle", "=ds=#e26#"};
+				{ 21, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#"};
+				{ 22, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#"};
+				{ 23, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#"};
+				{ 24, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#"};
+				{ 25, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#"};
+				{ 26, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#"};
+				{ 27, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#"};
+				{ 28, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#"};
 			};
 		};
 		info = {
