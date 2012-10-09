@@ -468,6 +468,15 @@ if AL then
 	AL["Armor Enhancements"] = true;
 	AL["Weapon Enhancements"] = true;
 
+	-- Cooking
+	AL["Banquets/Feasts"] = true;
+	AL["Way of the Brew"] = true;
+	AL["Way of the Grill"] = true;
+	AL["Way of the Oven"] = true;
+	AL["Way of the Pot"] = true;
+	AL["Way of the Steamer"] = true;
+	AL["Way of the Wok"] = true;
+
 	-- Enchanting
 	AL["Enchant Boots"] = true;
 	AL["Enchant Bracer"] = true;
@@ -617,17 +626,16 @@ if AL then
 	-- Profession descriptions
 	AL["Buff"] = true;
 	AL["Agility"] = true;
+	AL["Attributes"] = true;
 	AL["Intellect"] = true;
 	AL["Strength"] = true;
 	AL["Spirit"] = true;
 	AL["Stamina"] = true;
-	AL["Agility, Intellect, Strength"] = true;
 	AL["Spell Power"] = true;
 	AL["Attack Power"] = true;
 	AL["Spell/Attack Power"] = true;
 	AL["Hit Rating"] = true;
 	AL["Crit Rating"] = true;
-	AL["Crit/Hit Rating"] = true;
 	AL["Haste Rating"] = true;
 	AL["Dodge Rating"] = true;
 	AL["Expertise Rating"] = true;

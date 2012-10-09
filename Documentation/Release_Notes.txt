@@ -11,6 +11,7 @@ Added some missing faction rewards.
 Added missing raid items.
 Added Level 90 World BoE Items.
 Updated Blacksmithing with Mists of Pandaria recipes.
+Updated Cooking with Mists of Pandaria recipes.
 Updated Inscription with Mists of Pandaria recipes.
 Updated Jewelcrafting with Mists of Pandaria recipes.
 Updated Leatherworking with Mists of Pandaria recipes.

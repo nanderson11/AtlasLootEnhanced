@@ -468,6 +468,15 @@ if AL then
 	AL["Armor Enhancements"] = "Rüstungsverbesserungen";
 	AL["Weapon Enhancements"] = "Waffenverbesserungen";
 
+	-- Cooking
+	AL["Banquets/Feasts"] = "Bankette/Festmähler";
+	AL["Way of the Brew"] = "Weg des Gebräus";
+	AL["Way of the Grill"] = "Weg des Grills";
+	AL["Way of the Oven"] = "Weg des Ofens";
+	AL["Way of the Pot"] = "Weg des Topfes";
+	AL["Way of the Steamer"] = "Weg des Dämpfens";
+	AL["Way of the Wok"] = "Weg des Woks";
+
 	-- Enchanting
 	AL["Enchant Boots"] = "Stiefel verzaubern";
 	AL["Enchant Bracer"] = "Armschienen verzaubern";
@@ -617,17 +626,16 @@ if AL then
 	-- Profession descriptions
 	-- AL["Buff"] = true;
 	AL["Agility"] = "Beweglichkeit";
+	AL["Attributes"] = "Attribute";
 	AL["Intellect"] = "Intelligenz";
 	AL["Strength"] = "Stärke";
 	AL["Spirit"] = "Willenskraft";
 	AL["Stamina"] = "Ausdauer";
-	AL["Agility, Intellect, Strength"] = "Beweglichkeit, Intelligenz, Stärke";
 	AL["Spell Power"] = "Zaubermacht";
 	AL["Attack Power"] = "Angriffskraft";
 	AL["Spell/Attack Power"] = "Zaubermacht/Angriffskraft";
 	AL["Hit Rating"] = "Trefferwertung";
 	AL["Crit Rating"] = "Kritische Trefferwertung";
-	AL["Crit/Hit Rating"] = "Kritische / Trefferwertung";
 	AL["Haste Rating"] = "Tempowertung";
 	AL["Dodge Rating"] = "Ausweichwertung";
 	AL["Expertise Rating"] = "Waffenkundewertung";

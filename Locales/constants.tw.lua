@@ -621,13 +621,11 @@ if AL then
 	AL["Strength"] = "力量";
 	AL["Spirit"] = "精神";
 	AL["Stamina"] = "耐力";
-	AL["Agility, Intellect, Strength"] = "敏捷, 智力, 力量";
 	AL["Spell Power"] = "法術能量";
 	AL["Attack Power"] = "攻擊強度";
 	AL["Spell/Attack Power"] = "法術能量攻擊強度";
 	AL["Hit Rating"] = "命中等級";
 	AL["Crit Rating"] = "致命一擊等級";
-	AL["Crit/Hit Rating"] = "致命一擊/命中等級";
 	AL["Haste Rating"] = "加速等級";
 	AL["Dodge Rating"] = "閃躲等級";
 	AL["Expertise Rating"] = "專精等級";

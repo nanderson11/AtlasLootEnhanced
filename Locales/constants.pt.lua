@@ -504,13 +504,11 @@ if AL then
 	AL["Agility"] = "Agilidade";
 	AL["Intellect"] = "Intelecto";
 	AL["Strength"] = "Força";
-	AL["Agility, Intellect, Strength"] = "Agilidade, Intelecto, Força";
 	AL["Spell Power"] = "Poder Mágico";
 	AL["Attack Power"] = "Poder de Ataque";
 	AL["Spell/Attack Power"] = "Poder de Ataque/Mágico";
 	AL["Hit Rating"] = "Taxa de Acerto";
 	AL["Crit Rating"] = "Taxa de Acerto Crítico";
-	AL["Crit/Hit Rating"] = "Taxa de Crítico/Acerto";
 	AL["Haste Rating"] = "Taxa de Aceleração";
 	AL["Dodge Rating"] = "Taxa de Esquiva";
 	AL["Expertise Rating"] = "Taxa de Aptidão";

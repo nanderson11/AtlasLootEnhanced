@@ -534,13 +534,11 @@ if AL then
 	AL["Strength"] = "Сила";
 	AL["Spirit"] = "Дух";
 	AL["Stamina"] = "Выносливость";
-	AL["Agility, Intellect, Strength"] = "Ловкость, Интеллект, Сила";
 	AL["Spell Power"] = "Сила заклинаний";
 	AL["Attack Power"] = "Сила атаки";
 	AL["Spell/Attack Power"] = "Сила атаки/заклинаний";
 	AL["Hit Rating"] = "Меткость";
 	AL["Crit Rating"] = "Крит";
-	AL["Crit/Hit Rating"] = "Крит/меткость";
 	AL["Haste Rating"] = "Скорость";
 	AL["Dodge Rating"] = "Уклонение";
 	AL["Expertise Rating"] = "Мастерство";

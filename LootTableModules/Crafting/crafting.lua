@@ -1979,90 +1979,120 @@ local SPELLFIRE = GetSpellInfo(26797);
 		--- Cooking ---
 		---------------
 
-	AtlasLoot_Data["CookingStandard"] = {
+	AtlasLoot_Data["CookingAttributes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Health"]};
-				{ 2, "s88018", "62677", "=q1=Fish Fry", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 3, "s88006", "62676", "=q1=Blackened Surprise", "=ds=#sr# 425", "=ds="..AL["Trainer"]};
-				{ 4, "s57421", "34747", "=q1=Northern Stew", "=ds=#sr# 350", "=ds="..BabbleInventory["Quest"]};
-				{ 5, "s42296", "33048", "=q1=Stewed Trout", "=ds=#sr# 320", "=ds="..AL["Trainer"]};
-				{ 6, "s33290", "27661", "=q1=Blackened Trout", "=ds=#sr# 300", "=ds="..AL["Vendor"]..": "..BabbleZone["Zangarmarsh"]};
-				{ 7, "s18247", "13935", "=q1=Baked Salmon", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Feralas"]};
-				{ 8, "s18245", "13933", "=q1=Lobster Stew", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Feralas"]};
-				{ 9, "s18241", "13930", "=q1=Filet of Redgill", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Stranglethorn Vale"]};
-				{ 10, "s18238", "6887", "=q1=Spotted Yellowtail", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
-				{ 11, "s20626", "16766", "=q1=Undermine Clam Chowder", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 12, "s20916", "8364", "=q1=Mithril Head Trout", "=ds=#sr# 175", "=ds="..AL["Vendor"]};
-				{ 13, "s7828", "4594", "=q1=Rockscale Cod", "=ds=#sr# 175", "=ds="..AL["Vendor"]};
-				{ 14, "s2548", "2685", "=q1=Succulent Pork Ribs", "=ds=#sr# 110", "=ds="..AL["Drop"]};
-				{ 15, "s7755", "4593", "=q1=Bristle Whisker Catfish", "=ds=#sr# 100", "=ds="..AL["Vendor"]};
-				{ 17, "s6501", "5526", "=q1=Clam Chowder", "=ds=#sr# 90", "=ds="..AL["Vendor"]};
-				{ 18, "s6417", "5478", "=q1=Dig Rat Stew", "=ds=#sr# 90", "=ds="..AL["Vendor"]};
-				{ 19, "s2543", "733", "=q1=Westfall Stew", "=ds=#sr# 90", "=ds="..AL["Drop"]};
-				{ 20, "s7754", "6316", "=q1=Loch Frenzy Delight", "=ds=#sr# 50", "=ds="..AL["Vendor"]};	
-				{ 21, "s7753", "4592", "=q1=Longjaw Mud Snapper", "=ds=#sr# 50", "=ds="..AL["Vendor"]};
-				{ 22, "s7827", "5095", "=q1=Rainbow Fin Albacore", "=ds=#sr# 50", "=ds="..AL["Vendor"]};
-				{ 23, "s93741", "67230", "=q1=Venison Jerky", "=ds=#sr# 40", "=ds="..AL["Trainer"]};
-				{ 24, "s8607", "6890", "=q1=Smoked Bear Meat", "=ds=#sr# 40", "=ds="..AL["Vendor"]};
-				{ 25, "s7751", "6290", "=q1=Brilliant Smallfish", "=ds=#sr# 1", "=ds="..AL["Vendor"]};
-				{ 26, "s2538", "2679", "=q1=Charred Wolf Meat", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
-				{ 27, "s2540", "2681", "=q1=Roasted Boar Meat", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
-				{ 28, "s7752", "787", "=q1=Slitherskin Mackerel", "=ds=#sr# 1", "=ds="..AL["Vendor"]};
-				{ 29, "s37836", "30816", "=q1=Spice Bread", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Agility"]};
+				{ 2, "s104303", "74648", "=q1=Sea Mist Rice Noodles", "=ds=#sr# 600", "=ds="..AL["Way of the Wok"]};
+				{ 3, "s104302", "74647", "=q1=Valley Stir Fry", "=ds=#sr# 550", "=ds="..AL["Way of the Wok"]};
+				{ 4, "s104301", "74643", "=q1=Sauteed Carrots", "=ds=#sr# 525", "=ds="..AL["Way of the Wok"]};
+				{ 5, "s88042", "62669", "=q1=Skewered Eel", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 6, "s88046", "62658", "=q1=Tender Baked Turtle", "=ds=#sr# 475", "=ds="..AL["Cooking Daily"]};
+				{ 7, "s57441", "42999", "=q1=Blackened Dragonfin", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 8, "s33288", "27659", "=q1=Warp Burger", "=ds=#sr# 325", "=ds="..AL["Vendor"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 9, "s33293", "27664", "=q1=Grilled Mudfish", "=ds=#sr# 320", "=ds="..AL["Vendor"]..": "..BabbleZone["Nagrand"]};
+				{ 10, "s18240", "13928", "=q1=Grilled Squid", "=ds=#sr# 240", "=ds="..AL["Trainer"]};
+				{ 12, 0, "INV_Box_01", "=q6="..AL["Spirit"]};
+				{ 13, "s104309", "74653", "=q1=Steamed Crab Surprise", "=ds=#sr# 600", "=ds="..AL["Way of the Steamer"]};
+				{ 14, "s104308", "74652", "=q1=Fire Spirit Salmon", "=ds=#sr# 550", "=ds="..AL["Way of the Steamer"]};
+				{ 15, "s104307", "74651", "=q1=Shrimp Dumplings", "=ds=#sr# 525", "=ds="..AL["Way of the Steamer"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Intellect"]};
+				{ 17, "s104306", "74650", "=q1=Mogu Fish Stew", "=ds=#sr# 600", "=ds="..AL["Way of the Pot"]};
+				{ 18, "s104305", "74649", "=q1=Braised Turtle", "=ds=#sr# 550", "=ds="..AL["Way of the Pot"]};
+				{ 19, "s104304", "74644", "=q1=Swirling Mist Soup", "=ds=#sr# 525", "=ds="..AL["Way of the Pot"]};
+				{ 20, "s88039", "62671", "=q1=Severed Sagefish Head", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 21, "s88033", "62660", "=q1=Pickled Guppy", "=ds=#sr# 475", "=ds="..AL["Cooking Daily"]};
+				{ 22, "s22761", "18254", "=q1=Runn Tum Tuber Surprise", "=ds=#sr# 275", "=ds="..AL["Drop"]};
+				{ 24, 0, "INV_Box_01", "=q6="..AL["Stamina"]};
+				{ 25, "s104312", "74656", "=q1=Chun Tian Spring Rolls", "=ds=#sr# 600", "=ds="..AL["Way of the Oven"]};
+				{ 26, "s104311", "74655", "=q1=Twin Fish Platter", "=ds=#sr# 550", "=ds="..AL["Way of the Oven"]};
+				{ 27, "s104310", "74654", "=q1=Wildfowl Roast", "=ds=#sr# 525", "=ds="..AL["Way of the Oven"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Health and Mana"]};
-				{ 2, "s96133", "68687", "=q1=Scalding Murglesnout", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 3, "s64358", "45932", "=q1=Black Jelly", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 4, "s45561", "34760", "=q1=Grilled Bonescale", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 5, "s42305", "33053", "=q1=Hot Buttered Trout", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 6, "s45562", "34761", "=q1=Sauteed Goby", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 7, "s45560", "34759", "=q1=Smoked Rockfin", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 8, "s2545", "2682", "=q1=Cooked Crab Claw", "=ds=#sr# 85", "=ds="..AL["World Drop"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Mana"]};
-				{ 17, "s88044", "62672", "=q1=South Island Ice Tea", "=ds=#sr# 525", "=ds="..AL["Cooking Daily"]};
-				{ 18, "s88045", "62675", "=q1=Starfire Espresso", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 19, "s53056", "39520", "=q1=Kungaloosh", "=ds=#sr# 350", "=ds=#QUESTID:13571#"};
-				{ 20, "s13028", "10841", "=q1=Goldthorn Tea", "=ds=#sr# 175", "=ds="..BabbleZone["Razorfen Downs"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Strength"]};
+				{ 2, "s104300", "74646", "=q1=Black Pepper Ribs and Shrimp", "=ds=#sr# 600", "=ds="..AL["Way of the Grill"]};
+				{ 3, "s104299", "74645", "=q1=Eternal Blossom Fish", "=ds=#sr# 550", "=ds="..AL["Way of the Grill"]};
+				{ 4, "s104298", "74642", "=q1=Charbroiled Tiger Steak", "=ds=#sr# 525", "=ds="..AL["Way of the Grill"]};
+				{ 5, "s88005", "62670", "=q1=Bear-Basted Crocolisk", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 6, "s88021", "62659", "=q1=Hearty Seafood Soup", "=ds=#sr# 475", "=ds="..AL["Cooking Daily"]};
+				{ 7, "s57442", "43000", "=q1=Dragonfin Filet", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 8, "s33287", "27658", "=q1=Roasted Clefthoof", "=ds=#sr# 325", "=ds="..AL["Vendor"]..": "..BabbleZone["Nagrand"]};
+				{ 9, "s24801", "20452", "=q1=Smoked Desert Dumplings", "=ds=#sr# 285", "=ds="..BabbleInventory["Quest"]};
 			};
 		};
 		info = {
-			name = COOKING,
+			name = COOKING..": "..AL["Attributes"],
 			module = moduleName, menu = "COOKINGMENU"
 		};
 	};
 
-	AtlasLoot_Data["CookingSpecial"] = {
+	AtlasLoot_Data["CookingRatings"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Tracking"]};
-				{ 2, "s57438", "42997", "=q1=Blackened Worg Steak", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 3, "s57443", "43001", "=q1=Tracker Snacks", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Emotions"]};
-				{ 6, "s58523", "43491", "=q1=Bad Clams", "=ds=#sr# 350", "=ds="..AL["Drop"]};
-				{ 7, "s58525", "43492", "=q1=Haunted Herring", "=ds=#sr# 350", "=ds="..AL["Drop"]};
-				{ 8, "s58521", "43488", "=q1=Last Week's Mammoth", "=ds=#sr# 350", "=ds="..AL["Drop"]};
-				{ 9, "s58512", "43490", "=q1=Tasty Cupcake", "=ds=#sr# 350", "=ds="..AL["Drop"]};
-				{ 10, "s43779", "33924", "=q1=Delicious Chocolate Cake", "=ds=#sr# 1", "=ds="..AL["Cooking Daily"]};
-				{ 12, 0, "INV_Box_01", "=q6=#p24#"};
-				{ 13, "s88017", "62673", "=q1=Feathered Lure", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 14, "s45695", "34832", "=q1=Captain Rumsey's Lager", "=ds=#sr# 100", "=ds="..AL["Drop"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Alcohol"]};
-				{ 17, "s88015", "62790", "=q1=Darkbrew Lager", "=ds=#sr# 415", "=ds="..AL["Trainer"]};
-				{ 18, "s88022", "62674", "=q1=Highland Spirits", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Other"]};
-				{ 21, "s88013", "62680", "=q1=Chocolate Cookie", "=ds=#sr# 505", "=ds="..AL["Cooking Daily"]};
-				{ 22, "s57435", "43004", "=q1=Critter Bites", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 23, "s43758", "33866", "=q1=Stormchops", "=ds=#sr# 300", "=ds="..AL["Drop"]};
-				{ 24, "s15906", "12217", "=q1=Dragonbreath Chili", "=ds=#sr# 200", "=ds="..AL["Vendor"]};
-				{ 25, "s8238", "6657", "=q1=Savory Deviate Delight", "=ds=#sr# 85", "=ds="..AL["Drop"]};
-				{ 26, "s9513", "7676", "=q1=Thistle Tea", "=ds=#sr# 60", "=ds="..AL["Vendor"]..": "..BabbleZone["Hillsbrad Foothills"]};
-				{ 27, "s6413", "5473", "=q1=Scorpid Surprise", "=ds=#sr# 20", "=ds="..AL["Vendor"]..": "..BabbleZone["Durotar"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Crit Rating"], ""};
+				{ 2, "s88003", "62661", "=q1=Baked Rockfish", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 3, "s88028", "62561", "=q1=Lightly Fried Lurker", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 4, "s124231", "81410", "=q1=Green Curry Fish", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{ 5, "s57436", "42995", "=q1=Hearty Rhino", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 6, "s45557", "34756", "=q1=Spiced Worm Burger", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 7, "s45571", "34768", "=q1=Spicy Blue Nettlefish", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 8, "s45565", "34764", "=q1=Poached Nettlefish", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 9, "s45551", "34750", "=q1=Worm Delight", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 10, "s43707", "33825", "=q1=Skullfish Soup", "=ds=#sr# 325", "=ds="..AL["Drop"]..""};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Dodge Rating"], ""};
+				{ 17, "s88031", "62667", "=q1=Mushroom Sauce Mudfish", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 18, "s88030", "62657", "=q1=Lurker Lunch", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 19, "s124233", "81412", "=q1=Blanched Needle Mushrooms", "=ds=#sr# 330", "=ds="..AL["Trainer"]};
+				{ 20, "s124227", "81404", "=q1=Dried Needle Mushrooms", "=ds=#sr# 90", "=ds="..AL["Trainer"]};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["Expertise Rating"], ""};
+				{ 23, "s125123", "86074", "=q1=Spicy Vegetable Chips", "=ds=#sr# 500", "=ds="..BabbleFaction["The Tillers"].." - "..BabbleFaction["Exalted"]};
+				{ 24, "s125122", "86069", "=q1=Rice Pudding", "=ds=#sr# 520", "=ds="..AL["Trainer"]};
+				{ 25, "s88014", "62664", "=q1=Crocolisk Au Gratin", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 26, "s88024", "62654", "=q1=Lavascale Fillet", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 27, "s57434", "42994", "=q1=Rhinolicious Wormsteak", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 28, "s124229", "81408", "=q1=Red Bean Bun", "=ds=#sr# 360", "=ds="..AL["Trainer"]};
+				{ 29, "s124223", "81400", "=q1=Pounded Rice Cake", "=ds=#sr# 120", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Haste Rating"], ""};
+				{ 2, "s88004", "62665", "=q1=Basilisk Liverdog", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 3, "s124230", "81409", "=q1=Tangy Yogurt", "=ds=#sr# 480", "=ds="..AL["Trainer"]};
+				{ 4, "s88012", "62655", "=q1=Broiled Mountain Trout", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 5, "s45570", "34769", "=q1=Imperial Manta Steak", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 6, "s45558", "34757", "=q1=Very Burnt Worg", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 7, "s45569", "42942", "=q1=Baked Manta Ray", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 8, "s45552", "34751", "=q1=Roasted Worg", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{
+					{ 9, "s66034", "44839", "=q1=Candied Sweet Potato", "=ds=#sr# 220", "=ds="..AL["Vendor"]};
+					{ 9, "s62051", "44839", "=q1=Candied Sweet Potato", "=ds=#sr# 220", "=ds="..AL["Vendor"]};
+				};
+				{ 10, "s124224", "81401", "=q1=Yak Cheese Curds", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Hit Rating"], ""};
+				{ 17, "s125120", "86073", "=q1=Spicy Salmon", "=ds=#sr# 500", "=ds="..BabbleFaction["The Tillers"].." - "..BabbleFaction["Exalted"]};
+				{ 18, "s125121", "86070", "=q1=Wildfowl Ginseng Soup", "=ds=#sr# 510", "=ds="..AL["Trainer"]};
+				{ 19, "s88020", "62662", "=q1=Grilled Dragon", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 20, "s88037", "62652", "=q1=Seasoned Crab", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 21, "s57437", "42996", "=q1=Snapper Extreme", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 22, "s62350", "44953", "=q1=Worg Tartare", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 23, "s124234", "81413", "=q1=Skewered Peanut Chicken", "=ds=#sr# 390", "=ds="..AL["Trainer"]};
+				{ 24, "s43765", "33872", "=q1=Spicy Hot Talbuk", "=ds=#sr# 325", "=ds="..AL["Drop"]};
+				{ 25, "s124228", "81405", "=q1=Boiled Silkworm Pupa", "=ds=#sr# 210", "=ds="..AL["Trainer"]};
+				{ 26, "s66038", "44837", "=q1=Spice Bread Stuffing", "=ds=#sr# 1", "=ds="..AL["Vendor"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Mastery Rating"], ""};
+				{ 2, "s88025", "62663", "=q1=Lavascale Minestrone", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 3, "s125080", "81414", "=q1=Pearl Milk Tea", "=ds=#sr# 495", "=ds="..AL["Trainer"]};
+				{ 4, "s88035", "62653", "=q1=Salted Eye", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 5, "s125078", "81406", "=q1=Roasted Barley Tea", "=ds=#sr# 240", "=ds="..AL["Trainer"]};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Parry Rating"], ""};
+				{ 8, "s88034", "62668", "=q1=Blackbelly Sushi", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 9, "s124232", "81411", "=q1=Peach Pie", "=ds=#sr# 450", "=ds="..AL["Trainer"]};
+				{ 10, "s124226", "81403", "=q1=Dried Peaches", "=ds=#sr# 180", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
-			name = COOKING,
+			name = COOKING..": "..AL["Ratings"],
 			module = moduleName, menu = "COOKINGMENU"
 		};
 	};
@@ -2149,7 +2179,78 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = COOKING,
+			name = COOKING..": "..AL["Standard Buffs"],
+			module = moduleName, menu = "COOKINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["CookingSpecial"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Alcohol"]};
+				{ 2, "s88015", "62790", "=q1=Darkbrew Lager", "=ds=#sr# 415", "=ds="..AL["Trainer"]};
+				{ 3, "s88022", "62674", "=q1=Highland Spirits", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Emotions"]};
+				{ 6, "s58523", "43491", "=q1=Bad Clams", "=ds=#sr# 350", "=ds="..AL["Drop"]};
+				{ 7, "s58525", "43492", "=q1=Haunted Herring", "=ds=#sr# 350", "=ds="..AL["Drop"]};
+				{ 8, "s58521", "43488", "=q1=Last Week's Mammoth", "=ds=#sr# 350", "=ds="..AL["Drop"]};
+				{ 9, "s58512", "43490", "=q1=Tasty Cupcake", "=ds=#sr# 350", "=ds="..AL["Drop"]};
+				{ 10, "s43779", "33924", "=q1=Delicious Chocolate Cake", "=ds=#sr# 1", "=ds="..AL["Cooking Daily"]};
+				{ 16, 0, "INV_Box_01", "=q6=#p24#"};
+				{ 17, "s88017", "62673", "=q1=Feathered Lure", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 18, "s45695", "34832", "=q1=Captain Rumsey's Lager", "=ds=#sr# 100", "=ds="..AL["Drop"]};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Tracking"]};
+				{ 21, "s57438", "42997", "=q1=Blackened Worg Steak", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 22, "s57443", "43001", "=q1=Tracker Snacks", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Other"]};
+				{ 2, "s126655", "86432", "=q1=Banana Infused Rum", "=ds=#sr# 600", "=ds="..AL["Way of the Brew"]..": "..BabbleZone["Krasarang Wilds"]};
+				{ 3, "s126654", "87264", "=q1=Four Senses Brew", "=ds=#sr# 600", "=ds="..AL["Way of the Brew"]..": "..BabbleZone["Kun-Lai Summit"]};
+				{ 4, "s124054", "75038", "=q1=Mad Brewer's Breakfast", "=ds=#sr# 600", "=ds="..AL["Way of the Brew"]};
+				{ 5, "s124053", "75037", "=q1=Jade Witch Brew", "=ds=#sr# 550", "=ds="..AL["Way of the Brew"]};
+				{ 6, "s88013", "62680", "=q1=Chocolate Cookie", "=ds=#sr# 505", "=ds="..AL["Cooking Daily"]};
+				{ 7, "s57435", "43004", "=q1=Critter Bites", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 8, "s43758", "33866", "=q1=Stormchops", "=ds=#sr# 300", "=ds="..AL["Drop"]};
+				{ 9, "s15906", "12217", "=q1=Dragonbreath Chili", "=ds=#sr# 200", "=ds="..AL["Vendor"]};
+				{ 10, "s8238", "6657", "=q1=Savory Deviate Delight", "=ds=#sr# 85", "=ds="..AL["Drop"]};
+				{ 11, "s9513", "7676", "=q1=Thistle Tea", "=ds=#sr# 60", "=ds="..AL["Vendor"]..": "..BabbleZone["Hillsbrad Foothills"]};
+				{ 12, "s6413", "5473", "=q1=Scorpid Surprise", "=ds=#sr# 20", "=ds="..AL["Vendor"]..": "..BabbleZone["Durotar"]};
+			};
+		};
+		info = {
+			name = COOKING..": "..AL["Special"],
+			module = moduleName, menu = "COOKINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["CookingBanquetFeast"] = {
+		["Normal"] = {
+			{
+				{ 1, "s105190", "74919", "=q1=Pandaren Banquet", "=ds=#sr# 600", "=ds=#QUESTID:31521#"};
+				{ 2, "s105194", "75016", "=q1=Great Pandaren Banquet", "=ds=#sr# 600", "=ds=#QUESTID:31521#"};
+				{ 3, "s125602", "87246", "=q1=Banquet of the Brew", "=ds=#sr# 575", "=ds="..AL["Way of the Brew"]};
+				{ 4, "s125603", "87248", "=q1=Great Banquet of the Brew", "=ds=#sr# 575", "=ds="..AL["Way of the Brew"]};
+				{ 5, "s125141", "87226", "=q1=Banquet of the Grill", "=ds=#sr# 575", "=ds="..AL["Way of the Grill"]};
+				{ 6, "s125142", "87228", "=q1=Great Banquet of the Grill", "=ds=#sr# 575", "=ds="..AL["Way of the Grill"]};
+				{ 7, "s125600", "87242", "=q1=Banquet of the Oven", "=ds=#sr# 575", "=ds="..AL["Way of the Oven"]};
+				{ 8, "s125601", "87244", "=q1=Great Banquet of the Oven", "=ds=#sr# 575", "=ds="..AL["Way of the Oven"]};
+				{ 9, "s125596", "87234", "=q1=Banquet of the Pot", "=ds=#sr# 575", "=ds="..AL["Way of the Pot"]};
+				{ 10, "s125597", "87236", "=q1=Great Banquet of the Pot", "=ds=#sr# 575", "=ds="..AL["Way of the Pot"]};
+				{ 11, "s125598", "87238", "=q1=Banquet of the Steamer", "=ds=#sr# 575", "=ds="..AL["Way of the Steamer"]};
+				{ 12, "s125599", "87240", "=q1=Great Banquet of the Steamer", "=ds=#sr# 575", "=ds="..AL["Way of the Steamer"]};
+				{ 13, "s125594", "87230", "=q1=Banquet of the Wok", "=ds=#sr# 575", "=ds="..AL["Way of the Wok"]};
+				{ 14, "s125595", "87232", "=q1=Great Banquet of the Wok", "=ds=#sr# 575", "=ds="..AL["Way of the Wok"]};
+				{ 16, "s88036", "62290", "=q1=Seafood Magnifique Feast", "=ds=#sr# 525", "#ACHIEVEMENTID:5036#"};
+				{ 17, "s88011", "62289", "=q1=Broiled Dragon Feast", "=ds=#sr# 500", "#ACHIEVEMENTID:5467#"};
+				{ 18, "s57423", "43015", "=q1=Fish Feast", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 19, "s58527", "43478", "=q1=Gigantic Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 20, "s58528", "43480", "=q1=Small Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 21, "s45554", "34753", "=q1=Great Feast", "=ds=#sr# 375", "=ds="..AL["Trainer"]};
+			};
+		};
+		info = {
+			name = COOKING..": "..AL["Banquets/Feasts"],
 			module = moduleName, menu = "COOKINGMENU"
 		};
 	};
@@ -2193,35 +2294,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = COOKING,
-			module = moduleName, menu = "COOKINGMENU"
-		};
-	};
-
-	AtlasLoot_Data["CookingAgiStrInt"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Agility"]};
-				{ 2, "s88042", "62669", "=q1=Skewered Eel", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 3, "s88046", "62658", "=q1=Tender Baked Turtle", "=ds=#sr# 475", "=ds="..AL["Cooking Daily"]};
-				{ 4, "s57441", "42999", "=q1=Blackened Dragonfin", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 5, "s33288", "27659", "=q1=Warp Burger", "=ds=#sr# 325", "=ds="..AL["Vendor"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 6, "s33293", "27664", "=q1=Grilled Mudfish", "=ds=#sr# 320", "=ds="..AL["Vendor"]..": "..BabbleZone["Nagrand"]};
-				{ 7, "s18240", "13928", "=q1=Grilled Squid", "=ds=#sr# 240", "=ds="..AL["Trainer"]};
-				{ 9, 0, "INV_Box_01", "=q6="..AL["Intellect"]};
-				{ 10, "s88039", "62671", "=q1=Severed Sagefish Head", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 11, "s88033", "62660", "=q1=Pickled Guppy", "=ds=#sr# 475", "=ds="..AL["Cooking Daily"]};
-				{ 12, "s22761", "18254", "=q1=Runn Tum Tuber Surprise", "=ds=#sr# 275", "=ds="..AL["Drop"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Strength"]};
-				{ 17, "s88005", "62670", "=q1=Bear-Basted Crocolisk", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 18, "s88021", "62659", "=q1=Hearty Seafood Soup", "=ds=#sr# 475", "=ds="..AL["Cooking Daily"]};
-				{ 19, "s57442", "43000", "=q1=Dragonfin Filet", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 20, "s33287", "27658", "=q1=Roasted Clefthoof", "=ds=#sr# 325", "=ds="..AL["Vendor"]..": "..BabbleZone["Nagrand"]};
-				{ 21, "s24801", "20452", "=q1=Smoked Desert Dumplings", "=ds=#sr# 285", "=ds="..BabbleInventory["Quest"]};
-			};
-		};
-		info = {
-			name = COOKING,
+			name = COOKING..": "..AL["Spell/Attack Power"],
 			module = moduleName, menu = "COOKINGMENU"
 		};
 	};
@@ -2242,68 +2315,68 @@ local SPELLFIRE = GetSpellInfo(26797);
 			};
 		};
 		info = {
-			name = COOKING,
+			name = COOKING..": "..AL["Other Buffs"],
 			module = moduleName, menu = "COOKINGMENU"
 		};
 	};
 
-	AtlasLoot_Data["CookingHitCrit"] = {
+	AtlasLoot_Data["CookingStandard"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Crit Rating"], ""};
-				{ 2, "s88003", "62661", "=q1=Baked Rockfish", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 3, "s88028", "62561", "=q1=Lightly Fried Lurker", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 4, "s57436", "42995", "=q1=Hearty Rhino", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 5, "s45557", "34756", "=q1=Spiced Worm Burger", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 6, "s45571", "34768", "=q1=Spicy Blue Nettlefish", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 7, "s45565", "34764", "=q1=Poached Nettlefish", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 8, "s45551", "34750", "=q1=Worm Delight", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 9, "s43707", "33825", "=q1=Skullfish Soup", "=ds=#sr# 325", "=ds="..AL["Drop"]..""};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Hit Rating"], ""};
-				{ 17, "s88020", "62662", "=q1=Grilled Dragon", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 18, "s88037", "62652", "=q1=Seasoned Crab", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 19, "s57437", "42996", "=q1=Snapper Extreme", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 20, "s62350", "44953", "=q1=Worg Tartare", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 21, "s43765", "33872", "=q1=Spicy Hot Talbuk", "=ds=#sr# 325", "=ds="..AL["Drop"]};
-				{ 22, "s66038", "44837", "=q1=Spice Bread Stuffing", "=ds=#sr# 1", "=ds="..AL["Vendor"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Health"]};
+				{ 2, "s124032", "85504", "=q1=Krasarang Fritters", "=ds=#sr# 525", "=ds="..BabbleFaction["The Anglers"].." - "..BabbleFaction["Friendly"]};
+				{ 3, "s88018", "62677", "=q1=Fish Fry", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 4, "s88006", "62676", "=q1=Blackened Surprise", "=ds=#sr# 425", "=ds="..AL["Trainer"]};
+				{ 5, "s57421", "34747", "=q1=Northern Stew", "=ds=#sr# 350", "=ds="..BabbleInventory["Quest"]};
+				{ 6, "s42296", "33048", "=q1=Stewed Trout", "=ds=#sr# 320", "=ds="..AL["Trainer"]};
+				{ 7, "s104297", "74641", "=q1=Fish Cake", "=ds=#sr# 300", "=ds="..AL["Trainer"]};
+				{ 8, "s33290", "27661", "=q1=Blackened Trout", "=ds=#sr# 300", "=ds="..AL["Vendor"]..": "..BabbleZone["Zangarmarsh"]};
+				{ 9, "s18247", "13935", "=q1=Baked Salmon", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Feralas"]};
+				{ 10, "s18245", "13933", "=q1=Lobster Stew", "=ds=#sr# 275", "=ds="..AL["Vendor"]..": "..BabbleZone["Feralas"]};
+				{ 11, "s18241", "13930", "=q1=Filet of Redgill", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Stranglethorn Vale"]};
+				{ 12, "s18238", "6887", "=q1=Spotted Yellowtail", "=ds=#sr# 225", "=ds="..AL["Trainer"]};
+				{ 13, "s20626", "16766", "=q1=Undermine Clam Chowder", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 14, "s20916", "8364", "=q1=Mithril Head Trout", "=ds=#sr# 175", "=ds="..AL["Vendor"]};
+				{ 15, "s7828", "4594", "=q1=Rockscale Cod", "=ds=#sr# 175", "=ds="..AL["Vendor"]};
+				{ 17, "s2548", "2685", "=q1=Succulent Pork Ribs", "=ds=#sr# 110", "=ds="..AL["Drop"]};
+				{ 18, "s7755", "4593", "=q1=Bristle Whisker Catfish", "=ds=#sr# 100", "=ds="..AL["Vendor"]};
+				{ 19, "s6501", "5526", "=q1=Clam Chowder", "=ds=#sr# 90", "=ds="..AL["Vendor"]};
+				{ 20, "s6417", "5478", "=q1=Dig Rat Stew", "=ds=#sr# 90", "=ds="..AL["Vendor"]};
+				{ 21, "s2543", "733", "=q1=Westfall Stew", "=ds=#sr# 90", "=ds="..AL["Drop"]};
+				{ 22, "s7754", "6316", "=q1=Loch Frenzy Delight", "=ds=#sr# 50", "=ds="..AL["Vendor"]};	
+				{ 23, "s7753", "4592", "=q1=Longjaw Mud Snapper", "=ds=#sr# 50", "=ds="..AL["Vendor"]};
+				{ 24, "s7827", "5095", "=q1=Rainbow Fin Albacore", "=ds=#sr# 50", "=ds="..AL["Vendor"]};
+				{ 25, "s93741", "67230", "=q1=Venison Jerky", "=ds=#sr# 40", "=ds="..AL["Trainer"]};
+				{ 26, "s8607", "6890", "=q1=Smoked Bear Meat", "=ds=#sr# 40", "=ds="..AL["Vendor"]};
+				{ 27, "s125117", "86057", "=q1=Sliced Peaches", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 28, "s7751", "6290", "=q1=Brilliant Smallfish", "=ds=#sr# 1", "=ds="..AL["Vendor"]};
+				{ 29, "s2538", "2679", "=q1=Charred Wolf Meat", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 30, "s2540", "2681", "=q1=Roasted Boar Meat", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, "s7752", "787", "=q1=Slitherskin Mackerel", "=ds=#sr# 1", "=ds="..AL["Vendor"]};
+				{ 16, "s37836", "30816", "=q1=Spice Bread", "=ds=#sr# 1", "=ds="..AL["Trainer"]};
+				{ 3, 0, "INV_Box_01", "=q6="..AL["Health and Mana"]};
+				{ 4, "s124052", "75026", "=q1=Ginseng Tea", "=ds=#sr# 525", "=ds="..AL["Way of the Brew"]};
+				{ 5, "s96133", "68687", "=q1=Scalding Murglesnout", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
+				{ 6, "s64358", "45932", "=q1=Black Jelly", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 7, "s45561", "34760", "=q1=Grilled Bonescale", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 8, "s42305", "33053", "=q1=Hot Buttered Trout", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 9, "s45562", "34761", "=q1=Sauteed Goby", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 10, "s45560", "34759", "=q1=Smoked Rockfin", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 11, "s2545", "2682", "=q1=Cooked Crab Claw", "=ds=#sr# 85", "=ds="..AL["World Drop"]};
+				{ 12, "s125067", "86026", "=q1=Perfectly Cooked Instant Noodles", "=ds=#sr# 30", "=ds="..AL["Trainer"]};
+				{ 18, 0, "INV_Box_01", "=q6="..AL["Mana"]};
+				{ 19, "s124029", "85501", "=q1=Viseclaw Soup", "=ds=#sr# 525", "=ds="..BabbleFaction["The Anglers"].." - "..BabbleFaction["Friendly"]};
+				{ 20, "s88044", "62672", "=q1=South Island Ice Tea", "=ds=#sr# 525", "=ds="..AL["Cooking Daily"]};
+				{ 21, "s88045", "62675", "=q1=Starfire Espresso", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
+				{ 22, "s53056", "39520", "=q1=Kungaloosh", "=ds=#sr# 350", "=ds=#QUESTID:13571#"};
+				{ 23, "s104237", "74636", "=q1=Golden Carp Consomme", "=ds=#sr# 270", "=ds="..AL["Trainer"]};
+				{ 24, "s13028", "10841", "=q1=Goldthorn Tea", "=ds=#sr# 175", "=ds="..BabbleZone["Razorfen Downs"]};
 			};
 		};
 		info = {
-			name = COOKING,
-			module = moduleName, menu = "COOKINGMENU"
-		};
-	};
-
-	AtlasLoot_Data["CookingRating"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Haste Rating"], ""};
-				{ 2, "s88004", "62665", "=q1=Basilisk Liverdog", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 3, "s88012", "62655", "=q1=Broiled Mountain Trout", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 4, "s45570", "34769", "=q1=Imperial Manta Steak", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 5, "s45558", "34757", "=q1=Very Burnt Worg", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 6, "s45569", "42942", "=q1=Baked Manta Ray", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 7, "s45552", "34751", "=q1=Roasted Worg", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{
-					{ 8, "s66034", "44839", "=q1=Candied Sweet Potato", "=ds=#sr# 220", "=ds="..AL["Vendor"]};
-					{ 8, "s62051", "44839", "=q1=Candied Sweet Potato", "=ds=#sr# 220", "=ds="..AL["Vendor"]};
-				};
-				{ 10, 0, "INV_Box_01", "=q6="..AL["Expertise Rating"], ""};
-				{ 11, "s88014", "62664", "=q1=Crocolisk Au Gratin", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 12, "s88024", "62654", "=q1=Lavascale Fillet", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 13, "s57434", "42994", "=q1=Rhinolicious Wormsteak", "=ds=#sr# 400", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Mastery Rating"], ""};
-				{ 17, "s88025", "62663", "=q1=Lavascale Minestrone", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 18, "s88035", "62653", "=q1=Salted Eye", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Dodge Rating"], ""};
-				{ 21, "s88031", "62667", "=q1=Mushroom Sauce Mudfish", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-				{ 22, "s88030", "62657", "=q1=Lurker Lunch", "=ds=#sr# 450", "=ds="..AL["Cooking Daily"]};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Parry Rating"], ""};
-				{ 25, "s88034", "62668", "=q1=Blackbelly Sushi", "=ds=#sr# 500", "=ds="..AL["Cooking Daily"]};
-			};
-		};
-		info = {
-			name = COOKING,
+			name = COOKING..": "..AL["Food without Buffs"],
 			module = moduleName, menu = "COOKINGMENU"
 		};
 	};
