@@ -854,8 +854,8 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 81688, "", "=q3=Dashing Strike Treads", "=ds=#s12#, #a2#" },
 				{ 22, 81578, "", "=q3=Crown of Holy Flame", "=ds=#s1#, #a4#" },
 				{ 23, 81687, "", "=q3=Waistplate of Imminent Resurrection", "=ds=#s10#, #a4#" },
-				{ 24, 81562, "", "=q3=Triune Signet", "=ds=Finger, #m20#" },
-				{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#, #m20#" },
+				{ 24, 81562, "", "=q3=Triune Signet", "=ds=#s13#" },
+				{ 25, 81265, "", "=q3=Flashing Steel Talisman", "=ds=#s14#" },
 				{ 26, 81577, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
 				{ 27, 81691, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
 			};
@@ -1244,9 +1244,9 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86751, "", "=q4=Bracers of Six Oxen", "=ds=#s8#, #a4#" },
 				{ 10, 86756, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
 				{ 16, 86754, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
-				{ 17, 89967, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
+				{ 17, 89968, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 
-				{ 18, 89968, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
+				{ 18, 89967, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
 			};
 		};
@@ -3076,6 +3076,94 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AL["PvP Non-Set Epics"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
+		--------------------------
+		--- Level 90 - Weapons ---
+		--------------------------
+
+	AtlasLoot_Data["PVP90Weapons"] = {
+		["Normal"] = {
+			{
+				{ 1, 84963, "", "=q4=Malevolent Gladiator's Render", "=ds=#w13#", "#CONQUEST:2500#" },
+				{ 2, 84962, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#w13#", "#CONQUEST:2500#" },
+				{ 4, 84895, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
+				{ 5, 84967, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
+				{ 6, 84961, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
+				{ 8, 84969, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
+				{ 9, 84968, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
+				{ 11, 84965, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
+				{ 12, 84966, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
+				{ 17, 84971, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
+				{ 16, 84970, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 18, 84964, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 20, 84790, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
+				{ 21, 84791, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
+				{ 22, 84785, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
+				{ 24, 84786, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 26, 84787, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 27, 84788, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 28, 84789, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+			};
+			{
+				{ 2, 84911, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 3, 84912, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 4, 84910, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 6, 84896, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
+				{ 7, 84897, "", "=q4=Malevolent Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
+				{ 8, 84900, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
+				{ 17, 84899, "", "=q4=Malevolent Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
+				{ 18, 84898, "", "=q4=Malevolent Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
+				{ 20, 84867, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
+				{ 21, 84866, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"].." - "..AL["ilvl 470"], "=q5="..AL["Level 90"],
+			module = moduleName, menu = "PVPMENU",
+		};
+	}
+
+	AtlasLoot_Data["PVP90Weapons2"] = {
+		["Normal"] = {
+			{
+				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#w13#s, Weapon", "2500 #conquest#" },
+				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#w13#s, Weapon", "2500 #conquest#" },
+				{ 6, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
+				{ 5, 85133, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
+				{ 4, 85118, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
+				{ 8, 85135, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
+				{ 9, 85134, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
+				{ 11, 85131, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
+				{ 12, 85132, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
+				{ 17, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
+				{ 16, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 18, 85130, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 20, 85112, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
+				{ 21, 85113, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
+				{ 22, 85107, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
+				{ 24, 85108, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
+				{ 26, 85109, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 27, 85110, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 28, 85111, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+			};
+			{
+				{ 2, 85125, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 3, 85126, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 4, 85124, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 6, 85119, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
+				{ 7, 85120, "", "=q4=Malevolent Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
+				{ 8, 85123, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
+				{ 17, 85122, "", "=q4=Malevolent Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
+				{ 18, 85121, "", "=q4=Malevolent Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
+				{ 20, 85115, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
+				{ 21, 85114, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"].." - "..AL["ilvl 490"], "=q5="..AL["Level 90"],
 			module = moduleName, menu = "PVPMENU",
 		};
 	}

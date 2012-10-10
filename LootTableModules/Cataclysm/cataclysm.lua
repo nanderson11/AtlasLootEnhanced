@@ -4927,9 +4927,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 21, 73477, "", "=q4=Cataclysmic Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:3400#" },
 				{ 22, 73476, "", "=q4=Cataclysmic Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:3400#" },
 				{ 24, 73456, "", "=q4=Cataclysmic Gladiator's Pike", "=ds=#w7#", "#HONOR:3400#" },
-				{ 26, 73466, "", "=q4=Cataclysmic Gladiator's Battle Staff", "=ds=#w7#", "#HONOR:3400#" },
-				{ 27, 73457, "", "=q4=Cataclysmic Gladiator's Energy Staff", "=ds=#w7#", "#HONOR:3400#" },
-				{ 28, 73462, "", "=q4=Cataclysmic Gladiator's Staff", "=ds=#w7#", "#HONOR:3400#" },
+				{ 26, 73466, "", "=q4=Cataclysmic Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:3400#" },
+				{ 27, 73457, "", "=q4=Cataclysmic Gladiator's Energy Staff", "=ds=#w9#", "#HONOR:3400#" },
+				{ 28, 73462, "", "=q4=Cataclysmic Gladiator's Staff", "=ds=#w9#", "#HONOR:3400#" },
 			};
 			{
 				{ 1, 73468, "", "=q4=Cataclysmic Gladiator's Barrier", "=ds=#w8#", "#HONOR:950#" },

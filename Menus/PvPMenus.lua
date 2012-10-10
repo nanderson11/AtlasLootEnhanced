@@ -9,14 +9,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "PVP90Accessories", "inv_misc_pvp_ringc2", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
 				{ 3, "PVP90SET", "inv_helm_plate_pvppaladin_c_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 90"]};
-				{ 5, "PVP85Accessories", "inv_jewelry_ring_80", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 85"]};
-				{ 6, "PVP85SET", "inv_helm_plate_pvppaladin_c_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 85"]};
-				{ 7, "PVP85NonSet", "inv_bracer_mail_pvphunter_c_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 85"]};
-				{ 9, "PVPMENU2", "INV_Jewelry_Necklace_21", "=ds="..AL["BG/Open PvP Rewards"], ""};
-				{ 17, "PVP90NonSet", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 90"]};	
-				{ 20, "PVP85Weapons4", "inv_hand_1h_pvp400_c_01", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 85"]};
-				{ 21, "PVP85Misc", "ability_warrior_rampage", "=ds="..AL["Misc"], "=q5="..AL["Level 85"]};
-				{ 24, "PVPMENU3", "inv_belt_13", "=ds="..AL["Old PvP Rewards"], "=q5="};
+				{ 4, "PVP90NonSet", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 90"]};	
+				{ 6, "PVP85Accessories", "inv_jewelry_ring_80", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 85"]};
+				{ 7, "PVP85SET", "inv_helm_plate_pvppaladin_c_01", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 85"]};
+				{ 8, "PVP85NonSet", "inv_bracer_mail_pvphunter_c_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Level 85"]};
+				{ 10, "PVPMENU2", "INV_Jewelry_Necklace_21", "=ds="..AL["BG/Open PvP Rewards"], ""};
+				{ 17, "PVP90Weapons2", "inv_stave_2h_pvppandarias1_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 490"], "=q5="..AL["Level 90"]};
+				{ 18, "PVP90Weapons", "inv_hand_1h_pvppandarias1_c_01", "=ds="..AL["PvP Weapons"].." - "..AL["ilvl 470"], "=q5="..AL["Level 90"]};
+				{ 21, "PVP85Weapons4", "inv_hand_1h_pvp400_c_01", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 85"]};
+				{ 22, "PVP85Misc", "ability_warrior_rampage", "=ds="..AL["Misc"], "=q5="..AL["Level 85"]};
+				{ 25, "PVPMENU3", "inv_belt_13", "=ds="..AL["Old PvP Rewards"], "=q5="};
 			};
 		};
 		info = {
