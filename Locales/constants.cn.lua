@@ -468,6 +468,15 @@ if AL then
 	AL["Armor Enhancements"] = "护甲强化";
 	AL["Weapon Enhancements"] = "武器强化";
 
+	-- Cooking
+	AL["Banquets/Feasts"] = "盛宴/大餐";
+	AL["Way of the Brew"] = "酿造之道";
+	AL["Way of the Grill"] = "烧烤之道";
+	AL["Way of the Oven"] = "烘焙之道";
+	AL["Way of the Pot"] = "炖煮之道";
+	AL["Way of the Steamer"] = "蒸烧之道";
+	AL["Way of the Wok"] = "烹炒之道";
+
 	-- Enchanting
 	AL["Enchant Boots"] = "附魔脚部";
 	AL["Enchant Bracer"] = "附魔护腕";
@@ -617,6 +626,7 @@ if AL then
 	-- Profession descriptions
 	AL["Buff"] = "增益";
 	AL["Agility"] = "敏捷";
+	AL["Attributes"] = "属性";
 	AL["Intellect"] = "智力";
 	AL["Strength"] = "力量";
 	AL["Spirit"] = "精神";

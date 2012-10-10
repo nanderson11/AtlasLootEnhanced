@@ -468,6 +468,15 @@ if AL then
 	AL["Armor Enhancements"] = "護甲附魔";
 	AL["Weapon Enhancements"] = "武器附魔";
 
+	-- Cooking
+	AL["Banquets/Feasts"] = "盛宴/大餐";
+	AL["Way of the Brew"] = "釀酒之道";
+	AL["Way of the Grill"] = "燒烤之道";
+	AL["Way of the Oven"] = "烘烤之道";
+	AL["Way of the Pot"] = "燉煮之道";
+	AL["Way of the Steamer"] = "清蒸之道";
+	AL["Way of the Wok"] = "快炒之道";
+
 	-- Enchanting
 	AL["Enchant Boots"] = "附魔靴子";
 	AL["Enchant Bracer"] = "附魔護腕";
@@ -617,6 +626,7 @@ if AL then
 	-- Profession descriptions
 	AL["Buff"] = "增益";
 	AL["Agility"] = "敏捷";
+	AL["Attributes"] = "屬性";
 	AL["Intellect"] = "智力";
 	AL["Strength"] = "力量";
 	AL["Spirit"] = "精神";
@@ -783,14 +793,14 @@ if AL then
 
 	-- Seventh set
 	AL["Drums of War"] = "戰爭之鼓";
-	--AL["The Red Bearon"] = true;
-	--AL["Owned!"] = true;
-	--AL["Slashdance"] = true;
+	--AL["The Red Bearon"] = "";
+	--AL["Owned!"] = "";
+	--AL["Slashdance"] = "";
 
 	-- Eighth set
 	AL["Blood of Gladiators"] = "鬥士之血";
 	AL["Sandbox Tiger"] = "沙池虎"; -- confirmed
-	--AL["Center of Attention"] = true;
+	--AL["Center of Attention"] = "";
 	AL["Foam Sword Rack"] = "泡沫之劍架"; -- confirmed
 
 	-- Ninth set
