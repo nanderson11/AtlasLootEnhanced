@@ -253,6 +253,8 @@ if AL then
 	AL["ilvl 245"] = "Gegenstandsstufe 245";
 	AL["ilvl 264"] = "Gegenstandsstufe 264";
 	AL["ilvl 397"] = "Gegenstandsstufe 397";
+	AL["ilvl 470"] = "Gegenstandsstufe 470";
+	AL["ilvl 490"] = "Gegenstandsstufe 490";
 	-- AL["Gladiator"] = true;
 	AL["Vengeful"] = "Rachsüchtig";
 	AL["Merciless"] = "Erbarmungslos";
