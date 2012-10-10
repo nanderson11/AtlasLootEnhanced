@@ -6923,6 +6923,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 8, 64893, "", "=q3=Cape of Gilneas", "=ds=#s4#"};
 				{ 9, 64892, "", "=q3=Mantle of Gilneas", "=ds=#s4#"};
 				{ 10, 64894, "", "=q3=Shroud of Gilneas", "=ds=#s4#"};
+				{ 16, 73839, "", "=q4=Swift Mountain Horse", "=ds=#e26#"};
+				{ 17, 73838, "", "=q3=Mountain Horse", "=ds=#e26#"};
 			};
 		};
 		info = {
