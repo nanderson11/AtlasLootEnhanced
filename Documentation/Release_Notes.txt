@@ -5,6 +5,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v7.03.02 (?? ??, 2012)
+Compatible with Patch 5.1.
+
 v7.03.01 (Oct 11, 2012)
 Fixed a nasty bug regarding Atlas.
 Minor fixes, additions and translations.

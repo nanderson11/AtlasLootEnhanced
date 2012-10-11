@@ -4107,15 +4107,16 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 71140, "", "=q3=Nuts' Acorn", "#ACHIEVEMENTID:5876#" },
 				{ 14, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
 				{ 15, 88147, "", "=q3=Singing Cricket Cage", "#ACHIEVEMENTID:6582#"};
-				{ 17, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
-				{ 18, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
+				{ 17, 0, "", "=q3=Red Panda Cub", "#ACHIEVEMENTID:7906#"};
+				{ 18, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
+				{ 19, 85513, "", "=q3=Thundering Serpent Hatchling", "#ACHIEVEMENTID:6634#"};
 				{
-					{ 19, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
-					{ 19, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
+					{ 20, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
+					{ 20, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
 				};
-				{ 20, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
-				{ 21, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },
-				{ 22, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
+				{ 21, 89736, "", "=q3=Venus", "#ACHIEVEMENTID:7501#"};
+				{ 22, 71033, "", "=q1=Lil' Tarecgosa", "#ACHIEVEMENTID:5840#" },
+				{ 23, 60869, "", "=q1=Pebble", "#ACHIEVEMENTID:5449#"};
 			};
 		};
 		info = {
@@ -4376,10 +4377,11 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 2, 70099, "", "=q4=Cenarion Hatchling", "=ds=#e13#"};
-				{ 3, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
-				{ 4, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
-				{ 5, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
-				{ 6, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
+				{ 3, 92707, "", "=q4=Cinder Kitten", "=ds=#e13#"};
+				{ 4, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
+				{ 5, 72068, "", "=q3=Guardian Cub", "=ds=#e13#"};
+				{ 6, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 7, 68385, "", "=q3=Lil' Ragnaros", "=ds=#e13#"};
 				{ 17, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
 				{
 					{ 18, 68619, "", "=q3=Moonkin Hatchling", "=ds=#e13#"};
@@ -4864,30 +4866,34 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 44843, "", "=q4=Blue Dragonhawk", "#ACHIEVEMENTID:2536#, =ec1=#m7#"};
 				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },
 				{ 3, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
-				{ 4, 44842, "", "=q4=Red Dragonhawk", "#ACHIEVEMENTID:2537#, =ec1=#m6#"};
-				{ 5, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
-				{ 6, 90710, "", "=q4=Reins of the Ashen Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 7, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 8, 87769, "", "=q4=Reins of the Crimson Cloud Serpent", "#ACHIEVEMENTID:6927#"};
-				{ 9, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 10, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 11, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 12, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 13, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
-				{ 14, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 15, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 16, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
-				{ 17, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 18, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
-				{ 19, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 20, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
-				{ 21, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{ 23, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
-				{ 24, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
-				{ 25, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
-				{ 26, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
-				{ 27, 70909, "", "=q4=Dreadful War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"},
-				{ 28, 70910, "", "=q4=Dreadful War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"},
+				{
+					{ 4, 91802, "", "=q4=Jade Pandaren Kite String", "#ACHIEVEMENTID:7862#, =ec1=#m6#"};
+					{ 4, 91802, "", "=q4=Jade Pandaren Kite String", "#ACHIEVEMENTID:7860#, =ec1=#m7#"};
+				};
+				{ 5, 44842, "", "=q4=Red Dragonhawk", "#ACHIEVEMENTID:2537#, =ec1=#m6#"};
+				{ 6, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
+				{ 7, 90710, "", "=q4=Reins of the Ashen Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 8, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 9, 87769, "", "=q4=Reins of the Crimson Cloud Serpent", "#ACHIEVEMENTID:6927#"};
+				{ 10, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 11, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 12, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 13, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 14, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
+				{ 15, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 16, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 17, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 18, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 19, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
+				{ 20, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 21, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
+				{ 22, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
+				{ 24, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
+				{ 25, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
+				{ 26, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
+				{ 27, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
+				{ 28, 70909, "", "=q4=Dreadful War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"},
+				{ 29, 70910, "", "=q4=Dreadful War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"},
 			};
 		};
 		info = {
