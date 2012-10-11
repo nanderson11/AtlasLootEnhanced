@@ -404,14 +404,14 @@ function AtlasLoot:Boss_OnClick()
 	--If the loot table was already shown and boss clicked again, hide the loot table and fix boss list icons
 	if self.Selected:IsVisible() then
 		self.Selected:Hide()
-		AtlasMap_Text:Show()
+		--AtlasMap_Text:Show()
 		self.Loot:Show()
 		AtlasLootItemsFrame:Hide()
 		AtlasLootItemsFrame.activeBoss = nil
 	else	
-		if ( AtlasMap_Text:IsShown() ) then
+--[[		if ( AtlasMap_Text:IsShown() ) then
 			AtlasMap_Text:Hide()
-		end
+		end]]
 		--If an loot table is associated with the button, show it.  Note multiple tables need to be checked due to the database structure
 		--if AtlasLoot_LootTableRegister[contentTable][zoneID] and AtlasLoot_LootTableRegister[contentTable][zoneID]["Bosses"] then
 		local LootTable, InfoTable = AtlasLoot:GetBossTableZoneID(zoneID)
