@@ -944,6 +944,7 @@ if AL then
 	-- Specs
 	AL["Balance"] = "平衡";
 	AL["Feral"] = "野性战斗";
+	AL["Guardian"] = "守护";
 	AL["Restoration"] = "回复";
 	AL["Holy"] = "神圣";
 	AL["Discipline"] = "戒律";
@@ -953,13 +954,13 @@ if AL then
 	AL["Elemental"] = "元素";
 	AL["Enhancement"] = "增强";
 	AL["Fury"] = "狂怒";
-	AL["Demonology"] = "恶魔";
+	AL["Demonology"] = "恶魔学识";
 	AL["Destruction"] = "毁灭";
 	AL["Tanking"] = "坦克";
 	AL["DPS"] = "DPS";
 	AL["Mistweaver"] = "织雾";
-	AL["Brewmaster"] = "酿酒";
-	AL["Windwalker"] = "风行";
+	AL["Brewmaster"] = "酒仙";
+	AL["Windwalker"] = "踏风";
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "普通怪物";

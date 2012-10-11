@@ -943,7 +943,8 @@ if AL then
 
 	-- Specs
 	AL["Balance"] = "平衡";
-	AL["Feral"] = "野性";
+	AL["Feral"] = "野性戰鬥";
+	AL["Guardian"] = "守護者";
 	AL["Restoration"] = "恢復";
 	AL["Holy"] = "神聖";
 	AL["Discipline"] = "戒律";
@@ -953,7 +954,7 @@ if AL then
 	AL["Elemental"] = "元素";
 	AL["Enhancement"] = "增強";
 	AL["Fury"] = "狂怒";
-	AL["Demonology"] = "惡魔";
+	AL["Demonology"] = "惡魔學識";
 	AL["Destruction"] = "毀滅";
 	AL["Tanking"] = "防禦型";
 	AL["DPS"] = "傷害型";
