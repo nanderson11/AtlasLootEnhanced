@@ -5,6 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v7.03.01 (Oct 11, 2012)
+Fixed a nasty bug regarding Atlas.
+Minor fixes, additions and translations.
+
 v7.03.00 (Oct 10, 2012)
 Compatible with Atlas 1.22.1.
 Added Ironpaw cooking award items.

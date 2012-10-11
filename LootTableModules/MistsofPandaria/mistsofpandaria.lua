@@ -3129,8 +3129,8 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PVP90Weapons2"] = {
 		["Normal"] = {
 			{
-				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#w13#s, Weapon", "#CONQUEST:2500#" },
-				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#w13#s, Weapon", "#CONQUEST:2500#" },
+				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#w13#", "#CONQUEST:2500#" },
+				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#w13#", "#CONQUEST:2500#" },
 				{ 6, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
 				{ 5, 85133, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
 				{ 4, 85118, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
