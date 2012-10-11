@@ -253,6 +253,8 @@ if AL then
 	AL["ilvl 245"] = "等级245";
 	AL["ilvl 264"] = "等级264";
 	AL["ilvl 397"] = "等级397";
+	AL["ilvl 470"] = "等级470";
+	AL["ilvl 490"] = "等级490";
 	AL["Gladiator"] = "角斗士";
 	AL["Vengeful"] = "复仇";
 	AL["Merciless"] = "残酷";
