@@ -4596,25 +4596,25 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["PVP70DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q1=#m21# #e15#"};
+				{ 1, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q1=#m21# #e15#"};
 				{ 2, 28127, "", "=q4=Gladiator's Dragonhide Helm", "=ds=#s1#", "#HONOR:1000#", ""};
 				{ 3, 28129, "", "=q4=Gladiator's Dragonhide Spaulders", "=ds=#s3#", "#HONOR:750#", ""};
 				{ 4, 28130, "", "=q4=Gladiator's Dragonhide Tunic", "=ds=#s5#", "#HONOR:1000#", ""};
 				{ 5, 28126, "", "=q4=Gladiator's Dragonhide Gloves", "=ds=#s9#", "#HONOR:750#", ""};
 				{ 6, 28128, "", "=q4=Gladiator's Dragonhide Legguards", "=ds=#s11#", "#HONOR:1000#", ""};
-				{ 8, 0, "ability_racial_bearform", "=q6=#arenas1_1#", "=q1=#m22#/#m23# #e15#"};
+				{ 8, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q1=#m22#/#m23# #e15#"};
 				{ 9, 31968, "", "=q4=Merciless Gladiator's Dragonhide Helm", "=ds=#s1#", "#HONOR:1000#", ""};
 				{ 10, 31971, "", "=q4=Merciless Gladiator's Dragonhide Spaulders", "=ds=#s3#", "#HONOR:750#", ""};
 				{ 11, 31972, "", "=q4=Merciless Gladiator's Dragonhide Tunic", "=ds=#s5#", "#HONOR:1000#", ""};
 				{ 12, 31967, "", "=q4=Merciless Gladiator's Dragonhide Gloves", "=ds=#s9#", "#HONOR:750#", ""};
 				{ 13, 31969, "", "=q4=Merciless Gladiator's Dragonhide Legguards", "=ds=#s11#", "#HONOR:1000#", ""};
-				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", ""};
+				{ 16, 0, "ability_druid_catform", "=q6=#arenas1_1#", ""};
 				{ 17, 33672, "", "=q4=Vengeful Gladiator's Dragonhide Helm", "=ds=#s1#", "#HONOR:1000#", ""};
 				{ 18, 33674, "", "=q4=Vengeful Gladiator's Dragonhide Spaulders", "=ds=#s3#", "#HONOR:750#", ""};
 				{ 19, 33675, "", "=q4=Vengeful Gladiator's Dragonhide Tunic", "=ds=#s5#", "#HONOR:1000#", ""};
 				{ 20, 33671, "", "=q4=Vengeful Gladiator's Dragonhide Gloves", "=ds=#s9#", "#HONOR:750#", ""};
 				{ 21, 33673, "", "=q4=Vengeful Gladiator's Dragonhide Legguards", "=ds=#s11#", "#HONOR:1000#", ""};
-				{ 23, 0, "ability_racial_bearform", "=q6=#arenas1_1#", ""};
+				{ 23, 0, "ability_druid_catform", "=q6=#arenas1_1#", ""};
 				{ 24, 34999, "", "=q4=Brutal Gladiator's Dragonhide Helm", "=ds=", "#HONOR:175#", ""};
 				{ 25, 35001, "", "=q4=Brutal Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:140#", ""};
 				{ 26, 35002, "", "=q4=Brutal Gladiator's Dragonhide Tunic", "=ds=", "#HONOR:175#", ""};
@@ -5499,19 +5499,19 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["T456DruidFeral"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#t4s1_1#", "=ec1=#m21#"};
+				{ 1, 0, "ability_druid_catform", "=q6=#t4s1_1#", "=ec1=#m21#"};
 				{ 2, 29098, "", "=q4=Stag-Helm of Malorne", "=ds="..BabbleBoss["Prince Malchezaar"].." ("..BabbleZone["Karazhan"]..")"};
 				{ 3, 29100, "", "=q4=Mantle of Malorne", "=ds="..BabbleBoss["High King Maulgar"]};
 				{ 4, 29096, "", "=q4=Breastplate of Malorne", "=ds="..BabbleBoss["Magtheridon"]};
 				{ 5, 29097, "", "=q4=Gauntlets of Malorne", "=ds="..BabbleBoss["The Curator"].." ("..BabbleZone["Karazhan"]..")"};
 				{ 6, 29099, "", "=q4=Greaves of Malorne", "=ds="..BabbleBoss["Gruul the Dragonkiller"]};
-				{ 8, 0, "ability_racial_bearform", "=q6=#t5s1_1#", "=ec1=#m22#"};
+				{ 8, 0, "ability_druid_catform", "=q6=#t5s1_1#", "=ec1=#m22#"};
 				{ 9, 30228, "", "=q4=Nordrassil Headdress", "=ds="..BabbleBoss["Lady Vashj"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 				{ 10, 30230, "", "=q4=Nordrassil Feral-Mantle", "=ds="..BabbleBoss["Void Reaver"].." ("..BabbleZone["The Eye"]..")"};
 				{ 11, 30222, "", "=q4=Nordrassil Chestplate", "=ds="..BabbleBoss["Kael'thas Sunstrider"].." ("..BabbleZone["The Eye"]..")"};
 				{ 12, 30223, "", "=q4=Nordrassil Handgrips", "=ds="..BabbleBoss["Leotheras the Blind"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
 				{ 13, 30229, "", "=q4=Nordrassil Feral-Kilt", "=ds="..BabbleBoss["Fathom-Lord Karathress"].." ("..BabbleZone["Serpentshrine Cavern"]..")"};
-				{ 16, 0, "ability_racial_bearform", "=q6=#t6s1_1#", "=ec1=#m23#"};
+				{ 16, 0, "ability_druid_catform", "=q6=#t6s1_1#", "=ec1=#m23#"};
 				{ 17, 31039, "", "=q4=Thunderheart Cover", "=ds="..BabbleBoss["Archimonde"].." ("..BabbleZone["Hyjal Summit"]..")"};
 				{ 18, 31048, "", "=q4=Thunderheart Pauldrons", "=ds="..BabbleBoss["Mother Shahraz"].." ("..BabbleZone["Black Temple"]..")"};
 				{ 19, 31042, "", "=q4=Thunderheart Chestguard", "=ds="..BabbleBoss["Illidan Stormrage"].." ("..BabbleZone["Black Temple"]..")"};

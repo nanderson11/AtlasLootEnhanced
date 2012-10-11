@@ -944,6 +944,7 @@ if AL then
 	-- Specs
 	AL["Balance"] = true;
 	AL["Feral"] = true;
+	AL["Guardian"] = true;
 	AL["Restoration"] = true;
 	AL["Holy"] = true;
 	AL["Discipline"] = true;

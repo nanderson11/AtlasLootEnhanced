@@ -944,6 +944,7 @@ if AL then
 	-- Specs
 	AL["Balance"] = "Gleichgewicht";
 	AL["Feral"] = "Wilder Kampf";
+	AL["Guardian"] = "Wächter";
 	AL["Restoration"] = "Wiederherstellung";
 	AL["Holy"] = "Heilig";
 	AL["Discipline"] = "Disziplin";
