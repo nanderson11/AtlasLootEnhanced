@@ -252,6 +252,8 @@ if AL then
 	--AL["ilvl 245"] = true;
 	--AL["ilvl 264"] = true;
 	--AL["ilvl 397"] = true;
+	--AL["ilvl 470"] = true;
+	--AL["ilvl 490"] = true;
 	AL["Gladiator"] = "Gladiateur";
 	AL["Vengeful"] = "Vengeur";
 	AL["Merciless"] = "Impitoyable";
@@ -939,6 +941,7 @@ if AL then
 	-- Specs
 	AL["Balance"] = "Equilibre";
 	AL["Feral"] = "Combat farouche";
+	AL["Guardian"] = "Gardien";
 	AL["Restoration"] = "Restauration";
 	AL["Holy"] = "Sacré";
 	--AL["Discipline"] = true;
