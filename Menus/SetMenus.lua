@@ -184,6 +184,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 25, "MountsAchievement", "inv_mount_allianceliong", "=ds="..AL["Achievement Reward"], ""};
 				{ 26, "MountsCardGame", "ability_mount_bigblizzardbear", "=ds="..AL["Card Game Mounts"], ""};
 				{ 27, "MountsRemoved", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Unobtainable Mounts"], ""};
+				{ 28, "MountsNEW2", "inv_pandarenserpentmount_green", "=ds="..AL["New Mounts"], "=q5=Patch 5.1"};
 			};
 		};
 		info = {
@@ -208,6 +209,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 20, "PetsCardGame", "inv_misc_fish_34", "=ds="..AL["Card Game Companions"], ""};
 				{ 21, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Blizzard Store"], ""};
 				{ 22, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};
+				{ 23, "PetsNEW2", "inv_pet_babycloudserpent", "=ds="..AL["New Companions"], "=q5=Patch 5.1"};
 			};
 		};
 		info = {

@@ -4562,8 +4562,6 @@ local moduleName = "AtlasLootMoP"
 					{ 9, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
 					{ 9, 46767, "", "=q1=Warbot Ignition Key", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
 				};
-				{ 11, 0, "INV_Box_01", "=q6=Unknown", ""};
-				{ 12, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
 				{ 17, 89906, "", "=q2=Magical Mini-Treat", "=ds="};	
 				{ 18, 89139, "", "=q1=Chain Pet Leash", "=ds="};
@@ -4573,6 +4571,61 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AL["New Companions"].." - "..AL["Mists of Pandaria"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsNEW2"] = {
+		["Normal"] = {
+			{
+				{ 1, 92707, "", "=q4=Cinder Kitten", "=ds=#e13#"};
+				{ 2, 91040, "", "=q3=Darkmoon Eye", "=ds=#e13#"};
+				{ 3, 91003, "", "=q3=Darkmoon Hatchling", "=ds=#e13#"};
+				{ 4, 90900, "", "=q2=Imperial Moth", "=ds=#e13#"};
+				{ 5, 90902, "", "=q2=Imperial Silkworm", "=ds=#e13#"};
+				{ 6, 91031, "", "=q1=Darkmoon Glowfly", "=ds=#e13#"};
+				{ 8, 92738, "", "=q3=Safari Hat", "=ds=#s1#"};
+				{ 10, 0, "INV_Box_01", "=q6=Unknown", ""};
+				{ 11, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
+				{ 16, 92742, "", "=q2=Polished Battle-Stone", "=ds=#e18#"};
+				{ 17, 92689, "", "=q2=Polished Aquatic Battle-Stone", "=ds=#e18#"};
+				{ 18, 92685, "", "=q2=Polished Beast Battle-Stone", "=ds=#e18#"};
+				{ 19, 92686, "", "=q2=Polished Critter Battle-Stone", "=ds=#e18#"};
+				{ 20, 92693, "", "=q2=Polished Dragonkin Battle-Stone", "=ds=#e18#"};
+				{ 21, 92684, "", "=q2=Polished Elemental Battle-Stone", "=ds=#e18#"};
+				{ 22, 92687, "", "=q2=Polished Flying Battle-Stone", "=ds=#e18#"};
+				{ 23, 92692, "", "=q2=Polished Humanoid Battle-Stone", "=ds=#e18#"};
+				{ 24, 92688, "", "=q2=Polished Magic Battle-Stone", "=ds=#e18#"};
+				{ 25, 92690, "", "=q2=Polished Mechanical Battle-Stone", "=ds=#e18#"};
+				{ 26, 92691, "", "=q2=Polished Undead Battle-Stone", "=ds=#e18#"};
+			};
+			{
+				{ 1, 92741, "", "=q3=Flawless Battle-Stone", "=ds=#e18#"};
+				{ 2, 92679, "", "=q3=Flawless Aquatic Battle-Stone", "=ds=#e18#"};
+				{ 3, 92675, "", "=q3=Flawless Beast Battle-Stone", "=ds=#e18#"};
+				{ 4, 92676, "", "=q3=Flawless Critter Battle-Stone", "=ds=#e18#"};
+				{ 5, 92683, "", "=q3=Flawless Dragonkin Battle-Stone", "=ds=#e18#"};
+				{ 6, 92665, "", "=q3=Flawless Elemental Battle-Stone", "=ds=#e18#"};
+				{ 7, 92677, "", "=q3=Flawless Flying Battle-Stone", "=ds=#e18#"};
+				{ 8, 92682, "", "=q3=Flawless Humanoid Battle-Stone", "=ds=#e18#"};
+				{ 9, 92678, "", "=q3=Flawless Magic Battle-Stone", "=ds=#e18#"};
+				{ 10, 92680, "", "=q3=Flawless Mechanical Battle-Stone", "=ds=#e18#"};
+				{ 11, 92681, "", "=q3=Flawless Undead Battle-Stone", "=ds=#e18#"};
+				{ 16, 92740, "", "=q4=Perfect Battle-Stone", "=ds=#e18#"};
+				{ 17, 92694, "", "=q4=Perfect Aquatic Battle-Stone", "=ds=#e18#"};
+				{ 18, 92695, "", "=q4=Perfect Beast Battle-Stone", "=ds=#e18#"};
+				{ 19, 92696, "", "=q4=Perfect Critter Battle-Stone", "=ds=#e18#"};
+				{ 20, 92697, "", "=q4=Perfect Dragonkin Battle-Stone", "=ds=#e18#"};
+				{ 21, 92698, "", "=q4=Perfect Elemental Battle-Stone", "=ds=#e18#"};
+				{ 22, 92699, "", "=q4=Perfect Flying Battle-Stone", "=ds=#e18#"};
+				{ 23, 92700, "", "=q4=Perfect Humanoid Battle-Stone", "=ds=#e18#"};
+				{ 24, 92701, "", "=q4=Perfect Magic Battle-Stone", "=ds=#e18#"};
+				{ 25, 92702, "", "=q4=Perfect Mechanical Battle-Stone", "=ds=#e18#"};
+				{ 26, 92703, "", "=q4=Perfect Undead Battle-Stone", "=ds=#e18#"};
+			};
+		};
+		info = {
+			name = AL["New Companions"].." - Patch 5.1",
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -5255,21 +5308,32 @@ local moduleName = "AtlasLootMoP"
 				{ 27, 87250, "", "=q3=Depleted-Kyparium Rocket", "=ds=#e27# =q2=#p5#"};
 				{ 28, 87251, "", "=q3=Geosynchronous World Spinner", "=ds=#e27# =q2=#p5#"};
 			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6=Unknown"};
-				{ 2, 87776, "", "=q4=Reins of the Heavenly Azure Cloud Serpent", "=ds=#e27#", ""};
-				{ 3, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", ""};
-				{ 4, 87775, "", "=q4=Reins of the Heavenly Jade Cloud Serpent", "=ds=#e27#", ""};
-				{ 5, 87784, "", "=q4=Jungle Riding Crane", "=ds=#e26#", ""};
-				{ 6, 87785, "", "=q4=Reins of the Albino Riding Crane", "=ds=#e26#", ""};
-				{ 7, 84728, "", "=q4=Reins of the Crimson Riding Crane", "=ds=#e26#", ""};
-				{ 8, 87786, "", "=q4=Reins of the Black Riding Yak", "=ds=#e26#", ""};
-				{ 9, 87787, "", "=q4=Reins of the Brown Riding Yak", "=ds=#e26#", ""};
-				{ 10, 84753, "", "=q4=Reins of the White Riding Yak", "=ds=#e26#", ""};
-			};
 		};
 		info = {
 			name = AL["New Mounts"].." - "..AL["Mists of Pandaria"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+	
+	AtlasLoot_Data["MountsNEW2"] = {
+		["Normal"] = {
+			{
+				{ 1, 91802, "", "=q4=Jade Pandaren Kite String", "=ds=#e27#"};
+				{ 2, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
+				{ 16, 0, "INV_Box_01", "=q6=Unknown"};
+				{ 17, 87776, "", "=q4=Reins of the Heavenly Azure Cloud Serpent", "=ds=#e27#", ""};
+				{ 18, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", ""};
+				{ 19, 87775, "", "=q4=Reins of the Heavenly Jade Cloud Serpent", "=ds=#e27#", ""};
+				{ 20, 87784, "", "=q4=Jungle Riding Crane", "=ds=#e26#", ""};
+				{ 21, 87785, "", "=q4=Reins of the Albino Riding Crane", "=ds=#e26#", ""};
+				{ 22, 84728, "", "=q4=Reins of the Crimson Riding Crane", "=ds=#e26#", ""};
+				{ 23, 87786, "", "=q4=Reins of the Black Riding Yak", "=ds=#e26#", ""};
+				{ 24, 87787, "", "=q4=Reins of the Brown Riding Yak", "=ds=#e26#", ""};
+				{ 25, 84753, "", "=q4=Reins of the White Riding Yak", "=ds=#e26#", ""};
+			};
+		};
+		info = {
+			name = AL["New Mounts"].." - Patch 5.1",
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
