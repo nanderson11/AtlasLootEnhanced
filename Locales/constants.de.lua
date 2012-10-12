@@ -255,10 +255,13 @@ if AL then
 	AL["ilvl 397"] = "Gegenstandsstufe 397";
 	AL["ilvl 470"] = "Gegenstandsstufe 470";
 	AL["ilvl 490"] = "Gegenstandsstufe 490";
+	AL["Grand Marshal"] = "Großmarschall";
 	-- AL["Gladiator"] = true;
 	AL["Vengeful"] = "Rachsüchtig";
 	AL["Merciless"] = "Erbarmungslos";
 	-- AL["Brutal"] = true;
+	AL["Wrathful"] = "Zornerfüllt";
+	AL["Cataclysmic"] = "Kataklysmisch";
 
 	-- #######################################
 	-- UI things END
@@ -355,6 +358,7 @@ if AL then
 	AL["BoE World Epics"] = "Epische Weltdrops (BoE)";
 	AL["Legendary Items"] = "Legendäre Gegenstände";
 	AL["Misc Sets"] = "Sets (Sonstige)";
+	-- AL["Tier Sets"] = true;
 	-- AL["Tier 1/2 Set"] = true;
 	-- AL["Tier 1/2/3 Set"] = true;
 	-- AL["Tier 3 Set"] = true;
