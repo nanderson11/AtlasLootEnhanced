@@ -1069,7 +1069,7 @@ local moduleName = "AtlasLootClassicWoW"
 	};
 
 	AtlasLoot_Data["BRDPrincess"] = {
-        ["Normal"] = {
+		["Normal"] = {
 			{
 				{ 1, 12554, "", "=q3=Hands of the Exalted Herald", "=ds=#s9#, #a1#", "", "25%"};
 				{ 2, 12556, "", "=q3=High Priestess Boots", "=ds=#s12#, #a1#", "", "25%"};
@@ -1912,7 +1912,7 @@ local moduleName = "AtlasLootClassicWoW"
 		---------------------------------------
 
 	AtlasLoot_Data["MCLucifron"] = {
-        ["Normal"] = {
+		["Normal"] = {
 			{
 				{ 1, 18872, "", "=q4=Manastorm Leggings", "=ds=#s11#, #a1#", "", "1.93%"};
 				{ 2, 19145, "", "=q4=Robe of Volatile Power", "=ds=#s5#, #a1#", "", "1.84%"};
@@ -4338,7 +4338,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-    		------------------
+		------------------
 		--- Zul'Farrak ---
 		------------------
 
@@ -4402,7 +4402,7 @@ local moduleName = "AtlasLootClassicWoW"
 	};
 
 	AtlasLoot_Data["ZFAntusul"] = {
-        	["Normal"] = {
+		["Normal"] = {
 			{
 				{ 1, 9640, "", "=q3=Vice Grips", "=ds=#s9#, #a4#", "", "31.30%"};
 				{ 2, 9641, "", "=q3=Lifeblood Amulet", "=ds=#s2#", "", "30.80%"};
@@ -6428,56 +6428,56 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["PVP60Weapons"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 18843, "", "=q4=Grand Marshal's Right Hand Blade", "=ds=#h3#, #w13#", "#HONOR:185#", ""};
+				{ 1, 18843, "", "=q4=Grand Marshal's Right Hand Blade", "=ds=#h1#, #w13#", "#HONOR:185#", ""};
 				{ 2, 18847, "", "=q4=Grand Marshal's Left Hand Blade", "=ds=#h4#, #w13#", "#HONOR:185#", ""};
-				{ 3, 23451, "", "=q4=Grand Marshal's Mageblade", "=ds=#h3#, #w4#", "#HONOR:185#", ""};
-				{ 4, 18838, "", "=q4=Grand Marshal's Dirk", "=ds=#h1#, #w4#", "#HONOR:185#", ""};
-				{ 5, 12584, "", "=q4=Grand Marshal's Longsword", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
-				{ 6, 23456, "", "=q4=Grand Marshal's Swiftblade", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
-				{ 7, 18876, "", "=q4=Grand Marshal's Claymore", "=ds=#h2#, #w10#", "#HONOR:290#", ""};
-				{ 8, 18827, "", "=q4=Grand Marshal's Handaxe", "=ds=#h1#, #w1#", "#HONOR:185#", ""};
-				{ 9, 18830, "", "=q4=Grand Marshal's Sunderer", "=ds=#h2#, #w1#", "#HONOR:290#", ""};
-				{ 10, 23454, "", "=q4=Grand Marshal's Warhammer", "=ds=#h3#, #w6#", "#HONOR:185#", ""};
-				{ 11, 18865, "", "=q4=Grand Marshal's Punisher", "=ds=#h1#, #w6#", "#HONOR:185#", ""};
-				{ 12, 18867, "", "=q4=Grand Marshal's Battle Hammer", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
-				{ 13, 23455, "", "=q4=Grand Marshal's Demolisher", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
-				{ 14, 18869, "", "=q4=Grand Marshal's Glaive", "=ds=#w7#", "#HONOR:290#", ""};
-				{ 15, 18873, "", "=q4=Grand Marshal's Stave", "=ds=#w9#", "#HONOR:290#", ""};
-				{ 16, 18825, "", "=q4=Grand Marshal's Aegis", "=ds=#w8#", "#HONOR:185#", ""};
-				{ 17, 18833, "", "=q4=Grand Marshal's Bullseye", "=ds=#w2#", "#HONOR:185#", ""};
-				{ 18, 18836, "", "=q4=Grand Marshal's Repeater", "=ds=#w3#", "#HONOR:185#", ""};
-				{ 19, 18855, "", "=q4=Grand Marshal's Hand Cannon", "=ds=#w5#", "#HONOR:185#", ""};
-				{ 20, 23452, "", "=q4=Grand Marshal's Tome of Power", "=ds=#s15#", "#HONOR:185#", ""};
-				{ 21, 23453, "", "=q4=Grand Marshal's Tome of Restoration", "=ds=#s15#", "#HONOR:185#", ""};
+				{ 4, 23451, "", "=q4=Grand Marshal's Mageblade", "=ds=#h3#, #w4#", "#HONOR:185#", ""};
+				{ 5, 18838, "", "=q4=Grand Marshal's Dirk", "=ds=#h1#, #w4#", "#HONOR:185#", ""};
+				{ 7, 12584, "", "=q4=Grand Marshal's Longsword", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
+				{ 8, 23456, "", "=q4=Grand Marshal's Swiftblade", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
+				{ 10, 18827, "", "=q4=Grand Marshal's Handaxe", "=ds=#h1#, #w1#", "#HONOR:185#", ""};
+				{ 12, 23454, "", "=q4=Grand Marshal's Warhammer", "=ds=#h3#, #w6#", "#HONOR:185#", ""};
+				{ 13, 18865, "", "=q4=Grand Marshal's Punisher", "=ds=#h1#, #w6#", "#HONOR:185#", ""};
+				{ 15, 18869, "", "=q4=Grand Marshal's Glaive", "=ds=#w7#", "#HONOR:290#", ""};				
+				{ 16, 18876, "", "=q4=Grand Marshal's Claymore", "=ds=#h2#, #w10#", "#HONOR:290#", ""};
+				{ 17, 18830, "", "=q4=Grand Marshal's Sunderer", "=ds=#h2#, #w1#", "#HONOR:290#", ""};
+				{ 18, 18867, "", "=q4=Grand Marshal's Battle Hammer", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
+				{ 19, 23455, "", "=q4=Grand Marshal's Demolisher", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
+				{ 21, 18873, "", "=q4=Grand Marshal's Stave", "=ds=#w9#", "#HONOR:290#", ""};
+				{ 23, 18825, "", "=q4=Grand Marshal's Aegis", "=ds=#w8#", "#HONOR:185#", ""};
+				{ 25, 18833, "", "=q4=Grand Marshal's Bullseye", "=ds=#w2#", "#HONOR:185#", ""};
+				{ 26, 18836, "", "=q4=Grand Marshal's Repeater", "=ds=#w3#", "#HONOR:185#", ""};
+				{ 27, 18855, "", "=q4=Grand Marshal's Hand Cannon", "=ds=#w5#", "#HONOR:185#", ""};
+				{ 29, 23452, "", "=q4=Grand Marshal's Tome of Power", "=ds=#s15#", "#HONOR:185#", ""};
+				{ 30, 23453, "", "=q4=Grand Marshal's Tome of Restoration", "=ds=#s15#", "#HONOR:185#", ""};
 			};
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 18844, "", "=q4=High Warlord's Right Claw", "=ds=#h3#, #w13#", "#HONOR:185#", ""};
+				{ 1, 18844, "", "=q4=High Warlord's Right Claw", "=ds=#h1#, #w13#", "#HONOR:185#", ""};
 				{ 2, 18848, "", "=q4=High Warlord's Left Claw", "=ds=#h4#, #w13#", "#HONOR:185#", ""};
-				{ 3, 23466, "", "=q4=High Warlord's Spellblade", "=ds=#h3#, #w4#", "#HONOR:185#", ""};
-				{ 4, 18840, "", "=q4=High Warlord's Razor", "=ds=#h1#, #w4#", "#HONOR:185#", ""};
-				{ 5, 16345, "", "=q4=High Warlord's Blade", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
-				{ 6, 23467, "", "=q4=High Warlord's Quickblade", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
-				{ 7, 18877, "", "=q4=High Warlord's Greatsword", "=ds=#h2#, #w10#", "#HONOR:290#", ""};
-				{ 8, 18828, "", "=q4=High Warlord's Cleaver", "=ds=#h1#, #w1#", "#HONOR:185#", ""};
-				{ 9, 18831, "", "=q4=High Warlord's Battle Axe", "=ds=#h2#, #w1#", "#HONOR:290#", ""};
-				{ 10, 23464, "", "=q4=High Warlord's Battle Mace", "=ds=#h3#, #w6#", "#HONOR:185#", ""};
-				{ 11, 18866, "", "=q4=High Warlord's Bludgeon", "=ds=#h1#, #w6#", "#HONOR:185#", ""};
-				{ 12, 18868, "", "=q4=High Warlord's Pulverizer", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
-				{ 13, 23465, "", "=q4=High Warlord's Destroyer", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
-				{ 14, 18871, "", "=q4=High Warlord's Pig Sticker", "=ds=#w7#", "#HONOR:290#", ""};
-				{ 15, 18874, "", "=q4=High Warlord's War Staff", "=ds=#w9#", "#HONOR:290#", ""};
-				{ 16, 18826, "", "=q4=High Warlord's Shield Wall", "=ds=#w8#", "#HONOR:185#", ""};
-				{ 17, 18835, "", "=q4=High Warlord's Recurve", "=ds=#w2#", "#HONOR:185#", ""};
-				{ 18, 18837, "", "=q4=High Warlord's Crossbow", "=ds=#w3#", "#HONOR:185#", ""};
-				{ 19, 18860, "", "=q4=High Warlord's Street Sweeper", "=ds=#w5#", "#HONOR:185#", ""};
-				{ 20, 23468, "", "=q4=High Warlord's Tome of Destruction", "=ds=#s15#", "#HONOR:185#", ""};
-				{ 21, 23469, "", "=q4=High Warlord's Tome of Mending", "=ds=#s15#", "#HONOR:185#", ""};
+				{ 4, 23466, "", "=q4=High Warlord's Spellblade", "=ds=#h3#, #w4#", "#HONOR:185#", ""};
+				{ 5, 18840, "", "=q4=High Warlord's Razor", "=ds=#h1#, #w4#", "#HONOR:185#", ""};
+				{ 7, 16345, "", "=q4=High Warlord's Blade", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
+				{ 8, 23467, "", "=q4=High Warlord's Quickblade", "=ds=#h1#, #w10#", "#HONOR:185#", ""};
+				{ 10, 18828, "", "=q4=High Warlord's Cleaver", "=ds=#h1#, #w1#", "#HONOR:185#", ""};
+				{ 12, 23464, "", "=q4=High Warlord's Battle Mace", "=ds=#h3#, #w6#", "#HONOR:185#", ""};
+				{ 13, 18866, "", "=q4=High Warlord's Bludgeon", "=ds=#h1#, #w6#", "#HONOR:185#", ""};
+				{ 15, 18871, "", "=q4=High Warlord's Pig Sticker", "=ds=#w7#", "#HONOR:290#", ""};
+				{ 16, 18877, "", "=q4=High Warlord's Greatsword", "=ds=#h2#, #w10#", "#HONOR:290#", ""};
+				{ 17, 18831, "", "=q4=High Warlord's Battle Axe", "=ds=#h2#, #w1#", "#HONOR:290#", ""};
+				{ 18, 18868, "", "=q4=High Warlord's Pulverizer", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
+				{ 19, 23465, "", "=q4=High Warlord's Destroyer", "=ds=#h2#, #w6#", "#HONOR:290#", ""};
+				{ 21, 18874, "", "=q4=High Warlord's War Staff", "=ds=#w9#", "#HONOR:290#", ""};
+				{ 23, 18826, "", "=q4=High Warlord's Shield Wall", "=ds=#w8#", "#HONOR:185#", ""};
+				{ 25, 18835, "", "=q4=High Warlord's Recurve", "=ds=#w2#", "#HONOR:185#", ""};
+				{ 26, 18837, "", "=q4=High Warlord's Crossbow", "=ds=#w3#", "#HONOR:185#", ""};
+				{ 27, 18860, "", "=q4=High Warlord's Street Sweeper", "=ds=#w5#", "#HONOR:185#", ""};
+				{ 29, 23468, "", "=q4=High Warlord's Tome of Destruction", "=ds=#s15#", "#HONOR:185#", ""};
+				{ 30, 23469, "", "=q4=High Warlord's Tome of Mending", "=ds=#s15#", "#HONOR:185#", ""};
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"].." "..AL["Level 60"],
+			name = AL["PvP Weapons"].." "..AL["Level 60"].." - "..AL["Grand Marshal"],
 			module = moduleName, menu = "PVPMENU3",
 		};
 	}

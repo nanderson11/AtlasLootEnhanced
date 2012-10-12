@@ -62,7 +62,7 @@ local moduleName = "AtlasLootWotLK"
 --- PvP
 ---- Armor Sets
 ---- Level 80 Epic Non-Sets
----- Level 80 PVP Weapons
+---- Level 80 PvP Weapons
 ---- World PvP - Wintergrasp
 ---- World PvP - Grizzly Hills: Venture Bay
 --- Sets & Collections
@@ -8652,7 +8652,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["PvP Accessories"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 
@@ -8743,19 +8743,19 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["PvP Non-Set Epics"],
-			module = moduleName, menu = "PVPMENU",
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 
-		------------------------
-		--- Level 80 Weapons ---
-		------------------------
+		----------------------------
+		--- Level 80 PvP Weapons ---
+		----------------------------
 
 	AtlasLoot_Data["PVP80Weapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 51530, "", "=q4=Wrathful Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:760#"};
-				{ 2, 51523, "", "=q4=Wrathful Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:1785#"};
+				{ 1, 51523, "", "=q4=Wrathful Gladiator's Right Ripper", "=ds=#h1#, #w13#", "#HONOR:1785#"};
+				{ 2, 51530, "", "=q4=Wrathful Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:760#"};
 				{ 3, 51443, "", "=q4=Wrathful Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:760#"};
 				{ 5, 51406, "", "=q4=Wrathful Gladiator's Blade of Alacrity", "=ds=#h3#, #w4#", "#HONOR:1830#"};
 				{ 6, 51397, "", "=q4=Wrathful Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:1830#"};
@@ -8798,8 +8798,8 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AL["PvP Weapons"], "=q5="..AL["Level 80"],
-			module = moduleName, menu = "PVPMENU",
+			name = AL["PvP Weapons"].." "..AL["Level 80"].." - "..AL["Wrathful"],
+			module = moduleName, menu = "PVPMENU3",
 		};
 	}
 

@@ -4482,24 +4482,24 @@ local moduleName = "AtlasLootBurningCrusade"
 	AtlasLoot_Data["PVP70Accessories"] = {
 		["Normal"] = {
 			{
-				{ 1, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=", "#HONOR:90#"};
-				{ 2, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=", "#HONOR:90#"};
-				{ 3, 41592, "", "=q4=The Gladiator's Resolution", "=ds=", "#HONOR:90#"};
-				{ 4, 44429, "", "=q4=Volanthius Shroud", "=ds=", "#HONOR:90#"};
-				{ 6, 25829, "", "=q4=Talisman of the Alliance", "=ds=", "#HONOR:120#"};
-				{ 7, 69861, "", "=q3=Medallion of the Alliance", "=ds=", "#HONOR:100#"};
-				{ 9, 24551, "", "=q4=Talisman of the Horde", "=ds=", "#HONOR:120#"};
-				{ 10, 69862, "", "=q3=Medallion of the Horde", "=ds=", "#HONOR:100#"};
-				{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=", "#HONOR:90#"};
-				{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=", "#HONOR:90#"};
-				{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=", "#HONOR:90#"};
-				{ 19, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=", "#HONOR:90#"};
-				{ 20, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=", "#HONOR:90#"};
-				{ 21, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=", "#HONOR:90#"};
-				{ 23, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=", "#HONOR:75#"};
-				{ 24, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=", "#HONOR:75#"};
-				{ 25, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=", "#HONOR:75#"};
-				{ 26, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=", "#HONOR:75#"};
+				{ 1, 44431, "", "=q4=Cloak of Certain Reprieve", "=ds=#s4#", "#HONOR:90#"};
+				{ 2, 41591, "", "=q4=Sergeant's Reinforced Cape", "=ds=#s4#", "#HONOR:90#"};
+				{ 3, 41592, "", "=q4=The Gladiator's Resolution", "=ds=#s4#", "#HONOR:90#"};
+				{ 4, 44429, "", "=q4=Volanthius Shroud", "=ds=#s4#", "#HONOR:90#"};
+				{ 6, 25829, "", "=q4=Talisman of the Alliance", "=ds=#s14#", "#HONOR:120#"};
+				{ 7, 69861, "", "=q3=Medallion of the Alliance", "=ds=#s14#", "#HONOR:100#"};
+				{ 9, 24551, "", "=q4=Talisman of the Horde", "=ds=#s14#", "#HONOR:120#"};
+				{ 10, 69862, "", "=q3=Medallion of the Horde", "=ds=#s14#", "#HONOR:100#"};
+				{ 16, 35132, "", "=q4=Guardian's Pendant of Conquest", "=ds=#s2#", "#HONOR:90#"};
+				{ 17, 35133, "", "=q4=Guardian's Pendant of Dominance", "=ds=#s2#", "#HONOR:90#"};
+				{ 18, 37929, "", "=q4=Guardian's Pendant of Reprieve", "=ds=#s2#", "#HONOR:90#"};
+				{ 19, 35134, "", "=q4=Guardian's Pendant of Salvation", "=ds=#s2#", "#HONOR:90#"};
+				{ 20, 37928, "", "=q4=Guardian's Pendant of Subjugation", "=ds=#s2#", "#HONOR:90#"};
+				{ 21, 35135, "", "=q4=Guardian's Pendant of Triumph", "=ds=#s2#", "#HONOR:90#"};
+				{ 23, 35129, "", "=q4=Guardian's Band of Dominance", "=ds=#s13#", "#HONOR:75#"};
+				{ 24, 35130, "", "=q4=Guardian's Band of Salvation", "=ds=#s13#", "#HONOR:75#"};
+				{ 25, 37927, "", "=q4=Guardian's Band of Subjugation", "=ds=#s13#", "#HONOR:75#"};
+				{ 26, 35131, "", "=q4=Guardian's Band of Triumph", "=ds=#s13#", "#HONOR:75#"};
 			};
 		};
 		info = {
@@ -5192,83 +5192,35 @@ local moduleName = "AtlasLootBurningCrusade"
 		--- PvP Level 70 Weapons ---
 		----------------------------
 
-	AtlasLoot_Data["PVP70Weapons"] = {
+	AtlasLoot_Data["PVP70GladiatorWeapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 35076, "", "=q4=Brutal Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:245#", ""};
-				{ 2, 35038, "", "=q4=Brutal Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:105#", ""};
-				{ 3, 35037, "", "=q4=Brutal Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:105#", ""};
-				{ 4, 35102, "", "=q4=Brutal Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:245#", ""};
-				{ 5, 35093, "", "=q4=Brutal Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:245#", ""};
-				{ 6, 35058, "", "=q4=Brutal Gladiator's Mutilator", "=ds=#h4#, #w4#", "#HONOR:105#", ""};
-				{ 7, 35095, "", "=q4=Brutal Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:105#", ""};
-				{ 8, 35101, "", "=q4=Brutal Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:245#", ""};
-				{ 9, 35072, "", "=q4=Brutal Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:105#", ""};
-				{ 10, 35015, "", "=q4=Brutal Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:350#", ""};
-				{ 11, 34996, "", "=q4=Brutal Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:245#", ""};
-				{ 12, 34995, "", "=q4=Brutal Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:105#", ""};
-				{ 13, 36737, "", "=q4=Brutal Gladiator's Hatchet", "=ds=#h4#, #w1#", "#HONOR:555#", ""};
-				{ 14, 35017, "", "=q4=Brutal Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:105#", ""};
-				{ 15, 34997, "", "=q4=Brutal Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:350#", ""};
-				{ 16, 35110, "", "=q4=Brutal Gladiator's Waraxe", "=ds=#h3#, #w1#", "#HONOR:555#", ""};
-				{ 17, 35014, "", "=q4=Brutal Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:245#", ""};
-				{ 18, 35082, "", "=q4=Brutal Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:245#", ""};
-				{ 19, 35071, "", "=q4=Brutal Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:245#", ""};
-				{ 20, 34988, "", "=q4=Brutal Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:245#", ""};
-				{ 21, 34989, "", "=q4=Brutal Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:350#", ""};
-				{ 22, 35064, "", "=q4=Brutal Gladiator's Painsaw", "=ds=#w7#", "#HONOR:350#", ""};
-				{ 23, 34987, "", "=q4=Brutal Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:350#", ""};
-				{ 24, 35103, "", "=q4=Brutal Gladiator's Staff", "=ds=#w9#", "#HONOR:350#", ""};
-				{ 25, 35109, "", "=q4=Brutal Gladiator's War Staff", "=ds=#w9#", "#HONOR:350#", ""};
+				{ 1, 28313, "", "=q4=Gladiator's Right Ripper", "=ds=#h1#, #w13#", "#HONOR:750#" },
+				{ 2, 28314, "", "=q4=Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:750#" },
+				{ 4, 28297, "", "=q4=Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
+				{ 5, 28312, "", "=q4=Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
+				{ 6, 28310, "", "=q4=Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
+				{ 8, 28295, "", "=q4=Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
+				{ 9, 28307, "", "=q4=Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
+				{ 11, 28308, "", "=q4=Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
+				{ 12, 28309, "", "=q4=Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
+				{ 14, 32450, "", "=q4=Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
+				{ 15, 32451, "", "=q4=Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
+				{ 16, 28305, "", "=q4=Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
+				{ 17, 28302, "", "=q4=Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
+				{ 19, 24550, "", "=q4=Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
+				{ 20, 28298, "", "=q4=Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+				{ 21, 28299, "", "=q4=Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+				{ 22, 28476, "", "=q4=Gladiator's Maul", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+				{ 24, 28300, "", "=q4=Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
+				{ 26, 24557, "", "=q4=Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
 			};
 			{
-				{ 1, 34986, "", "=q4=Brutal Gladiator's Barrier", "=ds=#w8#", "#HONOR:175#", ""};
-				{ 2, 35073, "", "=q4=Brutal Gladiator's Redoubt", "=ds=#w8#", "#HONOR:175#", ""};
-				{ 3, 35094, "", "=q4=Brutal Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:175#", ""};
-				{ 4, 35047, "", "=q4=Brutal Gladiator's Longbow", "=ds=#w2#", "#HONOR:350#", ""};
-				{ 5, 35018, "", "=q4=Brutal Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:350#", ""};
-				{ 6, 35075, "", "=q4=Brutal Gladiator's Rifle", "=ds=#w5#", "#HONOR:350#", ""};
-				{ 16, 34985, "", "=q4=Brutal Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:95#", ""};
-				{ 17, 35065, "", "=q4=Brutal Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:95#", ""};
-				{ 18, 35107, "", "=q4=Brutal Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:95#", ""};
-				{ 19, 35008, "", "=q4=Brutal Gladiator's Endgame", "=ds=#s15#", "#HONOR:105#", ""};
-				{ 20, 35016, "", "=q4=Brutal Gladiator's Grimoire", "=ds=#s15#", "#HONOR:105#", ""};
-				{ 21, 35074, "", "=q4=Brutal Gladiator's Reprieve", "=ds=#s15#", "#HONOR:105#", ""};
-			};
-		};
-		info = {
-			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Brutal"],
-			module = moduleName, menu = "PVPMENU3",
-		};
-	}
-
-	AtlasLoot_Data["PVPGladiatorWeapons"] = {
-		["Normal"] = {
-			{
-    			{ 1, 28313, "", "=q4=Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
-    			{ 2, 28314, "", "=q4=Gladiator's Left Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
-    			{ 3, 28297, "", "=q4=Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
-    			{ 4, 28312, "", "=q4=Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
-    			{ 5, 28310, "", "=q4=Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
-    			{ 6, 28295, "", "=q4=Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
-    			{ 7, 28307, "", "=q4=Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
-    			{ 8, 24550, "", "=q4=Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
-    			{ 9, 28308, "", "=q4=Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
-    			{ 10, 28309, "", "=q4=Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
-    			{ 11, 28298, "", "=q4=Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
-    			{ 12, 32450, "", "=q4=Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
-    			{ 13, 32451, "", "=q4=Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
-    			{ 14, 28305, "", "=q4=Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
-    			{ 15, 28302, "", "=q4=Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
-    			{ 16, 28299, "", "=q4=Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
-    			{ 17, 28476, "", "=q4=Gladiator's Maul", "=ds=#h2#, #w6#", "#HONOR:1500#" },
-    			{ 18, 28300, "", "=q4=Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
-    			{ 19, 24557, "", "=q4=Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
-    			{ 20, 28358, "", "=q4=Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
-    			{ 21, 28294, "", "=q4=Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
-    			{ 22, 28320, "", "=q4=Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
-    			{ 24, 28346, "", "=q4=Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
-    			{ 25, 32452, "", "=q4=Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+				{ 1, 28358, "", "=q4=Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
+				{ 3, 28294, "", "=q4=Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
+				{ 5, 28320, "", "=q4=Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+				{ 16, 28346, "", "=q4=Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+				{ 17, 32452, "", "=q4=Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
 			};
 		};
 		info = {
@@ -5277,34 +5229,36 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 	}
 
-	AtlasLoot_Data["PVPMercilessWeapons"] = {
+	AtlasLoot_Data["PVP70MercilessWeapons"] = {
 		["Normal"] = {
 			{
-    			{ 1, 32028, "", "=q4=Merciless Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
-    			{ 2, 32003, "", "=q4=Merciless Gladiator's Left Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
-    			{ 3, 32053, "", "=q4=Merciless Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
-    			{ 4, 32044, "", "=q4=Merciless Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
-    			{ 5, 32046, "", "=q4=Merciless Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
-    			{ 6, 32052, "", "=q4=Merciless Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
-    			{ 7, 32027, "", "=q4=Merciless Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
-    			{ 8, 31984, "", "=q4=Merciless Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
-    			{ 9, 31965, "", "=q4=Merciless Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
-    			{ 10, 31985, "", "=q4=Merciless Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
-    			{ 11, 31966, "", "=q4=Merciless Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
-    			{ 12, 32963, "", "=q4=Merciless Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
-    			{ 13, 32964, "", "=q4=Merciless Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
-    			{ 14, 32026, "", "=q4=Merciless Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
-    			{ 15, 31958, "", "=q4=Merciless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
-    			{ 16, 31959, "", "=q4=Merciless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
-    			{ 17, 32014, "", "=q4=Merciless Gladiator's Maul", "=ds=#h2#, #w6#", "#HONOR:1500#" },
-    			{ 18, 32025, "", "=q4=Merciless Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
-    			{ 19, 32055, "", "=q4=Merciless Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
-    			{ 20, 33313, "", "=q4=Merciless Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
-    			{ 21, 32045, "", "=q4=Merciless Gladiator's Shield Wall", "=ds=#w8#s", "#HONOR:750#" },
-    			{ 22, 31986, "", "=q4=Merciless Gladiator's Crossbow of the Phoenix", "=ds=#w3#", "#HONOR:750#" },
-    			{ 23, 32962, "", "=q4=Merciless Gladiator's Touch of Defeat", "=ds=#w12#, Weapon", "#HONOR:750#" },
-    			{ 25, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
-    			{ 26, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+				{ 1, 32028, "", "=q4=Merciless Gladiator's Right Ripper", "=ds=#h1#, #w13#", "#HONOR:750#" },
+				{ 2, 32003, "", "=q4=Merciless Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:750#" },
+				{ 4, 32053, "", "=q4=Merciless Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
+				{ 5, 32044, "", "=q4=Merciless Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
+				{ 6, 32046, "", "=q4=Merciless Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
+				{ 8, 32052, "", "=q4=Merciless Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
+				{ 9, 32027, "", "=q4=Merciless Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
+				{ 11, 31965, "", "=q4=Merciless Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
+				{ 12, 31985, "", "=q4=Merciless Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
+				{ 14, 32963, "", "=q4=Merciless Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
+				{ 15, 32964, "", "=q4=Merciless Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
+				{ 16, 32026, "", "=q4=Merciless Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
+				{ 17, 31958, "", "=q4=Merciless Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
+				{ 19, 31984, "", "=q4=Merciless Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
+				{ 20, 31966, "", "=q4=Merciless Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+				{ 21, 31959, "", "=q4=Merciless Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+				{ 22, 32014, "", "=q4=Merciless Gladiator's Maul", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+				{ 24, 32025, "", "=q4=Merciless Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
+				{ 26, 32055, "", "=q4=Merciless Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
+			};
+			{
+				{ 1, 33313, "", "=q4=Merciless Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
+				{ 2, 32045, "", "=q4=Merciless Gladiator's Shield Wall", "=ds=#w8#s", "#HONOR:750#" },
+				{ 4, 31986, "", "=q4=Merciless Gladiator's Crossbow of the Phoenix", "=ds=#w3#", "#HONOR:750#" },
+				{ 16, 32962, "", "=q4=Merciless Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+				{ 18, 31978, "", "=q4=Merciless Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+				{ 19, 32961, "", "=q4=Merciless Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
 			};
 		};
 		info = {
@@ -5313,51 +5267,101 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 	}
 
-	AtlasLoot_Data["PVPVengefulWeapons"] = {
+	AtlasLoot_Data["PVP70VengefulWeapons"] = {
 		["Normal"] = {
 			{
-    			{ 1, 33737, "", "=q4=Vengeful Gladiator's Right Ripper", "=ds=#h3#, #w13#", "#HONOR:750#" },
-    			{ 2, 33705, "", "=q4=Vengeful Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:750#" },
-    			{ 3, 34016, "", "=q4=Vengeful Gladiator's Left Render", "=ds=#h4#, #w13#, Weapon", "#HONOR:750#" },
-    			{ 4, 33763, "", "=q4=Vengeful Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
-    			{ 5, 33754, "", "=q4=Vengeful Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
-    			{ 6, 33801, "", "=q4=Vengeful Gladiator's Mutilator", "=ds=#h4#, #w4#", "#HONOR:750#" },
-    			{ 7, 33756, "", "=q4=Vengeful Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
-    			{ 8, 33762, "", "=q4=Vengeful Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
-    			{ 9, 33734, "", "=q4=Vengeful Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
-    			{ 10, 33688, "", "=q4=Vengeful Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
-    			{ 11, 33669, "", "=q4=Vengeful Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
-    			{ 12, 34015, "", "=q4=Vengeful Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:750#" },
-    			{ 13, 33689, "", "=q4=Vengeful Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
-    			{ 14, 33670, "", "=q4=Vengeful Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
-    			{ 15, 34014, "", "=q4=Vengeful Gladiator's Waraxe", "=ds=#h3#, #w1#", "#HONOR:1500#" },
-    			{ 16, 33687, "", "=q4=Vengeful Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
-    			{ 17, 33743, "", "=q4=Vengeful Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
-    			{ 18, 33733, "", "=q4=Vengeful Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
-    			{ 19, 33662, "", "=q4=Vengeful Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
-    			{ 20, 33663, "", "=q4=Vengeful Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
-    			{ 21, 33727, "", "=q4=Vengeful Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
-    			{ 22, 34540, "", "=q4=Vengeful Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:1500#" },
-    			{ 23, 33716, "", "=q4=Vengeful Gladiator's Staff", "=ds=#w9#", "#HONOR:1500#" },
-    			{ 24, 33766, "", "=q4=Vengeful Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
+				{ 1, 33737, "", "=q4=Vengeful Gladiator's Right Ripper", "=ds=#h1#, #w13#", "#HONOR:750#" },
+				{ 2, 33705, "", "=q4=Vengeful Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:750#" },
+				{ 3, 34016, "", "=q4=Vengeful Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:750#" },
+				{ 5, 33763, "", "=q4=Vengeful Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:750#" },
+				{ 6, 33754, "", "=q4=Vengeful Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:750#" },
+				{ 7, 33801, "", "=q4=Vengeful Gladiator's Mutilator", "=ds=#h4#, #w4#", "#HONOR:750#" },
+				{ 8, 33756, "", "=q4=Vengeful Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:750#" },
+				{ 10, 33762, "", "=q4=Vengeful Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:750#" },
+				{ 11, 33734, "", "=q4=Vengeful Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:750#" },
+				{ 13, 33669, "", "=q4=Vengeful Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:750#" },
+				{ 14, 34015, "", "=q4=Vengeful Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:750#" },
+				{ 15, 33689, "", "=q4=Vengeful Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:750#" },
+				{ 16, 33687, "", "=q4=Vengeful Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:750#" },
+				{ 17, 33743, "", "=q4=Vengeful Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:750#" },
+				{ 18, 33733, "", "=q4=Vengeful Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:750#" },
+				{ 19, 33662, "", "=q4=Vengeful Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:750#" },
+				{ 21, 33688, "", "=q4=Vengeful Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:1500#" },
+				{ 22, 33670, "", "=q4=Vengeful Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+				{ 23, 34014, "", "=q4=Vengeful Gladiator's Waraxe", "=ds=#h2#, #w1#", "#HONOR:1500#" },
+				{ 24, 33663, "", "=q4=Vengeful Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:1500#" },
+				{ 26, 33727, "", "=q4=Vengeful Gladiator's Painsaw", "=ds=#w7#", "#HONOR:1500#" },
+				{ 28, 34540, "", "=q4=Vengeful Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:1500#" },
+				{ 29, 33716, "", "=q4=Vengeful Gladiator's Staff", "=ds=#w9#", "#HONOR:1500#" },
+				{ 30, 33766, "", "=q4=Vengeful Gladiator's War Staff", "=ds=#w9#", "#HONOR:1500#" },
 			};
 			{
-    			{ 1, 33661, "", "=q4=Vengeful Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
-    			{ 2, 33735, "", "=q4=Vengeful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:750#" },
-    			{ 3, 33755, "", "=q4=Vengeful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
-    			{ 4, 34529, "", "=q4=Vengeful Gladiator's Longbow", "=ds=#w2#", "#HONOR:750#" },
-    			{ 5, 33006, "", "=q4=Vengeful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
-    			{ 6, 34530, "", "=q4=Vengeful Gladiator's Rifle", "=ds=#w5#", "#HONOR:750#" },
-    			{ 7, 34059, "", "=q4=Vengeful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:750#" },
-    			{ 8, 34066, "", "=q4=Vengeful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:750#" },
-    			{ 9, 33764, "", "=q4=Vengeful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
-    			{ 16, 33681, "", "=q4=Vengeful Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
-    			{ 17, 34033, "", "=q4=Vengeful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:750#" },
-    			{ 18, 33736, "", "=q4=Vengeful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
+				{ 1, 33661, "", "=q4=Vengeful Gladiator's Barrier", "=ds=#w8#", "#HONOR:750#" },
+				{ 2, 33735, "", "=q4=Vengeful Gladiator's Redoubt", "=ds=#w8#", "#HONOR:750#" },
+				{ 3, 33755, "", "=q4=Vengeful Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:750#" },
+				{ 5, 34529, "", "=q4=Vengeful Gladiator's Longbow", "=ds=#w2#", "#HONOR:750#" },
+				{ 6, 33006, "", "=q4=Vengeful Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:750#" },
+				{ 7, 34530, "", "=q4=Vengeful Gladiator's Rifle", "=ds=#w5#", "#HONOR:750#" },
+				{ 16, 34059, "", "=q4=Vengeful Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:750#" },
+				{ 17, 34066, "", "=q4=Vengeful Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:750#" },
+				{ 18, 33764, "", "=q4=Vengeful Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:750#" },
+				{ 20, 33681, "", "=q4=Vengeful Gladiator's Endgame", "=ds=#s15#", "#HONOR:750#" },
+				{ 21, 34033, "", "=q4=Vengeful Gladiator's Grimoire", "=ds=#s15#", "#HONOR:750#" },
+				{ 22, 33736, "", "=q4=Vengeful Gladiator's Reprieve", "=ds=#s15#", "#HONOR:750#" },
 			};
 		};
 		info = {
 			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Vengeful"],
+			module = moduleName, menu = "PVPMENU3",
+		};
+	}
+
+	AtlasLoot_Data["PVP70BrutalWeapons"] = {
+		["Normal"] = {
+			{
+				{ 1, 35076, "", "=q4=Brutal Gladiator's Right Ripper", "=ds=#h1#, #w13#", "#HONOR:245#"};
+				{ 2, 35038, "", "=q4=Brutal Gladiator's Left Ripper", "=ds=#h4#, #w13#", "#HONOR:105#"};
+				{ 3, 35037, "", "=q4=Brutal Gladiator's Left Render", "=ds=#h4#, #w13#", "#HONOR:105#"};
+				{ 5, 35102, "", "=q4=Brutal Gladiator's Spellblade", "=ds=#h3#, #w4#", "#HONOR:245#"};
+				{ 6, 35093, "", "=q4=Brutal Gladiator's Shanker", "=ds=#h1#, #w4#", "#HONOR:245#"};
+				{ 7, 35058, "", "=q4=Brutal Gladiator's Mutilator", "=ds=#h4#, #w4#", "#HONOR:105#"};
+				{ 8, 35095, "", "=q4=Brutal Gladiator's Shiv", "=ds=#h4#, #w4#", "#HONOR:105#"};
+				{ 10, 35101, "", "=q4=Brutal Gladiator's Slicer", "=ds=#h1#, #w10#", "#HONOR:245#"};
+				{ 11, 35072, "", "=q4=Brutal Gladiator's Quickblade", "=ds=#h4#, #w10#", "#HONOR:105#"};
+				{ 13, 35110, "", "=q4=Brutal Gladiator's Waraxe", "=ds=#h3#, #w1#", "#HONOR:555#"};
+				{ 14, 34996, "", "=q4=Brutal Gladiator's Cleaver", "=ds=#h1#, #w1#", "#HONOR:245#"};
+				{ 15, 34995, "", "=q4=Brutal Gladiator's Chopper", "=ds=#h4#, #w1#", "#HONOR:105#"};
+				{ 16, 36737, "", "=q4=Brutal Gladiator's Hatchet", "=ds=#h4#, #w1#", "#HONOR:555#"};
+				{ 17, 35017, "", "=q4=Brutal Gladiator's Hacker", "=ds=#h4#, #w1#", "#HONOR:105#"};
+				{ 19, 35014, "", "=q4=Brutal Gladiator's Gavel", "=ds=#h3#, #w6#", "#HONOR:245#"};
+				{ 20, 35082, "", "=q4=Brutal Gladiator's Salvation", "=ds=#h3#, #w6#", "#HONOR:245#"};
+				{ 21, 35071, "", "=q4=Brutal Gladiator's Pummeler", "=ds=#h1#, #w6#", "#HONOR:245#"};
+				{ 22, 34988, "", "=q4=Brutal Gladiator's Bonecracker", "=ds=#h4#, #w6#", "#HONOR:245#"};
+				{ 24, 35015, "", "=q4=Brutal Gladiator's Greatsword", "=ds=#h2#, #w10#", "#HONOR:350#"};
+				{ 25, 34997, "", "=q4=Brutal Gladiator's Decapitator", "=ds=#h2#, #w1#", "#HONOR:350#"};
+				{ 26, 34989, "", "=q4=Brutal Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#HONOR:350#"};
+				{ 28, 35064, "", "=q4=Brutal Gladiator's Painsaw", "=ds=#w7#", "#HONOR:350#"};
+			};
+			{
+				{ 1, 34987, "", "=q4=Brutal Gladiator's Battle Staff", "=ds=#w9#", "#HONOR:350#"};
+				{ 2, 35103, "", "=q4=Brutal Gladiator's Staff", "=ds=#w9#", "#HONOR:350#"};
+				{ 3, 35109, "", "=q4=Brutal Gladiator's War Staff", "=ds=#w9#", "#HONOR:350#"};
+				{ 5, 34986, "", "=q4=Brutal Gladiator's Barrier", "=ds=#w8#", "#HONOR:175#"};
+				{ 6, 35073, "", "=q4=Brutal Gladiator's Redoubt", "=ds=#w8#", "#HONOR:175#"};
+				{ 7, 35094, "", "=q4=Brutal Gladiator's Shield Wall", "=ds=#w8#", "#HONOR:175#"};
+				{ 9, 35047, "", "=q4=Brutal Gladiator's Longbow", "=ds=#w2#", "#HONOR:350#"};
+				{ 10, 35018, "", "=q4=Brutal Gladiator's Heavy Crossbow", "=ds=#w3#", "#HONOR:350#"};
+				{ 11, 35075, "", "=q4=Brutal Gladiator's Rifle", "=ds=#w5#", "#HONOR:350#"};
+				{ 16, 34985, "", "=q4=Brutal Gladiator's Baton of Light", "=ds=#w12#", "#HONOR:95#"};
+				{ 17, 35065, "", "=q4=Brutal Gladiator's Piercing Touch", "=ds=#w12#", "#HONOR:95#"};
+				{ 18, 35107, "", "=q4=Brutal Gladiator's Touch of Defeat", "=ds=#w12#", "#HONOR:95#"};
+				{ 20, 35008, "", "=q4=Brutal Gladiator's Endgame", "=ds=#s15#", "#HONOR:105#"};
+				{ 21, 35016, "", "=q4=Brutal Gladiator's Grimoire", "=ds=#s15#", "#HONOR:105#"};
+				{ 22, 35074, "", "=q4=Brutal Gladiator's Reprieve", "=ds=#s15#", "#HONOR:105#"};
+			};
+		};
+		info = {
+			name = AL["PvP Weapons"].." "..AL["Level 70"].." - "..AL["Brutal"],
 			module = moduleName, menu = "PVPMENU3",
 		};
 	}

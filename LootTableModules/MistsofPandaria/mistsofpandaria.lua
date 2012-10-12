@@ -21,6 +21,15 @@ local moduleName = "AtlasLootMoP"
 ---- Mogu'Shan Vaults
 ---- Pandaria World Bosses
 ---- Terrace of Endless Spring
+--- Rares
+---- The Jade Forest
+---- Valley of the Four Winds
+---- Krasarang Wilds
+---- Kun-Lai Summit
+---- Vale of Eternal Blossoms
+---- Townlong Steppes
+---- Dread Wastes
+---- Special
 --- Factions
 ---- The Anglers
 ---- The August Celestials
@@ -32,6 +41,9 @@ local moduleName = "AtlasLootMoP"
 ---- The Tillers
 --- PvP
 ---- PvP Armor Sets
+---- Level 90 - Accessories
+---- Level 90 - Non Set Epics
+---- Level 90 - Weapons
 --- Sets & Collections
 ---- Tier 14 Sets (T14)
 ---- Trading Card Game Items
@@ -1191,7 +1203,6 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 85979, "", "=q4=Cape of Three Lanterns", "=ds=#s4#" },
 				{ 2, 89768, "", "=q4=Claws of Amethyst", "=ds=#s9#, #a1#" },
-
 				{ 3, 89767, "", "=q4=Ruby-Linked Girdle", "=ds=#s10#, #a1#" },
 				{ 4, 85978, "", "=q4=Jade Dust Leggings", "=ds=#s11#, #a1#" },
 				{ 5, 85977, "", "=q4=Stonebound Cinch", "=ds=#s10#, #a2#" },
@@ -1245,7 +1256,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86756, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
 				{ 16, 86754, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
 				{ 17, 89968, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
-
 				{ 18, 89967, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
 			};
@@ -1264,7 +1274,6 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 85988, "", "=q4=Legplates of Sagacious Shadows", "=ds=#s11#, #a4#" },
 				{ 16, 85986, "", "=q4=Amulet of Seven Curses", "=ds=#s2#" },
 				{ 17, 89803, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
-
 				{ 18, 89802, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89424, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
 			};
@@ -1373,7 +1382,6 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 86082, "", "=q4=Arrow Breaking Windcloak", "=ds=#s4#" },
 				{ 2, 89819, "", "=q4=Mindshard Drape", "=ds=#s4#" },
-
 				{ 3, 86129, "", "=q4=Hood of Blind Eyes", "=ds=#s1#, #a1#" },
 				{ 4, 86128, "", "=q4=Undying Shadow Grips", "=ds=#s9#, #a1#" },
 				{ 5, 86127, "", "=q4=Bracers of Dark Thoughts", "=ds=#s8#, #a2#" },
@@ -1501,7 +1509,6 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 87827, "", "=q4=Grips of Terra Cotta", "=ds=#s9#, #a3#" },
 				{ 7, 86149, "", "=q4=Spaulders of the Emperor's Rage", "=ds=#s3#, #a4#" },
 				{ 8, 89823, "", "=q4=Chestguard of Eternal Vigilance", "=ds=#s5#, #a4#" },
-
 				{ 9, 86145, "", "=q4=Jang-xi's Devastating Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86152, "", "=q4=Worldwaker Cachabon", "=ds=#s2#" },
 				{ 17, 86144, "", "=q4=Lei Shin's Final Orders", "=ds=#s14#" },
@@ -1730,7 +1737,7 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 84974, "", "=q4=Malevolent Gladiator's Bracers of Prowess", "=ds="};
 				{ 25, 84951, "", "=q4=Malevolent Gladiator's Clasp of Cruelty", "=ds="};
 				{ 26, 84811, "", "=q4=Malevolent Gladiator's Greaves of Alacrity", "=ds="};
-				{ 28, 84986, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds="};	
+				{ 28, 84986, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds="};
 				{ 29, 84950, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds="};
 				{ 30, 84822, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds="};
 			};
@@ -2111,6 +2118,98 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, instance = "TerraceofEndlessSpring",
 		};
 	};
+
+	-------------
+	--- Rares ---
+	-------------
+
+		-----------------------
+		--- The Jade Forest ---
+		-----------------------
+
+	AtlasLoot_Data["RaresMOPJadeForest"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Aethis", ""};
+				{ 2, 87649, "", "=q4=Pool-Stirrer", "=ds=#h1#, #w6#"};
+				{ 4, 0, "inv_box_04", "=q6=Ferdinand", ""};
+				{ 5, 87652, "", "=q4=Ook-Breaker Mace", "=ds=#h1#, #w6#"};
+				{ 7, 0, "inv_box_04", "=q6=Kor'nas Nightsavage", ""};
+				{ 8, 87642, "", "=q4=Darkstaff of Annihilation", "=ds=#w9#"};
+				{ 10, 0, "inv_box_04", "=q6=Krax'ik", ""};
+				{ 11, 87646, "", "=q4=Needlefang Throatripper", "=ds=#h1#, #w1#"};
+				{ 16, 0, "inv_box_04", "=q6=Mister Ferocious", ""};
+				{ 17, 87652, "", "=q4=Ook-Breaker Mace", "=ds=#h1#, #w6#"};
+				{ 19, 0, "inv_box_04", "=q6=Morgrinn Crackfang", ""};
+				{ 20, 88563, "", "=q4=Fangcracker Battlemace", "=ds=#h2#, #w6#"};
+				{ 22, 0, "inv_box_04", "=q6=Sarnak", ""};
+				{ 23, 87650, "", "=q4=Fishsticker Crossbow", "=ds=#w3#"};
+				{ 25, 0, "inv_box_04", "=q6=Urobi the Walker", ""};
+				{ 26, 87651, "", "=q4=Pathwalker Greatstaff", "=ds=#w9#"};
+			};
+			{
+				{ 1, 0, "inv_box_04", "=q6=Shared Zone Loot Table", ""};
+				{ 2, 87586, "", "=q3=Forest Trickster's Leggings", "=ds=#s11#, #a1#"};
+				{ 3, 87590, "", "=q3=Jade Heart Leggings", "=ds=#s11#, #a1#"};
+				{ 4, 87587, "", "=q3=Orchard Tender's Leggings", "=ds=#s11#, #a2#"};
+				{ 5, 87591, "", "=q3=Tian Trainee Leggings", "=ds=#s11#, #a2#"};
+				{ 6, 87592, "", "=q3=Grookin' Grookin' Trousers", "=ds=#s11#, #a3#"};
+				{ 7, 87588, "", "=q3=Leggings of Spiritsong Melody", "=ds=#s11#, #a3#"};
+				{ 8, 87593, "", "=q3=Gan Shi Warlord Legguards", "=ds=#s11#, #a4#"};
+				{ 9, 87594, "", "=q3=Leggings of Forgotten War", "=ds=#s11#, #a4#"};
+				{ 10, 87589, "", "=q3=Leggings of Fractured Reflection", "=ds=#s11#, #a4#"};
+				{ 11, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(806),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}	
+
+		--------------------------------
+		--- Valley of the Four Winds ---
+		--------------------------------
+
+	AtlasLoot_Data["RaresMOPValleyFourWinds"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Blackhoof", ""};
+				{ 2, 86565, "", "=q3=Battle Horn", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Bonobos", ""};
+				{ 5, 86591, "", "=q3=Magic Banana", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6=Jonn-Dar", ""};
+				{ 8, 86572, "", "=q3=Terracotta Fragment", "=ds=#s14#"};
+				{ 10, 0, "inv_box_04", "=q6=Nal'lak the Ripper", ""};
+				{ 11, 86576, "", "=q3=Dynasty of Steel", "=ds=#s14#"};
+				{ 16, 0, "inv_box_04", "=q6=Nasra Spothide", ""};
+				{ 17, 86587, "", "=q3=Seed of Tranquil Growth", "=ds=#s14#"};
+				{ 19, 0, "inv_box_04", "=q6=Salyin Warscout", ""};
+				{ 20, 86583, "", "=q3=Salyin Battle Banner", "=ds="};
+				{ 22, 0, "inv_box_04", "=q6=Sele'na", ""};
+				{ 23, 86580, "", "=q3=Overgrown Lilypad", "=ds="};
+				{ 25, 0, "inv_box_04", "=q6=Sulik'shor", ""};
+				{ 26, 86569, "", "=q3=Crystal of Insanity", "=ds="};
+			};
+			{
+				{ 1, 0, "inv_box_04", "=q6=Shared Zone Loot Table", ""};
+				{ 2, 87597, "", "=q3=Gloves of Congealed Mist", "=ds=#s9#, #a1#"};
+				{ 3, 87598, "", "=q3=Monstrous Silk Gloves", "=ds=#s9#, #a1#"};
+				{ 4, 87595, "", "=q3=Gloves of Burrow Spelunking", "=ds=#s9#, #a2#"};
+				{ 5, 87599, "", "=q3=Grower's Gloves", "=ds=#s9#, #a2#"};
+				{ 6, 87600, "", "=q3=Marshsong Gloves", "=ds=#s9#, #a3#"};
+				{ 7, 87596, "", "=q3=Mudmug's Mitts", "=ds=#s9#, #a3#"};
+				{ 8, 87602, "", "=q3=Grain Warden's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 9, 87603, "", "=q3=Thunderfall Gauntlets", "=ds=#s9#, #a4#"};
+				{ 10, 87601, "", "=q3=Plough Driving Grips", "=ds=#s9#, #a4#"};
+				{ 11, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(807),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
 
 	----------------
 	--- Factions ---
@@ -3087,17 +3186,17 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PVP90Weapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 84963, "", "=q4=Malevolent Gladiator's Render", "=ds=#w13#", "#CONQUEST:2500#" },
-				{ 2, 84962, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#w13#", "#CONQUEST:2500#" },
-				{ 4, 84895, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
+				{ 1, 84963, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
+				{ 2, 84962, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
+				{ 4, 84961, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
 				{ 5, 84967, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
-				{ 6, 84961, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
+				{ 6, 84895, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
 				{ 8, 84969, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
 				{ 9, 84968, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
 				{ 11, 84965, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
 				{ 12, 84966, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
-				{ 17, 84971, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
 				{ 16, 84970, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 17, 84971, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
 				{ 18, 84964, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
 				{ 20, 84790, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
 				{ 21, 84791, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
@@ -3129,17 +3228,18 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PVP90Weapons2"] = {
 		["Normal"] = {
 			{
-				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#w13#", "#CONQUEST:2500#" },
-				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#w13#", "#CONQUEST:2500#" },
-				{ 6, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
+				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
+				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
+				{ 4, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
 				{ 5, 85133, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
-				{ 4, 85118, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
+				{ 6, 85118, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
 				{ 8, 85135, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
 				{ 9, 85134, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
 				{ 11, 85131, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
 				{ 12, 85132, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
-				{ 17, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
-				{ 16, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 16, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
+				{ 17, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 17, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
 				{ 18, 85130, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
 				{ 20, 85112, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
 				{ 21, 85113, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
@@ -4472,7 +4572,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["New Companions"],
+			name = AL["New Companions"].." - "..AL["Mists of Pandaria"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}
@@ -5492,8 +5592,6 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["WorldEpics90"] = {
 		["Normal"] = {
 			{
-
-
 				{ 1, 90580, "", "=q4=Cristof's Crushing Cloak", "=ds=#s4#"};
 				{ 2, 90589, "", "=q4=Dirl's Drafty Drape", "=ds=#s4#"};
 				{ 3, 90586, "", "=q4=Dory's Pageantry", "=ds=#s4#"};
