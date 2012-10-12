@@ -358,6 +358,7 @@ if AL then
 	AL["BoE World Epics"] = true;
 	AL["Legendary Items"] = true;
 	AL["Misc Sets"] = true;
+	AL["Tier Sets"] = true;
 	AL["Tier 1/2 Set"] = true;
 	AL["Tier 1/2/3 Set"] = true;
 	AL["Tier 3 Set"] = true;

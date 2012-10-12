@@ -381,7 +381,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 1/2/3 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -409,7 +409,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 4/5/6 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -439,7 +439,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 7/8 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -469,7 +469,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 9 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -499,7 +499,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 10 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -529,7 +529,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 11/12 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -559,7 +559,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 13 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 
@@ -593,7 +593,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 14 Set"],
-			menu = "SETMENU",
+			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}
 

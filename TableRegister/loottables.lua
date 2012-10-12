@@ -477,7 +477,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Old Stratholme"], "AtlasLootWotLK", mapname = "CoTStratholme", EncounterJournalID = 279 },
 		},
-		
+
 		["DrakTharonKeep"] = {
 			["Bosses"] = {
 				{ "DrakTharonKeepTrollgore", 5, EncounterJournalID = 588 },
@@ -799,7 +799,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Auchenai Crypts"], "AtlasLootBurningCrusade", EncounterJournalID = 247 },
 		},
-		
+
 		["AuchManaTombs"] = {
 			["Bosses"] = {
 				{ "Consortium", 1, hide = true },
@@ -1836,7 +1836,7 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsNEW" },
 				{ "PetsAccessories" },
 			},
-			["Info"] = { BabbleInventory["Companions"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Companions"], "AtlasLootMoP"},
 		},
 
 		["Mounts"] = {
@@ -1853,7 +1853,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MountsRemoved" },
 				{ "MountsNEW" },
 			},
-			["Info"] = { BabbleInventory["Mounts"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Mounts"], "AtlasLootMoP"},
 		},
 
 		["Tabards"] = {
@@ -1864,7 +1864,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TabardsAchievementQuestRare" },
 				{ "TabardsRemoved" },
 			},
-			["Info"] = { BabbleInventory["Tabards"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Tabards"], "AtlasLootMoP"},
 		},
 		
 		["TransformationItems"] = {
@@ -1873,9 +1873,9 @@ AtlasLoot_LootTableRegister = {
 				{ "TransformationConsumableItems" },
 				{ "TransformationAdditionalEffects" },
 			},
-			["Info"] = { AL["Transformation Items"], "AtlasLootCataclysm"},
+			["Info"] = { AL["Transformation Items"], "AtlasLootMoP"},
 		},
-		
+
 		["WorldEpics"] = {
 			["Bosses"] = {
 				{ "WorldEpics90" },
@@ -1886,7 +1886,7 @@ AtlasLoot_LootTableRegister = {
 				{ "WorldEpics4049" },
 				{ "WorldEpics3039" },
 			},
-			["Info"] = { AL["BoE World Epics"], "AtlasLootWotLK"},
+			["Info"] = { AL["BoE World Epics"], "AtlasLootMoP"},
 		},
 	},
 
@@ -1898,7 +1898,24 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { AL["ilvl 245"].." - "..AL["Rewards"], "AtlasLootWotLK"},
 		},
-	},	
+	},
+
+	["TierSets"] = {
+		["TierSetsMenus"] = {
+			["Bosses"] = {
+				{ "T1T2T3SET" },
+				{ "T456SET" },
+				{ "T7T8SET" },
+				{ "T9SET" },
+				{ "T10SET" },
+				{ "T1112SET" },
+				{ "T13SET" },
+				{ "T14SET" },
+			},
+			["Info"] = { AL["Tier Sets"], "AtlasLootMoP"},
+		},
+	},
+
 }
 
 AtlasLoot_LootTableRegister["Instances"]["EmptyPage"] = {
