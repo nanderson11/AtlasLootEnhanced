@@ -404,6 +404,14 @@ if AL then
 	AL["Kalu'ak Fishing Derby"] = "Angelwettstreit der Kalu'ak";
 	AL["Fishing Contests"] = "Angelwettbewerbe";
 
+	-- World Events	Menu Names
+	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
+	AL["Food and Drinks"] = "Speisen und Getränke";
+	AL["Gifts & Presents"] = "Geschenke";
+	AL["Special Rewards"] = "Spezielle Belohnungen";
+	AL["Consumable Wands & Masks"] = "Verbrauchbare Stäbe & Masken";
+	AL["Permanent Masks"] = "Dauerhafte Masken";
+
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";
 	AL["|cffff0000Right-Click|r View Options"] = "|cff1eff00Rechtsklick|r Optionen anzeigen";
@@ -626,8 +634,6 @@ if AL then
 	AL["Level 50-60"] = "Stufe 50-60";
 	AL["Summon"] = "Beschwörbar";
 	AL["Random"] = "Zufällig";
-	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
-	AL["Food and Drinks"] = "Speisen und Getränke";
 
 	-- Profession descriptions
 	-- AL["Buff"] = true;
@@ -1145,8 +1151,6 @@ if AL then
 	AL["Cracked Egg"] = "Zerbrochene Eierschale";
 	AL["Small Spice Bag"] = "Kleines Gewürzsäckchen";
 	AL["Handful of Treats"] = "Eine Handvoll Süßigkeiten";
-	AL["Consumable Wands & Masks"] = "Verbrauchbare Stäbe & Masken";
-	AL["Permanent Masks"] = "Dauerhafte Masken";
 	AL["Lovely Dress Box"] = "Karton 'Reizendes Kleid'";
 	AL["Dinner Suit Box"] = "Karton 'Abendanzug'";
 	AL["Bag of Heart Candies"] = "Tüte mit Zuckerherzen";
