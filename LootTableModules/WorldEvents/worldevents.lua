@@ -1,6 +1,7 @@
 -- $Id$
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
+local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLoot_WorldEvents"
@@ -320,18 +321,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ChildrensWeek"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleZone["Azeroth"], "=q5="..BabbleZone["Stormwind"].." / "..BabbleZone["Orgrimmar"]};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleZone["Azeroth"], "=q5="..AtlasLoot:GetMapNameByID(301).." / "..AtlasLoot:GetMapNameByID(321)};
 				{ 2, 23007, "", "=q1=Piglet's Collar", "=ds=#e13#"};
 				{ 3, 23015, "", "=q1=Rat Cage", "=ds=#e13#"};
 				{ 4, 66073, "", "=q1=Snail Shell", "=ds=#e13#"};
 				{ 5, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
 				{ 6, 23022, "", "=q1=Curmudgeon's Payoff", "=ds="};
-				{ 8, 0, "INV_Box_01", "=q6="..BabbleZone["Outland"], "=q5="..BabbleZone["Shattrath"]};
+				{ 8, 0, "INV_Box_01", "=q6="..BabbleZone["Outland"], "=q5="..AtlasLoot:GetMapNameByID(481)};
 				{ 9, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
 				{ 10, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
 				{ 11, 69648, "", "=q3=Legs", "=ds=#e13#"};
 				{ 12, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleZone["Northrend"], "=q5="..BabbleZone["Dalaran"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleZone["Northrend"], "=q5="..AtlasLoot:GetMapNameByID(504)};
 				{ 17, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
 				{ 18, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
 			};
@@ -372,57 +373,30 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Winterveil"] = {
 		["Normal"] = {
 			{
-				{ 1, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
-				{ 2, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
-				{ 3, 17712, "", "=q1=Winter Veil Disguise Kit", "=q1=#m4#: =ds=#m20#"};
-				{ 4, 17202, "", "=q1=Snowball", "=ds=#m20#"};
-				{ 5, 34191, "", "=q1=Handful of Snowflakes", "=ds=#m20#"};
-				{ 6, 21212, "", "=q1=Fresh Holly", "=ds=#m20#"};
-				{ 7, 21519, "", "=q1=Mistletoe", "=ds=#m20#"};
-				{ 9, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Vendor"], ""};
-				{ 10, 34262, "", "=q2=Pattern: Winter Boots", "=ds=#p7# (285)"};
-				{ 11, 34319, "", "=q2=Pattern: Red Winter Clothes", "=ds=#p8# (250)"};
-				{ 12, 34261, "", "=q2=Pattern: Green Winter Clothes", "=ds=#p8# (250)"};
-				{ 13, 34413, "", "=q1=Recipe: Hot Apple Cider", "#p3# (325)"};
-				{ 14, 17201, "", "=q1=Recipe: Egg Nog", "=ds=#p3# (35)"};
-				{ 15, 17200, "", "=q1=Recipe: Gingerbread Cookie", "=ds=#p3# (1)"};
-				{ 16, 17344, "", "=q1=Candy Cane", "=ds=#e3#"};
-				{ 17, 17406, "", "=q1=Holiday Cheesewheel", "=ds=#e3#"};
-				{ 18, 17407, "", "=q1=Graccu's Homemade Meat Pie", "=ds=#e3#"};
-				{ 19, 17408, "", "=q1=Spicy Beefstick", "=ds=#e3#"};
-				{ 20, 34410, "", "=q1=Honeyed Holiday Ham", "=ds=#e3#"};
-				{ 21, 17404, "", "=q1=Blended Bean Brew", "=ds=#e4#"};
-				{ 22, 17405, "", "=q1=Green Garden Tea", "=ds=#e4#"};
-				{ 23, 34412, "", "=q1=Sparkling Apple Cider", "=ds=#e4#"};
-				{ 24, 17196, "", "=q1=Holiday Spirits", "=ds=#e4#"};
-				{ 25, 17403, "", "=q1=Steamwheedle Fizzy Spirits", "=ds=#e4#"};
-				{ 26, 17402, "", "=q1=Greatfather's Winter Ale", "=ds=#e4#"};
-				{ 27, 17194, "", "=q1=Holiday Spices", "=ds=#e6#"};
-				{ 28, 17303, "", "=q1=Blue Ribboned Wrapping Paper", "=ds=#e6#"};
-				{ 29, 17304, "", "=q1=Green Ribboned Wrapping Paper", "=ds=#e6#"};
-				{ 30, 17307, "", "=q1=Purple Ribboned Wrapping Paper", "=ds=#e6#"};
-			};
-			{
-				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Stolen Present"], "#QUESTID:7043#"};
-				{ 2, 66450, "", "=q4=Miniature Winter Veil Tree", "=ds=#h1#, #w4#"};
-				{ 3, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
-				{ 4, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
-				{ 5, 46709, "", "=q3=MiniZep Controller", ""};
-				{ 6, 46725, "", "=q2=Red Rider Air Rifle", ""};
-				{ 7, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", ""};
-				{ 9, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gaily Wrapped Present"], ""};
-				{ 10, 21301, "", "=q1=Green Helper Box", "=ds=#e13#"};
-				{ 11, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
-				{ 12, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
-				{ 13, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
-				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], ""};
-				{ 17, 90888, "", "=q2=Foot Ball", "#ACHIEVEMENTID:7852#"};
-				{ 18, 90883, "", "=q2=The Pigskin", "#ACHIEVEMENTID:7852#"};
-				{ 19, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};
-				{ 20, 46709, "", "=q3=MiniZep Controller", "#ACHIEVEMENTID:6060#"};
-				{ 21, 46725, "", "=q2=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
-				{ 22, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
-				{ 23, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
+				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Vendor"], ""};
+				{ 2, 34262, "", "=q2=Pattern: Winter Boots", "=ds=#p7# (285)", "50 #silver#"};
+				{ 3, 34319, "", "=q2=Pattern: Red Winter Clothes", "=ds=#p8# (250)", "50 #silver#"};
+				{ 4, 34261, "", "=q2=Pattern: Green Winter Clothes", "=ds=#p8# (250)", "50 #silver#"};
+				{ 5, 34413, "", "=q1=Recipe: Hot Apple Cider", "#p3# (325)", "1 #gold#"};
+				{ 6, 17201, "", "=q1=Recipe: Egg Nog", "=ds=#p3# (35)", "2 #silver# 40 #copper#"};
+				{ 7, 17200, "", "=q1=Recipe: Gingerbread Cookie", "=ds=#p3# (1)", "25 #copper#"};
+				{ 8, 17344, "", "=q1=Candy Cane", "=ds=#e3#", "25 #copper#"};
+				{ 9, 17406, "", "=q1=Holiday Cheesewheel", "=ds=#e3#", "1 #silver# 25 #copper#"};
+				{ 10, 17407, "", "=q1=Graccu's Homemade Meat Pie", "=ds=#e3#", "10 #silver#"};
+				{ 11, 17408, "", "=q1=Spicy Beefstick", "=ds=#e3#", "20 #silver#"};
+				{ 12, 34410, "", "=q1=Honeyed Holiday Ham", "=ds=#e3#", "40 #silver#"};
+				{ 13, 17404, "", "=q1=Blended Bean Brew", "=ds=#e4#", "1 #silver# 25 #copper#"};
+				{ 14, 17405, "", "=q1=Green Garden Tea", "=ds=#e4#", "10 #silver#"};
+				{ 15, 34412, "", "=q1=Sparkling Apple Cider", "=ds=#e4#", "10 #silver#"};
+				{ 16, 17196, "", "=q1=Holiday Spirits", "=ds=#e4#", "50 #copper#"};
+				{ 17, 17403, "", "=q1=Steamwheedle Fizzy Spirits", "=ds=#e4#", "1 #silver# 50 #copper#"};
+				{ 18, 17402, "", "=q1=Greatfather's Winter Ale", "=ds=#e4#", "20 #silver#"};
+				{ 19, 17194, "", "=q1=Holiday Spices", "=ds=#e8#", "10 #copper#"};
+				{ 20, 17303, "", "=q1=Blue Ribboned Wrapping Paper", "=ds=#e6#", "10 #copper#"};
+				{ 21, 17304, "", "=q1=Green Ribboned Wrapping Paper", "=ds=#e6#", "10 #copper#"};
+				{ 22, 17307, "", "=q1=Purple Ribboned Wrapping Paper", "=ds=#e6#", "10 #copper#"};
+				{ 23, 17202, "", "=q1=Snowball", "=ds=#m20#", "10 #copper#"};
+				extraText = ": "..AL["Vendor"];
 			};
 			{
 				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Ticking Present"], ""};
@@ -436,18 +410,41 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 9, 17724, "", "=q1=Pattern: Green Holiday Shirt", "=ds=#p8# (190)"};
 				{ 11, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Festive Gift"], ""};
 				{ 12, 21328, "", "=q1=Wand of Holiday Cheer", "=ds=#m20#"};
-				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gently Shaken Gift"], ""};
-				{ 17, 21235, "", "=q1=Winter Veil Roast", "=ds=#e3#"};
-				{ 18, 21241, "", "=q1=Winter Veil Eggnog", "=ds=#e4#"};
-				{ 20, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Carefully Wrapped Present"], ""};
-				{ 21, 21254, "", "=q1=Winter Veil Cookie", "=ds=#e3#"};
-				{ 23, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Extra-Special Gift"], ""};
-				{ 24, 21215, "", "=q1=Graccu's Mince Meat Fruitcake", "=ds=#e3#"};
+				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gaily Wrapped Present"], ""};
+				{ 17, 21301, "", "=q1=Green Helper Box", "=ds=#e13#"};
+				{ 18, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
+				{ 19, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
+				{ 20, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
+				{ 22, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gently Shaken Gift"], ""};
+				{ 23, 21235, "", "=q1=Winter Veil Roast", "=ds=#e3#"};
+				{ 24, 21241, "", "=q1=Winter Veil Eggnog", "=ds=#e4#"};
+				{ 26, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Carefully Wrapped Present"], ""};
+				{ 27, 21254, "", "=q1=Winter Veil Cookie", "=ds=#e3#"};
+				{ 29, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Extra-Special Gift"], ""};
+				{ 30, 21215, "", "=q1=Graccu's Mince Meat Fruitcake", "=ds=#e3#"};
+				extraText = ": "..AL["Gifts & Presents"];
+			};
+			{
+				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Stolen Present"], "#QUESTID:7043#"};
+				{ 2, 66450, "", "=q4=Miniature Winter Veil Tree", "=ds=#h1#, #w4#"};
+				{ 3, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds=#e13#"};
+				{ 4, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
+				{ 5, 44606, "", "=q3=Toy Train Set", "=ds=#m20#"};
+				{ 6, 45057, "", "=q3=Wind-Up Train Wrecker", "=ds=#m20#"};
+				{ 7, 46725, "", "=q2=Red Rider Air Rifle", "=ds=#m20#"};
+				{ 8, 54438, "", "=q2=Tiny Blue Ragdoll", "=ds=#m20#"};
+				{ 9, 54437, "", "=q2=Tiny Green Ragdoll", "=ds=#m20#"};
+				{ 10, 44481, "", "=q1=Grindgear Toy Gorilla", "=ds=#m20#"};
+				{ 11, 44601, "", "=q3=Heavy Copper Racer", "=ds=#m20#"};
+				{ 12, 34498, "", "=q3=Paper Zeppelin Kit", "=ds=#m20#"};
+				{ 13, 44482, "", "=q3=Trusty Copper Racer", "=ds=#m20#"};
+				{ 14, 44599, "", "=q3=Zippy Copper Racer", "=ds=#m20#"};
+				extraText = ": "..AL["Stolen Present"];
 			};
 		};
 		info = {
 			name = AL["Feast of Winter Veil"],
-			module = moduleName, menu = "WORLDEVENTMENU",
+			module = moduleName, menu = "WINTERVIELMENU",
 		};
 	};
 
@@ -899,6 +896,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 20, 77256, "", "=q1=Darkmoon 'Sword'", "=ds=#h2#, #w10#" },
 				{ 21, 78341, "", "=q1=Darkmoon Hammer", "=ds=#h2#, #w6#" },
 				{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#" },
+				extraText = ": "..BabbleInventory["Mounts"].." & "..BabbleInventory["Companions"];
 			};
 			{
 				{ 2, 19223, "", "=q1=Darkmoon Dog", "=ds=#e3#"};
@@ -919,6 +917,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 22, 33236, "", "=q1=Fizzy Faire Drink 'Classic'", "=ds=#e4#"};
 				{ 23, 44941, "", "=q1=Fresh-Squeezed Limeade", "=ds=#e4#"};
 				{ 24, 74822, "", "=q1=Sasparilla Sinker", "=ds=#e4#"};
+				extraText = ": "..AL["Food and Drinks"];
 			};
 			{
 				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#",  "#DARKMOON:110#"};
@@ -943,6 +942,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#DARKMOON:160#"};
 				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#DARKMOON:160#"};
 				{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#DARKMOON:160#"};
+				extraText = ": "..AL["Heirloom"];
 			};
 		};
 		info = {

@@ -404,6 +404,14 @@ if AL then
 	AL["Kalu'ak Fishing Derby"] = true;
 	AL["Fishing Contests"] = true;
 
+	-- World Events	Menu Names
+	AL["Brew of the Month Club"] = true;
+	AL["Food and Drinks"] = true;
+	AL["Gifts & Presents"] = true;
+	AL["Special Rewards"] = true;
+	AL["Consumable Wands & Masks"] = true;
+	AL["Permanent Masks"] = true;
+
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = true;
 	AL["|cffff0000Right-Click|r View Options"] = true;
@@ -626,8 +634,6 @@ if AL then
 	AL["Level 50-60"] = true;
 	AL["Summon"] = true;
 	AL["Random"] = true;
-	AL["Brew of the Month Club"] = true;
-	AL["Food and Drinks"] = true;
 
 	-- Profession descriptions
 	AL["Buff"] = true;
@@ -1145,8 +1151,6 @@ if AL then
 	AL["Cracked Egg"] = true;
 	AL["Small Spice Bag"] = true;
 	AL["Handful of Treats"] = true;
-	AL["Consumable Wands & Masks"] = true;
-	AL["Permanent Masks"] = true;
 	AL["Lovely Dress Box"] = true;
 	AL["Dinner Suit Box"] = true;
 	AL["Bag of Heart Candies"] = true;

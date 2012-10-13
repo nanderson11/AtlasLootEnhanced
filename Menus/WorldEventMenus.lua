@@ -22,7 +22,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 14, "SKETTISMENU", "Spell_Nature_NaturesWrath", "=ds="..AL["Skettis"], "=q5="..BabbleZone["Terokkar Forest"]};
 				{ 16, "DARKMOONMENU", "INV_Misc_Ticket_Tarot_Madness", "=ds="..BabbleFaction["Darkmoon Faire"], "=q5="..BabbleZone["Darkmoon Island"]};
 				{ 18, "ChildrensWeek", "inv_misc_toy_04", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
-				{ 19, "Winterveil", "achievement_worldevent_merrymaker", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
+				{ 19, "WINTERVIELMENU", "achievement_worldevent_merrymaker", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
 				{ 20, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
 				{ 21, "LunarFestival", "achievement_worldevent_lunar", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
 				{ 22, "Noblegarden", "inv_egg_09", "=ds="..AL["Noblegarden"], "=q5="..AL["Various Locations"]};
@@ -99,13 +99,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 1, "Brewfest", "inv_holiday_brewfestbuff_01", "=ds="..AL["Vendor"], ""};
 				{ 2, "Brewfest#2", "inv_holiday_beerfestpretzel01", "=ds="..AL["Food and Drinks"], ""};
-				{ 4, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
-				{ 5, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
-				{ 6, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
-				{ 7, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
-				{ 8, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
-				{ 9, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
-				{ 16, "CorenDirebrew", "inv_misc_head_dwarf_01", "=ds="..BabbleBoss["Coren Direbrew"], ""};
+				{ 4, 0, "inv_holiday_brewfestbuff_01", "=q6="..AL["Special Rewards"], ""};
+				{ 5, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
+				{ 6, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
+				{ 7, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
+				{ 8, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
+				{ 9, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
+				{ 10, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
+				{ 16, "CorenDirebrew", "inv_misc_head_dwarf_01", "=ds="..BabbleBoss["Coren Direbrew"], "=q5="..AL["Daily Reward"]};
 				{ 17, "Brewfest#3", "inv_holiday_brewfestbuff_01", "=ds="..AL["Brew of the Month Club"], ""};
 			};
 		};
@@ -146,6 +147,35 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
+	AtlasLoot_Data["WINTERVIELMENU"] = {
+		["Normal"] = {
+			{
+				{ 1, "Winterveil", "inv_misc_food_61", "=ds="..AL["Vendor"], ""};
+				{ 2, "Winterveil#2", "inv_holiday_christmas_present_02", "=ds="..AL["Gifts & Presents"], ""};
+				{ 4, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], "=q5="..AL["Special Rewards"]};
+				{ 5, 90888, "", "=q2=Foot Ball", "#ACHIEVEMENTID:7852#"};
+				{ 6, 90883, "", "=q2=The Pigskin", "#ACHIEVEMENTID:7852#"};
+				{ 7, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};
+				{ 8, 46709, "", "=q3=MiniZep Controller", "#ACHIEVEMENTID:6060#"};
+				{ 9, 46725, "", "=q2=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
+				{ 10, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
+				{ 11, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
+				{ 16, "Winterveil#3", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Stolen Present"], "=q5="..AL["Daily Reward"]};
+				{ 20, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
+				{ 21, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
+				{ 22, 17712, "", "=q1=Winter Veil Disguise Kit", "=q1=#m4#: =ds=#m20#"};
+				{ 23, 17202, "", "=q1=Snowball", "=ds=#m20#"};
+				{ 24, 34191, "", "=q1=Handful of Snowflakes", "=ds=#m20#"};
+				{ 25, 21212, "", "=q1=Fresh Holly", "=ds=#m20#"};
+				{ 26, 21519, "", "=q1=Mistletoe", "=ds=#m20#"};
+			};
+		};
+		info = {
+			name = AL["Feast of Winter Veil"],
+			menu = "WORLDEVENTMENU",
+		};
+	}
+
 	AtlasLoot_Data["DARKMOONMENU"] = {
 		["Normal"] = {
 			{
@@ -158,7 +188,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 8, "DarkmoonD1D2#7", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=ec1=#j8# - #j9#"};
 				{ 9, "DarkmoonD1D2#8", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=ec1=#j8# - #j9#"};
 				{ 10, "DarkmoonD1D2#9", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=ec1=#j8# - #j9#"};
-				{ 17, "Darkmoon", "ability_hunter_pet_bear", "=ds="..BabbleInventory["Mounts"].." / "..BabbleInventory["Companions"], ""};
+				{ 17, "Darkmoon", "ability_hunter_pet_bear", "=ds="..BabbleInventory["Mounts"].." & "..BabbleInventory["Companions"], ""};
 				{ 18, "Darkmoon#2", "inv_misc_food_164_fish_seadog", "=ds="..AL["Food and Drinks"], ""};
 				{ 19, "Darkmoon#3", "inv_misc_bone_taurenskull_01", "=ds="..AL["Heirloom"], ""};
 				{ 21, "DarkmoonDeck", "inv_inscription_trinket_tiger", "=ds="..AL["Level 90"].." "..AL["Trinkets"], ""};
