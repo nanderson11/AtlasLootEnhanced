@@ -887,15 +887,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 73762, "", "=q3=Darkmoon Balloon", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 9, 73903, "", "=q3=Darkmoon Tonk", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 10, 73905, "", "=q3=Darkmoon Zeppelin", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 11, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
-				{ 12, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
-				{ 13, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
-				{ 17, 77158, "", "=q2=Darkmoon 'Tiger'", "=ds=#m20#" },
-				{ 18, 78340, "", "=q1=Cloak of the Darkmoon Faire", "=ds=#s4#, #a1#" },
-				{ 19, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#" },
-				{ 20, 77256, "", "=q1=Darkmoon 'Sword'", "=ds=#h2#, #w10#" },
-				{ 21, 78341, "", "=q1=Darkmoon Hammer", "=ds=#h2#, #w6#" },
-				{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#" },
+				{ 11, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "1 #gold#"};
+				{ 12, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "1 #gold#"};
+				{ 13, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "=q1=#m4#: =ds=#e13#"};
+				{ 17, 77158, "", "=q2=Darkmoon \"Tiger\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 18, 78340, "", "=q1=Cloak of the Darkmoon Faire", "=ds=#s4#", "#DARKMOON:90#"},
+				{ 19, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "#DARKMOON:1#"},
+				{ 20, 77256, "", "=q1=Darkmoon \"Sword\"", "=ds=#h2#", "#DARKMOON:20#"},
+				{ 21, 78341, "", "=q1=Darkmoon Hammer", "=ds=#h2#, #w6#", "#DARKMOON:160#"},
+				{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"},
+				{ 23, 75040, "", "=q1=Flimsy Darkmoon Balloon", "=ds=#e13#", "10 #silver#"},
+				{ 24, 75041, "", "=q1=Flimsy Green Balloon", "=ds=#e13#", "10 #silver#"},
+				{ 25, 75042, "", "=q1=Flimsy Yellow Balloon", "=ds=#e13#", "10 #silver#"},
+				{ 26, 18662, "", "=q1=Heavy Leather Ball", "=ds=#m20#", "20 #copper#"},
 				extraText = ": "..BabbleInventory["Mounts"].." & "..BabbleInventory["Companions"];
 			};
 			{
@@ -1142,25 +1146,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 
 	AtlasLoot_Data["DarkmoonDeck"] = {
 		["Normal"] = {
-			--[[{
-				{ 1, 19491, "", "=q4=Amulet of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
-				{ 2, 19426, "", "=q4=Orb of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
-				{ 3, 19296, "", "=q2=Greater Darkmoon Prize", "40 #darkmoon#"};
-				{ 4, 19297, "", "=q2=Lesser Darkmoon Prize", "12 #darkmoon#"};
-				{ 5, 19298, "", "=q2=Minor Darkmoon Prize", "5 #darkmoon#"};
-				{ 6, 19291, "", "=q1=Darkmoon Storage Box", "50 #darkmoon#"};
-				{ 7, 19293, "", "=q1=Last Year's Mutton", "=ds=#h1#, #w6#", "50 #darkmoon#", ""};
-				{ 8, 22729, "", "=q1=Schematic: Steam Tonk Controller", "=ds=#p5# (275)", "40 #darkmoon#", ""};
-				{ 9, 19292, "", "=q1=Last Month's Mutton", "=ds=#h1#, #w6#", "10 #darkmoon#", ""};
-				{ 10, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "5 #darkmoon#", ""};
-				{ 12, 19182, "", "=q1=Darkmoon Faire Prize Ticket", "=ds=#m17#"};
-				{ 16, 19302, "", "=q3=Darkmoon Ring", "=ds=#s13#"};
-				{ 17, 19303, "", "=q2=Darkmoon Necklace", "=ds=#s2#"};
-				{ 19, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
-				{ 20, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
-				{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
-				extraText = ": "..AL["Darkmoon Faire Rewards"];
-			};]]--
 			{
 				{ 2, 79325, "", "=q4=Crane Deck", "=ds=#m2#"};
 				{ 3, 79330, "", "=q4=Relic of Chi Ji", "=q1=#m4#: =ds=#s14#"};
