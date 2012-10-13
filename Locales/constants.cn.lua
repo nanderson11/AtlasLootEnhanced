@@ -255,10 +255,13 @@ if AL then
 	AL["ilvl 397"] = "等级397";
 	AL["ilvl 470"] = "等级470";
 	AL["ilvl 490"] = "等级490";
+	AL["Grand Marshal"] = "大元帅";
 	AL["Gladiator"] = "角斗士";
 	AL["Vengeful"] = "复仇";
 	AL["Merciless"] = "残酷";
 	AL["Brutal"] = "野蛮";
+	AL["Wrathful"] = "暴怒";
+	AL["Cataclysmic"] = "灾变";
 
 	-- #######################################
 	-- UI things END
@@ -355,6 +358,7 @@ if AL then
 	AL["BoE World Epics"] = "世界掉落的史诗装备";
 	AL["Legendary Items"] = "传奇物品";
 	AL["Misc Sets"] = "其它套装";
+	AL["Tier Sets"] = "等级套装";
 	AL["Tier 1/2 Set"] = "等级1/2套装";
 	AL["Tier 1/2/3 Set"] = "等级1/2/3套装";
 	AL["Tier 3 Set"] = "等级3套装";
