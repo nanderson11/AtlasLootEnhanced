@@ -6718,7 +6718,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AL["Factions"].." - "..AL["Classic WoW"],
+			name = BabbleFaction["Bloodsail Buccaneers"].." / "..BabbleFaction["Hydraxian Waterlords"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -6915,11 +6915,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Gilneas"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_win_gilneas", "=q6=Gilneas", "=q5=#r1#"};
+				{ 1, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r1#"};
 				{ 2, 64882, "", "=q1=Gilneas Tabard", "=ds=#s7#"};
-				{ 4, 0, "achievement_win_gilneas", "=q6=Gilneas", "=q5=#r4#"};
+				{ 4, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r4#"};
 				{ 5, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#"};
-				{ 7, 0, "achievement_win_gilneas", "=q6=Gilneas", "=q5=#r5#"};
+				{ 7, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r5#"};
 				{ 8, 64893, "", "=q3=Cape of Gilneas", "=ds=#s4#"};
 				{ 9, 64892, "", "=q3=Mantle of Gilneas", "=ds=#s4#"};
 				{ 10, 64894, "", "=q3=Shroud of Gilneas", "=ds=#s4#"};
@@ -6940,11 +6940,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["GnomereganRep"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_gnome", "=q6=Gnomeregan", "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r1#"};
 				{ 2, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6=Gnomeregan", "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r4#"};
 				{ 5, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_gnome", "=q6=Gnomeregan", "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r5#"};
 				{ 8, 64896, "", "=q3=Cape of Gnomeregan", "=ds=#s4#"};
 				{ 9, 64895, "", "=q3=Mantle of Gnomeregan", "=ds=#s4#"};
 				{ 10, 64897, "", "=q3=Shroud of Gnomeregan", "=ds=#s4#"};
@@ -6972,6 +6972,8 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r1#"};
 				{ 2, 83080, "", "=q1=Huojin Tabard", "=ds=#s7#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r4#"};
+				{ 5, 92070, "", "=q2=Huojin Satchel", "=ds=#e1#"};
 				{ 16, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r5#"};
 				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
@@ -7235,6 +7237,8 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r1#"};
 				{ 2, 83079, "", "=q1=Tushui Tabard", "=ds=#s7#"};
+				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r4#"};
+				{ 5, 92071, "", "=q2=Tushui Satchel", "=ds=#e1#"};
 				{ 16, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r5#"};
 				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#"};
 				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#"};
