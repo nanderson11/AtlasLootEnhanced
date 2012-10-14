@@ -247,14 +247,14 @@ if AL then
 	AL["Show Price"] = "Preis anzeigen";
 	AL["Skill"] = "Fertigkeit";
 	AL["Location"] = "Quelle";
-	AL["ilvl 200"] = "Gegenstandsstufe 200";
-	AL["ilvl 213"] = "Gegenstandsstufe 213";
-	AL["ilvl 226"] = "Gegenstandsstufe 226";
-	AL["ilvl 245"] = "Gegenstandsstufe 245";
-	AL["ilvl 264"] = "Gegenstandsstufe 264";
-	AL["ilvl 397"] = "Gegenstandsstufe 397";
-	AL["ilvl 470"] = "Gegenstandsstufe 470";
-	AL["ilvl 490"] = "Gegenstandsstufe 490";
+	-- AL["ilvl 200"] = "Gegenstandsstufe 200";
+	-- AL["ilvl 213"] = "Gegenstandsstufe 213";
+	-- AL["ilvl 226"] = "Gegenstandsstufe 226";
+	-- AL["ilvl 245"] = "Gegenstandsstufe 245";
+	-- AL["ilvl 264"] = "Gegenstandsstufe 264";
+	-- AL["ilvl 397"] = "Gegenstandsstufe 397";
+	-- AL["ilvl 470"] = "Gegenstandsstufe 470";
+	-- AL["ilvl 490"] = "Gegenstandsstufe 490";
 	AL["Grand Marshal"] = "Großmarschall";
 	-- AL["Gladiator"] = true;
 	AL["Vengeful"] = "Rachsüchtig";
@@ -405,12 +405,13 @@ if AL then
 	AL["Fishing Contests"] = "Angelwettbewerbe";
 
 	-- World Events	Menu Names
+	AL["Special Rewards"] = "Spezielle Belohnungen";
 	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
 	AL["Food and Drinks"] = "Speisen und Getränke";
 	AL["Gifts & Presents"] = "Geschenke";
-	AL["Special Rewards"] = "Spezielle Belohnungen";
 	AL["Consumable Wands & Masks"] = "Verbrauchbare Stäbe & Masken";
 	AL["Permanent Masks"] = "Dauerhafte Masken";
+	AL["Schematics & Patterns"] = "Baupläne & Muster";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";
@@ -946,7 +947,7 @@ if AL then
 	AL["June"] = "Juni";
 	AL["July"] = "Juli";
 	-- AL["August"] = true;
-	-- AL["September"] = "true;
+	-- AL["September"] = true;
 	AL["October"] = "Oktober";
 	-- AL["November"] = true;
 	AL["December"] = "Dezember";
@@ -1103,7 +1104,7 @@ if AL then
 	AL["Halfhill Farm"] = "Halbhügel Farm";
 
 	-- Shortcuts for Bossname files
-	-- AL["Avatar"] = true; Avatar of the Martyred
+	-- AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
 	AL["The Grim Guzzler"] = "Zum Grimmigen Säufer";
