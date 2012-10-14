@@ -926,12 +926,7 @@ if AL then
 	AL["Winter Veil Gift"] = "Presente do Véu de Inverno";
 	AL["Smokywood Pastures Extra-Special Gift"] = "Presente Extra-Especial de Pasto de Madeira Esfumaçada";
 	AL["Brightly Colored Egg"] = "Ovo Brilhante Colorido"; --Comprobar
-	AL["Lunar Festival Fireworks Pack"] = "Pacote de Fogos de artifício do Festival da Lua";
 	AL["Lucky Red Envelope"] = "Envelope Vermelho da Sorte";
-	AL["Small Rocket Recipes"] = "Receitas de Foguetes Pequenos";
-	AL["Large Rocket Recipes"] = "Receitas de Foguetes Grandes";
-	AL["Cluster Rocket Recipes"] = "Receitas de Grupos de Foguetes";
-	AL["Large Cluster Rocket Recipes"] = "Receitas de Grupos de Foguetes grandes";
 	AL["Timed Reward Chest"] = "Baú de Recompensa de Tempo"; --Comprobar
 	AL["Timed Reward Chest 1"] = "Baú de Recompensa de Tempo 1";
 	AL["Timed Reward Chest 2"] = "Baú de Recompensa de Tempo 2";

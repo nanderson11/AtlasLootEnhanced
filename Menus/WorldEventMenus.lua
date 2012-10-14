@@ -24,7 +24,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 18, "ChildrensWeek", "inv_misc_toy_04", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
 				{ 19, "WINTERVIELMENU", "achievement_worldevent_merrymaker", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
 				{ 20, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
-				{ 21, "LunarFestival", "achievement_worldevent_lunar", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
+				{ 21, "LUNARFESTIVALMENU", "achievement_worldevent_lunar", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
 				{ 22, "Noblegarden", "inv_egg_09", "=ds="..AL["Noblegarden"], "=q5="..AL["Various Locations"]};
 				{ 25, "FishingExtravaganza", "inv_misc_fish_06", "=ds="..AL["Fishing Contests"], "=q5="..BabbleZone["Stranglethorn Vale"].." / "..BabbleZone["Northrend"]};
 				{ 28, "ETHEREUMMENU", "INV_Misc_PunchCards_Prismatic", "=ds="..AL["Ethereum Prison"], ""};
@@ -172,6 +172,23 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Feast of Winter Veil"],
+			menu = "WORLDEVENTMENU",
+		};
+	}
+
+	AtlasLoot_Data["LUNARFESTIVALMENU"] = {
+		["Normal"] = {
+			{
+				{ 1, "LunarFestival", "inv_misc_elvencoins", "=ds="..AL["Vendor"], ""};
+				{ 3, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
+				{ 16, "LunarFestival#2", "inv_scroll_06", "=ds="..AL["Schematics & Patterns"], ""};
+				{ 18, 0, "INV_Misc_LuckyMoneyEnvelope", "=q6="..AL["Lucky Red Envelope"], ""};
+				{ 19, 21744, "", "=q1=Lucky Rocket Cluster", "=ds=#e23#"};
+				{ 20, 21745, "", "=q1=Elder's Moonstone", "=ds=#m20#"};
+			};
+		};
+		info = {
+			name = AL["Lunar Festival"],
 			menu = "WORLDEVENTMENU",
 		};
 	}

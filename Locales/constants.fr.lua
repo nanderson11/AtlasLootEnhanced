@@ -1112,12 +1112,7 @@ if AL then
 	AL["Winter Veil Gift"] = "Rob-fusée mécanique";
 	AL["Smokywood Pastures Extra-Special Gift"] = "Cadeau extra-spécial des Gourmandises Fumebois";
 	AL["Brightly Colored Egg"] = "Oeuf brillamment coloré";
-	AL["Lunar Festival Fireworks Pack"] = "Sac de feux d'artifice de la fête lunaire";
 	AL["Lucky Red Envelope"] = "Enveloppe rouge porte-bonheur";
-	AL["Small Rocket Recipes"] = "Recettes des petites comètes";
-	AL["Large Rocket Recipes"] = "Recettes de grandes comètes";
-	AL["Cluster Rocket Recipes"] = "Recettes de chapelet de comètes";
-	AL["Large Cluster Rocket Recipes"] = "Recettes de chapelet de grandes comètes";
 	AL["Timed Reward Chest"] = "Coffre du parcours rapide";
 	AL["Timed Reward Chest 1"] = "Coffre du parcours rapide 1";
 	AL["Timed Reward Chest 2"] = "Coffre du parcours rapide 2";

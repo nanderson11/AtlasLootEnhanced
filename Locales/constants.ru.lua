@@ -974,12 +974,7 @@ if AL then
 	AL["Winter Veil Gift"] = "Подарок на Зимний покров";
 	AL["Smokywood Pastures Extra-Special Gift"] = "Эксклюзивный дар Пастбищ Дымного Леса";
 	AL["Brightly Colored Egg"] = "Раскрашенное яйцо";
-	AL["Lunar Festival Fireworks Pack"] = "Пачка фейерверков для Праздника луны";
 	AL["Lucky Red Envelope"] = "Красный конверт Счастья";
-	AL["Small Rocket Recipes"] = "Чертеж малой ракеты";
-	AL["Large Rocket Recipes"] = " Чертеж большой ракеты";
-	AL["Cluster Rocket Recipes"] = "Чертежи батареи фейерверков";
-	AL["Large Cluster Rocket Recipes"] = "Чертежи больших батарей фейерверков";
 	AL["Timed Reward Chest"] = "Сундук, награда за время";
 	AL["Timed Reward Chest 1"] = "1-й сундук, награда за время";
 	AL["Timed Reward Chest 2"] = "2-й сундук, награда за время";

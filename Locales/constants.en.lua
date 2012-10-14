@@ -405,12 +405,13 @@ if AL then
 	AL["Fishing Contests"] = true;
 
 	-- World Events	Menu Names
-	AL["Brew of the Month Club"] = true;
-	AL["Food and Drinks"] = true;
-	AL["Gifts & Presents"] = true;
-	AL["Special Rewards"] = true;
-	AL["Consumable Wands & Masks"] = true;
-	AL["Permanent Masks"] = true;
+	AL["Special Rewards"] = true; 			-- Brewfest, Feast of Winter Veil
+	AL["Brew of the Month Club"] = true; 	-- Brewfest
+	AL["Food and Drinks"] = true; 			-- Brewfest
+	AL["Gifts & Presents"] = true; 			-- Feast of Winter Veil
+	AL["Consumable Wands & Masks"] = true; 	-- Hallow's End
+	AL["Permanent Masks"] = true; 			-- Hallow's End
+	AL["Schematics & Patterns"] = true; 	-- Lunar Festival
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = true;
@@ -1125,12 +1126,7 @@ if AL then
 	AL["Winter Veil Gift"] = true;
 	AL["Smokywood Pastures Extra-Special Gift"] = true;
 	AL["Brightly Colored Egg"] = true;
-	AL["Lunar Festival Fireworks Pack"] = true;
 	AL["Lucky Red Envelope"] = true;
-	AL["Small Rocket Recipes"] = true;
-	AL["Large Rocket Recipes"] = true;
-	AL["Cluster Rocket Recipes"] = true;
-	AL["Large Cluster Rocket Recipes"] = true;
 	AL["Timed Reward Chest"] = true;
 	AL["Timed Reward Chest 1"] = true;
 	AL["Timed Reward Chest 2"] = true;

@@ -631,57 +631,64 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["LunarFestival"] = {
 		["Normal"] = {
 			{
-				{ 1, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
-				{ 3, 21157, "", "=q1=Festive Green Dress", "=ds=#s5#"};
-				{ 4, 21538, "", "=q1=Festive Pink Dress", "=ds=#s5#"};
-				{ 5, 21539, "", "=q1=Festive Purple Dress", "=ds=#s5#"};
-				{ 7, 21541, "", "=q1=Festive Black Pant Suit", "=ds=#s5#"};
-				{ 8, 21544, "", "=q1=Festive Blue Pant Suit", "=ds=#s5#"};
-				{ 9, 21543, "", "=q1=Festive Teal Pant Suit", "=ds=#s5#"};
-				{ 11, 21537, "", "=q1=Festival Dumplings", "=ds=#e3#"};
-				{ 13, 21713, "", "=q1=Elune's Candle", "=ds=#m20#"};
-				{ 15, 21100, "", "=q1=Coin of Ancestry", "=ds=#m17#"};
-				{ 16, 0, "INV_Box_02", "=q6="..AL["Lunar Festival Fireworks Pack"], "=ds=#e23#"};
-				{ 17, 21558, "", "=q1=Small Blue Rocket", "=ds=#e23#"};
-				{ 18, 21559, "", "=q1=Small Green Rocket", "=ds=#e23#"};
-				{ 19, 21557, "", "=q1=Small Red Rocket", "=ds=#e23#"};
-				{ 20, 21561, "", "=q1=Small White Rocket", "=ds=#e23#"};
-				{ 21, 21562, "", "=q1=Small Yellow Rocket", "=ds=#e23#"};
-				{ 22, 21589, "", "=q1=Large Blue Rocket", "=ds=#e23#"};
-				{ 23, 21590, "", "=q1=Large Green Rocket", "=ds=#e23#"};
-				{ 24, 21592, "", "=q1=Large Red Rocket", "=ds=#e23#"};
-				{ 25, 21593, "", "=q1=Large White Rocket", "=ds=#e23#"};
-				{ 26, 21595, "", "=q1=Large Yellow Rocket", "=ds=#e23#"};
-				{ 28, 0, "INV_Misc_LuckyMoneyEnvelope", "=q6="..AL["Lucky Red Envelope"], ""};
-				{ 29, 21744, "", "=q1=Lucky Rocket Cluster", "=ds=#e23#"};
-				{ 30, 21745, "", "=q1=Elder's Moonstone", "=ds=#m20#"};
+				{ 1, 74611, "", "=q3=Festival Lantern", "=ds=#e13#", "#LUNARFESTIVAL:50#"};
+				{ 2, 74610, "", "=q3=Lunar Lantern", "=ds=#e13#", "#LUNARFESTIVAL:50#"};
+				{ 3, 21157, "", "=q1=Festive Green Dress", "=ds=#s5#", "#LUNARFESTIVAL:5#"};
+				{ 4, 21538, "", "=q1=Festive Pink Dress", "=ds=#s5#", "#LUNARFESTIVAL:5#"};
+				{ 5, 21539, "", "=q1=Festive Purple Dress", "=ds=#s5#", "#LUNARFESTIVAL:5#"};
+				{ 6, 21541, "", "=q1=Festive Black Pant Suit", "=ds=#s5#", "#LUNARFESTIVAL:5#"};
+				{ 7, 21544, "", "=q1=Festive Blue Pant Suit", "=ds=#s5#", "#LUNARFESTIVAL:5#"};
+				{ 8, 21543, "", "=q1=Festive Teal Pant Suit", "=ds=#s5#", "#LUNARFESTIVAL:5#"};
+				{ 9, 21537, "", "=q1=Festival Dumplings", "=ds=#e3#", "#LUNARFESTIVAL:1#"};
+				{ 10, 21721, "", "=q1=Moonglow", "=ds=#e4#", "15 #copper#"};
+				{ 11, 21713, "", "=q1=Elune's Candle", "=ds=#m20#", "10 #silver#"};
+				{ 12, 21558, "", "=q1=Small Blue Rocket", "=ds=#e23#", "25 #copper#"};
+				{ 13, 21559, "", "=q1=Small Green Rocket", "=ds=#e23#", "25 #copper#"};
+				{ 14, 21557, "", "=q1=Small Red Rocket", "=ds=#e23#", "25 #copper#"};
+				{ 15, 21571, "", "=q1=Blue Rocket Cluster", "=ds=#e23#", "1 #silver#"};
+				{ 16, 21574, "", "=q1=Green Rocket Cluster", "=ds=#e23#", "1 #silver#"};
+				{ 17, 21576, "", "=q1=Red Rocket Cluster", "=ds=#e23#", "1 #silver#"};
+				{ 18, 21747, "", "=q1=Festival Firecracker", "=ds=#e23#", "1 #silver#"};
+				{ 20, 21640, "", "=q1=Lunar Festival Fireworks Pack", "=ds=#e23#", "#LUNARFESTIVAL:5#"};
+				{ 21, 21558, "", "=q1=Small Blue Rocket", "=ds=#e23#"};
+				{ 22, 21559, "", "=q1=Small Green Rocket", "=ds=#e23#"};
+				{ 23, 21557, "", "=q1=Small Red Rocket", "=ds=#e23#"};
+				{ 24, 21561, "", "=q1=Small White Rocket", "=ds=#e23#"};
+				{ 25, 21562, "", "=q1=Small Yellow Rocket", "=ds=#e23#"};
+				{ 26, 21589, "", "=q1=Large Blue Rocket", "=ds=#e23#"};
+				{ 27, 21590, "", "=q1=Large Green Rocket", "=ds=#e23#"};
+				{ 28, 21592, "", "=q1=Large Red Rocket", "=ds=#e23#"};
+				{ 29, 21593, "", "=q1=Large White Rocket", "=ds=#e23#"};
+				{ 30, 21595, "", "=q1=Large Yellow Rocket", "=ds=#e23#"};
+				extraText = ": "..AL["Vendor"];
 			};
 			{
-				{ 1, 21738, "", "=q2=Schematic: Firework Launcher ", "=ds=#p5# (225)"};
-				{ 3, 0, "INV_Scroll_03", "=q6="..AL["Small Rocket Recipes"], ""};
+				{ 1, 21738, "", "=q2=Schematic: Firework Launcher ", "=ds=#p5# (225)", "#LUNARFESTIVAL:5#"};
+				{ 3, 21740, "", "=q1=Small Rocket Recipes", "=ds=#p5# (125)", "#LUNARFESTIVAL:5#"};
 				{ 4, 21724, "", "=q2=Schematic: Small Blue Rocket", "=ds=#p5# (125)"};
 				{ 5, 21725, "", "=q2=Schematic: Small Green Rocket", "=ds=#p5# (125)"};
 				{ 6, 21726, "", "=q2=Schematic: Small Red Rocket", "=ds=#p5# (125)"};
-				{ 8, 0, "INV_Scroll_04", "=q6="..AL["Large Rocket Recipes"], ""};
+				{ 8, 21742, "", "=q1=Large Rocket Recipes", "=ds=#p5# (175)", "#LUNARFESTIVAL:5#"};
 				{ 9, 21727, "", "=q2=Schematic: Large Blue Rocket", "=ds=#p5# (175)"};
 				{ 10, 21728, "", "=q2=Schematic: Large Green Rocket", "=ds=#p5# (175)"};
 				{ 11, 21729, "", "=q2=Schematic: Large Red Rocket", "=ds=#p5# (175)"};
-				{ 13, 44916, "", "=q2=Pattern: Festival Dress", "=ds=#p8# (250)"};
+				{ 13, 44916, "", "=q2=Pattern: Festival Dress", "=ds=#p8# (250)", "#LUNARFESTIVAL:5#"};
 				{ 16, 21737, "", "=q2=Schematic: Cluster Launcher", "=ds=#p5# (275)"};
-				{ 18, 0, "INV_Scroll_05", "=q6="..AL["Cluster Rocket Recipes"], ""};
+				{ 18, 21741, "", "=q1=Cluster Rocket Recipes", "=ds=#p5# (225)", "#LUNARFESTIVAL:5#"};
 				{ 19, 21730, "", "=q2=Schematic: Blue Rocket Cluster", "=ds=#p5# (225)"};
 				{ 20, 21731, "", "=q2=Schematic: Green Rocket Cluster", "=ds=#p5# (225)"};
 				{ 21, 21732, "", "=q2=Schematic: Red Rocket Cluster", "=ds=#p5# (225)"};
-				{ 23, 0, "INV_Scroll_06", "=q6="..AL["Large Cluster Rocket Recipes"], ""};
+				{ 23, 21743, "", "=q1=Large Cluster Rocket Recipes", "=ds=#p5# (275)", "#LUNARFESTIVAL:5#"};
 				{ 24, 21733, "", "=q2=Schematic: Large Blue Rocket Cluster", "=ds=#p5# (275)"};
 				{ 25, 21734, "", "=q2=Schematic: Large Green Rocket Cluster", "=ds=#p5# (275)"};
 				{ 26, 21735, "", "=q2=Schematic: Large Red Rocket Cluster", "=ds=#p5# (275)"};
-				{ 28, 44917, "", "=q2=Pattern: Festival Suit", "=ds=#p8# (250)"};
+				{ 28, 44917, "", "=q2=Pattern: Festival Suit", "=ds=#p8# (250)", "#LUNARFESTIVAL:5#"};
+				extraText = ": "..AL["Schematics & Patterns"];
 			};
 		};
 		info = {
 			name = AL["Lunar Festival"],
-			module = moduleName, menu = "WORLDEVENTMENU", 
+			module = moduleName, menu = "LUNARFESTIVALMENU", 
 		};
 	};
 

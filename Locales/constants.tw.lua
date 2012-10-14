@@ -1119,12 +1119,7 @@ if AL then
 	AL["Winter Veil Gift"] = "冬幕節禮物";
 	AL["Smokywood Pastures Extra-Special Gift"] = "燻木牧場的超特別禮物";
 	AL["Brightly Colored Egg"] = "彩蛋";
-	AL["Lunar Festival Fireworks Pack"] = "新年煙火包";
 	AL["Lucky Red Envelope"] = "幸運紅包袋";
-	AL["Small Rocket Recipes"] = "小型煙火配方";
-	AL["Large Rocket Recipes"] = "大型煙火配方";
-	AL["Cluster Rocket Recipes"] = "煙花束配方";
-	AL["Large Cluster Rocket Recipes"] = "大型煙花束設計圖";
 	AL["Timed Reward Chest"] = "限時任務獎勵箱子";
 	AL["Timed Reward Chest 1"] = "限時任務獎勵箱子 1";
 	AL["Timed Reward Chest 2"] = "限時任務獎勵箱子 2";

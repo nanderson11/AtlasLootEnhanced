@@ -921,12 +921,7 @@ if AL then
 	AL["Winter Veil Gift"] = true;
 	AL["Smokywood Pastures Extra-Special Gift"] = true;
 	AL["Brightly Colored Egg"] = true;
-	AL["Lunar Festival Fireworks Pack"] = true;
 	AL["Lucky Red Envelope"] = true;
-	AL["Small Rocket Recipes"] = true;
-	AL["Large Rocket Recipes"] = true;
-	AL["Cluster Rocket Recipes"] = true;
-	AL["Large Cluster Rocket Recipes"] = true;
 	AL["Timed Reward Chest"] = true;
 	AL["Timed Reward Chest 1"] = true;
 	AL["Timed Reward Chest 2"] = true;

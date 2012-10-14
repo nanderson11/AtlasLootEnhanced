@@ -1125,12 +1125,7 @@ if AL then
 	AL["Winter Veil Gift"] = "Winterhauchgeschenk";
 	AL["Smokywood Pastures Extra-Special Gift"] = "Kokelwälder Extraspezialgeschenk";
 	AL["Brightly Colored Egg"] = "Osterei";
-	AL["Lunar Festival Fireworks Pack"] = "Feuerwerkspaket des Mondfests";
 	AL["Lucky Red Envelope"] = "Roter Glücksumschlag";
-	AL["Small Rocket Recipes"] = "Rezepte für kleine Raketen";
-	AL["Large Rocket Recipes"] = "Rezepte für große Raketen";
-	AL["Cluster Rocket Recipes"] = "Rezepte für Raketenbündel";
-	AL["Large Cluster Rocket Recipes"] = "Rezepte für große Raketenbündel";
 	-- AL["Timed Reward Chest"] = true;
 	-- AL["Timed Reward Chest 1"] = true;
 	-- AL["Timed Reward Chest 2"] = true;
