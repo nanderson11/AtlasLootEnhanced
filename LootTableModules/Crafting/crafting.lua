@@ -55,9 +55,30 @@ local SPELLFIRE = GetSpellInfo(26797);
 ---- Archaeology
 ----- Armor and Weapons
 ----- Miscellaneous
+----- Dwarf
+----- Night Elf
+----- Fossil
+----- Troll
+----- Orc
+----- Draenei
+----- Vrykul
+----- Nerubian
+----- Tol'vir
+----- Pandaren
+----- Mogu
 ---- Blacksmithing
 ----- Armor
+------ Classic
+------ Burning Crusade
+------ Wrath of the Lich King
+------ Cataclysm
+------ Mists of Pandaria
 ----- Weapons
+------ Classic
+------ Burning Crusade
+------ Wrath of the Lich King
+------ Cataclysm
+------ Mists of Pandaria
 ----- Armor Enhancements
 ----- Weapon Enhancements
 ----- Miscellaneous
@@ -69,6 +90,14 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- Cataclysm Vendor Sold Plans
 ----- Mists of Pandaria Vendor Sold Plans
 ---- Cooking
+----- Attributes
+----- Ratings
+----- Standard Buffs
+----- Special
+----- Banquets/Feasts
+----- Spell/Attack Power
+----- Other Buffs
+----- Food without Buffs
 ---- Enchanting
 ----- Boots
 ----- Bracers
@@ -76,22 +105,83 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- Cloaks
 ----- Gloves
 ----- Rings
------ Shields
+----- Shields & Off Hands
 ----- 2 Hand Weapons
 ----- 1 Hand Weapons
------ Staves
 ----- Miscellaneous
 ----- Cataclysm Vendor Sold Formulas
 ---- Engineering
----- First Aid
----- Inscription
----- Jewelcrafting
----- Leatherworking
+----- Cloth Armor
 ----- Leather Armor
 ----- Mail Armor
+----- Plate Armor
+----- Trinkets
+----- ?
+----- Explosives
+----- Scopes
+----- Tinker
+----- Miscellaneous
+----- Reagents
+----- Weapons
+----- Gnomish
+----- Goblin
+----- Cogwheel
+----- Pets & Mounts
+----- Fireworks
+---- First Aid
+---- Fishing
+---- Inscription
+----- Darkmoon Faire Cards
+----- Scrolls
+----- Shoulder Enchant
+----- Reagents
+----- Off Hand Items
+----- Staves
+----- Miscellaneous
+----- Death Knight Glyphs
+----- Druid Glyphs
+----- Hunter Glyphs
+----- Mage Glyphs
+----- Monk Glyphs
+----- Paladin Glyphs
+----- Priest Glyphs
+----- Rogue Glyphs
+----- Shaman Glyphs
+----- Warlock Glyphs
+----- Warrior Glyphs
+---- Jewelcrafting
+----- Red Gem
+----- Blue Gem
+----- Yellow Gem
+----- Green Gem
+----- Orange Gem
+----- Purple Gem
+----- Meta Gem
+----- Prismatic Gem
+----- Dragon's Eye
+----- Chimera's Eye
+----- Serpent's Eye
+----- Pets & Mounts
+----- Necks
+----- Rings
+----- Trinkets
+----- Miscellaneous
+---- Leatherworking
+----- Leather Armor
+------ Classic
+------ Burning Crusade
+------ Wrath of the Lich King
+------ Cataclysm
+------ Mists of Pandaria
+----- Mail Armor
+------ Classic
+------ Burning Crusade
+------ Wrath of the Lich King
+------ Cataclysm
+------ Mists of Pandaria
 ----- Cloaks
 ----- Item Enhancements
------ Drums / Bags / Misc
+----- Drums / Bags / Miscellaneous
 ----- Leather
 ----- Dragonscale
 ----- Elemental
@@ -100,8 +190,15 @@ local SPELLFIRE = GetSpellInfo(26797);
 ---- Mining
 ---- Tailoring
 ----- Armor
+------ Classic
+------ Burning Crusade
+------ Wrath of the Lich King
+------ Cataclysm
+------ Mists of Pandaria
 ----- Bags
+----- Item Enhancements
 ----- Miscellaneous
+----- Cloth
 ----- Shirts
 ----- Mooncloth
 ----- Shadoweave
@@ -2540,61 +2637,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["EnchantingCloak"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Agility"], ""};
-				{ 2, "s60663", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Major Agility", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
-				{ 3, "s44500", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Superior Agility", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 4, "s34004", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Agility", "=ds=#sr# 310", "=ds="..AL["Trainer"]};
-				{ 5, "s13882", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Lesser Agility", "=ds=#sr# 225", "=ds="..BabbleZone["Tanaris"]};
-				{ 6, "s13419", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Minor Agility", "=ds=#sr# 110", "=ds="..AL["Vendor"]};
-				{ 8, 0, "INV_Box_01", "=q6="..AL["Crit Rating"], ""};
-				{ 9, "s104404", "inv_misc_note_01", "=ds=Enchant Cloak - Superior Critical Strike", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
-				{ 10, "s74247", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Critical Strike", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 11, "s74230", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Critical Strike", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Armor"].." & "..AL["Stamina"], ""};
-				{ 17, "s104401", "inv_misc_note_01", "=ds=Enchant Cloak - Greater Protection", "=ds=#sr# 575", "=ds="..AL["Trainer"]};
-				{ 18, "s74234", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Protection", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
-				{ 19, "s47672", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Mighty Armor", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 20, "s27961", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Major Armor", "=ds=#sr# 310", "=ds="..AL["Trainer"]};
-				{ 21, "s20015", "inv_misc_note_01", "=ds=Enchant Cloak - Superior Defense", "=ds=#sr# 285", "=ds="..AL["Vendor"]};
-				{ 22, "s13746", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Defense", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
-				{ 23, "s13635", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Defense", "=ds=#sr# 155", "=ds="..AL["Trainer"]};
-				{ 24, "s13421", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Lesser Protection", "=ds=#sr# 115", "=ds="..AL["Trainer"]};
-				{ 25, "s7771", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Minor Protection", "=ds=#sr# 70", "=ds="..AL["Trainer"]};
-				{ 27, 0, "INV_Box_01", "=q6="..AL["Intellect"], ""};
-				{ 28, "s104403", "inv_misc_note_01", "=ds=Enchant Cloak - Superior Intellect", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
-				{ 29, "s74240", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Intellect", "=ds=#sr# 510", "=ds="..AL["Trainer"]};
-				{ 30, "s74202", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Intellect", "=ds=#sr# 465", "=ds="..AL["Trainer"]};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Dodge Rating"], ""};
-				{ 2, "s44591", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Superior Dodge", "=ds=#sr# 435", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 3, "s47051", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Greater Dodge", "=ds=#sr# 375", "=ds="..BabbleZone["Magisters' Terrace"]};
-				{ 4, "s25086", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Dodge", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
-				{ 5, "s25083", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Stealth", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Other"], ""};
-				{ 17, "s104398", "inv_misc_note_01", "=ds=Enchant Cloak - Accuracy", "=ds=#sr# 550", "=ds="..AL["Trainer"]};
-				{ 18, "s44631", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Shadow Armor", "=ds=#sr# 440", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 19, "s47899", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Wisdom", "=ds=#sr# 440", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 20, "s74192", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Lesser Power", "=ds=#sr# 435", "=ds="..AL["Trainer"]};
-				{ 21, "s47898", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Greater Speed", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 22, "s44582", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Minor Power", "=ds=#sr# 395", "=ds="..AL["Trainer"]};
-				{ 23, "s60609", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Speed", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 24, "s34003", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Spell Penetration", "=ds=#sr# 325", "=ds="..AL["Vendor"]};
-				{
-					{ 25, "s25084", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Subtlety", "=ds=#sr# 300", "=ds="..BabbleFaction["Thrallmar"].." - "..BabbleFaction["Exalted"]};
-					{ 25, "s25084", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Subtlety", "=ds=#sr# 300", "=ds="..BabbleFaction["Honor Hold"].." - "..BabbleFaction["Exalted"]};
-				};
-			};
-		};
-		info = {
-			name = ENCHANTING..": "..AL["Enchant Cloak"],
-			module = moduleName, menu = "ENCHANTINGMENU", instance = "Enchanting",
-		};
-	};
-
 	AtlasLoot_Data["EnchantingChest"] = {
 		["Normal"] = {
 			{
@@ -2654,6 +2696,61 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 		info = {
 			name = ENCHANTING..": "..AL["Enchant Chest"],
+			module = moduleName, menu = "ENCHANTINGMENU", instance = "Enchanting",
+		};
+	};
+
+	AtlasLoot_Data["EnchantingCloak"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Agility"], ""};
+				{ 2, "s60663", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Major Agility", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{ 3, "s44500", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Superior Agility", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 4, "s34004", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Agility", "=ds=#sr# 310", "=ds="..AL["Trainer"]};
+				{ 5, "s13882", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Lesser Agility", "=ds=#sr# 225", "=ds="..BabbleZone["Tanaris"]};
+				{ 6, "s13419", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Minor Agility", "=ds=#sr# 110", "=ds="..AL["Vendor"]};
+				{ 8, 0, "INV_Box_01", "=q6="..AL["Crit Rating"], ""};
+				{ 9, "s104404", "inv_misc_note_01", "=ds=Enchant Cloak - Superior Critical Strike", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 10, "s74247", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Critical Strike", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
+				{ 11, "s74230", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Critical Strike", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleInventory["Armor"].." & "..AL["Stamina"], ""};
+				{ 17, "s104401", "inv_misc_note_01", "=ds=Enchant Cloak - Greater Protection", "=ds=#sr# 575", "=ds="..AL["Trainer"]};
+				{ 18, "s74234", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Protection", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 19, "s47672", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Mighty Armor", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 20, "s27961", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Major Armor", "=ds=#sr# 310", "=ds="..AL["Trainer"]};
+				{ 21, "s20015", "inv_misc_note_01", "=ds=Enchant Cloak - Superior Defense", "=ds=#sr# 285", "=ds="..AL["Vendor"]};
+				{ 22, "s13746", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Defense", "=ds=#sr# 205", "=ds="..AL["Trainer"]};
+				{ 23, "s13635", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Defense", "=ds=#sr# 155", "=ds="..AL["Trainer"]};
+				{ 24, "s13421", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Lesser Protection", "=ds=#sr# 115", "=ds="..AL["Trainer"]};
+				{ 25, "s7771", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Minor Protection", "=ds=#sr# 70", "=ds="..AL["Trainer"]};
+				{ 27, 0, "INV_Box_01", "=q6="..AL["Intellect"], ""};
+				{ 28, "s104403", "inv_misc_note_01", "=ds=Enchant Cloak - Superior Intellect", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
+				{ 29, "s74240", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Intellect", "=ds=#sr# 510", "=ds="..AL["Trainer"]};
+				{ 30, "s74202", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Intellect", "=ds=#sr# 465", "=ds="..AL["Trainer"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Dodge Rating"], ""};
+				{ 2, "s44591", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Superior Dodge", "=ds=#sr# 435", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 3, "s47051", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Greater Dodge", "=ds=#sr# 375", "=ds="..BabbleZone["Magisters' Terrace"]};
+				{ 4, "s25086", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Dodge", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
+				{ 5, "s25083", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Stealth", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Other"], ""};
+				{ 17, "s104398", "inv_misc_note_01", "=ds=Enchant Cloak - Accuracy", "=ds=#sr# 550", "=ds="..AL["Trainer"]};
+				{ 18, "s44631", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Shadow Armor", "=ds=#sr# 440", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 19, "s47899", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Wisdom", "=ds=#sr# 440", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 20, "s74192", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Lesser Power", "=ds=#sr# 435", "=ds="..AL["Trainer"]};
+				{ 21, "s47898", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Greater Speed", "=ds=#sr# 430", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 22, "s44582", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Minor Power", "=ds=#sr# 395", "=ds="..AL["Trainer"]};
+				{ 23, "s60609", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Speed", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 24, "s34003", "inv_enchant_formulagood_01", "=ds=Enchant Cloak - Spell Penetration", "=ds=#sr# 325", "=ds="..AL["Vendor"]};
+				{
+					{ 25, "s25084", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Subtlety", "=ds=#sr# 300", "=ds="..BabbleFaction["Thrallmar"].." - "..BabbleFaction["Exalted"]};
+					{ 25, "s25084", "inv_enchant_formulasuperior_01", "=ds=Enchant Cloak - Subtlety", "=ds=#sr# 300", "=ds="..BabbleFaction["Honor Hold"].." - "..BabbleFaction["Exalted"]};
+				};
+			};
+		};
+		info = {
+			name = ENCHANTING..": "..AL["Enchant Cloak"],
 			module = moduleName, menu = "ENCHANTINGMENU", instance = "Enchanting",
 		};
 	};
@@ -3630,6 +3727,130 @@ local SPELLFIRE = GetSpellInfo(26797);
 		info = {
 			name = FIRSTAID,
 			module = moduleName, menu = "CRAFTINGMENU"
+		};
+	};
+
+		---------------
+		--- Fishing ---
+		---------------
+
+	AtlasLoot_Data["FishingPoles"] = {
+		["Normal"] = {
+			{
+				{ 1, "", "19970", "=q3=Arcanite Fishing Pole", "=ds=#sr# 300", "=ds="..AL["Stranglethorn Fishing Extravaganza"].." #m4#: #QUESTID:8193#"};
+				{ 2, "", "44050", "=q4=Mastercraft Kalu'ak Fishing Pole", "=ds=#sr# 300", "=ds="..BabbleFaction["The Kalu'ak"].." - "..BabbleFaction["Exalted"]};
+				{ 3, "", "45991", "=q3=Bone Fishing Pole", "=ds=#sr# 300", "=ds="..AL["Fishing Daily Reward"]};
+				{ 4, "", "84661", "=q3=Dragon Fishing Pole", "=ds=#sr# 525", "=ds="..BabbleFaction["The Anglers"].." - "..BabbleFaction["Revered"]};
+				{ 5, "", "45992", "=q3=Jeweled Fishing Pole", "=ds=#sr# 300", "=ds="..AL["Fishing Daily Reward"]};
+				{ 6, "", "45858", "=q3=Nat's Lucky Fishing Pole", "=ds=#sr# 225", "=ds=#m4#: #QUESTID:6607#"};
+				{
+					{ 7, "", "19022", "=q2=Nat Pagle's Extreme Angler FC-5000", "=ds=#sr# 100", "=ds=#m4#: #QUESTID:26211#"};
+					{ 7, "", "19022", "=q2=Nat Pagle's Extreme Angler FC-5000", "=ds=#sr# 100", "=ds=#m4#: #QUESTID:26485#"};
+				};					
+				{ 8, "", "25978", "=q1=Seth's Graphite Fishing Pole", "=ds=#sr# 200", "=ds=#m4#: #QUESTID:10037#"};
+				{ 9, "", "6367", "=q1=Big Iron Fishing Pole", "=ds=#sr# 100", "=ds="..AL["Drop"]..": "..AL["Shellfish Trap"]};
+				{ 10, "", "6366", "=q1=Darkwood Fishing Pole", "=ds=#sr# 50", "=ds="..GetSpellInfo(63275)};
+				{ 11, "", "84660", "=q2=Pandaren Fishing Pole", "=ds=#sr# 0", "=ds="..BabbleFaction["The Anglers"].." - "..BabbleFaction["Honored"]};
+				{ 12, "", "6365", "=q1=Strong Fishing Pole", "=ds=#sr# 10", "=ds="..AL["Vendor"]};
+				{ 13, "", "46337", "=q1=Staats' Fishing Pole", "=ds=#sr# 1", "=ds=#m4#: #QUESTID:13537#, =ec1=#m7#"};
+				{ 14, "", "6256", "=q1=Fishing Pole", "=ds=#sr# 0", "=ds="..AL["Vendor"]};
+			};
+		};
+		info = {
+			name = BabbleInventory["Fishing Poles"],
+			module = moduleName, menu = "FISHINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["FishingLuresLines"] = {
+		["Normal"] = {
+			{
+				{ 2, "s84430", "68049", "=q1=Heat-Treated Spinning Lure", "=ds=#sr# 250", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036).." 510"};
+				{ 3, "", "46006", "=q1=Glow Worm", "=ds=#sr# 100", "=ds="..AL["Fishing Daily Reward"]};
+				{ 4, "s88017", "62673", "=q1=Feathered Lure", "=ds=#sr# 100", "=ds="..AL["Crafted"]..": "..GetSpellInfo(2550).." 450"};
+				{ 5, "s9271", "6533", "=q1=Aquadynamic Fish Attractor", "=ds=#sr# 100", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036).." 150 / "..AL["Vendor"]};
+				{ 6, "", "34861", "=q1=Sharpened Fish Hook", "=ds=#sr# 100", "=ds="..AL["Fishing Daily Reward"]};
+				{ 7, "", "6532", "=q1=Bright Baubles", "=ds=#sr# 100", "=ds="..AL["Vendor"].." / "..AL["World Drop"]};
+				{ 8, "", "7307", "=q1=Flesh Eating Worm", "=ds=#sr# 100", "=ds="..AL["Drop"]..": "..AL["Rotted One"]};
+				{ 9, "", "6811", "=q1=Aquadynamic Fish Lens", "=ds=#sr# 50", "=ds="..AL["Drop"]..": "..AL["Stendel's Bane"]};
+				{ 10, "", "6530", "=q1=Nightcrawlers", "=ds=#sr# 50", "=ds="..AL["Vendor"].." / "..AL["World Drop"]};
+				{ 11, "", "6529", "=q1=Shiny Bauble", "=ds=#sr# 0", "=ds="..AL["Vendor"]};
+				{ 12, "", "67404", "=q1=Glass Fishing Bobber", "=ds=#sr# 0", "=ds="..AL["Fishing Daily Reward"]};
+				{ 17, "", "19971", "=q1=High Test Eternium Fishing Line", "=ds=#sr# 150", "=ds="..AL["Stranglethorn Fishing Extravaganza"].." #m4#: #QUESTID:8224#"};
+				{ 18, "", "34836", "=q2=Spun Truesilver Fishing Line", "=ds=#sr# 300", "=ds="..AL["Fishing Daily Reward"]};
+				{ 19, "", "68796", "=q1=Reinforced Fishing Line", "=ds=#sr# 0", "=ds="..AL["Drop"]..": "..AL["Stendel's Bane"]};
+			};
+		};
+		info = {
+			name = BabbleInventory["Fishing Lure"].." / "..AL["Fishing Lines"],
+			module = moduleName, menu = "FISHINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["FishingGear"] = {
+		["Normal"] = {
+			{
+				{ 1, "", "88710", "=q4=Nat's Hat", "=ds=#s1#", "=ds="..BabbleFaction["Nat Pagle"].." - "..BabbleFaction["Exalted"]};
+				{ 2, "", "33820", "=q3=Weather-Beaten Fishing Hat", "=ds=#s1#, #a1#", "=ds="..AL["Fishing Daily Reward"]};
+				{ 3, "", "19972", "=q2=Lucky Fishing Hat", "=ds=#s1#, #a1#", "=ds="..AL["Stranglethorn Fishing Extravaganza"].." #m4#: #QUESTID:8221#"};
+				{ 5, "", "50287", "=q3=Boots of the Bay", "=ds=#s12#", "=ds="..AL["Kalu'ak Fishing Derby"].." #m4#: #QUESTID:24803#" };
+				{ 6, "", "19969", "=q2=Nat Pagle's Extreme Anglin' Boots", "=ds=#s12#, #a1#", "=ds="..AL["Stranglethorn Fishing Extravaganza"].." #m4#: #QUESTID:8225#"};
+				{ 8, "", "88535", "=q3=Sharpened Tuskarr Spear", "=ds=#h3#", "=ds="..BabbleFaction["The Anglers"].." - "..BabbleFaction["Revered"]};
+				{ 16, "", "85500", "=q3=Anglers Fishing Raft", "=ds=#m20#", "=ds="..BabbleFaction["The Anglers"].." - "..BabbleFaction["Revered"]};
+				{ 18, "", "85973", "=q3=Ancient Pandaren Fishing Charm", "=ds=#m20#", "=ds="..AL["Drop"]..": Ghostly Pandaren Fisherman" };
+				{ 20, "", "33223", "=q3=Fishing Chair", "=ds=#m20#", "=ds="..AL["Card Game Item"]..": "..AL["Gone Fishin'"]};
+				{ 21, "", "70161", "=q3=Mushroom Chair", "=ds=#m20#", "=ds="..AL["Vendor"]..": "..BabbleZone["Molten Front"]};
+				{ 22, "", "86596", "=q3=Nat's Fishing Chair", "=ds=#m20#", "=ds="..BabbleFaction["Nat Pagle"].." - "..BabbleFaction["Best Friend"]};
+				{ 24, "", "60218", "=q3=Lure Master Tackle Box", "=ds=#e1#", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036).." 475"};
+				{ 26, "", "34109", "=q1=Weather-Beaten Journal", "=ds=", "=ds="..AL["Fished From"]..": "..AL["Fishing Pools"].." / "..AL["Fishing Daily Reward"]};
+			};
+		};
+		info = {
+			name = AL["Fishing Gear"],
+			module = moduleName, menu = "FISHINGMENU"
+		};
+	};
+
+	AtlasLoot_Data["FishingFishWeapons"] = {
+		["Normal"] = {
+			{
+				{ 1, "", "68050", "=q3=Shatterscale Mightfish", "=ds=#h1#, #w6#", "=ds="..AL["Fished From"].." "};
+				{ 2, "", "19808", "=q2=Rockhide Strongfish", "=ds=#h1#, #w6#", "=ds="..AL["Fished From"]..": "};
+				{ 4, "", "6292", "=q1=10 Pound Mud Snapper", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 5, "", "6294", "=q1=12 Pound Mud Snapper", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 6, "", "6295", "=q1=15 Pound Mud Snapper", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 8, "", "13901", "=q1=15 Pound Salmon", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 9, "", "13902", "=q1=18 Pound Salmon", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 10, "", "13903", "=q1=22 Pound Salmon", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 11, "", "13904", "=q1=25 Pound Salmon", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 12, "", "13905", "=q1=29 Pound Salmon", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 13, "", "13906", "=q1=32 Pound Salmon", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 16, "", "44703", "=q2=Dark Herring", "=ds=#h1#, #w4#", "=ds="..AL["Fished From"]..": "};
+				{ 17, "", "6360", "=q2=Steelscale Crushfish", "=ds=#h1#, #w6#", "=ds="..AL["Fished From"]..": "};
+				{ 19, "", "6309", "=q1=17 Pound Catfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 20, "", "6310", "=q1=19 Pound Catfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 21, "", "6311", "=q1=22 Pound Catfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 22, "", "6363", "=q1=26 Pound Catfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 23, "", "6364", "=q1=32 Pound Catfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 25, "", "13885", "=q1=34 Pound Redgill", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 26, "", "13886", "=q1=37 Pound Redgill", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 27, "", "13882", "=q1=42 Pound Redgill", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 28, "", "13883", "=q1=45 Pound Redgill", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 29, "", "13884", "=q1=49 Pound Redgill", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 30, "", "13887", "=q1=52 Pound Redgill", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+			};
+			{
+				{ 1, "", "13914", "=q1=70 Pound Mightfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 2, "", "13915", "=q1=85 Pound Mightfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 3, "", "13916", "=q1=92 Pound Mightfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 4, "", "13917", "=q1=103 Pound Mightfish", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 16, "", "27516", "=q1=Enormous Barbed Gill Trout", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+				{ 17, "", "27515", "=q1=Huge Spotted Feltail", "=ds=#s15#", "=ds="..AL["Fished From"]..": "};
+			};
+		};
+		info = {
+			name = AL["Fish Weapons"],
+			module = moduleName, menu = "FISHINGMENU"
 		};
 	};
 

@@ -59,6 +59,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 12, "ARCHAEOLOGYMENU", "trade_archaeology", "=ds="..GetSpellInfo(78670), ""};
 				{ 13, "COOKINGMENU", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
 				{ 14, "FirstAid", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
+				{ 15, "FISHINGMENU", "trade_fishing", "=ds="..GetSpellInfo(63275), ""};
 				{ 17, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
 				{ 18, "CraftedWeapons", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
 				{ 20, "COOKINGDAILYMENU", "INV_Misc_Food_15", AL["Cooking Daily"], ""};
@@ -316,19 +317,34 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["COOKINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "CookingAttributes", "inv_misc_food_cooked_mogufishstew", "=ds="..AL["Attributes"], "" };
-				{ 3, "CookingRatings", "inv_misc_food_vendor_poundedricecakes", "=ds="..AL["Ratings"], "" };
-				{ 4, "CookingBuff", "inv_misc_food_68", "=ds="..AL["Standard Buffs"], "" };
+				{ 2, "CookingAttributes", "inv_misc_food_cooked_mogufishstew", "=ds="..AL["Attributes"], ""};
+				{ 3, "CookingRatings", "inv_misc_food_vendor_poundedricecakes", "=ds="..AL["Ratings"], ""};
+				{ 4, "CookingBuff", "inv_misc_food_68", "=ds="..AL["Standard Buffs"], ""};
 				{ 6, "CookingSpecial", "inv_valentineschocolate01", "=ds="..AL["Special"], ""};
-				{ 8, "CookingBanquetFeast", "inv_misc_food_cooked_greatpabanquet_grill", "=ds="..AL["Banquets/Feasts"], "" };
-				{ 17, "CookingAPSP", "inv_misc_cauldron_frost", "=ds="..AL["Spell/Attack Power"], "" };
-				{ 19, "CookingOtherBuffs", "inv_misc_food_87_sporelingsnack", "=ds="..AL["Other Buffs"], "" };
+				{ 8, "CookingBanquetFeast", "inv_misc_food_cooked_greatpabanquet_grill", "=ds="..AL["Banquets/Feasts"], ""};
+				{ 17, "CookingAPSP", "inv_misc_cauldron_frost", "=ds="..AL["Spell/Attack Power"], ""};
+				{ 19, "CookingOtherBuffs", "inv_misc_food_87_sporelingsnack", "=ds="..AL["Other Buffs"], ""};
 				{ 21, "CookingStandard", "inv_drink_15", "=ds="..AL["Food without Buffs"], ""};
 				{ 23, "s88019", "62649", "=q1=Fortune Cookie", "=ds=#sr# 525", "=ds="..AL["Cooking Daily"]};
 			};
 		};
 		info = {
 			name = COOKING,
+			menu = "CRAFTINGMENU",
+		};
+	}
+
+	AtlasLoot_Data["FISHINGMENU"] = {
+		["Normal"] = {
+			{
+				{ 2, "FishingPoles", "inv_fishingpole_01", "=ds="..BabbleInventory["Fishing Poles"], ""};
+				{ 3, "FishingGear", "inv_helmet_50", "=ds="..AL["Fishing Gear"], ""};
+				{ 17, "FishingLuresLines", "inv_misc_gem_variety_02", "=ds="..BabbleInventory["Fishing Lure"].." / "..AL["Fishing Lines"], ""};
+				{ 18, "FishingFishWeapons", "inv_misc_fish_35", "=ds="..AL["Fish Weapons"], ""};
+			};
+		};
+		info = {
+			name = FISHING,
 			menu = "CRAFTINGMENU",
 		};
 	}

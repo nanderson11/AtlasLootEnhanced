@@ -507,6 +507,11 @@ if AL then
 	-- Engineering
 	AL["Tinker"] = true;
 
+	-- Fishing
+	AL["Fish Weapons"] = true;
+	AL["Fishing Gear"] = true;
+	AL["Fishing Lines"] = true;
+
 	-- Inscription
 	AL["Major Glyph"] = true;
 	AL["Minor Glyph"] = true;
@@ -931,12 +936,13 @@ if AL then
 	AL["Carapace of the Old God"] = true;
 
 	-- Recipe origin strings
-	AL["Trainer"] = true;
-	AL["Discovery"] = true;
-	AL["World Drop"] = true;
-	AL["Drop"] = true;
-	AL["Vendor"] = true;
 	AL["Crafted"] = true;
+	AL["Discovery"] = true;
+	AL["Drop"] = true;
+	AL["Fished From"] = true;
+	AL["Trainer"] = true;
+	AL["Vendor"] = true;	
+	AL["World Drop"] = true;
 
 	-- Months
 	AL["January"] = true;
@@ -1096,6 +1102,7 @@ if AL then
 	AL["Poseidus"] = true;
 	AL["Burgy Blackheart"] = true;
 	AL["Battle Pet Trainer"] = true;
+	AL["Rotted One"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
@@ -1156,6 +1163,9 @@ if AL then
 	AL["Oozing Bag"] = true;
 	AL["Ominous Seed"] = true;
 	AL["Treasures of the Vale"] = true;
+	AL["Stendel's Bane"] = true;
+	AL["Shellfish Trap"] = true;
+	AL["Fishing Pools"] = true;
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = true;

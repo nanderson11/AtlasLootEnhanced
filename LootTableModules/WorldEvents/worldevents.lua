@@ -25,7 +25,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 ---- Bash'ir Landing Skyguard Raid
 ---- Darkmoon Faire
 ---- Gurubashi Arena Booty Run
----- Stranglethorn Fishing Extravaganza
+---- Stranglethorn Fishing Extravaganza / Kalu'ak Fishing Derby
 --- One-Time Events
 --- Triggered Events
 ---- Abyssal Council
@@ -1258,9 +1258,9 @@ local moduleName = "AtlasLoot_WorldEvents"
 		};
 	};
 
-		------------------------------------------
-		--- Stranglethorn Fishing Extravaganza ---
-		------------------------------------------
+		------------------------------------------------------------------
+		--- Stranglethorn Fishing Extravaganza / Kalu'ak Fishing Derby ---
+		------------------------------------------------------------------
 
 	AtlasLoot_Data["FishingExtravaganza"] = {
 		["Normal"] = {
