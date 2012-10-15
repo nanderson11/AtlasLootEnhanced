@@ -404,6 +404,15 @@ if AL then
 	AL["Kalu'ak Fishing Derby"] = "卡亚鲁克钓鱼大赛";
 	AL["Fishing Contests"] = "钓鱼大赛";
 
+	-- World Events	Menu Names
+	AL["Special Rewards"] = "特殊奖励"; 			-- Brewfest, Feast of Winter Veil
+	AL["Brew of the Month Club"] = "本月美酒俱乐部"; 	-- Brewfest
+	AL["Food and Drinks"] = "食物与饮料"; 			-- Brewfest
+	AL["Gifts & Presents"] = "礼物"; 			-- Feast of Winter Veil
+	AL["Consumable Wands & Masks"] = "可消耗的魔杖与面具"; 	-- Hallow's End
+	AL["Permanent Masks"] = "永久的面具"; 			-- Hallow's End
+	AL["Schematics & Patterns"] = "结构图/图样"; 	-- Lunar Festival
+
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00单击|r浏览掉落表格";
 	AL["|cffff0000Right-Click|r View Options"] = "|cffff0000右击|r查看选项";
@@ -626,8 +635,6 @@ if AL then
 	AL["Level 50-60"] = "等级50-60";
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
-	AL["Brew of the Month Club"] = "本月美酒俱乐部";
-	AL["Food and Drinks"] = "食物与饮料";
 
 	-- Profession descriptions
 	AL["Buff"] = "增益";
@@ -1140,8 +1147,6 @@ if AL then
 	AL["Cracked Egg"] = "裂开的卵";
 	AL["Small Spice Bag"] = "小香料袋";
 	AL["Handful of Treats"] = "一把糖果";
-	AL["Consumable Wands & Masks"] = "可消耗的魔杖与面具";
-	AL["Permanent Masks"] = "永久的面具";
 	AL["Lovely Dress Box"] = "可爱的裙装盒";
 	AL["Dinner Suit Box"] = "晚宴礼服箱";
 	AL["Bag of Heart Candies"] = "一袋糖果";
