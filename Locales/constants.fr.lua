@@ -254,10 +254,13 @@ if AL then
 	--AL["ilvl 397"] = true;
 	--AL["ilvl 470"] = true;
 	--AL["ilvl 490"] = true;
+	AL["Grand Marshal"] = "Connétable";
 	AL["Gladiator"] = "Gladiateur";
 	AL["Vengeful"] = "Vengeur";
 	AL["Merciless"] = "Impitoyable";
 	AL["Brutal"] = "Brutale";
+	AL["Wrathful"] = "Courroucé";
+	AL["Cataclysmic"] = "Cataclysmique";
 
 	-- #######################################
 	-- UI things END
@@ -353,6 +356,7 @@ if AL then
 	AL["BoE World Epics"] = "LqÉ Épiques mondial";
 	AL["Legendary Items"] = "Objets légendaires";
 	AL["Misc Sets"] = "Sets divers";
+	AL["Tier Sets"] = "Sets de palier";
 	--AL["Tier 1/2 Set"] = true;
 	--AL["Tier 1/2/3 Set"] = true;
 	--AL["Tier 3 Set"] = true;
@@ -397,6 +401,15 @@ if AL then
 	AL["Stranglethorn Fishing Extravaganza"] = "Concours de pêche de Strangleronce";
 	AL["Kalu'ak Fishing Derby"] = "Tournoi de pêche kalu'ak";
 	AL["Fishing Contests"] = "Concours de pêche";
+
+	-- World Events	Menu Names
+	AL["Special Rewards"] = "Récompenses spéciales"; 				-- Brewfest, Feast of Winter Veil
+	AL["Brew of the Month Club"] = "Le club de la Bière du mois";	-- Brewfest
+	AL["Food and Drinks"] = "Nourritures et boissons";			-- Brewfest
+	AL["Gifts & Presents"] = "Cadeaux";						-- Feast of Winter Veil
+	AL["Consumable Wands & Masks"] = "Baguettes et Masques";	 	-- Hallow's End
+	AL["Permanent Masks"] = "Masques permanents";		 		-- Hallow's End
+	AL["Schematics & Patterns"] = "Schémas et patrons";		 	-- Lunar Festival
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcours des Listes d'Objets";
@@ -491,6 +504,11 @@ if AL then
 
 	-- Engineering
 	AL["Tinker"] = "Objets bricolés";
+
+	-- Fishing
+	AL["Fish Weapons"] = "Armes en poisson";
+	AL["Fishing Gear"] = "Équipements de pêche";
+	AL["Fishing Lines"] = "Ligne de pêche";
 
 	-- Inscription
 	AL["Major Glyph"] = "Glyphe majeur";
@@ -619,8 +637,6 @@ if AL then
 	AL["Level 50-60"] = "Niveau 50-60";
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
-	AL["Brew of the Month Club"] = "Le club de la Bière du mois";
-	AL["Food and Drinks"] = "Nourriture et boissons";
 
 	-- Profession descriptions
 	--AL["Buff"] = true;
@@ -917,12 +933,13 @@ if AL then
 	AL["Carapace of the Old God"] = "Carapace du Dieu très ancien";
 
 	-- Recipe origin strings
-	AL["Trainer"] = "Entraineur";
+	AL["Crafted"] = "Fabriqué";
 	AL["Discovery"] = "Découverte";
-	AL["World Drop"] = "Drop mondial";
 	--AL["Drop"] = true;
-	AL["Vendor"] = "Vendeur";
-	AL["Crafted"] = "Créer";
+	AL["Fished From"] = "Pêché de";
+	AL["Trainer"] = "Entraineur";
+	AL["Vendor"] = "Vendeur";	
+	AL["World Drop"] = "Drop mondial";
 
 	-- Months
 	AL["January"] = "Janvier";
@@ -1082,6 +1099,7 @@ if AL then
 	AL["Poseidus"] = "Poséidus";
 	AL["Burgy Blackheart"] = "Burgy Cœur-Noir";
 	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
+	AL["Rotted One"] = "Pourri";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
@@ -1133,8 +1151,6 @@ if AL then
 	AL["Cracked Egg"] = "Oeuf brisé";
 	AL["Small Spice Bag"] = "Petit sac d'épices";
 	AL["Handful of Treats"] = "Poignée de sucreries";
-	AL["Consumable Wands & Masks"] = "Baguettes et masques";
-	AL["Permanent Masks"] = "Masques permanent";
 	AL["Lovely Dress Box"] = "Boîte de robe ravissante";
 	AL["Dinner Suit Box"] = "Boîte d'habit de soirée";
 	AL["Bag of Heart Candies"] = "Sachet de bonbons en forme de cœur";
@@ -1143,6 +1159,10 @@ if AL then
 	AL["Stolen Present"] = "Cadeau volé";
 	AL["Oozing Bag"] = "Sac vaseux";
 	AL["Ominous Seed"] = "Graine inquiétante";
+	AL["Treasures of the Vale"] = "Trésors du Val";
+	AL["Stendel's Bane"] = "Plaie de Stendel";
+	AL["Shellfish Trap"] = "Casier à crustacés";
+	AL["Fishing Pools"] = "Bancs de poissons";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Pass annuel";
