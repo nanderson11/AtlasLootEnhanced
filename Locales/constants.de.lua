@@ -507,6 +507,11 @@ if AL then
 	-- Engineering
 	AL["Tinker"] = "Basteln";
 
+	-- Fishing
+	AL["Fish Weapons"] = "Fisch-Waffen";
+	AL["Fishing Gear"] = "Angelausrüstung";
+	AL["Fishing Lines"] = "Angelschnüre";
+
 	-- Inscription
 	AL["Major Glyph"] = "Erhebliche Glyphe";
 	AL["Minor Glyph"] = "Geringe Glyphe";
@@ -931,12 +936,13 @@ if AL then
 	AL["Carapace of the Old God"] = "Knochenpanzer des Gottes";
 
 	-- Recipe origin strings
-	AL["Trainer"] = "Lehrer";
-	AL["Discovery"] = "Entdeckung";
-	AL["World Drop"] = "Weltdrop";
-	-- AL["Drop"] = true;
-	AL["Vendor"] = "Händler";
 	AL["Crafted"] = "Hergestellt";
+	AL["Discovery"] = "Entdeckung";
+	-- AL["Drop"] = true;
+	AL["Fished From"] = "Geangelt aus";
+	AL["Trainer"] = "Lehrer";
+	AL["Vendor"] = "Händler";
+	AL["World Drop"] = "Weltdrop";
 
 	-- Months
 	AL["January"] = "Januar";
@@ -1096,6 +1102,7 @@ if AL then
 	-- AL["Poseidus"] = true;
 	AL["Burgy Blackheart"] = "Bürgi Schwarzherz";
 	AL["Battle Pet Trainer"] = "Kampfhaustiertrainer";
+	AL["Rotted One"] = "Verfaulter";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
@@ -1156,6 +1163,9 @@ if AL then
 	AL["Oozing Bag"] = "Schlammiger Beutel";
 	AL["Ominous Seed"] = "Ominöser Samen";
 	AL["Treasures of the Vale"] = "Schätze des Tals";
+	AL["Stendel's Bane"] = "Stendels Ruin";
+	AL["Shellfish Trap"] = "Schalentierfalle";
+	AL["Fishing Pools"] = "Fischschwärme";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Jahrespass";
