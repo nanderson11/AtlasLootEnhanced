@@ -2448,25 +2448,43 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["Tillers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_faction_tillers", "=q6=#r4#", ""};
-				{ 2, 89869, "", "=q3=Pandaren Scarecrow", "=ds="};
-				{ 3, 85268, "", "=q2=Spring Blossom Sapling", "=ds="};
-				{ 4, 85216, "", "=q1=Enigma Seed", "=ds="};
-				{ 5, 85217, "", "=q1=Magebulb Seed", "=ds="};
-				{ 6, 89202, "", "=q1=Raptorleaf Seed", "=ds="};
-				{ 7, 85215, "", "=q1=Snakeroot Seed", "=ds="};
-				{ 8, 89233, "", "=q1=Songbell Seed", "=ds="};
-				{ 9, 89197, "", "=q1=Windshear Cactus Seed", "=ds="};
-				{ 16, 0, "achievement_faction_tillers", "=q6=#r5#", ""};
-				{ 17, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#"};
-				{ 18, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#"};
-				{ 19, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#"};
-				{ 20, 90175, "", "=q3=Gin-Ji Knife Set", "=ds=#m20#"};
-				{ 21, 80914, "", "=q3=Mourning Glory", "=ds=#m20#"};
-				{ 22, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#"};
-				{ 23, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)"};
-				{ 24, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)"};
-				{ 25, 85269, "", "=q2=Winter Blossom Sapling", "=ds="};
+				{ 1, 0, "achievement_faction_tillers", "=q6=#r2#", ""};
+				{ 2, 79102, "", "=q1=Green Cabbage Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 3, 89328, "", "=q1=Jade Squash Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 4, 80590, "", "=q1=Juicycrunch Carrot Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 5, 80592, "", "=q1=Mogu Pumpkin Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 6, 80594, "", "=q1=Pink Turnip Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 7, 80593, "", "=q1=Red Blossom Leek Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 8, 80591, "", "=q1=Scallion Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 9, 89329, "", "=q1=Striped Melon Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 10, 80595, "", "=q1=White Turnip Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 11, 89326, "", "=q1=Witchberry Seeds", "=ds=", "=ds=15 #silver#"};
+				{ 13, 0, "achievement_faction_tillers", "=q6=#r3#", ""};
+				{ 14, 85267, "", "=q2=Autumn Blossom Sapling", "=ds=", "=ds=10 #silver#"};
+				{ 15, 89812, "", "=q1=\"Jinyu Princess\" Irrigation System", "=ds=#m2#", "=ds=94 #gold# 44 #silver# 44 #copper#"};
+				{ 16, 0, "achievement_faction_tillers", "=q6=#r4#", ""};
+				{ 17, 89869, "", "=q3=Pandaren Scarecrow", "=ds=", "=ds=236 #gold# 11 #silver# 11 #copper#"};
+				{ 18, 85268, "", "=q2=Spring Blossom Sapling", "=ds=", "=ds=10 #silver#"};
+				{ 19, 85216, "", "=q1=Enigma Seed", "=ds=", "=ds=1 #gold#"};
+				{ 20, 85217, "", "=q1=Magebulb Seed", "=ds=", "=ds=1 #gold#"};
+				{ 21, 89202, "", "=q1=Raptorleaf Seed", "=ds=", "=ds=1 #gold#"};
+				{ 22, 85215, "", "=q1=Snakeroot Seed", "=ds=", "=ds=1 #gold#"};
+				{ 23, 89233, "", "=q1=Songbell Seed", "=ds=", "=ds=1 #gold#"};
+				{ 24, 89197, "", "=q1=Windshear Cactus Seed", "=ds=", "=ds=1 #gold#"};
+				{ 25, 89813, "", "=q1=\"Thunder King\" Pest Repellers", "=ds=#m2#", "=ds=94 #gold# 44 #silver# 44 #copper#"};
+			};
+			{
+				{ 1, 0, "achievement_faction_tillers", "=q6=#r5#", ""};
+				{ 2, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#", "=ds=1416 #gold# 66 #silver# 66 #copper#"};
+				{ 3, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#", "=ds=472 #gold# 22 #silver# 22 #copper#"};
+				{ 4, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#", "=ds=3069 #gold# 44 #silver# 44 #copper#"};
+				{ 5, 90175, "", "=q3=Gin-Ji Knife Set", "=ds=#m20#", "=ds=236 #gold# 11 #silver# 11 #copper#"};
+				{ 6, 80914, "", "=q3=Mourning Glory", "=ds=#m20#", "=ds=118 #gold# 5 #silver# 55 #copper#"};
+				{ 7, 89784, "", "=q3=Tillers Tabard", "=ds=#s7#", "=ds=9 #gold# 44 #silver# 44 #copper#"};
+				{ 8, 74657, "", "=q2=Recipe: Spicy Salmon", "=ds=#p3# (500)", "=ds=94 #silver# 44 #copper#"};
+				{ 9, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)", "=ds=94 #silver# 44 #copper#"};
+				{ 10, 85269, "", "=q2=Winter Blossom Sapling", "=ds=", "=ds=10 #silver#"};
+				{ 11, 89814, "", "=q1=\"Earth-Slasher\" Master Plow", "=ds=#m2#", "=ds=94 #gold# 44 #silver# 44 #copper#"};
 			};
 		};
 		info = {
