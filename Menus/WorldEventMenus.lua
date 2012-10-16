@@ -13,7 +13,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 3, "BREWFESTMENU", "achievement_worldevent_brewmaster", "=ds="..AL["Brewfest"], "=q5="..AL["September"].." - "..AL["October"]};
 				{ 4, "DayoftheDead", "inv_misc_bone_humanskull_02", "=ds="..AL["Day of the Dead"], "=q5="..AL["November"]};
 				{ 5, "HALLOWSENDMENU", "achievement_halloween_witch_01", "=ds="..AL["Hallow's End"], "=q5="..AL["October"]};
-				{ 6, "Valentineday", "achievement_worldevent_valentine", "=ds="..AL["Love is in the Air"], "=q5="..AL["February"]};
+				{ 6, "LOEVISINTHEAIRMENU", "achievement_worldevent_valentine", "=ds="..AL["Love is in the Air"], "=q5="..AL["February"]};
 				{ 7, "MidsummerFestival", "inv_summerfest_symbol_high", "=ds="..AL["Midsummer Fire Festival"], "=q5="..AL["June"].." - "..AL["July"]};
 				{ 8, "PilgrimsBounty", "inv_thanksgiving_turkey", "=ds="..AL["Pilgrim's Bounty"], "=q5="..AL["November"]};
 				{ 10, "BashirLanding", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Skyguard Raid"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
@@ -146,6 +146,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Hallow's End"],
+			menu = "WORLDEVENTMENU",
+		};
+	}
+
+	AtlasLoot_Data["LOEVISINTHEAIRMENU"] = {
+		["Normal"] = {
+			{
+				{ 1, "Valentineday", "ability_hunter_pet_tallstrider", "=ds="..AL["Vendor"], ""};
+				{ 2, "Valentineday#2", "INV_ValentinesBoxOfChocolates02", "=ds=Needs a Name", ""};
+				{ 16, "ApothecaryHummel", "inv_misc_head_undead_01", "=ds=Apothecary Hummel", "=q5="..AL["Daily Reward"]};
+			};
+		};
+		info = {
+			name = AL["Love is in the Air"],
 			menu = "WORLDEVENTMENU",
 		};
 	}

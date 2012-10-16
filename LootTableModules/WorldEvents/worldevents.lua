@@ -351,12 +351,12 @@ local moduleName = "AtlasLoot_WorldEvents"
 		["Normal"] = {
 			{
 				{ 1, 46831, "", "=q1=Macabre Marionette", "=q1=#m4#: =ds=#m20#"};
-				{ 3, 46860, "", "=q1=Whimsical Skull Mask", "=ds=#s1#, 5 #copper#"};
-				{ 4, 46861, "", "=q1=Bouquet of Orange Marigolds", "=ds=#s15#, 1 #gold#"};
-				{ 5, 46690, "", "=q1=Candy Skull", "=ds=#m20#, 5 #copper#"};
-				{ 6, 46711, "", "=q1=Spirit Candle", "=ds=#m20#, 30 #copper#"};
-				{ 7, 46718, "", "=q1=Orange Marigold", "=ds=#m20#, 10 #copper#"};
-				{ 16, 46710, "", "=q1=Recipe: Bread of the Dead", "=ds=#p3# (1), 20 #silver#"};
+				{ 3, 46860, "", "=q1=Whimsical Skull Mask", "=ds=#s1#", "=ds=5 #copper#"};
+				{ 4, 46861, "", "=q1=Bouquet of Orange Marigolds", "=ds=#s15#", "=ds=1 #gold#"};
+				{ 5, 46690, "", "=q1=Candy Skull", "=ds=#m20#", "=ds=5 #copper#"};
+				{ 6, 46711, "", "=q1=Spirit Candle", "=ds=#m20#", "=ds=30 #copper#"};
+				{ 7, 46718, "", "=q1=Orange Marigold", "=ds=#m20#", "=ds=10 #copper#"};
+				{ 16, 46710, "", "=q1=Recipe: Bread of the Dead", "=ds=#p3# (1)", "=ds=20 #silver#"};
 				{ 17, 46691, "", "=q1=Bread of the Dead", "=ds=#e3#"};
 			};
 		};
@@ -554,30 +554,30 @@ local moduleName = "AtlasLoot_WorldEvents"
 		--------------------------
 		--- Love is in the Air ---
 		--------------------------
-		
+
 	AtlasLoot_Data["Valentineday"] = {
 		["Normal"] = {
 			{
 				{ 1, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#"};
 				{ 2, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "#VALENTINEDAY:10#"};
-				{ 3, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
-				{ 4, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
-				{ 5, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "#VALENTINEDAY:2#"};
-				{ 6, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:5#"};
-				{ 7, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
-				{ 8, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "#VALENTINEDAY:2#"};
-				{ 9, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "#VALENTINEDAY:10#"};
-				{ 10, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
-				{ 11, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
-				{ 12, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "#VALENTINEDAY:5#"};
-				{ 13, 22261, "", "=q1=Love Fool", "=ds=#e22#", "#VALENTINEDAY:10#"};
-				{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
-				{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
-				{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
-				{ 19, 49856, "", "=q1=\"VICTORY\" Perfume", "=ds=#m20#", "#VALENTINEDAY:1#"};
-				{ 20, 49858, "", "=q1=\"Forever\" Perfume", "=ds=#m20#", "#VALENTINEDAY:1#"};
-				{ 21, 49857, "", "=q1=\"Enchantress\" Perfume", "=ds=#m20#", "#VALENTINEDAY:1#"};
-				{ 24, 49916, "", "=q1=Lovely Charm Bracelet", "=ds=#m17#"};
+				{ 3, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
+				{ 4, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:5#"};
+				{ 5, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
+				{ 6, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
+				{ 7, 22261, "", "=q1=Love Fool", "=ds=#e22#", "#VALENTINEDAY:10#"};
+				{ 8, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "#VALENTINEDAY:5#"};
+				{ 9, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
+				{ 10, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "#VALENTINEDAY:2#"};
+				{ 11, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "#VALENTINEDAY:2#"};
+				{ 12, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "#VALENTINEDAY:10#"};
+				{ 13, 21815, "", "=q1=Love Token", "=ds=#m17#", "1 #valentineday2#"};
+				{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#e2#", "#VALENTINEDAY:1#"};
+				{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#e2#", "#VALENTINEDAY:1#"};
+				{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#e2#", "#VALENTINEDAY:1#"};
+				{ 19, 49856, "", "=q1=\"VICTORY\" Perfume", "=ds=#e2#", "#VALENTINEDAY:1#"};
+				{ 20, 49858, "", "=q1=\"Forever\" Perfume", "=ds=#e2#", "#VALENTINEDAY:1#"};
+				{ 21, 49857, "", "=q1=\"Enchantress\" Perfume", "=ds=#e2#", "#VALENTINEDAY:1#"};
+				extraText = ": "..AL["Vendor"];
 			};
 			{
 				{ 1, 0, "INV_Box_02", "=q6="..AL["Lovely Dress Box"], "#ACHIEVEMENTID:1694#"};
@@ -586,14 +586,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 4, 22278, "", "=q1=Lovely Blue Dress", "=ds=#s5#"};
 				{ 5, 22280, "", "=q1=Lovely Purple Dress", "=ds=#s5#"};	
 				{ 7, 0, "INV_Box_01", "=q6="..AL["Dinner Suit Box"], ""};
-				{ 8, 22277, "", "=q1=Red Dinner Suit", "=q1=#m4#: =ds=#s5#"};
-				{ 9, 22281, "", "=q1=Blue Dinner Suit", "=q1=#m4#: =ds=#s5#"};
-				{ 10, 22282, "", "=q1=Purple Dinner Suit", "=q1=#m4#: =ds=#s5#"};	
+				{ 8, 22277, "", "=q1=Red Dinner Suit", "=ds=#s5#"};
+				{ 9, 22281, "", "=q1=Blue Dinner Suit", "=ds=#s5#"};
+				{ 10, 22282, "", "=q1=Purple Dinner Suit", "=ds=#s5#"};	
 				{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6="..AL["Box of Chocolates"], "#ACHIEVEMENTID:1702#"};
 				{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
 				{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
 				{ 19, 22236, "", "=q1=Buttermilk Delight", "=ds=#e3#"};
-				{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};		
+				{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};
 				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], "#ACHIEVEMENTID:1701#"};
 				{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 24, 21817, "", "=q1=Heart Candy", "=ds=#m20#"};
@@ -603,7 +603,17 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 28, 21821, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 29, 21822, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 30, 21823, "", "=q1=Heart Candy", "=ds=#m20#"};
+				extraText = ": Needs a name";
 			};
+		};
+		info = {
+			name = AL["Love is in the Air"],
+			module = moduleName, menu = "LOEVISINTHEAIRMENU", 
+		};
+	};
+
+	AtlasLoot_Data["ApothecaryHummel"] = {
+		["Normal"] = {
 			{
 				{ 1, 68175, "", "=q3=Winking Eye of Love", "=ds=#s2#"};
 				{ 2, 68176, "", "=q3=Heartbreak Charm", "=ds=#s2#"};
@@ -619,8 +629,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Love is in the Air"],
-			module = moduleName, menu = "WORLDEVENTMENU", 
+			name = "Apothecary Hummel",
+			module = moduleName, menu = "LOEVISINTHEAIRMENU",
 		};
 	};
 
