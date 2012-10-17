@@ -1103,6 +1103,7 @@ if AL then
 	AL["Burgy Blackheart"] = "Bürgi Schwarzherz";
 	AL["Battle Pet Trainer"] = "Kampfhaustiertrainer";
 	AL["Rotted One"] = "Verfaulter";
+	AL["Uncle Bigpocket"] = "Onkel Dickehose";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
