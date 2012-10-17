@@ -507,6 +507,11 @@ if AL then
 	-- Engineering
 	AL["Tinker"] = "工程学专属";
 
+	-- Fishing
+	AL["Fish Weapons"] = "钓鱼武器";
+	AL["Fishing Gear"] = "钓鱼装备";
+	AL["Fishing Lines"] = "鱼线";
+
 	-- Inscription
 	AL["Major Glyph"] = "大型雕文";
 	AL["Minor Glyph"] = "小型雕文";
@@ -931,12 +936,13 @@ if AL then
 	AL["Carapace of the Old God"] = "上古之神的甲壳";
 
 	-- Recipe origin strings
-	AL["Trainer"] = "训练师";
-	AL["Discovery"] = "领悟";
-	AL["World Drop"] = "世界掉落";
-	AL["Drop"] = "掉落";
-	AL["Vendor"] = "商人";
 	AL["Crafted"] = "制造";
+	AL["Discovery"] = "领悟";
+	AL["Drop"] = "掉落";
+	AL["Fished From"] = "钓鱼从";
+	AL["Trainer"] = "训练师";
+	AL["Vendor"] = "商人";
+	AL["World Drop"] = "世界掉落";
 
 	-- Months
 	AL["January"] = "一月";
@@ -1096,6 +1102,8 @@ if AL then
 	AL["Poseidus"] = "波塞冬斯";
 	AL["Burgy Blackheart"] = "布尔吉·黑心";
 	AL["Battle Pet Trainer"] = "宠物对战训练师";
+	AL["Rotted One"] = "腐烂者";
+	AL["Uncle Bigpocket"] = "表叔大口袋";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
@@ -1156,6 +1164,9 @@ if AL then
 	AL["Oozing Bag"] = "沾满淤泥的袋子";
 	AL["Ominous Seed"] = "不祥之种";
 	AL["Treasures of the Vale"] = "锦绣谷宝藏";
+	AL["Stendel's Bane"] = "斯特登之祸";
+	AL["Shellfish Trap"] = "贝壳陷阱";
+	AL["Fishing Pools"] = "钓鱼场所";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
