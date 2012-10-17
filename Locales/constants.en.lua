@@ -1103,6 +1103,7 @@ if AL then
 	AL["Burgy Blackheart"] = true;
 	AL["Battle Pet Trainer"] = true;
 	AL["Rotted One"] = true;
+	AL["Uncle Bigpocket"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
