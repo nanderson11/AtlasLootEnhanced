@@ -9,17 +9,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["WORLDEVENTMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "ARGENTMENU", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], "=q5="..BabbleZone["Icecrown"]};
+				{ 1, "ARGENTMENU", "Ability_Paladin_ArtofWar", "=ds="..AL["Argent Tournament"], "=q5="..AtlasLoot:GetMapNameByID(492)};
 				{ 3, "BREWFESTMENU", "achievement_worldevent_brewmaster", "=ds="..AL["Brewfest"], "=q5="..AL["September"].." - "..AL["October"]};
 				{ 4, "DayoftheDead", "inv_misc_bone_humanskull_02", "=ds="..AL["Day of the Dead"], "=q5="..AL["November"]};
 				{ 5, "HALLOWSENDMENU", "achievement_halloween_witch_01", "=ds="..AL["Hallow's End"], "=q5="..AL["October"]};
 				{ 6, "LOEVISINTHEAIRMENU", "achievement_worldevent_valentine", "=ds="..AL["Love is in the Air"], "=q5="..AL["February"]};
 				{ 7, "MidsummerFestival", "inv_summerfest_symbol_high", "=ds="..AL["Midsummer Fire Festival"], "=q5="..AL["June"].." - "..AL["July"]};
 				{ 8, "PilgrimsBounty", "inv_thanksgiving_turkey", "=ds="..AL["Pilgrim's Bounty"], "=q5="..AL["November"]};
-				{ 10, "BashirLanding", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Skyguard Raid"], "=q5="..BabbleZone["Blade's Edge Mountains"]};
+				{ 10, "BashirLanding", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Skyguard Raid"], "=q5="..AtlasLoot:GetMapNameByID(475)};
 				{ 11, "GurubashiArena", "inv_misc_armorkit_04", "=ds="..AL["Gurubashi Arena Booty Run"], "=q5="..BabbleZone["Stranglethorn Vale"]};
-				{ 13, "ABYSSALMENU", "INV_Staff_13", "=ds="..AL["Abyssal Council"], "=q5="..BabbleZone["Silithus"]};
-				{ 14, "SKETTISMENU", "Spell_Nature_NaturesWrath", "=ds="..AL["Skettis"], "=q5="..BabbleZone["Terokkar Forest"]};
+				{ 13, "ABYSSALMENU", "INV_Staff_13", "=ds="..AL["Abyssal Council"], "=q5="..AtlasLoot:GetMapNameByID(261)};
+				{ 14, "SKETTISMENU", "Spell_Nature_NaturesWrath", "=ds="..AL["Skettis"], "=q5="..AtlasLoot:GetMapNameByID(478)};
 				{ 16, "DARKMOONMENU", "INV_Misc_Ticket_Tarot_Madness", "=ds="..BabbleFaction["Darkmoon Faire"], "=q5="..BabbleZone["Darkmoon Island"]};
 				{ 18, "ChildrensWeek", "inv_misc_toy_04", "=ds="..AL["Children's Week"], "=q5="..AL["April"].." - "..AL["May"]};
 				{ 19, "WINTERVIELMENU", "achievement_worldevent_merrymaker", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["December"].." - "..AL["January"]};
@@ -27,7 +27,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 21, "LUNARFESTIVALMENU", "achievement_worldevent_lunar", "=ds="..AL["Lunar Festival"], "=q5="..AL["January"].." - "..AL["February"]};
 				{ 22, "Noblegarden", "inv_egg_09", "=ds="..AL["Noblegarden"], "=q5="..AL["March"].." - "..AL["April"]};
 				{ 25, "FishingExtravaganza", "inv_misc_fish_06", "=ds="..AL["Fishing Contests"], "=q5="..BabbleZone["Stranglethorn Vale"].." / "..BabbleZone["Northrend"]};
-				{ 28, "ETHEREUMMENU", "INV_Misc_PunchCards_Prismatic", "=ds="..AL["Ethereum Prison"], ""};
+				{ 28, "ETHEREUMMENU", "INV_Misc_PunchCards_Prismatic", "=ds="..AL["Ethereum Prison"], "=q5="..AtlasLoot:GetMapNameByID(479)};
 			};
 		};
 		info = {
@@ -97,17 +97,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["BREWFESTMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "Brewfest", "inv_holiday_brewfestbuff_01", "=ds="..AL["Vendor"], ""};
-				{ 2, "Brewfest#2", "inv_holiday_beerfestpretzel01", "=ds="..AL["Food and Drinks"], ""};
-				{ 4, 0, "inv_holiday_brewfestbuff_01", "=q6="..AL["Special Rewards"], ""};
-				{ 5, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
-				{ 6, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
-				{ 7, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
-				{ 8, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
-				{ 9, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
-				{ 10, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
-				{ 16, "CorenDirebrew", "inv_misc_head_dwarf_01", "=ds="..BabbleBoss["Coren Direbrew"], "=q5="..AL["Daily Reward"]};
-				{ 17, "Brewfest#3", "inv_holiday_brewfestbuff_01", "=ds="..AL["Brew of the Month Club"], ""};
+				{ 2, "Brewfest", "inv_holiday_brewfestbuff_01", "=ds="..AL["Vendor"], ""};
+				{ 3, "Brewfest#2", "inv_holiday_beerfestpretzel01", "=ds="..AL["Food and Drinks"], ""};
+				{ 5, 0, "inv_holiday_brewfestbuff_01", "=q6="..AL["Special Rewards"], ""};
+				{ 6, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
+				{ 7, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
+				{ 8, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
+				{ 9, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
+				{ 10, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
+				{ 11, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
+				{ 17, "CorenDirebrew", "inv_misc_head_dwarf_01", "=ds="..BabbleBoss["Coren Direbrew"], "=q5="..AL["Daily Reward"]};
+				{ 18, "Brewfest#3", "inv_holiday_brewfestbuff_01", "=ds="..AL["Brew of the Month Club"], ""};
 			};
 		};
 		info = {
@@ -119,29 +119,19 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["HALLOWSENDMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "Halloween", "achievement_halloween_ghost_01", "=ds="..AL["Consumable Wands & Masks"], ""};
-				{ 2, "Halloween#2", "inv_mask_04", "=ds="..AL["Permanent Masks"], ""};
-				{ 16, "HeadlessHorseman", "inv_misc_food_59", "=ds="..BabbleBoss["Headless Horseman"], "=q5="..AL["Daily Reward"]};
-				{ 4, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1# =q2="..AL["Various Locations"]};
-				{ 5, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
-				{ 7, 37011, "", "=q3=Magic Broom", "=ds=#e12#", "#HALLOWSEND:150#"};
-				{ 8, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "#HALLOWSEND:150#"};
-				{ 9, 70722, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
-				{ 10, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
-				{ 11, 70908, "", "=q1=Feline Familiar", "=ds=#e13#", "#HALLOWSEND:150#"};
-				{ 12, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 2, "Halloween", "achievement_halloween_candy_01", "=ds="..AL["Vendor"], ""};
+				{ 3, "Halloween#2", "achievement_halloween_ghost_01", "=ds="..AL["Non-Playable Race Masks"].." / "..BabbleInventory["Wands"], ""};
+				{ 5, 0, "inv_misc_food_25", "=q6="..AL["Special Rewards"], ""};
+				{ 6, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1# =q2="..AL["Various Locations"]};
+				{ 7, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
 				{
-					{ 14, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29429#"};
-					{ 14, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29413#"};
+					{ 8, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29429#"};
+					{ 8, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29413#"};
 				};
-				{ 19, 33189, "", "=q2=Rickety Magic Broom", "=ds=#e12#"};
-				{ 20, 20516, "", "=q1=Bobbing Apple", "=ds=#e3#"};
-				{ 22, 0, "inv_gauntlets_06", "=q6="..AL["Handful of Treats"], ""};
-				{ 23, 37585, "", "=q1=Chewy Fel Taffy", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 24, 37583, "", "=q1=G.N.E.R.D.S.", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 25, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 26, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 27, 37606, "", "=q1=Penny Pouch", "=ds=#e1#"};
+				{ 17, "HeadlessHorseman", "inv_misc_food_59", "=ds="..BabbleBoss["Headless Horseman"], "=q5="..AL["Daily Reward"]};
+				{ 18, "Halloween#3", "inv_mask_04", "=ds="..AL["Playable Race Masks"], ""};
+				{ 21, 20516, "", "=q1=Bobbing Apple", "=ds=#e3#"};
+				{ 22, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#"};
 			};
 		};
 		info = {
@@ -153,9 +143,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["LOEVISINTHEAIRMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "Valentineday", "ability_hunter_pet_tallstrider", "=ds="..AL["Vendor"], ""};
-				{ 2, "Valentineday#2", "INV_ValentinesBoxOfChocolates02", "=ds=Needs a Name", ""};
-				{ 16, "ApothecaryHummel", "inv_misc_head_undead_01", "=ds=Apothecary Hummel", "=q5="..AL["Daily Reward"]};
+				{ 2, "Valentineday", "ability_hunter_pet_tallstrider", "=ds="..AL["Vendor"], ""};
+				{ 3, "Valentineday#2", "INV_ValentinesBoxOfChocolates02", "=ds=Needs a Name", ""};
+				{ 17, "ApothecaryHummel", "inv_misc_head_undead_01", "=ds=Apothecary Hummel", "=q5="..AL["Daily Reward"]};
 			};
 		};
 		info = {
@@ -167,24 +157,24 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["WINTERVIELMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "Winterveil", "inv_misc_food_61", "=ds="..AL["Vendor"], ""};
-				{ 2, "Winterveil#2", "inv_holiday_christmas_present_02", "=ds="..AL["Gifts & Presents"], ""};
-				{ 4, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], "=q5="..AL["Special Rewards"]};
-				{ 5, 90888, "", "=q2=Foot Ball", "#ACHIEVEMENTID:7852#"};
-				{ 6, 90883, "", "=q2=The Pigskin", "#ACHIEVEMENTID:7852#"};
-				{ 7, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};
-				{ 8, 46709, "", "=q3=MiniZep Controller", "#ACHIEVEMENTID:6060#"};
-				{ 9, 46725, "", "=q2=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
-				{ 10, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
-				{ 11, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
-				{ 16, "Winterveil#3", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Stolen Present"], "=q5="..AL["Daily Reward"]};
-				{ 20, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
-				{ 21, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
-				{ 22, 17712, "", "=q1=Winter Veil Disguise Kit", "=q1=#m4#: =ds=#m20#"};
-				{ 23, 17202, "", "=q1=Snowball", "=ds=#m20#"};
-				{ 24, 34191, "", "=q1=Handful of Snowflakes", "=ds=#m20#"};
-				{ 25, 21212, "", "=q1=Fresh Holly", "=ds=#m20#"};
-				{ 26, 21519, "", "=q1=Mistletoe", "=ds=#m20#"};
+				{ 2, "Winterveil", "inv_misc_food_61", "=ds="..AL["Vendor"], ""};
+				{ 3, "Winterveil#2", "inv_holiday_christmas_present_02", "=ds="..AL["Gifts & Presents"], ""};
+				{ 5, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], "=q5="..AL["Special Rewards"]};
+				{ 6, 90888, "", "=q2=Foot Ball", "#ACHIEVEMENTID:7852#"};
+				{ 7, 90883, "", "=q2=The Pigskin", "#ACHIEVEMENTID:7852#"};
+				{ 8, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};
+				{ 9, 46709, "", "=q3=MiniZep Controller", "#ACHIEVEMENTID:6060#"};
+				{ 10, 46725, "", "=q2=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
+				{ 11, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
+				{ 12, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
+				{ 17, "Winterveil#3", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Stolen Present"], "=q5="..AL["Daily Reward"]};
+				{ 21, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
+				{ 22, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
+				{ 23, 17712, "", "=q1=Winter Veil Disguise Kit", "=q1=#m4#: =ds=#m20#"};
+				{ 24, 17202, "", "=q1=Snowball", "=ds=#m20#"};
+				{ 25, 34191, "", "=q1=Handful of Snowflakes", "=ds=#m20#"};
+				{ 26, 21212, "", "=q1=Fresh Holly", "=ds=#m20#"};
+				{ 27, 21519, "", "=q1=Mistletoe", "=ds=#m20#"};
 			};
 		};
 		info = {
@@ -196,12 +186,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["LUNARFESTIVALMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "LunarFestival", "inv_misc_elvencoins", "=ds="..AL["Vendor"], ""};
-				{ 3, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
-				{ 16, "LunarFestival#2", "inv_scroll_06", "=ds="..AL["Schematics & Patterns"], ""};
-				{ 18, 0, "INV_Misc_LuckyMoneyEnvelope", "=q6="..AL["Lucky Red Envelope"], ""};
-				{ 19, 21744, "", "=q1=Lucky Rocket Cluster", "=ds=#e23#"};
-				{ 20, 21745, "", "=q1=Elder's Moonstone", "=ds=#m20#"};
+				{ 2, "LunarFestival", "inv_misc_elvencoins", "=ds="..AL["Vendor"], ""};
+				{ 4, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
+				{ 17, "LunarFestival#2", "inv_scroll_06", "=ds="..AL["Schematics & Patterns"], ""};
+				{ 19, 0, "INV_Misc_LuckyMoneyEnvelope", "=q6="..AL["Lucky Red Envelope"], ""};
+				{ 20, 21744, "", "=q1=Lucky Rocket Cluster", "=ds=#e23#"};
+				{ 21, 21745, "", "=q1=Elder's Moonstone", "=ds=#m20#"};
 			};
 		};
 		info = {

@@ -405,11 +405,9 @@ if AL then
 	-- World Events	Menu Names
 	AL["Special Rewards"] = "Récompenses spéciales"; 				-- Brewfest, Feast of Winter Veil
 	AL["Brew of the Month Club"] = "Le club de la Bière du mois";	-- Brewfest
-	AL["Food and Drinks"] = "Nourritures et boissons";			-- Brewfest
-	AL["Gifts & Presents"] = "Cadeaux";						-- Feast of Winter Veil
-	AL["Consumable Wands & Masks"] = "Baguettes et Masques";	 	-- Hallow's End
-	AL["Permanent Masks"] = "Masques permanents";		 		-- Hallow's End
-	AL["Schematics & Patterns"] = "Schémas et patrons";		 	-- Lunar Festival
+	AL["Food and Drinks"] = "Nourritures et boissons";				-- Brewfest
+	AL["Gifts & Presents"] = "Cadeaux";								-- Feast of Winter Veil
+	AL["Schematics & Patterns"] = "Schémas et patrons";			 	-- Lunar Festival
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcours des Listes d'Objets";

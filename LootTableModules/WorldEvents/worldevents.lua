@@ -455,6 +455,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Halloween"] = {
 		["Normal"] = {
 			{
+				{ 2, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "#HALLOWSEND:150#"};
+				{ 3, 37011, "", "=q3=Magic Broom", "=ds=#e12#", "#HALLOWSEND:150#"};
+				{ 4, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
+				{ 5, 70722, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
+				{ 6, 70908, "", "=q1=Feline Familiar", "=ds=#e13#", "#HALLOWSEND:150#"};
+				{ 7, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 8, 37585, "", "=q1=Chewy Fel Taffy", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 9, 37583, "", "=q1=G.N.E.R.D.S.", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 10, 37582, "", "=q1=Pyroblast Cinnamon Ball", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 11, 37584, "", "=q1=Soothing Spearmint Candy", "=ds=#m20#", "#HALLOWSEND:2#"};
+				extraText = ": "..AL["Vendor"];
+			};
+			{
 				{ 2, 69188, "", "=q1=Murloc Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 3, 69190, "", "=q1=Naga Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 4, 69193, "", "=q1=Ogre Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
@@ -471,6 +484,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 23, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#m20#", "#HALLOWSEND:2#"};
 				{ 24, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#m20#", "#HALLOWSEND:2#"};
 				{ 25, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#m20#", "#HALLOWSEND:2#"};
+				extraText = ": "..AL["Non-Playable Race Masks"].." / "..BabbleInventory["Wands"];
 			};
 			{
 				{ 2, 34003, "", "=q1=Draenei Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
@@ -497,6 +511,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 26, 20567, "", "=q1=Troll Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 27, 20574, "", "=q1=Undead Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 28, 49215, "", "=q1=Worgen Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				extraText = ": "..AL["Playable Race Masks"];
 			};
 		};
 		info = {

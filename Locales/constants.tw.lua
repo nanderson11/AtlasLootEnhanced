@@ -405,13 +405,11 @@ if AL then
 	AL["Fishing Contests"] = "釣魚大賽";
 
 	-- World Events	Menu Names
-	AL["Special Rewards"] = "特殊獎勵"; 			-- Brewfest, Feast of Winter Veil
-	AL["Brew of the Month Club"] = "每月啤酒俱樂部"; 	-- Brewfest
-	AL["Food and Drinks"] = "食物和飲料"; 			-- Brewfest
-	AL["Gifts & Presents"] = "禮物"; 			-- Feast of Winter Veil
-	AL["Consumable Wands & Masks"] = "可消耗的魔杖與面具"; 	-- Hallow's End
-	AL["Permanent Masks"] = "永久的面具"; 			-- Hallow's End
-	AL["Schematics & Patterns"] = "設計圖/圖樣"; 	-- Lunar Festival
+	AL["Special Rewards"] = "特殊獎勵";					-- Brewfest, Feast of Winter Veil
+	AL["Brew of the Month Club"] = "每月啤酒俱樂部";		-- Brewfest
+	AL["Food and Drinks"] = "食物和飲料";				-- Brewfest
+	AL["Gifts & Presents"] = "禮物";					-- Feast of Winter Veil
+	AL["Schematics & Patterns"] = "設計圖/圖樣";			-- Lunar Festival
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00左鍵|r 瀏覽物品掉落表";
