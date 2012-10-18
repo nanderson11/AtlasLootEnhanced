@@ -409,8 +409,8 @@ if AL then
 	AL["Brew of the Month Club"] = true; 	-- Brewfest
 	AL["Food and Drinks"] = true; 			-- Brewfest
 	AL["Gifts & Presents"] = true; 			-- Feast of Winter Veil
-	AL["Consumable Wands & Masks"] = true; 	-- Hallow's End
-	AL["Permanent Masks"] = true; 			-- Hallow's End
+	AL["Playable Race Masks"] = true; 		-- Hallow's End
+	AL["Non-Playable Race Masks"] = true; 	-- Hallow's End
 	AL["Schematics & Patterns"] = true; 	-- Lunar Festival
 
 	-- Minimap Button
