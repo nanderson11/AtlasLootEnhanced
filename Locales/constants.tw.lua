@@ -409,6 +409,8 @@ if AL then
 	AL["Brew of the Month Club"] = "每月啤酒俱樂部";		-- Brewfest
 	AL["Food and Drinks"] = "食物和飲料";				-- Brewfest
 	AL["Gifts & Presents"] = "禮物";					-- Feast of Winter Veil
+	AL["Playable Race Masks"] = "種族面具玩具"; 		-- Hallow's End
+	AL["Non-Playable Race Masks"] = "非種族面具玩具"; 	-- Hallow's End
 	AL["Schematics & Patterns"] = "設計圖/圖樣";			-- Lunar Festival
 
 	-- Minimap Button
