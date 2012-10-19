@@ -409,6 +409,8 @@ if AL then
 	AL["Brew of the Month Club"] = "Bier des Monats e.V.";
 	AL["Food and Drinks"] = "Speisen und Getränke";
 	AL["Gifts & Presents"] = "Geschenke";
+	AL["Playable Race Masks"] = "Masken spielbarer Völker";
+	AL["Non-Playable Race Masks"] = "Masken nicht spielbarer Völker";
 	AL["Schematics & Patterns"] = "Baupläne & Muster";
 
 	-- Minimap Button
