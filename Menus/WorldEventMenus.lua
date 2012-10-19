@@ -159,7 +159,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			{
 				{ 2, "Winterveil", "inv_misc_food_61", "=ds="..AL["Vendor"], ""};
 				{ 3, "Winterveil#2", "inv_holiday_christmas_present_02", "=ds="..AL["Gifts & Presents"], ""};
-				{ 5, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], "=q5="..AL["Special Rewards"]};
+				{ 5, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Special Rewards"], ""};
 				{ 6, 90888, "", "=q2=Foot Ball", "#ACHIEVEMENTID:7852#"};
 				{ 7, 90883, "", "=q2=The Pigskin", "#ACHIEVEMENTID:7852#"};
 				{ 8, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};

@@ -4600,50 +4600,61 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PetsNEW2"] = {
 		["Normal"] = {
 			{
-				{ 1, 92707, "", "=q4=Cinder Kitten", "=ds=#e13#"};
-				{ 2, 91040, "", "=q3=Darkmoon Eye", "=ds=#e13#"};
-				{ 3, 91003, "", "=q3=Darkmoon Hatchling", "=ds=#e13#"};
-				{ 4, 90900, "", "=q2=Imperial Moth", "=ds=#e13#"};
-				{ 5, 90902, "", "=q2=Imperial Silkworm", "=ds=#e13#"};
-				{ 6, 91031, "", "=q1=Darkmoon Glowfly", "=ds=#e13#"};
-				{ 8, 92738, "", "=q3=Safari Hat", "=ds=#s1#"};
-				{ 10, 0, "INV_Box_01", "=q6=Unknown", ""};
-				{ 11, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
-				{ 16, 92742, "", "=q2=Polished Battle-Stone", "=ds=#e18#"};
-				{ 17, 92689, "", "=q2=Polished Aquatic Battle-Stone", "=ds=#e18#"};
-				{ 18, 92685, "", "=q2=Polished Beast Battle-Stone", "=ds=#e18#"};
-				{ 19, 92686, "", "=q2=Polished Critter Battle-Stone", "=ds=#e18#"};
-				{ 20, 92693, "", "=q2=Polished Dragonkin Battle-Stone", "=ds=#e18#"};
-				{ 21, 92684, "", "=q2=Polished Elemental Battle-Stone", "=ds=#e18#"};
-				{ 22, 92687, "", "=q2=Polished Flying Battle-Stone", "=ds=#e18#"};
-				{ 23, 92692, "", "=q2=Polished Humanoid Battle-Stone", "=ds=#e18#"};
-				{ 24, 92688, "", "=q2=Polished Magic Battle-Stone", "=ds=#e18#"};
-				{ 25, 92690, "", "=q2=Polished Mechanical Battle-Stone", "=ds=#e18#"};
-				{ 26, 92691, "", "=q2=Polished Undead Battle-Stone", "=ds=#e18#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 2, 92707, "", "=q4=Cinder Kitten", "=ds=#e13#"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
+				{ 5, 91040, "", "=q3=Darkmoon Eye", "=ds=#e13#", "=q1=#m4#: #QUESTID:32175#"};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
+				{ 8, 91003, "", "=q3=Darkmoon Hatchling", "=ds=#e13#", "=ds=#e13#", "#DARKMOON:90#"};
+				{ 9, 91031, "", "=q1=Darkmoon Glowfly", "=ds=#e13#"};
+				{ 11, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
+				{ 12, 90900, "", "=q2=Imperial Moth", "=ds=#e13#"};
+				{ 13, 90902, "", "=q2=Imperial Silkworm", "=ds=#e13#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
+				{ 17, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
+				{ 19, 0, "INV_Box_01", "=q6=Unknown", ""};
+				{ 20, 92798, "", "=q3=Pandaren Fire Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
+				{ 21, 92799, "", "=q3=Pandaren Air Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
+				{ 22, 92800, "", "=q3=Pandaren Earth Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
+				{ 23, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
+				{ 24, 93025, "", "=q3=Clock'em", "=ds=#e13#" }; ---NEEDS TO BE CHECKED
 			};
 			{
-				{ 1, 92741, "", "=q3=Flawless Battle-Stone", "=ds=#e18#"};
-				{ 2, 92679, "", "=q3=Flawless Aquatic Battle-Stone", "=ds=#e18#"};
-				{ 3, 92675, "", "=q3=Flawless Beast Battle-Stone", "=ds=#e18#"};
-				{ 4, 92676, "", "=q3=Flawless Critter Battle-Stone", "=ds=#e18#"};
-				{ 5, 92683, "", "=q3=Flawless Dragonkin Battle-Stone", "=ds=#e18#"};
-				{ 6, 92665, "", "=q3=Flawless Elemental Battle-Stone", "=ds=#e18#"};
-				{ 7, 92677, "", "=q3=Flawless Flying Battle-Stone", "=ds=#e18#"};
-				{ 8, 92682, "", "=q3=Flawless Humanoid Battle-Stone", "=ds=#e18#"};
-				{ 9, 92678, "", "=q3=Flawless Magic Battle-Stone", "=ds=#e18#"};
-				{ 10, 92680, "", "=q3=Flawless Mechanical Battle-Stone", "=ds=#e18#"};
-				{ 11, 92681, "", "=q3=Flawless Undead Battle-Stone", "=ds=#e18#"};
-				{ 16, 92740, "", "=q4=Perfect Battle-Stone", "=ds=#e18#"};
-				{ 17, 92694, "", "=q4=Perfect Aquatic Battle-Stone", "=ds=#e18#"};
-				{ 18, 92695, "", "=q4=Perfect Beast Battle-Stone", "=ds=#e18#"};
-				{ 19, 92696, "", "=q4=Perfect Critter Battle-Stone", "=ds=#e18#"};
-				{ 20, 92697, "", "=q4=Perfect Dragonkin Battle-Stone", "=ds=#e18#"};
-				{ 21, 92698, "", "=q4=Perfect Elemental Battle-Stone", "=ds=#e18#"};
-				{ 22, 92699, "", "=q4=Perfect Flying Battle-Stone", "=ds=#e18#"};
-				{ 23, 92700, "", "=q4=Perfect Humanoid Battle-Stone", "=ds=#e18#"};
-				{ 24, 92701, "", "=q4=Perfect Magic Battle-Stone", "=ds=#e18#"};
-				{ 25, 92702, "", "=q4=Perfect Mechanical Battle-Stone", "=ds=#e18#"};
-				{ 26, 92703, "", "=q4=Perfect Undead Battle-Stone", "=ds=#e18#"};
+				{ 1, 92742, "", "=q2=Polished Battle-Stone", "=ds=#e18#"};
+				{ 2, 92689, "", "=q2=Polished Aquatic Battle-Stone", "=ds=#e18#"};
+				{ 3, 92685, "", "=q2=Polished Beast Battle-Stone", "=ds=#e18#"};
+				{ 4, 92686, "", "=q2=Polished Critter Battle-Stone", "=ds=#e18#"};
+				{ 5, 92693, "", "=q2=Polished Dragonkin Battle-Stone", "=ds=#e18#"};
+				{ 6, 92684, "", "=q2=Polished Elemental Battle-Stone", "=ds=#e18#"};
+				{ 7, 92687, "", "=q2=Polished Flying Battle-Stone", "=ds=#e18#"};
+				{ 8, 92692, "", "=q2=Polished Humanoid Battle-Stone", "=ds=#e18#"};
+				{ 9, 92688, "", "=q2=Polished Magic Battle-Stone", "=ds=#e18#"};
+				{ 10, 92690, "", "=q2=Polished Mechanical Battle-Stone", "=ds=#e18#"};
+				{ 11, 92691, "", "=q2=Polished Undead Battle-Stone", "=ds=#e18#"};
+				{ 16, 92741, "", "=q3=Flawless Battle-Stone", "=ds=#e18#"};
+				{ 17, 92679, "", "=q3=Flawless Aquatic Battle-Stone", "=ds=#e18#"};
+				{ 18, 92675, "", "=q3=Flawless Beast Battle-Stone", "=ds=#e18#"};
+				{ 19, 92676, "", "=q3=Flawless Critter Battle-Stone", "=ds=#e18#"};
+				{ 20, 92683, "", "=q3=Flawless Dragonkin Battle-Stone", "=ds=#e18#"};
+				{ 21, 92665, "", "=q3=Flawless Elemental Battle-Stone", "=ds=#e18#"};
+				{ 22, 92677, "", "=q3=Flawless Flying Battle-Stone", "=ds=#e18#"};
+				{ 23, 92682, "", "=q3=Flawless Humanoid Battle-Stone", "=ds=#e18#"};
+				{ 24, 92678, "", "=q3=Flawless Magic Battle-Stone", "=ds=#e18#"};
+				{ 25, 92680, "", "=q3=Flawless Mechanical Battle-Stone", "=ds=#e18#"};
+				{ 26, 92681, "", "=q3=Flawless Undead Battle-Stone", "=ds=#e18#"};
+			};
+			{
+				{ 1, 92740, "", "=q4=Perfect Battle-Stone", "=ds=#e18#"};
+				{ 2, 92694, "", "=q4=Perfect Aquatic Battle-Stone", "=ds=#e18#"};
+				{ 3, 92695, "", "=q4=Perfect Beast Battle-Stone", "=ds=#e18#"};
+				{ 4, 92696, "", "=q4=Perfect Critter Battle-Stone", "=ds=#e18#"};
+				{ 5, 92697, "", "=q4=Perfect Dragonkin Battle-Stone", "=ds=#e18#"};
+				{ 6, 92698, "", "=q4=Perfect Elemental Battle-Stone", "=ds=#e18#"};
+				{ 7, 92699, "", "=q4=Perfect Flying Battle-Stone", "=ds=#e18#"};
+				{ 8, 92700, "", "=q4=Perfect Humanoid Battle-Stone", "=ds=#e18#"};
+				{ 9, 92701, "", "=q4=Perfect Magic Battle-Stone", "=ds=#e18#"};
+				{ 10, 92702, "", "=q4=Perfect Mechanical Battle-Stone", "=ds=#e18#"};
+				{ 11, 92703, "", "=q4=Perfect Undead Battle-Stone", "=ds=#e18#"};
 			};
 		};
 		info = {
