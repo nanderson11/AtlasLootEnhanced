@@ -2489,6 +2489,13 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 74658, "", "=q2=Recipe: Spicy Vegetable Chips", "=ds=#p3# (500)", "=ds=94 #silver# 44 #copper#"};
 				{ 10, 85269, "", "=q2=Winter Blossom Sapling", "=ds=", "=ds=10 #silver#"};
 				{ 11, 89814, "", "=q1=\"Earth-Slasher\" Master Plow", "=ds=#m2#", "=ds=94 #gold# 44 #silver# 44 #copper#"};
+				{ 16, 0, "achievement_faction_tillers", "=q6="..BabbleFaction["Old Hillpaw"], "=ds="..BabbleFaction["Best Friend"]};
+				{ 17, 90893, "", "=q1=Straw Hat", "=ds=#s1#, #a1#", ""};
+				{ 18, 90894, "", "=q1=Straw Hat", "=ds=#s1#, #a2#", ""};
+				{ 19, 90895, "", "=q1=Straw Hat", "=ds=#s1#, #a3#", ""};
+				{ 20, 90896, "", "=q1=Straw Hat", "=ds=#s1#, #a4#", ""};
+				{ 22, 0, "achievement_faction_tillers", "=q6="..BabbleFaction["Sho"], "=ds="..BabbleFaction["Best Friend"]};
+				{ 23, 85222, "", "=q4=Red Cricket", "=ds=#e13#", ""};
 			};
 		};
 		info = {
