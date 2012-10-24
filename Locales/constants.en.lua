@@ -1104,6 +1104,11 @@ if AL then
 	AL["Rotted One"] = true;
 	AL["Uncle Bigpocket"] = true;
 	AL["Baradin Fox"] = true;
+	AL["Tex Vortacoil"] = true;
+	AL["Olut Alegut"] = true;
+	AL["Rork Sharpchin"] = true;
+	AL["Sprinkle Noggenfogger"] = true;
+	AL["Wyrmcult Provisioner"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
