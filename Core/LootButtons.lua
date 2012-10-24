@@ -40,6 +40,8 @@ local CURRENCY_PRICE = {
 	["NOBLEGARDEN"] = { itemID = 44791 },		-- Noblegarden
 	["SPIRITSHARD"] = { itemID = 28558 },		-- World PvP - Terokkar Forest: Bone Wastes
 	["VALENTINEDAY"] = { itemID = 49927 },		-- Love is in the Air
+
+	["RELICULDUAR"] = { itemID = 42780 },		-- Love is in the Air
 }
 
 -- AtlasLoot:CreateItemButton

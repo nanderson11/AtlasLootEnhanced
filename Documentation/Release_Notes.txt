@@ -9,6 +9,7 @@ v7.03.02 (?? ??, 2012)
 Compatible with Patch 5.1.
 Added Fishing to the crafting menus.
 Added new Pets and Mounts.
+Updated Transformation section.
 Revamped Feast of Winter Veil.
 Revamped Lunar Festival.
 

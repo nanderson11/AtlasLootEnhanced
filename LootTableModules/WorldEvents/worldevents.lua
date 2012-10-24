@@ -472,18 +472,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 3, 69190, "", "=q1=Naga Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 4, 69193, "", "=q1=Ogre Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 5, 69195, "", "=q1=Vrykul Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 7, 20410, "", "=q1=Hallowed Wand - Bat", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 8, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 9, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 10, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 7, 20410, "", "=q1=Hallowed Wand - Bat", "=ds=#e25#", "#HALLOWSEND:2#"};
+				{ 8, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds=#e25#", "#HALLOWSEND:2#"};
+				{ 9, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds=#e25#", "#HALLOWSEND:2#"};
+				{ 10, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds=#e25#", "#HALLOWSEND:2#"};
 				{ 17, 69187, "", "=q1=Murloc Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 18, 69189, "", "=q1=Naga Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 19, 69192, "", "=q1=Ogre Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
 				{ 20, 69194, "", "=q1=Vrykul Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 22, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 23, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 24, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 25, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 22, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds=#e25#", "#HALLOWSEND:2#"};
+				{ 23, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#e25#", "#HALLOWSEND:2#"};
+				{ 24, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#e25#", "#HALLOWSEND:2#"};
+				{ 25, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#e25#", "#HALLOWSEND:2#"};
 				extraText = ": "..AL["Non-Playable Race Masks"].." / "..BabbleInventory["Wands"];
 			};
 			{
@@ -783,7 +783,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 3, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "#NOBLEGARDEN:100#"};
 				{ 4, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "#NOBLEGARDEN:100#"};
 				{ 5, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "#NOBLEGARDEN:50#"};
-				{ 6, 44792, "", "=q1=Blossoming Branch", "=ds=", "#NOBLEGARDEN:10#"};
+				{ 6, 44792, "", "=q1=Blossoming Branch", "=ds=#e25#", "#NOBLEGARDEN:10#"};
 				{ 7, 44818, "", "=q1=Noblegarden Egg", "=ds=", "#NOBLEGARDEN:5#"};
 				{ 9, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
 				{ 10, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};

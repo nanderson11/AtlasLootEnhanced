@@ -5581,32 +5581,49 @@ c			};
 	AtlasLoot_Data["TransformationNonconsumedItems"] = {
 		["Normal"] = {
 			{
-				{ 1, 64481, "", "=q4=Blessing of the Old God", "=ds=#p25#"};
-				{ 2, 64646, "", "=q4=Bones of Transformation", "=ds=#p25#"};
-				{ 3, 49704, "", "=q4=Carved Ogre Idol", "=ds=#m24#"};
-				{ 4, 52201, "", "=q4=Muradin's Favor", "=ds=#m4#: #QUESTID:24917#"};
-				{ 5, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
-				{ 6, 64651, "", "=q4=Wisp Amulet", "=ds=#p25#"};
-				{ 7, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=ds="..AL["Burgy Blackheart"]..", "..BabbleZone["Shimmering Expanse"]};
-				{ 8, 54653, "", "=q3=Darkspear Pride", "=ds=#m4#: #QUESTID:25480#"};
-				{ 9, 44719, "", "=q3=Frenzyheart Brew", "=ds="..BabbleFaction["Frenzyheart Tribe"]..": "..BabbleFaction["Revered"]};
-				{ 10, 54651, "", "=q3=Gnomeregan Pride", "=ds=#m4#: #QUESTID:25286#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
+				{ 2, 44719, "", "=q3=Frenzyheart Brew", "=q2="..BabbleFaction["Frenzyheart Tribe"].." - "..BabbleFaction["Revered"], "=ds=3 #gold#"};
+				{ 3, 68806, "", "=q3=Kalytha's Haunted Locket", "=q2="..AL["Tex Vortacoil"]..", =q1="..BabbleZone["Azshara"], "=ds=5,000 #gold#"};
+				{
+					{ 4, 43499, "", "=q1=Iron Boot Flask", "=q2="..AL["Olut Alegut"]..", =q1="..BabbleZone["The Storm Peaks"], "#RELICULDUAR:10#"};
+					{ 4, 43499, "", "=q1=Iron Boot Flask", "=q2="..AL["Rork Sharpchin"]..", =q1="..BabbleZone["The Storm Peaks"], "#RELICULDUAR:10#"};
+				};
+				{ 5, 66888, "", "=q1=Stave of Fur and Claw", "=q2="..BabbleFaction["Timbermaw Hold"].." - "..BabbleFaction["Exalted"], "=ds=5,000 #gold#"};
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Quest Reward"]};
+				{ 8, 52201, "", "=q4=Muradin's Favor", "=ds=#m4#: #QUESTID:24917#"};
+				{ 9, 54653, "", "=q3=Darkspear Pride", "=ds=#m4#: #QUESTID:25480# #m6#"};
+				{ 10, 54651, "", "=q3=Gnomeregan Pride", "=ds=#m4#: #QUESTID:25286# #m7#"};
 				{ 11, 19979, "", "=q3=Hook of the Master Angler", "=ds=#m4#: #QUESTID:8193#"};
-				{ 12, 68806, "", "=q3=Kalytha's Haunted Locket", "=ds="..AL["Vendor"]..": "..BabbleZone["Azshara"]};
-				{ 13, 33079, "", "=q3=Murloc Costume", "#ACHIEVEMENTID:412#"};
-				{ 14, 1973, "", "=q3=Orb of Deception", "=ds="..AL["World Drop"]};
-				{ 15, 35275, "", "=q3=Orb of the Sin'dorei", "=ds="..AL["Various Locations"]..": "..BabbleZone["Magisters' Terrace"]};
-				{ 16, 45850, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
-				{ 17, 45851, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
-				{ 18, 45852, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
-				{ 19, 45853, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
-				{ 20, 32782, "", "=q3=Time-Lost Figurine", "=ds="..AL["Terokk"]..": "..BabbleZone["Terokkar Forest"]};
-				{ 21, 5462, "", "=q1=Dartol's Rod of Transformation", "=ds=#m4#: #QUESTID:1028#"};
-				{ 22, 53057, "", "=q1=Faded Wizard Hat", "=ds=#m4#: #QUESTID:14392#"};
-				{ 23, 43499, "", "=q1=Iron Boot Flask", "=ds="..AL["Vendor"]..": "..BabbleZone["The Storm Peaks"]};
-				{ 24, 71259, "", "=q1=Leyara's Locket", "=ds=#m4#: #QUESTID:29311#"};
-				{ 25, 66888, "", "=q1=Stave of Fur and Claw", "=ds="..BabbleFaction["Timbermaw Hold"]..": "..BabbleFaction["Exalted"]};
-				{ 26, 17712, "", "=q1=Winter Veil Disguise Kit", "=ds="..AL["Feast of Winter Veil"]};
+				{ 12, 5462, "", "=q1=Dartol's Rod of Transformation", "=ds=#m34#: #QUESTID:1028# #m7#"};
+				{ 13, 53057, "", "=q1=Faded Wizard Hat", "=ds=#m4#: #QUESTID:14392# #m6#"};
+				{ 14, 71259, "", "=q1=Leyara's Locket", "=ds=#m4#: #QUESTID:29311#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare"]};
+				{ 17, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
+				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2=Ai-Li Skymirror, =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 19, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=q2="..AL["Burgy Blackheart"]..", =q1="..AtlasLoot:GetMapNameByID(615)};
+				{ 20, 86593, "", "=q3=Hozen Beach Ball", "=q2=Ik-Ik the Nimble, =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 21, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2=Yorik Sharpeye, =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 22, 1973, "", "=q3=Orb of Deception", "=q2="..AL["World Drop"]};
+				{ 23, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
+				{ 24, 86573, "", "=q3=Shard of Archstone", "=q2=Havak, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 25, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted"]};
+				{ 2, 64481, "", "=q4=Blessing of the Old God", "=ds=#p25#"};
+				{ 3, 64646, "", "=q4=Bones of Transformation", "=ds=#p25#"};
+				{ 4, 64651, "", "=q4=Wisp Amulet", "=ds=#p25#"};
+				{ 5, 45850, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 6, 45851, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 7, 45852, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 8, 45853, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 9, 69775, "", "=q3=Vrykul Drinking Horn", "=ds=#p25#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Item"]};
+				{ 17, 49704, "", "=q4=Carved Ogre Idol", "=ds="..AL["UDE Items"]..", =ds="..AL["No Longer Available"]};
+				{ 19, 0, "INV_Box_01", "=q6=Promotional"};
+				{ 20, 33079, "", "=q3=Murloc Costume", "#ACHIEVEMENTID:412#"};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["World Events"]};
+				{ 23, 17712, "", "=q1=Winter Veil Disguise Kit", "=ds="..AL["Feast of Winter Veil"]};
 			};
 		};
 		info = {
@@ -5618,15 +5635,30 @@ c			};
 	AtlasLoot_Data["TransformationConsumableItems"] = {
 		["Normal"] = {
 			{
-				{ 1, 38320, "", "=q1=Dire Brew", "=ds="..BabbleZone["Blackrock Depths"]};
-				{ 2, 63122, "", "=q1=Lifegiving Seed", "=ds="};
-				{ 3, 43572, "", "=q1=Magic Eater", "=ds=#p24#: =ds="..BabbleZone["Dalaran"]};
-				{ 4, 8529, "", "=q1=Noggenfogger Elixir", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 5, 31337, "", "=q1=Orb of the Blackwhelp", "=ds="..AL["Vendor"]..": "..BabbleZone["Blade's Edge Mountains"]};
-				{ 6, 58489, "", "=q1=Potion of Illusion", "=ds=#p1#"};
-				{ 7, 40195, "", "=q1=Pygmy Oil", "=ds=#p1#"};
-				{ 8, 6657, "", "=q1=Savory Deviate Delight", "=ds=#p3#"};
-				{ 9, 44012, "", "=q1=Underbelly Elixir", "=ds="..BabbleZone["Dalaran"]};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
+				{ 2, 8529, "", "=q1=Noggenfogger Elixir", "=q2="..AL["Sprinkle Noggenfogger"]..", =q1="..AtlasLoot:GetMapNameByID(161), "35 #silver#"};
+				{ 3, 31337, "", "=q1=Orb of the Blackwhelp", "=q2="..AL["Wyrmcult Provisioner"]..", =q1="..AtlasLoot:GetMapNameByID(475), "2 #gold# 50 #silver#"};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Crafted"]};
+				{ 6, 4388, "", "=q1=Discombobulator Ray", "=ds=#p5#"};
+				{ 7, 63122, "", "=q1=Lifegiving Seed", "=ds="}; --herb
+				{ 8, 43572, "", "=q1=Magic Eater", "=ds=#p24#: =q1="..AtlasLoot:GetMapNameByID(504)};
+				{ 9, 58489, "", "=q1=Potion of Illusion", "=ds=#p1#"};
+				{ 10, 40195, "", "=q1=Pygmy Oil", "=ds=#p1#"};
+				{ 11, 6657, "", "=q1=Savory Deviate Delight", "=ds=#p3#"};
+				{ 13, 0, "INV_Box_01", "=q6="..AL["Drop"]};
+				{ 14, 38320, "", "=q1=Dire Brew", "=q1="..AtlasLoot:GetMapNameByID(704)};
+				{ 15, 23864, "", "=q1=Torment of the Worgen", "=q1="..AtlasLoot:GetMapNameByID(799)};
+				{ 16, 44012, "", "=q1=Underbelly Elixir", "=q1="..AtlasLoot:GetMapNameByID(504)};
+				{ 18, 0, "INV_Box_01", "=q6="..AL["World Events"]};
+				{ 19, 44792, "", "=q1=Blossoming Branch", "=ds="..AL["Noblegarden"], "#NOBLEGARDEN:10#"};
+				{ 20, 20410, "", "=q1=Hallowed Wand - Bat", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 21, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 22, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 23, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 24, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 25, 20413, "", "=q1=Hallowed Wand - Random", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 26, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
+				{ 27, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds="..AL["Hallow's End"], "#HALLOWSEND:2#"};
 			};
 		};
 		info = {
@@ -5638,12 +5670,23 @@ c			};
 	AtlasLoot_Data["TransformationAdditionalEffects"] = {
 		["Normal"] = {
 			{
-				{ 1, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#"};
-				{ 2, 69897, "", "=q4=Fandral's Flamescythe", "=ds=#w9#"};
-				{ 3, 39769, "", "=q4=Arcanite Ripper", "=ds=#h2#, #w1#"};
-				{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
-				{ 5, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
-				{ 6, 65891, "", "=q4=Vial of the Sands", "=ds=#e12#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Weapons"]};
+				{ 2, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#", "=q1="..AtlasLoot:GetMapNameByID(800)};
+				{ 3, 69897, "", "=q4=Fandral's Flamescythe", "=ds=#w9#", "=q2="..BabbleBoss["Majordomo Staghelm"]..", =q1="..AtlasLoot:GetMapNameByID(800)};
+				{ 4, 71466, "", "=q4=Fandral's Flamescythe", "=ds=#w9#", "=q2="..BabbleBoss["Majordomo Staghelm"]..", =q1="..AtlasLoot:GetMapNameByID(800)};
+				{ 5, 39769, "", "=q4=Arcanite Ripper", "=ds=#h2#, #w1#", "=q2="..AL["No Longer Available"]};
+				{ 6, 19910, "", "=q3=Arlokk's Grasp", "=ds=#h4#, #w13#", "=q2="..AL["No Longer Available"]};
+				{ 7, 19896, "", "=q3=Thekal's Grasp", "=ds=#h1#, #w13#", "=q2="..AL["No Longer Available"]};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleInventory["Mounts"]};
+				{ 10, 65891, "", "=q4=Vial of the Sands", "=ds=#e12#", "=ds=#p1#"};
+				{ 11, 83086, "", "=q4=Heart of the Nightwing", "=ds=#e12#", "=q2="..AL["Recruit-A-Friend"]};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Trinkets"]};
+				{ 17, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#", "=q2="..BabbleBoss["Deathbringer Saurfang"]..", =q1="..AtlasLoot:GetMapNameByID(604)};
+				{ 18, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#", "=q2="..BabbleBoss["Deathbringer Saurfang"]..", =q1="..AtlasLoot:GetMapNameByID(604)};
+				{ 19, 59461, "", "=q4=Fury of Angerforge", "=ds=#s14#", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
+				{ 20, 23835, "", "=q3=Gnomish Poultryizer", "=ds=#s14#", "=ds=#p5#"};
+				{ 21, 18984, "", "=q2=Dimensional Ripper - Everlook", "=ds=#s14#", "=ds=#p5#"};
+				{ 22, 18986, "", "=q2=Ultrasafe Transporter: Gadgetzan", "=ds=#s14#", "=ds=#p5#"};
 			};
 		};
 		info = {
