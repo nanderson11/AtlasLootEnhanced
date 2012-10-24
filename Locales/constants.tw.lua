@@ -543,7 +543,6 @@ if AL then
 	AL["Old Quest Item"] = "舊任務物品";
 	AL["Quest Reward"] = "任務獎勵";
 	AL["Old Quest Reward"] = "舊任務獎勵";
-	AL["Pet Battle Quests"] = "寵物戰鬥任務";
 	AL["Shared"] = "共享";
 	AL["Right Half"] = "右半部份";
 	AL["Left Half"] = "左半部份";

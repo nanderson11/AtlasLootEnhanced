@@ -7,7 +7,8 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v7.03.02 (?? ??, 2012)
 Compatible with Patch 5.1.
-Added a Fishing section to the crafting menus.
+Added Fishing to the crafting menus.
+Added new Pets and Mounts.
 Revamped Feast of Winter Veil.
 Revamped Lunar Festival.
 

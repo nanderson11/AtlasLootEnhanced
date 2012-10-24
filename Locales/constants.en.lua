@@ -543,7 +543,6 @@ if AL then
 	AL["Old Quest Item"] = true;
 	AL["Quest Reward"] = true;
 	AL["Old Quest Reward"] = true;
-	AL["Pet Battle Quests"] = true;
 	AL["Shared"] = true;
 	AL["Right Half"] = true;
 	AL["Left Half"] = true;
@@ -1104,6 +1103,7 @@ if AL then
 	AL["Battle Pet Trainer"] = true;
 	AL["Rotted One"] = true;
 	AL["Uncle Bigpocket"] = true;
+	AL["Baradin Fox"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
@@ -1167,6 +1167,7 @@ if AL then
 	AL["Stendel's Bane"] = true;
 	AL["Shellfish Trap"] = true;
 	AL["Fishing Pools"] = true;
+	AL["Sack of Pet Supplies"] = true;
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = true;

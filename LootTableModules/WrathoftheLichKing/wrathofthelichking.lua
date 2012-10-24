@@ -3351,6 +3351,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 22, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#", "", "19%"};
 				{ 23, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#", "", "10%"};
 				{ 24, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#", "", "0.44%"};
+				{ 26, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", ""};
 			};
 			{
 				{ 1, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#e15#", "", "29%"};
@@ -3405,6 +3406,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 9, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#", "", "24%"};
 				{ 10, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "19%"};
 				{ 11, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "1%"};
+				{ 13, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", ""};
 				{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "", "57%"};
 				{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "", "58%"};
 				{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
@@ -3567,6 +3569,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 6, 39232, "", "=q4=Pendant of Lost Vocations", "=ds=#s2#", "", "10%"};
 				{ 7, 39231, "", "=q4=Timeworn Silken Band", "=ds=#s13#", "", "10%"};
 				{ 8, 39229, "", "=q4=Embrace of the Spider", "=ds=#s14#", "", "11%"};
+				{ 10, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", ""};
 				{ 16, 39226, "", "=q4=Maexxna's Femur", "=ds=#h1#, #w6#", "", "10%"};
 				{ 17, 39221, "", "=q4=Wraith Spear", "=ds=#w7#", "", "10%"};
 				{ 18, 39233, "", "=q4=Aegis of Damnation", "=ds=#w8#", "", "10%"};
@@ -3596,8 +3599,9 @@ local moduleName = "AtlasLootWotLK"
 				{ 21, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#", "", "11%"};
 				{ 22, 40256, "", "=q4=Grim Toll", "=ds=#s14#", "", "11%"};
 				{ 23, 39766, "", "=q4=Matriarch's Spawn", "=ds=#s15#", "", "19%"};
-				{ 25, 39763, "", "=q4=Wraith Strike", "=ds=#h3#, #w13#", "", "9%"};
+				{ 25, 39763, "", "=q4=Wraith Strike", "=ds=#h1#, #w13#", "", "9%"};
 				{ 26, 39758, "", "=q4=The Jawbone", "=ds=#h2#, #w6#", "", "9%"};
+				{ 28, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -3722,8 +3726,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 40352, "", "=q4=Leggings of Voracious Shadows", "=ds=#s11#, #a3#", "", "10%"};
 				{ 4, 40347, "", "=q4=Zeliek's Gauntlets", "=ds=#s9#, #a4#", "", "8%"};
 				{ 6, 40345, "", "=q4=Broken Promise", "=ds=#h1#, #w10#", "", "10%"};
-				{ 8, 40343, "", "=q4=Armageddon", "=ds=#h2#, #w10#", "", "9%"};
-				{ 7, 40348, "", "=q4=Damnation", "=ds=#w9#", "", "10%"};
+				{ 7, 40343, "", "=q4=Armageddon", "=ds=#h2#, #w10#", "", "9%"};
+				{ 8, 40348, "", "=q4=Damnation", "=ds=#w9#", "", "10%"};
 				{ 9, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "10%"};
 				{ 16, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#", "", "10%"};
 				{ 18, 40625, "", "=q4=Breastplate of the Lost Conqueror", "=ds=#e15#", "", "30%"};
@@ -3843,6 +3847,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 3, 39258, "", "=q4=Legplates of Inescapable Death", "=ds=#s11#, #a4#", "", "10%"};
 				{ 4, 39257, "", "=q4=Loatheb's Shadow", "=ds=#s14#", "", "10%"};
 				{ 5, 39256, "", "=q4=Sulfur Stave", "=ds=#w9#", "", "10%"};
+				{ 7, 93032, "", "=q3=Blighted Spore", "=ds=#e13#", ""};
 				{ 16, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#e15#", "", "29%"};
 				{ 17, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#e15#", "", "30%"};
 				{ 18, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
@@ -3857,6 +3862,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 40242, "", "=q4=Grotesque Handgrips", "=ds=#s9#, #a3#", "", "19%"};
 				{ 6, 40241, "", "=q4=Girdle of Unity", "=ds=#s10#, #a4#", "", "10%"};
 				{ 7, 40240, "", "=q4=Greaves of Turbulence", "=ds=#s11#, #a4#", "", "9%"};
+				{ 9, 93032, "", "=q3=Blighted Spore", "=ds=#e13#", ""};
 				{ 16, 40244, "", "=q4=The Impossible Dream", "=ds=#h3#, #w6#", "", "10%"};
 				{ 17, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#", "", "19%"};
 				{ 18, 40245, "", "=q4=Fading Glow", "=ds=#w12#", "", "10%"};
@@ -3925,7 +3931,7 @@ local moduleName = "AtlasLootWotLK"
 			{
 				{ 1, 39425, "", "=q4=Cloak of the Dying", "=ds=#s4#", "", "19%"};
 				{ 2, 39421, "", "=q4=Gem of Imprisoned Vassals", "=ds=#s2#", "", "19%"};
-				{ 3, 39416, "", "=q4=Kel'Thuzad's Reach", "=ds=#h3#, #w13#", "", "18%"};
+				{ 3, 39416, "", "=q4=Kel'Thuzad's Reach", "=ds=#h1#, #w13#", "", "18%"};
 				{ 4, 39424, "", "=q4=The Soulblade", "=ds=#h3#, #w4#", "", "19%"};
 				{ 5, 39420, "", "=q4=Anarchy", "=ds=#h1#, #w4#", "", "18%"};
 				{ 6, 39417, "", "=q4=Death's Bite", "=ds=#h2#, #w1#", "", "18%"};
@@ -3933,6 +3939,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 39422, "", "=q4=Staff of the Plaguehound", "=ds=#w9#", "", "19%"};
 				{ 9, 39426, "", "=q4=Wand of the Archlich", "=ds=#w12#", "", "19%"};
 				{ 10, 39419, "", "=q4=Nerubian Conquerer", "=ds=#w5#", "", "19%"};
+				{ 12, 93031, "", "=q3=Mr. Bigglesworth's Frigid Collar", "=ds=#e13#", ""};
 				{ 16, 40616, "", "=q4=Helm of the Lost Conqueror", "=ds=#e15#", "", "28%"};
 				{ 17, 40617, "", "=q4=Helm of the Lost Protector", "=ds=#e15#", "", "28%"};
 				{ 18, 40618, "", "=q4=Helm of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
@@ -3943,10 +3950,10 @@ local moduleName = "AtlasLootWotLK"
 				{ 1, 40405, "", "=q4=Cape of the Unworthy Wizard", "=ds=#s4#", "", "18%"};
 				{ 2, 40403, "", "=q4=Drape of the Deadly Foe", "=ds=#s4#", "", "18%"};
 				{ 3, 40398, "", "=q4=Leggings of Mortal Arrogance", "=ds=#s11#, #a1#", "", "18%"};
-				{ 5, 40383, "", "=q4=Calamity's Grasp", "=ds=#h3#, #w13#", "", "18%"};
-				{ 6, 40396, "", "=q4=The Turning Tide", "=ds=#h3#, #w10#", "", "18%"};
-				{ 7, 40395, "", "=q4=Torch of Holy Fire", "=ds=#h3#, #w6#", "", "18%"};
-				{ 8, 40386, "", "=q4=Sinister Revenge", "=ds=#h1#, #w4#", "", "17%"};
+				{ 5, 40383, "", "=q4=Calamity's Grasp", "=ds=#h1#, #w13#", "", "18%"};
+				{ 6, 40386, "", "=q4=Sinister Revenge", "=ds=#h1#, #w4#", "", "17%"};
+				{ 7, 40396, "", "=q4=The Turning Tide", "=ds=#h3#, #w10#", "", "18%"};
+				{ 8, 40395, "", "=q4=Torch of Holy Fire", "=ds=#h3#, #w6#", "", "18%"};
 				{ 9, 40402, "", "=q4=Last Laugh", "=ds=#h1#, #w1#", "", "18%"};
 				{ 10, 40384, "", "=q4=Betrayer of Humanity", "=ds=#h2#, #w1#", "", "17%"};
 				{ 11, 40388, "", "=q4=Journey's End", "=ds=#w9#", "", "18%"};
@@ -3958,6 +3965,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 40631, "", "=q4=Crown of the Lost Conqueror", "=ds=#e15#", "", "54%"};
 				{ 20, 40632, "", "=q4=Crown of the Lost Protector", "=ds=#e15#", "", "57%"};
 				{ 21, 40633, "", "=q4=Crown of the Lost Vanquisher", "=ds=#e15#", "", "73%"};
+				{ 23, 93031, "", "=q3=Mr. Bigglesworth's Frigid Collar", "=ds=#e13#", ""};
 			};
 		};
 		info = {

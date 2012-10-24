@@ -351,7 +351,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 24, 21244, "", "=q4=Blessed Qiraji Pugio", "=q1=#m4#, =ds=#h1#, #w4#"};
 				{ 25, 21269, "", "=q4=Blessed Qiraji Bulwark", "=q1=#m4#, =ds=#w8#"};
 				{ 27, 22222, "", "=q3=Plans: Thick Obsidian Breastplate", "=ds=#p2# (300)", "", "5.00%"};
-				{ 28, 22196, "", "=q4=Thick Obsidian Breastplate", "=ds=#s5#, #a4#"};
+				{ 29, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -476,6 +476,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 23, 21272, "", "=q4=Blessed Qiraji Musket", "=q1=#m4#, =ds=#w5#"};
 				{ 24, 21244, "", "=q4=Blessed Qiraji Pugio", "=q1=#m4#, =ds=#h1#, #w4#"};
 				{ 25, 21269, "", "=q4=Blessed Qiraji Bulwark", "=q1=#m4#, =ds=#w8#"};
+				{ 27, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -523,11 +524,12 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 6, 21597, "", "=q4=Royal Scepter of Vek'lor", "=ds=#s15#", "", "6.99%"};
 				{ 7, 21601, "", "=q4=Ring of Emperor Vek'lor", "=ds=#s13#", "", "17.27%"};
 				{ 8, 20735, "", "=q3=Formula: Enchant Cloak - Subtlety", "=ds=#p4# (300)", "", "6.62%"};
-				{ 11, 21232, "", "=q4=Imperial Qiraji Armaments", "=ds=#m3#", "", "6.25%"};
-				{ 12, 21242, "", "=q4=Blessed Qiraji War Axe", "=q1=#m4#, =ds=#h1#, #w1#"};
-				{ 13, 21272, "", "=q4=Blessed Qiraji Musket", "=q1=#m4#, =ds=#w5#"};
-				{ 14, 21244, "", "=q4=Blessed Qiraji Pugio", "=q1=#m4#, =ds=#h1#, #w4#"};
-				{ 15, 21269, "", "=q4=Blessed Qiraji Bulwark", "=q1=#m4#, =ds=#w8#"};
+				{ 10, 21232, "", "=q4=Imperial Qiraji Armaments", "=ds=#m3#", "", "6.25%"};
+				{ 11, 21242, "", "=q4=Blessed Qiraji War Axe", "=q1=#m4#, =ds=#h1#, #w1#"};
+				{ 12, 21272, "", "=q4=Blessed Qiraji Musket", "=q1=#m4#, =ds=#w5#"};
+				{ 13, 21244, "", "=q4=Blessed Qiraji Pugio", "=q1=#m4#, =ds=#h1#, #w4#"};
+				{ 14, 21269, "", "=q4=Blessed Qiraji Bulwark", "=q1=#m4#, =ds=#w8#"};
+				{ 15, 93040, "", "=q3=Anubisath Idol", "=ds=#e13#", ""};
 				{ 16, 20926, "", "=q4=Vek'nilash's Circlet", "=q1=#m1# =ds=#c8#, #c3#, #c5#, #c9#", "", "100%"};
 				{ 17, 21604, "", "=q4=Bracelets of Royal Redemption", "=ds=#s8#, #a1#", "", "12.51%"};
 				{ 18, 21605, "", "=q4=Gloves of the Hidden Temple", "=ds=#s9#, #a2#", "", "15.45%"};
@@ -1646,6 +1648,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 20, 19369, "", "=q4=Gloves of Rapid Evolution", "=ds=#s9#, #a1#", "", "17.52%"};
 				{ 21, 19334, "", "=q4=The Untamed Blade", "=ds=#h2#, #w10#", "", "9.76%"};
 				{ 22, 19335, "", "=q4=Spineshatter", "=ds=#h1#, #w6#", "", "10.44%"};
+				{ 24, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -1698,6 +1701,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 20, 19373, "", "=q4=Black Brood Pauldrons", "=ds=#s3#, #a3#", "", "17.25%"};
 				{ 21, 19351, "", "=q4=Maladath, Runed Blade of the Black Flight", "=ds=#h1#, #w10#", "", "9.62%"};
 				{ 22, 19350, "", "=q4=Heartstriker", "=ds=#w2#", "", "8.45%"};
+				{ 24, 93037, "", "=q3=Blackwing Banner", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -1816,6 +1820,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 16945, "", "=q4=Epaulets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "6.73%"};
 				{ 8, 16953, "", "=q4=Judgement Spaulders", "=q1=#m1# =ds=#c4#", "", "10.97%"};
 				{ 9, 16961, "", "=q4=Pauldrons of Wrath", "=q1=#m1# =ds=#c9#", "", "16.83%"};
+				{ 11, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", ""};
 				{ 16, 19386, "", "=q4=Elementium Threaded Cloak", "=ds=#s4#", "", "18.93%"};
 				{ 17, 19388, "", "=q4=Angelista's Grasp", "=ds=#s10#, #a1#", "", "16.86%"};
 				{ 18, 19385, "", "=q4=Empowered Leggings", "=ds=#s11#, #a1#", "", "16.27%"};
@@ -1966,6 +1971,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 22, 16843, "", "=q4=Earthfury Legguards", "=q1=#m1# =ds=#c7# (T1)", "", " 4.73%"};
 				{ 23, 16855, "", "=q4=Lawbringer Legplates", "=q1=#m1# =ds=#c4# (T1)", "", "8.54%"};
 				{ 24, 16867, "", "=q4=Legplates of Might", "=q1=#m1# =ds=#c9# (T1)", "", "13.97%"};
+				{ 26, 93034, "", "=q3=Blazing Rune", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -2123,6 +2129,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 24, 16853, "", "=q4=Lawbringer Chestguard", "=q1=#m1# =ds=#c4# (T1)", "", "9.53%"};
 				{ 26, 17203, "", "=q4=Sulfuron Ingot", "=ds=#m3#", "", "11.98%"};
 				{ 27, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=q1=#m4#: =ds=#h2#, #w6#"};
+				{ 29, 93035, "", "=q3=Core of Hardened Ash", "=ds=#e13#", ""};
 			};
 		};
 		info = {
@@ -2149,6 +2156,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 16823, "", "=q4=Nightslayer Shoulder Pads", "=q1=#m1# =ds=#c6# (T1)", "", "20.66%"};
 				{ 18, 16848, "", "=q4=Giantstalker's Epaulets", "=q1=#m1# =ds=#c2# (T1)", "", "19.64%"};
 				{ 19, 16868, "", "=q4=Pauldrons of Might", "=q1=#m1# =ds=#c9# (T1)", "", "21.14%"};
+				{ 21, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", ""};
 			};
 		};
 		info = {

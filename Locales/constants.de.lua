@@ -543,7 +543,6 @@ if AL then
 	AL["Old Quest Item"] = "Alter Questgegenstand";
 	AL["Quest Reward"] = "Questbelohnung";
 	AL["Old Quest Reward"] = "Alte Questbelohnung";
-	AL["Pet Battle Quests"] = "Haustierkampf-Quest";
 	AL["Shared"] = "geteilter Loot";
 	AL["Right Half"] = "Rechte Hälfte";
 	AL["Left Half"] = "Linke Hälfte";
