@@ -1103,6 +1103,12 @@ if AL then
 	AL["Battle Pet Trainer"] = "宠物对战训练师";
 	AL["Rotted One"] = "腐烂者";
 	AL["Uncle Bigpocket"] = "表叔大口袋";
+	AL["Baradin Fox"]  = "巴拉丁狐狸";
+	AL["Tex Vortacoil"]  = "特克斯·垂旋";
+	AL["Olut Alegut"]  = "奥鲁特·埃雷古";
+	AL["Rork Sharpchin"]  = "洛尔克·锐须";
+	AL["Sprinkle Noggenfogger"]  = "斯宾科尔·诺格弗格";
+	AL["Wyrmcult Provisioner"]  = "拜龙教补给者";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
