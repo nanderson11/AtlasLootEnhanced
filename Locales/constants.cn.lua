@@ -1173,6 +1173,7 @@ if AL then
 	AL["Stendel's Bane"] = "斯特登之祸";
 	AL["Shellfish Trap"] = "贝壳陷阱";
 	AL["Fishing Pools"] = "钓鱼场所";
+	AL["Sack of Pet Supplies"] = "一袋宠物补给";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
