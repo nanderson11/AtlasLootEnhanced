@@ -1109,6 +1109,7 @@ if AL then
 	AL["Rork Sharpchin"] = "Rork Spitzkinn";
 	AL["Sprinkle Noggenfogger"] = "Sprinkel Noggenfogger";
 	AL["Wyrmcult Provisioner"] = "Versorger des Wyrmkults";
+	AL["Apothecary Hummel"] = "Apotheker Hummel";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
