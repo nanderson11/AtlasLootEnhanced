@@ -330,8 +330,8 @@ if AL then
 	AL["Panel"] = "AtlasLoot-Leiste";
 
 	-- Slash commands
-	AL["reset"] = "Zurücksetzen";
-	AL["options"] = "Optionen";
+	-- AL["reset"] = true;
+	-- AL["options"] = true;
 	AL["Reset complete!"] = "AtlasLoot wurde erfolgreich zurückgesetzt!";
 
 	-- AtlasLoot Panel - Search
@@ -1103,6 +1103,12 @@ if AL then
 	AL["Battle Pet Trainer"] = "Kampfhaustiertrainer";
 	AL["Rotted One"] = "Verfaulter";
 	AL["Uncle Bigpocket"] = "Onkel Dickehose";
+	AL["Baradin Fox"] = "Baradinfuchs";
+	AL["Tex Vortacoil"] = "Tex Vortaspul";
+	AL["Olut Alegut"] = "Olut Bierbauch";
+	AL["Rork Sharpchin"] = "Rork Spitzkinn";
+	AL["Sprinkle Noggenfogger"] = "Sprinkel Noggenfogger";
+	AL["Wyrmcult Provisioner"] = "Versorger des Wyrmkults";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
@@ -1166,6 +1172,7 @@ if AL then
 	AL["Stendel's Bane"] = "Stendels Ruin";
 	AL["Shellfish Trap"] = "Schalentierfalle";
 	AL["Fishing Pools"] = "Fischschwärme";
+	AL["Sack of Pet Supplies"] = "Beutel mit Haustierbedarf";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Jahrespass";
