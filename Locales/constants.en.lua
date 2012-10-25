@@ -1109,6 +1109,7 @@ if AL then
 	AL["Rork Sharpchin"] = true;
 	AL["Sprinkle Noggenfogger"] = true;
 	AL["Wyrmcult Provisioner"] = true;
+	AL["Apothecary Hummel"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;

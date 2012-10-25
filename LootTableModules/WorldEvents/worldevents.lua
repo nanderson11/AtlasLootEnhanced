@@ -618,7 +618,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 28, 21821, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 29, 21822, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 30, 21823, "", "=q1=Heart Candy", "=ds=#m20#"};
-				extraText = ": Needs a name";
+				extraText = ": "..AL["Misc"];
 			};
 		};
 		info = {
@@ -644,7 +644,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = "Apothecary Hummel",
+			name = AL["Apothecary Hummel"],
 			module = moduleName, menu = "LOEVISINTHEAIRMENU",
 		};
 	};

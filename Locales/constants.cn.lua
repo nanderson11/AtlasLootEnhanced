@@ -961,7 +961,7 @@ if AL then
 	AL["Balance"] = "平衡";
 	AL["Feral"] = "野性战斗";
 	AL["Guardian"] = "守护";
-	AL["Restoration"] = "回复";
+	AL["Restoration"] = "恢复";
 	AL["Holy"] = "神圣";
 	AL["Discipline"] = "戒律";
 	AL["Protection"] = "防护";
@@ -1109,6 +1109,7 @@ if AL then
 	AL["Rork Sharpchin"]  = "洛尔克·锐须";
 	AL["Sprinkle Noggenfogger"]  = "斯宾科尔·诺格弗格";
 	AL["Wyrmcult Provisioner"]  = "拜龙教补给者";
+	AL["Apothecary Hummel"] = "药剂师汉摩尔";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";

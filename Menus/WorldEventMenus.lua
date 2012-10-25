@@ -144,8 +144,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 2, "Valentineday", "ability_hunter_pet_tallstrider", "=ds="..AL["Vendor"], ""};
-				{ 3, "Valentineday#2", "INV_ValentinesBoxOfChocolates02", "=ds=Needs a Name", ""};
-				{ 17, "ApothecaryHummel", "inv_misc_head_undead_01", "=ds=Apothecary Hummel", "=q5="..AL["Daily Reward"]};
+				{ 3, "Valentineday#2", "INV_ValentinesBoxOfChocolates02", "=ds="..AL["Misc"], ""};
+				{ 17, "ApothecaryHummel", "inv_misc_head_undead_01", "=ds="..AL["Apothecary Hummel"], "=q5="..AL["Daily Reward"]};
 			};
 		};
 		info = {
