@@ -2245,9 +2245,9 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 0, "achievement_faction_anglers", "=q6=#r5#", ""};
 				{ 17, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e12#"};
 				{ 18, 89401, "", "=q3=Anglers Tabard", "=ds=#s7#"};
-				{ 20, 0, "inv_box_04", "=q6=Nat Pagle", "=ds=#r4#"};
+				{ 20, 0, "inv_box_04", "=q6="..BabbleFaction["Nat Pagle"], "=ds=#r4#"};
 				{ 21, 88563, "", "=q7=Nat's Fishing Journal", "=ds=#m2#"};
-				{ 23, 0, "inv_box_04", "=q6=Nat Pagle", "=ds=#r5#"};
+				{ 23, 0, "inv_box_04", "=q6="..BabbleFaction["Nat Pagle"], "=ds=#r5#"};
 				{ 24, 88710, "", "=q4=Nat's Hat", "=ds=#s1#"};
 			};
 		};
