@@ -1110,7 +1110,8 @@ if AL then
 	AL["Rork Sharpchin"] = true;
 	AL["Sprinkle Noggenfogger"] = true;
 	AL["Wyrmcult Provisioner"] = true;
-	AL["Apothecary Hummel"] = true;
+	AL["Apothecary Hummel"] = true; --Will be removed soon once its added to BabbleBoss
+	AL["Auntie Stormstout"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
