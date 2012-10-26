@@ -624,6 +624,7 @@ if AL then
 	AL["Rare Fish Rewards"] = true;
 	AL["Rare Fish"] = true;
 	AL["Heirloom"] = true;
+	AL["PvP Heirlooms"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
 	AL["Rare"] = true;

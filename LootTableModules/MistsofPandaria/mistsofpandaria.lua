@@ -5702,32 +5702,58 @@ c			};
 	AtlasLoot_Data["Heirloom"] = {
 		["Normal"] = {
 			{
-				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 6, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 7, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 9, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 10, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 11, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 12, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 13, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 14, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 15, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60#"};
-				{ 16, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
-				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75#"};
-				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75#"};
-				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
-				{ 22, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
-				{ 23, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60#"};
-				{ 24, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
-				{ 25, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# / #CHAMPSEAL:75#"};
-				{ 26, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# / #CHAMPSEAL:75#"};
-				{ 27, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
-				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
-				{ 29, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# / #CHAMPSEAL:95#"};
+				{ 1, 62040, "", "=q7=Ancient Bloodmoon Cloak", "=ds=#s4#", "1,200 #gold#"};
+				{ 2, 62039, "", "=q7=Inherited Cape of the Black Baron", "=ds=#s4#", "1,200 #gold#"};
+				{ 3, 69892, "", "=q7=Ripped Sandstorm Cloak", "=ds=#s4#", "1,200 #gold#"};
+				{ 4, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", "1,200 #gold#"};
+				{ 6, 61958, "", "=q7=Tattered Dreadmist Mask", "=ds=#s1#, #a1#", "1,500 #gold#"};
+				{ 7, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 9, 62029, "", "=q7=Tattered Dreadmist Leggings", "=ds=#s11#, #a1#", "1,750 #gold#"};
+				{ 16, 61942, "", "=q7=Preened Tribal War Feathers", "=ds=#s1#, #a2#", "1,500 #gold#"};
+				{ 17, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 18, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 19, 62027, "", "=q7=Preened Wildfeather Leggings", "=ds=#s11#, #a2#", "1,750 #gold#"};
+				{ 21, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", "1,500 #gold#"};
+				{ 22, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 23, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 24, 62026, "", "=q7=Stained Shadowcraft Pants", "=ds=#s11#, #a2#", "1,750 #gold#"};
+				extraText = ": "..BabbleInventory["Back"].." / "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
+			};
+			{
+				{ 1, 61935, "", "=q7=Tarnished Raging Berserker's Helm", "=ds=#s1#, #a3#", "1,500 #gold#"};
+				{ 2, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 3, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 4, 62024, "", "=q7=Tarnished Leggings of Destruction", "=ds=#s11#, #a3#", "1,750 #gold#"};
+				{ 6, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", "1,500 #gold#"};
+				{ 7, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 8, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 9, 62025, "", "=q7=Mystical Kilt of Elements", "=ds=#s11#, #a3#", "1,750 #gold#"};
+				{ 16, 69887, "", "=q7=Burnished Helm of Might", "=ds=#s1#, #a4#", "1,500 #gold#"};
+				{ 17, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 18, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 19, 69888, "", "=q7=Burnished Legplates of Might", "=ds=#s11#, #a4#", "1,750 #gold#"};
+				{ 21, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", "1,500 #gold#"};
+				{ 22, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 23, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 24, 62023, "", "=q7=Polished Legplates of Valor", "=ds=#s11#, #a4#", "1,750 #gold#"};
+				extraText = ": "..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"];
+			};
+			{
+				{ 1, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
+				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75# / #DARKMOON:130#"};
+				{ 4, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75# / #DARKMOON:130#"};
+				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175#  / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 18, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 19, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
+				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# / #CHAMPSEAL:75# / #DARKMOON:110#"};
+				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# / #CHAMPSEAL:75# / #DARKMOON:110#"};
+				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
+				{ 27, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
+				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
+				{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
+				extraText = ": "..AL["Accessories"].." / "..AL["Weapons"];
 			};
 			{
 				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:2175#"};
@@ -5745,31 +5771,12 @@ c			};
 				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "#HONOR:2725#"};
 				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "#HONOR:3500#"};
 				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:3500#"};
-			};
-			{
-				{ 2, 62040, "", "=q7=Ancient Bloodmoon Cloak", "=ds=#s4#", ""};
-				{ 3, 62039, "", "=q7=Inherited Cape of the Black Baron", "=ds=#s4#", ""};
-				{ 4, 69892, "", "=q7=Ripped Sandstorm Cloak", "=ds=#s4#", ""};
-				{ 5, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", ""};
-				{ 7, 61958, "", "=q7=Tattered Dreadmist Mask", "=ds=#s1#, #a1#", ""};
-				{ 8, 61942, "", "=q7=Preened Tribal War Feathers", "=ds=#s1#, #a2#", ""};
-				{ 9, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", ""};
-				{ 10, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", ""};
-				{ 11, 61935, "", "=q7=Tarnished Raging Berserker's Helm", "=ds=#s1#, #a3#", ""};
-				{ 12, 69887, "", "=q7=Burnished Helm of Might", "=ds=#s1#, #a4#", ""};
-				{ 13, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", ""};
-				{ 17, 62029, "", "=q7=Tattered Dreadmist Leggings", "=ds=#s11#, #a1#", ""};
-				{ 18, 62027, "", "=q7=Preened Wildfeather Leggings", "=ds=#s11#, #a2#", ""};
-				{ 19, 62026, "", "=q7=Stained Shadowcraft Pants", "=ds=#s11#, #a2#", ""};
-				{ 20, 62025, "", "=q7=Mystical Kilt of Elements", "=ds=#s11#, #a3#", ""};
-				{ 21, 62024, "", "=q7=Tarnished Leggings of Destruction", "=ds=#s11#, #a3#", ""};
-				{ 22, 69888, "", "=q7=Burnished Legplates of Might", "=ds=#s11#, #a4#", ""};
-				{ 23, 62023, "", "=q7=Polished Legplates of Valor", "=ds=#s11#, #a4#", ""};
+				extraText = ": "..AL["PvP Heirlooms"];
 			};
 		};
 		info = {
 			name = AL["Heirloom"],
-			module = moduleName, menu = "SETMENU",
+			module = moduleName, menu = "HEIRLOOMMENU",
 		};
 	}
 
