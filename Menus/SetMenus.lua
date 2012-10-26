@@ -24,8 +24,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 16, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], ""};
 				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
-				{ 19, "Heirloom", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"]};
-				{ 20, "Heirloom#3", "inv_helmet_04", "=ds="..AL["Heirloom"], "=q5="..AL["Level 85"]};
+				{ 19, "HEIRLOOMMENU", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"].." / "..AL["Level 85"]};
 				{ 22, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Set"], "=q5="..AL["Classic WoW"]};
 				{ 23, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Set"], "=q5="..AL["Burning Crusade"]};
 				{ 24, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
@@ -261,7 +260,30 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			menu = "SETMENU",
 		};
 	}	
-	
+
+	AtlasLoot_Data["HEIRLOOMMENU"] = {
+		["Normal"] = {
+			{
+				{ 2, "Heirloom", "inv_helmet_24", "=ds="..BabbleInventory["Back"].." / "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"], ""};
+				{ 3, "Heirloom#4", "inv_sword_17", "=ds="..AL["PvP Heirlooms"], ""};
+				{ 5, 86559, "", "=q7=Frying Pan", "=ds=#h1#", "#IRONPAW:50#"};
+				{ 6, 86558, "", "=q7=Rolling Pin", "=ds=#s15#", "#IRONPAW:50#"};
+				{ 7, 86468, "", "=q7=Apron", "=ds=#s7#", "#IRONPAW:50#"};
+				{ 9, 88563, "", "=q7=Nat's Fishing Journal", "=ds=#m2#", "1,000 #gold#"};
+				{ 17, "Heirloom#2", "inv_chest_plate03", "=ds="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"], ""};
+				{ 18, "Heirloom#3", "INV_Helmet_01", "=ds="..AL["Accessories"].." / "..AL["Weapons"], ""};
+				{ 20, 44133, "", "=q7=Greater Inscription of the Axe", "=ds=#s3# #e17#", "100 #gold#"};
+				{ 21, 44134, "", "=q7=Greater Inscription of the Crag", "=ds=#s3# #e17#", "100 #gold#"};
+				{ 22, 44136, "", "=q7=Greater Inscription of the Pinnacle", "=ds=#s3# #e17#", "100 #gold#"};
+				{ 23, 44135, "", "=q7=Greater Inscription of the Storm ", "=ds=#s3# #e17#", "100 #gold#"};
+			};
+		};
+		info = {
+			name = AL["Heirloom"],
+			menu = "SETMENU",
+		};
+	}
+
 	AtlasLoot_Data["SETSMISCMENU"] = {
 		["Normal"] = {
 			{
