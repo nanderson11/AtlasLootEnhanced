@@ -1100,6 +1100,13 @@ if AL then
 	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
 	AL["Rotted One"] = "Pourri";
 	AL["Uncle Bigpocket"] = "Oncle Poche Profonde";
+	AL["Baradin Fox"] = "Renard de Baradin";
+	AL["Tex Vortacoil"] = "Tex Vortabobine";
+	--AL["Olut Alegut"] = true;
+	AL["Rork Sharpchin"] = "Rork Menton-pointu";
+	AL["Sprinkle Noggenfogger"] = "Saupoudr Brouillecaboche";
+	AL["Wyrmcult Provisioner"] = "Approvisionneur du culte du Ver";
+	AL["Apothecary Hummel"] = "Apothicaire Hummel";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
@@ -1163,6 +1170,7 @@ if AL then
 	AL["Stendel's Bane"] = "Plaie de Stendel";
 	AL["Shellfish Trap"] = "Casier à crustacés";
 	AL["Fishing Pools"] = "Bancs de poissons";
+	AL["Sack of Pet Supplies"] = "Sac de fournitures pour familiers";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "Pass annuel";
