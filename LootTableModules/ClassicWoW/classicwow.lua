@@ -6603,9 +6603,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 5, 17901, "", "=q2=Stormpike Insignia Rank 3", "=ds=#s14#, =q1=#r3#"};
 				{ 6, 17900, "", "=q2=Stormpike Insignia Rank 2", "=ds=#s14#, =q1=#r2#"};
 				{ 7, 17691, "", "=q2=Stormpike Insignia Rank 1", "=ds=#s14#, =q1=#r1#"};
-				{ 9, 0, "ability_warrior_rallyingcry", "=q6="..BabbleFaction["The League of Arathor"], "=q5=#r5#, =q1="..BabbleFaction["Alliance"]};
+				{ 9, 0, "ability_warrior_rallyingcry", "=q6="..BabbleFaction["The League of Arathor"], "=ds=#r5#, =q5="..BabbleFaction["Alliance"]};
 				{ 10, 20132, "", "=q1=Arathor Battle Tabard", "=q1=#m4#: =ds=#s7#"};
-				{ 12, 0, "Ability_Mount_PinkTiger", "=q6="..BabbleFaction["Wintersaber Trainers"], "=q5=#r5#"};
+				{ 12, 0, "Ability_Mount_PinkTiger", "=q6="..BabbleFaction["Wintersaber Trainers"], "=ds=#r5#, =q5="..BabbleFaction["Alliance"]};
 				{ 13, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#"};
 				{ 16, 0, "inv_jewelry_frostwolftrinket_05", "=q6="..BabbleFaction["Frostwolf Clan"], "=q5="..BabbleFaction["Horde"]};
 				{ 17, 17909, "", "=q4=Frostwolf Insignia Rank 6", "=ds=#s14#, =q1=#r5#"};
@@ -6614,7 +6614,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 20, 17906, "", "=q2=Frostwolf Insignia Rank 3", "=ds=#s14#, =q1=#r3#"};
 				{ 21, 17905, "", "=q2=Frostwolf Insignia Rank 2", "=ds=#s14#, =q1=#r2#"};
 				{ 22, 17690, "", "=q2=Frostwolf Insignia Rank 1", "=ds=#s14#, =q1=#r1#"};
-				{ 24, 0, "spell_shadow_psychichorrors", "=q6="..BabbleFaction["The Defilers"], "=q5=#r5#, =q1="..BabbleFaction["Horde"]};
+				{ 24, 0, "spell_shadow_psychichorrors", "=q6="..BabbleFaction["The Defilers"], "=ds=#r5#, =q5="..BabbleFaction["Horde"]};
 				{ 25, 20131, "", "=q1=Battle Tabard of the Defilers", "=q1=#m4#: =ds=#s7#"};
 			};
 		};
@@ -6637,7 +6637,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 22680, "", "=q3=Band of Resolution", "=ds=#s13#"};
 				{ 5, 22688, "", "=q3=Verimonde's Last Resort", "=ds=#h3#, #w4#"};
 				{ 6, 22679, "", "=q3=Supply Bag", "=ds=#e1#"};
-				{ 8, 22638, "", "=q3=Shadow Guard", "=ds=#s1# #e17#"};
+				{ 8, 22638, "", "=q3=Shadow Guard", "=ds=#s11# #e17#"};
 				{ 10, 22523, "", "=q2=Insignia of the Dawn", "=ds=#m17#"};
 				{ 16, 22667, "", "=q4=Bracers of Hope", "=ds=#s8#, #a1#"};
 				{ 17, 22668, "", "=q4=Bracers of Subterfuge", "=ds=#s8#, #a2#"};
@@ -6645,7 +6645,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 19, 22659, "", "=q4=Medallion of the Dawn", "=ds=#s2#"};
 				{ 20, 22678, "", "=q4=Talisman of Ascendance", "=ds=#s14#"};
 				{ 21, 22656, "", "=q4=The Purifier", "=ds=#w5#"};
-				{ 23, 22636, "", "=q3=Ice Guard", "=ds=#s1# #e17#"};
+				{ 23, 22636, "", "=q3=Ice Guard", "=ds=#s11# #e17#"};
 				{ 25, 22524, "", "=q2=Insignia of the Crusade", "=ds=#m17#"};
 			};
 			{
@@ -6714,10 +6714,10 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Helmet_66", "=q6="..BabbleFaction["Bloodsail Buccaneers"], "=q5=#r1#"};
-				{ 2, 22742, "", "=q1=Bloodsail Shirt", "=ds=#s5#"};
-				{ 3, 22743, "", "=q1=Bloodsail Sash", "=ds=#s10#"};
-				{ 4, 22745, "", "=q1=Bloodsail Pants", "=ds=#s11#"};
-				{ 5, 22744, "", "=q1=Bloodsail Boots", "=ds=#s12#"};
+				{ 2, 22742, "", "=q1=Bloodsail Shirt", "=ds=#s5#, #a1#"};
+				{ 3, 22743, "", "=q1=Bloodsail Sash", "=ds=#s10#, #a1#"};
+				{ 4, 22745, "", "=q1=Bloodsail Pants", "=ds=#s11#, #a1#"};
+				{ 5, 22744, "", "=q1=Bloodsail Boots", "=ds=#s12#, #a1#"};
 				{ 7, 0, "INV_Helmet_66", "=q6="..BabbleFaction["Bloodsail Buccaneers"], "=q5=#r2#"};
 				{ 8, 12185, "", "=q2=Bloodsail Admiral's Hat", "=ds=#s1#, #a1#"};
 				{ 16, 0, "Spell_Frost_SummonWaterElemental_2", "=q6="..BabbleFaction["Hydraxian Waterlords"], "=q5=#r3#"};
@@ -6773,32 +6773,32 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 22209, "", "=q1=Plans: Heavy Obsidian Belt", "=ds=#p2# (300)"};
 				{ 2, 22768, "", "=q1=Plans: Ironvine Belt", "=ds=#p2# (300)"};
-				{ 3, 20732, "", "=q1=Formula: Enchant Cloak - Greater Fire Resistance", "=ds=#p4# (300)"};
-				{ 4, 22769, "", "=q1=Pattern: Bramblewood Belt", "=ds=#p7# (300)"};
-				{ 5, 20509, "", "=q1=Pattern: Sandstalker Bracers", "=ds=#p7# (300)"};
-				{ 6, 20506, "", "=q1=Pattern: Spitfire Bracers", "=ds=#p7# (300)"};
-				{ 7, 22772, "", "=q1=Pattern: Sylvan Shoulders", "=ds=#p8# (300)"};
-				{ 8, 22310, "", "=q1=Pattern: Cenarion Herb Bag", "=ds=#p8# (275)"};
-				{ 10, 20802, "", "=q2=Cenarion Combat Badge", "=ds=#m17#"};
-				{ 11, 20800, "", "=q2=Cenarion Logistics Badge", "=ds=#m17#"};
-				{ 12, 21515, "", "=q2=Mark of Remulos", "=ds=#m17#"};
+				{ 3, 22769, "", "=q1=Pattern: Bramblewood Belt", "=ds=#p7# (300)"};
+				{ 4, 20509, "", "=q1=Pattern: Sandstalker Bracers", "=ds=#p7# (300)"};
+				{ 5, 20506, "", "=q1=Pattern: Spitfire Bracers", "=ds=#p7# (300)"};
+				{ 6, 22772, "", "=q1=Pattern: Sylvan Shoulders", "=ds=#p8# (300)"};
+				{ 7, 22310, "", "=q1=Pattern: Cenarion Herb Bag", "=ds=#p8# (275)"};
+				{ 9, 20802, "", "=q2=Cenarion Combat Badge", "=ds=#m17#"};
+				{ 10, 20800, "", "=q2=Cenarion Logistics Badge", "=ds=#m17#"};
+				{ 11, 21515, "", "=q2=Mark of Remulos", "=ds=#m17#"};
 				{ 16, 21187, "", "=q3=Earthweave Cloak", "=ds=#s4#", "5 #ccombat# 3 #clogistics# 7 #ctactical#"};
 				{ 17, 21178, "", "=q3=Gloves of Earthen Power", "=ds=#s9#, #a2#", "5 #ccombat# 3 #clogistics# 7 #ctactical#"};
 				{ 18, 21179, "", "=q3=Band of Earthen Wrath", "=ds=#s13#", "5 #ccombat# 3 #clogistics# 7 #ctactical#"};
-				{ 25, 20801, "", "=q2=Cenarion Tactical Badge", "=ds=#m17#"};
-				{ 26, 21508, "", "=q2=Mark of Cenarius", "=ds=#m17#"};
+				{ 24, 20801, "", "=q2=Cenarion Tactical Badge", "=ds=#m17#"};
+				{ 25, 21508, "", "=q2=Mark of Cenarius", "=ds=#m17#"};
+				extraText = ": "..BabbleFaction["Friendly"];
 			};
 			{
 				{ 1, 22767, "", "=q1=Plans: Ironvine Gloves", "=ds=#p2# (300)"};
 				{ 2, 22214, "", "=q1=Plans: Light Obsidian Belt", "=ds=#p2# (300)"};
-				{ 3, 20733, "", "=q1=Formula: Enchant Cloak - Greater Nature Resistance", "=ds=#p4# (300)"};
-				{ 4, 22770, "", "=q1=Pattern: Bramblewood Boots", "=ds=#p7# (300)"};
-				{ 5, 20510, "", "=q1=Pattern: Sandstalker Gauntlets", "=ds=#p7# (300)"};
-				{ 6, 20507, "", "=q1=Pattern: Spitfire Gauntlets", "=ds=#p7# (300)"};
-				{ 7, 22773, "", "=q1=Pattern: Sylvan Crown", "=ds=#p8# (300)"};
+				{ 3, 22770, "", "=q1=Pattern: Bramblewood Boots", "=ds=#p7# (300)"};
+				{ 4, 20510, "", "=q1=Pattern: Sandstalker Gauntlets", "=ds=#p7# (300)"};
+				{ 5, 20507, "", "=q1=Pattern: Spitfire Gauntlets", "=ds=#p7# (300)"};
+				{ 6, 22773, "", "=q1=Pattern: Sylvan Crown", "=ds=#p8# (300)"};
 				{ 16, 21183, "", "=q3=Earthpower Vest", "=ds=#s5#, #a1#", "7 #ccombat# 4 #clogistics# 4 #ctactical#"};
 				{ 17, 21182, "", "=q3=Band of Earthen Might", "=ds=#s13#", "7 #ccombat# 4 #clogistics# 4 #ctactical#"};
 				{ 18, 21181, "", "=q3=Grace of Earth", "=ds=#s14#", "7 #ccombat# 4 #clogistics# 4 #ctactical#"};
+				extraText = ": "..BabbleFaction["Honored"];
 			};
 			{
 				{ 1, 22766, "", "=q1=Plans: Ironvine Breastplate", "=ds=#p2# (300)"};
@@ -6813,6 +6813,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 17, 21184, "", "=q4=Deeprock Bracers", "=ds=#s8#, #a4#", "15 #ccombat# 20 #clogistics# 17 #ctactical# 1 #cremulos#"};
 				{ 18, 21189, "", "=q4=Might of Cenarius", "=ds=#s13#", "15 #ccombat# 20 #clogistics# 17 #ctactical# 1 #cremulos#"};
 				{ 19, 21185, "", "=q4=Earthcalm Orb", "=ds=#s15#", "15 #ccombat# 20 #clogistics# 17 #ctactical# 1 #cremulos#"};
+				extraText = ": "..BabbleFaction["Revered"];
 			};
 			{
 				{ 1, 22221, "", "=q1=Plans: Obsidian Mail Tunic", "=ds=#p2# (300)"};
@@ -6820,6 +6821,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 16, 21190, "", "=q4=Wrath of Cenarius", "=ds=#s13#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#"};
 				{ 17, 21180, "", "=q4=Earthstrike", "=ds=#s14#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#"};
 				{ 18, 21188, "", "=q4=Fist of Cenarius", "=ds=#h2#, #w6#", "15 #ccombat# 20 #clogistics# 20 #ctactical# 1 #ccenarius#", "", ""};
+				extraText = ": "..BabbleFaction["Exalted"];
 			};
 		};
 		info = {
