@@ -624,6 +624,7 @@ if AL then
 	AL["Rare Fish Rewards"] = "稀有釣魚獎勵";
 	AL["Rare Fish"] = "稀有魚類";
 	AL["Heirloom"] = "家傳物品";
+	AL["PvP Heirlooms"] = "PvP 家傳物品";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Rare"] = "稀有";
