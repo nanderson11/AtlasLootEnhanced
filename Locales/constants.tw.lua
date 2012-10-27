@@ -1110,6 +1110,7 @@ if AL then
 	AL["Sprinkle Noggenfogger"]  = "斯普琳科·諾格弗格";
 	AL["Wyrmcult Provisioner"]  = "巨龍教團補給官";
 	AL["Apothecary Hummel"] = "藥劑師胡默爾";
+	AL["Auntie Stormstout"] = "風暴烈酒姑媽";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
