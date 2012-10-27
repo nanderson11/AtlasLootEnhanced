@@ -615,7 +615,7 @@ if AL then
 	AL["Raid"] = "Schlachtzug";
 	-- AL["Hard Mode"] = true;
 	AL["Bonus Loot"] = "Zusatzbeute";
-    	AL["Arena Reward"] = "Arena Belohnung";
+	AL["Arena Reward"] = "Arena Belohnung";
 	AL["Achievement Reward"] = "Erfolgsbelohnung";
 	-- AL["Phase 1"] = true;
 	-- AL["Phase 2"] = true;
@@ -624,6 +624,7 @@ if AL then
 	AL["Rare Fish Rewards"] = "Besonderer Fisch - Belohnungen";
 	AL["Rare Fish"] = "Besondere Fische";
 	AL["Heirloom"] = "Erbstücke";
+	AL["PvP Heirlooms"] = "PvP Erbstücke";
 	AL["Weapons"] = "Waffen";
 	AL["Accessories"] = "Zubehör";
 	AL["Rare"] = "Selten";
@@ -972,7 +973,7 @@ if AL then
 	AL["Fury"] = "Furor";
 	AL["Demonology"] = "Dämonologie";
 	AL["Destruction"] = "Zerstörung";
-    	AL["Tanking"] = "Schutz";
+	AL["Tanking"] = "Schutz";
 	AL["DPS"] = "Schaden";
 	AL["Mistweaver"] = "Nebelwirker";
 	AL["Brewmaster"] = "Braumeister";
@@ -1110,6 +1111,7 @@ if AL then
 	AL["Sprinkle Noggenfogger"] = "Sprinkel Noggenfogger";
 	AL["Wyrmcult Provisioner"] = "Versorger des Wyrmkults";
 	AL["Apothecary Hummel"] = "Apotheker Hummel";
+	AL["Auntie Stormstout"] = "Tantchen Sturmbräu";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
