@@ -299,16 +299,17 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 85190, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#" },
 				{ 11, 85185, "", "=q3=Ghostheart", "=ds=#w7#" },
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 81257, "", "=q3=Regal Silk Shoulderpads", "=ds=#s3#, #a1#" },
-				{ 18, 81255, "", "=q3=Soulbinder Treads", "=ds=#s12#, #a1#" },
-				{ 19, 81249, "", "=q3=Boots of Plummeting Death", "=ds=#s12#, #a2#" },
-				{ 20, 81252, "", "=q3=Groundshaker Bracers", "=ds=#s8#, #a3#" },
-				{ 21, 81256, "", "=q3=Mind's Eye Breastplate", "=ds=#s5#, #a4#" },
-				{ 22, 81248, "", "=q3=Axebreaker Gauntlets", "=ds=#s9#, #a4#" },
-				{ 23, 81254, "", "=q3=Mindcapture Pendant", "=ds=#s2#" },
-				{ 24, 81251, "", "=q3=Blade Trap Signet", "=ds=#s13#" },
-				{ 25, 81253, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#" },
-				{ 26, 81247, "", "=q3=Ghostheart", "=ds=#w7#" },
+				{ 17, 87542, "", "=q4=Mogu'Dar, Blade of the Thousand Slaves", "=ds=#h2#, #w10#" },
+				{ 18, 81257, "", "=q3=Regal Silk Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 19, 81255, "", "=q3=Soulbinder Treads", "=ds=#s12#, #a1#" },
+				{ 20, 81249, "", "=q3=Boots of Plummeting Death", "=ds=#s12#, #a2#" },
+				{ 21, 81252, "", "=q3=Groundshaker Bracers", "=ds=#s8#, #a3#" },
+				{ 22, 81256, "", "=q3=Mind's Eye Breastplate", "=ds=#s5#, #a4#" },
+				{ 23, 81248, "", "=q3=Axebreaker Gauntlets", "=ds=#s9#, #a4#" },
+				{ 24, 81254, "", "=q3=Mindcapture Pendant", "=ds=#s2#" },
+				{ 25, 81251, "", "=q3=Blade Trap Signet", "=ds=#s13#" },
+				{ 26, 81253, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#" },
+				{ 27, 81247, "", "=q3=Ghostheart", "=ds=#w7#" },
 			}
 		};
 		info = {
