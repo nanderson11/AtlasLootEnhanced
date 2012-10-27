@@ -8929,10 +8929,8 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 44087, "", "=q3=Persistent Earthshatter Diamond", "=ds=#e7#", "#HONOR:24#"};
 				{ 8, 44088, "", "=q3=Powerful Earthshatter Diamond", "=ds=#e7#", "#HONOR:24#"};
 				{ 9, 44089, "", "=q3=Trenchant Earthshatter Diamond", "=ds=#e7#", "#HONOR:24#"};
-				{ 11, 44075, "", "=q3=Arcanum of Dominance", "=ds=#s1# #e17#", "#HONOR:65#"};
-				{ 12, 44069, "", "=q3=Arcanum of Triumph", "=ds=#s1# #e17#", "#HONOR:65#"};
-				{ 13, 44068, "", "=q3=Inscription of Dominance", "=ds=#s3# #e17#", "#HONOR:50#"};
-				{ 14, 44067, "", "=q3=Inscription of Triumph", "=ds=#s3# #e17#", "#HONOR:50#"};
+				{ 11, 44068, "", "=q3=Inscription of Dominance", "=ds=#s3# #e17#", "#HONOR:50#"};
+				{ 12, 44067, "", "=q3=Inscription of Triumph", "=ds=#s3# #e17#", "#HONOR:50#"};
 				{ 16, 41733, "", "=q3=Design: Lucent Monarch Topaz", "=ds=#p12# (390)", "#HONOR:19#"};
 				{ 17, 41730, "", "=q3=Design: Willful Monarch Topaz", "=ds=#p12# (390)", "#HONOR:19#"};
 				{ 18, 41735, "", "=q3=Design: Shattered Forest Emerald", "=ds=#p12# (390)", "#HONOR:19#"};
