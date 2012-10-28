@@ -586,6 +586,7 @@ if AL then
 	-- AL["Tier 12"] = true;
 	-- AL["Tier 13"] = true;
 	-- AL["Tier 14"] = true;
+	AL["Challenge Mode Armor Sets"] = "Herausforderungsmodus Rüstungssets";
 	AL["10 Man"] = "10 Spieler";
 	AL["10/25 Man"] = "10/25 Spieler";
 	AL["Epic Set"] = "Episches Set";
