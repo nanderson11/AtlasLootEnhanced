@@ -808,13 +808,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 9, "ShaofAnger#8", "inv_bracer_robe_pvpmage_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"]};
 				{ 10, "ShaofAnger#10", "inv_misc_pvp_ringc2", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 90"]};
 				{ 12, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=ds=#e27#" },
-				{ 13, 89317, "", "=q4=Claw of Anger", "=ds=#m2#", "", "100%" },
 				{ 17, "ShaofAnger#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
 				{ 18, "ShaofAnger#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 				{ 19, "ShaofAnger#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
 				{ 20, "ShaofAnger#2", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 				{ 21, "ShaofAnger#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
 				{ 24, "ShaofAnger#9", "inv_bracer_plate_pvppaladin_e_01", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"]};
+				{ 25, "ShaofAnger#11", "inv_hand_1h_shaclaw", "=ds="..AL["Quest Reward"], ""};
 				{ 27, 90839, "", "=q4=Cache of Sha-Touched Gold", "=ds=#m20#"  },
 			};
 		};
