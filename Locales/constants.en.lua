@@ -586,6 +586,7 @@ if AL then
 	AL["Tier 12"] = true;
 	AL["Tier 13"] = true;
 	AL["Tier 14"] = true;
+	AL["Challenge Mode Armor Sets"] = true;
 	AL["10 Man"] = true;
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;

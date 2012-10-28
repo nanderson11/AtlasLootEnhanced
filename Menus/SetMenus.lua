@@ -22,9 +22,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 12, "TABARDMENU", "inv_chest_cloth_30", "=ds="..BabbleInventory["Tabards"], ""};
 				{ 13, "TRANSFORMATIONMENU", "inv_misc_orb_03", "=ds="..AL["Transformation Items"], ""};
 				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
-				{ 16, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], ""};
-				{ 17, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
-				{ 19, "HEIRLOOMMENU", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"].." / "..AL["Level 85"]};
+				{ 16, "HEIRLOOMMENU", "INV_Sword_43", "=ds="..AL["Heirloom"], "=q5="..AL["Level 80"].." / "..AL["Level 85"]};
+				{ 17, "CHALLENGEMODESET", "inv_neck_hyjaldaily_04", "=ds="..AL["Challenge Mode Armor Sets"], "=q5="..AL["Mists of Pandaria"]};
+				{ 19, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 20, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
 				{ 22, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Set"], "=q5="..AL["Classic WoW"]};
 				{ 23, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Set"], "=q5="..AL["Burning Crusade"]};
 				{ 24, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
@@ -280,6 +281,28 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Heirloom"],
+			menu = "SETMENU",
+		};
+	}
+
+	AtlasLoot_Data["CHALLENGEMODESET"] = {
+		["Normal"] = {
+			{
+				{ 2, "ChallengeModeDeathKnight", "spell_deathknight_frostpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "ChallengeModeDruid", "ability_druid_catform", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "ChallengeModeHunter", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "ChallengeModeMage", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, "ChallengeModeMonk", "spell_monk_windwalker_spec", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], ""};
+				{ 7, "ChallengeModePaladin", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 17, "ChallengeModePriest", "spell_holy_guardianspirit", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "ChallengeModeRogue", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "ChallengeModeShaman", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "ChallengeModeWarlock", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "ChallengeModeWarrior", "ability_warrior_innerrage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+			};
+		};
+		info = {
+			name = AL["Challenge Mode Armor Sets"],
 			menu = "SETMENU",
 		};
 	}
