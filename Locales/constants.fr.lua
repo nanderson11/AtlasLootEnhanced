@@ -583,6 +583,8 @@ if AL then
 	--AL["Tier 11"] = true;
 	--AL["Tier 12"] = true;
 	--AL["Tier 13"] = true;
+	--AL["Tier 14"] = true;
+	AL["Challenge Mode Armor Sets"] = "Sets d'armure du mode défi";
 	AL["10 Man"] = "10 Joueurs";
 	AL["10/25 Man"] = "10 / 25 Joueurs";
 	AL["Epic Set"] = "Set épique";
@@ -621,6 +623,7 @@ if AL then
 	AL["Rare Fish Rewards"] = "Récompenses des poissons rares";
 	AL["Rare Fish"] = "Poissons rares";
 	AL["Heirloom"] = "Héritage";
+	AL["PvP Heirlooms"] = "Héritages JcJ";
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
 	--AL["Rare"] = true;
@@ -1107,6 +1110,7 @@ if AL then
 	AL["Sprinkle Noggenfogger"] = "Saupoudr Brouillecaboche";
 	AL["Wyrmcult Provisioner"] = "Approvisionneur du culte du Ver";
 	AL["Apothecary Hummel"] = "Apothicaire Hummel";
+	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
