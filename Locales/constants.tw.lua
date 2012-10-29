@@ -586,6 +586,7 @@ if AL then
 	AL["Tier 12"] = "T12";
 	AL["Tier 13"] = "T13";
 	AL["Tier 14"] = "T14";
+	AL["Challenge Mode Armor Sets"] = "挑戰模式護甲套裝";
 	AL["10 Man"] = "10 人";
 	AL["10/25 Man"] = "10/25 人";
 	AL["Epic Set"] = "PvP 史詩套裝";
