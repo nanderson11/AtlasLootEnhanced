@@ -6218,32 +6218,135 @@ local moduleName = "AtlasLootCataclysm"
 		------------
 		--- Bags ---
 		------------
--- THIS SECTION IS UNDER HEAVY CONSTRUCTION
-	AtlasLoot_Data["Bags"] = {
+
+-- THIS SECTION IS UNDER HEAVY CONSTRUCTION. Quests and Items need to be flaged as Horde or Alliance. Some quests are only available to a specific race and should be flaged as such.
+
+	AtlasLoot_Data["BagsGeneral"] = {
 		["Normal"] = {
 			{
-				{ 1, 54444, "", "=q3=Illusionary Bag", "=ds=", "Tailoring"};
-				{ 2, 18714, "", "=q4=Ancient Sinew Wrapped Lamina", "=ds=", "Not available"};
-				{ 3, 51809, "", "=q4=Portable Hole", "=ds=", "Vendor, 3000g"};
-				{ 4, 69748, "", "=q3=Tattered Hexcloth Bag", "=ds=", "Zul Aman"};
-				{ 5, 38082, "", "=q4='Gigantique' Bag", "=ds=", "Vendor, 1200g"};
-				{ 6, 43345, "", "=q4=Dragon Hide Bag", "=ds=", "Sartharion"};
-				{ 7, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=", "Onyxia"};
-				{ 8, 50316, "", "=q4=Papa's Brand New Bag", "=ds=", "The Forge of Souls"};
-				{ 9, 41957, "", "=q3=Abyssal Bag", "=ds=", "Tailoring"};
-				{ 10, 41600, "", "=q3=Glacial Bag", "=ds=", "Tailoring"};
-				{ 11, 54443, "", "=q2=Embersilk Bag", "=ds=", "Tailoring"};
-				{ 12, 50317, "", "=q4=Papa's New Bag", "=ds=", "The Forge of Souls"};
-				{ 13, 34845, "", "=q4=Pit Lord's Satchel", "=ds=", "Magtheridon"};
-				{ 16, 44447, "", "=q3=Dragonscale Ammo Pouch", "=ds=", "Not available"};
-				{ 17, 21872, "", "=q3=Ebon Shadowbag", "=ds=", "Tailoring"};
-				{ 18, 44448, "", "=q3=Nerubian Reinforced Quiver", "=ds=", "Not available"};
-				{ 19, 34106, "", "=q3=Netherscale Ammo Pouch", "=ds=", "Not available"};
-				{ 20, 21876, "", "=q3=Primal Mooncloth Bag", "=ds=", "Tailoring"};
-				{ 21, 34105, "", "=q3=Quiver of a Thousand Feathers", "=ds=", "Leatherworking"};
-				{ 22, 35516, "", "=q3=Sun Touched Satchel", "=ds=", "Magister's Terrace"};
-				{ 23, 34067, "", "=q3=Tattered Hexcloth Sack", "=ds=", "Not available"};
-				{ 24, 41599, "", "=q2=Frostweave Bag", "=ds=", "Tailoring"};
+				{ 1, 82446, "", "=q4=Royal Satchel", "=ds=#e1#", "=ds#p8#"};
+				{ 2, 54444, "", "=q3=Illusionary Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 3, 51809, "", "=q4=Portable Hole", "=ds=#e1#", "=ds="..AL["Vendor"]..": 3,000 #gold#"};
+				{ 4, 69748, "", "=q3=Tattered Hexcloth Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:29186#"};
+				{ 5, 88397, "", "=q1=Grummlepack", "=ds=#e1#", "=q1=#m4#: #QUESTID:30600#"};
+				{ 6, 38082, "", "=q4=\"Gigantique\" Bag", "=ds=#e1#", "=ds="..AL["Vendor"]..": 1,200 #gold#"};
+				{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=", "=ds=#e1#", "=ds="..BabbleBoss["Sartharion"]..": "..AtlasLoot:GetMapNameByID(531)};
+				{ 8, 49295, "", "=q4=Enlarged Onyxia Hide Backpack", "=ds=#e1#", "=ds="..BabbleBoss["Onyxia"]..": "..AtlasLoot:GetMapNameByID(718)};
+				{ 9, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#", "=ds="..BabbleBoss["Bronjahm"]..": "..AtlasLoot:GetMapNameByID(601)};
+				{ 10, 41957, "", "=q3=Abyssal Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 11, 41600, "", "=q3=Glacial Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 12, 54443, "", "=q2=Embersilk Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 13, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#", "=ds="..BabbleBoss["Bronjahm"]..": "..AtlasLoot:GetMapNameByID(601)};
+				{ 14, 34845, "", "=q4=Pit Lord's Satchel", "=ds=#e1#", "=ds="..BabbleBoss["Magtheridon"]..": "..AtlasLoot:GetMapNameByID(779)};
+				{ 15, 21872, "", "=q3=Ebon Shadowbag", "=ds=#e1#", "=ds=#p8#"};
+				{ 16, 21876, "", "=q3=Primal Mooncloth Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 17, 34105, "", "=q3=Quiver of a Thousand Feathers", "=ds=#e1#", "#p7#"};
+				--{ 18, 35516, "", "=q3=Sun Touched Satchel", "=ds=#e1#", "=ds="..BabbleBoss["Zone Drop"]..": "..AtlasLoot:GetMapNameByID(798)};
+				{ 19, 41599, "", "=q2=Frostweave Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 20, 21342, "", "=q4=Core Felcloth Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 21, 14156, "", "=q3=Bottomless Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 22, 27680, "", "=q3=Halaani Bag", "=ds=#e1#", "=ds="..AL["Halaa"].." "..AL["Vendor"]..": 8 #halaaresearch#"};
+				{ 23, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1#", "=ds="..AL["World Drop"].." - "..AL["Hallow's End"]};
+				{ 24, 21843, "", "=q2=Imbued Netherweave Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 25, 21341, "", "=q3=Felcloth Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 26, 19320, "", "=q3=Gnoll Skin Bandolier", "=ds=#e1#", "#HONOR:50#"};
+				{ 27, 19319, "", "=q3=Harpy Hide Quiver", "=ds=#e1#", "#HONOR:50#"};
+				{ 28, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#e1#", "=ds="..BabbleBoss["Ribbly Screwspigot"]..": "..AtlasLoot:GetMapNameByID(704)};
+				{ 29, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Bilgewater Cartel"].." - "..BabbleFaction["Revered"]};
+				{ 30, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Darkspear Trolls"].." - "..BabbleFaction["Revered"]};
+			};
+			{
+				{ 1, 67526, "", "=q2=Darnassian Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Darnassus"].." - "..BabbleFaction["Revered"]};
+				{ 2, 67527, "", "=q2=Exodar Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Exodar"].." - "..BabbleFaction["Revered"]};
+				{ 3, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Gilneas"].." - "..BabbleFaction["Revered"]};
+				{ 4, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Gnomeregan"].." - "..BabbleFaction["Revered"]};
+				{ 5, 92070, "", "=q2=Huojin Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Huojin Pandaren"].." - "..BabbleFaction["Revered"]};
+				{ 6, 67528, "", "=q2=Ironforge Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Ironforge"].." - "..BabbleFaction["Revered"]};
+				{ 7, 14155, "", "=q2=Mooncloth Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 8, 21841, "", "=q2=Netherweave Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 9, 67533, "", "=q2=Orgrimmar Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Orgrimmar"].." - "..BabbleFaction["Revered"]};
+				{ 10, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
+				{ 11, 67535, "", "=q2=Silvermoon Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Silvermoon City"].." - "..BabbleFaction["Revered"]};
+				{ 12, 67531, "", "=q2=Stormwind Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Stormwind"].." - "..BabbleFaction["Revered"]};
+				{ 13, 67534, "", "=q2=Thunder Bluff Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Thunder Bluff"].." - "..BabbleFaction["Revered"]};
+				{ 14, 4500, "", "=q2=Traveler's Backpack", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 15, 92071, "", "=q2=Tushui Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Tushui Pandaren"].." - "..BabbleFaction["Revered"]};
+				{ 16, 67529, "", "=q2=Undercity Satchel", "=ds=#e1#", "=ds="..BabbleFaction["Undercity"].." - "..BabbleFaction["Revered"]};
+				{ 17, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"};
+				{ 18, 30744, "", "=q2=Draenic Leather Pack", "=ds=#e1#", "=ds="..AL["Vendor"]..": 12 #gold#"};
+				{ 19, 21340, "", "=q2=Soul Pouch", "=ds=#e1#", "=ds=#p8#"};
+				{ 20, 67387, "", "=q1=\"Carriage\" Signature Bag", "=ds=#e1#", "=ds="..AtlasLoot:GetMapNameByID(301).." "..AL["Vendor"]..": 30 #gold#"};
+				{ 21, 3914, "", "=q1=Journeyman's Backpack", "=ds=#e1#"};
+				{ 22, 14046, "", "=q1=Runecloth Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 23, 60335, "", "=q1=Thick Hide Pack", "=ds=#e1#", "=ds="..AL["Vendor"]..": 12 #gold#"};
+				{ 24, 1685, "", "=q1=Troll-Hide Bag", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 25, 4499, "", "=q1=Huge Brown Sack", "=ds=#e1#", "=ds="..AL["Vendor"]..": 10 #gold#"};
+				{ 26, 1725, "", "=q1=Large Knapsack", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 27, 10050, "", "=q1=Mageweave Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 28, 10051, "", "=q1=Red Mageweave Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 29, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "=ds="..BabbleBoss["Lady Anacondra"]..": "..AtlasLoot:GetMapNameByID(749)};
+				{ 30, 5765, "", "=q1=Black Silk Pack", "=ds=#e1#", "=ds=#p8#"};
+			};
+			{
+				--{ 1, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#e1#", "=ds="..AL["Fel Steed"]..": "..AtlasLoot:GetMapNameByID(764)};
+				{ 2, 5764, "", "=q1=Green Silk Pack", "=ds=#e1#", "=ds=#p8#"};
+				{ 3, 4497, "", "=q1=Heavy Brown Bag", "=ds=#e1#", "=ds="..AL["Vendor"]..": 2 #gold#"};
+				{ 4, 804, "", "=q1=Large Blue Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 5, 5576, "", "=q1=Large Brown Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 6, 5575, "", "=q1=Large Green Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 7, 857, "", "=q1=Large Red Sack", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				--{ 8, 933, "", "=q1=Large Rucksack", "=ds=#e1#", "=ds="..AL["Foe Reaper 4000"]..": "..AtlasLoot:GetMapNameByID(39)}; ---rare
+				{ 9, 1470, "", "=q1=Murloc Skin Bag", "=ds=#e1#", "=ds="..BabbleBoss["Gelihast"]..": "..AtlasLoot:GetMapNameByID(688)};
+				{ 10, 4245, "", "=q1=Small Silk Pack", "=ds=#e1#", "=ds=#p8#"};
+				{ 11, 23852, "", "=q2=Nolkai's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:9561#"};
+				{ 12, 57251, "", "=q1=\"Collecting\" Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:147#"};
+				{ 13, 856, "", "=q1=Blue Leather Bag", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 14, 4498, "", "=q1=Brown Leather Satchel", "=ds=#e1#", "=ds="..AL["Vendor"]..": 25 #silver#"};
+				{ 15, 3343, "", "=q1=Captain Sanders' Booty Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:26356#"};
+				{ 16, 60240, "", "=q1=Dream Carrier", "=ds=#e1#", "=q1=#m4#: #QUESTID:483#"};
+				{ 17, 56149, "", "=q1=Empty Town-In-A-Box", "=ds=#e1#", "=q1=#m4#: #QUESTID:24671#"};
+				--{ 18, 3233, "", "=q1=Gnoll Hide Sack", "=ds=#e1#", "=ds="..AL["Fedfennel"]..": "..AtlasLoot:GetMapNameByID(30)}; ---rare
+				{ 19, 5573, "", "=q1=Green Leather Bag", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 20, 4241, "", "=q1=Green Woolen Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 21, 57791, "", "=q1=Headsman's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:25046#"};
+				{ 22, 57793, "", "=q1=Kodo Saddlebag", "=ds=#e1#", "=q1=#m4#: #QUESTID:24540#"};
+				{ 23, 60242, "", "=q1=Kron's New Hunting Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:25193#"};
+				{ 24, 73242, "", "=q1=Master's Haversack", "=ds=#e1#", "=q1=#m4#: #QUESTID:29421#"};
+				{ 25, 60731, "", "=q1=Message Carrier", "=ds=#e1#", "=q1=#m4#: #QUESTID:26503#"};
+				{ 26, 57549, "", "=q1=Prospector's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:25937#"};
+				{ 27, 5763, "", "=q1=Red Woolen Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 28, 52039, "", "=q1=Shipwright's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:14404#"};
+				{ 29, 5574, "", "=q1=White Leather Bag", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 30, 4240, "", "=q1=Woolen Bag", "=ds=#e1#", "=ds=#p8#"};
+			};
+			{
+				{ 1, 59053, "", "=q1=Airfield Courier Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:26265#"};
+				{ 2, 57792, "", "=q1=Bag of Thorns", "=ds=#e1#", "=q1=#m4#: #QUESTID:14460#"};
+				{ 3, 56148, "", "=q1=Bank Robber's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:14122#"};
+				{ 4, 57542, "", "=q1=Coldridge Mountaineer's Pouch", "=ds=#e1#", "=q1=#m4#: #QUESTID:24492#"};
+				{ 5, 22571, "", "=q1=Courier's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:9148#"};
+				{ 6, 60241, "", "=q1=Dusty Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:25130#"};
+				{ 7, 60239, "", "=q1=Foul Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:488#"};
+				{ 8, 57247, "", "=q1=Grape-Picking Sack", "=ds=#e1#", "=q1=#m4#: #QUESTID:26391#"};
+				{ 9, 5081, "", "=q1=Kodo Hide Bag", "=ds=#e1#", "=ds=#p7#"};
+				{ 10, 4238, "", "=q1=Linen Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 11, 46753, "", "=q1=Melithar's Supply Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:28715#"};
+				{ 12, 73241, "", "=q1=Merchant's Satchel", "=ds=#e1#", "=q1=#m4#: #QUESTID:29419#"};
+				--{ 13, 4957, "", "=q1=Old Moneybag", "=ds=#e1#", "=ds=#p8#"}; ---no idea from where
+				{ 14, 57790, "", "=q1=Pumpkin Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:24976#"};
+				{ 15, 5762, "", "=q1=Red Linen Bag", "=ds=#e1#", "=ds=#p8#"};
+				{ 16, 52040, "", "=q1=Salvager's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:14094#"};
+				{ 17, 60260, "", "=q1=Sea Witch's Bag", "=ds=#e1#", "=q1=#m4#: #QUESTID:24814#"};
+				{ 18, 5571, "", "=q1=Small Black Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 19, 828, "", "=q1=Small Blue Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 20, 4496, "", "=q1=Small Brown Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 21, 5572, "", "=q1=Small Green Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 22, 805, "", "=q1=Small Red Pouch", "=ds=#e1#", "=ds="..AL["World Drop"]};
+				{ 23, 23389, "", "=q1=Empty Draenei Supply Pouch", "=ds=#e1#", "=q1=#m4#: #QUESTID:9283#"};
+				--{ 24, 56147, "", "=q1=Fatcandle Bag", "=ds=#e1#", "=ds="..AL["Gug Fatcandle"]..": "..AtlasLoot:GetMapNameByID(30)}; ---rare
+				{ 25, 22976, "", "=q1=Magister's Pouch", "=ds=#e1#", "=q1=#m4#: #QUESTID:9066#"};
+				{ 26, 20474, "", "=q1=Sunstrider Book Satchel", "=ds=#e1#", "=q1=#m4#: #QUESTID:8330#"};
+				--{ 27, 37606, "", "=q1=Penny Pouch", "=ds=#e1#", "=ds="..AL["Handful of Treats"].." - "..AL["Hallow's End"]}; 
 			};
 		};
 		info = {
