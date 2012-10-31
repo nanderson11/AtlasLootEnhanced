@@ -5955,9 +5955,12 @@ c			};
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Mists of Pandaria"]};
-				{ 2, 89873, "", "=q5=Crystallized Dread", "=ds=#e7#"};
-				{ 3, 89882, "", "=q5=Crystallized Horror", "=ds=#e7#"};
-				{ 4, 89881, "", "=q5=Crystallized Terror", "=ds=#e7#"};
+				{ 2, 93364, "", "=q5=Refined Crystallized Dread", "=ds=#e7#"};
+				{ 3, 93366, "", "=q5=Refined Crystallized Horror", "=ds=#e7#"};
+				{ 4, 93365, "", "=q5=Refined Crystallized Terror", "=ds=#e7#"};
+				{ 6, 89873, "", "=q5=Crystallized Dread", "=ds=#e7#"};
+				{ 7, 89882, "", "=q5=Crystallized Horror", "=ds=#e7#"};
+				{ 8, 89881, "", "=q5=Crystallized Terror", "=ds=#e7#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Cataclysm"]};
 				{ 17, 77949, "", "=q5=Golad, Twilight of Aspects", "=ds=#h3#, #w4#", "" };
 				{ 18, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
