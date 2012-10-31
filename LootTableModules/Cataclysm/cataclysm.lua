@@ -47,8 +47,6 @@ local moduleName = "AtlasLootCataclysm"
 --- Sets & Collections
 ---- Tier 11/12 Sets (T11/12)
 ---- Tier 13 Sets (T13)
----- Legendaries
----- Trading Card Game Items
 ---- Bags
 ---- BoE World Epics
 ---- Heirloom Items
@@ -6214,42 +6212,6 @@ local moduleName = "AtlasLootCataclysm"
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
 			module = moduleName, menu = "T13SET",
-		};
-	}
-
-		-------------------
-		--- Legendaries ---
-		-------------------
-
-	AtlasLoot_Data["Legendaries"] = {
-		["Normal"] = {
-			{
-				{ 1, 77949, "", "=q5=Golad, Twilight of Aspects", "=ds=#h3#, #w4#", "" };
-				{ 2, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
-				{ 3, 77947, "", "=q4=The Sleeper", "=ds=#h3#, #w4#", "" };
-				{ 4, 77948, "", "=q4=The Dreamer", "=ds=#h4#, #w4#", "" };
-				{ 5, 77945, "", "=q4=Fear", "=ds=#h3#, #w4#", "" };
-				{ 6, 77946, "", "=q4=Vengeance", "=ds=#h4#, #w4#", "" };
-				{ 8, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#", "" };
-				{ 9, 71085, "", "=q4=Runestaff of Nordrassil", "=ds=#w9#", "" };
-				{ 10, 71084, "", "=q4=Branch of Nordrassil", "=ds=#w9#", "" };
-				{ 12, 49623, "", "=q5=Shadowmourne", "=ds=#h2#, #w1#", "" };
-				{ 13, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3#, #w6#", "" };
-				{ 16, 34334, "", "=q5=Thori'dal, the Stars' Fury", "=ds=#w2#"};
-				{ 17, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
-				{ 18, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
-				{ 20, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=ds=#h1#, #w10#"};
-				{ 21, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=ds=#h2#, #w6#"};
-				{ 22, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=ds=#e26#"};
-				{ 24, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
-				{ 25, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
-				{ 26, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
-				{ 27, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
-			};
-		};
-		info = {
-			name = AL["Legendary Items"],
-			module = moduleName, menu = "SETMENU",
 		};
 	}
 

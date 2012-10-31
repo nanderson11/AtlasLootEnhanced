@@ -52,6 +52,7 @@ local moduleName = "AtlasLootMoP"
 ---- Mounts
 ---- Tabards
 ---- Transformation Items
+---- Legendaries
 ---- Heirloom Items
 ---- BoE World Epics
 ---- Justice Points Items
@@ -5943,6 +5944,54 @@ c			};
 		info = {
 			name = AL["Additional Effects Transformation Items"],
 			module = moduleName, menu = "TRANSFORMATIONMENU",
+		};
+	}
+
+		-------------------
+		--- Legendaries ---
+		-------------------
+
+	AtlasLoot_Data["Legendaries"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Mists of Pandaria"]};
+				{ 2, 89873, "", "=q5=Crystallized Dread", "=ds=#e7#"};
+				{ 3, 89882, "", "=q5=Crystallized Horror", "=ds=#e7#"};
+				{ 4, 89881, "", "=q5=Crystallized Terror", "=ds=#e7#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Cataclysm"]};
+				{ 17, 77949, "", "=q5=Golad, Twilight of Aspects", "=ds=#h3#, #w4#", "" };
+				{ 18, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
+				{ 19, 77947, "", "=q4=The Sleeper", "=ds=#h3#, #w4#", "" };
+				{ 20, 77948, "", "=q4=The Dreamer", "=ds=#h4#, #w4#", "" };
+				{ 21, 77945, "", "=q4=Fear", "=ds=#h3#, #w4#", "" };
+				{ 22, 77946, "", "=q4=Vengeance", "=ds=#h4#, #w4#", "" };
+				{ 24, 71086, "", "=q5=Dragonwrath, Tarecgosa's Rest", "=ds=#w9#", "" };
+				{ 25, 71085, "", "=q4=Runestaff of Nordrassil", "=ds=#w9#", "" };
+				{ 26, 71084, "", "=q4=Branch of Nordrassil", "=ds=#w9#", "" };
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Wrath of the Lich King"]};
+				{ 2, 49623, "", "=q5=Shadowmourne", "=ds=#h2#, #w1#", "" };
+				{ 3, 49888, "", "=q4=Shadow's Edge", "=ds=#h2#, #w1#", "" };
+				{ 5, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3#, #w6#", "" };
+				{ 7, 0, "INV_Box_01", "=q6="..AL["Burning Crusade"]};
+				{ 8, 34334, "", "=q5=Thori'dal, the Stars' Fury", "=ds=#w2#"};
+				{ 10, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
+				{ 11, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Classic WoW"]};
+				{ 17, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=ds=#h1#, #w10#"};
+				{ 19, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=ds=#h2#, #w6#"};
+				{ 20, 17193, "", "=q4=Sulfuron Hammer", "=ds=#h2#, #w6#"};
+				{ 22, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=ds=#e26#"};
+				{ 24, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+				{ 25, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+				{ 26, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+				{ 27, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+			};
+		};
+		info = {
+			name = AL["Legendary Items"],
+			module = moduleName, menu = "SETMENU",
 		};
 	}
 
