@@ -5851,11 +5851,12 @@ c			};
 				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2=Ai-Li Skymirror, =q1="..AtlasLoot:GetMapNameByID(858)};
 				{ 19, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=q2="..AL["Burgy Blackheart"]..", =q1="..AtlasLoot:GetMapNameByID(615)};
 				{ 20, 86593, "", "=q3=Hozen Beach Ball", "=q2=Ik-Ik the Nimble, =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 21, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2=Yorik Sharpeye, =q1="..AtlasLoot:GetMapNameByID(811)};
-				{ 22, 1973, "", "=q3=Orb of Deception", "=q2="..AL["World Drop"]};
-				{ 23, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
-				{ 24, 86573, "", "=q3=Shard of Archstone", "=q2=Havak, =q1="..AtlasLoot:GetMapNameByID(809)};
-				{ 25, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
+				{ 21, 88566, "", "=q3=Krastinov's Bag of Horrors", "=q2="..BabbleBoss["Doctor Theolen Krastinov"]..", =q1="..AtlasLoot:GetMapNameByID(763)};
+				{ 22, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2=Yorik Sharpeye, =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 23, 1973, "", "=q3=Orb of Deception", "=q2="..AL["World Drop"]};
+				{ 24, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
+				{ 25, 86573, "", "=q3=Shard of Archstone", "=q2=Havak, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 26, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted"]};
