@@ -1470,7 +1470,6 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak", EncounterJournalID = 241 },
 		},
-	},
 
 		-------------
 		--- Raids ---
@@ -1547,6 +1546,7 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Ruins of Ahn'Qiraj"], "AtlasLootClassicWoW", mapname = "RuinsofAhnQiraj", raid = true },
 		},
+	},
 
 	---------------------
 	--- Battlegrounds ---
