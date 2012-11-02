@@ -10,8 +10,12 @@ Compatible with Patch 5.1.
 Added Fishing to the crafting menus.
 Added new Pets and Mounts.
 Added Sha of Anger quest rewards.
+Added prices for faction rewards.
+Added faction quest rewards.
 Updated Transformation section.
 Updated Heirloom section.
+Updated Legendary Items section.
+Updated Love is in the Air with the new ilvl 480 rewards.
 Revamped Feast of Winter Veil.
 Revamped Lunar Festival.
 

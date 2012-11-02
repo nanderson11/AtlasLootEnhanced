@@ -633,11 +633,11 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["ApothecaryHummel"] = {
 		["Normal"] = {
 			{
-				{ 1, 68175, "", "=q3=Winking Eye of Love", "=ds=#s2#"};
-				{ 2, 68176, "", "=q3=Heartbreak Charm", "=ds=#s2#"};
-				{ 3, 68172, "", "=q3=Shard of Pirouetting Happiness", "=ds=#s2#"};
-				{ 4, 68174, "", "=q3=Sweet Perfume Broach", "=ds=#s2#"};
-				{ 5, 68173, "", "=q3=Choker of the Pure Heart", "=ds=#s2#"};
+				{ 1, 93394, "", "=q4=Choker of the Pure Heart", "=ds=#s2#"};
+				{ 2, 93391, "", "=q4=Heartbreak Charm", "=ds=#s2#"};
+				{ 3, 93395, "", "=q4=Shard of Pirouetting Happiness", "=ds=#s2#"};
+				{ 4, 93393, "", "=q4=Sweet Perfume Broach", "=ds=#s2#"};
+				{ 5, 93392, "", "=q4=Winking Eye of Love", "=ds=#s2#"};
 				{ 16, 54537, "", "=q3=Heart-Shaped Box", "=q5="..AL["Daily Reward"]};
 				{ 17, 50250, "", "=q4=Big Love Rocket", "=ds=#e12#"};
 				{ 18, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
