@@ -214,7 +214,7 @@ local moduleName = "AtlasLootCataclysm"
 				{ 9, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Sylvanas", 323), "#ACHIEVEMENTID:6130#"};
 				{ 10, 72811, "", "=q4=Cloak of the Banshee Queen", "=ds=#s4#" },
 				{ 11, 72810, "", "=q4=Windrunner's Bow", "=ds=#w2#" },
-				{ 13, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Tyrande", 283), ""};
+				{ 13, 0, "INV_Box_01", "=q6="..AtlasLoot:EJ_GetBossName("Echo of Tyrande", 283), "#ACHIEVEMENTID:5995#"};
 				{ 14, 72813, "", "=q4=Whisperwind Robes", "=ds=#s5#, #a1#" },
 				{ 15, 72812, "", "=q4=Crescent Moon", "=ds=#h1#, #w1#" },
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Shared"], ""};

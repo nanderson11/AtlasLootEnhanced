@@ -18,7 +18,7 @@ Updated Legendary Items section.
 Updated Love is in the Air with the new ilvl 480 rewards.
 Revamped Feast of Winter Veil.
 Revamped Lunar Festival.
-
+Many minor fixes, additions and translations.
 
 v7.03.01 (Oct 11, 2012)
 Fixed a nasty bug regarding Atlas.
