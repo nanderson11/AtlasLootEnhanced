@@ -73,7 +73,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 80862, "", "=q3=Treads of Corrupted Water", "=ds=#s12#, #a2#" },
 				{ 3, 80860, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
 				{ 4, 80861, "", "=q3=Riverbed Chestguard", "=ds=#s5#, #a4#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6460#"};
 				{ 17, 81123, "", "=q3=Wind-Soaked Drape", "=ds=#s4#" },
 				{ 18, 81072, "", "=q3=Treads of Corrupted Water", "=ds=#s12#, #a2#" },
 				{ 19, 81075, "", "=q3=Waterburst Helm", "=ds=#s1#, #a3#" },
@@ -139,7 +139,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 80869, "", "=q3=Hopecrusher Gauntlets", "=ds=#s9#, #a3#" },
 				{ 6, 80873, "", "=q3=Dubious Handaxe", "=ds=#h1#, #w1#" },
 				{ 7, 80874, "", "=q3=Staff of Trembling Will", "=ds=#w9#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6475# / #ACHIEVEMENTID:6671#"}; --- 2nd achievemnt isn't showing up..
 				{ 17, 87544, "", "=q4=Je'lyu, Spirit of the Serpent", "=ds=#h3#, #w6#" },
 				{ 18, 81129, "", "=q3=Cloak of Failing Will", "=ds=#s4#" },
 				{ 19, 81132, "", "=q3=Paralyzing Gloves", "=ds=#s9#, #a1#" },
@@ -271,7 +271,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 85180, "", "=q3=Glintrok Sollerets", "=ds=#s12#, #a4#" },
 				{ 5, 85181, "", "=q3=Iron Protector Talisman", "=ds=#s14#" },
 				{ 6, 85183, "", "=q3=Claws of Gekkan", "=ds=#h1#, #w13#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6478#"};
 				{ 17, 81244, "", "=q3=Cloak of Cleansing Flame", "=ds=#s4#" },
 				{ 18, 81246, "", "=q3=Hexxer's Lethargic Gloves", "=ds=#s9#, #a3#" },
 				{ 19, 81242, "", "=q3=Glintrok Sollerets", "=ds=#s12#, #a4#" },
@@ -299,7 +299,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 85188, "", "=q3=Blade Trap Signet", "=ds=#s13#" },
 				{ 10, 85190, "", "=q3=Firescribe Dagger", "=ds=#h3#, #w4#" },
 				{ 11, 85185, "", "=q3=Ghostheart", "=ds=#w7#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6736#"};
 				{ 17, 87542, "", "=q4=Mogu'Dar, Blade of the Thousand Slaves", "=ds=#h2#, #w10#" },
 				{ 18, 81257, "", "=q3=Regal Silk Shoulderpads", "=ds=#s3#, #a1#" },
 				{ 19, 81255, "", "=q3=Soulbinder Treads", "=ds=#s12#, #a1#" },
@@ -351,7 +351,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 80912, "", "=q3=Gauntlets of Resolute Fury", "=ds=#s9#, #a4#" },
 				{ 3, 80911, "", "=q3=Quivering Heart Girdle", "=ds=#s10#, #a4#" },
 				{ 4, 80937, "", "=q3=Snowdrift's Bladed Staff", "=ds=#w9#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6477#"};
 				{ 17, 81101, "", "=q3=Gauntlets of Resolute Fury", "=ds=#s9#, #a4#" },
 				{ 18, 81087, "", "=q3=Quivering Heart Girdle", "=ds=#s10#, #a4#" },
 				{ 19, 81182, "", "=q3=Eye of the Tornado", "=ds=#s13#" },
@@ -372,7 +372,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 80913, "", "=q3=Gloves of Enraged Slaughter", "=ds=#s9#, #a1#" },
 				{ 3, 80915, "", "=q3=Spike-Soled Stompers", "=ds=#s12#, #a4#" },
 				{ 4, 80883, "", "=q3=Crescent of Ichor", "=ds=#h1#, #w1#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6472#"};
 				{ 17, 81102, "", "=q3=Gloves of Enraged Slaughter", "=ds=#s9#, #a1#" },
 				{ 18, 81185, "", "=q3=Bladed Smoke Bracers", "=ds=#s8#, #a3#" },
 				{ 19, 81113, "", "=q3=Spike-Soled Stompers", "=ds=#s12#, #a4#" },
@@ -396,7 +396,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 80918, "", "=q3=Mindbinder Plate Gloves", "=ds=#s9#, #a4#" },
 				{ 6, 80936, "", "=q3=Warmace of Taran Zhu", "=ds=#h2#, #w6#" },
 				{ 7, 80935, "", "=q3=Shield of Blind Hate", "=ds=#w8#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6471#"};
 				{ 17, 87543, "", "=q4=Ka'eng, Breath of the Shadow", "=ds=#h1#, #w13#" },
 				{ 18, 81188, "", "=q3=Robes of Fevered Dreams", "=ds=#s5#, #a1#" },
 				{ 19, 81093, "", "=q3=Darkbinder Leggings", "=ds=#s11#, #a2#" },
@@ -600,7 +600,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88347, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
 				{ 5, 88348, "", "=q3=Wraithplate Treads", "=ds=#s12#, #a4#" },
 				{ 6, 88346, "", "=q3=Metanoia Shield", "=ds=#w8#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6531#"};
 				{ 17, 82850, "", "=q3=Phantasmal Drape", "=ds=#s4#" },
 				{ 18, 82848, "", "=q3=Barovian Ritual Hood", "=ds=#s1#, #a1#" },
 				{ 19, 82851, "", "=q3=Ghostwoven Legguards", "=ds=#s11#, #a2#" },
@@ -623,7 +623,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88343, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
 				{ 5, 88344, "", "=q3=Goresoaked Headreaper", "=ds=#h2#, #w1#" },
 				{ 6, 88341, "", "=q3=Necromantic Wand", "=ds=#w12#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6394#"};
 				{ 17, 82825, "", "=q3=Deadwalker Bracers", "=ds=#s8#, #a1#" },
 				{ 18, 82827, "", "=q3=Rattling Gloves", "=ds=#s9#, #a2#" },
 				{ 19, 82828, "", "=q3=Bone Golem Boots", "=ds=#s12#, #a3#" },
@@ -672,7 +672,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 88358, "", "=q3=Lessons of the Darkmaster", "=ds=#s14#" },
 				{ 8, 88360, "", "=q3=Price of Progress", "=ds=#s14#" },
 				{ 9, 88355, "", "=q3=Searing Words", "=ds=#s14#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6821#"};
 				{ 17, 82859, "", "=q4=Headmaster's Will", "=ds=#w9#" },
 				{ 18, 82861, "", "=q3=Incineration Belt", "=ds=#s10#, #a1#" },
 				{ 19, 82858, "", "=q3=Tombstone Gauntlets", "=ds=#s9#, #a2#" },
@@ -703,7 +703,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88267, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
 				{ 5, 88265, "", "=q3=Beastbinder Ring", "=ds=#s13#" },
 				{ 6, 88264, "", "=q3=Houndmaster's Compound Crossbow", "=ds=#w3#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6684#"};
 				{ 17, 81695, "", "=q3=Hound Trainer's Gloves", "=ds=#s9#, #a2#" },
 				{ 18, 81696, "", "=q3=Canine Commander's Breastplate", "=ds=#s5#, #a4#" },
 				{ 19, 81694, "", "=q3=Commanding Bracers", "=ds=#s8#, #a4#" },
@@ -726,30 +726,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
 				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
 				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
-				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
-				{ 19, 81698, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
-				{ 20, 81568, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
-				{ 21, 81697, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Armsmaster Harlan", 654),
-			module = moduleName, instance = "ScarletHalls",
-		};
-	};
-
-	AtlasLoot_Data["SHHarlan"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 88269, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
-				{ 3, 88270, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
-				{ 4, 88271, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
-				{ 5, 88273, "", "=q3=Armsmaster's Sealed Locket", "=ds=#s2#" },
-				{ 6, 88272, "", "=q3=The Gleaming Ravager", "=ds=#h2#, #w1#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6427#"};
 				{ 17, 81699, "", "=q3=Scarlet Sandals", "=ds=#s12#, #a1#" },
 				{ 18, 81700, "", "=q3=Lightblade Bracer", "=ds=#s8#, #a2#" },
 				{ 19, 81698, "", "=q3=Harlan's Shoulders", "=ds=#s3#, #a3#" },
@@ -810,7 +787,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88286, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
 				{ 5, 88287, "", "=q3=Bracers of the Fallen Crusader", "=ds=#s8#, #a4#" },
 				{ 6, 88285, "", "=q3=Signet of the Hidden Door", "=ds=#s13#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6946#"};
 				{ 17, 81571, "", "=q3=Soulrender Greatcloak", "=ds=#s4#" },
 				{ 18, 81569, "", "=q3=Forgotten Bloodmage Mantle", "=ds=#s3#, #a1#" },
 				{ 19, 81570, "", "=q3=Legguards of the Crimson Magus", "=ds=#s11#, #a3#" },
@@ -833,7 +810,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88292, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
 				{ 5, 88293, "", "=q3=Firefinger Ring", "=ds=#s13#" },
 				{ 6, 88289, "", "=q3=Firestorm Greatstaff", "=ds=#w9#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6928#"};
 				{ 17, 81575, "", "=q3=Scorched Earth Cloak", "=ds=#s4#" },
 				{ 18, 81573, "", "=q3=Korloff's Raiment", "=ds=#s5#, #a2#" },
 				{ 19, 81574, "", "=q3=Helm of Rising Flame", "=ds=#s1#, #a4#" },
@@ -861,7 +838,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 88294, "", "=q3=Flashing Steel Talisman", "=ds=#s14#" },
 				{ 10, 88297, "", "=q3=Lightbreaker Greatsword", "=ds=#h2#, #w10#" },
 				{ 11, 88301, "", "=q3=Greatstaff of Righteousness", "=ds=#w9#" },
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
+				{ 16, 0, "inv_box_04", "=q6=#j3#", "#ACHIEVEMENTID:6929#"};
 				{ 17, 87551, "", "=q4=Helios, Durand's Soul of Purity", "=ds=#s2#" },
 				{ 18, 81692, "", "=q3=Whitemane's Embroidered Chapeau", "=ds=#s1#, #a1#" },
 				{ 19, 81689, "", "=q3=Leggings of Hallowed Fire", "=ds=#s11#, #a1#" },
