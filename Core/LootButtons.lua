@@ -164,7 +164,15 @@ do
 		itemButton.Frame.Unsafe:SetHeight(27)
 		itemButton.Frame.Unsafe:SetWidth(27)
 		itemButton.Frame.Unsafe:SetTexture(1,0,0,1)
-		itemButton.Frame.Unsafe:Hide()		
+		itemButton.Frame.Unsafe:Hide()	
+
+		-- Item amount
+		itemButton.Frame.IconAmount = itemButton.Frame:CreateFontString(name.."_IconAmount", "ARTWORK", "AtlasLoot_ItemAmountFont")
+		itemButton.Frame.IconAmount:SetPoint("BOTTOMLEFT", itemButton.Frame.Icon, "BOTTOMLEFT",0,1)
+		itemButton.Frame.IconAmount:SetJustifyH("RIGHT")
+		itemButton.Frame.IconAmount:SetHeight(15)
+		itemButton.Frame.IconAmount:SetWidth(25)	
+		itemButton.Frame.IconAmount:SetText()
 			
 		-- itemButton Scripts
 		itemButton.Frame:SetScript("OnEnter", AtlasLoot.ItemOnEnter)
@@ -1135,6 +1143,11 @@ function AltasLootItemButton:Query()
 	end
 end
 		
+--- Set the amount of an item
+function AltasLootItemButton:SetAmount(amount)
+	self.Frame.IconAmount:SetText(amount)
+end
+		
 --- Clears the button
 -- Clears and hides the itemButton
 -- @usage AltasLootItemButton:Clear()
@@ -1144,6 +1157,7 @@ function AltasLootItemButton:Clear()
 	self:SetButtonType(nil, nil, nil)
 	self:SetMenuButton(false)
 	self:SetIcon(nil)
+	self:SetAmount(nil)
 	self.Frame.Name:SetText("")
 	self.Frame.Extra:SetText("")
 	self.info = nil

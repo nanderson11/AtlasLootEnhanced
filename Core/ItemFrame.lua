@@ -88,6 +88,7 @@ function AtlasLoot:SetItemTable(tab)
 					self.ItemFrame.ItemButtons[itemButtonNum]:SetLink(v[3])
 				end
 				if v.type then self.ItemFrame.ItemButtons[itemButtonNum]:SetItemType(v.type) end
+				if v.amount then self.ItemFrame.ItemButtons[itemButtonNum]:SetAmount(v.amount) end
 			end
 		end
 	end

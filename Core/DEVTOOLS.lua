@@ -367,23 +367,68 @@ end
 -- ######################################################
 -- ######################################################
 
-local function ItemScanFrame(container)
+local AchievementIDs = {
+	1312, -- BC
+	2256, -- WotLK 
+	7439, -- Mop
+}
+
+local function AchievementScan(id)
+	if not id or id <= 0 then return "ERROR" end
+	local ret = ""
+	
+	for i = 1,GetAchievementNumCriteria(id) do
+		local name = GetAchievementCriteriaInfo(id,i)
+		ret = ret..string.format("[\"%s\"] = GetAchievementCriteriaInfo(%d,%d),\n", name, id, i)
+	end
+	
+	return ret
+end
+local function AchievementScanAll()
+	local ret = ""
+	for k,v in ipairs(AchievementIDs) do
+		ret = ret..AchievementScan(v)
+	end
+	return ret
+end
+
+local function AchievementScanFrame(container)
+	local textAID
+
 	local editbox2 = AceGUI:Create("EditBox")
 
+	local multiEditbox = AceGUI:Create("MultiLineEditBox")
+	
 	local editbox = AceGUI:Create("EditBox")
-	editbox:SetLabel("ItemID / ItemName:")
+	editbox:SetLabel("AchievementID:")
 	editbox:SetWidth(200)
 	editbox:SetCallback("OnEnterPressed", function(widget, event, text) 
-		
-		editbox2:SetText(lootTableString)
+		textAID = tonumber(text)
+		multiEditbox:SetText(AchievementScan( textAID ))
 	end)
 	container:AddChild(editbox)
-
-	local desc = AceGUI:Create("Label")
-	desc:SetText("")
-	--desc:SetFullWidth(true)
 	
+	local button = AceGUI:Create("Button")
+	button:SetText("Start Scan")
+	button:SetCallback("OnClick", function() 
+		multiEditbox:SetText(AchievementScan( textAID ))
+	end)
+	button:SetWidth(200)
+	container:AddChild(button)
 	
+	local button2 = AceGUI:Create("Button")
+	button2:SetText("Scan All")
+	button2:SetCallback("OnClick", function() 
+		multiEditbox:SetText(AchievementScanAll())
+	end)
+	button2:SetWidth(200)
+	container:AddChild(button2)
+	
+	multiEditbox:SetLabel("Achievement Info:")
+	multiEditbox:SetFullWidth(true)
+	multiEditbox:SetFullHeight(true)
+	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
+	container:AddChild(multiEditbox)
 end
 
 -- ######################################################
@@ -449,7 +494,7 @@ local function SelectGroup(container, event, group)
 	elseif group == "tab4" then
 		EJScan(container)
 	elseif group == "tab5" then
-		ItemScanFrame(container)
+		AchievementScanFrame(container)
    end
 end
 
@@ -466,7 +511,7 @@ function AtlasLoot:DevTool_CreateFrame()
 	local tab =  AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
-	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}, {text="EJ Scan", value="tab4"}})
+	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}, {text="EJ Scan", value="tab4"}, {text="Achievement Scan", value="tab5"}})
 	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)
