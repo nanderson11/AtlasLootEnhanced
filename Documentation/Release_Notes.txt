@@ -12,6 +12,7 @@ Added new Pets and Mounts.
 Added Sha of Anger quest rewards.
 Added prices for faction rewards.
 Added faction quest rewards.
+Added Mists of Pandaria "Glorious!" Rare mobs and "Lost and Found" rare items.
 Updated Transformation section.
 Updated Heirloom section.
 Updated Legendary Items section.

@@ -558,6 +558,7 @@ if AL then
 	AL["Daily Reward"] = true;
 	AL["No Longer Available"] = true;
 	AL["Shared Boss Loot"] = true;
+	AL["Shared Zone Loot"] = true;
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = true;

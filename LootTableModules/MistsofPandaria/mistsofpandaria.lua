@@ -21,15 +21,23 @@ local moduleName = "AtlasLootMoP"
 ---- Mogu'Shan Vaults
 ---- Pandaria World Bosses
 ---- Terrace of Endless Spring
---- Rares
+--- Rare Mobs
 ---- The Jade Forest
 ---- Valley of the Four Winds
 ---- Krasarang Wilds
 ---- Kun-Lai Summit
----- Vale of Eternal Blossoms
 ---- Townlong Steppes
 ---- Dread Wastes
----- Special
+---- Vale of Eternal Blossoms
+---- Misc
+---- Clawlord Kril'mandar
+--- Rare Items
+---- The Jade Forest
+---- Valley of the Four Winds
+---- Krasarang Wilds
+---- Kun-Lai Summit
+---- Townlong Steppes
+---- Dread Wastes
 --- Factions
 ---- The Anglers
 ---- The August Celestials
@@ -2132,46 +2140,46 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
-	-------------
-	--- Rares ---
-	-------------
+	-----------------
+	--- Rare Mobs ---
+	-----------------
 
 		-----------------------
 		--- The Jade Forest ---
 		-----------------------
 
-	AtlasLoot_Data["RaresMOPJadeForest"] = {
+	AtlasLoot_Data["RaresMOPMobsJadeForest"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Aethis", ""};
-				{ 2, 87649, "", "=q4=Pool-Stirrer", "=ds=#h1#, #w6#"};
-				{ 4, 0, "inv_box_04", "=q6=Ferdinand", ""};
-				{ 5, 87652, "", "=q4=Ook-Breaker Mace", "=ds=#h1#, #w6#"};
-				{ 7, 0, "inv_box_04", "=q6=Kor'nas Nightsavage", ""};
-				{ 8, 87642, "", "=q4=Darkstaff of Annihilation", "=ds=#w9#"};
-				{ 10, 0, "inv_box_04", "=q6=Krax'ik", ""};
-				{ 11, 87646, "", "=q4=Needlefang Throatripper", "=ds=#h1#, #w1#"};
-				{ 16, 0, "inv_box_04", "=q6=Mister Ferocious", ""};
-				{ 17, 87652, "", "=q4=Ook-Breaker Mace", "=ds=#h1#, #w6#"};
-				{ 19, 0, "inv_box_04", "=q6=Morgrinn Crackfang", ""};
-				{ 20, 88563, "", "=q4=Fangcracker Battlemace", "=ds=#h2#, #w6#"};
-				{ 22, 0, "inv_box_04", "=q6=Sarnak", ""};
-				{ 23, 87650, "", "=q4=Fishsticker Crossbow", "=ds=#w3#"};
-				{ 25, 0, "inv_box_04", "=q6=Urobi the Walker", ""};
-				{ 26, 87651, "", "=q4=Pathwalker Greatstaff", "=ds=#w9#"};
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Aethis"], ""};
+				{ 3, 87649, "", "=q4=Pool-Stirrer", "=ds=#h1#, #w6#"};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ferdinand"], ""};
+				{ 6, 87652, "", "=q4=Ook-Breaker Mace", "=ds=#h1#, #w6#"};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kor'nas Nightsavage"], ""};
+				{ 9, 87642, "", "=q4=Darkstaff of Annihilation", "=ds=#w9#"};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Krax'ik"], ""};
+				{ 12, 87646, "", "=q4=Needlefang Throatripper", "=ds=#h1#, #w1#"};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Mister Ferocious"], ""};
+				{ 18, 87652, "", "=q4=Ook-Breaker Mace", "=ds=#h1#, #w6#"};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Morgrinn Crackfang"], ""};
+				{ 21, 87643, "", "=q4=Fangcracker Battlemace", "=ds=#h2#, #w6#"};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Sarnak"], ""};
+				{ 24, 87650, "", "=q4=Fishsticker Crossbow", "=ds=#w3#"};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Urobi the Walker"], ""};
+				{ 27, 87651, "", "=q4=Pathwalker Greatstaff", "=ds=#w9#"};
 			};
 			{
-				{ 1, 0, "inv_box_04", "=q6=Shared Zone Loot Table", ""};
-				{ 2, 87586, "", "=q3=Forest Trickster's Leggings", "=ds=#s11#, #a1#"};
-				{ 3, 87590, "", "=q3=Jade Heart Leggings", "=ds=#s11#, #a1#"};
-				{ 4, 87587, "", "=q3=Orchard Tender's Leggings", "=ds=#s11#, #a2#"};
-				{ 5, 87591, "", "=q3=Tian Trainee Leggings", "=ds=#s11#, #a2#"};
-				{ 6, 87592, "", "=q3=Grookin' Grookin' Trousers", "=ds=#s11#, #a3#"};
-				{ 7, 87588, "", "=q3=Leggings of Spiritsong Melody", "=ds=#s11#, #a3#"};
-				{ 8, 87593, "", "=q3=Gan Shi Warlord Legguards", "=ds=#s11#, #a4#"};
-				{ 9, 87594, "", "=q3=Leggings of Forgotten War", "=ds=#s11#, #a4#"};
-				{ 10, 87589, "", "=q3=Leggings of Fractured Reflection", "=ds=#s11#, #a4#"};
-				{ 11, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87586, "", "=q3=Forest Trickster's Leggings", "=ds=#s11#, #a1#"};
+				{ 4, 87590, "", "=q3=Jade Heart Leggings", "=ds=#s11#, #a1#"};
+				{ 5, 87587, "", "=q3=Orchard Tender's Leggings", "=ds=#s11#, #a2#"};
+				{ 6, 87591, "", "=q3=Tian Trainee Leggings", "=ds=#s11#, #a2#"};
+				{ 7, 87592, "", "=q3=Grookin' Grookin' Trousers", "=ds=#s11#, #a3#"};
+				{ 8, 87588, "", "=q3=Leggings of Spiritsong Melody", "=ds=#s11#, #a3#"};
+				{ 9, 87593, "", "=q3=Gan Shi Warlord Legguards", "=ds=#s11#, #a4#"};
+				{ 10, 87594, "", "=q3=Leggings of Forgotten War", "=ds=#s11#, #a4#"};
+				{ 11, 87589, "", "=q3=Leggings of Fractured Reflection", "=ds=#s11#, #a4#"};
+				{ 12, 87217, "", "=q2=Small Bag of Goods", "=ds="};
 			};
 		};
 		info = {
@@ -2184,42 +2192,480 @@ local moduleName = "AtlasLootMoP"
 		--- Valley of the Four Winds ---
 		--------------------------------
 
-	AtlasLoot_Data["RaresMOPValleyFourWinds"] = {
+	AtlasLoot_Data["RaresMOPMobsValleyFourWinds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Blackhoof", ""};
-				{ 2, 86565, "", "=q3=Battle Horn", "=ds="};
-				{ 4, 0, "inv_box_04", "=q6=Bonobos", ""};
-				{ 5, 86591, "", "=q3=Magic Banana", "=ds="};
-				{ 7, 0, "inv_box_04", "=q6=Jonn-Dar", ""};
-				{ 8, 86572, "", "=q3=Terracotta Fragment", "=ds=#s14#"};
-				{ 10, 0, "inv_box_04", "=q6=Nal'lak the Ripper", ""};
-				{ 11, 86576, "", "=q3=Dynasty of Steel", "=ds=#s14#"};
-				{ 16, 0, "inv_box_04", "=q6=Nasra Spothide", ""};
-				{ 17, 86587, "", "=q3=Seed of Tranquil Growth", "=ds=#s14#"};
-				{ 19, 0, "inv_box_04", "=q6=Salyin Warscout", ""};
-				{ 20, 86583, "", "=q3=Salyin Battle Banner", "=ds="};
-				{ 22, 0, "inv_box_04", "=q6=Sele'na", ""};
-				{ 23, 86580, "", "=q3=Overgrown Lilypad", "=ds="};
-				{ 25, 0, "inv_box_04", "=q6=Sulik'shor", ""};
-				{ 26, 86569, "", "=q3=Crystal of Insanity", "=ds="};
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Blackhoof"], ""};
+				{ 3, 86565, "", "=q3=Battle Horn", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Bonobos"], ""};
+				{ 6, 86591, "", "=q3=Magic Banana", "=ds="};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Jonn-Dar"], ""};
+				{ 9, 86572, "", "=q3=Terracotta Fragment", "=ds=#s14#"};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Nal'lak the Ripper"], ""};
+				{ 12, 86576, "", "=q3=Dynasty of Steel", "=ds=#s14#"};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Nasra Spothide"], ""};
+				{ 18, 86587, "", "=q3=Seed of Tranquil Growth", "=ds=#s14#"};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Salyin Warscout"], ""};
+				{ 21, 86583, "", "=q3=Salyin Battle Banner", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Sele'na"], ""};
+				{ 24, 86580, "", "=q3=Overgrown Lilypad", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Sulik'shor"], ""};
+				{ 27, 86569, "", "=q3=Crystal of Insanity", "=ds="};
 			};
 			{
-				{ 1, 0, "inv_box_04", "=q6=Shared Zone Loot Table", ""};
-				{ 2, 87597, "", "=q3=Gloves of Congealed Mist", "=ds=#s9#, #a1#"};
-				{ 3, 87598, "", "=q3=Monstrous Silk Gloves", "=ds=#s9#, #a1#"};
-				{ 4, 87595, "", "=q3=Gloves of Burrow Spelunking", "=ds=#s9#, #a2#"};
-				{ 5, 87599, "", "=q3=Grower's Gloves", "=ds=#s9#, #a2#"};
-				{ 6, 87600, "", "=q3=Marshsong Gloves", "=ds=#s9#, #a3#"};
-				{ 7, 87596, "", "=q3=Mudmug's Mitts", "=ds=#s9#, #a3#"};
-				{ 8, 87602, "", "=q3=Grain Warden's Gauntlets", "=ds=#s9#, #a4#"};
-				{ 9, 87603, "", "=q3=Thunderfall Gauntlets", "=ds=#s9#, #a4#"};
-				{ 10, 87601, "", "=q3=Plough Driving Grips", "=ds=#s9#, #a4#"};
-				{ 11, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87597, "", "=q3=Gloves of Congealed Mist", "=ds=#s9#, #a1#"};
+				{ 4, 87598, "", "=q3=Monstrous Silk Gloves", "=ds=#s9#, #a1#"};
+				{ 5, 87595, "", "=q3=Gloves of Burrow Spelunking", "=ds=#s9#, #a2#"};
+				{ 6, 87599, "", "=q3=Grower's Gloves", "=ds=#s9#, #a2#"};
+				{ 7, 87600, "", "=q3=Marshsong Gloves", "=ds=#s9#, #a3#"};
+				{ 8, 87596, "", "=q3=Mudmug's Mitts", "=ds=#s9#, #a3#"};
+				{ 9, 87602, "", "=q3=Grain Warden's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 10, 87603, "", "=q3=Thunderfall Gauntlets", "=ds=#s9#, #a4#"};
+				{ 11, 87601, "", "=q3=Plough Driving Grips", "=ds=#s9#, #a4#"};
+				{ 12, 87217, "", "=q2=Small Bag of Goods", "=ds="};
 			};
 		};
 		info = {
 			name = AtlasLoot:GetMapNameByID(807),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		-----------------------
+		--- Krasarang Wilds ---
+		-----------------------
+
+	AtlasLoot_Data["RaresMOPMobsKrasarangWilds"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Arness the Scale"], ""};
+				{ 3, 90723, "", "=q4=Arness's Scaled Leggings", "=ds=#s11#, #a3#"};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Cournith Waterstrider"], ""};
+				{ 6, 90721, "", "=q4=Courinth Waterstrider's Silken Finery", "=ds=#s11#, #a1#"};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Gaarn the Toxic"], ""};
+				{ 9, 90725, "", "=q4=Gaarn's Leggings of Infestation", "=ds=#s11#, #a1#"};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Go-Kan"], ""};
+				{ 12, 90719, "", "=q4=Go-Kan's Golden Trousers", "=ds=#s11#, #a3#"};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Qu'nas"], ""};
+				{ 18, 90717, "", "=q4=Qu'nas' Apocryphal Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ruun Ghostpaw"], ""};
+				{ 21, 90720, "", "=q4=Silent Leggings of the Ghostpaw", "=ds=#s11#, #a2#"};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Spriggin"], ""};
+				{ 24, 90724, "", "=q4=Spriggin's Sproggin' Leggin'", "=ds=#s11#, #a2#"};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Torik-Ethis"], ""};
+				{ 27, 90718, "", "=q4=Torik-Ethis' Bloodied Legguards", "=ds=#s11#, #a4#"};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87604, "", "=q3=Beachcomber's Hat", "=ds=#s1#, #a1#"};
+				{ 4, 87608, "", "=q3=Korjan Mystic's Hood", "=ds=#s1#, #a1#"};
+				{ 5, 87609, "", "=q3=Brushstalker Helm", "=ds=#s1#, #a2#"};
+				{ 6, 87605, "", "=q3=Crest of the Red Crane", "=ds=#s1#, #a2#"};
+				{ 7, 87610, "", "=q3=Deepwild Hunting Helm", "=ds=#s1#, #a3#"};
+				{ 8, 87606, "", "=q3=Tidehunter Helm", "=ds=#s1#, #a3#"};
+				{ 9, 87612, "", "=q3=Ancient Krasari Helm", "=ds=#s1#, #a4#"};
+				{ 10, 87611, "", "=q3=Shen-zin Shell Headguard", "=ds=#s1#, #a4#"};
+				{ 11, 87607, "", "=q3=Unearthed Dojani Headcover", "=ds=#s1#, #a4#"};
+				{ 12, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(857),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		----------------------
+		--- Kun-Lai Summit ---
+		----------------------
+
+	AtlasLoot_Data["RaresMOPMobsKunLaiSummit"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ahone the Wanderer"], ""};
+				{ 3, 86588, "", "=q3=Pandaren Firework Launcher", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Borginn Darkfist"], ""};
+				{ 6, 86570, "", "=q3=Crate of Kidnapped Puppies", "=ds=#s14#"};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Havak"], ""};
+				{ 9, 86573, "", "=q3=Shard of Archstone", "=ds=#e25#"};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Korda Torros"], ""};
+				{ 12, 86566, "", "=q3=Forager's Gloves", "=ds=#s9#, #a1#"};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Nessos the Oracle"], ""};
+				{ 18, 86584, "", "=q3=Hardened Shell", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Norlaxx the Outcast"], ""};
+				{ 21, 86581, "", "=q3=Farwater Conch", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Scritch"], ""};
+				{ 24, 86592, "", "=q3=Hozen Peace Pipe", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ski'thik"], ""};
+				{ 27, 86577, "", "=q3=Rod of Ambershaping", "=ds="};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87616, "", "=q3=Mountain Trailblazer's Cuffs", "=ds=#s8#, #a1#"};
+				{ 4, 87615, "", "=q3=Yakwasher's Bracers", "=ds=#s8#, #a1#"};
+				{ 5, 87617, "", "=q3=Bracers of the Serene Mountaintop", "=ds=#s8#, #a2#"};
+				{ 6, 87613, "", "=q3=Frozen Zandalari Bracer", "=ds=#s8#, #a2#"};
+				{ 7, 87618, "", "=q3=Ice Encrusted Bracer", "=ds=#s8#, #a3#"};
+				{ 8, 87614, "", "=q3=Kafa Picker's Bracers", "=ds=#s8#, #a3#"};
+				{ 9, 87620, "", "=q3=Bracers of the Frozen Summit", "=ds=#s8#, #a4#"};
+				{ 10, 87619, "", "=q3=Terracotta Guardian's Bracer", "=ds=#s8#, #a4#"};
+				{ 11, 87621, "", "=q3=Wristguards of Great Fortune", "=ds=#s8#, #a4#"};
+				{ 12, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(809),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		------------------------
+		--- Townlong Steppes ---
+		------------------------
+
+	AtlasLoot_Data["RaresMOPMobsTownlongSteppes"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Eshelon"], ""};
+				{ 3, 87222, "", "=q3=Big Bag of Linens", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kah'tir"], ""};
+				{ 6, 87218, "", "=q4=Big Bag of Arms", "=ds="};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Lith'ik the Stalker"], ""};
+				{ 9, 87221, "", "=q3=Big Bag of Jewels", "=ds="};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Lon the Bull"], ""};
+				{ 12, 87219, "", "=q3=Big Bag of Herbs", "=ds="};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Norlaxx"], ""};
+				{ 18, 87220, "", "=q3=Big Bag of Mysteries", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Siltriss the Sharpener"], ""};
+				{ 21, 87223, "", "=q3=Big Bag of Skins", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["The Yowler"], ""};
+				{ 24, 87225, "", "=q3=Big Bag of Food", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Yul Wildpaw"], ""};
+				{ 27, 87224, "", "=q3=Big Bag of Wonders", "=ds="};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87625, "", "=q3=Congealed Mist Amulet", "=ds=#s2#"};
+				{ 4, 87623, "", "=q3=Razor-Sharp Chitin Choker", "=ds=#s2#"};
+				{ 5, 87626, "", "=q3=Suna's Shattered Locket", "=ds=#s2#"};
+				{ 6, 87624, "", "=q3=Yaungol Mist-Shaman's Amulet", "=ds=#s2#"};
+				{ 7, 87622, "", "=q3=Yoke of Niuzao", "=ds=#s2#"};
+				{ 8, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(810),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		--------------------
+		--- Dread Wastes ---
+		--------------------
+
+	AtlasLoot_Data["RaresMOPMobsDreadWastes"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ai-Li Skymirror"], ""};
+				{ 3, 86589, "", "=q3=Ai-Li's Skymirror", "=ds=#e25#"};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Dak the Breaker"], ""};
+				{ 6, 86567, "", "=q3=Yaungol Wind Chime", "=ds=#s14#"};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Gar'lok"], ""};
+				{ 9, 86578, "", "=q3=Eternal Warrior's Sigil", "=ds="};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ik-Ik the Nimble"], ""};
+				{ 12, 86593, "", "=q3=Hozen Beach Ball", "=ds=#e25#"};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Karr the Darkener"], ""};
+				{ 18, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#"};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Krol the Blade"], ""};
+				{ 21, 86574, "", "=q3=Elixir of Ancient Knowledge", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Nalash Verdantis"], ""};
+				{ 24, 86563, "", "=q3=Hollow Reed", "=ds=#e13#"};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Omnis Grinlok"], ""};
+				{ 27, 86585, "", "=q3=Golden Fleece", "=ds=#s14#"};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87635, "", "=q3=Amber-Starched Robes", "=ds=#s5#, #a1#"};
+				{ 4, 87634, "", "=q3=Mazu's Robe", "=ds=#s5#, #a1#"};
+				{ 5, 87631, "", "=q3=Jiao-Skin Tunic", "=ds=#s5#, #a2#"};
+				{ 6, 87630, "", "=q3=Chestpiece of Twinkling Stars", "=ds=#s5#, #a3#"};
+				{ 7, 87632, "", "=q3=Fearsworn Chestpiece", "=ds=#s5#, #a3#"};
+				{ 8, 87629, "", "=q3=Chestplate of Manifest Dread", "=ds=#s5#, #a4#"};
+				{ 9, 87627, "", "=q3=Kunchong Carapace Chestguard", "=ds=#s5#, #a4#"};
+				{ 10, 87628, "", "=q3=Spinebreaker Chestpiece", "=ds=#s5#, #a4#"};
+				{ 11, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(858),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		--------------------------------
+		--- Vale of Eternal Blossoms ---
+		--------------------------------
+
+	AtlasLoot_Data["RaresMOPMobsValeOfEternalBlossoms"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ai-Ran the Shifting Cloud"], ""};
+				{ 3, 86590, "", "=q3=Essence of the Breeze", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kal'tik the Blight"], ""};
+				{ 6, 86579, "", "=q3=Bottled Tornado", "=ds=#s14#"};
+				{ 8, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Kang the Soul Thief"], ""};
+				{ 9, 86571, "", "=q3=Kang's Bindstone", "=ds="};
+				{ 11, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Major Nanners"], ""};
+				{ 12, 86594, "", "=q3=Helpful Wikky's Whistle", "=ds="};
+				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Moldo One-Eye"], ""};
+				{ 18, 86586, "", "=q3=Panflute of Pandaria", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Sahn Tidehunter"], ""};
+				{ 21, 86582, "", "=q3=Aqua Jewel", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Urgolax"], ""};
+				{ 24, 86575, "", "=q3=Chalice of Secrets", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Yorik Sharpeye"], ""};
+				{ 27, 86568, "", "=q3=Mr. Smite's Brass Compass", "=ds=#e25#"};
+			};
+			{
+				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
+				{ 3, 87638, "", "=q3=Cloak of Tranquil Clouds", "=ds=#s4#"};
+				{ 4, 87636, "", "=q3=Cloak of the Forgotten Emperor", "=ds=#s4#"};
+				{ 5, 87637, "", "=q3=Jade Harbinger's Cloak", "=ds=#s4#"};
+				{ 6, 87640, "", "=q3=Softfoot's Drape", "=ds=#s4#"};
+				{ 7, 87639, "", "=q3=Tattered Guo-Lai Dynasty Cloak", "=ds=#s4#"};
+				{ 8, 87217, "", "=q2=Small Bag of Goods", "=ds="};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(811),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		---------------------
+		--- Miscellaneous ---
+		---------------------
+
+	AtlasLoot_Data["RaresMOPMobsMisc"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6=Fixxul Lonelyheart", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 3, 90078, "", "=q2=Cracked Talisman", "=ds="};
+				{ 5, 0, "inv_box_04", "=q6=Lorbu Sadsummon", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 6, 90078, "", "=q2=Cracked Talisman", "=ds="};
+				{ 8, 0, "inv_box_04", "=q6=Martar the Not-So-Smart", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 9, 87780, "", "=q3=Martar's Magnifying Glass", "=ds=#s14#"};
+				{ 11, 0, "inv_box_04", "=q6=Huggalon the Heart Watcher", "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 12, 90067, "", "=q3=B. F. F. Necklace", "=ds="};
+				{ 17, 0, "inv_box_04", "=q6=Alani", "=q2="..AtlasLoot:GetMapNameByID(811)};
+				{ 18, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e12#"};
+				{ 20, 0, "inv_box_04", "=q6=Sungraze Behemoth", "=q2="..AtlasLoot:GetMapNameByID(807)};
+				{ 21, 89682, "", "=q2=Oddly-Shaped Horn", "=ds=#e12#"};
+				{ 23, 0, "inv_box_04", "=q6=Zhing", "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 24, 89697, "", "=q2=Bag of Kafa Beans", "=ds=#e12#"};
+				{ 26, 0, "inv_box_04", "=q6=Pengsong", "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 27, 89770, "", "=q2=Tuft of Yak Fur", "=ds=#e12#"};
+
+			};
+		};
+		info = {
+			name = "Misc",
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		----------------------------
+		--- Clawlord Kril'mandar ---
+		----------------------------
+
+	AtlasLoot_Data["RaresMOPMobsClawlord"] = {
+		["Normal"] = {
+			{
+				{ 2, 0, "inv_box_04", "=q6=Clawlord Kril'mandar", "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 3, 90087, "", "=q3=Lobstmourne", "=ds=#h1#, #w13#"};
+				{ 5, 0, "inv_box_04", "=q6=Akkalou", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 6, 90166, "", "=q2=Akkalou's Clamshell", "=ds="};
+				{ 8, 0, "inv_box_04", "=q6=Akkalar", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 9, 90167, "", "=q2=Akkalar's Clamshell", "=ds="};
+				{ 11, 0, "inv_box_04", "=q6=Damlak", "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 12, 90169, "", "=q2=Damlak's Clamshell", "=ds="};
+				{ 18, 90172, "", "=q2=Clamshell Band", "=ds=#m27#"};
+				{ 20, 0, "inv_box_04", "=q6=Clamstok", "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 21, 90170, "", "=q2=Clamstok's Clamshell", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6=Kishak", "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 24, 90168, "", "=q2=Kishak's Clamshell", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6=Odd'nirok", "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 27, 90171, "", "=q2=Odd'nirok's Clamshell", "=ds="};
+			};
+		};
+		info = {
+			name = "Clawlord Kril'mandar",
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+	------------------
+	--- Rare Items ---
+	------------------
+
+		-----------------------
+		--- The Jade Forest ---
+		-----------------------
+
+	AtlasLoot_Data["RaresMOPItemsJadeForest"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Ancient Jinyu Staff", "=ds="};
+				{ 2, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
+				{ 4, 0, "inv_box_04", "=q6=Ancient Pandaren Mining Pick", "=ds="};
+				{ 5, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
+				{ 7, 0, "inv_box_04", "=q6=Hammer of Ten Thunders", "=ds="};
+				{ 8, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
+				{ 10, 0, "inv_box_04", "=q6=Jade Warrior Statue", "=ds="};
+				{ 11, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
+				{ 13, 0, "inv_box_04", "=q6=Wodin's Mantid Shanker", "=ds="};
+				{ 14, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(806),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		--------------------------------
+		--- Valley of the Four Winds ---
+		--------------------------------
+
+	AtlasLoot_Data["RaresMOPItemsValleyFourWinds"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Ghostly Pandaren Fisherman)", "=ds="};
+				{ 2, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Ghostly Pandaren Craftsman", "=ds="};
+				{ 5, 86079, "", "=q0=Ancient Pandaren Woodcutter", "=ds=#h3#, #w1#"};
+				{ 7, 0, "inv_box_04", "=q6=Staff of the Hidden Master", "=ds="};
+				{ 8, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
+				{ 16, 0, "inv_box_04", "=q6=Cache of Pilfered Goods", "=ds="};
+				{ 17, 86113, "", "=q3=Stolen Amulet of Might", "=ds=#s2#"};
+				{ 18, 86112, "", "=q3=Stolen Amulet of Wisdom", "=ds=#s2#"};
+				{ 19, 86111, "", "=q3=Stolen Necklace of Accuracy", "=ds=#s2#"};
+				{ 20, 86114, "", "=q3=Stolen Necklace of Fortitude", "=ds=#s2#"};
+				{ 21, 86110, "", "=q3=Stolen Necklace of Precision", "=ds=#s2#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(807),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		-----------------------
+		--- Krasarang Wilds ---
+		-----------------------
+
+	AtlasLoot_Data["RaresMOPItemsKrasarangWilds"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Pandaren Fishing Spear", "=ds="};
+				{ 2, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
+				{ 4, 0, "inv_box_04", "=q6=Barrel of Banana Infused Rum", "=ds="};
+				{ 5, 87266, "", "=q1=Recipe: Banana Infused Rum", "=ds=#p3#"};
+				{ 16, 0, "inv_box_04", "=q6=Equipment Locker", "=ds="};
+				{ 17, 86117, "", "=q3=Seafarer's Treads of Precision", "=ds=#s12#, #a1#"};
+				{ 18, 86118, "", "=q3=Seafaring Advisor's Slippers", "=ds=#s12#, #a1#"};
+				{ 19, 86119, "", "=q3=Seafarer's Boots of Meditation", "=ds=#s12#, #a2#"};
+				{ 20, 86115, "", "=q3=Swashbuckling Boots", "=ds=#s12#, #a2#"};
+				{ 21, 86116, "", "=q3=Agile Seafarer's Jackboots", "=ds=#s12#, #a3#"};
+				{ 22, 86120, "", "=q3=Seafaring Sabatons of Meditation", "=ds=#s12#, #a3#"};
+				{ 23, 86122, "", "=q3=Plankwalking Greaves", "=ds=#s12#, #a4#"};
+				{ 24, 86123, "", "=q3=Seafarer's Sturdy Boots", "=ds=#s12#, #a4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(857),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		----------------------
+		--- Kun-Lai Summit ---
+		----------------------
+
+	AtlasLoot_Data["RaresMOPItemsKunLaiSummit"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Hozen Warrior Spear", "=ds="};
+				{ 2, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
+				{ 4, 0, "inv_box_04", "=q6=Frozen Trail Packer", "=ds="};
+				{ 5, 86125, "", "=q3=Kafa Press", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6=Stash of Yaungol Weapons", "=ds="};
+				{ 8, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
+				{ 10, 0, "inv_box_04", "=q6=Tablet of Ren Yun", "=ds="};
+				{ 11, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
+				{ 16, 0, "inv_box_04", "=q6=Sprite's Cloth Chest", "=ds="};
+				{ 17, 86223, "", "=q3=Agile Sprite Cloak", "=ds=#s4#"};
+				{ 18, 86222, "", "=q3=Precise Sprite Cloak", "=ds=#s4#"};
+				{ 19, 86224, "", "=q3=Steadfast Sprite Cape", "=ds=#s4#"};
+				{ 20, 86225, "", "=q3=Strong Sprite Cloak", "=ds=#s4#"};
+				{ 21, 86221, "", "=q3=Wise Sprite Cloak", "=ds=#s4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(809),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		------------------------
+		--- Townlong Steppes ---
+		------------------------
+
+	AtlasLoot_Data["RaresMOPItemsTownlongSteppes"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Yaungol Fire Carrier", "=ds="};
+				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(810),
+			module = moduleName, menu = "RAREMENU",
+		};
+	}
+
+		--------------------
+		--- Dread Wastes ---
+		--------------------
+
+	AtlasLoot_Data["RaresMOPItemsDreadWastes"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_box_04", "=q6=Blade of the Poisoned Mind", "=ds="};
+				{ 2, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
+				{ 4, 0, "inv_box_04", "=q6=Blade of the Prime", "=ds="};
+				{ 5, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
+				{ 7, 0, "inv_box_04", "=q6=Bloodsoaked Chitin Fragment", "=ds="};
+				{ 8, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
+				{ 10, 0, "inv_box_04", "=q6=Dissector's Staff of Mutation", "=ds="};
+				{ 11, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
+				{ 13, 0, "inv_box_04", "=q6=Amber Encased Necklace", "=ds="};
+				{ 14, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
+				{ 16, 0, "inv_box_04", "=q6=Malik's Stalwart Spear", "=ds="};
+				{ 17, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
+				{ 19, 0, "inv_box_04", "=q6=Glinting Rapana Whelk", "=ds="};
+				{ 20, 86529, "", "=q3=Manipulator's Talisman", "=ds=#s14#"};
+				{ 22, 0, "inv_box_04", "=q6=Swarming Cleaver of Ka'roz", "=ds="};
+				{ 23, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
+				{ 25, 0, "inv_box_04", "=q6=Swarmkeeper's Medallion", "=ds="};
+				{ 26, 86526, "", "=q3=Swarmkeeper's Medallion", "=ds=#s2#"};
+				{ 28, 0, "inv_box_04", "=q6=Wind-Reaver's Dagger of Quick Strikes", "=ds="};
+				{ 29, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
+			};
+		};
+		info = {
+			name = AtlasLoot:GetMapNameByID(858),
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -5858,14 +6304,14 @@ c			};
 				{ 14, 71259, "", "=q1=Leyara's Locket", "=ds=#m4#: #QUESTID:29311#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Rare"]};
 				{ 17, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
-				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2=Ai-Li Skymirror, =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2="..AtlasLoot_IngameLocales["Ai-Li Skymirror"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
 				{ 19, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=q2="..AL["Burgy Blackheart"]..", =q1="..AtlasLoot:GetMapNameByID(615)};
-				{ 20, 86593, "", "=q3=Hozen Beach Ball", "=q2=Ik-Ik the Nimble, =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 20, 86593, "", "=q3=Hozen Beach Ball", "=q2="..AtlasLoot_IngameLocales["Ik-Ik the Nimble"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
 				{ 21, 88566, "", "=q3=Krastinov's Bag of Horrors", "=q2="..BabbleBoss["Doctor Theolen Krastinov"]..", =q1="..AtlasLoot:GetMapNameByID(763)};
-				{ 22, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2=Yorik Sharpeye, =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 22, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2="..AtlasLoot_IngameLocales["Yorik Sharpeye"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 23, 1973, "", "=q3=Orb of Deception", "=q2="..AL["World Drop"]};
 				{ 24, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
-				{ 25, 86573, "", "=q3=Shard of Archstone", "=q2=Havak, =q1="..AtlasLoot:GetMapNameByID(809)};
+				{ 25, 86573, "", "=q3=Shard of Archstone", "=q2="..AtlasLoot_IngameLocales["Havak"]..", =q1="..AtlasLoot:GetMapNameByID(809)};
 				{ 26, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
 			};
 			{
