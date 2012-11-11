@@ -370,7 +370,6 @@ if AL then
 	AL["Tier 13 Set"] = "等级13套装";
 	AL["Tier 14 Set"] = "等级14套装";
 	AL["TCG Items"] = "集换式卡牌物品";
-	AL["Rare Mobs"] = "稀有怪物";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";
@@ -795,7 +794,7 @@ if AL then
 	AL["Goblin Gumbo"] = "地精泡泡";
 
 	-- Fourth set
-	AL["March of the Legion"] = "燃烧军团的进攻";
+	AL["March of the Legion"] = "军团的远征";
 	AL["Kiting"] = "风筝";
 	AL["Robotic Homing Chicken"] = "机械自动导航小鸡";
 	AL["Paper Airplane"] = "纸飞机";
@@ -807,7 +806,7 @@ if AL then
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "赫墨尔老爹的老式宠物饼干";
 
 	-- Sixth set
-	AL["Hunt for Illidan"] = "追捕伊利丹";
+	AL["Hunt for Illidan"] = "猎杀伊利丹";
 	AL["The Footsteps of Illidan"] = "伊利丹的足迹";
 	AL["Disco Inferno!"] = "迪斯科地狱！";
 	AL["Ethereal Plunderer"] = "虚灵掠夺者";
@@ -864,10 +863,10 @@ if AL then
 	AL["Crown of Heaven"] = "苍穹之冠";
 
 	-- Eighteenth set
-	AL["Tomb of the Forgotten"] = "遗忘之墓";
+	AL["Tomb of the Forgotten"] = "被遗忘者的墓冢";
 
 	-- Nineteenth set
-	AL["War of the Ancients"] = "时空行者：上古之战";
+	AL["War of the Ancients"] = "时间行者：远古之战";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "旧 PvP 奖励";
@@ -1115,21 +1114,6 @@ if AL then
 	AL["Wyrmcult Provisioner"]  = "拜龙教补给者";
 	AL["Apothecary Hummel"] = "药剂师汉摩尔";
 	AL["Auntie Stormstout"] = "风暴烈酒大婶";
-	AL["Fixxul Lonelyheart"] = "菲克索尔·孤心";
-	AL["Lorbu Sadsummon"] = "罗布·悲鸣";
-	AL["Martar the Not-So-Smart"] = "马尔泰弱智";
-	AL["Huggalon the Heart Watcher"] = "观心者胡戈伦";
-	AL["Alani"] = "阿拉尼";
-	AL["Sungraze Behemoth"] = "阳痕巨兽";
-	AL["Zhing"] = "金尼";
-	AL["Pengsong"] = "蓬松毛";
-	AL["Clawlord Kril'mandar"] = "钳爪领主科里曼达";
-	AL["Akkalou"] = "阿卡洛";
-	AL["Akkalar"] = "阿卡拉";
-	AL["Damlak"] = "达姆拉克";
-	AL["Clamstok"] = "克莱斯托克";
-	AL["Kishak"] = "基沙克";
-	AL["Odd'nirok"] = "奥德尼洛克";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
@@ -1194,40 +1178,11 @@ if AL then
 	AL["Shellfish Trap"] = "贝壳陷阱";
 	AL["Fishing Pools"] = "钓鱼场所";
 	AL["Sack of Pet Supplies"] = "一袋宠物补给";
-	AL["Ancient Jinyu Staff"] ="远古锦鱼人法杖";
-	AL["Ancient Pandaren Mining Pick"] ="古代熊猫人矿镐";
-	AL["Hammer of Ten Thunders"] ="十雷之锤";
-	AL["Jade Warrior Statue"] ="青玉战士雕像";
-	AL["Wodin's Mantid Shanker"] ="武丁的螳螂刀";
-	AL["Ghostly Pandaren Fisherman"] = "幽灵熊猫人渔夫";
-	AL["Ghostly Pandaren Craftsman"] = "幽灵熊猫人木匠";
-	AL["Staff of the Hidden Master"] = "隐秘大师之杖";
-	AL["Cache of Pilfered Goods"] = "一箱被偷的货物";
-	AL["Pandaren Fishing Spear"] = "熊猫人鱼叉";
-	AL["Barrel of Banana Infused Rum"] = "一桶泡蕉朗姆酒";
-	AL["Equipment Locker"] = "装备箱";
-	AL["Hozen Warrior Spear"] = "猢狲战士长矛";
-	AL["Frozen Trail Packer"] = "冰封小径运货人";
-	AL["Stash of Yaungol Weapons"] = "野牛人武器箱";
-	AL["Tablet of Ren Yun"] = "云壬的石板";
-	AL["Sprite's Cloth Chest"] = "林精的衣箱";
-	AL["Yaungol Fire Carrier"] = "野牛人携火者";
-	AL["Blade of the Poisoned Mind"] = "毒心之刃";
-	AL["Blade of the Prime"] = "菁华之刃";
-	AL["Bloodsoaked Chitin Fragment"] = "浸血的甲壳碎片";
-	AL["Dissector's Staff of Mutation"] = "析象器的突变之杖";
-	AL["Amber Encased Necklace"] = "琥珀包裹的项链";
-	AL["Malik's Stalwart Spear"] = "玛里克的坚固长矛";
-	AL["Glinting Rapana Whelk"] = "拉帕纳微光海螺";
-	AL["Swarming Cleaver of Ka'roz"] = "卡诺兹的虫群砍刀";
-	AL["Swarmkeeper's Medallion"] = "虫群卫士奖章";
-	AL["Wind-Reaver's Dagger of Quick Strikes"] = "掠风者的迅击匕首";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
 	AL["Scroll of Resurrection"] = "复活卷轴";
 	AL["Recruit-A-Friend"] = "战友招募";
-	AL["Promotional"] = "促销";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 发生错误！";

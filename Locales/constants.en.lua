@@ -370,7 +370,6 @@ if AL then
 	AL["Tier 13 Set"] = true;
 	AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
-	AL["Rare Mobs"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = true;
@@ -615,7 +614,6 @@ if AL then
 	AL["Additional Heroic Loot"] = true;
 	AL["Heroic Mode"] = true;
 	AL["Normal Mode"] = true;
-	AL["Raid"] = true;
 	AL["Hard Mode"] = true;
 	AL["Bonus Loot"] = true;
 	AL["Arena Reward"] = true;
@@ -716,6 +714,9 @@ if AL then
 	AL["Achievement"] = true;
 	AL["Dungeon"] = true;
 	AL["Outdoor"] = true;
+	AL["Promotional"] = true;
+	AL["PvP"] = true;
+	AL["Raid"] = true;
 
 	-- Companions
 	AL["Achievement Companions"] = true;
@@ -750,6 +751,7 @@ if AL then
 	AL["Rare Mounts"] = true;
 	AL["Unobtainable Mounts"] = true;
 	AL["New Mounts"] = true;
+	AL["Mount Collecting"] = true;
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = true;
@@ -1115,21 +1117,6 @@ if AL then
 	AL["Wyrmcult Provisioner"] = true;
 	AL["Apothecary Hummel"] = true; --Will be removed soon once its added to BabbleBoss
 	AL["Auntie Stormstout"] = true;
-	AL["Fixxul Lonelyheart"] = true;
-	AL["Lorbu Sadsummon"] = true;
-	AL["Martar the Not-So-Smart"] = true;
-	AL["Huggalon the Heart Watcher"] = true;
-	AL["Alani"] = true;
-	AL["Sungraze Behemoth"] = true;
-	AL["Zhing"] = true;
-	AL["Pengsong"] = true;
-	AL["Clawlord Kril'mandar"] = true;
-	AL["Akkalou"] = true;
-	AL["Akkalar"] = true;
-	AL["Damlak"] = true;
-	AL["Clamstok"] = true;
-	AL["Kishak"] = true;
-	AL["Odd'nirok"] = true;
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
@@ -1194,40 +1181,11 @@ if AL then
 	AL["Shellfish Trap"] = true;
 	AL["Fishing Pools"] = true;
 	AL["Sack of Pet Supplies"] = true;
-	AL["Ancient Jinyu Staff"] = true;
-	AL["Ancient Pandaren Mining Pick"] = true;
-	AL["Hammer of Ten Thunders"] = true;
-	AL["Jade Warrior Statue"] = true;
-	AL["Wodin's Mantid Shanker"] = true;
-	AL["Ghostly Pandaren Fisherman"] = true;
-	AL["Ghostly Pandaren Craftsman"] = true;
-	AL["Staff of the Hidden Master"] = true;
-	AL["Cache of Pilfered Goods"] = true;
-	AL["Pandaren Fishing Spear"] = true;
-	AL["Barrel of Banana Infused Rum"] = true;
-	AL["Equipment Locker"] = true;
-	AL["Hozen Warrior Spear"] = true;
-	AL["Frozen Trail Packer"] = true;
-	AL["Stash of Yaungol Weapons"] = true;
-	AL["Tablet of Ren Yun"] = true;
-	AL["Sprite's Cloth Chest"] = true;
-	AL["Yaungol Fire Carrier"] = true;
-	AL["Blade of the Poisoned Mind"] = true;
-	AL["Blade of the Prime"] = true;
-	AL["Bloodsoaked Chitin Fragment"] = true;
-	AL["Dissector's Staff of Mutation"] = true;
-	AL["Amber Encased Necklace"] = true;
-	AL["Malik's Stalwart Spear"] = true;
-	AL["Glinting Rapana Whelk"] = true;
-	AL["Swarming Cleaver of Ka'roz"] = true;
-	AL["Swarmkeeper's Medallion"] = true;
-	AL["Wind-Reaver's Dagger of Quick Strikes"] = true;
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = true;
 	AL["Scroll of Resurrection"] = true;
 	AL["Recruit-A-Friend"] = true;
-	AL["Promotional"] = true;
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = true;

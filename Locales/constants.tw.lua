@@ -369,8 +369,7 @@ if AL then
 	AL["Tier 11/12 Set"] = "T11/T12 套裝";
 	AL["Tier 13 Set"] = "T13 套裝";
 	AL["Tier 14 Set"] = "T14 套裝";
-	AL["TCG Items"] = "卡片遊戲物品";
-	AL["Rare Mobs"] = "稀有怪物";
+	AL["TCG Items"] = "卡片遊戲物品"; -- Trading Card Game Items
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套裝";
@@ -1115,21 +1114,6 @@ if AL then
 	AL["Wyrmcult Provisioner"]  = "巨龍教團補給官";
 	AL["Apothecary Hummel"] = "藥劑師胡默爾";
 	AL["Auntie Stormstout"] = "風暴烈酒姑媽";
-	AL["Fixxul Lonelyheart"] = "費茲索·寂寞心";
-	AL["Lorbu Sadsummon"] = "羅布·哀召";
-	AL["Martar the Not-So-Smart"] = "不太聰明的瑪塔";
-	AL["Huggalon the Heart Watcher"] = "『心之看守者』夏佳隆";
-	AL["Alani"] = "阿拉尼";
-	AL["Sungraze Behemoth"] = "日牧巨獸";
-	AL["Zhing"] = "鎮山羊";
-	AL["Pengsong"] = "鵬宋";
-	AL["Clawlord Kril'mandar"] = "『鉗王』克里曼達";
-	AL["Akkalou"] = "阿卡露";
-	AL["Akkalar"] = "阿卡拉爾";
-	AL["Damlak"] = "丹拉克";
-	AL["Clamstok"] = "克蘭斯朵";
-	AL["Kishak"] = "基薩";
-	AL["Odd'nirok"] = "奧尼羅";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字軍試煉";
@@ -1194,40 +1178,11 @@ if AL then
 	AL["Shellfish Trap"] = "貝殼陷阱";
 	AL["Fishing Pools"] = "魚群";
 	AL["Sack of Pet Supplies"] = "一袋寵物補給品";
-	AL["Ancient Jinyu Staff"] ="古老錦魚人之杖";
-	AL["Ancient Pandaren Mining Pick"] ="古代熊貓人的採礦鎬";
-	AL["Hammer of Ten Thunders"] ="十方雷之錘";
-	AL["Jade Warrior Statue"] ="翠玉戰士雕像";
-	AL["Wodin's Mantid Shanker"] ="烏丁的螳螂凶器";
-	AL["Ghostly Pandaren Fisherman"] = "鬼影熊貓人漁夫";
-	AL["Ghostly Pandaren Craftsman"] = "鬼影熊貓人工匠";
-	AL["Staff of the Hidden Master"] = "神隱大師之杖";
-	AL["Cache of Pilfered Goods"] = "失竊貨物的貯藏箱";
-	AL["Pandaren Fishing Spear"] = "潘達利亞捕魚矛";
-	AL["Barrel of Banana Infused Rum"] = "香蕉蘭姆酒桶";
-	AL["Equipment Locker"] = "裝備藏寶箱";
-	AL["Hozen Warrior Spear"] = "猴人戰士之矛";
-	AL["Frozen Trail Packer"] = "冰霜小徑腳伕";
-	AL["Stash of Yaungol Weapons"] = "揚古武器架";
-	AL["Tablet of Ren Yun"] = "雲仁的石板";
-	AL["Sprite's Cloth Chest"] = "妖精的衣櫃";
-	AL["Yaungol Fire Carrier"] = "揚古火炬";
-	AL["Blade of the Poisoned Mind"] = "毒化心智之刃";
-	AL["Blade of the Prime"] = "至高者之刃";
-	AL["Bloodsoaked Chitin Fragment"] = "浸血甲殼碎片";
-	AL["Dissector's Staff of Mutation"] = "開膛手的異變法杖";
-	AL["Amber Encased Necklace"] = "琥珀包覆的項鍊";
-	AL["Malik's Stalwart Spear"] = "瑪力克的堅實長矛";
-	AL["Glinting Rapana Whelk"] = "閃爍的紅螺";
-	AL["Swarming Cleaver of Ka'roz"] = "卡羅茲的群劈斬斧";
-	AL["Swarmkeeper's Medallion"] = "蟲群守衛者勳章";
-	AL["Wind-Reaver's Dagger of Quick Strikes"] = "奪風者迅擊匕首";
 
 	-- Blizzard Promotions
 	AL["Annual Pass"] = "年卡";
 	AL["Scroll of Resurrection"] = "重返榮耀";
 	AL["Recruit-A-Friend"] = "號召好友";
-	AL["Promotional"] = "促銷";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "AtlasLoot 錯誤!";

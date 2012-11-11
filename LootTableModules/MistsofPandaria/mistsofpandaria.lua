@@ -2450,27 +2450,27 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsMisc"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6="..AL["Fixxul Lonelyheart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 2, 0, "inv_box_04", "=q6=Fixxul Lonelyheart", "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 3, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 5, 0, "inv_box_04", "=q6="..AL["Lorbu Sadsummon"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6=Lorbu Sadsummon", "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 6, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6="..AL["Martar the Not-So-Smart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6=Martar the Not-So-Smart", "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 9, 87780, "", "=q3=Martar's Magnifying Glass", "=ds=#s14#"};
-				{ 11, 0, "inv_box_04", "=q6="..AL["Huggalon the Heart Watcher"], "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 11, 0, "inv_box_04", "=q6=Huggalon the Heart Watcher", "=q2="..AtlasLoot:GetMapNameByID(810)};
 				{ 12, 90067, "", "=q3=B. F. F. Necklace", "=ds="};
-				{ 17, 0, "inv_box_04", "=q6="..AL["Alani"], "=q2="..AtlasLoot:GetMapNameByID(811)};
+				{ 17, 0, "inv_box_04", "=q6=Alani", "=q2="..AtlasLoot:GetMapNameByID(811)};
 				{ 18, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e12#"};
-				{ 20, 0, "inv_box_04", "=q6="..AL["Sungraze Behemoth"], "=q2="..AtlasLoot:GetMapNameByID(807)};
+				{ 20, 0, "inv_box_04", "=q6=Sungraze Behemoth", "=q2="..AtlasLoot:GetMapNameByID(807)};
 				{ 21, 89682, "", "=q2=Oddly-Shaped Horn", "=ds=#e12#"};
-				{ 23, 0, "inv_box_04", "=q6="..AL["Zhing"], "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6=Zhing", "=q2="..AtlasLoot:GetMapNameByID(809)};
 				{ 24, 89697, "", "=q2=Bag of Kafa Beans", "=ds=#e12#"};
-				{ 26, 0, "inv_box_04", "=q6="..AL["Pengsong"], "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 26, 0, "inv_box_04", "=q6=Pengsong", "=q2="..AtlasLoot:GetMapNameByID(858)};
 				{ 27, 89770, "", "=q2=Tuft of Yak Fur", "=ds=#e12#"};
 
 			};
 		};
 		info = {
-			name = AL["Misc"],
+			name = "Misc",
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -2482,25 +2482,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsClawlord"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6="..AL["Clawlord Kril'mandar"], "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 2, 0, "inv_box_04", "=q6=Clawlord Kril'mandar", "=q2="..AtlasLoot:GetMapNameByID(857)};
 				{ 3, 90087, "", "=q3=Lobstmourne", "=ds=#h1#, #w13#"};
-				{ 5, 0, "inv_box_04", "=q6="..AL["Akkalou"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6=Akkalou", "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 6, 90166, "", "=q2=Akkalou's Clamshell", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6="..AL["Akkalar"], "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6=Akkalar", "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 9, 90167, "", "=q2=Akkalar's Clamshell", "=ds="};
-				{ 11, 0, "inv_box_04", "=q6="..AL["Damlak"], "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 11, 0, "inv_box_04", "=q6=Damlak", "=q2="..AtlasLoot:GetMapNameByID(857)};
 				{ 12, 90169, "", "=q2=Damlak's Clamshell", "=ds="};
 				{ 18, 90172, "", "=q2=Clamshell Band", "=ds=#m27#"};
-				{ 20, 0, "inv_box_04", "=q6="..AL["Clamstok"], "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 20, 0, "inv_box_04", "=q6=Clamstok", "=q2="..AtlasLoot:GetMapNameByID(858)};
 				{ 21, 90170, "", "=q2=Clamstok's Clamshell", "=ds="};
-				{ 23, 0, "inv_box_04", "=q6="..AL["Kishak"], "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6=Kishak", "=q2="..AtlasLoot:GetMapNameByID(809)};
 				{ 24, 90168, "", "=q2=Kishak's Clamshell", "=ds="};
-				{ 26, 0, "inv_box_04", "=q6="..AL["Odd'nirok"], "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 26, 0, "inv_box_04", "=q6=Odd'nirok", "=q2="..AtlasLoot:GetMapNameByID(810)};
 				{ 27, 90171, "", "=q2=Odd'nirok's Clamshell", "=ds="};
 			};
 		};
 		info = {
-			name = AL["Clawlord Kril'mandar"],
+			name = "Clawlord Kril'mandar",
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -2516,15 +2516,15 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsJadeForest"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Ancient Jinyu Staff"], "=ds="};
+				{ 1, 0, "inv_box_04", "=q6=Ancient Jinyu Staff", "=ds="};
 				{ 2, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
-				{ 4, 0, "inv_box_04", "=q6="..AL["Ancient Pandaren Mining Pick"], "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Ancient Pandaren Mining Pick", "=ds="};
 				{ 5, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
-				{ 7, 0, "inv_box_04", "=q6="..AL["Hammer of Ten Thunders"], "=ds="};
+				{ 7, 0, "inv_box_04", "=q6=Hammer of Ten Thunders", "=ds="};
 				{ 8, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
-				{ 10, 0, "inv_box_04", "=q6="..AL["Jade Warrior Statue"], "=ds="};
+				{ 10, 0, "inv_box_04", "=q6=Jade Warrior Statue", "=ds="};
 				{ 11, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
-				{ 13, 0, "inv_box_04", "=q6="..AL["Wodin's Mantid Shanker"], "=ds="};
+				{ 13, 0, "inv_box_04", "=q6=Wodin's Mantid Shanker", "=ds="};
 				{ 14, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
 			};
 		};
@@ -2541,13 +2541,13 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsValleyFourWinds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Ghostly Pandaren Fisherman"], "=ds="};
+				{ 1, 0, "inv_box_04", "=q6=Ghostly Pandaren Fisherman)", "=ds="};
 				{ 2, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
-				{ 4, 0, "inv_box_04", "=q6="..AL["Ghostly Pandaren Craftsman"], "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Ghostly Pandaren Craftsman", "=ds="};
 				{ 5, 86079, "", "=q0=Ancient Pandaren Woodcutter", "=ds=#h3#, #w1#"};
-				{ 7, 0, "inv_box_04", "=q6="..AL["Staff of the Hidden Master"], "=ds="};
+				{ 7, 0, "inv_box_04", "=q6=Staff of the Hidden Master", "=ds="};
 				{ 8, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
-				{ 16, 0, "inv_box_04", "=q6="..AL["Cache of Pilfered Goods"], "=ds="};
+				{ 16, 0, "inv_box_04", "=q6=Cache of Pilfered Goods", "=ds="};
 				{ 17, 86113, "", "=q3=Stolen Amulet of Might", "=ds=#s2#"};
 				{ 18, 86112, "", "=q3=Stolen Amulet of Wisdom", "=ds=#s2#"};
 				{ 19, 86111, "", "=q3=Stolen Necklace of Accuracy", "=ds=#s2#"};
@@ -2568,11 +2568,11 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsKrasarangWilds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Pandaren Fishing Spear"], "=ds="};
+				{ 1, 0, "inv_box_04", "=q6=Pandaren Fishing Spear", "=ds="};
 				{ 2, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
-				{ 4, 0, "inv_box_04", "=q6="..AL["Barrel of Banana Infused Rum"], "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Barrel of Banana Infused Rum", "=ds="};
 				{ 5, 87266, "", "=q1=Recipe: Banana Infused Rum", "=ds=#p3#"};
-				{ 16, 0, "inv_box_04", "=q6="..AL["Equipment Locker"], "=ds="};
+				{ 16, 0, "inv_box_04", "=q6=Equipment Locker", "=ds="};
 				{ 17, 86117, "", "=q3=Seafarer's Treads of Precision", "=ds=#s12#, #a1#"};
 				{ 18, 86118, "", "=q3=Seafaring Advisor's Slippers", "=ds=#s12#, #a1#"};
 				{ 19, 86119, "", "=q3=Seafarer's Boots of Meditation", "=ds=#s12#, #a2#"};
@@ -2596,15 +2596,15 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsKunLaiSummit"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Hozen Warrior Spear"], "=ds="};
+				{ 1, 0, "inv_box_04", "=q6=Hozen Warrior Spear", "=ds="};
 				{ 2, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
-				{ 4, 0, "inv_box_04", "=q6="..AL["Frozen Trail Packer"], "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Frozen Trail Packer", "=ds="};
 				{ 5, 86125, "", "=q3=Kafa Press", "=ds="};
-				{ 7, 0, "inv_box_04", "=q6="..AL["Stash of Yaungol Weapons"], "=ds="};
+				{ 7, 0, "inv_box_04", "=q6=Stash of Yaungol Weapons", "=ds="};
 				{ 8, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
-				{ 10, 0, "inv_box_04", "=q6="..AL["Tablet of Ren Yun"], "=ds="};
+				{ 10, 0, "inv_box_04", "=q6=Tablet of Ren Yun", "=ds="};
 				{ 11, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
-				{ 16, 0, "inv_box_04", "=q6="..AL["Sprite's Cloth Chest"], "=ds="};
+				{ 16, 0, "inv_box_04", "=q6=Sprite's Cloth Chest", "=ds="};
 				{ 17, 86223, "", "=q3=Agile Sprite Cloak", "=ds=#s4#"};
 				{ 18, 86222, "", "=q3=Precise Sprite Cloak", "=ds=#s4#"};
 				{ 19, 86224, "", "=q3=Steadfast Sprite Cape", "=ds=#s4#"};
@@ -2625,7 +2625,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsTownlongSteppes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Yaungol Fire Carrier"], "=ds="};
+				{ 1, 0, "inv_box_04", "=q6=Yaungol Fire Carrier", "=ds="};
 				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
 			};
 		};
@@ -2642,25 +2642,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsDreadWastes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Blade of the Poisoned Mind"], "=ds="};
+				{ 1, 0, "inv_box_04", "=q6=Blade of the Poisoned Mind", "=ds="};
 				{ 2, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
-				{ 4, 0, "inv_box_04", "=q6="..AL["Blade of the Prime"], "=ds="};
+				{ 4, 0, "inv_box_04", "=q6=Blade of the Prime", "=ds="};
 				{ 5, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
-				{ 7, 0, "inv_box_04", "=q6="..AL["Bloodsoaked Chitin Fragment"], "=ds="};
+				{ 7, 0, "inv_box_04", "=q6=Bloodsoaked Chitin Fragment", "=ds="};
 				{ 8, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
-				{ 10, 0, "inv_box_04", "=q6="..AL["Dissector's Staff of Mutation"], "=ds="};
+				{ 10, 0, "inv_box_04", "=q6=Dissector's Staff of Mutation", "=ds="};
 				{ 11, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
-				{ 13, 0, "inv_box_04", "=q6="..AL["Amber Encased Necklace"], "=ds="};
+				{ 13, 0, "inv_box_04", "=q6=Amber Encased Necklace", "=ds="};
 				{ 14, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
-				{ 16, 0, "inv_box_04", "=q6="..AL["Malik's Stalwart Spear"], "=ds="};
+				{ 16, 0, "inv_box_04", "=q6=Malik's Stalwart Spear", "=ds="};
 				{ 17, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
-				{ 19, 0, "inv_box_04", "=q6="..AL["Glinting Rapana Whelk"], "=ds="};
+				{ 19, 0, "inv_box_04", "=q6=Glinting Rapana Whelk", "=ds="};
 				{ 20, 86529, "", "=q3=Manipulator's Talisman", "=ds=#s14#"};
-				{ 22, 0, "inv_box_04", "=q6="..AL["Swarming Cleaver of Ka'roz"], "=ds="};
+				{ 22, 0, "inv_box_04", "=q6=Swarming Cleaver of Ka'roz", "=ds="};
 				{ 23, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
-				{ 25, 0, "inv_box_04", "=q6="..AL["Swarmkeeper's Medallion"], "=ds="};
+				{ 25, 0, "inv_box_04", "=q6=Swarmkeeper's Medallion", "=ds="};
 				{ 26, 86526, "", "=q3=Swarmkeeper's Medallion", "=ds=#s2#"};
-				{ 28, 0, "inv_box_04", "=q6="..AL["Wind-Reaver's Dagger of Quick Strikes"], "=ds="};
+				{ 28, 0, "inv_box_04", "=q6=Wind-Reaver's Dagger of Quick Strikes", "=ds="};
 				{ 29, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
 			};
 		};
@@ -3816,7 +3816,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90065, "", "=q4=Branches of the Cycle", "=ds=#s3#, #a2#", ""};
 				{ 4, 90064, "", "=q4=Robes of the Cycle", "=ds=#s5#, #a2#", ""};
 				{ 5, 90066, "", "=q4=Bracers of the Cycle", "=ds=#s8#, #a2#", ""};
-				{ 6, 90061, "", "=q4=Gloves of the Cycle", "=ds=#s9#, #a2#", ""};				
+				{ 6, 90061, "", "=q4=Gloves of the Cycle", "=ds=#s9#, #a2#", ""};
 				{ 7, 90059, "", "=q4=Waistguard of the Cycle", "=ds=#s10#, #a2#", ""};
 				{ 8, 90063, "", "=q4=Leggings of the Cycle", "=ds=#s11#, #a2#", ""};
 				{ 9, 90060, "", "=q4=Sandals of the Cycle", "=ds=#s12#, #a2#", ""};
@@ -3836,7 +3836,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90074, "", "=q4=Shoulderguards of the Howling Beast", "=ds=#s3#, #a3#", ""};
 				{ 4, 90070, "", "=q4=Chestguard of the Howling Beast", "=ds=#s5#, #a3#", ""};
 				{ 5, 90075, "", "=q4=Wristwraps of the Howling Beast", "=ds=#s8#, #a3#", ""};
-				{ 6, 90071, "", "=q4=Grips of the Howling Beast", "=ds=#s9#, #a3#", ""};				
+				{ 6, 90071, "", "=q4=Grips of the Howling Beast", "=ds=#s9#, #a3#", ""};
 				{ 7, 90068, "", "=q4=Cinch of the Howling Beast", "=ds=#s10#, #a3#", ""};
 				{ 8, 90073, "", "=q4=Legguards of the Howling Beast", "=ds=#s11#, #a3#", ""};
 				{ 9, 90069, "", "=q4=Boots of the Howling Beast", "=ds=#s12#, #a3#", ""};
@@ -3856,7 +3856,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90085, "", "=q4=Spaulders of the Elemental Triad", "=ds=#s3#, #a1#", ""};
 				{ 4, 90084, "", "=q4=Robes of the Elemental Triad", "=ds=#s5#, #a1#", ""};
 				{ 5, 90086, "", "=q4=Bracers of the Elemental Triad", "=ds=#s8#, #a1#", ""};
-				{ 6, 90081, "", "=q4=Gloves of the Elemental Triad", "=ds=#s9#, #a1#", ""};				
+				{ 6, 90081, "", "=q4=Gloves of the Elemental Triad", "=ds=#s9#, #a1#", ""};
 				{ 7, 90079, "", "=q4=Girdle of the Elemental Triad", "=ds=#s10#, #a1#", ""};
 				{ 8, 90083, "", "=q4=Leggings of the Elemental Triad", "=ds=#s11#, #a1#", ""};
 				{ 9, 90080, "", "=q4=Boots of the Elemental Triad", "=ds=#s12#, #a1#", ""};
@@ -3876,7 +3876,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90094, "", "=q4=Shoulderguards of the Regal Lord", "=ds=#s3#, #a2#", ""};
 				{ 4, 90090, "", "=q4=Chestwrap of the Regal Lord", "=ds=#s5#, #a2#", ""};
 				{ 5, 90095, "", "=q4=Bracers of the Regal Lord", "=ds=#s8#, #a2#", ""};
-				{ 6, 90091, "", "=q4=Handwraps of the Regal Lord", "=ds=#s9#, #a2#", ""};				
+				{ 6, 90091, "", "=q4=Handwraps of the Regal Lord", "=ds=#s9#, #a2#", ""};
 				{ 7, 90088, "", "=q4=Greatbelt of the Regal Lord", "=ds=#s10#, #a2#", ""};
 				{ 8, 90093, "", "=q4=Legwraps of the Regal Lord", "=ds=#s11#, #a2#", ""};
 				{ 9, 90089, "", "=q4=Treads of the Regal Lord", "=ds=#s12#, #a2#", ""};
@@ -3896,7 +3896,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90102, "", "=q4=Shoulderplate of the Holy Warrior", "=ds=#s3#, #a4#", ""};
 				{ 4, 90098, "", "=q4=Chestplate of the Holy Warrior", "=ds=#s5#, #a4#", ""};
 				{ 5, 90103, "", "=q4=Wristguards of the Holy Warrior", "=ds=#s8#, #a4#", ""};
-				{ 6, 90099, "", "=q4=Gauntlets of the Holy Warrior", "=ds=#s9#, #a4#", ""};				
+				{ 6, 90099, "", "=q4=Gauntlets of the Holy Warrior", "=ds=#s9#, #a4#", ""};
 				{ 7, 90096, "", "=q4=Girdle of the Holy Warrior", "=ds=#s10#, #a4#", ""};
 				{ 8, 90101, "", "=q4=Legplates of the Holy Warrior", "=ds=#s11#, #a4#", ""};
 				{ 9, 90097, "", "=q4=Greatboots of the Holy Warrior", "=ds=#s12#, #a4#", ""};
@@ -3916,7 +3916,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90113, "", "=q4=Pauldrons of the Light", "=ds=#s3#, #a1#", ""};
 				{ 4, 90114, "", "=q4=Robes of the Light", "=ds=#s5#, #a1#", ""};
 				{ 5, 90112, "", "=q4=Bracers of the Light", "=ds=#s8#, #a1#", ""};
-				{ 6, 90115, "", "=q4=Hands of the Light", "=ds=#s9#, #a1#", ""};				
+				{ 6, 90115, "", "=q4=Hands of the Light", "=ds=#s9#, #a1#", ""};
 				{ 7, 90110, "", "=q4=Cord of the Light", "=ds=#s10#, #a1#", ""};
 				{ 8, 90117, "", "=q4=Leggings of the Light", "=ds=#s11#, #a1#", ""};
 				{ 9, 90111, "", "=q4=Steps of the Light", "=ds=#s12#, #a1#", ""};
@@ -3936,7 +3936,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90125, "", "=q4=Spaulders of the Silent Assassin", "=ds=#s3#, #a2#", ""};
 				{ 4, 90122, "", "=q4=Shadowwrap of the Silent Assassin", "=ds=#s5#, #a2#", ""};
 				{ 5, 90126, "", "=q4=Bracers of the Silent Assassin", "=ds=#s8#, #a2#", ""};
-				{ 6, 90123, "", "=q4=Gloves of the Silent Assassin", "=ds=#s9#, #a2#", ""};				
+				{ 6, 90123, "", "=q4=Gloves of the Silent Assassin", "=ds=#s9#, #a2#", ""};
 				{ 7, 90119, "", "=q4=Girdle of the Silent Assassin", "=ds=#s10#, #a2#", ""};
 				{ 8, 90124, "", "=q4=Leggings of the Silent Assassin", "=ds=#s11#, #a2#", ""};
 				{ 9, 90121, "", "=q4=Tabi of the Silent Assassin", "=ds=#s12#, #a2#", ""};
@@ -3956,7 +3956,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90134, "", "=q4=Windfury Spirit Guides", "=ds=#s3#, #a3#", ""};
 				{ 4, 90130, "", "=q4=Windfury Harness", "=ds=#s5#, #a3#", ""};
 				{ 5, 90127, "", "=q4=Windfury Bracers", "=ds=#s8#, #a3#", ""};
-				{ 6, 90131, "", "=q4=Windfury Crushers", "=ds=#s9#, #a3#", ""};				
+				{ 6, 90131, "", "=q4=Windfury Crushers", "=ds=#s9#, #a3#", ""};
 				{ 7, 90128, "", "=q4=Windfury Belt", "=ds=#s10#, #a3#", ""};
 				{ 8, 90133, "", "=q4=Windfury Legguards", "=ds=#s11#, #a3#", ""};
 				{ 9, 90129, "", "=q4=Windfury Sandals", "=ds=#s12#, #a3#", ""};
@@ -3976,7 +3976,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90138, "", "=q4=Amice of the Betrayer", "=ds=#s3#, #a1#", ""};
 				{ 4, 90140, "", "=q4=Robes of the Betrayer", "=ds=#s5#, #a1#", ""};
 				{ 5, 90139, "", "=q4=Bracers of the Betrayer", "=ds=#s8#, #a1#", ""};
-				{ 6, 90141, "", "=q4=Handguards of the Betrayer", "=ds=#s9#, #a1#", ""};				
+				{ 6, 90141, "", "=q4=Handguards of the Betrayer", "=ds=#s9#, #a1#", ""};
 				{ 7, 90136, "", "=q4=Belt of the Betrayer", "=ds=#s10#, #a1#", ""};
 				{ 8, 90143, "", "=q4=Leggings of the Betrayer", "=ds=#s11#, #a1#", ""};
 				{ 9, 90137, "", "=q4=Boots of the Betrayer", "=ds=#s12#, #a1#", ""};
@@ -3996,7 +3996,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 90153, "", "=q4=Mantle of the Golden King", "=ds=#s3#, #a4#", ""};
 				{ 4, 90149, "", "=q4=Chestplate of the Golden King", "=ds=#s5#, #a4#", ""};
 				{ 5, 90154, "", "=q4=Bracers of the Golden King", "=ds=#s8#, #a4#", ""};
-				{ 6, 90150, "", "=q4=Reach of the Golden King", "=ds=#s9#, #a4#", ""};				
+				{ 6, 90150, "", "=q4=Reach of the Golden King", "=ds=#s9#, #a4#", ""};
 				{ 7, 90147, "", "=q4=Girdle of the Golden King", "=ds=#s10#, #a4#", ""};
 				{ 8, 90152, "", "=q4=Greaves of the Golden King", "=ds=#s11#, #a4#", ""};
 				{ 9, 90148, "", "=q4=Greatboots of the Golden King", "=ds=#s12#, #a4#", ""};
@@ -5350,9 +5350,9 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 0, "", "=q3=Red Panda Cub", "=ds=#e13#", "#ACHIEVEMENTID:7906#"};
 				{ 23, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
 				{ 24, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
-				{ 26, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
+				{ 26, 0, "INV_Box_01", "=q6=Unknown", ""};
 				{ 27, 93025, "", "=q3=Clock'em", "=ds=#e13#" }; ---NEEDS TO BE CHECKED Brawler's Guild reputation maybe
-c			};
+			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
 				{ 2, 93040, "", "=q3=Anubisath Idol", "=ds=#e13#", "=q2="..BabbleBoss["Emperor Vek'lor"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
@@ -5658,38 +5658,38 @@ c			};
 				{ 8, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=3,000 #gold#"};
 				{ 9, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=3,000 #gold#"};
 				{ 11, 0, "INV_Box_01", "=q6="..BabbleFaction["Ramkahen"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(720)};
-				{ 12, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", ""};
-				{ 13, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", ""};
+				{ 12, 63044, "", "=q4=Reins of the Brown Riding Camel", "=ds=#e26#", "=ds=100 #gold#"};
+				{ 13, 63045, "", "=q4=Reins of the Tan Riding Camel", "=ds=#e26#", "=ds=100 #gold#"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["The Sons of Hodir"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(495)};
 				{
-					{ 17, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#"};
-					{ 17, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#"};
+					{ 17, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#", "=ds=1,000 #gold#"};
+					{ 17, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#", "=ds=1,000 #gold#"};
 				};
 				{
-					{ 18, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26#"};
-					{ 18, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26#"};
+					{ 18, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26#", "=ds=10,00 #gold#"};
+					{ 18, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26#", "=ds=10,00 #gold#"};
 				};
 				{ 20, 0, "INV_Box_01", "=q6="..BabbleFaction["The Wyrmrest Accord"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(488)};
-				{ 21, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#"};
+				{ 21, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#", "=ds=2,000 #gold#"};
 				{ 23, 0, "INV_Box_01", "=q6="..BabbleFaction["The Oracles"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(493)};
-				{ 24, 44707, "", "=q4=Reins of the Green Proto-Drake", "=q2="..AL["Mysterious Egg"], ""};
+				{ 24, 44707, "", "=q4=Reins of the Green Proto-Drake", "=ds=#e27#", "=q2="..AL["Mysterious Egg"], ""};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Netherwing"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(473)};
-				{ 2, 32858, "", "=q4=Reins of the Azure Netherwing Drake", "=ds=#e27#"};
-				{ 3, 32859, "", "=q4=Reins of the Cobalt Netherwing Drake", "=ds=#e27#"};
-				{ 4, 32857, "", "=q4=Reins of the Onyx Netherwing Drake", "=ds=#e27#"};
-				{ 5, 32860, "", "=q4=Reins of the Purple Netherwing Drake", "=ds=#e27#"};
-				{ 6, 32861, "", "=q4=Reins of the Veridian Netherwing Drake", "=ds=#e27#"};
-				{ 7, 32862, "", "=q4=Reins of the Violet Netherwing Drake", "=ds=#e27#"};
+				{ 2, 32858, "", "=q4=Reins of the Azure Netherwing Drake", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 3, 32859, "", "=q4=Reins of the Cobalt Netherwing Drake", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 4, 32857, "", "=q4=Reins of the Onyx Netherwing Drake", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 5, 32860, "", "=q4=Reins of the Purple Netherwing Drake", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 6, 32861, "", "=q4=Reins of the Veridian Netherwing Drake", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 7, 32862, "", "=q4=Reins of the Violet Netherwing Drake", "=ds=#e27#", "=ds=200 #gold#"};
 				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["Cenarion Expedition"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(467)};
-				{ 10, 33999, "", "=q4=Cenarion War Hippogryph", "=ds=#e27#"};
+				{ 10, 33999, "", "=q4=Cenarion War Hippogryph", "=ds=#e27#", "=ds=2,000 #gold#"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Sha'tari Skyguard"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(478)};
-				{ 17, 32319, "", "=q4=Blue Riding Nether Ray", "=ds=#e27#"};
-				{ 18, 32314, "", "=q4=Green Riding Nether Ray", "=ds=#e27#"};
-				{ 19, 32317, "", "=q4=Red Riding Nether Ray", "=ds=#e27#"};
-				{ 20, 32316, "", "=q4=Purple Riding Nether Ray", "=ds=#e27#"};
-				{ 21, 32318, "", "=q4=Silver Riding Nether Ray", "=ds=#e27#"};
+				{ 17, 32319, "", "=q4=Blue Riding Nether Ray", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 18, 32314, "", "=q4=Green Riding Nether Ray", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 19, 32317, "", "=q4=Red Riding Nether Ray", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 20, 32316, "", "=q4=Purple Riding Nether Ray", "=ds=#e27#", "=ds=200 #gold#"};
+				{ 21, 32318, "", "=q4=Silver Riding Nether Ray", "=ds=#e27#", "=ds=200 #gold#"};
 			};
 		};
 		info = {
@@ -5747,7 +5747,7 @@ c			};
 				{ 18, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
 				{ 19, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
 				{ 20, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
-				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..AL["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2=Alani, =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 22, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
 				{ 23, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
 				{ 24, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
@@ -5797,37 +5797,45 @@ c			};
 	AtlasLoot_Data["MountsAchievement"] = {
 		["Normal"] = {
 			{
-				{ 1, 44843, "", "=q4=Blue Dragonhawk", "#ACHIEVEMENTID:2536#, =ec1=#m7#"};
-				{ 2, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" },
-				{ 3, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon"], ""};
+				{ 2, 90710, "", "=q4=Reins of the Ashen Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 3, 87769, "", "=q4=Reins of the Crimson Cloud Serpent", "#ACHIEVEMENTID:6927#"};
+				{ 4, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 5, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 6, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 7, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 8, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["PvP"], ""};
+				{ 11, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
+				{ 12, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
+				{ 13, 70909, "", "=q4=Dreadful War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"};
+				{ 14, 70910, "", "=q4=Dreadful War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Raid"], ""};
+				{ 17, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" };
+				{ 18, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 19, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 20, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 21, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
+				{ 22, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 23, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 24, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 25, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Mount Collecting"], ""};
+				{ 2, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
+				{ 3, 44843, "", "=q4=Blue Dragonhawk", "#ACHIEVEMENTID:2536#, =ec1=#m7#"};
+				{ 4, 44842, "", "=q4=Red Dragonhawk", "#ACHIEVEMENTID:2537#, =ec1=#m6#"};
 				{
-					{ 4, 91802, "", "=q4=Jade Pandaren Kite String", "#ACHIEVEMENTID:7862#, =ec1=#m6#"};
-					{ 4, 91802, "", "=q4=Jade Pandaren Kite String", "#ACHIEVEMENTID:7860#, =ec1=#m7#"};
+					{ 5, 91802, "", "=q4=Jade Pandaren Kite String", "#ACHIEVEMENTID:7862#, =ec1=#m6#"};
+					{ 5, 91802, "", "=q4=Jade Pandaren Kite String", "#ACHIEVEMENTID:7860#, =ec1=#m7#"};
 				};
-				{ 5, 44842, "", "=q4=Red Dragonhawk", "#ACHIEVEMENTID:2537#, =ec1=#m6#"};
-				{ 6, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
-				{ 7, 90710, "", "=q4=Reins of the Ashen Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 8, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 9, 87769, "", "=q4=Reins of the Crimson Cloud Serpent", "#ACHIEVEMENTID:6927#"};
-				{ 10, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 11, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 12, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 13, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 14, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
-				{ 15, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 16, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 17, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
-				{ 18, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 19, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
-				{ 20, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
+				{ 17, 69213, "", "=q4=Flameward Hippogryph", "#ACHIEVEMENTID:5866#"};
+				{ 18, 89785, "", "=q4=Pandaren Kite String", "#ACHIEVEMENTID:6828#"};
+				{ 19, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
+				{ 20, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
 				{ 21, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2144#"};
-				{ 22, 62900, "", "=q4=Reins of the Volcanic Stone Drake", "#ACHIEVEMENTID:4845#"};
-				{ 24, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
-				{ 25, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
-				{ 26, 62298, "", "=q4=Reins of the Golden King", "#ACHIEVEMENTID:4912#, =ec1=#m7#"};
-				{ 27, 67107, "", "=q4=Reins of the Kor'kron Annihilator", "#ACHIEVEMENTID:5492#, =ec1=#m6#"};
-				{ 28, 70909, "", "=q4=Dreadful War Steed", "#ACHIEVEMENTID:5823#, =ec1=#m7#"},
-				{ 29, 70910, "", "=q4=Dreadful War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"},
 			};
 		};
 		info = {
@@ -6060,6 +6068,7 @@ c			};
 				{ 21, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
 				{ 22, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
 				{ 23, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
+				{ 24, 89785, "", "=q4=Pandaren Kite String", "#ACHIEVEMENTID:6828#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"]};
@@ -6070,7 +6079,7 @@ c			};
 				{ 8, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"]};
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
 				{ 10, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..AL["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2=Alani, =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 12, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
 				{ 14, 0, "INV_Box_01", "=q6="..AL["Quest Reward"]};
 				{ 15, 87768, "", "=q4=Reins of the Onyx Cloud Serpent", "=q1=#m4#: #QUESTID:31277#"};
@@ -6106,7 +6115,7 @@ c			};
 				};
 				{ 7, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 8, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Unknown"]};
+				{ 16, 0, "INV_Box_01", "=q6=Unknown"};
 				{ 17, 87776, "", "=q4=Reins of the Heavenly Azure Cloud Serpent", "=ds=#e27#", ""};
 				{ 18, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", ""};
 				{ 19, 87775, "", "=q4=Reins of the Heavenly Jade Cloud Serpent", "=ds=#e27#", ""};
