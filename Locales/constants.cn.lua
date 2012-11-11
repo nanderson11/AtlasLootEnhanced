@@ -558,6 +558,7 @@ if AL then
 	AL["Daily Reward"] = "日常奖励";
 	AL["No Longer Available"] = "已绝版";
 	AL["Shared Boss Loot"] = "首领共享掉落";
+	AL["Shared Zone Loot"] = "区域共享掉落";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "经典旧世";

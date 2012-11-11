@@ -557,7 +557,8 @@ if AL then
 	AL["Collector's Edition"] = "典藏版";
 	AL["Daily Reward"] = "每日獎勵";
 	AL["No Longer Available"] = "已不存在.";
-	AL["Shared Boss Loot"] = "共享首領掉落列表";
+	AL["Shared Boss Loot"] = "首領共享掉落";
+	AL["Shared Zone Loot"] = "區域共享掉落";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "原始的魔獸世界";
