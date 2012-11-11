@@ -2450,27 +2450,27 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsMisc"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6=Fixxul Lonelyheart", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 2, 0, "inv_box_04", "=q6="..AL["Fixxul Lonelyheart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 3, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 5, 0, "inv_box_04", "=q6=Lorbu Sadsummon", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6="..AL["Lorbu Sadsummon"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 6, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6=Martar the Not-So-Smart", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6="..AL["Martar the Not-So-Smart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 9, 87780, "", "=q3=Martar's Magnifying Glass", "=ds=#s14#"};
-				{ 11, 0, "inv_box_04", "=q6=Huggalon the Heart Watcher", "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 11, 0, "inv_box_04", "=q6="..AL["Huggalon the Heart Watcher"], "=q2="..AtlasLoot:GetMapNameByID(810)};
 				{ 12, 90067, "", "=q3=B. F. F. Necklace", "=ds="};
-				{ 17, 0, "inv_box_04", "=q6=Alani", "=q2="..AtlasLoot:GetMapNameByID(811)};
+				{ 17, 0, "inv_box_04", "=q6="..AL["Alani"], "=q2="..AtlasLoot:GetMapNameByID(811)};
 				{ 18, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e12#"};
-				{ 20, 0, "inv_box_04", "=q6=Sungraze Behemoth", "=q2="..AtlasLoot:GetMapNameByID(807)};
+				{ 20, 0, "inv_box_04", "=q6="..AL["Sungraze Behemoth"], "=q2="..AtlasLoot:GetMapNameByID(807)};
 				{ 21, 89682, "", "=q2=Oddly-Shaped Horn", "=ds=#e12#"};
-				{ 23, 0, "inv_box_04", "=q6=Zhing", "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6="..AL["Zhing"], "=q2="..AtlasLoot:GetMapNameByID(809)};
 				{ 24, 89697, "", "=q2=Bag of Kafa Beans", "=ds=#e12#"};
-				{ 26, 0, "inv_box_04", "=q6=Pengsong", "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 26, 0, "inv_box_04", "=q6="..AL["Pengsong"], "=q2="..AtlasLoot:GetMapNameByID(858)};
 				{ 27, 89770, "", "=q2=Tuft of Yak Fur", "=ds=#e12#"};
 
 			};
 		};
 		info = {
-			name = "Misc",
+			name = AL["Misc"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -2482,25 +2482,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsClawlord"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6=Clawlord Kril'mandar", "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 2, 0, "inv_box_04", "=q6="..AL["Clawlord Kril'mandar"], "=q2="..AtlasLoot:GetMapNameByID(857)};
 				{ 3, 90087, "", "=q3=Lobstmourne", "=ds=#h1#, #w13#"};
-				{ 5, 0, "inv_box_04", "=q6=Akkalou", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6="..AL["Akkalou"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 6, 90166, "", "=q2=Akkalou's Clamshell", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6=Akkalar", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6="..AL["Akkalar"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 9, 90167, "", "=q2=Akkalar's Clamshell", "=ds="};
-				{ 11, 0, "inv_box_04", "=q6=Damlak", "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 11, 0, "inv_box_04", "=q6="..AL["Damlak"], "=q2="..AtlasLoot:GetMapNameByID(857)};
 				{ 12, 90169, "", "=q2=Damlak's Clamshell", "=ds="};
 				{ 18, 90172, "", "=q2=Clamshell Band", "=ds=#m27#"};
-				{ 20, 0, "inv_box_04", "=q6=Clamstok", "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 20, 0, "inv_box_04", "=q6="..AL["Clamstok"], "=q2="..AtlasLoot:GetMapNameByID(858)};
 				{ 21, 90170, "", "=q2=Clamstok's Clamshell", "=ds="};
-				{ 23, 0, "inv_box_04", "=q6=Kishak", "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6="..AL["Kishak"], "=q2="..AtlasLoot:GetMapNameByID(809)};
 				{ 24, 90168, "", "=q2=Kishak's Clamshell", "=ds="};
-				{ 26, 0, "inv_box_04", "=q6=Odd'nirok", "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 26, 0, "inv_box_04", "=q6="..AL["Odd'nirok"], "=q2="..AtlasLoot:GetMapNameByID(810)};
 				{ 27, 90171, "", "=q2=Odd'nirok's Clamshell", "=ds="};
 			};
 		};
 		info = {
-			name = "Clawlord Kril'mandar",
+			name = AL["Clawlord Kril'mandar"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -2516,15 +2516,15 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsJadeForest"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Ancient Jinyu Staff", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AL["Ancient Jinyu Staff"], "=ds="};
 				{ 2, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
-				{ 4, 0, "inv_box_04", "=q6=Ancient Pandaren Mining Pick", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6="..AL["Ancient Pandaren Mining Pick"], "=ds="};
 				{ 5, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
-				{ 7, 0, "inv_box_04", "=q6=Hammer of Ten Thunders", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6="..AL["Hammer of Ten Thunders"], "=ds="};
 				{ 8, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
-				{ 10, 0, "inv_box_04", "=q6=Jade Warrior Statue", "=ds="};
+				{ 10, 0, "inv_box_04", "=q6="..AL["Jade Warrior Statue"], "=ds="};
 				{ 11, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
-				{ 13, 0, "inv_box_04", "=q6=Wodin's Mantid Shanker", "=ds="};
+				{ 13, 0, "inv_box_04", "=q6="..AL["Wodin's Mantid Shanker"], "=ds="};
 				{ 14, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
 			};
 		};
@@ -2541,13 +2541,13 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsValleyFourWinds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Ghostly Pandaren Fisherman)", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AL["Ghostly Pandaren Fisherman"], "=ds="};
 				{ 2, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
-				{ 4, 0, "inv_box_04", "=q6=Ghostly Pandaren Craftsman", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6="..AL["Ghostly Pandaren Craftsman"], "=ds="};
 				{ 5, 86079, "", "=q0=Ancient Pandaren Woodcutter", "=ds=#h3#, #w1#"};
-				{ 7, 0, "inv_box_04", "=q6=Staff of the Hidden Master", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6="..AL["Staff of the Hidden Master"], "=ds="};
 				{ 8, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
-				{ 16, 0, "inv_box_04", "=q6=Cache of Pilfered Goods", "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AL["Cache of Pilfered Goods"], "=ds="};
 				{ 17, 86113, "", "=q3=Stolen Amulet of Might", "=ds=#s2#"};
 				{ 18, 86112, "", "=q3=Stolen Amulet of Wisdom", "=ds=#s2#"};
 				{ 19, 86111, "", "=q3=Stolen Necklace of Accuracy", "=ds=#s2#"};
@@ -2568,11 +2568,11 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsKrasarangWilds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Pandaren Fishing Spear", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AL["Pandaren Fishing Spear"], "=ds="};
 				{ 2, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
-				{ 4, 0, "inv_box_04", "=q6=Barrel of Banana Infused Rum", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6="..AL["Barrel of Banana Infused Rum"], "=ds="};
 				{ 5, 87266, "", "=q1=Recipe: Banana Infused Rum", "=ds=#p3#"};
-				{ 16, 0, "inv_box_04", "=q6=Equipment Locker", "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AL["Equipment Locker"], "=ds="};
 				{ 17, 86117, "", "=q3=Seafarer's Treads of Precision", "=ds=#s12#, #a1#"};
 				{ 18, 86118, "", "=q3=Seafaring Advisor's Slippers", "=ds=#s12#, #a1#"};
 				{ 19, 86119, "", "=q3=Seafarer's Boots of Meditation", "=ds=#s12#, #a2#"};
@@ -2596,15 +2596,15 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsKunLaiSummit"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Hozen Warrior Spear", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AL["Hozen Warrior Spear"], "=ds="};
 				{ 2, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
-				{ 4, 0, "inv_box_04", "=q6=Frozen Trail Packer", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6="..AL["Frozen Trail Packer"], "=ds="};
 				{ 5, 86125, "", "=q3=Kafa Press", "=ds="};
-				{ 7, 0, "inv_box_04", "=q6=Stash of Yaungol Weapons", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6="..AL["Stash of Yaungol Weapons"], "=ds="};
 				{ 8, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
-				{ 10, 0, "inv_box_04", "=q6=Tablet of Ren Yun", "=ds="};
+				{ 10, 0, "inv_box_04", "=q6="..AL["Tablet of Ren Yun"], "=ds="};
 				{ 11, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
-				{ 16, 0, "inv_box_04", "=q6=Sprite's Cloth Chest", "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AL["Sprite's Cloth Chest"], "=ds="};
 				{ 17, 86223, "", "=q3=Agile Sprite Cloak", "=ds=#s4#"};
 				{ 18, 86222, "", "=q3=Precise Sprite Cloak", "=ds=#s4#"};
 				{ 19, 86224, "", "=q3=Steadfast Sprite Cape", "=ds=#s4#"};
@@ -2625,7 +2625,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsTownlongSteppes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Yaungol Fire Carrier", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AL["Yaungol Fire Carrier"], "=ds="};
 				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
 			};
 		};
@@ -2642,25 +2642,25 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPItemsDreadWastes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Blade of the Poisoned Mind", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AL["Blade of the Poisoned Mind"], "=ds="};
 				{ 2, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
-				{ 4, 0, "inv_box_04", "=q6=Blade of the Prime", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6="..AL["Blade of the Prime"], "=ds="};
 				{ 5, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
-				{ 7, 0, "inv_box_04", "=q6=Bloodsoaked Chitin Fragment", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6="..AL["Bloodsoaked Chitin Fragment"], "=ds="};
 				{ 8, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
-				{ 10, 0, "inv_box_04", "=q6=Dissector's Staff of Mutation", "=ds="};
+				{ 10, 0, "inv_box_04", "=q6="..AL["Dissector's Staff of Mutation"], "=ds="};
 				{ 11, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
-				{ 13, 0, "inv_box_04", "=q6=Amber Encased Necklace", "=ds="};
+				{ 13, 0, "inv_box_04", "=q6="..AL["Amber Encased Necklace"], "=ds="};
 				{ 14, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
-				{ 16, 0, "inv_box_04", "=q6=Malik's Stalwart Spear", "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AL["Malik's Stalwart Spear"], "=ds="};
 				{ 17, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
-				{ 19, 0, "inv_box_04", "=q6=Glinting Rapana Whelk", "=ds="};
+				{ 19, 0, "inv_box_04", "=q6="..AL["Glinting Rapana Whelk"], "=ds="};
 				{ 20, 86529, "", "=q3=Manipulator's Talisman", "=ds=#s14#"};
-				{ 22, 0, "inv_box_04", "=q6=Swarming Cleaver of Ka'roz", "=ds="};
+				{ 22, 0, "inv_box_04", "=q6="..AL["Swarming Cleaver of Ka'roz"], "=ds="};
 				{ 23, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
-				{ 25, 0, "inv_box_04", "=q6=Swarmkeeper's Medallion", "=ds="};
+				{ 25, 0, "inv_box_04", "=q6="..AL["Swarmkeeper's Medallion"], "=ds="};
 				{ 26, 86526, "", "=q3=Swarmkeeper's Medallion", "=ds=#s2#"};
-				{ 28, 0, "inv_box_04", "=q6=Wind-Reaver's Dagger of Quick Strikes", "=ds="};
+				{ 28, 0, "inv_box_04", "=q6="..AL["Wind-Reaver's Dagger of Quick Strikes"], "=ds="};
 				{ 29, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
 			};
 		};
@@ -3811,7 +3811,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeDruid"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "ability_druid_catform", "=q6=", "=q5="};
 				{ 2, 90062, "", "=q4=Hood of the Cycle", "=ds=#s1#, #a2#", ""};
 				{ 3, 90065, "", "=q4=Branches of the Cycle", "=ds=#s3#, #a2#", ""};
 				{ 4, 90064, "", "=q4=Robes of the Cycle", "=ds=#s5#, #a2#", ""};
@@ -3823,7 +3823,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Druid"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3831,7 +3831,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeHunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=", "=q5="};
 				{ 2, 90072, "", "=q4=Helm of the Howling Beast", "=ds=#s1#, #a3#", ""};
 				{ 3, 90074, "", "=q4=Shoulderguards of the Howling Beast", "=ds=#s3#, #a3#", ""};
 				{ 4, 90070, "", "=q4=Chestguard of the Howling Beast", "=ds=#s5#, #a3#", ""};
@@ -3843,7 +3843,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Hunter"],
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3851,7 +3851,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeMage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "inv_staff_13", "=q6=", "=q5="};
 				{ 2, 90082, "", "=q4=Hood of the Elemental Triad", "=ds=#s1#, #a1#", ""};
 				{ 3, 90085, "", "=q4=Spaulders of the Elemental Triad", "=ds=#s3#, #a1#", ""};
 				{ 4, 90084, "", "=q4=Robes of the Elemental Triad", "=ds=#s5#, #a1#", ""};
@@ -3863,7 +3863,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Mage"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3871,7 +3871,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeMonk"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6=", "=q5="};
 				{ 2, 90092, "", "=q4=Crown of the Regal Lord", "=ds=#s1#, #a2#", ""};
 				{ 3, 90094, "", "=q4=Shoulderguards of the Regal Lord", "=ds=#s3#, #a2#", ""};
 				{ 4, 90090, "", "=q4=Chestwrap of the Regal Lord", "=ds=#s5#, #a2#", ""};
@@ -3883,7 +3883,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Monk"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3891,7 +3891,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModePaladin"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=", "=q5="};
 				{ 2, 90100, "", "=q4=Greathelm of the Holy Warrior", "=ds=#s1#, #a4#", ""};
 				{ 3, 90102, "", "=q4=Shoulderplate of the Holy Warrior", "=ds=#s3#, #a4#", ""};
 				{ 4, 90098, "", "=q4=Chestplate of the Holy Warrior", "=ds=#s5#, #a4#", ""};
@@ -3903,7 +3903,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Paladin"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3911,7 +3911,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModePriest"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=", "=q5="};
 				{ 2, 90116, "", "=q4=Cowl of the Light", "=ds=#s1#, #a1#", ""};
 				{ 3, 90113, "", "=q4=Pauldrons of the Light", "=ds=#s3#, #a1#", ""};
 				{ 4, 90114, "", "=q4=Robes of the Light", "=ds=#s5#, #a1#", ""};
@@ -3923,7 +3923,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Priest"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3931,7 +3931,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeRogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "inv_throwingknife_04", "=q6=", "=q5="};
 				{ 2, 90120, "", "=q4=Hood of the Silent Assassin", "=ds=#s1#, #a2#", ""};
 				{ 3, 90125, "", "=q4=Spaulders of the Silent Assassin", "=ds=#s3#, #a2#", ""};
 				{ 4, 90122, "", "=q4=Shadowwrap of the Silent Assassin", "=ds=#s5#, #a2#", ""};
@@ -3943,7 +3943,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Rogue"],
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3951,7 +3951,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeShaman"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=", "=q5="};
 				{ 2, 90132, "", "=q4=Windfury Mask", "=ds=#s1#, #a3#", ""};
 				{ 3, 90134, "", "=q4=Windfury Spirit Guides", "=ds=#s3#, #a3#", ""};
 				{ 4, 90130, "", "=q4=Windfury Harness", "=ds=#s5#, #a3#", ""};
@@ -3963,7 +3963,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Shaman"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3971,7 +3971,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeWarlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "spell_nature_drowsy", "=q6=", "=q5="};
 				{ 2, 90142, "", "=q4=Horns of the Betrayer", "=ds=#s1#, #a1#", ""};
 				{ 3, 90138, "", "=q4=Amice of the Betrayer", "=ds=#s3#, #a1#", ""};
 				{ 4, 90140, "", "=q4=Robes of the Betrayer", "=ds=#s5#, #a1#", ""};
@@ -3983,7 +3983,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Warlock"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -3991,7 +3991,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeWarrior"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=", "=q5="};
 				{ 2, 90151, "", "=q4=Crown of the Golden King", "=ds=#s1#, #a4#", ""};
 				{ 3, 90153, "", "=q4=Mantle of the Golden King", "=ds=#s3#, #a4#", ""};
 				{ 4, 90149, "", "=q4=Chestplate of the Golden King", "=ds=#s5#, #a4#", ""};
@@ -4003,7 +4003,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["Warrior"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
 			module = moduleName, menu = "CHALLENGEMODESET",
 		};
 	}
@@ -5350,7 +5350,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 0, "", "=q3=Red Panda Cub", "=ds=#e13#", "#ACHIEVEMENTID:7906#"};
 				{ 23, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
 				{ 24, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
-				{ 26, 0, "INV_Box_01", "=q6=Unknown", ""};
+				{ 26, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
 				{ 27, 93025, "", "=q3=Clock'em", "=ds=#e13#" }; ---NEEDS TO BE CHECKED Brawler's Guild reputation maybe
 c			};
 			{
@@ -5747,7 +5747,7 @@ c			};
 				{ 18, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
 				{ 19, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
 				{ 20, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
-				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2=Alani, =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..AL["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 22, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
 				{ 23, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
 				{ 24, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
@@ -6070,7 +6070,7 @@ c			};
 				{ 8, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"]};
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
 				{ 10, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2=Alani, =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..AL["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 12, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
 				{ 14, 0, "INV_Box_01", "=q6="..AL["Quest Reward"]};
 				{ 15, 87768, "", "=q4=Reins of the Onyx Cloud Serpent", "=q1=#m4#: #QUESTID:31277#"};
@@ -6106,7 +6106,7 @@ c			};
 				};
 				{ 7, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 8, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
-				{ 16, 0, "INV_Box_01", "=q6=Unknown"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Unknown"]};
 				{ 17, 87776, "", "=q4=Reins of the Heavenly Azure Cloud Serpent", "=ds=#e27#", ""};
 				{ 18, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", ""};
 				{ 19, 87775, "", "=q4=Reins of the Heavenly Jade Cloud Serpent", "=ds=#e27#", ""};
@@ -6326,7 +6326,7 @@ c			};
 				{ 9, 69775, "", "=q3=Vrykul Drinking Horn", "=ds=#p25#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Item"]};
 				{ 17, 49704, "", "=q4=Carved Ogre Idol", "=ds="..AL["UDE Items"]..", =ds="..AL["No Longer Available"]};
-				{ 19, 0, "INV_Box_01", "=q6=Promotional"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Promotional"]};
 				{ 20, 33079, "", "=q3=Murloc Costume", "#ACHIEVEMENTID:412#"};
 				{ 22, 0, "INV_Box_01", "=q6="..AL["World Events"]};
 				{ 23, 17712, "", "=q1=Winter Veil Disguise Kit", "=ds="..AL["Feast of Winter Veil"]};
