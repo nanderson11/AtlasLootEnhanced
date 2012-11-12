@@ -612,7 +612,6 @@ if AL then
 	AL["Additional Heroic Loot"] = "Loot héroïque additionnel";
 	AL["Heroic Mode"] = "Mode héroïque";
 	AL["Normal Mode"] = "Mode normal";
-	--AL["Raid"] = true;
 	AL["Hard Mode"] = "Mode difficile";
 	AL["Bonus Loot"] = "Bonus de loot";
 	AL["Arena Reward"] = "Récompense d'arène";
@@ -713,6 +712,9 @@ if AL then
 	AL["Achievement"] = "Haut fait";
 	AL["Dungeon"] = "Donjon";
 	AL["Outdoor"] = "Plein air";
+	AL["Promotional"] = "Promotionnel";
+	AL["PvP"] = "JcJ";
+	--AL["Raid"] = true;
 
 	-- Companions
 	AL["Achievement Companions"] = "Mascottes des hauts faits";
@@ -747,6 +749,7 @@ if AL then
 	AL["Rare Mounts"] = "Montures rares";
 	AL["Unobtainable Mounts"] = "Montures impossibles à obtenir";
 	AL["New Mounts"] = "Nouvelles montures";
+	AL["Mount Collecting"] = "Collection de monture";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "Tabards des hauts faits & récompenses de quêtes";
