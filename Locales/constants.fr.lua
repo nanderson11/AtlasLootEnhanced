@@ -1,6 +1,6 @@
 ﻿-- $Id$
 --[[
-constants.fr.lua --- Traduction frFR par TrAsHeR (Tchoupie @ Nerz'hul-EU). Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
+constants.fr.lua --- Traduction frFR par TrAsHeR (Tchoupie @ Ysondre-EU). Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
@@ -555,7 +555,8 @@ if AL then
 	AL["Collector's Edition"] = "Edition Collector";
 	AL["Daily Reward"] = "Récompense journalière";
 	AL["No Longer Available"] = "N'est plus disponible";
-	AL["Shared Boss Loot"] = "Loots partager sur les boss";
+	AL["Shared Boss Loot"] = "Objets partager sur les boss";
+	--AL["Shared Zone Loot"] = "Objets des différentes zone"; -- à traduire
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "WoW classique";
