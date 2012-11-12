@@ -9,6 +9,27 @@ AtlasLoot_BossTooltipMatch = {}
 -------------------------------------------------------------------
 
 -----------------------
+-- Mists Raids
+-----------------------
+AtlasLoot_BossTooltipMatch[59915]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
+AtlasLoot_BossTooltipMatch[60043]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
+AtlasLoot_BossTooltipMatch[60047]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
+AtlasLoot_BossTooltipMatch[60051]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
+AtlasLoot_BossTooltipMatch[60701]					= AtlasLoot:EJ_GetBossName("The Spirit Kings", 687)
+AtlasLoot_BossTooltipMatch[60708]					= AtlasLoot:EJ_GetBossName("The Spirit Kings", 687)
+AtlasLoot_BossTooltipMatch[60709]					= AtlasLoot:EJ_GetBossName("The Spirit Kings", 687)
+AtlasLoot_BossTooltipMatch[60710]					= AtlasLoot:EJ_GetBossName("The Spirit Kings", 687)
+AtlasLoot_BossTooltipMatch[60399]					= AtlasLoot:EJ_GetBossName("Will of the Emperor", 677)
+AtlasLoot_BossTooltipMatch[60400]					= AtlasLoot:EJ_GetBossName("Will of the Emperor", 677)
+
+-----------------------
+-- Mists Dungeons
+-----------------------
+AtlasLoot_BossTooltipMatch[59051]					= AtlasLoot:EJ_GetBossName("Lorewalker Stonestep", 664)
+AtlasLoot_BossTooltipMatch[59726]					= AtlasLoot:EJ_GetBossName("Lorewalker Stonestep", 664)
+AtlasLoot_BossTooltipMatch[60040]					= AtlasLoot:EJ_GetBossName("High Inquisitor Whitemane", 674)
+
+-----------------------
 -- Cataclysm Raids
 -----------------------
 AtlasLoot_BossTooltipMatch[53494]					= AtlasLoot:EJ_GetBossName("Baleroc, the Gatekeeper", 196)
@@ -102,6 +123,15 @@ AtlasLoot_BossTooltipMatch[15511]					= BabbleBoss["The Bug Family"]
 ---------------------------------------------------------------
 -- These matches uses Object Names and need to be translated
 ---------------------------------------------------------------
+
+-----------------------
+-- Mists Dungeons
+-----------------------
+AtlasLoot_BossTooltipMatch["Legacy of the Clan Leaders"]	= AtlasLoot:EJ_GetBossName("Trial of the King", 708)
+AtlasLoot_BossTooltipMatch["Snowdrift's Possessions"]		= AtlasLoot:EJ_GetBossName("Master Snowdrift", 657)
+AtlasLoot_BossTooltipMatch["Taran Zhu's Personal Stash"]	= AtlasLoot:EJ_GetBossName("Taran Zhu", 686)
+AtlasLoot_BossTooltipMatch["Instructor Chillheart's Phylactery"]= AtlasLoot:EJ_GetBossName("Instructor Chillheart", 659)
+AtlasLoot_BossTooltipMatch["Coffer of Forgotten Souls"]		= AtlasLoot:EJ_GetBossName("Lilian Voss", 666)
 
 -----------------------
 -- Cataclysm Raids
