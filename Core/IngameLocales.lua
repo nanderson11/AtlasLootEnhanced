@@ -112,4 +112,53 @@ AtlasLoot_IngameLocales = {
 	["Urobi the Walker"] = GetAchievementCriteriaInfo(7439,36),
 	["Yorik Sharpeye"] = GetAchievementCriteriaInfo(7439,56),
 	["Yul Wildpaw"] = GetAchievementCriteriaInfo(7439,40),
+
+	--- Other Rares
+	["Darkmoon Rabbit"] = GetItemInfo(80008),
+
+	--- Items
+	----- These need to be converted to instead of those in constant files one.
+	----- If an entry isn't in use anymore, delete it.
+	----- Once this has been done, delete these lines.
+	
+	---- Feast of Winter Veil
+	["Carefully Wrapped Present"] = GetItemInfo(21191),
+	["Gaily Wrapped Present"] = GetItemInfo(21310),
+	["Gently Shaken Gift"] = GetItemInfo(21271),
+	["Festive Gift"] = GetItemInfo(21363),
+	["Smokywood Pastures Extra-Special Gift"] = GetItemInfo(21216),
+	["Stolen Present"] = GetItemInfo(93626),
+	["Ticking Present"] = GetItemInfo(21327),
+	["Winter Veil Gift"] = GetItemInfo(70938),
+	---- Hallow's End
+	["Handful of Treats"] = GetItemInfo(37586),
+	["Treat Bag"] = GetItemInfo(20393),
+	---- Love is in the Air
+	["Bag of Heart Candies"] = GetItemInfo(21813),
+	["Box of Chocolates"] = GetItemInfo(49909),
+	["Dinner Suit Box"] = GetItemInfo(50161),
+	["Lovely Dress Box"] = GetItemInfo(50160),
+	---- Lunar Festival
+	["Lucky Red Envelope"] = GetItemInfo(21746),
+	---- Noblegarden
+	["Brightly Colored Egg"] = GetItemInfo(45072),
+	---- Related to Mounts and Pets
+	["Cracked Egg"] = GetItemInfo(39883),
+	["Hidden Stash"] = GetItemInfo(61387),
+	["Hyldnir Spoils"] = GetItemInfo(44751),
+	["Mysterious Egg"] = GetItemInfo(39878),
+	["Ominous Seed"] = GetItemInfo(85219),
+	["Oozing Bag"] = GetItemInfo(20768),
+	["Ripe Disgusting Jar"] = GetItemInfo(44718),
+	["Sack of Pet Supplies"] = GetItemInfo(89125),
+	---- Related to Professions
+	["Small Spice Bag"] = GetItemInfo(44113),
+	["Stendel's Bane"] = GetItemInfo(68795),
+	["Treasures of the Vale"] = GetItemInfo(90625),
+	---- Other Items
+	["Fathom Core"] = GetItemInfo(16762),
+	["Felvine Shard"] = GetItemInfo(18501),
+	["Lorgalis Manuscript"] = GetItemInfo(5359),
+	["Overcharged Manacell"] = GetItemInfo(30824),
+	["The Saga of Terokk"] = GetItemInfo(27634),
 }
