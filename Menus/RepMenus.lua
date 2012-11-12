@@ -104,14 +104,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 5, "KnightsoftheEbonBlade", "achievement_reputation_knightsoftheebonblade", "=ds="..BabbleFaction["Knights of the Ebon Blade"], "=q5="..BabbleZone["Zul'Drak"].." / "..BabbleZone["Icecrown"]};
 				{ 6, "TheOracles", "inv_misc_head_murloc_01", "=ds="..BabbleFaction["The Oracles"], "=q5="..BabbleZone["Sholazar Basin"]};
 				{ 7, "TheSonsofHodir", "Spell_Holy_DivinePurpose", "=ds="..BabbleFaction["The Sons of Hodir"], "=q5="..BabbleZone["The Storm Peaks"]};
-				{ 8, "ArgentTournamentFaction", "inv_misc_tabardpvp_01", "=ds="..BabbleFaction["The Silver Covenant"], "=q5="..BabbleZone["Icecrown"].." / "..BabbleZone["Dalaran"]};
+				{ 8, "ExplorersLeagueWarsongOffensive", "inv_drink_01", "=ds="..BabbleFaction["Explorers' League"], "=q5="..BabbleZone["The Storm Peaks"]};
+				{ 9, "ArgentTournamentFaction", "inv_misc_tabardpvp_01", "=ds="..BabbleFaction["The Silver Covenant"], "=q5="..BabbleZone["Icecrown"].." / "..BabbleZone["Dalaran"]};
 				{ 17, "HordeExpedition", "spell_misc_hellifrepvpthrallmarfavor", "=ds="..BabbleFaction["Horde Expedition"], "=q5="..BabbleFaction["Horde"]};
 				{ 18, "TheKaluak", "achievement_reputation_tuskarr", "=ds="..BabbleFaction["The Kalu'ak"], "" };
 				{ 19, "KirinTor", "achievement_reputation_kirintor", "=ds="..BabbleFaction["Kirin Tor"], "=q5="..BabbleZone["Borean Tundra"].." / "..BabbleZone["Dalaran"]};
 				{ 20, "ArgentCrusade", "INV_Jewelry_Talisman_08", "=ds="..BabbleFaction["Argent Crusade"], "=q5="..BabbleZone["Zul'Drak"].." / "..BabbleZone["Icecrown"]};
 				{ 21, "FrenzyheartTribe", "ability_mount_whitedirewolf", "=ds="..BabbleFaction["Frenzyheart Tribe"], "=q5="..BabbleZone["Sholazar Basin"]};
 				{ 22, "TheAshenVerdict", "INV_Jewelry_Ring_85", "=ds="..BabbleFaction["The Ashen Verdict"], "=q5="..BabbleZone["Icecrown"]};
-				{ 23, "ArgentTournamentFaction", "inv_misc_tabardpvp_02", "=ds="..BabbleFaction["The Sunreavers"], "=q5="..BabbleZone["Icecrown"].." / "..BabbleZone["Dalaran"]};
+				{ 23, "ExplorersLeagueWarsongOffensive", "inv_drink_01", "=ds="..BabbleFaction["Warsong Offensive"], "=q5="..BabbleZone["The Storm Peaks"]};
+				{ 24, "ArgentTournamentFaction", "inv_misc_tabardpvp_02", "=ds="..BabbleFaction["The Sunreavers"], "=q5="..BabbleZone["Icecrown"].." / "..BabbleZone["Dalaran"]};
 			};
 		};
 		info = {

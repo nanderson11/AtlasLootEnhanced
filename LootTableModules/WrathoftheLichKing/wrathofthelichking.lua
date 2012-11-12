@@ -49,6 +49,7 @@ local moduleName = "AtlasLootWotLK"
 ---- Alliance Vanguard
 ---- Argent Crusade
 ---- Argent Tournament Factions
+---- Explorers' League / Warsong Offensive
 ---- Frenzyheart Tribe
 ---- Horde Expedition
 ---- Kirin Tor
@@ -7441,6 +7442,26 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["Argent Tournament"].." - "..BabbleZone["Icecrown"],
+			module = moduleName, menu = "REPMENU_WOTLK",
+		};
+	}
+
+		---------------------------------------------
+		--- Explorers' League / Warsong Offensive ---
+		---------------------------------------------
+
+	AtlasLoot_Data["ExplorersLeagueWarsongOffensive"] = {
+		["Normal"] = {
+			{
+				{ 2, 43462, "", "=q1=Airy Pale Ale", "=ds=#e18#", "#RELICULDUAR:10#"};
+				{ 3, 43473, "", "=q1=Drakefire Chile Ale", "=ds=#e18#", "#RELICULDUAR:2#"};
+				{ 4, 43499, "", "=q1=Iron Boot Flask", "=ds=#e25#", "#RELICULDUAR:10#"};
+				{ 5, 43472, "", "=q1=Snowfall Lager", "=ds=#e18#", "#RELICULDUAR:2#"};
+				{ 6, 43470, "", "=q1=Worg Tooth Oatmeal Stout", "=ds=#e18#", "#RELICULDUAR:10#"};
+			};
+		};
+		info = {
+			name = BabbleFaction["Explorers' League"].." / "..BabbleFaction["Warsong Offensive"],
 			module = moduleName, menu = "REPMENU_WOTLK",
 		};
 	}
