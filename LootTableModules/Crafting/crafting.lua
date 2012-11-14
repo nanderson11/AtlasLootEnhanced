@@ -3772,13 +3772,13 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, "", "34861", "=q1=Sharpened Fish Hook", "=ds=#sr# 100", "=ds="..AL["Fishing Daily Reward"]};
 				{ 7, "", "6532", "=q1=Bright Baubles", "=ds=#sr# 100", "=ds="..AL["Vendor"].." / "..AL["World Drop"]};
 				{ 8, "", "7307", "=q1=Flesh Eating Worm", "=ds=#sr# 100", "=ds="..AL["Drop"]..": "..AL["Rotted One"]};
-				{ 9, "", "6811", "=q1=Aquadynamic Fish Lens", "=ds=#sr# 50", "=ds="..AL["Drop"]..": "..AL["Stendel's Bane"]};
+				{ 9, "", "6811", "=q1=Aquadynamic Fish Lens", "=ds=#sr# 50", "=ds="..AL["Drop"]..": "..AtlasLoot_IngameLocales["Stendel's Bane"]};
 				{ 10, "", "6530", "=q1=Nightcrawlers", "=ds=#sr# 50", "=ds="..AL["Vendor"].." / "..AL["World Drop"]};
 				{ 11, "", "6529", "=q1=Shiny Bauble", "=ds=#sr# 0", "=ds="..AL["Vendor"]};
 				{ 12, "", "67404", "=q1=Glass Fishing Bobber", "=ds=#sr# 0", "=ds="..AL["Fishing Daily Reward"]};
 				{ 17, "", "19971", "=q1=High Test Eternium Fishing Line", "=ds=#sr# 150", "=ds="..AL["Stranglethorn Fishing Extravaganza"].." #m4#: #QUESTID:8224#"};
 				{ 18, "", "34836", "=q2=Spun Truesilver Fishing Line", "=ds=#sr# 300", "=ds="..AL["Fishing Daily Reward"]};
-				{ 19, "", "68796", "=q1=Reinforced Fishing Line", "=ds=#sr# 0", "=ds="..AL["Drop"]..": "..AL["Stendel's Bane"]};
+				{ 19, "", "68796", "=q1=Reinforced Fishing Line", "=ds=#sr# 0", "=ds="..AL["Drop"]..": "..AtlasLoot_IngameLocales["Stendel's Bane"]};
 			};
 		};
 		info = {
@@ -5476,8 +5476,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 3, "s121841", "83087", "=q3=Ruby Panther", "=ds=#sr# 600", "=ds="..BabbleFaction["Order of the Cloud Serpent"].." - "..BabbleFaction["Revered"] };
 				{ 4, "s121842", "83090", "=q3=Sapphire Panther", "=ds=#sr# 600", "=ds="..BabbleFaction["Order of the Cloud Serpent"].." - "..BabbleFaction["Revered"] };
 				{ 5, "s121843", "83089", "=q3=Sunstone Panther", "=ds=#sr# 600", "=ds="..BabbleFaction["Order of the Cloud Serpent"].." - "..BabbleFaction["Honored"] };
-				{ 16, "s131897", "82774", "=q3=Jade Owl", "=ds=#sr# 600", "=ds="..AL["Treasures of the Vale"] };
-				{ 17, "s131898", "82775", "=q3=Sapphire Cub", "=ds=#sr# 600", "=ds="..AL["Treasures of the Vale"] };
+				{ 16, "s131897", "82774", "=q3=Jade Owl", "=ds=#sr# 600", "=ds="..AtlasLoot_IngameLocales["Treasures of the Vale"] };
+				{ 17, "s131898", "82775", "=q3=Sapphire Cub", "=ds=#sr# 600", "=ds="..AtlasLoot_IngameLocales["Treasures of the Vale"] };
 			};
 		};
 		info = {
@@ -8772,7 +8772,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				extraText = ": "..AtlasLoot:GetMapNameByID(504);
 			};
 			{				
-				{ 1, 0, "inv_misc_bag_11", "=q6="..AL["Small Spice Bag"], ""};
+				{ 1, 0, "inv_misc_bag_11", "=q6="..AtlasLoot_IngameLocales["Small Spice Bag"], ""};
 				{ 2, 33925, "", "=q3=Recipe: Delicious Chocolate Cake", "=ds=#sr# (1)", ""};
 				{ 3, 33871, "", "=q3=Recipe: Stormchops", "=ds=#sr# (300)", ""};
 				{ 4, 44228, "", "=q1=Baby Spice", "=ds=#m20#", ""};

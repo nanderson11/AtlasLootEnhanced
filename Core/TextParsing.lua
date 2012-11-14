@@ -48,6 +48,8 @@ AtlasLoot_TextParsing = {
 	{ "#p24#", GetSpellInfo(63275) },	-- Fishing
 	{ "#p25#", GetSpellInfo(78670) },	-- Archaeology
 	{ "#p26#", GetSpellInfo(45357) },	-- Inscription
+	{ "#p27#", GetSpellInfo(2366) },	-- Herbalism
+	{ "#p28#", GetSpellInfo(921) },		-- Pick Pocket
 	
 	-- Reputation
 	{ "#r1#", BabbleFaction["Neutral"] },

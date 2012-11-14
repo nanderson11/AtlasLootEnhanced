@@ -11233,10 +11233,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 4, 37835, "", "=q4=Je'Tze's Bell", "=ds=#s14#"};
 				{ 5, 37254, "", "=q4=Super Simian Sphere", "=ds=#s14#"};
 				{ 16, 44310, "", "=q4=Namlak's Supernumerary Sticker", "=ds=#h1#, #w4#"};
-				{ 17, 43613, "", "=q4=The Dusk Blade", "=ds=#h1#, #w4#"};
-				{ 18, 44311, "", "=q4=Avool's Sword of Jin", "=ds=#h1#, #w10#"};
-				{ 19, 43611, "", "=q4=Krol Cleaver", "=ds=#h1#, #w10#"};
-				{ 20, 44313, "", "=q4=Zom's Crackling Bulwark", "=ds=#w8#"};
+				{ 17, 44311, "", "=q4=Avool's Sword of Jin", "=ds=#h1#, #w10#"};
+				{ 18, 44313, "", "=q4=Zom's Crackling Bulwark", "=ds=#w8#"};
+				{ 20, 0, "inv_box_03", "=q6="..AtlasLoot_IngameLocales["Reinforced Junkbox"], "=q1=#p28#"};
+				{ 21, 43613, "", "=q4=The Dusk Blade", "=ds=#h1#, #w4#"};
+				{ 22, 43611, "", "=q4=Krol Cleaver", "=ds=#h1#, #w10#"};
 			};
 		};
 		info = {
@@ -11297,7 +11298,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["ilvl 200"].." - "..AL["Rewards"],
-			module = moduleName, menu = "WOTLKEMBLEMMENU",
+			module = moduleName, menu = "JPWRATHMENU",
 		};
 	}
 
@@ -11346,7 +11347,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["ilvl 213"].." - "..AL["Rewards"],
-			module = moduleName, menu = "WOTLKEMBLEMMENU",
+			module = moduleName, menu = "JPWRATHMENU",
 		};
 	}
 
@@ -11399,7 +11400,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["ilvl 226"].." - "..AL["Rewards"],
-			module = moduleName, menu = "WOTLKEMBLEMMENU",
+			module = moduleName, menu = "JPWRATHMENU",
 		};
 	}
 
@@ -11454,7 +11455,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["ilvl 245"].." - "..AL["Rewards"],
-			module = moduleName, menu = "WOTLKEMBLEMMENU", instance = "EmblemofTriumph",
+			module = moduleName, menu = "JPWRATHMENU", instance = "EmblemofTriumph",
 		};
 	}
 	
@@ -11476,7 +11477,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["ilvl 245"].." - "..AL["Rewards"],
-			module = moduleName, menu = "WOTLKEMBLEMMENU", instance = "EmblemofTriumph",
+			module = moduleName, menu = "JPWRATHMENU", instance = "EmblemofTriumph",
 		};
 	}
 
@@ -11530,6 +11531,6 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["ilvl 264"].." - "..AL["Rewards"],
-			module = moduleName, menu = "WOTLKEMBLEMMENU",
+			module = moduleName, menu = "JPWRATHMENU",
 		};
 	}

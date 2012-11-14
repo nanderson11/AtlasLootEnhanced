@@ -155,6 +155,12 @@ AtlasLoot_IngameLocales = {
 	["Small Spice Bag"] = GetItemInfo(44113),
 	["Stendel's Bane"] = GetItemInfo(68795),
 	["Treasures of the Vale"] = GetItemInfo(90625),
+	---- Related to BoE World Epics
+	["Big Bag of Arms"] = GetItemInfo(87218),
+	["Big Bag of Mysteries"] = GetItemInfo(87220),
+	["Flame-Scarred Junkbox"] = GetItemInfo(63349),
+	["Reinforced Junkbox"] = GetItemInfo(43575),
+	["Vine-Cracked Junkbox"] = GetItemInfo(88165),
 	---- Other Items
 	["Fathom Core"] = GetItemInfo(16762),
 	["Felvine Shard"] = GetItemInfo(18501),

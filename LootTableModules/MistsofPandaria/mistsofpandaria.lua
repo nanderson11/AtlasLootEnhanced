@@ -6366,7 +6366,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 88492, "", "=q1=Wicked Wikket", "=q2="..AL["Auntie Stormstout"]..", =q1="..AtlasLoot:GetMapNameByID(876), "15 #gold#"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Crafted"]};
 				{ 7, 4388, "", "=q1=Discombobulator Ray", "=ds=#p5#"};
-				{ 8, 63122, "", "=q1=Lifegiving Seed", "=ds="}; --herb
+				{ 8, 63122, "", "=q1=Lifegiving Seed", "=ds=#p27#"};
 				{ 9, 43572, "", "=q1=Magic Eater", "=ds=#p24#: =q1="..AtlasLoot:GetMapNameByID(504)};
 				{ 10, 58489, "", "=q1=Potion of Illusion", "=ds=#p1#"};
 				{ 11, 40195, "", "=q1=Pygmy Oil", "=ds=#p1#"};
@@ -6567,17 +6567,18 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 90580, "", "=q4=Cristof's Crushing Cloak", "=ds=#s4#"};
 				{ 2, 90589, "", "=q4=Dirl's Drafty Drape", "=ds=#s4#"};
 				{ 3, 90586, "", "=q4=Dory's Pageantry", "=ds=#s4#"};
-				{ 4, 90573, "", "=q4=Wang's Unshakable Smile", "=ds=#s1#, #a1#"};
-				{ 5, 90587, "", "=q4=Natli's Fireheart Robe", "=ds=#s5#, #a1#"};
-				{ 6, 90574, "", "=q4=Etoshia's Elegant Gloves", "=ds=#s9#, #a1#"};
-				{ 7, 90588, "", "=q4=Rittsyn's Ruinblasters", "=ds=#s9#, #a1#"};
-				{ 8, 90585, "", "=q4=Vulajin's Vicious Breastplate", "=ds=#s5#, #a2#"};
-				{ 9, 90572, "", "=q4=Kilt of Pandaren Promises", "=ds=#s11#, #a3#"};
-				{ 10, 90570, "", "=q4=Legguards of Sleeting Arrows", "=ds=#s11#, #a3#"};
-				{ 11, 87695, "", "=q4=Treads of Edward the Odd", "=ds=#s12#, #a3#"};
-				{ 12, 90576, "", "=q4=Spaulders of the Scorned", "=ds=#s3#, #a4#"};
-				{ 13, 90577, "", "=q4=Boblet's Bouncing Hauberk", "=ds=#s5#, #a4#"};
-				{ 14, 90579, "", "=q4=Legplates of Durable Dreams", "=ds=#s11#, #a4#"};
+				{ 4, 90578, "", "=q4=Zom's Rain-Stained Cloak", "=ds=#s4#"};
+				{ 5, 90573, "", "=q4=Wang's Unshakable Smile", "=ds=#s1#, #a1#"};
+				{ 6, 90587, "", "=q4=Natli's Fireheart Robe", "=ds=#s5#, #a1#"};
+				{ 7, 90574, "", "=q4=Etoshia's Elegant Gloves", "=ds=#s9#, #a1#"};
+				{ 8, 90588, "", "=q4=Rittsyn's Ruinblasters", "=ds=#s9#, #a1#"};
+				{ 9, 90585, "", "=q4=Vulajin's Vicious Breastplate", "=ds=#s5#, #a2#"};
+				{ 10, 90572, "", "=q4=Kilt of Pandaren Promises", "=ds=#s11#, #a3#"};
+				{ 11, 90570, "", "=q4=Legguards of Sleeting Arrows", "=ds=#s11#, #a3#"};
+				{ 12, 87695, "", "=q4=Treads of Edward the Odd", "=ds=#s12#, #a3#"};
+				{ 13, 90576, "", "=q4=Spaulders of the Scorned", "=ds=#s3#, #a4#"};
+				{ 14, 90577, "", "=q4=Boblet's Bouncing Hauberk", "=ds=#s5#, #a4#"};
+				{ 15, 90579, "", "=q4=Legplates of Durable Dreams", "=ds=#s11#, #a4#"};
 				{ 16, 90582, "", "=q4=Buc-Zakai Memento", "=ds=#s2#"};
 				{ 17, 90583, "", "=q4=Don Guerrero's Glorious Choker", "=ds=#s2#"};
 				{ 18, 90590, "", "=q4=Dorian's Necklace of Burgeoning Dreams", "=ds=#s2#"};
@@ -6586,6 +6587,23 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 90591, "", "=q4=Ring of the Shipwrecked Prince", "=ds=#s13#"};
 				{ 24, 90571, "", "=q4=Scroll of Whispered Secrets", "=ds=#s15#"};
 				{ 25, 90575, "", "=q4=Sutiru's Brazen Bulwark", "=ds=#w8#"};
+			};
+			{
+				{ 1, 0, "inv_misc_bag_12", "=q6="..AtlasLoot_IngameLocales["Big Bag of Arms"].." / "..AtlasLoot_IngameLocales["Big Bag of Mysteries"], "=q2="..AtlasLoot_IngameLocales["Kah'tir"].." / "..AtlasLoot_IngameLocales["Norlaxx"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
+				{ 2, 90721, "", "=q4=Courinth Waterstrider's Silken Finery", "=ds=#s11#, #a1#", "=q2="..AtlasLoot_IngameLocales["Cournith Waterstrider"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 3, 90725, "", "=q4=Gaarn's Leggings of Infestation", "=ds=#s11#, #a1#", "=q2="..AtlasLoot_IngameLocales["Gaarn the Toxic"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 4, 90720, "", "=q4=Silent Leggings of the Ghostpaw", "=ds=#s11#, #a2#", "=q2="..AtlasLoot_IngameLocales["Ruun Ghostpaw"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 5, 90724, "", "=q4=Spriggin's Sproggin' Leggin'", "=ds=#s11#, #a2#", "=q2="..AtlasLoot_IngameLocales["Spriggin"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 6, 90723, "", "=q4=Arness's Scaled Leggings", "=ds=#s11#, #a3#", "=q2="..AtlasLoot_IngameLocales["Arness the Scale"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 7, 90719, "", "=q4=Go-Kan's Golden Trousers", "=ds=#s11#, #a3#", "=q2="..AtlasLoot_IngameLocales["Go-Kan"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 8, 90722, "", "=q4=Torik-Ethis' Gilded Legplates", "=ds=#s11#, #a3#"};
+				{ 9, 90717, "", "=q4=Qu'nas' Apocryphal Legplates", "=ds=#s11#, #a4#", "=q2="..AtlasLoot_IngameLocales["Qu'nas"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 10, 90718, "", "=q4=Torik-Ethis' Bloodied Legguards", "=ds=#s11#, #a4#", "=q2="..AtlasLoot_IngameLocales["Torik-Ethis"]..", =q1="..AtlasLoot:GetMapNameByID(857)};
+				{ 11, 87650, "", "=q4=Fishsticker Crossbow", "=ds=#w3#", "=q2="..AtlasLoot_IngameLocales["Sarnak"]..", =q1="..AtlasLoot:GetMapNameByID(806)};
+				{ 12, 87641, "", "=q4=Yaungol Battle Barrier", "=ds=#w8#"};
+				{ 16, 0, "inv_box_03", "=q6="..AtlasLoot_IngameLocales["Vine-Cracked Junkbox"], "=q1=#p28#"};
+				{ 17, 88149, "", "=q4=The Gloaming Blade", "=ds=#h1#, #w4#"};
+				{ 18, 88150, "", "=q4=Krol Scimitar", "=ds=#h1#, #w10#"};
 			};
 		};
 		info = {

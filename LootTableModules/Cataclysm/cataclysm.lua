@@ -6384,6 +6384,9 @@ local moduleName = "AtlasLootCataclysm"
 				{ 22, 67129, "", "=q4=Signet of High Arcanist Savor", "=ds=#s13#"};
 				{ 24, 67145, "", "=q4=Blockade's Lost Shield", "=ds=#w8#"};
 				{ 25, 67149, "", "=q4=Heartbound Tome", "=ds=#s15#"};
+				{ 27, 0, "inv_box_03", "=q6="..AtlasLoot_IngameLocales["Flame-Scarred Junkbox"], "=q1=#p28#"};
+				{ 28, 68163, "", "=q4=The Twilight Blade", "=ds=#h1#, #w4#"};
+				{ 29, 68161, "", "=q4=Krol Decapitator", "=ds=#h1#, #w10#"};
 			};
 		};
 		info = {

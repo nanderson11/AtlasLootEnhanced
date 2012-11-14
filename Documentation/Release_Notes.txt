@@ -11,8 +11,10 @@ Added Fishing to the crafting menus.
 Added new Pets and Mounts.
 Added Sha of Anger quest rewards.
 Added prices for faction rewards.
-Added faction quest rewards.
+Added Golden Lotus, Shado Pan and Klaxxi quest rewards.
+Added Best Friend rewards for Nat Pagle, Old Hillpaw and Sho.
 Added Mists of Pandaria "Glorious!" Rare mobs and "Lost and Found" rare items.
+Added missing BoE World Epics including those obtained from pick-pocketing.
 Updated Transformation section.
 Updated Heirloom section.
 Updated Legendary Items section.
