@@ -881,7 +881,8 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 86818, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
 				{ 7, 87823, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
 				{ 8, 86816, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
-				{ 9, 86854, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 9, 89954, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
+				{ 10, 86854, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86814, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86813, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 			};
@@ -896,7 +897,8 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 86160, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
 				{ 7, 87824, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
 				{ 8, 86158, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
-				{ 9, 86203, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 9, 89826, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
+				{ 10, 86203, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86156, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86155, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 			};
