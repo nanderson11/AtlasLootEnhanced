@@ -715,6 +715,9 @@ if AL then
 	AL["Achievement"] = "成就";
 	AL["Dungeon"] = "副本";
 	AL["Outdoor"] = "野外";
+	AL["Promotional"] = "促销";
+	AL["PvP"] = "PvP";
+	AL["Raid"] = "团队";
 
 	-- Companions
 	AL["Achievement Companions"] = "成就小伙伴";
@@ -749,6 +752,7 @@ if AL then
 	AL["Rare Mounts"] = "稀有坐骑";
 	AL["Unobtainable Mounts"] = "已绝版坐骑";
 	AL["New Mounts"] = "新坐骑";
+	AL["Mount Collecting"] = "坐骑收集";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "成就/任务奖励战袍";
@@ -794,7 +798,7 @@ if AL then
 	AL["Goblin Gumbo"] = "地精泡泡";
 
 	-- Fourth set
-	AL["March of the Legion"] = "军团的远征";
+	AL["March of the Legion"] = "燃烧军团的进攻";
 	AL["Kiting"] = "风筝";
 	AL["Robotic Homing Chicken"] = "机械自动导航小鸡";
 	AL["Paper Airplane"] = "纸飞机";
@@ -806,7 +810,7 @@ if AL then
 	AL["Papa Hummel's Old-fashioned Pet Biscuit"] = "赫墨尔老爹的老式宠物饼干";
 
 	-- Sixth set
-	AL["Hunt for Illidan"] = "猎杀伊利丹";
+	AL["Hunt for Illidan"] = "追捕伊利丹";
 	AL["The Footsteps of Illidan"] = "伊利丹的足迹";
 	AL["Disco Inferno!"] = "迪斯科地狱！";
 	AL["Ethereal Plunderer"] = "虚灵掠夺者";
@@ -863,10 +867,10 @@ if AL then
 	AL["Crown of Heaven"] = "苍穹之冠";
 
 	-- Eighteenth set
-	AL["Tomb of the Forgotten"] = "被遗忘者的墓冢";
+	AL["Tomb of the Forgotten"] = "遗忘之墓";
 
 	-- Nineteenth set
-	AL["War of the Ancients"] = "时间行者：远古之战";
+	AL["War of the Ancients"] = "时空行者：上古之战";
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "旧 PvP 奖励";

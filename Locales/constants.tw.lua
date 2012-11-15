@@ -715,6 +715,9 @@ if AL then
 	AL["Achievement"] = "成就";
 	AL["Dungeon"] = "副本";
 	AL["Outdoor"] = "野外";
+	AL["Promotional"] = "促銷";
+	AL["PvP"] = "PvP";
+	AL["Raid"] = "團隊";
 
 	-- Companions
 	AL["Achievement Companions"] = "成就夥伴";
@@ -749,6 +752,7 @@ if AL then
 	AL["Rare Mounts"] = "稀有坐騎";
 	AL["Unobtainable Mounts"] = "無法取得的坐騎";
 	AL["New Mounts"] = "新的坐騎";
+	AL["Mount Collecting"] = "坐騎收集";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "成就/任務獎勵外袍";
