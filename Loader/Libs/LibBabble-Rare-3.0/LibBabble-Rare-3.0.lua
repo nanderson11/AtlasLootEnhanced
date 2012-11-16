@@ -1,7 +1,7 @@
 --[[
 Name: LibBabble-Rare-3.0
 Revision: $Rev$
-Maintainers: 
+Maintainers: Celellach
 Website: 
 Dependencies: None
 License: MIT
@@ -77,7 +77,7 @@ lib:SetBaseTranslations {
 	["Matron Li-sahar"] = "Matron Li-sahar",
 	Mobus = "Mobus",
 	["Mysterious Camel Figurine"] = "Mysterious Camel Figurine",
-	["Odd'norok"] = "Odd'norok",
+	["Odd'nirok"] = "Odd'nirok",
 	["Overlord Sunderfury"] = "Overlord Sunderfury",
 	Patrannache = "Patrannache",
 	Pengsong = "Pengsong",

@@ -3,6 +3,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootMoP"
 
@@ -2452,21 +2453,21 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsMisc"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6=Fixxul Lonelyheart", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Fixxul Lonelyheart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 3, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 5, 0, "inv_box_04", "=q6=Lorbu Sadsummon", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6="..BabbleRare["Lorbu Sadsummon"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 6, 90078, "", "=q2=Cracked Talisman", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6=Martar the Not-So-Smart", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6="..BabbleRare["Martar the Not-So-Smart"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 9, 87780, "", "=q3=Martar's Magnifying Glass", "=ds=#s14#"};
-				{ 11, 0, "inv_box_04", "=q6=Huggalon the Heart Watcher", "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 11, 0, "inv_box_04", "=q6="..BabbleRare["Huggalon the Heart Watcher"], "=q2="..AtlasLoot:GetMapNameByID(810)};
 				{ 12, 90067, "", "=q3=B. F. F. Necklace", "=ds="};
-				{ 17, 0, "inv_box_04", "=q6=Alani", "=q2="..AtlasLoot:GetMapNameByID(811)};
+				{ 17, 0, "inv_box_04", "=q6="..BabbleRare["Alani"], "=q2="..AtlasLoot:GetMapNameByID(811)};
 				{ 18, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e12#"};
-				{ 20, 0, "inv_box_04", "=q6=Sungraze Behemoth", "=q2="..AtlasLoot:GetMapNameByID(807)};
+				{ 20, 0, "inv_box_04", "=q6="..BabbleRare["Sungraze Behemoth"], "=q2="..AtlasLoot:GetMapNameByID(807)};
 				{ 21, 89682, "", "=q2=Oddly-Shaped Horn", "=ds=#e12#"};
-				{ 23, 0, "inv_box_04", "=q6=Zhing", "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6="..BabbleRare["Zhing"], "=q2="..AtlasLoot:GetMapNameByID(809)};
 				{ 24, 89697, "", "=q2=Bag of Kafa Beans", "=ds=#e12#"};
-				{ 26, 0, "inv_box_04", "=q6=Pengsong", "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 26, 0, "inv_box_04", "=q6="..BabbleRare["Pengsong"], "=q2="..AtlasLoot:GetMapNameByID(858)};
 				{ 27, 89770, "", "=q2=Tuft of Yak Fur", "=ds=#e12#"};
 
 			};
@@ -2484,20 +2485,20 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["RaresMOPMobsClawlord"] = {
 		["Normal"] = {
 			{
-				{ 2, 0, "inv_box_04", "=q6=Clawlord Kril'mandar", "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 2, 0, "inv_box_04", "=q6="..BabbleRare["Clawlord Kril'mandar"], "=q2="..AtlasLoot:GetMapNameByID(857)};
 				{ 3, 90087, "", "=q3=Lobstmourne", "=ds=#h1#, #w13#"};
-				{ 5, 0, "inv_box_04", "=q6=Akkalou", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 5, 0, "inv_box_04", "=q6="..BabbleRare["Akkalou"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 6, 90166, "", "=q2=Akkalou's Clamshell", "=ds="};
-				{ 8, 0, "inv_box_04", "=q6=Akkalar", "=q2="..AtlasLoot:GetMapNameByID(806)};
+				{ 8, 0, "inv_box_04", "=q6="..BabbleRare["Akkalar"], "=q2="..AtlasLoot:GetMapNameByID(806)};
 				{ 9, 90167, "", "=q2=Akkalar's Clamshell", "=ds="};
-				{ 11, 0, "inv_box_04", "=q6=Damlak", "=q2="..AtlasLoot:GetMapNameByID(857)};
+				{ 11, 0, "inv_box_04", "=q6="..BabbleRare["Damlak"], "=q2="..AtlasLoot:GetMapNameByID(857)};
 				{ 12, 90169, "", "=q2=Damlak's Clamshell", "=ds="};
 				{ 18, 90172, "", "=q2=Clamshell Band", "=ds=#m27#"};
-				{ 20, 0, "inv_box_04", "=q6=Clamstok", "=q2="..AtlasLoot:GetMapNameByID(858)};
+				{ 20, 0, "inv_box_04", "=q6="..BabbleRare["Clamstok"], "=q2="..AtlasLoot:GetMapNameByID(858)};
 				{ 21, 90170, "", "=q2=Clamstok's Clamshell", "=ds="};
-				{ 23, 0, "inv_box_04", "=q6=Kishak", "=q2="..AtlasLoot:GetMapNameByID(809)};
+				{ 23, 0, "inv_box_04", "=q6="..BabbleRare["Kishak"], "=q2="..AtlasLoot:GetMapNameByID(809)};
 				{ 24, 90168, "", "=q2=Kishak's Clamshell", "=ds="};
-				{ 26, 0, "inv_box_04", "=q6=Odd'nirok", "=q2="..AtlasLoot:GetMapNameByID(810)};
+				{ 26, 0, "inv_box_04", "=q6="..BabbleRare["Odd'nirok"], "=q2="..AtlasLoot:GetMapNameByID(810)};
 				{ 27, 90171, "", "=q2=Odd'nirok's Clamshell", "=ds="};
 			};
 		};
@@ -5030,7 +5031,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 11474, "", "=q1=Sprite Darter Egg", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(121)};
 				{ 24, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(40)};
 				{ 25, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(121)};
-				{ 26, 64494, "", "=q1=Tiny Shale Spider", "=ds=#e13#", "=q2="..AL["Jadefang"]..", =q1="..AtlasLoot:GetMapNameByID(640)};	
+				{ 26, 64494, "", "=q1=Tiny Shale Spider", "=ds=#e13#", "=q2="..BabbleRare["Jadefang"]..", =q1="..AtlasLoot:GetMapNameByID(640)};	
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
@@ -5118,7 +5119,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 23083, "", "=q3=Captured Flame", "=ds=#e13#", "#MIDSUMMER:350#"};
 				{ 3, 53641, "", "=q3=Ice Chip", "=ds=#e13#", "=ds="..AL["Daily Reward"]};
 				{ 5, 0, "INV_Box_01", "=q6="..AL["Hallow's End"], ""};
-				{ 6, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150# / =ds="..AL["Daily Reward"]};
+				{ 6, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150# =ds="..AL["Daily Reward"]};
 				{
 					{ 7, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29429#"};
 					{ 7, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29413#"};
@@ -5753,12 +5754,12 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
 				{ 11, 68824, "", "=q4=Swift Zulian Panther", "=q2="..AtlasLoot:EJ_GetBossName("High Priestess Kilnara", 181)..", =q1="..AtlasLoot:GetMapNameByID(793)};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Outdoor"], ""};
-				{ 17, 67151, "", "=q4=Reins of Poseidus", "=q2="..AL["Poseidus"]..", =q1="..AtlasLoot:GetMapNameByID(613)};
+				{ 17, 67151, "", "=q4=Reins of Poseidus", "=q2="..BabbleRare["Poseidus"]..", =q1="..AtlasLoot:GetMapNameByID(613)};
 				{ 18, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
 				{ 19, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 20, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..AL["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
-				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2=Alani, =q1="..AtlasLoot:GetMapNameByID(811)};
-				{ 22, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
+				{ 20, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..BabbleRare["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
+				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 22, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..BabbleRare["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
 				{ 23, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
 				{ 24, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
@@ -6326,14 +6327,14 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
 				{ 18, 86589, "", "=q3=Ai-Li's Skymirror", "=q2="..AtlasLoot_IngameLocales["Ai-Li Skymirror"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
 				{ 19, 86582, "", "=q3=Aqua Jewel", "=q2="..AtlasLoot_IngameLocales["Sahn Tidehunter"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
-				{ 20, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=q2="..AL["Burgy Blackheart"]..", =q1="..AtlasLoot:GetMapNameByID(615)};
+				{ 20, 65665, "", "=q3=Burgy Blackheart's Handsome Hat", "=q2="..BabbleRare["Burgy Blackheart"]..", =q1="..AtlasLoot:GetMapNameByID(615)};
 				{ 21, 86593, "", "=q3=Hozen Beach Ball", "=q2="..AtlasLoot_IngameLocales["Ik-Ik the Nimble"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
 				{ 22, 88566, "", "=q3=Krastinov's Bag of Horrors", "=q2="..BabbleBoss["Doctor Theolen Krastinov"]..", =q1="..AtlasLoot:GetMapNameByID(763)};
 				{ 23, 86568, "", "=q3=Mr. Smite's Brass Compass", "=q2="..AtlasLoot_IngameLocales["Yorik Sharpeye"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 24, 1973, "", "=q3=Orb of Deception", "=q2="..AL["World Drop"]};
 				{ 25, 35275, "", "=q3=Orb of the Sin'dorei", "=q2="..AL["Various Locations"]..", =q1="..AtlasLoot:GetMapNameByID(798)};
 				{ 26, 86573, "", "=q3=Shard of Archstone", "=q2="..AtlasLoot_IngameLocales["Havak"]..", =q1="..AtlasLoot:GetMapNameByID(809)};
-				{ 27, 32782, "", "=q3=Time-Lost Figurine", "=q2="..AL["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
+				{ 27, 32782, "", "=q3=Time-Lost Figurine", "=q2="..BabbleRare["Terokk"]..", =q1="..AtlasLoot:GetMapNameByID(478)};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted"]};
@@ -6486,52 +6487,52 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 69892, "", "=q7=Ripped Sandstorm Cloak", "=ds=#s4#", "1,200 #gold#"};
 				{ 4, 62038, "", "=q7=Worn Stoneskin Gargoyle Cape", "=ds=#s4#", "1,200 #gold#"};
 				{ 6, 61958, "", "=q7=Tattered Dreadmist Mask", "=ds=#s1#, #a1#", "1,500 #gold#"};
-				{ 7, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 7, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 9, 62029, "", "=q7=Tattered Dreadmist Leggings", "=ds=#s11#, #a1#", "1,750 #gold#"};
 				{ 16, 61942, "", "=q7=Preened Tribal War Feathers", "=ds=#s1#, #a2#", "1,500 #gold#"};
-				{ 17, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 18, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 17, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 18, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 19, 62027, "", "=q7=Preened Wildfeather Leggings", "=ds=#s11#, #a2#", "1,750 #gold#"};
 				{ 21, 61937, "", "=q7=Stained Shadowcraft Cap", "=ds=#s1#, #a2#", "1,500 #gold#"};
-				{ 22, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 23, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 22, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 23, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 24, 62026, "", "=q7=Stained Shadowcraft Pants", "=ds=#s11#, #a2#", "1,750 #gold#"};
 				extraText = ": "..BabbleInventory["Back"].." / "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
 			};
 			{
 				{ 1, 61935, "", "=q7=Tarnished Raging Berserker's Helm", "=ds=#s1#, #a3#", "1,500 #gold#"};
-				{ 2, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 3, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 2, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 3, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 4, 62024, "", "=q7=Tarnished Leggings of Destruction", "=ds=#s11#, #a3#", "1,750 #gold#"};
 				{ 6, 61936, "", "=q7=Mystical Coif of Elements", "=ds=#s1#, #a3#", "1,500 #gold#"};
-				{ 7, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 8, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 7, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 8, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 9, 62025, "", "=q7=Mystical Kilt of Elements", "=ds=#s11#, #a3#", "1,750 #gold#"};
 				{ 16, 69887, "", "=q7=Burnished Helm of Might", "=ds=#s1#, #a4#", "1,500 #gold#"};
-				{ 17, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 18, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 17, 69890, "", "=q7=Burnished Pauldrons of Might", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 18, 69889, "", "=q7=Burnished Breastplate of Might", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 19, 69888, "", "=q7=Burnished Legplates of Might", "=ds=#s11#, #a4#", "1,750 #gold#"};
 				{ 21, 61931, "", "=q7=Polished Helm of Valor", "=ds=#s1#, #a4#", "1,500 #gold#"};
-				{ 22, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 23, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# / #CHAMPSEAL:60# / #DARKMOON:110#"};
+				{ 22, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 23, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
 				{ 24, 62023, "", "=q7=Polished Legplates of Valor", "=ds=#s11#, #a4#", "1,750 #gold#"};
 				extraText = ": "..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"];
 			};
 			{
 				{ 1, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
-				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75# / #DARKMOON:130#"};
-				{ 4, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725#  / #CHAMPSEAL:75# / #DARKMOON:130#"};
-				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175#  / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 18, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 19, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175#  / #CHAMPSEAL:60# / #DARKMOON:110#"};
-				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
-				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# / #CHAMPSEAL:75# / #DARKMOON:110#"};
-				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# / #CHAMPSEAL:75# / #DARKMOON:110#"};
-				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
-				{ 27, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
-				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
-				{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# / #CHAMPSEAL:95# / #DARKMOON:160#"};
+				{ 3, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
+				{ 4, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:130#"};
+				{ 16, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 18, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 19, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#JUSTICE:2175# #CHAMPSEAL:60# #DARKMOON:110#"};
+				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#JUSTICE:2725# #CHAMPSEAL:75# #DARKMOON:110#"};
+				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#JUSTICE:2175# #CHAMPSEAL:75# #DARKMOON:110#"};
+				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 27, 79131, "", "=q7=Burnished Warden Staff", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 28, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
+				{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#JUSTICE:3500# #CHAMPSEAL:95# #DARKMOON:160#"};
 				extraText = ": "..AL["Accessories"].." / "..AL["Weapons"];
 			};
 			{
