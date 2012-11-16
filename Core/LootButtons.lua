@@ -612,11 +612,11 @@ do
 								else
 									icon = GetItemIcon(CURRENCY_PRICE[v[2]].itemID)
 								end
-								extraText2 = extraText2..", |T"..icon..":15:15|t"..v[1]
+								extraText2 = extraText2.." / |T"..icon..":15:15|t"..v[1]
 							end	
 						end
 						if newPrice and newPrice ~= "" then
-							tempText = extraText2..", "..newPrice
+							tempText = extraText2.." / "..newPrice
 						else
 							tempText = extraText2
 						end
