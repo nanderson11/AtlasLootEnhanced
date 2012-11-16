@@ -8,7 +8,7 @@ License: MIT
 ]]
 
 local MAJOR_VERSION = "LibBabble-Rare-3.0"
-local MINOR_VERSION = 90000 + tonumber(("$Rev$"):match("%d+"))
+local MINOR_VERSION = 90000 + 1--tonumber(("$Rev$"):match("%d+")) -- Add this with new svn ;)
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub.") end
 local lib = LibStub("LibBabble-3.0"):New(MAJOR_VERSION, MINOR_VERSION)
