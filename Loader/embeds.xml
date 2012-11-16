@@ -14,6 +14,7 @@
 <Include file="Libs\AceLocale-3.0\AceLocale-3.0.xml"/>
 <Include file="Libs\AceGUI-3.0\AceGUI-3.0.xml"/>
 <Include file="Libs\AceConfig-3.0\AceConfig-3.0.xml"/>
+<Include file="Libs\LibBabble-Rare-3.0\lib.xml"/>
 
 <!--@end-no-lib-strip@-->
 

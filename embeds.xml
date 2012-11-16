@@ -12,5 +12,5 @@
 <Include file="Libs\LibBabble-Zone-3.0\lib.xml"/>
 
 <!--@end-no-lib-strip@-->
-
+<Include file="Libs\LibHelpPlate\lib.xml"/>
 </Ui>

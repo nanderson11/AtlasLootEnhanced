@@ -168,3 +168,5 @@ AtlasLoot_IngameLocales = {
 	["Overcharged Manacell"] = GetItemInfo(30824),
 	["The Saga of Terokk"] = GetItemInfo(27634),
 }
+
+setmetatable(AtlasLoot_IngameLocales, { __index = function(tab, key) return tab[key] or key end } )
