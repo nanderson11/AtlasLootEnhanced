@@ -2512,163 +2512,105 @@ local moduleName = "AtlasLootMoP"
 	--- Rare Items ---
 	------------------
 
-		-----------------------
-		--- The Jade Forest ---
-		-----------------------
+		--------------------------------------------------
+		--- The Jade Forest / Valley of the Four Winds ---
+		--------------------------------------------------
 
-	AtlasLoot_Data["RaresMOPItemsJadeForest"] = {
+	AtlasLoot_Data["RaresMOPItemsJadeForestValleyoftheFourWinds"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Ancient Jinyu Staff", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(806), "=ds="};
 				{ 2, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
-				{ 4, 0, "inv_box_04", "=q6=Ancient Pandaren Mining Pick", "=ds="};
-				{ 5, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
-				{ 7, 0, "inv_box_04", "=q6=Hammer of Ten Thunders", "=ds="};
-				{ 8, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
-				{ 10, 0, "inv_box_04", "=q6=Jade Warrior Statue", "=ds="};
-				{ 11, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
-				{ 13, 0, "inv_box_04", "=q6=Wodin's Mantid Shanker", "=ds="};
-				{ 14, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
+				{ 3, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
+				{ 4, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
+				{ 5, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
+				{ 7, 0, "inv_box_04", "=q6="..BabbleRare["Jade Warrior Statue"], "=ds="};
+				{ 8, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(807), "=ds="};
+				{ 17, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
+				{ 19, 0, "inv_box_04", "=q6="..BabbleRare["Ghostly Pandaren Craftsman"], "=ds="};
+				{ 20, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
+				{ 22, 0, "inv_box_04", "=q6="..BabbleRare["Ghostly Pandaren Fisherman"], "=ds="};
+				{ 23, 86079, "", "=q0=Ancient Pandaren Woodcutter", "=ds=#h3#, #w1#"};
+				{ 25, 0, "inv_box_04", "=q6=Cache of Pilfered Goods", "=ds="};
+				{ 26, 86113, "", "=q3=Stolen Amulet of Might", "=ds=#s2#"};
+				{ 27, 86112, "", "=q3=Stolen Amulet of Wisdom", "=ds=#s2#"};
+				{ 28, 86111, "", "=q3=Stolen Necklace of Accuracy", "=ds=#s2#"};
+				{ 29, 86114, "", "=q3=Stolen Necklace of Fortitude", "=ds=#s2#"};
+				{ 30, 86110, "", "=q3=Stolen Necklace of Precision", "=ds=#s2#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(806),
+			name = AtlasLoot:GetMapNameByID(806).." / "..AtlasLoot:GetMapNameByID(807),
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
 
-		--------------------------------
-		--- Valley of the Four Winds ---
-		--------------------------------
+		----------------------------------------
+		--- Krasarang Wilds / Kun-Lai Summit ---
+		----------------------------------------
 
-	AtlasLoot_Data["RaresMOPItemsValleyFourWinds"] = {
+	AtlasLoot_Data["RaresMOPItemsKrasarangWildsKunLaiSummit"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Ghostly Pandaren Fisherman)", "=ds="};
-				{ 2, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
-				{ 4, 0, "inv_box_04", "=q6=Ghostly Pandaren Craftsman", "=ds="};
-				{ 5, 86079, "", "=q0=Ancient Pandaren Woodcutter", "=ds=#h3#, #w1#"};
-				{ 7, 0, "inv_box_04", "=q6=Staff of the Hidden Master", "=ds="};
-				{ 8, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
-				{ 16, 0, "inv_box_04", "=q6=Cache of Pilfered Goods", "=ds="};
-				{ 17, 86113, "", "=q3=Stolen Amulet of Might", "=ds=#s2#"};
-				{ 18, 86112, "", "=q3=Stolen Amulet of Wisdom", "=ds=#s2#"};
-				{ 19, 86111, "", "=q3=Stolen Necklace of Accuracy", "=ds=#s2#"};
-				{ 20, 86114, "", "=q3=Stolen Necklace of Fortitude", "=ds=#s2#"};
-				{ 21, 86110, "", "=q3=Stolen Necklace of Precision", "=ds=#s2#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:GetMapNameByID(807),
-			module = moduleName, menu = "RAREMENU",
-		};
-	}
-
-		-----------------------
-		--- Krasarang Wilds ---
-		-----------------------
-
-	AtlasLoot_Data["RaresMOPItemsKrasarangWilds"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "inv_box_04", "=q6=Pandaren Fishing Spear", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(857), "=ds="};
 				{ 2, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
 				{ 4, 0, "inv_box_04", "=q6=Barrel of Banana Infused Rum", "=ds="};
 				{ 5, 87266, "", "=q1=Recipe: Banana Infused Rum", "=ds=#p3#"};
-				{ 16, 0, "inv_box_04", "=q6=Equipment Locker", "=ds="};
-				{ 17, 86117, "", "=q3=Seafarer's Treads of Precision", "=ds=#s12#, #a1#"};
-				{ 18, 86118, "", "=q3=Seafaring Advisor's Slippers", "=ds=#s12#, #a1#"};
-				{ 19, 86119, "", "=q3=Seafarer's Boots of Meditation", "=ds=#s12#, #a2#"};
-				{ 20, 86115, "", "=q3=Swashbuckling Boots", "=ds=#s12#, #a2#"};
-				{ 21, 86116, "", "=q3=Agile Seafarer's Jackboots", "=ds=#s12#, #a3#"};
-				{ 22, 86120, "", "=q3=Seafaring Sabatons of Meditation", "=ds=#s12#, #a3#"};
-				{ 23, 86122, "", "=q3=Plankwalking Greaves", "=ds=#s12#, #a4#"};
-				{ 24, 86123, "", "=q3=Seafarer's Sturdy Boots", "=ds=#s12#, #a4#"};
+				{ 7, 0, "inv_box_04", "=q6=Equipment Locker", "=ds="};
+				{ 8, 86117, "", "=q3=Seafarer's Treads of Precision", "=ds=#s12#, #a1#"};
+				{ 9, 86118, "", "=q3=Seafaring Advisor's Slippers", "=ds=#s12#, #a1#"};
+				{ 10, 86119, "", "=q3=Seafarer's Boots of Meditation", "=ds=#s12#, #a2#"};
+				{ 11, 86115, "", "=q3=Swashbuckling Boots", "=ds=#s12#, #a2#"};
+				{ 12, 86116, "", "=q3=Agile Seafarer's Jackboots", "=ds=#s12#, #a3#"};
+				{ 13, 86120, "", "=q3=Seafaring Sabatons of Meditation", "=ds=#s12#, #a3#"};
+				{ 14, 86122, "", "=q3=Plankwalking Greaves", "=ds=#s12#, #a4#"};
+				{ 15, 86123, "", "=q3=Seafarer's Sturdy Boots", "=ds=#s12#, #a4#"};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(809), "=ds="};
+				{ 17, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
+				{ 18, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
+				{ 19, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
+				{ 21, 0, "inv_box_04", "=q6="..BabbleRare["Frozen Trail Packer"], "=ds="};
+				{ 22, 86125, "", "=q3=Kafa Press", "=ds="};
+				{ 24, 0, "inv_box_04", "=q6=Sprite's Cloth Chest", "=ds="};
+				{ 25, 86223, "", "=q3=Agile Sprite Cloak", "=ds=#s4#"};
+				{ 26, 86222, "", "=q3=Precise Sprite Cloak", "=ds=#s4#"};
+				{ 27, 86224, "", "=q3=Steadfast Sprite Cape", "=ds=#s4#"};
+				{ 28, 86225, "", "=q3=Strong Sprite Cloak", "=ds=#s4#"};
+				{ 29, 86221, "", "=q3=Wise Sprite Cloak", "=ds=#s4#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(857),
+			name = AtlasLoot:GetMapNameByID(857).." / "..AtlasLoot:GetMapNameByID(809),
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
 
-		----------------------
-		--- Kun-Lai Summit ---
-		----------------------
+		---------------------------------------
+		--- Townlong Steppes / Dread Wastes ---
+		---------------------------------------
 
-	AtlasLoot_Data["RaresMOPItemsKunLaiSummit"] = {
+	AtlasLoot_Data["RaresMOPItemsTownlongSteppesDreadWastes"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6=Hozen Warrior Spear", "=ds="};
-				{ 2, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
-				{ 4, 0, "inv_box_04", "=q6=Frozen Trail Packer", "=ds="};
-				{ 5, 86125, "", "=q3=Kafa Press", "=ds="};
-				{ 7, 0, "inv_box_04", "=q6=Stash of Yaungol Weapons", "=ds="};
-				{ 8, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
-				{ 10, 0, "inv_box_04", "=q6=Tablet of Ren Yun", "=ds="};
-				{ 11, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
-				{ 16, 0, "inv_box_04", "=q6=Sprite's Cloth Chest", "=ds="};
-				{ 17, 86223, "", "=q3=Agile Sprite Cloak", "=ds=#s4#"};
-				{ 18, 86222, "", "=q3=Precise Sprite Cloak", "=ds=#s4#"};
-				{ 19, 86224, "", "=q3=Steadfast Sprite Cape", "=ds=#s4#"};
-				{ 20, 86225, "", "=q3=Strong Sprite Cloak", "=ds=#s4#"};
-				{ 21, 86221, "", "=q3=Wise Sprite Cloak", "=ds=#s4#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:GetMapNameByID(809),
-			module = moduleName, menu = "RAREMENU",
-		};
-	}
-
-		------------------------
-		--- Townlong Steppes ---
-		------------------------
-
-	AtlasLoot_Data["RaresMOPItemsTownlongSteppes"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "inv_box_04", "=q6=Yaungol Fire Carrier", "=ds="};
+				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(810), "=ds="};
 				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
-			};
-		};
-		info = {
-			name = AtlasLoot:GetMapNameByID(810),
-			module = moduleName, menu = "RAREMENU",
-		};
-	}
-
-		--------------------
-		--- Dread Wastes ---
-		--------------------
-
-	AtlasLoot_Data["RaresMOPItemsDreadWastes"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "inv_box_04", "=q6=Blade of the Poisoned Mind", "=ds="};
-				{ 2, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
-				{ 4, 0, "inv_box_04", "=q6=Blade of the Prime", "=ds="};
-				{ 5, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
-				{ 7, 0, "inv_box_04", "=q6=Bloodsoaked Chitin Fragment", "=ds="};
-				{ 8, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
-				{ 10, 0, "inv_box_04", "=q6=Dissector's Staff of Mutation", "=ds="};
-				{ 11, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
-				{ 13, 0, "inv_box_04", "=q6=Amber Encased Necklace", "=ds="};
-				{ 14, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
-				{ 16, 0, "inv_box_04", "=q6=Malik's Stalwart Spear", "=ds="};
-				{ 17, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
-				{ 19, 0, "inv_box_04", "=q6=Glinting Rapana Whelk", "=ds="};
-				{ 20, 86529, "", "=q3=Manipulator's Talisman", "=ds=#s14#"};
-				{ 22, 0, "inv_box_04", "=q6=Swarming Cleaver of Ka'roz", "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(809), "=ds="};
+				{ 17, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
+				{ 18, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
+				{ 19, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
+				{ 20, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
+				{ 21, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
+				{ 22, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
 				{ 23, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
-				{ 25, 0, "inv_box_04", "=q6=Swarmkeeper's Medallion", "=ds="};
-				{ 26, 86526, "", "=q3=Swarmkeeper's Medallion", "=ds=#s2#"};
-				{ 28, 0, "inv_box_04", "=q6=Wind-Reaver's Dagger of Quick Strikes", "=ds="};
-				{ 29, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
+				{ 24, 86526, "", "=q3=Swarmkeeper's Medallion", "=ds=#s2#"};
+				{ 25, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
+				{ 27, 0, "inv_box_04", "=q6="..BabbleRare["Glinting Rapana Whelk"], "=ds="};
+				{ 28, 86529, "", "=q3=Manipulator's Talisman", "=ds=#s14#"};
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(858),
+			name = AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(809),
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
