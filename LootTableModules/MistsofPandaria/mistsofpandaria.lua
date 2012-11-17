@@ -1171,20 +1171,6 @@ local moduleName = "AtlasLootMoP"
 	};
 
 	AtlasLoot_Data["HoFTrash"] = {
-		["RaidFinder"] = {
-			{
-				{ 1, 86850, "", "=q4=Darting Damselfly Cuffs", "=ds=#s8#, #a1#" },
-				{ 2, 86844, "", "=q4=Gleaming Moth Cuffs", "=ds=#s8#, #a1#" },
-				{ 3, 86841, "", "=q4=Shining Cicada Bracers", "=ds=#s8#, #a1#" },
-				{ 4, 86845, "", "=q4=Pearlescent Butterfly Wristbands", "=ds=#s8#, #a2#" },
-				{ 5, 86843, "", "=q4=Smooth Beetle Wristbands", "=ds=#s8#, #a2#" },
-				{ 6, 86847, "", "=q4=Jagged Hornet Bracers", "=ds=#s8#, #a3#" },
-				{ 7, 86842, "", "=q4=Luminescent Firefly Wristguards", "=ds=#s8#, #a3#" },
-				{ 8, 86846, "", "=q4=Inlaid Cricket Bracers", "=ds=#s8#, #a4#" },
-				{ 9, 86849, "", "=q4=Plated Locust Bracers", "=ds=#s8#, #a4#" },
-				{ 10, 86848, "", "=q4=Serrated Wasp Bracers", "=ds=#s8#, #a4#" },
-			};
-		};
 		["Normal"] = {
 			{
 				{ 1, 86192, "", "=q4=Darting Damselfly Cuffs", "=ds=#s8#, #a1#" },
@@ -1197,20 +1183,6 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 86188, "", "=q4=Inlaid Cricket Bracers", "=ds=#s8#, #a4#" },
 				{ 9, 86191, "", "=q4=Plated Locust Bracers", "=ds=#s8#, #a4#" },
 				{ 10, 86190, "", "=q4=Serrated Wasp Bracers", "=ds=#s8#, #a4#" },
-			};
-		};
-		["Heroic"] = {
-			{
-				{ 1, 86993, "", "=q4=Darting Damselfly Cuffs", "=ds=#s8#, #a1#" },
-				{ 2, 86994, "", "=q4=Gleaming Moth Cuffs", "=ds=#s8#, #a1#" },
-				{ 3, 86992, "", "=q4=Shining Cicada Bracers", "=ds=#s8#, #a1#" },
-				{ 4, 86996, "", "=q4=Pearlescent Butterfly Wristbands", "=ds=#s8#, #a2#" },
-				{ 5, 86995, "", "=q4=Smooth Beetle Wristbands", "=ds=#s8#, #a2#" },
-				{ 6, 86997, "", "=q4=Jagged Hornet Bracers", "=ds=#s8#, #a3#" },
-				{ 7, 86998, "", "=q4=Luminescent Firefly Wristguards", "=ds=#s8#, #a3#" },
-				{ 8, 86999, "", "=q4=Inlaid Cricket Bracers", "=ds=#s8#, #a4#" },
-				{ 9, 87000, "", "=q4=Plated Locust Bracers", "=ds=#s8#, #a4#" },
-				{ 10, 87001, "", "=q4=Serrated Wasp Bracers", "=ds=#s8#, #a4#" },
 			};
 		};
 		info = {
@@ -1587,6 +1559,22 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Will of the Emperor", 677),
+			module = moduleName, instance = "MoguShanVaults",
+		};
+	};
+
+	AtlasLoot_Data["MoguShanVaultsTrash"] = {
+		["Normal"] = {
+			{
+				{ 1, 86043, "", "=q4=Jade Bandit Figurine", "=ds=#s14#" },
+				{ 2, 86042, "", "=q4=Jade Charioteer Figurine", "=ds=#s14#" },
+				{ 3, 86045, "", "=q4=Jade Courtesan Figurine", "=ds=#s14#" },
+				{ 4, 86044, "", "=q4=Jade Magistrate Figurine", "=ds=#s14#" },
+				{ 5, 86046, "", "=q4=Jade Warlord Figurine", "=ds=#s14#" },
+			};
+		};
+		info = {
+			name = "trash",
 			module = moduleName, instance = "MoguShanVaults",
 		};
 	};

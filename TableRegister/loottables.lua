@@ -171,7 +171,8 @@ AtlasLoot_LootTableRegister = {
 				{ "MSVSpiritKings", 10, EncounterJournalID = 687 },
 				{ "MSVElegon", 15, EncounterJournalID = 726 },
 				{ "MSVWilloftheEmperor", 16, EncounterJournalID = 677 },
-				{ "MoguShanVaultsPatterns", 20 },
+				{ "MoguShanVaultsTrash", 20 },
+				{ "MoguShanVaultsPatterns", 21 },
 	
 			},
 			["Info"] = { BabbleZone["Mogu'shan Vaults"], "AtlasLootMoP", mapname = "MoguShanVaults", raid = true, EncounterJournalID = 317 },
