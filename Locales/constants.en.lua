@@ -370,6 +370,7 @@ if AL then
 	AL["Tier 13 Set"] = true;
 	AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
+	AL["Rare Mobs"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = true;

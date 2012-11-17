@@ -370,6 +370,7 @@ if AL then
 	AL["Tier 13 Set"] = "等级13套装";
 	AL["Tier 14 Set"] = "等级14套装";
 	AL["TCG Items"] = "集换式卡牌物品";
+	AL["Rare Mobs"] = "稀有怪物";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";

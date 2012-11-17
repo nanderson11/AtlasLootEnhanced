@@ -5,6 +5,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
+local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 
 
 	AtlasLoot_Data["SETMENU"] = {
@@ -14,7 +15,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "JPMOPMENU", "inv_glove_mail_reputation_c_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
 				{ 3, "JUSTICEPOINTSMENU", "inv_glove_mail_reputation_c_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], ""};
 				{ 4, "MoltenFront", "inv_neck_hyjaldaily_04", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
-				{ 6, "RAREMENU", "expansionicon_mistsofpandaria", "=ds=Rare Mobs", "=q5="..AL["Mists of Pandaria"]};
+				{ 6, "RAREMENU", "expansionicon_mistsofpandaria", "=ds="..AL["Rare Mobs"], "=q5="..AL["Mists of Pandaria"]};
 				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
 				{ 10, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
@@ -327,18 +328,18 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 3, "RaresMOPMobsKrasarangWilds", "achievement_zone_krasarangwilds", "=ds="..AtlasLoot:GetMapNameByID(857), "#ACHIEVEMENTID:7439#"};
 				{ 4, "RaresMOPMobsTownlongSteppes", "achievement_zone_townlongsteppes", "=ds="..AtlasLoot:GetMapNameByID(810), "#ACHIEVEMENTID:7439#"};
 				{ 5, "RaresMOPMobsValeOfEternalBlossoms", "achievement_zone_valeofeternalblossoms", "=ds="..AtlasLoot:GetMapNameByID(811), "#ACHIEVEMENTID:7439#"};
-				{ 7, "RaresMOPMobsMisc", "inv_pandarenserpentmount_lightning", "=ds=Misc", ""};
+				{ 7, "RaresMOPMobsMisc", "inv_pandarenserpentmount_lightning", "=ds="..AL["Misc"], ""};
 				{ 9, "RaresMOPItemsJadeForestValleyoftheFourWinds", "achievement_zone_jadeforest", "=ds="..AtlasLoot:GetMapNameByID(806).." / "..AtlasLoot:GetMapNameByID(807), "#ACHIEVEMENTID:7284#"};
 				{ 10, "RaresMOPItemsTownlongSteppesDreadWastes", "achievement_zone_krasarangwilds", "=ds="..AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(809), "#ACHIEVEMENTID:7284#"};
 				{ 17, "RaresMOPMobsValleyFourWinds", "achievement_zone_valleyoffourwinds", "=ds="..AtlasLoot:GetMapNameByID(807), "#ACHIEVEMENTID:7439#"};
 				{ 18, "RaresMOPMobsKunLaiSummit", "achievement_zone_kunlaisummit", "=ds="..AtlasLoot:GetMapNameByID(809), "#ACHIEVEMENTID:7439#"};
 				{ 19, "RaresMOPMobsDreadWastes", "achievement_zone_dreadwastes", "=ds="..AtlasLoot:GetMapNameByID(858), "#ACHIEVEMENTID:7439#"};
-				{ 22, "RaresMOPMobsClawlord", "inv_misc_birdbeck_02", "=ds=Clawlord Kril'mandar", ""};
+				{ 22, "RaresMOPMobsClawlord", "inv_misc_birdbeck_02", "=ds="..BabbleRare["Clawlord Kril'mandar"], ""};
 				{ 24, "RaresMOPItemsKrasarangWildsKunLaiSummit", "achievement_zone_valleyoffourwinds", "=ds="..AtlasLoot:GetMapNameByID(857).." / "..AtlasLoot:GetMapNameByID(809), "#ACHIEVEMENTID:7284#"};
 			};
 		};
 		info = {
-			name = "Rare Mobs",
+			name = AL["Rare Mobs"],
 			menu = "SETMENU",
 		};
 	}

@@ -2473,7 +2473,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Misc",
+			name = AL["Misc"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -2503,7 +2503,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = "Clawlord Kril'mandar",
+			name = BabbleRare["Clawlord Kril'mandar"],
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
@@ -5303,7 +5303,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 0, "", "=q3=Red Panda Cub", "=ds=#e13#", "#ACHIEVEMENTID:7906#"};
 				{ 23, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
 				{ 24, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
-				{ 26, 0, "INV_Box_01", "=q6=Unknown", ""};
+				{ 26, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
 				{ 27, 93025, "", "=q3=Clock'em", "=ds=#e13#" }; ---NEEDS TO BE CHECKED Brawler's Guild reputation maybe
 			};
 			{
@@ -6032,7 +6032,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"]};
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
 				{ 10, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2=Alani, =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
 				{ 12, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
 				{ 14, 0, "INV_Box_01", "=q6="..AL["Quest Reward"]};
 				{ 15, 87768, "", "=q4=Reins of the Onyx Cloud Serpent", "=q1=#m4#: #QUESTID:31277#"};
@@ -6068,7 +6068,7 @@ local moduleName = "AtlasLootMoP"
 				};
 				{ 7, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
 				{ 8, 92724, "", "=q4=Swift Windsteed", "=ds=#e27#"};
-				{ 16, 0, "INV_Box_01", "=q6=Unknown"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Unknown"], ""};
 				{ 17, 87776, "", "=q4=Reins of the Heavenly Azure Cloud Serpent", "=ds=#e27#", ""};
 				{ 18, 87774, "", "=q4=Reins of the Heavenly Golden Cloud Serpent", "=ds=#e27#", ""};
 				{ 19, 87775, "", "=q4=Reins of the Heavenly Jade Cloud Serpent", "=ds=#e27#", ""};
