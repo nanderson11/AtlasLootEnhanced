@@ -368,6 +368,7 @@ if AL then
 	--AL["Tier 13 Set"] = true;
 	--AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = "Objets des cartes à jouer"; -- Trading Card Game Items
+	AL["Rare Mobs"] = "Monstres rares";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
