@@ -158,6 +158,7 @@ AtlasLoot_LootTableRegister = {
 				{ "HoFMeljarak", 6, EncounterJournalID = 741 },
 				{ "HoFUnsok", 7, EncounterJournalID = 737 },
 				{ "HoFShekzeer", 9, EncounterJournalID = 743 },
+				{ "HoFTrash", 11 },
 			},
 			["Info"] = { BabbleZone["Heart of Fear"], "AtlasLootMoP", mapname = "HeartofFear", raid = true, EncounterJournalID = 330 },
 		},

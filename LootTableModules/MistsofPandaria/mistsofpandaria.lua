@@ -934,8 +934,9 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 86821, "", "=q4=Bracers of Unseen Strikes", "=ds=#s8#, #a2#" },
 				{ 5, 86826, "", "=q4=Bracers of Tempestuous Fury", "=ds=#s8#, #a3#" },
 				{ 6, 90739, "", "=q4=Kaz'tik's Stormseizer Gauntlets", "=ds=#s9#, #a3#" },
-				{ 7, 86823, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
-				{ 8, 86822, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
+				{ 7, 89955, "", "=q4=Sword Dancer's Leggings", "=ds=#s11#, #a3#" },
+				{ 8, 86823, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
+				{ 9, 86822, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
 				{ 16, 86824, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86820, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86829, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
@@ -949,8 +950,9 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 86163, "", "=q4=Bracers of Unseen Strikes", "=ds=#s8#, #a2#" },
 				{ 5, 86168, "", "=q4=Bracers of Tempestuous Fury", "=ds=#s8#, #a3#" },
 				{ 6, 90738, "", "=q4=Kaz'tik's Stormseizer Gauntlets", "=ds=#s9#, #a3#" },
-				{ 7, 86165, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
-				{ 8, 86164, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
+				{ 7, 89830, "", "=q4=Sword Dancer's Leggings", "=ds=#s11#, #a3#" },
+				{ 8, 86165, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
+				{ 9, 86164, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
 				{ 16, 86166, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86162, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86171, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
@@ -964,8 +966,9 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 86954, "", "=q4=Bracers of Unseen Strikes", "=ds=#s8#, #a2#" },
 				{ 5, 86962, "", "=q4=Bracers of Tempestuous Fury", "=ds=#s8#, #a3#" },
 				{ 6, 90740, "", "=q4=Kaz'tik's Stormseizer Gauntlets", "=ds=#s9#, #a3#" },
-				{ 7, 86956, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
-				{ 8, 86955, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
+				{ 7, 89920, "", "=q4=Sword Dancer's Leggings", "=ds=#s11#, #a3#" },
+				{ 8, 86956, "", "=q4=Windblade Talons", "=ds=#s9#, #a4#" },
+				{ 9, 86955, "", "=q4=Waistplate of Overwhelming Assault", "=ds=#s10#, #a4#" },
 				{ 16, 86953, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86957, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86960, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
@@ -1163,6 +1166,55 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743),
+			module = moduleName, instance = "HeartofFear",
+		};
+	};
+
+	AtlasLoot_Data["HoFTrash"] = {
+		["RaidFinder"] = {
+			{
+				{ 1, 86850, "", "=q4=Darting Damselfly Cuffs", "=ds=#s8#, #a1#" },
+				{ 2, 86844, "", "=q4=Gleaming Moth Cuffs", "=ds=#s8#, #a1#" },
+				{ 3, 86841, "", "=q4=Shining Cicada Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 86845, "", "=q4=Pearlescent Butterfly Wristbands", "=ds=#s8#, #a2#" },
+				{ 5, 86843, "", "=q4=Smooth Beetle Wristbands", "=ds=#s8#, #a2#" },
+				{ 6, 86847, "", "=q4=Jagged Hornet Bracers", "=ds=#s8#, #a3#" },
+				{ 7, 86842, "", "=q4=Luminescent Firefly Wristguards", "=ds=#s8#, #a3#" },
+				{ 8, 86846, "", "=q4=Inlaid Cricket Bracers", "=ds=#s8#, #a4#" },
+				{ 9, 86849, "", "=q4=Plated Locust Bracers", "=ds=#s8#, #a4#" },
+				{ 10, 86848, "", "=q4=Serrated Wasp Bracers", "=ds=#s8#, #a4#" },
+			};
+		};
+		["Normal"] = {
+			{
+				{ 1, 86192, "", "=q4=Darting Damselfly Cuffs", "=ds=#s8#, #a1#" },
+				{ 2, 86186, "", "=q4=Gleaming Moth Cuffs", "=ds=#s8#, #a1#" },
+				{ 3, 86183, "", "=q4=Shining Cicada Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 86187, "", "=q4=Pearlescent Butterfly Wristbands", "=ds=#s8#, #a2#" },
+				{ 5, 86185, "", "=q4=Smooth Beetle Wristbands", "=ds=#s8#, #a2#" },
+				{ 6, 86189, "", "=q4=Jagged Hornet Bracers", "=ds=#s8#, #a3#" },
+				{ 7, 86184, "", "=q4=Luminescent Firefly Wristguards", "=ds=#s8#, #a3#" },
+				{ 8, 86188, "", "=q4=Inlaid Cricket Bracers", "=ds=#s8#, #a4#" },
+				{ 9, 86191, "", "=q4=Plated Locust Bracers", "=ds=#s8#, #a4#" },
+				{ 10, 86190, "", "=q4=Serrated Wasp Bracers", "=ds=#s8#, #a4#" },
+			};
+		};
+		["Heroic"] = {
+			{
+				{ 1, 86993, "", "=q4=Darting Damselfly Cuffs", "=ds=#s8#, #a1#" },
+				{ 2, 86994, "", "=q4=Gleaming Moth Cuffs", "=ds=#s8#, #a1#" },
+				{ 3, 86992, "", "=q4=Shining Cicada Bracers", "=ds=#s8#, #a1#" },
+				{ 4, 86996, "", "=q4=Pearlescent Butterfly Wristbands", "=ds=#s8#, #a2#" },
+				{ 5, 86995, "", "=q4=Smooth Beetle Wristbands", "=ds=#s8#, #a2#" },
+				{ 6, 86997, "", "=q4=Jagged Hornet Bracers", "=ds=#s8#, #a3#" },
+				{ 7, 86998, "", "=q4=Luminescent Firefly Wristguards", "=ds=#s8#, #a3#" },
+				{ 8, 86999, "", "=q4=Inlaid Cricket Bracers", "=ds=#s8#, #a4#" },
+				{ 9, 87000, "", "=q4=Plated Locust Bracers", "=ds=#s8#, #a4#" },
+				{ 10, 87001, "", "=q4=Serrated Wasp Bracers", "=ds=#s8#, #a4#" },
+			};
+		};
+		info = {
+			name = "trash",
 			module = moduleName, instance = "HeartofFear",
 		};
 	};
