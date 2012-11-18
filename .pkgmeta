@@ -65,8 +65,8 @@ ignore:
 	- Modules/TemplateFile.lua
 	- Core/DEVTOOLS.lua
 	- Loader/Libs/LibDataBroker-1.1
+	- Libs/LibHelpPlate
 	- Libs/LibAboutPanel
-	- save.txt
 	- AtlasLoot.toc
 	
 move-folders:
