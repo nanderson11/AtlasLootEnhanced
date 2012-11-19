@@ -21,6 +21,7 @@ Updated Transformation section.
 Updated Heirloom section.
 Updated Legendary Items section.
 Updated Love is in the Air with the new ilvl 480 rewards.
+Updated Pilgrim's Bounty.
 Revamped Feast of Winter Veil.
 Revamped Lunar Festival.
 Many minor fixes, additions and translations.
