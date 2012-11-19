@@ -3,8 +3,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
+local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
-
 
 	AtlasLoot_Data["WORLDEVENTMENU"] = {
 		["Normal"] = {
@@ -264,13 +264,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["ETHEREUMMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "ArmbreakerHuffaz", "INV_Jewelry_Ring_59", "=ds="..AL["Armbreaker Huffaz"], ""};
-				{ 3, "Forgosh", "INV_Boots_05", "=ds="..AL["Forgosh"], ""};
-				{ 4, "MalevustheMad", "INV_Boots_Chain_04", "=ds="..AL["Malevus the Mad"], ""};
-				{ 5, "WrathbringerLaztarash", "INV_Misc_Orb_01", "=ds="..AL["Wrathbringer Laz-tarash"], ""};
-				{ 17, "FelTinkererZortan", "INV_Boots_Chain_08", "=ds="..AL["Fel Tinkerer Zortan"], ""};
-				{ 18, "Gulbor", "INV_Jewelry_Necklace_29Naxxramas", "=ds="..AL["Gul'bor"], ""};
-				{ 19, "PorfustheGemGorger", "INV_Boots_Cloth_01", "=ds="..AL["Porfus the Gem Gorger"], ""};
+				{ 2, "ArmbreakerHuffaz", "INV_Jewelry_Ring_59", "=ds="..BabbleRare["Armbreaker Huffaz"], ""};
+				{ 3, "Forgosh", "INV_Boots_05", "=ds="..BabbleRare["Forgosh"], ""};
+				{ 4, "MalevustheMad", "INV_Boots_Chain_04", "=ds="..BabbleRare["Malevus the Mad"], ""};
+				{ 5, "WrathbringerLaztarash", "INV_Misc_Orb_01", "=ds="..BabbleRare["Wrathbringer Laz-tarash"], ""};
+				{ 17, "FelTinkererZortan", "INV_Boots_Chain_08", "=ds="..BabbleRare["Fel Tinkerer Zortan"], ""};
+				{ 18, "Gulbor", "INV_Jewelry_Necklace_29Naxxramas", "=ds="..BabbleRare["Gul'bor"], ""};
+				{ 19, "PorfustheGemGorger", "INV_Boots_Cloth_01", "=ds="..BabbleRare["Porfus the Gem Gorger"], ""};
 				{ 20, "BashirStasisChambers", "INV_Trinket_Naxxramas02", "=ds="..AL["Bash'ir Landing Stasis Chambers"], ""};
 			};
 		};
@@ -283,11 +283,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SKETTISMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "DarkscreecherAkkarai", "INV_Misc_Rune_07", "=ds="..AL["Darkscreecher Akkarai"], ""};
-				{ 3, "GezzaraktheHuntress", "INV_Misc_Rune_07", "=ds="..AL["Gezzarak the Huntress"], ""};
-				{ 4, "Terokk", "INV_Misc_Rune_07", "=ds="..AL["Terokk"], ""};
-				{ 17, "Karrog", "INV_Misc_Rune_07", "=ds="..AL["Karrog"], ""};
-				{ 18, "VakkiztheWindrager", "INV_Misc_Rune_07", "=ds="..AL["Vakkiz the Windrager"], ""};
+				{ 2, "Terokk", "inv_qirajidol_war", "=ds="..BabbleRare["Terokk"], ""};
+				{ 4, "DarkscreecherAkkarai", "spell_nature_natureswrath", "=ds="..BabbleRare["Darkscreecher Akkarai"], ""};
+				{ 5, "GezzaraktheHuntress", "inv_misc_monsterclaw_01", "=ds="..BabbleRare["Gezzarak the Huntress"], ""};
+				{ 19, "Karrog", "inv_datacrystal08", "=ds="..BabbleRare["Karrog"], ""};
+				{ 20, "VakkiztheWindrager", "inv_misc_monsterscales_13", "=ds="..BabbleRare["Vakkiz the Windrager"], ""};
 			};
 		};
 		info = {

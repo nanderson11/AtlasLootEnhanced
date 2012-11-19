@@ -3,6 +3,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
+local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLoot_WorldEvents"
 
@@ -1417,7 +1418,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Armbreaker Huffaz"],
+			name = BabbleRare["Armbreaker Huffaz"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1440,7 +1441,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Fel Tinkerer Zortan"],
+			name = BabbleRare["Fel Tinkerer Zortan"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1463,7 +1464,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Forgosh"],
+			name = BabbleRare["Forgosh"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1486,7 +1487,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Gul'bor"],
+			name = BabbleRare["Gul'bor"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1509,7 +1510,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Malevus the Mad"],
+			name = BabbleRare["Malevus the Mad"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1532,7 +1533,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Porfus the Gem Gorger"],
+			name = BabbleRare["Porfus the Gem Gorger"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1555,7 +1556,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Wrathbringer Laz-tarash"],
+			name = BabbleRare["Wrathbringer Laz-tarash"],
 			module = moduleName, menu = "ETHEREUMMENU"
 		};
 	};
@@ -1593,21 +1594,21 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["DarkscreecherAkkarai"] = {
 		["Normal"] = {
 			{
-				{ 1, 32529, "", "=q3=Heretic's Gauntlets", "=ds=#s9#, #a4#", "", "17.3%"};
-				{ 2, 32715, "", "=q2=Akkarai's Talons", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.3%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "4.3%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "6.8%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "6.2%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "4.1%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "4.5%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "5.5%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "31.5%"};
+				{ 2, 32529, "", "=q3=Heretic's Gauntlets", "=ds=#s9#, #a4#", "", "17.3%"};
+				{ 3, 32715, "", "=q2=Akkarai's Talons", "=ds=#m3#", "", "100%"};
+				{ 17, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.3%"};
+				{ 18, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "4.3%"};
+				{ 19, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "6.8%"};
+				{ 20, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "6.2%"};
+				{ 21, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "4.1%"};
+				{ 22, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "4.5%"};
+				{ 23, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
+				{ 24, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "5.5%"};
+				{ 25, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "31.5%"};
 			};
 		};
 		info = {
-			name = AL["Darkscreecher Akkarai"],
+			name = BabbleRare["Darkscreecher Akkarai"],
 			module = moduleName, menu = "SKETTISMENU"
 		};
 	};
@@ -1615,21 +1616,21 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Karrog"] = {
 		["Normal"] = {
 			{
-				{ 1, 32533, "", "=q3=Karrog's Shard", "=ds=#s15#", "", "15.0%"};
-				{ 2, 32717, "", "=q2=Karrog's Spine", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.6%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "6.8%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "6.0%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "8.0%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.6%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "3.6%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "4.3%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "5.3%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "24.9%"};
+				{ 2, 32533, "", "=q3=Karrog's Shard", "=ds=#s15#", "", "15.0%"};
+				{ 3, 32717, "", "=q2=Karrog's Spine", "=ds=#m3#", "", "100%"};
+				{ 17, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.6%"};
+				{ 18, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "6.8%"};
+				{ 19, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "6.0%"};
+				{ 20, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "8.0%"};
+				{ 21, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.6%"};
+				{ 22, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "3.6%"};
+				{ 23, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "4.3%"};
+				{ 24, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "5.3%"};
+				{ 25, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "24.9%"};
 			};
 		};
 		info = {
-			name = AL["Karrog"],
+			name = BabbleRare["Karrog"],
 			module = moduleName, menu = "SKETTISMENU"
 		};
 	};
@@ -1637,21 +1638,21 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["GezzaraktheHuntress"] = {
 		["Normal"] = {
 			{
-				{ 1, 32531, "", "=q3=Gezzarak's Fang", "=ds=#s2#", "", "16.9%"};
-				{ 2, 32716, "", "=q2=Gezzarak's Claws", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.2%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "6.9%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "5.2%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "4.9%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.8%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "5.4%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "6.2%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "4.6%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "25.7%"};
+				{ 2, 32531, "", "=q3=Gezzarak's Fang", "=ds=#s2#", "", "16.9%"};
+				{ 3, 32716, "", "=q2=Gezzarak's Claws", "=ds=#m3#", "", "100%"};
+				{ 17, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.2%"};
+				{ 18, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "6.9%"};
+				{ 19, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "5.2%"};
+				{ 20, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "4.9%"};
+				{ 21, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.8%"};
+				{ 22, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "5.4%"};
+				{ 23, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "6.2%"};
+				{ 24, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "4.6%"};
+				{ 25, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "25.7%"};
 			};
 		};
 		info = {
-			name = AL["Gezzarak the Huntress"],
+			name = BabbleRare["Gezzarak the Huntress"],
 			module = moduleName, menu = "SKETTISMENU"
 		};
 	};
@@ -1659,21 +1660,21 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["VakkiztheWindrager"] = {
 		["Normal"] = {
 			{
-				{ 1, 32532, "", "=q3=Windrager's Coils", "=ds=#s8#, #a3#", "", "18.1%"};
-				{ 2, 32718, "", "=q2=Vakkiz's Scale", "=ds=#m3#", "", "100%"};
-				{ 4, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.0%"};
-				{ 5, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "4.4%"};
-				{ 6, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "4.1%"};
-				{ 7, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "3.9%"};
-				{ 8, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.7%"};
-				{ 9, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "6.3%"};
-				{ 10, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "5.8%"};
-				{ 11, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "2.7%"};
-				{ 12, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "28.7%"};
+				{ 2, 32532, "", "=q3=Windrager's Coils", "=ds=#s8#, #a3#", "", "18.1%"};
+				{ 3, 32718, "", "=q2=Vakkiz's Scale", "=ds=#m3#", "", "100%"};
+				{ 17, 31558, "", "=q3=Windchanneller's Bindings", "=ds=#s8#, #a1#", "", "5.0%"};
+				{ 18, 31555, "", "=q3=Windchanneller's Ceinture", "=ds=#s10#, #a1#", "", "4.4%"};
+				{ 19, 31566, "", "=q3=Skystalker's Bracers", "=ds=#s8#, #a2#", "", "4.1%"};
+				{ 20, 31563, "", "=q3=Skystalker's Cord", "=ds=#s10#, #a2#", "", "3.9%"};
+				{ 21, 31574, "", "=q3=Mistshroud Bracers", "=ds=#s8#, #a3#", "", "5.7%"};
+				{ 22, 31571, "", "=q3=Mistshroud Belt", "=ds=#s10#, #a3#", "", "6.3%"};
+				{ 23, 31582, "", "=q3=Slatesteel Bracers", "=ds=#s8#, #a4#", "", "5.8%"};
+				{ 24, 31579, "", "=q3=Slatesteel Girdle", "=ds=#s10#, #a4#", "", "2.7%"};
+				{ 25, 32514, "", "=q3=Skettis Band", "=ds=#s13#", "", "28.7%"};
 			};
 		};
 		info = {
-			name = AL["Vakkiz the Windrager"],
+			name = BabbleRare["Vakkiz the Windrager"],
 			module = moduleName, menu = "SKETTISMENU"
 		};
 	};
@@ -1681,21 +1682,21 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Terokk"] = {
 		["Normal"] = {
 			{
-				{ 1, 32540, "", "=q4=Terokk's Might", "=ds=#s4#", "", "4.6%"};
-				{ 2, 32541, "", "=q4=Terokk's Wisdom", "=ds=#s4#", "", "4.6%"};
-				{ 3, 31556, "", "=q3=Windchanneller's Leggings", "=ds=#s11#, #a1#", "", "14.3%"};
-				{ 4, 31564, "", "=q3=Skystalker's Leggings", "=ds=#s11#, #a2#", "", "13.9%"};
-				{ 5, 31572, "", "=q3=Mistshroud Pants", "=ds=#s11#, #a3#", "", "10.7%"};
-				{ 6, 31580, "", "=q3=Slatesteel Leggings", "=ds=#s11#, #a4#", "", "11.6%"};
-				{ 7, 32535, "", "=q3=Gift of the Talonpriests", "=ds=#s13#", "", "7.9%"};
-				{ 8, 32534, "", "=q3=Brooch of the Immortal King", "=ds=#s14#", "", "11.2%"};
-				{ 9, 32782, "", "=q3=Time-Lost Figurine", "=ds=#s14#", "", ""};
-				{ 10, 32536, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6#", "", "6.7%"};
-				{ 11, 32537, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6#", "", "7.9%"};
+				{ 2, 32540, "", "=q4=Terokk's Might", "=ds=#s4#", "", "4.6%"};
+				{ 3, 32541, "", "=q4=Terokk's Wisdom", "=ds=#s4#", "", "4.6%"};
+				{ 4, 31556, "", "=q3=Windchanneller's Leggings", "=ds=#s11#, #a1#", "", "14.3%"};
+				{ 5, 31564, "", "=q3=Skystalker's Leggings", "=ds=#s11#, #a2#", "", "13.9%"};
+				{ 6, 31572, "", "=q3=Mistshroud Pants", "=ds=#s11#, #a3#", "", "10.7%"};
+				{ 7, 31580, "", "=q3=Slatesteel Leggings", "=ds=#s11#, #a4#", "", "11.6%"};
+				{ 8, 32535, "", "=q3=Gift of the Talonpriests", "=ds=#s13#", "", "7.9%"};
+				{ 9, 32534, "", "=q3=Brooch of the Immortal King", "=ds=#s14#", "", "11.2%"};
+				{ 10, 32782, "", "=q3=Time-Lost Figurine", "=ds=#s14#", "", ""};
+				{ 11, 32537, "", "=q3=Terokk's Gavel", "=ds=#h3#, #w6#", "", "7.9%"};
+				{ 12, 32536, "", "=q3=Terokk's Gavel", "=ds=#h1#, #w6#", "", "6.7%"};
 			};
 		};
 		info = {
-			name = AL["Terokk"],
+			name = BabbleRare["Terokk"],
 			module = moduleName, menu = "SKETTISMENU"
 		};
 	};
