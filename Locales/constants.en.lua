@@ -625,8 +625,6 @@ if AL then
 	AL["First Prize"] = true;
 	AL["Rare Fish Rewards"] = true;
 	AL["Rare Fish"] = true;
-	AL["Heirloom"] = true;
-	AL["PvP Heirlooms"] = true;
 	AL["Weapons"] = true;
 	AL["Accessories"] = true;
 	AL["Rare"] = true;
@@ -640,6 +638,9 @@ if AL then
 	AL["Level 30-39"] = true;
 	AL["Level 40-49"] = true;
 	AL["Level 50-60"] = true;
+	AL["Level 60-69"] = true;
+	AL["Level 70-79"] = true;
+	AL["Level 85-89"] = true;
 	AL["Summon"] = true;
 	AL["Random"] = true;
 
@@ -768,6 +769,13 @@ if AL then
 	AL["Additional Effects Transformation Items"] = true;
 	AL["Consumable Transformation Items"] = true;
 	AL["Non-consumed Transformation Items"] = true;
+
+	-- Heirloom and BoA Items
+	AL["Heirloom"] = true;
+	AL["PvP Heirlooms"] = true;
+	AL["Bind on Account"] = true;
+	AL["Bind on Account Armor"] = true;
+	AL["Bind on Account Weapons"] = true;
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = true;

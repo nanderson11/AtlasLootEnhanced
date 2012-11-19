@@ -9,6 +9,7 @@ v7.03.02 (?? ??, 2012)
 Compatible with Patch 5.1.
 Added Fishing to the crafting menus.
 Added new Pets and Mounts.
+Added Bind on Account items.
 Added Sha of Anger quest rewards.
 Added prices for faction rewards.
 Added Golden Lotus, Shado Pan and Klaxxi quest rewards.

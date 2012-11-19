@@ -6542,6 +6542,91 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+	AtlasLoot_Data["HeirloomBoAArmor"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 85-89"], "=q1="..AL["Mists of Pandaria"]};
+				{ 2, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
+				{ 3, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
+				{ 4, 89611, "", "=q3=Quilen Statuette", "=ds=#s14#"};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Level 85"], "=q1="..AL["Cataclysm"]};
+				{ 7, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#s13#"};
+				{ 8, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#s14#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Level 60-69"], ""};
+				{ 17, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#s1#, #a3#"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Level 50-60"], ""};
+				{ 20, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds=#s5#, #a1#"};
+			};
+		};
+		info = {
+			name = AL["Bind on Account Armor"],
+			module = moduleName, menu = "HEIRLOOMMENU",
+		};
+	}
+
+	AtlasLoot_Data["HeirloomBoAWeapons"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 90"], "=q1="..AL["Mists of Pandaria"]};
+				{ 2, 79340, "", "=q4=Inscribed Crane Staff", "=ds=#w9#"};
+				{ 3, 79341, "", "=q4=Inscribed Serpent Staff", "=ds=#w9#"};
+				{ 4, 79343, "", "=q4=Inscribed Tiger Staff", "=ds=#w9#"};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Level 85-89"], "=q1="..AL["Mists of Pandaria"]};
+				{ 7, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
+				{ 8, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
+				{ 9, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
+				{ 10, 86199, "", "=q3=Jade Infused Blade", "=ds=#h1#, #w10#"};
+				{ 11, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
+				{ 12, 86523, "", "=q3=Swarming Cleaver of Ka'roz", "=ds=#h2#, #w10#"};
+				{ 13, 85777, "", "=q3=Ancient Pandaren Mining Pick", "=ds=#h1#, #w1#"};
+				{ 14, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
+				{ 15, 86198, "", "=q3=Hammer of Ten Thunders", "=ds=#h2#, #w6#"};
+				{ 16, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
+				{ 17, 86394, "", "=q3=Hozen Warrior Spear", "=ds=#w7#"};
+				{ 18, 89685, "", "=q3=Spear of Xuen", "=ds=#w7#"};
+				{ 19, 88723, "", "=q3=Sturdy Yaungol Spear", "=ds=#w7#"};
+				{ 20, 86520, "", "=q3=Malik's Stalwart Spear", "=ds=#w7#"};
+				{ 21, 86196, "", "=q3=Ancient Jinyu Staff", "=ds=#w9#"};
+				{ 22, 86218, "", "=q3=Staff of the Hidden Master", "=ds=#w9#"};
+				{ 23, 86524, "", "=q3=Dissector's Staff of Mutation", "=ds=#w9#"};
+				{ 24, 89684, "", "=q3=Umbrella of Chi-Ji", "=ds=#s15#"};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 85"], "=q1="..AL["Cataclysm"]};
+				{ 2, 64885, "", "=q4=Scimitar of the Sirocco", "=ds=#h1#, #w10#"};
+				{ 3, 64377, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#h2#, #w10#"};
+				{ 4, 64880, "", "=q4=Staff of Ammunae", "=ds=#w9#"};
+				{ 5, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#w9#"};
+				{ 6, 69764, "", "=q4=Extinct Turtle Shell", "=ds=#w8#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Level 70-79"], ""};
+				{ 17, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#h1#, #w1#"};
+			};
+		};
+		info = {
+			name = AL["Bind on Account Weapons"],
+			module = moduleName, menu = "HEIRLOOMMENU",
+		};
+	}
+
+	AtlasLoot_Data["HeirloomBoAMisc"] = {
+		["Normal"] = {
+			{
+				{ 1, 64881, "", "=q4=Pendant of the Scarab Storm", "=ds="};
+				{ 2, 33079, "", "=q3=Murloc Costume", "#ACHIEVEMENTID:412#"};
+				{ 4, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
+				{ 6, 86574, "", "=q3=Elixir of Ancient Knowledge", "=ds="};
+				{ 16, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
+				{ 17, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
+				{ 19, 63517, "", "=q2=Baradin's Wardens Commendation", "=ds=", "#TOLBARAD:10#"};
+				{ 20, 63518, "", "=q2=Hellscream's Reach Commendation", "=ds=", "#TOLBARAD:10#"};
+			};
+		};
+		info = {
+			name = AL["Bind on Account"], --- Name not final
+			module = moduleName, menu = "HEIRLOOMMENU",
+		};
+	}
+
 		-----------------------
 		--- BoE World Epics ---
 		-----------------------
