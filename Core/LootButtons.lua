@@ -1146,6 +1146,7 @@ end
 --- Set the amount of an item
 function AltasLootItemButton:SetAmount(amount)
 	self.Frame.IconAmount:SetText(amount)
+	self.amount = amount
 end
 		
 --- Clears the button
@@ -1171,16 +1172,19 @@ end
 -- Refreshs the button
 -- @usage AltasLootItemButton:Refresh()
 function AltasLootItemButton:Refresh()
-	local tabLinkSave = self.tableLink
+	local tabLinkSave = self.tableLink	
+	local amountSave = self.amount
 	
 	if self.item == true and self.spell == false and self.info then
 		self:SetItem(self.info[2], self.info[3], self.info[4], self.info[5], self.info[6], self.info[7])
-		self:SetLink(self.tableLink)
+		self:SetLink(tabLinkSave)
+		self:SetAmount(amountSave)
 	elseif self.item == true and self.spell == false and self.info then
 		self:SetSpell(self.info[1], self.info[2], self.info[3], self.info[4], self.info[5], self.info[6])
-		self:SetLink(self.tableLink)
+		self:SetLink(tabLinkSave)
+		self:SetAmount(amountSave)
 	elseif self.item == false and self.spell == false and self.info then
-		self:SetMenu(self.tableLink, self.info[3], self.info[4], self.info[5])
+		self:SetMenu(tabLinkSave, self.info[3], self.info[4], self.info[5])
 	end
 end
 
