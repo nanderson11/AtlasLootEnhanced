@@ -169,4 +169,6 @@ AtlasLoot_IngameLocales = {
 	["The Saga of Terokk"] = GetItemInfo(27634),
 }
 
-setmetatable(AtlasLoot_IngameLocales, { __index = function(tab, key) return tab[key] or key end } )
+do
+	setmetatable(AtlasLoot_IngameLocales, { __index = function(tab, key) return rawget(tab, key) or key end } )
+end
