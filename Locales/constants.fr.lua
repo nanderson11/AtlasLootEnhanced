@@ -623,8 +623,6 @@ if AL then
 	AL["First Prize"] = "1er prix";
 	AL["Rare Fish Rewards"] = "Récompenses des poissons rares";
 	AL["Rare Fish"] = "Poissons rares";
-	AL["Heirloom"] = "Héritage";
-	AL["PvP Heirlooms"] = "Héritages JcJ";
 	AL["Weapons"] = "Armes";
 	AL["Accessories"] = "Accessoires";
 	--AL["Rare"] = true;
@@ -638,6 +636,9 @@ if AL then
 	AL["Level 30-39"] = "Niveau 30-39";
 	AL["Level 40-49"] = "Niveau 40-49";
 	AL["Level 50-60"] = "Niveau 50-60";
+	AL["Level 60-69"] = "Niveau 60-69";
+	AL["Level 70-79"] = "Niveau 70-79";
+	AL["Level 85-89"] = "Niveau 85-89";
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 
@@ -766,6 +767,13 @@ if AL then
 	AL["Additional Effects Transformation Items"] = "Effets supplémentaires pour les objets de transformation";
 	AL["Consumable Transformation Items"] = "Objets consommables de transformation";
 	AL["Non-consumed Transformation Items"] = "Objets non-consommables de transformation";
+
+	-- Heirloom and BoA Items
+	AL["Heirloom"] = "Héritage";
+	AL["PvP Heirlooms"] = "Héritages JcJ";
+	AL["Bind on Account"] = "Lié au compte";
+	AL["Bind on Account Armor"] = "Armures liées au compte";
+	AL["Bind on Account Weapons"] = "Armes liées au compte";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Récompenses Foire de Sombrelune";
