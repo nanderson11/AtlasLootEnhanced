@@ -479,10 +479,10 @@ if AL then
 	AL["Guild"] = "公会";
 
 	-- Blacksmithing
-	AL["Mists of Pandaria Vendor Sold Plans"] = "熊猫人之谜商人出售图纸";
-	AL["Cataclysm Vendor Sold Plans"] = "大地的裂变商人出售图纸";
 	AL["Armor Enhancements"] = "护甲强化";
 	AL["Weapon Enhancements"] = "武器强化";
+	AL["Cataclysm Vendor Sold Plans"] = "大地的裂变商人出售图纸";
+	AL["Mists of Pandaria Vendor Sold Plans"] = "熊猫人之谜商人出售图纸";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "盛宴/大餐";
@@ -536,6 +536,7 @@ if AL then
 	AL["Shirts"] = "衬衣";
 	AL["Bags"] = "容器";
 	AL["Cataclysm Vendor Sold Patterns"] = "大地的裂变商人出售图样";
+	AL["Mists of Pandaria Vendor Sold Patterns"] = "熊猫人之谜商人出售图样";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "职业：";
@@ -615,7 +616,6 @@ if AL then
 	AL["Additional Heroic Loot"] = "英雄难度额外掉落";
 	AL["Heroic Mode"] = "英雄模式";
 	AL["Normal Mode"] = "普通模式";
-	AL["Raid"] = "团队";
 	AL["Hard Mode"] = "困难模式";
 	AL["Bonus Loot"] = "额外掉落";
 	AL["Arena Reward"] = "竞技场奖励";
@@ -626,8 +626,6 @@ if AL then
 	AL["First Prize"] = "第一名奖励";
 	AL["Rare Fish Rewards"] = "稀有鱼种奖励";
 	AL["Rare Fish"] = "稀有鱼种";
-	AL["Heirloom"] = "传家宝";
-	AL["PvP Heirlooms"] = "PvP 传家宝";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "附件";
 	AL["Rare"] = "稀有";
@@ -641,6 +639,9 @@ if AL then
 	AL["Level 30-39"] = "等级30-39";
 	AL["Level 40-49"] = "等级40-49";
 	AL["Level 50-60"] = "等级50-60";
+	AL["Level 60-69"] = "等级60-69";
+	AL["Level 70-79"] = "等级70-79";
+	AL["Level 85-89"] = "等级85-89";
 	AL["Summon"] = "召唤";
 	AL["Random"] = "随机";
 
@@ -769,6 +770,13 @@ if AL then
 	AL["Additional Effects Transformation Items"] = "具额外效果的变形物品";
 	AL["Consumable Transformation Items"] = "消耗性变形物品";
 	AL["Non-consumed Transformation Items"] = "非消耗性变形物品";
+
+	-- Heirloom and BoA Items
+	AL["Heirloom"] = "传家宝";
+	AL["PvP Heirlooms"] = "PvP 传家宝";
+	AL["Bind on Account"] = "帐号绑定";
+	AL["Bind on Account Armor"] = "帐号绑定护甲";
+	AL["Bind on Account Weapons"] = "帐号绑定武器";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月马戏团奖励";

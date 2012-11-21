@@ -479,10 +479,10 @@ if AL then
 	AL["Guild"] = "公會";
 
 	-- Blacksmithing
-	AL["Mists of Pandaria Vendor Sold Plans"] = "潘達利亞之謎供應商出售設計圖";
-	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商出售設計圖";
 	AL["Armor Enhancements"] = "護甲附魔";
 	AL["Weapon Enhancements"] = "武器附魔";
+	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商販售設計圖";
+	AL["Mists of Pandaria Vendor Sold Plans"] = "潘達利亞之謎供應商販售設計圖";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "盛宴/大餐";
@@ -503,7 +503,7 @@ if AL then
 	AL["Enchant Shield & Off-Hand"] = "附魔盾牌/副手";
 	AL["Enchant 2H Weapon"] = "附魔雙手武器";
 	AL["Enchant Weapon"] = "附魔武器";
-	AL["Cataclysm Vendor Sold Formulas"] = "浩劫與重生供應商出售公式";
+	AL["Cataclysm Vendor Sold Formulas"] = "浩劫與重生供應商販售公式";
 
 	-- Engineering
 	AL["Tinker"] = "工程師專屬";
@@ -535,7 +535,8 @@ if AL then
 	AL["Cloth Armor"] = "護甲";
 	AL["Shirts"] = "襯衣";
 	AL["Bags"] = "容器";
-	AL["Cataclysm Vendor Sold Patterns"] = "浩劫與重生商人販售的圖樣";
+	AL["Cataclysm Vendor Sold Patterns"] = "浩劫與重生供應商販售的圖樣";
+	AL["Mists of Pandaria Vendor Sold Patterns"] = "潘達利亞之謎供應商販售的圖樣"";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "職業：";
@@ -615,7 +616,6 @@ if AL then
 	AL["Additional Heroic Loot"] = "更多的英雄物品";
 	AL["Heroic Mode"] = "英雄模式";
 	AL["Normal Mode"] = "普通模式";
-	AL["Raid"] = "團隊";
 	AL["Hard Mode"] = "困難模式";
 	AL["Bonus Loot"] = "額外獎勵";
 	AL["Arena Reward"] = "競技場獎勵";
@@ -626,8 +626,6 @@ if AL then
 	AL["First Prize"] = "頭獎";
 	AL["Rare Fish Rewards"] = "稀有釣魚獎勵";
 	AL["Rare Fish"] = "稀有魚類";
-	AL["Heirloom"] = "家傳物品";
-	AL["PvP Heirlooms"] = "PvP 家傳物品";
 	AL["Weapons"] = "武器";
 	AL["Accessories"] = "配件";
 	AL["Rare"] = "稀有";
@@ -641,6 +639,9 @@ if AL then
 	AL["Level 30-39"] = "等級 30～39";
 	AL["Level 40-49"] = "等級 40～49";
 	AL["Level 50-60"] = "等級 50～60";
+	AL["Level 60-69"] = "等級 60～69";
+	AL["Level 70-79"] = "等級 70～79";
+	AL["Level 85-89"] = "等級 85～89";
 	AL["Summon"] = "召喚";
 	AL["Random"] = "隨機";
 
@@ -680,7 +681,7 @@ if AL then
 	AL["Special"] = "特殊";
 	AL["Feasts"] = "宴類";
 	AL["Speed"] = "速度";
-	AL["Oil"] = "油類"; -- Used in categorizing Enchating Misc, ex: Superior Wizard Oil, Wizard Oil
+	AL["Oil"] = "附魔油";
 	AL["Culture"] = "文化";
 	AL["Description"] = "描述";
 	AL["Dwarf"] = "矮人";
@@ -770,6 +771,13 @@ if AL then
 	AL["Consumable Transformation Items"] = "消耗性變形物品";
 	AL["Non-consumed Transformation Items"] = "非消耗性變形物品";
 
+	-- Heirloom and BoA Items
+	AL["Heirloom"] = "家傳物品";
+	AL["PvP Heirlooms"] = "PvP 家傳物品";
+	AL["Bind on Account"] = "帳號綁定";
+	AL["Bind on Account Armor"] = "帳號綁定護甲";
+	AL["Bind on Account Weapons"] = "帳號綁定武器";
+
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "暗月馬戲團獎勵";
 	AL["Low Level Decks"] = "低階套牌";
@@ -782,21 +790,21 @@ if AL then
 
 	-- First set
 	AL["Heroes of Azeroth"] = "艾澤拉斯的英雄";
-	AL["Landro Longshot"] = "藍卓·長射"; -- confirmed
-	AL["Thunderhead Hippogryph"] = "雷首角鷹獸"; -- confirmed
-	AL["Saltwater Snapjaw"] = "海水鉗嘴龜"; -- confirmed
+	AL["Landro Longshot"] = "藍卓·長射";
+	AL["Thunderhead Hippogryph"] = "雷首角鷹獸";
+	AL["Saltwater Snapjaw"] = "海水鉗嘴龜";
 
 	-- Second set
 	AL["Through The Dark Portal"] = "通過黑暗之門";
-	AL["King Mukla"] = "穆克拉"; -- confirmed
-	AL["Rest and Relaxation"] = "休息與放鬆"; -- confirmed
+	AL["King Mukla"] = "穆克拉";
+	AL["Rest and Relaxation"] = "休息與放鬆";
 	AL["Fortune Telling"] = "算命";
 
 	-- Third set
 	AL["Fires of Outland"] = "外域之火";
-	AL["Spectral Tiger"] = "鬼靈之虎"; -- confirmed
-	AL["Gone Fishin'"] = "去釣魚"; -- confirmed
-	AL["Goblin Gumbo"] = "哥布林燴肉"; -- confirmed
+	AL["Spectral Tiger"] = "鬼靈之虎";
+	AL["Gone Fishin'"] = "去釣魚";
+	AL["Goblin Gumbo"] = "哥布林燴肉";
 
 	-- Fourth set
 	AL["March of the Legion"] = "燃燒軍團的進軍";
@@ -824,33 +832,33 @@ if AL then
 
 	-- Eighth set
 	AL["Blood of Gladiators"] = "鬥士之血";
-	AL["Sandbox Tiger"] = "沙池虎"; -- confirmed
+	AL["Sandbox Tiger"] = "沙池虎";
 	--AL["Center of Attention"] = "";
-	AL["Foam Sword Rack"] = "泡沫之劍架"; -- confirmed
+	AL["Foam Sword Rack"] = "泡沫之劍架";
 
 	-- Ninth set
 	AL["Fields of Honor"] = "榮譽原野";
-	AL["Path of Cenarius"] = "塞納留斯之徑"; -- confirmed
-	AL["Pinata"] = "巨魔糖果玩偶"; -- confirmed
+	AL["Path of Cenarius"] = "塞納留斯之徑";
+	AL["Pinata"] = "巨魔糖果玩偶";
 	AL["El Pollo Grande"] = "艾伯格蘭德";
 
 	-- Tenth set
 	AL["Scourgewar"] = "天譴戰爭";
-	AL["Tiny"] = "迷你坐騎"; -- confirmed
-	AL["Tuskarr Kite"] = "巨牙海民風箏"; -- confirmed
+	AL["Tiny"] = "迷你坐騎";
+	AL["Tuskarr Kite"] = "巨牙海民風箏";
 	AL["Spectral Kitten"] = "鬼靈貓";
 
 	-- Eleventh set
 	AL["Wrathgate"] = "憤怒之門";
-	AL["Statue Generator"] = "速成雕像"; -- confirmed
-	AL["Landro's Gift"] = "藍卓的禮物盒"; -- confirmed
-	AL["Blazing Hippogryph"] = "熾熱的角鷹獸"; -- confirmed
+	AL["Statue Generator"] = "速成雕像";
+	AL["Landro's Gift"] = "藍卓的禮物盒";
+	AL["Blazing Hippogryph"] = "熾熱的角鷹獸";
 
 	-- Twelvth set
 	AL["Icecrown"] = "寒冰皇冠";
-	AL["Wooly White Rhino"] = "蓬毛犀牛坐騎"; -- confirmed
-	AL["Ethereal Portal"] = "傳送門之石"; -- confirmed
-	AL["Paint Bomb"] = "漆彈"; -- confirmed
+	AL["Wooly White Rhino"] = "蓬毛犀牛坐騎";
+	AL["Ethereal Portal"] = "傳送門之石";
+	AL["Paint Bomb"] = "漆彈";
 
 	-- Thirtheenth set
 	AL["Worldbreaker"] = "碎界者";
@@ -948,7 +956,7 @@ if AL then
 	AL["Drop"] = "掉落";
 	AL["Fished From"] = "釣魚從";
 	AL["Trainer"] = "訓練師";
-	AL["Vendor"] = "商人販售";
+	AL["Vendor"] = "供應商販售";
 	AL["World Drop"] = "世界掉落";
 
 	-- Months
@@ -1105,7 +1113,7 @@ if AL then
 	AL["Ayla Shadowstorm"] = "埃拉·暗影風暴";
 	AL["Damek Bloombeard"] = "達密克·濃鬚";
 	AL["Varlan Highbough"] = "瓦蘭·高枝";
-	AL["Firestone Vendor"] = "火石商人";
+	AL["Firestone Vendor"] = "火石供應商";
 	AL["Poseidus"] = "波賽達斯";
 	AL["Burgy Blackheart"] = "伯吉·黑心";
 	AL["Battle Pet Trainer"] = "寵物戰鬥訓練師";
@@ -1229,7 +1237,7 @@ if AL then
 	-- Old Atlas Detected
 	AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "您現在的 Atlas 插件版本並不完全支援此版本的 Atlasloot, Atlas 的最新版本為 (";
 	AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = "). 依 Atlas 版本的變化, AtlasLoot 也許會出現偶然的錯誤, 請儘快前往 http://www.atlasmod.com 更新";
-	AL["OK"] = "OK";
+	AL["OK"] = "確定";
 	AL["Incompatible Atlas Detected"] = "偵測到不相容的 Atlas 版本";
 
 	-- Unsafe item tooltip
