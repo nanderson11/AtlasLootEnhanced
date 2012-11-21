@@ -2572,7 +2572,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 85973, "", "=q3=Ancient Pandaren Fishing Charm", "=ds="};
 				{ 22, 0, "inv_box_04", "=q6="..BabbleRare["Ghostly Pandaren Fisherman"], "=ds="};
 				{ 23, 86079, "", "=q0=Ancient Pandaren Woodcutter", "=ds=#h3#, #w1#"};
-				{ 25, 0, "inv_box_04", "=q6=Cache of Pilfered Goods", "=ds="};
+				{ 25, 0, "inv_box_04", "=q6="..BabbleRare["Cache of Pilfered Goods"], "=ds="};
 				{ 26, 86113, "", "=q3=Stolen Amulet of Might", "=ds=#s2#"};
 				{ 27, 86112, "", "=q3=Stolen Amulet of Wisdom", "=ds=#s2#"};
 				{ 28, 86111, "", "=q3=Stolen Necklace of Accuracy", "=ds=#s2#"};
@@ -2595,9 +2595,9 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(857), "=ds="};
 				{ 2, 86124, "", "=q3=Pandaren Fishing Spear", "=ds=#w7#"};
-				{ 4, 0, "inv_box_04", "=q6=Barrel of Banana Infused Rum", "=ds="};
+				{ 4, 0, "inv_box_04", "=q6="..BabbleRare["Barrel of Banana Infused Rum"], "=ds="};
 				{ 5, 87266, "", "=q1=Recipe: Banana Infused Rum", "=ds=#p3#"};
-				{ 7, 0, "inv_box_04", "=q6=Equipment Locker", "=ds="};
+				{ 7, 0, "inv_box_04", "=q6="..BabbleRare["Equipment Locker"], "=ds="};
 				{ 8, 86117, "", "=q3=Seafarer's Treads of Precision", "=ds=#s12#, #a1#"};
 				{ 9, 86118, "", "=q3=Seafaring Advisor's Slippers", "=ds=#s12#, #a1#"};
 				{ 10, 86119, "", "=q3=Seafarer's Boots of Meditation", "=ds=#s12#, #a2#"};
@@ -2612,7 +2612,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 86393, "", "=q1=Tablet of Ren Yun", "=ds=#p3#"};
 				{ 21, 0, "inv_box_04", "=q6="..BabbleRare["Frozen Trail Packer"], "=ds="};
 				{ 22, 86125, "", "=q3=Kafa Press", "=ds="};
-				{ 24, 0, "inv_box_04", "=q6=Sprite's Cloth Chest", "=ds="};
+				{ 24, 0, "inv_box_04", "=q6="..BabbleRare["Sprite's Cloth Chest"], "=ds="};
 				{ 25, 86223, "", "=q3=Agile Sprite Cloak", "=ds=#s4#"};
 				{ 26, 86222, "", "=q3=Precise Sprite Cloak", "=ds=#s4#"};
 				{ 27, 86224, "", "=q3=Steadfast Sprite Cape", "=ds=#s4#"};

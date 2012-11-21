@@ -316,7 +316,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 7, 86468, "", "=q7=Apron", "=ds=#s7#", "#IRONPAW:50#"};
 				{ 9, 88563, "", "=q7=Nat's Fishing Journal", "=ds=#m2#", "1,000 #gold#"};
 				{ 11, "HeirloomBoAArmor", "trade_archaeology_ancientorcshamanheaddress", "=ds="..AL["Bind on Account Armor"], ""};
-				{ 12, "HeirloomBoAMisc", "trade_archaeology_pendant-of-the-aqir", "=ds=Misc", ""};
+				{ 12, "HeirloomBoAMisc", "trade_archaeology_pendant of the aqir", "=ds="..AL["Misc"], ""};
 				{ 17, "Heirloom#2", "inv_chest_plate03", "=ds="..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"], ""};
 				{ 18, "Heirloom#3", "INV_Helmet_01", "=ds="..AL["Accessories"].." / "..AL["Weapons"], ""};
 				{ 20, 44133, "", "=q7=Greater Inscription of the Axe", "=ds=#s3# #e17#", "100 #gold#"};

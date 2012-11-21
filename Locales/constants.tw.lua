@@ -536,7 +536,7 @@ if AL then
 	AL["Shirts"] = "襯衣";
 	AL["Bags"] = "容器";
 	AL["Cataclysm Vendor Sold Patterns"] = "浩劫與重生供應商販售的圖樣";
-	AL["Mists of Pandaria Vendor Sold Patterns"] = "潘達利亞之謎供應商販售的圖樣"";
+	AL["Mists of Pandaria Vendor Sold Patterns"] = "潘達利亞之謎供應商販售的圖樣";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "職業：";
