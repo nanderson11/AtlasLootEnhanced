@@ -5665,7 +5665,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 0, "INV_Box_01", "=q6="..BabbleFaction["The Wyrmrest Accord"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(488)};
 				{ 21, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#", "=ds=2,000 #gold#"};
 				{ 23, 0, "INV_Box_01", "=q6="..BabbleFaction["The Oracles"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(493)};
-				{ 24, 44707, "", "=q4=Reins of the Green Proto-Drake", "=ds=#e27#", "=q2="..AL["Mysterious Egg"], ""};
+				{ 24, 44707, "", "=q4=Reins of the Green Proto-Drake", "=ds=#e27#", "=q2="..AtlasLoot_IngameLocales["Mysterious Egg"], ""};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Netherwing"].." #j30#", "=q1="..AtlasLoot:GetMapNameByID(473)};
