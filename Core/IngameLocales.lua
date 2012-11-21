@@ -153,6 +153,7 @@ AtlasLoot_IngameLocales = {
 	["Sack of Pet Supplies"] = GetItemInfo(89125),
 	---- Related to Professions
 	["Small Spice Bag"] = GetItemInfo(44113),
+	["Spirit of Harmony"] = GetItemInfo(76061),
 	["Stendel's Bane"] = GetItemInfo(68795),
 	["Treasures of the Vale"] = GetItemInfo(90625),
 	---- Related to BoE World Epics

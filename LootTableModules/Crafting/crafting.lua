@@ -187,6 +187,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- Elemental
 ----- Tribal
 ----- Cataclysm Vendor Sold Patterns
+----- Mists of Pandaria Vendor Sold Patterns
 ---- Mining
 ---- Tailoring
 ----- Armor
@@ -204,6 +205,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 ----- Shadoweave
 ----- Spellfire
 ----- Cataclysm Vendor Sold Patterns
+----- Mists of Pandaria Vendor Sold Patterns
 --- Profession Sets
 ---- Blacksmithing Mail Sets
 ---- Blacksmithing Plate Sets
@@ -1936,42 +1938,42 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingCataVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 66117, "", "=q1=Plans: Vicious Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 2, 66125, "", "=q1=Plans: Vicious Ornate Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 3, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" },
-				{ 4, 66118, "", "=q1=Plans: Vicious Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
-				{ 5, 66126, "", "=q1=Plans: Vicious Ornate Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" },
-				{ 6, 66119, "", "=q1=Plans: Vicious Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 7, 66107, "", "=q1=Plans: Elementium Girdle of Pain", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 8, 66105, "", "=q1=Plans: Hardened Elementium Girdle", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 9, 66109, "", "=q1=Plans: Light Elementium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 10, 66127, "", "=q1=Plans: Vicious Ornate Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" },
-				{ 11, 66120, "", "=q1=Plans: Vicious Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 12, 67603, "", "=q1=Plans: Elementium Gutslicer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 13, 66113, "", "=q1=Plans: Elementium Bonesplitter", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 14, 66106, "", "=q1=Plans: Elementium Deathplate", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 15, 66111, "", "=q1=Plans: Elementium Hammer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 16, 66104, "", "=q1=Plans: Hardened Elementium Hauberk", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 17, 66108, "", "=q1=Plans: Light Elementium Chestguard", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 18, 66128, "", "=q1=Plans: Vicious Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" },
-				{ 19, 66121, "", "=q1=Plans: Vicious Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 20, 66115, "", "=q1=Plans: Elementium Earthguard", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 21, 66112, "", "=q1=Plans: Elementium Poleaxe", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 22, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 23, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 24, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 25, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" },
-				{ 26, 66129, "", "=q1=Plans: Vicious Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" },
-				{ 27, 66124, "", "=q1=Plans: Vicious Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 28, 66123, "", "=q1=Plans: Vicious Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 29, 66122, "", "=q1=Plans: Vicious Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 1, 66106, "", "=q1=Plans: Elementium Deathplate", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 2, 66107, "", "=q1=Plans: Elementium Girdle of Pain", "=ds=#p2# (510)", "20 #elementiumbar#" };
+				{ 4, 66104, "", "=q1=Plans: Hardened Elementium Hauberk", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 5, 66105, "", "=q1=Plans: Hardened Elementium Girdle", "=ds=#p2# (510)", "20 #elementiumbar#" };
+				{ 7, 66108, "", "=q1=Plans: Light Elementium Chestguard", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 8, 66109, "", "=q1=Plans: Light Elementium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" };
+				{ 10, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 11, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 12, 66103, "", "=q1=Plans: Pyrium Weapon Chain", "=ds=#p2# (500)", "20 #elementiumbar#" };
+				{ 16, 67603, "", "=q1=Plans: Elementium Gutslicer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 17, 66113, "", "=q1=Plans: Elementium Bonesplitter", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 18, 66111, "", "=q1=Plans: Elementium Hammer", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 19, 66112, "", "=q1=Plans: Elementium Poleaxe", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
+				{ 20, 66114, "", "=q1=Plans: Elementium Shank", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
+				{ 21, 66110, "", "=q1=Plans: Elementium Spellblade", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
+				{ 22, 67606, "", "=q1=Plans: Forged Elementium Mindcrusher", "=ds=#p2# (520)", "5 #pyriumbar#" };
+				{ 24, 66115, "", "=q1=Plans: Elementium Earthguard", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
+				{ 25, 66116, "", "=q1=Plans: Elementium Stormshield", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
 			};
 			{
-				{ 1, 66100, "", "=q1=Plans: Ebonsteel Belt Buckle", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 2, 66132, "", "=q1=Plans: Vicious Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 3, 66131, "", "=q1=Plans: Vicious Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 4, 66130, "", "=q1=Plans: Vicious Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" },
-				{ 5, 66101, "", "=q1=Plans: Pyrium Shield Spike", "=ds=#p2# (525)", "5 #pyriumbar#" },
+				{ 1, 66123, "", "=q1=Plans: Vicious Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 2, 66121, "", "=q1=Plans: Vicious Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
+				{ 3, 66124, "", "=q1=Plans: Vicious Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 4, 66117, "", "=q1=Plans: Vicious Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" };
+				{ 5, 66118, "", "=q1=Plans: Vicious Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" };
+				{ 6, 66119, "", "=q1=Plans: Vicious Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" };
+				{ 7, 66122, "", "=q1=Plans: Vicious Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 8, 66120, "", "=q1=Plans: Vicious Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
+				{ 16, 66131, "", "=q1=Plans: Vicious Ornate Pyrium Helm", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 17, 66129, "", "=q1=Plans: Vicious Ornate Pyrium Shoulders", "=ds=#p2# (520)", "2 #hardenedelementiumbar#" };
+				{ 18, 66132, "", "=q1=Plans: Vicious Ornate Pyrium Breastplate", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 19, 66125, "", "=q1=Plans: Vicious Ornate Pyrium Bracers", "=ds=#p2# (500)", "20 #elementiumbar#" };
+				{ 20, 66126, "", "=q1=Plans: Vicious Ornate Pyrium Gauntlets", "=ds=#p2# (505)", "20 #elementiumbar#" };
+				{ 21, 66127, "", "=q1=Plans: Vicious Ornate Pyrium Belt", "=ds=#p2# (510)", "20 #elementiumbar#" };
+				{ 22, 66130, "", "=q1=Plans: Vicious Ornate Pyrium Legguards", "=ds=#p2# (525)", "5 #pyriumbar#" };
+				{ 23, 66128, "", "=q1=Plans: Vicious Ornate Pyrium Boots", "=ds=#p2# (515)", "2 #hardenedelementiumbar#" };
 			};
 		};
 		info = {
@@ -1983,32 +1985,34 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingMoPVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 84163, "", "=q1=Plans: Contender's Revenant Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 2, 84165, "", "=q1=Plans: Contender's Revenant Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 3, 84161, "", "=q1=Plans: Contender's Revenant Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 4, 84160, "", "=q1=Plans: Contender's Revenant Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 5, 84162, "", "=q1=Plans: Contender's Revenant Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 6, 84158, "", "=q1=Plans: Contender's Revenant Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 7, 84164, "", "=q1=Plans: Contender's Revenant Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 8, 84159, "", "=q1=Plans: Contender's Revenant Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 9, 84171, "", "=q1=Plans: Contender's Spirit Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 10, 84173, "", "=q1=Plans: Contender's Spirit Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 11, 84169, "", "=q1=Plans: Contender's Spirit Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 12, 84168, "", "=q1=Plans: Contender's Spirit Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 13, 84170, "", "=q1=Plans: Contender's Spirit Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 14, 84166, "", "=q1=Plans: Contender's Spirit Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 15, 84172, "", "=q1=Plans: Contender's Spirit Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 16, 84167, "", "=q1=Plans: Contender's Spirit Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 17, 84224, "", "=q1=Plans: Masterwork Spiritguard Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 18, 84227, "", "=q1=Plans: Masterwork Spiritguard Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 19, 84222, "", "=q1=Plans: Masterwork Spiritguard Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 20, 84221, "", "=q1=Plans: Masterwork Spiritguard Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 21, 84223, "", "=q1=Plans: Masterwork Spiritguard Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 22, 84219, "", "=q1=Plans: Masterwork Spiritguard Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 23, 84225, "", "=q1=Plans: Masterwork Spiritguard Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 24, 84220, "", "=q1=Plans: Masterwork Spiritguard Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 25, 84208, "", "=q1=Plans: Masterwork Lighsteel Shield", "=ds=#p2# (575)", "1 #spiritofharmony#" },
-				{ 26, 84226, "", "=q1=Plans: Masterwork Spiritguard Shield", "=ds=#p2# (575)", "1 #spiritofharmony#" },
+				{ 1, 84163, "", "=q1=Plans: Contender's Revenant Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 2, 84165, "", "=q1=Plans: Contender's Revenant Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 3, 84161, "", "=q1=Plans: Contender's Revenant Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 4, 84160, "", "=q1=Plans: Contender's Revenant Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 5, 84162, "", "=q1=Plans: Contender's Revenant Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 6, 84158, "", "=q1=Plans: Contender's Revenant Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 7, 84164, "", "=q1=Plans: Contender's Revenant Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 8, 84159, "", "=q1=Plans: Contender's Revenant Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 16, 84171, "", "=q1=Plans: Contender's Spirit Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 17, 84173, "", "=q1=Plans: Contender's Spirit Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 18, 84169, "", "=q1=Plans: Contender's Spirit Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 19, 84168, "", "=q1=Plans: Contender's Spirit Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 20, 84170, "", "=q1=Plans: Contender's Spirit Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 21, 84166, "", "=q1=Plans: Contender's Spirit Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 22, 84172, "", "=q1=Plans: Contender's Spirit Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 23, 84167, "", "=q1=Plans: Contender's Spirit Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+			};
+			{
+				{ 1, 84224, "", "=q1=Plans: Masterwork Spiritguard Helm", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 2, 84227, "", "=q1=Plans: Masterwork Spiritguard Shoulders", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 3, 84222, "", "=q1=Plans: Masterwork Spiritguard Breastplate", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 4, 84221, "", "=q1=Plans: Masterwork Spiritguard Bracers", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 5, 84223, "", "=q1=Plans: Masterwork Spiritguard Gauntlets", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 6, 84219, "", "=q1=Plans: Masterwork Spiritguard Belt", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 7, 84225, "", "=q1=Plans: Masterwork Spiritguard Legplates", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 8, 84220, "", "=q1=Plans: Masterwork Spiritguard Boots", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 16, 84208, "", "=q1=Plans: Masterwork Lighsteel Shield", "=ds=#p2# (575)", "1 #spiritofharmony#" };
+				{ 17, 84226, "", "=q1=Plans: Masterwork Spiritguard Shield", "=ds=#p2# (575)", "1 #spiritofharmony#" };
 			};
 		};
 		info = {
@@ -3057,20 +3061,20 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["EnchantingCataVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 64411, "", "=q2=Formula: Enchant Boots - Assassin's Step", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 2, 64412, "", "=q2=Formula: Enchant Boots - Lavawalker", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 3, 52738, "", "=q2=Formula: Enchant Bracer - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 4, 64413, "", "=q2=Formula: Enchant Bracer - Greater Speed", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 5, 52740, "", "=q2=Formula: Enchant Chest - Greater Stamina", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 6, 52739, "", "=q2=Formula: Enchant Chest - Peerless Stats", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 7, 52737, "", "=q2=Formula: Enchant Cloak - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 8, 64414, "", "=q2=Formula: Enchant Gloves - Greater Mastery", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 9, 64415, "", "=q2=Formula: Enchant Gloves - Mighty Strength", "=ds=#p4# (525)", "5 #heavenlyshard#" },
-				{ 10, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
-				{ 11, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
-				{ 12, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" },
-				{ 13, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..BabbleFaction["Alliance"] },
-				{ 14, 67308, "", "=q3=Formula: Enchanted Lantern", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..BabbleFaction["Horde"] },
+				{ 1, 64411, "", "=q2=Formula: Enchant Boots - Assassin's Step", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 2, 64412, "", "=q2=Formula: Enchant Boots - Lavawalker", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 3, 52738, "", "=q2=Formula: Enchant Bracer - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 4, 64413, "", "=q2=Formula: Enchant Bracer - Greater Speed", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 5, 52740, "", "=q2=Formula: Enchant Chest - Greater Stamina", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 6, 52739, "", "=q2=Formula: Enchant Chest - Peerless Stats", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 7, 52737, "", "=q2=Formula: Enchant Cloak - Greater Critical Strike", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 8, 64414, "", "=q2=Formula: Enchant Gloves - Greater Mastery", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 9, 64415, "", "=q2=Formula: Enchant Gloves - Mighty Strength", "=ds=#p4# (525)", "5 #heavenlyshard#" };
+				{ 10, 52736, "", "=q3=Formula: Enchant Weapon - Landslide", "=ds=#p4# (525)", "5 #maelstromcrystal#" };
+				{ 11, 52733, "", "=q3=Formula: Enchant Weapon - Power Torrent", "=ds=#p4# (525)", "5 #maelstromcrystal#" };
+				{ 12, 52735, "", "=q3=Formula: Enchant Weapon - Windwalk", "=ds=#p4# (525)", "5 #maelstromcrystal#" };
+				{ 13, 67312, "", "=q3=Formula: Magic Lamp", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..BabbleFaction["Alliance"] };
+				{ 14, 67308, "", "=q3=Formula: Enchanted Lantern", "=ds=#p4# (525)", "20 #hypnoticdust#, =ds="..BabbleFaction["Horde"] };
 			};
 		};
 		info = {
@@ -6763,57 +6767,105 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["LeatherworkingCataVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 52980, "", "=q3=Pristine Hide", "=ds=#e8#", "10 #heavysavageleather#" },
-				{ 2, 67054, "", "=q1=Pattern: Vicious Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 3, 67055, "", "=q1=Pattern: Vicious Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 4, 67046, "", "=q1=Pattern: Vicious Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 5, 67048, "", "=q1=Pattern: Vicious Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 6, 67049, "", "=q1=Pattern: Vicious Charscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 7, 67053, "", "=q1=Pattern: Vicious Charscale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 8, 67044, "", "=q1=Pattern: Vicious Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 9, 67042, "", "=q1=Pattern: Vicious Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" },
-				{ 10, 67065, "", "=q1=Pattern: Vicious Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 11, 67066, "", "=q1=Pattern: Vicious Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 12, 67060, "", "=q1=Pattern: Vicious Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 13, 67062, "", "=q1=Pattern: Vicious Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 14, 67064, "", "=q1=Pattern: Vicious Charscale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 15, 67063, "", "=q1=Pattern: Vicious Charscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 16, 67058, "", "=q1=Pattern: Vicious Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 17, 67056, "", "=q1=Pattern: Vicious Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" },
-				{ 18, 67080, "", "=q1=Pattern: Vicious Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 19, 67081, "", "=q1=Pattern: Vicious Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 20, 67076, "", "=q1=Pattern: Vicious Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 21, 67077, "", "=q1=Pattern: Vicious Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 22, 67079, "", "=q1=Pattern: Vicious Charscale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 23, 67078, "", "=q1=Pattern: Vicious Charscale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 24, 67075, "", "=q1=Pattern: Vicious Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 25, 67074, "", "=q1=Pattern: Vicious Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" },
-				{ 26, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 27, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 28, 67093, "", "=q1=Pattern: Vicious Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 29, 67092, "", "=q1=Pattern: Vicious Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 30, 67087, "", "=q1=Pattern: Vicious Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 1, 67095, "", "=q1=Pattern: Assassin's Chestplate", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 2, 67070, "", "=q1=Pattern: Belt of Nefarious Whispers", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 4, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 5, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 7, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 8, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 16, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 17, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 19, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 20, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 22, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 23, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 24, 71721, "", "=q1=Pattern: Drakehide Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 25, 52980, "", "=q3=Pristine Hide", "=ds=#e8#", "10 #heavysavageleather#" };
 			};
 			{
-				{ 1, 67089, "", "=q1=Pattern: Vicious Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 2, 67090, "", "=q1=Pattern: Vicious Charscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 3, 67091, "", "=q1=Pattern: Vicious Charscale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 4, 67086, "", "=q1=Pattern: Vicious Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 5, 67085, "", "=q1=Pattern: Vicious Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 6, 67084, "", "=q1=Pattern: Charscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 7, 67094, "", "=q1=Pattern: Chestguard of Nature's Fury", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 8, 67073, "", "=q1=Pattern: Corded Viper Belt", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 9, 67100, "", "=q1=Pattern: Dragonkiller Tunic", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 10, 68193, "", "=q1=Pattern: Dragonscale Leg Armor", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 11, 67068, "", "=q1=Pattern: Lightning Lash", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 12, 67082, "", "=q1=Pattern: Razor-Edged Cloak", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 13, 67072, "", "=q1=Pattern: Stormleather Sash", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 14, 67083, "", "=q1=Pattern: Twilight Dragonscale Cloak", "=ds=#p7# (525)", "10 #heavysavageleather#" },
-				{ 15, 67096, "", "=q1=Pattern: Twilight Scale Chestguard", "=ds=#p7# (525)", "10 #heavysavageleather#" },
+				{ 1, 67081, "", "=q1=Pattern: Vicious Dragonscale Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 2, 67055, "", "=q1=Pattern: Vicious Dragonscale Shoulders", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 3, 67093, "", "=q1=Pattern: Vicious Dragonscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 4, 67054, "", "=q1=Pattern: Vicious Dragonscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 5, 67066, "", "=q1=Pattern: Vicious Dragonscale Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 6, 67080, "", "=q1=Pattern: Vicious Dragonscale Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 7, 67092, "", "=q1=Pattern: Vicious Dragonscale Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 8, 67065, "", "=q1=Pattern: Vicious Dragonscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 16, 67077, "", "=q1=Pattern: Vicious Leather Helm", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 17, 67062, "", "=q1=Pattern: Vicious Leather Shoulders", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 18, 67087, "", "=q1=Pattern: Vicious Leather Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 19, 67046, "", "=q1=Pattern: Vicious Leather Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 20, 67048, "", "=q1=Pattern: Vicious Leather Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 21, 67076, "", "=q1=Pattern: Vicious Leather Belt", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 22, 67060, "", "=q1=Pattern: Vicious Leather Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 23, 67089, "", "=q1=Pattern: Vicious Leather Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+			};
+			{
+				{ 1, 67091, "", "=q1=Pattern: Vicious Charscale Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 2, 67078, "", "=q1=Pattern: Vicious Charscale Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 3, 67090, "", "=q1=Pattern: Vicious Charscale Chest", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 4, 67049, "", "=q1=Pattern: Vicious Charscale Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 5, 67053, "", "=q1=Pattern: Vicious Charscale Gloves", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 6, 67064, "", "=q1=Pattern: Vicious Charscale Belt", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 7, 67079, "", "=q1=Pattern: Vicious Charscale Legs", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 8, 67063, "", "=q1=Pattern: Vicious Charscale Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 16, 67086, "", "=q1=Pattern: Vicious Wyrmhide Helm", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 17, 67074, "", "=q1=Pattern: Vicious Wyrmhide Shoulders", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 18, 67075, "", "=q1=Pattern: Vicious Wyrmhide Chest", "=ds=#p7# (520)", "10 #heavysavageleather#" };
+				{ 19, 67042, "", "=q1=Pattern: Vicious Wyrmhide Bracers", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 20, 67056, "", "=q1=Pattern: Vicious Wyrmhide Gloves", "=ds=#p7# (515)", "10 #heavysavageleather#" };
+				{ 21, 67044, "", "=q1=Pattern: Vicious Wyrmhide Belt", "=ds=#p7# (510)", "10 #heavysavageleather#" };
+				{ 22, 67085, "", "=q1=Pattern: Vicious Wyrmhide Legs", "=ds=#p7# (525)", "10 #heavysavageleather#" };
+				{ 23, 67058, "", "=q1=Pattern: Vicious Wyrmhide Boots", "=ds=#p7# (515)", "10 #heavysavageleather#" };
 			};
 		};
 		info = {
 			name = LEATHERWORKING..": "..AL["Cataclysm Vendor Sold Patterns"],
+			module = moduleName, menu = "LEATHERWORKINGMENU",
+		};
+	};
+
+	AtlasLoot_Data["LeatherworkingMoPVendor"] = {
+		["Normal"] = {
+			{
+				{ 1, 86253, "", "=q1=Pattern: Contender's Leather Helm", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 2, 86255, "", "=q1=Pattern: Contender's Leather Shoulders", "=ds=#p7# (575)", "1 #spiritofharmony#"};
+				{ 3, 86251, "", "=q1=Pattern: Contender's Leather Chestguard", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 4, 86250, "", "=q1=Pattern: Contender's Leather Bracers", "=ds=#p7# (555)", "1 #spiritofharmony#"};
+				{ 5, 86252, "", "=q1=Pattern: Contender's Leather Gloves", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 6, 86248, "", "=q1=Pattern: Contender's Leather Belt", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 7, 86254, "", "=q1=Pattern: Contender's Leather Leggings", "=ds#p7# (565)", "1 #spiritofharmony#"};
+				{ 8, 86249, "", "=q1=Pattern: Contender's Leather Boots", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 16, 86269, "", "=q1=Pattern: Contender's Wyrmhide Helm", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 17, 86271, "", "=q1=Pattern: Contender's Wyrmhide Shoulders", "=ds=#p7# (575)", "1 #spiritofharmony#"};
+				{ 18, 86267, "", "=q1=Pattern: Contender's Wyrmhide Chestguard", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 19, 86266, "", "=q1=Pattern: Contender's Wyrmhide Bracers", "=ds=#p7# (555)", "1 #spiritofharmony#"};
+				{ 20, 86268, "", "=q1=Pattern: Contender's Wyrmhide Gloves", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 21, 86264, "", "=q1=Pattern: Contender's Wyrmhide Belt", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 22, 86270, "", "=q1=Pattern: Contender's Wyrmhide Leggings", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 23, 86265, "", "=q1=Pattern: Contender's Wyrmhide Boots", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+			};
+			{
+				{ 1, 86245, "", "=q1=Pattern: Contender's Dragonscale Helm", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 2, 86247, "", "=q1=Pattern: Contender's Dragonscale Shoulders", "=ds=#p7# (575)", "1 #spiritofharmony#"};
+				{ 3, 86241, "", "=q1=Pattern: Contender's Dragonscale Chestguard", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 4, 86242, "", "=q1=Pattern: Contender's Dragonscale Bracers", "=ds=#p7# (555)", "1 #spiritofharmony#"};
+				{ 5, 86244, "", "=q1=Pattern: Contender's Dragonscale Gloves", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 6, 86240, "", "=q1=Pattern: Contender's Dragonscale Belt", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 7, 86246, "", "=q1=Pattern: Contender's Dragonscale Leggings", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 8, 86241, "", "=q1=Pattern: Contender's Dragonscale Boots", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 16, 86261, "", "=q1=Pattern: Contender's Scale Helm", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 17, 86263, "", "=q1=Pattern: Contender's Scale Shoulders", "=ds=#p7# (575)", "1 #spiritofharmony#"};
+				{ 18, 86259, "", "=q1=Pattern: Contender's Scale Chestguard", "=ds=#p7# (590)", "1 #spiritofharmony#"};
+				{ 19, 86258, "", "=q1=Pattern: Contender's Scale Bracers", "=ds=#p7# (555)", "1 #spiritofharmony#"};
+				{ 20, 86260, "", "=q1=Pattern: Contender's Scale Gloves", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 21, 86256, "", "=q1=Pattern: Contender's Scale Belt", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 22, 86259, "", "=q1=Pattern: Contender's Scale Leggings", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+				{ 23, 86257, "", "=q1=Pattern: Contender's Scale Boots", "=ds=#p7# (565)", "1 #spiritofharmony#"};
+			};
+		};
+		info = {
+			name = LEATHERWORKING..": "..AL["Mists of Pandaria Vendor Sold Patterns"],
 			module = moduleName, menu = "LEATHERWORKINGMENU",
 		};
 	};
@@ -7310,9 +7362,9 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, "s125550", "82440", "=q4=Gloves of Creation", "=ds=#s9#, #a1# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
 				{ 8, "s125548", "82438", "=q4=Spelltwister's Gloves", "=ds=#s9#, #a1# / =q1=#sk# 600", "=ds="..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"]};
 				{ 9, "s125539", "82429", "=q3=Contender's Satin Cowl", "=ds=#s1#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
-				{ 10, "s125541", "82431", "=q3=Contender's Satin Rainment", "=ds=#s5#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 10, "s125541", "82431", "=q3=Contender's Satin Raiment", "=ds=#s5#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
 				{ 11, "s125531", "82421", "=q3=Contender's Silk Cowl", "=ds=#s1#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
-				{ 12, "s125533", "82423", "=q3=Contender's Silk Rainment", "=ds=#s5#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
+				{ 12, "s125533", "82423", "=q3=Contender's Silk Raiment", "=ds=#s5#, #a1# / =q1=#sk# 590", "=ds="..AL["Vendor"]};
 				{ 13, "s125540", "82430", "=q3=Contender's Satin Amice", "=ds=#s3#, #a1# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
 				{ 14, "s125532", "82422", "=q3=Contender's Silk Amice", "=ds=#s3#, #a1# / =q1=#sk# 575", "=ds="..AL["Vendor"]};
 				{ 15, "s125542", "82432", "=q3=Contender's Satin Handwraps", "=ds=#s9#, #a1# / =q1=#sk# 565", "=ds="..AL["Vendor"]};
@@ -7580,24 +7632,51 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TailoringCataVendor"] = {
 		["Normal"] = {
 			{
-				{ 1, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkbolt#" },
-				{ 2, 54593, "", "=q3=Pattern: Vicious Embersilk Cowl", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 3, 54594, "", "=q3=Pattern: Vicious Embersilk Pants", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 4, 54595, "", "=q3=Pattern: Vicious Embersilk Robe", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 5, 54596, "", "=q3=Pattern: Vicious Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 6, 54597, "", "=q3=Pattern: Vicious Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 7, 54598, "", "=q3=Pattern: Vicious Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 8, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 9, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkbolt#" },
-				{ 10, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 11, 54603, "", "=q3=Pattern: Breeches of Mended Nightmares", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 12, 54602, "", "=q3=Pattern: Dreamless Belt", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 13, 54604, "", "=q3=Pattern: Flame-Ascended Pantaloons", "=ds=#p8# (525)", "1 #dreamcloth#" },
-				{ 14, 54605, "", "=q3=Pattern: Illusionary Bag", "=ds=#p8# (525)", "1 #dreamcloth#" },
+				{ 1, 54601, "", "=q3=Pattern: Belt of the Depths", "=ds=#p8# (525)", "1 #dreamcloth#" };
+				{ 2, 54604, "", "=q3=Pattern: Flame-Ascended Pantaloons", "=ds=#p8# (525)", "1 #dreamcloth#" };
+				{ 4, 54603, "", "=q3=Pattern: Breeches of Mended Nightmares", "=ds=#p8# (525)", "1 #dreamcloth#" };
+				{ 5, 54602, "", "=q3=Pattern: Dreamless Belt", "=ds=#p8# (525)", "1 #dreamcloth#" };
+				{ 7, 54599, "", "=q3=Pattern: Powerful Enchanted Spellthread", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 8, 54600, "", "=q3=Pattern: Powerful Ghostly Spellthread", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 10, 68199, "", "=q3=Pattern: Black Embersilk Gown", "=ds=#p8# (500)", "8 #embersilkbolt#" };
+				{ 11, 54605, "", "=q3=Pattern: Illusionary Bag", "=ds=#p8# (525)", "1 #dreamcloth#" };
+				{ 16, 54593, "", "=q3=Pattern: Vicious Embersilk Cowl", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 17, 54595, "", "=q3=Pattern: Vicious Embersilk Robe", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 18, 54594, "", "=q3=Pattern: Vicious Embersilk Pants", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 20, 54596, "", "=q3=Pattern: Vicious Fireweave Cowl", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 21, 54598, "", "=q3=Pattern: Vicious Fireweave Robe", "=ds=#p8# (525)", "8 #embersilkbolt#" };
+				{ 22, 54597, "", "=q3=Pattern: Vicious Fireweave Pants", "=ds=#p8# (525)", "8 #embersilkbolt#" };
 			};
 		};
 		info = {
 			name = TAILORING..": "..AL["Cataclysm Vendor Sold Patterns"],
+			module = moduleName, menu = "TAILORINGMENU",
+		};
+	};
+
+	AtlasLoot_Data["TailoringMoPVendor"] = {
+		["Normal"] = {
+			{	
+				{ 1, 86360, "", "=q1=Pattern: Contender's Satin Cowl", "=ds=#p8# (590)", "1 #spiritofharmony#"};
+				{ 2, 86361, "", "=q1=Pattern: Contender's Satin Amice", "=ds=#p8# (575)", "1 #spiritofharmony#"};
+				{ 3, 86362, "", "=q1=Pattern: Contender's Satin Raiment", "=ds=#p8# (590)", "1 #spiritofharmony#"};
+				{ 4, 86365, "", "=q1=Pattern: Contender's Satin Cuffs", "=ds=#p8# (555)", "1 #spiritofharmony#"};
+				{ 5, 86363, "", "=q1=Pattern: Contender's Satin Handwraps", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 6, 86367, "", "=q1=Pattern: Contender's Satin Belt", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 7, 86364, "", "=q1=Pattern: Contender's Satin Pants", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 8, 86366, "", "=q1=Pattern: Contender's Satin Footwraps", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 16, 86352, "", "=q1=Pattern: Contender's Silk Cowl", "=ds=#p8# (590)", "1 #spiritofharmony#"};
+				{ 17, 86353, "", "=q1=Pattern: Contender's Silk Amice", "=ds=#p8# (575)", "1 #spiritofharmony#"};
+				{ 18, 86354, "", "=q1=Pattern: Contender's Silk Raiment", "=ds=#p8# (590)", "1 #spiritofharmony#"};
+				{ 19, 86357, "", "=q1=Pattern: Contender's Silk Cuffs", "=ds=#p8# (555)", "1 #spiritofharmony#"};
+				{ 20, 86355, "", "=q1=Pattern: Contender's Silk Handwraps", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 21, 86359, "", "=q1=Pattern: Contender's Silk Belt", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 22, 86356, "", "=q1=Pattern: Contender's Silk Pants", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+				{ 23, 86358, "", "=q1=Pattern: Contender's Silk Footwraps", "=ds=#p8# (565)", "1 #spiritofharmony#"};
+			};
+		};
+		info = {
+			name = TAILORING..": "..AL["Mists of Pandaria Vendor Sold Patterns"],
 			module = moduleName, menu = "TAILORINGMENU",
 		};
 	};

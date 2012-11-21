@@ -479,10 +479,10 @@ if AL then
 	AL["Guild"] = true;
 
 	-- Blacksmithing
-	AL["Mists of Pandaria Vendor Sold Plans"] = true;
-	AL["Cataclysm Vendor Sold Plans"] = true;
 	AL["Armor Enhancements"] = true;
 	AL["Weapon Enhancements"] = true;
+	AL["Cataclysm Vendor Sold Plans"] = true;
+	AL["Mists of Pandaria Vendor Sold Plans"] = true;
 
 	-- Cooking
 	AL["Banquets/Feasts"] = true;
@@ -536,6 +536,7 @@ if AL then
 	AL["Shirts"] = true;
 	AL["Bags"] = true;
 	AL["Cataclysm Vendor Sold Patterns"] = true;
+	AL["Mists of Pandaria Vendor Sold Patterns"] = true;
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = true;
