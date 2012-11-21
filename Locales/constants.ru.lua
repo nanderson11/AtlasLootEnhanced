@@ -914,7 +914,6 @@ if AL then
 	AL["Razzashi Raptor"] = "Ящер Раззаши";
 	AL["Deviate Ravager/Deviate Guardian"] = "Загадочный опустошитель/Загадочный страж";
 	AL["Servant's Quarter Animal Bosses"] = "Боссы Комнаты Слуг";
-	AL["The Behemoth"] = "Чудище";
 	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";
 
 	-- Zones

@@ -1074,7 +1074,6 @@ if AL then
 	AL["Razzashi Raptor"] = "Raptor Razzashi";
 	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
 	AL["Servant's Quarter Animal Bosses"] = "Quartiers des serviteurs (Boss animal)";
-	AL["The Behemoth"] = "Le Béhémoth";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
 	--AL["Zen'Vorka"] = true;
 	AL["Ayla Shadowstorm"] = "Ayla Ombretempête";

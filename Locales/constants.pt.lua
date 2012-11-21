@@ -865,7 +865,6 @@ if AL then
 	AL["Razzashi Raptor"] = "Razzashi Raptor";
 	AL["Deviate Ravager/Deviate Guardian"] = "Devastador Desviado/Guardião Desviado";
 	--AL["Servant's Quarter Animal Bosses"] = true; FALTA
-	AL["The Behemoth"] = "o Behemoth";
 	AL["Master Elemental Shaper Krixix"] = "Mestre Modelador de Elementos Krixix";
 
 	--Zones

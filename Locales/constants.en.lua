@@ -1033,7 +1033,6 @@ if AL then
 	AL["Rajaxx's Captains"] = true;
 	AL["Razorfen Spearhide"] = true;
 	AL["Felsteed"] = true; --- NPC name is Fel Steed. Drops Eerie Stable Lantern in SFK.
-	AL["The Behemoth"] = true; --- Needs to be added to BabbleRare
 	AL["Master Elemental Shaper Krixix"] = true; --- Needs to be added to BabbleBoss
 	AL["Rotted One"] = true;
 	AL["Tex Vortacoil"] = true;

@@ -1077,7 +1077,6 @@ if AL then
 	AL["Razzashi Raptor"] = "拉扎什迅猛龙";
 	AL["Deviate Ravager/Deviate Guardian"] = "变异破坏者/变异守护者";
 	AL["Servant's Quarter Animal Bosses"] = "仆役宿舍动物首领";
-	AL["The Behemoth"] = "贝哈默斯";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
 	AL["Zen'Vorka"] = "赞沃卡";
 	AL["Ayla Shadowstorm"] = "艾拉·影暴";

@@ -3,9 +3,9 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
+local BabbleRare = AtlasLoot_GetLocaleLibBabble("LibBabble-Rare-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootClassicWoW"
-
 
 -- Index
 --- Dungeons & Raids
@@ -1159,8 +1159,8 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Scarshield Quartermaster"], ""};
 				{ 2, 18987, "", "=q1=Blackhand's Command", "=ds=#m2#", "", "100%"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["The Behemoth"], ""};
-				{ 5, 11603, "", "=q3=Vilerend Slicer", "=ds=#h3#, #w13#", "", "95%"};
+				{ 4, 0, "INV_Box_01", "=q6="..BabbleRare["The Behemoth"], ""};
+				{ 5, 11603, "", "=q3=Vilerend Slicer", "=ds=#h1#, #w13#", "", "95%"};
 				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Overmaster Pyron"], ""};
 				{ 8, 14486, "", "=q3=Pattern: Cloak of Fire", "=ds=#p8# (275)", "", "17.95%"};
 			};

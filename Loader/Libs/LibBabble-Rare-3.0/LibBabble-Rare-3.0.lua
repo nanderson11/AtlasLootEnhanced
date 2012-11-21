@@ -104,6 +104,7 @@ lib:SetBaseTranslations {
 	Terokk = "Terokk",
 	Terrorpene = "Terrorpene",
 	["Thartuk the Exile"] = "Thartuk the Exile",
+	["The Behemoth"] = "The Behemoth",
 	["Time-Lost Proto Drake"] = "Time-Lost Proto Drake",
 	Trelopades = "Trelopades",
 	["Vakkiz the Windrager"] = "Vakkiz the Windrager",
