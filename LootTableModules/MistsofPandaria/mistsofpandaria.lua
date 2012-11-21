@@ -886,6 +886,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86854, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86814, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86813, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
+				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -902,6 +903,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86203, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86156, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86155, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
+				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -914,9 +916,11 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 86951, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
 				{ 7, 87822, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
 				{ 8, 86952, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
-				{ 9, 86944, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 9, 89919, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
+				{ 10, 86944, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86949, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86946, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
+				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -940,6 +944,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86824, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86820, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86829, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
+				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -956,6 +961,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86166, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86162, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86171, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
+				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -972,6 +978,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 86953, "", "=q4=Choker of the Unleashed Storm", "=ds=#s2#" },
 				{ 17, 86957, "", "=q4=Ring of the Bladed Tempest", "=ds=#s13#" },
 				{ 19, 86960, "", "=q4=Tornado-Summoning Censer", "=ds=#s15#" },
+				{ 21, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -994,6 +1001,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86837, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86835, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86830, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
+				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1009,6 +1017,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86179, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86177, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86172, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
+				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1024,6 +1033,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 86973, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86967, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86968, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
+				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1045,6 +1055,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89270, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86856, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
 				{ 21, 86851, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
+				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1059,6 +1070,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89242, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86205, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
 				{ 21, 86200, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
+				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1073,6 +1085,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89255, "", "=q4=Gauntlets of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86976, "", "=q4=Korven's Amber-Sealed Beetle", "=ds=#s2#" },
 				{ 21, 86974, "", "=q4=Painful Thorned Ring", "=ds=#s13#" },
+				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1094,6 +1107,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89267, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86862, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
 				{ 21, 86863, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
+				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1108,6 +1122,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89245, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86217, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
 				{ 21, 86219, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
+				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1122,6 +1137,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 89252, "", "=q4=Leggings of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
 				{ 20, 86983, "", "=q4=Un'sok's Amber Scalpel", "=ds=#h3#, #w4#" },
 				{ 21, 86987, "", "=q4=Scimitar of Seven Stars", "=ds=#h1#, #w10#" },
+				{ 23, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1134,34 +1150,46 @@ local moduleName = "AtlasLootMoP"
 		["RaidFinder"] = {
 			{
 				{ 1, 86867, "", "=q4=Leggings of Shadow Infestation", "=ds=#s11#, #a1#" },
-				{ 2, 86866, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
-				{ 4, 86865, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
-				{ 5, 86864, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 2, 89961, "", "=q4=Shadow Heart Spaulders", "=ds=#s3#, #a2#" },
+				{ 3, 86866, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
+				{ 4, 89962, "", "=q4=Hood of Dark Dreams", "=ds=#s1#, #a3#" },
+				{ 5, 89963, "", "=q4=Legplates of Regal Reinforcement", "=ds=#s11#, #a4#" },
+				{ 7, 86864, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 8, 86865, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
 				{ 16, 89265, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89266, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89264, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
 			{
 				{ 1, 86229, "", "=q4=Leggings of Shadow Infestation", "=ds=#s11#, #a1#" },
-				{ 2, 86228, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
-				{ 4, 86227, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
-				{ 5, 86226, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 2, 89836, "", "=q4=Shadow Heart Spaulders", "=ds=#s3#, #a2#" },
+				{ 3, 86228, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
+				{ 4, 89835, "", "=q4=Hood of Dark Dreams", "=ds=#s1#, #a3#" },
+				{ 5, 89837, "", "=q4=Legplates of Regal Reinforcement", "=ds=#s11#, #a4#" },
+				{ 7, 86226, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 8, 86227, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
 				{ 16, 89237, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89238, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89239, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
 			{
 				{ 1, 86989, "", "=q4=Leggings of Shadow Infestation", "=ds=#s11#, #a1#" },
-				{ 2, 86991, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
-				{ 4, 86990, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
-				{ 5, 86988, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 2, 89926, "", "=q4=Shadow Heart Spaulders", "=ds=#s3#, #a2#" },
+				{ 3, 86991, "", "=q4=Crown of the Doomed Empress", "=ds=#s1#, #a3#" },
+				{ 4, 89927, "", "=q4=Hood of Dark Dreams", "=ds=#s1#, #a3#" },
+				{ 5, 89928, "", "=q4=Legplates of Regal Reinforcement", "=ds=#s11#, #a4#" },
+				{ 7, 86988, "", "=q4=Claws of Shek'zeer", "=ds=#h1#, #w13#" },
+				{ 8, 86990, "", "=q4=Kri'tak, Imperial Scepter of the Swarm", "=ds=#h3#, #w6#" },
 				{ 16, 89250, "", "=q4=Chest of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89251, "", "=q4=Chest of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89249, "", "=q4=Chest of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
+				{ 20, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1212,6 +1240,7 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 86742, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 86739, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 86741, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
+				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1230,6 +1259,7 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 85925, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 85922, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 85924, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
+				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1248,6 +1278,7 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 87015, "", "=q4=Jasper Clawfeet", "=ds=#s12#, #a4#" },
 				{ 16, 87016, "", "=q4=Beads of the Mogu'shi", "=ds=#s2#" },
 				{ 18, 87012, "", "=q4=Dagger of the Seven Stars", "=ds=#h1#, #w4#" },
+				{ 20, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1273,6 +1304,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 89968, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 				{ 18, 89967, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89426, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1291,6 +1323,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 89803, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 				{ 18, 89802, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89424, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1309,6 +1342,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 89933, "", "=q4=Feng's Ring of Dreams", "=ds=#s13#" },
 				{ 18, 89932, "", "=q4=Feng's Seal of Binding", "=ds=#s13#" },
 				{ 20, 89425, "", "=q4=Fan of Fiery Winds", "=ds=#s15#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1333,6 +1367,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86767, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 86762, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
 				{ 20, 86764, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1350,6 +1385,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86038, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 85994, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
 				{ 20, 85996, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1367,6 +1403,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 87040, "", "=q4=Circuit of the Frail Soul", "=ds=#s13#" },
 				{ 19, 87032, "", "=q4=Gara'kal, Fist of the Spiritbinder", "=ds=#h1#, #w13#" },
 				{ 20, 87039, "", "=q4=Eye of the Ancient Spirit", "=ds=#w8#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1393,6 +1430,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86783, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 86777, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
 				{ 20, 86778, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1412,6 +1450,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 86083, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 86071, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
 				{ 20, 86075, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1431,6 +1470,7 @@ local moduleName = "AtlasLootMoP"
 				{ 17, 87053, "", "=q4=Zian's Choker of Coalesced Shadow", "=ds=#s2#" },
 				{ 19, 87046, "", "=q4=Screaming Tiger, Qiang's Unbreakable Polearm", "=ds=#w7#" },
 				{ 20, 87050, "", "=q4=Steelskin, Qiang's Impervious Shield", "=ds=#w8#" },
+				{ 22, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1449,6 +1489,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86800, "", "=q4=Shoulders of Empyreal Focus", "=ds=#s3#, #a3#" },
 				{ 6, 89974, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
 				{ 7, 86794, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
+				{ 9, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 16, 89972, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
 				{ 17, 86791, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
 				{ 18, 86792, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
@@ -1468,6 +1509,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 89821, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
 				{ 7, 86135, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", ""};
+				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 16, 89824, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
 				{ 17, 86132, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
 				{ 18, 86133, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
@@ -1487,6 +1529,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 89939, "", "=q4=Crown of Keening Stars", "=ds=#s1#, #a4#" },
 				{ 7, 87059, "", "=q4=Starcrusher Gauntlets", "=ds=#s9#, #a4#" },
 				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", ""};
+				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 16, 89937, "", "=q4=Band of Bursting Novas", "=ds=#s13#" },
 				{ 17, 87057, "", "=q4=Bottle of Infinite Stars", "=ds=#s14#" },
 				{ 18, 87065, "", "=q4=Light of the Cosmos", "=ds=#s14#" },
@@ -1519,6 +1562,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 86805, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
 				{ 20, 86806, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
 				{ 21, 86801, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
+				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -1537,6 +1581,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 86147, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
 				{ 20, 86148, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
 				{ 21, 86142, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
+				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -1555,6 +1600,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 87075, "", "=q4=Qin-xi's Polarizing Seal", "=ds=#s14#" },
 				{ 20, 87074, "", "=q4=Tihan, Scepter of the Sleeping Emperor", "=ds=#h3#, #w6#" },
 				{ 21, 87069, "", "=q4=Fang Kung, Spark of Titans", "=ds=#w2#" },
+				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -1910,6 +1956,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86876, "", "=q4=Casque of Expelled Corruption", "=ds=#s1#, #a4#" },
 				{ 6, 86868, "", "=q4=Bracers of Defiled Earth", "=ds=#s8#, #a4#" },
 				{ 7, 86870, "", "=q4=Deepwater Greatboots", "=ds=#s12#, #a4#" },
+				{ 9, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 10, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 86872, "", "=q4=Kaolan's Withering Necklace", "=ds=#s2#" },
 				{ 17, 86871, "", "=q4=Shackle of Eversparks", "=ds=#s2#" },
 				{ 18, 86869, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
@@ -1931,6 +1979,8 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86231, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 86315, "", "=q4=Watersoul Signet", "=ds=#s13#" },
 				{ 12, 86390, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90526, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#" },
 				{ 18, 90524, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
@@ -1962,6 +2012,8 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 87144, "", "=q4=Regail's Band of the Endless", "=ds=#s13#" },
 				{ 11, 87151, "", "=q4=Watersoul Signet", "=ds=#s13#" },
 				{ 12, 87152, "", "=q4=Regail's Crackling Dagger", "=ds=#h3#, #w4#" },
+				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 0, "inv_box_04", "=q6="..AL["Elite"], ""};
 				{ 17, 90512, "", "=q4=Cloak of Overwhelming Corruption", "=ds=#s4#" },
 				{ 18, 90510, "", "=q4=Cuffs of the Corrupted Waters", "=ds=#s8#, #a1#" },
@@ -2008,6 +2060,8 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 86881, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
 				{ 20, 86886, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
 				{ 21, 86879, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2032,6 +2086,8 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 86323, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
 				{ 20, 86328, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
 				{ 21, 86321, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -2056,6 +2112,8 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 87160, "", "=q4=Stuff of Nightmares", "=ds=#s14#" },
 				{ 20, 87164, "", "=q4=Loshan, Terror Incarnate", "=ds=#h1#, #w10#" },
 				{ 21, 87156, "", "=q4=Gao-Rei, Staff of the Legendary Protector", "=ds=#w9#" },
+				{ 23, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 24, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -2079,6 +2137,8 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86902, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 11, 86904, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 12, 86903, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89277, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89278, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89276, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2103,6 +2163,8 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 86383, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 11, 86385, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 12, 86384, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89246, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89247, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89248, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2127,6 +2189,8 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 87184, "", "=q4=Mender's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 11, 87186, "", "=q4=Patroller's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
 				{ 12, 87185, "", "=q4=Protector's Girdle of Endless Spring", "=ds=#s10#, #a4#" },
+				{ 14, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 15, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89262, "", "=q4=Shoulders of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89263, "", "=q4=Shoulders of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89261, "", "=q4=Shoulders of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2146,10 +2210,15 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ToESShaofFear"] = {
 		["RaidFinder"] = {
 			{
-				{ 1, 86908, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
-				{ 3, 86907, "", "=q4=Essence of Terror", "=ds=#s14#" },
-				{ 5, 86906, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
-				{ 6, 86905, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 1, 89984, "", "=q4=Robes of Pinioned Eyes", "=ds=#s5#, #a1#" },
+				{ 2, 86908, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				{ 3, 89985, "", "=q4=Wrap of Instant Petrification", "=ds=#s5#, #a2#" },
+				{ 4, 89986, "", "=q4=Shadowgrip Girdle", "=ds=#s10#, #a3#" },
+				{ 5, 86907, "", "=q4=Essence of Terror", "=ds=#s14#" },
+				{ 7, 86906, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 8, 86905, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 10, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 11, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89274, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89275, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89273, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2157,10 +2226,15 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-				{ 1, 86389, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
-				{ 3, 86388, "", "=q4=Essence of Terror", "=ds=#s14#" },
-				{ 5, 86387, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
-				{ 6, 86386, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 1, 89887, "", "=q4=Robes of Pinioned Eyes", "=ds=#s5#, #a1#" },
+				{ 2, 86389, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				{ 3, 89886, "", "=q4=Wrap of Instant Petrification", "=ds=#s5#, #a2#" },
+				{ 4, 89839, "", "=q4=Shadowgrip Girdle", "=ds=#s10#, #a3#" },
+				{ 5, 86388, "", "=q4=Essence of Terror", "=ds=#s14#" },
+				{ 7, 86387, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 8, 86386, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 10, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 11, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89235, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89236, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89234, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2172,6 +2246,8 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 87175, "", "=q4=Essence of Terror", "=ds=#s14#" },
 				{ 5, 87173, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 6, 87176, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 8, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 9, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89259, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89260, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89258, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
