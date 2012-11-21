@@ -838,12 +838,7 @@ if AL then
 	AL["Druid of the Fang"] = "Друид Клыка";
 	AL["Defias Strip Miner"] = "Горнорабочий из Братства Справедливости";
 	AL["Defias Overseer/Taskmaster"] = "Надзиратель из Братства Справедливости/Надсмотрщик";
-	AL["Scarlet Defender/Myrmidon"] = "Защитник из Алого ордена/Мирмидон";
-	AL["Scarlet Champion"] = "Воитель из Алого ордена";
-	AL["Scarlet Centurion"] = "Центурион из Алого ордена";
 	AL["Scarlet Trainee"] = "Новобранец из Алого ордена";
-	AL["Herod/Mograine"] = "Герод/Могрейн";
-	AL["Scarlet Protector/Guardsman"] = "Охранник/Заступник из Алого Ордена";
 	AL["Shadowforge Flame Keeper"] = "Тенегорнский хранитель огня";
 	AL["Avatar of the Martyred"] = "Аватара Мученика";
 	AL["Nexus Stalker"] = "Ловчий нексуса";
@@ -860,7 +855,6 @@ if AL then
 	AL["Scholomance Adept"] = "Адепт Некроситета";
 	AL["Scholomance Dark Summoner"] = "Призыватель Тьмы Некроситета";
 	AL["Blackhand Elite"] = "Элитный боец легиона Чернорука";
-	AL["Blackhand Assassin"] = "Убийца из легиона Чернорука";
 	AL["Firebrand Pyromancer"] = "Пиромант из легиона Огненного Клейма";
 	AL["Firebrand Invoker"] = "Призыватель духов из легиона Огненного Клейма";
 	AL["Firebrand Grunt"] = "Рубака из легиона Огненного Клейма";
@@ -873,7 +867,6 @@ if AL then
 	AL["Weapon Technician"] = "Оружейный техник";
 	AL["Doomforge Craftsman"] = "Ремесленник из клана Кузни Рока";
 	AL["Murk Worm"] = "Мракочервь";
-	AL["Atal'ai Witch Doctor"] = "Знахарь из племени Атал'ай";
 	AL["Raging Skeleton"] = "Свирепый скелет";
 	AL["Ethereal Priest"] = "Эфириал-жрец";
 	AL["Sethekk Ravenguard"] = "Сетеккский враностраж";
@@ -899,24 +892,8 @@ if AL then
 	AL["Aether-tech Assistant"] = "Помощник эфир-теха";
 	AL["Aether-tech Adept"] = "Адепт эфир-теха";
 	AL["Aether-tech Master"] = "Мастер эфир-теха";
-	AL["Trelopades"] = "Трелопадес";
-	AL["King Dorfbruiser"] = "Король Рубака";
-	AL["Gorgolon the All-seeing"] = "Горголон Всевидящий";
-	AL["Matron Li-sahar"] = "Сестра Ли-саар";
-	AL["Solus the Eternal"] = "Солус Вечный";
 	AL["Smokywood Pastures Vendor"] = "торговец-Пастбища Дымного Леса";
 	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
-	AL["Karrog"] = "Каррог";
-	AL["Gezzarak the Huntress"] = "Геззарак Охотница";
-	AL["Vakkiz the Windrager"] = "Ваккиз Ветрояр";
-	AL["Terokk"] = "Терокк";
-	AL["Armbreaker Huffaz"] = "Руколом Хуффаз";
-	AL["Fel Tinkerer Zortan"] = "Ремонтник Скверны Зортан";
-	AL["Forgosh"] = "Форгош";
-	AL["Gul'bor"] = "Гул'бор";
-	AL["Malevus the Mad"] = "Малевус Безумная";
-	AL["Porfus the Gem Gorger"] = "Порфус Пожиратель Самоцветов";
-	AL["Wrathbringer Laz-tarash"] = "Вестник Зла Лаз-тараш";
 	AL["Bash'ir Landing Stasis Chambers"] = "Палаты стазиса Лагеря Баш'ира";
 	AL["Templars"] = "Храмовники";
 	AL["Dukes"] = "Герцоги";
@@ -931,18 +908,12 @@ if AL then
 	AL["Razorfen Spearhide"] = "Копьешкур из племени Иглошкурых";
 	AL["Magregan Deepshadow"] = "Магреган Чернотень";
 	AL["Don Carlos"] = "Дон Карлос";
-	AL["Thomas Yance"] = "Томас Янс";
 	AL["Aged Dalaran Wizard"] = "Даларанский старый волшебник";
 	AL["Felsteed"] = "Скакун Скверны";
 	AL["Shattered Hand Executioner"] = "Палач из клана Изувеченной Длани";
-	AL["Time-Lost Proto Drake"] = "Затерянный во времени протодракон";
 	AL["Razzashi Raptor"] = "Ящер Раззаши";
 	AL["Deviate Ravager/Deviate Guardian"] = "Загадочный опустошитель/Загадочный страж";
 	AL["Servant's Quarter Animal Bosses"] = "Боссы Комнаты Слуг";
-	AL["Jadefang"] = "Яшмовый Клык";
-	AL["Aeonaxx"] = "Эонакс";
-	AL["Prince Sarsarun"] = "Принц Сарсарун";
-	AL["Dormus the Camel-Hoarder"] = "Дормус Погонщик Верблюдов"; 
 	AL["The Behemoth"] = "Чудище";
 	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";
 
@@ -964,17 +935,7 @@ if AL then
 	AL["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
 	AL["Fathom Core"] = "Глубинный сердечник";
 	AL["Gift of Adoration"] = "Дар обожания";
-	AL["Box of Chocolates"] = "Коробка шоколада";
 	AL["Treat Bag"] = "Сумка с лакомствами";
-	AL["Gaily Wrapped Present"] = "Подарок в яркой упаковке";
-	AL["Festive Gift"] = "Праздничный дар";
-	AL["Ticking Present"] = "Тикающий подарочек";
-	AL["Gently Shaken Gift"] = "Слегка растрясенный дар";
-	AL["Carefully Wrapped Present"] = "Тщательно упакованный подарок";
-	AL["Winter Veil Gift"] = "Подарок на Зимний покров";
-	AL["Smokywood Pastures Extra-Special Gift"] = "Эксклюзивный дар Пастбищ Дымного Леса";
-	AL["Brightly Colored Egg"] = "Раскрашенное яйцо";
-	AL["Lucky Red Envelope"] = "Красный конверт Счастья";
 	AL["Timed Reward Chest"] = "Сундук, награда за время";
 	AL["Timed Reward Chest 1"] = "1-й сундук, награда за время";
 	AL["Timed Reward Chest 2"] = "2-й сундук, награда за время";
@@ -989,15 +950,6 @@ if AL then
 	AL["Second Fragment Guardian"] = "Страж второго фрагмента";
 	AL["Third Fragment Guardian"] = "Страж третьего фрагмента";
 	AL["Overcharged Manacell"] = "Избыточно заряженный аккумулятор маны";
-	AL["Mysterious Egg"] = "Таинственное яйцо";
-	AL["Hyldnir Spoils"] = "Хильдские трофеи";
-	AL["Ripe Disgusting Jar"] = "Совершенно омерзительный кувшин";
-	AL["Cracked Egg"] = "Треснутое яйцо";
-	AL["Small Spice Bag"] = "Маленький мешочек со специями";
-	AL["Lovely Dress Box"] = "Коробка с красивым платьем";
-	AL["Dinner Suit Box"] = "Коробка с вечерним костюмом";
-	AL["Bag of Heart Candies"] = "Пакетик с леденцами-сердечками";
-	AL["Hidden Stash"] = "Секретная заначка";
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = "Ошибка AtlasLoot!";

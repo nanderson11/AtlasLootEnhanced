@@ -5231,12 +5231,12 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#", "=q2="..BabbleBoss["Lord Cobrahn"], "", "16.03%"};
 				{ 13, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#", "=q2="..BabbleBoss["Lord Serpentis"], "", "19.08%"};
 				{ 16, 0, "INV_Box_01", "=q6=#pre60s3#", "=ec1=#a3#. =q1="..BabbleZone["Scarlet Monastery"]};
-				{ 17, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#", "=q2="..AL["Scarlet Champion"], "", "0.3%"};
-				{ 18, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#", "=q2="..AL["Scarlet Protector/Guardsman"], "", "1.6%"};
-				{ 19, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#", "=q2="..AL["Scarlet Centurion"], "", "1.7%"};
-				{ 20, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#", "=q2="..AL["Scarlet Defender/Myrmidon"], "", "1.6%"};
-				{ 21, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#", "=q2="..AL["Herod/Mograine"], "", "13.2%"};
-				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#", "=q2="..AL["Trash Mobs"], "", "0.1%"};
+				{ 17, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#", ""};
+				{ 18, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#", ""};
+				{ 19, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#", ""};
+				{ 20, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#", ""};
+				{ 21, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#", ""};
+				{ 22, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#", ""};
 				{ 24, 0, "INV_Box_01", "=q6=#pre60s4#", "=ec1=#a3#. =q1="..BabbleZone["Blackrock Depths"]};
 				{ 25, 11729, "", "=q3=Savage Gladiator Helm", "=ds=#s1#", "=q2="..BabbleBoss["Gorosh the Dervish"].." / "..BabbleBoss["Hedrum the Creeper"], "", "10.08%"};
 				{ 26, 11726, "", "=q4=Savage Gladiator Chain", "=ds=#s5#", "=q2="..BabbleBoss["Gorosh the Dervish"], "", "14.52%"};

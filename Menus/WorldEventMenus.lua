@@ -167,7 +167,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 10, 46725, "", "=q2=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
 				{ 11, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
 				{ 12, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
-				{ 17, "Winterveil#3", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Stolen Present"], "=q5="..AL["Daily Reward"]};
+				{ 17, "Winterveil#3", "INV_Holiday_Christmas_Present_01", "=ds="..AtlasLoot_IngameLocales["Stolen Present"], "=q5="..AL["Daily Reward"]};
 				{ 21, 21525, "", "=q2=Green Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
 				{ 22, 21524, "", "=q2=Red Winter Hat", "=ds=#s1# =q2="..AL["Various Locations"]};
 				{ 23, 17712, "", "=q1=Winter Veil Disguise Kit", "=q1=#m4#: =ds=#m20#"};
@@ -189,7 +189,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "LunarFestival", "inv_misc_elvencoins", "=ds="..AL["Vendor"], ""};
 				{ 4, 21540, "", "=q2=Elune's Lantern", "=q1=#m4#: =ds=#m20#"};
 				{ 17, "LunarFestival#2", "inv_scroll_06", "=ds="..AL["Schematics & Patterns"], ""};
-				{ 19, 0, "INV_Misc_LuckyMoneyEnvelope", "=q6="..AL["Lucky Red Envelope"], ""};
+				{ 19, 0, "INV_Misc_LuckyMoneyEnvelope", "=q6="..AtlasLoot_IngameLocales["Lucky Red Envelope"], ""};
 				{ 20, 21744, "", "=q1=Lucky Rocket Cluster", "=ds=#e23#"};
 				{ 21, 21745, "", "=q1=Elder's Moonstone", "=ds=#m20#"};
 			};

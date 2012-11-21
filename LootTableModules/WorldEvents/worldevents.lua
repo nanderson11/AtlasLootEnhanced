@@ -403,7 +403,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				extraText = ": "..AL["Vendor"];
 			};
 			{
-				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Ticking Present"], ""};
+				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Ticking Present"], ""};
 				{ 2, 21325, "", "=q2=Mechanical Greench", "=ds=#e22#"};
 				{ 3, 21213, "", "=q2=Preserved Holly", "=ds=#m20#"};
 				{ 4, 17706, "", "=q2=Plans: Edge of Winter", "=ds=#p2# (190)"};
@@ -412,24 +412,24 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 7, 17722, "", "=q2=Pattern: Gloves of the Greatfather", "=ds=#p7# (190)"};
 				{ 8, 17709, "", "=q1=Recipe: Elixir of Frost Power", "=ds=#p1# (190)"};
 				{ 9, 17724, "", "=q1=Pattern: Green Holiday Shirt", "=ds=#p8# (190)"};
-				{ 11, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Festive Gift"], ""};
+				{ 11, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Festive Gift"], ""};
 				{ 12, 21328, "", "=q1=Wand of Holiday Cheer", "=ds=#m20#"};
-				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gaily Wrapped Present"], ""};
+				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Gaily Wrapped Present"], ""};
 				{ 17, 21301, "", "=q1=Green Helper Box", "=ds=#e13#"};
 				{ 18, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
 				{ 19, 21305, "", "=q1=Red Helper Box", "=ds=#e13#"};
 				{ 20, 21309, "", "=q1=Snowman Kit", "=ds=#e13#"};
-				{ 22, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gently Shaken Gift"], ""};
+				{ 22, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Gently Shaken Gift"], ""};
 				{ 23, 21235, "", "=q1=Winter Veil Roast", "=ds=#e3#"};
 				{ 24, 21241, "", "=q1=Winter Veil Eggnog", "=ds=#e4#"};
-				{ 26, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Carefully Wrapped Present"], ""};
+				{ 26, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Carefully Wrapped Present"], ""};
 				{ 27, 21254, "", "=q1=Winter Veil Cookie", "=ds=#e3#"};
-				{ 29, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Smokywood Pastures Extra-Special Gift"], ""};
+				{ 29, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Smokywood Pastures Extra-Special Gift"], ""};
 				{ 30, 21215, "", "=q1=Graccu's Mince Meat Fruitcake", "=ds=#e3#"};
 				extraText = ": "..AL["Gifts & Presents"];
 			};
 			{
-				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Stolen Present"], "#QUESTID:7043#"};
+				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Stolen Present"], "#QUESTID:7043#"};
 				{ 2, 66450, "", "=q4=Miniature Winter Veil Tree", "=ds=#h1#, #w4#"};
 				{ 3, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds=#e13#"};
 				{ 4, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
@@ -443,7 +443,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 12, 34498, "", "=q3=Paper Zeppelin Kit", "=ds=#m20#"};
 				{ 13, 44482, "", "=q3=Trusty Copper Racer", "=ds=#m20#"};
 				{ 14, 44599, "", "=q3=Zippy Copper Racer", "=ds=#m20#"};
-				extraText = ": "..AL["Stolen Present"];
+				extraText = ": "..AtlasLoot_IngameLocales["Stolen Present"];
 			};
 		};
 		info = {
@@ -599,21 +599,21 @@ local moduleName = "AtlasLoot_WorldEvents"
 				extraText = ": "..AL["Vendor"];
 			};
 			{
-				{ 1, 0, "INV_Box_02", "=q6="..AL["Lovely Dress Box"], "#ACHIEVEMENTID:1694#"};
+				{ 1, 0, "INV_Box_02", "=q6="..AtlasLoot_IngameLocales["Lovely Dress Box"], "#ACHIEVEMENTID:1694#"};
 				{ 2, 22279, "", "=q1=Lovely Black Dress", "=ds=#s5#"};
 				{ 3, 22276, "", "=q1=Lovely Red Dress", "=ds=#s5#"};
 				{ 4, 22278, "", "=q1=Lovely Blue Dress", "=ds=#s5#"};
 				{ 5, 22280, "", "=q1=Lovely Purple Dress", "=ds=#s5#"};	
-				{ 7, 0, "INV_Box_01", "=q6="..AL["Dinner Suit Box"], ""};
+				{ 7, 0, "INV_Box_01", "=q6="..AtlasLoot_IngameLocales["Dinner Suit Box"], ""};
 				{ 8, 22277, "", "=q1=Red Dinner Suit", "=ds=#s5#"};
 				{ 9, 22281, "", "=q1=Blue Dinner Suit", "=ds=#s5#"};
 				{ 10, 22282, "", "=q1=Purple Dinner Suit", "=ds=#s5#"};	
-				{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6="..AL["Box of Chocolates"], "#ACHIEVEMENTID:1702#"};
+				{ 16, 0, "INV_ValentinesBoxOfChocolates02", "=q6="..AtlasLoot_IngameLocales["Box of Chocolates"], "#ACHIEVEMENTID:1702#"};
 				{ 17, 22237, "", "=q1=Dark Desire", "=ds=#e3#"};
 				{ 18, 22238, "", "=q1=Very Berry Cream", "=ds=#e3#"};
 				{ 19, 22236, "", "=q1=Buttermilk Delight", "=ds=#e3#"};
 				{ 20, 22239, "", "=q1=Sweet Surprise ", "=ds=#e3#"};
-				{ 22, 0, "inv_valentinescandysack", "=q6="..AL["Bag of Heart Candies"], "#ACHIEVEMENTID:1701#"};
+				{ 22, 0, "inv_valentinescandysack", "=q6="..AtlasLoot_IngameLocales["Bag of Heart Candies"], "#ACHIEVEMENTID:1701#"};
 				{ 23, 21816, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 24, 21817, "", "=q1=Heart Candy", "=ds=#m20#"};
 				{ 25, 21818, "", "=q1=Heart Candy", "=ds=#m20#"};
@@ -1564,19 +1564,19 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["BashirStasisChambers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Trelopades"], ""};
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleRare["Trelopades"], ""};
 				{ 2, 32522, "", "=q3=Demonic Bulwark", "=ds=#w8#", "", ""};
 				{ 3, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["King Dorfbruiser"], ""};
+				{ 5, 0, "INV_Box_01", "=q6="..BabbleRare["King Dorfbruiser"], ""};
 				{ 6, 31577, "", "=q3=Slatesteel Shoulders", "=ds=#s3#, #a4#", "", ""};
 				{ 7, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 9, 0, "INV_Box_01", "=q6="..AL["Gorgolon the All-seeing"], ""};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleRare["Gorgolon the All-seeing"], ""};
 				{ 10, 31569, "", "=q3=Mistshroud Shoulders", "=ds=#s3#, #a3#", "", ""};
 				{ 11, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Matron Li-sahar"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleRare["Matron Li-sahar"], ""};
 				{ 17, 31553, "", "=q3=Windchanneller's Mantle", "=ds=#s3#, #a1#", "", ""};
 				{ 18, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Solus the Eternal"], ""};
+				{ 20, 0, "INV_Box_01", "=q6="..BabbleRare["Solus the Eternal"], ""};
 				{ 21, 31561, "", "=q3=Skystalker's Shoulders", "=ds=#s3#, #a2#", "", ""};
 				{ 22, 31941, "", "=q2=Mark of the Nexus-King", "=ds=#m3#", "", ""};
 			};

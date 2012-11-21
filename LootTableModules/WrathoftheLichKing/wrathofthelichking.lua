@@ -7488,7 +7488,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 14, 44717, "", "=q1=Disgusting Jar", "=ds="};
 				{ 16, 0, "INV_Misc_Rune_14", "=q6=#r5#", ""};
 				{ 17, 44073, "", "=q1=Frenzyheart Insignia of Fury", "=ds=#s14#"};
-				{ 19, 0, "INV_Potion_139", "=q6="..AL["Ripe Disgusting Jar"], ""};
+				{ 19, 0, "INV_Potion_139", "=q6="..AtlasLoot_IngameLocales["Ripe Disgusting Jar"], ""};
 				{ 20, 44719, "", "=q3=Frenzyheart Brew", "=ds=#e25#", ""};
 				{ 21, 39671, "", "=q1=Resurgent Healing Potion", "=ds=#e2#", ""};
 				{ 22, 40067, "", "=q1=Icy Mana Potion", "=ds=#e2#", ""};
@@ -7716,7 +7716,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 17, 44071, "", "=q1=Slow-Roasted Eel", "=ds=#e3#"};
 				{ 19, 0, "INV_Helmet_138", "=q6=#r5#", ""};
 				{ 20, 44074, "", "=q4=Oracle Talisman of Ablution", "=ds=#s14#"};
-				{ 22, 0, "INV_Egg_02", "=q6="..AL["Cracked Egg"], ""};
+				{ 22, 0, "INV_Egg_02", "=q6="..AtlasLoot_IngameLocales["Cracked Egg"], ""};
 				{ 23, 44707, "", "=q4=Reins of the Green Proto-Drake", "=ds=#e27#", ""};
 				{ 24, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", ""};
 				{ 25, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", ""};

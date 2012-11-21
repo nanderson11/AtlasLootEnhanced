@@ -4973,10 +4973,10 @@ local moduleName = "AtlasLootMoP"
 				};
 				{ 8, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#", "=ds="..BabbleFaction["The Anglers"]};
 				{ 9, 34478, "", "=q3=Tiny Sporebat", "=ds=#e13#", "=ds="..BabbleFaction["Sporeggar"]};
-				{ 10, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AL["Mysterious Egg"]};
-				{ 11, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AL["Mysterious Egg"]};
-				{ 12, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AL["Mysterious Egg"]};
-				{ 13, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AL["Mysterious Egg"]};
+				{ 10, 39898, "", "=q1=Cobra Hatchling", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AtlasLoot_IngameLocales["Mysterious Egg"]};
+				{ 11, 44721, "", "=q1=Proto-Drake Whelp", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AtlasLoot_IngameLocales["Mysterious Egg"]};
+				{ 12, 39896, "", "=q1=Tickbird Hatchling", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AtlasLoot_IngameLocales["Mysterious Egg"]};
+				{ 13, 39899, "", "=q1=White Tickbird Hatchling", "=ds=#e13#", "=ds="..BabbleFaction["The Oracles"].." - =q2="..AtlasLoot_IngameLocales["Mysterious Egg"]};
 			};
 		};
 		info = {
@@ -5861,7 +5861,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
 				{ 23, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q1=#m4#: #QUESTID:24915#"};
 				{ 24, 87768, "", "=q4=Reins of the Onyx Cloud Serpent", "=q1=#m4#: #QUESTID:31277#"};
-				{ 25, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
+				{ 25, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AtlasLoot_IngameLocales["Hyldnir Spoils"], ""};
 				{ 26, 54465, "", "=q3=Subdued Abyssal Seahorse", "=q1=#m4#: #QUESTID:25371#"};
 			};
 		};

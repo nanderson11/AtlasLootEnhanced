@@ -787,12 +787,7 @@ if AL then
 	AL["Druid of the Fang"] = "송곳니의 드루이드";
 	AL["Defias Strip Miner"] = "데피아즈단 갱부";
 	AL["Defias Overseer/Taskmaster"] =  "데피아즈단 갱부 감독관/작업반장";
-	AL["Scarlet Defender/Myrmidon"] = "붉은십자군 호위병/정예병";
-	AL["Scarlet Champion"] = "붉은십자군 용사";
-	AL["Scarlet Centurion"] = "붉은십자군 백인대장";
 	AL["Scarlet Trainee"] = "붉은십자군 신병";
-	AL["Herod/Mograine"] = "헤로드/모그레인";
-	AL["Scarlet Protector/Guardsman"] = "붉은십자군 수호병/보초";
 	AL["Shadowforge Flame Keeper"] = "어둠괴철로단 불꽃지기";
 	AL["Avatar of the Martyred"] = "순교자의 화신";
 	AL["Nexus Stalker"] = "연합 추적자";
@@ -809,7 +804,6 @@ if AL then
 	AL["Scholomance Adept"] = true;
 	AL["Scholomance Dark Summoner"] = true;
 	AL["Blackhand Elite"] = true;
-	AL["Blackhand Assassin"] = true;
 	AL["Firebrand Pyromancer"] = true;
 	AL["Firebrand Invoker"] = true;
 	AL["Firebrand Grunt"] = true;
@@ -822,7 +816,6 @@ if AL then
 	AL["Weapon Technician"] = true;
 	AL["Doomforge Craftsman"] = true;
 	AL["Murk Worm"] = true;
-	AL["Atal'ai Witch Doctor"] = true;
 	AL["Raging Skeleton"] = true;
 	AL["Ethereal Priest"] = true;
 	AL["Sethekk Ravenguard"] = true;
@@ -848,24 +841,7 @@ if AL then
 	AL["Aether-tech Assistant"] = true;
 	AL["Aether-tech Adept"] = true;
 	AL["Aether-tech Master"] = true;
-	AL["Trelopades"] = true;
-	AL["King Dorfbruiser"] = true;
-	AL["Gorgolon the All-seeing"] = true;
-	AL["Matron Li-sahar"] = true;
-	AL["Solus the Eternal"] = true;
 	AL["Smokywood Pastures Vendor"] = true;
-	AL["Darkscreecher Akkarai"] = true;
-	AL["Karrog"] = true;
-	AL["Gezzarak the Huntress"] = true;
-	AL["Vakkiz the Windrager"] = true;
-	AL["Terokk"] = true;
-	AL["Armbreaker Huffaz"] = true;
-	AL["Fel Tinkerer Zortan"] = true;
-	AL["Forgosh"] = true;
-	AL["Gul'bor"] = true;
-	AL["Malevus the Mad"] = true;
-	AL["Porfus the Gem Gorger"] = true;
-	AL["Wrathbringer Laz-tarash"] = true;
 	AL["Bash'ir Landing Stasis Chambers"] = true;
 	AL["Templars"] = true;
 	AL["Dukes"] = true;
@@ -880,18 +856,12 @@ if AL then
 	AL["Razorfen Spearhide"] = true;
 	AL["Magregan Deepshadow"] = true;
 	AL["Don Carlos"] = true;
-	AL["Thomas Yance"] = true;
 	AL["Aged Dalaran Wizard"] = true;
 	AL["Felsteed"] = true;
 	AL["Shattered Hand Executioner"] = true;
-	AL["Time-Lost Proto Drake"] = true;
 	AL["Razzashi Raptor"] = true;
 	AL["Deviate Ravager/Deviate Guardian"] = true;
 	AL["Servant's Quarter Animal Bosses"] = true;
-	AL["Jadefang"] = true;
-	AL["Aeonaxx"] = true;
-	AL["Prince Sarsarun"] = true;
-	AL["Dormus the Camel-Hoarder"] = true; 
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
@@ -911,17 +881,7 @@ if AL then
 	AL["Lorgalis Manuscript"] = "로르갈리스 초본";
 	AL["Fathom Core"] = "심연의 핵";
 	AL["Gift of Adoration"] = true;
-	AL["Box of Chocolates"] = true;
 	AL["Treat Bag"] = true;
-	AL["Gaily Wrapped Present"] = true;
-	AL["Festive Gift"] = true;
-	AL["Ticking Present"] = true;
-	AL["Gently Shaken Gift"] = true;
-	AL["Carefully Wrapped Present"] = true;
-	AL["Winter Veil Gift"] = true;
-	AL["Smokywood Pastures Extra-Special Gift"] = true;
-	AL["Brightly Colored Egg"] = true;
-	AL["Lucky Red Envelope"] = true;
 	AL["Timed Reward Chest"] = true;
 	AL["Timed Reward Chest 1"] = true;
 	AL["Timed Reward Chest 2"] = true;
@@ -936,15 +896,6 @@ if AL then
 	AL["Second Fragment Guardian"] = true;
 	AL["Third Fragment Guardian"] = true;
 	AL["Overcharged Manacell"] = true;
-	AL["Mysterious Egg"] = true;
-	AL["Hyldnir Spoils"] = true;
-	AL["Ripe Disgusting Jar"] = true;
-	AL["Cracked Egg"] = true;
-	AL["Small Spice Bag"] = true;
-	AL["Lovely Dress Box"] = true;
-	AL["Dinner Suit Box"] = true;
-	AL["Bag of Heart Candies"] = true;
-	AL["Hidden Stash"] = true;
 
 	-- Error Messages and warnings
 	AL["AtlasLoot Error!"] = true;

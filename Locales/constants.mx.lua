@@ -495,12 +495,7 @@ if AL then
 	AL["Druid of the Fang"] = "Druida del Colmillo";
 	AL["Defias Strip Miner"] = "Cantero Defias";
 	AL["Defias Overseer/Taskmaster"] = "Sobrestante/Capataz Defias";
-	AL["Scarlet Defender/Myrmidon"] = "Defensor/Mirmidón Escarlata";
-	AL["Scarlet Champion"] = "Campeón Escarlata";
-	AL["Scarlet Centurion"] = "Centurión Escarlata";
 	AL["Scarlet Trainee"] = "Practicante Escarlata";
-	--AL["Herod/Mograine"] = true,
-	AL["Scarlet Protector/Guardsman"] = "Protector/Custodio Escarlata";
 	AL["Shadowforge Flame Keeper"] = "Vigilante de la Llama Forjatiniebla";
 	AL["Avatar of the Martyred"] = "Avatar de los Martirizados";
 	AL["Nexus Stalker"] = "Acechador nexo";
@@ -517,7 +512,6 @@ if AL then
 	AL["Scholomance Adept"] = "Adepto de Scholomance";
 	AL["Scholomance Dark Summoner"] = "Invocador Oscuro de Scholomance";
 	AL["Blackhand Elite"] = "Élite Puño Negro";
-	AL["Blackhand Assassin"] = "Asesino Puño Negro";
 	AL["Firebrand Pyromancer"] = "Piromántico Pirotigma";
 	AL["Firebrand Invoker"] = "Convocador Pirotigma";
 	AL["Firebrand Grunt"] = "Bruto Pirotigma";
@@ -530,7 +524,6 @@ if AL then
 	AL["Weapon Technician"] = "Técnico de armas";
 	AL["Doomforge Craftsman"] = "Artesano de la Forja Maldita";
 	AL["Murk Worm"] = "Gusano de la oscuridad";
-	AL["Atal'ai Witch Doctor"] = "Médico brujo Atal'ai";
 	AL["Raging Skeleton"] = "Esqueleto enfurecido";
 	AL["Ethereal Priest"] = "Sacerdote etéreo";
 	AL["Sethekk Ravenguard"] = "Guardia cuervo Sethekk";
@@ -556,24 +549,7 @@ if AL then
 	AL["Aether-tech Assistant"] = "Ayudante técnico aether";
 	AL["Aether-tech Adept"] = "Aether-tech Adept"; --FALTA
 	AL["Aether-tech Master"] = "Aether-tech Master"; --FALTA
-	AL["Trelopades"] = "Trelopades"; --FALTA
-	AL["King Dorfbruiser"] = "King Dorfbruiser"; --FALTA
-	AL["Gorgolon the All-seeing"] = "Gorgolon the All-seeing"; --FALTA
-	AL["Matron Li-sahar"] = "Matrona Li-sahar";
-	AL["Solus the Eternal"] = "Solus el Eterno";
 	AL["Smokywood Pastures Vendor"] = "Vendedor de Pastos de Bosquehumeante";
-	AL["Darkscreecher Akkarai"] = "Estridador oscuro Akkarai";
-	--AL["Karrog"] = true,
-	AL["Gezzarak the Huntress"] = "Gezzarak la Cazadora";
-	AL["Vakkiz the Windrager"] = "Vakkiz el Furibundo del Viento";
-	--AL["Terokk"] = true,
-	AL["Armbreaker Huffaz"] = "Partebrazos Huffaz";
-	AL["Fel Tinkerer Zortan"] = "Manitas vil Zortan";
-	--AL["Forgosh"] = true,
-	--AL["Gul'bor"] = true,
-	AL["Malevus the Mad"] = "Malevus el Loco";
-	AL["Porfus the Gem Gorger"] = "Porfus el Engullidor de gemas";
-	AL["Wrathbringer Laz-tarash"] = "Encolerizador Laz-tarash";
 	AL["Bash'ir Landing Stasis Chambers"] = "Cámaras de éxtasis del Alot Bash'ir";
 	AL["Templars"] = "Templarios";
 	AL["Dukes"] = "Duques";
@@ -588,11 +564,9 @@ if AL then
 	AL["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
 	AL["Magregan Deepshadow"] = "Magregan Sombraprofunda";
 	--AL["Don Carlos"] = true,
-	--AL["Thomas Yance"] = "Thomas Yance";
 	AL["Aged Dalaran Wizard"] = "Zahorí de Dalaran envejecido";
 	AL["Felsteed"] = "Corcel vil";
 	AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	 
-	AL["Time-Lost Proto Drake"] = "Protodraco Tiempo Perdido";
 
 	--Zones
 
@@ -608,17 +582,7 @@ if AL then
 	AL["Lorgalis Manuscript"] = "Manuscrito de Lorgalis";
 	AL["Fathom Core"] = "Núcleo de las profundidades";
 	AL["Gift of Adoration"] = "Ofrenda de adoración";
-	AL["Box of Chocolates"] = "Caja de bombones";
 	AL["Treat Bag"] = "Bolsa de premios";
-	AL["Gaily Wrapped Present"] = "Regalo con envoltorio alegre";
-	AL["Festive Gift"] = "Obsequio festivo";
-	AL["Ticking Present"] = "Obsequio que hace tic-tac";
-	AL["Gently Shaken Gift"] = "Regalo ligeramente agitado";
-	AL["Carefully Wrapped Present"] = "Presente envuelto con cuidado";
-	AL["Winter Veil Gift"] = "Regalo de Fiesta de Invierno";
-	AL["Smokywood Pastures Extra-Special Gift"] = "Obsequio megaespecial de Pastos de Bosquehumeante";
-	AL["Brightly Colored Egg"] = "Huevos de colores brillantes"; --Comprobar
-	AL["Lucky Red Envelope"] = "Sobre rojo de la suerte";
 	AL["Timed Reward Chest"] = "Cofre de recompensa con tiempo"; --Comprobar
 	AL["Timed Reward Chest 1"] = "Cofre de recompensa con tiempo 1";
 	AL["Timed Reward Chest 2"] = "Cofre de recompensa con tiempo 2";
@@ -633,10 +597,6 @@ if AL then
 	AL["Second Fragment Guardian"] = "Guardián del segundo trozo";
 	AL["Third Fragment Guardian"] = "Guardián del tercer trozo";
 	AL["Overcharged Manacell"] = "Célula de maná sobrecargada";
-	AL["Mysterious Egg"] = "Huevo misterioso";
-	AL["Hyldnir Spoils"] = "Botín Hyldnir";
-	AL["Ripe Disgusting Jar"] = "Tarro desagradable maduro";
-	AL["Cracked Egg"] = "Huevo roto";
 
 	--World Events
 	AL["Abyssal Council"] = "Consejo abisal";

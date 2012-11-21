@@ -132,7 +132,7 @@ AtlasLoot_IngameLocales = {
 	["Winter Veil Gift"] = GetItemInfo(70938),
 	---- Hallow's End
 	["Handful of Treats"] = GetItemInfo(37586),
-	["Treat Bag"] = GetItemInfo(20393),
+	["Treat Bag"] = GetItemInfo(20393), --- still in game?
 	---- Love is in the Air
 	["Bag of Heart Candies"] = GetItemInfo(21813),
 	["Box of Chocolates"] = GetItemInfo(49909),
