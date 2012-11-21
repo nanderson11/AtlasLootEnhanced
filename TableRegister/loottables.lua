@@ -86,7 +86,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TJSFlameheart", 4, EncounterJournalID = 658 },
 				{ "TJSShaDoubt", 5, EncounterJournalID = 335 },
 			},
-			["Info"] = { BabbleZone["Temple of the Jade Serpent"], "AtlasLootMoP", mapname = "Temple of the Jade Serpent", EncounterJournalID = 313 },
+			["Info"] = { BabbleZone["Temple of the Jade Serpent"], "AtlasLootMoP", mapname = "EastTemple", EncounterJournalID = 313 },
 		},
 
 		["StormstoutBrewery"] = {
@@ -95,7 +95,7 @@ AtlasLoot_LootTableRegister = {
 				{ "BreweryHoptallus", 4, EncounterJournalID = 669 },
 				{ "BreweryYanZhu", 5, EncounterJournalID = 670 },
 			},
-			["Info"] = { BabbleZone["Stormstout Brewery"], "AtlasLootMoP", mapname = "Stormstout Brewery", EncounterJournalID = 302 },
+			["Info"] = { BabbleZone["Stormstout Brewery"], "AtlasLootMoP", mapname = "StormstoutBrewery", EncounterJournalID = 302 },
 		},
 
 		["MoguShanPalace"] = {
@@ -104,7 +104,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MoguShanGekkan", 7, EncounterJournalID = 690 },
 				{ "MoguShanXin", 8, EncounterJournalID = 698 },
 			},
-			["Info"] = { BabbleZone["Mogu'Shan Palace"], "AtlasLootMoP", mapname = "Mogu'Shan Palace", EncounterJournalID = 321 },
+			["Info"] = { BabbleZone["Mogu'Shan Palace"], "AtlasLootMoP", mapname = "MogushanPalace", EncounterJournalID = 321 },
 		},
 
 		["ShadoPanMonasteryA"] = "ShadoPanMonastery",
@@ -119,7 +119,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ShadoPanShaViolence", 4, EncounterJournalID = 685 },
 				{ "ShadoPanTaranZhu", EncounterJournalID = 686 },
 			},
-			["Info"] = { BabbleZone["Shado-pan Monastery"], "AtlasLootMoP", mapname = "Shado-Pan Monastery", sortOrder = { "ShadoPanMonasteryA", "ShadoPanMonasteryB" }, EncounterJournalID = 312 },
+			["Info"] = { BabbleZone["Shado-pan Monastery"], "AtlasLootMoP", mapname = "ShadowpanHideout", sortOrder = { "ShadoPanMonasteryA", "ShadoPanMonasteryB" }, EncounterJournalID = 312 },
 		},
 
 		["GateoftheSettingSun"] = {
@@ -129,7 +129,7 @@ AtlasLoot_LootTableRegister = {
 				{ "GotSSRimok", 6, EncounterJournalID = 676 },
 				{ "GotSSRaigonn", 7, EncounterJournalID = 649 },
 			},
-			["Info"] = { BabbleZone["Gate of the Setting Sun"], "AtlasLootMoP", mapname = "Gate of the Setting Sun", EncounterJournalID = 303 },
+			["Info"] = { BabbleZone["Gate of the Setting Sun"], "AtlasLootMoP", mapname = "TheGreatWall", EncounterJournalID = 303 },
 		},
 
 		["SiegeofNiuzaoTempleA"] = "SiegeofNiuzaoTemple",
@@ -143,7 +143,7 @@ AtlasLoot_LootTableRegister = {
 				{ "NTPavalak", 3, EncounterJournalID = 692 },
 				{ "NTNeronok", 4, EncounterJournalID = 727 },
 			},
-			["Info"] = { BabbleZone["Siege of Niuzao Temple"], "AtlasLootMoP", mapname = "Siege of Niuzao Temple", sortOrder = { "SiegeofNiuzaoTempleA", "SiegeofNiuzaoTempleB" }, EncounterJournalID = 324 },
+			["Info"] = { BabbleZone["Siege of Niuzao Temple"], "AtlasLootMoP", mapname = "SiegeofNiuzaoTemple", sortOrder = { "SiegeofNiuzaoTempleA", "SiegeofNiuzaoTempleB" }, EncounterJournalID = 324 },
 		},
 
 		-------------
