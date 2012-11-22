@@ -73,6 +73,7 @@ if AL then
 	AL["Module \"%s\" is disabled."] = "Le module \"%s\" est désactivé.";
 	AL["Module \"%s\" is missing."] = "Le module \"%s\" est manquant.";
 
+	-- MiniMap-Button
 	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000Clic: |cffFFFFFFOuvrir AtlasLoot\n|cffFF0000Maj+Clic: |cffFFFFFFOuvrir les options d'AtlasLoot";
 
 	-- AtlasLootFu 
@@ -347,6 +348,7 @@ if AL then
 	AL["Crafted Epic Weapons"] = "Armes d'artisanat épiques";
 	AL["Dragon's Eye"] = "Oeil de dragon";
 	AL["Chimera's Eye"] = "Oeil de chimère";
+	AL["Serpent's Eye"] = "Oeil de serpent";
 
 	-- Sets/Collections Menu
 	--AL["Sets"] = true;
@@ -477,10 +479,10 @@ if AL then
 	AL["Guild"] = "Guilde";
 
 	-- Blacksmithing
-	AL["Mists of Pandaria Vendor Sold Plans"] = "Vendeur de plans à Mist of Pandoria";
-	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Cataclysme"
 	AL["Armor Enhancements"] = "Améliorations d'armure";
 	AL["Weapon Enhancements"] = "Améliorations d'arme";
+	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Cataclysme"
+	AL["Mists of Pandaria Vendor Sold Plans"] = "Vendeur de plans à Mist of Pandoria";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Banquets / Festins";
@@ -534,6 +536,7 @@ if AL then
 	AL["Shirts"] = "Chemises";
 	AL["Bags"] = "Sacs";
 	AL["Cataclysm Vendor Sold Patterns"] = "Vendeur de patrons à Cataclysme";
+	AL["Mists of Pandaria Vendor Sold Patterns"] = "Vendeur de patrons à Mist of Pandoria";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "Classes :";
@@ -993,28 +996,23 @@ if AL then
 
 	-- NPCs missing from BabbleBoss
 	--AL["Trash Mobs"] = true,
+	--- Classic WoW
 	AL["Dungeon Set 2 Summonable"] = "Invocation Set Donjon 2";
 	--AL["Theldren"] = true,
 	AL["Sothos and Jarien"] = "Sothos et Jarien";
 	AL["Druid of the Fang"] = "Druide du Croc";
 	AL["Defias Strip Miner"] = "Carrier défias";
 	AL["Defias Overseer/Taskmaster"] = "Sous-chef/Surveillant défias";
-	AL["Scarlet Trainee"] = "Jeune recrue écarlate";
+	AL["Scarlet Trainee"] = "Jeune recrue écarlate"; --- mob removed from game
 	AL["Shadowforge Flame Keeper"] = "Gardien des flammes Ombreforge";
-	AL["Avatar of the Martyred"] = "Avatar des martyrs";
-	AL["Nexus Stalker"] = "Traqueur du nexus";
-	AL["Auchenai Monk"] = "Moine auchenaï";
-	AL["Cabal Fanatic"] = "Fanatique de la Cabale";
-	AL["Unchained Doombringer"] = "Porte-destin sans chaîne";
-	AL["Crimson Sorcerer"] = "Ensorceleur cramoisi";
+	AL["Crimson Sorcerer"] = "Ensorceleur cramoisi";--- mob removed from game. Formula: Enchant 2H Weapon - Major Intellect drops now from Risen Sorcerer
 	AL["Thuzadin Shadowcaster"] = "Exhalombre Thuzadin";
-	AL["Crimson Inquisitor"] = "Inquisiteur cramoisi";
-	AL["Crimson Battle Mage"] = "Mage de bataille cramoisi";
+	AL["Crimson Inquisitor"] = "Inquisiteur cramoisi"; --- mob removed from game. Schematic: Voice Amplification Modulator and Schematic: Ultra-Flash Shadow Reflector drops now from Risen Inquisitor
+	AL["Crimson Battle Mage"] = "Mage de bataille cramoisi"; --- mob removed from game?
 	AL["Ghoul Ravener"] = "Goule vorace";
 	AL["Spectral Citizen"] = "Citoyen spectral";
-	AL["Spectral Researcher"] = "Chercheur spectral";
-	AL["Scholomance Adept"] = "Adepte de la Scholomance";
-	AL["Scholomance Dark Summoner"] = "Invocateur des ténèbres de la Scholomance";
+	AL["Scholomance Adept"] = "Adepte de la Scholomance"; --- Drops Formula: Enchant 2H Weapon - Major Spirit along with Scholomance Acolyte and needs to be added back to trash loot of Scholomance.
+	AL["Scholomance Dark Summoner"] = "Invocateur des ténèbres de la Scholomance"; --- mob might have been removed. No idea where we used this.
 	AL["Blackhand Elite"] = "Elite Main-noire";
 	AL["Firebrand Pyromancer"] = "Pyromancien de Brandefeu";
 	AL["Firebrand Invoker"] = "Invocateur de Brandefeu";
@@ -1027,7 +1025,28 @@ if AL then
 	AL["Doomforge Arcanasmith"] = "Forgeron des arcanes Forge-ruine";
 	AL["Weapon Technician"] = "Ingénieur de siège";
 	AL["Doomforge Craftsman"] = "Artisan Forge-ruine";
-	AL["Murk Worm"] = "Ver des boues";
+	AL["Murk Worm"] = "Ver des boues";  --- mob removed from game
+	AL["Scarshield Quartermaster"] = "Intendant du Bouclier balafré";
+	AL["Knot Thimblejack"] = "Noué Dédodevie"; --- Might not give any items anymore, needs to be checked.
+	AL["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
+	AL["The Nameles Prophet"] = "Le Prophète sans nom";
+	AL["Rajaxx's Captains"] = "Les Capitaines de Rajaxx";
+	AL["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
+	AL["Felsteed"] = "Palefroi corrompu"; --- NPC name is Fel Steed. Drops Eerie Stable Lantern in SFK.
+	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur"; --- Needs to be added to BabbleBoss
+	AL["Rotted One"] = "Pourri";
+	AL["Tex Vortacoil"] = "Tex Vortabobine";
+	AL["Sprinkle Noggenfogger"] = "Saupoudr Brouillecaboche";
+	--- Burning Crusade
+	AL["Avatar of the Martyred"] = "Avatar des martyrs"; --- Needs to be moved to BabbleBoss
+	AL["Nexus Stalker"] = "Traqueur du nexus";
+	AL["Auchenai Monk"] = "Moine auchenaï";
+	AL["Cabal Fanatic"] = "Fanatique de la Cabale";
+	AL["Unchained Doombringer"] = "Porte-destin sans chaîne";
+	AL["Aether-tech Assistant"] = "Techno-éther assistant";
+	AL["Aether-tech Adept"] = "Techno-éther adepte";
+	AL["Aether-tech Master"] = "Techno-éther apprenti";
+	--AL["Thomas Yance"] = true,
 	AL["Raging Skeleton"] = "Squelette déchaîné";
 	AL["Ethereal Priest"] = "Prêtre éthérien";
 	AL["Sethekk Ravenguard"] = "Garde-corbeau Sethekk";
@@ -1042,55 +1061,43 @@ if AL then
 	AL["Sunseeker Astromage"] = "Astromage Cherche-soleil";
 	AL["Durnholde Rifleman"] = "Fusilier de Fort-de-Durn";
 	AL["Rift Keeper/Rift Lord"] = "Gardien des failles/Seigneur des failles";
-	AL["Crimson Templar"] = "Templier cramoisi";
-	AL["Azure Templar"] = "Templier d'azur";
-	AL["Hoary Templar"] = "Templier chenu";
-	AL["Earthen Templar"] = "Templier terrestre";
-	AL["The Duke of Cynders"] = "Le duc des Cendres";
-	AL["The Duke of Fathoms"] = "Le duc des Profondeurs";
-	AL["The Duke of Zephyrs"] = "Le duc des Zéphyrs";
-	AL["The Duke of Shards"] = "Le duc des Eclats";
-	AL["Aether-tech Assistant"] = "Techno-éther assistant";
-	AL["Aether-tech Adept"] = "Techno-éther adepte";
-	AL["Aether-tech Master"] = "Techno-éther apprenti";
-	AL["Smokywood Pastures Vendor"] = "Vendeurs de Gourmandises Fumebois";
-	AL["Bash'ir Landing Stasis Chambers"] = "Chambre de stase alpha du point d'ancrage de Bash'ir";
-	AL["Templars"] = "Templiers";
-	AL["Dukes"] = "Ducs";
-	AL["High Council"] = "Princes";
-	AL["Scarshield Quartermaster"] = "Intendant du Bouclier balafré";
-	AL["Father Flame"] = "Père des flammes";
-	--AL["Thomas Yance"] = true,
-	AL["Knot Thimblejack"] = "Noué Dédodevie";
-	AL["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
-	AL["The Nameles Prophet"] = "Le Prophète sans nom";
-	AL["Rajaxx's Captains"] = "Les Capitaines de Rajaxx";
-	AL["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
-	AL["Magregan Deepshadow"] = "Magregan Fondombre";
-	--AL["Don Carlos"] = true,
+	--AL["Don Carlos"] = true, --- Needs to be moved to BabbleBoss
 	AL["Aged Dalaran Wizard"] = "Sorcier de Dalaran âgé";
-	AL["Felsteed"] = "Palefroi corrompu";
 	AL["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
-	AL["Razzashi Raptor"] = "Raptor Razzashi";
-	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
 	AL["Servant's Quarter Animal Bosses"] = "Quartiers des serviteurs (Boss animal)";
-	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
+	AL["Wyrmcult Provisioner"] = "Approvisionneur du culte du Ver";
+	--- Wrath of the Lich King
+	--AL["Olut Alegut"] = true;
+	AL["Rork Sharpchin"] = "Rork Menton-pointu";
+	--- Cataclysm
 	--AL["Zen'Vorka"] = true;
 	AL["Ayla Shadowstorm"] = "Ayla Ombretempête";
 	AL["Damek Bloombeard"] = "Damek Barbe-en-Fleur";
 	AL["Varlan Highbough"] = "Varlan Hautebranche";
 	AL["Firestone Vendor"] = "Vendeur des Terres de Feu";
-	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
-	AL["Rotted One"] = "Pourri";
-	AL["Uncle Bigpocket"] = "Oncle Poche Profonde";
 	AL["Baradin Fox"] = "Renard de Baradin";
-	AL["Tex Vortacoil"] = "Tex Vortabobine";
-	--AL["Olut Alegut"] = true;
-	AL["Rork Sharpchin"] = "Rork Menton-pointu";
-	AL["Sprinkle Noggenfogger"] = "Saupoudr Brouillecaboche";
-	AL["Wyrmcult Provisioner"] = "Approvisionneur du culte du Ver";
-	AL["Apothecary Hummel"] = "Apothicaire Hummel";
+	--- Mists of Pandaria
+	AL["Uncle Bigpocket"] = "Oncle Poche Profonde";
 	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
+	--- World Events
+	AL["Crimson Templar"] = "Templier cramoisi";  --- mob removed from game?
+	AL["Azure Templar"] = "Templier d'azur";  --- mob removed from game?
+	AL["Hoary Templar"] = "Templier chenu";  --- mob removed from game?
+	AL["Earthen Templar"] = "Templier terrestre";  --- mob removed from game?
+	AL["The Duke of Cynders"] = "Le duc des Cendres";  --- mob removed from game?
+	AL["The Duke of Fathoms"] = "Le duc des Profondeurs";  --- mob removed from game?
+	AL["The Duke of Zephyrs"] = "Le duc des Zéphyrs";  --- mob removed from game?
+	AL["The Duke of Shards"] = "Le duc des Eclats";  --- mob removed from game?
+	AL["Templars"] = "Templiers";  --- mob removed from game?
+	AL["Dukes"] = "Ducs";  --- mob removed from game?
+	AL["High Council"] = "Princes";  --- mob removed from game?
+	AL["Smokywood Pastures Vendor"] = "Vendeurs de Gourmandises Fumebois";
+	AL["Bash'ir Landing Stasis Chambers"] = "Chambre de stase alpha du point d'ancrage de Bash'ir";
+	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
+	AL["Apothecary Hummel"] = "Apothicaire Hummel"; --Will be removed soon once its added to BabbleBoss
+
+	AL["Razzashi Raptor"] = "Raptor Razzashi"; --- Unsure were we used this.
+	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant"; --- Unsure were we used this.
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
@@ -1102,16 +1109,18 @@ if AL then
 	--AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
+	AL["Father Flame"] = "Père des flammes"; --- If still in game, should be used in IngameLocales
 	AL["The Grim Guzzler"] = "Le Sinistre écluseur";
 	AL["The Secret Safe"] = "Coffre à relique";
 	AL["The Vault"] = "La Chambre forte";
 	AL["Ogre Tannin Basket"] = "Panier Ogre de tannin";
 	AL["Unfinished Painting"] = "Toile inachevée";
-	AL["Felvine Shard"] = "Fragment de la Gangrevigne";
-	AL["Lorgalis Manuscript"] = "Manuscrit de Lorgalis";
-	AL["Fathom Core"] = "Noyau de la Brasse";
-	AL["Gift of Adoration"] = "Cadeau d'adoration";
-	AL["Treat Bag"] = "Sac de friandises";
+	AL["Felvine Shard"] = "Fragment de la Gangrevigne"; --- If still in game, should be used in IngameLocales
+	AL["Lorgalis Manuscript"] = "Manuscrit de Lorgalis"; --- If still in game, should be used in IngameLocales
+	AL["Fathom Core"] = "Noyau de la Brasse"; --- If still in game, should be used in IngameLocales
+	AL["Gift of Adoration"] = "Cadeau d'adoration"; --- If still in game, should be used in IngameLocales
+	AL["Treat Bag"] = "Sac de friandises"; --- If still in game, should be used in IngameLocales
+	AL["The Cache of Madness"] = "L'antre de la Folie";
 	AL["Timed Reward Chest"] = "Coffre du parcours rapide";
 	AL["Timed Reward Chest 1"] = "Coffre du parcours rapide 1";
 	AL["Timed Reward Chest 2"] = "Coffre du parcours rapide 2";
@@ -1121,12 +1130,11 @@ if AL then
 	AL["Garrett Family Chest"] = "Coffre de la famille Garrett";
 	AL["Reinforced Fel Iron Chest"] = "Coffre en gangrefer renforcé";
 	AL["DM North Tribute Chest"] = "Coffre du Roi (HT Nord)";
-	AL["The Saga of Terokk"] = "La Saga de Terokk";
+	AL["The Saga of Terokk"] = "La Saga de Terokk"; --- If still in game, should be used in IngameLocales
 	AL["First Fragment Guardian"] = "Gardien du premier fragment";
 	AL["Second Fragment Guardian"] = "Gardien du second fragment";
 	AL["Third Fragment Guardian"] = "Gardien du troisième fragment";
-	AL["Overcharged Manacell"] = "Cellule de mana surchargée";
-	AL["The Cache of Madness"] = "L'antre de la Folie";
+	AL["Overcharged Manacell"] = "Cellule de mana surchargée"; --- If still in game, should be used in IngameLocales
 	AL["Shellfish Trap"] = "Casier à crustacés";
 	AL["Fishing Pools"] = "Bancs de poissons";
 
