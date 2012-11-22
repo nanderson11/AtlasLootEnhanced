@@ -2217,8 +2217,9 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86907, "", "=q4=Essence of Terror", "=ds=#s14#" },
 				{ 7, 86906, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 8, 86905, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
-				{ 10, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 11, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
+				{ 10, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
+				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 12, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89274, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89275, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89273, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2233,8 +2234,9 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 86388, "", "=q4=Essence of Terror", "=ds=#s14#" },
 				{ 7, 86387, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 8, 86386, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
-				{ 10, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 11, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
+				{ 10, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
+				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 12, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89235, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89236, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89234, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
@@ -2242,12 +2244,16 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Heroic"] = {
 			{
+				--{ 1, 0, "", "=q4=Robes of Pinioned Eyes", "=ds=#s5#, #a1#" },
 				{ 1, 87174, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				--{ 3, 0, "", "=q4=Wrap of Instant Petrification", "=ds=#s5#, #a2#" },
+				--{ 4, 0, "", "=q4=Shadowgrip Girdle", "=ds=#s10#, #a3#" },
 				{ 3, 87175, "", "=q4=Essence of Terror", "=ds=#s14#" },
 				{ 5, 87173, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
 				{ 6, 87176, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
-				{ 8, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
-				{ 9, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
+				{ 10, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
+				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
+				{ 12, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
 				{ 16, 89259, "", "=q4=Helm of the Shadowy Conqueror", "=ds=#e15#, #m40#"};
 				{ 17, 89260, "", "=q4=Helm of the Shadowy Protector", "=ds=#e15#, #m40#"};
 				{ 18, 89258, "", "=q4=Helm of the Shadowy Vanquisher", "=ds=#e15#, #m40#"};
