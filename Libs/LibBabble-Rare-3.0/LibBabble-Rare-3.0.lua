@@ -2,7 +2,7 @@
 Name: LibBabble-Rare-3.0
 Revision: $Rev$
 Maintainers: Celellach
-Website: 
+Website: http://www.atlasloot.net/phpBB3/index.php
 Dependencies: None
 License: MIT
 ]]
