@@ -737,6 +737,11 @@ if AL then
 	AL["Rare Companions"] = "稀有小伙伴";
 	AL["Unobtainable Companions"] = "已绝版小伙伴";
 	AL["New Companions"] = "新小伙伴";
+	--- Drop Locations
+	AL["Bogflare Needler"] = "水光针刺者";
+	AL["Deviate Ravager/Deviate Guardian"] = "变异破坏者/变异守护者";
+	AL["Gundrak Raptor"] = "古达克迅猛龙";
+	AL["Noxious Whelp"] = "毒性雏龙";
 
 	-- Mounts
 	AL["Alliance Mounts"] = "联盟坐骑";
@@ -996,6 +1001,7 @@ if AL then
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = "普通怪物";
+	--- Classic WoW
 	AL["Dungeon Set 2 Summonable"] = "地下城套装2任务首领";
 	AL["Theldren"] = "塞尔德林";
 	AL["Sothos and Jarien"] = "索托斯/亚雷恩";
@@ -1004,18 +1010,12 @@ if AL then
 	AL["Defias Overseer/Taskmaster"] = "迪菲亚监工/工头";
 	AL["Scarlet Trainee"] = "血色预备兵";
 	AL["Shadowforge Flame Keeper"] = "暗炉持火者";
-	AL["Avatar of the Martyred"] = "殉难者的化身";
-	AL["Nexus Stalker"] = "节点潜行者";
-	AL["Auchenai Monk"] = "奥金尼僧侣";
-	AL["Cabal Fanatic"] = "秘教狂热者";
-	AL["Unchained Doombringer"] = "摆脱束缚的厄运使者";
 	AL["Crimson Sorcerer"] = "红衣法术师";
 	AL["Thuzadin Shadowcaster"] = "图萨丁暗影法师";
 	AL["Crimson Inquisitor"] = "红衣审查者";
 	AL["Crimson Battle Mage"] = "红衣战斗法师";
 	AL["Ghoul Ravener"] = "食尸抢夺者";
 	AL["Spectral Citizen"] = "鬼魂市民";
-	AL["Spectral Researcher"] = "鬼灵研究员";
 	AL["Scholomance Adept"] = "通灵学院专家";
 	AL["Scholomance Dark Summoner"] = "通灵学院黑暗召唤师";
 	AL["Blackhand Elite"] = "黑手精英";
@@ -1031,6 +1031,27 @@ if AL then
 	AL["Weapon Technician"] = "武器技师";
 	AL["Doomforge Craftsman"] = "厄炉工匠";
 	AL["Murk Worm"] = "黑暗虫";
+	AL["Scarshield Quartermaster"] = "裂盾军需官";
+	AL["Knot Thimblejack"] = "诺特·希姆加克";
+	AL["Shen'dralar Provisioner"] = "辛德拉圣职者";
+	AL["The Nameles Prophet"] = "无名预言者";
+	AL["Rajaxx's Captains"] = "拉贾克斯的副官";
+	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
+	AL["Felsteed"] = "地狱战马";
+	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
+	AL["Rotted One"] = "腐烂者";
+	AL["Tex Vortacoil"]  = "特克斯·垂旋";
+	AL["Sprinkle Noggenfogger"]  = "斯宾科尔·诺格弗格";
+	--- Burning Crusade
+	AL["Avatar of the Martyred"] = "殉难者的化身";
+	AL["Nexus Stalker"] = "节点潜行者";
+	AL["Auchenai Monk"] = "奥金尼僧侣";
+	AL["Cabal Fanatic"] = "秘教狂热者";
+	AL["Unchained Doombringer"] = "摆脱束缚的厄运使者";
+	AL["Aether-tech Assistant"] = "以太技师助理";
+	AL["Aether-tech Adept"] = "资深以太技师";
+	AL["Aether-tech Master"] = "高级以太技师";
+	AL["Thomas Yance"] = "托马斯·杨斯";
 	AL["Raging Skeleton"] = "暴怒的骷髅";
 	AL["Ethereal Priest"] = "虚灵牧师";
 	AL["Sethekk Ravenguard"] = "塞泰克鸦人卫士";
@@ -1045,6 +1066,25 @@ if AL then
 	AL["Sunseeker Astromage"] = "寻日者星术师";
 	AL["Durnholde Rifleman"] = "敦霍尔德火枪手";
 	AL["Rift Keeper/Rift Lord"] = "裂隙守卫者/领主";
+	AL["Don Carlos"] = "卡洛斯";
+	AL["Aged Dalaran Wizard"] = "老迈的达拉然巫师";
+	AL["Shattered Hand Executioner"] = "碎手斩杀者";
+	AL["Servant's Quarter Animal Bosses"] = "仆役宿舍动物首领";
+	AL["Wyrmcult Provisioner"]  = "拜龙教补给者";
+	--- Wrath of the Lich King
+	AL["Olut Alegut"]  = "奥鲁特·埃雷古";
+	AL["Rork Sharpchin"]  = "洛尔克·锐须";
+	--- Cataclysm
+	AL["Zen'Vorka"] = "赞沃卡";
+	AL["Ayla Shadowstorm"] = "艾拉·影暴";
+	AL["Damek Bloombeard"] = "达默克·冲炉";
+	AL["Varlan Highbough"] = "瓦尔兰·高枝";
+	AL["Firestone Vendor"] = "火石结晶商人";
+	AL["Baradin Fox"]  = "巴拉丁狐狸";
+	--- Mists of Pandaria
+	AL["Uncle Bigpocket"] = "表叔大口袋";
+	AL["Auntie Stormstout"] = "风暴烈酒大婶";
+	--- World Events
 	AL["Crimson Templar"] = "赤红圣殿骑士";
 	AL["Azure Templar"] = "碧蓝圣殿骑士";
 	AL["Hoary Templar"] = "苍白圣殿骑士";
@@ -1053,46 +1093,13 @@ if AL then
 	AL["The Duke of Fathoms"] = "深渊公爵";
 	AL["The Duke of Zephyrs"] = "微风公爵";
 	AL["The Duke of Shards"] = "碎石公爵";
-	AL["Aether-tech Assistant"] = "以太技师助理";
-	AL["Aether-tech Adept"] = "资深以太技师";
-	AL["Aether-tech Master"] = "高级以太技师";
-	AL["Smokywood Pastures Vendor"] = "烟林牧场商人";
-	AL["Bash'ir Landing Stasis Chambers"] = "巴什伊尔码头静止间";
 	AL["Templars"] = "圣殿骑士";
 	AL["Dukes"] = "公爵";
 	AL["High Council"] = "议会高层";
-	AL["Scarshield Quartermaster"] = "裂盾军需官";
-	AL["Father Flame"] = "烈焰之父";
-	AL["Thomas Yance"] = "托马斯·杨斯";
-	AL["Knot Thimblejack"] = "诺特·希姆加克";
-	AL["Shen'dralar Provisioner"] = "辛德拉圣职者";
-	AL["The Nameles Prophet"] = "无名预言者";
-	AL["Rajaxx's Captains"] = "拉贾克斯的副官";
-	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
-	AL["Magregan Deepshadow"] = "马格雷甘·深影";
-	AL["Don Carlos"] = "唐·卡洛斯";
-	AL["Aged Dalaran Wizard"] = "老迈的达拉然巫师";
-	AL["Felsteed"] = "地狱战马";
-	AL["Shattered Hand Executioner"] = "碎手斩杀者";
-	AL["Deviate Ravager/Deviate Guardian"] = "变异破坏者/变异守护者";
-	AL["Servant's Quarter Animal Bosses"] = "仆役宿舍动物首领";
-	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
-	AL["Zen'Vorka"] = "赞沃卡";
-	AL["Ayla Shadowstorm"] = "艾拉·影暴";
-	AL["Damek Bloombeard"] = "达默克·冲炉";
-	AL["Varlan Highbough"] = "瓦尔兰·高枝";
-	AL["Firestone Vendor"] = "火石结晶商人";
+	AL["Smokywood Pastures Vendor"] = "烟林牧场商人";
+	AL["Bash'ir Landing Stasis Chambers"] = "巴什伊尔码头静止间";
 	AL["Battle Pet Trainer"] = "宠物对战训练师";
-	AL["Rotted One"] = "腐烂者";
-	AL["Uncle Bigpocket"] = "表叔大口袋";
-	AL["Baradin Fox"]  = "巴拉丁狐狸";
-	AL["Tex Vortacoil"]  = "特克斯·垂旋";
-	AL["Olut Alegut"]  = "奥鲁特·埃雷古";
-	AL["Rork Sharpchin"]  = "洛尔克·锐须";
-	AL["Sprinkle Noggenfogger"]  = "斯宾科尔·诺格弗格";
-	AL["Wyrmcult Provisioner"]  = "拜龙教补给者";
 	AL["Apothecary Hummel"] = "药剂师汉摩尔";
-	AL["Auntie Stormstout"] = "风暴烈酒大婶";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";
@@ -1104,6 +1111,7 @@ if AL then
 	AL["Avatar"] = "殉难者的化身";
 
 	-- Chests, etc
+	AL["Father Flame"] = "烈焰之父";
 	AL["The Grim Guzzler"] = "黑铁酒吧";
 	AL["The Secret Safe"] = "秘密保险箱";
 	AL["The Vault"] = "黑色宝库";
@@ -1114,6 +1122,7 @@ if AL then
 	AL["Fathom Core"] = "深渊之核";
 	AL["Gift of Adoration"] = "爱慕的礼物";
 	AL["Treat Bag"] = "糖果包";
+	AL["The Cache of Madness"] = "疯狂之缘";
 	AL["Timed Reward Chest"] = "限时击杀宝箱奖励";
 	AL["Timed Reward Chest 1"] = "限时击杀宝箱奖励1";
 	AL["Timed Reward Chest 2"] = "限时击杀宝箱奖励2";
@@ -1128,7 +1137,6 @@ if AL then
 	AL["Second Fragment Guardian"] = "第二块碎片的守护者";
 	AL["Third Fragment Guardian"] = "第三块碎片的守护者";
 	AL["Overcharged Manacell"] = "超载的魔法晶格";
-	AL["The Cache of Madness"] = "疯狂之缘";
 	AL["Shellfish Trap"] = "贝壳陷阱";
 	AL["Fishing Pools"] = "钓鱼场所";
 
