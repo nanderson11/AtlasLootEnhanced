@@ -1074,7 +1074,6 @@ if AL then
 	AL["Aged Dalaran Wizard"] = "年邁的達拉然巫師";
 	AL["Felsteed"] = "惡魔戰馬";
 	AL["Shattered Hand Executioner"] = "破碎之手劊子手";
-	AL["Razzashi Raptor"] = "拉札希迅猛龍";
 	AL["Deviate Ravager/Deviate Guardian"] = "變異劫毀者/變異守護者";
 	AL["Servant's Quarter Animal Bosses"] = "伺從區";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";

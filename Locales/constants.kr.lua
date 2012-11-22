@@ -859,7 +859,6 @@ if AL then
 	AL["Aged Dalaran Wizard"] = true;
 	AL["Felsteed"] = true;
 	AL["Shattered Hand Executioner"] = true;
-	AL["Razzashi Raptor"] = true;
 	AL["Deviate Ravager/Deviate Guardian"] = true;
 	AL["Servant's Quarter Animal Bosses"] = true;
 

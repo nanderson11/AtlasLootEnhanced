@@ -1096,7 +1096,6 @@ if AL then
 	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
 	AL["Apothecary Hummel"] = "Apothicaire Hummel"; --Will be removed soon once its added to BabbleBoss
 
-	AL["Razzashi Raptor"] = "Raptor Razzashi"; --- Unsure were we used this.
 	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant"; --- Unsure were we used this.
 
 	-- Zones

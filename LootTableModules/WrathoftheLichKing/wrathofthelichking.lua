@@ -3940,7 +3940,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 39422, "", "=q4=Staff of the Plaguehound", "=ds=#w9#", "", "19%"};
 				{ 9, 39426, "", "=q4=Wand of the Archlich", "=ds=#w12#", "", "19%"};
 				{ 10, 39419, "", "=q4=Nerubian Conquerer", "=ds=#w5#", "", "19%"};
-				{ 12, 93031, "", "=q3=Mr. Bigglesworth's Frigid Collar", "=ds=#e13#", ""};
 				{ 16, 40616, "", "=q4=Helm of the Lost Conqueror", "=ds=#e15#", "", "28%"};
 				{ 17, 40617, "", "=q4=Helm of the Lost Protector", "=ds=#e15#", "", "28%"};
 				{ 18, 40618, "", "=q4=Helm of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
@@ -3966,7 +3965,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 19, 40631, "", "=q4=Crown of the Lost Conqueror", "=ds=#e15#", "", "54%"};
 				{ 20, 40632, "", "=q4=Crown of the Lost Protector", "=ds=#e15#", "", "57%"};
 				{ 21, 40633, "", "=q4=Crown of the Lost Vanquisher", "=ds=#e15#", "", "73%"};
-				{ 23, 93031, "", "=q3=Mr. Bigglesworth's Frigid Collar", "=ds=#e13#", ""};
 			};
 		};
 		info = {

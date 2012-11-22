@@ -860,7 +860,6 @@ if AL then
 	AL["Aged Dalaran Wizard"] = "Zahorí de Dalaran envejecido";
 	AL["Felsteed"] = "Corcel vil";
 	AL["Shattered Hand Executioner"] = "Verdugo Mano Destrozada";	 
-	AL["Razzashi Raptor"] = "Razzashi presto";
 	AL["Deviate Ravager/Deviate Guardian"] = "Devastador descarriado/Guardián descarriado";
 	--AL["Servant's Quarter Animal Bosses"] = true; FALTA
 	AL["Master Elemental Shaper Krixix"] = "Maestro de los elementos Formacio Krixix";

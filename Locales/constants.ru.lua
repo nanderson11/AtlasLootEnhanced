@@ -911,7 +911,6 @@ if AL then
 	AL["Aged Dalaran Wizard"] = "Даларанский старый волшебник";
 	AL["Felsteed"] = "Скакун Скверны";
 	AL["Shattered Hand Executioner"] = "Палач из клана Изувеченной Длани";
-	AL["Razzashi Raptor"] = "Ящер Раззаши";
 	AL["Deviate Ravager/Deviate Guardian"] = "Загадочный опустошитель/Загадочный страж";
 	AL["Servant's Quarter Animal Bosses"] = "Боссы Комнаты Слуг";
 	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";

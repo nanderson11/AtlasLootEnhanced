@@ -1060,7 +1060,6 @@ if AL then
 	AL["Aged Dalaran Wizard"] = "Gealterter Hexer von Dalaran";
 	AL["Felsteed"] = "Teufelsross";
 	AL["Shattered Hand Executioner"] = "Henker der Zerschmetterten Hand";
-	AL["Razzashi Raptor"] = "Razzashiraptor";
 	AL["Deviate Ravager/Deviate Guardian"] = "Deviatverheerer/Deviatwächter";
 	AL["Servant's Quarter Animal Bosses"] = "Bosse im Quartier der Diener";
 	AL["Master Elemental Shaper Krixix"] = "Meisterelementarformer Krixix";

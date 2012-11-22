@@ -737,6 +737,11 @@ if AL then
 	AL["Rare Companions"] = true;
 	AL["Unobtainable Companions"] = true;
 	AL["New Companions"] = true;
+	--- Drop Locations
+	AL["Bogflare Needler"] = true;
+	AL["Deviate Ravager/Deviate Guardian"] = true;
+	AL["Gundrak Raptor"] = true;
+	AL["Noxious Whelp"] = true;
 
 	-- Mounts
 	AL["Alliance Mounts"] = true;
@@ -1095,9 +1100,6 @@ if AL then
 	AL["Bash'ir Landing Stasis Chambers"] = true;
 	AL["Battle Pet Trainer"] = true;
 	AL["Apothecary Hummel"] = true; --Will be removed soon once its added to BabbleBoss
-
-	AL["Razzashi Raptor"] = true; --- Unsure were we used this.
-	AL["Deviate Ravager/Deviate Guardian"] = true; --- Unsure were we used this.
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;
