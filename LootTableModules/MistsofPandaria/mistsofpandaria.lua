@@ -2717,7 +2717,7 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 1, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(810), "=ds="};
 				{ 2, 86518, "", "=q3=Yaungol Fire Carrier", "=ds=#h1#, #w6#"};
-				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(809), "=ds="};
+				{ 16, 0, "inv_box_04", "=q6="..AtlasLoot:GetMapNameByID(858), "=ds="};
 				{ 17, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
 				{ 18, 86522, "", "=q3=Blade of the Prime", "=ds=#h1#, #w10#"};
 				{ 19, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
@@ -2732,7 +2732,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(809),
+			name = AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(858),
 			module = moduleName, menu = "RAREMENU",
 		};
 	}
