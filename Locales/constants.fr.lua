@@ -737,6 +737,11 @@ if AL then
 	AL["Rare Companions"] = "Mascottes rares";
 	AL["Unobtainable Companions"] = "Mascottes impossibles à obtenir";
 	AL["New Companions"] = "Nouvelles mascottes";
+	--- Drop Locations
+	AL["Bogflare Needler"] = "Piqueur Tourbembrase";
+	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant";
+	AL["Gundrak Raptor"] = "Raptor de Gundrak";
+	AL["Noxious Whelp"] = "Dragonnet nocif";
 
 	-- Mounts
 	AL["Alliance Mounts"] = "Montures de l'Alliance";
@@ -1095,8 +1100,6 @@ if AL then
 	AL["Bash'ir Landing Stasis Chambers"] = "Chambre de stase alpha du point d'ancrage de Bash'ir";
 	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
 	AL["Apothecary Hummel"] = "Apothicaire Hummel"; --Will be removed soon once its added to BabbleBoss
-
-	AL["Deviate Ravager/Deviate Guardian"] = "Ravageur déviant/Gardien déviant"; --- Unsure were we used this.
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";
