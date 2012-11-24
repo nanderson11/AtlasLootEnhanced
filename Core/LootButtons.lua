@@ -33,15 +33,15 @@ local CURRENCY_PRICE = {
 
 	-- Custom currencys
 	["BREWFEST"] = { itemID = 37829 },			-- Brewfest
-	["CHAMPWRIT"] = { itemID = 46114 },			-- What is this?
+	["CHAMPWRIT"] = { itemID = 46114 },			-- Champion's Writ
 	["HALLOWSEND"] = { itemID = 33226 },		-- Hallow's End
 	["LUNARFESTIVAL"] = { itemID = 21100 },		-- Lunar Festival
 	["MIDSUMMER"] = { itemID = 23247 },			-- Midsummer Fire Festival
 	["NOBLEGARDEN"] = { itemID = 44791 },		-- Noblegarden
 	["SPIRITSHARD"] = { itemID = 28558 },		-- World PvP - Terokkar Forest: Bone Wastes
 	["VALENTINEDAY"] = { itemID = 49927 },		-- Love is in the Air
-
-	["RELICULDUAR"] = { itemID = 42780 },		-- Love is in the Air
+	["RELICULDUAR"] = { itemID = 42780 },		-- Relic of Ulduar
+	["SPIRITOFHARMONY"] = { itemID = 76061 },	-- Spirit of Harmony
 }
 
 -- AtlasLoot:CreateItemButton
@@ -292,6 +292,14 @@ do
 		itemButton.Frame.QA.ExtraText:SetText("TEST")
 		itemButton.Frame.QA.ExtraText:SetWidth(164)
 		itemButton.Frame.QA.ExtraText:SetHeight(10)
+		
+		-- Item amount
+		itemButton.Frame.IconAmount = itemButton.Frame:CreateFontString(name.."_IconAmount", "ARTWORK", "AtlasLoot_ItemAmountFont")
+		itemButton.Frame.IconAmount:SetPoint("BOTTOMLEFT", itemButton.Frame.Icon, "BOTTOMLEFT",0,1)
+		itemButton.Frame.IconAmount:SetJustifyH("RIGHT")
+		itemButton.Frame.IconAmount:SetHeight(15)
+		itemButton.Frame.IconAmount:SetWidth(25)	
+		itemButton.Frame.IconAmount:SetText()
 		
 		itemButton.Frame.QA:SetScript("OnEnter", AtlasLoot.QAItemOnEnter)
 		itemButton.Frame.QA:SetScript("OnLeave", AtlasLoot.QAItemOnLeave)
