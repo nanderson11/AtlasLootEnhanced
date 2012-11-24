@@ -811,7 +811,6 @@ AtlasLoot_TextParsing = {
 	{ "#winterfinclam#", "|TInterface\\Icons\\INV_Misc_Shell_03:0|t" },
 
 	-- Currency Icons - Crafting Recipes
-	{ "#spiritofharmony#", "|TInterface\\Icons\\inv_elemental_spiritofharmony_2:0|t"},		-- Spirit of Harmony (SmithingMoPVendor)
 	{ "#elementiumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar:0|t"},						-- Elementium Bar (SmithingCataVendor)
 	{ "#hardenedelementiumbar#", "|TInterface\\Icons\\inv_misc_ebonsteelbar:0|t"},			-- Hardened Elementium Bar (SmithingCataVendor)
 	{ "#pyriumbar#", "|TInterface\\Icons\\inv_misc_pyriumbar_02:0|t"},						-- Pyrium Bar (SmithingCataVendor)
