@@ -6688,11 +6688,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["BilgewaterCartel"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r1#"};
+				{ 1, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r1#"};
 				{ 2, 64884, "", "=q1=Bilgewater Cartel Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r4#"};
+				{ 4, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r4#"};
 				{ 5, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r5#"};
+				{ 7, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r5#"};
 				{ 8, 64906, "", "=q3=Bilgewater Cape", "=ds=#s4#"};
 				{ 9, 64907, "", "=q3=Bilgewater Mantle", "=ds=#s4#"};
 				{ 10, 64905, "", "=q3=Bilgewater Shroud", "=ds=#s4#"};

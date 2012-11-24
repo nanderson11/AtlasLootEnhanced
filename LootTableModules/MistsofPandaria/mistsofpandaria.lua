@@ -3045,7 +3045,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 90895, "", "=q1=Straw Hat", "=ds=#s1#, #a3#", ""};
 				{ 20, 90896, "", "=q1=Straw Hat", "=ds=#s1#, #a4#", ""};
 				{ 22, 0, "achievement_faction_tillers", "=q6="..BabbleFaction["Sho"], "=q5="..BabbleFaction["Best Friend"]};
-				{ 23, 85222, "", "=q4=Red Cricket", "=ds=#e13#", ""};
+				{ 23, 85222, "", "=q3=Red Cricket", "=ds=#e13#", ""};
 			};
 		};
 		info = {

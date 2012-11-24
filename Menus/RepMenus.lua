@@ -49,7 +49,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 19, "MiscFactions", "Ability_Mount_PinkTiger", "=ds="..BabbleFaction["Wintersaber Trainers"], "=q5="..BabbleFaction["Alliance"].." - "..BabbleZone["Winterspring"]};
 				{ 21, "MiscFactions", "spell_shadow_psychichorrors", "=ds="..BabbleFaction["The Defilers"], "=q5="..BabbleFaction["Horde"].." - "..BabbleZone["Arathi Basin"]}; 
 				{ 22, "MiscFactions", "inv_jewelry_frostwolftrinket_05", "=ds="..BabbleFaction["Frostwolf Clan"], "=q5="..BabbleFaction["Horde"].." - "..BabbleZone["Alterac Valley"]};
-				{ 24, "BilgewaterCartel", "inv_misc_tournaments_symbol_nightelf", "=ds="..BabbleFaction["Bilgewater Cartel"], "=q5="..BabbleFaction["Horde"]};
+				{ 24, "BilgewaterCartel", "inv_misc_tabard_kezan", "=ds="..BabbleFaction["Bilgewater Cartel"], "=q5="..BabbleFaction["Horde"]};
 				{ 25, "DarkspearTrolls", "inv_misc_tournaments_symbol_troll", "=ds="..BabbleFaction["Darkspear Trolls"], "=q5="..BabbleFaction["Horde"]};
 				{ 26, "HuojinPandaren", "inv_misc_tournaments_symbol_orc", "=ds="..BabbleFaction["Huojin Pandaren"], "=q5="..BabbleFaction["Horde"]};
 				{ 27, "Orgrimmar", "inv_misc_tournaments_symbol_orc", "=ds="..BabbleFaction["Orgrimmar"], "=q5="..BabbleFaction["Horde"]};
