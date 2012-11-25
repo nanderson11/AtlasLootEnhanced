@@ -560,8 +560,8 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 4, 19994, "", "=q1=Harvest Fruit", "=ds=#e3#"};
 				{ 5, 19997, "", "=q1=Harvest Nectar", "=ds=#e4#"};
 				{ 17, 19697, "", "=q1=Bounty of the Harvest", "=q1=#m4#: =ds=#m20#"};
-				{ 18, 20009, "", "=q1=For the Light!", "=q1=#m4#: =ds=#e10# =ec1=#m7#"};
-				{ 19, 20010, "", "=q1=The Horde's Hellscream", "=q1=#m4#: =ds=#e10# =ec1=#m6#"};
+				{ 18, 20009, "", "=q1=For the Light!", "=ds=#e10# =ec1=#m7#", "=q1=#m4#: #QUESTID:8149#"};
+				{ 19, 20010, "", "=q1=The Horde's Hellscream", "=ds=#e10# =ec1=#m6#", "=q1=#m4#: #QUESTID:8150#"};
 			};
 		};
 		info = {

@@ -122,8 +122,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 2, "Halloween", "achievement_halloween_candy_01", "=ds="..AL["Vendor"], ""};
 				{ 3, "Halloween#2", "achievement_halloween_ghost_01", "=ds="..AL["Non-Playable Race Masks"].." / "..BabbleInventory["Wands"], ""};
 				{ 5, 0, "inv_misc_food_25", "=q6="..AL["Special Rewards"], ""};
-				{ 6, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1# =q2="..AL["Various Locations"]};
-				{ 7, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
+				{ 6, 33117, "", "=q3=Jack-o'-Lantern", "=ds=#e1#", "=q2="..AL["World Drop"]};
+				{ 7, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1#", "=q2="..AL["World Drop"]};
 				{
 					{ 8, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29429#"};
 					{ 8, 71076, "", "=q1=Creepy Crate", "=ds=#e13#", "=q1=#m4#: #QUESTID:29413#"};
