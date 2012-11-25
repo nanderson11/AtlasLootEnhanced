@@ -22,7 +22,7 @@ Added Tailoring Mists of Pandaria vendor sold recipes.
 Added Spirit of Harmony tradable items.
 Added Mogu'Shan Vaults and Heart of Fear trash loot.
 Updated Transformation section.
-Updated Heirloom section.
+Updated Heirloom section and added Bind on Account items.
 Updated Legendary Items section.
 Updated Love is in the Air with the new ilvl 480 rewards.
 Updated Pilgrim's Bounty.
