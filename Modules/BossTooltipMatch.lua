@@ -11,6 +11,9 @@ AtlasLoot_BossTooltipMatch = {}
 -----------------------
 -- Mists Raids
 -----------------------
+AtlasLoot_BossTooltipMatch[60583]					= AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683)
+AtlasLoot_BossTooltipMatch[60585]					= AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683)
+AtlasLoot_BossTooltipMatch[60586]					= AtlasLoot:EJ_GetBossName("Protectors of the Endless", 683)
 AtlasLoot_BossTooltipMatch[59915]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
 AtlasLoot_BossTooltipMatch[60043]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
 AtlasLoot_BossTooltipMatch[60047]					= AtlasLoot:EJ_GetBossName("The Stone Guard", 679)
