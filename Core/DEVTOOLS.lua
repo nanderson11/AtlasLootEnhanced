@@ -138,7 +138,8 @@ local function startVendorScan(tab)
 			for i = 1,GetMerchantNumItems() do
 				local itemTexture, itemValue = GetMerchantItemCostItem(i, 1)
 				local itemLink = GetMerchantItemLink(i)
-				local itemID = string.match(itemLink, "item:(%d+):")
+				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
+				itemID = itemID or 0
 				for site, siteTab in ipairs(tab) do
 					for itemNum, item in ipairs(siteTab) do
 						if itemID and tonumber(itemID) and item[2] == tonumber(itemID) then
@@ -154,12 +155,13 @@ local function startVendorScan(tab)
 				local name, texture, price, quantity, numAvailable, isUsable, extendedCost = GetMerchantItemInfo(i)
 				local itemTexture, itemValue = GetMerchantItemCostItem(i, 1)
 				local itemLink = GetMerchantItemLink(i)
-				local itemID = string.match(itemLink, "item:(%d+):")
+				local itemID = string.match(itemLink or "item:0:", "item:(%d+):")
+				itemID = itemID or 0
 				itemID = tonumber(itemID)
 				local _,_,quality = GetItemInfo(itemID)
-				quality = qualityTab[quality]
+				if quality then quality = qualityTab[quality] end
 				local desc = AtlasLoot:FixTextBack(AtlasLoot:GetItemEquipInfo(itemID))
-				tab[1][i] = { i, itemID, "", quality..name, "=ds="..desc, getItemPrice(nil, itemValue, itemTexture) }
+				tab[1][i] = { i, itemID, "", string.format("%s%s", quality or "", name or ""), "=ds="..desc, getItemPrice(nil, itemValue, itemTexture) }
 			end
 		end
 	else
