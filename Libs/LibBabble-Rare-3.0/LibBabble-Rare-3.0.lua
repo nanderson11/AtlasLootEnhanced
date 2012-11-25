@@ -93,6 +93,7 @@ lib:SetBaseTranslations {
 	["Rockhide the Immovable"] = "Rockhide the Immovable",
 	Sambas = "Sambas",
 	Savage = "Savage",
+	Scotty = "Scotty",
 	["Shok'sharak"] = "Shok'sharak",
 	Skarr = "Skarr",
 	Skitterflame = "Skitterflame",
