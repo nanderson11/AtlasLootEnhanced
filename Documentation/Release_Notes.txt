@@ -5,12 +5,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.04.00 (?? ??, 2012)
-Compatible with Patch 5.1.
-Added missing dungeon and raid items reported by users.
+v7.04.00 (Nov 25, 2012)
+Added missing dungeon and raid items.
 Added Fishing to the crafting menus.
 Added new Pets and Mounts.
-Added Bind on Account items.
 Added Sha of Anger quest rewards.
 Added prices for faction rewards.
 Added Golden Lotus, Shado Pan and Klaxxi quest rewards.
