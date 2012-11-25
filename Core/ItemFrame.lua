@@ -2,9 +2,6 @@
 local _
 local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
--- Player faction
-local englishFaction = UnitFactionGroup("player")
-
 --- Clears the itemtable
 -- @usage AtlasLoot:ClearLootPage()
 function AtlasLoot:ClearLootPageItems()

@@ -1720,7 +1720,7 @@ do
 			frame.Slider:SetCallback("OnValueChanged", onValueChanged)
 			frame.Slider:SetLabel(AL["Change level:"])
 
-
+			
 			self:ShowHeriloomConfigWindow(info)
 		end
 	end
