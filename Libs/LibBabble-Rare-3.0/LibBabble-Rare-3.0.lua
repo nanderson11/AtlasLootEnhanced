@@ -238,6 +238,7 @@ elseif GAME_LOCALE == "zhCN" then
 	["Rockhide the Immovable"] = true, -- Needs review
 	Sambas = "桑巴斯",
 	Savage = "萨维奇",
+	Scotty = "史考特",
 	["Shok'sharak"] = "索克沙拉克",
 	Skarr = "刀疤",
 	Skitterflame = "掠行之火",
@@ -340,6 +341,7 @@ elseif GAME_LOCALE == "zhTW" then
 	["Rockhide the Immovable"] = "無法撼動的洛克海德",
 	Sambas = "森巴斯",
 	Savage = "沙維其",
+	Scotty = "史考堤",
 	["Shok'sharak"] = "肖克·薩菈克",
 	Skarr = "斯卡爾",
 	Skitterflame = "掠焰",
