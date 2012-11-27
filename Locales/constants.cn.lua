@@ -1099,7 +1099,6 @@ if AL then
 	AL["Smokywood Pastures Vendor"] = "烟林牧场商人";
 	AL["Bash'ir Landing Stasis Chambers"] = "巴什伊尔码头静止间";
 	AL["Battle Pet Trainer"] = "宠物对战训练师";
-	AL["Apothecary Hummel"] = "药剂师汉摩尔";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "大十字军的试炼";

@@ -1099,7 +1099,6 @@ if AL then
 	AL["Smokywood Pastures Vendor"] = true;
 	AL["Bash'ir Landing Stasis Chambers"] = true;
 	AL["Battle Pet Trainer"] = true;
-	AL["Apothecary Hummel"] = true; --Will be removed soon once its added to BabbleBoss
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = true;

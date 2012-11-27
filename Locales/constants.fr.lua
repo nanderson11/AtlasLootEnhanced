@@ -1099,7 +1099,6 @@ if AL then
 	AL["Smokywood Pastures Vendor"] = "Vendeurs de Gourmandises Fumebois";
 	AL["Bash'ir Landing Stasis Chambers"] = "Chambre de stase alpha du point d'ancrage de Bash'ir";
 	AL["Battle Pet Trainer"] = "Dresseur de mascottes de combat";
-	AL["Apothecary Hummel"] = "Apothicaire Hummel"; --Will be removed soon once its added to BabbleBoss
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "L'épreuve du grand croisé";

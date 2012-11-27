@@ -648,7 +648,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 		};
 		info = {
-			name = AL["Apothecary Hummel"],
+			name = BabbleBoss["Apothecary Hummel"],
 			module = moduleName, menu = "LOEVISINTHEAIRMENU",
 		};
 	};
