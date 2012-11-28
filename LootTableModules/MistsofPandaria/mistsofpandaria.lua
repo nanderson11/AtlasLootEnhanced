@@ -42,12 +42,15 @@ local moduleName = "AtlasLootMoP"
 --- Factions
 ---- The Anglers
 ---- The August Celestials
+---- Dominance Offensive
 ---- Golden Lotus
 ---- The Klaxxi
 ---- The Lorewalkers
+---- Operation: Shieldwall
 ---- Order of the Cloud Serpent
 ---- Shado-Pan
 ---- The Tillers
+---- Lion's Landing
 --- PvP
 ---- PvP Armor Sets
 ---- Level 90 - Accessories
@@ -2760,6 +2763,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 85500, "", "=q3=Anglers Fishing Raft", "=ds=#p24# (525)", "=ds=1,000 #gold#"};
 				{ 11, 84661, "", "=q3=Dragon Fishing Pole", "=ds=#e20#", "=ds=500 #gold#"};
 				{ 12, 88535, "", "=q3=Sharpened Tuskarr Spear", "=ds=#h3#", "=ds=1,500 #gold#"};
+				{ 13, 93225, "", "=q7=Grand Commendation of the Anglers", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "achievement_faction_anglers", "=q6=#r5#", ""};
 				{ 17, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e12#", "=ds=5,000 #gold#"};
 				{ 18, 89401, "", "=q3=Anglers Tabard", "=ds=#s7#", "=ds=10 #gold#"};
@@ -2790,6 +2794,7 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 84561, "", "=q3=Formula: Enchant Bracer - Exceptional Strength", "=ds=#p4# (600)", "=ds=40 #gold#"};
 				{ 6, 84557, "", "=q3=Formula: Enchant Bracer - Greater Agility", "=ds=#p4# (600)", "=ds=40 #gold#"};
 				{ 7, 84559, "", "=q3=Formula: Enchant Bracer - Super Intellect", "=ds=#p4# (600)", "=ds=40 #gold#"};
+				{ 8, 93224, "", "=q7=Grand Commendation of the August Celestials", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "achievement_faction_celestials", "=q6=#r5#", ""};
 				{ 17, 89304, "", "=q4=Reins of the Thundering August Cloud Serpent", "=ds=#e27#", "=ds=10,000 #gold#"};
 				{ 18, 89799, "", "=q3=August Celestials Tabard", "=ds=#s7#", "=ds=10 #gold#"};
@@ -2798,6 +2803,25 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = BabbleFaction["The August Celestials"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		---------------------------
+		--- Dominance Offensive ---
+		---------------------------
+
+	AtlasLoot_Data["DominanceOffensive"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "pvpcurrency-honor-horde", "=q6=#r4#", ""};
+				{ 2, 93232, "", "=q7=Grand Commendation of the Dominance Offensive", "=ds=", "=ds=45 #gold#"};
+				{ 16, 0, "pvpcurrency-honor-horde", "=q6=#r5#", ""};
+				{ 17, 93169, "", "=q4=Grand Armored Wyvern", "=ds=#e27#", "=ds=1,800 #gold#"};
+			};
+		};
+		info = {
+			name = BabbleFaction["Dominance Offensive"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -2844,6 +2868,7 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 90601, "", "=q3=Bonded Plate of the Golden Lotus", "=ds=#s5#, #a4#", "=q1=#m4#: #QUESTID:30642#"};
 				{ 9, 90603, "", "=q3=Durable Plate of the Golden Lotus", "=ds=#s5#, #a4#", "=q1=#m4#: #QUESTID:30642#"};
 				{ 10, 90600, "", "=q3=Ferocious Plate of the Golden Lotus", "=ds=#s5#, #a4#", "=q1=#m4#: #QUESTID:30642#"};
+				{ 11, 93215, "", "=q7=Grand Commendation of the Golden Lotus", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "achievement_faction_goldenlotus", "=q6=#r5#", ""};
 				{ 17, 90596, "", "=q4=Burning Necklace of the Golden Lotus", "=ds=#s2#", "=q1=#m4#: #QUESTID:30646#"};
 				{ 18, 90593, "", "=q4=Delicate Necklace of the Golden Lotus", "=ds=#s2#", "=q1=#m4#: #QUESTID:30646#"};
@@ -2885,6 +2910,8 @@ local moduleName = "AtlasLootMoP"
 				{ 14, 84196, "", "=q1=Plans: Living Steel Belt Buckle", "=ds=#p2# (600)", "=ds=20 #kyparite#"};
 				{ 15, 83789, "", "=q1=Plans: Living Steel Breastplate", "=ds=#p2# (600)", "=ds=20 #kyparite#"};
 				{ 16, 83790, "", "=q1=Plans: Living Steel Gauntlets", "=ds=#p2# (600)", "=ds=20 #kyparite#"};
+				{ 18, 0, "achievement_faction_klaxxi", "=q6=#r4#", ""};
+				{ 19, 92522, "", "=q7=Grand Commendation of the Klaxxi", "=ds=", "=ds=45 #gold#"};
 			};
 			{
 				{ 1, 0, "achievement_faction_klaxxi", "=q6=#r5#", ""};
@@ -2919,11 +2946,13 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["Lorewalkers"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_faction_lorewalkers", "=q6=#r5#", ""};
-				{ 2, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#", "=ds=600 #gold#"};
-				{ 3, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#", "=ds=10 #gold#"};
-				{ 4, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
-				{ 5, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
+				{ 1, 0, "achievement_faction_lorewalkers", "=q6=#r4#", ""};
+				{ 2, 93230, "", "=q7=Grand Commendation of the Lorewalkers", "=ds=", "=ds=45 #gold#"};
+				{ 16, 0, "achievement_faction_lorewalkers", "=q6=#r5#", ""};
+				{ 17, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#", "=ds=600 #gold#"};
+				{ 18, 89795, "", "=q3=Lorewalkers Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 19, 87548, "", "=q2=Lorewalker's Lodestone", "=ds=#m20#"};
+				{ 20, 87549, "", "=q2=Lorewalker's Map", "=ds=#m20#"};
 			};
 		};
 		info = {
@@ -2932,6 +2961,24 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+		-----------------------------
+		--- Operation: Shieldwall ---
+		-----------------------------
+
+	AtlasLoot_Data["OperationShieldwall"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "pvpcurrency-honor-alliance", "=q6=#r4#", ""};
+				{ 2, 93231, "", "=q7=Grand Commendation of Operation: Shieldwall", "=ds=", "=ds=45 #gold#"};
+				{ 16, 0, "pvpcurrency-honor-alliance", "=q6=#r5#", ""};
+				{ 17, 93168, "", "=q4=Grand Armored Gryphon", "=ds=#e27#", "=ds=1,800 #gold#"};
+			};
+		};
+		info = {
+			name = BabbleFaction["Operation: Shieldwall"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
 		----------------------------------
 		--- Order of the Cloud Serpent ---
 		----------------------------------
@@ -2950,6 +2997,7 @@ local moduleName = "AtlasLootMoP"
 				{ 10, 89227, "", "=q1=Floating Finish Line", "=ds=#m20#", "=ds=100 #gold#"};
 				{ 11, 89224, "", "=q1=Floating Racing Flag", "=ds=#m20#", "=ds=25 #gold#"};
 				{ 12, 89223, "", "=q1=Racing Flag", "=ds=#m20#", "=ds=25 #gold#"};
+				{ 13, 93229, "", "=q7=Grand Commendation of the Order of the Cloud Serpent", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "achievement_faction_serpentriders", "=q6=#r5#", ""};
 				{ 17, 85430, "", "=q4=Reins of the Azure Cloud Serpent", "=ds=#e27#", "=ds=3,000 #gold#"};
 				{ 18, 85429, "", "=q4=Reins of the Golden Cloud Serpent", "=ds=#e27#", "=ds=3,000 #gold#"};
@@ -2979,6 +3027,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 84584, "", "=q3=Formula: Enchant Weapon - Dancing Steel", "=ds=#p4# (600)", "=ds=40 #gold#"};
 				{ 8, 84583, "", "=q3=Formula: Enchant Weapon - Jade Spirit", "=ds=#p4# (600)", "=ds=40 #gold#"};
 				{ 9, 84580, "", "=q3=Formula: Enchant Weapon - River's Song", "=ds=#p4# (600)", "=ds=40 #gold#"};
+				{ 10, 93220, "", "=q7=Grand Commendation of the Shado-Pan", "=ds=", "=ds=45 #gold#"};
 				{ 16, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
 				{ 17, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=500 #gold#"};
 				{ 18, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=1,500 #gold#"};
@@ -3028,6 +3077,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 89233, "", "=q1=Songbell Seed", "=ds=", "=ds=1 #gold#"};
 				{ 24, 89197, "", "=q1=Windshear Cactus Seed", "=ds=", "=ds=1 #gold#"};
 				{ 25, 89813, "", "=q1=\"Thunder King\" Pest Repellers", "=ds=#m2#", "=ds=94 #gold# 44 #silver# 44 #copper#"};
+				{ 26, 93226, "", "=q7=Grand Commendation of the Tillers", "=ds=", "=ds=45 #gold#"};
 			};
 			{
 				{ 1, 0, "achievement_faction_tillers", "=q6=#r5#", ""};
@@ -3052,6 +3102,42 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = BabbleFaction["The Tillers"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		----------------------
+		--- Lion's Landing ---
+		----------------------
+
+	AtlasLoot_Data["LionsLanding"] = {
+		["Normal"] = {
+			{
+				{ 1, 91854, "", "=q1=Sturdy Crane Snare", "=ds=", "#DOMINATIONCOMMISSION:30#"},
+				{ 2, 91855, "", "=q1=Sturdy Tiger Trap", "=ds=", "#DOMINATIONCOMMISSION:30#"},
+				{ 3, 91856, "", "=q1=Sturdy Crab Crate", "=ds=", "#DOMINATIONCOMMISSION:30#"},
+				{ 4, 92432, "", "=q1=Portal Reagents: Skyfire", "=ds=", "#DOMINATIONCOMMISSION:5#"},
+				{ 5, 92430, "", "=q1=Portal Reagents: Shrine of Seven Stars", "=ds=", "#DOMINATIONCOMMISSION:5#"},
+				{ 6, 92431, "", "=q1=Portal Reagents: Stormwind", "=ds=", "#DOMINATIONCOMMISSION:5#"},
+				{ 7, 92439, "", "=q1=Mercenary Contract: Mage", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 8, 92435, "", "=q1=Mercenary Contract: Warrior", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 9, 92436, "", "=q1=Mercenary Contract: Druid", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 10, 92437, "", "=q1=Mercenary Contract: Priest", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 11, 92438, "", "=q1=Mercenary Contract: Paladin", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 12, 92433, "", "=q1=Mercenary Contract: Shaman", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 13, 92434, "", "=q1=Mercenary Contract: Rogue", "=ds=", "#DOMINATIONCOMMISSION:10#"},
+				{ 14, 92429, "", "=q1=Lion's Landing Banquet", "=ds=", "#DOMINATIONCOMMISSION:30#"},
+				{ 15, 92664, "", "=q1=Guard Contract: Outpost", "=ds=", "#DOMINATIONCOMMISSION:40#"},
+				{ 16, 92428, "", "=q1=Guard Contract: Graveyard", "=ds=", "#DOMINATIONCOMMISSION:60#"},
+				{ 17, 92427, "", "=q1=Guard Contract: Tower", "=ds=", "#DOMINATIONCOMMISSION:80#"},
+				{ 18, 92531, "", "=q1=Crate of Alliance Banners", "=ds=", "#DOMINATIONCOMMISSION:25#"},
+				{ 19, 92535, "", "=q1=Box of Overridden Excavationbots", "=ds=", "#DOMINATIONCOMMISSION:125#"},
+				{ 20, 92533, "", "=q1=Obelisk of Deception", "=ds=", "#DOMINATIONCOMMISSION:500#" },
+				{ 21, 92532, "", "=q1=Rodent Crate", "=ds=", "#DOMINATIONCOMMISSION:2000#"},
+			};
+		};
+		info = {
+			name = "Lion's Landing",
 			module = moduleName, menu = "REPMENU",
 		};
 	}

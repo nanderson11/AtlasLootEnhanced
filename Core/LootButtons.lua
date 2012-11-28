@@ -32,16 +32,17 @@ local CURRENCY_PRICE = {
 	["WORLDTREE"] = 416,	-- Mark of the World Tree
 
 	-- Custom currencys
-	["BREWFEST"] = { itemID = 37829 },			-- Brewfest
-	["CHAMPWRIT"] = { itemID = 46114 },			-- Champion's Writ
-	["HALLOWSEND"] = { itemID = 33226 },		-- Hallow's End
-	["LUNARFESTIVAL"] = { itemID = 21100 },		-- Lunar Festival
-	["MIDSUMMER"] = { itemID = 23247 },			-- Midsummer Fire Festival
-	["NOBLEGARDEN"] = { itemID = 44791 },		-- Noblegarden
-	["SPIRITSHARD"] = { itemID = 28558 },		-- World PvP - Terokkar Forest: Bone Wastes
-	["VALENTINEDAY"] = { itemID = 49927 },		-- Love is in the Air
-	["RELICULDUAR"] = { itemID = 42780 },		-- Relic of Ulduar (TransformationNonconsumedItems, ExplorersLeagueWarsongOffensive)
-	["SPIRITOFHARMONY"] = { itemID = 76061 },	-- Spirit of Harmony (SmithingMoPVendor, LeatherworkingMoPVendor, TailoringMoPVendor, SpiritOfHarmony)
+	["BREWFEST"] = { itemID = 37829 },				-- Brewfest
+	["CHAMPWRIT"] = { itemID = 46114 },				-- Champion's Writ
+	["HALLOWSEND"] = { itemID = 33226 },			-- Hallow's End
+	["LUNARFESTIVAL"] = { itemID = 21100 },			-- Lunar Festival
+	["MIDSUMMER"] = { itemID = 23247 },				-- Midsummer Fire Festival
+	["NOBLEGARDEN"] = { itemID = 44791 },			-- Noblegarden
+	["SPIRITSHARD"] = { itemID = 28558 },			-- World PvP - Terokkar Forest: Bone Wastes
+	["VALENTINEDAY"] = { itemID = 49927 },			-- Love is in the Air
+	["RELICULDUAR"] = { itemID = 42780 },			-- Relic of Ulduar (TransformationNonconsumedItems, ExplorersLeagueWarsongOffensive)
+	["SPIRITOFHARMONY"] = { itemID = 76061 },		-- Spirit of Harmony (SmithingMoPVendor, LeatherworkingMoPVendor, TailoringMoPVendor, SpiritOfHarmony)
+	["DOMINATIONCOMMISSION"] = { itemID = 91877 },	-- Domination Point Commission
 }
 
 -- AtlasLoot:CreateItemButton

@@ -13,13 +13,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 6, "GoldenLotus", "achievement_faction_goldenlotus", "=ds="..BabbleFaction["Golden Lotus"], "=q5="..BabbleZone["Vale of Eternal Blossoms"]};
 				{ 7, "Lorewalkers", "achievement_faction_lorewalkers", "=ds="..BabbleFaction["The Lorewalkers"], "=q5="..BabbleZone["Vale of Eternal Blossoms"]};
 				{ 8, "ShadoPan", "achievement_faction_shadopan", "=ds="..BabbleFaction["Shado-Pan"], "=q5="..BabbleZone["Townlong Steppes"]};
-				{ 10, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 10, "OperationShieldwall", "pvpcurrency-honor-alliance", "=ds="..BabbleFaction["Operation: Shieldwall"], "=q5="..BabbleZone["Krasarang Wilds"]};
+				{ 12, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 14, "LionsLanding", "pvpcurrency-conquest-alliance", "=ds=Lion's Landing", "=q5="..BabbleZone["Krasarang Wilds"]};
 				{ 17, "REPMENU_BURNINGCRUSADE", "INV_Misc_Ribbon_01", "=ds="..AL["Burning Crusade"], ""};
 				{ 18, "REPMENU_CATACLYSM", "inv_neck_hyjaldaily_04", "=ds="..AL["Cataclysm"], ""};
 				{ 20, "AugustCelestials", "achievement_faction_celestials", "=ds="..BabbleFaction["The August Celestials"], "=q5="..BabbleZone["Krasarang Wilds"].." / "..BabbleZone["Townlong Steppes"]};
 				{ 21, "Klaxxi", "achievement_faction_klaxxi", "=ds="..BabbleFaction["The Klaxxi"], "=q5="..BabbleZone["Dread Wastes"]};
 				{ 22, "OrderCloudSerpent", "achievement_faction_serpentriders", "=ds="..BabbleFaction["Order of the Cloud Serpent"], "=q5="..BabbleZone["The Jade Forest"]};
 				{ 23, "Tillers", "achievement_faction_tillers", "=ds="..BabbleFaction["The Tillers"], "=q5="..BabbleZone["Valley of the Four Winds"]};
+				{ 25, "DominanceOffensive", "pvpcurrency-honor-horde", "=ds="..BabbleFaction["Dominance Offensive"], "=q5="..BabbleZone["Krasarang Wilds"]};
+				--{ 27, "DominationPoint", "pvpcurrency-conquest-horde", "=ds=Domination Point", "=q5="..BabbleZone["Krasarang Wilds"]};
 			};
 		};
 		info = {
