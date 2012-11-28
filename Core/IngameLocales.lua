@@ -93,7 +93,6 @@ AtlasLoot_IngameLocales = {
 	["Nasra Spothide"] = GetAchievementCriteriaInfo(7439,37),
 	["Nessos the Oracle"] = GetAchievementCriteriaInfo(7439,46),
 	["Norlaxx"] = GetAchievementCriteriaInfo(7439,26),
-	["Norlaxx the Outcast"] = GetAchievementCriteriaInfo(7439,11),
 	["Omnis Grinlok"] = GetAchievementCriteriaInfo(7439,48),
 	["Qu'nas"] = GetAchievementCriteriaInfo(7439,31),
 	["Ruun Ghostpaw"] = GetAchievementCriteriaInfo(7439,38),
@@ -112,6 +111,7 @@ AtlasLoot_IngameLocales = {
 	["Urobi the Walker"] = GetAchievementCriteriaInfo(7439,36),
 	["Yorik Sharpeye"] = GetAchievementCriteriaInfo(7439,56),
 	["Yul Wildpaw"] = GetAchievementCriteriaInfo(7439,40),
+	["Zai the Outcast"] = GetAchievementCriteriaInfo(7439,11),
 
 	--- Other Rares
 	["Darkmoon Rabbit"] = GetItemInfo(80008),

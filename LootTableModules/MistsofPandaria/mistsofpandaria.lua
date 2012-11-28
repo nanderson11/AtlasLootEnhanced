@@ -2421,12 +2421,12 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 86566, "", "=q3=Forager's Gloves", "=ds=#s9#, #a1#"};
 				{ 17, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Nessos the Oracle"], ""};
 				{ 18, 86584, "", "=q3=Hardened Shell", "=ds="};
-				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Norlaxx the Outcast"], ""};
-				{ 21, 86581, "", "=q3=Farwater Conch", "=ds="};
-				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Scritch"], ""};
-				{ 24, 86592, "", "=q3=Hozen Peace Pipe", "=ds="};
-				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ski'thik"], ""};
-				{ 27, 86577, "", "=q3=Rod of Ambershaping", "=ds="};
+				{ 20, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Scritch"], ""};
+				{ 21, 86592, "", "=q3=Hozen Peace Pipe", "=ds="};
+				{ 23, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Ski'thik"], ""};
+				{ 24, 86577, "", "=q3=Rod of Ambershaping", "=ds="};
+				{ 26, 0, "inv_box_04", "=q6="..AtlasLoot_IngameLocales["Zai the Outcast"], ""};
+				{ 27, 86581, "", "=q3=Farwater Conch", "=ds="};
 			};
 			{
 				{ 2, 0, "inv_box_04", "=q6="..AL["Shared Zone Loot"], ""};
