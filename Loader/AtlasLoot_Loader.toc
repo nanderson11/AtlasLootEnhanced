@@ -1,4 +1,4 @@
-﻿## Interface: 50001
+﻿## Interface: 50100
 ## Title: AtlasLoot_Loader
 ## Title-deDE: AtlasLoot Loader
 ## Title-zhCN: AtlasLoot Loader

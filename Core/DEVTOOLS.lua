@@ -79,9 +79,9 @@ local function returnItemTableString(tab)
 	return lootTableString
 end
 
-function getItemPrice(strg, newPrice, newPriceIcon)
+local function getItemPrice(strg, newPrice, newPriceIcon)
 	local retStrg = ""
-	newPriceIcon = string.lower(newPriceIcon)
+	newPriceIcon = string.lower(newPriceIcon or "")
 	local priceTab = {
 		["justice"] = {"(%d+) #justice#", "%d+ #justice#", "Interface\\Icons\\pvecurrency-justice" },
 		["valor"] = {"(%d+) #valor#", "%d+ #valor#", "Interface\\Icons\\pvecurrency-valor" },
