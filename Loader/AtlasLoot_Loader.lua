@@ -27,7 +27,6 @@ AtlasLoot.Modules = {
 
 local allLoaded = false
 local spamProtect = {}
-local atlasLootIsLoaded = false
 
 
 function AtlasLoot:OnInitialize()
@@ -91,12 +90,9 @@ function AtlasLoot:LoadModule(module)
 	if not module or type(module) ~= "string" then return end
 	if allLoaded then return true end
 	local loadedRET,reasonRET = true, ""
-	if module == "AtlasLoot" or not atlasLootIsLoaded then
+	if module == "AtlasLoot" or not IsAddOnLoaded("AtlasLoot") then
 		if not IsAddOnLoaded(module) then
 			LoadAddOn("AtlasLoot")
-			atlasLootIsLoaded = true
-		else
-			atlasLootIsLoaded = true
 		end
 		return loadedRET, reasonRET
 	end

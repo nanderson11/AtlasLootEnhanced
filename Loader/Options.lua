@@ -99,29 +99,30 @@ do
 		end
 	end
 
-	function AtlasLoot:HookUnitTarget()
-		local name = GameTooltip:GetUnit()
-		if UnitName("mouseover") == name then 
-			local _, realm = UnitName("mouseover")
+	function hookUnitTarget(self)
+		local name, unit = self:GetUnit()
+		if name and unit then
+			local _, realm = UnitName(unit)
 			if not realm then 
 				realm = GetRealmName()
 			end
+
 			if name and ( Authors[name] or Friends[name] ) then
 				if Authors[name] == realm then
 					if AtlasLoot.imagePath then
-						GameTooltip:AddLine("AtlasLoot Author |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
+						self:AddLine("AtlasLoot Author |T"..AtlasLoot.imagePath.."gold:0|t", 0, 1, 0 )
 					else
-						GameTooltip:AddLine("AtlasLoot Author", 0, 1, 0 )
+						self:AddLine("AtlasLoot Author", 0, 1, 0 )
 					end
 				elseif Friends[name] == realm then
 					if AtlasLoot.imagePath then
-						GameTooltip:AddLine("AtlasLoot Friend |T"..AtlasLoot.imagePath.."silver:0|t", 0, 1, 0 )
+						self:AddLine("AtlasLoot Friend |T"..AtlasLoot.imagePath.."silver:0|t", 0, 1, 0 )
 					else
-						GameTooltip:AddLine("AtlasLoot Friend", 0, 1, 0 )
+						self:AddLine("AtlasLoot Friend", 0, 1, 0 )
 					end
 				end
 			end
 		end
 	end
-	GameTooltip:HookScript("OnTooltipSetUnit", AtlasLoot.HookUnitTarget)
+	GameTooltip:HookScript("OnTooltipSetUnit", hookUnitTarget)
 end
