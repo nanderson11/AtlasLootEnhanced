@@ -6,6 +6,9 @@ by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
 
 The AL["text"] = true; shortcut can ONLY be used for English (the root translation).
+
+Before adding a new string, check first if it can be acquired from GetItemInfo, GetSpellInfo or GetAchievementCriteriaInfo.
+Also check if it should be added instead to one of the Babble libraries we use.
 ]]
 
 	-- Table holding all loot tables is initialised here as it loads early

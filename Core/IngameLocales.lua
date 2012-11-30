@@ -1,9 +1,7 @@
 --[[	
 	GetAchievementCriteriaInfo
-	
 	BC		=	1312
 	WotLK	=	2256
-	Cata	=	????
 	Mop		=	7439
 ]]--
 

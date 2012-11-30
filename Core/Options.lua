@@ -38,7 +38,7 @@ do
 						inline = true,
 						name = "",
 						args = {
-							all = {						
+							all = {
 								type = "group",
 								inline = true,
 								name = "",
