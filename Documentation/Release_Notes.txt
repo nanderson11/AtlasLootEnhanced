@@ -5,11 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.05.00 (??, 2012)
+v7.04.01 (Nov 30, 2012)
+Compatible with Patch 5.1.
 Added faction - Dominance Offensive.
 Added faction - Operation: Shieldwall.
 Added rewards for Lion's Landing and Domination Point.
-Many minor fixes, additions and translations.
+Minor fixes, additions and translations.
 
 v7.04.00 (Nov 25, 2012)
 Added missing dungeon and raid items.
