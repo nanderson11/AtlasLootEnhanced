@@ -11,10 +11,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		["Normal"] = {
 			{
 				{ 1, "VPMOPMENU", "pvecurrency-valor", "=ds="..AL["Valor Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 2, "JPMOPMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 3, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." "..AL["Rewards"], ""};
-				{ 4, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..AtlasLoot_IngameLocales["Spirit of Harmony"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
-				{ 5, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 2, "JUSTICEPOINTSMENU", "pvecurrency-justice", "=ds="..AL["Justice Points"].." "..AL["Rewards"], ""};
+				{ 3, "SpiritOfHarmony", "inv_elemental_spiritofharmony_2", "=ds="..AtlasLoot_IngameLocales["Spirit of Harmony"].." "..AL["Rewards"], "=q5="..AL["Mists of Pandaria"]};
+				{ 4, "MoltenFront", "inv_misc_markoftheworldtree", "=ds="..BabbleZone["Molten Front"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
 				{ 7, "RAREMENU", "expansionicon_mistsofpandaria", "=ds="..AL["Rare Mobs"], "=q5="..AL["Mists of Pandaria"]};
 				{ 8, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 9, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
@@ -57,58 +56,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["JPMOPMENU"] = {
+	AtlasLoot_Data["JUSTICEPOINTSMENU"] = {
 		["Normal"] = {
 			{
 				{ 2, "JusticePointsMoP", "inv_chest_robe_dungeonrobe_c_04", "=ds="..BabbleInventory["Cloth"], ""};
 				{ 3, "JusticePointsMoP#2", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
 				{ 5, "JusticePointsMoP#3", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
+				{ 7, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
+				{ 8, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
 				{ 17, "JusticePointsMoP", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "JusticePointsMoP#2", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
-			};
-		};
-		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
-			menu = "SETMENU",
-		};
-	}
-
-	AtlasLoot_Data["SpiritOfHarmony"] = {
-		["Normal"] = {
-			{
-				{ 2, "SmithingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Plans"], "=q5="..AtlasLoot:GetMapNameByID(811)};
-				{ 3, "TailoringMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};
-				{ 17, "LeatherworkingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};
-				{ 20, 72238, "", "=q2=Golden Lotus", "=ds=", "#SPIRITOFHARMONY:1#", amount = 3};
-				{ 21, 89610, "", "=q1=Pandaria Herbs", "=ds=", "#SPIRITOFHARMONY:1#"};
-				{ 23, 74247, "", "=q3=Ethereal Shard", "=ds=", "#SPIRITOFHARMONY:1#"};
-				{ 24, 74250, "", "=q2=Mysterious Essence", "=ds=", "#SPIRITOFHARMONY:1#", amount = 5};
-				{ 25, 74249, "", "=q1=Spirit Dust", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
-				{ 27, 72120, "", "=q1=Exotic Leather", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
-				{ 28, 79101, "", "=q1=Prismatic Scale", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
-				{ 5, 76734, "", "=q3=Serpent's Eye", "=ds=", "#SPIRITOFHARMONY:1#"};
-				{ 6, 0, "inv_relics_idolofferocity", "=q1=Ironpaw Token", "=ds=#p3# #m17#", "#SPIRITOFHARMONY:1#"};
-				{ 7, 87399, "", "=q1=Restored Artifact", "=ds=", "#SPIRITOFHARMONY:1#"};
-				{ 8, 79255, "", "=q2=Starlight Ink", "=ds=", "#SPIRITOFHARMONY:1#"};
-				{ 9, 72988, "", "=q1=Windwool Cloth", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
-				{ 11, 72094, "", "=q2=Black Trillium Ore", "=ds=", "#SPIRITOFHARMONY:1#", amount = 5};
-				{ 12, 72103, "", "=q2=White Trillium Ore", "=ds=", "#SPIRITOFHARMONY:1#", amount = 5};
-				{ 13, 72092, "", "=q1=Ghost Iron Ore", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
-				{ 14, 72093, "", "=q1=Kyparite", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
-			};
-		};
-		info = {
-			name = AtlasLoot_IngameLocales["Spirit of Harmony"].." "..AL["Rewards"],
-			menu = "SETMENU",
-		};
-	}
-
-	AtlasLoot_Data["JUSTICEPOINTSMENU"] = {
-		["Normal"] = {
-			{
-				{ 2, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
-				{ 3, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
-				{ 17, "JPWRATHMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 22, "JPWRATHMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 			};
 		};
 		info = {
@@ -166,7 +124,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["70TOKENMENU"] = {
+	AtlasLoot_Data["JPBCMENU"] = {
 		["Normal"] = {
 			{
 				{ 2, "HardModeCloth", "inv_pants_cloth_15", "=ds="..BabbleInventory["Cloth"], ""};
@@ -183,6 +141,36 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		info = {
 			name = AL["Justice Points"].." "..AL["Rewards"],
 			menu = "JUSTICEPOINTSMENU",
+		};
+	}
+
+	AtlasLoot_Data["SpiritOfHarmony"] = {
+		["Normal"] = {
+			{
+				{ 2, "SmithingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Plans"], "=q5="..AtlasLoot:GetMapNameByID(811)};
+				{ 3, "TailoringMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};
+				{ 17, "LeatherworkingMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};
+				{ 20, 72238, "", "=q2=Golden Lotus", "=ds=", "#SPIRITOFHARMONY:1#", amount = 3};
+				{ 21, 89610, "", "=q1=Pandaria Herbs", "=ds=", "#SPIRITOFHARMONY:1#"};
+				{ 23, 74247, "", "=q3=Ethereal Shard", "=ds=", "#SPIRITOFHARMONY:1#"};
+				{ 24, 74250, "", "=q2=Mysterious Essence", "=ds=", "#SPIRITOFHARMONY:1#", amount = 5};
+				{ 25, 74249, "", "=q1=Spirit Dust", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
+				{ 27, 72120, "", "=q1=Exotic Leather", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
+				{ 28, 79101, "", "=q1=Prismatic Scale", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
+				{ 5, 76734, "", "=q3=Serpent's Eye", "=ds=", "#SPIRITOFHARMONY:1#"};
+				{ 6, 0, "inv_relics_idolofferocity", "=q1=Ironpaw Token", "=ds=#p3# #m17#", "#SPIRITOFHARMONY:1#"};
+				{ 7, 87399, "", "=q1=Restored Artifact", "=ds=", "#SPIRITOFHARMONY:1#"};
+				{ 8, 79255, "", "=q2=Starlight Ink", "=ds=", "#SPIRITOFHARMONY:1#"};
+				{ 9, 72988, "", "=q1=Windwool Cloth", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
+				{ 11, 72094, "", "=q2=Black Trillium Ore", "=ds=", "#SPIRITOFHARMONY:1#", amount = 5};
+				{ 12, 72103, "", "=q2=White Trillium Ore", "=ds=", "#SPIRITOFHARMONY:1#", amount = 5};
+				{ 13, 72092, "", "=q1=Ghost Iron Ore", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
+				{ 14, 72093, "", "=q1=Kyparite", "=ds=", "#SPIRITOFHARMONY:1#", amount = 20};
+			};
+		};
+		info = {
+			name = AtlasLoot_IngameLocales["Spirit of Harmony"].." "..AL["Rewards"],
+			menu = "SETMENU",
 		};
 	}
 

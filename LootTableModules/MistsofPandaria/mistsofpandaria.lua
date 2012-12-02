@@ -42,6 +42,7 @@ local moduleName = "AtlasLootMoP"
 --- Factions
 ---- The Anglers
 ---- The August Celestials
+---- Bizmo's Brawlpub / Brawl'gar Arena
 ---- Dominance Offensive
 ---- Golden Lotus
 ---- The Klaxxi
@@ -880,13 +881,14 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 86812, "", "=q4=Hisek's Chrysanthemum Cape", "=ds=#s4#" },
 				{ 2, 86815, "", "=q4=Attenuating Bracers", "=ds=#s8#, #a1#" },
 				{ 3, 86819, "", "=q4=Gloves of Grasping Claws", "=ds=#s9#, #a1#" },
-				{ 4, 86817, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
-				{ 5, 86811, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
-				{ 6, 86818, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
-				{ 7, 87823, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
-				{ 8, 86816, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
-				{ 9, 89954, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
-				{ 10, 86854, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 4, 89953, "", "=q4=Scent-Soaked Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 86817, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
+				{ 6, 86811, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
+				{ 7, 86818, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
+				{ 8, 87823, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 86816, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
+				{ 10, 89954, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
+				{ 11, 86854, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86814, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86813, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -897,13 +899,14 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 86154, "", "=q4=Hisek's Chrysanthemum Cape", "=ds=#s4#" },
 				{ 2, 86157, "", "=q4=Attenuating Bracers", "=ds=#s8#, #a1#" },
 				{ 3, 86161, "", "=q4=Gloves of Grasping Claws", "=ds=#s9#, #a1#" },
-				{ 4, 86159, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
-				{ 5, 86153, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
-				{ 6, 86160, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
-				{ 7, 87824, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
-				{ 8, 86158, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
-				{ 9, 89826, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
-				{ 10, 86203, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 4, 89829, "", "=q4=Scent-Soaked Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 86159, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
+				{ 6, 86153, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
+				{ 7, 86160, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
+				{ 8, 87824, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 86158, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
+				{ 10, 89826, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
+				{ 11, 86203, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86156, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86155, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -914,13 +917,14 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 86945, "", "=q4=Hisek's Chrysanthemum Cape", "=ds=#s4#" },
 				{ 2, 86948, "", "=q4=Attenuating Bracers", "=ds=#s8#, #a1#" },
 				{ 3, 86947, "", "=q4=Gloves of Grasping Claws", "=ds=#s9#, #a1#" },
-				{ 4, 86950, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
-				{ 5, 86943, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
-				{ 6, 86951, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
-				{ 7, 87822, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
-				{ 8, 86952, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
-				{ 9, 89919, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
-				{ 10, 86944, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
+				{ 4, 89918, "", "=q4=Scent-Soaked Sandals", "=ds=#s12#, #a1#" },
+				{ 5, 86950, "", "=q4=Gauntlets of Undesired Gifts", "=ds=#s9#, #a2#" },
+				{ 6, 86943, "", "=q4=Boots of the Still Breath", "=ds=#s12#, #a2#" },
+				{ 7, 86951, "", "=q4=Mail of Screaming Secrets", "=ds=#s5#, #a3#" },
+				{ 8, 87822, "", "=q4=Zor'lok's Fizzing Chestguard", "=ds=#s5#, #a3#" },
+				{ 9, 86952, "", "=q4=Chestplate of the Forbidden Tower", "=ds=#s5#, #a4#" },
+				{ 10, 89919, "", "=q4=Warbelt of Sealed Pods", "=ds=#s10#, #a4#" },
+				{ 11, 86944, "", "=q4=Articulated Legplates", "=ds=#s11#, #a4#" },
 				{ 16, 86949, "", "=q4=Fragment of Fear Made Flesh", "=ds=#s13#" },
 				{ 17, 86946, "", "=q4=Vizier's Ruby Signet", "=ds=#s13#" },
 				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -996,12 +1000,13 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 86831, "", "=q4=Legbreaker Greatcloak", "=ds=#s4#" },
 				{ 2, 86840, "", "=q4=Stormwake Mistcloak", "=ds=#s4#" },
 				{ 3, 86839, "", "=q4=Xaril's Hood of Intoxicating Vapors", "=ds=#s1#, #a1#" },
-				{ 4, 86836, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
-				{ 5, 86838, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
-				{ 6, 86834, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
-				{ 7, 86833, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
-				{ 8, 86832, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
-				{ 9, 86837, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
+				{ 4, 89959, "", "=q4=Shoulders of Foaming Fluids", "=ds=#s3#, #a1#" },
+				{ 5, 86836, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
+				{ 6, 86838, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
+				{ 7, 86834, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
+				{ 8, 86833, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
+				{ 9, 86832, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
+				{ 10, 86837, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86835, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86830, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
 				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -1012,12 +1017,13 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 86173, "", "=q4=Legbreaker Greatcloak", "=ds=#s4#" },
 				{ 2, 86182, "", "=q4=Stormwake Mistcloak", "=ds=#s4#" },
 				{ 3, 86181, "", "=q4=Xaril's Hood of Intoxicating Vapors", "=ds=#s1#, #a1#" },
-				{ 4, 86178, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
-				{ 5, 86180, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
-				{ 6, 86176, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
-				{ 7, 86175, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
-				{ 8, 86174, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
-				{ 9, 86179, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
+				{ 4, 89833, "", "=q4=Shoulders of Foaming Fluids", "=ds=#s3#, #a1#" },
+				{ 5, 86178, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
+				{ 6, 86180, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
+				{ 7, 86176, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
+				{ 8, 86175, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
+				{ 9, 86174, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
+				{ 10, 86179, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86177, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86172, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
 				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -1028,12 +1034,13 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 86963, "", "=q4=Legbreaker Greatcloak", "=ds=#s4#" },
 				{ 2, 86971, "", "=q4=Stormwake Mistcloak", "=ds=#s4#" },
 				{ 3, 86970, "", "=q4=Xaril's Hood of Intoxicating Vapors", "=ds=#s1#, #a1#" },
-				{ 4, 86969, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
-				{ 5, 86972, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
-				{ 6, 86964, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
-				{ 7, 86965, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
-				{ 8, 86966, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
-				{ 9, 86973, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
+				{ 4, 89924, "", "=q4=Shoulders of Foaming Fluids", "=ds=#s3#, #a1#" },
+				{ 5, 86969, "", "=q4=Sandals of the Unbidden", "=ds=#s12#, #a1#" },
+				{ 6, 86972, "", "=q4=Robes of Eighty Lights", "=ds=#s5#, #a2#" },
+				{ 7, 86964, "", "=q4=Bonebreaker Gauntlets", "=ds=#s9#, #a2#" },
+				{ 8, 86965, "", "=q4=Grips of the Leviathan", "=ds=#s9#, #a3#" },
+				{ 9, 86966, "", "=q4=Garalon's Hollow Skull", "=ds=#s1#, #a4#" },
+				{ 10, 86973, "", "=q4=Grasps of Panic", "=ds=#s9#, #a4#" },
 				{ 16, 86967, "", "=q4=Necklace of Congealed Weaknesses", "=ds=#s2#" },
 				{ 17, 86968, "", "=q4=Ring of the Shattered Shell", "=ds=#s13#" },
 				{ 19, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -2803,6 +2810,34 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = BabbleFaction["The August Celestials"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		------------------------------------------
+		--- Bizmo's Brawlpub / Brawl'gar Arena ---
+		------------------------------------------
+
+	AtlasLoot_Data["BizmosBrawlpubBrawlgarArena"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_faction_celestials", "=q6=#r1#", ""};
+				{ 2, 92954, "", "=q1=Brawler's Healing Potion", "=ds=#e2#", "1 #gold# 68 #silver#" },
+				{ 3, 92941, "", "=q1=Potion of Brawler's Might", "=ds=#e2#", "70 #silver#" },
+				{ 4, 92942, "", "=q1=Potion of Brawler's Cunning", "=ds=#e2#", "70 #silver#" },
+				{ 5, 92943, "", "=q1=Potion of Brawler's Deftness", "=ds=#e2#", "70 #silver#" },
+				{ 6, 93043, "", "=q1=Rotten Apple", "=ds=", "70 #silver#" },
+				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#" },
+				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#" },
+				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#" },
+				{ 16, 0, "achievement_faction_celestials", "=q6=Rank 4", ""};
+				{ 17, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
+				{ 19, 0, "achievement_faction_celestials", "=q6=Rank 8", ""};
+				{ 20, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
+			};
+		};
+		info = {
+			name = BabbleFaction["Bizmo's Brawlpub"].." / "..BabbleFaction["Brawl'gar Arena"],
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -6957,7 +6992,7 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = AL["Justice Points"],
-			module = moduleName, menu = "JPMOPMENU",
+			module = moduleName, menu = "JUSTICEPOINTSMENU",
 		};
 	}
 
