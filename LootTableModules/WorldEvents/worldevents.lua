@@ -923,20 +923,32 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 73762, "", "=q3=Darkmoon Balloon", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 9, 73903, "", "=q3=Darkmoon Tonk", "=ds=#e13#", "#DARKMOON:90#"};
 				{ 10, 73905, "", "=q3=Darkmoon Zeppelin", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 11, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "1 #gold#"};
-				{ 12, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "1 #gold#"};
-				{ 13, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "=q1=#m4#: =ds=#e13#"};
-				{ 17, 77158, "", "=q2=Darkmoon \"Tiger\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 18, 78340, "", "=q1=Cloak of the Darkmoon Faire", "=ds=#s4#", "#DARKMOON:90#"},
-				{ 19, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "#DARKMOON:1#"},
-				{ 20, 77256, "", "=q1=Darkmoon \"Sword\"", "=ds=#h2#", "#DARKMOON:20#"},
-				{ 21, 78341, "", "=q1=Darkmoon Hammer", "=ds=#h2#, #w6#", "#DARKMOON:160#"},
-				{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"},
-				{ 23, 75040, "", "=q1=Flimsy Darkmoon Balloon", "=ds=#e13#", "10 #silver#"},
-				{ 24, 75041, "", "=q1=Flimsy Green Balloon", "=ds=#e13#", "10 #silver#"},
-				{ 25, 75042, "", "=q1=Flimsy Yellow Balloon", "=ds=#e13#", "10 #silver#"},
-				{ 26, 18662, "", "=q1=Heavy Leather Ball", "=ds=#m20#", "20 #copper#"},
+				{ 17, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#", "1 #gold#"};
+				{ 18, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#", "1 #gold#"};
+				{ 19, 19450, "", "=q1=A Jubling's Tiny Home", "=ds=#e13#", "=q1=#m4#: #QUESTID:7946#"};
+				{ 21, 75040, "", "=q1=Flimsy Darkmoon Balloon", "=ds=#e13#", "10 #silver#"},
+				{ 22, 75041, "", "=q1=Flimsy Green Balloon", "=ds=#e13#", "10 #silver#"},
+				{ 23, 75042, "", "=q1=Flimsy Yellow Balloon", "=ds=#e13#", "10 #silver#"},
 				extraText = ": "..BabbleInventory["Mounts"].." & "..BabbleInventory["Companions"];
+			};
+			{
+				{ 2, 78341, "", "=q3=Darkmoon Hammer", "=ds=#h2#, #w6#", "#DARKMOON:160#"},
+				{ 3, 78340, "", "=q3=Cloak of the Darkmoon Faire", "=ds=#s4#", "#DARKMOON:90#"},
+				{ 4, 90899, "", "=q3=Darkmoon Whistle", "=ds=#m20#", "#DARKMOON:90#"},
+				{ 5, 77256, "", "=q1=Darkmoon \"Sword\"", "=ds=#h2#", "#DARKMOON:20#"},
+				{ 6, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "#DARKMOON:1#"},
+				{ 7, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"},
+				{ 8, 18662, "", "=q1=Heavy Leather Ball", "=ds=#m20#", "20 #copper#"},
+				{ 17, 92959, "", "=q1=Darkmoon \"Cougar\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 18, 92966, "", "=q1=Darkmoon \"Dragon\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 19, 92967, "", "=q1=Darkmoon \"Gryphon\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 20, 92968, "", "=q1=Darkmoon \"Murloc\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 21, 92958, "", "=q1=Darkmoon \"Nightsaber\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 22, 92969, "", "=q1=Darkmoon \"Rocket\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 23, 92956, "", "=q1=Darkmoon \"Snow Leopard\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 24, 77158, "", "=q1=Darkmoon \"Tiger\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 25, 92970, "", "=q1=Darkmoon \"Wyvern\"", "=ds=#m20#", "#DARKMOON:1#"},
+				extraText = ": "..AL["Toys"];
 			};
 			{
 				{ 2, 19223, "", "=q1=Darkmoon Dog", "=ds=#e3#"};
