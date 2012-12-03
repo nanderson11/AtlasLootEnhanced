@@ -413,6 +413,7 @@ if AL then
 	AL["Playable Race Masks"] = "种族面具玩具"; 		-- Hallow's End
 	AL["Non-Playable Race Masks"] = "非种族面具玩具"; 	-- Hallow's End
 	AL["Schematics & Patterns"] = "结构图/图样";			-- Lunar Festival
+	AL["Toys"] = "玩具"; 						-- Darkmoon Faire
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00单击|r浏览掉落表格";
