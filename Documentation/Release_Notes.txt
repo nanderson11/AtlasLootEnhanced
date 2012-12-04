@@ -5,6 +5,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
+v7.05.00 (December ??, 2012)
+Added Operation: Shieldwall Justice and Valor items.
+Added Bizmo's Brawlpub / Brawl'gar Arena rewards.
+Updated Darkmoon Faire.
+Many minor fixes, additions and translations.
+
 v7.04.01 (Nov 30, 2012)
 Compatible with Patch 5.1.
 Added faction - Dominance Offensive.

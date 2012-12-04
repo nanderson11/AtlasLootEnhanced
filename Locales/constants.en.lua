@@ -250,21 +250,6 @@ if AL then
 	AL["Show Price"] = true;
 	AL["Skill"] = true;
 	AL["Location"] = true;
-	AL["ilvl 200"] = true;
-	AL["ilvl 213"] = true;
-	AL["ilvl 226"] = true;
-	AL["ilvl 245"] = true;
-	AL["ilvl 264"] = true;
-	AL["ilvl 397"] = true;
-	AL["ilvl 470"] = true;
-	AL["ilvl 490"] = true;
-	AL["Grand Marshal"] = true;
-	AL["Gladiator"] = true;
-	AL["Vengeful"] = true;
-	AL["Merciless"] = true;
-	AL["Brutal"] = true;
-	AL["Wrathful"] = true;
-	AL["Cataclysmic"] = true;
 
 	-- #######################################
 	-- UI things END
@@ -374,6 +359,23 @@ if AL then
 	AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Rare Mobs"] = true;
+	AL["Grand Marshal"] = true;
+	AL["Gladiator"] = true;
+	AL["Vengeful"] = true;
+	AL["Merciless"] = true;
+	AL["Brutal"] = true;
+	AL["Wrathful"] = true;
+	AL["Cataclysmic"] = true;
+	AL["ilvl 200"] = true;
+	AL["ilvl 213"] = true;
+	AL["ilvl 226"] = true;
+	AL["ilvl 245"] = true;
+	AL["ilvl 264"] = true;
+	AL["ilvl 397"] = true;
+	AL["ilvl 470"] = true;
+	AL["ilvl 490"] = true;
+	AL["ilvl 489"] = true;
+	AL["ilvl 496"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = true;
