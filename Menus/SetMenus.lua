@@ -63,7 +63,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 3, "JusticePointsMoP#2", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
 				{ 5, "JusticePointsMoP#3", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
 				{ 7, "JPCATAMENU", "inv_misc_necklacea10", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Cataclysm"]};
-				{ 8, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
+				{ 8, "JPBCMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
 				{ 17, "JusticePointsMoP", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
 				{ 18, "JusticePointsMoP#2", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
 				{ 22, "JPWRATHMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
