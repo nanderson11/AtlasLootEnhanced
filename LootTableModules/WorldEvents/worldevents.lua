@@ -938,37 +938,39 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 5, 77256, "", "=q1=Darkmoon \"Sword\"", "=ds=#h2#", "#DARKMOON:20#"},
 				{ 6, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "#DARKMOON:1#"},
 				{ 7, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#", "#DARKMOON:1#"},
-				{ 8, 18662, "", "=q1=Heavy Leather Ball", "=ds=#m20#", "20 #copper#"},
-				{ 17, 92959, "", "=q1=Darkmoon \"Cougar\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 18, 92966, "", "=q1=Darkmoon \"Dragon\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 19, 92967, "", "=q1=Darkmoon \"Gryphon\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 20, 92968, "", "=q1=Darkmoon \"Murloc\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 21, 92958, "", "=q1=Darkmoon \"Nightsaber\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 22, 92969, "", "=q1=Darkmoon \"Rocket\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 23, 92956, "", "=q1=Darkmoon \"Snow Leopard\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 24, 77158, "", "=q1=Darkmoon \"Tiger\"", "=ds=#m20#", "#DARKMOON:1#"},
-				{ 25, 92970, "", "=q1=Darkmoon \"Wyvern\"", "=ds=#m20#", "#DARKMOON:1#"},
+				{ 8, 74142, "", "=q1=Darkmoon Firework", "=ds=#m20#", "1 #silver#"},
+				{ 9, 18662, "", "=q1=Heavy Leather Ball", "=ds=#m20#", "20 #copper#"},
+				{ 17, 92959, "", "=q1=Darkmoon \"Cougar\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 18, 92966, "", "=q1=Darkmoon \"Dragon\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 19, 92967, "", "=q1=Darkmoon \"Gryphon\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 20, 92968, "", "=q1=Darkmoon \"Murloc\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 21, 92958, "", "=q1=Darkmoon \"Nightsaber\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 22, 92969, "", "=q1=Darkmoon \"Rocket\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 23, 92956, "", "=q1=Darkmoon \"Snow Leopard\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 24, 77158, "", "=q1=Darkmoon \"Tiger\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
+				{ 25, 92970, "", "=q1=Darkmoon \"Wyvern\"", "=ds=#m20#", "#DARKMOON:1#", amount = 10},
 				extraText = ": "..AL["Toys"];
 			};
 			{
-				{ 2, 19223, "", "=q1=Darkmoon Dog", "=ds=#e3#"};
-				{ 3, 19304, "", "=q1=Spiced Beef Jerky", "=ds=#e3#"};
-				{ 4, 19305, "", "=q1=Pickled Kodo Foot", "=ds=#e3#"};
-				{ 5, 19224, "", "=q1=Red Hot Wings", "=ds=#e3#"};
-				{ 6, 19306, "", "=q1=Crunchy Frog", "=ds=#e3#"};
-				{ 7, 19225, "", "=q1=Deep Fried Candybar", "=ds=#e3#"};
-				{ 8, 33246, "", "=q1=Funnel Cake", "=ds=#e3#"};
-				{ 9, 33254, "", "=q1=Forest Strider Drumstick", "=ds=#e3#"};
-				{ 10, 44940, "", "=q1=Corn-Breaded Sausage", "=ds=#e3#"};
-				{ 11, 73260, "", "=q1=Salty Sea Dog", "=ds=#e3#"};
-				{ 17, 19222, "", "=q1=Cheap Beer", "=ds=#e4#"};
-				{ 18, 19221, "", "=q1=Darkmoon Special Reserve", "=ds=#e4#"};
-				{ 19, 19299, "", "=q1=Fizzy Faire Drink", "=ds=#e4#"};
-				{ 20, 19300, "", "=q1=Bottled Winterspring Water", "=ds=#e4#"};
-				{ 21, 33234, "", "=q1=Iced Berry Slush", "=ds=#e4#"};
-				{ 22, 33236, "", "=q1=Fizzy Faire Drink 'Classic'", "=ds=#e4#"};
-				{ 23, 44941, "", "=q1=Fresh-Squeezed Limeade", "=ds=#e4#"};
-				{ 24, 74822, "", "=q1=Sasparilla Sinker", "=ds=#e4#"};
+				{ 2, 19223, "", "=q1=Darkmoon Dog", "=ds=#e3#", "25 #copper#", amount = 5};
+				{ 3, 19304, "", "=q1=Spiced Beef Jerky", "=ds=#e3#", "1 #silver# 25 #copper#", amount = 5};
+				{ 4, 19305, "", "=q1=Pickled Kodo Foot", "=ds=#e3#", "5 #silver#", amount = 5};
+				{ 5, 19224, "", "=q1=Red Hot Wings", "=ds=#e3#", "10 #silver#", amount = 5};
+				{ 6, 19306, "", "=q1=Crunchy Frog", "=ds=#e3#", "20 #silver#", amount = 5};
+				{ 7, 19225, "", "=q1=Deep Fried Candybar", "=ds=#e3#", "40 #silver#", amount = 5};
+				{ 8, 33246, "", "=q1=Funnel Cake", "=ds=#e3#", "56 #silver#", amount = 5};
+				{ 9, 33254, "", "=q1=Forest Strider Drumstick", "=ds=#e3#", "80 #silver#", amount = 5};
+				{ 10, 44940, "", "=q1=Corn-Breaded Sausage", "=ds=#e3#", "1 #gold# 60 #silver#", amount = 5};
+				{ 11, 73260, "", "=q1=Salty Sea Dog", "=ds=#e3#", "2 #gold#", amount = 5};
+				{ 17, 19222, "", "=q1=Cheap Beer", "=ds=#e4#", "10 #copper#"};
+				{ 18, 19221, "", "=q1=Darkmoon Special Reserve", "=ds=#e4#", "50 #copper#"};
+				{ 19, 93208, "", "=q1=Darkmoon P.I.E", "=ds=#e4#", "8 #gold#"};
+				{ 21, 19299, "", "=q1=Fizzy Faire Drink", "=ds=#e4#", "5 #silver#"};
+				{ 22, 19300, "", "=q1=Bottled Winterspring Water", "=ds=#e4#", "20 #silver#", amount = 5};
+				{ 23, 33234, "", "=q1=Iced Berry Slush", "=ds=#e4#", "40 #silver#", amount = 5};
+				{ 24, 33236, "", "=q1=Fizzy Faire Drink 'Classic'", "=ds=#e4#", "56 #silver#", amount = 5};
+				{ 25, 44941, "", "=q1=Fresh-Squeezed Limeade", "=ds=#e4#", "85 #silver#", amount = 5};
+				{ 26, 74822, "", "=q1=Sasparilla Sinker", "=ds=#e4#", "1 #gold# 37 #silver# 50 #copper#", amount = 5};
 				extraText = ": "..AL["Food and Drinks"];
 			};
 			{
