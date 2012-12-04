@@ -212,10 +212,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 8, "DarkmoonD1D2#7", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=ec1=#j8# - #j9#"};
 				{ 9, "DarkmoonD1D2#8", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=ec1=#j8# - #j9#"};
 				{ 10, "DarkmoonD1D2#9", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=ec1=#j8# - #j9#"};
+				{ 12, 74035, "", "=q4=Master Pit Fighter", "=ds=#s14#", "#ACHIEVEMENTID:6024#"};
+				{ 13, 74034, "", "=q3=Pit Fighter", "=ds=#s14# / #m2#", "#ACHIEVEMENTID:6023#"};
 				{ 17, "Darkmoon", "ability_hunter_pet_bear", "=ds="..BabbleInventory["Mounts"].." & "..BabbleInventory["Companions"], ""};
 				{ 18, "Darkmoon#2", "inv_misc_cape_darkmoonfaire_c_01", "=ds="..AL["Toys"], ""};
 				{ 19, "Darkmoon#3", "inv_misc_food_164_fish_seadog", "=ds="..AL["Food and Drinks"], ""};
-				{ 20, "Darkmoon#4", "inv_misc_bone_taurenskull_01", "=ds="..AL["Heirloom"], ""};
+				{ 20, "Darkmoon#5", "inv_misc_bone_taurenskull_01", "=ds="..AL["Heirloom"], ""};
 				{ 22, "DarkmoonDeck", "inv_inscription_trinket_tiger", "=ds="..AL["Level 90"].." "..AL["Trinkets"], ""};
 				{ 23, "DarkmoonDeck#2", "inv_inscription_tarot_hurricanecard", "=ds="..AL["Level 85"].." "..AL["Trinkets"], ""};
 				{ 24, "DarkmoonDeck#3", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 80"].." "..AL["Trinkets"], ""};
