@@ -247,21 +247,6 @@ if AL then
 	AL["Show Price"] = "显示价格";
 	AL["Skill"] = "技能";
 	AL["Location"] = "位置";
-	AL["ilvl 200"] = "等级200";
-	AL["ilvl 213"] = "等级213";
-	AL["ilvl 226"] = "等级226";
-	AL["ilvl 245"] = "等级245";
-	AL["ilvl 264"] = "等级264";
-	AL["ilvl 397"] = "等级397";
-	AL["ilvl 470"] = "等级470";
-	AL["ilvl 490"] = "等级490";
-	AL["Grand Marshal"] = "大元帅";
-	AL["Gladiator"] = "角斗士";
-	AL["Vengeful"] = "复仇";
-	AL["Merciless"] = "残酷";
-	AL["Brutal"] = "野蛮";
-	AL["Wrathful"] = "暴怒";
-	AL["Cataclysmic"] = "灾变";
 
 	-- #######################################
 	-- UI things END
@@ -371,6 +356,23 @@ if AL then
 	AL["Tier 14 Set"] = "等级14套装";
 	AL["TCG Items"] = "集换式卡牌物品";
 	AL["Rare Mobs"] = "稀有怪物";
+	AL["Grand Marshal"] = "大元帅";
+	AL["Gladiator"] = "角斗士";
+	AL["Vengeful"] = "复仇";
+	AL["Merciless"] = "残酷";
+	AL["Brutal"] = "野蛮";
+	AL["Wrathful"] = "暴怒";
+	AL["Cataclysmic"] = "灾变";
+	AL["ilvl 200"] = "等级200";
+	AL["ilvl 213"] = "等级213";
+	AL["ilvl 226"] = "等级226";
+	AL["ilvl 245"] = "等级245";
+	AL["ilvl 264"] = "等级264";
+	AL["ilvl 397"] = "等级397";
+	AL["ilvl 470"] = "等级470";
+	AL["ilvl 490"] = "等级490";
+	AL["ilvl 489"] = "等级489";
+	AL["ilvl 496"] = "等级496";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "阿拉希盆地套装";
