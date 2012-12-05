@@ -250,21 +250,6 @@ if AL then
 	AL["Show Price"] = "Afficher le prix";
 	AL["Skill"] = "Talent";
 	AL["Location"] = "Lieu";
-	--AL["ilvl 200"] = true;
-	--AL["ilvl 213"] = true;
-	--AL["ilvl 226"] = true;
-	--AL["ilvl 245"] = true;
-	--AL["ilvl 264"] = true;
-	--AL["ilvl 397"] = true;
-	--AL["ilvl 470"] = true;
-	--AL["ilvl 490"] = true;
-	AL["Grand Marshal"] = "Connétable";
-	AL["Gladiator"] = "Gladiateur";
-	AL["Vengeful"] = "Vengeur";
-	AL["Merciless"] = "Impitoyable";
-	AL["Brutal"] = "Brutale";
-	AL["Wrathful"] = "Courroucé";
-	AL["Cataclysmic"] = "Cataclysmique";
 
 	-- #######################################
 	-- UI things END
@@ -374,6 +359,21 @@ if AL then
 	--AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = "Objets des cartes à jouer"; -- Trading Card Game Items
 	AL["Rare Mobs"] = "Monstres rares";
+	AL["Grand Marshal"] = "Connétable";
+	AL["Gladiator"] = "Gladiateur";
+	AL["Vengeful"] = "Vengeur";
+	AL["Merciless"] = "Impitoyable";
+	AL["Brutal"] = "Brutale";
+	AL["Wrathful"] = "Courroucé";
+	AL["Cataclysmic"] = "Cataclysmique";
+	--AL["ilvl 200"] = true;
+	--AL["ilvl 213"] = true;
+	--AL["ilvl 226"] = true;
+	--AL["ilvl 245"] = true;
+	--AL["ilvl 264"] = true;
+	--AL["ilvl 397"] = true;
+	--AL["ilvl 470"] = true;
+	--AL["ilvl 490"] = true;
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Sets du Bassin d'Arathi";
