@@ -9,6 +9,9 @@ v7.05.00 (December ??, 2012)
 Added Operation: Shieldwall Justice and Valor items.
 Added Bizmo's Brawlpub / Brawl'gar Arena rewards.
 Updated Darkmoon Faire.
+Revamped Faction menus.
+Removed Hydraxian Waterlords from faction page.
+Removed items not available in-game anymore from Argent Dawn and Cenarion Circles pages.
 Many minor fixes, additions and translations.
 
 v7.04.01 (Nov 30, 2012)
