@@ -7,7 +7,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["REPMENU"] = {
 		["Normal"] = {
 			{
-				{ 1, "REPMENU_MAINFACTIONS", "INV_Helmet_66", "=ds=Home Factions (temp name)", ""};
+				{ 1, "REPMENU_RACEFACTIONS", "INV_Helmet_66", "=ds=Race Factions (temp name)", ""};
 				{ 2, "REPMENU_ORIGINALWOW", "INV_Helmet_66", "=ds="..AL["Classic WoW"], ""};
 				{ 3, "REPMENU_WOTLK", "achievement_reputation_kirintor", "=ds="..AL["Wrath of the Lich King"], ""};
 				{ 5, "OperationShieldwall", "pvpcurrency-honor-alliance", "=ds="..BabbleFaction["Operation: Shieldwall"], "=q5="..AtlasLoot:GetMapNameByID(857)};
@@ -34,23 +34,25 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["REPMENU_MAINFACTIONS"] = {
+	AtlasLoot_Data["REPMENU_RACEFACTIONS"] = {
 		["Normal"] = {
 			{
-				{ 2, "Darnassus", "inv_misc_tournaments_symbol_nightelf", "=ds="..BabbleFaction["Darnassus"], "=q5="..BabbleFaction["Alliance"]};
-				{ 3, "Exodar", "inv_misc_tournaments_symbol_draenei", "=ds="..BabbleFaction["Exodar"], "=q5="..BabbleFaction["Alliance"]};
-				{ 4, "Gilneas", "achievement_win_gilneas", "=ds="..BabbleFaction["Gilneas"], "=q5="..BabbleFaction["Alliance"]};
-				{ 5, "GnomereganRep", "inv_misc_tournaments_symbol_gnome", "=ds="..BabbleFaction["Gnomeregan"], "=q5="..BabbleFaction["Alliance"]};
-				{ 6, "Ironforge", "inv_misc_tournaments_symbol_dwarf", "=ds="..BabbleFaction["Ironforge"], "=q5="..BabbleFaction["Alliance"]};
-				{ 7, "Stormwind", "inv_misc_tournaments_symbol_human", "=ds="..BabbleFaction["Stormwind"], "=q5="..BabbleFaction["Alliance"]};
-				{ 8, "TushuiPandaren", "inv_misc_tournaments_symbol_human", "=ds="..BabbleFaction["Tushui Pandaren"], "=q5="..BabbleFaction["Alliance"]};
-				{ 17, "BilgewaterCartel", "inv_misc_tabard_kezan", "=ds="..BabbleFaction["Bilgewater Cartel"], "=q5="..BabbleFaction["Horde"]};
-				{ 18, "DarkspearTrolls", "inv_misc_tournaments_symbol_troll", "=ds="..BabbleFaction["Darkspear Trolls"], "=q5="..BabbleFaction["Horde"]};
-				{ 19, "HuojinPandaren", "inv_misc_tournaments_symbol_orc", "=ds="..BabbleFaction["Huojin Pandaren"], "=q5="..BabbleFaction["Horde"]};
-				{ 20, "Orgrimmar", "inv_misc_tournaments_symbol_orc", "=ds="..BabbleFaction["Orgrimmar"], "=q5="..BabbleFaction["Horde"]};
-				{ 21, "SilvermoonCity", "inv_misc_tournaments_symbol_bloodelf", "=ds="..BabbleFaction["Silvermoon City"], "=q5="..BabbleFaction["Horde"]};
-				{ 22, "ThunderBluff", "inv_misc_tournaments_symbol_tauren", "=ds="..BabbleFaction["Thunder Bluff"], "=q5="..BabbleFaction["Horde"]};
-				{ 23, "Undercity", "inv_misc_tournaments_symbol_scourge", "=ds="..BabbleFaction["Undercity"], "=q5="..BabbleFaction["Horde"]};
+				{ 2, "", "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Alliance"], ""};
+				{ 3, "Darnassus", "inv_misc_tournaments_symbol_nightelf", "=ds="..BabbleFaction["Darnassus"], "=q5="..AL["Classic WoW"]};
+				{ 4, "GnomereganRep", "inv_misc_tournaments_symbol_gnome", "=ds="..BabbleFaction["Gnomeregan"], "=q5="..AL["Classic WoW"]};
+				{ 5, "Ironforge", "inv_misc_tournaments_symbol_dwarf", "=ds="..BabbleFaction["Ironforge"], "=q5="..AL["Classic WoW"]};
+				{ 6, "Stormwind", "inv_misc_tournaments_symbol_human", "=ds="..BabbleFaction["Stormwind"], "=q5="..AL["Classic WoW"]};
+				{ 8, "Exodar", "inv_misc_tournaments_symbol_draenei", "=ds="..BabbleFaction["Exodar"], "=q5="..AL["Burning Crusade"]};
+				{ 10, "Gilneas", "achievement_win_gilneas", "=ds="..BabbleFaction["Gilneas"], "=q5="..AL["Cataclysm"]};
+				{ 12, "TushuiPandaren", "inv_misc_tournaments_symbol_human", "=ds="..BabbleFaction["Tushui Pandaren"], "=q5="..AL["Mists of Pandaria"]};
+				{ 17, "", "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Horde"], ""};
+				{ 18, "DarkspearTrolls", "inv_misc_tournaments_symbol_troll", "=ds="..BabbleFaction["Darkspear Trolls"], "=q5="..AL["Classic WoW"]};
+				{ 19, "Orgrimmar", "inv_misc_tournaments_symbol_orc", "=ds="..BabbleFaction["Orgrimmar"], "=q5="..AL["Classic WoW"]};
+				{ 20, "ThunderBluff", "inv_misc_tournaments_symbol_tauren", "=ds="..BabbleFaction["Thunder Bluff"], "=q5="..AL["Classic WoW"]};
+				{ 21, "Undercity", "inv_misc_tournaments_symbol_scourge", "=ds="..BabbleFaction["Undercity"], "=q5="..AL["Classic WoW"]};
+				{ 23, "SilvermoonCity", "inv_misc_tournaments_symbol_bloodelf", "=ds="..BabbleFaction["Silvermoon City"], "=q5="..AL["Burning Crusade"]};
+				{ 25, "BilgewaterCartel", "inv_misc_tabard_kezan", "=ds="..BabbleFaction["Bilgewater Cartel"], "=q5="..AL["Cataclysm"]};
+				{ 27, "HuojinPandaren", "inv_misc_tournaments_symbol_orc", "=ds="..BabbleFaction["Huojin Pandaren"], "=q5="..AL["Mists of Pandaria"]};
 			};
 		};
 		info = {

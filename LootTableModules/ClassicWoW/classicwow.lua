@@ -6674,16 +6674,16 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r4#"};
 				{ 5, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tabard_kezan", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r5#"};
-				{ 8, 64906, "", "=q3=Bilgewater Cape", "=ds=#s4#", "3 #gold# 62 #gold# 2 #silver#"};
-				{ 9, 64907, "", "=q3=Bilgewater Mantle", "=ds=#s4#", "3 #gold# 63 #gold# 31 #silver#"};
-				{ 10, 64905, "", "=q3=Bilgewater Shroud", "=ds=#s4#", "3 #gold# 60 #gold# 78 #silver#"};
+				{ 8, 64906, "", "=q3=Bilgewater Cape", "=ds=#s4#", "3 #gold# 62 #silver# 2 #copper#"};
+				{ 9, 64907, "", "=q3=Bilgewater Mantle", "=ds=#s4#", "3 #gold# 63 #silver# 31 #copper#"};
+				{ 10, 64905, "", "=q3=Bilgewater Shroud", "=ds=#s4#", "3 #gold# 60 #silver# 78 #copper#"};
 				{ 16, 62462, "", "=q4=Goblin Turbo-Trike Key", "=ds=#e26#", "10 #gold#"};
 				{ 17, 62461, "", "=q3=Goblin Trike Key", "=ds=#e26#", "1 #gold#"};
 			};
 		};
 		info = {
 			name = BabbleFaction["Bilgewater Cartel"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6799,9 +6799,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r4#"};
 				{ 5, 67526, "", "=q2=Darnassian Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r5#"};
-				{ 8, 64887, "", "=q3=Cape of Darnassus", "=ds=#s4#"};
-				{ 9, 64888, "", "=q3=Mantle of Darnassus", "=ds=#s4#"};
-				{ 10, 64886, "", "=q3=Shroud of Darnassus", "=ds=#s4#"};
+				{ 8, 64887, "", "=q3=Cape of Darnassus", "=ds=#s4#", "3 #gold# 62 #silver# 34 #copper#"};
+				{ 9, 64888, "", "=q3=Mantle of Darnassus", "=ds=#s4#", "3 #gold# 29 #silver# 92 #copper#"};
+				{ 10, 64886, "", "=q3=Shroud of Darnassus", "=ds=#s4#", "3 #gold# 62 #silver# 9 #copper#"};
 				{ 16, 18766, "", "=q4=Reins of the Swift Frostsaber", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18767, "", "=q4=Reins of the Swift Mistsaber", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18902, "", "=q4=Reins of the Swift Stormsaber", "=ds=#e26#", "10 #gold#"};
@@ -6813,7 +6813,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Darnassus"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6829,9 +6829,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r4#"};
 				{ 5, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r5#"};
-				{ 8, 64912, "", "=q3=Darkspear Cape", "=ds=#s4#"};
-				{ 9, 64911, "", "=q3=Darkspear Mantle", "=ds=#s4#"};
-				{ 10, 64913, "", "=q3=Darkspear Shroud", "=ds=#s4#"};
+				{ 8, 64912, "", "=q3=Darkspear Cape", "=ds=#s4#", "3 #gold# 34 #silver# 98 #copper#"};
+				{ 9, 64911, "", "=q3=Darkspear Mantle", "=ds=#s4#", "3 #gold# 33 #silver# 70 #copper#"};
+				{ 10, 64913, "", "=q3=Darkspear Shroud", "=ds=#s4#", "3 #gold# 36 #silver# 26 #copper#"};
 				{ 16, 18788, "", "=q4=Swift Blue Raptor", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18789, "", "=q4=Swift Olive Raptor", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18790, "", "=q4=Swift Orange Raptor", "=ds=#e26#", "10 #gold#"};
@@ -6842,7 +6842,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Darkspear Trolls"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6858,9 +6858,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r4#"};
 				{ 5, 67527, "", "=q2=Exodar Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r5#"};
-				{ 8, 64890, "", "=q3=Cape of Exodar", "=ds=#s4#"};
-				{ 9, 64889, "", "=q3=Mantle of Exodar", "=ds=#s4#"};
-				{ 10, 64891, "", "=q3=Shroud of Exodar", "=ds=#s4#"};
+				{ 8, 64890, "", "=q3=Cape of Exodar", "=ds=#s4#", "3 #gold# 32 #silver# 48 #copper#"};
+				{ 9, 64889, "", "=q3=Mantle of Exodar", "=ds=#s4#", "3 #gold# 31 #silver# 20 #copper#"};
+				{ 10, 64891, "", "=q3=Shroud of Exodar", "=ds=#s4#", "3 #gold# 33 #silver# 73 #copper#"};
 				{ 16, 29745, "", "=q4=Great Blue Elekk", "=ds=#e26#", "10 #gold#"};
 				{ 17, 29746, "", "=q4=Great Green Elekk", "=ds=#e26#", "10 #gold#"};
 				{ 18, 29747, "", "=q4=Great Purple Elekk", "=ds=#e26#", "10 #gold#"};
@@ -6871,7 +6871,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Exodar"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6887,16 +6887,16 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r4#"};
 				{ 5, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "achievement_win_gilneas", "=q6="..BabbleFaction["Gilneas"], "=q5=#r5#"};
-				{ 8, 64893, "", "=q3=Cape of Gilneas", "=ds=#s4#"};
-				{ 9, 64892, "", "=q3=Mantle of Gilneas", "=ds=#s4#"};
-				{ 10, 64894, "", "=q3=Shroud of Gilneas", "=ds=#s4#"};
+				{ 8, 64893, "", "=q3=Cape of Gilneas", "=ds=#s4#", "3 #gold# 36 #silver# 30 #copper#"};
+				{ 9, 64892, "", "=q3=Mantle of Gilneas", "=ds=#s4#", "3 #gold# 35 #silver# 2 #copper#"};
+				{ 10, 64894, "", "=q3=Shroud of Gilneas", "=ds=#s4#", "3 #gold# 37 #silver# 58 #copper#"};
 				{ 16, 73839, "", "=q4=Swift Mountain Horse", "=ds=#e26#", "10 #gold#"};
 				{ 17, 73838, "", "=q3=Mountain Horse", "=ds=#e26#", "1 #gold#"};
 			};
 		};
 		info = {
 			name = BabbleFaction["Gilneas"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6912,9 +6912,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r4#"};
 				{ 5, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"], "=q5=#r5#"};
-				{ 8, 64896, "", "=q3=Cape of Gnomeregan", "=ds=#s4#"};
-				{ 9, 64895, "", "=q3=Mantle of Gnomeregan", "=ds=#s4#"};
-				{ 10, 64897, "", "=q3=Shroud of Gnomeregan", "=ds=#s4#"};
+				{ 8, 64896, "", "=q3=Cape of Gnomeregan", "=ds=#s4#", "3 #gold# 40 #silver# 11 #copper#"};
+				{ 9, 64895, "", "=q3=Mantle of Gnomeregan", "=ds=#s4#", "3 #gold# 38 #silver# 83 #copper#"};
+				{ 10, 64897, "", "=q3=Shroud of Gnomeregan", "=ds=#s4#", "3 #gold# 41 #silver# 40 #copper#"};
 				{ 16, 18772, "", "=q4=Swift Green Mechanostrider", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18773, "", "=q4=Swift White Mechanostrider", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18774, "", "=q4=Swift Yellow Mechanostrider", "=ds=#e26#", "10 #gold#"};
@@ -6926,7 +6926,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Gnomeregan"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6942,23 +6942,23 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r4#"};
 				{ 5, 92070, "", "=q2=Huojin Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 16, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Huojin Pandaren"], "=q5=#r5#"};
-				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 19, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 20, 82765, "", "=q4=Reins of the Green Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 21, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 22, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 23, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 24, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 25, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 26, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 27, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 28, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 17, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 18, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 19, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 20, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 21, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 22, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 23, 87795, "", "=q3=Reins of the Black Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 24, 87796, "", "=q3=Reins of the Blue Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 25, 87797, "", "=q3=Reins of the Brown Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 26, 82765, "", "=q3=Reins of the Green Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 27, 87799, "", "=q3=Reins of the Purple Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 28, 87800, "", "=q3=Reins of the Red Dragon Turtle", "=ds=#e26#", "1 #gold#"};
 			};
 		};
 		info = {
 			name = BabbleFaction["Huojin Pandaren"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -6974,9 +6974,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r4#"};
 				{ 5, 67528, "", "=q2=Ironforge Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r5#"};
-				{ 8, 64899, "", "=q3=Cape of Ironforge", "=ds=#s4#"};
-				{ 9, 64900, "", "=q3=Mantle of Ironforge", "=ds=#s4#"};
-				{ 10, 64898, "", "=q3=Shroud of Ironforge", "=ds=#s4#"};
+				{ 8, 64899, "", "=q3=Cape of Ironforge", "=ds=#s4#", "3 #gold# 43 #silver# 93 #copper#"};
+				{ 9, 64900, "", "=q3=Mantle of Ironforge", "=ds=#s4#", "3 #gold# 45 #silver# 21 #copper#"};
+				{ 10, 64898, "", "=q3=Shroud of Ironforge", "=ds=#s4#", "3 #gold# 42 #silver# 68 #copper#"};
 				{ 16, 18786, "", "=q4=Swift Brown Ram", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18787, "", "=q4=Swift Gray Ram", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18785, "", "=q4=Swift White Ram", "=ds=#e26#", "10 #gold#"};
@@ -6987,7 +6987,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Ironforge"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -7003,9 +7003,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r4#"};
 				{ 5, 67533, "", "=q2=Orgrimmar Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r5#"};
-				{ 8, 64909, "", "=q3=Cape of Orgimmar", "=ds=#s4#"};
-				{ 9, 64910, "", "=q3=Mantle of Orgimmar", "=ds=#s4#"};
-				{ 10, 64908, "", "=q3=Shroud of Orgimmar", "=ds=#s4#"};
+				{ 8, 64909, "", "=q3=Cape of Orgrimmar", "=ds=#s4#", "3 #gold# 31 #silver# 17 #copper#"};
+				{ 9, 64910, "", "=q3=Mantle of Orgrimmar", "=ds=#s4#", "3 #gold# 32 #silver# 42 #copper#"};
+				{ 10, 64908, "", "=q3=Shroud of Orgrimmar", "=ds=#s4#", "3 #gold# 29 #silver# 88 #copper#"};
 				{ 16, 18796, "", "=q4=Horn of the Swift Brown Wolf", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18798, "", "=q4=Horn of the Swift Gray Wolf", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18797, "", "=q4=Horn of the Swift Timber Wolf", "=ds=#e26#", "10 #gold#"};
@@ -7017,7 +7017,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Orgrimmar"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -7033,9 +7033,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r4#"};
 				{ 5, 67535, "", "=q2=Silvermoon Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r5#"};
-				{ 8, 64915, "", "=q3=Cape of Silvermoon", "=ds=#s4#"};
-				{ 9, 64916, "", "=q3=Mantle of Silvermoon", "=ds=#s4#"};
-				{ 10, 64914, "", "=q3=Shroud of Silvermoon", "=ds=#s4#"};
+				{ 8, 64915, "", "=q3=Cape of Silvermoon", "=ds=#s4#", "3 #gold# 38 #silver# 80 #copper#"};
+				{ 9, 64916, "", "=q3=Mantle of Silvermoon", "=ds=#s4#", "3 #gold# 40 #silver# 8 #copper#"};
+				{ 10, 64914, "", "=q3=Shroud of Silvermoon", "=ds=#s4#", "3 #gold# 37 #silver# 51 #copper#"};
 				{ 16, 29223, "", "=q4=Swift Green Hawkstrider", "=ds=#e26#", "10 #gold#"};
 				{ 17, 28936, "", "=q4=Swift Pink Hawkstrider", "=ds=#e26#", "10 #gold#"};
 				{ 18, 29224, "", "=q4=Swift Purple Hawkstrider", "=ds=#e26#", "10 #gold#"};
@@ -7047,7 +7047,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Silvermoon City"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -7063,9 +7063,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r4#"};
 				{ 5, 67531, "", "=q2=Stormwind Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r5#"};
-				{ 8, 64902, "", "=q3=Cape of Stormwind", "=ds=#s4#"};
-				{ 9, 64901, "", "=q3=Mantle of Stormwind", "=ds=#s4#"};
-				{ 10, 64898, "", "=q3=Shroud of Stormwind", "=ds=#s4#"};
+				{ 8, 64902, "", "=q3=Cape of Stormwind", "=ds=#s4#", "3 #gold# 56 #silver# 93 #copper#"};
+				{ 9, 64901, "", "=q3=Mantle of Stormwind", "=ds=#s4#", "3 #gold# 46 #silver# 49 #copper#"};
+				{ 10, 64898, "", "=q3=Shroud of Stormwind", "=ds=#s4#", "3 #gold# 58 #silver# 21 #copper#"};
 				{ 16, 18777, "", "=q4=Swift Brown Steed", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18776, "", "=q4=Swift Palomino", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18778, "", "=q4=Swift White Steed", "=ds=#e26#", "10 #gold#"};
@@ -7077,7 +7077,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Stormwind"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -7144,9 +7144,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r4#"};
 				{ 5, 67534, "", "=q2=Thunder Bluff Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r5#"};
-				{ 8, 64918, "", "=q3=Cape of Thunder Bluff", "=ds=#s4#"};
-				{ 9, 64917, "", "=q3=Mantle of Thunder Bluff", "=ds=#s4#"};
-				{ 10, 64919, "", "=q3=Shroud of Thunder Bluff", "=ds=#s4#"};
+				{ 8, 64918, "", "=q3=Cape of Thunder Bluff", "=ds=#s4#", "3 #gold# 51 #silver# 80 #copper#"};
+				{ 9, 64917, "", "=q3=Mantle of Thunder Bluff", "=ds=#s4#", "3 #gold# 41 #silver# 36 #copper#"};
+				{ 10, 64919, "", "=q3=Shroud of Thunder Bluff", "=ds=#s4#", "3 #gold# 53 #silver# 8 #copper#"};
 				{ 16, 18794, "", "=q4=Great Brown Kodo", "=ds=#e26#", "10 #gold#"};
 				{ 17, 18795, "", "=q4=Great Gray Kodo", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18793, "", "=q4=Great White Kodo", "=ds=#e26#", "10 #gold#"};
@@ -7157,7 +7157,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Thunder Bluff"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -7207,23 +7207,23 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r4#"};
 				{ 5, 92071, "", "=q2=Tushui Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 16, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Tushui Pandaren"], "=q5=#r5#"};
-				{ 17, 87795, "", "=q4=Reins of the Black Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 18, 87796, "", "=q4=Reins of the Blue Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 19, 87797, "", "=q4=Reins of the Brown Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 20, 82765, "", "=q4=Reins of the Green Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 21, 87799, "", "=q4=Reins of the Purple Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 22, 87800, "", "=q4=Reins of the Red Dragon Turtle", "=ds=#e26#", "1 #gold#"};
-				{ 23, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 24, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 25, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 26, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 27, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#", "10 #gold#"};
-				{ 28, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 17, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 18, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 19, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 20, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 21, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 22, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#", "10 #gold#"};
+				{ 23, 87795, "", "=q3=Reins of the Black Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 24, 87796, "", "=q3=Reins of the Blue Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 25, 87797, "", "=q3=Reins of the Brown Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 26, 82765, "", "=q3=Reins of the Green Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 27, 87799, "", "=q3=Reins of the Purple Dragon Turtle", "=ds=#e26#", "1 #gold#"};
+				{ 28, 87800, "", "=q3=Reins of the Red Dragon Turtle", "=ds=#e26#", "1 #gold#"};
 			};
 		};
 		info = {
 			name = BabbleFaction["Tushui Pandaren"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
 
@@ -7239,9 +7239,9 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r4#"};
 				{ 5, 67529, "", "=q2=Undercity Satchel", "=ds=#e1#", "2 #gold#"};
 				{ 7, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r5#"};
-				{ 8, 64921, "", "=q3=Cape of Undercity", "=ds=#s4#"};
-				{ 9, 64922, "", "=q3=Mantle of Undercity", "=ds=#s4#"};
-				{ 10, 64920, "", "=q3=Shroud of Undercity", "=ds=#s4#"};
+				{ 8, 64921, "", "=q3=Cape of Undercity", "=ds=#s4#", "3 #gold# 55 #silver# 61 #copper#"};
+				{ 9, 64922, "", "=q3=Mantle of Undercity", "=ds=#s4#", "3 #gold# 56 #silver# 90 #copper#"};
+				{ 10, 64920, "", "=q3=Shroud of Undercity", "=ds=#s4#", "3 #gold# 54 #silver# 36 #copper#"};
 				{ 16, 13334, "", "=q4=Green Skeletal Warhorse", "=ds=#e26#", "10 #gold#"};
 				{ 17, 47101, "", "=q4=Ochre Skeletal Warhorse", "=ds=#e26#", "10 #gold#"};
 				{ 18, 18791, "", "=q4=Purple Skeletal Warhorse", "=ds=#e26#", "10 #gold#"};
@@ -7253,6 +7253,6 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		info = {
 			name = BabbleFaction["Undercity"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
+			module = moduleName, menu = "REPMENU_RACEFACTIONS",
 		};
 	}
