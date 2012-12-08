@@ -119,6 +119,7 @@ lib:SetBaseTranslations {
 	Trelopades = "Trelopades",
 	["Ubunti the Shade"] = "Ubunti the Shade",
 	["Vakkiz the Windrager"] = "Vakkiz the Windrager",
+	["Wild Onyx Serpent"] = "Wild Onyx Serpent",
 	["Wrathbringer Laz-tarash"] = "Wrathbringer Laz-tarash",
 	Xariona = "Xariona",
 	Zhing = "Zhing",
