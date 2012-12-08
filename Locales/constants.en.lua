@@ -1090,6 +1090,10 @@ if AL then
 	--- Mists of Pandaria
 	AL["Uncle Bigpocket"] = true;
 	AL["Auntie Stormstout"] = true;
+	AL["Luo Luo"] = true;
+	AL["Meng Meng"] = true;
+	AL["Ongrom Black Tooth"] = true;
+	AL["Proveditor Grantley"] = true;
 	--- World Events
 	AL["Crimson Templar"] = true;  --- mob removed from game?
 	AL["Azure Templar"] = true;  --- mob removed from game?
