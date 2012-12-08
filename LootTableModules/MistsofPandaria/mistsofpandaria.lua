@@ -3784,15 +3784,15 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 84978, "", "=q4=Malevolent Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
 				{ 10, 84954, "", "=q4=Malevolent Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1650#"};
 				{ 11, 84814, "", "=q4=Malevolent Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84359, "", "=q4=Dreadful Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 17, 84354, "", "=q4=Dreadful Gladiator's Cord of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 18, 84357, "", "=q4=Dreadful Gladiator's Treads of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 20, 84361, "", "=q4=Dreadful Gladiator's Cuffs of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 21, 84355, "", "=q4=Dreadful Gladiator's Cord of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 22, 84358, "", "=q4=Dreadful Gladiator's Treads of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 24, 84360, "", "=q4=Dreadful Gladiator's Cuffs of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 25, 84353, "", "=q4=Dreadful Gladiator's Cord of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84356, "", "=q4=Dreadful Gladiator's Treads of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 16, 84359, "", "=q3=Dreadful Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 17, 84354, "", "=q3=Dreadful Gladiator's Cord of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 18, 84357, "", "=q3=Dreadful Gladiator's Treads of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 20, 84361, "", "=q3=Dreadful Gladiator's Cuffs of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 21, 84355, "", "=q3=Dreadful Gladiator's Cord of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 22, 84358, "", "=q3=Dreadful Gladiator's Treads of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 24, 84360, "", "=q3=Dreadful Gladiator's Cuffs of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 25, 84353, "", "=q3=Dreadful Gladiator's Cord of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 84356, "", "=q3=Dreadful Gladiator's Treads of Cruelty", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
@@ -3808,18 +3808,18 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 84976, "", "=q4=Malevolent Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
 				{ 14, 84953, "", "=q4=Malevolent Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1650#"};
 				{ 15, 84813, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84461, "", "=q4=Dreadful Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 17, 84457, "", "=q4=Dreadful Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 18, 84458, "", "=q4=Dreadful Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 20, 84460, "", "=q4=Dreadful Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1250#"};
-				{ 21, 84456, "", "=q4=Dreadful Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 22, 84459, "", "=q4=Dreadful Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 24, 84392, "", "=q4=Dreadful Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 25, 84390, "", "=q4=Dreadful Gladiator's Belt of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84391, "", "=q4=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 28, 84384, "", "=q4=Dreadful Gladiator's Bindings of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 29, 84382, "", "=q4=Dreadful Gladiator's Belt of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 30, 84383, "", "=q4=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 16, 84461, "", "=q3=Dreadful Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 17, 84457, "", "=q3=Dreadful Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 18, 84458, "", "=q3=Dreadful Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 20, 84460, "", "=q3=Dreadful Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 21, 84456, "", "=q3=Dreadful Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 22, 84459, "", "=q3=Dreadful Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 24, 84392, "", "=q3=Dreadful Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 25, 84390, "", "=q3=Dreadful Gladiator's Belt of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 84391, "", "=q3=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 28, 84384, "", "=q3=Dreadful Gladiator's Bindings of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 29, 84382, "", "=q3=Dreadful Gladiator's Belt of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 30, 84383, "", "=q3=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
@@ -3835,18 +3835,18 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 84981, "", "=q4=Malevolent Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
 				{ 14, 84957, "", "=q4=Malevolent Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1650#"};
 				{ 15, 84817, "", "=q4=Malevolent Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84471, "", "=q4=Dreadful Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 17, 84467, "", "=q4=Dreadful Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 18, 84469, "", "=q4=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 20, 84470, "", "=q4=Dreadful Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 21, 84482, "", "=q4=Dreadful Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 22, 84468, "", "=q4=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 24, 84406, "", "=q4=Dreadful Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
-				{ 25, 84402, "", "=q4=Dreadful Gladiator's Links of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84405, "", "=q4=Dreadful Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 28, 84407, "", "=q4=Dreadful Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 29, 84403, "", "=q4=Dreadful Gladiator's Links of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 30, 84404, "", "=q4=Dreadful Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 16, 84471, "", "=q3=Dreadful Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 17, 84467, "", "=q3=Dreadful Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 18, 84469, "", "=q3=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 20, 84470, "", "=q3=Dreadful Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 21, 84482, "", "=q3=Dreadful Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 22, 84468, "", "=q3=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 24, 84406, "", "=q3=Dreadful Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 25, 84402, "", "=q3=Dreadful Gladiator's Links of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 84405, "", "=q3=Dreadful Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 28, 84407, "", "=q3=Dreadful Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 29, 84403, "", "=q3=Dreadful Gladiator's Links of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 30, 84404, "", "=q3=Dreadful Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
@@ -3862,18 +3862,18 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 84986, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
 				{ 14, 84950, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1650#"};
 				{ 15, 84822, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84428, "", "=q4=Dreadful Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 17, 84424, "", "=q4=Dreadful Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 18, 84426, "", "=q4=Dreadful Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 20, 84438, "", "=q4=Dreadful Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
-				{ 21, 84434, "", "=q4=Dreadful Gladiator's Girdle of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 22, 84436, "", "=q4=Dreadful Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 24, 84427, "", "=q4=Dreadful Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 25, 84423, "", "=q4=Dreadful Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84425, "", "=q4=Dreadful Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 28, 84439, "", "=q4=Dreadful Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};	
-				{ 29, 84435, "", "=q4=Dreadful Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1650#"};
-				{ 30, 84437, "", "=q4=Dreadful Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 16, 84428, "", "=q3=Dreadful Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 17, 84424, "", "=q3=Dreadful Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 18, 84426, "", "=q3=Dreadful Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 20, 84438, "", "=q3=Dreadful Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
+				{ 21, 84434, "", "=q3=Dreadful Gladiator's Girdle of Accuracy", "=ds=", "#HONOR:1650#"};
+				{ 22, 84436, "", "=q3=Dreadful Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 24, 84427, "", "=q3=Dreadful Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 25, 84423, "", "=q3=Dreadful Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 26, 84425, "", "=q3=Dreadful Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 28, 84439, "", "=q3=Dreadful Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};	
+				{ 29, 84435, "", "=q3=Dreadful Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1650#"};
+				{ 30, 84437, "", "=q3=Dreadful Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1650#"};
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 		};
@@ -3983,7 +3983,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeDeathKnight"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=", "=q5="};
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6=Lich Lord Plate", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90053, "", "=q4=Crown of the Lich Lord", "=ds=#s1#, #a4#", ""};
 				{ 3, 90055, "", "=q4=Shoulderguards of the Lich Lord", "=ds=#s3#, #a4#", ""};
 				{ 4, 90051, "", "=q4=Chestguard of the Lich Lord", "=ds=#s5#, #a4#", ""};
@@ -4003,7 +4003,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeDruid"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_druid_catform", "=q6=", "=q5="};
+				{ 1, 0, "ability_druid_catform", "=q6=Cycle Armor", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90062, "", "=q4=Hood of the Cycle", "=ds=#s1#, #a2#", ""};
 				{ 3, 90065, "", "=q4=Branches of the Cycle", "=ds=#s3#, #a2#", ""};
 				{ 4, 90064, "", "=q4=Robes of the Cycle", "=ds=#s5#, #a2#", ""};
@@ -4023,7 +4023,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeHunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=", "=q5="};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=Howling Beast Set", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90072, "", "=q4=Helm of the Howling Beast", "=ds=#s1#, #a3#", ""};
 				{ 3, 90074, "", "=q4=Shoulderguards of the Howling Beast", "=ds=#s3#, #a3#", ""};
 				{ 4, 90070, "", "=q4=Chestguard of the Howling Beast", "=ds=#s5#, #a3#", ""};
@@ -4043,7 +4043,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeMage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=", "=q5="};
+				{ 1, 0, "inv_staff_13", "=q6=Elemental Triad Regalia", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90082, "", "=q4=Hood of the Elemental Triad", "=ds=#s1#, #a1#", ""};
 				{ 3, 90085, "", "=q4=Spaulders of the Elemental Triad", "=ds=#s3#, #a1#", ""};
 				{ 4, 90084, "", "=q4=Robes of the Elemental Triad", "=ds=#s5#, #a1#", ""};
@@ -4063,7 +4063,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeMonk"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_windwalker_spec", "=q6=", "=q5="};
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6=Regal Lord Armor", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90092, "", "=q4=Crown of the Regal Lord", "=ds=#s1#, #a2#", ""};
 				{ 3, 90094, "", "=q4=Shoulderguards of the Regal Lord", "=ds=#s3#, #a2#", ""};
 				{ 4, 90090, "", "=q4=Chestwrap of the Regal Lord", "=ds=#s5#, #a2#", ""};
@@ -4083,7 +4083,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModePaladin"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=", "=q5="};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=Holy Warrior Plate", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90100, "", "=q4=Greathelm of the Holy Warrior", "=ds=#s1#, #a4#", ""};
 				{ 3, 90102, "", "=q4=Shoulderplate of the Holy Warrior", "=ds=#s3#, #a4#", ""};
 				{ 4, 90098, "", "=q4=Chestplate of the Holy Warrior", "=ds=#s5#, #a4#", ""};
@@ -4103,7 +4103,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModePriest"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=", "=q5="};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=Light Regalia", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90116, "", "=q4=Cowl of the Light", "=ds=#s1#, #a1#", ""};
 				{ 3, 90113, "", "=q4=Pauldrons of the Light", "=ds=#s3#, #a1#", ""};
 				{ 4, 90114, "", "=q4=Robes of the Light", "=ds=#s5#, #a1#", ""};
@@ -4123,7 +4123,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeRogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=", "=q5="};
+				{ 1, 0, "inv_throwingknife_04", "=q6=Silent Assassin Armor", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90120, "", "=q4=Hood of the Silent Assassin", "=ds=#s1#, #a2#", ""};
 				{ 3, 90125, "", "=q4=Spaulders of the Silent Assassin", "=ds=#s3#, #a2#", ""};
 				{ 4, 90122, "", "=q4=Shadowwrap of the Silent Assassin", "=ds=#s5#, #a2#", ""};
@@ -4143,7 +4143,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeShaman"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=", "=q5="};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=Windfury Set", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90132, "", "=q4=Windfury Mask", "=ds=#s1#, #a3#", ""};
 				{ 3, 90134, "", "=q4=Windfury Spirit Guides", "=ds=#s3#, #a3#", ""};
 				{ 4, 90130, "", "=q4=Windfury Harness", "=ds=#s5#, #a3#", ""};
@@ -4163,7 +4163,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeWarlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=", "=q5="};
+				{ 1, 0, "spell_nature_drowsy", "=q6=Betrayer Regalia", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90142, "", "=q4=Horns of the Betrayer", "=ds=#s1#, #a1#", ""};
 				{ 3, 90138, "", "=q4=Amice of the Betrayer", "=ds=#s3#, #a1#", ""};
 				{ 4, 90140, "", "=q4=Robes of the Betrayer", "=ds=#s5#, #a1#", ""};
@@ -4183,7 +4183,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ChallengeModeWarrior"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=", "=q5="};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=Golden King Plate", "=q5=#ACHIEVEMENTID:6378#"};
 				{ 2, 90151, "", "=q4=Crown of the Golden King", "=ds=#s1#, #a4#", ""};
 				{ 3, 90153, "", "=q4=Mantle of the Golden King", "=ds=#s3#, #a4#", ""};
 				{ 4, 90149, "", "=q4=Chestplate of the Golden King", "=ds=#s5#, #a4#", ""};
