@@ -1087,6 +1087,10 @@ if AL then
 	--- Mists of Pandaria
 	AL["Uncle Bigpocket"] = "表叔大口袋";
 	AL["Auntie Stormstout"] = "风暴烈酒大婶";
+	AL["Luo Luo"] = "洛洛";
+	AL["Meng Meng"] = "萌萌";
+	AL["Ongrom Black Tooth"] = "奥格罗姆·黑牙";
+	AL["Proveditor Grantley"] = "普凡迪特·格兰特利";
 	--- World Events
 	AL["Crimson Templar"] = "赤红圣殿骑士";
 	AL["Azure Templar"] = "碧蓝圣殿骑士";
