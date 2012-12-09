@@ -381,7 +381,7 @@ elseif GAME_LOCALE == "zhTW" then
 	Trelopades = "特羅費茲",
 	["Ubunti the Shade"] = "『陰影』尤邦提",
 	["Vakkiz the Windrager"] = "風怒者瓦奇茲",
-	["Wild Onyx Serpent"] = 野生瑪瑙蛟",
+	["Wild Onyx Serpent"] = "野生瑪瑙蛟",
 	["Wrathbringer Laz-tarash"] = "憤怒使者拉茲泰拉西",
 	Xariona = "克薩瑞歐納",
 	Zhing = "鎮山羊",
