@@ -1088,6 +1088,10 @@ if AL then
 	--- Mists of Pandaria
 	AL["Uncle Bigpocket"] = "Oncle Poche Profonde";
 	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
+	--AL["Luo Luo"] = true;
+	--AL["Meng Meng"] = true;
+	AL["Ongrom Black Tooth"] = "Ongrom Dent-Noire";
+	AL["Proveditor Grantley"] = "Provéditeur Grantley";
 	--- World Events
 	AL["Crimson Templar"] = "Templier cramoisi";  --- mob removed from game?
 	AL["Azure Templar"] = "Templier d'azur";  --- mob removed from game?
