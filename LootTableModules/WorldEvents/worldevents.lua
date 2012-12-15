@@ -430,7 +430,7 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 			{
 				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AtlasLoot_IngameLocales["Stolen Present"], "#QUESTID:7043#"};
-				{ 2, 66450, "", "=q4=Miniature Winter Veil Tree", "=ds=#h1#, #w4#"};
+				{ 2, 93625, "", "=q4=Miniature Winter Veil Tree", "=ds=#h1#, #w4#"};
 				{ 3, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds=#e13#"};
 				{ 4, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
 				{ 5, 44606, "", "=q3=Toy Train Set", "=ds=#m20#"};
