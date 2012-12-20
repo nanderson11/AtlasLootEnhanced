@@ -14,6 +14,34 @@ local ParseTooltip_Enabled = false
 
 local AltasLootItemButton = {}
 
+local function canUpgradeItem(itemId)
+	if not itemId or type(itemId) ~= "number" then return end
+	local itemName, itemLink, itemRarity, itemLevel = GetItemInfo(itemId)
+	if itemLevel and itemLevel >= 458 and itemRarity and itemRarity >= 3 then
+		if itemRarity == 3 then 	-- Rare
+			return 451, { 452 }
+		elseif itemRarity == 4 then	-- Epic
+			return 445, { 446, 447 }
+		end
+	end
+	return nil
+end
+
+local function createItemLink(itemId, cutomLvl, upgradeLvl)
+	if not itemId or type(itemId) ~= "number" then return end
+	local itemLink
+	cutomLvl = cutomLvl or 0
+	upgradeLvl = upgradeLvl or 0
+	local upgradeStart, upgradeTab = canUpgradeItem(itemId)
+	if upgradeStart then
+		upgradeLvl = upgradeTab[upgradeLvl] or upgradeStart
+		itemLink = "item:"..itemId..":0:0:0:0:0:0:0:"..cutomLvl..":0:"..upgradeLvl
+	else
+		itemLink = "item:"..itemId
+	end
+	return itemLink
+end
+
 local CURRENCY_PRICE = {
 	-- http://www.wowhead.com/currencies
 	["CHEFAWARD"] = 402,	-- Chef's Award
@@ -763,6 +791,7 @@ do
 		end
 
 		self:SetButtonType(true, false, nil)
+		self:SetUpgradeLvl(AtlasLoot.db.profile.CurrentUpgradeLvl)
 		self.Frame:Show()
 		local tempText = ""
 		local itemNameNew, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTextureNew = GetItemInfo(itemID)
@@ -1169,6 +1198,7 @@ function AltasLootItemButton:Clear()
 	self:SetMenuButton(false)
 	self:SetIcon(nil)
 	self:SetAmount(nil)
+	self:SetUpgradeLvl(nil)
 	self.Frame.Name:SetText("")
 	self.Frame.Extra:SetText("")
 	self.info = nil
@@ -1210,6 +1240,11 @@ function AltasLootItemButton:GetChatLink()
 		local itemInfo, itemLink = GetItemInfo(self.info[2])
 		local color = strsub(self.Frame.Name:GetText(), 1, 10)
 		local name = strsub(self.Frame.Name:GetText(), 11)
+		if self.upgradeLvl then
+			local itemString = createItemLink(self.info[2], self.cutomLvl, self.upgradeLvl)
+			itemString = itemString or "item:"..self.info[2]
+			return color.."|H"..itemString.."|h["..itemInfo.."]|h|r", name
+		end
 		if itemInfo then
 			return itemLink, name
 		else
@@ -1231,6 +1266,26 @@ end
 
 function AltasLootItemButton:SetItemType(itemType)
 	self.itemType = itemType
+end
+
+function AltasLootItemButton:SetUpgradeLvl(lvl)
+	lvl = lvl or 0
+	if self.info and self.info[2] and self.info[2] ~= 0 then
+		local upgradeStart, upgradeTab = canUpgradeItem(self.info[2])
+		if upgradeStart then
+			if lvl > #upgradeTab then lvl = #upgradeTab end
+			--[[self.upgradeLvl = {
+				curLvl = upgradeTab[lvl],
+				startLvl = upgradeStart,
+				upgradeTab = upgradeTab
+			}]]--
+			self.upgradeLvl = lvl
+		else
+			self.upgradeLvl = nil
+		end
+	else
+		self.upgradeLvl = nil
+	end
 end
 --- Adds a item button function
 -- @param func the function
@@ -1419,10 +1474,10 @@ do
 					--_G[self:GetName().."_Unsafe"]:Hide();
 					AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 					if self.par.cutomLvl then
-						AtlasLootTooltip:SetHyperlink("item:"..itemID..":0:0:0:0:0:0:0:"..self.par.cutomLvl);
+						AtlasLootTooltip:SetHyperlink(createItemLink(itemID, self.par.cutomLvl, self.par.upgradeLvl));
 						--AtlasLootTooltip:AddLine()
 					else
-						AtlasLootTooltip:SetHyperlink("item:"..itemID..":0:0:0");
+						AtlasLootTooltip:SetHyperlink(createItemLink(itemID, self.par.cutomLvl, self.par.upgradeLvl));
 						if select(3, GetItemInfo(self.par.info[2])) == 7 then
 							AtlasLootTooltip:AddLine(ORANGE..AL["Shift + Right Click to select character level"])
 						end

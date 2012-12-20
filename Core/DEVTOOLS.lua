@@ -526,8 +526,10 @@ end
 
 function AtlasLoot:GetMapIds()
 	self.db.profile.MAPIDS = self.db.profile.MAPIDS or {}	
-	for i = 1,1000 do
-		self.db.profile.MAPIDS[i] = GetMapNameByID(i)
+	for i = 1,10000 do
+		if GetMapNameByID(i) then
+			self.db.profile.MAPIDS[i] = GetMapNameByID(i)
+		end
 	end
 end
 

@@ -122,6 +122,7 @@ local AtlasLootDBDefaults = {
 		ShowBossTooltip = true,
 		LastMinAtlasVersion = 0,
 		EnableMouseOverDesc = true,
+		CurrentUpgradeLvl = 0,
 	}
 }
 
@@ -1349,7 +1350,7 @@ do
 	-- @param itemID 
 	function AtlasLoot:GetHeirloomMaxLvl(itemID)
 		if not itemID then return end
-		local maxLvl = 80
+		local maxLvl = 85
 		local _,itemLink,itemRarity = GetItemInfo(itemID)
 		if itemRarity ~= 7 then return end
 		AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
@@ -1416,6 +1417,9 @@ function AtlasLoot:CheckHeroic(itemTable)
 	end
 end
 
+--gsub(ITEM_UPGRADE_TOOLTIP_FORMAT, "%%d", "(%%d)")
+
+
 --- Returns a MapName by ID
 -- This function only replace nil with a "error" string
 -- @param id MapId ( http://www.wowpedia.org/MapID )
@@ -1477,3 +1481,8 @@ function AtlasLoot:ShowSecretPage()
 	
 	AtlasLoot:ShowLootPage("SECRET_PAGE")
 end
+
+
+-- ###########################################################################
+-- itemEditor
+-- ###########################################################################
