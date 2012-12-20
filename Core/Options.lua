@@ -132,6 +132,19 @@ do
 										set = setOpt,
 										width = "full",
 									},
+									CurrentUpgradeLvl = {
+										type = "range",
+										name = AL["Upgrade Level:"],
+										--desc = ,
+										min = 0, max = 2, bigStep = 1,
+										get = getOpt,
+										set = function(info, value)
+											setOpt(info, value)
+											if AtlasLoot.RefreshLootPage then AtlasLoot:RefreshLootPage() end
+										end,
+										order = 70,
+										width = "full",
+									},
 								},
 							},
 							

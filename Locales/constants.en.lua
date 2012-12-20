@@ -103,6 +103,7 @@ if AL then
 	AL["Item Buttons"] = true;
 	AL["Loot Table"] = true;
 	AL["Enable mouse on item descriptions"] = true;
+	AL["Upgrade Level:"] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;

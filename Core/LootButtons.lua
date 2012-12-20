@@ -1214,15 +1214,18 @@ end
 function AltasLootItemButton:Refresh()
 	local tabLinkSave = self.tableLink
 	local amountSave = self.amount
-
+	local upgradeLvlSave = self.upgradeLvl
+	
 	if self.item == true and self.spell == false and self.info then
 		self:SetItem(self.info[2], self.info[3], self.info[4], self.info[5], self.info[6], self.info[7])
 		self:SetLink(tabLinkSave)
 		self:SetAmount(amountSave)
+		self:SetUpgradeLvl(self.upgradeLvl)
 	elseif self.item == true and self.spell == false and self.info then
 		self:SetSpell(self.info[1], self.info[2], self.info[3], self.info[4], self.info[5], self.info[6])
 		self:SetLink(tabLinkSave)
 		self:SetAmount(amountSave)
+		self:SetUpgradeLvl(self.upgradeLvl)
 	elseif self.item == false and self.spell == false and self.info then
 		self:SetMenu(tabLinkSave, self.info[3], self.info[4], self.info[5])
 	end
