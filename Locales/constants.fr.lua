@@ -103,6 +103,7 @@ if AL then
 	--AL["Item Buttons"] = true; -- à traduire
 	AL["Loot Table"] = "Table de loot";
 	AL["Enable mouse on item descriptions"] = "Activer la souris sur la description de l'objet";
+	AL["Upgrade Level:"] = "Niveau d'amélioration :";
 
 	-- Default Frame
 	AL["Default Frame"] = "Frame par défaut";
