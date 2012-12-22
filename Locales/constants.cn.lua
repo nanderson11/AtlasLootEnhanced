@@ -100,6 +100,7 @@ if AL then
 	AL["Item Buttons"] = "物品按钮";
 	AL["Loot Table"] = "掉落列表";
 	AL["Enable mouse on item descriptions"] = "启用鼠标指向物品属性";
+	AL["Upgrade Level:"] = "升级等级：";
 
 	-- Default Frame
 	AL["Default Frame"] = "默认框体";
