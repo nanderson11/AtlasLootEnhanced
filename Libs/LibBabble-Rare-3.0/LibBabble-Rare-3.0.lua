@@ -1,4 +1,4 @@
---[[
+﻿--[[
 Name: LibBabble-Rare-3.0
 Revision: $Rev$
 Maintainers: Celellach
@@ -129,7 +129,7 @@ if GAME_LOCALE == "enUS" then
 	lib:SetCurrentTranslations(true)
 elseif GAME_LOCALE == "deDE" then
 	lib:SetCurrentTranslations {
-	-- ["Entry"] = "Entry",
+	Aeonaxx = "Aeonaxx",
 }
 
 elseif GAME_LOCALE == "frFR" then
