@@ -100,6 +100,7 @@ if AL then
 	-- AL["Item Buttons"] = true;
 	AL["Loot Table"] = "Beuteverzeichnis";
 	AL["Enable mouse on item descriptions"] = "Beschreibungstooltips beim Hovern am Mauszeiger einblenden";
+	AL["Upgrade Level:"] = "Aufwertungsgrad:";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";
@@ -247,21 +248,6 @@ if AL then
 	AL["Show Price"] = "Preis anzeigen";
 	AL["Skill"] = "Fertigkeit";
 	AL["Location"] = "Quelle";
-	-- AL["ilvl 200"] = "Gegenstandsstufe 200";
-	-- AL["ilvl 213"] = "Gegenstandsstufe 213";
-	-- AL["ilvl 226"] = "Gegenstandsstufe 226";
-	-- AL["ilvl 245"] = "Gegenstandsstufe 245";
-	-- AL["ilvl 264"] = "Gegenstandsstufe 264";
-	-- AL["ilvl 397"] = "Gegenstandsstufe 397";
-	-- AL["ilvl 470"] = "Gegenstandsstufe 470";
-	-- AL["ilvl 490"] = "Gegenstandsstufe 490";
-	AL["Grand Marshal"] = "Großmarschall";
-	-- AL["Gladiator"] = true;
-	AL["Vengeful"] = "Rachsüchtig";
-	AL["Merciless"] = "Erbarmungslos";
-	-- AL["Brutal"] = true;
-	AL["Wrathful"] = "Zornerfüllt";
-	AL["Cataclysmic"] = "Kataklysmisch";
 
 	-- #######################################
 	-- UI things END
@@ -370,6 +356,24 @@ if AL then
 	-- AL["Tier 13 Set"] = true;
 	-- AL["Tier 14 Set"] = true;
 	AL["TCG Items"] = "TCG Gegenstände";
+	AL["Rare Mobs"] = "Rare-Mobs";
+	AL["Grand Marshal"] = "Großmarschall";
+	-- AL["Gladiator"] = true;
+	AL["Vengeful"] = "Rachsüchtig";
+	AL["Merciless"] = "Erbarmungslos";
+	-- AL["Brutal"] = true;
+	AL["Wrathful"] = "Zornerfüllt";
+	AL["Cataclysmic"] = "Kataklysmisch";
+	-- AL["ilvl 200"] = "Gegenstandsstufe 200";
+	-- AL["ilvl 213"] = "Gegenstandsstufe 213";
+	-- AL["ilvl 226"] = "Gegenstandsstufe 226";
+	-- AL["ilvl 245"] = "Gegenstandsstufe 245";
+	-- AL["ilvl 264"] = "Gegenstandsstufe 264";
+	-- AL["ilvl 397"] = "Gegenstandsstufe 397";
+	-- AL["ilvl 470"] = "Gegenstandsstufe 470";
+	-- AL["ilvl 490"] = "Gegenstandsstufe 490";
+	-- AL["ilvl 489"] = "Gegenstandsstufe 489";
+	-- AL["ilvl 496"] = "Gegenstandsstufe 496";
 
 	-- PvP Menu
 	AL["Arathi Basin Sets"] = "Arathibecken (Sets)";
@@ -412,6 +416,7 @@ if AL then
 	AL["Playable Race Masks"] = "Masken spielbarer Völker";
 	AL["Non-Playable Race Masks"] = "Masken nicht spielbarer Völker";
 	AL["Schematics & Patterns"] = "Baupläne & Muster";
+	AL["Toys"] = "Spielzeuge";
 
 	-- Minimap Button
 	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Linksklick|r Beuteverzeichnis durchsuchen";
@@ -478,10 +483,10 @@ if AL then
 	AL["Guild"] = "Gilde";
 
 	-- Blacksmithing
-	AL["Mists of Pandaria Vendor Sold Plans"] = "MoP - Vom Händler verkaufte Pläne";
-	AL["Cataclysm Vendor Sold Plans"] = "Cataclysm - Vom Händler verkaufte Pläne";
 	AL["Armor Enhancements"] = "Rüstungsverbesserungen";
 	AL["Weapon Enhancements"] = "Waffenverbesserungen";
+	AL["Cataclysm Vendor Sold Plans"] = "Cataclysm - Vom Händler verkaufte Pläne";
+	AL["Mists of Pandaria Vendor Sold Plans"] = "MoP - Vom Händler verkaufte Pläne";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Bankette/Festmähler";
@@ -535,6 +540,7 @@ if AL then
 	AL["Shirts"] = "Hemden";
 	AL["Bags"] = "Taschen";
 	AL["Cataclysm Vendor Sold Patterns"] = "Cataclysm - Vom Händler verkaufte Muster";
+	AL["Mists of Pandaria Vendor Sold Patterns"] = "MoP - Vom Händler verkaufte Muster";
 
 	-- Labels for loot descriptions
 	AL["Classes:"] = "Klassen:";
@@ -558,6 +564,7 @@ if AL then
 	AL["Daily Reward"] = "Tägliche Belohnung";
 	AL["No Longer Available"] = "Nicht mehr erhältlich";
 	AL["Shared Boss Loot"] = "Geteilter Bossloot";
+	AL["Shared Zone Loot"] = "Geteilter Gebietsloot";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "Klassisch";
@@ -613,7 +620,6 @@ if AL then
 	AL["Additional Heroic Loot"] = "Zusätzliche heroische Beute";
 	AL["Heroic Mode"] = "Heroisch";
 	AL["Normal Mode"] = "Normal";
-	AL["Raid"] = "Schlachtzug";
 	-- AL["Hard Mode"] = true;
 	AL["Bonus Loot"] = "Zusatzbeute";
 	AL["Arena Reward"] = "Arena Belohnung";
@@ -624,8 +630,6 @@ if AL then
 	AL["First Prize"] = "Hauptpreis";
 	AL["Rare Fish Rewards"] = "Besonderer Fisch - Belohnungen";
 	AL["Rare Fish"] = "Besondere Fische";
-	AL["Heirloom"] = "Erbstücke";
-	AL["PvP Heirlooms"] = "PvP Erbstücke";
 	AL["Weapons"] = "Waffen";
 	AL["Accessories"] = "Zubehör";
 	AL["Rare"] = "Selten";
@@ -639,6 +643,9 @@ if AL then
 	AL["Level 30-39"] = "Stufe 30-39";
 	AL["Level 40-49"] = "Stufe 40-49";
 	AL["Level 50-60"] = "Stufe 50-60";
+	AL["Level 60-69"] = "Stufe 60-69";
+	AL["Level 70-79"] = "Stufe 70-79";
+	AL["Level 85-89"] = "Stufe 85-89";
 	AL["Summon"] = "Beschwörbar";
 	AL["Random"] = "Zufällig";
 
@@ -714,6 +721,9 @@ if AL then
 	AL["Achievement"] = "Erfolg";
 	-- AL["Dungeon"] = true;
 	AL["Outdoor"] = "Außenwelt";
+	AL["Promotional"] = "Promotion";
+	-- AL["PvP"] = true;
+	AL["Raid"] = "Schlachtzug";
 
 	-- Companions
 	AL["Achievement Companions"] = "Erfolgs-Haustiere";
@@ -731,6 +741,11 @@ if AL then
 	AL["Rare Companions"] = "Seltene Haustiere";
 	AL["Unobtainable Companions"] = "Nicht mehr erhältlich";
 	AL["New Companions"] = "Neue Haustiere";
+	--- Drop Locations
+	AL["Bogflare Needler"] = "Sumpflichtschwärmer";
+	AL["Deviate Ravager/Deviate Guardian"] = "Deviatverheerer/Deviatwächter";
+	AL["Gundrak Raptor"] = "Raptor von Gundrak";
+	AL["Noxious Whelp"] = "Giftiger Welpe";
 
 	-- Mounts
 	AL["Alliance Mounts"] = "Allianz Reittiere";
@@ -748,6 +763,7 @@ if AL then
 	AL["Rare Mounts"] = "Seltene Reittiere";
 	AL["Unobtainable Mounts"] = "Nicht mehr erhältlich";
 	AL["New Mounts"] = "Neue Reittiere";
+	AL["Mount Collecting"] = "Sammeln von Reittieren";
 
 	-- Tabards
 	AL["Achievement & Quest Reward Tabards"] = "Erfolgs & Questbelohnungen";
@@ -763,6 +779,13 @@ if AL then
 	AL["Additional Effects Transformation Items"] = "Mit zusätzlichen Effekten";
 	AL["Consumable Transformation Items"] = "Verbrauchbar";
 	AL["Non-consumed Transformation Items"] = "Nicht verbrauchbar";
+
+	-- Heirloom and BoA Items
+	AL["Heirloom"] = "Erbstücke";
+	AL["PvP Heirlooms"] = "PvP Erbstücke";
+	AL["Bind on Account"] = "Accountgebunden";
+	AL["Bind on Account Armor"] = "Accountgebundene Rüstungen";
+	AL["Bind on Account Weapons"] = "Accountgebundene Waffen";
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = "Dunkelmond-Jahrmarkt Belohnungen";
@@ -982,6 +1005,7 @@ if AL then
 
 	-- NPCs missing from BabbleBoss
 	-- AL["Trash Mobs"] = true;
+	--- Classic WoW
 	AL["Dungeon Set 2 Summonable"] = "Beschworener Boss (DS2)";
 	-- AL["Theldren"] = true;
 	AL["Sothos and Jarien"] = "Sothos und Jarien";
@@ -990,18 +1014,12 @@ if AL then
 	AL["Defias Overseer/Taskmaster"] = "Vorarbeiter/Zuchtmeister der Defias";
 	AL["Scarlet Trainee"] = "Scharlachroter Lehrling";
 	AL["Shadowforge Flame Keeper"] = "Flammenbewahrer der Schattenschmiede";
-	AL["Avatar of the Martyred"] = "Avatar des Gemarterten";
-	AL["Nexus Stalker"] = "Nexuswandler";
-	AL["Auchenai Monk"] = "Mönch der Auchenai";
-	AL["Cabal Fanatic"] = "Fanatiker der Kabale";
-	AL["Unchained Doombringer"] = "Entfesselter Verdammnisbringer";
 	AL["Crimson Sorcerer"] = "Purpurroter Zauberhexer";
 	AL["Thuzadin Shadowcaster"] = "Thuzadinschattenzauberer";
 	AL["Crimson Inquisitor"] = "Purpurroter Inquisitor";
 	AL["Crimson Battle Mage"] = "Purpurroter Kampfmagier";
 	AL["Ghoul Ravener"] = "Tobsüchtiger Ghul";
 	AL["Spectral Citizen"] = "Spektraler Bürger";
-	AL["Spectral Researcher"] = "Spektraler Forscher";
 	AL["Scholomance Adept"] = "Adept aus Scholomance";
 	AL["Scholomance Dark Summoner"] = "Dunkler Beschwörer aus Scholomance";
 	AL["Blackhand Elite"] = "Elitesoldat der Schwarzfaustlegion";
@@ -1017,6 +1035,27 @@ if AL then
 	AL["Weapon Technician"] = "Waffentechniker";
 	AL["Doomforge Craftsman"] = "Schicksalsträchtiger Handwerker";
 	AL["Murk Worm"] = "Düsterwurm";
+	AL["Scarshield Quartermaster"] = "Rüstmeister der Schmetterschilde";
+	AL["Knot Thimblejack"] = "Knot Zwingschraub";
+	AL["Shen'dralar Provisioner"] = "Versorger der Shen'dralar";
+	AL["The Nameles Prophet"] = "The Nameles Prophet";
+	AL["Rajaxx's Captains"] = "Rajaxx's Captains";
+	AL["Razorfen Spearhide"] = "Speerträger der Klingenhauer";
+	AL["Felsteed"] = "Teufelsross";
+	AL["Master Elemental Shaper Krixix"] = "Meisterelementarformer Krixix";
+	AL["Rotted One"] = "Verfaulter";
+	AL["Tex Vortacoil"] = "Tex Vortaspul";
+	AL["Sprinkle Noggenfogger"] = "Sprinkel Noggenfogger";
+	--- Burning Crusade
+	AL["Avatar of the Martyred"] = "Avatar des Gemarterten";
+	AL["Nexus Stalker"] = "Nexuswandler";
+	AL["Auchenai Monk"] = "Mönch der Auchenai";
+	AL["Cabal Fanatic"] = "Fanatiker der Kabale";
+	AL["Unchained Doombringer"] = "Entfesselter Verdammnisbringer";
+	AL["Aether-tech Assistant"] = "Äthertechnikerassistent";
+	AL["Aether-tech Adept"] = "Äthertechnikeradept";
+	AL["Aether-tech Master"] = "Meisteräthertechniker";
+	AL["Thomas Yance"] = "Thomas Yance";
 	AL["Raging Skeleton"] = "Tobendes Skelett";
 	AL["Ethereal Priest"] = "Astraler Priester";
 	AL["Sethekk Ravenguard"] = "Rabenwächter der Sethekk";
@@ -1031,6 +1070,29 @@ if AL then
 	AL["Sunseeker Astromage"] = "Astromagier der Sonnensucher";
 	AL["Durnholde Rifleman"] = "Scharfschütze von Durnholde";
 	AL["Rift Keeper/Rift Lord"] = "Bewahrerin/Fürst der Zeitenrisse";
+	-- AL["Don Carlos"] = true;
+	AL["Aged Dalaran Wizard"] = "Gealterter Hexer von Dalaran";
+	AL["Shattered Hand Executioner"] = "Henker der Zerschmetterten Hand";
+	AL["Servant's Quarter Animal Bosses"] = "Bosse im Quartier der Diener";
+	AL["Wyrmcult Provisioner"] = "Versorger des Wyrmkults";
+	--- Wrath of the Lich King
+	AL["Olut Alegut"] = "Olut Bierbauch";
+	AL["Rork Sharpchin"] = "Rork Spitzkinn";
+	--- Cataclysm
+	-- AL["Zen'Vorka"] = true;
+	AL["Ayla Shadowstorm"] = "Ayla Schattensturm";
+	AL["Damek Bloombeard"] = "Damek Blühbart";
+	AL["Varlan Highbough"] = "Varlan Hochblatt";
+	AL["Firestone Vendor"] = "Händler für Feuersteine";
+	AL["Baradin Fox"] = "Baradinfuchs";
+	--- Mists of Pandaria
+	AL["Uncle Bigpocket"] = "Onkel Dickehose";
+	AL["Auntie Stormstout"] = "Tantchen Sturmbräu";
+	-- AL["Luo Luo"] = true;
+	-- AL["Meng Meng"] = true;
+	AL["Ongrom Black Tooth"] = "Ongrom Schwarzzahn";
+	AL["Proveditor Grantley"] = "Administrator Grantley";
+	--- World Events
 	AL["Crimson Templar"] = "Purpurroter Templer";
 	AL["Azure Templar"] = "Azurblauer Templer";
 	AL["Hoary Templar"] = "Weißgrauer Templer";
@@ -1039,45 +1101,12 @@ if AL then
 	AL["The Duke of Fathoms"] = "Der Fürst der Tiefen";
 	AL["The Duke of Zephyrs"] = "Der Fürst der Stürme";
 	AL["The Duke of Shards"] = "Der Fürst der Splitter";
-	AL["Aether-tech Assistant"] = "Äthertechnikerassistent";
-	AL["Aether-tech Adept"] = "Äthertechnikeradept";
-	AL["Aether-tech Master"] = "Meisteräthertechniker";
-	AL["Smokywood Pastures Vendor"] = "Kokelwälder Händler";
-	AL["Bash'ir Landing Stasis Chambers"] = "Stasiskammer des Landeplatz von Bash'ir";
 	AL["Templars"] = "Templer";
 	AL["Dukes"] = "Fürsten";
 	-- AL["High Council"] = true;
-	AL["Scarshield Quartermaster"] = "Rüstmeister der Schmetterschilde";
-	AL["Father Flame"] = "Vater Flamme";
-	AL["Thomas Yance"] = "Thomas Yance";
-	AL["Knot Thimblejack"] = "Knot Zwingschraub";
-	AL["Shen'dralar Provisioner"] = "Versorger der Shen'dralar";
-	AL["The Nameles Prophet"] = "The Nameles Prophet";
-	AL["Rajaxx's Captains"] = "Rajaxx's Captains";
-	AL["Razorfen Spearhide"] = "Speerträger der Klingenhauer";
-	AL["Magregan Deepshadow"] = "Magregan Grubenschatten";
-	-- AL["Don Carlos"] = true;
-	AL["Aged Dalaran Wizard"] = "Gealterter Hexer von Dalaran";
-	AL["Felsteed"] = "Teufelsross";
-	AL["Shattered Hand Executioner"] = "Henker der Zerschmetterten Hand";
-	AL["Deviate Ravager/Deviate Guardian"] = "Deviatverheerer/Deviatwächter";
-	AL["Servant's Quarter Animal Bosses"] = "Bosse im Quartier der Diener";
-	AL["Master Elemental Shaper Krixix"] = "Meisterelementarformer Krixix";
-	-- AL["Zen'Vorka"] = true;
-	AL["Ayla Shadowstorm"] = "Ayla Schattensturm";
-	AL["Damek Bloombeard"] = "Damek Blühbart";
-	AL["Varlan Highbough"] = "Varlan Hochblatt";
-	AL["Firestone Vendor"] = "Händler für Feuersteine";
+	AL["Smokywood Pastures Vendor"] = "Kokelwälder Händler";
+	AL["Bash'ir Landing Stasis Chambers"] = "Stasiskammer des Landeplatz von Bash'ir";
 	AL["Battle Pet Trainer"] = "Kampfhaustiertrainer";
-	AL["Rotted One"] = "Verfaulter";
-	AL["Uncle Bigpocket"] = "Onkel Dickehose";
-	AL["Baradin Fox"] = "Baradinfuchs";
-	AL["Tex Vortacoil"] = "Tex Vortaspul";
-	AL["Olut Alegut"] = "Olut Bierbauch";
-	AL["Rork Sharpchin"] = "Rork Spitzkinn";
-	AL["Sprinkle Noggenfogger"] = "Sprinkel Noggenfogger";
-	AL["Wyrmcult Provisioner"] = "Versorger des Wyrmkults";
-	AL["Auntie Stormstout"] = "Tantchen Sturmbräu";
 
 	-- Zones
 	AL["Trial of the Grand Crusader"] = "Prüfung des Obersten Kreuzfahrers";
@@ -1089,6 +1118,7 @@ if AL then
 	-- AL["Avatar"] = true; -- Avatar of the Martyred
 
 	-- Chests, etc
+	AL["Father Flame"] = "Vater Flamme";
 	AL["The Grim Guzzler"] = "Zum Grimmigen Säufer";
 	AL["The Secret Safe"] = "Geheimsafe";
 	AL["The Vault"] = "Der Tresor";
@@ -1099,6 +1129,7 @@ if AL then
 	AL["Fathom Core"] = "Tiefenkern";
 	AL["Gift of Adoration"] = "Geschenke der Verehrung";
 	AL["Treat Bag"] = "Schlotterbeutel";
+	AL["The Cache of Madness"] = "Der Hort des Wahnsinns";
 	-- AL["Timed Reward Chest"] = true;
 	-- AL["Timed Reward Chest 1"] = true;
 	-- AL["Timed Reward Chest 2"] = true;
@@ -1113,7 +1144,6 @@ if AL then
 	AL["Second Fragment Guardian"] = "Wächter des zweiten Teils";
 	AL["Third Fragment Guardian"] = "Wächter des dritten Teils";
 	AL["Overcharged Manacell"] = "Überladene Manazelle";
-	AL["The Cache of Madness"] = "Der Hort des Wahnsinns";
 	AL["Shellfish Trap"] = "Schalentierfalle";
 	AL["Fishing Pools"] = "Fischschwärme";
 
