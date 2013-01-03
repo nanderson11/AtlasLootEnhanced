@@ -2,7 +2,7 @@
 ## LoadOnDemand: 1
 ## Title: Lib: Babble-Rare-3.0
 ## Notes: A library to help with localization of Rare Mobs.
-## Notes-deDE: 
+## Notes-deDE: Bibliothek zur Übersetzung von Rare-Mobs.
 ## Notes-frFR: 
 ## Notes-esES: 
 ## Author: 
