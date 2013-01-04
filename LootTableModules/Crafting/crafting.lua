@@ -6834,7 +6834,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 4, 86250, "", "=q1=Pattern: Contender's Leather Bracers", "=ds=#p7# (555)", "#SPIRITOFHARMONY:1#"};
 				{ 5, 86252, "", "=q1=Pattern: Contender's Leather Gloves", "=ds=#p7# (565)", "#SPIRITOFHARMONY:1#"};
 				{ 6, 86248, "", "=q1=Pattern: Contender's Leather Belt", "=ds=#p7# (565)", "#SPIRITOFHARMONY:1#"};
-				{ 7, 86254, "", "=q1=Pattern: Contender's Leather Leggings", "=ds#p7# (565)", "#SPIRITOFHARMONY:1#"};
+				{ 7, 86254, "", "=q1=Pattern: Contender's Leather Leggings", "=ds=#p7# (565)", "#SPIRITOFHARMONY:1#"};
 				{ 8, 86249, "", "=q1=Pattern: Contender's Leather Boots", "=ds=#p7# (565)", "#SPIRITOFHARMONY:1#"};
 				{ 16, 86269, "", "=q1=Pattern: Contender's Wyrmhide Helm", "=ds=#p7# (590)", "#SPIRITOFHARMONY:1#"};
 				{ 17, 86271, "", "=q1=Pattern: Contender's Wyrmhide Shoulders", "=ds=#p7# (575)", "#SPIRITOFHARMONY:1#"};
