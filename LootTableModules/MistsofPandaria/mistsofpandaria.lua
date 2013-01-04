@@ -1635,7 +1635,7 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
-	AtlasLoot_Data["MoguShanVaultsPatterns"] = {
+	AtlasLoot_Data["Patternsilvl496"] = {
 		["Normal"] = {
 			{
 				{ 1, 86381, "", "=q4=Pattern: Legacy of the Emperor", "=ds=#p8# (600)"};
@@ -1659,8 +1659,8 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AtlasLoot:GetMapNameByID(896).. " "..AL["Patterns/Plans"],
-			module = moduleName, instance = "MoguShanVaults",
+			name = AL["Patterns/Plans"].." ("..AL["ilvl 496"]..")",
+			module = moduleName,
 		};
 	};
 
@@ -2254,13 +2254,13 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Heroic"] = {
 			{
-				--{ 1, 0, "", "=q4=Robes of Pinioned Eyes", "=ds=#s5#, #a1#" },
-				{ 1, 87174, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
-				--{ 3, 0, "", "=q4=Wrap of Instant Petrification", "=ds=#s5#, #a2#" },
-				--{ 4, 0, "", "=q4=Shadowgrip Girdle", "=ds=#s10#, #a3#" },
-				{ 3, 87175, "", "=q4=Essence of Terror", "=ds=#s14#" },
-				{ 5, 87173, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
-				{ 6, 87176, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
+				{ 1, 89949, "", "=q4=Robes of Pinioned Eyes", "=ds=#s5#, #a1#" },
+				{ 2, 87174, "", "=q4=Dreadwoven Leggings of Failure", "=ds=#s11#, #a1#" },
+				{ 3, 89950, "", "=q4=Wrap of Instant Petrification", "=ds=#s5#, #a2#" },
+				{ 4, 89951, "", "=q4=Shadowgrip Girdle", "=ds=#s10#, #a3#" },
+				{ 5, 87175, "", "=q4=Essence of Terror", "=ds=#s14#" },
+				{ 7, 87173, "", "=q4=Kilrak, Jaws of Terror", "=ds=#h1#, #w10#" },
+				{ 8, 87176, "", "=q4=Shin'ka, Execution of Dominion", "=ds=#h2#, #w1#" },
 				{ 10, 87210, "", "=q5=Chimera of Fear", "=ds=#m3#" },
 				{ 11, 87208, "", "=q5=Sigil of Power", "=ds=#m3#" },
 				{ 12, 87209, "", "=q5=Sigil of Wisdom", "=ds=#m3#" },
@@ -7061,11 +7061,26 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 89526, "", "=q3=Signet of the Slumbering Emperor", "=ds=#s13#", "#JUSTICE:1250#"};
 				{ 20, 89524, "", "=q3=Sorcerer-King's Seal", "=ds=#s13#", "#JUSTICE:1250#"};
 				{ 21, 89525, "", "=q3=Thunderstone Ring", "=ds=#s13#", "#JUSTICE:1250#"};
-				{ 23, 93347, "", "=q3=Arcane Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" },
-				{ 24, 93346, "", "=q3=Deadeye Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" },
-				{ 25, 93350, "", "=q3=Durable Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" },
-				{ 26, 93349, "", "=q3=Knightly Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" },
-				{ 27, 93348, "", "=q3=Mending Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" },
+				{
+					{ 23, 93342, "", "=q3=Dominator's Arcane Badge", "=ds=#s14#", "#JUSTICE:1750#" };
+					{ 23, 93347, "", "=q3=Arcane Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" };
+				};
+				{
+					{ 24, 93341, "", "=q3=Dominator's Deadeye Badge", "=ds=#s14#", "#JUSTICE:1750#" };
+					{ 24, 93346, "", "=q3=Deadeye Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" };
+				};
+				{
+					{ 25, 93345, "", "=q3=Dominator's Durable Badge", "=ds=#s14#", "#JUSTICE:1750#" };
+					{ 25, 93350, "", "=q3=Durable Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" };
+				};
+				{
+					{ 26, 93344, "", "=q3=Dominator's Knightly Badge", "=ds=#s14#", "#JUSTICE:1750#" };
+					{ 26, 93349, "", "=q3=Knightly Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" };
+				};
+				{
+					{ 27, 93343, "", "=q3=Dominator's Mending Badge", "=ds=#s14#", "#JUSTICE:1750#" };
+					{ 27, 93348, "", "=q3=Mending Badge of the Shieldwall", "=ds=#s14#", "#JUSTICE:1750#" };
+				};
 				{ 28, 89232, "", "=q3=Mogu Rune of Paralysis", "=ds=#s14#", "#JUSTICE:1750#"};
 				{ 29, 88995, "", "=q3=Shado-Pan Dragon Gun", "=ds=#s14#", "#JUSTICE:1750#"};
 				extraText = ": "..AL["Accessories"];
@@ -7085,8 +7100,15 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 2, 93339, "", "=q4=Bon-iy's Unbreakable Cord", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 3, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+
+				{
+					{ 2, 93330, "", "=q4=Chang's Changing Cord", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 2, 93339, "", "=q4=Bon-iy's Unbreakable Cord", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 3, 93271, "", "=q4=Beach-Born Sandals", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 3, 93280, "", "=q4=Sandals of Oiled Silk", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 6, 89337, "", "=q4=Firecracker Corona", "=ds=#s1#, #a1#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 7, 89340, "", "=q4=Mantle of the Golden Sun", "=ds=#s3#, #a1#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7097,8 +7119,14 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 89088, "", "=q4=Leggings of the Poisoned Soul", "=ds=#s11#, #a1#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Revered"] },
 				{ 13, 88878, "", "=q4=Void Flame Slippers", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["The August Celestials"].." - "..BabbleFaction["Revered"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 17, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 18, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 17, 93331, "", "=q4=Sash of Surehandedness", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 17, 93340, "", "=q4=Sash of Bouncing Power", "=ds=#s10#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 18, 93270, "", "=q4=Slippers of Soothing Balm", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 18, 93279, "", "=q4=Shieldwarden Slippers", "=ds=#s12#, #a1#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 21, 89338, "", "=q4=Yalia's Cowl", "=ds=#s1#, #a1#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 22, 89339, "", "=q4=Tenderheart Shoulders", "=ds=#s3#, #a1#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7112,8 +7140,14 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 2, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 3, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 2, 93328, "", "=q4=Prevenge's Dagger-Carrier", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 2, 93337, "", "=q4=Prevenge's Swashbuckling Cinch", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 3, 93269, "", "=q4=Troll-Toe Tabi", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 3, 93278, "", "=q4=Crab-Leather Tabi", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};				
 				{ 6, 89300, "", "=q4=Red Smoke Bandana", "=ds=#s1#, #a2#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 7, 89341, "", "=q4=Imperion Spaulders", "=ds=#s3#, #a2#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7124,8 +7158,14 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 89090, "", "=q4=Dreadsworn Slayer Legs", "=ds=#s11#, #a2#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Revered"] },
 				{ 13, 88868, "", "=q4=Tukka-Tuk's Hairy Boots", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["The August Celestials"].." - "..BabbleFaction["Revered"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 17, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 18, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 17, 93329, "", "=q4=Bambrick's Striking Strap", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 17, 93338, "", "=q4=Soothing Straps", "=ds=#s10#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 18, 93268, "", "=q4=Treads of Rejuvenating Mists", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 18, 93277, "", "=q4=Statue Summoner's Treads", "=ds=#s12#, #a2#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 21, 89308, "", "=q4=Snowdrift Helm", "=ds=#s1#, #a2#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 22, 89342, "", "=q4=Whitepetal Shouldergarb", "=ds=#s3#, #a2#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7139,8 +7179,14 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 2, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 3, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 2, 93326, "", "=q4=Shigi's Chain of Cheerful Summons", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 2, 93335, "", "=q4=Chain of Flaming Arrows", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 3, 93267, "", "=q4=Greaves of Manifest Destiny", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 3, 93276, "", "=q4=Odlaw's Everwalkers", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 6, 89291, "", "=q4=Hawkmaster's Headguard", "=ds=#s1#, #a3#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 7, 89344, "", "=q4=Windwalker Spaulders", "=ds=#s3#, #a3#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7151,8 +7197,14 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 89092, "", "=q4=Locust Swarm Legguards", "=ds=#s11#, #a3#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Revered"] },
 				{ 13, 88866, "", "=q4=Steps of the War Serpent", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["The August Celestials"].." - "..BabbleFaction["Revered"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 17, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 18, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 17, 93327, "", "=q4=Bloodbinder Links", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 17, 93336, "", "=q4=Links of Bonded Blood", "=ds=#s10#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 18, 93266, "", "=q4=Boots of the Healing Stream", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 18, 93275, "", "=q4=Totem-Binder Boots", "=ds=#s12#, #a3#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 21, 89296, "", "=q4=Nightwatcher's Helm", "=ds=#s1#, #a3#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 22, 89343, "", "=q4=Mindbender Shoulders", "=ds=#s3#, #a3#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7166,8 +7218,14 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 2, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 3, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 2, 93323, "", "=q4=Kwon's Crushing Girdle", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 2, 93332, "", "=q4=Girdle of Crushing Strength", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 3, 93264, "", "=q4=Cragchewer Sollerets", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 3, 93273, "", "=q4=Sea-Soaked Sollerets", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 6, 89280, "", "=q4=Voice Amplyifying Greathelm", "=ds=#s1#, #a4#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 7, 89345, "", "=q4=Stonetoe Spaulders", "=ds=#s3#, #a4#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7178,8 +7236,14 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 89095, "", "=q4=Legguards of the Unscathed", "=ds=#s11#, #a4#", "#VALOR:2250#"..BabbleFaction["The Klaxxi"].." - "..BabbleFaction["Revered"] },
 				{ 13, 88862, "", "=q4=Tankiss Warstompers", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["The August Celestials"].." - "..BabbleFaction["Revered"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 18, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 17, 93324, "", "=q4=Immovable Waistplate", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 17, 93333, "", "=q4=Waistplate of Immobility", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 18, 93263, "", "=q4=Groundbreaker Sabatons", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 18, 93272, "", "=q4=Sabatons of the Sullied Shore", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 20, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 21, 89216, "", "=q4=Yi's Least Favorite Helmet", "=ds=#s1#, #a4#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 22, 89346, "", "=q4=Shoulders of Autumnlight", "=ds=#s3#, #a4#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7193,8 +7257,14 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 2, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 3, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 2, 93325, "", "=q4=Divide's Greatheart Clasp", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 2, 93334, "", "=q4=Divide's Loyal Clasp", "=ds=#s10#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 3, 93265, "", "=q4=Scar Swallower Greatboots", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 3, 93274, "", "=q4=Greatboots of Flashing Light", "=ds=#s12#, #a4#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 5, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 6, 89096, "", "=q4=Six Pool's Open Helm", "=ds=#s1#, #a4#", "#VALOR:2250#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 7, 89347, "", "=q4=Paleblade Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:1750#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Revered"] },
@@ -7223,11 +7293,26 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] },
-				{ 3, 93246, "", "=q4=Circle of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] },
-				{ 4, 93245, "", "=q4=Loop of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] },
-				{ 5, 93247, "", "=q4=Seal of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] },
-				{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] },
+				{
+					{ 2, 93249, "", "=q4=Dominator's Band", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Honored"] };
+					{ 2, 93244, "", "=q4=Band of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] };
+				};
+				{
+					{ 3, 93251, "", "=q4=Dominator's Circle", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Honored"] };
+					{ 3, 93246, "", "=q4=Circle of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] };
+				};
+				{
+					{ 4, 93250, "", "=q4=Dominator's Loop", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Honored"] };
+					{ 4, 93245, "", "=q4=Loop of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] };
+				};
+				{
+					{ 5, 93252, "", "=q4=Dominator's Seal", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Honored"] };
+					{ 5, 93247, "", "=q4=Seal of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] };
+				};
+				{
+					{ 6, 93248, "", "=q4=Dominator's Signet", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Honored"] };
+					{ 6, 93243, "", "=q4=Signet of the Shieldwall", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Honored"] };
+				};
 				{ 8, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 9, 89070, "", "=q4=Anji's Keepsake", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"] },
 				{ 10, 89071, "", "=q4=Alani's Inflexible Ring", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"] },
@@ -7235,11 +7320,26 @@ local moduleName = "AtlasLootMoP"
 				{ 12, 89069, "", "=q4=Ring of the Golden Stair", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"] },
 				{ 13, 89072, "", "=q4=Simple Harmonius Ring", "=ds=#s13#", "#VALOR:1250#"..BabbleFaction["Golden Lotus"].." - "..BabbleFaction["Honored"] },
 				{ 16, 0, "pvecurrency-valor", "=ds="..AL["ilvl 496"], ""};
-				{ 17, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 18, 93260, "", "=q4=Heartwarmer Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 19, 93261, "", "=q4=Helmbreaker Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 20, 93259, "", "=q4=Shock-Charger Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
-				{ 21, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] },
+				{
+					{ 17, 93255, "", "=q4=Cutstitcher Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 17, 93258, "", "=q4=Arrowflight Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 18, 93257, "", "=q4=Medallion of Mystifying Vapors", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 18, 93260, "", "=q4=Heartwarmer Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 19, 93256, "", "=q4=Skullrender Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 19, 93261, "", "=q4=Helmbreaker Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 20, 93254, "", "=q4=Static-Caster's Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 20, 93259, "", "=q4=Shock-Charger Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
+				{
+					{ 21, 93253, "", "=q4=Woundripper Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Dominance Offensive"].." - "..BabbleFaction["Revered"] };
+					{ 21, 93262, "", "=q4=Vaporshield Medallion", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Operation: Shieldwall"].." - "..BabbleFaction["Revered"] };
+				};
 				{ 23, 0, "pvecurrency-valor", "=ds="..AL["ilvl 489"], ""};
 				{ 24, 89081, "", "=q4=Blossom of Pure Snow", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
 				{ 25, 89082, "", "=q4=Hawkmaster's Talon", "=ds=#s14#", "#VALOR:1750#"..BabbleFaction["Shado-Pan"].." - "..BabbleFaction["Revered"] },
