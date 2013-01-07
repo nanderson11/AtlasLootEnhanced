@@ -51,6 +51,7 @@ local moduleName = "AtlasLootMoP"
 ---- Order of the Cloud Serpent
 ---- Shado-Pan
 ---- The Tillers
+---- Domination Point
 ---- Lion's Landing
 --- PvP
 ---- PvP Armor Sets
@@ -2859,9 +2860,9 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#" },
 				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#" },
 				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#" },
-				{ 16, 0, "achievement_faction_celestials", "=q6=Rank 4", ""};
+				{ 16, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["Rank 4"], ""};
 				{ 17, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
-				{ 19, 0, "achievement_faction_celestials", "=q6=Rank 8", ""};
+				{ 19, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["Rank 8"], ""};
 				{ 20, 92948, "", "=q7=Brawler's Razor Claws", "=ds=#h1#, #w13#", "#JUSTICE:2175#" },
 			};
 		};
@@ -3166,6 +3167,42 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = BabbleFaction["The Tillers"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		------------------------
+		--- Domination Point ---
+		------------------------
+
+	AtlasLoot_Data["DominationPoint"] = {
+		["Normal"] = {
+			{
+				{ 1, 91819, "", "=q1=Sturdy Crane Snare", "=ds=", "#LIONSLANDINGCOMMISSION:30#"},
+				{ 2, 91821, "", "=q1=Sturdy Tiger Trap", "=ds=", "#LIONSLANDINGCOMMISSION:30#"},
+				{ 3, 91822, "", "=q1=Sturdy Crab Crate", "=ds=", "#LIONSLANDINGCOMMISSION:30#"},
+				{ 4, 92058, "", "=q1=Portal Fuel: Shrine of Two Moons", "=ds=", "#LIONSLANDINGCOMMISSION:5#"},
+				{ 5, 92057, "", "=q1=Portal Fuel: Orgrimmar", "=ds=", "#LIONSLANDINGCOMMISSION:5#"},
+				{ 6, 92056, "", "=q1=Portal Fuel: Sparkrocket Outpost", "=ds=", "#LIONSLANDINGCOMMISSION:5#"},
+				{ 7, 92049, "", "=q1=Mercenary Contract: Mage", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 8, 92053, "", "=q1=Mercenary Contract: Warrior", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 9, 92052, "", "=q1=Mercenary Contract: Druid", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 10, 92051, "", "=q1=Mercenary Contract: Priest", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 11, 92050, "", "=q1=Mercenary Contract: Paladin", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 12, 92055, "", "=q1=Mercenary Contract: Shaman", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 13, 92054, "", "=q1=Mercenary Contract: Rogue", "=ds=", "#LIONSLANDINGCOMMISSION:10#"},
+				{ 14, 92059, "", "=q1=Domination Point Banquet", "=ds=", "#LIONSLANDINGCOMMISSION:30#"},
+				{ 15, 92663, "", "=q1=Guard Contract: Outpost", "=ds=", "#LIONSLANDINGCOMMISSION:40#"},
+				{ 16, 92421, "", "=q1=Guard Contract: Graveyard", "=ds=", "#LIONSLANDINGCOMMISSION:60#"},
+				{ 17, 92422, "", "=q1=Guard Contract: Tower", "=ds=", "#LIONSLANDINGCOMMISSION:80#"},
+				{ 18, 92526, "", "=q1=Crate of Horde Banners", "=ds=", "#LIONSLANDINGCOMMISSION:25#"},
+				{ 19, 92530, "", "=q1=Box of Overridden Excavationbots", "=ds=", "#LIONSLANDINGCOMMISSION:125#"},
+				{ 20, 92528, "", "=q1=Obelisk of Deception", "=ds=", "#LIONSLANDINGCOMMISSION:500#"},
+				{ 21, 92527, "", "=q1=Rodent Crate", "=ds=", "#LIONSLANDINGCOMMISSION:2000#"},
+			};
+		};
+		info = {
+			name = "Domination Point",
 			module = moduleName, menu = "REPMENU",
 		};
 	}

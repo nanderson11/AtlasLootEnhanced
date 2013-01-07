@@ -21,7 +21,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 17, "REPMENU_BURNINGCRUSADE", "INV_Misc_Ribbon_01", "=ds="..AL["Burning Crusade"], ""};
 				{ 18, "REPMENU_CATACLYSM", "inv_neck_hyjaldaily_04", "=ds="..AL["Cataclysm"], ""};
 				{ 20, "DominanceOffensive", "pvpcurrency-honor-horde", "=ds="..BabbleFaction["Dominance Offensive"], "=q5="..AtlasLoot:GetMapNameByID(857)};
-				--{ 21, "DominationPoint", "pvpcurrency-conquest-horde", "=ds=Domination Point", "=q5="..AtlasLoot:GetMapNameByID(857)};
+				{ 21, "DominationPoint", "pvpcurrency-conquest-horde", "=ds=Domination Point", "=q5="..AtlasLoot:GetMapNameByID(857)};
 				{ 22, "BizmosBrawlpubBrawlgarArena", "inv_misc_head_clockworkgnome_01", "=ds="..BabbleFaction["Brawl'gar Arena"], "=q5="..AtlasLoot:GetMapNameByID(925)};
 				{ 24, "AugustCelestials", "achievement_faction_celestials", "=ds="..BabbleFaction["The August Celestials"], "=q5="..AtlasLoot:GetMapNameByID(811)};
 				{ 25, "Klaxxi", "achievement_faction_klaxxi", "=ds="..BabbleFaction["The Klaxxi"], "=q5="..AtlasLoot:GetMapNameByID(858)};
