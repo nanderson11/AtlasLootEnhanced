@@ -7,7 +7,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v7.05.00 (December ??, 2012)
 Added Operation: Shieldwall Justice and Valor items.
+Added Dominance Offensive Justice and Valor items.
 Added Bizmo's Brawlpub / Brawl'gar Arena rewards.
+Added Domination Point rewards.
 Updated Darkmoon Faire.
 Revamped Faction menus.
 Removed Hydraxian Waterlords from faction page.
@@ -18,7 +20,7 @@ v7.04.01 (Nov 30, 2012)
 Compatible with Patch 5.1.
 Added faction - Dominance Offensive.
 Added faction - Operation: Shieldwall.
-Added rewards for Lion's Landing and Domination Point.
+Added Lion's Landing rewards.
 Minor fixes, additions and translations.
 
 v7.04.00 (Nov 25, 2012)
