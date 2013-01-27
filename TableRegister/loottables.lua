@@ -181,8 +181,10 @@ AtlasLoot_LootTableRegister = {
 
 		["Pandaria"] = {
 			["Bosses"] = {
-				{ "SHAOFANGER", 1, EncounterJournalID = 691 },
-				{ "SalyisWarband", 2, EncounterJournalID = 725 },
+				--{ "Nalak", 1, EncounterJournalID = 814 },
+				--{ "Oondasta", 2, EncounterJournalID = 826 },
+				{ "SHAOFANGER", 3, EncounterJournalID = 691 },
+				{ "SalyisWarband", 4, EncounterJournalID = 725 },
 			},
 			["Info"] = { AL["Pandaria World Bosses"], "AtlasLootMoP", mapname = "Pandaria", raid = true, EncounterJournalID = 322 },
 		},
@@ -197,6 +199,25 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Terrace of Endless Spring"], "AtlasLootMoP", mapname = "TerraceofEndlessSpring", raid = true, EncounterJournalID = 320 },
 		},
+
+		--[[["ThroneofThunder"] = {
+			["Bosses"] = {
+				{ "ToTJinrokh", 2, EncounterJournalID = 827 },
+				{ "ToTHorridon", 3, EncounterJournalID = 819 },
+				{ "ToTCouncil", 4, EncounterJournalID = 816 },
+				{ "ToTTortos", 5, EncounterJournalID = 825 },
+				{ "ToTMegaera", 6, EncounterJournalID = 821 },
+				{ "ToTJiKun", 7, EncounterJournalID = 828 },
+				{ "ToTDurumu", 8, EncounterJournalID = 818 },
+				{ "ToTPrimordius", 9, EncounterJournalID = 820 },
+				{ "ToTDarkAnimus", 10, EncounterJournalID = 824 },
+				{ "ToTIronQon", 11, EncounterJournalID = 817 },
+				{ "ToTTwinConsorts", 12, EncounterJournalID = 829 },
+				{ "ToTLeiShen", 13, EncounterJournalID = 832 },
+				{ "ToTRaden", 14, EncounterJournalID = 831},
+			},
+			["Info"] = { BabbleZone["Throne of Thunder"], "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
+		},--]]
 
 	---------------------------
 	--- Cataclysm Instances ---

@@ -22,6 +22,7 @@ local moduleName = "AtlasLootMoP"
 ---- Mogu'Shan Vaults
 ---- Pandaria World Bosses
 ---- Terrace of Endless Spring
+---- Throne of Thunder
 --- Rare Mobs
 ---- The Jade Forest
 ---- Valley of the Four Winds
@@ -1702,6 +1703,30 @@ local moduleName = "AtlasLootMoP"
 		--- Pandaria World Bosses ---
 		-----------------------------
 
+	--[[AtlasLoot_Data["Nalak"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Nalak, The Storm Lord", 814),
+			module = moduleName, instance = "Pandaria",
+		};
+	};
+
+	AtlasLoot_Data["Oondasta"] = {
+		["Normal"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Oondasta", 826),
+			module = moduleName, instance = "Pandaria",
+		};
+	};--]]
+
 	AtlasLoot_Data["ShaofAnger"] = {
 		["Normal"] = {
 			{
@@ -2308,6 +2333,286 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, instance = "TerraceofEndlessSpring",
 		};
 	};
+
+		-------------------------
+		--- Throne of Thunder ---
+		-------------------------
+
+	--[[AtlasLoot_Data["ToTJinrokh"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Jin'rokh the Breaker"", 827),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTHorridon"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Horridon", 819),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTCouncil"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Council of Elders", 816),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTTortos"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Tortos", 825),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTMegaera"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Megaera", 821),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTJiKun"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ji-Kun", 828),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTDurumu"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Durumu the Forgotten", 818),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTPrimordius"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Primordius", 820),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTDarkAnimus"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Dark Animus", 824),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTIronQon"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Iron Qon", 817),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTTwinConsorts"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Twin Consorts", 829),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTLeiShen"] = {
+		["RaidFinder"] = {
+			{
+
+			};
+		};
+		["Normal"] = {
+			{
+
+			};
+		};
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Lei Shen", 832),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
+	AtlasLoot_Data["ToTRaden"] = {
+		["Heroic"] = {
+			{
+
+			};
+		};
+		info = {
+			name = AtlasLoot:EJ_GetBossName("Ra-den", 831),
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};--]]
 
 	-----------------
 	--- Rare Mobs ---
