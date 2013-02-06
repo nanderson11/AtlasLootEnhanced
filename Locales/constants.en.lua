@@ -358,6 +358,7 @@ if AL then
 	AL["Tier 11/12 Set"] = true;
 	AL["Tier 13 Set"] = true;
 	AL["Tier 14 Set"] = true;
+	AL["Tier 15 Set"] = true;
 	AL["TCG Items"] = true; -- Trading Card Game Items
 	AL["Rare Mobs"] = true;
 	AL["Grand Marshal"] = true;
@@ -596,6 +597,7 @@ if AL then
 	AL["Tier 12"] = true;
 	AL["Tier 13"] = true;
 	AL["Tier 14"] = true;
+	AL["Tier 15"] = true;
 	AL["Challenge Mode Armor Sets"] = true;
 	AL["10 Man"] = true;
 	AL["10/25 Man"] = true;

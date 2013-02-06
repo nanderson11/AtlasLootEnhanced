@@ -24,15 +24,16 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 14, "CardGame", "inv_misc_ogrepinata", "=ds="..AL["TCG Items"], ""};
 				{ 16, "HEIRLOOMMENU", "INV_Sword_43", "=ds="..AL["Heirloom"].." & "..AL["Bind on Account"], ""};
 				{ 17, "CHALLENGEMODESET", "inv_neck_hyjaldaily_04", "=ds="..AL["Challenge Mode Armor Sets"], "=q5="..AL["Mists of Pandaria"]};
-				{ 20, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
-				{ 22, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Set"], "=q5="..AL["Classic WoW"]};
-				{ 23, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Set"], "=q5="..AL["Burning Crusade"]};
-				{ 24, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 25, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 26, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 27, "T1112SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11/12 Set"], "=q5="..AL["Cataclysm"]};
-				{ 28, "T13SET", "inv_shoulder_plate_raiddeathknight_j_01", "=ds="..AL["Tier 13 Set"], "=q5="..AL["Cataclysm"]};
-				{ 29, "T14SET", "inv_shoulder_cloth_raidwarlock_l_01", "=ds="..AL["Tier 14 Set"], "=q5="..AL["Mists of Pandaria"]};
+				{ 19, "SETSMISCMENU", "inv_misc_monsterscales_15", "=ds="..AL["Misc Sets"], ""};
+				{ 21, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Set"], "=q5="..AL["Classic WoW"]};
+				{ 22, "T456SET", "INV_Gauntlets_63", "=ds="..AL["Tier 4/5/6 Set"], "=q5="..AL["Burning Crusade"]};
+				{ 23, "T7T8SET", "INV_Chest_Chain_15", "=ds="..AL["Tier 7/8 Set"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 24, "T9SET", "inv_gauntlets_80", "=ds="..AL["Tier 9 Set"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 25, "T10SET", "inv_chest_plate_26", "=ds="..AL["Tier 10 Set"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 26, "T1112SET", "inv_helm_robe_raidmage_i_01", "=ds="..AL["Tier 11/12 Set"], "=q5="..AL["Cataclysm"]};
+				{ 27, "T13SET", "inv_shoulder_plate_raiddeathknight_j_01", "=ds="..AL["Tier 13 Set"], "=q5="..AL["Cataclysm"]};
+				{ 28, "T14SET", "inv_shoulder_cloth_raidwarlock_l_01", "=ds="..AL["Tier 14 Set"], "=q5="..AL["Mists of Pandaria"]};
+				{ 29, "T15SET", "inv_chest_plate_raidwarrior_m_01", "=ds="..AL["Tier 15 Set"], "=q5="..AL["Mists of Pandaria"]};
 			};
 		};
 		info = {
@@ -699,6 +700,40 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 		info = {
 			name = AL["Tier 14 Set"],
+			menu = "SETMENU", instance = "TierSetsMenus",
+		};
+	}
+
+	AtlasLoot_Data["T15SET"] = {
+		["Normal"] = {
+			{
+				{ 1, "T15Hunter", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 2, "T15Mage", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 3, "T15Rogue", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 4, "T15Warlock", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 6, "T15MonkTank", "spell_monk_brewmaster_spec", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Brewmaster"]};
+				{ 7, "T15MonkHealer", "spell_monk_mistweaver_spec", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Mistweaver"]};
+				{ 8, "T15MonkDPS", "spell_monk_windwalker_spec", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Windwalker"]};
+				{ 10, "T15ShamanElemental", "Spell_Nature_Lightning", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 11, "T15ShamanEnhancement", "spell_nature_lightningshield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 12, "T15ShamanRestoration", "spell_nature_magicimmunity", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 14, "T15DeathKnightDPS", "spell_deathknight_frostpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+				{ 15, "T15DeathKnightTank", "spell_deathknight_bloodpresence", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+				{ 17, "T15PriestHoly", "spell_holy_guardianspirit", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 18, "T15PriestShadow", "spell_shadow_shadowwordpain", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 20, "T15DruidBalance", "spell_nature_starfall", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 21, "T15DruidDPS", "ability_druid_catform", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+				{ 22, "T15DruidTank", "ability_racial_bearform", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Guardian"]};
+				{ 23, "T15DruidRestoration", "spell_nature_healingtouch", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 25, "T15PaladinHoly", "Spell_Holy_HolyBolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 26, "T15PaladinProtection", "spell_holy_devotionaura", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 27, "T15PaladinRetribution", "Spell_Holy_AuraOfLight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 29, "T15WarriorFury", "ability_warrior_innerrage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 30, "T15WarriorProtection", "ability_warrior_defensivestance", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+			};
+		};
+		info = {
+			name = AL["Tier 15 Set"],
 			menu = "SETMENU", instance = "TierSetsMenus",
 		};
 	}

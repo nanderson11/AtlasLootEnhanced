@@ -46,11 +46,14 @@ local moduleName = "AtlasLootMoP"
 ---- Bizmo's Brawlpub / Brawl'gar Arena
 ---- Dominance Offensive
 ---- Golden Lotus
+---- Kirin Tor Offensive
 ---- The Klaxxi
 ---- The Lorewalkers
 ---- Operation: Shieldwall
 ---- Order of the Cloud Serpent
 ---- Shado-Pan
+---- Shado-Pan Assault
+---- Sunreaver Onslaught
 ---- The Tillers
 ---- Domination Point
 ---- Lion's Landing
@@ -62,6 +65,7 @@ local moduleName = "AtlasLootMoP"
 --- Sets & Collections
 ---- Challenge Mode Armor Sets
 ---- Tier 14 Sets (T14)
+---- Tier 15 Sets (T15)
 ---- Trading Card Game Items
 ---- Companions
 ---- Mounts
@@ -3263,6 +3267,37 @@ local moduleName = "AtlasLootMoP"
 		};
 	}
 
+		---------------------------
+		--- Kirin Tor Offensive ---
+		---------------------------
+
+	AtlasLoot_Data["KirinTorOffensive"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r3#", ""};
+				{ 2, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
+				{ 3, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
+				{ 4, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
+				{ 5, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
+				{ 6, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
+				{ 7, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
+				{ 8, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
+				{ 9, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
+				{ 10, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 16, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
+				{ 17, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
+				{ 19, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
+				{ 20, 95564, "", "=q4=Primal Golden Direhorn", "=ds=#e26#"};
+				{ 21, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive"};
+				{ 22, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+			};
+		};
+		info = {
+			name = "Kirin Tor Offensive",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
 		------------------
 		--- The Klaxxi ---
 		------------------
@@ -3418,6 +3453,56 @@ local moduleName = "AtlasLootMoP"
 		};
 		info = {
 			name = BabbleFaction["Shado-Pan"],
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		---------------------------
+		--- Shado-Pan Assault ---
+		---------------------------
+
+	AtlasLoot_Data["ShadoPanAssault"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_faction_shadopan", "=q6=#r4#", ""};
+				{ 2, 95559, "", "=q7=Grand Commendation of the Shado-Pan Assault", "=ds=", "=ds=45 #gold#"};
+				{ 4, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
+				{ 5, 97131, "", "=q3=Shado-Pan Assault Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+			};
+		};
+		info = {
+			name = "Shado-Pan Assault",
+			module = moduleName, menu = "REPMENU",
+		};
+	}
+
+		---------------------------
+		--- Sunreaver Onslaught ---
+		---------------------------
+
+	AtlasLoot_Data["SunreaverOnslaught"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_faction_sunreaveronslaught", "=q6=#r3#", ""};
+				{ 2, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
+				{ 3, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
+				{ 4, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
+				{ 5, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
+				{ 6, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
+				{ 7, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
+				{ 8, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
+				{ 9, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
+				{ 10, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 16, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
+				{ 17, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
+				{ 19, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
+				{ 20, 95565, "", "=q4=Primal Crimson Direhorn", "=ds=#e26#"};
+				{ 21, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught"};
+				{ 22, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+			};
+		};
+		info = {
+			name = "Sunreaver Onslaught",
 			module = moduleName, menu = "REPMENU",
 		};
 	}
@@ -5243,6 +5328,677 @@ local moduleName = "AtlasLootMoP"
 		info = {
 			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
 			module = moduleName, menu = "T14SET",
+		};
+	}
+
+		--------------------------
+		--- Tier 15 Sets (T15) ---
+		--------------------------
+
+	AtlasLoot_Data["T15DeathKnightDPS"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95827, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95829, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95825, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95826, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95828, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95227, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95229, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95225, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95226, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95228, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96571, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96573, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96569, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96570, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96572, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15DeathKnightTank"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95832, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95834, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95830, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95831, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95833, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95232, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95234, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95230, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95231, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95233, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96576, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96578, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96574, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96575, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96577, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15DruidRestoration"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95841, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95844, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95843, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95840, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95842, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95241, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95244, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95243, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95240, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95242, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96585, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96588, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96587, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96584, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96586, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15DruidDPS"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95837, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95839, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95835, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95836, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95838, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95237, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95239, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95235, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95236, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95238, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96581, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96583, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96579, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96580, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96582, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15DruidBalance"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95846, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95849, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95848, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95845, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95847, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95246, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95249, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95248, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95245, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95247, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96590, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96593, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96592, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96589, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96591, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15DruidTank"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95852, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95854, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95850, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95851, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95853, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95252, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95254, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95250, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95251, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95253, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96596, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96598, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96594, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96595, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96597, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Guardian"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15Hunter"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95884, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95886, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95882, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95883, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95885, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95257, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95259, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95255, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95256, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95258, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96628, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96630, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96626, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96627, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96629, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15Mage"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95891, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95894, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95893, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95890, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95892, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95261, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95264, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95263, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95260, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95262, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96635, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96638, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96637, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96634, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96636, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15MonkTank"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95907, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95909, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95905, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95906, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95908, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95277, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95279, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95275, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95276, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95278, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96651, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96653, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96649, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96650, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96652, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Brewmaster"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15MonkDPS"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95897, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95899, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95895, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95896, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95898, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95267, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95269, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95265, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95266, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95268, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96641, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96643, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96639, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96640, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96642, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Windwalker"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15MonkHealer"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95901, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95904, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95903, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95900, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95902, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95271, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95274, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95273, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95270, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95272, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96645, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96648, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96647, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96644, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96646, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Mistweaver"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15PaladinHoly"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95917, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95919, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95915, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95916, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95918, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95287, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95289, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95285, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95286, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95288, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96661, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96663, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96659, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96660, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96662, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15PaladinProtection"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95922, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95924, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95920, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95921, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95923, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95292, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95294, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95290, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95291, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95293, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96666, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96668, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96664, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96665, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96667, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15PaladinRetribution"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95912, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95914, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95910, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95911, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95913, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95282, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95284, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95280, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95281, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95283, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96656, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96658, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96654, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96655, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96657, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15PriestShadow"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95931, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95934, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95933, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95930, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95932, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95301, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95304, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95303, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95300, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95302, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96675, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96678, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96677, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96674, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96676, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15PriestHoly"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95926, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95929, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95928, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95925, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95927, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95296, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95299, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95298, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95295, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95297, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96670, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96673, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96672, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96669, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96671, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15Rogue"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95937, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95939, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95935, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95936, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95938, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95307, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95309, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95305, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95306, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95308, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96681, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96683, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96679, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96680, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96682, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15ShamanElemental"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95952, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95954, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95950, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95951, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95953, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95322, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95324, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95320, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95321, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95323, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96696, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96698, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96694, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96695, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96697, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15ShamanEnhancement"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95947, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95949, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95945, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95946, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95948, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95317, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95319, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95315, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95316, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95318, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96691, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96693, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96689, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96690, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96692, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15ShamanRestoration"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95942, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95944, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95940, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95941, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95943, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95312, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95314, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95310, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95311, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95313, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96686, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96688, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96684, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96685, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96687, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15Warlock"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95982, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95985, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95984, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95981, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95983, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95326, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95329, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95328, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95325, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95327, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96726, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96729, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96728, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96725, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96727, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15WarriorFury"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95986, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95990, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95987, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95988, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95989, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95330, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95334, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95331, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95332, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95333, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96730, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96734, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96731, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96732, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96733, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["DPS"],
+			module = moduleName, menu = "T15SET",
+		};
+	}
+
+	AtlasLoot_Data["T15WarriorProtection"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 2, 95993, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 3, 95995, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 4, 95991, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 5, 95992, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 6, 95994, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 9, 95337, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 10, 95339, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 11, 95335, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 12, 95336, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 13, 95338, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 17, 96737, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
+				{ 18, 96739, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
+				{ 19, 96735, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
+				{ 20, 96736, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
+				{ 21, 96738, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
+			};
+		};
+		info = {
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
+			module = moduleName, menu = "T15SET",
 		};
 	}
 
@@ -7099,10 +7855,14 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Mists of Pandaria"]};
-				{ 2, 93403, "", "=q5=Eye of the Black Prince", "=ds=#m4#"};
-				{ 4, 89873, "", "=q5=Crystallized Dread", "=ds=#e7#"};
-				{ 5, 89882, "", "=q5=Crystallized Horror", "=ds=#e7#"};
-				{ 6, 89881, "", "=q5=Crystallized Terror", "=ds=#e7#"};
+				{ 2, 95346, "", "=q5=Capacitive Primal Diamond", "=ds=#e32# #e7#"};
+				{ 3, 95345, "", "=q5=Courageous Primal Diamond", "=ds=#e32# #e7#"};
+				{ 4, 95344, "", "=q5=Indomitable Primal Diamond", "=ds=#e32# #e7#"};
+				{ 5, 95347, "", "=q5=Sinister Primal Diamond", "=ds=#e32# #e7#"};
+				{ 7, 93403, "", "=q5=Eye of the Black Prince", "=ds=#m4#"};
+				{ 9, 89873, "", "=q5=Crystallized Dread", "=ds=#e7#"};
+				{ 10, 89882, "", "=q5=Crystallized Horror", "=ds=#e7#"};
+				{ 11, 89881, "", "=q5=Crystallized Terror", "=ds=#e7#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Cataclysm"]};
 				{ 17, 77949, "", "=q5=Golad, Twilight of Aspects", "=ds=#h3#, #w4#", "" };
 				{ 18, 77950, "", "=q5=Tiriosh, Nightmare of Ages", "=ds=#h4#, #w4#", "" };
