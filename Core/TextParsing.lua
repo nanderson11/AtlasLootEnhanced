@@ -647,30 +647,30 @@ AtlasLoot_TextParsing = {
 	{ "#t14s11_2#", BabbleItemSet["Battlegear of the Red Crane"] },
 	{ "#t14s11_3#", BabbleItemSet["Vestments of the Red Crane"] },
 
-	-- Tier 15 Sets (insert names on the right as soon as itemset lib is updated!)
-	{ "#t15s1_1#", BabbleItemSet["Vestments of the Eternal Blossom"] }, --Vestments of the Haunted Forest
-	{ "#t15s1_2#", BabbleItemSet["Battlegear of the Eternal Blossom"] }, --Battlegear of the Haunted Forest
-	{ "#t15s1_3#", BabbleItemSet["Regalia of the Eternal Blossom"] }, --Regalia of the Haunted Forest
-	{ "#t15s1_4#", BabbleItemSet["Armor of the Eternal Blossom"] }, --Armor of the Haunted Forest
-	{ "#t15s2#", BabbleItemSet["Yaungol Slayer Battlegear"] }, --Battlegear of the Saurok Stalker
-	{ "#t15s3#", BabbleItemSet["Regalia of the Burning Scroll"] }, --Regalia of the Chromatic Hydra
-	{ "#t15s4_1#", BabbleItemSet["White Tiger Vestments"] }, --Vestments of the Lightning Emperor
-	{ "#t15s4_2#", BabbleItemSet["White Tiger Plate"] }, --Plate of the Lightning Emperor
-	{ "#t15s4_3#", BabbleItemSet["White Tiger Battlegear"] }, --Battlegear of the Lightning Emperor
-	{ "#t15s5_1#", BabbleItemSet["Regalia of the Guardian Serpent"] }, --Regalia of the Exorcist
-	{ "#t15s5_2#", BabbleItemSet["Vestments of the Guardian Serpent"] }, --Vestments of the Exorcist
-	{ "#t15s6#", BabbleItemSet["Battlegear of the Thousandfold Blades"] }, --Nine-Tail Battlegear
-	{ "#t15s7_1#", BabbleItemSet["Vestments of the Firebird"] }, --Vestments of the Spiritbreaker
-	{ "#t15s7_2#", BabbleItemSet["Battlegear of the Firebird"] }, --Battlegear of the Spiritbreaker
-	{ "#t15s7_3#", BabbleItemSet["Regalia of the Firebird"] }, --Regalia of the Spiritbreaker
-	{ "#t15s8#", BabbleItemSet["Sha-Skin Regalia"] }, --Regalia of the Thousand Hells
-	{ "#t15s9_1#", BabbleItemSet["Battleplate of Resounding Rings"] }, --Battleplate of the Last Mogu
-	{ "#t15s9_2#", BabbleItemSet["Plate of Resounding Rings"] }, --Plate of the Last Mogu
-	{ "#t15s10_1#", BabbleItemSet["Battlegear of the Lost Catacomb"] }, --Battleplate of the All-Consuming Maw
-	{ "#t15s10_2#", BabbleItemSet["Plate of the Lost Catacomb"] }, --Plate of the All-Consuming Maw
-	{ "#t15s11_1#", BabbleItemSet["Armor of the Red Crane"] }, --Fire-Charm Armor
-	{ "#t15s11_2#", BabbleItemSet["Battlegear of the Red Crane"] }, --Fire-Charm Battlegear
-	{ "#t15s11_3#", BabbleItemSet["Vestments of the Red Crane"] }, --Fire-Charm Vestments
+	-- Tier 15 Sets
+	{ "#t15s1_1#", BabbleItemSet["Vestments of the Haunted Forest"] },
+	{ "#t15s1_2#", BabbleItemSet["Battlegear of the Haunted Forest"] },
+	{ "#t15s1_3#", BabbleItemSet["Regalia of the Haunted Forest"] },
+	{ "#t15s1_4#", BabbleItemSet["Armor of the Haunted Forest"] },
+	{ "#t15s2#", BabbleItemSet["Battlegear of the Saurok Stalker"] },
+	{ "#t15s3#", BabbleItemSet["Regalia of the Chromatic Hydra"] },
+	{ "#t15s4_1#", BabbleItemSet["Vestments of the Lightning Emperor"] },
+	{ "#t15s4_2#", BabbleItemSet["Plate of the Lightning Emperor"] },
+	{ "#t15s4_3#", BabbleItemSet["Battlegear of the Lightning Emperor"] },
+	{ "#t15s5_1#", BabbleItemSet["Regalia of the Exorcist"] },
+	{ "#t15s5_2#", BabbleItemSet["Vestments of the Exorcist"] },
+	{ "#t15s6#", BabbleItemSet["Nine-Tail Battlegear"] },
+	{ "#t15s7_1#", BabbleItemSet["Vestments of the Spiritbreaker"] },
+	{ "#t15s7_2#", BabbleItemSet["Battlegear of the Spiritbreaker"] },
+	{ "#t15s7_3#", BabbleItemSet["Regalia of the Spiritbreaker"] },
+	{ "#t15s8#", BabbleItemSet["Regalia of the Thousand Hells"] },
+	{ "#t15s9_1#", BabbleItemSet["Battleplate of the Last Mogu"] },
+	{ "#t15s9_2#", BabbleItemSet["Plate of the Last Mogu"] },
+	{ "#t15s10_1#", BabbleItemSet["Battleplate of the All-Consuming Maw"] },
+	{ "#t15s10_2#", BabbleItemSet["Plate of the All-Consuming Maw"] },
+	{ "#t15s11_1#", BabbleItemSet["Fire-Charm Armor"] },
+	{ "#t15s11_2#", BabbleItemSet["Fire-Charm Battlegear"] },
+	{ "#t15s11_3#", BabbleItemSet["Fire-Charm Vestments"] },
 
 	-- Arathi Basin Sets - Alliance
 	{ "#absa1#", BabbleItemSet["The Highlander's Intent"] },
