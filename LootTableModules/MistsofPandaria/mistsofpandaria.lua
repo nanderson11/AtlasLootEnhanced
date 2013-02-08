@@ -3651,23 +3651,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 2, 85046, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85086, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84993, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85028, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85059, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85046, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85086, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84993, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85028, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85059, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 9, 84853, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84918, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84795, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84835, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84872, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84853, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84918, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84795, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84835, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84872, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 17, 84374, "", "=q3=Dreadful Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84376, "", "=q3=Dreadful Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84372, "", "=q3=Dreadful Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 20, 84373, "", "=q3=Dreadful Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84375, "", "=q3=Dreadful Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84374, "", "=q3=Dreadful Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84376, "", "=q3=Dreadful Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84372, "", "=q3=Dreadful Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2250#"};
+				{ 20, 84373, "", "=q3=Dreadful Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84375, "", "=q3=Dreadful Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3680,23 +3680,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
-				{ 2, 85037, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85080, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85070, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85022, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85049, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85037, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85080, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85070, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85022, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85049, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
-				{ 9, 84861, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84925, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84906, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84843, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84880, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84861, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84925, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84906, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84843, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84880, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
-				{ 17, 84394, "", "=q3=Dreadful Gladiator's Wyrmhide Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84397, "", "=q3=Dreadful Gladiator's Wyrmhide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84396, "", "=q3=Dreadful Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2200#"};
-				{ 20, 84393, "", "=q3=Dreadful Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84395, "", "=q3=Dreadful Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84394, "", "=q3=Dreadful Gladiator's Wyrmhide Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84397, "", "=q3=Dreadful Gladiator's Wyrmhide Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84396, "", "=q3=Dreadful Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2250#"};
+				{ 20, 84393, "", "=q3=Dreadful Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84395, "", "=q3=Dreadful Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3709,23 +3709,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q5="};
-				{ 2, 85045, "", "=q4=Malevolent Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85084, "", "=q4=Malevolent Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85065, "", "=q4=Malevolent Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85025, "", "=q4=Malevolent Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85058, "", "=q4=Malevolent Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85045, "", "=q4=Malevolent Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85084, "", "=q4=Malevolent Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85065, "", "=q4=Malevolent Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85025, "", "=q4=Malevolent Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85058, "", "=q4=Malevolent Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q5="};
-				{ 9, 84852, "", "=q4=Malevolent Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84916, "", "=q4=Malevolent Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84901, "", "=q4=Malevolent Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84832, "", "=q4=Malevolent Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84871, "", "=q4=Malevolent Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84852, "", "=q4=Malevolent Gladiator's Dragonhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84916, "", "=q4=Malevolent Gladiator's Dragonhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84901, "", "=q4=Malevolent Gladiator's Dragonhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84832, "", "=q4=Malevolent Gladiator's Dragonhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84871, "", "=q4=Malevolent Gladiator's Dragonhide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "ability_druid_catform", "=q6=#arenas1_1#", "=q5="};
-				{ 17, 84378, "", "=q3=Dreadful Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84381, "", "=q3=Dreadful Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84380, "", "=q3=Dreadful Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2200#"};
-				{ 20, 84377, "", "=q3=Dreadful Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84379, "", "=q3=Dreadful Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84378, "", "=q3=Dreadful Gladiator's Dragonhide Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84381, "", "=q3=Dreadful Gladiator's Dragonhide Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84380, "", "=q3=Dreadful Gladiator's Dragonhide Robes", "=ds=", "#HONOR:2250#"};
+				{ 20, 84377, "", "=q3=Dreadful Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84379, "", "=q3=Dreadful Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3738,23 +3738,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="};
-				{ 2, 85043, "", "=q4=Malevolent Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85082, "", "=q4=Malevolent Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85071, "", "=q4=Malevolent Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85026, "", "=q4=Malevolent Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85051, "", "=q4=Malevolent Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85043, "", "=q4=Malevolent Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85082, "", "=q4=Malevolent Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85071, "", "=q4=Malevolent Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85026, "", "=q4=Malevolent Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85051, "", "=q4=Malevolent Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="};
-				{ 9, 84850, "", "=q4=Malevolent Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84927, "", "=q4=Malevolent Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84907, "", "=q4=Malevolent Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84833, "", "=q4=Malevolent Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84882, "", "=q4=Malevolent Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84850, "", "=q4=Malevolent Gladiator's Kodohide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84927, "", "=q4=Malevolent Gladiator's Kodohide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84907, "", "=q4=Malevolent Gladiator's Kodohide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84833, "", "=q4=Malevolent Gladiator's Kodohide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84882, "", "=q4=Malevolent Gladiator's Kodohide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", "=q5="};
-				{ 17, 84386, "", "=q3=Dreadful Gladiator's Kodohide Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84389, "", "=q3=Dreadful Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84388, "", "=q3=Dreadful Gladiator's Kodohide Robes", "=ds=", "#HONOR:2200#"};
-				{ 20, 84385, "", "=q3=Dreadful Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84387, "", "=q3=Dreadful Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84386, "", "=q3=Dreadful Gladiator's Kodohide Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84389, "", "=q3=Dreadful Gladiator's Kodohide Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84388, "", "=q3=Dreadful Gladiator's Kodohide Robes", "=ds=", "#HONOR:2250#"};
+				{ 20, 84385, "", "=q3=Dreadful Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84387, "", "=q3=Dreadful Gladiator's Kodohide Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3767,23 +3767,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="};
-				{ 2, 85034, "", "=q4=Malevolent Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85076, "", "=q4=Malevolent Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84994, "", "=q4=Malevolent Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85020, "", "=q4=Malevolent Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85061, "", "=q4=Malevolent Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85034, "", "=q4=Malevolent Gladiator's Chain Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85076, "", "=q4=Malevolent Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84994, "", "=q4=Malevolent Gladiator's Chain Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85020, "", "=q4=Malevolent Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85061, "", "=q4=Malevolent Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="};
-				{ 9, 84858, "", "=q4=Malevolent Gladiator's Chain Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84921, "", "=q4=Malevolent Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84796, "", "=q4=Malevolent Gladiator's Chain Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84841, "", "=q4=Malevolent Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84874, "", "=q4=Malevolent Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84858, "", "=q4=Malevolent Gladiator's Chain Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84921, "", "=q4=Malevolent Gladiator's Chain Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84796, "", "=q4=Malevolent Gladiator's Chain Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84841, "", "=q4=Malevolent Gladiator's Chain Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84874, "", "=q4=Malevolent Gladiator's Chain Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", "=q5="};
-				{ 17, 84410, "", "=q3=Dreadful Gladiator's Chain Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84412, "", "=q3=Dreadful Gladiator's Chain Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84408, "", "=q3=Dreadful Gladiator's Chain Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 84409, "", "=q3=Dreadful Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84411, "", "=q3=Dreadful Gladiator's Chain Leggings", "=ds=", "#HONOR:2200#"};
+				{ 17, 84410, "", "=q3=Dreadful Gladiator's Chain Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84412, "", "=q3=Dreadful Gladiator's Chain Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84408, "", "=q3=Dreadful Gladiator's Chain Armor", "=ds=", "#HONOR:2250#"};
+				{ 20, 84409, "", "=q3=Dreadful Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84411, "", "=q3=Dreadful Gladiator's Chain Leggings", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3796,23 +3796,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="};
-				{ 2, 85031, "", "=q4=Malevolent Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85085, "", "=q4=Malevolent Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85068, "", "=q4=Malevolent Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85016, "", "=q4=Malevolent Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85062, "", "=q4=Malevolent Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85031, "", "=q4=Malevolent Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85085, "", "=q4=Malevolent Gladiator's Silk Amice", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85068, "", "=q4=Malevolent Gladiator's Silk Robe", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85016, "", "=q4=Malevolent Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85062, "", "=q4=Malevolent Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="};
-				{ 9, 84855, "", "=q4=Malevolent Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84917, "", "=q4=Malevolent Gladiator's Silk Amice", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84904, "", "=q4=Malevolent Gladiator's Silk Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84837, "", "=q4=Malevolent Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84875, "", "=q4=Malevolent Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84855, "", "=q4=Malevolent Gladiator's Silk Cowl", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84917, "", "=q4=Malevolent Gladiator's Silk Amice", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84904, "", "=q4=Malevolent Gladiator's Silk Robe", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84837, "", "=q4=Malevolent Gladiator's Silk Handguards", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84875, "", "=q4=Malevolent Gladiator's Silk Trousers", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", "=q5="};
-				{ 17, 84414, "", "=q3=Dreadful Gladiator's Silk Cowl", "=ds=", "#HONOR:2200#"};
-				{ 18, 84417, "", "=q3=Dreadful Gladiator's Silk Amice", "=ds=", "#HONOR:1650#"};
-				{ 19, 84416, "", "=q3=Dreadful Gladiator's Silk Robe", "=ds=", "#HONOR:2200#"};
-				{ 20, 84413, "", "=q3=Dreadful Gladiator's Silk Handguards", "=ds=", "#HONOR:1650#"};
-				{ 21, 84415, "", "=q3=Dreadful Gladiator's Silk Trousers", "=ds=", "#HONOR:2200#"};
+				{ 17, 84414, "", "=q3=Dreadful Gladiator's Silk Cowl", "=ds=", "#HONOR:2250#"};
+				{ 18, 84417, "", "=q3=Dreadful Gladiator's Silk Amice", "=ds=", "#HONOR:1750#"};
+				{ 19, 84416, "", "=q3=Dreadful Gladiator's Silk Robe", "=ds=", "#HONOR:2250#"};
+				{ 20, 84413, "", "=q3=Dreadful Gladiator's Silk Handguards", "=ds=", "#HONOR:1750#"};
+				{ 21, 84415, "", "=q3=Dreadful Gladiator's Silk Trousers", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3825,23 +3825,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#arenas11_2#", "=q5="};
-				{ 2, 85030, "", "=q4=Malevolent Gladiator's Copperskin Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85088, "", "=q4=Malevolent Gladiator's Copperskin Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85067, "", "=q4=Malevolent Gladiator's Copperskin Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85015, "", "=q4=Malevolent Gladiator's Copperskin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85060, "", "=q4=Malevolent Gladiator's Copperskin Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85030, "", "=q4=Malevolent Gladiator's Copperskin Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85088, "", "=q4=Malevolent Gladiator's Copperskin Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85067, "", "=q4=Malevolent Gladiator's Copperskin Tunic", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85015, "", "=q4=Malevolent Gladiator's Copperskin Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85060, "", "=q4=Malevolent Gladiator's Copperskin Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#arenas11_2#", "=q5="};
-				{ 9, 84854, "", "=q4=Malevolent Gladiator's Copperskin Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84920, "", "=q4=Malevolent Gladiator's Copperskin Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84903, "", "=q4=Malevolent Gladiator's Copperskin Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84836, "", "=q4=Malevolent Gladiator's Copperskin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84873, "", "=q4=Malevolent Gladiator's Copperskin Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84854, "", "=q4=Malevolent Gladiator's Copperskin Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84920, "", "=q4=Malevolent Gladiator's Copperskin Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84903, "", "=q4=Malevolent Gladiator's Copperskin Tunic", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84836, "", "=q4=Malevolent Gladiator's Copperskin Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84873, "", "=q4=Malevolent Gladiator's Copperskin Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#arenas11_2#", "=q5="};
-				{ 17, 84549, "", "=q3=Dreadful Gladiator's Copperskin Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84552, "", "=q3=Dreadful Gladiator's Copperskin Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84551, "", "=q3=Dreadful Gladiator's Copperskin Tunic", "=ds=", "#HONOR:2200#"};
-				{ 20, 84548, "", "=q3=Dreadful Gladiator's Copperskin Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84550, "", "=q3=Dreadful Gladiator's Copperskin Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84549, "", "=q3=Dreadful Gladiator's Copperskin Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84552, "", "=q3=Dreadful Gladiator's Copperskin Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84551, "", "=q3=Dreadful Gladiator's Copperskin Tunic", "=ds=", "#HONOR:2250#"};
+				{ 20, 84548, "", "=q3=Dreadful Gladiator's Copperskin Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84550, "", "=q3=Dreadful Gladiator's Copperskin Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3854,23 +3854,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#arenas11_1#", "=q5="};
-				{ 2, 85033, "", "=q4=Malevolent Gladiator's Ironskin Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85087, "", "=q4=Malevolent Gladiator's Ironskin Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85066, "", "=q4=Malevolent Gladiator's Ironskin Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85018, "", "=q4=Malevolent Gladiator's Ironskin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85064, "", "=q4=Malevolent Gladiator's Ironskin Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85033, "", "=q4=Malevolent Gladiator's Ironskin Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85087, "", "=q4=Malevolent Gladiator's Ironskin Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85066, "", "=q4=Malevolent Gladiator's Ironskin Tunic", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85018, "", "=q4=Malevolent Gladiator's Ironskin Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85064, "", "=q4=Malevolent Gladiator's Ironskin Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#arenas11_1#", "=q5="};
-				{ 9, 84857, "", "=q4=Malevolent Gladiator's Ironskin Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84919, "", "=q4=Malevolent Gladiator's Ironskin Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84902, "", "=q4=Malevolent Gladiator's Ironskin Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84839, "", "=q4=Malevolent Gladiator's Ironskin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84877, "", "=q4=Malevolent Gladiator's Ironskin Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84857, "", "=q4=Malevolent Gladiator's Ironskin Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84919, "", "=q4=Malevolent Gladiator's Ironskin Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84902, "", "=q4=Malevolent Gladiator's Ironskin Tunic", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84839, "", "=q4=Malevolent Gladiator's Ironskin Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84877, "", "=q4=Malevolent Gladiator's Ironskin Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#arenas11_1#", "=q5="};
-				{ 17, 84544, "", "=q3=Dreadful Gladiator's Ironskin Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84547, "", "=q3=Dreadful Gladiator's Ironskin Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84546, "", "=q3=Dreadful Gladiator's Ironskin Tunic", "=ds=", "#HONOR:2200#"};
-				{ 20, 84543, "", "=q3=Dreadful Gladiator's Ironskin Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84545, "", "=q3=Dreadful Gladiator's Ironskin Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84544, "", "=q3=Dreadful Gladiator's Ironskin Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84547, "", "=q3=Dreadful Gladiator's Ironskin Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84546, "", "=q3=Dreadful Gladiator's Ironskin Tunic", "=ds=", "#HONOR:2250#"};
+				{ 20, 84543, "", "=q3=Dreadful Gladiator's Ironskin Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84545, "", "=q3=Dreadful Gladiator's Ironskin Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3883,23 +3883,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="};
-				{ 2, 85044, "", "=q4=Malevolent Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85091, "", "=q4=Malevolent Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84992, "", "=q4=Malevolent Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85027, "", "=q4=Malevolent Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85057, "", "=q4=Malevolent Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85044, "", "=q4=Malevolent Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85091, "", "=q4=Malevolent Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84992, "", "=q4=Malevolent Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85027, "", "=q4=Malevolent Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85057, "", "=q4=Malevolent Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="};
-				{ 9, 84851, "", "=q4=Malevolent Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84915, "", "=q4=Malevolent Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84794, "", "=q4=Malevolent Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84834, "", "=q4=Malevolent Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84870, "", "=q4=Malevolent Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84851, "", "=q4=Malevolent Gladiator's Scaled Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84915, "", "=q4=Malevolent Gladiator's Scaled Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84794, "", "=q4=Malevolent Gladiator's Scaled Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84834, "", "=q4=Malevolent Gladiator's Scaled Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84870, "", "=q4=Malevolent Gladiator's Scaled Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", "=q5="};
-				{ 17, 84420, "", "=q3=Dreadful Gladiator's Scaled Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84422, "", "=q3=Dreadful Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84418, "", "=q3=Dreadful Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 20, 84419, "", "=q3=Dreadful Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84421, "", "=q3=Dreadful Gladiator's Scaled Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84420, "", "=q3=Dreadful Gladiator's Scaled Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84422, "", "=q3=Dreadful Gladiator's Scaled Shoulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84418, "", "=q3=Dreadful Gladiator's Scaled Chestpiece", "=ds=", "#HONOR:2250#"};
+				{ 20, 84419, "", "=q3=Dreadful Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84421, "", "=q3=Dreadful Gladiator's Scaled Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3912,23 +3912,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="};
-				{ 2, 85042, "", "=q4=Malevolent Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85090, "", "=q4=Malevolent Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84991, "", "=q4=Malevolent Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85024, "", "=q4=Malevolent Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85056, "", "=q4=Malevolent Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85042, "", "=q4=Malevolent Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85090, "", "=q4=Malevolent Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84991, "", "=q4=Malevolent Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85024, "", "=q4=Malevolent Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85056, "", "=q4=Malevolent Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="};
-				{ 9, 84849, "", "=q4=Malevolent Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84914, "", "=q4=Malevolent Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84793, "", "=q4=Malevolent Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84831, "", "=q4=Malevolent Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84869, "", "=q4=Malevolent Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84849, "", "=q4=Malevolent Gladiator's Ornamented Headcover", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84914, "", "=q4=Malevolent Gladiator's Ornamented Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84793, "", "=q4=Malevolent Gladiator's Ornamented Chestguard", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84831, "", "=q4=Malevolent Gladiator's Ornamented Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84869, "", "=q4=Malevolent Gladiator's Ornamented Legplates", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", "=q5="};
-				{ 17, 84431, "", "=q3=Dreadful Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2200#"};
-				{ 18, 84433, "", "=q3=Dreadful Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84429, "", "=q3=Dreadful Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2200#"};
-				{ 20, 84430, "", "=q3=Dreadful Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84432, "", "=q3=Dreadful Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2200#"};
+				{ 17, 84431, "", "=q3=Dreadful Gladiator's Ornamented Headcover", "=ds=", "#HONOR:2250#"};
+				{ 18, 84433, "", "=q3=Dreadful Gladiator's Ornamented Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84429, "", "=q3=Dreadful Gladiator's Ornamented Chestguard", "=ds=", "#HONOR:2250#"};
+				{ 20, 84430, "", "=q3=Dreadful Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84432, "", "=q3=Dreadful Gladiator's Ornamented Legplates", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3941,23 +3941,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="};
-				{ 2, 85040, "", "=q4=Malevolent Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85074, "", "=q4=Malevolent Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85073, "", "=q4=Malevolent Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85017, "", "=q4=Malevolent Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85053, "", "=q4=Malevolent Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85040, "", "=q4=Malevolent Gladiator's Satin Hood", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85074, "", "=q4=Malevolent Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85073, "", "=q4=Malevolent Gladiator's Satin Robe", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85017, "", "=q4=Malevolent Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85053, "", "=q4=Malevolent Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="};
-				{ 9, 84864, "", "=q4=Malevolent Gladiator's Satin Hood", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84929, "", "=q4=Malevolent Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84909, "", "=q4=Malevolent Gladiator's Satin Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84838, "", "=q4=Malevolent Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84884, "", "=q4=Malevolent Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84864, "", "=q4=Malevolent Gladiator's Satin Hood", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84929, "", "=q4=Malevolent Gladiator's Satin Mantle", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84909, "", "=q4=Malevolent Gladiator's Satin Robe", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84838, "", "=q4=Malevolent Gladiator's Satin Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84884, "", "=q4=Malevolent Gladiator's Satin Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", "=q5="};
-				{ 17, 84446, "", "=q3=Dreadful Gladiator's Satin Hood", "=ds=", "#HONOR:2200#"};
-				{ 18, 84449, "", "=q3=Dreadful Gladiator's Satin Mantle", "=ds=", "#HONOR:1650#"};
-				{ 19, 84448, "", "=q3=Dreadful Gladiator's Satin Robe", "=ds=", "#HONOR:2200#"};
-				{ 20, 84445, "", "=q3=Dreadful Gladiator's Satin Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84447, "", "=q3=Dreadful Gladiator's Satin Leggings", "=ds=", "#HONOR:2200#"};
+				{ 17, 84446, "", "=q3=Dreadful Gladiator's Satin Hood", "=ds=", "#HONOR:2250#"};
+				{ 18, 84449, "", "=q3=Dreadful Gladiator's Satin Mantle", "=ds=", "#HONOR:1750#"};
+				{ 19, 84448, "", "=q3=Dreadful Gladiator's Satin Robe", "=ds=", "#HONOR:2250#"};
+				{ 20, 84445, "", "=q3=Dreadful Gladiator's Satin Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84447, "", "=q3=Dreadful Gladiator's Satin Leggings", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3970,23 +3970,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="};
-				{ 2, 85039, "", "=q4=Malevolent Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85083, "", "=q4=Malevolent Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85072, "", "=q4=Malevolent Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85013, "", "=q4=Malevolent Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85052, "", "=q4=Malevolent Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85039, "", "=q4=Malevolent Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85083, "", "=q4=Malevolent Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85072, "", "=q4=Malevolent Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85013, "", "=q4=Malevolent Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85052, "", "=q4=Malevolent Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="};
-				{ 9, 84863, "", "=q4=Malevolent Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84928, "", "=q4=Malevolent Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84908, "", "=q4=Malevolent Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84846, "", "=q4=Malevolent Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84883, "", "=q4=Malevolent Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84863, "", "=q4=Malevolent Gladiator's Mooncloth Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84928, "", "=q4=Malevolent Gladiator's Mooncloth Mantle", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84908, "", "=q4=Malevolent Gladiator's Mooncloth Robe", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84846, "", "=q4=Malevolent Gladiator's Mooncloth Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84883, "", "=q4=Malevolent Gladiator's Mooncloth Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_holy_powerwordshield", "=q6=#arenas5_2#", "=q5="};
-				{ 17, 84441, "", "=q3=Dreadful Gladiator's Mooncloth Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84444, "", "=q3=Dreadful Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1650#"};
-				{ 19, 84443, "", "=q3=Dreadful Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2200#"};
-				{ 20, 84440, "", "=q3=Dreadful Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84442, "", "=q3=Dreadful Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2200#"};
+				{ 17, 84441, "", "=q3=Dreadful Gladiator's Mooncloth Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84444, "", "=q3=Dreadful Gladiator's Mooncloth Mantle", "=ds=", "#HONOR:1750#"};
+				{ 19, 84443, "", "=q3=Dreadful Gladiator's Mooncloth Robe", "=ds=", "#HONOR:2250#"};
+				{ 20, 84440, "", "=q3=Dreadful Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84442, "", "=q3=Dreadful Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -3999,23 +3999,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="};
-				{ 2, 85041, "", "=q4=Malevolent Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85089, "", "=q4=Malevolent Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84995, "", "=q4=Malevolent Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85023, "", "=q4=Malevolent Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85055, "", "=q4=Malevolent Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85041, "", "=q4=Malevolent Gladiator's Leather Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85089, "", "=q4=Malevolent Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84995, "", "=q4=Malevolent Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85023, "", "=q4=Malevolent Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85055, "", "=q4=Malevolent Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="};
-				{ 9, 84848, "", "=q4=Malevolent Gladiator's Leather Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84913, "", "=q4=Malevolent Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84792, "", "=q4=Malevolent Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84830, "", "=q4=Malevolent Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84868, "", "=q4=Malevolent Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84848, "", "=q4=Malevolent Gladiator's Leather Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84913, "", "=q4=Malevolent Gladiator's Leather Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84792, "", "=q4=Malevolent Gladiator's Leather Tunic", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84830, "", "=q4=Malevolent Gladiator's Leather Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84868, "", "=q4=Malevolent Gladiator's Leather Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", "=q5="};
-				{ 17, 84464, "", "=q3=Dreadful Gladiator's Leather Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84466, "", "=q3=Dreadful Gladiator's Leather Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84462, "", "=q3=Dreadful Gladiator's Leather Tunic", "=ds=", "#HONOR:2200#"};
-				{ 20, 84463, "", "=q3=Dreadful Gladiator's Leather Gloves", "=ds=", "#HONOR:1650#"};
-				{ 21, 84465, "", "=q3=Dreadful Gladiator's Leather Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84464, "", "=q3=Dreadful Gladiator's Leather Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84466, "", "=q3=Dreadful Gladiator's Leather Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84462, "", "=q3=Dreadful Gladiator's Leather Tunic", "=ds=", "#HONOR:2250#"};
+				{ 20, 84463, "", "=q3=Dreadful Gladiator's Leather Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 84465, "", "=q3=Dreadful Gladiator's Leather Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -4028,23 +4028,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
-				{ 2, 85036, "", "=q4=Malevolent Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85079, "", "=q4=Malevolent Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84988, "", "=q4=Malevolent Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85012, "", "=q4=Malevolent Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85048, "", "=q4=Malevolent Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85036, "", "=q4=Malevolent Gladiator's Mail Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85079, "", "=q4=Malevolent Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84988, "", "=q4=Malevolent Gladiator's Mail Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85012, "", "=q4=Malevolent Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85048, "", "=q4=Malevolent Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
-				{ 9, 84860, "", "=q4=Malevolent Gladiator's Mail Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84924, "", "=q4=Malevolent Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84798, "", "=q4=Malevolent Gladiator's Mail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84845, "", "=q4=Malevolent Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84879, "", "=q4=Malevolent Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84860, "", "=q4=Malevolent Gladiator's Mail Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84924, "", "=q4=Malevolent Gladiator's Mail Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84798, "", "=q4=Malevolent Gladiator's Mail Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84845, "", "=q4=Malevolent Gladiator's Mail Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84879, "", "=q4=Malevolent Gladiator's Mail Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", "=q5="};
-				{ 17, 84485, "", "=q3=Dreadful Gladiator's Mail Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84487, "", "=q3=Dreadful Gladiator's Mail Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84483, "", "=q3=Dreadful Gladiator's Mail Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 84484, "", "=q3=Dreadful Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84486, "", "=q3=Dreadful Gladiator's Mail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 17, 84485, "", "=q3=Dreadful Gladiator's Mail Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84487, "", "=q3=Dreadful Gladiator's Mail Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84483, "", "=q3=Dreadful Gladiator's Mail Armor", "=ds=", "#HONOR:2250#"};
+				{ 20, 84484, "", "=q3=Dreadful Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84486, "", "=q3=Dreadful Gladiator's Mail Leggings", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -4057,23 +4057,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="};
-				{ 2, 85038, "", "=q4=Malevolent Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85081, "", "=q4=Malevolent Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84989, "", "=q4=Malevolent Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85011, "", "=q4=Malevolent Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85050, "", "=q4=Malevolent Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85038, "", "=q4=Malevolent Gladiator's Linked Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85081, "", "=q4=Malevolent Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84989, "", "=q4=Malevolent Gladiator's Linked Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85011, "", "=q4=Malevolent Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85050, "", "=q4=Malevolent Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="};
-				{ 9, 84862, "", "=q4=Malevolent Gladiator's Linked Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84926, "", "=q4=Malevolent Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84799, "", "=q4=Malevolent Gladiator's Linked Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84844, "", "=q4=Malevolent Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84881, "", "=q4=Malevolent Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84862, "", "=q4=Malevolent Gladiator's Linked Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84926, "", "=q4=Malevolent Gladiator's Linked Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84799, "", "=q4=Malevolent Gladiator's Linked Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84844, "", "=q4=Malevolent Gladiator's Linked Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84881, "", "=q4=Malevolent Gladiator's Linked Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", "=q5="};
-				{ 17, 84479, "", "=q3=Dreadful Gladiator's Linked Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84481, "", "=q3=Dreadful Gladiator's Linked Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84477, "", "=q3=Dreadful Gladiator's Linked Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 84478, "", "=q3=Dreadful Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84480, "", "=q3=Dreadful Gladiator's Linked Leggings", "=ds=", "#HONOR:2200#"};
+				{ 17, 84479, "", "=q3=Dreadful Gladiator's Linked Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84481, "", "=q3=Dreadful Gladiator's Linked Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84477, "", "=q3=Dreadful Gladiator's Linked Armor", "=ds=", "#HONOR:2250#"};
+				{ 20, 84478, "", "=q3=Dreadful Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84480, "", "=q3=Dreadful Gladiator's Linked Leggings", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -4086,23 +4086,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="};
-				{ 2, 85029, "", "=q4=Malevolent Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85075, "", "=q4=Malevolent Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84990, "", "=q4=Malevolent Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85014, "", "=q4=Malevolent Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85054, "", "=q4=Malevolent Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85029, "", "=q4=Malevolent Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85075, "", "=q4=Malevolent Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84990, "", "=q4=Malevolent Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85014, "", "=q4=Malevolent Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85054, "", "=q4=Malevolent Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="};
-				{ 9, 84865, "", "=q4=Malevolent Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84930, "", "=q4=Malevolent Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84800, "", "=q4=Malevolent Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84847, "", "=q4=Malevolent Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84885, "", "=q4=Malevolent Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84865, "", "=q4=Malevolent Gladiator's Ringmail Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84930, "", "=q4=Malevolent Gladiator's Ringmail Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84800, "", "=q4=Malevolent Gladiator's Ringmail Armor", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84847, "", "=q4=Malevolent Gladiator's Ringmail Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84885, "", "=q4=Malevolent Gladiator's Ringmail Leggings", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", "=q5="};
-				{ 17, 84474, "", "=q3=Dreadful Gladiator's Ringmail Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84476, "", "=q3=Dreadful Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84472, "", "=q3=Dreadful Gladiator's Ringmail Armor", "=ds=", "#HONOR:2200#"};
-				{ 20, 84473, "", "=q3=Dreadful Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84475, "", "=q3=Dreadful Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2200#"};
+				{ 17, 84474, "", "=q3=Dreadful Gladiator's Ringmail Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84476, "", "=q3=Dreadful Gladiator's Ringmail Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84472, "", "=q3=Dreadful Gladiator's Ringmail Armor", "=ds=", "#HONOR:2250#"};
+				{ 20, 84473, "", "=q3=Dreadful Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84475, "", "=q3=Dreadful Gladiator's Ringmail Leggings", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -4115,23 +4115,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="};
-				{ 2, 85035, "", "=q4=Malevolent Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85078, "", "=q4=Malevolent Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 85069, "", "=q4=Malevolent Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85021, "", "=q4=Malevolent Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85047, "", "=q4=Malevolent Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85035, "", "=q4=Malevolent Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85078, "", "=q4=Malevolent Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 85069, "", "=q4=Malevolent Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85021, "", "=q4=Malevolent Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85047, "", "=q4=Malevolent Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="};
-				{ 9, 84859, "", "=q4=Malevolent Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84923, "", "=q4=Malevolent Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84905, "", "=q4=Malevolent Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84842, "", "=q4=Malevolent Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84878, "", "=q4=Malevolent Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84859, "", "=q4=Malevolent Gladiator's Felweave Cowl", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84923, "", "=q4=Malevolent Gladiator's Felweave Amice", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84905, "", "=q4=Malevolent Gladiator's Felweave Raiment", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84842, "", "=q4=Malevolent Gladiator's Felweave Handguards", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84878, "", "=q4=Malevolent Gladiator's Felweave Trousers", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", "=q5="};
-				{ 17, 84500, "", "=q3=Dreadful Gladiator's Felweave Cowl", "=ds=", "#HONOR:2200#"};
-				{ 18, 84503, "", "=q3=Dreadful Gladiator's Felweave Amice", "=ds=", "#HONOR:1650#"};
-				{ 19, 84502, "", "=q3=Dreadful Gladiator's Felweave Raiment", "=ds=", "#HONOR:2200#"};
-				{ 20, 84499, "", "=q3=Dreadful Gladiator's Felweave Handguards", "=ds=", "#HONOR:1650#"};
-				{ 21, 84501, "", "=q3=Dreadful Gladiator's Felweave Trousers", "=ds=", "#HONOR:2200#"};
+				{ 17, 84500, "", "=q3=Dreadful Gladiator's Felweave Cowl", "=ds=", "#HONOR:2250#"};
+				{ 18, 84503, "", "=q3=Dreadful Gladiator's Felweave Amice", "=ds=", "#HONOR:1750#"};
+				{ 19, 84502, "", "=q3=Dreadful Gladiator's Felweave Raiment", "=ds=", "#HONOR:2250#"};
+				{ 20, 84499, "", "=q3=Dreadful Gladiator's Felweave Handguards", "=ds=", "#HONOR:1750#"};
+				{ 21, 84501, "", "=q3=Dreadful Gladiator's Felweave Trousers", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -4144,23 +4144,23 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="};
-				{ 2, 85032, "", "=q4=Malevolent Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 3, 85077, "", "=q4=Malevolent Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 4, 84987, "", "=q4=Malevolent Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 5, 85019, "", "=q4=Malevolent Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 6, 85063, "", "=q4=Malevolent Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 2, 85032, "", "=q4=Malevolent Gladiator's Plate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 85077, "", "=q4=Malevolent Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 84987, "", "=q4=Malevolent Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 85019, "", "=q4=Malevolent Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85063, "", "=q4=Malevolent Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="};
-				{ 9, 84856, "", "=q4=Malevolent Gladiator's Plate Helm", "=ds=", "#CONQUEST:2200#"};
-				{ 10, 84922, "", "=q4=Malevolent Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84797, "", "=q4=Malevolent Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2200#"};
-				{ 12, 84840, "", "=q4=Malevolent Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84876, "", "=q4=Malevolent Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2200#"};
+				{ 9, 84856, "", "=q4=Malevolent Gladiator's Plate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 84922, "", "=q4=Malevolent Gladiator's Plate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84797, "", "=q4=Malevolent Gladiator's Plate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 84840, "", "=q4=Malevolent Gladiator's Plate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 84876, "", "=q4=Malevolent Gladiator's Plate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "ability_warrior_savageblow", "=q6=#arenas9#", "=q5="};
-				{ 17, 84506, "", "=q3=Dreadful Gladiator's Plate Helm", "=ds=", "#HONOR:2200#"};
-				{ 18, 84508, "", "=q3=Dreadful Gladiator's Plate Shoulders", "=ds=", "#HONOR:1650#"};
-				{ 19, 84504, "", "=q3=Dreadful Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2200#"};
-				{ 20, 84505, "", "=q3=Dreadful Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1650#"};
-				{ 21, 84507, "", "=q3=Dreadful Gladiator's Plate Legguards", "=ds=", "#HONOR:2200#"};
+				{ 17, 84506, "", "=q3=Dreadful Gladiator's Plate Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 84508, "", "=q3=Dreadful Gladiator's Plate Shoulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 84504, "", "=q3=Dreadful Gladiator's Plate Chestpiece", "=ds=", "#HONOR:2250#"};
+				{ 20, 84505, "", "=q3=Dreadful Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 84507, "", "=q3=Dreadful Gladiator's Plate Legguards", "=ds=", "#HONOR:2250#"};
 			};
 		};
 		info = {
@@ -4199,6 +4199,29 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 84888, "", "=q4=Malevolent Gladiator's Pendant of Meditation", "=ds=#s2#", "#CONQUEST:1250#"},
 			};
 			{
+				{ 2, 84934, "", "=q4=Malevolent Gladiator's Badge of Conquest", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 3, 84940, "", "=q4=Malevolent Gladiator's Badge of Dominance", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 4, 84942, "", "=q4=Malevolent Gladiator's Badge of Victory", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 6, 84936, "", "=q4=Malevolent Gladiator's Emblem of Cruelty", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 7, 84939, "", "=q4=Malevolent Gladiator's Emblem of Meditation", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 8, 84938, "", "=q4=Malevolent Gladiator's Emblem of Tenacity", "=ds=#s14#", "#CONQUEST:1750#" },
+				{
+					{ 17, 84944, "", "=q4=Malevolent Gladiator's Medallion of Cruelty", "=ds=#s14#", "#CONQUEST:1750#" },
+					{ 17, 84943, "", "=q4=Malevolent Gladiator's Medallion of Cruelty", "=ds=#s14#", "#CONQUEST:1750#" },
+				};
+				{
+					{ 18, 84933, "", "=q4=Malevolent Gladiator's Medallion of Meditation", "=ds=#s14#", "#CONQUEST:1750#" },
+					{ 18, 84932, "", "=q4=Malevolent Gladiator's Medallion of Meditation", "=ds=#s14#", "#CONQUEST:1750#" },
+				};
+				{
+					{ 19, 84931, "", "=q4=Malevolent Gladiator's Medallion of Tenacity", "=ds=#s14#", "#CONQUEST:1750#" },
+					{ 19, 84945, "", "=q4=Malevolent Gladiator's Medallion of Tenacity", "=ds=#s14#", "#CONQUEST:1750#" },
+				};
+				{ 21, 84935, "", "=q4=Malevolent Gladiator's Insignia of Conquest", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 22, 84941, "", "=q4=Malevolent Gladiator's Insignia of Dominance", "=ds=#s14#", "#CONQUEST:1750#" },
+				{ 23, 84937, "", "=q4=Malevolent Gladiator's Insignia of Victory", "=ds=#s14#", "#CONQUEST:1750#" },
+			};
+			{
 				{ 1, 84345, "", "=q3=Dreadful Gladiator's Cape of Cruelty", "=ds=#s4#", "#HONOR:1250#"},
 				{ 2, 84346, "", "=q3=Dreadful Gladiator's Cape of Prowess", "=ds=#s4#", "#HONOR:1250#"},
 				{ 3, 84491, "", "=q3=Dreadful Gladiator's Cloak of Alacrity", "=ds=#s4#", "#HONOR:1250#"},
@@ -4221,6 +4244,29 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 84366, "", "=q3=Dreadful Gladiator's Pendant of Cruelty", "=ds=#s2#", "#HONOR:1250#"},
 				{ 22, 84367, "", "=q3=Dreadful Gladiator's Pendant of Meditation", "=ds=#s2#", "#HONOR:1250#"},
 			};
+			{
+				{ 2, 84344, "", "=q3=Dreadful Gladiator's Badge of Conquest", "=ds=#s14#", "#HONOR:1750#" },
+				{ 3, 84488, "", "=q3=Dreadful Gladiator's Badge of Dominance", "=ds=#s14#", "#HONOR:1750#" },
+				{ 4, 84490, "", "=q3=Dreadful Gladiator's Badge of Victory", "=ds=#s14#", "#HONOR:1750#" },
+				{ 6, 84399, "", "=q3=Dreadful Gladiator's Emblem of Cruelty", "=ds=#s14#", "#HONOR:1750#" },
+				{ 7, 84401, "", "=q3=Dreadful Gladiator's Emblem of Meditation", "=ds=#s14#", "#HONOR:1750#" },
+				{ 8, 84400, "", "=q3=Dreadful Gladiator's Emblem of Tenacity", "=ds=#s14#", "#HONOR:1750#" },
+				{
+					{ 17, 84451, "", "=q3=Dreadful Gladiator's Medallion of Cruelty", "=ds=#s14#", "#HONOR:1750#" },
+					{ 17, 84450, "", "=q3=Dreadful Gladiator's Medallion of Cruelty", "=ds=#s14#", "#HONOR:1750#" },
+				};
+				{
+					{ 18, 84455, "", "=q3=Dreadful Gladiator's Medallion of Meditation", "=ds=#s14#", "#HONOR:1750#" },
+					{ 18, 84454, "", "=q3=Dreadful Gladiator's Medallion of Meditation", "=ds=#s14#", "#HONOR:1750#" },
+				};
+				{
+					{ 19, 84453, "", "=q3=Dreadful Gladiator's Medallion of Tenacity", "=ds=#s14#", "#HONOR:1750#" },
+					{ 19, 84452, "", "=q3=Dreadful Gladiator's Medallion of Tenacity", "=ds=#s14#", "#HONOR:1750#" },
+				};
+				{ 21, 84349, "", "=q3=Malevolent Gladiator's Insignia of Conquest", "=ds=#s14#", "#HONOR:1750#" },
+				{ 22, 84489, "", "=q3=Malevolent Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1750#" },
+				{ 23, 84495, "", "=q3=Malevolent Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1750#" },
+			};
 		};
 		info = {
 			name = AL["PvP Accessories"],
@@ -4235,105 +4281,147 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PVP90NonSet"] = {
 		["Normal"] = {
 			{
-				{ 1, 84977, "", "=q4=Malevolent Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
-				{ 2, 84955, "", "=q4=Malevolent Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1650#"};
-				{ 3, 84815, "", "=q4=Malevolent Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 5, 84979, "", "=q4=Malevolent Gladiator's Cuffs of Meditation", "=ds=", "#CONQUEST:1250#"};
-				{ 6, 84956, "", "=q4=Malevolent Gladiator's Cord of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 7, 84816, "", "=q4=Malevolent Gladiator's Treads of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 9, 84978, "", "=q4=Malevolent Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
-				{ 10, 84954, "", "=q4=Malevolent Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84814, "", "=q4=Malevolent Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84359, "", "=q3=Dreadful Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 17, 84354, "", "=q3=Dreadful Gladiator's Cord of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 18, 84357, "", "=q3=Dreadful Gladiator's Treads of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 20, 84361, "", "=q3=Dreadful Gladiator's Cuffs of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 21, 84355, "", "=q3=Dreadful Gladiator's Cord of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 22, 84358, "", "=q3=Dreadful Gladiator's Treads of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 24, 84360, "", "=q3=Dreadful Gladiator's Cuffs of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 25, 84353, "", "=q3=Dreadful Gladiator's Cord of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84356, "", "=q3=Dreadful Gladiator's Treads of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 2, 85093, "", "=q4=Malevolent Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 3, 85005, "", "=q4=Malevolent Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85094, "", "=q4=Malevolent Gladiator's Cord of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 7, 85006, "", "=q4=Malevolent Gladiator's Treads of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 10, 85092, "", "=q4=Malevolent Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 85004, "", "=q4=Malevolent Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 16, 84977, "", "=q4=Malevolent Gladiator's Cuffs of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 84955, "", "=q4=Malevolent Gladiator's Cord of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 84815, "", "=q4=Malevolent Gladiator's Treads of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 84979, "", "=q4=Malevolent Gladiator's Cuffs of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 84956, "", "=q4=Malevolent Gladiator's Cord of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 84816, "", "=q4=Malevolent Gladiator's Treads of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 84978, "", "=q4=Malevolent Gladiator's Cuffs of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 84954, "", "=q4=Malevolent Gladiator's Cord of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 84814, "", "=q4=Malevolent Gladiator's Treads of Cruelty", "=ds=", "#CONQUEST:1750#"};
 				extraText = ": "..BabbleInventory["Cloth"];
 			};
 			{
-				{ 1, 84973, "", "=q4=Malevolent Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
-				{ 2, 84948, "", "=q4=Malevolent Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1650#"};
-				{ 3, 84808, "", "=q4=Malevolent Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 5, 84972, "", "=q4=Malevolent Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1250#"};
-				{ 6, 84947, "", "=q4=Malevolent Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 7, 84809, "", "=q4=Malevolent Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 9, 84982, "", "=q4=Malevolent Gladiator's Bindings of Prowess", "=ds=", "#CONQUEST:1250#"};
-				{ 10, 84960, "", "=q4=Malevolent Gladiator's Belt of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84819, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84976, "", "=q4=Malevolent Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
-				{ 14, 84953, "", "=q4=Malevolent Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 15, 84813, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84461, "", "=q3=Dreadful Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 17, 84457, "", "=q3=Dreadful Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 18, 84458, "", "=q3=Dreadful Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 20, 84460, "", "=q3=Dreadful Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1250#"};
-				{ 21, 84456, "", "=q3=Dreadful Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 22, 84459, "", "=q3=Dreadful Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 24, 84392, "", "=q3=Dreadful Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 25, 84390, "", "=q3=Dreadful Gladiator's Belt of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84391, "", "=q3=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 28, 84384, "", "=q3=Dreadful Gladiator's Bindings of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 29, 84382, "", "=q3=Dreadful Gladiator's Belt of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 30, 84383, "", "=q3=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
+				{ 1, 84359, "", "=q3=Dreadful Gladiator's Cuffs of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 2, 84354, "", "=q3=Dreadful Gladiator's Cord of Accuracy", "=ds=", "#HONOR:1750#"};
+				{ 3, 84357, "", "=q3=Dreadful Gladiator's Treads of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 5, 84361, "", "=q3=Dreadful Gladiator's Cuffs of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 6, 84355, "", "=q3=Dreadful Gladiator's Cord of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 7, 84358, "", "=q3=Dreadful Gladiator's Treads of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 9, 84360, "", "=q3=Dreadful Gladiator's Cuffs of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 10, 84353, "", "=q3=Dreadful Gladiator's Cord of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 11, 84356, "", "=q3=Dreadful Gladiator's Treads of Cruelty", "=ds=", "#HONOR:1750#"};
+				extraText = ": "..BabbleInventory["Cloth"];
+			};
+			{
+				{ 2, 85101, "", "=q4=Malevolent Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 3, 85009, "", "=q4=Malevolent Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85100, "", "=q4=Malevolent Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 7, 85010, "", "=q4=Malevolent Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 10, 85098, "", "=q4=Malevolent Gladiator's Belt of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84996, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 14, 85106, "", "=q4=Malevolent Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 15, 85003, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 16, 84973, "", "=q4=Malevolent Gladiator's Armwraps of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 84948, "", "=q4=Malevolent Gladiator's Waistband of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 84808, "", "=q4=Malevolent Gladiator's Boots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 84972, "", "=q4=Malevolent Gladiator's Armwraps of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 84947, "", "=q4=Malevolent Gladiator's Waistband of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 84809, "", "=q4=Malevolent Gladiator's Boots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 84982, "", "=q4=Malevolent Gladiator's Bindings of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 84960, "", "=q4=Malevolent Gladiator's Belt of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 84819, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 84976, "", "=q4=Malevolent Gladiator's Bindings of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 29, 84953, "", "=q4=Malevolent Gladiator's Belt of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 84813, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
 				extraText = ": "..BabbleInventory["Leather"];
 			};
 			{
-				{ 1, 84984, "", "=q4=Malevolent Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
-				{ 2, 84946, "", "=q4=Malevolent Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 3, 84821, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 5, 84983, "", "=q4=Malevolent Gladiator's Armbands of Prowess", "=ds=", "#CONQUEST:1250#"};
-				{ 6, 84959, "", "=q4=Malevolent Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 7, 84820, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 9, 84980, "", "=q4=Malevolent Gladiator's Wristguards of Alacrity", "=ds=", "#CONQUEST:1250#"};
-				{ 10, 84958, "", "=q4=Malevolent Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84818, "", "=q4=Malevolent Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84981, "", "=q4=Malevolent Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
-				{ 14, 84957, "", "=q4=Malevolent Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1650#"};
-				{ 15, 84817, "", "=q4=Malevolent Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84471, "", "=q3=Dreadful Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 17, 84467, "", "=q3=Dreadful Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 18, 84469, "", "=q3=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 20, 84470, "", "=q3=Dreadful Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 21, 84482, "", "=q3=Dreadful Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 22, 84468, "", "=q3=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 24, 84406, "", "=q3=Dreadful Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
-				{ 25, 84402, "", "=q3=Dreadful Gladiator's Links of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84405, "", "=q3=Dreadful Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 28, 84407, "", "=q3=Dreadful Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
-				{ 29, 84403, "", "=q3=Dreadful Gladiator's Links of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 30, 84404, "", "=q3=Dreadful Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1650#"};
+				{ 1, 84461, "", "=q3=Dreadful Gladiator's Armwraps of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 2, 84457, "", "=q3=Dreadful Gladiator's Waistband of Accuracy", "=ds=", "#HONOR:1750#"};
+				{ 3, 84458, "", "=q3=Dreadful Gladiator's Boots of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 5, 84460, "", "=q3=Dreadful Gladiator's Armwraps of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 6, 84456, "", "=q3=Dreadful Gladiator's Waistband of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 7, 84459, "", "=q3=Dreadful Gladiator's Boots of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 9, 84392, "", "=q3=Dreadful Gladiator's Bindings of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 10, 84390, "", "=q3=Dreadful Gladiator's Belt of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 11, 84391, "", "=q3=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 13, 84384, "", "=q3=Dreadful Gladiator's Bindings of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 14, 84382, "", "=q3=Dreadful Gladiator's Belt of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 15, 84383, "", "=q3=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1750#"};
+				extraText = ": "..BabbleInventory["Leather"];
+			};
+			{
+				{ 2, 85099, "", "=q4=Malevolent Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 3, 84998, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85097, "", "=q4=Malevolent Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 7, 84997, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 10, 85096, "", "=q4=Malevolent Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 85008, "", "=q4=Malevolent Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 14, 85095, "", "=q4=Malevolent Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 15, 85007, "", "=q4=Malevolent Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 16, 84984, "", "=q4=Malevolent Gladiator's Armbands of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 84946, "", "=q4=Malevolent Gladiator's Waistguard of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 84821, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 84983, "", "=q4=Malevolent Gladiator's Armbands of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 84959, "", "=q4=Malevolent Gladiator's Waistguard of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 84820, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 84980, "", "=q4=Malevolent Gladiator's Wristguards of Alacrity", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 84958, "", "=q4=Malevolent Gladiator's Links of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 84818, "", "=q4=Malevolent Gladiator's Sabatons of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 84981, "", "=q4=Malevolent Gladiator's Wristguards of Accuracy", "=ds=", "#CONQUEST:1250#"};
+				{ 29, 84957, "", "=q4=Malevolent Gladiator's Links of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 84817, "", "=q4=Malevolent Gladiator's Sabatons of Cruelty", "=ds=", "#CONQUEST:1750#"};
 				extraText = ": "..BabbleInventory["Mail"];
 			};
 			{
-				{ 1, 84975, "", "=q4=Malevolent Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
-				{ 2, 84952, "", "=q4=Malevolent Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 3, 84812, "", "=q4=Malevolent Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1650#"};
-				{ 5, 84985, "", "=q4=Malevolent Gladiator's Armplates of Proficiency", "=ds=", "#CONQUEST:1250#"};
-				{ 6, 84949, "", "=q4=Malevolent Gladiator's Girdle of Accuracy", "=ds=", "#CONQUEST:1650#"};
-				{ 7, 84810, "", "=q4=Malevolent Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 9, 84974, "", "=q4=Malevolent Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
-				{ 10, 84951, "", "=q4=Malevolent Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1650#"};
-				{ 11, 84811, "", "=q4=Malevolent Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 13, 84986, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
-				{ 14, 84950, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1650#"};
-				{ 15, 84822, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1650#"};
-				{ 16, 84428, "", "=q3=Dreadful Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
-				{ 17, 84424, "", "=q3=Dreadful Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 18, 84426, "", "=q3=Dreadful Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1650#"};
-				{ 20, 84438, "", "=q3=Dreadful Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
-				{ 21, 84434, "", "=q3=Dreadful Gladiator's Girdle of Accuracy", "=ds=", "#HONOR:1650#"};
-				{ 22, 84436, "", "=q3=Dreadful Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 24, 84427, "", "=q3=Dreadful Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
-				{ 25, 84423, "", "=q3=Dreadful Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1650#"};
-				{ 26, 84425, "", "=q3=Dreadful Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1650#"};
-				{ 28, 84439, "", "=q3=Dreadful Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};	
-				{ 29, 84435, "", "=q3=Dreadful Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1650#"};
-				{ 30, 84437, "", "=q3=Dreadful Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1650#"};
+				{ 1, 84471, "", "=q3=Dreadful Gladiator's Armbands of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 2, 84467, "", "=q3=Dreadful Gladiator's Waistguard of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 3, 84469, "", "=q3=Dreadful Gladiator's Footguards of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 5, 84470, "", "=q3=Dreadful Gladiator's Armbands of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 6, 84482, "", "=q3=Dreadful Gladiator's Waistguard of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 7, 84468, "", "=q3=Dreadful Gladiator's Footguards of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 9, 84406, "", "=q3=Dreadful Gladiator's Wristguards of Alacrity", "=ds=", "#HONOR:1250#"};
+				{ 10, 84402, "", "=q3=Dreadful Gladiator's Links of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 11, 84405, "", "=q3=Dreadful Gladiator's Sabatons of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 13, 84407, "", "=q3=Dreadful Gladiator's Wristguards of Accuracy", "=ds=", "#HONOR:1250#"};
+				{ 14, 84403, "", "=q3=Dreadful Gladiator's Links of Accuracy", "=ds=", "#HONOR:1750#"};
+				{ 15, 84404, "", "=q3=Dreadful Gladiator's Sabatons of Cruelty", "=ds=", "#HONOR:1750#"};
+				extraText = ": "..BabbleInventory["Mail"];
+			};
+			{
+				{ 2, 85105, "", "=q4=Malevolent Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 3, 85002, "", "=q4=Malevolent Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 85102, "", "=q4=Malevolent Gladiator's Girdle of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 7, 85000, "", "=q4=Malevolent Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 10, 85104, "", "=q4=Malevolent Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 85001, "", "=q4=Malevolent Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 14, 85103, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
+				{ 15, 84999, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 16, 84975, "", "=q4=Malevolent Gladiator's Bracers of Meditation", "=ds=", "#CONQUEST:1250#"};
+				{ 17, 84952, "", "=q4=Malevolent Gladiator's Clasp of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 18, 84812, "", "=q4=Malevolent Gladiator's Greaves of Meditation", "=ds=", "#CONQUEST:1750#"};
+				{ 20, 84985, "", "=q4=Malevolent Gladiator's Armplates of Proficiency", "=ds=", "#CONQUEST:1250#"};
+				{ 21, 84949, "", "=q4=Malevolent Gladiator's Girdle of Accuracy", "=ds=", "#CONQUEST:1750#"};
+				{ 22, 84810, "", "=q4=Malevolent Gladiator's Warboots of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 24, 84974, "", "=q4=Malevolent Gladiator's Bracers of Prowess", "=ds=", "#CONQUEST:1250#"};
+				{ 25, 84951, "", "=q4=Malevolent Gladiator's Clasp of Cruelty", "=ds=", "#CONQUEST:1750#"};
+				{ 26, 84811, "", "=q4=Malevolent Gladiator's Greaves of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				{ 28, 84986, "", "=q4=Malevolent Gladiator's Armplates of Alacrity", "=ds=", "#CONQUEST:1250#"};	
+				{ 29, 84950, "", "=q4=Malevolent Gladiator's Girdle of Prowess", "=ds=", "#CONQUEST:1750#"};
+				{ 30, 84822, "", "=q4=Malevolent Gladiator's Warboots of Alacrity", "=ds=", "#CONQUEST:1750#"};
+				extraText = ": "..BabbleInventory["Plate"];
+			};
+			{
+				{ 1, 84428, "", "=q3=Dreadful Gladiator's Bracers of Meditation", "=ds=", "#HONOR:1250#"};
+				{ 2, 84424, "", "=q3=Dreadful Gladiator's Clasp of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 3, 84426, "", "=q3=Dreadful Gladiator's Greaves of Meditation", "=ds=", "#HONOR:1750#"};
+				{ 5, 84438, "", "=q3=Dreadful Gladiator's Armplates of Proficiency", "=ds=", "#HONOR:1250#"};
+				{ 6, 84434, "", "=q3=Dreadful Gladiator's Girdle of Accuracy", "=ds=", "#HONOR:1750#"};
+				{ 7, 84436, "", "=q3=Dreadful Gladiator's Warboots of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 9, 84427, "", "=q3=Dreadful Gladiator's Bracers of Prowess", "=ds=", "#HONOR:1250#"};
+				{ 10, 84423, "", "=q3=Dreadful Gladiator's Clasp of Cruelty", "=ds=", "#HONOR:1750#"};
+				{ 11, 84425, "", "=q3=Dreadful Gladiator's Greaves of Alacrity", "=ds=", "#HONOR:1750#"};
+				{ 13, 84439, "", "=q3=Dreadful Gladiator's Armplates of Alacrity", "=ds=", "#HONOR:1250#"};	
+				{ 14, 84435, "", "=q3=Dreadful Gladiator's Girdle of Prowess", "=ds=", "#HONOR:1750#"};
+				{ 15, 84437, "", "=q3=Dreadful Gladiator's Warboots of Alacrity", "=ds=", "#HONOR:1750#"};
 				extraText = ": "..BabbleInventory["Plate"];
 			};
 		};
@@ -4350,37 +4438,33 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PVP90Weapons"] = {
 		["Normal"] = {
 			{
-				{ 1, 84963, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
-				{ 2, 84962, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
+				{ 1, 84963, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
+				{ 2, 84962, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 4, 84961, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
-				{ 5, 84967, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
-				{ 6, 84895, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
-				{ 8, 84969, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
-				{ 9, 84968, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
-				{ 11, 84965, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
-				{ 12, 84966, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
-				{ 16, 84970, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
+				{ 5, 84967, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
+				{ 7, 84969, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
+				{ 8, 84968, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
+				{ 9, 84965, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
+				{ 10, 84966, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
+				{ 16, 84970, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
 				{ 17, 84971, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
-				{ 18, 84964, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
-				{ 20, 84790, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
-				{ 21, 84791, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
-				{ 22, 84785, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
-				{ 24, 84786, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 26, 84787, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3400#" },
-				{ 27, 84788, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3400#" },
-				{ 28, 84789, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 18, 84964, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
+				{ 20, 84790, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
+				{ 21, 84791, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
+				{ 22, 84785, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3500#" },
+				{ 24, 84786, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3500#" },
+				{ 26, 84787, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3500#" },
+				{ 27, 84788, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3500#" },
+				{ 28, 84789, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3500#" },
 			};
 			{
-				{ 2, 84911, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 3, 84912, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 4, 84910, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 6, 84896, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
-				{ 7, 84897, "", "=q4=Malevolent Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
-				{ 8, 84900, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
-				{ 17, 84899, "", "=q4=Malevolent Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 18, 84898, "", "=q4=Malevolent Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 20, 84867, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
-				{ 21, 84866, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
+				{ 1, 84911, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 2, 84912, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 3, 84910, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 5, 84896, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3500#" },
+				{ 6, 84900, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3500#" },
+				{ 16, 84867, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
+				{ 17, 84866, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
 			};
 		};
 		info = {
@@ -4392,38 +4476,33 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["PVP90Weapons2"] = {
 		["Normal"] = {
 			{
-				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
-				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:2500#" },
+				{ 1, 85129, "", "=q4=Malevolent Gladiator's Render", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
+				{ 2, 85128, "", "=q4=Malevolent Gladiator's Ripper", "=ds=#h1#, #w13#", "#CONQUEST:1750#" },
 				{ 4, 85127, "", "=q4=Malevolent Gladiator's Spellblade", "=ds=#h3#, #w4#", "#CONQUEST:2500#" },
-				{ 5, 85133, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:2500#" },
-				{ 6, 85118, "", "=q4=Malevolent Gladiator's Shiv", "=ds=#h4#, #w4#", "#CONQUEST:1000#" },
-				{ 8, 85135, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
-				{ 9, 85134, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:2500#" },
-				{ 11, 85131, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
-				{ 12, 85132, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:2500#" },
-				{ 16, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
-				{ 17, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
-				{ 17, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
-				{ 18, 85130, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:2500#" },
-				{ 20, 85112, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3400#" },
-				{ 21, 85113, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3400#" },
-				{ 22, 85107, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3400#" },
-				{ 24, 85108, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3400#" },
-				{ 26, 85109, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3400#" },
-				{ 27, 85110, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3400#" },
-				{ 28, 85111, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3400#" },
+				{ 5, 85133, "", "=q4=Malevolent Gladiator's Shanker", "=ds=#h1#, #w4#", "#CONQUEST:1750#" },
+				{ 7, 85135, "", "=q4=Malevolent Gladiator's Quickblade", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
+				{ 8, 85134, "", "=q4=Malevolent Gladiator's Slicer", "=ds=#h1#, #w10#", "#CONQUEST:1750#" },
+				{ 9, 85131, "", "=q4=Malevolent Gladiator's Cleaver", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
+				{ 10, 85132, "", "=q4=Malevolent Gladiator's Hacker", "=ds=#h1#, #w1#", "#CONQUEST:1750#" },
+				{ 16, 85136, "", "=q4=Malevolent Gladiator's Bonecracker", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
+				{ 17, 85137, "", "=q4=Malevolent Gladiator's Gavel", "=ds=#h3#, #w6#", "#CONQUEST:2500#" },
+				{ 18, 85130, "", "=q4=Malevolent Gladiator's Pummeler", "=ds=#h1#, #w6#", "#CONQUEST:1750#" },
+				{ 20, 85112, "", "=q4=Malevolent Gladiator's Greatsword", "=ds=#h2#, #w10#", "#CONQUEST:3500#" },
+				{ 21, 85113, "", "=q4=Malevolent Gladiator's Decapitator", "=ds=#h2#, #w1#", "#CONQUEST:3500#" },
+				{ 22, 85107, "", "=q4=Malevolent Gladiator's Bonegrinder", "=ds=#h2#, #w6#", "#CONQUEST:3500#" },
+				{ 24, 85108, "", "=q4=Malevolent Gladiator's Pike", "=ds=#w7#", "#CONQUEST:3500#" },
+				{ 26, 85109, "", "=q4=Malevolent Gladiator's Battle Staff", "=ds=#w9#", "#CONQUEST:3500#" },
+				{ 27, 85110, "", "=q4=Malevolent Gladiator's Energy Staff", "=ds=#w9#", "#CONQUEST:3500#" },
+				{ 28, 85111, "", "=q4=Malevolent Gladiator's Staff", "=ds=#w9#", "#CONQUEST:3500#" },
 			};
 			{
-				{ 2, 85125, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 3, 85126, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 4, 85124, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
-				{ 6, 85119, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3400#" },
-				{ 7, 85120, "", "=q4=Malevolent Gladiator's Heavy Crossbow", "=ds=#w3#", "#CONQUEST:3400#" },
-				{ 8, 85123, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3400#" },
-				{ 17, 85122, "", "=q4=Malevolent Gladiator's Baton of Light", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 18, 85121, "", "=q4=Malevolent Gladiator's Touch of Defeat", "=ds=#w12#", "#CONQUEST:700#" },
-				{ 20, 85115, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
-				{ 21, 85114, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
+				{ 1, 85125, "", "=q4=Malevolent Gladiator's Barrier", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 2, 85126, "", "=q4=Malevolent Gladiator's Redoubt", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 3, 85124, "", "=q4=Malevolent Gladiator's Shield Wall", "=ds=#w8#", "#CONQUEST:1000#" },
+				{ 5, 85119, "", "=q4=Malevolent Gladiator's Longbow", "=ds=#w2#", "#CONQUEST:3500#" },
+				{ 6, 85123, "", "=q4=Malevolent Gladiator's Rifle", "=ds=#w5#", "#CONQUEST:3500#" },
+				{ 16, 85115, "", "=q4=Malevolent Gladiator's Reprieve", "=ds=#s15#", "#CONQUEST:1000#" },
+				{ 17, 85114, "", "=q4=Malevolent Gladiator's Endgame", "=ds=#s15#", "#CONQUEST:1000#" }
 			};
 		};
 		info = {
