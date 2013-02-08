@@ -610,6 +610,7 @@ if AL then
 	AL["Season 10"] = true;
 	AL["Season 11"] = true;
 	AL["Season 12"] = true;
+	AL["Season 13"] = true;
 	AL["Fire"] = true;
 	AL["Water"] = true;
 	AL["Wind"] = true;
@@ -643,6 +644,7 @@ if AL then
 	AL["Pandaria World Bosses"] = true;
 	AL["Elite"] = true;
 	AL["Vegetables"] = true;
+	AL["Thunderforged"] = true;
 
 	-- Loot Table Names
 	AL["Level 30-39"] = true;

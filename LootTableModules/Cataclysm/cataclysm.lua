@@ -4005,7 +4005,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Avengers of Hyjal"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4055,7 +4055,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Baradin's Wardens"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4087,7 +4087,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Dragonmaw Clan"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4137,7 +4137,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Hellscream's Reach"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4171,7 +4171,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Ramkahen"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4203,7 +4203,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["The Earthen Ring"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4235,7 +4235,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Guardians of Hyjal"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4267,7 +4267,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Therazane"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 
@@ -4299,7 +4299,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 		info = {
 			name = BabbleFaction["Wildhammer Clan"],
-			module = moduleName, menu = "REPMENU",
+			module = moduleName, menu = "REPMENU_CATACLYSM",
 		};
 	}
 

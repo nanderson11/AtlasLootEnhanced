@@ -607,6 +607,7 @@ if AL then
 	AL["Season 10"] = "Saison 10";
 	AL["Season 11"] = "Saison 11";
 	AL["Season 12"] = "Saison 12";
+	AL["Season 13"] = "Saison 13";
 	AL["Fire"] = "Feuer";
 	AL["Water"] = "Wasser";
 	AL["Wind"] = "Wind";
@@ -640,6 +641,7 @@ if AL then
 	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
 	-- AL["Elite"] = true;
 	AL["Vegetables"] = "Gemüse";
+	AL["Thunderforged"] = "Donnergeschmiedet";
 
 	-- Loot Table Names
 	AL["Level 30-39"] = "Stufe 30-39";

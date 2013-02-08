@@ -2350,12 +2350,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2372,12 +2372,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2394,12 +2394,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2416,12 +2416,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2438,12 +2438,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2460,12 +2460,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2482,12 +2482,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2504,12 +2504,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2526,12 +2526,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2548,12 +2548,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2570,12 +2570,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2592,12 +2592,12 @@ local moduleName = "AtlasLootMoP"
 		};
 		["Normal"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2609,7 +2609,7 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ToTRaden"] = {
 		["Heroic"] = {
 			{
-
+				{ 16, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3464,10 +3464,94 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ShadoPanAssault"] = {
 		["Normal"] = {
 			{
+				{ 1, 0, "achievement_faction_shadopan", "=q6=#r1#", ""};
+				{ 2, 95146, "", "=q4=Destroyer's Battletags", "=ds=#s2#", "#VALOR:1250#" },
+				{ 3, 95143, "", "=q4=Flanker's Battletags", "=ds=#s2#", "#VALOR:1250#" },
+				{ 4, 95145, "", "=q4=Mender's Battletags", "=ds=#s2#", "#VALOR:1250#" },
+				{ 5, 95142, "", "=q4=Striker's Battletags", "=ds=#s2#", "#VALOR:1250#" },
+				{ 6, 95144, "", "=q4=Vanguard's Battletags", "=ds=#s2#", "#VALOR:1250#" },
+				{ 8, 0, "achievement_faction_shadopan", "=q6=#r2#", ""};
+				{ 9, 95140, "", "=q4=Band of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#" },
+				{ 10, 95141, "", "=q4=Loop of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#" },
+				{ 11, 95139, "", "=q4=Ring of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#" },
+				{ 12, 95137, "", "=q4=Seal of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#" },
+				{ 13, 95138, "", "=q4=Signet of the Shado-Pan Assault", "=ds=#s13#", "#VALOR:1250#" },
+				{ 16, 94508, "", "=q4=Brutal Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#" },
+				{ 17, 94509, "", "=q4=Soothing Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#" },
+				{ 18, 94507, "", "=q4=Steadfast Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#" },
+				{ 19, 94511, "", "=q4=Vicious Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#" },
+				{ 20, 94510, "", "=q4=Volatile Talisman of the Shado-Pan Assault", "=ds=#s14#", "#VALOR:1750#" },
+				{ 22, 95135, "", "=q4=Bracers of Shielding Thought", "=ds=#s8#, #a1#", "#VALOR:1250#" },
+				{ 23, 95136, "", "=q4=Troll-Burner Bracers", "=ds=#s8#, #a1#", "#VALOR:1250#" },
+				{ 24, 95134, "", "=q4=Hearthfire Armwraps", "=ds=#s8#, #a2#", "#VALOR:1250#" },
+				{ 25, 95133, "", "=q4=Willow-Weave Armbands", "=ds=#s8#, #a2#", "#VALOR:1250#" },
+				{ 26, 95131, "", "=q4=Powderburn Bracers", "=ds=#s8#, #a3#", "#VALOR:1250#" },
+				{ 27, 95132, "", "=q4=Spiritcaller Cuffs", "=ds=#s8#, #a3#", "#VALOR:1250#" },
+				{ 28, 95129, "", "=q4=Axebinder Wristguards", "=ds=#s8#, #a4#", "#VALOR:1250#" },
+				{ 29, 95128, "", "=q4=Bonecrusher Bracers", "=ds=#s8#, #a4#", "#VALOR:1250#" },
+				{ 30, 95130, "", "=q4=Softscar Armplates", "=ds=#s8#, #a4#", "#VALOR:1250#" },
+			};
+			{
+				{ 1, 0, "achievement_faction_shadopan", "=q6=#r3#", ""};
+				{ 2, 95118, "", "=q4=Dreamweaver Drape", "=ds=#s4#", "#VALOR:1250#" },
+				{ 3, 95116, "", "=q4=Longshot Forestcloak", "=ds=#s4#", "#VALOR:1250#" },
+				{ 4, 95115, "", "=q4=Many-Layered Scalecloak", "=ds=#s4#", "#VALOR:1250#" },
+				{ 5, 95117, "", "=q4=Shadowspike Cloak", "=ds=#s4#", "#VALOR:1250#" },
+				{ 6, 95114, "", "=q4=Spikeshard Greatcloak", "=ds=#s4#", "#VALOR:1250#" },
+				{ 7, 95106, "", "=q4=Flameweaver Handwraps", "=ds=#s9#, #a1#", "#VALOR:1750#" },
+				{ 8, 95105, "", "=q4=Ghostbinder Grips", "=ds=#s9#, #a1#", "#VALOR:1750#" },
+				{ 9, 95108, "", "=q4=Daggerfinger Clutches", "=ds=#s9#, #a2#", "#VALOR:1750#" },
+				{ 10, 95107, "", "=q4=Gloves of Enduring Renewal", "=ds=#s9#, #a2#", "#VALOR:1750#" },
+				{ 11, 95109, "", "=q4=Gauntlets of the Longbow", "=ds=#s9#, #a3#", "#VALOR:1750#" },
+				{ 12, 95112, "", "=q4=Totemshaper Gloves", "=ds=#s9#, #a3#", "#VALOR:1750#" },
+				{ 13, 95111, "", "=q4=Bloodstained Skullsqueezers", "=ds=#s9#, #a4#", "#VALOR:1750#" },
+				{ 14, 95110, "", "=q4=Stoneward Handguards", "=ds=#s9#, #a4#", "#VALOR:1750#" },
+				{ 15, 95113, "", "=q4=Touch of Soothing Mists", "=ds=#s9#, #a4#", "#VALOR:1750#" },
+				{ 16, 95123, "", "=q4=Charfire Leggings", "=ds=#s11#, #a1#", "#VALOR:2250#" },
+				{ 17, 95122, "", "=q4=Wisp-Weave Pantaloons", "=ds=#s11#, #a1#", "#VALOR:2250#" },
+				{ 18, 95125, "", "=q4=Legguards of Hidden Knives", "=ds=#s11#, #a2#", "#VALOR:2250#" },
+				{ 19, 95124, "", "=q4=Trousers of Waning Shadow", "=ds=#s11#, #a2#", "#VALOR:2250#" },
+				{ 20, 95127, "", "=q4=Homeguard Leggings", "=ds=#s11#, #a3#", "#VALOR:2250#" },
+				{ 21, 95126, "", "=q4=Kilt of Rising Thunder", "=ds=#s11#, #a3#", "#VALOR:2250#" },
+				{ 22, 95120, "", "=q4=Legguards of Renewal", "=ds=#s11#, #a4#", "#VALOR:2250#" },
+				{ 23, 95119, "", "=q4=Thunderbreaker Legplates", "=ds=#s11#, #a4#", "#VALOR:2250#" },
+				{ 24, 95121, "", "=q4=Vaultbreaker Greaves", "=ds=#s11#, #a4#", "#VALOR:2250#" },
+			};
+			{
 				{ 1, 0, "achievement_faction_shadopan", "=q6=#r4#", ""};
 				{ 2, 95559, "", "=q7=Grand Commendation of the Shado-Pan Assault", "=ds=", "=ds=45 #gold#"};
-				{ 4, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
-				{ 5, 97131, "", "=q3=Shado-Pan Assault Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 3, 95102, "", "=q4=Frost-Kissed Shoulderwraps", "=ds=#s3#, #a1#", "#VALOR:1750#" },
+				{ 4, 95101, "", "=q4=Halo-Graced Mantle", "=ds=#s3#, #a1#", "#VALOR:1750#" },
+				{ 5, 95096, "", "=q4=Shoulders of Demonic Dreams", "=ds=#s3#, #a1#", "#VALOR:1750#" },
+				{ 6, 95097, "", "=q4=Heartroot Shoulderguards", "=ds=#s3#, #a2#", "#VALOR:1750#" },
+				{ 7, 95100, "", "=q4=Wallwalker Spaulders", "=ds=#s3#, #a2#", "#VALOR:1750#" },
+				{ 8, 95099, "", "=q4=Lightning Strike Mantle", "=ds=#s3#, #a3#", "#VALOR:1750#" },
+				{ 9, 95095, "", "=q4=Targetblinder Spaulders", "=ds=#s3#, #a3#", "#VALOR:1750#" },
+				{ 10, 95104, "", "=q4=Shoulderguards of Potentiation", "=ds=#s3#, #a4#", "#VALOR:1750#" },
+				{ 11, 95098, "", "=q4=Sightblinder Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:1750#" },
+				{ 12, 95103, "", "=q4=Sparksmasher Pauldrons", "=ds=#s3#, #a4#", "#VALOR:1750#" },
+				{ 13, 95081, "", "=q4=Fire Support Robes", "=ds=#s5#, #a1#", "#VALOR:2250#" },
+				{ 14, 95082, "", "=q4=Robes of Misty Bindings", "=ds=#s5#, #a1#", "#VALOR:2250#" },
+				{ 15, 95078, "", "=q4=Raiment of Silent Stars", "=ds=#s5#, #a2#", "#VALOR:2250#" },
+				{ 16, 95077, "", "=q4=Roofstalker Shadowwrap", "=ds=#s5#, #a2#", "#VALOR:2250#" },
+				{ 17, 95079, "", "=q4=Carapace of Segmented Scale", "=ds=#s5#, #a3#", "#VALOR:2250#" },
+				{ 18, 95080, "", "=q4=Skinsealer Tunic", "=ds=#s5#, #a3#", "#VALOR:2250#" },
+				{ 19, 95076, "", "=q4=Breastplate of Brutal Strikes", "=ds=#s5#, #a4#", "#VALOR:2250#" },
+				{ 20, 95075, "", "=q4=Gianttooth Chestplate", "=ds=#s5#, #a4#", "#VALOR:2250#" },
+				{ 21, 95074, "", "=q4=Hauberk of Gleaming Fire", "=ds=#s5#, #a4#", "#VALOR:2250#" },
+				{ 22, 95090, "", "=q4=Firestrike Cord", "=ds=#s10#, #a1#", "#VALOR:1750#" },
+				{ 23, 95091, "", "=q4=Girdle of Glowing Light", "=ds=#s10#, #a1#", "#VALOR:1750#" },
+				{ 24, 95088, "", "=q4=Darkfang Belt", "=ds=#s10#, #a2#", "#VALOR:1750#" },
+				{ 25, 95089, "", "=q4=Martiean's Splitleaf Girdle", "=ds=#s10#, #a2#", "#VALOR:1750#" },
+				{ 26, 95087, "", "=q4=Cracklebite Links", "=ds=#s10#, #a3#", "#VALOR:1750#" },
+				{ 27, 95086, "", "=q4=Nightflight Chain", "=ds=#s10#, #a3#", "#VALOR:1750#" },
+				{ 28, 95084, "", "=q4=Reinforced Spiritplate Girdle", "=ds=#s10#, #a4#", "#VALOR:1750#" },
+				{ 29, 95083, "", "=q4=Swordhook Slingbelt", "=ds=#s10#, #a4#", "#VALOR:1750#" },
+				{ 30, 95085, "", "=q4=Waistplate of Channeled Mending", "=ds=#s10#, #a4#", "#VALOR:1750#" },
+			};
+			{
+				{ 1, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
+				{ 2, 97131, "", "=q3=Shado-Pan Assault Tabard", "=ds=#s7#", "=ds=10 #gold#"};
 			};
 		};
 		info = {
