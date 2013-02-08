@@ -355,6 +355,7 @@ if AL then
 	-- AL["Tier 11/12 Set"] = true;
 	-- AL["Tier 13 Set"] = true;
 	-- AL["Tier 14 Set"] = true;
+	-- AL["Tier 15 Set"] = true;
 	AL["TCG Items"] = "TCG Gegenstände";
 	AL["Rare Mobs"] = "Rare-Mobs";
 	AL["Grand Marshal"] = "Großmarschall";
@@ -593,6 +594,7 @@ if AL then
 	-- AL["Tier 12"] = true;
 	-- AL["Tier 13"] = true;
 	-- AL["Tier 14"] = true;
+	-- AL["Tier 15"] = true;
 	AL["Challenge Mode Armor Sets"] = "Herausforderungsmodus Rüstungssets";
 	AL["10 Man"] = "10 Spieler";
 	AL["10/25 Man"] = "10/25 Spieler";
