@@ -2365,6 +2365,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95625, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
 				{ 21, 95640, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 95632, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2389,6 +2390,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 94512, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
 				{ 21, 94730, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 94722, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2414,6 +2416,7 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96369, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
 				{ 21, 96384, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 96376, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2447,6 +2450,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 95657, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 95647, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 95660, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2472,6 +2476,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 94749, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 94740, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 94755, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2498,6 +2503,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 96401, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 96391, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 96404, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2526,6 +2532,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95675, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
 				{ 21, 95670, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 22, 95666, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2546,6 +2553,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94758, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
 				{ 21, 94760, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 22, 94759, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2567,6 +2575,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96419, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
 				{ 21, 96414, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 22, 96410, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2599,6 +2608,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95686, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
 				{ 21, 95678, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 95692, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2623,6 +2633,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94768, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
 				{ 21, 94769, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 94778, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2648,6 +2659,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96430, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
 				{ 21, 96422, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 96436, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2679,6 +2691,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 95712, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#" },
 				{ 23, 95698, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 95710, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2702,6 +2715,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94520, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#" },
 				{ 23, 94788, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 94796, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2726,6 +2740,7 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96456, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#" },
 				{ 23, 96442, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 96454, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
+				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2746,6 +2761,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 95723, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
 				{ 7, 95724, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 95725, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
+				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 95888, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95889, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95887, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -2764,6 +2780,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 94809, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
 				{ 7, 94810, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 94807, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
+				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 95576, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95581, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95572, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -2783,6 +2800,7 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 96467, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
 				{ 7, 96468, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 96469, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
+				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 96632, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96633, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96631, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -2820,6 +2838,8 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95737, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 95743, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				{ 22, 95728, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2844,6 +2864,8 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95511, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 94922, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				{ 22, 94814, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2869,6 +2891,8 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96481, "", "=q4=Durumu's Severed Tentacle", "=ds=#s13#" },
 				{ 21, 96487, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
 				{ 22, 96472, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2902,6 +2926,8 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 95748, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
 				{ 21, 95758, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 95768, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2927,6 +2953,8 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 94522, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
 				{ 21, 94937, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 94945, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2953,6 +2981,8 @@ local moduleName = "AtlasLootMoP"
 				{ 19, 96492, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
 				{ 21, 96502, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
 				{ 22, 96512, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -2979,6 +3009,8 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95822, "", "=q4=Chest of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
 				{ 20, 95774, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 95770, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
+				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -2997,6 +3029,8 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95569, "", "=q4=Chest of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
 				{ 20, 94955, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 94954, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
+				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -3016,6 +3050,8 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 96566, "", "=q4=Chest of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
 				{ 20, 96518, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 96514, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
+				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -3035,6 +3071,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 95788, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#" },
 				{ 6, 95789, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#" },
 				{ 8, 95785, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#" },
+				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 11, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95956, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95957, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95955, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3053,6 +3091,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 94969, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#" },
 				{ 6, 94972, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#" },
 				{ 8, 95512, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#" },
+				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 11, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 95578, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95583, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95573, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3072,6 +3112,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 96532, "", "=q4=Ro'shak's Molten Chain", "=ds=#s5#, #a3#" },
 				{ 6, 96533, "", "=q4=Rein-Binder's Fists", "=ds=#s9#, #a4#" },
 				{ 8, 96529, "", "=q4=Ro'shak's Remembrance", "=ds=#s13#" },
+				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 11, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				{ 16, 96700, "", "=q4=Shoulders of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96701, "", "=q4=Shoulders of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96699, "", "=q4=Shoulders of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3105,6 +3147,8 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 95795, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#" },
 				{ 21, 95791, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#" },
 				{ 22, 95794, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Normal"] = {
@@ -3123,6 +3167,8 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94974, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#" },
 				{ 21, 94973, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#" },
 				{ 22, 95515, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -3142,6 +3188,8 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96539, "", "=q4=Suen-Wo, Spire of the Falling Sun", "=ds=#w9#" },
 				{ 21, 96535, "", "=q4=Wu-Lai, Bladed Fan of the Consorts", "=ds=#h1#, #w13#" },
 				{ 22, 96538, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
+				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
@@ -3164,6 +3212,8 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 95821, "", "=q4=Lei-Shen's Grounded Carapace", "=ds=#s5#, #a4#" },
 				{ 9, 95807, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#" },
 				{ 10, 95808, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#" },
+				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
+				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 95816, "", "=q4=Soul Prism of Lei-Shen", "=ds=#s2#" },
 				{ 17, 95817, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#" },
 				{ 18, 95802, "", "=q4=Rune of Re-Origination", "=ds=#s14#" },
@@ -3189,6 +3239,8 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 94989, "", "=q4=Lei-Shen's Grounded Carapace", "=ds=#s5#, #a4#" },
 				{ 9, 95535, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#" },
 				{ 10, 94985, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#" },
+				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
+				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 94994, "", "=q4=Soul Prism of Lei-Shen", "=ds=#s2#" },
 				{ 17, 94530, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#" },
 				{ 18, 94532, "", "=q4=Rune of Re-Origination", "=ds=#s14#" },
@@ -3214,6 +3266,8 @@ local moduleName = "AtlasLootMoP"
 				{ 8, 96565, "", "=q4=Lei-Shen's Grounded Carapace", "=ds=#s5#, #a4#" },
 				{ 9, 96551, "", "=q4=Legplates of the Lightning Throne", "=ds=#s11#, #a4#" },
 				{ 10, 96552, "", "=q4=Legplates of Whipping Ionization", "=ds=#s11#, #a4#" },
+				{ 12, 94867, "", "=q5=Heart of the Thunder King", "=ds=#m3#" },
+				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 96560, "", "=q4=Soul Prism of Lei-Shen", "=ds=#s2#" },
 				{ 17, 96561, "", "=q4=Lightning-Imbued Chalice", "=ds=#s14#" },
 				{ 18, 96546, "", "=q4=Rune of Re-Origination", "=ds=#s14#" },
