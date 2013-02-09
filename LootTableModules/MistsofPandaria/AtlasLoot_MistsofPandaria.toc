@@ -17,3 +17,4 @@
 ## LoadOnDemand: 1
 
 mistsofpandaria.lua
+BonusRollInfo.lua

@@ -152,12 +152,12 @@ AtlasLoot_LootTableRegister = {
 
 		["HeartofFear"] = {
 			["Bosses"] = {
-				{ "HoFZorlok", 3, EncounterJournalID = 745 },
-				{ "HoFTayak", 4, EncounterJournalID = 744 },
-				{ "HoFGaralon", 5, EncounterJournalID = 713 },
-				{ "HoFMeljarak", 6, EncounterJournalID = 741 },
-				{ "HoFUnsok", 7, EncounterJournalID = 737 },
-				{ "HoFShekzeer", 9, EncounterJournalID = 743 },
+				{ "HoFZorlok", 3, EncounterJournalID = 745, BonusLootID = 132194 },
+				{ "HoFTayak", 4, EncounterJournalID = 744, BonusLootID = 132195 },
+				{ "HoFGaralon", 5, EncounterJournalID = 713, BonusLootID = 132196 },
+				{ "HoFMeljarak", 6, EncounterJournalID = 741, BonusLootID = 132197 },
+				{ "HoFUnsok", 7, EncounterJournalID = 737, BonusLootID = 132198 },
+				{ "HoFShekzeer", 9, EncounterJournalID = 743, BonusLootID = 132199 },
 				{ "HoFTrash", 11 },
 				{ "Patternsilvl496", 12 },
 			},
@@ -166,12 +166,12 @@ AtlasLoot_LootTableRegister = {
 
 		["MoguShanVaults"] = {
 			["Bosses"] = {
-				{ "MSVTheStoneGuard", 3, EncounterJournalID = 679 },
-				{ "MSVFeng", 8, EncounterJournalID = 689 },
-				{ "MSVGarajal", 9, EncounterJournalID = 682 },
-				{ "MSVSpiritKings", 10, EncounterJournalID = 687 },
-				{ "MSVElegon", 15, EncounterJournalID = 726 },
-				{ "MSVWilloftheEmperor", 16, EncounterJournalID = 677 },
+				{ "MSVTheStoneGuard", 3, EncounterJournalID = 679, BonusLootID = 125144 },
+				{ "MSVFeng", 8, EncounterJournalID = 689, BonusLootID = 132189 },
+				{ "MSVGarajal", 9, EncounterJournalID = 682, BonusLootID = 132190 },
+				{ "MSVSpiritKings", 10, EncounterJournalID = 687, BonusLootID = 132191 },
+				{ "MSVElegon", 15, EncounterJournalID = 726, BonusLootID = 132192 },
+				{ "MSVWilloftheEmperor", 16, EncounterJournalID = 677, BonusLootID = 132193 },
 				{ "MoguShanVaultsTrash", 20 },
 				{ "Patternsilvl496", 21 },
 	
@@ -181,20 +181,20 @@ AtlasLoot_LootTableRegister = {
 
 		["Pandaria"] = {
 			["Bosses"] = {
-				--{ "Nalak", 1, EncounterJournalID = 814 },
-				--{ "Oondasta", 2, EncounterJournalID = 826 },
-				{ "SHAOFANGER", 3, EncounterJournalID = 691 },
-				{ "SalyisWarband", 4, EncounterJournalID = 725 },
+				--{ "Nalak", 1, EncounterJournalID = 814, BonusLootID = 136381 },
+				--{ "Oondasta", 2, EncounterJournalID = 826, BonusLootID = 137554 },
+				{ "SHAOFANGER", 3, EncounterJournalID = 691, BonusLootID = 132205 },
+				{ "SalyisWarband", 4, EncounterJournalID = 725, BonusLootID = 132206 },
 			},
 			["Info"] = { AL["Pandaria World Bosses"], "AtlasLootMoP", mapname = "Pandaria", raid = true, EncounterJournalID = 322 },
 		},
 
 		["TerraceofEndlessSpring"] = {
 			["Bosses"] = {
-				{ "ToESProtectors", 2, EncounterJournalID = 683 },
-				{ "ToESTsulong", 6, EncounterJournalID = 742 },
-				{ "ToESLeiShi", 7, EncounterJournalID = 729 },
-				{ "ToESShaofFear", 8, EncounterJournalID = 709 },
+				{ "ToESProtectors", 2, EncounterJournalID = 683, BonusLootID = 132200 },
+				{ "ToESTsulong", 6, EncounterJournalID = 742, BonusLootID = 132201 },
+				{ "ToESLeiShi", 7, EncounterJournalID = 729, BonusLootID = 132202 },
+				{ "ToESShaofFear", 8, EncounterJournalID = 709, BonusLootID = 132203 },
 				{ "Patternsilvl496", 10 },
 			},
 			["Info"] = { BabbleZone["Terrace of Endless Spring"], "AtlasLootMoP", mapname = "TerraceofEndlessSpring", raid = true, EncounterJournalID = 320 },
@@ -202,19 +202,19 @@ AtlasLoot_LootTableRegister = {
 
 		["ThroneofThunder"] = {
 			["Bosses"] = {
-				{ "ToTJinrokh", 2, EncounterJournalID = 827 },
-				{ "ToTHorridon", 3, EncounterJournalID = 819 },
-				{ "ToTCouncil", 4, EncounterJournalID = 816 },
-				{ "ToTTortos", 5, EncounterJournalID = 825 },
-				{ "ToTMegaera", 6, EncounterJournalID = 821 },
-				{ "ToTJiKun", 7, EncounterJournalID = 828 },
-				{ "ToTDurumu", 8, EncounterJournalID = 818 },
-				{ "ToTPrimordius", 9, EncounterJournalID = 820 },
-				{ "ToTDarkAnimus", 10, EncounterJournalID = 824 },
-				{ "ToTIronQon", 11, EncounterJournalID = 817 },
-				{ "ToTTwinConsorts", 12, EncounterJournalID = 829 },
-				{ "ToTLeiShen", 13, EncounterJournalID = 832 },
-				{ "ToTRaden", 14, EncounterJournalID = 831},
+				{ "ToTJinrokh", 2, EncounterJournalID = 827, BonusLootID = 139674 },
+				{ "ToTHorridon", 3, EncounterJournalID = 819, BonusLootID = 139677 },
+				{ "ToTCouncil", 4, EncounterJournalID = 816, BonusLootID = 139679 },
+				{ "ToTTortos", 5, EncounterJournalID = 825, BonusLootID = 139680 },
+				{ "ToTMegaera", 6, EncounterJournalID = 821, BonusLootID = 139682 },
+				{ "ToTJiKun", 7, EncounterJournalID = 828, BonusLootID = 139684 },
+				{ "ToTDurumu", 8, EncounterJournalID = 818, BonusLootID = 139686 },
+				{ "ToTPrimordius", 9, EncounterJournalID = 820, BonusLootID = 139687 },
+				{ "ToTDarkAnimus", 10, EncounterJournalID = 824, BonusLootID = 139688 },
+				{ "ToTIronQon", 11, EncounterJournalID = 817, BonusLootID = 139689 },
+				{ "ToTTwinConsorts", 12, EncounterJournalID = 829, BonusLootID = 139690 },
+				{ "ToTLeiShen", 13, EncounterJournalID = 832, BonusLootID = 139691 },
+				{ "ToTRaden", 14, EncounterJournalID = 831, BonusLootID = 139692 },
 			},
 			["Info"] = { "Throne of Thunder", "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
 		},

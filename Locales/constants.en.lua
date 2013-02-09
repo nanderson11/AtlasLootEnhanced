@@ -48,6 +48,7 @@ if AL then
 	AL["You cant set more then %d item stats."] = true;
 	AL["Slot"] = true;
 	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = true;
+	AL["BonusRoll:"] = true;
 
 	-- Stats short
 	AL["iLvl"] = true;	-- Item lvl
@@ -85,11 +86,12 @@ if AL then
 	-- Options
 	AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = true;
-	AL["Minimap Button"] = true;
+	AL["Toggle Minimap Button"] = true;
+	AL["Toggles the display of the minimap icon"] = true;
 	AL["Show itemIDs"] = true;
 	AL["Show Droprates"] = true;
 	AL["Safe Chat Links"] = true;
-	AL["Comparison TT"] = true;
+	AL["Comparison Tooltips"] = true;
 	AL["Show Boss Tooltip"] = true;
 	AL["Show Comparison Tooltips"] = true;
 	AL["Opaque"] = true;
@@ -104,6 +106,8 @@ if AL then
 	AL["Loot Table"] = true;
 	AL["Enable mouse on item descriptions"] = true;
 	AL["Upgrade Level:"] = true;
+	AL["Show BonusRoll info"] = true;
+	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;
@@ -494,12 +498,6 @@ if AL then
 
 	-- Cooking
 	AL["Banquets/Feasts"] = true;
-	AL["Way of the Brew"] = true;
-	AL["Way of the Grill"] = true;
-	AL["Way of the Oven"] = true;
-	AL["Way of the Pot"] = true;
-	AL["Way of the Steamer"] = true;
-	AL["Way of the Wok"] = true;
 
 	-- Enchanting
 	AL["Enchant Boots"] = true;
@@ -530,7 +528,6 @@ if AL then
 	AL["Off-Hand Items"] = true;
 	AL["Shoulder Enchants"] = true;
 	AL["Reagents"] = true;
-	AL["Book of Glyph Mastery"] = true;
 
 	-- Leatherworking
 	AL["Leather Armor"] = true;
@@ -583,34 +580,13 @@ if AL then
 	AL["Replica"] = true;
 	AL["Dungeon Set 3"] = true;
 	AL["Dungeon Set 4"] = true;
-	AL["Tier 1"] = true;
-	AL["Tier 2"] = true;
-	AL["Tier 3"] = true;
-	AL["Tier 4"] = true;
-	AL["Tier 5"] = true;
-	AL["Tier 6"] = true;
-	AL["Tier 7"] = true;
-	AL["Tier 8"] = true;
-	AL["Tier 9"] = true;
-	AL["Tier 10"] = true;
-	AL["Tier 11"] = true;
-	AL["Tier 12"] = true;
-	AL["Tier 13"] = true;
-	AL["Tier 14"] = true;
-	AL["Tier 15"] = true;
+	AL["Tier %d"] = true; -- usage: string.format(AL["Tier %d"], 1)
 	AL["Challenge Mode Armor Sets"] = true;
 	AL["10 Man"] = true;
 	AL["10/25 Man"] = true;
 	AL["Epic Set"] = true;
 	AL["Rare Set"] = true;
-	AL["Season 6"] = true;
-	AL["Season 7"] = true;
-	AL["Season 8"] = true;
-	AL["Season 9"] = true;
-	AL["Season 10"] = true;
-	AL["Season 11"] = true;
-	AL["Season 12"] = true;
-	AL["Season 13"] = true;
+	AL["Season %d"] = true; -- usage: string.format(AL["Season %d"], 6)
 	AL["Fire"] = true;
 	AL["Water"] = true;
 	AL["Wind"] = true;
@@ -647,12 +623,7 @@ if AL then
 	AL["Thunderforged"] = true;
 
 	-- Loot Table Names
-	AL["Level 30-39"] = true;
-	AL["Level 40-49"] = true;
-	AL["Level 50-60"] = true;
-	AL["Level 60-69"] = true;
-	AL["Level 70-79"] = true;
-	AL["Level 85-89"] = true;
+	AL["Level %s"] = true; -- usage: string.format(AL["Level %s"], "85-89")
 	AL["Summon"] = true;
 	AL["Random"] = true;
 
@@ -901,13 +872,7 @@ if AL then
 	AL["Old PvP Rewards"] = true;
 	AL["BG/Open PvP Rewards"] = true;
 	AL["Misc. Rewards"] = true;
-	AL["Level 10-19 Rewards"] = true;
-	AL["Level 20-39 Rewards"] = true;
-	AL["Level 20-29 Rewards"] = true;
-	AL["Level 30-39 Rewards"] = true;
-	AL["Level 40-49 Rewards"] = true;
-	AL["Level 50-59 Rewards"] = true;
-	AL["Level 60 Rewards"] = true;
+	AL["Level %s Rewards"] = true; -- usage: string.format(AL["Level %s Rewards"], "60")
 
 	-- Brood of Nozdormu Paths
 	AL["Path of the Conqueror"] = true;
@@ -975,40 +940,9 @@ if AL then
 	AL["Vendor"] = true;	
 	AL["World Drop"] = true;
 
-	-- Months
-	AL["January"] = true;
-	AL["February"] = true;
-	AL["March"] = true;
-	AL["April"] = true;
-	AL["May"] = true;
-	AL["June"] = true;
-	AL["July"] = true;
-	AL["August"] = true;
-	AL["September"] = true;
-	AL["October"] = true;
-	AL["November"] = true;
-	AL["December"] = true;
-
 	-- Specs
-	AL["Balance"] = true;
-	AL["Feral"] = true;
-	AL["Guardian"] = true;
-	AL["Restoration"] = true;
-	AL["Holy"] = true;
-	AL["Discipline"] = true;
-	AL["Protection"] = true;
-	AL["Retribution"] = true;
-	AL["Shadow"] = true;
-	AL["Elemental"] = true;
-	AL["Enhancement"] = true;
-	AL["Fury"] = true;
-	AL["Demonology"] = true;
-	AL["Destruction"] = true;
 	AL["Tanking"] = true;
 	AL["DPS"] = true;
-	AL["Mistweaver"] = true;
-	AL["Brewmaster"] = true;
-	AL["Windwalker"] = true;
 
 	-- NPCs missing from BabbleBoss
 	AL["Trash Mobs"] = true;

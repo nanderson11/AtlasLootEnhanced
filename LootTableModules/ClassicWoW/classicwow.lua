@@ -5462,7 +5462,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AL["BoE World Epics"].." "..AL["Level 30-39"],
+			name = AL["BoE World Epics"].." "..string.format(AL["Level %s"], "30-39"),
 			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
 		};
 	}
@@ -5494,7 +5494,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AL["BoE World Epics"].." "..AL["Level 40-49"],
+			name = AL["BoE World Epics"].." "..string.format(AL["Level %s"], "40-49"),
 			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
 		};
 	}
@@ -5526,7 +5526,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AL["BoE World Epics"].." "..AL["Level 50-60"],
+			name = AL["BoE World Epics"].." "..string.format(AL["Level %s"], "50-60"),
 			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
 		};
 	}
@@ -5647,7 +5647,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 21118, "", "=q3=Talisman of Arathor", "=ds=", "#HONOR:35#", ""};
 				{ 13, 21117, "", "=q3=Talisman of Arathor", "=ds=", "#HONOR:45#", ""};
 				{ 14, 20071, "", "=q3=Talisman of Arathor", "=ds=", "#HONOR:55#", ""};
-				{ 17, 0, "INV_BannerPVP_02", "=q6="..AL["Level 60 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 17, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "60"), "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 18, 20073, "", "=q4=Cloak of the Honor Guard", "=ds=", "#HONOR:85#", ""};
 				{ 19, 20070, "", "=q4=Sageclaw", "=ds=", "#HONOR:130#", ""};
 				{ 20, 20069, "", "=q4=Ironbark Staff", "=ds=", "#HONOR:185#", ""};
@@ -5667,7 +5667,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 12, 21120, "", "=q3=Defiler's Talisman", "=ds=", "#HONOR:35#", ""};
 				{ 13, 21115, "", "=q3=Defiler's Talisman", "=ds=", "#HONOR:45#", ""};
 				{ 14, 20072, "", "=q3=Defiler's Talisman", "=ds=", "#HONOR:55#", ""};
-				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Level 60 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..string.format(AL["Level %s Rewards"], "60"), "=q5="..BabbleFaction["The Defilers"]};
 				{ 17, 20068, "", "=q4=Deathguard's Cloak", "=ds=", "#HONOR:85#", ""};
 				{ 25, 20214, "", "=q4=Mindfang", "=ds=", "#HONOR:130#", ""};
 				{ 26, 20220, "", "=q4=Ironbark Staff", "=ds=", "#HONOR:185#", ""};
@@ -5682,7 +5682,7 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AB4049"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 2, 20097, "", "=q3=Highlander's Cloth Girdle", "=ds=", "#HONOR:70#", ""};
 				{ 3, 20094, "", "=q3=Highlander's Cloth Boots", "=ds=", "#HONOR:70#", ""};
 				{ 4, 20115, "", "=q3=Highlander's Leather Girdle", "=ds=", "#HONOR:70#", ""};
@@ -5709,7 +5709,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 40-49 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "40-49"), "=q5="..BabbleFaction["The Defilers"]};
 				{ 2, 20165, "", "=q3=Defiler's Cloth Girdle", "=ds=", "#HONOR:70#", ""};
 				{ 3, 20160, "", "=q3=Defiler's Cloth Boots", "=ds=", "#HONOR:70#", ""};
 				{ 4, 20193, "", "=q3=Defiler's Leather Girdle", "=ds=", "#HONOR:70#", ""};
@@ -5735,7 +5735,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Arathi Basin"].." "..AL["Level 40-49 Rewards"],
+			name = BabbleZone["Arathi Basin"].." "..string.format(AL["Level %s Rewards"], "40-49"),
 			module = moduleName, menu = "PVPMENU2"
 		};
 	}
@@ -5743,14 +5743,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["AB2039"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "30-39"), "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 2, 20098, "", "=q3=Highlander's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 3, 20095, "", "=q3=Highlander's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 4, 20116, "", "=q3=Highlander's Leather Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 5, 20104, "", "=q3=Highlander's Lizardhide Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 6, 20113, "", "=q3=Highlander's Leather Boots", "=ds=", "#HONOR:45#", ""};
 				{ 7, 20101, "", "=q3=Highlander's Lizardhide Boots", "=ds=", "#HONOR:45#", ""};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5="..BabbleFaction["The League of Arathor"]};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "20-29"), "=q5="..BabbleFaction["The League of Arathor"]};
 				{ 17, 20099, "", "=q3=Highlander's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 18, 20096, "", "=q3=Highlander's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 19, 20117, "", "=q3=Highlander's Leather Girdle", "=ds=", "#HONOR:45#", ""};
@@ -5769,14 +5769,14 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Level 30-39 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "30-39"), "=q5="..BabbleFaction["The Defilers"]};
 				{ 2, 20166, "", "=q3=Defiler's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 3, 20161, "", "=q3=Defiler's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 4, 20192, "", "=q3=Defiler's Leather Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 5, 20173, "", "=q3=Defiler's Lizardhide Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 6, 20187, "", "=q3=Defiler's Leather Boots", "=ds=", "#HONOR:45#", ""};
 				{ 7, 20168, "", "=q3=Defiler's Lizardhide Boots", "=ds=", "#HONOR:45#", ""};
-				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["Level 20-29 Rewards"], "=q5="..BabbleFaction["The Defilers"]};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..string.format(AL["Level %s Rewards"], "20-29"), "=q5="..BabbleFaction["The Defilers"]};
 				{ 17, 20164, "", "=q3=Defiler's Cloth Girdle", "=ds=", "#HONOR:45#", ""};
 				{ 18, 20162, "", "=q3=Defiler's Cloth Boots", "=ds=", "#HONOR:45#", ""};
 				{ 19, 20191, "", "=q3=Defiler's Leather Girdle", "=ds=", "#HONOR:45#", ""};
@@ -5794,7 +5794,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = BabbleZone["Arathi Basin"].." "..AL["Level 20-39 Rewards"],
+			name = BabbleZone["Arathi Basin"].." "..string.format(AL["Level %s Rewards"], "20-39"),
 			module = moduleName, menu = "PVPMENU2"
 		};
 	}

@@ -1734,23 +1734,23 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ShaofAnger"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 1, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Balance"]};
 				{ 2, 85308, "", "=q4=Eternal Blossom Gloves", "=ds=#s9#, #a2#"};
 				{ 3, 85306, "", "=q4=Eternal Blossom Leggings", "=ds=#s11#, #a2#"};
 				{ 5, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["DPS"]};
 				{ 6, 85312, "", "=q4=Eternal Blossom Grips", "=ds=#s9#, #a2#"};
 				{ 7, 85310, "", "=q4=Eternal Blossom Legguards", "=ds=#s11#, #a2#"};
-				{ 9, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 9, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
 				{ 10, 85358, "", "=q4=Eternal Blossom Handwraps", "=ds=#s9#, #a2#"};
 				{ 11, 85356, "", "=q4=Eternal Blossom Legwraps", "=ds=#s11#, #a2#"};
-				{ 13, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Guardian"]};
+				{ 13, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Guardian"]};
 				{ 14, 85380, "", "=q4=Eternal Blossom Handguards", "=ds=#s9#, #a2#"};
 				{ 15, 85382, "", "=q4=Eternal Blossom Breeches", "=ds=#s11#, #a2#"};
-				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Balance"]};
+				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Balance"]};
 				{ 17, 84843, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
-				{ 20, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Feral"]};
+				{ 20, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Feral"]};
 				{ 21, 84832, "", "=q4=Malevolent Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
-				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Restoration"]};
+				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
 				{ 25, 84833, "", "=q4=Malevolent Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"];
 			};
@@ -1778,65 +1778,65 @@ local moduleName = "AtlasLootMoP"
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." / "..LOCALIZED_CLASS_NAMES_MALE["MAGE"].." / "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"];
 			};
 			{
-				{ 1, 0, "spell_monk_brewmaster_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Brewmaster"]};
+				{ 1, 0, "spell_monk_brewmaster_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Brewmaster"]};
 				{ 2, 85387, "", "=q4=Red Crane Gauntlets", "=ds=#s9#, #a2#"};
 				{ 3, 85385, "", "=q4=Red Crane Legguards", "=ds=#s11#, #a2#"};
-				{ 5, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Mistweaver"]};
+				{ 5, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Mistweaver"]};
 				{ 6, 85389, "", "=q4=Red Crane Handwraps", "=ds=#s9#, #a2#"};
 				{ 7, 85391, "", "=q4=Red Crane Legwraps", "=ds=#s11#, #a2#"};
-				{ 9, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Windwalker"]};
+				{ 9, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Windwalker"]};
 				{ 10, 85395, "", "=q4=Red Crane Grips", "=ds=#s9#, #a2#"};
 				{ 11, 85397, "", "=q4=Red Crane Leggings", "=ds=#s11#, #a2#"};
-				{ 20, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Mistweaver"]};
+				{ 20, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Mistweaver"]};
 				{ 21, 84836, "", "=q4=Malevolent Gladiator's Copperskin Gloves", "=ds=#s9#, #a2#"};
-				{ 24, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AL["Windwalker"]};
+				{ 24, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Windwalker"]};
 				{ 25, 84839, "", "=q4=Malevolent Gladiator's Ironskin Gloves", "=ds=#s9#, #a2#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["MONK"];
 			};
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
 				{ 2, 85347, "", "=q4=White Tiger Gloves", "=ds=#s9#, #a4#"};
 				{ 3, 85345, "", "=q4=White Tiger Greaves", "=ds=#s11#, #a4#"};
-				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Retribution"]};
 				{ 6, 85342, "", "=q4=White Tiger Gauntlets", "=ds=#s9#, #a4#"};
 				{ 7, 85340, "", "=q4=White Tiger Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Protection"]};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Protection"]};
 				{ 10, 85322, "", "=q4=White Tiger Handguards", "=ds=#s9#, #a4#"};
 				{ 11, 85320, "", "=q4=White Tiger Legguards", "=ds=#s11#, #a4#"};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Holy"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
 				{ 17, 84831, "", "=q4=Malevolent Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
-				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Retribution"]};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Retribution"]};
 				{ 21, 84834, "", "=q4=Malevolent Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"];
 			};
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
 				{ 2, 85363, "", "=q4=Guardian Serpent Handwraps", "=ds=#s9#, #a1#"};
 				{ 3, 85361, "", "=q4=Guardian Serpent Legwraps", "=ds=#s11#, #a1#"};
-				{ 5, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 5, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Shadow"]};
 				{ 6, 85364, "", "=q4=Guardian Serpent Gloves", "=ds=#s9#, #a1#"};
 				{ 7, 85366, "", "=q4=Guardian Serpent Leggings", "=ds=#s11#, #a1#"};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Holy"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
 				{ 17, 84846, "", "=q4=Malevolent Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
-				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Shadow"]};
+				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Shadow"]};
 				{ 21, 84838, "", "=q4=Malevolent Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"];
 			};
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Elemental"]};
 				{ 2, 85290, "", "=q4=Firebird's Gloves", "=ds=#s9#, #a3#"};
 				{ 3, 85292, "", "=q4=Firebird's Kilt", "=ds=#s11#, #a3#"};
-				{ 5, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 5, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Enhancement"]};
 				{ 6, 85287, "", "=q4=Firebird's Grips", "=ds=#s9#, #a3#"};
 				{ 7, 85285, "", "=q4=Firebird's Legguards", "=ds=#s11#, #a3#"};
-				{ 9, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 9, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
 				{ 10, 85352, "", "=q4=Firebird's Handwraps", "=ds=#s9#, #a3#"};
 				{ 11, 85350, "", "=q4=Firebird's Legwraps", "=ds=#s11#, #a3#"};
-				{ 16, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Elemental"]};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Elemental"]};
 				{ 17, 84845, "", "=q4=Malevolent Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
-				{ 20, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Enhancement"]};
+				{ 20, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Enhancement"]};
 				{ 21, 84844, "", "=q4=Malevolent Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
-				{ 24, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Restoration"]};
+				{ 24, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
 				{ 25, 84847, "", "=q4=Malevolent Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"];
 			};
@@ -1850,7 +1850,7 @@ local moduleName = "AtlasLootMoP"
 				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
 				{ 10, 85331, "", "=q4=Gauntlets of Resounding Rings", "=ds=#s9#, #a4#"};
 				{ 11, 85330, "", "=q4=Legplates of Resounding Rings", "=ds=#s11#, #a4#"};
-				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Protection"]};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AtlasLoot_IngameLocales["Protection"]};
 				{ 14, 85327, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#"};
 				{ 15, 85325, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
@@ -4514,7 +4514,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Balance"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4543,7 +4543,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Feral"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4572,7 +4572,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Restoration"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4717,7 +4717,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Retribution"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4746,7 +4746,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Holy"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4862,7 +4862,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Elemental"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4891,7 +4891,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Enhancement"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -4920,7 +4920,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Restoration"],
 			module = moduleName, menu = "PVP90SET",
 		};
 	}
@@ -5560,19 +5560,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14DeathKnightDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t14s10_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t14s10_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86676, "", "=q4=Helmet of the Lost Catacomb", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86674, "", "=q4=Pauldrons of the Lost Catacomb", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86678, "", "=q4=Breastplate of the Lost Catacomb", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86677, "", "=q4=Gauntlets of the Lost Catacomb", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86675, "", "=q4=Greaves of the Lost Catacomb", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t14s10_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t14s10_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85336, "", "=q4=Helmet of the Lost Catacomb", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85334, "", "=q4=Pauldrons of the Lost Catacomb", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85338, "", "=q4=Breastplate of the Lost Catacomb", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85337, "", "=q4=Gauntlets of the Lost Catacomb", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85335, "", "=q4=Greaves of the Lost Catacomb", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t14s10_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t14s10_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 86915, "", "=q4=Helmet of the Lost Catacomb", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 86917, "", "=q4=Pauldrons of the Lost Catacomb", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 86913, "", "=q4=Breastplate of the Lost Catacomb", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5589,19 +5589,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14DeathKnightTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t14s10_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t14s10_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86656, "", "=q4=Faceguard of the Lost Catacomb", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86654, "", "=q4=Shoulderguards of the Lost Catacomb", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86658, "", "=q4=Chestguard of the Lost Catacomb", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86657, "", "=q4=Handguards of the Lost Catacomb", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86655, "", "=q4=Legguards of the Lost Catacomb", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t14s10_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t14s10_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85316, "", "=q4=Faceguard of the Lost Catacomb", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85314, "", "=q4=Shoulderguards of the Lost Catacomb", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85318, "", "=q4=Chestguard of the Lost Catacomb", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85317, "", "=q4=Handguards of the Lost Catacomb", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85315, "", "=q4=Legguards of the Lost Catacomb", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t14s10_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t14s10_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 86920, "", "=q4=Faceguard of the Lost Catacomb", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 86922, "", "=q4=Shoulderguards of the Lost Catacomb", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 86918, "", "=q4=Chestguard of the Lost Catacomb", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5618,19 +5618,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#t14s1_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#t14s1_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86697, "", "=q4=Eternal Blossom Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86694, "", "=q4=Eternal Blossom Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86695, "", "=q4=Eternal Blossom Robes", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86698, "", "=q4=Eternal Blossom Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86696, "", "=q4=Eternal Blossom Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_nature_healingtouch", "=q6=#t14s1_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_healingtouch", "=q6=#t14s1_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85357, "", "=q4=Eternal Blossom Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85354, "", "=q4=Eternal Blossom Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85355, "", "=q4=Eternal Blossom Robes", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85358, "", "=q4=Eternal Blossom Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85356, "", "=q4=Eternal Blossom Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_nature_healingtouch", "=q6=#t14s1_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#t14s1_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 86929, "", "=q4=Eternal Blossom Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 86932, "", "=q4=Eternal Blossom Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 86931, "", "=q4=Eternal Blossom Robes", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5639,7 +5639,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Restoration"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5647,19 +5647,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14DruidDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_druid_catform", "=q6=#t14s1_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_druid_catform", "=q6=#t14s1_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86651, "", "=q4=Eternal Blossom Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86649, "", "=q4=Eternal Blossom Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86653, "", "=q4=Eternal Blossom Raiment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86652, "", "=q4=Eternal Blossom Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86650, "", "=q4=Eternal Blossom Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "ability_druid_catform", "=q6=#t14s1_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_druid_catform", "=q6=#t14s1_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85311, "", "=q4=Eternal Blossom Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85309, "", "=q4=Eternal Blossom Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85313, "", "=q4=Eternal Blossom Raiment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85312, "", "=q4=Eternal Blossom Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85310, "", "=q4=Eternal Blossom Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "ability_druid_catform", "=q6=#t14s1_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_druid_catform", "=q6=#t14s1_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 86925, "", "=q4=Eternal Blossom Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 86927, "", "=q4=Eternal Blossom Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 86923, "", "=q4=Eternal Blossom Raiment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5668,7 +5668,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Feral"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5676,19 +5676,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14DruidBalance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6=#t14s1_3#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_starfall", "=q6=#t14s1_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86647, "", "=q4=Eternal Blossom Cover", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86644, "", "=q4=Eternal Blossom Shoulderwraps", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86645, "", "=q4=Eternal Blossom Vestment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86648, "", "=q4=Eternal Blossom Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86646, "", "=q4=Eternal Blossom Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_nature_starfall", "=q6=#t14s1_3#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_starfall", "=q6=#t14s1_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85307, "", "=q4=Eternal Blossom Cover", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85304, "", "=q4=Eternal Blossom Shoulderwraps", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85305, "", "=q4=Eternal Blossom Vestment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85308, "", "=q4=Eternal Blossom Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85306, "", "=q4=Eternal Blossom Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_nature_starfall", "=q6=#t14s1_3#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_starfall", "=q6=#t14s1_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 86934, "", "=q4=Eternal Blossom Cover", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 86937, "", "=q4=Eternal Blossom Shoulderwraps", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 86936, "", "=q4=Eternal Blossom Vestment", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5697,7 +5697,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Balance"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5705,19 +5705,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14DruidTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#t14s1_4#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_racial_bearform", "=q6=#t14s1_4#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86721, "", "=q4=Eternal Blossom Headguard", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86723, "", "=q4=Eternal Blossom Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86719, "", "=q4=Eternal Blossom Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86720, "", "=q4=Eternal Blossom Handguards", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86722, "", "=q4=Eternal Blossom Breeches", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "ability_racial_bearform", "=q6=#t14s1_4#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_racial_bearform", "=q6=#t14s1_4#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85381, "", "=q4=Eternal Blossom Headguard", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85383, "", "=q4=Eternal Blossom Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85379, "", "=q4=Eternal Blossom Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85380, "", "=q4=Eternal Blossom Handguards", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85382, "", "=q4=Eternal Blossom Breeches", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "ability_racial_bearform", "=q6=#t14s1_4#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_racial_bearform", "=q6=#t14s1_4#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 86940, "", "=q4=Eternal Blossom Headguard", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 86942, "", "=q4=Eternal Blossom Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 86938, "", "=q4=Eternal Blossom Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5726,7 +5726,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Guardian"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Guardian"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5734,19 +5734,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14Hunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#t14s2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#t14s2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86636, "", "=q4=Yaungol Slayer's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86634, "", "=q4=Yaungol Slayer's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86638, "", "=q4=Yaungol Slayer's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86637, "", "=q4=Yaungol Slayer's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86635, "", "=q4=Yaungol Slayer's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "inv_weapon_bow_07", "=q6=#t14s2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "inv_weapon_bow_07", "=q6=#t14s2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85296, "", "=q4=Yaungol Slayer's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85294, "", "=q4=Yaungol Slayer's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85298, "", "=q4=Yaungol Slayer's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85297, "", "=q4=Yaungol Slayer's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85295, "", "=q4=Yaungol Slayer's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "inv_weapon_bow_07", "=q6=#t14s2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#t14s2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87004, "", "=q4=Yaungol Slayer's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87006, "", "=q4=Yaungol Slayer's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87002, "", "=q4=Yaungol Slayer's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5763,19 +5763,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86717, "", "=q4=Hood of the Burning Scroll", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86714, "", "=q4=Mantle of the Burning Scroll", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86715, "", "=q4=Robes of the Burning Scroll", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86718, "", "=q4=Gloves of the Burning Scroll", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86716, "", "=q4=Leggings of the Burning Scroll", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85377, "", "=q4=Hood of the Burning Scroll", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85374, "", "=q4=Mantle of the Burning Scroll", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85375, "", "=q4=Robes of the Burning Scroll", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85378, "", "=q4=Gloves of the Burning Scroll", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85376, "", "=q4=Leggings of the Burning Scroll", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "inv_staff_13", "=q6=#t14s3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87008, "", "=q4=Hood of the Burning Scroll", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87011, "", "=q4=Mantle of the Burning Scroll", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87010, "", "=q4=Robes of the Burning Scroll", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5792,19 +5792,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14MonkTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_brewmaster_spec", "=q6=#t14s11_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_monk_brewmaster_spec", "=q6=#t14s11_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86726, "", "=q4=Red Crane Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86724, "", "=q4=Red Crane Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86728, "", "=q4=Red Crane Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86727, "", "=q4=Red Crane Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86725, "", "=q4=Red Crane Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_monk_brewmaster_spec", "=q6=#t14s11_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_monk_brewmaster_spec", "=q6=#t14s11_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85386, "", "=q4=Red Crane Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85384, "", "=q4=Red Crane Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85388, "", "=q4=Red Crane Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85387, "", "=q4=Red Crane Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85385, "", "=q4=Red Crane Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_monk_brewmaster_spec", "=q6=#t14s11_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_monk_brewmaster_spec", "=q6=#t14s11_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87096, "", "=q4=Red Crane Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87098, "", "=q4=Red Crane Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87094, "", "=q4=Red Crane Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5813,7 +5813,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Brewmaster"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AtlasLoot_IngameLocales["Brewmaster"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5821,19 +5821,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14MonkDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#t14s11_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#t14s11_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86736, "", "=q4=Red Crane Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86738, "", "=q4=Red Crane Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86734, "", "=q4=Red Crane Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86735, "", "=q4=Red Crane Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86737, "", "=q4=Red Crane Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#t14s11_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#t14s11_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85396, "", "=q4=Red Crane Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85398, "", "=q4=Red Crane Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85394, "", "=q4=Red Crane Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85395, "", "=q4=Red Crane Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85397, "", "=q4=Red Crane Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#t14s11_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#t14s11_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87086, "", "=q4=Red Crane Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87088, "", "=q4=Red Crane Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87084, "", "=q4=Red Crane Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5842,7 +5842,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Windwalker"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AtlasLoot_IngameLocales["Windwalker"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5850,19 +5850,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14MonkHealer"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#t14s11_3#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#t14s11_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86730, "", "=q4=Red Crane Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86733, "", "=q4=Red Crane Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86732, "", "=q4=Red Crane Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86729, "", "=q4=Red Crane Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86731, "", "=q4=Red Crane Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#t14s11_3#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#t14s11_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85390, "", "=q4=Red Crane Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85393, "", "=q4=Red Crane Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85392, "", "=q4=Red Crane Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85389, "", "=q4=Red Crane Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85391, "", "=q4=Red Crane Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#t14s11_3#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#t14s11_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87090, "", "=q4=Red Crane Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87093, "", "=q4=Red Crane Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87092, "", "=q4=Red Crane Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5871,7 +5871,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Mistweaver"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AtlasLoot_IngameLocales["Mistweaver"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5879,19 +5879,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t14s4_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t14s4_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86686, "", "=q4=White Tiger Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86684, "", "=q4=White Tiger Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86688, "", "=q4=White Tiger Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86687, "", "=q4=White Tiger Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86685, "", "=q4=White Tiger Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t14s4_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t14s4_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85346, "", "=q4=White Tiger Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85344, "", "=q4=White Tiger Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85348, "", "=q4=White Tiger Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85347, "", "=q4=White Tiger Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85345, "", "=q4=White Tiger Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t14s4_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t14s4_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87106, "", "=q4=White Tiger Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87108, "", "=q4=White Tiger Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87104, "", "=q4=White Tiger Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5900,7 +5900,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Holy"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5908,19 +5908,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14PaladinProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6=#t14s4_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_devotionaura", "=q6=#t14s4_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86661, "", "=q4=White Tiger Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86659, "", "=q4=White Tiger Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86663, "", "=q4=White Tiger Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86662, "", "=q4=White Tiger Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86660, "", "=q4=White Tiger Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_holy_devotionaura", "=q6=#t14s4_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_devotionaura", "=q6=#t14s4_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85321, "", "=q4=White Tiger Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85319, "", "=q4=White Tiger Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85323, "", "=q4=White Tiger Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85322, "", "=q4=White Tiger Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85320, "", "=q4=White Tiger Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_holy_devotionaura", "=q6=#t14s4_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_devotionaura", "=q6=#t14s4_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87111, "", "=q4=White Tiger Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87113, "", "=q4=White Tiger Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87109, "", "=q4=White Tiger Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5929,7 +5929,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Protection"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5937,19 +5937,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t14s4_3#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t14s4_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86681, "", "=q4=White Tiger Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86679, "", "=q4=White Tiger Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86683, "", "=q4=White Tiger Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86682, "", "=q4=White Tiger Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86680, "", "=q4=White Tiger Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t14s4_3#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t14s4_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85341, "", "=q4=White Tiger Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85339, "", "=q4=White Tiger Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85343, "", "=q4=White Tiger Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85342, "", "=q4=White Tiger Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85340, "", "=q4=White Tiger Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t14s4_3#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t14s4_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87101, "", "=q4=White Tiger Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87103, "", "=q4=White Tiger Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87099, "", "=q4=White Tiger Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5958,7 +5958,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Retribution"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5966,19 +5966,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t14s5_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86705, "", "=q4=Guardian Serpent Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86708, "", "=q4=Guardian Serpent Shoulderguards", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86707, "", "=q4=Guardian Serpent Raiment", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86704, "", "=q4=Guardian Serpent Gloves", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86706, "", "=q4=Guardian Serpent Leggings", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t14s5_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85365, "", "=q4=Guardian Serpent Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85368, "", "=q4=Guardian Serpent Shoulderguards", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85367, "", "=q4=Guardian Serpent Raiment", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85364, "", "=q4=Guardian Serpent Gloves", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85366, "", "=q4=Guardian Serpent Leggings", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t14s5_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87120, "", "=q4=Guardian Serpent Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87123, "", "=q4=Guardian Serpent Shoulderguards", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87122, "", "=q4=Guardian Serpent Raiment", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -5987,7 +5987,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Shadow"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -5995,19 +5995,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86702, "", "=q4=Guardian Serpent Cowl", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86699, "", "=q4=Guardian Serpent Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86700, "", "=q4=Guardian Serpent Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86703, "", "=q4=Guardian Serpent Handwraps", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86701, "", "=q4=Guardian Serpent Legwraps", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85362, "", "=q4=Guardian Serpent Cowl", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85359, "", "=q4=Guardian Serpent Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85360, "", "=q4=Guardian Serpent Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85363, "", "=q4=Guardian Serpent Handwraps", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85361, "", "=q4=Guardian Serpent Legwraps", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t14s5_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87115, "", "=q4=Guardian Serpent Cowl", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87118, "", "=q4=Guardian Serpent Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87117, "", "=q4=Guardian Serpent Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6016,7 +6016,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Holy"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -6024,19 +6024,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14Rogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#t14s6#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#t14s6#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86641, "", "=q4=Helmet of the Thousandfold Blades", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86639, "", "=q4=Spaulders of the Thousandfold Blades", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86643, "", "=q4=Tunic of the Thousandfold Blades", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86642, "", "=q4=Gloves of the Thousandfold Blades", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86640, "", "=q4=Legguards of the Thousandfold Blades", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "inv_throwingknife_04", "=q6=#t14s6#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "inv_throwingknife_04", "=q6=#t14s6#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85301, "", "=q4=Helmet of the Thousandfold Blades", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85299, "", "=q4=Spaulders of the Thousandfold Blades", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85303, "", "=q4=Tunic of the Thousandfold Blades", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85302, "", "=q4=Gloves of the Thousandfold Blades", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85300, "", "=q4=Legguards of the Thousandfold Blades", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "inv_throwingknife_04", "=q6=#t14s6#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#t14s6#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87126, "", "=q4=Helmet of the Thousandfold Blades", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87128, "", "=q4=Spaulders of the Thousandfold Blades", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87124, "", "=q4=Tunic of the Thousandfold Blades", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6053,19 +6053,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t14s7_3#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t14s7_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86631, "", "=q4=Firebird's Headpiece", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86633, "", "=q4=Firebird's Shoulderwraps", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86629, "", "=q4=Firebird's Hauberk", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86630, "", "=q4=Firebird's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86632, "", "=q4=Firebird's Kilt", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t14s7_3#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t14s7_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85291, "", "=q4=Firebird's Headpiece", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85293, "", "=q4=Firebird's Shoulderwraps", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85289, "", "=q4=Firebird's Hauberk", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85290, "", "=q4=Firebird's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85292, "", "=q4=Firebird's Kilt", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t14s7_3#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t14s7_3#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87141, "", "=q4=Firebird's Headpiece", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87143, "", "=q4=Firebird's Shoulderwraps", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87139, "", "=q4=Firebird's Hauberk", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6074,7 +6074,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Elemental"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -6082,19 +6082,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#t14s7_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#t14s7_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86626, "", "=q4=Firebird's Helmet", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86624, "", "=q4=Firebird's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86628, "", "=q4=Firebird's Cuirass", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86627, "", "=q4=Firebird's Grips", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86625, "", "=q4=Firebird's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_nature_lightningshield", "=q6=#t14s7_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_lightningshield", "=q6=#t14s7_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85286, "", "=q4=Firebird's Helmet", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85284, "", "=q4=Firebird's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85288, "", "=q4=Firebird's Cuirass", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85287, "", "=q4=Firebird's Grips", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85285, "", "=q4=Firebird's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_nature_lightningshield", "=q6=#t14s7_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#t14s7_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87136, "", "=q4=Firebird's Helmet", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87138, "", "=q4=Firebird's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87134, "", "=q4=Firebird's Cuirass", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6103,7 +6103,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Enhancement"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -6111,19 +6111,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t14s7_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t14s7_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86691, "", "=q4=Firebird's Faceguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86689, "", "=q4=Firebird's Mantle", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86693, "", "=q4=Firebird's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86692, "", "=q4=Firebird's Handwraps", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86690, "", "=q4=Firebird's Legwraps", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t14s7_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t14s7_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85351, "", "=q4=Firebird's Faceguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85349, "", "=q4=Firebird's Mantle", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85353, "", "=q4=Firebird's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85352, "", "=q4=Firebird's Handwraps", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85350, "", "=q4=Firebird's Legwraps", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t14s7_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t14s7_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87131, "", "=q4=Firebird's Faceguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87133, "", "=q4=Firebird's Mantle", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87129, "", "=q4=Firebird's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6132,7 +6132,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Restoration"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -6140,19 +6140,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t14s8#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t14s8#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86710, "", "=q4=Sha-Skin Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86713, "", "=q4=Sha-Skin Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86712, "", "=q4=Sha-Skin Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86709, "", "=q4=Sha-Skin Gloves", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86711, "", "=q4=Sha-Skin Leggings", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t14s8#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t14s8#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85370, "", "=q4=Sha-Skin Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85373, "", "=q4=Sha-Skin Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85372, "", "=q4=Sha-Skin Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85369, "", "=q4=Sha-Skin Gloves", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85371, "", "=q4=Sha-Skin Leggings", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#t14s8#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t14s8#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87188, "", "=q4=Sha-Skin Hood", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87191, "", "=q4=Sha-Skin Mantle", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87190, "", "=q4=Sha-Skin Robes", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6169,19 +6169,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14WarriorFury"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t14s9_1#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t14s9_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86673, "", "=q4=Helmet of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86669, "", "=q4=Pauldrons of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86672, "", "=q4=Battleplate of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86671, "", "=q4=Gauntlets of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86670, "", "=q4=Legplates of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t14s9_1#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t14s9_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85333, "", "=q4=Helmet of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85329, "", "=q4=Pauldrons of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85332, "", "=q4=Battleplate of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85331, "", "=q4=Gauntlets of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85330, "", "=q4=Legplates of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t14s9_1#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t14s9_1#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87192, "", "=q4=Helmet of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87196, "", "=q4=Pauldrons of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87193, "", "=q4=Battleplate of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6198,19 +6198,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T14WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..AL["Tier 14"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Raid Finder"]};
 				{ 2, 86666, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 3, 86664, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 4, 86668, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 5, 86667, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 6, 86665, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..AL["Tier 14"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Normal"]};
 				{ 9, 85326, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 10, 85324, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 11, 85328, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
 				{ 12, 85327, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Wind Lord Mel'jarak", 741)};
 				{ 13, 85325, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Amber-Shaper Un'sok", 737)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..AL["Tier 14"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t14s9_2#", "=q5="..string.format(AL["Tier %d"], 14).." - "..AL["Heroic"]};
 				{ 17, 87199, "", "=q4=Faceguard of Resounding Rings", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Sha of Fear", 709)};
 				{ 18, 87201, "", "=q4=Shoulderguards of Resounding Rings", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Lei Shi", 729)};
 				{ 19, 87197, "", "=q4=Chestguard of Resounding Rings", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Grand Empress Shek'zeer", 743)};
@@ -6219,7 +6219,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AtlasLoot_IngameLocales["Protection"],
 			module = moduleName, menu = "T14SET",
 		};
 	}
@@ -6231,19 +6231,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15DeathKnightDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95827, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95829, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95825, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95826, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95828, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95227, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95229, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95225, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95226, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95228, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t15s10_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96571, "", "=q4=Helmet of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96573, "", "=q4=Pauldrons of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96569, "", "=q4=Breastplate of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6260,19 +6260,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15DeathKnightTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95832, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95834, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95830, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95831, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95833, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95232, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95234, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95230, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95231, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95233, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t15s10_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96576, "", "=q4=Faceguard of the All-Consuming Maw", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96578, "", "=q4=Shoulderguards of the All-Consuming Maw", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96574, "", "=q4=Chestguard of the All-Consuming Maw", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6289,19 +6289,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15DruidRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95841, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95844, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95843, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95840, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95842, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95241, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95244, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95243, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95240, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95242, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_healingtouch", "=q6=#t15s1_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96585, "", "=q4=Helm of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96588, "", "=q4=Mantle of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96587, "", "=q4=Robes of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6310,7 +6310,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Restoration"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6318,19 +6318,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15DruidDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95837, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95839, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95835, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95836, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95838, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95237, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95239, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95235, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95236, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95238, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_druid_catform", "=q6=#t15s1_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96581, "", "=q4=Headpiece of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96583, "", "=q4=Spaulders of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96579, "", "=q4=Raiment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6339,7 +6339,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Feral"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6347,19 +6347,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15DruidBalance"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95846, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95849, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95848, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95845, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95847, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95246, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95249, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95248, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95245, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95247, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_starfall", "=q6=#t15s1_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96590, "", "=q4=Cover of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96593, "", "=q4=Shoulderwraps of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96592, "", "=q4=Vestment of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6368,7 +6368,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Balance"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6376,19 +6376,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15DruidTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95852, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95854, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95850, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95851, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95853, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95252, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95254, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95250, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95251, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95253, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_racial_bearform", "=q6=#t15s1_4#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96596, "", "=q4=Headguard of the Haunted Forest", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96598, "", "=q4=Shoulderguards of the Haunted Forest", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96594, "", "=q4=Tunic of the Haunted Forest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6397,7 +6397,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Guardian"],
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AtlasLoot_IngameLocales["Guardian"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6405,19 +6405,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15Hunter"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95884, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95886, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95882, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95883, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95885, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95257, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95259, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95255, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95256, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95258, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "inv_weapon_bow_07", "=q6=#t15s2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96628, "", "=q4=Saurok Stalker's Headguard", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96630, "", "=q4=Saurok Stalker's Spaulders", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96626, "", "=q4=Saurok Stalker's Tunic", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6434,19 +6434,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15Mage"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95891, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95894, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95893, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95890, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95892, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95261, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95264, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95263, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95260, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95262, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "inv_staff_13", "=q6=#t15s3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96635, "", "=q4=Hood of the Chromatic Hydra", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96638, "", "=q4=Mantle of the Chromatic Hydra", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96637, "", "=q4=Robes of the Chromatic Hydra", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6463,19 +6463,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15MonkTank"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95907, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95909, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95905, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95906, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95908, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95277, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95279, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95275, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95276, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95278, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_monk_brewmaster_spec", "=q6=#t15s11_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96651, "", "=q4=Fire-Charm Crown", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96653, "", "=q4=Fire-Charm Shoulderguards", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96649, "", "=q4=Fire-Charm Chestguard", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6484,7 +6484,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Brewmaster"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AtlasLoot_IngameLocales["Brewmaster"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6492,19 +6492,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15MonkDPS"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95897, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95899, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95895, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95896, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95898, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95267, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95269, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95265, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95266, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95268, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_monk_windwalker_spec", "=q6=#t15s11_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96641, "", "=q4=Fire-Charm Headpiece", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96643, "", "=q4=Fire-Charm Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96639, "", "=q4=Fire-Charm Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6513,7 +6513,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Windwalker"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AtlasLoot_IngameLocales["Windwalker"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6521,19 +6521,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15MonkHealer"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95901, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95904, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95903, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95900, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95902, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95271, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95274, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95273, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95270, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95272, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_monk_mistweaver_spec", "=q6=#t15s11_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96645, "", "=q4=Fire-Charm Helm", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96648, "", "=q4=Fire-Charm Mantle", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96647, "", "=q4=Fire-Charm Vest", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6542,7 +6542,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AL["Mistweaver"],
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"].." - "..AtlasLoot_IngameLocales["Mistweaver"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6550,19 +6550,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15PaladinHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95917, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95919, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95915, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95916, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95918, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95287, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95289, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95285, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95286, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95288, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t15s4_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96661, "", "=q4=Lightning Emperor's Headguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96663, "", "=q4=Lightning Emperor's Mantle", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96659, "", "=q4=Lightning Emperor's Breastplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6571,7 +6571,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Holy"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6579,19 +6579,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15PaladinProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95922, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95924, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95920, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95921, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95923, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95292, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95294, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95290, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95291, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95293, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_devotionaura", "=q6=#t15s4_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96666, "", "=q4=Lightning Emperor's Faceguard", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96668, "", "=q4=Lightning Emperor's Shoulderguards", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96664, "", "=q4=Lightning Emperor's Chestguard", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6600,7 +6600,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Protection"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6608,19 +6608,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15PaladinRetribution"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95912, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95914, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95910, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95911, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95913, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95282, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95284, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95280, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95281, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95283, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t15s4_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96656, "", "=q4=Lightning Emperor's Helmet", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96658, "", "=q4=Lightning Emperor's Pauldrons", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96654, "", "=q4=Lightning Emperor's Battleplate", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6629,7 +6629,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AtlasLoot_IngameLocales["Retribution"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6637,19 +6637,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15PriestShadow"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95931, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95934, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95933, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95930, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95932, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95301, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95304, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95303, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95300, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95302, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96675, "", "=q4=Hood of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96678, "", "=q4=Shoulderguards of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96677, "", "=q4=Raiment of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6658,7 +6658,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Shadow"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6666,19 +6666,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15PriestHoly"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95926, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95929, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95928, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95925, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95927, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95296, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95299, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95298, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95295, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95297, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t15s5_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96670, "", "=q4=Cowl of the Exorcist", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96673, "", "=q4=Mantle of the Exorcist", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96672, "", "=q4=Robes of the Exorcist", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6687,7 +6687,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"],
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AtlasLoot_IngameLocales["Holy"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6695,19 +6695,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15Rogue"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95937, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95939, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95935, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95936, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95938, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95307, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95309, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95305, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95306, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95308, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "inv_throwingknife_04", "=q6=#t15s6#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96681, "", "=q4=Nine-Tailed Helmet", "=ds=#s1#, #a2#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96683, "", "=q4=Nine-Tailed Spaulders", "=ds=#s3#, #a2#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96679, "", "=q4=Nine-Tailed Tunic", "=ds=#s5#, #a2#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6724,19 +6724,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15ShamanElemental"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95952, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95954, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95950, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95951, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95953, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95322, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95324, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95320, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95321, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95323, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t15s7_3#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96696, "", "=q4=Headpiece of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96698, "", "=q4=Shoulderwraps of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96694, "", "=q4=Hauberk of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6745,7 +6745,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Elemental"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6753,19 +6753,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15ShamanEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95947, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95949, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95945, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95946, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95948, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95317, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95319, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95315, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95316, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95318, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_lightningshield", "=q6=#t15s7_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96691, "", "=q4=Helmet of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96693, "", "=q4=Spaulders of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96689, "", "=q4=Cuirass of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6774,7 +6774,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Enhancement"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6782,19 +6782,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15ShamanRestoration"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95942, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95944, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95940, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95941, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95943, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95312, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95314, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95310, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95311, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95313, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t15s7_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96686, "", "=q4=Faceguard of the Witch Doctor", "=ds=#s1#, #a3#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96688, "", "=q4=Mantle of the Witch Doctor", "=ds=#s3#, #a3#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96684, "", "=q4=Tunic of the Witch Doctor", "=ds=#s5#, #a3#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6803,7 +6803,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"],
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AtlasLoot_IngameLocales["Restoration"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -6811,19 +6811,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15Warlock"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95982, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95985, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95984, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95981, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95983, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95326, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95329, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95328, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95325, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95327, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "spell_nature_drowsy", "=q6=#t15s8#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96726, "", "=q4=Hood of the Thousandfold Hells", "=ds=#s1#, #a1#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96729, "", "=q4=Mantle of the Thousandfold Hells", "=ds=#s3#, #a1#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96728, "", "=q4=Robes of the Thousandfold Hells", "=ds=#s5#, #a1#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6840,19 +6840,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15WarriorFury"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95986, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95990, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95987, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95988, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95989, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95330, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95334, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95331, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95332, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95333, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_1#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96730, "", "=q4=Helmet of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96734, "", "=q4=Pauldrons of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96731, "", "=q4=Battleplate of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6869,19 +6869,19 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["T15WarriorProtection"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..AL["Tier 15"].." - "..AL["Raid Finder"]};
+				{ 1, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Raid Finder"]};
 				{ 2, 95993, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 3, 95995, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 4, 95991, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 5, 95992, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 6, 95994, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..AL["Tier 15"].." - "..AL["Normal"]};
+				{ 8, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Normal"]};
 				{ 9, 95337, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 10, 95339, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 11, 95335, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
 				{ 12, 95336, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#", AtlasLoot:EJ_GetBossName("Council of Elders", 816)};
 				{ 13, 95338, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#", AtlasLoot:EJ_GetBossName("Ji-Kun", 828)};
-				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..AL["Tier 15"].." - "..AL["Heroic"]};
+				{ 16, 0, "ability_warrior_innerrage", "=q6=#t15s9_2#", "=q5="..string.format(AL["Tier %d"], 15).." - "..AL["Heroic"]};
 				{ 17, 96737, "", "=q4=Faceguard of the Last Mogu", "=ds=#s1#, #a4#", AtlasLoot:EJ_GetBossName("Twin Consorts", 829)};
 				{ 18, 96739, "", "=q4=Shoulderguards of the Last Mogu", "=ds=#s3#, #a4#", AtlasLoot:EJ_GetBossName("Iron Qon", 817)};
 				{ 19, 96735, "", "=q4=Chestguard of the Last Mogu", "=ds=#s5#, #a4#", AtlasLoot:EJ_GetBossName("Dark Animus", 824)};
@@ -6890,7 +6890,7 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"],
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AtlasLoot_IngameLocales["Protection"],
 			module = moduleName, menu = "T15SET",
 		};
 	}
@@ -8583,9 +8583,9 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 28788, "", "=q1=Tabard of the Protector", "#ACHIEVEMENTID:2079#"};
 				{ 6, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
 				{ 8, 0, "achievement_featsofstrength_gladiator_10", "=q6="..AL["Arena Reward"], ""};
-				{ 9, 45983, "", "=q4=Furious Gladiator's Tabard", "=q5="..AL["Season 6"]};
-				{ 10, 49086, "", "=q4=Relentless Gladiator's Tabard", "=q5="..AL["Season 7"]};
-				{ 11, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=q5="..AL["Season 8"]};
+				{ 9, 45983, "", "=q4=Furious Gladiator's Tabard", "=q5="..string.format(AL["Season %d"], 6)};
+				{ 10, 49086, "", "=q4=Relentless Gladiator's Tabard", "=q5="..string.format(AL["Season %d"], 7)};
+				{ 11, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=q5="..string.format(AL["Season %d"], 8)};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Tabards"], ""};
 				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#, =q1=#m24#"};
 				{ 18, 23705, "", "=q4=Tabard of Flame", "=ds=#s7#, =q1=#m24#"};
@@ -8890,16 +8890,16 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["HeirloomBoAArmor"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Level 85-89"], "=q1="..AL["Mists of Pandaria"]};
+				{ 1, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "85-89"), "=q1="..AL["Mists of Pandaria"]};
 				{ 2, 86521, "", "=q3=Lucid Amulet of the Agile Mind", "=ds=#s2#"};
 				{ 3, 86525, "", "=q3=Bloodsoaked Chitin Fragment", "=ds=#s14#"};
 				{ 4, 89611, "", "=q3=Quilen Statuette", "=ds=#s14#"};
 				{ 6, 0, "INV_Box_01", "=q6="..AL["Level 85"], "=q1="..AL["Cataclysm"]};
 				{ 7, 64904, "", "=q4=Ring of the Boy Emperor", "=ds=#s13#"};
 				{ 8, 64645, "", "=q4=Tyrande's Favorite Doll", "=ds=#s14#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Level 60-69"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "60-69"), ""};
 				{ 17, 64644, "", "=q4=Headdress of the First Shaman", "=ds=#s1#, #a3#"};
-				{ 19, 0, "INV_Box_01", "=q6="..AL["Level 50-60"], ""};
+				{ 19, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "50-60"), ""};
 				{ 20, 64643, "", "=q4=Queen Azshara's Dressing Gown", "=ds=#s5#, #a1#"};
 			};
 		};
@@ -8916,7 +8916,7 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 79340, "", "=q4=Inscribed Crane Staff", "=ds=#w9#"};
 				{ 3, 79341, "", "=q4=Inscribed Serpent Staff", "=ds=#w9#"};
 				{ 4, 79343, "", "=q4=Inscribed Tiger Staff", "=ds=#w9#"};
-				{ 6, 0, "INV_Box_01", "=q6="..AL["Level 85-89"], "=q1="..AL["Mists of Pandaria"]};
+				{ 6, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "85-89"), "=q1="..AL["Mists of Pandaria"]};
 				{ 7, 85776, "", "=q3=Wodin's Mantid Shanker", "=ds=#h1#, #w4#"};
 				{ 8, 86519, "", "=q3=Wind-Reaver's Dagger of Quick Strikes", "=ds=#h1#, #w4#"};
 				{ 9, 86527, "", "=q3=Blade of the Poisoned Mind", "=ds=#h3#, #w10#"};
@@ -8943,7 +8943,7 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 64880, "", "=q4=Staff of Ammunae", "=ds=#w9#"};
 				{ 5, 64489, "", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#w9#"};
 				{ 6, 69764, "", "=q4=Extinct Turtle Shell", "=ds=#w8#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Level 70-79"], ""};
+				{ 16, 0, "INV_Box_01", "=q6="..string.format(AL["Level %s"], "70-79"), ""};
 				{ 17, 64460, "", "=q4=Nifflevar Bearded Axe", "=ds=#h1#, #w1#"};
 			};
 		};
