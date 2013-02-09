@@ -200,7 +200,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Terrace of Endless Spring"], "AtlasLootMoP", mapname = "TerraceofEndlessSpring", raid = true, EncounterJournalID = 320 },
 		},
 
-		--[[["ThroneofThunder"] = {
+		["ThroneofThunder"] = {
 			["Bosses"] = {
 				{ "ToTJinrokh", 2, EncounterJournalID = 827 },
 				{ "ToTHorridon", 3, EncounterJournalID = 819 },
@@ -216,8 +216,8 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTLeiShen", 13, EncounterJournalID = 832 },
 				{ "ToTRaden", 14, EncounterJournalID = 831},
 			},
-			["Info"] = { BabbleZone["Throne of Thunder"], "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
-		},--]]
+			["Info"] = { "Throne of Thunder", "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
+		},
 
 	---------------------------
 	--- Cataclysm Instances ---

@@ -160,6 +160,7 @@ AtlasLoot_TextParsing = {
 	{ "#m38#", AL["Tier 12"] },
 	{ "#m39#", AL["Tier 13"] },
 	{ "#m40#", AL["Tier 14"] },
+	{ "#m41#", AL["Tier 15"] },
 
 	-- Misc
 	{ "#j1#", AL["Normal Mode"] },
