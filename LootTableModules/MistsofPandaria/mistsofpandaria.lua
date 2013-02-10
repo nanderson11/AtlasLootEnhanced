@@ -4017,7 +4017,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
 				{ 17, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
 				{ 19, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
-				{ 20, 95564, "", "=q4=Primal Golden Direhorn", "=ds=#e26#"};
+				{ 20, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#"};
 				{ 21, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive"};
 				{ 22, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
 			};
@@ -4310,7 +4310,7 @@ local moduleName = "AtlasLootMoP"
 				{ 16, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
 				{ 17, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
 				{ 19, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
-				{ 20, 95565, "", "=q4=Primal Crimson Direhorn", "=ds=#e26#"};
+				{ 20, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#"};
 				{ 21, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught"};
 				{ 22, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
 			};
@@ -4465,23 +4465,29 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 2, 85046, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
-				{ 3, 85086, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
-				{ 4, 84993, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
-				{ 5, 85028, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
-				{ 6, 85059, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
+				{ 2, 91152, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 91156, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 91148, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 91150, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 91154, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 9, 84853, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
-				{ 10, 84918, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
-				{ 11, 84795, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
-				{ 12, 84835, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
-				{ 13, 84872, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
+				{ 9, 85046, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 85086, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 84993, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 85028, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 85059, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 17, 84374, "", "=q3=Dreadful Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2250#"};
-				{ 18, 84376, "", "=q3=Dreadful Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1750#"};
-				{ 19, 84372, "", "=q3=Dreadful Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2250#"};
-				{ 20, 84373, "", "=q3=Dreadful Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1750#"};
-				{ 21, 84375, "", "=q3=Dreadful Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2250#"};
+				{ 17, 91504, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 91508, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 91500, "", "=q4=Malevolent Gladiator's Dreadplate Chestpiece", "=ds=", "#HONOR:2250#"};
+				{ 20, 91502, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1750#"};
+				{ 21, 91506, "", "=q4=Malevolent Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:2250#"};
+				{ 23, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
+				{ 24, 93455, "", "=q3=Crafted Dreadful Gladiator's Dreadplate Helm", "=ds="};
+				{ 25, 93457, "", "=q3=Crafted Dreadful Gladiator's Dreadplate Shoulders", "=ds="};
+				{ 26, 93453, "", "=q3=Crafted Dreadful Gladiator's Dreadplate Chestpiece", "=ds="};
+				{ 27, 93454, "", "=q3=Crafted Dreadful Gladiator's Dreadplate Gauntlets", "=ds="};
+				{ 28, 93456, "", "=q3=Crafted Dreadful Gladiator's Dreadplate Legguards", "=ds="};
 			};
 		};
 		info = {
@@ -6902,97 +6908,101 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["CardGame"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Ancients"]};
-				{ 2, 79771, "", "=q4=Feldrake", "=ds=#e26#" },
-				{ 3, 79769, "", "=q3=Demon Hunter's Aspect", "=ds=" },
-				{ 4, 79744, "", "=q3=Eye of the Legion", "=ds=#e13#"};
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Tomb of the Forgotten"]};
-				{ 7, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },
-				{ 8, 72161, "", "=q3=Spurious Sarcophagus", "=ds=" },
-				{ 9, 72153, "", "=q3=Sand Scarab", "=ds=#e13#"};
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Crown of Heaven"]};
-				{ 12, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
-				{ 13, 72159, "", "=q3=Magical Ogre Idol", "=ds=" },
-				{ 14, 72134, "", "=q3=Grell Moss", "=ds=#e13#"};
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
-				{ 17, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
-				{ 18, 71624, "", "=q3=Purple Puffer", "=ds=#e13#"},
-				{ 19, 71628, "", "=q3=Sack of Starfish", "=ds=" },
-				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
-				{ 22, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
-				{ 23, 69227, "", "=q3=Fool's Gold", "=ds=" },
-				{ 24, 68841, "", "=q3=Nightsaber Cub", "=ds=#e13#" },
-				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
-				{ 27, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
-				{ 28, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
-				{ 29, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Betrayal of the Guardian"]};
+				{ 2, 93671, "", "=q4=Ghastly Charger's Skull", "=ds=#12#" },
+				{ 3, 93672, "", "=q3=Dark Portal", "=ds=" },
+				{ 4, 93669, "", "=q3=Gusting Grimoire", "=ds=#e13#"};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Ancients"]};
+				{ 7, 79771, "", "=q4=Feldrake", "=ds=#e27#" },
+				{ 8, 79769, "", "=q3=Demon Hunter's Aspect", "=ds=" },
+				{ 9, 79744, "", "=q3=Eye of the Legion", "=ds=#e13#"};
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Tomb of the Forgotten"]};
+				{ 12, 72575, "", "=q4=White Riding Camel", "=ds=#e26#" },
+				{ 13, 72161, "", "=q3=Spurious Sarcophagus", "=ds=" },
+				{ 14, 72153, "", "=q3=Sand Scarab", "=ds=#e13#"};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Crown of Heaven"]};
+				{ 17, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
+				{ 18, 72159, "", "=q3=Magical Ogre Idol", "=ds=" },
+				{ 19, 72134, "", "=q3=Grell Moss", "=ds=#e13#"};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
+				{ 22, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#" },
+				{ 23, 71624, "", "=q3=Purple Puffer", "=ds=#e13#"},
+				{ 24, 71628, "", "=q3=Sack of Starfish", "=ds=" },
+				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Twilight of the Dragons"]};
+				{ 27, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#" },
+				{ 28, 69227, "", "=q3=Fool's Gold", "=ds=" },
+				{ 29, 68841, "", "=q3=Nightsaber Cub", "=ds=#e13#" },
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
-				{ 2, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
-				{ 3, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
-				{ 4, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
-				{ 7, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
-				{ 8, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
-				{ 9, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
-				{ 12, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
-				{ 13, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
-				{ 14, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
-				{ 17, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
-				{ 18, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
-				{ 19, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
-				{ 20, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
-				{ 22, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
-				{ 23, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
-				{ 24, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
-				{ 25, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
-				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
-				{ 28, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
-				{ 29, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
-				{ 30, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Elements"]};
+				{ 2, 69228, "", "=q4=Savage Raptor", "=ds=#e26#" },
+				{ 3, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#" },
+				{ 4, 69215, "", "=q3=War Party Hitching Post", "=ds=" },
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Worldbreaker"]};
+				{ 7, 68008, "", "=q4=Mottled Drake", "=ds="..AL["Mottled Drake"] };
+				{ 8, 67097, "", "=q3=Grim Campfire", "=ds="..AL["Grim Campfire"] };
+				{ 9, 67128, "", "=q3=Landro's Lil' XT", "=ds="..AL["Landro's Lil' XT"] };
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
+				{ 12, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
+				{ 13, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
+				{ 14, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
+				{ 17, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
+				{ 18, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
+				{ 19, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
+				{ 22, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
+				{ 23, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
+				{ 24, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
+				{ 25, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
+				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
+				{ 28, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
+				{ 29, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
+				{ 30, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
-				{ 2, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
-				{ 3, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
-				{ 4, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
-				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
-				{ 7, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
-				{ 8, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
-				{ 9, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
-				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
-				{ 12, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
-				{ 13, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
-				{ 14, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
-				{ 15, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
-				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
-				{ 17, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
-				{ 18, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
-				{ 19, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
-				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fires of Outland"]};
-				{ 22, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
-				{ 23, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
-				{ 24, 33223, "", "=q3=Fishing Chair", "=ds="..AL["Gone Fishin'"]};
-				{ 25, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds="..AL["Goblin Gumbo"]};
-				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Through The Dark Portal"]};
-				{ 28, 32588, "", "=q3=Banana Charm", "=ds="..AL["King Mukla"]};
-				{ 29, 32566, "", "=q3=Picnic Basket", "=ds="..AL["Rest and Relaxation"]};
-				{ 30, 32542, "", "=q3=Imp in a Ball", "=ds="..AL["Fortune Telling"]};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
+				{ 2, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
+				{ 3, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
+				{ 4, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
+				{ 7, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
+				{ 8, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
+				{ 9, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
+				{ 12, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
+				{ 13, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
+				{ 14, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 17, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
+				{ 18, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 19, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 20, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
+				{ 22, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
+				{ 23, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
+				{ 24, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
+				{ 25, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
 			};
 			{
-				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Heroes of Azeroth"]};
-				{ 2, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
-				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
-				{ 4, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
-				{ 6, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
-				{ 7, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
-				{ 8, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
-				{ 9, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
-				{ 10, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
-				{ 11, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fires of Outland"]};
+				{ 2, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
+				{ 3, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
+				{ 4, 33223, "", "=q3=Fishing Chair", "=ds="..AL["Gone Fishin'"]};
+				{ 5, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds="..AL["Goblin Gumbo"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Through The Dark Portal"]};
+				{ 7, 32588, "", "=q3=Banana Charm", "=ds="..AL["King Mukla"]};
+				{ 8, 32566, "", "=q3=Picnic Basket", "=ds="..AL["Rest and Relaxation"]};
+				{ 9, 32542, "", "=q3=Imp in a Ball", "=ds="..AL["Fortune Telling"]};
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Heroes of Azeroth"]};
+				{ 12, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
+				{ 13, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
+				{ 14, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
+				{ 16, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
+				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
+				{ 18, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
+				{ 19, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
+				{ 20, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
+				{ 21, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
 				{ 22, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
 				{ 23, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
 				{ 24, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#"};
@@ -7443,7 +7453,8 @@ local moduleName = "AtlasLootMoP"
 				{ 5, 32588, "", "=q3=Banana Charm", "=ds=#e13#", "=q1="..AL["Through The Dark Portal"]};
 				{ 6, 79744, "", "=q3=Eye of the Legion", "=ds=#e13#", "=q1="..AL["War of the Ancients"]};
 				{ 7, 72134, "", "=q3=Grell Moss", "=ds=#e13#", "=q1="..AL["Crown of Heaven"]};
-				{ 8, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#", "=q1="..AL["War of the Elements"]};
+				{ 8, 93669, "", "=q3=Gusting Grimoire", "=q1="..AL["Betrayal of the Guardian"]};
+				{ 9, 68840, "", "=q3=Landro's Lichling", "=ds=#e13#", "=q1="..AL["War of the Elements"]};
 				{ 17, 67128, "", "=q3=Landro's Lil' XT", "=ds=#e13#", "=q1="..AL["Worldbreaker"]};
 				{ 18, 71624, "", "=q3=Purple Puffer", "=ds=#e13#", "=q1="..BabbleZone["Throne of the Tides"]};
 				{ 19, 34492, "", "=q3=Rocket Chicken", "=ds=#e13#", "=q1="..AL["March of the Legion"]};
@@ -7457,7 +7468,7 @@ local moduleName = "AtlasLootMoP"
 			name = AL["Card Game Companions"],
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
-	}
+	}			
 
 	AtlasLoot_Data["PetsRemoved"] = {
 		["Normal"] = {
@@ -8174,17 +8185,18 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 54069, "", "=q4=Blazing Hippogryph", "=ds=#e27#", "=q1="..AL["Wrathgate"]};
 				{ 4, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#", "=q1="..AL["Crown of Heaven"]},
 				{ 5, 79771, "", "=q4=Feldrake", "=ds=#e26#", "=q1="..AL["War of the Ancients"]},
-				{ 6, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#", "=q1="..AL["Fields of Honor"]};
-				{ 7, 68008, "", "=q4=Mottled Drake", "=ds=#e27#", "=q1="..AL["Worldbreaker"]};
-				{ 8, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
-				{ 9, 23720, "", "=q4=Riding Turtle", "=ds=#e26#", "=q1="..AL["Heroes of Azeroth"]};
-				{ 10, 69228, "", "=q4=Savage Raptor", "=ds=#e26#", "=q1="..AL["War of the Elements"]},
-				{ 11, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#", "=q1="..BabbleZone["Throne of the Tides"]},
-				{ 12, 72575, "", "=q4=White Riding Camel", "=ds=#e26#", "=q1="..AL["Tomb of the Forgotten"]},
-				{ 13, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#", "=q1="..AL["Icecrown"]};
-				{ 14, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
-				{ 16, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
-				{ 17, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 6, 93671, "", "=q4=Ghastly Charger's Skull", "=ds=#12#", "=q1="..AL["Betrayal of the Guardian"]},
+				{ 7, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#", "=q1="..AL["Fields of Honor"]};
+				{ 8, 68008, "", "=q4=Mottled Drake", "=ds=#e27#", "=q1="..AL["Worldbreaker"]};
+				{ 9, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
+				{ 16, 23720, "", "=q4=Riding Turtle", "=ds=#e26#", "=q1="..AL["Heroes of Azeroth"]};
+				{ 17, 69228, "", "=q4=Savage Raptor", "=ds=#e26#", "=q1="..AL["War of the Elements"]},
+				{ 18, 71718, "", "=q4=Swift Shorestrider", "=ds=#e26#", "=q1="..BabbleZone["Throne of the Tides"]},
+				{ 19, 72575, "", "=q4=White Riding Camel", "=ds=#e26#", "=q1="..AL["Tomb of the Forgotten"]},
+				{ 20, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#", "=q1="..AL["Icecrown"]};
+				{ 21, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 23, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#", "=q1="..AL["Fires of Outland"]};
+				{ 24, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#", "=q1="..AL["Servants of the Betrayer"]};
 			};
 		};
 		info = {
@@ -8192,7 +8204,7 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
-
+				
 	AtlasLoot_Data["MountsPromotional"] = {
 		["Normal"] = {
 			{
