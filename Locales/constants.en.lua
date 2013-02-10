@@ -22,6 +22,8 @@ Also check if it should be added instead to one of the Babble libraries we use.
 
 -- Register translations
 if AL then
+	AL["Betrayal of the Guardian"] = true;
+
 
 	-- #########
 	-- UI things

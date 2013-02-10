@@ -481,6 +481,102 @@ local function EJScan(container)
 	container:AddChild(multiEditbox)
 end
 
+-- diff = max 5
+local instanceList = {
+	317, -- Mogu
+	322, -- Pandaria
+	320, -- Terasse
+	330, -- HoF
+	--362, -- Throne
+}
+local numClasses = GetNumClasses()
+local function startBonusRollScan()
+	local tab = {}
+	local retString = ""
+	if not IsAddOnLoaded("Blizzard_EncounterJournal") then
+		LoadAddOn("Blizzard_EncounterJournal")
+	end
+	EncounterJournal_ListInstances()
+	EJ_ClearSearch()
+	EJ_SetDifficulty(1)
+
+	--EncounterJournal_DisplayInstance(
+	for _,iniId in ipairs(instanceList) do
+		for diff=1,5 do 
+			EncounterJournal_ListInstances()
+			EncounterJournal_DisplayInstance(iniId)
+			EJ_SetDifficulty(diff)
+			for classId=1,numClasses do
+				local numSpecs = GetNumSpecializationsForClassID(classId)
+				for specId=1,numSpecs do
+					local specID, specName = GetSpecializationInfoForClassID(classId, specId)
+					EJ_SetLootFilter(classId, specID)
+					local numLoot = EJ_GetNumLoot()
+					--print(numLoot)
+					for loot=1,numLoot do
+						local name, icon, slot, armorType, itemID, link, encounterID = EJ_GetLootInfoByIndex(loot)
+						if not tab[itemID] then tab[itemID] = {} end
+						if not tab[itemID][classId] then
+							tab[itemID][classId] = {}
+							for i=1,numSpecs do
+								tab[itemID][classId][i] = false
+							end
+						end
+						tab[itemID][classId][specId] = true
+					end
+				end
+			end
+		end
+	end
+	
+	for itemId, itemTab in pairs(tab) do
+		retString = retString.."AtlasLoot_BonusRoll_Items["..itemId.."]={"
+		for classId, classTab in pairs(itemTab) do
+			retString = retString.."["..classId.."]={"
+			for specId,spec in ipairs(classTab) do
+				if specId > 1 then
+					retString=retString..","
+				end
+				if spec then
+					retString=retString.."true"
+				else
+					retString=retString.."false"
+				end
+			end
+			retString = retString.."},"
+		end
+		retString = retString.."}\n"
+	end
+	
+	return retString
+end
+--EJ_SetLootFilter(classID, specID)
+local function BonusRollScanFrame(container)
+	local lootTable, lootTableString
+  
+	local multiEditbox = AceGUI:Create("MultiLineEditBox")
+
+	local desc = AceGUI:Create("Label")
+	desc:SetText("")
+	--desc:SetFullWidth(true)
+	
+	local button = AceGUI:Create("Button")
+	button:SetText("Start Scan")
+	button:SetCallback("OnClick", function() 
+		lootTableString = startBonusRollScan()
+		multiEditbox:SetText(lootTableString)
+	end)
+	button:SetWidth(200)
+	container:AddChild(button)
+
+	container:AddChild(desc)
+	
+	multiEditbox:SetLabel("LootTable:")
+	multiEditbox:SetFullWidth(true)
+	multiEditbox:SetFullHeight(true)
+	--multiEditbox:SetCallback("OnEnterPressed", function(widget, event, text) lootTable = text end)
+	container:AddChild(multiEditbox)
+end
 -- ######################################################
 
 
@@ -497,7 +593,9 @@ local function SelectGroup(container, event, group)
 		EJScan(container)
 	elseif group == "tab5" then
 		AchievementScanFrame(container)
-   end
+	elseif group == "tab6" then
+		BonusRollScanFrame(container)
+	end
 end
 
 
@@ -513,7 +611,7 @@ function AtlasLoot:DevTool_CreateFrame()
 	local tab =  AceGUI:Create("TabGroup")
 	tab:SetLayout("Flow")
 	-- Setup which tabs to show
-	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}, {text="EJ Scan", value="tab4"}, {text="Achievement Scan", value="tab5"}})
+	tab:SetTabs({{text="Vendor Scan", value="tab1"}, {text="TextParsing Scan", value="tab2"}, {text="InstanceInfo Scan", value="tab3"}, {text="EJ Scan", value="tab4"}, {text="Achievement Scan", value="tab5"}, {text="BonusRoll Scan", value="tab6"}})
 	-- Register callback
 	tab:SetCallback("OnGroupSelected", SelectGroup)
 	-- Set initial Tab (this will fire the OnGroupSelected callback)
@@ -606,3 +704,38 @@ function AtlasLoot:ReduceMemoryUsage()
 	collectgarbage("collect")
 
 end
+
+--[[ EVENTLOG
+local eventSave = {}
+local eventFrame = CreateFrame("FRAME")
+local functioneventFrameOnEvent = function(self, event, ...)
+	if event then
+		if not eventSave[event] then eventSave[event] = {} end
+		table.insert(eventSave[event], {...})
+		print(event, ...)
+	end
+end
+eventFrame:SetScript("OnEvent", functioneventFrameOnEvent)
+
+function AtlasLoot_PrintEventLog()
+	for event,eventTab in pairs(eventSave) do
+		if eventTab and type(eventTab) == "table" then
+			for i,args in ipairs(eventTab) do
+				local argString = event.." - "
+				local tmp = ""
+				for k,v in ipairs(args) do
+					tmp = string.format("## arg%d:%s", k, tostring(v or "nil"))
+					argString = argString..tmp
+				end
+				print(argString)
+			end
+		end
+	end
+end
+
+eventFrame:RegisterEvent("SPELL_CONFIRMATION_PROMPT")
+eventFrame:RegisterEvent("SPELL_CONFIRMATION_TIMEOUT")
+eventFrame:RegisterEvent("BONUS_ROLL_STARTED")
+eventFrame:RegisterEvent("BONUS_ROLL_FAILED")
+eventFrame:RegisterEvent("BONUS_ROLL_RESULT")
+]]--

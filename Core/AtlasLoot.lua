@@ -123,6 +123,8 @@ local AtlasLootDBDefaults = {
 		LastMinAtlasVersion = 0,
 		EnableMouseOverDesc = true,
 		CurrentUpgradeLvl = 0,
+		BonusRollEnabled = true,
+		ShowBonusRollInfoInTT = true,
 	}
 }
 
@@ -227,6 +229,7 @@ function AtlasLoot:OnLoaderLoad()
 	end
 	self:CompareFrame_Create()
 	self:EncounterJournal_Initialize()
+	self:BonusRoll_Initialize()
 
 
 	--#########
@@ -1460,7 +1463,6 @@ function AtlasLoot:ShowSecretPage()
 					{ 12, 12947};
 					{ 13, 32824};
 					{ 14, 80237};
-					{ 15, 32824};
 					{ 16, 0, "INV_Box_01", "=q6=Legendary", ""};
 					{ 17, 80211};
 					{ 18, 43651};
@@ -1481,8 +1483,3 @@ function AtlasLoot:ShowSecretPage()
 	
 	AtlasLoot:ShowLootPage("SECRET_PAGE")
 end
-
-
--- ###########################################################################
--- itemEditor
--- ###########################################################################
