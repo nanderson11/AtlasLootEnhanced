@@ -45,6 +45,7 @@ if AL then
 	AL["You cant set more then %d item stats."] = "Sie können nicht mehr als %d Gegenstandswerte festlegen.";
 	-- AL["Slot"] = true;
 	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = "AtlasLoot hat einige beschädigte Einträge auf Ihrem Wunschzettel gefunden. Sie können jetzt eine automatische Überprüfung zur Behebung des Problems ausführen. Dies kann einige Zeit in Anspruch nehmen.";
+	AL["BonusRoll:"] = "Bonusbeute:";
 
 	-- Stats short
 	-- AL["iLvl"] = true;	-- Item lvl
@@ -82,11 +83,12 @@ if AL then
 	-- Options
 	AL["Options"] = "Optionen";
 	AL["Load Loot Modules at Startup"] = "Module beim Start laden";
-	-- AL["Minimap Button"] = true;
+	AL["Toggle Minimap Button"] = "Minimap Button an/aus";
+	AL["Toggles the display of the minimap icon"] = "Schaltet den Button an der Minimap an/aus";
 	AL["Show itemIDs"] = "Item-IDs anzeigen";
 	AL["Show Droprates"] = "Dropraten anzeigen";
 	AL["Safe Chat Links"] = "Sichere Chatlinks";
-	AL["Comparison TT"] = "Vergleiche Item";
+	AL["Comparison Tooltips"] = "Vergleiche Item";
 	AL["Show Boss Tooltip"] = "Boss ToolTip anzeigen";
 	AL["Show Comparison Tooltips"] = "Zeige eigenes Item zum Vergleich";
 	AL["Opaque"] = "Undurchsichtig";
@@ -101,6 +103,8 @@ if AL then
 	AL["Loot Table"] = "Beuteverzeichnis";
 	AL["Enable mouse on item descriptions"] = "Beschreibungstooltips beim Hovern am Mauszeiger einblenden";
 	AL["Upgrade Level:"] = "Aufwertungsgrad:";
+	AL["Show BonusRoll info"] = "Info zu Bonusbeute anzeigen";
+	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = "Zeigt, ob ein Gegenstand via Bonusbeute oder im Schlachtzugsbrowser verfügbar ist.";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";
@@ -491,12 +495,6 @@ if AL then
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Bankette/Festmähler";
-	AL["Way of the Brew"] = "Weg des Gebräus";
-	AL["Way of the Grill"] = "Weg des Grills";
-	AL["Way of the Oven"] = "Weg des Ofens";
-	AL["Way of the Pot"] = "Weg des Topfes";
-	AL["Way of the Steamer"] = "Weg des Dämpfens";
-	AL["Way of the Wok"] = "Weg des Woks";
 
 	-- Enchanting
 	AL["Enchant Boots"] = "Stiefel verzaubern";
@@ -527,7 +525,6 @@ if AL then
 	AL["Off-Hand Items"] = "Nebenhand-Gegenstände";
 	AL["Shoulder Enchants"] = "Schulterverzauberungen";
 	AL["Reagents"] = "Reagenzien";
-	AL["Book of Glyph Mastery"] = "Buch der Glyphenbeherrschung";
 
 	-- Leatherworking
 	AL["Leather Armor"] = "Lederrüstungen";
@@ -580,34 +577,13 @@ if AL then
 	AL["Replica"] = "Nachbildungen";
 	-- AL["Dungeon Set 3"] = true;
 	-- AL["Dungeon Set 4"] = true;
-	-- AL["Tier 1"] = true;
-	-- AL["Tier 2"] = true;
-	-- AL["Tier 3"] = true;
-	-- AL["Tier 4"] = true;
-	-- AL["Tier 5"] = true;
-	-- AL["Tier 6"] = true;	
-	-- AL["Tier 7"] = true;
-	-- AL["Tier 8"] = true;
-	-- AL["Tier 9"] = true;
-	-- AL["Tier 10"] = true;
-	-- AL["Tier 11"] = true;
-	-- AL["Tier 12"] = true;
-	-- AL["Tier 13"] = true;
-	-- AL["Tier 14"] = true;
-	-- AL["Tier 15"] = true;
+	-- AL["Tier %d"] = true;
 	AL["Challenge Mode Armor Sets"] = "Herausforderungsmodus Rüstungssets";
 	AL["10 Man"] = "10 Spieler";
 	AL["10/25 Man"] = "10/25 Spieler";
 	AL["Epic Set"] = "Episches Set";
 	AL["Rare Set"] = "Seltenes Set";
-	AL["Season 6"] = "Saison 6";
-	AL["Season 7"] = "Saison 7";
-	AL["Season 8"] = "Saison 8";
-	AL["Season 9"] = "Saison 9";
-	AL["Season 10"] = "Saison 10";
-	AL["Season 11"] = "Saison 11";
-	AL["Season 12"] = "Saison 12";
-	AL["Season 13"] = "Saison 13";
+	AL["Season %d"] = "Saison %d";
 	AL["Fire"] = "Feuer";
 	AL["Water"] = "Wasser";
 	AL["Wind"] = "Wind";
@@ -644,12 +620,7 @@ if AL then
 	AL["Thunderforged"] = "Donnergeschmiedet";
 
 	-- Loot Table Names
-	AL["Level 30-39"] = "Stufe 30-39";
-	AL["Level 40-49"] = "Stufe 40-49";
-	AL["Level 50-60"] = "Stufe 50-60";
-	AL["Level 60-69"] = "Stufe 60-69";
-	AL["Level 70-79"] = "Stufe 70-79";
-	AL["Level 85-89"] = "Stufe 85-89";
+	AL["Level %s"] = "Stufe %s";
 	AL["Summon"] = "Beschwörbar";
 	AL["Random"] = "Zufällig";
 
@@ -894,17 +865,14 @@ if AL then
 	-- Nineteenth set
 	AL["War of the Ancients"] = "Zeitwandler: Der Krieg der Ahnen";
 
+	-- Twentieth set
+	-- AL["Betrayal of the Guardian"] = true;
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Alte PvP Belohnungen";
 	AL["BG/Open PvP Rewards"] = "BG/Open PvP Belohnungen";
 	AL["Misc. Rewards"] = "Diverses";
-	AL["Level 10-19 Rewards"] = "Belohnungen (Stufe 10-19)";
-	AL["Level 20-39 Rewards"] = "Belohnungen (Stufe 20-39)";
-	AL["Level 20-29 Rewards"] = "Belohnungen (Stufe 20-29)";
-	AL["Level 30-39 Rewards"] = "Belohnungen (Stufe 30-39)";
-	AL["Level 40-49 Rewards"] = "Belohnungen (Stufe 40-49)";
-	AL["Level 50-59 Rewards"] = "Belohnungen (Stufe 50-59)";
-	AL["Level 60 Rewards"] = "Belohnungen (Stufe 60)";
+	AL["Level %s Rewards"] = "Belohnungen (Stufe %s)"; -- usage: string.format(AL["Level %s Rewards"], "60")
 
 	-- Brood of Nozdormu Paths
 	AL["Path of the Conqueror"] = "Der Pfad des Eroberers";
@@ -972,40 +940,9 @@ if AL then
 	AL["Vendor"] = "Händler";
 	AL["World Drop"] = "Weltdrop";
 
-	-- Months
-	AL["January"] = "Januar";
-	AL["February"] = "Februar";
-	AL["March"] = "März";
-	-- AL["April"] = true;
-	AL["May"] = "Mai";
-	AL["June"] = "Juni";
-	AL["July"] = "Juli";
-	-- AL["August"] = true;
-	-- AL["September"] = true;
-	AL["October"] = "Oktober";
-	-- AL["November"] = true;
-	AL["December"] = "Dezember";
-
 	-- Specs
-	AL["Balance"] = "Gleichgewicht";
-	AL["Feral"] = "Wilder Kampf";
-	AL["Guardian"] = "Wächter";
-	AL["Restoration"] = "Wiederherstellung";
-	AL["Holy"] = "Heilig";
-	AL["Discipline"] = "Disziplin";
-	AL["Protection"] = "Schutz";
-	AL["Retribution"] = "Vergeltung";
-	AL["Shadow"] = "Schatten";
-	AL["Elemental"] = "Elementar";
-	AL["Enhancement"] = "Verstärkung";
-	AL["Fury"] = "Furor";
-	AL["Demonology"] = "Dämonologie";
-	AL["Destruction"] = "Zerstörung";
 	AL["Tanking"] = "Schutz";
 	AL["DPS"] = "Schaden";
-	AL["Mistweaver"] = "Nebelwirker";
-	AL["Brewmaster"] = "Braumeister";
-	AL["Windwalker"] = "Windläufer ";
 
 	-- NPCs missing from BabbleBoss
 	-- AL["Trash Mobs"] = true;

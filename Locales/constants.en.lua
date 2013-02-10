@@ -22,8 +22,6 @@ Also check if it should be added instead to one of the Babble libraries we use.
 
 -- Register translations
 if AL then
-	AL["Betrayal of the Guardian"] = true;
-
 
 	-- #########
 	-- UI things
@@ -871,7 +869,7 @@ if AL then
 	AL["War of the Ancients"] = true;
 
 	-- Twentieth set
-	AL["War of the Ancients"] = true;
+	AL["Betrayal of the Guardian"] = true;
 
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = true;

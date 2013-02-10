@@ -1374,7 +1374,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ShadowfangSpringvale", 9, EncounterJournalID = 98 },
 				{ "ShadowfangWalden", 10, EncounterJournalID = 99 },
 				{ "ShadowfangGodfrey", 11, EncounterJournalID = 100 },
-				{ "Valentineday#3", 12, hide = true },
+				{ "ApothecaryHummel", 12, hide = true },
 				{ "ShadowfangTrash", 21 },
 			},
 			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, mapname = "ShadowfangKeep", EncounterJournalID = 64 },
