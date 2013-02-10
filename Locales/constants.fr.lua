@@ -48,6 +48,7 @@ if AL then
 	AL["You cant set more then %d item stats."] = "Vous ne pouvez pas définir plus de %d statistiques différentes.";
 	--AL["Slot"] = true;
 	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = "AtlasLoot a détecté certains objets corrompus dans votre liste de souhaits. Vous pouvez lancer une vérification automatique pour tenter de réparer. Cela pourrait prendre un petit moment.";
+	AL["BonusRoll:"] = "Bonus du jet de dés :"; -- à traduire
 
 	-- Stats short
 	--AL["iLvl"] = true;	-- Item lvl
@@ -85,11 +86,13 @@ if AL then
 	-- Options
 	--AL["Options"] = true;
 	AL["Load Loot Modules at Startup"] = "Charger les modules de loot au démarrage";
-	AL["Minimap Button"] = "Afficher le bouton sur la mini-carte";
+	--AL["Minimap Button"] = "Afficher le bouton sur la mini-carte";
+	--AL["Toggle Minimap Button"] = true; -- à traduire
+	--AL["Toggles the display of the minimap icon"] = true; -- à traduire
 	AL["Show itemIDs"] = "Afficher les IDs des objets";
 	AL["Show Droprates"] = "Afficher les pourcentages de drop";
 	AL["Safe Chat Links"] = "Liens sûrs, sur le canal";
-	AL["Comparison TT"] = "Infobulles comparatives";
+	AL["Comparison Tooltips"] = "Infobulles comparatives";
 	AL["Show Boss Tooltip"] = "Afficher les infosbulles des boss";
 	AL["Show Comparison Tooltips"] = "Afficher les infobulles comparatives";
 	--AL["Opaque"] = true;
@@ -104,6 +107,8 @@ if AL then
 	AL["Loot Table"] = "Table de loot";
 	AL["Enable mouse on item descriptions"] = "Activer la souris sur la description de l'objet";
 	AL["Upgrade Level:"] = "Niveau d'amélioration :";
+	AL["Show BonusRoll info"] = "Afficher le bonus du jet de dés";
+	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = "Inique si un objet est dispobile via le bonus du jet de dés ou via l'outil Raids.";
 
 	-- Default Frame
 	AL["Default Frame"] = "Frame par défaut";
@@ -492,12 +497,6 @@ if AL then
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Banquets / Festins";
-	AL["Way of the Brew"] = "Maître du brassage";
-	AL["Way of the Grill"] = "Maître du grill";
-	AL["Way of the Oven"] = "Maître du four";
-	AL["Way of the Pot"] = "Maître de la marmite";
-	AL["Way of the Steamer"] = "Maître du cuit-vapeur";
-	AL["Way of the Wok"] = "Maître du wok";
 
 	-- Enchanting
 	AL["Enchant Boots"] = "Enchantement Bottes";
@@ -528,7 +527,6 @@ if AL then
 	AL["Off-Hand Items"] = "Objets tenu en main gauche";
 	AL["Shoulder Enchants"] = "Enchantements d'épaule";
 	AL["Reagents"] = "Réactifs";
-	AL["Book of Glyph Mastery"] = "Livre de la maîtrise des glyphes";
 
 	-- Leatherworking
 	AL["Leather Armor"] = "Armure en cuir";
@@ -581,33 +579,13 @@ if AL then
 	AL["Replica"] = "Réplique";
 	AL["Dungeon Set 3"]  = "Set de donjon 3";
 	AL["Dungeon Set 4"] = "Set de donjon 4";
-	--AL["Tier 1"] = true;
-	--AL["Tier 2"] = true;
-	--AL["Tier 3"] = true;
-	--AL["Tier 4"] = true;
-	--AL["Tier 5"] = true;
-	--AL["Tier 6"] = true;
-	--AL["Tier 7"] = true;
-	--AL["Tier 8"] = true;
-	--AL["Tier 9"] = true;
-	--AL["Tier 10"] = true;
-	--AL["Tier 11"] = true;
-	--AL["Tier 12"] = true;
-	--AL["Tier 13"] = true;
-	--AL["Tier 14"] = true;
-	--AL["Tier 15"] = true;
+	--AL["Tier %d"] = true; -- usage: string.format(AL["Tier %d"], 1)
 	AL["Challenge Mode Armor Sets"] = "Sets d'armure du mode défi";
 	AL["10 Man"] = "10 Joueurs";
 	AL["10/25 Man"] = "10 / 25 Joueurs";
 	AL["Epic Set"] = "Set épique";
 	AL["Rare Set"] = "Set rare";
-	AL["Season 6"] = "Saison 6";
-	AL["Season 7"] = "Saison 7";
-	AL["Season 8"] = "Saison 8";
-	AL["Season 9"] = "Saison 9";
-	AL["Season 10"] = "Saison 10";
-	AL["Season 11"] = "Saison 11";
-	AL["Season 12"] = "Saison 12";
+	AL["Season %d"] = "Saison %d"; -- usage: string.format(AL["Season %d"], 6)
 	AL["Fire"] = "Feu";
 	AL["Water"] = "Eau";
 	AL["Wind"] = "Vent";
@@ -641,14 +619,10 @@ if AL then
 	AL["Pandaria World Bosses"] = "World Boss de Pandarie";
 	--AL["Elite"] = true;
 	AL["Vegetables"] = "Légumes";
+	AL["Thunderforged"] = "Foudroyants"; -- à traduire
 
 	-- Loot Table Names
-	AL["Level 30-39"] = "Niveau 30-39";
-	AL["Level 40-49"] = "Niveau 40-49";
-	AL["Level 50-60"] = "Niveau 50-60";
-	AL["Level 60-69"] = "Niveau 60-69";
-	AL["Level 70-79"] = "Niveau 70-79";
-	AL["Level 85-89"] = "Niveau 85-89";
+	AL["Level %s"] = "Niveau %s"; -- usage: string.format(AL["Level %s"], "85-89")
 	AL["Summon"] = "Invocation";
 	AL["Random"] = "Aléatoire";
 
@@ -897,13 +871,7 @@ if AL then
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
 	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
 	AL["Misc. Rewards"] = "Récompenses diverses";
-	AL["Level 10-19 Rewards"] = "Récompenses niveau 10-19";
-	AL["Level 20-39 Rewards"] = "Récompenses niveau 20-39";
-	AL["Level 20-29 Rewards"] = "Récompenses niveau 20-29";
-	AL["Level 30-39 Rewards"] = "Récompenses niveau 30-39";
-	AL["Level 40-49 Rewards"] = "Récompenses niveau 40-49";
-	AL["Level 50-59 Rewards"] = "Récompenses niveau 50-59";
-	AL["Level 60 Rewards"] = "Récompenses niveau 60";
+	AL["Level %s Rewards"] = "Récompenses niveau %s"; -- usage: string.format(AL["Level %s Rewards"], "60")
 
 	-- Brood of Nozdormu Paths
 	AL["Path of the Conqueror"] = "La voie du conquérant";
@@ -971,40 +939,9 @@ if AL then
 	AL["Vendor"] = "Vendeur";	
 	AL["World Drop"] = "Drop mondial";
 
-	-- Months
-	AL["January"] = "Janvier";
-	AL["February"] = "Février";
-	AL["March"] = "Mars";
-	AL["April"] = "Avril";
-	AL["May"] = "Mai";
-	AL["June"] = "Juin";
-	AL["July"] = "Juillet";
-	AL["August"] = "Août";
-	AL["September"] = "Septembre";
-	AL["October"] = "Octobre";
-	AL["November"] = "Novembre";
-	AL["December"] = "Décembre";
-
 	-- Specs
-	AL["Balance"] = "Equilibre";
-	AL["Feral"] = "Combat farouche";
-	AL["Guardian"] = "Gardien";
-	AL["Restoration"] = "Restauration";
-	AL["Holy"] = "Sacré";
-	--AL["Discipline"] = true;
-	--AL["Protection"] = true;
-	AL["Retribution"] = "Vindicte";
-	AL["Shadow"] = "Ombre";
-	AL["Elemental"] = "Elémentaire";
-	AL["Enhancement"] = "Amélioration";
-	AL["Fury"] = "Fureur";
-	AL["Demonology"] = "Démonologie";
-	--AL["Destruction"] = true;
 	--AL["Tanking"] = true;
 	--AL["DPS"] = true;
-	AL["Mistweaver"] = "Tisse-brume";
-	AL["Brewmaster"] = "Maître brasseur";
-	AL["Windwalker"] = "Marche-vent";
 
 	-- NPCs missing from BabbleBoss
 	--AL["Trash Mobs"] = true,
