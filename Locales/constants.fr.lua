@@ -867,6 +867,9 @@ if AL then
 	-- Nineteenth set
 	--AL["War of the Ancients"] = true;
 
+	-- Twentieth set
+	--AL["Betrayal of the Guardian"] = true;
+
 	-- Battleground Brackets
 	AL["Old PvP Rewards"] = "Anciennes récompenses JcJ";
 	AL["BG/Open PvP Rewards"] = "CdB / Récompenses JcJ mondial";
