@@ -421,6 +421,12 @@ function Filter:OnEnable()
 			end
 		end)
 		AtlasLoot.ItemFrame.Filter:SetScript("OnClick", Filter.FilterButtonOnClick)	
+		AtlasLoot.ItemFrame.Filter:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+			GameTooltip:AddLine(AL["|cffFF0000Shift+Click: |cffFFFFFFOpen filter configuration"])
+			GameTooltip:Show()
+		end)
+		AtlasLoot.ItemFrame.Filter:SetScript("OnLeave", function() GameTooltip:Hide() end)
 		AtlasLoot.ItemFrame.Filter:Show()
 	end
 end

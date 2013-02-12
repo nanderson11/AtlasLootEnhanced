@@ -34,6 +34,8 @@ local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 ]]
 AtlasLoot_BonusRoll_Items = {}
 
+local BUTTON_LIST = {}
+
 local PLAYER_CLASS_ID = nil
 local PLAYER_SPEC_INFO = nil
 local BonusRollEventIds = {}
@@ -61,12 +63,53 @@ function AtlasLoot:BonusRoll_Initialize()
 					if type(v.BonusLootID) == "number" then
 						BonusRollEventIds[v.BonusLootID] = v[1]
 					end
-					--BonusRollDataIds[v[1]] = true
+					BonusRollDataIds[v[1]] = true
 				end
 			end
 		end
 	end
 	
+	if AtlasLoot.ItemFrame then
+		AtlasLoot.ItemFrame.BonusRoll = self:BonusRoll_CreateButton("AtlasLootItemsFrame_BonusRoll", AtlasLoot.ItemFrame)
+		if AtlasLoot.ItemFrame.EncounterJournal then
+			AtlasLoot.ItemFrame.BonusRoll:SetPoint("RIGHT", AtlasLoot.ItemFrame.EncounterJournal, "LEFT", 0, 0)
+		else
+			AtlasLoot.ItemFrame.BonusRoll:SetPoint("RIGHT", AtlasLoot.ItemFrame.CloseButton, "LEFT", 0, 0)
+		end
+	end
+	
+	--[[ BonusRoll not workes here :/
+	if AtlasLoot.CompareFrame then
+		AtlasLoot.CompareFrame.BonusRoll = self:BonusRoll_CreateButton("AtlasLootCompareFrame_BonusRoll", AtlasLoot.CompareFrame)
+		AtlasLoot.CompareFrame.BonusRoll:SetWidth(23)
+		AtlasLoot.CompareFrame.BonusRoll:SetHeight(23)
+		if AtlasLoot.CompareFrame.EncounterJournal the
+			AtlasLoot.CompareFrame.BonusRoll:SetPoint("RIGHT", AtlasLoot.CompareFrame.EncounterJournal, "LEFT", 0, 0)
+		else
+			AtlasLoot.CompareFrame.BonusRoll:SetPoint("RIGHT", AtlasLoot.CompareFrame.Close2, "LEFT", -165, -1)
+		end
+	end	
+	]]--
+end
+
+local function bonusRoll_OnClick(self)
+	AtlasLoot.db.profile.BonusRollEnabled = not AtlasLoot.db.profile.BonusRollEnabled
+	AtlasLoot:RefreshLootPage()
+end
+
+function AtlasLoot:BonusRoll_CreateButton(name, parent)
+	local button = CreateFrame("Button",name,parent,"AtlasLoot_RoundButton")
+	button:SetWidth(30)
+	button:SetHeight(30)
+	button:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+	local texture = select(3, GetCurrencyInfo(697))
+	SetPortraitToTexture(button.icon, "Interface\\Icons\\"..texture)
+	button:SetScript("OnClick", bonusRoll_OnClick)
+	--button:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
+	
+	BUTTON_LIST[ #BUTTON_LIST + 1 ] = button
+	
+	return button
 end
 
 function AtlasLoot:BonusLoot_GetSpecInfo(id)
@@ -83,6 +126,9 @@ function AtlasLoot:BonusLoot_CheckItemId(itemId)
 	local ret = {}
 	for k,v in ipairs(AtlasLoot_BonusRoll_Items[itemId][PLAYER_CLASS_ID]) do
 		if v and PLAYER_SPEC_INFO[k] then
+			if not PLAYER_SPEC_INFO[k].icon then
+				CreateSpecInfo()
+			end
 			table.insert(ret, PLAYER_SPEC_INFO[k].icon)
 		end
 	end
@@ -96,9 +142,18 @@ function AtlasLoot:BonusLoot_GetItemIdInfo(itemId)
 	local ret = {}
 	for k,v in ipairs(AtlasLoot_BonusRoll_Items[itemId][PLAYER_CLASS_ID]) do
 		if v then
+			if not PLAYER_SPEC_INFO[k].icon then
+				CreateSpecInfo()
+			end
 			table.insert(ret, "|T"..PLAYER_SPEC_INFO[k].icon..":16|t")
 		end
 	end
 	return #ret > 0 and ret or false
+end
+
+function AtlasLoot:BonusLoot_GetDataIdInfo(dataId)
+	if dataId and BonusRollDataIds[dataId] then
+		return true
+	end
 end
 

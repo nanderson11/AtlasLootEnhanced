@@ -1095,6 +1095,11 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	
 	AtlasLoot.ItemFrame.EncounterJournal.info = dataID
 	AtlasLoot:EncounterJournal_ButtonsRefresh()
+	if AtlasLoot:BonusLoot_GetDataIdInfo(dataID) then
+		AtlasLoot.ItemFrame.BonusRoll:Show()
+	else
+		AtlasLoot.ItemFrame.BonusRoll:Hide()
+	end
 	if AtlasLoot.ItemFrame.CloseButton:IsShown() then
 		AtlasLoot.ItemFrame.EncounterJournal:SetPoint("RIGHT", AtlasLoot.ItemFrame.CloseButton, "LEFT", 0, 0)
 	else

@@ -47,7 +47,7 @@ local function bonusLootOnEnter(self)
 		local name, desc = AtlasLoot:BonusLoot_GetSpecInfo(self.Id)
 		GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
 		GameTooltip:AddLine(name)
-		GameTooltip:AddLine(WHITE..desc)
+		GameTooltip:AddLine(WHITE..desc, nil, nil, nil, true)
 		GameTooltip:Show()
 	end
 end
@@ -233,7 +233,7 @@ do
 			itemButton.Frame.BonusRoll[i]:SetWidth(12.5)
 			itemButton.Frame.BonusRoll[i]:SetScript("OnEnter", bonusLootOnEnter)
 			itemButton.Frame.BonusRoll[i]:SetScript("OnLeave", function() GameTooltip:Hide() end)
-			SetPortraitToTexture(itemButton.Frame.BonusRoll[i].specIcon, "Interface\\Icons\\INV_Misc_QuestionMark")
+			--SetPortraitToTexture(itemButton.Frame.BonusRoll[i].specIcon, "Interface\\Icons\\INV_Misc_QuestionMark")
 
 		end
 

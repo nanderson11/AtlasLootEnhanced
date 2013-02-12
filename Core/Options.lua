@@ -60,6 +60,7 @@ do
 										order = 20,
 										get = function() return not AtlasLootLoaderDB.MiniMapButton.hide end,
 										set = AtlasLoot.MiniMapButtonHideShow,
+										width = "full",
 									},
 									
 								},

@@ -50,23 +50,52 @@ local function createEncounterJournalIDList()
 	end
 end
 
+local function encounterJournal_OnEnter(self)
+	if self.info then
+		local name, description 
+		if self.info[2] then
+			name, description = EJ_GetEncounterInfo(self.info[2])
+		elseif self.info[1] then
+			name, description = EJ_GetInstanceInfo(self.info[1])
+		end	
+		if name and description then
+			GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+			GameTooltip:AddLine(name)
+			GameTooltip:AddLine("|cffFFFFFF"..description, nil, nil, nil, true)
+			GameTooltip:Show()
+		end
+	end
+end
+
 local function encounterJournal_OnClick(self)
 	if self.info then
 		if not IsAddOnLoaded("Blizzard_EncounterJournal") then
 			LoadAddOn("Blizzard_EncounterJournal")
 		end
 		EncounterJournal_ListInstances()
-		if self.info[1] then
-			EncounterJournal_DisplayInstance(self.info[1])
-		end
-		if self.info[2] then
-			EncounterJournal_DisplayEncounter(self.info[2])
-		end
-		if not EncounterJournal:IsShown() then
-			EncounterJournal:Show()
+		if IsShiftKeyDown() then
+			local link
+			if self.info[2] then
+				link = select(5, EJ_GetEncounterInfo(self.info[2]))
+			elseif self.info[1] then
+				link = select(7, EJ_GetInstanceInfo(self.info[1]))
+			end			
+			if link then
+				ChatEdit_InsertLink(link)
+			end
 		else
-			EncounterJournal:Hide()
-			EncounterJournal:Show()
+			if self.info[1] then
+				EncounterJournal_DisplayInstance(self.info[1])
+			end
+			if self.info[2] then
+				EncounterJournal_DisplayEncounter(self.info[2])
+			end
+			if not EncounterJournal:IsShown() then
+				EncounterJournal:Show()
+			else
+				EncounterJournal:Hide()
+				EncounterJournal:Show()
+			end
 		end
 	end
 end
@@ -81,7 +110,9 @@ function AtlasLoot:EncounterJournal_CreateButton(name, parent)
 	button:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
 	SetPortraitToTexture(button.icon, "Interface\\EncounterJournal\\UI-EJ-PortraitIcon")
 	button:SetScript("OnClick", encounterJournal_OnClick)
-	button:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
+	button:SetScript("OnEnter", encounterJournal_OnEnter)
+	button:SetScript("OnLeave", function() GameTooltip:Hide() end)
+	--button:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
 	
 	BUTTON_LIST[ #BUTTON_LIST + 1 ] = button
 	
