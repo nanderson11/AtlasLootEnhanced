@@ -46,6 +46,7 @@ if AL then
 	-- AL["Slot"] = true;
 	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = "AtlasLoot hat einige beschädigte Einträge auf Ihrem Wunschzettel gefunden. Sie können jetzt eine automatische Überprüfung zur Behebung des Problems ausführen. Dies kann einige Zeit in Anspruch nehmen.";
 	AL["BonusRoll:"] = "Bonusbeute:";
+	AL["|cffFF0000Shift+Click: |cffFFFFFFOpen filter configuration"] = "|cffFF0000Shift+Klick: |cffFFFFFFFilterkonfiguration öffnen";
 
 	-- Stats short
 	-- AL["iLvl"] = true;	-- Item lvl
