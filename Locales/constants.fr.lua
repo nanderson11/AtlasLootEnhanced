@@ -43,12 +43,13 @@ if AL then
 	AL["Are you sure you want to delete Sort list |cff1eff00%s|r?"] = "Êtes-vous sûr de vouloir supprimer la liste |cff1eff00%s|r ?";
 	AL["Delete Stats list"] = "Supprimer la liste de statistiques";
 	AL["Stats color"] = "Couleur des statistiques";
-	AL["Stats list name:"] = "Nom de la liste de statistiques";
+	AL["Stats list name:"] = "Nom de la liste de statistiques :";
 	AL["Select Stats list"] = "Sélectionnez la liste de statistiques";
 	AL["You cant set more then %d item stats."] = "Vous ne pouvez pas définir plus de %d statistiques différentes.";
 	--AL["Slot"] = true;
 	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = "AtlasLoot a détecté certains objets corrompus dans votre liste de souhaits. Vous pouvez lancer une vérification automatique pour tenter de réparer. Cela pourrait prendre un petit moment.";
 	AL["BonusRoll:"] = "Bonus du jet de dés :"; -- à traduire
+	AL["|cffFF0000Shift+Click: |cffFFFFFFOpen filter configuration"] = "|cffFF0000Maj+Clic : |cffFFFFFFOuvrez la configuration du filtre";
 
 	-- Stats short
 	--AL["iLvl"] = true;	-- Item lvl
@@ -78,7 +79,7 @@ if AL then
 	AL["Module \"%s\" is missing."] = "Le module \"%s\" est manquant.";
 
 	-- MiniMap-Button
-	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000Clic: |cffFFFFFFOuvrir AtlasLoot\n|cffFF0000Maj+Clic: |cffFFFFFFOuvrir les options d'AtlasLoot";
+	AL["|cffFF0000Click: |cffFFFFFFOpen AtlasLoot\n|cffFF0000Shift+Click: |cffFFFFFFOpen AtlasLoot-Options "] = "|cffFF0000Clic : |cffFFFFFFOuvrir AtlasLoot\n|cffFF0000Maj+Clic : |cffFFFFFFOuvrir les options d'AtlasLoot";
 
 	-- AtlasLootFu 
 	AL["AtlasLootFu is no longer in use.\nDelete it from your AddOns folder"] = "AtlasLootFu n'est plus utilisé.\nVeuillez le supprimer de votre dossier AddOns.";
@@ -130,10 +131,10 @@ if AL then
 	AL["How to view an item in the Dressing Room:"] = "Comment voir un objet dans la cabine d'essayage :";
 	AL["Simply Ctrl+Left Click on the item.  Sometimes the dressing room window is hidden behind the Atlas or AtlasLoot windows, so if nothing seems to happen move your Atlas or AtlasLoot windows and see if anything is hidden."] = "Faites simplement la combinaison Ctrl-Clic gauche sur l'objet. Il se peut parfois que la fenêtre de la cabine d'essayage se retrouve cachée derrière la fenêtre d'Atlas ou d'AtlasLoot : si jamais rien ne semble se produire, déplacez la fenêtre d'Atlas et/ou d'AtlasLoot au cas où quelque chose soit caché derrière.";
 	AL["How to link an item to someone else:"] = "Comment faire le lien d'un objet pour le montrer à quelqu'un d'autre :";
-	AL["Shift+Left Click the item like you would for any other in-game item"] = "Faites la combinaison Shift+Clic-Gauche sur l'objet, exactement comme tous les autres objets du jeu.";
+	AL["Shift+Left Click the item like you would for any other in-game item"] = "Faites la combinaison Maj+Clic-Gauche sur l'objet, exactement comme tous les autres objets du jeu.";
 	AL["How to add an item to the wishlist:"] = "Comment ajouter un objet à ma liste de souhaits :";
 	AL["Alt+Left Click any item to add it to the wishlist."] = "Faites la combinaison Alt+Clic-Gauche sur l'objet en question pour l'ajouter à votre liste de souhaits.";
-	AL["How to delete an item from the wishlist:"] = "Comment supprimer un objet de ma liste de souhaits:";
+	AL["How to delete an item from the wishlist:"] = "Comment supprimer un objet de ma liste de souhaits :";
 	AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."] = "Une fois sur l'écran de votre liste de souhaits, faites simplement la combinaison Alt+Clic-Gauche sur l'objet à supprimer.";
 	AL["What else does the wishlist do?"] = "Qu'est-ce que la liste de souhaits peut faire de plus ?";
 	AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."] = "Si vous faites un clic gauche sur un objet de la liste de souhaits, vous serez directement conduit sur la page du butin qui correspond. De plus, tout objet se trouvant dans votre liste sera marqué par une étoile jaune sur les pages du butin.";
@@ -153,11 +154,11 @@ if AL then
 	AL["%d / %d ( Bank: %d )"] = "%d / %d ( Banque : %d)";
 	-- Unsafe Item
 	AL["Item Unavailable"] = "Objet indisponible";
-	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070ddItemID: %d |r\nCet objet n'est pas fiable.  Pour regarder cet objet sans risque de déconnection, vous devez déjà l'avoir vu au moins une fois dans le jeu.\n\nVous pouvez faire un Clic-Droit pour tenter d'interroger le serveur.  Vous pouvez être déconnecté.";
+	AL["|cff0070ddItemID: %d |r\nThis item is unsafe.  To view this item without the risk of disconnection, you need to have first seen it in the game world.\n\nYou can right-click to attempt to query the server.  You may be disconnected."] = "|cff0070ddID de l'objet : %d |r\nCet objet n'est pas fiable. Pour regarder cet objet sans risque de déconnection, vous devez déjà l'avoir vu au moins une fois dans le jeu.\n\nVous pouvez faire un Clic-Droit pour tenter d'interroger le serveur.  Vous pouvez être déconnecté.";
 	-- Heriloom Config Window
 	AL["Heirloom preview"] = "Aperçu des objets d'héritage";
 	AL["Change level:"] = "Changer le niveau :";
-	AL["Shift + Right Click to select character level"] = "Maj + Clic-Droit pour sélectionnez le niveau d'un personnage";	
+	AL["Shift + Right Click to select character level"] = "Maj+Clic-Droit pour sélectionnez le niveau d'un personnage";	
 
 	-- LootTableSort
 	AL["Sort by Instance"] = "Trier par instance";
@@ -204,7 +205,7 @@ if AL then
 	AL["Ranged weapons"] = "Armes à distance";
 	AL["Other"] = "Autre";
 	AL["Itemslot"] = "Slot de l'objet";
-	AL["Shift + Click on the Filter button opens the config page."] = "Maj + Clic sur le bouton Filtre ouvre la page de configuration.";
+	AL["Shift + Click on the Filter button opens the config page."] = "Maj+Clic sur le bouton filtre ouvre la page de configuration.";
 
 	-- Panel
 	AL["Hide Panel"] = "Masquer le panneau";
@@ -222,7 +223,7 @@ if AL then
 	-- QuickLooks
 	--AL["QuickLook"] = true;
 	--AL["QuickLooks"] = true;
-	AL["Number of QuickLooks:"] = "Nombre de QuickLook";
+	AL["Number of QuickLooks:"] = "Nombre de QuickLook :";
 	AL["Add to QuickLooks:"] = "Ajouter à QuickLook :";
 	AL["Reset Quicklooks"] = "Réinitialiser QuickLook";
 	AL["Assign this loot table\n to QuickLook"] = "Assigner cette table de loot\n à QuickLook";
@@ -426,9 +427,9 @@ if AL then
 	AL["Toys"] = "Jouets"; 									-- Darkmoon Faire
 
 	-- Minimap Button
-	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcours des Listes d'Objets";
-	AL["|cffff0000Right-Click|r View Options"] = "|cffff0000Clic-Droit|r Affiche les Options";
-	AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Shift-Clic|r Affiche les Options";
+	AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00Clic-Gauche|r Parcourir les tables de butin";
+	AL["|cffff0000Right-Click|r View Options"] = "|cffff0000Clic-Droit|r Affiche les options";
+	AL["|cffff0000Shift-Click|r View Options"] = "|cffff0000Maj+Clic|r Affiche les options";
 	AL["|cffccccccLeft-Click + Drag|r Move Minimap Button"] = "|cffccccccClic-Gauche + Maintenir|r Déplace le bouton sur la mini-carte";
 	AL["|cffccccccRight-Click + Drag|r Move Minimap Button"] = "|cffccccccClic-Droit + Maintenir|r Déplace le bouton sur la mini-carte";
 
