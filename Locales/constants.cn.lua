@@ -92,7 +92,7 @@ if AL then
 	AL["Show itemIDs"] = "显示物品 ID";
 	AL["Show Droprates"] = "显示掉落率";
 	AL["Safe Chat Links"] = "使用安全物品连接";
-	AL["Comparison TT"] = "装备对比";
+	AL["Comparison Tooltips"] = "装备对比";
 	AL["Show Boss Tooltip"] = "显示首领提示";
 	AL["Show Comparison Tooltips"] = "显示装备对比";
 	AL["Opaque"] = "不透明";
