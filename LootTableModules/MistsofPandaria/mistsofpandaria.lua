@@ -4004,22 +4004,34 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["KirinTorOffensive"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r3#", ""};
-				{ 2, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
-				{ 3, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
-				{ 4, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
-				{ 5, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
-				{ 6, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
-				{ 7, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
-				{ 8, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
-				{ 9, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
-				{ 10, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r2#", ""};
+				{ 2, 95054, "", "=q1=Potion of Light Steps"};
+				{ 4, 0, "achievement_reputation_kirintor_offensive", "=q6=#r3#", ""};
+				{ 5, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
+				{ 6, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
+				{ 7, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
+				{ 8, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
+				{ 9, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
+				{ 10, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
+				{ 11, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
+				{ 12, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
+				{ 13, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 14, 95053, "", "=q1=A Common Rock"};
+				{ 15, 95093, "", "=q1=Sleep Dust"};
 				{ 16, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
 				{ 17, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
-				{ 19, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
-				{ 20, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#"};
-				{ 21, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive"};
-				{ 22, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 18, 95052, "", "=q1=Arcane Propellant"};
+				{ 19, 95055, "", "=q1=Frost Rune Trap"};
+				{ 21, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
+				{ 22, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#"};
+				{ 23, 97191, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#"};
+				{ 24, 97189, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#"};
+				{ 25, 97187, "", "=q4=Refurbished Band of Jin", "=ds=#s13#"};
+				{ 26, 97190, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#"};
+				{ 27, 97188, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#"};
+				{ 28, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive"};
+				{ 29, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 30, 97155, "", "=q1=Polymorphic Key"};
 			};
 		};
 		info = {
@@ -4297,22 +4309,34 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["SunreaverOnslaught"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "achievement_faction_sunreaveronslaught", "=q6=#r3#", ""};
-				{ 2, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
-				{ 3, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
-				{ 4, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
-				{ 5, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
-				{ 6, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
-				{ 7, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
-				{ 8, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
-				{ 9, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
-				{ 10, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r2#", ""};
+				{ 2, 97157, "", "=q1=Potion of Light Steps"};
+				{ 4, 0, "achievement_faction_sunreaveronslaught", "=q6=#r3#", ""};
+				{ 5, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
+				{ 6, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
+				{ 7, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
+				{ 8, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
+				{ 9, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
+				{ 10, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
+				{ 11, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
+				{ 12, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
+				{ 13, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 14, 97158, "", "=q1=A Common Rock"};
+				{ 15, 97154, "", "=q1=Sleep Dust"};
 				{ 16, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
 				{ 17, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
-				{ 19, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
-				{ 20, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#"};
-				{ 21, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught"};
-				{ 22, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 18, 97159, "", "=q1=Arcane Propellant"};
+				{ 19, 97156, "", "=q1=Frost Rune Trap"};
+				{ 21, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
+				{ 22, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#"};
+				{ 23, 97196, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#"};
+				{ 24, 97194, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#"};
+				{ 25, 97192, "", "=q4=Refurbished Band of Jin", "=ds=#s13#"};
+				{ 26, 97195, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#"};
+				{ 27, 97193, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#"};
+				{ 28, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught"};
+				{ 29, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 30, 97155, "", "=q1=Polymorphic Key"};
 			};
 		};
 		info = {
