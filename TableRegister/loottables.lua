@@ -216,7 +216,7 @@ AtlasLoot_LootTableRegister = {
 				{ "ToTLeiShen", 13, EncounterJournalID = 832, BonusLootID = 139691 },
 				{ "ToTRaden", 14, EncounterJournalID = 831, BonusLootID = 139692 },
 			},
-			["Info"] = { "Throne of Thunder", "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
+			["Info"] = { GetMapNameByID(930), "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
 		},
 
 	---------------------------

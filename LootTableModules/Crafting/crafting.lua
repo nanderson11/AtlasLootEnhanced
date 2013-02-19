@@ -652,23 +652,24 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["AlchemyMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s80508", "58483", "=q4=Lifebound Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
-				{ 2, "s96252", "68775", "=q4=Volatile Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
-				{ 3, "s96253", "68776", "=q4=Quicksilver Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
-				{ 4, "s96254", "68777", "=q4=Vibrant Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
-				{ 6, "s60403", "44323", "=q3=Indestructible Alchemist Stone", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 7, "s60396", "44322", "=q3=Mercurial Alchemist Stone", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 8, "s60405", "44324", "=q3=Mighty Alchemist Stone", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 10, "s47050", "35751", "=q4=Assassin's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
-				{ 11, "s47046", "35748", "=q4=Guardian's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
-				{ 12, "s47049", "35750", "=q4=Redeemer's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
-				{ 13, "s47048", "35749", "=q4=Sorcerer's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
-				{ 14, "s17632", "13503", "=q4=Alchemist's Stone", "=ds=#sr# 350", "=ds="..BabbleFaction["The Sha'tar"].." - "..BabbleFaction["Revered"]};
-				{ 16, "s38070", "31080", "=q2=Mercurial Stone", "=ds=#sr# 325", "=ds="..AL["Trainer"]};
-				{ 17, "s11459", "9149", "=q2=Philosopher's Stone", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
-				{ 18, "s11456", "9061", "=q1=Goblin Rocket Fuel", "=ds=#sr# 210", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036)};
-				{ 19, "s11473", "9210", "=q1=Ghost Dye", "=ds=#sr# 245", "=ds="..AL["Vendor"]..": "..BabbleZone["Feralas"]};
-				{ 20, "s24266", "19931", "=q3=Gurubashi Mojo Madness", "=ds=#sr# 300", "=ds="..AL["No Longer Available"]};
+				{ 1, "s136197", "75274", "=q3=Zen Alchemist Stone", "=ds=#sr# 515", "=ds="..AL["Trainer"]};
+				{ 3, "s80508", "58483", "=q4=Lifebound Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 4, "s96252", "68775", "=q4=Volatile Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 5, "s96253", "68776", "=q4=Quicksilver Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 6, "s96254", "68777", "=q4=Vibrant Alchemist Stone", "=ds=#sr# 500", "=ds="..AL["Trainer"]};
+				{ 8, "s60403", "44323", "=q3=Indestructible Alchemist Stone", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 9, "s60396", "44322", "=q3=Mercurial Alchemist Stone", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 10, "s60405", "44324", "=q3=Mighty Alchemist Stone", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 16, "s47050", "35751", "=q4=Assassin's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
+				{ 17, "s47046", "35748", "=q4=Guardian's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
+				{ 18, "s47049", "35750", "=q4=Redeemer's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
+				{ 19, "s47048", "35749", "=q4=Sorcerer's Alchemist Stone", "=ds=#sr# 375", "=ds="..BabbleFaction["Shattered Sun Offensive"].." - "..BabbleFaction["Exalted"]};
+				{ 20, "s17632", "13503", "=q4=Alchemist's Stone", "=ds=#sr# 350", "=ds="..BabbleFaction["The Sha'tar"].." - "..BabbleFaction["Revered"]};
+				{ 22, "s38070", "31080", "=q2=Mercurial Stone", "=ds=#sr# 325", "=ds="..AL["Trainer"]};
+				{ 23, "s11459", "9149", "=q2=Philosopher's Stone", "=ds=#sr# 225", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 24, "s11456", "9061", "=q1=Goblin Rocket Fuel", "=ds=#sr# 210", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036)};
+				{ 25, "s11473", "9210", "=q1=Ghost Dye", "=ds=#sr# 245", "=ds="..AL["Vendor"]..": "..BabbleZone["Feralas"]};
+				{ 26, "s24266", "19931", "=q3=Gurubashi Mojo Madness", "=ds=#sr# 300", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {

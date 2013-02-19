@@ -118,7 +118,7 @@ function AtlasLoot:BonusLoot_GetSpecInfo(id)
 	end
 end
 
---- Checks a item if it aviable for the player class and specs
+--- Checks a item if it available for the player class and specs
 function AtlasLoot:BonusLoot_CheckItemId(itemId)
 	if not itemId or type(itemId) ~= "number" or not AtlasLoot_BonusRoll_Items[itemId] then return end
 	if not AtlasLoot_BonusRoll_Items[itemId][PLAYER_CLASS_ID] then return false end

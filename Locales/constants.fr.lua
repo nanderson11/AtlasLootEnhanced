@@ -109,7 +109,7 @@ if AL then
 	AL["Enable mouse on item descriptions"] = "Activer la souris sur la description de l'objet";
 	AL["Upgrade Level:"] = "Niveau d'amélioration :";
 	AL["Show BonusRoll info"] = "Afficher le bonus du jet de dés";
-	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = "Inique si un objet est dispobile via le bonus du jet de dés ou via l'outil Raids.";
+	AL["Shows if a item is available with bonus roll or raid finder loot."] = "Inique si un objet est dispobile via le bonus du jet de dés ou via l'outil Raids.";
 
 	-- Default Frame
 	AL["Default Frame"] = "Frame par défaut";

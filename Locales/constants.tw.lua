@@ -108,7 +108,7 @@ if AL then
 	AL["Enable mouse on item descriptions"] = "啟用滑鼠指向物品屬性";
 	AL["Upgrade Level:"] = "升級等級：";
 	AL["Show BonusRoll info"] = "顯示額外擲骰訊息";
-	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = "當物品拾取可用於額外擲骰或團隊搜尋器時顯示。";
+	AL["Shows if a item is available with bonus roll or raid finder loot."] = "當物品拾取可用於額外擲骰或團隊搜尋器時顯示。";
 
 	-- Default Frame
 	AL["Default Frame"] = "預設框架";

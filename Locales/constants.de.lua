@@ -105,7 +105,7 @@ if AL then
 	AL["Enable mouse on item descriptions"] = "Beschreibungstooltips beim Hovern am Mauszeiger einblenden";
 	AL["Upgrade Level:"] = "Aufwertungsgrad:";
 	AL["Show BonusRoll info"] = "Info zu Bonusbeute anzeigen";
-	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = "Zeigt, ob ein Gegenstand via Bonusbeute oder im Schlachtzugsbrowser verfügbar ist.";
+	AL["Shows if a item is available with bonus roll or raid finder loot."] = "Zeigt, ob ein Gegenstand via Bonusbeute oder im Schlachtzugsbrowser verfügbar ist.";
 
 	-- Default Frame
 	AL["Default Frame"] = "Hauptfenster";

@@ -118,7 +118,7 @@ do
 									ShowBonusRollInfoInTT = {
 										type = "toggle",
 										name = AL["Show BonusRoll info"],
-										desc = AL["Shows if a item is aviable with bonus roll or raid finder loot."],
+										desc = AL["Shows if a item is available with bonus roll or raid finder loot."],
 										order = 46,
 										get = getOpt,
 										set = setOpt,

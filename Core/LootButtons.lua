@@ -806,7 +806,7 @@ do
 	--- Sets a item to the button
 	-- @param itemID The item ID
 	-- @param itemName The item name, self is only used if the item name is not in the cache. Set to nil and not in cache it will use UNKNOWN
-	-- @param extraText The small text under the item name. Set to nil and it will use slotInfo of the item if aviable
+	-- @param extraText The small text under the item name. Set to nil and it will use slotInfo of the item if available
 	-- @param itemTexture Sets a texture for the item icon. Set to nil and it will use the icon from the item ID
 	-- @param itemPrice The item price (Arena, PVP, ...). Set self will hide the extra text if its to long
 	-- @param itemDroprate The droprate of the item. Only a number value automatic adds "%"

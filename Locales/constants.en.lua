@@ -108,7 +108,7 @@ if AL then
 	AL["Enable mouse on item descriptions"] = true;
 	AL["Upgrade Level:"] = true;
 	AL["Show BonusRoll info"] = true;
-	AL["Shows if a item is aviable with bonus roll or raid finder loot."] = true;
+	AL["Shows if a item is available with bonus roll or raid finder loot."] = true;
 
 	-- Default Frame
 	AL["Default Frame"] = true;
