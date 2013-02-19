@@ -559,12 +559,12 @@ AtlasLoot_LootTableRegister = {
 
 		["TheNexus"] = {
 			["Bosses"] = {
-				{ "TheNexusKolurgStoutbeard", {4,5} },
-				{ "TheNexusTelestra", 7, EncounterJournalID = 618 },
-				{ "TheNexusAnomalus", 8, EncounterJournalID = 619 },
-				{ "TheNexusOrmorok", 9, EncounterJournalID = 620 },
-				{ "TheNexusKeristrasza", 10, EncounterJournalID = 621 },
-				{ "LunarFestival", 11, hide = true },
+				{ "TheNexusKolurgStoutbeard", {3,4} },
+				{ "TheNexusTelestra", 6, EncounterJournalID = 618 },
+				{ "TheNexusAnomalus", 7, EncounterJournalID = 619 },
+				{ "TheNexusOrmorok", 8, EncounterJournalID = 620 },
+				{ "TheNexusKeristrasza", 9, EncounterJournalID = 621 },
+				{ "LunarFestival", 10, hide = true },
 			},
 			["Info"] = { BabbleZone["The Nexus"], "AtlasLootWotLK", mapname = "TheNexus", EncounterJournalID = 281 },
 		},

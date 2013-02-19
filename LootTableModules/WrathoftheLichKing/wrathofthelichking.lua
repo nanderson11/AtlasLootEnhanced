@@ -244,7 +244,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Frozen Commander", 617),
+			name = AtlasLoot:EJ_GetBossName("Commander Kolurg", 833).." & "..AtlasLoot:EJ_GetBossName("Commander Stoutbeard", 617),
 			module = moduleName, instance = "TheNexus",
 		};
 	};
@@ -4917,7 +4917,7 @@ local moduleName = "AtlasLootWotLK"
 			};
 		};
 		info = {
-			name = BabbleBoss["Faction Champions"],
+			name = BabbleBoss["Grand Champions"],
 			module = moduleName, instance = "TrialOfTheChampion",
 		};
 	}
