@@ -703,9 +703,30 @@ do
 			dataID = self:FormatDataID(dataID)
 		end
 		if dataID and AtlasLoot_Data[dataID] then
+			-- Faction specific items
 			for k,v in ipairs(lootTableTypes) do
 				if AtlasLoot_Data[dataID][v..factionAdd] then
-					AtlasLoot_Data[dataID][v] = AtlasLoot_Data[dataID][v..factionAdd]
+					if AtlasLoot_Data[dataID][v..factionAdd].merge and AtlasLoot_Data[dataID][v] then
+						-- Merge tables here
+						local saveTab = {}
+						-- First check all entry (maybe we must override some items)
+						for index,tab in ipairs(AtlasLoot_Data[dataID][v]) do
+							saveTab[tab[1]] = index
+						end
+						-- Now merge
+						for index,tab in ipairs(AtlasLoot_Data[dataID][v..factionAdd]) do
+							if saveTab[tab[1]] then
+								-- Replace a item if it already exists
+								AtlasLoot_Data[dataID][v][saveTab[tab[1]]] = tab
+							else
+								table.insert(AtlasLoot_Data[dataID][v], tab)
+							end
+						end
+					else
+						AtlasLoot_Data[dataID][v] = AtlasLoot_Data[dataID][v..factionAdd]
+					end
+					-- remove old pointers to the tables
+					AtlasLoot_Data[dataID][v..factionAdd] = nil
 				end
 			end
 

@@ -216,7 +216,7 @@ do
 		
 		-- Bonus roll
 		itemButton.Frame.BonusRoll = {}
-		local numSpecs = GetNumSpecializations() or 4
+		local numSpecs = 4 --GetNumSpecializations() or 4
 		for i=1,4 do
 			if i > numSpecs then break end
 			itemButton.Frame.BonusRoll[i] = CreateFrame("Button", name.."_BonusRoll_Spec"..i, itemButton.Frame, "AtlasLoot_SpecButton")

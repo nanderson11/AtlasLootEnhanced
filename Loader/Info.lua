@@ -21,7 +21,6 @@ AtlasLoot.AddonInfo = {
 		["Hegarol"] = {
 			email = "hegarol@atlasloot.net",
 			ingame = {"Hegarol@Dun Morogh", "Areghol@Dun Morogh"},
-			friends = {"Dynaletik@Nera'thor"},
 		},
 		["Lag"] = {
 			email = "lag@atlasloot.net",
@@ -35,6 +34,10 @@ AtlasLoot.AddonInfo = {
 		["Daviesh"] = {
 			email = "daviesh@atlasloot.net",
 			ingame = {"Daviesh@Thaurissan"},
+		},
+		["Dynaletik"] = {
+			email = "email@email.email",
+			ingame = {"Dynaletik@Nera'thor"},
 		},
 	},
 	help = {
