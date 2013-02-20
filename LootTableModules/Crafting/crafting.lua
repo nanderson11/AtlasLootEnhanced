@@ -7,6 +7,10 @@ local BabbleItemSet = AtlasLoot_GetLocaleLibBabble("LibBabble-ItemSet-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 local moduleName = "AtlasLootCrafting"
 
+--GetSpellInfo fix for live realms ;)
+local function GetSpellInfo(id)
+	return _G["GetSpellInfo"](id) or "nil"
+end
 -- Using alchemy skill to get localized rank
 local JOURNEYMAN = select(2, GetSpellInfo(3101));
 local EXPERT = select(2, GetSpellInfo(3464));
