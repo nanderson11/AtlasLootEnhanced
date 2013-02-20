@@ -59,6 +59,7 @@ local CURRENCY_PRICE = {
 	["CONQUEST"] = 390,		-- Conquest Points
 	["DALARANJW"] = 61,		-- Dalaran Jewelcrafter's Token
 	["DARKMOON"] = 515,		-- Darkmoon Prize Ticket
+	["ELDERCHARM"] = 697,		-- Elder Charm of Good Fortune
 	["EPICUREAN"] = 81,		-- Epicurean's Award (CookingDaily)
 	["HONOR"] = 392,		-- Honor Points
 	["ILLLJW"] = 361,		-- Illustrious Jewelcrafter's Token -- why duplicate?
@@ -82,6 +83,7 @@ local CURRENCY_PRICE = {
 	["SPIRITOFHARMONY"] = { itemID = 76061 },			-- Spirit of Harmony (SmithingMoPVendor, LeatherworkingMoPVendor, TailoringMoPVendor, SpiritOfHarmony)
 	["DOMINATIONCOMMISSION"] = { itemID = 91877 },		-- Domination Point Commission
 	["LIONSLANDINGCOMMISSION"] = { itemID = 91838 },	-- Lion's Landing Commission
+	["HISTORICALPARCHMENTS"] = { itemID = 95491 },		-- Tattered Historical Parchments
 }
 
 -- AtlasLoot:CreateItemButton

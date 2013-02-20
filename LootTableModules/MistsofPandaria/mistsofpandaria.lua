@@ -4005,33 +4005,44 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r2#", ""};
-				{ 2, 95054, "", "=q1=Potion of Light Steps"};
-				{ 4, 0, "achievement_reputation_kirintor_offensive", "=q6=#r3#", ""};
-				{ 5, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
-				{ 6, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
-				{ 7, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
-				{ 8, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
-				{ 9, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
-				{ 10, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
-				{ 11, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
-				{ 12, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
-				{ 13, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
-				{ 14, 95053, "", "=q1=A Common Rock"};
-				{ 15, 95093, "", "=q1=Sleep Dust"};
-				{ 16, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
-				{ 17, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
-				{ 18, 95052, "", "=q1=Arcane Propellant"};
-				{ 19, 95055, "", "=q1=Frost Rune Trap"};
-				{ 21, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
-				{ 22, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#"};
-				{ 23, 97191, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
-				{ 24, 97189, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
-				{ 25, 97187, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
-				{ 26, 97190, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#", "#VALOR:937#"};
-				{ 27, 97188, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"};
-				{ 28, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive"};
-				{ 29, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
-				{ 30, 97155, "", "=q1=Polymorphic Key"};
+				{ 2, 80433, "", "=q3=Blood Spirit", "=ds=#e8#", "#VALOR:400#"};
+				{ 3, 95489, "", "=q3=Kirin Tor Offensive Insignia", "=ds=", "#HISTORICALPARCHMENTS:1#"};
+				{ 4, 95490, "", "=q3=Greater Kirin Tor Offensive Insignia", "=ds=", "#HISTORICALPARCHMENTS:10#"};
+				{ 5, 95054, "", "=q1=Potion of Light Steps", "=ds=", "#ELDERCHARM:1#"};
+				{ 7, 0, "achievement_reputation_kirintor_offensive", "=q6=#r3#", ""};
+				{ 8, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
+				{ 9, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
+				{ 10, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
+				{ 11, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
+				{ 12, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
+				{ 13, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
+				{ 14, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
+				{ 15, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
+				{ 16, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 17, 95053, "", "=q1=A Common Rock", "=ds=", "#ELDERCHARM:1#"};
+				{ 18, 95093, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
+				{ 20, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
+				{ 21, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
+				{ 22, 97207, "", "=q3=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
+				{ 23, 97205, "", "=q3=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 24, 97206, "", "=q3=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 25, 97204, "", "=q3=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 26, 97203, "", "=q3=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 27, 95052, "", "=q1=Arcane Propellant", "=ds=", "#ELDERCHARM:1#"};
+				{ 28, 95055, "", "=q1=Frost Rune Trap", "=ds=", "#ELDERCHARM:1#"};
+
+			};
+			{
+				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
+				{ 2, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#"};
+				{ 3, 97191, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
+				{ 4, 97189, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
+				{ 5, 97187, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
+				{ 6, 97190, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#", "#VALOR:937#"};
+				{ 7, 97188, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"};
+				{ 8, 95589, "", "=q3=Glorious Standard of the Kirin Tor Offensive"};
+				{ 9, 95591, "", "=q3=Kirin Tor Offensive Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 10, 97155, "", "=q1=Polymorphic Key", "=ds=", "#ELDERCHARM:3#"};
 			};
 		};
 		info = {
@@ -4310,33 +4321,44 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r2#", ""};
-				{ 2, 97157, "", "=q1=Potion of Light Steps"};
-				{ 4, 0, "achievement_faction_sunreaveronslaught", "=q6=#r3#", ""};
-				{ 5, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
-				{ 6, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
-				{ 7, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
-				{ 8, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
-				{ 9, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
-				{ 10, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
-				{ 11, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
-				{ 12, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
-				{ 13, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
-				{ 14, 97158, "", "=q1=A Common Rock"};
-				{ 15, 97154, "", "=q1=Sleep Dust"};
-				{ 16, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
-				{ 17, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
-				{ 18, 97159, "", "=q1=Arcane Propellant"};
-				{ 19, 97156, "", "=q1=Frost Rune Trap"};
-				{ 21, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
-				{ 22, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#"};
-				{ 23, 97196, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
-				{ 24, 97194, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
-				{ 25, 97192, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
-				{ 26, 97195, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#", "#VALOR:937#"};
-				{ 27, 97193, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"};
-				{ 28, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught"};
-				{ 29, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
-				{ 30, 97155, "", "=q1=Polymorphic Key"};
+				{ 2, 80433, "", "=q3=Blood Spirit", "=ds=#e8#", "#VALOR:400#"};
+				{ 3, 95487, "", "=q3=Sunreaver Onslaught Insignia", "=ds=", "#HISTORICALPARCHMENTS:1#"};
+				{ 4, 95488, "", "=q3=Greater Sunreaver Onslaught Insignia", "=ds=", "#HISTORICALPARCHMENTS:10#"};
+				{ 5, 97157, "", "=q1=Potion of Light Steps", "=ds=", "#ELDERCHARM:1#"};
+				{ 7, 0, "achievement_faction_sunreaveronslaught", "=q6=#r3#", ""};
+				{ 8, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
+				{ 9, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
+				{ 10, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
+				{ 11, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
+				{ 12, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
+				{ 13, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
+				{ 14, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
+				{ 15, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
+				{ 16, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 17, 97158, "", "=q1=A Common Rock", "=ds=", "#ELDERCHARM:1#"};
+				{ 18, 97154, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
+				{ 20, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
+				{ 21, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
+				{ 22, 97212, "", "=q3=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
+				{ 23, 97210, "", "=q3=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 24, 97211, "", "=q3=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 25, 97209, "", "=q3=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 26, 97208, "", "=q3=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 27, 97159, "", "=q1=Arcane Propellant", "=ds=", "#ELDERCHARM:1#"};
+				{ 28, 97156, "", "=q1=Frost Rune Trap", "=ds=", "#ELDERCHARM:1#"};
+
+			};
+			{
+				{ 1, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
+				{ 2, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#"};
+				{ 3, 97196, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
+				{ 4, 97194, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
+				{ 5, 97192, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
+				{ 6, 97195, "", "=q4=Refurbished Seal of Jin", "=ds=#s13#", "#VALOR:937#"};
+				{ 7, 97193, "", "=q4=Restored Hexxer's Signet", "=ds=#s13#", "#VALOR:937#"};
+				{ 8, 95590, "", "=q3=Glorious Standard of the Sunreaver Onslaught"};
+				{ 9, 95592, "", "=q3=Sunreaver Onslaught Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 10, 97155, "", "=q1=Polymorphic Key", "=ds=", "#ELDERCHARM:3#"};
 			};
 		};
 		info = {
