@@ -48,7 +48,7 @@ if AL then
 	AL["You cant set more then %d item stats."] = "Vous ne pouvez pas définir plus de %d statistiques différentes.";
 	--AL["Slot"] = true;
 	AL["AtlasLoot has detected some corrupted items on your Wishlist. You can now run an automatic check to fix it. Please be aware that this could take a few moments."] = "AtlasLoot a détecté certains objets corrompus dans votre liste de souhaits. Vous pouvez lancer une vérification automatique pour tenter de réparer. Cela pourrait prendre un petit moment.";
-	AL["BonusRoll:"] = "Bonus du jet de dés :"; -- à traduire
+	AL["BonusRoll:"] = "Bonus du jet de dés :";
 	AL["|cffFF0000Shift+Click: |cffFFFFFFOpen filter configuration"] = "|cffFF0000Maj+Clic : |cffFFFFFFOuvrez la configuration du filtre";
 
 	-- Stats short
@@ -494,6 +494,7 @@ if AL then
 	AL["Weapon Enhancements"] = "Améliorations d'arme";
 	AL["Cataclysm Vendor Sold Plans"] = "Vendeur de plans à Cataclysme"
 	AL["Mists of Pandaria Vendor Sold Plans"] = "Vendeur de plans à Mist of Pandoria";
+	--AL["Training Projects"] = true; -- à traduire
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Banquets / Festins";
@@ -563,8 +564,8 @@ if AL then
 	AL["Collector's Edition"] = "Edition Collector";
 	AL["Daily Reward"] = "Récompense journalière";
 	AL["No Longer Available"] = "N'est plus disponible";
-	AL["Shared Boss Loot"] = "Objets partager sur les boss";
-	--AL["Shared Zone Loot"] = "Objets des différentes zone"; -- à traduire
+	AL["Shared Boss Loot"] = "Objets de boss partagés";
+	AL["Shared Zone Loot"] = "Objets de zone partagée";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "WoW classique";
