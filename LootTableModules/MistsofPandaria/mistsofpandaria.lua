@@ -3348,6 +3348,35 @@ local moduleName = "AtlasLootMoP"
 		};
 	};
 
+	AtlasLoot_Data["ToTTrash"] = {
+		["Normal"] = {
+			{
+				--[[{ 1, xxxxx, "", "=q4=Pattern: Falling Blossom Cowl", "=ds=#p8# (600)"};
+				{ 2, xxxxx, "", "=q4=Pattern: Falling Blossom Hood", "=ds=#p8# (600)"};
+				{ 3, xxxxx, "", "=q4=Pattern: Falling Blossom Sandals", "=ds=#p8# (600)"};
+				{ 4, xxxxx, "", "=q4=Pattern: Falling Blossom Treads", "=ds=#p8# (600)"};
+				{ 6, xxxxx, "", "=q4=Pattern: Quilen Hide Helm", "=ds=#p7# (600)"};
+				{ 7, xxxxx, "", "=q4=Pattern: Spirit Keeper Helm", "=ds=#p7# (600)"};
+				{ 8, xxxxx, "", "=q4=Pattern: Quilen Hide Boots", "=ds=#p7# (600)"};
+				{ 9, xxxxx, "", "=q4=Pattern: Spirit Keeper Footguards", "=ds=#p7# (600)"};
+				{ 10, xxxxx, "", "=q4=Pattern: Cloud Serpent Helm", "=ds=#p7# (600)"};
+				{ 11, xxxxx, "", "=q4=Pattern: Dreadrunner Helm", "=ds=#p7# (600)"};
+				{ 12, xxxxx, "", "=q4=Pattern: Cloud Serpent Sabatons", "=ds=#p7# (600)"};
+				{ 13, xxxxx, "", "=q4=Pattern: Dreadrunner Sabatons", "=ds=#p7# (600)"};
+				{ 16, xxxxx, "", "=q4=Plans: Haunted Steel Greathelm", "=ds=#p2# (600)"};
+				{ 17, xxxxx, "", "=q4=Plans: Haunted Steel Headcover", "=ds=#p2# (600)"};
+				{ 18, xxxxx, "", "=q4=Plans: Haunted Steel Headguard", "=ds=#p2# (600)"};
+				{ 19, xxxxx, "", "=q4=Plans: Haunted Steel Greaves", "=ds=#p2# (600)"};
+				{ 20, xxxxx, "", "=q4=Plans: Haunted Steel Treads", "=ds=#p2# (600)"};
+				{ 21, xxxxx, "", "=q4=Plans: Haunted Steel Warboots", "=ds=#p2# (600)"};--]]
+			};
+		};
+		info = {
+			name = "trash",
+			module = moduleName, instance = "ThroneofThunder",
+		};
+	};
+
 	-----------------
 	--- Rare Mobs ---
 	-----------------

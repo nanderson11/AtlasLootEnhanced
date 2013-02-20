@@ -413,7 +413,6 @@ if AL then
 	AL["Drums, Bags and Misc."] = true;
 
 	-- Tailoring
-	AL["Cloth Armor"] = true;
 	AL["Shirts"] = true;
 	AL["Bags"] = true;
 

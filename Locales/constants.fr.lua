@@ -537,7 +537,6 @@ if AL then
 	AL["Drums, Bags and Misc."] = "Tambours, sacs et objets divers";
 
 	-- Tailoring
-	AL["Cloth Armor"] = "Armure en tissu";
 	AL["Shirts"] = "Chemises";
 	AL["Bags"] = "Sacs";
 	AL["Cataclysm Vendor Sold Patterns"] = "Vendeur de patrons à Cataclysme";

@@ -538,7 +538,6 @@ if AL then
 	AL["Drums, Bags and Misc."] = "战鼓、容器及其它";
 
 	-- Tailoring
-	AL["Cloth Armor"] = "布甲";
 	AL["Shirts"] = "衬衣";
 	AL["Bags"] = "容器";
 	AL["Cataclysm Vendor Sold Patterns"] = "大地的裂变商人出售图样";

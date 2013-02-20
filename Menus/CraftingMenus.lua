@@ -262,11 +262,11 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TAILORINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "TailoringArmorMoP", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Mists of Pandaria"] };
-				{ 3, "TailoringArmorCata", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Cataclysm"] };
-				{ 4, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 5, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
-				{ 6, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
+				{ 2, "TailoringArmorMoP", "Trade_Tailoring", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Mists of Pandaria"] };
+				{ 3, "TailoringArmorCata", "Trade_Tailoring", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Cataclysm"] };
+				{ 4, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 5, "TailoringArmorBC", "Trade_Tailoring", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Burning Crusade"] };
+				{ 6, "TailoringArmorOld", "Trade_Tailoring", "=ds="..BabbleInventory["Armor"], "=q5="..AL["Classic WoW"] };
 				{ 8, "Mooncloth", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
 				{ 9, "Shadoweave", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
 				{ 11, "TailoringMoPVendor", "inv_scroll_04", "=ds="..AL["Mists of Pandaria Vendor Sold Patterns"], "=q5="..AtlasLoot:GetMapNameByID(811)};

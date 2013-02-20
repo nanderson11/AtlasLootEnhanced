@@ -406,7 +406,6 @@ if AL then
 	AL["Drums, Bags and Misc."] = "Tambores, Bolsas y Misc.";
 
 	--Tailoring
-	AL["Cloth Armor"] = "Armadura de tela";
 	AL["Shirts"] = "Camisas";
 	AL["Bags"] = "Bolsas";
 
