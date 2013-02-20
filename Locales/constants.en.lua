@@ -496,6 +496,7 @@ if AL then
 	AL["Weapon Enhancements"] = true;
 	AL["Cataclysm Vendor Sold Plans"] = true;
 	AL["Mists of Pandaria Vendor Sold Plans"] = true;
+	AL["Training Projects"] = true;
 
 	-- Cooking
 	AL["Banquets/Feasts"] = true;

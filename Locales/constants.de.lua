@@ -493,6 +493,7 @@ if AL then
 	AL["Weapon Enhancements"] = "Waffenverbesserungen";
 	AL["Cataclysm Vendor Sold Plans"] = "Cataclysm - Vom Händler verkaufte Pläne";
 	AL["Mists of Pandaria Vendor Sold Plans"] = "MoP - Vom Händler verkaufte Pläne";
+	AL["Training Projects"] = "Übungsprojekte";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "Bankette/Festmähler";
