@@ -696,6 +696,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds="..AL["Dwarf"], "=ds=#w9#"};
 				{ 7, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds="..AL["Fossil"], "=ds=#w8#"};
 				{ 8, "s113981", "89685", "=q3=Spear of Xuen", "=ds="..AL["Pandaren"], "=ds=#w7#"};
+				{ 9, "s139786", "95391", "=q3=Mantid Sky Reaver", "=ds="..AL["Mantid"], "=ds=#h1#, #w10#"};
+				{ 10, "s139787", "95392", "=q3=Sonic Pulse Generator", "=ds="..AL["Mantid"], "=ds=#w5#"};
 				{ 17, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds="..AL["Night Elf"], "=ds=#s5#, #a1#"};
 				{ 18, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds="..AL["Orc"], "=ds=#s1#, #a3#"};
 				{ 19, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds="..AL["Tol'vir"], "=ds=#s13#"};
@@ -739,13 +741,35 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["ArchaeologyDraenei"] = {
+		["Normal"] = {
+			{
+				{ 2, "s90983", "64456", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
+				{ 4, "s90853", "64440", "=q0=Anklet with Golden Bells", "=ds=#sr# 300"};
+				{ 5, "s90968", "64453", "=q0=Baroque Sword Scabbard", "=ds=#sr# 300"};
+				{ 6, "s90860", "64442", "=q0=Carved Harp of Exotic Wood", "=ds=#sr# 300"};
+				{ 7, "s90975", "64455", "=q0=Dignified Portrait", "=ds=#sr# 300"};
+				{ 17, "s90984", "64457", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
+				{ 19, "s90974", "64454", "=q0=Fine Crystal Candelabra", "=ds=#sr# 300"};
+				{ 20, "s90987", "64458", "=q0=Plated Elekk Goad", "=ds=#sr# 300"};
+				{ 21, "s90864", "64444", "=q0=Scepter of the Nathrezim", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#"};
+				{ 22, "s90861", "64443", "=q0=Strange Silver Paperweight", "=ds=#sr# 300"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Draenei"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
 	AtlasLoot_Data["ArchaeologyDwarf"] = {
 		["Normal"] = {
 			{
-				{ 1, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#sr# 450", "=ds=#w9#"};
-				{ 3, "s90521", "64372", "=q3=Clockwork Gnome", "=ds=#sr# 225", "=ds=#e13#"};
-				{ 4, "s90553", "64373", "=q3=Chalice of the Mountain Kings", "=ds=#sr# 150"};
-				{ 5, "s91226", "64488", "=q3=The Innkeeper's Daughter", "=ds=#sr# 150"};
+				{ 1, "s91227", "64489", "=q4=Staff of Sorcerer-Thane Thaurissan", "=ds=#sr# 75", "=ds=#w9#"};
+				{ 3, "s90521", "64372", "=q3=Clockwork Gnome", "=ds=#sr# 75", "=ds=#e13#"};
+				{ 4, "s90553", "64373", "=q3=Chalice of the Mountain Kings", "=ds=#sr# 75"};
+				{ 5, "s91226", "64488", "=q3=The Innkeeper's Daughter", "=ds=#sr# 75"};
 				{ 7, "s88910", "63113", "=q0=Belt Buckle with Anvilmar Crest", "=ds=#sr# 1"};
 				{ 8, "s90411", "64339", "=q0=Bodacious Door Knocker", "=ds=#sr# 1"};
 				{ 9, "s86866", "63112", "=q0=Bone Gaming Dice", "=ds=#sr# 1"};
@@ -784,59 +808,22 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["ArchaeologyNightElf"] = {
-		["Normal"] = {
-			{
-				{ 1, "s91757", "64645", "=q4=Tyrande's Favorite Doll", "=ds=#sr# 450", "=ds=#s14#"};
-				{ 2, "s91761", "64646", "=q4=Bones of Transformation", "=ds=#sr# 450", "=ds="};
-				{ 3, "s91773", "64651", "=q4=Wisp Amulet", "=ds=#sr# 450"};
-				{ 4, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds=#sr# 225", "=ds=#s5#, #a1#"};
-				{ 6, "s91762", "64647", "=q0=Carcanet of the Hundred Magi", "=ds=#sr# 450"};
-				{ 7, "s91766", "64648", "=q0=Silver Scroll Case", "=ds=#sr# 450", "#ACHIEVEMENTID:5191#"};
-				{ 8, "s91769", "64650", "=q0=Umbra Crescent", "=ds=#sr# 450"};
-				{ 9, "s90610", "64379", "=q0=Chest of Tiny Glass Animals", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 10, "s89696", "63407", "=q0=Cloak Clasp with Antlers", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 11, "s89893", "63525", "=q0=Coin from Eldre'Thalas", "=ds=#sr# 1"};
-				{ 12, "s90611", "64381", "=q0=Cracked Crystal Vial", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 13, "s90458", "64357", "=q0=Delicate Music Box", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 14, "s89896", "63528", "=q0=Green Dragon Ring", "=ds=#sr# 1"};
-				{ 16, "s90614", "64383", "=q3=Kaldorei Wind Chimes", "=ds=#sr# 250"};
-				{ 17, "s90493", "64361", "=q3=Druid and Priest Statue Set", "=ds=#sr# 150"};
-				{ 18, "s90464", "64358", "=q3=Highborne Soul Mirror", "=ds=#sr# 150"};
-				{ 21, "s90453", "64356", "=q0=Hairpin of Silver and Malachite", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
-				{ 22, "s89009", "63129", "=q0=Highborne Pyxis", "=ds=#sr# 1"};
-				{ 23, "s89012", "63130", "=q0=Inlaid Ivory Comb", "=ds=#sr# 1"};
-				{ 24, "s90451", "64354", "=q0=Kaldorei Amphora", "=ds=#sr# 1"};
-				{ 25, "s93441", "66055", "=q0=Necklace with Elune Pendant", "=ds=#sr# 1"};
-				{ 26, "s89014", "63131", "=q0=Scandalous Silk Nightgown", "=ds=#sr# 1"};
-				{ 27, "s90612", "64382", "=q0=Scepter of Xavius", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
-				{ 28, "s89894", "63526", "=q0=Shattered Glaive", "=ds=#sr# 1"};
-				{ 29, "s90609", "64378", "=q0=String of Small Pink Pearls", "=ds=#sr# 1"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Night Elf"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
 	AtlasLoot_Data["ArchaeologyFossil"] = {
 		["Normal"] = {
 			{
-				{ 2, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds=#sr# 150", "=ds=#w8#"};
-				{ 3, "s90619", "60954", "=q4=Fossilized Raptor", "=ds=#sr# 150", "=ds=#e26#"};
-				{ 6, "s91132", "64473", "=q0=Imprint of a Kraken Tentacle", "=ds=#sr# 300"};
-				{ 7, "s91089", "64468", "=q0=Proto-Drake Skeleton", "=ds=#sr# 300"};
-				{ 8, "s90452", "64355", "=q0=Ancient Shark Jaws", "=ds=#sr# 1"};
-				{ 9, "s88930", "63121", "=q0=Beautiful Preserved Fern", "=ds=#sr# 1"};
-				{ 10, "s88929", "63109", "=q0=Black Trilobite", "=ds=#sr# 1"};
-				{ 11, "s90432", "64349", "=q0=Devilsaur Tooth", "=ds=#sr# 1"};
-				{ 17, "s98582", "69821", "=q3=Pterrordax Hatchling", "=ds=#sr# 120", "=ds=#e13#"};
-				{ 18, "s98560", "69776", "=q3=Ancient Amber", "=ds=#sr# 100", "=ds="};
+				{ 2, "s98533", "69764", "=q4=Extinct Turtle Shell", "=ds=#sr# 75", "=ds=#w8#"};
+				{ 3, "s90619", "60954", "=q4=Fossilized Raptor", "=ds=#sr# 75", "=ds=#e26#"};
+				{ 6, "s90452", "64355", "=q0=Ancient Shark Jaws", "=ds=#sr# 1"};
+				{ 7, "s88930", "63121", "=q0=Beautiful Preserved Fern", "=ds=#sr# 1"};
+				{ 8, "s88929", "63109", "=q0=Black Trilobite", "=ds=#sr# 1"};
+				{ 9, "s90432", "64349", "=q0=Devilsaur Tooth", "=ds=#sr# 1"};
+				{ 10, "s90617", "64385", "=q0=Feathered Raptor Arm", "=ds=#sr# 1"};
+				{ 11, "s91132", "64473", "=q0=Imprint of a Kraken Tentacle", "=ds=#sr# 1"};
+				{ 17, "s98582", "69821", "=q3=Pterrordax Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
+				{ 18, "s98560", "69776", "=q3=Ancient Amber", "=ds=#sr# 75", "=ds="};
 				{ 19, "s89693", "60955", "=q3=Fossilized Hatchling", "=ds=#sr# 75", "=ds=#e13#"};
-				{ 21, "s90617", "64385", "=q0=Feathered Raptor Arm", "=ds=#sr# 1"};
-				{ 22, "s90433", "64350", "=q0=Insect in Amber", "=ds=#sr# 1"};
+				{ 21, "s90433", "64350", "=q0=Insect in Amber", "=ds=#sr# 1"};
+				{ 22, "s91089", "64468", "=q0=Proto-Drake Skeleton", "=ds=#sr# 1"};
 				{ 23, "s93442", "66056", "=q0=Shard of Petrified Wood", "=ds=#sr# 1"};
 				{ 24, "s93443", "66057", "=q0=Strange Velvet Worm", "=ds=#sr# 1"};
 				{ 25, "s89895", "63527", "=q0=Twisted Ammonite Shell", "=ds=#sr# 1"};
@@ -850,10 +837,186 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
+	AtlasLoot_Data["ArchaeologyMantid"] = {
+		["Normal"] = {
+			{
+				{ 2, "s139786", "95391", "=q3=Mantid Sky Reaver", "=ds=#sr# 600", "=ds=#h1#, #w10#"};
+				{ 4, "s139779", "", "=q1=Ancient Sap Feeder", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 5, "s139776", "", "=q1=Banner of the Mantid Empire", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 6, "s139781", "", "=q1=Inert Sound Beacon", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 7, "s139785", "", "=q1=Kypari Sap Container", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 17, "s139787", "95392", "=q3=Sonic Pulse Generator", "=ds=#sr# 600", "=ds=#w5#"};
+				{ 19, "s139783", "", "=q1=Mantid Lamp", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 20, "s139784", "", "=q1=Pollen Collector", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 21, "s139782", "", "=q1=Remains of a Paragon", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+				{ 22, "s139780", "", "=q1=The Praying Mantid", "=ds=#sr# 600", "#ACHIEVEMENTID:8219#"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Mantid"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyMogu"] = {
+		["Normal"] = {
+			{
+				{ 2, "s113993", "89614", "=q3=Anatomical Dummy", "=ds=#sr# 525", "#ACHIEVEMENTID:7334#"};
+				{ 4, "s113983", "", "=q1=Cracked Mogu Runestone", "=ds=#sr# 525", "#ACHIEVEMENTID:7335#"};
+				{ 5, "s113987", "", "=q1=Edicts of the Thunder King", "=ds=#sr# 525", "#ACHIEVEMENTID:7337#"};
+				{ 6, "s113988", "", "=q1=Iron Amulet", "=ds=#sr# 525", "#ACHIEVEMENTID:7335#"};
+				{ 7, "s113982", "", "=q1=Manacles of Rebellion", "=ds=#sr# 525", "#ACHIEVEMENTID:7334#"};
+				{ 8, "s113990", "", "=q1=Mogu Coin", "=ds=#sr# 525", "#ACHIEVEMENTID:7335#"};
+				{ 17, "s113992", "89611", "=q3=Quilen Statuette", "=ds=#sr# 525", "#ACHIEVEMENTID:7336#"};
+				{ 19, "s113985", "", "=q1=Petrified Bone Whip", "=ds=#sr# 525", "#ACHIEVEMENTID:7334#"};
+				{ 20, "s113984", "", "=q1=Terracotta Arm", "=ds=#sr# 525", "#ACHIEVEMENTID:7336#"};
+				{ 21, "s113986", "", "=q1=Thunder King Insignia", "=ds=#sr# 525", "#ACHIEVEMENTID:7335#"};
+				{ 22, "s113989", "", "=q1=Warlord's Branding Iron", "=ds=#sr# 525", "#ACHIEVEMENTID:7334#"};
+				{ 23, "s113991", "", "=q1=Worn Monument Ledger", "=ds=#sr# 525", "#ACHIEVEMENTID:7337#"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Mogu"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyNerubian"] = {
+		["Normal"] = {
+			{
+				{ 2, "s91214", "64481", "=q4=Blessing of the Old God", "=ds=#sr# 350"};
+				{ 4, "s91209", "64479", "=q0=Ewer of Jormungar Blood", "=ds=#sr# 350"};
+				{ 5, "s91191", "64477", "=q0=Gruesome Heart Box", "=ds=#sr# 350"};
+				{ 6, "s91188", "64476", "=q0=Infested Ruby Ring", "=ds=#sr# 350"};
+				{ 7, "s91170", "64475", "=q0=Scepter of Nezar'Azret", "=ds=#sr# 350", "#ACHIEVEMENTID:4858#"};
+				{ 17, "s91215", "64482", "=q4=Puzzle Box of Yogg-Saron", "=ds=#sr# 350"};
+				{ 19, "s91197", "64478", "=q0=Six-Clawed Cornice", "=ds=#sr# 350"};
+				{ 20, "s91133", "64474", "=q0=Spidery Sundial", "=ds=#sr# 350"};
+				{ 21, "s91211", "64480", "=q0=Vizier's Scrawled Streamer", "=ds=#sr# 350"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Nerubian"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyNightElf"] = {
+		["Normal"] = {
+			{
+				{ 1, "s91757", "64645", "=q4=Tyrande's Favorite Doll", "=ds=#sr# 75", "=ds=#s14#"};
+				{ 2, "s91761", "64646", "=q4=Bones of Transformation", "=ds=#sr# 75", "=ds="};
+				{ 3, "s91773", "64651", "=q4=Wisp Amulet", "=ds=#sr# 75"};
+				{ 4, "s90616", "64643", "=q4=Queen Azshara's Dressing Gown", "=ds=#sr# 75", "=ds=#s5#, #a1#"};
+				{ 6, "s91762", "64647", "=q0=Carcanet of the Hundred Magi", "=ds=#sr# 1"};
+				{ 7, "s90610", "64379", "=q0=Chest of Tiny Glass Animals", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 8, "s89696", "63407", "=q0=Cloak Clasp with Antlers", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 9, "s89893", "63525", "=q0=Coin from Eldre'Thalas", "=ds=#sr# 1"};
+				{ 10, "s90611", "64381", "=q0=Cracked Crystal Vial", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 11, "s90458", "64357", "=q0=Delicate Music Box", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 12, "s89896", "63528", "=q0=Green Dragon Ring", "=ds=#sr# 1"};
+				{ 13, "s90453", "64356", "=q0=Hairpin of Silver and Malachite", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 14, "s89009", "63129", "=q0=Highborne Pyxis", "=ds=#sr# 1"};
+				{ 16, "s90493", "64361", "=q3=Druid and Priest Statue Set", "=ds=#sr# 75"};
+				{ 17, "s90464", "64358", "=q3=Highborne Soul Mirror", "=ds=#sr# 75"};
+				{ 18, "s90614", "64383", "=q3=Kaldorei Wind Chimes", "=ds=#sr# 75"};
+				{ 21, "s89012", "63130", "=q0=Inlaid Ivory Comb", "=ds=#sr# 1"};
+				{ 22, "s90451", "64354", "=q0=Kaldorei Amphora", "=ds=#sr# 1"};
+				{ 23, "s93441", "66055", "=q0=Necklace with Elune Pendant", "=ds=#sr# 1"};
+				{ 24, "s89014", "63131", "=q0=Scandalous Silk Nightgown", "=ds=#sr# 1"};
+				{ 25, "s90612", "64382", "=q0=Scepter of Xavius", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
+				{ 26, "s89894", "63526", "=q0=Shattered Glaive", "=ds=#sr# 1"};
+				{ 27, "s91766", "64648", "=q0=Silver Scroll Case", "=ds=#sr# 1", "#ACHIEVEMENTID:5191#"};
+				{ 28, "s90609", "64378", "=q0=String of Small Pink Pearls", "=ds=#sr# 1"};
+				{ 29, "s91769", "64650", "=q0=Umbra Crescent", "=ds=#sr# 1"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Night Elf"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyOrc"] = {
+		["Normal"] = {
+			{
+				{ 2, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
+				{ 4, "s90831", "64436", "=q0=Fiendish Whip", "=ds=#sr# 300"};
+				{ 5, "s90734", "64421", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
+				{ 6, "s90728", "64418", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#"};
+				{ 7, "s90720", "64417", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#"};
+				{ 8, "s90730", "64419", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
+				{ 19, "s90732", "64420", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#"};
+				{ 20, "s90833", "64438", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
+				{ 21, "s90832", "64437", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
+				{ 22, "s90622", "64389", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Orc"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyPandaren"] = {
+		["Normal"] = {
+			{
+				{ 2, "s113981", "89685", "=q3=Spear of Xuen", "#ACHIEVEMENTID:7333#"};
+				{ 4, "s113977", "", "=q1=Apothecary Tins", "=ds=#sr# 525", "#ACHIEVEMENTID:7332#"};
+				{ 5, "s113975", "", "=q1=Carved Bronze Mirror", "=ds=#sr# 525", "#ACHIEVEMENTID:7332#"};
+				{ 6, "s113974", "", "=q1=Empty Keg of Brewfather Xin Wo Yin", "=ds=#sr# 525", "#ACHIEVEMENTID:7331#"};
+				{ 7, "s113976", "", "=q1=Gold-Inlaid Porcelain Funerary Figurine", "=ds=#sr# 525", "#ACHIEVEMENTID:7332#"};
+				{ 8, "s113971", "", "=q1=Pandaren Game Board", "=ds=#sr# 525", "#ACHIEVEMENTID:7359#"};
+				{ 17, "s113980", "89684", "=q3=Umbrella of Chi-Ji", "#ACHIEVEMENTID:7333#"};
+				{ 19, "s113968", "", "=q1=Pandaren Tea Set", "=ds=#sr# 525", "#ACHIEVEMENTID:7358#"};
+				{ 20, "s113978", "", "=q1=Pearl of Yu'lon", "=ds=#sr# 525", "#ACHIEVEMENTID:7333#"};
+				{ 21, "s113979", "", "=q1=Standard of Niuzao", "=ds=#sr# 525", "#ACHIEVEMENTID:7333#"};
+				{ 22, "s113972", "", "=q1=Twin Stein Set of Brewfather Quan Tou Kuo", "=ds=#sr# 525", "#ACHIEVEMENTID:7331#"};
+				{ 23, "s113973", "", "=q1=Walking Cane of Brewfather Ren Yun", "=ds=#sr# 525", "#ACHIEVEMENTID:7331#"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Pandaren"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
+	AtlasLoot_Data["ArchaeologyTolvir"] = {
+		["Normal"] = {
+			{
+				{ 1, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds=#sr# 450", "=ds=#p1# (525)"};
+				{ 2, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds=#sr# 450", "=ds=#s13#"};
+				{ 3, "s92163", "64885", "=q4=Scimitar of the Sirocco", "=ds=#sr# 450", "=ds=#h1#, #w10#"};
+				{ 4, "s92139", "64880", "=q4=Staff of Ammunae", "=ds=#sr# 450", "=ds=#w9#"};
+				{ 6, "s91790", "64657", "=q1=Canopic Jar", "=ds=#sr# 450", "#ACHIEVEMENTID:5301#"};
+				{ 7, "s91775", "64652", "=q0=Castle of Sand", "=ds=#sr# 450"};
+				{ 8, "s91779", "64653", "=q0=Cat Statue with Emerald Eyes", "=ds=#sr# 450", "#ACHIEVEMENTID:5301#"};
+				{ 9, "s91785", "64656", "=q0=Engraved Scimitar Hilt", "=ds=#sr# 450", "#ACHIEVEMENTID:5301#"};
+				{ 16, "s92137", "60847", "=q4=Crawling Claw", "=ds=#sr# 450", "=ds=#e13#"};
+				{ 17, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds=#sr# 450", "=ds=#e12#"};
+				{ 18, "s92145", "64881", "=q4=Pendant of the Scarab Storm", "=ds=#sr# 450", "=ds="};
+				{ 21, "s91792", "64658", "=q0=Sketch of a Desert Palace", "=ds=#sr# 450", "#ACHIEVEMENTID:5301#"};
+				{ 22, "s91780", "64654", "=q0=Soapstone Scarab Necklace", "=ds=#sr# 450", "#ACHIEVEMENTID:5301#"};
+				{ 23, "s91782", "64655", "=q0=Tiny Oasis Mosaic", "=ds=#sr# 450", "#ACHIEVEMENTID:5301#"};
+			};
+		};
+		info = {
+			name = ARCHAEOLOGY..": "..AL["Tol'vir"],
+			switchText = {AL["Skill"], AL["Description"]},
+			module = moduleName, menu = "ARCHAEOLOGYMENU"
+		};
+	};
+
 	AtlasLoot_Data["ArchaeologyTroll"] = {
 		["Normal"] = {
 			{
-				{ 2, "s90608", "64377", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#sr# 450", "=ds=#h2#, #w10#"};
+				{ 2, "s90608", "64377", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#sr# 75", "=ds=#h2#, #w10#"};
 				{ 5, "s90429", "64348", "=q0=Atal'ai Scepter", "=ds=#sr# 1", "#ACHIEVEMENTID:4858#"};
 				{ 6, "s90421", "64346", "=q0=Bracelet of Jade and Coins", "=ds=#sr# 1"};
 				{ 7, "s89891", "63524", "=q0=Cinnabar Bijou", "=ds=#sr# 1"};
@@ -861,8 +1024,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 9, "s89890", "63523", "=q0=Eerie Smolderthorn Idol", "=ds=#sr# 1"};
 				{ 10, "s89711", "63413", "=q0=Feathered Gold Earring", "=ds=#sr# 1"};
 				{ 11, "s88907", "63120", "=q0=Fetish of Hir'eek", "=ds=#sr# 1"};
-				{ 17, "s98588", "69824", "=q3=Voodoo Figurine", "=ds=#sr# 100", "=ds=#e13#"};
-				{ 18, "s98556", "69777", "=q3=Haunted War Drum", "=ds=#sr# 100"};
+				{ 17, "s98588", "69824", "=q3=Voodoo Figurine", "=ds=#sr# 75", "=ds=#e13#"};
+				{ 18, "s98556", "69777", "=q3=Haunted War Drum", "=ds=#sr# 75"};
 				{ 20, "s93444", "66058", "=q0=Fine Bloodscalp Dinnerware", "=ds=#sr# 1"};
 				{ 21, "s90423", "64347", "=q0=Gahz'rilla Figurine", "=ds=#sr# 1"};
 				{ 22, "s89701", "63412", "=q0=Jade Asp with Ruby Eyes", "=ds=#sr# 1"};
@@ -879,159 +1042,20 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	};
 
-	AtlasLoot_Data["ArchaeologyOrc"] = {
-		["Normal"] = {
-			{
-				{ 2, "s90843", "64644", "=q4=Headdress of the First Shaman", "=ds=#sr# 300", "=ds=#s1#, #a3#"};
-				{ 4, "s90831", "64436", "=q0=Fiendish Whip", "=ds=#sr# 300"};
-				{ 5, "s90734", "64421", "=q0=Fierce Wolf Figurine", "=ds=#sr# 300"};
-				{ 6, "s90728", "64418", "=q0=Gray Candle Stub", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 7, "s90720", "64417", "=q0=Maul of Stone Guard Mur'og", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 8, "s90730", "64419", "=q0=Rusted Steak Knife", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-				{ 19, "s90732", "64420", "=q0=Scepter of Nekros Skullcrusher", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#" };
-				{ 20, "s90833", "64438", "=q0=Skull Drinking Cup", "=ds=#sr# 300"};
-				{ 21, "s90832", "64437", "=q0=Tile of Glazed Clay", "=ds=#sr# 300"};
-				{ 22, "s90622", "64389", "=q0=Tiny Bronze Scorpion", "=ds=#sr# 300", "#ACHIEVEMENTID:5192#" };
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Orc"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
-	AtlasLoot_Data["ArchaeologyDraenei"] = {
-		["Normal"] = {
-			{
-				{ 2, "s90983", "64456", "=q3=Arrival of the Naaru", "=ds=#sr# 300" };
-				{ 4, "s90853", "64440", "=q0=Anklet with Golden Bells", "=ds=#sr# 300"};
-				{ 5, "s90968", "64453", "=q0=Baroque Sword Scabbard", "=ds=#sr# 300"};
-				{ 6, "s90860", "64442", "=q0=Carved Harp of Exotic Wood", "=ds=#sr# 300"};
-				{ 7, "s90975", "64455", "=q0=Dignified Portrait", "=ds=#sr# 300"};
-				{ 17, "s90984", "64457", "=q3=The Last Relic of Argus", "=ds=#sr# 300" };
-				{ 19, "s90974", "64454", "=q0=Fine Crystal Candelabra", "=ds=#sr# 300"};
-				{ 20, "s90987", "64458", "=q0=Plated Elekk Goad", "=ds=#sr# 300"};
-				{ 21, "s90864", "64444", "=q0=Scepter of the Nathrezim", "=ds=#sr# 300", "#ACHIEVEMENTID:4858#"};
-				{ 22, "s90861", "64443", "=q0=Strange Silver Paperweight", "=ds=#sr# 300"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Draenei"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
 	AtlasLoot_Data["ArchaeologyVrykul"] = {
 		["Normal"] = {
 			{
-				{ 2, "s90997", "64460", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 375", "=ds=#h1#, #w1#" };
-				{ 4, "s91014", "64464", "=q0=Fanged Cloak Pin", "=ds=#sr# 375"};
-				{ 5, "s91012", "64462", "=q0=Flint Striker", "=ds=#sr# 375"};
-				{ 6, "s90988", "64459", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 375"};
-				{ 17, "s98569", "69775", "=q3=Vrykul Drinking Horn", "=ds=#sr# 100" };
-				{ 19, "s91008", "64461", "=q0=Scramseax", "=ds=#sr# 375"};
-				{ 20, "s91084", "64467", "=q0=Thorned Necklace", "=ds=#sr# 375"};
+				{ 2, "s90997", "64460", "=q4=Nifflevar Bearded Axe", "=ds=#sr# 350", "=ds=#h1#, #w1#" };
+				{ 4, "s91014", "64464", "=q0=Fanged Cloak Pin", "=ds=#sr# 350"};
+				{ 5, "s91012", "64462", "=q0=Flint Striker", "=ds=#sr# 350"};
+				{ 6, "s90988", "64459", "=q0=Intricate Treasure Chest Key", "=ds=#sr# 350"};
+				{ 17, "s98569", "69775", "=q3=Vrykul Drinking Horn", "=ds=#sr# 350" };
+				{ 19, "s91008", "64461", "=q0=Scramseax", "=ds=#sr# 350"};
+				{ 20, "s91084", "64467", "=q0=Thorned Necklace", "=ds=#sr# 350"};
 			};
 		};
 		info = {
 			name = ARCHAEOLOGY..": "..AL["Vrykul"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
-	AtlasLoot_Data["ArchaeologyNerubian"] = {
-		["Normal"] = {
-			{
-				{ 2, "s91214", "64481", "=q4=Blessing of the Old God", "=ds=#sr# 375"};
-				{ 4, "s91209", "64479", "=q0=Ewer of Jormungar Blood", "=ds=#sr# 375"};
-				{ 5, "s91191", "64477", "=q0=Gruesome Heart Box", "=ds=#sr# 375"};
-				{ 6, "s91188", "64476", "=q0=Infested Ruby Ring", "=ds=#sr# 375"};
-				{ 7, "s91170", "64475", "=q0=Scepter of Nezar'Azret", "=ds=#sr# 375", "#ACHIEVEMENTID:4858#"};
-				{ 17, "s91215", "64482", "=q4=Puzzle Box of Yogg-Saron", "=ds=#sr# 375"};
-				{ 19, "s91197", "64478", "=q0=Six-Clawed Cornice", "=ds=#sr# 375"};
-				{ 20, "s91133", "64474", "=q0=Spidery Sundial", "=ds=#sr# 375"};
-				{ 21, "s91211", "64480", "=q0=Vizier's Scrawled Streamer", "=ds=#sr# 375"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Nerubian"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
-	AtlasLoot_Data["ArchaeologyTolvir"] = {
-		["Normal"] = {
-			{
-				{ 1, 67538, "", "=q4=Recipe: Vial of the Sands", "=ds=#sr# 450", "=ds=#p1# (525)"};
-				{ 2, "s92168", "64904", "=q4=Ring of the Boy Emperor", "=ds=#sr# 450", "=ds=#s13#"};
-				{ 3, "s92163", "64885", "=q4=Scimitar of the Sirocco", "=ds=#sr# 450", "=ds=#h1#, #w10#"};
-				{ 4, "s92139", "64880", "=q4=Staff of Ammunae", "=ds=#sr# 450", "=ds=#w9#"};
-				{ 6, "s91790", "64657", "=q1=Canopic Jar", "=ds=#sr# 450"};
-				{ 7, "s91775", "64652", "=q0=Castle of Sand", "=ds=#sr# 450"};
-				{ 8, "s91779", "64653", "=q0=Cat Statue with Emerald Eyes", "=ds=#sr# 450"};
-				{ 9, "s91785", "64656", "=q0=Engraved Scimitar Hilt", "=ds=#sr# 450"};
-				{ 16, "s92137", "60847", "=q4=Crawling Claw", "=ds=#sr# 450", "=ds=#e13#"};
-				{ 17, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds=#sr# 450", "=ds=#e12#"};
-				{ 18, "s92145", "64881", "=q4=Pendant of the Scarab Storm", "=ds=#sr# 450", "=ds="};
-				{ 21, "s91792", "64658", "=q0=Sketch of a Desert Palace", "=ds=#sr# 450"};
-				{ 22, "s91780", "64654", "=q0=Soapstone Scarab Necklace", "=ds=#sr# 450"};
-				{ 23, "s91782", "64655", "=q0=Tiny Oasis Mosaic", "=ds=#sr# 450"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Tol'vir"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
-	AtlasLoot_Data["ArchaeologyPandaren"] = {
-		["Normal"] = {
-			{
-				{ 2, "s113981", "89685", "=q3=Spear of Xuen", "=ds=#sr# ??", "=ds=#w7#"};
-				{ 4, "s113977", "", "=q1=Apothecary Tins", "=ds=#sr# ??"};
-				{ 5, "s113975", "", "=q1=Carved Bronze Mirror", "=ds=#sr# ??"};
-				{ 6, "s113974", "", "=q1=Empty Keg of Brewfather Xin Wo Yin", "=ds=#sr# ??"};
-				{ 7, "s113976", "", "=q1=Gold-Inlaid Porcelain Funerary Figurine", "=ds=#sr# ??"};
-				{ 8, "s113971", "", "=q1=Pandaren Game Board", "=ds=#sr# ??"};
-				{ 17, "s113980", "89684", "=q3=Umbrella of Chi-Ji", "=ds=#sr# ??", "=ds=#s15#"};
-				{ 19, "s113968", "", "=q1=Pandaren Tea Set", "=ds=#sr# ??"};
-				{ 20, "s113978", "", "=q1=Pearl of Yu'lon", "=ds=#sr# ??"};
-				{ 21, "s113979", "", "=q1=Standard of Niuzao", "=ds=#sr# ??"};
-				{ 22, "s113972", "", "=q1=Twin Stein Set of Brewfather Quan Tou Kuo", "=ds=#sr# ??"};
-				{ 23, "s113973", "", "=q1=Walking Cane of Brewfather Ren Yun", "=ds=#sr# ??"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Pandaren"],
-			switchText = {AL["Skill"], AL["Description"]},
-			module = moduleName, menu = "ARCHAEOLOGYMENU"
-		};
-	};
-
-	AtlasLoot_Data["ArchaeologyMogu"] = {
-		["Normal"] = {
-			{
-				{ 2, "s113993", "89614", "=q3=Anatomical Dummy", "=ds=#sr# ??", "=ds=#m20#"};
-				{ 4, "s113983", "", "=q1=Cracked Mogu Runestone", "=ds=#sr# ??"};
-				{ 5, "s113987", "", "=q1=Edicts of the Thunder King", "=ds=#sr# ??"};
-				{ 6, "s113988", "", "=q1=Iron Amulet", "=ds=#sr# ??"};
-				{ 7, "s113982", "", "=q1=Manacles of Rebellion", "=ds=#sr# ??"};
-				{ 8, "s113990", "", "=q1=Mogu Coin", "=ds=#sr# ??"};
-				{ 17, "s113992", "89611", "=q3=Quilen Statuette", "=ds=#sr# ??", "=ds=#s14#"};
-				{ 19, "s113985", "", "=q1=Petrified Bone Whip", "=ds=#sr# ??"};
-				{ 20, "s113984", "", "=q1=Terracotta Arm", "=ds=#sr# ??"};
-				{ 21, "s113986", "", "=q1=Thunder King Insignia", "=ds=#sr# ??"};
-				{ 22, "s113989", "", "=q1=Warlord's Branding Iron", "=ds=#sr# ??"};
-				{ 23, "s113991", "", "=q1=Worn Monument Ledger", "=ds=#sr# ??"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY..": "..AL["Mogu"],
 			switchText = {AL["Skill"], AL["Description"]},
 			module = moduleName, menu = "ARCHAEOLOGYMENU"
 		};

@@ -4052,11 +4052,11 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95093, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
 				{ 20, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
 				{ 21, 95545, "", "=q7=Grand Commendation of the Kirin Tor Offensive", "=ds=", "=ds=45 #gold#"};
-				{ 22, 97207, "", "=q3=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
-				{ 23, 97205, "", "=q3=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
-				{ 24, 97206, "", "=q3=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
-				{ 25, 97204, "", "=q3=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#" },
-				{ 26, 97203, "", "=q3=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 22, 97207, "", "=q4=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
+				{ 23, 97205, "", "=q4=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 24, 97206, "", "=q4=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 25, 97204, "", "=q4=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 26, 97203, "", "=q4=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#" },
 				{ 27, 95052, "", "=q1=Arcane Propellant", "=ds=", "#ELDERCHARM:1#"};
 				{ 28, 95055, "", "=q1=Frost Rune Trap", "=ds=", "#ELDERCHARM:1#"};
 
@@ -4368,11 +4368,11 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 97154, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
 				{ 20, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
 				{ 21, 95548, "", "=q7=Grand Commendation of the Sunreaver Onslaught", "=ds=", "=ds=45 #gold#"};
-				{ 22, 97212, "", "=q3=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
-				{ 23, 97210, "", "=q3=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
-				{ 24, 97211, "", "=q3=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
-				{ 25, 97209, "", "=q3=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#" },
-				{ 26, 97208, "", "=q3=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 22, 97212, "", "=q4=Cloak of the Immortal Guardian", "=ds=#s4#", "#VALOR:937#" },
+				{ 23, 97210, "", "=q4=Shan'ze Gravetender Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 24, 97211, "", "=q4=Shan'ze Partisan's Greatcloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 25, 97209, "", "=q4=Static-Collecting Cloak", "=ds=#s4#", "#VALOR:937#" },
+				{ 26, 97208, "", "=q4=Thunder-Chaser Cloak", "=ds=#s4#", "#VALOR:937#" },
 				{ 27, 97159, "", "=q1=Arcane Propellant", "=ds=", "#ELDERCHARM:1#"};
 				{ 28, 97156, "", "=q1=Frost Rune Trap", "=ds=", "#ELDERCHARM:1#"};
 
@@ -8184,14 +8184,15 @@ local moduleName = "AtlasLootMoP"
 				{ 14, 70910, "", "=q4=Dreadful War Wolf", "#ACHIEVEMENTID:5824#, =ec1=#m6#"};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Raid"], ""};
 				{ 17, 69230, "", "=q4=Corrupted Egg of Millagazor", "#ACHIEVEMENTID:5828#" };
-				{ 18, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
-				{ 19, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
-				{ 20, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
-				{ 21, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
-				{ 22, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
-				{ 23, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
-				{ 24, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
-				{ 25, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
+				{ 18, 93662, "", "=q4=Reins of the Armored Skyscreamer", "#ACHIEVEMENTID:8124#"};
+				{ 19, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 20, 63125, "", "=q4=Reins of the Dark Phoenix", "#ACHIEVEMENTID:4988#"};
+				{ 21, 62901, "", "=q4=Reins of the Drake of the East Wind", "#ACHIEVEMENTID:4853#"};
+				{ 22, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
+				{ 23, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 24, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 25, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 26, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Mount Collecting"], ""};
