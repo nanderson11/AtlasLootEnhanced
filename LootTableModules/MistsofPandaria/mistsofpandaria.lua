@@ -7400,6 +7400,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", "=q2="..BabbleBoss["Maexxna"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
 				{ 8, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "=q2="..BabbleBoss["Gluth"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
 				{ 9, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "=q2="..BabbleBoss["The Prophet Skeram"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
+				{ 9, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
 				{ 10, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
 				{ 11, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(781)};
 				{ 12, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..AtlasLoot:GetMapNameByID(798)};
@@ -7677,142 +7678,32 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
-				{ 2, 80008, "", "=q4=Darkmoon Rabbit", "=ds=#e13#", "#ACHIEVEMENTID:6332#"};
-				{ 3, 86564, "", "=q3=Imbued Jade Fragment", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Karr the Darkener"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 4, 86563, "", "=q3=Hollow Reed", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Nalash Verdantis"]..", =q1="..AtlasLoot:GetMapNameByID(858)};
-				{ 5, 85220, "", "=q3=Terrible Turnip", "=ds=#e13#", "=q2="..AtlasLoot_IngameLocales["Ominous Seed"]..", =q1="..AL["Halfhill Farm"]};
-				{ 7, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
-				{ 8, 79744, "", "=q3=Eye of the Legion", "=ds=#e13#", "=q1="..AL["War of the Ancients"]};
-				{ 10, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
-				{ 11, 82774, "", "=q3=Jade Owl", "=ds=#e13#", "=q2=#p12#"};
-				{ 12, 87526, "", "=q3=Mechanical Pandaren Dragonling", "=ds=#e13#", "=q2=#p5#"};
-				{ 13, 82775, "", "=q3=Sapphire Cub", "=ds=#e13#", "=q2=#p12#"};
-				{ 14, 89368, "", "=q1=Chi-ji Kite", "=ds=#e13#", "=q2=#p26#"};
-				{ 15, 89367, "", "=q1=Yu'lon Kite", "=ds=#e13#", "=q2=#p26#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Achievement Companions"], ""};
-				{ 17, 85578, "", "=q3=Feral Vermling", "=ds=#e13#", "#ACHIEVEMENTID:7500#"};
-				{ 18, 86562, "", "=q3=Hopling", "=ds=#e13#", "#ACHIEVEMENTID:6402#"};
-				{ 19, 89686, "", "=q3=Jade Tentacle", "=ds=#e13#", "#ACHIEVEMENTID:7521#"};
-				{ 20, 88147, "", "=q3=Singing Cricket Cage", "=ds=#e13#", "#ACHIEVEMENTID:6582#"};
-				{ 21, 85513, "", "=q3=Thundering Serpent Hatchling", "=ds=#e13#", "#ACHIEVEMENTID:6634#"};
-				{ 22, 89736, "", "=q3=Venus", "=ds=#e13#", "#ACHIEVEMENTID:7501#"};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Promotional Companions"], ""};
-				{ 25, 90177, "", "=q3=Baneling", "=ds=#e13#", "#ACHIEVEMENTID:7842#"};
-				{ 26, 85871, "", "=q3=Lucky Quilen Cub", "=ds=#e13#", "#ACHIEVEMENTID:6848#"};
-				{ 28, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
-				{ 29, 85222, "", "=q3=Red Cricket", "=ds=#e13#", "=ds="..BabbleFaction["Sho"].." - "..BabbleFaction["Best Friend"]};
-				{ 30, 85447, "", "=q3=Tiny Goldfish", "=ds=#e13#", "=ds="..BabbleFaction["The Anglers"]};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
-				{ 2, 89587, "", "=q3=Porcupette", "=ds=#e13#", "=ds="..AtlasLoot_IngameLocales["Sack of Pet Supplies"]};
-				{
-					{ 3, 84105, "", "=q1=Fishy", "=ds=#e13#", "=q1=#m4#: #QUESTID:31239#"};
-					{ 3, 84105, "", "=q1=Fishy", "=ds=#e13#", "=q1=#m4#: #QUESTID:29905#"};
-				};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Merchant Sold Companions"], ""};
-				{ 6, "s123214", "", "=q1=Gilnean Raven", "=ds=#e13#", "=ds="..AL["Battle Pet Trainer"].." =ec1=#m7#"};
-				{ 7, 88148, "", "=q1=Jade Crane Chick", "=ds=#e13#", "=ds="..AL["Battle Pet Trainer"]};
-				{ 8, "s123212", "", "=q1=Shore Crawler", "=ds=#e13#", "=ds="..AL["Battle Pet Trainer"].." =ec1=#m6#"};
-				{
-					{ 9, 46767, "", "=q1=Warbot Ignition Key", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(321)};
-					{ 9, 46767, "", "=q1=Warbot Ignition Key", "=ds=#e13#", "=ds="..AtlasLoot:GetMapNameByID(504).." / "..AtlasLoot:GetMapNameByID(301)};
-				};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
-				{ 17, 89906, "", "=q2=Magical Mini-Treat", "=ds="};	
-				{ 18, 89139, "", "=q1=Chain Pet Leash", "=ds="};
-				{ 19, 89222, "", "=q1=Cloud Ring", "=ds="};
-				{ 20, 90048, "", "=q1=Exquisite Murloc Leash", "=ds="};
+				{ 2, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
+				{ 3, 94125, "", "=q3=Living Sandling", "=ds=#e13#"};
+				{ 4, 94152, "", "=q3=Son af Animus", "=ds=#e13#"};
+				{ 5, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#"};
+				{ 6, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#"};
+				{ 7, 95422, "", "=q3=Zandalari Anklerender", "=ds=#e13#"};
+				{ 8, 95423, "", "=q3=Zandalari Footslasher", "=ds=#e13#"};
+				{ 9, 94126, "", "=q3=Zandalari Kneebiter", "=ds=#e13#"};
+				{ 10, 95424, "", "=q3=Zandalari Toenibbler", "=ds=#e13#"};
+				{ 12, 0, "INV_Box_01", "=q6="..AL["Card Game Companions"], ""};
+				{ 13, 93669, "", "=q3=Gusting Grimoire", "=ds=#e13#", "=q1="..AL["Betrayal of the Guardian"]};
+				{ 16, 0, "INV_Box_01", "=q6=#p24#", ""};
+				{ 17, 94933, "", "=q3=Tiny Blue Carp", "=ds=#e13#"};
+				{ 18, 94934, "", "=q3=Tiny Green Carp", "=ds=#e13#"};
+				{ 19, 94932, "", "=q3=Tiny Red Carp", "=ds=#e13#"};
+				{ 20, 94935, "", "=q3=Tiny White Carp", "=ds=#e13#"};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
+				{ 23, 94210, "", "=q3=Mountain Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32603#"};
+				{ 24, 94025, "", "=q3=Red Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32604#"};
+				{ 25, 94209, "", "=q3=Snowy Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32604#"};
+				{ 26, 94208, "", "=q3=Sunfur Panda", "=ds=#e13#", "=q1=#m4#: #QUESTID:32604#"};
+				{ 27, 94190, "", "=q3=Spectral Porcupette", "=ds=#e13#", "=q1=#m4#: #QUESTID:32616#"};
 			};
 		};
 		info = {
-			name = AL["New Companions"].." - "..AL["Mists of Pandaria"],
-			module = moduleName, menu = "PETMENU", instance = "Pets",
-		};
-	}
-
-	AtlasLoot_Data["PetsNEW2"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
-				{ 2, 92707, "", "=q4=Cinder Kitten", "=ds=#e13#"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["Quest Reward Companions"], ""};
-				{ 5, 91040, "", "=q3=Darkmoon Eye", "=ds=#e13#", "=q1=#m4#: #QUESTID:32175#"};
-				{ 6, 92799, "", "=q3=Pandaren Air Spirit", "=ds=#e13#", "=q1=#m4#: #QUESTID:32428# / "..AtlasLoot_IngameLocales["Sack of Pet Supplies"]};
-				{ 7, 92800, "", "=q3=Pandaren Earth Spirit", "=ds=#e13#", "=q1=#m4#: #QUESTID:32428# / "..AtlasLoot_IngameLocales["Sack of Pet Supplies"]};
-				{ 8, 92798, "", "=q3=Pandaren Fire Spirit", "=ds=#e13#", "=q1=#m4#: #QUESTID:32428# / "..AtlasLoot_IngameLocales["Sack of Pet Supplies"]};
-				{ 9, 90173, "", "=q3=Pandaren Water Spirit", "=ds=#e13#", "=q1=#m4#: #QUESTID:32428# / "..AtlasLoot_IngameLocales["Sack of Pet Supplies"]};
-				{ 11, 0, "INV_Box_01", "=q6="..AL["World Events"], ""};
-				{ 12, 91003, "", "=q3=Darkmoon Hatchling", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Crafted Companions"], ""};
-				{ 17, 90900, "", "=q3=Imperial Moth", "=ds=#e13#", "=q2=#p8#"};
-				{ 18, 90902, "", "=q2=Imperial Silkworm", "=ds=#e13#", "=q2=#p8#"};
-				{ 20, 0, "INV_Box_01", "=q6="..AL["Achievement Companions"], ""};
-				{ 21, 93031, "", "=q3=Mr. Bigglesworth's Frigid Collar", "=ds=#e13#", "#ACHIEVEMENTID:7934#"};
-				{ 22, 0, "", "=q3=Red Panda Cub", "=ds=#e13#", "#ACHIEVEMENTID:7906#"};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Companion Accessories"], ""};
-				{ 25, 92738, "", "=q3=Safari Hat", "=ds=#s1#", "#ACHIEVEMENTID:7499#"};
-				{ 27, 0, "INV_Box_01", "=q6="..AL["Faction Companions"], ""};
-				{
-					{ 28, 93025, "", "=q1=Clock'em", "=ds=#e13#", "=ds="..BabbleFaction["Brawl'gar Arena"].." - Rank 4"};
-					{ 28, 93025, "", "=q1=Clock'em", "=ds=#e13#", "=ds="..BabbleFaction["Bizmo's Brawlpub"].." - Rank 4"};
-				};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
-				{ 2, 93040, "", "=q3=Anubisath Idol", "=ds=#e13#", "=q2="..BabbleBoss["Emperor Vek'lor"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 3, 93037, "", "=q3=Blackwing Banner", "=ds=#e13#", "=q2="..BabbleBoss["Broodlord Lashlayer"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 4, 93034, "", "=q3=Blazing Rune", "=ds=#e13#", "=q2="..BabbleBoss["Magmadar"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
-				{ 5, 93032, "", "=q3=Blighted Spore", "=ds=#e13#", "=q2="..BabbleBoss["Loatheb"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
-				{ 6, 93035, "", "=q3=Core of Hardened Ash", "=ds=#e13#", "=q2="..BabbleBoss["Golemagg the Incinerator"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
-				{ 7, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", "=q2="..BabbleBoss["Maexxna"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
-				{ 8, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "=q2="..BabbleBoss["Gluth"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
-				{ 9, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "=q2="..BabbleBoss["The Prophet Skeram"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 10, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
-				{ 11, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 12, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 13, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-			};
-			{
-				{ 1, 92742, "", "=q2=Polished Battle-Stone", "=ds=#e18#"};
-				{ 2, 92689, "", "=q2=Polished Aquatic Battle-Stone", "=ds=#e18#"};
-				{ 3, 92685, "", "=q2=Polished Beast Battle-Stone", "=ds=#e18#"};
-				{ 4, 92686, "", "=q2=Polished Critter Battle-Stone", "=ds=#e18#"};
-				{ 5, 92693, "", "=q2=Polished Dragonkin Battle-Stone", "=ds=#e18#"};
-				{ 6, 92684, "", "=q2=Polished Elemental Battle-Stone", "=ds=#e18#"};
-				{ 7, 92687, "", "=q2=Polished Flying Battle-Stone", "=ds=#e18#"};
-				{ 8, 92692, "", "=q2=Polished Humanoid Battle-Stone", "=ds=#e18#"};
-				{ 9, 92688, "", "=q2=Polished Magic Battle-Stone", "=ds=#e18#"};
-				{ 10, 92690, "", "=q2=Polished Mechanical Battle-Stone", "=ds=#e18#"};
-				{ 11, 92691, "", "=q2=Polished Undead Battle-Stone", "=ds=#e18#"};
-				{ 16, 92741, "", "=q3=Flawless Battle-Stone", "=ds=#e18#"};
-				{ 17, 92679, "", "=q3=Flawless Aquatic Battle-Stone", "=ds=#e18#"};
-				{ 18, 92675, "", "=q3=Flawless Beast Battle-Stone", "=ds=#e18#"};
-				{ 19, 92676, "", "=q3=Flawless Critter Battle-Stone", "=ds=#e18#"};
-				{ 20, 92683, "", "=q3=Flawless Dragonkin Battle-Stone", "=ds=#e18#"};
-				{ 21, 92665, "", "=q3=Flawless Elemental Battle-Stone", "=ds=#e18#"};
-				{ 22, 92677, "", "=q3=Flawless Flying Battle-Stone", "=ds=#e18#"};
-				{ 23, 92682, "", "=q3=Flawless Humanoid Battle-Stone", "=ds=#e18#"};
-				{ 24, 92678, "", "=q3=Flawless Magic Battle-Stone", "=ds=#e18#"};
-				{ 25, 92680, "", "=q3=Flawless Mechanical Battle-Stone", "=ds=#e18#"};
-				{ 26, 92681, "", "=q3=Flawless Undead Battle-Stone", "=ds=#e18#"};
-			--};
-			--{
-				--{ 1, 92740, "", "=q4=Perfect Battle-Stone", "=ds=#e18#"};
-				--{ 2, 92694, "", "=q4=Perfect Aquatic Battle-Stone", "=ds=#e18#"};
-				--{ 3, 92695, "", "=q4=Perfect Beast Battle-Stone", "=ds=#e18#"};
-				--{ 4, 92696, "", "=q4=Perfect Critter Battle-Stone", "=ds=#e18#"};
-				--{ 5, 92697, "", "=q4=Perfect Dragonkin Battle-Stone", "=ds=#e18#"};
-				--{ 6, 92698, "", "=q4=Perfect Elemental Battle-Stone", "=ds=#e18#"};
-				--{ 7, 92699, "", "=q4=Perfect Flying Battle-Stone", "=ds=#e18#"};
-				--{ 8, 92700, "", "=q4=Perfect Humanoid Battle-Stone", "=ds=#e18#"};
-				--{ 9, 92701, "", "=q4=Perfect Magic Battle-Stone", "=ds=#e18#"};
-				--{ 10, 92702, "", "=q4=Perfect Mechanical Battle-Stone", "=ds=#e18#"};
-				--{ 11, 92703, "", "=q4=Perfect Undead Battle-Stone", "=ds=#e18#"};
-			};
-		};
-		info = {
-			name = AL["New Companions"].." - Patch 5.1",
+			name = AL["New Companions"].." - Patch 5.2",
 			module = moduleName, menu = "PETMENU", instance = "Pets",
 		};
 	}

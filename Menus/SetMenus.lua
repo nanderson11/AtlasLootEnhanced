@@ -236,14 +236,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 5, "PetsFaction", "ability_hunter_pet_sporebat", "=ds="..AL["Faction Companions"], ""};
 				{ 6, "PetsEvent", "inv_pet_egbert", "=ds="..AL["World Events"], ""};
 				{ 7, "PetsRemoved", "inv_pet_babyblizzardbear", "=ds="..AL["Unobtainable Companions"], ""};
-				{ 8, "PetsNEW", "inv_pet_babycloudserpent", "=ds="..AL["New Companions"], "=q5="..AL["Mists of Pandaria"]};
+				{ 8, "PetsNEW", "inv_pet_babycloudserpent", "=ds="..AL["New Companions"], "=q5=Patch 5.2"};
 				{ 17, "PetsQuest", "inv_drink_19", "=ds="..AL["Quest Reward Companions"], ""};
 				{ 18, "PetsAchievement", "inv_misc_darkphoenixpet_01", "=ds="..AL["Achievement Reward"], ""};
 				{ 19, "PetsPromotional", "inv_netherwhelp", "=ds="..AL["Promotional Companions"], ""};
 				{ 20, "PetsCardGame", "inv_misc_fish_34", "=ds="..AL["Card Game Companions"], ""};
 				{ 21, "PetsPetStore", "INV_Misc_Coin_01", "=ds="..AL["Blizzard Store"], ""};
 				{ 22, "PetsAccessories", "inv_misc_petbiscuit_01", "=ds="..AL["Companion Accessories"], ""};
-				{ 23, "PetsNEW2", "inv_pet_babycloudserpent", "=ds="..AL["New Companions"], "=q5=Patch 5.1"};
 			};
 		};
 		info = {

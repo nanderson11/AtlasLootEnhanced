@@ -5,7 +5,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 -Hegarol
 
 Patch Notes
-v7.05.00 (Feb ??, 2013)
+v7.05.00 (Mar ??, 2013)
 Compatible with Patch 5.2.
 Added Tier 15 Raid Set.
 Added PvP Season 13 items.
@@ -13,8 +13,10 @@ Added loot for Throne of Thunder.
 Added faction - Kirin Tor Offensive.
 Added faction - Sunreaver Onslaught.
 Added faction - Shado-Pan Assault (Valor items).
+Added new companions.
 New feature: Bonus Roll information.
 Updated several professions with new recipes.
+Updated Midsummer Fire Festival loot.
 Minor fixes, additions and translations.
 
 v7.04.02 (Jan 25, 2013)
