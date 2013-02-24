@@ -4537,6 +4537,28 @@ local moduleName = "AtlasLootMoP"
 		----------------------
 
 	AtlasLoot_Data["PVP90DeathKnight"] = {
+   		["Normal_A"] = {
+      		{
+				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
+				{ 9, 91151, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 91155, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 91147, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 91149, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 91153, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
+         		merge = true;
+      		};   
+   		};
+   		["Normal_H"] = {
+      		{
+				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
+				{ 9, 94429, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 94366, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 94392, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 94364, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 94365, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
+         		merge = true;
+      		};   
+   		};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
@@ -4545,12 +4567,6 @@ local moduleName = "AtlasLootMoP"
 				{ 4, 91148, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
 				{ 5, 91150, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
 				{ 6, 91154, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
-				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
-				{ 9, 85046, "", "=q4=Tyrannical Gladiator's Dreadplate Helm", "=ds=", "#CONQUEST:2250#"};
-				{ 10, 85086, "", "=q4=Tyrannical Gladiator's Dreadplate Shoulders", "=ds=", "#CONQUEST:1750#"};
-				{ 11, 84993, "", "=q4=Tyrannical Gladiator's Dreadplate Chestpiece", "=ds=", "#CONQUEST:2250#"};
-				{ 12, 85028, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=", "#CONQUEST:1750#"};
-				{ 13, 85059, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", "=q5="};
 				{ 17, 91504, "", "=q4=Malevolent Gladiator's Dreadplate Helm", "=ds=", "#HONOR:2250#"};
 				{ 18, 91508, "", "=q4=Malevolent Gladiator's Dreadplate Shoulders", "=ds=", "#HONOR:1750#"};
@@ -4572,26 +4588,48 @@ local moduleName = "AtlasLootMoP"
 	}
 
 	AtlasLoot_Data["PVP90DruidBalance"] = {
+   		["Normal_A"] = {
+      		{
+				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
+				{ 9, 91191, "", "=q4=Tyrannical Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 91197, "", "=q4=Tyrannical Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 91195, "", "=q4=Tyrannical Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 91189, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 91193, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
+         		merge = true;
+      		};   
+   		};
+   		["Normal_H"] = {
+      		{
+				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
+				{ 9, 94347, "", "=q4=Tyrannical Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 10, 94416, "", "=q4=Tyrannical Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 11, 94327, "", "=q4=Tyrannical Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 12, 94412, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 13, 94483, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
+         		merge = true;
+      		};   
+   		};
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
-				{ 2, 85037, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
-				{ 3, 85080, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
-				{ 4, 85070, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
-				{ 5, 85022, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
-				{ 6, 85049, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
-				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
-				{ 9, 84861, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
-				{ 10, 84925, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
-				{ 11, 84906, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
-				{ 12, 84843, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
-				{ 13, 84880, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
+				{ 2, 91192, "", "=q4=Tyrannical Gladiator's Wyrmhide Helm", "=ds=", "#CONQUEST:2250#"};
+				{ 3, 91198, "", "=q4=Tyrannical Gladiator's Wyrmhide Spaulders", "=ds=", "#CONQUEST:1750#"};
+				{ 4, 91196, "", "=q4=Tyrannical Gladiator's Wyrmhide Robes", "=ds=", "#CONQUEST:2250#"};
+				{ 5, 91190, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=", "#CONQUEST:1750#"};
+				{ 6, 91194, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=", "#CONQUEST:2250#"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
-				{ 17, 84394, "", "=q3=Dreadful Gladiator's Wyrmhide Helm", "=ds=", "#HONOR:2250#"};
-				{ 18, 84397, "", "=q3=Dreadful Gladiator's Wyrmhide Spaulders", "=ds=", "#HONOR:1750#"};
-				{ 19, 84396, "", "=q3=Dreadful Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2250#"};
-				{ 20, 84393, "", "=q3=Dreadful Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1750#"};
-				{ 21, 84395, "", "=q3=Dreadful Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2250#"};
+				{ 17, 91544, "", "=q4=Malevolent Gladiator's Wyrmhide Helm", "=ds=", "#HONOR:2250#"};
+				{ 18, 91550, "", "=q4=Malevolent Gladiator's Wyrmhide Spaulders", "=ds=", "#HONOR:1750#"};
+				{ 19, 91548, "", "=q4=Malevolent Gladiator's Wyrmhide Robes", "=ds=", "#HONOR:2250#"};
+				{ 20, 91542, "", "=q4=Malevolent Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1750#"};
+				{ 21, 91546, "", "=q4=Malevolent Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:2250#"};
+				{ 23, 0, "spell_nature_starfall", "=q6=#arenas1_2#", "=q5="};
+				{ 24, 93476, "", "=q3=Crafted Dreadful Gladiator's Wyrmhide Helm", "=ds="};
+				{ 25, 93479, "", "=q3=Crafted Dreadful Gladiator's Wyrmhide Spaulders", "=ds="};
+				{ 26, 93478, "", "=q3=Crafted Dreadful Gladiator's Wyrmhide Robes", "=ds="};
+				{ 27, 93475, "", "=q3=Crafted Dreadful Gladiator's Wyrmhide Gloves", "=ds="};
+				{ 28, 93477, "", "=q3=Crafted Dreadful Gladiator's Wyrmhide Legguards", "=ds="};
 			};
 		};
 		info = {
@@ -6984,7 +7022,7 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Betrayal of the Guardian"]};
-				{ 2, 93671, "", "=q4=Ghastly Charger's Skull", "=ds=#12#" },
+				{ 2, 93671, "", "=q4=Ghastly Charger's Skull", "=ds=#e12#" },
 				{ 3, 93672, "", "=q3=Dark Portal", "=ds=" },
 				{ 4, 93669, "", "=q3=Gusting Grimoire", "=ds=#e13#"};
 				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["War of the Ancients"]};
@@ -6996,7 +7034,7 @@ local moduleName = "AtlasLootMoP"
 				{ 13, 72161, "", "=q3=Spurious Sarcophagus", "=ds=" },
 				{ 14, 72153, "", "=q3=Sand Scarab", "=ds=#e13#"};
 				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Crown of Heaven"]};
-				{ 17, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#" },
+				{ 17, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e12#" },
 				{ 18, 72159, "", "=q3=Magical Ogre Idol", "=ds=" },
 				{ 19, 72134, "", "=q3=Grell Moss", "=ds=#e13#"};
 				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..BabbleZone["Throne of the Tides"]};
@@ -8259,7 +8297,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 68825, "", "=q4=Amani Dragonhawk", "=ds=#e27#", "=q1="..AL["Twilight of the Dragons"]},
 				{ 2, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#", "=q1="..AL["Drums of War"]};
 				{ 3, 54069, "", "=q4=Blazing Hippogryph", "=ds=#e27#", "=q1="..AL["Wrathgate"]};
-				{ 4, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e26#", "=q1="..AL["Crown of Heaven"]},
+				{ 4, 72582, "", "=q4=Corrupted Hippogryph", "=ds=#e12#", "=q1="..AL["Crown of Heaven"]},
 				{ 5, 79771, "", "=q4=Feldrake", "=ds=#e26#", "=q1="..AL["War of the Ancients"]},
 				{ 6, 93671, "", "=q4=Ghastly Charger's Skull", "=ds=#12#", "=q1="..AL["Betrayal of the Guardian"]},
 				{ 7, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#", "=q1="..AL["Fields of Honor"]};
