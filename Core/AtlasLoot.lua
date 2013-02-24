@@ -704,30 +704,35 @@ do
 		end
 		if dataID and AtlasLoot_Data[dataID] then
 			-- Faction specific items
-			for k,v in ipairs(lootTableTypes) do
-				if AtlasLoot_Data[dataID][v..factionAdd] then
-					if AtlasLoot_Data[dataID][v..factionAdd].merge and AtlasLoot_Data[dataID][v] then
-						-- Merge tables here
-						local saveTab = {}
-						-- First check all entry (maybe we must override some items)
-						for index,tab in ipairs(AtlasLoot_Data[dataID][v]) do
-							saveTab[tab[1]] = index
-						end
-						-- Now merge
-						for index,tab in ipairs(AtlasLoot_Data[dataID][v..factionAdd]) do
-							if saveTab[tab[1]] then
-								-- Replace a item if it already exists
-								AtlasLoot_Data[dataID][v][saveTab[tab[1]]] = tab
+			if not AtlasLoot_Data[dataID].factionCheck then
+				for k,v in ipairs(lootTableTypes) do
+					if AtlasLoot_Data[dataID][v..factionAdd] then
+						for page in ipairs(AtlasLoot_Data[dataID][v..factionAdd]) do
+							if AtlasLoot_Data[dataID][v..factionAdd][page].merge and AtlasLoot_Data[dataID][v][page] then
+								-- Merge tables here
+								local saveTab = {}
+								-- First check all entry (maybe we must override some items)
+								for index,tab in ipairs(AtlasLoot_Data[dataID][v][page]) do
+									saveTab[tab[1]] = index
+								end
+								-- Now merge
+								for index,tab in ipairs(AtlasLoot_Data[dataID][v..factionAdd][page]) do
+									if saveTab[tab[1]] then
+										-- Replace a item if it already exists
+										AtlasLoot_Data[dataID][v][page][saveTab[tab[1]]] = tab
+									else
+										table.insert(AtlasLoot_Data[dataID][v][page], tab)
+									end
+								end
 							else
-								table.insert(AtlasLoot_Data[dataID][v], tab)
+								AtlasLoot_Data[dataID][v][page] = AtlasLoot_Data[dataID][v..factionAdd][page]
 							end
 						end
-					else
-						AtlasLoot_Data[dataID][v] = AtlasLoot_Data[dataID][v..factionAdd]
+						-- remove old pointers to the tables
+						AtlasLoot_Data[dataID][v..factionAdd] = nil
 					end
-					-- remove old pointers to the tables
-					AtlasLoot_Data[dataID][v..factionAdd] = nil
 				end
+				AtlasLoot_Data[dataID].factionCheck = true
 			end
 
 			if AtlasLoot_Data[dataID][lootTableType] then
@@ -1036,7 +1041,6 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	end
 	
 	if AtlasLoot_Data[dataID]["RaidFinder"] and lootTableType ~= "RaidFinder" then
-		--print"this"
 		self.ItemFrame.RaidFinder:Show()
 		self.ItemFrame.RaidFinder:SetChecked(false)
 		self.ItemFrame.RaidFinder:Enable()
