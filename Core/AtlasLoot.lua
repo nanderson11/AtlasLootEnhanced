@@ -725,6 +725,7 @@ do
 									end
 								end
 							else
+								if not AtlasLoot_Data[dataID][v] then AtlasLoot_Data[dataID][v] = {} end
 								AtlasLoot_Data[dataID][v][page] = AtlasLoot_Data[dataID][v..factionAdd][page]
 							end
 						end
