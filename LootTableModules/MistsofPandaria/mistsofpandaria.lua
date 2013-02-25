@@ -1707,29 +1707,429 @@ local moduleName = "AtlasLootMoP"
 		--- Pandaria World Bosses ---
 		-----------------------------
 
-	--[[AtlasLoot_Data["Nalak"] = {
+	AtlasLoot_Data["Nalak"] = {
+		["Normal_A"] = {
+			{
+				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Balance"]};
+				{ 17, 91189, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
+				{ 18, 91193, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
+				{ 20, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Feral"]};
+				{ 21, 91157, "", "=q4=Tyrannical Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
+				{ 22, 91161, "", "=q4=Tyrannical Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
+				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
+				{ 25, 91172, "", "=q4=Tyrannical Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
+				{ 26, 91176, "", "=q4=Tyrannical Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 17, 91224, "", "=q4=Tyrannical Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
+				{ 18, 91228, "", "=q4=Tyrannical Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
+				{ 20, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 21, 91232, "", "=q4=Tyrannical Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
+				{ 22, 91236, "", "=q4=Tyrannical Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
+				{ 24, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 25, 91342, "", "=q4=Tyrannical Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
+				{ 26, 91346, "", "=q4=Tyrannical Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
+				{ 28, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 29, 91420, "", "=q4=Tyrannical Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
+				{ 30, 91424, "", "=q4=Tyrannical Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
+				merge = true;
+			};
+			{
+				{ 20, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Mistweaver"]};
+				{ 21, 91257, "", "=q4=Tyrannical Gladiator's Copperskin Gloves", "=ds=#s9#, #a2#"};
+				{ 22, 91261, "", "=q4=Tyrannical Gladiator's Copperskin Legguards", "=ds=#s11#, #a2#"};
+				{ 24, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Windwalker"]};
+				{ 25, 91247, "", "=q4=Tyrannical Gladiator's Ironskin Gloves", "=ds=#s9#, #a2#"};
+				{ 26, 91251, "", "=q4=Tyrannical Gladiator's Ironskin Legguards", "=ds=#s11#, #a2#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
+				{ 17, 91289, "", "=q4=Tyrannical Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 91293, "", "=q4=Tyrannical Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Retribution"]};
+				{ 21, 91269, "", "=q4=Tyrannical Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 91273, "", "=q4=Tyrannical Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
+				{ 17, 91309, "", "=q4=Tyrannical Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
+				{ 18, 91313, "", "=q4=Tyrannical Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
+				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Shadow"]};
+				{ 21, 91319, "", "=q4=Tyrannical Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
+				{ 22, 91323, "", "=q4=Tyrannical Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Elemental"]};
+				{ 17, 91382, "", "=q4=Tyrannical Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
+				{ 18, 91386, "", "=q4=Tyrannical Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
+				{ 20, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Enhancement"]};
+				{ 21, 91370, "", "=q4=Tyrannical Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
+				{ 22, 91374, "", "=q4=Tyrannical Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
+				{ 24, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
+				{ 25, 91360, "", "=q4=Tyrannical Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
+				{ 26, 91364, "", "=q4=Tyrannical Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
+				{ 17, 91149, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 18, 91153, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 91432, "", "=q4=Tyrannical Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 91436, "", "=q4=Tyrannical Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				merge = true;
+			};
+			{
+				{ 1, 91121, "", "=q4=Tyrannical Gladiator's Cuffs of Accuracy", "=ds="};
+				{ 2, 91111, "", "=q4=Tyrannical Gladiator's Cord of Accuracy", "=ds="};
+				{ 3, 91117, "", "=q4=Tyrannical Gladiator's Treads of Alacrity", "=ds="};
+				{ 5, 91123, "", "=q4=Tyrannical Gladiator's Cuffs of Meditation", "=ds="};
+				{ 6, 91113, "", "=q4=Tyrannical Gladiator's Cord of Meditation", "=ds="};
+				{ 7, 91119, "", "=q4=Tyrannical Gladiator's Treads of Meditation", "=ds="};
+				{ 9, 91122, "", "=q4=Tyrannical Gladiator's Cuffs of Prowess", "=ds="};
+				{ 10, 91109, "", "=q4=Tyrannical Gladiator's Cord of Cruelty", "=ds="};
+				{ 11, 91115, "", "=q4=Tyrannical Gladiator's Treads of Cruelty", "=ds="};
+				{ 16, 91246, "", "=q4=Tyrannical Gladiator's Armwraps of Accuracy", "=ds="};
+				{ 17, 91335, "", "=q4=Tyrannical Gladiator's Waistband of Accuracy", "=ds="};
+				{ 18, 91337, "", "=q4=Tyrannical Gladiator's Boots of Cruelty", "=ds="};
+				{ 20, 91339, "", "=q4=Tyrannical Gladiator's Armwraps of Alacrity", "=ds="};
+				{ 21, 91242, "", "=q4=Tyrannical Gladiator's Waistband of Cruelty", "=ds="};
+				{ 22, 91244, "", "=q4=Tyrannical Gladiator's Boots of Alacrity", "=ds="};
+				{ 24, 91188, "", "=q4=Tyrannical Gladiator's Bindings of Prowess", "=ds="};
+				{ 25, 91184, "", "=q4=Tyrannical Gladiator's Belt of Cruelty", "=ds="};
+				{ 26, 91186, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds="};
+				{ 28, 91171, "", "=q4=Tyrannical Gladiator's Bindings of Meditation", "=ds="};
+				{ 29, 91167, "", "=q4=Tyrannical Gladiator's Belt of Meditation", "=ds="};
+				{ 30, 91169, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds="};
+				merge = true;
+			};
+			{
+				{ 1, 91357, "", "=q4=Tyrannical Gladiator's Armbands of Meditation", "=ds="};
+				{ 2, 91350, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds="};
+				{ 3, 91354, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds="};
+				{ 5, 91356, "", "=q4=Tyrannical Gladiator's Armbands of Prowess", "=ds="};
+				{ 6, 91378, "", "=q4=Tyrannical Gladiator's Waistguard of Cruelty", "=ds="};
+				{ 7, 91352, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds="};
+				{ 9, 91220, "", "=q4=Tyrannical Gladiator's Wristguards of Alacrity", "=ds="};
+				{ 10, 91212, "", "=q4=Tyrannical Gladiator's Links of Cruelty", "=ds="};
+				{ 11, 91218, "", "=q4=Tyrannical Gladiator's Sabatons of Alacrity", "=ds="};
+				{ 13, 91221, "", "=q4=Tyrannical Gladiator's Wristguards of Accuracy", "=ds="};
+				{ 14, 91214, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds="};
+				{ 15, 91216, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds="};
+				{ 16, 91286, "", "=q4=Tyrannical Gladiator's Bracers of Meditation", "=ds="};
+				{ 17, 91279, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds="};
+				{ 18, 91283, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds="};
+				{ 20, 91305, "", "=q4=Tyrannical Gladiator's Armplates of Proficiency", "=ds="};
+				{ 21, 91297, "", "=q4=Tyrannical Gladiator's Girdle of Accuracy", "=ds="};
+				{ 22, 91301, "", "=q4=Tyrannical Gladiator's Warboots of Cruelty", "=ds="};
+				{ 24, 91285, "", "=q4=Tyrannical Gladiator's Bracers of Prowess", "=ds="};
+				{ 25, 91277, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds="};
+				{ 26, 91281, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds="};
+				{ 28, 91306, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds="};
+				{ 29, 91299, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds="};
+				{ 30, 91303, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds="};
+				merge = true;
+			};
+			{
+				{ 1, 91100, "", "=q4=Tyrannical Gladiator's Cape of Cruelty", "=ds=#s4#" },
+				{ 2, 91101, "", "=q4=Tyrannical Gladiator's Cape of Prowess", "=ds=#s4#" },
+				{ 3, 91411, "", "=q4=Tyrannical Gladiator's Cloak of Alacrity", "=ds=#s4#" },
+				{ 4, 91412, "", "=q4=Tyrannical Gladiator's Cloak of Prowess", "=ds=#s4#" },
+				{ 5, 91124, "", "=q4=Tyrannical Gladiator's Drape of Cruelty", "=ds=#s4#"},
+				{ 6, 91126, "", "=q4=Tyrannical Gladiator's Drape of Meditation", "=ds=#s4#" },
+				{ 7, 91125, "", "=q4=Tyrannical Gladiator's Drape of Prowess", "=ds=#s4#" },
+				{ 9, 91139, "", "=q4=Tyrannical Gladiator's Band of Accuracy", "=ds=#s13#" };
+				{ 10, 91138, "", "=q4=Tyrannical Gladiator's Band of Cruelty", "=ds=#s13#" };
+				{ 11, 91140, "", "=q4=Tyrannical Gladiator's Band of Meditation", "=ds=#s13#" };
+				{ 12, 91417, "", "=q4=Tyrannical Gladiator's Signet of Accuracy", "=ds=#s13#" };
+				{ 13, 91416, "", "=q4=Tyrannical Gladiator's Signet of Cruelty", "=ds=#s13#" };
+				{ 14, 91106, "", "=q4=Tyrannical Gladiator's Ring of Accuracy", "=ds=#s13#" };
+				{ 15, 91105, "", "=q4=Tyrannical Gladiator's Ring of Cruelty", "=ds=#s13#" };
+				{ 16, 91414, "", "=q4=Tyrannical Gladiator's Choker of Accuracy", "=ds=#s2#" },
+				{ 17, 91413, "", "=q4=Tyrannical Gladiator's Choker of Proficiency", "=ds=#s2#" },
+				{ 18, 91102, "", "=q4=Tyrannical Gladiator's Necklace of Proficiency", "=ds=#s2#" },
+				{ 19, 91103, "", "=q4=Tyrannical Gladiator's Necklace of Prowess", "=ds=#s2#" },
+				{ 20, 91136, "", "=q4=Tyrannical Gladiator's Pendant of Alacrity", "=ds=#s2#" },
+				{ 21, 91135, "", "=q4=Tyrannical Gladiator's Pendant of Cruelty", "=ds=#s2#" },
+				{ 22, 91137, "", "=q4=Tyrannical Gladiator's Pendant of Meditation", "=ds=#s2#" },
+				merge = true;
+			};
+		};
+		["Normal_H"] = {
+			{
+				{ 16, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Balance"]};
+				{ 17, 94412, "", "=q4=Tyrannical Gladiator's Wyrmhide Gloves", "=ds=#s9#, #a2#"};
+				{ 18, 94483, "", "=q4=Tyrannical Gladiator's Wyrmhide Legguards", "=ds=#s11#, #a2#"};
+				{ 20, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Feral"]};
+				{ 21, 94455, "", "=q4=Tyrannical Gladiator's Dragonhide Gloves", "=ds=#s9#, #a2#"};
+				{ 22, 94368, "", "=q4=Tyrannical Gladiator's Dragonhide Legguards", "=ds=#s11#, #a2#"};
+				{ 24, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
+				{ 25, 94371, "", "=q4=Tyrannical Gladiator's Kodohide Gloves", "=ds=#s9#, #a2#"};
+				{ 26, 94477, "", "=q4=Tyrannical Gladiator's Kodohide Legguards", "=ds=#s11#, #a2#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 17, 94453, "", "=q4=Tyrannical Gladiator's Chain Gauntlets", "=ds=#s9#, #a3#"};
+				{ 18, 94384, "", "=q4=Tyrannical Gladiator's Chain Leggings", "=ds=#s11#, #a3#"};
+				{ 20, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 21, 94451, "", "=q4=Tyrannical Gladiator's Silk Handguards", "=ds=#s9#, #a1#"};
+				{ 22, 94362, "", "=q4=Tyrannical Gladiator's Silk Trousers", "=ds=#s11#, #a1#"};
+				{ 24, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 25, 94377, "", "=q4=Tyrannical Gladiator's Leather Gloves", "=ds=#s9#, #a2#"};
+				{ 26, 94446, "", "=q4=Tyrannical Gladiator's Leather Legguards", "=ds=#s11#, #a2#"};
+				{ 28, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 29, 94441, "", "=q4=Tyrannical Gladiator's Felweave Handguards", "=ds=#s9#, #a1#"};
+				{ 30, 94471, "", "=q4=Tyrannical Gladiator's Felweave Trousers", "=ds=#s11#, #a1#"};
+				merge = true;
+			};
+			{
+				{ 20, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Mistweaver"]};
+				{ 21, 94340, "", "=q4=Tyrannical Gladiator's Copperskin Gloves", "=ds=#s9#, #a2#"};
+				{ 22, 94478, "", "=q4=Tyrannical Gladiator's Copperskin Legguards", "=ds=#s11#, #a2#"};
+				{ 24, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Windwalker"]};
+				{ 25, 94391, "", "=q4=Tyrannical Gladiator's Ironskin Gloves", "=ds=#s9#, #a2#"};
+				{ 26, 94370, "", "=q4=Tyrannical Gladiator's Ironskin Legguards", "=ds=#s11#, #a2#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
+				{ 17, 94438, "", "=q4=Tyrannical Gladiator's Ornamented Gloves", "=ds=#s9#, #a4#"};
+				{ 18, 94484, "", "=q4=Tyrannical Gladiator's Ornamented Legplates", "=ds=#s11#, #a4#"};
+				{ 20, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Retribution"]};
+				{ 21, 94343, "", "=q4=Tyrannical Gladiator's Scaled Gauntlets", "=ds=#s9#, #a4#"};
+				{ 22, 94496, "", "=q4=Tyrannical Gladiator's Scaled Legguards", "=ds=#s11#, #a4#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
+				{ 17, 94328, "", "=q4=Tyrannical Gladiator's Mooncloth Gloves", "=ds=#s9#, #a1#"};
+				{ 18, 94420, "", "=q4=Tyrannical Gladiator's Mooncloth Leggings", "=ds=#s11#, #a1#"};
+				{ 20, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Shadow"]};
+				{ 21, 94423, "", "=q4=Tyrannical Gladiator's Satin Gloves", "=ds=#s9#, #a1#"};
+				{ 22, 94334, "", "=q4=Tyrannical Gladiator's Satin Leggings", "=ds=#s11#, #a1#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Elemental"]};
+				{ 17, 94408, "", "=q4=Tyrannical Gladiator's Mail Gauntlets", "=ds=#s9#, #a3#"};
+				{ 18, 94497, "", "=q4=Tyrannical Gladiator's Mail Leggings", "=ds=#s11#, #a3#"};
+				{ 20, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Enhancement"]};
+				{ 21, 94458, "", "=q4=Tyrannical Gladiator's Linked Gauntlets", "=ds=#s9#, #a3#"};
+				{ 22, 94494, "", "=q4=Tyrannical Gladiator's Linked Leggings", "=ds=#s11#, #a3#"};
+				{ 24, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
+				{ 25, 94490, "", "=q4=Tyrannical Gladiator's Ringmail Gauntlets", "=ds=#s9#, #a3#"};
+				{ 26, 94435, "", "=q4=Tyrannical Gladiator's Ringmail Leggings", "=ds=#s11#, #a3#"};
+				merge = true;
+			};
+			{
+				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
+				{ 17, 94364, "", "=q4=Tyrannical Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 18, 94365, "", "=q4=Tyrannical Gladiator's Dreadplate Legguards", "=ds=#s11#, #a4#"};
+				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
+				{ 25, 94331, "", "=q4=Tyrannical Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 26, 94448, "", "=q4=Tyrannical Gladiator's Plate Legguards", "=ds=#s11#, #a4#"};
+				merge = true;
+			};
+			{
+				{ 1, 94403, "", "=q4=Tyrannical Gladiator's Cuffs of Accuracy", "=ds="};
+				{ 2, 94376, "", "=q4=Tyrannical Gladiator's Cord of Accuracy", "=ds="};
+				{ 3, 94333, "", "=q4=Tyrannical Gladiator's Treads of Alacrity", "=ds="};
+				{ 5, 94380, "", "=q4=Tyrannical Gladiator's Cuffs of Meditation", "=ds="};
+				{ 6, 94425, "", "=q4=Tyrannical Gladiator's Cord of Meditation", "=ds="};
+				{ 7, 94468, "", "=q4=Tyrannical Gladiator's Treads of Meditation", "=ds="};
+				{ 9, 94449, "", "=q4=Tyrannical Gladiator's Cuffs of Prowess", "=ds="};
+				{ 10, 94400, "", "=q4=Tyrannical Gladiator's Cord of Cruelty", "=ds="};
+				{ 11, 94402, "", "=q4=Tyrannical Gladiator's Treads of Cruelty", "=ds="};
+				{ 16, 94427, "", "=q4=Tyrannical Gladiator's Armwraps of Accuracy", "=ds="};
+				{ 17, 94424, "", "=q4=Tyrannical Gladiator's Waistband of Accuracy", "=ds="};
+				{ 18, 94374, "", "=q4=Tyrannical Gladiator's Boots of Cruelty", "=ds="};
+				{ 20, 94470, "", "=q4=Tyrannical Gladiator's Armwraps of Alacrity", "=ds="};
+				{ 21, 94360, "", "=q4=Tyrannical Gladiator's Waistband of Cruelty", "=ds="};
+				{ 22, 94432, "", "=q4=Tyrannical Gladiator's Boots of Alacrity", "=ds="};
+				{ 24, 94439, "", "=q4=Tyrannical Gladiator's Bindings of Prowess", "=ds="};
+				{ 25, 94410, "", "=q4=Tyrannical Gladiator's Belt of Cruelty", "=ds="};
+				{ 26, 94344, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds="};
+				{ 28, 94407, "", "=q4=Tyrannical Gladiator's Bindings of Meditation", "=ds="};
+				{ 29, 94491, "", "=q4=Tyrannical Gladiator's Belt of Meditation", "=ds="};
+				{ 30, 94476, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds="};
+				merge = true;
+			};
+			{
+				{ 1, 94337, "", "=q4=Tyrannical Gladiator's Armbands of Meditation", "=ds="};
+				{ 2, 94382, "", "=q4=Tyrannical Gladiator's Waistguard of Meditation", "=ds="};
+				{ 3, 94336, "", "=q4=Tyrannical Gladiator's Footguards of Meditation", "=ds="};
+				{ 5, 94379, "", "=q4=Tyrannical Gladiator's Armbands of Prowess", "=ds="};
+				{ 6, 94393, "", "=q4=Tyrannical Gladiator's Waistguard of Cruelty", "=ds="};
+				{ 7, 94378, "", "=q4=Tyrannical Gladiator's Footguards of Alacrity", "=ds="};
+				{ 9, 94404, "", "=q4=Tyrannical Gladiator's Wristguards of Alacrity", "=ds="};
+				{ 10, 94330, "", "=q4=Tyrannical Gladiator's Links of Cruelty", "=ds="};
+				{ 11, 94359, "", "=q4=Tyrannical Gladiator's Sabatons of Alacrity", "=ds="};
+				{ 13, 94469, "", "=q4=Tyrannical Gladiator's Wristguards of Accuracy", "=ds="};
+				{ 14, 94358, "", "=q4=Tyrannical Gladiator's Links of Accuracy", "=ds="};
+				{ 15, 94445, "", "=q4=Tyrannical Gladiator's Sabatons of Cruelty", "=ds="};
+				{ 16, 94481, "", "=q4=Tyrannical Gladiator's Bracers of Meditation", "=ds="};
+				{ 17, 94464, "", "=q4=Tyrannical Gladiator's Clasp of Meditation", "=ds="};
+				{ 18, 94352, "", "=q4=Tyrannical Gladiator's Greaves of Meditation", "=ds="};
+				{ 20, 94418, "", "=q4=Tyrannical Gladiator's Armplates of Proficiency", "=ds="};
+				{ 21, 94353, "", "=q4=Tyrannical Gladiator's Girdle of Accuracy", "=ds="};
+				{ 22, 94414, "", "=q4=Tyrannical Gladiator's Warboots of Cruelty", "=ds="};
+				{ 24, 94411, "", "=q4=Tyrannical Gladiator's Bracers of Prowess", "=ds="};
+				{ 25, 94480, "", "=q4=Tyrannical Gladiator's Clasp of Cruelty", "=ds="};
+				{ 26, 94351, "", "=q4=Tyrannical Gladiator's Greaves of Alacrity", "=ds="};
+				{ 28, 94487, "", "=q4=Tyrannical Gladiator's Armplates of Alacrity", "=ds="};
+				{ 29, 94440, "", "=q4=Tyrannical Gladiator's Girdle of Prowess", "=ds="};
+				{ 30, 94461, "", "=q4=Tyrannical Gladiator's Warboots of Alacrity", "=ds="};
+				merge = true;
+			};
+			{
+				{ 1, 94421, "", "=q4=Tyrannical Gladiator's Cape of Cruelty", "=ds=#s4#" },
+				{ 2, 94355, "", "=q4=Tyrannical Gladiator's Cape of Prowess", "=ds=#s4#" },
+				{ 3, 94485, "", "=q4=Tyrannical Gladiator's Cloak of Alacrity", "=ds=#s4#" },
+				{ 4, 94486, "", "=q4=Tyrannical Gladiator's Cloak of Prowess", "=ds=#s4#" },
+				{ 5, 94383, "", "=q4=Tyrannical Gladiator's Drape of Cruelty", "=ds=#s4#"},
+				{ 6, 94472, "", "=q4=Tyrannical Gladiator's Drape of Meditation", "=ds=#s4#" },
+				{ 7, 94488, "", "=q4=Tyrannical Gladiator's Drape of Prowess", "=ds=#s4#" },
+				{ 9, 94363, "", "=q4=Tyrannical Gladiator's Band of Accuracy", "=ds=#s13#" };
+				{ 10, 94390, "", "=q4=Tyrannical Gladiator's Band of Cruelty", "=ds=#s13#" };
+				{ 11, 94474, "", "=q4=Tyrannical Gladiator's Band of Meditation", "=ds=#s13#" };
+				{ 12, 94462, "", "=q4=Tyrannical Gladiator's Signet of Accuracy", "=ds=#s13#" };
+				{ 13, 94417, "", "=q4=Tyrannical Gladiator's Signet of Cruelty", "=ds=#s13#" };
+				{ 14, 94399, "", "=q4=Tyrannical Gladiator's Ring of Accuracy", "=ds=#s13#" };
+				{ 15, 94357, "", "=q4=Tyrannical Gladiator's Ring of Cruelty", "=ds=#s13#" };
+				{ 16, 94354, "", "=q4=Tyrannical Gladiator's Choker of Accuracy", "=ds=#s2#" },
+				{ 17, 94465, "", "=q4=Tyrannical Gladiator's Choker of Proficiency", "=ds=#s2#" },
+				{ 18, 94394, "", "=q4=Tyrannical Gladiator's Necklace of Proficiency", "=ds=#s2#" },
+				{ 19, 94395, "", "=q4=Tyrannical Gladiator's Necklace of Prowess", "=ds=#s2#" },
+				{ 20, 94473, "", "=q4=Tyrannical Gladiator's Pendant of Alacrity", "=ds=#s2#" },
+				{ 21, 94489, "", "=q4=Tyrannical Gladiator's Pendant of Cruelty", "=ds=#s2#" },
+				{ 22, 94452, "", "=q4=Tyrannical Gladiator's Pendant of Meditation", "=ds=#s2#" },
+				merge = true;
+			};
+		};
 		["Normal"] = {
 			{
-
+				{ 1, 0, "spell_nature_starfall", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Balance"]};
+				{ 2, 95245, "", "=q4=Gloves of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 3, 95247, "", "=q4=Leggings of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 5, 0, "ability_druid_catform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["DPS"]};
+				{ 6, 95236, "", "=q4=Grips of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 7, 95238, "", "=q4=Legguards of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 9, 0, "spell_nature_healingtouch", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
+				{ 10, 95240, "", "=q4=Handwraps of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 11, 95242, "", "=q4=Legwraps of the Haunted Forest", "=ds=#s11#, #a2#"};
+				{ 13, 0, "ability_racial_bearform", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AtlasLoot_IngameLocales["Guardian"]};
+				{ 14, 95251, "", "=q4=Handguards of the Haunted Forest", "=ds=#s9#, #a2#"};
+				{ 15, 95253, "", "=q4=Breeches of the Haunted Forest", "=ds=#s11#, #a2#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DRUID"];
+			};
+			{
+				{ 1, 0, "inv_weapon_bow_07", "=q6="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 2, 95256, "", "=q4=Saurok Stalker's Gloves", "=ds=#s9#, #a3#"};
+				{ 3, 95258, "", "=q4=Saurok Stalker's Legguards", "=ds=#s11#, #a3#"};
+				{ 5, 0, "inv_staff_13", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, 95260, "", "=q4=Gloves of the Chromatic Hydra", "=ds=#s9#, #a1#"};
+				{ 7, 95262, "", "=q4=Leggings of the Chromatic Hydra", "=ds=#s11#, #a1#"};
+				{ 9, 0, "inv_throwingknife_04", "=q6="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 10, 95306, "", "=q4=Nine-Tailed Gloves", "=ds=#s9#, #a2#"};
+				{ 11, 95308, "", "=q4=Nine-Tailed Legguards", "=ds=#s11#, #a2#"};
+				{ 13, 0, "spell_nature_drowsy", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 14, 95325, "", "=q4=Gloves of the Thousandfold Hells", "=ds=#s9#, #a1#"};
+				{ 15, 95327, "", "=q4=Leggings of the Thousandfold Hells", "=ds=#s11#, #a1#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." / "..LOCALIZED_CLASS_NAMES_MALE["MAGE"].." / "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"];
+			};
+			{
+				{ 1, 0, "spell_monk_brewmaster_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Brewmaster"]};
+				{ 2, 95276, "", "=q4=Fire-Charm Gauntlets", "=ds=#s9#, #a2#"};
+				{ 3, 95278, "", "=q4=Fire-Charm Legguards", "=ds=#s11#, #a2#"};
+				{ 5, 0, "spell_monk_mistweaver_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Mistweaver"]};
+				{ 6, 95270, "", "=q4=Fire-Charm Handwraps", "=ds=#s9#, #a2#"};
+				{ 7, 95272, "", "=q4=Fire-Charm Legwraps", "=ds=#s11#, #a2#"};
+				{ 9, 0, "spell_monk_windwalker_spec", "=q6="..LOCALIZED_CLASS_NAMES_MALE["MONK"], "=q5="..AtlasLoot_IngameLocales["Windwalker"]};
+				{ 10, 95266, "", "=q4=Fire-Charm Grips", "=ds=#s9#, #a2#"};
+				{ 11, 95268, "", "=q4=Fire-Charm Leggings", "=ds=#s11#, #a2#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["MONK"];
+			};
+			{
+				{ 1, 0, "Spell_Holy_HolyBolt", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
+				{ 2, 95286, "", "=q4=Lightning Emperor's Gloves", "=ds=#s9#, #a4#"};
+				{ 3, 95288, "", "=q4=Lightning Emperor's Greaves", "=ds=#s11#, #a4#"};
+				{ 5, 0, "Spell_Holy_AuraOfLight", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Retribution"]};
+				{ 6, 95281, "", "=q4=Lightning Emperor's Gauntlets", "=ds=#s9#, #a4#"};
+				{ 7, 95283, "", "=q4=Lightning Emperor's Legplates", "=ds=#s11#, #a4#"};
+				{ 9, 0, "spell_holy_devotionaura", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AtlasLoot_IngameLocales["Protection"]};
+				{ 10, 95291, "", "=q4=Lightning Emperor's Handguards", "=ds=#s9#, #a4#"};
+				{ 11, 95293, "", "=q4=Lightning Emperor's Legguards", "=ds=#s11#, #a4#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"];
+			};
+			{
+				{ 1, 0, "spell_holy_guardianspirit", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Holy"]};
+				{ 2, 95295, "", "=q4=Handwraps of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 3, 95297, "", "=q4=Legwraps of the Exorcist", "=ds=#s11#, #a1#"};
+				{ 5, 0, "spell_shadow_shadowwordpain", "=q6="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AtlasLoot_IngameLocales["Shadow"]};
+				{ 6, 95300, "", "=q4=Gloves of the Exorcist", "=ds=#s9#, #a1#"};
+				{ 7, 95302, "", "=q4=Leggings of the Exorcist", "=ds=#s11#, #a1#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"];
+			};
+			{
+				{ 1, 0, "Spell_Nature_Lightning", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Elemental"]};
+				{ 2, 95321, "", "=q4=Gloves of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 3, 95323, "", "=q4=Kilt of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 5, 0, "spell_nature_lightningshield", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Enhancement"]};
+				{ 6, 95316, "", "=q4=Grips of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 7, 95318, "", "=q4=Legguards of the Witch Doctor", "=ds=#s11#, #a3#"};
+				{ 9, 0, "spell_nature_magicimmunity", "=q6="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AtlasLoot_IngameLocales["Restoration"]};
+				{ 10, 95311, "", "=q4=Handwraps of the Witch Doctor", "=ds=#s9#, #a3#"};
+				{ 11, 95313, "", "=q4=Legwraps of the Witch Doctor", "=ds=#s11#, #a3#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"];
+			};
+			{
+				{ 1, 0, "spell_deathknight_frostpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["DPS"]};
+				{ 2, 95226, "", "=q4=Gauntlets of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 3, 95228, "", "=q4=Greaves of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 5, 0, "spell_deathknight_bloodpresence", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Tanking"]};
+				{ 6, 95231, "", "=q4=Handguards of the All-Consuming Maw", "=ds=#s9#, #a4#"};
+				{ 7, 95233, "", "=q4=Legguards of the All-Consuming Maw", "=ds=#s11#, #a4#"};
+				{ 9, 0, "ability_warrior_innerrage", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["DPS"]};
+				{ 10, 95332, "", "=q4=Gauntlets of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 11, 95333, "", "=q4=Legplates of the Last Mogu", "=ds=#s11#, #a4#"};
+				{ 13, 0, "ability_warrior_defensivestance", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AtlasLoot_IngameLocales["Protection"]};
+				{ 14, 95336, "", "=q4=Handguards of the Last Mogu", "=ds=#s9#, #a4#"};
+				{ 15, 95338, "", "=q4=Legguards of the Last Mogu", "=ds=#s11#, #a4#"};
+				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"];
+			};
+			{
+				extraText = ": "..AL["PvP Non-Set Epics"].." - "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
+			};
+			{
+				extraText = ": "..AL["PvP Non-Set Epics"].." - "..BabbleInventory["Mail"].." / "..BabbleInventory["Plate"];
+			};
+			{
+				extraText = ": "..AL["PvP Accessories"];
 			};
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Nalak, The Storm Lord", 814),
-			module = moduleName, instance = "Pandaria",
+			module = moduleName, menu = "NALAK", instance = "Pandaria",
 		};
 	};
 
 	AtlasLoot_Data["Oondasta"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 94228, "", "=q4=Reins of the Cobalt Primordial Direhorn", "=ds=#e26#" },
 			};
 		};
 		info = {
 			name = AtlasLoot:EJ_GetBossName("Oondasta", 826),
 			module = moduleName, instance = "Pandaria",
 		};
-	};--]]
+	};
 
 	AtlasLoot_Data["ShaofAnger"] = {
 		["Normal"] = {
@@ -1854,7 +2254,7 @@ local moduleName = "AtlasLootMoP"
 				{ 14, 85327, "", "=q4=Handguards of Resounding Rings", "=ds=#s9#, #a4#"};
 				{ 15, 85325, "", "=q4=Legguards of Resounding Rings", "=ds=#s11#, #a4#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"]};
-				{ 17, 84835, "", "s=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
+				{ 17, 84835, "", "=q4=Malevolent Gladiator's Dreadplate Gauntlets", "=ds=#s9#, #a4#"};
 				{ 24, 0, "inv_sword_27", "=q6="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"]};
 				{ 25, 84840, "", "=q4=Malevolent Gladiator's Plate Gauntlets", "=ds=#s9#, #a4#"};
 				extraText = ": "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." / "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"];
@@ -1880,7 +2280,7 @@ local moduleName = "AtlasLootMoP"
 				{ 26, 84819, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds="};
 				{ 28, 84976, "", "=q4=Malevolent Gladiator's Bindings of Meditation", "=ds="};
 				{ 29, 84953, "", "=q4=Malevolent Gladiator's Belt of Meditation", "=ds="};
-				{ 30, 84813, "", "=q4=Malevolent Gladiator's Footguards of Alacrity", "=ds="};
+				{ 30, 84813, "", "=q4=Malevolent Gladiator's Footguards of Meditation", "=ds="};
 				extraText = ": "..AL["PvP Non-Set Epics"].." - "..BabbleInventory["Cloth"].." / "..BabbleInventory["Leather"];
 			};
 			{
@@ -7253,7 +7653,8 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 11826, "", "=q1=Lil' Smoky", "=ds=#e13#"};
 				{ 23, 4401, "", "=q1=Mechanical Squirrel Box", "=ds=#e13#"};
 				{ 24, 11825, "", "=q1=Pet Bombling", "=ds=#e13#"};
-				{ 25, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds=#e13#"};
+				{ 25, 94903, "", "=q1=Pierre", "=ds=#e13#"};
+				{ 26, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds=#e13#"};
 			};
 			{
 				{ 2, 0, "INV_Box_01", "=q6=#p24#", ""};
@@ -8045,13 +8446,15 @@ local moduleName = "AtlasLootMoP"
 				{ 11, 68824, "", "=q4=Swift Zulian Panther", "=q2="..AtlasLoot:EJ_GetBossName("High Priestess Kilnara", 181)..", =q1="..AtlasLoot:GetMapNameByID(793)};
 				{ 16, 0, "INV_Box_01", "=q6="..AL["Outdoor"], ""};
 				{ 17, 67151, "", "=q4=Reins of Poseidus", "=q2="..BabbleRare["Poseidus"]..", =q1="..AtlasLoot:GetMapNameByID(613)};
-				{ 18, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
-				{ 19, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 20, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..BabbleRare["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
-				{ 21, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
-				{ 22, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..BabbleRare["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
-				{ 23, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
-				{ 24, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+				{ 18, 94228, "", "=q4=Reins of the Cobalt Primordial Direhorn", "=q2="..AtlasLoot:EJ_GetBossName("Oondasta", 826)..", =q1="..AtlasLoot:GetMapNameByID(929), ""},
+				{ 19, 63046, "", "=q4=Reins of the Grey Riding Camel", "#ACHIEVEMENTID:5767#", ""};
+				{ 20, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691)..", =q1="..AtlasLoot:GetMapNameByID(809), ""};
+				{ 21, 63042, "", "=q4=Reins of the Phosphorescent Stone Drake", "=q2="..BabbleRare["Aeonaxx"]..", =q1="..AtlasLoot:GetMapNameByID(640)};
+				{ 22, 95057, "", "=q4=Reins of the Thundering Cobalt Cloud Serpent", "=q2="..AtlasLoot:EJ_GetBossName("Nalak, The Storm Lord", 814)..", =q1="..AtlasLoot:GetMapNameByID(928), ""},
+				{ 23, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 24, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..BabbleRare["Time-Lost Proto Drake"]..", =q1="..AtlasLoot:GetMapNameByID(495)};
+				{ 25, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
+				{ 26, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
 			};
 		};
 		info = {
@@ -8152,17 +8555,18 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
 				{ 2, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
 				{ 3, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e27# =q2=#p12#"};
-				{ 4, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
-				{ 5, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
-				{ 6, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
-				{ 7, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 8, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 9, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
-				{ 10, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
-				{ 11, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
-				{ 12, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
-				{ 13, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
-				{ 14, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
+				{ 4, 95416, "", "=q4=Sky Claw", "=ds=#e27# =q2=#p5#"};
+				{ 5, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
+				{ 6, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
+				{ 7, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
+				{ 8, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 9, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 10, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 11, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
+				{ 12, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
+				{ 13, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
+				{ 14, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
+				{ 15, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
 				{ 17, 87250, "", "=q3=Depleted-Kyparium Rocket", "=ds=#e27# =q2=#p5#"};
 				{ 18, 87251, "", "=q3=Geosynchronous World Spinner", "=ds=#e27# =q2=#p5#"};
 				{ 19, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};
