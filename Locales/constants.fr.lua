@@ -1,6 +1,6 @@
 ﻿-- $Id$
 --[[
-constants.fr.lua --- Traduction frFR par TrAsHeR (Tchoupie @ Ysondre-EU). Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
+constants.fr.lua --- Traduction frFR par TrAsHeR. Merci à KKram pour les premières traductions & Pettigrow pour ses quelques traductions.
 This file defines an AceLocale table for all the various text strings needed
 by AtlasLoot.  In this implementation, if a translation is missing, it will fall
 back to the English translation.
