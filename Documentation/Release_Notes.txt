@@ -11,6 +11,7 @@ Added Tier 15 Raid Set.
 Added PvP Season 13 items.
 Added loot for Throne of Thunder.
 Added loot for Nalak, The Storm Lord
+Added loot for Oondasta
 Added faction - Kirin Tor Offensive.
 Added faction - Sunreaver Onslaught.
 Added faction - Shado-Pan Assault (Valor items).

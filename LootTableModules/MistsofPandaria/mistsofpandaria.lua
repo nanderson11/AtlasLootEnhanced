@@ -2815,7 +2815,13 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94730, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 94722, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 12, 96016, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
+				{ 16, 96010, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
+				{ 21, 96012, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
+				{ 22, 96004, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -2841,7 +2847,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96384, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 96376, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2901,7 +2906,28 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 94740, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 94755, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
 				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 1, 96025, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#" },
+				{ 2, 96017, "", "=q4=Wastewalker's Sandblasted Drape", "=ds=#s4#" },
+				{ 3, 96027, "", "=q4=Flamecaster's Burning Crown", "=ds=#s1#, #a1#" },
+				{ 4, 96028, "", "=q4=Vaccinator's Armwraps", "=ds=#s8#, #a1#" },
+				{ 5, 96034, "", "=q4=Spaulders of Dinomancy", "=ds=#s3#, #a2#" },
+				{ 6, 96020, "", "=q4=Bindings of Multiplicative Strikes", "=ds=#s8#, #a2#" },
+				{ 7, 96033, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#" },
+				{ 8, 96021, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#" },
+				{ 9, 96035, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#" },
+				{ 11, 96036, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#" },
+				{ 12, 96022, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#" },
+				{ 13, 96023, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 96030, "", "=q4=Horridon's Tusk Fragment", "=ds=#s2#" },
+				{ 17, 96018, "", "=q4=Talisman of Living Poison", "=ds=#s2#" },
+				{ 18, 96031, "", "=q4=Petrified Eye of the Basilisk", "=ds=#s13#" },
+				{ 19, 96013, "", "=q4=Horridon's Last Gasp", "=ds=#s14#" },
+				{ 20, 96026, "", "=q4=Spark of Zandalar", "=ds=#s14#" },
+				{ 22, 96029, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
+				{ 23, 96019, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -2928,7 +2954,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 96391, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 96404, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
 				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -2978,7 +3003,12 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94760, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 22, 94759, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 1, 96040, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
+				{ 5, 96045, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
+				{ 20, 96047, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3000,7 +3030,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96414, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
 				{ 22, 96410, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3058,7 +3087,10 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94769, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 94778, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 22, 96064, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3084,7 +3116,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96422, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 96436, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3140,7 +3171,13 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 94788, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 94796, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
 				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 3, 96078, "", "=q4=Sandals of Arcane Fury", "=ds=#s12#, #a1#" },
+				{ 6, 96087, "", "=q4=Chain of Consuming Magic", "=ds=#s5#, #a3#" },
+				{ 19, 96076, "", "=q4=Spinescale Seal", "=ds=#s13#" },
+				{ 24, 96082, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3165,7 +3202,6 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 96442, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 96454, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
 				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3211,7 +3247,6 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 94515, "", "=q4=Fabled Feather of Ji-Kun", "=ds=#s14#" },
 				{ 21, 94527, "", "=q4=Ji-Kun's Rising Winds", "=ds=#s14#" },
 				{ 23, 94805, "", "=q4=Giorgio's Caduceus of Pure Moods", "=ds=#w9#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
@@ -3290,7 +3325,11 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 94814, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 13, 96118, "", "=q4=Iceshatter Gauntlets", "=ds=#s9#, #a4#" },
+				{ 21, 96115, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3317,7 +3356,6 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 96472, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3379,7 +3417,29 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 94945, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
+			};
+			{
+				{ 1, 96127, "", "=q4=Hydra-Scale Bloodcloak", "=ds=#s4#" },
+				{ 2, 96131, "", "=q4=Robes of Mutagenic Blood", "=ds=#s5#, #a1#" },
+				{ 3, 96134, "", "=q4=Bracers of Fragile Bone", "=ds=#s8#, #a1#" },
+				{ 4, 96132, "", "=q4=Helix-Breaker Gloves", "=ds=#s9#, #a1#" },
+				{ 5, 96133, "", "=q4=Leggings of Ebon Veins", "=ds=#s11#, #a1#" },
+				{ 6, 96121, "", "=q4=Gloves of Cushioned Air", "=ds=#s9#, #a2#" },
+				{ 7, 96136, "", "=q4=Leggings of the Malformed Sapling", "=ds=#s11#, #a2#" },
+				{ 8, 96137, "", "=q4=Clear-Mind Helm", "=ds=#s1#, #a3#" },
+				{ 9, 96122, "", "=q4=Bracers of Mutagenic Fervor", "=ds=#s8#, #a3#" },
+				{ 10, 96123, "", "=q4=Synapse-String Handguards", "=ds=#s9#, #a3#" },
+				{ 11, 96126, "", "=q4=Metabolically Boosted Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 12, 96139, "", "=q4=Spaulders of Primordial Growth", "=ds=#s3#, #a4#" },
+				{ 13, 96138, "", "=q4=Bonemender Bracers", "=ds=#s8#, #a4#" },
+				{ 15, 96125, "", "=q4=Black Blood Legplates", "=ds=#s11#, #a4#" },
+				{ 16, 96128, "", "=q4=Band of the Scaled Tyrant", "=ds=#s13#" },
+				{ 17, 96129, "", "=q4=Primordius' Talisman of Rage", "=ds=#s14#" },
+				{ 18, 96135, "", "=q4=Stolen Relic of Zuldazar", "=ds=#s14#" },
+				{ 19, 96120, "", "=q4=Talisman of Bloodlust", "=ds=#s14#" },
+				{ 21, 96130, "", "=q4=Acid-Spine Bonemace", "=ds=#h1#, #w6#" },
+				{ 22, 96140, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3407,7 +3467,6 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 96512, "", "=q4=Greatshield of the Gloaming", "=ds=#w8#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3455,7 +3514,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94954, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
 				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
@@ -3476,7 +3534,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96514, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
 				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3524,7 +3581,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 94964, "", "=q4=Qon's Flaming Scimitar", "=ds=#h1#, #w10#" },
 				{ 22, 94963, "", "=q4=Voice of the Quilen", "=ds=#w5#" },
 				{ 23, 94965, "", "=q4=Orb of Arcing Lightning", "=ds=#s15#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
@@ -3545,7 +3601,6 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 96534, "", "=q4=Qon's Flaming Scimitar", "=ds=#h1#, #w10#" },
 				{ 22, 96525, "", "=q4=Voice of the Quilen", "=ds=#w5#" },
 				{ 23, 96530, "", "=q4=Orb of Arcing Lightning", "=ds=#s15#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3593,7 +3648,6 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 95515, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
@@ -3614,7 +3668,6 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 96538, "", "=q4=Shield of Twinned Despair", "=ds=#w8#" },
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 25, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3675,7 +3728,6 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94988, "", "=q4=Torall, Rod of the Shattered Throne", "=ds=#h1#, #w6#" },
 				{ 25, 95472, "", "=q4=Ultimate Protection of the Emperor", "=ds=#w8#" },
 				{ 26, 95473, "", "=q4=Lei-Shen's Orb of Command", "=ds=#s15#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		["Heroic"] = {
@@ -3702,7 +3754,6 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 96559, "", "=q4=Torall, Rod of the Shattered Throne", "=ds=#h1#, #w6#" },
 				{ 25, 96554, "", "=q4=Ultimate Protection of the Emperor", "=ds=#w8#" },
 				{ 26, 96562, "", "=q4=Lei-Shen's Orb of Command", "=ds=#s15#" },
-				--{ 0, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
 			};
 		};
 		info = {
@@ -3714,56 +3765,56 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ToTRaden"] = {
 		["Heroic"] = {
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
-				{ 2, 95013, "", "=q4=Black Night Thundercloak", "=ds=#s4#" },
-				{ 3, 95015, "", "=q4=Grey Wind Mistcloak", "=ds=#s4#" },
-				{ 4, 95014, "", "=q4=Red Sky Cloudcloak", "=ds=#s4#" },
-				{ 5, 95016, "", "=q4=White Snow Skycloak", "=ds=#s4#" },
-				{ 6, 95017, "", "=q4=Yellow Dawn Lightningcloak", "=ds=#s4#" },
-				{ 7, 95040, "", "=q4=Robes of Nova", "=ds=#s5#, #a1#" },
-				{ 8, 95039, "", "=q4=Starburner Robes", "=ds=#s5#, #a1#" },
-				{ 9, 94995, "", "=q4=Detonation Cord", "=ds=#s10#, #a1#" },
-				{ 10, 94996, "", "=q4=Vita-Binder Wrap", "=ds=#s10#, #a1#" },
-				{ 11, 95030, "", "=q4=Leggings of the Discarded Warning", "=ds=#s11#, #a1#" },
-				{ 12, 95031, "", "=q4=Legguards of Surreal Visions", "=ds=#s11#, #a1#" },
-				{ 13, 95004, "", "=q4=Starwalker Sandals", "=ds=#s12#, #a1#" },
-				{ 14, 95005, "", "=q4=Treads of Delicate Fascia", "=ds=#s12#, #a1#" },
-				{ 15, 95033, "", "=q4=Chestguard of Coruscating Blades", "=ds=#s5#, #a2#" },
-				{ 16, 95032, "", "=q4=Robes of Contagious Time", "=ds=#s5#, #a2#" },
-				{ 17, 94998, "", "=q4=Strap of Murderous Strikes", "=ds=#s10#, #a2#" },
-				{ 18, 94997, "", "=q4=Worldbender Waistband", "=ds=#s10#, #a2#" },
-				{ 19, 95028, "", "=q4=Cosmicfire Legwraps", "=ds=#s11#, #a2#" },
-				{ 20, 95029, "", "=q4=Kilt of Perpetual Genuflection", "=ds=#s11#, #a2#" },
-				{ 21, 95006, "", "=q4=Roots of Pain", "=ds=#s12#, #a2#" },
-				{ 22, 95007, "", "=q4=Twist-Toe Tabi", "=ds=#s12#, #a2#" },
-				{ 23, 95035, "", "=q4=Chains of Counted Souls", "=ds=#s5#, #a3#" },
-				{ 24, 95034, "", "=q4=Scales of Shaped Flesh", "=ds=#s5#, #a3#" },
-				{ 25, 95000, "", "=q4=Jingling Fetishgirdle", "=ds=#s10#, #a3#" },
-				{ 26, 94999, "", "=q4=Longdraw Chain Belt", "=ds=#s10#, #a3#" },
-				{ 27, 95027, "", "=q4=Legguards of Awaked Repair", "=ds=#s11#, #a3#" },
-				{ 28, 95026, "", "=q4=Sparkstring Chain Leggings", "=ds=#s11#, #a3#" },
-				{ 29, 95009, "", "=q4=Treads of the Sanguine Volley", "=ds=#s12#, #a3#" },
-				{ 30, 95008, "", "=q4=World-Mote Sabatons", "=ds=#s12#, #a3#" },
+				{ 1, 95013, "", "=q4=Black Night Thundercloak", "=ds=#s4#" },
+				{ 2, 95015, "", "=q4=Grey Wind Mistcloak", "=ds=#s4#" },
+				{ 3, 95014, "", "=q4=Red Sky Cloudcloak", "=ds=#s4#" },
+				{ 4, 95016, "", "=q4=White Snow Skycloak", "=ds=#s4#" },
+				{ 5, 95017, "", "=q4=Yellow Dawn Lightningcloak", "=ds=#s4#" },
+				{ 6, 95040, "", "=q4=Robes of Nova", "=ds=#s5#, #a1#" },
+				{ 7, 95039, "", "=q4=Starburner Robes", "=ds=#s5#, #a1#" },
+				{ 8, 94995, "", "=q4=Detonation Cord", "=ds=#s10#, #a1#" },
+				{ 9, 94996, "", "=q4=Vita-Binder Wrap", "=ds=#s10#, #a1#" },
+				{ 10, 95030, "", "=q4=Leggings of the Discarded Warning", "=ds=#s11#, #a1#" },
+				{ 11, 95031, "", "=q4=Legguards of Surreal Visions", "=ds=#s11#, #a1#" },
+				{ 12, 95004, "", "=q4=Starwalker Sandals", "=ds=#s12#, #a1#" },
+				{ 13, 95005, "", "=q4=Treads of Delicate Fascia", "=ds=#s12#, #a1#" },
+				{ 14, 95033, "", "=q4=Chestguard of Coruscating Blades", "=ds=#s5#, #a2#" },
+				{ 15, 95032, "", "=q4=Robes of Contagious Time", "=ds=#s5#, #a2#" },
+				{ 16, 94998, "", "=q4=Strap of Murderous Strikes", "=ds=#s10#, #a2#" },
+				{ 17, 94997, "", "=q4=Worldbender Waistband", "=ds=#s10#, #a2#" },
+				{ 18, 95028, "", "=q4=Cosmicfire Legwraps", "=ds=#s11#, #a2#" },
+				{ 19, 95029, "", "=q4=Kilt of Perpetual Genuflection", "=ds=#s11#, #a2#" },
+				{ 20, 95006, "", "=q4=Roots of Pain", "=ds=#s12#, #a2#" },
+				{ 21, 95007, "", "=q4=Twist-Toe Tabi", "=ds=#s12#, #a2#" },
+				{ 22, 95035, "", "=q4=Chains of Counted Souls", "=ds=#s5#, #a3#" },
+				{ 23, 95034, "", "=q4=Scales of Shaped Flesh", "=ds=#s5#, #a3#" },
+				{ 24, 95000, "", "=q4=Jingling Fetishgirdle", "=ds=#s10#, #a3#" },
+				{ 25, 94999, "", "=q4=Longdraw Chain Belt", "=ds=#s10#, #a3#" },
+				{ 26, 95027, "", "=q4=Legguards of Awaked Repair", "=ds=#s11#, #a3#" },
+				{ 27, 95026, "", "=q4=Sparkstring Chain Leggings", "=ds=#s11#, #a3#" },
+				{ 28, 95009, "", "=q4=Treads of the Sanguine Volley", "=ds=#s12#, #a3#" },
+				{ 29, 95008, "", "=q4=World-Mote Sabatons", "=ds=#s12#, #a3#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 			{
-				{ 1, 0, "inv_box_04", "=q6="..AL["Thunderforged"], ""};
-				{ 2, 95038, "", "=q4=Carapace of the Core", "=ds=#s5#, #a4#" },
-				{ 3, 95036, "", "=q4=Nova-Binder Breastplate", "=ds=#s5#, #a4#" },
-				{ 4, 95037, "", "=q4=Planet-Birthed Cuirass", "=ds=#s5#, #a4#" },
-				{ 5, 95001, "", "=q4=Bubbling Anima Belt", "=ds=#s10#, #a4#" },
-				{ 6, 95002, "", "=q4=Cracklesnap Clasp", "=ds=#s10#, #a4#" },
-				{ 7, 95003, "", "=q4=Flare-Forged Greatbelt", "=ds=#s10#, #a4#" },
-				{ 8, 95025, "", "=q4=Archaic Protector's Legguards", "=ds=#s11#, #a4#" },
-				{ 9, 95023, "", "=q4=Legplates of Lightning Blood", "=ds=#s11#, #a4#" },
-				{ 10, 95024, "", "=q4=Time-Lost Greaves", "=ds=#s11#, #a4#" },
-				{ 11, 95010, "", "=q4=Hypersensitive Sollerets", "=ds=#s12#, #a4#" },
-				{ 12, 95011, "", "=q4=Lightning-Walker Clawfeet", "=ds=#s12#, #a4#" },
-				{ 13, 95012, "", "=q4=Sabatons of the Superior Being", "=ds=#s12#, #a4#" },
+				{ 1, 95038, "", "=q4=Carapace of the Core", "=ds=#s5#, #a4#" },
+				{ 2, 95036, "", "=q4=Nova-Binder Breastplate", "=ds=#s5#, #a4#" },
+				{ 3, 95037, "", "=q4=Planet-Birthed Cuirass", "=ds=#s5#, #a4#" },
+				{ 4, 95001, "", "=q4=Bubbling Anima Belt", "=ds=#s10#, #a4#" },
+				{ 5, 95002, "", "=q4=Cracklesnap Clasp", "=ds=#s10#, #a4#" },
+				{ 6, 95003, "", "=q4=Flare-Forged Greatbelt", "=ds=#s10#, #a4#" },
+				{ 7, 95025, "", "=q4=Archaic Protector's Legguards", "=ds=#s11#, #a4#" },
+				{ 8, 95023, "", "=q4=Legplates of Lightning Blood", "=ds=#s11#, #a4#" },
+				{ 9, 95024, "", "=q4=Time-Lost Greaves", "=ds=#s11#, #a4#" },
+				{ 10, 95010, "", "=q4=Hypersensitive Sollerets", "=ds=#s12#, #a4#" },
+				{ 11, 95011, "", "=q4=Lightning-Walker Clawfeet", "=ds=#s12#, #a4#" },
+				{ 12, 95012, "", "=q4=Sabatons of the Superior Being", "=ds=#s12#, #a4#" },
 				{ 16, 95020, "", "=q4=Ra-den's Contemplative Loop", "=ds=#s13#" },
 				{ 17, 95018, "", "=q4=Ra-den's Evolving Signet", "=ds=#s13#" },
 				{ 18, 95022, "", "=q4=Ra-den's Ruinous Ring", "=ds=#s13#" },
 				{ 19, 95019, "", "=q4=Ra-den's Summoning Band", "=ds=#s13#" },
 				{ 20, 95021, "", "=q4=Ra-den's Swift Seal", "=ds=#s13#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		info = {
