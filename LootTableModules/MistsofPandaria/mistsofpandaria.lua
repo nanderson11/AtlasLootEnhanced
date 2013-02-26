@@ -2122,7 +2122,31 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["Oondasta"] = {
 		["Normal"] = {
 			{
-				{ 1, 94228, "", "=q4=Reins of the Cobalt Primordial Direhorn", "=ds=#e26#" },
+				{ 1, 95061, "", "=q4=Lost Shoulders of Fire", "=ds=#s3#, #a1#" },
+				{ 2, 95067, "", "=q4=Lost Shoulders of Fluidity", "=ds=#s3#, #a1#" },
+				{ 3, 95066, "", "=q4=Lost Shoulders of Healing", "=ds=#s3#, #a1#" },
+				{ 4, 95065, "", "=q4=Forgotten Mantle of the Moon", "=ds=#s3#, #a2#" },
+				{ 5, 95062, "", "=q4=Forgotten Mantle of the Sun", "=ds=#s3#, #a2#" },
+				{ 6, 95060, "", "=q4=Abandoned Spaulders of Arrowflight", "=ds=#s3#, #a3#" },
+				{ 7, 95064, "", "=q4=Abandoned Spaulders of Renewal", "=ds=#s3#, #a3#" },
+				{ 8, 95068, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 9, 95063, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 10, 95069, "", "=q4=Reconstructed Holy Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 12, 94228, "", "=q4=Reins of the Cobalt Primordial Direhorn", "=ds=#e26#" },
+				{ 16, 95207, "", "=q4=Abandoned Zandalari Firecord", "=ds=#s10#, #a1#" },
+				{ 17, 95208, "", "=q4=Abandoned Zandalari Shadowgirdle", "=ds=#s10#, #a1#" },
+				{ 18, 95210, "", "=q4=Abandoned Zandalari Moonstrap", "=ds=#s10#, #a2#" },
+				{ 19, 95209, "", "=q4=Abandoned Zandalari Silentbelt", "=ds=#s10#, #a2#" },
+				{ 20, 95211, "", "=q4=Abandoned Zandalari Arrowlinks", "=ds=#s10#, #a3#" },
+				{ 21, 95212, "", "=q4=Abandoned Zandalari Waterchain", "=ds=#s10#, #a3#" },
+				{ 22, 95215, "", "=q4=Abandoned Zandalari Bucklebreaker", "=ds=#s10#, #a4#" },
+				{ 23, 95214, "", "=q4=Abandoned Zandalari Goreplate", "=ds=#s10#, #a4#" },
+				{ 24, 95213, "", "=q4=Abandoned Zandalari Greatbelt", "=ds=#s10#, #a4#" },
+				{ 26, 95202, "", "=q4=Necklace of the Terra-Cotta Archer", "=ds=#s2#" },
+				{ 27, 95203, "", "=q4=Necklace of the Terra-Cotta Invoker", "=ds=#s2#" },
+				{ 28, 95204, "", "=q4=Necklace of the Terra-Cotta Mender", "=ds=#s2#" },
+				{ 29, 95206, "", "=q4=Necklace of the Terra-Cotta Protector", "=ds=#s2#" },
+				{ 30, 95205, "", "=q4=Necklace of the Terra-Cotta Vanquisher", "=ds=#s2#" },
 			};
 		};
 		info = {
@@ -3751,7 +3775,27 @@ local moduleName = "AtlasLootMoP"
 	AtlasLoot_Data["ToTTrash"] = {
 		["Normal"] = {
 			{
-
+				{ 1, 95224, "", "=q4=Home-Warding Slippers", "=ds=#s12#, #a1#" },
+				{ 2, 95223, "", "=q4=Silentflame Sandals", "=ds=#s12#, #a1#" },
+				{ 3, 95221, "", "=q4=Deeproot Treads", "=ds=#s12#, #a2#" },
+				{ 4, 95219, "", "=q4=Spiderweb Tabi", "=ds=#s12#, #a2#" },
+				{ 5, 95220, "", "=q4=Scalehide Spurs", "=ds=#s12#, #a3#" },
+				{ 6, 95222, "", "=q4=Spiritbound Boots", "=ds=#s12#, #a3#" },
+				{ 7, 95218, "", "=q4=Columnbreaker Stompers", "=ds=#s12#, #a4#" },
+				{ 8, 95217, "", "=q4=Locksmasher Greaves", "=ds=#s12#, #a4#" },
+				{ 9, 95216, "", "=q4=Vaultwalker Sabatons", "=ds=#s12#, #a4#" },
+				{ 16, 95498, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#" },
+				{ 17, 95507, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#" },
+				{ 18, 95502, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#" },
+				{ 19, 95501, "", "=q4=Fyn's Flickering Dagger", "=ds=#h1#, #w4#" },
+				{ 20, 95505, "", "=q4=Greatsword of Frozen Hells", "=ds=#h2#, #w10#" },
+				{ 21, 95499, "", "=q4=Invocation of the Dawn", "=ds=#h2#, #w6#" },
+				{ 22, 95500, "", "=q4=Jerthud, Graceful Hand of the Savior", "=ds=#h1#, #w6#" },
+				{ 23, 95503, "", "=q4=Miracoran, the Vehement Chord", "=ds=#w2#" },
+				{ 24, 95506, "", "=q4=Nadagast's Exsanguinator", "=ds=#h1#, #w4#" },
+				{ 25, 97126, "", "=q4=Tia-Tia, the Scything Star", "=ds=#h1#, #w13#" },
+				{ 26, 95504, "", "=q4=Zeeg's Ancient Kegsmasher", "=ds=#h1#, #w6#" },
+				{ 27, 95516, "", "=q4=Visage of the Doomed", "=ds=#w8#" },
 			};
 		};
 		info = {
@@ -7644,13 +7688,18 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 43698, "", "=q3=Giant Sewer Rat", "=ds=#e13#", "#ACHIEVEMENTID:1958#, =q1="..AtlasLoot:GetMapNameByID(504)};
 				{ 4, 73953, "", "=q3=Sea Pony", "=ds=#e13#", "=q1="..BabbleZone["Darkmoon Island"]};
 				{ 5, 27445, "", "=q1=Magical Crawdad Box", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(478)};
-				{ 7, 0, "INV_Box_01", "=q6=#p26#", ""};
-				{ 8, 89368, "", "=q1=Chi-ji Kite", "=ds=#e13#"};
-				{ 9, 89367, "", "=q1=Yu'lon Kite", "=ds=#e13#"};
+				{ 6, 94933, "", "=q1=Tiny Blue Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(811)};
+				{ 7, 94934, "", "=q1=Tiny Green Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(806).." / "..AtlasLoot:GetMapNameByID(857).." / "..AtlasLoot:GetMapNameByID(807)};
+				{ 8, 94932, "", "=q1=Tiny Red Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(810).." / "..AtlasLoot:GetMapNameByID(858)};
+				{ 9, 94935, "", "=q1=Tiny White Carp", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(809).." / "..BabbleZone["Pandaria"]};
+				{ 11, 0, "INV_Box_01", "=q6=#p26#", ""};
+				{ 12, 89368, "", "=q1=Chi-ji Kite", "=ds=#e13#"};
+				{ 13, 89367, "", "=q1=Yu'lon Kite", "=ds=#e13#"};
 				{ 17, 0, "INV_Box_01", "=q6=#p12#", ""};
 				{ 18, 82774, "", "=q3=Jade Owl", "=ds=#e13#"};
 				{ 19, 82775, "", "=q3=Sapphire Cub", "=ds=#e13#"};
 				{ 21, 0, "INV_Box_01", "=q6=#p8#", ""};
+
 				{ 22, 90900, "", "=q3=Imperial Moth", "=ds=#e13#"};
 				{ 23, 90902, "", "=q2=Imperial Silkworm", "=ds=#e13#"};
 			};
@@ -7784,16 +7833,16 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", "=q2="..BabbleBoss["Maexxna"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
 				{ 8, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "=q2="..BabbleBoss["Gluth"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
 				{ 9, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "=q2="..BabbleBoss["The Prophet Skeram"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 9, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
-				{ 10, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
-				{ 11, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(781)};
-				{ 12, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..AtlasLoot:GetMapNameByID(798)};
-				{ 13, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 14, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 17, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 18, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 19, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 20, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..AtlasLoot:GetMapNameByID(749)};
+				{ 10, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
+				{ 11, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
+				{ 12, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(781)};
+				{ 13, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..AtlasLoot:GetMapNameByID(798)};
+				{ 14, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 17, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
+				{ 18, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
+				{ 19, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
+				{ 20, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 21, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..AtlasLoot:GetMapNameByID(749)};
 				extraText = ": "..AL["Dungeon/Raid"]
 			};
 		};
