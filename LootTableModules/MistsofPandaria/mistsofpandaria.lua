@@ -2819,6 +2819,7 @@ local moduleName = "AtlasLootMoP"
 			{
 				{ 12, 96016, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
 				{ 16, 96010, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
+				{ 19, 95997, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
 				{ 21, 96012, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 96004, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
 				extraText = ": "..AL["Thunderforged"];
@@ -3089,6 +3090,7 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 			{
+				{ 9, 96052, "", "=q4=Grips of Vampiric Cruelty", "=ds=#s9#, #a2#" },
 				{ 22, 96064, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
@@ -3174,8 +3176,12 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 3, 96078, "", "=q4=Sandals of Arcane Fury", "=ds=#s12#, #a1#" },
+				{ 5, 96072, "", "=q4=Poisonblood Bladeshoulders", "=ds=#s3#, #a2#" },
 				{ 6, 96087, "", "=q4=Chain of Consuming Magic", "=ds=#s5#, #a3#" },
+				{ 9, 96075, "", "=q4=Rot-Proof Greatplate", "=ds=#s5#, #a4#" },
+				{ 18, 96071, "", "=q4=Quadra-Head Brooch", "=ds=#s2#" },
 				{ 19, 96076, "", "=q4=Spinescale Seal", "=ds=#s13#" },
+				{ 20, 96083, "", "=q4=Breath of the Hydra", "=ds=#s14#" },
 				{ 24, 96082, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
@@ -3728,6 +3734,10 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94988, "", "=q4=Torall, Rod of the Shattered Throne", "=ds=#h1#, #w6#" },
 				{ 25, 95472, "", "=q4=Ultimate Protection of the Emperor", "=ds=#w8#" },
 				{ 26, 95473, "", "=q4=Lei-Shen's Orb of Command", "=ds=#s15#" },
+			};
+			{
+				{ 22, 96175, "", "=q4=Shan-Dun, Breaker of Hope", "=ds=#w7#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
