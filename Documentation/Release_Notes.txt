@@ -7,6 +7,7 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 Patch Notes
 v7.05.00 (Mar ??, 2013)
 Compatible with Patch 5.2.
+Compatible with Atlas 1.24.00.
 Added Tier 15 Raid Set.
 Added PvP Season 13 items.
 Added loot for Throne of Thunder.

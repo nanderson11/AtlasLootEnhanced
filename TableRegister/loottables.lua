@@ -200,24 +200,37 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Terrace of Endless Spring"], "AtlasLootMoP", mapname = "TerraceofEndlessSpring", raid = true, EncounterJournalID = 320 },
 		},
 
+		["ThroneofThunderA"] = "ThroneofThunder",
+		["ThroneofThunderB"] = "ThroneofThunder",
+		["ThroneofThunderC"] = "ThroneofThunder",
+		["ThroneofThunderD"] = "ThroneofThunder",
 		["ThroneofThunder"] = {
-			["Bosses"] = {
-				{ "ToTJinrokh", 3, EncounterJournalID = 827, BonusLootID = 139674 },
-				{ "ToTHorridon", 4, EncounterJournalID = 819, BonusLootID = 139677 },
-				{ "ToTCouncil", 5, EncounterJournalID = 816, BonusLootID = 139679 },
-				{ "ToTTortos", 10, EncounterJournalID = 825, BonusLootID = 139680 },
-				{ "ToTMegaera", 11, EncounterJournalID = 821, BonusLootID = 139682 },
-				{ "ToTJiKun", 12, EncounterJournalID = 828, BonusLootID = 139684 },
-				{ "ToTDurumu", 13, EncounterJournalID = 818, BonusLootID = 139686 },
-				{ "ToTPrimordius", 14, EncounterJournalID = 820, BonusLootID = 139687 },
-				{ "ToTDarkAnimus", 15, EncounterJournalID = 824, BonusLootID = 139688 },
-				{ "ToTIronQon", 16, EncounterJournalID = 817, BonusLootID = 139689 },
-				{ "ToTTwinConsorts", 20, EncounterJournalID = 829, BonusLootID = 139690 },
-				{ "ToTLeiShen", 23, EncounterJournalID = 832, BonusLootID = 139691 },
-				{ "ToTRaden", 24, EncounterJournalID = 831, BonusLootID = 139692 },
-				{ "ToTTrash", 26 },
+			["ThroneofThunderA"] = {
+				{ "ToTJinrokh", 4, EncounterJournalID = 827, BonusLootID = 139674 },
+				{ "ToTHorridon", 5, EncounterJournalID = 819, BonusLootID = 139677 },
+				{ "ToTCouncil", 6, EncounterJournalID = 816, BonusLootID = 139679 },
+				{ "ToTTrash", 12, hide = true },
 			},
-			["Info"] = { GetMapNameByID(930), "AtlasLootMoP", mapname = "ThroneofThunder", raid = true, EncounterJournalID = 362 },
+			["ThroneofThunderB"] = {
+				{ "ToTTortos", 3, EncounterJournalID = 825, BonusLootID = 139680 },
+				{ "ToTMegaera", 4, EncounterJournalID = 821, BonusLootID = 139682 },
+				{ "ToTJiKun", 5, EncounterJournalID = 828, BonusLootID = 139684 },
+				{ "ToTTrash", 7, hide = true },
+			},
+			["ThroneofThunderC"] = {
+				{ "ToTDurumu", 3, EncounterJournalID = 818, BonusLootID = 139686 },
+				{ "ToTPrimordius", 4, EncounterJournalID = 820, BonusLootID = 139687 },
+				{ "ToTDarkAnimus", 5, EncounterJournalID = 824, BonusLootID = 139688 },
+				{ "ToTTrash", 7, hide = true },
+			},
+			["ThroneofThunderD"] = {
+				{ "ToTIronQon", 3, EncounterJournalID = 817, BonusLootID = 139689 },
+				{ "ToTTwinConsorts", 7, EncounterJournalID = 829, BonusLootID = 139690 },
+				{ "ToTLeiShen", 10, EncounterJournalID = 832, BonusLootID = 139691 },
+				{ "ToTRaden", 11, EncounterJournalID = 831, BonusLootID = 139692 },
+				{ "ToTTrash", 13 },
+			},
+			["Info"] = { GetMapNameByID(930), "AtlasLootMoP", mapname = "ThroneofThunder", sortOrder = { "ThroneofThunderA", "ThroneofThunderB", "ThroneofThunderC", "ThroneofThunderD" }, raid = true, EncounterJournalID = 362 },
 		},
 
 	---------------------------
