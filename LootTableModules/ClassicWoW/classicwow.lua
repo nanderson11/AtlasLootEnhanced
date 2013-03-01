@@ -1533,7 +1533,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 12960, "", "=q3=Tribal War Feathers", "=ds=#s1#, #a2#", "", "15.24%"};
 				{ 3, 12953, "", "=q3=Dragoneye Coif", "=ds=#s1#, #a3#", "", "15.99%"};
 				{ 4, 12952, "", "=q3=Gyth's Skull", "=ds=#s1#, #a4#", "", "12.43%"};
-				{ 6, 13522, "", "=q2=Recipe: Flask of Chromatic Resistance", "=ds=#p1# (300)", "", "2.95%"};
 			};
 		};
 		info = {
