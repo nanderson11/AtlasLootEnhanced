@@ -4781,7 +4781,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 12, 45635, "", "=q4=Chestguard of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
 				{ 13, 45636, "", "=q4=Chestguard of the Wayward Protector", "=ds=#e15#", "", "50%"};
 				{ 14, 45637, "", "=q4=Chestguard of the Wayward Vanquisher", "=ds=#e15#", "", "27%"};
-				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3157#"};
+				{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3158#"};
 				{ 17, 46068, "", "=q4=Amice of Inconceivable Horror", "=ds=#s3#, #a1#"};
 				{ 18, 46095, "", "=q4=Soul-Devouring Cinch", "=ds=#s10#, #a2#"};
 				{ 19, 46096, "", "=q4=Signet of Soft Lament", "=ds=#s13#"};
@@ -4808,7 +4808,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 16, 45656, "", "=q4=Mantle of the Wayward Conqueror", "=ds=#e15#", "", "59%"};
 				{ 17, 45657, "", "=q4=Mantle of the Wayward Protector", "=ds=#e15#", "", "54%"};
 				{ 18, 45658, "", "=q4=Mantle of the Wayward Vanquisher", "=ds=#e15#", "", "66%"};
-				{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3161#"};
+				{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3163#"};
 				{ 21, 45537, "", "=q4=Treads of the False Oracle", "=ds=#s12#, #a1#", "", "1%"};
 				{ 22, 45536, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "1%"};
 				{ 23, 45534, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};
