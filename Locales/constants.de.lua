@@ -564,6 +564,7 @@ if AL then
 	AL["No Longer Available"] = "Nicht mehr erhältlich";
 	AL["Shared Boss Loot"] = "Geteilter Bossloot";
 	AL["Shared Zone Loot"] = "Geteilter Gebietsloot";
+	AL["Black Market Auction House"] = "Schwarzmarktauktionshaus";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "Klassisch";

@@ -567,6 +567,7 @@ if AL then
 	AL["No Longer Available"] = true;
 	AL["Shared Boss Loot"] = true;
 	AL["Shared Zone Loot"] = true;
+	AL["Black Market Auction House"] = true;
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = true;

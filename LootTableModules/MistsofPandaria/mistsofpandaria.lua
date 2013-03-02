@@ -2943,6 +2943,7 @@ local moduleName = "AtlasLootMoP"
 				{ 20, 96026, "", "=q4=Spark of Zandalar", "=ds=#s14#" },
 				{ 22, 96029, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 96019, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
+				{ 24, 96032, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
 		};
@@ -3106,6 +3107,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 9, 96052, "", "=q4=Grips of Vampiric Cruelty", "=ds=#s9#, #a2#" },
+				{ 20, 96058, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
 				{ 22, 96064, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
@@ -3197,6 +3199,7 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 96071, "", "=q4=Quadra-Head Brooch", "=ds=#s2#" },
 				{ 19, 96076, "", "=q4=Spinescale Seal", "=ds=#s13#" },
 				{ 20, 96083, "", "=q4=Breath of the Hydra", "=ds=#s14#" },
+				{ 23, 96070, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 96082, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
@@ -7782,8 +7785,8 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 11826, "", "=q1=Lil' Smoky", "=ds=#e13#"};
 				{ 23, 4401, "", "=q1=Mechanical Squirrel Box", "=ds=#e13#"};
 				{ 24, 11825, "", "=q1=Pet Bombling", "=ds=#e13#"};
-				{ 25, 94903, "", "=q1=Pierre", "=ds=#e13#"};
-				{ 26, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds=#e13#"};
+				--{ 25, 94903, "", "=q1=Pierre", "=ds=#e13#"}; --seems like this does not go live
+				{ 25, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds=#e13#"};
 			};
 			{
 				{ 2, 0, "INV_Box_01", "=q6=#p24#", ""};
@@ -8689,18 +8692,18 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
 				{ 2, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
 				{ 3, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e27# =q2=#p12#"};
-				{ 4, 95416, "", "=q4=Sky Claw", "=ds=#e27# =q2=#p5#"};
-				{ 5, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
-				{ 6, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
-				{ 7, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
-				{ 8, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 9, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
-				{ 10, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
-				{ 11, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
-				{ 12, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
-				{ 13, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
-				{ 14, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
-				{ 15, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
+				--{ 4, 95416, "", "=q4=Sky Claw", "=ds=#e27# =q2=#p5#"}; --seems like this does not go live
+				{ 4, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
+				{ 5, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
+				{ 6, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
+				{ 7, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 8, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 9, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 10, 65891, "", "=q4=Vial of the Sands", "=ds=#e27# =q2=#p1#"};
+				{ 11, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
+				{ 12, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
+				{ 13, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
+				{ 14, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
 				{ 17, 87250, "", "=q3=Depleted-Kyparium Rocket", "=ds=#e27# =q2=#p5#"};
 				{ 18, 87251, "", "=q3=Geosynchronous World Spinner", "=ds=#e27# =q2=#p5#"};
 				{ 19, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};

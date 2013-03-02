@@ -5025,15 +5025,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_druid_maul", "=q6=#t3s1#", "=ec1=#m35#"};
-				{ 2, 22490, "", "=q4=Dreamwalker Headpiece", "=ds=#s1#, #a2#"};
-				{ 3, 22491, "", "=q4=Dreamwalker Spaulders", "=ds=#s3#, #a2#"};
-				{ 4, 22488, "", "=q4=Dreamwalker Tunic", "=ds=#s5#, #a2#"};
-				{ 5, 22495, "", "=q4=Dreamwalker Wristguards", "=ds=#s8#, #a2#"};
-				{ 6, 22493, "", "=q4=Dreamwalker Handguards", "=ds=#s9#, #a2#"};
-				{ 7, 22494, "", "=q4=Dreamwalker Girdle", "=ds=#s10#, #a2#"};
-				{ 8, 22489, "", "=q4=Dreamwalker Legguards", "=ds=#s11#, #a2#"};
-				{ 9, 22492, "", "=q4=Dreamwalker Boots", "=ds=#s12#, #a2#"};
-				{ 10, 23064, "", "=q4=Ring of the Dreamwalker", "=ds=#s13#"};
+				{ 2, 22490, "", "=q4=Dreamwalker Headpiece", "=ds=#s1#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22491, "", "=q4=Dreamwalker Spaulders", "=ds=#s3#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22488, "", "=q4=Dreamwalker Tunic", "=ds=#s5#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22495, "", "=q4=Dreamwalker Wristguards", "=ds=#s8#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22493, "", "=q4=Dreamwalker Handguards", "=ds=#s9#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22494, "", "=q4=Dreamwalker Girdle", "=ds=#s10#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22489, "", "=q4=Dreamwalker Legguards", "=ds=#s11#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22492, "", "=q4=Dreamwalker Boots", "=ds=#s12#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23064, "", "=q4=Ring of the Dreamwalker", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5046,15 +5046,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t3s2#", "=ec1=#m35#"};
-				{ 2, 22438, "", "=q4=Cryptstalker Headpiece", "=ds=#s1#, #a3#"};
-				{ 3, 22439, "", "=q4=Cryptstalker Spaulders", "=ds=#s3#, #a3#"};
-				{ 4, 22436, "", "=q4=Cryptstalker Tunic", "=ds=#s5#, #a3#"};
-				{ 5, 22443, "", "=q4=Cryptstalker Wristguards", "=ds=#s8#, #a3#"};
-				{ 6, 22441, "", "=q4=Cryptstalker Handguards", "=ds=#s9#, #a3#"};
-				{ 7, 22442, "", "=q4=Cryptstalker Girdle", "=ds=#s10#, #a3#"};
-				{ 8, 22437, "", "=q4=Cryptstalker Legguards", "=ds=#s11#, #a3#"};
-				{ 9, 22440, "", "=q4=Cryptstalker Boots", "=ds=#s12#, #a3#"};
-				{ 10, 23067, "", "=q4=Ring of the Cryptstalker", "=ds=#s13#"};
+				{ 2, 22438, "", "=q4=Cryptstalker Headpiece", "=ds=#s1#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22439, "", "=q4=Cryptstalker Spaulders", "=ds=#s3#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22436, "", "=q4=Cryptstalker Tunic", "=ds=#s5#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22443, "", "=q4=Cryptstalker Wristguards", "=ds=#s8#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22441, "", "=q4=Cryptstalker Handguards", "=ds=#s9#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22442, "", "=q4=Cryptstalker Girdle", "=ds=#s10#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22437, "", "=q4=Cryptstalker Legguards", "=ds=#s11#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22440, "", "=q4=Cryptstalker Boots", "=ds=#s12#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23067, "", "=q4=Ring of the Cryptstalker", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5067,15 +5067,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t3s3#", "=ec1=#m35#"};
-				{ 2, 22498, "", "=q4=Frostfire Circlet", "=ds=#s1#, #a1#"};
-				{ 3, 22499, "", "=q4=Frostfire Shoulderpads", "=ds=#s3#, #a1#"};
-				{ 4, 22496, "", "=q4=Frostfire Robe", "=ds=#s5#, #a1#"};
-				{ 5, 22503, "", "=q4=Frostfire Bindings", "=ds=#s8#, #a1#"};
-				{ 6, 22501, "", "=q4=Frostfire Gloves", "=ds=#s9#, #a1#"};
-				{ 7, 22502, "", "=q4=Frostfire Belt", "=ds=#s10#, #a1#"};
-				{ 8, 22497, "", "=q4=Frostfire Leggings", "=ds=#s11#, #a1#"};
-				{ 9, 22500, "", "=q4=Frostfire Sandals", "=ds=#s12#, #a1#"};
-				{ 10, 23062, "", "=q4=Frostfire Ring", "=ds=#s13#"};
+				{ 2, 22498, "", "=q4=Frostfire Circlet", "=ds=#s1#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22499, "", "=q4=Frostfire Shoulderpads", "=ds=#s3#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22496, "", "=q4=Frostfire Robe", "=ds=#s5#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22503, "", "=q4=Frostfire Bindings", "=ds=#s8#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22501, "", "=q4=Frostfire Gloves", "=ds=#s9#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22502, "", "=q4=Frostfire Belt", "=ds=#s10#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22497, "", "=q4=Frostfire Leggings", "=ds=#s11#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22500, "", "=q4=Frostfire Sandals", "=ds=#s12#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23062, "", "=q4=Frostfire Ring", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5088,15 +5088,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_thunderbolt", "=q6=#t3s4#", "=ec1=#m35#"};
-				{ 2, 22428, "", "=q4=Redemption Headpiece", "=ds=#s1#, #a4#"};
-				{ 3, 22429, "", "=q4=Redemption Spaulders", "=ds=#s3#, #a4#"};
-				{ 4, 22425, "", "=q4=Redemption Tunic", "=ds=#s5#, #a4#"};
-				{ 5, 22424, "", "=q4=Redemption Wristguards", "=ds=#s8#, #a4#"};
-				{ 6, 22426, "", "=q4=Redemption Handguards", "=ds=#s9#, #a4#"};
-				{ 7, 22431, "", "=q4=Redemption Girdle", "=ds=#s10#, #a4#"};
-				{ 8, 22427, "", "=q4=Redemption Legguards", "=ds=#s11#, #a4#"};
-				{ 9, 22430, "", "=q4=Redemption Boots", "=ds=#s12#, #a4#"};
-				{ 10, 23066, "", "=q4=Ring of Redemption", "=ds=#s13#"};
+				{ 2, 22428, "", "=q4=Redemption Headpiece", "=ds=#s1#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22429, "", "=q4=Redemption Spaulders", "=ds=#s3#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22425, "", "=q4=Redemption Tunic", "=ds=#s5#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22424, "", "=q4=Redemption Wristguards", "=ds=#s8#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22426, "", "=q4=Redemption Handguards", "=ds=#s9#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22431, "", "=q4=Redemption Girdle", "=ds=#s10#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22427, "", "=q4=Redemption Legguards", "=ds=#s11#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22430, "", "=q4=Redemption Boots", "=ds=#s12#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23066, "", "=q4=Ring of Redemption", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5109,15 +5109,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_30", "=q6=#t3s5#", "=ec1=#m35#"};
-				{ 2, 22514, "", "=q4=Circlet of Faith", "=ds=#s1#, #a1#"};
-				{ 3, 22515, "", "=q4=Shoulderpads of Faith", "=ds=#s3#, #a1#"};
-				{ 4, 22512, "", "=q4=Robe of Faith", "=ds=#s5#, #a1#"};
-				{ 5, 22519, "", "=q4=Bindings of Faith", "=ds=#s8#, #a1#"};
-				{ 6, 22517, "", "=q4=Gloves of Faith", "=ds=#s9#, #a1#"};
-				{ 7, 22518, "", "=q4=Belt of Faith", "=ds=#s10#, #a1#"};
-				{ 8, 22513, "", "=q4=Leggings of Faith", "=ds=#s11#, #a1#"};
-				{ 9, 22516, "", "=q4=Sandals of Faith", "=ds=#s12#, #a1#"};
-				{ 10, 23061, "", "=q4=Ring of Faith", "=ds=#s13#"};
+				{ 2, 22514, "", "=q4=Circlet of Faith", "=ds=#s1#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22515, "", "=q4=Shoulderpads of Faith", "=ds=#s3#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22512, "", "=q4=Robe of Faith", "=ds=#s5#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22519, "", "=q4=Bindings of Faith", "=ds=#s8#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22517, "", "=q4=Gloves of Faith", "=ds=#s9#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22518, "", "=q4=Belt of Faith", "=ds=#s10#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22513, "", "=q4=Leggings of Faith", "=ds=#s11#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22516, "", "=q4=Sandals of Faith", "=ds=#s12#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23061, "", "=q4=Ring of Faith", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5130,15 +5130,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t3s6#", "=ec1=#m35#"};
-				{ 2, 22478, "", "=q4=Bonescythe Helmet", "=ds=#s1#, #a2#"};
-				{ 3, 22479, "", "=q4=Bonescythe Pauldrons", "=ds=#s3#, #a2#"};
-				{ 4, 22476, "", "=q4=Bonescythe Breastplate", "=ds=#s5#, #a2#"};
-				{ 5, 22483, "", "=q4=Bonescythe Bracers", "=ds=#s8#, #a2#"};
-				{ 6, 22481, "", "=q4=Bonescythe Gauntlets", "=ds=#s9#, #a2#"};
-				{ 7, 22482, "", "=q4=Bonescythe Waistguard", "=ds=#s10#, #a2#"};
-				{ 8, 22477, "", "=q4=Bonescythe Legplates", "=ds=#s11#, #a2#"};
-				{ 9, 22480, "", "=q4=Bonescythe Sabatons", "=ds=#s12#, #a2#"};
-				{ 10, 23060, "", "=q4=Bonescythe Ring", "=ds=#s13#"};
+				{ 2, 22478, "", "=q4=Bonescythe Helmet", "=ds=#s1#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22479, "", "=q4=Bonescythe Pauldrons", "=ds=#s3#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22476, "", "=q4=Bonescythe Breastplate", "=ds=#s5#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22483, "", "=q4=Bonescythe Bracers", "=ds=#s8#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22481, "", "=q4=Bonescythe Gauntlets", "=ds=#s9#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22482, "", "=q4=Bonescythe Waistguard", "=ds=#s10#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22477, "", "=q4=Bonescythe Legplates", "=ds=#s11#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22480, "", "=q4=Bonescythe Sabatons", "=ds=#s12#, #a2#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23060, "", "=q4=Bonescythe Ring", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5151,15 +5151,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_bloodlust", "=q6=#t3s7#", "=ec1=#m35#"};
-				{ 2, 22466, "", "=q4=Earthshatter Headpiece", "=ds=#s1#, #a3#"};
-				{ 3, 22467, "", "=q4=Earthshatter Spaulders", "=ds=#s3#, #a3#"};
-				{ 4, 22464, "", "=q4=Earthshatter Tunic", "=ds=#s5#, #a3#"};
-				{ 5, 22471, "", "=q4=Earthshatter Wristguards", "=ds=#s8#, #a3#"};
-				{ 6, 22469, "", "=q4=Earthshatter Handguards", "=ds=#s9#, #a3#"};
-				{ 7, 22470, "", "=q4=Earthshatter Girdle", "=ds=#s10#, #a3#"};
-				{ 8, 22465, "", "=q4=Earthshatter Legguards", "=ds=#s11#, #a3#"};
-				{ 9, 22468, "", "=q4=Earthshatter Boots", "=ds=#s12#, #a3#"};
-				{ 10, 23065, "", "=q4=Ring of the Earthshatterer", "=ds=#s13#"};
+				{ 2, 22466, "", "=q4=Earthshatter Headpiece", "=ds=#s1#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22467, "", "=q4=Earthshatter Spaulders", "=ds=#s3#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22464, "", "=q4=Earthshatter Tunic", "=ds=#s5#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22471, "", "=q4=Earthshatter Wristguards", "=ds=#s8#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22469, "", "=q4=Earthshatter Handguards", "=ds=#s9#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22470, "", "=q4=Earthshatter Girdle", "=ds=#s10#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22465, "", "=q4=Earthshatter Legguards", "=ds=#s11#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22468, "", "=q4=Earthshatter Boots", "=ds=#s12#, #a3#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23065, "", "=q4=Ring of the Earthshatterer", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5172,15 +5172,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t3s8#", "=ec1=#m35#"};
-				{ 2, 22506, "", "=q4=Plagueheart Circlet", "=ds=#s1#, #a1#"};
-				{ 3, 22507, "", "=q4=Plagueheart Shoulderpads", "=ds=#s3#, #a1#"};
-				{ 4, 22504, "", "=q4=Plagueheart Robe", "=ds=#s5#, #a1#"};
-				{ 5, 22511, "", "=q4=Plagueheart Bindings", "=ds=#s8#, #a1#"};
-				{ 6, 22509, "", "=q4=Plagueheart Gloves", "=ds=#s9#, #a1#"};
-				{ 7, 22510, "", "=q4=Plagueheart Belt", "=ds=#s10#, #a1#"};
-				{ 8, 22505, "", "=q4=Plagueheart Leggings", "=ds=#s11#, #a1#"};
-				{ 9, 22508, "", "=q4=Plagueheart Sandals", "=ds=#s12#, #a1#"};
-				{ 10, 23063, "", "=q4=Plagueheart Ring", "=ds=#s13#"};
+				{ 2, 22506, "", "=q4=Plagueheart Circlet", "=ds=#s1#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22507, "", "=q4=Plagueheart Shoulderpads", "=ds=#s3#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22504, "", "=q4=Plagueheart Robe", "=ds=#s5#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22511, "", "=q4=Plagueheart Bindings", "=ds=#s8#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22509, "", "=q4=Plagueheart Gloves", "=ds=#s9#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22510, "", "=q4=Plagueheart Belt", "=ds=#s10#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22505, "", "=q4=Plagueheart Leggings", "=ds=#s11#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22508, "", "=q4=Plagueheart Sandals", "=ds=#s12#, #a1#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23063, "", "=q4=Plagueheart Ring", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
@@ -5193,15 +5193,15 @@ local moduleName = "AtlasLootClassicWoW"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_sword_27", "=q6=#t3s9#", "=ec1=#m35#"};
-				{ 2, 22418, "", "=q4=Dreadnaught Helmet", "=ds=#s1#, #a4#"};
-				{ 3, 22419, "", "=q4=Dreadnaught Pauldrons", "=ds=#s3#, #a4#"};
-				{ 4, 22416, "", "=q4=Dreadnaught Breastplate", "=ds=#s5#, #a4#"};
-				{ 5, 22423, "", "=q4=Dreadnaught Bracers", "=ds=#s8#, #a4#"};
-				{ 6, 22421, "", "=q4=Dreadnaught Gauntlets", "=ds=#s9#, #a4#"};
-				{ 7, 22422, "", "=q4=Dreadnaught Waistguard", "=ds=#s10#, #a4#"};
-				{ 8, 22417, "", "=q4=Dreadnaught Legplates", "=ds=#s11#, #a4#"};
-				{ 9, 22420, "", "=q4=Dreadnaught Sabatons", "=ds=#s12#, #a4#"};
-				{ 10, 23059, "", "=q4=Ring of the Dreadnaught", "=ds=#s13#"};
+				{ 2, 22418, "", "=q4=Dreadnaught Helmet", "=ds=#s1#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 3, 22419, "", "=q4=Dreadnaught Pauldrons", "=ds=#s3#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 4, 22416, "", "=q4=Dreadnaught Breastplate", "=ds=#s5#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 5, 22423, "", "=q4=Dreadnaught Bracers", "=ds=#s8#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 6, 22421, "", "=q4=Dreadnaught Gauntlets", "=ds=#s9#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 7, 22422, "", "=q4=Dreadnaught Waistguard", "=ds=#s10#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 8, 22417, "", "=q4=Dreadnaught Legplates", "=ds=#s11#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 9, 22420, "", "=q4=Dreadnaught Sabatons", "=ds=#s12#, #a4#", "=ds="..AL["Black Market Auction House"]};
+				{ 10, 23059, "", "=q4=Ring of the Dreadnaught", "=ds=#s13#", "=ds="..AL["No Longer Available"]};
 			};
 		};
 		info = {
