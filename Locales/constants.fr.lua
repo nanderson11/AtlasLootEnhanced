@@ -564,7 +564,8 @@ if AL then
 	AL["Daily Reward"] = "Récompense journalière";
 	AL["No Longer Available"] = "N'est plus disponible";
 	AL["Shared Boss Loot"] = "Objets de boss partagés";
-	AL["Shared Zone Loot"] = "Objets de zone partagée";
+	AL["Shared Zone Loot"] = "Objets de zone partagés";
+	AL["Black Market Auction House"] = "Hôtel des ventes au marché noir";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "WoW classique";
