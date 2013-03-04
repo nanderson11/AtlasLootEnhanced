@@ -6069,7 +6069,7 @@ local moduleName = "AtlasLootMoP"
 				{ 23, 94415, "", "=q4=Tyrannical Gladiator's Insignia of Victory", "=ds=#s14#", "#CONQUEST:1750#" },
 			};
 		};
-		--[[["Normal"] = {
+		["Normal"] = {
 			{
 				{ 1, 91453, "", "=q4=Malevolent Gladiator's Cape of Cruelty", "=ds=#s4#", "#HONOR:1250#"},
 				{ 2, 91454, "", "=q4=Malevolent Gladiator's Cape of Prowess", "=ds=#s4#", "#HONOR:1250#"},
@@ -6116,7 +6116,7 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 91754, "", "=q4=Malevolent Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1750#" },
 				{ 23, 91768, "", "=q4=Malevolent Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1750#" },
 			};
-			{
+			--[[{
 				{ 1, 93420, "", "=q3=Crafted Dreadful Gladiator's Cape of Cruelty", "=ds=#s4#"},
 				{ 2, 93421, "", "=q3=Crafted Dreadful Gladiator's Cape of Prowess", "=ds=#s4#"},
 				{ 3, 93607, "", "=q3=Crafted Dreadful Gladiator's Cloak of Alacrity", "=ds=#s4#"},
@@ -6161,8 +6161,8 @@ local moduleName = "AtlasLootMoP"
 				{ 21, 93424, "", "=q3=Crafted Dreadful Gladiator's Insignia of Conquest", "=ds=#s14#", "#HONOR:1750#" },
 				{ 22, 93601, "", "=q3=Crafted Dreadful Gladiator's Insignia of Dominance", "=ds=#s14#", "#HONOR:1750#" },
 				{ 23, 93611, "", "=q3=Crafted Dreadful Gladiator's Insignia of Victory", "=ds=#s14#", "#HONOR:1750#" },
-			};
-		};--]]
+			};--]]
+		};
 		info = {
 			name = AL["PvP Accessories"],
 			module = moduleName, menu = "PVPMENU",
@@ -8648,7 +8648,7 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Rare Companions"], ""};
 				{ 2, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
 				{ 3, 94125, "", "=q3=Living Sandling", "=ds=#e13#"};
-				{ 4, 94152, "", "=q3=Son af Animus", "=ds=#e13#"};
+				{ 4, 94152, "", "=q3=Son of Animus", "=ds=#e13#"};
 				{ 5, 94595, "", "=q3=Spawn of G'nathus", "=ds=#e13#"};
 				{ 6, 94124, "", "=q3=Sunreaver Micro-Sentry", "=ds=#e13#"};
 				{ 7, 95422, "", "=q3=Zandalari Anklerender", "=ds=#e13#"};
@@ -9313,95 +9313,8 @@ local moduleName = "AtlasLootMoP"
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
 	}
-
-	AtlasLoot_Data["MountsNEW"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Order of the Cloud Serpent"].." #j30#"};
-				{ 2, 85430, "", "=q4=Reins of the Azure Cloud Serpent", "=ds=#e27#", "=ds=3,000 #gold#"};
-				{ 3, 85429, "", "=q4=Reins of the Golden Cloud Serpent", "=ds=#e27#", "=ds=3,000 #gold#"};
-				{ 4, 79802, "", "=q4=Reins of the Jade Cloud Serpent", "=ds=#e27#", "=ds=3,000 #gold#"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleFaction["The August Celestials"].." #j30#"};
-				{ 7, 89304, "", "=q4=Reins of the Thundering August Cloud Serpent", "=ds=#e27#", "=ds=10,000 #gold#"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["The Lorewalkers"].." #j30#"};
-				{ 10, 89363, "", "=q3=Disc of the Red Flying Cloud", "=ds=#e27#", "=ds=600 #gold#"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleFaction["Golden Lotus"].." #j30#"};
-				{ 13, 87781, "", "=q4=Reins of the Azure Riding Crane", "=ds=#e26#", "=ds=500 #gold#"};
-				{ 14, 87782, "", "=q4=Reins of the Golden Riding Crane", "=ds=#e26#", "=ds=2,500 #gold#"};
-				{ 15, 87783, "", "=q4=Reins of the Regal Riding Crane", "=ds=#e26#", "=ds=1,500 #gold#"};
-				{
-					{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Huojin Pandaren"].." #j30#"};
-					{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Tushui Pandaren"].." #j30#"};
-				};
-				{ 17, 87795, "", "=q3=Reins of the Black Dragon Turtle", "=ds=#e26#", "=ds=1 #gold#"};
-				{ 18, 87796, "", "=q3=Reins of the Blue Dragon Turtle", "=ds=#e26#", "=ds=1 #gold#"};
-				{ 19, 87797, "", "=q3=Reins of the Brown Dragon Turtle", "=ds=#e26#", "=ds=1 #gold#"};
-				{ 20, 87799, "", "=q3=Reins of the Purple Dragon Turtle", "=ds=#e26#", "=ds=1 #gold#"};
-				{ 21, 87800, "", "=q3=Reins of the Red Dragon Turtle", "=ds=#e26#", "=ds=1 #gold#"};
-				{ 22, 87802, "", "=q4=Reins of the Great Black Dragon Turtle", "=ds=#e26#", "=ds=10 #gold#"};
-				{ 23, 87803, "", "=q4=Reins of the Great Blue Dragon Turtle", "=ds=#e26#", "=ds=10 #gold#"};
-				{ 24, 87804, "", "=q4=Reins of the Great Brown Dragon Turtle", "=ds=#e26#", "=ds=10 #gold#"};
-				{ 25, 87801, "", "=q4=Reins of the Great Green Dragon Turtle", "=ds=#e26#", "=ds=10 #gold#"};
-				{ 26, 87805, "", "=q4=Reins of the Great Purple Dragon Turtle", "=ds=#e26#", "=ds=10 #gold#"};
-				{ 27, 82811, "", "=q4=Reins of the Great Red Dragon Turtle", "=ds=#e26#", "=ds=10 #gold#"};
-				{ 29, 0, "INV_Box_01", "=q6="..BabbleFaction["The Klaxxi"].." #j30#"};
-				{ 30, 85262, "", "=q4=Reins of the Amber Scorpion", "=ds=#e26#", "=ds=10,000 #gold#"};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["The Anglers"].." #j30#"};
-				{ 2, 81354, "", "=q4=Reins of the Azure Water Strider", "=ds=#e26#", "=ds=5,000 #gold#"};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleFaction["Shado-Pan"].." #j30#"};
-				{ 5, 89307, "", "=q4=Reins of the Blue Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=500 #gold#"};
-				{ 6, 89305, "", "=q4=Reins of the Green Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=1,500 #gold#"};
-				{ 7, 89306, "", "=q4=Reins of the Red Shado-Pan Riding Tiger", "=ds=#e26#", "=ds=2,500 #gold#"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["The Tillers"].." #j30#"};
-				{ 10, 89391, "", "=q4=Reins of the Black Riding Goat", "=ds=#e26#", "=ds=1,416 #gold# 66 #silver# 66 #copper#"};
-				{ 11, 89362, "", "=q4=Reins of the Brown Riding Goat", "=ds=#e26#", "=ds=472 #gold# 22 #silver# 22 #copper#"};
-				{ 12, 89390, "", "=q4=Reins of the White Riding Goat", "=ds=#e26#", "=ds=3069 #gold# 44 #silver# 44 #copper#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"]};
-				{ 17, 85666, "", "=q4=Reins of the Thundering Jade Cloud Serpent", "#ACHIEVEMENTID:6682#"};
-				{ 18, 87769, "", "=q4=Reins of the Crimson Cloud Serpent", "#ACHIEVEMENTID:6927#"};
-				{ 19, 87773, "", "=q4=Reins of the Heavenly Crimson Cloud Serpent", "#ACHIEVEMENTID:6932#"};
-				{ 20, 90710, "", "=q4=Reins of the Ashen Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 21, 89154, "", "=q4=Reins of the Crimson Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 22, 90711, "", "=q4=Reins of the Emerald Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 23, 90712, "", "=q4=Reins of the Violet Pandaren Phoenix", "#ACHIEVEMENTID:6375#"};
-				{ 24, 89785, "", "=q4=Pandaren Kite String", "#ACHIEVEMENTID:6828#"};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"]};
-				{ 2, 85870, "", "=q4=Imperial Quilen", "#ACHIEVEMENTID:6849#"};
-				{ 3, 83086, "", "=q4=Heart of the Nightwing", "=q2="..AL["Recruit-A-Friend"]};
-				{ 5, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"]};
-				{ 6, 79771, "", "=q4=Feldrake", "=ds=#e26#", "=q1="..AL["War of the Ancients"] },
-				{ 8, 0, "INV_Box_01", "=q6="..AL["Rare Mounts"]};
-				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
-				{ 10, 87771, "", "=q4=Reins of the Heavenly Onyx Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Sha of Anger", 691).." =q1="..AtlasLoot:GetMapNameByID(809), ""};
-				{ 11, 90655, "", "=q4=Reins of the Thundering Ruby Cloud Serpent", "=ds=#e27#", "=q2="..BabbleRare["Alani"]..", =q1="..AtlasLoot:GetMapNameByID(811)};
-				{ 12, 89783, "", "=q4=Son of Galleon's Saddle", "=q2="..AtlasLoot:EJ_GetBossName("Salyis's Warband", 725)..", =q1="..AtlasLoot:GetMapNameByID(807), ""};
-				{ 14, 0, "INV_Box_01", "=q6="..AL["Quest Reward"]};
-				{ 15, 87768, "", "=q4=Reins of the Onyx Cloud Serpent", "=ds=#e27#", "=q1=#m4#: #QUESTID:31277#"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Vendor"]};
-				{ 17, 84101, "", "=q4=Reins of the Grand Expedition Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=120,000 #gold#"};
-				{ 18, 87789, "", "=q4=Reins of the Blonde Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=3,000 #gold#"};
-				{ 19, 87788, "", "=q4=Reins of the Grey Riding Yak", "=q2="..AL["Uncle Bigpocket"]..", =q1="..AtlasLoot:GetMapNameByID(809), "=ds=3,000 #gold#"};
-				{ 21, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"]};
-				{ 22, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e26# =q2=#p12#"};
-				{ 23, 83088, "", "=q3=Jade Panther", "=ds=#e27# =q2=#p12#"};
-				{ 24, 83087, "", "=q3=Ruby Panther", "=ds=#e27# =q2=#p12#"};
-				{ 25, 83090, "", "=q3=Sapphire Panther", "=ds=#e27# =q2=#p12#"};
-				{ 26, 83089, "", "=q3=Sunstone Panther", "=ds=#e27# =q2=#p12#"};
-				{ 27, 87250, "", "=q3=Depleted-Kyparium Rocket", "=ds=#e27# =q2=#p5#"};
-				{ 28, 87251, "", "=q3=Geosynchronous World Spinner", "=ds=#e27# =q2=#p5#"};
-			};
-		};
-		info = {
-			name = AL["New Mounts"].." - "..AL["Mists of Pandaria"],
-			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
-		};
-	}
 	
-	AtlasLoot_Data["MountsNEW2"] = {
+--[[	AtlasLoot_Data["MountsNEW"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Operation: Shieldwall"], "=ec1=#m7#"};
@@ -9431,10 +9344,10 @@ local moduleName = "AtlasLootMoP"
 			};
 		};
 		info = {
-			name = AL["New Mounts"].." - Patch 5.1",
+			name = AL["New Mounts"].." - Patch 5.2",
 			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
 		};
-	}
+	}--]]
 
 		---------------
 		--- Tabards ---
