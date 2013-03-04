@@ -496,6 +496,7 @@ if AL then
 	AL["Weapon Enhancements"] = "武器附魔";
 	AL["Cataclysm Vendor Sold Plans"] = "浩劫與重生供應商販售設計圖";
 	AL["Mists of Pandaria Vendor Sold Plans"] = "潘達利亞之謎供應商販售設計圖";
+	AL["Training Projects"] = "訓練項目";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "盛宴/大餐";
@@ -566,6 +567,7 @@ if AL then
 	AL["No Longer Available"] = "已不存在.";
 	AL["Shared Boss Loot"] = "首領共享掉落";
 	AL["Shared Zone Loot"] = "區域共享掉落";
+	AL["Black Market Auction House"] = "黑市拍賣行";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "原始的魔獸世界";
@@ -666,17 +668,18 @@ if AL then
 	AL["Oil"] = "附魔油";
 	AL["Culture"] = "文化";
 	AL["Description"] = "描述";
-	AL["Dwarf"] = "矮人";
 	AL["Draenei"] = "德萊尼";
-	AL["Night Elf"] = "夜精靈";
+	AL["Dwarf"] = "矮人";
 	AL["Fossil"] = "化石";
+	AL["Mantid"] = "螳螂妖";
+	AL["Mogu"] = "魔古";
 	AL["Nerubian"] = "奈幽";
-	AL["Vrykul"] = "維酷";
-	AL["Troll"] = "食人妖";
-	AL["Tol'vir"] = "托維爾";
+	AL["Night Elf"] = "夜精靈";
 	AL["Orc"] = "獸人";
 	AL["Pandaren"] = "熊貓人";
-	AL["Mogu"] = "魔古";
+	AL["Tol'vir"] = "托維爾";
+	AL["Troll"] = "食人妖";
+	AL["Vrykul"] = "維酷";
 	AL["Stats"] = "屬性";
 	AL["Resilience"] = "韌性";
 	AL["Professions"] = "專業技能";

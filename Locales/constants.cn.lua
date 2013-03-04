@@ -496,6 +496,7 @@ if AL then
 	AL["Weapon Enhancements"] = "武器强化";
 	AL["Cataclysm Vendor Sold Plans"] = "大地的裂变商人出售图纸";
 	AL["Mists of Pandaria Vendor Sold Plans"] = "熊猫人之谜商人出售图纸";
+	AL["Training Projects"] = "训练项目";
 
 	-- Cooking
 	AL["Banquets/Feasts"] = "盛宴/大餐";
@@ -566,6 +567,7 @@ if AL then
 	AL["No Longer Available"] = "已绝版";
 	AL["Shared Boss Loot"] = "首领共享掉落";
 	AL["Shared Zone Loot"] = "区域共享掉落";
+	AL["Black Market Auction House"] = "黑市拍卖行";
 
 	-- Minor Labels for loot table descriptions
 	AL["Classic WoW"] = "经典旧世";
@@ -620,7 +622,7 @@ if AL then
 	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
 	AL["Elite"] = "精锐";
 	AL["Vegetables"] = "蔬菜";
-	AL["Thunderforged"] = "Thunderforged";
+	AL["Thunderforged"] = "雷霆";
 
 	-- Loot Table Names
 	AL["Level %s"] = "等级%s"; -- usage: string.format(AL["Level %s"], "85-89")
@@ -666,17 +668,18 @@ if AL then
 	AL["Oil"] = "附魔油";
 	AL["Culture"] = "文化";
 	AL["Description"] = "描述";
-	AL["Dwarf"] = "矮人";
 	AL["Draenei"] = "德莱尼";
-	AL["Night Elf"] = "暗夜精灵";
+	AL["Dwarf"] = "矮人";
 	AL["Fossil"] = "化石";
+	AL["Mantid"] = "螳螂妖";
+	AL["Mogu"] = "魔古族";
 	AL["Nerubian"] = "蛛魔";
-	AL["Vrykul"] = "维库人";
-	AL["Troll"] = "巨魔";
-	AL["Tol'vir"] = "托维尔";
+	AL["Night Elf"] = "暗夜精灵";
 	AL["Orc"] = "兽人";
 	AL["Pandaren"] = "熊猫人";
-	AL["Mogu"] = "魔古族";
+	AL["Tol'vir"] = "托维尔";
+	AL["Troll"] = "巨魔";
+	AL["Vrykul"] = "维库人";
 	AL["Stats"] = "属性";
 	AL["Resilience"] = "韧性";
 	AL["Professions"] = "专业技能";
