@@ -681,7 +681,6 @@ do
 							else
 								if type(v[2]) == "number" then
 									icon = select(3, GetCurrencyInfo(v[2]))
-									icon = "Interface\\Icons\\"..icon
 								else
 									icon = GetItemIcon(CURRENCY_PRICE[v[2]].itemID)
 								end
@@ -768,13 +767,11 @@ do
 			local icon
 			--if type(isPrice[2]) == "number" then
 			--	icon = select(3, GetCurrencyInfo(isPrice[2]))
-			--	icon = "Interface\\Icons\\"..icon
 			--else
 			--	icon = GetItemIcon(CURRENCY_PRICE[isPrice[2]].itemID)
 			--end
 			if type(priceTab[1][2]) == "number" then
 				icon = select(3, GetCurrencyInfo(priceTab[1][2]))
-				icon = "Interface\\Icons\\"..icon
 			else
 				icon = GetItemIcon(CURRENCY_PRICE[priceTab[1][2]].itemID)
 			end
