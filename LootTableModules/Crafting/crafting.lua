@@ -5587,16 +5587,16 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, "s122682", "83142", "=q4=Quick Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
 				{ 9, "s122680", "83146", "=q4=Smooth Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
 				{ 10, "s122679", "83145", "=q4=Subtle Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 12, 76734, "", "=q3=Serpent's Eye", "=ds=#e8#", "#SPIRITOFHARMONY:1#"..AL["Vendor"] };
 				{ 16, "s122681", "83144", "=q4=Rigid Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
 				{ 17, "s122678", "83148", "=q4=Solid Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
 				{ 18, "s122677", "83149", "=q4=Sparkling Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
-				--{ 20, "s136274", "93409", "=q4=Assassin's Serpent's Eye", "=ds=#sr# 575", "=ds="..AL["Trainer"] }; --seems like this does not go live
-				--{ 21, "s136270", "93405", "=q4=Lucent Serpent's Eye", "=ds=#sr# 575", "=ds="..AL["Trainer"] }; --seems like this does not go live
-				--{ 22, "s136275", "93410", "=q4=Mysterious Serpent's Eye", "=ds=#sr# 575", "=ds="..AL["Trainer"] }; --seems like this does not go live
-				--{ 23, "s136269", "93404", "=q4=Resplendent Serpent's Eye", "=ds=#sr# 575", "=ds="..AL["Trainer"] }; --seems like this does not go live
-				--{ 24, "s136273", "93408", "=q4=Tense Serpent's Eye", "=ds=#sr# 575", "=ds="..AL["Trainer"] }; --seems like this does not go live
-				--{ 25, "s136272", "93406", "=q4=Willful Serpent's Eye", "=ds=#sr# 575", "=ds="..AL["Trainer"] }; --seems like this does not go live
-				{ 20, 76734, "", "=q3=Serpent's Eye", "=ds=#e8#", "#SPIRITOFHARMONY:1#"..AL["Vendor"] };
+				{ 20, "s136274", "93409", "=q4=Assassin's Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 21, "s136270", "93405", "=q4=Lucent Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 22, "s136275", "93410", "=q4=Mysterious Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 23, "s136269", "93404", "=q4=Resplendent Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 24, "s136273", "93408", "=q4=Tense Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
+				{ 25, "s136272", "93406", "=q4=Willful Serpent's Eye", "=ds=#sr# 550", "=ds="..AL["Trainer"] };
 			};
 		};
 		info = {
