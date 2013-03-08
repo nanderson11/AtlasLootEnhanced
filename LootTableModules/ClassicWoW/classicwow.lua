@@ -7087,14 +7087,14 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["ThoriumBrotherhood"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r2#", ""};
+				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r2#", "=q5="..BabbleZone["Blackrock Depths"]};
 				{ 2, 17051, "", "=q3=Plans: Dark Iron Bracers", "=ds=#p2# (295)"};
 				{ 3, 20761, "", "=q1=Recipe: Transmute Elemental Fire", "=ds=#p1# (300)"};
 				{ 4, 19444, "", "=q1=Formula: Enchant Weapon - Strength", "=ds=#p4# (290)"};
 				{ 5, 17023, "", "=q1=Pattern: Molten Helm", "=ds=#p7# (300)"};
 				{ 6, 17022, "", "=q1=Pattern: Corehound Boots", "=ds=#p7# (295)"};
 				{ 7, 17018, "", "=q1=Pattern: Flarecore Gloves", "=ds=#p8# (300)"};
-				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r3#", ""};
+				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r3#", "=q5="..BabbleZone["Blackrock Depths"]};
 				{ 17, 17060, "", "=q3=Plans: Dark Iron Destroyer", "=ds=#p2# (300)"};
 				{ 18, 17059, "", "=q3=Plans: Dark Iron Reaver", "=ds=#p2# (300)"};
 				{ 19, 17049, "", "=q3=Plans: Fiery Chain Girdle", "=ds=#p2# (295)"};
@@ -7106,7 +7106,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 25, 19219, "", "=q1=Pattern: Flarecore Robe", "=ds=#p8# (300)"};
 			};
 			{
-				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r4#", ""};
+				{ 1, 0, "INV_Ingot_Mithril", "=q6=#r4#", "=q5="..BabbleZone["Blackrock Depths"]};
 				{ 2, 18592, "", "=q4=Plans: Sulfuron Hammer", "=ds=#p2# (300), #m4#"};
 				{ 3, 17052, "", "=q3=Plans: Dark Iron Leggings", "=ds=#p2# (300)"};
 				{ 4, 17053, "", "=q3=Plans: Fiery Chain Shoulders", "=ds=#p2# (300)"};
@@ -7118,7 +7118,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 10, 19332, "", "=q1=Pattern: Corehound Belt", "=ds=#p7# (300)"};
 				{ 11, 19333, "", "=q1=Pattern: Molten Belt", "=ds=#p7# (300)"};
 				{ 12, 19220, "", "=q1=Pattern: Flarecore Leggings", "=ds=#p8# (300)"};
-				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r5#", ""};
+				{ 16, 0, "INV_Ingot_Mithril", "=q6=#r5#", "=q5="..BabbleZone["Blackrock Depths"]};
 				{ 17, 19211, "", "=q1=Plans: Blackguard", "=ds=#p2# (300)"};
 				{ 18, 20040, "", "=q1=Plans: Dark Iron Boots", "=ds=#p2# (300)"};
 				{ 19, 19210, "", "=q1=Plans: Ebon Hand", "=ds=#p2# (300)"};

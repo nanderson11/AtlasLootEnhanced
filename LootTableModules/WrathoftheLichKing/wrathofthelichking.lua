@@ -7452,9 +7452,9 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 2, 43462, "", "=q1=Airy Pale Ale", "=ds=#e18#", "#RELICULDUAR:10#"};
-				{ 3, 43473, "", "=q1=Drakefire Chile Ale", "=ds=#e18#", "#RELICULDUAR:2#"};
+				{ 3, 43473, "", "=q1=Drakefire Chile Ale", "=ds=#e18#", "#RELICULDUAR:2#", amount = 2};
 				{ 4, 43499, "", "=q1=Iron Boot Flask", "=ds=#e25#", "#RELICULDUAR:10#"};
-				{ 5, 43472, "", "=q1=Snowfall Lager", "=ds=#e18#", "#RELICULDUAR:2#"};
+				{ 5, 43472, "", "=q1=Snowfall Lager", "=ds=#e18#", "#RELICULDUAR:2#", amount = 2};
 				{ 6, 43470, "", "=q1=Worg Tooth Oatmeal Stout", "=ds=#e18#", "#RELICULDUAR:10#"};
 			};
 		};
@@ -7474,7 +7474,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 1, 0, "INV_Misc_Rune_14", "=q6=#r2#", ""};
 				{ 2, 41561, "", "=q2=Design: Reckless Huge Citrine", "=ds=#p12# 350"};
 				{ 3, 44064, "", "=q1=Nepeta Leaf", "=ds="};
-				{ 4, 44072, "", "=q1=Roasted Mystery Beast", "=ds=#e3#"};
+				{ 4, 44072, "", "=q1=Roasted Mystery Beast", "=ds=#e3#", amount = 5};
 				{ 6, 0, "INV_Misc_Rune_14", "=q6=#r4#", ""};
 				{ 7, 44116, "", "=q3=Muddied Crimson Gloves", "=ds=#s9#, #a1#"};
 				{ 8, 44117, "", "=q3=Azure Strappy Pants", "=ds=#s11#, #a2#"};
@@ -7516,7 +7516,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 8, 38456, "", "=q3=Sin'dorei Recurve Bow", "=ds=#w2#"};
 				{ 9, 38460, "", "=q3=Charged Wand of the Cleft", "=ds=#w12#"};
 				{ 17, 0, "INV_Shield_50", "=q6=#r5#", ""};
-				{ 18, 44502, "", "=q4=Schematic: Mechano-hog", "=ds=#p5# (450)"};
+				{ 18, 44502, "", "=q4=Schematic: Mechano-Hog", "=ds=#p5# (450)"};
 				{ 19, 44938, "", "=q3=Plans: Titanium Plating", "=ds=#p2# (450)"};
 			};
 		};
@@ -7662,7 +7662,7 @@ local moduleName = "AtlasLootWotLK"
 			{
 				{ 1, 0, "INV_Fishingpole_03", "=q6=#r2#", ""};
 				{ 2, 41568, "", "=q2=Design: Purified Shadow Crystal", "=ds=#p12# (350)"};
-				{ 3, 44049, "", "=q1=Freshly-Speared Emperor Salmon", "=ds=#e3#"};
+				{ 3, 44049, "", "=q1=Freshly-Speared Emperor Salmon", "=ds=#e3#", amount = 5};
 				{ 5, 0, "INV_Fishingpole_03", "=q6=#r3#", ""};
 				{ 6, 44061, "", "=q3=Pigment-Stained Robes", "=ds=#s5#, #a1#"};
 				{ 7, 44062, "", "=q3=Turtle-Minders Robe", "=ds=#s5#, #a1#"};
@@ -7711,7 +7711,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 13, 41724, "", "=q3=Design: Misty Forest Emerald", "=ds=#p12# (390)"};
 				{ 14, 39878, "", "=q1=Mysterious Egg", "=ds="};
 				{ 16, 0, "INV_Helmet_138", "=q6=#r3#", ""};
-				{ 17, 44071, "", "=q1=Slow-Roasted Eel", "=ds=#e3#"};
+				{ 17, 44071, "", "=q1=Slow-Roasted Eel", "=ds=#e3#", amount = 5};
 				{ 19, 0, "INV_Helmet_138", "=q6=#r5#", ""};
 				{ 20, 44074, "", "=q4=Oracle Talisman of Ablution", "=ds=#s14#"};
 				{ 22, 0, "INV_Egg_02", "=q6="..AtlasLoot_IngameLocales["Cracked Egg"], ""};

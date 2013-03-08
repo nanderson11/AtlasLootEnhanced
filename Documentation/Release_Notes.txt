@@ -6,7 +6,9 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 Patch Notes
 v7.05.01 (Mar 12, 2013)
-Missing Season 13 items.
+Added various missing 5.2 stuff.
+Added missing Season 13 items.
+Minor fixes, additions and translations.
 
 v7.05.00 (Mar 05, 2013)
 Compatible with Patch 5.2.

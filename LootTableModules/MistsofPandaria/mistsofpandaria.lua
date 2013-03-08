@@ -4582,10 +4582,10 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 92941, "", "=q1=Potion of Brawler's Might", "=ds=#e2#", "70 #silver#" },
 				{ 4, 92942, "", "=q1=Potion of Brawler's Cunning", "=ds=#e2#", "70 #silver#" },
 				{ 5, 92943, "", "=q1=Potion of Brawler's Deftness", "=ds=#e2#", "70 #silver#" },
-				{ 6, 93043, "", "=q1=Rotten Apple", "=ds=", "70 #silver#" },
-				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#" },
-				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#" },
-				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#" },
+				{ 6, 93043, "", "=q1=Rotten Apple", "=ds=", "70 #silver#", amount = 5  },
+				{ 7, 93044, "", "=q1=Rotten Banana", "=ds=", "70 #silver#", amount = 5  },
+				{ 8, 93045, "", "=q1=Rotten Watermelon", "=ds=", "70 #silver#", amount = 5 },
+				{ 9, 93158, "", "=q1=Expired Blackout Brew", "=ds=", "70 #silver#", amount = 5  },
 				{ 16, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["Rank 4"], ""};
 				{ 17, 93025, "", "=q1=Clock'em", "=ds=#e13#", "21 #silver#" },
 				{ 19, 0, "achievement_faction_celestials", "=q6="..BabbleFaction["Rank 8"], ""};
@@ -4715,7 +4715,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
-				{ 2, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#", "=ds=3000 #gold#"};
+				{ 2, 95564, "", "=q4=Reins of the Golden Primal Direhorn", "=ds=#e26#", "=ds=3000 #gold#"};
 				{ 3, 97191, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
 				{ 4, 97189, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
 				{ 5, 97187, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
@@ -5029,7 +5029,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
-				{ 2, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#", "=ds=3000 #gold#"};
+				{ 2, 95565, "", "=q4=Reins of the Crimson Primal Direhorn", "=ds=#e26#", "=ds=3000 #gold#"};
 				{ 3, 97196, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
 				{ 4, 97194, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
 				{ 5, 97192, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
