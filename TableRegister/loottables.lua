@@ -341,11 +341,11 @@ AtlasLoot_LootTableRegister = {
 
 		["ThroneOfTheTides"] = {
 			["Bosses"] = {
-				{ "ToTNazjar", 5, EncounterJournalID = 101 },
-				{ "ToTUlthok",  6, EncounterJournalID = 102 },
-				{ "ToTMindbender", 7, EncounterJournalID = 103 },
-				{ "ToTOzumat", 8, EncounterJournalID = 104 },
-				{ "ToTTrash", 12 },
+				{ "TotTNazjar", 5, EncounterJournalID = 101 },
+				{ "TotTUlthok",  6, EncounterJournalID = 102 },
+				{ "TotTMindbender", 7, EncounterJournalID = 103 },
+				{ "TotTOzumat", 8, EncounterJournalID = 104 },
+				{ "TotTTrash", 12 },
 			},
 			["Info"] = { BabbleZone["Throne of the Tides"], "AtlasLootCataclysm", mapname = "ThroneOfTheTides", EncounterJournalID = 65 },
 		},

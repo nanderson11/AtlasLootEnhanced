@@ -1362,7 +1362,7 @@ local moduleName = "AtlasLootCataclysm"
 		--- Throne of the Tides ---
 		---------------------------
 
-	AtlasLoot_Data["ToTNazjar"] = {
+	AtlasLoot_Data["TotTNazjar"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
@@ -1385,7 +1385,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ToTUlthok"] = {
+	AtlasLoot_Data["TotTUlthok"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
@@ -1408,7 +1408,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ToTMindbender"] = {
+	AtlasLoot_Data["TotTMindbender"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
@@ -1429,7 +1429,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ToTOzumat"] = {
+	AtlasLoot_Data["TotTOzumat"] = {
 		["Normal"] = {
 			{
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
@@ -1462,7 +1462,7 @@ local moduleName = "AtlasLootCataclysm"
 		};
 	};
 
-	AtlasLoot_Data["ToTTrash"] = {
+	AtlasLoot_Data["TotTTrash"] = {
 		["Normal"] = {
 			{
 				{ 2, 55260, "", "=q3=Alpheus Legguards", "=ds=#s11#, #a4#", ""};
