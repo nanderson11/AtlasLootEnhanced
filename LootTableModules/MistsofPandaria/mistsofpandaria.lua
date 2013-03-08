@@ -4689,18 +4689,18 @@ local moduleName = "AtlasLootMoP"
 				{ 2, 80433, "", "=q3=Blood Spirit", "=ds=#e8#", "#VALOR:400#"};
 				{ 3, 95489, "", "=q3=Kirin Tor Offensive Insignia", "=ds=", "#HISTORICALPARCHMENTS:1#"};
 				{ 4, 95490, "", "=q3=Greater Kirin Tor Offensive Insignia", "=ds=", "#HISTORICALPARCHMENTS:10#"};
-				{ 5, 95567, "", "=q1=Kirin Tor Beacon", "=ds="};
+				{ 5, 95567, "", "=q1=Kirin Tor Beacon", "=ds=", "=ds=25 #gold#"};
 				{ 6, 95054, "", "=q1=Potion of Light Steps", "=ds=", "#ELDERCHARM:1#"};
 				{ 8, 0, "achievement_reputation_kirintor_offensive", "=q6=#r3#", ""};
-				{ 9, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
-				{ 10, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
-				{ 11, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
-				{ 12, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
-				{ 13, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
-				{ 14, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
-				{ 15, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
-				{ 16, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
-				{ 17, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 9, 95532, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#", "=ds=300 #gold#"};
+				{ 10, 95527, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#", "=ds=300 #gold#"};
+				{ 11, 95526, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#", "=ds=300 #gold#"};
+				{ 12, 95530, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#", "=ds=300 #gold#"};
+				{ 13, 95528, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#", "=ds=300 #gold#"};
+				{ 14, 95531, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#", "=ds=300 #gold#"};
+				{ 15, 95534, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#", "=ds=300 #gold#"};
+				{ 16, 95529, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#", "=ds=300 #gold#"};
+				{ 17, 95533, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#", "=ds=300 #gold#"};
 				{ 18, 95053, "", "=q1=A Common Rock", "=ds=", "#ELDERCHARM:1#"};
 				{ 19, 95093, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
 				{ 21, 0, "achievement_reputation_kirintor_offensive", "=q6=#r4#", ""};
@@ -4715,7 +4715,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "achievement_reputation_kirintor_offensive", "=q6=#r5#", ""};
-				{ 2, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#"};
+				{ 2, 95564, "", "=q4=Reins of the Primal Golden Direhorn", "=ds=#e26#", "=ds=3000 #gold#"};
 				{ 3, 97191, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
 				{ 4, 97189, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
 				{ 5, 97187, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
@@ -4952,39 +4952,38 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "achievement_faction_shadopan", "=q6=#r4#", ""};
-				{ 2, 95559, "", "=q7=Grand Commendation of the Shado-Pan Assault", "=ds=", "=ds=45 #gold#"};
-				{ 3, 95081, "", "=q4=Fire Support Robes", "=ds=#s5#, #a1#", "#VALOR:2250#" },
-				{ 4, 95082, "", "=q4=Robes of Misty Bindings", "=ds=#s5#, #a1#", "#VALOR:2250#" },
-				{ 5, 95078, "", "=q4=Raiment of Silent Stars", "=ds=#s5#, #a2#", "#VALOR:2250#" },
-				{ 6, 95077, "", "=q4=Roofstalker Shadowwrap", "=ds=#s5#, #a2#", "#VALOR:2250#" },
-				{ 7, 95079, "", "=q4=Carapace of Segmented Scale", "=ds=#s5#, #a3#", "#VALOR:2250#" },
-				{ 8, 95080, "", "=q4=Skinsealer Tunic", "=ds=#s5#, #a3#", "#VALOR:2250#" },
-				{ 9, 95076, "", "=q4=Breastplate of Brutal Strikes", "=ds=#s5#, #a4#", "#VALOR:2250#" },
-				{ 10, 95075, "", "=q4=Gianttooth Chestplate", "=ds=#s5#, #a4#", "#VALOR:2250#" },
-				{ 11, 95074, "", "=q4=Hauberk of Gleaming Fire", "=ds=#s5#, #a4#", "#VALOR:2250#" },
-				{ 12, 95090, "", "=q4=Firestrike Cord", "=ds=#s10#, #a1#", "#VALOR:1750#" },
-				{ 13, 95091, "", "=q4=Girdle of Glowing Light", "=ds=#s10#, #a1#", "#VALOR:1750#" },
-				{ 14, 95088, "", "=q4=Darkfang Belt", "=ds=#s10#, #a2#", "#VALOR:1750#" },
-				{ 15, 95089, "", "=q4=Martiean's Splitleaf Girdle", "=ds=#s10#, #a2#", "#VALOR:1750#" },
-				{ 17, 95087, "", "=q4=Cracklebite Links", "=ds=#s10#, #a3#", "#VALOR:1750#" },
-				{ 18, 95086, "", "=q4=Nightflight Chain", "=ds=#s10#, #a3#", "#VALOR:1750#" },
-				{ 19, 95084, "", "=q4=Reinforced Spiritplate Girdle", "=ds=#s10#, #a4#", "#VALOR:1750#" },
-				{ 20, 95083, "", "=q4=Swordhook Slingbelt", "=ds=#s10#, #a4#", "#VALOR:1750#" },
-				{ 21, 95085, "", "=q4=Waistplate of Channeled Mending", "=ds=#s10#, #a4#", "#VALOR:1750#" },
+				{ 2, 95081, "", "=q4=Fire Support Robes", "=ds=#s5#, #a1#", "#VALOR:2250#" },
+				{ 3, 95082, "", "=q4=Robes of Misty Bindings", "=ds=#s5#, #a1#", "#VALOR:2250#" },
+				{ 4, 95078, "", "=q4=Raiment of Silent Stars", "=ds=#s5#, #a2#", "#VALOR:2250#" },
+				{ 5, 95077, "", "=q4=Roofstalker Shadowwrap", "=ds=#s5#, #a2#", "#VALOR:2250#" },
+				{ 6, 95079, "", "=q4=Carapace of Segmented Scale", "=ds=#s5#, #a3#", "#VALOR:2250#" },
+				{ 7, 95080, "", "=q4=Skinsealer Tunic", "=ds=#s5#, #a3#", "#VALOR:2250#" },
+				{ 8, 95076, "", "=q4=Breastplate of Brutal Strikes", "=ds=#s5#, #a4#", "#VALOR:2250#" },
+				{ 9, 95075, "", "=q4=Gianttooth Chestplate", "=ds=#s5#, #a4#", "#VALOR:2250#" },
+				{ 10, 95074, "", "=q4=Hauberk of Gleaming Fire", "=ds=#s5#, #a4#", "#VALOR:2250#" },
+				{ 17, 95090, "", "=q4=Firestrike Cord", "=ds=#s10#, #a1#", "#VALOR:1750#" },
+				{ 18, 95091, "", "=q4=Girdle of Glowing Light", "=ds=#s10#, #a1#", "#VALOR:1750#" },
+				{ 19, 95088, "", "=q4=Darkfang Belt", "=ds=#s10#, #a2#", "#VALOR:1750#" },
+				{ 20, 95089, "", "=q4=Martiean's Splitleaf Girdle", "=ds=#s10#, #a2#", "#VALOR:1750#" },
+				{ 21, 95087, "", "=q4=Cracklebite Links", "=ds=#s10#, #a3#", "#VALOR:1750#" },
+				{ 22, 95086, "", "=q4=Nightflight Chain", "=ds=#s10#, #a3#", "#VALOR:1750#" },
+				{ 23, 95084, "", "=q4=Reinforced Spiritplate Girdle", "=ds=#s10#, #a4#", "#VALOR:1750#" },
+				{ 24, 95083, "", "=q4=Swordhook Slingbelt", "=ds=#s10#, #a4#", "#VALOR:1750#" },
+				{ 25, 95085, "", "=q4=Waistplate of Channeled Mending", "=ds=#s10#, #a4#", "#VALOR:1750#" },
 			};
 			{
 				{ 1, 0, "achievement_faction_shadopan", "=q6=#r5#", ""};
-				{ 2, 95102, "", "=q4=Frost-Kissed Shoulderwraps", "=ds=#s3#, #a1#", "#VALOR:1750#" },
-				{ 3, 95101, "", "=q4=Halo-Graced Mantle", "=ds=#s3#, #a1#", "#VALOR:1750#" },
-				{ 4, 95096, "", "=q4=Shoulders of Demonic Dreams", "=ds=#s3#, #a1#", "#VALOR:1750#" },
-				{ 5, 95097, "", "=q4=Heartroot Shoulderguards", "=ds=#s3#, #a2#", "#VALOR:1750#" },
-				{ 6, 95100, "", "=q4=Wallwalker Spaulders", "=ds=#s3#, #a2#", "#VALOR:1750#" },
-				{ 7, 95099, "", "=q4=Lightning Strike Mantle", "=ds=#s3#, #a3#", "#VALOR:1750#" },
-				{ 8, 95095, "", "=q4=Targetblinder Spaulders", "=ds=#s3#, #a3#", "#VALOR:1750#" },
-				{ 9, 95104, "", "=q4=Shoulderguards of Potentiation", "=ds=#s3#, #a4#", "#VALOR:1750#" },
-				{ 10, 95098, "", "=q4=Sightblinder Shoulderguards", "=ds=#s3#, #a4#", "#VALOR:1750#" },
-				{ 11, 95103, "", "=q4=Sparksmasher Pauldrons", "=ds=#s3#, #a4#", "#VALOR:1750#" },
-				{ 12, 97131, "", "=q3=Shado-Pan Assault Tabard", "=ds=#s7#", "=ds=10 #gold#"};
+				{ 2, 95102, "", "=q4=Frost-Kissed Shoulderwraps", "=ds=#s3#, #a1#", "=ds=1000 #gold#" },
+				{ 3, 95101, "", "=q4=Halo-Graced Mantle", "=ds=#s3#, #a1#", "=ds=1000 #gold#" },
+				{ 4, 95096, "", "=q4=Shoulders of Demonic Dreams", "=ds=#s3#, #a1#", "=ds=1000 #gold#" },
+				{ 5, 95097, "", "=q4=Heartroot Shoulderguards", "=ds=#s3#, #a2#", "=ds=1000 #gold#" },
+				{ 6, 95100, "", "=q4=Wallwalker Spaulders", "=ds=#s3#, #a2#", "=ds=1000 #gold#" },
+				{ 7, 95099, "", "=q4=Lightning Strike Mantle", "=ds=#s3#, #a3#", "=ds=1000 #gold#" },
+				{ 8, 95095, "", "=q4=Targetblinder Spaulders", "=ds=#s3#, #a3#", "=ds=1000 #gold#" },
+				{ 9, 95104, "", "=q4=Shoulderguards of Potentiation", "=ds=#s3#, #a4#", "=ds=1000 #gold#" },
+				{ 10, 95098, "", "=q4=Sightblinder Shoulderguards", "=ds=#s3#, #a4#", "=ds=1000 #gold#" },
+				{ 11, 95103, "", "=q4=Sparksmasher Pauldrons", "=ds=#s3#, #a4#", "=ds=1000 #gold#" },
+				{ 12, 97131, "", "=q3=Shado-Pan Assault Tabard", "=ds=#s7#", "=ds=10 #gold#" };
 			};
 		};
 		info = {
@@ -5005,17 +5004,17 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 95487, "", "=q3=Sunreaver Onslaught Insignia", "=ds=", "#HISTORICALPARCHMENTS:1#"};
 				{ 4, 95488, "", "=q3=Greater Sunreaver Onslaught Insignia", "=ds=", "#HISTORICALPARCHMENTS:10#"};
 				{ 5, 97157, "", "=q1=Potion of Light Steps", "=ds=", "#ELDERCHARM:1#"};
-				{ 6, 95568, "", "=q1=Sunreaver Beacon", "=ds="};
+				{ 6, 95568, "", "=q1=Sunreaver Beacon", "=ds=", "=ds=25 #gold#"};
 				{ 8, 0, "achievement_faction_sunreaveronslaught", "=q6=#r3#", ""};
-				{ 9, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#"};
-				{ 10, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#"};
-				{ 11, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#"};
-				{ 12, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#"};
-				{ 13, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#"};
-				{ 14, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#"};
-				{ 15, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#"};
-				{ 16, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#"};
-				{ 17, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#"};
+				{ 9, 95523, "", "=q4=Belt of Loa Charms", "=ds=#s10#, #a1#", "=ds=300 #gold#"};
+				{ 10, 95518, "", "=q4=Pain-Binder Girdle", "=ds=#s10#, #a1#", "=ds=300 #gold#"};
+				{ 11, 95517, "", "=q4=Shan'ze Scholar's Girdle", "=ds=#s10#, #a1#", "=ds=300 #gold#"};
+				{ 12, 95521, "", "=q4=Cinch of the Dead Forest's Vigil", "=ds=#s10#, #a2#", "=ds=300 #gold#"};
+				{ 13, 95519, "", "=q4=Skumblade-Tooth Girdle", "=ds=#s10#, #a2#", "=ds=300 #gold#"};
+				{ 14, 95522, "", "=q4=Rotting Bog Cinch", "=ds=#s10#, #a3#", "=ds=300 #gold#"};
+				{ 15, 95525, "", "=q4=Skumblade Ritualist Links", "=ds=#s10#, #a3#", "=ds=300 #gold#"};
+				{ 16, 95520, "", "=q4=Girdle of Shan'ze Glory", "=ds=#s10#, #a4#", "=ds=300 #gold#"};
+				{ 17, 95524, "", "=q4=Thunder Caressed Waistguard", "=ds=#s10#, #a4#", "=ds=300 #gold#"};
 				{ 18, 97158, "", "=q1=A Common Rock", "=ds=", "#ELDERCHARM:1#"};
 				{ 19, 97154, "", "=q1=Sleep Dust", "=ds=", "#ELDERCHARM:1#"};
 				{ 21, 0, "achievement_faction_sunreaveronslaught", "=q6=#r4#", ""};
@@ -5030,7 +5029,7 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 0, "achievement_faction_sunreaveronslaught", "=q6=#r5#", ""};
-				{ 2, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#"};
+				{ 2, 95565, "", "=q4=Reins of the Primal Crimson Direhorn", "=ds=#e26#", "=ds=3000 #gold#"};
 				{ 3, 97196, "", "=q4=Ancient Overlord's Onyx Band", "=ds=#s13#", "#VALOR:937#"};
 				{ 4, 97194, "", "=q4=Ancient Primalist's Seal", "=ds=#s13#", "#VALOR:937#"};
 				{ 5, 97192, "", "=q4=Refurbished Band of Jin", "=ds=#s13#", "#VALOR:937#"};
