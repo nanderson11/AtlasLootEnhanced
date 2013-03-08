@@ -52,6 +52,7 @@ lib:SetBaseTranslations {
 	["Fixxul Lonelyheart"] = "Fixxul Lonelyheart",
 	Forgosh = "Forgosh",
 	["Frozen Trail Packer"] = "Frozen Trail Packer",
+	["G'nathus"] = "G'nathus",
 	Garr = "Garr",
 	["Gezzarak the Huntress"] = "Gezzarak the Huntress",
 	Ghostcrawler = "Ghostcrawler",
@@ -93,6 +94,7 @@ lib:SetBaseTranslations {
 	["Porfus the Gem Gorger"] = "Porfus the Gem Gorger",
 	Portent = "Portent",
 	Poseidus = "Poseidus",
+	["Ra'sha"] = "Ra'sha",
 	["Ravasaur Matriarch's Nest"] = "Ravasaur Matriarch's Nest",
 	["Razormaw Matriarch's Nest"] = "Razormaw Matriarch's Nest",
 	["Rockhide the Immovable"] = "Rockhide the Immovable",
@@ -122,6 +124,7 @@ lib:SetBaseTranslations {
 	["Wild Onyx Serpent"] = "Wild Onyx Serpent",
 	["Wrathbringer Laz-tarash"] = "Wrathbringer Laz-tarash",
 	Xariona = "Xariona",
+	["Zandalari Warbringer"] = "Zandalari Warbringer",
 	Zhing = "Zhing",
 }
 
@@ -164,6 +167,7 @@ elseif GAME_LOCALE == "deDE" then
 	["Fixxul Lonelyheart"] = "Heilet Schmachtherz",
 	Forgosh = "Forgosh",
 	["Frozen Trail Packer"] = "Eingefrorener Packer des Jutepfades",
+	["G'nathus"] = "G'nathus",
 	Garr = "Garr",
 	["Gezzarak the Huntress"] = "Gezzarak die Jägerin",
 	Ghostcrawler = "Geisterkrabbler",
@@ -205,6 +209,7 @@ elseif GAME_LOCALE == "deDE" then
 	["Porfus the Gem Gorger"] = "Porfus der Edelsteinschlinger",
 	Portent = "Portent",
 	Poseidus = "Poseidus",
+	["Ra'sha"] = "Ra'sha",
 	["Ravasaur Matriarch's Nest"] = "Nest der Ravasaurusmatriarchin",
 	["Razormaw Matriarch's Nest"] = "Nest der Scharfzahnmatriarchin",
 	["Rockhide the Immovable"] = "Felshaut der Unverrückbare",
@@ -234,6 +239,7 @@ elseif GAME_LOCALE == "deDE" then
 	["Wild Onyx Serpent"] = "Wilde Onyxschlange",
 	["Wrathbringer Laz-tarash"] = "Zornschaffer Laz-tarash",
 	Xariona = "Xariona",
+	["Zandalari Warbringer"] = "Kriegshetzer der Zandalari",
 	Zhing = "Zhing",
 }
 
