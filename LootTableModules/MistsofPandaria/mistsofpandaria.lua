@@ -2832,8 +2832,23 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 			{
+				{ 1, 96011, "", "=q4=Drape of Booming Nights", "=ds=#s4#" },
+				{ 2, 96008, "", "=q4=Fissure-Split Shoulderwraps", "=ds=#s3#, #a1#" },
+				{ 3, 96009, "", "=q4=Robes of Static Bursts", "=ds=#s5#, #a1#" },
+				{ 4, 96006, "", "=q4=Lightningweaver Gauntlets", "=ds=#s9#, #a1#" },
+				{ 5, 96007, "", "=q4=Al'set's Tormented Leggings", "=ds=#s11#, #a1#" },
+				{ 6, 95998, "", "=q4=Lightning-Eye Hood", "=ds=#s1#, #a2#" },
+				{ 7, 96014, "", "=q4=Infinitely Conducting Bracers", "=ds=#s8#, #a2#" },
+				{ 8, 96000, "", "=q4=Static-Shot Shoulderguards", "=ds=#s3#, #a3#" },
+				{ 9, 95999, "", "=q4=Spearman's Jingling Leggings", "=ds=#s11#, #a3#" },
+				{ 10, 96015, "", "=q4=Ghostbinder Greatboots", "=ds=#s12#, #a3#" },
+				{ 11, 96002, "", "=q4=Chestplate of Violent Detonation", "=ds=#s5#, #a4#" },
 				{ 12, 96016, "", "=q4=Ionized Yojamban Carapace", "=ds=#s5#, #a4#" },
+				{ 13, 96003, "", "=q4=Bracers of Constant Implosion", "=ds=#s8#, #a4#" },
+				{ 14, 96001, "", "=q4=Cloudbreaker Greatbelt", "=ds=#s10#, #a4#" },
 				{ 16, 96010, "", "=q4=Jin'rokh's Dreamshard", "=ds=#s13#" },
+				{ 17, 96005, "", "=q4=Jin'rokh's Soulcrystal", "=ds=#s13#" },
+				{ 18, 95996, "", "=q4=Sign of the Bloodied God", "=ds=#s13#" },
 				{ 19, 95997, "", "=q4=Renataki's Soul Charm", "=ds=#s14#" },
 				{ 21, 96012, "", "=q4=Soulblade of the Breaking Storm", "=ds=#h1#, #w10#" },
 				{ 22, 96004, "", "=q4=Worldbreaker's Stormscythe", "=ds=#h1#, #w1#" },
@@ -2921,7 +2936,8 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 94749, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 94740, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 94755, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 26, 93666, "", "=q4=Spawn of Horridon", "=ds=#e26#", ""};
+				{ 28, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 			{
 				{ 1, 96025, "", "=q4=Horn-Rimmed Doomcloak", "=ds=#s4#" },
@@ -2933,6 +2949,7 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 96033, "", "=q4=Roots of Rampaging Earth", "=ds=#s11#, #a2#" },
 				{ 8, 96021, "", "=q4=Sul'lithuz Sandmail", "=ds=#s5#, #a3#" },
 				{ 9, 96035, "", "=q4=Legguards of Scintillating Scales", "=ds=#s11#, #a3#" },
+				{ 10, 96024, "", "=q4=Puncture-Proof Greathelm", "=ds=#s1#, #a4#" },
 				{ 11, 96036, "", "=q4=Armplates of the Vanquished Abomination", "=ds=#s8#, #a4#" },
 				{ 12, 96022, "", "=q4=Frozen Warlord's Bracers", "=ds=#s8#, #a4#" },
 				{ 13, 96023, "", "=q4=Bloodlord's Bloodsoaked Legplates", "=ds=#s11#, #a4#" },
@@ -2970,7 +2987,8 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 96401, "", "=q4=Dinomancer's Spiritbinding Spire", "=ds=#w9#" },
 				{ 23, 96391, "", "=q4=Jalak's Maelstrom Staff", "=ds=#w9#" },
 				{ 24, 96404, "", "=q4=Venomlord's Totemic Wand", "=ds=#w12#" },
-				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 26, 93666, "", "=q4=Spawn of Horridon", "=ds=#e26#", ""};
+				{ 28, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3023,8 +3041,18 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 1, 96040, "", "=q4=Zandalari Robes of the Final Rite", "=ds=#s5#, #a1#" },
+				{ 2, 96039, "", "=q4=Mar'li's Bloodstained Sandals", "=ds=#s12#, #a1#" },
+				{ 3, 96043, "", "=q4=Robes of Treacherous Ground", "=ds=#s5#, #a2#" },
+				{ 4, 96044, "", "=q4=Gaze of Gara'jal", "=ds=#s1#, #a3#" },
 				{ 5, 96045, "", "=q4=Loa-Ridden Bracers", "=ds=#s8#, #a3#" },
+				{ 6, 96046, "", "=q4=Overloaded Bladebreaker Cuirass", "=ds=#s5#, #a4#" },
+				{ 8, 96048, "", "=q4=Talisman of Angry Spirits", "=ds=#s2#" },
+				{ 9, 96037, "", "=q4=Bad Juju", "=ds=#s14#" },
+				{ 10, 96049, "", "=q4=Fortitude of the Zandalari", "=ds=#s14#" },
+				{ 11, 96041, "", "=q4=Wushoolay's Final Choice", "=ds=#s14#" },
 				{ 20, 96047, "", "=q4=Zerat, Malakk's Soulburning Greatsword", "=ds=#h2#, #w10#" },
+				{ 21, 96042, "", "=q4=Amun-Thoth, Sul's Spiritrending Talons", "=ds=#h1#, #w13#" },
+				{ 22, 96038, "", "=q4=Kura-Kura, Kazra'jin's Skullcleaver", "=ds=#h1#, #w1#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
 		};
@@ -3106,8 +3134,24 @@ local moduleName = "AtlasLootMoP"
 				{ 24, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 			{
+				{ 1, 96059, "", "=q4=Beakbreaker Greatcloak", "=ds=#s4#" },
+				{ 2, 96063, "", "=q4=Shimmershell Cape", "=ds=#s4#" },
+				{ 3, 96061, "", "=q4=Stonegaze Hood", "=ds=#s1#, #a1#" },
+				{ 4, 96060, "", "=q4=Azure Shell Bracers", "=ds=#s8#, #a1#" },
+				{ 5, 96062, "", "=q4=Crystal-Claw Gloves", "=ds=#s9#, #a1#" },
+				{ 6, 96066, "", "=q4=Robes of Concussive Shocks", "=ds=#s5#, #a2#" },
+				{ 7, 96051, "", "=q4=Rockfall Ribwraps", "=ds=#s5#, #a2#" },
+				{ 8, 96065, "", "=q4=Vampire Bat-Hide Bracers", "=ds=#s8#, #a2#" },
 				{ 9, 96052, "", "=q4=Grips of Vampiric Cruelty", "=ds=#s9#, #a2#" },
+				{ 10, 96067, "", "=q4=Spaulders of Quaking Fear", "=ds=#s3#, #a3#" },
+				{ 11, 96053, "", "=q4=Beady-Eye Bracers", "=ds=#s8#, #a3#" },
+				{ 12, 96054, "", "=q4=Quakestompers", "=ds=#s12#, #a3#" },
+				{ 13, 96055, "", "=q4=Shoulderguards of Centripetal Destruction", "=ds=#s3#, #a4#" },
+				{ 14, 96056, "", "=q4=Shell-Coated Wristplates", "=ds=#s8#, #a4#" },
+				{ 16, 96068, "", "=q4=Refreshing Abalone Girdle", "=ds=#s10#, #a4#" },
+				{ 18, 96057, "", "=q4=Amulet of the Primal Turtle", "=ds=#s2#" },
 				{ 20, 96058, "", "=q4=Shellsplitter Greataxe", "=ds=#h1#, #w1#" },
+				{ 21, 96050, "", "=q4=Shattered Tortoiseshell Longbow", "=ds=#w2#" },
 				{ 22, 96064, "", "=q4=Tortos' Discarded Shell", "=ds=#w8#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
@@ -3192,13 +3236,21 @@ local moduleName = "AtlasLootMoP"
 				{ 26, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 			};
 			{
+				{ 1, 96079, "", "=q4=Gleaming-Eye Shoulderpads", "=ds=#s3#, #a1#" },
+				{ 2, 96080, "", "=q4=Frostborn Wristwraps", "=ds=#s8#, #a1#" },
 				{ 3, 96078, "", "=q4=Sandals of Arcane Fury", "=ds=#s12#, #a1#" },
+				{ 4, 96085, "", "=q4=Hood of Smoldering Flesh", "=ds=#s1#, #a2#" },
 				{ 5, 96072, "", "=q4=Poisonblood Bladeshoulders", "=ds=#s3#, #a2#" },
 				{ 6, 96087, "", "=q4=Chain of Consuming Magic", "=ds=#s5#, #a3#" },
+				{ 7, 96073, "", "=q4=Grips of Cinderflesh", "=ds=#s9#, #a3#" },
+				{ 8, 96086, "", "=q4=Links of the Bifurcated Tongue", "=ds=#s10#, #a3#" },
 				{ 9, 96075, "", "=q4=Rot-Proof Greatplate", "=ds=#s5#, #a4#" },
+				{ 11, 96088, "", "=q4=Ice-Scored Treads", "=ds=#s12#, #a4#" },
+				{ 17, 96081, "", "=q4=Megaera's Shining Eye", "=ds=#s2#" },
 				{ 18, 96071, "", "=q4=Quadra-Head Brooch", "=ds=#s2#" },
 				{ 19, 96076, "", "=q4=Spinescale Seal", "=ds=#s13#" },
 				{ 20, 96083, "", "=q4=Breath of the Hydra", "=ds=#s14#" },
+				{ 21, 96084, "", "=q4=Inscribed Bag of Hydra-Spawn", "=ds=#s14#" },
 				{ 23, 96070, "", "=q4=Megaera's Poisoned Fang", "=ds=#h1#, #w4#" },
 				{ 24, 96082, "", "=q4=Fetish of the Hydra", "=ds=#s15#" },
 				extraText = ": "..AL["Thunderforged"];
@@ -3264,13 +3316,28 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 94809, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
 				{ 7, 94810, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 94807, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
-				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 10, 95059, "", "=q4=Clutch of Ji-Kun", "=ds=#e27#", ""};
+				{ 11, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", ""};
+				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 95576, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 95581, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 95572, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
 				{ 20, 94515, "", "=q4=Fabled Feather of Ji-Kun", "=ds=#s14#" },
 				{ 21, 94527, "", "=q4=Ji-Kun's Rising Winds", "=ds=#s14#" },
 				{ 23, 94805, "", "=q4=Giorgio's Caduceus of Pure Moods", "=ds=#w9#" },
+			};
+			{
+				{ 1, 96089, "", "=q4=Pinionfeather Greatcloak", "=ds=#s4#" },
+				{ 2, 96091, "", "=q4=Robe of Midnight Down", "=ds=#s5#, #a1#" },
+				{ 3, 96090, "", "=q4=Cord of Cacophonous Cawing", "=ds=#s10#, #a1#" },
+				{ 4, 96093, "", "=q4=Featherflight Belt", "=ds=#s10#, #a2#" },
+				{ 5, 96094, "", "=q4=Grasp of the Ruthless Mother", "=ds=#s9#, #a3#" },
+				{ 6, 96095, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
+				{ 7, 96096, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
+				{ 20, 96098, "", "=q4=Fabled Feather of Ji-Kun", "=ds=#s14#" },
+				{ 21, 96099, "", "=q4=Ji-Kun's Rising Winds", "=ds=#s14#" },
+				{ 23, 96092, "", "=q4=Giorgio's Caduceus of Pure Moods", "=ds=#w9#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		["Heroic"] = {
@@ -3283,7 +3350,9 @@ local moduleName = "AtlasLootMoP"
 				{ 6, 96467, "", "=q4=Crown of Potentiated Birth", "=ds=#s1#, #a4#" },
 				{ 7, 96468, "", "=q4=Talonrender Chestplate", "=ds=#s5#, #a4#" },
 				{ 8, 96469, "", "=q4=Egg-Shard Grips", "=ds=#s9#, #a4#" },
-				{ 10, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 10, 95059, "", "=q4=Clutch of Ji-Kun", "=ds=#e27#", ""};
+				{ 11, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", ""};
+				{ 13, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
 				{ 16, 96632, "", "=q4=Leggings of the Crackling Conqueror", "=ds=#e15#, #m41#" },
 				{ 17, 96633, "", "=q4=Leggings of the Crackling Protector", "=ds=#e15#, #m41#" },
 				{ 18, 96631, "", "=q4=Leggings of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
@@ -3352,7 +3421,10 @@ local moduleName = "AtlasLootMoP"
 			};
 			{
 				{ 13, 96118, "", "=q4=Iceshatter Gauntlets", "=ds=#s9#, #a4#" },
+				{ 16, 96106, "", "=q4=Treads of the Blind Eye", "=ds=#s12#, #a4#" },
+				{ 18, 96114, "", "=q4=Durumu's Captive Eyeball", "=ds=#s13#" },
 				{ 21, 96115, "", "=q4=Ritual Dagger of the Mind's Eye", "=ds=#h1#, #w4#" },
+				{ 22, 96100, "", "=q4=Durumu's Baleful Gaze", "=ds=#w3#" },
 				extraText = ": "..AL["Thunderforged"];
 			};
 		};
@@ -3536,8 +3608,9 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 95569, "", "=q4=Chest of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
 				{ 20, 94955, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 94954, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
-				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
+				{ 25, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		["Heroic"] = {
@@ -3556,8 +3629,9 @@ local moduleName = "AtlasLootMoP"
 				{ 18, 96566, "", "=q4=Chest of the Crackling Vanquisher", "=ds=#e15#, #m41#" },
 				{ 20, 96518, "", "=q4=Athame of the Sanguine Ritual", "=ds=#h1#, #w4#" },
 				{ 21, 96514, "", "=q4=Hand of the Dark Animus", "=ds=#h1#, #w6#" },
-				{ 23, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
-				{ 24, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
+				{ 23, 94152, "", "=q3=Son of Animus", "=ds=#e13#", ""};
+				{ 25, 94593, "", "=q5=Secrets of the Empire", "=ds=#m3#" },
+				{ 26, 94594, "", "=q5=Titan Runestone", "=ds=#m3#" },
 			};
 		};
 		info = {
@@ -3889,6 +3963,7 @@ local moduleName = "AtlasLootMoP"
 				{ 3, 95204, "", "=q4=Necklace of the Terra-Cotta Mender", "=ds=#s2#" },
 				{ 4, 95206, "", "=q4=Necklace of the Terra-Cotta Protector", "=ds=#s2#" },
 				{ 5, 95205, "", "=q4=Necklace of the Terra-Cotta Vanquisher", "=ds=#s2#" },
+				{ 7, 94125, "", "=q3=Living Sandling", "=ds=#e13#" },
 				{ 16, 95498, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#" },
 				{ 17, 95507, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#" },
 				{ 18, 95502, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#" },
@@ -3901,6 +3976,51 @@ local moduleName = "AtlasLootMoP"
 				{ 25, 97126, "", "=q4=Tia-Tia, the Scything Star", "=ds=#h1#, #w13#" },
 				{ 26, 95504, "", "=q4=Zeeg's Ancient Kegsmasher", "=ds=#h1#, #w6#" },
 				{ 27, 95516, "", "=q4=Visage of the Doomed", "=ds=#w8#" },
+			};
+			{
+				{ 1, 96235, "", "=q4=Lost Shoulders of Fire", "=ds=#s3#, #a1#" },
+				{ 2, 96237, "", "=q4=Lost Shoulders of Fluidity", "=ds=#s3#, #a1#" },
+				{ 4, 96333, "", "=q4=Abandoned Zandalari Firecord", "=ds=#s10#, #a1#" },
+				{ 5, 96334, "", "=q4=Abandoned Zandalari Shadowgirdle", "=ds=#s10#, #a1#" },
+				{ 6, 96337, "", "=q4=Home-Warding Slippers", "=ds=#s12#, #a1#" },
+				{ 7, 96335, "", "=q4=Silentflame Sandals", "=ds=#s12#, #a1#" },
+				{ 9, 96241, "", "=q4=Forgotten Mantle of the Sun", "=ds=#s3#, #a2#" },
+				{ 10, 96343, "", "=q4=Abandoned Zandalari Moonstrap", "=ds=#s10#, #a2#" },
+				{ 11, 96342, "", "=q4=Abandoned Zandalari Silentbelt", "=ds=#s10#, #a2#" },
+				{ 12, 96338, "", "=q4=Deeproot Treads", "=ds=#s12#, #a2#" },
+				{ 13, 96331, "", "=q4=Spiderweb Tabi", "=ds=#s12#, #a2#" },
+				{ 15, 96243, "", "=q4=Abandoned Spaulders of Renewal", "=ds=#s3#, #a3#" },
+				{ 16, 96344, "", "=q4=Abandoned Zandalari Arrowlinks", "=ds=#s10#, #a3#" },
+				{ 18, 96332, "", "=q4=Scalehide Spurs", "=ds=#s12#, #a3#" },
+				{ 19, 96339, "", "=q4=Spiritbound Boots", "=ds=#s12#, #a3#" },
+				{ 20, 96246, "", "=q4=Reconstructed Bloody Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 21, 96245, "", "=q4=Reconstructed Furious Shoulderplates", "=ds=#s3#, #a4#" },
+				{ 24, 96347, "", "=q4=Abandoned Zandalari Goreplate", "=ds=#s10#, #a4#" },
+				{ 25, 96346, "", "=q4=Abandoned Zandalari Greatbelt", "=ds=#s10#, #a4#" },
+				{ 26, 96351, "", "=q4=Columnbreaker Stompers", "=ds=#s12#, #a4#" },
+				{ 27, 96350, "", "=q4=Locksmasher Greaves", "=ds=#s12#, #a4#" },
+				{ 28, 96340, "", "=q4=Vaultwalker Sabatons", "=ds=#s12#, #a4#" },
+				extraText = ": "..AL["Thunderforged"];
+			};
+			{
+				{ 1, 96330, "", "=q4=Necklace of the Terra-Cotta Archer", "=ds=#s2#" },
+				{ 2, 96336, "", "=q4=Necklace of the Terra-Cotta Invoker", "=ds=#s2#" },
+				{ 3, 96341, "", "=q4=Necklace of the Terra-Cotta Mender", "=ds=#s2#" },
+				{ 4, 96352, "", "=q4=Necklace of the Terra-Cotta Protector", "=ds=#s2#" },
+				{ 5, 96349, "", "=q4=Necklace of the Terra-Cotta Vanquisher", "=ds=#s2#" },
+				{ 16, 96249, "", "=q4=Bo-Ris, Horror in the Night", "=ds=#w7#" },
+				{ 17, 96234, "", "=q4=Darkwood Spiritstaff", "=ds=#w9#" },
+				{ 18, 96248, "", "=q4=Do-tharak, the Swordbreaker", "=ds=#h1#, #w10#" },
+				{ 19, 96232, "", "=q4=Fyn's Flickering Dagger", "=ds=#h1#, #w4#" },
+				{ 20, 96247, "", "=q4=Greatsword of Frozen Hells", "=ds=#h2#, #w10#" },
+				{ 21, 96230, "", "=q4=Invocation of the Dawn", "=ds=#h2#, #w6#" },
+				{ 22, 96239, "", "=q4=Jerthud, Graceful Hand of the Savior", "=ds=#h1#, #w6#" },
+				{ 23, 96231, "", "=q4=Miracoran, the Vehement Chord", "=ds=#w2#" },
+				{ 24, 96238, "", "=q4=Nadagast's Exsanguinator", "=ds=#h1#, #w4#" },
+				{ 25, 97128, "", "=q4=Tia-Tia, the Scything Star", "=ds=#h1#, #w13#" },
+				{ 26, 96233, "", "=q4=Zeeg's Ancient Kegsmasher", "=ds=#h1#, #w6#" },
+				{ 27, 96250, "", "=q4=Visage of the Doomed", "=ds=#w8#" },
+				extraText = ": "..AL["Thunderforged"];
 			};
 		};
 		info = {
@@ -8213,7 +8333,6 @@ local moduleName = "AtlasLootMoP"
 				{ 22, 11826, "", "=q1=Lil' Smoky", "=ds=#e13#"};
 				{ 23, 4401, "", "=q1=Mechanical Squirrel Box", "=ds=#e13#"};
 				{ 24, 11825, "", "=q1=Pet Bombling", "=ds=#e13#"};
-				--{ 25, 94903, "", "=q1=Pierre", "=ds=#e13#"}; --seems like this does not go live
 				{ 25, 21277, "", "=q1=Tranquil Mechanical Yeti", "=ds=#e13#"};
 			};
 			{
@@ -8366,16 +8485,18 @@ local moduleName = "AtlasLootMoP"
 				{ 7, 93030, "", "=q3=Dusty Clutch of Eggs", "=ds=#e13#", "=q2="..BabbleBoss["Maexxna"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
 				{ 8, 93029, "", "=q3=Gluth's Bone", "=ds=#e13#", "=q2="..BabbleBoss["Gluth"]..", =q1="..AtlasLoot:GetMapNameByID(535)};
 				{ 9, 93041, "", "=q3=Jewel of Maddening Whispers", "=ds=#e13#", "=q2="..BabbleBoss["The Prophet Skeram"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 10, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#"};
-				{ 11, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
-				{ 12, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(781)};
-				{ 13, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..AtlasLoot:GetMapNameByID(798)};
-				{ 14, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 17, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 18, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
-				{ 19, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
-				{ 20, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
-				{ 21, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..AtlasLoot:GetMapNameByID(749)};
+				{ 10, 94835, "", "=q3=Ji-Kun Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Ji-Kun", 828)..", =q1="..AtlasLoot:GetMapNameByID(930)};
+				{ 11, 94125, "", "=q3=Living Sandling", "=ds=#e13#", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(930)};
+				{ 12, 93033, "", "=q3=Mark of Flame", "=ds=#e13#", "=q2="..BabbleBoss["Sulfuron Harbinger"]..", =q1="..AtlasLoot:GetMapNameByID(696)};
+				{ 13, 33993, "", "=q3=Mojo", "=ds=#e13#", "=q1="..AtlasLoot:GetMapNameByID(781)};
+				{ 14, 35504, "", "=q3=Phoenix Hatchling", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Kael'thas Sunstrider", 533)..", =q1="..AtlasLoot:GetMapNameByID(798)};
+				{ 15, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Mother Smolderweb", 391)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 17, 94152, "", "=q3=Son of Animus", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Dark Animus", 824)..", =q1="..AtlasLoot:GetMapNameByID(930)};
+				{ 18, 93036, "", "=q3=Unscathed Egg", "=ds=#e13#", "=q2="..BabbleBoss["Razorgore the Untamed"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
+				{ 19, 93039, "", "=q3=Viscidus Globule", "=ds=#e13#", "=q2="..BabbleBoss["Viscidus"]..", =q1="..AtlasLoot:GetMapNameByID(766)};
+				{ 20, 93038, "", "=q3=Whistle of Chromatic Bone", "=ds=#e13#", "=q2="..BabbleBoss["Chromaggus"]..", =q1="..AtlasLoot:GetMapNameByID(755)};
+				{ 21, 12264, "", "=q3=Worg Carrier", "=ds=#e13#", "=q2="..AtlasLoot:EJ_GetBossName("Quartermaster Zigris", 393)..", =q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 22, 48114, "", "=q1=Deviate Hatchling", "=ds=#e13#", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..AtlasLoot:GetMapNameByID(749)};
 				extraText = ": "..AL["Dungeon/Raid"]
 			};
 		};
@@ -9032,29 +9153,31 @@ local moduleName = "AtlasLootMoP"
 		["Normal"] = {
 			{
 				{ 1, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
-				{ 2, 78919, "", "=q4=Experiment 12-B", "=q2="..AtlasLoot:EJ_GetBossName("Ultraxion", 331)..", =q1="..AtlasLoot:GetMapNameByID(824)},
-				{ 3, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
-				{ 4, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..AtlasLoot:EJ_GetBossName("Alysrazor", 194)..", =q1="..AtlasLoot:GetMapNameByID(800)},
-				{ 5, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#"};
-				{ 6, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..AtlasLoot:GetMapNameByID(824)},
-				{ 7, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..AtlasLoot:GetMapNameByID(529), "", ""};
-				{ 8, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
-				{ 9, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..AtlasLoot:GetMapNameByID(531), "100%"};
-				{ 10, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..AtlasLoot:GetMapNameByID(824)},
-				{ 11, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..AtlasLoot:GetMapNameByID(531), "100%"};
-				{ 12, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..AtlasLoot:GetMapNameByID(527), ""};
-				{ 13, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..AtlasLoot:GetMapNameByID(527), ""};
-				{ 14, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..AtlasLoot:EJ_GetBossName("Al'Akir", 155)..", =q1="..AtlasLoot:GetMapNameByID(767)};
+				{ 2, 95059, "", "=q4=Clutch of Ji-Kun", "=q2="..AtlasLoot:EJ_GetBossName("Ji-Kun", 828)..", =q1="..AtlasLoot:GetMapNameByID(930)};
+				{ 3, 78919, "", "=q4=Experiment 12-B", "=q2="..AtlasLoot:EJ_GetBossName("Ultraxion", 331)..", =q1="..AtlasLoot:GetMapNameByID(824)},
+				{ 4, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
+				{ 5, 71665, "", "=q4=Flametalon of Alysrazor", "=q2="..AtlasLoot:EJ_GetBossName("Alysrazor", 194)..", =q1="..AtlasLoot:GetMapNameByID(800)},
+				{ 6, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#"};
+				{ 7, 77069, "", "=q4=Life-Binder's Handmaiden", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..AtlasLoot:GetMapNameByID(824)},
+				{ 8, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..AtlasLoot:GetMapNameByID(529), "", ""};
+				{ 9, 87777, "", "=q4=Reins of the Astral Cloud Serpent", "=ds=#e27#", "=q2="..AtlasLoot:EJ_GetBossName("Elegon", 726)..", =q1="..AtlasLoot:GetMapNameByID(896), ""};
+				{ 10, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..AtlasLoot:GetMapNameByID(531), "100%"};
+				{ 11, 77067, "", "=q4=Reins of the Blazing Drake", "=q2="..AtlasLoot:EJ_GetBossName("Madness of Deathwing", 333)..", =q1="..AtlasLoot:GetMapNameByID(824)},
+				{ 12, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..AtlasLoot:GetMapNameByID(531), "100%"};
+				{ 13, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..AtlasLoot:GetMapNameByID(527), ""};
+				{ 14, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..AtlasLoot:GetMapNameByID(527), ""};
+				{ 15, 63041, "", "=q4=Reins of the Drake of the South Wind", "=q2="..AtlasLoot:EJ_GetBossName("Al'Akir", 155)..", =q1="..AtlasLoot:GetMapNameByID(767)};
 				{
-					{ 15, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..AtlasLoot:GetMapNameByID(532)..", =ec1=#m6#", "", ""};
-					{ 15, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..AtlasLoot:GetMapNameByID(532)..", =ec1=#m7#", "", ""};
+					{ 16, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..AtlasLoot:GetMapNameByID(532)..", =ec1=#m6#", "", ""};
+					{ 16, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..AtlasLoot:GetMapNameByID(532)..", =ec1=#m7#", "", ""};
 				};
-				{ 16, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..AtlasLoot:GetMapNameByID(718), ""};
-				{ 17, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..AtlasLoot:GetMapNameByID(800)},
-				{ 19, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "10.91%"};
-				{ 20, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "11.77%"};
-				{ 21, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "1.32%"};
-				{ 22, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "12.64%"};
+				{ 17, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..AtlasLoot:GetMapNameByID(718), ""};
+				{ 18, 69224, "", "=q4=Smoldering Egg of Millagazor", "=q2="..BabbleBoss["Ragnaros"]..", =q1="..AtlasLoot:GetMapNameByID(800)},
+				{ 19, 93666, "", "=q4=Spawn of Horridon", "=q2="..AtlasLoot:EJ_GetBossName("Horridon", 819)..", =q1="..AtlasLoot:GetMapNameByID(930)};
+				{ 21, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "10.91%"};
+				{ 22, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "11.77%"};
+				{ 23, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "1.32%"};
+				{ 24, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..AtlasLoot:GetMapNameByID(766), "", "12.64%"};
 			};
 		};
 		info = {
@@ -9120,7 +9243,6 @@ local moduleName = "AtlasLootMoP"
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
 				{ 2, 60954, "", "=q4=Fossilized Raptor", "=ds=#e26# =q2=#p25#"};
 				{ 3, 82453, "", "=q4=Jeweled Onyx Panther", "=ds=#e27# =q2=#p12#"};
-				--{ 4, 95416, "", "=q4=Sky Claw", "=ds=#e27# =q2=#p5#"}; --seems like this does not go live
 				{ 4, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
 				{ 5, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
 				{ 6, 64883, "", "=q4=Scepter of Azj'Aqir", "=ds=#e26# =q2=#p25#"};
